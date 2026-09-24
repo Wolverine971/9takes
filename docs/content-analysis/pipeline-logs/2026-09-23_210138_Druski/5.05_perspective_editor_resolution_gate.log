@@ -1,0 +1,2 @@
+WARN  draft-reviewed.md no longer matches context.json draft_sha256; the frozen snapshot was modified after the freeze. Compare against `git show <commit>:src/blog/people/drafts/Druski.md` before trusting line numbers.
+ok    editor-resolution.md is complete and tied to the frozen draft

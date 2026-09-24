@@ -37,6 +37,7 @@ import {
 import {
 	DEFAULT_CONFIG,
 	alreadyLinks,
+	hasQuestion,
 	anchorChoiceQuestion,
 	anchorParagraphs,
 	bridgeChoiceQuestion,
@@ -135,13 +136,18 @@ function loadInputs() {
 	return { posts, people, graph, gsc, curated, docFrequency, sources, skipped };
 }
 
-const candidateTargets = (ctx, source, dests) =>
-	dests.filter(
+const candidateTargets = (ctx, source, dests) => {
+	// One give-first question per post: skip question destinations when the post already
+	// has a T-12 <StrategicQuestion> box or links a question page.
+	const asksAlready = hasQuestion(source);
+	return dests.filter(
 		(d) =>
 			d.url !== source.url &&
 			!alreadyLinks(source, d.url) &&
+			!(asksAlready && d.kind === 'question') &&
 			!ctx.skipped.has(`${source.url} -> ${d.url}`)
 	);
+};
 const fileLine = (source, line) => line + (source.post.bodyLineOffset ?? 0);
 const excerpt = (text, n = 200) => {
 	const clean = text.replace(/\s+/g, ' ').trim();

@@ -183,6 +183,16 @@ export function alreadyLinks(source, url) {
 	);
 }
 
+/** The post already asks a question: a T-12 StrategicQuestion box or a /questions/<slug> link. */
+export function hasQuestion(source) {
+	return (
+		/<StrategicQuestion\b/.test(source.post?.body ?? '') ||
+		(source.outOther ?? []).some((href) =>
+			/^\/questions\/(?!categories\/)[^/?#]+/.test(String(href))
+		)
+	);
+}
+
 /**
  * How much of the destination's search demand the source also shows up for.
  * A link from a page that competes for the same query tells Google two pages

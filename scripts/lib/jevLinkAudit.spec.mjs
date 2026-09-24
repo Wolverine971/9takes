@@ -7,6 +7,7 @@ import { chunkQuestions, createJevClient, estimateTokens } from './jevClient.js'
 import {
 	DEFAULT_CONFIG,
 	alreadyLinks,
+	hasQuestion,
 	anchorParagraphs,
 	applyCaps,
 	competition,
@@ -176,6 +177,20 @@ describe('page text and paragraphs', () => {
 		const source = node('/a', { outOther: ['/questions/foo?ref=blog'] });
 		expect(alreadyLinks(source, '/questions/foo')).toBe(true);
 		expect(alreadyLinks(source, '/questions/bar')).toBe(false);
+	});
+});
+
+describe('hasQuestion', () => {
+	it('sees a StrategicQuestion box or a question link, not the questions index or categories', () => {
+		expect(hasQuestion(node('/a', { post: { body: '<StrategicQuestion question="x" />' } }))).toBe(
+			true
+		);
+		expect(hasQuestion(node('/a', { outOther: ['/questions/whats-your-biggest-fear'] }))).toBe(
+			true
+		);
+		expect(
+			hasQuestion(node('/a', { outOther: ['/questions', '/questions/categories/love'] }))
+		).toBe(false);
 	});
 });
 

@@ -206,7 +206,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 		supabase
 			.from('coaching_waitlist')
 			.select(
-				'id, name, email, session_goal, enneagram_type, created_at, metadata:coaching_waitlist_metadata(source, utm_medium, utm_campaign, utm_content, ip_address, user_agent)'
+				'id, name, email, session_goal, enneagram_type, created_at, flagged_reason, metadata:coaching_waitlist_metadata(source, utm_medium, utm_campaign, utm_content, ip_address, user_agent)'
 			)
 			.order('created_at', { ascending: false })
 			.limit(10)
@@ -420,6 +420,10 @@ export const actions: Actions = guardAdminActions({
 
 		if (waitlistError || !waitlistEntry) {
 			return fail(404, { error: 'Waitlist entry not found' });
+		}
+
+		if (waitlistEntry.flagged_reason) {
+			return fail(400, { error: 'This signup is flagged as a bot, so it can’t become a client' });
 		}
 
 		// Check if client already exists with this email

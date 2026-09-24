@@ -1,7 +1,15 @@
 {
-	"_about": "Settings for `pnpm audit:links:jev` (scripts/jev-link-audit.mjs). Omitted keys fall back to DEFAULT_CONFIG in scripts/lib/jevLinkAudit.js. `twins` maps a losing duplicate to the page Google already prefers for the same searches; losers are never link destinations.",
+	"_about": "Settings for `pnpm audit:links:jev` (scripts/jev-link-audit.mjs). Omitted keys fall back to DEFAULT_CONFIG in scripts/lib/jevLinkAudit.js. `twins` maps a page that will lose a merge (or already loses the search) to the page that wins; losers are never link destinations. Keep it in sync with the cluster plan in docs/taskers/T-07-merge-and-301-consolidation-plan.md section 4.",
 	"twins": {
 		"/enneagram-corner/red-flags-dating-each-enneagram-type": "/enneagram-corner/toxic-traits-relationships-warning-signs",
-		"/enneagram-corner/enneagram-types-working-in-teams": "/enneagram-corner/enneagram-team-dynamics"
+		"/enneagram-corner/enneagram-team-dynamics": "/enneagram-corner/enneagram-types-working-in-teams",
+		"/enneagram-corner/enneagram-team-diversity": "/enneagram-corner/enneagram-types-working-in-teams",
+		"/enneagram-corner/enneagram-workplace-team-building": "/enneagram-corner/enneagram-types-working-in-teams",
+		"/enneagram-corner/enneagram-self-development": "/enneagram-corner/enneagram-personal-growth",
+		"/enneagram-corner/personality-maxing": "/enneagram-corner/enneagram-personal-growth",
+		"/enneagram-corner/90-day-personality-maxing-blueprint": "/enneagram-corner/enneagram-personal-growth",
+		"/enneagram-corner/first-impression-enneagram-playbook": "/enneagram-corner/first-impression-cheat-sheet",
+		"/enneagram-corner/enneagram-mental-health-flags": "/enneagram-corner/enneagram-and-mental-illness",
+		"/enneagram-corner/neurodiversity-vs-personality": "/enneagram-corner/mental-health/enneagram-neurodivergence-guide"
 	}
 }

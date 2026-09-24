@@ -340,6 +340,101 @@
 			"id": "/enneagram-corner/enneagram-dating-guide-for-women -> /questions/how-do-you-figure-out-who-is-right",
 			"reason": "Jev audit: weak fit for a dating guide intro",
 			"date": "2026-09-23"
+		},
+		{
+			"id": "/community/inspiration-for-9takes -> /pop-culture/ghislaine-maxwell-psychology",
+			"reason": "'hostage' is FBI hostage negotiator Chris Voss, not Maxwell",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/pop-culture/us-presidents-enneagram-analysis -> /pop-culture/ghislaine-maxwell-psychology",
+			"reason": "'Hostage crisis' is the Carter-era Iran hostage crisis",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/enneagram-corner/attachment-styles-and-enneagram-types -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "'John' is John Bowlby (attachment theory), not John Coogan",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-type-2 -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "'Host' is the 2w3 wing nickname, not a show host",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-types-at-party -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "'host' is a party host",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis",
+			"reason": "'Cooper' is Cooper Union, where Epstein enrolled",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-and-mental-illness -> /pop-culture/incel-blackpill-radicalization-enneagram",
+			"reason": "'downward spiral' is about mental-health spirals, not radicalization; top-traffic page",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /pop-culture/google-leadership-evolution",
+			"reason": "'Sergey' is Brin in a list of people photographed near Epstein; not about Google",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /pop-culture/tech-titans-ai-wars",
+			"reason": "'Elon Musk' is in the same Epstein photo list; not about AI",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/pop-culture/hollywood-heartthrobs-enneagram-analysis -> /enneagram-corner/enneagram-types-and-career-choices",
+			"reason": "'career choices' means Chalamet's film roles, not choosing a career by type",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/pop-culture/kardashian-family-enneagram-analysis -> /enneagram-corner/enneagram-types-and-career-choices",
+			"reason": "'careers' is Kris managing her kids' careers, not career choice by type",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /pop-culture/tech-titans-leadership-styles",
+			"reason": "only match is 'Silicon Valley' as a place name (where the hosts started companies)",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7 -> /pop-culture/tech-titans-leadership-styles",
+			"reason": "only match is 'Silicon Valley' as a place Paul Graham left; Type 7 self-help post",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis -> /personality-analysis/hilary-duff",
+			"reason": "Duff is named only as a co-cover star; sentence is about Earle",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /personality-analysis/chelsea-handler",
+			"reason": "name in an Epstein dinner guest list; never link a person's page from that",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /personality-analysis/elon-musk",
+			"reason": "name in an Epstein photo list; never link a person's page from that",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/pop-culture/ghislaine-maxwell-psychology -> /personality-analysis/bill-gates",
+			"reason": "name in a list of figures Maxwell discussed; association risk, not about Gates",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/pop-culture/fallen-founders-enneagram-analysis -> /personality-analysis/naomi-osaka",
+			"reason": "name in a list of FTX endorsements; not about Osaka",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/pop-culture/psychology-of-public-shame -> /personality-analysis/rupert-murdoch",
+			"reason": "quoted slideshow line ('he is friends with Rupert Murdoch'); not about Murdoch",
+			"date": "2026-09-24"
 		}
 	]
 }

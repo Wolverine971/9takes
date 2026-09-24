@@ -259,3 +259,33 @@ DJ: "fix the typing conflicts." Every typing claim about a person with a 9takes 
 - Verified: wings-guide conflict check 14 → 0; gate green; 4 posts rendered on a dev server (200, no literal markdown)
 
 **Still open (DJ's call):** `trump-type-8-vs-biden-type-2` argues Trump is a Type 8 throughout (title, slug, thesis) while his page and the US Presidents post type him 3w2. That is a rewrite or retire decision, not a find-and-replace.
+
+### 2026-09-24 — 12 links added, gate debt 8 → 2
+
+- Added: `community/software-and-hardware-of-the-mind` → `/community/societal-ticking-time-bombs` ("prescribe pills")
+- Added: `enneagram/mental-health/enneagram-addiction-recovery-guide` → `/community/societal-ticking-time-bombs` ("High-stakes gambling", Type 3 hidden patterns)
+- Added: `pop-culture/tech-titans-disruptors` → `/pop-culture/fallen-founders-enneagram-analysis` ("The WeWork Saga", Rabbit Holes label, same format as the Jensen Huang item)
+- Added: `pop-culture/musk-vs-altman-trial-personality-dynamics` → `/pop-culture/fallen-founders-enneagram-analysis` ("the institution attempting to constrain him")
+- Added: `enneagram/why-the-next-thing-wont-fix-it-type-7` → `/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis` ("the Unwell Network"; Cooper is a 7 in both posts)
+- Added: `pop-culture/tech-titans-leadership-styles` → `/pop-culture/google-leadership-evolution` ("Google under Page and Brin")
+- Added: `enneagram/enneagram-type-6` → `/enneagram-corner/love-languages-and-enneagram-types` ("your love language")
+- Added: `pop-culture/tech-titans-founders-vs-stewards` → `/personality-analysis/paul-graham` ("Paul Graham", first mention)
+- Added: `enneagram/enneagram-wings-complete-guide` → `/personality-analysis/ruth-bader-ginsburg` ("Ruth Bader Ginsburg", 1w2 list; her page says 1w2; page had 0 blog links)
+- Bridge (Related list), `pop-culture/influencer-enneagram-types-instagram`: `| [The Kardashian Family Enneagram](/pop-culture/kardashian-family-enneagram-analysis)`
+- Bridge (Rabbit Holes item), `pop-culture/breaking-points-enneagram-analysis`: "- **The tech-media duo**: TBPN puts a Type 7 and a Type 3 on air for three live hours every weekday. Does wanting different things from the same show keep it sharp? Read our [John Coogan and Jordi Hays analysis](/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic)."
+- Bridge (sentence), `pop-culture/twitter-x-personality-types-toxic` (end of the "Current X is not simply unmoderated" paragraph): "On Reddit, unpaid volunteers enforce each subreddit's rules; here is [what actually motivates Reddit moderators](/pop-culture/reddit-moderators-type-1-internet)."
+- Rejected: 19 into `skipped.json`. Every gate-debt inbound suggestion was a false word match ("hostage" = Chris Voss / Iran hostage crisis, "John" = John Bowlby, "Host" = 2w3 nickname / party host, "Cooper" = Cooper Union). Also names in Epstein/Maxwell/FTX lists (Handler, Musk, Brin, Gates, Osaka), "Silicon Valley" as a place, and "career choices" meaning film roles. No curated phrase caused 2+ bad matches; the junk came from title/GSC phrases, so pairs were skipped instead
+- Gate: below-bar posts 8 → 2, grandfathered 8 → 2, broken links 0
+- Noticed:
+  - Still below the bar: `/pop-culture/ghislaine-maxwell-psychology` (only Epstein parts 1–2 link it; no live post mentions her elsewhere, and a Type 6 bridge into dark-triad would be forced). `/pop-culture/trump-type-8-vs-biden-type-2` deliberately held: its Type 8 thesis still contradicts Trump's page (3w2), so the rewrite-or-retire decision comes first
+  - `community/why-im-selective-sharing-enneagram` L33: a skeptic asks "Are there peer-reviewed research papers on this?" The science page (4,929 impressions, pos 9.6) is the perfect answer, but the only mention is inside his quote. One DJ-voice reply sentence after it would carry the link
+  - `enneagram-and-mental-illness` L94 disclaimer ("a **personality framework**, not a diagnostic tool") → `/enneagram-corner/enneagram-vs-personality-frameworks-comparison` is a clean candidate for the one-per-run slot next week
+
+### 2026-09-24 — corrections to the Jev pass: aligned with T-07 and T-12
+
+A review of the 09-23 Jev pass against open taskers found two collisions. Both are fixed.
+
+- **T-07 (merge plan) collision.** The Jev config treated `enneagram-team-dynamics` as the winner of the teams cluster; T-07 §4 folds it (along with team-diversity and workplace-team-building) into `/enneagram-corner/enneagram-types-working-in-teams`. `enneagram-workplace-team-building` L497 "team dynamics" repointed to working-in-teams. `docs/crosslinks/jev-config.json` twins now mirror T-07 §4 (teams, personal-growth, first-impression, mental-health-flags, neurodiversity clusters), and its `_about` says to keep them in sync
+- **T-12 (StrategicQuestion) duplicate.** The Jev pass added a question invitation to `enneagram-and-adhd-which-types-struggle-most` that asked the same question (#567) as the `<StrategicQuestion>` block T-12 had already placed at L257. The added sentence was removed; the StrategicQuestion stays
+- **Tool fix so it cannot recur:** `hasQuestion()` in `scripts/lib/jevLinkAudit.js` makes the audit skip question destinations for any post that already has a `<StrategicQuestion>` or a `/questions/` link (spec added, 15 tests pass)
+- **Taskers written for the typing conflicts that need rewrites, not edits:** T-38 (trump-vs-biden argues Trump = 8; rewrite as 3 vs 2 with a 301), T-39 (Kardashian: expand the Kim 3 / Kanye 7 section), T-40 (corpus-wide typing sweep + `pnpm typing:check` guard). See `docs/taskers/README.md`

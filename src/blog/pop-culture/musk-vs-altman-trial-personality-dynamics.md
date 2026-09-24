@@ -178,7 +178,7 @@ Both things can be true:
 - The board may have had serious reasons to distrust Altman.
 - The board may have handled those concerns so poorly that Altman became stronger.
 
-That is the pattern around Altman in miniature. People close to him raise concerns about candor. Then the institution attempting to constrain him fractures under the pressure of doing so. Altman survives because the organization cannot imagine continuing without the story, relationships, and momentum he provides.
+That is the pattern around Altman in miniature. People close to him raise concerns about candor. Then [the institution attempting to constrain him](/pop-culture/fallen-founders-enneagram-analysis) fractures under the pressure of doing so. Altman survives because the organization cannot imagine continuing without the story, relationships, and momentum he provides.
 
 This trial did not resolve that pattern. It documented it under oath.
 

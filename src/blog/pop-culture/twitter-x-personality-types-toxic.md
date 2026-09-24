@@ -156,7 +156,7 @@ A [2025 PLOS One study](https://journals.plos.org/plosone/article?id=10.1371%2Fj
 
 That finding supports saying hostility rose in the period studied. It does not prove the same rate persists in 2026, that every user's feed changed equally, or that one moderation decision explains the result.
 
-Current X is not simply unmoderated. Its [March 2024 abuse policy](https://help.x.com/en/rules-and-policies/abusive-behavior) prohibits targeted harassment, and its current recommendation pages describe filtering and reduced amplification for some harmful content. X also offers reply controls, Following and Lists feeds, mute, block, "Not interested," and Community Notes.
+Current X is not simply unmoderated. Its [March 2024 abuse policy](https://help.x.com/en/rules-and-policies/abusive-behavior) prohibits targeted harassment, and its current recommendation pages describe filtering and reduced amplification for some harmful content. X also offers reply controls, Following and Lists feeds, mute, block, "Not interested," and Community Notes. On Reddit, unpaid volunteers enforce each subreddit's rules; here is [what actually motivates Reddit moderators](/pop-culture/reddit-moderators-type-1-internet).
 
 There is evidence that one of those interventions can work. A [2025 PNAS study of Community Notes](https://doi.org/10.1073/pnas.2503413122) found that engagement with misleading posts fell after a note appeared. The system was much less effective when notes arrived slowly, and the analysis covered March through June 2023 rather than today's product.
 

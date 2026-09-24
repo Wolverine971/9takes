@@ -159,7 +159,7 @@ _"Righteous action with helping hearts"_
 
 **Career Patterns:** Social work, coaching, management, politics, healthcare, education
 
-**Famous Examples:** Eleanor Roosevelt, Ruth Bader Ginsburg, Martha Stewart
+**Famous Examples:** Eleanor Roosevelt, [Ruth Bader Ginsburg](/personality-analysis/ruth-bader-ginsburg), Martha Stewart
 
 **Red Flags You're This Type:**
 

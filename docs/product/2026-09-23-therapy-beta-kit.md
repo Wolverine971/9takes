@@ -2,7 +2,7 @@
 
 # Beta Kit: 1-on-1 Sessions
 
-**Status:** v0 draft for DJ to mark up. Nothing here has been sent or scheduled.
+**Status:** v0 for DJ to mark up. The booking page is live (2026-09-24). No invites have been sent.
 **Idea doc:** [`2026-09-23-therapy-on-steroids.md`](./2026-09-23-therapy-on-steroids.md)
 
 > **This repo is public.** Participant names, emails, recon answers, and session notes never go in this repo. They live in `/admin/consulting` (private DB), DJ's Gmail, and BuildOS.
@@ -11,27 +11,29 @@
 
 Vetted 2026-09-23 against `coaching_waitlist`, its metadata, and `auth.users`:
 
-| Group                           | Count | Evidence                                                                                                                                                                                                                                                                                   |
-| ------------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Real people**                 | **2** | One signed up Apr 2026 from iPhone with a detailed, specific goal. The other signed up Mar 2025 from Android with a plausible name and no details.                                                                                                                                         |
-| Bot wave (Nov 19 – Dec 1, 2025) | 14    | Random-string names ("fJHGFyAJDgAbEKCfse"), the same malformed user agent, rotating hosting-range IPs, and auth accounts created about 60s before each signup with zero activity and no logins. The emails belong to real third parties whose addresses were used by a signup-bombing bot. |
-| DJ test rows                    | 2     | localhost + djwayne3                                                                                                                                                                                                                                                                       |
+| Group                           | Count | Evidence                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------------- | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Real people**                 | **2** | One signed up Apr 2026 from iPhone with a detailed, specific goal. The other signed up Mar 2025 from Android with a plausible name and no details.                                                                                                                                                                                                                                                |
+| Bot wave (Nov 19 – Dec 1, 2025) | 14    | Random-string names ("fJHGFyAJDgAbEKCfse"), the same malformed user agent, rotating hosting-range IPs, and auth accounts created about 60s before each signup with zero activity and no logins. The emails belong to real third parties whose addresses were used by a signup-bombing bot. **Flagged and email-blocked 2026-09-24** (migration `20260924120000_coaching_waitlist_bot_flags.sql`). |
+| DJ test rows                    | 2     | localhost + djwayne3                                                                                                                                                                                                                                                                                                                                                                              |
 
 **Do not email the bot-wave addresses.** Those people never signed up, so writing to them is spam and puts 9takes' sending reputation at risk.
 
 **Two people is too few for a beta.** DJ parked recruiting on 2026-09-23 to serve these two well first. When it's time, these are the candidate pools:
 
-- `signups` email list: 126 total, 90 in the last 12 months. These are not vetted yet and need the same bot check first.
+- `signups` email list: 126 total, 90 in the last 12 months. Bot-checked 2026-09-24: most of the last 12 months are bots (largely a June 14–21, 2026 attack), and only a handful are real. A few bots are still subscribed and unblocked, pending DJ's go.
 - Registered users who've commented: 32 all-time, 13 in the last 12 months.
 - Instagram, personal network, the people answering chorus questions (anonymous, so only reachable through an on-page ask).
 
 ## 2. The process
 
-1. **Booking page (DJ, about 10 min).** In Google Calendar, go to Create → Appointment schedule.
-   - Title: "9takes Beta: Discovery Call". Length: 30 min. Location: Google Meet.
-   - Pick availability windows. A couple of US-evening slots also land as mornings in Asia-Pacific.
-   - Set a 15 min buffer, a maximum of 2 bookings per day, and a booking window of the next 2–3 weeks.
-   - Description: two lines from the email, plus "This is coaching, not therapy or medical care."
+1. **Booking page. Done 2026-09-24** on dj@9takes.com (Google Calendar appointment schedule). The link is in BuildOS, not in this public repo.
+   - "9takes Beta: Discovery Call", 30 min, Google Meet, Eastern Time.
+   - Availability: Mon 7–9pm; Tue 12–2pm and 7–9pm; Wed 7–9pm; Thu 12–2pm and 7–9pm. Fri–Sun closed. The evening slots land as mornings in Asia-Pacific.
+   - 15 min buffer, a maximum of 2 bookings per day, bookable from 24 hours to 21 days out.
+   - Email verification is required, so nobody can book with someone else's address. Guests can't invite others.
+   - Description: the leveling-up framing, "free 30-minute call", "coaching, not therapy or medical care", and 988.
+   - It only checks the dj@9takes.com calendar for conflicts, not DJ's personal calendar.
    - **Keep the link unlisted and only send it by email.** The waitlist was bot-bombed once already.
 2. **Invite.** Send a personal email from DJ's Gmail rather than the site's email system. It's only a handful of people, and the email should read like it came from DJ.
 3. **When someone books.** Reply with the recon questions (section 4). In `/admin/consulting`, convert them from waitlist to client (`prospect`) so the session history lives in one private place.
@@ -41,7 +43,7 @@ Vetted 2026-09-23 against `coaching_waitlist`, its metadata, and `auth.users`:
 
 ## 3. Invite emails (drafts)
 
-`[BOOKING LINK]` is the only placeholder left. The beta is free (DJ, 2026-09-23). Names stay out of this public repo; the named versions are in the BuildOS copy.
+`[BOOKING LINK]` is filled in only in the BuildOS copy, along with the names. Both stay out of this public repo. The beta is free (DJ, 2026-09-23).
 
 ### Signup A (Apr 2026, left a detailed goal)
 

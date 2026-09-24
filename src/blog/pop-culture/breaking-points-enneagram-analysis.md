@@ -199,6 +199,7 @@ Krystal and Saagar make it look easy. It isn't. But they show up and do it anywa
 
 - **The 1-7 relationship dynamic beyond media**: 1s and 7s are connected on the Enneagram (1s go to 7 in growth, 7s go to 1 in growth). Is this partnership actually a model for how these types heal each other?
 - **Other media duos by type**: Colbert and Stewart. Hannity and Colmes. Morning Joe. Does the chemistry of every successful media duo map to a specific type pairing? See our [Podcaster Personality Map](/pop-culture/podcaster-personality-map) and [Podcast Bros analysis](/pop-culture/podcast-bros-enneagram-analysis) for more.
+- **The tech-media duo**: TBPN puts a Type 7 and a Type 3 on air for three live hours every weekday. Does wanting different things from the same show keep it sharp? Read our [John Coogan and Jordi Hays analysis](/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic).
 - **The populist personality**: Both Krystal and Saagar identify as populists, one left, one right. Is populism itself a personality-driven stance? Which types get pulled toward anti-establishment movements?
 - **Media business models and type**: Ad-supported media rewards Type 3 (flashy, viral). Subscription media rewards Type 5 (deep, loyal). Breaking Points went subscription. Does the business model match the hosts' types?
 - **The third-party fantasy**: Both hosts flirt with anti-two-party rhetoric. Is the desire for a third party a psychological need for certain types who can't tolerate binary choices?

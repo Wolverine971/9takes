@@ -191,7 +191,7 @@ The Type 3 will tell you they don't have an addiction. They have a "strong work 
 - Success addiction itself (the high of winning)
 - Image management through cosmetic procedures and strategic shopping
 
-**The hidden patterns:** High-stakes gambling, sexual conquest (another scoreboard), and social media image crafting that consumes hours they won't admit to.
+**The hidden patterns:** [High-stakes gambling](/community/societal-ticking-time-bombs), sexual conquest (another scoreboard), and social media image crafting that consumes hours they won't admit to.
 
 ### The Root Pattern
 

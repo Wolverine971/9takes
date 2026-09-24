@@ -5,37 +5,13 @@
 		"minOut": 3
 	},
 	"grandfathered": {
-		"/community/societal-ticking-time-bombs": {
-			"in": 1,
-			"out": 6
-		},
-		"/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis": {
-			"in": 2,
-			"out": 8
-		},
-		"/pop-culture/fallen-founders-enneagram-analysis": {
-			"in": 1,
-			"out": 22
-		},
 		"/pop-culture/ghislaine-maxwell-psychology": {
 			"in": 2,
 			"out": 6
 		},
-		"/pop-culture/kardashian-family-enneagram-analysis": {
-			"in": 2,
-			"out": 17
-		},
-		"/pop-culture/reddit-moderators-type-1-internet": {
-			"in": 2,
-			"out": 3
-		},
-		"/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic": {
-			"in": 2,
-			"out": 8
-		},
 		"/pop-culture/trump-type-8-vs-biden-type-2": {
 			"in": 2,
-			"out": 9
+			"out": 12
 		}
 	}
 }

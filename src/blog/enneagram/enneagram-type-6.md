@@ -377,7 +377,7 @@ You don't say "I love you" in grand gestures. You show it through vigilance and 
 
 **You prepare.** You think about their wellbeing constantly. Insurance, backup plans, what-if scenarios that protect them.
 
-The tragedy: your love language (vigilance, preparation, loyalty) often reads as worry or control to people who don't understand. You're not controlling them. You're protecting them from every danger your mind can imagine.
+The tragedy: [your love language](/enneagram-corner/love-languages-and-enneagram-types) (vigilance, preparation, loyalty) often reads as worry or control to people who don't understand. You're not controlling them. You're protecting them from every danger your mind can imagine.
 
 ### What You Need in Love
 

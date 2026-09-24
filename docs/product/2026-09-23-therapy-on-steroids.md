@@ -33,7 +33,7 @@ These are facts from the repo, not recommendations.
 
 - **The mirror is already built, one turn deep.** `/api/nine/mirror` takes a give-first answer and reflects its emotional logic back (`generateMirror` in `src/lib/server/nineTakes.ts`), then shows the nine takes. DJ's loop is the multi-turn version of this.
 - **The Mirror Moment** ([`the-mirror-moment.md`](./the-mirror-moment.md)) turns the lens onto the reader. Its rule #4 says a good mirror question is "too exposed to answer in public comments." There's no conflict with the secrecy thesis: DJ means "not shameful," not "make it public" (round 1).
-- **The beta cohort is 2 people, not 17.** Vetting on 2026-09-23 found that 14 of the 18 `coaching_waitlist` rows are a Nov 2025 signup-bombing bot wave and 2 are DJ test rows. See [`2026-09-23-therapy-beta-kit.md`](./2026-09-23-therapy-beta-kit.md). `/book-session` has had 0 signups since June.
+- **The beta cohort is 2 people, not 17.** Vetting on 2026-09-23 found that 14 of the 18 `coaching_waitlist` rows are a Nov 2025 signup-bombing bot wave and 2 are DJ test rows. The 14 were flagged and blocked from all email on 2026-09-24. See [`2026-09-23-therapy-beta-kit.md`](./2026-09-23-therapy-beta-kit.md). `/book-session` has had 0 signups since June.
 - **"The Decode"** ($150 founding sessions) was proposed 2026-09-18 and is still waiting on DJ's veto. This reframe may replace it.
 - **The messaging hierarchy was locked 2026-08-13** ([`../brand/messaging-hierarchy.md`](../brand/messaging-hierarchy.md)). Its personal payoff line, "Stop mistaking someone else's alarm for a defect," is already therapy-shaped. DJ called this a "big reframe," so it's open whether it replaces a level or lives under one.
 - **The do-not-write list** (2026-07-15) bans childhood-wound etiology claims, and "do your own therapy" content drifts toward them easily.
@@ -57,7 +57,7 @@ The worked-up version (email drafts, recon questions, session run sheets, scorec
 - **The beta is free.** In DJ's words: "I'm just seeing if I'm ironing out my process and I'm learning as I go for these free beta people. I want these people to be well served and to do good by them."
 - **Recruiting more testers is parked.** Serve the first two well first.
 - **No AI tool built into 9takes.** DJ declined the idea of in-product session prep and recap tooling. AI stays DJ's own helper, used off-platform.
-- **New thread: voice notes.** In DJ's words: "Maybe there should be a thing for people to leave voice notes to me so that I can process what they're saying and get back to them." This is still open and gets interviewed next. For reference, 9takes already has `VoiceRecorder.svelte` (2-min cap, sends speech to `/api/transcribe`, returns text only, and doesn't store audio). It's used on question answers and the blog StrategicQuestion widget.
+- **New thread: voice notes.** In DJ's words: "Maybe there should be a thing for people to leave voice notes to me so that I can process what they're saying and get back to them." Resolved in round 3 (below). For reference, 9takes already had `VoiceRecorder.svelte` (2-min cap, sends speech to `/api/transcribe`, returns text only, and doesn't store audio). It's used on question answers and the blog StrategicQuestion widget.
 
 ## DJ's decisions (2026-09-23, round 3): voice notes → "Talk to DJ"
 
@@ -77,9 +77,9 @@ DJ's vision, in DJ's words: "I should draft up a thing about myself and give som
 
 ## Guardrails to design around (not decisions)
 
-- **Crisis moments.** A deep, repeated practice will eventually reach someone in real crisis, so the beta needs a plan for that before the first session.
+- **Crisis moments.** A deep, repeated practice will eventually reach someone in real crisis. There's now a plan in the beta kit (section 5, guardrails), and the Talk to DJ page shows the 988 line.
 - **Consent.** Participants say yes to AI being used for prep and notes, and their words never land in the public repo.
 
 ## Next
 
-Rounds 1–3 of the interview are done. The beta kit is drafted, and the Talk to DJ page is built (not deployed). Next: apply the `talk_notes` migration, deploy, and test end to end. Then DJ marks up the kit, sets up the booking page, and sends the 2 invites.
+Rounds 1–3 of the interview are done. The beta kit is drafted. The Talk to DJ page is built and its database migration is applied (2026-09-23), but the code isn't deployed yet. The discovery-call booking page went live on 2026-09-24. Next: deploy and test the Talk to DJ page end to end, and DJ marks up the kit and sends the 2 invites (the drafts in BuildOS include the link).

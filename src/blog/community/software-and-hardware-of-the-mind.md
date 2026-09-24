@@ -80,7 +80,7 @@ Modern psychology focuses on the brain's "hardware" (anatomy, neurons, lobes) wh
 
 You learned about neurons in high school. About dopamine and serotonin in college. About fMRI studies in every article about mental health. But nobody taught you why you always need to be right, why you can't stop helping others at your own expense, or why you feel fundamentally different from everyone around you.
 
-The brain's "software"—personality, emotions, motivations, the patterns that actually govern your life—has been abandoned by mainstream science. Too subjective, they say. Too hard to measure. Better to scan brains and prescribe pills than to ask the uncomfortable question: _What is actually going on inside you?_
+The brain's "software"—personality, emotions, motivations, the patterns that actually govern your life—has been abandoned by mainstream science. Too subjective, they say. Too hard to measure. Better to scan brains and [prescribe pills](/community/societal-ticking-time-bombs) than to ask the uncomfortable question: _What is actually going on inside you?_
 
 There's a better way. And it's actually ancient.
 

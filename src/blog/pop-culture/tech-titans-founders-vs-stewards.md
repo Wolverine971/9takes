@@ -243,7 +243,7 @@ This was probably the right trade for the last two decades. Founder energy doesn
 
 But AI is changing the calculus. The next decade may reward speed and aggression over stability and consensus. If that's true, Google's succession problem isn't unique. It's a preview. Every steward-led company is betting that the world will continue to reward careful optimization. If the world shifts to rewarding bold, fast, founder-style moves, then the entire steward model faces the same tension Pichai faces with AI: the right temperament for the last war, not the next one.
 
-Paul Graham's "founder mode vs manager mode" essay was really about this. "Founder mode" is 5/8/1 energy. "Manager mode" is 9/3 energy. The whole debate is about personality types dressed up as management philosophy, and whether the era of the manager-steward is ending just as the industry finished selecting for them.
+[Paul Graham](/personality-analysis/paul-graham)'s "founder mode vs manager mode" essay was really about this. "Founder mode" is 5/8/1 energy. "Manager mode" is 9/3 energy. The whole debate is about personality types dressed up as management philosophy, and whether the era of the manager-steward is ending just as the industry finished selecting for them.
 
 ## The Takeaway
 

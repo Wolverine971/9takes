@@ -831,6 +831,14 @@
 															Client
 														</span>
 													{/if}
+													{#if entry.flagged_reason}
+														<span
+															class="bot-badge"
+															title="Flagged as a bot signup ({entry.flagged_reason}). Emails to this address are blocked."
+														>
+															Bot
+														</span>
+													{/if}
 												</div>
 												<p class="person-meta">
 													{#if entry.person.commentSummary.hasCommented}
@@ -875,87 +883,91 @@
 										</td>
 										<td class="action-cell" data-label="Actions">
 											<div class="action-buttons">
-												<Button
-													variant="secondary"
-													size="sm"
-													class="btn-action"
-													onclick={() => openEmailForWaitlist(entry)}
-												>
-													{#snippet icon()}
-														<svg
-															aria-hidden="true"
-															width="14"
-															height="14"
-															viewBox="0 0 24 24"
-															fill="none"
-															stroke="currentColor"
-															stroke-width="2"
-														>
-															<path
-																d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-															/>
-															<polyline points="22,6 12,13 2,6" />
-														</svg>
-													{/snippet}
-													Email
-												</Button>
-												{#if entry.isConverted && entry.clientId}
+												{#if entry.flagged_reason}
+													<span class="flagged-note">Bot signup · emails blocked</span>
+												{:else}
 													<Button
-														href="/admin/consulting/clients/{entry.clientId}"
 														variant="secondary"
 														size="sm"
 														class="btn-action"
-														aria-label="View {entry.name}'s client profile"
+														onclick={() => openEmailForWaitlist(entry)}
 													>
-														View Client
+														{#snippet icon()}
+															<svg
+																aria-hidden="true"
+																width="14"
+																height="14"
+																viewBox="0 0 24 24"
+																fill="none"
+																stroke="currentColor"
+																stroke-width="2"
+															>
+																<path
+																	d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+																/>
+																<polyline points="22,6 12,13 2,6" />
+															</svg>
+														{/snippet}
+														Email
 													</Button>
-												{:else}
-													<form
-														method="POST"
-														action="?/promoteToClient"
-														use:enhance={() => {
-															promotingId = String(entry.id);
-															return async ({ result }) => {
-																promotingId = null;
-																if (result.type === 'success') {
-																	notifications.success(`${entry.name} is now a client!`, 3000);
-																	invalidateAll();
-																} else if (result.type === 'failure') {
-																	const errorMessage =
-																		(result.data as { error?: string } | undefined)?.error ||
-																		'Failed to convert to client';
-																	notifications.danger(errorMessage, 3000);
-																}
-															};
-														}}
-													>
-														<input type="hidden" name="waitlistId" value={entry.id} />
+													{#if entry.isConverted && entry.clientId}
 														<Button
-															type="submit"
+															href="/admin/consulting/clients/{entry.clientId}"
+															variant="secondary"
 															size="sm"
-															class="btn-convert btn-action"
-															loading={promotingId === String(entry.id)}
-															aria-label="Convert {entry.name} to client"
+															class="btn-action"
+															aria-label="View {entry.name}'s client profile"
 														>
-															{#snippet icon()}
-																<svg
-																	aria-hidden="true"
-																	width="14"
-																	height="14"
-																	viewBox="0 0 24 24"
-																	fill="none"
-																	stroke="currentColor"
-																	stroke-width="2"
-																>
-																	<path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-																	<circle cx="8.5" cy="7" r="4" />
-																	<line x1="20" y1="8" x2="20" y2="14" />
-																	<line x1="23" y1="11" x2="17" y2="11" />
-																</svg>
-															{/snippet}
-															{promotingId === String(entry.id) ? 'Converting...' : 'Convert'}
+															View Client
 														</Button>
-													</form>
+													{:else}
+														<form
+															method="POST"
+															action="?/promoteToClient"
+															use:enhance={() => {
+																promotingId = String(entry.id);
+																return async ({ result }) => {
+																	promotingId = null;
+																	if (result.type === 'success') {
+																		notifications.success(`${entry.name} is now a client!`, 3000);
+																		invalidateAll();
+																	} else if (result.type === 'failure') {
+																		const errorMessage =
+																			(result.data as { error?: string } | undefined)?.error ||
+																			'Failed to convert to client';
+																		notifications.danger(errorMessage, 3000);
+																	}
+																};
+															}}
+														>
+															<input type="hidden" name="waitlistId" value={entry.id} />
+															<Button
+																type="submit"
+																size="sm"
+																class="btn-convert btn-action"
+																loading={promotingId === String(entry.id)}
+																aria-label="Convert {entry.name} to client"
+															>
+																{#snippet icon()}
+																	<svg
+																		aria-hidden="true"
+																		width="14"
+																		height="14"
+																		viewBox="0 0 24 24"
+																		fill="none"
+																		stroke="currentColor"
+																		stroke-width="2"
+																	>
+																		<path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+																		<circle cx="8.5" cy="7" r="4" />
+																		<line x1="20" y1="8" x2="20" y2="14" />
+																		<line x1="23" y1="11" x2="17" y2="11" />
+																	</svg>
+																{/snippet}
+																{promotingId === String(entry.id) ? 'Converting...' : 'Convert'}
+															</Button>
+														</form>
+													{/if}
 												{/if}
 											</div>
 										</td>
@@ -1922,6 +1934,22 @@
 		padding: 0.125rem 0.375rem;
 		border-radius: 4px;
 		font-weight: 500;
+	}
+
+	.bot-badge {
+		display: inline-flex;
+		align-items: center;
+		background: color-mix(in srgb, var(--error-text) 14%, transparent);
+		color: var(--error-text);
+		font-size: 0.625rem;
+		padding: 0.125rem 0.375rem;
+		border-radius: 4px;
+		font-weight: 600;
+	}
+
+	.flagged-note {
+		color: var(--ink-dim);
+		font-size: 0.75rem;
 	}
 
 	/* ==========================================

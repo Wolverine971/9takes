@@ -1,0 +1,28 @@
+Frontmatter enrichment complete: Druski
+
+The frontmatter was already fully enriched before this pass. I made one edit: one sentence in FAQ 5 now carries the "as of September 2026" date. The frontmatter still parses, `lastmod` is still `2026-04-29`, and I didn't touch the body or any comment blocks.
+
+**Fields filled:**
+- None were missing. I changed one sentence in the FAQ 5 answer ("Is Druski a good person?") from "He has not apologized for his 2025 and 2026 whiteface sketches" to "As of September 2026, he has not apologized…". The editor's P0-05 fix dated every absence claim in the body, and this sentence in the FAQ had been missed.
+
+**Fields already present (preserved, and checked against sources):**
+- `wikipedia` and `wikidata_qid` (Q111671188): both describe this exact person. The Wikidata label is "Druski, American comedian" and its English Wikipedia link is the Druski page.
+- `imdb_id` (nm11926377): matches Wikidata's IMDb entry for him.
+- `birth_date` (1994-09-12): matches Wikidata and the Wikipedia infobox.
+- `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords` and `same_as` are real values. The occupation and knows_about entries aren't copies of the templated backfill.
+- `citations`: 22 of 23 URLs load. Essence returns a 403, which is that site blocking automated requests, not a dead link.
+
+**FAQs (5). All anchors match heading slugs, computed the same way the page renders them:**
+1. What is Druski's personality type? → #what-is-druskis-personality-type
+2. How did Druski build a comedy empire after Netflix said no? → #we-dont-need-anybody-else-how-netflixs-rejection-built-an-empire
+3. Why won't Druski apologize for the whiteface and Erika Kirk sketches? → #whiteface-erika-kirk-and-the-argument-druski-wont-have
+4. Why does Druski roast himself? → #why-druski-can-roast-himself-better-than-anyone-else-could
+5. Is Druski a good person? → #the-mafiathon-stream-and-the-apology-that-wouldnt-land
+
+**Issues (none block the grade):**
+- **Birth place sources disagree.** Wikipedia says Columbia, Maryland, and Wikidata says Baltimore. I kept Wikipedia's version, which is what the draft already had.
+- **Two FAQ facts aren't in the body.** FAQ 1 quotes "my team is involved in the creative side" (Rolling Stone 2024), and FAQ 2 says "up from $14 million a year earlier" (Forbes 2025 list). Both are verified in the evidence packet, and the editor pass put them there on purpose to fix P0-06 and claim CLM-02. I kept them, because cutting them could reopen those P0s. A future refresh could add them to the body so the FAQs and body line up.
+- **FAQs 1, 3 and 5 run 6 to 8 sentences** against the 2–4 target. The extra sentences come from the review panel's P0 fixes (the 2022 takedown, the dismissal context, dated absences), so I didn't trim them.
+- **There are 23 citations against a 3–8 target, and the body has no external inline links.** The citations come from the research record, not the body.
+
+The next stage is `/grade_blog`.

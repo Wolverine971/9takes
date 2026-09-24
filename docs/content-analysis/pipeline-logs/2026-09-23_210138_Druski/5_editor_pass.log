@@ -1,0 +1,23 @@
+I finished the editor pass on `src/blog/people/drafts/Druski.md`. All 6 must-fix items (P0s), all 12 accepted improvements (P1s) and the top optional fix are resolved. The page's claims about how Druski handles criticism are now narrower and better supported.
+
+**What changed for readers**
+- **New opening.** The old hook said you'd "feel small" around him, and every witness the page quotes said the opposite. It's replaced with "he'd act like he ran it, and within a minute everyone would be laughing." It also now says who he is in the first 50 words.
+- **The 2022 takedown is on the page.** He pulled a sketch once, saying "I didn't want to continue to trigger people." That breaks the old "never backs down" claims, which are all narrowed now.
+- **Erika Kirk is identified.** The page now says she is Charlie Kirk's widow and the head of Turning Point USA, so readers can weigh the backlash. The page no longer rules on the whiteface-vs-blackface argument.
+- **The Mafiathon section is fairer.** It adds that the mother's security complaint was aimed at the stream's organizers, not Druski. It also notes that her videos called Druski racial slurs, without quoting them. Every sentence implying he timed his next projects to bury the story is cut. The protected lines about the apology are unchanged.
+- **The type call holds up against 9takes' own Type 8 page.** His joke-and-move-on habit is credited to his Seven wing. The Eight call now rests on his fear of depending on anyone, backed by his own Rolling Stone quote.
+- **A clear rule replaces the vague claim.** He answers factual accusations fast and on the record, and he doesn't argue with verdicts on his taste or character. Every "he never answered" claim is dated "as of September 2026."
+
+**The biggest find:** the question every reviewer left open was whether he'd answered the whiteface critics in Billboard's December 2025 cover story. The full article had already been saved in `/tmp` by the earlier refresh session, and I checked the quote against the raw page. He did talk about the sketch, but only to say "it really was never any backlash. Everybody loved it." That's now on the page, set against 2022: that year he pulled a clip because people were upset; in 2025 he said nobody was. I added a note to memory to check `/tmp` before calling a paywalled source unreadable.
+
+**Checks:** lint has 0 fails, the contrast-pair count from `blog-quality-report` is 0, and there are no em-dashes. `lastmod` is untouched and all protected lines and anchors are intact.
+
+**One decision for you:** the body is 4,085 words. That's over the 3,900 target but under the 4,500 ceiling, and the extra comes from the required fixes plus the Billboard quote. If you want it back inside 3,900, I'd cut the Beckham paragraph and the Tyler Perry line next. Say so and I'll do it.
+
+**Still open:**
+- I couldn't load the Military.com piece, so no "grieving widow" framing is attributed to named critics.
+- Whether the mother said "insulting" or "assaulting" needs her original video. The page quotes only the words both sources agree on.
+- Kai Cenat's December 2024 streams haven't been checked for any later comment from Druski.
+- `lastmod` still shows April 2026 above content dated through September. That's your call at push.
+
+It's ready for `/blog_perspective_verify_people`; I haven't claimed the gate passes. The per-item log is in `docs/content-analysis/perspective-reviews/Druski/2026-09-23_210138/editor-resolution.md`.

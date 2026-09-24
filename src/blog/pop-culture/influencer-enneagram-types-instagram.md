@@ -362,4 +362,4 @@ None of these sources validates an Enneagram distribution, type-specific platfor
 or type-specific burnout trajectory for influencers. The nine-type table is editorial
 and intended for self-reflection.
 
-**Related:** [Parasocial Relationships by Enneagram Type](/pop-culture/parasocial-relationships-enneagram-type) | [Masculinity and Emotional Maturity](/pop-culture/masculinity-strength-and-the-enneagram) | [How Reddit Moderation Actually Works](/pop-culture/reddit-moderators-type-1-internet) | [The Blackpill Downward Spiral](/pop-culture/incel-blackpill-radicalization-enneagram)
+**Related:** [Parasocial Relationships by Enneagram Type](/pop-culture/parasocial-relationships-enneagram-type) | [Masculinity and Emotional Maturity](/pop-culture/masculinity-strength-and-the-enneagram) | [How Reddit Moderation Actually Works](/pop-culture/reddit-moderators-type-1-internet) | [The Blackpill Downward Spiral](/pop-culture/incel-blackpill-radicalization-enneagram) | [The Kardashian Family Enneagram](/pop-culture/kardashian-family-enneagram-analysis)

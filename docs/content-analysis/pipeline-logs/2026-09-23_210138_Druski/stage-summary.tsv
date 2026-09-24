@@ -14,3 +14,6 @@
 4.5	perspective_reviews_gate	0	0s
 4.6	perspective_synthesis	0	758s
 4.7	perspective_synthesis_gate	0	0s
+5	editor_pass	0	825s
+5.05	perspective_editor_resolution_gate	0	0s
+6	enrich_frontmatter	0	159s

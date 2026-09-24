@@ -81,13 +81,13 @@ faqs:
     answer: "After Netflix, Amazon, and Hulu all passed on his shows, Druski self-financed them through 4Lifers Entertainment. Coulda Been House Season 1 pulled 58 million views and Coulda Been Love pulled 80 million across seven episodes. The Coulda Fest arena tour followed in 2025, and Forbes put his creator earnings at $20 million on its 2026 Top Creators list, up from $14 million a year earlier. The Diggers, a feature film with Kenya Barris announced in June 2025, was still in development as of September 2026."
     anchor: 'we-dont-need-anybody-else-how-netflixs-rejection-built-an-empire'
   - question: "Why won't Druski apologize for the whiteface and Erika Kirk sketches?"
-    answer: "Part of the answer is economics: Billboard called never apologizing comedy's \"acid test\" and said Druski \"just passed.\" The Type 8 reading adds a temperament that would rather be respected than liked. After the August 31, 2025, NASCAR whiteface sketch he posted \"AM I CANCELLED?\" and later told Billboard there \"really was never any backlash.\" The March 2026 sketch was widely read as Erika Kirk, Charlie Kirk's widow and Turning Point USA's CEO, six months after her husband was killed. Ted Cruz called it \"beneath contempt,\" and as of September 2026 Druski has not answered him. The question he leaves open is whether a sketch titled for a category, aimed at one recently widowed woman, still hits its target or flattens her into a punchline. He has pulled a sketch once: in 2022, after critics said it made light of predatory behavior."
+    answer: "Part of the answer is economics: Billboard called never apologizing comedy's \"acid test\" and said Druski \"just passed.\" The Type 8 reading adds a temperament that would rather be respected than liked. After the August 31, 2025, NASCAR whiteface sketch he posted \"AM I CANCELLED?\" and later told Billboard there \"really was never any backlash.\" The March 2026 sketch was widely read as Erika Kirk, Charlie Kirk's widow and Turning Point USA's CEO, about six months after her husband was killed. Ted Cruz called it \"beneath contempt,\" and as of September 2026 Druski has not answered him. The question he leaves open is whether a sketch titled for a category, aimed at one recently widowed woman, still hits its target or flattens her into a punchline. He has pulled a sketch once: in 2022, after critics said it made light of predatory behavior."
     anchor: 'whiteface-erika-kirk-and-the-argument-druski-wont-have'
   - question: 'Why does Druski roast himself?'
     answer: "Jack Harlow describes the self-roast as openness: Druski points out his own flaws and makes himself look stupid, and Harlow says that is why people feel comfortable around him. The Type 8 reading adds control: the joke about Druski is safest in Druski's hands, and you can see it in who gets to join in. When Rubi Rose posted that she \"never slept with that man\" and that he had paid for PR, the outsider got a flat rebuttal: \"Never needed no PR.\" When Harlow piled on with \"#INDEPENDENT #SELFMADE,\" the friend got a bit back: \"where the HELL are you?\""
     anchor: 'why-druski-can-roast-himself-better-than-anyone-else-could'
   - question: 'Is Druski a good person?'
-    answer: "It depends which record you weigh. Inside his circle the record is loyalty: he has kept his day-one friends from Gwinnett County, Georgia, on camera and in his company for years. On accountability the record is mixed. On Kai Cenat's Mafiathon 2 stream in November 2024 he repeatedly called a boy his mother said was nine \"fat\" until the boy cried; he apologized to the boy on the stream within minutes, but as of September 2026 he has not answered the mother's public complaint, whose videos also used racial slurs about him. In 2022 he took down a skit after critics said it made light of predatory behavior. He has not apologized for his 2025 and 2026 whiteface sketches. Separately, a March 2025 amendment named him in a sexual assault suit against Sean \"Diddy\" Combs. A federal judge wrote that the allegations against him \"almost certainly lack a factual basis,\" and the case was dismissed without prejudice for failure to prosecute."
+    answer: "It depends which record you weigh. Inside his circle the record is loyalty: he has kept his day-one friends from Gwinnett County, Georgia, on camera and in his company for years. On accountability the record is mixed. On Kai Cenat's Mafiathon 2 stream in November 2024 he repeatedly called a boy his mother said was nine \"fat\" until the boy cried; he apologized to the boy on the stream within minutes, but as of September 2026 he has not answered the mother's public complaint, whose videos also used racial slurs about him. In 2022 he took down a skit after critics said it made light of predatory behavior. As of September 2026, he has not apologized for his 2025 and 2026 whiteface sketches. Separately, a March 2025 amendment named him in a sexual assault suit against Sean \"Diddy\" Combs. A federal judge wrote that the allegations against him \"almost certainly lack a factual basis,\" and the case was dismissed without prejudice for failure to prosecute."
     anchor: 'the-mafiathon-stream-and-the-apology-that-wouldnt-land'
 production_pretext:
   status: draft
@@ -118,9 +118,7 @@ This is what's under it, and how a broke college dropout got to $20 million in c
 <li><b>Refuses to be controlled:</b> When Netflix, Amazon, and Hulu all said "no," Druski self-funded his own shows through 4Lifers Entertainment.</li>
 <li><b>Commands any room:</b> He treated Drake's music-video set like his own office and turned movie stars into his co-judges. Druski expands to fill whatever room he's handed.</li>
 <li><b>Won't apologize for the big swings:</b> His whiteface NASCAR skit and Erika Kirk parody drew backlash, including a U.S. senator's contempt. He answered with more content.</li>
-<li><b>Protective of his inner circle:</b> He features his day-one friends in his content and built his company's writers' room around them. The people he came up with stay in the room.</li>
-<li><b>Turns rejection into fuel:</b> Family doubt, college failure, industry rejection. Each "no" became a reason to build something he controls.</li>
-</ul>
+<li><b>Protective of his inner circle:</b> He features his day-one friends in his content and built his company's writers' room around them. The people he came up with stay in the room.</li></ul>
 </div>
 </details>
 
@@ -130,19 +128,17 @@ This is what's under it, and how a broke college dropout got to $20 million in c
 
 Druski reads as an Enneagram Type 8, the Challenger. The evidence is how he answers every no. Streamers passed on his shows, so he paid for them himself. A senator and a wave of critics objected to his whiteface and Erika Kirk sketches, and he answered with more sketches. The through-line is keeping his own terms.
 
-The one emotion he names on the record is hurt, and he turns it into a vow almost on contact. His grandmother's ultimatum hurt him, by his own account, and he answered it by promising to prove the family wrong. The ultimatum became a skit channel. He has been taking decisions back into his own hands ever since.
+The one emotion he names on the record is hurt, and he turns it into a vow on contact. His grandmother's ultimatum hurt, he said, and in the same breath he promised to prove it to all of them. That vow became a skit channel.
 
-The serious alternative is [Type 7](/enneagram-corner/enneagram-type-7), specifically a 7w8. He was the class clown, and his way with critics leans Seven: a joke, then the next project. In an 8w7, that is the Seven wing's exit-making. What tips the call is the fear his own words keep circling: having to depend on anyone. "We don't need anybody to tell us we can be on that TV show, or to kiss up to somebody to try to get in that door," he told Rolling Stone in 2024. Even in deals with big companies, he said, "my team is involved in the creative side."
+The serious alternative is [Type 7](/enneagram-corner/enneagram-type-7), specifically a 7w8. He was the class clown, and his way with critics leans Seven: a joke, then the next project. In an 8w7, that is the Seven wing's exit-making. What tips the call is the fear his own words keep circling, having to depend on anyone: "We don't need anybody to tell us we can be on that TV show, or to kiss up to somebody to try to get in that door," he told Rolling Stone in 2024.
 
 The fit strains in 2026, when he hosted the BET Awards and took a supporting role in Universal's _The Catch_, two jobs inside structures he doesn't own.
 
 ## How "Big Boss Energy" Got Him Into Hip-Hop's Inner Circle
 
-He started small. His first sketch was filmed in October 2017 at an Exxon in Lawrenceville, Georgia. Instagram skits and characters followed, the frat bro Kyle Rogger among them, and by 2020 Drake, Lil Yachty, and Jack Harlow had all cast him in their music videos.
+He started small: a first sketch in October 2017 at an Exxon in Lawrenceville, Georgia, then Instagram characters like the frat bro Kyle Rogger. By 2020, Drake, Lil Yachty, and Jack Harlow had all cast him in their music videos, and he brought the boss act onto their sets.
 
-Druski doesn't just play a boss on social media. He carries himself like one in rooms that belong to other people.
-
-The early proof is on camera. <a href="/personality-analysis/drake">Drake</a>'s "Laugh Now Cry Later" video, released in August 2020, was shot at Nike's world headquarters in Beaverton, Oregon. Druski's scene lasts seconds: Drake is crying mid-workout, and Druski interrupts to ask if he's alright. Off camera, he told GQ, he spent the shoot "walking around talking to people like I was the CEO." He was a guest on Drake's set, on Nike's campus, and he played the owner anyway.
+<a href="/personality-analysis/drake">Drake</a>'s "Laugh Now Cry Later" video, released in August 2020, was shot at Nike's world headquarters in Beaverton, Oregon. Druski's scene lasts seconds: Drake is crying mid-workout, and Druski interrupts to ask if he's alright. Off camera, he told GQ, he spent the shoot "walking around talking to people like I was the CEO." He was a guest on Drake's set, on Nike's campus, and he played the owner anyway.
 
 His "Coulda Been Records" character runs on the same nerve. As the mock label CEO, he's the judge: he decides who gets rejected, how fast, and how brutally. Movie stars sign up as his co-judges and still end up in the joke. When Mark Wahlberg sat in on the Boston auditions, Druski asked him, "You from the hood?" and Wahlberg snapped back with an F-bomb. Timothée Chalamet, promoting _Marty Supreme_, joined the Brooklyn auditions, went along with Druski's joke that he's "2% Jamaican," and sang Kirk Franklin with him.
 
@@ -194,27 +190,27 @@ You can see it in who gets to join in. When rapper Rubi Rose posted in September
 
 Then Harlow piled on in public: "Or a stylist or a trainer or a nutritionist #INDEPENDENT #SELFMADE." This time Druski played along: "where the HELL are you?"
 
-The stranger got a rebuttal. The friend got a bit. That tells you who gets through. The people allowed to roast him know him well enough to know what lands, and a friend's precise insult is currency. It's the same reason his day-one crew from Gwinnett County is still around, featured in _The Guys_ and filling the writers' room at 4Lifers, when he could have graduated to an entirely different social tier. "I wanted to make a name for my friends while doing that," he told GQ.
+The stranger got a rebuttal. The friend got a bit. The people allowed to roast him know him well enough to know what lands, and a friend's precise insult is currency. It's the same reason his day-one crew from Gwinnett County is still around, featured in _The Guys_ and filling the writers' room at 4Lifers. "I wanted to make a name for my friends while doing that," he told GQ.
 
 Call it controlled vulnerability: a release valve he manages himself. Justin Bieber putting him on three skits on the 2025 album _SWAG_, one of them a mock therapy session, works for the same reason. The role lets Druski be the listener while still running the room. Bieber gets to confess. Druski never has to.
 
-And notice what the valve can't do. It only works for jokes Druski makes about Druski. When the critique comes from outside the circle, from a parent or a senator, the mechanism shuts off.
+The valve only works for jokes Druski makes about Druski. When the critique comes from outside the circle, from a parent or a senator, it shuts off.
 
 ## Whiteface, Erika Kirk, and the Argument Druski Won't Have
 
 At NASCAR's Southern 500 on August 31, 2025, Druski showed up in full whiteface: four hours in the makeup chair, a brown mullet, an American-flag tattoo, cowboy hat, overalls. He drank Budweiser, sang "Born in the U.S.A.," and posted the result as "That Guy who is just Proud to be AMERICAN."
 
-In March 2026, he did it again with a character widely read as Erika Kirk, though the video, titled "How Conservative Women in America act," never names her. Kirk is Charlie Kirk's widow. She took over Turning Point USA after he was shot and killed in September 2025, about six months before the sketch. Heavy prosthetics, blonde wig, Bible in hand, the character delivers a line about white men being the ones "who matter most" in front of a Black security guard. Senator Ted Cruz called the sketch "beneath contempt." Conservative commentator Jon Root called Druski "a despicable human being."
+In March 2026, he did it again with a character widely read as Erika Kirk, Charlie Kirk's widow, who took over Turning Point USA after he was shot and killed in September 2025. The video, titled "How Conservative Women in America act," never names her: heavy prosthetics, blonde wig, Bible in hand, a line about white men being the ones "who matter most" in front of a Black security guard. Senator Ted Cruz called the sketch "beneath contempt." Conservative commentator Jon Root called Druski "a despicable human being."
 
-Historian Clare Corbould took on the double-standard charge, that whiteface should be judged the way blackface is. In _The Conversation_ she argued that the two "are not opposite and equal" and that the Kirk sketch "isn't racism" but satire that "punches up at power." With the head of Turning Point as the target, the power part holds. What her argument can't settle is timing: the woman the sketch pointed at had been widowed about six months.
+Historian Clare Corbould took on the charge that whiteface should be judged like blackface. In _The Conversation_ she argued that the two "are not opposite and equal" and that the Kirk sketch "isn't racism" but satire that "punches up at power." With the head of Turning Point as the target, the power part holds. What her argument can't settle is timing: the sketch posted about six months after the shooting.
 
-The harder question is one the defenders skip. Category comedy was always his format: the frat bro Kyle Rogger, the Coulda Been label boss, skit titles that begin "That Friend that." What changed in 2025 was four hours in the makeup chair. NASCAR is the pure category case, and there volume does the work that precision usually does. The Kirk sketch put a category title on one identifiable woman. The title says conservative women; the face says her. It looks like the just-joking defense from the childhood house, at its widest.
+The harder question is one the defenders skip. Category comedy was always his format: the frat bro Kyle Rogger, the Coulda Been label boss. What changed in 2025 was four hours in the makeup chair. NASCAR is the pure category case, and there volume does the work that precision usually does. The Kirk sketch put a category title on one identifiable, recently widowed woman. The title says conservative women; the face says her. It looks like the just-joking defense from the childhood house, at its widest.
 
-As of September 2026, he has not apologized for either sketch or answered a critic's argument. After the NASCAR backlash he posted a video of himself strolling through a corporate building, smoking, to James Brown's "It's a Man's Man's Man's World," captioned "AM I CANCELLED?" He did talk about the sketch in Billboard's December 2025 cover story, to say "it really was never any backlash. Everybody loved it." After the Kirk sketch he posted, then deleted, a joke asking whether he had gone too far. Billboard's Frank DiGiacomo had scored the first round on September 4, 2025: "The acid test for comedians? Never apologize when they stir up controversy and outrage." Druski, Billboard concluded, "just passed the test."
+As of September 2026, he has not apologized for either sketch or answered a critic's argument. After the NASCAR backlash he posted a video of himself strolling through a corporate building, smoking, to James Brown's "It's a Man's Man's Man's World," captioned "AM I CANCELLED?" In Billboard's December 2025 cover story he said "it really was never any backlash. Everybody loved it." After the Kirk sketch he posted, then deleted, a joke asking whether he had gone too far. Billboard's Frank DiGiacomo had scored the first round on September 4, 2025: "The acid test for comedians? Never apologize when they stir up controversy and outrage." Druski, Billboard concluded, "just passed the test."
 
-He has pulled a sketch once. In April 2022 he posted "That Friend that tries to make the girls OVERLY drink." Critics said it made light of predatory behavior; some viewers read it as calling that behavior out. He took it down. "I think I just played the character too well," he told Rolling Stone in 2024. "I didn't want to continue to trigger people." In 2022 he pulled a clip because people were upset. In 2025 he said nobody was. What changed, he hasn't said.
+He has pulled a sketch once. In April 2022 he posted "That Friend that tries to make the girls OVERLY drink." Critics said it made light of predatory behavior; some viewers read it as calling that behavior out. He took it down. "I didn't want to continue to trigger people," he told Rolling Stone in 2024. In 2022 he pulled a clip because people were upset. In 2025 he said nobody was. What changed, he hasn't said.
 
-Some of the non-apology is economics, and Billboard's acid test says so out loud. The Type 8 part is how easily he holds the line: an Eight would rather be respected than liked, and an apology to a stranger is a request to be liked. The cost is that the real question, whether this satire hits its targets or flattens everyone in the makeup chair into a punchline, stands unanswered. Druski keeps the bit. The critics keep the critique.
+Some of the non-apology is economics, and Billboard's acid test says so out loud. The Type 8 part is how easily he holds the line: an Eight would rather be respected than liked. The cost is that the real question, whether this satire hits its targets or flattens everyone in the makeup chair into a punchline, stands unanswered. Druski keeps the bit. The critics keep the critique.
 
 After the Kirk sketch, the natural prediction was escalation, each sketch louder than the last. The summer of 2026 mostly broke that prediction. On June 28, while hosting the BET Awards, he debuted "JOE," a parody prequel to the Michael Jackson biopic, playing Joe Jackson in heavy makeup, belt in hand. Viewers split, and the Jackson family said nothing publicly. A week later the NASCAR character returned for the Fourth of July, in a clip that appears to come from a BET Awards promo shoot. No backlash followed.
 
@@ -233,8 +229,6 @@ Read the apology closely. "That ain't no excuse" is ownership, said live and to 
 The apology went to the boy. The complaint came from his mother, and that one he never answered. As of September 2026, no public statement from Druski to her has surfaced, on any platform.
 
 This is where the Type 8 frame stops explaining and starts excusing. The Challenger reading wants to credit Druski for apologizing at all, since Eights treat fault like ground to surrender. As a personality observation, that's true. As an account of what was owed, it sets the bar at the floor. An apology on the stream, in the same register as the joke, cost him little.
-
-In the months that followed came a Dunkin' Super Bowl campaign with Ben Affleck, the Bieber album, an ESPYs presenting slot, and the Coulda Fest tour. The mother's TikToks scrolled off the timeline, and whether the apology was enough never got settled.
 
 ## Under Fire and Fighting Back
 
@@ -271,11 +265,11 @@ The money followed the ownership. Forbes put his creator earnings at $10 million
 
 ## Where the Frame Stops Working
 
-Look across the controversies as a set and a rule shows up. When the charge is a fact, he answers fast and on the record, himself or through his reps: the Parham denial and the phone records, a spokesperson calling a reported cease-and-desist over the Kirk sketch "absolutely false." When the charge is a verdict on his taste or character, he doesn't argue.
+Look across the controversies as a set and a rule shows up. When the charge is a fact, he answers fast and on the record, himself or through his reps: the Parham denial, a spokesperson calling a reported cease-and-desist "absolutely false." When the charge is a verdict on his taste or character, he doesn't argue.
 
-As of September 2026, he has not answered the Mafiathon boy's mother, Ted Cruz, or Jon Root. Erika Kirk said on _The Charlie Kirk Show_ in April 2026, "I have comedians dressing up in whiteface," without naming him. No reply. TDE president Punch called him "weird for that Sax stunt" after a saxophonist played SZA and Doechii off the June 2026 BET Awards stage mid-speech, a play-off Druski had announced in his opening monologue. A production source told TMZ the producers made that call while Druski was backstage changing clothes. The factual half got answered for him. The verdict got nothing. The one time he gave ground, over the 2022 skit, he did it without arguing either.
+As of September 2026, he has not answered the Mafiathon boy's mother, Ted Cruz, Jon Root, or Erika Kirk, who said on _The Charlie Kirk Show_ in April 2026, "I have comedians dressing up in whiteface," without naming him. TDE president Punch called him "weird for that Sax stunt" after a saxophonist played SZA and Doechii off the June 2026 BET Awards stage mid-speech, a play-off Druski had announced in his opening monologue. A production source told TMZ the producers made that call while Druski was backstage changing clothes. The factual half got answered for him; the verdict got nothing. Even his one retreat, over the 2022 skit, came without an argument.
 
-Read as a pattern, it runs silence, then volume, then the next project. It works for the individual incident. And the same wiring that let him refuse Netflix's verdict lets him treat a verdict on his character as noise.
+Read as a pattern, his answer to a verdict runs silence, then volume, then the next project. It works for the individual incident. And the same wiring that let him refuse Netflix's verdict lets him treat a verdict on his character as noise.
 
 He hasn't hit a wall yet. The bet on himself keeps cashing, even in rooms he doesn't run.
 
@@ -288,7 +282,7 @@ He hasn't hit a wall yet. The bet on himself keeps cashing, even in rooms he doe
 
 ### Druski's Wing: 8w7
 
-The seven <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a> is the comedian in the Eight. It adds appetite, speed, and a talent for making dominance feel like a party: the class clown who became the label CEO, the tour that bolts a concert onto a comedy show, the career that keeps adding formats. An 8w9 would hold the same territory quietly. Druski holds it loudly and invites everyone in.
+The seven <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a> is the comedian in the Eight: appetite, speed, and a talent for making dominance feel like a party. It is also the exit-maker, the part that answers a controversy with the next project. An 8w9 would hold the same territory quietly. Druski holds it loudly and invites everyone in.
 
 ### Druski's Instinctual Subtype: Social (speculative)
 
@@ -298,13 +292,13 @@ The social Eight protects a group and leads it. The best evidence is the company
 
 Under stress, Eights move toward Five: withdrawal, isolation, consuming instead of acting. The depression semester reads like that line. He sat in his room for days, failing classes, watching other people's comedy. He came out of it by acting, which is the Eight reasserting itself.
 
-The growth line runs to Two: letting someone else's hurt land and saying so. The Mafiathon stream is where that line was visible and where he took it only halfway. The growth practice in the Type 8 guide is to "say the soft thing without the joke stapled to it," with "a mistake owned in the moment." The stream had both halves. "That ain't no excuse" was the mistake owned in the moment. "I'm a bigger dude" was the joke stapled to it.
+The growth line runs to Two: letting someone else's hurt land and saying so. The Mafiathon stream is where he took that line only halfway. The Type 8 guide's growth practice is to "say the soft thing without the joke stapled to it." "That ain't no excuse" was a mistake owned in the moment. "I'm a bigger dude" was the joke stapled to it.
 
 ### Counterarguments: Why Druski Might Not Be Type 8
 
 Type 7, specifically 7w8, is argued above. It explains the exits: the joke, the shrug, the next project. The Eight explains the control and the refusal to depend on anyone, and that is where the call lands.
 
-[Type 3](/enneagram-corner/enneagram-type-3) is the other real candidate, and 2026 strengthened it. The Forbes climb, the awards-show host job, and the studio supporting role all read as an Achiever going where the audience is. The 2022 takedown helps the Three case too: pulling a skit because he "didn't want to continue to trigger people" is adjusting to keep the audience's approval. The cleanest 8-vs-3 test is whether he would rather be respected than liked, and the record splits: he adjusted in 2022 and refused to in 2025 and 2026. What still leans Eight is who he keeps close: the same day-one crew on camera when a more famous circle was available.
+[Type 3](/enneagram-corner/enneagram-type-3) is the other real candidate, and 2026 strengthened it. The Forbes climb, the awards-show host job, and the studio supporting role all read as an Achiever going where the audience is. So does 2022: pulling a skit so he wouldn't "trigger people" is adjusting for approval. On the Eight's test, respected over liked, the record splits: he adjusted in 2022 and refused in 2025 and 2026. What still leans Eight is the same day-one crew on camera when a more famous circle was available.
 
 </div>
 </details>
@@ -315,7 +309,7 @@ Type 7, specifically 7w8, is argued above. It explains the exits: the joke, the 
 
 "I want my _Talladega Nights_ or _Bad Boys_," he's said, and he meant it as a target. The route there bent in 2026.
 
-Druski's story so far is a string of parallel structures he owns. Then, in June 2026, he took two jobs inside structures he doesn't. He hosted the BET Awards, a network broadcast where, according to a production source, producers ran the clock. And Universal cast him in _The Catch_, a baseball romantic comedy starring Emma Stone and Chris Pine, due May 21, 2027, reportedly as Stone's security guard. _The Diggers_, the movie built around him, was still in development as of September 2026, fifteen months after it was announced.
+Druski's story so far is a string of parallel structures he owns. The June 2026 jobs sat inside structures he doesn't. At the BET Awards, according to a production source, producers ran the clock. In Universal's _The Catch_, a baseball romantic comedy with Emma Stone and Chris Pine due May 21, 2027, he reportedly plays Stone's security guard. _The Diggers_, the movie built around him, was still in development as of September 2026, fifteen months after it was announced.
 
 There are two honest readings. The Eight reading: this is how a proprietor buys leverage, the way Kevin Hart spent years in supporting roles before his name went above the title. The Three reading: he goes where the biggest room is, whoever owns it. _The Diggers_ will help settle it. If it gets made with a 4Lifers producing credit and his own writers in the room, the Eight reading holds. If it ends up as hired work with outside writers, the Three reading gets stronger.
 
@@ -444,11 +438,12 @@ lastmod: untouched. retrofit_applied_at in the packet stays null until the push.
 7. Clare Corbould (historian, defense): "isn't racism" (headline) / "punches up at power" / "are not opposite and equal." The Conversation 2026-03-30, about the Kirk sketch. VERIFIED.
 8. Frank DiGiacomo (Billboard): "The acid test for comedians? Never apologize when they stir up controversy and outrage." / "just passed the test." Billboard 2025-09-04 (Yahoo syndication). VERIFIED.
 9. Terrence "Punch" Henderson (TDE president, critic): "weird for that Sax stunt." Deleted X post, TMZ + Complex 2026-06-29. VERIFIED. The full post contains a slur; quote only this fragment.
-10. The Mafiathon boy's mother (critic): "Security blocked me" / Druski, "an older person," was "physically and mentally insulting my son!" TikTok, Nov 2024, via Dexerto and HotNewHipHop. VERIFIED. "Assaulted" (third-party transcription) and an "accountability" ask are NOT on record; do not reintroduce them.
+10. The Mafiathon boy's mother (critic): "They wouldn't let me get my son" (aimed at the organizers) / Druski, "an older person," harmed her son "physically and mentally." TikTok, Nov 28-29 2024, via Dexerto, HotNewHipHop, Atlanta Black Star (Danielle Jones, 2024-11-30). VERIFIED for these fragments only. The verb is DISPUTED ("insulting" in HNHH vs "assaulting" in ABS/Dexerto headline; RQ-05): quote only the agreed fragments until the original video is checked. "Security blocked me" vs "Security would block me" also disputed; not quoted. The same videos used racial slurs about Druski (ABS); the page states this without reproducing them. No "accountability" ask on record. Never print the child's name (ABS prints it).
+13. Erika Kirk (target, critic): "I have comedians dressing up in whiteface" (does not name him). The Charlie Kirk Show 2026-04-29, via Complex (Jaelani Turner-Williams) and The Source. VERIFIED. No Druski reply found.
 11. Rubi Rose: "i never slept with that man" (X, ~2024-09-17; she said he "paid for PR"). HotNewHipHop/Complex. VERIFIED. She did not say "clout."
 12. Judge Rita F. Lin (court order, Aug 2025, N.D. Cal. 3:24-cv-07191 Dkt 54): the allegations against Desbordes "almost certainly lack a factual basis." Sanctions motion DENIED in the same order. VERIFIED (CourtListener/govinfo).
-Subject's own words used: GQ 2020 (funniest kid; "Upset's not even the [right] word"; "I was hurt by that"; "I literally sat in my room"; Nike "like I was the CEO"; "make a name for my friends"; Talladega Nights), Complex 2021 (depression; Steve Harvey), Essence 2025 (Netflix/Amazon/Hulu), AfroTech 2025 ("banked on ourselves"; Sandler/Hart/Perry), the Kai Cenat stream upload tdIWAgAkHYI ~17:38 (apology), social posts (Parham denial; "Never needed no PR"; "AM I CANCELLED?"), Complex 2025-12-17 (dismissal quote).
-Total qualifying third-party quotes: 12. Adverse critics named: Cruz, Root, Punch, the mother.
+Subject's own words used: GQ 2020 (funniest kid; "Upset's not even the [right] word"; "I was hurt by that"; "I literally sat in my room"; Nike "like I was the CEO"; "make a name for my friends"; Talladega Nights), Complex 2021 (depression; Steve Harvey), Essence 2025 (Netflix/Amazon/Hulu), AfroTech 2025 ("banked on ourselves"; Sandler/Hart/Perry), the Kai Cenat stream upload tdIWAgAkHYI ~17:38 (apology), social posts (Parham denial; "Never needed no PR"; "AM I CANCELLED?"), Complex 2025-12-17 (dismissal quote), Rolling Stone 2024-02-22 ("kiss up to somebody"; 2022 skit "I didn't want to continue to trigger people"), Billboard cover (Kyle Denis, 2025-12-09, print issue Dec. 13) on the NASCAR sketch: "it really was never any backlash. Everybody loved it." Billboard quote VERIFIED from the full article HTML fetched 2026-09-23 (canonical billboard.com/music/features/druski-number-ones-billboard-cover-story-interview-1236132075/); the same piece supports the breakout sentence (Kyle Rogger from late-2010s skits; Drake, Lil Yachty, Jack Harlow music videos in 2020).
+Total qualifying third-party quotes: 13. Adverse critics named: Cruz, Root, Punch, the mother, Erika Kirk.
 REMOVED at refresh: Rolling Stone "broad and confident enough to mingle with anyone" (untraceable). Theo Von "i feel a jheri curl coming on" (Von was praising the skit). Kevin Hart "Don't be a b****" (anachronistic). UnHerd and The Nation headlines. The Heights "character vs caricature" (not in the piece). Kai Cenat "forced a little bit" (referent disputed). Do not reintroduce any of them as criticism.
 -->
 
@@ -469,25 +464,25 @@ Search-intent + hybrid count: 8
 
 <!-- DISTRIBUTION LEDGER
 Type-theory paragraphs outside the diagnosis section and Rabbit Hole: 4
-Locations: Roast ("Eights usually hate showing weakness..."), Whiteface ("To an Eight, answering the critic feels like conceding ground..."), Mafiathon ("This is where the Type 8 frame stops explaining and starts excusing..."), What's Next ("There are two honest readings..."). One-clause type references ("The Type 8 wiring produced a clean exit") ride inside evidence paragraphs and are not counted.
+Locations: Roast ("Eights usually hate showing weakness..."), Whiteface ("Some of the non-apology is economics... The Type 8 part is how easily he holds the line"), Mafiathon ("This is where the Type 8 frame stops explaining and starts excusing..."), What's Next ("There are two honest readings..."). One-clause type references (the frame section's "the same wiring that let him refuse Netflix's verdict") ride inside evidence paragraphs and are not counted. The 8-vs-7 and 8-vs-3 tests live in the diagnosis and the Rabbit Hole only.
 Wing, subtype, arrows and full counter-typing live in the Rabbit Hole. The Type 7 alternative sits in the diagnosis section on purpose (strongest alternative next to the main argument).
 At the ceiling of 4. The next refresh must not add a fifth.
 -->
 
 <!-- FORMULA FINGERPRINT LEDGER
-Contrast-pair sentence engines: 0 strong / 0 comparative (scripts/blog-quality-report.mjs, 2026-09-23; was 12 strong / 2 comparative).
-Not-X-but-Y rhetorical moves counted by hand: 5. "isn't physically imposing. His presence just fills" (intro); "doesn't just play a boss... carries himself like one" (Big Boss); "treat that string of rejections as a verdict. Druski treated it as a budget meeting" (Netflix; the April fresh-eyes pass called it the one that earns its place); "A Seven keeps doors open and moves on. Druski consolidates." (diagnosis); "domestication more than an arms race" (whiteface). Do not add a sixth.
+Contrast-pair sentence engines: 0 strong / 0 comparative (scripts/blog-quality-report.mjs, re-run 2026-09-23 after the perspective editor pass; was 12 strong / 2 comparative before the refresh).
+Not-X-but-Y rhetorical moves counted by hand: 5 (re-counted after the perspective editor pass). "The boss act isn't all act" (intro); "The stranger got a rebuttal. The friend got a bit." (Roast); "The title says conservative women; the face says her." (whiteface); "domestication more than an arms race" (whiteface); "treat that string of rejections as a verdict. Druski treated it as a budget meeting" (Netflix). Retired: "isn't physically imposing," "doesn't just play a boss," "A Seven keeps doors open... Druski consolidates." Do not add a sixth.
 Same-type similarity scan: CLEAR (scripts/same-type-similarity.mjs Druski --n 8, 2026-09-23; no trip pairs, max unit pair 0.064 vs Nara-Smith). Two trips fixed during the refresh: "Eights are gut types running on anger" (0.041 vs Khabib-Nurmagomedov) and "The clearest evidence is what he does after hearing no" (0.084 vs Duke-Dennis).
 Avoid-list check: none of the docs/data/blog-avoid-list.md phrases appear (grep 2026-09-23).
 Bespoke section form: "Where the Frame Stops Working", a roll call of named critics he never answered, including the one case where someone else answered for him.
-Critic-pressure anchor: Ted Cruz, Jon Root, Punch, and the Mafiathon mother, quoted in her own words. The character-vs-caricature argument is the page's own, not attributed.
+Critic-pressure anchor: Ted Cruz, Jon Root, Punch, Erika Kirk, and the Mafiathon mother, quoted in her own words (agreed fragments only). The character-vs-caricature argument is the page's own, not attributed.
 Empathy turn: the depression semester ("The rise started as a way out of a hole").
 Current-tense anchors: Forbes 2026 ($20M, list dated 2026-06-23), BET Awards host (2026-06-28), The Catch (release 2027-05-21).
-Review triggers: The Diggers production start or cancellation; The Catch release; any public Druski response to a named critic, including the Mafiathon mother (would falsify the frame section); any refiling of the Parham suit (dismissed without prejudice).
-Falsifiable claim on the page: if The Diggers also lands on someone else's terms, the Type 3 reading strengthens.
+Review triggers: The Diggers production start or cancellation, and whether it carries a 4Lifers producing credit and his own writers (the page's stated observable); The Catch release (2027-05-21) and its press cycle, as an absence sweep; any public Druski response to a named critic on substance, including the Mafiathon mother or Erika Kirk (would falsify the frame section's rule); any refiling of the Parham suit (dismissed without prejudice); Forbes Top Creators 2027. Every absence claim on the page is dated "as of September 2026"; re-date or rewrite at the next refresh.
+Falsifiable claim on the page: The Diggers made with a 4Lifers producing credit and his own writers holds the Eight reading; hired work with outside writers strengthens the Type 3 reading.
 Internal links: 11 (drake, justin-bieber, timothee-chalamet, kai-cenat, kevin-hart, theo-von, plus enneagram-type-8/7/3, the wings guide and instinctual subtypes). Over the 2-5 creator spec by design: five are the type argument's and Rabbit Hole's references. The ben-affleck link was dropped to hold the count; the drake link from the pre-refresh page was restored.
-blog-lint.sh: 0 fail, 2 warn (link count, production_pretext draft vs published: true). Re-run 2026-09-23 after the entity-gap protect pass.
-Word budget: 3885 of 4500 (was 4545, then 3917). Inside the 3200-3900 band with 15 words to spare. Jury repairs must cut before adding.
+blog-lint.sh: 0 fail, 3 warn (link count, production_pretext draft vs published: true, body over the 3,900 band). Re-run 2026-09-23 after the perspective editor pass.
+Word budget: see the EDITOR PASS NOTES below for the post-jury count. Over the 3,200-3,900 band, under the 4,500 ceiling. The next pass must cut before adding.
 -->
 
 <!-- FRESH EYES REVIEW (2026-09-23)
@@ -540,4 +535,19 @@ Thesis: every "no" becomes a structure Druski owns, and the same wiring that bui
 10. Double ending: "The bet on himself keeps cashing" closed the page before What's Next. Now hands off: "even in rooms he doesn't run," which What's Next picks up.
 Untouched on purpose: Mafiathon and Under Fire bodies (fresh-eyes: protect), Big Boss -> Childhood seam (the H2 does the flashback), diagnosis 2026 tease (paid off by What's Next and item 10).
 Left for the writer: Erika Kirk is never identified (Charlie Kirk's widow); not in the research record, so not added here. Folding Where the Frame Stops Working into What's Next is structural, not a bridge. "Anger is the Eight's fuel" is asserted, not shown.
+-->
+
+<!-- EDITOR PASS NOTES (2026-09-23, perspective-jury mode; resolution: docs/content-analysis/perspective-reviews/Druski/2026-09-23_210138/editor-resolution.md)
+Cleaned up:
+- All six P0s repaired: the 2022 "OVERLY drink" takedown added and every universal "never retreats" line scoped; Erika Kirk identified (Charlie Kirk's widow, TPUSA CEO) and the symmetry verdict removed; the Mafiathon mother's slurs and organizer-directed complaint added and every intent/room claim cut; the category critique rebuilt (category was always his format; the Kirk sketch put a category title on one identifiable, recently widowed woman); every absence claim dated "as of September 2026"; the type argument now concedes the exits to the Seven wing (7w8 named) and tips on the fear of depending on anyone, anchored to Rolling Stone 2024.
+- RQ-01 RESOLVED: the full Billboard cover (Kyle Denis, 2025-12-09) was already fetched to /tmp by the refresh session and verified from raw HTML. He discussed the NASCAR sketch on record: "it really was never any backlash. Everybody loved it." Not an answer to critics on substance, so the frame rule stands; the quote is now on the page and sets up the 2022/2025 juxtaposition.
+- RQ-04: 2 Bears Ep. 273 transcript grepped (Kai, Cenat, Thanksgiving, Mafia, fat, crying, apolog): no mention. Kai Cenat's Dec 2024 streams not checked.
+- RQ-05: quoted only the agreed fragments. RQ-03: Military.com fetch 404'd; no memorial/bereaved framing attributed to critics. RQ-02: no cause stated. Jake Paul checked (Complex 2026-04-05) and dropped as a symmetry source: he praised the sketch.
+- REVERSED from the 09-23 refresh ledger: "the mother's later slurs about Druski (about her, not him)" was REJECTED there; the synthesis showed the slurs sat in the same videos as the complaint, so one unreproduced, sourced sentence is now in the Mafiathon section.
+- Cut: the intro's "you would feel small"/"intimidating" hook, "clowned," the Harvey gloss, "Every laugh he chases," the Season 2 guest list, the post-Mafiathon "volume" list and "accurate version," "closed loop," "the brand," the TL;DR "Turns rejection into fuel" bullet (duplicated bullet 1), the parents' names.
+
+Still rough:
+- Body is 4,085 words (blog-lint), +191 over the 3,894 snapshot and 185 over the band, 415 under the ceiling. The overage is P0 content plus the RQ-01 quote. If the verifier wants the band, the next cuts are the Beckham paragraph (39) and the Perry gloss (10), not any P0 or PROTECT line.
+- lastmod still reads 2026-04-29 above a body dated through September 2026 (DJ's call at push; FUTURE-C4).
+- Not done (P2, skipped by design): stress-arrow trigger, JOE harm clause, the "getting ahead of myself" apology fragment, TDE/The Guys glosses, subtype clause.
 -->

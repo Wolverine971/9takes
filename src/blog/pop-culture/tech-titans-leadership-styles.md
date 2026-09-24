@@ -306,7 +306,7 @@ Compare this to how Bezos or Gates in his prime would have responded to a direct
 
 After a visionary founder, whether an 8 who dominates, a 1 who demands perfection, or a 5 who experiments chaotically (see [Larry Page](/personality-analysis/larry-page) and [Sergey Brin](/personality-analysis/sergey-brin), the two 5s Pichai inherited Google from), boards want stability. A 9 provides exactly that: steady, non-threatening, process-oriented leadership that won't scare investors or alienate employees.
 
-But the trade-off is real. Google under Page and Brin was a playground for genius-level ambition: self-driving cars, internet-delivering balloons, smart contact lenses, life extension. Two 5s indulging every system worth understanding. Google under Pichai is organized, diplomatic, and safe. The personality transition from founder to operator is also a transition from ambition to maintenance.
+But the trade-off is real. [Google under Page and Brin](/pop-culture/google-leadership-evolution) was a playground for genius-level ambition: self-driving cars, internet-delivering balloons, smart contact lenses, life extension. Two 5s indulging every system worth understanding. Google under Pichai is organized, diplomatic, and safe. The personality transition from founder to operator is also a transition from ambition to maintenance.
 
 The question every 9-led company eventually faces: is stability enough? Or does the world eventually demand the kind of aggressive, type-driven conviction that a 9 is constitutionally incapable of providing?
 

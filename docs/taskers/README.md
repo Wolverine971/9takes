@@ -19,6 +19,18 @@ Agent-directed work orders. One file per unit of work. A tasker is written so th
 | -------- | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
 | **T-37** | [Information diet campaign](T-37-social-reckoning-information-diet-campaign.md) | Turn DJ's insight about individualized feeds into one evidence-backed community article, a seven-day feed audit, and a focused social package timed to _The Social Reckoning_. The movie is the hook; personalized exposure and mistaken completeness are the evergreen idea. | Ready for execution |
 
+## New workstream: Typing consistency (people pages are the source of truth)
+
+Out of the 2026-09-23 Jev internal-link audit: before linking a person, the vetting pass checked each post's typing claim against that person's page and found 20 conflicts. The sentence-level ones are already fixed (crosslink-log entry "2026-09-23: typing conflicts fixed"). These three are what is left. DJ confirmed the rule on 2026-09-24: the person's analysis page wins.
+
+| ID       | Tasker                                                                      | What it is                                                                                                                                                                                                                 | Status              |
+| -------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| **T-38** | [Trump vs Biden, Type 3 rewrite](T-38-trump-vs-biden-type-3-rewrite.md)     | The post's title, slug and thesis argue Trump is an 8; his page and the US Presidents post say 3w2. Full rewrite as a 3 vs 2 heart-triad piece with a 301 to the new slug. Also fixes the unpublished world-leaders draft. | Ready for execution |
+| **T-39** | [Kardashian, Kim and Kanye as 3 and 7](T-39-kardashian-kim-kanye-3-vs-7.md) | The "Two Type 3s Collide" section is patched to "A 3 and a 7"; this expands it into a real analysis, aligns the curse table, removes childhood-wound etiology, and clears 58 em-dashes on a 3k-impression page.            | Ready for execution |
+| **T-40** | [Typing sweep and guard](T-40-typing-consistency-sweep-and-guard.md)        | Closes the 09-23 scan's gaps (surnames, tables, JSON-LD, drafts, people pages that disagree with themselves) and adds `pnpm typing:check` so new conflicts cannot ship.                                                    | Ready for execution |
+
+Order: T-40's check first if one agent does all three (it finds anything T-38/T-39 would miss), but they are independent. T-38 and T-39 can run in parallel with it.
+
 ---
 
 ## Current queue
