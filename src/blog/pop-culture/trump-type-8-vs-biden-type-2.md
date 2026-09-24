@@ -417,7 +417,7 @@ Under stress, Type 8s pull back and get secretive (like a Type 5). Type 2s get p
 
 **What about other presidents? What types were they?**
 
-[Obama](/personality-analysis/barack-obama) is often seen as a Type 9 (Peacemaker). [Putin](/personality-analysis/vladimir-putin) is a Type 8 like Trump. Clinton was likely a Type 3. Reagan and George W. Bush were Type 9s. Nixon was a Type 6. Each type brings different strengths and blind spots to the job.
+[Obama](/personality-analysis/barack-obama) is often seen as a Type 9 (Peacemaker). [Putin](/personality-analysis/vladimir-putin) is a Type 8 like Trump. [Clinton](/personality-analysis/bill-clinton) was likely a Type 2. [Reagan](/personality-analysis/ronald-reagan) was a Type 9. [George W. Bush](/personality-analysis/george-w-bush) and Nixon were Type 6s. Each type brings different strengths and blind spots to the job.
 
 ---
 

@@ -210,6 +210,8 @@ The effects also differ among people. A [2024 experience-sampling study](https:/
 
 So the conclusion is not "X makes everyone angry." It is this: X combines mechanisms that can make conflict visible, rewarding, identity-relevant, and effortless. Under the right conditions, those mechanisms reinforce one another. Different users can interrupt them, and different communities can create better norms.
 
+Your turn: ["What are the problems with social media?"](/questions/what-are-the-problems-with-social-media) On 9takes you answer before you see anyone else's take, so nobody sets the frame for you.
+
 ## FAQs
 
 **Why is Twitter/X so toxic?**

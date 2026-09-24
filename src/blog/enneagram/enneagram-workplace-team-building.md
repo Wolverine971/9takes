@@ -494,7 +494,7 @@ Co-create communication norms based on your team's specific type composition:
 - Establish feedback protocols that honor different types' preferences
 - Develop conflict resolution approaches that work for your team's mix
 
-**Success tip:** Document these agreements visually and revisit them quarterly as team dynamics evolve.
+**Success tip:** Document these agreements visually and revisit them quarterly as [team dynamics](/enneagram-corner/enneagram-team-dynamics) evolve.
 
 ### Step 4: Map Project Workflows to Type Strengths
 

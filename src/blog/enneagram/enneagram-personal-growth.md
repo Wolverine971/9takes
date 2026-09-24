@@ -56,7 +56,7 @@ The Enneagram tradition sorts the nine types into three groups by the feeling th
 - **Shame runs Types 2, 3, and 4.** 2s manage it by being needed, 3s by being impressive, 4s by being different.
 - **Fear runs Types 5, 6, and 7.** 5s retreat into knowing. 6s scan for what could go wrong. 7s stay in motion so the fear can't catch up.
 
-Advice aimed at the wrong feeling lands on the wrong spot. "Stop overthinking" asks an anxious 6 to switch off an alarm without telling them why it's ringing. "Protect your peace" hands a numb 9 a thicker blanket.
+Advice aimed at the wrong feeling lands on the wrong spot. "[Stop overthinking](/enneagram-corner/why-you-cant-stop-overthinking-enneagram)" asks an anxious 6 to switch off an alarm without telling them why it's ringing. "Protect your peace" hands a numb 9 a thicker blanket.
 
 ## Your growth line, and who's walking it the other way
 

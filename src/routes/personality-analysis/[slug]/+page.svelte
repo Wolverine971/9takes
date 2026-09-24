@@ -144,7 +144,10 @@
 		{ tag: 'QuickAnswer', component: QuickAnswer },
 		{ tag: 'EvidenceFigure', component: EvidenceFigure as Component<Record<string, any>> }
 	];
-	const mountedPlaceholders = new Map<string, ReturnType<typeof mount>>();
+	const mountedPlaceholders = new Map<
+		string,
+		{ instance: ReturnType<typeof mount>; target: HTMLElement }
+	>();
 
 	type DiscussionComment = PublicBlogCommentRow;
 
@@ -471,9 +474,12 @@
 		const placeholders = data.placeholders ?? [];
 		const activePlaceholderIds = new Set(placeholders.map((placeholder) => placeholder.id));
 
-		// Remove instances that no longer exist in this page payload/DOM.
-		mountedPlaceholders.forEach((instance, id) => {
-			if (!activePlaceholderIds.has(id) || !document.getElementById(id)) {
+		// Remove instances that no longer exist in this page payload/DOM. Ids
+		// repeat from person to person (component-blogpurpose-0), so after a
+		// client-side nav the same id points at a fresh element: compare the
+		// element itself, or the new article keeps its static fallback.
+		mountedPlaceholders.forEach(({ instance, target }, id) => {
+			if (!activePlaceholderIds.has(id) || document.getElementById(id) !== target) {
 				unmount(instance);
 				mountedPlaceholders.delete(id);
 			}
@@ -488,20 +494,22 @@
 			const componentType = componentTypes.find((ct) => ct.tag === placeholder.type);
 			if (!componentType) return;
 
+			// BlogPurpose opens its Enneagram diagram on this article's person.
+			const props =
+				placeholder.type === 'BlogPurpose'
+					? { ...placeholder.props, personName: postDisplayName, personType: typeNum }
+					: placeholder.props;
 			const fallback = element.querySelector('[data-ssr-fallback]');
-			const instance = mount(componentType.component, {
-				target: element,
-				props: placeholder.props
-			});
+			const instance = mount(componentType.component, { target: element, props });
 			if (fallback?.parentElement === element) {
 				fallback.remove();
 			}
-			mountedPlaceholders.set(placeholder.id, instance);
+			mountedPlaceholders.set(placeholder.id, { instance, target: element });
 		});
 	}
 
 	function clearMountedPlaceholderComponents() {
-		mountedPlaceholders.forEach((instance) => {
+		mountedPlaceholders.forEach(({ instance }) => {
 			unmount(instance);
 		});
 		mountedPlaceholders.clear();

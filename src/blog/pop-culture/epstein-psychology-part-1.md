@@ -424,7 +424,7 @@ That is why, for over a decade, a registered sex offender hosted dinners with No
 
 ## The Psychology Underneath the Dark Triad
 
-Psychological analyses of Epstein consistently identify the **Dark Triad**: psychopathy, narcissism, and Machiavellianism. The behavioral record shows all three. But those labels describe what Epstein was. The Type 2 framework explains how it operated — and specifically why he believed he was _entitled_ to what he took.
+Psychological analyses of Epstein consistently identify the **[Dark Triad](/pop-culture/dark-triad-meets-enneagram)**: psychopathy, narcissism, and Machiavellianism. The behavioral record shows all three. But those labels describe what Epstein was. The Type 2 framework explains how it operated — and specifically why he believed he was _entitled_ to what he took.
 
 The unhealthy Type 2 keeps a mental ledger. Every favor, every connection, every problem solved accumulates into a conviction: _I've earned this._ That ledger is what separated Epstein from a garden-variety con man. He didn't see himself as taking. He saw himself as collecting what was owed.
 

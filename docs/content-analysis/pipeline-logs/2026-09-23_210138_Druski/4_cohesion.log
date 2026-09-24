@@ -1,0 +1,53 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Druski.md`
+
+**Before score: 7/10**
+**After score: 8.5/10**
+
+This ran as pipeline stage 4 (non-interactive), so I applied all fixes without asking.
+
+### Central Thesis
+Every "no" Druski hears becomes something he owns, and the same instinct that built the business also shuts out criticism from anyone outside his circle. The ending asks whether that still holds in 2026, when he's working on projects other people own.
+
+### Scores before the pass
+| Check | Score | Main issue |
+|---|---|---|
+| Through-line clarity | 8/10 | The thesis is clear, but the "ignores critics" claim clashed with the Parham section |
+| Promise matches delivery | 7/10 | The summary box used the BET hosting job as proof of dominance; the ending uses it as the type fit starting to strain |
+| Reader's mental model | 7/10 | Two unclear references: "the move" and "for the same reason" |
+| Section transitions | 6/10 | Five seams were weak: jumps from 2026 back to 2024, and from the lawsuit to the business story |
+| Paragraph flow within sections | 7/10 | The mother's quote jumped out of order; the streaming rejection was repeated |
+
+### Changes Made (12 total)
+
+**Thread fixes (3):**
+- **Summary box:** swapped "hosting the 2026 BET Awards" for "making movie stars his co-judges." That's the detail the Big Boss section actually shows, and it stops the summary contradicting What's Next.
+- **Where the Frame Stops Working:** it said Druski "hasn't engaged a single named critic on substance," but he answered the Parham lawsuit with phone records. It now reads "outside the Parham case."
+- **Loose thread closed:** the childhood section says he's "still running that play in larger rooms," and nothing ever paid that off. One clause in the Whiteface section now links the "AM I CANCELLED?" post and the deleted "too far" post back to the "I'm just joking" habit.
+
+**Transition fixes (5):**
+- Depression → Roast: "Often the laugh is at his own expense." This picks up "every laugh he chases" and gives "the move" something to point to.
+- Roast → Whiteface: the section now ends on "from a parent or a senator, the mechanism shuts off," which sets up the next two sections.
+- Whiteface → Mafiathon: "Before the senator, there was a mother." This marks the jump from 2026 back to 2024.
+- Under Fire → Netflix: "He had paid for that brand himself." This picks up "the brand" from the Parham section's closing line.
+- Frame section → What's Next: "keeps cashing, even in rooms he doesn't run." The page no longer ends twice.
+
+**Flow within sections (4):**
+- Childhood: moved the mother's "His discipline is his key" to the end of the section, so the timeline doesn't jump to 2025 and back.
+- Roast: moved the Bieber lines up so "works for the same reason" points at the right sentence.
+- Diagnosis: cut the second mention of the streaming rejection.
+- Where the Frame Stops Working: cut its restatement of the inside/outside-the-circle point, which the Roast section now makes.
+
+**Cuts to pay for the bridges:** "The tension escalated," "Most people would have fallen in line," "most people would have been mortified."
+
+### What Was Preserved
+- All frontmatter fields, all 11 internal links, and every H2 heading exactly as written (the ones that bring in search traffic).
+- The Mafiathon and Under Fire sections, apart from one opening line each. The fresh-eyes review said to protect them.
+- The count of Type-theory paragraphs outside the diagnosis stays at 4, the maximum. The count of "not X but Y" moves stays at 5.
+- Checks: blog-lint shows 0 fail and the same 2 warnings as before. Contrast pairs are still 0, and the same-type similarity check passes. Length is **3,894 words** (was 3,885), under the 3,900 target.
+
+### Remaining Concerns (your call)
+1. **Erika Kirk is never identified.** Readers who don't follow politics won't know she's Charlie Kirk's widow, and that is why Cruz's "beneath contempt" landed. The research record doesn't source it, so I didn't add it. One sourced phrase would fix it.
+2. **Merge "Where the Frame Stops Working" into What's Next?** The fresh-eyes review recommends it. Its one new fact (Punch and the BET saxophone play-off) is the best evidence for the 2026 question. That's a restructure, not a transition fix, so I only added the handoff line.
+3. **"Anger is the Eight's fuel"** is stated but never shown. His quotes on the page show hurt and depression, not anger.
+
+A dated `COHESION PASS` note is appended at the bottom of the draft for the later stages.

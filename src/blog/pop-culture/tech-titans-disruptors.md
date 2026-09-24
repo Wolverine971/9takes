@@ -51,7 +51,7 @@ That means 8s and 5s. And they disrupt in fundamentally different ways.
 ## Questions This Blog Will Answer
 
 - **Why do Type 8s dominate disruption?** Bezos, Kalanick, Hastings: three 8s who destroyed industries that had existed for decades. The 8's drive for dominance makes them natural disruptors. They don't see incumbents as competitors. They see them as obstacles.
-- **Why did Kalanick get ousted but Bezos didn't?** Same personality type. Same aggressive leadership style. Same willingness to burn through people. But Bezos built Amazon into a $2T company and Kalanick got fired from his own startup. The difference isn't type. It's integration.
+- **Why did Kalanick get ousted but Bezos didn't?** Same personality type. Same aggressive [leadership style](/pop-culture/tech-titans-leadership-styles). Same willingness to burn through people. But Bezos built Amazon into a $2T company and Kalanick got fired from his own startup. The difference isn't type. It's integration.
 - **How does Musk disrupt differently than the 8s?** Musk doesn't confront industries head-on. He decodes them. He sees automotive as a battery problem, aerospace as a reusability problem, social media as an engineering problem. The 5 disrupts through understanding. The 8 disrupts through force.
 - **Is disruption always destructive?** Hastings' Netflix killed Blockbuster but created a new art form (streaming originals). Bezos killed small retailers but created same-day delivery for everyone. Kalanick killed taxis but created gig economy precarity. Does the disruptor's type determine whether disruption creates or destroys?
 

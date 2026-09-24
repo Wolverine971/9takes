@@ -206,7 +206,7 @@ Threes often struggle with tying their self-worth to achievements. This can lead
 
 ## Type 4: The Individualist's Emotional Tsunami Warning
 
-Fours often struggle with feelings of defectiveness and a tendency to romanticize suffering. This can lead to depression, identity issues, and self-sabotage.
+Fours often struggle with feelings of defectiveness and a tendency to romanticize suffering. This can lead to [depression](/enneagram-corner/depression-patterns-by-enneagram-type), identity issues, and self-sabotage.
 
 ### Mental Health Red Flags
 

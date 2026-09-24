@@ -266,6 +266,8 @@ You don't need another brain scan. You don't need another percentile score. You 
 
 Your answers will tell you more about your personality than any fMRI ever could.
 
+You can answer the last one on 9takes before you see anyone else's: ["What's your biggest fear?"](/questions/whats-your-biggest-fear)
+
 Now notice which question landed hardest — or which one you instinctively wanted to skip. That reaction is data.
 
 If anger is your live wire (or the emotion you work hardest to suppress), you likely operate from the **Gut center** (Types 8, 9, 1). If shame drives you — the constant measuring of yourself against others, the performance, the fear of being exposed as not enough — explore the **Heart center** (Types 2, 3, 4). If fear is your engine — the scanning, the contingency planning, the need to stay three steps ahead or stay distracted so you don't have to sit still — start with the **Head center** (Types 5, 6, 7).

@@ -384,6 +384,7 @@ Run via `pnpm <alias>` where available:
 | `pnpm gen:crosslinks`                           | Cross-link report + ranked link-opportunity queue (`docs/crosslinks/`) |
 | `pnpm gen:crosslinks -- --target <url>`         | Sentences in live posts that mention a page but don't link it yet      |
 | `pnpm crosslinks:check`                         | Publish gate: live posts need 3+ in / 3+ out links, no broken links    |
+| `pnpm audit:links:jev`                          | Jev-judged link audit → `docs/crosslinks/jev-audit.md` (~$0.77/run)    |
 | `pnpm gen:search-index`                         | Index blogs into Supabase (guarded by env)                             |
 | `pnpm gen:all`                                  | Format + all generators + blog index                                   |
 | `pnpm gen:chorus` / `:force`                    | Generate chorus content                                                |

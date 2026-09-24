@@ -5,6 +5,14 @@
 	import { notifications } from '../molecules/notifications';
 	import { captureEmailSignupCompleted } from '$lib/analytics/marketingEvents';
 
+	interface Props {
+		/** Who the article is about; the diagram opens on their type. */
+		personName?: string;
+		personType?: number;
+	}
+
+	let { personName, personType }: Props = $props();
+
 	type SignupResponse = { ok: boolean; code?: string; message?: string };
 
 	let email = $state('');
@@ -141,7 +149,7 @@
 	</section>
 
 	<section class="explorer-section" aria-label="Explore the nine Enneagram types">
-		<EnneagramDiagram />
+		<EnneagramDiagram {personName} {personType} />
 	</section>
 </div>
 

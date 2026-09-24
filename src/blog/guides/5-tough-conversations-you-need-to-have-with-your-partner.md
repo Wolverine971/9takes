@@ -105,6 +105,8 @@ path: src/blog/guides/5-tough-conversations-you-need-to-have-with-your-partner.m
 
 You know the ones. The topics you dance around. The questions that feel too heavy. The patterns you've both silently agreed to ignore.
 
+Start with the one you've been avoiding: ["What are you afraid to tell your partner?"](/questions/what-are-you-afraid-to-tell-to-your-partner)
+
 Here's what the Gottman Institute's decades of research reveals: how you communicate predicts relationship outcomes with startling accuracy. Not compatibility. Not chemistry. Communication.
 
 The Enneagram adds a crucial layer. It maps the deeper emotional patterns driving your partner's behavior, the stuff they might not even be conscious of. When you combine Gottman's communication science with Enneagram personality insights, you get a framework for actually reading your partner instead of just reacting to them.

@@ -228,7 +228,7 @@ Oversharing isn't one thing. It looks different depending on who's doing it—an
 
 ### Type 5: The Information Oversharer
 
-**What they share:** Research. Analysis. Everything they know about a topic nobody asked about.
+**What they share:** Research. Analysis. Everything they know about a topic nobody asked about. (Guilty? ["What's something you overresearched that no one asked about?"](/questions/whats-something-overresearched-no-one-asked))
 
 **What they're seeking:** Connection through competence. If they can't share emotions easily, maybe sharing knowledge will bridge the gap.
 

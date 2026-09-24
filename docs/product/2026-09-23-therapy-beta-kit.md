@@ -134,3 +134,31 @@ Questions 5 and 6 test the thesis directly. Question 5 checks the "too few itera
 - **The shame flip.** At the next session, ask: "Did you tell anyone about what you worked on?"
 - **Pull.** Do they book the next session without being chased?
 - **Their words.** One sentence: "What did you figure out?"
+
+## 7. "Talk to DJ" page (built 2026-09-23; migration applied, code not deployed yet)
+
+`/book-session` is no longer a waitlist form. It's now **Talk to DJ**, built from DJ's round-3 answers: note first, details after, private replies only.
+
+**What visitors see**
+
+1. A short bio, a list of "people bring me things like" prompts, and one note box. They can type, or record a voice note of up to 3 minutes that gets transcribed into the box so they can edit it. The note saves the moment they tap **Send to DJ**, even if they leave right after.
+2. An optional second step: an email for a private reply, and "I'd like a free 1-on-1 session" (which asks for a first name). Checking the session box also creates a `coaching_waitlist` row, so the existing consulting admin sees them. **Skip. Stay anonymous.** is always available.
+3. A thank-you screen that matches their choice. It never promises a reply to an anonymous note.
+
+**What DJ sees:** `/admin/consulting/notes` (a new **Notes** tab). It shows each note with the voice recording playable and the transcript, the email or "Anonymous", and a "Wants a session" badge. DJ replies with text and/or a voice note of their own. The sender gets an email; a voice reply links to a private page at `/talk/reply/[token]`. There are also Archive and Restore buttons.
+
+**Decisions made in the build (veto any)**
+
+- No captcha on the note box, which keeps it as simple as possible. It's protected by a honeypot, a minimum fill time, a user-agent filter, and 5 notes per hour per visitor.
+- The site **never auto-emails a visitor-supplied address**. The only mail a visitor gets is DJ's own reply. That shuts down the Nov 2025 signup-bombing pattern.
+- Visitor voice recordings are kept (privately, in a new `talk-notes` bucket) so DJ hears their tone, not just the transcript. IPs are stored only as a salted hash, because the notes are meant to be anonymous.
+- DJ gets an email for every new note, and another if they ask for a session.
+- There's a 988 crisis line under the form, and the FAQ says "coaching, not therapy."
+- Site-wide CTAs (header, footer, homepage, About) now say "Talk to DJ" instead of "Join the coaching waitlist".
+
+**To ship**
+
+1. ~~Apply `supabase/migrations/20260923120000_talk_notes.sql` to prod.~~ **Done 2026-09-23.** Verified: the table is live, RLS is on with no policies, anon and authenticated have no access, the private `talk-notes` bucket exists, and the service-role API can see both.
+2. Deploy, then send one test note (text + voice) and reply to it from the admin, all the way through.
+
+Code: `src/lib/server/talkNotes.ts` (plus spec), `src/routes/book-session/`, `src/routes/admin/consulting/notes/`, `src/routes/talk/reply/[token]/`, `src/lib/components/admin/TalkNoteCard.svelte`. `VoiceRecorder` gained optional `onaudio`, `maxSeconds`, and `hint` props.

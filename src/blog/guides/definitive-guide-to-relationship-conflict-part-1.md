@@ -41,6 +41,8 @@ internal and external conflict
 
 The question isn't whether you'll fight. It's whether your fights end with repair or with distance.
 
+What has worked for you? Answer ["What is the key to a good marriage?"](/questions/what-is-the-key-to-a-good-marriage) and then see how the other types answered.
+
 > Across our 325 published [personality profiles](/personality-analysis), each Enneagram type reaches for a different "first move" under stress — the Type 1 criticizes with moral authority, the Type 9 stonewalls until the fight disappears. Same conflict, nine different scripts. Knowing which script you default to is half the repair.
 
 > Safety note: This guide assumes a relationship that is fundamentally safe. If arguments include threats, intimidation, coercive control, or violence, prioritize safety and professional support.

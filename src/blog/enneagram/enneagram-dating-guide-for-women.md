@@ -681,7 +681,7 @@ No type is "best." Each has natural strengths and growth edges. Type 2s excel at
 
 **Can incompatible Enneagram types date successfully?**
 
-Absolutely. Compatibility isn't about matching numbers. It's about understanding each other's core needs. A Type 1 and Type 7 can thrive if the 1 appreciates the 7's spontaneity and the 7 respects the 1's need for structure.
+Absolutely. [Compatibility](/enneagram-corner/enneagram-compatibility-matrix) isn't about matching numbers. It's about understanding each other's core needs. A Type 1 and Type 7 can thrive if the 1 appreciates the 7's spontaneity and the 7 respects the 1's need for structure.
 
 **How do I know if someone is attracted to my authentic self?**
 

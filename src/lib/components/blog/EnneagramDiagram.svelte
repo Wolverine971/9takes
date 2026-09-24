@@ -7,9 +7,13 @@
 	interface Props {
 		size?: 'sm' | 'md' | 'lg';
 		showLabels?: boolean;
+		/** Who the article is about. With `personType`, the symbol rests on their
+		 *  type ("Druski is a Type 8") instead of the legend. */
+		personName?: string;
+		personType?: number;
 	}
 
-	let { size = 'md', showLabels = true }: Props = $props();
+	let { size = 'md', showLabels = true, personName, personType }: Props = $props();
 
 	type Source = 'node' | 'legend';
 
@@ -126,9 +130,21 @@
 	let detailType = $state(1);
 	let releaseTimer: ReturnType<typeof setTimeout> | undefined;
 
-	let detailsOpen = $derived(activeType !== null && activeSource === 'node');
-	let detail = $derived(enneagramTypes[detailType - 1]);
-	let activeColor = $derived(activeType ? enneagramTypes[activeType - 1].color : undefined);
+	let featuredName = $derived(personName?.trim() ?? '');
+	let featuredType = $derived.by(() => {
+		const type = personType ?? 0;
+		return featuredName && Number.isInteger(type) && type >= 1 && type <= 9 ? type : null;
+	});
+	// What the symbol shows: the hovered type, else the article's person, else nothing.
+	let shownType = $derived(activeType ?? featuredType);
+	// With a person the card is the resting state; without one it opens from the symbol.
+	let detailsOpen = $derived(
+		featuredType !== null || (activeType !== null && activeSource === 'node')
+	);
+	let detail = $derived(
+		enneagramTypes[(featuredType !== null ? (activeType ?? featuredType) : detailType) - 1]
+	);
+	let activeColor = $derived(shownType ? enneagramTypes[shownType - 1].color : undefined);
 
 	function activate(id: number, source: Source) {
 		clearTimeout(releaseTimer);
@@ -168,11 +184,32 @@
 	}
 </script>
 
+{#snippet cardBody(type: (typeof enneagramTypes)[number])}
+	<div class="card-head">
+		<span class="card-badge">{type.id}</span>
+		<div class="card-titles">
+			{#if type.id === featuredType}
+				<span class="card-name">{featuredName} is a Type {type.id}</span>
+				<span class="card-core"
+					>{type.name} &middot; Core emotion: <strong>{type.coreEmotion}</strong></span
+				>
+			{:else}
+				<span class="card-name">{type.name}</span>
+				<span class="card-core">Core emotion: <strong>{type.coreEmotion}</strong></span>
+			{/if}
+		</div>
+	</div>
+	<p class="card-description">{type.description}</p>
+	<p class="card-stance">
+		<strong>{type.emotionalStance}</strong>: {type.stanceDetail}
+	</p>
+{/snippet}
+
 <div
 	class="diagram-wrapper"
 	class:size-sm={size === 'sm'}
 	class:size-lg={size === 'lg'}
-	class:has-active={activeType !== null}
+	class:has-active={shownType !== null}
 	style:--active-color={activeColor}
 >
 	<div
@@ -192,7 +229,7 @@
 					x2={to.x}
 					y2={to.y}
 					class="line line-{line.kind}"
-					class:lit={activeType === line.a || activeType === line.b}
+					class:lit={shownType === line.a || shownType === line.b}
 				/>
 			{/each}
 		</svg>
@@ -201,7 +238,8 @@
 			<a
 				href={resolve(getTypeUrl(type.id))}
 				class="type-node"
-				class:active={activeType === type.id}
+				class:active={shownType === type.id}
+				class:featured={featuredType === type.id}
 				style:left="{positions[index].x}%"
 				style:top="{positions[index].y}%"
 				style:--node-color={type.color}
@@ -214,9 +252,10 @@
 	</div>
 
 	<!-- The legend and the type card share one grid cell, so swapping between
-	     them never moves anything else on the page. -->
+	     them never moves anything else on the page. With a person, their card is
+	     the resting state and the legend steps aside. -->
 	<div class="readout">
-		{#if showLabels}
+		{#if showLabels && featuredType === null}
 			<ul
 				class="type-legend"
 				class:is-covered={detailsOpen}
@@ -242,23 +281,22 @@
 			</ul>
 		{/if}
 
+		<!-- Invisible copies of every card hold the cell at the tallest one's
+		     height, so a longer description (or name) never resizes the card or
+		     pushes the article below it. -->
+		{#each enneagramTypes as type (type.id)}
+			<div class="type-card type-card-sizer" aria-hidden="true">
+				{@render cardBody(type)}
+			</div>
+		{/each}
+
 		<div
 			class="type-card"
 			class:is-open={detailsOpen}
 			style:--node-color={detail.color}
 			aria-hidden={!detailsOpen}
 		>
-			<div class="card-head">
-				<span class="card-badge">{detail.id}</span>
-				<div class="card-titles">
-					<span class="card-name">{detail.name}</span>
-					<span class="card-core">Core emotion: <strong>{detail.coreEmotion}</strong></span>
-				</div>
-			</div>
-			<p class="card-description">{detail.description}</p>
-			<p class="card-stance">
-				<strong>{detail.emotionalStance}</strong>: {detail.stanceDetail}
-			</p>
+			{@render cardBody(detail)}
 		</div>
 	</div>
 </div>
@@ -403,6 +441,13 @@
 		outline-offset: 3px;
 	}
 
+	/* The article's person keeps a dashed halo while another type is being
+	   explored, so their spot on the symbol is never lost. */
+	.type-node.featured:not(.active) {
+		outline: 1.5px dashed color-mix(in srgb, var(--node-color) 70%, transparent);
+		outline-offset: 3px;
+	}
+
 	/* ==========================================
 	   READOUT: legend + type card in one cell
 	   ========================================== */
@@ -506,7 +551,7 @@
 		--node-ink: color-mix(in srgb, var(--node-color) 75%, var(--ink-bright));
 
 		box-sizing: border-box;
-		align-self: center;
+		align-self: stretch;
 		padding: 0.75rem 0.875rem;
 		border: 1px solid color-mix(in srgb, var(--node-color) 40%, var(--stone-edge));
 		border-radius: 0.625rem;
@@ -573,11 +618,17 @@
 		line-height: 1.2;
 	}
 
+	.type-card.type-card-sizer {
+		visibility: hidden;
+		transition: none;
+	}
+
 	.card-core {
 		color: var(--ink-dim);
-		font-family: var(--font-mono);
+		font-family: var(--font-display);
 		font-size: 0.75rem;
-		line-height: 1.2;
+		font-weight: 500;
+		line-height: 1.3;
 	}
 
 	.card-core strong {

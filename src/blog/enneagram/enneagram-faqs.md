@@ -46,7 +46,7 @@ Let's cut through the noise.
 
 **The honest answer:** It's complicated.
 
-The Enneagram isn't scientifically validated like the Big Five personality model. There's limited peer-reviewed research. Most studies that exist have small sample sizes.
+The Enneagram isn't scientifically validated like the Big Five personality model. There's <a href="/enneagram-corner/mental-health/enneagram-science-mental-health">limited peer-reviewed research</a>. Most studies that exist have small sample sizes.
 
 **But here's what we do know:**
 
@@ -289,7 +289,7 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 
 - Break repetitive relationship patterns
 - Understand why certain things trigger you
-- Find career paths that align with core motivations
+- Find <a href="/enneagram-corner/enneagram-types-and-career-choices">career paths</a> that align with core motivations
 - Develop emotional intelligence
 - Recognize and interrupt self-sabotage
 

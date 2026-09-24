@@ -230,7 +230,7 @@ You can't just ask "What's your disaster scenario?" But you can get there indire
 
 **For core fear:** "What's the worst feedback you ever received?" (watch their reaction) or "What keeps you up at night?"
 
-**For coping patterns:** "What do you do when you're stressed?" or "How do you recharge?"
+**For coping patterns:** "What do you do when you're stressed?" or "How do you recharge?" (See how each type answers the first one: ["How do you handle stress?"](/questions/how-do-you-handle-stress))
 
 **For image:** "How would your friends describe you?" vs. "How would your enemies describe you?"
 

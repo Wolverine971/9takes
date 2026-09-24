@@ -41,6 +41,7 @@
 		"nine:find": "node scripts/find-threads.mjs",
 		"gen:crosslinks": "node scripts/generate-crosslink-report.js",
 		"crosslinks:check": "node scripts/check-crosslinks.mjs",
+		"audit:links:jev": "node scripts/jev-link-audit.mjs",
 		"gen:search-index": "node scripts/index-blogs-to-supabase.js --if-env",
 		"gen:all": "node scripts/gen-all.js",
 		"gen:all:full": "node scripts/gen-all.js --all",

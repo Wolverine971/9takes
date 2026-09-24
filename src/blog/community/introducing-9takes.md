@@ -217,6 +217,8 @@ Most questions that matter don't have a single right answer. The point is to see
 
 Pick a question that makes you pause. Write what you actually think, not what sounds right. That's where it starts.
 
+Not sure where to start? Try ["What are you thinking about these days?"](/questions/what-are-you-thinking-about-these-days)
+
 Curious how 9takes came to be? It started with a newlywed fight and a personality test. [Read the origin story](/community/inspiration-for-9takes). And if you're wondering about the design choices, the [Greek vibe is intentional](/community/why-the-greek-vibe).
 
 ## Frequently Asked Questions

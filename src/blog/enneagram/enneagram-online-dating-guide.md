@@ -436,7 +436,7 @@ Each photo should communicate one specific thing about you. Not "general handsom
 
 ### The Quarterly App Detox
 
-Delete the apps for two weeks every quarter. Not forever. Two weeks. The reset is real. The apps reward compulsion, and compulsion ruins your taste.
+Delete the apps for two weeks every quarter. Not forever. Two weeks. The reset is real. <a href="/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types">The apps reward compulsion</a>, and compulsion ruins your taste.
 
 ### The Tuesday Test
 

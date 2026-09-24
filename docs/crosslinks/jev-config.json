@@ -1,0 +1,7 @@
+{
+	"_about": "Settings for `pnpm audit:links:jev` (scripts/jev-link-audit.mjs). Omitted keys fall back to DEFAULT_CONFIG in scripts/lib/jevLinkAudit.js. `twins` maps a losing duplicate to the page Google already prefers for the same searches; losers are never link destinations.",
+	"twins": {
+		"/enneagram-corner/red-flags-dating-each-enneagram-type": "/enneagram-corner/toxic-traits-relationships-warning-signs",
+		"/enneagram-corner/enneagram-types-working-in-teams": "/enneagram-corner/enneagram-team-dynamics"
+	}
+}

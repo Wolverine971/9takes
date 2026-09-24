@@ -297,6 +297,8 @@ None of those are bad moves on their own. They're bad moves when they're _the on
 
 Most of the time, the people you fight with aren't actually wrong about the problem. They're just running a different operating system. Once you can name which one, the fight gets much shorter.
 
+Next time, notice which one you run: <a href="/questions/typically-handle-disagreements-close-friends-family">"How do you typically handle disagreements with close friends or family?"</a>
+
 </section>
 
 ## Keep Going

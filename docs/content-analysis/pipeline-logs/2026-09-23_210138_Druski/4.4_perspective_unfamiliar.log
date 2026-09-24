@@ -1,0 +1,19 @@
+I've saved the unfamiliar-reader review to `docs/content-analysis/perspective-reviews/Druski/2026-09-23_210138/unfamiliar.md`. The draft's SHA matched `context.json` and the value you passed in.
+
+**Verdict: revise.** Trust is strained, value is useful, and there's one clear hit. It has **0 blockers** and 7 concerns.
+
+By the end, a reader who doesn't know Druski can say what the article argues and what type it lands on (8w7, with 3 left open as the rival). The weak spots are the opening and the section the whole page is built around.
+
+**Strongest hit:** the Mafiathon split. "The apology went to the boy. The complaint came from his mother, and that one he never answered." It lets a reader with no background decide "is he a good person?" for themselves. The line after it, "This is where the Type 8 frame stops explaining and starts excusing," is where I started trusting the article.
+
+**Highest-priority concern (UNFAMILIAR-C1):** the page never says who Erika Kirk is: the widow of Charlie Kirk, who was killed six months before the sketch. Without that, a reader can't tell why a senator called the sketch "beneath contempt." The defenders get quoted at length, and a "symmetry argument" gets dismissed without ever being stated (C3). A reader who looks her up afterward will think the article left out the heaviest part of the backlash. That's why trust is strained rather than intact. The fix is one appositive in the body and a short gloss in the FAQ.
+
+**Next concern (C2):** the page never says who he is or how he got famous. There's no "sketch comedian" line in the intro or TL;DR. The story also skips from home skits on his mother's sofa straight to Drake's video. One identity sentence and one breakout sentence fix it, paid for by cutting the "big energy / big presence" line. The other five concerns cover:
+- references the reader hasn't met yet in the personality-type answer, including a sexual-assault lawsuit mentioned in passing
+- a hook that the article's own witnesses contradict
+- claims about his inner life and motives stated as fact
+- "the Parham suit" never explained in the FAQ that answers the page's biggest search question
+
+The review makes no web searches, because the evidence packet already answered both orientation questions. One detail comes from my own background knowledge and is marked for verification: that SZA and Doechii are both on Punch's label (TDE), which is why he cared about the play-off.
+
+The snapshot contains hidden pipeline notes, including an earlier fresh-eyes review. I read the whole file, so I saw them. C1, C2 and C5 overlap with points in those notes, and I say so in the review's limits section so the synthesis doesn't count them as fully independent.

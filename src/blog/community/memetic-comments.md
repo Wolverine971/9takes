@@ -160,6 +160,8 @@ How do you have an original thought online when the infrastructure is designed t
 
 That last point is why [9takes exists](/community/introducing-9takes). Comments are hidden until you submit your own. No priming. No upvotes shaping what you see first. Just you and the question. It's a small architectural change, but it inverts the entire incentive structure — from "match the consensus" to "say what you actually think."
 
+Try it on a question where the crowd usually wins: ["When you have to choose between going along with the group and standing firm in what you believe, what guides your decision?"](/questions/when-you-have-to-choose-between-going-along-with-the)
+
 The mimetic loop can be broken. But not on platforms built to sustain it.
 
 ## Frequently Asked Questions

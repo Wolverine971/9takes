@@ -140,7 +140,7 @@ His Gulf War coalition was textbook Type 6 leadership: 35 nations assembled, eve
 
 But the 6's shadow is self-doubt dressed as caution. "Read my lips—no new taxes" was the Loyalist making a promise his institutional pragmatism eventually forced him to break. The 6 is torn between loyalty to their word and loyalty to pragmatic security. When those two loyalties conflict, the 6 loses either way.
 
-Bush couldn't sell himself in a media age. He governed well. He lacked performance. After Reagan's effortless 9 charm and before Clinton's 3-like charisma, Bush's steady 6 competence looked like weakness. The press called it "the wimp factor." It wasn't weakness—it was the 6's constitutional inability to perform confidence they don't feel.
+Bush couldn't sell himself in a media age. He governed well. He lacked performance. After Reagan's effortless 9 charm and before Clinton's easy charisma, Bush's steady 6 competence looked like weakness. The press called it "the wimp factor." It wasn't weakness—it was the 6's constitutional inability to perform confidence they don't feel.
 
 **What it set up**: Bush's institutional restraint proved that good governance and electoral success require different personality types. He also set up the most revealing father-son comparison in presidential history.
 

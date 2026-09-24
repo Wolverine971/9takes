@@ -121,7 +121,7 @@ Nadella's son Zain was born with severe cerebral palsy. In interviews, Nadella d
 
 "Hit Refresh" (Nadella's book and his thesis for Microsoft) is literally a 5 updating their mental model. Gates' model was "win through dominance." Nadella's model was "win through platform." Same analytical rigor. Fundamentally different orientation toward the world.
 
-He almost didn't get the job. Gates recently revealed that the board nearly passed over Nadella because his leadership style, characterized by empathy and humor, clashed with Microsoft's historically aggressive culture. The board had to overcome its own bias toward the existing archetype. When Nadella was named CEO, Gates simultaneously stepped down as chairman to serve as "technology adviser," and John Thompson (former Symantec CEO) replaced him, a restructuring of the power dynamic that gave Nadella room to operate.
+He almost didn't get the job. Gates recently revealed that the board nearly passed over Nadella because his [leadership style](/pop-culture/tech-titans-leadership-styles), characterized by empathy and humor, clashed with Microsoft's historically aggressive culture. The board had to overcome its own bias toward the existing archetype. When Nadella was named CEO, Gates simultaneously stepped down as chairman to serve as "technology adviser," and John Thompson (former Symantec CEO) replaced him, a restructuring of the power dynamic that gave Nadella room to operate.
 
 The results were immediate. Nadella embraced open source, heresy under Gates. He partnered with Linux. He put Microsoft Office on iPhone. He pivoted to cloud with Azure. He invested $13 billion in OpenAI. Each move represented a 5 recognizing that a knowledge fortress is stronger when it has doors.
 

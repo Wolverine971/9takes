@@ -240,6 +240,106 @@
 			"id": "/pop-culture/epstein-psychology-part-1 -> /pop-culture/tech-titans-disruptors",
 			"reason": "Elon Musk named in an Epstein photo sentence; not about disruptors",
 			"date": "2026-09-22"
+		},
+		{
+			"id": "/community/consensus-on-human-nature -> /enneagram-corner/enneagram-vs-meyers-briggs",
+			"reason": "Jev audit: the same sentence already links the MBTI comparison (/community/mbti-vs-enneagram); a second MBTI link crowds it",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/community/inspiration-for-9takes -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "Jev audit: 'help couples ... stop talking past each other' is about communication (already linked), not compatibility",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/enneagram-corner/depression-patterns-by-enneagram-type -> /enneagram-corner/enneagram-and-mental-illness",
+			"reason": "Jev audit: only anchor is 'sleep disorders' in a symptom list; wrong sense",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-leadership -> /enneagram-corner/enneagram-strengths-and-weaknesses",
+			"reason": "Jev audit: only anchor is a bold day heading ('Days 8-10: Address Fatal Flaw')",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-science-mental-health -> /enneagram-corner/enneagram-and-mental-illness",
+			"reason": "Jev audit: the sentence debunks type-to-disorder prevalence claims; linking it to the predispositions page contradicts it",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-science-mental-health -> /enneagram-corner/mental-health/enneagram-neurodivergence-guide",
+			"reason": "Jev audit: ADHD appears only in a bold FAQ question and a list of diagnoses the Enneagram can't make",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-science-mental-health -> /enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
+			"reason": "Jev audit: ADHD appears only in a bold FAQ question and a list of diagnoses the Enneagram can't make",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-trauma-response-guide -> /enneagram-corner/enneagram-and-mental-illness",
+			"reason": "Jev audit: only anchor is 'nervous system disorders' in a physical-symptom list; wrong sense",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/enneagram-corner/personality-maxing -> /enneagram-corner/enneagram-vs-meyers-briggs",
+			"reason": "Jev audit: 'Not your Myers-Briggs letters' dismisses it; negation",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/how-to-guides/dating-dynamics-by-enneagram-type -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "Jev audit: bold 'The couples that last aren't perfect matches' argues against type matching",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /enneagram-corner/enneagram-and-mental-illness",
+			"reason": "Jev audit: 'narcissism' is a Dark Triad label; linked 'Dark Triad' to /pop-culture/dark-triad-meets-enneagram instead",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/pop-culture/fallen-founders-enneagram-analysis -> /pop-culture/epstein-psychology-part-1",
+			"reason": "Jev audit: the only Epstein sentence already links the series (part 2)",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/pop-culture/kardashian-family-enneagram-analysis -> /enneagram-corner/enneagram-and-mental-illness",
+			"reason": "Jev audit: 'narcissism' in a passing list of vulnerabilities",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/pop-culture/tech-titans-platform-emperors -> /pop-culture/tech-titans-leadership-styles",
+			"reason": "Jev audit: 'not a tech CEO acquiring a media play' is negated",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /questions/what-do-you-provide-so-that-you-never-have-to-ask",
+			"reason": "Jev audit: personal-reflection question on an Epstein analysis; wrong register",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/pop-culture/fallen-founders-enneagram-analysis -> /questions/what-were-you-like-as-a-kid-in-3-words",
+			"reason": "Jev audit: the childhood passage is about Neumann, not the reader",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/community/personality-frameworks-map-not-territory -> /questions/How-do-you-do",
+			"reason": "Jev audit: 'How do you do' is not a real prompt for this post",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-therapy-guide -> /questions/how-do-you-figure-out-who-is-right",
+			"reason": "Jev audit: placement was a one-line type list item; no real fit",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-compatibility-matrix -> /questions/how-do-you-figure-out-who-is-right",
+			"reason": "Jev audit: compatibility isn't about who is right; weak fit",
+			"date": "2026-09-23"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-dating-guide-for-women -> /questions/how-do-you-figure-out-who-is-right",
+			"reason": "Jev audit: weak fit for a dating guide intro",
+			"date": "2026-09-23"
 		}
 	]
 }

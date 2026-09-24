@@ -50,6 +50,8 @@ Instead, we got "use your words" and "how does that make you feel?" As if we had
 
 Think about the last time someone asked how you felt about something important. If your answer was "fine," "good," or "I don't know," that's not a personality quirk. That's an education failure.
 
+Try a truer answer than "fine": ["What's something you do every day to seem fine that nobody knows is costing you effort?"](/questions/whats-something-every-day-seem-fine-nobody-knows-costing-effort)
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Parents of past generations had almost zero emotional education. No guidance for how they needed to help their children self regulate, to help them through their pain, and how to meet their emotional needs. <br><br>Of course the end result is generational trauma. <br><br>Parents do they best…</p>&mdash; Dr. Nicole LePera (@Theholisticpsyc) <a href="https://twitter.com/Theholisticpsyc/status/1644983048897720322?ref_src=twsrc%5Etfw">April 9, 2023</a></blockquote>
 
 Dr. LePera nails it. But she doesn't mention the crucial detail: **each Enneagram type got screwed over by this gap in completely different ways.**

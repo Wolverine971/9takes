@@ -33,6 +33,8 @@ Your Enneagram type wasn't something you chose—it developed as an adaptive str
 
 Before the coping strategies got sophisticated, you were already running the pattern. Here's what each Enneagram type looked like as a kid — raw, unfiltered, and before anyone had a name for it.
 
+Before you read yours, answer this: ["What were you like as a kid in 3 words?"](/questions/what-were-you-like-as-a-kid-in-3-words) Then see how close your type's pattern gets.
+
 ## Type 1: The Little Perfectionists
 
 Our Type 1 kids were the miniature rule-keepers and fairness advocates.

@@ -1,0 +1,45 @@
+The Druski refresh is finished in the draft but not pushed. Nothing has been written to the live DB. The protect pass turned into mostly a correction pass: checking every sourcing gap the brief flagged turned up more than 20 errors on a page that already passed lint.
+
+## 1. Word count
+**3,917 → 3,885** (ceiling 4,500; the band warning is now cleared). The corrections needed more words than they replaced, so I cut about 165 words to pay for them.
+
+## 2. Triage
+**Added as new analysis (tier 1):**
+- **Parham court record.** In August 2025 the judge wrote that the allegations against him "almost certainly lack a factual basis." She also denied his motion to sanction the plaintiffs' lawyers. The page had said no judge ever weighed his evidence, which was wrong in a way that hurt him.
+- **Mafiathon apology.** The stream video shows he apologized on the spot and said "that ain't no excuse." There was never a later posted apology that blamed the drinks. He never answered the mother. The section now reads: apology to the boy, silence toward his mother.
+- **Jack Harlow's actual reading.** Harlow never called the self-roasting a "shield." He said it's why "people feel comfortable around him."
+- **His mother encouraged the performing.** She sat him in front of the family camera to practice impressions (Rolling Stone).
+
+**Added as clauses (tier 2):** his mother's own list of childhood activities (karate, piano, science camp, spelling bee) replaces the parents' job titles, as the brief required. Also his schools (Georgia Gwinnett College, then Georgia Southern) and the "like I was the CEO" Nike quote. That quote is confirmed by GQ; this morning's session had cut it as unsourced.
+
+**Rejected (tier 3):** the parents' careers, Forbes ranks, interest from the studio A24 in The Diggers, and some colour cut for length. Sister, ethnicity, current partner and net worth stayed out entirely.
+
+## 3. What complicates the type read
+Two things now push against the "Type 8 protecting itself" story, and the page says so. Harlow, the friend with the closest view, reads the self-roasting as openness rather than control. And the stream apology was real ownership in the moment. The Type 8 read still holds, but it is honestly more complicated than it was this morning.
+
+## 4. Cut for legal or sourcing reasons
+- **The Heights:** the page credited the Boston College student paper with a "character vs. caricature" critique. That argument isn't in the piece, which defends the sketch. The argument now stands as the page's own.
+- **Mafiathon details:** the mother's "assaulted" and "accountability" wording is not on record. "Druski hugged the boy" is unverified (Kai Cenat did). Cenat's "forced" remark had a disputed meaning. "Cut from the replay" is false, because the live upload still has the insult.
+- **Misquotes and an invented quote:** "upset his mother to the point of tears" was never said. The grandmother cutting him off "financially," the "sports analytics" major, the "mother's couch," the "blonde beard" and Rubi Rose's "clout" were all wrong.
+- **Two quotes spliced into one:** the Netflix/Amazon/Hulu line joined two interviews, from Essence and AfroTech. Each part is now attributed separately.
+
+## 5. Checks
+- **Lint:** 0 fail, 2 warnings. Both were there before I started: 11 internal links, and the draft status disagreeing with `published: true`.
+- **Quality report:** 0 contrast pairs; the type-answer block passes.
+- **Source audit:** 0 quotes missing a source.
+- **Similarity scan:** clear.
+- **FAQs and headings:** all 5 FAQ anchors resolve, and all 8 protected headings are kept word for word.
+- **Other hygiene:** no prose em-dashes, no grade block, and lastmod is untouched.
+
+## 6. Shipping
+- Expected live hash: `f01e83930164be1211257c9ee6c0064d`
+- Local dry-run hash: `bb28b88bec627a94c9501cedb8e9c6e8`
+- `--approve-fields=meta_title,description,content,keywords,faqs,citations`
+
+**The push is blocked for now.** The parser's perspective gate needs the six-perspective review, and the page needs a fresh `/grade_blog`. The brief's GSC baseline and 28-day prediction are recorded in the draft's refresh ledger. The research file has the full evidence record, including every rejected claim.
+
+**Two calls you can veto:**
+- **Parents:** I cut all career details, including GQ's "pilot" and the CDC mention. That's the brief's rule, and his mother asked Complex in 2021 to stay anonymous. The veto is to put back "his father, a pilot" (GQ and Complex both report it).
+- **"Is Druski a good person?" FAQ:** it now ends with the judge's line on the Parham suit. The page's biggest query deserves the full record, but you may want that FAQ to stay about the Mafiathon stream only.
+
+For your interview narrative: four fact-checking agents running in parallel found more than 20 errors in a live page that passed every automated check. That's a good example for "evals miss what grounding catches."

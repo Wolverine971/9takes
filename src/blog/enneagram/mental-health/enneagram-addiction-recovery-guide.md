@@ -84,7 +84,7 @@ The Type 1 doesn't look like an addict. They look like the most disciplined pers
 
 - Workaholism (the socially acceptable addiction)
 - Exercise addiction (disguised as "health")
-- Eating disorders, especially orthorexia and anorexia
+- [Eating disorders](/enneagram-corner/enneagram-and-mental-illness), especially orthorexia and anorexia
 - Prescription stimulants to maximize productivity
 - Alcohol to finally, finally quiet that inner voice
 

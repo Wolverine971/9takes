@@ -135,7 +135,7 @@ _"Principled restraint with gentle authority"_
 
 **Career Patterns:** Research, environmental work, teaching, counseling, HR, quality assurance
 
-**Famous Examples:** Michelle Obama, Nelson Mandela, Al Gore
+**Famous Examples:** [Michelle Obama](/personality-analysis/michelle-obama), Nelson Mandela, Al Gore
 
 **Red Flags You're This Type:**
 
@@ -185,7 +185,7 @@ _"Helping with high standards"_
 
 **Career Patterns:** Non-profit work, teaching, nursing, ministry, counseling, social services
 
-**Famous Examples:** Mother Teresa, Jimmy Carter, Princess Diana
+**Famous Examples:** [Mother Teresa](/personality-analysis/mother-teresa), [Jimmy Carter](/personality-analysis/jimmy-carter), [Mr. Rogers](/personality-analysis/mr-rogers)
 
 **Red Flags You're This Type:**
 
@@ -209,7 +209,7 @@ _"Helping through achievement and charm"_
 
 **Career Patterns:** Sales, PR, hospitality, entertainment, politics, fundraising
 
-**Famous Examples:** [Bill Clinton](/personality-analysis/bill-clinton), Dolly Parton, Nancy Reagan
+**Famous Examples:** [Bill Clinton](/personality-analysis/bill-clinton), [Dolly Parton](/personality-analysis/dolly-parton), [Nancy Reagan](/personality-analysis/nancy-reagan), [Princess Diana](/personality-analysis/princess-diana)
 
 **Red Flags You're This Type:**
 
@@ -235,7 +235,7 @@ _"Success through connection and service"_
 
 **Career Patterns:** Sales, management, consulting, coaching, politics, entertainment
 
-**Famous Examples:** Will Smith, Oprah Winfrey, Tony Robbins
+**Famous Examples:** [Jennifer Lopez](/personality-analysis/jennifer-lopez), [Donald Trump](/personality-analysis/donald-trump), [Tony Robbins](/personality-analysis/tony-robbins)
 
 **Red Flags You're This Type:**
 
@@ -259,7 +259,7 @@ _"Success through authenticity and depth"_
 
 **Career Patterns:** Creative fields, entrepreneurship, consulting, design, writing, therapy
 
-**Famous Examples:** Lady Gaga, Sting, Leonardo DiCaprio
+**Famous Examples:** [Taylor Swift](/personality-analysis/taylor-swift), [Will Smith](/personality-analysis/will-smith), Sting
 
 **Red Flags You're This Type:**
 
@@ -285,7 +285,7 @@ _"Unique identity through achievement"_
 
 **Career Patterns:** Arts, entertainment, fashion, design, marketing, entrepreneurship
 
-**Famous Examples:** Johnny Depp, Kate Winslet, Björk
+**Famous Examples:** [Lady Gaga](/personality-analysis/lady-gaga), [Elton John](/personality-analysis/elton-john), Kate Winslet, Björk
 
 **Red Flags You're This Type:**
 
@@ -309,7 +309,7 @@ _"Unique identity through depth and withdrawal"_
 
 **Career Patterns:** Writing, research, academia, therapy, art, philosophy, technology
 
-**Famous Examples:** Virginia Woolf, Edgar Allan Poe, Thom Yorke
+**Famous Examples:** [Johnny Depp](/personality-analysis/johnny-depp), Virginia Woolf, Edgar Allan Poe, Thom Yorke
 
 **Red Flags You're This Type:**
 
@@ -335,7 +335,7 @@ _"Understanding through personal meaning"_
 
 **Career Patterns:** Research, academia, writing, art, technology, philosophy, psychology
 
-**Famous Examples:** Albert Einstein, Tim Burton, Trent Reznor
+**Famous Examples:** [Albert Einstein](/personality-analysis/albert-einstein), [Carl Jung](/personality-analysis/carl-jung), Tim Burton, Trent Reznor
 
 **Red Flags You're This Type:**
 
@@ -409,7 +409,7 @@ _"Security through activity and optimism"_
 
 **Career Patterns:** Sales, marketing, event planning, hospitality, training, team management
 
-**Famous Examples:** Ellen DeGeneres, Conan O'Brien, [Jennifer Lawrence](/personality-analysis/jennifer-lawrence)
+**Famous Examples:** [Tom Hanks](/personality-analysis/tom-hanks), [Ellen DeGeneres](/personality-analysis/ellen-degeneres), [Jennifer Lawrence](/personality-analysis/jennifer-lawrence)
 
 **Red Flags You're This Type:**
 
@@ -435,7 +435,7 @@ _"Adventure with security and loyalty"_
 
 **Career Patterns:** Entertainment, hospitality, sales, marketing, training, team leadership
 
-**Famous Examples:** Robin Williams, Steven Spielberg, Elton John
+**Famous Examples:** [Tom Holland](/personality-analysis/tom-holland), [Conan O'Brien](/personality-analysis/conan-obrien), Steven Spielberg
 
 **Red Flags You're This Type:**
 
@@ -459,7 +459,7 @@ _"Adventure with power and intensity"_
 
 **Career Patterns:** Entrepreneurship, sales, entertainment, politics, business development
 
-**Famous Examples:** Richard Branson, Russell Brand, Charlie Sheen
+**Famous Examples:** [Robin Williams](/personality-analysis/robin-williams), Richard Branson, Russell Brand, Charlie Sheen
 
 **Red Flags You're This Type:**
 
@@ -485,7 +485,7 @@ _"Power through enthusiasm and adventure"_
 
 **Career Patterns:** Entrepreneurship, sales, entertainment, politics, business leadership
 
-**Famous Examples:** Donald Trump, Gordon Ramsay, Theodore Roosevelt
+**Famous Examples:** [Ernest Hemingway](/personality-analysis/ernest-hemingway), [Gordon Ramsay](/personality-analysis/gordon-ramsay), Theodore Roosevelt
 
 **Red Flags You're This Type:**
 
@@ -509,7 +509,7 @@ _"Power through calm strength and persistence"_
 
 **Career Patterns:** Management, construction, law enforcement, military, counseling
 
-**Famous Examples:** Ernest Hemingway, John Wayne, Bear Grylls
+**Famous Examples:** [Denzel Washington](/personality-analysis/denzel-washington), John Wayne, Bear Grylls
 
 **Red Flags You're This Type:**
 
@@ -535,7 +535,7 @@ _"Harmony through strength and action"_
 
 **Career Patterns:** Mediation, counseling, management, HR, social work, law enforcement
 
-**Famous Examples:** Ronald Reagan, Carl Jung, Abraham Lincoln
+**Famous Examples:** [Ronald Reagan](/personality-analysis/ronald-reagan), [Harrison Ford](/personality-analysis/harrison-ford), [Scarlett Johansson](/personality-analysis/scarlett-johansson)
 
 **Red Flags You're This Type:**
 
@@ -559,7 +559,7 @@ _"Harmony through principles and idealism"_
 
 **Career Patterns:** Teaching, counseling, non-profit work, research, healthcare, ministry
 
-**Famous Examples:** Mr. Rogers, the Dalai Lama, Jennifer Aniston
+**Famous Examples:** [Abraham Lincoln](/personality-analysis/abraham-lincoln), the Dalai Lama, Jennifer Aniston
 
 **Red Flags You're This Type:**
 

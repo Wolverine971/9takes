@@ -71,7 +71,7 @@ Knowing your type's patterns changes everything: you can communicate what you ac
 
 <p class="firstLetter">Your psychiatrist sees one thing: a patient hesitating at a prescription. What they don't see is the war happening in your head.</p>
 
-Type 1s are calculating whether needing pills means they've failed as a person. Type 5s have spent 40 hours deep in PubMed and still don't trust the data. Type 8s would rather white-knuckle their way through depression than hand control to a tiny tablet.
+Type 1s are calculating whether needing pills means they've failed as a person. Type 5s have spent 40 hours deep in PubMed and still don't trust the data. Type 8s would rather white-knuckle their way through [depression](/enneagram-corner/depression-patterns-by-enneagram-type) than hand control to a tiny tablet.
 
 These aren't random quirks. Your Enneagram type shapes your entire relationship with medication: why you resist starting, why you might quit early, what side effects feel intolerable, and what kind of provider you actually need. Map those patterns and you stop fighting yourself. The same patterns follow you into the therapist's office: see [how each type resists therapy](/enneagram-corner/mental-health/enneagram-therapy-resistance-guide).
 

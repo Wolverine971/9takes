@@ -20,9 +20,9 @@
 //   node scripts/fetch-gsc-data.mjs --days 28     # custom window
 //
 // Output (CSV, newest run wins, dated by run date):
-//   docs/data/gsc/YYYY-MM-DD-queries.csv   top 1000 queries (clicks, impressions, ctr, position)
-//   docs/data/gsc/YYYY-MM-DD-pages.csv     top 1000 pages
-//   docs/data/gsc/YYYY-MM-DD-page-query.csv top 5000 page+query pairs (for per-article analysis)
+//   docs/data/gsc/YYYY-MM-DD-queries.csv   every query, up to 25k (clicks, impressions, ctr, position)
+//   docs/data/gsc/YYYY-MM-DD-pages.csv     every page, up to 25k (incl. #fragment variants)
+//   docs/data/gsc/YYYY-MM-DD-page-query.csv every page+query pair, up to 100k (per-article analysis)
 //   docs/data/gsc/latest.json              pointer + run metadata, read by the SEO agent
 
 import { google } from 'googleapis';
@@ -97,18 +97,31 @@ async function resolveSite() {
 	);
 }
 
-async function query(site, dimensions, rowLimit) {
-	const { data } = await sc.searchanalytics.query({
-		siteUrl: site,
-		requestBody: {
-			startDate: fmt(start),
-			endDate: fmt(end),
-			dimensions,
-			rowLimit,
-			dataState: 'final'
-		}
-	});
-	return data.rows ?? [];
+// The API returns at most 25,000 rows per request; page with startRow until a
+// short page comes back. A flat 1,000-row pull used to truncate the pages
+// export: over half the rows are #fragment jump-link variants of the same URL,
+// so ~40% of live posts fell off the end and read as "no impressions".
+const PAGE_SIZE = 25000;
+
+async function query(site, dimensions, maxRows) {
+	const rows = [];
+	while (rows.length < maxRows) {
+		const { data } = await sc.searchanalytics.query({
+			siteUrl: site,
+			requestBody: {
+				startDate: fmt(start),
+				endDate: fmt(end),
+				dimensions,
+				rowLimit: Math.min(PAGE_SIZE, maxRows - rows.length),
+				startRow: rows.length,
+				dataState: 'final'
+			}
+		});
+		const batch = data.rows ?? [];
+		rows.push(...batch);
+		if (batch.length < PAGE_SIZE) break;
+	}
+	return rows;
 }
 
 const csvEscape = (v) =>
@@ -137,9 +150,9 @@ mkdirSync(OUT_DIR, { recursive: true });
 const runDate = new Date().toISOString().slice(0, 10);
 
 const [queries, pages, pageQuery] = await Promise.all([
-	query(site, ['query'], 1000),
-	query(site, ['page'], 1000),
-	query(site, ['page', 'query'], 5000)
+	query(site, ['query'], 25000),
+	query(site, ['page'], 25000),
+	query(site, ['page', 'query'], 100000)
 ]);
 
 writeCsv(

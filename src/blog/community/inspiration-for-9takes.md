@@ -132,6 +132,8 @@ I built 9takes because I wish it had existed when my wife and I were screaming p
 
 That's what I'm trying to build.
 
+Want to try it? Answer ["What is the key to a good marriage?"](/questions/what-is-the-key-to-a-good-marriage) and then see how the other types answered.
+
 ## Frequently Asked Questions
 
 ### Did the Enneagram fix your marriage?

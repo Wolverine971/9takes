@@ -1,0 +1,22 @@
+The future review is saved. It finds no blockers: the page should still be accurate in September 2027, and it needs six small fixes before it ships.
+
+**Saved to:** `docs/content-analysis/perspective-reviews/Druski/2026-09-23_210138/future.md`
+
+**Verdict:** revise. Trust is intact, value is high, delight is a clear hit, 0 blockers, 6 concerns.
+
+**Why it holds up:** the core of the page is old, first-person material that won't go out of date: his own GQ and Complex quotes about childhood and depression, the Mafiathon stream apology, and the Parham court record. The 2026 events test the argument rather than prove it. Remove everything from June to September 2026 and only the "What's Next" section loses anything.
+
+**Strongest hit:** "_The Diggers_ will help settle it. If that one also ends up on someone else's terms, the Three reading gets stronger." The page says in advance which future fact would change its argument. Whatever happens next becomes a planned update instead of a correction.
+
+**Highest-priority concern:** Erika Kirk is never identified. A reader a year from now won't know she's Charlie Kirk's widow and his successor at Turning Point USA, or that the sketch came about 6.5 months after he was killed. Without that, Ted Cruz's "beneath contempt" reads as an overreaction. Her own April 29, 2026 on-air response is also missing from the list of critics he never answered. The fix is one clause, but the draft is at its word limit, so it needs a matching cut. I suggested the Season 2 guest list, the most perishable line on the page.
+
+**The other five fixes:**
+- **Undated "he never answered" claims:** the page's main pattern rests on them, so it needs an "as of September 2026" anchor. I'd also narrow "the silence held" to "no reply to critics." A December 2025 Billboard cover story may show him talking about the whiteface skit itself; I couldn't confirm that because the article is paywalled.
+- **Expiring statuses:** *The Catch* "due May 21, 2027," *The Diggers* "still in development," and "Next is…" in the body and in FAQ 2 will all go stale within the year.
+- **FAQ 5** leaves out "without prejudice" on the Parham dismissal, so a refiling would make it misleading.
+- **"Ten months after the backlash"** only works if it means the NASCAR backlash, so it should say so.
+- **The date readers see:** the page shows "Updated: April 29, 2026" above content from June and July 2026.
+
+**Decision for you:** that last fix is yours, since you set `lastmod` by hand and no automated pass should touch it. When you push, set it to the push date. If you'd rather leave it, the in-body "as of" anchors stop being optional.
+
+The review also includes a dated twelve-month refresh list: *The Catch* release, quarterly checks on *The Diggers*, the 2027 Forbes list, a sweep for any on-record reply to his critics, and checks for a Parham refiling.

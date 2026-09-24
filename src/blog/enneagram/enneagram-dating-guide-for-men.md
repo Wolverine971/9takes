@@ -34,7 +34,7 @@ The reflex feels natural because you've practiced it for years. To her, it can f
 
 I'm a Type 4, and I learned this on a date years ago. She asked about my dreams, my struggles, and my day. I felt intensely seen. Three dates later, I realized I knew almost nothing about her. I had mistaken the feeling of being understood for mutual intimacy—a very Type 4 way to chase depth while missing the actual person across the table.
 
-This guide helps you catch your version of that moment. You'll find the blind spot your type brings into dating, how it may land for her, and one concrete move to practice on your next date. Then we'll cover how to read her patterns without boxing her in, compatibility, texting, and rejection.
+This guide helps you catch your version of that moment. You'll find the blind spot your type brings into dating, how it may land for her, and one concrete move to practice on your next date. Then we'll cover how to read her patterns without boxing her in, [compatibility](/enneagram-corner/enneagram-compatibility-matrix), texting, and rejection.
 
 Start with your own type. The Enneagram is most useful as a mirror before it becomes a lens.
 

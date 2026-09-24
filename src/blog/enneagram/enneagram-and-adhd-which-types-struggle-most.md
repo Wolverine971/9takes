@@ -229,6 +229,8 @@ ADHD disrupts all of it.
 
 Type 3s often develop elaborate workarounds to hide their ADHD struggles. They may work twice as hard as others to achieve the same results, creating the appearance of effortless success while internally drowning.
 
+Sound familiar? Answer ["What's something you do every day to seem fine that nobody knows is costing you effort?"](/questions/whats-something-every-day-seem-fine-nobody-knows-costing-effort) and see how many people are carrying the same thing.
+
 **The Hidden Strength:**
 
 Type 3s with ADHD often develop an unusual ability to rapidly switch contexts and pivot between projects. Their drive to succeed combined with ADHD's quick-fire thinking can make them exceptional in fast-paced environments where adaptability matters more than sustained focus: entrepreneurship, sales, crisis management.

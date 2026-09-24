@@ -2,7 +2,7 @@
 
 # Therapy on Steroids: Beta Test Idea
 
-**Status:** Idea stage. Captured 2026-09-23, rounds 1–2 of the interview are done, and the beta kit is drafted. DJ is still shaping it.
+**Status:** Idea stage. Captured 2026-09-23, rounds 1–3 of the interview are done, the beta kit is drafted, and the Talk to DJ page is built. DJ is still shaping it.
 **Owner:** DJ
 **BuildOS mirror:** 9takes › "Therapy on Steroids — Beta Test Idea" (`c695e05a-d0e9-49fb-be9c-808e2423e285`)
 **Kin:** [`the-mirror-moment.md`](./the-mirror-moment.md), [`the-chorus-vision.md`](./the-chorus-vision.md), [`../monetization/2026-05-02_decode-a-person-offering.md`](../monetization/2026-05-02_decode-a-person-offering.md)
@@ -59,10 +59,18 @@ The worked-up version (email drafts, recon questions, session run sheets, scorec
 - **No AI tool built into 9takes.** DJ declined the idea of in-product session prep and recap tooling. AI stays DJ's own helper, used off-platform.
 - **New thread: voice notes.** In DJ's words: "Maybe there should be a thing for people to leave voice notes to me so that I can process what they're saying and get back to them." This is still open and gets interviewed next. For reference, 9takes already has `VoiceRecorder.svelte` (2-min cap, sends speech to `/api/transcribe`, returns text only, and doesn't store audio). It's used on question answers and the blog StrategicQuestion widget.
 
+## DJ's decisions (2026-09-23, round 3): voice notes → "Talk to DJ"
+
+DJ's vision, in DJ's words: "I should draft up a thing about myself and give some general prompts or guidance for things people can ask me about. I would love for people to just drop me a note, either anonymously or by leaving an email... people can leave just text, or they can leave a voice note, and it gets transcribed... I would respond either with my own voice note or my own text... Maybe when they sign up for the coaching thing, people can leave a voice note... Maybe that's the primary call to action, and the rest of it is filling in their details."
+
+- **Page flow: note first, details after** (picked from 3 mockups). `/book-session` becomes "Talk to DJ".
+- **Replies are private only for now** (email). Public answers are a later option.
+- Built the same day. See the beta kit, section 7.
+
 ## Open questions (still open)
 
 - What's the session rhythm: weekly, biweekly? How many sessions in the beta?
-- **Voice notes:** when do people send them, what does DJ send back, and does it live on 9takes or somewhere people already use?
+- **Public answers:** later, answer some notes publicly (a feed on the page, or as 9takes questions)?
 - What would you need to see to say the beta worked?
 - **Naming.** "Therapy" is the honest pitch, but it's a regulated word in many states when an unlicensed person offers it. Check that before it goes on a public page.
 - Is it a 9takes product feature, a service DJ runs, or both?
@@ -74,4 +82,4 @@ The worked-up version (email drafts, recon questions, session run sheets, scorec
 
 ## Next
 
-Rounds 1–2 of the interview are done, and the beta kit is drafted. Next: DJ marks up the kit, sets up the booking page, and sends the 2 invites. Then interview DJ on voice notes.
+Rounds 1–3 of the interview are done. The beta kit is drafted, and the Talk to DJ page is built (not deployed). Next: apply the `talk_notes` migration, deploy, and test end to end. Then DJ marks up the kit, sets up the booking page, and sends the 2 invites.

@@ -1,0 +1,12 @@
+I've written the evidence packet to `docs/content-analysis/perspective-reviews/Druski/2026-09-23_210138/evidence-packet.md`. The subject and SHA match `context.json`, the frontmatter parses, all ten required H2 headings are present, and it inventories 41 claims (CLM-01 to CLM-41). The snapshot's hash is unchanged, and no other file was touched.
+
+**Largest unresolved gap:** whether Druski talked about the whiteface sketch in his Billboard cover story (Dec 9, 2025). The headline is "Druski on Justin Bieber, Coulda Been Franchises, Whiteface Skit & More." One search summary says he talked about how far the skit spread and his family calling him, but I couldn't read the article (Billboard's paywall returned HTTP 402). If he did discuss it, the draft's central claims become shaky: "Druski hasn't engaged any of it," "The silence was the one thing that held," and the "Where the Frame Stops Working" section (CLM-22, CLM-25, CLM-35). The packet marks all three disputed until someone reads the article.
+
+The same-day repo research didn't have these, and they matter for the six reviewers:
+- **A 2022 takedown after backlash (Rolling Stone, 2024).** Druski deleted his "That Friend that tries to make the girls OVERLY drink" skit after heavy criticism. Two years later he explained it: "I didn't want to continue to trigger people." That contradicts the draft's line that he "refuses to smooth them over," which is its main argument against Type 3 (CLM-40).
+- **Erika Kirk responded on air on Apr 29, 2026:** "I have comedians dressing up in whiteface." She didn't name Druski, and the draft doesn't mention it. The draft also never says that Charlie Kirk was killed on Sep 10, 2025, six months before the sketch.
+- **The local sheriff's office called the 2018 Parham report "unfounded."** This is a statement relayed by the press, not in the draft.
+- **His reps correct factual rumors, but nobody on his side answers criticism of the content.** They denied a cease-and-desist rumor and corrected a "grandfather" mix-up. This pattern is now on record for the reviewers.
+- **The draft says "Anger is the Eight's fuel,"** but no outward anger from Druski is on record, and the site's own Type 8 page names the Eight's driving passion as lust (intensity), not anger.
+
+One trap to know about: a search summary claimed Druski said the Kirk video "was not intended to make light of tragedy." None of the three articles I opened contains that. The packet flags it as probably invented by the summarizer, not his words.

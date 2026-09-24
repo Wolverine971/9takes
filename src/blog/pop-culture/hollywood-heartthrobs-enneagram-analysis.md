@@ -314,7 +314,7 @@ Here's what's interesting: Chalamet's fashion reads as confidence, but his inter
 
 ### What It Costs Him
 
-Chalamet has cited Daniel Day-Lewis and Joaquin Phoenix as inspirations—notably, two men known for intensity and privacy, not for heartthrob status. When interviewers call him a heartthrob, he deflects to craft. He doesn't want the conversation to be about his face. He wants it to be about the greatness he told you he's pursuing. But the 6's visible discomfort with the label, like Elordi's 4-driven resentment, only makes the label stick harder. The man who told a room full of journalists that it's tough to be alive now is exactly the kind of man this generation wants to protect—which is how a movie star becomes everyone's younger brother.
+Chalamet has cited Daniel Day-Lewis and [Joaquin Phoenix](/personality-analysis/joaquin-phoenix) as inspirations—notably, two men known for intensity and privacy, not for heartthrob status. When interviewers call him a heartthrob, he deflects to craft. He doesn't want the conversation to be about his face. He wants it to be about the greatness he told you he's pursuing. But the 6's visible discomfort with the label, like Elordi's 4-driven resentment, only makes the label stick harder. The man who told a room full of journalists that it's tough to be alive now is exactly the kind of man this generation wants to protect—which is how a movie star becomes everyone's younger brother.
 
 ---
 
@@ -330,7 +330,7 @@ This is textbook Type 7 impulsivity—the mouth moving faster than the filter, t
 
 ### The Zendaya Dynamic
 
-Holland's relationship with Zendaya is one of the most closely watched in Hollywood. When paparazzi photographed them kissing in a car in 2021, Holland said something striking: "One of the downsides of our fame is that privacy isn't really in our control anymore, and a moment that you think is between two people that love each other will become a moment that is shared with the entire world."
+Holland's relationship with [Zendaya](/personality-analysis/zendaya) is one of the most closely watched in Hollywood. When paparazzi photographed them kissing in a car in 2021, Holland said something striking: "One of the downsides of our fame is that privacy isn't really in our control anymore, and a moment that you think is between two people that love each other will become a moment that is shared with the entire world."
 
 That's unusually articulate for a 7. It suggests growth—the 7 integrating toward 5, getting reflective, sitting with the discomfort instead of reframing it as a joke.
 

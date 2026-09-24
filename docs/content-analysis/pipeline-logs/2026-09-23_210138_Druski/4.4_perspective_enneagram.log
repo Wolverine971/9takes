@@ -1,0 +1,25 @@
+I wrote the Enneagram jury review to `docs/content-analysis/perspective-reviews/Druski/2026-09-23_210138/enneagram.md`. The frontmatter parses, the counts match the findings, and the snapshot's fingerprint was checked before and after the review.
+
+**Verdict: revise.** Trust is strained, value is useful, delight is clear_hit. One blocker and seven concerns.
+
+**Strongest hit:** "This is where the Type 8 frame stops explaining and starts excusing… it sets the bar at the floor" (Mafiathon section). It uses the type to explain the behavior without excusing it. The *Diggers* prediction is the other standout, because it's a test the page could actually fail.
+
+**The blocker:** the page's reasons for ruling out Types 7 and 3 don't hold up. Type 8 itself can stay; the reasoning needs fixing.
+- **The case against 7 is too weak.** It says a Seven "keeps doors open" while Druski consolidates. But the 7w8 is described as building and organizing ventures, both in our own Type 7 page and in Riso-Hudson. Chestnut's self-preservation Seven builds a "surrogate family… good 'mafia'", which is close to a description of 4Lifers.
+- **Our own Type 8 page cuts against it.** The intro links it, and its test is: "If conflict makes you check for the door and change the subject, you're a 7." The draft's description of how Druski handles critics fits that test: "AM I CANCELLED?", the deleted "too far" post, "silence, then volume, then the next project."
+- **The case against 3 skips a known event.** It says he "refuses to smooth them over," but in 2022 he took a skit down because "I didn't want to continue to trigger people." That's in the evidence packet but not in the draft.
+
+**Highest-priority concern:** the page never says what Druski fears. The most Type 8-specific quotes on record don't appear: "kiss up to somebody" and "my team is involved in the creative side" (Rolling Stone 2024). Adding one sentence that names the fear (depending on someone else, or being controlled) and backs it with that quote is the biggest single fix. It moves the argument from what he does to why, which answers both rival types. The other concerns:
+- the anger claim has no angry moment behind it;
+- the "controlled vulnerability" reading can't be proven wrong;
+- the stress and growth arrows are weak evidence;
+- the *Diggers* test has no criterion you could check later;
+- "Eights don't engage critics" is wrong as theory.
+
+**Opportunity for the next edit:** our Type 8 page's growth advice, "say the soft thing without the joke stapled to it," matches the two halves of the Mafiathon apology exactly. Using it makes the Type 8 case stronger. Every fix above replaces existing text, which matters because the draft is at 3,894 words against a 3,900 band.
+
+**Caveats:**
+- **Secondhand theory text:** I read Riso-Hudson and Chestnut through web relays, not the books. The main findings rest on our own type pages, which anyone can check.
+- **Pipeline comments in the snapshot:** the snapshot contains earlier pipeline comments. Two of my findings (the unshown anger, the unnamed fear) overlap with points made there; I reached them separately from the packet, and the review says so.
+- **Other reviews:** `fan.md` and `future.md` already existed in the folder. I didn't open them.
+- **Disconnected tools:** Supabase failed to connect this session, and several plugin connectors (Ahrefs, GitHub, and others) need authorization. None of them were needed for this review.

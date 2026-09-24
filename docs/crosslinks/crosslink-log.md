@@ -178,3 +178,84 @@ Double-check of the 09-22 pass. Verified against commit 45804be24 (pre-work base
 - Tooling bugs fixed after an independent review: gate froze both counts on grandfathered posts (now only the failing side); `/enneagram-corner/mental-health` hub + mental-health slug aliases counted as broken; links inside HTML comments counted; 7 bad person display names ("Drake's Enneagram Type"); single-word names matching longer names ("Prince" in "Prince Andrew"); a stray `%` could crash CI; james-clear counted live without a live page; wrapper false-OK on same-day reruns and crash with HOME unset
 - Tests: crosslink spec 11 → 24 (incl. a drift test that fails if SECTION_RULES and the [slug] route globs disagree)
 - Gate: below-bar posts 8 → 8, grandfathered 8, broken links 0
+
+### 2026-09-23 — Jev audit pass: 31 links + 16 question invitations, gate debt 8 → 8
+
+First pass driven by `pnpm audit:links:jev` (TypeSafe's Jev decision model via OpenRouter; see `docs/crosslinks/jev-audit.md` and `jev-calibration.md`). Jev proposed 50 existing-wording links (INSERT) and 40 question invitations; every one was read by hand before applying. Destinations were striking-distance posts, people pages with search demand and ≤1 blog link, and the 47 live questions.
+
+- Applied 31 of 50 INSERT links (2 moved to a better sentence in the same post: criticisms QuickAnswer, leadership's Bill Gates line). One swap: Epstein part 1 "Dark Triad" → `/pop-culture/dark-triad-meets-enneagram` instead of "narcissism" → mental illness
+- Applied 16 of 40 question invitations, one per post, only where the post is about exactly the situation the question asks; skipped the 90-day blueprint (mid-exercise) and every sensitive post (Epstein, trauma, medication)
+- Rejected 14 INSERT + 6 question suggestions into `skipped.json` (wrong-sense anchors like "sleep disorders", bold pseudo-headings, negations, crowded sentences)
+- Verified: all 47 links present in the link graph; 41 edited posts rendered on a dev server (200, real `<a href>`, no literal markdown); HTML anchors used inside QuickAnswer / accordion / `<section>` blocks
+- Also: `fetch-gsc-data.mjs` now pages the Search Console API (was truncated at 1,000 rows, 574 of them `#fragment` duplicates); latest pull is 2026-09-24-*
+- Follow-up after the re-run: + Michelle Obama (wings guide 1w9, consistent with her page), freed by the per-post cap
+- Gate: below-bar posts 8 → 8, grandfathered 8, broken links 0
+
+**Applied (verbatim log):**
+
+- `community/consensus-on-human-nature.md` L276 → `/enneagram-corner/enneagram-vs-personality-frameworks-comparison` ("Big Five")
+- `community/personality-frameworks-map-not-territory.md` L70 → `/enneagram-corner/enneagram-vs-meyers-briggs` ("MBTI and the Enneagram")
+- `enneagram/enneagram-criticisms.md` L28 → `/enneagram-corner/mental-health/enneagram-science-mental-health` ("scientific validation") [html]
+- `enneagram/enneagram-dating-guide-for-men.md` L37 → `/enneagram-corner/enneagram-compatibility-matrix` ("compatibility")
+- `enneagram/enneagram-dating-guide-for-women.md` L684 → `/enneagram-corner/enneagram-compatibility-matrix` ("Compatibility")
+- `enneagram/enneagram-faqs.md` L292 → `/enneagram-corner/enneagram-types-and-career-choices` ("career paths") [html]
+- `enneagram/enneagram-faqs.md` L49 → `/enneagram-corner/mental-health/enneagram-science-mental-health` ("limited peer-reviewed research") [html]
+- `enneagram/enneagram-instinctual-subtypes.md` L57 → `/enneagram-corner/mental-health/enneagram-science-mental-health` ("scientifically validated")
+- `enneagram/enneagram-leadership.md` L191 → `/pop-culture/tech-titans-leadership-styles` ("leadership style")
+- `enneagram/enneagram-mental-health-flags.md` L209 → `/enneagram-corner/depression-patterns-by-enneagram-type` ("depression")
+- `enneagram/enneagram-online-dating-guide.md` L439 → `/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types` ("The apps reward compulsion") [html]
+- `enneagram/enneagram-parenting-styles.md` L717 → `/enneagram-corner/how-to-apologize-like-a-pro` ("apologize clearly")
+- `enneagram/enneagram-personal-growth.md` L59 → `/enneagram-corner/why-you-cant-stop-overthinking-enneagram` ("Stop overthinking")
+- `enneagram/enneagram-positive-self-talk.md` L115 → `/enneagram-corner/depression-patterns-by-enneagram-type` ("spiral into depression")
+- `enneagram/enneagram-wings-complete-guide.md` L538 → `/personality-analysis/ronald-reagan` ("Ronald Reagan")
+- `enneagram/enneagram-wings-complete-guide.md` L338 → `/personality-analysis/albert-einstein` ("Albert Einstein")
+- `enneagram/enneagram-wings-complete-guide.md` L212 → `/personality-analysis/dolly-parton` ("Dolly Parton")
+- `enneagram/enneagram-workplace-team-building.md` L497 → `/enneagram-corner/enneagram-team-dynamics` ("team dynamics")
+- `enneagram/mental-health/enneagram-addiction-recovery-guide.md` L87 → `/enneagram-corner/enneagram-and-mental-illness` ("Eating disorders")
+- `enneagram/mental-health/enneagram-medication-mental-health.md` L74 → `/enneagram-corner/depression-patterns-by-enneagram-type` ("depression")
+- `pop-culture/epstein-psychology-part-1.md` L427 → `/pop-culture/dark-triad-meets-enneagram` ("Dark Triad")
+- `pop-culture/fallen-founders-enneagram-analysis.md` L83 → `/personality-analysis/marc-andreessen` ("Marc Andreessen")
+- `pop-culture/hollywood-heartthrobs-enneagram-analysis.md` L333 → `/personality-analysis/zendaya` ("Zendaya")
+- `pop-culture/hollywood-heartthrobs-enneagram-analysis.md` L317 → `/personality-analysis/joaquin-phoenix` ("Joaquin Phoenix")
+- `pop-culture/podcaster-personality-map.md` L215 → `/personality-analysis/john-coogan` ("John Coogan")
+- `pop-culture/podcaster-personality-map.md` L128 → `/personality-analysis/brittany-broski` ("Brittany Broski")
+- `pop-culture/podcaster-personality-map.md` L96 → `/personality-analysis/lex-fridman` ("Lex Fridman")
+- `pop-culture/tech-titans-disruptors.md` L54 → `/pop-culture/tech-titans-leadership-styles` ("leadership style")
+- `pop-culture/tech-titans-enneagram-analysis.md` L156 → `/personality-analysis/grimes` ("Grimes")
+- `pop-culture/tech-titans-founders-vs-stewards.md` L124 → `/pop-culture/tech-titans-leadership-styles` ("leadership style")
+- `pop-culture/tech-titans-leadership-styles.md` L346 → `/personality-analysis/grimes` ("Grimes")
+- `enneagram/enneagram-object-relations.md` L159 → `/questions/what-do-you-provide-so-that-you-never-have-to-ask`: Which currency is yours? Answer ["What do you provide so that you never have to ask?"](/questions/what-do-you-provide-so-that-you-never-have-to-ask) before you read anyone else's answer.
+- `guides/how-to-psychoanalyze-people.md` L233 → `/questions/how-do-you-handle-stress`: (See how each type answers the first one: ["How do you handle stress?"](/questions/how-do-you-handle-stress))
+- `pop-culture/twitter-x-personality-types-toxic.md` L211 → `/questions/what-are-the-problems-with-social-media`: Your turn: ["What are the problems with social media?"](/questions/what-are-the-problems-with-social-media) On 9takes you answer before you see anyone else's take, so nobody sets the frame for you.
+- `enneagram/enneagram-childhood-stereotypes.md` L34 → `/questions/what-were-you-like-as-a-kid-in-3-words`: Before you read yours, answer this: ["What were you like as a kid in 3 words?"](/questions/what-were-you-like-as-a-kid-in-3-words) Then see how close your type's pattern gets.
+- `community/inspiration-for-9takes.md` L133 → `/questions/what-is-the-key-to-a-good-marriage`: Want to try it? Answer ["What is the key to a good marriage?"](/questions/what-is-the-key-to-a-good-marriage) and then see how the other types answered.
+- `enneagram/how-to-navigate-early-relationship-stages.md` L204 → `/questions/s-something-say-don-t-mind-when-actually`: Be honest with yourself: <a href="/questions/s-something-say-don-t-mind-when-actually">"What's something you say 'I don't mind' about when you actually do?"</a> [html]
+- `community/memetic-comments.md` L161 → `/questions/when-you-have-to-choose-between-going-along-with-the`: Try it on a question where the crowd usually wins: ["When you have to choose between going along with the group and standing firm in what you believe, what guides your decision?"](/questions/when-you-have-to-choose-between-going-along-with-the)
+- `community/software-and-hardware-of-the-mind.md` L267 → `/questions/whats-your-biggest-fear`: You can answer the last one on 9takes before you see anyone else's: ["What's your biggest fear?"](/questions/whats-your-biggest-fear)
+- `enneagram/enneagram-harmonic-approaches.md` L298 → `/questions/typically-handle-disagreements-close-friends-family`: Next time, notice which one you run: <a href="/questions/typically-handle-disagreements-close-friends-family">"How do you typically handle disagreements with close friends or family?"</a> [html]
+- `guides/definitive-guide-to-relationship-conflict-part-1.md` L42 → `/questions/what-is-the-key-to-a-good-marriage`: What has worked for you? Answer ["What is the key to a good marriage?"](/questions/what-is-the-key-to-a-good-marriage) and then see how the other types answered.
+- `enneagram/enneagram-books-websites-podcasts.md` L685 → `/questions/what-book-should-i-read-next`: Already read one? Tell the next person what to pick up: ["What book should I read next?"](/questions/what-book-should-i-read-next)
+- `enneagram/oversharing-psychology-shame-boundaries.md` L231 → `/questions/whats-something-overresearched-no-one-asked`: (Guilty? ["What's something you overresearched that no one asked about?"](/questions/whats-something-overresearched-no-one-asked))
+- `guides/5-tough-conversations-you-need-to-have-with-your-partner.md` L106 → `/questions/what-are-you-afraid-to-tell-to-your-partner`: Start with the one you've been avoiding: ["What are you afraid to tell your partner?"](/questions/what-are-you-afraid-to-tell-to-your-partner)
+- `guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md` L51 → `/questions/whats-something-every-day-seem-fine-nobody-knows-costing-effort`: Try a truer answer than "fine": ["What's something you do every day to seem fine that nobody knows is costing you effort?"](/questions/whats-something-every-day-seem-fine-nobody-knows-costing-effort)
+- `enneagram/enneagram-and-adhd-which-types-struggle-most.md` L230 → `/questions/whats-something-every-day-seem-fine-nobody-knows-costing-effort`: Sound familiar? Answer ["What's something you do every day to seem fine that nobody knows is costing you effort?"](/questions/whats-something-every-day-seem-fine-nobody-knows-costing-effort) and see how many people are carrying the same thing.
+- `community/introducing-9takes.md` L218 → `/questions/what-are-you-thinking-about-these-days`: Not sure where to start? Try ["What are you thinking about these days?"](/questions/what-are-you-thinking-about-these-days)
+
+**Noticed (for DJ):**
+
+- Typing conflicts held back (link would expose the contradiction): wings guide types Oprah 3w2 (her page: 2), Lady Gaga 3w4 (page: 4), Leonardo DiCaprio 3w4 (page: 7), Conan O'Brien 6w7 (page: 7w6), Johnny Depp 4w3 (page: 4w5), Elton John 7w6 (page: 4w3); trump-vs-biden types George W. Bush as 9 (page: 6). Fix the typing and the next audit run will propose these links again
+- 358 of 410 questions 404 in production (flagged=true, tagged=false chorus questions; the question loader hides flagged rows). Only 47 are linkable
+- `/personality-analysis/type/N` listing pages compete with `/enneagram-corner/enneagram-type-N` on type head terms (e.g. type 6: 54 shared queries)
+- 199 of 207 people destinations have no live post that names them (Sky Bri, IShowSpeed, Sabrina Carpenter, …): they need hub posts, not links
+
+### 2026-09-23 — typing conflicts fixed (people pages are the source of truth)
+
+DJ: "fix the typing conflicts." Every typing claim about a person with a 9takes analysis was checked against that page's type and stated wing (its FAQ answer or "Wing: NwM" section). A full-name scan of all 143 live posts plus hand checks of surname-only mentions found the conflicts below; the page won each time.
+
+- `enneagram-wings-complete-guide`: 14 of the 30 checkable "Famous Examples" were in the wrong wing list. Moved to the list their page confirms: Princess Diana 2w1→2w3, Will Smith 3w2→3w4, Lady Gaga 3w4→4w3, Johnny Depp 4w3→4w5, Conan O'Brien 6w7→7w6, Robin Williams 7w6→7w8, Elton John 7w6→4w3, Donald Trump 8w7→3w2, Ernest Hemingway 8w9→8w7, Carl Jung 9w8→5w4, Abraham Lincoln 9w8→9w1, Mr. Rogers 9w1→2w1. Removed without a new home (page states a type but no wing): Oprah Winfrey (page: 2), Leonardo DiCaprio (page: 7). Short lists filled with page-verified people: Jennifer Lopez (3w2), Taylor Swift (3w4), Tom Hanks (6w7), Tom Holland (7w6), Denzel Washington (8w9), Harrison Ford and Scarlett Johansson (9w8). Every name with a page is now linked (people links on the page: 32). Names without a page were left as they were (unverifiable)
+- `trump-type-8-vs-biden-type-2` L420: "Clinton was likely a Type 3 … George W. Bush [a Type 9]" → Clinton Type 2, G.W. Bush Type 6 (both per their pages), now linked
+- `us-presidents-enneagram-analysis` L143: "Clinton's 3-like charisma" → "Clinton's easy charisma"
+- `kardashian-family-enneagram-analysis`: "Kim and Kanye: Two Type 3s Collide" → "A 3 and a 7 Collide"; the paragraph now reads Kanye as the Type 7 his page argues (serial pivots, never the same move twice)
+- Verified: wings-guide conflict check 14 → 0; gate green; 4 posts rendered on a dev server (200, no literal markdown)
+
+**Still open (DJ's call):** `trump-type-8-vs-biden-type-2` argues Trump is a Type 8 throughout (title, slug, thesis) while his page and the US Presidents post type him 3w2. That is a rewrite or retire decision, not a find-and-replace.

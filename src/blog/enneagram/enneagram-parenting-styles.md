@@ -714,7 +714,7 @@ Start with your shared rules, not your philosophical differences. Pick a few non
 
 ### What if I already messed up today?
 
-Repair still counts. Calm yourself, name what happened without excuses, apologize clearly, and come back to the original limit without shame. A messy moment is not the end of trust. Refusing to repair does more damage than the moment itself.
+Repair still counts. Calm yourself, name what happened without excuses, [apologize clearly](/enneagram-corner/how-to-apologize-like-a-pro), and come back to the original limit without shame. A messy moment is not the end of trust. Refusing to repair does more damage than the moment itself.
 
 ### Does this look different with toddlers, school-age kids, and teens?
 

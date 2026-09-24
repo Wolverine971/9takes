@@ -67,7 +67,7 @@ Three things happen when you confuse the map for the person:
 
 You defend the map instead of watching what's in front of you. When someone's behavior doesn't fit their type, the first instinct is "you must be mistyped" — not "what is this behavior actually telling me?"
 
-You argue about which system is correct. MBTI and the Enneagram measure different things. So does the Big Five. They are different maps of the same territory, each useful for different questions. Neither is "true."
+You argue about which system is correct. [MBTI and the Enneagram](/enneagram-corner/enneagram-vs-meyers-briggs) measure different things. So does the Big Five. They are different maps of the same territory, each useful for different questions. Neither is "true."
 
 You start performing your type. "I'm a 4 so I feel things more deeply." That's the map closing around you like a room with no door.
 

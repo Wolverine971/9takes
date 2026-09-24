@@ -1,0 +1,19 @@
+I wrote the synthesis to `docs/content-analysis/perspective-reviews/Druski/2026-09-23_210138/synthesis.md`. The Druski page needs revision before it ships. It has 6 mandatory fixes, 12 accepted improvements, 5 open research questions and 16 passages to keep as written. None of the fixes changes the Type 8 call.
+
+**The six mandatory fixes:**
+1. **The 2022 skit is missing.** The page doesn't mention the April 2022 skit he took down after backlash. In Rolling Stone he said "I didn't want to continue to trigger people," and the page cites that article. It contradicts the search description ("the habit of answering critics with more content") and the main argument against Type 3 ("refuses to smooth them over"). Four reviewers flagged it.
+2. **Erika Kirk is never identified.** The page never says she is Charlie Kirk's widow, or that the sketch came about six months after he was killed. It then rules on a "symmetry argument" it never states.
+3. **The Mafiathon verdict is missing context.** I opened the Atlanta Black Star article to check this. The mother's own videos called Druski a racial slur, in the same posts as the complaint the page says he "never answered." Her complaint about security was aimed at Kai Cenat's stream organizers. The page also implies he booked later work to bury the incident, with no evidence.
+4. **The one original critique of his comedy is built on a wrong premise.** It says his best work is "built on specific people," but Kyle Rogger is a frat-bro type. It also calls the Kirk sketch a "category" while saying it was widely read as one real woman.
+5. **The silence claims are too absolute.** Lines like "The silence was the one thing that held" are broader than the research, and they carry no date. A Billboard cover story the page itself cites has "Whiteface Skit" in its headline, and nobody could read the article.
+6. **The case for Type 8 over Type 7 doesn't hold.** It rests on a test that doesn't separate the types. It also explains his silence in a way that contradicts 9takes' own Type 8 page, which I checked. The fix: argue from his fear of depending on anyone, name 7w8 as the real rival, and credit his habit of moving on to the Seven wing. The Type 8 page's own 8w7 section supports that reading.
+
+**Research still open:** the most important question is what Druski said about the whiteface skit in the Billboard cover story. Every reviewer raised it, it's behind a paywall, and the article needs a print or library copy. The other four have safe fallbacks the editor can use now.
+
+**Most important passage to keep verbatim:** the Mafiathon paragraph that begins "This is where the Type 8 frame stops explaining and starts excusing." It anchors the answer to the page's biggest search query ("is druski a good person"), and it sits right inside the section fix 3 changes most.
+
+**Your calls:**
+- **Updated date:** the page shows "Updated: April 29, 2026" above events from June and July 2026. I left `lastmod` alone, so the fix is yours at push. Until then, the brief makes in-text "as of September 2026" dates required.
+- **Hook:** four reviewers say the opening line ("you would feel small") is contradicted by every friend quoted on the page. The brief asks the editor to turn that contradiction into the hook rather than swap in a generic intro. Veto if you want your original line kept.
+
+**Word budget:** the fixes add about 220 words and the brief's cut list saves about 170. The page sits at about 3,894 words against a 3,900 target and a 4,500 ceiling, so the brief caps the net at +50.

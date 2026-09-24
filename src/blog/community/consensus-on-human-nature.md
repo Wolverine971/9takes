@@ -273,7 +273,7 @@ One honest caveat. MacLean's triune brain has taken real damage as _anatomy_: mo
 
 </div>
 
-It's not as if nobody tried other numbers. Descartes split human nature into two, mind and body. The Big Five uses five traits. The Myers-Briggs uses four dichotomies. Those are useful [taxonomies of _traits_](/community/mbti-vs-enneagram). The recurring three describes something different: [the machinery itself](/community/software-and-hardware-of-the-mind). When observers start from first principles and ask "what forces are actually operating inside a person," they keep landing on three.
+It's not as if nobody tried other numbers. Descartes split human nature into two, mind and body. The [Big Five](/enneagram-corner/enneagram-vs-personality-frameworks-comparison) uses five traits. The Myers-Briggs uses four dichotomies. Those are useful [taxonomies of _traits_](/community/mbti-vs-enneagram). The recurring three describes something different: [the machinery itself](/community/software-and-hardware-of-the-mind). When observers start from first principles and ask "what forces are actually operating inside a person," they keep landing on three.
 
 The [Enneagram maps directly onto these ancient frameworks](/enneagram-corner/philosophy-psychology-and-the-enneagram), and then goes a step further. It describes nine distinct patterns of how people rank the three dimensions. Some lead with thinking and manage fear. Some lead with feeling and manage shame. Some lead with instinct and manage anger. Personality, in this view, isn't about being rational or irrational. It's about which dimension runs point in your inner life.
 

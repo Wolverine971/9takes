@@ -93,7 +93,7 @@ Across their different formats, the repeated themes are power, competition, auth
 
 ## The Investigators: Type 5s
 
-**Lex Fridman. [Shawn Ryan](/personality-analysis/shawn-ryan). Andrew Huberman.**
+**[Lex Fridman](/personality-analysis/lex-fridman). [Shawn Ryan](/personality-analysis/shawn-ryan). Andrew Huberman.**
 
 These hosts give guests room, then steer the conversation toward systems, mechanisms, and first principles. The Type 5 pattern reduces uncertainty by building a deeper internal model, which makes long-form interviewing a natural fit.
 
@@ -125,7 +125,7 @@ Same investigative habit, different domain. The labels describe a recurring publ
 
 ## The Experience Collectors: Type 7s
 
-**Alex Cooper. Theo Von. Dax Shepard. Brittany Broski. Shaan Puri.**
+**Alex Cooper. Theo Von. Dax Shepard. [Brittany Broski](/personality-analysis/brittany-broski). Shaan Puri.**
 
 These five hosts build momentum through new stories, obsessions, and experiences. The Enneagram describes Type 7 as especially alert to limitation and emotional pain, often responding by moving toward more options, stimulation, and possibility.
 
@@ -212,7 +212,7 @@ The dynamic also produces conflict. In the episode ["Is This The End Of The Pod?
 
 The pattern of a Type 7 paired with a grounding type also appears on [Breaking Points](/pop-culture/breaking-points-enneagram-analysis), with Krystal Ball typed as a 1 and Saagar Enjeti as a 7. The 7 opens the aperture; the grounding type pressure-tests what comes through. Their tension helps the show avoid both heaviness and drift.
 
-A more accelerator-heavy pairing appears on [TBPN](/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic), where John Coogan's Type 7 possibility-seeking runs beside [Jordi Hays](/personality-analysis/jordi-hays)'s Type 3 focus on stakes, presentation, and visible value.
+A more accelerator-heavy pairing appears on [TBPN](/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic), where [John Coogan](/personality-analysis/john-coogan)'s Type 7 possibility-seeking runs beside [Jordi Hays](/personality-analysis/jordi-hays)'s Type 3 focus on stakes, presentation, and visible value.
 
 ## The Crossover Test
 

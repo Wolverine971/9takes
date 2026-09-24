@@ -124,6 +124,9 @@ where the page already ranks top five with zero or near-zero clicks.
   Beaverton) shows on camera: Druski interrupting Drake's workout to ask if he's alright.
   Sources: https://en.wikipedia.org/wiki/Laugh_Now_Cry_Later ;
   https://houseofheat.co/nike/drake-laugh-now-cry-later-music-video-5th-anniversary
+  **REVERSED later on 2026-09-23:** the quote is real. GQ 2020-11-11: "fucking around with all
+  the workers and like walking around talking to people like I was the CEO" (the scene was
+  "improvised and developed on the spot"). Restored to the page, attributed to GQ.
 
 ## Tier 3 (reported, not admitted)
 
@@ -135,7 +138,8 @@ Kirk parody as Kirk (Forbes); Erika Kirk sketch passing 100M views in two days (
 
 ## Open verification items for the evidence packet
 
-These pre-refresh claims survive in the page but were not re-opened in this session:
+**All CLOSED on 2026-09-23 in the entity-gap protect pass. See "Verification pass" below.** Original
+list kept for the record. These pre-refresh claims survived in the page and were not re-opened in the first session:
 
 - Jack Harlow's "piece of s***" / "look stupid" / "opens himself up to being vulnerable" quotes
   (likely Complex 2021 cover story, stories.complex.com/jack-harlow-druski-interview-2021-cover-story).
@@ -147,3 +151,193 @@ These pre-refresh claims survive in the page but were not re-opened in this sess
   prosecute (December 2025); phone records / bank statements.
 - Barclays 2025-10-11 gross $372,000 / 7,351 tickets (Billboard Boxscore).
 - Steve Harvey motivational speeches during the depression semester; grandmother ultimatum.
+
+## Verification pass 2026-09-23 (entity-gap protect pass)
+
+Trigger: `/blog_refresh_people Druski --entity-gap-brief=docs/content-analysis/entity-gaps/Druski.md`
+(packet: pass / protect / score 37). Four parallel research passes, read-only. Verdicts: V verified,
+P partial, U unverified, X contradicted. Tiers: P1 primary/first-person/court record, S reliable
+secondary, W weak.
+
+**Circular-source warning:** searches for several old quotes (the Hulu line, the parents' careers)
+surface the live 9takes page itself. It is never evidence.
+
+### Core sources
+
+- GQ, H. Drew Blackburn, 2020-11-11 (S, with first-person quotes):
+  https://www.gq.com/story/druski-hip-hop-favorite-comedian-drake-jack-harlow-odell-beckham-jr
+- Complex profile, Jewel Wicker, 2021-09-27 (S): https://www.complex.com/pop-culture/a/cmplxjewel/druski-profile-2021
+- Complex Harlow cover story, 2021-09-27 (P1, Q&A; renders only in a real browser):
+  https://stories.complex.com/jack-harlow-druski-interview-2021-cover-story/10/
+- Rolling Stone, Delisa Shannon, 2024-02-22 (S; US site tollbit-walled, Canada copy works):
+  https://ca.rollingstone.com/culture/how-druski-learned-to-stop-being-a-bitch-and-embrace-his-comedic-voice/
+- 2 Bears, 1 Cave Ep. 273 "Druski STORMS Off The Podcast", 2025-01-27 (P1, transcript):
+  https://www.youtube.com/watch?v=oojm3YT7sys. The mother's call runs 55:48-59:07. Bert Kreischer is not on it.
+- Essence, "The Business of Being Druski", 2025-10-02 (S): https://www.essence.com/of-the-essence/the-business-of-being-druski/
+- AfroTech, Samantha Dorisca, 2025-07-18 (P1 quotes): https://afrotech.com/druski-snipes
+- Billboard cover story, Kyle Denis, 2025-12-09 (S): https://www.billboard.com/music/features/druski-number-ones-billboard-cover-story-interview-1236132075/
+- Parham v. Combs, N.D. Cal. 3:24-cv-07191 (P1 court record): https://www.courtlistener.com/docket/69264583/parham-v-combs/ ;
+  govinfo.gov/content/pkg/USCOURTS-cand-3_24-cv-07191/pdf/USCOURTS-cand-3_24-cv-07191-0.pdf
+- Kai Cenat Live, "Thanksgiving Dinner With Kevin Hart & Druski!", 2024-11-28 (P1, stream upload):
+  https://www.youtube.com/watch?v=tdIWAgAkHYI
+
+### Parents (packet requirement 1)
+
+- Names: David and Cheryl Desbordes. RS 2024 names "Cheryl Desbordes." GQ ties the Smithsonian
+  Wall of Honor entry to the father. **V.**
+- Careers: **no first-person source.** GQ's narration: father "a pilot" who attended Howard and
+  graduated from the USAF Academy; mother "a Master of Science in Public Health and once worked at
+  the Centers for Disease Control and Prevention." Complex: "an airline pilot"; mother "a public
+  health professional who asked to remain anonymous to protect the privacy of Druski's teenage
+  sister." Captain / Guard major / United come only from the self-submitted Smithsonian entry
+  ("cannot validate all facts"). "Decorated" appears nowhere. "Department of State" traces only to
+  the farm. **Decision: careers cut; do not chase** (packet verdict + her 2021 anonymity request).
+- Household, as she and he describe it: karate from age 4 to a black belt in high school (Master Kim,
+  Global Karate, Snellville); weekly piano; a Georgia Tech science camp every year; school spelling
+  bee won in 2nd grade (2 Bears). She sat him "in front of the family video camera to hone his
+  imitations" (RS). GQ: parents "academically minded." Complex: she borrowed from her retirement fund
+  for his schooling; GQ: "my mom was paying my rent." **V.**
+
+### Childhood, school, depression
+
+- "I used to literally say in my mind in elementary school, 'I wanna be the funniest this year, I
+  wanna be the funniest kid in the class'... I would just fuck off all class and act an ass." GQ. **V.**
+- "Upset's not even the [right] word... My mom used to lose it— like literally cry." GQ. The old
+  page's "upset his mother to the point of tears" in quotation marks was invented. **X, fixed.**
+- High school: nearly a super senior; graduated on time after Spanish teacher Nancy Gordeuk handed
+  him a sheet crediting two years of Spanish (GQ). Complex says he repeated freshman year. **P**
+  (conflict; don't name the school for the credit).
+- College: Georgia Gwinnett College, then Georgia Southern (V). "Meant to be studying broadcast
+  journalism" (Complex). "Sports analytics" has **no source (X)**. Sportscaster aspiration: Kulture Hub only (W).
+  He stopped going to class, was "failing across the board," and dropped out "two semesters in"
+  (GQ/Complex). "Flunked out" unsupported.
+- Depression: "I don't think I've been that depressed in my life, other than the semester right
+  before I left." Complex 2021. No "ever." **V.** Setting (GQ, Statesboro): "I literally sat in my
+  room so many days. Couldn't even pay my rent; my mom was paying my rent. And I was in the middle
+  of nowhere, four hours away."
+- Steve Harvey: during Georgia Southern, not on his mother's couch. Complex: "I watched a lot of
+  Steve Harvey, who talked a lot about jumping and taking [chances]... Gary Vee, Diddy, Kevin Hart,
+  Will Smith." GQ/Complex narration: comedy and inspirational videos on YouTube. **V; "mother's couch" X.**
+- "He didn't talk about it": **U**, cut.
+- Grandmother: GQ "threatened to cut him off completely"; Complex "asked him not to call her or
+  visit anymore"; AfroTech (W) "unless he would return to school." "Financially" **U**, cut.
+- "I was hurt by that. I was like watch, I'ma show y'all. I'ma prove it to y'all." GQ. It refers to the
+  grandmother's threat. **V (the old wording was X).**
+- First sketch: October 2017, filmed at an Exxon in Lawrenceville, GA, at friends' urging (GQ).
+  House skits after: "I think I had rearranged the whole house downstairs… I had my phone on top
+  of the sofa" (Complex). "Mother's living room" first skits **X.**
+
+### Friends and peers
+
+- Harlow (Complex 2021 cover, Q&A): "Part of his comedy is he points out his flaws. He makes
+  himself look stupid. He says, 'Yeah, I'm a piece of shit.' He says these things all day long, and
+  it basically opens himself up to being vulnerable. That's why people feel comfortable around him,
+  because they're like, 'He doesn't give a fuck. Why should I? I don't have to be uptight.'" **V.**
+  The "shield" framing is **X**: Harlow means openness. The page now says so and treats control as its own reading.
+- OBJ: "Druski brings the best energy wherever he goes and always has everyone in the room
+  laughing." GQ, framed as why they got close. He invited Druski to spend the 2020 offseason with
+  him in LA (GQ narration). **V.**
+- Rubi Rose (X, ~2024-09-17): "i never slept with that man, n***a paid for PR." "Clout" appears only
+  in weak summaries (**X**). Druski: "Never needed no PR" (emoji W-only). Harlow: "Or a stylist or a
+  trainer or a nutritionist #INDEPENDENT #SELFMADE"; Druski: "where the HELL are you?" (Complex 2024-09-28). **V.**
+- Bieber SWAG (2025-07-11): three skits, "SOULFUL," "THERAPY SESSION," "STANDING ON BUSINESS." The
+  "therapist" framing is Billboard's. **P.**
+- "I just wanted to show my lifestyle and I wanted to make a name for my friends while doing
+  that." GQ, about The Guys. **V.** RS: 4Lifers "consists of friends from his hometown"; "I have a
+  team full of young Black writers that I grew up with." Crew on the Coulda Fest tour: **U** (not in lineups).
+- "I want my Talladega Nights or Bad Boys." GQ 2020. **V.**
+- Production models (AfroTech, P1): "that Adam Sandler type movie production company or the Kevin
+  Hart movie production company or the Tyler Perry movie production company." "Studies Happy
+  Madison / HartBeat blueprint" is Benzinga narration (W).
+- Wahlberg, Boston auditions (YouTube 2025-10-23; Complex 2025-10-25): "You from the hood?" and an
+  F-bomb reply. **V.** Chalamet, Brooklyn (YouTube 2025-12-18): Druski's "2% Jamaican" joke, which
+  Chalamet went along with ("I had a great grandparent from Kingston"); one Kirk Franklin song. **P, fixed.**
+
+### Business
+
+- "We tried to get Netflix, we tried to get Amazon, we tried to get Hulu... Everything was a no,
+  back to back to back to back to back." **Essence**, not AfroTech. AfroTech: "It quickly turned
+  into a 'no'..." and "We don't need to have anybody else... banked on ourselves [and] put all our
+  money into it." **Old splice X, fixed.**
+- Views (Essence 2025-10-02): CBH S1 58M / 8 eps; Coulda Been Love 80M / 7 eps (11.4M is Essence's
+  arithmetic). No as-of date, so the page date-stamps them "as Essence tallied them in October 2025."
+  S2 guests: Lil Baby, Rick Ross, Kevin Hart (Essence) and Lil Yachty (Billboard trailer
+  2025-07-15). Don't confuse with Coulda Been **Auditions** (~60M / 8 eps, Billboard).
+- Barclays 2025-10-11: $372,000 / 7,351 tickets (Billboard cover 2025-12-09 citing Boxscore). **V.**
+  Wembley 2025-09-13 opener **V.** Soulja Boy **V.** Rod Wave was only at the Atlanta 2025-11-22 stop (W).
+- Forbes list data: $10M (2023-09-26), $12M (2024-10-28), $14M (2025-06-16), $20M (2026-06-23).
+  Ranks in the data: #20, #11, #9, #7. **Page prints dollars only.** These are earnings, not net worth.
+- Dunkin' "DunKings 2", Super Bowl LIX 2025-02-09 (Boston.com). ESPYs 2025-07-16, presented Best Team (E!). **V.**
+- The Diggers: THR broke it, 2025-06-17 (AV Club cites THR). Billboard Dec 2025: "A24 has
+  expressed interest." No production start or cancellation through 2026-09-23. Not the Tom Cruise "Digger."
+- The Catch: Deadline 2026-06-10, release 2027-05-21, "Sources say Druski will play Stone's
+  security guard." Hedged "reportedly."
+- BET 2026 host: youngest ever (CBS Atlanta 2026-06-28; Hart was also 31 in 2011, so the record is by months).
+
+### Parham v. Combs (N.D. Cal. 3:24-cv-07191)
+
+- Filed 2024-10-15 (Dkt 1). Amended complaint naming "drew desbordes" and "Odell Beckham jr" filed
+  2025-03-07 (Dkt 18); FAC 2025-03-13 (Dkt 19). Alleged incident 2018-03-23 at Shane Pearce's
+  "home in Orinda, California" (Dkt 54). "Apartment" **X, fixed.**
+- Denial posted ~2025-03-09 (X; Newsweek says Instagram). "Within 48 hours" can't be pinned; page says "within days."
+- Aug 19, 2025 order (Dkt 54): his records (a Loganville, GA debit charge on 3/23/2018; 16 calls
+  from Atlanta; phone "registered in the name of Cheryl Desbordes") show "that he was almost
+  certainly in the state of Georgia." "Plaintiffs' allegations pertaining to Desbordes almost
+  certainly lack a factual basis." **But the sanctions motion was DENIED:** counsel had "a
+  reasonable factual basis" at filing, because Parham picked him from a photo lineup. The records
+  were filed under seal with the sanctions motion on 2025-05-09.
+- Zelle-only income: TMZ 2025-04-21 only (S). Cut from the page for length.
+- Dismissed 2025-12-16 (Dkt 85/86), Rule 41(b), failure to prosecute. Counsel withdrew 2025-09-30;
+  no new counsel by the Dec 8 deadline. **Without prejudice.** No refiled federal case found (state not checked).
+  Druski to Complex 2025-12-17: "It was only a matter of time before this frivolous lawsuit against
+  me was dismissed... The evidence I submitted overwhelmingly showed that I was innocent... It
+  proved I never knew this individual and was never even in the same state."
+- Page rule: "dismissed," never "cleared" or "exonerated." "Frivolous" and "innocent" stay in his mouth.
+
+### Mafiathon 2 (2024-11-27)
+
+- Addams Family bit: the boy sat as Pugsley (Dexerto: "actors as members of the Addams Family").
+  Nobody on the stream called him hired; he and his mother described it as an acting job.
+- Age: no reliable outlet. The stream (~16:56, "9 years old," speaker unlabeled) and the mother's
+  TikTok ("a nine-year-old") are the sources. Page: "a boy his mother said was nine." **Never print the child's name.**
+- Apology, **on the stream** (~17:38): "I got a couple drinks... but that ain't no excuse bro... I'm
+  a bigger dude you're a bigger dude we on the same page and like I really do apologize... getting a
+  little ahead of myself getting excited." **No later posted apology and no reply to the mother found**
+  (searched IG/X/stories coverage, Dexerto, HNHH, Sportskeeda, LoveBScott, Atlanta Black Star, YouTube).
+  The Breakfast Club TikTok (2024-12-02) is the hosts discussing it.
+- Hug: Dexerto says Cenat hugged the boy. "Druski hugged" is **U**, cut.
+- Mother (TikTok, via Dexerto/HNHH): "They wouldn't let me get my son. Security blocked me… An older
+  person, Druski, was physically and mentally insulting my son!" She called the apology insincere and
+  cited child-permit laws. "Assaulting" appears only in a third party's transcription. No "accountability" ask on record.
+  Fairness note: she later used racial slurs about Druski (Atlanta Black Star 2024-11-30). Not admitted.
+- Cenat's "forced a little bit": the referent is disputed (the mother's video per HNHH vs. crew
+  prompting per Sportskeeda). Cut. "We cut it out solely for the fact we didn't want anyone on
+  YouTube to make a joke out of this" is **V**, but the live upload still contains the insult, so
+  "cut from the replay" is **X**. Cut.
+- Peak viewers for the day-27 broadcast: 623.4K (Streams Charts 2024-12-04). This covers the whole broadcast, not the moment itself.
+
+### Whiteface and Erika Kirk
+
+- NASCAR: Cookout Southern 500, Darlington, **2025-08-31**; posted ~09-02 as "That Guy who is just
+  Proud to be AMERICAN🇺🇸." About four hours of makeup (makeup artist, RS via Yahoo 2025-09-04). Flag
+  tattoo, cowboy hat, overalls, Budweiser, "Born in the U.S.A." **V.** "Blonde beard" **X** (Vibe:
+  brown mullet, facial hair dyed brown). "Faux family" **U** (an older woman on his lap, RV campers).
+  Response video 2025-09-03 to James Brown, captioned "AM I CANCELLED?" **V.**
+- Kirk: posted 2026-03-25 as "How Conservative Women in America act." It **never names Kirk**
+  (HuffPost 2026-03-27; The Heights). Line (The Nation 2026-04-29): "they are the ones who matter
+  most," with a Black security guard behind her. Cruz "beneath contempt" and Root "a despicable
+  human being" (HuffPost). **V.** "Doubled down" is LADbible's headline (W). His actual response was
+  a deleted IG post jokingly asking if he'd gone too far (The Express via AOL 2026-03-27).
+- Corbould, The Conversation, 2026-03-30: the headline reads "...isn't racism. It's satire that
+  punches up at power"; the body says "Blackface and whiteface are not opposite and equal." It is
+  about the **Kirk** sketch. **V.** Ebony, "Why Druski's Skit Isn't Comparable to Blackface": 403,
+  confirmed via snippets only. Author and date **U.**
+- **The Heights** (Nikita Leal, 2026-04-07, student op-ed, W): argues whiteface can't match
+  blackface's harm (the defense side). **It contains no "character vs caricature" critique (X).** Removed
+  from the page. That argument now stands as 9takes' own analysis.
+
+### Packet-driven measurement (for the 28-day check)
+
+Baseline and prediction are copied into the draft's second REFRESH LEDGER. Canonical 28d
+2026-08-25 → 09-21: 4 clicks / 300 impr / 1.33% / pos 8.3. Predicted: 200–450 impr, 3–12 clicks,
+pos 7.5–9.0. Parent-name impressions are expected flat to down, and that is accepted.

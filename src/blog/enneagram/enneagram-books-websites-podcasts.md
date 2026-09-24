@@ -684,6 +684,8 @@ Ready to apply what you learn? Explore our in-depth guides:
 
 _The Road Back to You_ by Ian Morgan Cron and Suzanne Stabile. It uses relatable stories instead of dense theory, making the nine types immediately recognizable. If you prefer a visual approach, _The Enneagram Made Easy_ by Baron and Wagele uses illustrations and humor. For a modern take aimed at millennials, try _Millenneagram_ by Hannah Paasch.
 
+Already read one? Tell the next person what to pick up: ["What book should I read next?"](/questions/what-book-should-i-read-next)
+
 ### Are free Enneagram tests accurate?
 
 They give you a starting point, not a definitive answer. The best tests (like the RHETI from the Enneagram Institute) cost money because they're validated instruments. Free tests from Truity or Eclectic Energies are useful for narrowing down to 2-3 possible types, but you'll need to read the type descriptions carefully and self-reflect to confirm. Mistyping is common, especially confusing types like 4 vs 6, or 9 vs 2.

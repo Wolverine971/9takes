@@ -158,6 +158,8 @@ Kohut's frame fits here too: **failed mirroring** in childhood produces a self t
 
 **The trap:** the gift you over-developed becomes the _only currency_ you'll accept love in. A Two only feels safe being loved for what they give. A Five only feels safe being loved for what they know. An Eight only feels safe being loved for being needed as the strong one. Anyone who tries to love them outside that one lane is met with confusion, suspicion, or quiet rejection of their own.
 
+Which currency is yours? Answer ["What do you provide so that you never have to ask?"](/questions/what-do-you-provide-so-that-you-never-have-to-ask) before you read anyone else's answer.
+
 ## The Nine Types, Up Close
 
 Same template each time: **Internalized object → Childhood echo → Adult tell → One small move toward freedom.** The pattern sections above did the heavy theory. These are the close-ups.

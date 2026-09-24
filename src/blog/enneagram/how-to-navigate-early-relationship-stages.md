@@ -203,6 +203,8 @@ You become a shapeshifter, morphing into their perfect partner. But they never m
 
 "I don't mind" becomes your most dangerous lie.
 
+Be honest with yourself: <a href="/questions/s-something-say-don-t-mind-when-actually">"What's something you say 'I don't mind' about when you actually do?"</a>
+
 ### The Shift That Unlocks Connection
 
 **From:** "I earn love through giving"

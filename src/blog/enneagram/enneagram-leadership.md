@@ -188,7 +188,7 @@ Emotional disconnection. Isolation and minimal feedback. Over-complexity. Hoardi
 
 **Kryptonite:** Detachment that leaves teams feeling unsupported.
 
-**Reality Check:** When did you last have lunch with your team? Bill Gates evolved his leadership style over decades. Microsoft's culture shifted when he learned to pair technical brilliance with connection. Knowledge without presence creates a vacuum your team fills with assumptions.
+**Reality Check:** When did you last have lunch with your team? Bill Gates evolved his [leadership style](/pop-culture/tech-titans-leadership-styles) over decades. Microsoft's culture shifted when he learned to pair technical brilliance with connection. Knowledge without presence creates a vacuum your team fills with assumptions.
 
 **The Fix:** The "Office Hours Rule." Two hours weekly with an open door, no agenda required. Just availability. Your team needs access to you, not just your decisions.
 

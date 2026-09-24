@@ -54,7 +54,7 @@ Your instinctual stacking also interacts with your wing. See [the complete Ennea
 
 ### A Note on Limitations and Disclaimers
 
-- The Enneagram, including its instinctual subtypes, is a **personal growth framework**, not a scientifically validated diagnostic tool.
+- The Enneagram, including its instinctual subtypes, is a **personal growth framework**, not a [scientifically validated](/enneagram-corner/mental-health/enneagram-science-mental-health) diagnostic tool.
 - These insights are intended for **self-reflection** and **improvement**, not to label or confine you.
 - If you have serious psychological or emotional concerns, please consult a qualified mental health professional.
 

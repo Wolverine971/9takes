@@ -112,7 +112,7 @@ Your inner critic isn't just annoying – it's expensive. Here's what that voice
 
 **Mental Health Impact:**
 
-- Type 4s spiral into depression through comparison
+- Type 4s [spiral into depression](/enneagram-corner/depression-patterns-by-enneagram-type) through comparison
 - Type 6s develop [anxiety disorders](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide) from chronic worry
 - Type 7s develop addictive patterns to escape discomfort
 

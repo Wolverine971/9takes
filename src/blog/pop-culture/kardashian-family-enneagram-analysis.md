@@ -241,9 +241,9 @@ The law study isn't random. It's psychological evolution. Her Type 3 needs succe
 
 Whether you think she's genuinely committed or just rebranding, the results—actual humans freed from unjust sentences—are tangible.
 
-### Kim and Kanye: Two Type 3s Collide
+### Kim and Kanye: A 3 and a 7 Collide
 
-Her marriage to [Kanye West](/personality-analysis/kanye) put two achievement-driven personalities in competition. Both needed to be the star. Both measured worth through public perception. Both struggled when the other's choices threatened their brand.
+Her marriage to [Kanye West](/personality-analysis/kanye) put a 3 and a 7 in the same spotlight. Kim measured worth through a carefully managed public image. Kanye, a Type 7, kept moving: a new sound, a new venture, a new provocation, never the same move twice. She needed the brand to hold still. He couldn't.
 
 The divorce became inevitable when Kanye's behavior started damaging Kim's carefully curated image. Type 3s will sacrifice relationships before reputation.
 
