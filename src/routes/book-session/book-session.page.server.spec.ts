@@ -1,180 +1,183 @@
 // src/routes/book-session/book-session.page.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { verifyRecaptchaMock, isHoneypotTriggeredMock, sendEmailMock, getAdminMock } = vi.hoisted(
-	() => ({
-		verifyRecaptchaMock: vi.fn(),
-		getAdminMock: vi.fn(),
-		isHoneypotTriggeredMock: vi.fn(),
-		sendEmailMock: vi.fn()
-	})
-);
-
-vi.mock('$lib/server/supabaseAdmin', () => ({ getSupabaseAdminClient: getAdminMock }));
-
-vi.mock('$lib/utils/recaptcha', () => ({
-	verifyRecaptcha: verifyRecaptchaMock,
-	isHoneypotTriggered: isHoneypotTriggeredMock
+const { createTalkNoteMock, saveTalkNoteDetailsMock, consumeApiRateLimitMock } = vi.hoisted(() => ({
+	createTalkNoteMock: vi.fn(),
+	saveTalkNoteDetailsMock: vi.fn(),
+	consumeApiRateLimitMock: vi.fn()
 }));
 
-vi.mock('$lib/email/sender', () => ({
-	sendEmail: sendEmailMock
+vi.mock('$lib/server/talkNotes', () => ({
+	createTalkNote: createTalkNoteMock,
+	saveTalkNoteDetails: saveTalkNoteDetailsMock,
+	newTalkToken: () => 'fake-token-aaaaaaaaaaaaaaaaaaaaaaaa',
+	looksLikeBotUserAgent: (ua: string) => !ua || ua.length < 20 || /bot|curl/i.test(ua),
+	TALK_NOTE_MIN_FORM_MS: 3000
 }));
 
-vi.mock('$env/static/private', () => ({
-	PRIVATE_ADMIN_EMAIL: 'admin@9takes.com'
+vi.mock('$lib/server/apiRateLimit', () => ({
+	consumeApiRateLimit: consumeApiRateLimitMock,
+	resolveRateLimitSubject: ({ clientAddress }: { clientAddress: string }) => `ip:${clientAddress}`
 }));
 
 import { actions } from './+page.server';
 
-function buildRequest(overrides: Record<string, string> = {}) {
+const BROWSER_UA =
+	'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36';
+
+function noteEvent(fields: Record<string, string | File> = {}, userAgent = BROWSER_UA) {
 	const formData = new FormData();
-	formData.append('name', overrides.name ?? 'DJ');
-	formData.append('email', overrides.email ?? 'dj@example.com');
-	formData.append('enneagramType', overrides.enneagramType ?? '5');
-	formData.append('sessionGoal', overrides.sessionGoal ?? '');
-	formData.append('form_extra', overrides.form_extra ?? '');
-	formData.append('g-recaptcha-response', overrides['g-recaptcha-response'] ?? 'token');
-	formData.append('_timeToken', overrides._timeToken ?? '4000');
-
-	return new Request('http://localhost/book-session', {
-		method: 'POST',
-		body: formData,
-		headers: {
-			'user-agent':
-				overrides.userAgent ??
-				'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
-			referer: 'https://9takes.com/questions'
-		}
-	});
-}
-
-function buildSupabaseMocks(options?: {
-	waitlistError?: { code?: string } | null;
-	waitlistId?: number;
-	rateLimitCount?: number;
-}) {
-	const metadataCountChain = {
-		eq: vi.fn().mockReturnThis(),
-		gte: vi.fn().mockResolvedValue({
-			count: options?.rateLimitCount ?? 0,
-			error: null
-		})
-	};
-
-	const waitlistInsertChain = {
-		select: vi.fn().mockReturnThis(),
-		single: vi.fn().mockResolvedValue({
-			data: options?.waitlistError ? null : { id: options?.waitlistId ?? 123 },
-			error: options?.waitlistError ?? null
-		})
-	};
-
-	const metadataInsert = vi.fn().mockResolvedValue({ data: null, error: null });
-	const waitlistInsert = vi.fn().mockReturnValue(waitlistInsertChain);
-
-	const from = vi.fn((table: string) => {
-		if (table === 'coaching_waitlist_metadata') {
-			return {
-				select: vi.fn().mockReturnValue(metadataCountChain),
-				insert: metadataInsert
-			};
-		}
-
-		if (table === 'coaching_waitlist') {
-			return {
-				insert: waitlistInsert
-			};
-		}
-
-		throw new Error(`Unexpected table: ${table}`);
-	});
-
-	getAdminMock.mockReturnValue({ from });
-	return {
-		supabase: { from },
-		waitlistInsert,
-		metadataInsert
-	};
-}
-
-function buildEvent(
-	overrides: Record<string, string> = {},
-	supabaseOptions?: {
-		waitlistError?: { code?: string } | null;
-		waitlistId?: number;
-		rateLimitCount?: number;
-	}
-) {
-	const supabaseMocks = buildSupabaseMocks(supabaseOptions);
-	const cookies = { set: vi.fn() };
+	formData.append('body', 'I keep shutting down when my partner gets upset.');
+	formData.append('form_extra', '');
+	formData.append('_timeToken', '8000');
+	for (const [key, value] of Object.entries(fields)) formData.set(key, value);
 
 	return {
-		request: buildRequest(overrides),
-		getClientAddress: () => '127.0.0.1',
-		url: new URL('https://9takes.com/book-session?utm_source=homepage&utm_medium=cta'),
-		cookies,
-		locals: {
-			supabase: supabaseMocks.supabase
-		},
-		_cookies: cookies,
-		_supabase: supabaseMocks
-	};
+		request: new Request('http://localhost/book-session?/note', {
+			method: 'POST',
+			body: formData,
+			headers: { 'user-agent': userAgent, referer: 'https://9takes.com/questions' }
+		}),
+		url: new URL('http://localhost/book-session?utm_source=ig'),
+		getClientAddress: () => '203.0.113.5',
+		locals: {}
+	} as any;
 }
 
-describe('book-session action', () => {
-	beforeEach(() => {
-		vi.clearAllMocks();
-		verifyRecaptchaMock.mockResolvedValue(true);
-		isHoneypotTriggeredMock.mockImplementation((value: string | null) => Boolean(value?.trim()));
-		sendEmailMock.mockResolvedValue(undefined);
+function detailsEvent(fields: Record<string, string>) {
+	const formData = new FormData();
+	for (const [key, value] of Object.entries(fields)) formData.set(key, value);
+	return {
+		request: new Request('http://localhost/book-session?/details', {
+			method: 'POST',
+			body: formData
+		})
+	} as any;
+}
+
+beforeEach(() => {
+	vi.clearAllMocks();
+	consumeApiRateLimitMock.mockResolvedValue({ allowed: true, retryAfterSeconds: 0 });
+	createTalkNoteMock.mockResolvedValue({
+		ok: true,
+		noteId: 'note-1',
+		detailsToken: 'token-bbbbbbbbbbbbbbbbbbbbbbbb'
 	});
+});
 
-	it('accepts a waitlist signup without a session note', async () => {
-		const event = buildEvent({ sessionGoal: '' });
-
-		const result = await actions.coachSub(event as any);
+describe('/book-session ?/note', () => {
+	it('saves the note and returns the details token', async () => {
+		const result = await actions.note(noteEvent());
 
 		expect(result).toEqual({
-			success: true,
-			message: 'You have been added to our waitlist!',
-			email: 'dj@example.com'
+			noteSaved: true,
+			noteId: 'note-1',
+			detailsToken: 'token-bbbbbbbbbbbbbbbbbbbbbbbb'
 		});
-		expect(event._supabase.waitlistInsert).toHaveBeenCalledWith([
+		expect(createTalkNoteMock).toHaveBeenCalledWith(
 			expect.objectContaining({
-				name: 'DJ',
-				email: 'dj@example.com',
-				enneagram_type: '5',
-				session_goal: null
+				body: 'I keep shutting down when my partner gets upset.',
+				clientAddress: '203.0.113.5',
+				utm: { utm_source: 'ig' },
+				referrer: 'https://9takes.com/questions'
 			})
-		]);
-		expect(event._cookies.set).toHaveBeenCalledTimes(1);
+		);
 	});
 
-	it('still rejects notes longer than 600 characters', async () => {
-		const event = buildEvent({ sessionGoal: 'a'.repeat(601) });
+	it('passes a voice recording and its length through', async () => {
+		const audio = new File([new Uint8Array(1024)], 'note.webm', { type: 'audio/webm' });
+		await actions.note(noteEvent({ audio, audioSeconds: '42' }));
 
-		const result = await actions.coachSub(event as any);
+		const input = createTalkNoteMock.mock.calls[0][0];
+		expect(input.audio).toBeInstanceOf(File);
+		expect(input.audioSeconds).toBe(42);
+	});
 
-		expect(result).toMatchObject({
+	it('fakes success for bots without saving anything', async () => {
+		const honeypot = await actions.note(noteEvent({ form_extra: 'http://spam.example' }));
+		const tooFast = await actions.note(noteEvent({ _timeToken: '400' }));
+		const botUa = await actions.note(noteEvent({}, 'curl/8.1'));
+
+		for (const result of [honeypot, tooFast, botUa]) {
+			expect(result).toMatchObject({ noteSaved: true });
+		}
+		expect(createTalkNoteMock).not.toHaveBeenCalled();
+	});
+
+	it('rate limits per visitor and keeps their text', async () => {
+		consumeApiRateLimitMock.mockResolvedValueOnce({ allowed: false, retryAfterSeconds: 60 });
+		const result: any = await actions.note(noteEvent());
+
+		expect(result.status).toBe(429);
+		expect(result.data.body).toBe('I keep shutting down when my partner gets upset.');
+		expect(createTalkNoteMock).not.toHaveBeenCalled();
+	});
+
+	it('returns validation failures with the note intact', async () => {
+		createTalkNoteMock.mockResolvedValueOnce({
+			ok: false,
 			status: 400,
-			data: expect.objectContaining({
-				message: 'Please keep your note under 600 characters'
-			})
+			message: 'Say a little something first.'
 		});
-		expect(event._supabase.waitlistInsert).not.toHaveBeenCalled();
+		const result: any = await actions.note(noteEvent({ body: '' }));
+		expect(result.status).toBe(400);
+		expect(result.data.noteMessage).toBe('Say a little something first.');
+	});
+});
+
+describe('/book-session ?/details', () => {
+	it('saves an email and a session request', async () => {
+		saveTalkNoteDetailsMock.mockResolvedValueOnce({
+			ok: true,
+			replyExpected: true,
+			wantsSession: true,
+			email: 'sam@example.com'
+		});
+		const result = await actions.details(
+			detailsEvent({
+				noteId: 'note-1',
+				detailsToken: 'token-bbbbbbbbbbbbbbbbbbbbbbbb',
+				email: 'sam@example.com',
+				name: 'Sam',
+				wantsSession: 'on'
+			})
+		);
+
+		expect(saveTalkNoteDetailsMock).toHaveBeenCalledWith({
+			noteId: 'note-1',
+			detailsToken: 'token-bbbbbbbbbbbbbbbbbbbbbbbb',
+			email: 'sam@example.com',
+			name: 'Sam',
+			wantsSession: true
+		});
+		expect(result).toEqual({
+			detailsSaved: true,
+			replyExpected: true,
+			wantsSession: true,
+			email: 'sam@example.com'
+		});
 	});
 
-	it('returns fake success when the honeypot field is filled', async () => {
-		const event = buildEvent({ form_extra: 'bot filled this' });
-
-		const result = await actions.coachSub(event as any);
-
-		expect(result).toEqual({
-			success: true,
-			message: 'You have been added to our waitlist!'
+	it('echoes the note id and token back on failure so the step can retry', async () => {
+		saveTalkNoteDetailsMock.mockResolvedValueOnce({
+			ok: false,
+			status: 400,
+			message: 'That email doesn’t look right.'
 		});
-		expect(verifyRecaptchaMock).not.toHaveBeenCalled();
-		expect(event._supabase.waitlistInsert).not.toHaveBeenCalled();
+		const result: any = await actions.details(
+			detailsEvent({
+				noteId: 'note-1',
+				detailsToken: 'token-bbbbbbbbbbbbbbbbbbbbbbbb',
+				email: 'nope'
+			})
+		);
+
+		expect(result.status).toBe(400);
+		expect(result.data).toMatchObject({
+			detailsMessage: 'That email doesn’t look right.',
+			noteId: 'note-1',
+			detailsToken: 'token-bbbbbbbbbbbbbbbbbbbbbbbb',
+			wantsSession: false
+		});
 	});
 });

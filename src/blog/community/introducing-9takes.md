@@ -79,7 +79,7 @@ path: src/blog/community/introducing-9takes.md
 </script>
 
 <QuickAnswer question="What is 9takes?">
-**9takes is a Q&A platform where you answer first, then compare perspectives.** Comments stay hidden until you contribute your own take, which removes the echo chamber effect that plagues every other platform. An optional Enneagram personality lens lets you see *why* people think differently, not just *that* they do. One question, nine ways to see it.
+<strong>9takes is a Q&A platform where you answer first, then compare perspectives.</strong> Comments stay hidden until you contribute your own take, which removes the echo chamber effect that plagues every other platform. An optional Enneagram personality lens lets you see *why* people think differently, not just *that* they do. One question, nine ways to see it.
 </QuickAnswer>
 
 <p class="firstLetter">Where do good conversations happen online?</p>

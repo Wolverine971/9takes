@@ -1,0 +1,26 @@
+Druski is **not** an Emerging Entity Gap. He scores **37/100 (PASS)**, and the recommended action is **PROTECT**. I saved the packet to `docs/content-analysis/entity-gaps/Druski.md`.
+
+**Why it's a pass**
+- **His name belongs to other sites.** He has a full personal Wikipedia page, plus an IMDb bio, Rolling Stone and Complex profiles, and his agency bio. 9takes has never received a single Search Console impression for the query "druski".
+- **Demand comes in spikes that fade.** Our page peaked at about 2,100 impressions in March, during the Erika Kirk sketch backlash, and spiked again around the June BET Awards. It's now down to 300 impressions over 28 days (4 clicks, 1.33% CTR, position 8.3). I found nothing that brings him back into the news before *The Catch* comes out in May 2027.
+
+**What the page does own:** personality and character searches.
+- "is druski a good person" is the biggest query: 289 impressions in 90 days at position 8.5, with 0 clicks.
+- "druski personality" and "druski personality type" together drew 258 impressions at positions 5–6, with 2 clicks.
+
+The refresh another session drafted today (not pushed yet) already goes after both:
+- a new FAQ that answers "Is Druski a good person?"
+- a meta title that names his type, replacing "Why Druski Can't Be Controlled"
+
+It also keeps the section headings Google shows as jump links word for word.
+
+**One thing to fix before that refresh ships:** the paragraph about his parents. The details come from a content farm, not a real source.
+- Wikipedia cites two sources for the parents. One is a Smithsonian tribute page for a pilot named David Desbordes that never mentions Druski. The other is a content farm that got the mother's details from her LinkedIn.
+- That farm lists her employers as Georgia state agencies. Wikipedia's "Department of State" looks like a garbled version of that, and the draft repeats it.
+- "Decorated" veteran appears in no source at all. The master's degree traces only back to that LinkedIn profile.
+
+My call: keep the parents' names, which are well established, and cut their career and degree details. His mother's own on-record podcast stories about his childhood (karate, piano, spelling bee) make the same point more safely. We'll probably lose about 130 impressions from searches for his father's name, but those have gotten 0 clicks, so I think that's an acceptable loss. I didn't edit the draft because it belongs to the other session. This is written into the packet as a requirement before the push.
+
+**Check in 28 days:** I saved a 28-day baseline and prediction in the packet. We should see 3–12 clicks, flat position, and no traffic from the name itself. If traffic jumps, that's most likely new news about him, not the refresh working.
+
+I couldn't check backlinks, so the packet records them as unknown. Ahrefs, and several other connectors, need to be authorized in your claude.ai connector settings before I can use them. The Supabase connector also failed to connect this session, but I read the database through the repo's own query script, so nothing was lost.

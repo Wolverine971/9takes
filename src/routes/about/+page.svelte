@@ -330,9 +330,7 @@
 			</article>
 		</div>
 		<p class="coaching-hint">
-			For personal guidance applying this work, <a href="/book-session"
-				>join the 1-on-1 coaching waitlist</a
-			>.
+			For personal guidance applying this work, <a href="/book-session">leave DJ a note</a>.
 		</p>
 	</section>
 

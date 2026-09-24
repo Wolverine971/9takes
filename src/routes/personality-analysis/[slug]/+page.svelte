@@ -208,7 +208,6 @@
 	$: typeName = typeMeta?.name ?? '';
 	$: typeNameUpper = typeName ? typeName.toUpperCase() : '';
 	$: personaTitle = toStringValue(postMeta.persona_title).trim();
-	$: personaUpper = personaTitle ? personaTitle.toUpperCase() : typeNameUpper;
 	$: thumbImagePath = buildPersonalityImagePath(
 		postMeta.enneagram,
 		postMeta.person || postMeta.slug,
@@ -529,7 +528,6 @@
 	  §01 CASE FILE — V5 dossier header (the brand moment)
 	  ===================================================================== -->
 	<section class="case-file" aria-labelledby="case-file-name">
-		<div class="case-file-stripe" aria-hidden="true"></div>
 		<div class="case-file-pool" aria-hidden="true"></div>
 
 		<div class="case-file-inner">
@@ -545,10 +543,8 @@
 					<h1 id="case-file-name" class="case-file-name">{caseFileTitle}</h1>
 				{/key}
 
-				{#if personaTitle}
-					<p class="case-file-persona">{personaTitle}</p>
-				{/if}
-
+				<!-- The persona title lives on the portrait caption only; repeating it
+				     under the name put the same line on screen twice. -->
 				{#if postMeta.description}
 					<p class="case-file-subhead">
 						{postMeta.description}
@@ -796,7 +792,64 @@
 	  Bridge tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*,
 	  --pool-rgb, --pool-deep-rgb, --type-N-color) ship globally in
 	  src/scss/index.scss. Local-only overrides scoped to .dossier-page.
+
+	  Layout contract (2026-09-23 style audit): everything below the case-file
+	  header — TOC, prose, dossier, sources, FAQ, Chorus, bio, discussion,
+	  related — sits on ONE reading column (--prose-measure) with ONE left
+	  edge. Before this the body had six different left edges (184/280/294/
+	  310/328/341px at 1440) because each block carried its own max-width.
 	  ========================================================= */
+
+	/* Side gutter for every section; the column centers inside it. */
+	$gutter: 48px;
+	$gutter-sm: 24px;
+
+	/* Reading measure for profiles: 19px type on a 760px column ≈ 70
+	   characters per line (was 18px on 852px ≈ 82–87, past the 75 ceiling).
+	   Bigger type rather than a narrower column alone, so the page doesn't
+	   read cramped at desktop widths. Set on all three top-level sections
+	   because discussion/related render outside .dossier-page. */
+	$measure: 47.5rem;
+	$reading-size: 19px;
+
+	.dossier-page,
+	.discussion,
+	.related {
+		--prose-measure: #{$measure};
+	}
+
+	/* Furniture blocks (content callouts and mounted components) own their
+	   internal type. Page prose rules skip anything inside them — otherwise
+	   the prose rules' higher specificity re-set every callout caption,
+	   label, and quote to 18px body copy (a dialogue attribution rendered as a
+	   full-size white paragraph; evidence captions picked up 22px gaps). */
+	/* Built as :where(:not(.a *):not(.b *)…): :where() adds zero specificity,
+	   and a chain of simple :not()s survives postcss-preset-env, which
+	   rewrites :not(:is(.a, .b) *) into one rule per item — an OR that
+	   matches every furniture block again. */
+	$furniture: (
+		'.key-stat',
+		'.key-stat-row',
+		'.contrast-panel',
+		'.dialogue',
+		'.timeline',
+		'.inner-thought',
+		'.source-card',
+		'.aside-box',
+		'.pull-quote',
+		'.blog-evidence',
+		'.quick-answer',
+		'.blog-purpose',
+		'.pop-card',
+		'.disclaimer',
+		'[data-component-placeholder]'
+	);
+	$prose-nots: '';
+	@each $block in $furniture {
+		$prose-nots: '#{$prose-nots}:not(#{$block} *)';
+	}
+	$prose: ':where(#{$prose-nots})';
+
 	.dossier-page {
 		--type-accent: var(--lamp-glow);
 		--type-stripe: color-mix(in srgb, var(--type-accent) 58%, var(--stone-edge));
@@ -808,6 +861,11 @@
 		position: relative;
 		contain: layout;
 		margin: 0 auto;
+		/* Cancel the global `article` card padding/radius: it inset the type
+		   stripe 8px and gave the body a different gutter than the
+		   discussion/related sections, which render outside this element. */
+		padding: 0;
+		border-radius: 0;
 		max-width: 100%;
 		overflow-x: hidden;
 		background: var(--night-deep);
@@ -850,24 +908,14 @@
 	  ========================================================= */
 	.case-file {
 		position: relative;
-		padding: 96px 48px 48px;
+		padding: 96px $gutter 48px;
 		background: var(--night-deep);
 		overflow: hidden;
 		border-top: 3px solid var(--type-stripe);
 
 		@media (max-width: 768px) {
-			padding: 56px 20px 48px;
+			padding: 56px $gutter-sm 48px;
 		}
-	}
-
-	.case-file-stripe {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		height: 3px;
-		background: var(--type-stripe);
-		z-index: 2;
 	}
 
 	.case-file-pool {
@@ -952,24 +1000,13 @@
 		}
 	}
 
-	.case-file-persona {
-		margin: -4px 0 0;
-		font-family: var(--font-mono);
-		font-size: 12px;
-		font-weight: 600;
-		line-height: 1.4;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		color: var(--ink-mid);
-	}
-
 	.case-file-coords {
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
 		gap: 8px;
 		color: var(--ink-dim);
-		font-size: 11.5px;
+		font-size: 12px;
 
 		.case-file-coord-sep {
 			opacity: 0.65;
@@ -1012,6 +1049,18 @@
 
 		:global(.article-meta .date.updated) {
 			color: var(--data-teal);
+		}
+
+		/* On phones the row wraps, stranding a "|" at the end of a line.
+		   Spacing alone separates author / published / updated there. */
+		@media (max-width: 576px) {
+			:global(.article-meta) {
+				gap: 0.25rem 0.875rem;
+			}
+
+			:global(.article-meta .separator) {
+				display: none;
+			}
 		}
 	}
 
@@ -1159,65 +1208,146 @@
 		border-color: var(--stone-edge);
 	}
 
+	/* ---------- disclosures ----------
+	   The TOC, the TL;DR box (445 profiles), and the rabbit hole (166, styled in
+	   blog.scss) are all <details>. They share one resting treatment: a quiet
+	   stone card, 16px/600 label, and a +/− affordance on the right. Before,
+	   the TL;DR shipped as a bare browser ▶ at 15px and the TOC as a box
+	   inside a box (the global `details` padding leaked into it). */
+	@mixin disclosure-card {
+		margin: 0;
+		padding: 0;
+		border: 1px solid color-mix(in srgb, var(--stone-edge) 72%, transparent);
+		border-radius: 0.625rem;
+		background: var(--stone-warm);
+		box-shadow: none;
+		overflow: hidden;
+	}
+
+	@mixin disclosure-summary {
+		position: relative;
+		display: flex;
+		align-items: center;
+		min-height: 48px;
+		margin: 0;
+		padding: 0.75rem 3rem 0.75rem 1.25rem;
+		list-style: none;
+		font-size: 1rem;
+		font-weight: 600;
+		line-height: 1.4;
+		color: var(--ink-bright);
+		background: transparent;
+		cursor: pointer;
+
+		&::-webkit-details-marker {
+			display: none;
+		}
+
+		&::before {
+			content: none;
+		}
+
+		&::after {
+			content: '+';
+			position: absolute;
+			right: 1.25rem;
+			top: 50%;
+			transform: translateY(-50%);
+			font-size: 1.4rem;
+			font-weight: 400;
+			line-height: 1;
+			color: var(--lamp-glow);
+		}
+
+		&:hover {
+			color: var(--lamp-glow);
+			background: color-mix(in srgb, var(--lamp-glow) 6%, transparent);
+		}
+	}
+
 	/* ---------- article prelude ----------
 	   The contents disclosure is page navigation, not essay content. Give it a
 	   dedicated band, then use an inset hairline to mark where the read begins. */
 	.article-navigation {
-		padding: 24px 48px;
+		padding: 24px $gutter;
 		background: var(--night-deep);
 
-		/* The prelude owns the whitespace around this route's TOC. Its resting
-		   state should read as quiet navigation, leaving the route's effects
-		   budget to NineChorus farther down the page. */
+		/* Quiet navigation: the route's effects budget belongs to NineChorus. */
 		:global(.toc-accordion) {
-			margin: 0;
-			border-color: color-mix(in srgb, var(--stone-edge) 72%, transparent);
-			box-shadow: none;
+			@include disclosure-card;
 		}
 
 		:global(.toc-summary) {
-			min-height: 48px;
-			border-bottom-color: transparent;
+			@include disclosure-summary;
+			border-bottom: 1px solid transparent;
 		}
 
 		:global(.toc-accordion[open] .toc-summary) {
 			border-bottom-color: color-mix(in srgb, var(--stone-edge) 58%, transparent);
 		}
+
+		:global(.toc-accordion[open] .toc-summary::after) {
+			content: '\2212';
+		}
+
+		:global(.toc-accordion-content) {
+			padding: 0.75rem 1.25rem 1rem;
+			background: transparent;
+		}
 	}
 
 	.article-navigation-inner {
 		width: 100%;
-		max-width: 880px;
+		max-width: var(--prose-measure);
 		margin: 0 auto;
 		min-width: 0;
 	}
 
 	.article-divider {
-		width: calc(100% - 96px);
-		max-width: 1280px;
+		width: calc(100% - #{2 * $gutter});
+		max-width: var(--prose-measure);
 		height: 1px;
 		margin: 0 auto;
 		background: color-mix(in srgb, var(--stone-edge) 72%, transparent);
+
+		@media (max-width: 768px) {
+			width: calc(100% - #{2 * $gutter-sm});
+		}
 	}
 
 	/* =========================================================
 	  §02 BREAKDOWN — long-form body
 	  ========================================================= */
 	.breakdown {
-		padding: 48px 48px 96px;
+		padding: 48px $gutter 96px;
 		background: var(--night-deep);
 
 		@media (max-width: 768px) {
-			padding: 40px 20px 64px;
+			padding: 40px $gutter-sm 64px;
 		}
 	}
 
 	.breakdown-inner {
 		width: 100%;
-		max-width: 880px;
+		max-width: var(--prose-measure);
 		margin: 0 auto;
 		min-width: 0;
 		overflow-x: hidden;
+
+		/* Shared blocks each bring their own frame (FAQ 820px + 24px padding,
+		   Chorus 44rem centered, bio 48rem, sources 75ch at 16px). Here they all
+		   fill the reading column so their edges line up with the prose. */
+		:global(.article-sources),
+		:global(.faq-section),
+		:global(.chorus),
+		:global(.author-bio) {
+			max-width: none;
+			margin-inline: 0;
+		}
+
+		:global(.faq-section) {
+			padding-inline: 0;
+		}
 	}
 
 	/* The dossier already owns its border, surface, and type label. Give that
@@ -1244,16 +1374,11 @@
 
 	.article-body {
 		width: 100%;
-		/* Reading measure (2026-06-09 design audit): 18px was right but the
-		   880px container ran ~90ch lines. Prose caps at 68ch, centered;
-		   the dossier header/stat furniture keeps the full 880px frame. */
-		max-width: var(--prose-measure);
-		margin-inline: auto;
 		min-width: 0;
 		margin-bottom: 2rem;
 		overflow-x: hidden;
 		font-family: var(--font-display);
-		font-size: 18px;
+		font-size: $reading-size;
 		line-height: 1.7;
 		color: var(--ink-bright);
 
@@ -1264,8 +1389,9 @@
 			margin-top: 0;
 		}
 
-		/* Header styles for injected content */
-		:global(h2) {
+		/* Prose rules below carry $prose: they style the essay and the prose
+		   inside disclosures, never the internals of a furniture block. */
+		:global h2#{$prose} {
 			font-family: var(--font-display);
 			font-size: clamp(24px, 3vw, 32px);
 			font-weight: 700;
@@ -1277,7 +1403,7 @@
 			line-height: 1.18;
 		}
 
-		:global(h3) {
+		:global h3#{$prose} {
 			font-family: var(--font-display);
 			font-size: clamp(20px, 2.4vw, 24px);
 			font-weight: 700;
@@ -1288,9 +1414,10 @@
 			line-height: 1.25;
 		}
 
-		:global(h4) {
+		:global h4#{$prose} {
 			font-family: var(--font-display);
-			font-size: 18px;
+			/* Body size, bold — an h4 must never read smaller than the prose. */
+			font-size: 1em;
 			font-weight: 700;
 			letter-spacing: -0.01em;
 			color: var(--ink-bright);
@@ -1299,27 +1426,27 @@
 			line-height: 1.3;
 		}
 
-		:global(p) {
-			/* inherit the 18px reading size — the global `p { font-size: 1rem }`
+		:global p#{$prose} {
+			/* inherit the reading size — the global `p { font-size: 1rem }`
 			   in index.scss would otherwise pin paragraphs to 16px. */
 			font-size: inherit;
 			margin-bottom: 1.4rem;
 			color: var(--ink-bright);
 		}
 
-		:global(ul),
-		:global(ol) {
+		:global ul#{$prose},
+		:global ol#{$prose} {
 			margin: 1rem 0 1.4rem;
 			padding-left: 1.5rem;
 			color: var(--ink-bright);
 		}
 
-		:global(li) {
+		:global li#{$prose} {
 			margin-bottom: 0.5rem;
 			line-height: 1.6;
 		}
 
-		:global(a) {
+		:global a#{$prose} {
 			color: var(--lamp-glow);
 			text-decoration: none;
 			transition: color 0.18s ease;
@@ -1331,78 +1458,34 @@
 			}
 		}
 
-		:global(blockquote) {
+		:global blockquote#{$prose} {
 			margin: 1.75rem 0;
 			padding: 0.75rem 1.25rem 0.75rem 1.5rem;
 			border-left: 3px solid var(--lamp-glow);
 			background: var(--stone-warm);
 			color: var(--ink-bright);
+			/* blog.scss shrinks every blockquote to 14.4px on phones — below the
+			   17px body. Quotes are evidence here; they stay at reading size. */
+			font-size: inherit;
 			font-style: italic;
 			border-radius: 0 0.625rem 0.625rem 0;
 		}
 
-		:global(blockquote p) {
+		:global blockquote#{$prose} p {
 			margin-bottom: 0;
 			color: var(--ink-bright);
 		}
 
-		:global(.source-card) {
-			display: grid;
-			grid-template-columns: auto 1fr;
-			gap: 0.85rem;
-			margin: 1.75rem 0;
-			padding: 1rem 1.1rem;
-			background: var(--night-mid);
-			border: 1px solid var(--stone-edge);
-			border-left: 3px solid var(--data-teal);
-			border-radius: 0.625rem;
-			box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
-		}
-
-		:global(.source-card__icon) {
-			display: inline-flex;
-			align-items: center;
-			justify-content: center;
-			width: 1.6rem;
-			min-width: 1.6rem;
-			height: 1.6rem;
-			font-size: 1rem;
-			line-height: 1;
-		}
-
-		:global(.source-card__title) {
-			margin-bottom: 0.18rem;
-			font-weight: 700;
-			font-size: 0.98rem;
-			line-height: 1.35;
-			color: var(--ink-bright);
-		}
-
-		:global(.source-card__meta) {
-			margin-bottom: 0.45rem;
-			font-family: var(--font-mono);
-			font-size: 0.72rem;
-			letter-spacing: 0.06em;
-			text-transform: uppercase;
-			color: var(--data-teal);
-		}
-
-		:global(.source-card__note) {
-			font-size: 0.95rem;
-			line-height: 1.55;
-			color: var(--ink-mid);
-		}
-
-		:global(strong) {
+		:global strong#{$prose} {
 			font-weight: 700;
 			color: var(--ink-bright);
 		}
 
-		:global(em) {
+		:global em#{$prose} {
 			color: var(--ink-bright);
 		}
 
-		:global(code) {
+		:global code#{$prose} {
 			background: var(--stone-warm);
 			color: var(--data-teal);
 			padding: 0.15rem 0.4rem;
@@ -1432,10 +1515,50 @@
 			margin: 2.5rem 0;
 		}
 
-		:global(img) {
+		:global img#{$prose} {
 			max-width: 100%;
 			height: auto;
 			border-radius: 10px;
+		}
+
+		/* TL;DR box: a top-level <details> with a summary.accordion + .panel.
+		   The rabbit hole keeps its accent treatment from blog.scss. */
+		> :global(details:not(.enneagram-rabbit-hole)) {
+			@include disclosure-card;
+			margin: 1.75rem 0;
+		}
+
+		> :global(details:not(.enneagram-rabbit-hole) > summary) {
+			@include disclosure-summary;
+		}
+
+		> :global(details:not(.enneagram-rabbit-hole)[open] > summary::after) {
+			content: '\2212';
+		}
+
+		> :global(details:not(.enneagram-rabbit-hole) > .panel) {
+			margin: 0;
+			padding: 0.25rem 1.25rem 1.25rem;
+			background: transparent;
+			border: 0;
+			border-radius: 0;
+		}
+
+		:global(details > .panel > :last-child) {
+			margin-bottom: 0;
+		}
+
+		/* Rabbit-hole panel prose runs a step down (16px, set on .panel in
+		   blog.scss); its headings follow so they don't tower over the text. */
+		:global(.enneagram-rabbit-hole > .panel h3) {
+			font-size: 1.125rem;
+			letter-spacing: -0.01em;
+			margin: 1.75rem 0 0.6rem;
+			padding: 0 0 0.4rem;
+		}
+
+		:global(.enneagram-rabbit-hole > .panel h3:first-child) {
+			margin-top: 0.5rem;
 		}
 	}
 
@@ -1444,24 +1567,32 @@
 	  ========================================================= */
 	.discussion {
 		/* Demoted beneath the Chorus: tighter padding + a quieter ground than
-		   the case-file/breakdown sections so it reads as secondary. */
+		   the case-file/breakdown sections so it reads as secondary. The panel
+		   extends past the reading column by exactly its own padding, so the
+		   comment form starts on the same left edge as the prose. When the
+		   viewport is narrower, 8px of inset + 40px padding = the 48px gutter. */
+		--discussion-pad: 40px;
 		box-sizing: border-box;
-		width: min(calc(100% - 32px), 880px);
+		width: min(
+			calc(100% - #{2 * ($gutter - 40px)}),
+			calc(var(--prose-measure) + 2 * var(--discussion-pad))
+		);
 		margin-inline: auto;
-		padding: 64px clamp(24px, 4vw, 48px);
+		padding: 64px var(--discussion-pad);
 		background: var(--night-mid);
 		border-top: 1px solid var(--stone-edge);
 		overflow-x: hidden;
 
 		@media (max-width: 768px) {
+			--discussion-pad: #{$gutter-sm};
 			width: 100%;
-			padding: 48px 20px;
+			padding-block: 48px;
 		}
 	}
 
 	.discussion-inner {
 		width: 100%;
-		max-width: 880px;
+		max-width: var(--prose-measure);
 		margin: 0 auto;
 		min-width: 0;
 	}
@@ -1531,21 +1662,18 @@
 	  ========================================================= */
 	.related {
 		box-sizing: border-box;
-		width: min(100%, 880px);
-		margin-inline: auto;
-		padding: 72px 0;
+		padding: 72px $gutter;
 		background: var(--night-deep);
-		border-top: 1px solid var(--stone-edge);
 		overflow-x: hidden;
 
 		@media (max-width: 768px) {
-			padding: 48px 20px;
+			padding: 48px $gutter-sm;
 		}
 	}
 
 	.related-inner {
 		width: 100%;
-		max-width: 880px;
+		max-width: var(--prose-measure);
 		margin: 0 auto;
 		min-width: 0;
 	}
@@ -1601,15 +1729,11 @@
 	  ========================================================= */
 	@include mobile {
 		.case-file {
-			padding: 48px 16px 32px;
+			padding: 48px $gutter-sm 32px;
 		}
 
 		.article-navigation {
-			padding: 20px 16px;
-		}
-
-		.article-divider {
-			width: calc(100% - 32px);
+			padding: 20px $gutter-sm;
 		}
 
 		.case-file-name {
@@ -1622,45 +1746,40 @@
 		}
 
 		.breakdown {
-			padding: 32px 16px 56px;
+			padding: 32px $gutter-sm 56px;
 		}
 
+		/* Paragraphs inherit this size (no per-<p> size here) so panels that
+		   set their own size — the 16px rabbit hole — keep it on phones. */
 		.article-body {
 			font-size: 17px;
-			max-width: 100%;
-			min-width: 0;
-			overflow-x: hidden;
 			overflow-wrap: break-word;
-			word-wrap: break-word;
 
-			:global(h2) {
+			:global h2#{$prose} {
 				font-size: 22px;
 				margin-top: 1.75rem;
 				margin-bottom: 0.75rem;
 				padding-top: 0.75rem;
 			}
 
-			:global(h3) {
+			:global h3#{$prose} {
 				font-size: 19px;
 				margin-top: 1.4rem;
 				margin-bottom: 0.5rem;
 			}
 
-			:global(h4) {
+			:global h4#{$prose} {
 				font-size: 17px;
 				margin-top: 1.2rem;
 				margin-bottom: 0.4rem;
 			}
 
-			:global(p) {
-				font-size: 17px;
+			:global p#{$prose} {
 				margin-bottom: 1.2rem;
 			}
 
-			:global(img) {
-				max-width: 100%;
-				height: auto;
-				display: block;
+			:global(.enneagram-rabbit-hole > .panel h3) {
+				font-size: 1.0625rem;
 			}
 
 			:global(iframe),
@@ -1669,14 +1788,8 @@
 				max-width: 100%;
 			}
 
-			:global(pre),
-			:global(table) {
-				max-width: 100%;
-				overflow-x: auto;
-				-webkit-overflow-scrolling: touch;
-			}
-
 			:global(pre) {
+				max-width: 100%;
 				overflow-x: auto;
 				word-wrap: normal;
 			}
@@ -1686,19 +1799,12 @@
 			}
 		}
 
-		.discussion,
-		.related {
-			padding: 56px 16px;
+		.discussion {
+			padding-block: 56px;
 		}
-	}
 
-	/* Tablet */
-	@include tablet {
-		.article-body {
-			:global(img) {
-				max-width: 100%;
-				height: auto;
-			}
+		.related {
+			padding-block: 56px;
 		}
 	}
 

@@ -1,6 +1,17 @@
 /* src/scss/blog.scss */
 /*
  * Blog specific styles - Optimized
+ *
+ * Callout ("furniture") type scale — 2026-09-23. Every callout size is one
+ * of these steps; the design-system scale (§6) plus the article's own h3/h2
+ * sizes. Before this, callouts used ~20 fluid/one-off sizes (9.6–27.2px).
+ *   0.75rem  12px  labels, mono metadata, speaker names, uppercase titles
+ *   0.875rem 14px  captions, attributions, cites, context lines
+ *   1rem     16px  callout body text — the floor for anything multi-sentence
+ *   1.125rem 18px  emphasis: mobile pull quotes, compact evidence quotes
+ *   1.5rem   24px  lead: pull quotes, evidence quotes and captions
+ *   1.75rem  28px  portrait evidence quote
+ *   2rem / 2.5rem  32 / 40px  stat numbers (mobile / desktop)
  */
 
 @use 'mixins' as *;
@@ -293,7 +304,7 @@ blockquote {
 .blog-evidence .blog-evidence__label {
 	margin: 0 0 0.6rem;
 	font-family: var(--font-mono);
-	font-size: 0.65rem;
+	font-size: 0.75rem;
 	font-weight: 650;
 	line-height: 1.35;
 	letter-spacing: 0.06em;
@@ -317,7 +328,7 @@ blockquote {
 
 .blog-evidence .blog-evidence__quote p {
 	margin: 0;
-	font-size: clamp(1.08rem, 2.1vw, 1.3rem);
+	font-size: 1.5rem;
 	font-weight: 580;
 	line-height: 1.38;
 	letter-spacing: -0.012em;
@@ -327,7 +338,7 @@ blockquote {
 .blog-evidence--portrait .blog-evidence__quote p {
 	/* Host article shells style every descendant paragraph; the quote owns its
 	   editorial type scale and must not collapse to the figcaption size. */
-	font-size: clamp(1.35rem, 2.5vw, 1.7rem) !important;
+	font-size: 1.75rem !important;
 	font-weight: 610;
 	line-height: 1.34;
 	letter-spacing: -0.018em;
@@ -339,25 +350,25 @@ blockquote {
 	flex-direction: column;
 	gap: 0.12rem;
 	margin: 0.75rem 0 0;
-	font-size: 0.8rem;
+	font-size: 0.875rem;
 	line-height: 1.4;
 }
 
 .blog-evidence__speaker strong {
-	font-size: 0.88rem;
+	font-size: 0.875rem;
 	font-weight: 720;
 	color: var(--ink-bright);
 }
 
 .blog-evidence__speaker span {
-	font-size: 0.76rem;
+	font-size: 0.75rem;
 	color: var(--ink-mid);
 }
 
 .blog-evidence .blog-evidence__caption {
 	margin: 0;
 	font-family: var(--font-display);
-	font-size: clamp(1.08rem, 2.2vw, 1.32rem);
+	font-size: 1.5rem;
 	font-weight: 600;
 	line-height: 1.35;
 	letter-spacing: -0.015em;
@@ -366,7 +377,7 @@ blockquote {
 
 .blog-evidence .blog-evidence__context {
 	margin: 0.6rem 0 0;
-	font-size: 0.7rem;
+	font-size: 0.875rem;
 	line-height: 1.48;
 	color: var(--ink-dim);
 }
@@ -380,7 +391,7 @@ blockquote {
 	padding-top: 0.72rem;
 	border-top: 1px solid color-mix(in srgb, var(--stone-edge) 54%, transparent);
 	font-family: var(--font-mono);
-	font-size: 0.65rem;
+	font-size: 0.75rem;
 	line-height: 1.55;
 	color: var(--ink-dim);
 }
@@ -448,7 +459,7 @@ blockquote {
 }
 
 .blog-evidence--compact .blog-evidence__quote p {
-	font-size: clamp(1rem, 2vw, 1.16rem);
+	font-size: 1.125rem;
 }
 
 .blog-evidence--compact .blog-evidence__context {
@@ -517,7 +528,7 @@ blockquote {
 	background-color: rgba(251, 191, 36, 0.08);
 	border-left: 4px solid var(--warning);
 	border-radius: 0 0.625rem 0.625rem 0;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	color: var(--ink-mid);
 
 	p {
@@ -547,7 +558,7 @@ blockquote {
 	margin: 2.5rem 0;
 	padding: 1.5rem 2rem;
 	text-align: center;
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	font-weight: 500;
 	font-style: italic;
 	line-height: 1.5;
@@ -556,24 +567,23 @@ blockquote {
 	border-bottom: 2px solid var(--lamp-glow);
 	background: linear-gradient(135deg, var(--lamp-soft) 0%, transparent 100%);
 
+	/* The glyph sits inside the frame. It used to straddle the top rule on a
+	   page-colored knock-out box, which showed as a dark tab over the tint. */
 	&::before {
 		content: '\201C';
-		position: absolute;
-		top: -0.4em;
-		left: 50%;
-		transform: translateX(-50%);
+		display: block;
+		height: 0.55em;
 		font-size: 3rem;
 		font-style: normal;
-		color: var(--lamp-glow);
+		font-weight: 700;
 		line-height: 1;
-		background: var(--night-deep);
-		padding: 0 0.5rem;
+		color: var(--lamp-glow);
 	}
 
 	cite {
 		display: block;
 		margin-top: 0.75rem;
-		font-size: 0.85rem;
+		font-size: 0.875rem;
 		font-weight: 400;
 		font-style: normal;
 		color: var(--ink-dim);
@@ -595,7 +605,20 @@ blockquote {
 	background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 	border: 1px solid var(--data-teal-rgba);
 
-	&__number {
+	/* A bare-sentence stat (no number/label children — ~40 published
+	   profiles) reads as a highlighted claim rather than plain body copy. */
+	font-weight: 600;
+	line-height: 1.55;
+	color: var(--ink-bright);
+
+	/* Published content uses four markup dialects for the same callout:
+	   BEM (__number/__label), hyphenated (-number/-label/-value), bare
+	   stat-number/stat-label, and <strong>/<span>. One treatment for all. */
+	&__number,
+	.key-stat-number,
+	.key-stat-value,
+	.stat-number,
+	> strong:first-child {
 		font-size: 2.5rem;
 		font-weight: 800;
 		color: var(--lamp-glow);
@@ -604,10 +627,20 @@ blockquote {
 		flex-shrink: 0;
 	}
 
-	&__label {
-		font-size: 0.95rem;
+	&__label,
+	.key-stat-label,
+	.stat-label,
+	> strong:first-child + span {
+		font-size: 1rem;
+		font-weight: 400;
 		line-height: 1.5;
 		color: var(--ink-mid);
+	}
+
+	/* Some drafts nest a .key-stat-row inside a single .key-stat; flatten it
+	   so the number and label sit in the stat's own flex row. */
+	> .key-stat-row {
+		display: contents;
 	}
 }
 
@@ -668,7 +701,7 @@ blockquote {
 	.attribution {
 		display: block;
 		margin-top: 0.75rem;
-		font-size: 0.85rem;
+		font-size: 0.875rem;
 		font-style: normal;
 		color: var(--ink-dim);
 	}
@@ -726,7 +759,7 @@ blockquote {
 
 	/* Flat markdown pattern: <div class="timeline-item"><strong>Year:</strong> event</div> */
 	.timeline-item {
-		font-size: 0.95rem;
+		font-size: 1rem;
 		line-height: 1.5;
 		color: var(--ink-mid);
 		display: block;
@@ -740,7 +773,7 @@ blockquote {
 
 	&__year {
 		font-weight: 700;
-		font-size: 0.9rem;
+		font-size: 0.875rem;
 		color: var(--lamp-glow);
 		white-space: nowrap;
 		flex-shrink: 0;
@@ -748,7 +781,7 @@ blockquote {
 	}
 
 	&__event {
-		font-size: 0.95rem;
+		font-size: 1rem;
 		line-height: 1.5;
 		color: var(--ink-mid);
 	}
@@ -764,44 +797,59 @@ blockquote {
 	overflow: hidden;
 	border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 
-	&__side {
+	/* Sides ship in three dialects: BEM (__side--left/right), the flat
+	   .contrast-left/.contrast-right pair (29 published profiles), and
+	   .contrast-side / __left / __right. All share one treatment. */
+	> * {
+		min-width: 0;
 		padding: 1.25rem;
 		line-height: 1.6;
-
-		&--left {
-			background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
-			border-right: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
-		}
-
-		&--right {
-			background: linear-gradient(135deg, var(--lamp-soft) 0%, var(--night-deep) 100%);
-		}
 	}
 
-	&__label {
+	&__side--left,
+	> .contrast-left,
+	> .contrast-side:first-child,
+	> .contrast-panel__left {
+		background: linear-gradient(135deg, var(--stone-warm) 0%, var(--night-deep) 100%);
+		border-right: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
+	}
+
+	&__side--right,
+	> .contrast-right,
+	> .contrast-side:last-child,
+	> .contrast-panel__right {
+		background: linear-gradient(135deg, var(--lamp-soft) 0%, var(--night-deep) 100%);
+	}
+
+	/* The flat dialects title each side with an <h4>; it plays the label role. */
+	&__label,
+	h4 {
 		display: block;
+		margin: 0 0 0.75rem;
+		padding: 0 0 0.5rem;
 		font-size: 0.75rem;
 		font-weight: 700;
+		line-height: 1.4;
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
-		margin-bottom: 0.75rem;
-		padding-bottom: 0.5rem;
 		border-bottom: 2px solid;
 	}
 
-	&__side--left &__label {
+	> :first-child .contrast-panel__label,
+	> :first-child h4 {
 		color: var(--ink-dim);
 		border-color: color-mix(in srgb, var(--ink-dim) 30%, transparent);
 	}
 
-	&__side--right &__label {
+	> :last-child .contrast-panel__label,
+	> :last-child h4 {
 		color: var(--lamp-glow);
 		border-color: var(--lamp-soft);
 	}
 
 	p {
 		margin: 0 0 0.5rem;
-		font-size: 0.95rem;
+		font-size: 1rem;
 		color: var(--ink-mid);
 
 		&:last-child {
@@ -810,58 +858,74 @@ blockquote {
 	}
 }
 
-/* Source Card - styled citation for a podcast/interview/book */
+/* Source Card - styled citation for a podcast/interview/book.
+   Consolidated 2026-09-23 from the dossier route's scoped copy (the design
+   that actually rendered). Two published dialects: icon + body div, and a
+   bare text/inline run ("<strong>Source:</strong> Flaunt, 2022 …"). Only the
+   icon dialect gets the two-column grid — a grid would split a bare run's
+   text and <em>s into separate cells. */
 .source-card {
-	display: flex;
-	gap: 1rem;
-	align-items: flex-start;
-	margin: 1.5rem 0;
-	padding: 1rem 1.25rem;
-	border-radius: 10px;
-	background: var(--stone-warm);
-	border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
+	display: block;
+	margin: 1.75rem 0;
+	padding: 1rem 1.1rem;
+	font-size: 1rem;
+	line-height: 1.55;
+	color: var(--ink-mid);
+	background: var(--night-mid);
+	border: 1px solid var(--stone-edge);
+	border-left: 3px solid var(--data-teal);
+	border-radius: 0.625rem;
+	box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
 	text-decoration: none;
-	transition:
-		border-color 0.2s ease,
-		box-shadow 0.2s ease;
 
-	&:hover {
-		border-color: var(--lamp-soft);
-		box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+	&:has(> .source-card__icon) {
+		display: grid;
+		grid-template-columns: auto minmax(0, 1fr);
+		gap: 0.85rem;
+	}
+
+	> strong:first-child {
+		color: var(--ink-bright);
 	}
 
 	&__icon {
-		font-size: 1.5rem;
-		flex-shrink: 0;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 1.6rem;
+		min-width: 1.6rem;
+		height: 1.6rem;
+		font-size: 1rem;
 		line-height: 1;
-		margin-top: 0.1rem;
 	}
 
 	&__body {
-		flex: 1;
 		min-width: 0;
 	}
 
 	&__title {
-		font-size: 0.95rem;
-		font-weight: 600;
+		margin: 0 0 0.18rem;
+		font-size: 1rem;
+		font-weight: 700;
+		line-height: 1.35;
 		color: var(--ink-bright);
-		margin: 0 0 0.25rem;
-		line-height: 1.4;
 	}
 
 	&__meta {
-		font-size: 0.8rem;
-		color: var(--ink-dim);
-		margin: 0;
+		margin: 0 0 0.45rem;
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--data-teal);
 	}
 
 	&__note {
-		font-size: 0.85rem;
-		color: var(--ink-mid);
-		margin: 0.5rem 0 0;
-		line-height: 1.5;
+		margin: 0;
+		font-size: 1rem;
 		font-style: italic;
+		line-height: 1.55;
+		color: var(--ink-mid);
 	}
 }
 
@@ -883,7 +947,7 @@ blockquote {
 	}
 
 	&__speaker {
-		font-size: 0.8rem;
+		font-size: 0.75rem;
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.03em;
@@ -894,22 +958,16 @@ blockquote {
 	}
 
 	&__text {
-		font-size: 0.95rem;
+		font-size: 1rem;
 		line-height: 1.6;
 		color: var(--ink-mid);
 	}
 
-	/* Alternate speaker gets a different accent */
-	&__line:nth-child(even) {
-		border-left-color: var(--data-teal-rgba);
-
-		.dialogue__speaker {
-			color: var(--data-cyan);
-		}
-	}
+	/* No per-row accent alternation: it keyed color to row position, so the
+	   same speaker changed color whenever they spoke twice in a row. */
 
 	&__context {
-		font-size: 0.8rem;
+		font-size: 0.875rem;
 		font-style: italic;
 		color: var(--ink-dim);
 		padding: 0.25rem 1rem;
@@ -925,7 +983,7 @@ blockquote {
 	border-radius: 10px;
 	background: var(--stone-warm);
 	border: 1px solid color-mix(in srgb, var(--ink-dim) 15%, transparent);
-	font-size: 0.9rem;
+	font-size: 1rem;
 	line-height: 1.65;
 	color: var(--ink-mid);
 
@@ -949,7 +1007,7 @@ blockquote {
 	&__title {
 		font-weight: 700;
 		color: var(--ink-bright);
-		font-size: 0.85rem;
+		font-size: 0.75rem;
 		text-transform: uppercase;
 		letter-spacing: 0.03em;
 		margin: 0 0 0.5rem;
@@ -1043,7 +1101,7 @@ blockquote {
 	> .panel > p:first-child em,
 	> .panel > .rabbit-hole__intro {
 		display: block;
-		font-size: 0.85rem;
+		font-size: 0.875rem;
 		color: var(--ink-dim);
 		font-style: italic;
 		margin: 0 0 1rem;
@@ -1053,13 +1111,15 @@ blockquote {
 		border-radius: 4px;
 	}
 
+	/* One size on every viewport: the deep dive runs 500+ words, so it stays
+	   at the 16px body floor instead of dropping to 15px/14px. */
 	> .panel {
 		padding: 0 1.25rem 1.25rem;
-		font-size: 0.95rem;
+		font-size: 1rem;
 		line-height: 1.7;
 
 		h3 {
-			font-size: 1.05rem;
+			font-size: 1.125rem;
 			font-weight: 700;
 			color: var(--ink-bright);
 			margin: 1.5rem 0 0.5rem;
@@ -1092,10 +1152,12 @@ blockquote {
  * Blog Furniture - Mobile Adjustments
  * ============================================ */
 @include mobile {
+	/* Pull quotes stay above the 17px mobile body size — they are the
+	   loudest prose on the page, never quieter than a paragraph. */
 	.pull-quote {
 		margin: 1.5rem -0.25rem;
 		padding: 1.25rem 1rem;
-		font-size: 1.1rem;
+		font-size: 1.125rem;
 
 		&::before {
 			font-size: 2.5rem;
@@ -1111,7 +1173,7 @@ blockquote {
 		}
 
 		&__label {
-			font-size: 0.9rem;
+			font-size: 1rem;
 		}
 	}
 
@@ -1128,7 +1190,6 @@ blockquote {
 	.inner-thought {
 		margin: 1.5rem -0.25rem;
 		padding: 1rem 1rem 1rem 3rem;
-		font-size: 0.95rem;
 	}
 
 	.timeline {
@@ -1152,11 +1213,11 @@ blockquote {
 		}
 
 		&__year {
-			font-size: 0.8rem;
+			font-size: 0.875rem;
 		}
 
 		&__event {
-			font-size: 0.9rem;
+			font-size: 1rem;
 		}
 	}
 
@@ -1164,13 +1225,16 @@ blockquote {
 		grid-template-columns: 1fr;
 		margin: 1.5rem -0.25rem;
 
-		&__side {
+		> * {
 			padding: 1rem;
+		}
 
-			&--left {
-				border-right: none;
-				border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
-			}
+		&__side--left,
+		> .contrast-left,
+		> .contrast-side:first-child,
+		> .contrast-panel__left {
+			border-right: none;
+			border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
 		}
 	}
 
@@ -1194,14 +1258,14 @@ blockquote {
 		}
 
 		&__text {
-			font-size: 0.9rem;
+			font-size: 1rem;
 		}
 	}
 
 	.aside-box {
 		margin: 1.5rem -0.25rem;
 		padding: 0.875rem 1rem 0.875rem 3rem;
-		font-size: 0.85rem;
+		font-size: 1rem;
 	}
 
 	.enneagram-rabbit-hole {
@@ -1210,7 +1274,7 @@ blockquote {
 
 		> summary.accordion {
 			padding: 0.875rem 2.5rem 0.875rem 2.75rem;
-			font-size: 0.95rem;
+			font-size: 1rem;
 
 			&::before {
 				left: 0.85rem;
@@ -1223,7 +1287,6 @@ blockquote {
 
 		> .panel {
 			padding: 0 1rem 1rem;
-			font-size: 0.9rem;
 
 			h3 {
 				font-size: 1rem;
@@ -1236,7 +1299,7 @@ blockquote {
 	.pull-quote {
 		margin: 1.25rem 0;
 		padding: 1rem 0.75rem;
-		font-size: 1rem;
+		font-size: 1.125rem;
 	}
 
 	.key-stat-row {
@@ -1303,17 +1366,27 @@ blockquote {
 .blog,
 .dossier-page .article-body,
 .pop-culture-article .article-content {
+	/* Tables are reference material: a step below the 18px reading size with
+	   tighter leading, or three-column rows turn into tall blocks. */
 	table {
 		width: 100%;
 		border-collapse: collapse;
 		margin: 2rem 0;
+		font-size: 1rem;
+		line-height: 1.5;
 
 		th,
 		td {
 			border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 			padding: 0.75rem;
 			text-align: left;
+			vertical-align: top;
 			color: var(--ink-mid);
+		}
+
+		/* index.scss paints every td --night-deep, which hid the zebra rows. */
+		td {
+			background-color: transparent;
 		}
 
 		th {
@@ -1540,7 +1613,7 @@ blockquote {
 			width: calc(100% + 0.5rem);
 			margin-left: -0.25rem;
 			overflow-x: auto;
-			font-size: 0.85rem;
+			font-size: 0.875rem;
 			-webkit-overflow-scrolling: touch;
 
 			th,
@@ -1568,7 +1641,7 @@ blockquote {
 			display: block;
 			width: 100%;
 			overflow-x: auto;
-			font-size: 0.85rem;
+			font-size: 0.875rem;
 			-webkit-overflow-scrolling: touch;
 
 			th,

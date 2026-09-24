@@ -4,6 +4,7 @@
 
 import { marked, type Tokens } from 'marked';
 import { sanitizeArticleHtml } from './sanitizeArticleHtml';
+import { smartQuotesHtml, smartQuotesText } from '$lib/utils/smartQuotes';
 import { getBlogEvidenceMedia } from '$lib/blogEvidenceMedia';
 import { ENNEAGRAM_TYPE_DOSSIER_SLOT_MARKER } from '$lib/utils/articleSlots';
 
@@ -108,6 +109,13 @@ export async function processBlogContent(
 	// content follows the subject-led essay flow even before its next body sync.
 	htmlContent = htmlContent.replace(/<DJReadCard\b[^>]*(?:\/>|>\s*<\/DJReadCard>)/gi, '');
 
+	// The rabbit-hole summary draws its own icon (blog.scss). Older drafts also
+	// open the label with a 🐇 emoji, which rendered two icons side by side.
+	htmlContent = htmlContent.replace(
+		/(<details class="enneagram-rabbit-hole"[^>]*>\s*<summary\b[^>]*>)\s*🐇️?\s*/g,
+		'$1'
+	);
+
 	// Initialize placeholders array
 	const placeholders: Placeholder[] = [];
 	const placeholderCounts = new Map<string, number>();
@@ -186,7 +194,29 @@ export async function processBlogContent(
 		}
 	}
 
-	return { content: sanitizeArticleHtml(htmlContent), placeholders, headings };
+	// Typographic quotes are applied last, to everything a reader sees: the
+	// article HTML, the TOC's heading text, and the text props that client-
+	// mounted components render (so hydration doesn't swap back to straight
+	// quotes). Heading ids were already slugged from the raw text above, so
+	// existing #anchors keep working.
+	return {
+		content: smartQuotesHtml(sanitizeArticleHtml(htmlContent)),
+		placeholders: placeholders.map(smartQuotePlaceholderProps),
+		headings: headings.map((heading) => ({ ...heading, text: smartQuotesText(heading.text) }))
+	};
+}
+
+// Props that render as visible text. Everything else (image URLs, ids,
+// treatment flags) passes through untouched.
+const TEXT_PROPS = ['question', 'displayText', 'subtext', 'caption'] as const;
+
+function smartQuotePlaceholderProps(placeholder: Placeholder): Placeholder {
+	const props = { ...placeholder.props };
+	for (const key of TEXT_PROPS) {
+		if (typeof props[key] === 'string') props[key] = smartQuotesText(props[key]);
+	}
+	if (typeof props.children === 'string') props.children = smartQuotesHtml(props.children);
+	return { ...placeholder, props };
 }
 
 function renderComponentPlaceholder({

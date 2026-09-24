@@ -15,7 +15,8 @@
 # Edits are left uncommitted in the working tree for DJ's next commit.
 #
 # Env:
-#   SKIP_CLAUDE=1       skip the claude run; just verify + summarize (plumbing test)
+#   SKIP_CLAUDE=1       skip the claude run; verify + summarize TODAY's existing log entry
+#                       (plumbing test — fails on a day with no entry, by design)
 #   CROSSLINK_BUDGET=N  links to add this run (default 12)
 
 set -uo pipefail
@@ -27,7 +28,7 @@ TODAY="$(date +%Y-%m-%d)"
 LOG_FILE="$LOG_DIR/crosslinks-$TODAY.log"
 CROSSLINK_LOG="$REPO_ROOT/docs/crosslinks/crosslink-log.md"
 BUDGET="${CROSSLINK_BUDGET:-12}"
-TELEGRAM_TOKEN_FILE="${TELEGRAM_TOKEN_FILE:-$HOME/.openclaw/credentials/telegram-ninetakes.token}"
+TELEGRAM_TOKEN_FILE="${TELEGRAM_TOKEN_FILE:-${HOME:-/nonexistent}/.openclaw/credentials/telegram-ninetakes.token}"
 TELEGRAM_CHAT_ID="${TELEGRAM_CHAT_ID:--1003724832638}"
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*" >> "$LOG_FILE"; }
@@ -55,6 +56,8 @@ finish() {
 cd "$REPO_ROOT" || finish 1 "FAILED: repo not found"
 log "Starting weekly crosslinks (budget $BUDGET)"
 
+LOG_LINES_BEFORE="$(wc -l < "$CROSSLINK_LOG" 2>/dev/null || echo 0)"
+
 if [[ "${SKIP_CLAUDE:-0}" != "1" ]]; then
   RUN_OUT="$(mktemp)"
   claude -p "/crosslink-queue $BUDGET" --dangerously-skip-permissions > "$RUN_OUT" 2>&1
@@ -68,6 +71,10 @@ if [[ "${SKIP_CLAUDE:-0}" != "1" ]]; then
   SUMMARY="$(grep -m1 '^Crosslinks [0-9-]*:' "$RUN_OUT" || true)"
   rm -f "$RUN_OUT"
   [[ $CLAUDE_EXIT -ne 0 ]] && finish 1 "FAILED ❌ claude exited $CLAUDE_EXIT. Transcript: $LOG_FILE"
+  # A same-day rerun must append a NEW entry; an earlier entry for today doesn't count.
+  LOG_LINES_AFTER="$(wc -l < "$CROSSLINK_LOG" 2>/dev/null || echo 0)"
+  [[ "$LOG_LINES_AFTER" -gt "$LOG_LINES_BEFORE" ]] \
+    || finish 1 "FAILED ❌ crosslink-log.md did not grow this run (no new entry). Transcript: $LOG_FILE"
 else
   SUMMARY="(SKIP_CLAUDE=1 plumbing test)"
 fi

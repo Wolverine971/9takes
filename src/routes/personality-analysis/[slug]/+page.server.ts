@@ -3,7 +3,7 @@ import type { PageServerLoad } from './$types';
 import { dev } from '$app/environment';
 import type { Actions } from './$types';
 import { error, redirect } from '@sveltejs/kit';
-import type { Database } from '../../../../database.types';
+import type { Database, Json } from '../../../../database.types';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import {
 	rankSimilarPeople,
@@ -26,6 +26,7 @@ import {
 import { isQuestionPubliclyEligible } from '$lib/server/questionEditorial';
 import personalitySimilaritySnapshot from '$lib/generated/personalitySimilaritySnapshot.json';
 import { waitUntil } from '@vercel/functions';
+import { smartQuotesText } from '$lib/utils/smartQuotes';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type ServerSupabaseClient = SupabaseClient<Database>;
@@ -142,7 +143,14 @@ export const load: PageServerLoad = async (event) => {
 			slug: canonicalSlug,
 			title: personData.title ?? '',
 			author: personData.author ?? 'DJ Wayne',
-			description: personData.description ?? '',
+			// Visible copy outside the article body gets the same typographic
+			// quotes as the body (processBlogContent). FAQ text also feeds the
+			// FAQPage JSON-LD, which must match what's on screen.
+			description: smartQuotesText(personData.description ?? ''),
+			persona_title: personData.persona_title
+				? smartQuotesText(personData.persona_title)
+				: personData.persona_title,
+			faqs: smartQuoteFaqs(personData.faqs),
 			date: publishedAt,
 			loc: buildPersonalityAnalysisUrl(canonicalSlug),
 			lastmod: modifiedAt,
@@ -203,7 +211,22 @@ function countRenderableWords(content: string): number {
 		.replace(/<[^>]+>/g, ' ')
 		.replace(/&[a-zA-Z0-9#]+;/g, ' ');
 
-	return plainText.match(/[A-Za-z0-9][A-Za-z0-9'-]*/g)?.length ?? 0;
+	// ’ counts as part of a word: content is typographically quoted, and
+	// "don’t" must stay one word or read time inflates.
+	return plainText.match(/[A-Za-z0-9][A-Za-z0-9'’-]*/g)?.length ?? 0;
+}
+
+function smartQuoteFaqs(faqs: FamousPersonRow['faqs']): FamousPersonRow['faqs'] {
+	if (!Array.isArray(faqs)) return faqs;
+	return faqs.map((faq) => {
+		if (!faq || typeof faq !== 'object' || Array.isArray(faq)) return faq;
+		const record = faq as { [key: string]: Json | undefined };
+		return {
+			...record,
+			...(typeof record.question === 'string' && { question: smartQuotesText(record.question) }),
+			...(typeof record.answer === 'string' && { answer: smartQuotesText(record.answer) })
+		};
+	});
 }
 
 function buildTimeRequired(wordCount: number): string {

@@ -101,7 +101,7 @@ path: src/blog/guides/definitive-guide-to-self-efficacy.md
 </script>
 
 <QuickAnswer question="What is self-efficacy and why does it matter?">
-**Self-efficacy is your belief that you can succeed at a specific task.** It is the difference between "I can figure this out" and "this is impossible for me." It matters because it predicts persistence, learning, and follow-through. You build it through small wins, models, trusted encouragement, and regulating your physical state.
+<strong>Self-efficacy is your belief that you can succeed at a specific task.</strong> It is the difference between "I can figure this out" and "this is impossible for me." It matters because it predicts persistence, learning, and follow-through. You build it through small wins, models, trusted encouragement, and regulating your physical state.
 </QuickAnswer>
 
 <p class="firstLetter">In 1977, Albert Bandura published research arguing that belief in your own capability — not intelligence, not natural talent — was the primary driver of whether people actually changed their behavior.</p>

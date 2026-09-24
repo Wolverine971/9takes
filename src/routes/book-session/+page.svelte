@@ -1,1600 +1,795 @@
 <!-- src/routes/book-session/+page.svelte -->
 <!--
-  src/routes/book-session/+page.svelte
-  Phase 5 #7 of docs/design/2026-05-04-rollout-plan.md — coaching waitlist landing.
-  Streetlamp Symposium V5: warm-stone surface, sodium-amber primary, Inter.
+  "Talk to DJ": note first, details after (DJ, 2026-09-23).
+  Step 1 is only the note (typed, or a voice note that gets transcribed) and it
+  saves immediately. Step 2 is optional: an email for a private reply, and the
+  free 1-on-1 session request. See docs/product/2026-09-23-therapy-on-steroids.md.
 -->
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { browser } from '$app/environment';
-	import { enhance } from '$app/forms';
+	import { onDestroy, onMount } from 'svelte';
+	import { applyAction, enhance } from '$app/forms';
 	import SEOHead from '$lib/components/SEOHead.svelte';
-	import { Button, Field, Input, Select, Textarea } from '$lib/components/atoms';
-	import CaptchaFrame from '$lib/components/molecules/CaptchaFrame.svelte';
-	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
-	import type { PageData } from './$types';
+	import { Button, Field, Input, Textarea } from '$lib/components/atoms';
+	import VoiceRecorder, {
+		type RecordedAudio
+	} from '$lib/components/molecules/VoiceRecorder.svelte';
+	import type { ActionData, PageData } from './$types';
 
-	let { data, form }: { data: PageData; form: any } = $props();
+	let { form }: { data: PageData; form: ActionData } = $props();
 
-	let loading = $state(false);
-	let recaptchaTheme = $state<'light' | 'dark'>('dark');
-	let formLoadTime = $state(0);
-	let existingSignup = $derived(!!data.alreadySignedUp && !form?.success);
-	let submitted = $derived(!!form?.success || existingSignup);
+	type Stage = 'note' | 'details' | 'done';
+	type TalkFormState = {
+		noteSaved?: boolean;
+		noteId?: string;
+		detailsToken?: string;
+		noteMessage?: string;
+		detailsMessage?: string;
+		detailsSaved?: boolean;
+		replyExpected?: boolean;
+		wantsSession?: boolean;
+		email?: string | null;
+		name?: string;
+	};
+	type VoiceNote = RecordedAudio & { url: string };
 
-	const title = '1-on-1 Enneagram Coaching: Decode Yourself & Others | 9takes';
+	const NOTE_MAX_CHARS = 5000;
+	const MAX_RECORDING_SECONDS = 180;
+	const MAX_AUDIO_BYTES = 4 * 1024 * 1024;
+
+	let body = $state('');
+	let voiceNote = $state<VoiceNote | null>(null);
+	let voiceBusy = $state(false);
+	let sending = $state(false);
+	let saving = $state(false);
+	let localError = $state('');
+	let localStage = $state<Stage | null>(null);
+	let wantsSession = $state(false);
+	let formLoadTime = 0;
+
+	const formState = $derived((form ?? {}) as TalkFormState);
+	const stage = $derived<Stage>(
+		localStage ??
+			(formState.detailsSaved
+				? 'done'
+				: formState.noteSaved || formState.detailsMessage
+					? 'details'
+					: 'note')
+	);
+	const canSend = $derived(!voiceBusy && !sending && (body.trim().length > 0 || !!voiceNote));
+	const noteError = $derived(localError || formState.noteMessage || '');
+	const replyExpected = $derived(localStage === 'done' ? false : !!formState.replyExpected);
+
+	const title = 'Talk to DJ: Leave a Note or a Voice Note | 9takes';
 	const metaDescription =
-		'Join the 1-on-1 coaching waitlist. Decode yourself, the people in your life, or both. Get first access when sessions open.';
-	const keywords =
-		'enneagram coaching waitlist, personality coaching, relationship patterns, work dynamics, enneagram feedback';
-	const domain = 'https://9takes.com';
-	const ogImage = 'https://9takes.com/blogs/greek-statue-enneagram-coaching.webp';
-	const twitterHandle = '@djwayne3';
-	const imageAlt = '9takes Enneagram coaching waitlist';
+		'Tell DJ what’s going on. Type it or record a voice note, stay anonymous or leave an email for a private reply, and ask for a free 1-on-1 session.';
 
-	const fitChecks = [
-		'You keep hitting the same relationship pattern and want an honest read on it.',
-		'You are misreading a work, leadership, or social dynamic and need better pattern recognition.',
-		'You know your type might be part of the problem, but you cannot name the blind spot cleanly yet.',
-		'You want direct feedback, not vague encouragement or generic self-help advice.'
-	];
-
-	const proofStats = [
-		{
-			value: '200+',
-			label: 'published pieces across 9takes',
-			description: 'The work already exists. You can judge the thinking before you ever join.'
-		},
-		{
-			value: '95',
-			label: 'published Enneagram articles',
-			description: 'Type patterns, conflict, self-awareness, and tactical application.'
-		},
-		{
-			value: '80+',
-			label: 'personality analyses',
-			description: 'Public-figure breakdowns used to sharpen pattern recognition in the real world.'
-		}
-	];
-
-	const readFirstLinks = [
-		{
-			href: '/enneagram-corner',
-			label: 'Read Enneagram Corner',
-			description: 'Start with the core framework and type guides.'
-		},
-		{
-			href: '/personality-analysis',
-			label: 'See Personality Analysis',
-			description: 'See how the same lens gets applied to real people.'
-		},
-		{
-			href: '/about',
-			label: 'Learn About DJ',
-			description: 'See the founder context behind the work.'
-		}
-	];
-
-	const heroBadges = ['No payment today', 'First-round access', 'Best for live issues'];
-
-	const focusAreas = [
-		{
-			title: 'Relationship loops',
-			description:
-				'The same fight, the same attraction, the same shutdown, just with different people.'
-		},
-		{
-			title: 'Work and leadership',
-			description: 'Read the room better, manage tension, and stop misreading motive as attitude.'
-		},
-		{
-			title: 'Type clarity',
-			description:
-				'Pressure-test your current guess or figure out your type from patterns, not vibes.'
-		},
-		{
-			title: 'Blind spots',
-			description: 'Name the habit that keeps costing you trust, leverage, or peace of mind.'
-		},
-		{
-			title: 'Decision pressure',
-			description: 'Separate signal from fear, image management, anger, or wishful thinking.'
-		},
-		{
-			title: 'Direct feedback',
-			description:
-				'Get a cleaner read on what is actually happening and what your next move should be.'
-		}
-	];
-
-	const sessionOutcomes = [
-		{
-			number: '01',
-			title: 'Name the real pattern',
-			description:
-				'Get specific about the emotional logic driving the situation instead of staying stuck at the surface.'
-		},
-		{
-			number: '02',
-			title: 'Pressure-test your read',
-			description:
-				'Look at the situation through multiple type lenses so you stop assuming everyone sees it your way.'
-		},
-		{
-			number: '03',
-			title: 'Leave with next moves',
-			description:
-				'Walk away with practical language, cleaner framing, and a sharper sense of what to do next.'
-		}
-	];
-
-	const waitlistSteps = [
-		{
-			number: '01',
-			title: 'Join the waitlist',
-			description: 'Leave your details today. No payment and no booking step yet.'
-		},
-		{
-			number: '02',
-			title: 'Get first access',
-			description:
-				'When the first round opens, waitlist members hear about timing and pricing first.'
-		},
-		{
-			number: '03',
-			title: 'Confirm fit',
-			description: 'If it feels right, you will get the intake form and booking details.'
-		},
-		{
-			number: '04',
-			title: 'Start with the real issue',
-			description:
-				'The first session is for the situation you actually care about, not generic theory.'
-		}
+	const prompts = [
+		'Someone you can’t figure out: a partner, a boss, a parent, a friend.',
+		'The fight you keep having, with the same person or with different ones.',
+		'A pattern you keep repeating even though you know better.',
+		'Your type, if you’re stuck between two.',
+		'Something you’ve been carrying and haven’t said out loud.',
+		'What’s energizing you, or draining you, right now.'
 	];
 
 	const faqs = [
 		{
-			question: 'Is this a waitlist or can I book today?',
+			question: 'Who reads my note?',
 			answer:
-				'This page is a waitlist. There is no booking calendar on this page yet. Joining now gets you first access when sessions open.'
+				'Only me. Voice notes are stored privately and never posted anywhere. No ads, and I will never sell your data.'
 		},
 		{
-			question: 'What kind of coaching is this?',
+			question: 'Do I have to leave my email?',
 			answer:
-				'This is 1-on-1 Enneagram-informed coaching for pattern recognition, conflict, self-awareness, decision-making, and relationship dynamics.'
-		},
-		{
-			question: 'Do I need to know my type already?',
-			answer:
-				'No. If you are unsure, type clarity can be part of the work. The point is to understand your patterns well enough to use them.'
+				'No. Anonymous is fine. Without an email I can’t write back, but I still read every note.'
 		},
 		{
 			question: 'Is this therapy?',
 			answer:
-				'No. This is coaching, not therapy, diagnosis, or crisis support. If you need mental health treatment or urgent care, this is not the right container.'
-		},
-		{
-			question: 'Will I see pricing before anything is booked?',
-			answer:
-				'Yes. Waitlist members will get the details before sessions open publicly. There is no payment collected on this page.'
+				'No. It’s coaching, not therapy, diagnosis, or crisis support. If you need mental health treatment, please reach out to a licensed professional.'
 		}
 	];
 
-	function syncRecaptchaTheme() {
-		if (!browser) return;
-		recaptchaTheme = document.documentElement.classList.contains('light') ? 'light' : 'dark';
+	function audioExtension(mimeType: string): string {
+		const base = mimeType.split(';')[0]?.trim();
+		const extensions: Record<string, string> = {
+			'audio/webm': 'webm',
+			'audio/ogg': 'ogg',
+			'audio/mp4': 'm4a',
+			'audio/mpeg': 'mp3',
+			'audio/wav': 'wav'
+		};
+		return extensions[base] ?? 'webm';
 	}
 
-	function resetRecaptcha() {
-		if (browser && window.grecaptcha) {
-			window.grecaptcha.reset();
+	function formatDuration(seconds: number): string {
+		const minutes = Math.floor(seconds / 60);
+		return `${minutes}:${String(seconds % 60).padStart(2, '0')}`;
+	}
+
+	function appendTranscript(transcript: string) {
+		const current = body.trim();
+		body = current ? `${current}\n\n${transcript}` : transcript;
+	}
+
+	function attachVoice(audio: RecordedAudio) {
+		clearVoice();
+		if (audio.blob.size > MAX_AUDIO_BYTES) {
+			localError = 'That recording is too large to send. Try a shorter one.';
+			return;
 		}
+		voiceNote = { ...audio, url: URL.createObjectURL(audio.blob) };
+	}
+
+	function clearVoice() {
+		if (voiceNote) URL.revokeObjectURL(voiceNote.url);
+		voiceNote = null;
+	}
+
+	function leaveAnother() {
+		body = '';
+		clearVoice();
+		wantsSession = false;
+		localError = '';
+		formLoadTime = Date.now();
+		localStage = 'note';
 	}
 
 	onMount(() => {
 		formLoadTime = Date.now();
-		syncRecaptchaTheme();
-
-		const observer = new MutationObserver(() => {
-			syncRecaptchaTheme();
-		});
-		observer.observe(document.documentElement, {
-			attributes: true,
-			attributeFilter: ['class', 'data-theme']
-		});
-
-		if (!document.getElementById('recaptcha-script')) {
-			const script = document.createElement('script');
-			script.id = 'recaptcha-script';
-			script.src = 'https://www.google.com/recaptcha/api.js';
-			script.async = true;
-			script.defer = true;
-			document.head.appendChild(script);
-		}
-
-		return () => observer.disconnect();
 	});
 
-	$effect(() => {
-		if (form?.success) {
-			loading = false;
-		} else if (form && !form.success) {
-			loading = false;
-			resetRecaptcha();
-		}
+	onDestroy(() => {
+		if (voiceNote) URL.revokeObjectURL(voiceNote.url);
 	});
 </script>
 
 <SEOHead
 	{title}
 	description={metaDescription}
-	canonical={`${domain}/book-session`}
+	canonical="https://9takes.com/book-session"
 	twitterCardType="summary_large_image"
-	{ogImage}
-	twitterCreator={twitterHandle}
+	ogImage="https://9takes.com/blogs/greek-statue-enneagram-coaching.webp"
+	twitterCreator="@djwayne3"
 	jsonLd={{
 		'@context': 'https://schema.org',
-		'@type': 'Service',
-		name: '1-on-1 Enneagram Coaching Waitlist',
-		description: 'Join the waitlist for upcoming 1-on-1 Enneagram coaching from 9takes.',
-		provider: {
-			'@type': 'Organization',
-			name: '9takes',
-			url: 'https://9takes.com'
-		},
-		serviceType: 'Personality coaching waitlist'
+		'@type': 'ContactPage',
+		name: 'Talk to DJ',
+		description: metaDescription,
+		url: 'https://9takes.com/book-session',
+		mainEntity: {
+			'@type': 'Person',
+			name: 'DJ Wayne',
+			jobTitle: 'Founder, 9takes',
+			url: 'https://9takes.com/about'
+		}
 	}}
-	additionalMeta={[
-		{ name: 'keywords', content: keywords },
-		{ name: 'twitter:image:alt', content: imageAlt }
-	]}
 />
 
-<div class="page-shell">
-	<div class="page-backdrop"></div>
-
-	<div class="page-container">
-		<section class="hero-grid" id="top" aria-labelledby="book-session-title">
-			<div class="hero-copy">
-				<div class="hero-intro">
-					<div class="section-eyebrow">1-on-1 coaching waitlist</div>
-					<h1 id="book-session-title" class="hero-title">
-						Decode yourself & the people in your life.
-						<span class="nowrap">1-on-1</span> coaching waitlist.
-					</h1>
-					<p class="hero-lede">
-						Bring a relationship problem, work dynamic, blind spot, or someone in your life you
-						can't decode. I will use the same pattern-recognition lens behind 200+ published 9takes
-						pieces to help you see what you are missing and what to do next.
-					</p>
-					<div class="hero-badge-row" aria-label="Waitlist details">
-						{#each heroBadges as badge}
-							<span class="hero-badge">{badge}</span>
-						{/each}
-					</div>
-				</div>
+<div class="talk-page">
+	<div class="talk-container">
+		<header class="talk-intro">
+			<img
+				src="/brand/djface.webp"
+				alt="DJ Wayne"
+				class="talk-photo"
+				width="96"
+				height="96"
+				decoding="async"
+			/>
+			<p class="talk-eyebrow">Talk to DJ</p>
+			<h1 class="talk-title">Tell me what’s going on.</h1>
+			<div class="talk-bio">
+				<p>
+					I’m DJ. I built 9takes. Marine, sniper school, wrestler, then self-taught coder. I do hard
+					things, and I don’t quit.
+				</p>
+				<p>
+					The Enneagram found me when my wife and I were newlyweds and fighting. I didn’t understand
+					her fear, and she didn’t understand my anger. It gave us both a map, and it made me a much
+					better listener.
+				</p>
+				<p>Now I want to hear what’s going on with you. Type it or say it out loud.</p>
 			</div>
+		</header>
 
-			<aside class="waitlist-panel" id="waitlist" aria-labelledby="waitlist-title">
-				{#if !submitted}
-					<div class="panel-topline">Priority waitlist</div>
-					<h2 id="waitlist-title">Get first access when sessions open.</h2>
-					<p class="panel-copy">
-						Leave your details here. I will email the first round before anything goes public.
-					</p>
-
-					<form
-						method="POST"
-						action="?/coachSub"
-						use:enhance={({ formData }) => {
-							loading = true;
-							formData.set('_timeToken', String(Date.now() - formLoadTime));
-							return async ({ update }) => {
-								await update();
-								loading = false;
-							};
-						}}
-						class="waitlist-form"
-					>
-						<div class="honeypot" aria-hidden="true">
-							<label for="book-session-form-extra">Leave blank</label>
-							<input
-								type="text"
-								id="book-session-form-extra"
-								name="form_extra"
-								tabindex="-1"
-								autocomplete="new-password"
-							/>
-						</div>
-
-						<Field for="name" label="First name" required>
-							<Input
-								id="name"
-								name="name"
-								type="text"
-								placeholder="Your name"
-								value={form?.name || ''}
-								required
-								autocomplete="name"
-								disabled={loading}
-							/>
-						</Field>
-
-						<Field for="email" label="Email" required>
-							<Input
-								id="email"
-								name="email"
-								type="email"
-								placeholder="you@example.com"
-								value={form?.email || ''}
-								required
-								autocomplete="email"
-								inputmode="email"
-								disabled={loading}
-							/>
-						</Field>
-
-						<Field for="enneagramType" label="Enneagram type" optional>
-							<Select
-								id="enneagramType"
-								name="enneagramType"
-								value={form?.enneagramType || ''}
-								disabled={loading}
-							>
-								<option value="">I am not sure yet</option>
-								<option value="1">Type 1 - The Perfectionist</option>
-								<option value="2">Type 2 - The Helper</option>
-								<option value="3">Type 3 - The Achiever</option>
-								<option value="4">Type 4 - The Individualist</option>
-								<option value="5">Type 5 - The Investigator</option>
-								<option value="6">Type 6 - The Loyalist</option>
-								<option value="7">Type 7 - The Enthusiast</option>
-								<option value="8">Type 8 - The Challenger</option>
-								<option value="9">Type 9 - The Peacemaker</option>
-							</Select>
-						</Field>
-
-						<Field
-							for="sessionGoal"
-							label="What do you want help with?"
-							optional
-							help="Optional, but helpful. Keep it under 600 characters."
-						>
-							<Textarea
-								id="sessionGoal"
-								name="sessionGoal"
-								placeholder="Example: same conflict with my partner, trouble reading my boss, not sure if I am a 3 or a 6..."
-								maxlength={600}
-								rows={4}
-								disabled={loading}
-								value={form?.sessionGoal || ''}
-								aria-describedby="sessionGoal-help"
-							/>
-						</Field>
-
-						<CaptchaFrame>
-							<div
-								class="g-recaptcha"
-								data-sitekey={PUBLIC_RECAPTCHA_SITE_KEY}
-								data-theme={recaptchaTheme}
-							></div>
-						</CaptchaFrame>
-
-						{#if form?.message && !form?.success}
-							<div class="form-error" role="alert">{form.message}</div>
-						{/if}
-
-						<Button type="submit" fullWidth {loading}>Join the Waitlist</Button>
-
-						<div class="panel-footnotes">
-							<span>No payment today.</span>
-							<span>Waitlist gets the first invite.</span>
-						</div>
-					</form>
-				{:else}
-					<div class="success-panel">
-						<div class="success-icon" aria-hidden="true">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								width="52"
-								height="52"
-								fill="none"
-								stroke="currentColor"
-								stroke-width="2"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-							>
-								<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-								<polyline points="22 4 12 14.01 9 11.01" />
-							</svg>
-						</div>
-
-						<h2>
-							{existingSignup ? "You're already on the waitlist." : "You're on the waitlist."}
-						</h2>
-						<p>
-							{#if form?.email}
-								I will reach out at <strong>{form.email}</strong> when the first sessions open.
-							{:else}
-								You will hear from me when the first sessions open.
-							{/if}
-						</p>
-
-						<div class="success-actions">
-							<Button href="/enneagram-corner">Read the Guides</Button>
-							<a href="#proof" class="text-link">See why this fits</a>
-						</div>
-					</div>
-				{/if}
-			</aside>
-		</section>
-
-		<div class="hero-support-shell" aria-label="Why join the waitlist">
-			<div class="hero-support-grid">
-				<div class="hero-list">
-					<div class="list-title">Good reasons to join</div>
+		<section class="talk-card" aria-live="polite" aria-labelledby="talk-card-title">
+			{#if stage === 'note'}
+				<h2 id="talk-card-title" class="visually-hidden">Leave a note</h2>
+				<div class="talk-prompts">
+					<p class="talk-prompts__label">People bring me things like</p>
 					<ul>
-						{#each fitChecks as item}
-							<li>{item}</li>
+						{#each prompts as prompt (prompt)}
+							<li>{prompt}</li>
 						{/each}
 					</ul>
 				</div>
 
-				<div class="hero-support-stack">
-					<div class="hero-truth">
-						<div class="truth-kicker">What this page is</div>
-						<p>
-							This is a waitlist, not a booking calendar. No payment today. Waitlist members get
-							first access when sessions open.
-						</p>
-					</div>
-
-					<div class="hero-mini-proof">
-						<span>Why trust the lens?</span>
-						95 published Enneagram articles. 80+ personality analyses. You can read the work before you
-						ever decide this is for you.
-					</div>
-
-					<div class="hero-context-card">
-						<div class="context-kicker">Best when you have a live issue</div>
-						<p>
-							This works best when you are dealing with an actual relationship loop, work dynamic,
-							or decision point with tension in it.
-						</p>
-						<div class="hero-chip-row" aria-label="Common coaching topics">
-							{#each focusAreas as area}
-								<span class="hero-chip">{area.title}</span>
-							{/each}
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<section class="signal-strip" aria-label="Read first">
-			<div class="signal-intro">
-				<div class="section-eyebrow">Proof first</div>
-				<h2>Want proof before people stories exist? Start with the work.</h2>
-				<p>
-					If you want to know how I think, do not take this page's word for it. Read the published
-					9takes work first.
-				</p>
-			</div>
-			<div class="signal-links">
-				{#each readFirstLinks as link}
-					<a href={link.href} class="signal-link">
-						<span>{link.label}</span>
-						<small>{link.description}</small>
-					</a>
-				{/each}
-			</div>
-		</section>
-
-		<section class="proof-section" id="proof" aria-labelledby="proof-title">
-			<div class="proof-layout">
-				<div class="proof-copy">
-					<div class="section-eyebrow">Credibility</div>
-					<h2 id="proof-title">No testimonials yet. So here is the honest proof.</h2>
-					<p>
-						9takes already publishes the kind of pattern-recognition I would bring into a session:
-						long-form Enneagram writing, practical guides, and personality analysis built to explain
-						motive without flattening people into stereotypes.
-					</p>
-					<p>
-						The cleanest trust signal I can offer right now is not "trust me." It is: read the work,
-						see how I think, and decide if that is the kind of feedback you want on your situation.
-					</p>
-				</div>
-
-				<div class="founder-card">
-					<div class="founder-identity">
-						<img
-							src="/brand/djface.webp"
-							alt="DJ Wayne"
-							class="founder-photo"
-							width="180"
-							height="180"
-							loading="lazy"
-							decoding="async"
+				<form
+					method="POST"
+					action="?/note"
+					class="talk-form"
+					use:enhance={({ formData, cancel }) => {
+						if (!canSend) {
+							cancel();
+							return;
+						}
+						sending = true;
+						localError = '';
+						formData.set('_timeToken', String(Date.now() - formLoadTime));
+						if (voiceNote) {
+							formData.set(
+								'audio',
+								new File([voiceNote.blob], `note.${audioExtension(voiceNote.mimeType)}`, {
+									type: voiceNote.mimeType
+								})
+							);
+							formData.set('audioSeconds', String(voiceNote.durationSeconds));
+						}
+						return async ({ result }) => {
+							sending = false;
+							if (result.type === 'success') {
+								body = '';
+								clearVoice();
+							}
+							if (result.type === 'success' || result.type === 'failure') {
+								localStage = null;
+								await applyAction(result);
+							} else {
+								localError = 'Something went wrong. Please try again.';
+							}
+						};
+					}}
+				>
+					<div class="honeypot" aria-hidden="true">
+						<label for="talk-form-extra">Leave blank</label>
+						<input
+							type="text"
+							id="talk-form-extra"
+							name="form_extra"
+							tabindex="-1"
+							autocomplete="new-password"
 						/>
-						<div class="founder-copy">
-							<div class="founder-label">Built by DJ Wayne</div>
-							<p class="founder-role">Founder, 9takes</p>
-							<p class="founder-summary">
-								Former USMC infantry Marine turned software entrepreneur.
-							</p>
-						</div>
 					</div>
-					<p class="founder-body">
-						9takes applies the Enneagram to conflict, motive, relationships, and public
-						personalities with a practical bias: explain the pattern, then make it usable.
+
+					<Field for="talk-body" label="Your note">
+						<Textarea
+							id="talk-body"
+							name="body"
+							bind:value={body}
+							rows={6}
+							maxlength={NOTE_MAX_CHARS}
+							placeholder="Say it the way you’d say it to a friend."
+							disabled={sending}
+						/>
+					</Field>
+
+					<div class="talk-voice">
+						{#if voiceNote && !voiceBusy}
+							<div class="talk-voice__attached">
+								<div class="talk-voice__meta">
+									<span class="talk-voice__badge">Voice note</span>
+									<span>{formatDuration(voiceNote.durationSeconds)}</span>
+									<button type="button" class="talk-link-button" onclick={clearVoice}>
+										Remove
+									</button>
+								</div>
+								<audio controls preload="metadata" src={voiceNote.url}></audio>
+								<p class="talk-fine">
+									I get the recording and the transcript above. Edit the text if it misheard you.
+								</p>
+							</div>
+						{:else}
+							<VoiceRecorder
+								id="talk-voice"
+								label="Record a voice note"
+								hint="Up to 3 minutes. You’ll see the transcript."
+								maxSeconds={MAX_RECORDING_SECONDS}
+								disabled={sending}
+								ontranscript={appendTranscript}
+								onaudio={attachVoice}
+								onbusychange={(busy) => (voiceBusy = busy)}
+							/>
+						{/if}
+					</div>
+
+					{#if noteError}
+						<p class="talk-error" role="alert">{noteError}</p>
+					{/if}
+
+					<Button type="submit" size="lg" fullWidth loading={sending} disabled={!canSend}>
+						Send to DJ
+					</Button>
+					<p class="talk-fine talk-fine--center">
+						Anonymous is fine. If you want a reply, you can add your email on the next step.
 					</p>
+				</form>
+			{:else if stage === 'details'}
+				<form
+					method="POST"
+					action="?/details"
+					class="talk-form"
+					use:enhance={() => {
+						saving = true;
+						return async ({ result }) => {
+							saving = false;
+							if (result.type === 'success' || result.type === 'failure') {
+								localStage = null;
+								await applyAction(result);
+							} else {
+								localError = 'Something went wrong. Please try again.';
+							}
+						};
+					}}
+				>
+					<div class="talk-step-head">
+						<h2 id="talk-card-title">Got it. I read every one.</h2>
+						<p>
+							Want a reply? Leave your email and I’ll write back, sometimes with a voice note of my
+							own. It stays between us.
+						</p>
+					</div>
+
+					<input type="hidden" name="noteId" value={formState.noteId ?? ''} />
+					<input type="hidden" name="detailsToken" value={formState.detailsToken ?? ''} />
+
+					<Field for="talk-email" label="Email" optional>
+						<Input
+							id="talk-email"
+							name="email"
+							type="email"
+							placeholder="you@example.com"
+							autocomplete="email"
+							inputmode="email"
+							value={formState.email ?? ''}
+							disabled={saving}
+						/>
+					</Field>
+
+					<label class={['talk-session', wantsSession && 'talk-session--checked']}>
+						<input
+							type="checkbox"
+							name="wantsSession"
+							bind:checked={wantsSession}
+							disabled={saving}
+						/>
+						<span>
+							<strong>I’d like a free 1-on-1 session</strong>
+							<small>
+								I’m running a small free beta. Going deep should feel like leveling up, not like a
+								secret you carry. Check this and I’ll email you to find a time.
+							</small>
+						</span>
+					</label>
+
+					{#if wantsSession}
+						<Field for="talk-name" label="First name" required>
+							<Input
+								id="talk-name"
+								name="name"
+								type="text"
+								autocomplete="given-name"
+								value={formState.name ?? ''}
+								required
+								disabled={saving}
+							/>
+						</Field>
+					{/if}
+
+					{#if formState.detailsMessage || localError}
+						<p class="talk-error" role="alert">{formState.detailsMessage || localError}</p>
+					{/if}
+
+					<Button type="submit" size="lg" fullWidth loading={saving}>Save</Button>
+					<button
+						type="button"
+						class="talk-link-button talk-link-button--center"
+						onclick={() => (localStage = 'done')}
+						disabled={saving}
+					>
+						Skip. Stay anonymous.
+					</button>
+				</form>
+			{:else}
+				<div class="talk-done">
+					{#if replyExpected}
+						<h2 id="talk-card-title">Thanks. I’ll write back to {formState.email}.</h2>
+						{#if formState.wantsSession}
+							<p>I’ll also email you about setting up your free 1-on-1 session.</p>
+						{:else}
+							<p>Keep an eye on your inbox. It might be a voice note.</p>
+						{/if}
+					{:else}
+						<h2 id="talk-card-title">Thanks for trusting me with that.</h2>
+						<p>No email means I can’t write back, but I read every note.</p>
+					{/if}
+					<div class="talk-done__actions">
+						<Button variant="secondary" onclick={leaveAnother}>Leave another note</Button>
+						<a href="/questions" class="talk-text-link">See how other people answer</a>
+					</div>
 				</div>
-			</div>
-
-			<div class="stats-grid">
-				{#each proofStats as stat}
-					<div class="stat-card">
-						<div class="stat-value">{stat.value}</div>
-						<div class="stat-label">{stat.label}</div>
-						<p>{stat.description}</p>
-					</div>
-				{/each}
-			</div>
+			{/if}
 		</section>
 
-		<section class="focus-section" aria-labelledby="focus-title">
-			<div class="section-layout">
-				<div class="section-heading">
-					<div class="section-eyebrow">Use cases</div>
-					<h2 id="focus-title">What this is good for</h2>
-					<p>
-						The strongest fit is a real situation with friction in it, not a vague wish to "work on
-						yourself."
-					</p>
+		<section class="talk-sessions" aria-labelledby="talk-sessions-title">
+			<h2 id="talk-sessions-title">About the free 1-on-1 sessions</h2>
+			<p>
+				Therapy often gets treated like something shameful. People work through their heaviest stuff
+				behind a closed door, and too often they walk out without getting anywhere. I want to flip
+				that. Going deep on your inner world should feel like leveling up, and you should come out
+				stronger and proud of the work.
+			</p>
+			<p>
+				We use the Enneagram as a map. I ask questions, tell you what I hear underneath your
+				answers, and we follow the thread. Some sessions get into heavy stuff. The goal is that you
+				leave every one clearer and more excited about your life than when you came in. It’s free
+				while I shape how I run these.
+			</p>
+		</section>
+
+		<section class="talk-faq" aria-label="Questions">
+			{#each faqs as faq (faq.question)}
+				<div class="talk-faq__item">
+					<h3>{faq.question}</h3>
+					<p>{faq.answer}</p>
 				</div>
-
-				<div class="card-grid card-grid-3 focus-grid">
-					{#each focusAreas as area}
-						<div class="content-card">
-							<h3>{area.title}</h3>
-							<p>{area.description}</p>
-						</div>
-					{/each}
-				</div>
-			</div>
+			{/each}
 		</section>
 
-		<section class="outcomes-section" aria-labelledby="outcomes-title">
-			<div class="section-heading">
-				<div class="section-eyebrow">Session design</div>
-				<h2 id="outcomes-title">What the first session is designed to do</h2>
-				<p>
-					This is not meant to be abstract. The first session should leave you seeing the situation
-					more clearly than when you walked in.
-				</p>
-			</div>
-
-			<div class="card-grid card-grid-3">
-				{#each sessionOutcomes as item}
-					<div class="content-card numbered-card">
-						<div class="card-number">{item.number}</div>
-						<h3>{item.title}</h3>
-						<p>{item.description}</p>
-					</div>
-				{/each}
-			</div>
-		</section>
-
-		<section class="process-section" aria-labelledby="process-title">
-			<div class="section-heading">
-				<div class="section-eyebrow">How it works</div>
-				<h2 id="process-title">What happens after you join the waitlist</h2>
-				<p>
-					The point of the waitlist is simple: keep the first round small and give interested people
-					first access.
-				</p>
-			</div>
-
-			<div class="card-grid card-grid-4">
-				{#each waitlistSteps as step}
-					<div class="content-card step-card">
-						<div class="step-number">{step.number}</div>
-						<h3>{step.title}</h3>
-						<p>{step.description}</p>
-					</div>
-				{/each}
-			</div>
-		</section>
-
-		<section class="faq-section" aria-labelledby="faq-title">
-			<div class="section-heading">
-				<div class="section-eyebrow">FAQ</div>
-				<h2 id="faq-title">Questions people should have before joining</h2>
-			</div>
-
-			<div class="card-grid card-grid-2">
-				{#each faqs as faq}
-					<div class="content-card faq-card">
-						<h3>{faq.question}</h3>
-						<p>{faq.answer}</p>
-					</div>
-				{/each}
-			</div>
-		</section>
-
-		<section class="final-cta" aria-labelledby="final-cta-title">
-			<div class="final-copy">
-				<div class="section-eyebrow">Next step</div>
-				<h2 id="final-cta-title">If you want first access, get on the waitlist.</h2>
-				<p>
-					If you want proof first, read the work. If the lens fits, join the list and I will email
-					you when the first sessions are ready. The goal is the same as everything at 9takes: stop
-					mistaking someone else's alarm for a defect — starting with the people closest to you.
-				</p>
-			</div>
-
-			<div class="final-actions">
-				<Button href="#top">Join the Waitlist</Button>
-				<a href="/personality-analysis" class="text-link">Read Personality Analysis</a>
-			</div>
-		</section>
+		<p class="talk-crisis">
+			If you’re in crisis or thinking about hurting yourself, please call or text
+			<a href="tel:988">988</a> (US) or your local emergency number right now. I read notes, but not in
+			real time.
+		</p>
 	</div>
 </div>
 
-<style lang="scss">
-	:global(html) {
-		scroll-behavior: smooth;
-	}
-
-	/* ── Shell ── */
-
-	.page-shell {
-		position: relative;
+<style>
+	.talk-page {
 		min-height: 100vh;
 		width: 100%;
-		max-width: 100%;
 		background:
 			radial-gradient(
-				circle at top left,
-				color-mix(in srgb, var(--lamp-glow) 10%, transparent) 0%,
-				transparent 42%
-			),
-			linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 100%);
-		overflow: hidden;
-	}
-
-	.page-backdrop {
-		position: absolute;
-		inset: 0;
-		background:
-			radial-gradient(
-				circle at 80% 6%,
+				circle at 50% -10%,
 				color-mix(in srgb, var(--lamp-glow) 12%, transparent) 0%,
-				transparent 24%
+				transparent 45%
 			),
-			radial-gradient(
-				circle at 8% 55%,
-				color-mix(in srgb, var(--data-teal) 6%, transparent) 0%,
-				transparent 30%
-			);
-		pointer-events: none;
+			var(--night-deep);
 	}
 
-	.page-container {
-		width: min(100%, 80rem);
-		max-width: 80rem;
-		margin: 0 auto;
-		padding: 2.25rem 1.25rem 5rem;
-		box-sizing: border-box;
-	}
-
-	/* ── Shared ── */
-
-	.hero-grid,
-	.hero-support-shell,
-	.proof-section,
-	.signal-strip,
-	.focus-section,
-	.outcomes-section,
-	.process-section,
-	.faq-section,
-	.final-cta {
-		position: relative;
-		z-index: 1;
-	}
-
-	.waitlist-panel,
-	.signal-strip,
-	.proof-section,
-	.focus-section,
-	.outcomes-section,
-	.process-section,
-	.faq-section,
-	.final-cta {
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 12%, transparent);
-		border-radius: 1rem;
-		background: color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
-		box-shadow: var(--shadow-lg);
-	}
-
-	.section-eyebrow {
-		margin-bottom: 0.75rem;
-		font-size: 0.78rem;
-		font-weight: 700;
-		letter-spacing: 0.14em;
-		text-transform: uppercase;
-		color: var(--lamp-glow);
-	}
-
-	/* ── Hero ── */
-
-	.hero-grid {
-		display: grid;
-		gap: 2rem;
-		align-items: start;
-		min-width: 0;
-	}
-
-	.hero-copy {
-		display: grid;
-		gap: 1.5rem;
-		align-self: start;
-		width: 100%;
-		max-width: 100%;
-		min-width: 0;
-		padding: clamp(1.5rem, 3vw, 2.5rem);
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 12%, transparent);
-		border-radius: 1rem;
-		background:
-			radial-gradient(
-				circle at top left,
-				color-mix(in srgb, var(--lamp-glow) 10%, transparent) 0%,
-				transparent 34%
-			),
-			linear-gradient(
-				135deg,
-				color-mix(in srgb, var(--stone-warm) 92%, transparent) 0%,
-				color-mix(in srgb, var(--stone-warm) 86%, transparent) 100%
-			);
-		box-shadow: var(--shadow-lg);
-	}
-
-	.hero-title {
-		margin: 0 0 1.5rem;
-		font-size: clamp(2.1rem, 4vw, 3.2rem);
-		line-height: 1.12;
-		font-weight: 800;
-		letter-spacing: -0.025em;
-		color: var(--ink-bright);
-	}
-
-	.nowrap {
-		white-space: nowrap;
-	}
-
-	.hero-lede {
-		margin: 0;
-		font-size: 1.1rem;
-		line-height: 1.75;
-		color: var(--ink-mid);
-	}
-
-	.hero-badge-row {
+	.talk-container {
 		display: flex;
-		flex-wrap: wrap;
-		gap: 0.65rem;
-	}
-
-	.hero-badge {
-		display: inline-flex;
-		align-items: center;
-		padding: 0.42rem 0.78rem;
-		border-radius: 999px;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
-		background: color-mix(in srgb, var(--stone-warm) 84%, transparent);
-		color: var(--ink-mid);
-		font-size: 0.78rem;
-		font-weight: 700;
-		letter-spacing: 0.01em;
-	}
-
-	.hero-truth,
-	.hero-mini-proof {
-		border-radius: 1rem;
-		padding: 1.25rem 1.5rem;
-	}
-
-	.hero-support-shell {
-		margin-top: 1.35rem;
-		width: 100%;
-		max-width: 100%;
+		width: min(100%, 42rem);
 		box-sizing: border-box;
+		flex-direction: column;
+		gap: 2rem;
+		margin: 0 auto;
+		padding: 2.5rem 1rem 4rem;
 	}
 
-	.hero-support-grid,
-	.hero-support-stack {
-		display: grid;
-		gap: 1.25rem;
-		align-items: start;
-		min-width: 0;
+	.talk-intro {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 0.5rem;
+		text-align: center;
 	}
 
-	.hero-support-stack {
-		align-content: start;
+	.talk-photo {
+		width: 5.5rem;
+		height: 5.5rem;
+		border: 2px solid color-mix(in srgb, var(--lamp-glow) 55%, var(--stone-edge));
+		border-radius: 999px;
+		object-fit: cover;
 	}
 
-	.hero-truth {
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--lamp-glow) 8%, transparent) 0%,
-			color-mix(in srgb, var(--stone-warm) 96%, transparent) 100%
-		);
-	}
-
-	.truth-kicker {
-		margin-bottom: 0.5rem;
+	.talk-eyebrow {
+		margin: 0.5rem 0 0;
+		color: var(--lamp-glow);
 		font-size: 0.75rem;
 		font-weight: 700;
-		letter-spacing: 0.12em;
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
-		color: var(--lamp-glow);
 	}
 
-	.hero-truth p,
-	.hero-mini-proof {
+	.talk-title {
 		margin: 0;
-		line-height: 1.7;
-		color: var(--ink-mid);
-	}
-
-	.hero-list {
-		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 10%, transparent);
-		background: color-mix(in srgb, var(--stone-warm) 42%, transparent);
-		padding: 1.35rem 1.4rem;
-	}
-
-	.list-title {
-		margin-bottom: 1rem;
-		font-size: 1.05rem;
-		font-weight: 700;
 		color: var(--ink-bright);
+		font-family: var(--font-display);
+		font-size: clamp(2rem, 7vw, 2.75rem);
+		line-height: 1.1;
 	}
 
-	.hero-list ul {
+	.talk-bio {
+		display: grid;
+		gap: 0.75rem;
+		max-width: 36rem;
+		margin-top: 0.5rem;
+		text-align: left;
+	}
+
+	.talk-bio p {
+		margin: 0;
+		color: var(--ink-mid);
+		font-size: 1rem;
+		line-height: 1.6;
+	}
+
+	.talk-card {
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
+		padding: 1.5rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 16px;
+		background: var(--night-mid);
+		box-shadow: 0 18px 50px color-mix(in srgb, var(--night-deep) 60%, transparent);
+	}
+
+	.talk-prompts__label {
+		margin: 0 0 0.5rem;
+		color: var(--ink-dim);
+		font-size: 0.8125rem;
+		font-weight: 650;
+	}
+
+	.talk-prompts ul {
+		display: grid;
+		gap: 0.4rem;
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		display: grid;
-		gap: 1rem;
 	}
 
-	.hero-list li {
+	.talk-prompts li {
 		position: relative;
-		padding-left: 1.5rem;
-		line-height: 1.65;
+		padding-left: 1rem;
 		color: var(--ink-mid);
+		font-size: 0.9375rem;
+		line-height: 1.45;
 	}
 
-	.hero-list li::before {
-		content: '';
+	.talk-prompts li::before {
 		position: absolute;
-		top: 0.6rem;
+		top: 0.55em;
 		left: 0;
-		width: 0.45rem;
-		height: 0.45rem;
+		width: 0.35rem;
+		height: 0.35rem;
 		border-radius: 999px;
 		background: var(--lamp-glow);
-		box-shadow: 0 0 0 0.25rem color-mix(in srgb, var(--lamp-glow) 14%, transparent);
+		content: '';
 	}
 
-	.hero-mini-proof {
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 12%, transparent);
-		background: color-mix(in srgb, var(--stone-warm) 50%, transparent);
+	.talk-form {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
 	}
 
-	.hero-mini-proof span {
-		display: block;
-		margin-bottom: 0.4rem;
-		font-weight: 700;
+	.talk-voice__attached {
+		display: grid;
+		gap: 0.6rem;
+		padding: 0.875rem;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 40%, var(--stone-edge));
+		border-radius: 10px;
+		background: color-mix(in srgb, var(--lamp-soft) 45%, var(--night-deep));
+	}
+
+	.talk-voice__meta {
+		display: flex;
+		align-items: center;
+		gap: 0.6rem;
+		color: var(--ink-mid);
+		font-size: 0.875rem;
+		font-variant-numeric: tabular-nums;
+	}
+
+	.talk-voice__badge {
+		padding: 0.15rem 0.5rem;
+		border-radius: 999px;
+		background: color-mix(in srgb, var(--lamp-glow) 20%, transparent);
+		color: var(--lamp-light);
+		font-size: 0.7rem;
+		font-weight: 750;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+	}
+
+	.talk-voice__attached audio {
+		width: 100%;
+	}
+
+	.talk-link-button {
+		margin-left: auto;
+		padding: 0.25rem 0;
+		border: 0;
+		background: none;
+		color: var(--lamp-light);
+		font: inherit;
+		font-size: 0.875rem;
+		font-weight: 600;
+		text-decoration: underline;
+		text-underline-offset: 3px;
+		cursor: pointer;
+	}
+
+	.talk-link-button--center {
+		margin: 0 auto;
+		color: var(--ink-dim);
+	}
+
+	.talk-link-button:disabled {
+		cursor: default;
+		opacity: 0.6;
+	}
+
+	.talk-fine {
+		margin: 0;
+		color: var(--ink-dim);
+		font-size: 0.8125rem;
+		line-height: 1.45;
+	}
+
+	.talk-fine--center {
+		text-align: center;
+	}
+
+	.talk-error {
+		margin: 0;
+		padding: 0.625rem 0.75rem;
+		border: 1px solid color-mix(in srgb, var(--error-text) 50%, var(--stone-edge));
+		border-radius: 10px;
+		background: color-mix(in srgb, var(--error-text) 10%, var(--night-deep));
+		color: var(--error-text);
+		font-size: 0.875rem;
+	}
+
+	.talk-step-head h2,
+	.talk-done h2 {
+		margin: 0 0 0.4rem;
 		color: var(--ink-bright);
+		font-size: 1.375rem;
+		line-height: 1.25;
 	}
 
-	.hero-context-card {
+	.talk-step-head p,
+	.talk-done p {
+		margin: 0;
+		color: var(--ink-mid);
+		line-height: 1.55;
+	}
+
+	.talk-session {
+		display: flex;
+		align-items: flex-start;
+		gap: 0.75rem;
+		padding: 0.875rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--night-deep);
+		cursor: pointer;
+	}
+
+	.talk-session--checked {
+		border-color: color-mix(in srgb, var(--lamp-glow) 60%, var(--stone-edge));
+	}
+
+	.talk-session input {
+		width: 1.125rem;
+		height: 1.125rem;
+		flex: 0 0 auto;
+		margin-top: 0.15rem;
+		accent-color: var(--lamp-glow);
+	}
+
+	.talk-session span {
+		display: grid;
+		gap: 0.25rem;
+	}
+
+	.talk-session strong {
+		color: var(--ink-bright);
+		font-size: 0.9375rem;
+	}
+
+	.talk-session small {
+		color: var(--ink-dim);
+		font-size: 0.8125rem;
+		line-height: 1.45;
+	}
+
+	.talk-done {
 		display: grid;
 		gap: 1rem;
-		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 10%, transparent);
-		background: linear-gradient(
-			145deg,
-			color-mix(in srgb, var(--lamp-glow) 6%, transparent) 0%,
-			color-mix(in srgb, var(--stone-warm) 96%, transparent) 100%
-		);
-		padding: 1.35rem 1.4rem;
+		text-align: center;
 	}
 
-	.context-kicker {
-		font-size: 0.76rem;
-		font-weight: 800;
-		letter-spacing: 0.14em;
-		text-transform: uppercase;
-		color: var(--lamp-glow);
-	}
-
-	.hero-context-card p {
-		margin: 0;
-		line-height: 1.65;
-		color: var(--ink-mid);
-	}
-
-	.hero-chip-row {
+	.talk-done__actions {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.65rem;
-	}
-
-	.hero-chip {
-		display: inline-flex;
 		align-items: center;
-		border-radius: 999px;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 14%, transparent);
-		background: color-mix(in srgb, var(--night-deep) 58%, transparent);
-		padding: 0.5rem 0.8rem;
-		font-size: 0.84rem;
+		justify-content: center;
+		gap: 1rem;
+	}
+
+	.talk-text-link {
+		color: var(--lamp-light);
+		font-size: 0.9375rem;
 		font-weight: 600;
-		color: var(--ink-bright);
+		text-underline-offset: 3px;
 	}
 
-	/* ── Waitlist panel ── */
-
-	.waitlist-panel {
-		width: 100%;
-		max-width: 100%;
-		min-width: 0;
-		padding: 2rem 1.75rem;
-		align-self: start;
-		background: linear-gradient(
-			180deg,
-			color-mix(in srgb, var(--stone-warm) 96%, transparent) 0%,
-			color-mix(in srgb, var(--stone-warm) 88%, transparent) 100%
-		);
-	}
-
-	.panel-topline {
-		margin-bottom: 0.5rem;
-		font-size: 0.75rem;
-		font-weight: 700;
-		letter-spacing: 0.14em;
-		text-transform: uppercase;
-		color: var(--lamp-glow);
-	}
-
-	.waitlist-panel h2 {
+	.talk-sessions h2 {
 		margin: 0 0 0.75rem;
-		font-size: 1.5rem;
-		line-height: 1.2;
-		font-weight: 800;
 		color: var(--ink-bright);
+		font-size: 1.25rem;
 	}
 
-	.panel-copy {
-		margin: 0 0 1.75rem;
-		line-height: 1.65;
+	.talk-sessions p {
+		margin: 0 0 0.75rem;
 		color: var(--ink-mid);
+		line-height: 1.6;
 	}
 
-	.waitlist-form {
+	.talk-faq {
 		display: grid;
-		gap: 1.25rem;
+		gap: 1rem;
+		padding-top: 1.5rem;
+		border-top: 1px solid var(--stone-edge);
+	}
+
+	.talk-faq__item h3 {
+		margin: 0 0 0.25rem;
+		color: var(--ink-bright);
+		font-size: 1rem;
+	}
+
+	.talk-faq__item p {
+		margin: 0;
+		color: var(--ink-mid);
+		font-size: 0.9375rem;
+		line-height: 1.55;
+	}
+
+	.talk-crisis {
+		margin: 0;
+		padding: 0.875rem 1rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		color: var(--ink-dim);
+		font-size: 0.8125rem;
+		line-height: 1.5;
+	}
+
+	.talk-crisis a {
+		color: var(--ink-bright);
+		font-weight: 700;
 	}
 
 	.honeypot {
 		position: absolute;
 		left: -9999px;
-		top: -9999px;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
 	}
 
-	.form-error {
-		border-radius: 0.625rem;
-		border: 1px solid color-mix(in srgb, var(--error) 30%, transparent);
-		background: var(--error-light);
-		padding: 0.75rem 1rem;
-		font-size: 0.9rem;
-		color: var(--error-text);
-	}
-
-	.panel-footnotes {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.5rem 1.25rem;
-		padding-top: 0.25rem;
-		font-size: 0.8rem;
-		color: var(--ink-dim);
-	}
-
-	/* ── Success ── */
-
-	.success-panel {
-		display: grid;
-		gap: 1.25rem;
-		padding: 1.5rem 0;
-	}
-
-	.success-icon {
-		display: flex;
-		justify-content: center;
-		color: var(--success-text);
-	}
-
-	.success-panel h2 {
-		margin: 0;
-		font-size: 1.6rem;
-		text-align: center;
-		color: var(--ink-bright);
-	}
-
-	.success-panel p {
-		margin: 0;
-		text-align: center;
-		line-height: 1.65;
-		color: var(--ink-mid);
-	}
-
-	.success-actions {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-	}
-
-	.text-link {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		min-height: 3.35rem;
-		padding: 0.82rem 1.4rem;
-		border-radius: 999px;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 18%, transparent);
-		background: color-mix(in srgb, var(--stone-warm) 76%, transparent);
-		box-shadow: inset 0 1px 0 color-mix(in srgb, white 18%, transparent);
-		font-weight: 700;
-		color: var(--lamp-glow);
-		text-decoration: none;
+	.visually-hidden {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		clip: rect(0 0 0 0);
 		white-space: nowrap;
-		transition:
-			transform 0.15s ease,
-			border-color 0.15s ease,
-			box-shadow 0.15s ease,
-			background 0.15s ease,
-			color 0.15s ease;
 	}
-
-	.text-link:hover {
-		transform: translateY(-1px);
-		color: color-mix(in srgb, var(--lamp-glow) 78%, white);
-		border-color: color-mix(in srgb, var(--lamp-glow) 32%, transparent);
-		background: color-mix(in srgb, var(--lamp-glow) 8%, var(--stone-warm));
-		box-shadow: var(--shadow-md);
-	}
-
-	/* ── Sections ── */
-
-	.signal-strip,
-	.proof-section,
-	.focus-section,
-	.outcomes-section,
-	.process-section,
-	.faq-section,
-	.final-cta {
-		margin-top: 2rem;
-		padding: 2rem 1.75rem;
-	}
-
-	.signal-strip h2,
-	.section-heading h2,
-	.proof-copy h2,
-	.final-copy h2 {
-		margin: 0 0 0.75rem;
-		font-size: clamp(1.5rem, 2.8vw, 2.1rem);
-		line-height: 1.18;
-		font-weight: 800;
-		letter-spacing: -0.02em;
-		color: var(--ink-bright);
-	}
-
-	.signal-strip p,
-	.section-heading p,
-	.proof-copy p,
-	.founder-body,
-	.final-copy p {
-		margin: 0;
-		line-height: 1.7;
-		color: var(--ink-mid);
-	}
-
-	.proof-copy p + p {
-		margin-top: 0.75rem;
-	}
-
-	/* ── Signal strip ── */
-
-	.signal-strip {
-		display: grid;
-		gap: 1.5rem;
-	}
-
-	.signal-intro {
-		max-width: 48rem;
-	}
-
-	.signal-links {
-		display: grid;
-		gap: 0.85rem;
-		min-width: 0;
-	}
-
-	.signal-link {
-		display: grid;
-		gap: 0.25rem;
-		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 12%, transparent);
-		background: color-mix(in srgb, var(--stone-warm) 50%, transparent);
-		padding: 1.125rem 1.25rem;
-		text-decoration: none;
-		transition:
-			transform 0.15s ease,
-			border-color 0.15s ease,
-			box-shadow 0.15s ease;
-	}
-
-	.signal-link span {
-		font-weight: 700;
-		color: var(--ink-bright);
-	}
-
-	.signal-link small {
-		font-size: 0.88rem;
-		line-height: 1.5;
-		color: var(--ink-mid);
-	}
-
-	.signal-link:hover {
-		transform: translateY(-1px);
-		border-color: color-mix(in srgb, var(--lamp-glow) 28%, transparent);
-		box-shadow: var(--shadow-md);
-	}
-
-	/* ── Proof ── */
-
-	.proof-section {
-		display: grid;
-		gap: 2rem;
-	}
-
-	.proof-layout {
-		display: grid;
-		gap: 1.5rem;
-		align-items: start;
-	}
-
-	.proof-copy {
-		display: grid;
-		gap: 0.5rem;
-		max-width: 46rem;
-	}
-
-	.founder-card {
-		display: grid;
-		gap: 1.35rem;
-		align-content: start;
-		min-width: 0;
-		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 10%, transparent);
-		background: linear-gradient(
-			135deg,
-			color-mix(in srgb, var(--lamp-glow) 7%, transparent) 0%,
-			color-mix(in srgb, var(--stone-warm) 96%, transparent) 100%
-		);
-		padding: 1.75rem;
-	}
-
-	.founder-identity {
-		display: grid;
-		gap: 1rem;
-		align-items: center;
-	}
-
-	.founder-copy {
-		display: grid;
-		gap: 0.35rem;
-	}
-
-	.founder-photo {
-		display: block;
-		width: 100%;
-		max-width: 10rem;
-		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 14%, transparent);
-		background: color-mix(in srgb, var(--stone-warm) 70%, transparent);
-		box-shadow: var(--shadow-md);
-		object-fit: cover;
-	}
-
-	.founder-label {
-		font-size: 0.8rem;
-		font-weight: 700;
-		letter-spacing: 0.1em;
-		text-transform: uppercase;
-		color: var(--lamp-glow);
-	}
-
-	.founder-role,
-	.founder-summary,
-	.founder-body {
-		margin: 0;
-	}
-
-	.founder-role {
-		font-size: 1rem;
-		font-weight: 700;
-		color: var(--ink-bright);
-	}
-
-	.founder-summary {
-		font-size: 0.94rem;
-		line-height: 1.6;
-		color: var(--ink-mid);
-	}
-
-	.founder-body {
-		font-size: 0.98rem;
-	}
-
-	/* ── Cards ── */
-
-	.stats-grid,
-	.card-grid {
-		display: grid;
-		gap: 1rem;
-	}
-
-	.stat-card,
-	.content-card {
-		border-radius: 1rem;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 10%, transparent);
-		background: color-mix(in srgb, var(--stone-warm) 48%, transparent);
-		padding: 1.5rem;
-		transition:
-			transform 0.15s ease,
-			border-color 0.15s ease,
-			box-shadow 0.15s ease;
-	}
-
-	.stat-card:hover,
-	.content-card:hover {
-		transform: translateY(-2px);
-		border-color: color-mix(in srgb, var(--lamp-glow) 22%, transparent);
-		box-shadow: var(--shadow-md);
-	}
-
-	.stat-value {
-		margin-bottom: 0.35rem;
-		font-size: 2.5rem;
-		font-weight: 800;
-		line-height: 1;
-		color: var(--ink-bright);
-	}
-
-	.stat-label {
-		margin-bottom: 0.5rem;
-		font-size: 0.92rem;
-		font-weight: 700;
-		color: var(--lamp-glow);
-	}
-
-	.stat-card p,
-	.content-card p {
-		margin: 0;
-		font-size: 0.92rem;
-		line-height: 1.65;
-		color: var(--ink-mid);
-	}
-
-	.section-heading {
-		margin-bottom: 1.5rem;
-	}
-
-	.section-heading p,
-	.final-copy p {
-		max-width: 52rem;
-	}
-
-	.section-layout {
-		display: grid;
-		gap: 1.75rem;
-	}
-
-	.focus-grid .content-card:nth-child(2n) {
-		background: linear-gradient(
-			145deg,
-			color-mix(in srgb, var(--lamp-glow) 4%, transparent) 0%,
-			color-mix(in srgb, var(--stone-warm) 52%, transparent) 100%
-		);
-	}
-
-	.content-card h3 {
-		margin: 0 0 0.5rem;
-		font-size: 1.08rem;
-		line-height: 1.3;
-		font-weight: 700;
-		color: var(--ink-bright);
-	}
-
-	.numbered-card,
-	.step-card {
-		position: relative;
-	}
-
-	.card-number,
-	.step-number {
-		margin-bottom: 0.75rem;
-		font-size: 0.82rem;
-		font-weight: 800;
-		letter-spacing: 0.14em;
-		text-transform: uppercase;
-		color: var(--lamp-glow);
-		opacity: 0.75;
-	}
-
-	.faq-card h3 {
-		font-size: 1.02rem;
-	}
-
-	/* ── Final CTA ── */
-
-	.final-cta {
-		display: grid;
-		gap: 1.75rem;
-		align-items: center;
-		background:
-			radial-gradient(
-				circle at top right,
-				color-mix(in srgb, var(--lamp-glow) 10%, transparent) 0%,
-				transparent 40%
-			),
-			color-mix(in srgb, var(--stone-warm) 88%, transparent);
-	}
-
-	.final-actions {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-	}
-
-	.success-actions > *,
-	.final-actions > * {
-		flex: 0 0 auto;
-	}
-
-	/* ── Responsive ── */
 
 	@media (min-width: 640px) {
-		.page-container {
-			padding: 3rem 2rem 5rem;
+		.talk-container {
+			padding: 3.5rem 1.5rem 5rem;
 		}
 
-		.signal-strip,
-		.proof-section,
-		.focus-section,
-		.outcomes-section,
-		.process-section,
-		.faq-section,
-		.final-cta {
-			padding: 2.5rem;
+		.talk-card {
+			padding: 2rem;
 		}
-
-		.stats-grid {
-			grid-template-columns: repeat(3, minmax(0, 1fr));
-		}
-
-		.card-grid-2 {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-
-		.card-grid-3 {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-
-		.signal-links {
-			grid-template-columns: repeat(3, minmax(0, 1fr));
-		}
-
-		.founder-identity {
-			grid-template-columns: auto minmax(0, 1fr);
-		}
-
-		.success-actions,
-		.final-actions {
-			flex-direction: row;
-			align-items: center;
-			flex-wrap: wrap;
-		}
-
-		.success-actions .text-link,
-		.final-actions .text-link {
-			width: auto;
-		}
-	}
-
-	@media (min-width: 960px) {
-		.page-container {
-			padding: 3.5rem 3rem 6rem;
-		}
-
-		.hero-grid {
-			grid-template-columns: minmax(0, 1.08fr) minmax(24rem, 30rem);
-			gap: 3.25rem;
-			align-items: start;
-		}
-
-		.hero-support-shell {
-			margin-top: 1.75rem;
-			padding: 1.8rem;
-		}
-
-		.hero-support-grid {
-			grid-template-columns: 1fr 1fr;
-			gap: 1.5rem;
-			align-items: stretch;
-		}
-
-		.hero-title {
-			margin-bottom: 1.75rem;
-		}
-
-		.waitlist-panel {
-			position: sticky;
-			top: 5rem;
-			padding: 2.25rem;
-		}
-
-		.signal-strip,
-		.proof-section,
-		.focus-section,
-		.outcomes-section,
-		.process-section,
-		.faq-section,
-		.final-cta {
-			margin-top: 2.75rem;
-			padding: 3rem;
-		}
-
-		.final-cta {
-			grid-template-columns: minmax(0, 1fr) auto;
-			align-items: center;
-			gap: 3rem;
-		}
-
-		.final-actions {
-			justify-self: end;
-			justify-content: flex-end;
-		}
-
-		.card-grid-3 {
-			grid-template-columns: repeat(3, minmax(0, 1fr));
-		}
-
-		.card-grid-4 {
-			grid-template-columns: repeat(4, minmax(0, 1fr));
-		}
-
-		.card-grid {
-			gap: 1.125rem;
-		}
-
-		.section-heading {
-			margin-bottom: 2rem;
-		}
-
-		.section-layout {
-			gap: 2.5rem;
-		}
-
-		.proof-section {
-			gap: 2.5rem;
-		}
-
-		.proof-layout {
-			grid-template-columns: minmax(0, 1.1fr) minmax(20rem, 0.9fr);
-			gap: 2.5rem;
-		}
-
-		.founder-card {
-			padding: 2.1rem;
-		}
-	}
-
-	@media (max-width: 639px) {
-		.page-container {
-			padding: 1.1rem 0.85rem 3rem;
-		}
-
-		.hero-grid {
-			gap: 1rem;
-		}
-
-		.hero-copy {
-			padding: 1.2rem 1rem;
-			border-radius: 1rem;
-		}
-
-		.hero-title {
-			margin-bottom: 1rem;
-			font-size: clamp(2rem, 11vw, 3rem);
-			letter-spacing: -0.04em;
-		}
-
-		.hero-lede {
-			font-size: 0.96rem;
-			line-height: 1.65;
-		}
-
-		.hero-badge-row {
-			gap: 0.5rem;
-		}
-
-		.hero-badge {
-			font-size: 0.72rem;
-			padding: 0.36rem 0.68rem;
-		}
-
-		.waitlist-panel {
-			padding: 1.25rem 1rem;
-			border-radius: 1rem;
-		}
-
-		.waitlist-panel h2 {
-			font-size: 1.3rem;
-		}
-
-		.hero-support-shell,
-		.signal-strip,
-		.proof-section,
-		.focus-section,
-		.outcomes-section,
-		.process-section,
-		.faq-section,
-		.final-cta {
-			padding-left: 1rem;
-			padding-right: 1rem;
-			border-radius: 1rem;
-		}
-
-		.hero-support-shell {
-			margin-top: 1rem;
-			padding-top: 1rem;
-			padding-bottom: 1rem;
-		}
-
-		.hero-list,
-		.hero-truth,
-		.hero-mini-proof,
-		.hero-context-card,
-		.founder-card {
-			padding: 1rem;
-			border-radius: 1rem;
-		}
-
-		.hero-chip {
-			font-size: 0.76rem;
-			padding: 0.42rem 0.7rem;
-		}
-	}
-
-	:global(*:focus-visible) {
-		outline: 2px solid var(--lamp-glow);
-		outline-offset: 2px;
 	}
 </style>

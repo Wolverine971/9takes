@@ -79,7 +79,7 @@ path: src/blog/community/reddit-deep-connections-limitations.md
 </svelte:head>
 
 <QuickAnswer question="Why can't you find deep connections on Reddit?">
-**Reddit was designed for content distribution, not human connection.** Its algorithms reward speed over depth, organize people by topics instead of identity, and archive conversations before relationships can form. The result: you can interact with thousands of people and still feel completely alone. The platform isn't broken — it's optimized for something other than what you're looking for.
+<strong>Reddit was designed for content distribution, not human connection.</strong> Its algorithms reward speed over depth, organize people by topics instead of identity, and archive conversations before relationships can form. The result: you can interact with thousands of people and still feel completely alone. The platform isn't broken — it's optimized for something other than what you're looking for.
 </QuickAnswer>
 
 <p class="firstLetter">You've scrolled r/relationship_advice at 2 AM looking for connection. You found 47 comments telling someone to "lawyer up" and a bot.</p>

@@ -27,7 +27,7 @@ quality_safety_gate: 'n/a'
 </script>
 
 <QuickAnswer question="What are Enneagram instinctual subtypes?">
-Your subtype is WHY two people of the same Enneagram type can seem completely different. There are three instincts: **Self-Preservation** (focused on safety, health, resources), **Social** (focused on belonging, status, groups), and **One-to-One/Sexual** (focused on intense connections, chemistry, attraction). Your dominant instinct flavors how your type expresses itself, creating 27 distinct subtypes instead of just 9.
+Your subtype is WHY two people of the same Enneagram type can seem completely different. There are three instincts: <strong>Self-Preservation</strong> (focused on safety, health, resources), <strong>Social</strong> (focused on belonging, status, groups), and <strong>One-to-One/Sexual</strong> (focused on intense connections, chemistry, attraction). Your dominant instinct flavors how your type expresses itself, creating 27 distinct subtypes instead of just 9.
 </QuickAnswer>
 
 | Subtype                    | Focus      | You Prioritize                  | You Neglect                         |

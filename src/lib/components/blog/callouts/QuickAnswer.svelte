@@ -52,7 +52,7 @@
 
 <style lang="scss">
 	.quick-answer__question {
-		font-size: 1.1rem;
+		font-size: 1.125rem;
 		font-weight: 600;
 		color: var(--ink-bright);
 		margin: 0 0 0.75rem;

@@ -2,7 +2,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-09-23T21:57:40.825Z_
+_Generated: 2026-09-24T00:55:25.953Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -180,8 +180,8 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 
 ## Freshness
 
-- **Updated in last 30 days:** 28
-- **Updated in last 90 days:** 108 (24.0%)
+- **Updated in last 30 days:** 26
+- **Updated in last 90 days:** 107 (23.8%)
 - **Missing `lastmod`:** 0
 
 ## Ready-to-Cite Claims

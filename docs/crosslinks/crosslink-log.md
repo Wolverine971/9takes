@@ -1,3 +1,4 @@
+<!-- docs/crosslinks/crosslink-log.md -->
 # Cross-Link Log
 
 Append-only record of `/crosslink-queue` runs and manual cross-link passes. Newest entries at the bottom. Never rewrite earlier entries.
@@ -165,3 +166,15 @@ First pass after rebuilding `pnpm gen:crosslinks` (live-only graph, type + peopl
 - Fixed today (objective errors): Type 2 growth arrow (2→4, not 8) in epstein-part-1 + unwinds FAQ; counterphobic 6 is One-to-One, not Self-Preservation (subtypes FAQ + JSON-LD); Genesis 3:9 is God's first question (serpent asks in 3:1); Kim Kardashian passed the baby bar, has no law degree
 - Unverified: situations-change-emotions-dont quotes a popular Marcus Aurelius paraphrase as a translation
 - Still short of the gate (grandfathered): kardashian-family (1 in needed), reddit-moderators, societal-ticking-time-bombs (anti-SSRI piece; linking from medication posts is a safety call for DJ), tbpn, trump-vs-biden, alex-cooper-alix-earle, fallen-founders (2), ghislaine-maxwell
+
+### 2026-09-23 — verification pass: 0 new links, gate debt 8 → 8
+
+Double-check of the 09-22 pass. Verified against commit 45804be24 (pre-work base 48f80036a):
+
+- 97 modified posts: frontmatter unchanged in all; visible text changed only in the logged bridge lines and deliberate fixes
+- Rendered every live post on a dev server: 152/152 return 200; all 159 new links render as real `<a href>`; 0 new links in headings or quotes
+- Fixed: 3 markdown links inside HTML list items on enneagram-books-websites-podcasts (rendered as literal `[text](/url)`, incl. 1 added 09-22)
+- Fixed (pre-existing): markdown inside one-paragraph QuickAnswer/Callout blocks rendered as literal `**`/`[..](..)` on 16 posts; converted to HTML. `pnpm crosslinks:check` now fails on this class
+- Tooling bugs fixed after an independent review: gate froze both counts on grandfathered posts (now only the failing side); `/enneagram-corner/mental-health` hub + mental-health slug aliases counted as broken; links inside HTML comments counted; 7 bad person display names ("Drake's Enneagram Type"); single-word names matching longer names ("Prince" in "Prince Andrew"); a stray `%` could crash CI; james-clear counted live without a live page; wrapper false-OK on same-day reruns and crash with HOME unset
+- Tests: crosslink spec 11 → 24 (incl. a drift test that fails if SECTION_RULES and the [slug] route globs disagree)
+- Gate: below-bar posts 8 → 8, grandfathered 8, broken links 0

@@ -30,7 +30,7 @@ quality_update_note: 'Safety edits applied 2026-03-10: added disclaimer, softene
 </script>
 
 <QuickAnswer question="Why are you burning out at work?">
-**Your Enneagram type has a specific "burnout formula"—a predictable set of workplace conditions that drain you.** Type 1s burn out from fixing broken systems nobody cares about. Type 2s burn out from being everyone's unpaid therapist. Type 3s burn out when achievements feel hollow. Type 5s burn out from open offices and meetings about meetings. The fix isn't working harder—it's knowing your kryptonite and building around it.
+<strong>Your Enneagram type has a specific "burnout formula"—a predictable set of workplace conditions that drain you.</strong> Type 1s burn out from fixing broken systems nobody cares about. Type 2s burn out from being everyone's unpaid therapist. Type 3s burn out when achievements feel hollow. Type 5s burn out from open offices and meetings about meetings. The fix isn't working harder—it's knowing your kryptonite and building around it.
 </QuickAnswer>
 
 <div class="medical-disclaimer">

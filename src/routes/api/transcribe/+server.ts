@@ -66,7 +66,7 @@ export const POST: RequestHandler = async ({ request, locals, getClientAddress }
 
 	if (audio.size > MAX_AUDIO_BYTES) {
 		return json(
-			{ error: 'That recording is too large. Keep voice answers under two minutes.' },
+			{ error: 'That recording is too large. Try a shorter recording.' },
 			{ status: 413 }
 		);
 	}

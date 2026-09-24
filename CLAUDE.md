@@ -294,6 +294,8 @@ Content here. Can import Svelte components:
 <QuickAnswer question="Why...?">Answer content</QuickAnswer>
 ```
 
+**Component gotcha:** MDsvex does not process markdown inside a one-paragraph component block (no blank lines between `<QuickAnswer>`/`<Callout>`/`<InsightBox>` and its closing tag): `**bold**` and `[links](/x)` render as literal characters. Use HTML there (`<strong>`, `<a href="/x">`). `pnpm crosslinks:check` fails on it.
+
 **Blog indexing**: Run `pnpm index:blogs` (or `pnpm gen:search-index`) to sync blogs into Supabase for FTS. Use `pnpm index:blogs:dry` to preview and `pnpm index:blogs:force` to rebuild.
 
 ## Brand Guidelines

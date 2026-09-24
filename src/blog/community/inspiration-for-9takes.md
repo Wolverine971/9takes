@@ -21,7 +21,7 @@ path: src/blog/community/inspiration-for-9takes.md
 </script>
 
 <QuickAnswer question="What inspired 9takes?">
-**A marriage that was falling apart.** My wife and I were newlyweds having the same fight on repeat. When things cooled down, she said, "DJ, you need to take a personality test." First the MBTI, then the Enneagram, and suddenly we could see *why* we processed everything differently. I went looking for a place to explore personality online, couldn't find one that worked, and built 9takes: one question, nine ways to see it.
+<strong>A marriage that was falling apart.</strong> My wife and I were newlyweds having the same fight on repeat. When things cooled down, she said, "DJ, you need to take a personality test." First the MBTI, then the Enneagram, and suddenly we could see *why* we processed everything differently. I went looking for a place to explore personality online, couldn't find one that worked, and built 9takes: one question, nine ways to see it.
 </QuickAnswer>
 
 <p class="firstLetter">My wife and I almost destroyed our marriage before we figured out we weren't speaking the same language.</p>

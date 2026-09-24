@@ -184,7 +184,7 @@ Video learners, this section is for you. YouTube has become one of the best ways
 
 - <a  target="_blank" rel="noopener" href="https://www.youtube.com/@YourEnneagramCoach">Your Enneagram Coach (Beth McCord)</a>: Offers structured, faith-integrated Enneagram education. Her channel covers typing, growth paths, and relationship dynamics with a warm, coaching-oriented approach.
 
-- <a  target="_blank" rel="noopener" href="https://www.youtube.com/@enneagramandcoaching">Hillary McCaskey</a>: Certified coach with in-depth content on how each type shows up in daily life, [relationships](/enneagram-corner/enneagram-types-in-relationships), and personal growth. Particularly strong on practical application.
+- <a  target="_blank" rel="noopener" href="https://www.youtube.com/@enneagramandcoaching">Hillary McCaskey</a>: Certified coach with in-depth content on how each type shows up in daily life, <a href="/enneagram-corner/enneagram-types-in-relationships">relationships</a>, and personal growth. Particularly strong on practical application.
 
 - <a  target="_blank" rel="noopener" href="https://www.youtube.com/@AbbeyHowe">Abbey Howe</a>: Lively, accessible explorations of the Enneagram that work for both beginners and experienced enthusiasts. Her energy makes complex topics feel approachable.
 
@@ -234,7 +234,7 @@ For those who prefer listening to learning, these podcasts offer engaging conver
 
 - Enneagram Panels (The Art of Growth): Features real panel interviews with people of each type. One of the best ways to hear each type describe their own inner world in their own words.
 
-- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/dr-tom-lahue-enneagram/id1606020695">Dr. Tom LaHue Enneagram Podcast</a>: Clinical psychologist Dr. LaHue brings the same depth from his YouTube channel into long-form audio, covering levels of health, [stress patterns](/enneagram-corner/enneagram-types-in-stress), and growth paths.
+- <a  target="_blank"  href="https://podcasts.apple.com/us/podcast/dr-tom-lahue-enneagram/id1606020695">Dr. Tom LaHue Enneagram Podcast</a>: Clinical psychologist Dr. LaHue brings the same depth from his YouTube channel into long-form audio, covering levels of health, <a href="/enneagram-corner/enneagram-types-in-stress">stress patterns</a>, and growth paths.
 
 ### Additional Quality Podcasts
 
@@ -579,7 +579,7 @@ The Enneagram has gone digital. These tools bring type insights to your phone an
 
 - <a  target="_blank" rel="noopener" href="https://enneaapp.com/">EnneaApp</a>: The most comprehensive Enneagram reference app. Detailed type descriptions, instinctual variant information, and growth tips, all offline-accessible. Think of it as the Enneagram Institute in your pocket.
 
-- <a  target="_blank" rel="noopener" href="https://cloverleaf.me/">Cloverleaf</a>: Goes beyond typing: it integrates the Enneagram with [other frameworks](/enneagram-corner/enneagram-vs-personality-frameworks-comparison) (DISC, StrengthsFinder, 16 Types) and delivers daily coaching tips. Popular with teams and organizations.
+- <a  target="_blank" rel="noopener" href="https://cloverleaf.me/">Cloverleaf</a>: Goes beyond typing: it integrates the Enneagram with <a href="/enneagram-corner/enneagram-vs-personality-frameworks-comparison">other frameworks</a> (DISC, StrengthsFinder, 16 Types) and delivers daily coaching tips. Popular with teams and organizations.
 
 - <a  target="_blank" rel="noopener" href="https://www.crystalknows.com/">Crystal</a>: Uses personality data (including Enneagram) to help you communicate better with colleagues. Shows you how to email, chat, and present to different types.
 

@@ -131,17 +131,26 @@
 		color: var(--ink-bright);
 	}
 
+	/* Tailwind preflight strips list markers, which left the list indented
+	   for numbers that never rendered. Show them: a numbered trail. */
 	ol {
 		display: grid;
 		gap: 0.65rem;
 		margin: 0;
-		padding-left: 1.15rem;
+		padding-left: 1.75rem;
+		list-style: decimal;
 	}
 
 	li {
 		padding-left: 0.25rem;
 		color: var(--ink-mid);
 		line-height: 1.45;
+
+		&::marker {
+			font-family: var(--font-mono);
+			font-size: 0.75rem;
+			color: var(--ink-dim);
+		}
 	}
 
 	a {

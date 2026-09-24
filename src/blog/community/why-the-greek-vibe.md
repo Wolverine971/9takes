@@ -22,7 +22,7 @@ path: src/blog/community/why-the-greek-vibe.md
 </script>
 
 <QuickAnswer question="Why does 9takes use Greek-inspired design?">
-**Because the Greeks invented the technology for meaningful public discourse—and we've lost it.** The agora and academy weren't just places to gather; they were engineered for Socratic dialogue, where questions led to deeper questions, and multiple perspectives were expected. Modern social media optimizes for engagement, not understanding. 9takes brings back the Greek method: ask questions, hear multiple viewpoints (9 personality-based takes), and think through answers rather than react to them.
+<strong>Because the Greeks invented the technology for meaningful public discourse—and we've lost it.</strong> The agora and academy weren't just places to gather; they were engineered for Socratic dialogue, where questions led to deeper questions, and multiple perspectives were expected. Modern social media optimizes for engagement, not understanding. 9takes brings back the Greek method: ask questions, hear multiple viewpoints (9 personality-based takes), and think through answers rather than react to them.
 </QuickAnswer>
 
 <p class="firstLetter">The Greeks didn't invent social media. They invented something better: structured disagreement.</p>

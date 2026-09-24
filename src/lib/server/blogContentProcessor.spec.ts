@@ -32,13 +32,14 @@ Body copy.`);
 			id: 'component-quickanswer-0',
 			type: 'QuickAnswer',
 			props: {
-				question: "What is Taylor Swift's type?"
+				// Typographic apostrophe: props are curled to match the SSR fallback.
+				question: 'What is Taylor Swift’s type?'
 			}
 		});
 		expect(result.placeholders[0].props).not.toHaveProperty('is');
 		expect(result.content).toContain('data-ssr-fallback');
 		expect(result.content).toContain('itemscope itemtype="https://schema.org/Question"');
-		expect(result.content).toContain("What is Taylor Swift's type?");
+		expect(result.content).toContain('What is Taylor Swift’s type?');
 		expect(result.content).toContain('Taylor reads as **Type 3**');
 	});
 
@@ -151,5 +152,46 @@ Closing copy.`);
 		expect(result.content).not.toContain("DJ's reasoning");
 		expect(result.content).not.toContain('DJReadCard');
 		expect(result.content).not.toContain('data-dj-read-id');
+	});
+
+	it('drops the legacy rabbit emoji so the rabbit-hole summary shows one icon', async () => {
+		const result = await processBlogContent(`Intro.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines</summary>
+<div class="panel">
+
+Deep dive.
+
+</div>
+</details>`);
+
+		expect(result.content).toContain(
+			'<summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines</summary>'
+		);
+		expect(result.content).not.toContain('🐇');
+	});
+
+	it('curls quotes in prose, raw-HTML furniture, and TOC headings without moving anchors', async () => {
+		const result = await processBlogContent(`## Tom's "Last Line"
+
+"I could have done it," he said. It's not \`"code"\`.
+
+<div class="contrast-panel">
+<div class="contrast-left">
+<h4>Thor (2011)</h4>
+<p>"I could have done it, Father."</p>
+</div>
+</div>`);
+
+		expect(result.headings[0]).toEqual({
+			level: 2,
+			text: 'Tom’s “Last Line”',
+			id: 'toms-last-line'
+		});
+		expect(result.content).toContain('<h2 id="toms-last-line">Tom’s “Last Line”</h2>');
+		expect(result.content).toContain('“I could have done it,” he said. It’s not');
+		expect(result.content).toMatch(/<code>(?:"|&quot;)code(?:"|&quot;)<\/code>/);
+		expect(result.content).toContain('<p>“I could have done it, Father.”</p>');
 	});
 });

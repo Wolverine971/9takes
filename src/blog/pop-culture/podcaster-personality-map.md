@@ -66,7 +66,7 @@ The topics are the surface. The personality is the engine.
 This article maps that engine across a curated sample of 13 personality-led long-form and interview hosts representing five Enneagram types.
 
 <Callout tone="neutral" label="Method note" icon="info">
-This non-exhaustive comparison selects recognizable, personality-forward formats. It does not reproduce the [Edison Research U.S. chart](https://www.edisonresearch.com/the-top-50-podcasts-in-the-u-s-q1-2026-from-edison-podcast-metrics/) or [Spotify's global ranking](https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/). The Enneagram assignments are editorial interpretations of public work and behavior rather than clinical assessments. Claims about shows, careers, and deals require a first-party source or reputable reporting; none of those facts proves a typing.
+This non-exhaustive comparison selects recognizable, personality-forward formats. It does not reproduce the <a href="https://www.edisonresearch.com/the-top-50-podcasts-in-the-u-s-q1-2026-from-edison-podcast-metrics/" target="_blank" rel="noopener">Edison Research U.S. chart</a> or <a href="https://newsroom.spotify.com/2025-12-03/wrapped-top-artists-songs-albums-podcasts-audiobooks/" target="_blank" rel="noopener">Spotify's global ranking</a>. The Enneagram assignments are editorial interpretations of public work and behavior rather than clinical assessments. Claims about shows, careers, and deals require a first-party source or reputable reporting; none of those facts proves a typing.
 </Callout>
 
 ## The Full Personality Map

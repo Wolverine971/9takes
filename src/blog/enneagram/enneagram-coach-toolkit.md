@@ -26,7 +26,7 @@ quality_safety_gate: 'n/a'
 </script>
 
 <QuickAnswer question="Why doesn't generic Enneagram homework work?">
-**Each type resists homework differently and needs different triggers to create change.** Type 8s feel patronized by "observe your patterns" exercises. Type 5s overthink them. Type 7s forget by dinner. The breakthrough comes when you assign type-specific homework that directly addresses each type's core fixation. A Type 6 needs to make three small decisions without seeking reassurance. A Type 3 needs to spend 15 minutes doing something with zero productive outcome.
+<strong>Each type resists homework differently and needs different triggers to create change.</strong> Type 8s feel patronized by "observe your patterns" exercises. Type 5s overthink them. Type 7s forget by dinner. The breakthrough comes when you assign type-specific homework that directly addresses each type's core fixation. A Type 6 needs to make three small decisions without seeking reassurance. A Type 3 needs to spend 15 minutes doing something with zero productive outcome.
 </QuickAnswer>
 
 <p class="firstLetter">Your client had a breakthrough. You both felt it. That moment when the pattern clicked. She finally understood why she's been destroying relationships the same way for fifteen years.</p>

@@ -177,8 +177,21 @@ export function buildTargetPhrases(node, { curated = {}, gsc = null, docFrequenc
 
 	if (node.kind === 'person') {
 		const name = node.title;
-		// Proper-noun match is case-sensitive; single-word names are weaker evidence.
-		if (name) push(name, name.includes(' ') ? 3 : 2, 'name', true);
+		// Proper-noun match is case-sensitive. Single-word names ("Drake", "Prince") are
+		// weaker evidence and must stand alone: not part of a longer capitalized name
+		// like "Prince Andrew" or "Nick Drake".
+		if (name && name.includes(' ')) push(name, 3, 'name', true);
+		else if (name && !seen.has(name.toLowerCase())) {
+			seen.add(name.toLowerCase());
+			phrases.push({
+				text: name,
+				weight: 2,
+				kind: 'name',
+				re: new RegExp(
+					`(?<![A-Z][\\w'’.-]*\\s)(?<![\\w-])${escapeRegExp(name)}(?![\\w-])(?!\\s+[A-Z])`
+				)
+			});
+		}
 		return phrases;
 	}
 

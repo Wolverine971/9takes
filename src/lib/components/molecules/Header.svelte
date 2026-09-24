@@ -72,7 +72,7 @@
 	const mobileNavItems: NavigationItem[] = [
 		{ href: '/', label: 'Home' },
 		{ href: '/about', label: 'About' },
-		{ href: '/book-session', label: 'Join Coaching Waitlist' },
+		{ href: '/book-session', label: 'Talk to DJ' },
 		{ href: '/corpus-stats', label: 'Corpus Stats' }
 	];
 

@@ -172,7 +172,7 @@ writeFileSync(
 			}
 		},
 		null,
-		2
+		'\t'
 	) + '\n'
 );
 console.log('wrote latest.json');

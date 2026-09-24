@@ -155,6 +155,37 @@ describe('VoiceRecorder', () => {
 		expect(getUserMediaMock).toHaveBeenCalledOnce();
 	});
 
+	it('hands the raw recording to onaudio before transcribing it', async () => {
+		permissionState = 'granted';
+		const ontranscript = vi.fn();
+		const onaudio = vi.fn();
+		const { getByRole, getByText } = render(VoiceRecorder, {
+			props: {
+				ontranscript,
+				onaudio,
+				label: 'Record a voice note',
+				hint: 'Up to 3 minutes.'
+			}
+		});
+
+		await waitFor(() => expect(queryPermissionMock).toHaveBeenCalledOnce());
+		expect(getByText('Up to 3 minutes.')).toBeTruthy();
+		await fireEvent.click(getByRole('button', { name: 'Record a voice note' }));
+		await waitFor(() => expect(MockMediaRecorder.instances).toHaveLength(1));
+
+		const recorder = MockMediaRecorder.instances[0];
+		recorder.emitData(new Blob(['x'.repeat(900)], { type: 'audio/webm' }));
+		await fireEvent.click(getByRole('button', { name: 'Stop recording, 0:00' }));
+
+		await waitFor(() => expect(ontranscript).toHaveBeenCalledWith('A polished voice answer.'));
+		expect(onaudio).toHaveBeenCalledOnce();
+		const [audio] = onaudio.mock.calls[0];
+		expect(audio.blob).toBeInstanceOf(Blob);
+		expect(audio.blob.size).toBe(900);
+		expect(audio.mimeType).toBe('audio/webm');
+		expect(audio.durationSeconds).toBe(0);
+	});
+
 	it('starts immediately when microphone permission was already granted', async () => {
 		permissionState = 'granted';
 		const ontranscript = vi.fn();

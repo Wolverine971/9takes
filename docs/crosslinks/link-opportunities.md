@@ -1,7 +1,7 @@
 # Link Opportunities
 
 _Generated: 2026-09-23 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
-_Search data: GSC 2026-06-23 → 2026-09-21. 394 candidate links found (+113 weaker ones offered only for gate debt); 48 suppressed in `docs/crosslinks/skipped.json`._
+_Search data: GSC 2026-06-23 → 2026-09-21. 391 candidate links found (+113 weaker ones offered only for gate debt); 48 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
 Score = target's search demand × link deficit × mention strength × source visibility (cross-section links get a bonus).
@@ -107,7 +107,7 @@ Best hosts for one bridging sentence: `/pop-culture/twitter-x-personality-types-
 | 2.23 | `/pop-culture/hollywood-heartthrobs-enneagram-analysis` (L419) | `/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types` | "dating app" | …ymous walks in your hometown (Chalamet). Going to the gym without paparazzi publishing the photos (all of them). Using a dating app (impos… |
 | 2.16 | `/pop-culture/ghislaine-maxwell-psychology` (L82) | `/enneagram-corner/enneagram-and-religion` | "Christmas" | Ghislaine Noelle Marion Maxwell was born on Christmas Day, 1961, the youngest of nine children. Two days later, her 15-year-old brother Mic… |
 | 2.15 | `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide` (L401) | `/enneagram-corner/enneagram-and-adhd-which-types-struggle-most` | "ADHD" | **The hidden patterns:** ADHD medication abuse, gambling for the excitement, and sex addiction for novelty. Type 7s often have three or fou… |
-| 2.13 | `/enneagram-corner/mental-health/enneagram-science-mental-health` (L208) | `/enneagram-corner/mental-health/enneagram-neurodivergence-guide` | "ADHD" | - diagnosing OCD, ADHD, bipolar disorder, personality disorders, or any other condition from type |
+| 2.13 | `/enneagram-corner/enneagram-leadership` (L712) | `/enneagram-corner/enneagram-strengths-and-weaknesses` | "Fatal Flaw" | **Days 8-10: Address Fatal Flaw** |
 
 ## 3. People bridge (blog → personality-analysis)
 
@@ -119,6 +119,7 @@ Best hosts for one bridging sentence: `/pop-culture/twitter-x-personality-types-
 | 8.67 | `/pop-culture/hollywood-heartthrobs-enneagram-analysis` (L317) | `/personality-analysis/joaquin-phoenix` | "Joaquin Phoenix" | Chalamet has cited Daniel Day-Lewis and Joaquin Phoenix as inspirations—notably, two men known for intensity and privacy, not for heartthro… |
 | 7.84 | `/pop-culture/fallen-founders-enneagram-analysis` (L83) | `/personality-analysis/marc-andreessen` | "Marc Andreessen" | …pse and the forced ouster, he took $1.7 billion off the table. Two years later, Marc Andreessen [announced Flow](https://a16z.com/announce… |
 | 7.64 | `/pop-culture/hollywood-heartthrobs-enneagram-analysis` (L333) | `/personality-analysis/zendaya` | "Zendaya" | Holland's relationship with Zendaya is one of the most closely watched in Hollywood. When paparazzi photographed them kissing in a car in 2… |
+| 7.59 | `/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis` (L234) | `/personality-analysis/hilary-duff` | "Hilary Duff" | The Sports Illustrated 2026 Swimsuit cover — shared with Hilary Duff, Tiffany Haddish, and Nicole Williams English — is the first major med… |
 | 7.26 | `/community/societal-ticking-time-bombs` (L379) | `/personality-analysis/sam-parr` | "Sam Parr" | The numbers bear this out. Sam Parr and Shaan Puri discussed this on [My First Million (Episode 797)](https://www.youtube.com/watch?v=Jd3he… |
 | 7.25 | `/pop-culture/podcaster-personality-map` (L215) | `/personality-analysis/john-coogan` | "John Coogan" | …rs on [TBPN](/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic), where John Coogan's Type 7 possibility-seeking runs beside [Jord… |
 | 6.86 | `/pop-culture/podcaster-personality-map` (L80) | `/personality-analysis/sam-parr` | "Sam Parr" | **Joe Rogan. Dave Portnoy. Sam Parr.** |
@@ -142,4 +143,3 @@ Best hosts for one bridging sentence: `/pop-culture/twitter-x-personality-types-
 | 4.47 | `/pop-culture/breaking-points-enneagram-analysis` (L41) | `/personality-analysis/bernie-sanders` | "Bernie Sanders" | Krystal Ball calls herself a "left populist." She was shaped by the Bernie Sanders movement, fights for guaranteed economic rights, and sta… |
 | 4.47 | `/pop-culture/podcast-bros-enneagram-analysis` (L164) | `/personality-analysis/bernie-sanders` | "Bernie Sanders" | … push back on him. His most memorable episodes feature genuine disagreement—Elon Musk calmly explaining AI risk while Rogan challenges him… |
 | 4.41 | `/pop-culture/cancel-culture-enneagram-type` (L180) | `/personality-analysis/joe-rogan` | "Joe Rogan" | … in 2018 after a racist tweet—and never apologized in a way the mob recognized. Joe Rogan has been targeted repeatedly since 2020 and rema… |
-| 4.33 | `/enneagram-corner/enneagram-leadership` (L638) | `/personality-analysis/jeff-bezos` | "Jeff Bezos" | **Example:** Jeff Bezos (Amazon) |

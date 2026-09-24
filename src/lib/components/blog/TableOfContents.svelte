@@ -952,6 +952,9 @@
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 
 		margin: 1rem 0;
+		/* The global `details` rule adds 0.5rem padding, which inset the
+		   summary bar and drew a box inside the box. */
+		padding: 0;
 		overflow: hidden;
 	}
 

@@ -119,7 +119,7 @@
 								type="email"
 								bind:value={email}
 								oninput={() => (error = '')}
-								placeholder="you@example.com"
+								placeholder="Your email"
 								required
 								autocomplete="email"
 								aria-invalid={error ? 'true' : 'false'}
@@ -141,9 +141,7 @@
 	</section>
 
 	<section class="explorer-section" aria-label="Explore the nine Enneagram types">
-		<div class="diagram-container">
-			<EnneagramDiagram />
-		</div>
+		<EnneagramDiagram />
 	</section>
 </div>
 
@@ -208,55 +206,58 @@
 		width: 100%;
 	}
 
-	.cta-text {
-		text-align: left;
+	/* This component mounts INSIDE article bodies whose global h3/p/a rules
+	   can tie single-class scoped selectors and win on source order. Anchoring
+	   on .cta-section adds a class of specificity to outrank them. */
+	/* Three classes deep so it also outranks `.cta-text p` below. */
+	.cta-section .cta-text .cta-kicker {
+		margin: 0 0 0.5rem;
+		color: var(--lamp-glow) !important;
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.75rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		line-height: 1.2;
+		text-transform: uppercase;
+	}
 
-		.cta-kicker {
-			margin: 0 0 0.35rem;
-			color: var(--lamp-glow) !important;
-			font-family: 'JetBrains Mono', ui-monospace, monospace;
-			font-size: 0.7rem;
-			font-weight: 700;
-			letter-spacing: 0.08em;
-			line-height: 1.2;
-			text-transform: uppercase;
-		}
+	.cta-section .cta-text h3 {
+		margin: 0 0 0.5rem;
+		padding: 0;
+		color: var(--ink-bright);
+		font-size: 1.5rem;
+		font-weight: 700;
+		letter-spacing: -0.015em;
+		line-height: 1.2;
+	}
 
-		h3 {
-			color: var(--ink-bright);
-			font-size: 1.35rem;
-			font-weight: 700;
-			letter-spacing: -0.015em;
-			line-height: 1.2;
-			margin: 0 0 0.5rem;
-		}
-
-		p {
-			color: var(--ink-bright) !important;
-			font-size: 0.875rem;
-			line-height: 1.5;
-			margin: 0;
-		}
+	.cta-section .cta-text p {
+		margin: 0;
+		color: var(--ink-bright) !important;
+		font-size: 0.875rem;
+		line-height: 1.5;
 	}
 
 	.signup-copy {
+		width: 100%;
 		padding-top: 0.875rem;
 		border-top: 1px solid var(--stone-mid);
+	}
 
-		h4 {
-			margin: 0 0 0.25rem;
-			color: var(--ink-bright);
-			font-size: 0.95rem;
-			font-weight: 700;
-			line-height: 1.3;
-		}
+	.cta-section .signup-copy h4 {
+		margin: 0 0 0.25rem;
+		padding: 0;
+		color: var(--ink-bright);
+		font-size: 1rem;
+		font-weight: 700;
+		line-height: 1.3;
+	}
 
-		p {
-			margin: 0;
-			color: var(--ink-mid) !important;
-			font-size: 0.8rem;
-			line-height: 1.45;
-		}
+	.cta-section .signup-copy p {
+		margin: 0;
+		color: var(--ink-mid) !important;
+		font-size: 0.875rem;
+		line-height: 1.45;
 	}
 
 	.signup-form {
@@ -326,10 +327,6 @@
 		&[aria-invalid='true'] {
 			border-color: var(--error);
 		}
-
-		@media (min-width: 768px) {
-			font-size: 0.9rem;
-		}
 	}
 
 	.signup-button {
@@ -342,7 +339,7 @@
 		color: var(--text-on-primary);
 		border: 1px solid transparent;
 		border-radius: 0.625rem;
-		font-size: 0.825rem;
+		font-size: 0.875rem;
 		font-weight: 700;
 		line-height: 1.2;
 		white-space: nowrap;
@@ -377,7 +374,7 @@
 	.signup-success,
 	.signup-error {
 		margin: 0;
-		font-size: 0.85rem;
+		font-size: 0.875rem;
 		line-height: 1.45;
 		width: 100%;
 		color: var(--ink-bright);
@@ -395,59 +392,22 @@
 		color: var(--error-text);
 	}
 
-	.signup-note {
+	.cta-section .signup-note {
 		margin: -0.35rem 0 0;
 		color: var(--ink-mid);
-		font-size: 0.7rem;
+		font-size: 0.75rem;
 		line-height: 1.35;
 	}
 
-	/* This component mounts INSIDE article bodies whose :global(h3)/:global(a)
-	   rules tie the scoped selectors above and win on source order. Anchoring
-	   on .cta-section adds a class of specificity to outrank them. */
-	.cta-section .cta-text h3 {
-		color: var(--ink-bright);
-		padding: 0;
-		margin: 0 0 0.5rem;
-	}
-
-	.cta-section .cta-text p {
-		margin: 0;
-		font-size: 0.875rem;
-	}
-
-	.cta-section .signup-copy h4 {
-		padding: 0;
-		margin: 0 0 0.25rem;
-		font-size: 0.95rem;
-	}
-
-	.cta-section .signup-copy p {
-		margin: 0;
-		font-size: 0.8rem;
-	}
-
-	.cta-section .signup-note {
-		margin: -0.35rem 0 0;
-		font-size: 0.7rem;
-	}
-
 	.explorer-section {
-		background: linear-gradient(145deg, var(--stone-warm) 0%, var(--night-deep) 100%);
-		padding: 1rem 1.25rem 0.875rem;
-		min-width: 0;
 		display: grid;
 		place-items: center;
+		min-width: 0;
+		padding: 1.25rem 1.25rem 1rem;
+		background: linear-gradient(145deg, var(--stone-warm) 0%, var(--night-deep) 100%);
 
 		@media (min-width: 768px) {
-			padding-inline: 1.5rem;
+			padding: 1.5rem;
 		}
-	}
-
-	.diagram-container {
-		width: 100%;
-		max-width: 18rem;
-		margin: 0 auto;
-		min-width: 0;
 	}
 </style>

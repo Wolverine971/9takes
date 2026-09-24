@@ -13,7 +13,7 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 507,
+		"candidates": 504,
 		"gateDebt": 8,
 		"topBlog": 40,
 		"peopleBridge": 30,
@@ -1436,31 +1436,31 @@
 			"excerpt": "**The hidden patterns:** ADHD medication abuse, gambling for the excitement, and sex addiction for novelty. Type 7s often have three or four addictions running simultaneously."
 		},
 		{
-			"id": "/enneagram-corner/mental-health/enneagram-science-mental-health -> /enneagram-corner/mental-health/enneagram-neurodivergence-guide",
+			"id": "/enneagram-corner/enneagram-leadership -> /enneagram-corner/enneagram-strengths-and-weaknesses",
 			"score": 2.13,
 			"target": {
-				"url": "/enneagram-corner/mental-health/enneagram-neurodivergence-guide",
-				"title": "Enneagram and Neurodivergence: ADHD, Autism, and Motivation",
+				"url": "/enneagram-corner/enneagram-strengths-and-weaknesses",
+				"title": "Your Type's Fatal Flaw (And Secret Superpower) Based on Enneagram",
 				"kind": "blog",
 				"section": "enneagram-corner",
-				"impressions": 4714,
-				"clicks": 95,
-				"position": 7.2,
-				"inbound": 11
+				"impressions": 1448,
+				"clicks": 25,
+				"position": 9.3,
+				"inbound": 24
 			},
 			"source": {
-				"url": "/enneagram-corner/mental-health/enneagram-science-mental-health",
-				"file": "src/blog/enneagram/mental-health/enneagram-science-mental-health.md",
+				"url": "/enneagram-corner/enneagram-leadership",
+				"file": "src/blog/enneagram/enneagram-leadership.md",
 				"section": "enneagram-corner",
-				"impressions": 5000,
-				"outCount": 6
+				"impressions": 392,
+				"outCount": 8
 			},
-			"line": 208,
-			"anchor": "ADHD",
-			"phrase": "adhd",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "- diagnosing OCD, ADHD, bipolar disorder, personality disorders, or any other condition from type"
+			"line": 712,
+			"anchor": "Fatal Flaw",
+			"phrase": "fatal flaw",
+			"phraseKind": "title",
+			"mentionScore": 3,
+			"excerpt": "**Days 8-10: Address Fatal Flaw**"
 		}
 	],
 	"peopleBridge": [
@@ -1625,6 +1625,33 @@
 			"phraseKind": "name",
 			"mentionScore": 2,
 			"excerpt": "Holland's relationship with Zendaya is one of the most closely watched in Hollywood. When paparazzi photographed them kissing in a car in 2021, Holland said something striking: \"One of the downsides of our fame is that p…"
+		},
+		{
+			"id": "/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis -> /personality-analysis/hilary-duff",
+			"score": 7.59,
+			"target": {
+				"url": "/personality-analysis/hilary-duff",
+				"title": "Hilary Duff",
+				"kind": "person",
+				"section": "people",
+				"impressions": 328,
+				"clicks": 3,
+				"position": 8.3,
+				"inbound": 0
+			},
+			"source": {
+				"url": "/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis",
+				"file": "src/blog/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md",
+				"section": "pop-culture",
+				"impressions": 0,
+				"outCount": 8
+			},
+			"line": 234,
+			"anchor": "Hilary Duff",
+			"phrase": "Hilary Duff",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "The Sports Illustrated 2026 Swimsuit cover — shared with Hilary Duff, Tiffany Haddish, and Nicole Williams English — is the first major media moment Earle booked without Unwell, without a contract umbrella, without her f…"
 		},
 		{
 			"id": "/community/societal-ticking-time-bombs -> /personality-analysis/sam-parr",
@@ -2246,33 +2273,6 @@
 			"phraseKind": "name",
 			"mentionScore": 3,
 			"excerpt": "… in 2018 after a racist tweet—and never apologized in a way the mob recognized. Joe Rogan has been targeted repeatedly since 2020 and remains the largest podcast on earth. Same type, opposite outcomes. The variable is le…"
-		},
-		{
-			"id": "/enneagram-corner/enneagram-leadership -> /personality-analysis/jeff-bezos",
-			"score": 4.33,
-			"target": {
-				"url": "/personality-analysis/jeff-bezos",
-				"title": "Jeff Bezos",
-				"kind": "person",
-				"section": "people",
-				"impressions": 811,
-				"clicks": 1,
-				"position": 15.3,
-				"inbound": 7
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-leadership",
-				"file": "src/blog/enneagram/enneagram-leadership.md",
-				"section": "enneagram-corner",
-				"impressions": 392,
-				"outCount": 8
-			},
-			"line": 638,
-			"anchor": "Jeff Bezos",
-			"phrase": "Jeff Bezos",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "**Example:** Jeff Bezos (Amazon)"
 		}
 	]
 }

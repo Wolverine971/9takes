@@ -29,7 +29,7 @@ Keyword Strategy:
 </script>
 
 <QuickAnswer question="What is the best free Enneagram test?">
-**Truity is the clearest free starting point** if you want scores for all nine types and a provider that publishes technical documentation. Choose **Eclectic Energies** if you specifically want a free wing result or an instinctual-variant option. Choose **Cloverleaf** if you want workplace-oriented results. We found no independent head-to-head study proving that one of these is the most accurate, so treat any result as a hypothesis to investigate rather than a verdict.
+<strong>Truity is the clearest free starting point</strong> if you want scores for all nine types and a provider that publishes technical documentation. Choose <strong>Eclectic Energies</strong> if you specifically want a free wing result or an instinctual-variant option. Choose <strong>Cloverleaf</strong> if you want workplace-oriented results. We found no independent head-to-head study proving that one of these is the most accurate, so treat any result as a hypothesis to investigate rather than a verdict.
 </QuickAnswer>
 
 **Verified:** August 1, 2026. Prices and access can change, so the links below go directly to each provider.

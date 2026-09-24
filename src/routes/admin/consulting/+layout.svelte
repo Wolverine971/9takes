@@ -1,12 +1,19 @@
 <!-- src/routes/admin/consulting/+layout.svelte -->
 <script lang="ts">
 	import { page } from '$app/stores';
-	import { CalendarDays, ChartNoAxesCombined, Library, Users } from '@lucide/svelte';
+	import {
+		CalendarDays,
+		ChartNoAxesCombined,
+		Library,
+		MessageSquareText,
+		Users
+	} from '@lucide/svelte';
 	import type { Snippet } from 'svelte';
 
 	const subNavItems = [
 		{ href: '/admin/consulting', label: 'Overview', icon: ChartNoAxesCombined, exact: true },
 		{ href: '/admin/consulting/clients', label: 'Clients', icon: Users },
+		{ href: '/admin/consulting/notes', label: 'Notes', icon: MessageSquareText },
 		{ href: '/admin/consulting/sessions', label: 'Sessions', icon: CalendarDays },
 		{ href: '/admin/consulting/resources', label: 'Resources', icon: Library }
 	];

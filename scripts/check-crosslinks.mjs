@@ -8,6 +8,8 @@
  *   - a live post links to a page that is not live (draft, deleted person, typo)
  *   - a live post that is NOT grandfathered has < 3 inbound or < 3 outbound links
  *   - a grandfathered post lost links since the baseline was recorded
+ *   - markdown ([link](/x), **bold**) sits inside a one-paragraph QuickAnswer/Callout/InsightBox,
+ *     where MDsvex renders it as literal text
  *
  * Usage:
  *   pnpm crosslinks:check
@@ -101,7 +103,7 @@ if (has('--update-baseline')) {
 	);
 }
 
-const { failures, regressions, broken, improved, grandfatheredCount } = evaluateGate(
+const { failures, regressions, broken, unrendered, improved, grandfatheredCount } = evaluateGate(
 	graph,
 	baseline
 );
@@ -112,6 +114,17 @@ if (broken.length) {
 	failed = true;
 	console.error(`\n✖ ${broken.length} broken internal link(s) in live posts:`);
 	for (const b of broken) console.error(`  ${b.file}: ${b.to}`);
+}
+
+if (unrendered.length) {
+	failed = true;
+	console.error(
+		`\n✖ ${unrendered.length} markdown snippet(s) inside a one-paragraph callout render as literal text.`
+	);
+	console.error(
+		'  Use HTML there (<a href="/...">, <strong>) or put blank lines inside the block:'
+	);
+	for (const u of unrendered) console.error(`  ${u.file}:${u.line}  ${u.text}`);
 }
 
 if (failures.length) {
@@ -131,7 +144,8 @@ if (failures.length) {
 if (regressions.length) {
 	failed = true;
 	console.error(`\n✖ ${regressions.length} grandfathered post(s) lost links:`);
-	for (const { node, entry } of regressions) {
+	for (const { node, entry, dims } of regressions) {
+		console.error(`  (${dims.join(' + ')} below the bar and worse than recorded)`);
 		console.error(
 			`  ${node.url}  in ${entry.in}→${node.inCount}, out ${entry.out}→${node.outCount}`
 		);

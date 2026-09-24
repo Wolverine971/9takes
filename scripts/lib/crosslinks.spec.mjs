@@ -1,12 +1,24 @@
 // scripts/lib/crosslinks.spec.mjs
+import fs from 'node:fs';
+import path from 'node:path';
 import { describe, expect, it } from 'vitest';
 import {
+	REPO_ROOT,
+	SECTION_RULES,
 	buildLinkGraph,
+	displayNameFromTitle,
+	findUnrenderedMarkdown,
 	extractInternalLinks,
 	normalizeInternalHref,
 	normalizePersonalitySlug
 } from './blogLinkGraph.js';
-import { buildTargetPhrases, findBestMention, proseLines, stem } from './crosslinkOpportunities.js';
+import {
+	buildTargetPhrases,
+	diversify,
+	findBestMention,
+	proseLines,
+	stem
+} from './crosslinkOpportunities.js';
 import { evaluateGate, tightenBaseline } from './crosslinkGate.js';
 
 const post = (url, body, extra = {}) => ({
@@ -202,5 +214,130 @@ describe('cross-link gate', () => {
 			'/pop-culture/old',
 			'/pop-culture/worse'
 		]);
+	});
+});
+
+describe('review fixes (2026-09-23)', () => {
+	it('ignores links inside HTML comments but keeps line numbers', () => {
+		const body =
+			'intro line\n<!--\nnote: [x](/pop-culture/hidden)\n-->\n[real](/pop-culture/shown)';
+		const links = extractInternalLinks(body);
+		expect(links.map((l) => l.url)).toEqual(['/pop-culture/shown']);
+		expect(links[0].line).toBe(5);
+	});
+
+	it('never throws on malformed %-escapes', () => {
+		expect(() => normalizeInternalHref('/personality-analysis/100%-real')).not.toThrow();
+	});
+
+	it('treats hub pages as real and mental-health aliases as redirects, not broken', () => {
+		const posts = [
+			post(
+				'/pop-culture/a',
+				'[hub](/enneagram-corner/mental-health) [alias](/enneagram-corner/enneagram-therapy-guide)'
+			),
+			{
+				...post('/enneagram-corner/mental-health/enneagram-therapy-guide', 'x'),
+				rel: 'enneagram/mental-health/enneagram-therapy-guide.md'
+			}
+		];
+		const graph = buildLinkGraph({ posts, people: new Map(), redirects: new Map() });
+		const a = graph.get('/pop-culture/a');
+		expect(a.broken).toEqual([]);
+		expect(a.viaRedirect).toEqual([
+			{
+				url: '/enneagram-corner/enneagram-therapy-guide',
+				to: '/enneagram-corner/mental-health/enneagram-therapy-guide'
+			}
+		]);
+	});
+
+	it('derives person display names from titles with or without a colon', () => {
+		expect(displayNameFromTitle('Aaron Pierre: An Enneagram Type 1 Analysis')).toBe('Aaron Pierre');
+		expect(displayNameFromTitle("Drake's Enneagram Type")).toBe('Drake');
+		expect(displayNameFromTitle('Jensen Huang Enneagram Type 6')).toBe('Jensen Huang');
+	});
+
+	it('only matches single-word names when they stand alone', () => {
+		const target = { url: '/personality-analysis/prince', kind: 'person', title: 'Prince' };
+		const [phrase] = buildTargetPhrases(target, { docFrequency: () => 0 });
+		expect(phrase.re.test('Prince Andrew flew in.')).toBe(false);
+		expect(phrase.re.test('the Fresh Prince of Bel-Air')).toBe(false);
+		expect(phrase.re.test('a song by Prince played on')).toBe(true);
+	});
+
+	it('diversify caps work per target and per source', () => {
+		const c = (s, t, score) => ({ score, source: { url: s }, target: { url: t } });
+		const picked = diversify(
+			[c('a', 'x', 9), c('a', 'y', 8), c('a', 'z', 7), c('b', 'x', 6), c('b', 'x', 5)],
+			{ limit: 10, perTarget: 1, perSource: 2 }
+		);
+		expect(picked.map((p) => `${p.source.url}${p.target.url}`)).toEqual(['ax', 'ay']);
+	});
+
+	it('gate freezes only the failing dimension of a grandfathered post', () => {
+		const node = (inCount, outCount) => ({
+			url: '/pop-culture/p',
+			kind: 'blog',
+			inCount,
+			outCount,
+			broken: [],
+			post: { rel: 'pop-culture/p.md' }
+		});
+		const baseline = { grandfathered: { '/pop-culture/p': { in: 1, out: 22 } } };
+		const run = (n) => evaluateGate(new Map([[n.url, n]]), baseline);
+		expect(run(node(1, 21)).regressions).toEqual([]); // trimming a healthy side is fine
+		expect(run(node(0, 22)).regressions[0].dims).toEqual(['in']); // failing side got worse
+		expect(run(node(1, 2)).regressions[0].dims).toEqual(['out']); // healthy side newly failing
+		expect(run(node(3, 21)).improved.map((n) => n.url)).toEqual(['/pop-culture/p']);
+	});
+});
+
+describe('SECTION_RULES stay in sync with the [slug] route globs', () => {
+	const routes = {
+		'enneagram/mental-health': 'src/routes/enneagram-corner/mental-health/[slug]/+page.ts',
+		enneagram: 'src/routes/enneagram-corner/[slug]/+page.ts',
+		community: 'src/routes/community/[slug]/+page.ts',
+		guides: 'src/routes/how-to-guides/[slug]/+page.ts',
+		'pop-culture': 'src/routes/pop-culture/[slug]/+page.ts'
+	};
+
+	for (const [dir, file] of Object.entries(routes)) {
+		it(`${dir} ↔ ${file}`, () => {
+			const source = fs.readFileSync(path.join(REPO_ROOT, file), 'utf8');
+			const globBlock = source.match(/import\.meta\.glob\(\s*\[([\s\S]*?)\]/)[1];
+			const patterns = [...globBlock.matchAll(/[`'"]([^`'"]+)[`'"]/g)].map((m) => m[1]);
+			const include = patterns.find((p) => !p.startsWith('!'));
+			expect(include).toContain(`/src/blog/${dir}/`);
+			const rule = SECTION_RULES.find((r) => r.dir === dir);
+			expect(rule).toBeTruthy();
+			// Every route exclusion must also be excluded by the rule.
+			for (const excl of patterns.filter((p) => p.startsWith('!') && !p.includes('/drafts/'))) {
+				const sample = excl
+					.replace(/^!\*\*\//, '')
+					.replace(/\*/g, 'sample')
+					.replace(/\{md,svx,svelte\.md\}/, 'md');
+				expect(
+					sample === 'template.md' || rule.exclude.some((re) => re.test(sample)),
+					`${excl} not mirrored in SECTION_RULES for ${dir}`
+				).toBe(true);
+			}
+		});
+	}
+});
+
+describe('findUnrenderedMarkdown', () => {
+	it('flags markdown inside a one-paragraph callout, not when blank lines let MDsvex parse it', () => {
+		const tight =
+			'<QuickAnswer question="q">\n**Bold** and [a link](/pop-culture/x).\n</QuickAnswer>';
+		const spaced =
+			'<QuickAnswer question="q">\n\n**Bold** and [a link](/pop-culture/x).\n\n</QuickAnswer>';
+		const html =
+			'<QuickAnswer question="q">\n<strong>Bold</strong> and <a href="/x">a link</a>.\n</QuickAnswer>';
+		expect(findUnrenderedMarkdown(tight)).toEqual([
+			{ line: 2, text: '**Bold** and [a link](/pop-culture/x).' }
+		]);
+		expect(findUnrenderedMarkdown(spaced)).toEqual([]);
+		expect(findUnrenderedMarkdown(html)).toEqual([]);
 	});
 });

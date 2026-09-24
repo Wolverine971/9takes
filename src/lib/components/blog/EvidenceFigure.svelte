@@ -1,6 +1,9 @@
 <!-- src/lib/components/blog/EvidenceFigure.svelte -->
 <script lang="ts">
 	import { getBlogEvidenceMedia } from '$lib/blogEvidenceMedia';
+	// Registry copy renders client-side after mount, so it takes the same
+	// typographic quotes the server applies to the article HTML.
+	import { smartQuotesText as sq } from '$lib/utils/smartQuotes';
 
 	let { evidenceId }: { evidenceId: string } = $props();
 	let evidence = $derived(getBlogEvidenceMedia(evidenceId));
@@ -48,25 +51,25 @@
 
 		<figcaption class="blog-evidence__body">
 			{#if !evidence.quote}
-				<p class="blog-evidence__label">{evidence.label}</p>
+				<p class="blog-evidence__label">{sq(evidence.label)}</p>
 			{/if}
 
 			{#if evidence.quote}
 				<blockquote class="blog-evidence__quote">
-					<p>“{evidence.quote.text}”</p>
+					<p>{sq(`“${evidence.quote.text}”`)}</p>
 				</blockquote>
 				<p class="blog-evidence__speaker">
-					<strong>{evidence.quote.speaker}</strong>
+					<strong>{sq(evidence.quote.speaker)}</strong>
 					{#if evidence.quote.speaker_role}
-						<span>{evidence.quote.speaker_role}</span>
+						<span>{sq(evidence.quote.speaker_role)}</span>
 					{/if}
 				</p>
 			{:else if evidence.caption}
-				<p class="blog-evidence__caption">{evidence.caption}</p>
+				<p class="blog-evidence__caption">{sq(evidence.caption)}</p>
 			{/if}
 
 			{#if evidence.context}
-				<p class="blog-evidence__context">{evidence.context}</p>
+				<p class="blog-evidence__context">{sq(evidence.context)}</p>
 			{/if}
 
 			<div class="blog-evidence__sources" aria-label="Sources and image credits">
@@ -75,7 +78,7 @@
 						<span class="blog-evidence__source-kind">Quote source</span>
 						<!-- External registry URL: SvelteKit resolve() only accepts internal paths. -->
 						<a href={evidence.quote.source.url} target="_blank" rel="noopener noreferrer">
-							{evidence.quote.source.name}
+							{sq(evidence.quote.source.name)}
 						</a>
 						{#if quoteSourceYear}
 							<span aria-hidden="true">·</span>

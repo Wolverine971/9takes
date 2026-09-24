@@ -111,7 +111,13 @@ export function normalizeInternalHref(href) {
 	if (!value || ASSET_EXT.test(value)) return null;
 	if (value.startsWith(PEOPLE_URL_PREFIX) && !NON_PERSON_PEOPLE_PATHS.test(value)) {
 		const slug = value.slice(PEOPLE_URL_PREFIX.length).split('/')[0];
-		const canonical = normalizePersonalitySlug(decodeURIComponent(slug));
+		let decoded = slug;
+		try {
+			decoded = decodeURIComponent(slug);
+		} catch {
+			// malformed %-escape: normalize the raw text instead of crashing the gate
+		}
+		const canonical = normalizePersonalitySlug(decoded);
 		if (canonical) value = `${PEOPLE_URL_PREFIX}${canonical}`;
 	}
 	return value;
@@ -130,7 +136,9 @@ const LINK_PATTERNS = [
  * Extract internal link targets from a markdown/svelte body.
  * Returns unique normalized paths in first-seen order with the 1-based line of first use.
  */
-export function extractInternalLinks(body) {
+export function extractInternalLinks(rawBody) {
+	// Links inside <!-- comments --> never render; blank them out but keep offsets/lines.
+	const body = rawBody.replace(/<!--[\s\S]*?-->/g, (comment) => comment.replace(/[^\n]/g, ' '));
 	const found = new Map();
 	const lineStarts = [0];
 	for (let i = 0; i < body.length; i++) if (body[i] === '\n') lineStarts.push(i + 1);
@@ -199,6 +207,30 @@ function routeFor(rel) {
 	return { rule: null, url: null, excluded: false };
 }
 
+/**
+ * MDsvex does not run markdown inside a component block that has no blank lines
+ * (e.g. a one-paragraph <QuickAnswer>…</QuickAnswer>), so `[text](/url)` and
+ * `**bold**` there render as literal characters. Returns 1-based body lines.
+ */
+export function findUnrenderedMarkdown(body) {
+	const hits = [];
+	const lines = body.split('\n');
+	for (let i = 0; i < lines.length; i++) {
+		const open = lines[i].match(/^\s*<(QuickAnswer|Callout|InsightBox)\b[^>]*>\s*$/);
+		if (!open) continue;
+		const close = lines.findIndex((l, j) => j > i && new RegExp(`^\\s*</${open[1]}>`).test(l));
+		if (close === -1) continue;
+		const inner = lines.slice(i + 1, close);
+		if (inner.some((l) => !l.trim())) continue; // blank line → markdown is processed
+		inner.forEach((l, k) => {
+			if (/\[[^\]\n]+\]\((?:\/|https?:)[^)\s]+\)|\*\*[^*\n]+\*\*/.test(l)) {
+				hits.push({ line: i + k + 2, text: l.trim().slice(0, 120) });
+			}
+		});
+	}
+	return hits;
+}
+
 function wordCount(text) {
 	return text
 		.replace(/<script[\s\S]*?<\/script>/g, ' ')
@@ -261,10 +293,23 @@ export function loadBlogCorpus({ blogDir = BLOG_DIR, redirects = loadEnneagramRe
 			body,
 			// body line N lives at file line N + bodyLineOffset
 			bodyLineOffset: raw.split('\n').length - body.split('\n').length,
+			unrenderedMarkdown: findUnrenderedMarkdown(body),
 			links: extractInternalLinks(body)
 		});
 	}
 	return posts;
+}
+
+/**
+ * "Aaron Pierre: An Enneagram Type 1…" → "Aaron Pierre";
+ * "Drake's Enneagram Type" / "Jensen Huang Enneagram Type 6" → "Drake" / "Jensen Huang".
+ */
+export function displayNameFromTitle(title) {
+	if (typeof title !== 'string') return null;
+	const name = (title.includes(':') ? title.split(':')[0] : title)
+		.split(/(?:'s|’s)\s|\s+(?:Enneagram|Personality|MBTI)\b/)[0]
+		.trim();
+	return name.length >= 2 && name.length <= 40 ? name : null;
 }
 
 function titleCaseSlug(slug) {
@@ -300,7 +345,8 @@ export function loadPeople({
 		people.set(url, { ...existing, ...fields });
 	};
 
-	if (fs.existsSync(famousTypesFile)) {
+	const hasRoster = fs.existsSync(famousTypesFile);
+	if (hasRoster) {
 		const source = fs.readFileSync(famousTypesFile, 'utf8');
 		let currentType = null;
 		for (const line of source.split('\n')) {
@@ -330,10 +376,12 @@ export function loadPeople({
 					? fromLoc.slice(PEOPLE_URL_PREFIX.length)
 					: normalizePersonalitySlug(file.replace(/\.md$/, ''));
 			const url = `${PEOPLE_URL_PREFIX}${slug}`;
-			if (!people.has(url) && !data.published) continue;
-			const titleName = typeof data.title === 'string' ? data.title.split(':')[0].trim() : '';
+			// famousTypes.ts (generated from the DB) is the roster; a draft marked
+			// published that isn't in it is not live yet. Fall back to drafts only
+			// when the generated file is missing entirely.
+			if (!people.has(url) && (hasRoster || !data.published)) continue;
 			add(slug, {
-				name: titleName && titleName.length <= 40 ? titleName : titleCaseSlug(slug),
+				name: displayNameFromTitle(data.title) ?? titleCaseSlug(slug),
 				enneagram: people.get(url)?.enneagram ?? (Number(data.enneagram) || null),
 				links: extractInternalLinks(body),
 				body,
@@ -383,6 +431,22 @@ export function buildLinkGraph({ posts, people, redirects = loadEnneagramRedirec
 		});
 	}
 
+	// Section index/hub pages are real routes but not posts.
+	const HUB_PAGES = new Set([
+		'/enneagram-corner',
+		'/enneagram-corner/mental-health',
+		'/community',
+		'/how-to-guides',
+		'/pop-culture',
+		'/personality-analysis'
+	]);
+	// The enneagram-corner [slug] route 301s mental-health slugs to their subfolder URL.
+	const mentalHealthAlias = (url) => {
+		const match = url.match(/^\/enneagram-corner\/([^/]+)$/);
+		const target = match && `/enneagram-corner/mental-health/${match[1]}`;
+		return target && nodes.has(target) ? target : null;
+	};
+
 	const classify = (source, links) => {
 		for (const { url } of links) {
 			if (url === source.url) continue;
@@ -393,9 +457,11 @@ export function buildLinkGraph({ posts, people, redirects = loadEnneagramRedirec
 			} else if (target) {
 				source.outPeople.push(url);
 				(source.kind === 'person' ? target.inPeople : target.inBlog).add(source.url);
-			} else if (redirects.has(url)) {
-				source.viaRedirect.push({ url, to: redirects.get(url) });
-			} else if (BLOG_URL_PREFIX.test(url) && !url.startsWith('/enneagram-corner/subtopic/')) {
+			} else if (redirects.has(url) || mentalHealthAlias(url)) {
+				source.viaRedirect.push({ url, to: redirects.get(url) ?? mentalHealthAlias(url) });
+			} else if (HUB_PAGES.has(url) || url.startsWith('/enneagram-corner/subtopic/')) {
+				source.outOther.push(url);
+			} else if (BLOG_URL_PREFIX.test(url)) {
 				source.broken.push(url);
 			} else if (isPersonUrl(url)) {
 				source.broken.push(url);

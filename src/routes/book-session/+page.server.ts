@@ -1,396 +1,110 @@
 // src/routes/book-session/+page.server.ts
-import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
-// src/routes/book-session/+page.server.ts
+//
+// "Talk to DJ": note first, details after.
+//   ?/note     saves the note (typed, or a voice note + its transcript) right away,
+//              anonymous, and hands the browser a short-lived details token.
+//   ?/details  optionally adds an email for a private reply and/or a free
+//              1-on-1 session request to that same note.
+// Bot filtering mirrors the old waitlist form (honeypot, fill time, user agent,
+// per-IP rate limit). Obvious bots get a fake success so they learn nothing.
+import { randomUUID } from 'node:crypto';
 import { fail } from '@sveltejs/kit';
-import type { Actions } from './$types';
-import { isHoneypotTriggered, verifyRecaptcha } from '$lib/utils/recaptcha';
-import { sendEmail } from '$lib/email/sender';
-import { PRIVATE_ADMIN_EMAIL } from '$env/static/private';
+import type { Actions, PageServerLoad } from './$types';
+import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
+import {
+	createTalkNote,
+	looksLikeBotUserAgent,
+	newTalkToken,
+	saveTalkNoteDetails,
+	TALK_NOTE_MIN_FORM_MS
+} from '$lib/server/talkNotes';
+import { isHoneypotTriggered } from '$lib/utils/recaptcha';
 
-// Common disposable email domains
-const DISPOSABLE_EMAIL_DOMAINS = new Set([
-	'tempmail.com',
-	'temp-mail.org',
-	'guerrillamail.com',
-	'guerrillamail.org',
-	'sharklasers.com',
-	'mailinator.com',
-	'yopmail.com',
-	'throwaway.email',
-	'maildrop.cc',
-	'dispostable.com',
-	'10minutemail.com',
-	'10minutemail.net',
-	'fakeinbox.com',
-	'tempinbox.com',
-	'mailnesia.com',
-	'trashmail.com',
-	'getnada.com',
-	'mohmal.com',
-	'emailondeck.com',
-	'tempr.email',
-	'discard.email',
-	'spamgourmet.com',
-	'mytrashmail.com',
-	'mailcatch.com',
-	'getairmail.com',
-	'mailforspam.com',
-	'spam4.me',
-	'grr.la',
-	'spamex.com',
-	'guerrillamailblock.com',
-	'pokemail.net',
-	'jetable.org',
-	'meltmail.com'
-]);
+const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content'] as const;
 
-// Bot user agent patterns
-const BOT_USER_AGENT_PATTERNS = [
-	/bot/i,
-	/crawl/i,
-	/spider/i,
-	/scraper/i,
-	/curl/i,
-	/wget/i,
-	/python-requests/i,
-	/axios/i,
-	/node-fetch/i,
-	/headless/i,
-	/phantom/i,
-	/selenium/i,
-	/puppeteer/i,
-	/playwright/i
-];
-
-// Minimum time (ms) a human would take to fill the form
-const MIN_FORM_TIME_MS = 3000; // 3 seconds
-
-// Rate limit: max submissions per IP in time window
-const RATE_LIMIT_COUNT = 3;
-const RATE_LIMIT_WINDOW_HOURS = 1;
-
-function escapeHtml(text: string): string {
-	const htmlEntities: Record<string, string> = {
-		'&': '&amp;',
-		'<': '&lt;',
-		'>': '&gt;',
-		'"': '&quot;',
-		"'": '&#39;'
-	};
-	return text.replace(/[&<>"']/g, (char) => htmlEntities[char]);
+function fakeNoteSaved() {
+	return { noteSaved: true as const, noteId: randomUUID(), detailsToken: newTalkToken() };
 }
+
+function readUtm(url: URL): Record<string, string> {
+	const utm: Record<string, string> = {};
+	for (const key of UTM_KEYS) {
+		const value = url.searchParams.get(key)?.trim();
+		if (value) utm[key] = value.slice(0, 120);
+	}
+	return utm;
+}
+
+export const load: PageServerLoad = async () => ({});
 
 export const actions: Actions = {
-	/**
-	 * Handle waitlist signup form submission
-	 */
-	coachSub: async ({ request, getClientAddress, url, cookies, locals }) => {
+	note: async ({ request, getClientAddress, url, locals }) => {
 		const formData = await request.formData();
-		const ipAddress = getClientAddress();
-		const userAgent = request.headers.get('user-agent') || '';
+		const body = formData.get('body')?.toString() ?? '';
+		const userAgent = request.headers.get('user-agent') ?? '';
+		const clientAddress = getClientAddress();
 
-		// Extract form data
-		const name = formData.get('name')?.toString() || '';
-		const email = formData.get('email')?.toString() || '';
-		const enneagramType = formData.get('enneagramType')?.toString() || '';
-		const sessionGoalInput = formData.get('sessionGoal')?.toString().trim() || '';
-		const sessionGoal = sessionGoalInput || null;
+		if (isHoneypotTriggered(formData.get('form_extra')?.toString())) return fakeNoteSaved();
 
-		// ============ BOT DETECTION CHECKS ============
+		const fillMs = Number.parseInt(formData.get('_timeToken')?.toString() ?? '0', 10);
+		if (fillMs > 0 && fillMs < TALK_NOTE_MIN_FORM_MS) return fakeNoteSaved();
+		if (looksLikeBotUserAgent(userAgent)) return fakeNoteSaved();
 
-		// 1. Honeypot check - if the hidden field is filled, it's a bot
-		const honeypot = formData.get('form_extra')?.toString() || '';
-		if (isHoneypotTriggered(honeypot)) {
-			console.log(`[BOT DETECTED] Honeypot triggered from IP: ${ipAddress}`);
-			// Return success to fool the bot, but don't actually save
-			return { success: true, message: 'You have been added to our waitlist!' };
+		const decision = await consumeApiRateLimit({
+			bucket: 'talk_note',
+			subject: resolveRateLimitSubject({
+				userId: locals.session?.user?.id,
+				clientAddress
+			})
+		});
+		if (!decision.allowed) {
+			return fail(429, {
+				noteMessage: 'You’ve sent a few notes already. Give it a little while and try again.',
+				body
+			});
 		}
 
-		// 1.5. Google reCAPTCHA verification
-		const recaptchaToken = formData.get('g-recaptcha-response') as string;
-		const recaptchaValid = await verifyRecaptcha(recaptchaToken, ipAddress);
-		if (!recaptchaValid) {
-			console.log(`[BOT DETECTED] reCAPTCHA verification failed from IP: ${ipAddress}`);
-			return fail(400, {
-				success: false,
-				message: 'CAPTCHA verification failed. Please try again.',
-				name,
+		const audioSecondsRaw = Number.parseInt(formData.get('audioSeconds')?.toString() ?? '', 10);
+		const result = await createTalkNote({
+			body,
+			audio: formData.get('audio'),
+			audioSeconds: Number.isFinite(audioSecondsRaw) ? audioSecondsRaw : null,
+			sourcePath: url.searchParams.get('from') ?? null,
+			referrer: request.headers.get('referer'),
+			utm: readUtm(url),
+			clientAddress,
+			userAgent
+		});
+
+		if (!result.ok) return fail(result.status, { noteMessage: result.message, body });
+		return { noteSaved: true as const, noteId: result.noteId, detailsToken: result.detailsToken };
+	},
+
+	details: async ({ request }) => {
+		const formData = await request.formData();
+		const noteId = formData.get('noteId')?.toString() ?? '';
+		const detailsToken = formData.get('detailsToken')?.toString() ?? '';
+		const email = formData.get('email')?.toString() ?? '';
+		const name = formData.get('name')?.toString() ?? '';
+		const wantsSession = formData.get('wantsSession') === 'on';
+
+		const result = await saveTalkNoteDetails({ noteId, detailsToken, email, name, wantsSession });
+		if (!result.ok) {
+			return fail(result.status, {
+				detailsMessage: result.message,
+				noteId,
+				detailsToken,
 				email,
-				enneagramType,
-				sessionGoal: sessionGoalInput
-			});
-		}
-
-		// 2. Time-based validation - bots submit too fast
-		const timeToken = parseInt(formData.get('_timeToken')?.toString() || '0', 10);
-		if (timeToken > 0 && timeToken < MIN_FORM_TIME_MS) {
-			console.log(`[BOT DETECTED] Form submitted too fast (${timeToken}ms) from IP: ${ipAddress}`);
-			return { success: true, message: 'You have been added to our waitlist!' };
-		}
-
-		// 3. User agent validation - block known bot patterns
-		if (BOT_USER_AGENT_PATTERNS.some((pattern) => pattern.test(userAgent))) {
-			console.log(`[BOT DETECTED] Bot user agent: ${userAgent} from IP: ${ipAddress}`);
-			return { success: true, message: 'You have been added to our waitlist!' };
-		}
-
-		// 4. Check for empty/suspicious user agent
-		if (!userAgent || userAgent.length < 20) {
-			console.log(`[BOT DETECTED] Missing/short user agent from IP: ${ipAddress}`);
-			return { success: true, message: 'You have been added to our waitlist!' };
-		}
-
-		// 5. Rate limiting by IP - check recent submissions
-		try {
-			const cutoffTime = new Date();
-			cutoffTime.setHours(cutoffTime.getHours() - RATE_LIMIT_WINDOW_HOURS);
-
-			const { count, error: countError } = await getSupabaseAdminClient()
-				.from('coaching_waitlist_metadata')
-				.select('*', { count: 'exact', head: true })
-				.eq('ip_address', ipAddress)
-				.gte('created_at', cutoffTime.toISOString());
-
-			if (countError || count === null) throw new Error('Waitlist rate limit unavailable');
-			if (count >= RATE_LIMIT_COUNT) {
-				console.log(
-					`[BOT DETECTED] Rate limit exceeded for IP: ${ipAddress} (${count} submissions)`
-				);
-				return fail(429, {
-					success: false,
-					message: 'Too many requests. Please try again later.',
-					name,
-					email,
-					enneagramType,
-					sessionGoal: sessionGoalInput
-				});
-			}
-		} catch (e) {
-			console.error('Rate limit check error:', e);
-			return fail(503, {
-				success: false,
-				message: 'Please try again in a few minutes.',
 				name,
-				email,
-				enneagramType,
-				sessionGoal: sessionGoalInput
+				wantsSession
 			});
 		}
 
-		// ============ STANDARD VALIDATION ============
-
-		// Validate form data
-		if (!name) {
-			return fail(400, {
-				success: false,
-				message: 'Name is required',
-				name,
-				email,
-				enneagramType,
-				sessionGoal: sessionGoalInput
-			});
-		}
-
-		if (!email) {
-			return fail(400, {
-				success: false,
-				message: 'Email is required',
-				name,
-				email,
-				enneagramType,
-				sessionGoal: sessionGoalInput
-			});
-		}
-
-		if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-			return fail(400, {
-				success: false,
-				message: 'Please enter a valid email address',
-				name,
-				email,
-				enneagramType,
-				sessionGoal: sessionGoalInput
-			});
-		}
-
-		// 6. Check for disposable email domains
-		const emailDomain = email.split('@')[1]?.toLowerCase();
-		if (emailDomain && DISPOSABLE_EMAIL_DOMAINS.has(emailDomain)) {
-			console.log(`[BOT DETECTED] Disposable email domain: ${emailDomain} from IP: ${ipAddress}`);
-			return fail(400, {
-				success: false,
-				message: 'Please use a permanent email address (no temporary emails)',
-				name,
-				email,
-				enneagramType,
-				sessionGoal: sessionGoalInput
-			});
-		}
-
-		if (sessionGoalInput.length > 600) {
-			return fail(400, {
-				success: false,
-				message: 'Please keep your note under 600 characters',
-				name,
-				email,
-				enneagramType,
-				sessionGoal: sessionGoalInput
-			});
-		}
-
-		try {
-			// Insert into coaching_waitlist table
-			const { data: waitlistData, error: waitlistError } = await getSupabaseAdminClient()
-				.from('coaching_waitlist')
-				.insert([{ name, email, enneagram_type: enneagramType, session_goal: sessionGoal }])
-				.select('id')
-				.single();
-
-			if (waitlistError) {
-				// Check if it's a unique violation (email already exists)
-				if (waitlistError.code === '23505') {
-					return fail(400, {
-						success: false,
-						message: 'This email is already on our waitlist!',
-						name,
-						email,
-						enneagramType,
-						sessionGoal: sessionGoalInput
-					});
-				}
-
-				console.error('Error adding to waitlist:', waitlistError);
-				return fail(500, {
-					success: false,
-					message: 'An unexpected error occurred. Please try again.',
-					name,
-					email,
-					enneagramType,
-					sessionGoal: sessionGoalInput
-				});
-			}
-
-			// Get tracking information
-			const ipAddress = getClientAddress();
-			const userAgent = request.headers.get('user-agent') || '';
-			const referer = request.headers.get('referer') || '';
-
-			// Get UTM parameters
-			const utmSource = url.searchParams.get('utm_source') || '';
-			const utmMedium = url.searchParams.get('utm_medium') || '';
-			const utmCampaign = url.searchParams.get('utm_campaign') || '';
-			const utmContent = url.searchParams.get('utm_content') || '';
-
-			// Determine source
-			let source = utmSource;
-			if (!source && referer) {
-				// Extract domain from referer if available
-				try {
-					const refererUrl = new URL(referer);
-					source = refererUrl.hostname;
-				} catch (e) {
-					source = referer;
-				}
-			}
-
-			// Insert metadata
-			if (waitlistData?.id) {
-				await getSupabaseAdminClient()
-					.from('coaching_waitlist_metadata')
-					.insert([
-						{
-							waitlist_id: waitlistData.id,
-							source,
-							ip_address: ipAddress,
-							user_agent: userAgent,
-							utm_campaign: utmCampaign,
-							utm_medium: utmMedium,
-							utm_content: utmContent
-						}
-					]);
-			}
-
-			// Set a cookie to remember the user signed up
-			cookies.set('coaching_waitlist', 'true', {
-				path: '/',
-				maxAge: 60 * 60 * 24 * 365, // 1 year
-				sameSite: 'lax',
-				secure: process.env.NODE_ENV === 'production'
-			});
-
-			// Notify admin of new waitlist signup (do not block signup on email failure)
-			try {
-				const safeName = escapeHtml(name);
-				const safeEmail = escapeHtml(email);
-				const safeEnneagramType = enneagramType ? escapeHtml(enneagramType) : 'N/A';
-				const safeSessionGoal = sessionGoal
-					? escapeHtml(sessionGoal).replace(/\n/g, '<br />')
-					: 'Not provided';
-				const safeSource = source ? escapeHtml(source) : 'N/A';
-
-				const safeUtmSource = utmSource ? escapeHtml(utmSource) : 'N/A';
-				const safeUtmMedium = utmMedium ? escapeHtml(utmMedium) : 'N/A';
-				const safeUtmCampaign = utmCampaign ? escapeHtml(utmCampaign) : 'N/A';
-				const safeUtmContent = utmContent ? escapeHtml(utmContent) : 'N/A';
-
-				const subjectName = name.replace(/[\r\n]+/g, ' ').trim();
-
-				await sendEmail({
-					to: PRIVATE_ADMIN_EMAIL,
-					subject: `New book-session signup: ${subjectName}`.slice(0, 200),
-					htmlContent: `
-<h1>New book-session waitlist signup</h1>
-<p><strong>Name:</strong> ${safeName}</p>
-<p><strong>Email:</strong> <a href="mailto:${safeEmail}">${safeEmail}</a></p>
-<p><strong>Enneagram type:</strong> ${safeEnneagramType}</p>
-<p><strong>Session goal:</strong><br />${safeSessionGoal}</p>
-<p><strong>Waitlist ID:</strong> ${escapeHtml(String(waitlistData?.id ?? 'N/A'))}</p>
-<p><strong>Source:</strong> ${safeSource}</p>
-<p><strong>UTM:</strong> source=${safeUtmSource}, medium=${safeUtmMedium}, campaign=${safeUtmCampaign}, content=${safeUtmContent}</p>
-<p><a class="button" href="https://9takes.com/admin/consulting">Open consulting dashboard</a></p>
-					`.trim()
-				});
-			} catch (e) {
-				console.error('Failed to send admin book-session signup notification email:', e);
-			}
-
-			// Return success
-			return {
-				success: true,
-				message: 'You have been added to our waitlist!',
-				email
-			};
-		} catch (error) {
-			console.error('Server error during signup:', error);
-			return fail(500, {
-				success: false,
-				message: 'A server error occurred. Please try again later.',
-				name,
-				email,
-				enneagramType,
-				sessionGoal: sessionGoalInput
-			});
-		}
+		return {
+			detailsSaved: true as const,
+			replyExpected: result.replyExpected,
+			wantsSession: result.wantsSession,
+			email: result.email
+		};
 	}
 };
-
-export async function load({ cookies, url }) {
-	// Check if user already signed up (via cookie)
-	const alreadySignedUp = cookies.get('coaching_waitlist') === 'true';
-
-	// Get UTM parameters to pass to the form
-	const utmSource = url.searchParams.get('utm_source') || null;
-	const utmMedium = url.searchParams.get('utm_medium') || null;
-	const utmCampaign = url.searchParams.get('utm_campaign') || null;
-	const utmContent = url.searchParams.get('utm_content') || null;
-
-	return {
-		alreadySignedUp,
-		utmParams: {
-			source: utmSource,
-			medium: utmMedium,
-			campaign: utmCampaign,
-			content: utmContent
-		}
-	};
-}

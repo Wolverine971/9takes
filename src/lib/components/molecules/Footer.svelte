@@ -124,10 +124,10 @@
 				<!-- Connect Section -->
 				<div class="link-section connect-section">
 					<h3>Connect</h3>
-					<p>Want help applying this work to a real situation? Start with the coaching waitlist.</p>
+					<p>Working through a real situation? Leave DJ a note, typed or as a voice note.</p>
 					<div class="connect-links">
 						<a href="/book-session" class="contact-link">
-							Join the coaching waitlist
+							Talk to DJ
 							<svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
 								<path
 									stroke-linecap="round"

@@ -27,7 +27,7 @@ quality_update_note: 'Safety edits applied 2026-03-10: added formal disclaimer b
 </script>
 
 <QuickAnswer question="Can your Enneagram type explain ADHD, autism, or another neurodevelopmental condition?">
-**No.** The Enneagram is a non-clinical personality framework about interpreted motives and coping patterns. ADHD, autism, learning disabilities, and developmental coordination disorder concern development and functioning. The same outward behavior can come from different mechanisms, so an Enneagram interpretation cannot diagnose, rule out, predict, or explain away a condition.
+<strong>No.</strong> The Enneagram is a non-clinical personality framework about interpreted motives and coping patterns. ADHD, autism, learning disabilities, and developmental coordination disorder concern development and functioning. The same outward behavior can come from different mechanisms, so an Enneagram interpretation cannot diagnose, rule out, predict, or explain away a condition.
 </QuickAnswer>
 
 <div class="medical-disclaimer">

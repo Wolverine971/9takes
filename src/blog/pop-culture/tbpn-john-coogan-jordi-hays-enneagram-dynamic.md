@@ -97,7 +97,7 @@ path: src/blog/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md
 </script>
 
 <QuickAnswer question="Why does the John Coogan and Jordi Hays dynamic work?">
-They match on tempo and divide on reward. [John Coogan](/personality-analysis/john-coogan), a Type 7, optimizes for interestingness. [Jordi Hays](/personality-analysis/jordi-hays), a Type 3, optimizes for significance. John opens the possibility space; Jordi makes the room care. TBPN converts each man's strongest instinct into something the other could not build alone.
+They match on tempo and divide on reward. <a href="/personality-analysis/john-coogan">John Coogan</a>, a Type 7, optimizes for interestingness. <a href="/personality-analysis/jordi-hays">Jordi Hays</a>, a Type 3, optimizes for significance. John opens the possibility space; Jordi makes the room care. TBPN converts each man's strongest instinct into something the other could not build alone.
 </QuickAnswer>
 
 <p class="firstLetter">Asked which work of art had carried him through an important moment, John Coogan chose <i>Koyaanisqatsi</i>, Godfrey Reggio's wordless 1982 film about technology, speed, and a world knocked out of balance.</p>

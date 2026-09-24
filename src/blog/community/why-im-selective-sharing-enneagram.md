@@ -21,7 +21,7 @@ path: src/blog/community/why-im-selective-sharing-enneagram.md
 </script>
 
 <QuickAnswer question="How do you share the Enneagram without being annoying?">
-**Share your own growth, not their diagnosis.** Talk about what you learned about yourself, not what you've figured out about them. Invite curiosity instead of assigning types. Be a beacon — people who need what you've found will come to it when they're ready.
+<strong>Share your own growth, not their diagnosis.</strong> Talk about what you learned about yourself, not what you've figured out about them. Invite curiosity instead of assigning types. Be a beacon — people who need what you've found will come to it when they're ready.
 </QuickAnswer>
 
 <p class="firstLetter">I killed my brother's interest in the Enneagram in under five minutes.</p>

@@ -22,7 +22,7 @@ path: src/blog/community/memetic-comments.md
 </script>
 
 <QuickAnswer question="What are memetic comments?">
-**Memetic comments are opinions you think are yours but were actually shaped by the first few comments you read.** Research shows a single fake upvote shifts a comment's final score by 25%. The first commenter in a thread doesn't just share an opinion — they set the frame that everyone else copies. René Girard called this mimesis: we don't desire independently, we want what we see others wanting.
+<strong>Memetic comments are opinions you think are yours but were actually shaped by the first few comments you read.</strong> Research shows a single fake upvote shifts a comment's final score by 25%. The first commenter in a thread doesn't just share an opinion — they set the frame that everyone else copies. René Girard called this mimesis: we don't desire independently, we want what we see others wanting.
 </QuickAnswer>
 
 <p class="firstLetter">You've never had an original opinion in the comments section. Neither have I.</p>

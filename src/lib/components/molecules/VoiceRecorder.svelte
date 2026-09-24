@@ -1,4 +1,12 @@
 <!-- src/lib/components/molecules/VoiceRecorder.svelte -->
+<script lang="ts" module>
+	export type RecordedAudio = {
+		blob: Blob;
+		mimeType: string;
+		durationSeconds: number;
+	};
+</script>
+
 <script lang="ts">
 	import { onDestroy, onMount } from 'svelte';
 	import { LoaderCircle, Mic, Square } from '@lucide/svelte';
@@ -42,8 +50,14 @@
 		disabled?: boolean;
 		compact?: boolean;
 		label?: string;
+		/** Idle helper text beside the button. */
+		hint?: string;
+		/** Hard stop for a single recording. */
+		maxSeconds?: number;
 		onbeforestart?: () => void;
 		ontranscript: (transcript: string) => void;
+		/** Receives the raw recording (before transcription) when the caller keeps audio. */
+		onaudio?: (audio: RecordedAudio) => void;
 		onbusychange?: (busy: boolean) => void;
 	}
 
@@ -52,12 +66,14 @@
 		disabled = false,
 		compact = false,
 		label = 'Record your answer',
+		hint = 'Review the transcript before you post.',
+		maxSeconds = 120,
 		onbeforestart,
 		ontranscript,
+		onaudio,
 		onbusychange
 	}: Props = $props();
 
-	const MAX_RECORDING_SECONDS = 120;
 	const PREFERRED_MIME_TYPES = ['audio/webm', 'audio/ogg', 'audio/mp4', 'audio/mpeg'];
 	let permissionModalId = $derived(`${id}-permission`);
 	let permissionTitleId = $derived(`${permissionModalId}-title`);
@@ -371,6 +387,9 @@
 				mediaRecorder = null;
 				audioChunks = [];
 				stopMediaTracks();
+				if (audioBlob.size >= 500) {
+					onaudio?.({ blob: audioBlob, mimeType: recordedType, durationSeconds });
+				}
 				void transcribe(audioBlob);
 			};
 
@@ -383,7 +402,7 @@
 			durationTimer = setInterval(() => {
 				durationSeconds = Math.floor((Date.now() - recordingStartedAt) / 1000);
 			}, 1000);
-			maxDurationTimer = setTimeout(() => void stopRecording(), MAX_RECORDING_SECONDS * 1000);
+			maxDurationTimer = setTimeout(() => void stopRecording(), maxSeconds * 1000);
 		} catch (error) {
 			handleMicrophoneError(error);
 		}
@@ -541,7 +560,7 @@
 					<LoaderCircle class="voice-capture__spinner" size={15} aria-hidden="true" />
 					<span><strong>Creating your transcript…</strong></span>
 				{:else}
-					<span>Review the transcript before you post.</span>
+					<span>{hint}</span>
 				{/if}
 			</div>
 		</div>

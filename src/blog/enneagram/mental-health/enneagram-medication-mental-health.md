@@ -58,7 +58,7 @@ NOTES:
 </script>
 
 <QuickAnswer question="Does your personality type affect how you respond to psychiatric medication?">
-**Yes.** Each Enneagram type has distinct fears about medication, different compliance patterns, and unique sensitivities. Type 1s resist meds as "weakness." Type 5s research obsessively before starting anything. Type 6s catastrophize every listed side effect. Type 4s fear losing their emotional depth. Type 8s won't hand control to a pill.
+<strong>Yes.</strong> Each Enneagram type has distinct fears about medication, different compliance patterns, and unique sensitivities. Type 1s resist meds as "weakness." Type 5s research obsessively before starting anything. Type 6s catastrophize every listed side effect. Type 4s fear losing their emotional depth. Type 8s won't hand control to a pill.
 
 Knowing your type's patterns changes everything: you can communicate what you actually need to psychiatrists, choose medications that fit your concerns, and catch yourself before quitting for the wrong reasons.
 </QuickAnswer>
