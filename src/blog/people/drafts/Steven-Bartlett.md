@@ -184,7 +184,7 @@ It's a weird thing. He's 33. Rogan is 58. Bartlett's typical guest — Esther Pe
 
 Most podcasters book by network. Bartlett's company built a tool. FlightStory uses a proprietary in-house system called **Guest Radar** that ranks potential guests by engagement data across YouTube and Spotify rather than follower count — because, as one executive [put it](https://www.businessleader.co.uk/insights/inside-flightstory-scaling-steven-bartlett-podcast-empire), "celebrities don't necessarily perform the best." A sister tool, Creator Radar, finds emerging voices before they're famous. The show grew from ~1,000 downloads a month to ~40 million people a month. Whatever else DOAC is, it is an instrumented operation.
 
-The Sinek effect is real. Simon Sinek has appeared more times than any other guest, his conversations are perpetual top-10s on the show, and he hosts Bartlett back on his own podcast. Once a few legitimacy-anchors agree — Sinek, Perel, Maté, Gawdat — the rest of the booking conversation changes shape. The 33-year-old with no degree becomes the 33-year-old who got Esther Perel.
+The Sinek effect is real. [Simon Sinek](/personality-analysis/simon-sinek) has appeared more times than any other guest, his conversations are perpetual top-10s on the show, and he hosts Bartlett back on his own podcast. Once a few legitimacy-anchors agree — Sinek, Perel, Maté, Gawdat — the rest of the booking conversation changes shape. The 33-year-old with no degree becomes the 33-year-old who got Esther Perel.
 
 ### The aesthetic is the brand
 

@@ -170,7 +170,7 @@ In 1995, Amy co-founded the Upright Citizens Brigade with Matt Besser, Ian Rober
 
 This deserves emphasis: Amy didn't just perform at a theater. She _built_ one.
 
-UCB became the most influential improv training ground in modern comedy. The list of performers who came through its doors reads like a who's who of the last two decades: Kate McKinnon, Donald Glover, Aubrey Plaza, Ellie Kemper, Ed Helms, Aziz Ansari, Bobby Moynihan, Ilana Glazer, Abbi Jacobson.
+UCB became the most influential improv training ground in modern comedy. The list of performers who came through its doors reads like a who's who of the last two decades: Kate McKinnon, Donald Glover, [Aubrey Plaza](/personality-analysis/aubrey-plaza), Ellie Kemper, Ed Helms, Aziz Ansari, Bobby Moynihan, Ilana Glazer, Abbi Jacobson.
 
 That's not an accident. That's an institution designed to produce talent.
 
@@ -186,7 +186,7 @@ That's the Eight's version of legacy: not personal glory, but lasting structures
 
 Then came Saturday Night Live in 2001.
 
-Amy was promoted from featured player to full cast member in the middle of her first season. The only other SNL performer to achieve that distinction? Eddie Murphy.
+Amy was promoted from featured player to full cast member in the middle of her first season. The only other SNL performer to achieve that distinction? [Eddie Murphy](/personality-analysis/eddie-murphy).
 
 But it wasn't just talent that set Amy apart. It was her refusal to be diminished.
 

@@ -127,7 +127,7 @@ The cold genius is a performance Oppenheimer learned to give. The Four underneat
 
 **What the Type 4 lens explains that nothing else does:**
 
-Every observer of Oppenheimer eventually confronts the same puzzle: why couldn't he just move on? Most people who encounter him through Christopher Nolan's 2023 film ask the same question in a different key: why couldn't the man who built it also carry it like a professional?
+Every observer of Oppenheimer eventually confronts the same puzzle: why couldn't he just move on? Most people who encounter him through [Christopher Nolan](/personality-analysis/christopher-nolan)'s 2023 film ask the same question in a different key: why couldn't the man who built it also carry it like a professional?
 
 Because he was not built that way. Harry Truman's framework — decisions are made, consequences accepted, self intact — was genuinely unavailable to a Four. Truman called him a "cry-baby scientist." He was simply reading from a different architecture.
 

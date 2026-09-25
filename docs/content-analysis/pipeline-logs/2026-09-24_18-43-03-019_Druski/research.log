@@ -1,0 +1,64 @@
+Error: Reached max turns (80)I finished the research stage and wrote `evidence.json` to the run folder. It passes `validateEvidence` as **ready**, and I didn't touch any other file or publish anything.
+
+**The main result: the evidence now points to Type 3, not the live page's Type 8.** I rate that medium confidence, with 8 as the strongest alternative.
+
+The change comes from a Diary of a CEO interview Druski gave that went up **today (2026-09-24)**. It's the most revealing first-person source on record, and none of it is in the current draft:
+- **His father:** he describes a physically violent father. He says he watched his brother beaten for wetting the bed and his mother choked. He says he used comedy to lift the family's mood, and that he has since forgiven his father face to face.
+- **The Joe Jackson sketch:** he says the character drew on his own father: "It wasn't hard to uh to rip that belt off, man. I've seen it before." That's the most distinctive detail for the rewrite.
+- **His drive:** he says he'd either "make it happen" or "see perceive myself as a failure." He adds "I really want to be number one" and "I'm thinking about my image."
+- **His goals list:** at 23 he wrote a list that included hosting an awards show and starring in a major movie. So the BET hosting job and his role in *The Catch* are goals met. The draft reads them as strains on the Type 8 argument.
+- **Before comedy:** he admits to bank and card scams, and says a robbery at gunpoint was the moment he committed to comedy.
+
+**What decides 3 over 8** is how he answers critics. From 2022 to 2026 he never hits back. He says nothing he does "punches down," recasts backlash as "everybody loved it," and makes amends when his image takes a real hit. On whether Trump told Erika Kirk to sue him, he said "I'm not looking to get sued by nobody... Just left it alone." And he pays for his own shows so the studios that said no will want them later ("Now it's a bidding war"), not so he never needs them. Older interviews back this up. On Club Shay Shay in 2023 he admitted he'd been afraid to go out on his own until Kevin Hart pushed him.
+
+**Decisions for you:**
+1. **The type change on a live page needs your approval before publishing.** It affects the enneagram field, titles, FAQs, keywords and the type hub listings. If you want to keep Type 8, the draft has to beat the test above rather than assume it.
+2. **Sensitive material.** I recommend using the father story only in Druski's own words, next to his forgiveness. I'd leave out his brother's psychiatric diagnoses, which are a private person's medical information.
+
+I flagged sensitive allegations, contested typing and a major thesis change. Those flags automatically send the draft to the full six-reviewer panel.
+
+**Still to verify before drafting** (listed as research tasks in the file):
+- The interview quotes come from auto-generated captions, so exact wording needs checking against the audio.
+- YouTube rate-limited me, so the Wahlberg and Chalamet audition lines still need rechecking.
+- The NASCAR race date and the exact title of the Kirk sketch need confirming from the original posts.
+- The $10M Forbes figure for 2023 needs the list reopened.
+- The Trump "sue him" remark is only the host's claim, so it shouldn't be used.
+
+The earlier run of this stage died at its 80-turn limit. This pass reused the ~115 pages and transcripts it had already downloaded instead of fetching them again.
+
+Sources: [Diary of a CEO interview](https://www.youtube.com/watch?v=UhzI1fg8rCA) · [Rolling Out, 2026-09-24](https://rollingout.com/2026/09/24/druski-reveals-netflixs-rejection-empire/)
+I've finished the research stage for Druski. `evidence.json` is written to the run folder and passes the pipeline's evidence check with status **ready**. No other repo file changed and nothing was published. My scratch downloads and audio clips are all in `/tmp`.
+
+**What happened:** the earlier `evidence.json` was deleted when the runner restarted this stage. The draft stage had failed only because a parallel session edited CLAUDE.md partway through, not because of a content problem. I rebuilt the evidence from this run's surviving record and kept all the earlier source and claim IDs. It now has 61 sources, 57 of them opened, and 67 claims.
+
+**The conclusion hasn't changed:** Druski is best read as a **Type 3**, not the live page's Type 8. Confidence is medium, and 8 remains the strongest alternative. What decides it is how he handles critics. He never hits back: he recasts backlash as success, apologizes when his image takes a real hit, and backs away from powerful opponents. On a possible lawsuit, he says: "I'm not looking to get sued by nobody... We have too much shit that we're pursuing right now."
+
+**What this pass settled:**
+- **Audio checks:** 22 Diary of a CEO passages now match the episode audio, up from 14.
+  - One quote was slightly wrong in the old record. The actual line is "I **am** just the guy here for laughs," not "I'm." It's fixed.
+  - "Having them wanting what I did in reverse" is confirmed on a tighter re-cut.
+- **Facts that were open and are now sourced:**
+  - The whiteface sketch was filmed at the Cook Out Southern 500 on August 31, 2025, and posted September 2.
+  - The Kirk sketch's exact title, "How Conservative Women in America act," and its March 25, 2026 date come from his own YouTube channel.
+  - The Forbes 2023 figure is $10M (No. 20).
+  - Charlie Kirk's death is now sourced to TIME.
+  - The Wahlberg and Chalamet audition lines are confirmed through Complex. In the Wahlberg exchange, he backs down instantly with "My bad."
+- **New:** the January 2026 megachurch-pastor sketch is where *Collect and Praise* came from. Pastors debated it publicly and he never responded.
+
+**Decisions for you:**
+1. **Type change.** Moving a live page from 8 to 3 needs your explicit approval before publishing. It changes the enneagram field, titles, FAQs, keywords and the type hub listings.
+2. **Wrong X handle.** The page lists `twitter: drulogang`, but the posts I found are under `@druski`. I couldn't open X to confirm, so check it before it carries into the new draft.
+
+**Still unresolved (listed as tasks in the file):**
+- **The "failure" quote:** five machine transcripts disagree on the words before "perceive myself as a failure." Only that phrase should be quoted unless someone checks it by ear.
+- **"So now it's a bidding war":** I still can't tell whether Druski or the host said it.
+- ***Collect and Praise* and the Netflix movie** rest on his own word, with no trade announcement yet.
+- **Trump and the lawsuit:** the claim that Trump told Erika Kirk to sue him is only the host's framing and shouldn't be stated as fact.
+
+Because the evidence flags sensitive allegations, contested typing and a major thesis change, the draft goes to the full six-reviewer panel.
+
+Services that need attention (this stage didn't use them):
+- **Sign-in required:** Slack, GitHub, Linear, Notion, Ahrefs and others. Authorize them in your claude.ai connector settings or with `/mcp` in an interactive session.
+- **Connection failed:** the Supabase server.
+
+Sources: [Diary of a CEO](https://www.youtube.com/watch?v=UhzI1fg8rCA) · [Post and Courier](https://www.postandcourier.com/free-times/news/druski-darlington-speedway-nascar-whiteface-sc/article_6bba1676-cfa1-46e0-ae23-60142d380a36.html) · [2025 Southern 500](https://en.wikipedia.org/wiki/2025_Cook_Out_Southern_500) · [Kirk sketch (YouTube)](https://www.youtube.com/shorts/JbZIlQdjzu0) · [RNS on the megachurch sketch](https://religionnews.com/2026/01/20/druskis-viral-video-skit-sparks-criticism-on-megachurch-culture/) · [Complex: Mike Todd](https://www.complex.com/pop-culture/a/jose-martinez/pastor-mike-todd-responds-to-being-linked-to-druski-megachurch-skit) · [Complex: Wahlberg](https://www.complex.com/pop-culture/a/treyalston/mark-wahlberg-druski-hood) · [Complex: Chalamet](https://www.complex.com/pop-culture/a/cmplxtara-mahadevan/timothee-chalamet-jokes-hes-2-percent-jamaican-great-grandparent-kingston) · [RELEVANT](https://relevantmagazine.com/culture/music/watch-timothee-chalamet-and-druski-unexpectedly-bust-out-some-kirk-franklin/) · [AfroTech: Forbes 2023](https://afrotech.com/druski-top-creator-earnings) · [TIME: Charlie Kirk](https://time.com/7316095/charlie-kirk-uvu-shooting-turning-point-usa/) · [KMOB](https://www.kmob1003.com/2026/09/24/druski-diary-of-a-ceo-netflix-amazon-fx/)

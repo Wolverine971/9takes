@@ -381,7 +381,7 @@ Run via `pnpm <alias>` where available:
 | `pnpm gen:sitemap`                              | Generate XML sitemap                                                   |
 | `pnpm gen:llms`                                 | Generate llms.txt                                                      |
 | `pnpm gen:corpus-stats`                         | Generate corpus stats                                                  |
-| `pnpm gen:crosslinks`                           | Cross-link report + ranked link-opportunity queue (`docs/crosslinks/`) |
+| `pnpm gen:crosslinks`                           | Cross-link report + link queue for blogs + people (`docs/crosslinks/`) |
 | `pnpm gen:crosslinks -- --target <url>`         | Sentences in live posts that mention a page but don't link it yet      |
 | `pnpm crosslinks:check`                         | Publish gate: live posts need 3+ in / 3+ out links, no broken links    |
 | `pnpm audit:links:jev`                          | Jev-judged link audit → `docs/crosslinks/jev-audit.md` (~$0.77/run)    |

@@ -246,7 +246,7 @@ In March 2026, Vanity Fair hired Jake — alongside Quen Blackwell and Brittany 
 
 On camera, he unraveled.
 
-When Kris Jenner asked him, "How did you get this gig?" he said, "I don't know, honestly." When Julia Fox tried to explain the emotional weight of _If I Had Legs I'd Kick You_, Jake pivoted to calling the sick child in the film "annoying." Fox pushed back elegantly: "It's not that it's the mother's fault or the child's, it is society's fault." Jake tried the same bit on Damson Idris, who declined to engage, and Jake escalated: "She just went 'Mommy! Mommy! Mommy!' Shut the f\*\*k up!" When Lewis Pullman referenced a Mexico trip, Jake played up a personal connection that didn't exist — Pullman shot back, "God, no, Jake... Who do you think I am?"
+When Kris Jenner asked him, "How did you get this gig?" he said, "I don't know, honestly." When [Julia Fox](/personality-analysis/julia-fox) tried to explain the emotional weight of _If I Had Legs I'd Kick You_, Jake pivoted to calling the sick child in the film "annoying." Fox pushed back elegantly: "It's not that it's the mother's fault or the child's, it is society's fault." Jake tried the same bit on Damson Idris, who declined to engage, and Jake escalated: "She just went 'Mommy! Mommy! Mommy!' Shut the f\*\*k up!" When Lewis Pullman referenced a Mexico trip, Jake played up a personal connection that didn't exist — Pullman shot back, "God, no, Jake... Who do you think I am?"
 
 The clips went viral in hours. Variety ran a column. Refinery29, Fast Company, The Daily Dot, and half a dozen other outlets published pieces. The discourse machine cranked into familiar territory: influencers replacing journalists, the death of red carpet culture, the bestie-fication of celebrity media.
 

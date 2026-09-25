@@ -237,7 +237,7 @@ In October 2024, Charli made her Broadway debut in "& Juliet," a jukebox musical
 
 When her agents called with the news, they said: "I think you're gonna want to turn your camera on." She "immediately burst into tears" while home alone, "pacing around her house." A childhood dream, realized through the medium that had always been her refuge.
 
-"It is one of the most amazing and one of the hardest things that I've done," she told Jimmy Fallon. "You push your body and you do things that you think you can't do but you're surrounded by so much love." Then the detail that reveals her Nine orientation: "You perform because you don't know if it's someone's first Broadway show or the only Broadway show they're ever going to go to."
+"It is one of the most amazing and one of the hardest things that I've done," she told [Jimmy Fallon](/personality-analysis/jimmy-fallon). "You push your body and you do things that you think you can't do but you're surrounded by so much love." Then the detail that reveals her Nine orientation: "You perform because you don't know if it's someone's first Broadway show or the only Broadway show they're ever going to go to."
 
 Not performing for herself. Performing because someone in the audience might need it.
 

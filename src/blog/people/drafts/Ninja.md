@@ -236,7 +236,7 @@ The numbers most people don't know are the ones she handled directly. _"We have 
 
 The intimacy of the arrangement is most visible in a small detail that ESPN The Magazine reporter Elaine Teng caught at Lollapalooza in September 2018. During a five-hour stream, Tyler skipped bathroom breaks and meals and, in the middle of a *Fortnite* match with cameras live and chat scrolling, _mouthed "I love you" to Jessica._ Silent. Off-mic. With fifty thousand strangers watching. The mouthed sentence is the most private gesture in his career. It is also a pulse check. He is asking her, in the only register the stream can't read, whether they are still okay.
 
-Jessica is not silent infrastructure, though the brand has often presented her that way. In 2022, after a JiDion hate-raid on Pokimane spilled into a public defamation threat from the Blevins camp, she announced she was stepping down as Tyler's full-time manager, _"simply ready for my next chapter."_ She picked up CAA, kept the merch line, and built the parts of her public life that weren't him. Her Instagram is north of 800,000 followers; her Twitch sits near half a million on its own. On their seventh anniversary in August 2024, she tweeted a love note that did not sound like couple content: _"the internet needs way more realness, we have had our share of challenges and bad days."_ The Six's most trusted figure has her own audience now. That audience knows the marriage isn't all hype reels.
+Jessica is not silent infrastructure, though the brand has often presented her that way. In 2022, after a JiDion hate-raid on [Pokimane](/personality-analysis/pokimane) spilled into a public defamation threat from the Blevins camp, she announced she was stepping down as Tyler's full-time manager, _"simply ready for my next chapter."_ She picked up CAA, kept the merch line, and built the parts of her public life that weren't him. Her Instagram is north of 800,000 followers; her Twitch sits near half a million on its own. On their seventh anniversary in August 2024, she tweeted a love note that did not sound like couple content: _"the internet needs way more realness, we have had our share of challenges and bad days."_ The Six's most trusted figure has her own audience now. That audience knows the marriage isn't all hype reels.
 
 What the stream couldn't read, Jessica did. She also read the moment he couldn't admit was happening during Mixer's slow collapse. In the Hollywood Reporter in July 2020, she gave him an exit.
 
@@ -278,7 +278,7 @@ What the walk-off was really responding to was the part of 2021 to 2023 the bran
 
 He was trying to make peace with the threat his entire system was built to prevent. Being unwatched had arrived, and there was no rule he could write against invisibility. So he hedged platforms instead.
 
-The handover became measurable. Dexerto's July 2026 Twitch ranking placed both Kai Cenat and Ibai Llanos ahead of Ninja in followers. He had spent years preparing for a platform to fail him. The newer threat was a generation of streamers who did not need his platform, his rules, or his blueprint to pass him.
+The handover became measurable. Dexerto's July 2026 Twitch ranking placed both Kai Cenat and [Ibai Llanos](/personality-analysis/ibai-llanos) ahead of Ninja in followers. He had spent years preparing for a platform to fail him. The newer threat was a generation of streamers who did not need his platform, his rules, or his blueprint to pass him.
 
 ## Jessica scheduled the appointment
 

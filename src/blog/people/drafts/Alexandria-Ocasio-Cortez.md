@@ -355,7 +355,7 @@ Sometimes it tips the other way. The 2021 Met Gala "Tax the Rich" gown was the v
 
 ### Pelosi, Before She Had a Desk
 
-November 13, 2018. AOC hadn't been sworn in. She joined 150 Sunrise Movement activists occupying Nancy Pelosi's Capitol Hill office, demanding a Green New Deal instead of the Speaker's proposed climate research committee. Fifty-one protesters were arrested; AOC wasn't among them, but the statement was made. Before taking office, she had already tested the most powerful Democrat in Congress.
+November 13, 2018. AOC hadn't been sworn in. She joined 150 Sunrise Movement activists occupying [Nancy Pelosi](/personality-analysis/nancy-pelosi)'s Capitol Hill office, demanding a Green New Deal instead of the Speaker's proposed climate research committee. Fifty-one protesters were arrested; AOC wasn't among them, but the statement was made. Before taking office, she had already tested the most powerful Democrat in Congress.
 
 She needed to know what Pelosi was before she owed her anything.
 

@@ -1,0 +1,27 @@
+{
+	"schema_version": 3,
+	"subject": "Druski",
+	"mode": "resume",
+	"root": "/Users/djwayne/9takes",
+	"command_file": "/Users/djwayne/9takes/.claude/commands/blog_edit_people_v3.md",
+	"standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+	"contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+	"inputs": {
+		"draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/draft.md",
+		"evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/evidence-draft.json",
+		"similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/similarity.json",
+		"review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-subject.json",
+		"review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-fan.json",
+		"review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-critic.json",
+		"review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-unfamiliar.json",
+		"review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-enneagram.json",
+		"review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-future.json",
+		"baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/baseline-reader.md",
+		"checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/draft-checks.json"
+	},
+	"outputs": {
+		"edit.md": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/edit.md",
+		"evidence-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/evidence-edit.json",
+		"resolution-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/resolution-edit.json"
+	}
+}

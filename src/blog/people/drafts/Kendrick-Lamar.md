@@ -124,7 +124,7 @@ Total qualifying quotes: 4
 
 He played almost nothing anyone came to hear.
 
-Six of his ten songs were pulled from GNX, an album that had existed for eleven weeks. Samuel L. Jackson stalked the stage in an Uncle Sam costume, scolding him for being "too loud, too reckless, too ghetto." Kendrick shrugged at a defamation lawsuit hanging over his head and performed the diss track that started it anyway. No confetti-cannon medley of hits. No pandering. A man who has spent his whole career terrified of being unreal took the one moment built for spectacle and refused to perform.
+Six of his ten songs were pulled from GNX, an album that had existed for eleven weeks. [Samuel L. Jackson](/personality-analysis/samuel-l-jackson) stalked the stage in an Uncle Sam costume, scolding him for being "too loud, too reckless, too ghetto." Kendrick shrugged at a defamation lawsuit hanging over his head and performed the diss track that started it anyway. No confetti-cannon medley of hits. No pandering. A man who has spent his whole career terrified of being unreal took the one moment built for spectacle and refused to perform.
 
 That refusal is the whole story. The most decorated rapper alive, a Pulitzer winner with a mantel full of Grammys, still moves through the world as if his identity could be revoked at any moment. He does not chase applause. He chases proof that he is who he says he is.
 
@@ -187,7 +187,7 @@ But look at what he actually attacked. Not Drake's talent, not his sales, those 
 
 When _GNX_ arrived on November 22, 2024, it came with no warning: a one-minute teaser, then the full album thirty minutes later. He named it after the 1987 Buick Grand National his father drove him home from the hospital in. Even the victory lap circles back to the family that shaped the wound.
 
-The album opens on "wacced out murals." No victory lap. Someone had defaced the murals of him painted in his own city, and he raps through the hollow of it: the industry resentment, the congratulations that meant nothing, the allies who went quiet or turned. Snoop Dogg had reposted a Drake track using AI vocals of Tupac; Lil Wayne had aired public hurt about the New Orleans Super Bowl going to Kendrick instead of him. On paper, Kendrick had just won everything. On the record, he sounds betrayed and alone. That gap, between the trophy and the feeling, is the most Type 4 thing about him.
+The album opens on "wacced out murals." No victory lap. Someone had defaced the murals of him painted in his own city, and he raps through the hollow of it: the industry resentment, the congratulations that meant nothing, the allies who went quiet or turned. [Snoop Dogg](/personality-analysis/snoop-dogg) had reposted a Drake track using AI vocals of Tupac; Lil Wayne had aired public hurt about the New Orleans Super Bowl going to Kendrick instead of him. On paper, Kendrick had just won everything. On the record, he sounds betrayed and alone. That gap, between the trophy and the feeling, is the most Type 4 thing about him.
 
 The people who make records with him describe an artist who disappears into the work. Producer Jack Antonoff called the _GNX_ sessions a "weird little secret society," a small circle recording somewhere between 80 and 100 songs over years to arrive at twelve, still tweaking final mixes at four in the morning hours before release. Nobody boils a hundred songs down to twelve, then rewrites the mixes before dawn, to hit a deadline. He does it because he cannot let a thing go until it feels true.
 

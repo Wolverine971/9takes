@@ -264,7 +264,7 @@ For a Four, the wound of feeling fundamentally different is the whole architectu
 
 ## Why Elton John sang "Candle in the Wind" only once
 
-For twenty-five years, "Candle in the Wind" had belonged to Marilyn Monroe, a song about a fragile woman chewed up by the fame that adored her. In the first week of September 1997, Taupin rewrote it in a couple of hours. "Goodbye England's rose." Elton sang the new version exactly once, at Westminster Abbey, at the funeral of [Diana, Princess of Wales](/personality-analysis/princess-diana).
+For twenty-five years, "Candle in the Wind" had belonged to [Marilyn Monroe](/personality-analysis/marilyn-monroe), a song about a fragile woman chewed up by the fame that adored her. In the first week of September 1997, Taupin rewrote it in a couple of hours. "Goodbye England's rose." Elton sang the new version exactly once, at Westminster Abbey, at the funeral of [Diana, Princess of Wales](/personality-analysis/princess-diana).
 
 He and Diana had been close for years, then broken off. She had pulled her support from a Versace book raising money for his AIDS foundation, and the two had not spoken in months. When Gianni Versace was murdered that July, she phoned him, and they made up at the designer's funeral. "Six weeks later," Elton has said, "I'm in the same house, and she's dead."
 

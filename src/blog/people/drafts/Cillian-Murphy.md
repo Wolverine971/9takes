@@ -234,7 +234,7 @@ Murphy's philosophy of acting is also his philosophy of living:
 
 This is the key to Murphy, not just as an actor, but as a person. He withholds personality to reveal character. He withholds information to preserve his inner world. He withholds social energy to fuel creative intensity. The emptying out _is_ the fullness.
 
-His preparation is obsessive. For Oppenheimer: six months of research, every biography, every archived lecture. He learned 30,000 words of Dutch for a single scene. Robert Downey Jr. described the contrast: "We'd be like, 'Hey, we got a three-day weekend. Maybe we'll go antiquing in Santa Fe.' And Cillian would say, 'Oh, I have to learn 30,000 words of Dutch. Have a nice time.'"
+His preparation is obsessive. For Oppenheimer: six months of research, every biography, every archived lecture. He learned 30,000 words of Dutch for a single scene. [Robert Downey Jr.](/personality-analysis/robert-downey-jr) described the contrast: "We'd be like, 'Hey, we got a three-day weekend. Maybe we'll go antiquing in Santa Fe.' And Cillian would say, 'Oh, I have to learn 30,000 words of Dutch. Have a nice time.'"
 
 He lost 28 pounds. Emily Blunt joked he ate "one almond most nights." He worked with a nutritionist but refused to discuss specifics: "I don't want to go into numbers. It feels inappropriate, unhealthy."
 

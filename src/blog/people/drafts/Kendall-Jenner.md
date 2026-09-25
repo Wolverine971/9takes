@@ -119,7 +119,7 @@ Kendall Jenner was ten years old when _Keeping Up with the Kardashians_ started 
 
 She and [Kylie](/personality-analysis/kylie-jenner) didn't have a say. The cameras were in their house. There was no opting out. While their older sisters — [Kim](/personality-analysis/kim-kardashian), Khloe, Kourtney — had chosen the spotlight as young adults, Kendall and Kylie were children when the spotlight chose them.
 
-"It's a little Hannah Montana-y in a way," she told Emma Chamberlain in 2024. The comparison was telling — then she added the part that mattered: "But I didn't have a disguise."
+"It's a little Hannah Montana-y in a way," she told [Emma Chamberlain](/personality-analysis/emma-chamberlain) in 2024. The comparison was telling — then she added the part that mattered: "But I didn't have a disguise."
 
 No disguise. No off switch. No version of herself that got to exist without an audience.
 
@@ -245,7 +245,7 @@ That sentence isn't hyperbole from someone performing emotion for cameras. It's 
 
 But here's the part the tabloids miss. The woman who can't fully let a boyfriend in keeps a small circle so tight they might as well be load-bearing walls. [Hailey Bieber](/personality-analysis/hailey-bieber) has been in her life since 2012. "We've both seen each other thrive at different times," Kendall said, "and we've been there for each other through it all and not let it get in the way of our friendship."
 
-Gigi Hadid goes deeper. They came up together — castings, early fashion weeks, the anonymous hustle before either name meant what it means now. On a 2025 Vogue cover together, Kendall threaded her fingers together to illustrate the bond: "We're sisters more than we're friends."
+[Gigi Hadid](/personality-analysis/gigi-hadid) goes deeper. They came up together — castings, early fashion weeks, the anonymous hustle before either name meant what it means now. On a 2025 Vogue cover together, Kendall threaded her fingers together to illustrate the bond: "We're sisters more than we're friends."
 
 Gigi described their dynamic: "We're both really strong people and not whiners and complainers, but we're vulnerable when it's the time to be."
 

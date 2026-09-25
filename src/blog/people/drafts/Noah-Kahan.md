@@ -229,7 +229,7 @@ For most artists, the obstacle to getting help is access, money, stigma, or side
 
 > "I don't want to get help because I'm worried that I'll be happy and I won't care about making something, and I won't feel pain, and it won't be painful enough for my audience, and the feelings won't be real enough for my audience."
 
-This is the Four's sealed room. The wound is the work. The work is the identity. To touch the wound is to risk the identity. Vincent van Gogh, the patron saint of the type, did not get help. The mythology Kahan grew up inside — the suffering artist, battered into greatness — argues that the misery is the price of the song. He believed it. He spent twenty years believing it.
+This is the Four's sealed room. The wound is the work. The work is the identity. To touch the wound is to risk the identity. [Vincent van Gogh](/personality-analysis/vincent-van-gogh), the patron saint of the type, did not get help. The mythology Kahan grew up inside — the suffering artist, battered into greatness — argues that the misery is the price of the song. He believed it. He spent twenty years believing it.
 
 > "We look at people like Van Gogh and these famous artists that battered themselves to create, and we think that's how it has to be. I subscribed to that theory for a long time."
 

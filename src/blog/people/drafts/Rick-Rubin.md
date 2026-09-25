@@ -236,7 +236,7 @@ The [Type 4 stress arrow](/enneagram-corner/enneagram-types-in-stress) points to
 
 He left at 25. The arc since has been a conscious unwinding — meditation, Malibu, Shangri-La, one artist at a time, long sessions that look from the outside like nothing is happening. The Four learning to come back to himself before he tries to help anyone else come back to theirs.
 
-It is also why the recent podcast era fits him so neatly — *Lex Fridman #275* in 2022, Huberman Lab, his own *Broken Record* with Malcolm Gladwell. Long-form. Vetted host. No performance required. A Four will do five hours of conversation if the conversation is real, and will say nothing in public otherwise.
+It is also why the recent podcast era fits him so neatly — *Lex Fridman #275* in 2022, Huberman Lab, his own *Broken Record* with [Malcolm Gladwell](/personality-analysis/malcolm-gladwell). Long-form. Vetted host. No performance required. A Four will do five hours of conversation if the conversation is real, and will say nothing in public otherwise.
 
 ## The inheritance
 

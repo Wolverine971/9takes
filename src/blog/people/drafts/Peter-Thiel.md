@@ -253,7 +253,7 @@ He cited Cardinal Newman's apocalyptic writings, Vladimir Solovyov's novella whe
 
 When comedian Duncan Trussell attended one of Thiel's Antichrist lectures and later discussed the experience on the Danny Jones Podcast, what struck him was not that Thiel seemed sinister or power-hungry. What struck him was _a technologist earnestly grappling with eschatology_ -- a tech bro trying to solve the end times. Trussell went expecting to encounter evil and found instead a man genuinely consumed by the question of whether civilization is unraveling.
 
-This is what catastrophizing looks like when you have billions and a 2,342 chess rating. You don't just worry. You convene lectures. You write essays for _First Things_ magazine. You tell Tyler Cowen: **"It's something like this wonderful and terrible history of the world that we're living through as Christianity's unraveling our culture."** You say, with the weight of someone who means it: **"Not only do our actions matter, I believe they matter eternally."**
+This is what catastrophizing looks like when you have billions and a 2,342 chess rating. You don't just worry. You convene lectures. You write essays for _First Things_ magazine. You tell [Tyler Cowen](/personality-analysis/tyler-cowen): **"It's something like this wonderful and terrible history of the world that we're living through as Christianity's unraveling our culture."** You say, with the weight of someone who means it: **"Not only do our actions matter, I believe they matter eternally."**
 
 He is not accumulating power. He is processing fear. The deepest fears a human being can have, about the end of civilization and the fate of the soul, through the only mechanisms a Type 6 trusts: rigorous analysis, trusted advisors, and preparation for the worst.
 
@@ -293,7 +293,7 @@ They identified the perfect case: Hulk Hogan's sex tape, published by Gawker in 
 
 Nine years of silence. Ten million dollars. The patience of a chess player who sees fifteen moves ahead and waits.
 
-When pressed on his motivation, Thiel told the _New York Times_: **"It's less about revenge and more about specific deterrence."** He added: **"I saw Gawker pioneer a unique and incredibly damaging way of getting attention by bullying people even when there was no connection with the public interest."** Ryan Holiday, who chronicled the campaign in _Conspiracy_, described Thiel as "a very determined, a very brilliant man with essentially unlimited resources and unlimited patience willing to see it through to the end."
+When pressed on his motivation, Thiel told the _New York Times_: **"It's less about revenge and more about specific deterrence."** He added: **"I saw Gawker pioneer a unique and incredibly damaging way of getting attention by bullying people even when there was no connection with the public interest."** [Ryan Holiday](/personality-analysis/ryan-holiday), who chronicled the campaign in _Conspiracy_, described Thiel as "a very determined, a very brilliant man with essentially unlimited resources and unlimited patience willing to see it through to the end."
 
 This is who Peter Thiel is when someone crosses the line between public discourse and personal violation. Not loud. Not impulsive. Patient, methodical, and absolute.
 

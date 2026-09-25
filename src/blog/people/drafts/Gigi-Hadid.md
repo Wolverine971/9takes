@@ -253,7 +253,7 @@ She is pregnant, alone with a thought she does not want. _Am I good enough to be
 
 That is the most Type 3 solution to fear ever devised. She gave it a filing system.
 
-The relationship that produced Khai was the hardest of her life. In October 2021, Zayn Malik pled no contest to four harassment charges following an altercation with Yolanda, receiving probation, anger management, and a domestic violence program. Gigi's representative issued eleven words to E! News: "Gigi is solely focused on the best for Khai. She asks for privacy during this time."
+The relationship that produced Khai was the hardest of her life. In October 2021, [Zayn Malik](/personality-analysis/zayn-malik) pled no contest to four harassment charges following an altercation with Yolanda, receiving probation, anger management, and a domestic violence program. Gigi's representative issued eleven words to E! News: "Gigi is solely focused on the best for Khai. She asks for privacy during this time."
 
 Then nothing. No interview, no statement, no side taken in public.
 

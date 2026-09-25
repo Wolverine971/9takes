@@ -33,6 +33,7 @@ import {
 } from './lib/personalitySeo.js';
 import { getPerspectivePublishStatus } from './lib/perspectiveReview.js';
 import { isV3, priorBlockers, checkDraft } from './lib/blogEditorial.js';
+import { isInternalLinkOnlyChange } from './lib/linkOnlyChange.js';
 
 dotenv.config();
 
@@ -1807,6 +1808,18 @@ export async function assertPerspectiveGateForUpdate(plan, entry, existing) {
 		.map(({ field }) => String(field))
 		.filter((field) => sensitiveFields.includes(field));
 	if (touched.length === 0) return;
+	// Wrapping existing words in links to other 9takes pages changes no claim the
+	// jury reviewed, so a content diff that is only internal link markup passes.
+	if (
+		touched.length === 1 &&
+		touched[0] === 'content' &&
+		isInternalLinkOnlyChange(existing.content, entry.content)
+	) {
+		console.log(
+			`  perspective gate: internal-link-only content change for ${plan.person}, allowed`
+		);
+		return;
+	}
 
 	const sourcePath = entry?._source_path;
 	if (!sourcePath) {

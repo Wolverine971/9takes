@@ -217,7 +217,7 @@ The lines a 6 travels fill in the rest. In security, a 6 borrows the steadiness 
 
 Evans calls each episode "a Rubik's Cube that just solves itself." It's a Type 6 metaphor in a tuxedo. The Rubik's Cube has a fixed number of moves, a knowable algorithm, a determinable solution. There is exactly the right amount of structure to make a vigilant mind feel safe. The puzzle terrifies a 4 and bores a 7. It is the dream object for a 6 who is afraid of formless time.
 
-Each episode is the same shape. Ten wings. Ten questions, then follow-ups. Two openings: who the guest is and why they're here. One closing: The Last Dab, the parting question, the credits. Within that shape, anything can happen. Lorde can sing a Caroline Polachek cover. Margaret Qualley can cry. [Pedro Pascal](/personality-analysis/pedro-pascal) can gargle milk. The shape holds them up.
+Each episode is the same shape. Ten wings. Ten questions, then follow-ups. Two openings: who the guest is and why they're here. One closing: The Last Dab, the parting question, the credits. Within that shape, anything can happen. Lorde can sing a Caroline Polachek cover. [Margaret Qualley](/personality-analysis/margaret-qualley) can cry. [Pedro Pascal](/personality-analysis/pedro-pascal) can gargle milk. The shape holds them up.
 
 The show is, in this sense, an externalization of how Sean Evans copes with the world. Build a structure that allows for chaos but never depends on improvisation to survive. Inside the structure, you can take the worst hot sauce on earth and still ask question seven. Outside the structure, you watch yourself for refinement and lose.
 

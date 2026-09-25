@@ -193,7 +193,7 @@ Her screen time went from ten hours a day to "24/7." The collaborations followed
 
 ## The Comedy Nobody Taught Her (But Somebody Trained)
 
-Ashby's comedy resists the algorithmic polish that defines most TikTok content. Fans compare her to Tim Robinson — absurdist, committed, slightly unhinged. Others hear Norm from Cheers in the deadpan. She describes it herself as "genuine, goofy, and reminiscent of early 2000s YouTube."
+Ashby's comedy resists the algorithmic polish that defines most TikTok content. Fans compare her to [Tim Robinson](/personality-analysis/tim-robinson) — absurdist, committed, slightly unhinged. Others hear Norm from Cheers in the deadpan. She describes it herself as "genuine, goofy, and reminiscent of early 2000s YouTube."
 
 The specific markers: a vaguely Midwestern accent that elongates words ("I'm baaaashful," "I'm jokinnnn"), a lizard-like tongue stick at the end of punchlines, deadpan delivery of completely absurd statements. Louis Levanti wrote on Threads: "Someone get Ashby from TikTok on SNL IMMEDIATELY. Her ability to improv on TikTok live actually needs to be studied."
 

@@ -258,7 +258,7 @@ That last line lands differently coming from someone who built his career breaki
 
 The most devastating line: _"You promised that I wasn't an experiment."_ Coming from someone whose entire public life has been a kind of experiment in constructed identity, the word cuts both ways.
 
-He cited Troye Sivan as a major inspiration — another influencer-turned-artist who writes about queer loneliness. Seeing Sivan discuss these experiences publicly was "relieving," James said, because he had "avoided talking about his love life and relationships online" for years. He'd taken vocal lessons from celebrity coach Cheryl Porter, training seriously despite years of internet mockery of his singing. Porter's assessment: "He don't care who says he can't sing. He's going to sing anyway."
+He cited [Troye Sivan](/personality-analysis/troye-sivan) as a major inspiration — another influencer-turned-artist who writes about queer loneliness. Seeing Sivan discuss these experiences publicly was "relieving," James said, because he had "avoided talking about his love life and relationships online" for years. He'd taken vocal lessons from celebrity coach Cheryl Porter, training seriously despite years of internet mockery of his singing. Porter's assessment: "He don't care who says he can't sing. He's going to sing anyway."
 
 ---
 

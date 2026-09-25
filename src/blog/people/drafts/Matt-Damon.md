@@ -196,7 +196,7 @@ Here's the thing no one talks about: Matt Damon doesn't think he's a movie star.
 
 When he and Affleck talked as teenagers about the kind of actors they wanted to be, Damon always named Gene Hackman. Not Redford, not Newman — Hackman. His reference was The Conversation. He described what drew him: "Hackman could sit so deeply in a character and be so moving even when he was doing very little. He was so locked in." After reading Walter Murch's book on film editing, Damon learned that whenever Murch wanted to make a cut while editing The Conversation, Hackman would blink — as if the actor was editing the movie in his head while performing. This shaped everything about how Damon approaches screen acting: internal thought made visible through the smallest physical cues.
 
-Morgan Freeman, who worked with him on Invictus, put it simply: "He's like myself, a journeyman. There's no strain in his work."
+[Morgan Freeman](/personality-analysis/morgan-freeman), who worked with him on Invictus, put it simply: "He's like myself, a journeyman. There's no strain in his work."
 
 The strategy is deliberate. "Whatever those wholesome associations are that people say I have, having them allowed me a chance to work with clever directors who want to subvert that." This explains the through-line from Will Hunting to Tom Ripley to Colin Sullivan in The Departed — the ordinary face hiding increasingly disturbing interiors. Scorsese cast him in The Departed specifically for his "cocky attitude, a bravado" combined with boyish looks. Damon did ride-alongs with Massachusetts State Police, participated in a drug raid, and contributed character details to make Sullivan feel lived-in.
 

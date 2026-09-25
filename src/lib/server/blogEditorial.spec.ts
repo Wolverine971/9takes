@@ -569,6 +569,39 @@ describe('offline pipeline execution and checkpoint safety', () => {
 			else process.env.BLOG_PIPELINE_CLAUDE = previous;
 		}
 	});
+	it('resumes the same session to write outputs after the turn cap, and fails if that also caps', async () => {
+		const root = await workspace();
+		const executable = path.join(root, 'fake-claude');
+		const calls = path.join(root, 'calls.txt');
+		const run = (wrapUpExit: number) =>
+			fs
+				.writeFile(
+					executable,
+					`#!/bin/sh\necho "$*" >> "${calls}"\ncase "$*" in\n  *--resume*) [ ${wrapUpExit} -eq 0 ] && echo wrote && exit 0; echo "Error: Reached max turns (20)"; exit 1;;\n  *) echo "Error: Reached max turns (80)"; exit 1;;\nesac\n`
+				)
+				.then(() => fs.chmod(executable, 0o755))
+				.then(() =>
+					executeClaude('request.json', path.join(root, 'stage.log'), {
+						root,
+						maxTurns: 80,
+						timeoutSeconds: 5
+					})
+				);
+		const previous = process.env.BLOG_PIPELINE_CLAUDE;
+		try {
+			process.env.BLOG_PIPELINE_CLAUDE = executable;
+			await run(0);
+			const [first, second] = (await fs.readFile(calls, 'utf8')).trim().split('\n');
+			const session = first.match(/--session-id (\S+)/)?.[1];
+			expect(session).toBeTruthy();
+			expect(second).toContain(`--resume ${session}`);
+			expect(await fs.readFile(path.join(root, 'stage.log'), 'utf8')).toContain('wrote');
+			await expect(run(1)).rejects.toThrow('max turns');
+		} finally {
+			if (previous === undefined) delete process.env.BLOG_PIPELINE_CLAUDE;
+			else process.env.BLOG_PIPELINE_CLAUDE = previous;
+		}
+	});
 });
 
 describe('similarity phrase regression cases', () => {

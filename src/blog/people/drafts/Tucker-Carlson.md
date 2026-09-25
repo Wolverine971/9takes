@@ -251,7 +251,7 @@ The thing it reveals about the Six is the asymmetry. Tucker pressed Ted Cruz on 
 
 ## The Nick Fuentes Interview
 
-On October 28, 2025, Tucker sat down for two hours with Nick Fuentes — a Holocaust denier who has called for a Catholic Taliban, mocked the gas chambers in a baking-cookies analogy, and run a livestream movement (Groypers) explicitly organized around white-Christian-nationalist ideology. The backlash was immediate. Florida Representative Randy Fine called Tucker "the most dangerous antisemite in America." Ben Shapiro condemned the platforming. A Heritage Foundation board member resigned over the foundation's defense of Tucker. Senators Ted Cruz and Mitch McConnell condemned Heritage in turn.
+On October 28, 2025, Tucker sat down for two hours with Nick Fuentes — a Holocaust denier who has called for a Catholic Taliban, mocked the gas chambers in a baking-cookies analogy, and run a livestream movement (Groypers) explicitly organized around white-Christian-nationalist ideology. The backlash was immediate. Florida Representative Randy Fine called Tucker "the most dangerous antisemite in America." [Ben Shapiro](/personality-analysis/ben-shapiro) condemned the platforming. A Heritage Foundation board member resigned over the foundation's defense of Tucker. Senators Ted Cruz and Mitch McConnell condemned Heritage in turn.
 
 Tucker's defense was not that Fuentes' views are wrong. It was that the conservative establishment was lying to its base. Letting Fuentes talk, in that frame, was an act of trust toward viewers: *they* could be trusted to hear him and decide.
 

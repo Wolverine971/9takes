@@ -207,7 +207,7 @@ The chronology, compressed:
 - **February 2023.** She features on [PinkPantheress's](/personality-analysis/pinkpantheress) "Boy's a Liar Pt. 2." It peaks at number three on the Billboard Hot 100 — her highest-charting song to date — and pulls her into the pop and indie audience drill rap usually walls her out of.
 - **April 2023.** Nicki Minaj jumps on the "Princess Diana" remix. It peaks at number four on the Hot 100. The reigning queen of women in rap has officially co-signed.
 - **May 2023.** First Met Gala. Days later, [Taylor Swift](/personality-analysis/taylor-swift) adds her to the "Karma" remix.
-- **June 2023.** "Barbie World" with Nicki and Aqua debuts at number seven on the Hot 100 and charts top ten in fourteen countries. The Greta Gerwig _Barbie_ soundtrack puts her on every pop playlist on earth.
+- **June 2023.** "Barbie World" with Nicki and Aqua debuts at number seven on the Hot 100 and charts top ten in fourteen countries. The [Greta Gerwig](/personality-analysis/greta-gerwig) _Barbie_ soundtrack puts her on every pop playlist on earth.
 - **November 2023.** Best New Artist nomination at the Grammys, plus three more nods. She is the only rapper in the category.
 
 Read that as a strategy document, not a fan timeline. A 3w4 does not stumble into Nicki, PinkPantheress, Barbie, and Taylor in a calendar year. She lines them up. Each collaborator unlocks a different audience: drill rap, pop and indie, mass-market film tie-in, country-crossing white pop superstardom. By the time the Grammy ballots went out, there was no demographic she had not already shipped a song into.

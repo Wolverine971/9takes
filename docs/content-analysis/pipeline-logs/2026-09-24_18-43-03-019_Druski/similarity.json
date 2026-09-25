@@ -1,0 +1,197 @@
+{
+	"target": {
+		"person": "druski",
+		"type": "3",
+		"units": 13,
+		"file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/draft.md"
+	},
+	"comparison_set": [
+		{
+			"person": "ben-shelton",
+			"date": "2026-09-20",
+			"units": 9
+		},
+		{
+			"person": "Jonathan-Bailey",
+			"date": "2026-09-01",
+			"units": 33
+		},
+		{
+			"person": "Tate-McRae",
+			"date": "2026-08-27",
+			"units": 31
+		},
+		{
+			"person": "margaret-qualley",
+			"date": "2026-08-20",
+			"units": 28
+		},
+		{
+			"person": "alexandr-wang",
+			"date": "2026-08-18",
+			"units": 30
+		},
+		{
+			"person": "adela",
+			"date": "2026-08-14",
+			"units": 17
+		},
+		{
+			"person": "michael-jordan",
+			"date": "2026-08-14",
+			"units": 45
+		},
+		{
+			"person": "David-Beckham",
+			"date": "2026-08-12",
+			"units": 33
+		}
+	],
+	"n_requested": 8,
+	"noise_floor": {
+		"pairs_compared": 2938,
+		"median": 0,
+		"p90": 0,
+		"p99": 0.008,
+		"max": 0.051
+	},
+	"trip_threshold": 0.04,
+	"tripped": false,
+	"trip_pairs": [],
+	"per_draft_max": [
+		{
+			"person": "margaret-qualley",
+			"date": "2026-08-20",
+			"units": 28,
+			"maxScore": 0.051
+		},
+		{
+			"person": "michael-jordan",
+			"date": "2026-08-14",
+			"units": 45,
+			"maxScore": 0.037
+		},
+		{
+			"person": "alexandr-wang",
+			"date": "2026-08-18",
+			"units": 30,
+			"maxScore": 0.022
+		},
+		{
+			"person": "ben-shelton",
+			"date": "2026-09-20",
+			"units": 9,
+			"maxScore": 0.021
+		},
+		{
+			"person": "Tate-McRae",
+			"date": "2026-08-27",
+			"units": 31,
+			"maxScore": 0.021
+		},
+		{
+			"person": "Jonathan-Bailey",
+			"date": "2026-09-01",
+			"units": 33,
+			"maxScore": 0.017
+		},
+		{
+			"person": "David-Beckham",
+			"date": "2026-08-12",
+			"units": 33,
+			"maxScore": 0.016
+		},
+		{
+			"person": "adela",
+			"date": "2026-08-14",
+			"units": 17,
+			"maxScore": 0.01
+		}
+	],
+	"top_pairs": [
+		{
+			"score": 0.051,
+			"other_person": "margaret-qualley",
+			"shared_phrases": [],
+			"target": "[diagnosis] What tips the call to Three is his own account of what he is chasing.",
+			"other": "[diagnosis] Her own account of why she left dance for acting says the rest."
+		},
+		{
+			"score": 0.037,
+			"other_person": "michael-jordan",
+			"shared_phrases": [],
+			"target": "[diagnosis] An Eight guards against being controlled",
+			"other": "[diagnosis] The popular counter-read types him an Eight"
+		},
+		{
+			"score": 0.034,
+			"other_person": "margaret-qualley",
+			"shared_phrases": ["worth someth"],
+			"target": "[diagnosis] Type 3 is organized around being seen as successful and worth something.",
+			"other": "[diagnosis] Type 3s organize a life around being worth something"
+		},
+		{
+			"score": 0.034,
+			"other_person": "michael-jordan",
+			"shared_phrases": [],
+			"target": "[diagnosis] An Eight guards against being controlled",
+			"other": "[diagnosis] An Eight torches the sponsor and keeps the conviction."
+		},
+		{
+			"score": 0.031,
+			"other_person": "michael-jordan",
+			"shared_phrases": [],
+			"target": "[diagnosis] An Eight guards against being controlled",
+			"other": "[diagnosis] But an Eight runs on control and barely registers the audience."
+		},
+		{
+			"score": 0.023,
+			"other_person": "margaret-qualley",
+			"shared_phrases": [],
+			"target": "[diagnosis] and it gets a full hearing below.",
+			"other": "[counter-typing] and it would make her role choices primary rather than incidental."
+		},
+		{
+			"score": 0.022,
+			"other_person": "alexandr-wang",
+			"shared_phrases": [],
+			"target": "[diagnosis] What tips the call to Three is his own account of what he is chasing.",
+			"other": "[counter-typing] Two findings would overturn the call."
+		},
+		{
+			"score": 0.021,
+			"other_person": "ben-shelton",
+			"shared_phrases": [],
+			"target": "[diagnosis] Type 3 is organized around being seen as successful and worth something.",
+			"other": "[diagnosis] Type 3 is usually summarized as \"the achiever.\" A more useful description is someone whose sense of worth runs through being seen to deliver"
+		},
+		{
+			"score": 0.021,
+			"other_person": "alexandr-wang",
+			"shared_phrases": [],
+			"target": "[diagnosis] he defends his image instead of his territory.",
+			"other": "[counter-typing] He built a company that assembles expertise instead of a research group that generates it."
+		},
+		{
+			"score": 0.021,
+			"other_person": "Tate-McRae",
+			"shared_phrases": [],
+			"target": "[diagnosis] since every successful comedian has it.",
+			"other": "[counter-typing] she manifests the leaving so that she has it beat by the time it arrives."
+		},
+		{
+			"score": 0.017,
+			"other_person": "Jonathan-Bailey",
+			"shared_phrases": [],
+			"target": "[diagnosis] Type 3 is organized around being seen as successful and worth something.",
+			"other": "[counter-typing] Twos build identity around being needed"
+		},
+		{
+			"score": 0.016,
+			"other_person": "alexandr-wang",
+			"shared_phrases": [],
+			"target": "[diagnosis] \" and he measures himself against rivals he has never met.",
+			"other": "[diagnosis] and the company it produced is the most detailed thing he has ever said about himself. ---"
+		}
+	]
+}

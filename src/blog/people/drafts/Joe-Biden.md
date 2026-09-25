@@ -300,7 +300,7 @@ Then came Camp David. The Biden family (Jill, Hunter, the grandchildren) had alr
 
 The guardian was doing what the guardian does: closing ranks around the family.
 
-What followed was the most intense intra-party pressure campaign in modern political history. Nancy Pelosi told Biden privately that polls showed he couldn't win. Obama went quiet, his silence the loudest message. Major donors threatened to redirect funds to down-ballot races. More than 30 Democratic members of Congress called for him to step aside.
+What followed was the most intense intra-party pressure campaign in modern political history. [Nancy Pelosi](/personality-analysis/nancy-pelosi) told Biden privately that polls showed he couldn't win. Obama went quiet, his silence the loudest message. Major donors threatened to redirect funds to down-ballot races. More than 30 Democratic members of Congress called for him to step aside.
 
 The man who survived by being needed was being told he wasn't.
 

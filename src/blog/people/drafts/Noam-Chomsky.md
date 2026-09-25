@@ -114,7 +114,7 @@ FEEDBACK (2026-04-06):
 
 Once ranked as the most cited living author in the Arts & Humanities Citation Index, a man whose work reshaped linguistics, philosophy, cognitive science, and political theory, couldn't be bothered to think about lunch. No weekend adventures. Never went to the movies. Never took time off. When asked what he'd do with free time, he said he'd rather read a nineteenth-century novel. But he never had free time.
 
-What he had was a desk at MIT and a moral debt that compounded daily. His assistant intercepted over 300 emails every day. Messages about suffering, war, environmental collapse, political persecution. Chomsky tried to answer them all. "Because I take people seriously," he told economist Tyler Cowen in a 2003 interview. "I think people deserve respect."
+What he had was a desk at MIT and a moral debt that compounded daily. His assistant intercepted over 300 emails every day. Messages about suffering, war, environmental collapse, political persecution. Chomsky tried to answer them all. "Because I take people seriously," he told economist [Tyler Cowen](/personality-analysis/tyler-cowen) in a 2003 interview. "I think people deserve respect."
 
 A man who answers 300 letters a day about human suffering while eating a plain turkey sandwich is not optimizing his schedule. He is serving a sentence.
 

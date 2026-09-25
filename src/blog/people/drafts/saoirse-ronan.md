@@ -87,7 +87,7 @@ path: src/blog/people/drafts/saoirse-ronan.md
 
 And then she goes home to rural Ireland, mops the floor, walks her terrier named Fran along the coast, and makes sure you'll never see any of it.
 
-That gap — between the woman who inhabits every shade of human feeling on screen and the one who vanishes into the countryside the moment the camera cuts — is the most interesting thing about **Saoirse Ronan**. It's not the four Oscar nominations before age 26, or the collaboration with Greta Gerwig that felt more like creative telepathy, or the viral moment on Graham Norton that made an entire studio audience go silent.
+That gap — between the woman who inhabits every shade of human feeling on screen and the one who vanishes into the countryside the moment the camera cuts — is the most interesting thing about **Saoirse Ronan**. It's not the four Oscar nominations before age 26, or the collaboration with [Greta Gerwig](/personality-analysis/greta-gerwig) that felt more like creative telepathy, or the viral moment on Graham Norton that made an entire studio audience go silent.
 
 It's the gap itself. The depth and the disappearing. The fact that the actress who feels everything in front of you works very hard to make sure you'll feel nothing about her.
 
@@ -211,7 +211,7 @@ In growth, Fours integrate toward Type One — gaining principled action, moral 
 
 ## The Graham Norton Moment That Changed the Room
 
-October 2024. The Graham Norton Show. Eddie Redmayne is describing stunt training for _The Day of the Jackal_ — how he was taught he could use a cellphone as a self-defense weapon. Paul Mescal, a close friend of Saoirse's, immediately jokes: "Who's actually gonna think about that, though? If someone attacked me, I'm not gonna go: 'Phone!'"
+October 2024. The Graham Norton Show. Eddie Redmayne is describing stunt training for _The Day of the Jackal_ — how he was taught he could use a cellphone as a self-defense weapon. [Paul Mescal](/personality-analysis/paul-mescal), a close friend of Saoirse's, immediately jokes: "Who's actually gonna think about that, though? If someone attacked me, I'm not gonna go: 'Phone!'"
 
 The men laugh. The audience laughs.
 

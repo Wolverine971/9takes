@@ -199,7 +199,7 @@ The strange arc of Hozier's success mirrors his psychology. "Take Me to Church" 
 
 Then in 2024, "Too Sweet" became his first #1 in Ireland, the US, and the UK, making him the first Irish artist to top the Billboard Hot 100 since 1990. Worth noting: it happened a decade after his debut, after three full albums of artistic deepening, not at peak buzz. Type 4s tend to build slowly, investing in the work rather than the moment, and the compounding eventually shows.
 
-A Grammy nomination for Song of the Year followed. Then the TIME 100 Most Influential People list in 2025, where Noah Kahan described him as an artist who sounds "like he must be from a different time, or a better world." That phrase probably landed harder with Hozier than any chart position — it's the compliment that describes what he was trying to do.
+A Grammy nomination for Song of the Year followed. Then the TIME 100 Most Influential People list in 2025, where [Noah Kahan](/personality-analysis/noah-kahan) described him as an artist who sounds "like he must be from a different time, or a better world." That phrase probably landed harder with Hozier than any chart position — it's the compliment that describes what he was trying to do.
 
 He also won the Ivor Novello Award for Song of the Year and an HMMA Award for "Blood Upon the Snow" in God of War: Ragnarök — a Type 4 ending up soundtracking a mythological underworld was, perhaps, inevitable.
 

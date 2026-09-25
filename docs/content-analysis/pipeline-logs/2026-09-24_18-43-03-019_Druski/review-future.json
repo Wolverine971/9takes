@@ -1,0 +1,86 @@
+{
+	"schema_version": 3,
+	"role": "future",
+	"content_sha256": "17398e8c5e14d73d0ed48be19b583b430970adf3841382dd26a460814abe92a6",
+	"evidence_sha256": "cc5c59e99e6789b71d8a5e613bd422239a1666bc150c4043f1dd818666668af0",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "future-01",
+			"severity": "major",
+			"passage": "His father is a private person and had not responded publicly as of September 24, 2026.",
+			"problem": "The as-of date is the same day the allegation became public. S-DOACPOD puts the episode's pubDate at 24 Sep 2026 05:00 GMT, so the father had zero time to respond. A reader in 2028 will take a dated non-response by a private person accused of choking his wife and beating a child as a sustained silence. The FAQ is worse: \"His father has not responded publicly.\" (C123) is in the present tense with no date, so it becomes an unverified present-tense claim about a private third party as soon as the page ages. C54 and C123 have event triggers (\"any public statement\"), but nothing prompts the re-check that would make the as-of date meaningful.",
+			"acceptance_test": "The body says the account was released on September 24, 2026, and gives a no-response check date that is later than the release, set at publication (or it drops the non-response line entirely). The FAQ answer has the same explicit as-of date or leaves the line out. No sentence in the body or metadata states the father's silence in the present tense without a date. C54 and C123 carry that check date, and their review_trigger adds a scheduled re-check (for example, at publication and 30 days after) alongside the existing event trigger."
+		},
+		{
+			"id": "future-02",
+			"severity": "major",
+			"passage": "From 2022 to 2026, Druski almost never argues back. He recasts backlash as reach, apologizes when the hurt is close, and steps around powerful critics.",
+			"problem": "This generalization is the type thesis's discriminator, and the discriminator is also the thesis's falsifier. In the evidence record, C82, C107, C112 and C122 are all marked `stable` and have no review_trigger, so nothing fires if Druski later counterpunches a named critic (Cruz, Erika Kirk/TPUSA, Punch, the pastors), files suit against a critic, or reverses his defense of the whiteface sketches. The dated range in this sentence is durable. The open present-tense versions are not: the H2 \"Whiteface, Erika Kirk and a defense that never argues back\" (which also overstates the body's \"almost never\") and the FAQ \"Druski rarely argues back.\" (C122). Future readers will take those as current claims about the man. C71/C124 track retraction only. They don't track the behavior that would actually overturn Three over Eight.",
+			"acceptance_test": "C82, C112 and C122 (and C107 if it keeps the claim) are `time_sensitive`. Each has a review_trigger that names the falsifying observation: a public rebuttal or attack by Druski on a named critic, legal action he starts against a critic, or a reversal of his defense of either whiteface sketch. The FAQ answer is date-bounded (for example, \"From 2022 to 2026, Druski rarely argued back\"). The H2 matches the body's qualifier and is not an absolute present-tense claim. If the heading changes, the FAQ `anchor` whiteface-erika-kirk-and-a-defense-that-never-argues-back is updated to match."
+		},
+		{
+			"id": "future-03",
+			"severity": "minor",
+			"passage": "What tips the call to Three is his own account of what he is chasing.",
+			"problem": "Five-year test on the thesis: \"his own account\" here mostly means one interview released the day the page was researched. Of the 26 type_hypothesis for_claim_ids, about 15 cite only S-DOAC/S-DOACPOD (\"number one,\" \"thinking about my image,\" \"perceive myself as a failure,\" \"in reverse\"). The call does survive without that interview. GQ 2020 has the funniest-kid contest and \"I'ma prove it,\" Billboard December 2025 has \"outdo the guy,\" Billboard has \"never any backlash... reach,\" Rolling Stone 2024 has \"create my fan base,\" and there are the 2022 takedown and the 2024 on-stream apology. But the type-answer section doesn't show that. It gives the Billboard rivals line (\"he measures himself against rivals he has never met\") with no source or date. The next paragraph (\"Much of what follows comes from that interview\") makes the single-source dependence explicit, so a later reader sees the reclassification as resting on one September 2026 conversation. If Druski contextualizes, jokes off, or revises that interview, the tipping argument will look thinner than the record actually is.",
+			"acceptance_test": "The type-answer section (under \"What is Druski's personality type?\") names and dates at least one pre-2026 self-report next to the Diary of a CEO material, for example Billboard (December 2025) for the outdo line or GQ (2020) for the funniest-kid contest. That lets a reader see the rank motive in sources years apart. Read with every S-DOAC/S-DOACPOD-only sentence removed, the section still supports Three over Eight on dated evidence."
+		},
+		{
+			"id": "future-04",
+			"severity": "minor",
+			"passage": "On September 24, 2026, Steven Bartlett asked Druski what he got out of making people laugh.",
+			"problem": "September 24, 2026 is the episode's release date (S-DOACPOD pubDate), not the date of the conversation. The interview was recorded after June 28, 2026: the draft itself says Bartlett played him the June 28 \"JOE\" clip and that he talked about hosting the BET Awards. The exact recording date is unknown. The hook presents a publication date as the event date, and the FAQ repeats it (\"In a September 24, 2026, interview with Steven Bartlett\"). Several relative anchors inherit that date: \"Nine months earlier\" (Billboard), \"six years earlier\" (GQ), and the five-year horizon in the ending. Absolute dates are what future readers use to put the sequence together.",
+			"acceptance_test": "The hook and the FAQ date the conversation by release (for example, \"In an interview released September 24, 2026, Steven Bartlett asked...\"), or by a sourced recording date if one is found. No sentence says the conversation took place on September 24, 2026. \"Nine months earlier\" and \"six years earlier\" stay accurate relative to the stated release date."
+		},
+		{
+			"id": "future-05",
+			"severity": "minor",
+			"passage": "Next up, by his account, is a megachurch-pastor show with Mike Epps, and in May 2027, Universal's _The Catch_, where he reportedly plays <a href=\"/personality-analysis/emma-stone\">Emma Stone</a>'s security guard.",
+			"problem": "The closing section is carrying a slate of upcoming projects with a relative time phrase (\"Next up\") that has no absolute anchor. The Mike Epps show (C43, \"coming out in November\" 2026 per S-DOACPOD) goes stale within about two months, and _The Catch_ (C41, May 21, 2027) within eight. Both have triggers, but the prose will read as current until someone acts on them. The ending's real insight doesn't need this sentence: the belt callback and his own five-year self-prediction both rest on dated observations. The standard's durability-6 anchor is a conclusion that depends on current status.",
+			"acceptance_test": "The sentence is either cut or anchored to its source date (for example, \"In that interview he said his next projects were...\"), with no bare \"Next up.\" Read with the sentence removed, the ending still makes sense. C43 and C41 keep their triggers."
+		},
+		{
+			"id": "future-06",
+			"severity": "minor",
+			"passage": "He now sells to the platform that passed.",
+			"problem": "Several present-tense status claims have no date. (1) \"He now sells to the platform that passed.\" rests on a December 2025 greenlight report (C62) and his own September 2026 account; no premiere had been confirmed. The sentence is not in C62's passage or any other claim's, so no trigger covers it, even though it supports the discriminator. (2) \"Movie stars now sit beside him\" describes the 2025 audition series. (3) \"owns 4Lifers Entertainment, the company that pays for it\" (C51) is marked `stable`, but company ownership and the Coulda Been Records franchise can change through a sale, a studio deal or retirement of the character. (4) \"the youngest host in the show's history\" (C38, `stable`) is a record claim that a later host could break.",
+			"acceptance_test": "Each of the four is dated or reframed as a dated observation (for example, \"By December 2025 he was selling to the platform that had passed,\" \"Since 2025 movie stars have sat beside him,\" \"then the youngest host in its 25-year history\"). \"He now sells...\" (or its replacement) is added to a claim with a review_trigger (premiere, cancellation or retitling of the Netflix project). C51 is `time_sensitive` with a trigger for a sale or restructuring of 4Lifers or the end of Coulda Been Records."
+		},
+		{
+			"id": "future-07",
+			"severity": "minor",
+			"passage": "In December 2025 the case was dismissed without prejudice for failure to prosecute.",
+			"problem": "This FAQ answers an evergreen search question about a sexual-assault allegation (\"Was Druski cleared in the Diddy lawsuit?\"). The answer stops at a December 2025 dismissal without prejudice, which by definition allows refiling, and gives no as-of status. S-DOCKET's context says \"No refiled federal case found; state courts not checked,\" but neither the answer nor C125 records that limit or a check date. The trigger (\"Any refiled federal or state suit...\") depends on someone noticing. A 2029 reader can't tell whether the matter is closed or was never re-checked.",
+			"acceptance_test": "The FAQ answer adds a dated status line that matches what was actually checked, for example \"As of [check date], no refiled federal suit naming him had been found.\" It must not claim state courts were checked unless they were. C125 records the federal-only scope and the check date."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "He had described the same contest to GQ six years earlier: \"Some kids would be like, yo I wanna be best dressed or I wanna be the best athlete. I used to literally say in my mind in elementary school, 'I wanna be the funniest this year, I wanna be the funniest kid in the class.'\"",
+			"reason": "This is the durability anchor for the hook. A 2020 source independently corroborates the childhood contest, so the opening survives even if the 2026 interview is removed or revised."
+		},
+		{
+			"passage": "Nine months earlier, [Billboard](https://www.billboard.com/music/features/druski-number-ones-billboard-cover-story-interview-1236132075/) had asked what makes a star. Part of his answer: \"How can I outdo the guy who's somewhere in the world trying to outdo me?\"",
+			"reason": "It shows the rank motive in a source that predates the Diary of a CEO interview, linked and in his own words. This cross-time pattern is what keeps the Three call alive for five years."
+		},
+		{
+			"passage": "In December 2025 the case was dismissed without prejudice for failure to prosecute, not decided on the merits.",
+			"reason": "Precise, durable legal status. It resists the \"cleared\" drift that tends to creep into later edits and matches the order and docket."
+		},
+		{
+			"passage": "The Three reading is the best fit for what he says he wants. It is not a full account of the man.",
+			"reason": "A clear limit on the inference. New behavior over the next five years can complicate the page without falsifying an overclaim."
+		},
+		{
+			"passage": "The boy who used to step in after the belt now plays the man holding it, as a bit.",
+			"reason": "The ending's insight rests on two dated observations (his childhood account and the June 28, 2026 sketch), not on career status, so it survives the removal of the project slate. Here \"now\" is narrative present tied to a dated event, unlike the status \"now\"s flagged in future-06."
+		}
+	],
+	"assessment": "Five-year test: the thesis mostly passes. Take out the September 24, 2026 Diary of a CEO interview and a Three-over-Eight argument is still there on dated evidence: GQ 2020 (funniest-kid contest, \"I'ma prove it\"), Rolling Stone 2024 (\"create my fan base,\" \"good place\"), Billboard December 2025 (\"outdo the guy,\" \"never any backlash... reach\"), CBS February 2026, the 2022 takedown and the 2024 on-stream apology. But about 15 of the 26 for-claims come only from that same-day interview, and the type section doesn't show the older corroboration (future-03). The time-sensitive record is mostly well handled. Non-retraction, Forbes, Essence views and TPUSA leadership all have absolute as-of dates, and most changing facts have review triggers. The gaps: the father's non-response is dated to the day the allegation aired and is undated in the FAQ (future-01); the discriminator that could falsify the type call is untracked and appears in present tense in the H2 and FAQ (future-02); the hook conflates release date with conversation date (future-04); the ending leans on an unanchored project slate (future-05); and a few \"now\" and record claims are undated or uninventoried (future-06, future-07). The similarity advisory did not trip. Its top pairs are ordinary type vocabulary and transition phrasing: \"worth something\" echoes Margaret Qualley's Type 3 definition, and \"What tips the call\" echoes Qualley's \"Her own account\". The argument around them is Druski-specific, so there is no reuse finding. Risk flags stay raised: sensitive allegations (domestic violence, a suicide vow, the Parham suit, a child on a stream), contested typing, and a major thesis change from the live page's Type 8."
+}

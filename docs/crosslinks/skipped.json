@@ -435,6 +435,51 @@
 			"id": "/pop-culture/psychology-of-public-shame -> /personality-analysis/rupert-murdoch",
 			"reason": "quoted slideshow line ('he is friends with Rupert Murdoch'); not about Murdoch",
 			"date": "2026-09-24"
+		},
+		{
+			"id": "/personality-analysis/jonathan-bailey -> /personality-analysis/leonardo-da-vinci",
+			"reason": "people→people pass: trivia: a course he was expelled from, not about da Vinci",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/personality-analysis/hailey-bieber -> /personality-analysis/gigi-hadid",
+			"reason": "people→people pass: passing agency-roster mention; Gigi gets stronger sources",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/personality-analysis/kris-jenner -> /personality-analysis/stephen-a-smith",
+			"reason": "people→people pass: sentence attributes a \"pimp\" insult to him; do not spotlight it",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/personality-analysis/drake -> /personality-analysis/millie-bobby-brown",
+			"reason": "people→people pass: Drake texting controversy involving her as a minor",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/personality-analysis/aubrey-plaza -> /personality-analysis/miles-teller",
+			"reason": "people→people pass: inside her grief passage (a film she watched)",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/personality-analysis/aubrey-plaza -> /personality-analysis/anya-taylor-joy",
+			"reason": "people→people pass: inside her grief passage (a film she watched)",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/personality-analysis/hayao-miyazaki -> /personality-analysis/greta-thunberg",
+			"reason": "people→people pass: negated comparison (\"not a public crusader like\")",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/personality-analysis/duke-dennis -> /personality-analysis/druski",
+			"reason": "people→people pass: typing-methodology sentence, not prose about Druski",
+			"date": "2026-09-24"
+		},
+		{
+			"id": "/personality-analysis/ronald-reagan -> /personality-analysis/jimmy-carter",
+			"reason": "people→people pass: sentence implies Carter is 9w1; his page says Type 2 (typing conflict, T-40)",
+			"date": "2026-09-24"
 		}
 	]
 }

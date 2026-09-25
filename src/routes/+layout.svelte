@@ -725,7 +725,7 @@
 			<slot />
 		</main>
 
-		{#if !shouldUseOwnedChrome && $page.data.pageChrome !== 'header'}<Footer />{/if}
+		{#if !shouldUseOwnedChrome}<Footer />{/if}
 	</div>
 {/if}
 

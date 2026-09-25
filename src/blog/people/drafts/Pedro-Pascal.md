@@ -350,7 +350,7 @@ The role itself came through a lifelong friendship with director Matt Shakman. T
 
 Then, in the middle of the press tour, the coordinated smear campaign from the opening of this piece hit. AI-doctored videos. Fabricated narratives built on interviews that didn't exist. His response: charity links, irreverent Instagram replies ("later, gator!" to trolls threatening to unfollow; "that's too bad. Wait, no I don't give a shit" to former fans), and zero capitulation. The man who described himself as "much more vulnerable" at fifty handled the worst public attack of his career by refusing to perform distress.
 
-Robert Downey Jr., who hosted "homework days" for the new Avengers cast while filming _Doomsday_ at Pinewood Studios, told Vanity Fair that "Pascal's slow trajectory to becoming a household name who is on a wildly hot streak kind of reaffirms my faith in our industry."
+[Robert Downey Jr.](/personality-analysis/robert-downey-jr), who hosted "homework days" for the new Avengers cast while filming _Doomsday_ at Pinewood Studios, told Vanity Fair that "Pascal's slow trajectory to becoming a household name who is on a wildly hot streak kind of reaffirms my faith in our industry."
 
 The slow trajectory. Two decades of near-empty bank accounts, residual checks from bit parts, and getting fired from restaurants before a single person knew his name. The man Downey described didn't burst onto the scene. He endured into it.
 

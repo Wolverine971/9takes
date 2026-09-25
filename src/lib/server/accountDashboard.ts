@@ -514,7 +514,12 @@ export async function loadYourTakes(
 	const commentIds = ownTakes.map((row) => row.id);
 
 	const [questions, replies] = await Promise.all([
-		db.from(tables.questions).select('id, question, question_formatted, url').in('id', questionIds),
+		db
+			.from(tables.questions)
+			.select('id, question, question_formatted, url')
+			.in('id', questionIds)
+			// Flagged questions 404, so a take on one has nowhere to link.
+			.not('flagged', 'is', true),
 		db
 			.from(tables.comments)
 			.select('parent_id')
@@ -582,7 +587,8 @@ export async function loadActiveQuestions(
 		.from(tables.questions)
 		.select('id, question, question_formatted, url')
 		.in('id', topIds)
-		.eq('removed', false);
+		.eq('removed', false)
+		.not('flagged', 'is', true);
 
 	return ((questions ?? []) as QuestionCandidate[])
 		.filter((question) => question.url && questionText(question))
@@ -616,6 +622,7 @@ export async function loadQuestionOfTheDay(
 			.from(tables.questions)
 			.select('id, question, question_formatted, url, comment_count, created_at, last_comment_date')
 			.eq('removed', false)
+			.not('flagged', 'is', true)
 			.order('last_comment_date', { ascending: false, nullsFirst: false })
 			.limit(120),
 		db

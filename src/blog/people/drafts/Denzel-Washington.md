@@ -322,7 +322,7 @@ The pattern is always the same: the help is private, the advocacy is behind clos
 
 Lennis Washington died in June 2021 at ninety-seven years old.
 
-Denzel appeared on The Late Show with Stephen Colbert and did something he almost never does in public. He broke.
+Denzel appeared on The Late Show with [Stephen Colbert](/personality-analysis/stephen-colbert) and did something he almost never does in public. He broke.
 
 "A mother is a son's first true love," he said. "A son, especially their first son, is a mother's last true love."
 

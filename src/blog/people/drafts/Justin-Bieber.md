@@ -343,7 +343,7 @@ The internet lost its mind.
 
 > "Lazy." "The worst performance ever." "A $10 million karaoke set."
 
-Critics called it a dereliction of duty. The sexism discourse flared — Sabrina Carpenter had mounted a full-blown theatrical production the same weekend; Bieber turned up in a hoodie and hit shuffle. The _Daily Mail_ floated a theory that he "wasn't allowed" to perform his old songs in full because he'd sold his $200 million catalog to Hipgnosis in 2022. Music lawyers shredded the theory within hours — performance rights are covered by venue licenses regardless of who owns the masters. He didn't need a loophole. He chose the laptop.
+Critics called it a dereliction of duty. The sexism discourse flared — [Sabrina Carpenter](/personality-analysis/sabrina-carpenter) had mounted a full-blown theatrical production the same weekend; Bieber turned up in a hoodie and hit shuffle. The _Daily Mail_ floated a theory that he "wasn't allowed" to perform his old songs in full because he'd sold his $200 million catalog to Hipgnosis in 2022. Music lawyers shredded the theory within hours — performance rights are covered by venue licenses regardless of who owns the masters. He didn't need a loophole. He chose the laptop.
 
 The numbers told their own story. "Daisies," his closing song, cracked 11 million views on Coachella's YouTube channel within days — topping every other 2026 performance. Instagram clips from the set pulled 60 to 145 million views apiece. Twenty-one of his songs re-entered Spotify's Global Top 200 after the weekend — more than any other artist at the festival. His catalog surpassed 77 million streams in a single day, his biggest of the year.
 

@@ -1,7 +1,7 @@
 # Link Opportunities
 
-_Generated: 2026-09-24 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
-_Search data: GSC 2026-06-24 → 2026-09-22. 328 candidate links found (+108 weaker ones offered only for gate debt); 87 suppressed in `docs/crosslinks/skipped.json`._
+_Generated: 2026-09-25 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
+_Search data: GSC 2026-06-24 → 2026-09-22. 328 candidate links found (+108 weaker ones offered only for gate debt); 96 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
 Score = target's search demand × link deficit × mention strength × source visibility (cross-section links get a bonus).
@@ -102,3 +102,17 @@ Best hosts for one bridging sentence: `/pop-culture/breaking-points-enneagram-an
 | 4.16 | `/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis` (L204) | `/personality-analysis/britney-spears` | "Britney Spears" | Weeks later, Cooper posts a recap video set to "Circus" by Britney Spears — the same song Earle performed on Dancing with the Stars. Captio… |
 | 4.09 | `/enneagram-corner/how-type-8-challengers-actually-succeed` (L122) | `/personality-analysis/bert-kreischer` | "Bert Kreischer" | - **Rogan**: Brian Redban co-launched the podcast. His comedian circle — Tom Segura, Bert Kreischer, Joey Diaz — formed a content ecosystem… |
 | 4.01 | `/pop-culture/musk-vs-altman-trial-personality-dynamics` (L116) | `/personality-analysis/donald-trump` | "Donald Trump" | … an order to remain available for possible recall, he traveled to China with President Donald Trump. OpenAI's lawyers used the absence in … |
+
+## 4. People → people (personality-analysis → personality-analysis)
+
+A people page names another person who needs links (2 or fewer contextual links in) without linking them.
+Sources with 10+ internal links are skipped; at most 2 per source, and targets fill to 3.
+These pages live in the database: edit the draft, then sync (see `/crosslink-queue` step 4b).
+4 unlinked mentions found; top 4 after caps.
+
+| Target (in, impressions) | Source (line) | Anchor | Sentence |
+|---|---|---|---|
+| `/personality-analysis/tom-hardy` (1, 1,055) | `src/blog/people/drafts/Leonardo-DiCaprio.md` (L273) | "Tom Hardy" | Two years later, he finally won the Oscar. Five acting nominations, twenty-two years, an internet's worth of memes about his losses. The mo… |
+| `/personality-analysis/machine-gun-kelly` (1, 77) | `src/blog/people/drafts/Pete-Davidson.md` (L334) | "Machine Gun Kelly" | The NYPD conducted a welfare check. Ariana Grande rushed to 30 Rock. Machine Gun Kelly got on a plane. The whole thing played out in real t… |
+| `/personality-analysis/emma-stone` (1, 0) | `src/blog/people/drafts/Jimmy-Fallon.md` (L195) | "Emma Stone" | Lip Sync Battle, Box of Lies, Wheel of Musical Impressions, Egg Russian Roulette. The genius was never the games themselves. It was that he… |
+| `/personality-analysis/jamie-dimon` (2, 212) | `src/blog/people/drafts/Adam-Neumann.md` (L255) | "Jamie Dimon" | Behind the scenes, the establishment had reached its own verdict. Jamie Dimon — Neumann's personal banker, whose JPMorgan was the lead unde… |

@@ -142,7 +142,7 @@ All other Type/6 references are single bridging sentences inside narrative parag
 
 He has not yet stood up. He is already at work. He is already nervous.
 
-This is the routine of America's most-watched financial journalist — the man Wall Street CEOs sit across from when they want to be heard, and the man their lawyers warn them about when they don't. Hank Paulson took his calls during the worst week of the 2008 crisis. Jamie Dimon agrees to sit on his stage. [Sam Bankman-Fried](/personality-analysis/sam-bankman-fried) said yes against his own lawyer's advice, and walked into a room where Sorkin was holding a printed letter from a customer with the subject line _"Sam Bankman-Fried stole $2 million from me."_
+This is the routine of America's most-watched financial journalist — the man Wall Street CEOs sit across from when they want to be heard, and the man their lawyers warn them about when they don't. Hank Paulson took his calls during the worst week of the 2008 crisis. [Jamie Dimon](/personality-analysis/jamie-dimon) agrees to sit on his stage. [Sam Bankman-Fried](/personality-analysis/sam-bankman-fried) said yes against his own lawyer's advice, and walked into a room where Sorkin was holding a printed letter from a customer with the subject line _"Sam Bankman-Fried stole $2 million from me."_
 
 The contradiction lives in that under-the-covers phone. Sorkin is the trusted insider. He is also, at 4:25 a.m., afraid of what he doesn't yet know.
 

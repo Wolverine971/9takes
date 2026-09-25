@@ -110,7 +110,7 @@ Limitations: Light on testimony from people around Cardi B (collaborators, famil
 
 "I got jumped in the sixth grade real bad," she has said, "and after that, it changed me. It really, really did change me."
 
-Everything people love about Cardi B — the mouth that never closes, the fights she picks, the shoe she threw at Nicki Minaj, the Instagram Lives where she curses out ex-husbands and Presidents in the same breath — starts in the hallway of that school. A kid who learned that the world does not protect small girls in pink skirts. A kid who decided, at eleven or twelve, that she would never be small again.
+Everything people love about Cardi B — the mouth that never closes, the fights she picks, the shoe she threw at [Nicki Minaj](/personality-analysis/nicki-minaj), the Instagram Lives where she curses out ex-husbands and Presidents in the same breath — starts in the hallway of that school. A kid who learned that the world does not protect small girls in pink skirts. A kid who decided, at eleven or twelve, that she would never be small again.
 
 That is the engine. Not ambition, not talent, not charisma — although she has all three in volumes that shouldn't exist in one person. The engine is a decision she made as a child, and it is still running.
 
@@ -200,7 +200,7 @@ She recovered with a joke about weed. Of course she did.
 
 ## Why WAP Made Ben Shapiro Recite Lyrics on His Podcast
 
-"WAP" landed in August 2020 and hit number one within a week. The song's cultural half-life was much longer than that. By the time conservative pundit Ben Shapiro was on his daily show solemnly reading the self-censored lyrics like a coroner's report — "wet-ass p-word" — the song had become a culture-war beacon. The FCC eventually fielded more than 1,000 complaints about the Grammy performance alone, which featured a giant stiletto, a bed, and Cardi sharing the stage with Megan Thee Stallion.
+"WAP" landed in August 2020 and hit number one within a week. The song's cultural half-life was much longer than that. By the time conservative pundit [Ben Shapiro](/personality-analysis/ben-shapiro) was on his daily show solemnly reading the self-censored lyrics like a coroner's report — "wet-ass p-word" — the song had become a culture-war beacon. The FCC eventually fielded more than 1,000 complaints about the Grammy performance alone, which featured a giant stiletto, a bed, and Cardi sharing the stage with Megan Thee Stallion.
 
 That is a Type 8 paying a psychic cost on purpose.
 

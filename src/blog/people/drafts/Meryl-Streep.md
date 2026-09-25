@@ -142,7 +142,7 @@ He was fourteen years her senior, a character actor's character actor — Fredo 
 
 In 1977, Cazale was diagnosed with lung cancer. Terminal.
 
-For five months, Streep was at his side at Memorial Sloan Kettering while they simultaneously shot _The Deer Hunter_. When the studio wanted to drop the dying Cazale from the film, Streep threatened to quit. Robert De Niro reportedly covered the insurance costs to keep him on.
+For five months, Streep was at his side at Memorial Sloan Kettering while they simultaneously shot _The Deer Hunter_. When the studio wanted to drop the dying Cazale from the film, Streep threatened to quit. [Robert De Niro](/personality-analysis/robert-de-niro) reportedly covered the insurance costs to keep him on.
 
 In a letter to a drama teacher during his illness, she wrote: **"He has very wonderful care, and I try not to stand around wringing my hands, but I am worried all the time and pretending to be cheery all the time, which is more exhausting mentally, physically, emotionally than any work I've ever done."**
 

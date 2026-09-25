@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "critic",
+	"content_sha256": "17398e8c5e14d73d0ed48be19b583b430970adf3841382dd26a460814abe92a6",
+	"evidence_sha256": "cc5c59e99e6789b71d8a5e613bd422239a1666bc150c4043f1dd818666668af0",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "critic-01",
+			"severity": "major",
+			"passage": "The sketches are the Eight's strongest evidence: a large public risk, taken twice, never taken back.",
+			"problem": "The draft leaves out the clearest case of him doubling down, even though the research record has it as an opened source (S-PROUD). Complex (Trace William Cowen, July 6, 2026) reports that Druski 'again revived the remarkably transformative look he donned for his ... \"Proud to Be American\" skit' in a Fourth of July clip. That came after Cruz's 'beneath contempt,' Trump's April 1, 2026 'sue their ass off' remark, and Erika Kirk's April 29 on-air 'comedians dressing up in whiteface.' So 'taken twice' and 'still made two whiteface sketches' (unexplained section) undercount. More importantly, a man said to be guarding a 'good-hearted' image went back to the whiteface look three months after the target herself complained. That is the most Eight-like fact on record and the most direct test of the image-protection reading, and the reader never sees it.",
+			"acceptance_test": "The body reports the July 2026 whiteface revival with date and source (Complex, July 6, 2026). No sentence says the whiteface was done only twice unless it specifies 'two sketches' as distinct from later appearances. Either the whiteface section or 'What the Type 3 reading leaves unexplained' says in one or two sentences how the Three reading handles his return to the look after the backlash, or admits that it doesn't."
+		},
+		{
+			"id": "critic-02",
+			"severity": "major",
+			"passage": "From 2022 to 2026, Druski almost never argues back. He recasts backlash as reach, apologizes when the hurt is close, and steps around powerful critics.",
+			"problem": "This discriminator is presented as separating 3 from 8, but the draft never tests the obvious Eight version of the same facts: Eights pick their battles, ignore critics they consider beneath notice, and go all-out when a threat is real. The evidence record concedes this (C107 alternative: 'An Eight may also decline to engage critics it considers beneath notice'), but the prose doesn't. The one existential threat got a full counterattack: a public 'fabricated lie' statement and a motion for sanctions against the plaintiffs. The draft files that under 'When the charge was a matter of fact, he fought,' a category invented after the fact that shields the discriminator from its only real test. The taunts also get coded selectively. 'AM I CANCELLED?' and the deleted 'too far?' post (paired, per S-AOL, with a childhood photo of him beside an older white man his rep later said was a neighbor) mock the critics. They are dismissive jabs, not image defense, and dismissive jabs are Eight-consistent. The FAQ makes this same criticism test the deciding factor ('What tips it to Three is how he handles criticism'), while the body says the deciding factor is 'his own account of what he is chasing.'",
+			"acceptance_test": "Next to the Type 8 case or the whiteface discussion, the article states the selective-engagement Eight reading in plain terms and names one observation that separates it from image protection, or concedes that criticism-handling can't separate the two. The sanctions motion is discussed as a counterpunch within the type argument, not only as a legal outcome. 'AM I CANCELLED?' and the 'too far?' post are acknowledged as taunts. 'Almost never argues back' and 'Druski never argues with Cruz or Kirk' are narrowed to what the record supports. The FAQ's reason for choosing Three matches the body's."
+		},
+		{
+			"id": "critic-03",
+			"severity": "major",
+			"passage": "\"I'm going to show them by doing it myself and having them wanting what I did in reverse,\" he told Bartlett. \"Now they want to purchase these shows that we've made and do more in the future.\"",
+			"problem": "These two quotes carry the central 3-versus-8 argument about self-funding, and they are spliced in reverse order. In the publisher transcript, 'Now they want to purchase these shows' comes at 01:26:00, 72 seconds before 'having them wanting what I did in reverse' at 01:27:12. Presenting them as consecutive builds a tidier aim-then-payoff story than he told. The draft also leaves out the lines around them that complicate its reading. First, 01:25:46: 'I started to just believe in myself and not turn around and try to, Oh, I'm going to come back and try to do the same proposal again'. Second, 01:27:07: 'I'm going to show them not by coming back and doubling back'. Third, right after the quote, 01:27:17: 'And maybe they don't want that. Maybe they'll see what I was capable of doing.' Refusing to go back and ask the gatekeepers again is the autonomy half that fits Eight. 'Maybe they don't want that' undercuts 'Druski describes building his so that the companies that said no would come asking.' What he actually says he wanted is to 'show them' what he could do, which proves something to them. It is not the same as wanting them to come asking.",
+			"acceptance_test": "The quotes either appear in their real order or are clearly marked as separate moments. The article includes or accurately paraphrases 'not by coming back and doubling back' and 'maybe they don't want that.' The sentence 'Druski describes building his so that the companies that said no would come asking' is restated to match what he said (showing them what he could do), and the article concedes that refusing to ask again fits the Eight reading."
+		},
+		{
+			"id": "critic-04",
+			"severity": "major",
+			"passage": "A child who steps between a violent parent and a sibling could become an Eight, a Two or a Six.",
+			"problem": "This dramatizes an allegation against a private person beyond what the subject said, and it pumps up the Eight case. In the publisher transcript (00:10:58-00:11:22) his 'step in' means comfort: 'to try to be like a coping mechanism for him,' and 'I would always try to be, oh, the funny guy, maybe at the dinner after or maybe after the next day goes by and I'm trying to lift everybody's vibe up.' In the door story he says he was frozen 'between a rock and a hard place,' not that he intervened. The draft then reuses the physical-intervention reading as evidence three more times: 'He stepped in for his brother' (Eight case), 'the child who stepped in when his father turned on his brother, which fits an Eight's protectiveness' (unexplained), and the closing 'The boy who used to step in after the belt.' The closing line also shrinks what he described, since he said the beating was 'very far, very, not the normal belt type thing. It was very, very far.' The draft also leaves out the passage that follows, which bears on the alternatives: 'I can read a room and sense any type of danger ... I always have been a good judge of character ... that has helped me in my career' (00:12:06-00:12:21). That reads as vigilance and mood repair (6/7/2/9), not protective force.",
+			"acceptance_test": "No sentence says or implies that he physically placed himself between his father and his brother or mother. Paraphrases of 'step in' match his own account: comfort, humor, lifting the mood, during or after. The Eight case and the unexplained section either drop child protectiveness as Eight evidence or restate it as comforting. The closing line no longer implies physical intervention and no longer reduces what he described to 'the belt'. If the room-reading quote is used, it is tied to the Six or mood-repair alternative."
+		},
+		{
+			"id": "critic-05",
+			"severity": "major",
+			"passage": "He goes silent when the critic is a mother on TikTok or a senator. An Eight tends to treat an apology as ground given up. Druski gives that ground readily when the person hurt is someone he can see.",
+			"problem": "'The pattern is clear' doesn't hold up against the draft's own examples. The 2022 takedown answered anonymous online viewers, who are as distant as the TikTok mother, and the evidence record admits this (C112 alternative: 'the 2022 takedown came after audience reaction, not a face-to-face hurt'). There are obvious non-type reasons for the silences: the draft itself reports that the mother's videos used racial slurs about him, and the Kirk silence came with a reported cease-and-desist and a presidential lawsuit suggestion. The draft also doesn't mention a named critic who got no reply: former NFL safety T.J. Ward publicly objected to his early-September 2026 CTE sketch 'Athletes Get Concussions & LOSE THEIR MINDS' (iHeart/Steve Harvey Morning Show, September 3, 2026). That sketch also tests his claim that nothing he does punches down. So the 'someone he can see' rule is a sorting done after the fact, and the draft leans on it as one leg of the case against Eight.",
+			"acceptance_test": "'The pattern is clear' is removed or made tentative. The 'someone he can see' rule is either restated to fit all its examples (the 2022 takedown answered online viewers) or presented as one possible reading. The slurs, the legal exposure and brand incentives appear next to it as competing explanations for the silences. Either the September 2026 CTE-sketch criticism is noted with source and date, or the evidence record explains why it was left out."
+		},
+		{
+			"id": "critic-06",
+			"severity": "minor",
+			"passage": "On Diary of a CEO, when Bartlett said it \"sounded like\" Donald Trump had urged Kirk to sue, Druski said he didn't know if it was about him and \"just left it alone.\" Then: \"I'm not looking to get sued by nobody.\"",
+			"problem": "Two problems with context. First, the Trump remark is on the record, not just Bartlett's impression. The Daily Beast (Cameron Adams, April 1, 2026) quotes Trump at a White House Easter lunch: 'I think you should sue them... Sue their ass off,' without naming Druski. Framing it only as the host's 'sounded like' hides from readers how much legal pressure explains the silence the draft reads as image protection. Second, 'I'm not looking to get sued by nobody' (01:19:50) answered Bartlett's tease 'You're hoping he was' (talking about him). He was denying that he wanted the attention, not stepping around a critic. 'Then:' makes it look like part of an unprompted retreat.",
+			"acceptance_test": "The article states Trump's remark as reported (April 2026, White House event, did not name Druski) with a source, or clearly says it was reported but not verified. The 'not looking to get sued' line either comes with Bartlett's prompt or is no longer presented as evidence of avoiding powerful critics."
+		},
+		{
+			"id": "critic-07",
+			"severity": "minor",
+			"passage": "The boss dominates the contestants. When this star pushed back, he conceded in two words and turned it into a bit.",
+			"problem": "The draft treats performance inconsistently. The boss persona is set aside as 'a character he built' and so not Eight evidence. Yet a moment inside the same produced show, answering what the draft itself calls Wahlberg's 'mock threat,' is read as real behavior, a concession that counts against Eight. A comic 'My bad' in a scripted bit is timing, not proof of how he handles a real challenge. The evidence record rates it 'Weak either way' (C74), but the prose presents it as a telling contrast.",
+			"acceptance_test": "The Wahlberg exchange is either treated as performance, like the boss persona, and not used as behavioral evidence, or is explicitly marked as weak evidence from a produced bit. The sentence 'When this star pushed back, he conceded' no longer implies a real concession."
+		},
+		{
+			"id": "critic-08",
+			"severity": "minor",
+			"passage": "[Type 7](/enneagram-corner/enneagram-type-7) explains his lightness better than either (\"I don't care for none of that serious stuff,\" he told Bartlett).",
+			"problem": "Both Seven quotes lose their context. 'I don't care for none of that serious stuff' and 'People ask me all these deep questions ... I don't look at anything like that' (01:16:18-01:16:24) come in the middle of his answer to Bartlett's brand-safety and punching-down question. They are said in the same breath as 'I'm not a political guy ... I am just the guy here for laughs,' which the draft counts as Three image protection. So one deflection is counted as evidence for two different types, and it is presented as a statement about temperament. The Seven alternative is also never actually tested: no observation is offered that separates 3 from 7.",
+			"acceptance_test": "Either the Seven quotes are identified as part of his answer about political and punching-down risk, or the Seven case uses other evidence (for example 'soothing' 'chaos situation of work and juggling multiple projects', or humor as mood repair). The article gives at least one sentence on what separates Three from Seven."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "When the answer wasn't him, he pushed. \"Like, why is Mikey funnier than me? Tell me why.\"",
+			"reason": "A specific, well-sourced opening that carries the thesis. Two tellings six years apart (GQ 2020, DOAC 2026) make it the strongest evidence for Three, and it doesn't depend on the criticism-handling argument."
+		},
+		{
+			"passage": "The Three reading takes something narrower from his childhood: a boy asking classmates to rank him, in a home where \"you could have done better\" was the standing answer.",
+			"reason": "Honestly limits what the childhood can be used for and keeps the type argument from blaming the domestic violence. Keep this while repairing the 'steps between' sentence before it (critic-04)."
+		},
+		{
+			"passage": "Billboard's acid test names the other half: in comedy, never apologizing is also a business model.",
+			"reason": "Puts the incentive explanation directly against the author's own motive reading, in a critic's words. This is the fair-minded move the rest of the discriminator needs more of."
+		},
+		{
+			"passage": "The Three reading is the best fit for what he says he wants. It is not a full account of the man.",
+			"reason": "States the thesis at the right strength. The unexplained section is a real one, not a formality, and should grow (critic-01) rather than shrink."
+		},
+		{
+			"passage": "Bartlett played him the clip. \"Yeah, that was some aspects of Joe Jackson that my dad had,\" Druski said. \"It wasn't hard to rip that belt off, man. I've seen it before.\"",
+			"reason": "The most original detail that will still matter in five years. Quotes check out against the publisher transcript (01:46:34-01:46:48). Keep the exchange even if the closing gloss after it is revised (critic-04)."
+		}
+	],
+	"assessment": "The draft confronts adverse evidence better than most: it states the Eight case at full strength, puts the business incentive next to the motive claims, and keeps a real unexplained section. The weak point is the criticism-handling discriminator. Each of its three legs (recasts backlash, repairs close hurts, sidesteps the powerful) has a problem. The July 2026 whiteface revival is left out (critic-01). The selective-engagement Eight reading and the sanctions motion aren't addressed (critic-02). The 'in reverse' self-funding quote is spliced out of order with its hedges removed (critic-03). The apology rule is a sorting done after the fact (critic-05). The Eight case is also inflated in one place, by turning comic comfort into physical protection in a sensitive passage (critic-04). What survives is the self-reported drive for rank and fear of failure: the classroom poll (GQ 2020, DOAC 2026), 'I really want to be number one' (an unprompted monologue at 00:57:04, not a leading question), 'perceive myself as a failure', 'No, not yet' on fulfillment, and Billboard 2025's 'outdo' line. That is a defensible basis for a medium-confidence Three. The article should rest the call there and treat criticism-handling as supporting, contested evidence. Checked for this review: the publisher VTT transcript (S-DOACPOD) at 00:10:44-00:12:21, 00:52:59-00:54:13, 00:55:43-00:57:55, 01:06:43-01:07:36, 01:14:25-01:17:14, 01:18:38-01:20:11, 01:24:23-01:28:36 and 01:46:08-01:46:55. Also Complex (July 6, 2026, revival), iHeart (September 3, 2026, CTE sketch) and the Daily Beast (April 1, 2026, Trump remark). AOL's 'hits back' article returned 404 and was not used. Similarity advisory: not tripped. The top leads (Margaret Qualley 0.051, Michael Jordan 0.037) share only everyday diagnosis framing and type vocabulary ('worth something'). The arguments differ, so no reuse finding. Risk flags carried forward: the father allegation, the Diddy suit and the Mafiathon child (sensitive); the 8-to-3 change against the live page (contested typing, major thesis change)."
+}

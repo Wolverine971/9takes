@@ -1,0 +1,86 @@
+{
+	"schema_version": 3,
+	"role": "enneagram",
+	"content_sha256": "17398e8c5e14d73d0ed48be19b583b430970adf3841382dd26a460814abe92a6",
+	"evidence_sha256": "cc5c59e99e6789b71d8a5e613bd422239a1666bc150c4043f1dd818666668af0",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "enneagram-01",
+			"severity": "major",
+			"passage": "[Type 7](/enneagram-corner/enneagram-type-7) explains his lightness better than either (\"I don't care for none of that serious stuff,\" he told Bartlett). What tips the call to Three is his own account of what he is chasing.",
+			"problem": "The article's main discriminator rules out Eight but not Seven. The anti-Eight behavior is textbook Seven reframing and moving on. He turns backlash into approval (\"it really was never any backlash. Everybody loved it\"). He \"just left it alone.\" He says \"We have too much shit that we're pursuing.\" He jokes to \"lift everybody's vibe up\" and frames forgiveness as \"the light at the end of the tunnel.\" He took \"quick, easy\" scams and finds juggling projects \"soothing.\" Some of it is also Nine-style conflict avoidance. Seven gets one sentence and a concession in the unexplained section, with no test. A reader who knows Sevens will see the case against Eight doubling as a case for Seven. The body and FAQ also disagree on what decides the call. The body says it is \"his own account of what he is chasing.\" FAQ 1 says \"What tips it to Three is how he handles criticism,\" which is the test that can't separate Three from Seven.",
+			"acceptance_test": "Near the type answer, a short paragraph runs an explicit Three-vs-Seven test using evidence already in the draft. It says plainly that the reframe-and-move-on response to criticism fits Seven as well as Three. It names what separates them: a Seven chases options and avoids pain or limits, while Druski ranks himself against others and calls failure the outcome he can't accept (\"Tell me why,\" \"perceive myself as a failure,\" \"outdo the guy,\" \"number one,\" no vacations). The body and FAQ 1 describe the same two-step discriminator: how he handles criticism rules out Eight, and rank and fear of failure rule out Seven."
+		},
+		{
+			"id": "enneagram-02",
+			"severity": "major",
+			"passage": "Druski describes building his so that the companies that said no would come asking. \"I'm going to show them by doing it myself and having them wanting what I did in reverse,\" he told Bartlett. \"Now they want to purchase these shows that we've made and do more in the future.\"",
+			"problem": "This is the core Three-over-Eight evidence, and the draft presents it more cleanly than the source does. In the publisher transcript, \"Now they want to purchase these shows that we've made and do more in the future\" comes at 01:26:00, in an earlier answer. \"In reverse\" comes at 01:27:12, about 70 seconds later. The draft puts them in reverse order as consecutive speech, so the purchase reads as the payoff of the stated aim. The words right after \"in reverse\" are cut: \"And maybe they don't want that. Maybe they'll see what I was capable of doing and then wanting to do other things.\" That hedge weakens \"so that the companies that said no would come asking.\" Also, \"I'm going to show them not by coming back and doubling back... show them by doing it myself\" is a statement about refusing to re-pitch and flipping the leverage, which an Eight could make just as easily. Selling to Netflix from strength doesn't show he gave up control; the draft doesn't establish the deal terms.",
+			"acceptance_test": "The two quotes appear in transcript order or are clearly marked as separate moments. The \"maybe they don't want that\" hedge is quoted, or the \"so that the companies that said no would come asking\" sentence is softened to match what he said. The paragraph admits the leverage reading of \"show them... in reverse\" and says what tips it toward Three. The cut line \"Maybe they'll see what I was capable of doing\" (being seen as capable) is the natural evidence. The Netflix sale is not treated as proof that he gave up control."
+		},
+		{
+			"id": "enneagram-03",
+			"severity": "major",
+			"passage": "The sketches are the Eight's strongest evidence: a large public risk, taken twice, never taken back.",
+			"problem": "The draft leaves out the strongest test of its own image-protection argument. Complex (July 6, 2026; S-PROUD in the evidence record, reopened for this review) reports that he \"again revived\" the whiteface \"Proud to Be American\" look for the Fourth of July 2026. That was three months after Erika Kirk's April 2026 on-air rebuke and after Senator Cruz's condemnation. That is returning to the risk, not just declining to retract it. The draft says \"taken twice\" here and \"still made two whiteface sketches\" in the unexplained section, which understates the Eight case where it is strongest. The revival cuts both ways: it fits an Eight who won't be cowed, and it supports the draft's untested \"views are his scoreboard\" guess (Complex calls it one of his most popular skits; no backlash was reported). Either way the Three argument has to deal with it.",
+			"acceptance_test": "The whiteface section includes the July 2026 revival with a date and a source link (hedging the promo-shoot origin as Complex does). \"Taken twice\" and \"two whiteface sketches\" are corrected. One or two sentences say what the revival does to the Eight-vs-Three test: either admit it as the clearest Eight-leaning act, or show it supports the reach-as-scoreboard reading. The \"defense never argues back\" framing is not left to carry the argument alone."
+		},
+		{
+			"id": "enneagram-04",
+			"severity": "major",
+			"passage": "An Eight tends to treat an apology as ground given up. Druski gives that ground readily when the person hurt is someone he can see.",
+			"problem": "This leg of the discriminator relies on an Eight stereotype and is sorted after the fact. (a) Eights are known for protecting children and the vulnerable. The draft counts his stepping in for his brother as Eight evidence, so a quick on-stream apology to a crying nine-year-old can't also count against Eight. (b) The rule doesn't fit its own cases. The 2022 takedown answered distant viewers, not \"someone he can see.\" The mother of the child he hurt in front of him got silence, and her videos used racial slurs about him, which is a reason for silence that has nothing to do with type. (c) The type section says he \"almost never argues back,\" yet he moved for sanctions in the Parham suit. That is a counterpunch, and the draft sets it aside with \"When the charge was a matter of fact, he fought.\" Three apologies and one fight, sorted after the fact, don't make a discriminator.",
+			"acceptance_test": "The \"Eight treats an apology as ground given up\" generalization is removed or qualified. The child apology is squared with the protectiveness the draft counts toward Eight. The 2022 takedown is described accurately (a response to viewers). The sanctions motion is named as an exception to \"almost never argues back,\" with the reason it doesn't separate the types (anyone fights a false sexual-assault accusation). Alternatively, the pattern is restated as managing image cost, with PR and legal prudence acknowledged as a competing explanation."
+		},
+		{
+			"id": "enneagram-05",
+			"severity": "minor",
+			"passage": "Still, by his own account, the boss needed a push to go solo.",
+			"problem": "The draft's first answer to \"the Type 8 case at full strength\" is its weakest evidence. It is an auto-captioned \"you could say that\" in reply to a leading question from Shannon Sharpe. In the same breath (S-SHAY excerpt) he widens it to \"something that kind of gets stuck to some people who do social media.\" Early-career fear of going solo is a matter of circumstance, not a way to tell Eight from Three. The Wahlberg beat just above has the same problem: conceding to a mock threat inside his own comedy format is the joke, not a behavioral tell. The evidence record calls that exchange \"weak either way.\"",
+			"acceptance_test": "The \"It doesn't stop there\" paragraph either calls the Hart exchange weak and circumstantial or points ahead to the stronger evidence in the self-funding and criticism sections. It either includes his widening continuation or drops the \"by his own account\" certainty. The Wahlberg exchange is not framed as evidence against Eight."
+		},
+		{
+			"id": "enneagram-06",
+			"severity": "minor",
+			"passage": "What leans Three is the scoreboard he kept: followers before money, and a list of goals that reads like a set of stages to be seen on.",
+			"problem": "Neither half leans Three over Eight. On record, the only line of the list he supplied himself is \"No plan B, your plan A will work.\" The tour, awards-show and movie items came from Bartlett and were confirmed under a leading question, as the draft itself says a few lines up. Counting followers before money is simply how any creator's business works at 21. So the sentence reads Three into material that doesn't discriminate, right after conceding that \"an Eight could make\" the vow.",
+			"acceptance_test": "The lean rests on words he offered unprompted, or the sentence says the list items were Bartlett's and that follower counts are every creator's first metric. It names what would separate this vow from an Eight's \"I'ma show y'all,\" or it drops the claim that this section leans Three."
+		},
+		{
+			"id": "enneagram-07",
+			"severity": "minor",
+			"passage": "That distrust fits an Eight or a Six as well. The fear of being loved for the persona is the Three part.",
+			"problem": "The draft calls the persona-love fear Three-specific right after quoting him calling it \"a question in every superstar's mind.\" In the transcript (00:21:19-00:21:34), he offers it to rebut Bartlett's \"Is that just a convenient excuse for the whole avoidant?\" So it is a fame worry he himself calls universal, raised defensively. The preceding claim that \"The cost shows up where a Three's usually does\" gives a type-specific cost to a circumstance all celebrities share.",
+			"acceptance_test": "The persona-love fear is presented as consistent with Three rather than diagnostic, or it is tied to evidence that reinvention is his choice rather than a side effect of fame. The Michael Jackson answer (\"He changed his persona\") and the five-year goal (\"You don't see the Druski that you once saw\"), both already in the draft, would do this. The sentence no longer claims a type-specific cost for a worry he calls universal."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Ambition alone can't show that, since every successful comedian has it. The better test is what Druski protects when the verdict turns against him.",
+			"reason": "It refuses the achievement-equals-Three shortcut and replaces it with a testable question about motive. This is the right frame even though the test needs a Seven leg."
+		},
+		{
+			"passage": "None of this settles his type, and this page doesn't claim the house made him a Three. A child who steps between a violent parent and a sibling could become an Eight, a Two or a Six.",
+			"reason": "It keeps sensitive childhood material off childhood-wound causation and names the competing types honestly. Keep it through any tightening of the type argument."
+		},
+		{
+			"passage": "Billboard's acid test names the other half: in comedy, never apologizing is also a business model.",
+			"reason": "It states the professional-incentive alternative right beside the motive claim, in a sourced, memorable line, instead of leaving it for a disclaimer."
+		},
+		{
+			"passage": "The Three reading is the best fit for what he says he wants. It is not a full account of the man.",
+			"reason": "It ends the unexplained section at the right level of confidence. Together with that section's list of gaps (whiteface, the protective child, the scamming years, Seven lightness), this is the article's strongest guard against stereotyped typing."
+		},
+		{
+			"passage": "The boy who used to step in after the belt now plays the man holding it, as a bit.",
+			"reason": "A distinctive, verified contradiction that the type argument doesn't absorb, and it survives the five-year test. The draft doesn't force it into a wing, arrow or subtype explanation."
+		}
+	],
+	"assessment": "Type 3 at medium confidence is defensible, and the draft avoids the usual traps. No wing, arrow or subtype is used to explain away contradictions. Ambition is explicitly ruled out as proof. The childhood material stays off causation. The 'unexplained' section is candid and survives the argument. The weakness is the discriminator. The criticism test (reframe, claim good intent, walk away) argues well against Eight but fits Seven just as well, and Seven gets no test; the body and FAQ 1 also disagree on what tips the call. Two legs of the anti-Eight case are softer than presented: the 'in reverse' quote is spliced out of transcript order with its hedge dropped, and the apology pattern relies on an Eight stereotype that contradicts the draft's own use of protectiveness as Eight evidence. The July 2026 whiteface revival (Complex, already in the evidence record) is omitted, which understates the Eight case where it is strongest. Fixing these should sharpen the Three call, not overturn it: the rank-and-failure evidence and the cut 'see what I was capable of' line are real Three signals. Similarity leads (margaret-qualley 0.051, michael-jordan 0.037) are ordinary type vocabulary and generic 'own account' phrasing, not reused arguments. Opened for this review: the DOAC publisher transcript (00:20:51-00:21:34, 00:53:02-00:53:42, 00:56:18-00:57:49, 01:16:00-01:16:24, 01:19:06-01:19:38, 01:24:53-01:27:22, 01:32:54-01:33:17, 01:35:44-01:36:14) and Complex, July 6, 2026 (S-PROUD). Risk flags confirmed: contested typing, major thesis change (8 to 3), sensitive allegations."
+}

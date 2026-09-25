@@ -243,7 +243,7 @@ When Tiana was born, he was in the delivery room for every contraction, cut the 
 
 He's been explicit about wanting to be different from Rocky. "My dad was tough. He kicked my ass." With his daughters: "The intention is to just be a good dad and be there. That means taking them to school every morning, picking them up, taking them to soccer, being that dad."
 
-This matters because of what happened in late 2022. Representatives from multiple political parties showed up at his door. They brought polling data. One survey showed 46% of Americans wanted him to run for president. They brought "deep-dive research" proving he'd be a real contender. "It was one after the other," he told Trevor Noah.
+This matters because of what happened in late 2022. Representatives from multiple political parties showed up at his door. They brought polling data. One survey showed 46% of Americans wanted him to run for president. They brought "deep-dive research" proving he'd be a real contender. "It was one after the other," he told [Trevor Noah](/personality-analysis/trevor-noah).
 
 For a Type 3, this was the ultimate validation: a new arena, the biggest one possible, with data proving he'd win. And he said no.
 
@@ -293,7 +293,7 @@ Blunt later said: "I'd been waiting for my friend to get the chance to disappear
 
 Safdie won the Silver Lion for Best Director. Johnson was nominated for Best Actor at the Golden Globes. Critics called the performance "revelatory." Variety said "he seems like a new actor." One review: "Even with him being physically the most brolic he's ever been, he's able to become the smallest person in the room emotionally."
 
-At a DGA screening, Christopher Nolan told Johnson: "I don't think you'll see a better performance this year or most other years. You were heartbreaking." Johnson was sitting next to Lauren Hashian and grabbed her hand so hard she squeezed back. Backstage, he couldn't form sentences. Hashian nudged him to "actually speak, like a human being." All he managed was a hug and a kiss on Nolan's cheek.
+At a DGA screening, [Christopher Nolan](/personality-analysis/christopher-nolan) told Johnson: "I don't think you'll see a better performance this year or most other years. You were heartbreaking." Johnson was sitting next to Lauren Hashian and grabbed her hand so hard she squeezed back. Backstage, he couldn't form sentences. Hashian nudged him to "actually speak, like a human being." All he managed was a hug and a kiss on Nolan's cheek.
 
 "It was the most inspiring thing anyone has ever said about me."
 

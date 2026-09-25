@@ -217,7 +217,7 @@ The self-directed video features her driving an Escalade through the desert with
 
 ### The Grimes Effect
 
-Her DIY approach opened doors for artists who followed. Yeule builds similar ethereal soundscapes with layered vocals and anime aesthetics. FKA twigs occupies adjacent territory: experimental pop with intense visual world-building. Charli XCX's hyperpop experiments share her willingness to make pop strange.
+Her DIY approach opened doors for artists who followed. Yeule builds similar ethereal soundscapes with layered vocals and anime aesthetics. FKA twigs occupies adjacent territory: experimental pop with intense visual world-building. [Charli XCX](/personality-analysis/charli-xcx)'s hyperpop experiments share her willingness to make pop strange.
 
 The influence runs both directions. She lists Aphex Twin, Nine Inch Nails, Bjork, Mariah Carey, and Christina Aguilera as equal influences. That eclectic mix explains how she can combine sugary pop hooks with industrial abrasion. Tastemakers Magazine called her "an alien love-child of Aphex Twin and ABBA."
 

@@ -252,7 +252,7 @@ A core 7 chases that pattern because the chase is pleasure. SBF chased it becaus
 
 ## Why Sam Bankman-Fried Couldn't Stop Talking After the Crash
 
-Between FTX's bankruptcy filing on November 11, 2022, and his arrest on December 12, 2022, Bankman-Fried did dozens of interviews. He went on the *New York Times* DealBook stage. He spoke with Andrew Ross Sorkin in front of an audience. He did Twitter Spaces. He did the Vox DMs. He gave a long video interview to *Good Morning America*. His own attorneys — the ones still talking to him — publicly said he was acting against their advice.
+Between FTX's bankruptcy filing on November 11, 2022, and his arrest on December 12, 2022, Bankman-Fried did dozens of interviews. He went on the *New York Times* DealBook stage. He spoke with [Andrew Ross Sorkin](/personality-analysis/andrew-ross-sorkin) in front of an audience. He did Twitter Spaces. He did the Vox DMs. He gave a long video interview to *Good Morning America*. His own attorneys — the ones still talking to him — publicly said he was acting against their advice.
 
 He could not stop. And every time he opened his mouth, he made the case against himself stronger.
 

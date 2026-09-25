@@ -341,7 +341,7 @@ Accommodation, then stone. The 9 pattern in two acts.
 
 Something unexpected happened after the firing. The comedians Shane admired most — the ones at the absolute top — started reaching out.
 
-**"Norm, Louis, Dave: these guys reached out and were like 'hang in there,'"** Shane told Bert Kreischer on Bertcast. **"A lot of them just wanted to get to know me better, like, 'who is this dude getting cancelled? Is he a bad dude?'"**
+**"Norm, Louis, Dave: these guys reached out and were like 'hang in there,'"** Shane told [Bert Kreischer](/personality-analysis/bert-kreischer) on Bertcast. **"A lot of them just wanted to get to know me better, like, 'who is this dude getting cancelled? Is he a bad dude?'"**
 
 Norm Macdonald tweeted publicly: **"Of course you know, this means WAR."** Then he called privately. Shane: **"I got to talk to Norm on the phone for a while and got to know him slightly. It was awesome. And he said some really encouraging things."**
 

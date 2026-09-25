@@ -279,7 +279,7 @@ The pattern isn't about the women. It's about the function each relationship ser
 
 Affleck's parenting is the most reliable window into who he is when he's not performing.
 
-In 2019, he was in Asia doing press for _Triple Frontier_ when he asked Netflix if he could leave a day early. Samuel had a Little League game, and Affleck was the coach. He flew back from Asia to coach a Little League game. He told Ellen DeGeneres it was "the dad dream": not the Oscar, not the directing career, but standing on a dirt diamond watching his kid swing.
+In 2019, he was in Asia doing press for _Triple Frontier_ when he asked Netflix if he could leave a day early. Samuel had a Little League game, and Affleck was the coach. He flew back from Asia to coach a Little League game. He told [Ellen DeGeneres](/personality-analysis/ellen-degeneres) it was "the dad dream": not the Oscar, not the directing career, but standing on a dirt diamond watching his kid swing.
 
 He's structured his entire directing career around proximity. He told The Hollywood Reporter he deliberately takes work based in LA and turns down jobs in other cities: "If I'm in Los Angeles and I'm in an office and I'm doing this work, I can step out for the basketball game or the jazz performance." For a man who spent his twenties chasing career achievements across the globe, the decision to geographically limit his ambition for his kids' schedules is itself a kind of reinvention.
 

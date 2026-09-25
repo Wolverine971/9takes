@@ -237,7 +237,7 @@ Their later use of group therapy showed how seriously they treated the relations
 
 Boygenius reveals a social answer to Bridgers's private method. Being accurately seen does not require working alone. It requires a room where exposure does not cost authorship. The trio could alter one another's songs while leaving each writer recognizable.
 
-[Four Grammy wins](https://www.grammy.com/artists/phoebe-bridgers/287153/) followed in 2024, including three connected to boygenius and one for her SZA collaboration. Achievement clearly matters in this portrait. Bridgers has chased the work since childhood and learned how to make a distinct emotional language travel at stadium scale. Her ambition keeps the private world moving outward.
+[Four Grammy wins](https://www.grammy.com/artists/phoebe-bridgers/287153/) followed in 2024, including three connected to boygenius and one for her [SZA](/personality-analysis/sza) collaboration. Achievement clearly matters in this portrait. Bridgers has chased the work since childhood and learned how to make a distinct emotional language travel at stadium scale. Her ambition keeps the private world moving outward.
 
 ## The price of being everyone's private friend
 

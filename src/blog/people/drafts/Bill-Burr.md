@@ -419,7 +419,7 @@ In growth, Type 6 moves toward Type 9: a settled internal floor that does not ne
 
 ## The part Bill Burr plays in October 2026
 
-On October 9, 2026, Aaron Sorkin's _The Social Reckoning_ opens. Jeremy Strong plays Mark Zuckerberg, Mikey Madison plays Frances Haugen, Jeremy Allen White the reporter who helps her get the documents out.
+On October 9, 2026, Aaron Sorkin's _The Social Reckoning_ opens. Jeremy Strong plays Mark Zuckerberg, [Mikey Madison](/personality-analysis/mikey-madison) plays Frances Haugen, [Jeremy Allen White](/personality-analysis/jeremy-allen-white) the reporter who helps her get the documents out.
 
 Per the trailer, Bill Burr plays a crisis counselor.
 

@@ -210,7 +210,7 @@ The debate about her legitimacy is itself a Type 7 phenomenon: she refuses to st
 
 At the 2022 Grammys, she nearly missed accepting her award because she was in the bathroom. She ran breathlessly to the stage and told the audience: "I have never taken such a fast piss in my whole life." Backstage: "A woman ran into the bathroom and grabbed me by my wrist, yanked me out, and I've never been pulled so strongly in my life."
 
-At the 2023 Met Gala, dressed as Karl Lagerfeld's cat Choupette, she stayed completely in character during her Vogue interview with Emma Chamberlain. Every single question answered with meows only. Sixteen million TikTok views.
+At the 2023 Met Gala, dressed as Karl Lagerfeld's cat Choupette, she stayed completely in character during her Vogue interview with [Emma Chamberlain](/personality-analysis/emma-chamberlain). Every single question answered with meows only. Sixteen million TikTok views.
 
 When Elon Musk locked verified users from changing their Twitter names, Doja's was stuck on "Christmas." She begged him publicly to let her change it. He did. She immediately changed it to "fart."
 

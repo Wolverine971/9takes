@@ -497,7 +497,7 @@ What came next she did not arrange. On July 3, 2026, [Jack Antonoff](/personalit
 
 One change had already happened, quietly, months before any of this. She had been posting as **isimostar**, after a Bleachers song. In April she became **sarahmargaretqualley23**, her full legal birth name, with nothing attached to explain it. Nobody reported it at the time; it surfaced in July, when the news sent people back through her account (<em>Yahoo Entertainment</em>, July 2026).
 
-On July 22, two weeks after the separation was reported, she was photographed running and screaming through the streets of Jersey City, in character and in ballet flats (<em>Just Jared</em>; <em>WWD</em>). She was working. Parker Finn's remake of <em>Possession</em>, opposite Callum Turner, with Robert Pattinson producing. She plays Anna, the role Isabelle Adjani originated in 1981: a woman who comes apart violently after asking her husband for a divorce.
+On July 22, two weeks after the separation was reported, she was photographed running and screaming through the streets of Jersey City, in character and in ballet flats (<em>Just Jared</em>; <em>WWD</em>). She was working. Parker Finn's remake of <em>Possession</em>, opposite [Callum Turner](/personality-analysis/callum-turner), with Robert Pattinson producing. She plays Anna, the role Isabelle Adjani originated in 1981: a woman who comes apart violently after asking her husband for a divorce.
 
 Paramount has since set the film for June 11, 2027 (<em>Variety</em>, August 2026).
 

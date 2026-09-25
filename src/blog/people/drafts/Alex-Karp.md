@@ -218,7 +218,7 @@ His biographer, Michael Steinberger, who spent six years with Karp, compared him
 
 ## Why Alex Karp Can't Sit Still
 
-At the New York Times DealBook Summit in December 2025, Karp broke his own rule against refined sugar and drank a Mexican Coca-Cola before going onstage with Andrew Ross Sorkin.
+At the New York Times DealBook Summit in December 2025, Karp broke his own rule against refined sugar and drank a Mexican Coca-Cola before going onstage with [Andrew Ross Sorkin](/personality-analysis/andrew-ross-sorkin).
 
 What followed went viral.
 

@@ -1,6 +1,6 @@
 # Blog Cross-Link Index
 
-_Generated: 2026-09-24 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
+_Generated: 2026-09-25 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
 _Search data: GSC 2026-06-24 → 2026-09-22 (pulled 2026-09-24)_
 
 **Scope.** Link counts cover **live posts only**: files a route actually serves with `published: true`
@@ -74,8 +74,8 @@ relative to demand. These are where an internal link is most likely to move a ra
 | `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide` | 1,762 | 45 | 8.8 | 12 | 14 |
 | `/enneagram-corner/enneagram-strengths-and-weaknesses` | 1,437 | 25 | 9.2 | 24 | 15 |
 | `/enneagram-corner/mental-health/enneagram-anxiety-complete-guide` | 1,586 | 9 | 12.4 | 30 | 9 |
-| `/enneagram-corner/enneagram-instinctual-subtypes` | 7,263 | 29 | 14.4 | 156 | 16 |
-| `/enneagram-corner/enneagram-wings-complete-guide` | 6,953 | 40 | 9.2 | 191 | 40 |
+| `/enneagram-corner/enneagram-instinctual-subtypes` | 7,263 | 29 | 14.4 | 155 | 16 |
+| `/enneagram-corner/enneagram-wings-complete-guide` | 6,953 | 40 | 9.2 | 190 | 40 |
 
 ## Dead ends with traffic
 
@@ -99,7 +99,8 @@ Live posts with 3 or fewer outgoing links, sorted by impressions. Readers land h
 ## People bridge
 
 People pages by search impressions and how many **blog posts** link to them in prose
-(the FamousTypes block on type pages links every person, but that is not a contextual link).
+(the FamousTypes block on type pages and the `/personality-analysis/categories/*` listings link
+nearly every person, but those are not contextual links).
 164 of 450 people pages have at least one blog link.
 
 | Person | Impressions | Clicks | Position | Blog links in | People links in |
@@ -109,7 +110,7 @@ People pages by search impressions and how many **blog posts** link to them in p
 | [Jordi Hays](/personality-analysis/jordi-hays) | 10,830 | 216 | 6.5 | 2 | 1 |
 | [Zendaya](/personality-analysis/zendaya) | 6,631 | 34 | 9.2 | 1 | 9 |
 | [Shawn Ryan](/personality-analysis/shawn-ryan) | 5,641 | 52 | 8.8 | 2 | 1 |
-| [Sabrina Carpenter](/personality-analysis/sabrina-carpenter) | 5,262 | 19 | 6.8 | 0 | 2 |
+| [Sabrina Carpenter](/personality-analysis/sabrina-carpenter) | 5,262 | 19 | 6.8 | 0 | 3 |
 | [Lionel Messi](/personality-analysis/lionel-messi) | 5,144 | 29 | 8.9 | 0 | 3 |
 | [Ashby](/personality-analysis/ashby) | 3,788 | 22 | 9.5 | 1 | 0 |
 | [Ariana Grande](/personality-analysis/ariana-grande) | 3,749 | 19 | 9.7 | 0 | 6 |
@@ -120,8 +121,8 @@ People pages by search impressions and how many **blog posts** link to them in p
 | [Emma Watson](/personality-analysis/emma-watson) | 3,284 | 12 | 8.7 | 0 | 3 |
 | [Meghan Markle](/personality-analysis/meghan-markle) | 3,205 | 38 | 7.3 | 0 | 4 |
 | [Asmongold](/personality-analysis/asmongold) | 3,166 | 18 | 9.0 | 0 | 1 |
-| [Kara Swisher](/personality-analysis/kara-swisher) | 3,145 | 32 | 8.2 | 0 | 2 |
-| [Hasan Piker](/personality-analysis/hasan-piker) | 3,120 | 17 | 9.2 | 0 | 2 |
+| [Kara Swisher](/personality-analysis/kara-swisher) | 3,145 | 32 | 8.2 | 0 | 3 |
+| [Hasan Piker](/personality-analysis/hasan-piker) | 3,120 | 17 | 9.2 | 0 | 3 |
 | [Selena Gomez](/personality-analysis/selena-gomez) | 3,091 | 19 | 7.7 | 1 | 4 |
 | [Sydney Sweeney](/personality-analysis/sydney-sweeney) | 3,044 | 10 | 7.5 | 0 | 1 |
 | [Cillian Murphy](/personality-analysis/cillian-murphy) | 2,938 | 17 | 10.5 | 0 | 2 |
@@ -130,6 +131,40 @@ People pages by search impressions and how many **blog posts** link to them in p
 | [John Coogan](/personality-analysis/john-coogan) | 2,629 | 23 | 7.0 | 2 | 1 |
 | [David Friedberg](/personality-analysis/david-friedberg) | 2,574 | 20 | 13.6 | 1 | 3 |
 
+## People pages that need links
+
+A people page "needs links" with 2 or fewer contextual links in (blog posts + other people pages).
+**209 of 450** people pages need links; 71 have none.
+Unlinked mentions on other people pages are queued in `link-opportunities.md` §4.
+
+| Person | Impressions | Position | Blog links in | People links in |
+|---|---|---|---|---|
+| [Sky Bri](/personality-analysis/sky-bri) | 16,351 | 9.4 | 0 | 2 |
+| [Ashby](/personality-analysis/ashby) | 3,788 | 9.5 | 1 | 0 |
+| [Asmongold](/personality-analysis/asmongold) | 3,166 | 9.0 | 0 | 1 |
+| [Sydney Sweeney](/personality-analysis/sydney-sweeney) | 3,044 | 7.5 | 0 | 1 |
+| [Cillian Murphy](/personality-analysis/cillian-murphy) | 2,938 | 10.5 | 0 | 2 |
+| [Oliver Tree](/personality-analysis/oliver-tree) | 2,716 | 7.4 | 0 | 0 |
+| [Benson Boone](/personality-analysis/benson-boone) | 2,418 | 8.5 | 1 | 0 |
+| [Madison Beer](/personality-analysis/madison-beer) | 2,293 | 8.8 | 0 | 0 |
+| [Clavicular](/personality-analysis/clavicular) | 2,219 | 13.3 | 0 | 1 |
+| [Robert Greene](/personality-analysis/robert-greene) | 2,172 | 9.8 | 0 | 2 |
+| [Tara Yummy](/personality-analysis/tara-yummy) | 2,153 | 9.1 | 0 | 0 |
+| [Ella Langley](/personality-analysis/ella-langley) | 1,865 | 8.5 | 0 | 2 |
+| [Casey Neistat](/personality-analysis/casey-neistat) | 1,351 | 10.7 | 0 | 0 |
+| [Druski](/personality-analysis/druski) | 1,304 | 8.3 | 1 | 1 |
+| [Charli D'Amelio](/personality-analysis/charli-damelio) | 1,289 | 8.5 | 0 | 2 |
+| [Neil Strauss](/personality-analysis/neil-strauss) | 1,287 | 7.9 | 0 | 2 |
+| [Leila Hormozi](/personality-analysis/leila-hormozi) | 1,267 | 8.8 | 0 | 1 |
+| [Millie Bobby Brown](/personality-analysis/millie-bobby-brown) | 1,252 | 9.8 | 0 | 1 |
+| [Bernard Arnault](/personality-analysis/bernard-arnault) | 1,115 | 8.5 | 0 | 0 |
+| [Tom Hardy](/personality-analysis/tom-hardy) | 1,055 | 8.8 | 1 | 0 |
+| [Caleb Hearon](/personality-analysis/caleb-hearon) | 1,015 | 8.2 | 0 | 1 |
+| [Mikey Madison](/personality-analysis/mikey-madison) | 1,004 | 8.7 | 0 | 1 |
+| [Nikola Tesla](/personality-analysis/nikola-tesla) | 997 | 10.1 | 0 | 2 |
+| [John Travolta](/personality-analysis/john-travolta) | 958 | 6.9 | 0 | 0 |
+| [Keke Palmer](/personality-analysis/keke-palmer) | 876 | 7.8 | 0 | 1 |
+
 ---
 
 ## Hubs
@@ -137,8 +172,8 @@ People pages by search impressions and how many **blog posts** link to them in p
 | In | Out | Impressions | Page |
 |---|---|---|---|
 | 204 | 14 | 1,399 | `/enneagram-corner/enneagram-types-in-stress` |
-| 191 | 40 | 6,953 | `/enneagram-corner/enneagram-wings-complete-guide` |
-| 156 | 16 | 7,263 | `/enneagram-corner/enneagram-instinctual-subtypes` |
+| 190 | 40 | 6,953 | `/enneagram-corner/enneagram-wings-complete-guide` |
+| 155 | 16 | 7,263 | `/enneagram-corner/enneagram-instinctual-subtypes` |
 | 140 | 14 | 3,917 | `/enneagram-corner/enneagram-type-3` |
 | 128 | 15 | 1,283 | `/enneagram-corner/enneagram-type-6` |
 | 128 | 13 | 504 | `/enneagram-corner/enneagram-type-7` |
@@ -230,8 +265,8 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 12,607 | 9.7 | 24 (21/3) | 19 (19/0) | The Enneagram and Mental Illness: Understand Each Type's Predispositi… | `/enneagram-corner/enneagram-and-mental-illness` |
 | 10,901 | 8.4 | 8 (8/0) | 15 (15/0) | What Enneagram Type Is Your Zodiac Sign? The Complete Correlation Cha… | `/enneagram-corner/astrology-and-the-enneagram` |
 | 8,470 | 13.4 | 19 (19/0) | 7 (7/0) | The Complete Enneagram Compatibility Matrix: All 81 Type Combinations… | `/enneagram-corner/enneagram-compatibility-matrix` |
-| 7,263 | 14.4 | 156 (15/141) | 16 (16/0) | Why You Don't Fully Match Your Enneagram Type (It's Your Subtype) | `/enneagram-corner/enneagram-instinctual-subtypes` |
-| 6,953 | 9.2 | 191 (14/177) | 40 (7/33) | Why You Don't Match Your Enneagram Description (It's Your Wing) | `/enneagram-corner/enneagram-wings-complete-guide` |
+| 7,263 | 14.4 | 155 (15/140) | 16 (16/0) | Why You Don't Fully Match Your Enneagram Type (It's Your Subtype) | `/enneagram-corner/enneagram-instinctual-subtypes` |
+| 6,953 | 9.2 | 190 (14/176) | 40 (7/33) | Why You Don't Match Your Enneagram Description (It's Your Wing) | `/enneagram-corner/enneagram-wings-complete-guide` |
 | 5,398 | 10.6 | 16 (16/0) | 19 (19/0) | 9 Toxic Personality Traits: The Dark Side of Each Type | `/enneagram-corner/toxic-traits-of-each-enneagram-type` |
 | 5,390 | 7.8 | 22 (10/12) | 4 (4/0) | Depression Patterns by Enneagram Type | `/enneagram-corner/depression-patterns-by-enneagram-type` |
 | 5,178 | 9.1 | 20 (12/8) | 10 (10/0) | Attachment Styles and Enneagram Types: A Map | `/enneagram-corner/attachment-styles-and-enneagram-types` |

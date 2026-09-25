@@ -1,0 +1,24 @@
+I finished the fan review stage for the Druski draft. The output is `docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-fan.json`. It passes the pipeline's schema check, and every quoted passage matches the draft exactly. I didn't change any other file in the repo or publish anything; the only other writes were scratch files in `/tmp`.
+
+**Verdict:** the draft is fair and not flattering. Every quote I checked was accurate: I matched about 25 of them against the publisher's transcript of the Diary of a CEO interview. The problems are background a longtime fan would notice is missing. None of it overturns the Type 3 call, but the first two major findings change how the Type 8 evidence should be weighed.
+
+**Major findings (3):**
+- **The whiteface was an old bit, not a sudden gamble.** On CBS in February 2026 he said he had played the NASCAR character "multiple times before I did White Face." TIME's 2026 profile says a white frat-bro character, Kyle Rogger, got him noticed by Drake, Lil Yachty and Jack Harlow. The draft calls the whiteface "the biggest gap" without either fact.
+- **The "boss" he plays is really a talent-show judge.** The draft cuts the end of GQ's description, "who evaluates the talents of his fans." TIME calls Coulda Been Records an American Idol parody from 2019, so it came before the 2020 Drake video shoot the draft presents first. The draft also treats the Mark Wahlberg bit ("My bad") as real behavior when it's a comic beat.
+- **The Kevin Hart quote is cut short, which changes its meaning.** His full answer says the fear was leaving the comfort of filming on his own phone to perform in front of a live crowd. The draft implies he needed permission to go independent.
+
+**Minor findings (5):**
+- Harlow's "he makes himself look stupid" is never squared with the claim that Druski protects an image of success.
+- The mother appears only through her son's quotes, though her own 2025 on-air account is in the evidence file.
+- The draft skips the turning point in his college dorm, where he watched interviews with comedians he admired and found his purpose.
+- It omits his life motto, Ricky Bobby's "if you ain't first, you're last," from *Talladega Nights*.
+- It leaves out the 2023 Theo Von episode where he calls his father "very funny."
+- The claim that he "almost never argues back" needs its known exceptions, such as his "Never needed no PR" post. His viral January 2026 megachurch sketch, which became the pastor show the ending mentions, is missing.
+
+I also marked five passages the editor should keep, including the opening "why is Mikey funnier than me?" line and "The boy who used to step in after the belt now plays the man holding it, as a bit."
+
+**What I didn't re-fetch myself:** TIME blocked my request (HTTP 406). The TIME, CBS and Club Shay Shay wording behind the three major findings comes from copies the research stage saved, and the review file says so.
+
+Two notes for the editor:
+- The evidence file says pastors "objected" to the megachurch sketch, but the sources say otherwise: Pastor Michael Todd called it "hilarious" and Lecrae defended it. That framing shouldn't go into the article.
+- The research stage already flagged that the article changes Druski from Type 8 to Type 3, which needs your explicit approval before publishing.

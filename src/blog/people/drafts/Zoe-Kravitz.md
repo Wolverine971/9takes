@@ -304,7 +304,7 @@ Her friendships follow the same logic. [Shailene Woodley](/personality-analysis/
 
 For most of her career, Zoë Kravitz kept the goofy theater kid locked behind the cool exterior. Then The Studio blew the door off.
 
-Apple TV+'s comedy series, created by Seth Rogen, cast Zoë as an exaggerated, "more psychotic" version of herself. She was originally slated for one episode. She ended up in three. The character takes mushrooms and calls people "skin sausages." It's the anti-cool: broad, weird, unguarded comedy played with the kind of commitment that suggests she'd been waiting to do this for years.
+Apple TV+'s comedy series, created by [Seth Rogen](/personality-analysis/seth-rogen), cast Zoë as an exaggerated, "more psychotic" version of herself. She was originally slated for one episode. She ended up in three. The character takes mushrooms and calls people "skin sausages." It's the anti-cool: broad, weird, unguarded comedy played with the kind of commitment that suggests she'd been waiting to do this for years.
 
 She earned her first Emmy nomination for it: Outstanding Guest Actress in a Comedy Series.
 

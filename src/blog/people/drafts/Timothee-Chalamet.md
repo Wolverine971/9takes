@@ -167,7 +167,7 @@ Six years later, Guadagnino made what should have been any rising star's worst c
 
 Post-_Dune_ Chalamet could have headlined anything. He chose to play a flesh-eater for the director who had shown six years earlier that he could be trusted with the parts of Chalamet that were still being assembled.
 
-The pattern repeats with Greta Gerwig. _Lady Bird_ (2017), then _Little Women_ (2019). Gerwig deliberately re-cast the same pair — Chalamet and Saoirse Ronan — to invert the romance: "Jo is a girl with a boy's name, Laurie is a boy with a girl's name. In some ways, they are each other's twins."
+The pattern repeats with [Greta Gerwig](/personality-analysis/greta-gerwig). _Lady Bird_ (2017), then _Little Women_ (2019). Gerwig deliberately re-cast the same pair — Chalamet and Saoirse Ronan — to invert the romance: "Jo is a girl with a boy's name, Laurie is a boy with a girl's name. In some ways, they are each other's twins."
 
 Chalamet on Gerwig, repeated almost word-for-word across interviews: "I would work with Greta on anything. I'm just totally in awe of her. I like working with filmmakers who are ten times smarter than me."
 
@@ -201,7 +201,7 @@ For _Beautiful Boy_, Chalamet played Nic Sheff — an actual person, David Sheff
 
 "There was nothing about Nic and meeting him that rubbed me of addiction, or whatever my stereotype would've been of that at the time," he told W Magazine. Addiction, he had to learn, "has no preferred class, or gender, or race."
 
-The heaviest scenes were shot first because weight comes back faster than it leaves. Steve Carell, playing David Sheff opposite him, reportedly intervened on the extent of the loss.
+The heaviest scenes were shot first because weight comes back faster than it leaves. [Steve Carell](/personality-analysis/steve-carell), playing David Sheff opposite him, reportedly intervened on the extent of the loss.
 
 "Your mind knows you're acting," Chalamet said. "But when you drop twenty pounds, and you are under a rain machine for eight takes in a T-shirt, your body doesn't know you're acting."
 

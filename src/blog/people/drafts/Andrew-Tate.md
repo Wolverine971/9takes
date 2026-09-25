@@ -244,7 +244,7 @@ Understanding a Type 8 does not soften the language of a Type 8. It forces us to
 
 ## The Greta Moment: Why He Can't Let Go of a Fight
 
-On December 27, 2022, Andrew Tate tweeted at Greta Thunberg, boasting about his 33 cars and their "enormous emissions" and asking for her email so he could send the full list. Thunberg replied: "yes, please do enlighten me. email me at smalldickenergy@getalife.com."
+On December 27, 2022, Andrew Tate tweeted at [Greta Thunberg](/personality-analysis/greta-thunberg), boasting about his 33 cars and their "enormous emissions" and asking for her email so he could send the full list. Thunberg replied: "yes, please do enlighten me. email me at smalldickenergy@getalife.com."
 
 A grown man with a global audience had two choices. Ignore her and move on. Or respond.
 

@@ -312,7 +312,7 @@ The tragedy isn't that Nicki fights. It's that the fighting has systematically d
 
 "I talk about record executives telling me female rappers don't make it anymore," she said in an NPR essay. "People who I loved very much attempted to deter me from experimenting with my craft, but I felt I represented all kinds of girls, not just one girl."
 
-Before Nicki, the conventional wisdom in hip-hop was that there was room for one female rapper per era. After Nicki, Cardi B, Megan Thee Stallion, [Doja Cat](/personality-analysis/doja-cat), [Doechii](/personality-analysis/doechii), GloRilla, and Ice Spice all found space at the table. She proved the gatekeepers wrong by building something they said couldn't exist. She didn't just open a door. She kicked it down and dared anyone to try closing it.
+Before Nicki, the conventional wisdom in hip-hop was that there was room for one female rapper per era. After Nicki, Cardi B, Megan Thee Stallion, [Doja Cat](/personality-analysis/doja-cat), [Doechii](/personality-analysis/doechii), GloRilla, and [Ice Spice](/personality-analysis/ice-spice) all found space at the table. She proved the gatekeepers wrong by building something they said couldn't exist. She didn't just open a door. She kicked it down and dared anyone to try closing it.
 
 Billboard crowned her the Greatest Female Rapper of All Time in 2025. Over 100 million records sold. The longest-charting female rapper in Hot 100 history. An empire spanning music, fragrance, and fashion. That legacy is secure regardless of what happens next.
 

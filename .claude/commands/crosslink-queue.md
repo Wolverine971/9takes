@@ -27,13 +27,17 @@ that is close to page 1 of Google a push. One good link beats three forced ones.
   `pnpm crosslinks:check -- --update-baseline`, `node scripts/fetch-gsc-data.mjs`
 - `npx prettier --write <files you edited>` (only files you edited)
 - Editing link markup in live posts under `src/blog/{enneagram,community,guides,pop-culture}/`
+- People pages, `peopleToPeople` candidates only, via step 4b: wrapping an existing name in
+  `src/blog/people/drafts/*.md` in a link, `node scripts/personBlogParser.js <slug>` (preview) and
+  `node scripts/personBlogParser.js <slug> --sync`
 - Appending to `docs/crosslinks/crosslink-log.md` and `docs/crosslinks/skipped.json`;
   editing `docs/crosslinks/target-phrases.json`
 - `git status`, `git diff`
 
 NOT allowed: `git commit/push/stash/reset/checkout`, `pnpm format` on the whole repo,
-`pnpm crosslinks:check -- --accept`, editing frontmatter, editing `src/blog/people/drafts/`,
-editing unpublished drafts, deleting content.
+`pnpm crosslinks:check -- --accept`, editing frontmatter, any people-draft edit other than step
+4b, bare `pnpm push:people`, `--publish`, `--apply`, `--skip-perspective-gate`, editing unpublished
+drafts, deleting content.
 
 ## Workflow
 
@@ -55,6 +59,7 @@ Read `docs/crosslinks/link-opportunities.json`. Work in this order until the bud
 2. `gateDebt` entries, highest impressions first (inbound/outbound suggestions listed per post)
 3. `topBlog` (highest-value blog → blog links)
 4. `peopleBridge` (blog → personality-analysis links)
+5. `peopleToPeople` (personality-analysis → personality-analysis), **at most 4 per run**, via step 4b
 
 Each candidate has `source.file`, `line`, `excerpt`, `anchor`, `target.url` (gate-debt entries also
 list `bridgeHosts` when no natural mention exists). Line numbers can drift;
@@ -105,11 +110,36 @@ At most 1 link per run, never inside the QuickAnswer, never in the title/H2s, no
   the Enneagram tells you WHY" (any variant), childhood-wound origin claims, typing a stranger from
   one behavior, or first-party stats presented as causal.
 
+### 4b. People pages (peopleToPeople candidates)
+
+People pages render from the database; the draft in `src/blog/people/drafts/` is its mirror. A
+link only goes live after a sync, and a sync pushes the WHOLE draft, so the draft must match the
+live row before you touch it. For each accepted candidate:
+
+1. `git status --short <draft>`: skip the candidate if the draft shows as modified.
+2. Preview: `node scripts/personBlogParser.js <person-slug>` (the `person:` frontmatter value). It
+   must print `No parser-managed field changes.` Anything else means the draft and the live page
+   have drifted: skip it and note it in the log. Never "fix" drift.
+3. Edit: wrap the first plain-prose mention of the name, nothing else:
+   `[Steve Carell](/personality-analysis/steve-carell)`, or
+   `<a href="/personality-analysis/steve-carell">Steve Carell</a>` when that paragraph already uses
+   `<a href>` links. Same ACCEPT rules as step 3, plus: check that nothing in the sentence types the
+   person differently from their own page (the person's page is the source of truth). Skip grief,
+   abuse, minors, and legal-accusation contexts.
+4. Preview again. The diff must be `content` only, and the output must include
+   `perspective gate: internal-link-only content change for <slug>, allowed`. Anything else: revert
+   your edit to that file (restore the exact original text) and skip it.
+5. `node scripts/personBlogParser.js <person-slug> --sync`. It must print
+   `Verified update: <slug>; lastmod=<unchanged>`.
+6. The live page refreshes on its next visit (24h at most). Fetch
+   `https://9takes.com/personality-analysis/<slug>` twice and confirm the new `href` appears.
+
 ### 5. Record rejections and tune phrases
 
 - Append each rejected candidate to `docs/crosslinks/skipped.json` under `"skipped"`:
   `{ "id": "<candidate id>", "reason": "<short reason>", "date": "YYYY-MM-DD" }`
-  (the id is the candidate's `id` field, e.g. `"/pop-culture/a -> /enneagram-corner/b"`).
+  (the id is the candidate's `id` field, e.g. `"/pop-culture/a -> /enneagram-corner/b"`; people
+  candidates use page URLs, e.g. `"/personality-analysis/a -> /personality-analysis/b"`).
   Skipped ids never come back, so only skip pairs that are wrong, not merely "not this week".
 - If one curated phrase in `docs/crosslinks/target-phrases.json` caused 2+ bad matches, remove it.
   If you notice obvious unlinked mentions the queue missed, add the phrase under the target URL.
@@ -148,4 +178,7 @@ One line, used by the weekly wrapper for the Telegram summary:
 
 - `scripts/lib/crosslinkOpportunities.js` — how candidates are scored
 - `scripts/lib/crosslinkGate.js` — gate thresholds and baseline ratchet
+- `scripts/lib/peopleCrosslinks.js` — people → people candidates (targets with ≤2 contextual links
+  in; sources with 10+ internal links skipped)
+- `scripts/lib/linkOnlyChange.js` — the check that lets a link-only edit through the perspective gate
 - `docs/BLOG-CROSSLINK-INDEX.md` — full report (section flow, dead ends, people bridge)

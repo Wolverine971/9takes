@@ -401,7 +401,7 @@ Her musical influences (Hozier, Florence and the Machine, Mumford and Sons, The 
 
 ## Current Work and Recognition
 
-In July 2025, Brittany was named to the inaugural TIME100 Creators list in the Entertainers category. Recognition of how she's sustained influence beyond her initial viral moment. The honor placed her alongside creators like Khabane Lame, Jake Shane, and Hannah Berner.
+In July 2025, Brittany was named to the inaugural TIME100 Creators list in the Entertainers category. Recognition of how she's sustained influence beyond her initial viral moment. The honor placed her alongside creators like Khabane Lame, [Jake Shane](/personality-analysis/jake-shane), and Hannah Berner.
 
 Now 28, Brittany has amassed over 7.6 million followers on TikTok and another 4.6 million across YouTube and Instagram.
 

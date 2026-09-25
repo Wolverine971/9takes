@@ -327,7 +327,7 @@ Instead of a tearful thank-you, she delivered a demand. "I told myself, if I eve
 
 She ended with a challenge: "Labels, we got you, but do you got us?"
 
-When music executive Jeff Rabhan publicly criticized her speech as "noble but wildly misinformed," Chappell responded by donating $25,000 toward struggling dropped artists and challenged others to match her. Noah Kahan did.
+When music executive Jeff Rabhan publicly criticized her speech as "noble but wildly misinformed," Chappell responded by donating $25,000 toward struggling dropped artists and challenged others to match her. [Noah Kahan](/personality-analysis/noah-kahan) did.
 
 The money came out before the argument was finished. That is Type 8 power with a direction.
 

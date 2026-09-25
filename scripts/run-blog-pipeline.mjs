@@ -7,6 +7,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { spawn, execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { homedir } from 'node:os';
+import { randomUUID } from 'node:crypto';
 import matter from 'gray-matter';
 import {
 	sha256,
@@ -73,6 +74,70 @@ export function parseArgs(args) {
 	return options;
 }
 
+/** Turns granted to write outputs after a stage exhausts its research turns. */
+const WRAP_UP_TURNS = 20;
+
+/**
+ * @param {string[]} args
+ * @param {import('node:fs').WriteStream} log
+ * @param {string} root
+ * @param {number} deadline
+ * @returns {Promise<'ok' | 'max_turns'>}
+ */
+function runClaude(args, log, root, deadline) {
+	return new Promise((resolve, reject) => {
+		const child = spawn(process.env.BLOG_PIPELINE_CLAUDE || 'claude', args, {
+			cwd: root,
+			detached: true,
+			stdio: ['ignore', 'pipe', 'pipe']
+		});
+		children.add(child);
+		let timedOut = false;
+		let tail = '';
+		/** @type {ReturnType<typeof setTimeout> | undefined} */
+		let killTimer;
+		let finished = false;
+		const timer = setTimeout(
+			() => {
+				timedOut = true;
+				killGroup(child);
+				killTimer = setTimeout(() => killGroup(child, 'SIGKILL'), 3000);
+			},
+			Math.max(0, deadline - Date.now())
+		);
+		child.stdout.on('data', (chunk) => {
+			tail = (tail + chunk).slice(-2000);
+			log.write(chunk);
+			process.stdout.write(chunk);
+		});
+		child.stderr.on('data', (chunk) => {
+			log.write(chunk);
+			process.stderr.write(chunk);
+		});
+		const finish = (
+			/** @type {unknown} */ error,
+			/** @type {'ok' | 'max_turns'} */ result = 'ok'
+		) => {
+			if (finished) return;
+			finished = true;
+			clearTimeout(timer);
+			clearTimeout(killTimer);
+			killGroup(child, 'SIGKILL');
+			children.delete(child);
+			if (error) reject(error);
+			else resolve(result);
+		};
+		child.once('error', finish);
+		child.once('close', (code, signal) => {
+			if (timedOut) finish(new Error('Stage timed out'));
+			else if (code === 0) finish(null);
+			// The CLI exits 1 with this message; the session holds all gathered work.
+			else if (code === 1 && /Reached max turns \(\d+\)/.test(tail)) finish(null, 'max_turns');
+			else finish(new Error(`Claude exited ${code ?? signal}`));
+		});
+	});
+}
+
 /**
  * @param {string} requestFile
  * @param {string} logFile
@@ -81,58 +146,36 @@ export function parseArgs(args) {
  */
 export async function executeClaude(requestFile, logFile, options) {
 	const log = createWriteStream(logFile, { flags: 'a' });
+	const sessionId = randomUUID();
+	const deadline = Date.now() + options.timeoutSeconds * 1000;
+	const shared = [
+		'--dangerously-skip-permissions',
+		...(options.model ? ['--model', options.model] : [])
+	];
 	const prompt = `Read ${requestFile}. It is the complete stage request. Read its command_file and standard_file, then complete only this stage. Write the requested output files. Do not modify any other files or publish anything.`;
-	return new Promise((resolve, reject) => {
-		const child = spawn(
-			process.env.BLOG_PIPELINE_CLAUDE || 'claude',
-			[
-				'-p',
-				prompt,
-				'--dangerously-skip-permissions',
-				'--max-turns',
-				String(options.maxTurns),
-				...(options.model ? ['--model', options.model] : [])
-			],
-			{ cwd: options.root, detached: true, stdio: ['ignore', 'pipe', 'pipe'] }
+	// Stages write their outputs last, so hitting the turn cap used to discard the
+	// whole session. Resume it once with a small budget to record what it found.
+	const wrapUp = `You reached this stage's turn limit. Stop gathering: no new searches or sources. Using only what this session already verified, write the requested output files from ${requestFile} now. Where essential evidence is still unverified, record that honestly in the form the command_file allows (for research: insufficient_evidence with specific research_tasks). Never invent evidence, locators or confidence to fill a field.`;
+	try {
+		let result = await runClaude(
+			['-p', prompt, '--session-id', sessionId, '--max-turns', String(options.maxTurns), ...shared],
+			log,
+			options.root,
+			deadline
 		);
-		children.add(child);
-		let timedOut = false;
-		/** @type {ReturnType<typeof setTimeout> | undefined} */
-		let killTimer;
-		let finished = false;
-		const timer = setTimeout(() => {
-			timedOut = true;
-			killGroup(child);
-			killTimer = setTimeout(() => killGroup(child, 'SIGKILL'), 3000);
-		}, options.timeoutSeconds * 1000);
-		child.stdout.on('data', (chunk) => {
-			log.write(chunk);
-			process.stdout.write(chunk);
-		});
-		child.stderr.on('data', (chunk) => {
-			log.write(chunk);
-			process.stderr.write(chunk);
-		});
-		const finish = (/** @type {unknown} */ error) => {
-			if (finished) return;
-			finished = true;
-			clearTimeout(timer);
-			clearTimeout(killTimer);
-			killGroup(child, 'SIGKILL');
-			children.delete(child);
-			log.end(() => (error ? reject(error) : resolve()));
-		};
-		child.once('error', finish);
-		child.once('close', (code, signal) =>
-			finish(
-				timedOut
-					? new Error('Stage timed out')
-					: code === 0
-						? null
-						: new Error(`Claude exited ${code ?? signal}`)
-			)
-		);
-	});
+		if (result === 'max_turns') {
+			log.write(`\n[runner] Turn limit reached; resuming session ${sessionId} to write outputs\n`);
+			result = await runClaude(
+				['-p', wrapUp, '--resume', sessionId, '--max-turns', String(WRAP_UP_TURNS), ...shared],
+				log,
+				options.root,
+				deadline
+			);
+		}
+		if (result === 'max_turns') throw new Error('Claude reached max turns');
+	} finally {
+		await new Promise((resolve) => log.end(resolve));
+	}
 }
 
 /** @param {ReturnType<typeof parseArgs>} options @param {{root?: string, execute?: typeof executeClaude}} dependencies */
@@ -272,8 +315,10 @@ export async function runPipeline(options, { root = repoRoot, execute = executeC
 		const contractFile = path.join(root, 'scripts/lib/blogEditorial.js');
 		/** @type {Record<string, string>} */
 		const configurationFiles = {};
+		// CLAUDE.md is left out: parallel sessions edit it most days, and fingerprinting it
+		// failed Druski's draft stage mid-run on a one-line crosslink table edit. The stage
+		// contract lives in the command, standard, contract and runner files below.
 		for (const [key, file] of Object.entries({
-			project_instructions: path.join(root, 'CLAUDE.md'),
 			project_settings: path.join(root, '.claude/settings.json'),
 			project_local_settings: path.join(root, '.claude/settings.local.json'),
 			user_settings: path.join(homedir(), '.claude/settings.json')
@@ -358,7 +403,8 @@ export async function runPipeline(options, { root = repoRoot, execute = executeC
 					root,
 					model,
 					timeoutSeconds: options.timeoutSeconds,
-					maxTurns: command === 'research' ? 80 : 60
+					// Research at 80 hit the cap on refreshes with long baselines (Druski, Ben Shelton).
+					maxTurns: command === 'research' ? 120 : 60
 				});
 				if (JSON.stringify(await fingerprint(allInputs)) !== JSON.stringify(inputHashes))
 					throw new Error('Stage modified a read-only input');

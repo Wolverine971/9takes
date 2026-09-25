@@ -178,7 +178,7 @@ Picture that. A kid with a bottomless appetite for the world, given a yard and t
 
 His father had sung doo-wop on street corners before Vietnam and then fixed machines for IBM in Kingston. His parents paid him fifty cents to do Rodney Dangerfield when he was eight or nine. By his teens he was doing James Cagney and Dana Carvey to impress them, and he won a young-comedian's contest with a Pee-wee Herman impression. Performing was the currency of affection in that house, priced at fifty cents a bit.
 
-He got obsessed with <em>SNL</em> the way other kids got obsessed with a band. He auditioned twice. The second time, at twenty-three, he did a "celebrity walk-a-thon" of impressions, and somewhere in it he did an Adam Sandler before anyone was doing an Adam Sandler, and Lorne Michaels, who is famous for not laughing, laughed. Fallon debuted as a featured player in September 1998. The kid in the fenced yard had found a room where the whole point was to never let it go quiet.
+He got obsessed with <em>SNL</em> the way other kids got obsessed with a band. He auditioned twice. The second time, at twenty-three, he did a "celebrity walk-a-thon" of impressions, and somewhere in it he did an [Adam Sandler](/personality-analysis/adam-sandler) before anyone was doing an Adam Sandler, and Lorne Michaels, who is famous for not laughing, laughed. Fallon debuted as a featured player in September 1998. The kid in the fenced yard had found a room where the whole point was to never let it go quiet.
 
 ## Jimmy Fallon's lost years: the movies that flopped and the drinking that didn't
 
@@ -257,7 +257,7 @@ The story is damning, and it should not be softened. But it is also the shadow o
 
 That is the empathy turn and the indictment in the same breath. The need to keep everyone happy is real, and it is not the same as keeping everyone safe. Fallon knew the difference in the moment that mattered. He held an all-staff Zoom, apologized, and said: "It's embarrassing and I feel so bad." Not a Seven's instinct, that. Sevens reframe pain away. Sitting in it, naming it, letting it be embarrassing is the hard, adult version of the Charlottesville monologue: the room stays quiet, and he does not laugh.
 
-The context now sharpens it. <em>The Tonight Show</em> has lost roughly 41 percent of its audience over five years and runs third in its slot; NBC cut it to four nights a week in 2024, and Fallon's reality show <em>On Brand</em> was canceled in 2025. When Stephen Colbert's <em>Late Show</em> aired its finale in May 2026, ending the franchise after 33 years, Fallon became one of the last major network hosts still standing.
+The context now sharpens it. <em>The Tonight Show</em> has lost roughly 41 percent of its audience over five years and runs third in its slot; NBC cut it to four nights a week in 2024, and Fallon's reality show <em>On Brand</em> was canceled in 2025. When [Stephen Colbert](/personality-analysis/stephen-colbert)'s <em>Late Show</em> aired its finale in May 2026, ending the franchise after 33 years, Fallon became one of the last major network hosts still standing.
 
 The apolitical, feel-good format he built is blamed for late night's decline and may be the only thing durable enough to survive it. "I just keep my head down," he says of staying out of politics. It sounds like strategy. It is also the oldest move he has: when the room turns dark, make it fun instead.
 

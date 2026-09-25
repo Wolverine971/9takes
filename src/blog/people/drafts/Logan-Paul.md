@@ -239,7 +239,7 @@ George Janko was a co-host on Impaulsive and one of Logan's closest friends for 
 
 After Janko was groped by a guest on the podcast, Logan reportedly told him to apologize for walking off set, or be fired. After Janko left to start his own show in 2023, his name was allegedly blocked from Impaulsive's YouTube comments. After Janko took a sponsorship from Celsius (a Prime competitor), Logan posted a four-minute "fact-check" video with exact dollar amounts to counter Janko's claims about unfair pay. The pattern: independence gets treated as disloyalty.
 
-Mike Majlak, who has co-hosted since the beginning, has survived every conflict because he keeps coming back. He's been kicked out of Logan's house over a birthday gift, publicly called out for badmouthing Logan behind his back, and left behind when Logan moved to Puerto Rico without inviting him. In 2023, he told Logan on-air: "You don't give a sh\*t about this show anymore... We don't even like each other, dudes."
+[Mike Majlak](/personality-analysis/mike-majlak), who has co-hosted since the beginning, has survived every conflict because he keeps coming back. He's been kicked out of Logan's house over a birthday gift, publicly called out for badmouthing Logan behind his back, and left behind when Logan moved to Puerto Rico without inviting him. In 2023, he told Logan on-air: "You don't give a sh\*t about this show anymore... We don't even like each other, dudes."
 
 He's still the co-host.
 

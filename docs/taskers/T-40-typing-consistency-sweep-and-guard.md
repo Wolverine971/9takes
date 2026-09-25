@@ -26,7 +26,8 @@ All of those except the T-38/T-39 rewrites are fixed (see the log entry for the 
 1. It matched **full names only**. "Kanye", "Clinton", "Musk", "Ye" and possessives were checked only by hand, for a few names.
 2. It checked the wings guide's example lists and prose sentences, but not systematically: tables (a person cell with a "Type N" cell in the same row), headings like `## [Name](...) (Type N - The X)`, or FAQ JSON-LD `"text"` fields.
 3. It skipped **unpublished drafts**. `pop-culture/world-leaders-enneagram-personality-dynamics.md` (draft) types Trump as an 8 in the thesis, the typing table, a section heading and both FAQ answers; T-38 step 6 covers that one. Others likely exist.
-4. It never checked that **people pages agree with themselves**. The type the live site shows comes from `src/lib/components/molecules/famousTypes.ts` (generated from the database by `pnpm gen:famous-types`); the local mirror is `src/blog/people/drafts/<Name>.md` (`enneagram:` frontmatter, the FAQ answer, the "Wing:" section).
+4. It never checked people pages against each other. Found 2026-09-24: Ronald Reagan's page says a 9w1 produces "more Jimmy Carter", while Carter's page types him 2.
+5. It never checked that **people pages agree with themselves**. The type the live site shows comes from `src/lib/components/molecules/famousTypes.ts` (generated from the database by `pnpm gen:famous-types`); the local mirror is `src/blog/people/drafts/<Name>.md` (`enneagram:` frontmatter, the FAQ answer, the "Wing:" section).
 
 ## 1. Required reading
 

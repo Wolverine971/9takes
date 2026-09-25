@@ -332,7 +332,7 @@ In 2014, Gosling wrote and directed _Lost River_, a dark, surreal film about a c
 
 Critics called it derivative, a pastiche of Lynch and Malick and Refn. It holds a 30% on Rotten Tomatoes. Gosling, who had previously described it as "a visualisation of my emotions at that time" (meaning the divorce, the violence, the demolished childhood) watched his most personal work get savaged in public.
 
-He cast Matt Smith after hearing his voice on TV while writing the script. "I heard him and I started writing him into the script." Not an audition. Not a meeting. He absorbed a voice from television, his oldest companion, and let it shape his story. Even when telling his own story, the Nine's instinct was to let the environment write it.
+He cast [Matt Smith](/personality-analysis/matt-smith) after hearing his voice on TV while writing the script. "I heard him and I started writing him into the script." Not an audition. Not a meeting. He absorbed a voice from television, his oldest companion, and let it shape his story. Even when telling his own story, the Nine's instinct was to let the environment write it.
 
 He never directed again.
 

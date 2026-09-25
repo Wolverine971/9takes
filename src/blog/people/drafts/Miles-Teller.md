@@ -85,7 +85,7 @@ When Miles Teller first walked into audition rooms in Los Angeles, casting direc
 
 They told him to cover them with makeup. He refused.
 
-Then John Cameron Mitchell, casting _Rabbit Hole_ opposite Nicole Kidman, looked at the scars on Teller's face and said six words that changed his career: "I love it. It tells a secret."
+Then John Cameron Mitchell, casting _Rabbit Hole_ opposite [Nicole Kidman](/personality-analysis/nicole-kidman), looked at the scars on Teller's face and said six words that changed his career: "I love it. It tells a secret."
 
 Mitchell was talking about the scars. But he could have been talking about everything Miles Teller has spent the last fifteen years trying to hide in plain sight: the gap between who he performs and who he is. Between the man Hollywood decided was its cockiest young actor and the man who told _The Wrap_ in 2015: "I absolutely do care what people think about me."
 

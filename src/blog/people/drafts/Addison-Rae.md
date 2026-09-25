@@ -260,7 +260,7 @@ The same publications that ignored or mocked her earlier work were now praising 
 
 What changed? Not just the sound. The positioning. By aligning with hyperpop, working with A.G. Cook and Charli XCX, and releasing through a major label, Addison transformed from "TikToker trying music" to "artist with credible collaborators."
 
-She performed "Diet Pepsi" at Madison Square Garden with Troye Sivan and Charli XCX during the Sweat tour. TikToker to arena performer.
+She performed "Diet Pepsi" at Madison Square Garden with [Troye Sivan](/personality-analysis/troye-sivan) and Charli XCX during the Sweat tour. TikToker to arena performer.
 
 ## The Album: "Addison"
 

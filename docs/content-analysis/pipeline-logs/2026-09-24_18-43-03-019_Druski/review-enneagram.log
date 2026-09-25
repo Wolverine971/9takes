@@ -1,0 +1,17 @@
+I wrote the Enneagram review for Druski to `review-enneagram.json` in the run folder. It passes the pipeline's review schema, and every quoted passage matches the draft exactly. I didn't modify any other file or publish anything.
+
+**Verdict:** the switch from Type 8 to Type 3 holds up at medium confidence, but the argument for it is weaker than the draft makes it look. The review flags all three risks (contested typing, a major thesis change and sensitive allegations), so the full six-reviewer jury still applies.
+
+**Major findings (4):**
+- **Type 7 is never tested.** The draft's main evidence against Eight is that he answers critics by reframing, claiming good intent and moving on. That fits a Seven just as well. The body and the FAQ also disagree on what decides the call. The fix is a two-step test: how he handles criticism rules out Eight, and his focus on rank and fear of failure rules out Seven.
+- **The "in reverse" quote is out of order.** In the Diary of a CEO transcript, "Now they want to purchase these shows" comes about 70 seconds *before* "in reverse," in an earlier answer. The draft also cuts the words right after it: "And maybe they don't want that. Maybe they'll see what I was capable of doing." That cut line is actually better evidence for Type 3 than what the draft uses.
+- **A July 2026 whiteface revival is left out.** Complex reported (July 6, 2026) that he brought the whiteface character back for the Fourth of July, three months after Erika Kirk's rebuke. The draft says the risk was "taken twice," which understates the strongest evidence for Eight.
+- **The apology argument relies on a stereotype.** The draft says Eights see apologizing as giving ground. But it also counts his protectiveness toward his brother as Eight evidence, so his apology to a crying child can't also count against Eight. The draft also doesn't square his motion for sanctions in the Diddy suit with "almost never argues back."
+
+**Minor findings (3):** the Kevin Hart and Mark Wahlberg moments are weak rebuttals to the Eight case; the goals-list argument leans on items the host supplied; and the fear of being loved for the persona is something he himself calls universal to superstars.
+
+**Protected (5 passages):** the lines refusing to treat ambition as proof, keeping the childhood material off cause-and-effect, the "business model" line, the honest "unexplained" section, and the belt/Joe Jackson ending.
+
+Two things to know:
+- **Your approval is still needed.** The evidence file says you must explicitly approve changing his type from 8 to 3 before anything publishes.
+- **The content hashes don't match.** As instructed, I copied them from the request file, but they differ from the raw file hashes. The pipeline probably computes them differently, but if the next stage reports the review as stale, that's why.

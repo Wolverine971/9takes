@@ -276,7 +276,7 @@ The insurance salesman is still working inside the interviewer. He listens for v
 
 His October 2023 interview with Ron DeSantis showed the method at its most theatrical. Bet-David raised the rumor that DeSantis wore lifts in his cowboy boots, then produced a pair of Ferragamo loafers. The governor declined to try them, citing gift rules. Bet-David later told _The Spectator_ that DeSantis had missed a chance to show his human side.
 
-In a 103-minute interview with Bill Maher, he asked the comedian to explain why he considered Gavin Newsom a winner. Maher struggled, became irritated, and cursed. Bet-David's later analysis focused on the emotional loss of control. He had created a small test, watched the guest fail it, and then narrated what the failure meant.
+In a 103-minute interview with Bill Maher, he asked the comedian to explain why he considered [Gavin Newsom](/personality-analysis/gavin-newsom) a winner. Maher struggled, became irritated, and cursed. Bet-David's later analysis focused on the emotional loss of control. He had created a small test, watched the guest fail it, and then narrated what the failure meant.
 
 The result can feel generous and predatory at once. He gives guests time that television rarely offers. He also treats the time as a stress test. The long format creates enough room for the rehearsed identity to slip.
 
@@ -304,7 +304,7 @@ The comparison makes sense. Arnold moved from immigrant bodybuilder to movie sta
 
 Bet-David answered that limit in _The Spectator_ in 2024 by proposing a "forty-year run in media and business." The answer contains no visible mourning for the closed office. The ambition simply moved to a field without the same eligibility rule.
 
-The media business was already changing around him. Valuetainment began with entrepreneurship and self-improvement. The PBD Podcast, launched in 2020, moved more deeply into partisan conflict. Bet-David interviewed Donald Trump, Tucker Carlson, Alex Jones, Ron DeSantis, and Reza Pahlavi. By 2025 he was willing to host white nationalist Nick Fuentes. He later said Ben Shapiro canceled a planned appearance after that interview.
+The media business was already changing around him. Valuetainment began with entrepreneurship and self-improvement. The PBD Podcast, launched in 2020, moved more deeply into partisan conflict. Bet-David interviewed Donald Trump, [Tucker Carlson](/personality-analysis/tucker-carlson), Alex Jones, Ron DeSantis, and Reza Pahlavi. By 2025 he was willing to host white nationalist Nick Fuentes. He later said Ben Shapiro canceled a planned appearance after that interview.
 
 That booking was consistent with Bet-David's theory of media: conflict attracts attention, forbidden guests create stakes, and the host earns power by becoming the place where opponents have to meet. It also creates a moral problem that the chess metaphor cannot solve. A platform does more than test a guest. It distributes the guest.
 

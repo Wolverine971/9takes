@@ -286,7 +286,7 @@ The machine costs him, though, and the clearest bill came due in Annapolis. For 
 
 His material centered on James Stockdale, the Naval Academy graduate whose Stoicism carried him through more than seven years as a prisoner of war, and whom the Navy sent to Stanford to read Marx and Lenin in the original, because wisdom requires exposure to the ideas you find repellent.
 
-Roughly an hour before he was due on stage, the Academy called and asked him to drop the slide referencing the 381 books that Navy leadership had pulled from its Nimitz Library that month, complying with an order from Defense Secretary Pete Hegseth's office to strip out anything promoting diversity, equity and inclusion.
+Roughly an hour before he was due on stage, the Academy called and asked him to drop the slide referencing the 381 books that Navy leadership had pulled from its Nimitz Library that month, complying with an order from Defense Secretary [Pete Hegseth](/personality-analysis/pete-hegseth)'s office to strip out anything promoting diversity, equity and inclusion.
 
 <div class="key-stat">
 <span class="key-stat-number">381</span>

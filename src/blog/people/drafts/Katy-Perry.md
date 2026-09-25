@@ -130,7 +130,7 @@ She had two cars repossessed. She signed with Glen Ballard's Java Records under 
 
 Most people would have gone home. Perry kept going. Not because she was brave, exactly, but because going home meant going back into the cage. Every rejection was still better than that.
 
-She changed her last name to Perry — her mother's maiden name — to avoid confusion with actress Kate Hudson. The name change was practical. It was also the first costume.
+She changed her last name to Perry — her mother's maiden name — to avoid confusion with actress [Kate Hudson](/personality-analysis/kate-hudson). The name change was practical. It was also the first costume.
 
 Then, in 2008, a song called "I Kissed a Girl" detonated.
 

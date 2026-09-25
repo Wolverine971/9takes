@@ -195,7 +195,7 @@ At Coachella 2025, Boone was playing his first festival slot of that scale. At t
 
 The crowd reaction was lukewarm. A lot of the Gen Z audience didn't seem to know who they were looking at. Boone saw it happening in real time and got visibly annoyed. Afterward he posted a TikTok lip-syncing "Bohemian Rhapsody" into a banana, captioned: "Me trying to get the crowd at Coachella to understand what an absolute legend Brian May is." For weekend two, he walked out with a life-sized Brian May cardboard cutout as a running joke on the people who hadn't clapped for the real one.
 
-The moment is worth sitting with. For months, the dominant criticism of Boone had been that he was a Freddie Mercury impersonator without an artistic identity. Then Queen's surviving founder, the man who wrote Freddie's guitar parts, walked onto a stage and played with him. The "copy of a copy" charge gets harder to hold when the original sends its guitarist.
+The moment is worth sitting with. For months, the dominant criticism of Boone had been that he was a [Freddie Mercury](/personality-analysis/freddie-mercury) impersonator without an artistic identity. Then Queen's surviving founder, the man who wrote Freddie's guitar parts, walked onto a stage and played with him. The "copy of a copy" charge gets harder to hold when the original sends its guitarist.
 
 ## Benson Boone's Personality Quirks and Habits
 

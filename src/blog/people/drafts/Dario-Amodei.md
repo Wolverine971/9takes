@@ -370,7 +370,7 @@ In July 2025, Anthropic signed a $200 million contract with the Pentagon. The co
 
 The Pentagon demanded those clauses be removed. Dario refused.
 
-Secretary of Defense Pete Hegseth formally designated Anthropic a "Supply-Chain Risk to National Security," and the Trump administration ordered federal agencies to cease using its technology. [David Sacks](/personality-analysis/david-sacks), the president's AI czar, called the company "woke." Pentagon official Emil Michael called Amodei "a liar" with a "God-complex."
+Secretary of Defense [Pete Hegseth](/personality-analysis/pete-hegseth) formally designated Anthropic a "Supply-Chain Risk to National Security," and the Trump administration ordered federal agencies to cease using its technology. [David Sacks](/personality-analysis/david-sacks), the president's AI czar, called the company "woke." Pentagon official Emil Michael called Amodei "a liar" with a "God-complex."
 
 Dario's answer in a [CBS News interview on February 28, 2026](https://www.cbsnews.com/news/ai-executive-dario-amodei-on-the-red-lines-anthropic-would-not-cross/) returned to reliability: a fully autonomous weapon could misread a civilian or cause friendly fire. "We don't want to sell something that we don't think is reliable," he said. "We can't just be a total race to the bottom."
 
@@ -382,7 +382,7 @@ Then came a different loss of control. Anthropic released Fable 5 and Mythos 5 i
 
 The order made a Type 5's core fear concrete. A resource he had built and needed was removed by an authority he could neither out-research nor ignore. Competence could not protect access without relationships. Five days later, he went to the G7.
 
-The crisis cornered him into the G7 lunch. Once there, his request went beyond a private exception for Anthropic. He argued that democratic countries should coordinate trade in advanced models and share their benefits. Altman called for an international safety forum, and Demis Hassabis proposed a standards body.
+The crisis cornered him into the G7 lunch. Once there, his request went beyond a private exception for Anthropic. He argued that democratic countries should coordinate trade in advanced models and share their benefits. Altman called for an international safety forum, and [Demis Hassabis](/personality-analysis/demis-hassabis) proposed a standards body.
 
 He did something different with the exposure. His request still sounded like him: build a durable framework so no improvised relationship decides access next time. The pressure forced the entrance; turning a company exception into a general rule was his choice.
 

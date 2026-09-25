@@ -135,7 +135,7 @@ Mitigation: core phrasing is retained because it is the article's argument, but 
 
 <p class="firstLetter">In 2006, Rachel McAdams arrived at a Los Angeles photo studio for a Vanity Fair shoot. She was twenty-seven years old. The Notebook and Mean Girls had made her one of the most sought-after actresses on the planet. Studios were calling. Scripts were piling up. The cover would cement her Hollywood it-girl status.</p>
 
-Then she saw the setup. Tom Ford wanted her nude, alongside Scarlett Johansson and Keira Knightley.
+Then she saw the setup. Tom Ford wanted her nude, alongside Scarlett Johansson and [Keira Knightley](/personality-analysis/keira-knightley).
 
 "No, I'm not into that," Keira Knightley later recalled in a 2006 interview about the Vanity Fair shoot.
 

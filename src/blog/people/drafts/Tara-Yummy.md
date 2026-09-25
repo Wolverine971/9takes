@@ -272,7 +272,7 @@ Tara's cultural identity deserves precision because the internet repeatedly turn
 
 Her childhood Iranian radio appearance adds a public artifact to those statements. It also corrects the idea that Persian identity entered the brand only after fame. The image of a four-year-old performing with an Iranian flag existed long before the Mindset tour.
 
-Freddie Mercury is where precision matters most. In a [Naluda Magazine interview](https://www.naludamagazine.com/interview-with-social-media-sensation-tara-yummy/), Tara named him as the person she would most like to meet and called him Persian like her, emphasizing how unapologetically he lived.
+[Freddie Mercury](/personality-analysis/freddie-mercury) is where precision matters most. In a [Naluda Magazine interview](https://www.naludamagazine.com/interview-with-social-media-sensation-tara-yummy/), Tara named him as the person she would most like to meet and called him Persian like her, emphasizing how unapologetically he lived.
 
 Her admiration is clear; the ancestry shorthand is imprecise. [Mercury's official biography](https://www.freddiemercury.com/en/biography) says he was born in Zanzibar to Bomi and Jer Bulsara and spent much of his childhood in India. His family was Parsi and Zoroastrian, a community with ancient roots in Persia, but that is distinct from Tara's modern Iranian-American family history. The responsible reading is not a shared nationality. It is Tara identifying with an artist whose self-presentation refused to become smaller for an audience.
 

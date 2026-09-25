@@ -275,7 +275,7 @@ Billboard named her Woman of the Year — only the second female rapper to recei
 
 At the Met Gala — her first — she arrived in custom Louis Vuitton, a cream monogrammed blazer with Bermuda shorts, gold grills, an afro, an unlit cigar. When a viral video caught her tersely telling her team "Give me another umbrella, now" to keep the look hidden before the reveal, she responded on Instagram: "God forbid a girl needs more umbrellas."
 
-She narrated Nike's Super Bowl commercial — their first in 27 years. It generated over 66 million Instagram views in 24 hours. She featured on JENNIE's "ExtraL" and A$AP Rocky's _Don't Be Dumb_. She closed out 2025 by surprise-releasing "girl, get up" with SZA — a direct response to the industry plant accusations that had trailed her all year. _"All that industry plant shit wack... Y'all wanna believe I'm on drugs and forsaken / They won't credit me, so they blame it on Satan."_
+She narrated Nike's Super Bowl commercial — their first in 27 years. It generated over 66 million Instagram views in 24 hours. She featured on JENNIE's "ExtraL" and A$AP Rocky's _Don't Be Dumb_. She closed out 2025 by surprise-releasing "girl, get up" with [SZA](/personality-analysis/sza) — a direct response to the industry plant accusations that had trailed her all year. _"All that industry plant shit wack... Y'all wanna believe I'm on drugs and forsaken / They won't credit me, so they blame it on Satan."_
 
 Her _Live from the Swamp Tour_ sold out in minutes. She opened for [Kendrick Lamar](/personality-analysis/kendrick-lamar) in Australia. She performed a surprise duet with Lauryn Hill at Jazz in the Gardens — the artist whose _Miseducation_ was the first full album she ever listened to.
 

@@ -160,7 +160,7 @@ The previous year, she'd performed a George Michael tribute at the same ceremony
 
 But here's what the heavy moments obscure: Adele is genuinely, devastatingly funny.
 
-She did Carpool Karaoke and rapped Nicki Minaj's "Monster" verse from memory — every word, perfect delivery — then cackled like she couldn't believe herself. She went undercover as an Adele impersonator for a BBC special, wearing prosthetics, and watched women pour their hearts out about what her music meant to them — then started singing in her real voice and made every one of them scream. Her acceptance speeches are reliably profane: "Shit, I'm going to cry," she told the Brits audience, holding a trophy, looking genuinely shocked that anyone had noticed.
+She did Carpool Karaoke and rapped [Nicki Minaj](/personality-analysis/nicki-minaj)'s "Monster" verse from memory — every word, perfect delivery — then cackled like she couldn't believe herself. She went undercover as an Adele impersonator for a BBC special, wearing prosthetics, and watched women pour their hearts out about what her music meant to them — then started singing in her real voice and made every one of them scream. Her acceptance speeches are reliably profane: "Shit, I'm going to cry," she told the Brits audience, holding a trophy, looking genuinely shocked that anyone had noticed.
 
 At concerts, she stops songs to compliment someone's jacket in the fourth row. She narrates proposals happening in the crowd like a sports commentator. She once paused a show for ten minutes because a fan had fainted and refused to continue until medics confirmed they were fine.
 

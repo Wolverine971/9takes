@@ -261,7 +261,7 @@ Ninja has denied wanting to fight or harm Turner's career, saying "I don't hate 
 
 ## Why he chose Indian Rocks Beach over Corinna Kopf
 
-Turner's relationship with Corinna Kopf, which ran from late 2018 to February 2020, exposed the same pattern in a different arena.
+Turner's relationship with [Corinna Kopf](/personality-analysis/corinna-kopf), which ran from late 2018 to February 2020, exposed the same pattern in a different arena.
 
 "We dated for like, almost a year," Corinna explained. "He only came to LA three times. I was in Florida for weeks on end."
 

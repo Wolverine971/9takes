@@ -194,7 +194,7 @@ In April 2023, Bobbi launched The Really Good Podcast with an unconventional pre
 
 Her style defied every rule of celebrity journalism. Alex Abad-Santos of Vox described it as "unfazed, dry, bored in an ironic way... She meets most of her guests with deadpan sarcasm and silence, making her guests live in the discomfort of whatever they just revealed."
 
-Comparisons to Zach Galifianakis's "Between Two Ferns" and Amelia Dimoldenberg's "Chicken Shop Date" followed, but Bobbi insists she hadn't watched either before starting. Her inspiration was the dry comedy of "The Office" and "Modern Family."
+Comparisons to Zach Galifianakis's "Between Two Ferns" and [Amelia Dimoldenberg](/personality-analysis/amelia-dimoldenberg)'s "Chicken Shop Date" followed, but Bobbi insists she hadn't watched either before starting. Her inspiration was the dry comedy of "The Office" and "Modern Family."
 
 The truth? This wasn't imitation. It was finally having permission to be the person she'd always been underneath the shame.
 

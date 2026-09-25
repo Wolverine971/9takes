@@ -360,7 +360,7 @@ Bad Bunny's willingness to stop, publicly, shows unusual self-awareness for a 7.
 
 ### The Kendall Chapter
 
-Bad Bunny's on-again, off-again relationship with Kendall Jenner played out publicly from 2023 to 2024. They reconciled briefly in mid-2024 before splitting again in September. Their 2025 Met Gala run-in made headlines.
+Bad Bunny's on-again, off-again relationship with [Kendall Jenner](/personality-analysis/kendall-jenner) played out publicly from 2023 to 2024. They reconciled briefly in mid-2024 before splitting again in September. Their 2025 Met Gala run-in made headlines.
 
 In July 2025, Bad Bunny posted a photo featuring a hat reading "Stop dating people who don't get your music." Widely interpreted as a subtle dig at his ex.
 

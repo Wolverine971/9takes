@@ -195,7 +195,7 @@ Even when describing a relationship with one of the most famous musicians alive,
 
 Ed Sheeran writes for other artists the way a Nine breathes: quietly, without claiming space.
 
-He wrote "Love Yourself" for Justin Bieber. Number one worldwide. He wrote "Little Things" for One Direction. Number one in the UK. He co-wrote "Permission to Dance" for BTS. He gave "Eastside" to Halsey and Khalid. Number one in the UK. He's written for Anne-Marie, Westlife, The Weeknd.
+He wrote "Love Yourself" for Justin Bieber. Number one worldwide. He wrote "Little Things" for One Direction. Number one in the UK. He co-wrote "Permission to Dance" for BTS. He gave "Eastside" to [Halsey](/personality-analysis/halsey) and Khalid. Number one in the UK. He's written for Anne-Marie, Westlife, The Weeknd.
 
 Most of these songs went out under other people's names with Sheeran's listed somewhere in the fine print. He wasn't featured. He didn't promote them. He handed them off and went back to his loop pedal. The biggest pop songwriter of his generation kept giving away number ones like someone leaving extra change on the counter.
 

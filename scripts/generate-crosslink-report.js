@@ -39,6 +39,7 @@ import {
 	findOpportunities
 } from './lib/crosslinkOpportunities.js';
 import { GATE_THRESHOLDS, loadBaseline } from './lib/crosslinkGate.js';
+import { PEOPLE_LINK_DEFAULTS, findPeopleToPeopleOpportunities } from './lib/peopleCrosslinks.js';
 
 const REPORT_FILE = path.join(REPO_ROOT, 'docs/BLOG-CROSSLINK-INDEX.md');
 const CROSSLINK_DIR = path.join(REPO_ROOT, 'docs/crosslinks');
@@ -206,6 +207,12 @@ const gateDebt = belowGate
 
 const topBlog = diversify(blogOpps, { limit: 40, perTarget: 3, perSource: 3 });
 const peopleBridge = diversify(personOpps, { limit: 30, perTarget: 2, perSource: 3 });
+const peopleLinks = findPeopleToPeopleOpportunities({ graph, people, gsc, skipped });
+const peopleToPeople = peopleLinks.picked.slice(0, 60);
+const contextualIn = (n) => n.inBlog.size + n.inPeople.size;
+const peopleNeedingLinks = personNodes.filter(
+	(n) => contextualIn(n) <= PEOPLE_LINK_DEFAULTS.needMaxIn
+);
 
 const queue = {
 	generatedAt: today(),
@@ -216,11 +223,13 @@ const queue = {
 		gateDebt: gateDebt.length,
 		topBlog: topBlog.length,
 		peopleBridge: peopleBridge.length,
+		peopleToPeople: peopleToPeople.length,
 		skipped: skipped.size
 	},
 	gateDebt,
 	topBlog,
-	peopleBridge
+	peopleBridge,
+	peopleToPeople
 };
 
 // ---- markdown helpers ------------------------------------------------------
@@ -344,7 +353,8 @@ ${blogNodes
 ## People bridge
 
 People pages by search impressions and how many **blog posts** link to them in prose
-(the FamousTypes block on type pages links every person, but that is not a contextual link).
+(the FamousTypes block on type pages and the \`/personality-analysis/categories/*\` listings link
+nearly every person, but those are not contextual links).
 ${personNodes.filter((n) => n.inBlog.size > 0).length} of ${personNodes.length} people pages have at least one blog link.
 
 | Person | Impressions | Clicks | Position | Blog links in | People links in |
@@ -356,6 +366,23 @@ ${personNodes
 	.map(
 		(n) =>
 			`| [${esc(n.title)}](${n.url}) | ${fmt(stats(n.url).impressions)} | ${fmt(stats(n.url).clicks)} | ${pos(stats(n.url).position)} | ${n.inBlog.size} | ${n.inPeople.size} |`
+	)
+	.join('\n')}
+
+## People pages that need links
+
+A people page "needs links" with ${PEOPLE_LINK_DEFAULTS.needMaxIn} or fewer contextual links in (blog posts + other people pages).
+**${peopleNeedingLinks.length} of ${personNodes.length}** people pages need links; ${peopleNeedingLinks.filter((n) => contextualIn(n) === 0).length} have none.
+Unlinked mentions on other people pages are queued in \`link-opportunities.md\` §4.
+
+| Person | Impressions | Position | Blog links in | People links in |
+|---|---|---|---|---|
+${peopleNeedingLinks
+	.sort((a, b) => (stats(b.url)?.impressions ?? 0) - (stats(a.url)?.impressions ?? 0))
+	.slice(0, 25)
+	.map(
+		(n) =>
+			`| [${esc(n.title)}](${n.url}) | ${fmt(stats(n.url)?.impressions)} | ${pos(stats(n.url)?.position)} | ${n.inBlog.size} | ${n.inPeople.size} |`
 	)
 	.join('\n')}
 
@@ -478,7 +505,24 @@ qmd += `## 2. Highest-value blog links
 ${oppTable(topBlog)}
 ## 3. People bridge (blog → personality-analysis)
 
-${oppTable(peopleBridge)}`;
+${oppTable(peopleBridge)}
+## 4. People → people (personality-analysis → personality-analysis)
+
+A people page names another person who needs links (${PEOPLE_LINK_DEFAULTS.needMaxIn} or fewer contextual links in) without linking them.
+Sources with ${PEOPLE_LINK_DEFAULTS.sourceOutCap}+ internal links are skipped; at most ${PEOPLE_LINK_DEFAULTS.perSource} per source, and targets fill to ${PEOPLE_LINK_DEFAULTS.fillTo}.
+These pages live in the database: edit the draft, then sync (see \`/crosslink-queue\` step 4b).
+${peopleLinks.candidates.length} unlinked mentions found; top ${peopleToPeople.length} after caps.
+
+${
+	peopleToPeople.length
+		? `| Target (in, impressions) | Source (line) | Anchor | Sentence |\n|---|---|---|---|\n${peopleToPeople
+				.map(
+					(o) =>
+						`| \`${o.target.url}\` (${o.target.inCount}, ${fmt(o.target.impressions)}) | \`${o.source.file}\` (L${o.line}) | "${esc(o.anchor)}"${o.typeClaim ? ` ⚠ text says type ${o.typeClaim}` : ''} | ${esc(short(o.excerpt, 140))} |`
+				)
+				.join('\n')}\n`
+		: '_None found._\n'
+}`;
 
 fs.mkdirSync(CROSSLINK_DIR, { recursive: true });
 fs.writeFileSync(REPORT_FILE, md);
@@ -491,5 +535,5 @@ console.log(
 	`   live posts ${blogNodes.length} | isolated ${isolated.length} | 0-in ${zeroIn.length} | 0-out ${zeroOut.length} | below gate ${belowGate.length} (${newGateFailures.length} not grandfathered) | broken ${broken.length}`
 );
 console.log(
-	`   opportunities ${all.length} | gate debt ${gateDebt.length} | top blog ${topBlog.length} | people bridge ${peopleBridge.length}`
+	`   opportunities ${all.length} | gate debt ${gateDebt.length} | top blog ${topBlog.length} | people bridge ${peopleBridge.length} | people→people ${peopleToPeople.length} (${peopleNeedingLinks.length} people pages need links)`
 );

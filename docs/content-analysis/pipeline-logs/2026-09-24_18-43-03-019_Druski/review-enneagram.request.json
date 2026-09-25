@@ -1,0 +1,20 @@
+{
+	"schema_version": 3,
+	"subject": "Druski",
+	"mode": "resume",
+	"role": "enneagram",
+	"root": "/Users/djwayne/9takes",
+	"command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+	"standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+	"contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+	"inputs": {
+		"draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/draft.md",
+		"evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/evidence-draft.json",
+		"similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/similarity.json"
+	},
+	"outputs": {
+		"review-enneagram.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-enneagram.json"
+	},
+	"content_sha256": "17398e8c5e14d73d0ed48be19b583b430970adf3841382dd26a460814abe92a6",
+	"evidence_sha256": "cc5c59e99e6789b71d8a5e613bd422239a1666bc150c4043f1dd818666668af0"
+}

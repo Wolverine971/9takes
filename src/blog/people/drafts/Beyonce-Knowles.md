@@ -119,7 +119,7 @@ The salon was her first stage. Between sweeping, she'd perform for the captive a
 
 Her mother saw the transformation before anyone else. "When we saw her on stage for the first time, it was incredible," Tina told Essence. "I'd never seen her so alive and confident." Then, more quietly: "Performing changed her life. Even when she was shy, she was dancing and putting on shows, and she would just come alive at that time."
 
-A first-grader won her school talent show singing John Lennon's "Imagine." "I was like, 'Oh, Lord, this is amazing,'" Beyoncé remembered. "So I knew I wanted to be a singer."
+A first-grader won her school talent show singing [John Lennon](/personality-analysis/john-lennon)'s "Imagine." "I was like, 'Oh, Lord, this is amazing,'" Beyoncé remembered. "So I knew I wanted to be a singer."
 
 But here's the detail that matters: she knew she wanted to sing. She still couldn't speak. The voice only worked when there was a stage, a song, a structure between her and the world. Remove the performance and the girl went silent again.
 

@@ -245,7 +245,7 @@ The coaching didn't stop. If anything, it deepened. He has said in multiple inte
 
 ## Why everyone — from Kendrick Lamar to Martha Stewart — can be in Snoop Dogg's life at the same time
 
-Most celebrities of this magnitude accumulate enemies. Snoop accumulates friends. The list of people who publicly love him cuts across every category American culture has: [Eminem](/personality-analysis/eminem), Willie Nelson, Larry King, 50 Cent, Stevie Wonder, Matthew McConaughey, Tom Brady, Gwen Stefani, Charlie Wilson, and — the one that broke the internet — Martha Stewart.
+Most celebrities of this magnitude accumulate enemies. Snoop accumulates friends. The list of people who publicly love him cuts across every category American culture has: [Eminem](/personality-analysis/eminem), Willie Nelson, Larry King, 50 Cent, Stevie Wonder, [Matthew McConaughey](/personality-analysis/matthew-mcconaughey), Tom Brady, Gwen Stefani, Charlie Wilson, and — the one that broke the internet — Martha Stewart.
 
 The Martha story is the most revealing. They met on her cooking show in 2008 making mashed potatoes. They cemented the friendship four years later, seated next to each other at the Comedy Central roast of Justin Bieber, where Snoop later said: "In that moment, I knew I wanted to be alongside this lady for the rest of my life."
 
@@ -267,7 +267,7 @@ The "chill" framing is the most misleading thing ever said about him.
 
 Since 1993 he has released 20 studio albums. He owns a cannabis brand, a wine label, a fragrance, a dog food company, a YouTube sports commentary channel, a boxing promotion arm, a record label, and — as of 2022 — Death Row Records itself, the same label he once left in fear for his life. He [integrates to Three](/enneagram-corner/enneagram-wings-complete-guide) in a way most Nines never do, because most Nines never get the chance. Most Nines work in the mediating layer of an organization and never get their own office. Snoop got his own empire and ran it like a Nine would — through warmth, through relationships, through never asking anyone to choose between him and another friend.
 
-The Olympic chapter is the cleanest illustration. In 2024, NBC made him a full-time correspondent for the Paris Games. He carried the torch through Saint-Denis. He commentated on dressage. He did equestrian coverage with [Kevin Hart](/personality-analysis/kevin-hart). He hosted state-delegation parties. He was, by a wide margin, the most-watched figure of the games outside of Simone Biles.
+The Olympic chapter is the cleanest illustration. In 2024, NBC made him a full-time correspondent for the Paris Games. He carried the torch through Saint-Denis. He commentated on dressage. He did equestrian coverage with [Kevin Hart](/personality-analysis/kevin-hart). He hosted state-delegation parties. He was, by a wide margin, the most-watched figure of the games outside of [Simone Biles](/personality-analysis/simone-biles).
 
 The network did not hire him because he is a rapper. They hired him because he is the rare public figure who can make any American feel included in the room. That is a Type Nine specialty. It's what Nines have been doing since kindergarten, when they learned that their gift was making other people feel less alone. The Olympics just paid him for it at scale.
 

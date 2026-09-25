@@ -256,7 +256,7 @@ Behind the scenes, the establishment had reached its own verdict. Jamie Dimon �
 
 Six weeks after the S-1 dropped, the IPO was withdrawn. The valuation cratered from $47 billion toward $8 billion. Neumann was forced out by his own board. He took a personal exit package reportedly worth around $1.7 billion (cash, share sales, and a SoftBank consulting agreement combined). SoftBank ate the loss.
 
-Two years later, Neumann sat down with Andrew Ross Sorkin at the [DealBook Online Summit](https://www.cnbc.com/2021/11/09/ousted-wework-ceo-adam-neumann-47-billion-valuation-went-to-his-head.html) — his first real public interview since the collapse — and produced the most honest sentence he had ever said in public.
+Two years later, Neumann sat down with [Andrew Ross Sorkin](/personality-analysis/andrew-ross-sorkin) at the [DealBook Online Summit](https://www.cnbc.com/2021/11/09/ousted-wework-ceo-adam-neumann-47-billion-valuation-went-to-his-head.html) — his first real public interview since the collapse — and produced the most honest sentence he had ever said in public.
 
 <div class="pull-quote">"The valuation made us feel like we were right, which made me feel that whatever style I was leading at was a correct style at the time." — Adam Neumann, DealBook Summit, November 2021</div>
 
@@ -272,7 +272,7 @@ It is a flawless Three sentence. Threes do not carry a continuous narrative of t
 
 When Sorkin pushed for an apology to the WeWork employees who had lost their jobs and watched their stock options evaporate, the apology never came. **For a Three, the previous self is not a person you apologize for. The previous self is a previous role.**
 
-For audiences who first met him through Apple TV+'s [_WeCrashed_](https://en.wikipedia.org/wiki/WeCrashed) in 2022 — Jared Leto and Anne Hathaway as Adam and Rebekah — the eight episodes covered most of this terrain. The thing the show could not capture, and the thing the DealBook sentence makes explicit, is that the man inside the collapse never actually conceded he was inside it.
+For audiences who first met him through Apple TV+'s [_WeCrashed_](https://en.wikipedia.org/wiki/WeCrashed) in 2022 — [Jared Leto](/personality-analysis/jared-leto) and Anne Hathaway as Adam and Rebekah — the eight episodes covered most of this terrain. The thing the show could not capture, and the thing the DealBook sentence makes explicit, is that the man inside the collapse never actually conceded he was inside it.
 
 ## Adam Neumann's comeback: Flow, the bankruptcy bid, and the role he can't stop playing
 

@@ -172,7 +172,7 @@ Then *Sports Illustrated Swimsuit* put her on the digital cover. Then came Secre
 
 ## What Ilona Maher Actually Built Between Two Olympics
 
-Paris itself had already been a cultural event before it was a rugby result. Maher gained roughly two million Instagram followers during the Games alone. She did the NBC morning-show circuit. She ended up, improbably, in a viral Olympic-Village photo with Snoop Dogg, who was that summer's NBC correspondent-at-large and who, next to her, looked like the smaller of the two. *Today*, *GMA*, *ESPN*: for a stretch of August 2024, the American image of the Paris Olympics was Simone Biles, Katie Ledecky, and a rugby center from Vermont most of the country hadn't heard of three weeks earlier.
+Paris itself had already been a cultural event before it was a rugby result. Maher gained roughly two million Instagram followers during the Games alone. She did the NBC morning-show circuit. She ended up, improbably, in a viral Olympic-Village photo with [Snoop Dogg](/personality-analysis/snoop-dogg), who was that summer's NBC correspondent-at-large and who, next to her, looked like the smaller of the two. *Today*, *GMA*, *ESPN*: for a stretch of August 2024, the American image of the Paris Olympics was [Simone Biles](/personality-analysis/simone-biles), Katie Ledecky, and a rugby center from Vermont most of the country hadn't heard of three weeks earlier.
 
 Then, three weeks after the closing ceremony, she was announced as a contestant on *Dancing with the Stars*. Her partner was Alan Bersten. They reached the finale and finished as runners-up. Along the way, she became the first female celebrity in the show's history to lift her male partner during a routine. The crowd lost its mind. So did the internet.
 

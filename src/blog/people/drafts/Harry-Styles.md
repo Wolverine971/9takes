@@ -258,7 +258,7 @@ You can't protect everyone. Type 2s often learn this the hardest way.
 
 After two years away, Harry resurfaced in late 2025 with "Forever, Forever" — eight minutes of footage from Love On Tour's final show — and a new album, **Kiss All The Time. Disco, Occasionally**, due March 2026.
 
-Reports suggest he's been dating Zoë Kravitz since August 2025. At 31, this looks less like Harry the Helper finding someone to care for and more like Harry finding an equal. Which is what growth looks like for a Type 2.
+Reports suggest he's been dating [Zoë Kravitz](/personality-analysis/zoe-kravitz) since August 2025. At 31, this looks less like Harry the Helper finding someone to care for and more like Harry finding an equal. Which is what growth looks like for a Type 2.
 
 The Helper is coming back. But maybe, after everything, with healthier boundaries.
 

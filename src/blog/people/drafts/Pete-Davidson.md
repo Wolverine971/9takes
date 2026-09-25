@@ -167,7 +167,7 @@ That detail matters. Even in his first act of self-expression, Pete needed a buf
 
 He was hooked. He started taking the ferry to Manhattan after school every day to do open mics. Eastville, Broadway Comedy Club, the Lower East Side bars. "Once I started doing comedy is when I started making friends," he told Maron. "That's when I met people that were exactly like me. And most comics also have a horrible past of one kind or another. Something's off."
 
-Within four years, he became the youngest cast member hired onto Saturday Night Live since Eddie Murphy. He was twenty. Bill Hader had spotted him in a small role in Amy Schumer's _Trainwreck_ and recommended him to Lorne Michaels. Pete had never watched SNL. He grew up on SpongeBob and Drake & Josh. He YouTubed "SNL" the night before his writers' meeting. He was high when he met Lorne.
+Within four years, he became the youngest cast member hired onto Saturday Night Live since [Eddie Murphy](/personality-analysis/eddie-murphy). He was twenty. Bill Hader had spotted him in a small role in Amy Schumer's _Trainwreck_ and recommended him to Lorne Michaels. Pete had never watched SNL. He grew up on SpongeBob and Drake & Josh. He YouTubed "SNL" the night before his writers' meeting. He was high when he met Lorne.
 
 "Please fire me," Pete told Michaels after his first year. "I don't belong here. Everybody here is so talented and they don't want to be my friend."
 
@@ -224,7 +224,7 @@ Remember the Volcano Room at America's Camp? A room full of punching bags, "sold
 
 ### The Furnace Beneath the Floorboards
 
-Pete has an edge most Peacemakers don't carry. It's what lets his comedy turn sharp when it needs to, what made Bill Burr consider him "a peer" rather than a pushover, and what made the Kanye West conflict the most revealing public episode of Pete's personality.
+Pete has an edge most Peacemakers don't carry. It's what lets his comedy turn sharp when it needs to, what made [Bill Burr](/personality-analysis/bill-burr) consider him "a peer" rather than a pushover, and what made the Kanye West conflict the most revealing public episode of Pete's personality.
 
 Before Kanye, the edge had already surfaced in private. Pete told [Maron in 2017](https://www.youtube.com/watch?v=-M34WZSZA_M) about the blind rages that led to his BPD diagnosis, episodes where he would "freak out. Like, rage. Rage. Like stuff. And then not remember what happened after." His girlfriend at the time told him, "Something, you snapped." He described coming to after these episodes the way someone describes waking from a blackout, piecing things together from broken objects and fog.
 

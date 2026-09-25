@@ -1,0 +1,27 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 585b57fe-668b-45c9-88a1-6a716f985101 to write outputs
+The Druski page didn't pass verification: it's marked **insufficient_evidence**. That's because I couldn't reopen about a third of its sources, not because anything checked turned out wrong. The result is in `verification-edit.json` in the run directory. I changed no other files and published nothing.
+
+**What I confirmed:**
+- **Diary of a CEO:** all ~90 quotes match the publisher's transcript word for word. I downloaded the episode audio and checked six contested passages by ear with Whisper. Those include the "B on this test" line, "No but I have people watching," the "perceive myself as a failure" wording and "We were a broken home."
+- **Print and web sources:** GQ 2020, Complex 2021, Rolling Stone 2024, Billboard (both pieces), The Nation, The Conversation, the Daily Beast Trump remark, UnHerd, the Complex Erika Kirk piece, the "too far" and cease-and-desist reports, and both X posts all check out in context.
+- **Reviewer fixes:** 45 of the 46 fixes are in the text as claimed. The editor's one rejection (a minor suggestion, turned down to stay under the word limit) is reasonable. All 18 passages the reviewers asked to keep are intact or changed for a sound reason. There were no inherited blockers.
+- **Scores (provisional):** evidence 8, Enneagram 8, originality 8.5, writing 8, durability 8, hook 9, discoverability 8. The weighted overall is 8.1, under the 8.5 release bar even before the verification gaps.
+
+**What I couldn't verify, listed as research tasks in the file:**
+- **YouTube-only sources:** YouTube blocked this machine for every caption request. That leaves the CBS Mornings quotes, the Mafiathon apology, his mother's call-in on 2 Bears, 1 Cave, and the audition videos unchecked.
+- **Essence:** Cloudflare blocked it, so the Netflix/Amazon/Hulu quote and the view counts are unchecked.
+- **Jack Harlow's quote:** the page only renders in a browser.
+- **Fetched but not read before the turn limit:** TIME, Forbes, Wikipedia/Wikidata, the court docket, and a few Complex and Us Weekly pages where I only confirmed the quoted words exist.
+
+In total, 15 claims are marked unsupported and 29 qualified. "Unsupported" here means I couldn't verify them, not that they're false. The file says this in each case.
+
+**Two small wording issues I found:**
+- The line about TIME100 Creators 2026 isn't in the claim list.
+- The body says the "too far" post was "later deleted," and the FAQ says he "posted and deleted" it. The only source says it "appears to have been deleted."
+
+**Two things only you can decide before this page goes live:**
+1. The live page calls Druski a Type 8; this draft changes it to Type 3. That change needs your explicit approval.
+2. The father's side hasn't been checked. The interview came out the same day as this check, so the page needs a second look for any response from his father at publication and again 30 days later.
+
+The fastest way to clear the hold is to re-run this stage from a different network, so YouTube and Essence load.

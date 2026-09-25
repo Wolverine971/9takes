@@ -273,7 +273,7 @@ Harry and Meghan reinforce each other's public frameworks. She has described car
 
 ## Why did Prince Harry leave the royal family?
 
-In January 2020, Harry and Meghan announced that they intended to step back as senior royals and become financially independent. The negotiated result ended their work as official representatives of Queen Elizabeth II. By spring, they were in North America, and their automatic UK police protection had been withdrawn.
+In January 2020, Harry and Meghan announced that they intended to step back as senior royals and become financially independent. The negotiated result ended their work as official representatives of [Queen Elizabeth II](/personality-analysis/queen-elizabeth-ii). By spring, they were in North America, and their automatic UK police protection had been withdrawn.
 
 Harry has described the preceding period as desperate. He and Meghan said they sought help with press pressure and her mental health, proposed a hybrid royal role, and concluded that the available terms would not keep their family safe. Palace and family accounts have disputed important parts of the couple's broader narrative, and outsiders still lack the private record needed to resolve every claim.
 

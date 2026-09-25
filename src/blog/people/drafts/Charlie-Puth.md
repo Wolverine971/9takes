@@ -180,7 +180,7 @@ None of this needs the word "Enneagram" to be true. The pattern is there in the 
 
 ## How Charlie Puth Went From YouTube Covers to "See You Again"
 
-Puth's origin story is a Four's fantasy and a Four's trap at once. He was a teenager in New Jersey posting covers and comedy clips to YouTube. In 2011, Ellen DeGeneres saw his cover of Adele's "Someone Like You" and signed him to her label, eleveneleven. He was discovered for sounding like himself in his bedroom, which is exactly how a Four wants to be found.
+Puth's origin story is a Four's fantasy and a Four's trap at once. He was a teenager in New Jersey posting covers and comedy clips to YouTube. In 2011, [Ellen DeGeneres](/personality-analysis/ellen-degeneres) saw his cover of Adele's "Someone Like You" and signed him to her label, eleveneleven. He was discovered for sounding like himself in his bedroom, which is exactly how a Four wants to be found.
 
 Then Berklee. He graduated in 2013 with a degree in music production and engineering, the technical training that turned an untamed ear into a working producer's toolkit. He is a piano player who loves Rachmaninov and jazz improvisation, not just a hook writer.
 
@@ -188,7 +188,7 @@ The break came from grief. In July 2014, the day after he moved to Los Angeles t
 
 Khalifa, who had lost people of his own, understood immediately what Puth had built. "I loved Charlie's voice and the message," he told Billboard in 2015. Then, half joking and fully serious: "I'ma put Charlie on my album. I want to get him to sing about marijuana." A hardened rapper clocked the kid's gift in one session.
 
-Here is the trap. "See You Again" made Puth famous as a feature, a voice on someone else's tribute. The hits that followed made him a hitmaker: "Marvin Gaye" with Meghan Trainor, "We Don't Talk Anymore" with <a href="/personality-analysis/selena-gomez">Selena Gomez</a>, "How Long." One of his biggest solo singles was a song called "Attention," built entirely around the need for someone's eyes on him. The title was not subtle, and neither was the ache under it. But a hitmaker is exactly the generic thing a Four cannot stand being. He had the fame. He did not yet have the proof that it was _him_.
+Here is the trap. "See You Again" made Puth famous as a feature, a voice on someone else's tribute. The hits that followed made him a hitmaker: "Marvin Gaye" with <a href="/personality-analysis/meghan-trainor">Meghan Trainor</a>, "We Don't Talk Anymore" with <a href="/personality-analysis/selena-gomez">Selena Gomez</a>, "How Long." One of his biggest solo singles was a song called "Attention," built entirely around the need for someone's eyes on him. The title was not subtle, and neither was the ache under it. But a hitmaker is exactly the generic thing a Four cannot stand being. He had the fame. He did not yet have the proof that it was _him_.
 
 ## Why Elton John Telling Charlie Puth His Music "Sucked" Sent Him Back to Zero
 

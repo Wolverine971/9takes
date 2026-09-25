@@ -194,7 +194,7 @@ The harder reviews came from people who took the cultural-prosecution claim seri
 
 The temptation here is to defend her. The critique is partly right. The book diagnoses the system in vivid forensic detail and then declines to leave it. Emily's own line — "complicity on this spectrum of compromise" — gestures at the issue without pursuing it. That is, I think, the honest place where the type framework runs into its own limit. An Eight's specific blind spot is conceding defeat to the system she is diagnosing. She will document it, indict it, monetize her indictment of it, and stay inside it, because leaving the room is itself a form of being told to leave. The complicity isn't a flaw in the argument so much as it's the argument's friction with itself, and Emily has not, six years later, fully metabolized it.
 
-The "High Low with EmRata" podcast (2022-2024) ran the same play with her platform. Three episodes a week, mixing politics and TikTok. Esther Perel one day, [Alex Cooper](/personality-analysis/alex-cooper) the next, then Julia Fox or Mia Khalifa — women the mainstream had reduced to tabloid characters, given space to be complicated. Sony cancelled it in 2024 amid layoffs. The logic survived the cancellation; it now lives in the next thing she builds.
+The "High Low with EmRata" podcast (2022-2024) ran the same play with her platform. Three episodes a week, mixing politics and TikTok. Esther Perel one day, [Alex Cooper](/personality-analysis/alex-cooper) the next, then [Julia Fox](/personality-analysis/julia-fox) or Mia Khalifa — women the mainstream had reduced to tabloid characters, given space to be complicated. Sony cancelled it in 2024 amid layoffs. The logic survived the cancellation; it now lives in the next thing she builds.
 
 The Victoria's Secret Fashion Show return in 2025 looked, to some critics, like the answer to the book. She walked the show again, alongside Barbara Palvin and Adriana Lima, after spending years interrogating exactly what shows like that do to women. Read uncharitably, the book becomes a brand strategy that lets her keep modeling. Read more carefully, it's the Type 8's specific gambit: re-enter the system on your own terms, having documented it, and dare anyone to call you a hypocrite to your face. Either reading can be sustained. They are not mutually exclusive.
 
@@ -238,7 +238,7 @@ The post was characteristic in two ways: it identified the contradiction between
 
 ## Emily Ratajkowski's Legacy and Current Work
 
-Emily continues to model — Chanel Métiers d'Art 2026, the Formula 1 Etihad Airways event in Abu Dhabi — while raising Sylvester, running Inamorata, and weighing in politically. In May 2025, The New Yorker featured her in "Power Houses: Inside the Living Rooms of Notable New Yorkers." She endorsed Zohran Mamdani for NYC mayor.
+Emily continues to model — Chanel Métiers d'Art 2026, the Formula 1 Etihad Airways event in Abu Dhabi — while raising Sylvester, running Inamorata, and weighing in politically. In May 2025, The New Yorker featured her in "Power Houses: Inside the Living Rooms of Notable New Yorkers." She endorsed [Zohran Mamdani](/personality-analysis/zohran-mamdani) for NYC mayor.
 
 The trajectory is of a woman still building. Modeling continues, but it is now one element among many: author, mother, founder, political voice. The industry tried to make modeling the whole sentence about her. She has made it a clause.
 

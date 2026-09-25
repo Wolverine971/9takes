@@ -245,7 +245,7 @@ For someone already prone to emotional intensity, PMDD amplified everything. But
 
 Despite her struggles, Dixie has built something separate from her sister.
 
-She's the third highest-earning TikTok creator, behind only Addison Rae and Charli. Forbes named her the second highest-paid TikTok star in 2022 with $11.5 million in earnings. She co-founded Social Tourist, an apparel brand with Hollister. She and Charli launched Be Happy Snacks, which landed a distribution deal with 7-Eleven.
+She's the third highest-earning TikTok creator, behind only [Addison Rae](/personality-analysis/addison-rae) and Charli. Forbes named her the second highest-paid TikTok star in 2022 with $11.5 million in earnings. She co-founded Social Tourist, an apparel brand with Hollister. She and Charli launched Be Happy Snacks, which landed a distribution deal with 7-Eleven.
 
 But the recent pivot tells the real story.
 

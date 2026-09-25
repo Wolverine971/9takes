@@ -248,7 +248,7 @@ She founded a production company, Thousand %, with McRae — moving from dissolv
 
 In January 2022, Anya posted a photo on Instagram taken "five minutes after I arrived at Buenos Aires airport for the first time in three years." She was crying.
 
-The pandemic had kept her away. The displacement that started at six years old hadn't healed so much as transformed. She still speaks fluent Spanish — it was her first language. She did her SNL monologue partly in Spanish as a sign of pride for her community. At Paris Fashion Week, she was caught on camera introducing Malcolm to Rosalía and Jenna Ortega in Spanish.
+The pandemic had kept her away. The displacement that started at six years old hadn't healed so much as transformed. She still speaks fluent Spanish — it was her first language. She did her SNL monologue partly in Spanish as a sign of pride for her community. At Paris Fashion Week, she was caught on camera introducing Malcolm to Rosalía and [Jenna Ortega](/personality-analysis/jenna-ortega) in Spanish.
 
 She told the Golden Globes press she's "waiting for the right project in Spanish" — still searching for a way to bring the two halves of herself together through the only thing that's ever made her feel whole.
 

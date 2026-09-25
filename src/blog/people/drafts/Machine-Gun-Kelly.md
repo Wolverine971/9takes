@@ -356,7 +356,7 @@ Track twelve of _Lost Americana_ reports from inside it: "Wrote this in room thr
 
 Jelly Roll drove out on weekends, had lunch with him, and let him fall apart at the table. "Let me ball my eyes out and be like, dude, I need help," he told the Popcast in 2025. "Like, I'm lost. He was sitting across that table from me."
 
-He came home on January 6, 2025, and started a water fast. On day four the Palisades fires reached his neighborhood. He was standing at Michael B. Jordan's house watching the flames, delirious from four days without food, deciding what to carry out.
+He came home on January 6, 2025, and started a water fast. On day four the Palisades fires reached his neighborhood. He was standing at [Michael B. Jordan](/personality-analysis/michael-b-jordan)'s house watching the flames, delirious from four days without food, deciding what to carry out.
 
 <p class="inner-thought">Nothing in the house is worth anything at four days empty. The question is narrower than money. Which of these things, if it goes, takes some proof that he was ever here.</p>
 

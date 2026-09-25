@@ -86,7 +86,7 @@ path: src/blog/people/drafts/Tina-Fey.md
 
 That moment contains the entire Tina Fey operating system. A wound she can't control. A room she has to read instantly. And a joke that arrives so fast it becomes the only thing anyone remembers.
 
-The most relatable woman in American comedy is also the most carefully constructed. Her husband Jeff Richmond told Vanity Fair: "Her persona is so caustic, but she's very shy and she doesn't like confrontation in real life." Holland Taylor called her "very cool and mental." Steve Carell said they're both "super shy" — that it took fifteen years of knowing each other before they became close.
+The most relatable woman in American comedy is also the most carefully constructed. Her husband Jeff Richmond told Vanity Fair: "Her persona is so caustic, but she's very shy and she doesn't like confrontation in real life." Holland Taylor called her "very cool and mental." [Steve Carell](/personality-analysis/steve-carell) said they're both "super shy" — that it took fifteen years of knowing each other before they became close.
 
 The woman America thinks they know — the goofy, self-deprecating nerd who eats cheese and hates working out — is a persona so airtight that even people inside the industry mistake it for the real thing. The real Tina Fey is disciplined, principled, structured, and once gave a younger comedian a piece of advice so sharp that he spent months trying to figure out if it was a gift or a warning.
 

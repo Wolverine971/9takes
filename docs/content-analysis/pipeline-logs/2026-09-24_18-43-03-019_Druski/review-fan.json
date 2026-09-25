@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "fan",
+	"content_sha256": "17398e8c5e14d73d0ed48be19b583b430970adf3841382dd26a460814abe92a6",
+	"evidence_sha256": "cc5c59e99e6789b71d8a5e613bd422239a1666bc150c4043f1dd818666668af0",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "fan-01",
+			"severity": "major",
+			"passage": "The biggest gap is the whiteface. A man this aware of his image, who says brands vet whether you are \"a good person,\" still made two whiteface sketches. Maybe views are his scoreboard, but that is a guess.",
+			"problem": "The draft treats the whiteface as an out-of-character gamble (\"a large public risk, taken twice\"; \"the biggest gap\") and leaves out formative context a fan knows. On CBS Mornings (February 2026, auto-captions ~0:01:59-0:02:08) he said \"these are things I've been working on for years... I've produced that character multiple times before I did White Face.\" TIME's 2026 TIME100 Creators entry says \"his viral frat-bro character Kyle Rogger caught the attention of high-profile rappers like Drake, Lil Yachty, and Jack Harlow.\" Playing white characters is one of the oldest and best-rewarded bits in his catalog. The August 2025 sketch added makeup to a character he had already run. That changes both ways the article uses the sketches: as the Eight's \"strongest evidence\" of defiance and as the Three reading's \"biggest gap.\" Both sources are already in the evidence record (S-CBS, S-TIME). The draft cites the same CBS answer for \"the greats have done it\" but drops the sentence before it.",
+			"acceptance_test": "The whiteface section says, with attribution and dates, that he had played the NASCAR character several times before the makeup (CBS, February 2026) and that a white frat-bro character, Kyle Rogger, was part of his early rise (TIME, 2026). The 'unexplained' paragraph is rewritten so the open question is the escalation (full makeup, and a category-titled sketch widely read as one recently widowed woman), not his willingness to play white characters at all. The Eight/Three weighing of the sketches acknowledges that they extended a proven bit he expected to travel (\"I always knew that skit would have that kind of reach\")."
+		},
+		{
+			"id": "fan-02",
+			"severity": "major",
+			"passage": "On camera, the same act is the Coulda Been Records CEO, a character GQ described as \"a punishing combination of Simon Cowell and Puff Daddy.\"",
+			"problem": "The Eight case, persona framing and FAQ all lean on \"the boss he plays,\" but the draft trims the source's description of what the boss does. GQ (November 2020) goes on: \"a punishing combination of Simon Cowell and Puff Daddy who evaluates the talents of his fans.\" TIME (2026) calls Coulda Been Records \"American Idol-parodying,\" dates its breakout to 2019, and describes him as \"a label head looking for the next big thing.\" The character is a talent-show judge handing out verdicts. That is a different datum from generic dominance, and it bears directly on a thesis about a kid who wanted the class's verdict. It also predates the August 2020 Nike shoot, but the section's order (\"The boss act predates the money\", then Nike, then \"On camera, the same act\") lets a reader assume the character came after that day. The section then reads a comic beat inside his own audition format as behavior: \"When this star pushed back, he conceded in two words and turned it into a bit.\" Complex says Wahlberg was pretending to get upset, and the primary video (S-WAHL) was never opened. The article can't count bits inside the character both for the Eight (the boss dominates) and against it (he conceded) without saying what a performance can and can't show.",
+			"acceptance_test": "The Coulda Been Records description says what the character does (judges contestants' talent; an American Idol parody), with attribution, and dates the series to 2019 so its chronology with the August 2020 Nike shoot is correct. The section either drops the Wahlberg exchange as type evidence or labels it explicitly as a comic beat in his own format with limited evidentiary weight. FAQ and persona wording that calls the character 'a boss' stays consistent with the corrected description."
+		},
+		{
+			"id": "fan-03",
+			"severity": "major",
+			"passage": "Asked whether he had been afraid to go out on his own, he said, \"you could say that.\" The source is auto-captions, and he did turn down Hart's advice to do stand-up (\"I didn't have a love for it,\" he told Rolling Stone). Still, by his own account, the boss needed a push to go solo.",
+			"problem": "The Club Shay Shay answer is cut mid-sentence, and the cut changes what the fear was about. Per the auto-captions (~0:37:59-0:38:58), Hart's advice came while Druski was \"opening for these artists\" (Sharpe names Chris Brown, Lil Baby and Jack Harlow at ~0:03:07-0:03:25). The same advice included \"stop being a [bitch],\" the line in the headline of the Rolling Stone piece the draft links. His full answer continues: \"I think it's something that kind of gets stuck to some people who do social media... you get the fame of being on camera first, your own phone camera, which gives you a comfortable feeling... they had to go and do it right in front of people.\" The fear he states is about leaving the phone camera's safety for a live room, not about needing permission to be independent. \"The boss needed a push to go solo\" is literally true but implies a dependence the source doesn't state, and the article uses it as counterevidence in the Eight/Three contest. The cut also drops a thread that runs to the article's ending: in 2023 he feared getting stuck as one of the \"people who do social media\"; in 2026 his five-year picture is that \"the social media guy\" is gone.",
+			"acceptance_test": "The passage says what 'going out on his own' meant (headlining instead of opening for music acts) and gives his stated reason (the comfort of the phone camera versus performing in front of people), attributed to the January 2023 auto-captions. The conclusion drawn from it matches that reason; if it still weighs against Eight, the text says why. Optional: the closing 'social media guy' line links back to this answer."
+		},
+		{
+			"id": "fan-04",
+			"severity": "minor",
+			"passage": "His friend Jack Harlow sees the act from the other side. \"Part of his comedy is he points out his flaws,\" Harlow said in [their 2021 Complex cover story](https://stories.complex.com/jack-harlow-druski-interview-2021-cover-story/10/). \"He makes himself look stupid.\" Harlow reads that as openness: \"That's why people feel comfortable around him.\"",
+			"problem": "Harlow's testimony serves as a transition and never enters the type argument, though it cuts against the article's claim that Druski is \"guarding a picture of himself as successful and good-hearted.\" The source goes further: \"He says, 'Yeah, I'm a piece of shit.' He says these things all day long.\" On DOAC he adds that when his car was repossessed, right after he wrote his goals, he filmed it and posted it: \"I actually made that like a content piece. I recorded my car getting repossessed\" (publisher transcript 00:46:26). Fans know self-roast as his signature register. A Three can use self-deprecation to be liked, but the article has to argue that as a labeled inference or concede the tension. \"What the Type 3 reading leaves unexplained\" lists the whiteface, the protector child, the scams and the Seven-like lightness, but not this.",
+			"acceptance_test": "Either the image-protection passage or the 'unexplained' section addresses his habitual self-mockery (Harlow 2021; optionally the filmed repossession, added to the evidence record) with a labeled inference about how it fits the Three reading, or an explicit admission that it does not."
+		},
+		{
+			"id": "fan-05",
+			"severity": "minor",
+			"passage": "The house had a second rule. He would come home with a B, and his mother would say, \"Oh, you could have done better.\"",
+			"problem": "The childhood section hears the household only through his 2026 DOAC account, and his mother appears only through his quotations of her. The record contains her own on-air testimony (2 Bears, 1 Cave Ep. 273, January 2025, ~0:58:44): \"I'm extremely proud of him... his discipline is his key and his resilience,\" plus a childhood of karate, weekly piano, a Georgia Tech science camp every year and a second-grade spelling bee win (S-2B1C). DOAC also traces the goals list to her: \"she would always say, You can't do anything without writing things down. Ever since I was a kid\" (publisher transcript 00:43:54-00:44:02). It traces the pressure to his father's ultimatum when Druski was eight or nine: school, a trade, or the military (00:05:45-00:06:30). This is formative context for exactly the pattern the Three reading takes from childhood. It comes from a second witness, and it gives the mother a voice of her own in a section that characterizes her.",
+			"acceptance_test": "The childhood section adds the mother's January 2025 testimony (attributed and dated, noting the comic podcast setting) and says that the goals-list habit came from her instruction. The 'could have done better' paragraph stays, but the mother is no longer represented only through her son's quotations."
+		},
+		{
+			"id": "fan-06",
+			"severity": "minor",
+			"passage": "Lonely transfer students get depressed, so the depression proves nothing. How he tells it is the clue.",
+			"problem": "The Georgia Southern section ends on exclusion and \"just to get my face on TV,\" and skips the turn he describes in that same room. He researched \"successful people\" on YouTube and found that everyone he admired was a comedian (Steve Harvey, Kevin Hart, Will Ferrell, Chris Farley, Jim Carrey), men who \"felt a need and a purpose to become like a hero of comedy\" (publisher transcript 00:25:52-00:29:54; Complex 2021 corroborates the Steve Harvey videos). That is the formative moment of the career, and a directly relevant datum for a thesis about models of success. Separately, the rank paragraph omits his own gloss on \"number one\": \"one of my favorite movies is Talladega Nights. And Ricky Bobby said, if you ain't first, you're last... that's really how I live my life\" (00:57:12-00:57:25). GQ's 2020 \"I want my Talladega Nights\" echoes it. A fan will notice that the rank motto of the man who later played a NASCAR fan comes from a NASCAR comedy.",
+			"acceptance_test": "The semester section includes the YouTube-research turning point, with at least one quoted line, its source and its date. The '\"I'm thinking about my image\"' rank paragraph includes the Ricky Bobby line with his 'that's really how I live my life.' Any mention of the NASCAR sketch alongside it is presented as a detail, with no causal claim. New lines are added to the evidence record."
+		},
+		{
+			"id": "fan-07",
+			"severity": "minor",
+			"passage": "He is careful about cause: \"I wouldn't say that my comedy necessarily came from that, but it definitely came from like a healing, wanting to make our situation better at home.\"",
+			"problem": "The draft presents his father only through the 2026 disclosure and the JOE sketch. Three years earlier, on This Past Weekend #428 (January 31, 2023, auto-captions ~0:46:15-0:48:31, S-THEO428), he described a family of performers (\"my granddad was like a jokester... my Grandma she's like a big roaster... my mom she's like an actress\") and his father as a punchline (\"he's very funny because he's a dick\"). A fan hears two things the article misses. He also credits his comedy to family temperament, not only to repair. And his father was comic material long before the belt line. That makes the closing image (\"now plays the man holding it, as a bit\") the continuation of an old habit, which strengthens it rather than weakening it.",
+			"acceptance_test": "One attributed, dated line from the 2023 Theo Von episode appears in the childhood section or before the JOE sketch, hedged as unlabeled auto-captions. The 'careful about cause' paragraph reflects that he has also credited a family of jokers. The quote is not altered to soften it; if the expletive is unsuitable, a different line from the same passage is used."
+		},
+		{
+			"id": "fan-08",
+			"severity": "minor",
+			"passage": "From 2022 to 2026, Druski almost never argues back.",
+			"problem": "The discriminator is stated as near-absolute (here; FAQ: \"He rarely argues back\") without the exceptions a fan would raise. In September 2024, after Rubi Rose wrote that he \"paid for PR,\" he posted \"Never needed no PR,\" which Complex says \"seemingly referred to\" her (S-RUBI). That exception actually helps the argument, since what he defended was his status, not his territory. The article also omits his third viral satire of the period, the January 2026 \"Mega Church Pastors LOVE Money\" sketch (Religion News Service). He calls it \"a mega pastor skit that was huge\" (DOAC 01:47:02), and it became the Collect and Praise show that the ending introduces only as \"Next up.\" Pastor Michael Todd addressed it from the pulpit and called it \"hilarious\"; Lecrae defended it. Editor's caution: the evidence record's type_hypothesis says he \"did not answer the pastors who objected.\" The opened sources don't support calling Todd or Lecrae objectors.",
+			"acceptance_test": "The discriminator paragraph names at least one exception (the 'Never needed no PR' post, hedged as Complex hedges it) and says what it defended. The 'Next up' line says the pastor show grew out of his January 2026 sketch. No sentence says pastors objected unless a named objecting pastor is sourced."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "When the answer wasn't him, he pushed. \"Like, why is Mikey funnier than me? Tell me why.\"",
+			"reason": "A specific, verified hook (publisher transcript 00:30:41) that dramatizes the thesis in the subject's own voice and names a real classmate-level detail a fan remembers."
+		},
+		{
+			"passage": "Filming sketches around his mother's house, he gave her follower counts. Had he made any money? \"No but I have people watching.\"",
+			"reason": "Verified against the publisher transcript (00:47:51). It's the most economical piece of evidence in the article for recognition-before-money, and a detail fans of the early sketches will recognize."
+		},
+		{
+			"passage": "An Eight builds his own company so that nobody can control him. Druski describes building his so that the companies that said no would come asking.",
+			"reason": "A real discriminator stated in two sentences and tied to his own words (\"having them wanting what I did in reverse,\" 01:27:12). This is the argument's best line; protect it from being softened into generic ambition talk."
+		},
+		{
+			"passage": "It also skips the harder question: whether a sketch titled for a category, aimed at one identifiable, recently widowed woman, still hits its target. Corbould's argument settles who holds power, not that.",
+			"reason": "Refuses to flatter the subject or hand the verdict to his defenders, and names the question neither side's argument answers. Exactly the fairness a fan-proxy should not let an edit sand off."
+		},
+		{
+			"passage": "The boy who used to step in after the belt now plays the man holding it, as a bit.",
+			"reason": "An earned, verified image (JOE sketch plus \"I've seen it before,\" 01:46:34-01:46:48) that turns the childhood material into insight without claiming causation."
+		}
+	],
+	"assessment": "Fan-proxy read. The draft is unflattering where it should be, and accurate on everything I checked. I fetched the publisher's DOAC transcript (flightcast VTT) and matched about 25 quoted passages, including the father, brother and door passages, \"a little far,\" \"I was chasing being great,\" \"perceive myself as a failure,\" \"No plan B,\" \"people watching,\" \"once I get too close, I can't trust it,\" \"in reverse\" and \"purchase these shows.\" The host's prompting of the goals list is disclosed. The intimacy passage follows Bartlett describing his own avoidance (Druski: \"kind of like how you explain\"), which the draft doesn't mention; that is minor and left to the evidence reviewer. TIME returned HTTP 406 to my direct fetch, so the TIME, CBS and Club Shay Shay wording in fan-01 to fan-03 comes from the research stage's saved rendered page and caption files, not a fresh retrieval of my own. The gaps a fan would notice are formative: the white-character bits that came before the whiteface, what the Coulda Been Records character actually does, what Hart's push was about, and family voices beyond the 2026 narrator. None of them overturns the Type 3 call, but fan-01 and fan-02 change how the Type 8 evidence should be weighed, and several of the missing details (the verdict-show format, the Ricky Bobby motto, the filmed repossession) are distinctive enough to strengthen the portrait. Similarity advisory: not tripped (max 0.051, a generic diagnosis sentence matched against Margaret Qualley; the shared 'worth something' is ordinary Type 3 vocabulary). I found no meaningful reuse of arguments. The Type 3 definition sentence is close to boilerplate but is followed immediately by a test specific to this person, so it is not a finding."
+}

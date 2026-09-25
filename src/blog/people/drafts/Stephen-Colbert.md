@@ -156,7 +156,7 @@ He found the same thing at Northwestern, where he arrived as a theater major int
 
 ## The Joy Machine (And the Anxiety Machine Underneath)
 
-At Second City in Chicago, Colbert took a job at the box office in 1987, answering phones and selling merchandise in exchange for free improv classes. He was hired as an understudy for Steve Carell on the touring company. He met Amy Sedaris and Paul Dinello, two people who would remain his closest creative collaborators for the next four decades.
+At Second City in Chicago, Colbert took a job at the box office in 1987, answering phones and selling merchandise in exchange for free improv classes. He was hired as an understudy for [Steve Carell](/personality-analysis/steve-carell) on the touring company. He met Amy Sedaris and Paul Dinello, two people who would remain his closest creative collaborators for the next four decades.
 
 He learned the principles that would become his operating system: "Yes, and." Accept what's given. Build on it. Don't deny reality. And from Second City director Del Close: "Learn to love the bomb."
 

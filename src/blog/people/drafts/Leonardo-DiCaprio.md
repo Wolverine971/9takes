@@ -150,7 +150,7 @@ George's most lasting piece of advice: "Go out there, son, and whatever you do, 
 
 That advice imprinted. DiCaprio built his career around exactly that philosophy: choosing interesting over safe, turning down franchise blockbusters, seeking out the most demanding directors alive. George's fingerprints are everywhere.
 
-Even the name. Irmelin was pregnant and visiting the Uffizi Gallery in Florence when she felt the baby kick for the first time while looking at a Leonardo da Vinci painting. George declared: "His name must be Leonardo."
+Even the name. Irmelin was pregnant and visiting the Uffizi Gallery in Florence when she felt the baby kick for the first time while looking at a [Leonardo da Vinci](/personality-analysis/leonardo-da-vinci) painting. George declared: "His name must be Leonardo."
 
 Years later, when a thirteen-year-old Leonardo was struggling to find representation, an agent told him his name was "too ethnic" and would never get him hired. The agent created a stage name: "Lenny Williams." When George DiCaprio saw a headshot with "Lenny Williams" printed on it, he tore it up. "Over my dead body."
 
@@ -166,7 +166,7 @@ What pivoted him toward acting was money. His stepbrother Adam Farrar landed a t
 
 He went on roughly a hundred auditions before getting a break.
 
-At twelve, riding in his mother's car, he spotted Tobey Maguire on the street — another kid actor he vaguely knew. "I literally jumped out of the car," he told _Esquire_. "I was like, 'Tobey! Tobey! Hey! Hey!' And he was like, 'Oh, yeah — I know you. You're... that guy.' But I just made him my pal. When I want someone to be my friend, I just make them my friend."
+At twelve, riding in his mother's car, he spotted [Tobey Maguire](/personality-analysis/tobey-maguire) on the street — another kid actor he vaguely knew. "I literally jumped out of the car," he told _Esquire_. "I was like, 'Tobey! Tobey! Hey! Hey!' And he was like, 'Oh, yeah — I know you. You're... that guy.' But I just made him my pal. When I want someone to be my friend, I just make them my friend."
 
 That friendship has lasted over thirty-five years. Years later, when DiCaprio was offered the role of Spider-Man, he turned it down and recommended Maguire instead.
 

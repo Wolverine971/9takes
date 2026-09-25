@@ -167,7 +167,7 @@ But protection requires weapons. Enter Slim Shady. Not just an alter ego, but a 
 
 Here's what most analyses miss: **Slim Shady is hilarious.**
 
-"My Name Is" wasn't just shocking. It was a darkly comic tour de force. "The Real Slim Shady" skewered Britney Spears, Christina Aguilera, and the entire TRL-era pop machine. "Without Me" took aim at Dick Cheney, the FCC, and Prince's symbol name change. He uses voice characters throughout: a faux-Hindi accent on "Ass Like That," a cowboy drawl on "Square Dance," South Park impersonations on "The Kids."
+"My Name Is" wasn't just shocking. It was a darkly comic tour de force. "The Real Slim Shady" skewered Britney Spears, Christina Aguilera, and the entire TRL-era pop machine. "Without Me" took aim at Dick Cheney, the FCC, and [Prince](/personality-analysis/prince)'s symbol name change. He uses voice characters throughout: a faux-Hindi accent on "Ass Like That," a cowboy drawl on "Square Dance," South Park impersonations on "The Kids."
 
 Village Voice critic Robert Christgau called him "exceptionally witty and musical, discernibly thoughtful and good-hearted, indubitably dangerous and full of shit."
 

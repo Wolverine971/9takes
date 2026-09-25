@@ -218,7 +218,7 @@ The thing to notice is that every single piece of that performance — the rooms
 
 The Kennedy marriage the world watched in 1961 and 1962 was the kind of marriage that looked, in photographs, like an answer. In reality it was a problem Jackie spent the rest of her life refusing to discuss.
 
-John F. Kennedy was a philanderer on a scale that still startles the biographers who try to tally it up. Marilyn Monroe. Judith Exner, who was simultaneously sleeping with a Chicago mobster. Mary Meyer, the ex-wife of a CIA official. White House secretaries his staff had nicknamed "Fiddle" and "Faddle." An intern named Mimi Alford, who would later publish a memoir describing a relationship that began when she was nineteen. The FBI knew. The Secret Service knew. Half the press corps knew and did not print a word.
+John F. Kennedy was a philanderer on a scale that still startles the biographers who try to tally it up. [Marilyn Monroe](/personality-analysis/marilyn-monroe). Judith Exner, who was simultaneously sleeping with a Chicago mobster. Mary Meyer, the ex-wife of a CIA official. White House secretaries his staff had nicknamed "Fiddle" and "Faddle." An intern named Mimi Alford, who would later publish a memoir describing a relationship that began when she was nineteen. The FBI knew. The Secret Service knew. Half the press corps knew and did not print a word.
 
 Jackie knew. You could not live in that house and not know. The photographs of her smiling through the 1961 Paris trip, through the Vienna summit, through the televised White House tour, are the photographs of a woman who had decided that the visible frame of the marriage was going to hold whether anything underneath it did or not.
 

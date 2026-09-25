@@ -219,7 +219,7 @@ Type 6 can account for preparation, loyalty, and the instinct to seek his sister
 
 ## How Rebel Ridge turned restraint into star power
 
-Pierre's route to Terry Richmond passed through roles that used a different piece of his scale. Caesar in _The Underground Railroad_ let Jenkins write toward his stillness. In _Old_, Pierre played the ominously named Mid-Sized Sedan. Clement Virgo's _Brother_ gave him a protective older sibling. _Genius: MLK/X_ put him inside Malcolm X. Jenkins then asked him to carry Mufasa with his voice.
+Pierre's route to Terry Richmond passed through roles that used a different piece of his scale. Caesar in _The Underground Railroad_ let Jenkins write toward his stillness. In _Old_, Pierre played the ominously named Mid-Sized Sedan. Clement Virgo's _Brother_ gave him a protective older sibling. _Genius: MLK/X_ put him inside [Malcolm X](/personality-analysis/malcolm-x). Jenkins then asked him to carry Mufasa with his voice.
 
 _Rebel Ridge_ brought the pieces together. Terry is dangerous, prepared, and committed to avoiding unnecessary damage. Pierre had trained in boxing since 2016 and Brazilian jiu-jitsu since 2019, even winning a tournament medal in 2023. The action could therefore emerge from the character's decisions instead of decoration.
 

@@ -214,7 +214,7 @@ He started day-trading stocks on livestream. Called it "Davey Day Trader Global.
 
 He lost millions on camera. He made millions on camera. The swings were, in his word, "bananas."
 
-The defining moment: he went all-in on airline stocks, Spirit at $7, Delta battered, Norwegian cratered. Minutes after his buy call, Warren Buffett announced he was dumping all airline positions. Dave taunted him on camera: "I'm the captain now." Airlines rallied. The Wall Street Journal named him one of the most influential voices in the stock market.
+The defining moment: he went all-in on airline stocks, Spirit at $7, Delta battered, Norwegian cratered. Minutes after his buy call, [Warren Buffett](/personality-analysis/warren-buffett) announced he was dumping all airline positions. Dave taunted him on camera: "I'm the captain now." Airlines rallied. The Wall Street Journal named him one of the most influential voices in the stock market.
 
 But the psychologically revealing part wasn't the money. It was what he was doing simultaneously.
 

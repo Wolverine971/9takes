@@ -150,7 +150,7 @@ A Three would have called it a launchpad. A Two calls it an education in how to 
 
 The moment that made Margot Robbie's career was not a performance. It was a read.
 
-During her audition for _The Wolf of Wall Street_, she stood across from Leonardo DiCaprio in a scene that called for a kiss. She had thirty seconds left in the room. Her internal monologue, as she later described it: "You have literally 30 seconds left in this room and if you don't do something impressive, nothing will ever come of it." (<a href="https://www.cnn.com/2024/12/02/entertainment/margot-robbie-leonardo-dicaprio-wolf-of-wall-street-audition">CNN</a>)
+During her audition for _The Wolf of Wall Street_, she stood across from <a href="/personality-analysis/leonardo-dicaprio">Leonardo DiCaprio</a> in a scene that called for a kiss. She had thirty seconds left in the room. Her internal monologue, as she later described it: "You have literally 30 seconds left in this room and if you don't do something impressive, nothing will ever come of it." (<a href="https://www.cnn.com/2024/12/02/entertainment/margot-robbie-leonardo-dicaprio-wolf-of-wall-street-audition">CNN</a>)
 
 She could have kissed him. Instead, she slapped him across the face.
 

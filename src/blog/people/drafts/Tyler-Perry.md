@@ -256,7 +256,7 @@ What Spike Lee and the critics missed was who Perry was talking to. He built his
 
 ## A Confederate Base and a Billionaire's Dream
 
-On October 5, 2019, Tyler Perry opened his studio on the 330-acre former site of Fort McPherson, a Confederate army base in Atlanta. The guest list read like a who's who of Black excellence: Oprah Winfrey, <a href="/personality-analysis/beyonce-knowles">Beyoncé</a>, <a href="/personality-analysis/denzel-washington">Denzel Washington</a>, Viola Davis, Halle Berry, Samuel L. Jackson. Even Spike Lee came.
+On October 5, 2019, Tyler Perry opened his studio on the 330-acre former site of Fort McPherson, a Confederate army base in Atlanta. The guest list read like a who's who of Black excellence: Oprah Winfrey, <a href="/personality-analysis/beyonce-knowles">Beyoncé</a>, <a href="/personality-analysis/denzel-washington">Denzel Washington</a>, Viola Davis, Halle Berry, <a href="/personality-analysis/samuel-l-jackson">Samuel L. Jackson</a>. Even Spike Lee came.
 
 Tiffany Haddish captured the significance plainly: "I know the history of this place — it was a Confederate military base, trying to keep us enslaved. Now it's owned by a Black man."
 

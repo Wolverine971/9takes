@@ -234,7 +234,7 @@ Image management at its most controlled. The earlier Teyana would have fired bac
 
 > "I have peace of mind in certain aspects of my life now. I'm not here for mess. I'm not here for drama. I want to do my work and take care of my babies."
 
-The new boyfriend is Aaron Pierre — an actor whose stock is rising the same year hers is. The new film is the Oscar-nominated one. The new album dropped two weeks after vocal surgery. Peace, in this telling, is the configuration that lets the work scale, not the configuration that lets it stop.
+The new boyfriend is [Aaron Pierre](/personality-analysis/aaron-pierre) — an actor whose stock is rising the same year hers is. The new film is the Oscar-nominated one. The new album dropped two weeks after vocal surgery. Peace, in this telling, is the configuration that lets the work scale, not the configuration that lets it stop.
 
 ---
 

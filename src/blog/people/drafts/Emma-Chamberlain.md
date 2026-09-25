@@ -182,7 +182,7 @@ She did not pioneer a new aesthetic. She invented a way to leak the inner world 
 
 ## Why Emma Chamberlain Walked Away From the Sister Squad
 
-By 2018, Taylor Lorenz at _The Atlantic_ was calling her "the most talked about influencer in the world." She was eighteen. _Cosmopolitan_ would soon put her on the February 2020 cover and call her "the most popular girl in the world." She was the breakout member of the Sister Squad with James Charles and the Dolan Twins. She was the patron saint of looking like you did not try and the proof that not trying could be worth millions.
+By 2018, [Taylor Lorenz](/personality-analysis/taylor-lorenz) at _The Atlantic_ was calling her "the most talked about influencer in the world." She was eighteen. _Cosmopolitan_ would soon put her on the February 2020 cover and call her "the most popular girl in the world." She was the breakout member of the Sister Squad with [James Charles](/personality-analysis/james-charles) and the Dolan Twins. She was the patron saint of looking like you did not try and the proof that not trying could be worth millions.
 
 What she did not have was the feeling that any of it was for her.
 

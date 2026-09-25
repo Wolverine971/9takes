@@ -96,7 +96,7 @@ That child now has more subscribers than any creator in the history of YouTube. 
 
 He still can't relate.
 
-After a 1 AM interview with Steven Bartlett, cameras off, crew gone, Jimmy dragged him to a convenience store at 3 AM. He needed Bartlett to see the chocolate aisle — to understand why the industry was unethical, why Feastables existed, why every dollar mattered. It was 3 AM and he couldn't stop explaining.
+After a 1 AM interview with [Steven Bartlett](/personality-analysis/steven-bartlett), cameras off, crew gone, Jimmy dragged him to a convenience store at 3 AM. He needed Bartlett to see the chocolate aisle — to understand why the industry was unethical, why Feastables existed, why every dollar mattered. It was 3 AM and he couldn't stop explaining.
 
 Bartlett's assessment: _"He does none of this for money. To him, money is just a tool to push his mission forward."_
 

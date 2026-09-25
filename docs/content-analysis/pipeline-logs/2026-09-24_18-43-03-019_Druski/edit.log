@@ -1,0 +1,33 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 350432d1-959e-473f-840d-702dd70a1ed6 to write outputs
+I've finished the Druski edit stage and written all three files to the run folder. Nothing was published, and none of the inputs or the live draft were touched.
+
+**What the edit covers**
+- **Findings:** all 46 reviewer findings have a decision: 45 fixed, 1 rejected. I rejected fan-07 (adding a 2023 Theo Von line about his family) to stay under the word limit; the point it made is already covered by the camcorder passage.
+- **Protected passages:** all 18 are recorded. Eleven are kept word for word. Seven changed for accuracy with their point kept; for example, the childhood lines no longer say he physically stepped between his father and his brother, because his own account describes comforting afterward.
+- **Checks:** all three files pass the pipeline's checks, and the body has no machine-check blockers. The date, lastmod, published, person, loc and enneagram fields match the draft, and every FAQ anchor points to a real heading.
+
+**How the argument changed**
+- **What decides Type 3:** the call now rests mainly on what he says he's chasing (rank, and not seeing himself as a failure), with dated sources from 2020, 2025 and 2026. How he handles criticism is now supporting evidence that the article says can't settle it alone.
+- **Type 7:** it now gets a real test next to the type answer instead of one sentence.
+- **Eight case strengthened:** it now includes The Nation's report of an earlier whiteface video from May 2025 and the July 2026 revival of the NASCAR look. So "taken twice" was wrong on two counts.
+- **Misleading quotes fixed:**
+  - The "in reverse" quotes are in their real order, with his hedge "maybe they don't want that."
+  - "Not looking to get sued" now appears with the host's tease it was answering.
+  - The Trump remark is now sourced to the Daily Beast's report instead of the host's impression.
+- **Other fixes:** the Diddy lawsuit paragraph moved out of "When the joke lands on someone smaller," and the upcoming-projects list is gone from the ending.
+- **New sources:** four were opened this session: the Daily Beast (Trump), Us Weekly (T.J. Ward's criticism of the CTE sketch), a CourtListener docket search, and Rubi Rose (Complex, already in the record but reopened).
+
+**Things you should know before this goes further**
+- **Type change needs your OK.** The live page says Type 8; this says Type 3.
+- **His father had no time to respond.** The interview came out today, and I can't honestly give a later check date. The article says it was checked the same day. The evidence record says to re-check at publication and again 30 days later.
+- **Unverified items:**
+  - I didn't open the May 2025 whiteface video itself; it rests on The Nation's report.
+  - The TIME text comes from a copy saved during research, because TIME's site blocked a direct fetch.
+  - The docket search covered federal courts only.
+- **Length:** the body is 4,410 words, under the 4,500 limit but above the standard's 2,000–3,500 target. The reviewers asked for a lot of additions, and I paid for most of them with cuts. The verifier may still mark it down on pacing.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/`:
+- edit.md
+- evidence-edit.json
+- resolution-edit.json

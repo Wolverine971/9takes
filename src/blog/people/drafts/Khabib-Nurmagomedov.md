@@ -260,7 +260,7 @@ One more look at Islam's sentence, because its shape should be familiar. "If Kha
 
 ## "Bite him back": what Khabib is building in his sons
 
-On the PBD Podcast, Patrick Bet-David asked him the question this whole story funnels into. If something happened to you, and your son no longer wanted to fight, would you let him stop? Khabib gave the answer his own father never had to give. "I'm going to let him choose. In my house we have freedom speech between son and father. I'm still boss. But about professional life, I'm not going to force him at all."
+On the PBD Podcast, [Patrick Bet-David](/personality-analysis/patrick-bet-david) asked him the question this whole story funnels into. If something happened to you, and your son no longer wanted to fight, would you let him stop? Khabib gave the answer his own father never had to give. "I'm going to let him choose. In my house we have freedom speech between son and father. I'm still boss. But about professional life, I'm not going to force him at all."
 
 Then, in the next breath, the ground floor of the house in Sildi reasserted itself. "But you have no choice about one thing. He's a man, and he's going to train. You have to be strong. Zero compromise, zero complaint."
 

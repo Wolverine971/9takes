@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "unfamiliar",
+	"content_sha256": "17398e8c5e14d73d0ed48be19b583b430970adf3841382dd26a460814abe92a6",
+	"evidence_sha256": "cc5c59e99e6789b71d8a5e613bd422239a1666bc150c4043f1dd818666668af0",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "unfamiliar-01",
+			"severity": "major",
+			"passage": "The boss act predates the money.",
+			"problem": "The article never tells a new reader how Druski became famous. It jumps from filming sketches at his mother's house with no money (\"No but I have people watching\") straight to Drake casting him in 2020. The missing middle is the payoff of a Type 3 story about keeping score. Nothing covers the first sketches, the characters that went viral, why rappers noticed him, or what a Coulda Been Records sketch actually is (fans audition, he judges). The evidence file already holds some of it: GQ dates his first sketch to October 2017, TIME credits the viral frat-bro character Kyle Rogger with drawing Drake, Lil Yachty and Jack Harlow, and GQ says the CEO character \"evaluates the talents of his fans.\" For the same reason, \"the boss needed a push to go solo\" is unclear: solo from what? The article never says he was working under or beside Kevin Hart.",
+			"acceptance_test": "Between the goals-list paragraph and the Nike-campus paragraph, 2 to 4 sourced, dated sentences tell a reader with no prior knowledge (a) what he posted and roughly when it caught on, (b) how he reached rappers like Drake, and (c) in one clause, what happens in a Coulda Been Records sketch. The Club Shay Shay paragraph either says, with a source, what \"going out on his own\" meant, or drops the \"go solo\" framing. Offset the added words with cuts elsewhere so the body stays under the 4,500-word ceiling."
+		},
+		{
+			"id": "unfamiliar-02",
+			"severity": "major",
+			"passage": "He goes silent when the critic is a mother on TikTok or a senator.",
+			"problem": "The article's deciding test changes shape each time it comes up, so a new reader can't restate it or tell what would have counted as Eight behavior. The type section says he \"apologizes when the hurt is close, and steps around powerful critics.\" Here the silence also covers a mother on TikTok, who is not powerful and whose son he had already apologized to on stream, so the example seems to cut both ways. Then the lawsuit paragraph adds a third rule (\"When the charge was a matter of fact, he fought\"). That paragraph sits under a heading about jokes landing on someone smaller, which it has nothing to do with. \"The pattern is clear, too\" claims certainty from four examples. Stacked up, the rules read as fitted after the fact rather than tested.",
+			"acceptance_test": "The type section and this section describe the pattern in the same terms (for example: repair when the hurt is personal and visible, silence toward critics at a distance, a factual rebuttal when the charge is factual), and the mother-on-TikTok example fits that wording without a gloss. \"The pattern is clear\" is replaced with language that fits four examples. The lawsuit paragraph either sits under a heading that covers it or opens with a sentence tying it to the discriminator. At least one sentence still names what an Eight-consistent response would have looked like (e.g., answering Cruz)."
+		},
+		{
+			"id": "unfamiliar-03",
+			"severity": "minor",
+			"passage": "That boy, Drew Desbordes, grew up to be Druski, the sketch comedian who plays the boss of a fake label called Coulda Been Records and owns 4Lifers Entertainment, the company that pays for it.",
+			"problem": "The orientation sentence says what he does but not how big he became. A new reader can't tell whether the kid who wanted to win actually won until the Forbes numbers in the sixth section and the BET Awards at the end. The hook's stakes rest on that. Without a scale marker, \"a whiteface NASCAR fan, a parody widely read as Erika Kirk\" reads as a list of obscure incidents rather than controversies that reached hundreds of millions of people.",
+			"acceptance_test": "Within the first 250 words of the body, one sourced, dated marker of scale appears (e.g., Forbes Top Creators 2026, youngest BET Awards host in June 2026, or TIME100 Creators 2026), worded so it survives a five-year read (dated, not \"now\")."
+		},
+		{
+			"id": "unfamiliar-04",
+			"severity": "minor",
+			"passage": "Its quotations were checked against the publisher's transcript and YouTube's captions, and 22 key passages against the episode audio.",
+			"problem": "Process notes stall the story at two key moments. This one sits between the hook and the type answer, and \"22 key passages\" means nothing to a reader. The second, \"(Machine transcripts disagree on the words just before \"perceive,\" so only the words they share are quoted.)\", interrupts the article's most emotionally charged scene, his promise to kill himself if he failed. The honesty is worth keeping. Narrating the transcription pipeline is not.",
+			"acceptance_test": "No sentence between the hook and the first H2 describes transcript or audio checking. The \"perceive\" uncertainty is either carried by how the fragment is quoted (a quoted fragment with no reconstructed lead-in) or moved to a short sources note at the end, not a parenthetical inside the scene. The article still tells the reader somewhere that the podcast quotes were checked and where wording is uncertain."
+		},
+		{
+			"id": "unfamiliar-05",
+			"severity": "minor",
+			"passage": "On March 25, 2026, he posted \"How Conservative Women in America act.\" It never named Erika Kirk, but it was widely read as her.",
+			"problem": "A new reader never learns what the Kirk sketch showed. The paragraph gives the title and the reactions but never says he performed it in whiteface or what the character said. The reader has to infer the whiteface from the section heading, from \"two whiteface sketches\" four paragraphs later, and from Kirk's own quote. Why viewers read it as Kirk (the timing, the role, what the character said) is also left implicit, so the stakes of the \"recently widowed woman\" point arrive unexplained.",
+			"acceptance_test": "Before the reactions, one sentence sourced to an opened article (e.g., The Nation, which describes the character's lines and the Black security guard behind her) says he performed the sketch in whiteface as a conservative woman and gives one concrete detail of what the character said or did."
+		},
+		{
+			"id": "unfamiliar-06",
+			"severity": "minor",
+			"passage": "The turn came during an armed robbery, \"a bad scamming situation gone left,\" with a gun to his head.",
+			"problem": "A new reader can't tell who robbed whom. \"An armed robbery\" right after a paragraph about his scams can suggest he took part in one, while \"a gun to his head\" suggests he was the victim. This is a turning-point scene and a serious implication about a real person, so the ambiguity matters.",
+			"acceptance_test": "The sentence says, as far as his account states, that he was the one held at gunpoint. If his account doesn't settle what happened, the prose attributes it (\"he says he ended up with a gun to his head\") and drops \"armed robbery\" unless those are his words."
+		},
+		{
+			"id": "unfamiliar-07",
+			"severity": "minor",
+			"passage": "Next up, by his account, is a megachurch-pastor show with Mike Epps, and in May 2027, Universal's _The Catch_",
+			"problem": "The close has two strong beats: the belt line and his five-year vision. An upcoming-projects list interrupts them, which deflates the ending and dates it quickly. The \"megachurch-pastor show\" also refers to a January 2026 viral sketch the article never mentions, so a new reader has no context for it.",
+			"acceptance_test": "No list of upcoming projects sits between \"as a bit\" and the Bartlett five-year question. If the projects stay, they move to an earlier section with a date and a one-clause mention of the megachurch sketch they grow from, and they carry a review trigger in the evidence record."
+		},
+		{
+			"id": "unfamiliar-08",
+			"severity": "minor",
+			"passage": "On September 24, 2026, Steven Bartlett asked Druski what he got out of making people laugh.",
+			"problem": "Several people and formats appear with no identifier, which trips a reader who doesn't follow podcasts or streaming. Steven Bartlett is named in the first sentence, but that he hosts The Diary of a CEO shows up only as link text at the end of the paragraph. Club Shay Shay (Shannon Sharpe's show), Kai Cenat's Mafiathon (a month-long livestream), the Pugsley costume, and the Brooklyn and Boston Coulda Been Records auditions (live audition events with celebrity co-hosts) each assume insider knowledge.",
+			"acceptance_test": "On first mention, each of Bartlett, Club Shay Shay, Mafiathon 2 and the Coulda Been Records auditions gets a short identifier of six words or fewer (e.g., \"podcast host Steven Bartlett\", \"Shannon Sharpe's podcast Club Shay Shay\", \"Kai Cenat's month-long Mafiathon 2 livestream\")."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "When the answer wasn't him, he pushed. \"Like, why is Mikey funnier than me? Tell me why.\"",
+			"reason": "A sourced, specific childhood moment that hooks a reader who has never heard of Druski and sets up the type question without jargon."
+		},
+		{
+			"passage": "Filming sketches around his mother's house, he gave her follower counts. Had he made any money? \"No but I have people watching.\"",
+			"reason": "The most memorable single detail for a new reader: the scoreboard shown in his own words rather than asserted."
+		},
+		{
+			"passage": "The boss dominates the contestants. When this star pushed back, he conceded in two words and turned it into a bit.",
+			"reason": "Makes the Eight-versus-Three test concrete in a scene anyone can picture, with no Enneagram vocabulary."
+		},
+		{
+			"passage": "An Eight builds his own company so that nobody can control him. Druski describes building his so that the companies that said no would come asking.",
+			"reason": "The clearest statement of the discriminator, understandable without prior knowledge of either type."
+		},
+		{
+			"passage": "The boy who used to step in after the belt now plays the man holding it, as a bit.",
+			"reason": "Earned callback that ties the childhood section to the ending and leaves an unresolved contradiction instead of a tidy moral."
+		}
+	],
+	"assessment": "For a reader who has never heard of Druski, this works. The kid polling classmates is a sourced, curious hook. The childhood, college and \"or die trying\" sections move fast with real stakes, and the Type 3 case is legible, argued in plain language, with an honest Type 8 hearing and an unexplained-evidence section. A new reader leaves with a specific picture: a man who keeps score, repairs visible hurt, and sidesteps distant critics. The main gaps are orientation. The rise itself (2017-2020) is missing, his scale arrives late, and the Kirk sketch is never described. The deciding test is worded three different ways, which makes it look fitted after the fact. Smaller drags: process notes in the hook and the suicide scene, and an upcoming-projects list inside the ending. The body is about 4,150 words by a simple count, so additions for unfamiliar-01/03/05 should be paid for by cuts (unfamiliar-04/07 free some room). Risk flags carry forward from research: sensitive allegations (father's violence against a private person, the suicide statement, the Parham suit, the Mafiathon child), contested typing (medium confidence), and a major thesis change (the live page's Type 8 becomes Type 3). The expanded jury is warranted. The similarity advisory did not trip (max 0.051, noise max 0.051). Its top matches are ordinary type vocabulary (\"worth something\", \"an Eight guards against being controlled\"), not reused arguments, so no distinctiveness finding."
+}

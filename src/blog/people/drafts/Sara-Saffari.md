@@ -217,7 +217,7 @@ Write it off. Like a rest day is a loss. Like a day without production is a day 
 
 You can't talk about Sara Saffari without talking about the ecosystem she operates in — and it's messier than her brand suggests.
 
-Sara trains at Zoo Culture, <a href="/personality-analysis/bradley-martyn">Bradley Martyn</a>'s gym, and lives inside the content universe that orbits it: RAWTALK podcast appearances, collaborations with the Tren Twins, proximity to streamers like N3on and Sneako, and the same wider creator circuit that overlaps with people like <a href="/personality-analysis/sky-bri">Sky Bri</a>. It's an ecosystem that runs on drama the way her body runs on protein. And Sara has been pulled into the middle of it more than once.
+Sara trains at Zoo Culture, <a href="/personality-analysis/bradley-martyn">Bradley Martyn</a>'s gym, and lives inside the content universe that orbits it: RAWTALK podcast appearances, collaborations with the Tren Twins, proximity to streamers like <a href="/personality-analysis/n3on">N3on</a> and Sneako, and the same wider creator circuit that overlaps with people like <a href="/personality-analysis/sky-bri">Sky Bri</a>. It's an ecosystem that runs on drama the way her body runs on protein. And Sara has been pulled into the middle of it more than once.
 
 The Sneako situation in 2023 was the most public. They appeared together on streams and went on dates, sparking the usual speculation. Then Sneako slapped Sara live on an IRL stream in front of roughly 100,000 viewers. The clip went viral. Sara appeared on RAWTALK alongside [Mike Majlak](/personality-analysis/mike-majlak) to address it. "Bro, I felt violated," she said she told Sneako directly. He refused to apologize. She cut contact.
 

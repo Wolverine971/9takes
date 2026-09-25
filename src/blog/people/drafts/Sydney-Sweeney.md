@@ -204,7 +204,7 @@ About Alice, she told Nylon something even more direct:
 
 That is the method, named on the record, at twenty. Three years before _Euphoria_. Before anyone was looking at her closely enough to ask. It wasn't built in response to fame. Fame just made it visible.
 
-Six years later, on Ron Howard's _Eden_ — opposite Daniel Craig, Jude Law, Ana de Armas, and Vanessa Kirby — she would say something the twenty-year-old wouldn't have:
+Six years later, on Ron Howard's _Eden_ — opposite Daniel Craig, Jude Law, [Ana de Armas](/personality-analysis/ana-de-armas), and Vanessa Kirby — she would say something the twenty-year-old wouldn't have:
 
 "I felt like I just had imposter syndrome the whole time I was there. Every day I was like, 'Oh my gosh, I cannot believe I'm here. Am I supposed to be here? Did they make a mistake? Am I the wrong person?'" (TIFF press, September 2024)
 

@@ -259,7 +259,7 @@ Skepticism existed from the beginning. Stanford professor Phyllis Gardner recall
 
 Prestigious validation helped Holmes keep advancing past technical objections. That supports the Type 3 reading, and it implicates the institutions that rewarded the story.
 
-Then the court record puts a date on what she knew. Around November 2014, Ramesh "Sunny" Balwani, the company's president and Holmes's partner, described the lab to her as a **"disaster zone."** Within weeks the two of them were discussing an investment binder for Rupert Murdoch. The lab problems and the departing lab director's concerns were left out of it, Judge Davila's September 2022 order records. [Order denying acquittal, page 3](https://www.govinfo.gov/content/pkg/USCOURTS-cand-5_18-cr-00258/pdf/USCOURTS-cand-5_18-cr-00258-25.pdf#page=3)
+Then the court record puts a date on what she knew. Around November 2014, Ramesh "Sunny" Balwani, the company's president and Holmes's partner, described the lab to her as a **"disaster zone."** Within weeks the two of them were discussing an investment binder for [Rupert Murdoch](/personality-analysis/rupert-murdoch). The lab problems and the departing lab director's concerns were left out of it, Judge Davila's September 2022 order records. [Order denying acquittal, page 3](https://www.govinfo.gov/content/pkg/USCOURTS-cand-5_18-cr-00258/pdf/USCOURTS-cand-5_18-cr-00258-25.pdf#page=3)
 
 That sequence is why ambition cannot work as an alibi here. Unwelcome information reached her, and she and Balwani edited what reached investors. A personality reading can ask why protecting that version mattered enough to do it.
 

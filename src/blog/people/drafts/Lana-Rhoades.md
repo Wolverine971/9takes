@@ -221,7 +221,7 @@ The precision matters. She doesn't condemn the concept of sex work in the abstra
 
 ## The Pros and Cons of Loving Lana Rhoades
 
-After leaving the industry, Rhoades pivoted. Influencer. Podcaster. And then, in January 2020, girlfriend to Mike Majlak, [Logan Paul](/personality-analysis/logan-paul)'s Impaulsive podcast co-host, in what became one of the most publicly documented relationships on the internet.
+After leaving the industry, Rhoades pivoted. Influencer. Podcaster. And then, in January 2020, girlfriend to [Mike Majlak](/personality-analysis/mike-majlak), [Logan Paul](/personality-analysis/logan-paul)'s Impaulsive podcast co-host, in what became one of the most publicly documented relationships on the internet.
 
 Logan Paul set them up as a birthday surprise for Majlak. Within weeks the relationship was content: podcast appearances, Instagram posts, the full influencer-couple performance. Within months, Majlak cheated on her with Ava Louise, the woman known for her Dr. Phil appearance. Louise leaked the DMs. Rhoades called her out publicly. Majlak went on Impaulsive and admitted to sleeping with Louise while insisting he "didn't cheat." They stayed together.
 
@@ -277,7 +277,7 @@ The moment matters because it reveals the limits of the adaptation, not some dee
 
 ## The Withdrawal
 
-After the Majlak breakup, after the pregnancy speculation, after the podcast controversies, Rhoades went quiet in the way that matters most. On Julia Fox's Forbidden Fruits podcast, she described a year and a half of celibacy with the flatness of someone reporting weather: "Honestly, it wasn't a choice. I just naturally wasn't interested in dating, and it kind of made me sad at first. I was like, 'Why can't I form that connection with someone or want to be intimate with them?' But now I feel so much more positive."
+After the Majlak breakup, after the pregnancy speculation, after the podcast controversies, Rhoades went quiet in the way that matters most. On [Julia Fox](/personality-analysis/julia-fox)'s Forbidden Fruits podcast, she described a year and a half of celibacy with the flatness of someone reporting weather: "Honestly, it wasn't a choice. I just naturally wasn't interested in dating, and it kind of made me sad at first. I was like, 'Why can't I form that connection with someone or want to be intimate with them?' But now I feel so much more positive."
 
 She didn't choose celibacy the way someone chooses a cleanse or a sabbatical. Her body chose it for her. After years of being the most physically available woman on the internet, after her body had been the product, the brand, the thing the algorithm optimized for, her nervous system shut the door.
 

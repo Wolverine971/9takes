@@ -277,7 +277,7 @@ Read that again. He traded guaranteed exclusivity money for freedom across every
 
 By 2025: #1 on Spotify for the sixth consecutive year. First time ever topping Apple Podcasts and YouTube simultaneously.
 
-When the Golden Globes debuted a "Best Podcast" award in January 2026, Joe wasn't nominated. Not because he lost. Because he refused to pay the $500 submission fee. He told Bert Kreischer: **"You can't tell me I didn't win. I've been number one for six years in a row."**
+When the Golden Globes debuted a "Best Podcast" award in January 2026, Joe wasn't nominated. Not because he lost. Because he refused to pay the $500 submission fee. He told [Bert Kreischer](/personality-analysis/bert-kreischer): **"You can't tell me I didn't win. I've been number one for six years in a row."**
 
 ### The COVID Flashpoint
 

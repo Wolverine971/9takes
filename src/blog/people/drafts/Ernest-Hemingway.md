@@ -269,7 +269,7 @@ Type Eights, [under sustained stress](/enneagram-corner/enneagram-types-in-stres
 
 Hemingway moved into this state in 1959.
 
-By that year he was 60, badly injured from the African crashes, drinking heavily, and aware that his cognitive faculties were slipping. The Cuban Revolution had complicated his ownership of Finca Vigía, the home outside Havana where he had lived for two decades. He left Cuba for the last time in July 1960 and never went back. He moved to Ketchum, Idaho. He could not write the simple commemorative paragraph John F. Kennedy's office requested for the 1961 inauguration — he sat for hours at the desk and could not produce it. The shockproof shit detector was failing on its owner.
+By that year he was 60, badly injured from the African crashes, drinking heavily, and aware that his cognitive faculties were slipping. The Cuban Revolution had complicated his ownership of Finca Vigía, the home outside Havana where he had lived for two decades. He left Cuba for the last time in July 1960 and never went back. He moved to Ketchum, Idaho. He could not write the simple commemorative paragraph [John F. Kennedy](/personality-analysis/john-f-kennedy)'s office requested for the 1961 inauguration — he sat for hours at the desk and could not produce it. The shockproof shit detector was failing on its owner.
 
 By November 1960, he was telling Hotchner that the FBI was tailing him, that his car was bugged, his phone was bugged, his mail was being intercepted. Hotchner, who loved him, treated this as paranoia. So did the doctors. Mary Hemingway tried to gently steer him away from the topic. The consensus was that Ernest was breaking with reality.
 

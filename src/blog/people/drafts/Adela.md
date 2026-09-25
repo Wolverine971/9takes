@@ -238,7 +238,7 @@ In a conversation published by [V Magazine on September 8, 2026](https://vmagazi
 
 She had made a related distinction in [PAPER in October 2025](https://www.papermag.com/adela-jergova). Attention during the group program felt disconnected from her because others shaped her presentation. Solo work made her self-expression the thing people responded to. Hearing fans sing her songs back felt beautiful. A character could help her feel recognized, while home still let her speak Slovak and occupy ordinary family roles.
 
-The single "Ain't in LA" shows her judgment at work. Adéla says she believed in it before the team wanted it as a single. Testing it during Demi Lovato's tour strengthened her case. Friend and early album listener Rachel Sennott told her in V, "I think you're someone who trusts your instincts."
+The single "Ain't in LA" shows her judgment at work. Adéla says she believed in it before the team wanted it as a single. Testing it during [Demi Lovato](/personality-analysis/demi-lovato)'s tour strengthened her case. Friend and early album listener Rachel Sennott told her in V, "I think you're someone who trusts your instincts."
 
 That is meaningful counterevidence to an account centered entirely on approval. She needed the song to exist before the audience supplied encouragement. Its eventual reception cannot retroactively turn her initial conviction into a marketing calculation.
 

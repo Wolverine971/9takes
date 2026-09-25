@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "subject",
+	"content_sha256": "17398e8c5e14d73d0ed48be19b583b430970adf3841382dd26a460814abe92a6",
+	"evidence_sha256": "cc5c59e99e6789b71d8a5e613bd422239a1666bc150c4043f1dd818666668af0",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "subject-01",
+			"severity": "major",
+			"passage": "He says his father's teaching was \"very tough and physical.\"",
+			"problem": "The quoted words are the second half of a sentence that begins \"he had great lessons, but his teaching skills was very tough and physical\" (publisher transcript 00:06:44). In the same answer Druski repeatedly credits his father (\"The lessons he had were very good,\" 00:14:31; \"I began to grow an appreciation for it,\" 00:16:43) and offers his own context for the violence (\"Maybe his mother was abusive to him,\" a Northeast DC project upbringing, 00:14:10-00:14:26). The draft keeps every violent detail and drops all of that balance, so a private man who cannot answer gets a harsher portrait than his son gave. Also, \"had not responded publicly as of September 24, 2026\" is dated the same day the interview was published, which implies silence where there has been no time to respond. The FAQ answer repeats \"His father has not responded publicly\" with no as-of date.",
+			"acceptance_test": "The household section includes, in Druski's words and close to the violence, at least one line of the credit he gives his father (e.g. \"he had great lessons\" or \"I began to grow an appreciation for it\"). The non-response line says the interview was published that day, or is otherwise worded as a dated check rather than as silence. The FAQ answer 'What did Druski say about his father' gives an explicit as-of date for the non-response and includes one clause of his balance. No new violent detail is added."
+		},
+		{
+			"id": "subject-02",
+			"severity": "major",
+			"passage": "He says the joke was loved, came from a good place and wasn't political, and that he is too busy to fight.",
+			"problem": "In the transcript (01:19:44-01:20:11) \"I'm not looking to get sued by nobody\" answers Bartlett's \"You're hoping he was [talking about you],\" and \"We have too much shit that we're pursuing right now to be looking forward to that\" answers \"Is it a compliment in a weird way?\" Druski is turning down the suggestion that a push to sue him would be welcome. He is not describing how he handles critics. The draft cuts both prompts, then paraphrases the lines as \"too busy to fight\" and uses them as evidence for the key 3-vs-8 discriminator (C34, C107: he 'steps around powerful critics'). This imputes a posture he did not state. The passage also repeats the host's unverified claim that Trump urged Kirk to sue. That claim is marked as uncertain within the exchange itself (\"I don't know if that's true\") and in research_tasks.",
+			"acceptance_test": "Either the prompts these lines answer are shown (Bartlett suggesting he was 'hoping' to be sued or that it was 'a compliment'), or the lines are no longer offered as evidence that he avoids or is 'too busy to fight' critics. The summary sentence drops 'too busy to fight' unless an opened source shows him saying that about critics. The Trump claim stays attributed to the host as uncertain, or is cut."
+		},
+		{
+			"id": "subject-03",
+			"severity": "major",
+			"passage": "whether a sketch titled for a category, aimed at one identifiable, recently widowed woman, still hits its target",
+			"problem": "The draft correctly says the sketch \"never named Erika Kirk, but it was widely read as her,\" and that Kirk herself did not name him. This sentence turns the audience's reading into the author's statement of what Druski aimed at, and makes 'recently widowed' part of his target. On the most sensitive controversy in the piece, that is an imputed intent. No opened source supports it, including Druski, who says his comedy has nothing to do with 'the political side or the race side.' The critique itself is legitimate and should stay. The problem is that it is stated as fact about his aim.",
+			"acceptance_test": "The sentence attributes the identification to viewers ('widely read as,' 'taken to be one identifiable, recently widowed woman') rather than stating his aim. The underlying question (whether a category title excuses a sketch read as one recently widowed woman) survives. Nothing elsewhere in the body or metadata states as fact that he targeted Kirk."
+		},
+		{
+			"id": "subject-04",
+			"severity": "major",
+			"passage": "When the charge was a matter of fact, he fought.",
+			"problem": "The Parham paragraph is careful, but it sits under the H2 \"When the joke lands on someone smaller,\" a section about him hurting people with less power. The FAQ \"Was Druski cleared in the Diddy lawsuit?\" (anchor: when-the-joke-lands-on-someone-smaller) sends readers straight to that heading. A federal judge wrote that the sexual-assault allegation \"almost certainly lack[s] a factual basis,\" and phone and bank records place him in Georgia. Filing that allegation under his harms to smaller people is a reputational framing harm. It also muddles the section's argument, which concerns how he answers accusations, not jokes.",
+			"acceptance_test": "The Parham paragraph sits under a heading or in a section that does not frame it as a joke landing on someone smaller (e.g. its own short section, or a section on how he answers accusations). The FAQ anchor points to that location. The legal precision ('dismissed without prejudice for failure to prosecute, not decided on the merits'; 'dismissed,' never 'cleared') is preserved."
+		},
+		{
+			"id": "subject-05",
+			"severity": "major",
+			"passage": "And it leaves out the scamming years, when a shortcut beat the good-guy image he defends now.",
+			"problem": "The record does not support 'years.' On DOAC he says he left college 'around 21, 22' and spent roughly 'a full year' at home before the robbery, a period in which he 'tried the jobs and tried the [il]legal stuff' (00:44:55-00:45:09). He wrote his goals at 23. Complex (2021) says only 'illegal things.' The plural overstates a real person's self-admitted fraud. The draft also leaves out his own moral framing of the period (\"I never was a bad guy,\" \"I felt like the karma of this stuff was weighing on me,\" 00:42:11-00:42:19) and then contrasts the period with his 'good-guy image.' Separately, \"The turn came during an armed robbery\" does not make clear that he and a friend were the ones robbed at gunpoint (\"we got arm robbed,\" 00:42:35; \"me and my friend,\" 00:43:11).",
+			"acceptance_test": "Duration is worded only as far as the record allows ('a period,' 'the year after he dropped out,' or undated), with no plural 'years.' The scamming passage includes at least one of his own framing lines, or a neutral note that he describes the period with regret. The robbery sentence makes clear he was the victim (e.g. 'when he and a friend were robbed at gunpoint'). No new detail about methods or victims is added."
+		},
+		{
+			"id": "subject-06",
+			"severity": "minor",
+			"passage": "The sketch also shows his Joe yelling at his wife when she stands up for their children and wrecking the furniture before police sirens sound",
+			"problem": "The excerpt Bartlett played on DOAC (publisher transcript 01:46:01-01:46:26) contains the belt threat and 'Fix your face.' Druski answered 'that was some aspects of Joe Jackson that my dad had. Some personality.' Consequence's description of wife-yelling, wrecked furniture and police sirens comes immediately before 'Bartlett played him the clip,' which invites readers to attach all of it to his private father, including police involvement that no source reports. Dropping 'Some personality.' also makes his comparison sound broader than he made it.",
+			"acceptance_test": "The paragraph makes clear which part of the sketch he was responding to (the belt / 'Fix your face' moment), or separates the Consequence description from his remark. His limiting phrase is kept, or the quote is not presented as a full equivalence. Nothing implies police were ever called on his father."
+		},
+		{
+			"id": "subject-07",
+			"severity": "minor",
+			"passage": "In 2022 he took down a sketch in which he played a man who pushes women to drink so he can assault them, after some viewers called it insensitive.",
+			"problem": "Rolling Stone (2024), which I reopened on 2026-09-24, is the only opened source for the sketch's content. It gives the title as 'That Friend that tries to make the girls OVERLY drink' and says 'Audiences were split. Some commended Druski for calling out this behavior, while others felt that joking about rape was insensitive.' The draft reports only the objection. A reader can therefore take it as a joke that endorsed assault rather than a character sketch that some viewers read as exposing predatory behavior.",
+			"acceptance_test": "The sentence reports the split reception (some viewers praised it for calling out the behavior, others called it insensitive), or gives the sketch's 'That Friend' framing, while keeping his two Rolling Stone quotes."
+		},
+		{
+			"id": "subject-08",
+			"severity": "minor",
+			"passage": "Still, by his own account, the boss needed a push to go solo.",
+			"problem": "His 'account' is agreement with Shannon Sharpe's leading question ('were you afraid to go out on your own'): 'you could say that.' He then immediately gives a circumstantial explanation: 'I think it's something that kind of gets stuck to some people who do social media' (S-SHAY, auto-captions). The draft omits that explanation. 'By his own account' presents the author's inference about his fear as his own self-description.",
+			"acceptance_test": "The sentence frames this as his agreement with Sharpe's question, or hedges it ('he allowed that he had been afraid'). Either his social-media explanation is included, or the 'needed a push' reading is labeled as the article's inference."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "None of this settles his type, and this page doesn't claim the house made him a Three. A child who steps between a violent parent and a sibling could become an Eight, a Two or a Six.",
+			"reason": "Refuses a trauma etiology for the type, which matters most here: the abuse account is new, unanswered, and involves private family members."
+		},
+		{
+			"passage": "He is careful about cause: \"I wouldn't say that my comedy necessarily came from that, but it definitely came from like a healing, wanting to make our situation better at home.\"",
+			"reason": "Keeps his own hedge on causation in his words. This is exactly how self-report should be separated from the author's inference."
+		},
+		{
+			"passage": "In December 2025 the case was dismissed without prejudice for failure to prosecute, not decided on the merits.",
+			"reason": "The legal wording is precise and fair both ways: no 'cleared,' no hint of guilt, and it matches the docket and the order."
+		},
+		{
+			"passage": "Asked on Diary of a CEO what he had meant, he said, \"I was chasing being great,\" and that he would otherwise \"perceive myself as a failure.\" (Machine transcripts disagree on the words just before \"perceive,\" so only the words they share are quoted.) He added, \"I knew I wasn't going to kill myself.\"",
+			"reason": "Handles the suicide remark responsibly: his words, his clarification, a visible limit on transcript certainty, and no dramatization."
+		},
+		{
+			"passage": "Atlanta Black Star reported that her videos also used racial slurs about him.",
+			"reason": "Adds needed fairness context to the most damaging episode for him, without reproducing the slurs or excusing his conduct."
+		}
+	],
+	"assessment": "Fairness proxy only. This review does not speak for Druski or his family. Most sensitive material is handled well. The domestic violence, the suicide remark, the depression and the fraud are all given in his words, attributed, and paired with his forgiveness or clarification. His brother's diagnoses and the child's name are left out. The Parham suit says 'dismissed,' never 'cleared.' I opened the publisher's DOAC transcript (rss.flightcast.com VTT, fetched 2026-09-24) and checked every sensitive DOAC passage against it. I also reopened the Rolling Stone 2024 piece. Other sources were read through their evidence excerpts only. The problems are selective cuts that tilt harsher than the record, plus one structural placement. (1) The violence toward a private, non-responding father is kept while Druski's repeated credit to him is cut. (2) Two DOAC lines are stripped of the host prompts they answered and recast as 'too busy to fight,' which props up the 3-vs-8 discriminator. (3) The Kirk critique states his aim as one identifiable, recently widowed woman. (4) The judge-discredited Parham allegation sits under 'When the joke lands on someone smaller.' (5) 'Scamming years' overstates self-admitted fraud. On the suicide passage, the transcript continues after his clarification with 'But if I don't, I'm out of here... Sounds crazy, but it's true.' The draft's restraint is accurate and appropriate, and I request no change there. Risks: sensitive allegations (domestic violence by private parents, admitted fraud, a sexual-assault suit, a child on a livestream), contested typing, and a major thesis change (live page 8 to draft 3) all apply, so the expanded jury is required. Historical source uncertainty does not apply. Similarity: the check did not trip (max 0.051 vs Margaret Qualley). The top matches are ordinary type vocabulary ('worth something,' 'An Eight guards against being controlled'). The control-vs-audience frame for 3 vs 8 and the scoreboard image echo the Michael Jordan page. Here, though, they rest on details specific to Druski (the classmate polls, the follower counts reported to his mother), so this is not meaningful reuse."
+}

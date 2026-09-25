@@ -246,7 +246,7 @@ The translation: he wanted her to need him. She couldn't.
 
 But here's what Chelsea learned — and what separates the post-therapy Chelsea from the pre-therapy one: "I was able to be in love in a vulnerable, mature, healthy way. I am capable of accepting love."
 
-The relationship didn't fail because she couldn't love. It failed because she couldn't surrender the terms. "I recognize my part in the dynamic now," she told Howard Stern. "I come on too strong. I think I'm being direct, but sometimes I'm just being controlling."
+The relationship didn't fail because she couldn't love. It failed because she couldn't surrender the terms. "I recognize my part in the dynamic now," she told [Howard Stern](/personality-analysis/howard-stern). "I come on too strong. I think I'm being direct, but sometimes I'm just being controlling."
 
 That sentence — from a woman who spent decades equating directness with virtue — is the sound of an Eight actually growing.
 

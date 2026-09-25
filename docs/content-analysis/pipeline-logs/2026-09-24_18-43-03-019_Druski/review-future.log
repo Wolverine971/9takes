@@ -1,0 +1,16 @@
+The five-year review of the Druski draft is written to `review-future.json` in the run directory. It passes the pipeline's review schema, its IDs and hashes match the request, and every quoted passage appears word for word in the draft. I didn't change any other file and published nothing.
+
+**Five-year check:** The Type 3 call still holds if you take out the September 24, 2026 Diary of a CEO interview. Older, dated evidence carries it: GQ 2020, Rolling Stone 2024, Billboard December 2025, CBS February 2026, the 2022 sketch takedown and the 2024 on-stream apology. But about 15 of the 26 claims the type call rests on come only from that same-day interview, and the type section doesn't show readers the older support.
+
+**Findings (2 major, 5 minor):**
+- **future-01 (major):** The father "had not responded publicly as of September 24, 2026," which is the day the interview came out, so he had no time to respond. The FAQ says it in the present tense with no date at all. A few years from now that reads as a private man staying silent about abuse allegations.
+- **future-02 (major):** The test that separates Type 3 from Type 8 is that he "almost never argues back." The evidence record marks it as permanent and has nothing to flag it if he later attacks a critic. The section heading ("never argues back") and the FAQ ("rarely argues back") also state it as a current, undated fact.
+- **future-03:** The type section should name and date at least one source older than 2026, so the call doesn't look like it rests on one interview.
+- **future-04:** The opening says "On September 24, 2026, Steven Bartlett asked…", but that's the release date. The conversation happened sometime after June 28, 2026, since he watched the June 28 "JOE" sketch during it.
+- **future-05:** The ending's "Next up" list of projects has no date. One project is due in November 2026 and *The Catch* in May 2027, so it goes stale within months.
+- **future-06:** Four status claims have no date: "He now sells to the platform that passed" (also not tracked in the evidence record), "Movie stars now sit beside him," that he owns 4Lifers Entertainment, and "youngest host in the show's history."
+- **future-07:** The Diddy-lawsuit FAQ doesn't say when it was last checked. The case was dismissed without prejudice, so it could be refiled, and only federal courts were checked for a refiling.
+
+I marked five passages to keep, including the GQ 2020 corroboration of the childhood contest, the Billboard "outdo the guy" line, and "The boy who used to step in after the belt now plays the man holding it, as a bit." The overlap check against other profiles didn't flag anything; the closest matches are ordinary Enneagram wording. The review keeps three risk flags raised: sensitive allegations, disputed typing, and the change from the live page's Type 8. You still need to approve that 8-to-3 change before this can publish.
+
+The Supabase connector failed to connect this session. This stage didn't need it.

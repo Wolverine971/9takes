@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-09-24",
+	"generatedAt": "2026-09-25",
 	"gsc": {
 		"runDate": "2026-09-24",
 		"window": {
@@ -17,7 +17,8 @@
 		"gateDebt": 2,
 		"topBlog": 40,
 		"peopleBridge": 30,
-		"skipped": 87
+		"peopleToPeople": 4,
+		"skipped": 96
 	},
 	"gateDebt": [
 		{
@@ -1995,6 +1996,84 @@
 			"phraseKind": "name",
 			"mentionScore": 3,
 			"excerpt": "… an order to remain available for possible recall, he traveled to China with President Donald Trump. OpenAI's lawyers used the absence in closing: their clients were present, they said, while Musk was in \"parts unknown.\""
+		}
+	],
+	"peopleToPeople": [
+		{
+			"id": "/personality-analysis/leonardo-dicaprio -> /personality-analysis/tom-hardy",
+			"source": {
+				"url": "/personality-analysis/leonardo-dicaprio",
+				"file": "src/blog/people/drafts/Leonardo-DiCaprio.md",
+				"outCount": 7
+			},
+			"target": {
+				"url": "/personality-analysis/tom-hardy",
+				"name": "Tom Hardy",
+				"inCount": 1,
+				"impressions": 1055,
+				"position": 8.8
+			},
+			"line": 273,
+			"anchor": "Tom Hardy",
+			"excerpt": "Two years later, he finally won the Oscar. Five acting nominations, twenty-two years, an internet's worth of memes about his losses. The moment arrived. He thanked Tom Hardy and Inarritu, then used the most-watched seconds of his career to say: \"Climate change is real. It is happening right now. It's the most urgent threat facing our entire species and we need to work collectively together and stop procrastinating.\"",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/pete-davidson -> /personality-analysis/machine-gun-kelly",
+			"source": {
+				"url": "/personality-analysis/pete-davidson",
+				"file": "src/blog/people/drafts/Pete-Davidson.md",
+				"outCount": 8
+			},
+			"target": {
+				"url": "/personality-analysis/machine-gun-kelly",
+				"name": "Machine Gun Kelly",
+				"inCount": 1,
+				"impressions": 77,
+				"position": 7.6
+			},
+			"line": 334,
+			"anchor": "Machine Gun Kelly",
+			"excerpt": "The NYPD conducted a welfare check. Ariana Grande rushed to 30 Rock. Machine Gun Kelly got on a plane. The whole thing played out in real time on social media while Pete was backstage at SNL.",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/jimmy-fallon -> /personality-analysis/emma-stone",
+			"source": {
+				"url": "/personality-analysis/jimmy-fallon",
+				"file": "src/blog/people/drafts/Jimmy-Fallon.md",
+				"outCount": 7
+			},
+			"target": {
+				"url": "/personality-analysis/emma-stone",
+				"name": "Emma Stone",
+				"inCount": 1,
+				"impressions": 0,
+				"position": null
+			},
+			"line": 195,
+			"anchor": "Emma Stone",
+			"excerpt": "Lip Sync Battle, Box of Lies, Wheel of Musical Impressions, Egg Russian Roulette. The genius was never the games themselves. It was that he got A-list stars to look ridiculous and love it. Bradley Cooper lip-syncing with murderous commitment. Emma Stone slaughtering him at a lip sync. Robert De Niro giggling. Barack Obama slow-jamming the news. The most image-managed people alive walked into that studio and put the image down.",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/adam-neumann -> /personality-analysis/jamie-dimon",
+			"source": {
+				"url": "/personality-analysis/adam-neumann",
+				"file": "src/blog/people/drafts/Adam-Neumann.md",
+				"outCount": 9
+			},
+			"target": {
+				"url": "/personality-analysis/jamie-dimon",
+				"name": "Jamie Dimon",
+				"inCount": 2,
+				"impressions": 212,
+				"position": 7.2
+			},
+			"line": 255,
+			"anchor": "Jamie Dimon",
+			"excerpt": "Behind the scenes, the establishment had reached its own verdict. Jamie Dimon — Neumann's personal banker, whose JPMorgan was the lead underwriter on the IPO — [told him](https://fortune.com/longform/book-excerpt-cult-of-we-work/) he was his own worst enemy and that JPM could not take the company public with him as CEO. Bruce Dunlevie at Benchmark had received the same Type 3 read seven years earlier and committed; Dimon received it in 2019 and walked. Same persona. Different valuation regime. Different room.",
+			"typeClaim": null
 		}
 	]
 }

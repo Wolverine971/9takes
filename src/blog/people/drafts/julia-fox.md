@@ -171,7 +171,7 @@ Ending swap-test: pass — the R.I.P. blood-canvas obituary callback and "a room
 
 She was twenty-seven and known to almost no one. She had already worked as a dominatrix, been banned from Bloomingdale's for life, and come back from a heroin overdose. She had been killing off versions of herself for years. This one just came with a gallery opening.
 
-The world would decide, later, that it discovered her. A24 discovered her in 2019, cast as a jeweler's mistress opposite Adam Sandler. Kanye West discovered her in January 2022, and for six weeks she was the most photographed woman on the internet. Then the internet decided she was a joke: a hot girl with no thoughts, an accessory whose flat pronunciation of _Uncut Gems_ got turned into a punchline.
+The world would decide, later, that it discovered her. A24 discovered her in 2019, cast as a jeweler's mistress opposite [Adam Sandler](/personality-analysis/adam-sandler). Kanye West discovered her in January 2022, and for six weeks she was the most photographed woman on the internet. Then the internet decided she was a joke: a hot girl with no thoughts, an accessory whose flat pronunciation of _Uncut Gems_ got turned into a punchline.
 
 Every one of those stories casts Julia Fox as the object. Something looked at. Something discovered, dated, memed, discarded.
 

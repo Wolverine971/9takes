@@ -1,0 +1,24 @@
+I wrote the subject-role fairness review of the Druski draft to `docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-subject.json`. It passes the review schema, its hashes match the request, and every quoted passage appears word for word in the draft. I didn't change any other files or publish anything.
+
+**What I checked:** I downloaded the full Diary of a CEO transcript from the podcast publisher and checked every sensitive quote against it. I also reopened the Rolling Stone 2024 article. For the other sources I relied on the excerpts in the evidence file.
+
+**Overall:** the draft handles the hardest material well. The abuse, the suicide remark and the scams are all told in his words, with his forgiveness or clarification alongside. His brother's diagnoses and the child's name are left out, and the Diddy lawsuit is described as "dismissed," never "cleared." The problems are cuts and paraphrases that make things read harsher than the record, plus one badly placed paragraph.
+
+**5 major findings:**
+1. **His father:** the draft keeps every violent detail but cuts Druski's credit to his father in the same answer ("he had great lessons," "I began to grow an appreciation for it"). It also says his father "had not responded publicly as of September 24, 2026," which is the day the interview came out.
+2. **"Too busy to fight":** two quotes were answers to the host asking whether he was "hoping" to be sued and whether that was "a compliment." The draft drops those questions and recasts the answers as him sidestepping critics. That misreading is used as evidence for the Type 3 over Type 8 call.
+3. **Erika Kirk:** one sentence says the sketch was "aimed at one identifiable, recently widowed woman." Elsewhere the draft correctly says it was only "widely read as her," so this sentence states his intent as fact.
+4. **The Diddy lawsuit:** the paragraph sits under the heading "When the joke lands on someone smaller," and the FAQ "Was Druski cleared?" links straight there. A judge said that allegation almost certainly has no factual basis.
+5. **"The scamming years":** by his own account the scams fit inside roughly one year, so "years" overstates it. The draft also leaves out his own view of that period ("I never was a bad guy"), and it's unclear that he was the one robbed at gunpoint.
+
+**3 minor findings:**
+- The Joe Jackson sketch description (including police sirens) sits right before his remark comparing the character to his dad. The clip he was actually shown only had the belt threat.
+- The 2022 sketch is described without Rolling Stone's note that some viewers praised it for calling out the behavior.
+- "By his own account, the boss needed a push" rests on him agreeing to a leading question.
+
+**Also recorded:**
+- I marked five passages to keep: the refusal to blame his childhood for his type, his own hedge on where his comedy came from, the lawsuit dismissal wording, the suicide passage, and the note that the mother's videos used slurs about him.
+- I left three risk flags set: sensitive allegations, contested typing, and the change from Type 8 to Type 3, so the full six-reviewer panel is still required.
+- The similarity check didn't trip. The closest matches are ordinary Enneagram wording, so there's no real reuse.
+
+Before this can publish, you still need to approve the change from Type 8 to Type 3 yourself; the research notes list that as a task for you.

@@ -141,7 +141,7 @@ At 17, Hailey signed with Ford Models. Within a year, she had her first commerci
 
 But the trajectory required real work.
 
-By 2015, she was shooting for American Vogue and Teen Vogue. She landed covers for Jalouse, L'Officiel, and Wonderland in rapid succession. In 2016, she signed with IMG Models—the agency representing Gigi Hadid, Kendall Jenner, and the world's top talent.
+By 2015, she was shooting for American Vogue and Teen Vogue. She landed covers for Jalouse, L'Officiel, and Wonderland in rapid succession. In 2016, she signed with IMG Models—the agency representing Gigi Hadid, [Kendall Jenner](/personality-analysis/kendall-jenner), and the world's top talent.
 
 The real shift came when she started dating [Justin Bieber](/personality-analysis/justin-bieber). Their 2018 engagement after years of on-and-off friendship thrust her into a different stratosphere of public attention. Suddenly, she wasn't just a model from a famous family—she was half of one of the most scrutinized couples in pop culture.
 

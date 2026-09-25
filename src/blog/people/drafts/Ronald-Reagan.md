@@ -211,7 +211,7 @@ His proposed budgets repeatedly cut AIDS research funding even as the death toll
 
 The timeline doesn't read as malice. It reads as avoidance. AIDS was stigmatized, politically uncomfortable, associated with groups that created friction with Reagan's conservative base. Addressing it directly would have required conflict — with the religious right, with his own coalition, with the discomfort of the subject itself. Reagan's entire operating system was built to avoid exactly that kind of friction.
 
-When his personal friend Rock Hudson was dying of AIDS in 1985 and sought White House help accessing experimental treatment in France, Nancy Reagan's office declined the request. The warmest man in the room couldn't see this one.
+When his personal friend Rock Hudson was dying of AIDS in 1985 and sought White House help accessing experimental treatment in France, [Nancy Reagan](/personality-analysis/nancy-reagan)'s office declined the request. The warmest man in the room couldn't see this one.
 
 ### The Stories We Tell
 

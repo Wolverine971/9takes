@@ -210,7 +210,7 @@ Laughing to the point of incapacitation. That phrase sits oddly next to "zero in
 
 ## The Dot-Com Winter and the Pivot That Proved the Pattern
 
-Netscape was acquired by AOL in 1999 for $4.3 billion. Andreessen could have retired. Instead, he and Ben Horowitz co-founded Loudcloud in October 1999, right at the peak of dot-com mania. The timing was catastrophic.
+Netscape was acquired by AOL in 1999 for $4.3 billion. Andreessen could have retired. Instead, he and [Ben Horowitz](/personality-analysis/ben-horowitz) co-founded Loudcloud in October 1999, right at the peak of dot-com mania. The timing was catastrophic.
 
 Loudcloud IPO'd in 2001 after a backbreaking roadshow: 70 meetings in 16 days across North America and Europe while the NASDAQ fell in half around them. They had to reprice from $10 to $6 a share. One mutual fund manager stared at Marc and Ben and asked: "Why are you here? Do you have any idea what's going on in the world?" Goldman Sachs didn't even offer the traditional closing dinner.
 

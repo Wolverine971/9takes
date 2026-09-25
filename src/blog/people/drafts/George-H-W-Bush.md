@@ -178,7 +178,7 @@ During this period, Bush became deeply involved in civic activities, serving on 
 
 ### Horseshoes as Leadership Philosophy
 
-Colin Powell captured Bush perfectly: "He was competitive. If you tried to play horseshoes with him, you'd see how competitive he can be." Bush was so devoted to horseshoes that he had courts installed at the White House and Camp David. When Queen Elizabeth II visited in 1991, she brought him a silver-plated horseshoe set. In 1992, he hosted the Super Bowl champion Washington Redskins for a late-night horseshoe tournament. And threw a ringer to win.
+Colin Powell captured Bush perfectly: "He was competitive. If you tried to play horseshoes with him, you'd see how competitive he can be." Bush was so devoted to horseshoes that he had courts installed at the White House and Camp David. When [Queen Elizabeth II](/personality-analysis/queen-elizabeth-ii) visited in 1991, she brought him a silver-plated horseshoe set. In 1992, he hosted the Super Bowl champion Washington Redskins for a late-night horseshoe tournament. And threw a ringer to win.
 
 The competitiveness was real. But it was always funneled into the game, never into self-promotion. Bush's instinct was never "I'll handle this" — it was "who should be on this team, and how do I get them there." That distinction defined every major decision of his public life.
 

@@ -34,3 +34,5 @@ tmp/
 # Local automation logs + image-experiment output (untracked 2026-08-13; files stay on disk)
 /logs/
 /output/
+# Blog pipeline run lock (scripts/run-blog-pipeline.mjs); never commit
+docs/content-analysis/pipeline-logs/.pipeline.lock/

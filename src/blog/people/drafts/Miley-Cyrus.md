@@ -195,7 +195,7 @@ What followed Bangerz was a series of identity experiments, each answering a dif
 
 **"I created my surroundings, my own world,"** she told The New York Times. **"What seems like fantasy or trippy, it's not to me. It's my actual reality."**
 
-Critics were divided. But John Mayer called it **"a masterwork of whack genius."** Elton John deemed it **"fucking brilliant"** and compared her to Frank Zappa.
+Critics were divided. But [John Mayer](/personality-analysis/john-mayer) called it **"a masterwork of whack genius."** Elton John deemed it **"fucking brilliant"** and compared her to Frank Zappa.
 
 This was also when Miley came out publicly as pansexual. **"My whole life, I didn't understand my own gender and my own sexuality,"** she told Variety. **"I always hated the word 'bisexual,' because that's even putting me in a box."** Coming out to her Southern Baptist family was hard, and her mother Tish later apologized for her initial reaction.
 
@@ -205,7 +205,7 @@ The same year, she launched the **Happy Hippie Foundation** for homeless and LGB
 
 The lesson: when Miley performs authentic exploration, even messy, even alienating, the work resonates. When she performs domesticity she doesn't feel, everyone can tell.
 
-**Plastic Hearts (2020)** was the correction. A glam rock album with Joan Jett, Billy Idol, Dua Lipa, and Stevie Nicks, it debuted at number one on the Rock Albums chart. **"I had discredited myself for what I had been almost every step of the way,"** she told Rolling Stone. **"When I have evolved, I've then become shameful of who I was before."**
+**Plastic Hearts (2020)** was the correction. A glam rock album with Joan Jett, Billy Idol, [Dua Lipa](/personality-analysis/dua-lipa), and Stevie Nicks, it debuted at number one on the Rock Albums chart. **"I had discredited myself for what I had been almost every step of the way,"** she told Rolling Stone. **"When I have evolved, I've then become shameful of who I was before."**
 
 She later acknowledged that **"half of Plastic Hearts was a trauma response"** to the divorce and the fire. Even the album she felt most centered making was partly running from something. The identity search doesn't resolve. It just gets more honest.
 

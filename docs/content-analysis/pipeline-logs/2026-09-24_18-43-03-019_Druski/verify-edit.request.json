@@ -1,0 +1,27 @@
+{
+	"schema_version": 3,
+	"subject": "Druski",
+	"mode": "resume",
+	"root": "/Users/djwayne/9takes",
+	"command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+	"standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+	"contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+	"inputs": {
+		"draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/candidate-edit.md",
+		"evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/evidence-edit.json",
+		"resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/resolution-edit.json",
+		"review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-subject.json",
+		"review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-fan.json",
+		"review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-critic.json",
+		"review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-unfamiliar.json",
+		"review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-enneagram.json",
+		"review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/review-future.json",
+		"baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/baseline-reader.md",
+		"checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/checks-edit.json"
+	},
+	"outputs": {
+		"verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-24_18-43-03-019_Druski/verification-edit.json"
+	},
+	"content_sha256": "d46af92b2ef6b977134bc5e86bff18b6c9a9d181dd3188306d1240166b60f4ef",
+	"evidence_sha256": "6f9e12f2f173f71f3d3380b2cac9b38a555fc2c0c5fb1e1a38d466b61d4e3e48"
+}

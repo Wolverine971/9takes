@@ -285,7 +285,7 @@ His former assistant Charlie Hoehn, who worked alongside Ferriss for three years
 
 It is one of the few direct characterizations of Ferriss's working style on the public record from someone who had a desk inside it. Hoehn burned out trying to keep pace, later describing himself as "a Superman superiority complex" who treated his own body "like a kamikaze pilot" while driving the campaign into bestseller territory. The intensity wasn't a misread of his boss; it was the cost of being downstream of him. _4-Hour Body_ hit #1 on the New York Times list. Hoehn collapsed and wrote a book about burnout.
 
-His morning ritual operates with the consistency of a vow. Twenty minutes of meditation. Breathwork. Journaling. Phone on airplane mode since the night before. Same slow-carb meals every day. On his refrigerator: a Marcus Aurelius quote, taped there like a monastic rule.
+His morning ritual operates with the consistency of a vow. Twenty minutes of meditation. Breathwork. Journaling. Phone on airplane mode since the night before. Same slow-carb meals every day. On his refrigerator: a [Marcus Aurelius](/personality-analysis/marcus-aurelius) quote, taped there like a monastic rule.
 
 _"When jarred unavoidably by circumstance, revert at once to yourself and don't lose the rhythm more than you can help."_
 
@@ -385,7 +385,7 @@ Kevin Rose was his first guest. When Ferriss recorded Episode #1 in San Francisc
 
 His loyalty runs deep. Once someone is inside the walls, they stay.
 
-The corollary is quieter, and more telling. Run the search for what his closest collaborators have ever said about Tim on their own platforms — not in conversation with him on his show, but on their own — and the well is nearly dry. Kevin Rose, Debbie Millman, Ryan Holiday, Kevin Kelly, Matt Mullenweg, Naval Ravikant: every name on his friends list has guested on the show, often more than once, but almost none has written or spoken about him in their own voice on their own channel. Hoehn's cautionary essay remains the most direct outside characterization on the public record, and even that one was published on Tim's blog. The man who has interviewed eight hundred people about their inner lives has built a circle that, by some unspoken arrangement, keeps its reads on him private. The silence is itself a system — and the system runs in his direction.
+The corollary is quieter, and more telling. Run the search for what his closest collaborators have ever said about Tim on their own platforms — not in conversation with him on his show, but on their own — and the well is nearly dry. Kevin Rose, Debbie Millman, [Ryan Holiday](/personality-analysis/ryan-holiday), Kevin Kelly, Matt Mullenweg, Naval Ravikant: every name on his friends list has guested on the show, often more than once, but almost none has written or spoken about him in their own voice on their own channel. Hoehn's cautionary essay remains the most direct outside characterization on the public record, and even that one was published on Tim's blog. The man who has interviewed eight hundred people about their inner lives has built a circle that, by some unspoken arrangement, keeps its reads on him private. The silence is itself a system — and the system runs in his direction.
 
 ## The Retreat That Cracked Tim Ferriss's Inner Courtroom
 

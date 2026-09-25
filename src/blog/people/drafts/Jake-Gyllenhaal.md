@@ -86,7 +86,7 @@ path: src/blog/people/drafts/Jake-Gyllenhaal.md
 
 He'd lost 30 pounds from his 180-pound frame. His eyes were sunken. His cheekbones cut shadows.
 
-This is the same man who, a few years later, had a full panic attack on the set of Spider-Man: Far From Home. A movie about a superhero in a cape. "I was freaking out," he told Howard Stern. He was standing next to Samuel L. Jackson and <a href="/personality-analysis/tom-holland">Tom Holland</a>, and he couldn't remember his lines. The Oscar-nominated actor who had starved himself and bled for Nightcrawler was undone by a green screen.
+This is the same man who, a few years later, had a full panic attack on the set of Spider-Man: Far From Home. A movie about a superhero in a cape. "I was freaking out," he told Howard Stern. He was standing next to <a href="/personality-analysis/samuel-l-jackson">Samuel L. Jackson</a> and <a href="/personality-analysis/tom-holland">Tom Holland</a>, and he couldn't remember his lines. The Oscar-nominated actor who had starved himself and bled for Nightcrawler was undone by a green screen.
 
 That contradiction is the key to Jake Gyllenhaal.
 
@@ -281,7 +281,7 @@ In 2017, he made his Broadway musical debut in Sondheim's _Sunday in the Park wi
 
 For a man who had spent a decade starving and bleeding for authentic emotion, that was the real discovery. You could also get there through joy.
 
-Then came _Road House_ in 2024, a gleefully over-the-top action film where he got to punch Conor McGregor and grin about it. When they shot a scene at a real UFC event in Las Vegas, Gyllenhaal was "on a high for four days after." Not the high of suffering. Not the high of having survived something dangerous. The high of having fun in front of a crowd and not needing it to mean anything more than that. "One of the most wonderful things about being a performer is the ability to run the gamut," he said. "And try all different sorts of things."
+Then came _Road House_ in 2024, a gleefully over-the-top action film where he got to punch [Conor McGregor](/personality-analysis/conor-mcgregor) and grin about it. When they shot a scene at a real UFC event in Las Vegas, Gyllenhaal was "on a high for four days after." Not the high of suffering. Not the high of having survived something dangerous. The high of having fun in front of a crowd and not needing it to mean anything more than that. "One of the most wonderful things about being a performer is the ability to run the gamut," he said. "And try all different sorts of things."
 
 And then he chose the hardest joy of all.
 

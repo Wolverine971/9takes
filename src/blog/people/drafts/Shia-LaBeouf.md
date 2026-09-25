@@ -194,7 +194,7 @@ Honey Boy was received as a breakthrough — the most honest thing Shia had ever
 
 Then he recanted all of it.
 
-On the Real Ones podcast with Jon Bernthal in August 2022, Shia reversed course. His father, he said, "was so loving to me my whole life — though fractured, crooked, and wonky — but never was not loving and never was not there."
+On the Real Ones podcast with [Jon Bernthal](/personality-analysis/jon-bernthal) in August 2022, Shia reversed course. His father, he said, "was so loving to me my whole life — though fractured, crooked, and wonky — but never was not loving and never was not there."
 
 The film the world understood as autobiography? "I wronged him," Shia said. "I was using him."
 

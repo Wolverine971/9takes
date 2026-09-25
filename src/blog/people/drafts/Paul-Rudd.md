@@ -165,7 +165,7 @@ Catherine Keener described the Apatow approach: "Judd would never really even sa
 
 For someone whose natural mode is agreement and expansion, this wasn't an adjustment. It was home.
 
-The famous "You Know How I Know You're Gay?" exchange in The 40-Year-Old Virgin? Entirely improvised with Seth Rogen. It became one of the most quoted comedy sequences of the decade precisely because neither performer was trying to win. They were just playing.
+The famous "You Know How I Know You're Gay?" exchange in The 40-Year-Old Virgin? Entirely improvised with [Seth Rogen](/personality-analysis/seth-rogen). It became one of the most quoted comedy sequences of the decade precisely because neither performer was trying to win. They were just playing.
 
 Rudd later admitted to improvising real personal detail into his performances: **"There's a line when my character tells Steve Carell what it's like to have your heart broken and how you're constantly gaining and losing weight. I improvised that because before we started shooting, I took Judd's request to put on weight maybe a little too far. The studio said, 'You're a fat ass. Lose some weight.'"**
 

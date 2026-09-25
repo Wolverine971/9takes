@@ -146,7 +146,7 @@ Directors wielded power against him — "doing whatever they wanted with his wri
 
 He would watch the power players around him "as if they were mice in a laboratory, with some distance." Every manipulation, every ego display, every betrayal — noted, cataloged, filed.
 
-"That book came from a lot of pain inside of me, of bad experiences," he told Rick Rubin on Tetragrammaton in 2023. "It came from that kind of power of almost wanting revenge on that world."
+"That book came from a lot of pain inside of me, of bad experiences," he told [Rick Rubin](/personality-analysis/rick-rubin) on Tetragrammaton in 2023. "It came from that kind of power of almost wanting revenge on that world."
 
 In 1995, working at Fabrica — Benetton's creative research institute outside Venice — Greene met a Dutch book packager named Joost Elffers and pitched him the idea: a modern Machiavelli. Not an academic exercise. A weapon forged from two decades of being on the wrong side of power.
 

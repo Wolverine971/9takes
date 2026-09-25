@@ -1,0 +1,42 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 4edcddcb-1ec3-4dc8-b70f-9e7c5889bb57 to write outputs
+I've finished the draft stage. `draft.md` and `evidence-draft.json` are written to the run folder, and no other file changed. The live `src/blog/people/drafts/Druski.md` is untouched and nothing was published.
+
+**The main result: the draft argues Druski is a Type 3, not the live page's Type 8.** That follows the research stage's evidence, at medium confidence, with 8 as the strongest alternative. The piece opens with a detail from his Diary of a CEO interview: as a kid he secretly polled classmates on who was funniest and demanded reasons when he lost ("why is Mikey funnier than me?"). The case for 8 gets a full, fair section. What decides it is how he handles critics: he recasts backlash as success, says he never "punched down", apologizes when his image takes a real hit, and backs away from powerful opponents. He almost never argues back. The draft also admits what the 3 reading doesn't explain, including why he took the whiteface risk twice. It ends on the Joe Jackson sketch and his line about his father: "It wasn't hard to rip that belt off, man. I've seen it before."
+
+**Checks:**
+- **Draft rules:** no blockers, 3,844 words (the ceiling is 4,500; the standard's rough target is 3,500) and no em dashes.
+- **Evidence record:** validates against the draft (status ready, 64 claims, 49 sources).
+- **Preserved fields:** date, lastmod, published: true, person and loc are unchanged from the live page.
+
+**Interview quotes checked:** YouTube blocked the audio, but the podcast feed had the MP3 and the publisher's own transcript. Every quote from that interview matches both YouTube's captions and the publisher's transcript. I also ran 14 key passages through Whisper against the audio, and all matched except one. The "failure" line comes out differently in all three versions, so I printed the majority wording and flagged it to check by ear. Eight more clips were cut but didn't get transcribed before the session ended; those quotes rest on the two transcripts agreeing.
+
+**Corrections and deliberate omissions:**
+- **Wrong author:** the evidence named Matthew Vickers as author of The Nation piece. The byline is Fatima B. Jalloh; the other name only appears in the page's hidden metadata.
+- **"Now it's a bidding war":** it's unclear whether Druski or the host said this, so the draft doesn't attribute it to him.
+- **Left out because unverified:** the exact Kirk sketch title, the NASCAR race name and date, the Trump "sue him" claim, the Wahlberg and Chalamet audition lines, and the 2023 Forbes figure.
+- **Sensitive material:** the father, brother and suicide passages are in his own words, next to his forgiveness and his clarification. His brother's diagnoses are left out.
+
+**Decisions for you:**
+1. **Changing a live page from Type 8 to Type 3 needs your approval before publishing.** It changes the enneagram field, titles, FAQs, keywords and the type hub listings. I kept this as an open task in the record rather than adding a blocker.
+2. **Charlie Kirk's death** is sourced to the National Enquirer, Complex and UnHerd; add a wire-service source if reviewers want one.
+
+Because the evidence carries risk flags, this goes to the full six-reviewer panel next.
+
+Some connected tools need sign-in before they'll work (Slack, GitHub, Linear, Notion, Ahrefs and others). Authorize them in your claude.ai connector settings or with `/mcp` in an interactive session. The Supabase server also failed to connect. This stage didn't need any of them.
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 6ec237cd-8576-4718-ab58-b3a4471782d8 to write outputs
+I've written the Druski draft stage: `draft.md` and `evidence-draft.json` are in the run folder. Both pass the site's own checks: no draft blockers, and the evidence file validates against the draft with status "ready". The two stage inputs are unchanged (their hashes match), the live `Druski.md` is untouched, and nothing was published.
+
+**The draft types Druski as a Type 3, not the live page's Type 8.** That follows the research record, at medium confidence, with Type 8 as the strongest alternative. It opens with a moment from his September 24, 2026 Diary of a CEO interview. As a kid he quietly asked classmates who was funniest and pushed back when he lost: "Like, why is Mikey funnier than me? Tell me why." A 2020 GQ quote says the same thing six years earlier. The Type 8 case gets a full section: he paid for his own shows, plays a boss on camera and has never taken back either whiteface sketch. What decides it is how he handles critics. He almost never argues back. He says the backlash was really reach, that his jokes come "from a good place," and that he paid for his shows so the studios that said no would end up "wanting what I did in reverse." It ends on his Joe Jackson sketch and what he said about his father: "It wasn't hard to rip that belt off, man. I've seen it before." A section near the end lists what the Type 3 reading can't explain, starting with why he made the whiteface sketches at all.
+
+**How it was checked**
+- **Quotes:** every interview quote was matched against the publisher's transcript and YouTube's captions, and the key ones against Whisper transcripts of the episode audio. One line where the transcripts disagree is quoted only in part, and the article says so. One quote from the research ("How could I be broken…") turned out to be a paraphrase, so I left it out and fixed it in the record.
+- **Social handles:** the live page lists his X handle as "drulogang", which is wrong. His X, Instagram and TikTok are all @druski, which I confirmed from the platforms' own public page data. The draft now says `druski`.
+- **Length:** 3,872 words. That's under the 4,500 limit but above the standard's rough 3,500 target. There are a lot of controversies to cover fairly, so there's little room for the edit stage to add length.
+- **Sensitive material:** the father, brother and suicide passages are in his own words, next to his forgiveness and his clarification. The draft notes that his father hasn't responded publicly. His brother's diagnoses and the child's name from Kai Cenat's Mafiathon 2 stream are left out. The Diddy lawsuit is described as dismissed, never "cleared."
+
+**Decision for you**
+1. **Changing a live page from Type 8 to Type 3 needs your approval before it publishes.** The date, lastmod and published status are unchanged. But the enneagram field, titles, FAQs, keywords and the type-hub listings would all change. I recorded this as an open task in the evidence file rather than adding a blocker. Because of the type change and the risk flags, the draft goes to the full six-reviewer panel next.
+
+Some connected tools (Slack, GitHub, Ahrefs and others) need you to sign in through your claude.ai connector settings or `/mcp`, and the Supabase server failed to connect. This stage didn't need any of them.

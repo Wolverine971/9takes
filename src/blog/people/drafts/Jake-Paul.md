@@ -252,7 +252,7 @@ He describes himself as someone who "overthinks and beats himself up over stuff,
 
 ## "Jake Paid for My Hospitalization and Saved My Life"
 
-In August 2023, YouTuber Fousey appeared on Bradley Martyn's Raw Talk podcast and revealed something that never made headlines.
+In August 2023, YouTuber Fousey appeared on [Bradley Martyn](/personality-analysis/bradley-martyn)'s Raw Talk podcast and revealed something that never made headlines.
 
 After losing a boxing match to Deji, Fousey spiraled into suicidal thoughts. His life was falling apart. No support system.
 

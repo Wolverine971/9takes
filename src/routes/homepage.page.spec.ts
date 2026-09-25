@@ -34,7 +34,7 @@ describe('promoted homepage', () => {
 		expect(document.head.querySelector('meta[name="robots"]')?.getAttribute('content')).toMatch(
 			/^index, follow/
 		);
-		expect(load({} as never)).toEqual({ pageChrome: 'header', pageShell: 'owned' });
+		expect(load({} as never)).toEqual({ pageChrome: 'default', pageShell: 'owned' });
 		expect(screen.queryByRole('navigation')).toBeNull();
 		expect(container.querySelector('header')).toBeNull();
 		expect(document.title).toBe('1 Question, 9 Perspectives | 9takes');
