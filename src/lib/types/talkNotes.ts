@@ -24,3 +24,25 @@ export type AdminTalkNote = {
 	sourcePath: string | null;
 	createdAt: string;
 };
+
+export type TalkNotePreview = {
+	id: string;
+	createdAt: string;
+	preview: string;
+	inputMode: 'text' | 'voice';
+	hasEmail: boolean;
+	wantsSession: boolean;
+	status: TalkNoteStatus;
+};
+
+/** At-a-glance numbers for the admin dashboard and the notes inbox. */
+export type TalkNotesOverview = {
+	newCount: number;
+	repliedCount: number;
+	archivedCount: number;
+	totalCount: number;
+	withEmailCount: number;
+	sessionRequestCount: number;
+	lastNoteAt: string | null;
+	latest: TalkNotePreview[];
+};

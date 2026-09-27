@@ -11,6 +11,7 @@
 		Mail,
 		Megaphone,
 		MessageCircle,
+		MessageSquareText,
 		RefreshCw,
 		Search,
 		Target,
@@ -138,12 +139,14 @@
 			tone: 'default'
 		},
 		{
-			label: 'Coaching queue',
-			value: formatCompactCount(data.coachingWaitlist),
-			meta: 'Waiting',
-			href: '/admin/consulting',
-			icon: Target,
-			tone: data.coachingWaitlist > 0 ? 'warning' : 'default'
+			label: 'Notes · new',
+			value: data.talkNotes ? formatCompactCount(data.talkNotes.newCount) : '–',
+			meta: data.talkNotes
+				? `${formatCompactCount(data.talkNotes.totalCount)} total`
+				: 'Talk to DJ',
+			href: '/admin/consulting/notes',
+			icon: MessageSquareText,
+			tone: (data.talkNotes?.newCount ?? 0) > 0 ? 'warning' : 'default'
 		}
 	]);
 

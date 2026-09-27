@@ -7,6 +7,8 @@ vi.mock('$lib/analytics/posthog', () => ({ capture: captureMock }));
 
 import {
 	captureEmailSignupCompleted,
+	captureHomepageLinkClicked,
+	captureHomepagePractice,
 	captureRevealCompleted,
 	captureTypeSelected
 } from './marketingEvents';
@@ -65,6 +67,44 @@ describe('marketing conversion events', () => {
 			post_contribution: true,
 			question_id: 567,
 			question_url: 'example-question'
+		});
+	});
+
+	it('captures homepage practice steps without answer text', async () => {
+		await captureHomepagePractice({
+			surface: 'homepage',
+			step: 'handoff_clicked',
+			practiceId: 'friendship',
+			liveSlug: 'whats-criteria-considering-someone-friend',
+			placement: 'reveal'
+		});
+
+		expect(captureMock).toHaveBeenCalledWith('homepage_practice_handoff_clicked', {
+			surface: 'homepage',
+			practice_id: 'friendship',
+			live_slug: 'whats-criteria-considering-someone-friend',
+			placement: 'reveal'
+		});
+		expect(captureMock.mock.calls[0][1]).not.toHaveProperty('answer');
+	});
+
+	it('only captures in-site homepage link destinations', async () => {
+		await captureHomepageLinkClicked({
+			surface: 'homepage',
+			placement: 'people_row',
+			destination: 'https://example.com'
+		});
+		expect(captureMock).not.toHaveBeenCalled();
+
+		await captureHomepageLinkClicked({
+			surface: 'homepage',
+			placement: 'people_row',
+			destination: '/personality-analysis/jack-black'
+		});
+		expect(captureMock).toHaveBeenCalledWith('homepage_link_clicked', {
+			surface: 'homepage',
+			placement: 'people_row',
+			destination: '/personality-analysis/jack-black'
 		});
 	});
 });

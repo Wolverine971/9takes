@@ -369,6 +369,7 @@
 	]);
 
 	let waitlistEntries = $derived((data.coachingWaitlistUsers ?? []).slice(0, 6));
+	let talkNoteEntries = $derived(data.talkNotes?.latest ?? []);
 	let recentUsers = $derived((data.recentSignups ?? []).slice(0, 8));
 	let recentEmailSignups = $derived((data.recentEmailSignups ?? []).slice(0, 8));
 	let recentUnsubscribes = $derived((data.recentUnsubscribes ?? []).slice(0, 6));
@@ -628,11 +629,54 @@
 			<div class="section-copy">
 				<span class="eyebrow">Queues</span>
 				<h2 class="section-title">Recent inbound activity</h2>
-				<p class="section-description">The latest signups and coaching demand in one place.</p>
+				<p class="section-description">Notes, signups, and coaching demand in one place.</p>
 			</div>
 		</div>
 
 		<div class="queue-grid">
+			<article class="panel list-card">
+				<div class="list-card-header">
+					<div class="section-copy">
+						<span class="eyebrow">Talk to DJ</span>
+						<h3 class="card-title">Notes</h3>
+					</div>
+					<div class="list-card-meta">
+						<span class="count-pill">{formatCount(data.talkNotes?.newCount ?? 0)} new</span>
+						<a href="/admin/consulting/notes" class="inline-link">Open notes</a>
+					</div>
+				</div>
+
+				{#if !data.talkNotes}
+					<p class="empty-state">Couldn’t load notes.</p>
+				{:else if talkNoteEntries.length > 0}
+					<ul class="detail-list">
+						{#each talkNoteEntries as note (note.id)}
+							<li class="detail-item">
+								<div class="detail-main">
+									<a href="/admin/consulting/notes" class="detail-link">{note.preview}</a>
+									<p class="detail-subtitle">
+										{note.inputMode === 'voice' ? 'Voice note' : 'Text note'} ·
+										{note.hasEmail ? 'Left an email' : 'Anonymous'}{note.wantsSession
+											? ' · Wants a session'
+											: ''}
+									</p>
+								</div>
+								<div class="detail-side">
+									<span class="detail-date">{formatDate(note.createdAt)}</span>
+									{#if note.status === 'new'}
+										<span class="count-pill">New</span>
+									{/if}
+								</div>
+							</li>
+						{/each}
+					</ul>
+				{:else}
+					<p class="empty-state">
+						No notes yet. They show up here the moment someone taps “Send to DJ”.
+					</p>
+				{/if}
+			</article>
+
 			<article class="panel list-card">
 				<div class="list-card-header">
 					<div class="section-copy">

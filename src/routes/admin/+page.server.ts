@@ -27,6 +27,7 @@ import { buildAdminDataStatus } from '$lib/server/adminDataStatus';
 import { loadEmailSuppressionStatus } from '$lib/server/emailSuppressionStatus';
 import { normalizeEmail } from '$lib/email/suppression';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { getTalkNotesOverview } from '$lib/server/talkNotes';
 
 type QuestionRow = Database['public']['Tables']['questions']['Row'];
 
@@ -170,7 +171,8 @@ export const load: PageServerLoad = async (event) => {
 		commentsTodayResult,
 		retentionSummaryResult,
 		trendingPagesResult,
-		recentUnsubscribesResult
+		recentUnsubscribesResult,
+		talkNotes
 	] = await Promise.all([
 		supabase.rpc('visitors_last_30_days'),
 		supabase.rpc('comments_last_30_days'),
@@ -250,7 +252,12 @@ export const load: PageServerLoad = async (event) => {
 						count: 'exact'
 					})
 					.order('unsubscribed_at', { ascending: false })
-					.limit(6)
+					.limit(6),
+		// "Talk to DJ" notes: real inbound regardless of demo mode.
+		getTalkNotesOverview().catch((err) => {
+			console.error('Failed to load Talk to DJ notes overview', err);
+			return null;
+		})
 	]);
 
 	if (dailyVisitorsResult.error) {
@@ -394,6 +401,7 @@ export const load: PageServerLoad = async (event) => {
 		newUsersMonth: newUsersMonthResult.count || 0,
 		newUsersToday: newUsersTodayResult.count || 0,
 		coachingWaitlist: coachingWaitlistResult.count || 0,
+		talkNotes,
 		coachingWaitlistUsers: withSuppressionStatus(coachingWaitlistUsersResult.data || []),
 		totalQuestions: totalQuestionsResult.count || 0,
 		totalComments: totalCommentsResult.count || 0,

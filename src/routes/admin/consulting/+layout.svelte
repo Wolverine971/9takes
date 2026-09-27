@@ -20,6 +20,9 @@
 
 	let { children }: { children: Snippet } = $props();
 
+	// Set by the admin layout: unanswered "Talk to DJ" notes.
+	let newTalkNotes = $derived(Number($page.data.newTalkNotes ?? 0));
+
 	function isActive(item: { href: string; exact?: boolean }, pathname: string): boolean {
 		if (item.exact) {
 			return pathname === item.href;
@@ -42,6 +45,9 @@
 					<Icon size={16} strokeWidth={1.8} aria-hidden="true" />
 				</span>
 				<span class="sub-nav-label">{item.label}</span>
+				{#if item.href === '/admin/consulting/notes' && newTalkNotes > 0}
+					<span class="sub-nav-badge" aria-label={`${newTalkNotes} new`}>{newTalkNotes}</span>
+				{/if}
 			</a>
 		{/each}
 	</nav>
@@ -104,6 +110,21 @@
 		border-radius: 10px;
 		background: var(--stone-warm);
 		color: var(--lamp-glow);
+	}
+
+	.sub-nav-badge {
+		display: inline-grid;
+		min-width: 20px;
+		height: 20px;
+		place-items: center;
+		padding: 0 6px;
+		border-radius: 999px;
+		background: var(--lamp-glow);
+		color: var(--text-on-primary);
+		font-size: 0.6875rem;
+		font-weight: 700;
+		line-height: 1;
+		box-sizing: border-box;
 	}
 
 	.sub-nav-link:hover {

@@ -181,7 +181,7 @@
 					</a>
 				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
 					<a href={resolve('/login')} class="mobile-login" aria-label="Log in or sign up">
-						Log in<span class="mobile-signup-suffix"> / Sign up</span>
+						Log in<span class="mobile-signup-suffix">&nbsp;/ Sign up</span>
 					</a>
 				{/if}
 			</div>
@@ -278,7 +278,12 @@
 					<CircleUserRound class="account-icon" size={24} strokeWidth={1.5} />
 				</a>
 			{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
-				<Button href={resolve('/login')} class="desktop-auth">Log in / Sign up</Button>
+				<!-- Homepage keeps one solid amber action (Reveal); login matches the mobile tint there. -->
+				<Button
+					href={resolve('/login')}
+					variant={$page.url.pathname === '/' ? 'ghost' : 'primary'}
+					class="desktop-auth">Log in / Sign up</Button
+				>
 			{/if}
 		</div>
 	</nav>
@@ -412,6 +417,10 @@
 	.header-shell :global(.desktop-auth) {
 		padding-inline: 1rem;
 		white-space: nowrap;
+	}
+
+	.header-shell :global(.btn--ghost.desktop-auth) {
+		background: color-mix(in srgb, var(--lamp-glow) 12%, transparent);
 	}
 
 	/* Top-level funnel link (2026-07-18): Questions is the give-first product,

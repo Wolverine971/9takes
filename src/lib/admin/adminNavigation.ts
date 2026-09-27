@@ -9,6 +9,7 @@ import {
 	Mail,
 	Megaphone,
 	MessageCircle,
+	MessageSquareText,
 	MessagesSquare,
 	PenLine,
 	RefreshCw,
@@ -48,6 +49,7 @@ export const adminNavGroups: AdminNavGroup[] = [
 		items: [
 			{ href: '/admin/users', label: 'Users', icon: Users },
 			{ href: '/admin/consulting', label: 'Consulting', icon: Target },
+			{ href: '/admin/consulting/notes', label: 'Notes', icon: MessageSquareText },
 			{ href: '/admin/comments', label: 'Comments', icon: MessageCircle },
 			{ href: '/admin/messages', label: 'Messages', icon: MessagesSquare }
 		]
@@ -85,12 +87,25 @@ export const adminNavGroups: AdminNavGroup[] = [
 	}
 ];
 
+function matchesAdminNavItem(item: { href: string; exact?: boolean }, pathname: string): boolean {
+	if (item.exact) return pathname === item.href;
+	return pathname === item.href || pathname.startsWith(`${item.href}/`);
+}
+
+/**
+ * Only the most specific matching item is active, so /admin/consulting/notes
+ * lights up "Notes" and not "Consulting" too.
+ */
 export function isAdminNavActive(
 	item: { href: string; exact?: boolean },
 	pathname: string
 ): boolean {
-	if (item.exact) return pathname === item.href;
-	return pathname === item.href || pathname.startsWith(`${item.href}/`);
+	if (!matchesAdminNavItem(item, pathname)) return false;
+	return !adminNavGroups.some((group) =>
+		group.items.some(
+			(other) => other.href.length > item.href.length && matchesAdminNavItem(other, pathname)
+		)
+	);
 }
 
 const detailRoutes: Array<{

@@ -41,8 +41,8 @@ describe('Harry Dry V2', () => {
 			'1 question.9 perspectives.'
 		);
 		expect(screen.getByText('Write yours first, before another take shapes it.')).toBeTruthy();
-		await waitFor(() => expect(container.querySelector('.community-question')).toBeTruthy());
-		expect(container.querySelector('.community-question')?.getAttribute('href')).toBe(
+		await waitFor(() => expect(container.querySelector('.live-question')).toBeTruthy());
+		expect(container.querySelector('.live-question')?.getAttribute('href')).toBe(
 			'/questions/good-friend'
 		);
 		expect(container.querySelector('.community-signal')?.textContent).toContain(

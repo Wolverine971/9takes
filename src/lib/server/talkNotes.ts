@@ -17,10 +17,16 @@ import { createHash, randomBytes, randomUUID, timingSafeEqual } from 'node:crypt
 import { env } from '$env/dynamic/private';
 import { sendEmail, type SendEmailOptions, type SendEmailResult } from '$lib/email/sender';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
-import type { AdminTalkNote, TalkNoteFilter, TalkNoteStatus } from '$lib/types/talkNotes';
+import type {
+	AdminTalkNote,
+	TalkNoteFilter,
+	TalkNotePreview,
+	TalkNotesOverview,
+	TalkNoteStatus
+} from '$lib/types/talkNotes';
 import { logger } from '$lib/utils/logger';
 
-export type { AdminTalkNote, TalkNoteFilter, TalkNoteStatus };
+export type { AdminTalkNote, TalkNoteFilter, TalkNotePreview, TalkNotesOverview, TalkNoteStatus };
 
 export const TALK_NOTES_BUCKET = 'talk-notes';
 export const TALK_NOTE_MAX_CHARS = 5000;
@@ -31,6 +37,7 @@ export const TALK_NOTE_MAX_RECORDING_SECONDS = 180;
 export const TALK_NOTE_MIN_FORM_MS = 3000;
 export const TALK_DETAILS_WINDOW_MS = 24 * 60 * 60 * 1000;
 export const VOICE_ONLY_BODY = '(Voice note. No transcript.)';
+export const TALK_PAGE_PATHS = ['/book-session', '/book-session/'];
 
 const SIGNED_AUDIO_TTL_SECONDS = 60 * 60;
 const TOKEN_PATTERN = /^[A-Za-z0-9_-]{20,64}$/;
@@ -264,8 +271,34 @@ async function signAudioPaths(supabase: any, paths: string[]): Promise<Map<strin
 	return signed;
 }
 
-function adminEmailAddress(): string | null {
+/** Where DJ's new-note and session-request alerts go (PRIVATE_ADMIN_EMAIL). */
+export function talkNoteAlertAddress(): string | null {
 	return env.PRIVATE_ADMIN_EMAIL?.trim() || null;
+}
+
+const EASTERN_TIME = new Intl.DateTimeFormat('en-US', {
+	timeZone: 'America/New_York',
+	dateStyle: 'medium',
+	timeStyle: 'short'
+});
+
+function formatEasternTime(date: Date): string {
+	return `${EASTERN_TIME.format(date)} ET`;
+}
+
+// sendEmail reports most failures in its result instead of throwing, so check
+// both. A failed alert never loses the note: it's already saved.
+async function sendAdminAlert(
+	send: (options: SendEmailOptions) => Promise<SendEmailResult>,
+	options: SendEmailOptions,
+	label: string
+): Promise<void> {
+	try {
+		const result = await send(options);
+		if (!result.success) logger.warn(`${label} failed`, { error: result.error });
+	} catch (error) {
+		logger.warn(`${label} failed`, { error: String(error) });
+	}
 }
 
 // ---------------------------------------------------------------------------
@@ -354,27 +387,27 @@ export async function createTalkNote(
 		return { ok: false, status: 500, message: 'Something went wrong. Please try again.' };
 	}
 
-	const adminEmail = adminEmailAddress();
+	const adminEmail = talkNoteAlertAddress();
 	if (adminEmail) {
 		const kind = audio
 			? `Voice note${audioSeconds ? ` (${formatSeconds(audioSeconds)})` : ''}`
 			: 'Text note';
-		try {
-			await send({
+		await sendAdminAlert(
+			send,
+			{
 				to: adminEmail,
 				subject: `New note on Talk to DJ: ${body.replace(/\s+/g, ' ').slice(0, 60)}`,
 				htmlContent: `
 <h1>New note</h1>
-<p><strong>${escapeHtml(kind)}</strong> · ${escapeHtml(now().toISOString())}</p>
+<p><strong>${escapeHtml(kind)}</strong> · ${escapeHtml(formatEasternTime(now()))}</p>
 ${paragraphsHtml(body)}
 <p>They can still add an email or ask for a session on the next step.</p>
 <p><a class="button" href="https://9takes.com/admin/consulting/notes">Open notes</a></p>
 				`.trim(),
 				emailKind: 'transactional'
-			});
-		} catch (notifyError) {
-			logger.warn('Talk note admin notification failed', { error: String(notifyError) });
-		}
+			},
+			'Talk note admin notification'
+		);
 	}
 
 	return { ok: true, noteId, detailsToken };
@@ -484,10 +517,11 @@ export async function saveTalkNoteDetails(
 		return { ok: false, status: 500, message: 'Something went wrong. Please try again.' };
 	}
 
-	const adminEmail = adminEmailAddress();
+	const adminEmail = talkNoteAlertAddress();
 	if (input.wantsSession && adminEmail) {
-		try {
-			await send({
+		await sendAdminAlert(
+			send,
+			{
 				to: adminEmail,
 				subject: `Session request from ${name.replace(/[\r\n]+/g, ' ')}`.slice(0, 200),
 				htmlContent: `
@@ -498,10 +532,9 @@ ${paragraphsHtml(note.body)}
 <p><a class="button" href="https://9takes.com/admin/consulting/notes">Open notes</a></p>
 				`.trim(),
 				emailKind: 'transactional'
-			});
-		} catch (notifyError) {
-			logger.warn('Talk note session notification failed', { error: String(notifyError) });
-		}
+			},
+			'Talk note session notification'
+		);
 	}
 
 	return {
@@ -580,6 +613,87 @@ export async function setTalkNoteStatus(
 		.update({ status: nextStatus, updated_at: now().toISOString() })
 		.eq('id', noteId);
 	return !error;
+}
+
+/** Unanswered notes, for the badge on the admin nav. */
+export async function countNewTalkNotes(deps: TalkNotesDeps = {}): Promise<number> {
+	const { supabase } = resolveDeps(deps);
+	const { count, error } = await supabase
+		.from('talk_notes')
+		.select('id', { count: 'exact', head: true })
+		.eq('status', 'new');
+	if (error) throw new Error('Failed to count new notes');
+	return count ?? 0;
+}
+
+// Notes are low-volume (a handful a week at most), so one small scan beats a
+// count query per number.
+const OVERVIEW_SCAN_LIMIT = 1000;
+const PREVIEW_CHARS = 140;
+
+export async function getTalkNotesOverview(
+	deps: TalkNotesDeps = {},
+	latestCount = 5
+): Promise<TalkNotesOverview> {
+	const { supabase } = resolveDeps(deps);
+	const { data, error } = await supabase
+		.from('talk_notes')
+		.select('id, created_at, body, input_mode, email, wants_session, status')
+		.order('created_at', { ascending: false })
+		.limit(OVERVIEW_SCAN_LIMIT);
+	if (error) throw new Error('Failed to load notes overview');
+
+	const rows = (data ?? []) as Pick<
+		TalkNoteRow,
+		'id' | 'created_at' | 'body' | 'input_mode' | 'email' | 'wants_session' | 'status'
+	>[];
+	const count = (predicate: (row: (typeof rows)[number]) => boolean) =>
+		rows.filter(predicate).length;
+	const latest: TalkNotePreview[] = rows
+		.filter((row) => row.status !== 'archived')
+		.slice(0, latestCount)
+		.map((row) => {
+			const flat = row.body.replace(/\s+/g, ' ').trim();
+			return {
+				id: row.id,
+				createdAt: row.created_at,
+				preview: flat.length > PREVIEW_CHARS ? `${flat.slice(0, PREVIEW_CHARS - 1)}…` : flat,
+				inputMode: row.input_mode,
+				hasEmail: !!row.email,
+				wantsSession: row.wants_session,
+				status: row.status
+			};
+		});
+
+	return {
+		newCount: count((row) => row.status === 'new'),
+		repliedCount: count((row) => row.status === 'replied'),
+		archivedCount: count((row) => row.status === 'archived'),
+		totalCount: rows.length,
+		withEmailCount: count((row) => !!row.email),
+		sessionRequestCount: count((row) => row.wants_session),
+		lastNoteAt: rows[0]?.created_at ?? null,
+		latest
+	};
+}
+
+/** Visits to the Talk to DJ page, so zero notes can be read against traffic. */
+export async function countTalkPageVisits(
+	days = 7,
+	deps: TalkNotesDeps = {}
+): Promise<number | null> {
+	const { supabase, now } = resolveDeps(deps);
+	const since = new Date(now().getTime() - days * 24 * 60 * 60 * 1000).toISOString();
+	const { count, error } = await supabase
+		.from('page_analytics_visits')
+		.select('id', { count: 'exact', head: true })
+		.in('path', TALK_PAGE_PATHS)
+		.gte('started_at', since);
+	if (error) {
+		logger.warn('Could not count Talk to DJ page visits', { error: String(error.message) });
+		return null;
+	}
+	return count ?? 0;
 }
 
 // ---------------------------------------------------------------------------

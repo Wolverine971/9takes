@@ -83,3 +83,47 @@ export function captureTypeSelected(input: TypeSelectedInput): Promise<void> {
 
 	return capture('type_selected', properties);
 }
+
+export type HomepagePracticeStep =
+	| 'started'
+	| 'revealed'
+	| 'handoff_clicked'
+	| 'next_question'
+	| 'live_post_clicked'
+	| 'live_kept_private';
+
+type HomepagePracticeInput = SharedMarketingContext & {
+	step: HomepagePracticeStep;
+	practiceId: string;
+	liveSlug?: string | null;
+	placement?: string;
+};
+
+type HomepageLinkClickedInput = SharedMarketingContext & {
+	placement: string;
+	destination: string;
+};
+
+// Homepage practice funnel. Never send the visitor's answer text.
+export function captureHomepagePractice(input: HomepagePracticeInput): Promise<void> {
+	if (!input.practiceId.trim()) return Promise.resolve();
+
+	const properties: Record<string, unknown> = {
+		...sharedProperties(input),
+		practice_id: input.practiceId.trim()
+	};
+	if (input.liveSlug?.trim()) properties.live_slug = input.liveSlug.trim();
+	if (input.placement?.trim()) properties.placement = input.placement.trim();
+
+	return capture(`homepage_practice_${input.step}`, properties);
+}
+
+export function captureHomepageLinkClicked(input: HomepageLinkClickedInput): Promise<void> {
+	if (!/^\/(?!\/)/.test(input.destination)) return Promise.resolve();
+
+	return capture('homepage_link_clicked', {
+		...sharedProperties(input),
+		placement: input.placement,
+		destination: input.destination
+	});
+}

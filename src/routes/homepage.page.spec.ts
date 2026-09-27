@@ -7,6 +7,12 @@ vi.mock('$app/paths', () => ({
 	resolve: (path: string, params?: { slug: string }) => path.replace('[slug]', params?.slug ?? '')
 }));
 vi.mock('svelte/motion', () => ({ prefersReducedMotion: { current: false } }));
+const { practiceMock } = vi.hoisted(() => ({ practiceMock: vi.fn() }));
+vi.mock('$lib/analytics/marketingEvents', async (importOriginal) => ({
+	...(await importOriginal<typeof import('$lib/analytics/marketingEvents')>()),
+	captureHomepagePractice: practiceMock,
+	captureHomepageLinkClicked: vi.fn()
+}));
 
 import Homepage from './+page.svelte';
 import { load } from './+page';
@@ -77,6 +83,9 @@ describe('promoted homepage', () => {
 		expect(copies).toHaveLength(2);
 		for (const quote of copies) expect(quote.closest('.ph-no-capture')).toBeTruthy();
 		expect(document.activeElement?.id).toBe('reveal-title');
+		const revealEvent = practiceMock.mock.calls.find(([input]) => input.step === 'revealed')?.[0];
+		expect(revealEvent).toMatchObject({ surface: 'homepage', practiceId: 'friendship' });
+		expect(JSON.stringify(practiceMock.mock.calls)).not.toContain(answer);
 		expect(
 			screen.getByRole('link', { name: 'Join the friendship conversation' }).getAttribute('href')
 		).toBe('/questions/whats-criteria-considering-someone-friend');

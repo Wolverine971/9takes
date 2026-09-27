@@ -2,7 +2,7 @@
 <script lang="ts">
 	import { afterNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
-	import { Database, Search } from '@lucide/svelte';
+	import { Database, MessageSquareText, Search } from '@lucide/svelte';
 	import {
 		adminNavGroups,
 		getAdminRouteContext,
@@ -22,6 +22,14 @@
 	let mobileNavQuery = $state('');
 
 	const navItems = adminNavGroups.flatMap((group) => group.items);
+	const NOTES_HREF = '/admin/consulting/notes';
+
+	// Unanswered "Talk to DJ" notes, loaded by the admin layout.
+	let newTalkNotes = $derived(data.newTalkNotes ?? 0);
+
+	function navBadge(href: string): number {
+		return href === NOTES_HREF ? newTalkNotes : 0;
+	}
 
 	afterNavigate(() => {
 		if (mobileMenuOpen) getModal('adminNavigation')?.close();
@@ -73,6 +81,16 @@
 				<span>9takes / admin</span>
 				<strong class="current-page">{currentPageLabel}</strong>
 			</div>
+			{#if newTalkNotes > 0}
+				<a
+					href={NOTES_HREF}
+					class="mobile-notes-pill"
+					aria-label={`${newTalkNotes} new ${newTalkNotes === 1 ? 'note' : 'notes'}`}
+				>
+					<MessageSquareText size={15} strokeWidth={1.8} aria-hidden="true" />
+					{newTalkNotes}
+				</a>
+			{/if}
 			<button
 				class="menu-toggle"
 				onclick={toggleMenu}
@@ -102,6 +120,11 @@
 							<Icon size={16} strokeWidth={1.8} aria-hidden="true" />
 						</span>
 						<span class="nav-label">{item.label}</span>
+						{#if navBadge(item.href) > 0}
+							<span class="nav-badge" aria-label={`${navBadge(item.href)} new`}>
+								{navBadge(item.href)}
+							</span>
+						{/if}
 					</a>
 				{/each}
 			</div>
@@ -161,7 +184,12 @@
 										<span class="mobile-nav-icon">
 											<Icon size={18} strokeWidth={1.8} aria-hidden="true" />
 										</span>
-										<span>{item.label}</span>
+										<span class="mobile-nav-label">{item.label}</span>
+										{#if navBadge(item.href) > 0}
+											<span class="nav-badge" aria-label={`${navBadge(item.href)} new`}>
+												{navBadge(item.href)}
+											</span>
+										{/if}
 									</a>
 								{/each}
 							</div>
@@ -371,6 +399,51 @@
 		background: var(--lamp-glow);
 		color: var(--text-on-primary);
 		border-color: var(--lamp-glow);
+	}
+
+	.nav-badge {
+		display: inline-grid;
+		min-width: 20px;
+		height: 20px;
+		flex: 0 0 auto;
+		place-items: center;
+		margin-left: auto;
+		padding: 0 6px;
+		border-radius: 999px;
+		background: var(--lamp-glow);
+		color: var(--text-on-primary);
+		font-family: var(--font-mono);
+		font-size: 0.6875rem;
+		font-weight: 700;
+		line-height: 1;
+		box-sizing: border-box;
+	}
+
+	.nav-link.active .nav-badge {
+		background: var(--night-deep);
+		color: var(--lamp-glow);
+	}
+
+	.mobile-notes-pill {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		height: 44px;
+		flex: 0 0 auto;
+		padding: 0 12px;
+		border-radius: 10px;
+		background: var(--lamp-glow);
+		color: var(--text-on-primary);
+		font-family: var(--font-mono);
+		font-size: 0.8125rem;
+		font-weight: 700;
+		text-decoration: none;
+		box-sizing: border-box;
+	}
+
+	.mobile-notes-pill:focus-visible {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
 	}
 
 	.admin-layout :global(.nav-link:focus-visible) {
@@ -621,7 +694,7 @@
 		color: var(--lamp-glow);
 	}
 
-	.mobile-nav-grid a > span:last-child {
+	.mobile-nav-label {
 		min-width: 0;
 		overflow: hidden;
 		text-overflow: ellipsis;

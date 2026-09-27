@@ -3,6 +3,7 @@ import type { LayoutServerLoad } from './$types';
 import { redirect } from '@sveltejs/kit';
 import { loadRouteDemoTime } from '$lib/server/demoTime';
 import { withOwnedPageShell } from '$lib/layout/pageShell';
+import { countNewTalkNotes } from '$lib/server/talkNotes';
 
 type UserWithAdmin = NonNullable<App.Locals['user']> & { admin?: boolean };
 
@@ -38,10 +39,16 @@ export const load: LayoutServerLoad = async (event) => {
 		};
 	}
 
-	const demo_time = await loadRouteDemoTime(event.locals.supabase);
+	const [demo_time, newTalkNotes] = await Promise.all([
+		loadRouteDemoTime(event.locals.supabase),
+		// Badge for unanswered "Talk to DJ" notes. A failed count hides the badge
+		// rather than breaking every admin page.
+		countNewTalkNotes().catch(() => null)
+	]);
 
 	return withOwnedPageShell({
 		demo_time,
+		newTalkNotes,
 		user: authorizedUser
 	});
 };

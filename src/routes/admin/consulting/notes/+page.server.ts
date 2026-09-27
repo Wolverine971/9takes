@@ -7,10 +7,14 @@ import { fail } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
 import { guardAdminActions, requireAdmin } from '$lib/server/adminAuth';
 import {
+	countTalkPageVisits,
+	getTalkNotesOverview,
 	listTalkNotesForAdmin,
 	replyToTalkNote,
 	setTalkNoteStatus,
-	type TalkNoteFilter
+	talkNoteAlertAddress,
+	type TalkNoteFilter,
+	type TalkNotesOverview
 } from '$lib/server/talkNotes';
 
 const FILTERS: TalkNoteFilter[] = ['open', 'replied', 'archived', 'all'];
@@ -24,13 +28,24 @@ export const load: PageServerLoad = async ({ locals, url, setHeaders }) => {
 	setHeaders({ 'Cache-Control': 'private, no-store' });
 	const filter = readFilter(url.searchParams.get('view'));
 
+	const alertEmail = talkNoteAlertAddress();
+	// Never throws (null on error), so it can run alongside the notes queries.
+	const visits = countTalkPageVisits(7);
+
 	try {
-		const notes = await listTalkNotesForAdmin(filter, url.origin);
-		return { filter, notes, loadError: null as string | null };
+		const [notes, overview, pageVisits7d] = await Promise.all([
+			listTalkNotesForAdmin(filter, url.origin),
+			getTalkNotesOverview(),
+			visits
+		]);
+		return { filter, notes, overview, pageVisits7d, alertEmail, loadError: null as string | null };
 	} catch {
 		return {
 			filter,
 			notes: [],
+			overview: null as TalkNotesOverview | null,
+			pageVisits7d: await visits,
+			alertEmail,
 			loadError: 'Couldn’t load notes. Has the talk_notes migration been applied?'
 		};
 	}

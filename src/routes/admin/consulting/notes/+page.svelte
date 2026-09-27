@@ -12,6 +12,35 @@
 		{ key: 'all', label: 'All' }
 	] as const;
 
+	const tabCounts = $derived<Record<string, number | null>>({
+		open: data.overview?.newCount ?? null,
+		replied: data.overview?.repliedCount ?? null,
+		archived: data.overview?.archivedCount ?? null,
+		all: data.overview?.totalCount ?? null
+	});
+
+	const stats = $derived(
+		data.overview
+			? [
+					{ label: 'New', value: data.overview.newCount, highlight: data.overview.newCount > 0 },
+					{ label: 'Replied', value: data.overview.repliedCount },
+					{ label: 'Total notes', value: data.overview.totalCount },
+					{ label: 'Left an email', value: data.overview.withEmailCount },
+					{ label: 'Want a session', value: data.overview.sessionRequestCount },
+					{ label: 'Page visits (7 days)', value: data.pageVisits7d ?? '–' }
+				]
+			: []
+	);
+
+	function formatWhen(iso: string): string {
+		return new Date(iso).toLocaleString('en-US', {
+			month: 'short',
+			day: 'numeric',
+			hour: 'numeric',
+			minute: '2-digit'
+		});
+	}
+
 	const result = $derived(
 		(form ?? null) as {
 			noteId?: string;
@@ -38,6 +67,31 @@
 		</div>
 	</div>
 
+	{#if stats.length > 0}
+		<dl class="notes-stats">
+			{#each stats as stat (stat.label)}
+				<div class={['notes-stat', stat.highlight && 'notes-stat--highlight']}>
+					<dt>{stat.label}</dt>
+					<dd>{stat.value}</dd>
+				</div>
+			{/each}
+		</dl>
+	{/if}
+
+	<p class="notes-alert-line">
+		{#if data.alertEmail}
+			You get an email at <strong>{data.alertEmail}</strong> for every new note, and another when someone
+			asks for a session.
+		{:else}
+			<strong>New-note emails are off:</strong> PRIVATE_ADMIN_EMAIL isn’t set on this server.
+		{/if}
+		{#if data.overview?.lastNoteAt}
+			Last note: {formatWhen(data.overview.lastNoteAt)}.
+		{:else if data.overview}
+			No notes yet.
+		{/if}
+	</p>
+
 	<nav class="notes-tabs" aria-label="Filter notes">
 		{#each views as view (view.key)}
 			<a
@@ -45,7 +99,7 @@
 				class={['notes-tab', data.filter === view.key && 'notes-tab--active']}
 				aria-current={data.filter === view.key ? 'page' : undefined}
 			>
-				{view.label}
+				{view.label}{#if tabCounts[view.key]}&nbsp;·&nbsp;{tabCounts[view.key]}{/if}
 			</a>
 		{/each}
 	</nav>
@@ -84,6 +138,56 @@
 
 	.notes-header a {
 		color: var(--lamp-light);
+	}
+
+	.notes-stats {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+		gap: 0.6rem;
+		margin: 0;
+	}
+
+	.notes-stat {
+		display: grid;
+		gap: 0.2rem;
+		padding: 0.75rem 0.9rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--night-mid);
+	}
+
+	.notes-stat dt {
+		color: var(--ink-dim);
+		font-size: 0.75rem;
+		font-weight: 600;
+	}
+
+	.notes-stat dd {
+		margin: 0;
+		color: var(--ink-bright);
+		font-size: 1.35rem;
+		font-weight: 700;
+		line-height: 1.1;
+	}
+
+	.notes-stat--highlight {
+		border-color: var(--lamp-glow);
+		background: var(--lamp-soft);
+	}
+
+	.notes-stat--highlight dd {
+		color: var(--lamp-light);
+	}
+
+	.notes-alert-line {
+		margin: 0;
+		color: var(--ink-dim);
+		font-size: 0.8125rem;
+		line-height: 1.5;
+	}
+
+	.notes-alert-line strong {
+		color: var(--ink-mid);
 	}
 
 	.notes-tabs {

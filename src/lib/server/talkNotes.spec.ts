@@ -14,7 +14,9 @@ vi.mock('$lib/email/sender', () => ({ sendEmail: vi.fn() }));
 vi.mock('$lib/utils/logger', () => ({ logger: loggerMocks }));
 
 import {
+	countNewTalkNotes,
 	createTalkNote,
+	getTalkNotesOverview,
 	isTalkToken,
 	loadTalkReply,
 	newTalkToken,
@@ -29,8 +31,8 @@ import {
 type Row = Record<string, any>;
 
 // Minimal in-memory stand-in for the service-role client: enough of the
-// PostgREST builder (insert/select/update/eq/order/limit) and storage API for
-// talkNotes.ts.
+// PostgREST builder (insert/select/update/eq/order/limit, head counts) and
+// storage API for talkNotes.ts.
 function createFakeSupabase(initial: { talk_notes?: Row[]; coaching_waitlist?: Row[] } = {}) {
 	const tables: Record<string, Row[]> = {
 		talk_notes: [...(initial.talk_notes ?? [])],
@@ -44,6 +46,7 @@ function createFakeSupabase(initial: { talk_notes?: Row[]; coaching_waitlist?: R
 		const filters: Array<[string, unknown]> = [];
 		let op: 'select' | 'insert' | 'update' = 'select';
 		let payload: Row | null = null;
+		let headCount = false;
 
 		const run = (mode: 'many' | 'one') => {
 			if (op === 'insert') {
@@ -64,11 +67,15 @@ function createFakeSupabase(initial: { talk_notes?: Row[]; coaching_waitlist?: R
 				matching.forEach((row) => Object.assign(row, payload));
 				return { data: null, error: null };
 			}
+			if (headCount) return { data: null, count: matching.length, error: null };
 			return { data: mode === 'many' ? matching : (matching[0] ?? null), error: null };
 		};
 
 		const api: any = {
-			select: () => api,
+			select: (_columns?: string, options?: { head?: boolean }) => (
+				(headCount = options?.head === true),
+				api
+			),
 			insert: (value: Row) => ((op = 'insert'), (payload = value), api),
 			update: (value: Row) => ((op = 'update'), (payload = value), api),
 			eq: (column: string, value: unknown) => (filters.push([column, value]), api),
@@ -476,5 +483,86 @@ describe('setTalkNoteStatus', () => {
 		const db = createFakeSupabase({ talk_notes: [row] });
 		expect(await setTalkNoteStatus(row.id, 'new', { supabase: db.client })).toBe(true);
 		expect(row.status).toBe('replied');
+	});
+});
+
+describe('new-note alert', () => {
+	it('stamps the alert in Eastern time', async () => {
+		const db = createFakeSupabase();
+		await createTalkNote(
+			{ body: 'Hello', clientAddress: '1.1.1.1', userAgent: UA },
+			{ supabase: db.client, sendEmail, now: () => new Date('2026-09-26T18:05:00Z') }
+		);
+		expect(sendEmail.mock.calls[0][0].htmlContent).toContain('Sep 26, 2026, 2:05 PM ET');
+	});
+
+	it('keeps the note and logs it when the alert email fails', async () => {
+		sendEmail.mockResolvedValueOnce({
+			success: false,
+			error: 'invalid_grant',
+			providerAttempted: true,
+			retrySafe: false
+		});
+		const db = createFakeSupabase();
+		const result = await createTalkNote(
+			{ body: 'Hello', clientAddress: '1.1.1.1', userAgent: UA },
+			{ supabase: db.client, sendEmail }
+		);
+
+		expect(result.ok).toBe(true);
+		expect(db.tables.talk_notes).toHaveLength(1);
+		expect(loggerMocks.warn).toHaveBeenCalledWith('Talk note admin notification failed', {
+			error: 'invalid_grant'
+		});
+	});
+});
+
+describe('admin overview', () => {
+	it('counts unanswered notes for the nav badge', async () => {
+		const db = createFakeSupabase({
+			talk_notes: [
+				noteRow({ id: 'a', status: 'new' }),
+				noteRow({ id: 'b', status: 'replied' }),
+				noteRow({ id: 'c', status: 'new' })
+			]
+		});
+		expect(await countNewTalkNotes({ supabase: db.client })).toBe(2);
+	});
+
+	it('summarizes notes and previews the latest unarchived ones', async () => {
+		const db = createFakeSupabase({
+			talk_notes: [
+				noteRow({
+					id: 'a',
+					created_at: '2026-09-26T12:00:00Z',
+					body: `Line one\n\n${'x'.repeat(200)}`,
+					input_mode: 'voice',
+					email: 'sam@example.com',
+					wants_session: true
+				}),
+				noteRow({ id: 'b', created_at: '2026-09-25T12:00:00Z', status: 'archived' }),
+				noteRow({ id: 'c', created_at: '2026-09-24T12:00:00Z', status: 'replied' })
+			]
+		});
+
+		const overview = await getTalkNotesOverview({ supabase: db.client });
+		expect(overview).toMatchObject({
+			newCount: 1,
+			repliedCount: 1,
+			archivedCount: 1,
+			totalCount: 3,
+			withEmailCount: 1,
+			sessionRequestCount: 1,
+			lastNoteAt: '2026-09-26T12:00:00Z'
+		});
+		expect(overview.latest.map((note) => note.id)).toEqual(['a', 'c']);
+		expect(overview.latest[0]).toMatchObject({
+			inputMode: 'voice',
+			hasEmail: true,
+			wantsSession: true
+		});
+		expect(overview.latest[0].preview.startsWith('Line one x')).toBe(true);
+		expect(overview.latest[0].preview).toHaveLength(140);
+		expect(overview.latest[0].preview.endsWith('…')).toBe(true);
 	});
 });
