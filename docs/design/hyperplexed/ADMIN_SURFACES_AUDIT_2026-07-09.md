@@ -407,3 +407,17 @@ seven-day bar summary.
 - Svelte autofixer, `pnpm check`, targeted ESLint, Prettier, and `git diff --check` pass. The repository
   radius ratchet remains blocked only by the unrelated existing
   `src/routes/account/+page.svelte:1243` declaration.
+
+### 2026-09-27 — Dashboard inbound queues
+
+- Applied P1+P4 to the five `/admin` queue cards: three columns on wide screens, two at laptop
+  widths, and one at narrow desktop widths. Dates, subscription states, and type badges now sit
+  below the primary text, while long email addresses, source paths, and reasons wrap inside cards.
+- Unknown Enneagram values now use the pending `?` badge instead of overflowing a one-digit badge.
+- Verified against the authenticated local dashboard in dark mode: all five cards fit at the default
+  1890px viewport; two-column and single-column breakpoints resolve at 1375px and 1000px; the
+  separate 390px mobile dashboard has no horizontal page overflow. Light-mode verification remains
+  owed.
+- Targeted Prettier, ESLint, and radius lint pass. `pnpm check` still reports four unrelated script
+  errors in `scripts/lib/linkOnlyChange.js` and `scripts/personBlogParser.js`. The Svelte autofixer
+  package was unavailable in the local install.

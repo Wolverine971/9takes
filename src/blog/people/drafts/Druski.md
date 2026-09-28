@@ -94,8 +94,6 @@ citations:
     https://www.complex.com/pop-culture/a/tracewilliamcowen/druski-revives-proud-american-character
   - >-
     https://www.dexerto.com/twitch/child-actors-mom-accuses-druski-of-mentally-assaulting-her-son-on-kai-cenat-stream-2993679/
-  - >-
-    https://www.yahoo.com/entertainment/celebrity/articles/former-nfl-star-t-j-215624581.html
   - 'https://www.foxla.com/news/druski-obj-diddy-lawsuit'
   - >-
     https://storage.courtlistener.com/recap/gov.uscourts.cand.437874/gov.uscourts.cand.437874.54.0_1.pdf
@@ -194,6 +192,10 @@ In a Diary of a CEO episode released on September 24, 2026, host Steven Bartlett
 
 "It was almost like a competition in my head that nobody knew about, but it was in me," he said. Being named the funniest "made me feel successful. It felt like I won the Mark Twain Award of the school." He had described the same contest to GQ six years earlier: "Some kids would be like, yo I wanna be best dressed or I wanna be the best athlete. I used to literally say in my mind in elementary school, 'I wanna be the funniest this year, I wanna be the funniest kid in the class.'"
 
+<div class="iframe-container">
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/UhzI1fg8rCA?start=1805&amp;end=1865" title="Druski on The Diary of a CEO: the private 'who's the funniest' contest (30:05)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 That boy, Drew Desbordes, grew up to be Druski, the sketch comedian who plays the boss of a fake label called Coulda Been Records. By 2025 he was paying for his shows through his own company, 4Lifers Entertainment; in 2026 he hosted the BET Awards and made [TIME's TIME100 Creators list](https://time.com/collection/time100-creators/2026/drew-desbordes/). The public version looks like a man who doesn't care what anyone thinks: a whiteface NASCAR fan, a parody widely read as Erika Kirk, a post asking "AM I CANCELLED?" That surface is why the obvious Enneagram read is Type 8. The kid running a private poll points somewhere else. He cared about the verdict, and he wanted to win it.
 
 ## What is Druski's personality type?
@@ -218,7 +220,7 @@ The house had a second rule. He would come home with a B, and his mother would s
 
 He has since forgiven his father "in my head and also to him face to face," and calls their relationship "Very, very good." Even the forgiveness is framed as forward motion: "I cannot look for more success and look for the light at the end of the tunnel without forgiving any and everything in my past."
 
-None of this settles his type, and this page doesn't claim the house made him a Three. A child who tries to comfort a sibling after a beating could become a Two, a Six or a Nine. He says it taught him to "read a room and sense any type of danger," which sounds as much like a Six's vigilance as anything. The Three reading takes something narrower from his childhood: a boy asking classmates to rank him, in a home where "you could have done better" was the standing answer.
+None of this settles his type, and this page doesn't claim the house made him a Three. A child who tries to comfort a sibling after a beating could become a Two, a Six or a Nine. He says it taught him to "read a room and sense any type of danger," which sounds as much like a Six's vigilance as anything. Bartlett saw it live: after some 700 interviews, he said, Druski was one of the first guests to stop mid-answer and say, "You look like you had something to say there, Steve." The Three reading takes something narrower from his childhood: a boy asking classmates to rank him, in a home where "you could have done better" was the standing answer.
 
 ## The semester he disappeared
 
@@ -239,6 +241,10 @@ He made his mother a promise that he now calls "a little far." He would be a fam
 Over roughly the next year back in Atlanta, he says, he worked restaurant jobs and then fell into a "scamming circle" doing "quick, easy scams with banks or doing card scams," while only flirting with comedy. "I never was a bad guy," he said, but "the karma of this stuff was weighing on me." Complex had reported in 2021 that he did unspecified "illegal things" for money. The turn came when he and a friend were robbed at gunpoint in "a bad scamming situation gone left." "That was the last moment I said, okay, if I'm going to do anything, I'm going to become a comedian or die trying."
 
 At 23 he wrote his goals on a sheet of paper, because his mother always said, "You can't do anything without writing things down." The first line: "No plan B, your plan A will work." When Bartlett asked whether hosting a tour, hosting an awards show and starring in a major movie were on the list, he said yes to all three. Filming sketches around his mother's house, he gave her follower counts. Had he made any money? "No but I have people watching."
+
+<div class="iframe-container">
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/UhzI1fg8rCA?start=2510&amp;end=2681" title="Druski on The Diary of a CEO: the robbery and the goals list (41:50)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 None of this separates the types on its own: an Eight could aim a vow at doubters, the list items were Bartlett's prompts, and follower counts are every creator's first metric. The telling part is the stake he volunteered: whether he would see himself as a failure.
 
@@ -284,9 +290,7 @@ His apologies follow a loose pattern. In 2022 he took down "That Friend that tri
 
 In November 2024, during a Thanksgiving bit on <a href="/personality-analysis/kai-cenat">Kai Cenat</a>'s Mafiathon 2 livestream, a boy playing Pugsley, described on the stream as nine, cried after Druski repeatedly called him "fat." Minutes later, on the same stream, Druski apologized: "I got a couple drinks... but that ain't no excuse bro," and "I really do apologize." The boy's mother [called the apology insincere](https://www.dexerto.com/twitch/child-actors-mom-accuses-druski-of-mentally-assaulting-her-son-on-kai-cenat-stream-2993679/) on TikTok. Atlanta Black Star reported that her videos also used racial slurs about him. No later statement from Druski to her had surfaced as of September 2026.
 
-In late August 2026, former NFL safety T.J. Ward called CTE, the subject of a new Druski sketch, "a life-taking disease" ([Us Weekly](https://www.yahoo.com/entertainment/celebrity/articles/former-nfl-star-t-j-215624581.html)). No reply from Druski had been reported by September 24.
-
-Set those beside what he told Bartlett: "you can never show me something that I've done that was like, oh, that's punching down." The stream is the obvious counterexample. One reading of the pattern: he repairs when the hurt lands inside his own room or audience, and stays quiet toward critics outside it. The crying kid, viewers who said a sketch triggered them, and Jaxon Smith-Njigba, whose name he mangled at the February 2026 NFL Honors (he reached out, and "I didn't get no response back," he told CBS), got repairs. Cruz, the TikTok mother and a retired safety got silence. The rule is fitted after the fact, and the silences have plainer explanations: slurs, legal exposure, brand caution. An Eight would more likely have taken on Cruz. He hasn't.
+Set those beside what he told Bartlett: "you can never show me something that I've done that was like, oh, that's punching down." The stream is the obvious counterexample. One reading of the pattern: he repairs when the hurt lands inside his own room or audience, and stays quiet toward critics outside it. The crying kid, viewers who said a sketch triggered them, and Jaxon Smith-Njigba, whose name he mangled at the February 2026 NFL Honors (he reached out, and "I didn't get no response back," he told CBS), got repairs. Cruz and the TikTok mother got silence. The rule is fitted after the fact, and the silences have plainer explanations: slurs, legal exposure, brand caution. An Eight would more likely have taken on Cruz. He hasn't.
 
 When the charge was a matter of fact, he fought. After a March 2025 amended complaint added him to Ashley Parham's sexual assault lawsuit against Sean "Diddy" Combs, he called the allegation "[a fabricated lie](https://www.foxla.com/news/druski-obj-diddy-lawsuit)" within days. In August 2025, Judge Rita F. Lin denied his motion for sanctions but wrote that the allegations against him "[almost certainly lack a factual basis](https://storage.courtlistener.com/recap/gov.uscourts.cand.437874/gov.uscourts.cand.437874.54.0_1.pdf)," citing phone and bank records that placed him in Georgia. In December 2025 the case was dismissed without prejudice for failure to prosecute, not decided on the merits. He called it "this frivolous lawsuit." The sanctions motion was a real counterpunch, the clearest exception to his quiet, but anyone would fight a sexual-assault accusation that records contradict.
 
@@ -306,6 +310,8 @@ The biggest gap is still the whiteface. Playing white characters is an old, well
 
 The self-roast is another gap. "Part of his comedy is he points out his flaws," his friend Jack Harlow said in [their 2021 Complex cover story](https://stories.complex.com/jack-harlow-druski-interview-2021-cover-story/10/). "He makes himself look stupid." When his car was repossessed, he filmed it: "I actually made that like a content piece." That is not what image management usually looks like. Maybe laughing at himself first keeps him in control of the verdict, but that is a guess; it may be the openness Harlow sees.
 
+So is the way he talks about his father's house. "How could I be broken if I feel like I've already gone to my furthest extent?" he asked Bartlett. That is a survivor's armor, and it sounds more like an Eight than a Three.
+
 The reading also leaves out the scamming period, when a shortcut beat the good-guy image he defends now, though he describes that year with regret.
 
 The Seven reading keeps some ground, too. "People ask me all these deep questions," he told Bartlett, in the same answer about brand safety. "I'm like, yo, I don't look at anything like that." Much of his image management also has a plain professional explanation: he sells to brands. The Three reading is the best fit for what he says he wants. It is not a full account of the man.
@@ -315,6 +321,10 @@ The Seven reading keeps some ground, too. "People ask me all these deep question
 On June 28, 2026, he hosted the BET Awards, then the youngest host in the show's history, checking off a goal from the list he wrote at 23. That night he also debuted "JOE," a [parody](https://consequence.net/2026/06/druski-joe-jackson-michael-biopic-parody-sketch/) built around the Michael Jackson biopic, playing Joe Jackson in heavy makeup.
 
 On Diary of a CEO, Bartlett played him the moment when Joe threatens to take off his belt: "Fix your face, Michael, before I fix it for you." "Yeah, that was some aspects of Joe Jackson that my dad had," Druski said. "Some personality." Then: "It wasn't hard to rip that belt off, man. I've seen it before."
+
+<div class="iframe-container">
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/UhzI1fg8rCA?start=6347&amp;end=6402" title="Druski on The Diary of a CEO: the Joe Jackson sketch and 'I've seen it before' (1:45:47)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 The boy who tried to cheer his brother up after the beatings now plays the man holding the belt, as a bit.
 

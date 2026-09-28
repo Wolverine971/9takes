@@ -396,6 +396,8 @@
 		const source = signup.first_acquisition_source || 'unknown';
 		return signup.first_landing_path ? `${source} | ${signup.first_landing_path}` : source;
 	};
+	const isKnownEnneagram = (value: unknown): value is string =>
+		typeof value === 'string' && /^[1-9]$/.test(value);
 </script>
 
 <div class="mobile-command-shell">
@@ -747,10 +749,15 @@
 										unsubscribedAt={signup.unsubscribed_at}
 										reason={signup.unsubscribe_reason}
 									/>
-									{#if signup.enneagram}
-										<span class="type-badge type-{signup.enneagram}">{signup.enneagram}</span>
+									{#if isKnownEnneagram(signup.enneagram)}
+										<span
+											class="type-badge type-{signup.enneagram}"
+											title={`Enneagram type ${signup.enneagram}`}
+										>
+											{signup.enneagram}
+										</span>
 									{:else}
-										<span class="type-badge pending">?</span>
+										<span class="type-badge pending" title="Enneagram type unknown">?</span>
 									{/if}
 								</div>
 							</li>
@@ -1204,8 +1211,9 @@
 
 	.queue-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		grid-template-columns: repeat(3, minmax(0, 1fr));
 		gap: 20px;
+		align-items: start;
 	}
 
 	.trending-grid {
@@ -1348,6 +1356,7 @@
 		flex-direction: column;
 		align-items: flex-end;
 		gap: 8px;
+		flex-shrink: 0;
 	}
 
 	.card-title {
@@ -1389,6 +1398,12 @@
 		border-top: 1px solid var(--stone-warm);
 	}
 
+	.detail-item {
+		display: grid;
+		grid-template-columns: minmax(0, 1fr);
+		gap: 8px;
+	}
+
 	.detail-item:first-child,
 	.question-item:first-child {
 		border-top: none;
@@ -1412,16 +1427,16 @@
 
 	.detail-side {
 		display: flex;
-		flex-direction: column;
-		align-items: flex-end;
+		flex-wrap: wrap;
+		align-items: center;
 		gap: 8px;
-		flex-shrink: 0;
 	}
 
 	.detail-link,
 	.detail-text {
 		font-size: 0.94rem;
 		line-height: 1.35;
+		overflow-wrap: anywhere;
 	}
 
 	.detail-text {
@@ -1434,6 +1449,7 @@
 		font-size: 0.82rem;
 		line-height: 1.5;
 		color: var(--ink-mid);
+		overflow-wrap: anywhere;
 	}
 
 	.detail-date,
@@ -1447,6 +1463,7 @@
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
+		flex-shrink: 0;
 		width: 28px;
 		height: 28px;
 		border-radius: 0.625rem;
@@ -1617,11 +1634,22 @@
 		justify-content: flex-end;
 	}
 
+	@media (max-width: 1600px) {
+		.queue-grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
+
 	@media (max-width: 1200px) {
-		.queue-grid,
 		.insights-grid,
 		.trending-grid {
 			grid-template-columns: 1fr;
+		}
+	}
+
+	@media (max-width: 1050px) {
+		.queue-grid {
+			grid-template-columns: minmax(0, 1fr);
 		}
 	}
 

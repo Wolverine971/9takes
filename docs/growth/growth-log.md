@@ -8,6 +8,84 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-09-28
+
+**Weekly growth audit: contributions went 9 -> 0, the first empty week since July. The one repeat contributor in the log came back, reloaded their own unanswered question nine times, lost their session, never got a reset email, and has not been seen since 09-22. The four takes owed a reply last week are still unanswered after 8 days. The host desk has been dead 16 days, mail has been off 26 days, and the new homepage is live but still sends nobody to a gate.**
+
+- Area: Give-first activation / host-reply loop / account recovery / email lifecycle / homepage / coaching
+- Status: audit complete, live prod DB via `scripts/db-query.sh` (Supabase MCP down). Complete cohort week = **2026-09-21..09-27 UTC**. Exclusions and definitions are the same as 09-21, and the 09-14 row reproduces exactly. New column: engaged new = new fingerprints with any visit engaged >=30s.
+
+| Cohort week | New visitors (search) | Engaged new |       Returning active | Signups | Profiles | Takes (replies) | Gate fps -> contrib |  Contributors -> returned >24h in 7d | Waitlist | Welcome/confirm sent / failed |
+| ----------- | --------------------: | ----------: | ---------------------: | ------: | -------: | --------------: | ------------------: | -----------------------------------: | -------: | ----------------------------: |
+| 2026-09-21  |       4,391 (**651**) |         459 | **67 / 4,458 = 1.50%** |       1 |    **0** |       **0 (0)** |    **30 -> 0 = 0%** |                      none to measure |        0 |                     0 / **1** |
+| 2026-09-14  |           4,598 (602) |         468 |     56 / 4,654 = 1.20% |       1 |        1 |           9 (0) |     18 -> 6 = 33.3% | **6 -> 0 (matured)**, 1 visit-return |        0 |                         0 / 2 |
+
+- Direction changes:
+  - **More wall hits, fewer humans, zero takes.**
+    - Gate fps rose 18 -> 30: question pages 11 -> 21, blog embeds 8 -> 9, and `/` at 0 for a third week.
+    - Only **1 of 30** gate fps had a question-page visit engaged >=30s (6 of 17 the week before), and 17 of 30 have no client visit row at all.
+    - Question-detail fps rose 31 -> 45, but engaged >=30s fell 6 -> 2, and direct question visits averaged 7.6s (12.8s the week before).
+    - The growth is 0 ms nav sweeps (`/login > /register > /forgotPassword > /book-session > /how-to-guides ...`). The same sweeps took `/register` from 3 to 9 fps with 0 profiles. Inferred: crawlers. `gate_shown` fires in the server load, so any crawler that renders a question page counts as a wall hit, and human gate exposure probably _fell_.
+    - The audience itself held (engaged new 468 -> 459); fewer of them reached a question. This ends 10 straight weeks with at least one contribution (the last empty week was 07-06).
+  - **The only retained contributor churned in plain view.**
+    - Fingerprint `c4e88b00` (profile 07-16; takes 746-748 and question q570 posted 09-20) came back 13 separate times on 09-21/22. They loaded q570 **nine times** on 09-21 (11:50-19:49 UTC), then browsed `/questions` on 09-22.
+    - q570 still holds only their own take, and 746/747/748 still have 0 replies. Last seen **09-22 19:41**.
+    - At 00:50 on 09-21 the trail goes `/account` x3 (signed in) -> `/login` (signed out) -> `/register` -> `/forgotPassword` x2, and they never signed in again. `auth.users.recovery_sent_at` is NULL, so no reset email went out. The cause is unverified: no submit, the reCAPTCHA check at `src/routes/forgotPassword/+page.server.ts:81-95`, or a rate limit.
+    - This is the empty-room failure and the no-host failure hitting the same person. The 09-14 cohort matured at 6 -> 0 on comments, so the matured total is now **0 / 34 across eight cohorts**.
+  - **Host desk: dead for 16 days, and the promise is still showing.**
+    - Last `host_reply_drafts` row was 09-12 13:00 and the last digest went out 09-13. `src/routes/api/cron/host-digest/+server.ts` still has no `maxDuration` and hasn't been touched since 09-07.
+    - The 09-23 question-page rewrite (`998533779`) shipped `ReplyOptInTray` ("Want a note if someone replies?"), limited "You'll hear back" to viewers who can be reached (`src/routes/questions/[slug]/+page.svelte:386-393`), and parallelized the load.
+    - The tray got 0 exposures because there were 0 contributions, and the reply engine behind it is still off. The 2 lifetime opt-ins still sit at `notification_count=0`.
+  - **Mail: off for 26 days, and a third real person lost.** Signup 209 came from Bing, read `/enneagram-corner/enneagram-compatibility-matrix` for 101s, and signed up 96s after landing. Its confirmation failed on `EMAIL_FOOTER_ADDRESS` at 09-24 18:06 and the person never returned. Welcome enrollments are unchanged (4 errored, 1 stalled). Three real people have been lost to this since 09-14: signup 208, the 09-19 registrant, and signup 209.
+  - **Homepage V2 Tier 1+2 is live; a gate on `/` is not.**
+    - `01ab4e7ef` (09-26) is in production: "Answer before you see anyone" appears in the live HTML, and only that commit contains it.
+    - `/` still renders the practice-only version (`src/routes/+page.svelte` passes no `live`). The live-take post exists only at `/design-preview/homepage-live-take`, and its submit is simulated (`src/lib/components/marketing/HomeLandingV2.svelte:162`, "Nothing is saved").
+    - For the week: 164 home-entry sessions (131 the week before), 45 multi-page (38), and `/` engaged >=30s flat at 8. Six reached a question detail (2 the week before), but at least 2 of those were 0 ms sweeps.
+    - In the first 33h after the deploy there were 20 sessions and none engaged >=30s. That is too early to read. Homepage step events go to PostHog (`src/lib/analytics/marketingEvents.ts:108`), which was not queried.
+  - **Coaching: the Talk page has no traffic to convert.** `/book-session` was rebuilt as "Talk to DJ" on 09-23. Since then: 5 fps, 1 engaged >=10s, and **0 `talk_notes` ever**. The waitlist got 0 adds for the 23rd week; the last unflagged row is from 04-06.
+  - **Acquisition:** new visitors fell 4.5%. Search-sourced new visitors rose 8% (602 -> 651, the most since 08-03). Returning active rose 56 -> 67 (1.50%, the high for this window), but its crawler share hasn't been checked.
+
+- **Biggest leak this week: a contributor came back and found nothing, so they left.** The one user the loop ever retained returned 13 times in 2 days. Nine of those loads were their own question, which nobody had answered. Their three takes had no replies, and they had no way back into their account. Every other leak (dead desk, dead mail, no gate on `/`) sits upstream of this outcome. Anti-pattern: a gate that asks for disclosure and leaves an empty room behind it.
+
+- Recommended bets (ranked):
+  1. **Reply today, because email is now the only channel to this person.**
+     - Hypothesis: we believe DJ posting real replies to 746, 747, 748 and 743 within 24h, and answering q570 as host, will fire the first-ever `reply_to_take` email (to the signed-out repeat contributor) and the first anonymous opt-in reply email (743, `comment_reply_subscriptions.id=2`), and bring at least one of them back. The reason: the log's only return followed a DJ reply, and this user showed intent with nine reloads of q570. Both emails are transactional per the 09-14/09-21 reads, so the footer guard does not block them.
+     - **Success over 7d = >=1 `reply_to_take` notification with `email_status='sent'`, >=1 opt-in with `notification_count > 0`, and `c4e88b00` or `14844525` seen again.**
+     - Next, ship the host-desk fix, now bet #1 for the third week running: `maxDuration: 300`, one run row per digest that alarms when takes > 0 and drafts = 0, and a lookback that starts from the last successful run. Also walk `/forgotPassword` once on a phone.
+     - Guardrail: no reply uses the `hostDigest.ts:27` fallback text.
+  2. **Turn mail on (fifth ask).**
+     - Hypothesis: we believe setting `EMAIL_FOOTER_ADDRESS` in Vercel production, re-arming the 5 welcome enrollments, and resending the 208 and 209 confirmations will restore lifecycle mail. Every failure since 09-02 has this one error, and the `process-sequences` pre-check blocks all retries until the address is set.
+     - **Success = both confirmations and the 09-19 registrant's step 1 sent within 24h, and 0 footer errors over 7d.**
+     - Guardrail: no duplicate step sends (`idempotency_key`).
+  3. **Make the wall count humans before reading 0%.**
+     - Hypothesis: we believe logging `gate_shown` only once the gate renders in a browser (or requiring a matching client visit), and passing `path` on `contribution` (still missing at `src/routes/questions/[slug]/+page.server.ts:348-354`), will cut weekly gate fps by >=40% without dropping any real contributor. The reason: 17 of 30 gate fps had no client visit and only 1 of 30 engaged >=30s.
+     - **Success over 2 weeks = >=90% of gate fps have a client visit row, 100% of contributors have a matching gate event, and `contribution.path` is non-null on 100%.**
+     - The homepage live-take (a real q203 post with `path='/'`) queues behind this. Hold Reddit, the founding circle and the type prompt.
+
+- Running experiment status:
+  - Welcome sequence: **blocked** for 26 days; 3 real people lost.
+  - Delivery-health alarm: shipped 09-09, still unseen.
+  - Logged-in reply email: **running, 0 sent**; its first eligible user has now churned unanswered.
+  - Host digest: **dead** for 16 days.
+  - `ReplyOptInTray`: **shipped 09-23**, 0 exposures.
+  - Anonymous reply opt-in: 2 lifetime, both unserved.
+  - Starters + pins: **running**, 0 contributions (gate fps: q118 8, q137 5, q203 5, q119 2; q567 embeds 9).
+  - Homepage V2 practice: **shipped 09-26, live**, 0 gate hits from `/`.
+  - Homepage live-take: **preview only**.
+  - Talk to DJ: **shipped 09-23**, 5 fps, 0 notes.
+  - Contribution-path repair: **unshipped**.
+  - Reddit alpha: **closed**.
+  - Founding circle: **planned**, 0 invites.
+  - Type prompt: **draft**.
+  - Last week's bets 1-3: **none shipped**. No commits since 09-14 touch `src/routes/api/cron`, `hostDigest.ts`, `src/lib/email` or `giveFirstFunnel.ts`.
+- Repro (new this week; everything else as 09-21):
+  - Gate quality: `gate_shown` fingerprints joined to `page_analytics_visits` on `fingerprint`, `path LIKE '/questions/%'`, `started_at` within [-2 min, +2 h] of the event, counting `max(engaged_ms) >= 30000`.
+  - Engaged new: `min(started_at)` and `max(engaged_ms)` per fingerprint, grouped by first-touch week.
+  - Contributor trail: `SELECT started_at, path, engaged_ms, user_id IS NOT NULL FROM page_analytics_visits WHERE fingerprint LIKE 'c4e88b00%' AND started_at >= '2026-09-20 18:00' ORDER BY 1`.
+  - Reset email: `SELECT recovery_sent_at FROM auth.users WHERE id = (SELECT author_id FROM comments WHERE id = 746)`.
+  - Homepage deploy: grep of the production HTML for a string that only `01ab4e7ef` adds.
+  - Everything is observed unless marked inferred or framed as a hypothesis.
+
 ### 2026-09-21
 
 **Weekly growth audit: the best takes on record (median 367 chars, gate 33%) landed in front of a host desk that has been silent for 8 days. The week produced four reachable contributors, two anonymous reply opt-ins, a repeat contributor who posted 3 takes and asked a question, and a search visitor who answered and then registered 7 minutes later, and every one of them got nothing. None of last week's three bets shipped.**

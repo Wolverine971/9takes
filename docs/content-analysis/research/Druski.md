@@ -341,3 +341,14 @@ surface the live 9takes page itself. It is never evidence.
 Baseline and prediction are copied into the draft's second REFRESH LEDGER. Canonical 28d
 2026-08-25 → 09-21: 4 clicks / 300 impr / 1.33% / pos 8.3. Predicted: 200–450 impr, 3–12 clicks,
 pos 7.5–9.0. Parent-name impressions are expected flat to down, and that is accepted.
+
+## Diary of a CEO (added 2026-09-28)
+
+- Episode: "Druski: They're Lying To You About Overnight Success!", The Diary Of A CEO, host Steven Bartlett. Uploaded 2026-09-24, runtime 1:48:42. https://www.youtube.com/watch?v=UhzI1fg8rCA
+- Local transcript (open this instead of YouTube): `youtube-transcripts-people/druski-diary-of-a-ceo.md`. It has timestamped 30-second blocks plus a "Key moments (9takes)" index with exact segment times. The untimed copy DJ downloaded is `youtube-transcripts-people/_raw/druski-diary-of-a-ceo.raw.md`.
+- Tier: primary self-report (auto-captions). Verify load-bearing wording against the audio.
+- The v3 run of 2026-09-24 left S-DOAC as `unverified_source`. The local transcript should close that.
+- Embedded as clips on the draft (YouTube start/end): 30:05-31:05 (the private "who's the funniest" contest); 41:50-44:41 (the scamming circle, robbery at gunpoint, goals list); 1:45:47-1:46:42 (the Joe Jackson sketch, "I've seen it before").
+- Added 2026-09-28: Bartlett's on-camera observation at 12:17 that Druski was one of the first of ~700 guests to stop mid-answer and ask whether Bartlett had something to say (observed room-reading, not only self-report); and 15:07, "how could I be broken if I feel like I've already gone to my furthest extent?" (an Eight-leaning resilience line).
+- Deliberately excluded: the brother's psychiatric diagnosis (9:51; private third party); the Dunkin'/Jim Carrey fee figure (1:21:06; gossip, and Druski says the brand was upset he shared it).
+- Unused but available: the Meek Mill clip ("I lied about that," 50:39); college peers' "you ain't that funny" (1:28:00); the Steve Harvey video message (37:13); Collect and Praise with Mike Epps (1:46:45; November, Netflix and YouTube); an unnamed movie picked up by Netflix (1:47:32).
