@@ -150,8 +150,7 @@ export const load: PageServerLoad = async (event) => {
 	};
 
 	const [
-		dailyVisitorsResult,
-		dailyCommentsResult,
+		dailyEngagementResult,
 		dailyQuestionsResult,
 		totalUsersResult,
 		newUsersMonthResult,
@@ -174,8 +173,7 @@ export const load: PageServerLoad = async (event) => {
 		recentUnsubscribesResult,
 		talkNotes
 	] = await Promise.all([
-		supabase.rpc('visitors_last_30_days'),
-		supabase.rpc('comments_last_30_days'),
+		getSupabaseAdminClient().rpc('admin_engagement_trends_30_days', { p_demo_time: demoTime }),
 		supabase.rpc('daily_questions_stats'),
 		// All-time totals can be estimated; exact filtered counts are kept for recent activity.
 		supabase.from(profilesTable).select('id', { count: 'estimated', head: true }),
@@ -260,11 +258,21 @@ export const load: PageServerLoad = async (event) => {
 		})
 	]);
 
-	if (dailyVisitorsResult.error) {
-		console.error('Failed to load admin daily visitors', dailyVisitorsResult.error);
+	if (dailyEngagementResult.error) {
+		console.error('Failed to load admin engagement trends', dailyEngagementResult.error);
 	}
-	if (dailyCommentsResult.error) {
-		console.error('Failed to load admin daily comments', dailyCommentsResult.error);
+	const [visitorFallback, commentFallback] = dailyEngagementResult.error
+		? await Promise.all([
+				// Preserve the overview metrics until the new RPC is deployed.
+				supabase.rpc('visitors_last_30_days'),
+				supabase.rpc('comments_last_30_days')
+			])
+		: [null, null];
+	if (visitorFallback?.error) {
+		console.error('Failed to load fallback daily visitors', visitorFallback.error);
+	}
+	if (commentFallback?.error) {
+		console.error('Failed to load fallback daily comments', commentFallback.error);
 	}
 	if (dailyQuestionsResult.error) {
 		console.error('Failed to load admin daily question stats', dailyQuestionsResult.error);
@@ -328,9 +336,24 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	const trending = trendingPagesResult ?? emptyTrendingAnalyticsPayload(trendingOptions, false);
+	const dailyEngagement = (dailyEngagementResult.data ?? []).map((day) => ({
+		days: day.days,
+		visitors: toNumber(day.visitors),
+		visitorsWithComments: toNumber(day.visitors_with_comments),
+		coaching: toNumber(day.coaching),
+		signups: toNumber(day.signups),
+		userSignups: toNumber(day.user_signups),
+		questionsAsked: toNumber(day.questions_asked),
+		commentsCreated: toNumber(day.comments_created)
+	}));
 	const dataStatus = buildAdminDataStatus([
-		{ key: 'visitor-history', label: 'Visitor history', error: dailyVisitorsResult.error },
-		{ key: 'comment-history', label: 'Comment history', error: dailyCommentsResult.error },
+		{
+			key: 'engagement-history',
+			label: 'Traffic and participation',
+			error: dailyEngagementResult.error
+		},
+		{ key: 'visitor-history', label: 'Visitor history', error: visitorFallback?.error },
+		{ key: 'comment-history', label: 'Comment history', error: commentFallback?.error },
 		{ key: 'question-activity', label: 'Question activity', error: dailyQuestionsResult.error },
 		{ key: 'user-total', label: 'User total', error: totalUsersResult.error },
 		{ key: 'new-users-month', label: '30-day user growth', error: newUsersMonthResult.error },
@@ -394,8 +417,19 @@ export const load: PageServerLoad = async (event) => {
 	return {
 		demoTime: demo_time,
 		dataStatus,
-		dailyVisitors: dailyVisitorsResult.error ? [] : dailyVisitorsResult.data,
-		dailyComments: dailyCommentsResult.error ? [] : dailyCommentsResult.data,
+		dailyEngagement,
+		dailyVisitors: dailyEngagementResult.error
+			? (visitorFallback?.data ?? [])
+			: dailyEngagement.map((day) => ({
+					days: day.days,
+					number_of_visitors: day.visitors
+				})),
+		dailyComments: dailyEngagementResult.error
+			? (commentFallback?.data ?? [])
+			: dailyEngagement.map((day) => ({
+					days: day.days,
+					number_of_comments: day.commentsCreated
+				})),
 		dailyQuestions: dailyQuestionsResult.error ? [] : dailyQuestionsResult.data,
 		totalUsers: totalUsersResult.count || 0,
 		newUsersMonth: newUsersMonthResult.count || 0,

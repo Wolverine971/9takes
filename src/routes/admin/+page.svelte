@@ -3,7 +3,7 @@
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { Button } from '$lib/components/atoms';
 	import { notifications } from '$lib/components/molecules/notifications';
-	import LineChart from '$lib/components/charts/LineChart.svelte';
+	import EngagementTrends from '$lib/components/charts/EngagementTrends.svelte';
 	import EnneagramBarChart from '$lib/components/charts/EnneagramBarChart.svelte';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 	import { convertDateToReadable } from '../../utils/conversions';
@@ -583,36 +583,14 @@
 				<span class="eyebrow">Trends</span>
 				<h2 class="section-title">Traffic and participation</h2>
 				<p class="section-description">
-					Thirty-day patterns for visitors, comments, and user types.
+					Thirty-day patterns for traffic, signups, questions, comments, and coaching.
 				</p>
 			</div>
 		</div>
 
 		<div class="insights-grid">
-			<div class="panel chart-panel">
-				<LineChart
-					data={visitorChartData}
-					title="Visitors"
-					height={380}
-					color="var(--data-teal)"
-					showPoints={true}
-					showGrid={true}
-					showSummary={true}
-					showTrend={true}
-				/>
-			</div>
-
-			<div class="panel chart-panel">
-				<LineChart
-					data={commentChartData}
-					title="Comments"
-					height={380}
-					color="var(--success)"
-					showPoints={true}
-					showGrid={true}
-					showSummary={true}
-					showTrend={true}
-				/>
+			<div class="panel chart-panel engagement-panel">
+				<EngagementTrends data={data.dailyEngagement} />
 			</div>
 
 			<div class="panel distribution-panel">
@@ -1202,6 +1180,10 @@
 
 	.chart-panel {
 		padding: 12px;
+	}
+
+	.engagement-panel {
+		padding: 0;
 	}
 
 	.distribution-panel :global(.enneagram-chart) {

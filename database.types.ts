@@ -4413,6 +4413,19 @@ export type Database = {
           number_of_comments: number
         }[]
       }
+      admin_engagement_trends_30_days: {
+        Args: { p_demo_time?: boolean }
+        Returns: {
+          days: string
+          visitors: number
+          visitors_with_comments: number
+          coaching: number
+          signups: number
+          user_signups: number
+          questions_asked: number
+          comments_created: number
+        }[]
+      }
       complete_sequence_send: {
         Args: { p_email_send_id?: string; p_enrollment_id: string }
         Returns: undefined
