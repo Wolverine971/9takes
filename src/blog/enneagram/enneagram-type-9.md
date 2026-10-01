@@ -253,7 +253,7 @@ That knot in your stomach during a conversation? Let it prompt a question: "What
 
 Relationships matter deeply to you. Your flexibility makes you easy to be with. Your acceptance helps partners feel safe. The challenge: keeping yourself in the picture.
 
-In new relationships, it's natural to focus on the other person. Adapting to their rhythms. Enjoying their interests. But over time, you might notice you've adopted all their hobbies and forgotten your own. You're always accommodating their schedule. There's a growing resentment you can't quite name.
+In [new relationships](/enneagram-corner/how-to-navigate-early-relationship-stages), it's natural to focus on the other person. Adapting to their rhythms. Enjoying their interests. But over time, you might notice you've adopted all their hobbies and forgotten your own. You're always accommodating their schedule. There's a growing resentment you can't quite name.
 
 This isn't relationship failure. It's the Nine pattern showing up. Once you see it, you can work with it.
 

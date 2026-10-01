@@ -91,7 +91,7 @@ That **shadow side** is the engine of this exploration. Knowing yours is how you
 
 ## Important Context and Disclaimer
 
-The Enneagram is a **personality framework**, not a diagnostic tool. Everyone’s experience with mental health is unique, and symptoms or challenges can vary widely. This article is for **informational and self-reflection purposes** only and **does not replace professional mental health advice**. If you believe you might be experiencing mental health issues, please seek help from a qualified medical or mental health professional.
+The Enneagram is a **[personality framework](/enneagram-corner/enneagram-vs-personality-frameworks-comparison)**, not a diagnostic tool. Everyone’s experience with mental health is unique, and symptoms or challenges can vary widely. This article is for **informational and self-reflection purposes** only and **does not replace professional mental health advice**. If you believe you might be experiencing mental health issues, please seek help from a qualified medical or mental health professional.
 
 We address these topics with **sensitivity and inclusivity** and use non-stigmatizing language. Mental health struggles affect people of all backgrounds. Looking at each type's risks should build empathy for ourselves and others, never turn a pattern into a diagnosis.
 

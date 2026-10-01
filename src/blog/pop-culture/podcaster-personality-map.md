@@ -77,7 +77,7 @@ Within this sample, five hosts are typed as 7s, three as 8s, three as 5s, one as
 
 ## The Interrogators: Type 8s
 
-**Joe Rogan. Dave Portnoy. Sam Parr.**
+**Joe Rogan. Dave Portnoy. [Sam Parr](/personality-analysis/sam-parr).**
 
 All three hosts use friction as a way to test credibility. In Enneagram terms, the Type 8 pattern is sensitive to control and vulnerability, so directness becomes a way to find out who can hold their ground.
 
@@ -87,7 +87,7 @@ Rogan reads here as an **8w7**, combining a Challenger's appetite for pressure w
 
 Dave Portnoy brings a similar pattern to a different arena. Barstool's public identity is confrontational, unapologetic, and loyalty-driven. [One Bite](https://www.barstoolsports.com/shows/12/pizza-reviews/about) makes the public verdict and the unpredictability of a street-level review part of the format. The result reinforces the same on-air promise of autonomy and direct confrontation.
 
-Sam Parr applies the pattern to business media. His questions tend to pull an idea toward execution, downside, and survival: Would it work? Who has tried it? Where does it break? That bluntness gives his Type 7 co-host, Shaan Puri, something solid to push against. Their 7/8 chemistry becomes clearest when [My First Million](https://creators.hubspot.com/creators/hubspot-podcast-network) moves from ideation to consequences.
+Sam Parr applies the pattern to business media. His questions tend to pull an idea toward execution, downside, and survival: Would it work? Who has tried it? Where does it break? That bluntness gives his Type 7 co-host, [Shaan Puri](/personality-analysis/shaan-puri), something solid to push against. Their 7/8 chemistry becomes clearest when [My First Million](https://creators.hubspot.com/creators/hubspot-podcast-network) moves from ideation to consequences.
 
 Across their different formats, the repeated themes are power, competition, authenticity, and independence. In this reading, the Type 8 host turns an interview into a pressure test: Who earned their authority? Who is performing? What survives direct confrontation?
 

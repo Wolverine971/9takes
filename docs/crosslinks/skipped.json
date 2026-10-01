@@ -480,6 +480,176 @@
 			"id": "/personality-analysis/ronald-reagan -> /personality-analysis/jimmy-carter",
 			"reason": "people→people pass: sentence implies Carter is 9w1; his page says Type 2 (typing conflict, T-40)",
 			"date": "2026-09-24"
+		},
+		{
+			"id": "/community/be-gentle-when-youre-right -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "word match: 'John' is a Bible citation (John 8:7)",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/enneagram-corner/attachment-styles-and-enneagram-types -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "'apologize for unnamed things' is a people-pleasing reflex in a scene, not about how to apologize",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/enneagram-corner/how-each-enneagram-type-manipulates -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "'always the one apologizing' is a manipulation warning sign, not apology advice",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-leadership -> /pop-culture/tech-titans-disruptors",
+			"reason": "'Jeff Bezos' is a one-line example label; name belongs to his page, and the post files him under Type 3",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "'compatibility factors' describes OkCupid's filters, not type compatibility",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-science-mental-health -> /enneagram-corner/depression-patterns-by-enneagram-type",
+			"reason": "sentence debunks invented depression prevalence stats; a link would imply the target makes them",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-and-adhd-which-types-struggle-most -> /enneagram-corner/depression-patterns-by-enneagram-type",
+			"reason": "depression named as a misattribution of ADHD in women, not the topic",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/hollywood-heartthrobs-enneagram-analysis -> /enneagram-corner/depression-patterns-by-enneagram-type",
+			"reason": "celebrity-worship research finding, not depression by type",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/hollywood-heartthrobs-enneagram-analysis -> /enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types",
+			"reason": "'Using a dating app (impossible)' is a list of things famous people can't do",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-test-comparison-2026 -> /enneagram-corner/how-to-navigate-early-relationship-stages",
+			"reason": "'new relationship' is a test-taking caveat (life events distort answers)",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/us-presidents-enneagram-analysis -> /pop-culture/incel-blackpill-radicalization-enneagram",
+			"reason": "word match: 'Pain becomes proximity' is about Biden's grief",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /pop-culture/podcaster-personality-map",
+			"reason": "Joe Rogan named in an Epstein-contact passage; do not route readers from Epstein material",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/tech-titans-leadership-styles -> /enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types",
+			"reason": "'a dating app' is Bumble the company, not dating as a user",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-type-5 -> /enneagram-corner/enneagram-test-comparison-2026",
+			"reason": "word match: 'variant' means instinctual variant, not test variants",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/community/why-im-selective-sharing-enneagram -> /enneagram-corner/enneagram-test-comparison-2026",
+			"reason": "word match: 'instinctual variants' in a list of jargon, not tests",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "word match: 'John' is John Gottman",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/ghislaine-maxwell-psychology -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "word match: 'John' is journalist John Sweeney",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/ghislaine-maxwell-psychology -> /enneagram-corner/enneagram-and-religion",
+			"reason": "word match: 'Christmas' is Maxwell's birth date",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-self-development -> /pop-culture/comedy-kings-enneagram-analysis",
+			"reason": "word match: 'completely differently'",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/cancel-culture-enneagram-type -> /pop-culture/podcaster-personality-map",
+			"reason": "the only 'Joe Rogan' mention now links his personality page (2026-10-01)",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-dating-guide-for-women -> /enneagram-corner/love-languages-and-enneagram-types",
+			"reason": "'Quality time beats quality venues' is a date-planning tip, not love languages",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-2 -> /pop-culture/tech-titans-ai-wars",
+			"reason": "Elon Musk named for his Epstein emails; not about the AI race",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/enneagram-corner/how-type-8-challengers-actually-succeed -> /pop-culture/podcaster-personality-map",
+			"reason": "'Alex Cooper' in a Barstool roster line; about Portnoy's team",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /personality-analysis/joe-rogan",
+			"reason": "Epstein-contact passage; do not link a person page from it",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /personality-analysis/bill-gates",
+			"reason": "name in an Epstein photo/attendee list",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /personality-analysis/jeff-bezos",
+			"reason": "name in an Epstein photo/attendee list",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-2 -> /personality-analysis/elon-musk",
+			"reason": "Epstein email passage; do not link a person page from it",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/comedy-kings-enneagram-analysis -> /personality-analysis/kim-kardashian",
+			"reason": "named in a question about Pete Davidson's dating life, not about her",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7 -> /personality-analysis/jack-antonoff",
+			"reason": "parenthetical producer credit in a sentence about another artist",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /personality-analysis/steve-jobs",
+			"reason": "metaphor: 'where OpenAI's Steve Jobs was'",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/parasocial-relationships-enneagram-type -> /personality-analysis/robin-williams",
+			"reason": "death/public-grief passage",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis -> /personality-analysis/britney-spears",
+			"reason": "song credit for a recap video",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/pop-culture/musk-vs-altman-trial-personality-dynamics -> /personality-analysis/donald-trump",
+			"reason": "aside about Musk's travel during the trial",
+			"date": "2026-10-01"
+		},
+		{
+			"id": "/personality-analysis/pete-davidson -> /personality-analysis/machine-gun-kelly",
+			"reason": "mental-health crisis scene (2018 welfare check)",
+			"date": "2026-10-01"
 		}
 	]
 }

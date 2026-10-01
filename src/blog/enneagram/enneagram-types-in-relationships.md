@@ -90,7 +90,7 @@ Under stress, Ones may:
 
 What they may miss is that constant refinement makes a partner feel managed. The relationship becomes an evaluation instead of a place to rest.
 
-A healthy Type 1 brings something beautiful to love: integrity without rigidity. They apologize when they are wrong, keep their commitments, and use their discernment to protect the relationship rather than grade it. Their standards become shared values, not a private rulebook.
+A healthy Type 1 brings something beautiful to love: integrity without rigidity. They [apologize when they are wrong](/enneagram-corner/how-to-apologize-like-a-pro), keep their commitments, and use their discernment to protect the relationship rather than grade it. Their standards become shared values, not a private rulebook.
 
 **A better move in the moment:** Before correcting, ask, “Does this need to be fixed, or do I need relief from the discomfort of it being different?” If it truly matters, lead with what worked and make one clear request.
 

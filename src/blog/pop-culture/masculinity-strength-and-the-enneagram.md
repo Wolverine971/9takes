@@ -31,7 +31,7 @@ Masculine strength is not one body type or dominance ranking. It can include phy
 
 <p class="firstLetter">In <a href="/pop-culture/incel-blackpill-radicalization-enneagram">Part 1: incel and blackpill radicalization</a>, we mapped how shame, rejection, and misdirected anger can push young men toward the blackpill. Now we need to examine the claim at the center of that worldview: that appearance determines a man's romantic future.</p>
 
-Appearance can shape first impressions. Rejection can hurt. Dating apps can intensify comparison. A message like "looks never matter" will not feel honest to someone watching matches cluster around a narrow set of photos.
+Appearance can shape first impressions. Rejection can hurt. [Dating apps](/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types) can intensify comparison. A message like "looks never matter" will not feel honest to someone watching matches cluster around a narrow set of photos.
 
 But the blackpill makes a much larger leap: it turns population averages into fixed laws, treats a face or height as destiny, and claims to know what an entire gender wants. Relationship research does not support that certainty.
 

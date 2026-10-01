@@ -1,0 +1,42 @@
+{
+	"source": "/Users/djwayne/9takes/static/images/home-reimagined/community-circle-neo-noir-v2.webp",
+	"implementation": "9takes custom banknote-inspired filter v1",
+	"presets": [
+		{
+			"name": "subtle",
+			"amount": 0.28,
+			"paper": [232, 224, 205],
+			"ink": [32, 48, 67],
+			"grain": 3.5
+		},
+		{
+			"name": "engraved",
+			"amount": 0.9,
+			"paper": [237, 229, 210],
+			"ink": [32, 49, 70],
+			"grain": 4.5
+		}
+	],
+	"outputs": [
+		{
+			"preset": "subtle",
+			"path": "/Users/djwayne/9takes/docs/design/texture-test/community-circle-neo-noir-v2-subtle.webp",
+			"width": 1774,
+			"height": 887,
+			"bytes": 601756,
+			"smallPath": "/Users/djwayne/9takes/docs/design/texture-test/community-circle-neo-noir-v2-subtle-small.webp",
+			"smallBytes": 115542
+		},
+		{
+			"preset": "engraved",
+			"path": "/Users/djwayne/9takes/docs/design/texture-test/community-circle-neo-noir-v2-engraved.webp",
+			"width": 1774,
+			"height": 887,
+			"bytes": 913996,
+			"smallPath": "/Users/djwayne/9takes/docs/design/texture-test/community-circle-neo-noir-v2-engraved-small.webp",
+			"smallBytes": 168476
+		}
+	],
+	"sourceSha256": "c25fb50bd13b0ed0f314d63e01a81db03dad84a6c42a90ee84ff681494ff538a",
+	"scriptSha256": "13f1de8a8ec0e9f3a56ec9557c68a9a8e094c6795fd03660c2d72a97471123c3"
+}

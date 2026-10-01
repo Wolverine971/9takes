@@ -177,7 +177,7 @@ When Hasan Minhaj was profiled in _The New Yorker_ in 2023 for embellishing pers
 
 Type 8s get cancelled for saying exactly what they think and refusing to walk it back.
 
-Roseanne Barr lost her ABC show in a single day in 2018 after a racist tweet—and never apologized in a way the mob recognized. Joe Rogan has been targeted repeatedly since 2020 and remains the largest podcast on earth. Same type, opposite outcomes. The variable is leverage, not personality.
+Roseanne Barr lost her ABC show in a single day in 2018 after a racist tweet—and never apologized in a way the mob recognized. [Joe Rogan](/personality-analysis/joe-rogan) has been targeted repeatedly since 2020 and remains the largest podcast on earth. Same type, opposite outcomes. The variable is leverage, not personality.
 
 **How they respond:** Double down. [Refuse to apologize](/enneagram-corner/how-to-apologize-like-a-pro) (apology = weakness). Often emerge with a smaller but more devoted audience that respects the refusal to bend.
 

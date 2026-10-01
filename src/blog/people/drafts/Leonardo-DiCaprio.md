@@ -270,7 +270,7 @@ A pause. "All that I have seen and learned on this journey has absolutely terrif
 
 Then the line that cut through the room: "I pretend for a living but you do not."
 
-Two years later, he finally won the Oscar. Five acting nominations, twenty-two years, an internet's worth of memes about his losses. The moment arrived. He thanked Tom Hardy and Inarritu, then used the most-watched seconds of his career to say: "Climate change is real. It is happening right now. It's the most urgent threat facing our entire species and we need to work collectively together and stop procrastinating."
+Two years later, he finally won the Oscar. Five acting nominations, twenty-two years, an internet's worth of memes about his losses. The moment arrived. He thanked [Tom Hardy](/personality-analysis/tom-hardy) and Inarritu, then used the most-watched seconds of his career to say: "Climate change is real. It is happening right now. It's the most urgent threat facing our entire species and we need to work collectively together and stop procrastinating."
 
 Researchers at San Diego State University later determined that this single speech resulted in the largest increase in public engagement with climate change ever measured — more impact than the Paris climate negotiations or Earth Day.
 
