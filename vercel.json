@@ -148,6 +148,11 @@
 			"permanent": true
 		},
 		{
+			"source": "/personality-analysis/:slug((?!categories/|type/|map/)[^/]+)/",
+			"destination": "/personality-analysis/:slug",
+			"permanent": true
+		},
+		{
 			"source": "/personality-analysis/charli-d-27amelio",
 			"destination": "/personality-analysis/charli-damelio",
 			"permanent": true

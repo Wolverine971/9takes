@@ -4,6 +4,7 @@
 	import { Button } from '$lib/components/atoms';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import EngagementTrends from '$lib/components/charts/EngagementTrends.svelte';
+	import GrowthTrends from '$lib/components/charts/GrowthTrends.svelte';
 	import EnneagramBarChart from '$lib/components/charts/EnneagramBarChart.svelte';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 	import { convertDateToReadable } from '../../utils/conversions';
@@ -274,9 +275,9 @@
 		},
 		{
 			icon: '👀',
-			label: 'Visitors (30d)',
+			label: 'Raw visitors (30d)',
 			value: totalVisitors,
-			subValue: 'Traffic over the last month',
+			subValue: 'Daily fingerprints summed; mostly bots',
 			color: 'default',
 			sparklineData: visitorSparkline,
 			href: '/admin/analytics'
@@ -309,9 +310,9 @@
 		},
 		{
 			icon: '📧',
-			label: 'New Email Signups',
+			label: 'Email signup rows (7d)',
 			value: data.newEmailSignupsWeek,
-			subValue: `${formatCount(data.newEmailSignupsToday)} today | ${formatCount(data.totalEmailSignups)} total`,
+			subValue: `${formatCount(data.newEmailSignupsToday)} today | ${formatCount(data.totalEmailSignups)} total, bots included`,
 			color: data.newEmailSignupsToday > 0 ? 'warning' : 'default',
 			href: '/admin/users'
 		},
@@ -325,9 +326,9 @@
 		},
 		{
 			icon: '🔁',
-			label: 'D7 Retention',
+			label: 'D7 return (raw)',
 			value: formatRateValue(data.retentionSummary?.d7RetentionLastMatureWeek),
-			subValue: formatRateWindow(data.retentionSummary?.d7RetentionLastMatureWeek),
+			subValue: `${formatRateWindow(data.retentionSummary?.d7RetentionLastMatureWeek)} · seen on exactly day 7, bots in cohort`,
 			color: 'warning',
 			href: '/admin/analytics'
 		},
@@ -335,15 +336,15 @@
 			icon: '⚡',
 			label: 'Active Contributors',
 			value: data.retentionSummary?.activeContributorsThisWeek ?? data.activeContributors ?? 0,
-			subValue: 'This week, signed-in + anonymous',
+			subValue: 'This week, raw: includes your own replies',
 			color: 'default',
 			href: '/admin/comments'
 		},
 		{
 			icon: '🎯',
-			label: 'Coaching Waitlist',
+			label: 'Waitlist rows (all-time)',
 			value: data.coachingWaitlist,
-			subValue: 'Current inbound demand',
+			subValue: 'Includes the flagged Nov 2025 bot wave',
 			color: 'success',
 			href: '/admin/consulting'
 		},
@@ -359,9 +360,9 @@
 		},
 		{
 			icon: '📣',
-			label: 'Comments',
+			label: 'Comment rows',
 			value: data.totalComments,
-			subValue: `+${formatCount(data.commentsToday)} today`,
+			subValue: `+${formatCount(data.commentsToday)} today · incl. yours + removed`,
 			color: 'success',
 			sparklineData: commentSparkline,
 			href: '/admin/comments'
@@ -408,6 +409,14 @@
 		onToggleDemo={changeDemoTime}
 		onOpenReindex={() => getModal('confirmReindex').open()}
 	/>
+
+	<section class="honest-growth-mobile" aria-labelledby="honest-growth-mobile-title">
+		<div class="section-copy">
+			<span class="eyebrow">Honest growth</span>
+			<h2 class="section-title" id="honest-growth-mobile-title">Real people, week by week</h2>
+		</div>
+		<GrowthTrends trends={data.growthTrends} />
+	</section>
 </div>
 
 <div class="admin-dashboard desktop-dashboard">
@@ -460,9 +469,28 @@
 	<section class="dashboard-section">
 		<div class="section-header">
 			<div class="section-copy">
-				<span class="eyebrow">Overview</span>
-				<h2 class="section-title">Core metrics</h2>
-				<p class="section-description">The numbers you are most likely to check every day.</p>
+				<span class="eyebrow">Honest growth</span>
+				<h2 class="section-title">Real people, week by week</h2>
+				<p class="section-description">
+					Bots, your own admin activity, removed comments and known bot signups are filtered out.
+					Each tile compares the last full week with a 26-week baseline, so a real drop and a line
+					that never moved look different.
+				</p>
+			</div>
+		</div>
+
+		<GrowthTrends trends={data.growthTrends} />
+	</section>
+
+	<section class="dashboard-section">
+		<div class="section-header">
+			<div class="section-copy">
+				<span class="eyebrow">Raw counters</span>
+				<h2 class="section-title">Unfiltered row counts</h2>
+				<p class="section-description">
+					Every tracked row, including bots, your own activity and removed comments. Use Honest
+					growth above to judge trends.
+				</p>
 			</div>
 			<a href="/admin/analytics" class="section-link">Open analytics</a>
 		</div>
@@ -580,10 +608,11 @@
 	<section class="dashboard-section">
 		<div class="section-header">
 			<div class="section-copy">
-				<span class="eyebrow">Trends</span>
+				<span class="eyebrow">Raw daily rows</span>
 				<h2 class="section-title">Traffic and participation</h2>
 				<p class="section-description">
-					Thirty-day patterns for traffic, signups, questions, comments, and coaching.
+					Thirty days of unfiltered daily counts for traffic, signups, questions, comments, and
+					coaching. Bots and your own activity are included.
 				</p>
 			</div>
 		</div>
@@ -911,6 +940,13 @@
 <style>
 	.mobile-command-shell {
 		display: none;
+	}
+
+	.honest-growth-mobile {
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+		margin-top: 24px;
 	}
 
 	.admin-dashboard {

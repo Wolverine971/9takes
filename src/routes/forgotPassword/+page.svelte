@@ -8,7 +8,7 @@
 	import { applyAction, enhance } from '$app/forms';
 	import type { ActionResult } from '@sveltejs/kit';
 	import { onMount, tick } from 'svelte';
-	import { browser } from '$app/environment';
+	import { browser, dev } from '$app/environment';
 	import type { ActionData } from './$types';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
 	import { Button, Field, Input } from '$lib/components/atoms';
@@ -26,28 +26,53 @@
 	let recaptchaTheme = $state<'light' | 'dark'>('dark');
 	let captchaContainer = $state<HTMLDivElement | null>(null);
 	let captchaWidgetId: number | null = null;
+	let captchaMount: Promise<void> | null = null;
+	let captchaLoadFailed = $state(false);
+	let clientError = $state<string | null>(null);
 
 	function syncRecaptchaTheme() {
 		if (!browser) return;
 		recaptchaTheme = document.documentElement.classList.contains('light') ? 'light' : 'dark';
 	}
 
-	async function mountRecaptcha() {
-		if (!browser || !captchaContainer) {
-			return;
-		}
-
-		await tick();
+	/**
+	 * api.js only defines grecaptcha.ready, then loads the real library async,
+	 * so its load event fires before grecaptcha.render exists. Rendering then
+	 * threw "grecaptcha.render is not a function" on every fresh visit and the
+	 * page showed no CAPTCHA at all (seen on the live site 2026-10-02), so the
+	 * first submit could only fail.
+	 */
+	async function recaptchaReady(): Promise<void> {
 		await ensureRecaptchaLoaded();
-		const widgetId = renderRecaptchaWidget({
-			container: captchaContainer,
-			siteKey: PUBLIC_RECAPTCHA_SITE_KEY,
-			theme: recaptchaTheme
-		});
+		const grecaptcha = window.grecaptcha as
+			(NonNullable<Window['grecaptcha']> & { ready?: (callback: () => void) => void }) | undefined;
+		if (typeof grecaptcha?.render === 'function') return;
+		if (typeof grecaptcha?.ready !== 'function') throw new Error('reCAPTCHA did not initialize');
+		await new Promise<void>((resolve) => grecaptcha.ready!(resolve));
+	}
 
-		if (widgetId !== null) {
-			captchaWidgetId = widgetId;
-		}
+	function mountRecaptcha(): Promise<void> {
+		if (!browser || !captchaContainer) return Promise.resolve();
+		captchaMount ??= (async () => {
+			await tick();
+			await recaptchaReady();
+			if (!captchaContainer) return;
+			const widgetId = renderRecaptchaWidget({
+				container: captchaContainer,
+				siteKey: PUBLIC_RECAPTCHA_SITE_KEY,
+				theme: recaptchaTheme
+			});
+			if (widgetId !== null) captchaWidgetId = widgetId;
+			captchaLoadFailed = false;
+		})()
+			.catch((loadError) => {
+				console.error('reCAPTCHA failed to load', loadError);
+				captchaLoadFailed = true;
+			})
+			.finally(() => {
+				captchaMount = null;
+			});
+		return captchaMount;
 	}
 
 	onMount(() => {
@@ -60,22 +85,38 @@
 			attributeFilter: ['class', 'data-theme']
 		});
 
-		void mountRecaptcha();
-
 		return () => observer.disconnect();
 	});
 
 	async function refreshRecaptcha() {
-		const widgetId = await reloadRecaptchaWidget({
-			container: captchaContainer,
-			siteKey: PUBLIC_RECAPTCHA_SITE_KEY,
-			theme: recaptchaTheme
-		});
-
-		captchaWidgetId = widgetId;
+		try {
+			await recaptchaReady();
+			captchaWidgetId = await reloadRecaptchaWidget({
+				container: captchaContainer,
+				siteKey: PUBLIC_RECAPTCHA_SITE_KEY,
+				theme: recaptchaTheme
+			});
+		} catch (loadError) {
+			console.error('reCAPTCHA failed to reload', loadError);
+			captchaLoadFailed = true;
+		}
 	}
 
-	function handleSubmit() {
+	function handleSubmit({ formData, cancel }: { formData: FormData; cancel: () => void }) {
+		clientError = null;
+		// Without a token the server can only answer "complete the CAPTCHA", and
+		// that failure counts toward the 3-per-hour limit for this email. Catch
+		// it here instead. (Dev skips this: the server lets dev submit tokenless.)
+		const token = formData.get('g-recaptcha-response');
+		if (!dev && (typeof token !== 'string' || token.length === 0)) {
+			cancel();
+			clientError = captchaLoadFailed
+				? "The security check didn't load. Turn off any content blocker for 9takes.com and refresh the page."
+				: 'Tick the "I\'m not a robot" box, then tap Reset Password.';
+			if (!captchaContainer?.querySelector('iframe')) void mountRecaptcha();
+			return;
+		}
+
 		loading = true;
 		return async ({ result }: { result: ActionResult }) => {
 			await applyAction(result);
@@ -132,9 +173,9 @@
 				/>
 			</Field>
 
-			{#if form?.error}
+			{#if clientError || form?.error}
 				<div class="error-message" role="alert">
-					{form.error}
+					{clientError ?? form?.error}
 				</div>
 			{/if}
 

@@ -8,6 +8,7 @@ import type { Actions, PageServerLoad } from './$types';
 
 import { guardAdminActions, requireAdmin } from '$lib/server/adminAuth';
 import {
+	CRON_DRAFT_BUDGET_MS,
 	describeAuthorType,
 	enrichHostDrafts,
 	HOST_REPLY_MAX_CHARS,
@@ -19,6 +20,12 @@ import {
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 const HISTORY_DAYS = 30;
+
+// "Run digest now" drafts with the LLM like the cron does. Without this the page
+// inherits the project's 15 s function limit and large batches get cut off.
+export const config = {
+	maxDuration: 300
+};
 
 export type AdminHostDeskDraft = HostDeskDraft & {
 	authorLabel: string;
@@ -157,7 +164,10 @@ const actionHandlers: Actions = {
 
 	runDigest: async () => {
 		try {
-			const summary = await runHostDigest();
+			const summary = await runHostDigest({
+				trigger: 'manual',
+				draftBudgetMs: CRON_DRAFT_BUDGET_MS
+			});
 			const message = summary.sent
 				? `Digest sent to ${summary.recipient}: ${summary.drafted} new draft${summary.drafted === 1 ? '' : 's'}${summary.carriedOver ? `, ${summary.carriedOver} carried over` : ''}.`
 				: summary.error

@@ -140,7 +140,8 @@ export const load: PageServerLoad = async (event) => {
 					questionUrl: strategicQuestionUrl,
 					fingerprint,
 					path: event.url.pathname,
-					userId: event.locals.session?.user?.id ?? null
+					userId: event.locals.session?.user?.id ?? null,
+					userAgent: event.request?.headers.get('user-agent')
 				}),
 				(telemetryError) => {
 					logBestEffortTelemetryFailure(

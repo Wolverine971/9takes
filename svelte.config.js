@@ -10,14 +10,16 @@ import preprocess from 'svelte-preprocess';
 import mdsvexConfig from './mdsvex.config.js';
 import { pruneLegacyJsonLdFromMarkdown } from './src/lib/rehype-prune-legacy-jsonld.js';
 
+/** @param {string | undefined} filename */
+const isBlogContentFile = (filename) =>
+	!!filename &&
+	/\.(?:md|svx|svelte\.md)$/.test(filename) &&
+	(filename.includes('/src/blog/') || filename.includes('\\src\\blog\\'));
+
 const pruneLegacyJsonLdPreprocess = {
 	name: 'prune-legacy-jsonld',
 	markup({ content, filename }) {
-		if (
-			!filename ||
-			!/\.(?:md|svx|svelte\.md)$/.test(filename) ||
-			!(filename.includes('/src/blog/') || filename.includes('\\src\\blog\\'))
-		) {
+		if (!isBlogContentFile(filename)) {
 			return;
 		}
 
@@ -50,6 +52,21 @@ const config = {
 	],
 
 	extensions: ['.svelte', ...mdsvexConfig.extensions],
+
+	vitePlugin: {
+		// Blog posts load through a lazy import.meta.glob in each [slug]/+page.ts. SvelteKit links
+		// the CSS of every dynamic import a page can reach, because it cannot know which one a
+		// request will render. With external CSS, every post page shipped every sibling post's
+		// stylesheet (48 render-blocking sheets on /enneagram-corner/*). Injected CSS ships with
+		// the post's own JS, so SSR inlines only the rendered post's styles. The handle hook
+		// (src/lib/server/injectedStyleOrder.ts) keeps those styles after the stylesheet links so
+		// the cascade order matches the old linked CSS.
+		dynamicCompileOptions({ filename }) {
+			if (isBlogContentFile(filename)) {
+				return { css: 'injected' };
+			}
+		}
+	},
 
 	onwarn: (warning, handler) => {
 		if (warning.code !== 'css-unused-selector' && warning.code !== 'css_unused_selector') {

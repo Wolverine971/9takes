@@ -4426,6 +4426,28 @@ export type Database = {
           comments_created: number
         }[]
       }
+      admin_engagement_trends_weekly_v2: {
+        Args: { p_demo_time?: boolean; p_weeks?: number }
+        Returns: {
+          week_start: string
+          human_visitors: number
+          returning_human_visitors: number
+          raw_visitors: number
+          human_comments: number
+          raw_comments: number
+          contributors: number
+          returning_contributors: number
+          real_signups: number
+          raw_signups: number
+          registrations: number
+          raw_registrations: number
+          bookings: number
+          raw_bookings: number
+          waitlist_adds: number
+          talk_notes: number
+          consulting_sessions: number
+        }[]
+      }
       complete_sequence_send: {
         Args: { p_email_send_id?: string; p_enrollment_id: string }
         Returns: undefined

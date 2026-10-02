@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T23:23:17.159Z",
+  "generated_at": "2026-10-02T17:00:19.531Z",
   "totals": {
     "published": 450,
     "unpublished_drafts": 0
@@ -658,14 +658,14 @@
   },
   "pipeline": {
     "in_draft": 0,
-    "published_last_30_days": 5,
-    "published_last_90_days": 57,
-    "avg_new_per_month": 19
+    "published_last_30_days": 4,
+    "published_last_90_days": 55,
+    "avg_new_per_month": 18.3
   },
   "freshness": {
-    "updated_last_30_days": 5,
-    "updated_last_90_days": 77,
-    "share_updated_last_90_days": 0.1711,
+    "updated_last_30_days": 4,
+    "updated_last_90_days": 75,
+    "share_updated_last_90_days": 0.1667,
     "missing_lastmod": 0
   },
   "min_domain_size": 10,

@@ -1,17 +1,62 @@
 // src/lib/utils/recaptchaClient.ts
 const RECAPTCHA_SCRIPT_ID = 'recaptcha-script';
+const RECAPTCHA_READY_TIMEOUT_MS = 15_000;
 let recaptchaScriptPromise: Promise<void> | null = null;
+
+/**
+ * api.js fires its load event once it has defined `grecaptcha.ready`, then loads
+ * the real library asynchronously, so `grecaptcha.render` does not exist yet.
+ * Rendering at that point threw "grecaptcha.render is not a function" and left
+ * login, register and forgot-password with no CAPTCHA on a fresh visit, so the
+ * first submit always failed (seen live 2026-10-02).
+ */
+function waitForRecaptchaReady(): Promise<void> {
+	const grecaptcha = window.grecaptcha;
+	if (typeof grecaptcha?.render === 'function') {
+		return Promise.resolve();
+	}
+	if (typeof grecaptcha?.ready !== 'function') {
+		return Promise.reject(new Error('reCAPTCHA did not initialize'));
+	}
+
+	return new Promise<void>((resolve, reject) => {
+		const timeout = setTimeout(
+			() => reject(new Error('reCAPTCHA did not become ready')),
+			RECAPTCHA_READY_TIMEOUT_MS
+		);
+		grecaptcha.ready!(() => {
+			clearTimeout(timeout);
+			resolve();
+		});
+	});
+}
+
+function settleWhenReady(resolve: () => void, reject: (reason: Error) => void): void {
+	waitForRecaptchaReady().then(resolve, (readyError: Error) => {
+		recaptchaScriptPromise = null;
+		reject(readyError);
+	});
+}
 
 export async function ensureRecaptchaLoaded(): Promise<void> {
 	if (typeof window === 'undefined') {
 		return;
 	}
 
-	if (window.grecaptcha) {
+	if (typeof window.grecaptcha?.render === 'function') {
 		return;
 	}
 
 	if (recaptchaScriptPromise) {
+		return recaptchaScriptPromise;
+	}
+
+	if (typeof window.grecaptcha?.ready === 'function') {
+		// The script already loaded but the library is still initializing.
+		recaptchaScriptPromise = waitForRecaptchaReady().catch((readyError) => {
+			recaptchaScriptPromise = null;
+			throw readyError;
+		});
 		return recaptchaScriptPromise;
 	}
 
@@ -27,7 +72,7 @@ export async function ensureRecaptchaLoaded(): Promise<void> {
 					'load',
 					() => {
 						existingScript.dataset.loadState = 'loaded';
-						resolve();
+						settleWhenReady(resolve, reject);
 					},
 					{ once: true }
 				);
@@ -53,7 +98,7 @@ export async function ensureRecaptchaLoaded(): Promise<void> {
 		script.defer = true;
 		script.onload = () => {
 			script.dataset.loadState = 'loaded';
-			resolve();
+			settleWhenReady(resolve, reject);
 		};
 		script.onerror = () => {
 			script.dataset.loadState = 'error';

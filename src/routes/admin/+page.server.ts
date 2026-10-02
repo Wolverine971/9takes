@@ -28,8 +28,19 @@ import { loadEmailSuppressionStatus } from '$lib/server/emailSuppressionStatus';
 import { normalizeEmail } from '$lib/email/suppression';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { getTalkNotesOverview } from '$lib/server/talkNotes';
+import type {
+	GrowthTrendWeek,
+	GrowthTrendsPayload
+} from '$lib/components/charts/GrowthTrends.svelte';
 
 type QuestionRow = Database['public']['Tables']['questions']['Row'];
+
+// Honest weekly growth (human-filtered) — see the migration header for definitions.
+const GROWTH_TRENDS_RPC = 'admin_engagement_trends_weekly_v2';
+const GROWTH_TRENDS_MIGRATION =
+	'supabase/migrations/20261002120000_admin_engagement_trends_weekly_v2.sql';
+// 26 full weeks for the baseline, plus the current partial week.
+const GROWTH_TRENDS_WEEKS = 27;
 
 interface RateBlock {
 	week_start: string | null;
@@ -108,6 +119,33 @@ function normalizeRetentionSummary(value: unknown): AdminRetentionSummary {
 	};
 }
 
+/** True when PostgREST/Postgres says the function doesn't exist (migration not applied yet). */
+function isMissingRpc(err: unknown): boolean {
+	if (!err || typeof err !== 'object') return false;
+	const { code, message } = err as { code?: unknown; message?: unknown };
+	return (
+		code === 'PGRST202' ||
+		code === '42883' ||
+		String(message ?? '').includes('Could not find the function')
+	);
+}
+
+function easternDaysIntoWeek(weekStart: string | undefined, now = new Date()): number {
+	if (!weekStart) return 0;
+	// en-CA formats as YYYY-MM-DD; weeks are bucketed in America/New_York by the RPC.
+	const today = new Intl.DateTimeFormat('en-CA', {
+		timeZone: 'America/New_York',
+		year: 'numeric',
+		month: '2-digit',
+		day: '2-digit'
+	}).format(now);
+	const elapsed =
+		Math.round(
+			(Date.parse(`${today}T00:00:00Z`) - Date.parse(`${weekStart}T00:00:00Z`)) / 86_400_000
+		) + 1;
+	return Math.min(7, Math.max(1, elapsed));
+}
+
 function isMissingRetentionSummaryRpc(err: unknown): boolean {
 	const message =
 		typeof err === 'object' && err !== null && 'message' in err
@@ -171,7 +209,8 @@ export const load: PageServerLoad = async (event) => {
 		retentionSummaryResult,
 		trendingPagesResult,
 		recentUnsubscribesResult,
-		talkNotes
+		talkNotes,
+		weeklyGrowthResult
 	] = await Promise.all([
 		getSupabaseAdminClient().rpc('admin_engagement_trends_30_days', { p_demo_time: demoTime }),
 		supabase.rpc('daily_questions_stats'),
@@ -255,8 +294,50 @@ export const load: PageServerLoad = async (event) => {
 		getTalkNotesOverview().catch((err) => {
 			console.error('Failed to load Talk to DJ notes overview', err);
 			return null;
+		}),
+		getSupabaseAdminClient().rpc(GROWTH_TRENDS_RPC, {
+			p_weeks: GROWTH_TRENDS_WEEKS,
+			p_demo_time: demoTime
 		})
 	]);
+
+	// Until the v2 migration is applied the RPC is missing; the dashboard falls back to
+	// the raw 30-day admin_engagement_trends_30_days data without flagging an error.
+	const growthTrendsMigrationPending = isMissingRpc(weeklyGrowthResult.error);
+	if (weeklyGrowthResult.error && !growthTrendsMigrationPending) {
+		console.error('Failed to load honest weekly growth trends', weeklyGrowthResult.error);
+	}
+	const growthTrendWeeks: GrowthTrendWeek[] = weeklyGrowthResult.error
+		? []
+		: (weeklyGrowthResult.data ?? []).map((week) => ({
+				weekStart: week.week_start,
+				humanVisitors: toNumber(week.human_visitors),
+				returningHumanVisitors: toNumber(week.returning_human_visitors),
+				rawVisitors: toNumber(week.raw_visitors),
+				humanComments: toNumber(week.human_comments),
+				rawComments: toNumber(week.raw_comments),
+				contributors: toNumber(week.contributors),
+				returningContributors: toNumber(week.returning_contributors),
+				realSignups: toNumber(week.real_signups),
+				rawSignups: toNumber(week.raw_signups),
+				registrations: toNumber(week.registrations),
+				rawRegistrations: toNumber(week.raw_registrations),
+				bookings: toNumber(week.bookings),
+				rawBookings: toNumber(week.raw_bookings),
+				waitlistAdds: toNumber(week.waitlist_adds),
+				talkNotes: toNumber(week.talk_notes),
+				consultingSessions: toNumber(week.consulting_sessions)
+			}));
+	const growthTrends: GrowthTrendsPayload = {
+		status: weeklyGrowthResult.error
+			? growthTrendsMigrationPending
+				? 'migration_pending'
+				: 'unavailable'
+			: 'ready',
+		weeks: growthTrendWeeks,
+		currentWeekDays: easternDaysIntoWeek(growthTrendWeeks.at(-1)?.weekStart),
+		migration: GROWTH_TRENDS_MIGRATION
+	};
 
 	if (dailyEngagementResult.error) {
 		console.error('Failed to load admin engagement trends', dailyEngagementResult.error);
@@ -351,6 +432,11 @@ export const load: PageServerLoad = async (event) => {
 			key: 'engagement-history',
 			label: 'Traffic and participation',
 			error: dailyEngagementResult.error
+		},
+		{
+			key: 'growth-trends',
+			label: 'Honest weekly growth',
+			error: growthTrendsMigrationPending ? null : weeklyGrowthResult.error
 		},
 		{ key: 'visitor-history', label: 'Visitor history', error: visitorFallback?.error },
 		{ key: 'comment-history', label: 'Comment history', error: commentFallback?.error },
@@ -452,7 +538,8 @@ export const load: PageServerLoad = async (event) => {
 		questionsToday: questionsTodayResult.count || 0,
 		commentsToday: commentsTodayResult.count || 0,
 		retentionSummary,
-		trending
+		trending,
+		growthTrends
 	};
 };
 

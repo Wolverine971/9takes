@@ -9,21 +9,89 @@ import { getSupabaseAdminClient } from './supabaseAdmin';
 
 export type GiveFirstEventType = 'gate_shown' | 'contribution';
 
-export async function recordGiveFirstEvent({
-	fingerprint,
-	eventType,
-	questionId,
-	path = null,
-	userId = null
-}: {
+type GiveFirstEventBase = {
 	fingerprint: string | undefined | null;
-	eventType: GiveFirstEventType;
 	questionId: number | null | undefined;
 	path?: string | null;
 	userId?: string | null;
-}): Promise<void> {
+};
+
+/**
+ * gate_shown must pass the request's user agent (null/undefined counts as a
+ * crawler) so crawler renders never inflate the wall's denominator.
+ * Contributions are real comments and are never filtered.
+ */
+export type GiveFirstEventInput = GiveFirstEventBase &
+	(
+		| { eventType: 'gate_shown'; userAgent: string | null | undefined }
+		| { eventType: 'contribution'; userAgent?: string | null }
+	);
+
+// Self-identified crawlers and automation clients. The first block is the same
+// list the signup and Talk-to-DJ bot gates use (src/routes/api/signups and
+// src/lib/server/talkNotes.ts); the second covers crawlers and fetchers whose
+// user agent never says "bot". Crawlers that spoof a normal browser can't be
+// caught here, so funnel analysis should still prefer browser-verified
+// fingerprints (a client-side page visit near the gate event).
+const CRAWLER_USER_AGENT_PATTERNS: RegExp[] = [
+	/bot/i,
+	/crawl/i,
+	/spider/i,
+	/scraper/i,
+	/curl/i,
+	/wget/i,
+	/python-requests/i,
+	/axios/i,
+	/node-fetch/i,
+	/headless/i,
+	/phantom/i,
+	/selenium/i,
+	/puppeteer/i,
+	/playwright/i,
+	/slurp/i,
+	/facebookexternalhit/i,
+	/meta-external/i,
+	/mediapartners-google/i,
+	/google-inspectiontool/i,
+	/googleother/i,
+	/lighthouse/i,
+	/pagespeed/i,
+	/gtmetrix/i,
+	/chatgpt-user/i,
+	/claude-user/i,
+	/perplexity-user/i,
+	/anthropic-ai/i,
+	/cohere-ai/i,
+	/whatsapp/i,
+	/ia_archiver/i,
+	/prerender/i,
+	/scrapy/i,
+	/go-http-client/i,
+	/okhttp/i,
+	/libwww/i,
+	/httpclient/i,
+	/^java\//i
+];
+
+/** True for missing/implausibly short user agents and self-identified crawlers. */
+export function isLikelyCrawlerUserAgent(userAgent: string | null | undefined): boolean {
+	const value = userAgent?.trim() ?? '';
+	if (value.length < 20) return true;
+	return CRAWLER_USER_AGENT_PATTERNS.some((pattern) => pattern.test(value));
+}
+
+export async function recordGiveFirstEvent(input: GiveFirstEventInput): Promise<void> {
+	const { fingerprint, eventType, questionId, path = null, userId = null } = input;
+
 	// No fingerprint means no join key (e.g. bots / cookie-less clients) — skip.
 	if (!fingerprint || questionId == null || !Number.isFinite(questionId)) {
+		return;
+	}
+
+	// A gate impression only counts when a person could have seen the wall.
+	// Crawlers render question pages server-side (some carry the fingerprint
+	// cookie from a JS render), which inflated gate_shown.
+	if (eventType === 'gate_shown' && isLikelyCrawlerUserAgent(input.userAgent)) {
 		return;
 	}
 
@@ -82,20 +150,24 @@ async function resolveQuestionIdByUrl(questionUrl: string): Promise<number | nul
  * served to a fingerprinted visitor. Reuses gate_shown semantics so the funnel
  * reads widget served -> contribution, attributed per source page via `path`.
  * The table's unique constraint keeps this at one row per visitor per question
- * (earliest occurrence wins), matching the funnel grain.
+ * (earliest occurrence wins), matching the funnel grain. Crawlers are skipped
+ * before the question lookup.
  */
 export async function recordStrategicQuestionImpression({
 	questionUrl,
 	fingerprint,
 	path,
-	userId = null
+	userId = null,
+	userAgent
 }: {
 	questionUrl: string;
 	fingerprint: string | undefined | null;
 	path: string | null;
 	userId?: string | null;
+	userAgent: string | null | undefined;
 }): Promise<void> {
 	if (!fingerprint || !questionUrl) return;
+	if (isLikelyCrawlerUserAgent(userAgent)) return;
 
 	try {
 		const questionId = await resolveQuestionIdByUrl(questionUrl);
@@ -106,7 +178,8 @@ export async function recordStrategicQuestionImpression({
 			eventType: 'gate_shown',
 			questionId,
 			path,
-			userId
+			userId,
+			userAgent
 		});
 	} catch (error) {
 		console.error('Failed to record strategic question impression', { questionUrl, error });

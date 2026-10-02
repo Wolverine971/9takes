@@ -54,6 +54,7 @@ declare global {
 			getResponse: (widgetId?: number) => string;
 			execute: (widgetId?: number) => void;
 			render: (container: string | HTMLElement, parameters: object) => number;
+			ready?: (callback: () => void) => void;
 		};
 		mapboxgl?: {
 			accessToken: string;

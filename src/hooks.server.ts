@@ -22,6 +22,7 @@ import {
 } from '$lib/server/contentAccessGuard';
 import { recordSharedContentAccessEvent } from '$lib/server/contentAccessStore';
 import { runBestEffortTelemetry } from '$lib/server/bestEffortTelemetry';
+import { moveInjectedStylesAfterStylesheets } from '$lib/server/injectedStyleOrder';
 
 import type { Handle } from '@sveltejs/kit';
 
@@ -193,7 +194,9 @@ export const handle: Handle = async ({ event, resolve }) => {
 	const response = await resolve(event, {
 		// CSS is already emitted as stylesheet tags; preloading it via HTTP Link headers
 		// triggers Chrome unused-preload warnings for SvelteKit route CSS chunks.
-		preload: ({ type }) => type === 'js'
+		preload: ({ type }) => type === 'js',
+		// Blog posts inline their CSS (svelte.config.js); keep it after the stylesheet links.
+		transformPageChunk: ({ html }) => moveInjectedStylesAfterStylesheets(html)
 	});
 
 	if (protectedContentPath) {

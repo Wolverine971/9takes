@@ -80,7 +80,88 @@ describe('recaptchaClient', () => {
 		expect(secondScript).not.toBeNull();
 		expect(secondScript).not.toBe(firstScript);
 
+		window.grecaptcha = fullGrecaptcha();
 		secondScript?.dispatchEvent(new Event('load'));
 		await expect(secondLoad).resolves.toBeUndefined();
 	});
+
+	describe('waiting for the library behind api.js', () => {
+		// api.js defines only grecaptcha.ready when its load event fires; render
+		// arrives later. Each test gets fresh module state.
+		async function freshClient() {
+			vi.resetModules();
+			return import('./recaptchaClient');
+		}
+
+		function readyOnlyGrecaptcha() {
+			let onReady: (() => void) | undefined;
+			const stub = {
+				ready: (callback: () => void) => {
+					onReady = callback;
+				}
+			};
+			return { stub, fireReady: () => onReady?.() };
+		}
+
+		it('waits for grecaptcha.ready after the script load event', async () => {
+			window.grecaptcha = undefined;
+			const { ensureRecaptchaLoaded: ensure } = await freshClient();
+			const load = ensure();
+			const script = document.getElementById('recaptcha-script') as HTMLScriptElement;
+
+			const { stub, fireReady } = readyOnlyGrecaptcha();
+			window.grecaptcha = stub as unknown as Window['grecaptcha'];
+			script.dispatchEvent(new Event('load'));
+
+			let settled = false;
+			void load.then(() => (settled = true));
+			await Promise.resolve();
+			await Promise.resolve();
+			expect(settled).toBe(false);
+
+			window.grecaptcha = { ...fullGrecaptcha(), ready: stub.ready };
+			fireReady();
+			await expect(load).resolves.toBeUndefined();
+			expect(typeof window.grecaptcha?.render).toBe('function');
+		});
+
+		it('waits when the script already loaded but render is not defined yet', async () => {
+			const { stub, fireReady } = readyOnlyGrecaptcha();
+			window.grecaptcha = stub as unknown as Window['grecaptcha'];
+			const { ensureRecaptchaLoaded: ensure } = await freshClient();
+
+			const load = ensure();
+			expect(document.getElementById('recaptcha-script')).toBeNull();
+
+			window.grecaptcha = { ...fullGrecaptcha(), ready: stub.ready };
+			fireReady();
+			await expect(load).resolves.toBeUndefined();
+		});
+
+		it('rejects, then retries, when the script loads without defining grecaptcha', async () => {
+			window.grecaptcha = undefined;
+			const { ensureRecaptchaLoaded: ensure } = await freshClient();
+			const load = ensure();
+			(document.getElementById('recaptcha-script') as HTMLScriptElement).dispatchEvent(
+				new Event('load')
+			);
+			await expect(load).rejects.toThrow('reCAPTCHA did not initialize');
+
+			const retry = ensure();
+			window.grecaptcha = fullGrecaptcha();
+			(document.getElementById('recaptcha-script') as HTMLScriptElement).dispatchEvent(
+				new Event('load')
+			);
+			await expect(retry).resolves.toBeUndefined();
+		});
+	});
 });
+
+function fullGrecaptcha(): NonNullable<Window['grecaptcha']> {
+	return {
+		reset: vi.fn(),
+		getResponse: vi.fn(),
+		execute: vi.fn(),
+		render: vi.fn(() => 1)
+	};
+}

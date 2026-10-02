@@ -6,28 +6,62 @@
 // post_host_reply RPC; nothing in this module writes a comment.
 
 import { createHmac, timingSafeEqual } from 'node:crypto';
-import { PRIVATE_ADMIN_EMAIL, SUPABASE_SERVICE_KEY } from '$env/static/private';
+import {
+	PRIVATE_ADMIN_EMAIL,
+	PRIVATE_OPENROUTER_API_KEY,
+	SUPABASE_SERVICE_KEY
+} from '$env/static/private';
 import { resolveHostUserId } from './hostIdentity';
 export { DEFAULT_HOST_USER_ID, resolveHostUserId } from './hostIdentity';
 import { sendEmail, type SendEmailResult } from '$lib/email/sender';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { HOST_VOICE_GUIDE, renderHostVoiceSamples } from '$lib/server/hostVoice';
-import { SmartLLMService, type JSONRequestOptions } from '../../utils/server/smart-llm-service';
 
 const BASE_URL = 'https://9takes.com';
 
 export const HOST_DESK_TOKEN_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
 export const HOST_REPLY_MAX_CHARS = 5000; // same ceiling as createCommentSchema
 const DRAFT_MAX_CHARS = 600;
-const LOOKBACK_MS = 48 * 60 * 60 * 1000;
-const DIGEST_OVERLAP_MS = 60 * 60 * 1000;
-const DRAFT_MODEL_PROFILE: JSONRequestOptions['profile'] = 'balanced';
-const DRAFT_MODEL_LABEL = `openrouter/json-${DRAFT_MODEL_PROFILE}`;
+// The window starts a day before the last digest that went out, so a missed or
+// killed run catches up instead of losing takes, but never reaches back more
+// than two weeks. The candidates RPC skips takes that already have a draft row
+// or a host reply, so the overlap never produces duplicates.
+export const MAX_LOOKBACK_MS = 14 * 24 * 60 * 60 * 1000;
+const DIGEST_OVERLAP_MS = 24 * 60 * 60 * 1000;
 const DRAFT_TEMPERATURE = 0.8;
 const FALLBACK_DRAFT_A = 'what made you go with that one?';
 const FALLBACK_DRAFT_B = 'dang. what is the story behind that?';
 const FALLBACK_LOW_EFFORT_A = "lol what's the real one?";
 const FALLBACK_LOW_EFFORT_B = 'nice';
+const FALLBACK_TEXTS = new Set([
+	FALLBACK_DRAFT_A,
+	FALLBACK_DRAFT_B,
+	FALLBACK_LOW_EFFORT_A,
+	FALLBACK_LOW_EFFORT_B
+]);
+
+// Drafting models. Non-reasoning only: the old SmartLLMService 'balanced'
+// profile led with moonshotai/kimi-k2.5, which spent ~2,100 reasoning tokens
+// (81 s, ignoring max_tokens) on one draft when replayed on 2026-10-02. Every
+// call hit the 45 s timeout, so every draft ever written was the fallback
+// template. These two answered the same prompt in 1.4 to 2.5 s.
+export const HOST_DRAFT_MODELS = ['anthropic/claude-haiku-4.5', 'openai/gpt-4.1-mini'] as const;
+const OPENROUTER_URL = 'https://openrouter.ai/api/v1/chat/completions';
+const DRAFT_CALL_TIMEOUT_MS = 25_000;
+const DRAFT_MAX_TOKENS = 800;
+const DRAFT_CONCURRENCY = 3;
+const MIN_ATTEMPT_MS = 2_000;
+/**
+ * Drafting budget when the caller does not pass one. Vercel's default function
+ * limit for this project is 15 s (fluid compute off), which is what the admin
+ * "Run digest now" action gets. Takes still waiting when the budget runs out
+ * go into the email with a "drafts failed" note instead of being dropped.
+ */
+export const DEFAULT_DRAFT_BUDGET_MS = 9_000;
+/** Budget for the cron route, which runs with maxDuration 300. */
+export const CRON_DRAFT_BUDGET_MS = 200_000;
+const RUN_LOG_SOURCE = 'host_digest';
+const STALE_RUN_MS = 10 * 60 * 1000;
 
 // ---------------------------------------------------------------------------
 // Types
@@ -47,10 +81,14 @@ export type HostDigestCandidate = {
 };
 
 export type HostReplyDrafts = {
+	/** What gets stored. Fallback templates fill any slot the model did not. */
 	draftA: string;
 	draftB: string;
 	model: string | null;
 	usedFallback: boolean;
+	/** Model drafts that passed validation, best first. Empty when drafting failed. */
+	usable: string[];
+	failureReason: string | null;
 };
 
 export type HostDeskVariant = 'a' | 'b' | 'custom' | 'skip';
@@ -64,32 +102,73 @@ export type HostDeskTokenPayload = {
 export type HostDigestItem = {
 	draftId: number;
 	candidate: HostDigestCandidate;
-	draftA: string;
-	draftB: string;
+	/** A model draft that passed validation, or null when drafting failed. */
+	draftA: string | null;
+	draftB: string | null;
+	failureReason?: string | null;
 };
 
+export type HostDigestStatus = 'no_takes' | 'sent' | 'send_failed' | 'no_recipient' | 'crashed';
+export type HostDigestTrigger = 'cron' | 'manual';
+
 export type HostDigestSummary = {
+	trigger: HostDigestTrigger;
+	status: HostDigestStatus;
 	since: string;
+	/** New human takes the candidates RPC returned this run. */
 	candidates: number;
+	/** Draft rows written this run (one per candidate, even when drafting failed). */
 	drafted: number;
-	draftFailures: number;
+	/** Candidates where the model produced both drafts. */
+	modelDrafts: number;
+	/** Candidates with no usable model draft at all (fallback text stored). */
+	failedDrafts: number;
+	/** Candidates with at least one fallback draft. */
 	fallbackDrafts: number;
+	/** Inserts that failed for a reason other than a concurrent run's duplicate. */
+	insertFailures: number;
 	carriedOver: number;
 	olderPending: number;
 	sent: boolean;
 	recipient: string | null;
+	/** True when DJ needs to look: takes with no drafts, a failed send, a crash. */
+	alarm: boolean;
+	alarmReasons: string[];
+	/** Start time of an earlier run that never recorded a finish (killed). */
+	previousRunDied: string | null;
+	durationMs: number;
 	error?: string;
 };
 
-type LlmLike = {
-	getJSONResponse: <T = unknown>(options: JSONRequestOptions) => Promise<T>;
+export type DraftLlmRequest = {
+	systemPrompt: string;
+	userPrompt: string;
+	temperature: number;
+	/** 0 for the first try, 1 for the retry. */
+	attempt: number;
+	timeoutMs: number;
+	commentId: number;
+};
+
+export type DraftLlmResponse = {
+	/** Parsed JSON, expected shape {"drafts":[{"text":"..."},{"text":"..."}]}. */
+	raw: unknown;
+	model: string | null;
+};
+
+export type DraftLlm = {
+	draft: (request: DraftLlmRequest) => Promise<DraftLlmResponse>;
 };
 
 export type DraftDependencies = {
-	llm?: LlmLike;
+	llm?: DraftLlm;
+	/** Wall clock for budgets (ms). Defaults to Date.now. */
+	clock?: () => number;
+	/** Absolute clock() time after which no new model call starts. */
+	deadline?: number;
 };
 
-export type HostDigestDependencies = DraftDependencies & {
+export type HostDigestDependencies = Omit<DraftDependencies, 'deadline'> & {
 	supabase?: any;
 	send?: (options: Parameters<typeof sendEmail>[0]) => Promise<SendEmailResult>;
 	now?: () => Date;
@@ -97,6 +176,9 @@ export type HostDigestDependencies = DraftDependencies & {
 	recipient?: string | null;
 	secret?: string;
 	baseUrl?: string;
+	trigger?: HostDigestTrigger;
+	/** How long drafting may take before remaining takes ship undrafted. */
+	draftBudgetMs?: number;
 };
 
 // ---------------------------------------------------------------------------
@@ -139,17 +221,105 @@ export function validateHostDraft(value: unknown): DraftValidation {
 // Drafting
 // ---------------------------------------------------------------------------
 
-let defaultLlm: SmartLLMService | null = null;
+function errorMessage(error: unknown): string {
+	if (error instanceof Error) return error.message;
+	return typeof error === 'string' ? error : JSON.stringify(error);
+}
 
-function getDefaultLlm(): LlmLike {
-	if (!defaultLlm) {
-		defaultLlm = new SmartLLMService({
-			httpReferer: 'https://9takes.com',
-			appName: '9takes Host Desk',
-			openRouterTimeoutMs: 45_000,
-			jsonMaxTokens: 600
-		});
+/**
+ * Parse a model's JSON reply. Tolerates ```json fences (Claude Haiku adds
+ * them even with response_format json_object) and text around the object.
+ */
+export function parseDraftJson(content: string): unknown {
+	const unfenced = content
+		.trim()
+		.replace(/^```(?:json)?\s*/i, '')
+		.replace(/\s*```$/, '');
+	const start = unfenced.indexOf('{');
+	const end = unfenced.lastIndexOf('}');
+	if (start === -1 || end <= start) throw new Error('model reply had no JSON object');
+	try {
+		return JSON.parse(unfenced.slice(start, end + 1));
+	} catch {
+		throw new Error('model reply was not valid JSON');
 	}
+}
+
+/**
+ * Direct OpenRouter caller for host drafts. SmartLLMService picks models by
+ * profile only, and every profile that fits leads with a reasoning model, so
+ * this module names its models explicitly and turns reasoning off.
+ */
+export function createOpenRouterDraftLlm(
+	options: { apiKey?: string; fetchImpl?: typeof fetch; models?: readonly string[] } = {}
+): DraftLlm {
+	const apiKey = options.apiKey ?? PRIVATE_OPENROUTER_API_KEY;
+	const fetchImpl = options.fetchImpl ?? fetch;
+	const models = [...(options.models ?? HOST_DRAFT_MODELS)];
+
+	return {
+		async draft(request) {
+			if (!apiKey) throw new Error('PRIVATE_OPENROUTER_API_KEY is not configured');
+			// The retry leads with the other model, so a draft one model keeps
+			// getting wrong gets a second opinion. OpenRouter falls through the
+			// list on provider errors.
+			const ordered =
+				request.attempt % 2 === 0 || models.length < 2 ? models : [...models.slice(1), models[0]];
+
+			const response = await fetchImpl(OPENROUTER_URL, {
+				method: 'POST',
+				headers: {
+					Authorization: `Bearer ${apiKey}`,
+					'Content-Type': 'application/json',
+					'HTTP-Referer': BASE_URL,
+					'X-Title': '9takes Host Desk'
+				},
+				body: JSON.stringify({
+					models: ordered,
+					messages: [
+						{ role: 'system', content: request.systemPrompt },
+						{ role: 'user', content: request.userPrompt }
+					],
+					temperature: request.temperature,
+					max_tokens: DRAFT_MAX_TOKENS,
+					response_format: { type: 'json_object' },
+					reasoning: { enabled: false }
+				}),
+				// Covers the body too: OpenRouter sends headers at once and holds
+				// the body open while the model works.
+				signal: AbortSignal.timeout(request.timeoutMs)
+			});
+
+			const bodyText = await response.text();
+			if (!response.ok) {
+				throw new Error(`OpenRouter ${response.status}: ${truncate(bodyText, 160)}`);
+			}
+			let data: any;
+			try {
+				data = JSON.parse(bodyText);
+			} catch {
+				throw new Error('OpenRouter returned a non-JSON body');
+			}
+			if (data?.error) {
+				throw new Error(`OpenRouter error: ${String(data.error.message ?? data.error.code)}`);
+			}
+			const choice = data?.choices?.[0];
+			const content = choice?.message?.content;
+			const model = typeof data?.model === 'string' ? data.model : (ordered[0] ?? null);
+			if (typeof content !== 'string' || !content.trim()) {
+				throw new Error(
+					`${model ?? 'model'} returned empty content (finish_reason ${choice?.finish_reason ?? 'unknown'})`
+				);
+			}
+			return { raw: parseDraftJson(content), model };
+		}
+	};
+}
+
+let defaultLlm: DraftLlm | null = null;
+
+function getDefaultLlm(): DraftLlm {
+	defaultLlm ??= createOpenRouterDraftLlm();
 	return defaultLlm;
 }
 
@@ -169,7 +339,7 @@ Here are real examples of DJ replying (THEM is what they wrote, DJ is his reply)
 
 ${renderHostVoiceSamples()}
 
-Output format: return ONLY JSON shaped like {"drafts":[{"text":"..."},{"text":"..."}]}.
+Output format: return ONLY JSON shaped like {"drafts":[{"text":"..."},{"text":"..."}]}, with no markdown fences and no text around it.
 Draft 1 is the shorter, lighter one (often one line). Draft 2 engages the specific detail in their take and can run a sentence or two longer. Both must sound like DJ, and they must differ in angle, not just wording.`;
 }
 
@@ -189,15 +359,26 @@ function buildDraftUserPrompt(candidate: HostDigestCandidate): string {
 	return lines.filter(Boolean).join('\n');
 }
 
-function fallbackDrafts(candidate: HostDigestCandidate): HostReplyDrafts {
+function fallbackPair(candidate: HostDigestCandidate): { a: string; b: string } {
 	return candidate.low_effort
-		? {
-				draftA: FALLBACK_LOW_EFFORT_A,
-				draftB: FALLBACK_LOW_EFFORT_B,
-				model: null,
-				usedFallback: true
-			}
-		: { draftA: FALLBACK_DRAFT_A, draftB: FALLBACK_DRAFT_B, model: null, usedFallback: true };
+		? { a: FALLBACK_LOW_EFFORT_A, b: FALLBACK_LOW_EFFORT_B }
+		: { a: FALLBACK_DRAFT_A, b: FALLBACK_DRAFT_B };
+}
+
+/** Fallback drafts with no model call, e.g. when the run is out of time. */
+export function fallbackDrafts(
+	candidate: HostDigestCandidate,
+	failureReason: string
+): HostReplyDrafts {
+	const pair = fallbackPair(candidate);
+	return {
+		draftA: pair.a,
+		draftB: pair.b,
+		model: null,
+		usedFallback: true,
+		usable: [],
+		failureReason
+	};
 }
 
 function extractDraftTexts(raw: unknown): unknown[] {
@@ -212,61 +393,89 @@ function extractDraftTexts(raw: unknown): unknown[] {
 /**
  * Two replies in the host's voice: one shorter and lighter, one that engages
  * the specific detail. Each draft is validated; a failed generation is retried
- * once, then replaced by a safe short template so the digest always ships.
+ * once. Slots the model could not fill get a safe short template so the row
+ * can be stored, and `usable` / `failureReason` tell the email which drafts
+ * are real so a template is never offered as a one-tap reply.
  */
 export async function draftHostReplies(
 	candidate: HostDigestCandidate,
 	deps: DraftDependencies = {}
 ): Promise<HostReplyDrafts> {
 	const llm = deps.llm ?? getDefaultLlm();
+	const clock = deps.clock ?? Date.now;
+	const deadline = deps.deadline ?? Number.POSITIVE_INFINITY;
 	const systemPrompt = buildDraftSystemPrompt();
 	const userPrompt = buildDraftUserPrompt(candidate);
-	const fallback = fallbackDrafts(candidate);
+	const fallback = fallbackPair(candidate);
 
 	let bestA: string | null = null;
 	let bestB: string | null = null;
+	let model: string | null = null;
+	let failureReason: string | null = null;
 
 	for (let attempt = 0; attempt < 2; attempt += 1) {
-		let raw: unknown;
+		const remaining = deadline - clock();
+		if (remaining < MIN_ATTEMPT_MS) {
+			failureReason ??= 'the run ran out of time before drafting this take';
+			break;
+		}
+
+		let response: DraftLlmResponse;
 		try {
-			raw = await llm.getJSONResponse({
+			response = await llm.draft({
 				systemPrompt,
 				userPrompt,
-				profile: DRAFT_MODEL_PROFILE,
 				temperature: DRAFT_TEMPERATURE,
-				validation: { retryOnParseError: true, maxRetries: 1 },
-				operationType: 'host_reply_drafts',
-				taskId: String(candidate.comment_id)
+				attempt,
+				timeoutMs: Math.min(DRAFT_CALL_TIMEOUT_MS, remaining),
+				commentId: candidate.comment_id
 			});
 		} catch (llmError) {
+			failureReason = truncate(errorMessage(llmError), 200);
 			console.error('Host draft generation failed', {
 				commentId: candidate.comment_id,
 				attempt,
-				error: llmError instanceof Error ? llmError.message : String(llmError)
+				error: failureReason
 			});
 			continue;
 		}
 
-		const [rawA, rawB] = extractDraftTexts(raw);
+		const [rawA, rawB] = extractDraftTexts(response.raw);
 		const a = validateHostDraft(rawA);
 		const b = validateHostDraft(rawB);
+		if ((a.ok && !bestA) || (b.ok && !bestB)) model = response.model;
 		if (a.ok && !bestA) bestA = a.text;
 		if (b.ok && !bestB && (!bestA || b.text !== bestA)) bestB = b.text;
 		if (bestA && bestB) break;
+		if (!a.ok || !b.ok) {
+			failureReason = `drafts rejected (${[a, b]
+				.filter((check): check is { ok: false; reason: string } => !check.ok)
+				.map((check) => check.reason)
+				.join(', ')})`;
+		}
 	}
 
 	if (bestA && bestB) {
-		return { draftA: bestA, draftB: bestB, model: DRAFT_MODEL_LABEL, usedFallback: false };
+		return {
+			draftA: bestA,
+			draftB: bestB,
+			model,
+			usedFallback: false,
+			usable: [bestA, bestB],
+			failureReason: null
+		};
 	}
 
-	const draftA = bestA ?? bestB ?? fallback.draftA;
-	const draftB =
-		bestA && bestB ? bestB : draftA === fallback.draftB ? fallback.draftA : fallback.draftB;
+	const usable = [bestA ?? bestB].filter((text): text is string => Boolean(text));
+	const draftA = usable[0] ?? fallback.a;
+	const draftB = draftA === fallback.b ? fallback.a : fallback.b;
 	return {
 		draftA,
 		draftB,
-		model: bestA || bestB ? DRAFT_MODEL_LABEL : null,
-		usedFallback: true
+		model: usable.length ? model : null,
+		usedFallback: true,
+		usable,
+		failureReason: failureReason ?? 'the model returned no usable draft'
 	};
 }
 
@@ -386,15 +595,47 @@ function questionLink(candidate: HostDigestCandidate, baseUrl: string): string |
 	return candidate.question_url ? `${baseUrl}/questions/${candidate.question_url}` : null;
 }
 
+const DRAFT_LABEL_STYLE =
+	'margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#69707a;';
+const DRAFT_QUOTE_STYLE =
+	'margin:0 0 10px;padding:10px 14px;border-left:3px solid #f59e0b;background:#fffbeb;font-size:15px;line-height:1.5;';
+const ALERT_STYLE =
+	'margin:0 0 16px;padding:12px 14px;border-radius:8px;background:#fef2f2;border:1px solid #fca5a5;color:#991b1b;font-size:14px;line-height:1.5;';
+
+function htmlDraftBlock(label: string, text: string, url: string, cta: string): string {
+	return `<p style="${DRAFT_LABEL_STYLE}">${label}</p>
+<blockquote style="${DRAFT_QUOTE_STYLE}">${multiline(text)}</blockquote>
+<p style="margin:0 0 18px;"><a class="button" href="${escapeHtml(url)}">${cta}</a></p>`;
+}
+
 export function buildHostDigestEmail(
 	items: HostDigestItem[],
-	options: { now?: number; secret?: string; baseUrl?: string; olderPending?: number } = {}
+	options: {
+		now?: number;
+		secret?: string;
+		baseUrl?: string;
+		olderPending?: number;
+		/** Run-level warnings shown above the takes (e.g. a killed earlier run). */
+		notices?: string[];
+	} = {}
 ): { subject: string; preheader: string; htmlContent: string; plainTextContent: string } {
 	const baseUrl = options.baseUrl ?? BASE_URL;
 	const count = items.length;
-	const subject = `Host desk: ${count} new take${count === 1 ? '' : 's'} to answer`;
-	const preheader =
-		count === 1
+	const failed = items.filter((item) => !item.draftA);
+	const failureReasons = [
+		...new Set(failed.map((item) => item.failureReason).filter(Boolean) as string[])
+	];
+	const failureNotice = failed.length
+		? `Drafting failed for ${failed.length === count ? (count === 1 ? 'this take' : `all ${count} takes`) : `${failed.length} of ${count} takes`}${failureReasons.length ? ` (${truncate(failureReasons.join('; '), 220)})` : ''}. The takes are below anyway; tap Write my own to answer them.`
+		: null;
+	const notices = [failureNotice, ...(options.notices ?? [])].filter(Boolean) as string[];
+
+	const subject = `Host desk: ${count} new take${count === 1 ? '' : 's'} to answer${
+		failed.length ? ` (drafts failed${failed.length === count ? '' : ` for ${failed.length}`})` : ''
+	}`;
+	const preheader = failureNotice
+		? truncate(failureNotice, 90)
+		: count === 1
 			? truncate(items[0].candidate.comment_text, 90)
 			: `${count} takes, two drafts each, one tap to post.`;
 
@@ -415,18 +656,19 @@ export function buildHostDigestEmail(
 		const parent = candidate.parent_comment_text
 			? `<p style="margin:0 0 8px;font-size:13px;color:#69707a;">Replying to: ${escapeHtml(truncate(candidate.parent_comment_text, 140))}</p>`
 			: '';
+		const drafts = item.draftA
+			? [
+					htmlDraftBlock('Draft A', item.draftA, urls.a, 'Open &amp; post A'),
+					item.draftB ? htmlDraftBlock('Draft B', item.draftB, urls.b, 'Open &amp; post B') : ''
+				].join('\n')
+			: `<p style="${ALERT_STYLE}"><strong>Drafts failed for this take.</strong>${item.failureReason ? ` ${escapeHtml(truncate(item.failureReason, 160))}` : ''}</p>`;
 
 		return `<div style="margin:0 0 28px;padding:0 0 24px;border-bottom:1px solid #e5e7eb;">
 <p style="margin:0 0 6px;font-size:13px;color:#69707a;">${index + 1} of ${count} · ${qLink ? `<a href="${escapeHtml(qLink)}">${qText}</a>` : qText}</p>
 ${parent}<p style="margin:0 0 12px;padding:12px 14px;background:#f6f7f9;border-radius:8px;font-size:16px;line-height:1.5;">${multiline(candidate.comment_text)}</p>
 <p style="margin:0 0 16px;font-size:13px;color:#69707a;">${authorLabel}${badge}</p>
-<p style="margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#69707a;">Draft A</p>
-<blockquote style="margin:0 0 10px;padding:10px 14px;border-left:3px solid #f59e0b;background:#fffbeb;font-size:15px;line-height:1.5;">${multiline(item.draftA)}</blockquote>
-<p style="margin:0 0 18px;"><a class="button" href="${escapeHtml(urls.a)}">Open &amp; post A</a></p>
-<p style="margin:0 0 4px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#69707a;">Draft B</p>
-<blockquote style="margin:0 0 10px;padding:10px 14px;border-left:3px solid #f59e0b;background:#fffbeb;font-size:15px;line-height:1.5;">${multiline(item.draftB)}</blockquote>
-<p style="margin:0 0 14px;"><a class="button" href="${escapeHtml(urls.b)}">Open &amp; post B</a></p>
-<p style="margin:0;font-size:14px;"><a href="${escapeHtml(urls.custom)}">Write my own</a> &nbsp;·&nbsp; <a href="${escapeHtml(urls.skip)}">Skip</a></p>
+${drafts}
+<p style="margin:0;font-size:14px;">${item.draftA ? `<a href="${escapeHtml(urls.custom)}">Write my own</a>` : `<a class="button" href="${escapeHtml(urls.custom)}">Write my own</a>`} &nbsp;·&nbsp; <a href="${escapeHtml(urls.skip)}">Skip</a></p>
 </div>`;
 	});
 
@@ -435,8 +677,12 @@ ${parent}<p style="margin:0 0 12px;padding:12px 14px;background:#f6f7f9;border-r
 		older > 0
 			? `<p style="font-size:13px;color:#69707a;">${older} older draft${older === 1 ? '' : 's'} still pending.</p>`
 			: '';
+	const noticeHtml = notices
+		.map((notice) => `<p style="${ALERT_STYLE}">${escapeHtml(notice)}</p>`)
+		.join('\n');
 
-	const htmlContent = `<p>${count === 1 ? 'One new take' : `${count} new takes`} since the last digest. Every link opens a page where you can edit, then tap once to post as you.</p>
+	const intro = `${count === 1 ? 'One new take' : `${count} new takes`} since the last digest. Every link opens a page where you can edit, then tap once to post as you.`;
+	const htmlContent = `${noticeHtml}${noticeHtml ? '\n' : ''}<p>${intro}</p>
 ${htmlItems.join('\n')}
 ${olderNote}<p style="font-size:13px;color:#69707a;">Full desk: <a href="${baseUrl}/admin/host-desk">${baseUrl}/admin/host-desk</a></p>`;
 
@@ -449,6 +695,17 @@ ${olderNote}<p style="font-size:13px;color:#69707a;">Full desk: <a href="${baseU
 			skip: hostDeskUrl(item.draftId, 'skip', options)
 		};
 		const qLink = questionLink(candidate, baseUrl);
+		const draftLines = item.draftA
+			? [
+					`Draft A: ${item.draftA}`,
+					`Open & post A: ${urls.a}`,
+					'',
+					...(item.draftB ? [`Draft B: ${item.draftB}`, `Open & post B: ${urls.b}`, ''] : [])
+				]
+			: [
+					`DRAFTS FAILED for this take${item.failureReason ? `: ${truncate(item.failureReason, 160)}` : '.'}`,
+					''
+				];
 		return [
 			`${index + 1} of ${count}: ${truncate(candidate.question_text ?? 'Unknown question', 60)}${qLink ? ` (${qLink})` : ''}`,
 			candidate.parent_comment_text
@@ -457,12 +714,7 @@ ${olderNote}<p style="font-size:13px;color:#69707a;">Full desk: <a href="${baseU
 			`Take (${describeAuthorType(candidate)}${candidate.low_effort ? ', low effort' : ''}):`,
 			candidate.comment_text,
 			'',
-			`Draft A: ${item.draftA}`,
-			`Open & post A: ${urls.a}`,
-			'',
-			`Draft B: ${item.draftB}`,
-			`Open & post B: ${urls.b}`,
-			'',
+			...draftLines,
 			`Write my own: ${urls.custom}`,
 			`Skip: ${urls.skip}`
 		]
@@ -471,7 +723,8 @@ ${olderNote}<p style="font-size:13px;color:#69707a;">Full desk: <a href="${baseU
 	});
 
 	const plainTextContent = [
-		`${count === 1 ? 'One new take' : `${count} new takes`} since the last digest. Every link opens a page where you can edit, then tap once to post as you.`,
+		...notices.flatMap((notice) => [`!! ${notice}`, '']),
+		intro,
 		'',
 		textItems.join('\n\n----\n\n'),
 		'',
@@ -646,6 +899,142 @@ export async function enrichHostDrafts(
 }
 
 // ---------------------------------------------------------------------------
+// Run log
+// ---------------------------------------------------------------------------
+//
+// Every run writes one row to app_error_events with source = 'host_digest':
+// a 'running' row at the start, updated with the run summary at the end. A row
+// still 'running' minutes later means the function was killed mid-run, the
+// way this cron died silently through September 2026 (15 s default function
+// limit vs. up to 90 s of drafting per take). Level: INFO healthy, WARN
+// degraded, ERROR alarm.
+//
+//   SELECT created_at, level, message, context FROM app_error_events
+//   WHERE source = 'host_digest' ORDER BY id DESC LIMIT 14;
+
+type RunLevel = 'INFO' | 'WARN' | 'ERROR';
+const RUN_LOG_ROUTE = '/api/cron/host-digest';
+
+function formatUtc(iso: string): string {
+	const ms = Date.parse(iso);
+	return Number.isFinite(ms)
+		? `${new Date(ms).toISOString().slice(0, 16).replace('T', ' ')} UTC`
+		: iso;
+}
+
+/** Start time of the latest run if it never recorded a finish (killed). */
+async function findDeadPreviousRun(supabase: any, nowMs: number): Promise<string | null> {
+	try {
+		const { data, error } = await supabase
+			.from('app_error_events')
+			.select('id, created_at, context')
+			.eq('source', RUN_LOG_SOURCE)
+			.order('id', { ascending: false })
+			.limit(1)
+			.maybeSingle();
+		if (error || !data) return null;
+		const startedMs = Date.parse(data.created_at);
+		const stale = Number.isFinite(startedMs) && nowMs - startedMs > STALE_RUN_MS;
+		return data.context?.status === 'running' && stale ? data.created_at : null;
+	} catch {
+		return null;
+	}
+}
+
+async function startRunLog(
+	supabase: any,
+	trigger: HostDigestTrigger,
+	startedAt: string
+): Promise<number | null> {
+	try {
+		const { data, error } = await supabase
+			.from('app_error_events')
+			.insert({
+				source: RUN_LOG_SOURCE,
+				level: 'INFO',
+				message: 'host digest running',
+				route: RUN_LOG_ROUTE,
+				context: { status: 'running', trigger, startedAt }
+			})
+			.select('id')
+			.single();
+		if (error || !data?.id) {
+			console.error('Host digest run log could not start', error);
+			return null;
+		}
+		return data.id as number;
+	} catch (logError) {
+		console.error('Host digest run log could not start', logError);
+		return null;
+	}
+}
+
+function describeRun(summary: HostDigestSummary): { level: RunLevel; message: string } {
+	const level: RunLevel = summary.alarm
+		? 'ERROR'
+		: summary.fallbackDrafts > 0 || summary.previousRunDied
+			? 'WARN'
+			: 'INFO';
+	const message = [
+		`host digest ${summary.status}`,
+		`${summary.candidates} new take${summary.candidates === 1 ? '' : 's'}`,
+		`${summary.modelDrafts} fully drafted`,
+		summary.failedDrafts ? `${summary.failedDrafts} with no usable draft` : null,
+		summary.carriedOver ? `${summary.carriedOver} carried over` : null,
+		summary.alarmReasons.length ? `ALARM: ${summary.alarmReasons.join('; ')}` : null
+	]
+		.filter(Boolean)
+		.join(', ');
+	return { level, message };
+}
+
+async function finishRunLog(
+	supabase: any,
+	runId: number | null,
+	summary: HostDigestSummary,
+	crash?: unknown
+): Promise<void> {
+	const { level, message } = describeRun(summary);
+	const record = {
+		level,
+		message,
+		error_name: crash instanceof Error ? crash.name : null,
+		error_message: crash ? truncate(errorMessage(crash), 500) : (summary.error ?? null),
+		context: { ...summary, recipient: summary.recipient ? 'configured' : null }
+	};
+	try {
+		const { error } = runId
+			? await supabase.from('app_error_events').update(record).eq('id', runId)
+			: await supabase
+					.from('app_error_events')
+					.insert({ source: RUN_LOG_SOURCE, route: RUN_LOG_ROUTE, ...record });
+		if (error) console.error('Host digest run log could not finish', error);
+	} catch (logError) {
+		console.error('Host digest run log could not finish', logError);
+	}
+}
+
+/** The alarm the growth log asked for: takes but no drafts, or no email. */
+function applyAlarm(summary: HostDigestSummary): void {
+	const reasons: string[] = [];
+	if (summary.candidates > 0 && summary.failedDrafts === summary.candidates) {
+		reasons.push(
+			`${summary.candidates} new take${summary.candidates === 1 ? '' : 's'} and 0 drafted`
+		);
+	}
+	if (summary.insertFailures > 0) {
+		reasons.push(
+			`${summary.insertFailures} take${summary.insertFailures === 1 ? '' : 's'} could not be saved to the desk`
+		);
+	}
+	if (summary.status === 'send_failed') reasons.push(`email failed: ${summary.error ?? 'unknown'}`);
+	if (summary.status === 'no_recipient') reasons.push('PRIVATE_ADMIN_EMAIL is not configured');
+	if (summary.status === 'crashed') reasons.push(`run crashed: ${summary.error ?? 'unknown'}`);
+	summary.alarmReasons = reasons;
+	summary.alarm = reasons.length > 0;
+}
+
+// ---------------------------------------------------------------------------
 // The digest run
 // ---------------------------------------------------------------------------
 
@@ -662,47 +1051,140 @@ async function loadLastDigestSentAt(supabase: any): Promise<number | null> {
 	return Number.isFinite(value) ? value : null;
 }
 
+/** The window start: a day before the last digest that went out, at most 14 days back. */
+export function hostDigestSince(nowMs: number, lastDigestMs: number | null): string {
+	const floor = nowMs - MAX_LOOKBACK_MS;
+	const fromLast = lastDigestMs === null ? floor : lastDigestMs - DIGEST_OVERLAP_MS;
+	return new Date(Math.max(floor, fromLast)).toISOString();
+}
+
+async function mapWithConcurrency<T, R>(
+	items: T[],
+	limit: number,
+	fn: (item: T) => Promise<R>
+): Promise<R[]> {
+	const results = new Array<R>(items.length);
+	let next = 0;
+	const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
+		while (next < items.length) {
+			const index = next;
+			next += 1;
+			results[index] = await fn(items[index]);
+		}
+	});
+	await Promise.all(workers);
+	return results;
+}
+
+const CARRIED_FAILURE_REASON = 'drafting failed when this take was first picked up';
+
+/** Which stored drafts are real model drafts (never offer a template as one-tap). */
+function usableDraftsFromRow(
+	row: HostReplyDraftRow
+): Pick<HostDigestItem, 'draftA' | 'draftB' | 'failureReason'> {
+	const usable = row.model
+		? [row.draft_a, row.draft_b].filter((text) => !FALLBACK_TEXTS.has(text))
+		: [];
+	return {
+		draftA: usable[0] ?? null,
+		draftB: usable[1] ?? null,
+		failureReason: usable.length ? null : CARRIED_FAILURE_REASON
+	};
+}
+
 export async function runHostDigest(deps: HostDigestDependencies = {}): Promise<HostDigestSummary> {
 	const supabase = deps.supabase ?? (getSupabaseAdminClient() as any);
-	const send = deps.send ?? sendEmail;
+	const clock = deps.clock ?? Date.now;
+	const startedMs = clock();
 	const now = deps.now ? deps.now() : new Date();
+	const trigger = deps.trigger ?? 'manual';
+
+	const previousRunDied = await findDeadPreviousRun(supabase, now.getTime());
+	const runId = await startRunLog(supabase, trigger, now.toISOString());
+
+	const summary: HostDigestSummary = {
+		trigger,
+		status: 'no_takes',
+		since: now.toISOString(),
+		candidates: 0,
+		drafted: 0,
+		modelDrafts: 0,
+		failedDrafts: 0,
+		fallbackDrafts: 0,
+		insertFailures: 0,
+		carriedOver: 0,
+		olderPending: 0,
+		sent: false,
+		recipient: null,
+		alarm: false,
+		alarmReasons: [],
+		previousRunDied,
+		durationMs: 0
+	};
+
+	try {
+		await executeHostDigest(supabase, deps, { now, clock, startedMs, summary });
+	} catch (runError) {
+		summary.status = 'crashed';
+		summary.error = truncate(errorMessage(runError), 300);
+		applyAlarm(summary);
+		summary.durationMs = clock() - startedMs;
+		await finishRunLog(supabase, runId, summary, runError);
+		throw runError;
+	}
+
+	applyAlarm(summary);
+	summary.durationMs = clock() - startedMs;
+	await finishRunLog(supabase, runId, summary);
+	if (summary.alarm) {
+		console.error('Host digest alarm', {
+			status: summary.status,
+			candidates: summary.candidates,
+			failedDrafts: summary.failedDrafts,
+			alarmReasons: summary.alarmReasons
+		});
+	}
+	return summary;
+}
+
+async function executeHostDigest(
+	supabase: any,
+	deps: HostDigestDependencies,
+	run: { now: Date; clock: () => number; startedMs: number; summary: HostDigestSummary }
+): Promise<void> {
+	const { now, clock, startedMs, summary } = run;
+	const send = deps.send ?? sendEmail;
 	const nowMs = now.getTime();
 	const hostUserId = deps.hostUserId ?? resolveHostUserId();
 	const recipient =
 		(deps.recipient === undefined ? PRIVATE_ADMIN_EMAIL : deps.recipient)?.trim() || null;
 	const baseUrl = deps.baseUrl ?? BASE_URL;
+	const deadline = startedMs + (deps.draftBudgetMs ?? DEFAULT_DRAFT_BUDGET_MS);
+	summary.recipient = recipient;
 
-	const lastDigest = await loadLastDigestSentAt(supabase);
-	const sinceMs = Math.max(
-		nowMs - LOOKBACK_MS,
-		lastDigest === null ? 0 : lastDigest - DIGEST_OVERLAP_MS
-	);
-	const since = new Date(sinceMs).toISOString();
-
-	const summary: HostDigestSummary = {
-		since,
-		candidates: 0,
-		drafted: 0,
-		draftFailures: 0,
-		fallbackDrafts: 0,
-		carriedOver: 0,
-		olderPending: 0,
-		sent: false,
-		recipient
-	};
+	summary.since = hostDigestSince(nowMs, await loadLastDigestSentAt(supabase));
 
 	const { data: candidateRows, error: candidatesError } = await supabase.rpc(
 		'get_host_digest_candidates',
-		{ p_host_user_id: hostUserId, p_since: since }
+		{ p_host_user_id: hostUserId, p_since: summary.since }
 	);
-	if (candidatesError) throw new Error('Failed to load host digest candidates');
+	if (candidatesError) {
+		throw new Error(
+			`Failed to load host digest candidates: ${candidatesError.message ?? 'unknown error'}`
+		);
+	}
 	const candidates = (Array.isArray(candidateRows) ? candidateRows : []) as HostDigestCandidate[];
 	summary.candidates = candidates.length;
 
-	const items: HostDigestItem[] = [];
-	for (const candidate of candidates) {
-		const drafts = await draftHostReplies(candidate, { llm: deps.llm });
+	// Every candidate gets a row, drafted or not, so it shows up in this email
+	// and the RPC never offers it again. Takes drafting could not handle are
+	// stored with fallback text and model = NULL and shown as "drafts failed".
+	const llm = deps.llm ?? getDefaultLlm();
+	const drafted = await mapWithConcurrency(candidates, DRAFT_CONCURRENCY, async (candidate) => {
+		const drafts = await draftHostReplies(candidate, { llm, clock, deadline });
 		if (drafts.usedFallback) summary.fallbackDrafts += 1;
+		if (drafts.usable.length === 2) summary.modelDrafts += 1;
+		if (drafts.usable.length === 0) summary.failedDrafts += 1;
 
 		const { data: inserted, error: insertError } = await supabase
 			.from('host_reply_drafts')
@@ -718,14 +1200,30 @@ export async function runHostDigest(deps: HostDigestDependencies = {}): Promise<
 			.select('id')
 			.single();
 		if (insertError || !inserted?.id) {
-			// A concurrent run already drafted this take; it will be in that email.
-			summary.draftFailures += 1;
-			console.warn('Host draft insert skipped', { commentId: candidate.comment_id, insertError });
-			continue;
+			if (insertError?.code === '23505') {
+				// A concurrent run already drafted this take; it is in that email.
+				console.warn('Host draft already exists', { commentId: candidate.comment_id });
+			} else {
+				summary.insertFailures += 1;
+				console.error('Host draft insert failed', {
+					commentId: candidate.comment_id,
+					insertError
+				});
+			}
+			return null;
 		}
-		summary.drafted += 1;
-		items.push({ draftId: inserted.id, candidate, draftA: drafts.draftA, draftB: drafts.draftB });
-	}
+		const item: HostDigestItem = {
+			draftId: inserted.id,
+			candidate,
+			draftA: drafts.usable[0] ?? null,
+			draftB: drafts.usable[1] ?? null,
+			failureReason: drafts.failureReason
+		};
+		return item;
+	});
+
+	const items = drafted.filter((item): item is HostDigestItem => item !== null);
+	summary.drafted = items.length;
 
 	// Drafts from a run whose email failed to send ride along in this one.
 	const newIds = new Set(items.map((item) => item.draftId));
@@ -744,11 +1242,11 @@ export async function runHostDigest(deps: HostDigestDependencies = {}): Promise<
 	for (const draft of carried) {
 		const candidate = toCandidate(draft);
 		if (!candidate || draft.take?.removed) continue;
-		items.push({ draftId: draft.id, candidate, draftA: draft.draft_a, draftB: draft.draft_b });
+		items.push({ draftId: draft.id, candidate, ...usableDraftsFromRow(draft) });
 		summary.carriedOver += 1;
 	}
 
-	if (items.length === 0) return summary;
+	if (items.length === 0) return;
 
 	const { count: olderPending } = await supabase
 		.from('host_reply_drafts')
@@ -758,16 +1256,29 @@ export async function runHostDigest(deps: HostDigestDependencies = {}): Promise<
 	summary.olderPending = typeof olderPending === 'number' ? olderPending : 0;
 
 	if (!recipient) {
+		summary.status = 'no_recipient';
 		summary.error = 'PRIVATE_ADMIN_EMAIL is not configured';
-		return summary;
+		return;
 	}
 
 	items.sort((a, b) => Date.parse(a.candidate.created_at) - Date.parse(b.candidate.created_at));
+	const notices: string[] = [];
+	if (summary.previousRunDied) {
+		notices.push(
+			`The digest run that started ${formatUtc(summary.previousRunDied)} never finished, so this email may cover more than a day.`
+		);
+	}
+	if (summary.insertFailures > 0) {
+		notices.push(
+			`${summary.insertFailures} new take${summary.insertFailures === 1 ? '' : 's'} could not be saved to the desk and ${summary.insertFailures === 1 ? 'is' : 'are'} missing below. Check /admin/host-desk.`
+		);
+	}
 	const email = buildHostDigestEmail(items, {
 		now: nowMs,
 		secret: deps.secret,
 		baseUrl,
-		olderPending: summary.olderPending
+		olderPending: summary.olderPending,
+		notices
 	});
 	const dayKey = now.toISOString().slice(0, 10);
 	const result = await send({
@@ -782,11 +1293,13 @@ export async function runHostDigest(deps: HostDigestDependencies = {}): Promise<
 	});
 
 	if (!result.success) {
+		summary.status = 'send_failed';
 		summary.error = result.error ?? 'Host digest send failed';
-		return summary;
+		return;
 	}
 
 	summary.sent = true;
+	summary.status = 'sent';
 	const { error: stampError } = await supabase
 		.from('host_reply_drafts')
 		.update({ digest_sent_at: now.toISOString(), updated_at: now.toISOString() })
@@ -797,5 +1310,4 @@ export async function runHostDigest(deps: HostDigestDependencies = {}): Promise<
 	if (stampError) {
 		summary.error = 'Digest sent but digest_sent_at could not be stamped';
 	}
-	return summary;
 }

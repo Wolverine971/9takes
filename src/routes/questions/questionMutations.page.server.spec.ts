@@ -108,6 +108,7 @@ function buildLikeRequest(userId: string) {
 function buildActionEvent(request: Request, sessionUserId: string | null = null) {
 	return {
 		request,
+		url: new URL('https://9takes.com/questions/what-do-you-need'),
 		getClientAddress: () => '127.0.0.1',
 		locals: {
 			session: sessionUserId ? { user: { id: sessionUserId } } : null,
@@ -183,6 +184,7 @@ describe('question mutation identity binding', () => {
 			fingerprint: 'visitor-1',
 			eventType: 'contribution',
 			questionId: 42,
+			path: '/questions/what-do-you-need',
 			userId: null
 		});
 		expect(runBestEffortTelemetryMock).toHaveBeenCalledTimes(1);

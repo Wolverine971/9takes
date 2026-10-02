@@ -9,8 +9,14 @@ import { z } from 'zod';
 import type { PageServerLoad } from './$types';
 
 const forgotPasswordSchema = z.object({
-	email: z.string().email('Invalid email address')
+	email: z.string().trim().email('Invalid email address')
 });
+
+// Supabase answers without an error for addresses that have no account (so the
+// form can't be used to probe who is registered), which means "sent" is only
+// true when the account exists. Say so instead of promising an email.
+const RESET_REQUESTED_MESSAGE =
+	'If that email has a 9takes account, a reset link is on its way. Check your inbox and spam folder.';
 
 export const load: PageServerLoad = async (event) => {
 	const user = event.locals.user;
@@ -45,12 +51,21 @@ export const actions: Actions = {
 			// Return success to not alert the bot, but don't actually send email
 			return {
 				success: true,
-				message: 'Password reset email sent. Please check your inbox.'
+				message: RESET_REQUESTED_MESSAGE
 			};
 		}
 
 		const validatedData = forgotPasswordSchema.safeParse(body);
 		if (!validatedData.success) {
+			// Logged so a "they tried but nothing happened" report can be settled
+			// from auth_security_events. 'failed' does not count toward the limit.
+			await recordAuthProtectionEvent({
+				flow: 'forgot_password',
+				outcome: 'failed',
+				ipAddress: clientIP,
+				identifier: normalizedEmail,
+				context: { reason: 'invalid_email' }
+			});
 			return fail(400, {
 				error: validatedData.error.errors[0]?.message || 'Invalid email address',
 				email: rawEmail
@@ -78,7 +93,8 @@ export const actions: Actions = {
 		}
 
 		// Verify Google reCAPTCHA
-		const recaptchaToken = formData.get('g-recaptcha-response') as string;
+		const rawToken = formData.get('g-recaptcha-response');
+		const recaptchaToken = typeof rawToken === 'string' ? rawToken : '';
 		const recaptchaValid = await verifyRecaptcha(recaptchaToken, clientIP);
 
 		if (!recaptchaValid) {
@@ -86,7 +102,10 @@ export const actions: Actions = {
 				flow: 'forgot_password',
 				outcome: 'captcha_failed',
 				ipAddress: clientIP,
-				identifier: normalizedEmail
+				identifier: normalizedEmail,
+				// No token = the widget never rendered or was never ticked; a token
+				// that fails = Google rejected it (expired, wrong site key, bot).
+				context: { tokenPresent: recaptchaToken.length > 0 }
 			});
 			logger.warn('reCAPTCHA verification failed on forgot password', {
 				email: normalizedEmail
@@ -105,11 +124,32 @@ export const actions: Actions = {
 		});
 
 		if (err) {
-			if (err instanceof AuthApiError && err.status === 400) {
+			const status = typeof err.status === 'number' ? err.status : null;
+			const code = typeof err.code === 'string' ? err.code : null;
+			// Previously swallowed: no log, no event, and a 429 from Supabase's
+			// email limit read as a generic "Server error".
+			logger.error('resetPasswordForEmail failed', err as Error, { status, code });
+			await recordAuthProtectionEvent({
+				flow: 'forgot_password',
+				outcome: 'failed',
+				ipAddress: clientIP,
+				identifier: normalizedEmail,
+				context: { reason: 'supabase_error', status, code }
+			});
+
+			if (status === 429) {
+				return fail(429, {
+					error:
+						'Too many reset emails have gone out in the last little while. Wait a few minutes, then try again.',
+					email: rawEmail
+				});
+			}
+			if (err instanceof AuthApiError && status === 400) {
 				return fail(400, { error: 'Invalid email', email: rawEmail });
 			}
 			return fail(500, {
-				error: 'Server error. Please try again later.'
+				error: 'Server error. Please try again later.',
+				email: rawEmail
 			});
 		}
 
@@ -123,7 +163,7 @@ export const actions: Actions = {
 		// Return success message rather than redirecting
 		return {
 			success: true,
-			message: 'Password reset email sent. Please check your inbox.'
+			message: RESET_REQUESTED_MESSAGE
 		};
 	}
 };

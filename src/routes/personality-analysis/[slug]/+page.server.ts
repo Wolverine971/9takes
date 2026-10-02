@@ -64,6 +64,28 @@ export const config = {
 	}
 };
 
+/**
+ * A failed query must never surface as a 404: ISR stores a 404 and replays it
+ * to every visitor and crawler until expiration or a revalidation. Vercel
+ * treats any status other than 200, 301, 302, 307, 308, 404 or 410 as a failed
+ * render instead: nothing is stored, the previous good copy keeps serving, and
+ * it retries about 30 seconds later. 503 also tells crawlers "come back", not
+ * "gone".
+ */
+function throwTemporarilyUnavailable(
+	slug: string,
+	query: string,
+	cause: { code?: string; message?: string }
+): never {
+	console.error('Personality page query failed; responding 503 so ISR keeps its last good copy', {
+		slug,
+		query,
+		code: cause.code,
+		message: cause.message
+	});
+	throw error(503, 'This page is temporarily unavailable');
+}
+
 export const load: PageServerLoad = async (event) => {
 	const setHeaders = event.setHeaders;
 	const requestedSlug = event.params.slug;
@@ -88,13 +110,24 @@ export const load: PageServerLoad = async (event) => {
 		});
 	}
 
-	const { data: personDataRaw } = await supabase
+	// `person` is not unique in the table, and maybeSingle() errors on two rows,
+	// so take the published row deterministically: the only error left is a real
+	// query failure, never a data duplicate.
+	const { data: personDataRaw, error: personError } = await supabase
 		.from('blogs_famous_people')
 		.select(
 			'id, author, birth_date, birth_place, category, changefreq, chorus_question, chorus_question_url, citations, content, created_at, date, description, enneagram, faqs, first_published_at, imdb_id, instagram, keywords, knows_about, lastmod, loc, meta_title, nationality, occupation, person, persona_title, priority, published, published_at, same_as, suggestions, tags, tiktok, title, twitter, type, wikidata_qid, wikipedia'
 		)
 		.eq('person', canonicalSlugParam)
+		.order('published', { ascending: false, nullsFirst: false })
+		.order('id', { ascending: true })
+		.limit(1)
 		.maybeSingle();
+
+	if (personError) {
+		throwTemporarilyUnavailable(requestedSlug, 'person', personError);
+	}
+
 	const personData = personDataRaw as FamousPersonRow | null;
 
 	if (!personData) {
@@ -182,9 +215,18 @@ async function resolvePublicChorusQuestion(
 		.from('questions')
 		.select('question, question_formatted, flagged, removed, data')
 		.eq('url', questionUrl)
+		// `url` is not unique either; a duplicate must not read as a query failure.
+		.order('id', { ascending: true })
+		.limit(1)
 		.maybeSingle();
 
-	if (questionError || !question || !isQuestionPubliclyEligible(question)) {
+	// A failed lookup is not "no question": rendering without the chorus prompt
+	// would cache the page minus its answer-first entry point for a whole day.
+	if (questionError) {
+		throwTemporarilyUnavailable(person.person ?? questionUrl, 'chorus question', questionError);
+	}
+
+	if (!question || !isQuestionPubliclyEligible(question)) {
 		return { question: null, questionUrl: null };
 	}
 

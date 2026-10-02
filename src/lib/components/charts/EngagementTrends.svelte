@@ -74,7 +74,7 @@
 	{:else}
 		<div class="trend-header">
 			<div class="visitor-heading">
-				<h3>Visitors</h3>
+				<h3>Raw visitors</h3>
 				<div class="visitor-stats">
 					<div><strong>{formatCount(visitorTotal)}</strong><span>30-day total</span></div>
 					<div><strong>{formatCount(visitorAverage)}</strong><span>Daily avg</span></div>
@@ -103,7 +103,7 @@
 					viewBox="0 0 1000 200"
 					preserveAspectRatio="none"
 					role="img"
-					aria-label="Daily visitors over the last 30 days"
+					aria-label="Daily raw visitors over the last 30 days, bots included"
 				>
 					<defs>
 						<linearGradient id="engagement-visitor-fill" x1="0" x2="0" y1="0" y2="1">
@@ -197,9 +197,11 @@
 		</div>
 
 		<p class="chart-note">
-			Daily unique visitors are based on tracked site visits. Visitors with comments are those who
-			also posted a question comment that day. Coaching counts waitlist entries. Signups are email
-			signups; user signups are account registrations. Today is partial. Dates use UTC.
+			<strong>Raw rows.</strong> Most daily visitors are bots, and comments, signups and coaching include
+			your own activity, removed comments and known bot waves. Use Honest growth for the filtered weekly
+			view. Daily unique visitors are based on tracked site visits. Visitors with comments are those who
+			also posted a question comment that day. Coaching counts waitlist entries. Signups are email signups;
+			user signups are account registrations. Today is partial. Dates use UTC.
 		</p>
 		<details class="daily-data">
 			<summary>View exact daily counts</summary>
@@ -443,7 +445,7 @@
 		min-width: 0;
 		padding: 0;
 		border: 0;
-		border-radius: 3px 3px 0 0;
+		border-radius: 4px 4px 0 0;
 		background: var(--activity-color);
 		opacity: 0.68;
 		cursor: pointer;

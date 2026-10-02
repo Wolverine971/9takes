@@ -1,20 +1,65 @@
 <!-- src/routes/+error.svelte -->
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
+	import { page, updated } from '$app/stores';
 	import { Button } from '$lib/components/atoms';
 
 	let isNotFound = $derived($page.status === 404);
+	// Only a 4xx says "there is no page at this URL". A 5xx says nothing about the
+	// URL: a real server error already stays out of the index through its HTTP
+	// status, and a hydration failure (stale HTML whose chunks are gone after a
+	// deploy) is reported by SvelteKit as a client-side 500 on top of a page that
+	// served 200. A noindex injected there gets a good page dropped by Google.
+	let isClientError = $derived($page.status >= 400 && $page.status < 500);
 	let title = $derived(isNotFound ? 'That page is not here' : 'Something went sideways');
 	let description = $derived(
 		isNotFound
 			? 'The link may be old, or the page may have moved. Pick a clear route back into 9takes.'
 			: 'The page could not be completed right now. You can keep exploring while we straighten it out.'
 	);
+
+	const STALE_DEPLOY_RELOAD_KEY = '9takes:stale-deploy-reload:';
+
+	/**
+	 * SvelteKit reloads by itself when a client-side navigation fails and a newer
+	 * deploy is live, but not when the first hydration fails. Do the same here:
+	 * if a newer version is live, the 500 is almost certainly stale HTML missing
+	 * its chunks, and a fresh copy of the page fixes it. At most once per path
+	 * per tab session, and never without a working sessionStorage guard, so this
+	 * cannot loop. A real server error on the live version reports no update.
+	 */
+	async function reloadIfStaleDeploy(status: number) {
+		if (status < 500) return;
+
+		const key = STALE_DEPLOY_RELOAD_KEY + location.pathname;
+		try {
+			if (sessionStorage.getItem(key)) return;
+		} catch {
+			return;
+		}
+
+		const newerDeployIsLive = await updated.check().catch(() => false);
+		if (!newerDeployIsLive) return;
+
+		try {
+			sessionStorage.setItem(key, String(Date.now()));
+			if (!sessionStorage.getItem(key)) return;
+		} catch {
+			return;
+		}
+		location.reload();
+	}
+
+	onMount(() => {
+		void reloadIfStaleDeploy($page.status);
+	});
 </script>
 
 <svelte:head>
 	<title>{isNotFound ? 'Page not found' : 'Page error'} | 9takes</title>
-	<meta name="robots" content="noindex, nofollow" />
+	{#if isClientError}
+		<meta name="robots" content="noindex, nofollow" />
+	{/if}
 </svelte:head>
 
 <section class="error-page" aria-labelledby="error-title">

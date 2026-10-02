@@ -161,7 +161,8 @@ export const load: PageServerLoad = async (event) => {
 				eventType: 'gate_shown',
 				questionId: question.id,
 				path: event.url.pathname,
-				userId: session?.user?.id ?? null
+				userId: session?.user?.id ?? null,
+				userAgent: event.request?.headers.get('user-agent')
 			});
 		}
 
@@ -351,6 +352,7 @@ async function createQuestionComment(event: RequestEvent) {
 			fingerprint: commentInput.fingerprint,
 			eventType: 'contribution',
 			questionId: Number(commentInput.parent_id),
+			path: event.url.pathname,
 			userId: sessionUserId
 		});
 	}
