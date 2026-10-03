@@ -1,4 +1,5 @@
 <!-- docs/growth/host-desk/2026-10-03-type6-critic-replies.md -->
+
 # Host desk replies: Type 6 critic (2026-10-03)
 
 **Who:** logged-in user `07d2e6c9-8b3c-42ed-9902-3509b60e7284`, self-identified sx6. This is the most engaged logged-in user on the site: 320 logged-in visits over 15 days since 2026-07-14, 10 takes, and 23 visits to the Type 6 page. Last seen 2026-09-22.
@@ -17,7 +18,7 @@ Post via [/admin/host-desk](https://9takes.com/admin/host-desk). Skip the AI dra
 - **Where they wrote it:** the answer box embedded in [Depression Patterns by Enneagram Type](https://9takes.com/enneagram-corner/depression-patterns-by-enneagram-type#type-6-the-loyalists-depression), right below the Type 6 section
 - **Host desk draft:** #6 (skip it)
 
-> You were right about the part that matters. That section said 6s "don't feel sad" and then listed nothing but anxiety symptoms, which tells a depressed 6 their depression doesn't count. I rewrote it: https://9takes.com/enneagram-corner/depression-patterns-by-enneagram-type#type-6-the-loyalists-depression
+> You were right about the part that matters. That section said 6s don't feel "sad," they feel worried, and then listed almost nothing but anxiety symptoms, which tells a depressed 6 their depression doesn't count. I rewrote it: https://9takes.com/enneagram-corner/depression-patterns-by-enneagram-type#type-6-the-loyalists-depression
 >
 > What I was trying to describe is something I see in a lot of 6s: years of running on alert wear you down until "I have to be ready" becomes "what's the point." That's depression, and it deserved its own description instead of a list of anxiety symptoms. Thanks for calling it out this directly.
 

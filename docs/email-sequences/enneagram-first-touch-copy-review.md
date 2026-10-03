@@ -1,4 +1,5 @@
 <!-- docs/email-sequences/enneagram-first-touch-copy-review.md -->
+
 # Enneagram campaign: first-message copy review
 
 This is a founder introduction for existing 9takes account holders who may not remember the product or have heard much from DJ. The immediate goal is a saved Enneagram type. A first useful interaction matters more than introducing every feature at once.

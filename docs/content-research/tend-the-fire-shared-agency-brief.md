@@ -1,4 +1,5 @@
 <!-- docs/content-research/tend-the-fire-shared-agency-brief.md -->
+
 # The World Is Burning / Shared Agency Editorial Brief
 
 **Status:** Working brief for the first 9takes community post

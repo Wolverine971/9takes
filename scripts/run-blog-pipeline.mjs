@@ -217,10 +217,11 @@ export async function runPipeline(options, { root = repoRoot, execute = executeC
 	} catch (error) {
 		if (!(error instanceof Error) || !('code' in error) || error.code !== 'EEXIST') throw error;
 		const pid = Number(await fs.readFile(path.join(lock, 'pid'), 'utf8').catch(() => ''));
-		if (!pid) throw new Error('Pipeline lock has no PID; inspect it before removing it');
+		if (!pid)
+			throw new Error('Pipeline lock has no PID; inspect it before removing it', { cause: error });
 		try {
 			process.kill(pid, 0);
-			throw new Error(`Pipeline already running (PID ${pid})`);
+			throw new Error(`Pipeline already running (PID ${pid})`, { cause: error });
 		} catch (probe) {
 			if (!(probe instanceof Error) || !('code' in probe) || probe.code !== 'ESRCH') throw probe;
 		}

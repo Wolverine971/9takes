@@ -3,6 +3,7 @@ import { error, json } from '@sveltejs/kit';
 import { z } from 'zod';
 import { logger, withApiLogging } from '$lib/utils/logger';
 import { pagePingSchema } from '$lib/validation/analyticsSchemas';
+import { createBackgroundSupabaseClient } from '$lib/server/backgroundSupabase';
 import {
 	logBestEffortTelemetryFailure,
 	runBestEffortTelemetry
@@ -14,7 +15,7 @@ export const POST = withApiLogging(async (event) => {
 	try {
 		const body = await request.json();
 		const validated = pagePingSchema.parse(body);
-		const supabaseAny = locals.supabase as any;
+		const supabaseAny = (await createBackgroundSupabaseClient(locals.supabase)) as any;
 
 		runBestEffortTelemetry(
 			event,

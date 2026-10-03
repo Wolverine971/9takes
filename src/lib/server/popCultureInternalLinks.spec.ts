@@ -76,7 +76,7 @@ function collectPopCultureLinks(content: string): string[] {
 
 	for (const pattern of LINK_PATTERNS) {
 		pattern.lastIndex = 0;
-		let match: RegExpExecArray | null = null;
+		let match: RegExpExecArray | null;
 
 		while ((match = pattern.exec(content))) {
 			links.add(match[1].replace(/\/$/, ''));

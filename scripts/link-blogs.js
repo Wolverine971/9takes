@@ -272,7 +272,7 @@ function parseHtmlStructure(content) {
 		const startPos = match.index;
 		const endPos = startPos + fullTag.length;
 
-		let tagType = 'regular';
+		let tagType;
 		let tagName = '';
 
 		if (tagContent.startsWith('!--')) {

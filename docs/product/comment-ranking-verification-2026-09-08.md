@@ -1,4 +1,5 @@
 <!-- docs/product/comment-ranking-verification-2026-09-08.md -->
+
 # Comment ranking deployment verification — 2026-09-08
 
 Production is functioning in phase 2 (view collection). Ranked is deliberately off. There is one small application fix to redeploy: send an explicit null fingerprint when a reader has no visitor cookie.

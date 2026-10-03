@@ -1,4 +1,5 @@
 <!-- docs/product/2026-09-04-engagement-brainstorm.md -->
+
 # Bringing 9takes to life
 
 Brainstorm, September 4, 2026. Proposals for discussion, not an approved implementation plan.

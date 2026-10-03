@@ -22,7 +22,9 @@ export async function validateElasticConnection(): Promise<boolean> {
 		return false;
 	} catch (error) {
 		console.error('Elasticsearch connection failed:', error);
-		throw new Error('Failed to connect to Elasticsearch. Please check your configuration.');
+		throw new Error('Failed to connect to Elasticsearch. Please check your configuration.', {
+			cause: error
+		});
 	}
 }
 
@@ -78,7 +80,8 @@ export const createESQuestion = async (body: {
 	} catch (e) {
 		console.error('Failed to create ES question:', e);
 		throw new Error(
-			`Elasticsearch indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`
+			`Elasticsearch indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`,
+			{ cause: e }
 		);
 	}
 };
@@ -102,7 +105,8 @@ export const deleteESQuestion = async (body: {
 	} catch (e) {
 		console.error('Failed to delete ES question:', e);
 		throw new Error(
-			`Elasticsearch deletion failed: ${e instanceof Error ? e.message : 'Unknown error'}`
+			`Elasticsearch deletion failed: ${e instanceof Error ? e.message : 'Unknown error'}`,
+			{ cause: e }
 		);
 	}
 };
@@ -228,7 +232,8 @@ export const addESComment = async ({
 	} catch (e) {
 		console.error('Failed to add ES comment:', e);
 		throw new Error(
-			`Elasticsearch comment indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`
+			`Elasticsearch comment indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`,
+			{ cause: e }
 		);
 	}
 };
@@ -350,7 +355,9 @@ export const bulkIndexQuestions = async (
 		return { indexed, failed, errors };
 	} catch (e) {
 		console.error('Bulk indexing failed:', e);
-		throw new Error(`Bulk indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
+		throw new Error(`Bulk indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`, {
+			cause: e
+		});
 	}
 };
 
@@ -402,7 +409,9 @@ export const createESBlog = async (body: {
 		return resp;
 	} catch (e) {
 		console.error('Failed to create ES blog:', e);
-		throw new Error(`Blog indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
+		throw new Error(`Blog indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`, {
+			cause: e
+		});
 	}
 };
 
@@ -486,7 +495,8 @@ export const bulkIndexBlogs = async (blogs: BlogIndexData[]): Promise<BulkIndexR
 	} catch (e) {
 		console.error('Bulk blog indexing failed:', e);
 		throw new Error(
-			`Bulk blog indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`
+			`Bulk blog indexing failed: ${e instanceof Error ? e.message : 'Unknown error'}`,
+			{ cause: e }
 		);
 	}
 };
@@ -507,7 +517,9 @@ export const deleteIndex = async (
 		}
 	} catch (e) {
 		console.error(`Failed to delete index ${indexName}:`, e);
-		throw new Error(`Index deletion failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
+		throw new Error(`Index deletion failed: ${e instanceof Error ? e.message : 'Unknown error'}`, {
+			cause: e
+		});
 	}
 };
 
@@ -535,7 +547,9 @@ export const createIndex = async (
 		}
 	} catch (e) {
 		console.error(`Failed to create index ${indexName}:`, e);
-		throw new Error(`Index creation failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
+		throw new Error(`Index creation failed: ${e instanceof Error ? e.message : 'Unknown error'}`, {
+			cause: e
+		});
 	}
 };
 
@@ -551,7 +565,10 @@ export const recreateIndex = async (
 		return await createIndex(indexName, mappings, settings);
 	} catch (e) {
 		console.error(`Failed to recreate index ${indexName}:`, e);
-		throw new Error(`Index recreation failed: ${e instanceof Error ? e.message : 'Unknown error'}`);
+		throw new Error(
+			`Index recreation failed: ${e instanceof Error ? e.message : 'Unknown error'}`,
+			{ cause: e }
+		);
 	}
 };
 

@@ -79,12 +79,12 @@
 
 	$: linkDrops && updateCenter();
 
-	const updateCenter = () => {
+	function updateCenter() {
 		const address = linkDrops?.[0]?.addresses;
 		if (address?.latitude != null && address.longitude != null) {
 			center = [address.longitude, address.latitude];
 		}
-	};
+	}
 
 	function placeChanged(e: Event) {
 		const { result } = (e as CustomEvent<{ result: GeocoderPlace }>).detail;

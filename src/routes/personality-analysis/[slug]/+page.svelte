@@ -161,7 +161,7 @@
 	let currentPath = '';
 
 	// Use direct reactive assignments to ensure updates on navigation
-	let post: PageData['post'] = data.post;
+	let post: PageData['post'];
 	// The page HTML is shared by every visitor (ISR), so the discussion arrives
 	// from /api/personality-analysis/[slug]/discussion when the section is near
 	// the viewport. The give-first gate is still decided on the server.
@@ -169,20 +169,15 @@
 	let userHasAnswered = false;
 	let discussionLoaded = false;
 	let discussionRequest: Promise<void> | null = null;
-	let postMeta: App.BlogPost = normalizePost(data.post);
-	let postTypes: string[] = toStringArray(postMeta.type);
+	let postMeta: App.BlogPost;
 	// Server-filtered to published pages; falls back to the raw column so the
 	// rail still renders if an older payload comes through without the field.
-	let postSuggestions: string[] = data.suggestedPeople ?? toStringArray(data.post.suggestions);
+	let postSuggestions: string[];
 	let postDisplayName: string = formatPersonalityDisplayName(data.post.person || data.post.slug);
-	let postImagePath: string = buildPersonalityImagePath(
-		data.post.enneagram,
-		data.post.person || data.post.slug
-	);
+	let postImagePath: string;
 
 	$: post = data.post;
 	$: postMeta = normalizePost(post);
-	$: postTypes = toStringArray(postMeta.type);
 	$: postSuggestions = data.suggestedPeople ?? toStringArray(postMeta.suggestions);
 	$: postDisplayName = formatPersonalityDisplayName(postMeta.person || postMeta.slug);
 	$: caseFileTitle = postDisplayName;
@@ -306,6 +301,7 @@
 	// Track page changes
 	$: if (mounted && $page.url.pathname !== currentPath) {
 		// Page has changed
+		// eslint-disable-next-line no-useless-assignment -- read on the next reactive run
 		currentPath = $page.url.pathname;
 		resetPageState();
 	}
@@ -315,6 +311,7 @@
 
 	// Watch for slug changes and reinitialize content observer - optimized
 	$: if (data?.post?.slug && data.post.slug !== currentSlug) {
+		// eslint-disable-next-line no-useless-assignment -- read on the next reactive run
 		currentSlug = data.post.slug;
 
 		// Reset content store when slug changes
@@ -795,11 +792,9 @@
 		</div>
 		{#key post.slug}
 			<RelatedPosts
-				slug={data.slug}
-				{postTypes}
 				enneagramType={postMeta.enneagram?.toString() || null}
-				initialSameNichePosts={data.relatedPosts?.sameNichePosts ?? []}
-				initialSameEnneagramPosts={data.relatedPosts?.sameEnneagramPosts ?? []}
+				sameNichePosts={data.relatedPosts?.sameNichePosts ?? []}
+				sameEnneagramPosts={data.relatedPosts?.sameEnneagramPosts ?? []}
 			/>
 		{/key}
 

@@ -1,4 +1,5 @@
 <!-- artifacts/email-campaign/enneagram-personality-README.md -->
+
 # Enneagram email asset — selected palette A
 
 Generated programmatically with SVG geometry, outlined Inter Bold / Black and JetBrains Mono typography, and Sharp PNG export.

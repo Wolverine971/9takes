@@ -132,6 +132,7 @@
 	{#if data?.frontmatter?.pic}
 		<div style="display: flex; justify-content: center; margin: 1rem 0;">
 			<PopCard
+				priority
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
 				showIcon={false}
 				displayText=""

@@ -193,7 +193,7 @@
 		if (key === 'ArrowUp' || key === 'ArrowDown') {
 			event.preventDefault();
 
-			let newIndex = activeIndex;
+			let newIndex: number;
 			if (key === 'ArrowUp') {
 				newIndex = activeIndex <= 0 ? selectableOptions.length - 1 : activeIndex - 1;
 			} else {

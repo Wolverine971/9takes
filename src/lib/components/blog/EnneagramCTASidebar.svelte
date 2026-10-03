@@ -30,9 +30,9 @@
 	let windowWidth: number;
 	let contentWidth: number = 64 * 16;
 	let mainElement: HTMLElement | null = null;
-	let resolvedTitle = '';
-	let resolvedCopy = '';
-	let resolvedButtonLabel = '';
+	let resolvedTitle: string;
+	let resolvedCopy: string;
+	let resolvedButtonLabel: string;
 	const inputId = 'enneagram-cta-sidebar-email';
 	const errorId = 'enneagram-cta-sidebar-error';
 

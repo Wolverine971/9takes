@@ -1,4 +1,5 @@
 <!-- docs/growth/question-commenting/sql/comment-ranking-README.md -->
+
 # Comment ranking measurement
 
 Run `comment-ranking-weekly.sql` weekly in the Supabase SQL editor using the service role. Its first result reports the starter questions' cumulative exposure spread and below-floor share of the proposed top eight. Its second result is a per-take snapshot to export and retain with its date. No reader identity or take text is exported.

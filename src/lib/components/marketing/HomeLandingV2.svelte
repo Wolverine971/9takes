@@ -233,8 +233,7 @@
 				questionId: take.questionId,
 				questionUrl: take.slug,
 				commentId: result.commentId,
-				// ReplyOptInSurface only allows 'question_page'; these events carry $pathname '/'.
-				surface: 'question_page',
+				surface: 'homepage',
 				isFirstCommentEver: true
 			}
 		};

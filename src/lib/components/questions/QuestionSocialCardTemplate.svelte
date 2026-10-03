@@ -19,7 +19,7 @@
 	$: safeQuestionText = questionText?.trim() || 'Share your perspective';
 	$: safeQuestionUrl = questionUrl?.trim() || '9takes.com/questions';
 	$: displayUrl = safeQuestionUrl.replace(/^https?:\/\//, '');
-	let textLayout: QuestionCardTextLayout = calculateQuestionCardTextLayout(safeQuestionText);
+	let textLayout: QuestionCardTextLayout;
 	let layoutRequest = 0;
 
 	$: textLayout = calculateQuestionCardTextLayout(safeQuestionText);

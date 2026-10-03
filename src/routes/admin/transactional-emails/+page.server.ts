@@ -65,7 +65,7 @@ export const actions: Actions = {
 
 		const { email, subject, emailType } = validatedData;
 
-		let emailTypeToSend = '';
+		let emailTypeToSend: string;
 		switch (emailType) {
 			case 'joinEmail':
 				emailTypeToSend = joinEmail();

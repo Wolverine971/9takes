@@ -178,7 +178,7 @@ export async function validateRequest<T>(schema: z.ZodSchema<T>, request: Reques
 		return validateData(schema, data);
 	} catch (error) {
 		if (error instanceof SyntaxError) {
-			throw new Error('Invalid JSON in request body');
+			throw new Error('Invalid JSON in request body', { cause: error });
 		}
 		throw error;
 	}

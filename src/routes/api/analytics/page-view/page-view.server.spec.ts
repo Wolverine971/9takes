@@ -16,6 +16,10 @@ vi.mock('$lib/utils/logger', () => ({
 	withApiLogging: (handler: unknown) => handler
 }));
 
+vi.mock('$lib/server/backgroundSupabase', () => ({
+	createBackgroundSupabaseClient: vi.fn(async (client) => client)
+}));
+
 import { POST } from './+server';
 
 const validPayload = {

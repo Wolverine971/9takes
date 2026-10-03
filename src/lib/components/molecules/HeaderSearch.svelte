@@ -30,14 +30,14 @@
 
 	let query = '';
 	let routeQuery = '';
-	let trimmedQuery = '';
+	let trimmedQuery: string;
 	let resultsQuery = '';
 	let activeIndex = -1;
 	let isFocused = false;
 	let isOpen = false;
 	let isLoading = false;
 	let results: SearchResult[] = [];
-	let showResultsPanel = false;
+	let showResultsPanel: boolean;
 	let showResultList = false;
 	let debounceTimer: ReturnType<typeof setTimeout> | null = null;
 	let activeRequest = 0;

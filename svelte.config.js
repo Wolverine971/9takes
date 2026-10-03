@@ -8,6 +8,7 @@ import { mdsvex } from 'mdsvex';
 import preprocess from 'svelte-preprocess';
 
 import mdsvexConfig from './mdsvex.config.js';
+import { isBlogEmbedComponent } from './src/lib/blogEmbedCss.js';
 import { pruneLegacyJsonLdFromMarkdown } from './src/lib/rehype-prune-legacy-jsonld.js';
 
 /** @param {string | undefined} filename */
@@ -60,9 +61,10 @@ const config = {
 		// stylesheet (48 render-blocking sheets on /enneagram-corner/*). Injected CSS ships with
 		// the post's own JS, so SSR inlines only the rendered post's styles. The handle hook
 		// (src/lib/server/injectedStyleOrder.ts) keeps those styles after the stylesheet links so
-		// the cascade order matches the old linked CSS.
+		// the cascade order matches the old linked CSS. The components posts embed (callouts,
+		// diagrams, the strategic question) get the same treatment: see src/lib/blogEmbedCss.js.
 		dynamicCompileOptions({ filename }) {
-			if (isBlogContentFile(filename)) {
+			if (isBlogContentFile(filename) || isBlogEmbedComponent(filename)) {
 				return { css: 'injected' };
 			}
 		}

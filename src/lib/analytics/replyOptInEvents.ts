@@ -1,7 +1,7 @@
 // src/lib/analytics/replyOptInEvents.ts
 import { capture } from '$lib/analytics/posthog';
 
-export type ReplyOptInSurface = 'question_page';
+export type ReplyOptInSurface = 'homepage' | 'question_page';
 export type ReplyOptInFailureCategory =
 	'invalid_email' | 'suppressed' | 'ineligible' | 'network_error' | 'server_error';
 

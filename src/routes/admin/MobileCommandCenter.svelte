@@ -18,6 +18,7 @@
 		Users,
 		UserRoundPlus
 	} from '@lucide/svelte';
+	import { honestPulse } from '$lib/admin/honestPulse';
 	import { getMobileAdminCommand } from '$lib/admin/mobileAdminCommand';
 	import EmailSubscriptionStatus from '$lib/components/admin/EmailSubscriptionStatus.svelte';
 	import type { PageData } from './$types';
@@ -95,60 +96,84 @@
 	let maxRecentVisitors = $derived(Math.max(1, ...recentVisitorDays.map((day) => day.value ?? 0)));
 	let totalVisitors = $derived(visitorDays.reduce((total, day) => total + (day.value ?? 0), 0));
 
-	let primaryMetrics = $derived.by(() => [
-		{
-			label: 'Visitors · 30d',
-			value: formatCompactCount(totalVisitors),
-			meta: 'Traffic',
-			href: '/admin/analytics',
-			icon: Activity,
-			tone: 'data'
-		},
-		{
-			label: 'Contributors · WTD',
-			value: formatCompactCount(
-				data.retentionSummary?.activeContributorsThisWeek ?? data.activeContributors
-			),
-			meta: 'Active',
-			href: '/admin/comments',
-			icon: MessageCircle,
-			tone: 'success'
-		},
-		{
-			label: 'New users · today',
-			value: formatCompactCount(data.newUsersToday),
-			meta: `${formatCompactCount(data.totalUsers)} total`,
-			href: '/admin/users',
-			icon: UserRoundPlus,
-			tone: 'primary'
-		},
-		{
-			label: 'Comments · today',
-			value: formatCompactCount(data.commentsToday),
-			meta: `${formatCompactCount(data.totalComments)} total`,
-			href: '/admin/comments',
-			icon: MessageCircle,
-			tone: 'success'
-		},
-		{
-			label: 'Email · today',
-			value: formatCompactCount(data.newEmailSignupsToday),
-			meta: `${formatCompactCount(data.newEmailSignupsWeek)} this week`,
-			href: '/admin/users',
-			icon: Mail,
-			tone: 'default'
-		},
-		{
-			label: 'Notes · new',
-			value: data.talkNotes ? formatCompactCount(data.talkNotes.newCount) : '–',
-			meta: data.talkNotes
-				? `${formatCompactCount(data.talkNotes.totalCount)} total`
-				: 'Talk to DJ',
-			href: '/admin/consulting/notes',
-			icon: MessageSquareText,
-			tone: (data.talkNotes?.newCount ?? 0) > 0 ? 'warning' : 'default'
-		}
-	]);
+	let pulse = $derived(honestPulse(data.growthTrends));
+
+	const pulseTileLinks = {
+		humanVisitors: { href: '/admin/analytics', icon: Activity, tone: 'data' },
+		contributors: { href: '/admin/comments', icon: MessageCircle, tone: 'success' },
+		humanComments: { href: '/admin/comments', icon: MessageCircle, tone: 'success' },
+		realSignups: { href: '/admin/users', icon: Mail, tone: 'default' },
+		registrations: { href: '/admin/users', icon: UserRoundPlus, tone: 'primary' }
+	} as const;
+
+	let notesMetric = $derived({
+		label: 'Notes · new',
+		value: data.talkNotes ? formatCompactCount(data.talkNotes.newCount) : '–',
+		meta: data.talkNotes ? `${formatCompactCount(data.talkNotes.totalCount)} total` : 'Talk to DJ',
+		href: '/admin/consulting/notes',
+		icon: MessageSquareText,
+		tone: (data.talkNotes?.newCount ?? 0) > 0 ? 'warning' : 'default'
+	});
+
+	// Honest weekly numbers when the v2 RPC loaded; otherwise the old raw counters,
+	// labelled as raw (the same fallback GrowthTrends uses).
+	let primaryMetrics = $derived.by(() =>
+		pulse
+			? [
+					...pulse.tiles.map((tile) => ({
+						label: tile.label,
+						value: formatCompactCount(tile.value),
+						meta: tile.meta,
+						...pulseTileLinks[tile.key]
+					})),
+					notesMetric
+				]
+			: [
+					{
+						label: 'Raw visitors · 30d',
+						value: formatCompactCount(totalVisitors),
+						meta: 'Bots included',
+						href: '/admin/analytics',
+						icon: Activity,
+						tone: 'data'
+					},
+					{
+						label: 'Contributors · WTD',
+						value: formatCompactCount(
+							data.retentionSummary?.activeContributorsThisWeek ?? data.activeContributors
+						),
+						meta: 'Active',
+						href: '/admin/comments',
+						icon: MessageCircle,
+						tone: 'success'
+					},
+					{
+						label: 'New users · today',
+						value: formatCompactCount(data.newUsersToday),
+						meta: `${formatCompactCount(data.totalUsers)} total`,
+						href: '/admin/users',
+						icon: UserRoundPlus,
+						tone: 'primary'
+					},
+					{
+						label: 'Raw comments · today',
+						value: formatCompactCount(data.commentsToday),
+						meta: 'Incl. yours + removed',
+						href: '/admin/comments',
+						icon: MessageCircle,
+						tone: 'success'
+					},
+					{
+						label: 'Raw email · today',
+						value: formatCompactCount(data.newEmailSignupsToday),
+						meta: `${formatCompactCount(data.newEmailSignupsWeek)} this week, bots incl.`,
+						href: '/admin/users',
+						icon: Mail,
+						tone: 'default'
+					},
+					notesMetric
+				]
+	);
 
 	let funnelMetrics = $derived.by(() => [
 		{
@@ -216,11 +241,22 @@
 	<section class="metric-section" aria-labelledby="mobile-pulse-title">
 		<div class="section-heading">
 			<div>
-				<span class="eyebrow">Now</span>
+				<span class="eyebrow">{pulse ? 'Real people' : 'Raw rows'}</span>
 				<h2 id="mobile-pulse-title">Pulse</h2>
 			</div>
-			<span class="period-label">local snapshot</span>
+			<span class="period-label">
+				{pulse ? `wk of ${formatDate(pulse.weekStart)}` : 'bots included'}
+			</span>
 		</div>
+
+		{#if !pulse}
+			<p class="pulse-note" role="status">
+				{data.growthTrends?.status === 'migration_pending'
+					? 'Honest weekly numbers are waiting on one database migration.'
+					: 'Honest weekly numbers couldn’t load right now.'}
+				These tiles are raw rows: most visitors are bots, and comments include your own replies.
+			</p>
+		{/if}
 
 		<div class="metric-matrix">
 			{#each primaryMetrics as metric (metric.label)}
@@ -691,6 +727,15 @@
 		font-size: 0.58rem;
 		letter-spacing: 0.02em;
 		text-transform: uppercase;
+	}
+
+	.pulse-note {
+		padding: 10px 14px;
+		border-bottom: 1px solid color-mix(in srgb, var(--stone-edge) 62%, transparent);
+		background: color-mix(in srgb, var(--warning) 8%, transparent);
+		color: var(--warning-text);
+		font-size: 0.68rem;
+		line-height: 1.4;
 	}
 
 	.metric-matrix {

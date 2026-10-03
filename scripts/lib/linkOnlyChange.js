@@ -8,7 +8,11 @@
 const INTERNAL_MD_LINK = /\[([^\]\n]*)\]\((\/[^)\s]*)\)/g;
 const INTERNAL_HTML_LINK = /<a\s+href="(\/[^"]*)"(?:\s+[a-z-]+="[^"]*")*\s*>([\s\S]*?)<\/a>/gi;
 
-/** Replace every root-relative link with its anchor text. External links stay. */
+/**
+ * Replace every root-relative link with its anchor text. External links stay.
+ * @param {unknown} text
+ * @returns {string}
+ */
 export function stripInternalLinks(text) {
 	return String(text ?? '')
 		.replace(INTERNAL_MD_LINK, '$1')
@@ -18,6 +22,9 @@ export function stripInternalLinks(text) {
 /**
  * True when `before` and `after` differ, and only by internal link markup:
  * same words, same order, same external links and citations.
+ * @param {unknown} before
+ * @param {unknown} after
+ * @returns {boolean}
  */
 export function isInternalLinkOnlyChange(before, after) {
 	if (before === after) return false;

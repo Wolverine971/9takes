@@ -1,4 +1,5 @@
 <!-- docs/security/2026-09-03-migration-reconciliation.md -->
+
 # Migration reconciliation — September 3, 2026
 
 Project: `9takes` (`nhjjzcsnmyotyhykbajc`). Checked after the production security rollout at 23:08 UTC.

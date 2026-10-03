@@ -1,4 +1,5 @@
 <!-- docs/seo/indexnow.md -->
+
 # IndexNow submission
 
 Pushes changed URLs to Bing (and every other participating engine) instead of waiting for a crawl.

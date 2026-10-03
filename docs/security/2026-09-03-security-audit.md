@@ -1,4 +1,5 @@
 <!-- docs/security/2026-09-03-security-audit.md -->
+
 # 9takes security audit — September 3, 2026
 
 This audit found exploitable database access controls, unsafe URL fetching and uploads, and vulnerable dependencies. The database fixes and matching application are now live. Credentials and personal records are deliberately excluded from this report.

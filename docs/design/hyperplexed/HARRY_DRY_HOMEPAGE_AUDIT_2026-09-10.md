@@ -219,7 +219,6 @@ Verification: all 16 focused tests pass, including the new order, exact two-seco
 
 - [Desktop](screenshots/harry-dry-2026-09-10/v2/slideshow-loop/desktop-dark.png) · [mobile](screenshots/harry-dry-2026-09-10/v2/slideshow-loop/mobile-dark.png)
 
-
 ## V2 promoted to the main homepage
 
 DJ approved V2 as the main homepage. **Homepage ownership → P3+P6+P13:** `/` now renders `src/lib/components/marketing/HomeLandingV2.svelte`, preserving the approved offer, thought bubbles, private practice, founder story, live question cards and two-second five-scene image loop. The production header restores Questions, Explore and Account and removes V2/comparison labels. The former homepage is preserved at `/design-preview/harry-dry`; the V2 preview uses the same promoted component with its own preview header.
@@ -234,7 +233,6 @@ Verification:
 - No deployment or conversion claim is made by this local promotion.
 
 [Desktop dark](screenshots/harry-dry-2026-09-10/v2/promotion/desktop-dark.png) · [desktop light](screenshots/harry-dry-2026-09-10/v2/promotion/desktop-light.png) · [mobile dark](screenshots/harry-dry-2026-09-10/v2/promotion/mobile-dark.png) · [mobile light](screenshots/harry-dry-2026-09-10/v2/promotion/mobile-light.png)
-
 
 ### Homepage follow-up — retain the existing site navbar
 

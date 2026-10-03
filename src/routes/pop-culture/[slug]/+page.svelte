@@ -133,6 +133,7 @@
 	{:else if data?.frontmatter?.pic}
 		<div class="featured-image" class:dark-image={isDarkContent}>
 			<PopCard
+				priority
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
 				showIcon={false}
 				displayText=""

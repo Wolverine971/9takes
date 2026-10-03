@@ -21,9 +21,9 @@ assert.equal(
 	'Run this check with node --no-experimental-require-module'
 );
 
-const FUNCTIONS_DIR = '.vercel/output/functions';
+const FUNCTIONS_DIR = path.resolve('.vercel/output/functions');
 const ARTICLE_FUNCTION = `${FUNCTIONS_DIR}/personality-analysis/[slug].func`;
-const ARTICLE_PROCESSOR = '.svelte-kit/output/server/chunks/blogContentProcessor.js';
+const ARTICLE_PROCESSOR = 'chunks/blogContentProcessor.js';
 const RUNTIME_REQUIRE = /__require\(\s*["']([^"']+)["']\s*\)/g;
 
 function listFunctionDirs(dir, found = new Set()) {
@@ -44,6 +44,15 @@ function listJsFiles(dir, found = []) {
 	return found;
 }
 
+// The adapter roots each function at the common ancestor of its traced files. In a
+// nested worktree (.claude/worktrees/<id>/) that resolves node_modules from the main
+// checkout, that ancestor is the main checkout, so the server output sits under
+// `.claude/worktrees/<id>/.svelte-kit/` inside the function. The handler path says where.
+function serverOutputDir(functionDir) {
+	const config = JSON.parse(readFileSync(path.join(functionDir, '.vc-config.json'), 'utf8'));
+	return path.join(functionDir, path.dirname(path.dirname(config.handler)), 'output/server');
+}
+
 function isolate(functionDir) {
 	const copy = mkdtempSync(path.join(tmpdir(), 'server-runtime-'));
 	// Keep the bundle's relative pnpm symlinks as-is; resolving them would point back
@@ -56,7 +65,7 @@ const unresolved = new Set();
 for (const functionDir of listFunctionDirs(FUNCTIONS_DIR)) {
 	const copy = isolate(functionDir);
 	try {
-		for (const file of listJsFiles(path.join(copy, '.svelte-kit/output/server'))) {
+		for (const file of listJsFiles(serverOutputDir(copy))) {
 			const requireFrom = createRequire(file);
 			for (const [, specifier] of readFileSync(file, 'utf8').matchAll(RUNTIME_REQUIRE)) {
 				if (isBuiltin(specifier)) continue;
@@ -81,7 +90,7 @@ console.log('✓ Every runtime require() in the traced Vercel functions resolves
 
 const articleCopy = isolate(realpathSync(ARTICLE_FUNCTION));
 try {
-	await import(pathToFileURL(path.join(articleCopy, ARTICLE_PROCESSOR)).href);
+	await import(pathToFileURL(path.join(serverOutputDir(articleCopy), ARTICLE_PROCESSOR)).href);
 } finally {
 	rmSync(articleCopy, { recursive: true, force: true });
 }

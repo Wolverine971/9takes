@@ -78,7 +78,7 @@ function calculateHealthScore(
 	const crossLinksScore = Math.min(100, (totalLinks / Math.max(avgLinks, 1)) * 50);
 
 	// content_length_score (25%) - based on word count benchmarks
-	let contentLengthScore = 0;
+	let contentLengthScore: number;
 	if (blog.wordCount >= 5000) contentLengthScore = 100;
 	else if (blog.wordCount >= 3000) contentLengthScore = 85;
 	else if (blog.wordCount >= 1500) contentLengthScore = 70;

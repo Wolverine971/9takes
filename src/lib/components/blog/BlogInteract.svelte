@@ -38,11 +38,11 @@
 
 	let anonymousComment = false;
 
-	const watchData = () => {
+	function watchData() {
 		if (!data?.flags?.userHasAnswered) {
 			commenting = true;
 		}
-	};
+	}
 
 	let comment: string = '';
 	let commenting: boolean = false;

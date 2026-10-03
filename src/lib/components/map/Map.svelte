@@ -27,13 +27,12 @@
 		getMapbox: () => mapbox
 	});
 
-	let container: HTMLElement | undefined;
 	let mapbox: unknown = null;
 
+	// map-action supplies `container` (the bound node) itself.
 	const optionsWithDefaults = Object.assign(
 		{
 			accessToken,
-			container,
 			style,
 			center,
 			zoom,

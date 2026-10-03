@@ -1,8 +1,5 @@
 <!-- src/lib/components/molecules/RelatedPosts.svelte -->
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { deserialize } from '$app/forms';
-	import { ErrorState, Spinner } from '$lib/components/atoms';
 	import {
 		buildPersonalityAnalysisPath,
 		buildPersonalityImagePath,
@@ -14,106 +11,28 @@
 		enneagram: string | number | null;
 	};
 
-	type RelatedPostsPayload = {
+	// Server-loaded only: personality pages are ISR-cached, and ISR drops `?/action`
+	// form actions, so a client-side refetch here can only 404.
+	type RelatedPostsProps = {
+		enneagramType?: string | null;
 		sameNichePosts?: RelatedPostCard[];
 		sameEnneagramPosts?: RelatedPostCard[];
 	};
 
-	type RelatedPostsProps = {
-		slug: string;
-		postTypes?: string[];
-		enneagramType?: string | null;
-		initialSameNichePosts?: RelatedPostCard[];
-		initialSameEnneagramPosts?: RelatedPostCard[];
-	};
-
 	let {
-		slug,
-		postTypes = [],
 		enneagramType = null,
-		initialSameNichePosts = [],
-		initialSameEnneagramPosts = []
+		sameNichePosts = [],
+		sameEnneagramPosts = []
 	}: RelatedPostsProps = $props();
-
-	let fetchedSameNichePosts = $state<RelatedPostCard[] | null>(null);
-	let fetchedSameEnneagramPosts = $state<RelatedPostCard[] | null>(null);
-	let requestComplete = $state(false);
-	let error = $state<string | null>(null);
-	let hasInitialPosts = $derived(
-		initialSameNichePosts.length > 0 || initialSameEnneagramPosts.length > 0
-	);
-	let loading = $derived(!hasInitialPosts && !requestComplete);
-	let sameNichePosts = $derived(fetchedSameNichePosts ?? initialSameNichePosts);
-	let sameEnneagramPosts = $derived(fetchedSameEnneagramPosts ?? initialSameEnneagramPosts);
 
 	const MAX_POSTS_PER_GROUP = 4;
 
 	function selectPosts(posts: RelatedPostCard[]) {
 		return posts.slice(0, MAX_POSTS_PER_GROUP);
 	}
-
-	onMount(async () => {
-		if (!loading) return;
-
-		try {
-			// Create the form data for the request
-			const formData = new FormData();
-			formData.append('slug', slug);
-
-			if (postTypes.length) {
-				formData.append('postTypes', JSON.stringify(postTypes));
-			}
-
-			if (enneagramType) {
-				formData.append('enneagram', enneagramType);
-			}
-
-			// Send request to the server action
-			const response = await fetch(`?/getRelatedPosts`, {
-				method: 'POST',
-				body: formData
-			});
-
-			const result = await deserialize(await response.text());
-
-			if (result.type === 'success') {
-				const payload = (result.data ?? {}) as RelatedPostsPayload;
-				fetchedSameNichePosts = Array.isArray(payload.sameNichePosts) ? payload.sameNichePosts : [];
-				fetchedSameEnneagramPosts = Array.isArray(payload.sameEnneagramPosts)
-					? payload.sameEnneagramPosts
-					: [];
-			} else {
-				error =
-					result.type === 'error'
-						? result.error?.message || 'Unable to load related content'
-						: 'Unable to load related content';
-			}
-		} catch (e) {
-			error = 'Failed to load related posts';
-			console.error(e);
-		} finally {
-			requestComplete = true;
-		}
-	});
 </script>
 
-{#if loading}
-	<section class="suggestions-container" aria-labelledby="loading-suggestions">
-		<h2 id="loading-suggestions" class="suggestions-title">Related Case Files</h2>
-		<div class="lazy-loading">
-			<Spinner size="md" label="Loading related content">Loading related content…</Spinner>
-		</div>
-	</section>
-{:else if error}
-	<section class="suggestions-container" aria-labelledby="error-suggestions">
-		<h2 id="error-suggestions" class="suggestions-title">Related Case Files</h2>
-		<ErrorState
-			size="compact"
-			title="Related content unavailable"
-			body="Try refreshing the page."
-		/>
-	</section>
-{:else if sameNichePosts.length || sameEnneagramPosts.length}
+{#if sameNichePosts.length || sameEnneagramPosts.length}
 	<section class="suggestions-container" aria-labelledby="suggestions-title">
 		<h2 id="suggestions-title" class="suggestions-title">Related Case Files</h2>
 		<div class="suggestions-grid">
@@ -312,12 +231,6 @@
 		text-overflow: ellipsis;
 		white-space: nowrap;
 		text-transform: capitalize;
-	}
-
-	.lazy-loading {
-		text-align: center;
-		padding: 2rem;
-		color: var(--ink-mid);
 	}
 
 	@media (max-width: 420px) {

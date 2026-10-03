@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/blog-pipeline-audit-2026-09-09.md -->
+
 # People-blog pipeline audit — September 9, 2026
 
 The pipeline has strong editorial instincts, but too many of its stages compensate for problems introduced upstream. The best improvement is to strengthen the evidence and type hypothesis before drafting, reduce repeated editing, and give every hard requirement one authoritative implementation.
@@ -14,15 +16,15 @@ Inspected 91 saved run summaries, with a closer look at the 29 summaries dated A
 
 Within that recent group:
 
-| Observation | Count |
-| --- | ---: |
-| Runs marked `completed: true` | 26 |
-| Completed runs that used revision | 19 |
-| Completed runs with stage warnings | 21 |
-| Completed runs with no final overall grade | 4 |
-| Completed runs with a recorded non-passing perspective status | 8 |
-| Completed runs whose initial similarity scan exited nonzero | 15 |
-| Completed runs whose post-revision similarity scan exited nonzero | 12 |
+| Observation                                                       | Count |
+| ----------------------------------------------------------------- | ----: |
+| Runs marked `completed: true`                                     |    26 |
+| Completed runs that used revision                                 |    19 |
+| Completed runs with stage warnings                                |    21 |
+| Completed runs with no final overall grade                        |     4 |
+| Completed runs with a recorded non-passing perspective status     |     8 |
+| Completed runs whose initial similarity scan exited nonzero       |    15 |
+| Completed runs whose post-revision similarity scan exited nonzero |    12 |
 
 These are operational outcomes, not judgments that the articles are bad. They show how often the pipeline enters repair or needs human interpretation.
 
@@ -160,15 +162,15 @@ The grader's strongest anti-inflation controls—rank ordering, spread, distribu
 
 ## Smaller inconsistencies worth cleaning up together
 
-| Area | Conflict or drift | Resolution |
-| --- | --- | --- |
-| Authority | Editorial skill calls itself the overriding source of truth; creator calls its inline bans canonical; cohesion copies a ban list | One editorial standard, with explicit people-profile exceptions; thin task-specific prompts |
-| Ending | General standards use “Hook → Insight → Action step” and permit a CTA; people rules ban body CTAs | State the profile exception once and keep product interactions in the page template |
-| Quotations | Creator says direct quotes are never altered; em-dash lint exempts attribution lines but not all quoted speech | Preserve quoted text exactly; distinguish quotation content from author prose in lint |
-| Verification hash | Verify prompt says frontmatter is ignored; implementation includes titles, type, person, description, FAQs | Document the actual review surface consistently |
-| Ledgers | Lint checks ledger-name presence, not accuracy; intermediate edits can leave them stale | Generate mechanical inventories from the final draft; keep judgment/evidence in sidecars |
-| Publishing | Manual publish command requires a subsequent Chorus attachment; daily publisher invokes only the parser | Make release completeness consistent; prepare required engagement material before release |
-| Prompt maintenance | Historical audit narratives and near-duplicate checklists are embedded throughout prompts | Move rationale/history to docs; keep runtime instructions short and current |
+| Area               | Conflict or drift                                                                                                                | Resolution                                                                                  |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Authority          | Editorial skill calls itself the overriding source of truth; creator calls its inline bans canonical; cohesion copies a ban list | One editorial standard, with explicit people-profile exceptions; thin task-specific prompts |
+| Ending             | General standards use “Hook → Insight → Action step” and permit a CTA; people rules ban body CTAs                                | State the profile exception once and keep product interactions in the page template         |
+| Quotations         | Creator says direct quotes are never altered; em-dash lint exempts attribution lines but not all quoted speech                   | Preserve quoted text exactly; distinguish quotation content from author prose in lint       |
+| Verification hash  | Verify prompt says frontmatter is ignored; implementation includes titles, type, person, description, FAQs                       | Document the actual review surface consistently                                             |
+| Ledgers            | Lint checks ledger-name presence, not accuracy; intermediate edits can leave them stale                                          | Generate mechanical inventories from the final draft; keep judgment/evidence in sidecars    |
+| Publishing         | Manual publish command requires a subsequent Chorus attachment; daily publisher invokes only the parser                          | Make release completeness consistent; prepare required engagement material before release   |
+| Prompt maintenance | Historical audit narratives and near-duplicate checklists are embedded throughout prompts                                        | Move rationale/history to docs; keep runtime instructions short and current                 |
 
 The parser already strips HTML comments before storing article content. The embedded-ledger concern here is stale state and grading contamination, not a claim that this publishing path exposes those comments to readers.
 
@@ -176,13 +178,13 @@ The parser already strips HTML comments before storing article content. The embe
 
 This design has six mandatory top-level model calls, with two more only if final verification identifies a repair. It is a proposal to pilot, not a claim of measured equal quality or proportional cost savings.
 
-| Phase | Work and artifact | Model calls |
-| --- | --- | ---: |
-| 1. Research and challenge | Verified evidence record, chronology, uncertainty, strongest type/alternative, bounded intent notes | 1 |
-| 2. Write | One reader-led draft plus initial metadata; use the evidence record and a short editorial standard | 1 |
-| 3. Independently review | Evidence/type/fairness review; separate reader/editorial/durability review, both on the same clean snapshot | 2 |
-| 4. Edit and package | One adjudicated worklist; substantive repairs, prose, final FAQs/citations, protected passages | 1 |
-| 5. Verify and decide | Check accepted repairs, new claims, metadata agreement, preserved strengths; machine checks evaluate final artifacts | 1 |
+| Phase                     | Work and artifact                                                                                                    | Model calls |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------: |
+| 1. Research and challenge | Verified evidence record, chronology, uncertainty, strongest type/alternative, bounded intent notes                  |           1 |
+| 2. Write                  | One reader-led draft plus initial metadata; use the evidence record and a short editorial standard                   |           1 |
+| 3. Independently review   | Evidence/type/fairness review; separate reader/editorial/durability review, both on the same clean snapshot          |           2 |
+| 4. Edit and package       | One adjudicated worklist; substantive repairs, prose, final FAQs/citations, protected passages                       |           1 |
+| 5. Verify and decide      | Check accepted repairs, new claims, metadata agreement, preserved strengths; machine checks evaluate final artifacts |           1 |
 
 Run cheap structural checks after drafting and after edits, before spending another full review call. If verification fails on a repairable issue, allow one targeted repair plus reverification. If evidence is inadequate, hold the profile with a concrete research task instead of polishing around the gap.
 
@@ -194,15 +196,15 @@ Use a small set of durable artifacts: evidence record, draft, review findings, a
 
 For each important passage, the working record should answer:
 
-| Field | Purpose |
-| --- | --- |
-| Claim ID and draft location | What assertion are we assessing? |
-| Class | Observed fact, self-report, third-party report, interpretation, disputed, unknown |
-| Source and locator | URL/document, speaker, date, page or timestamp |
-| Context | What was actually said/done, and under what circumstances? |
-| Inference | What motivational reading does this support, and how strongly? |
-| Alternative/counterevidence | What else could explain it? What weakens this reading? |
-| Durability | Stable event, changing status, or unresolved matter; when does it need review? |
+| Field                       | Purpose                                                                           |
+| --------------------------- | --------------------------------------------------------------------------------- |
+| Claim ID and draft location | What assertion are we assessing?                                                  |
+| Class                       | Observed fact, self-report, third-party report, interpretation, disputed, unknown |
+| Source and locator          | URL/document, speaker, date, page or timestamp                                    |
+| Context                     | What was actually said/done, and under what circumstances?                        |
+| Inference                   | What motivational reading does this support, and how strongly?                    |
+| Alternative/counterevidence | What else could explain it? What weakens this reading?                            |
+| Durability                  | Stable event, changing status, or unresolved matter; when does it need review?    |
 
 Require this coverage for the claims that carry the thesis. Do not turn every harmless transition into a research form. The public article should make the argument readable; the working record should make it auditable.
 

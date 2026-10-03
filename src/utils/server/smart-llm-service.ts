@@ -704,7 +704,7 @@ export class SmartLLMService {
 		// Add JSON-specific instructions to system prompt
 		const enhancedSystemPrompt = this.enhanceSystemPromptForJSON(options.systemPrompt);
 
-		let lastError: Error | null = null;
+		let lastError: Error | null;
 		let retryCount = 0;
 		const maxRetries = options.validation?.maxRetries || 2;
 
@@ -790,12 +790,14 @@ export class SmartLLMService {
 
 						// Guard against malformed retry response
 						if (!retryResponse.choices || retryResponse.choices.length === 0) {
-							throw new Error('Retry: OpenRouter returned empty choices array');
+							throw new Error('Retry: OpenRouter returned empty choices array', {
+								cause: parseError
+							});
 						}
 
 						const retryContent = retryResponse.choices[0]?.message?.content;
 						if (!retryContent) {
-							throw new Error('Retry: OpenRouter returned empty content');
+							throw new Error('Retry: OpenRouter returned empty content', { cause: parseError });
 						}
 
 						cleanedRetry = this.cleanJSONResponse(retryContent);
@@ -816,7 +818,8 @@ export class SmartLLMService {
 							});
 						}
 						throw new Error(
-							`Failed to parse JSON after ${retryCount} retries. Original error: ${parseError instanceof Error ? parseError.message : 'Unknown error'}`
+							`Failed to parse JSON after ${retryCount} retries. Original error: ${parseError instanceof Error ? parseError.message : 'Unknown error'}`,
+							{ cause: retryError }
 						);
 					}
 				} else {
@@ -979,7 +982,8 @@ export class SmartLLMService {
 			}).catch((err) => console.error('Failed to log error:', err));
 
 			throw new Error(
-				`Failed to generate valid JSON (${options.operationType || 'other'}): ${lastError?.message}`
+				`Failed to generate valid JSON (${options.operationType || 'other'}): ${lastError?.message}`,
+				{ cause: error }
 			);
 		}
 	}
@@ -1173,7 +1177,7 @@ export class SmartLLMService {
 				}
 			}).catch((err) => console.error('Failed to log error:', err));
 
-			throw new Error('Failed to generate text');
+			throw new Error('Failed to generate text', { cause: error });
 		}
 	}
 
@@ -1322,7 +1326,8 @@ export class SmartLLMService {
 					});
 				}
 				throw new Error(
-					`Request timeout after ${this.openRouterTimeoutMs}ms for models ${routedModels.join(', ')}`
+					`Request timeout after ${this.openRouterTimeoutMs}ms for models ${routedModels.join(', ')}`,
+					{ cause: error }
 				);
 			}
 

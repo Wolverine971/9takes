@@ -218,7 +218,7 @@
 				</div>
 			{:else if displayText && !showDescription}
 				<p
-					class={`name-pop-${namePopId} text-shadow rounded-md bg-white bg-opacity-20 text-xs font-normal uppercase tracking-wider text-white transition-opacity duration-300 group-hover:opacity-0`}
+					class={`name-pop-${namePopId} text-shadow group-hover:opacity-0 rounded-md bg-white bg-opacity-20 text-xs font-normal uppercase tracking-wider text-white transition-opacity duration-300`}
 					class:yourname={displayText === 'YOUR NAME'}
 					data-value={displayText}
 					in:fly={{ y: -200, duration: 1500 }}

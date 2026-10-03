@@ -1,7 +1,8 @@
 // src/lib/server/injectedStyleOrder.ts
 
-// Blog posts compile with `css: 'injected'` (see svelte.config.js), so SSR renders each
-// post's styles as `<style id="svelte-…">` inside %sveltekit.head%. SvelteKit places that
+// Blog posts and the components they embed compile with `css: 'injected'` (see
+// svelte.config.js), so SSR renders their styles as `<style id="svelte-…">` inside
+// %sveltekit.head%. SvelteKit places that
 // rendered head *before* the page's `<link rel="stylesheet">` tags, which would let
 // equal-specificity rules in blog.css / the [slug] page CSS beat the post's own rules.
 // Post CSS used to load after those stylesheets (and Svelte appends injected styles at the

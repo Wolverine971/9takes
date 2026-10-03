@@ -73,6 +73,10 @@ const BANNED_TW_RE = new RegExp(
 export default [
 	{
 		ignores: [
+			// Agent worktrees are full repo copies; git hides them via .git/info/exclude,
+			// which ESLint does not read.
+			'.claude/worktrees/**',
+			'docs/archives/**',
 			'.svelte-kit/**',
 			'.vercel/**',
 			'build/**',

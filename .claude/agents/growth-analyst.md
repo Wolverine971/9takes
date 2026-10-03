@@ -64,7 +64,67 @@ Diagnose growth health across product, content, onboarding, retention, email, an
 
 - `email_sends`, `email_tracking_events` (open/click + geo), `email_sequence_enrollments`, `email_sequences`, `email_unsubscribes`, `scheduled_emails`
 
-**Pre-built RPCs** (grep `supabase.rpc(` under `src/routes/admin/` to confirm): `visitors_last_30_days()`, `comments_last_30_days()`, `daily_questions_stats()`, `get_page_analytics_overview|timeseries|pages|pages_sorted|top_pages_timeseries()`, `get_email_analytics()`, `get_email_dashboard_users()`
+**Pre-built RPCs** (grep `supabase.rpc(` under `src/routes/admin/` to confirm):
+
+- **Headline source:** `admin_engagement_trends_weekly_v2(p_weeks)`. Human-filtered and raw values side by side, per week. See "Honest numbers" below; use it for every headline growth number.
+- Raw, bot-inclusive (diagnostic only, never a headline): `admin_engagement_trends_30_days()`, `visitors_last_30_days()`, `comments_last_30_days()`, `daily_questions_stats()`, `get_page_analytics_overview|timeseries|pages|pages_sorted|top_pages_timeseries()`
+- Email: `get_email_analytics()`, `get_email_dashboard_users()`
+
+## Honest numbers: the headline source
+
+The 2026-09-30 audit found the old dashboard misread a flat line as a drop: about 85% of raw "visitors" were bots, raw "comments" included DJ's own replies and removed rows, signups included two bot waves, and a 30-day window could not tell "just dropped" from "was always zero". Every headline number in a growth audit now comes from one query:
+
+```sql
+select * from admin_engagement_trends_weekly_v2(26);
+```
+
+Run it as `./scripts/db-query.sh "select * from admin_engagement_trends_weekly_v2(26)"`. It returns one row per week, oldest first.
+
+- **Weeks** start Monday, America/New_York. The last row is the current, partial week. Report the last complete week as "this week" and show the partial week only labelled as partial.
+- **Visitor lag:** visitor columns come from `visitor_day_activity`, refreshed about every 12 hours, so the current week can trail by half a day.
+- **Columns** (`raw_*` = every row, bot-inclusive; the unprefixed column is the honest one):
+  - `human_visitors` / `raw_visitors`, plus `returning_human_visitors`
+  - `human_comments` / `raw_comments`
+  - `contributors`, `returning_contributors`
+  - `real_signups` / `raw_signups`
+  - `registrations` / `raw_registrations`
+  - `bookings` / `raw_bookings`, split into `waitlist_adds`, `talk_notes`, `consulting_sessions`
+
+**Definitions** (copied from `supabase/migrations/20261002120000_admin_engagement_trends_weekly_v2.sql`; shared with the 2026-09-30 funnel audit):
+
+- **Admin:** `profiles.admin`, plus every fingerprint ever tied to an admin (page visits, comments, give-first events, first touch). Admins are excluded from every honest column.
+- **Human visitor:** a non-admin fingerprint with at least 10 s engaged time on at least one day of the week. `raw_visitors` counts every tracked fingerprint.
+- **Returning human:** a human visitor whose first-ever visit was before that week.
+- **Human comment:** question comments and replies (`comments`) plus personality-page discussion comments (`blog_comments`), excluding removed rows, admin authors and admin fingerprints. AI takes (`comments_ai`, `nine_takes`) are never counted.
+- **Contributor:** a distinct person (author id, else fingerprint, else IP) with a human comment that week. **Returning contributor:** had a human comment in an earlier week (matched on author id or fingerprint).
+- **Real signup:** an email signup that is NOT any of: quarantined as a bot (`email_unsubscribes.reason` like `bot%`), a flagged waitlist bot, an admin or `@9takes.com` address, an auth-page-first landing (`/login`, `/register`, `/forgotPassword` with an internal source: the Jun 2026 wave), a dotted-Gmail pattern (3+ dots before `@gmail.com`), or an email with a non-success `auth_security_events` row within 10 minutes.
+- **Registration:** a non-admin profile whose email is not a known bot.
+- **Booking:** a real `coaching_waitlist` add (not flagged, not admin, not created by a talk note) plus `talk_notes` (not admin) plus `consulting_sessions`.
+
+**Series breaks** (state them in any table that spans these dates; never read a break as a trend):
+
+- **2026-09-21:** personality-page rows in `content_access_events` stop, because `/personality-analysis/*` became ISR-cached and no longer runs the server load per request. Any series built on `content_access_events` drops at that date for reasons that have nothing to do with users.
+- **2026-10-02:** `give_first_funnel_events.gate_shown` stops recording crawlers. Raw gate counts before that date are inflated by bots (the 09-21 week's 30 gate fingerprints were mostly 0 ms sweeps). Do not compare raw gate counts across 2026-10-02; compare contributions, or compare only weeks on the same side of the break.
+- **2026-10-02:** every `contribution` event carries `path`. Before that, question-page contributions (from `src/routes/questions/[slug]/+page.server.ts`) have `path IS NULL`; the old homepage (`/`, until 2026-09-10) and blog embeds did set it. Treat a NULL path before 2026-10-02 as "question page".
+- **2026-10-03:** the homepage answer box posts a real take to q203 (live-take homepage), and celebrity pages ask a live question mid-article. Contributions with `path = '/'` or `path like '/personality-analysis/%'` after this date are the new surfaces.
+
+**Give-first gate by surface** (secondary table; human gate counts only from 2026-10-02 on):
+
+```sql
+select date_trunc('week', timezone('America/New_York', created_at))::date as week_start,
+  case when path = '/' then 'home'
+       when path like '/personality-analysis/%' then 'celebrity'
+       when path like '/questions/%' or path is null then 'question'
+       else 'blog embed' end as surface,
+  count(distinct fingerprint) filter (where event_type = 'gate_shown') as gate_fps,
+  count(distinct fingerprint) filter (where event_type = 'contribution') as contrib_fps
+from give_first_funnel_events
+where created_at >= now() - interval '8 weeks'
+group by 1, 2
+order by 1, 2;
+```
+
+Raw counters (raw columns above, the 30-day RPCs, `page_analytics_visits` row counts, raw `comments` counts) may appear only as a labelled diagnostic, for example "raw visitors (bot-inclusive)". Never put a raw counter in the headline, the "direction changes" lead, or the biggest-leak sentence.
 
 **Admin dashboards already built** (read, do not duplicate): `src/routes/admin/+page.server.ts`, `src/routes/admin/analytics/+page.server.ts`, `src/routes/admin/email-dashboard/+page.server.ts`, `src/routes/admin/welcome-sequence/+page.server.ts`
 
@@ -83,7 +143,7 @@ Loop before funnel: ask "what should compound if the product is working?" before
 
 This is 9takes' signature mechanic and the highest-leverage place you can work. Always examine:
 
-- **Wall-hit conversion** — of users who hit the give-first gate, what % complete a first contribution? (Stitch `content_access_events.request_kind = 'protected'` against `comments` creation for the same fingerprint/user_id.)
+- **Wall-hit conversion** — of users who hit the give-first gate, what % complete a first contribution? Use `give_first_funnel_events` (`gate_shown` fingerprints against `contribution` fingerprints, by `path`), not `content_access_events`. Mind the 2026-10-02 crawler break in "Honest numbers" above.
 - **Post-contribution return** — of users who contribute once, what % return within 7 days and contribute again? Leading indicator of loop health.
 - **Empty-state risk** — do new users land on questions with no existing answers? A gate on an empty room feels extractive and kills the loop.
 - **Time-to-first-contribution** — wall-hit to submit. Median over ~2 minutes = friction too high.
@@ -116,11 +176,12 @@ When the task calls for outside tactics or examples:
 When invoked via `/weekly-growth-audit` (cron) or asked for "the weekly review":
 
 1. Read the last entry in `docs/growth/growth-log.md` and the most recent `docs/daily-briefs/` file.
-2. Pull this week's core numbers via `scripts/db-query.sh`: new signups/profiles by week (last 8 weeks), comments by week, wall-hit → contribution conversion, contributor 7-day return, coaching waitlist adds, email open/click for active sequences.
-3. Compare against the prior audit's numbers. Call out direction changes, not absolute levels.
-4. Check status of any experiment marked `running` in the log.
-5. Write a dated entry to `docs/growth/growth-log.md` (newest on top): numbers table, what changed, single biggest leak this week, 1–3 recommended bets.
-6. Keep it under a page. The log entry IS the deliverable; chat output is a summary of it.
+2. **Headline numbers come from `select * from admin_engagement_trends_weekly_v2(26)` and nothing else** (definitions and series breaks in "Honest numbers" above). The entry's numbers table leads with the last 8 complete weeks of: human visitors (returning), human comments, contributors (returning), real signups, registrations, bookings. Use the full 26 weeks to say whether a number "dropped" or "was always this low".
+3. Then pull secondary diagnostics via `scripts/db-query.sh`: give-first gate by surface (query in "Honest numbers"), contributor 7-day return, takes that got a DJ reply within 24 hours, host-digest runs (`select created_at, level, message from app_error_events where source = 'host_digest' order by id desc limit 10`), email sends and failures for active sequences. Label any raw counter "(bot-inclusive)".
+4. Compare against the prior audit's numbers. Call out direction changes, not absolute levels. Audits before 2026-10-05 used raw or hand-filtered counts, so compare against the v2 RPC's own history, not the old log tables. If a series break (see "Honest numbers") falls inside the comparison window, name it next to the number.
+5. Check status of any experiment marked `running` in the log.
+6. Write a dated entry to `docs/growth/growth-log.md` (newest on top): numbers table (headline v2 rows first, secondary diagnostics below), what changed, single biggest leak this week, 1–3 recommended bets.
+7. Keep it under a page. The log entry IS the deliverable; chat output is a summary of it.
 
 ## Persistent growth log
 

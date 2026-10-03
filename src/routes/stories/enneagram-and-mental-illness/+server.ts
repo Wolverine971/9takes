@@ -2,8 +2,9 @@
 import type { RequestHandler } from './$types';
 import storyHtml from './story.html?raw';
 
-export const prerender = true;
-
+// Not prerendered: a prerendered endpoint becomes an extensionless static file,
+// and Vercel serves it as application/octet-stream (Chrome downloads it instead
+// of opening the story). The s-maxage below keeps it on the CDN anyway.
 export const GET: RequestHandler = () =>
 	new Response(storyHtml, {
 		headers: {

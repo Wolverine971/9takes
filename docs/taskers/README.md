@@ -13,6 +13,14 @@ Agent-directed work orders. One file per unit of work. A tasker is written so th
 - `enneagram-and-mental-illness` (287 clicks) is frozen: it may absorb other pages, never be absorbed, retitled, or reslugged.
 - Other agents and DJ edit this repo in parallel. Never `git stash`, never bulk-reset, never a wide operation that could clobber uncommitted work.
 
+## New workstream: Growth audit loose ends (2026-10-03)
+
+Out of the 2026-09-30 "why isn't 9takes growing" audit and the 10-02/10-03 fix round. Search was not the problem (16-month high); the leak is after the click. Most fixes are live; this is what is left, plus a DJ-only list the agent must not touch.
+
+| ID       | Tasker                                                     | What it is                                                                                                                                                                                                                                                 | Status              |
+| -------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| **T-41** | [Growth audit loose ends](T-41-growth-audit-loose-ends.md) | P0: spam-update and noindex readout (10-10), the top post's story link downloading a file, a two-week readout of the new homepage and celebrity-page questions, honest numbers in the weekly audit. P1/P2: dashboard, lint, IndexNow, perf, SEO proposals. | In progress (10-03) |
+
 ## New workstream: The Social Reckoning and personalized reality
 
 | ID       | Tasker                                                                          | What it is                                                                                                                                                                                                                                                                    | Status              |
@@ -23,11 +31,11 @@ Agent-directed work orders. One file per unit of work. A tasker is written so th
 
 Out of the 2026-09-23 Jev internal-link audit: before linking a person, the vetting pass checked each post's typing claim against that person's page and found 20 conflicts. The sentence-level ones are already fixed (crosslink-log entry "2026-09-23: typing conflicts fixed"). These three are what is left. DJ confirmed the rule on 2026-09-24: the person's analysis page wins.
 
-| ID       | Tasker                                                                      | What it is                                                                                                                                                                                                                 | Status              |
-| -------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
-| **T-38** | [Trump vs Biden, Type 3 rewrite](T-38-trump-vs-biden-type-3-rewrite.md)     | The post's title, slug and thesis argue Trump is an 8; his page and the US Presidents post say 3w2. Full rewrite as a 3 vs 2 heart-triad piece with a 301 to the new slug. Also fixes the unpublished world-leaders draft. | Ready for execution |
-| **T-39** | [Kardashian, Kim and Kanye as 3 and 7](T-39-kardashian-kim-kanye-3-vs-7.md) | The "Two Type 3s Collide" section is patched to "A 3 and a 7"; this expands it into a real analysis, aligns the curse table, removes childhood-wound etiology, and clears 58 em-dashes on a 3k-impression page.            | Ready for execution |
-| **T-40** | [Typing sweep and guard](T-40-typing-consistency-sweep-and-guard.md)        | Closes the 09-23 scan's gaps (surnames, tables, JSON-LD, drafts, people pages that disagree with themselves) and adds `pnpm typing:check` so new conflicts cannot ship.                                                    | Ready for execution |
+| ID       | Tasker                                                                      | What it is                                                                                                                                                                                                                 | Status                        |
+| -------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| **T-38** | [Trump vs Biden, Type 3 rewrite](T-38-trump-vs-biden-type-3-rewrite.md)     | The post's title, slug and thesis argue Trump is an 8; his page and the US Presidents post say 3w2. Full rewrite as a 3 vs 2 heart-triad piece with a 301 to the new slug. Also fixes the unpublished world-leaders draft. | Done 2026-10-03 (`e4fe1d896`) |
+| **T-39** | [Kardashian, Kim and Kanye as 3 and 7](T-39-kardashian-kim-kanye-3-vs-7.md) | The "Two Type 3s Collide" section is patched to "A 3 and a 7"; this expands it into a real analysis, aligns the curse table, removes childhood-wound etiology, and clears 58 em-dashes on a 3k-impression page.            | Ready for execution           |
+| **T-40** | [Typing sweep and guard](T-40-typing-consistency-sweep-and-guard.md)        | Closes the 09-23 scan's gaps (surnames, tables, JSON-LD, drafts, people pages that disagree with themselves) and adds `pnpm typing:check` so new conflicts cannot ship.                                                    | Ready for execution           |
 
 Order: T-40's check first if one agent does all three (it finds anything T-38/T-39 would miss), but they are independent. T-38 and T-39 can run in parallel with it.
 

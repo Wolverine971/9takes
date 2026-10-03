@@ -18,7 +18,7 @@ function person(name: string, hasImage = true): FamousTypePerson {
 
 const resolve = createRetypedPersonalityImageResolver({
 	1: [person('ben-shapiro')],
-	4: [person('miley-cyrus')],
+	4: [person('miley-cyrus'), person('bryan-johnson')],
 	5: [person('no-portrait', false)]
 });
 
@@ -33,6 +33,12 @@ describe('personalityImageRedirect', () => {
 
 	it('leaves requests that already use the current type as 404s', () => {
 		expect(resolve('/types/4s/Miley-Cyrus.webp')).toBeNull();
+	});
+
+	it('corrects filename casing even when the type folder is already correct', () => {
+		expect(resolve('/types/4s/bryan-johnson.webp')).toBe('/types/4s/Bryan-Johnson.webp');
+		expect(resolve('/types/4s/s-bryan-johnson.webp')).toBe('/types/4s/s-Bryan-Johnson.webp');
+		expect(resolve('/types/4s/Bryan-Johnson.webp')).toBeNull();
 	});
 
 	it('ignores unknown people, people without portraits, and non-portrait paths', () => {

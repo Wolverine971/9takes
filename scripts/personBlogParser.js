@@ -998,7 +998,8 @@ async function processBlogFiles(markdownFiles) {
  * @returns {string[]} - Changed draft markdown files
  */
 function getChangedDraftMarkdownFiles() {
-	let output = '';
+	/** @type {string} */
+	let output;
 	try {
 		output = execSync('git status --short src/blog/people/drafts', {
 			encoding: 'utf8'
@@ -1578,7 +1579,7 @@ async function publishPersonBlog(options) {
 		} catch (error) {
 			const message = error instanceof Error ? error.message : String(error);
 			if (hasExplicitPerson) {
-				throw new Error(`Unable to evaluate ${filePath}: ${message}`);
+				throw new Error(`Unable to evaluate ${filePath}: ${message}`, { cause: error });
 			}
 			console.warn(`Skipping ${filePath}: ${message}`);
 		}
@@ -1796,7 +1797,7 @@ const V3_EDITORIAL_SENSITIVE_FIELDS = [
  * production that way (2026-09-01 audit). This closes that path.
  * @param {ReturnType<typeof buildNonPublishUpdatePlan>} plan
  * @param {PersonBlogEntry} entry
- * @param {{ published?: boolean | null }} existing
+ * @param {{ published?: boolean | null, content?: string | null }} existing
  * @returns {Promise<void>}
  */
 export async function assertPerspectiveGateForUpdate(plan, entry, existing) {

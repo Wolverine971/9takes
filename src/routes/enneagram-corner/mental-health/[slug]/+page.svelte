@@ -104,6 +104,7 @@
 	{#if data?.frontmatter?.pic}
 		<div class="featured-image">
 			<PopCard
+				priority
 				image={`/blogs/${data?.frontmatter?.pic}.webp`}
 				showIcon={false}
 				displayText=""

@@ -27,6 +27,7 @@ import { buildAdminDataStatus } from '$lib/server/adminDataStatus';
 import { loadEmailSuppressionStatus } from '$lib/server/emailSuppressionStatus';
 import { normalizeEmail } from '$lib/email/suppression';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { cachedAdminQuery } from '$lib/server/adminQueryCache';
 import { getTalkNotesOverview } from '$lib/server/talkNotes';
 import type {
 	GrowthTrendWeek,
@@ -146,6 +147,8 @@ function easternDaysIntoWeek(weekStart: string | undefined, now = new Date()): n
 	return Math.min(7, Math.max(1, elapsed));
 }
 
+const withoutError = (result: { error: unknown }) => !result.error;
+
 function isMissingRetentionSummaryRpc(err: unknown): boolean {
 	const message =
 		typeof err === 'object' && err !== null && 'message' in err
@@ -212,7 +215,16 @@ export const load: PageServerLoad = async (event) => {
 		talkNotes,
 		weeklyGrowthResult
 	] = await Promise.all([
-		getSupabaseAdminClient().rpc('admin_engagement_trends_30_days', { p_demo_time: demoTime }),
+		// The four aggregate RPCs (30-day trends, retention, trending, weekly growth) scan
+		// visitor tables and set this page's load time; adminQueryCache keeps them warm.
+		cachedAdminQuery(
+			`admin_engagement_trends_30_days:${demoTime}`,
+			async () =>
+				await getSupabaseAdminClient().rpc('admin_engagement_trends_30_days', {
+					p_demo_time: demoTime
+				}),
+			{ shouldCache: withoutError }
+		),
 		supabase.rpc('daily_questions_stats'),
 		// All-time totals can be estimated; exact filtered counts are kept for recent activity.
 		supabase.from(profilesTable).select('id', { count: 'estimated', head: true }),
@@ -271,13 +283,19 @@ export const load: PageServerLoad = async (event) => {
 			.gte('created_at', today.toISOString()),
 		demoTime
 			? Promise.resolve({ data: null, error: null })
-			: (supabase as any).rpc('get_admin_retention_summary'),
+			: cachedAdminQuery(
+					'get_admin_retention_summary',
+					async () => await (supabase as any).rpc('get_admin_retention_summary'),
+					{ shouldCache: withoutError }
+				),
 		demoTime
 			? Promise.resolve(null)
-			: loadTrendingAnalytics(supabase as any, {
-					...trendingOptions,
-					scope: 'all'
-				}).catch((err) => {
+			: cachedAdminQuery('get_page_analytics_trending_pages', () =>
+					loadTrendingAnalytics(supabase as any, {
+						...trendingOptions,
+						scope: 'all'
+					})
+				).catch((err) => {
 					console.error('Failed to load admin trending pages', err);
 					return emptyTrendingAnalyticsPayload(trendingOptions, false);
 				}),
@@ -295,10 +313,15 @@ export const load: PageServerLoad = async (event) => {
 			console.error('Failed to load Talk to DJ notes overview', err);
 			return null;
 		}),
-		getSupabaseAdminClient().rpc(GROWTH_TRENDS_RPC, {
-			p_weeks: GROWTH_TRENDS_WEEKS,
-			p_demo_time: demoTime
-		})
+		cachedAdminQuery(
+			`${GROWTH_TRENDS_RPC}:${demoTime}`,
+			async () =>
+				await getSupabaseAdminClient().rpc(GROWTH_TRENDS_RPC, {
+					p_weeks: GROWTH_TRENDS_WEEKS,
+					p_demo_time: demoTime
+				}),
+			{ shouldCache: withoutError }
+		)
 	]);
 
 	// Until the v2 migration is applied the RPC is missing; the dashboard falls back to

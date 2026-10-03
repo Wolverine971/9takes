@@ -52,7 +52,7 @@ function gitLines(args) {
 // itself the merge-base is HEAD, so this naturally reduces to just your
 // uncommitted local changes.
 function getChangedFiles() {
-	let base = '';
+	let base;
 	try {
 		base = execFileSync('git', ['merge-base', 'HEAD', MAIN_BRANCH], {
 			encoding: 'utf8'

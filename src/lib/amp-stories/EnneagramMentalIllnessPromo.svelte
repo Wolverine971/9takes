@@ -25,7 +25,7 @@
 				<img
 					src={imageUrl}
 					alt={altText}
-					class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+					class="group-hover:scale-105 h-full w-full object-cover transition-transform duration-500"
 				/>
 				<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 			</div>
@@ -103,12 +103,12 @@
 
 			<div class="mt-4 flex justify-end">
 				<div
-					class="inline-flex items-center font-medium text-primary-700 group-hover:text-primary-900"
+					class="group-hover:text-primary-900 inline-flex items-center font-medium text-primary-700"
 				>
 					View Web Story
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
-						class="ml-1 h-5 w-5 transition-transform group-hover:translate-x-1"
+						class="group-hover:translate-x-1 ml-1 h-5 w-5 transition-transform"
 						viewBox="0 0 20 20"
 						fill="currentColor"
 					>

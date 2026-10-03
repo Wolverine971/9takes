@@ -1294,7 +1294,7 @@
 		if (aMissing) return 1;
 		if (bMissing) return -1;
 
-		let comparison = 0;
+		let comparison: number;
 		if (typeof aValue === 'string' && typeof bValue === 'string') {
 			comparison = aValue.localeCompare(bValue);
 		} else {
@@ -1344,7 +1344,7 @@
 
 	function handleReleaseSort(column: ReleaseSortKey) {
 		let nextSortBy = releaseSortBy;
-		let nextSortDir = releaseSortDir;
+		let nextSortDir: SortDirection;
 		if (releaseSortBy === column) {
 			nextSortDir = releaseSortDir === 'desc' ? 'asc' : 'desc';
 		} else {

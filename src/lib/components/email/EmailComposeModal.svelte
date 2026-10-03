@@ -113,6 +113,7 @@
 	}
 
 	$: if (open !== previousOpenState) {
+		// eslint-disable-next-line no-useless-assignment -- read on the next reactive run
 		previousOpenState = open;
 		if (open) {
 			resetForOpen();
@@ -124,6 +125,7 @@
 	}
 
 	$: if (showGenerate !== previousGenerateState) {
+		// eslint-disable-next-line no-useless-assignment -- read on the next reactive run
 		previousGenerateState = showGenerate;
 		if (showGenerate) void tick().then(openGenerateController);
 		else if (generateControllerOpen) getModal(GENERATE_MODAL_ID)?.close(null);

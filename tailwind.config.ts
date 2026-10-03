@@ -1,5 +1,7 @@
 // tailwind.config.ts
 import type { Config } from 'tailwindcss';
+import flowbitePlugin from 'flowbite/plugin';
+import typographyPlugin from '@tailwindcss/typography';
 
 // Phase 2 (2026-05-04): Inter Variable handles every size + weight. Locked in design-system.md §6.
 const fontSans = ['"Inter Variable"', '"Inter"', 'system-ui', 'sans-serif'];
@@ -9,7 +11,7 @@ const fontMono = ['"JetBrains Mono"', 'ui-monospace', 'monospace'];
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts,md}', '!./src/**/*.scss'],
 
-	plugins: [require('flowbite/plugin'), require('@tailwindcss/typography')],
+	plugins: [flowbitePlugin, typographyPlugin],
 	darkMode: 'selector',
 
 	theme: {

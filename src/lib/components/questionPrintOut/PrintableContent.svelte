@@ -31,7 +31,7 @@
 	import Scribble from '../atoms/scribble.svelte';
 	import QuestionDisplay from '../questions/QuestionDisplay.svelte';
 
-	let positions: ImagePosition[] = [];
+	let positions: ImagePosition[];
 	$: positions = Array.isArray(imagePositions)
 		? imagePositions
 		: isReadablePositions(imagePositions)

@@ -135,8 +135,8 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	const offset = (page - 1) * limit;
 
 	const supabaseAny = locals.supabase as any;
-	let data: AnalyticsPagesRow[] | null = null;
-	let rpcError: unknown = null;
+	let data: AnalyticsPagesRow[] | null;
+	let rpcError: unknown;
 	let windowMeta: {
 		key: PageBreakdownWindow | 'custom';
 		from: string;

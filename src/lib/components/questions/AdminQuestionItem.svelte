@@ -31,6 +31,7 @@
 	// Reset all local state when the question changes
 	$: if (questionData?.id !== prevQuestionId) {
 		stopTaggingPoll();
+		// eslint-disable-next-line no-useless-assignment -- read on the next reactive run
 		prevQuestionId = questionData?.id;
 		selectedTags = [...(questionData?.question_tag || [])];
 		editing = false;

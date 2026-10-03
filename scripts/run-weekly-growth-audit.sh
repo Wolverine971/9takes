@@ -63,7 +63,19 @@ HEADLINE="$(grep -m1 "^### $TODAY" "$GROWTH_LOG" | sed "s/^### $TODAY[ -]*//")"
 LEAK="$(awk "/^### $TODAY/{found=1} found && /Biggest leak/{print; exit}" "$GROWTH_LOG" \
   | sed 's/^[- ]*//; s/\*\*//g' | cut -c1-400)"
 
+# Honest-numbers check (non-fatal): headline numbers must come from
+# admin_engagement_trends_weekly_v2. An entry that never names it was likely
+# built from raw, bot-inclusive counters, which is how a flat line read as a
+# drop before 2026-10-02.
+ENTRY="$(awk -v today="### $TODAY" 'index($0, today) == 1 {found=1; print; next} found && /^### /{exit} found {print}' "$GROWTH_LOG")"
+HONEST_WARN=""
+if ! grep -q "admin_engagement_trends_weekly_v2" <<< "$ENTRY"; then
+  HONEST_WARN="WARN: today's entry does not cite admin_engagement_trends_weekly_v2; its numbers may be raw (bot-inclusive)"
+  log "$HONEST_WARN"
+fi
+
 log "Weekly growth audit OK: $HEADLINE"
 echo "OK — growth audit: $HEADLINE"
 [[ -n "$LEAK" ]] && echo "$LEAK"
+[[ -n "$HONEST_WARN" ]] && echo "$HONEST_WARN"
 exit 0

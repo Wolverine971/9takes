@@ -38,6 +38,15 @@ describe('reply opt-in analytics', () => {
 		expect(JSON.stringify(captureMock.mock.calls)).not.toMatch(/email|fingerprint|token/i);
 	});
 
+	it('labels homepage opt-ins with the homepage surface', async () => {
+		await captureReplyOptInShown({ ...context, surface: 'homepage' });
+
+		expect(captureMock).toHaveBeenCalledWith(
+			'reply_opt_in_shown',
+			expect.objectContaining({ surface: 'homepage' })
+		);
+	});
+
 	it('uses a bounded failure category', async () => {
 		await captureReplyOptInFailed(context, 'suppressed');
 

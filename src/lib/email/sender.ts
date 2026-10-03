@@ -207,7 +207,8 @@ async function sendWithGmail({
 		privateKey = parsed.privateKey;
 	} catch (parseError) {
 		throw new Error(
-			`Failed to parse PRIVATE_gmail_private_key: ${parseError instanceof Error ? parseError.message : 'Invalid JSON'}`
+			`Failed to parse PRIVATE_gmail_private_key: ${parseError instanceof Error ? parseError.message : 'Invalid JSON'}`,
+			{ cause: parseError }
 		);
 	}
 

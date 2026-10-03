@@ -1,4 +1,5 @@
 <!-- docs/seo/personality-isr.md -->
+
 # Personality pages on ISR
 
 **Shipped:** 2026-09-20. **Why:** the 2026-09-14 Ahrefs crawl flagged 60 slow pages and 30 "slow server response for AI crawlers", nearly all `/personality-analysis/[slug]`. Those pages were rendered from scratch on every single request (`private, no-store`, `x-vercel-cache: MISS`), so every crawler and every reader paid for a cold serverless render plus 2 database round trips. Ahrefs measured 2–9s.

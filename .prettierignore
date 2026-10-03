@@ -1,5 +1,8 @@
 .DS_Store
 node_modules
+# Agent worktrees are full repo copies (excluded via .git/info/exclude, which
+# Prettier does not read); root-anchored ignores below don't match inside them.
+.claude/worktrees
 /build
 /build/*
 .svelte-kit
@@ -37,6 +40,15 @@ src/blog/people/drafts
 # Frozen perspective-review evidence must stay byte-identical to the draft the
 # jury read; formatting it silently breaks the snapshot's contract hash.
 docs/content-analysis/perspective-reviews
+# Machine-written pipeline output (logs, research packets, handoffs, grades).
+docs/content-analysis/pipeline-logs
+docs/content-analysis/research
+docs/content-analysis/handoffs
+docs/content-analysis/grades
+docs/content-analysis/pipeline-handoffs
+docs/content-analysis/production-handoffs
+docs/content-analysis/portrait-sources
+docs/content-analysis/entity-gaps
 *.bak
 
 # Large transcript folders; format on demand via `pnpm format:transcripts`

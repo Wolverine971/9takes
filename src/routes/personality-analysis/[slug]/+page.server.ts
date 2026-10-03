@@ -1,7 +1,6 @@
 // src/routes/personality-analysis/[slug]/+page.server.ts
 import type { PageServerLoad } from './$types';
 import { dev } from '$app/environment';
-import type { Actions } from './$types';
 import { error, redirect } from '@sveltejs/kit';
 import type { Database, Json } from '../../../../database.types';
 import type { SupabaseClient } from '@supabase/supabase-js';
@@ -486,26 +485,6 @@ function buildPersonalityBridgeLinks({
 	return links;
 }
 
-export const actions: Actions = {
-	getRelatedPosts: async ({ request, locals }) => {
-		const supabase = locals.supabase;
-		const data = await request.formData();
-		const slug = data.get('slug')?.toString();
-		const postTypes = parsePostTypes(data.get('postTypes'));
-		const enneagram = parseEnneagramNumber(data.get('enneagram')?.toString());
-
-		if (!slug || (!postTypes.length && !enneagram)) {
-			return { success: false, error: 'Missing required parameters' };
-		}
-		const result = await buildRelatedPosts(supabase, slug, postTypes, enneagram);
-
-		return {
-			success: true,
-			...result
-		};
-	}
-};
-
 function parseEnneagramNumber(value: unknown): number | null {
 	if (typeof value === 'number' && Number.isFinite(value)) return value;
 	if (typeof value === 'string' && value.trim() !== '') {
@@ -513,20 +492,6 @@ function parseEnneagramNumber(value: unknown): number | null {
 		return Number.isFinite(parsed) ? parsed : null;
 	}
 	return null;
-}
-
-function parsePostTypes(value: FormDataEntryValue | null): string[] {
-	if (typeof value !== 'string' || value.trim().length === 0) return [];
-
-	try {
-		const parsed = JSON.parse(value);
-		return Array.isArray(parsed) ? parsed.map(String) : [];
-	} catch {
-		return value
-			.split(',')
-			.map((item) => item.trim())
-			.filter(Boolean);
-	}
 }
 
 function mapSimilarResults(rows: PersonalitySimilarityRow[]): RelatedPersonalityCard[] {
