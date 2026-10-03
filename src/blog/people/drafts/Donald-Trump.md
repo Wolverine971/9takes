@@ -97,7 +97,7 @@ faqs:
     answer: "Biographical accounts describe Fred Trump stressing competition, toughness, and winning, while Donald's mother was seriously ill when he was very young. Within the Enneagram framework, those accounts are consistent with a child learning to secure worth through achievement. They do not prove a single psychological cause, and family recollections differ in perspective and reliability."
     anchor: 'the-making-of-an-achiever-trumps-childhood'
   - question: 'What happens when Trump is under stress?'
-    answer: "This article reads Trump's public stress pattern as a shift from performing success to policing loyalty: criticism becomes betrayal, and aides or allies become loyal or disloyal according to whether they defend him. That is an Enneagram interpretation of public behavior, not a medical assessment."
+    answer: "This article reads two public stress patterns. When the image is threatened, Trump shifts from performing success to policing loyalty: criticism becomes betrayal, and aides or allies become loyal or disloyal according to whether they defend him. When the scoreboard turns final, he withdraws from public view, as in the weeks after the 2020 race was called. That withdrawal is the Type 3 stress line toward 9. Both are Enneagram interpretations of public behavior, not a medical assessment."
     anchor: 'when-the-image-cracks-trump-under-stress'
 path: src/blog/people/drafts/Donald-Trump.md
 content_quality:
@@ -129,7 +129,7 @@ CURRENTNESS & BALANCE PASS (2026-08-13):
 STANDOUT STRENGTHS:
 - Sneaker Con hook: "A court had just ruled that he lied about his wealth for years. His response was to sell a shinier image of success."
 - Vocabulary of Shame: word-count analysis (234× "loser," 2,605-word working vocabulary) + "Crooked Hillary" presupposition decode — structural original analysis, not decoration.
-- Fred Jr. "opposite of me" signature detail as the 3→9 growth-arrow payoff.
+- Fred Jr. "opposite of me" signature detail as the 3→6 growth-arrow payoff.
 - Private-listener pattern (Res, Blackman, Barra, Walz) as counterweight to the public performer — fresh angle.
 - Closer cuts to black on the D'Antonio quote. No CTA, no summary, no "what we can learn."
 
@@ -431,9 +431,11 @@ Self-preservation sits second in the material architecture: real estate, gold fi
 
 ### Stress and Growth Arrows
 
-Under stress, Type 3 moves toward Type 6. Trump's image threat response becomes loyalty-policing: Comey's loyalty dinner, Cabinet praise rituals, Sessions, Cohen, Pence, Barr, "traitor," "rat," "disloyal." See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how a stressed 3 can shift from "Am I winning?" to "Who is with me and who is against me?"
+Under stress, Type 3 moves toward Type 9: when the scoreboard turns final, the performer goes quiet. Trump's clearest public case is the weeks after the 2020 race was called, covered below. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how a stressed 3 slides from drive into inertia.
 
-In growth, Type 3 moves toward Type 9. The private listening pattern is the counterweight: asking construction workers, drivers, executives, opponents, and enemies until a gut feeling forms. Fred Jr. makes the pattern emotionally sharp. Trump called him a "peacemaker" and "the opposite of me" — exactly the quieter, receptive quality the performer reaches for when the image finally relaxes.
+The loyalty-policing described below is a different mechanism: a 3w2 defending an image that needs witnesses. Comey's loyalty dinner, the Cabinet praise rituals, and the breaks with Sessions, Cohen, Pence, and Barr follow one rule: a defender who steps out of the frame becomes a "traitor" or a "rat." That suspicion can look like Type 6. The difference is the test: a 6 asks who will stand by them when it counts, and this rule asks who will keep defending him where people can see it.
+
+In growth, Type 3 moves toward Type 6: trusting other people's knowledge, committing to a shared result over a solo win, and giving loyalty instead of only demanding it. The private listening pattern is where that shows: asking construction workers, drivers, executives, opponents, and enemies until a decision forms, and relying on the people who actually run the work. Fred Jr. makes the pattern emotionally sharp. Trump called him "the opposite of me," a brother everybody loved without his having to win anything. That is the belonging a 3 reaches only by trusting people instead of performing for them.
 
 ### Counterarguments: Why Donald Trump Might Not Be Type 3
 
@@ -456,9 +458,11 @@ When the performance is threatened, the tribal instinct sharpens. Jeff Sessions 
 
 Whatever the underlying policy and legal disputes, each break became publicly legible when the person stopped protecting Trump's position. His rhetoric defined disloyalty by whether the image had lost a defender.
 
-The shift from achiever to loyalist is visible in the language too. Under normal conditions, Trump's vocabulary is about winning and losing — shame projected outward. Under stress, the vocabulary shifts to loyalty and betrayal — trust and suspicion. "Traitor." "Rat." "Disloyal." "Turncoat." The world shrinks from "am I the best?" to "who can I trust?"
+The shift from performer to enforcer is visible in the language too. Under normal conditions, Trump's vocabulary is about winning and losing, shame projected outward. Under stress, the vocabulary shifts to loyalty and betrayal, trust and suspicion. "Traitor." "Rat." "Disloyal." "Turncoat." The world shrinks from "am I the best?" to "who is still defending me?"
 
-The performer who normally reads the room to win it over starts scanning the room for threats instead. The gold veneer stays in place, but behind it, the engine has shifted from ambition to anxiety.
+The performer who normally reads the room to win it over starts scanning the room for threats instead. The gold veneer stays in place, but behind it, the engine has shifted from winning the room to guarding the image.
+
+There is also a quieter stress move, the one the 3-to-9 line describes when the scoreboard turns final: he leaves the stage. After networks called the 2020 race, Trump made almost no public appearances for days and didn't take a question from reporters until Thanksgiving. The fight over the result continued through posts and lawsuits, from off camera. The loud enforcer and the absent performer answer the same alarm. One defends the image. The other stops showing up to be scored.
 
 ## When the Performer Listens: Trump in Growth
 
@@ -480,7 +484,7 @@ Behind closed doors, a senior White House official described Trump's meeting app
 
 "I like conflict," Trump told reporters in 2018. "I like having two people with different points of view. I like watching it, I like seeing it, and I think it's the best way to go."
 
-That can serve dominance, and it can also create friction deliberately so Trump absorbs a range of opinion before deciding. The gut feeling that eventually drives the decision is body-based knowing replacing image-driven strategy.
+That can serve dominance, and it can also create friction deliberately so Trump absorbs a range of opinion before deciding. The decision that eventually comes is built from other people's information instead of from how it will look. That is the 3's growth line toward 6: trusting the people around him enough to let them shape the call.
 
 Then there's his ability to sit across from his enemies.
 
@@ -496,15 +500,15 @@ Now the detail that cracks everything open.
 
 Remember what Trump told [_The New York Times_ in 2016](https://www.nytimes.com/2016/01/03/us/politics/for-donald-trump-lessons-from-a-brothers-suffering.html) about Fred Jr.: "He would have been an amazing peacemaker if he didn't have the problem, because everybody loved him. He's like the opposite of me."
 
-_Peacemaker._
+_Everybody loved him._
 
-Fred Jr. was gentle where Donald was aggressive. Loved where Donald was feared. Easy where Donald was driven. Everybody loved him. He could get along with anyone. He was, by his brother's own admission, everything Donald Trump is not.
+Fred Jr. was gentle where Donald was aggressive. Loved where Donald was feared. Easy where Donald was driven. He could get along with anyone. He was, by his brother's own admission, everything Donald Trump is not.
 
 The brother Trump lost to alcoholism at 42 — the one relationship where the mask consistently slips, where genuine emotion breaks through the gold veneer — embodied the very qualities Trump struggles to live from: the listener, the gatherer of perspectives, the one who makes space for other people in the room.
 
 "He's like the opposite of me."
 
-That opposite is not a foreign country. It is a version Trump keeps reaching toward in flashes — one construction site conversation, one private meeting, one moment of genuine listening at a time. The peacemaker isn't gone. He's just usually buried under the show.
+That opposite is not a foreign country. It is a version Trump keeps reaching toward in flashes: one construction site conversation, one private meeting, one moment of genuine listening at a time. The man who could be loved without winning isn't gone. He's just usually buried under the show.
 
 ## The One Question He Won't Answer
 

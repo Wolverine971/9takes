@@ -228,6 +228,16 @@
 			"permanent": true
 		},
 		{
+			"source": "/blogs/trump-type-8-vs-biden-type-2-composite.webp",
+			"destination": "/blogs/trump-type-3-vs-biden-type-2-composite.webp",
+			"permanent": true
+		},
+		{
+			"source": "/blogs/s-trump-type-8-vs-biden-type-2-composite.webp",
+			"destination": "/blogs/s-trump-type-3-vs-biden-type-2-composite.webp",
+			"permanent": true
+		},
+		{
 			"source": "/sitemap_index.xml",
 			"destination": "/sitemap.xml",
 			"permanent": true

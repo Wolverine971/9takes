@@ -1,7 +1,7 @@
 # Link Opportunities
 
 _Generated: 2026-10-03 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
-_Search data: GSC 2026-06-24 → 2026-09-22. 286 candidate links found (+111 weaker ones offered only for gate debt); 130 suppressed in `docs/crosslinks/skipped.json`._
+_Search data: GSC 2026-06-24 → 2026-09-22. 287 candidate links found (+111 weaker ones offered only for gate debt); 130 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
 Score = target's search demand × link deficit × mention strength × source visibility (cross-section links get a bonus).
@@ -77,7 +77,6 @@ Needs 3 more outbound link(s).
 | 5.59 | `/pop-culture/podcast-bros-enneagram-analysis` (L63) | `/personality-analysis/alex-cooper` | "Alex Cooper" | …der landscape of how personality type maps across the entire podcasting ecosystem—including Alex Cooper, Theo Von, Howard Stern, and more—… |
 | 5.55 | `/community/societal-ticking-time-bombs` (L457) | `/personality-analysis/greta-thunberg` | "Greta Thunberg" | 3. **Making it their entire identity.** Think Greta Thunberg. When outrage becomes not something you feel but something you _are_, it consu… |
 | 5.45 | `/pop-culture/podcaster-personality-map` (L80) | `/personality-analysis/dave-portnoy` | "Dave Portnoy" | **Joe Rogan. Dave Portnoy. [Sam Parr](/personality-analysis/sam-parr).** |
-| 5.37 | `/pop-culture/hollywood-heartthrobs-enneagram-analysis` (L391) | `/personality-analysis/greta-gerwig` | "Greta Gerwig" | When Gosling took the role of Ken in Greta Gerwig's _Barbie_ (2023), it was a Type 9 doing something rare: stepping fully into the joke. Hi… |
 | 5.3 | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` (L227) | `/personality-analysis/paul-graham` | "Paul Graham" | …. He studied economics, graduated into the post-crisis finance track, then read Paul Graham's essays and Hacker News and redirected toward… |
 | 5.13 | `/community/societal-ticking-time-bombs` (L379) | `/personality-analysis/sam-parr` | "Sam Parr" | The numbers bear this out. Sam Parr and Shaan Puri discussed this on [My First Million (Episode 797)](https://www.youtube.com/watch?v=Jd3he… |
 | 5.11 | `/pop-culture/podcast-bros-enneagram-analysis` (L164) | `/personality-analysis/bernie-sanders` | "Bernie Sanders" | … push back on him. His most memorable episodes feature genuine disagreement—Elon Musk calmly explaining AI risk while Rogan challenges him… |
@@ -93,6 +92,7 @@ Needs 3 more outbound link(s).
 | 4.19 | `/pop-culture/epstein-psychology-part-2` (L34) | `/personality-analysis/bill-gates` | "Bill Gates" | > — Bill Gates, explaining why he met with Jeffrey Epstein ([CNBC](https://www.cnbc.com/2019/09/10/bill-gates-met-with-jeffrey-epstein-to-c… |
 | 4.09 | `/enneagram-corner/how-type-8-challengers-actually-succeed` (L122) | `/personality-analysis/bert-kreischer` | "Bert Kreischer" | - **Rogan**: Brian Redban co-launched the podcast. His comedian circle — Tom Segura, Bert Kreischer, Joey Diaz — formed a content ecosystem… |
 | 3.95 | `/pop-culture/fallen-founders-enneagram-analysis` (L85) | `/personality-analysis/travis-kalanick` | "Travis Kalanick" | He is not even the only ousted founder of the era who walked. Travis Kalanick was forced out of Uber in 2017 by Benchmark, the same firm wh… |
+| 3.8 | `/pop-culture/hollywood-heartthrobs-enneagram-analysis` (L391) | `/personality-analysis/greta-gerwig` | "Greta Gerwig" | When Gosling took the role of Ken in Greta Gerwig's _Barbie_ (2023), it was a Type 9 doing something rare: stepping fully into the joke. Hi… |
 | 3.6 | `/community/software-and-hardware-of-the-mind` (L144) | `/personality-analysis/carl-jung` | "Carl Jung" | Carl Jung understood the importance of emotions. |
 | 3.6 | `/enneagram-corner/90-day-personality-maxing-blueprint` (L628) | `/personality-analysis/carl-jung` | "Carl Jung" | Carl Jung's concept of the "shadow" refers to the parts of yourself you've rejected, denied, or hidden, often the very parts that hold your… |
 | 3.47 | `/pop-culture/epstein-psychology-part-1` (L407) | `/personality-analysis/sergey-brin` | "Sergey Brin" | …ia. He appeared in the background of a photo alongside **Jeff Bezos, Elon Musk, Sergey Brin, and Bill Gates**. ([BuzzFeed News](https://ww… |

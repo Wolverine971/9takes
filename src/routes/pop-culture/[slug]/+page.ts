@@ -2,13 +2,10 @@
 import type { PageLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
 import { slugFromPath } from '$lib/slugFromPath';
-
-const permanentRedirectMap: Record<string, string> = {
-	'trump-type-8-vs-biden-type-2': '/pop-culture/trump-type-3-vs-biden-type-2'
-};
+import { popCultureRedirects } from '$lib/data/popCultureRedirects';
 
 export const load: PageLoad = async ({ params, data, url }) => {
-	const permanentTarget = permanentRedirectMap[params.slug];
+	const permanentTarget = popCultureRedirects[params.slug];
 	if (permanentTarget) {
 		throw redirect(301, `${permanentTarget}${url.search}`);
 	}

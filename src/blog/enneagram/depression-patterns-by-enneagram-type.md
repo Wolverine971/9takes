@@ -49,7 +49,7 @@ Depression shows up through each type's core fear. Type 1s freeze in imperfectio
 | **Type 3** | Identity collapse                | Public failure            | Can't stop working, feel empty      | Discover authentic self            |
 | **Type 4** | Defectiveness and longing        | Feeling ordinary          | Comparing self to "complete" others | Embrace wholeness, ordinary beauty |
 | **Type 5** | Withdrawal and depletion         | Overwhelming demands      | Complete isolation from support     | Small connections, body awareness  |
-| **Type 6** | Chronic anxiety spiral           | Betrayal or instability   | Catastrophizing everything          | Build internal security            |
+| **Type 6** | Vigilance burnout                | Betrayal or instability   | Stops preparing, pulls away         | Build internal security            |
 | **Type 7** | Manic activity masking emptiness | Being trapped in pain     | Frantic escape, substance use       | Stay with difficult emotions       |
 | **Type 8** | Rage masking vulnerability       | Betrayal or powerlessness | Aggressive isolation                | Practice vulnerability             |
 | **Type 9** | Numbness and self-erasure        | Forced conflict           | Complete disconnection from desires | Reclaim voice and preferences      |
@@ -78,15 +78,17 @@ Every depressed person experiences a version of this loop:
 
 But your type determines which triggers activate it most powerfully, how the overwhelm manifests, what your inner critic specifically attacks, and what pathways back to connection actually work for you.
 
+Each section below also names childhood patterns we often see behind that type's depression. Read them as common shapes, not a verdict on your past. They take many forms, and plenty of people can't point to one at all.
+
 ## Type 1: The Perfectionist's Depression
 
 It's 11 PM on a Wednesday and you're rewriting the same email for the fourth time. Not because it matters - it's a routine update to your team. But you found a typo in the third draft, and now you can't stop seeing everything wrong with it. You haven't eaten dinner. Your jaw aches from clenching. You know this is irrational, and that knowledge makes you hate yourself more. _A disciplined person would have finished this hours ago._
 
-That's Type 1 depression. Not sadness - **self-punishment disguised as standards.**
+That's one face of Type 1 depression: **self-punishment disguised as standards.**
 
 **Core Pattern:** "I get everything wrong."
 
-Most Type 1s grew up learning that love was conditional on being "good" or "perfect." That early wiring creates a lifelong pattern where mistakes feel like moral failures, and the inner critic never clocks out.
+Many Type 1s describe growing up with the sense that love depended on being "good" or getting things right. When that's part of the story, mistakes start to feel like moral failures, and the inner critic never clocks out.
 
 **How it shows up:**
 
@@ -126,7 +128,7 @@ From the outside, a depressed Type 2 looks like the most generous person in the 
 
 **Core Pattern:** "No one really loves me for who I am - only for what I give them."
 
-Type 2 depression emerges when helping hasn't earned the love and appreciation you desperately need. You learned early that your worth was tied to your usefulness - emotional needs weren't met unless you earned them through caretaking. Now you feel empty, unworthy, and invisible despite constant giving.
+Type 2 depression emerges when helping hasn't earned the love and appreciation you desperately need. For many 2s the pattern traces back to a childhood where care went to whoever was useful, so meeting other people's needs became the way to get your own met. Now you feel empty, unworthy, and invisible despite constant giving.
 
 **How it shows up:**
 
@@ -168,7 +170,7 @@ But the achievement feels hollow. They reach goals and feel nothing. They're wor
 
 **Core Pattern:** "I am nothing without my achievements and image."
 
-Type 3 depression occurs when the achievement machine breaks down and you're forced to confront the emptiness behind the successful image. Growing up, love and attention were conditional on performance - you learned that your worth was your accomplishments.
+Type 3 depression occurs when the achievement machine breaks down and you're forced to confront the emptiness behind the successful image. A common thread in 3s' stories is a childhood where attention showed up with the trophy, the grade, or the good report card, which teaches a kid that worth equals accomplishment.
 
 **How it shows up:**
 
@@ -210,7 +212,7 @@ Here's the paradox: Type 4s are the most likely to identify WITH their depressio
 
 **Core Pattern:** "I am defective and will always be missing something other people have."
 
-Type 4 depression is characterized by deep melancholy, identity confusion, and feeling different and flawed. You grew up feeling misunderstood or like something was wrong with you compared to others. That wound never fully closed.
+Type 4 depression is characterized by deep melancholy, identity confusion, and feeling different and flawed. Many 4s remember feeling misunderstood growing up, or sensing that something about them was different in a way other kids weren't. For some, that feeling never fully closed.
 
 **How it shows up:**
 
@@ -250,7 +252,7 @@ A depressed Type 5 thinks they just need more alone time. They withdraw further,
 
 **Core Pattern:** "I don't have enough energy, resources, or capability to handle life's demands."
 
-Type 5 depression involves withdrawal, depletion, and feeling overwhelmed by the world's demands. Early experiences of invasion or overwhelm taught you that others' demands would deplete you. Now you retreat into your mind while feeling increasingly disconnected from life.
+Type 5 depression involves withdrawal, depletion, and feeling overwhelmed by the world's demands. Often there's an early history of feeling intruded on or overwhelmed, which can teach a child that other people's demands drain a limited supply. Now you retreat into your mind while feeling increasingly disconnected from life.
 
 **How it shows up:**
 
@@ -286,33 +288,43 @@ Type 5 depression involves withdrawal, depletion, and feeling overwhelmed by the
 
 ## Type 6: The Loyalist's Depression
 
-Type 6s experience depression primarily through the anxiety channel. They don't feel "sad" - they feel worried, hypervigilant, catastrophic. The [anxiety that underlies Type 6 depression](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide#type-6-the-loyalists-anxiety) is so constant that it feels like "just how life is." Clinically, this maps to "anxious depression" - a subtype that's frequently underdiagnosed because the anxiety is more visible than the depression underneath.
+For years you were the one with the plan. The backup charger, the second route home, the "text me when you get there." Then, after a long stretch of things going wrong anyway, you stopped. You stopped checking the forecast. You stopped answering the group chat. You stopped preparing for anything, because what would be the point? The people around you might read it as you finally relaxing. You know it's something heavier.
 
-**Core Pattern:** "The world is dangerous, I can't trust my own judgment, and I'm alone in facing unpredictable threats."
+That's one common shape of Type 6 depression: **years on high alert, ending in "what's the point."**
 
-Type 6 depression involves chronic anxiety, self-doubt, and oscillation between seeking security and rejecting it. Growing up in unpredictable or threatening environments where protective figures were unreliable taught you that safety requires constant vigilance.
+Many 6s reach depression by way of anxiety. Running on alert for years wears a person down. Anxiety says _something bad might happen, so I have to be ready._ Depression arrives when that turns into _something bad is going to happen, and being ready won't matter._ Psychologist Lauren Alloy and colleagues described this shift in their helplessness-hopelessness model (1990): anxiety runs on uncertainty about whether you can cope, and depression sets in once the bad outcome starts to feel certain and out of your hands. For a 6, that's the moment the vigilance stops feeling useful, and the [anxiety that's been running underneath](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide#type-6-the-loyalists-anxiety) turns into something else.
+
+Anxiety and depression are different conditions, and people of every type can have one, the other, or both. When they arrive together, clinicians have a way to name it: the DSM-5 lets a depression diagnosis carry the specifier "with anxious distress." But a 6 doesn't have to feel anxious for their depression to count. **If you're a 6 and what you feel is flat, heavy, or empty, that's depression too.**
+
+**Core Pattern:** "I've been bracing for years, I can't trust my own judgment, and nothing I do will be enough to keep things safe."
+
+Type 6 depression often carries chronic anxiety, self-doubt, and a back-and-forth between seeking security and pushing it away. Many 6s can point to an early stretch where the ground felt unsteady, like a protector who was sometimes there and sometimes not, or rules that didn't keep anyone safe. It can take many forms, and some 6s can't point to anything specific. The lesson tends to rhyme: stay alert, because no one else will.
 
 **How it shows up:**
 
-- Worst-case scenario planning, constant scanning for threats, self-doubt about every decision, seeking validation while fearing dependency
-- Chronic anxiety and panic attacks, digestive issues, muscle tension from hypervigilance
-- Fear oscillating between paranoia and anxiety, anger at authorities who let you down, loneliness from difficulty trusting
+- The preparing stops. When a 6 quits planning, checking, and double-checking, the people around them may read it as calm. Often it means they've stopped believing preparation helps.
+- Pulling back from their people: missed check-ins, unanswered texts, distance from the friends they'd normally show up for first
+- Flatness, lost interest in things that used to matter, and exhaustion that sleep doesn't fix
+- Often alongside the familiar anxiety: worst-case thinking, self-doubt about every decision, muscle tension, stomach trouble
+- Anger at the people and institutions that let them down, and loneliness from not trusting anyone enough to say how bad it's gotten
 
-**What triggers it:** Betrayal by trusted support systems, major life changes, being forced to decide alone, unexpected crises that confirm your worst fears.
+**What triggers it:** Betrayal by trusted support systems, major life changes, being forced to decide alone, and long stretches where all the preparation didn't stop the bad outcome.
 
 ### The Type 6 Depression Spiral
 
 1. **Security Threat:** Something threatens your sense of safety
-2. **Anxiety Escalation:** Fear spirals out of control
+2. **Anxiety Escalation:** You scan, plan, and prepare harder
 3. **Support Seeking:** Look for external reassurance
-4. **Doubt Creation:** Question the reliability of support
-5. **Isolation:** Withdraw due to fear of dependence
-6. **Catastrophic Thinking:** Imagine worst possible outcomes
+4. **Doubt Creation:** Question whether that support is reliable
+5. **Exhaustion:** The vigilance runs longer than any body can sustain
+6. **Hopelessness:** "What's the point?" You stop preparing and pull away from your people
 
 ### Healing Path
 
 **Core Principle:** Building internal security and trust in your own judgment
 
+- **Name it accurately:** If the worry has gone quiet and something heavier took its place, tell your therapist or doctor exactly that, so the depression gets treated and not just the anxiety
+- **Re-entry through one person:** Answer one text from someone you trust before you try to fix the bigger picture
 - **Inner authority building:** Make small decisions and trust the outcomes
 - **Anxiety tracking:** Notice fear patterns without immediately reacting
 - **Present moment grounding:** Mindfulness to stay out of future fears
@@ -330,7 +342,7 @@ This might be the most dangerous misidentification of all because it looks like 
 
 **Core Pattern:** "Beneath all my activity and optimism, I'm trapped, limited, and missing out on real fulfillment."
 
-Type 7 depression is masked by manic activity and forced optimism. Early experiences of pain, limitation, or deprivation were too overwhelming for a child to process, so you learned to run. Now, when it breaks through, you experience deep emptiness and terror of being trapped in pain.
+Type 7 depression is masked by manic activity and forced optimism. We often see an early stretch of pain, limitation, or loss in 7s' stories, something too big to sit with as a kid, and running from it became the habit. Now, when it breaks through, you experience deep emptiness and terror of being trapped in pain.
 
 <StrategicQuestion question="What's something you do every day to seem 'fine' that nobody knows is costing you effort?" questionId={567} questionUrl="whats-something-every-day-seem-fine-nobody-knows-costing-effort" blogSlug="depression-patterns-by-enneagram-type" />
 
@@ -372,7 +384,7 @@ A depressed Type 8 becomes MORE aggressive, not less. They pick fights, push peo
 
 **Core Pattern:** "I've been betrayed, I'm powerless to protect what matters, and my strength isn't enough."
 
-Type 8 depression emerges when your protective power fails and you're forced to confront vulnerability. Early experiences of powerlessness or betrayal forced you to become strong before you were developmentally ready. Now you may become aggressive or completely shut down emotionally.
+Type 8 depression emerges when your protective power fails and you're forced to confront vulnerability. Many 8s can point to a time they had to get strong early, usually around powerlessness or betrayal, before any kid should have to. Now you may become aggressive or completely shut down emotionally.
 
 **How it shows up:**
 
@@ -412,7 +424,7 @@ This is the most insidious misidentification. A depressed Type 9 says "I'm fine"
 
 **Core Pattern:** "I don't matter, my desires aren't important, and it's easier to disappear than to risk conflict or disappointment."
 
-Type 9 depression involves deep apathy, disconnection from your own wants, and feeling invisible. In your family, your voice wasn't heard, your needs weren't prioritized, or conflict was too scary to risk expressing yourself. You learned to disappear.
+Type 9 depression involves deep apathy, disconnection from your own wants, and feeling invisible. A pattern we often see in 9s: a family where their voice got lost, their needs came last, or conflict felt too risky to join. Disappearing became the safe move.
 
 **How it shows up:**
 

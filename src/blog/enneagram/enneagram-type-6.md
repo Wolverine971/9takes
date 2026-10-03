@@ -41,18 +41,20 @@ type-6-search-for-solid-ground
 </script>
 
 <QuickAnswer question="Why can't Type 6s stop worrying?">
-Because your mind learned something the hard way: the ground can shift without warning. Trust got broken. Authority proved unreliable. Safety disappeared when you weren't watching. Your anxiety isn't irrational. It's pattern recognition from experience. You run every scenario through constant calculation because once, you didn't see danger coming and it cost you. The "what if" spiral isn't neurosis. It's survival-level vigilance from someone who learned that not being prepared has consequences.
+For a lot of 6s, the mind learned early that the ground can shift without warning. Maybe trust got broken, or the people in charge turned out not to know what they were doing. So the mind runs every scenario, because getting caught unprepared feels like too big a risk to take twice. The "what if" spiral is pattern recognition working overtime. That same restless imagination is also why so many 6s are funny, sharp, and hard to fool.
 </QuickAnswer>
 
-**Read time**: 18 minutes | **Core wound**: Learning that solid ground can become quicksand
+**Read time**: 18 minutes | **Common core wound**: Learning that solid ground can become quicksand
 
-<p class="firstLetter">You remember when you stopped trusting so easily. Maybe it was a promise broken by someone who should have kept it. Maybe it was the moment you realized the adults didn't actually know what they were doing. Maybe it was following the rules perfectly and getting hurt anyway.</p>
+<p class="firstLetter">You might remember when you stopped trusting so easily. Maybe it was a promise broken by someone who should have kept it. Maybe it was the moment you realized the adults didn't actually know what they were doing. Maybe it was following the rules perfectly and getting hurt anyway.</p>
 
-Something cracked. The world revealed itself: a place where solid ground becomes quicksand without warning. Where those in charge might be as lost as you are. Where safety is an illusion that only survives if you don't look too closely.
+For a lot of 6s, something cracked. The world revealed itself: a place where solid ground becomes quicksand without warning. Where those in charge might be as lost as you are. Where safety is an illusion that only survives if you don't look too closely.
 
 So you started questioning. Not out of curiosity but out of necessity. _Can I trust this? What if they're wrong? What's the backup plan?_ The child who once trusted easily became the adult who trusts nothing easily. Including yourself.
 
-This is Type 6 territory. You didn't choose to be anxious. You learned that vigilance is the price of survival in a world that already proved it can't be trusted.
+This is Type 6 territory. Not every 6 has a story like this, and it can take many forms. The lesson tends to rhyme: stay alert, because the ground might move.
+
+That vigilance is half the picture. The same mind that scans for danger also powers the humor, imagination, and conviction that [most descriptions of 6 skip](#the-six-most-type-descriptions-leave-out).
 
 <section class="section-content">
 
@@ -100,6 +102,8 @@ When you're operating from a healthy place, you become:
 
 **A community builder.** Your need for security drives you to create it for others. You build networks of mutual support. You check in on people. You remember what matters to them.
 
+**A mind that plays as hard as it worries.** The imagination that builds worst cases also builds jokes, stories, and ideas nobody else saw coming. More on that [below](#the-six-most-type-descriptions-leave-out).
+
 ### The Shadows You Know
 
 But perpetual vigilance casts dark shadows. You know these:
@@ -111,6 +115,40 @@ But perpetual vigilance casts dark shadows. You know these:
 **Living disasters twice.** Mental rehearsal of catastrophe doesn't prevent it. You just live through it before it happens. And again when it happens. And again when you replay it.
 
 **The push-pull that exhausts everyone.** Needing guidance while suspecting the guide. Wanting to trust while knowing better. This cycle wears you out. It wears out the people trying to lead you, too.
+
+</section>
+
+<section class="section-content">
+
+## The Six Most Type Descriptions Leave Out
+
+Read most Enneagram writing about 6s, including parts of this page, and you'd picture the whole type as a smoke detector. Scanning, doubting, testing. That describes the alarm. The person running it has a lot more going on.
+
+Look at who we've typed as 6s in our personality analyses: [Stephen Colbert](/personality-analysis/stephen-colbert), [Bill Burr](/personality-analysis/bill-burr), [Trevor Noah](/personality-analysis/trevor-noah), [Ellen DeGeneres](/personality-analysis/ellen-degeneres), [Greta Gerwig](/personality-analysis/greta-gerwig), [Eminem](/personality-analysis/eminem), [Marilyn Monroe](/personality-analysis/marilyn-monroe), [Zendaya](/personality-analysis/zendaya), [Pedro Pascal](/personality-analysis/pedro-pascal), [Simone Biles](/personality-analysis/simone-biles). Comedians, artists, icons, and one of the greatest gymnasts ever. Nobody would call that a room full of smoke detectors.
+
+### The Worst-Case Machine Is Also an Imagination Engine
+
+A mind that can run ten disaster scenarios before breakfast can run any scenario. Point the same machinery somewhere else and you get the story, the lyric, the bit, the "what if" that turns into a screenplay.
+
+### Comedy Runs on the 6 Skill
+
+A lot of comedy is noticing the gap between what people pretend and what's actually true. 6s can't stop noticing that gap. It's the same radar that clocks the boss who doesn't know the answer, pointed at a punchline instead of a worry.
+
+Colbert spent nine years playing a pundit who was certain about everything, a joke that only lands if you know exactly how hollow that certainty is. Bill Burr has said, in nearly the same words across years of interviews, that he got into comedy to feel safe. The fear and the funny run on the same wiring.
+
+### Conviction That's Been Earned
+
+Doubt is how a 6 earns certainty. A belief that survives a 6's questioning becomes something they'll stand on when everyone else folds. That's why 6s make fierce advocates, whistleblowers, and true believers in the best sense: they already tested it harder than you will.
+
+### Three Kinds of Six
+
+Enneagram teachers split each type into three subtypes based on which instinct runs strongest. For 6s, Claudio Naranjo and later Beatrice Chestnut described them like this:
+
+- **Self-preservation 6 ("Warmth"):** handles fear by building alliances. Friendly, warm, and usually the most openly anxious of the three.
+- **Social 6 ("Duty"):** handles fear with rules, reference points, and clear lines of responsibility. Steady and principled, often the one who knows how things are supposed to work.
+- **One-to-one 6 ("Strength and Beauty"):** goes straight at the fear. Makes themselves strong, striking, or magnetic enough that nothing can take them down. This is the 6 most often mistyped as an 8, partly because the usual descriptions of 6 sound nothing like them.
+
+If the standard 6 description reads like a list of symptoms to you, plenty of 6s feel the same way, especially one-to-one 6s. The fear is one part of how a 6 mind works. It's rarely the most interesting part.
 
 </section>
 
@@ -154,15 +192,15 @@ Read more about <a href="/enneagram-corner/enneagram-stress-number">other types 
 
 ## How 6s Handle Conflict: The Reactive Approach
 
-Type 6s belong to the **Reactive** Harmonic group (alongside 4s and 8s) — the types who get emotionally intense under stress and need others to mirror that intensity back.
+Type 6s belong to the **Reactive** Harmonic group (alongside 4s and 8s), the types who get emotionally intense under stress and need others to mirror that intensity back.
 
 A manager schedules a 1:1 with the subject line "quick chat." By 11pm the Six has played out three resignation scenarios, drafted a defensive email, texted two trusted friends to "talk something through," and lost the ability to fall asleep. The manager wanted to discuss vacation coverage.
 
-That's the Reactive move (Six-flavored): the anxiety leaks out as long rants, hysterical loops, and worst-case spirals. Sixes broadcast the fear because broadcasting it is how the fear gets to feel real and shared. They want others to take the threat as seriously as they do — and a calm response from someone they trusted often _increases_ the anxiety because it reads as "you're not seeing what I'm seeing."
+That's the Reactive move (Six-flavored): the anxiety leaks out as long rants, hysterical loops, and worst-case spirals. Sixes broadcast the fear because broadcasting it is how the fear gets to feel real and shared. They want others to take the threat as seriously as they do, and a calm response from someone they trusted often _increases_ the anxiety because it reads as "you're not seeing what I'm seeing."
 
-**The blind spot**: Anxiety needs witnesses to feel real. The Six thinks they're processing the threat by talking it through. Often they're amplifying it — recruiting others into the fear loop, which spreads it without resolving it.
+**The blind spot**: Anxiety needs witnesses to feel real. The Six thinks they're processing the threat by talking it through. Often they're amplifying it, recruiting others into the fear loop, which spreads it without resolving it.
 
-**The shift**: Validate the feeling internally before broadcasting it externally. Ask: "What's the smallest piece of evidence I'd need before treating this as urgent?" Most of the time, you don't have that evidence yet — and the urgency was supplied by the imagination, not the facts.
+**The shift**: Validate the feeling internally before broadcasting it externally. Ask: "What's the smallest piece of evidence I'd need before treating this as urgent?" Most of the time, you don't have that evidence yet, and the urgency was supplied by the imagination, not the facts.
 
 For the full framework, see [The Enneagram Harmonic Approaches](/enneagram-corner/enneagram-harmonic-approaches).
 
@@ -170,17 +208,17 @@ For the full framework, see [The Enneagram Harmonic Approaches](/enneagram-corne
 
 <section class="section-content">
 
-## The Childhood Betrayal
+## Where the Pattern Often Starts
 
-Your story contains a moment when trust broke. You might remember it clearly. Or it might have been so gradual you can't pinpoint when the shift happened.
+Many 6s can point to a moment when trust broke. Some remember it clearly. For others it happened so gradually they can't pinpoint the shift, and some can't point to anything at all. What follows are patterns we see often, not a checklist your childhood has to match.
 
-This wasn't necessarily trauma in the conventional sense. Often, it was accumulated small betrayals. Gaps between what adults said and what they did. Rules that didn't protect. Authorities who were obviously lost but kept pretending otherwise.
+When there is a story, it often isn't trauma in the conventional sense. More often it's accumulated small betrayals. Gaps between what adults said and what they did. Rules that didn't protect. Authorities who were obviously lost but kept pretending otherwise.
 
 ### The Vigilant Child
 
-You became the child who noticed when mom said "everything's fine" with tears in her eyes. Who saw dad's hands shake while insisting he had everything under control. Who recognized that the teacher didn't actually know the answer but wouldn't admit it.
+Often it's the child who noticed when mom said "everything's fine" with tears in her eyes. Who saw dad's hands shake while insisting he had everything under control. Who recognized that the teacher didn't actually know the answer but wouldn't admit it.
 
-This created a burden no child should carry: knowing the adults weren't really in charge, but still having to depend on them.
+That can create a burden no child should carry: knowing the adults weren't really in charge, but still having to depend on them.
 
 ### Common Six Origin Patterns
 
@@ -192,7 +230,7 @@ This created a burden no child should carry: knowing the adults weren't really i
 
 - **The sudden shift**: Divorce, death, move, or financial crisis that shattered stability overnight. One day the ground was solid. The next day it wasn't.
 
-The specific story varies. The lesson is the same: _The world cannot be trusted to stay safe. You must stay alert._
+The specific story varies, and it can take forms that aren't on this list. The lesson tends to rhyme: _the world can't be trusted to stay safe, so stay alert._
 
 </section>
 
@@ -461,6 +499,10 @@ Integration isn't theoretical. Here's what it looks like:
 
 - **Embraces uncertainty as possibility.** Instead of "what could go wrong," they can also see "what could go right." The unknown contains gifts, not just threats.
 
+- **Laughs at the fear.** A healthy 6 still sees the worst case. They can also find it funny and say so out loud, which takes away most of its power.
+
+- **Builds toward something.** Their energy goes into people, work, and beliefs they chose, with less of it spent scanning for what might go wrong.
+
 ### Practical Steps for Growth
 
 **The Trust Practice**
@@ -537,7 +579,7 @@ items={[
 `You run "what if" scenarios automatically. Not because you want to worry, but because not preparing feels reckless.`,
 `Loyalty is non-negotiable. You'd rather stick with difficult people you trust than easy people you don't.`,
 `You're torn between wanting someone competent in charge and questioning whether anyone is actually competent.`,
-`You seek reassurance before decisions—then question whether those people really know either.`,
+`You seek reassurance before decisions, then question whether those people really know either.`,
 `People praise your reliability, but they don't see how much energy it takes to be that dependable.`,
 `You spot problems everyone else missed. Inconsistencies between words and actions set off alarm bells you can't ignore.`,
 `Under stress, you shift into achievement mode, trying to become so competent you won't need anyone.`,
@@ -573,7 +615,7 @@ note="If six or more of these resonate, you likely have strong Type 6 patterns. 
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Your mind learned that the ground can shift without warning. Trust got broken. Authority proved unreliable. Safety disappeared when you weren't watching. Your anxiety is pattern recognition from experience. You run every scenario through constant calculation because once, you didn't see danger coming and it cost you. The catastrophizing isn't irrational. It's survival-level vigilance."
+            "text": "For a lot of 6s, the mind learned early that the ground can shift without warning. Maybe trust got broken, or the people in charge turned out not to know what they were doing. So it runs every scenario, because getting caught unprepared feels like too big a risk to take twice. The catastrophizing is pattern recognition working overtime, and the same restless imagination is why so many 6s are funny, sharp, and hard to fool."
           },
           "name": "Why do I catastrophize everything?"
         },
@@ -581,7 +623,7 @@ note="If six or more of these resonate, you likely have strong Type 6 patterns. 
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Your mind constantly scans for threats because it learned that not seeing danger coming has consequences. Every person, situation, and decision runs through an elaborate trustworthiness calculation you didn't consciously build. This hypervigilance developed when trust was broken. It's not paranoia. It's protective pattern recognition that never turns off because turning it off feels dangerous."
+            "text": "Your mind scans for threats because, for many 6s, missing danger once had real consequences. Every person, situation, and decision runs through a trustworthiness calculation you didn't consciously build. That scanning feels protective, which is exactly why turning it off feels dangerous."
           },
           "name": "Why can't I quiet my anxious thoughts?"
         },
@@ -589,7 +631,7 @@ note="If six or more of these resonate, you likely have strong Type 6 patterns. 
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You experienced betrayal that shattered your foundation. You simultaneously crave and question authority: wanting someone competent in charge but knowing many authorities are just scared humans pretending to have answers. Trust was broken by someone who should have been reliable, so now everyone gets scrutinized. The testing isn't paranoia. It's pattern recognition from someone who learned that blind trust has consequences."
+            "text": "Many 6s can point to a time trust was broken by someone who should have been reliable, though the story takes many forms. The result is a push-pull with authority: wanting someone competent in charge while knowing many authorities are scared humans pretending to have answers. So everyone gets tested. The testing is pattern recognition from someone who learned that blind trust has consequences."
           },
           "name": "Why can't I trust people even when they prove themselves?"
         },
@@ -613,7 +655,7 @@ note="If six or more of these resonate, you likely have strong Type 6 patterns. 
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Phobic Sixes move away from what scares them—seeking allies, avoiding risk, and looking for protection. Counterphobic Sixes move toward fear—challenging threats, appearing aggressive, and refusing to back down. Most Sixes contain both tendencies, shifting between them in different life areas. The core fear is identical; only the coping strategy differs."
+            "text": "Phobic Sixes move away from what scares them: seeking allies, avoiding risk, and looking for protection. Counterphobic Sixes move toward fear: challenging threats, appearing aggressive, and refusing to back down. Most Sixes contain both tendencies, shifting between them in different life areas. The core fear is identical; only the coping strategy differs."
           },
           "name": "How can I tell if I'm a phobic or counterphobic Six?"
         }

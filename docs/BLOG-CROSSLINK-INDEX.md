@@ -27,7 +27,7 @@ Link ideas to act on: [`docs/crosslinks/link-opportunities.md`](crosslinks/link-
 | Broken internal links (live post → non-live page) | 0 |
 | Links that go through a 301 | 0 |
 | Broken/redirected links on people pages (draft mirror) | 0 |
-| Body links: blog → blog / blog → people | 1,533 / 285 |
+| Body links: blog → blog / blog → people | 1,533 / 295 |
 
 **Zero-link posts:** `/community/be-gentle-when-youre-right` (in 0, out 0)
 
@@ -39,7 +39,7 @@ Where body links go. Rows = linking section, columns = linked section.
 
 | From \ To | enneagram-corner | community | how-to-guides | pop-culture | people | Stays in section | Posts | Median in |
 |---|---|---|---|---|---|---|---|---|
-| enneagram-corner | 1,126 | 20 | 13 | 16 | 67 | 91% | 93 | 8 |
+| enneagram-corner | 1,126 | 20 | 13 | 16 | 77 | 90% | 93 | 8 |
 | community | 53 | 34 | 1 | 6 | 1 | 36% | 17 | 3 |
 | how-to-guides | 56 | 3 | 20 | 0 | 0 | 25% | 11 | 3 |
 | pop-culture | 85 | 3 | 0 | 97 | 217 | 24% | 32 | 3 |
@@ -104,14 +104,14 @@ Live posts with 3 or fewer outgoing links, sorted by impressions. Readers land h
 People pages by search impressions and how many **blog posts** link to them in prose
 (the FamousTypes block on type pages and the `/personality-analysis/categories/*` listings link
 nearly every person, but those are not contextual links).
-166 of 450 people pages have at least one blog link.
+173 of 450 people pages have at least one blog link.
 
 | Person | Impressions | Clicks | Position | Blog links in | People links in |
 |---|---|---|---|---|---|
 | [Sky Bri](/personality-analysis/sky-bri) | 16,351 | 122 | 9.4 | 0 | 2 |
 | [IShowSpeed](/personality-analysis/ishowspeed) | 15,229 | 34 | 7.4 | 0 | 3 |
 | [Jordi Hays](/personality-analysis/jordi-hays) | 10,830 | 216 | 6.5 | 2 | 1 |
-| [Zendaya](/personality-analysis/zendaya) | 6,631 | 34 | 9.2 | 1 | 9 |
+| [Zendaya](/personality-analysis/zendaya) | 6,631 | 34 | 9.2 | 2 | 9 |
 | [Shawn Ryan](/personality-analysis/shawn-ryan) | 5,641 | 52 | 8.8 | 2 | 1 |
 | [Sabrina Carpenter](/personality-analysis/sabrina-carpenter) | 5,262 | 19 | 6.8 | 0 | 3 |
 | [Lionel Messi](/personality-analysis/lionel-messi) | 5,144 | 29 | 8.9 | 0 | 3 |
@@ -137,7 +137,7 @@ nearly every person, but those are not contextual links).
 ## People pages that need links
 
 A people page "needs links" with 2 or fewer contextual links in (blog posts + other people pages).
-**207 of 450** people pages need links; 71 have none.
+**205 of 450** people pages need links; 71 have none.
 Unlinked mentions on other people pages are queued in `link-opportunities.md` §4.
 
 | Person | Impressions | Position | Blog links in | People links in |
@@ -178,7 +178,7 @@ Unlinked mentions on other people pages are queued in `link-opportunities.md` §
 | 190 | 41 | 6,953 | `/enneagram-corner/enneagram-wings-complete-guide` |
 | 155 | 16 | 7,263 | `/enneagram-corner/enneagram-instinctual-subtypes` |
 | 141 | 14 | 3,917 | `/enneagram-corner/enneagram-type-3` |
-| 128 | 15 | 1,283 | `/enneagram-corner/enneagram-type-6` |
+| 128 | 25 | 1,283 | `/enneagram-corner/enneagram-type-6` |
 | 128 | 13 | 504 | `/enneagram-corner/enneagram-type-7` |
 | 127 | 15 | 2,166 | `/enneagram-corner/enneagram-type-4` |
 | 122 | 14 | 1,629 | `/enneagram-corner/enneagram-type-5` |
@@ -296,7 +296,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 1,448 | 27.8 | 3 (3/0) | 3 (3/0) | Is the Enneagram Religious? (The Truth About Its Spiritual Origins) | `/enneagram-corner/enneagram-and-religion` |
 | 1,437 | 9.2 | 24 (22/2) | 15 (15/0) | Your Type's Fatal Flaw (And Secret Superpower) Based on Enneagram | `/enneagram-corner/enneagram-strengths-and-weaknesses` |
 | 1,399 | 25.1 | 204 (68/136) | 14 (14/0) | Enneagram Types in Stress: Trigger → Fear → Defense → Backfire | `/enneagram-corner/enneagram-types-in-stress` |
-| 1,283 | 57.1 | 128 (51/77) | 15 (15/0) | Enneagram Type 6: Loyalist - Search for Solid Ground | `/enneagram-corner/enneagram-type-6` |
+| 1,283 | 57.1 | 128 (51/77) | 25 (15/10) | Enneagram Type 6: Loyalist - Search for Solid Ground | `/enneagram-corner/enneagram-type-6` |
 | 1,207 | 11.1 | 119 (47/72) | 15 (15/0) | Enneagram Type 8: Challenger - Behind the Armor | `/enneagram-corner/enneagram-type-8` |
 | 1,164 | 9.6 | 7 (7/0) | 14 (7/7) | The AI Wars: Why Personality Types Determine Who Gets to Build God | `/pop-culture/tech-titans-ai-wars` |
 | 1,131 | 7.9 | 8 (8/0) | 5 (5/0) | How to Apologize by Enneagram Type: The Nine Scripts Each Type Skips | `/enneagram-corner/how-to-apologize-like-a-pro` |

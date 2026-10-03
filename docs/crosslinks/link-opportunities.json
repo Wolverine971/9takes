@@ -13,7 +13,7 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 397,
+		"candidates": 398,
 		"gateDebt": 1,
 		"topBlog": 40,
 		"peopleBridge": 30,
@@ -1282,33 +1282,6 @@
 			"excerpt": "**Joe Rogan. Dave Portnoy. [Sam Parr](/personality-analysis/sam-parr).**"
 		},
 		{
-			"id": "/pop-culture/hollywood-heartthrobs-enneagram-analysis -> /personality-analysis/greta-gerwig",
-			"score": 5.37,
-			"target": {
-				"url": "/personality-analysis/greta-gerwig",
-				"title": "Greta Gerwig",
-				"kind": "person",
-				"section": "people",
-				"impressions": 14,
-				"clicks": 0,
-				"position": 7.9,
-				"inbound": 0
-			},
-			"source": {
-				"url": "/pop-culture/hollywood-heartthrobs-enneagram-analysis",
-				"file": "src/blog/pop-culture/hollywood-heartthrobs-enneagram-analysis.md",
-				"section": "pop-culture",
-				"impressions": 143,
-				"outCount": 12
-			},
-			"line": 391,
-			"anchor": "Greta Gerwig",
-			"phrase": "Greta Gerwig",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "When Gosling took the role of Ken in Greta Gerwig's _Barbie_ (2023), it was a Type 9 doing something rare: stepping fully into the joke. His performance of \"I'm Just Ken\" at the Oscars—an anthem about a man whose entire …"
-		},
-		{
 			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /personality-analysis/paul-graham",
 			"score": 5.3,
 			"target": {
@@ -1712,6 +1685,33 @@
 			"phraseKind": "name",
 			"mentionScore": 3,
 			"excerpt": "He is not even the only ousted founder of the era who walked. Travis Kalanick was forced out of Uber in 2017 by Benchmark, the same firm whose Bruce Dunlevie shows up in Frame 5, and was never criminally charged either. …"
+		},
+		{
+			"id": "/pop-culture/hollywood-heartthrobs-enneagram-analysis -> /personality-analysis/greta-gerwig",
+			"score": 3.8,
+			"target": {
+				"url": "/personality-analysis/greta-gerwig",
+				"title": "Greta Gerwig",
+				"kind": "person",
+				"section": "people",
+				"impressions": 14,
+				"clicks": 0,
+				"position": 7.9,
+				"inbound": 1
+			},
+			"source": {
+				"url": "/pop-culture/hollywood-heartthrobs-enneagram-analysis",
+				"file": "src/blog/pop-culture/hollywood-heartthrobs-enneagram-analysis.md",
+				"section": "pop-culture",
+				"impressions": 143,
+				"outCount": 12
+			},
+			"line": 391,
+			"anchor": "Greta Gerwig",
+			"phrase": "Greta Gerwig",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "When Gosling took the role of Ken in Greta Gerwig's _Barbie_ (2023), it was a Type 9 doing something rare: stepping fully into the joke. His performance of \"I'm Just Ken\" at the Oscars—an anthem about a man whose entire …"
 		},
 		{
 			"id": "/community/software-and-hardware-of-the-mind -> /personality-analysis/carl-jung",

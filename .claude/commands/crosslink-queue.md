@@ -107,7 +107,7 @@ At most 1 link per run, never inside the QuickAnswer, never in the title/H2s, no
   bridge per host file, max 3 bridges per run. Log each one verbatim.
 - Voice for any new words: tactically direct, specific, no fluff; no AI tells ("delve", "tapestry",
   "navigate the complexities", "it's not X, it's Y", em-dash chains). Never write "X tells you WHAT,
-  the Enneagram tells you WHY" (any variant), childhood-wound origin claims, typing a stranger from
+  the Enneagram tells you WHY" (any variant), childhood-wound origins stated as certain cause (hedged "we often see this pattern" framing is fine), typing a stranger from
   one behavior, or first-party stats presented as causal.
 
 ### 4b. People pages (peopleToPeople candidates)

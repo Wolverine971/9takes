@@ -1,0 +1,26 @@
+# Donald Trump profile: Type 3 arrow correction (2026-10-03)
+# REASON for --skip-perspective-gate: scoped factual correction to match site canon (Type 3 stress -> 9, growth -> 6; the profile had them reversed).
+# DJ approved the fix ('Oh yeah, fix that'). The profile has no perspective-review manifest at all (legacy, predates the gate), so 'proper' would mean a full pipeline run over the whole page.
+# Instead: an independent editor review of the changed passages only (Enneagram-expert, fairness, coherence lenses) returned SHIP WITH FIXES; all 6 fixes applied before sync. The 2020 facts were fact-checked the same day.
+# Diff: ~1.4k chars across the Rabbit Hole arrows, the stress and growth sections, the Fred Jr. beat, and the stress FAQ. lastmod preserved (live 2026-02-20 kept via --sync protected-field preservation).
+# Command: node scripts/personBlogParser.js Donald-Trump --sync --skip-perspective-gate
+
+[alexandr-wang] rejected non-ISO date: 1997-01
+Filtered to: donald-trump
+Found 1 entries to process
+Syncing reviewed 1 people blog entry...
+
+People update preview: donald-trump (id=705)
+Expected live content hash: 877aca8fb58d7c85bd7178b6725e60ea
+Local parsed content hash:  8d71554cfd52a11e91adac43006aadf4
+Protected fields: date, loc, lastmod, published, enneagram, type, person (preserved by code and RPC)
+PRESERVED protected-field drift:
+{"field":"lastmod","live":"2026-02-20","local":"2026-08-13"}
+Field-by-field diff:
+{"field":"content","before":{"hash":"877aca8fb58d7c85bd7178b6725e60ea","characters":41512},"after":{"hash":"8d71554cfd52a11e91adac43006aadf4","characters":42792}}
+{"field":"faqs","before":[{"anchor":"what-is-donald-trumps-personality-type","answer":"This article makes a speculative case that Donald Trump fits Enneagram Type 3 — The Achiever. Type 3s are described as driven, image-conscious, and adaptive, with attention fixed on success and how others perceive them. Trump's gold buildings, name licensing, superlatives, and habit of converting setbacks into branded victories fit that pattern, but the typing is an interpretive lens, not a clinical diagnosis or a claim to know his private motives.","question":"What is Donald Trump's personality type?"},{"anchor":"the-making-of-an-achiever-trumps-childhood","answer":"Biographical accounts describe Fred Trump stressing competition, toughness, and winning, while Donald's mother was seriously ill when he was very young. Within the Enneagram framework, those accounts are consistent with a child learning to secure worth through achievement. They do not prove a single psychological cause, and family recollections differ in perspective and reliability.","question":"How did Trump's childhood shape him into an Achiever?"},{"anchor":"when-the-image-cracks-trump-under-stress","answer":"This article reads Trump's public stress pattern as a shift from performing success to policing loyalty: criticism becomes betrayal, and aides or allies become loyal or disloyal according to whether they defend him. That is an Enneagram interpretation of public behavior, not a medical assessment.","question":"What happens when Trump is under stress?"}],"after":[{"question":"What is Donald Trump's personality type?","answer":"This article makes a speculative case that Donald Trump fits Enneagram Type 3 — The Achiever. Type 3s are described as driven, image-conscious, and adaptive, with attention fixed on success and how others perceive them. Trump's gold buildings, name licensing, superlatives, and habit of converting setbacks into branded victories fit that pattern, but the typing is an interpretive lens, not a clinical diagnosis or a claim to know his private motives.","anchor":"what-is-donald-trumps-personality-type"},{"question":"How did Trump's childhood shape him into an Achiever?","answer":"Biographical accounts describe Fred Trump stressing competition, toughness, and winning, while Donald's mother was seriously ill when he was very young. Within the Enneagram framework, those accounts are consistent with a child learning to secure worth through achievement. They do not prove a single psychological cause, and family recollections differ in perspective and reliability.","anchor":"the-making-of-an-achiever-trumps-childhood"},{"question":"What happens when Trump is under stress?","answer":"This article reads two public stress patterns. When the image is threatened, Trump shifts from performing success to policing loyalty: criticism becomes betrayal, and aides or allies become loyal or disloyal according to whether they defend him. When the scoreboard turns final, he withdraws from public view, as in the weeks after the 2020 race was called. That withdrawal is the Type 3 stress line toward 9. Both are Enneagram interpretations of public behavior, not a medical assessment.","anchor":"when-the-image-cracks-trump-under-stress"}]}
+Reviewed sync will atomically apply these parser-managed fields.
+Preserving protected live fields for donald-trump: lastmod
+Perspective gate SKIPPED for donald-trump by explicit flag. Reader-visible changes are going live without a matching six-perspective verification.
+Verified update: donald-trump; lastmod=2026-02-20; published=true
+Processing complete!

@@ -417,7 +417,7 @@ Type 5s typically gravitate toward:
 
 ### The Pattern That Destroys Type 6 Relationships
 
-Type 6s worry. Under stress, they test until the relationship snaps. Many Type 6s create the very abandonment they fear through constant testing.
+Type 6s commit. Under stress, that commitment turns into testing, and they test until the relationship snaps. Many Type 6s create the very abandonment they fear.
 
 **Your Dating Kryptonite:** You're so busy looking for red flags that you create them. Your anxiety becomes a self-fulfilling prophecy, pushing away the security you crave.
 

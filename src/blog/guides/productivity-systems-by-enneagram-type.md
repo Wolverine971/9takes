@@ -71,7 +71,7 @@ Midjourney Type 1 Image Prompt:
 
 <a href="/enneagram-corner/enneagram-type-1" class="type-link">Learn more about Type 1's core traits</a>
 
-You're already highly productive. That's not your problem. Your problem is you spend 20% of your time on the last 2% of quality, and you can't stop yourself.
+You're already highly productive. That's not your problem. Your problem is you spend hours on the last sliver of quality, and you can't stop yourself.
 
 The email that took 45 minutes when 10 would have been fine. The presentation you revised six times when three was plenty. The project plan so detailed it became its own project.
 
@@ -303,11 +303,11 @@ Midjourney Type 6 Image Prompt:
 
 <a href="/enneagram-corner/enneagram-type-6" class="type-link">Learn more about Type 6's core traits</a>
 
-You're excellent at anticipating problems. You catch risks others miss. You build reliable systems and create thorough contingency plans that save projects when everything goes sideways.
+Your mind is a scenario engine. You see the problem three moves ahead, catch risks others miss, and build contingency plans that save projects when everything goes sideways.
 
-You're also spending 40% of your productive hours in worry loops.
+The same engine also eats hours in worry loops.
 
-The double-checking. The seeking reassurance. The catastrophizing about obstacles that never materialize. The planning for Plan B while you should be executing Plan A. Your anxiety isn't protecting you. It's eating your time.
+The double-checking. The seeking reassurance. The catastrophizing about obstacles that never materialize. The planning for Plan B while you should be executing Plan A. None of that time buys extra safety.
 
 **What you do well:** Problem anticipation, thorough contingency planning, reliable execution, supporting team stability, building tested systems.
 
