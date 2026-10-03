@@ -181,8 +181,8 @@ export const POP_CULTURE_BRIDGES: Record<string, PopCultureBridges> = {
 		category: 'tech-business'
 	},
 	// Trump vs Biden
-	'trump-type-8-vs-biden-type-2': {
-		type: 8,
+	'trump-type-3-vs-biden-type-2': {
+		type: 3,
 		secondaryType: 2,
 		corpusAnchor: 'politics-public',
 		category: 'politics-public'

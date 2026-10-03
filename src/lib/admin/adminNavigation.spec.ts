@@ -1,9 +1,16 @@
 // src/lib/admin/adminNavigation.spec.ts
 import { describe, expect, it } from 'vitest';
-import { adminNavGroups, getAdminRouteContext, isAdminNavActive } from './adminNavigation';
+import {
+	adminNavGroups,
+	getAdminRouteContext,
+	isAdminNavActive,
+	type AdminNavItem
+} from './adminNavigation';
 
 const item = (href: string) => {
-	const found = adminNavGroups.flatMap((group) => group.items).find((i) => i.href === href);
+	const found = adminNavGroups
+		.flatMap<AdminNavItem>((group) => group.items)
+		.find((i) => i.href === href);
 	if (!found) throw new Error(`No nav item ${href}`);
 	return found;
 };
@@ -28,6 +35,15 @@ describe('isAdminNavActive', () => {
 });
 
 describe('getAdminRouteContext', () => {
+	it('places the host desk and its sub-pages in Community', () => {
+		for (const pathname of ['/admin/host-desk', '/admin/host-desk/']) {
+			const context = getAdminRouteContext(pathname);
+			expect(context.label).toBe('Host desk');
+			expect(context.group.label).toBe('Community');
+			expect(isAdminNavActive(item('/admin/host-desk'), pathname)).toBe(true);
+		}
+	});
+
 	it('labels the notes inbox', () => {
 		expect(getAdminRouteContext('/admin/consulting/notes').label).toBe('Notes');
 		expect(getAdminRouteContext('/admin/consulting/sessions').label).toBe('Sessions');

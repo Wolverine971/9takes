@@ -235,7 +235,7 @@ _"Success through connection and service"_
 
 **Career Patterns:** Sales, management, consulting, coaching, politics, entertainment
 
-**Famous Examples:** [Jennifer Lopez](/personality-analysis/jennifer-lopez), [Donald Trump](/personality-analysis/donald-trump), [Tony Robbins](/personality-analysis/tony-robbins)
+**Famous Examples:** [Jennifer Lopez](/personality-analysis/jennifer-lopez), [Donald Trump](/personality-analysis/donald-trump), [Tony Robbins](/personality-analysis/tony-robbins). To watch a 3w2's playbook run into a Type 2's, see how [Trump and Biden read each other](/pop-culture/trump-type-3-vs-biden-type-2).
 
 **Red Flags You're This Type:**
 

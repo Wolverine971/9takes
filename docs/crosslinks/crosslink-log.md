@@ -333,3 +333,16 @@ DJ approved linking people pages to each other ("link the pages that need links 
   - Tooling: the term "john", mined from Search Console queries for the TBPN post, has now caused 5 false matches in two runs (Bowlby, Gottman, Sweeney, John 8:7). All are skipped, but `buildTargetPhrases` in `scripts/lib/crosslinkOpportunities.js` should drop first-name-only tokens or require the full name, or the next "John" comes back
   - Maxwell's 4th inbound link is waiting on a draft: the unpublished `pop-culture/epstein-web-of-manipulation` L78 names her ("A female partner (Maxwell) who made it feel safe")
   - Clean pairs left for next run: `adam-neumann` → `jamie-dimon` and `jimmy-fallon` → `emma-stone` (people → people); `software-and-hardware-of-the-mind` L114 → frameworks comparison (paragraph already has 2 external links); `why-im-selective-sharing-enneagram` → science page (still only inside the skeptic's quote)
+
+### 2026-10-03 — T-38: Trump vs Biden rewritten around Trump as a Type 3, slug renamed, grandfathered entry retired
+
+- Trigger: a reader note flagged that 9takes typed Trump as an 8 in the Trump vs Biden post and as a 3 everywhere else. DJ: "Let's reorient around him being an Enneagram type 3."
+- Renamed (git mv): `src/blog/pop-culture/trump-type-8-vs-biden-type-2.md` → `trump-type-3-vs-biden-type-2.md`. Rewritten as 3w2 vs 2w1 (two heart types, "admired" vs "needed", the room vs the person), 3 arrows (stress 9, growth 6), no childhood etiology, zero em-dashes, `lastmod` untouched. JSON-LD and body FAQs mirror each other; added "Is Trump an Enneagram Type 8 or Type 3?" FAQ and a correction note.
+- 301: `src/routes/pop-culture/[slug]/+page.ts` now has a `permanentRedirectMap` (same pattern as enneagram-corner). Verified in dev: old URL → 301 to the new one (query string kept), new URL 200, canonical points at the new slug.
+- Inbound links repointed (no redirect hops): `pop-culture/us-presidents-enneagram-analysis` L308, `community/why-the-greek-vibe` L124, drafts `pop-culture/depp-vs-heard-enneagram-analysis` L395 (anchor now "Type 3 vs Type 2") and `pop-culture/world-leaders-enneagram-personality-dynamics` (Learn More).
+- Added (third inbound, gate): `enneagram/enneagram-wings-complete-guide` 3w2 Famous Examples → `/pop-culture/trump-type-3-vs-biden-type-2` ("Trump and Biden read each other"). New URL: in 3 / out 14.
+- Baseline: removed the grandfathered `/pop-culture/trump-type-8-vs-biden-type-2` key; `grandfathered` is now empty. Gate is red only on `/community/be-gentle-when-youre-right` (someone else's untracked working draft, untouched).
+- Code: `popCultureBridges.ts` key renamed, `type: 3`; `scripts/add-faq-schema.js` path updated. Image files keep the old `-type-8-` filename (no visible text).
+- World-leaders draft (unpublished): Trump retyped as the showman 3 beside Putin and Xi as 8s.
+- Not run yet: `pnpm index:blogs` (dry run shows: insert new slug, unpublish stale old row, update wings guide). Run it after the deploy so site search never points at a URL that isn't live.
+- Noticed (not edited, needs DJ): Trump's live profile Rabbit Hole has the Type 3 arrows reversed (says stress → 6, growth → 9; site canon in `enneagram-connecting-lines` and `enneagram-type-3` is stress → 9, growth → 6). The wings guide 3w2 block still has a "Childhood Wound" line (do-not-write list).

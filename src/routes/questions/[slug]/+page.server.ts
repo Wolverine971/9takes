@@ -10,10 +10,19 @@ import {
 	runBestEffortTelemetry
 } from '$lib/server/bestEffortTelemetry';
 import { recordGiveFirstEvent } from '$lib/server/giveFirstFunnel';
+import {
+	PUBLIC_COMMENT_FIELDS,
+	assertCommentAccess,
+	checkRateLimit,
+	checkUserAnswered,
+	createCommentData,
+	getQuestion,
+	handleCommentCreation,
+	parseUrls
+} from '$lib/server/questionComments';
 import { checkDemoTime } from '../../../utils/api';
 import { loadRouteDemoTime } from '$lib/server/demoTime';
 import { mapDemoValues } from '../../../utils/demo';
-import { extractFirstURL } from '../../../utils/StringUtils';
 import {
 	createCommentSchema,
 	flagCommentSchema,
@@ -41,24 +50,17 @@ import {
 import type { ReplyFocusThread } from '$lib/components/questions/newReplyTreatment';
 import { z } from 'zod';
 
-import { fetchPublicHtml } from '$lib/server/safeExternalFetch';
-import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
-import { load as cheerioLoad } from 'cheerio';
-
 // =============================================================================
 // Constants
 // =============================================================================
-// Rate limit configuration: 5 comments per minute
-const RATE_LIMIT_MAX_COMMENTS = 5;
-const RATE_LIMIT_WINDOW_SECONDS = 60;
+// Comment rate limit (5 per minute) and PUBLIC_COMMENT_FIELDS live in
+// $lib/server/questionComments, shared with POST /api/homepage/answer.
 
 // Pagination defaults
 const DEFAULT_COMMENTS_LIMIT = 10;
 const DEFAULT_LINKS_LIMIT = 10;
 // ?reply=<id> deep links pre-load the parent take's replies so the reply exists on first paint.
 const REPLY_FOCUS_REPLIES_LIMIT = 50;
-const PUBLIC_COMMENT_FIELDS =
-	'id, comment, author_id, parent_id, parent_type, comment_count, created_at, modified_at, like_count';
 
 const MAX_IMAGE_SIZE_BYTES = 10 * 1024 * 1024; // 10MB
 const TAGGABLE_LEAF_LEVEL = 3;
@@ -673,39 +675,10 @@ interface RequestData {
 	demo_time: boolean;
 }
 
-type CreateCommentInput = z.infer<typeof createCommentSchema>;
-
 async function getRequestData(request: Request): Promise<RequestData> {
 	const body = Object.fromEntries(await request.formData());
 	const demo_time = (await checkDemoTime()) === true;
 	return { body, demo_time };
-}
-
-/**
- * Check if the user has exceeded the rate limit for comments
- * Returns true if allowed to comment, false if rate limited
- */
-async function checkRateLimit(fingerprint: string | undefined, ip: string): Promise<boolean> {
-	try {
-		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		const { data, error: rpcError } = await (supabase.rpc as any)('check_comment_rate_limit', {
-			p_fingerprint: fingerprint || null,
-			p_ip: ip,
-			p_max_comments: RATE_LIMIT_MAX_COMMENTS,
-			p_window_seconds: RATE_LIMIT_WINDOW_SECONDS
-		});
-
-		if (rpcError) {
-			// Keep the posting limit enforced when its backing store is unavailable.
-			console.error('Rate limit check failed:', rpcError);
-			return false;
-		}
-
-		return data === true;
-	} catch (err) {
-		console.error('Rate limit check error:', err);
-		return false;
-	}
 }
 
 function resolveSessionBoundUserId(
@@ -718,122 +691,6 @@ function resolveSessionBoundUserId(
 	}
 
 	return sessionUserId;
-}
-
-function resolveCommentAuthorId(
-	claimedAuthorId: string | undefined,
-	sessionUserId: string | null
-): string | null {
-	if (claimedAuthorId && !sessionUserId) {
-		throw error(403, { message: 'Anonymous comments cannot claim a user id' });
-	}
-	if (claimedAuthorId && sessionUserId && claimedAuthorId !== sessionUserId) {
-		throw error(403, { message: 'Cannot comment as another user' });
-	}
-
-	return sessionUserId;
-}
-
-async function assertCommentAccess(
-	input: CreateCommentInput,
-	sessionUserId: string | null,
-	demoTime: boolean
-): Promise<void> {
-	if (sessionUserId) return;
-
-	if (input.parent_type === 'comment') {
-		throw error(401, { message: 'You must register or login to reply to comments' });
-	}
-
-	if (!input.fingerprint) {
-		throw error(400, { message: 'Missing visitor fingerprint' });
-	}
-
-	if (demoTime) return;
-
-	const parentQuestionId = Number.parseInt(input.parent_id, 10);
-	const hasAnswered = await checkUserAnswered(input.fingerprint, parentQuestionId, undefined);
-	if (hasAnswered) {
-		throw error(403, { message: 'You must register or login to comment multiple times' });
-	}
-}
-
-interface CommentData {
-	comment: string;
-	parent_id: number;
-	author_id: string | null;
-	comment_count: number;
-	ip: string;
-	parent_type: string;
-	fingerprint: string | null;
-}
-
-async function createCommentData(
-	input: CreateCommentInput,
-	ip: string,
-	sessionUserId: string | null
-): Promise<CommentData> {
-	const comment = input.comment;
-	const parent_id = input.parent_id;
-	const parent_type = input.parent_type;
-	const fingerprint = input.fingerprint;
-	const author_id = resolveCommentAuthorId(input.author_id, sessionUserId);
-
-	return {
-		comment,
-		parent_id: parseInt(parent_id),
-		author_id,
-		comment_count: 0,
-		ip,
-		parent_type,
-		fingerprint: fingerprint || null
-	};
-}
-
-async function handleCommentCreation(
-	db: any,
-	commentData: CommentData,
-	parent_type: string,
-	demo_time: boolean
-): Promise<unknown> {
-	// For demo mode, use regular insert (demo tables don't have the atomic RPC)
-	if (demo_time) {
-		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		const { data: record, error: addCommentError } = await (
-			getSupabaseAdminClient().from('comments_demo') as any
-		)
-			.insert(commentData)
-			.select(PUBLIC_COMMENT_FIELDS)
-			.single();
-
-		if (addCommentError) {
-			console.error(addCommentError);
-			throw error(500, { message: 'Failed to add comment' });
-		}
-
-		return record;
-	}
-
-	// For production, use atomic RPC that handles insert + count increment in one transaction
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const { data: record, error: rpcError } = await (getSupabaseAdminClient().rpc as any)(
-		'create_comment_atomic',
-		{
-			p_comment: commentData.comment,
-			p_parent_id: commentData.parent_id,
-			p_author_id: commentData.author_id || null,
-			p_parent_type: parent_type,
-			p_fingerprint: commentData.fingerprint || null,
-			p_ip: commentData.ip
-		}
-	);
-
-	if (rpcError) {
-		console.error('Atomic comment creation failed:', rpcError);
-		throw error(500, { message: 'Failed to add comment' });
-	}
-
-	return record;
 }
 
 async function addLike(db: any, parent_id: string, user_id: string) {
@@ -944,115 +801,6 @@ async function updateQuestionImageById(db: any, questionId: number, imgPath: str
 	if (updateError) {
 		console.error('Error updating question image URL:', updateError);
 	}
-}
-
-interface OGData {
-	title?: string;
-	description?: string;
-	image?: string;
-	url?: string;
-}
-
-async function fetchOGData(url: string): Promise<OGData> {
-	try {
-		const html = await fetchPublicHtml(url);
-		const $ = cheerioLoad(html);
-
-		const ogData: OGData = {};
-		$('meta[property^="og:"]').each((_, element) => {
-			const property = $(element).attr('property')?.slice(3);
-			const content = $(element).attr('content');
-			if (property && content) {
-				ogData[property as keyof OGData] = content;
-			}
-		});
-
-		return ogData;
-	} catch (err) {
-		const message = err instanceof Error ? err.message : String(err);
-		console.error(`Error fetching OG data: ${message}`);
-		return {};
-	}
-}
-
-async function parseUrls(comment: string, questionId: string): Promise<void> {
-	const { url, domain } = extractFirstURL(comment);
-	if (!domain || !url) return;
-
-	try {
-		const ogData = await fetchOGData(url);
-		const domainId = await upsertDomain(domain);
-		await upsertLink(url, domainId, questionId, ogData);
-	} catch (err) {
-		console.error('Error parsing URLs:', err);
-		// Consider how you want to handle errors here
-	}
-}
-
-async function upsertDomain(domain: string): Promise<number> {
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const { data, error: upsertError } = await (getSupabaseAdminClient().from('link_domains') as any)
-		.upsert({ domain, updated_at: new Date().toISOString() })
-		.select('id')
-		.single();
-
-	if (upsertError) throw new Error(`Failed to upsert domain: ${upsertError.message}`);
-	if (!data) throw new Error('No data returned from domain upsert');
-
-	return data.id;
-}
-
-async function upsertLink(
-	url: string,
-	domainId: number,
-	questionId: string,
-	ogData: OGData
-): Promise<void> {
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const { error: upsertError } = await (getSupabaseAdminClient().from('links') as any).upsert({
-		url,
-		domain_id: domainId,
-		updated_at: new Date().toISOString(),
-		question_id: questionId,
-		meta_title: ogData.title,
-		meta_description: ogData.description,
-		meta_image: ogData.image
-	});
-
-	if (upsertError) throw new Error(`Failed to upsert link: ${upsertError.message}`);
-}
-
-async function getQuestion(slug: string, demo_time: boolean, db: any = supabase) {
-	const table = demo_time ? 'questions_demo' : 'questions';
-	const subscriptions = demo_time ? 'subscriptions_demo' : 'subscriptions';
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const query = (db.from(table) as any).select(
-		`id, question, question_formatted, url, context, data, author_id, created_at, updated_at, comment_count, es_id, img_url, ${subscriptions} (id, question_id, user_id)`
-	);
-
-	const { data, error: findQuestionError } = await (Number.isInteger(parseInt(slug))
-		? query.eq('id', slug).not('removed', 'is', true).not('flagged', 'is', true).single()
-		: query.eq('url', slug).not('removed', 'is', true).not('flagged', 'is', true).single());
-
-	if (!data || findQuestionError) {
-		return null;
-	}
-	return data;
-}
-
-async function checkUserAnswered(
-	cookie: string | undefined,
-	questionId: number,
-	userId: string | undefined,
-	db: any = supabase
-) {
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const { data } = await (db.rpc as any)('can_see_comments_3', {
-		userfingerprint: cookie ?? null,
-		questionid: questionId,
-		userid: userId || null
-	});
-	return data;
 }
 
 async function getQuestionTags(questionId: number) {

@@ -1,8 +1,10 @@
 // src/routes/design-preview/homepage-live-take/+page.server.ts
+// Design sandbox for the live-take homepage (now live on `/`). Posting here stays
+// simulated: nothing is saved and no give-first events are recorded.
 import type { PageServerLoad } from './$types';
-import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { getQuestionTakes } from '$lib/server/questionTakes';
-import { LIVE_TAKE_SLUG, toLiveTakeAnswers, type LiveTake } from '$lib/data/homepageLiveTake';
+import { getLiveQuestion } from '$lib/server/homepageLiveTake';
+import { toLiveTakeAnswers, type LiveTake } from '$lib/data/homepageLiveTake';
 
 async function isAdmin(locals: App.Locals): Promise<boolean> {
 	const userId = locals.session?.user?.id;
@@ -15,16 +17,8 @@ export const load: PageServerLoad = async ({ locals, setHeaders }) => {
 	// Admin reviewers see real answers, so the response must never be shared from a cache.
 	setHeaders({ 'cache-control': 'private, no-store' });
 
-	const { data: question } = await getSupabaseAdminClient()
-		.from('questions')
-		.select('id, question, question_formatted, url, comment_count')
-		.eq('url', LIVE_TAKE_SLUG)
-		.not('removed', 'is', true)
-		.not('flagged', 'is', true)
-		.maybeSingle();
-
-	const title = question?.question_formatted?.trim() || question?.question?.trim();
-	if (!question?.url || !title) return { live: null };
+	const question = await getLiveQuestion(locals.supabase);
+	if (!question) return { live: null };
 
 	const canPreviewAnswers = await isAdmin(locals);
 	// getQuestionTakes bypasses the give-first gate, so it only runs for admins.
@@ -33,9 +27,13 @@ export const load: PageServerLoad = async ({ locals, setHeaders }) => {
 		: [];
 
 	const live: LiveTake = {
+		questionId: question.id,
 		slug: question.url,
-		title,
-		responses: question.comment_count ?? 0,
+		title: question.title,
+		responses: question.responses,
+		signedIn: Boolean(locals.session?.user?.id),
+		answered: false,
+		ownTake: null,
 		answers
 	};
 	return { live };

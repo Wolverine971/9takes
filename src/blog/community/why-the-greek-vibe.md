@@ -121,7 +121,7 @@ The physical agora served multiple functions—and 9takes recreates each one dig
 
 ## Why This Matters Now
 
-We're living through a crisis of discourse. Social media has balkanized us into filter bubbles. Political polarization makes [understanding "the other side"](/pop-culture/trump-type-8-vs-biden-type-2) feel impossible. Nuance has become a liability.
+We're living through a crisis of discourse. Social media has balkanized us into filter bubbles. Political polarization makes [understanding "the other side"](/pop-culture/trump-type-3-vs-biden-type-2) feel impossible. Nuance has become a liability.
 
 The Greeks faced similar challenges. Athens was politically divided, foreign ideas threatened tradition, and populist demagogues gained power. Their solution? Institutions designed to slow down thinking and expose people to different perspectives.
 

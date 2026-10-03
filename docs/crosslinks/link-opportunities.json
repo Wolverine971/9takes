@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-10-02",
+	"generatedAt": "2026-10-03",
 	"gsc": {
 		"runDate": "2026-09-24",
 		"window": {
@@ -13,55 +13,14 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 395,
-		"gateDebt": 2,
+		"candidates": 397,
+		"gateDebt": 1,
 		"topBlog": 40,
 		"peopleBridge": 30,
 		"peopleToPeople": 2,
 		"skipped": 130
 	},
 	"gateDebt": [
-		{
-			"url": "/pop-culture/trump-type-8-vs-biden-type-2",
-			"title": "Trump's Type 8 vs Biden's Type 2: Why They Could Never Understand Each Other",
-			"file": "src/blog/pop-culture/trump-type-8-vs-biden-type-2.md",
-			"inCount": 2,
-			"outCount": 12,
-			"needIn": 1,
-			"needOut": 0,
-			"grandfathered": true,
-			"inbound": [],
-			"outbound": [],
-			"bridgeHosts": [
-				{
-					"url": "/pop-culture/breaking-points-enneagram-analysis",
-					"file": "src/blog/pop-culture/breaking-points-enneagram-analysis.md",
-					"score": 0.4,
-					"reasons": [
-						"same section",
-						"category politics-power"
-					]
-				},
-				{
-					"url": "/pop-culture/ghislaine-maxwell-psychology",
-					"file": "src/blog/pop-culture/ghislaine-maxwell-psychology.md",
-					"score": 0.23,
-					"reasons": [
-						"1 shared links",
-						"same section"
-					]
-				},
-				{
-					"url": "/pop-culture/epstein-psychology-part-1",
-					"file": "src/blog/pop-culture/epstein-psychology-part-1.md",
-					"score": 0.21,
-					"reasons": [
-						"1 shared links",
-						"same section"
-					]
-				}
-			]
-		},
 		{
 			"url": "/community/be-gentle-when-youre-right",
 			"title": "Be Gentle When You're Right",

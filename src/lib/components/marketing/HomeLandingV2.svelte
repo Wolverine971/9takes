@@ -7,13 +7,28 @@
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import ThemeToggle from '$lib/components/atoms/ThemeToggle.svelte';
 	import { faqs, practiceQuestions } from '$lib/data/homepagePracticeV2';
-	import { LIVE_TAKE_ANSWER_FAQ, type LiveTake } from '$lib/data/homepageLiveTake';
+	import {
+		LIVE_TAKE_ANSWER_FAQ,
+		type LiveTake,
+		type LiveTakePostResult
+	} from '$lib/data/homepageLiveTake';
 	import {
 		captureHomepageLinkClicked,
 		captureHomepagePractice,
 		type HomepagePracticeStep
 	} from '$lib/analytics/marketingEvents';
+	import {
+		captureCommentCreated,
+		captureCommentFailed,
+		normalizeServerCommentAnalytics,
+		type CommentFailureCategory,
+		type CommentFailureStage
+	} from '$lib/analytics/commentEvents';
+	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import type { CommunityProof } from '$lib/data/homepageCommunity';
+	import ReplyOptInTray, {
+		type ReplyOptInOffer
+	} from '$lib/components/questions/ReplyOptInTray.svelte';
 	import ConversationScenes from './ConversationScenes.svelte';
 
 	type PreviewNav = {
@@ -141,15 +156,37 @@
 		question.id === 'friendship' ? 'Try the dinner question' : 'Try friendship again'
 	);
 
-	// Live-take mode (design preview): the hero question is a real live question and the visitor
-	// can opt in to post the answer they already wrote. Posting is simulated until DJ approves.
+	// Live-take mode: the hero question is a real live question and the visitor can opt in to
+	// post the answer they already wrote (POST /api/homepage/answer). The design preview
+	// simulates the post instead and saves nothing.
 	let isLive = $derived(live !== null && question.liveSlug === live.slug);
 	let cardTitle = $derived(isLive && live ? live.title : question.question);
 	let liveHref = $derived(
 		live ? resolve('/questions/[slug]', { slug: live.slug }) : resolve('/questions')
 	);
 	let postState = $state<'idle' | 'posting' | 'posted' | 'private'>('idle');
-	let posted = $derived(postState === 'posted');
+	let postError = $state('');
+	let postResult = $state<LiveTakePostResult | null>(null);
+	// The server already passed the give-first gate for this visitor, so they start unlocked.
+	let answeredBefore = $derived(isLive && Boolean(live?.answered));
+	let posted = $derived(postState === 'posted' || answeredBefore);
+	let showReveal = $derived(revealed || answeredBefore);
+	let alreadyAnswered = $derived(
+		postResult ? postResult.alreadyAnswered : answeredBefore && postState !== 'posted'
+	);
+	// What the visitor's take actually says on the live question. Before a post (and in the
+	// preview) that is the draft; after one it is the server's copy, never an unposted draft.
+	let shownAnswer = $derived(
+		postResult
+			? (postResult.ownTake?.text ?? (postResult.alreadyAnswered ? '' : submittedAnswer))
+			: answeredBefore
+				? (live?.ownTake?.text ?? '')
+				: submittedAnswer
+	);
+	let otherAnswers = $derived(postResult?.answers ?? live?.answers ?? []);
+	let liveResponses = $derived(postResult?.responses ?? live?.responses ?? 0);
+	let signedIn = $derived(Boolean(live?.signedIn));
+	let postedLabel = $derived(signedIn ? 'POSTED' : 'POSTED ANONYMOUSLY');
 	let postedHeading = $state<HTMLHeadingElement>();
 	let faqItems = $derived(
 		isLive
@@ -161,12 +198,120 @@
 			: faqs
 	);
 
+	// Reply opt-in after a real post: the same tray, rules and endpoint as the question page.
+	const REPLY_OPT_IN_DISMISSED_KEY = '9t-reply-opt-in-dismissed';
+	let replyOffer = $state<ReplyOptInOffer | null>(null);
+	let replyOptInState = $state<'hidden' | 'shown' | 'dismissed' | 'subscribed'>('hidden');
+
+	function plural(count: number, one: string, many: string) {
+		return `${count} ${count === 1 ? one : many}`;
+	}
+
+	function replyOptInWasDismissed(): boolean {
+		try {
+			return sessionStorage.getItem(REPLY_OPT_IN_DISMISSED_KEY) === '1';
+		} catch {
+			return false;
+		}
+	}
+
+	function offerReplyOptIn(take: LiveTake, result: LiveTakePostResult) {
+		// Question page eligibility: an anonymous visitor's first take ever.
+		const analytics = normalizeServerCommentAnalytics(result.commentAnalytics);
+		if (
+			result.alreadyAnswered ||
+			!result.isAnonymous ||
+			analytics.isFirstCommentEver !== true ||
+			result.commentId === null ||
+			replyOptInWasDismissed()
+		) {
+			return;
+		}
+		replyOffer = {
+			fingerprint: getOrCreateVisitorId(),
+			context: {
+				questionId: take.questionId,
+				questionUrl: take.slug,
+				commentId: result.commentId,
+				// ReplyOptInSurface only allows 'question_page'; these events carry $pathname '/'.
+				surface: 'question_page',
+				isFirstCommentEver: true
+			}
+		};
+		replyOptInState = 'shown';
+	}
+
+	async function submitLiveTake(take: LiveTake): Promise<LiveTakePostResult | null> {
+		// Bounded labels only: the answer text never goes to analytics.
+		const context = {
+			questionId: take.questionId,
+			questionUrl: take.slug,
+			commentKind: 'answer' as const,
+			surface: 'homepage' as const,
+			sourcePath: window.location.pathname,
+			isAnonymous: !take.signedIn
+		};
+		let failureStage: CommentFailureStage = 'request';
+		let errorCategory: CommentFailureCategory = 'network_error';
+		try {
+			const response = await fetch(resolve('/api/homepage/answer'), {
+				method: 'POST',
+				headers: { 'content-type': 'application/json' },
+				body: JSON.stringify({
+					slug: take.slug,
+					comment: submittedAnswer,
+					// Also sets the 9tfingerprint cookie the question page reads.
+					fingerprint: getOrCreateVisitorId()
+				})
+			});
+			const result = await response.json().catch(() => null);
+			if (!response.ok) {
+				errorCategory = 'http_error';
+				throw new Error(typeof result?.error === 'string' ? result.error : '');
+			}
+			failureStage = 'response';
+			errorCategory = 'invalid_response';
+			if (result?.ok !== true || !Array.isArray(result.answers)) throw new Error('');
+
+			const body = result as LiveTakePostResult;
+			if (!body.alreadyAnswered) {
+				void captureCommentCreated({
+					...context,
+					isAnonymous: body.isAnonymous,
+					commentId: body.commentId,
+					parentType: 'question',
+					...normalizeServerCommentAnalytics(body.commentAnalytics)
+				});
+			}
+			return body;
+		} catch (failure) {
+			void captureCommentFailed({ ...context, failureStage, errorCategory });
+			postError =
+				failure instanceof Error && failure.message
+					? failure.message
+					: 'We couldn’t post your answer. It’s still here, so try again.';
+			return null;
+		}
+	}
+
 	async function postAnswer() {
-		if (!live || postState === 'posting' || postState === 'posted') return;
+		if (!live || postState === 'posting' || posted) return;
+		const stateBefore = postState;
 		trackPractice('live_post_clicked');
 		postState = 'posting';
-		// Preview only: stands in for the anonymous post + give-first unlock. Nothing is saved.
-		await new Promise((done) => setTimeout(done, 650));
+		postError = '';
+		if (preview) {
+			// Design preview: stands in for the anonymous post + give-first unlock. Nothing is saved.
+			await new Promise((done) => setTimeout(done, 650));
+		} else {
+			const result = await submitLiveTake(live);
+			if (!result) {
+				postState = stateBefore;
+				return;
+			}
+			postResult = result;
+			offerReplyOptIn(live, result);
+		}
 		postState = 'posted';
 		await tick();
 		postedHeading?.focus({ preventScroll: true });
@@ -246,24 +391,43 @@
 
 {#snippet liveOptIn(take: LiveTake)}
 	<div class="live-optin ph-no-capture" id="live-optin">
-		{#if postState === 'posted'}
+		{#if posted}
 			<p class="mono kicker posted-kicker">
-				<Check size={14} aria-hidden="true" /> POSTED ANONYMOUSLY
+				<Check size={14} aria-hidden="true" />
+				{alreadyAnswered ? 'YOU ANSWERED THIS ONE' : postedLabel}
 			</p>
 			<h3 tabindex="-1" bind:this={postedHeading}>You’re in. Here’s how others answered.</h3>
 			<div class="live-takes">
-				<article class="live-take own-take">
-					<p class="mono">YOUR TAKE · JUST NOW</p>
-					<p>{submittedAnswer}</p>
-				</article>
-				{#if take.answers.length > 0}
-					{#each take.answers as other (other.id)}
+				{#if shownAnswer}
+					<article class="live-take own-take">
+						<p class="mono">{alreadyAnswered ? 'YOUR TAKE' : 'YOUR TAKE · JUST NOW'}</p>
+						<p>{shownAnswer}</p>
+					</article>
+				{/if}
+				{#if replyOffer && replyOptInState !== 'dismissed'}
+					<div class="live-take-note">
+						<ReplyOptInTray
+							offer={replyOffer}
+							action={`${liveHref}?/subscribeToCommentReplies`}
+							lead="DJ reads every take and replies."
+							onstatechange={(state) => (replyOptInState = state)}
+						/>
+					</div>
+				{:else if postResult && !postResult.alreadyAnswered}
+					<p class="live-take-note host-promise">
+						{signedIn
+							? 'DJ reads every take and replies. You’ll hear back.'
+							: 'DJ reads every take.'}
+					</p>
+				{/if}
+				{#if otherAnswers.length > 0}
+					{#each otherAnswers as other (other.id)}
 						<article class="live-take">
 							<p class="mono">{other.type ? `ENNEAGRAM ${other.type}` : 'ANONYMOUS'}</p>
 							<p>{other.text}</p>
 						</article>
 					{/each}
-				{:else}
+				{:else if preview}
 					{#each [1, 2, 3] as placeholder (placeholder)}
 						<div class="live-take locked" aria-hidden="true">
 							<span></span><span></span><span></span>
@@ -272,6 +436,12 @@
 					<p class="preview-note">
 						Preview: real answers appear here after a real post. Sign in as an admin to preview
 						them.
+					</p>
+				{:else}
+					<p class="live-take-note live-empty">
+						{liveResponses > 1
+							? 'Read everyone’s answers in the full conversation.'
+							: 'You’re the first answer. Yours will be waiting for the next person who writes theirs.'}
 					</p>
 				{/if}
 			</div>
@@ -283,8 +453,9 @@
 			<p>
 				Your answer stays in this tab. You can still add it to the conversation before you leave.
 			</p>
+			{#if postError}<p class="form-error" role="alert">{postError}</p>{/if}
 			<div class="next-actions">
-				<Button onclick={postAnswer}>Post it anonymously</Button>
+				<Button onclick={postAnswer}>{signedIn ? 'Post it' : 'Post it anonymously'}</Button>
 				<Button
 					variant="secondary"
 					data-track="link"
@@ -296,20 +467,30 @@
 			<p class="mono kicker">THE REAL CONVERSATION</p>
 			<h3>
 				{take.responses > 0
-					? `${take.responses} responses from real people are waiting.`
+					? `${plural(take.responses, 'response from a real person is', 'responses from real people are')} waiting.`
 					: 'Be the first real answer.'}
 			</h3>
-			<p>Post your answer anonymously to read theirs. It goes up exactly as you wrote it.</p>
+			<p>
+				{signedIn
+					? 'Post your answer to read theirs. It goes up exactly as you wrote it, from your account.'
+					: 'Post your answer anonymously to read theirs. It goes up exactly as you wrote it.'}
+			</p>
 			<blockquote>{submittedAnswer}</blockquote>
+			{#if postError}<p class="form-error" role="alert">{postError}</p>{/if}
 			<div class="next-actions">
 				<Button size="lg" loading={postState === 'posting'} onclick={postAnswer}
-					>Post anonymously and read them <ArrowRight size={18} aria-hidden="true" /></Button
+					>{signedIn ? 'Post and read them' : 'Post anonymously and read them'}
+					<ArrowRight size={18} aria-hidden="true" /></Button
 				>
-				<Button variant="ghost" onclick={keepPrivate}>Keep it private</Button>
+				<Button variant="ghost" disabled={postState === 'posting'} onclick={keepPrivate}
+					>Keep it private</Button
+				>
 			</div>
 			<p class="optin-fine">
-				No name or account attached. One answer per question.{#if preview}{' '}Preview: posting is
-					simulated and nothing is saved.{/if}
+				{signedIn
+					? 'Posts from your account. One answer per question here.'
+					: 'No name or account attached. One answer per question.'}{#if preview}{' '}Preview:
+					posting is simulated and nothing is saved.{/if}
 			</p>
 		{/if}
 	</div>
@@ -353,13 +534,17 @@
 			<div class="question-panel ph-no-capture" id="try-a-question">
 				<div class="panel-topline">
 					<span class="mono">{isLive ? 'LIVE QUESTION' : 'YOUR FIRST REACTION'}</span>
-					{#if isLive && live && live.responses > 0}
+					{#if isLive && liveResponses > 0}
 						<span class="live-count"
-							><span class="signal-dot" aria-hidden="true"></span>{live.responses} responses so far</span
+							><span class="signal-dot" aria-hidden="true"></span>{plural(
+								liveResponses,
+								'response',
+								'responses'
+							)} so far</span
 						>
 					{/if}
 				</div>
-				{#if !revealed}
+				{#if !showReveal}
 					<form onsubmit={revealPerspectives}>
 						<h2 id="practice-question">{cardTitle}</h2>
 						<p class="answer-reason" id="answer-reason">
@@ -394,12 +579,16 @@
 				{:else}
 					<div class="answer-receipt">
 						<div class="receipt-icon"><Check size={23} aria-hidden="true" /></div>
-						<h2>Your first take is yours.</h2>
+						<h2>
+							{alreadyAnswered ? 'You already answered this one.' : 'Your first take is yours.'}
+						</h2>
 						<p class="receipt-question">{cardTitle}</p>
-						<blockquote>{submittedAnswer}</blockquote>
+						{#if shownAnswer}<blockquote>{shownAnswer}</blockquote>{/if}
 						<p class="privacy">
 							{posted
-								? 'Posted anonymously to the live conversation.'
+								? signedIn
+									? 'Posted to the live conversation.'
+									: 'Posted anonymously to the live conversation.'
 								: isLive
 									? 'Still private until you choose to post it.'
 									: 'Still private. Saved only until this page refreshes.'}
@@ -473,7 +662,7 @@
 		</div>
 	</section>
 
-	{#if revealed}
+	{#if showReveal}
 		<section class="reveal-section section shell" aria-labelledby="reveal-title">
 			<div class="section-heading">
 				<h2 id="reveal-title" tabindex="-1" bind:this={revealHeading}>{question.revealTitle}</h2>
@@ -485,9 +674,9 @@
 			<div class="starting-point ph-no-capture">
 				<div>
 					<p class="mono">
-						{posted ? 'YOUR TAKE · POSTED ANONYMOUSLY' : 'YOUR STARTING POINT · STILL PRIVATE'}
+						{posted ? `YOUR TAKE · ${postedLabel}` : 'YOUR STARTING POINT · STILL PRIVATE'}
 					</p>
-					<blockquote>{submittedAnswer}</blockquote>
+					{#if shownAnswer}<blockquote>{shownAnswer}</blockquote>{/if}
 				</div>
 				{#if !posted}
 					<Button variant="ghost" size="sm" onclick={editAnswer}>Edit answer</Button>
@@ -756,15 +945,15 @@
 		<div class="closing shell">
 			<h2 id="closing-title">See the emotions<br />behind every take.</h2>
 			<p>
-				{revealed
+				{showReveal
 					? 'You’ve seen what another perspective can open up. Bring yours to a real conversation.'
 					: 'Start with your own answer. See what someone else might be seeing.'}
 			</p>
-			{#if revealed && isLive && !posted}
+			{#if showReveal && isLive && !posted}
 				<Button size="lg" onclick={goToOptIn}
 					>Post your take <ArrowRight size={18} aria-hidden="true" /></Button
 				>
-			{:else if revealed}
+			{:else if showReveal}
 				<Button
 					size="lg"
 					data-track="handoff"
@@ -1421,7 +1610,7 @@
 	.live-optin h3:focus {
 		outline: none;
 	}
-	.live-optin > p:not(.mono):not(.optin-fine) {
+	.live-optin > p:not(.mono):not(.optin-fine):not(.form-error) {
 		max-width: 60ch;
 		margin-top: var(--space-md);
 		font-size: 18px;
@@ -1476,7 +1665,18 @@
 		white-space: pre-wrap;
 	}
 	.own-take {
+		grid-column: 1 / -1;
 		border-color: var(--lamp-glow);
+	}
+	.live-take-note {
+		grid-column: 1 / -1;
+		min-width: 0;
+	}
+	.host-promise,
+	.live-empty {
+		font-size: 16px;
+		line-height: 1.55;
+		color: var(--ink-mid);
 	}
 	.own-take .mono {
 		color: var(--lamp-glow);
@@ -2016,7 +2216,7 @@
 		.live-optin h3 {
 			font-size: 22px;
 		}
-		.live-optin > p:not(.mono):not(.optin-fine) {
+		.live-optin > p:not(.mono):not(.optin-fine):not(.form-error) {
 			font-size: 16px;
 		}
 		.live-takes {

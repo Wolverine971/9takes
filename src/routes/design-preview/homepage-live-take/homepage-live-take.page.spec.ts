@@ -17,9 +17,13 @@ vi.mock('$lib/analytics/marketingEvents', async (importOriginal) => ({
 import Page from './+page.svelte';
 
 const live = {
+	questionId: 203,
 	slug: 'whats-criteria-considering-someone-friend',
 	title: 'What are your criteria for considering someone a friend?',
 	responses: 10,
+	signedIn: false,
+	answered: false,
+	ownTake: null,
 	answers: []
 };
 
@@ -70,6 +74,10 @@ describe('homepage live-take preview', () => {
 		expect(screen.queryByRole('button', { name: 'Edit answer' })).toBeNull();
 		expect(practiceMock.mock.calls.map(([input]) => input.step)).toContain('live_post_clicked');
 		expect(JSON.stringify(practiceMock.mock.calls)).not.toContain(answer);
+		// The preview never calls the real post endpoint.
+		expect(vi.mocked(fetch).mock.calls.map(([input]) => String(input))).not.toContain(
+			'/api/homepage/answer'
+		);
 	});
 
 	it('shows real answers after posting when an admin preview loaded them', async () => {

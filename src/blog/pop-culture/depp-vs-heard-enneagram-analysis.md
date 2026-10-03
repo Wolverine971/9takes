@@ -392,6 +392,6 @@ The same personality machinery that drove Depp and Heard drives your own relatio
 - [Amber Heard's full personality analysis](/personality-analysis/amber-heard)
 - [All about Type 4 — The Individualist](/enneagram-corner/enneagram-type-4)
 - [All about Type 3 — The Achiever](/enneagram-corner/enneagram-type-3)
-- [Trump vs Biden: Type 8 vs Type 2](/pop-culture/trump-type-8-vs-biden-type-2)
+- [Trump vs Biden: Type 3 vs Type 2](/pop-culture/trump-type-3-vs-biden-type-2)
 
 > **Disclaimer:** This analysis of Johnny Depp and Amber Heard's Enneagram types is speculative, based on publicly available information, and may not reflect their actual personality types. This article does not adjudicate abuse allegations or legal findings.

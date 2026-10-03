@@ -1,7 +1,7 @@
 ---
 title: "Why World Leaders Can't Read Each Other: The Psychology of Global Power"
 meta_title: 'World Leaders Personality Types: Why Trump, Putin, Xi, Modi, Macron & Merkel Think So Differently'
-description: 'Three strongmen. Two image-builders. One analyst who walked off the stage. Why world leaders misread each other, and what global power lost when she left.'
+description: 'Two strongmen. Three image-builders. One analyst who walked off the stage. Why world leaders misread each other, and what global power lost when she left.'
 author: 'DJ Wayne'
 date: '2026-06-30'
 loc: 'https://9takes.com/pop-culture/world-leaders-enneagram-personality-dynamics'
@@ -41,10 +41,10 @@ path: src/blog/pop-culture/world-leaders-enneagram-personality-dynamics.md
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Why are so many world leaders Type 8s?",
+          "name": "Why do strongmen and image-builders dominate world politics?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Because the path to national power rewards people who are comfortable with confrontation, willing to make enemies, and driven to dominate. Type 8s are built for that fight in ways other types aren't. Both democracies and authoritarian systems tend to elevate whoever can claw to the top and stay there, which is why the modern global stage skews toward Challengers."
+            "text": "Because the path to national power rewards two things: comfort with confrontation and command of the camera. Putin and Xi are Type 8 Challengers, built for the fight. Trump, Modi, and Macron are Type 3 Achievers, built for the stage. On camera the two can look almost identical, which is why Trump is so often mistaken for an 8. Both democracies and authoritarian systems tend to elevate whoever can claw to the top and stay there, and the patient analyst rarely survives that climb."
           }
         },
         {
@@ -60,7 +60,7 @@ path: src/blog/pop-culture/world-leaders-enneagram-personality-dynamics.md
           "name": "Are these Enneagram typings certain?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No, and that uncertainty is part of the point. Trump as an 8, Putin as an 8, and Modi as a 3 are well-supported reads. Xi as an 8 is genuinely contested (many typers argue he's a 1, the moral reformer). Macron splits between 3, 1, and 8. Merkel's calm withholding could be Type 5 detachment or Type 9 conflict-avoidance. At the top of power, typing stops being a label and becomes an argument about which fear is driving the decisions."
+            "text": "No, and that uncertainty is part of the point. Putin as an 8 and Modi as a 3 are well-supported reads. Many Enneagram sites type Trump as an 8; 9takes reads him as a 3w2, because a core 8 can shrug off what people think of him, while Trump litigates, spins, merchandises, and demands praise. Xi as an 8 is genuinely contested (many typers argue he's a 1, the moral reformer). Macron splits between 3, 1, and 8. Merkel's calm withholding could be Type 5 detachment or Type 9 conflict-avoidance. At the top of power, typing stops being a label and becomes an argument about which fear is driving the decisions."
           }
         },
         {
@@ -68,7 +68,7 @@ path: src/blog/pop-culture/world-leaders-enneagram-personality-dynamics.md
           "name": "Who was the most effective leader in this group?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It depends entirely on your scoreboard. For raw power consolidation, Putin and Xi. For domestic political dominance, Modi. For surviving four years opposite three strongmen without losing her footing, Merkel. For blowing up the existing order, Trump. Each type optimizes for a different prize, so 'effective' means something different for each of them."
+            "text": "It depends entirely on your scoreboard. For raw power consolidation, Putin and Xi. For domestic political dominance, Modi. For holding her ground through four years of Trump while managing Putin and Xi, Merkel. For commanding the world's attention and blowing up the existing order, Trump. Each type optimizes for a different prize, so 'effective' means something different for each of them."
           }
         },
         {
@@ -94,7 +94,7 @@ path: src/blog/pop-culture/world-leaders-enneagram-personality-dynamics.md
 </script>
 
 <QuickAnswer question="Why do world leaders constantly misread each other?">
-Because strength isn't one language. It's three dialects that sound like weakness to each other. Trump, Putin, and Xi are Type 8 "Challengers" who read every room as a contest for dominance. Modi and Macron are Type 3 "Achievers" fighting to win the image war. Angela Merkel was a Type 5 "Investigator" who waited, analyzed, and refused to perform, the one leader built to not act on the first impulse. She's gone now, and no one on the current stage thinks the way she did. A show of force that earns respect from one leader reads as reckless aggression to another. A brilliant argument that should settle the matter for one reads as noise to the rest.
+Because they measure strength in three different currencies, and each one looks like weakness to the others. Putin and Xi are Type 8 "Challengers" who read every room as a contest for control. Trump, Modi, and Macron are Type 3 "Achievers" fighting to win the image war, and Trump performs strength so convincingly that he is often mistaken for an 8. Angela Merkel was a Type 5 "Investigator" who waited, analyzed, and refused to perform, the one leader built to not act on the first impulse. She's gone now, and no one on the current stage thinks the way she did. A show of force that earns respect from one leader reads as reckless aggression to another. A brilliant argument that should settle the matter for one reads as noise to the rest.
 </QuickAnswer>
 
 <p class="firstLetter">Six leaders. Three ways of seeing the world. And the one personality type that used to referee the other two just walked off the stage for good.</p>
@@ -109,16 +109,16 @@ These aren't policy disagreements. They're personality collisions. And once you 
 
 Before the dynamics, here's the type each leader most likely operates from. Treat these as working hypotheses, not verdicts. We'll pressure-test the shakier ones as we go.
 
-| Leader                                                 | Likely Enneagram Type     | Core Drive            | Greatest Fear               |
-| ------------------------------------------------------ | ------------------------- | --------------------- | --------------------------- |
-| [Donald Trump](/personality-analysis/donald-trump)     | Type 8 - The Challenger   | Control, strength     | Being controlled or weak    |
-| [Vladimir Putin](/personality-analysis/vladimir-putin) | Type 8 - The Challenger   | Control, strength     | Being controlled or weak    |
-| Xi Jinping                                             | Type 8 (contested)        | Control, order        | Being controlled or weak    |
-| Narendra Modi                                          | Type 3 - The Achiever     | Success, image        | Being worthless or failing  |
-| Emmanuel Macron                                        | Type 3 (contested)        | Success, image        | Being worthless or failing  |
-| Angela Merkel                                          | Type 5 - The Investigator | Knowledge, competence | Being helpless or incapable |
+| Leader                                                 | Likely Enneagram Type     | Core Drive             | Greatest Fear               |
+| ------------------------------------------------------ | ------------------------- | ---------------------- | --------------------------- |
+| [Vladimir Putin](/personality-analysis/vladimir-putin) | Type 8 - The Challenger   | Control, strength      | Being controlled or weak    |
+| Xi Jinping                                             | Type 8 (contested)        | Control, order         | Being controlled or weak    |
+| [Donald Trump](/personality-analysis/donald-trump)     | Type 3 - The Achiever     | Winning, being admired | Being seen to fail          |
+| Narendra Modi                                          | Type 3 - The Achiever     | Success, image         | Being worthless or failing  |
+| Emmanuel Macron                                        | Type 3 (contested)        | Success, image         | Being worthless or failing  |
+| Angela Merkel                                          | Type 5 - The Investigator | Knowledge, competence  | Being helpless or incapable |
 
-Notice the imbalance. **Half the major powers are led by the same personality type.** Three Type 8s running global politics at once is not a coincidence. It tells you something about what kind of person reaches the top in the modern age, and what kind of person no longer makes it there at all.
+Notice the imbalance. **Five of the six run on dominance or image.** Two 8s, three 3s, and a single 5 who is no longer in office. That is not a coincidence. It tells you something about what kind of person reaches the top in the modern age, and what kind of person no longer makes it there at all.
 
 ## Power runs a filter, and it favors two types
 
@@ -126,35 +126,23 @@ Here's the thesis under everything that follows.
 
 Sit an 8, a 3, and a 5 at the same summit table and they will not disagree about the facts. They will witness three different events. The 8 sees a test of nerve. The 3 sees a stage. The 5 sees a system to decode. That is the whole 9takes premise scaled up to the level of nations: one situation, nine ways to see it. No wonder the readouts never match.
 
-Now look at who survives the climb. Getting and keeping national power in the camera age rewards exactly two of those profiles. The Challenger who projects raw strength, and the Achiever who wins the optics war. It punishes the leader who thinks slowly, withholds judgment, and refuses to perform on cue.
+Now look at who survives the climb. Getting and keeping national power in the camera age rewards exactly two of those profiles. The Challenger who projects raw strength, and the Achiever who wins the optics war. On camera the two can be hard to tell apart, and Trump is the proof. It punishes the leader who thinks slowly, withholds judgment, and refuses to perform on cue.
 
 So the system selects for 8s and 3s and quietly weeds out the 5s. That's a problem, because the traits that win power in 2026 are the opposite of the traits that prevent catastrophe. Dominance and image are great for elections and bad for the slow, ambiguous, de-escalating work that keeps wars from starting.
 
 Angela Merkel was the anomaly that proved the rule. For sixteen years, one of the world's most powerful jobs was held by someone who treated leadership like a physics problem. She left in 2021. Nobody replaced the function. Hold that thought, because it's where this ends up.
 
-## The Type 8 strongmen: Trump, Putin, and Xi
+## The Type 8 strongmen: Putin and Xi
 
 [Type 8s](/enneagram-corner/enneagram-type-8) are called Challengers because the one thing they cannot tolerate is being controlled. Underneath the armor sits a single fear: vulnerability. Being at someone else's mercy.
 
-All three of these men run a similar operating system. They read the world as a contest with a winner and a loser. They project strength on reflex, because to an 8 visible weakness invites attack. They test loyalty obsessively and treat betrayal as the unforgivable sin. And they almost never admit error, because backing down in public feels like losing.
+Both men run a similar operating system. They read the world as a contest with a winner and a loser. They project strength on reflex, because to an 8 visible weakness invites attack. They test loyalty obsessively and treat betrayal as the unforgivable sin. And they almost never admit error, because backing down in public feels like losing.
 
-Same software, three very different machines. The differences come from where each man learned that the world was dangerous.
-
-### Trump: the showman 8
-
-Trump's version is loud, theatrical, and built for an audience. He learned dominance in New York real estate and tabloid media, where you either ran the story or the story ran you.
-
-His leadership is transactional before anything else. Every relationship is a deal with an implied question underneath: what are you giving me? The dominance is performed in public, on camera, in all caps, because for Trump a win that nobody sees barely counts. And it's intensely personal. He sorts the world into people who are loyal to him and people who are not.
-
-> "I value loyalty above everything else, more than brains, more than drive, and more than energy." Donald Trump, Think Big and Kick Ass in Business and Life (2007)
-
-The handshake tells you everything. At the NATO summit in Brussels in May 2017, Trump and Macron locked hands until their knuckles went white and their jaws clenched. Trump's signature move was the yank-and-pull, dragging the other person off balance into his space. Macron came to later meetings visibly braced for it. That's two men who cannot stop competing over who controls a four-second greeting.
-
-When Trump faces another 8, he doesn't yield. He escalates, on the theory that whoever blinks first loses. His second term has been one long stress test of that theory. He hit China with tariffs north of 145 percent, then settled for a truce. He pressured Russia toward a ceasefire that held for three days. And in February 2026 the Supreme Court struck down his signature tariffs, which is what happens when an 8 runs into an institution that has no reason to be intimidated.
+Same software, two very different machines. The clearest difference is how each man uses time.
 
 ### Putin: the operator 8
 
-Putin's 8 is the inverse of Trump's. Controlled, cold, and patient. KGB training taught him to hide his own cards while reading everyone else's, and he has never stopped playing that game.
+Putin's 8 runs controlled, cold, and patient. KGB training taught him to hide his own cards while reading everyone else's, and he has never stopped playing that game.
 
 He plays long. He waits for opponents to overextend, then strikes. He shows almost no emotion, because to Putin a flicker of feeling is a leak of information. And he is willing to be ruthless in ways designed to be noticed, so that the next person thinks twice.
 
@@ -162,11 +150,11 @@ He plays long. He waits for opponents to overextend, then strikes. He shows almo
 
 His power moves are studies in psychological distance. The long table with Macron. Bringing his black Labrador, Konni, into a 2007 meeting in Sochi with Merkel, who had been bitten by a dog years earlier and was visibly uneasy (Putin has always denied he meant anything by it, which is exactly what an operator would say). Keeping leaders waiting for hours: Merkel for over four, Abe for two, the Pope for one.
 
-When Putin deals with Trump, he's playing chess while Trump plays poker. Both are 8s, but Putin's patience tends to outlast Trump's hunger for an immediate win. Through the entire 2025 to 2026 negotiation arc, the Alaska summit, the Geneva talks, the brief ceasefire, Putin gave up nothing he considered essential and kept demanding full control of the Donbas as a precondition. Trump needs the deal-signing photo now. Putin can wait until the cameras lose interest.
+When Putin deals with Trump, he's playing chess while Trump plays poker. From a distance they can look like two 8s, but Putin's patience tends to outlast Trump's hunger for an immediate win. Through the entire 2025 to 2026 negotiation arc, the Alaska summit, the Geneva talks, the brief ceasefire, Putin gave up nothing he considered essential and kept demanding full control of the Donbas as a precondition. Trump needs the deal-signing photo now. Putin can wait until the cameras lose interest.
 
 ### Xi Jinping: the survivor 8
 
-Xi's hardness was forged in trauma. His father, a senior Party official, was purged when Xi was a boy. At fifteen he was sent to Liangjiahe, a poor village in Shaanxi, where he lived in a loess cave and did manual labor for years. By his own account he was rejected from the Communist Party many times before finally being admitted, blocked by his father's disgrace. (The often-quoted figure of ten rejections traces back to Xi's own retelling, so hold it loosely.)
+Xi's biography reads like a hardness test. His father, a senior Party official, was purged when Xi was a boy. At fifteen he was sent to Liangjiahe, a poor village in Shaanxi, where he lived in a loess cave and did manual labor for years. By his own account he was rejected from the Communist Party many times before finally being admitted, blocked by his father's disgrace. (The often-quoted figure of ten rejections traces back to Xi's own retelling, so hold it loosely.)
 
 His leadership is patient and systematic in a way neither Trump nor Putin can match. He builds institutions meant to enforce control long after he's gone. He thinks in decades while Trump thinks in news cycles and Putin thinks in years. The Belt and Road Initiative was never about quick returns. It was about where China sits in 2050.
 
@@ -178,19 +166,33 @@ Xi is the shakiest call in this lineup, and it's worth being straight about it. 
 
 ### When Type 8s meet: the dominance dance
 
-Put three 8s in a room and the bodies start negotiating before the mouths do. Each man takes up space, holds eye contact a beat too long, refuses the lower seat, and speaks in flat declaratives instead of questions.
+Put two 8s in a room and the bodies start negotiating before the mouths do. Each man takes up space, holds eye contact a beat too long, refuses the lower seat, and speaks in flat declaratives instead of questions.
 
-Then comes the deeper problem. Type 8s respect strength but define it differently. Trump thinks strength means never backing down where the cameras can see. Putin thinks strength means making his opponent back down while he stays calm. Xi thinks strength means outlasting everyone else's resolve.
+Then comes the deeper problem. Type 8s respect strength but define it differently. Putin thinks strength means making his opponent back down while he stays calm. Xi thinks strength means outlasting everyone else's resolve.
 
-So they misread each other constantly, all in the same accent. When Trump tears up an agreement, he thinks he's projecting power. Putin and Xi see impulsiveness they can exploit. When Putin masses troops, he thinks he's commanding respect. Trump and Xi see an opening. When Xi plans across decades, he thinks he's demonstrating superiority. Trump and Putin see a man who is simply slow.
+So they misread each other, in the same accent. When Putin masses troops, he thinks he's commanding respect. Xi sees an opening. When Xi plans across decades, he thinks he's demonstrating superiority. Putin sees a man who is simply slow.
 
-Three men speaking Type 8, none of them fluent in the others' dialect.
+Two men speaking Type 8, neither fluent in the other's dialect. And a third man at the table who does a convincing impression of the language, which is the next section's problem.
 
-## The Type 3 image-builders: Modi and Macron
+## The Type 3 image-builders: Trump, Modi, and Macron
 
 [Type 3s](/enneagram-corner/enneagram-type-3) are Achievers, wired for success and recognition. Their core fear is being worthless, exposed as a failure, seen through. Where the 8 asks "who's in control here," the 3 asks "how am I doing, and who's watching."
 
-That changes everything. For a 3, how things look is not separate from what happens, it's the main event. They measure themselves by accomplishments and they're fluent at reading a room and becoming what it wants. They compete hard, but the prize is status, not raw dominance.
+That changes everything. For a 3, how things look is the main event, inseparable from what happens. They measure themselves by accomplishments and they're fluent at reading a room and becoming what it wants. They compete hard, and the prize is status rather than raw dominance.
+
+### Trump: the showman 3 who performs strength
+
+From a distance, [Donald Trump](/personality-analysis/donald-trump) looks like the most obvious 8 on the world stage, and plenty of Enneagram sites type him that way. He is loud, combative, and always in a fight. The tell is what he does with criticism. A core 8 can say "I don't care what you think" and mean it. Trump litigates, spins, merchandises, and demands praise. A humiliation has to become winning content. That is the Achiever's reflex, and 9takes reads him as a 3 with a 2 wing: a performer whose image needs an audience to certify it.
+
+So his strength is performed in public, on camera, in all caps, because for Trump a win that nobody sees barely counts. His leadership is transactional, but the currency is often recognition. He sorts the world into people who are loyal to him and people who are not, and loyalty for a 3w2 has a visible test: who defends the image, and who says thank you in public. In the February 2025 Oval Office meeting with Volodymyr Zelenskyy, gratitude became one of the explicit terms of the clash. "You have to be thankful," Trump told him.
+
+> "I value loyalty above everything else, more than brains, more than drive, and more than energy." Donald Trump, Think Big and Kick Ass in Business and Life (2007)
+
+The handshake is a camera event. In Brussels in May 2017, Trump and Macron locked hands until their knuckles went white and their jaws clenched. Trump's signature move was the yank-and-pull, dragging the other person off balance into his space. Macron later told a French newspaper that his own grip had not been innocent. At the NATO summit the same day, cameras caught Trump pushing past Montenegro's prime minister, Duško Marković, to reach the front of the leaders' group. An 8 takes the room. A 3 takes the front of the photo.
+
+His second term shows the full 3 pattern against the 8s: escalate loudly, then settle for a deal that can be announced as a win. He hit China with tariffs north of 145 percent, then settled for a truce. He pressured Russia toward a ceasefire that held for three days. And in February 2026 the Supreme Court struck down his signature tariffs, which is what happens when a performance of strength meets an institution that isn't watching the show.
+
+Putin and Xi read strength as control. Trump reads it as being seen winning.
 
 ### Narendra Modi: the self-made 3
 
@@ -225,7 +227,9 @@ The two types are spending different money. The 3 trades in achievement, recogni
 
 Macron showed up to Moscow with history, nuance, and a vision. Putin answered with the table. The message landed perfectly: your brilliance is worth nothing here, this is about whether you can be moved.
 
-Modi navigates the clash better, because he learned to wrap Achiever psychology in strongman packaging. His relationship with Trump is the case study. When the US slapped 50 percent tariffs on India in 2025, the warm-handshake narrative cracked. Modi didn't rage. He maneuvered, agreed to wind down purchases of Russian crude, and got the rate cut to 18 percent by February 2026. An 8 fights the tariff. A 3 turns the climbdown into a win he can sell at home.
+Trump's version of the clash is louder. He brings the world's largest military and economy along with the brand, so the 8s can't wave him off the way Putin waved off Macron. But the exposure is the same. An 8 who knows a 3 needs the photo can pay in ceremony, a red carpet, warm words, a summit, and keep the substance.
+
+Modi navigates the clash better, because he learned to wrap Achiever psychology in strongman packaging. His dealings with Trump show what happens when two 3s negotiate. When the US slapped 50 percent tariffs on India in 2025, the warm-handshake narrative cracked. Modi didn't rage. He maneuvered, agreed to wind down purchases of Russian crude, and got the rate cut to 18 percent by February 2026. An 8 fights the tariff. A 3 turns the climbdown into a win he can sell at home, and the 3 across the table announces it as his win too.
 
 ## The Type 5 analyst: Angela Merkel
 
@@ -241,7 +245,7 @@ So Merkel waited. She gathered information while others overextended. She backed
 
 Merkel earned a doctorate in quantum chemistry and worked as a research scientist in East Germany before politics. She was trained to watch a system, learn its rules, and predict its behavior without getting emotionally tangled in it.
 
-While Trump, Putin, and Xi were busy projecting dominance at each other, Merkel was doing what 5s do best: observing. Taking notes. Mapping the patterns. Her real advantage was that she never needed to win the moment. The 8s craved immediate dominance, the 3s craved immediate recognition, and she could sit through hours of posturing without reacting, then move when everyone else was spent.
+While Putin and Xi projected dominance and Trump projected victory, Merkel was doing what 5s do best: observing. Taking notes. Mapping the patterns. Her real advantage was that she never needed to win the moment. The 8s craved immediate dominance, the 3s craved immediate recognition, and she could sit through hours of posturing without reacting, then move when everyone else was spent.
 
 ### Merkel versus the strongmen
 
@@ -265,32 +269,32 @@ Worth surfacing: the case for Type 5 is strong, but Type 9 may fit even better. 
 
 Watch any summit footage with the types in mind and the room reorganizes itself.
 
-The 8s (Trump, Putin, Xi) plant themselves prominently, speak with authority, and scan constantly for any challenge to their standing. The 3s (Modi, Macron) work the room, build relationships, and gravitate toward the photo that showcases their importance. And the lone 5 (Merkel, when she was there) hung back, watched, and engaged only when it mattered, banking information while everyone else burned energy on display.
+The 8s (Putin, Xi) plant themselves prominently, speak with authority, and scan constantly for any challenge to their standing. The 3s (Trump, Modi, Macron) work the room, build relationships, and gravitate toward the photo that showcases their importance. Trump is simply the loudest 3 in the room, which is why he is so often mistaken for an 8. And the lone 5 (Merkel, when she was there) hung back, watched, and engaged only when it mattered, banking information while everyone else burned energy on display.
 
 ### Why diplomacy fails: type blindness
 
 Most diplomatic failures come from one error repeated in different accents: assuming the other person is wired like you.
 
-Trump assumed everyone folds under pressure. When Xi didn't cave on trade, Trump was genuinely puzzled, because another 8 was supposed to answer force with retreat. Putin assumed a show of military strength would make the West stand down. When NATO expanded instead, he doubled down rather than rethink, which is the most Type 8 move available. Macron assumed brilliance and rapport could stop a war. When Putin invaded anyway, the Achiever's faith in his own exceptional powers shattered against the table. And Merkel assumed patient analysis could solve any problem. Against a fast, decisive land grab in Crimea, her deliberation was simply too slow.
+Trump assumed everyone wants a deal they can announce. When Xi didn't cave on trade, the type read is simple: Xi didn't need an announcement. He needed time, and he had more of it. Putin assumed a show of military strength would make the West stand down. When NATO expanded instead, he doubled down rather than rethink, which is the most Type 8 move available. Macron assumed brilliance and rapport could stop a war. When Putin invaded anyway, the Achiever's faith in his own exceptional powers shattered against the table. And Merkel assumed patient analysis could solve any problem. Against a fast, decisive land grab in Crimea, her deliberation was simply too slow.
 
 ### The negotiation matrix
 
-| Leader Type | Opening move                         | Under pressure                                    | Victory looks like                        |
-| ----------- | ------------------------------------ | ------------------------------------------------- | ----------------------------------------- |
-| Trump (8)   | Aggressive demands, threaten to walk | Escalate, or concede abruptly                     | Public win, the other side looks weak     |
-| Putin (8)   | Patient positioning, test boundaries | Go quiet, then strike unexpectedly                | Controls the outcome, keeps strength face |
-| Xi (8)      | Long-term framing, invoke history    | Wait, outlast the opponent                        | Structural advantage, opponent exhausted  |
-| Modi (3)    | Emphasize India's rising importance  | Perform strength while seeking a face-saving deal | Achievement narrative, applause at home   |
-| Macron (3)  | Intellectual framework, grand vision | Adapt position, grab any achievable win           | Reform progress, personal credit          |
-| Merkel (5)  | Listen, analyze, defer the decision  | Withdraw to study, then return                    | Consensus, stability, competent outcome   |
+| Leader Type | Opening move                            | Under pressure                                     | Victory looks like                        |
+| ----------- | --------------------------------------- | -------------------------------------------------- | ----------------------------------------- |
+| Putin (8)   | Patient positioning, test boundaries    | Go quiet, then strike unexpectedly                 | Controls the outcome, keeps strength face |
+| Xi (8)      | Long-term framing, invoke history       | Wait, outlast the opponent                         | Structural advantage, opponent exhausted  |
+| Trump (3)   | Maximal public demand, threaten to walk | Escalate, then settle for a deal he can call a win | Public win, announced first and loudest   |
+| Modi (3)    | Emphasize India's rising importance     | Perform strength while seeking a face-saving deal  | Achievement narrative, applause at home   |
+| Macron (3)  | Intellectual framework, grand vision    | Adapt position, grab any achievable win            | Reform progress, personal credit          |
+| Merkel (5)  | Listen, analyze, defer the decision     | Withdraw to study, then return                     | Consensus, stability, competent outcome   |
 
 ## What it means that the analyst left the room
 
 This is where the thesis pays off.
 
-Three 8s now dominate global politics. That is not random. Challengers rise when populations feel threatened, because frightened people don't want analysts or achievers, they want a protector who will fight. Russia, China, and at times the United States all reached for that profile, and got it.
+Two 8s now run Russia and China, and the most powerful 3 on earth runs the United States. That is not random. Challengers rise when populations feel threatened, because frightened people don't want analysts, they want a protector who will fight. Russia and China reached for that profile. The United States reached for the most convincing performance of it.
 
-The trouble is structural. Three 8s cannot all dominate at once. Genuine cooperation between them requires one to look weaker, which is the single thing an 8's psychology refuses to do. So you get standoffs, brinkmanship, and ceasefires that last three days.
+The trouble is structural. Two 8s cannot both dominate at once. Genuine cooperation between them requires one to look weaker, which is the single thing an 8's psychology refuses to do. Add a 3 who needs every outcome to read as a win, and you get standoffs, brinkmanship, and ceasefires that last three days.
 
 The 3s offer a softer product, national achievement and global respect, and it sells beautifully at home. Indians take pride in Modi's confidence on the world stage. French voters, sometimes, admire Macron's ambition. But the Achiever is exposed against the Challenger who doesn't care about narratives. All of Modi's image-craft means little the moment Putin chooses force. All of Macron's sophistication was irrelevant when Putin simply ignored it.
 
@@ -302,14 +306,14 @@ What the world lost wasn't warmth. It was the one temperament built to not act o
 
 ### Watch the ego, not the policy
 
-When leaders clash, the stated disagreement is usually downstream of a psychological one. Trump's trade war with China was never really about deficits. It was two 8s establishing who yields first. Putin's invasion of Ukraine was never really about NATO paperwork. It was an 8 who could not tolerate feeling controlled by decisions made in the West.
+When leaders clash, the stated disagreement is usually downstream of a psychological one. Read through types, Trump's trade war with China was also a contest of currencies: a 3 who needed a visible win against an 8 who could afford to wait. Putin's invasion of Ukraine was never really about NATO paperwork. It was an 8 who could not tolerate feeling controlled by decisions made in the West.
 
 ### Communication style reveals the type
 
 Listen to how a leader talks and you can often guess the wiring.
 
 - Flat declaratives ("we will win") point to a Type 8.
-- Achievement framing ("we've delivered, we've built") points to a Type 3.
+- Achievement framing ("we've delivered, we've built") points to a Type 3. So do constant superlatives: the biggest, the best, the most ever.
 - Analytical framing ("the situation requires") points to a Type 5.
 
 Track the pattern across a few statements and you'll predict behavior better than most pundits.
@@ -318,22 +322,22 @@ Track the pattern across a few statements and you'll predict behavior better tha
 
 The Enneagram says each type, under pressure, slides toward the behavior of another. The useful part is that you can watch it happen in real time on the world stage.
 
-Putin is the textbook case. Type 8s under stress withdraw and turn secretive, taking on the worst of Type 5, and his deepening isolation and reported paranoia are exactly that slide. Macron shows the Type 3 version: under a parliament he cannot control, the Achiever disengages and goes flat, drifting toward the checked-out Type 9. The pattern even tells you what to fear from each leader next. A cornered 8 doesn't soften, it hides and plots. A cornered 3 doesn't fight harder, it stops showing up.
+Putin is the textbook case. Type 8s under stress withdraw and turn secretive, taking on the worst of Type 5, and his deepening isolation and reported paranoia are exactly that slide. Macron shows the Type 3 version: under a parliament he cannot control, the Achiever disengages and goes flat, drifting toward the checked-out Type 9. Trump showed it after the 2020 race was called: days with no public events, time at his golf course, and a fight over the result waged mostly through posts and lawsuits rather than in person. The pattern even tells you what to fear from each leader next. A cornered 8 doesn't soften, it hides and plots. A cornered 3 doesn't fight harder, it stops showing up.
 
 ## What happens next
 
-The board in 2026 holds three 8s who cannot all get what they want, two 3s straining to prove their worth on a stage that rewards force over achievement, and an empty chair where the analyst used to sit.
+The board in 2026 holds two 8s who cannot both get what they want, three 3s who each need the outcome to read as a win, one of them the most powerful man on earth, and an empty chair where the analyst used to sit.
 
 That isn't a stable arrangement. It resolves one of four ways.
 
-1. One 8 establishes clear dominance over the others. Dangerous.
+1. One 8 establishes clear dominance over the other. Dangerous.
 2. The 8s find face-saving ways to coexist. Workable, but unstable, and only as durable as the next provocation.
-3. The non-8 leaders build a coalition strong enough to constrain strongman behavior. Possible, but it requires the very patience the system keeps weeding out.
+3. The other leaders build a coalition strong enough to constrain Putin and Xi. Possible, but it requires the very patience the system keeps weeding out, and a 3 willing to share the credit.
 4. The standoff breaks into open conflict. Catastrophic.
 
 Understanding the psychology won't pick the outcome. But it makes the machinery visible.
 
-So the next time you watch world leaders share a stage, don't just see policies and positions. See an 8 testing another 8's nerve. See a 3 performing achievement for an audience that doesn't value it. See the empty chair where a 5 used to sit, the one person in the room watching the dog while everyone else watched the cameras.
+So the next time you watch world leaders share a stage, don't just see policies and positions. See an 8 testing another 8's nerve. See a 3 performing achievement for an audience that doesn't value it, and another performing strength so well that half the room mistakes him for an 8. See the empty chair where a 5 used to sit, the one person in the room watching the dog while everyone else watched the cameras.
 
 See the psychology behind the politics.
 
@@ -341,9 +345,9 @@ See the psychology behind the politics.
 
 ## FAQs
 
-**Why are so many world leaders Type 8s?**
+**Why do strongmen and image-builders dominate world politics?**
 
-Because the path to national power rewards people who are comfortable with confrontation, willing to make enemies, and driven to dominate. Type 8s are built for that fight in ways other types aren't. Both democracies and authoritarian systems tend to elevate whoever can claw to the top and stay there, which is why the modern global stage skews toward Challengers.
+Because the path to national power rewards two things: comfort with confrontation and command of the camera. Putin and Xi are Type 8 Challengers, built for the fight. Trump, Modi, and Macron are Type 3 Achievers, built for the stage. On camera the two can look almost identical, which is why Trump is so often mistaken for an 8. Both democracies and authoritarian systems tend to elevate whoever can claw to the top and stay there, and the patient analyst rarely survives that climb.
 
 **Did Angela Merkel's exit actually change global politics?**
 
@@ -351,11 +355,11 @@ Arguably more than any single election. Merkel was the rare Type 5 analyst at th
 
 **Are these Enneagram typings certain?**
 
-No, and that uncertainty is part of the point. Trump as an 8, Putin as an 8, and Modi as a 3 are well-supported reads. Xi as an 8 is genuinely contested, since many typers argue he's a Type 1, the moral reformer. Macron splits between 3, 1, and 8. Merkel's calm withholding could be Type 5 detachment or Type 9 conflict-avoidance. At the top of power, typing stops being a label and becomes an argument about which fear is driving the decisions.
+No, and that uncertainty is part of the point. Putin as an 8 and Modi as a 3 are well-supported reads. Many Enneagram sites type Trump as an 8; 9takes reads him as a [3w2](/personality-analysis/donald-trump), because a core 8 can shrug off what people think of him, while Trump litigates, spins, merchandises, and demands praise. Xi as an 8 is genuinely contested, since many typers argue he's a Type 1, the moral reformer. Macron splits between 3, 1, and 8. Merkel's calm withholding could be Type 5 detachment or Type 9 conflict-avoidance. At the top of power, typing stops being a label and becomes an argument about which fear is driving the decisions.
 
 **Who was the most effective leader in this group?**
 
-It depends entirely on your scoreboard. For raw power consolidation, Putin and Xi. For domestic political dominance, Modi. For surviving four years opposite three strongmen without losing her footing, Merkel. For blowing up the existing order, Trump. Each type optimizes for a different prize.
+It depends entirely on your scoreboard. For raw power consolidation, Putin and Xi. For domestic political dominance, Modi. For holding her ground through four years of Trump while managing Putin and Xi, Merkel. For commanding the world's attention and blowing up the existing order, Trump. Each type optimizes for a different prize.
 
 **How does understanding these dynamics help ordinary people?**
 
@@ -380,6 +384,7 @@ The same patterns that drive world leaders drive your relationships, your career
 - [Donald Trump's full personality breakdown](/personality-analysis/donald-trump)
 - [Vladimir Putin's full personality breakdown](/personality-analysis/vladimir-putin)
 - [Joe Biden's personality (Trump's counterpoint)](/personality-analysis/joe-biden)
+- [Trump vs Biden: Type 3 vs Type 2](/pop-culture/trump-type-3-vs-biden-type-2)
 
 **Understand the types:**
 

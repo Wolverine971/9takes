@@ -1,6 +1,7 @@
 <!-- src/routes/admin/+layout.svelte -->
 <script lang="ts">
 	import { afterNavigate } from '$app/navigation';
+	import { resolve } from '$app/paths';
 	import { page } from '$app/stores';
 	import { Database, MessageSquareText, Search } from '@lucide/svelte';
 	import {
@@ -12,6 +13,7 @@
 	import { Button } from '$lib/components/atoms';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import AdminMobileRouteRail from '$lib/components/admin/AdminMobileRouteRail.svelte';
+	import AdminDesktopNav from '$lib/components/admin/AdminDesktopNav.svelte';
 	import type { Snippet } from 'svelte';
 	import type { LayoutData } from './$types';
 	import './admin-mobile.css';
@@ -21,7 +23,6 @@
 	let mobileMenuOpen = $state(false);
 	let mobileNavQuery = $state('');
 
-	const navItems = adminNavGroups.flatMap((group) => group.items);
 	const NOTES_HREF = '/admin/consulting/notes';
 
 	// Unanswered "Talk to DJ" notes, loaded by the admin layout.
@@ -67,7 +68,9 @@
 		return adminNavGroups
 			.map((group) => ({
 				...group,
-				items: group.items.filter((item) => item.label.toLocaleLowerCase().includes(query))
+				items: group.label.toLocaleLowerCase().includes(query)
+					? group.items
+					: group.items.filter((item) => item.label.toLocaleLowerCase().includes(query))
 			}))
 			.filter((group) => group.items.length > 0);
 	});
@@ -83,7 +86,7 @@
 			</div>
 			{#if newTalkNotes > 0}
 				<a
-					href={NOTES_HREF}
+					href={resolve(NOTES_HREF)}
 					class="mobile-notes-pill"
 					aria-label={`${newTalkNotes} new ${newTalkNotes === 1 ? 'note' : 'notes'}`}
 				>
@@ -106,29 +109,7 @@
 			</button>
 		</header>
 
-		<!-- Admin Navigation Bar -->
-		<nav class="admin-nav">
-			<div class="nav-container">
-				{#each navItems as item}
-					{@const Icon = item.icon}
-					<a
-						href={item.href}
-						class={['nav-link', { active: isAdminNavActive(item, $page.url.pathname) }]}
-						aria-current={isAdminNavActive(item, $page.url.pathname) ? 'page' : undefined}
-					>
-						<span class="nav-icon">
-							<Icon size={16} strokeWidth={1.8} aria-hidden="true" />
-						</span>
-						<span class="nav-label">{item.label}</span>
-						{#if navBadge(item.href) > 0}
-							<span class="nav-badge" aria-label={`${navBadge(item.href)} new`}>
-								{navBadge(item.href)}
-							</span>
-						{/if}
-					</a>
-				{/each}
-			</div>
-		</nav>
+		<AdminDesktopNav pathname={$page.url.pathname} {newTalkNotes} />
 
 		<!-- Main Content Area -->
 		<main class="admin-content">
@@ -176,7 +157,7 @@
 								{#each group.items as item (item.href)}
 									{@const Icon = item.icon}
 									<a
-										href={item.href}
+										href={resolve(item.href)}
 										class={{ active: isAdminNavActive(item, $page.url.pathname) }}
 										aria-current={isAdminNavActive(item, $page.url.pathname) ? 'page' : undefined}
 										onclick={closeMobileMenu}
@@ -335,72 +316,6 @@
 		transform: translateY(50%) rotate(-45deg);
 	}
 
-	/* Admin Navigation Bar */
-	.admin-nav {
-		background-color: var(--night-deep);
-		border-bottom: 1px solid var(--stone-warm);
-		position: sticky;
-		top: var(--site-header-height);
-		z-index: 30;
-	}
-
-	.nav-container {
-		max-width: 1600px;
-		width: 100%;
-		margin: 0 auto;
-		padding: 10px 16px;
-		display: flex;
-		flex-wrap: wrap;
-		gap: 6px;
-		justify-content: center;
-		box-sizing: border-box;
-		min-width: 0;
-	}
-
-	.nav-link {
-		position: relative;
-		display: flex;
-		align-items: center;
-		gap: 6px;
-		padding: 8px 14px;
-		background: transparent;
-		color: var(--ink-mid);
-		text-decoration: none;
-		font-family: var(--font-mono);
-		font-weight: 500;
-		font-size: 0.8125rem;
-		border-radius: 0.625rem;
-		transition:
-			background-color 0.2s ease,
-			border-color 0.2s ease,
-			color 0.2s ease;
-		white-space: nowrap;
-		border: 1px solid transparent;
-	}
-
-	.nav-icon {
-		font-size: 0.9375rem;
-		line-height: 1;
-	}
-
-	.nav-label {
-		min-width: 0;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-
-	.nav-link:hover {
-		background-color: var(--stone-warm);
-		color: var(--ink-bright);
-		border-color: var(--stone-warm);
-	}
-
-	.nav-link.active {
-		background: var(--lamp-glow);
-		color: var(--text-on-primary);
-		border-color: var(--lamp-glow);
-	}
-
 	.nav-badge {
 		display: inline-grid;
 		min-width: 20px;
@@ -417,11 +332,6 @@
 		font-weight: 700;
 		line-height: 1;
 		box-sizing: border-box;
-	}
-
-	.nav-link.active .nav-badge {
-		background: var(--night-deep);
-		color: var(--lamp-glow);
 	}
 
 	.mobile-notes-pill {
@@ -442,11 +352,6 @@
 	}
 
 	.mobile-notes-pill:focus-visible {
-		outline: 2px solid var(--lamp-glow);
-		outline-offset: 2px;
-	}
-
-	.admin-layout :global(.nav-link:focus-visible) {
 		outline: 2px solid var(--lamp-glow);
 		outline-offset: 2px;
 	}
@@ -517,10 +422,6 @@
 		.admin-content {
 			padding: 20px 16px 40px;
 		}
-
-		.nav-container {
-			padding: 8px 12px;
-		}
 	}
 
 	/* Mobile */
@@ -530,10 +431,6 @@
 			z-index: 40;
 			padding-left: max(16px, env(safe-area-inset-left));
 			padding-right: max(16px, env(safe-area-inset-right));
-		}
-
-		.admin-nav {
-			display: none;
 		}
 
 		.admin-content {
@@ -748,8 +645,7 @@
 
 	@media (prefers-reduced-motion: reduce) {
 		.menu-toggle,
-		.hamburger span,
-		.nav-link {
+		.hamburger span {
 			transition: none;
 		}
 	}

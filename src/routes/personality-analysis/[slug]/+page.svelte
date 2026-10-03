@@ -30,7 +30,7 @@
 	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 	import { getAuthShellUser } from '$lib/authShell';
 	import type { PublicBlogCommentRow } from '../../api/personality-analysis/[slug]/discussion/+server';
-	import { splitAtEnneagramTypeDossierSlot } from '$lib/utils/articleSlots';
+	import { buildArticleFlow } from '$lib/utils/articleChorusSlot';
 	import { SectionKicker, Spinner } from '$lib/components/atoms';
 	import EnneagramTypeDossier from '$lib/components/blog/EnneagramTypeDossier.svelte';
 	import NineChorus from '$lib/components/blog/NineChorus.svelte';
@@ -204,10 +204,17 @@
 	// enneagram-corner type pillars while this (the actual dossier surface)
 	// was generic prose. Design audit 2026-06-10. CTA bridges to the pillar.
 	$: typeDossier = typeNum ? enneagramTypeProfiles[typeNum] : null;
+	// The give-first Chorus: the person's own question while it is public,
+	// otherwise a proven live question (chosen in +page.server.ts). Identical
+	// for every visitor, so it can live in the ISR copy.
+	$: chorus = data.chorus ?? null;
 	// The article author chooses the dossier's exact location with an
 	// <EnneagramTypeDossier /> element in the source markdown. Without that
 	// explicit slot, the article renders uninterrupted and no dossier appears.
-	$: dossierSplit = splitAtEnneagramTypeDossierSlot(post.content);
+	// The Chorus goes at the section break nearest 40% of the article (about 42%
+	// of engaged readers reach the middle, 19% the bottom); articles too short
+	// for a clean break keep it at the bottom. Either block may come first.
+	$: articleFlow = buildArticleFlow(post.content, { withChorus: Boolean(chorus) });
 	$: typeName = typeMeta?.name ?? '';
 	$: typeNameUpper = typeName ? typeName.toUpperCase() : '';
 	$: personaTitle = toStringValue(postMeta.persona_title).trim();
@@ -528,6 +535,27 @@
 	<PeopleBlogPageHead data={postMeta} />
 {/key}
 
+<!-- ★ PRIMARY ACTION — the give-first Chorus is the one thing this page drives
+     toward; nothing around it should out-shout it. Rendered once: mid-article
+     when there is a clean section break, otherwise after the FAQ. The question
+     is often a proven question rather than one about this person, so the lead
+     ties it to the reader, never to the subject. -->
+{#snippet chorusBlock()}
+	{#if chorus}
+		{#key post.slug}
+			<NineChorus
+				subjectType={chorus.subjectType}
+				slug={post.slug}
+				question={chorus.question}
+				questionUrl={chorus.questionUrl}
+				personName={postDisplayName}
+				sourcePath={`/personality-analysis/${post.slug}`}
+				lead="Before you see how the nine types answered, add yours."
+			/>
+		{/key}
+	{/if}
+{/snippet}
+
 <article
 	class="dossier-page"
 	style="--type-accent: {typeNum ? `var(--type-${typeNum}-color)` : 'var(--lamp-glow)'};"
@@ -638,29 +666,31 @@
 	  ===================================================================== -->
 	<section class="breakdown">
 		<div class="breakdown-inner">
-			<!-- Prose, part 1 — runs to the author-placed dossier slot. The Type
-			     Dossier is lifted out of the article-body prose scope so the page's
-			     :global() typography never bleeds into it. -->
-			<div class="article-body">
-				{@html dossierSplit.before}
-			</div>
-
-			{#if typeDossier && dossierSplit.hasSlot}
-				<!-- The component owns its complete visual hierarchy. The former route-level
-				     shelf repeated the type label and added a redundant third container. -->
-				<EnneagramTypeDossier
-					{...typeDossier}
-					showCta={true}
-					ctaHref={`/enneagram-corner/enneagram-type-${typeNum}`}
-					ctaLabel={`Read the full Type ${typeNum} breakdown`}
-				/>
-			{/if}
-
-			{#if dossierSplit.after}
-				<div class="article-body article-body--cont">
-					{@html dossierSplit.after}
-				</div>
-			{/if}
+			<!-- Prose runs, interrupted by the author-placed dossier slot and the
+			     mid-article Chorus in whichever order they fall. Both blocks are
+			     lifted out of the article-body prose scope so the page's :global()
+			     typography never bleeds into them. The first run is always the
+			     plain .article-body the TOC observer reads. -->
+			{#each articleFlow.segments as segment, index (index)}
+				{#if segment.kind === 'prose'}
+					<div class="article-body" class:article-body--cont={index > 0}>
+						{@html segment.html}
+					</div>
+				{:else if segment.kind === 'dossier'}
+					{#if typeDossier}
+						<!-- The component owns its complete visual hierarchy. The former route-level
+						     shelf repeated the type label and added a redundant third container. -->
+						<EnneagramTypeDossier
+							{...typeDossier}
+							showCta={true}
+							ctaHref={`/enneagram-corner/enneagram-type-${typeNum}`}
+							ctaLabel={`Read the full Type ${typeNum} breakdown`}
+						/>
+					{/if}
+				{:else}
+					{@render chorusBlock()}
+				{/if}
+			{/each}
 
 			<ArticleSources
 				citations={postMeta.citations ?? []}
@@ -675,16 +705,10 @@
 				/>
 			{/if}
 
-			<!-- ★ PRIMARY ACTION — the give-first Chorus is the one thing this page
-			     drives toward. Everything below is supporting content or quiet,
-			     demoted secondary asks; nothing should out-shout this block. -->
-			<NineChorus
-				subjectType="personality-analysis"
-				slug={post.slug}
-				question={(post as any).chorus_question ?? null}
-				questionUrl={(post as any).chorus_question_url ?? null}
-				personName={postDisplayName}
-			/>
+			<!-- Short articles with no clean mid-article break keep the Chorus here. -->
+			{#if !articleFlow.hasChorusSlot}
+				{@render chorusBlock()}
+			{/if}
 
 			<AuthorBio />
 		</div>

@@ -24,6 +24,11 @@ import {
 	CONTENT_SEARCH_PREVIEW_CACHE_CONTROL
 } from '$lib/server/contentAccessGuard';
 import { isQuestionPubliclyEligible } from '$lib/server/questionEditorial';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import {
+	PROVEN_CHORUS_QUESTION_URLS,
+	orderProvenChorusCandidates
+} from '$lib/server/provenChorusQuestions';
 import personalitySimilaritySnapshot from '$lib/generated/personalitySimilaritySnapshot.json';
 import { waitUntil } from '@vercel/functions';
 import { smartQuotesText } from '$lib/utils/smartQuotes';
@@ -36,6 +41,26 @@ type RelatedPersonalityPayload = {
 	sameEnneagramPosts: RelatedPersonalityCard[];
 };
 type PublicChorusQuestion = { question: string | null; questionUrl: string | null };
+/**
+ * The give-first question this page renders. `subjectType` is what NineChorus
+ * posts to /api/nine/mirror: the person's own chorus ('personality-analysis',
+ * keyed by page slug) or a proven fallback question ('question', keyed by url).
+ */
+type PageChorus = {
+	question: string;
+	questionUrl: string;
+	subjectType: 'personality-analysis' | 'question';
+	source: 'person' | 'proven';
+};
+type ChorusQuestionRow = {
+	id?: number;
+	url?: string | null;
+	question: string | null;
+	question_formatted: string | null;
+	flagged: boolean | null;
+	removed: boolean | null;
+	data: Json | null;
+};
 
 // The similarity refresh runs after the response, so it can wait longer than
 // render-blocking enrichment queries.
@@ -156,7 +181,7 @@ export const load: PageServerLoad = async (event) => {
 			processBlogContent(personData.content ?? '', { popCardImageTreatment: 'personality' }),
 			buildRelatedPosts(supabase, canonicalSlug, postTypes, enneagramNum),
 			getPersonalitySimilarityRows(supabase),
-			resolvePublicChorusQuestion(supabase, personData)
+			resolvePublicChorusQuestion(supabase, personData, canonicalSlug)
 		]);
 	const suggestedPeople = buildSuggestedPeople(
 		personData.suggestions,
@@ -171,8 +196,10 @@ export const load: PageServerLoad = async (event) => {
 	return {
 		post: {
 			...(personData as FamousPersonRow),
-			chorus_question: publicChorus.question,
-			chorus_question_url: publicChorus.questionUrl,
+			// The person's own question, only while it is public. What the page
+			// actually renders (own or proven fallback) is `chorus` below.
+			chorus_question: publicChorus.own.question,
+			chorus_question_url: publicChorus.own.questionUrl,
 			slug: canonicalSlug,
 			title: personData.title ?? '',
 			author: personData.author ?? 'DJ Wayne',
@@ -196,6 +223,9 @@ export const load: PageServerLoad = async (event) => {
 		},
 		slug: canonicalSlug,
 		canonicalSlug,
+		// Visitor-independent (same question for everyone), so it is safe in the
+		// ISR copy. Impressions and answers happen in the browser.
+		chorus: publicChorus.chorus,
 		placeholders,
 		headings,
 		bridgeLinks,
@@ -204,7 +234,44 @@ export const load: PageServerLoad = async (event) => {
 	};
 };
 
+/**
+ * The give-first question for this page: the person's own chorus question while
+ * it is public and answerable, otherwise a proven live question
+ * ($lib/server/provenChorusQuestions). Hidden questions stay hidden; this never
+ * unflags anything, it only picks something else to show.
+ *
+ * Every lookup failure answers 503 rather than rendering without the prompt:
+ * ISR would otherwise cache the page minus its answer-first entry point (or
+ * with a different question) for a whole day.
+ */
 async function resolvePublicChorusQuestion(
+	supabase: ServerSupabaseClient,
+	person: FamousPersonRow,
+	pageSlug: string
+): Promise<{ own: PublicChorusQuestion; chorus: PageChorus | null }> {
+	const own = await resolveOwnChorusQuestion(supabase, person);
+
+	if (own.question && own.questionUrl) {
+		// /api/nine/mirror answers the person's chorus from nine_takes keyed by
+		// the page slug; without those takes the answer could not be posted.
+		const ready = await findReadyChoruses('personality-analysis', [pageSlug], pageSlug);
+		if (ready.has(pageSlug)) {
+			return {
+				own,
+				chorus: {
+					question: own.question,
+					questionUrl: own.questionUrl,
+					subjectType: 'personality-analysis',
+					source: 'person'
+				}
+			};
+		}
+	}
+
+	return { own, chorus: await resolveProvenChorusQuestion(supabase, pageSlug) };
+}
+
+async function resolveOwnChorusQuestion(
 	supabase: ServerSupabaseClient,
 	person: FamousPersonRow
 ): Promise<PublicChorusQuestion> {
@@ -226,14 +293,87 @@ async function resolvePublicChorusQuestion(
 		throwTemporarilyUnavailable(person.person ?? questionUrl, 'chorus question', questionError);
 	}
 
-	if (!question || !isQuestionPubliclyEligible(question)) {
-		return { question: null, questionUrl: null };
-	}
-
-	const publicQuestion = (question.question_formatted || question.question || '').trim();
+	const publicQuestion = publicQuestionText(question);
 	return publicQuestion
 		? { question: publicQuestion, questionUrl }
 		: { question: null, questionUrl: null };
+}
+
+/**
+ * First proven question, in this page's stable per-person order, that is still
+ * public and still answerable right now. Checked on every render, so a question
+ * that gets flagged, removed, or loses its takes drops out at the next
+ * revalidation instead of being served from a hard-coded list.
+ */
+async function resolveProvenChorusQuestion(
+	supabase: ServerSupabaseClient,
+	pageSlug: string
+): Promise<PageChorus | null> {
+	const { data: rows, error: poolError } = await supabase
+		.from('questions')
+		.select('id, url, question, question_formatted, flagged, removed, data')
+		.in('url', [...PROVEN_CHORUS_QUESTION_URLS])
+		.order('id', { ascending: true });
+
+	if (poolError) {
+		throwTemporarilyUnavailable(pageSlug, 'proven chorus questions', poolError);
+	}
+
+	// Lowest id wins for a duplicated url, matching the own-question lookup.
+	const publicText = new Map<string, string>();
+	const seen = new Set<string>();
+	for (const row of (rows ?? []) as ChorusQuestionRow[]) {
+		const url = row.url?.trim();
+		if (!url || seen.has(url)) continue;
+		seen.add(url);
+		const text = publicQuestionText(row);
+		if (text) publicText.set(url, text);
+	}
+	if (publicText.size === 0) return null;
+
+	const ready = await findReadyChoruses('question', [...publicText.keys()], pageSlug);
+
+	for (const questionUrl of orderProvenChorusCandidates(pageSlug)) {
+		const question = publicText.get(questionUrl);
+		if (question && ready.has(questionUrl)) {
+			return { question, questionUrl, subjectType: 'question', source: 'proven' };
+		}
+	}
+	return null;
+}
+
+function publicQuestionText(question: ChorusQuestionRow | null | undefined): string | null {
+	if (!question || !isQuestionPubliclyEligible(question)) return null;
+	return (question.question_formatted || question.question || '').trim() || null;
+}
+
+/**
+ * Subject slugs that have the complete nine-take chorus /api/nine/mirror needs
+ * before it will accept an answer. nine_takes has no public RLS policy, so this
+ * read uses the service-role client; it returns only slugs, never takes.
+ */
+async function findReadyChoruses(
+	subjectType: PageChorus['subjectType'],
+	subjectSlugs: string[],
+	pageSlug: string
+): Promise<Set<string>> {
+	if (subjectSlugs.length === 0) return new Set();
+
+	const { data, error: readinessError } = await getSupabaseAdminClient()
+		.from('nine_takes')
+		.select('subject_slug, takes')
+		.eq('subject_type', subjectType)
+		.in('subject_slug', subjectSlugs);
+
+	if (readinessError) {
+		throwTemporarilyUnavailable(pageSlug, 'chorus readiness', readinessError);
+	}
+
+	return new Set(
+		((data ?? []) as Array<{ subject_slug: string; takes: Json }>)
+			.filter((row) => Array.isArray(row.takes) && row.takes.length === 9)
+			.map((row) => row.subject_slug)
+	);
 }
 
 const RELATED_POSTS_CACHE_TTL_MS = 5 * 60 * 1000;

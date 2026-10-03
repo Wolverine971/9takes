@@ -1,4 +1,5 @@
 // src/lib/admin/adminNavigation.ts
+import type { RouteId } from '$app/types';
 import {
 	ChartNoAxesCombined,
 	FileCode2,
@@ -9,6 +10,7 @@ import {
 	Mail,
 	Megaphone,
 	MessageCircle,
+	MessageCircleReply,
 	MessageSquareText,
 	MessagesSquare,
 	PenLine,
@@ -20,8 +22,10 @@ import {
 	Wrench
 } from '@lucide/svelte';
 
+type AdminNavHref = Exclude<Extract<RouteId, '/admin' | `/admin/${string}`>, `${string}[${string}`>;
+
 export type AdminNavItem = {
-	href: string;
+	href: AdminNavHref;
 	label: string;
 	icon: typeof LayoutDashboard;
 	exact?: boolean;
@@ -33,7 +37,13 @@ export type AdminNavGroup = {
 	items: AdminNavItem[];
 };
 
-export const adminNavGroups: AdminNavGroup[] = [
+export const hostDeskNavItem = {
+	href: '/admin/host-desk',
+	label: 'Host desk',
+	icon: MessageCircleReply
+} satisfies AdminNavItem;
+
+export const adminNavGroups = [
 	{
 		label: 'Overview',
 		description: 'Traffic, health, and discovery',
@@ -44,14 +54,21 @@ export const adminNavGroups: AdminNavGroup[] = [
 		]
 	},
 	{
-		label: 'People',
-		description: 'Members, conversations, and clients',
+		label: 'Community',
+		description: 'Members, conversations, and host replies',
 		items: [
+			hostDeskNavItem,
 			{ href: '/admin/users', label: 'Users', icon: Users },
-			{ href: '/admin/consulting', label: 'Consulting', icon: Target },
-			{ href: '/admin/consulting/notes', label: 'Notes', icon: MessageSquareText },
 			{ href: '/admin/comments', label: 'Comments', icon: MessageCircle },
 			{ href: '/admin/messages', label: 'Messages', icon: MessagesSquare }
+		]
+	},
+	{
+		label: 'Consulting',
+		description: 'Clients, sessions, and Talk to DJ notes',
+		items: [
+			{ href: '/admin/consulting', label: 'Consulting', icon: Target },
+			{ href: '/admin/consulting/notes', label: 'Notes', icon: MessageSquareText }
 		]
 	},
 	{
@@ -85,7 +102,7 @@ export const adminNavGroups: AdminNavGroup[] = [
 			{ href: '/admin/asset-generators', label: 'Asset tools', icon: Wrench }
 		]
 	}
-];
+] satisfies AdminNavGroup[];
 
 function matchesAdminNavItem(item: { href: string; exact?: boolean }, pathname: string): boolean {
 	if (item.exact) return pathname === item.href;
@@ -204,9 +221,11 @@ export function getAdminRouteContext(pathname: string) {
 	const detail = detailRoutes.find((route) => route.test.test(pathname));
 	const parentHref = detail?.parentHref;
 	const parentItem =
-		adminNavGroups.flatMap((group) => group.items).find((item) => item.href === parentHref) ??
 		adminNavGroups
-			.flatMap((group) => group.items)
+			.flatMap<AdminNavItem>((group) => group.items)
+			.find((item) => item.href === parentHref) ??
+		adminNavGroups
+			.flatMap<AdminNavItem>((group) => group.items)
 			.filter((item) => isAdminNavActive(item, pathname))
 			.sort((a, b) => b.href.length - a.href.length)[0];
 	const group =

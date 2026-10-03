@@ -52,7 +52,9 @@ describe('homepage public community proof', () => {
 	});
 
 	it('renders the page without waiting for public activity', () => {
-		expect(load({} as never)).toEqual({ pageChrome: 'header', pageShell: 'owned' });
+		// 'header' chrome was retired on 2026-09-25 (7a563034a): the homepage uses the default
+		// site header and footer. Public activity still loads client-side, not in load().
+		expect(load({} as never)).toEqual({ pageChrome: 'default', pageShell: 'owned' });
 	});
 
 	it('keeps the homepage usable when the public data request fails or throws', async () => {

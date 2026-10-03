@@ -1,9 +1,17 @@
 // src/routes/pop-culture/[slug]/+page.ts
 import type { PageLoad } from './$types';
-import { error } from '@sveltejs/kit';
+import { error, redirect } from '@sveltejs/kit';
 import { slugFromPath } from '$lib/slugFromPath';
 
-export const load: PageLoad = async ({ params, data }) => {
+const permanentRedirectMap: Record<string, string> = {
+	'trump-type-8-vs-biden-type-2': '/pop-culture/trump-type-3-vs-biden-type-2'
+};
+
+export const load: PageLoad = async ({ params, data, url }) => {
+	const permanentTarget = permanentRedirectMap[params.slug];
+	if (permanentTarget) {
+		throw redirect(301, `${permanentTarget}${url.search}`);
+	}
 	const modules = import.meta.glob([
 		`/src/blog/pop-culture/*.{md,svx,svelte.md}`,
 		'!**/*-twitter.md',

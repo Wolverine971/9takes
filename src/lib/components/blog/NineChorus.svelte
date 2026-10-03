@@ -5,10 +5,18 @@
 	// The question is a real row in the `questions` table; this section is an entry
 	// point to its /questions/[slug] page. Sharing and "see everyone's answers"
 	// route back there. See docs/product/the-chorus-vision.md.
+	//
+	// Two subjects, matching /api/nine/mirror:
+	//   personality-analysis  the page's own chorus, keyed by the person `slug`
+	//   question              any chorus-ready question, keyed by `questionUrl`
+	//                         (the proven fallback on personality pages)
+	// The host page's HTML is shared (ISR), so everything visitor-specific
+	// happens here in the browser: the visitor id, the gate impression, the answer.
 	import { tick } from 'svelte';
 	import { browser } from '$app/environment';
 	import QRCode from 'qrcode';
 	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
+	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 
 	type Take = { type: number; archetype: string; take: string; source: 'ai' | 'human' };
 	type Mirror = { reflection: string; resonantType: number; resonantArchetype: string };
@@ -18,14 +26,25 @@
 		slug,
 		question,
 		questionUrl,
-		personName = ''
+		personName = '',
+		sourcePath = null,
+		lead = null
 	}: {
-		subjectType?: string;
+		subjectType?: 'personality-analysis' | 'question';
 		slug: string;
 		question: string | null | undefined;
 		questionUrl?: string | null;
 		personName?: string;
+		/** Same-site path of the host page: funnel attribution for the gate and the answer. */
+		sourcePath?: string | null;
+		/** One line above the question that ties it to the reader. */
+		lead?: string | null;
 	} = $props();
+
+	// A gate impression counts once the Chorus has been on screen, like the
+	// qualified question impressions elsewhere: half visible for 750ms.
+	const IMPRESSION_VISIBLE_SHARE = 0.5;
+	const IMPRESSION_DWELL_MS = 750;
 
 	let phase = $state<'threshold' | 'revealed'>('threshold');
 	let draft = $state('');
@@ -45,16 +64,18 @@
 
 	async function submit() {
 		if (!canSubmit) return;
+		// Whoever answers saw the gate, even if they beat the dwell timer.
+		reportGateImpression();
 		submitting = true;
 		submitError = null;
 		try {
 			const res = await fetch('/api/nine/mirror', {
 				method: 'POST',
 				headers: { 'content-type': 'application/json' },
-				body: JSON.stringify({ subjectType, slug, take: draft.trim() })
+				body: JSON.stringify(buildMirrorRequest(draft.trim()))
 			});
-			const data = await res.json();
-			if (!res.ok) throw new Error(data?.error ?? 'failed');
+			const data = await res.json().catch(() => null);
+			if (!res.ok) throw new Error(data?.error ?? data?.message ?? 'failed');
 			mirror =
 				typeof data?.reflection === 'string' &&
 				Number.isInteger(data?.resonantType) &&
@@ -82,6 +103,69 @@
 		} finally {
 			submitting = false;
 		}
+	}
+
+	function buildMirrorRequest(take: string) {
+		// The cookie stays the server's source of truth; the body copy keeps the
+		// answer postable in browsers that drop client-written cookies.
+		const identity = {
+			take,
+			sourcePath: sourcePath ?? undefined,
+			fingerprint: browser ? getOrCreateVisitorId() : undefined
+		};
+		return subjectType === 'question'
+			? { subjectType, questionUrl, ...identity }
+			: { subjectType, slug, ...identity };
+	}
+
+	let gateReported = false;
+	function reportGateImpression() {
+		if (gateReported || !browser || !questionUrl || !sourcePath) return;
+		gateReported = true;
+		void fetch('/api/nine/impression', {
+			method: 'POST',
+			keepalive: true,
+			headers: { 'content-type': 'application/json' },
+			body: JSON.stringify({ questionUrl, sourcePath, fingerprint: getOrCreateVisitorId() })
+		}).catch(() => {
+			/* instrumentation is best-effort */
+		});
+	}
+
+	function trackGateImpression(node: HTMLElement) {
+		if (!browser || typeof IntersectionObserver === 'undefined') return;
+
+		let timer: ReturnType<typeof setTimeout> | null = null;
+		const clearTimer = () => {
+			if (timer) clearTimeout(timer);
+			timer = null;
+		};
+		const observer = new IntersectionObserver(
+			([entry]) => {
+				// A Chorus taller than the viewport can never be half visible, so
+				// filling half the screen counts too.
+				const onScreen =
+					Boolean(entry?.isIntersecting) &&
+					(entry.intersectionRatio >= IMPRESSION_VISIBLE_SHARE ||
+						entry.intersectionRect.height >= window.innerHeight * IMPRESSION_VISIBLE_SHARE);
+				if (!onScreen) return clearTimer();
+				if (timer || gateReported) return;
+				timer = setTimeout(() => {
+					timer = null;
+					observer.disconnect();
+					reportGateImpression();
+				}, IMPRESSION_DWELL_MS);
+			},
+			{ threshold: [0, 0.25, 0.5, 0.75, 1] }
+		);
+		observer.observe(node);
+
+		return {
+			destroy() {
+				clearTimer();
+				observer.disconnect();
+			}
+		};
 	}
 
 	async function share() {
@@ -112,13 +196,21 @@
 </script>
 
 {#if question}
-	<section class="chorus" bind:this={root} aria-label="One question, nine perspectives">
+	<section
+		class="chorus"
+		bind:this={root}
+		use:trackGateImpression
+		aria-label="One question, nine perspectives"
+	>
 		<header class="chorus-head">
 			<span class="kicker">ONE QUESTION · NINE PERSPECTIVES</span>
 		</header>
 
 		{#if phase === 'threshold'}
 			<div class="threshold">
+				{#if lead}
+					<p class="lead">{lead}</p>
+				{/if}
 				<p class="question">{question}</p>
 
 				<label class="give" for="chorus-take">
@@ -129,7 +221,7 @@
 						oninput={() => (submitError = null)}
 						maxlength="2000"
 						rows="4"
-						placeholder="Answer honestly. No one sees this, and no one else's answers, until you write yours."
+						placeholder="Answer honestly. You see everyone else’s answers after you write yours."
 						aria-invalid={submitError ? 'true' : 'false'}
 						aria-describedby={`chorus-take-count${submitError ? ' chorus-take-error' : ''}`}
 					></textarea>
@@ -149,6 +241,7 @@
 					<p id="chorus-take-error" class="submit-error" role="alert">{submitError}</p>
 				{/if}
 				<p class="promise">You answer before you see. That is the whole point.</p>
+				<p class="trust">No account needed. Your answer is posted publicly to the question page.</p>
 			</div>
 		{:else}
 			<div class="chorus-reveal">
@@ -232,6 +325,13 @@
 		letter-spacing: 0.18em;
 		font-weight: 700;
 		color: var(--lamp-glow);
+	}
+
+	.lead {
+		margin: 0.75rem 0 0;
+		font-size: 0.95rem;
+		line-height: 1.5;
+		color: var(--ink-mid);
 	}
 
 	.question {
@@ -340,6 +440,11 @@
 	}
 	.promise {
 		margin: 1rem 0 0;
+		font-size: 0.82rem;
+		color: var(--ink-mid);
+	}
+	.trust {
+		margin: 0.25rem 0 0;
 		font-size: 0.82rem;
 		color: var(--ink-mid);
 	}

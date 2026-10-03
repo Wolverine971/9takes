@@ -5,7 +5,7 @@
 **For:** the agent assigned to rework `/pop-culture/trump-type-8-vs-biden-type-2` so it agrees with 9takes' own typing of Donald Trump.
 **Owner:** DJ
 **Created:** 2026-09-24
-**Status:** Ready for execution. DJ decided the typing on 2026-09-24: "I think Trump is a Type 3 ... we need to fix that." The slug change in §2 is the plan unless DJ vetoes it.
+**Status:** Done 2026-10-03 (uncommitted at time of writing), except `pnpm index:blogs`, which runs after deploy. See the 2026-10-03 entry in `docs/crosslinks/crosslink-log.md`. Reconfirmed by DJ 2026-10-03 after a reader note: "Let's reorient around him being an Enneagram type 3." Original: DJ decided the typing on 2026-09-24: "I think Trump is a Type 3 ... we need to fix that." The slug change in §2 is the plan unless DJ vetoes it.
 **Related:** `docs/crosslinks/crosslink-log.md` (entries "2026-09-23: typing conflicts fixed" and "Jev audit pass"); `T-40-typing-consistency-sweep-and-guard.md` (the corpus-wide version of this problem); `T-07-merge-and-301-consolidation-plan.md` §3 (redirect rules).
 
 ---

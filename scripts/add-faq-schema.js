@@ -33,7 +33,7 @@ const FILES = [
 	'src/blog/pop-culture/onlyfans-creators-enneagram-digital-intimacy.md',
 	'src/blog/pop-culture/parasocial-relationships-enneagram-type.md',
 	'src/blog/pop-culture/reddit-moderators-type-1-internet.md',
-	'src/blog/pop-culture/trump-type-8-vs-biden-type-2.md',
+	'src/blog/pop-culture/trump-type-3-vs-biden-type-2.md',
 	'src/blog/pop-culture/twitter-x-personality-types-toxic.md',
 	'src/blog/pop-culture/world-leaders-enneagram-personality-dynamics.md'
 ];

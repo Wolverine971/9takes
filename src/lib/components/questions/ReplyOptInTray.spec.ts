@@ -87,6 +87,23 @@ describe('ReplyOptInTray', () => {
 		expect(JSON.stringify(captureMock.mock.calls)).not.toContain('Reader@Example.com');
 	});
 
+	it('saves through another page’s form action when one is given (the homepage)', async () => {
+		deserializeMock.mockReturnValueOnce({
+			type: 'success',
+			data: { replyOptIn: { status: 'subscribed' } }
+		});
+		const action = '/questions/what-are-you-thinking-about-these-days?/subscribeToCommentReplies';
+		const { getByRole } = render(ReplyOptInTray, { props: { offer, action } });
+
+		await fireEvent.input(getByRole('textbox', { name: 'Email' }), {
+			target: { value: 'reader@example.com' }
+		});
+		await fireEvent.click(getByRole('button', { name: 'Keep me posted' }));
+
+		await waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1));
+		expect(fetchMock.mock.calls[0][0]).toBe(action);
+	});
+
 	it('rejects an invalid email without a request', async () => {
 		const { getByRole, getByText } = render(ReplyOptInTray, { props: { offer } });
 

@@ -1,21 +1,15 @@
 # Link Opportunities
 
-_Generated: 2026-10-02 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
-_Search data: GSC 2026-06-24 → 2026-09-22. 287 candidate links found (+108 weaker ones offered only for gate debt); 130 suppressed in `docs/crosslinks/skipped.json`._
+_Generated: 2026-10-03 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
+_Search data: GSC 2026-06-24 → 2026-09-22. 286 candidate links found (+111 weaker ones offered only for gate debt); 130 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
 Score = target's search demand × link deficit × mention strength × source visibility (cross-section links get a bonus).
 Line numbers are file lines at generation time; match on the sentence if the file has changed.
 
-## 1. Gate debt (2 posts below 3 in / 3 out)
+## 1. Gate debt (1 posts below 3 in / 3 out)
 
 Sorted by impressions. 1 of these are NOT grandfathered and fail `pnpm crosslinks:check`.
-
-### `/pop-culture/trump-type-8-vs-biden-type-2` — in 2, out 12
-
-Needs 1 more inbound link(s).
-
-Best hosts for one bridging sentence: `/pop-culture/breaking-points-enneagram-analysis` (same section, category politics-power); `/pop-culture/ghislaine-maxwell-psychology` (1 shared links, same section); `/pop-culture/epstein-psychology-part-1` (1 shared links, same section)
 
 ### `/community/be-gentle-when-youre-right` — in 0, out 0 — **failing gate**
 

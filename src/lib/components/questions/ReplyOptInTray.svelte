@@ -29,10 +29,13 @@
 		/** Optional first sentence (the host promise), so it rides in the tray
 		 * instead of stacking as a separate line above it. */
 		lead?: string;
+		/** Form action that saves the email. Defaults to the current question page's;
+		 * the homepage points it at the live question's page. */
+		action?: string;
 		onstatechange?: (state: 'dismissed' | 'subscribed') => void;
 	}
 
-	let { offer, lead = '', onstatechange }: Props = $props();
+	let { offer, lead = '', action = '?/subscribeToCommentReplies', onstatechange }: Props = $props();
 
 	const REPLY_OPT_IN_DISMISSED_KEY = '9t-reply-opt-in-dismissed';
 	const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -102,7 +105,7 @@
 			body.append('fingerprint', offer.fingerprint);
 			body.append('email', address);
 
-			const response = await fetch('?/subscribeToCommentReplies', { method: 'POST', body });
+			const response = await fetch(action, { method: 'POST', body });
 			const status = statusFrom(deserialize(await response.text()));
 			if (status === 'subscribed' || status === 'already_subscribed') {
 				succeeded = true;
