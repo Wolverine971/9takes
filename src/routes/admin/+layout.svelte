@@ -77,7 +77,8 @@
 </script>
 
 {#if data.user?.admin}
-	<div class="admin-layout">
+	<!-- The site preloads on tap; admin links start loading on hover so a click lands on ready data. -->
+	<div class="admin-layout" data-sveltekit-preload-data="hover">
 		<!-- Mobile Header -->
 		<header class="mobile-header">
 			<div class="mobile-title">

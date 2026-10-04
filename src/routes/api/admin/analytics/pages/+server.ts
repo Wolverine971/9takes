@@ -4,48 +4,7 @@ import { z } from 'zod';
 import type { RequestHandler } from './$types';
 import { requireAdmin } from '$lib/server/adminAuth';
 import { analyticsDateSchema, analyticsScopeSchema } from '$lib/validation/analyticsSchemas';
-import { endOfUtcDay, toUtcDateString } from '$lib/analytics/adminAnalyticsDates';
-import { attachAnalyticsLastModified } from '$lib/server/analyticsPageLastModified';
-
-interface AnalyticsPagesRow {
-	path: string;
-	path_group: string;
-	content_type: string | null;
-	visits: number;
-	unique_visitors: number;
-	authenticated_visits: number;
-	anonymous_visits: number;
-	avg_time_on_page_ms: number;
-	median_time_on_page_ms: number;
-	bounce_rate: number;
-	total_rows: number;
-}
-
-type PageBreakdownWindow = '24h' | '7d' | '14d' | '30d' | '90d';
-
-interface WindowBounds {
-	fromTs: string;
-	toTs: string;
-	fromDate: string;
-	toDate: string;
-	label: string;
-}
-
-const pageBreakdownWindowHours: Record<PageBreakdownWindow, number> = {
-	'24h': 24,
-	'7d': 24 * 7,
-	'14d': 24 * 14,
-	'30d': 24 * 30,
-	'90d': 24 * 90
-};
-
-const pageBreakdownWindowLabels: Record<PageBreakdownWindow, string> = {
-	'24h': 'Last 24 Hours',
-	'7d': 'Last 7 Days',
-	'14d': 'Last 14 Days',
-	'30d': 'Last 30 Days',
-	'90d': 'Last 90 Days'
-};
+import { loadAnalyticsPages, rethrowAnalyticsQueryError } from '$lib/server/adminPageAnalytics';
 
 const querySchema = z.object({
 	page: z.coerce.number().int().min(1).default(1),
@@ -78,32 +37,6 @@ function parseDate(value: string | null): string | undefined {
 	return parsed.data;
 }
 
-function getWindowBounds(window: PageBreakdownWindow, anchorDate?: string): WindowBounds {
-	const now = new Date();
-	const today = toUtcDateString(now);
-	const to = anchorDate && anchorDate !== today ? endOfUtcDay(anchorDate) : now;
-	const from = new Date(to.getTime() - pageBreakdownWindowHours[window] * 60 * 60 * 1000);
-
-	return {
-		fromTs: from.toISOString(),
-		toTs: to.toISOString(),
-		fromDate: toUtcDateString(from),
-		toDate: toUtcDateString(to),
-		label: pageBreakdownWindowLabels[window]
-	};
-}
-
-function isMissingWindowedPagesRpc(err: unknown): boolean {
-	const message =
-		typeof err === 'object' && err !== null && 'message' in err
-			? String((err as { message?: unknown }).message ?? '')
-			: '';
-	return (
-		message.includes('get_page_analytics_pages_sorted_windowed') ||
-		message.includes('function public.get_page_analytics_pages_sorted_windowed')
-	);
-}
-
 function parseScope(value: string | null): z.infer<typeof analyticsScopeSchema> {
 	const parsed = analyticsScopeSchema.safeParse(value ?? 'all');
 	if (!parsed.success) {
@@ -132,119 +65,21 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	}
 
 	const { page, limit, search, sortBy, sortDir, window } = parsedQuery.data;
-	const offset = (page - 1) * limit;
 
-	const supabaseAny = locals.supabase as any;
-	let data: AnalyticsPagesRow[] | null;
-	let rpcError: unknown;
-	let windowMeta: {
-		key: PageBreakdownWindow | 'custom';
-		from: string;
-		to: string;
-		fromTs?: string;
-		toTs?: string;
-		label: string;
-	};
-
-	if (window) {
-		const bounds = getWindowBounds(window, toDate ?? fromDate);
-		windowMeta = {
-			key: window,
-			from: bounds.fromDate,
-			to: bounds.toDate,
-			fromTs: bounds.fromTs,
-			toTs: bounds.toTs,
-			label: bounds.label
-		};
-
-		const windowedResult = await supabaseAny.rpc('get_page_analytics_pages_sorted_windowed', {
-			p_from_ts: bounds.fromTs,
-			p_to_ts: bounds.toTs,
-			p_scope: scope,
-			p_search: search || null,
-			p_limit: limit,
-			p_offset: offset,
-			p_sort_by: sortBy,
-			p_sort_dir: sortDir
-		});
-
-		data = windowedResult.data ?? null;
-		rpcError = windowedResult.error;
-
-		// Fallback keeps table available if the new RPC isn't deployed yet.
-		if (rpcError && isMissingWindowedPagesRpc(rpcError)) {
-			const fallbackResult = await supabaseAny.rpc('get_page_analytics_pages_sorted', {
-				p_from_date: bounds.fromDate,
-				p_to_date: bounds.toDate,
-				p_scope: scope,
-				p_search: search || null,
-				p_limit: limit,
-				p_offset: offset,
-				p_sort_by: sortBy,
-				p_sort_dir: sortDir
-			});
-
-			data = fallbackResult.data ?? null;
-			rpcError = fallbackResult.error;
-		}
-	} else {
-		windowMeta = {
-			key: 'custom',
-			from: fromDate ?? '',
-			to: toDate ?? '',
-			label: fromDate && toDate ? `${fromDate} - ${toDate}` : 'Custom Range'
-		};
-
-		const rangeResult = await supabaseAny.rpc('get_page_analytics_pages_sorted', {
-			p_from_date: fromDate,
-			p_to_date: toDate,
-			p_scope: scope,
-			p_search: search || null,
-			p_limit: limit,
-			p_offset: offset,
-			p_sort_by: sortBy,
-			p_sort_dir: sortDir
-		});
-
-		data = rangeResult.data ?? null;
-		rpcError = rangeResult.error;
-	}
-
-	if (rpcError) {
-		console.error('Failed to fetch analytics pages:', rpcError);
-		throw error(500, 'Failed to fetch analytics pages');
-	}
-
-	const rows = ((data ?? []) as AnalyticsPagesRow[]).map((row) => ({
-		path: row.path ?? '',
-		path_group: row.path_group ?? '',
-		content_type: row.content_type ?? 'other',
-		visits: Number(row.visits || 0),
-		unique_visitors: Number(row.unique_visitors || 0),
-		authenticated_visits: Number(row.authenticated_visits || 0),
-		anonymous_visits: Number(row.anonymous_visits || 0),
-		avg_time_on_page_ms: Number(row.avg_time_on_page_ms || 0),
-		median_time_on_page_ms: Number(row.median_time_on_page_ms || 0),
-		bounce_rate: Number(row.bounce_rate || 0),
-		total_rows: Number(row.total_rows || 0)
-	}));
-	const rowsWithLastModified = await attachAnalyticsLastModified(locals.supabase, rows);
-
-	const total =
-		rowsWithLastModified.length > 0 ? Number(rowsWithLastModified[0].total_rows || 0) : 0;
-
-	return json({
-		rows: rowsWithLastModified,
-		pagination: {
-			total,
+	try {
+		const payload = await loadAnalyticsPages(locals.supabase, {
+			fromDate,
+			toDate,
+			scope,
 			page,
 			limit,
-			totalPages: Math.max(1, Math.ceil(total / limit))
-		},
-		sorting: {
+			search,
 			sortBy,
-			sortDir
-		},
-		window: windowMeta
-	});
+			sortDir,
+			window
+		});
+		return json(payload);
+	} catch (err) {
+		rethrowAnalyticsQueryError(err);
+	}
 };

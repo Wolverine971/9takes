@@ -11,11 +11,29 @@ import { loadEnneagramCampaignAudience } from '$lib/server/enneagramCampaignAudi
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { loadEmailDeliveryHealth } from '$lib/server/emailDeliveryHealth';
 
-export const load: PageServerLoad = async ({ locals }) => {
-	await requireAdmin(locals);
+// Must match the invalidate() call in +page.svelte.
+const AUDIENCE_DEPENDENCY = 'admin:enneagram-campaign-audience';
+
+export const load: PageServerLoad = async ({ locals, isDataRequest, depends }) => {
+	depends(AUDIENCE_DEPENDENCY);
+	const guard = requireAdmin(locals);
 	const adminSupabase = getSupabaseAdminClient() as any;
-	const [audience, delivery, sequenceResult] = await Promise.all([
-		loadEnneagramCampaignAudience(adminSupabase),
+
+	// The audience (every profile, every GoTrue user, suppression) is the slow part, so it
+	// streams in behind the page shell. It starts only once the guard passes: it reads every
+	// user's email with the service role. On a full page load SvelteKit would stream it as
+	// inline <script> chunks, which csp.mode 'hash' can't cover (the header is already sent),
+	// so the browser would drop them. Full loads send the shell without it and the page
+	// re-requests it through invalidate(), which streams over __data.json.
+	const audience = isDataRequest
+		? guard.then(() => loadEnneagramCampaignAudience(adminSupabase))
+		: null;
+	// Rejections reach the page's {:catch} branch. If the guard throws below, this promise is
+	// never returned, so mark it handled to keep Node from crashing on it.
+	audience?.catch(() => {});
+
+	const [, delivery, sequenceResult] = await Promise.all([
+		guard,
 		loadEmailDeliveryHealth(adminSupabase),
 		adminSupabase
 			.from('email_sequences')

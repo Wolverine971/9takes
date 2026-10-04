@@ -87,6 +87,10 @@
 				<span class="note-badge note-badge--replied">Replied</span>
 			{:else if note.status === 'archived'}
 				<span class="note-badge">Archived</span>
+			{:else if note.viewedAt}
+				<span class="note-badge" title={`First seen ${formatDate(note.viewedAt)}`}>Seen</span>
+			{:else}
+				<span class="note-badge note-badge--new">New</span>
 			{/if}
 		</div>
 		<time datetime={note.createdAt}>{formatDate(note.createdAt)}</time>
@@ -266,6 +270,12 @@
 
 	.note-badge--replied {
 		color: var(--success-text);
+	}
+
+	.note-badge--new {
+		border-color: var(--lamp-glow);
+		background: color-mix(in srgb, var(--lamp-glow) 16%, transparent);
+		color: var(--lamp-glow);
 	}
 
 	.note-from {

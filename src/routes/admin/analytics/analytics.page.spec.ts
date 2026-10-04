@@ -9,6 +9,12 @@ vi.mock('$lib/components/charts/LineChart.svelte', async () => {
 	return { default: module.default };
 });
 
+const { invalidate } = vi.hoisted(() => ({
+	invalidate: vi.fn<(dependency: string) => Promise<void>>()
+}));
+
+vi.mock('$app/navigation', () => ({ invalidate }));
+
 vi.mock('$lib/components/charts/StatCard.svelte', async () => {
 	const module = await import('$lib/test/StatCardStub.svelte');
 	return { default: module.default };
@@ -28,19 +34,61 @@ describe('/admin/analytics page', () => {
 			to: '2026-04-05',
 			entrySurface: '',
 			acquisitionSource: ''
-		},
+		}
+	};
+
+	const streamedPageviews = {
 		overview: {
-			total_visits: 0,
-			unique_visitors: 0,
-			authenticated_visits: 0,
-			anonymous_visits: 0,
-			avg_time_on_page_ms: 0,
-			median_time_on_page_ms: 0,
-			bounce_rate: 0
+			summary: {
+				total_visits: 4321,
+				unique_visitors: 1234,
+				authenticated_visits: 21,
+				anonymous_visits: 4300,
+				avg_time_on_page_ms: 65000,
+				median_time_on_page_ms: 40000,
+				bounce_rate: 51
+			},
+			points: [
+				{
+					day: '2026-04-08',
+					visits: 140,
+					unique_visitors: 90,
+					authenticated_visits: 2,
+					anonymous_visits: 138,
+					avg_time_on_page_ms: 60000
+				}
+			]
 		},
-		timeseries: [],
+		pages: {
+			rows: [
+				{
+					path: '/personality-analysis/streamed-person',
+					path_group: '/personality-analysis/[slug]',
+					content_type: 'people',
+					visits: 77,
+					unique_visitors: 70,
+					authenticated_visits: 0,
+					anonymous_visits: 77,
+					avg_time_on_page_ms: 70000,
+					median_time_on_page_ms: 50000,
+					bounce_rate: 30,
+					total_rows: 1,
+					last_modified_at: null
+				}
+			],
+			pagination: { total: 1, page: 1, limit: 50, totalPages: 1 },
+			sorting: { sortBy: 'visits', sortDir: 'desc' },
+			window: {
+				key: '30d',
+				from: '2026-03-09',
+				to: '2026-04-08',
+				label: 'Last 30 Days'
+			}
+		},
 		topPages: {
-			topPagesOverTime: [],
+			topPagesOverTime: [
+				{ day: '2026-04-08', path: '/questions/streamed', path_group: '/questions', visits: 9 }
+			],
 			topPagesThisWeek: [],
 			topPagesThisMonth: [],
 			topPagesBySessionDuration: [],
@@ -54,23 +102,35 @@ describe('/admin/analytics page', () => {
 			}
 		},
 		trending: {
-			available: false,
-			generatedAt: '',
+			available: true,
+			generatedAt: '2026-04-08T12:00:00.000Z',
 			baselineDays: 7,
 			minVisits: 3,
 			minUnique: 3,
 			rows: [],
 			broadRows: [],
 			repeatRows: []
-		},
-		rows: [],
-		pagination: {
-			total: 0,
-			page: 1,
-			limit: 50,
-			totalPages: 1
 		}
 	};
+
+	function withStreamedPageviews(overrides: Partial<Record<string, unknown>> = {}) {
+		const payloads: Record<string, unknown> = { ...streamedPageviews, ...overrides };
+		return {
+			...pageData,
+			initialOverview: Promise.resolve(payloads.overview),
+			initialPages: Promise.resolve(payloads.pages),
+			initialTopPages: Promise.resolve(payloads.topPages),
+			initialTrending: Promise.resolve(payloads.trending)
+		};
+	}
+
+	const pageviewEndpoints = [
+		'/api/admin/analytics/overview?',
+		'/api/admin/analytics/timeseries?',
+		'/api/admin/analytics/pages?',
+		'/api/admin/analytics/top-pages?',
+		'/api/admin/analytics/trending?'
+	];
 
 	function fetchUrls(): string[] {
 		return (
@@ -89,6 +149,8 @@ describe('/admin/analytics page', () => {
 	}
 
 	beforeEach(() => {
+		invalidate.mockReset();
+		invalidate.mockResolvedValue(undefined);
 		vi.stubGlobal(
 			'fetch',
 			vi.fn().mockResolvedValue({
@@ -850,5 +912,89 @@ describe('/admin/analytics page', () => {
 				Reflect.deleteProperty(URL, 'revokeObjectURL');
 			}
 		}
+	});
+
+	it('renders the default view from streamed server data without client fetches', async () => {
+		render(AnalyticsPage, {
+			data: withStreamedPageviews() as any
+		});
+
+		await waitFor(() => {
+			expect(screen.getByText('Visits: 4321')).toBeTruthy();
+		});
+		expect(screen.getByText('/personality-analysis/streamed-person')).toBeTruthy();
+		expect(screen.getAllByText('/questions/streamed').length).toBeGreaterThan(0);
+		expect(screen.getByText('No pages are trending above baseline right now.')).toBeTruthy();
+		expect(invalidate).not.toHaveBeenCalled();
+		expect(
+			fetchUrls().filter((url) => pageviewEndpoints.some((endpoint) => url.startsWith(endpoint)))
+		).toEqual([]);
+	});
+
+	it('re-runs the load after a full page load and renders its streamed data', async () => {
+		const shellData = {
+			...pageData,
+			initialOverview: null,
+			initialPages: null,
+			initialTopPages: null,
+			initialTrending: null
+		};
+		let rerenderPage!: ReturnType<typeof render>['rerender'];
+		// Stand-in for SvelteKit applying the __data.json response before invalidate resolves.
+		invalidate.mockImplementation(async () => {
+			await Promise.resolve();
+			await rerenderPage({ data: withStreamedPageviews() as any });
+		});
+		rerenderPage = render(AnalyticsPage, { data: shellData as any }).rerender;
+
+		await waitFor(() => {
+			expect(screen.getByText('Visits: 4321')).toBeTruthy();
+		});
+		expect(invalidate).toHaveBeenCalledWith('admin:analytics-pageviews');
+		expect(screen.getByText('/personality-analysis/streamed-person')).toBeTruthy();
+		expect(
+			fetchUrls().filter((url) => pageviewEndpoints.some((endpoint) => url.startsWith(endpoint)))
+		).toEqual([]);
+	});
+
+	it('shows placeholders until the streamed overview arrives', async () => {
+		let resolveOverview!: (value: unknown) => void;
+		const data = {
+			...withStreamedPageviews(),
+			initialOverview: new Promise((resolve) => {
+				resolveOverview = resolve;
+			})
+		};
+
+		render(AnalyticsPage, { data: data as any });
+
+		expect(screen.getByText('Visits: —')).toBeTruthy();
+		expect(screen.getByText('Loading visits over time...')).toBeTruthy();
+
+		resolveOverview(streamedPageviews.overview);
+
+		await waitFor(() => {
+			expect(screen.getByText('Visits: 4321')).toBeTruthy();
+		});
+		expect(screen.queryByText('Loading visits over time...')).toBeNull();
+	});
+
+	it('fetches a section from its endpoint when the server streamed null for it', async () => {
+		render(AnalyticsPage, {
+			data: withStreamedPageviews({ pages: null }) as any
+		});
+
+		await waitFor(() => {
+			expect(fetchUrls()).toContain(
+				'/api/admin/analytics/pages?from=2026-03-10&to=2026-04-08&scope=all&page=1&limit=50&sortBy=visits&sortDir=desc&window=30d'
+			);
+		});
+		expect(
+			fetchUrls().filter(
+				(url) =>
+					pageviewEndpoints.some((endpoint) => url.startsWith(endpoint)) &&
+					!url.startsWith('/api/admin/analytics/pages?')
+			)
+		).toEqual([]);
 	});
 });

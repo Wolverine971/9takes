@@ -39,21 +39,29 @@ function rpcErrorMessage(candidate: unknown, fallback: string): string {
 }
 
 export const load: PageServerLoad = async (event) => {
-	await requireAdmin(event.locals);
+	// Signed-out requests fail here, before any service-role call below.
+	if (!event.locals.session?.user?.id) {
+		throw error(401, 'Unauthorized');
+	}
 	const admin = getSupabaseAdminClient() as any;
 
-	// Resolve/close an expired or moderated run before reading the history so
-	// the control panel cannot render contradictory current and audit states.
-	const currentResult = await admin.rpc('get_current_homepage_feature');
-	const [settingsResult, runsResult, questionsResult] = await Promise.all([
+	// The pure reads run alongside the admin check. The sweep below writes (it ends
+	// runs already past their limits), so it waits for the check to pass.
+	const [[currentResult, runsResult], settingsResult, questionsResult] = await Promise.all([
+		requireAdmin(event.locals).then(async () => {
+			// Resolve/close an expired or moderated run before reading the history so
+			// the control panel cannot render contradictory current and audit states.
+			const current = await admin.rpc('get_current_homepage_feature');
+			const runs = await admin
+				.from('question_feature_runs')
+				.select(
+					'id, question_id, started_at, ends_at, ended_at, paused_at, reason_selected, selection_mode, target_unique_impressions, qualified_unique_impressions, max_duration_days, status, ended_reason, operator_notes, questions(question, question_formatted, url, flagged, removed)'
+				)
+				.order('started_at', { ascending: false })
+				.limit(25);
+			return [current, runs];
+		}),
 		admin.from('question_distribution_settings').select('*').eq('id', true).maybeSingle(),
-		admin
-			.from('question_feature_runs')
-			.select(
-				'id, question_id, started_at, ends_at, ended_at, paused_at, reason_selected, selection_mode, target_unique_impressions, qualified_unique_impressions, max_duration_days, status, ended_reason, operator_notes, questions(question, question_formatted, url, flagged, removed)'
-			)
-			.order('started_at', { ascending: false })
-			.limit(25),
 		admin
 			.from('questions')
 			.select(

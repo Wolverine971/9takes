@@ -19,6 +19,7 @@
 		UserRoundPlus
 	} from '@lucide/svelte';
 	import { honestPulse } from '$lib/admin/honestPulse';
+	import { fullDate, shortDate, unsubscribeReasonLabel } from '$lib/admin/dashboardFormat';
 	import { getMobileAdminCommand } from '$lib/admin/mobileAdminCommand';
 	import EmailSubscriptionStatus from '$lib/components/admin/EmailSubscriptionStatus.svelte';
 	import type { PageData } from './$types';
@@ -106,13 +107,14 @@
 		registrations: { href: '/admin/users', icon: UserRoundPlus, tone: 'primary' }
 	} as const;
 
+	// Unseen notes, matching the nav badge; opening the notes inbox clears them.
 	let notesMetric = $derived({
-		label: 'Notes · new',
-		value: data.talkNotes ? formatCompactCount(data.talkNotes.newCount) : '–',
-		meta: data.talkNotes ? `${formatCompactCount(data.talkNotes.totalCount)} total` : 'Talk to DJ',
+		label: 'Notes · unseen',
+		value: data.talkNotes ? formatCompactCount(data.talkNotes.unseenCount) : '–',
+		meta: data.talkNotes ? `${formatCompactCount(data.talkNotes.newCount)} open` : 'Talk to DJ',
 		href: '/admin/consulting/notes',
 		icon: MessageSquareText,
-		tone: (data.talkNotes?.newCount ?? 0) > 0 ? 'warning' : 'default'
+		tone: (data.talkNotes?.unseenCount ?? 0) > 0 ? 'warning' : 'default'
 	});
 
 	// Honest weekly numbers when the v2 RPC loaded; otherwise the old raw counters,
@@ -437,7 +439,7 @@
 						<span class="activity-main">
 							<strong>{question.question || 'Untitled question'}</strong>
 							<small>
-								{formatDate(question.created_at)} ·
+								{shortDate(question.created_at)} ·
 								{formatCount(question.number_of_comments_today)} today
 							</small>
 						</span>
@@ -463,7 +465,7 @@
 						<span class="activity-main">
 							<strong>{user.email || 'Anonymous user'}</strong>
 							<small>
-								Joined {formatDate(user.created_at)} · Type {user.enneagram || 'pending'}
+								{shortDate(user.created_at)} · Type {user.enneagram || 'pending'}
 							</small>
 						</span>
 						{#if user.unsubscribed}
@@ -493,8 +495,8 @@
 						<span class="activity-main">
 							<strong>{signup.email || 'Unknown email'}</strong>
 							<small>
-								{signup.first_acquisition_source || 'unknown source'} ·
-								{formatDate(signup.created_at)}
+								{shortDate(signup.created_at)} · {signup.first_acquisition_source ||
+									'unknown source'}
 							</small>
 						</span>
 						{#if signup.unsubscribed || signup.unsubscribed_date}
@@ -520,19 +522,20 @@
 			</summary>
 			<div class="activity-list">
 				{#each recentUnsubscribes as unsubscribe (unsubscribe.id)}
-					<a href="/admin/email-dashboard?tab=unsubscribes" class="activity-row unsubscribe-row">
+					<a
+						href="/admin/email-dashboard?tab=unsubscribes"
+						class="activity-row unsubscribe-row"
+						title={fullDate(unsubscribe.unsubscribed_at)}
+					>
 						<span class="activity-main">
 							<strong>{unsubscribe.email}</strong>
 							<small>
-								{unsubscribe.reason || unsubscribe.source || 'Email opt-out'} ·
-								{formatDate(unsubscribe.unsubscribed_at)}
+								{shortDate(unsubscribe.unsubscribed_at)}{unsubscribeReasonLabel(unsubscribe.reason)
+									? ` · ${unsubscribeReasonLabel(unsubscribe.reason)}`
+									: ''}
 							</small>
 						</span>
-						<EmailSubscriptionStatus
-							unsubscribed
-							unsubscribedAt={unsubscribe.unsubscribed_at}
-							reason={unsubscribe.reason}
-						/>
+						<ArrowUpRight size={14} strokeWidth={1.8} aria-hidden="true" />
 					</a>
 				{:else}
 					<p class="empty-copy compact">No email unsubscribes recorded.</p>

@@ -127,6 +127,8 @@ export type TalkNoteRow = {
 	reply_email_sent_at: string | null;
 	source_path: string | null;
 	referrer: string | null;
+	/** First time DJ saw the full note (inbox or dashboard expand); null = unseen. */
+	viewed_at: string | null;
 	created_at: string;
 	updated_at: string;
 };
@@ -589,6 +591,7 @@ export async function listTalkNotesForAdmin(
 		repliedAt: row.replied_at,
 		replyEmailSentAt: row.reply_email_sent_at,
 		sourcePath: row.source_path,
+		viewedAt: row.viewed_at ?? null,
 		createdAt: row.created_at
 	}));
 }
@@ -615,13 +618,14 @@ export async function setTalkNoteStatus(
 	return !error;
 }
 
-/** Unanswered notes, for the badge on the admin nav. */
+/** Open notes DJ hasn't seen yet, for the badge on the admin nav. */
 export async function countNewTalkNotes(deps: TalkNotesDeps = {}): Promise<number> {
 	const { supabase } = resolveDeps(deps);
 	const { count, error } = await supabase
 		.from('talk_notes')
 		.select('id', { count: 'exact', head: true })
-		.eq('status', 'new');
+		.eq('status', 'new')
+		.is('viewed_at', null);
 	if (error) throw new Error('Failed to count new notes');
 	return count ?? 0;
 }
@@ -638,14 +642,14 @@ export async function getTalkNotesOverview(
 	const { supabase } = resolveDeps(deps);
 	const { data, error } = await supabase
 		.from('talk_notes')
-		.select('id, created_at, body, input_mode, email, wants_session, status')
+		.select('id, created_at, body, input_mode, email, wants_session, status, viewed_at')
 		.order('created_at', { ascending: false })
 		.limit(OVERVIEW_SCAN_LIMIT);
 	if (error) throw new Error('Failed to load notes overview');
 
 	const rows = (data ?? []) as Pick<
 		TalkNoteRow,
-		'id' | 'created_at' | 'body' | 'input_mode' | 'email' | 'wants_session' | 'status'
+		'id' | 'created_at' | 'body' | 'input_mode' | 'email' | 'wants_session' | 'status' | 'viewed_at'
 	>[];
 	const count = (predicate: (row: (typeof rows)[number]) => boolean) =>
 		rows.filter(predicate).length;
@@ -658,15 +662,19 @@ export async function getTalkNotesOverview(
 				id: row.id,
 				createdAt: row.created_at,
 				preview: flat.length > PREVIEW_CHARS ? `${flat.slice(0, PREVIEW_CHARS - 1)}…` : flat,
+				// Full text for the dashboard's expand-in-place (notes cap at TALK_NOTE_MAX_CHARS).
+				body: row.body,
 				inputMode: row.input_mode,
 				hasEmail: !!row.email,
 				wantsSession: row.wants_session,
-				status: row.status
+				status: row.status,
+				viewedAt: row.viewed_at ?? null
 			};
 		});
 
 	return {
 		newCount: count((row) => row.status === 'new'),
+		unseenCount: count((row) => row.status === 'new' && !row.viewed_at),
 		repliedCount: count((row) => row.status === 'replied'),
 		archivedCount: count((row) => row.status === 'archived'),
 		totalCount: rows.length,
@@ -675,6 +683,30 @@ export async function getTalkNotesOverview(
 		lastNoteAt: rows[0]?.created_at ?? null,
 		latest
 	};
+}
+
+const MARK_VIEWED_MAX_IDS = 200;
+
+/**
+ * Record that DJ has seen these notes. Only the first view is kept, so the
+ * timestamp says when he first read each one. Returns how many were newly marked.
+ */
+export async function markTalkNotesViewed(
+	noteIds: unknown[],
+	deps: TalkNotesDeps = {}
+): Promise<number> {
+	const { supabase, now } = resolveDeps(deps);
+	const ids = [...new Set(noteIds.filter(isTalkNoteId))].slice(0, MARK_VIEWED_MAX_IDS);
+	if (ids.length === 0) return 0;
+
+	const { data, error } = await supabase
+		.from('talk_notes')
+		.update({ viewed_at: now().toISOString() })
+		.in('id', ids)
+		.is('viewed_at', null)
+		.select('id');
+	if (error) throw new Error('Failed to mark notes viewed');
+	return (data ?? []).length;
 }
 
 /** Visits to the Talk to DJ page, so zero notes can be read against traffic. */

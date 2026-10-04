@@ -1,12 +1,20 @@
 <!-- src/routes/admin/consulting/notes/+page.svelte -->
 <script lang="ts">
+	import { onMount } from 'svelte';
 	import TalkNoteCard from '$lib/components/admin/TalkNoteCard.svelte';
+	import { markTalkNotesViewed } from '$lib/admin/talkNotesViewed';
 	import type { ActionData, PageData } from './$types';
 
 	let { data, form }: { data: PageData; form: ActionData } = $props();
 
+	// Everything on screen counts as read. Done after render rather than in the load so a
+	// hover preload can't mark notes seen; cards keep their "New" badge for this visit.
+	onMount(() => {
+		void markTalkNotesViewed(data.notes.filter((note) => !note.viewedAt).map((note) => note.id));
+	});
+
 	const views = [
-		{ key: 'open', label: 'New' },
+		{ key: 'open', label: 'Open' },
 		{ key: 'replied', label: 'Replied' },
 		{ key: 'archived', label: 'Archived' },
 		{ key: 'all', label: 'All' }
@@ -22,7 +30,11 @@
 	const stats = $derived(
 		data.overview
 			? [
-					{ label: 'New', value: data.overview.newCount, highlight: data.overview.newCount > 0 },
+					{
+						label: 'Open',
+						value: data.overview.newCount,
+						highlight: data.overview.unseenCount > 0
+					},
 					{ label: 'Replied', value: data.overview.repliedCount },
 					{ label: 'Total notes', value: data.overview.totalCount },
 					{ label: 'Left an email', value: data.overview.withEmailCount },

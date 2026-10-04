@@ -13,36 +13,33 @@ export const load: PageServerLoad = async (event) => {
 		throw redirect(302, '/questions');
 	}
 
-	const { data: user, error: findUserError } = await supabase
-		.from('profiles')
-		.select('id, admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!user?.admin) {
-		throw redirect(307, '/questions');
-	}
-
-	if (findUserError) {
-		throw error(404, { message: 'Error searching for user' });
-	}
 	const adminSupabase = getSupabaseAdminClient();
 
-	// Fetch initial data in parallel
+	// Fetch initial data in parallel with the admin check. Every call resolves
+	// (errors come back as fields), so a non-admin still gets the redirect below
+	// and the fetched data is discarded.
 	const [
+		{ data: user, error: findUserError },
 		usersResult,
+		totalCountResult,
 		draftsResult,
 		scheduledResult,
 		analyticsResult,
 		cronStatusResult,
 		welcomeSequenceResult
 	] = await Promise.all([
+		supabase.from('profiles').select('id, admin').eq('id', session.user.id).single(),
 		// Get first page of users
 		adminSupabase.rpc('get_email_dashboard_users', {
 			p_source: 'all',
 			p_search: undefined,
 			p_limit: 50,
 			p_offset: 0
+		}),
+		// Get total user count
+		adminSupabase.rpc('count_email_dashboard_users', {
+			p_source: 'all',
+			p_search: undefined
 		}),
 		// Get drafts
 		adminSupabase
@@ -75,14 +72,15 @@ export const load: PageServerLoad = async (event) => {
 			.catch((error: unknown) => ({ data: null, error }))
 	]);
 
-	// Get total user count
-	const { data: totalCount, error: totalCountError } = await adminSupabase.rpc(
-		'count_email_dashboard_users',
-		{
-			p_source: 'all',
-			p_search: undefined
-		}
-	);
+	if (!user?.admin) {
+		throw redirect(307, '/questions');
+	}
+
+	if (findUserError) {
+		throw error(404, { message: 'Error searching for user' });
+	}
+
+	const { data: totalCount, error: totalCountError } = totalCountResult;
 
 	const dataStatus = buildAdminDataStatus([
 		{ key: 'recipients', label: 'Recipient list', error: usersResult.error },

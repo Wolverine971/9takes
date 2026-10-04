@@ -3,6 +3,7 @@ import { error, redirect } from '@sveltejs/kit';
 import { slugFromPath } from '$lib/slugFromPath';
 import { guardAdminActions } from '$lib/server/adminAuth';
 import matter from 'gray-matter';
+import { loadRouteDemoTime } from '$lib/server/demoTime';
 
 import type { Actions, PageServerLoad } from './$types';
 
@@ -12,6 +13,79 @@ type ContentEntry = {
 };
 type ContentType = 'enneagram' | 'community' | 'guides' | 'people';
 type ContentTable = 'content_enneagram' | 'content_community' | 'content_guides' | 'content_people';
+
+// Lazy raw globs: the server entry no longer inlines every Markdown file, and
+// each file is read once per server instance (content only changes on deploy).
+const RAW_ENNEAGRAM_MODULES = import.meta.glob(
+	[
+		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`,
+		'!**/drafts/**',
+		'!**/*.instagram.md',
+		'!**/*.twitter.md',
+		'!**/*.reddit.md',
+		'!**/*.review.md',
+		'!**/blog-optimization-strategies.md'
+	],
+	{
+		query: '?raw',
+		import: 'default'
+	}
+);
+const RAW_COMMUNITY_MODULES = import.meta.glob(
+	[`/src/blog/community/*.{md,svx,svelte.md}`, '!**/societal-ticking-time-bombs-fact-check.md'],
+	{
+		query: '?raw',
+		import: 'default'
+	}
+);
+const RAW_GUIDES_MODULES = import.meta.glob(
+	[`/src/blog/guides/*.{md,svx,svelte.md}`, '!**/personality-maxing-notes.md'],
+	{
+		query: '?raw',
+		import: 'default'
+	}
+);
+
+type MarkdownIndex = {
+	enneagram: App.BlogPost[];
+	community: App.BlogPost[];
+	guides: App.BlogPost[];
+};
+
+let markdownIndexPromise: Promise<MarkdownIndex> | null = null;
+
+function parseMarkdownModules(
+	modules: Record<string, () => Promise<unknown>>
+): Promise<App.BlogPost[]> {
+	return Promise.all(
+		Object.entries(modules).map(async ([path, resolver]) => {
+			const { data: metadata } = matter((await resolver()) as string);
+			return {
+				...(metadata as App.BlogPost),
+				slug: slugFromPath(path)
+			};
+		})
+	);
+}
+
+/** Frontmatter for every local post, parsed once per server instance. */
+function loadMarkdownIndex(): Promise<MarkdownIndex> {
+	if (!markdownIndexPromise) {
+		markdownIndexPromise = Promise.all([
+			parseMarkdownModules(RAW_ENNEAGRAM_MODULES),
+			parseMarkdownModules(RAW_COMMUNITY_MODULES),
+			parseMarkdownModules(RAW_GUIDES_MODULES)
+		]).then(
+			([enneagram, community, guides]) => ({ enneagram, community, guides }),
+			(err) => {
+				// Retry on the next request rather than caching the failure.
+				markdownIndexPromise = null;
+				throw err;
+			}
+		);
+	}
+	return markdownIndexPromise;
+}
 
 export const load: PageServerLoad = async (
 	event
@@ -27,12 +101,43 @@ export const load: PageServerLoad = async (
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');
 	}
-	const { demo_time } = await event.parent();
-	const { data: user, error: findUserError } = await supabase
-		.from(demo_time === true ? 'profiles_demo' : 'profiles')
-		.select('id, admin, external_id')
-		.eq('id', session?.user?.id)
-		.single();
+	// Same cached switch the admin layout reads, so the guard, the admin check,
+	// and the content reads below can all start together.
+	const demo_time = await loadRouteDemoTime(supabase);
+
+	// The layout guard (parent) is the only rejection here, so a non-admin still
+	// gets its redirect and every read below is discarded.
+	const [
+		,
+		{ data: user, error: findUserError },
+		markdownResult,
+		enneagramContent,
+		communityContent,
+		guidesContent,
+		peopleContent,
+		peopleBlogPosts
+	] = await Promise.all([
+		event.parent(),
+		supabase
+			.from(demo_time === true ? 'profiles_demo' : 'profiles')
+			.select('id, admin, external_id')
+			.eq('id', session?.user?.id)
+			.single(),
+		// A parse failure surfaces after the admin checks, as it did before.
+		loadMarkdownIndex().then(
+			(index) => ({ index, failure: null }),
+			(failure: unknown) => ({ index: null, failure })
+		),
+		supabase.from(`content_enneagram`).select('loc, stageName'),
+		supabase.from(`content_community`).select('loc, stageName'),
+		supabase.from(`content_guides`).select('loc, stageName'),
+		supabase.from(`content_people`).select('loc, stageName'),
+		supabase
+			.from('blogs_famous_people')
+			.select(
+				'id, person, title, description, author, date, loc, lastmod, published, type, enneagram, category, twitter, instagram, tiktok'
+			)
+	]);
 
 	if (findUserError) {
 		console.log(findUserError);
@@ -43,76 +148,12 @@ export const load: PageServerLoad = async (
 		throw redirect(307, '/questions');
 	}
 
-	const enneagramModules = import.meta.glob(
-		[
-			`/src/blog/enneagram/**/*.{md,svx,svelte.md}`,
-			'!**/drafts/**',
-			'!**/*.instagram.md',
-			'!**/*.twitter.md',
-			'!**/*.reddit.md',
-			'!**/*.review.md',
-			'!**/blog-optimization-strategies.md'
-		],
-		{
-			query: '?raw',
-			import: 'default',
-			eager: true
-		}
-	);
-
-	const enneagramBlogPosts = Object.entries(enneagramModules).map(([path, raw]) => {
-		const { data: metadata } = matter(raw as string);
-		return {
-			...(metadata as App.BlogPost),
-			slug: slugFromPath(path)
-		};
-	});
-
-	const communityModules = import.meta.glob(
-		[`/src/blog/community/*.{md,svx,svelte.md}`, '!**/societal-ticking-time-bombs-fact-check.md'],
-		{
-			query: '?raw',
-			import: 'default',
-			eager: true
-		}
-	);
-	const communityBlogPosts = Object.entries(communityModules).map(([path, raw]) => {
-		const { data: metadata } = matter(raw as string);
-		return {
-			...(metadata as App.BlogPost),
-			slug: slugFromPath(path)
-		};
-	});
-
-	const guidesModules = import.meta.glob(
-		[`/src/blog/guides/*.{md,svx,svelte.md}`, '!**/personality-maxing-notes.md'],
-		{
-			query: '?raw',
-			import: 'default',
-			eager: true
-		}
-	);
-	const guidesBlogPosts = Object.entries(guidesModules).map(([path, raw]) => {
-		const { data: metadata } = matter(raw as string);
-		return {
-			...(metadata as App.BlogPost),
-			slug: slugFromPath(path)
-		};
-	});
-
-	// Execute all promises in parallel
-	const [enneagramContent, communityContent, guidesContent, peopleContent, peopleBlogPosts] =
-		await Promise.all([
-			supabase.from(`content_enneagram`).select('loc, stageName'),
-			supabase.from(`content_community`).select('loc, stageName'),
-			supabase.from(`content_guides`).select('loc, stageName'),
-			supabase.from(`content_people`).select('loc, stageName'),
-			supabase
-				.from('blogs_famous_people')
-				.select(
-					'id, person, title, description, author, date, loc, lastmod, published, type, enneagram, category, twitter, instagram, tiktok'
-				)
-		]);
+	if (!markdownResult.index) throw markdownResult.failure;
+	const {
+		enneagram: enneagramBlogPosts,
+		community: communityBlogPosts,
+		guides: guidesBlogPosts
+	} = markdownResult.index;
 
 	// Handle errors
 	if (enneagramContent.error) console.log(enneagramContent.error);

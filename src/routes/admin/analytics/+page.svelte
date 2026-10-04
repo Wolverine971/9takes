@@ -1,17 +1,20 @@
 <!-- src/routes/admin/analytics/+page.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { invalidate } from '$app/navigation';
 	import type { PageData } from './$types';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 	import LineChart from '$lib/components/charts/LineChart.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
-	import RetentionAnalyticsPanel from '$lib/components/admin/RetentionAnalyticsPanel.svelte';
 	import { Button } from '$lib/components/atoms';
 	import {
 		ANALYTICS_SCOPES,
 		formatDurationMs,
 		type AnalyticsScope
 	} from '$lib/analytics/pageAnalytics';
+
+	type RetentionPanelComponent =
+		typeof import('$lib/components/admin/RetentionAnalyticsPanel.svelte').default;
 
 	interface AnalyticsOverview {
 		total_visits: number;
@@ -422,35 +425,30 @@
 
 	let { data }: { data: PageData } = $props();
 
-	function getInitialPageData() {
-		return {
-			filters: data.filters,
-			pagination: data.pagination,
-			overview: data.overview,
-			timeseries: data.timeseries,
-			rows: data.rows,
-			topPages: data.topPages,
-			trending: data.trending
-		};
+	// Must match PAGEVIEWS_DEPENDENCY in +page.server.ts.
+	const PAGEVIEWS_DEPENDENCY = 'admin:analytics-pageviews';
+
+	// Default-view payloads the server load streams on data requests. Each resolves to what its
+	// /api/admin/analytics endpoint returns, or null when the server query failed.
+	type StreamedOverview = Awaited<NonNullable<PageData['initialOverview']>>;
+	type StreamedPages = Awaited<NonNullable<PageData['initialPages']>>;
+	type StreamedTopPages = Awaited<NonNullable<PageData['initialTopPages']>>;
+	type StreamedTrending = Awaited<NonNullable<PageData['initialTrending']>>;
+
+	interface StreamedPageviews {
+		overview?: Promise<StreamedOverview>;
+		pages?: Promise<StreamedPages>;
+		topPages?: Promise<StreamedTopPages>;
+		trending?: Promise<StreamedTrending>;
 	}
 
-	const initialPageData = getInitialPageData();
-	const initialFilters = initialPageData.filters;
-	const initialPagination = initialPageData.pagination;
-	const initialOverview = initialPageData.overview;
-	const initialTimeseries = initialPageData.timeseries;
-	const initialRows = initialPageData.rows;
-	const initialTopPages = initialPageData.topPages;
-	const initialTrending = initialPageData.trending;
-	const hasInitialPageviewData = Boolean(
-		(initialOverview?.total_visits ?? 0) > 0 ||
-		(initialTimeseries?.length ?? 0) > 0 ||
-		(initialRows?.length ?? 0) > 0 ||
-		(initialTopPages?.topPagesOverTime?.length ?? 0) > 0 ||
-		(initialTrending?.rows?.length ?? 0) > 0
-	);
+	function getInitialFilters() {
+		return data.filters;
+	}
+
+	const initialFilters = getInitialFilters();
 	let activeTab = $state<AnalyticsTab>('pageviews');
-	let pageviewsLoaded = $state(hasInitialPageviewData);
+	let pageviewsLoaded = $state(false);
 	let hasOpenedTiming = $state(false);
 	let hasOpenedReleases = $state(false);
 	let hasOpenedBlogInsights = $state(false);
@@ -591,12 +589,12 @@
 			: 'all') as AnalyticsScope
 	);
 	let search = $state('');
-	let page = $state(initialPagination?.page ?? 1);
+	let page = $state(1);
 	let sortBy = $state<SortKey>('visits');
 	let sortDir = $state<SortDirection>('desc');
 	let pageBreakdownWindow = $state<PageBreakdownWindow>(defaultPageBreakdownWindow);
-	let trendingBaselineDays = $state(initialTrending?.baselineDays ?? defaultTrending.baselineDays);
-	let trendingMinUnique = $state(initialTrending?.minUnique ?? defaultTrending.minUnique);
+	let trendingBaselineDays = $state(defaultTrending.baselineDays);
+	let trendingMinUnique = $state(defaultTrending.minUnique);
 	let pageBreakdownRangeFrom = $state(initialFilters?.from ?? '');
 	let pageBreakdownRangeTo = $state(initialFilters?.to ?? '');
 	let pageBreakdownRangeLabel = $state(
@@ -615,42 +613,29 @@
 	let blogDiagnosticsFetchRequestId = 0;
 	let seededPageBreakdownCache = false;
 
-	let loading = $state(!hasInitialPageviewData);
-	let tableLoading = $state(!hasInitialPageviewData);
-	let insightsLoading = $state(!hasInitialPageviewData);
-	let trendingLoading = $state(!hasInitialPageviewData);
+	// Pageview sections start loading: onMount seeds them from the streamed server queries.
+	let loading = $state(true);
+	let tableLoading = $state(true);
+	let insightsLoading = $state(true);
+	let trendingLoading = $state(true);
 	let trendLoading = $state(false);
-	let overview = $state<AnalyticsOverview>({ ...defaultOverview, ...(initialOverview ?? {}) });
-	let timeseries = $state<TimeseriesPoint[]>((initialTimeseries ?? []) as TimeseriesPoint[]);
-	let rows = $state<PageRow[]>((initialRows ?? []) as PageRow[]);
-	let pagination = $state<PaginationState>({ ...defaultPagination, ...(initialPagination ?? {}) });
+	// Placeholders stand in for the stat cards and charts until the first overview lands.
+	let overviewReady = $state(false);
+	let overview = $state<AnalyticsOverview>({ ...defaultOverview });
+	let timeseries = $state<TimeseriesPoint[]>([]);
+	let rows = $state<PageRow[]>([]);
+	let pagination = $state<PaginationState>({ ...defaultPagination });
 	let topPages = $state<TopPagesState>({
-		topPagesOverTime: (initialTopPages?.topPagesOverTime ??
-			defaultTopPages.topPagesOverTime) as TopPagesTimeseriesRow[],
-		topPagesThisWeek: (initialTopPages?.topPagesThisWeek ??
-			defaultTopPages.topPagesThisWeek) as PageSummaryRow[],
-		topPagesThisMonth: (initialTopPages?.topPagesThisMonth ??
-			defaultTopPages.topPagesThisMonth) as PageSummaryRow[],
-		topPagesBySessionDuration: (initialTopPages?.topPagesBySessionDuration ??
-			defaultTopPages.topPagesBySessionDuration) as PageSummaryRow[],
+		...defaultTopPages,
 		windows: {
 			...defaultTopPages.windows,
-			...(initialTopPages?.windows ?? {})
+			selectedFrom: initialFilters?.from ?? '',
+			selectedTo: initialFilters?.to ?? ''
 		}
 	});
-	let trending = $state<TrendingState>({
-		...defaultTrending,
-		...(initialTrending ?? {}),
-		rows: ((initialTrending?.rows ?? defaultTrending.rows) as TrendingPageRow[]) ?? [],
-		broadRows:
-			((initialTrending?.broadRows ?? defaultTrending.broadRows) as TrendingPageRow[]) ?? [],
-		repeatRows:
-			((initialTrending?.repeatRows ?? defaultTrending.repeatRows) as TrendingPageRow[]) ?? []
-	});
+	let trending = $state<TrendingState>({ ...defaultTrending });
 
-	let selectedTrendPath = $state(
-		((initialTopPages?.topPagesOverTime ?? []) as TopPagesTimeseriesRow[])[0]?.path ?? ''
-	);
+	let selectedTrendPath = $state('');
 	let selectedTrendPoints = $state<PageTrendPoint[]>([]);
 	const trendCache = new Map<string, PageTrendPoint[]>();
 	let timingRows = $state<TimingHeatmapRow[]>([]);
@@ -1802,30 +1787,46 @@
 		void applyReleaseFilters();
 	}
 
-	async function fetchOverviewAndTimeseries() {
+	/**
+	 * Use a section's streamed server payload when there is one; otherwise (no stream, or the
+	 * server query failed and streamed null) make the client request instead.
+	 */
+	async function streamedOrFetched<T>(
+		streamed: Promise<T | null> | undefined,
+		request: () => Promise<T>
+	): Promise<T> {
+		const seeded = streamed ? await streamed.catch(() => null) : null;
+		return seeded ?? request();
+	}
+
+	async function fetchOverviewAndTimeseries(streamed?: Promise<StreamedOverview>) {
 		const requestId = ++overviewFetchRequestId;
 		loading = true;
 		try {
 			const params = buildParams(false).toString();
-			const [overviewRes, timeseriesRes] = await Promise.all([
-				fetch(`/api/admin/analytics/overview?${params}`),
-				fetch(`/api/admin/analytics/timeseries?${params}`)
-			]);
+			const body = await streamedOrFetched(streamed, async () => {
+				const [overviewRes, timeseriesRes] = await Promise.all([
+					fetch(`/api/admin/analytics/overview?${params}`),
+					fetch(`/api/admin/analytics/timeseries?${params}`)
+				]);
 
-			const overviewBody = await overviewRes.json();
-			const timeseriesBody = await timeseriesRes.json();
+				const overviewBody = await overviewRes.json();
+				const timeseriesBody = await timeseriesRes.json();
 
-			if (!overviewRes.ok) {
-				throw new Error(overviewBody.message || 'Failed to load overview');
-			}
-			if (!timeseriesRes.ok) {
-				throw new Error(timeseriesBody.message || 'Failed to load timeseries');
-			}
+				if (!overviewRes.ok) {
+					throw new Error(overviewBody.message || 'Failed to load overview');
+				}
+				if (!timeseriesRes.ok) {
+					throw new Error(timeseriesBody.message || 'Failed to load timeseries');
+				}
+
+				return { summary: overviewBody.summary, points: timeseriesBody.points };
+			});
 
 			if (requestId !== overviewFetchRequestId) return;
 
-			overview = { ...defaultOverview, ...(overviewBody.summary ?? {}) };
-			timeseries = timeseriesBody.points ?? [];
+			overview = { ...defaultOverview, ...(body.summary ?? {}) };
+			timeseries = body.points ?? [];
 		} catch (err) {
 			if (requestId !== overviewFetchRequestId) return;
 			console.error('Analytics overview/timeseries fetch error:', err);
@@ -1833,11 +1834,12 @@
 		} finally {
 			if (requestId === overviewFetchRequestId) {
 				loading = false;
+				overviewReady = true;
 			}
 		}
 	}
 
-	async function fetchPages() {
+	async function fetchPages(streamed?: Promise<StreamedPages>) {
 		const requestId = ++tableFetchRequestId;
 		const requestWindow = pageBreakdownWindow;
 		const requestPage = page;
@@ -1853,12 +1855,16 @@
 				sortDir: requestSortDir,
 				window: requestWindow
 			}).toString();
-			const response = await fetch(`/api/admin/analytics/pages?${params}`);
-			const body = await response.json();
+			const body = await streamedOrFetched(streamed, async () => {
+				const response = await fetch(`/api/admin/analytics/pages?${params}`);
+				const responseBody = await response.json();
 
-			if (!response.ok) {
-				throw new Error(body.message || 'Failed to load page analytics');
-			}
+				if (!response.ok) {
+					throw new Error(responseBody.message || 'Failed to load page analytics');
+				}
+
+				return responseBody as NonNullable<StreamedPages>;
+			});
 
 			if (requestId !== tableFetchRequestId) return;
 
@@ -1895,7 +1901,7 @@
 		}
 	}
 
-	async function fetchTopPagesInsights() {
+	async function fetchTopPagesInsights(streamed?: Promise<StreamedTopPages>) {
 		const requestId = ++insightsFetchRequestId;
 		insightsLoading = true;
 		try {
@@ -1904,12 +1910,16 @@
 			params.set('limit', '8');
 			params.set('minVisits', '3');
 
-			const response = await fetch(`/api/admin/analytics/top-pages?${params.toString()}`);
-			const body = await response.json();
+			const body = await streamedOrFetched(streamed, async () => {
+				const response = await fetch(`/api/admin/analytics/top-pages?${params.toString()}`);
+				const responseBody = await response.json();
 
-			if (!response.ok) {
-				throw new Error(body.message || 'Failed to load top pages');
-			}
+				if (!response.ok) {
+					throw new Error(responseBody.message || 'Failed to load top pages');
+				}
+
+				return responseBody as NonNullable<StreamedTopPages>;
+			});
 
 			if (requestId !== insightsFetchRequestId) return;
 
@@ -1934,7 +1944,7 @@
 		}
 	}
 
-	async function fetchTrendingAnalytics() {
+	async function fetchTrendingAnalytics(streamed?: Promise<StreamedTrending>) {
 		const requestId = ++trendingFetchRequestId;
 		trendingLoading = true;
 		try {
@@ -1945,12 +1955,16 @@
 				minUnique: String(trendingMinUnique),
 				limit: '20'
 			});
-			const response = await fetch(`/api/admin/analytics/trending?${params.toString()}`);
-			const body = await response.json();
+			const body = await streamedOrFetched(streamed, async () => {
+				const response = await fetch(`/api/admin/analytics/trending?${params.toString()}`);
+				const responseBody = await response.json();
 
-			if (!response.ok) {
-				throw new Error(body.message || 'Failed to load trending analytics');
-			}
+				if (!response.ok) {
+					throw new Error(responseBody.message || 'Failed to load trending analytics');
+				}
+
+				return responseBody as NonNullable<StreamedTrending>;
+			});
 
 			if (requestId !== trendingFetchRequestId) return;
 
@@ -1974,14 +1988,14 @@
 		}
 	}
 
-	async function fetchPageviewAnalytics() {
+	async function fetchPageviewAnalytics(streamed: StreamedPageviews = {}) {
 		const requestId = ++pageviewFetchRequestId;
 		try {
 			await Promise.all([
-				fetchOverviewAndTimeseries(),
-				fetchPages(),
-				fetchTopPagesInsights(),
-				fetchTrendingAnalytics()
+				fetchOverviewAndTimeseries(streamed.overview),
+				fetchPages(streamed.pages),
+				fetchTopPagesInsights(streamed.topPages),
+				fetchTrendingAnalytics(streamed.trending)
 			]);
 			if (requestId === pageviewFetchRequestId) {
 				selectedTrendPath = topPages.topPagesOverTime[0]?.path ?? '';
@@ -2670,13 +2684,63 @@
 		}
 		if (tab === 'cohorts') {
 			hasOpenedCohorts = true;
+			void loadRetentionPanel();
 		}
 	}
 
-	onMount(() => {
-		if (!pageviewsLoaded) {
-			void fetchPageviewAnalytics();
+	// The cohorts panel is large and only renders in its tab, so its chunk loads on first open.
+	let RetentionPanel = $state<RetentionPanelComponent | null>(null);
+	let retentionPanelLoadFailed = $state(false);
+	let retentionPanelRequest: Promise<void> | null = null;
+
+	function loadRetentionPanel(): Promise<void> {
+		retentionPanelLoadFailed = false;
+		retentionPanelRequest ??= import('$lib/components/admin/RetentionAnalyticsPanel.svelte')
+			.then((module) => {
+				RetentionPanel = module.default;
+			})
+			.catch((err) => {
+				// Allow a retry; a failed chunk usually means a deploy replaced it.
+				retentionPanelRequest = null;
+				retentionPanelLoadFailed = true;
+				console.error('Retention analytics panel load error:', err);
+			});
+		return retentionPanelRequest;
+	}
+
+	function getStreamedPageviews(): StreamedPageviews {
+		// A client-side navigation arrives with the default view already streaming.
+		if (data.initialOverview) {
+			return {
+				overview: data.initialOverview,
+				pages: data.initialPages ?? undefined,
+				topPages: data.initialTopPages ?? undefined,
+				trending: data.initialTrending ?? undefined
+			};
 		}
+
+		// A full page load arrives without it (csp hash mode can't run streamed inline scripts;
+		// see +page.server.ts). Re-run the load over __data.json, where it streams, and hand each
+		// section its promise. A failed re-run resolves null, so every section fetches its endpoint.
+		const reloaded = invalidate(PAGEVIEWS_DEPENDENCY).then(
+			() => data,
+			(err) => {
+				console.error('Analytics pageview reload error:', err);
+				return null;
+			}
+		);
+		return {
+			overview: reloaded.then((next) => next?.initialOverview ?? null),
+			pages: reloaded.then((next) => next?.initialPages ?? null),
+			topPages: reloaded.then((next) => next?.initialTopPages ?? null),
+			trending: reloaded.then((next) => next?.initialTrending ?? null)
+		};
+	}
+
+	onMount(() => {
+		// Request IDs are claimed now, so a filter change made while the stream is pending
+		// still wins over the default view.
+		void fetchPageviewAnalytics(getStreamedPageviews());
 	});
 </script>
 
@@ -2746,6 +2810,7 @@
 			class:active={activeTab === 'cohorts'}
 			aria-selected={activeTab === 'cohorts'}
 			onclick={() => openTab('cohorts')}
+			onpointerenter={() => void loadRetentionPanel()}
 		>
 			Acquisition &amp; Retention
 		</button>
@@ -2790,25 +2855,38 @@
 			</div>
 		</section>
 
-		<section class="metrics-grid">
-			<StatCard icon="👀" label="Visits" value={overview.total_visits} color="primary" />
-			<StatCard icon="🧬" label="Unique Visitors" value={overview.unique_visitors} />
+		<section class="metrics-grid" aria-busy={!overviewReady}>
+			<StatCard
+				icon="👀"
+				label="Visits"
+				value={overviewReady ? overview.total_visits : '—'}
+				color="primary"
+			/>
+			<StatCard
+				icon="🧬"
+				label="Unique Visitors"
+				value={overviewReady ? overview.unique_visitors : '—'}
+			/>
 			<StatCard
 				icon="🔐"
 				label="Authenticated Visits"
-				value={overview.authenticated_visits}
+				value={overviewReady ? overview.authenticated_visits : '—'}
 				color="success"
 			/>
-			<StatCard icon="🕶️" label="Anonymous Visits" value={overview.anonymous_visits} />
+			<StatCard
+				icon="🕶️"
+				label="Anonymous Visits"
+				value={overviewReady ? overview.anonymous_visits : '—'}
+			/>
 			<StatCard
 				icon="⏱️"
 				label="Avg Time on Page"
-				value={formatDurationMs(overview.avg_time_on_page_ms)}
+				value={overviewReady ? formatDurationMs(overview.avg_time_on_page_ms) : '—'}
 			/>
 			<StatCard
 				icon="📉"
 				label="Bounce Rate"
-				value={formatBounceRate(overview.bounce_rate)}
+				value={overviewReady ? formatBounceRate(overview.bounce_rate) : '—'}
 				color={overview.bounce_rate > 65 ? 'warning' : 'default'}
 			/>
 		</section>
@@ -2846,7 +2924,11 @@
 							<option value={8}>8</option>
 						</select>
 					</label>
-					<Button variant="secondary" onclick={fetchTrendingAnalytics} loading={trendingLoading}>
+					<Button
+						variant="secondary"
+						onclick={() => void fetchTrendingAnalytics()}
+						loading={trendingLoading}
+					>
 						{trendingLoading ? 'Refreshing...' : 'Refresh'}
 					</Button>
 				</div>
@@ -2931,28 +3013,36 @@
 
 		<section class="charts-grid">
 			<div class="chart-card">
-				<LineChart
-					data={visitsChartData}
-					title="Visits Over Time"
-					height={280}
-					color="var(--data-teal)"
-					showPoints={true}
-					showGrid={true}
-					showSummary={true}
-					showTrend={true}
-				/>
+				{#if overviewReady}
+					<LineChart
+						data={visitsChartData}
+						title="Visits Over Time"
+						height={280}
+						color="var(--data-teal)"
+						showPoints={true}
+						showGrid={true}
+						showSummary={true}
+						showTrend={true}
+					/>
+				{:else}
+					<div class="empty-panel chart-loading">Loading visits over time...</div>
+				{/if}
 			</div>
 			<div class="chart-card">
-				<LineChart
-					data={avgTimeChartData}
-					title="Average Time on Page (Seconds)"
-					height={280}
-					color="var(--success-text)"
-					showPoints={true}
-					showGrid={true}
-					showSummary={true}
-					showTrend={true}
-				/>
+				{#if overviewReady}
+					<LineChart
+						data={avgTimeChartData}
+						title="Average Time on Page (Seconds)"
+						height={280}
+						color="var(--success-text)"
+						showPoints={true}
+						showGrid={true}
+						showSummary={true}
+						showTrend={true}
+					/>
+				{:else}
+					<div class="empty-panel chart-loading">Loading time on page...</div>
+				{/if}
 			</div>
 		</section>
 
@@ -2974,7 +3064,9 @@
 			</div>
 
 			{#if topPageTotals.length === 0}
-				<div class="empty-panel">No top page trend data for this date range.</div>
+				<div class="empty-panel">
+					{insightsLoading ? 'Loading top pages...' : 'No top page trend data for this date range.'}
+				</div>
 			{:else}
 				<div class="top-trend-layout">
 					<div class="path-selector">
@@ -3032,7 +3124,9 @@
 					<p>{formatDateWindow(topPages.windows.weekFrom, topPages.windows.weekTo)}</p>
 				</div>
 				{#if weekRankedRows.length === 0}
-					<div class="empty-panel">No page visits recorded this week.</div>
+					<div class="empty-panel">
+						{insightsLoading ? 'Loading...' : 'No page visits recorded this week.'}
+					</div>
 				{:else}
 					<ol class="rank-list">
 						{#each weekRankedRows as row}
@@ -3073,7 +3167,9 @@
 					<p>{formatDateWindow(topPages.windows.monthFrom, topPages.windows.monthTo)}</p>
 				</div>
 				{#if monthRankedRows.length === 0}
-					<div class="empty-panel">No page visits recorded this month.</div>
+					<div class="empty-panel">
+						{insightsLoading ? 'Loading...' : 'No page visits recorded this month.'}
+					</div>
 				{:else}
 					<ol class="rank-list">
 						{#each monthRankedRows as row}
@@ -3114,7 +3210,11 @@
 					<p>{formatDateWindow(topPages.windows.selectedFrom, topPages.windows.selectedTo)}</p>
 				</div>
 				{#if durationRankedRows.length === 0}
-					<div class="empty-panel">No pages meet the minimum visit threshold for this range.</div>
+					<div class="empty-panel">
+						{insightsLoading
+							? 'Loading...'
+							: 'No pages meet the minimum visit threshold for this range.'}
+					</div>
 				{:else}
 					<ol class="rank-list">
 						{#each durationRankedRows as row}
@@ -4397,7 +4497,16 @@
 
 	{#if activeTab === 'cohorts' || hasOpenedCohorts}
 		<div hidden={activeTab !== 'cohorts'}>
-			<RetentionAnalyticsPanel filters={data.cohortFilters} />
+			{#if RetentionPanel}
+				<RetentionPanel filters={data.cohortFilters} />
+			{:else if retentionPanelLoadFailed}
+				<div class="empty-panel">
+					Couldn't load this panel.
+					<Button variant="secondary" onclick={() => void loadRetentionPanel()}>Retry</Button>
+				</div>
+			{:else}
+				<div class="empty-panel">Loading acquisition &amp; retention...</div>
+			{/if}
 		</div>
 	{/if}
 </div>
@@ -4710,6 +4819,13 @@
 		text-align: center;
 		color: var(--ink-mid);
 		font-size: 0.9rem;
+	}
+
+	.chart-loading {
+		min-height: 280px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.trend-empty {

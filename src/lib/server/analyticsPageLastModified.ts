@@ -1,4 +1,5 @@
 // src/lib/server/analyticsPageLastModified.ts
+import matter from 'gray-matter';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import type { Database } from '../../../database.types';
 import { classifyPath, normalizePath } from '$lib/analytics/pageAnalytics';
@@ -11,8 +12,16 @@ import {
 } from '$lib/server/personalityCategoryData';
 import { slugFromPath } from '$lib/slugFromPath';
 
-type MdsvexModuleResolver = () => Promise<App.MdsvexFile>;
+type RawMarkdownResolver = () => Promise<unknown>;
 type AppSupabaseClient = SupabaseClient<Database>;
+
+/** The frontmatter fields the last-modified index reads. */
+export interface BlogLastModifiedFrontmatter {
+	published?: unknown;
+	lastmod?: unknown;
+	date?: unknown;
+	loc?: unknown;
+}
 
 const ENNEAGRAM_SUBTOPIC_LASTMOD: Record<string, string> = {
 	'/enneagram-corner/subtopic/overview': '2025-08-15',
@@ -32,7 +41,7 @@ function toTimestamp(value: string | null | undefined): number {
 	return Number.isFinite(timestamp) ? timestamp : 0;
 }
 
-function pickLastModified(value: string | null | undefined, fallback?: string | null | undefined) {
+function pickLastModified(value: unknown, fallback?: unknown) {
 	const primary = typeof value === 'string' && value.trim() ? value.trim() : null;
 	if (primary) return primary;
 	return typeof fallback === 'string' && fallback.trim() ? fallback.trim() : null;
@@ -62,8 +71,8 @@ function updateLatest(current: string | null, candidate: string | null | undefin
 	return current;
 }
 
-function toPublicPath(loc: string | null | undefined): string | null {
-	if (!loc || !loc.trim()) return null;
+function toPublicPath(loc: unknown): string | null {
+	if (typeof loc !== 'string' || !loc.trim()) return null;
 
 	try {
 		return normalizePath(new URL(loc).pathname);
@@ -76,9 +85,29 @@ function getFallbackBlogPath(path: string, prefix: string): string {
 	return normalizePath(`${prefix}/${slugFromPath(path)}`);
 }
 
+/**
+ * Read the fields the index needs from a raw Markdown file. MDsvex parses frontmatter with
+ * the same js-yaml schema as gray-matter and JSON-serializes it into `metadata`, so the JSON
+ * round trip turns an unquoted YAML date into the same ISO string the compiled module exposed.
+ */
+export function readBlogLastModifiedFrontmatter(raw: unknown): BlogLastModifiedFrontmatter | null {
+	if (typeof raw !== 'string') return null;
+
+	try {
+		// Passing options skips gray-matter's process-wide cache, which would otherwise keep
+		// every file's full text alive after the index is built.
+		const { data } = matter(raw, {});
+		const { published, lastmod, date, loc } = data as BlogLastModifiedFrontmatter;
+		return JSON.parse(JSON.stringify({ published, lastmod, date, loc }));
+	} catch (err) {
+		console.error('Failed to parse blog frontmatter for analytics last-modified:', err);
+		return null;
+	}
+}
+
 async function indexBlogModules(
 	index: Map<string, string>,
-	modules: Record<string, MdsvexModuleResolver>,
+	modules: Record<string, RawMarkdownResolver>,
 	options: {
 		rootPath: string;
 		fallbackPrefix: string;
@@ -86,16 +115,23 @@ async function indexBlogModules(
 ): Promise<string | null> {
 	let latest: string | null = null;
 
-	for (const [path, resolver] of Object.entries(modules)) {
-		const post = await resolver();
-		const metadata = (post as Partial<App.MdsvexFile>).metadata;
-		if (!metadata?.published) continue;
+	// Load and parse every file concurrently. This used to import each compiled MDsvex
+	// component one at a time, so the first request on a cold instance paid for every post.
+	const entries = await Promise.all(
+		Object.entries(modules).map(async ([path, resolver]) => ({
+			path,
+			frontmatter: readBlogLastModifiedFrontmatter(await resolver())
+		}))
+	);
 
-		const lastModified = pickLastModified(metadata.lastmod, metadata.date);
+	for (const { path, frontmatter } of entries) {
+		if (!frontmatter?.published) continue;
+
+		const lastModified = pickLastModified(frontmatter.lastmod, frontmatter.date);
 		if (!lastModified) continue;
 
 		const publicPath =
-			toPublicPath(metadata.loc) ?? getFallbackBlogPath(path, options.fallbackPrefix);
+			toPublicPath(frontmatter.loc) ?? getFallbackBlogPath(path, options.fallbackPrefix);
 		setIfNewer(index, publicPath, lastModified);
 		latest = updateLatest(latest, lastModified);
 	}
@@ -110,29 +146,36 @@ async function indexBlogModules(
 async function buildStaticContentLastModifiedIndex(): Promise<Map<string, string>> {
 	const index = new Map<string, string>();
 
-	const communityModules = import.meta.glob<App.MdsvexFile>([
-		'/src/blog/community/*.{md,svx,svelte.md}',
-		'!**/societal-ticking-time-bombs-fact-check.md'
-	]);
-	const guidesModules = import.meta.glob<App.MdsvexFile>([
-		'/src/blog/guides/*.{md,svx,svelte.md}',
-		'!**/personality-maxing-notes.md'
-	]);
-	const popCultureModules = import.meta.glob<App.MdsvexFile>([
-		'/src/blog/pop-culture/*.{md,svx,svelte.md}',
-		'!**/*-twitter.md',
-		'!**/incel-exit-post.md',
-		'!**/template.md'
-	]);
-	const enneagramModules = import.meta.glob<App.MdsvexFile>([
-		'/src/blog/enneagram/**/*.{md,svx,svelte.md}',
-		'!**/drafts/**',
-		'!**/*.instagram.md',
-		'!**/*.twitter.md',
-		'!**/*.reddit.md',
-		'!**/*.review.md',
-		'!**/blog-optimization-strategies.md'
-	]);
+	// Raw text, not compiled components: only frontmatter is needed here.
+	const communityModules = import.meta.glob<string>(
+		['/src/blog/community/*.{md,svx,svelte.md}', '!**/societal-ticking-time-bombs-fact-check.md'],
+		{ query: '?raw', import: 'default' }
+	);
+	const guidesModules = import.meta.glob<string>(
+		['/src/blog/guides/*.{md,svx,svelte.md}', '!**/personality-maxing-notes.md'],
+		{ query: '?raw', import: 'default' }
+	);
+	const popCultureModules = import.meta.glob<string>(
+		[
+			'/src/blog/pop-culture/*.{md,svx,svelte.md}',
+			'!**/*-twitter.md',
+			'!**/incel-exit-post.md',
+			'!**/template.md'
+		],
+		{ query: '?raw', import: 'default' }
+	);
+	const enneagramModules = import.meta.glob<string>(
+		[
+			'/src/blog/enneagram/**/*.{md,svx,svelte.md}',
+			'!**/drafts/**',
+			'!**/*.instagram.md',
+			'!**/*.twitter.md',
+			'!**/*.reddit.md',
+			'!**/*.review.md',
+			'!**/blog-optimization-strategies.md'
+		],
+		{ query: '?raw', import: 'default' }
+	);
 
 	const [communityLatest, guidesLatest, popCultureLatest, enneagramLatest] = await Promise.all([
 		indexBlogModules(index, communityModules, {
@@ -169,9 +212,23 @@ async function buildStaticContentLastModifiedIndex(): Promise<Map<string, string
 
 async function getStaticContentLastModifiedIndex(): Promise<Map<string, string>> {
 	if (!staticContentLastModifiedIndexPromise) {
-		staticContentLastModifiedIndexPromise = buildStaticContentLastModifiedIndex();
+		staticContentLastModifiedIndexPromise = buildStaticContentLastModifiedIndex().catch((err) => {
+			// Don't memoize a failure for the life of the instance.
+			staticContentLastModifiedIndexPromise = null;
+			throw err;
+		});
 	}
 	return staticContentLastModifiedIndexPromise;
+}
+
+/**
+ * Start building the blog last-modified index without waiting for it, so a caller can
+ * overlap the build with its own database round trip.
+ */
+export function primeAnalyticsLastModifiedIndex(): void {
+	getStaticContentLastModifiedIndex().catch(() => {
+		// The awaiting caller reports the failure.
+	});
 }
 
 async function resolvePeopleLastModified(

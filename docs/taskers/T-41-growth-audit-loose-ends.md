@@ -5,7 +5,7 @@
 **For:** the agent assigned to close out the follow-ups from the 2026-09-30 "why isn't 9takes growing" audit and the fix round that shipped on 2026-10-02 and 2026-10-03.
 **Owner:** DJ
 **Created:** 2026-10-03
-**Status:** Ready for execution. Items are independent unless noted. Section 4 is DJ-only: do not do those.
+**Status:** In progress (2026-10-03). B, D, E, F, H, I, J, K, L and M step 0 shipped in `d0984dab1` and verified live. A (10-10) and C (10-17) are date-gated; O waits on A. G drafts and M/N proposals are with DJ. Items are independent unless noted. Section 4 is DJ-only: do not do those.
 **Related:** commits `6f34ad64b` (fix set), `3dfa99ef8` (live-take homepage + mid-article celebrity question), `e4fe1d896` (T-38 Trump retype + host-desk replies); `docs/growth/growth-log.md` (entries `### 2026-09-28` and later); `docs/seo/personality-isr.md`; `docs/design/hyperplexed/HOMEPAGE_AUDIT_2026-09-26.md`; `supabase/migrations/20261002120000_admin_engagement_trends_weekly_v2.sql`.
 
 ---
@@ -59,7 +59,7 @@ Most of that is now fixed and live (section 2). This tasker is what is left.
 
 #### B. Stop the top post's story link from downloading a file
 
-**Status (2026-10-03):** Fixed in tree, awaiting deploy. Dropped `prerender` from `src/routes/stories/enneagram-and-mental-illness/+server.ts` (the `s-maxage=86400` header keeps it CDN-cached). Run the `curl -sI` check after deploy.
+**Status (2026-10-03):** Done, verified live after `d0984dab1`: `content-type: text/html`, and the AMP story opens in Chrome (22 pages, runtime loaded). Note: the promo link inside the frozen top post is commented out, so the post does not currently link to the story; nothing changed there. Dropped `prerender` from `src/routes/stories/enneagram-and-mental-illness/+server.ts` (the `s-maxage=86400` header keeps it CDN-cached). Run the `curl -sI` check after deploy.
 
 - **Why:** `/stories/enneagram-and-mental-illness` is served as `content-type: application/octet-stream`, so Chrome downloads it. `src/routes/stories/enneagram-and-mental-illness/+server.ts` sets `prerender = true`, which emits an extensionless static file; Vercel then ignores the handler's `Content-Type` header. The highest-traffic post on the site links to it through `src/lib/amp-stories/EnneagramMentalIllnessPromo.svelte`.
 - **Do:** fix the route (drop `prerender`, or emit a file with an `.html` extension and redirect). **Do not edit `src/blog/enneagram/enneagram-and-mental-illness.md`**; it is frozen.
@@ -107,13 +107,13 @@ Add `'homepage'` to `ReplyOptInSurface` in `src/lib/analytics/replyOptInEvents.t
 
 #### H. Dead `?/getRelatedPosts` call on celebrity pages
 
-**Status (2026-10-03):** Done in tree. Only caller was the personality page, and its server load already runs the same `buildRelatedPosts` query, so the client refetch could only 404. Removed the fetch, loading/error states and the `getRelatedPosts` action. Browser check on `/personality-analysis/zendaya` pending deploy.
+**Status (2026-10-03):** Done in tree. Only caller was the personality page, and its server load already runs the same `buildRelatedPosts` query, so the client refetch could only 404. Removed the fetch, loading/error states and the `getRelatedPosts` action. Verified live: Zendaya renders 6 related cards, 0 `getRelatedPosts` requests, and client-side navigation to Jacob Elordi updates title, portrait and related list.
 
 ISR pages drop `?/action` form actions, so the `?/getRelatedPosts` request in `src/lib/components/molecules/RelatedPosts.svelte` 404s on `/personality-analysis/*`. Related posts already come from the server load, so remove the call, or move it to an `/api` endpoint if another page still needs it (grep the callers). Verify no 404 in the browser network panel on `/personality-analysis/zendaya`.
 
 #### I. Turn on IndexNow
 
-**Status (2026-10-03):** Key file added (`static/<key>.txt`), `INDEXNOW_KEY` in local `.env`, dry run lists 5 URLs. Waiting on: deploy (key file must be live), then one real `pnpm submit:indexnow`. Vercel env var not set (DJ's call; the submitter runs locally/OpenClaw, so it is optional).
+**Status (2026-10-03):** Key file added (`static/<key>.txt`), `INDEXNOW_KEY` in local `.env`, dry run lists 5 URLs. Key file live (200). First real submission 2026-10-03: HTTP 202 (received, key validation pending); state in `docs/data/indexnow/last-submitted.json`. Vercel env var not set (DJ's call; the submitter runs locally/OpenClaw, so it is optional).
 
 The submitter exists (`scripts/submit-indexnow.mjs`, `docs/seo/indexnow.md`), but production has no key file (404) and no `INDEXNOW_KEY` env var, so nothing is pinging. Generate a key, add the static key file, then **ask DJ before setting the Vercel env var**. Verify with one submission.
 
@@ -141,13 +141,15 @@ The submitter exists (`scripts/submit-indexnow.mjs`, `docs/seo/indexnow.md`), bu
 
 #### L. Inline the CSS of components embedded in blog posts
 
+**Status (2026-10-03):** Done in tree, full-corpus verified. New `src/lib/blogEmbedCss.js` lists the embedded components (callouts/, stress/, blackpill/, StrategicQuestion, VoiceRecorder, FamousTypes, MarqueeHorizontal, DateTip, rubix, three diagram components); `svelte.config.js` compiles them with `css: 'injected'`; `blogEmbedCss.spec.ts` fails if a post embeds a styled component that is not covered. Linked sheets: Enneagram Corner 30 to 15, mental health 15 to 11, community 19 to 13, how-to 17 to 13, pop culture 18 to 13, personality 17 to 15, questions and /book-session one fewer each. Verification: all 153 published posts at 412 and 1280 px, JS off 306/306 identical; JS on 250/306 identical, the other 56 differ only on PopCard's auto margin (0 vs 93 px), which also flips baseline-vs-baseline on the same pages and lands the element in the same place; 30 extra pages (personality, type, questions, /book-session, indexes) 60/60 identical in both modes. Client-side navigation: the candidate now matches the fresh-load render (the baseline added 16 to 19 px under QuickAnswer's question after navigating from a how-to guide). Scripts used: re-pointed copies of `T-41-assets/visual-diff/`.
+
 Callout, QuickAnswer, StrategicQuestion and similar still link about 15 stylesheets (about 43 KB) on every Enneagram post. The same `css: 'injected'` treatment would take posts from 30 to about 15 sheets. QuickAnswer also renders on personality pages and VoiceRecorder on questions and `/book-session`, so those pages need the same check.
 
 **Required verification:** a computed-style diff of every published post at mobile and desktop widths, old build against new. A 3–4 post spot-check missed a regression on about 15 posts last time. Reference scripts are in `docs/taskers/T-41-assets/visual-diff/` (paths are hard-coded to a deleted worktree; ports 4181 = baseline preview, 4182 = candidate).
 
 #### M. Plan (do not implement) critical CSS for the root layout
 
-**Status (2026-10-03):** Plan with DJ: `docs/taskers/T-41-assets/M-critical-css-plan.md` (probe: `lcp-probe.cjs`). Biggest LCP lever was not CSS: the hero `PopCard` on all five MDsvex post routes was lazy-loaded. Step 0 (pass `priority`) is done in tree; the probe measured the top post 5.2 s to 2.4 s LCP. Re-run the probe after deploy. Steps 1 to 5 await DJ.
+**Status (2026-10-03):** Plan with DJ: `docs/taskers/T-41-assets/M-critical-css-plan.md` (probe: `lcp-probe.cjs`). Biggest LCP lever was not CSS: the hero `PopCard` on all five MDsvex post routes was lazy-loaded. Step 0 (pass `priority`) is live: the hero renders `loading="eager" fetchpriority="high"` on Enneagram Corner and how-to posts (verified in production). The probe predicted 5.2 s to 2.4 s LCP on the top post; re-run `lcp-probe.cjs` to confirm. Steps 1 to 5 await DJ.
 
 The 144 KB root stylesheet plus the 33 KB `blog.css` block rendering on every page. That's the main remaining LCP cost: lab LCP is about 5.2 s on the top Enneagram post and 5.1 s on personality pages. Write a plan with expected gains for DJ.
 

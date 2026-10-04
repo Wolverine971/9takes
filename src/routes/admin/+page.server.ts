@@ -12,14 +12,12 @@ import {
 	getBlogIndexMapping
 } from '$lib/server/elasticSearch';
 import type { Database } from '../../../database.types';
-import {
-	countRecentActiveContributors,
-	loadAdminEnneagramDistribution
-} from '$lib/server/adminAnalytics';
+import { countRecentActiveContributors } from '$lib/server/adminAnalytics';
 import {
 	DEFAULT_TRENDING_BASELINE_DAYS,
 	DEFAULT_TRENDING_MIN_UNIQUE,
 	DEFAULT_TRENDING_MIN_VISITS,
+	buildTrendingAnalyticsPayload,
 	emptyTrendingAnalyticsPayload,
 	loadTrendingAnalytics
 } from '$lib/server/adminTrendingAnalytics';
@@ -28,6 +26,14 @@ import { loadEmailSuppressionStatus } from '$lib/server/emailSuppressionStatus';
 import { normalizeEmail } from '$lib/email/suppression';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { cachedAdminQuery } from '$lib/server/adminQueryCache';
+import {
+	adminSnapshotKeys,
+	freshSnapshotEntry,
+	loadAdminDashboardSnapshot,
+	type AdminDashboardSnapshot,
+	type AdminSnapshotEntry
+} from '$lib/server/adminDashboardSnapshot';
+import { loadRouteDemoTime } from '$lib/server/demoTime';
 import { getTalkNotesOverview } from '$lib/server/talkNotes';
 import type {
 	GrowthTrendWeek,
@@ -35,6 +41,8 @@ import type {
 } from '$lib/components/charts/GrowthTrends.svelte';
 
 type QuestionRow = Database['public']['Tables']['questions']['Row'];
+type RpcRows<Name extends keyof Database['public']['Functions']> =
+	Database['public']['Functions'][Name]['Returns'];
 
 // Honest weekly growth (human-filtered) — see the migration header for definitions.
 const GROWTH_TRENDS_RPC = 'admin_engagement_trends_weekly_v2';
@@ -167,11 +175,11 @@ export const load: PageServerLoad = async (event) => {
 		throw redirect(302, '/questions');
 	}
 
-	const { demo_time, user: parentUser } = await event.parent();
-	const adminUser = parentUser as unknown as { admin?: boolean } | null;
-	if (!adminUser?.admin) {
-		throw redirect(307, '/questions');
-	}
+	// The admin layout's guard runs inside parent(). Start the queries alongside it
+	// rather than after it; it is awaited with them, before anything is returned.
+	const parentPromise = event.parent();
+	parentPromise.catch(() => {});
+	const demo_time = await loadRouteDemoTime(supabase);
 
 	// Pre-calculate date constants
 	const thirtyDaysAgo = new Date();
@@ -190,6 +198,30 @@ export const load: PageServerLoad = async (event) => {
 		limit: 10
 	};
 
+	// The four aggregate RPCs (30-day trends, retention, trending, weekly growth) scan
+	// visitor tables and took 0.2-9s per visit. pg_cron precomputes them every 10
+	// minutes (adminDashboardSnapshot); a missing or stale row falls back to the live
+	// RPC, which adminQueryCache keeps warm. Demo mode always loads live.
+	const snapshotPromise: Promise<AdminDashboardSnapshot> = demoTime
+		? Promise.resolve(new Map())
+		: loadAdminDashboardSnapshot(getSupabaseAdminClient() as any);
+	const snapshotMeta: { refreshedAt: string | null } = { refreshedAt: null };
+	const fromSnapshot = <Live, Snap>(
+		key: string,
+		live: () => Promise<Live>,
+		fromEntry: (entry: AdminSnapshotEntry) => Snap
+	): Promise<Live | Snap> =>
+		snapshotPromise.then<Live | Snap>((snapshot) => {
+			const entry = freshSnapshotEntry(snapshot, key);
+			if (!entry) return live();
+			// Report the oldest snapshot shown.
+			const shown = snapshotMeta.refreshedAt;
+			if (!shown || Date.parse(entry.refreshedAt) < Date.parse(shown)) {
+				snapshotMeta.refreshedAt = entry.refreshedAt;
+			}
+			return fromEntry(entry);
+		});
+
 	const [
 		dailyEngagementResult,
 		dailyQuestionsResult,
@@ -198,32 +230,33 @@ export const load: PageServerLoad = async (event) => {
 		newUsersTodayResult,
 		coachingWaitlistResult,
 		coachingWaitlistUsersResult,
-		totalQuestionsResult,
-		totalCommentsResult,
-		enneagramDistribution,
 		recentSignupsResult,
-		totalEmailSignupsResult,
 		newEmailSignupsTodayResult,
 		newEmailSignupsWeekResult,
-		newEmailSignupsMonthResult,
 		recentEmailSignupsResult,
-		questionsTodayResult,
 		commentsTodayResult,
 		retentionSummaryResult,
 		trendingPagesResult,
 		recentUnsubscribesResult,
 		talkNotes,
-		weeklyGrowthResult
+		weeklyGrowthResult,
+		parentData
 	] = await Promise.all([
-		// The four aggregate RPCs (30-day trends, retention, trending, weekly growth) scan
-		// visitor tables and set this page's load time; adminQueryCache keeps them warm.
-		cachedAdminQuery(
-			`admin_engagement_trends_30_days:${demoTime}`,
-			async () =>
-				await getSupabaseAdminClient().rpc('admin_engagement_trends_30_days', {
-					p_demo_time: demoTime
-				}),
-			{ shouldCache: withoutError }
+		fromSnapshot(
+			adminSnapshotKeys.engagement30Days,
+			() =>
+				cachedAdminQuery(
+					`admin_engagement_trends_30_days:${demoTime}`,
+					async () =>
+						await getSupabaseAdminClient().rpc('admin_engagement_trends_30_days', {
+							p_demo_time: demoTime
+						}),
+					{ shouldCache: withoutError }
+				),
+			(entry) => ({
+				data: entry.payload as RpcRows<'admin_engagement_trends_30_days'>,
+				error: null
+			})
 		),
 		supabase.rpc('daily_questions_stats'),
 		// All-time totals can be estimated; exact filtered counts are kept for recent activity.
@@ -242,18 +275,11 @@ export const load: PageServerLoad = async (event) => {
 			.select('id, email, session_goal, created_at')
 			.order('created_at', { ascending: false })
 			.limit(6),
-		supabase.from('questions').select('id', { count: 'estimated', head: true }),
-		supabase.from('comments').select('id', { count: 'estimated', head: true }),
-		loadAdminEnneagramDistribution(supabase as any, {
-			demoTime,
-			profilesTable
-		}),
 		supabase
 			.from(profilesTable)
 			.select('id, email, enneagram, created_at, external_id')
 			.order('created_at', { ascending: false })
 			.limit(8),
-		supabase.from('signups').select('id', { count: 'estimated', head: true }),
 		supabase
 			.from('signups')
 			.select('id', { count: 'exact', head: true })
@@ -264,37 +290,44 @@ export const load: PageServerLoad = async (event) => {
 			.gte('created_at', sevenDaysAgo.toISOString()),
 		supabase
 			.from('signups')
-			.select('id', { count: 'exact', head: true })
-			.gte('created_at', thirtyDaysAgo.toISOString()),
-		supabase
-			.from('signups')
 			.select(
 				'id, email, name, created_at, first_landing_path, first_acquisition_source, unsubscribed_date'
 			)
 			.order('created_at', { ascending: false })
 			.limit(8),
 		supabase
-			.from('questions')
-			.select('id', { count: 'exact', head: true })
-			.gte('created_at', today.toISOString()),
-		supabase
 			.from('comments')
 			.select('id', { count: 'exact', head: true })
 			.gte('created_at', today.toISOString()),
 		demoTime
 			? Promise.resolve({ data: null, error: null })
-			: cachedAdminQuery(
-					'get_admin_retention_summary',
-					async () => await (supabase as any).rpc('get_admin_retention_summary'),
-					{ shouldCache: withoutError }
+			: fromSnapshot(
+					adminSnapshotKeys.retentionSummary,
+					() =>
+						cachedAdminQuery<{ data: unknown; error: unknown }>(
+							'get_admin_retention_summary',
+							async () => await (supabase as any).rpc('get_admin_retention_summary'),
+							{ shouldCache: withoutError }
+						),
+					(entry) => ({ data: entry.payload, error: null })
 				),
 		demoTime
 			? Promise.resolve(null)
-			: cachedAdminQuery('get_page_analytics_trending_pages', () =>
-					loadTrendingAnalytics(supabase as any, {
-						...trendingOptions,
-						scope: 'all'
-					})
+			: fromSnapshot(
+					adminSnapshotKeys.trendingPages({ ...trendingOptions, scope: 'all' }),
+					() =>
+						cachedAdminQuery('get_page_analytics_trending_pages', () =>
+							loadTrendingAnalytics(supabase as any, {
+								...trendingOptions,
+								scope: 'all'
+							})
+						),
+					(entry) =>
+						buildTrendingAnalyticsPayload(
+							entry.payload,
+							{ ...trendingOptions, now: new Date(entry.refreshedAt) },
+							true
+						)
 				).catch((err) => {
 					console.error('Failed to load admin trending pages', err);
 					return emptyTrendingAnalyticsPayload(trendingOptions, false);
@@ -313,16 +346,27 @@ export const load: PageServerLoad = async (event) => {
 			console.error('Failed to load Talk to DJ notes overview', err);
 			return null;
 		}),
-		cachedAdminQuery(
-			`${GROWTH_TRENDS_RPC}:${demoTime}`,
-			async () =>
-				await getSupabaseAdminClient().rpc(GROWTH_TRENDS_RPC, {
-					p_weeks: GROWTH_TRENDS_WEEKS,
-					p_demo_time: demoTime
-				}),
-			{ shouldCache: withoutError }
-		)
+		fromSnapshot(
+			adminSnapshotKeys.weeklyGrowth(GROWTH_TRENDS_WEEKS),
+			() =>
+				cachedAdminQuery(
+					`${GROWTH_TRENDS_RPC}:${demoTime}`,
+					async () =>
+						await getSupabaseAdminClient().rpc(GROWTH_TRENDS_RPC, {
+							p_weeks: GROWTH_TRENDS_WEEKS,
+							p_demo_time: demoTime
+						}),
+					{ shouldCache: withoutError }
+				),
+			(entry) => ({ data: entry.payload as RpcRows<typeof GROWTH_TRENDS_RPC>, error: null })
+		),
+		parentPromise
 	]);
+
+	const adminUser = parentData.user as unknown as { admin?: boolean } | null;
+	if (!adminUser?.admin) {
+		throw redirect(307, '/questions');
+	}
 
 	// Until the v2 migration is applied the RPC is missing; the dashboard falls back to
 	// the raw 30-day admin_engagement_trends_30_days data without flagging an error.
@@ -381,20 +425,11 @@ export const load: PageServerLoad = async (event) => {
 	if (dailyQuestionsResult.error) {
 		console.error('Failed to load admin daily question stats', dailyQuestionsResult.error);
 	}
-	if (totalEmailSignupsResult.error) {
-		console.error('Failed to load admin email signup total', totalEmailSignupsResult.error);
-	}
 	if (newEmailSignupsTodayResult.error) {
 		console.error('Failed to load admin email signups today', newEmailSignupsTodayResult.error);
 	}
 	if (newEmailSignupsWeekResult.error) {
 		console.error('Failed to load admin email signups this week', newEmailSignupsWeekResult.error);
-	}
-	if (newEmailSignupsMonthResult.error) {
-		console.error(
-			'Failed to load admin email signups this month',
-			newEmailSignupsMonthResult.error
-		);
 	}
 	if (recentEmailSignupsResult.error) {
 		console.error('Failed to load admin recent email signups', recentEmailSignupsResult.error);
@@ -473,10 +508,7 @@ export const load: PageServerLoad = async (event) => {
 			label: 'Recent waitlist entries',
 			error: coachingWaitlistUsersResult.error
 		},
-		{ key: 'question-total', label: 'Question total', error: totalQuestionsResult.error },
-		{ key: 'comment-total', label: 'Comment total', error: totalCommentsResult.error },
 		{ key: 'recent-users', label: 'Recent users', error: recentSignupsResult.error },
-		{ key: 'email-total', label: 'Email signup total', error: totalEmailSignupsResult.error },
 		{
 			key: 'email-today',
 			label: "Today's email signups",
@@ -488,11 +520,6 @@ export const load: PageServerLoad = async (event) => {
 			error: newEmailSignupsWeekResult.error
 		},
 		{
-			key: 'email-month',
-			label: '30-day email signups',
-			error: newEmailSignupsMonthResult.error
-		},
-		{
 			key: 'email-recent',
 			label: 'Recent email signups',
 			error: recentEmailSignupsResult.error
@@ -502,7 +529,6 @@ export const load: PageServerLoad = async (event) => {
 			label: 'Email unsubscribe status',
 			error: recentUnsubscribesResult.error || suppressionLookup.error
 		},
-		{ key: 'questions-today', label: "Today's questions", error: questionsTodayResult.error },
 		{ key: 'comments-today', label: "Today's comments", error: commentsTodayResult.error },
 		{
 			key: 'retention',
@@ -546,23 +572,19 @@ export const load: PageServerLoad = async (event) => {
 		coachingWaitlist: coachingWaitlistResult.count || 0,
 		talkNotes,
 		coachingWaitlistUsers: withSuppressionStatus(coachingWaitlistUsersResult.data || []),
-		totalQuestions: totalQuestionsResult.count || 0,
-		totalComments: totalCommentsResult.count || 0,
 		activeContributors,
-		enneagramDistribution,
 		recentSignups: withSuppressionStatus(recentSignupsResult.data || []),
-		totalEmailSignups: totalEmailSignupsResult.count || 0,
 		newEmailSignupsToday: newEmailSignupsTodayResult.count || 0,
 		newEmailSignupsWeek: newEmailSignupsWeekResult.count || 0,
-		newEmailSignupsMonth: newEmailSignupsMonthResult.count || 0,
 		recentEmailSignups: withSuppressionStatus(recentEmailSignupsResult.data || []),
 		totalUnsubscribes: recentUnsubscribesResult.count || 0,
 		recentUnsubscribes: recentUnsubscribesResult.data || [],
-		questionsToday: questionsTodayResult.count || 0,
 		commentsToday: commentsTodayResult.count || 0,
 		retentionSummary,
 		trending,
-		growthTrends
+		growthTrends,
+		// Oldest precomputed aggregate shown, or null when everything loaded live.
+		analyticsRefreshedAt: snapshotMeta.refreshedAt
 	};
 };
 

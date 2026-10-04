@@ -5,11 +5,15 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import EngagementTrends from '$lib/components/charts/EngagementTrends.svelte';
 	import GrowthTrends from '$lib/components/charts/GrowthTrends.svelte';
-	import EnneagramBarChart from '$lib/components/charts/EnneagramBarChart.svelte';
-	import StatCard from '$lib/components/charts/StatCard.svelte';
-	import { convertDateToReadable } from '../../utils/conversions';
 	import MobileCommandCenter from './MobileCommandCenter.svelte';
-	import EmailSubscriptionStatus from '$lib/components/admin/EmailSubscriptionStatus.svelte';
+	import { markTalkNotesViewed } from '$lib/admin/talkNotesViewed';
+	import {
+		fullDate,
+		shortDate,
+		timeFormat,
+		unsubscribeReasonLabel
+	} from '$lib/admin/dashboardFormat';
+	import type { TalkNotePreview } from '$lib/types/talkNotes';
 	import type { PageData } from './$types';
 
 	type ActionResultPayload = {
@@ -29,26 +33,13 @@
 		total: number;
 	};
 
-	type MetricCard = {
-		icon: string;
-		label: string;
-		value: number | string;
-		subValue?: string;
-		trend?: 'up' | 'down' | 'neutral' | null;
-		trendValue?: string;
-		color?: 'default' | 'primary' | 'success' | 'warning' | 'danger';
-		sparklineData?: number[];
-		href?: string;
-	};
-
 	type QuestionActivityItem = {
 		question: string;
-		createdAt: string;
+		createdAt: string | null;
 		todayComments: number;
 		totalComments: number;
 		authorEmail: string;
-		authorHref?: string;
-		questionHref?: string;
+		questionHref: string;
 	};
 
 	type TrendingTrafficSource = {
@@ -72,14 +63,7 @@
 		is_low_unique: boolean;
 	};
 
-	type VisitorDay = NonNullable<PageData['dailyVisitors']>[number];
-	type CommentDay = NonNullable<PageData['dailyComments']>[number];
 	type QuestionDay = NonNullable<PageData['dailyQuestions']>[number];
-	type ChartPoint = {
-		x: number;
-		y: number;
-		label: string;
-	};
 
 	let { data }: { data: PageData } = $props();
 
@@ -109,34 +93,7 @@
 	};
 
 	const formatCount = (value: number | null | undefined) => (value ?? 0).toLocaleString();
-	const formatDate = (value: string | null | undefined) =>
-		value ? convertDateToReadable(value) : '—';
-	const formatPercent = (value: number | null | undefined, denominator?: number | null) => {
-		if (denominator !== undefined && (denominator ?? 0) <= 0) return '—';
-		return `${(value ?? 0).toFixed(1)}%`;
-	};
-	const formatRateValue = (
-		block:
-			| {
-					numerator?: number | null;
-					pct?: number | null;
-					denominator?: number | null;
-			  }
-			| null
-			| undefined
-	) => `${formatCount(block?.numerator)} (${formatPercent(block?.pct, block?.denominator)})`;
-	const formatRateWindow = (
-		block:
-			| {
-					week_start?: string | null;
-					week_end?: string | null;
-			  }
-			| null
-			| undefined
-	) =>
-		block?.week_start && block?.week_end
-			? `${convertDateToReadable(block.week_start)} - ${convertDateToReadable(block.week_end)}`
-			: 'Retention rollup pending';
+
 	const formatTrendLift = (value: number) => {
 		const prefix = value > 0 ? '+' : '';
 		return `${prefix}${value.toFixed(value % 1 === 0 ? 0 : 1)}`;
@@ -229,145 +186,32 @@
 		}
 	};
 
-	let visitorChartData = $derived(
-		(data.dailyVisitors ?? [])
-			.map((visitor: VisitorDay): ChartPoint => {
-				const date = new Date(visitor.days);
-				return {
-					x: date.getTime(),
-					y: visitor.number_of_visitors,
-					label: `${date.toLocaleDateString()}: ${visitor.number_of_visitors} visitors`
-				};
-			})
-			.sort((a: ChartPoint, b: ChartPoint) => a.x - b.x)
+	let analyticsAsOf = $derived(
+		data.analyticsRefreshedAt ? timeFormat.format(new Date(data.analyticsRefreshedAt)) : null
 	);
 
-	let commentChartData = $derived(
-		(data.dailyComments ?? [])
-			.map((comment: CommentDay): ChartPoint => {
-				const date = new Date(comment.days);
-				return {
-					x: date.getTime(),
-					y: comment.number_of_comments,
-					label: `${date.toLocaleDateString()}: ${comment.number_of_comments} comments`
-				};
-			})
-			.sort((a: ChartPoint, b: ChartPoint) => a.x - b.x)
-	);
+	// Rows whose long text (note body, waitlist goal) is expanded in place.
+	let expanded = $state<Record<string, boolean>>({});
+	const toggleExpanded = (key: string) => {
+		expanded[key] = !expanded[key];
+	};
 
-	let totalVisitors = $derived(
-		visitorChartData.reduce((sum: number, point: ChartPoint) => sum + point.y, 0)
-	);
-	let visitorSparkline = $derived(visitorChartData.slice(-7).map((point: ChartPoint) => point.y));
-	let commentSparkline = $derived(commentChartData.slice(-7).map((point: ChartPoint) => point.y));
-	let userGrowth = $derived(
-		data.totalUsers > 0 ? ((data.newUsersMonth / data.totalUsers) * 100).toFixed(1) : '0.0'
-	);
-
-	let metricCards = $derived.by((): MetricCard[] => [
-		{
-			icon: '👥',
-			label: 'Total Users',
-			value: data.totalUsers,
-			subValue: `+${formatCount(data.newUsersToday)} today`,
-			color: 'primary',
-			href: '/admin/users'
-		},
-		{
-			icon: '👀',
-			label: 'Raw visitors (30d)',
-			value: totalVisitors,
-			subValue: 'Daily fingerprints summed; mostly bots',
-			color: 'default',
-			sparklineData: visitorSparkline,
-			href: '/admin/analytics'
-		},
-		{
-			icon: '🆕',
-			label: 'New Visitors (WTD)',
-			value: data.retentionSummary?.newVisitorsThisWeek ?? 0,
-			subValue: data.retentionSummary?.available
-				? `${formatDate(data.retentionSummary?.currentWeekStart)} - ${formatDate(data.retentionSummary?.currentWeekEnd)}`
-				: 'Retention rollup pending',
-			color: 'primary',
-			href: '/admin/analytics'
-		},
-		{
-			icon: '💬',
-			label: 'First Comment (7d)',
-			value: formatRateValue(data.retentionSummary?.firstCommentRateLastFullWeek),
-			subValue: formatRateWindow(data.retentionSummary?.firstCommentRateLastFullWeek),
-			color: 'success',
-			href: '/admin/analytics'
-		},
-		{
-			icon: '✉️',
-			label: 'Email Signup (7d)',
-			value: formatRateValue(data.retentionSummary?.emailSignupRateLastFullWeek),
-			subValue: formatRateWindow(data.retentionSummary?.emailSignupRateLastFullWeek),
-			color: 'default',
-			href: '/admin/analytics'
-		},
-		{
-			icon: '📧',
-			label: 'Email signup rows (7d)',
-			value: data.newEmailSignupsWeek,
-			subValue: `${formatCount(data.newEmailSignupsToday)} today | ${formatCount(data.totalEmailSignups)} total, bots included`,
-			color: data.newEmailSignupsToday > 0 ? 'warning' : 'default',
-			href: '/admin/users'
-		},
-		{
-			icon: '🪪',
-			label: 'Registered (7d)',
-			value: formatRateValue(data.retentionSummary?.registeredRateLastFullWeek),
-			subValue: formatRateWindow(data.retentionSummary?.registeredRateLastFullWeek),
-			color: 'primary',
-			href: '/admin/analytics'
-		},
-		{
-			icon: '🔁',
-			label: 'D7 return (raw)',
-			value: formatRateValue(data.retentionSummary?.d7RetentionLastMatureWeek),
-			subValue: `${formatRateWindow(data.retentionSummary?.d7RetentionLastMatureWeek)} · seen on exactly day 7, bots in cohort`,
-			color: 'warning',
-			href: '/admin/analytics'
-		},
-		{
-			icon: '⚡',
-			label: 'Active Contributors',
-			value: data.retentionSummary?.activeContributorsThisWeek ?? data.activeContributors ?? 0,
-			subValue: 'This week, raw: includes your own replies',
-			color: 'default',
-			href: '/admin/comments'
-		},
-		{
-			icon: '🎯',
-			label: 'Waitlist rows (all-time)',
-			value: data.coachingWaitlist,
-			subValue: 'Includes the flagged Nov 2025 bot wave',
-			color: 'success',
-			href: '/admin/consulting'
-		},
-		{
-			icon: '📈',
-			label: 'New Users (30d)',
-			value: data.newUsersMonth,
-			subValue: `${userGrowth}% of total`,
-			trend: Number(userGrowth) > 5 ? 'up' : 'neutral',
-			trendValue: `${userGrowth}%`,
-			color: 'primary',
-			href: '/admin/users'
-		},
-		{
-			icon: '📣',
-			label: 'Comment rows',
-			value: data.totalComments,
-			subValue: `+${formatCount(data.commentsToday)} today · incl. yours + removed`,
-			color: 'success',
-			sparklineData: commentSparkline,
-			href: '/admin/comments'
+	// Notes opened here this visit; the server's viewedAt catches up after the badge refresh.
+	let seenHere = $state<Record<string, boolean>>({});
+	const noteState = (note: TalkNotePreview) => {
+		if (note.status === 'replied') return 'replied';
+		if (note.status === 'archived') return 'archived';
+		return note.viewedAt || seenHere[note.id] ? 'seen' : 'new';
+	};
+	const noteStateLabel = { new: 'New', seen: 'Seen', replied: 'Replied', archived: 'Archived' };
+	const toggleNote = (note: TalkNotePreview) => {
+		const key = `note:${note.id}`;
+		toggleExpanded(key);
+		if (expanded[key] && noteState(note) === 'new') {
+			seenHere[note.id] = true;
+			void markTalkNotesViewed([note.id]);
 		}
-	]);
+	};
 
 	let waitlistEntries = $derived((data.coachingWaitlistUsers ?? []).slice(0, 6));
 	let talkNoteEntries = $derived(data.talkNotes?.latest ?? []);
@@ -377,12 +221,11 @@
 	let questionActivity = $derived(
 		(data.dailyQuestions ?? []).slice(0, 10).map((question: QuestionDay): QuestionActivityItem => ({
 			question: question.question || 'Untitled question',
-			createdAt: formatDate(question.created_at),
+			createdAt: question.created_at,
 			todayComments: question.number_of_comments_today ?? 0,
 			totalComments: question.number_of_comments ?? 0,
 			authorEmail: question.user_email || 'Unknown author',
-			authorHref: question.user_external_id ? `/users/${question.user_external_id}` : undefined,
-			questionHref: question.url ? `/questions/${question.url}` : undefined
+			questionHref: question.url ? `/questions/${question.url}` : '/admin/questions'
 		}))
 	);
 	let trendingBroadRows = $derived(
@@ -395,8 +238,12 @@
 
 	const formatEmailSignupSource = (signup: NonNullable<PageData['recentEmailSignups']>[number]) => {
 		const source = signup.first_acquisition_source || 'unknown';
-		return signup.first_landing_path ? `${source} | ${signup.first_landing_path}` : source;
+		return signup.first_landing_path ? `${source} · ${signup.first_landing_path}` : source;
 	};
+	const unsubscribeTitle = (reason: string | null | undefined, at: string | null | undefined) =>
+		['Unsubscribed', reason, fullDate(at)].filter(Boolean).join(' · ');
+	const unsubscribeReason = (unsubscribe: NonNullable<PageData['recentUnsubscribes']>[number]) =>
+		unsubscribeReasonLabel(unsubscribe.reason);
 	const isKnownEnneagram = (value: unknown): value is string =>
 		typeof value === 'string' && /^[1-9]$/.test(value);
 </script>
@@ -427,6 +274,14 @@
 				<span class="hero-mode" data-tone={isDemoTime ? 'warning' : 'success'}>
 					{isDemoTime ? 'Demo data' : 'Live data'}
 				</span>
+				{#if analyticsAsOf}
+					<span
+						class="hero-asof"
+						title="Weekly growth, trends and traffic refresh every 10 minutes"
+					>
+						Stats as of {analyticsAsOf}
+					</span>
+				{/if}
 			</div>
 
 			<div class="hero-actions">
@@ -471,12 +326,8 @@
 			<div class="section-copy">
 				<span class="eyebrow">Honest growth</span>
 				<h2 class="section-title">Real people, week by week</h2>
-				<p class="section-description">
-					Bots, your own admin activity, removed comments and known bot signups are filtered out.
-					Each tile compares the last full week with a 26-week baseline, so a real drop and a line
-					that never moved look different.
-				</p>
 			</div>
+			<p class="section-note">Bots, your own activity and removed comments filtered out</p>
 		</div>
 
 		<GrowthTrends trends={data.growthTrends} />
@@ -485,237 +336,125 @@
 	<section class="dashboard-section">
 		<div class="section-header">
 			<div class="section-copy">
-				<span class="eyebrow">Raw counters</span>
-				<h2 class="section-title">Unfiltered row counts</h2>
-				<p class="section-description">
-					Every tracked row, including bots, your own activity and removed comments. Use Honest
-					growth above to judge trends.
-				</p>
-			</div>
-			<a href="/admin/analytics" class="section-link">Open analytics</a>
-		</div>
-
-		<div class="metrics-grid">
-			{#each metricCards as metric}
-				<StatCard
-					icon={metric.icon}
-					label={metric.label}
-					value={metric.value}
-					subValue={metric.subValue ?? ''}
-					trend={metric.trend ?? null}
-					trendValue={metric.trendValue ?? ''}
-					color={metric.color ?? 'default'}
-					sparklineData={metric.sparklineData ?? []}
-					href={metric.href ?? ''}
-				/>
-			{/each}
-		</div>
-	</section>
-
-	<section class="dashboard-section">
-		<div class="section-header">
-			<div class="section-copy">
-				<span class="eyebrow">Trending</span>
-				<h2 class="section-title">Pages moving today</h2>
-				<p class="section-description">
-					Same-time comparison against each page's previous {data.trending?.baselineDays ?? 7}-day
-					baseline.
-				</p>
-			</div>
-			<a href="/admin/analytics" class="section-link">Open analytics</a>
-		</div>
-
-		<div class="trending-grid">
-			<article class="panel trending-panel">
-				<div class="trending-panel-header">
-					<div class="section-copy">
-						<span class="eyebrow">Broad spikes</span>
-						<h3 class="card-title">Real momentum</h3>
-					</div>
-					<span class="count-pill">{formatCount(trendingBroadRows.length)}</span>
-				</div>
-
-				{#if !trendingAvailable}
-					<p class="empty-state">Trending analytics are waiting for the database migration.</p>
-				{:else if trendingBroadRows.length === 0}
-					<p class="empty-state">No broad page spikes right now.</p>
-				{:else}
-					<ul class="trend-list">
-						{#each trendingBroadRows as row}
-							<li class="trend-item">
-								<div class="trend-main">
-									<a href={row.path} class="trend-path">{row.path}</a>
-									<p class="trend-subtitle">
-										{row.current_unique_visitors.toLocaleString()} uniques |
-										{formatTrendSource(row)} |
-										{formatShortDuration(row.avg_time_on_page_ms)} avg
-									</p>
-								</div>
-								<div class="trend-side">
-									<strong>{row.current_visits.toLocaleString()}</strong>
-									<span>
-										{formatTrendLift(row.lift_visits)} vs
-										{formatTrendBaseline(row.baseline_avg_visits)}
-									</span>
-									<small>{formatTrendRatio(row.ratio_visits)}</small>
-								</div>
-							</li>
-						{/each}
-					</ul>
-				{/if}
-			</article>
-
-			<article class="panel trending-panel">
-				<div class="trending-panel-header">
-					<div class="section-copy">
-						<span class="eyebrow">Watchlist</span>
-						<h3 class="card-title">Repeat-heavy spikes</h3>
-					</div>
-					<span class="count-pill muted">{formatCount(trendingRepeatRows.length)}</span>
-				</div>
-
-				{#if !trendingAvailable}
-					<p class="empty-state">Trending analytics are waiting for the database migration.</p>
-				{:else if trendingRepeatRows.length === 0}
-					<p class="empty-state">No concentrated repeat spikes right now.</p>
-				{:else}
-					<ul class="trend-list">
-						{#each trendingRepeatRows as row}
-							<li class="trend-item repeat">
-								<div class="trend-main">
-									<a href={row.path} class="trend-path">{row.path}</a>
-									<p class="trend-subtitle">
-										{row.current_unique_visitors.toLocaleString()} uniques |
-										{formatTrendSource(row)} |
-										{formatTrendRatio(row.ratio_visits)}
-									</p>
-								</div>
-								<div class="trend-side">
-									<strong>{row.current_visits.toLocaleString()}</strong>
-									<span>
-										{formatTrendLift(row.lift_visits)} vs
-										{formatTrendBaseline(row.baseline_avg_visits)}
-									</span>
-								</div>
-							</li>
-						{/each}
-					</ul>
-				{/if}
-			</article>
-		</div>
-	</section>
-
-	<section class="dashboard-section">
-		<div class="section-header">
-			<div class="section-copy">
-				<span class="eyebrow">Raw daily rows</span>
-				<h2 class="section-title">Traffic and participation</h2>
-				<p class="section-description">
-					Thirty days of unfiltered daily counts for traffic, signups, questions, comments, and
-					coaching. Bots and your own activity are included.
-				</p>
-			</div>
-		</div>
-
-		<div class="insights-grid">
-			<div class="panel chart-panel engagement-panel">
-				<EngagementTrends data={data.dailyEngagement} />
-			</div>
-
-			<div class="panel distribution-panel">
-				<EnneagramBarChart
-					distribution={data.enneagramDistribution}
-					title="User Type Distribution"
-					showPercentages={true}
-					compact={false}
-				/>
-			</div>
-		</div>
-	</section>
-
-	<section class="dashboard-section">
-		<div class="section-header">
-			<div class="section-copy">
-				<span class="eyebrow">Queues</span>
+				<span class="eyebrow">Inbox</span>
 				<h2 class="section-title">Recent inbound activity</h2>
-				<p class="section-description">Notes, signups, and coaching demand in one place.</p>
 			</div>
 		</div>
 
 		<div class="queue-grid">
-			<article class="panel list-card">
-				<div class="list-card-header">
-					<div class="section-copy">
-						<span class="eyebrow">Talk to DJ</span>
-						<h3 class="card-title">Notes</h3>
-					</div>
-					<div class="list-card-meta">
-						<span class="count-pill">{formatCount(data.talkNotes?.newCount ?? 0)} new</span>
-						<a href="/admin/consulting/notes" class="inline-link">Open notes</a>
-					</div>
-				</div>
+			<article class="panel compact-card">
+				<header class="card-head">
+					<h3 class="card-title">Talk to DJ notes</h3>
+					{#if data.talkNotes}
+						<span class="card-count" class:attention={data.talkNotes.unseenCount > 0}>
+							{data.talkNotes.unseenCount > 0
+								? `${formatCount(data.talkNotes.unseenCount)} new`
+								: `${formatCount(data.talkNotes.newCount)} open`}
+						</span>
+					{/if}
+					<a href="/admin/consulting/notes" class="card-link">Open</a>
+				</header>
 
 				{#if !data.talkNotes}
 					<p class="empty-state">Couldn’t load notes.</p>
 				{:else if talkNoteEntries.length > 0}
-					<ul class="detail-list">
+					<ul class="feed">
 						{#each talkNoteEntries as note (note.id)}
-							<li class="detail-item">
-								<div class="detail-main">
-									<a href="/admin/consulting/notes" class="detail-link">{note.preview}</a>
-									<p class="detail-subtitle">
-										{note.inputMode === 'voice' ? 'Voice note' : 'Text note'} ·
-										{note.hasEmail ? 'Left an email' : 'Anonymous'}{note.wantsSession
-											? ' · Wants a session'
-											: ''}
-									</p>
-								</div>
-								<div class="detail-side">
-									<span class="detail-date">{formatDate(note.createdAt)}</span>
-									{#if note.status === 'new'}
-										<span class="count-pill">New</span>
+							{@const state = noteState(note)}
+							{@const key = `note:${note.id}`}
+							<li class="feed-row" class:expanded={expanded[key]}>
+								<div class="feed-line">
+									<span class="state-chip" data-state={state}>{noteStateLabel[state]}</span>
+									<button
+										type="button"
+										class="feed-text"
+										aria-expanded={expanded[key] ?? false}
+										onclick={() => toggleNote(note)}
+									>
+										{note.preview}
+									</button>
+									{#if note.wantsSession}
+										<span class="feed-flag" title="Wants a session">session</span>
 									{/if}
+									<time
+										class="feed-date"
+										datetime={note.createdAt}
+										title={fullDate(note.createdAt)}
+									>
+										{shortDate(note.createdAt)}
+									</time>
 								</div>
+								{#if expanded[key]}
+									<div class="feed-detail">
+										<p class="feed-body">{note.body}</p>
+										<p class="feed-meta-line">
+											{note.inputMode === 'voice' ? 'Voice note' : 'Text note'} ·
+											{note.hasEmail ? 'Left an email' : 'Anonymous'}{note.wantsSession
+												? ' · Wants a session'
+												: ''} ·
+											<a href="/admin/consulting/notes" class="inline-link">
+												{note.hasEmail ? 'Reply in notes' : 'Open in notes'}
+											</a>
+										</p>
+									</div>
+								{/if}
 							</li>
 						{/each}
 					</ul>
 				{:else}
-					<p class="empty-state">
-						No notes yet. They show up here the moment someone taps “Send to DJ”.
-					</p>
+					<p class="empty-state">No notes yet.</p>
 				{/if}
 			</article>
 
-			<article class="panel list-card">
-				<div class="list-card-header">
-					<div class="section-copy">
-						<span class="eyebrow">Consulting</span>
-						<h3 class="card-title">Coaching waitlist</h3>
-					</div>
-					<div class="list-card-meta">
-						<span class="count-pill">{formatCount(data.coachingWaitlist)}</span>
-						<a href="/admin/consulting" class="inline-link">Open consulting</a>
-					</div>
-				</div>
+			<article class="panel compact-card">
+				<header class="card-head">
+					<h3 class="card-title">Coaching waitlist</h3>
+					<span class="card-count" title="All-time rows, including the flagged Nov 2025 bot wave">
+						{formatCount(data.coachingWaitlist)} total
+					</span>
+					<a href="/admin/consulting" class="card-link">Open</a>
+				</header>
 
 				{#if waitlistEntries.length > 0}
-					<ul class="detail-list">
-						{#each waitlistEntries as user}
-							<li class="detail-item">
-								<div class="detail-main">
-									<a href={`mailto:${user.email}`} class="detail-link">{user.email}</a>
-									<p class="detail-subtitle">
-										{user.session_goal || 'No session goal provided yet.'}
-									</p>
+					<ul class="feed">
+						{#each waitlistEntries as entry (entry.id)}
+							{@const key = `wait:${entry.id}`}
+							<li class="feed-row" class:expanded={expanded[key]}>
+								<div class="feed-line">
+									<a href={`mailto:${entry.email}`} class="feed-title">{entry.email}</a>
+									{#if entry.session_goal}
+										<button
+											type="button"
+											class="feed-text muted"
+											aria-expanded={expanded[key] ?? false}
+											onclick={() => toggleExpanded(key)}
+										>
+											{entry.session_goal}
+										</button>
+									{:else}
+										<span class="feed-meta">No goal given</span>
+									{/if}
+									{#if entry.unsubscribed}
+										<span
+											class="feed-flag warning"
+											title={unsubscribeTitle(entry.unsubscribe_reason, entry.unsubscribed_at)}
+										>
+											unsub
+										</span>
+									{/if}
+									<time
+										class="feed-date"
+										datetime={entry.created_at}
+										title={fullDate(entry.created_at)}
+									>
+										{shortDate(entry.created_at)}
+									</time>
 								</div>
-								<div class="detail-side">
-									<span class="detail-date">{formatDate(user.created_at)}</span>
-									<EmailSubscriptionStatus
-										unsubscribed={user.unsubscribed}
-										unsubscribedAt={user.unsubscribed_at}
-										reason={user.unsubscribe_reason}
-									/>
-								</div>
+								{#if expanded[key] && entry.session_goal}
+									<div class="feed-detail">
+										<p class="feed-body">{entry.session_goal}</p>
+									</div>
+								{/if}
 							</li>
 						{/each}
 					</ul>
@@ -724,38 +463,18 @@
 				{/if}
 			</article>
 
-			<article class="panel list-card">
-				<div class="list-card-header">
-					<div class="section-copy">
-						<span class="eyebrow">Users</span>
-						<h3 class="card-title">Recent registered users</h3>
-					</div>
-					<div class="list-card-meta">
-						<span class="count-pill">{formatCount(data.newUsersMonth)}</span>
-						<a href="/admin/users" class="inline-link">Open users</a>
-					</div>
-				</div>
+			<article class="panel compact-card">
+				<header class="card-head">
+					<h3 class="card-title">Registered users</h3>
+					<span class="card-count">{formatCount(data.newUsersMonth)} in 30 days</span>
+					<a href="/admin/users" class="card-link">Open</a>
+				</header>
 
 				{#if recentUsers.length > 0}
-					<ul class="detail-list">
-						{#each recentUsers as signup}
-							<li class="detail-item">
-								<div class="detail-main">
-									{#if signup.external_id}
-										<a href={`/users/${signup.external_id}`} class="detail-link">
-											{signup.email || 'Anonymous'}
-										</a>
-									{:else}
-										<span class="detail-text">{signup.email || 'Anonymous'}</span>
-									{/if}
-									<p class="detail-subtitle">Joined {formatDate(signup.created_at)}</p>
-								</div>
-								<div class="detail-side">
-									<EmailSubscriptionStatus
-										unsubscribed={signup.unsubscribed}
-										unsubscribedAt={signup.unsubscribed_at}
-										reason={signup.unsubscribe_reason}
-									/>
+					<ul class="feed">
+						{#each recentUsers as signup (signup.id)}
+							<li class="feed-row">
+								<div class="feed-line">
 									{#if isKnownEnneagram(signup.enneagram)}
 										<span
 											class="type-badge type-{signup.enneagram}"
@@ -766,84 +485,109 @@
 									{:else}
 										<span class="type-badge pending" title="Enneagram type unknown">?</span>
 									{/if}
+									{#if signup.external_id}
+										<a href={`/users/${signup.external_id}`} class="feed-title">
+											{signup.email || 'Anonymous'}
+										</a>
+									{:else}
+										<span class="feed-title plain">{signup.email || 'Anonymous'}</span>
+									{/if}
+									<span class="feed-spacer"></span>
+									{#if signup.unsubscribed}
+										<span
+											class="feed-flag warning"
+											title={unsubscribeTitle(signup.unsubscribe_reason, signup.unsubscribed_at)}
+										>
+											unsub
+										</span>
+									{/if}
+									<time
+										class="feed-date"
+										datetime={signup.created_at}
+										title={fullDate(signup.created_at)}
+									>
+										{shortDate(signup.created_at)}
+									</time>
 								</div>
 							</li>
 						{/each}
 					</ul>
 				{:else}
-					<p class="empty-state">No recent registered users available.</p>
+					<p class="empty-state">No recent registered users.</p>
 				{/if}
 			</article>
 
-			<article class="panel list-card">
-				<div class="list-card-header">
-					<div class="section-copy">
-						<span class="eyebrow">Email</span>
-						<h3 class="card-title">Recent email signups</h3>
-					</div>
-					<div class="list-card-meta">
-						<span class="count-pill">{formatCount(data.newEmailSignupsWeek)}</span>
-						<a href="/admin/users" class="inline-link">Open users</a>
-					</div>
-				</div>
+			<article class="panel compact-card">
+				<header class="card-head">
+					<h3 class="card-title">Email signups</h3>
+					<span class="card-count" title="Raw rows, bots included">
+						{formatCount(data.newEmailSignupsWeek)} this week
+					</span>
+					<a href="/admin/users" class="card-link">Open</a>
+				</header>
 
 				{#if recentEmailSignups.length > 0}
-					<ul class="detail-list">
-						{#each recentEmailSignups as signup}
-							<li class="detail-item">
-								<div class="detail-main">
-									<a href={`mailto:${signup.email}`} class="detail-link">
+					<ul class="feed">
+						{#each recentEmailSignups as signup (signup.id)}
+							{@const unsubscribed = signup.unsubscribed || Boolean(signup.unsubscribed_date)}
+							<li class="feed-row">
+								<div class="feed-line">
+									<a href={`mailto:${signup.email}`} class="feed-title">
 										{signup.email || 'Unknown email'}
 									</a>
-									<p class="detail-subtitle">{formatEmailSignupSource(signup)}</p>
-								</div>
-								<div class="detail-side">
-									<span class="detail-date">{formatDate(signup.created_at)}</span>
-									<EmailSubscriptionStatus
-										unsubscribed={signup.unsubscribed || Boolean(signup.unsubscribed_date)}
-										unsubscribedAt={signup.unsubscribed_at || signup.unsubscribed_date}
-										reason={signup.unsubscribe_reason}
-									/>
+									<span class="feed-meta" title={formatEmailSignupSource(signup)}>
+										{formatEmailSignupSource(signup)}
+									</span>
+									{#if unsubscribed}
+										<span
+											class="feed-flag warning"
+											title={unsubscribeTitle(
+												signup.unsubscribe_reason,
+												signup.unsubscribed_at || signup.unsubscribed_date
+											)}
+										>
+											unsub
+										</span>
+									{/if}
+									<time
+										class="feed-date"
+										datetime={signup.created_at}
+										title={fullDate(signup.created_at)}
+									>
+										{shortDate(signup.created_at)}
+									</time>
 								</div>
 							</li>
 						{/each}
 					</ul>
 				{:else}
-					<p class="empty-state">No recent email signups available.</p>
+					<p class="empty-state">No recent email signups.</p>
 				{/if}
 			</article>
 
-			<article class="panel list-card unsubscribe-card">
-				<div class="list-card-header">
-					<div class="section-copy">
-						<span class="eyebrow">Email health</span>
-						<h3 class="card-title">Recent unsubscribes</h3>
-					</div>
-					<div class="list-card-meta">
-						<span class="count-pill warning">{formatCount(data.totalUnsubscribes)}</span>
-						<a href="/admin/email-dashboard?tab=unsubscribes" class="inline-link">Review all</a>
-					</div>
-				</div>
+			<article class="panel compact-card">
+				<header class="card-head">
+					<h3 class="card-title">Unsubscribes</h3>
+					<span class="card-count">{formatCount(data.totalUnsubscribes)} total</span>
+					<a href="/admin/email-dashboard?tab=unsubscribes" class="card-link">Open</a>
+				</header>
 
 				{#if recentUnsubscribes.length > 0}
-					<ul class="detail-list">
+					<ul class="feed">
 						{#each recentUnsubscribes as unsubscribe (unsubscribe.id)}
-							<li class="detail-item unsubscribe-item">
-								<div class="detail-main">
-									<a href={`mailto:${unsubscribe.email}`} class="detail-link">
-										{unsubscribe.email}
-									</a>
-									<p class="detail-subtitle">
-										{unsubscribe.reason || unsubscribe.source || 'Email opt-out'}
-									</p>
-								</div>
-								<div class="detail-side">
-									<EmailSubscriptionStatus
-										unsubscribed
-										unsubscribedAt={unsubscribe.unsubscribed_at}
-										reason={unsubscribe.reason}
-									/>
-									<span class="detail-date">{formatDate(unsubscribe.unsubscribed_at)}</span>
+							<li class="feed-row">
+								<div class="feed-line">
+									<a href={`mailto:${unsubscribe.email}`} class="feed-title">{unsubscribe.email}</a>
+									<span class="feed-meta" title={unsubscribe.reason ?? ''}>
+										{unsubscribeReason(unsubscribe)}
+									</span>
+									<time
+										class="feed-date"
+										datetime={unsubscribe.unsubscribed_at}
+										title={fullDate(unsubscribe.unsubscribed_at)}
+									>
+										{shortDate(unsubscribe.unsubscribed_at)}
+									</time>
 								</div>
 							</li>
 						{/each}
@@ -852,51 +596,139 @@
 					<p class="empty-state">No email unsubscribes recorded.</p>
 				{/if}
 			</article>
+
+			<article class="panel compact-card">
+				<header class="card-head">
+					<h3 class="card-title">Question activity</h3>
+					<a href="/admin/questions" class="card-link">Open</a>
+				</header>
+
+				{#if questionActivity.length > 0}
+					<ul class="feed">
+						{#each questionActivity as question (question.questionHref + question.question)}
+							<li class="feed-row">
+								<div class="feed-line">
+									<span
+										class="feed-count"
+										class:active={question.todayComments > 0}
+										title={`${question.todayComments} comments today · ${question.totalComments} total`}
+									>
+										{question.todayComments > 0
+											? `+${question.todayComments}`
+											: question.totalComments}
+									</span>
+									<a href={question.questionHref} class="feed-title grow" title={question.question}>
+										{question.question}
+									</a>
+									<time
+										class="feed-date"
+										datetime={question.createdAt ?? undefined}
+										title={`Asked ${fullDate(question.createdAt)} by ${question.authorEmail}`}
+									>
+										{shortDate(question.createdAt)}
+									</time>
+								</div>
+							</li>
+						{/each}
+					</ul>
+				{:else}
+					<p class="empty-state">No question activity right now.</p>
+				{/if}
+			</article>
 		</div>
 	</section>
 
 	<section class="dashboard-section">
 		<div class="section-header">
 			<div class="section-copy">
-				<span class="eyebrow">Questions</span>
-				<h2 class="section-title">Question activity snapshot</h2>
-				<p class="section-description">
-					A readable view of which questions are drawing attention right now.
-				</p>
+				<span class="eyebrow">Trending</span>
+				<h2 class="section-title">Pages moving today</h2>
 			</div>
-			<a href="/admin/questions" class="section-link">Open question admin</a>
+			<p class="section-note">
+				vs each page's previous {data.trending?.baselineDays ?? 7} days, same time of day ·
+				<a href="/admin/analytics" class="inline-link">Analytics</a>
+			</p>
 		</div>
 
-		<div class="panel question-feed">
-			{#if questionActivity.length > 0}
-				<ul class="question-list">
-					{#each questionActivity as question}
-						<li class="question-item">
-							<div class="question-meta">
-								<span class="meta-pill success">{question.todayComments} today</span>
-								<span class="meta-pill neutral">{question.totalComments} total</span>
-								<span class="meta-text">{question.createdAt}</span>
-							</div>
+		{#if !trendingAvailable}
+			<p class="panel empty-state">Trending analytics are unavailable right now.</p>
+		{:else}
+			<div class="trending-grid">
+				<article class="panel compact-card">
+					<header class="card-head">
+						<h3 class="card-title">Real momentum</h3>
+						<span class="card-count">{formatCount(trendingBroadRows.length)}</span>
+					</header>
+					{#if trendingBroadRows.length === 0}
+						<p class="empty-state">No broad page spikes right now.</p>
+					{:else}
+						<ul class="feed">
+							{#each trendingBroadRows as row (row.path)}
+								<li class="feed-row">
+									<div class="feed-line">
+										<a href={row.path} class="feed-title" title={row.path}>{row.path}</a>
+										<span class="feed-meta">
+											{row.current_unique_visitors.toLocaleString()} uniq · {formatTrendSource(row)} ·
+											{formatShortDuration(row.avg_time_on_page_ms)}
+										</span>
+										<span
+											class="trend-num"
+											title={`${formatTrendLift(row.lift_visits)} vs a ${formatTrendBaseline(row.baseline_avg_visits)}-visit baseline`}
+										>
+											<strong>{row.current_visits.toLocaleString()}</strong>
+											<small>{formatTrendRatio(row.ratio_visits)}</small>
+										</span>
+									</div>
+								</li>
+							{/each}
+						</ul>
+					{/if}
+				</article>
 
-							<h3 class="question-title">{question.question}</h3>
+				<article class="panel compact-card">
+					<header class="card-head">
+						<h3 class="card-title">Repeat-heavy spikes</h3>
+						<span class="card-count warning">{formatCount(trendingRepeatRows.length)}</span>
+					</header>
+					{#if trendingRepeatRows.length === 0}
+						<p class="empty-state">No concentrated repeat spikes right now.</p>
+					{:else}
+						<ul class="feed">
+							{#each trendingRepeatRows as row (row.path)}
+								<li class="feed-row">
+									<div class="feed-line">
+										<a href={row.path} class="feed-title" title={row.path}>{row.path}</a>
+										<span class="feed-meta">
+											{row.current_unique_visitors.toLocaleString()} uniq · {formatTrendSource(row)}
+										</span>
+										<span
+											class="trend-num"
+											title={`${formatTrendLift(row.lift_visits)} vs a ${formatTrendBaseline(row.baseline_avg_visits)}-visit baseline`}
+										>
+											<strong>{row.current_visits.toLocaleString()}</strong>
+											<small>{formatTrendRatio(row.ratio_visits)}</small>
+										</span>
+									</div>
+								</li>
+							{/each}
+						</ul>
+					{/if}
+				</article>
+			</div>
+		{/if}
+	</section>
 
-							<div class="question-footer">
-								{#if question.authorHref}
-									<a href={question.authorHref} class="detail-link">{question.authorEmail}</a>
-								{:else}
-									<span class="detail-text">{question.authorEmail}</span>
-								{/if}
+	<section class="dashboard-section">
+		<div class="section-header">
+			<div class="section-copy">
+				<span class="eyebrow">Raw daily rows</span>
+				<h2 class="section-title">Traffic and participation</h2>
+			</div>
+			<p class="section-note">Last 30 days, unfiltered: bots and your own activity included</p>
+		</div>
 
-								{#if question.questionHref}
-									<a href={question.questionHref} class="inline-link">Open question</a>
-								{/if}
-							</div>
-						</li>
-					{/each}
-				</ul>
-			{:else}
-				<p class="empty-state">No daily question activity is available right now.</p>
-			{/if}
+		<div class="panel chart-panel">
+			<EngagementTrends data={data.dailyEngagement} />
 		</div>
 	</section>
 </div>
@@ -945,14 +777,14 @@
 	.honest-growth-mobile {
 		display: flex;
 		flex-direction: column;
-		gap: 14px;
-		margin-top: 24px;
+		gap: 12px;
+		margin-top: 20px;
 	}
 
 	.admin-dashboard {
 		display: flex;
 		flex-direction: column;
-		gap: 32px;
+		gap: 26px;
 		width: 100%;
 		max-width: 100%;
 		min-width: 0;
@@ -961,9 +793,8 @@
 	.dashboard-section,
 	.dashboard-hero,
 	.data-status,
-	.metrics-grid,
-	.insights-grid,
-	.queue-grid {
+	.queue-grid,
+	.trending-grid {
 		min-width: 0;
 	}
 
@@ -1005,7 +836,7 @@
 			var(--stone-warm)
 		);
 		border: 1px solid var(--stone-warm);
-		border-radius: 16px;
+		border-radius: 10px;
 		box-shadow: var(--shadow-md);
 		min-width: 0;
 	}
@@ -1015,7 +846,7 @@
 		align-items: center;
 		justify-content: space-between;
 		gap: 16px;
-		padding: 14px 18px;
+		padding: 12px 16px;
 		border-radius: 1rem;
 		border: 1px solid var(--stone-warm);
 		background: color-mix(in srgb, var(--stone-warm) 94%, transparent);
@@ -1024,7 +855,8 @@
 	.hero-copy {
 		display: flex;
 		align-items: center;
-		gap: 12px;
+		flex-wrap: wrap;
+		gap: 8px 12px;
 		min-width: 0;
 	}
 
@@ -1052,6 +884,12 @@
 		color: var(--warning);
 	}
 
+	.hero-asof {
+		font-size: 0.78rem;
+		color: var(--ink-mid);
+		white-space: nowrap;
+	}
+
 	.hero-actions {
 		display: flex;
 		flex-wrap: wrap;
@@ -1061,22 +899,24 @@
 	.section-copy {
 		display: flex;
 		flex-direction: column;
-		gap: 6px;
+		gap: 4px;
 		min-width: 0;
 	}
 
 	.eyebrow {
-		font-size: 0.72rem;
+		font-size: 0.7rem;
 		font-weight: 700;
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
 		color: var(--ink-mid);
 	}
 
+	/* Global h1-h3 rules add vertical padding; these headings sit in tight rows. */
 	.page-title,
 	.section-title,
 	.card-title {
 		margin: 0;
+		padding: 0;
 		color: var(--ink-bright);
 	}
 
@@ -1086,61 +926,53 @@
 		line-height: 1.1;
 	}
 
-	.section-description {
-		margin: 0;
-		color: var(--ink-mid);
-		line-height: 1.55;
-	}
-
 	.section-header {
 		display: flex;
 		align-items: flex-end;
 		justify-content: space-between;
-		gap: 16px;
-	}
-
-	.section-header.compact {
-		align-items: flex-start;
+		gap: 8px 16px;
+		flex-wrap: wrap;
 	}
 
 	.section-title {
-		font-size: 1.25rem;
+		font-size: 1.15rem;
 		font-weight: 700;
 	}
 
-	.section-link,
+	.section-note {
+		margin: 0;
+		font-size: 0.8rem;
+		color: var(--ink-mid);
+	}
+
 	.inline-link,
-	.detail-link {
+	.card-link {
 		color: var(--lamp-glow);
 		text-decoration: none;
 		font-weight: 600;
-		transition:
-			color 0.2s ease,
-			opacity 0.2s ease;
 	}
 
-	.section-link:hover,
 	.inline-link:hover,
-	.detail-link:hover {
-		color: var(--lamp-glow);
+	.card-link:hover {
+		text-decoration: underline;
 	}
 
 	.dashboard-section {
 		display: flex;
 		flex-direction: column;
-		gap: 18px;
+		gap: 12px;
 	}
 
 	.action-btn {
 		display: inline-flex;
 		align-items: center;
 		gap: 8px;
-		padding: 8px 12px;
+		padding: 7px 12px;
 		border-radius: 10px;
 		border: 1px solid var(--stone-warm);
 		background: color-mix(in srgb, var(--night-deep) 88%, var(--stone-warm));
 		color: var(--ink-bright);
-		font-size: 0.88rem;
+		font-size: 0.86rem;
 		cursor: pointer;
 		transition:
 			border-color 0.2s ease,
@@ -1186,295 +1018,255 @@
 		color: var(--success-text);
 	}
 
-	.metrics-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-		gap: 16px;
-	}
-
-	.metrics-grid :global(.stat-card) {
-		height: 100%;
-		min-height: 138px;
-		padding: 18px 20px;
-		border-radius: 16px;
-	}
-
-	.metrics-grid :global(.stat-value) {
-		font-size: 1.75rem;
-	}
-
-	.insights-grid {
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: 20px;
-	}
-
-	.chart-panel,
-	.distribution-panel {
-		overflow: hidden;
-	}
-
-	.chart-panel {
-		padding: 12px;
-	}
-
-	.engagement-panel {
-		padding: 0;
-	}
-
-	.distribution-panel :global(.enneagram-chart) {
-		background: transparent;
-		padding: 18px;
-	}
-
+	/* Compact cards: one header line, then one line per row. */
 	.queue-grid {
 		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
-		gap: 20px;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr));
+		gap: 14px;
 		align-items: start;
 	}
 
 	.trending-grid {
 		display: grid;
-		grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
-		gap: 20px;
-		min-width: 0;
+		grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+		gap: 14px;
+		align-items: start;
 	}
 
-	.trending-panel {
+	.compact-card {
 		overflow: hidden;
-	}
-
-	.trending-panel-header {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
-		gap: 12px;
-		padding: 20px 22px 16px;
-		border-bottom: 1px solid var(--stone-warm);
-		background: color-mix(in srgb, var(--night-deep) 82%, var(--stone-warm));
-	}
-
-	.count-pill.muted {
-		background: color-mix(in srgb, var(--warning) 14%, transparent);
-		color: var(--warning);
-	}
-
-	.count-pill.warning {
-		background: color-mix(in srgb, var(--warning) 14%, transparent);
-		color: var(--warning-text);
-	}
-
-	.unsubscribe-card {
-		border-color: color-mix(in srgb, var(--warning) 22%, var(--stone-edge));
-	}
-
-	.unsubscribe-item {
-		background: color-mix(in srgb, var(--warning) 3%, transparent);
-	}
-
-	.trend-list {
-		list-style: none;
-		margin: 0;
 		padding: 0;
 	}
 
-	.trend-item {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr) auto;
-		gap: 14px;
-		align-items: center;
-		padding: 14px 22px;
-		border-top: 1px solid var(--stone-warm);
-	}
-
-	.trend-item:first-child {
-		border-top: none;
-	}
-
-	.trend-item:hover {
-		background: color-mix(in srgb, var(--night-deep) 84%, var(--stone-warm));
-	}
-
-	.trend-item.repeat {
-		border-left: 2px solid color-mix(in srgb, var(--warning) 60%, transparent);
-	}
-
-	.trend-main,
-	.trend-side {
-		min-width: 0;
-	}
-
-	.trend-main {
-		display: grid;
-		gap: 5px;
-	}
-
-	.trend-path {
-		color: var(--ink-bright);
-		text-decoration: none;
-		font-weight: 700;
-		font-size: 0.9rem;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-	}
-
-	.trend-path:hover {
-		color: var(--lamp-glow);
-	}
-
-	.trend-subtitle {
-		margin: 0;
-		color: var(--ink-mid);
-		font-size: 0.76rem;
-		line-height: 1.45;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-	}
-
-	.trend-side {
-		display: grid;
-		gap: 3px;
-		justify-items: end;
-		text-align: right;
-	}
-
-	.trend-side strong {
-		color: var(--ink-bright);
-		font-size: 1rem;
-		line-height: 1;
-	}
-
-	.trend-side span,
-	.trend-side small {
-		color: var(--ink-mid);
-		font-size: 0.72rem;
-		white-space: nowrap;
-	}
-
-	.list-card,
-	.question-feed {
-		overflow: hidden;
-	}
-
-	.list-card-header {
+	.card-head {
 		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
-		gap: 12px;
-		padding: 24px 24px 18px;
+		align-items: center;
+		gap: 10px;
+		padding: 10px 14px;
 		border-bottom: 1px solid var(--stone-warm);
 		background: color-mix(in srgb, var(--night-deep) 82%, var(--stone-warm));
-	}
-
-	.list-card-meta {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-end;
-		gap: 8px;
-		flex-shrink: 0;
 	}
 
 	.card-title {
-		font-size: 1rem;
+		flex: 1 1 auto;
+		min-width: 0;
+		font-size: 0.9rem;
 		font-weight: 700;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
-	.count-pill,
-	.meta-pill {
-		display: inline-flex;
-		align-items: center;
-		justify-content: center;
-		padding: 6px 10px;
+	.card-count {
+		flex: none;
+		font-size: 0.74rem;
+		font-weight: 600;
+		color: var(--ink-mid);
+		white-space: nowrap;
+	}
+
+	.card-count.attention {
+		padding: 2px 8px;
 		border-radius: 999px;
-		font-size: 0.76rem;
-		font-weight: 700;
-		line-height: 1;
-	}
-
-	.count-pill {
 		background: color-mix(in srgb, var(--lamp-glow) 16%, transparent);
 		color: var(--lamp-glow);
+		font-weight: 700;
 	}
 
-	.detail-list,
-	.question-list {
+	.card-count.warning {
+		color: var(--warning-text);
+	}
+
+	.card-link {
+		flex: none;
+		font-size: 0.78rem;
+	}
+
+	.feed {
 		list-style: none;
 		margin: 0;
 		padding: 0;
 	}
 
-	.detail-item,
-	.question-item {
-		display: flex;
-		align-items: flex-start;
-		justify-content: space-between;
-		gap: 16px;
-		padding: 18px 24px;
+	.feed-row {
 		border-top: 1px solid var(--stone-warm);
 	}
 
-	.detail-item {
-		display: grid;
-		grid-template-columns: minmax(0, 1fr);
-		gap: 8px;
-	}
-
-	.detail-item:first-child,
-	.question-item:first-child {
+	.feed-row:first-child {
 		border-top: none;
 	}
 
-	.detail-item:hover,
-	.question-item:hover {
+	.feed-row:hover,
+	.feed-row.expanded {
 		background: color-mix(in srgb, var(--night-deep) 84%, var(--stone-warm));
 	}
 
-	.detail-main,
-	.detail-side {
-		min-width: 0;
-	}
-
-	.detail-main {
+	.feed-line {
 		display: flex;
-		flex-direction: column;
-		gap: 6px;
-	}
-
-	.detail-side {
-		display: flex;
-		flex-wrap: wrap;
 		align-items: center;
 		gap: 8px;
+		min-height: 34px;
+		padding: 5px 14px;
+		font-size: 0.84rem;
 	}
 
-	.detail-link,
-	.detail-text {
-		font-size: 0.94rem;
-		line-height: 1.35;
-		overflow-wrap: anywhere;
+	.feed-title,
+	.feed-text,
+	.feed-meta {
+		min-width: 0;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
-	.detail-text {
+	.feed-title {
+		flex: 0 1 auto;
+		max-width: 62%;
 		color: var(--ink-bright);
 		font-weight: 600;
+		text-decoration: none;
 	}
 
-	.detail-subtitle {
-		margin: 0;
-		font-size: 0.82rem;
-		line-height: 1.5;
+	.feed-title.grow {
+		flex: 1 1 auto;
+		max-width: none;
+	}
+
+	a.feed-title:hover {
+		color: var(--lamp-glow);
+	}
+
+	.feed-title.plain {
+		font-weight: 500;
+	}
+
+	.feed-meta {
+		flex: 1 1 0;
+		font-size: 0.78rem;
 		color: var(--ink-mid);
-		overflow-wrap: anywhere;
 	}
 
-	.detail-date,
-	.meta-text {
-		font-size: 0.76rem;
+	.feed-spacer {
+		flex: 1 1 0;
+	}
+
+	/* Truncated text that expands in place; the whole line is the toggle. */
+	.feed-text {
+		flex: 1 1 0;
+		padding: 0;
+		border: 0;
+		background: none;
+		color: var(--ink-bright);
+		font: inherit;
+		text-align: left;
+		cursor: pointer;
+	}
+
+	.feed-text.muted {
+		font-size: 0.78rem;
+		color: var(--ink-mid);
+	}
+
+	.feed-text:hover {
+		color: var(--lamp-glow);
+	}
+
+	.feed-date {
+		flex: none;
+		margin-left: auto;
+		font-size: 0.74rem;
 		color: var(--ink-mid);
 		white-space: nowrap;
+		font-variant-numeric: tabular-nums;
+	}
+
+	.feed-flag {
+		flex: none;
+		padding: 1px 6px;
+		border-radius: 999px;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 45%, transparent);
+		font-size: 0.66rem;
+		font-weight: 700;
+		color: var(--lamp-light);
+	}
+
+	.feed-flag.warning {
+		border-color: color-mix(in srgb, var(--warning) 45%, transparent);
+		color: var(--warning-text);
+	}
+
+	.state-chip {
+		flex: none;
+		min-width: 44px;
+		padding: 1px 6px;
+		border-radius: 999px;
+		font-size: 0.66rem;
+		font-weight: 700;
+		text-align: center;
+		color: var(--ink-mid);
+		background: color-mix(in srgb, var(--stone-warm) 85%, transparent);
+	}
+
+	.state-chip[data-state='new'] {
+		background: color-mix(in srgb, var(--lamp-glow) 18%, transparent);
+		color: var(--lamp-glow);
+	}
+
+	.state-chip[data-state='replied'] {
+		color: var(--success-text);
+	}
+
+	.feed-count {
+		flex: none;
+		min-width: 30px;
+		font-size: 0.74rem;
+		font-weight: 700;
+		text-align: right;
+		color: var(--ink-mid);
+		font-variant-numeric: tabular-nums;
+	}
+
+	.feed-count.active {
+		color: var(--success-text);
+	}
+
+	.feed-detail {
+		padding: 0 14px 10px;
+	}
+
+	.feed-body {
+		margin: 0;
+		font-size: 0.86rem;
+		line-height: 1.55;
+		white-space: pre-wrap;
+		overflow-wrap: anywhere;
+		color: var(--ink-bright);
+	}
+
+	.feed-meta-line {
+		margin: 6px 0 0;
+		font-size: 0.76rem;
+		color: var(--ink-mid);
+	}
+
+	.trend-num {
+		flex: none;
+		display: inline-flex;
+		align-items: baseline;
+		gap: 6px;
+		font-variant-numeric: tabular-nums;
+	}
+
+	.trend-num strong {
+		color: var(--ink-bright);
+		font-size: 0.86rem;
+	}
+
+	.trend-num small {
+		min-width: 34px;
+		color: var(--ink-mid);
+		font-size: 0.72rem;
+		text-align: right;
 	}
 
 	.type-badge {
@@ -1482,13 +1274,12 @@
 		align-items: center;
 		justify-content: center;
 		flex-shrink: 0;
-		width: 28px;
-		height: 28px;
-		border-radius: 0.625rem;
-		font-size: 0.78rem;
+		width: 20px;
+		height: 20px;
+		border-radius: 4px;
+		font-size: 0.7rem;
 		font-weight: 700;
 		color: white;
-		box-shadow: 0 2px 6px rgba(0, 0, 0, 0.24);
 	}
 
 	.type-badge.pending {
@@ -1532,58 +1323,16 @@
 		background: var(--type-9-color);
 	}
 
-	.question-meta {
-		display: flex;
-		align-items: center;
-		flex-wrap: wrap;
-		gap: 8px;
-		margin-bottom: 12px;
-	}
-
-	.meta-pill.success {
-		background: color-mix(in srgb, var(--success) 16%, transparent);
-		color: var(--success-text);
-	}
-
-	.meta-pill.neutral {
-		background: color-mix(in srgb, var(--stone-warm) 90%, transparent);
-		color: var(--ink-mid);
-	}
-
-	.meta-pill.warning {
-		background: color-mix(in srgb, var(--warning) 14%, transparent);
-		color: var(--warning);
-	}
-
-	.question-feed {
+	.chart-panel {
+		overflow: hidden;
 		padding: 0;
-	}
-
-	.question-item {
-		flex-direction: column;
-	}
-
-	.question-title {
-		margin: 0;
-		font-size: 1rem;
-		line-height: 1.45;
-		color: var(--ink-bright);
-	}
-
-	.question-footer {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		flex-wrap: wrap;
-		gap: 12px;
-		margin-top: 14px;
 	}
 
 	.empty-state {
 		margin: 0;
-		padding: 28px 24px;
+		padding: 14px;
 		color: var(--ink-mid);
-		font-size: 0.9rem;
+		font-size: 0.84rem;
 		line-height: 1.5;
 	}
 
@@ -1652,21 +1401,8 @@
 		justify-content: flex-end;
 	}
 
-	@media (max-width: 1600px) {
-		.queue-grid {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-	}
-
-	@media (max-width: 1200px) {
-		.insights-grid,
+	@media (max-width: 1100px) {
 		.trending-grid {
-			grid-template-columns: 1fr;
-		}
-	}
-
-	@media (max-width: 1050px) {
-		.queue-grid {
 			grid-template-columns: minmax(0, 1fr);
 		}
 	}
@@ -1699,110 +1435,6 @@
 			padding: 12px 14px;
 		}
 
-		.section-header,
-		.list-card-header,
-		.trending-panel-header,
-		.question-footer {
-			flex-direction: column;
-			align-items: flex-start;
-		}
-
-		.section-link,
-		.inline-link {
-			font-size: 0.85rem;
-		}
-
-		.metrics-grid {
-			grid-template-columns: 1fr;
-			gap: 12px;
-		}
-
-		.metrics-grid :global(.stat-card) {
-			min-height: 0;
-			padding: 16px;
-			border-radius: 1rem;
-		}
-
-		.metrics-grid :global(.stat-value) {
-			font-size: 1.4rem;
-		}
-
-		.metrics-grid :global(.sparkline-container) {
-			display: none;
-		}
-
-		.detail-item {
-			flex-direction: column;
-		}
-
-		.trend-item {
-			grid-template-columns: 1fr;
-			gap: 9px;
-			padding: 15px 18px;
-		}
-
-		/* Full, readable paths — no truncation on mobile */
-		.trend-path,
-		.trend-subtitle {
-			white-space: normal;
-			overflow: visible;
-			text-overflow: clip;
-		}
-
-		.trend-path {
-			overflow-wrap: anywhere;
-			word-break: break-word;
-			font-size: 0.95rem;
-			line-height: 1.3;
-		}
-
-		.trend-subtitle {
-			line-height: 1.4;
-		}
-
-		/* Side metrics collapse into a single inline row, divided from the path */
-		.trend-side {
-			display: flex;
-			flex-wrap: wrap;
-			align-items: baseline;
-			gap: 4px 12px;
-			margin-top: 2px;
-			padding-top: 10px;
-			border-top: 1px dashed color-mix(in srgb, var(--stone-mid) 80%, transparent);
-		}
-
-		.trend-side strong {
-			font-size: 1.25rem;
-		}
-
-		.trend-side strong::after {
-			content: ' visits';
-			margin-left: 2px;
-			font-size: 0.7rem;
-			font-weight: 500;
-			color: var(--ink-mid);
-		}
-
-		.trend-side span {
-			font-size: 0.78rem;
-		}
-
-		.trend-side small {
-			margin-left: auto;
-			padding: 2px 9px;
-			border-radius: 999px;
-			font-weight: 700;
-			background: color-mix(in srgb, var(--lamp-glow) 16%, transparent);
-			color: var(--lamp-glow);
-		}
-
-		.detail-side,
-		.list-card-meta {
-			align-items: flex-start;
-			justify-items: start;
-			text-align: left;
-		}
-
 		.modal-actions {
 			flex-direction: column-reverse;
 		}
@@ -1811,20 +1443,6 @@
 	@media (max-width: 520px) {
 		.page-title {
 			font-size: 1.15rem;
-		}
-
-		.question-item,
-		.detail-item {
-			padding-left: 14px;
-			padding-right: 14px;
-		}
-
-		.list-card-header {
-			padding: 16px 14px 14px;
-		}
-
-		.empty-state {
-			padding: 20px 14px;
 		}
 	}
 </style>

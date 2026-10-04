@@ -12,6 +12,7 @@ import { z } from 'zod';
 import { logger } from '$lib/utils/logger';
 import { loadAdminEnneagramDistribution } from '$lib/server/adminAnalytics';
 import { loadEmailSuppressionStatus } from '$lib/server/emailSuppressionStatus';
+import { loadRouteDemoTime } from '$lib/server/demoTime';
 
 const USER_DETAIL_LIMIT = 10;
 const ADMIN_USER_PAGE_SIZE = 100;
@@ -259,16 +260,9 @@ export const load: PageServerLoad = async (event) => {
 	if (!session?.user?.id) {
 		throw redirect(302, '/questions');
 	}
-	const { demo_time } = await event.parent();
-	const { data: user, error: findUserError } = await supabase
-		.from(demo_time === true ? 'profiles_demo' : 'profiles')
-		.select('id, admin, external_id')
-		.eq('id', session?.user?.id)
-		.single();
-
-	if (!user?.admin) {
-		throw redirect(307, '/questions');
-	}
+	// Same cached switch the admin layout reads, so the guard and the page
+	// queries below can all start together.
+	const demo_time = await loadRouteDemoTime(supabase);
 
 	const readPage = (name: string) => {
 		const value = Number.parseInt(event.url.searchParams.get(name) ?? '1', 10);
@@ -288,13 +282,24 @@ export const load: PageServerLoad = async (event) => {
 	const profileTable = demo_time === true ? 'profiles_demo' : 'profiles';
 	const adminSupabase = getSupabaseAdminClient() as any;
 
+	// The layout guard (parent) and the admin profile check run alongside the
+	// page queries; a non-admin still gets the redirect and the rows are discarded.
 	const [
+		,
+		{ data: user, error: findUserError },
 		profilesResult,
 		profileCountResult,
 		adminCountResult,
 		distribution,
-		unsubscribeCountResult
+		unsubscribeCountResult,
+		signupsResult
 	] = await Promise.all([
+		event.parent(),
+		supabase
+			.from(demo_time === true ? 'profiles_demo' : 'profiles')
+			.select('id, admin, external_id')
+			.eq('id', session?.user?.id)
+			.single(),
 		supabase.rpc('get_admin_users_page', {
 			p_search: userQuery.search,
 			p_filter: userQuery.filter,
@@ -311,8 +316,21 @@ export const load: PageServerLoad = async (event) => {
 		}),
 		demo_time === true
 			? Promise.resolve({ count: 0, error: null })
-			: adminSupabase.from('email_unsubscribes').select('id', { count: 'exact', head: true })
+			: adminSupabase.from('email_unsubscribes').select('id', { count: 'exact', head: true }),
+		supabase
+			.from('signups')
+			.select(
+				'id, email, name, created_at, unsubscribed_date, first_visit_at, first_landing_path, first_acquisition_source, first_referrer_host, first_entry_surface, first_touch_fingerprint',
+				{ count: 'exact' }
+			)
+			.order('created_at', { ascending: false })
+			.range(signupOffset, signupOffset + ADMIN_SIGNUP_PAGE_SIZE - 1)
 	]);
+
+	if (!user?.admin) {
+		throw redirect(307, '/questions');
+	}
+
 	const { data: profiles, error: profilesError } = profilesResult;
 	const filteredProfileCount = profiles?.[0]?.total_rows ?? 0;
 
@@ -348,31 +366,22 @@ export const load: PageServerLoad = async (event) => {
 			throw redirect(303, `${canonicalUrl.pathname}${canonicalUrl.search}`);
 		}
 	}
-	const {
-		data: signups,
-		error: signupsError,
-		count: signupCount
-	} = await supabase
-		.from('signups')
-		.select(
-			'id, email, name, created_at, unsubscribed_date, first_visit_at, first_landing_path, first_acquisition_source, first_referrer_host, first_entry_surface, first_touch_fingerprint',
-			{ count: 'exact' }
-		)
-		.order('created_at', { ascending: false })
-		.range(signupOffset, signupOffset + ADMIN_SIGNUP_PAGE_SIZE - 1);
+	const { data: signups, error: signupsError, count: signupCount } = signupsResult;
 
 	if (signupsError) {
 		logger.error('Failed to load paginated email signups', signupsError as Error);
 		throw error(500, { message: 'Failed to load email signups' });
 	}
-	const signupsWithSignals = await attachSignupSignals((signups ?? []) as SignupRow[]);
-	const profileSuppressionLookup =
+	// Signup signals and profile suppression status are independent lookups.
+	const [signupsWithSignals, profileSuppressionLookup] = await Promise.all([
+		attachSignupSignals((signups ?? []) as SignupRow[]),
 		demo_time === true
 			? { byEmail: new Map(), error: null }
-			: await loadEmailSuppressionStatus(
+			: loadEmailSuppressionStatus(
 					adminSupabase,
 					(profiles ?? []).map((profile) => profile.email)
-				);
+				)
+	]);
 
 	if (profileSuppressionLookup.error) {
 		logger.warn('Failed to load profile unsubscribe status', {

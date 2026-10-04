@@ -2,57 +2,49 @@
 import { error, redirect } from '@sveltejs/kit';
 import type { PageServerLoad } from './$types';
 
-export const load: PageServerLoad = async ({ params, locals }) => {
+export const load: PageServerLoad = async (event) => {
+	const { params, locals } = event;
 	const { slug } = params;
 	const supabase = locals.supabase;
-	const { session } = await locals.safeGetSession();
+	// hooks.server.ts already validated the JWT (auth.getUser) for this request.
+	const session = locals.session;
 
 	// Ensure user is authenticated
 	if (!session?.user?.id) {
 		throw redirect(302, '/login');
 	}
 
-	// Check if user is admin
-	const { data: profile } = await supabase
-		.from('profiles')
-		.select('admin')
-		.eq('id', session.user.id)
-		.single();
-
-	if (!profile?.admin) {
-		throw error(403, 'Forbidden - Admin access required');
-	}
-
-	// Fetch the content by person slug
-	const { data, error: fetchError } = await supabase
-		.from('blogs_famous_people')
-		.select('*')
-		.eq('person', slug)
-		.single();
+	// The admin layout guard (parent) runs alongside the content fetch; a
+	// non-admin gets its redirect and the fetched row is discarded.
+	const [, { data, error: fetchError }] = await Promise.all([
+		event.parent(),
+		// Fetch the content by person slug
+		supabase.from('blogs_famous_people').select('*').eq('person', slug).single()
+	]);
 
 	if (fetchError || !data) {
 		console.error('Error fetching content:', fetchError);
 		throw error(404, `Content not found for "${slug}"`);
 	}
 
-	// Fetch history separately (last 3 changes)
-	const { data: history } = await supabase
-		.from('blogs_famous_people_history')
-		.select('id, changed_at, new_content')
-		.eq('famous_people_id', data.id)
-		.order('changed_at', { ascending: false })
-		.limit(3);
-
-	// Fetch stage from content_people
-	let stageData = null;
-	if (data.loc) {
-		const { data: stage } = await supabase
-			.from('content_people')
-			.select('stageName')
-			.eq('loc', data.loc)
-			.single();
-		stageData = stage;
-	}
+	const [{ data: history }, stageData] = await Promise.all([
+		// Fetch history separately (last 3 changes)
+		supabase
+			.from('blogs_famous_people_history')
+			.select('id, changed_at, new_content')
+			.eq('famous_people_id', data.id)
+			.order('changed_at', { ascending: false })
+			.limit(3),
+		// Fetch stage from content_people
+		data.loc
+			? supabase
+					.from('content_people')
+					.select('stageName')
+					.eq('loc', data.loc)
+					.single()
+					.then(({ data: stage }) => stage)
+			: null
+	]);
 
 	return {
 		blog: {

@@ -7,25 +7,18 @@ import type { Actions } from './$types';
 export const load: PageServerLoad = async (event) => {
 	try {
 		const supabase = event.locals.supabase;
-		const { data: campaigns, error: campaignsError } = await supabase
-			.from('campaigns')
-			.select('*')
-			.order('start_date', { ascending: false });
+		const [
+			{ data: campaigns, error: campaignsError },
+			{ data: content, error: contentError },
+			{ data: templates, error: templatesError }
+		] = await Promise.all([
+			supabase.from('campaigns').select('*').order('start_date', { ascending: false }),
+			supabase.from('content').select('*').order('scheduled_date', { ascending: false }),
+			supabase.from('templates').select('*').order('type', { ascending: true })
+		]);
 
 		if (campaignsError) throw campaignsError;
-
-		const { data: content, error: contentError } = await supabase
-			.from('content')
-			.select('*')
-			.order('scheduled_date', { ascending: false });
-
 		if (contentError) throw contentError;
-
-		const { data: templates, error: templatesError } = await supabase
-			.from('templates')
-			.select('*')
-			.order('type', { ascending: true });
-
 		if (templatesError) throw templatesError;
 
 		return {

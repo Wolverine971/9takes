@@ -4,6 +4,10 @@ import { z } from 'zod';
 import type { RequestHandler } from './$types';
 import { requireAdmin } from '$lib/server/adminAuth';
 import { analyticsDateSchema, analyticsScopeSchema } from '$lib/validation/analyticsSchemas';
+import {
+	loadAnalyticsTimeseries,
+	rethrowAnalyticsQueryError
+} from '$lib/server/adminPageAnalytics';
 
 function parseDate(value: string | null): string | undefined {
 	if (!value) return undefined;
@@ -29,28 +33,10 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	const toDate = parseDate(url.searchParams.get('to'));
 	const scope = parseScope(url.searchParams.get('scope'));
 
-	const supabaseAny = locals.supabase as any;
-	const { data, error: rpcError } = await supabaseAny.rpc('get_page_analytics_timeseries', {
-		p_from_date: fromDate,
-		p_to_date: toDate,
-		p_scope: scope
-	});
-
-	if (rpcError) {
-		console.error('Failed to fetch analytics timeseries:', rpcError);
-		throw error(500, 'Failed to fetch analytics timeseries');
+	try {
+		const points = await loadAnalyticsTimeseries(locals.supabase, { fromDate, toDate, scope });
+		return json({ points });
+	} catch (err) {
+		rethrowAnalyticsQueryError(err);
 	}
-
-	const points = ((data ?? []) as Array<Record<string, unknown>>).map((point) => ({
-		day: String(point.day ?? ''),
-		visits: Number(point.visits || 0),
-		unique_visitors: Number(point.unique_visitors || 0),
-		authenticated_visits: Number(point.authenticated_visits || 0),
-		anonymous_visits: Number(point.anonymous_visits || 0),
-		avg_time_on_page_ms: Number(point.avg_time_on_page_ms || 0)
-	}));
-
-	return json({
-		points
-	});
 };

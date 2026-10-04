@@ -258,6 +258,37 @@ async function loadAllAuthUsers(supabase: any): Promise<User[]> {
 	return users;
 }
 
+// Use the same normalized, current suppression sources as delivery. Fail
+// closed instead of advertising a ready audience when this lookup fails.
+async function loadSuppressedEmails(
+	supabase: any,
+	profiles: EnneagramCampaignProfile[]
+): Promise<SuppressionRow[]> {
+	const emails = [
+		...new Set(
+			profiles
+				.filter((profile) => !hasValidEnneagramType(profile.enneagram))
+				.map((profile) => normalizeEmail(profile.email))
+				.filter(Boolean)
+		)
+	];
+	const batches: string[][] = [];
+	for (let offset = 0; offset < emails.length; offset += 200) {
+		batches.push(emails.slice(offset, offset + 200));
+	}
+	const results = await Promise.all(
+		batches.map(async (batch) => {
+			const { data, error } = await supabase.rpc('get_suppressed_emails', { p_emails: batch });
+			if (error) throw error;
+			if (!Array.isArray(data))
+				throw new Error('Email suppression lookup did not return an audience');
+			return data as SuppressionRow[];
+		})
+	);
+
+	return results.flat();
+}
+
 export async function loadEnneagramCampaignAudience(
 	supabase: any
 ): Promise<EnneagramCampaignAudience> {
@@ -265,12 +296,16 @@ export async function loadEnneagramCampaignAudience(
 	const recentEmailCutoff = new Date(
 		now.getTime() - ENNEAGRAM_TYPE_PROMPT_EMAIL_BUFFER_DAYS * DAY_MS
 	).toISOString();
-	const [profiles, authUsers, sequenceEnrollments, emailSends] = await Promise.all([
-		loadAllRows(
-			supabase,
-			'profiles',
-			'id, email, first_name, last_name, username, enneagram, created_at, admin'
-		),
+	const profilesPromise = loadAllRows(
+		supabase,
+		'profiles',
+		'id, email, first_name, last_name, username, enneagram, created_at, admin'
+	) as Promise<EnneagramCampaignProfile[]>;
+	// Suppression needs only the profiles, so it runs alongside the GoTrue
+	// listUsers pages (the slowest source) instead of after them.
+	const [profiles, suppressed, authUsers, sequenceEnrollments, emailSends] = await Promise.all([
+		profilesPromise,
+		profilesPromise.then((rows) => loadSuppressedEmails(supabase, rows)),
 		loadAllAuthUsers(supabase),
 		loadAllRows(supabase, 'email_sequence_enrollments', 'user_id, status', (query) =>
 			query.in('status', HELD_SEQUENCE_STATUSES)
@@ -279,29 +314,9 @@ export async function loadEnneagramCampaignAudience(
 			query.not('sent_at', 'is', null).gt('sent_at', recentEmailCutoff)
 		)
 	]);
-	// Use the same normalized, current suppression sources as delivery. Fail
-	// closed instead of advertising a ready audience when this lookup fails.
-	const emails = [
-		...new Set(
-			(profiles as EnneagramCampaignProfile[])
-				.filter((profile) => !hasValidEnneagramType(profile.enneagram))
-				.map((profile) => normalizeEmail(profile.email))
-				.filter(Boolean)
-		)
-	];
-	const suppressed: SuppressionRow[] = [];
-	for (let offset = 0; offset < emails.length; offset += 200) {
-		const { data, error } = await supabase.rpc('get_suppressed_emails', {
-			p_emails: emails.slice(offset, offset + 200)
-		});
-		if (error) throw error;
-		if (!Array.isArray(data))
-			throw new Error('Email suppression lookup did not return an audience');
-		suppressed.push(...data);
-	}
 
 	return buildEnneagramCampaignAudience({
-		profiles: profiles as EnneagramCampaignProfile[],
+		profiles,
 		authUsers,
 		unsubscribes: suppressed,
 		legacyOptOuts: [],

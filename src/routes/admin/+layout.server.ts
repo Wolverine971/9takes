@@ -8,6 +8,8 @@ import { countNewTalkNotes } from '$lib/server/talkNotes';
 type UserWithAdmin = NonNullable<App.Locals['user']> & { admin?: boolean };
 
 export const load: LayoutServerLoad = async (event) => {
+	// Lets a page refresh the notes badge after marking notes seen (src/lib/admin/talkNotesViewed.ts).
+	event.depends('admin:talk-notes');
 	const parentData = await event.parent();
 	const user = (parentData.user ?? event.locals.user) as UserWithAdmin | null;
 	let authorizedUser = user;

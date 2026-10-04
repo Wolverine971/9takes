@@ -8,6 +8,7 @@ import type { Database } from '../../../../database.types';
 
 import type { PageServerLoad } from './$types';
 import { checkDemoTime } from '../../../utils/api';
+import { loadRouteDemoTime } from '$lib/server/demoTime';
 
 type CommentRow = Database['public']['Tables']['comments']['Row'];
 type CommentDemoRow = Database['public']['Tables']['comments_demo']['Row'];
@@ -59,6 +60,12 @@ function parsePageIndex(value: string | null): number {
 
 function hasNextPage(count: number | null, loadedRows: number, page: number): boolean {
 	return count === null ? loadedRows === PAGE_SIZE : (page + 1) * PAGE_SIZE < count;
+}
+
+/** Return a settled value, or rethrow its rejection (redirects and errors pass through). */
+function unwrapSettled<T>(result: PromiseSettledResult<T>): T {
+	if (result.status === 'rejected') throw result.reason;
+	return result.value;
 }
 
 /**
@@ -289,71 +296,82 @@ export const load: PageServerLoad = async (event) => {
 	try {
 		const session = event.locals.session;
 		const locals = event.locals;
-		const { demo_time } = await event.parent();
-		const isDemo = demo_time === true;
+		// Same cached switch the admin layout reads, so the guard and every query
+		// below can start together instead of after the layout.
+		const isDemo = (await loadRouteDemoTime(locals.supabase)) === true;
 		const page = parsePageIndex(event.url.searchParams.get('page'));
-
-		// Validate user is an admin
-		const user = await validateAdmin(session, isDemo, locals.supabase);
 
 		// Table name based on demo mode
 		const commentsTable: CommentsQueryTable = isDemo ? 'comments_demo' : 'comments';
 		const profilesTable = isDemo ? 'profiles_demo' : 'profiles';
 		const profileSelection = `profiles:${profilesTable} (email, external_id)`;
 
-		// Parallelize all comment loading for better performance
-		const [
-			{ data: comments, count: commentsCount },
-			{ data: flaggedComments, count: flaggedCommentsCount },
-			{ data: blogComments, count: blogCommentsCount }
-		] = await Promise.all([
-			// Load regular comments
-			getPaginatedComments(
-				commentsTable,
-				page,
-				{
-					selectionFields: `id, comment, created_at, parent_id, parent_type, removed, ${profileSelection}`,
-					limit: PAGE_SIZE,
-					orderField: 'created_at',
-					orderDirection: { ascending: false }
-				},
-				locals.supabase
-			),
-			// Load flagged comments
-			isDemo
-				? Promise.resolve({ data: [], count: 0 })
-				: getPaginatedComments(
-						'flagged_comments',
-						page,
-						{
-							selectionFields: `id, comment_id, flagged_by, reason_id, description, created_at, removed_at, cleared_at, comments (id, comment), profiles (email, external_id), flag_reasons (reason)`,
-							limit: PAGE_SIZE,
-							filters: {
-								removed_at: null,
-								cleared_at: null
-							}
-						},
-						locals.supabase
-					),
-			// Load blog comments
-			isDemo
-				? Promise.resolve({ data: [], count: 0 })
-				: getPaginatedComments(
-						'blog_comments',
-						page,
-						{
-							selectionFields: `id, comment, created_at, blog_link, blog_type, profiles (email, external_id)`,
-							limit: PAGE_SIZE
-						},
-						locals.supabase
-					)
-		]);
-
-		// Process comments to include parent questions
-		const recentComments = (comments ?? []) as unknown as AdminComment[];
-		const processedComments = recentComments.length
-			? await attachCommentParents(recentComments, isDemo, locals.supabase)
-			: [];
+		// The layout guard (parent), the admin check, and all comment loading run
+		// in parallel. Results unwrap in the old sequential order, so a non-admin
+		// still gets the same redirect and the fetched rows are discarded.
+		const [parentResult, adminResult, commentsResult, flaggedResult, blogResult] =
+			await Promise.allSettled([
+				event.parent(),
+				validateAdmin(session, isDemo, locals.supabase),
+				// Load regular comments, then their parent questions/comments
+				getPaginatedComments(
+					commentsTable,
+					page,
+					{
+						selectionFields: `id, comment, created_at, parent_id, parent_type, removed, ${profileSelection}`,
+						limit: PAGE_SIZE,
+						orderField: 'created_at',
+						orderDirection: { ascending: false }
+					},
+					locals.supabase
+				).then(async ({ data, count }) => {
+					const recentComments = (data ?? []) as unknown as AdminComment[];
+					return {
+						data,
+						count,
+						processed: recentComments.length
+							? await attachCommentParents(recentComments, isDemo, locals.supabase)
+							: []
+					};
+				}),
+				// Load flagged comments
+				isDemo
+					? Promise.resolve({ data: [], count: 0 })
+					: getPaginatedComments(
+							'flagged_comments',
+							page,
+							{
+								selectionFields: `id, comment_id, flagged_by, reason_id, description, created_at, removed_at, cleared_at, comments (id, comment), profiles (email, external_id), flag_reasons (reason)`,
+								limit: PAGE_SIZE,
+								filters: {
+									removed_at: null,
+									cleared_at: null
+								}
+							},
+							locals.supabase
+						),
+				// Load blog comments
+				isDemo
+					? Promise.resolve({ data: [], count: 0 })
+					: getPaginatedComments(
+							'blog_comments',
+							page,
+							{
+								selectionFields: `id, comment, created_at, blog_link, blog_type, profiles (email, external_id)`,
+								limit: PAGE_SIZE
+							},
+							locals.supabase
+						)
+			]);
+		unwrapSettled(parentResult);
+		const user = unwrapSettled(adminResult);
+		const {
+			data: comments,
+			count: commentsCount,
+			processed: processedComments
+		} = unwrapSettled(commentsResult);
+		const { data: flaggedComments, count: flaggedCommentsCount } = unwrapSettled(flaggedResult);
+		const { data: blogComments, count: blogCommentsCount } = unwrapSettled(blogResult);
 
 		return {
 			user,

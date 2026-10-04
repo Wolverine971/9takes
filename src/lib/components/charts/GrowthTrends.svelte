@@ -118,11 +118,10 @@
 			key: 'humanVisitors',
 			label: 'Engaged visitors',
 			definition:
-				'People with 10+ seconds of engaged time that week. Bots that never engage and your own devices are excluded.',
+				'People with 10+ seconds of engaged time that week. Bots that never engage and your own devices are excluded. Returning = first seen in an earlier week.',
 			raw: (week) => week.rawVisitors,
 			rawLabel: 'tracked visitors, bots included',
-			extra: (week) =>
-				`${formatCount(week.returningHumanVisitors)} returning (first seen in an earlier week)`,
+			extra: (week) => `${formatCount(week.returningHumanVisitors)} returning`,
 			showFilteredShare: true
 		},
 		{
@@ -165,7 +164,8 @@
 			extra: (_lastFull, all) => {
 				const sum = (pick: (week: GrowthTrendWeek) => number) =>
 					all.reduce((total, week) => total + pick(week), 0);
-				return `Whole window: ${sum((w) => w.waitlistAdds)} waitlist · ${sum((w) => w.talkNotes)} notes · ${sum((w) => w.consultingSessions)} sessions`;
+				// Whole window, not just last week: these are too rare to read weekly.
+				return `${all.length} wks: ${sum((w) => w.waitlistAdds)} waitlist · ${sum((w) => w.talkNotes)} notes · ${sum((w) => w.consultingSessions)} sessions`;
 			}
 		}
 	];
@@ -236,15 +236,15 @@
 			{#each tiles as tile (tile.metric.key)}
 				<article class="tile" data-tone={tile.verdict.tone}>
 					<header class="tile-header">
-						<h3>{tile.metric.label}</h3>
-						<span class="verdict">{tile.verdict.label}</span>
+						<h3 title={tile.metric.definition}>{tile.metric.label}</h3>
+						<span class="verdict" title={verdictDetail(tile.verdict, fullWeeks.length)}>
+							{tile.verdict.label}
+						</span>
 					</header>
 
 					<div class="headline">
 						<strong>{formatCount(tile.lastValue)}</strong>
-						<span>
-							last full week{lastFullWeek ? ` · ${formatWeekRange(lastFullWeek.weekStart)}` : ''}
-						</span>
+						<span>last week</span>
 					</div>
 					{#if tile.lastExtra}
 						<p class="extra">{tile.lastExtra}</p>
@@ -269,86 +269,100 @@
 							></span>
 						{/if}
 					</div>
-					<div class="bar-axis" aria-hidden="true">
-						<span>{weeks[0] ? formatWeekStart(weeks[0].weekStart) : ''}</span>
-						<span class="legend"><i></i>{fullWeeks.length}-wk avg</span>
-						<span>This week</span>
-					</div>
 
 					<p class="detail">
-						{verdictDetail(tile.verdict, fullWeeks.length)} · This week so far:
-						<strong>{formatCount(tile.current)}</strong>
-						({trends.currentWeekDays}/7 days)
+						This week <strong>{formatCount(tile.current)}</strong>
+						<span
+							>so far ({trends.currentWeekDays}/7d) · avg {formatAverage(
+								tile.verdict.average
+							)}/wk</span
+						>
 					</p>
-
-					{#if tile.lastRaw !== null}
-						<p class="raw">
-							Raw last week: {formatCount(tile.lastRaw)}
-							{tile.metric.rawLabel}{tile.filteredShare !== null
-								? ` (${tile.filteredShare}% filtered out)`
-								: ''}
-						</p>
-					{/if}
-					<p class="definition">{tile.metric.definition}</p>
 				</article>
 			{/each}
 		</div>
 
-		<p class="growth-note">
-			Weeks run Monday to Sunday, Eastern time. Each bar is one week; the faded bar is this week so
-			far. Visitor counts refresh about twice a day.
-		</p>
+		<div class="growth-footer">
+			<details class="definitions">
+				<summary>How these are counted</summary>
+				<p class="growth-note">
+					Weeks run Monday to Sunday, Eastern time{lastFullWeek
+						? `; last week is ${formatWeekRange(lastFullWeek.weekStart)}`
+						: ''}. Each bar is one week, the striped bar is this week so far, and the dashed line is
+					the {fullWeeks.length}-week average. Visitor counts refresh about twice a day.
+				</p>
+				<dl>
+					{#each tiles as tile (tile.metric.key)}
+						<div>
+							<dt>{tile.metric.label}</dt>
+							<dd>
+								{tile.metric.definition}
+								{#if tile.lastRaw !== null}
+									<span class="raw">
+										Raw last week: {formatCount(tile.lastRaw)}
+										{tile.metric.rawLabel}{tile.filteredShare !== null
+											? ` (${tile.filteredShare}% filtered out)`
+											: ''}.
+									</span>
+								{/if}
+							</dd>
+						</div>
+					{/each}
+				</dl>
+			</details>
 
-		<details class="weekly-data">
-			<summary>View weekly numbers (human / raw)</summary>
-			<div class="table-scroll">
-				<table>
-					<thead>
-						<tr>
-							<th>Week of</th>
-							<th>Visitors</th>
-							<th>Returning</th>
-							<th>Comments</th>
-							<th>Contributors</th>
-							<th>Signups</th>
-							<th>Registrations</th>
-							<th>Bookings</th>
-						</tr>
-					</thead>
-					<tbody>
-						{#each [...weeks].reverse() as week, index (week.weekStart)}
+			<details class="weekly-data">
+				<summary>View weekly numbers (human / raw)</summary>
+				<div class="table-scroll">
+					<table>
+						<thead>
 							<tr>
-								<th>{formatWeekStart(week.weekStart)}{index === 0 ? ' (so far)' : ''}</th>
-								<td
-									>{formatCount(week.humanVisitors)}
-									<small>/ {formatCount(week.rawVisitors)}</small></td
-								>
-								<td>{formatCount(week.returningHumanVisitors)}</td>
-								<td
-									>{formatCount(week.humanComments)}
-									<small>/ {formatCount(week.rawComments)}</small></td
-								>
-								<td>
-									{formatCount(week.contributors)}
-									<small>({formatCount(week.returningContributors)} returning)</small>
-								</td>
-								<td
-									>{formatCount(week.realSignups)}
-									<small>/ {formatCount(week.rawSignups)}</small></td
-								>
-								<td>
-									{formatCount(week.registrations)}
-									<small>/ {formatCount(week.rawRegistrations)}</small>
-								</td>
-								<td
-									>{formatCount(week.bookings)} <small>/ {formatCount(week.rawBookings)}</small></td
-								>
+								<th>Week of</th>
+								<th>Visitors</th>
+								<th>Returning</th>
+								<th>Comments</th>
+								<th>Contributors</th>
+								<th>Signups</th>
+								<th>Registrations</th>
+								<th>Bookings</th>
 							</tr>
-						{/each}
-					</tbody>
-				</table>
-			</div>
-		</details>
+						</thead>
+						<tbody>
+							{#each [...weeks].reverse() as week, index (week.weekStart)}
+								<tr>
+									<th>{formatWeekStart(week.weekStart)}{index === 0 ? ' (so far)' : ''}</th>
+									<td
+										>{formatCount(week.humanVisitors)}
+										<small>/ {formatCount(week.rawVisitors)}</small></td
+									>
+									<td>{formatCount(week.returningHumanVisitors)}</td>
+									<td
+										>{formatCount(week.humanComments)}
+										<small>/ {formatCount(week.rawComments)}</small></td
+									>
+									<td>
+										{formatCount(week.contributors)}
+										<small>({formatCount(week.returningContributors)} returning)</small>
+									</td>
+									<td
+										>{formatCount(week.realSignups)}
+										<small>/ {formatCount(week.rawSignups)}</small></td
+									>
+									<td>
+										{formatCount(week.registrations)}
+										<small>/ {formatCount(week.rawRegistrations)}</small>
+									</td>
+									<td
+										>{formatCount(week.bookings)}
+										<small>/ {formatCount(week.rawBookings)}</small></td
+									>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				</div>
+			</details>
+		</div>
 	{/if}
 </div>
 
@@ -381,19 +395,19 @@
 
 	.tile-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-		gap: 16px;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 12px;
 	}
 
 	.tile {
 		--tone-color: var(--ink-mid);
 		display: flex;
 		flex-direction: column;
-		gap: 8px;
+		gap: 6px;
 		min-width: 0;
-		padding: 18px 20px 16px;
+		padding: 12px 14px;
 		border: 1px solid var(--stone-edge);
-		border-radius: 16px;
+		border-radius: 10px;
 		background: linear-gradient(
 			180deg,
 			color-mix(in srgb, var(--stone-warm) 94%, white 6%),
@@ -423,7 +437,10 @@
 
 	h3 {
 		margin: 0;
-		font-size: 0.82rem;
+		padding: 0;
+		min-width: 0;
+		cursor: help;
+		font-size: 0.72rem;
 		font-weight: 700;
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
@@ -432,12 +449,12 @@
 
 	.verdict {
 		flex: none;
-		padding: 4px 10px;
+		padding: 2px 8px;
 		border-radius: 999px;
 		border: 1px solid color-mix(in srgb, var(--tone-color) 45%, transparent);
 		background: color-mix(in srgb, var(--tone-color) 12%, transparent);
 		color: var(--tone-color);
-		font-size: 0.72rem;
+		font-size: 0.68rem;
 		font-weight: 700;
 		white-space: nowrap;
 	}
@@ -450,7 +467,7 @@
 	}
 
 	.headline strong {
-		font-size: 2rem;
+		font-size: 1.6rem;
 		line-height: 1;
 		color: var(--ink-bright);
 	}
@@ -462,7 +479,7 @@
 	}
 
 	.extra {
-		margin: -2px 0 0;
+		margin: -4px 0 0;
 	}
 
 	.bars {
@@ -473,8 +490,8 @@
 		grid-template-rows: 100%;
 		align-items: end;
 		gap: 2px;
-		height: 56px;
-		margin-top: 6px;
+		height: 36px;
+		margin-top: 2px;
 		border-bottom: 1px solid var(--stone-edge);
 	}
 
@@ -513,57 +530,61 @@
 		pointer-events: none;
 	}
 
-	.bar-axis {
-		display: flex;
-		justify-content: space-between;
-		gap: 8px;
-		font-size: 0.66rem;
-		color: var(--ink-muted);
-	}
-
-	.legend {
-		display: inline-flex;
-		align-items: center;
-		gap: 5px;
-	}
-
-	.legend i {
-		display: inline-block;
-		width: 14px;
-		border-top: 1px dashed var(--ink-mid);
-	}
-
-	.detail,
-	.raw,
-	.definition {
-		margin: 0;
-		font-size: 0.76rem;
-		line-height: 1.45;
-	}
-
 	.detail {
+		margin: 0;
+		font-size: 0.74rem;
+		line-height: 1.4;
 		color: var(--ink-bright);
 	}
 
-	.raw {
+	.detail span {
 		color: var(--ink-mid);
 	}
 
-	.definition {
-		padding-top: 8px;
-		border-top: 1px solid var(--stone-edge);
-		color: var(--ink-muted);
+	.growth-footer {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px 24px;
+	}
+
+	.growth-footer details[open] {
+		flex-basis: 100%;
 	}
 
 	.growth-note {
-		margin: 0;
-		font-size: 0.72rem;
+		margin: 10px 0 0;
+		font-size: 0.74rem;
 		line-height: 1.5;
 		color: var(--ink-mid);
 	}
 
+	.definitions,
 	.weekly-data {
 		font-size: 0.78rem;
+	}
+
+	.definitions dl {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+		gap: 10px 20px;
+		margin: 10px 0 0;
+	}
+
+	.definitions dt {
+		font-weight: 700;
+		color: var(--ink-bright);
+	}
+
+	.definitions dd {
+		margin: 2px 0 0;
+		line-height: 1.45;
+		color: var(--ink-mid);
+	}
+
+	.raw {
+		display: block;
+		margin-top: 2px;
+		color: var(--ink-muted);
 	}
 
 	summary {
@@ -607,12 +628,28 @@
 	}
 
 	@media (max-width: 520px) {
+		.tile-grid {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			gap: 8px;
+		}
+
 		.tile {
-			padding: 16px;
+			padding: 10px 12px;
+		}
+
+		/* Two narrow columns: the verdict drops under the label instead of squeezing it. */
+		.tile-header {
+			flex-wrap: wrap;
+			align-items: flex-start;
+			gap: 4px;
 		}
 
 		.headline strong {
-			font-size: 1.6rem;
+			font-size: 1.35rem;
+		}
+
+		.detail span {
+			display: block;
 		}
 	}
 </style>

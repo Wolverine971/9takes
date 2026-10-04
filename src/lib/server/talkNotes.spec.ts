@@ -17,6 +17,7 @@ import {
 	countNewTalkNotes,
 	createTalkNote,
 	getTalkNotesOverview,
+	markTalkNotesViewed,
 	isTalkToken,
 	loadTalkReply,
 	newTalkToken,
@@ -31,7 +32,7 @@ import {
 type Row = Record<string, any>;
 
 // Minimal in-memory stand-in for the service-role client: enough of the
-// PostgREST builder (insert/select/update/eq/order/limit, head counts) and
+// PostgREST builder (insert/select/update/eq/is/in/order/limit, head counts) and
 // storage API for talkNotes.ts.
 function createFakeSupabase(initial: { talk_notes?: Row[]; coaching_waitlist?: Row[] } = {}) {
 	const tables: Record<string, Row[]> = {
@@ -44,6 +45,7 @@ function createFakeSupabase(initial: { talk_notes?: Row[]; coaching_waitlist?: R
 
 	function query(table: string) {
 		const filters: Array<[string, unknown]> = [];
+		const inFilters: Array<[string, unknown[]]> = [];
 		let op: 'select' | 'insert' | 'update' = 'select';
 		let payload: Row | null = null;
 		let headCount = false;
@@ -62,10 +64,14 @@ function createFakeSupabase(initial: { talk_notes?: Row[]; coaching_waitlist?: R
 				tables[table].push(row);
 				return { data: mode === 'many' ? [row] : row, error: null };
 			}
-			const matching = tables[table].filter((row) => filters.every(([c, v]) => row[c] === v));
+			const matching = tables[table].filter(
+				(row) =>
+					filters.every(([c, v]) => (row[c] ?? null) === v) &&
+					inFilters.every(([c, values]) => values.includes(row[c]))
+			);
 			if (op === 'update') {
 				matching.forEach((row) => Object.assign(row, payload));
-				return { data: null, error: null };
+				return { data: matching, error: null };
 			}
 			if (headCount) return { data: null, count: matching.length, error: null };
 			return { data: mode === 'many' ? matching : (matching[0] ?? null), error: null };
@@ -79,6 +85,8 @@ function createFakeSupabase(initial: { talk_notes?: Row[]; coaching_waitlist?: R
 			insert: (value: Row) => ((op = 'insert'), (payload = value), api),
 			update: (value: Row) => ((op = 'update'), (payload = value), api),
 			eq: (column: string, value: unknown) => (filters.push([column, value]), api),
+			is: (column: string, value: unknown) => (filters.push([column, value]), api),
+			in: (column: string, values: unknown[]) => (inFilters.push([column, values]), api),
 			order: () => api,
 			limit: () => api,
 			single: async () => run('one'),
@@ -518,15 +526,39 @@ describe('new-note alert', () => {
 });
 
 describe('admin overview', () => {
-	it('counts unanswered notes for the nav badge', async () => {
+	it('counts open notes DJ has not seen yet for the nav badge', async () => {
 		const db = createFakeSupabase({
 			talk_notes: [
 				noteRow({ id: 'a', status: 'new' }),
 				noteRow({ id: 'b', status: 'replied' }),
-				noteRow({ id: 'c', status: 'new' })
+				noteRow({ id: 'c', status: 'new' }),
+				noteRow({ id: 'd', status: 'new', viewed_at: '2026-10-03T12:00:00Z' })
 			]
 		});
 		expect(await countNewTalkNotes({ supabase: db.client })).toBe(2);
+	});
+
+	it('marks notes viewed once and ignores invalid or already-seen ids', async () => {
+		const unseen = '11111111-2222-4333-8444-000000000001';
+		const seen = '11111111-2222-4333-8444-000000000002';
+		const db = createFakeSupabase({
+			talk_notes: [
+				noteRow({ id: unseen, status: 'new' }),
+				noteRow({ id: seen, status: 'new', viewed_at: '2026-10-01T09:00:00Z' })
+			]
+		});
+		const now = () => new Date('2026-10-03T15:00:00Z');
+
+		expect(
+			await markTalkNotesViewed([unseen, seen, 'not-a-uuid', 42], { supabase: db.client, now })
+		).toBe(1);
+		expect(db.tables.talk_notes.find((row) => row.id === unseen)?.viewed_at).toBe(
+			'2026-10-03T15:00:00.000Z'
+		);
+		expect(db.tables.talk_notes.find((row) => row.id === seen)?.viewed_at).toBe(
+			'2026-10-01T09:00:00Z'
+		);
+		expect(await markTalkNotesViewed([], { supabase: db.client, now })).toBe(0);
 	});
 
 	it('summarizes notes and previews the latest unarchived ones', async () => {
@@ -548,6 +580,7 @@ describe('admin overview', () => {
 		const overview = await getTalkNotesOverview({ supabase: db.client });
 		expect(overview).toMatchObject({
 			newCount: 1,
+			unseenCount: 1,
 			repliedCount: 1,
 			archivedCount: 1,
 			totalCount: 3,
@@ -564,5 +597,7 @@ describe('admin overview', () => {
 		expect(overview.latest[0].preview.startsWith('Line one x')).toBe(true);
 		expect(overview.latest[0].preview).toHaveLength(140);
 		expect(overview.latest[0].preview.endsWith('…')).toBe(true);
+		expect(overview.latest[0].body).toBe(`Line one\n\n${'x'.repeat(200)}`);
+		expect(overview.latest[0].viewedAt).toBeNull();
 	});
 });

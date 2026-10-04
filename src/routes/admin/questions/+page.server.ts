@@ -4,6 +4,7 @@ import { error, fail, redirect } from '@sveltejs/kit';
 import { z } from 'zod';
 import { guardAdminActions } from '$lib/server/adminAuth';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { loadRouteDemoTime } from '$lib/server/demoTime';
 import {
 	MAX_PINNED_COMMENTS,
 	normalizePinnedCommentIds
@@ -30,49 +31,20 @@ type AdminTagOption = {
 const QUESTION_PAGE_SIZE = 100;
 const ANSWER_SNIPPET_LENGTH = 60;
 
-type QuestionCurationRow = {
-	id: number;
-	starter_rank: number | null;
-	pinned_comment_ids: number[];
-};
+// Columns shared by the live and demo question tables.
+const QUESTION_COLUMNS =
+	'id, author_id, comment_count, context, created_at, data, es_id, flagged, img_url, last_comment_date, name, question, question_formatted, removed, tagged, updated_at, url, question_tag(*)';
 
-/**
- * Best-effort read of the curation columns (starter_rank, pinned_comment_ids)
- * for the loaded page of questions. Isolated from the main select so the admin
- * page still loads if 20260906120100_question_starters_and_pins.sql has not
- * been applied yet.
- */
-async function loadCurationByQuestionId(
-	db: any,
-	questionIds: number[]
-): Promise<Map<number, QuestionCurationRow>> {
-	const curationById = new Map<number, QuestionCurationRow>();
-	if (!questionIds.length) return curationById;
+/** Coerce a `starter_rank` column value into a positive rank or null. */
+function normalizeStarterRank(raw: unknown): number | null {
+	const rank = Number(raw);
+	return Number.isInteger(rank) && rank > 0 ? rank : null;
+}
 
-	const { data, error: curationError } = await db
-		.from('questions')
-		.select('id, starter_rank, pinned_comment_ids')
-		.in('id', questionIds);
-
-	if (curationError) {
-		console.warn('Question curation columns unavailable', curationError.message ?? curationError);
-		return curationById;
-	}
-
-	for (const row of (data ?? []) as Array<{
-		id: number;
-		starter_rank: number | null;
-		pinned_comment_ids: unknown;
-	}>) {
-		const rank = Number(row.starter_rank);
-		curationById.set(row.id, {
-			id: row.id,
-			starter_rank: Number.isInteger(rank) && rank > 0 ? rank : null,
-			pinned_comment_ids: normalizePinnedCommentIds(row.pinned_comment_ids)
-		});
-	}
-
-	return curationById;
+/** Return a settled value, or rethrow its rejection (redirects and errors pass through). */
+function unwrapSettled<T>(result: PromiseSettledResult<T>): T {
+	if (result.status === 'rejected') throw result.reason;
+	return result.value;
 }
 
 async function validateAdmin(
@@ -108,41 +80,56 @@ export const load: PageServerLoad = async (event) => {
 	try {
 		const session = event.locals.session;
 		const supabase = event.locals.supabase;
-		const { demo_time } = await event.parent();
-		const isDemo = demo_time === true;
+		// Same cached switch the admin layout reads; resolving it here lets the
+		// guard and every query below start together instead of after the layout.
+		const isDemo = (await loadRouteDemoTime(supabase)) === true;
 		const db = supabase as any;
 		const requestedPage = Number.parseInt(event.url.searchParams.get('page') ?? '1', 10);
 		const page = Number.isSafeInteger(requestedPage) && requestedPage > 0 ? requestedPage : 1;
 		const offset = (page - 1) * QUESTION_PAGE_SIZE;
 
-		// Validate user is an admin
-		const user = await validateAdmin(session, isDemo, supabase);
+		// Live questions carry the curation columns and an FK to question_keywords,
+		// so both ride along in the main select. Demo rows have neither.
+		const questionColumns = isDemo
+			? `${QUESTION_COLUMNS}, profiles_demo ( external_id, email, enneagram )`
+			: `${QUESTION_COLUMNS}, profiles ( external_id, email, enneagram ), starter_rank, pinned_comment_ids, question_keywords ( question_id, keywords )`;
+
+		// The layout guard (parent) and the admin check run alongside the queries.
+		// Results unwrap in the old sequential order, so a non-admin still gets the
+		// same redirect and the fetched rows are discarded.
+		const [parentResult, adminResult, questionsResult, categoriesResult] = await Promise.allSettled(
+			[
+				event.parent(),
+				validateAdmin(session, isDemo, supabase),
+				db
+					.from(isDemo ? 'questions_demo' : 'questions')
+					.select(questionColumns, { count: 'exact' })
+					.order('created_at', { ascending: false })
+					.range(offset, offset + QUESTION_PAGE_SIZE - 1),
+				// Load the current leaf-category taxonomy so manual admin edits match AI tagging.
+				supabase
+					.from('question_categories')
+					.select('id, category_name')
+					.eq('level', 3)
+					.order('category_name', { ascending: true })
+			]
+		);
+		unwrapSettled(parentResult);
+		const user = unwrapSettled(adminResult);
 
 		// Get questions with related data
 		const {
 			data: questions,
 			error: questionsError,
 			count: questionCount
-		} = await db
-			.from(isDemo ? 'questions_demo' : 'questions')
-			.select(
-				`id, author_id, comment_count, context, created_at, data, es_id, flagged, img_url, last_comment_date, name, question, question_formatted, removed, tagged, updated_at, url, question_tag(*), ${isDemo ? 'profiles_demo' : 'profiles'} ( external_id, email, enneagram )`,
-				{ count: 'exact' }
-			)
-			.order('created_at', { ascending: false })
-			.range(offset, offset + QUESTION_PAGE_SIZE - 1);
+		} = unwrapSettled(questionsResult);
 
 		if (questionsError) {
 			console.error('Error fetching questions:', questionsError);
 			throw error(500, { message: 'Failed to load questions' });
 		}
 
-		// Load the current leaf-category taxonomy so manual admin edits match AI tagging.
-		const { data: questionCategories, error: tagsError } = await supabase
-			.from('question_categories')
-			.select('id, category_name')
-			.eq('level', 3)
-			.order('category_name', { ascending: true });
+		const { data: questionCategories, error: tagsError } = unwrapSettled(categoriesResult);
 
 		if (tagsError) {
 			console.error('Error fetching tags:', tagsError);
@@ -159,20 +146,30 @@ export const load: PageServerLoad = async (event) => {
 					tag_name: category.category_name
 				})) ?? [];
 
-		const questionIds = ((questions ?? []) as Array<{ id: number }>).map((question) => question.id);
-		const { data: questionKeywords, error: questionKeywordsError } = questionIds.length
-			? await supabase
-					.from(`question_keywords`)
-					.select('question_id, keywords')
-					.in('question_id', questionIds)
-			: { data: [], error: null };
+		let questionKeywords: QuestionKeywordRow[] = [];
+		if (isDemo) {
+			const questionIds = ((questions ?? []) as Array<{ id: number }>).map(
+				(question) => question.id
+			);
+			const { data, error: questionKeywordsError } = questionIds.length
+				? await supabase
+						.from(`question_keywords`)
+						.select('question_id, keywords')
+						.in('question_id', questionIds)
+				: { data: [], error: null };
 
-		if (questionKeywordsError) {
-			console.error('Error fetching keywords:', questionKeywordsError);
+			if (questionKeywordsError) {
+				console.error('Error fetching keywords:', questionKeywordsError);
+			}
+			questionKeywords = data ?? [];
+		} else {
+			questionKeywords = (
+				(questions ?? []) as Array<{ question_keywords?: QuestionKeywordRow[] }>
+			).flatMap((question) => question.question_keywords ?? []);
 		}
 
 		// Map keywords to questions
-		const questionKeywordsMap = (questionKeywords ?? []).reduce(
+		const questionKeywordsMap = questionKeywords.reduce(
 			(map: Record<number, QuestionKeywordRow>, content) => {
 				if (content.question_id !== null) {
 					map[content.question_id] = content;
@@ -182,17 +179,14 @@ export const load: PageServerLoad = async (event) => {
 			{}
 		);
 
-		const curationById = isDemo
-			? new Map<number, QuestionCurationRow>()
-			: await loadCurationByQuestionId(db, questionIds);
-
-		const questionsWithKeywords = (questions ?? []).map((question: any) => {
+		const questionsWithKeywords = (questions ?? []).map((row: any) => {
+			// The embedded keyword rows are folded into `keywords` below, not returned.
+			const { question_keywords, ...question } = row;
 			const keywordRow = questionKeywordsMap[question.id];
-			const curation = curationById.get(question.id);
 			const decorated = {
 				...question,
-				starter_rank: curation?.starter_rank ?? null,
-				pinned_comment_ids: curation?.pinned_comment_ids ?? []
+				starter_rank: normalizeStarterRank(question.starter_rank),
+				pinned_comment_ids: normalizePinnedCommentIds(question.pinned_comment_ids)
 			};
 			if (keywordRow) {
 				return {

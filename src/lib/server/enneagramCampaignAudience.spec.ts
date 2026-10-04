@@ -172,4 +172,49 @@ describe('Enneagram campaign audience', () => {
 			});
 		}
 	);
+
+	it('looks up suppression alongside GoTrue users, in parallel batches', async () => {
+		const profiles = Array.from({ length: 450 }, (_, index) => profile(`p${index}`));
+		let authUsersLoaded = false;
+		let inFlight = 0;
+		let maxInFlight = 0;
+		const rpc = vi.fn(async () => {
+			const overlappedAuthUsers = !authUsersLoaded;
+			inFlight += 1;
+			maxInFlight = Math.max(maxInFlight, inFlight);
+			await new Promise((resolve) => setTimeout(resolve, 5));
+			inFlight -= 1;
+			return { data: overlappedAuthUsers ? [] : null, error: null };
+		});
+		const supabase = {
+			rpc,
+			auth: {
+				admin: {
+					listUsers: vi.fn(async () => {
+						await new Promise((resolve) => setTimeout(resolve, 20));
+						authUsersLoaded = true;
+						return { data: { users: profiles.map((row) => authUser(row.id)) }, error: null };
+					})
+				}
+			},
+			from: vi.fn((table: string) => {
+				const result = { data: table === 'profiles' ? profiles : [], error: null };
+				const query: any = {
+					select: () => query,
+					range: () => query,
+					in: () => query,
+					not: () => query,
+					gt: () => query,
+					then: (resolve: (value: unknown) => unknown) => Promise.resolve(result).then(resolve)
+				};
+				return query;
+			})
+		};
+
+		// A batch that started after listUsers resolved returns null and fails closed.
+		const audience = await loadEnneagramCampaignAudience(supabase);
+		expect(rpc).toHaveBeenCalledTimes(3);
+		expect(maxInFlight).toBe(3);
+		expect(audience.counts.ready).toBe(450);
+	});
 });

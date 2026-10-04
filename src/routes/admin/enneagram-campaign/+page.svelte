@@ -1,12 +1,30 @@
 <!-- src/routes/admin/enneagram-campaign/+page.svelte -->
 <script lang="ts">
+	import { onMount } from 'svelte';
+	import { invalidate } from '$app/navigation';
 	import { resolve } from '$app/paths';
 	import HtmlPreviewFrame from '$lib/components/admin/HtmlPreviewFrame.svelte';
-	import type { EnneagramCampaignStatus } from '$lib/server/enneagramCampaignAudience';
+	import type {
+		EnneagramCampaignAudience,
+		EnneagramCampaignStatus
+	} from '$lib/server/enneagramCampaignAudience';
 	import type { PageData } from './$types';
+
+	// Must match AUDIENCE_DEPENDENCY in +page.server.ts.
+	const AUDIENCE_DEPENDENCY = 'admin:enneagram-campaign-audience';
+	const METRIC_LABELS = ['Eligible to send', 'Missing a type', 'Held back', 'Already typed'];
+	const SKELETON_ROWS = [0, 1, 2, 3, 4, 5];
 
 	let { data }: { data: PageData } = $props();
 	let selectedStatus = $state<'all' | EnneagramCampaignStatus>('ready');
+	// A full page load arrives without the audience (see +page.server.ts); hold the
+	// skeleton until the re-request below streams it in.
+	const audiencePending = new Promise<EnneagramCampaignAudience>(() => {});
+	let audiencePromise = $derived(data.audience ?? audiencePending);
+
+	onMount(() => {
+		if (!data.audience) void invalidate(AUDIENCE_DEPENDENCY);
+	});
 
 	const filters: Array<{ value: 'all' | EnneagramCampaignStatus; label: string }> = [
 		{ value: 'ready', label: 'Ready now' },
@@ -21,12 +39,6 @@
 		{ value: 'duplicate_email', label: 'Duplicate email' },
 		{ value: 'all', label: 'All missing-type profiles' }
 	];
-
-	let visibleRows = $derived(
-		selectedStatus === 'all'
-			? data.audience.rows
-			: data.audience.rows.filter((row) => row.status === selectedStatus)
-	);
 
 	function formatDate(value: string | null): string {
 		if (!value) return 'Unknown';
@@ -94,83 +106,130 @@
 		</p>
 	</section>
 
-	<section class="metric-grid" aria-label="Audience summary">
-		<article class="metric primary">
-			<span>Eligible to send</span>
-			<strong>{data.audience.counts.ready}</strong>
-			<small>live type missing and seven-day email buffer clear</small>
-		</article>
-		<article class="metric">
-			<span>Missing a type</span>
-			<strong>{data.audience.totalMissingType}</strong>
-			<small>stored value is not 1–9</small>
-		</article>
-		<article class="metric">
-			<span>Held back</span>
-			<strong>{data.audience.totalHeld}</strong>
-			<small>kept out by campaign safety rules</small>
-		</article>
-		<article class="metric">
-			<span>Already typed</span>
-			<strong>{data.audience.totalWithType}</strong>
-			<small>excluded from this campaign</small>
-		</article>
-	</section>
+	{#await audiencePromise}
+		<section class="metric-grid" aria-label="Audience summary" aria-busy="true">
+			{#each METRIC_LABELS as label, index (label)}
+				<article class="metric" class:primary={index === 0}>
+					<span>{label}</span>
+					<strong class="skeleton-value" aria-hidden="true"></strong>
+					<small>Loading audience…</small>
+				</article>
+			{/each}
+		</section>
+	{:then audience}
+		<section class="metric-grid" aria-label="Audience summary">
+			<article class="metric primary">
+				<span>Eligible to send</span>
+				<strong>{audience.counts.ready}</strong>
+				<small>live type missing and seven-day email buffer clear</small>
+			</article>
+			<article class="metric">
+				<span>Missing a type</span>
+				<strong>{audience.totalMissingType}</strong>
+				<small>stored value is not 1–9</small>
+			</article>
+			<article class="metric">
+				<span>Held back</span>
+				<strong>{audience.totalHeld}</strong>
+				<small>kept out by campaign safety rules</small>
+			</article>
+			<article class="metric">
+				<span>Already typed</span>
+				<strong>{audience.totalWithType}</strong>
+				<small>excluded from this campaign</small>
+			</article>
+		</section>
+	{:catch error}
+		<section class="safety-banner" role="alert" aria-label="Audience status">
+			<div>
+				<strong>Audience unavailable</strong>
+			</div>
+			<p>
+				{error?.message || 'The audience lookup failed.'} Nobody is marked ready until it loads; reload
+				to retry.
+			</p>
+		</section>
+	{/await}
 
 	<section class="content-grid">
 		<div class="panel audience-panel">
-			<div class="panel-heading">
-				<div>
-					<p class="section-kicker">Dynamic audience</p>
-					<h2>{visibleRows.length} profiles</h2>
+			{#await audiencePromise}
+				<div class="panel-heading">
+					<div>
+						<p class="section-kicker">Dynamic audience</p>
+						<h2>Loading profiles…</h2>
+					</div>
 				</div>
-				<label>
-					<span>View</span>
-					<select bind:value={selectedStatus}>
-						{#each filters as filter (filter.value)}
-							<option value={filter.value}>{filter.label}</option>
-						{/each}
-					</select>
-				</label>
-			</div>
+				<div class="skeleton-rows" aria-busy="true" aria-label="Loading audience">
+					{#each SKELETON_ROWS as row (row)}
+						<span class="skeleton-row"></span>
+					{/each}
+				</div>
+			{:then audience}
+				{@const visibleRows =
+					selectedStatus === 'all'
+						? audience.rows
+						: audience.rows.filter((row) => row.status === selectedStatus)}
+				<div class="panel-heading">
+					<div>
+						<p class="section-kicker">Dynamic audience</p>
+						<h2>{visibleRows.length} profiles</h2>
+					</div>
+					<label>
+						<span>View</span>
+						<select bind:value={selectedStatus}>
+							{#each filters as filter (filter.value)}
+								<option value={filter.value}>{filter.label}</option>
+							{/each}
+						</select>
+					</label>
+				</div>
 
-			<div class="hold-breakdown">
-				<span>Suppressed <strong>{data.audience.counts.suppressed}</strong></span>
-				<span>Unconfirmed <strong>{data.audience.counts.unconfirmed}</strong></span>
-				<span>Other sequence <strong>{data.audience.counts.active_sequence}</strong></span>
-				<span>Stalled sequence <strong>{data.audience.counts.errored_sequence}</strong></span>
-				<span>Recent email <strong>{data.audience.counts.recent_email}</strong></span>
-				<span>New <strong>{data.audience.counts.recent}</strong></span>
-				<span>Admins <strong>{data.audience.counts.admin}</strong></span>
-			</div>
+				<div class="hold-breakdown">
+					<span>Suppressed <strong>{audience.counts.suppressed}</strong></span>
+					<span>Unconfirmed <strong>{audience.counts.unconfirmed}</strong></span>
+					<span>Other sequence <strong>{audience.counts.active_sequence}</strong></span>
+					<span>Stalled sequence <strong>{audience.counts.errored_sequence}</strong></span>
+					<span>Recent email <strong>{audience.counts.recent_email}</strong></span>
+					<span>New <strong>{audience.counts.recent}</strong></span>
+					<span>Admins <strong>{audience.counts.admin}</strong></span>
+				</div>
 
-			<div class="table-wrap">
-				<table>
-					<thead>
-						<tr>
-							<th>Recipient</th>
-							<th>Joined</th>
-							<th>Last email</th>
-							<th>Stored type</th>
-							<th>Campaign state</th>
-						</tr>
-					</thead>
-					<tbody>
-						{#each visibleRows as row (row.id)}
+				<div class="table-wrap">
+					<table>
+						<thead>
 							<tr>
-								<td>
-									<strong>{row.name}</strong>
-									<span>{row.email || 'No valid email'}</span>
-								</td>
-								<td>{formatDate(row.createdAt)}</td>
-								<td>{row.lastEmailSentAt ? formatDate(row.lastEmailSentAt) : 'Buffer clear'}</td>
-								<td><code>{row.storedEnneagram || 'empty'}</code></td>
-								<td><span class="pill status-{row.status}">{row.statusLabel}</span></td>
+								<th>Recipient</th>
+								<th>Joined</th>
+								<th>Last email</th>
+								<th>Stored type</th>
+								<th>Campaign state</th>
 							</tr>
-						{/each}
-					</tbody>
-				</table>
-			</div>
+						</thead>
+						<tbody>
+							{#each visibleRows as row (row.id)}
+								<tr>
+									<td>
+										<strong>{row.name}</strong>
+										<span>{row.email || 'No valid email'}</span>
+									</td>
+									<td>{formatDate(row.createdAt)}</td>
+									<td>{row.lastEmailSentAt ? formatDate(row.lastEmailSentAt) : 'Buffer clear'}</td>
+									<td><code>{row.storedEnneagram || 'empty'}</code></td>
+									<td><span class="pill status-{row.status}">{row.statusLabel}</span></td>
+								</tr>
+							{/each}
+						</tbody>
+					</table>
+				</div>
+			{:catch}
+				<div class="panel-heading">
+					<div>
+						<p class="section-kicker">Dynamic audience</p>
+						<h2>Audience unavailable</h2>
+					</div>
+				</div>
+			{/await}
 		</div>
 
 		<aside class="panel preview-panel">
@@ -436,6 +495,47 @@
 
 	.preview-panel :global(iframe) {
 		min-height: 640px;
+	}
+
+	.skeleton-value,
+	.skeleton-row {
+		display: block;
+		border-radius: 4px;
+		background: color-mix(in srgb, var(--ink-mid) 14%, transparent);
+		animation: skeleton-pulse 1.4s ease-in-out infinite;
+	}
+
+	.skeleton-value {
+		width: 3.5rem;
+		height: 2.4rem;
+	}
+
+	.skeleton-rows {
+		display: grid;
+		gap: 0.6rem;
+		margin-top: 1rem;
+	}
+
+	.skeleton-row {
+		height: 2.75rem;
+	}
+
+	@keyframes skeleton-pulse {
+		0%,
+		100% {
+			opacity: 0.55;
+		}
+
+		50% {
+			opacity: 1;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.skeleton-value,
+		.skeleton-row {
+			animation: none;
+		}
 	}
 
 	.copy-notes {
