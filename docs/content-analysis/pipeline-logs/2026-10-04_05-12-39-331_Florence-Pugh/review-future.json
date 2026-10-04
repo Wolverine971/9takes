@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "59cd3d2d788cf44aec5cb24fa4d04eebeb7e8ca5dd8d1455f7c378f84fb15600",
+  "evidence_sha256": "a3890f1c3cc53541a8e3dd5e23b9144eeb502efd5773643badc434f7dcec0419",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "Either way, for four years she has declined either to fight that conflict in public or to resolve it.",
+      "problem": "This is a relative duration tied to the draft date. It will be wrong at the next anniversary. The same paragraph's \"Pugh has never told her side\" is an open-ended status claim and is not in the claim inventory at all. C103 and its companions C21 and C102 are marked `stable` with empty review triggers, even though the subject is a disputed, sensitive, unresolved matter. One retrospective interview, memoir or podcast could falsify both sentences, and the paragraph uses this silence as thesis evidence (\"fits the same exit pattern\"). The record already has dated deflections that would serve as absolute anchors: British Vogue, September 2024 (\"politely move away from that\", S28 context) and Vanity Fair, September 2026 (S18 context).",
+      "acceptance_test": "No relative duration (\"for four years\") remains in the article. The silence is anchored to dates, for example: \"From 2022 through her September 2026 Vanity Fair cover story, she declined…\", with the latest dated deflection cited. \"Pugh has never told her side\" is either dated the same way (\"As of September 2026, Pugh had not…\") or removed, and it is added to the claim inventory. C21, C102, C103 and the new claim are marked `unresolved`, with the trigger: \"If Pugh discusses the Don't Worry Darling production on the record, or Wilde or other named participants make new on-record statements, revise this paragraph, the related FAQ and the exit-pattern inference.\""
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "She has not explained. Since 2022 she has declined to discuss the film's production, saying in 2023 that she would let it sit.",
+      "problem": "None of the FAQ's status sentences is in the claim inventory: \"She has not explained\", \"Since 2022 she has declined\" and \"Pugh has neither confirmed nor denied any account\". The standard requires every factual metadata claim to be inventoried. The question itself (\"Why won't Florence Pugh talk about Don't Worry Darling?\") assumes the refusal is still going on. Search snippets surface FAQs on their own, outside the article's dated context, so this will be the first surface to go stale and the hardest to notice. The answer also describes Wilde's denial without a date, while the body dates it to 2026.",
+      "acceptance_test": "Each factual FAQ sentence has a claim entry whose `passage` matches the FAQ text exactly, with source IDs (S36, S28, S18, S35, S33), class `disputed` or `self_report` as appropriate, durability `unresolved`, and the same trigger as future-01. The answer is anchored in time (\"Through September 2026…\"; \"In 2026 Olivia Wilde denied…\"). The question is reworded so it does not assume ongoing refusal (for example \"Has Florence Pugh talked about Don't Worry Darling?\"), or the answer opens with a dated status. The body and FAQ give the same dates."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "Her firmest public statements tend to end in a joke and an exit.",
+      "problem": "Testing the thesis without the latest event exposes a weak discriminator. The newest example of a \"joke and an exit\" is the Cornell repost (\"Tut tut tut…\", C93). It was days old at accuracy check: posts around 2026-09-27, The View on 2026-09-30. The same source (S20) has her taking the subject onto national television within days (\"I'm able to come here and talk about it in real life\"). That is escalation, not exit, and the article itself uses the same week as Eight evidence two sections earlier. Without the Cornell example, the \"exit\" half of discriminator 3 rests on two cases. One is the Valentino caption, but the article shows she came back to that topic in ELLE (2023) and British Vogue (2024), so it was a punchline, not a topic exit. The other is Don't Worry Darling, where the article grants prudence as an equal explanation. The sentence mixes two things: ending a statement on a punchline, and withdrawing from the topic. Only the first survives the newest evidence, and one of the three Seven-vs-Eight discriminators is being propped up by a week-old, still-unresolved story.",
+      "acceptance_test": "The sentence and its examples separate \"ends a statement on a joke\" from \"withdraws from the subject\". The Cornell repost is either removed from this list, or described accurately as a quip followed by escalation and counted against the exit reading. Remove every September 2026 item (Vanity Fair cover, THR premiere piece, Cornell posts and The View) and discriminator 3 must still be supported by dated pre-2026 evidence; if it is not, the article explicitly marks it as weaker than discriminators 1 and 2. C100's `alternative` field records the Cornell counterexample."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "In late September 2026 she posted about a pending sexual-assault case involving Cornell University students, in which some of the accused deny wrongdoing.",
+      "problem": "This is a status snapshot of a live legal matter about third parties. It will become inaccurate when the case resolves, and the sentence gives no source for the case status. \"Some of the accused deny wrongdoing\" comes from Sara Haines on The View, as relayed by Variety on 2026-09-30, but that attribution isn't visible here. \"Pending sexual-assault case\" also doesn't say whether it is a civil or criminal matter. S21 says her first post followed news of a lawsuit, and C91's trigger refers to a civil lawsuit and any criminal investigation, so a future editor can't easily match a later outcome to this sentence. C91–C93 have triggers (\"before publication and at each refresh\") but no dated recheck, and the page's changefreq is monthly while this event is days old.",
+      "acceptance_test": "The sentence names the legal form the sources report (for example a lawsuit reported in September 2026) without characterising the accused. It attributes the denial and the pending status to a dated source (\"as of September 30, 2026, according to Variety\"). It describes only Pugh's own statements and actions. C91–C93 triggers include a concrete date (for example \"recheck no later than 2027-03-31 and at every refresh\") and a rule: \"If claims are dismissed, withdrawn or adjudicated, update the case description to match the outcome or cut it to Pugh's statements alone.\""
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "plays Yelena Belova for Marvel",
+      "problem": "This present-tense career status is recorded as `stable` (C38) with no trigger. S01 lists Spider-Man: Brand New Day (2026) and Avengers: Doomsday and Dune: Part Three as upcoming, so the filmography and the role's status will change within the five-year window. The same goes for \"She has been an executive producer of _East of Eden_ since 2020\" (C34). The series premiered on 2026-10-01, so that is now a completed credit, but C34's trigger only covers a directing debut or new producing deals.",
+      "acceptance_test": "The orientation paragraph uses dated past or present-perfect forms that stay true: \"has played Yelena Belova since _Black Widow_ (2021)\"; \"was an executive producer of _East of Eden_, which she joined in 2020 and which premiered on Netflix in October 2026\". Otherwise C38 becomes `time_sensitive`, with the trigger: \"After the releases of Avengers: Doomsday and Dune: Part Three, or any announcement about Yelena, update the filmography sentence.\" C34's trigger also covers the series' completion."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "The work she describes now is the other half, staying put long enough to unpack.",
+      "problem": "The conclusion ends on a relative \"now\", and the \"Learning to unpack\" arc has no tracking in the evidence record. That arc is built from 2024–2026 self-reports of slowing down (C117–C121) and \"Since 2024 she has turned toward home and privacy\", which is open-ended and not inventoried. All of these are `stable` with no trigger. Meanwhile S01 lists a heavy 2026 slate (Spider-Man: Brand New Day, Avengers: Doomsday, Dune: Part Three). A reader in 2031 can't tell whether \"now\" means 2026, and a return to back-to-back work, or a new account of the change, would complicate the ending without any flag in the record.",
+      "acceptance_test": "\"Now\" is replaced with a date (\"The work she described in 2026…\"). \"Since 2024 she has turned toward home and privacy\" becomes a bounded, dated statement (\"In interviews from 2024 to 2026 she turned…\") and is inventoried. One claim covering the change arc is marked `time_sensitive`, with the trigger: \"If she describes a return to back-to-back shooting, or gives a new account of the post-2023 change, revise 'Learning to unpack' and the closing line.\" Removing the 2026 Vanity Fair material must leave the section's central change claim supported by the dated 2024–2025 sources (Reign, British Vogue, Harper's Bazaar UK, Who What Wear)."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "Marvel was reluctant to let her do the Merdeka 118 jump herself because of insurance, and she kept pushing, including with Kevin Feige, until it agreed (Wikipedia).",
+      "problem": "This anecdote carries weight in the Type 8 case: persistence against institutional caution. In the evidence record it rests only on Wikipedia. S15 is listed on C86 but its excerpt doesn't contain the insurance or Feige detail. Wikipedia is a living document, and S01 records no revision ID, so in five years the sentence may be changed or removed and the claim can't be re-verified. The inline citation names no underlying source for readers either.",
+      "acceptance_test": "C86 cites an opened primary or reporting source that contains the insurance and Feige detail (the interview Wikipedia footnotes), and the inline citation points to it with outlet and date. If no such source can be opened, the sentence is cut back to what an opened source supports, or attributed as \"according to Wikipedia's summary\". S01's locator also records the revision ID or permalink read on 2026-10-04."
+    },
+    {
+      "id": "future-08",
+      "severity": "minor",
+      "passage": "Florence Pugh people pleaser",
+      "problem": "This metadata keyword targets a phrase that exists only in an unchecked machine transcript (C76, S17 Podscripts). The research tasks say to drop C76 if the audio can't be checked, and the article itself says the wording \"has not been checked against the audio\". The print relay (S58) doesn't contain \"people pleaser\". So a search-facing field points at the least durable, least verified quote on the page, and a third-party transcript site is also the URL most likely to disappear within five years.",
+      "acceptance_test": "Either the audio is checked and S17/C76 record an exact timestamp locator (about 00:50:25–00:52:40), ideally with a durable official link to the episode, or the keyword is removed along with the Podscripts quote. No keyword or FAQ depends on wording the evidence record marks as unverified."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Six years later, on _The Louis Theroux Podcast_, she told the same story with a different ending.",
+      "reason": "This is the durable spine of the hook. Two dated accounts of the same event (2019 and 2025) carry the thesis, so the opening doesn't depend on any current role, relationship or controversy, and it will read the same in 2031."
+    },
+    {
+      "passage": "None of this proves she was hiding pain in 2022. What it shows is the order in which she tells her own stories.",
+      "reason": "This inference limit makes the central claim robust over time. The argument is about the dated order of her own accounts, not about hidden motive, so new admissions or retractions refine it instead of falsifying it."
+    },
+    {
+      "passage": "She never had to refuse anything; the show simply died. The story was told six years later, by which point candor was part of her public image.",
+      "reason": "It dates when the retrospective account was told and admits the incentive behind it. This is the kind of source-timing skepticism that keeps the profile honest as more retellings accumulate."
+    },
+    {
+      "passage": "The observation that would separate the two best, how she reacts when her care goes unreturned, is missing from the public record.",
+      "reason": "It names exactly which future evidence would settle the Seven-versus-Two question, so future refreshes have a concrete research target instead of re-arguing the type."
+    },
+    {
+      "passage": "It was a throwaway, and the Seven pattern in miniature: the pleasure is in the leaving.",
+      "reason": "A distinctive, earned closing image, framed as a dated remark from the 2026 interview and honestly labeled a throwaway. Keep it while fixing the relative \"now\" in the following sentence (future-06)."
+    }
+  ],
+  "assessment": "Five-year test: mostly passes, with fixable status debt. The central insight (she meets pain with motion and a lighter mood, and names the cost later) rests on dated self-reports from 2014–2025: Midsommar in 2019 retold to Theroux in 2025, the Valentino dress in 2022 followed by British Vogue in 2024, the 2020 lockdown, her teenage quick fixes. The hook and the 60-word type answer would stand if every September 2026 item were removed. Dates are absolute almost everywhere, and sources carry exact publication dates. The debt is in status claims. The Don't Worry Darling silence (\"for four years\", \"never told her side\", and the FAQ) is relative or open-ended, marked stable or not inventoried, and has no trigger. Present-tense career roles (Yelena, East of Eden producer) are marked stable. The ending relies on the 2026 Vanity Fair interview and a relative \"now\". Only 5 of 111 claims are non-stable. The most consequential latest-event problem: the days-old Cornell episode is counted as a \"joke and an exit\" even though the same source shows her escalating on The View, and without it the exit half of discriminator 3 barely holds. Risks stay elevated: a pending third-party sexual-assault case and the disputed Don't Worry Darling production are both live, and the 7/8/2 call is medium confidence. Similarity advisory: not tripped (max 0.025 against a 0.04 threshold, at the 2,016-pair noise-floor maximum). The top pairs share only ordinary type vocabulary and framing sentences, not arguments, so I found no meaningful reuse."
+}

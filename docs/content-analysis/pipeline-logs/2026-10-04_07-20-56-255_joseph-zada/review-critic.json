@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "9b8e08ed61264367b5853138ef43a04338ce16d75724985acdd998ddcb04546b",
+  "evidence_sha256": "920633e02a4f83cf7d792f5b9aa7fecbc0386b18a170ef1df916bc3023c0f7a1",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "The second is disclosure. A Nine tends to play disturbance down. Zada broadcasts it.",
+      "problem": "The disclosure discriminator depends on context the draft trims. In Behind The Blinds (S02, July 9, 2025, reopened 2026-10-04) the 'phenomenally nervous' line comes only after 'I keep getting asked that…' and 'No, no. You didn't let me finish. I usually just say, “I'm really excited.” But honestly, now that it's getting closer, I'm phenomenally nervous.' By his own account, his default public answer plays the nerves down. He disclosed them only when a close friend pressed. The same interview adds 'The press side of things, people make it sound stressful, but I've enjoyed it.' With 'I don't tend to wear my emotions on my sleeve' (S06) and 'But I got over that quickly' (S02), that is the Nine pattern the paragraph says he lacks. The fourth item, the Harrelson blank, is not a reported alarm. THR (S30, reopened) prints 'We chatted and he asked me questions about myself and told me stories' just before the quoted 'But everything I knew about him just went out of my mind.' The article's own limit paragraph says nervousness is the house style of these formats, so this discriminator relies on exactly the evidence the article promised to discount.",
+      "acceptance_test": "Either drop disclosure as a discriminator, or quote his 'I usually just say, “I'm really excited”' preface and the press-style confound beside the four items and explain why they still separate Six from Nine. Remove the Harrelson blank from the list of alarm reports unless THR's 'We chatted and he asked me questions about myself' context is given. Bring the Type 9 FAQ clause 'he announces his fear instead of muting it' into line with the result."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "The reclassification did not hold. Asked by Fanning in June 2026, after both shoots, whether any actors were on his bucket list, he answered: \"I love the actors I love, but I'm shit scared of working with them.\" Fanning laughed. Of Pugh: \"She's scary.\"",
+      "problem": "In Flaunt (S04) the reclassification covered the people he had already worked with: 'these people are actually normal people.' The bucket-list answer (S01, reopened via transcript) concerns idols he has not worked with ('I don't know how excited I'd be as opposed to deathly nervous'). That is what the reclassification mechanism predicts, not evidence that it reversed. 'She's scary' answers Fanning's 'And how was Florence as a mother?' Pugh plays Cathy Ames, and he goes on: 'She shouldn't be that scary. [Laughs] As a mother, it doesn't add up.' The draft cuts both the question and the joke, then uses the line as renewed fear of an admired actor. The asymmetry runs the other way too. The same June 2026 conversation has him saying of Haymitch 'I could do whatever the hell I wanted with that character' and that fans 'are probably more likely to enjoy my interpretation of it, as opposed to me trying to mimic something that already exists.' So his confidence about the work also repeats across interviewers (Flaunt 2025, Interview June 2026, THR October 2026), which is the standard the article applies only to fear. The C108 claim ('The fear was back eleven months after Behind The Blinds') and the later 'a fear of admired actors that came back after he said it had passed' both inherit the problem.",
+      "acceptance_test": "Stop using 'She's scary' as fear evidence, or print Fanning's 'how was Florence as a mother?' question and the mother joke ('very daunting' may stay). Restate the bucket-list line as fear of not-yet-met idols, consistent with the Flaunt reclassification, or show why it counts as a reversal. Acknowledge that the confident statements about his work also recur across interviews. Revise 'The reclassification did not hold' and the 'came back after he said it had passed' clause to match."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "When Zada explains how nerves resolve, specific people usually become reliable.",
+      "problem": "The article calls this its main discriminator ('Zada's record favors the Six mainly through what settles him'), but 'reliable' is mostly the author's gloss. Only the Glenn Close line ('made it clear she was always there for me') uses reliability language. 'Once I step on set and meet everyone' is about familiarity. The We Were Liars quote is cut short: the S02 sentence continues 'and in the people around me, and being more familiar with what it's like being on a big American-made set', crediting self, people and environment equally. Pugh 'makes everyone feel so comfortable' is about comfort, which the Nine section itself says does not separate the types. The girlfriend line in full (S30) reads 'She doesn't much care for the business which is perfect for me. Because she's helped me relax and not think about work so much.' By the article's own definition ('A Nine fears disruption and settles by tuning the pressure out') that is the Nine remedy, yet it is filed under what settles him as a Six, while the Nine section uses it too. The type answer ('neither explains as well what settles him') and the Type 9 FAQ present the discriminator more firmly than the quotations allow.",
+      "acceptance_test": "Quote the We Were Liars sentence through 'big American-made set', or paraphrase all three things he credits. Either reclassify the girlfriend line as tuning-out evidence or argue explicitly why it is Six. Show at least two dated remedies where dependability, not comfort or familiarity, is in the source wording. Otherwise revise the type answer, the 'What settles him' opening and the FAQs to say the remedy evidence leans Six only weakly, and say whether medium confidence survives."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "Before a big test he builds footing from trusted people and heavy preparation, and the fear he names most often is how admired actors will see him.",
+      "problem": "No count supports 'most often', and a count of the record leans the other way. Fears about people: the East of Eden cast and filmmakers (S02, July 2025) and bucket-list idols (S01, June 2026). The Pugh line is a mother joke (critic-02), and the Harrelson blank is a lapse of memory, not a named fear. Fears about failing or the quality of his work: 'I was not going to get on stage and embarrass myself' (S30, age 14); 'terrified I'd be dreadful' (S20, February 2025); 'not to be afraid of whether it's good or not' (S04, mid-2025, not in the draft); 'put too much pressure on myself' (S02); 'Now I have to do this and it's going to be really hard' (S01). The article defines the Three by exactly this ('A Three fears failing'), and it concedes that 'afraid of how they would perceive me' 'belongs to Threes as much as Sixes'. The plain-language answer and FAQ 1 therefore lead with a fear profile that, once counted, favors the alternative. The Three section also leaves out S30's account that from 14 he 'continued blowing off classes as he pursued auditions and small roles', which is early appetite the record supports.",
+      "acceptance_test": "Either support 'most often' with a dated count drawn from the record, or rewrite the type answer and FAQ 1 to say his named fears split between being judged and failing, and that the Six case rests on remedy rather than on what he fears. Weigh the Flaunt 'whether it's good or not' line, the age-14 embarrassment and his teenage pursuit of auditions in the Type 3 section."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "Zada's recurring move is to bring trusted people in first, and even the over-delivered tape was made at home with his brother and father.",
+      "problem": "The draft says earlier that 'The simplest explanation is production: a director father and an actor brother were the best crew.' THR (S30) adds that the brief was 'a monologue to the camera' and that 'Zada over-delivered.' With the production explanation conceded, the tape is the record's clearest act of performance and visible results, which is what the article says a Three reaches for. Using it as the Six-over-Three discriminator reverses the article's own concession. The same move recurs elsewhere. 'Press style does not explain the flight home' answers a confound nobody raised for that item and skips the one the article did raise (production). The limit paragraph promises to lean 'on what he did, especially when it cost him something', but every behavioral item is later conceded as low-cost: 'None of these cost him much'; 'the exit cost him little at home'; 'A first large pay cheque explains a family holiday as well as any motive does.' What remains for Six is mostly self-report from promotional interviews, gathered by adding up items that were each explained away.",
+      "acceptance_test": "Remove the tape as a Six-over-Three discriminator, or explain why it still favors Six once production is conceded. Revise 'Press style does not explain the flight home' so it addresses the production explanation. Either name at least one costly choice that favors Six over both Three and Nine, or revise the limit paragraph to say the reading rests mainly on repeated self-report, and check whether medium confidence survives that change."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "The move is the next threshold he has announced. The Six reading predicts that fame will not settle him, and that at the next threshold he will again bring his people with him before he jumps into the deep end.",
+      "problem": "The ending, and the persona title 'The Haymitch Who Brings His People', rest on two instances of family at a threshold, and the draft concedes an ordinary explanation for each (production; a first pay cheque). The announced move points the other way. In S01, right after calling Australia 'a safe place', he says 'I want to live somewhere else for a little bit. My mom doesn't really like that idea. She'd rather I just stay home.' In S30 he says of L.A. 'It's got literally everything I could possibly want.' The draft leaves out that enthusiasm and quotes only 'my reps are eager for me to move,' which makes the move read as externally driven. As written, the prediction cannot fail: almost anyone 'brings his people', and 'fame will not settle him' has no test.",
+      "acceptance_test": "Quote or paraphrase his own enthusiasm for L.A. next to the reps line. Address that the move means leaving the place he calls safe, against his mother's wish. State what would count against the prediction, for example the research record's tests: settling mainly through acclaim and results (Three) or deferring on major decisions (Nine). Reconsider whether the persona title rests on more than two conceded instances."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "The blank at dinner is about the man. The Six reading explains the second far better than the first, and this profile leaves the first standing.",
+      "problem": "'Far better' is unsupported. THR (S30) describes a friendly dinner-party conversation ('We chatted and he asked me questions about myself and told me stories') in which he forgot the questions he had prepared, or in the writer's words, 'proceeded to totally blank on all the research he'd done.' Being starstruck beside a famous predecessor is ordinary. A Three's concern for how a respected figure sees him explains it at least as well, and nothing in the scene is specific to a Six (no worst-case scanning, no testing of trust, no reaching for support).",
+      "acceptance_test": "Include or paraphrase 'We chatted and he asked me questions about myself and told me stories.' Replace 'far better' with a claim the scene supports, or name the Six-specific feature of the blank that Three and Nine readings would not predict."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "The Type 6 reading still leads for three reasons: what settles his nerves is usually specific people becoming reliable, he announces his fear instead of muting it, and he steers his own course, from leaving school for a final callback to setting his own three-week deadline for the Haymitch tape.",
+      "problem": "The FAQ drops the body's concessions: 'a lean rather than a clean split' on the remedy, and 'None of these cost him much, and a Nine can act decisively when the wish and the easy path line up' on steering. It states three reasons flatly, two of which are contested above (critic-01, critic-03). The Type 3 FAQ's 'under pressure he reaches for trusted people before results' has the same problem (critic-05). FAQ answers are the most widely surfaced text on the page.",
+      "acceptance_test": "After critic-01, critic-03 and critic-05 are resolved, the Type 9 and Type 3 FAQ answers carry the same hedges as the body and contain no discriminator the body has weakened or withdrawn."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "A limit shapes everything below. Almost every substantial source on Zada is an interview published between February 2025 and October 2026, inside the promotional windows of four projects.",
+      "reason": "It names the source base's real confound up front, in specific terms, so the reader can weigh everything after it. Keep it even if the methodological promise that follows is revised (critic-05)."
+    },
+    {
+      "passage": "The simplest explanation is production: a director father and an actor brother were the best crew for a tape with locations, costumes and a drone.",
+      "reason": "The alternative comes before the attractive reading, which is exactly the fairness this profile needs. Do not trade it away to strengthen the Six case."
+    },
+    {
+      "passage": "\"My own shoes\" is a claim about the work, and two months of study followed by a deliberate departure gives him some right to it.",
+      "reason": "It gives the strongest counter-image its due with evidence (the Harrelson study and departure, verified in S30) instead of explaining it away with a wing or subtype."
+    },
+    {
+      "passage": "He even qualifies his own calm. When Fanning followed up on \"I'm chilling,\" he added: \"There hasn't been a whole lot of chill until very recently. But yeah, Australia is a safe place.\"",
+      "reason": "A distinctive, verified detail (S01 transcript, question order correct), with its inference limited honestly by 'Two uses of a casual word cannot prove it.'"
+    },
+    {
+      "passage": "The swearing was a joke, told more than a year later to a friendly co-star after the film was safely shot.",
+      "reason": "It takes the drama out of a tempting anecdote on its own initiative. That is the kind of local limit the standard asks for, and it matches the S01 transcript."
+    }
+  ],
+  "assessment": "Critic pass. Reopened 2026-10-04: S30 THR (full text, direct), S01 Interview transcript (via reader proxy; direct returns 403), S02 Behind The Blinds, S04 Flaunt and S33 TV Insider (which confirms We Were Liars season 2 wrapped by October 1, 2026, so 'has filmed a second season' holds even though THR's interview says 'currently shooting'). Every quotation I checked is verbatim. The problems are context and the weight placed on it. The draft confronts adverse evidence more openly than most: it names the promotional confound, gives the production explanation first, leaves 'my own shoes' standing and keeps Type 3 open. But it repeatedly takes those concessions back by adding up items it has already explained away. Its three discriminators all have problems. Remedy rests on a 'reliable' gloss and a truncated quotation, and it counts a tuning-out remedy as Six (critic-03). Disclosure omits his own 'I usually just say, “I'm really excited”' (critic-01). People-first-under-pressure uses the tape the draft already attributed to production (critic-05). 'The reclassification did not hold' rests on a bucket-list answer about idols he hasn't met and a joke about Pugh's mother role (critic-02). Counted, his named fears lean toward failure, which is the Three core as the article defines it (critic-04). Six may still be the best lean, but on this record Three is closer than the draft shows, and medium confidence is at the upper bound. Contested typing is confirmed, and historical source uncertainty stays flagged (all sources promotional; GQ S18 unavailable). Similarity: every tripped pair (max 0.692) matches this subject's own 2026-09-12 draft in the refresh lineage. The cross-subject maximum is 0.027, below the 0.04 trip line, and the matched sentences are ordinary type vocabulary, so there is no meaningful reuse."
+}

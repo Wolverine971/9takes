@@ -1,0 +1,23 @@
+I've written `evidence.json` for the Joseph Zada refresh. It passes the pipeline's own validator: status **ready**, **Type 6 at medium confidence**, with **Type 9** as the main alternative. Because the typing is still contested, the next stages will run the full six-reviewer panel. No other files were changed and nothing was published.
+
+**What's new since the September run (which was held at 8.4 overall):**
+- **The Hollywood Reporter ran a long profile on October 1**, the day *East of Eden* came out. It's the first long-form piece written by a staff journalist rather than a co-star, and it includes quotes from the series' director, Zoe Kazan. It changes several things:
+  - **The two school-leaving stories now fit together.** In his own words: he was expelled from a private school, then left a public school about four weeks before finishing, because a final callback clashed with the principal's attendance ultimatum ("I'm leaving").
+  - **The flight home for the Haymitch audition tape has a practical explanation too.** He wrote four scenes and shot them with locations, costumes and a drone. That weakens one of the main pieces of Type 6 evidence.
+  - **New support for Type 6:** he wants his siblings to take the Zada name and "stick together as a family and make films together." When he finally met Woody Harrelson, he froze. His girlfriend "helped me relax."
+  - **The strongest evidence against Type 6 so far:** "These are my characters and my movies… I'm stepping into my own shoes." Together with the extra-effort audition tape, this makes Type 3 a closer runner-up than before.
+- **The Star Observer interview opened for the first time.** It has the earliest fear in the record, "terrified I'd be dreadful," which is about doing badly rather than about people. I logged it as evidence against the current argument.
+- **Current facts are updated.** *East of Eden* came out October 1 (87% on Rotten Tomatoes; reviews split on his part). *Sunrise on the Reaping* is still scheduled for November 20. He's planning to move to LA in early 2027, partly because his agents want it. That cuts the "moving abroad against his mom's wishes" point down to almost nothing.
+- **The three fixes the last verifier asked for are recorded:** the full Arsenal reason for the move, the Flaunt writer's "but it's not untrue," and the swearing line used in the title and description.
+
+**Notes for the next stages (they're also in the file):**
+- Don't name his girlfriend.
+- Mention his parents' divorce only as a plain fact, if at all.
+- Don't pin down which generation the Zada ancestor was; his accounts and Wikipedia disagree.
+
+**Still open:**
+- GQ Australia is still blocking access.
+- No source yet from someone who knew him before 2023.
+- The type reading needs a recheck after the November 20 release.
+
+One mistake to flag: in one batch of Wikipedia requests I put your email address in the request header that identifies who's asking. It went only to Wikipedia, and I switched to a generic one for every request after that.

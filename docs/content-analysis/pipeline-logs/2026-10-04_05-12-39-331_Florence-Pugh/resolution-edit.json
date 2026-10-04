@@ -1,0 +1,338 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Fixed. The 'six years later' sentence is gone. The Studio City paragraph now dates the first telling to The Guardian, October 6, 2018 (S44, quoting 'to change me', 'just a canvas' and 'I swore I would never go back'), retold in 2022 (S02). The gap is hedged to 'Weeks after the pilot died' (C148, disputed: two weeks vs two months). A verified contemporaneous counterweight was added: Oxford Times, April 2015, 'I'm more than happy to move to LA for my career' (S46, C122). C04/C65 alternatives updated."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Fixed. The FAQ no longer says she has not explained; it gives her 2024 British Vogue reason. The body quotes that reason ('unfair to take the space away from the movie...') before declaring the silence non-diagnostic (C125, C103). The 'exit pattern' reading is removed."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Fixed. The View quote now runs in full in her order: 'Rape is something that lives. The fear of it lives in our bodies... it makes me feel scared, it makes me feel anxious, it made me feel so much rage' (C92). The later Eight sentence now reads 'her public anger over Gaza and the Cornell case fit the Eight better, even with the fear she named beside the rage' (C157)."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Fixed. The 'joke and an exit' claim and C100 are deleted, and no Cornell or Gaza episode is called an exit. The Instagram action is described as a content warning, with Meta's later removal of the label in the evidence (C128, S20, S21). The Don't Worry Darling paragraph no longer depends on any pattern."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Fixed. The 'defend people that I love' line (C89) and the EW/Yahoo link are removed from the article. 'Causing you pain' is now sourced to the episode audio (S63, about 00:48:44), checked by the edit stage. The Braff paragraph cites only Nylon 2020. The unnamed-relationship passage still says she has not named the partner and does not date or sequence it."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Fixed. The persona_title is now 'Hollywood's Thrill-First Enthusiast': a sequence claim matching meta_title, description and body, with no silence claim and no 'big mouth' label."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Fixed. The haircut sentence gives Vogue's reported source, her own distress as a teenager (C13, S25). The quick-fixes passage keeps 'things were so dark and scary' (C80). No diagnosis is implied."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Fixed. The Type 8 FAQ now carries her gendered explanation ('she says women who push back risk being called \"a nightmare\"', C163) and calls the story not decisive. It no longer says a male co-star spoke up for her."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Fixed. The persona title now describes the sequence ('Thrill-First'), and the description attributes the line to Greta Gerwig ('Greta Gerwig said Florence Pugh can't be knocked down', C162). The body tests the thesis against the 2024 SHE MD health disclosure and says it fits only halfway (C132, C153). The 2022 'lumpy throat' line was not used, because it would put a named ex-partner beside the unnamed-relationship section (subject-05 risk)."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Fixed. 'Only in September 2024' is removed. The Valentino paragraph now includes the caption's own harm language (C143) and ELLE UK 2023's 'the scariest thing for me' (C142), and says the hurt followed 'about a year later' (C75 restated). The 2024 quote is labelled as an answer to the interviewer (C152)."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Fixed. The FAQ question is reworded ('Has Florence Pugh talked about Don't Worry Darling?') and gives her 2024 reason. The body and FAQ include the August 2022 marketing remark (C127, C165). The claim is narrowed to declining to discuss the production since then, so the two are consistent."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Fixed. Same repair as subject-01: dated to the 2018 Guardian account with 'just a canvas' and 'I swore I would never go back' quoted, and the gap hedged."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Fixed. The retakes paragraph now opens with her account of having argued 'a lot' with directors early on, 'something that I still do in a softer way now'. The edit stage checked this against the episode audio (S63, about 00:08:53; C131). 'Standoff' is gone, the story is reweighed as evidence against Eight but not for Seven over Two (C99), and the FAQ is updated."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Fixed. 'I don't want to have things just happen to me any more' now sits in 'Learning to unpack' next to 'I've worked back-to-back since I started, and I've missed so much', and is no longer defiance evidence (C28). The shame-pre-emption quote (S36) is stated in the Type 8 section and weighed in 'Why the Seven reading still leads' as fitting both Eight and Seven (C129, C154)."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Fixed. The hook credits the scheduling to her via Deadline's reporting (C52). The holiday sentence now says 'Shortly before May 2025, when \"something fudged in the schedule\"' and includes 'I always say this, but it never happens' (C119)."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Fixed. The Type 2 section says hosting runs in her family's trade (Vogue's 'a family of hosts', C31), so Park's praise says less about motive than her self-reports do. Hosting is also removed from the Type 2 FAQ."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Fixed. 'Why the Seven reading still leads' separates concealing pain for others' sake, which 'separates her from the Eight but not from the Two' (C94), from what she does with her own pain, which is the Seven evidence (C137). It also notes she told followers she felt 'glum' (C133, verified in IBTimes). The 'last person' section adds that the reason is 'shared with the Two' (C141)."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Fixed. The thrill section now says the cost was not hidden in 2019: Deadline has 'scared' and 'destroy myself' (C144). It limits 'later' to the depression account and separates feeling (within months) from telling (six years, C145). 'Only in September 2024' is removed, the 2022 caption and the 2023 ELLE line are added, and the 2024 quote is marked as prompted. 'Across a decade' is gone from the type answer."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Fixed. The article states that Little Women was booked in advance, attributed to Deadline (C52, C155), so only her account of shelving counts. A stated rule treats on-camera pain-seeking as craft and off-camera coping as evidence, applied to the hook and roles alike, and is admitted to protect the thesis (C136). The hook's voluntary pain-seeking is addressed inside 'Why the Seven reading still leads'. The stunt fear-override line moved out of the Seven strand."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Fixed. 'Joke and an exit' is removed (C100 deleted), and the Cornell repost is described as escalation (C128). 'Things just happen to me' is moved to the overwork context (C28). The freedom-vs-power sentence is replaced by 'That is shared ground: Sevens resist being boxed in, and Eights resist being controlled' (C66), and the second question is conceded to the Eight (C156). 'From 19 on' is gone; the value is dated to her 21-year-old Grazia wording."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Fixed. Don't Worry Darling is declared non-diagnostic ('She has given a professional reason, so this profile counts the silence for no type', C103). Her British Vogue 2024 reason is quoted (C125). 'That conflict' is gone: the paragraph speaks of reports, attributes the screaming-match report to Vulture with the crew denial (C124), and keeps Wilde's denial. The FAQ matches."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Fixed. The 2023 'I'd much rather do it than they do it, and then I feel ashamed' line (C129) and the 2026 'I don't find it hard to talk about what doesn't sit correctly in my body' line (C130) are now near discriminator 1 and weighed as fitting both readings (C154). 'She says nothing about looking weak' is limited to the passage ('nothing here')."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Fixed. The persona title no longer claims she keeps pain quiet. The Type 8 FAQ includes her gendered explanation and calls the anecdote not decisive (C163)."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Fixed. The retakes sentence now reads 'Going along when depleted is accommodation, which fits the Two as well as the Seven', and the story is said to weigh against the Eight without pointing to the Seven (C99)."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Fixed. The paragraph now says what Don't Worry Darling is (2022 thriller with Pugh in the lead) and what was reported: a September 2022 Vulture report of an on-set screaming match, denied by a statement from about 40 crew members (C124, S35 verified). Wilde's 2026 denial therefore answers something the reader has seen. The Venice press-conference detail was cut for length and because it is non-diagnostic. No new allegation is introduced, and Pugh's continued non-comment is explicit and dated."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Fixed. The summary now concerns her public telling ('the thrill or the comeback led her telling and the hurt followed: about a year later for the dress, six years later for Midsommar'). A new passage says the depression was felt within months and only the account came years later (C145). The episode intervals are accurate."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Fixed. The intro no longer states the thesis. It ends on the contradiction (the woman who couldn't be knocked down, depressed that first Christmas, C169). The pain-to-lightness formula now appears in the type answer and once in the earned summary of 'The last person' section. Other passages add new evidence instead of restating it."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Fixed. The Theroux provenance sentence is removed from the intro, leaving one sentence on the promotional record. Provenance appears only at the quoted passage, which is now audio-checked."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Fixed. The Valentino comments are described ('online comments went after her body and breasts', C151). The Cornell content warning is stated where the post is described (C128). We Live in Time is identified (a romantic drama with Andrew Garfield about a couple facing her character's cancer, C116), with her 'this emptiness' on finishing it (C140). The counterphobic Six is defined in a clause and linked. The second of the 'two notes', doubt about whether she earned anything, is named, and the word's recurrence is linked."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Fixed. The first sentence now says Pugh is a British actor and that Dani is a grief-stricken student whose family has just been killed, sourced to the AP plot narration (S05, reopened; C170). The hook's quotes, order and dates are otherwise unchanged."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Fixed. The ending now says 'Whether the turn toward home is a Seven learning to stay or the security a Six wants, the record can't yet say' before the closing line (C160). The packing close is kept."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Fixed. Discriminator 1 rests on what she does with her own pain (C137). The 'bring people down' reason is marked as separating her from Eight but not Two (C94, C141). A sourced reason ranks Eight above Two: independent testimony from four collaborators (2019 to 2026) and costly stands, against mostly self-report (C138). The type answer and FAQ 1 now say Type 2 is close behind."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Fixed. The 'strength and who holds power' sentence is deleted. Autonomy is called shared ground (C66), and the second question is explicitly conceded to the Eight (C156), so the call no longer counts it. 'Things just happen to me' has its overwork context and is out of the defiance list (C28). 'The freedom that people are scared of' is removed. The Type 8 FAQ no longer cites what her defiance defends."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Fixed. The 'joke and an exit' generalization is removed and 'Well, don't' is no longer cited. The Don't Worry Darling paragraph is explicitly non-diagnostic (C103)."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Fixed. 'Standoff' is replaced. The audio-verified 'I found myself arguing a lot... something that I still do in a softer way now' is reported (S63, C131), and the FAQ carries her gendered explanation."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Fixed. The stunt line is out of the pain-to-lightness strand and used only in the counterphobic-Six paragraph as fear override (C14). The pattern sentence now spans 'from her teens through 2020, with the Midsommar sequence as the anchor', and the article says the strand 'rests mostly on her own retrospective accounts'. Pullman's testimony was verified (S38) but cut to stay under the 4,500-word ceiling; it was the optional part of the test."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Fixed. 'What the Seven reading can't explain' now gathers fear-seeking roles, the recurring 'fluke', the near-unsent tape, anxiety management, fear override and the security goal into one counterphobic-Six case. It gives one sourced reason the Seven still leads (she describes the rush, 'so exhilarating') and calls it thin (C135, C158, C171). The 'none of the leading readings captures' wording is removed. No wing, arrow or subtype is used."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Fixed. The British Vogue passage now opens with 'I am someone that loves falling in love' (C30). A new sentence says romance 'can't settle this one' (C146), and the 2-vs-7 call rests on the non-romantic circus/'do it again' evidence (C10, C108). FAQ 3 matches."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "Fixed. The Three is dismissed in one sentence using sourced anti-image evidence: 'Anytime an opportunity of me being perfect onscreen comes up, I panic' (Vogue 2020, C134). The sentence also concedes that the Three fits her drive."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Fixed. 'For four years' is removed. The silence is anchored to dated deflections (2024 British Vogue reason, September 2026 Vanity Fair, C125, C126), and the FAQ says 'As of September 2026, Pugh had not told her side' (C168). All Don't Worry Darling claims (C101, C103, C124-C127, C165-C168) are unresolved, with the requested trigger."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Fixed. The FAQ question is reworded. Every factual FAQ sentence has a claim with an exact passage (C165-C168) marked unresolved with the same trigger, and Wilde's denial is dated to 2026 in both FAQ and body."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Fixed. The exit half of discriminator 3 is removed, so the call no longer depends on the week-old Cornell example. Cornell is described as escalation (C128). With every September 2026 item removed, the Seven call still rests on the 2019-2025 pain-handling strand and the 2022 circus line."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Fixed. The sentence names the legal form ('after a former Cornell University student filed a civil lawsuit alleging a 2024 sexual assault'). It attributes pending status and denials to 'As of September 30, 2026, Variety reported', and does not characterize the accused (C91). C91, C92, C128 and C157 carry a dated recheck (no later than 2027-03-31) and an outcome rule."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Fixed. The orientation now reads 'has played Marvel's Yelena Belova since Black Widow (2021)' and 'joined Zoe Kazan's East of Eden as an executive producer in 2020... Netflix released the series in October 2026'. C38 is time_sensitive with a release trigger, and C34's trigger covers the credit's completion."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Fixed. 'Now' becomes 'The work she described in 2026', and 'Since 2024' becomes 'In interviews from 2024 to 2026' (C159). The change-arc claims (C28, C117-C119, C121, C159, C160) are time_sensitive with the requested trigger. The central change claim stands on dated 2024-2025 sources (Reign, Harper's Bazaar UK, Who What Wear)."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "Fixed. C86 now cites the underlying Variety, April 14, 2025 relay of her Fandango interview (S62, opened and verified: 'a crazy insurance ordeal', emailing Kevin Feige, 'I had to keep on pushing'). The inline citation points there with outlet and date, not to Wikipedia."
+    },
+    {
+      "finding_id": "future-08",
+      "action": "fixed",
+      "reason": "Fixed by checking the audio. The edit stage downloaded the official episode audio and transcribed it with three Whisper models (S63). 'That people pleaser thing... paddling for dear life' is verbatim at about 00:50:24-00:50:35, and the passage is now cited to the official Apple Podcasts episode with a time locator. The keyword now points to verified wording."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "She refuses to make the illness a story about her.",
+      "action": "kept",
+      "reason": "Unchanged, with the following Vogue quote and 'This profile takes her at her word.'"
+    },
+    {
+      "passage": "People process hurt over time, and a reflective cover interview invites admissions. None of this proves she was hiding pain in 2022. What it shows is the order in which she tells her own stories.",
+      "action": "kept",
+      "reason": "Verbatim. The sentence after it was corrected to match the fixed timeline (critic-02, fan-02)."
+    },
+    {
+      "passage": "That wording has not been checked against the audio. The same transcript renders \"good for everybody else\" as \"upbeat for everybody else,\" so this profile does not rest anything on that word.",
+      "action": "changed",
+      "reason": "Now false: the edit stage checked the official episode audio (S63). She said both 'good' and 'upbeat' for everybody else, and the people-pleaser sentence is verbatim. Its contribution, telling readers where the wording comes from, is kept as 'Print write-ups tidied this passage and some dropped \"upbeat\"; the wording here is checked against the episode audio,' with a time locator on the citation."
+    },
+    {
+      "passage": "Reports of tension with the director, Olivia Wilde, rested largely on anonymous sources, and in 2026 Wilde said, \"I've never had a screaming match on my set.\"",
+      "action": "kept",
+      "reason": "Verbatim. It now follows a sentence that tells new readers what was reported (unfamiliar-01)."
+    },
+    {
+      "passage": "And the record has limits. \"I walked away from our process not understanding any better than I did beforehand how she works,\" Kazan told Vanity Fair. The public sees what she shows on press tours, not how she behaves at home.",
+      "action": "kept",
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "Six years later, on _The Louis Theroux Podcast_, she told the same story with a different ending.",
+      "action": "kept",
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "She never had to refuse anything; the show simply died.",
+      "action": "kept",
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "The observation that would separate the two best, how she reacts when her care goes unreturned, is missing from the public record.",
+      "action": "kept",
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "\"I love packing,\" she said. \"I hate unpacking.\"",
+      "action": "kept",
+      "reason": "Verbatim. It is now preceded by Vanity Fair's context (a planned break at home)."
+    },
+    {
+      "passage": "She never had to refuse anything; the show simply died. The story was told six years later, by which point candor was part of her public image.",
+      "action": "changed",
+      "reason": "The first sentence is kept verbatim. The second was false: the story was first told in 2018, three years after the pilot (S44; subject-01, fan-04). It now reads 'The defiant version came afterward, first in 2018 and in more detail in 2022, while her one account from the moment was eager to go.' The skeptical point, that the defiant origin story is hindsight and nothing was refused at the time, is kept and strengthened by a verified April 2015 quote (S46)."
+    },
+    {
+      "passage": "\"Complete control\" sounds as much like an Eight, or a Three holding an audience, as a Seven chasing the thrill of the live moment. The childhood record shows a performer, not yet a motive.",
+      "action": "kept",
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "Alone, none of these would carry much weight: lockdown cooking was everywhere, teenage quick fixes are ordinary, and the stunt line is one reflection.",
+      "action": "changed",
+      "reason": "The stunt line left the Seven strand (enneagram-05), so the passage now reads 'Alone, none of these would carry much weight: lockdown cooking was everywhere, and teenage quick fixes are ordinary.' It still discounts each weak item before claiming a pattern."
+    },
+    {
+      "passage": "People process hurt over time, and a reflective cover interview invites admissions. None of this proves she was hiding pain in 2022.",
+      "action": "kept",
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "Two questions do more work: what does she do with her own pain, and what is her pushback defending?",
+      "action": "kept",
+      "reason": "Verbatim. 'Why the Seven reading still leads' now answers both questions explicitly."
+    },
+    {
+      "passage": "The reason she gives for hiding pain concerns the room. Her pains \"would bring people down.\" She says nothing about looking weak.",
+      "action": "changed",
+      "reason": "Now 'She says nothing here about looking weak.' The limit to the Theroux passage was required by critic-06 because she pre-empts shame elsewhere. The short, quote-anchored discriminator is otherwise verbatim and is followed by the method/reason split."
+    },
+    {
+      "passage": "\"I love packing,\" she said. \"I hate unpacking.\" (Vanity Fair) It was a throwaway, and the Seven pattern in miniature: the pleasure is in the leaving.",
+      "action": "kept",
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "Shortland's \"will not back down\" and the Cornell rage fit the Eight better. A Seven with a fierce protective streak, or an Eight who learned to soften on sets: the public record can't fully separate them.",
+      "action": "changed",
+      "reason": "The second sentence is verbatim. The first now reads 'Shortland's \"will not back down\" and her public anger over Gaza and the Cornell case fit the Eight better, even with the fear she named beside the rage', because subject-03 required that it not rest on rage alone. The concession of the alternative's best evidence is kept."
+    },
+    {
+      "passage": "None of this proves she was hiding pain in 2022. What it shows is the order in which she tells her own stories.",
+      "action": "kept",
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "It was a throwaway, and the Seven pattern in miniature: the pleasure is in the leaving.",
+      "action": "kept",
+      "reason": "Verbatim. The relative 'now' after it was dated to 2026 (future-06)."
+    }
+  ],
+  "prior_blockers": []
+}

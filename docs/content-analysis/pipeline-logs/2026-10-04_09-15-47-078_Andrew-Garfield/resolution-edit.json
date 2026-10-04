@@ -1,0 +1,338 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Re-opened The Advocate (S10). The paragraph now quotes his own immersion explanation ('a love letter to the LGBTQ community', 'I dive in as fully as I possibly can'), attributes criticism only to 'many LGBT people on Twitter' and Nico Lang (via the magazine's summary), drops 'a defense, not an apology' and 'how that lands with the people who live it', and replaces the 'hardest moment for the sincere-seeker reading' framing with a neutral lead ('The episode that drew the sharpest criticism'). C25/C51 are now unresolved with a review trigger."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Re-pulled the full Chicken Shop Date captions (276 segments): no grief content. Chicken Shop Date is removed from the promotional-window list in the body and in C38; every remaining item (Colbert, Cooper, Elmo) discusses his mother or grief."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Description rewritten as attributed self-report on print wording: 'Andrew Garfield says he grew up feeling there had to be more to life' (Esquire original, S30). The body now quotes the transcript context ('a very kind of conservative suburban' upbringing; 'the arts weren't valued'; 'if you're not a lawyer a doctor or in business then you're nothing'), states that the anger had that target, and splits 'more' into status (rejected) and meaning (pursued). The suicide aside is omitted. The 'enraged' line is no longer in metadata, and its unchecked audio is an open research task."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "'At the time' is kept wherever the father's values are characterized. The 'just like my father' punchline is removed. The father's side now appears via Esquire (S30), where Richard is quoted and the two are reported to have healed the relationship. Everything about father and brother is attributed to Garfield or Esquire."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "The reputation claim is replaced with the line's plain reading: 'Read alone, the first line sounds like a man refusing to let a wound close.' 'Rarely traveled with it' is removed. 'Became the clip that followed him' rests on the Late Show upload title and on Cooper replaying the clip in 2024 (S05)."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "His mother's care is now described in his words: 'loved living for others', 'It's beautiful, but it cost her', 'I just wanted her to take care of herself better'. 'Self-erasing', 'fought it' and 'wanted her to stop' are removed; the Two discriminator says he 'was angry that his mother wouldn't take better care of herself'."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The sentence now ends 'then conclude, in his words, \"I'm not alone in it.\"' 'Illusion' appears only inside the Vanity Fair quote, with its original referent."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "The loose-ends sentence is cut. The ambition line keeps his correction ('previous ambition… the style, the type'), there is no unnamed 'commercial' characterization, the nothing-unsaid pair appears only with its reconciliation, and the Chicken Shop Date privacy line is removed."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Added, from Wikipedia (S20): she died while he was filming The Eyes of Tammy Faye, shortly before production began on tick, tick... BOOM!, and he flew home. Vanity Fair's 'busiest man in Hollywood' (S31) concedes the intense work that followed. The 'Three gets back to work' contrast is replaced with a discriminator from his own words: work as dedication ('everything I do is in dedication to her') and grief as a place he goes to find her, tied to the pre-bereavement 'grief of living'. New claims C63, C71 and C96."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Added from Wikipedia (S20): he identifies as Jewish and has called himself an 'agnostic pantheist'. Quoted the S01 line 'falling in love with this person, was falling in love with Jesus Christ', with 'He has not described a conversion'. The Jewish blessing now has context. Claims C66 and C67."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Added from the Esquire original (S30, plus S20): his father became a successful swimming coach, Garfield tried swimming, and he quit that too, which Esquire calls 'his second act of rebellion against his dad'. The father's buried dream ('a disowned dream of being a screenwriter') is now in the Three section, attributed to Maron and corroborated by Esquire's report of Richard's Hollywood dreams; the father portrait keeps 'at the time'."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Added, from S20 and S30, that his run ended when Sony scrapped the sequels and the role went to Tom Holland. The Holland quote is cut in favor of Garfield's own 'closure' and 'kind of sold me on the whole thing'. The 'theater tribe' passage now names the result: his Broadway debut as Biff Loman in Death of a Salesman (2012)."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Stone is identified as his co-star and then-girlfriend (S20, S30) and quoted in full, including the messages and off-camera lines. The quote is weighed against a merging Nine and moved into the anti-Nine rebuttal."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "The nothing-unsaid pair is removed from the loose ends and reconciled once, now supported by the Colbert continuation 'We all told her every day, she was the best of us' (C82). 'Rarely traveled with it' is removed."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "The hook no longer asserts a reputation. The misreading is presented as the line's plain sense when taken alone."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Captions re-pulled (S13): he asked about the Academy Award and she said maybe. The article now gets the order right ('joking about whether an Oscar would make him more attractive to her'), flags the format ('a format built on a flirting bit'; 'The register is comic'), drops the 'just like my father' punchline, and uses the exchange only as evidence for Three, not against it."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Reopened Maron (S06 ~00:42:01–00:43:10). The context is quoted next to the 'enraged' line. The arc is reframed (option b): two kinds of 'more', status rejected and meaning pursued, and a new paragraph says the 2026 line 'echoes the boy in Surrey as much as it reverses him'. 'Ordinariness arrives late' is replaced with 'The wish for ordinariness is older than the ocean', starting from the 2017 'hidden life'. The description and Type 9 FAQ no longer use the gloss."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Tammy Faye / tick, tick... BOOM! timing added (C63), with the intense 2021 work conceded (C71). The Three/Nine discriminator no longer rests on 'gets back to work'; it argues from how he describes work and grief, tied to pre-bereavement evidence (C96). 'Most telling behavior' is removed. 'I ran towards it' now sits in the ocean section as what he credited for receiving the ocean's 'answer' (C45; S05 ~00:17:47)."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The Three section now includes the father drawing closer once Garfield was paying rent and making films (Maron, corroborated by Esquire), the 'my longing is back for it… trying to please you' line with the caption caveat, and Vanity Fair's Maguire competitiveness. A new paragraph states the image reading of each item: quitting at 12 is common, the theater retreat was also a prestige move, and on-camera disappointment is a performance. None of these is used against Three. The anti-Three case now rests on the father anger and therapy (C83) and the 2024 ambition self-report, dated."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "The Nine case now opens with its strongest form: buried anger, merging, the 'accept death as this tsunami… weirdly reassuring' account (C72), 'my ego was holding on' (C73), and grief-as-connection read as merging. It is answered with sourced discriminators: what he accepted was the death, not a quieter inner life (C93); he takes up room with collaborators (Stone, C27); and early on, self-search ('who am I?') rather than self-forgetting. 'A Nine rarely starts from…', 'classic Nine story' and 'A Nine tends to begin settled' are removed; the remaining generalizations are flagged 'in the theory'. The 'wasn't special' turn is now portrait, not proof, with a named falsifier (C90). The Miranda quote is removed."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "The paragraph now says the 2017 America interview was Silence promotion and drops 'not tied to a release'. It concedes that consistent language cannot separate temperament from persona, rests the rebuttal on costly behavior (the year of Exercises, two sports quit in rebellion, the long repair with his father; C81), and replaces 'nine years' with '2017 to 2024, first as grief about the world and then for his mother', ending 'For any single interview, though, publicity can't be ruled out.'"
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "The lead's contrast now rests on the clip's title and the line's plain reading, with no reputation claim. 'Rarely traveled with it' is removed (NBC printed both halves)."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "The harmonization stays, now supported by 'We all told her every day, she was the best of us', and the pair is removed from the loose ends."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Added the 'Maybe I'll have an awakening later in my life' line and the Advocate's gay-baiting summary (attributed to the magazine). His Newsbeat response stays and now includes 'a love letter to the LGBTQ community' and 'I dive in as fully as I possibly can'. Added 'The episode is neutral on type', with the immersion reading set against his own account; the section is retitled 'What the type doesn't settle'."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Two superlative signposts remain ('the Four reading's firmest early evidence', for the remedy discriminator, and 'the most distinctive thing in Garfield's record', now framed as portrait). The Four/Nine contrast is stated once in the type section and once in the Type 9 section; the in-line Nine asides are cut or reduced to a clause ('Anger alone doesn't rule out a Nine (more below)'). The Nine rebuttal adds new material (tsunami/ego answered, Stone testimony), and 'Collaborators' is gone with the Miranda line. Body length is 4,450 by checkDraft: still above the 2,000–3,500 target because the six reviews required added context, but within the 1,200–4,500 limit after redundancy cuts."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Recast as 'Read alone, the first line sounds like a man refusing to let a wound close', with no claim about a reputation."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The section now opens by naming the problem plainly ('A Four who decides he isn't special seems to contradict the type') and says whether it survives ('Does it break the Four reading? No, but it doesn't prove it either… portrait more than proof'). The ordinariness paragraph is reordered: 'The wish for ordinariness is older than the ocean. In 2017…'."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The pair is handled once: the reconciliation stays, and the pair is gone from the loose ends."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "The Ophelia scene now resolves from S01: the street singer's imperfect 'Vincent', 'I wouldn't have been given what I needed', and 'But actually, if you don't you're going to die'. The casting is kept neutral ('as Ophelia at the Globe')."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "The Holland quote is cut. The section now gives the context (sequels scrapped, role went to Holland) and Garfield's own 'closure' / 'sold me on the whole thing'."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The transcript note now describes Chicken Shop Date at first mention as 'a deadpan comedy interview series' with unlabeled captions, so the caption caveat moved out of the paragraph. The paragraph flags the flirting format, and the father punchline is cut."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Added plain one-clause definitions for Type 4, Type 3 ('driven by achievement and by being valued for it'), Type 9 ('keeps the peace by setting its own wants aside') and Type 2 ('built around being needed'). Wings are explained at first body use ('neighboring types that color the core one'), with 4w3 and 4w5 glossed, and in the 4w5 FAQ."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Three is now ranked the strongest alternative, by evidence weight, and Nine comes next as the call of the one opened typing site. The type answer, type section, FAQs (including a new 'Could Andrew Garfield be a Type 3?') and type_hypothesis.alternative_type = 3 all agree. The core type (4) and the evidence frozen for review are unchanged; all six reviewers tested both alternatives."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "The sentence now reads 'the Four reading's firmest early evidence, with two limits': the Exercises were role preparation, described during promotion to a Jesuit writer whose framework supplied vocabulary (C70). 'What I have to offer is never enough' is quoted and labeled Three-compatible, with only the longing to express 'this thing that is inside' called the Four's (C69). The remedy (retreat over performance) is argued in the next paragraph."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The hinge is rewritten. It adds the 'arts weren't valued' / lawyer-doctor-business context, says anger alone doesn't rule out a Nine (the Nine section states the anger-triad point and the overlooked-son origin), and locates the discriminator in what he did with the anger: an identity question and an inward search (C12, C05), plus turning feeling up rather than down (C18, C54, C96). The FAQ and type section carry the same discriminator."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Removed 'a Three usually gets back to work' and 'most telling behavior'. The paragraph now concedes that working through grief and choosing to feel it are common and not type proof, and ties the distinguishing habit (feeling as a destination, work as dedication) to the 2017 pre-bereavement 'grief of living' (C96)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The Nine contrast built on 'no one else had been through this agony' is removed from both places. The article says unique-feeling grief is common early in bereavement, that before 2019 he didn't claim exceptional suffering (2017: 'each of us'), and that the turn is 'portrait more than proof'. It names a falsifier (if the ocean had taught him to feel less) (C90). The equanimity loop is removed."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "The section now says plainly: 'None of this cleanly separates a Three who shows his vulnerability from a Four with a strong Three wing.' It names what tips it (which motive wins when image and inner truth collide), with sourced choices: the 2017 retreat over applause and the private reckoning and therapy with his father over love that came with success (C83). Confidence stays medium. The 4w3 note uses the same criterion."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Added the envy test (C87): the record shows little envy; he speaks of his golden-boy brother with admiration ('he's the guy you want taking care of you', S06) and his Maguire rivalry reads more like a Three's wish to win, which is given as a reason for medium confidence. Added the Seven clause: 'more' alone could fit Seven, and moving toward pain rules it out (C94). The type definition now avoids the stock 'something essential is missing' wording."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The equanimity paragraph is cut. The article no longer claims that keeping emotional intensity is equanimity. The Nine and Three readings of the ordinariness arc are named in the type sections ('Coziness, comfort' is Nine vocabulary; 'the mask or the persona' sounds like Three growth language)."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Rewritten tense-neutral: 'His 2026 films include Paul Greengrass's The Uprising and Luca Guadagnino's Artificial, in which he plays Sam Altman.' 'As of', 'stars in' and 'premieres' are dropped. The Artificial link now uses the moved Wikipedia title 'Artificial_(2026_film)', which the old title redirects to. C36 keeps a trigger, and its S22 locator records the move."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The Chicken Shop Date paragraph now includes the 'give up on that dream' and 'my longing is back for it… trying to please you' lines, with the comic-format flag and the caption note. The type section no longer says an Oscar 'once' meant something. The ambition rebuttal is dated ('in 2024 he told Cooper…'), and the section states that a future awards campaign would not settle the question because he already admits the pull. C19 and C30 are time_sensitive with 2027 awards-season triggers, and the new C106 has one too."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Option (b) plus print originals. The hook, description and Type 9 FAQ now rest on the print-corroborated Esquire wording ('I feel there is more…'). 'Enraged' appears only in the body, attributed to the Maron transcript under the transcript note. The Esquire (S30) and Vanity Fair (S31) originals were opened directly and are now cited in the article and the evidence, with the syndicated copies (S07, S28) kept as backups. Verifying 'enraged' against the audio stays an open research task, honestly flagged; it was not done in this session."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "'Nine years' is replaced with 'from 2017 to 2024, first as grief about the world and then for his mother', matching the cited grief sources. C38/C80 are updated."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The 2026 podcast is removed from the hook. The opening pairing is now the Esquire 'there is more' line and the 'every son and daughter' realization, and stands without it. The 2026 quote appears as 'The most recent instance came in September 2026', and C49 has a review_trigger for new long-form self-accounts. The persona_title is kept: 'Seeker' rests on the 2017–2026 record, and the reviewer flagged the title's echo as minor."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "The 'earlier readings' reference is removed from both body and FAQ; the wing reasoning stands on its own terms."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "'A defense, not an apology' is removed. C25 and C51 are now unresolved, with triggers for any later public statement on the 2017 remarks. C34 is time_sensitive, with a 2027 awards trigger. 'Now a lung doctor' became 'a lung doctor by then' (anchored to the 2022 interview), and 'twice-nominated' became 'nominated twice by then' (October 2024)."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Garfield doesn't describe refusing to heal. He describes walking toward the pain on purpose, because that is where he still finds his mother.",
+      "action": "kept",
+      "reason": "Unchanged verbatim."
+    },
+    {
+      "passage": "Read together, the grief he describes is not regret over things left unsaid. It is love that outlived the person it was for.",
+      "action": "kept",
+      "reason": "Unchanged verbatim, now supported by 'We all told her every day', and the contradicting loose-end listing is removed."
+    },
+    {
+      "passage": "A tidy Four story would have him tormented by the pretense. The record shows a man who hated it and enjoyed it.",
+      "action": "kept",
+      "reason": "Unchanged verbatim, now with Vanity Fair's 'I loved keeping it secret' (S31) as a second source for the enjoyment."
+    },
+    {
+      "passage": "Publicity explains when he talks about grief. It doesn't explain why he describes it in the same terms across nine years.",
+      "action": "changed",
+      "reason": "Keeps its contribution (timing versus content, answered in two sentences) as 'Publicity explains when he talks about grief. It doesn't explain why the same pull toward longing and loss shows up from 2017 to 2024, first as grief about the world and then for his mother.' Changed per critic-05 and future-04: 'nine years' overstated the grief span and clashed with the 'grief about the world' correction, and consistency alone cannot separate temperament from persona, so a costly-behavior test and a concession were added."
+    },
+    {
+      "passage": "He has kept working, through _We Live in Time_, _After the Hunt_, _The Magic Faraway Tree_ and _The Uprising_, so what changed, by his account, is why he works.",
+      "action": "kept",
+      "reason": "Unchanged verbatim; it now follows a dated '2024 he told Cooper' self-report per future-02."
+    },
+    {
+      "passage": "And my mom goes right up to him and grabs him by the lapels. And she says, it was me. It was all me.",
+      "action": "kept",
+      "reason": "Unchanged verbatim; Esquire (S30) now corroborates the story in print."
+    },
+    {
+      "passage": "Many grieving people feel their loss is unique; fewer describe the feeling so exactly and then call it an illusion.",
+      "action": "changed",
+      "reason": "Keeps the distinctive insight (the feeling of unique grief, named and corrected in his own telling) as 'fewer describe the feeling so exactly and then conclude, in his words, \"I'm not alone in it.\"' Changed per subject-07: he never called the uniqueness feeling an illusion; in Vanity Fair 'illusion' refers to the belief that a parent will always be alive."
+    },
+    {
+      "passage": "For someone who once raged that ordinary life might be everything, the deepest thing he has felt turned out to be the most ordinary thing there is.",
+      "action": "changed",
+      "reason": "Keeps the inversion and the ending's payoff as 'For someone who once raged at the idea that his small suburban world might be everything, the deepest thing he has felt turned out to be the most ordinary thing there is.' Changed per subject-03, critic-01 and enneagram-03: his 'this' was a narrow, status-ranked suburban world, not ordinary life as such. Still conditioned on 'If the Four reading is right'."
+    },
+    {
+      "passage": "He gave two answers in one breath.",
+      "action": "kept",
+      "reason": "Unchanged verbatim; the two-halves structure is retained."
+    },
+    {
+      "passage": "That was grief about the world, not a bereavement, and it came more than two years before his mother died.",
+      "action": "kept",
+      "reason": "Unchanged verbatim; the repaired discriminators now build on it (C96)."
+    },
+    {
+      "passage": "A Two tends to idealize that kind of giving. Garfield loved her for it and wanted her to stop.",
+      "action": "changed",
+      "reason": "Keeps the crisp Two discriminator grounded in his words as 'But a Two tends to idealize self-sacrificing care, and Garfield was angry that his mother wouldn't take better care of herself.' Changed per subject-06: 'wanted her to stop' overstated his account (he wanted her to take better care of herself), and 'that kind of giving' referred to the removed 'self-erasing' label."
+    },
+    {
+      "passage": "He gave two answers in one breath. The first became the clip that followed him: \"I hope this grief stays with me because it's the unexpressed love that I never got to tell her.\" The second rarely traveled with it.",
+      "action": "changed",
+      "reason": "The first two sentences and the quote are kept verbatim. 'The second rarely traveled with it' is replaced with 'The show titled its upload with that line. The second came in the same answer:', because the NBC News piece cited in the same paragraph printed both halves (subject-05, fan-06, critic-06). The hook's curiosity and orientation are retained."
+    },
+    {
+      "passage": "Shortly before his mother died, he told Maron, he was staying with a friend on Fire Island, carrying \"this fucking pain that I couldn't move.\"",
+      "action": "kept",
+      "reason": "Unchanged verbatim; the scene is now corroborated by the Vanity Fair original (S31)."
+    },
+    {
+      "passage": "\"And my mom goes right up to him and grabs him by the lapels. And she says, it was me. It was all me.\"",
+      "action": "kept",
+      "reason": "Unchanged verbatim, including the quotation marks."
+    },
+    {
+      "passage": "The record shows a man who hated it and enjoyed it.",
+      "action": "kept",
+      "reason": "Unchanged verbatim."
+    },
+    {
+      "passage": "This profile leaves the wing open.",
+      "action": "kept",
+      "reason": "Unchanged verbatim."
+    },
+    {
+      "passage": "What he brought to the retreat is the strongest single piece of evidence for the Four reading, because it came years before his mother's death and had nothing to do with a role.",
+      "action": "changed",
+      "reason": "Keeps the anchoring of the thesis in pre-bereavement 2017 evidence as 'What he brought to the retreat is the Four reading's firmest early evidence, with two limits.' Changed per enneagram-02: the Exercises were role preparation described during Silence promotion, so 'had nothing to do with a role' was false, and part of the wound ('what I have to offer is never enough') is Three-compatible. Both limits are now stated."
+    },
+    {
+      "passage": "This is the most distinctive thing in Garfield's record. Many grieving people feel their loss is unique; fewer describe the feeling so exactly and then call it an illusion.",
+      "action": "changed",
+      "reason": "The first sentence is kept verbatim. The second keeps its insight but replaces the misattributed 'illusion' with his own 'I'm not alone in it' (subject-07). The next paragraph now treats the turn as portrait rather than type proof (enneagram-05)."
+    },
+    {
+      "passage": "Quotations from Marc Maron's _WTF_ (2022) and Anderson Cooper's _All There Is_ (2024) come from automated transcripts; where print coverage carries the same story, this profile cites it.",
+      "action": "kept",
+      "reason": "Unchanged verbatim, and extended with one sentence on Chicken Shop Date's unlabeled captions, as future-05 invited."
+    }
+  ],
+  "prior_blockers": []
+}

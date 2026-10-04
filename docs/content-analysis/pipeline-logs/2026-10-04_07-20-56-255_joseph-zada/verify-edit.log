@@ -1,0 +1,22 @@
+The Joseph Zada verify stage is finished and the result is a **hold** (`insufficient_evidence`). The profile won't clear the release gate as written. The only file I wrote is `verification-edit.json` in the run directory. I didn't publish anything.
+
+**What checked out:** I reopened all 30 sources the article cites; four were blocked directly, so I read them through a reader proxy. Every quote I tested is word-for-word and in context. That includes the parts the editor restored: the friendly first half of the Harrelson dinner quote, the "I usually just say, 'I'm really excited'" lead-in, and his own reason for not settling on one method yet. All 45 reviewer findings were properly fixed, and all 23 protected passages kept their contribution. The three comparison typings (Chalamet 6, Lawrence 6, Butler 9) match the live pages. The hashes match the request, and running the contract's decision logic against the file produced exactly the blockers I intended.
+
+**Why it's held:**
+1. **A miscounted comparison (major).** The body and FAQ 2 say that when his nerves settle, he credits preparation done in advance "more often" than tuning the pressure out. The evidence record's own count is three tune-outs against two preparation items. One of those tune-outs is the only time he names a fix "for my nerves" ("I had to not think about that at all"). At best it's a tie, and this is one of the two arguments separating Type 6 from Type 9.
+2. **The Type 6 case is only a narrow lean (major).** The fears he names lean Type 3, which the article itself concedes. "People he knows" is something a Nine also seeks, again by the article's own admission. One of the two preparation items is a standard intimacy rehearsal the production ran. And no choice that cost him anything points to Six. The article is very honest about all this. But on these sources it can't reach the Enneagram score of 8 the gate requires; I gave it 7.
+3. **Minor:** FAQ 1 lists "a familiar set" as part of the Type 6 case, though the body says familiarity doesn't tell Six from Nine.
+
+Scores: overall 7.9 (needs 8.5). Evidence 8, Enneagram 7, originality 8.5, writing 8, durability 8.5, hook 8, discoverability 8.
+
+**What would unblock it:**
+- Interviews from the November 20, 2026 *Sunrise on the Reaping* release, sorted by what he says steadied him: results, people and preparation, or tuning out.
+- Accounts from people who've worked with him, such as the *Invisible Boys* creator or his directors, rather than co-star promo chats.
+- One choice that actually cost him something, for example how the early-2027 L.A. move plays out.
+- A recount of every "what calms him" statement, then a fix to the "more often" sentence.
+
+Wording edits alone won't raise the Enneagram score; it needs that new evidence. Any change to the type confidence then needs the full six-reviewer pass again (`--refresh --expanded-review`).
+
+**One decision for you:** the new evidence mostly arrives with the November release, which is also when search interest in him should peak. You could publish a clearly provisional version before the release window, or hold for the stronger version afterward. The verification doesn't make that call for you.
+
+Separately, several connected tools need authorization before they'll work: Asana, Atlassian, Datadog, GitHub, Linear, Notion, PagerDuty, Slack, Ahrefs, Amplitude (US and EU), Figma, HubSpot, Klaviyo, Similarweb and Supermetrics. Re-authorize claude.ai connectors in your claude.ai settings, and others via `/mcp`. Supabase failed to connect this session. None of these were needed for this stage.

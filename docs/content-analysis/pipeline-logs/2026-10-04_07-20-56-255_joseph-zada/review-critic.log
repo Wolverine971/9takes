@@ -1,0 +1,20 @@
+I wrote the critic review to `docs/content-analysis/pipeline-logs/2026-10-04_07-20-56-255_joseph-zada/review-critic.json` and changed nothing else. It passes the contract's review schema, and every quoted passage matches the draft exactly. The one quoted from the FAQ matches the frontmatter once it's parsed, because the YAML wraps it across lines.
+
+**Verdict:** the Joseph Zada draft is unusually honest about evidence that cuts against it. But it keeps winning those points back by adding together items it has already explained away. Type 6 is still a defensible lean, but Type 3 is closer than the draft lets on, and medium confidence is the most the evidence supports.
+
+I reopened The Hollywood Reporter profile, the Interview Magazine transcript, Behind The Blinds, Flaunt and TV Insider. Every quotation I checked is word-for-word correct. The problems are what was left around those quotes.
+
+There are 6 major and 2 minor findings:
+- **Disclosure argument (major):** the draft says a Nine plays disturbance down and Zada broadcasts it. It leaves out his own preface to "phenomenally nervous": "I usually just say, 'I'm really excited.'" His default is to play the nerves down.
+- **"The reclassification did not hold" (major):**
+  - "Shit scared" is about actors he wants to work with but hasn't met yet. That's what the reclassification predicts, not a reversal of it.
+  - "She's scary" answers Elle Fanning asking how Florence Pugh was "as a mother," and it leads into a joke about Pugh playing his mother.
+- **"What settles him" (major):** "people become reliable" is mostly the draft's own wording. One quote is cut off before "being more familiar with... a big American-made set." The girlfriend line ("helped me relax and not think about work") fits the draft's own definition of how a Nine settles.
+- **"The fear he names most often" (major):** count his named fears and failure fears ("embarrass myself," "terrified I'd be dreadful," "whether it's good or not") match or outnumber fears about admired actors. Fear of failing is the Three trait as the article defines it.
+- **The self-tape as Six-over-Three evidence (major):** the draft first credits production for the tape, then uses it against Three. Every behavioral item is eventually described as costing him little.
+- **The ending and persona title (major):** the "brings his people" pattern rests on two instances. The quote about the LA move leaves out his own "literally everything I could possibly want."
+- **Minor:** "far better" overclaims the dinner where he forgot his questions beside Woody Harrelson. The FAQs also drop the body's hedges.
+
+The similarity check found no meaningful reuse. Every flagged match is against Zada's own earlier draft from September 12, and the highest score against any other profile is 0.027, below the 0.04 trigger.
+
+Two connection notes, neither needed for this stage. The Supabase server failed to connect. Several plugin servers (Ahrefs, GitHub, Slack, Notion and others) need authorization through claude.ai connector settings or `/mcp` in an interactive session before they can be used.

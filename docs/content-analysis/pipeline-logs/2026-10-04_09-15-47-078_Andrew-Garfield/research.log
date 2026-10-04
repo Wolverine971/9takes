@@ -1,0 +1,39 @@
+The research stage is finished. I wrote only `evidence.json` to the run directory; no other repo files changed and nothing was published. It passes the pipeline's own evidence check: status **ready**, 27 sources (26 opened), 41 claims.
+
+**Type call: Type 4, medium confidence. Strongest alternative: Type 9.** The test that separates them is where he started. As a boy he was "enraged at the concept of this being everything" in suburban Surrey. As an adult he runs toward pain ("I didn't run away from it. I ran towards it"). Being ordinary is something he reached later, through grief, not where he began. Type 3 is a real second contender: he admits he was "tempted constantly to be producing, to be seen, to be appreciated," and says the Oscar "meant something to me… I think I needed that."
+
+**The old headline doesn't hold.** "Why Andrew Garfield Won't Let His Grief Heal" contradicts what he actually says:
+- In the same Colbert answer as "I hope this grief stays with me," he says he uses his art "as a way to heal."
+- He describes grief as "the only route to feeling her close again."
+- The draft says his wiring makes him believe nobody feels as deeply as he does. He told Marc Maron the reverse: grief first "felt incredibly acutely unique," then he realized "I wasn't special… I'm not alone in it."
+
+There's a stronger story available: a decade-long arc from that boy's rage at ordinary life to "free myself into my ordinariness" on a September 2026 *America* podcast. I flagged this as a major thesis change.
+
+**This draft will get the full six-reviewer jury**, not the usual two. Three flags trigger it:
+- **Contested typing:** a typing site lists him as Type 9 (search results showed others saying 9w1 too).
+- **Sensitive topic:** the 2017 *Angels in America* remarks about sexuality.
+- **The thesis change** above.
+
+**Errors in the baseline draft** (each logged as a research task):
+- **Can't be sourced, so cut or replace:**
+  - the mother "on the sidelines" at gymnastics
+  - the drama class that was "one student short"
+  - Scorsese's "two cameras" quote
+  - "just a fun gift I'm giving people"
+  - "first play at 16"
+  - the year learning to sing
+- ***Angels in America*:** he made the remarks during the run, not before it. He also didn't "walk it back"; he called them "twisted."
+- **Misquotes:**
+  - The Elmo lines are merged and trimmed.
+  - Cooper's word is "route," not "root."
+  - "when he saves Zendaya" in the Holland quote is an editor's bracket, not his words.
+  - Emma Stone's quote is from Teen Vogue, not The Hollywood Reporter.
+- **Misused context:**
+  - "I feel like nothing" answered a question about nationality, not self-worth.
+  - "pack animal" answered a cat-or-dog question, so it isn't evidence for the 4w5 or one-to-one reading.
+
+**Still to check before quoting:** the Maron and Chicken Shop Date transcripts are automatic and don't say who's speaking. That includes the Oscar "I needed that… just like my father" lines and who said "I think we'd have a really nice time without the camera."
+
+**Current as of 2026-10-04:** *The Uprising* opened September 10 to mixed reviews. *Artificial*, where he plays Sam Altman, premieres at the New York Film Festival on October 5 and opens December 25. I logged these with a recheck date but kept them out of the personality argument.
+
+Separately, the Supabase MCP server failed to connect this session (it wasn't needed). Several plugin connectors (GitHub, Slack, Notion, Ahrefs and others) need authorization in your claude.ai connector settings or via `/mcp` before they'll work.

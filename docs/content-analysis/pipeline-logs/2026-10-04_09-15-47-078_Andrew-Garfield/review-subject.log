@@ -1,0 +1,23 @@
+I wrote the subject-role (fairness) review to `docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/review-subject.json`. It passes the review schema, its two hashes match the request, and every passage it quotes appears word-for-word in the draft. I didn't change any other file or publish anything.
+
+**Risk flags:** I kept all three that the evidence record had already raised: sensitive allegations (the Angels in America remarks), contested typing (medium confidence, and typing sites mostly call him a Nine), and a major thesis change from the baseline. Any one of these means the full set of six reviewers is required.
+
+**Major findings (3):**
+- **subject-02, factual error.** The draft counts *Chicken Shop Date* as one of the times he talked about grief while promoting a film. I pulled and searched the episode's full captions: there's nothing about his mother, grief or loss. Evidence claim C38 has the same error.
+- **subject-01, Angels in America.** "A defense, not an apology" and "the people who live it" are the author's verdicts. The draft also leaves out his own explanation, which is in the source it already cites: "It's a love letter to the LGBTQ community" and "I dive in as fully as I possibly can."
+- **subject-03, the type argument's hinge.** In the Maron transcript, what enraged him was a "conservative suburban" upbringing where "the arts weren't valued." The draft turns that into "ordinary life," and the meta description states it as fact without "he says."
+
+**Minor findings (5):**
+- The father's values lose the source's "at the time," and a *Chicken Shop Date* joke ("just like my father") is used as evidence about him.
+- The opening claims a public reputation without a source. The NBC article it cites quotes the "rarely traveled" second half of the Colbert answer.
+- His mother's care is called "self-erasing," and the draft says he "wanted her to stop." He said he wanted her to take better care of herself.
+- The draft says he called his sense of unique grief "an illusion." His "illusion" was that a parent will always be alive.
+- The "loose ends" paragraph repeats two contradictions without the explanations the draft already gave for them.
+
+**Protected passages (5):** these include the reframe that he walks toward the pain rather than refusing to heal, "love that outlived the person it was for," and the paragraph answering the publicity argument.
+
+The similarity flag (0.241 against the Kacey Musgraves profile) is the standard one-line Type 4 definition, not a reused argument, so I didn't make it a finding.
+
+Limitation: I opened The Advocate and the *Chicken Shop Date* captions. For Maron and Cooper I read only the evidence file's excerpts and didn't check the audio.
+
+Several MCP servers (Ahrefs, GitHub, Slack, etc.) need authorization in your claude.ai connector settings or via `/mcp`, and the Supabase server failed to connect. This stage didn't need any of them.

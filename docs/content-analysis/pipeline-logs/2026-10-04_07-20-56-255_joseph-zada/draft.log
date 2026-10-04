@@ -1,0 +1,19 @@
+I've finished the draft stage for the Joseph Zada refresh. I wrote only the two requested files, `draft.md` and `evidence-draft.json`, in the run folder. Nothing was graded or published, and the live draft at `src/blog/people/drafts/joseph-zada.md` is untouched.
+
+**What changed in the article**
+- **New opening.** It now starts with the October 1 Hollywood Reporter profile. In it he says "I'm stepping into my own shoes," rejecting comparisons to James Dean and Woody Harrelson. The same profile says he blanked when he finally sat next to Harrelson. The article leaves that contradiction unresolved. Its reading: the confidence is about the roles, and the fear is about the people. The older opening (he swore when he got the Haymitch call) moves into the audition section.
+- **Same reading, Type 6 at medium confidence.** The argument still rests on what settles his nerves: specific people he can rely on, plus heavy preparation that he drops once filming starts. Type 9 gets a longer case, and the counterarguments are rebuilt around three points:
+  - He talks openly about being nervous instead of playing it down.
+  - When he leaves something behind, it's on his own terms, e.g. "I'm leaving" when he quit school for a final callback.
+  - What calms him is reliable people.
+
+  The move to Los Angeles no longer counts as evidence, since his reasons now include his brother's example and his agents' wishes.
+- **Type 3 gets more weight**, as the research asked. The new support: the four-scene tape with a drone, "my own shoes," the earliest fear in the record ("terrified I'd be dreadful"), and the director Zoe Kazan's "biggest movie star in the world" line. The appetite his co-star Emily Alyn Lind described still counts as unexplained.
+- **The school story is now one account.** He was expelled from a private school, moved to a public one, and left four weeks before finishing for the callback that became *Invisible Boys*.
+- **The research notes' cautions are followed.** His girlfriend isn't named. His parents' divorce is left out. The generation of the Afghan ancestor isn't fixed. "My first time being on a set at all" isn't quoted. *The Speedway Murders* is dropped.
+- **New title and description.** They now lead with the Harrelson moment instead of the swearing. The meta title is 61 characters and the description 148, both within the limits.
+- **Discoverability fixes** for what the last verifier marked down: links in the body to the Chalamet, Lawrence and Butler profiles, and a new FAQ on whether he could be a Type 3.
+
+**Checks:** both of the pipeline's own validators pass (`checkDraft` with no blockers, `validateEvidence` with status ready). The evidence file has 114 claims, every passage matches the draft exactly, and all 40 sources are kept. I dropped 27 claims the draft no longer uses and added 14 new ones (C147–C160). The removal list is written into `research_tasks`.
+
+**Decision for you:** the article is about 3,890 words. That's under the 4,500 hard limit but over the ~3,500 target, and length was one reason the last run scored 8.0 on writing. I cut from roughly 4,800 and stopped where further cuts would have dropped October evidence the reviewers need to test Type 3. If you'd rather hold the target, the easiest trims for the edit stage are the reviews/release paragraph and the privacy paragraph near the end.

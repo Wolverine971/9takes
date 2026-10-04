@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "5d360da4c19b36a25182356716b6ca85bb97257d6e08da1f06b59cc7b2bfd007",
+  "evidence_sha256": "977a1fca814d02ac1d0632672173714b55f04b26edd5f99e1cac0521a1488fb7",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "In Enneagram terms, this is the most telling behavior in the record.",
+      "problem": "A newcomer is told four different things are the decisive evidence: 'This is the hinge of the type argument' (gymnastics/Surrey rage), 'the strongest single piece of evidence for the Four reading' (not-enough-ness), 'the most telling behavior in the record' (running toward grief) and 'the most distinctive thing in Garfield's record' (I wasn't special). The Four-versus-Nine contrast is also restated almost every time it appears: the type answer ('A Nine tends to begin settled into ordinary life'), the gymnastics section ('An overlooked son who goes quiet and keeps the peace is a classic Nine story'), the grief section ('Under loss, a Nine usually turns the volume down'), the ocean section ('A Nine rarely starts from...') and again in the Nine rebuttal ('The Four reading still leads on the discriminator: where he started'). By the time the reader reaches 'The case for Type 9', the rebuttal has nothing left to add, momentum drops in the article's longest section, and the body runs about 3,900 raw words, above the 2,000–3,500 target. The rebuttal's 'Collaborators also report more heat than a Nine usually shows' cites only one collaborator (Miranda).",
+      "acceptance_test": "At most two superlative signposts remain, and both match the discriminator stated in the type answer (where he started; what he does with pain). The Four/Nine contrast is spelled out once early and once in the Type 9 section; the other in-line Nine asides are cut or reduced to a clause. The Type 9 rebuttal paragraph gives the reader something not already said (for example, the Miranda testimony as outside evidence), and 'Collaborators' becomes singular unless a second collaborator is cited."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "minor",
+      "passage": "The first half became his reputation: the actor who cries on talk shows and won't let the wound close.",
+      "problem": "The opening's stakes rest on correcting a public reputation, but nothing shows that this reputation exists. A reader who has never heard of it has to take the author's word that people see him as 'the actor who cries on talk shows and won't let the wound close', so the reversal that follows ('That reading drops half of what he said') argues against an unattributed straw version. The evidence record has no claim for this characterization.",
+      "acceptance_test": "Either a linked source shows the clip or the grief-actor framing circulating (for example viral coverage or headlines built on that line), or the sentence is recast as the line's plain reading ('Read alone, the line sounds like a man refusing to let the wound close'), which the closing section already uses, without claiming a reputation."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "The Four story so far has a weak point, and Garfield is the one who names it.",
+      "problem": "The section promises a weakness in the Four case and then gives the reader what reads as support for it: he had the Four's sense of unique suffering, then outgrew it, and 'A Nine rarely starts from' that place. A newcomer cannot tell whether 'I wasn't special' hurts or helps the Four reading. The same section then says 'After that, ordinariness keeps appearing as a goal' and gives a 2017 example first, before the 2019 ocean moment that 'that' refers to, which breaks the timeline the reader has just been given.",
+      "acceptance_test": "The opening sentence says in one plain clause what the weak point is (for example, that a Four who concludes he is not special seems to contradict the type) and the section ends by saying explicitly whether it survives. The ordinariness paragraph either drops 'After that' or presents the 2017 'hidden life' as an earlier precursor, so the dates read in order."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "Read together, the grief he describes is not regret over things left unsaid. It is love that outlived the person it was for.",
+      "problem": "The draft reconciles 'we left nothing unsaid' with 'the unexpressed love that I never got to tell her' here, then lists the same pair as unresolved in 'What the type doesn't explain' ('he says \"we left nothing unsaid\" while speaking of love \"that I never got to tell her.\" ... None of it is explained by it either'). A reader can't tell whether the author thinks the contradiction is solved.",
+      "acceptance_test": "The pair is treated one way throughout: either the reconciliation stays and the pair leaves the loose-ends list, or the reconciliation is labeled as one possible reading and the loose-ends sentence refers back to it instead of re-presenting it as unexplained."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "Before his first public performance after drama school, as Ophelia at the Globe, he felt \"Terror at being seen. Terror at revealing and offering my heart,\" and thought, \"I have nothing to give, I have nothing to offer, I'm a fraud.\"",
+      "problem": "The section ends on a cliffhanger with no outcome: did he go on? A newcomer may also stumble over a young man playing Ophelia without a word of context. The opened source (America, January 10, 2017) has the resolution: a street musician's imperfect performance of 'Vincent' turned him around, and he reasoned that if the busker had 'stayed in bed saying \"I have nothing to offer\"' the help would never have come. That detail is specific to Garfield and shows how he offers himself despite not-enough-ness, which is the article's own theme.",
+      "acceptance_test": "The Ophelia anecdote gets its outcome in one or two sentences sourced to S01 (the busker and 'Vincent', in context), or the scene is cut down so it doesn't read as an unfinished story. Any explanation of the casting is either sourced or kept neutral ('playing Ophelia in Hamlet at Shakespeare's Globe')."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "speaking of the scene in which Garfield's Spider-Man catches [Zendaya](/personality-analysis/zendaya)'s MJ, said, \"The look on his face... is totally genuine, and I'm really proud of him.\"",
+      "problem": "A reader who doesn't know the films won't see why catching MJ matters: it echoes the girlfriend his Spider-Man failed to save in his own sequel. Without that, the quote is opaque. It also does no clear work in 'What the type doesn't explain', where it follows the lying passage. Genuine emotion on camera is what the Four reading predicts, not a loose end. The source's own framing (a chance 'to make peace with the character' and 'win back the world', S26) is cut.",
+      "acceptance_test": "Either the quote gets one sourced clause of context (the earlier failed rescue; Holland's 'make peace with the character') and a sentence saying what it shows about Garfield, placed where it supports that point, or it is cut."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "When she said an Academy Award might make him more attractive, the reply was \"I get it I get it just like my father.\"",
+      "problem": "A newcomer doesn't know that Chicken Shop Date is a deadpan, flirt-format comedy interview until two sections later, so the Oscar exchange reads as sincere testimony. The 'just like my father' punchline is never unpacked, though it rests on the father's 'success and gold medals' values from the gymnastics section. Readers can't tell whether it is a joke, a confession or both. The caption-attribution aside ('The automatic captions don't label speakers, but the answer comes from the twice-nominated guest') also stalls the paragraph.",
+      "acceptance_test": "At first mention the show is described in one clause as a comic flirt-format interview. The father line is either linked back to the gymnastics-era 'success and gold medals' in one clause, with its performance context acknowledged, or cut. The caption caveat is kept but shortened to a parenthetical or moved to the existing transcript note."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "[Type 3](/enneagram-corner/enneagram-type-3) is a real contender too: he admits the pull \"to be seen, to be appreciated,\" and has said an Oscar once meant something to him.",
+      "problem": "Type 4 gets a working definition and Type 9 gets two, but Type 3, called the 'serious second' and given half a section, is never defined in plain terms, and neither is Type 2. Wing notation appears in the body and FAQ ('4w5', '4w3') with only 4w5 glossed ('the withdrawn, cerebral Four'). A reader without Enneagram background has to work out the Three's core motive from context and cannot follow the wing paragraph.",
+      "acceptance_test": "The first mention of Type 3 includes a one-clause plain definition (organized around achievement and being valued for it, or similar), Type 2 gets one clause where it appears, and the first use of 'w' notation explains in a few words what a wing is and what 4w3 adds."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "He gave two answers in one breath. The first became the clip that followed him: \"I hope this grief stays with me because it's the unexpressed love that I never got to tell her.\" The second rarely traveled with it.",
+      "reason": "A specific, sourced opening that sets up a real question (what did the clip leave out?), which the article answers. Orientation and curiosity in three sentences."
+    },
+    {
+      "passage": "Shortly before his mother died, he told Maron, he was staying with a friend on Fire Island, carrying \"this fucking pain that I couldn't move.\"",
+      "reason": "The article's best scene: concrete place, his own words, corroborated in print and retold three times. It carries the turn from uniqueness to 'I wasn't special' that the whole portrait depends on."
+    },
+    {
+      "passage": "\"And my mom goes right up to him and grabs him by the lapels. And she says, it was me. It was all me.\"",
+      "reason": "A memorable, human detail no other profile would have. It makes the mother a person rather than a symbol and sets up 'I do owe her her unmet dreams.'"
+    },
+    {
+      "passage": "Publicity explains when he talks about grief. It doesn't explain why he describes it in the same terms across nine years.",
+      "reason": "Takes the cynical non-Enneagram explanation seriously and answers it with a clear, checkable test (the 2017 interview predates the bereavement). A newcomer leaves with a way of reasoning, not just a verdict."
+    },
+    {
+      "passage": "For someone who once raged that ordinary life might be everything, the deepest thing he has felt turned out to be the most ordinary thing there is.",
+      "reason": "The ending pays off the opening's 'distance between those two sentences' with an earned reversal rather than a summary or call to action."
+    }
+  ],
+  "assessment": "Read cold, the profile works. The Colbert hook raises a real question, the bio lands by the fourth paragraph, and the arc from Surrey rage at ordinariness to 'I wasn't special' to 'free myself into my ordinariness' is easy to follow and pays off at the end. Context for the sensitive Angels in America episode (who Prior Walter is, what was said, who objected, his response) is clear enough for a newcomer. Momentum is strongest from the gymnastics section through the ocean scene. It sags in 'The case for Type 9, and for Type 3', which juggles Nine, Three, Two, wing and publicity alternatives after the Four/Nine contrast has already been restated several times, and in a loose-ends section where some items (the Holland quote) don't clearly belong. Smaller drags not raised as findings: the transcript-method note sits between the bio and the type answer before the reader has met either podcast; unpunctuated auto-transcript runs ('I do owe her her unmet dreams her the sacrifices she's made her longing', 'the only moment that she that she comes', 'we don't we don't like you') read like typos even with the disclosure; the Miranda quote has no link at the passage; and 'He shows the need and the defeat on camera' doesn't say which defeat. Similarity check: the one tripped pair (Kacey Musgraves, 0.241) is the stock Type 4 gloss 'something essential is missing'. That is ordinary type vocabulary, not a reused argument. The arguments themselves are specific to Garfield, so this is not a finding, though tying that definition to his own 'not-enough-ness' would make it less generic. Risks are flagged because the draft carries a public LGBTQ backlash, a typing that sites dispute (Nine), and a thesis reframed from the baseline, as the evidence record states."
+}

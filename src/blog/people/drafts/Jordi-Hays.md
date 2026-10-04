@@ -1,8 +1,8 @@
 ---
 title: 'Jordi Hays: The Type 3 Scoreboard Behind TBPN'
-meta_title: 'Jordi Hays Personality Type: Enneagram Type 3'
+meta_title: 'Jordi Hays: The TBPN Showman Who Takes the Work Seriously'
 persona_title: "Tech's Serious Showman"
-description: 'Jordi Hays turns tech news into a daily performance. See how TBPN, Capital, relentless iteration, and the OpenAI sale reveal an Enneagram Type 3.'
+description: 'Jordi Hays co-hosts TBPN, the live tech show OpenAI bought in April 2026. Six hours of prep for three on air shows the Type 3 scoreboard behind the act.'
 author: 'DJ Wayne'
 date: '2026-03-21'
 loc: 'https://9takes.com/personality-analysis/jordi-hays'

@@ -1,0 +1,22 @@
+I wrote `docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/review-unfamiliar.json`. It passes the review schema, and every quoted passage in it appears word for word in the draft. I didn't change any other file and nothing was published.
+
+**Verdict for a first-time reader:** the profile works. The Colbert opening raises a real question, and the story from "enraged at the concept of this being everything" to "I wasn't special" to "free myself into my ordinariness" is easy to follow and pays off at the end. The section weighing the other types is where it slows down.
+
+**8 findings (1 major, 7 minor):**
+- **Major – repetition:** the article calls four different things its decisive evidence, and repeats the Type 4 vs Type 9 contrast about five times. By the time the reader reaches the Type 9 section there's nothing new left to say. The article body is also about 3,900 words, over the 2,000–3,500 target. A smaller slip in the same spot: "Collaborators" is plural but only Lin-Manuel Miranda is cited.
+- **Minor:**
+  - The opening says the grief clip made him known as "the actor who cries on talk shows," but nothing shows that reputation exists.
+  - The "I wasn't special" section is introduced as a "weak point" for the Type 4 reading but actually supports it. It also says "After that" and then gives a 2017 example for something that happened in 2019.
+  - The two quotes "we left nothing unsaid" and "love that I never got to tell her" are explained as consistent in one section, then listed as unexplained in another.
+  - The story about his stage fright before playing Ophelia stops before the outcome. The *America* article (I opened it) has the ending: a street musician's imperfect "Vincent" turned him around.
+  - Tom Holland's quote about the MJ catch scene makes no sense without knowing his Spider-Man failed to save Gwen Stacy earlier. It also sits in the "what the type doesn't explain" section without explaining anything.
+  - The *Chicken Shop Date* format and his "just like my father" line are never explained.
+  - Type 3, Type 2 and wing notation like "4w3" are never defined for someone new to the Enneagram.
+
+**5 passages marked to keep:** the "two answers in one breath" opening, the Fire Island ocean scene, his mother grabbing Jack Black's lapels, "Publicity explains when he talks about grief…", and the closing line about the most ordinary thing there is.
+
+**Risk flags:** I set sensitive allegations, contested typing and major thesis change to true, matching the evidence file; historical source uncertainty is false.
+
+**Similarity check:** the one match it flagged (0.241 against the Kacey Musgraves profile) is the standard Type 4 definition, "something essential is missing." That's shared Enneagram vocabulary, not a reused argument, so I didn't log it as a finding.
+
+None of this used outside services. The Supabase connection failed this session, and several plugin services (GitHub, Slack, Ahrefs and others) need to be authorized in your connector settings before they can be used.

@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "9b8e08ed61264367b5853138ef43a04338ce16d75724985acdd998ddcb04546b",
+  "evidence_sha256": "920633e02a4f83cf7d792f5b9aa7fecbc0386b18a170ef1df916bc3023c0f7a1",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "Zada plays Cal in Netflix's seven-episode version",
+      "problem": "Read cold, the opening makes him the lead of a seven-episode Netflix series. It calls it 'his Netflix series', and this sentence names the episode count without qualification. The record says he plays teenage Cal in the last two episodes only: he told Fanning 'I'm in the last two episodes' (C92, S01), Wikipedia credits him as a guest star (S15/S16), and The A.V. Club places him in 'the final two episodes' (S35). A newcomer first learns this at the end, in the unexplained phrase 'his two episodes of East of Eden', which reads like a contradiction. That damages trust in the article's sense of scale just when it asks the reader to weigh his nerves against the size of his roles.",
+      "acceptance_test": "Within the first two body paragraphs, the article says he plays the teenage Cal in the final two of seven episodes, with Florence Pugh leading, and 'his Netflix series' is reworded. The James Dean comparison can stay, and may note (only with a source) that the 1955 film covers the same teenage stretch. By the time the reader reaches 'his two episodes of East of Eden' near the end, it tells them nothing new."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "inside the promotional windows of four projects",
+      "problem": "The four projects go unnamed here, and the reader gets no map of his career until the second-to-last paragraph, a reference block of release dates that arrives after the argument is over. In the meantime the evidence jumps between four overlapping productions. Invisible Boys is first mentioned via a Perth set visit, We Were Liars only as a label for Esther McGregor, then come 'nightly hangouts in Halifax', 'In Berlin he said he was \"phenomenally nervous,\"' and 'the Sunrise shoot in Spain'. Glenn Close and Ralph Fiennes appear as 'a cast list' with no project attached, and since Florence Pugh is the co-star named nearby, a newcomer will likely place them in East of Eden. Someone who arrived from a search for his name can't tell when anything happened, where, or how big each job was. That blurs the article's best chronological point: the nerves return across projects and years.",
+      "acceptance_test": "Before or immediately after the type answer, no more than about 90 words name the four projects in order, each with year, platform or format, the size of his part, and where it shot (Perth; Halifax; New Zealand, October 2024 to March 2025; Berlin and Spain from mid-2025). Glenn Close and Ralph Fiennes are tied to Sunrise on the Reaping. The first mentions of Halifax and Berlin say which production he was there for. The closing status paragraph shrinks to release status and reception."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "About the roles, he isn't. About the people, Zada, an Australian actor born in 2005, has described being unnerved in interviews from July 2025 to October 2026.",
+      "problem": "The split between the work and the people is the article's most useful idea, and it is the real answer to the hook's contradiction. Here it arrives as two clipped fragments with his basic biography wedged mid-sentence, so a newcomer can miss it. It isn't stated plainly again until the 'my own shoes' paragraph near the end of 'Afraid of the people he admires'. The same paragraph then leans on 'the type organized around security' without ever telling a reader who searched for an actor what the Enneagram is.",
+      "acceptance_test": "After paragraph 4, a reader new to him can say in one sentence: he claims the roles as his own but gets rattled by the people he admires, and the article argues that pattern, plus what calms it, points to Type 6. His nationality and birth year stand in their own clause. One clause or link tells a newcomer the Enneagram is a nine-type model of core motivation before 'Type 6' has to carry weight."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "The Six reading explains the second far better than the first, and this profile leaves the first standing.",
+      "problem": "This sentence pays off the opening hook, but its referent is unclear. The sentence before it says 'the October profile', meaning THR's, so 'this profile' naturally reads as THR's piece rather than the 9takes article. The paragraph also ends on a remark about the article's method rather than what the unexplained half tells us about Zada, so the reader's curiosity from the opening dissolves into process.",
+      "acceptance_test": "The referent is unambiguous ('this analysis' or similar). The paragraph's last sentence tells the reader what the unexplained half means about him (for example, his confidence about the work looks real and sits outside the Six pattern), and still admits the reading does not explain it."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "Press style does not explain the flight home, or a fear of admired actors that came back after he said it had passed.",
+      "problem": "The tape section concedes 'The simplest explanation is production' for the flight home. The family paragraph counts it again ('with the flight home it makes two cases of family gathered at his own threshold'), and this closing line offers it as the leftover that press style can't explain. A newcomer sees an item conceded and then used as proof twice, which reads as having it both ways. It also weakens the one place the article answers its own strongest objection, that all of this is promotional idiom.",
+      "acceptance_test": "The flight home counts as evidence at most once after the concession. Wherever it is used, the article makes clear that the evidence is his own framing ('just so I could work with my older brother'), not the trip itself, consistent with the production explanation. Or the closing line drops it and rests on the recurring fear alone."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "for [Interview Magazine](https://www.interviewmagazine.com/film/joseph-zada-elle-fanning-hunger-games) in August 2026",
+      "problem": "The same Fanning conversation is dated two ways. It is 'August 2026' here, but later it is 'Asked by Fanning in June 2026' and 'In June 2026 he had told Fanning'. The source record shows it was recorded June 12, 2026 and published August 10, 2026 (S01). A newcomer may think these are two interviews. The 'eleven months after' timing in the reclassification section only works with the June date.",
+      "acceptance_test": "The first mention says recorded June 2026, published August 2026, or the article uses one stated convention throughout, and every later Fanning reference matches it."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "The fear was back eleven months after Behind The Blinds",
+      "problem": "This sentence uses an outlet name as a timestamp, so the reader has to remember a Belgian magazine named eight paragraphs earlier. Two nearby phrases are similarly insider. 'The auditions were Hal's, and the numbers are conversational.' is opaque shorthand for 'eight hours and 100 ways are figures of speech'. 'A Type 3 reading, organized around achievement and being seen to succeed, gained ground in the October 2026 coverage.' implies an earlier assessment the reader never saw, which leaks from the refresh process.",
+      "acceptance_test": "The time marker names the event (for example, 'eleven months after the July 2025 Berlin interview'). The Hal sentence says plainly that the figures are conversational exaggeration. The Type 3 opener does not imply a previous version (for example, 'The October 2026 coverage supplies the best case for Type 3')."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Three observations resist it. The first is what settles him.",
+      "problem": "The body runs about 3,890 words, above the 2,000–3,500 target. Most of the excess sits in the back third: 'What settles him', 'The case for Type 9' and 'He just gets what he wants' run about 500–555 words each. The 'what settles him' discriminator is explained in the type answer, explained again in the next two paragraphs, becomes a section title, is restated here, and is restated once more in the Type 3 rebuttal ('what he reaches for under pressure'). Items already quoted also return in full: the three-week deadline, 'I'm leaving', the four scenes and drone, the tape made with his brother and father. For a newcomer, the argument slows just when it should sharpen.",
+      "acceptance_test": "The body comes in at or under about 3,500 words with no loss of evidence, counterevidence or stated limits. The discriminator is explained fully once, and each later mention takes one sentence or less. Previously quoted items get a few-word pointer instead of a fresh quotation. Genuinely new material in these sections stays: the Deadline 'ridiculously nervous' line, the sound-department music, the Star Observer 'dreadful' fear, the Polyester hedges and the Awards Radar split."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The same profile describes the first time Zada sat beside Harrelson, at a dinner after the prequel was shot. \"But everything I knew about him just went out of my mind. I couldn't think of any questions. I forgot everything I wanted to ask him.\"",
+      "reason": "A specific, sourced, visual moment that gives an unfamiliar reader an instant image of the person and sets up the article's central tension against 'my own shoes'. Keep it near the top."
+    },
+    {
+      "passage": "His confidence arrived once the people he feared had been reclassified as peers.",
+      "reason": "Paired with the next paragraph's 'The reclassification did not hold.', this is the article's most memorable piece of insight. It is earned by the Flaunt quote and then tested against dated later evidence, which is the progression the standard asks for."
+    },
+    {
+      "passage": "Even the ancestors come as company: \"now I feel like I've got my great-grandfather and my grandmother guiding me as my lucky stars.\"",
+      "reason": "An unexpected, person-specific detail that turns the name-change section from biography into portrait without overclaiming."
+    },
+    {
+      "passage": "Chilling is also the word he used for what company protects him from: \"chilling in my own head and going crazy by myself.\"",
+      "reason": "Close reading of his own vocabulary that connects the calm surface to the need for company. It is distinctive, it can't be reused for another subject, and it is honestly limited by the next sentence."
+    },
+    {
+      "passage": "The swearing was a joke, told more than a year later to a friendly co-star after the film was safely shot.",
+      "reason": "The article deflates its own good anecdote. That builds a newcomer's trust in the rest of the reading and models the observation-versus-inference discipline."
+    }
+  ],
+  "assessment": "Orientation is strong in the first two paragraphs. James Dean, Woody Harrelson, Cal and Haymitch are all explained, and the Harrelson dinner blank is a specific hook that the article rewards. The family-trade, name and drone-tape sections have real momentum and details a newcomer will remember: the household film business, the cameleer ancestry, a one-scene request answered with four scenes and a drone, fear of admired people that returns after he says it is gone. The honest limit paragraph helps an unfamiliar reader calibrate. Weaknesses are mostly orientation and pacing. The reader never gets a career map until the end. The East of Eden framing overstates his part, which is two of seven episodes. The core work-versus-people insight is first stated cryptically. The back third slows by restating the discriminator and re-quoting evidence. A few insider references remain (outlet-as-date, 'gained ground', conflicting Fanning dates). Stakes are clear enough: a 21-year-old newcomer carrying two legacy roles in one season. The ending's prediction is a satisfying return to 'the deep end'. Similarity advisory: every tripped pair (max 0.692) is against the 2026-09-12 version of this same profile. That is refresh carry-over of the type-comparison sentences, not boilerplate shared with other subjects. Cross-subject maximum is 0.027, below the 0.04 trip threshold, and the Six/Three/Nine triad is ordinary type vocabulary, so I make no reuse finding. Risk flags: contested_typing is true. The draft itself calls the Nine discriminator 'a lean rather than a clean split', and Three 'does not fully explain the appetite'. historical_source_uncertainty is true: the ancestry generation is disputed in the text, Flaunt is undated, and the Fanning interview has two dates. No sensitive allegations. I see no thesis change in the evidence record, but I did not compare against the baseline, which was not a supplied input."
+}

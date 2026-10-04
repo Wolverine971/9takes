@@ -1,0 +1,348 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Reopened S30 directly: the opening now restores 'We chatted and he asked me questions about myself and told me stories' before the blank, and 'he was so, so lovely about the whole process' (S01) sits beside 'I had his blessing'. The blank is no longer listed as a reported fear: the opening's dated range is now 'July 2025 and again in June 2026' (C153), the Nine section and disclosure list are gone, and meta_title/description no longer mention it. The side-by-side paragraph says 'anyone might have had it' before the Six reading claims only the order of events (C127, C152)."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Reopened S01: 'She's scary' answers 'how was Florence as a mother?' and is a joke, so it and the 'daunting' line are no longer used as fear evidence (C113, C94 retired). 'The reclassification did not hold' became 'The reclassification covered the people he had worked with' (C176), and the conclusion rests only on 'shit scared' and 'deathly nervous', attributed to the bucket-list question (C93, C175, C108)."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Disclosure is withdrawn as a discriminator against Nine (C154 retired). The Nine section now quotes 'I usually just say, \"I'm really excited.\" But honestly, now that it's getting closer, I'm phenomenally nervous' (S02, verified) as Nine-side evidence (C170), the friend-interviewer context comes from the McGregor introduction, and FAQ 2 no longer says he announces fear instead of muting it."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "The school paragraph now gives THR's stated cause, 'blowing off classes as he pursued auditions and small roles' and the missed classwork behind the expulsion (S30, verified). 'School went worse' became 'School went the other way'. The S06 'a lot of stuff going on' quote is no longer used and nothing is inferred from it. C07 updated, C45 retired."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "The sentence calling his name, nerves and mother's wishes things he 'volunteers beyond the job' is deleted, along with the 'open' privacy tension (option b). No interview answer is described as volunteered. C24 retired."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "'The swearing was a joke' became 'He told it lightly, more than a year later, to a friendly co-star after the film was safely shot', which keeps the timing and audience limits and assigns no intent (C60, C12, C48 updated)."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The Polyester quote now includes his own reason, 'I'm young, I want to be able to experiment with a bunch of different ways and a bunch of different processes' (S05, verified). The 'well-advised teenager'/'career position' motive and the 'split that test' paragraph are removed. The October 2026 Awards Radar line is reported as continuity with that reason, not as a test result (C21, C138)."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "'I've got nothing' is removed from the Nine case and from the article (option a). C129 retired."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Before the Romeo and Juliet anecdote, the section now records Bilched (2019, Toby; Hal wrote and starred, their father directed; S15, S24 reopened) and quotes 'It was never strange for us to act, or to be chucked into a short film for someone's friend' (S01). The H2 is now 'Kicking and screaming onto the stage', the section says 'What he resisted at 14 was the stage', and the Nine section no longer cites 'kicking and screaming'. The family-company paragraph cites Bilched as precedent plus the film he and Hal were co-writing (S02). C79, C161, C167, C187 added."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "The Dean reaction is quoted with its timing: 'I didn't necessarily feel pressure until I finished the job and watched the film... Then I was like, 'Oh, shit.' [Laughs] That is an incredible, incredible performance from James Dean' (S01, C62). 'Different treatment' became 'He handled the two famous predecessors the same way, keeping each out of his head during the work' (C189). The side-by-side paragraph no longer relies on a clean work/man split; it rests on the order of events. THR's 'angst and need for approval' is not used."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "The type section now says 'his showrunner's repeated instruction' (S16: Garth Davis and Laure de Clermont-Tonnerre directed every episode). The first named Kazan mention reads 'who created and ran East of Eden and whose grandfather Elia Kazan directed the 1955 film' (S16, S30). The optional Phoenix/Ledger exchange is not added."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "The opening now says 'Zada plays Cal as a teenager, in the last two of the Netflix series' seven episodes, with Florence Pugh in the lead', and 'his Netflix series' became 'the day Netflix released East of Eden' (S30, S16). The optional 1955-film clause was left out for length."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Fixed with subject-01: the opening includes 'We chatted and he asked me questions about myself and told me stories'. The dinner blank is gone from the Nine disclosure sequence, and the metadata no longer refers to it."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Added the clause 'Suzanne Collins's novel already takes Haymitch from a hopeful 16-year-old to a broken victor' (new source S41, C163). The June 2026 'I could do whatever the hell I wanted with that character' (S01, C164) sits by the 'my own shoes' paragraph to show the stance recurs. The steering argument now says the departure was one 'the novel licensed but he chose' (C172)."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Disclosure is dropped as a discriminator. The 'I usually just say, \"I'm really excited\"' preface is quoted as Nine evidence (C170). The Harrelson blank is out of every alarm list, and the Type 9 FAQ no longer contains 'announces his fear instead of muting it'."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "'She's scary' is cut. The bucket-list answer is restated as fear of idols he had not yet met, which is consistent with the Flaunt reclassification of colleagues (C176). The text now acknowledges that his confidence about the work recurs ('he makes it repeatedly', June 2026 C164, October 2026 C126). 'The reclassification did not hold' and 'a fear of admired actors that came back after he said it had passed' are both removed."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The We Were Liars sentence is quoted through 'big American-made set' (S02, verified). The girlfriend line now appears only in the Nine section as a tuning-out remedy (C128, removed from for_claim_ids). The remedies are labelled in the prose and in C165. Only Close's line (July 2026) uses reliability wording, and the source wording of the Berlin 'prep mode' (July 2025) and the mapped-out Invisible Boys rehearsals (February 2025, S20) is structural. Because fewer than two items show dependability, I took the revise path. 'Reliable' is withdrawn from the 'What settles him' opening, the type answer and the FAQs, which now say people he knows and preparation done in advance and that the remedy 'only leans'. Medium confidence is kept on the structure-plus-people lean, and the evidence record says so."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "'Most often how admired actors will see him' is withdrawn. The type answer and FAQ 1 now say his named fears, of being judged or of doing badly, are ones a Type 3 shares and that the Six case rests on what settles them (C50). The Three section counts 'embarrass myself', 'terrified I'd be dreadful', 'not to be afraid of whether it's good or not' (S04, C76) and 'deathly nervous' (C173), and adds his teenage pursuit of auditions (C174)."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "The tape is no longer a Six-over-Three discriminator. The Three section now says it 'does not decide it: it is the record's clearest act of performing to win, made with the best crew he had' (C157). 'Press style does not explain the flight home' is deleted. The limit paragraph now says 'Few of his choices cost him much, so this reading rests mostly on statements that repeat across years and interviewers, which keeps confidence at medium' (C178). I rechecked confidence: it stays medium on the labelled remedy lean (C165)."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "His own enthusiasm is quoted beside the reps line ('It's got literally everything I could possibly want', S30). The closing notes that the move means leaving the place he calls safe against his mother's wish, and it names counter-outcomes for Three and Nine (C183). The 'bring his people' prediction is replaced by a remedy prediction (C82). The persona title is now 'The Haymitch Who Prepares Everything, Then Lets It Go', which rests on the prepare-then-release pattern across projects (C137), not on two conceded instances."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "The quote now includes 'We chatted and he asked me questions about myself and told me stories'. 'Far better' is replaced by 'anyone might have had it', and the Six reading claims only the order of events, with 'A Nine's tuning-out would produce the same order'."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Both FAQ answers now carry the body's hedges. The Type 9 FAQ says the Six reading 'leads only narrowly' and 'Neither point is a clean split', using only discriminators the body keeps (remedy, the opposite-of-Woody choice). The Type 3 FAQ says Three leads on what he fears and Six on what settles him, 'which is rarely a result'. 'Announces his fear' and 'trusted people before results' are gone."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Fixed with fan-04: the second paragraph states the last two of seven episodes and Pugh's lead, and the career map repeats 'a two-episode part'. The late 'his two episodes' reviews sentence was cut."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "A career map of about 90 words now follows the limit paragraph. It names the four projects in shooting order with platform/format, year, size of part and location (Perth and Geraldton early 2024; Nova Scotia 2024; New Zealand October 2024 to March 2025; Spain and Germany July to November 2025) and ties Glenn Close and Ralph Fiennes to Sunrise (C177). First mentions say 'Halifax... during We Were Liars' and 'in Berlin preparing for Sunrise on the Reaping'. The closing status paragraph is reduced to release status, and reception is cut."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The fourth paragraph now says 'About the roles, he isn't. About the people, he is less settled.' Nationality and birth year sit in their own appositive clause. A clause defines the Enneagram as a 'nine-type model of core motivation' before Type 6 carries weight (C180)."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The referent is now 'this analysis'. The paragraph ends on what the unexplained half means: 'His confidence about the work sits outside the Six pattern, and this analysis leaves it standing.'"
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "The flight home now counts once, in the tape section, as his own framing after the production concession. It is gone from the family-at-threshold count, and 'Press style does not explain the flight home' is deleted."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "The first Fanning citation reads 'in a conversation recorded June 12, 2026 and published that August'. Later references use June 2026, and FAQ 4 says 'recorded in June 2026'."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "'Eleven months after the Berlin interview' replaces the outlet-as-date wording. 'The numbers are a figure of speech, but the habit was real' replaces the shorthand, and the Type 3 opener is now 'The best case for Type 3... starts with', with no implied earlier version."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "I fixed the redundancy the finding identified. The discriminator is explained once, in the type section, and later sections point to it. Re-quoted items ('I'm leaving', the three-week deadline, the tape with brother and father) are now short pointers, and the perishable reviews, the duplicate disclosure list and several low-value quotes are cut. By the contract's counter the body fell from 3,892 to 3,738 words, even though about 600 words of evidence and counterevidence were added at other reviewers' request (Bilched, the Dean reaction, Kazan's lineage, the novel's arc, the Berlin prep, the rehearsal, the experimentation reason, the fear count, Type 7, the L.A. enthusiasm, the career map). The remaining roughly 240 words over the 3,500 soft target carry that required material, which the acceptance test says must not be lost. The total is within the 4,500 limit."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Option (b): the type answer and FAQ 1 now say plainly that the fears he names are evaluation fears a Three shares and that the Six reading rests on what settles them. The Three section counts 'embarrass myself' as well as 'dreadful' (C173). After the enneagram-02/03/05 fixes, one remedy-side discriminator survives: structure arranged in advance (two dated structure items) plus one reliability item, against results. Confidence therefore stays at medium, with the limit stated in the limit paragraph, and the evidence record notes that weaker structure evidence would mean low confidence or a hold."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Every remedy is now labelled in C165 and in the prose: Close is reliability; the Berlin 'prep mode... got here early to work with the stunt team, the director' (S02, restored as asked) and the Star Observer rehearsal (S20, verified) are structure; 'meet everyone' and the We Were Liars familiarity are ease, which a Nine shares. 'Reliable' survives only for Close and in the type definition, with two independent dated structure items. The girlfriend line appears only as Nine evidence."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Disclosure is dropped as a discriminator against Nine. 'I usually just say, \"I'm really excited\"' is quoted and counted toward Nine (C170). 'Then goes to find his people' is deleted, and FAQ 2 is changed to match."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "'Far better' is replaced by a calibrated claim. The blank is ordinary ('anyone might have had it'), and the Six reading uses only the order of events, which 'a Nine's tuning-out would produce' too. The warm context ('We chatted...', 'so, so lovely') is restored, and the meta_title ('What Settles the New Haymitch') and description no longer feature the blank."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The tape is now neutral ('does not decide it'), consistent with the production concession. The Three comparison rests on what settles him: his accounts of nerves resolving 'rarely run through results'. The confidence consequence is stated in the limit paragraph. The hedging test was removed under subject-07, and the hedges are weighed only weakly. FAQ 3 now reads 'The Six reading leads on what settles him, which is rarely a result'."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "The steering paragraph now rests first on the Harrelson study ('two months copying a famous performance, then a self-set challenge to play its opposite, which the novel licensed but he chose'), with the small items conceded as low-cost, and it ends 'It leans toward someone who steers'. FAQ 2 cites the same example and calls it a lean."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Type 7 is now named in two sentences. The text concedes he often turns a named fear upbeat ('I know it's going to be one of the best shoots ever') and sets Seven aside because he anticipates dread with his idols ('deathly nervous') and his fix is preparation and familiar people, not new options (C169). The evidence record's 'he names anxiety instead of reframing it' criterion is corrected."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The closing now names observable outcomes tied to the November 2026 release and the early-2027 move. If acclaim settles him through results, Three gains. If he lets the next role and city choose him, Nine gains. The 'bring his people' half is replaced by a remedy prediction (C82, C183)."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "No body, FAQ or metadata text now dates the meeting or the blank to October 2026. The opening says 'some time after the prequel was shot', and only the telling is attributed to THR's October 1, 2026 profile. C127's inference and the type_hypothesis discriminator now read: undated, after the November 28, 2025 wrap, and before June 12, 2026 if it is the meeting S01 mentions. C154 is retired."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The move is a past-dated report ('In October 2026, THR reported that he planned to move to Los Angeles early in 2027'). The final paragraph opens 'As of October 2026, the move and the November release were the next tests' and contains no author-voice 'will move' or 'next threshold he has announced'. It reads correctly whether or not the move happens. C82 keeps its trigger."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "The future-tense 'press cycle will be the cleaner test' sentence and its condition are deleted. C21's trigger now names the hedge paragraph in the Type 3 section for revision after the November 20, 2026 press cycle."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The relationship is dated ('The girlfriend he described to THR in October 2026'), the jobs run is bounded ('from 18 to 20'), and 'I've got nothing' is removed. C128 has a concrete trigger (recheck at every refresh and on any report the relationship has ended) and is removed from for_claim_ids. The Six argument does not depend on it."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The sentence is now dated ('as of October 2026') and inventoried as time_sensitive claim C179, with a trigger on any typing change to the three profiles. The three typings were confirmed on 2026-10-04 against the live pages (S42-S44: 6, 6, 9) and the generated famousTypes list."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "The early-reviews sentence is cut, C144 retired and the A.V. Club and Variety review URLs removed from citations. No undated 'early reviews' wording remains."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "Fixed with unfamiliar-06: the first citation gives both dates ('recorded June 12, 2026 and published that August'), later references and FAQ 4 use June 2026, and the eleven-month interval is measured from the June date."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Nervousness, gratitude and \"the cast became a family\" are the house style of those formats, and a newcomer sharing a cast list with Glenn Close and Ralph Fiennes would produce them whatever his type.",
+      "action": "kept",
+      "reason": "Kept verbatim. It states the source base's main confound before the argument, and it is now inventoried as C190."
+    },
+    {
+      "passage": "Other Six markers are thin. He does not visibly test whether people can be trusted, and his mixed record with authority, following a director's repeated instruction while walking out on a principal's ultimatum, fits most young actors as well as it fits a Six.",
+      "action": "changed",
+      "reason": "Only 'a director's' changed, to 'his showrunner's', per fan-03, because Kazan directed none of the episodes (S16). The admission that the Six-specific markers are thin, and that the authority record fits most young actors, is otherwise verbatim."
+    },
+    {
+      "passage": "The simplest explanation is production: a director father and an actor brother were the best crew for a tape with locations, costumes and a drone.",
+      "action": "kept",
+      "reason": "Kept verbatim, still before the relational reading. Following critic-05, the article no longer takes it back: the tape is now neutral between Six and Three."
+    },
+    {
+      "passage": "Wikipedia records his Afghan-Aboriginal heritage and a Barkandji connection, which fits his account, though the sources disagree on which generation the cameleer belonged to.",
+      "action": "kept",
+      "reason": "Kept verbatim. The heritage stays attributed to him, the generation dispute is stated, and THR's First World War date is still omitted."
+    },
+    {
+      "passage": "Of his girlfriend, he told THR, \"she's helped me relax and not think about work so much.\"",
+      "action": "changed",
+      "reason": "It is now 'The girlfriend he described to THR in October 2026 \"helped me relax and not think about work so much,\" a Nine's remedy.' The line moved to the Nine section (critic-03, enneagram-02) and is dated (future-04). The protected privacy choices hold: she is unnamed, and the parents' divorce is still omitted."
+    },
+    {
+      "passage": "THR's writer heard him \"not the least bit haunted by the ghosts of movie stars past.\" About the roles, he isn't. About the people,",
+      "action": "kept",
+      "reason": "Kept verbatim. The pivot now continues 'About the people, he is less settled', which states the split plainly for newcomers (unfamiliar-03)."
+    },
+    {
+      "passage": "His confidence arrived once the people he feared had been reclassified as peers.",
+      "action": "kept",
+      "reason": "Kept verbatim, inventoried as C188."
+    },
+    {
+      "passage": "The reclassification did not hold.",
+      "action": "changed",
+      "reason": "It overreached. The Flaunt remark covered colleagues, and the June 2026 fear concerned idols he had not met (subject-02, critic-02). It is now 'The reclassification covered the people he had worked with.' The short turn and the dated cross-interview test survive in 'Eleven months after the Berlin interview, the idols he had not yet met still frightened him.'"
+    },
+    {
+      "passage": "Chilling is also the word he used for what company protects him from: \"chilling in my own head and going crazy by myself.\"",
+      "action": "kept",
+      "reason": "Kept verbatim, with its limit ('Two uses of a casual word cannot prove it')."
+    },
+    {
+      "passage": "A limit shapes everything below. Almost every substantial source on Zada is an interview published between February 2025 and October 2026, inside the promotional windows of four projects.",
+      "action": "kept",
+      "reason": "Kept verbatim. Only the methodological promise that follows changed (critic-05)."
+    },
+    {
+      "passage": "\"My own shoes\" is a claim about the work, and two months of study followed by a deliberate departure gives him some right to it.",
+      "action": "changed",
+      "reason": "It is now '\"My own shoes\" is a claim about the work, and he makes it repeatedly: \"I could do whatever the hell I wanted with that character,\" he told Fanning in June 2026. Two months of study followed by a deliberate departure gives him some right to it.' The strongest counter-image still gets its evidenced due and is not explained away by a wing. The recurrence was added for fan-06 and critic-02."
+    },
+    {
+      "passage": "He even qualifies his own calm. When Fanning followed up on \"I'm chilling,\" he added: \"There hasn't been a whole lot of chill until very recently. But yeah, Australia is a safe place.\"",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "The swearing was a joke, told more than a year later to a friendly co-star after the film was safely shot.",
+      "action": "changed",
+      "reason": "'Was a joke' assigned an intent that S01 does not mark (subject-06). The line now reads 'He told it lightly, more than a year later, to a friendly co-star after the film was safely shot.' The self-deflation and the timing and audience limits survive."
+    },
+    {
+      "passage": "The same profile describes the first time Zada sat beside Harrelson, at a dinner after the prequel was shot. \"But everything I knew about him just went out of my mind. I couldn't think of any questions. I forgot everything I wanted to ask him.\"",
+      "action": "changed",
+      "reason": "It stays near the top as the visual hook. It is corrected per subject-01, fan-05 and future-01: 'the first time Zada met Harrelson, seated beside him at a dinner party some time after the prequel was shot', with the omitted 'We chatted and he asked me questions about myself and told me stories' restored before the blank."
+    },
+    {
+      "passage": "Even the ancestors come as company: \"now I feel like I've got my great-grandfather and my grandmother guiding me as my lucky stars.\"",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "Zada's record favors the Six mainly through what settles him. Other Six markers are thin. He does not visibly test whether people can be trusted",
+      "action": "kept",
+      "reason": "Kept verbatim. No wing or arrow rescue was added."
+    },
+    {
+      "passage": "The mechanism he names is still worth noticing. His confidence arrived once the people he feared had been reclassified as peers.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "If he speaks with settled authority about his method once his work is released, the hedging was career position more than temperament.",
+      "action": "changed",
+      "reason": "Removed. The test assigned an unattributed motive ('career position') and could not discriminate, because S05 gives his own reason for the hedge ('I'm young, I want to be able to experiment...'), and later answers matching that reason prove nothing (subject-07). Its contribution, an honest falsifiable check, now lives in the closing paragraph, which names outcomes after the November 20, 2026 release and the 2027 move that would favor Three or Nine (enneagram-08)."
+    },
+    {
+      "passage": "This suggests his easygoing surface and his need for company are more connected than the Nine reading allows. Two uses of a casual word cannot prove it.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "When Zada explains how nerves resolve, specific people usually become reliable.",
+      "action": "changed",
+      "reason": "'Specific people usually become reliable' was mostly the author's gloss (critic-03, enneagram-02). It is now 'When Zada explains how his nerves resolve, the fix is rarely a result. It is usually familiarity with a set and its people, built before or early in the work.' The central insight is kept in calibrated form. It rests on dated statements from February 2025, July 2025 and July 2026 and still stands with the October 2026 profile removed."
+    },
+    {
+      "passage": "The fear was back eleven months after Behind The Blinds, paired with what settles it: being made comfortable.",
+      "action": "changed",
+      "reason": "It relied on the Pugh mother joke and an outlet-name timestamp (subject-02, critic-02, unfamiliar-07). It is now 'Eleven months after the Berlin interview, the idols he had not yet met still frightened him.' The exact interval and the two dated statements are kept."
+    },
+    {
+      "passage": "That leaves the two lines from the October profile side by side. \"My own shoes\" is a claim about the work, and two months of study followed by a deliberate departure gives him some right to it. The blank at dinner is about the man. The Six reading explains the second far better than the first, and this profile leaves the first standing.",
+      "action": "changed",
+      "reason": "Corrected for future-01 (dating), enneagram-04 and critic-07 ('far better' was unsupported), fan-02 (the Dean reaction makes the predecessors parallel) and unfamiliar-04 (referent). It still sets 'my own shoes' against the dinner blank, uses the latest event as a dated contradiction that tests the thesis, and leaves the contradiction unresolved ('His confidence about the work sits outside the Six pattern, and this analysis leaves it standing')."
+    },
+    {
+      "passage": "As of October 4, 2026, his released series leads were _Invisible Boys_, which premiered on Stan on February 13, 2025, and _We Were Liars_, released on Prime Video on June 18, 2025, which has filmed a second season.",
+      "action": "kept",
+      "reason": "Kept verbatim as the closing status line (C38), with explicit as-of and absolute release dates."
+    }
+  ],
+  "prior_blockers": []
+}

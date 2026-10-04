@@ -1,0 +1,16 @@
+I've written the five-year review for the Joseph Zada draft to `review-future.json`. It passes the pipeline's review schema, and I didn't change any other file or publish anything.
+
+**Verdict:** The Type 6 argument holds up. Even with the October 1, 2026 Hollywood Reporter profile removed, the core insight still stands: what settles him is specific people becoming reliable. That rests on dated interviews from July 2025 to July 2026. Most of the dating problems are wording fixes in the last three sections.
+
+**Findings: 1 major, 6 minor**
+- **Major (future-01): the Harrelson dinner is misdated.** The draft says he blanked beside Woody Harrelson "in October 2026." I opened the Hollywood Reporter piece directly: it gives no date for the dinner. By his June 12, 2026 interview with Elle Fanning he says they had already met, so October 2026 is only when he told the story. This also contradicts another line in the draft, and the same error is in the evidence file (C127, C154, the discriminator), so later refreshes would repeat it.
+- **The ending rests on a planned move.** "He will move to Los Angeles in early 2027" will be out of date within months. The prediction itself is good to keep; the sentences around it need dating.
+- **A future-tense promise:** "The Sunrise on the Reaping press cycle will be the cleaner test."
+- **Status facts with no date:** the girlfriend, having no next job, and "back-to-back jobs since he turned 18." The review trigger on the girlfriend claim doesn't name anything checkable.
+- **Cross-page comparison not tracked:** "9takes reads Chalamet and Lawrence as Sixes and Butler as a Nine" is correct today, but it isn't in the claim list, so nothing would flag it if one of those pages is retyped.
+- **Three-day-old reviews:** they don't test the personality argument and are the easiest cut. The body is about 3,890 words, over the 3,500 target.
+- **One interview, two dates:** the Fanning interview is dated August 2026 in one place (publication) and June 2026 in others (recording).
+
+I marked five passages to keep, including the paragraph on the limits of promotional interviews and the core "specific people usually become reliable" line. The similarity check found no reused wording: every match was against this person's own September 12 draft, which this run is refreshing.
+
+As instructed, I copied the content hash from the request file. It doesn't match a plain hash of `draft.md`, which is probably because the pipeline hashes a normalized version.

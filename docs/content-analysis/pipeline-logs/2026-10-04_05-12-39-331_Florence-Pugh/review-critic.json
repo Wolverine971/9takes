@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "59cd3d2d788cf44aec5cb24fa4d04eebeb7e8ca5dd8d1455f7c378f84fb15600",
+  "evidence_sha256": "a3890f1c3cc53541a8e3dd5e23b9144eeb502efd5773643badc434f7dcec0419",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "Pugh says hers \"would bring people down,\" and the same move recurs from _Little Women_ to the lockdown videos.",
+      "problem": "Discriminator 1 treats two different behaviors as one move. The Theroux line is about hiding pain from others for their sake ('fill in a lot of energy for other people', 'the last person that I look after', 'would bring people down'), a pattern of looking after other people's mood. Little Women and lockdown are a different move: not dealing with her own distress herself, or coping through activity. The lockdown evidence cuts against concealment. In the first Story she told followers she had been feeling 'glum' (IBTimes, March 31, 2020, opened), said 'I danced and I felt better', and named her 'weird horrid anxiety' to her audience in real time. The Seven case borrows the authority of her clearest costly self-report, but that self-report is the most Two-shaped line in the record. The 7-vs-8 paragraph never says so; the Two section does, using the same quote.",
+      "acceptance_test": "The 'Why the Seven reading still leads' section separates (a) concealing pain to protect others' mood from (b) distracting herself from her own pain, and says which one is the Seven evidence. It no longer says the lockdown videos repeat the concealment move, or it notes that she publicly said she was feeling glum. In the same paragraph it admits that 'would bring people down' is at least as consistent with Type 2 as with Type 7. That sentence is not only in the separate Two section."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "In two unrelated episodes, three years apart, the thrill and the comeback came first and the cost arrived years later.",
+      "problem": "The article's own hook contradicts this timeline. In the same December 2019 Deadline Q&A that calls Little Women 'the best therapy' (opened), she said 'I was scared, because I'd never come close to any sort of grief like that', 'I had to really just destroy myself for an entire three months', and that watching the film left her 'completely hungover, and just dead'. So the cost was named within months. What came later was the depression account and the 'abused my own self' framing. The Valentino half is also selective. The July 2022 caption already names harm ('how easy it is for men to totally destroy a woman's body, publicly, proudly'). In 2023 she said 'the scariest thing for me are the instances where people have been upset that I've shown \"too much\"', in the same ELLE UK answer that mentions the dress. In February 2023 she described online anxiety: 'If my head and heart are hurting...' (Vanity Fair Q&A). The September 2024 line answered a British Vogue writer who raised the online commentary about her body, including the 2022 gown. 'Only in September 2024 did she name the hurt' and 'the cost arrived years later' are attractive, but the record does not support them as written. The type answer's 'Across a decade of interviews' also stretches accounts that date from 2019 to 2025.",
+      "acceptance_test": "The 'thrill first, cost later' section admits that her 2019 Midsommar account already contained cost language ('scared', 'destroy myself'), and it limits the 'later' claim to the depression and abuse framing. 'Only in September 2024 did she name the hurt' is removed or qualified with the 2022 caption and the 2023 ELLE UK line. The 2024 quote is described as an answer to the interviewer's question. Any 'decade' claim matches the dates of the cited accounts."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "Professional craft may explain this.",
+      "problem": "Circumstance and craft are discounted unevenly. When she moves toward pain in her work, the article offers craft as an explanation. When she moves from Midsommar to Little Women, it reads the move as personality ('When pain arrives, she moves toward something lighter'). Yet Deadline's December 2019 narration says 'Pugh got Aster and Gerwig to work it out a schedule so that she could walk from one film to the next'. The lighter job was booked before the grief, so the move was a calendar fact. The only Seven-specific evidence is her retrospective 'shelved all of that'. The stunt line ('pretend to myself not to listen to my instincts') counts as Seven evidence, but the fear-seeking line ('the majority of my roles... I've been terrified by') counts against Seven, though both describe overriding fear. The strongest counterevidence is the hook itself: three months of voluntarily imagining her family's funerals. Vogue 2020 adds 'I like feeling raw... Anytime an opportunity of me being perfect onscreen comes up, I panic.' This sits in a late 'can't explain' section, not beside the type argument, as the standard requires.",
+      "acceptance_test": "The article says Little Women was a pre-arranged booking (attributed to Deadline), so the Seven evidence is how she handled the switch, not the switch itself. It treats craft and circumstance the same way for evidence that helps and hurts the Seven reading, or says why one counts as personality and the other doesn't. The type section, or 'Why the Seven reading still leads', addresses the voluntary pain-seeking in the hook and explains how a Seven reading accounts for it (e.g., her 'exhilarating' framing), or concedes that it doesn't."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "Her firmest public statements tend to end in a joke and an exit.",
+      "problem": "Most of the record contradicts discriminator 3. 'Tut tut tut. Oh dear.' was not an exit. The same post continues 'Here's another go at it in case you were one of those people that can no longer see my post' (Variety, September 30, 2026, opened). She then took the case to The View ('it made me feel so much rage') and told Vanity Fair 'I have no qualms with speaking about things that make me feel pissed off... This makes me feel enraged'. The 2020 Braff video ('please unfollow me') and the Gaza stance ('I was never scared of it', hundreds of thousands of followers lost) also have no joke and no exit. That leaves one clean example ('Well, don't'). The 'freedom' half has the same weakness. 'I don't like being told how to do things' and 'push you left and right' are statements about not being controlled, which the article itself defines as the Eight motive. The evidence record says they fit 7 and 8 'about equally', yet the prose says 'Hers keeps coming back to freedom' as if it tilts the call. 'I don't want to have things just happen to me any more' is quoted out of context. In Harper's Bazaar UK it follows 'I've worked back-to-back since I started, and I've missed so much' and leads into a 'scary break-up' ('I can't wait for people any more... I have to help myself'). It admits past passivity; it is not defiance. 'What her defiance names, from 19 on' also dates the value to 19 from a story told at 26. Her contemporaneous wording starts at 21 (Grazia 2017).",
+      "acceptance_test": "The 'joke and an exit' tendency is removed, or the article shows that it holds across the public stands it cites (Braff 2020, Valentino 2022, Gaza 2025, Cornell 2026) and counts the exceptions. The Cornell repost is not presented as an exit. 'I don't want to have things just happen to me any more' either appears with its overwork and break-up context or comes off the list of defiance statements. The freedom-vs-power sentence says the autonomy wording fits Seven and Eight about equally. 'From 19 on' is corrected to reflect her contemporaneous wording."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "Her handling of _Don't Worry Darling_ fits the same exit pattern.",
+      "problem": "This is a sensitive, disputed episode, and it is used as personality evidence while her own stated reason is left out. In British Vogue (September 2024, opened) she said she declines because 'I always think it's unfair to take the space away from the movie that I'm talking about. So I'm going to politely move away from that.' That is an ordinary professional reason, so the silence cannot support a type tilt. The closing sentence ('for four years she has declined either to fight that conflict in public or to resolve it') presents 'that conflict' as established fact. But the conflict rests on anonymous reporting, Wilde and about 40 crew members denied the screaming-match account, and Pugh has confirmed nothing. The paragraph names prudence and then says 'Either way', so it keeps the inference it has just undercut.",
+      "acceptance_test": "Don't Worry Darling no longer counts as evidence for any type, or the article explicitly calls it non-diagnostic. It gives her stated reason for declining, attributed to British Vogue 2024. No sentence assumes that a conflict involving Pugh happened. Neutral wording such as 'the reports' or 'questions about the production' replaces 'that conflict', and the FAQ answer matches."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "She says nothing about looking weak.",
+      "problem": "Adverse self-reports that bear on discriminator 1 are in the evidence record but never confronted. In the February 2023 Vanity Fair Q&A (S36), on showing her cellulite: 'I'd much rather do it than they do it, and then I feel ashamed. There's no pretending with me.' She exposes herself first, on her own terms, so others can't shame her. That is close to the control-and-vulnerability motive the article assigns to Eights and says she lacks. In September 2026 (S21): 'I don't find it hard to talk about what doesn't sit correctly in my body.' After Gaza (S41): 'How can I say I'm having a really good time when literally one scroll up, I'm looking at a baby that's motherless and fatherless?' Here she refuses to keep the room light. The sentence is literally true of the Theroux passage. Placed after it, though, it leaves readers thinking the record holds no shame or control motive.",
+      "acceptance_test": "Near discriminator 1, the article confronts at least the 2023 'rather do it than they do it, and then I feel ashamed' line and the 2026 'I don't find it hard to talk about...' line. It says how the Seven reading survives them, or it lowers the weight of discriminator 1. 'She says nothing about looking weak' is explicitly limited to the Theroux passage, or it is revised."
+    },
+    {
+      "id": "critic-07",
+      "severity": "major",
+      "passage": "The Big Mouth Who Keeps Her Own Pain Quiet",
+      "problem": "The metadata claims more than the body supports. The persona title says, in the present tense, that she keeps her pain quiet. But the body records her speaking publicly and often about pain: Midsommar depression, 'really painful' internet abuse, a painful relationship on a major podcast, Cornell 'rage'. In 2026 she says she doesn't find it hard to talk about what doesn't sit right. The body's own thesis is that she names the cost later, not that she stays quiet. The FAQ 'Why isn't Florence Pugh a Type 8?' cites the co-star standoff as evidence but drops the gendered explanation and her 'I've always been able to make sure that I'm heard'. The body says those qualifiers are why the story 'supports the Seven reading without settling it'. Readers who see only the search snippet get the uncaveated version.",
+      "acceptance_test": "The persona title no longer says she currently keeps her pain quiet. It describes the timing pattern the body actually argues, or it is put in the past tense. The Type 8 FAQ answer either includes her gendered explanation of the standoff or drops the standoff. Every FAQ claim carries the same qualifiers as the body passage it summarizes."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "So the story supports the Seven reading without settling it.",
+      "problem": "The retakes story is evidence against an Eight, not evidence for a Seven. Going along 'a bit mushy' after six crying takes until someone else draws the line is accommodation. That fits the article's own live third reading (Type 2) at least as well as Type 7, and nothing in the story is about keeping things light or moving on. Labeling it Seven support inflates the positive case.",
+      "acceptance_test": "The sentence says the story weighs against the Eight reading but doesn't separate Seven from Two, or it names what in the story is specifically Seven."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "She never had to refuse anything; the show simply died. The story was told six years later, by which point candor was part of her public image.",
+      "reason": "This confronts a flattering origin story honestly: the defiance narrative came in hindsight, and nothing was refused at the time. A skeptic would want exactly this; keep it."
+    },
+    {
+      "passage": "\"Complete control\" sounds as much like an Eight, or a Three holding an audience, as a Seven chasing the thrill of the live moment. The childhood record shows a performer, not yet a motive.",
+      "reason": "It refuses to make childhood evidence carry the type, and it states the limit in one sentence."
+    },
+    {
+      "passage": "Alone, none of these would carry much weight: lockdown cooking was everywhere, teenage quick fixes are ordinary, and the stunt line is one reflection.",
+      "reason": "It discounts each weak item before claiming a pattern, which is the right order. Keep it even if the pattern it introduces is narrowed under critic-01 and critic-03."
+    },
+    {
+      "passage": "People process hurt over time, and a reflective cover interview invites admissions. None of this proves she was hiding pain in 2022.",
+      "reason": "It names the strongest ordinary explanation in the body, not in a footer. Keep it while the timeline claim around it is corrected under critic-02."
+    },
+    {
+      "passage": "The observation that would separate the two best, how she reacts when her care goes unreturned, is missing from the public record.",
+      "reason": "It is an honest, specific statement of what would settle Two versus Seven, not false certainty."
+    }
+  ],
+  "assessment": "Medium confidence is the right level, and the draft deserves credit for confronting adverse evidence in places (Studio City, the childhood 'control' line, the Type 8 section's steelman). The positive case for Seven is weaker than the prose suggests. Discriminator 1 rests on the record's most Two-shaped sentence and on a lockdown example that contradicts concealment. Discriminator 2 is evidence against an Eight, not for a Seven. Discriminator 3 depends on 'joke and exit' examples the record mostly contradicts (Cornell repost and The View, Gaza, Braff), a quote taken out of its overwork context, and a Don't Worry Darling silence she has explained in professional terms. The 'thrill first, cost later' arc, the article's best idea, is contradicted by its own hook: in December 2019 she already said she was 'scared' and had to 'destroy myself'. The Midsommar-to-Little Women move was a pre-arranged booking, while craft explanations are used only against the Seven reading. The type call can survive, but only if the discriminators are narrowed to what the sources show and the pain-seeking, shame-preempting and openness evidence sits next to the argument. Similarity diagnostic: not tripped (max 0.025, below the 0.04 threshold and within the noise maximum). The flagged pairs share only ordinary type vocabulary, and a grep found the 'what is her pushback defending' framing in no other draft, so I found no meaningful reuse. Sources I opened for this review: Deadline 2019, IBTimes 2020, British Vogue 2024; the others I checked against the verbatim excerpts in the evidence record. Risks remain: sensitive allegations (pending Cornell case, disputed Don't Worry Darling reports, an unnamed relationship whose relays carry abuse details) and contested typing."
+}

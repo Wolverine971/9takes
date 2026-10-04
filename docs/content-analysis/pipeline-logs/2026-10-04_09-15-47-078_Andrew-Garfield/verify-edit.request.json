@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "Andrew-Garfield",
+  "mode": "refresh",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/verification-edit.json"
+  },
+  "content_sha256": "3c04260f52a1be0a06291117f83fadd510ff49577d3f9762254cba34d65520e0",
+  "evidence_sha256": "6fdb1eaea46b4e41f226e27a33265855ff2d68b87a7091c891d2e22368709992"
+}

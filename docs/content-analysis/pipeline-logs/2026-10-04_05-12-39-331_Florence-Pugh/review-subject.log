@@ -1,0 +1,21 @@
+The subject (fairness) review for Florence Pugh is written to `review-subject.json` in the run folder. It passes the review schema, and both hashes match the request. I changed no other files and published nothing.
+
+**Risk flags:** sensitive allegations and contested typing are both flagged, which matches the research stage. That means the full six-role review panel is needed.
+
+**Findings (6 major, 2 minor).** I opened the Guardian 2018, British Vogue 2024, Vogue 2023, Variety Cornell 2026 and EW/Yahoo pages to confirm them.
+1. **Studio City date is wrong (major).** The draft says she first told the story six years later, once candor was her brand. She actually told it to The Guardian in October 2018, in an article the draft already cites.
+2. **Don't Worry Darling (major).** The FAQ says "She has not explained." She did: in British Vogue 2024 she said it's "unfair to take the space away from the movie" she's promoting.
+3. **Cornell quote cut to "rage" (major).** She said the case made her feel "scared… anxious… so much rage." Keeping only "rage" props up the Type 8 case and drops evidence against the article's own thesis.
+4. **"A joke and an exit" (major).** The draft's own Cornell example contradicts this pattern. She reposted, then went on The View and called it "an ongoing conversation," and Gaza points the same way. It also states her "censored" claim as fact, when Variety reports a content warning.
+5. **Zach Braff linked to the unnamed relationship (major).** The Braff paragraph's only citation links to EW's "unhealthy past relationship" article. That invites readers to connect Braff to a partner she never named.
+6. **Persona title (major).** "The Big Mouth Who Keeps Her Own Pain Quiet" states as current a habit she has talked about publicly and says she has changed.
+7. **Haircut and "quick fixes" (minor).** Vogue 2023 traces the haircut idea to her teenage mental distress. The draft drops that reason and cuts "so dark and scary" from the quote.
+8. **On-set FAQ (minor).** It leaves out her own explanation of why a male co-star spoke up for her.
+
+**Protected passages (5):** her refusal of a "sob story" about her childhood illness, the "None of this proves…" hedge, the transcript-uncertainty note, the fair handling of the Wilde reporting, and the "record has limits" close.
+
+**Similarity check:** not tripped. The highest score was 0.025 against a 0.04 threshold, and the top matches are generic type definitions, not reused arguments.
+
+One source limit: the Telegraph original behind the Studio City quotes is paywalled, so I didn't open it.
+
+Unrelated to this stage: several MCP connectors (Ahrefs, Slack, Notion, GitHub and others) need authorization in your claude.ai connector settings or via `/mcp`. The Supabase server also failed to connect this session.

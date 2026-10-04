@@ -1,0 +1,17 @@
+I wrote the five-year durability review for the Florence Pugh draft. It's in `docs/content-analysis/pipeline-logs/2026-10-04_05-12-39-331_Florence-Pugh/review-future.json`. It passes the pipeline's review schema, the two content hashes match the request, and every quoted passage appears exactly in the draft. I didn't change or publish anything else.
+
+**Verdict:** the draft mostly passes. Its main argument is that she meets pain with motion and lightness and names the cost later. That rests on dated accounts from 2014–2025, so it still holds if you remove everything from September 2026. The problems are claims about her current status that will go stale.
+
+**Major findings (3):**
+- **Don't Worry Darling silence, body text:** "for four years she has declined…" will be wrong by next year. "Pugh has never told her side" is open-ended and missing from the evidence record. Both are marked stable, with nothing set to flag them for recheck, even though the dispute is unresolved and the silence is used as evidence for the type call.
+- **Don't Worry Darling, FAQ:** none of its status sentences are in the evidence record. The question itself ("Why won't Florence Pugh talk about…") assumes the refusal is still going on, and FAQs show up in search results on their own, away from the article's dates.
+- **"A joke and an exit" pattern:** this is one of the three tests for Seven over Eight. Its newest example is the Cornell repost, which was days old. The same source shows her going on The View within days to keep talking about it, which is escalation, not exit. Without that example, the "exit" half of this test barely holds.
+
+**Minor findings (5):**
+- The Cornell case is described as "pending" with no source for that status, and there's no date set to recheck it.
+- "Plays Yelena Belova" and her *East of Eden* producer credit are written as current roles. The series premiered on October 1, 2026.
+- The ending's "now" isn't dated, and the arc about her slowing down isn't tracked for recheck.
+- The Kevin Feige stunt anecdote is sourced only to Wikipedia, with no saved version of the page.
+- The "people pleaser" keyword comes from a machine transcript nobody has checked against the audio.
+
+I flagged five passages to keep, including the hook (her 2019 account retold in 2025 "with a different ending") and the line saying her care going unreturned is missing from the public record. The similarity check found no meaningful reuse from other profiles.

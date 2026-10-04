@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "9b8e08ed61264367b5853138ef43a04338ce16d75724985acdd998ddcb04546b",
+  "evidence_sha256": "920633e02a4f83cf7d792f5b9aa7fecbc0386b18a170ef1df916bc3023c0f7a1",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "\"shit scared\" in June 2026 and the blank beside Harrelson in October 2026.",
+      "problem": "This dates the Harrelson dinner by the profile's publication date. On 2026-10-04 I opened THR (S30) directly. It gives no date for the dinner: \"It was only after he'd shot Hunger Games that Zada met the original Haymitch. He found himself sitting next to Harrelson at a dinner party.\" S01, a conversation recorded June 12, 2026, already has \"We ended up meeting, but we'd already shot.\" The blank therefore happened after the 2025 Sunrise shoot and probably before June 12, 2026. Only the retelling belongs to October 2026. The sentence contradicts the article's own \"They met only after the film was shot, and 'I had his blessing,' he told Fanning\" (dated June 2026). It also misplaces the event behind the hook, the meta_title and the description. A 2031 reader would think the first meeting came after both shoots and the June interview. The evidence record contains the same error (C127 inference \"this, October 2026\"; C154 inference; type_hypothesis.discriminator \"blanking beside Harrelson (C127, October 2026)\"), so each future refresh would repeat it.",
+      "acceptance_test": "No body, FAQ or metadata sentence puts the meeting or the blank in October 2026. Only the telling is attributed to October 2026 (e.g., \"and, recounting it to THR in October 2026, the blank beside Harrelson at their first meeting\"), or the event is dated as after the Sunrise shoot. The C127 and C154 inferences and the discriminator are corrected to read: event undated, after the 2025 shoot and before S01's June 12, 2026 conversation if it is the same meeting; told October 1, 2026 (S30)."
+    },
+    {
+      "id": "future-02",
+      "severity": "minor",
+      "passage": "The move is the next threshold he has announced. The Six reading predicts that fame will not settle him, and that at the next threshold he will again bring his people with him before he jumps into the deep end.",
+      "problem": "The closing rests on a planned move. The preceding sentence (\"THR reports he will move to Los Angeles in early 2027\") is in the present-future tense, so within months the ending goes stale or becomes false, whether or not he moves. The prediction is a durability asset because it is falsifiable and tracked by C82. Its occasion is not. Removing the pending move should leave the final image intact, and right now it does not.",
+      "acceptance_test": "The move is dated as a past report of a plan (e.g., \"In October 2026, THR reported he planned to move to Los Angeles in early 2027\"). The final paragraph has no author-voice \"will move\" or \"next threshold he has announced\", and it reads correctly in 2031 whether or not the move happened. The prediction stays, tied to the repeated pattern (C11, C14, C16, C93), and still maps to C82 and its trigger."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "The _Sunrise on the Reaping_ press cycle will be the cleaner test.",
+      "problem": "The Six-versus-Three test on method-hedging is deferred, in future tense, to an event seven weeks away. Once the November 2026 press cycle happens, this sentence and the preceding condition (\"once his work is released\") read as an unkept promise, and a later reader cannot tell when the test was still open. C21 and C138 have triggers, but the prose has no date marking the test as open.",
+      "acceptance_test": "No author-voice future tense remains about the test. It is either dated (e.g., \"As of October 2026, the cleaner test, the Sunrise on the Reaping press cycle beginning that November, was still ahead\") or cut. The C21 and C138 triggers explicitly name this paragraph for revision after the November 20, 2026 cycle."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "THR adds a teenager who went into acting \"kicking and screaming,\" a girlfriend who helps him switch off, and a laugh at having no next job for the first time in three years: \"I've got nothing.\"",
+      "problem": "Two short-lived status facts appear without inline dates: a current relationship and an empty slate. Both carry type weight. C128 is in type_hypothesis.for_claim_ids and is also used here as a Nine datum. The second mention (\"Of his girlfriend, he told THR, 'she's helped me relax...'\") is undated too, apart from the October profile introduced at the top of the piece. A 2031 reader will read \"a girlfriend who helps him switch off\" as current. C128's trigger (\"Relationships change; omit, or recheck before any refresh that mentions it\") names no checkable event. Similarly, the Type 3 section's \"a run of back-to-back jobs since he turned 18\" reads as ongoing, although the same THR profile says the run had ended by October 2026.",
+      "acceptance_test": "Each relationship and slate mention is in past tense or carries \"in October 2026\" (e.g., \"the girlfriend he described to THR in October 2026\"; \"no next job lined up as of October 2026\"). The jobs run is bounded (e.g., \"from 18 to 21\"). C128's trigger names a concrete check: recheck at every refresh and on any public report that the relationship has ended, and remove C128 from for_claim_ids if it no longer holds. The Six argument still stands with C128 removed."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "For comparison, 9takes reads [Timothée Chalamet](/personality-analysis/timothee-chalamet) and [Jennifer Lawrence](/personality-analysis/jennifer-lawrence) as Sixes and [Austin Butler](/personality-analysis/austin-butler) as a Nine.",
+      "problem": "This is correct today: the local drafts type Chalamet 6, Lawrence 6 and Butler 9. But it asserts the current typing of three other pages, and this site does retype profiles. The sentence is not in the claim inventory, so no review trigger would catch a retype. If one changes, the comparison silently becomes false.",
+      "acceptance_test": "The sentence is added to the claim inventory as time_sensitive, with a trigger such as \"recheck whenever any linked profile's enneagram value changes, and at each refresh\". At verify time the three typings are confirmed against the live or DB records."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "Early reviews split on his two episodes of _East of Eden_:",
+      "problem": "Reviews three days after release (C144) are the most perishable material in the piece. They will be overtaken by Sunrise on the Reaping reception within two months, and as written they do not test the personality argument. The standard admits recent events only when they deepen, complicate or test the argument. The body is about 3,890 words, above the 3,500 target, and this is the cheapest cut that also improves durability. If kept, the \"As of October 4, 2026\" anchor in the previous sentence does not clearly govern \"Early reviews\".",
+      "acceptance_test": "Either the sentence is cut (and C144 retired from the passage map), or it is explicitly dated (e.g., \"In the first days after the October 1, 2026 release, reviews split...\") and followed by a clause saying what the reception shows or tests about him. No undated \"early reviews\" wording remains."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "for [Interview Magazine](https://www.interviewmagazine.com/film/joseph-zada-elle-fanning-hunger-games) in August 2026.",
+      "problem": "One Fanning conversation is dated two ways. It is \"in August 2026\" here (the publication date, August 10, 2026), and \"Asked by Fanning in June 2026\" and \"In June 2026 he had told Fanning\" later (the recording date, June 12, 2026, per S01). The FAQ says only \"in 2026\". A later reader cannot tell whether there were two interviews. The chronology claims that rely on the June date (\"eleven months after Behind The Blinds\"; the June-to-October sequence on the move) need the reader to know which date is which.",
+      "acceptance_test": "The first citation states both dates once (e.g., \"in a conversation recorded June 12, 2026 and published by Interview Magazine that August\"), or one date is used consistently. Every later Fanning reference and the name FAQ agree with it."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "A limit shapes everything below. Almost every substantial source on Zada is an interview published between February 2025 and October 2026, inside the promotional windows of four projects.",
+      "reason": "This dates the evidence base and says what it cannot show. It is the passage that keeps the profile honest as non-promotional sources appear, and C44's trigger points straight at it."
+    },
+    {
+      "passage": "When Zada explains how nerves resolve, specific people usually become reliable.",
+      "reason": "The central insight passes the five-year test. It rests on dated statements from July 2025, March 2026, June 2026 and July 2026, and would stand with the October 2026 THR profile removed."
+    },
+    {
+      "passage": "The fear was back eleven months after Behind The Blinds, paired with what settles it: being made comfortable.",
+      "reason": "This matches the durability-9 anchor: two dated statements show a repeated pattern, with an exact interval instead of a vague 'recently'."
+    },
+    {
+      "passage": "That leaves the two lines from the October profile side by side. \"My own shoes\" is a claim about the work, and two months of study followed by a deliberate departure gives him some right to it. The blank at dinner is about the man. The Six reading explains the second far better than the first, and this profile leaves the first standing.",
+      "reason": "It uses the latest event as a dated contradiction that tests the thesis rather than as a status hook, and it leaves the contradiction unresolved, so it will not need rewriting when his career changes. Keep it once the dinner's date is corrected (future-01)."
+    },
+    {
+      "passage": "As of October 4, 2026, his released series leads were _Invisible Boys_, which premiered on Stan on February 13, 2025, and _We Were Liars_, released on Prime Video on June 18, 2025, which has filmed a second season.",
+      "reason": "A model of status dating: an explicit as-of date, absolute release dates and tracked claims (C37, C38). Season 2's wrap is consistent with S33 (wrapped about September 30, 2026)."
+    }
+  ],
+  "assessment": "Five-year test: the thesis passes; some phrasing does not. With the October 1, 2026 THR profile (S30) removed, the core insight still stands: what settles him is specific people becoming reliable. It rests on dated statements from July 2025 (Berlin; McGregor), March 2026 (Grace), June 2026 (Fanning) and July 2026 (People). The October material mostly strengthens the Type 3 alternative, which the draft handles honestly. The hook is a dated moment, not a status claim, so it ages acceptably. The piece uses absolute dates almost everywhere, avoids stating a current age, and every time_sensitive or unresolved claim in the inventory has a review trigger. Weak points: the Harrelson dinner is misdated (future-01, the only major finding, and also wrong in the evidence record), and perishable material clusters in the last three sections: a Type 3 test written in future tense, three-day-old reviews, a planned move that carries the ending, undated relationship and empty-slate status, and an uninventoried cross-page typing claim. All are phrasing or inventory fixes; none needs a new argument. Similarity: every trip is against this subject's own 2026-09-12 version (the refresh baseline) on generic type-definition sentences; the cross-subject maximum is 0.027, below the 0.04 threshold, so I found no reuse. On 2026-10-04 I opened the THR source directly to check the dinner timing, the move, the girlfriend and the 'I've got nothing' passages. Risks: contested_typing and historical_source_uncertainty stay true (medium confidence, Type 3 gaining ground, ancestor generation disputed, no pre-2023 testimony)."
+}

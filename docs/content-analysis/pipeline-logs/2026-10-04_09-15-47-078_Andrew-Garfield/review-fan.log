@@ -1,0 +1,21 @@
+The fan review for the Andrew Garfield draft is written to `docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/review-fan.json`. It passes the review schema, and every quoted passage matches the frozen draft exactly. I changed no other files and published nothing.
+
+**Findings (1 major, 7 minor):**
+- **fan-01 (major):** The draft's key argument against Type 3 is "a Three usually gets back to work". But his mother died while he was filming *The Eyes of Tammy Faye*, shortly before *tick, tick... BOOM!* started production. So he did go almost straight back to work, and the draft never mentions that timeline. Its own evidence file already has the fact.
+- **fan-02:** It never says he identifies as Jewish and calls himself an "agnostic pantheist". It also drops his best-known *Silence* quote, about "falling in love with Jesus Christ". As a result, "the Jewish blessing" line appears with no context.
+- **fan-03:** His father was head swim coach at a local club, so "gold medals" was literally the family trade, and the draft doesn't say so. It also leaves out his father's own abandoned dream of being a screenwriter.
+- **fan-04:** The Spider-Man story is flattened. The draft never says his sequels were cancelled and the role went to Tom Holland, and it cuts Holland's quote about "making peace with the character and the studio".
+- **fan-05:** Emma Stone is quoted as a neutral co-star, but they were dating at the time. The full quote also describes active, provocative intensity, which works against the Type 9 case it's filed under.
+- **fan-06:** The "loose ends" section lists a contradiction ("nothing unsaid" vs. "never got to tell her") that the same Colbert answer settles ("We all told her every day"). The draft had already resolved it earlier.
+- **fan-07:** The opening claims his reputation is "won't let the wound close" with no source. That phrase echoes this site's own old thesis, not how the public reacted to the clip.
+- **fan-08:** The *Chicken Shop Date* exchange is reversed: he asked about the Oscar, not her. The draft also uses a comedy-show punchline as straight Type 3 evidence.
+
+**Passages to protect:** five, including the Jack Black lapels story, "hated it and enjoyed it", and the closing line.
+
+**Risk flags:** I agreed with the evidence file's flags: sensitive allegation, contested typing, and a major change from the old thesis. That keeps the full six-reviewer panel in place.
+
+**Similarity check:** It flagged a match with the Kacey Musgraves profile. That's one shared Type 4 definition sentence, not reused argument, so I didn't make it a finding.
+
+I opened the 2017 *America* interview and Wikipedia myself. Other sources I checked only against the excerpts in the evidence file.
+
+Unrelated to this stage: the Supabase server failed to connect this session. Several plugin servers (GitHub, Slack, Ahrefs and others) also need to be authorized through `/mcp` or your claude.ai connector settings before they can be used.

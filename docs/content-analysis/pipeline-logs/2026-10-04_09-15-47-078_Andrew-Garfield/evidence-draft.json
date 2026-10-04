@@ -1,0 +1,1196 @@
+{
+  "schema_version": 3,
+  "subject": "Andrew-Garfield",
+  "status": "ready",
+  "research_tasks": [
+    "RESOLVED IN DRAFT (for reviewer verification): thesis reframed from 'won't let his grief heal' to grief-as-route-to-closeness plus the rage-at-ordinariness → 'I wasn't special' → 'free myself into my ordinariness' arc; baseline meta_title/description/persona_title replaced; the 'no one feels as deeply' curdling claim removed.",
+    "RESOLVED IN DRAFT: unsourced baseline details removed (sidelines/mother at gymnastics, 'one student short' class, Scorsese 'two cameras', 'just a fun gift I'm giving people', 'first play at 16', year of singing lessons, Miranda 'such a beast'); quote fidelity fixed (Elmo, 'route', Holland bracket replaced by ellipsis, Stone attributed to Teen Vogue, Miranda via CBS, W Magazine dated 2025 and 'pack animal' used only as Nine evidence); 'I feel like nothing' not used.",
+    "RESOLVED IN DRAFT: Angels in America corrected to 'during the London production'; criticism attributed (LGBT Twitter users; Nico Lang's own words) and his Newsbeat response quoted; no author verdict on the backlash; 'walked it back' removed.",
+    "PARTLY RESOLVED: the Maron ocean / 'wasn't special' passage is now corroborated in print by Vanity Fair via BANG Showbiz (S28, 2022-02-18) and retold to Cooper (S05). Still auto-transcript-only: Maron golden-boy/'who am I? What's the point?'/'liberated' lines and the 'enraged at the concept' line (the Truman Show feeling itself is corroborated by the Esquire relay, S07). Verify against audio before any expansion.",
+    "OPEN: Chicken Shop Date Oscar lines ('I think I needed that', 'just like my father') and the 'very private person' line are attributed by context from unlabeled captions; no opened print source quotes them (Rolling Stone tollbit, CNN 451, AOL 404, Popstar 403 on 2026-10-04). The draft flags the caption limitation inline. The ambiguous 'nice time without the camera' line was dropped.",
+    "Optional strengthening: open the Esquire October/November 2024 cover story and the Vanity Fair March 2022 Hollywood issue directly, and listen to the full America 'Spiritual Life' episode of 2026-09-14 (only page excerpts read)."
+  ],
+  "accuracy_checked_at": "2026-10-04",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.americamagazine.org/arts-culture/2017/01/10/andrew-garfield-played-jesuit-silence-he-didnt-expect-fall-love-jesus/",
+      "title": "Andrew Garfield played a Jesuit in Silence, but he didn't expect to fall in love with Jesus.",
+      "speaker": "Andrew Garfield, interviewed by Brendan Busse, S.J. (America magazine)",
+      "date": "2017-01-10",
+      "locator": "Full article (lunch interview in Los Feliz). Key passages: Globe 'Hamlet'/Ophelia drama-school anecdote; 'not-enough-ness' paragraph; 'hidden life' paragraph; 'gifted and cursed' paragraph; 'Shallow-ville' and 'throw a stone' closing passage.",
+      "excerpt": "“The main thing that I wanted to heal, that I brought to Jesus, that I brought to the Exercises, was this feeling of not-enough-ness.” / “That wound of feeling like what I have to offer is never enough.” / “I’ve never felt so much terror, like mortal dread, not-enough-ness, self doubt. Terror at being seen. Terror at revealing and offering my heart. Exposing myself, saying, ‘look at me.’” / “I have nothing to give, I have nothing to offer, I’m a fraud.” / “Where I’m tempted constantly to be producing, to be seen, to be appreciated, etc., I was shown the beauty of living a hidden life, of retreating in order to offer myself in a deeper way to my art, to my life, to the world.” / “I feel like I’ve been gifted and cursed with a closeness to some grief…the grief of living….” / “Films were really my church… that is where I felt soothed, that is where I felt most myself” / “In books and movies, I was transported into myself, into the vast inner landscape of myself.” / “My compulsion to work is this longing to express that very thing.” / “I was brought to my knees by these Exercises, and yet I sit here before you, struggling with the same s—.” / “And now the film is coming out and I’m back in Shallow-ville.” / “it shows me that you can devote a year of your life to spiritual transformation… lose 40 pounds of weight… live celibate for six months… and even after all of that someone is going to throw a stone and dismiss it… There is going to be at least one person that says that I’m worthless. It’s wonderful!” / “It hurts when I feel misunderstood or not seen…but I’m longing for it to hurt less so that I can keep offering myself vulnerably.” / Re-opened during drafting (2026-10-04), full wording: “As a young kid it was movies and books; it was nothing remarkable really, just that is where I felt soothed, that is where I felt most myself…safest.” / “I feel like I’ve been gifted and cursed with a closeness to some grief…the grief of living….” … “…the grief of living in a time and a place where a life of joy and love is f–ing impossible.” / “That’s for me the beautiful agony of creating… the beautiful agony of never being able to fully express the possibility of love and the possibility of loving as he teaches… My compulsion to work is this longing to express that very thing.” / “This feeling of that forever longing for the perfect expression of this thing that is inside each of us.” / “If I hadn’t made the film that would’ve been fine.” / Ophelia: “It’s about two hours before and suddenly, I feel like I’m going to die.”",
+      "context": "Long-form interview during Silence promotion, by a Jesuit writer for a Jesuit outlet, so the frame is devotional and the author interprets Garfield through Ignatian spirituality (e.g., Busse's own line 'a deep fear of being seen and an even deeper need of it' is author interpretation, not a quote). Recorded before his mother's 2019 death, so the grief/longing language here predates the bereavement. The Ophelia anecdote is set at drama school (Globe Theatre) and ends with an imperfect street performance of 'Vincent' that he says changed his life. The 40-pound/celibacy details are in Garfield's own words here. Drafting re-check: the “grief of living” line continues “in a time and a place where a life of joy and love is f–ing impossible”, so it is grief about the world and the impossibility of love, not personal bereavement. “My compulsion to work is this longing to express that very thing” refers to expressing “the possibility of love”. “Films were really my church” ends “…safest”, which also fits a security/comfort reading. The Ophelia passage also contains a line about thinking of throwing himself into the river; the draft omits it as unnecessary to the argument.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.irishtimes.com/culture/film/andrew-garfield-i-am-a-mongrel-i-feel-english-and-i-don-t-1.3267004",
+      "title": "Andrew Garfield: ‘I am a mongrel. I feel English and I don’t’",
+      "speaker": "Andrew Garfield, interviewed by Donald Clarke (The Irish Times)",
+      "date": "2017-10-27",
+      "locator": "Article body: nationality/background exchange; becoming-an-actor passage.",
+      "excerpt": "“I am a mongrel. I do feel English and I don’t.” / “I feel like nothing a lot of the time. I feel very Jewish quite often, because of my father’s side. He has Polish-Jewish ancestry.” / “I had a love for poetry and literature, but also a love for sport and the physical. Those things combined in becoming an actor. I was a very emotional child. I still am a very emotional child.”",
+      "context": "Promotional interview for Breathe. 'I feel like nothing a lot of the time' answers a question about being described as British-American; it is about national identity, not self-worth. The baseline draft uses it as a self-worth statement, which over-reads the context.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.youtube.com/watch?v=_u_TswLQ4ws",
+      "title": "\"I Hope This Grief Stays With Me\" - Andrew Garfield Fights Back Tears And Celebrates His Mom",
+      "speaker": "Andrew Garfield with Stephen Colbert (The Late Show with Stephen Colbert, official channel)",
+      "date": "2021-11-23 (YouTube upload)",
+      "locator": "04:39–06:52 (closed-caption transcript retrieved via youtube-transcript-api)",
+      "excerpt": "“I love talking about it, by the way, so if I cry, it's only like -- it's only a beautiful thing. This is all the unexpressed love, right, the grief that will remain with us, you know, until we pass because we didn't -- we never get enough time with each other, right? ... I hope this grief stays with me because it's the unexpressed love that I never got to tell her. We all told her every day, she was the best of us.” / “...so I can honor the most beautiful person that I've ever experienced in my life through my art and use it as a way to heal, use it as a way to sew up the wounds because that's what we do.”",
+      "context": "Answer to Colbert's question about how art helps him deal with grief, during tick, tick... BOOM! release/awards-season promotion. He says in the same answer that he uses art 'as a way to heal', which contradicts the baseline's 'won't let his grief heal' framing. Captions are broadcast closed captions (all caps), so punctuation is not authoritative. NBC News (S19) independently transcribes the 'heal… sew up the wounds' line.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.youtube.com/watch?v=EVlXbiP4x2E",
+      "title": "Andrew Garfield and Elmo Explain Grief | Sesame Workshop",
+      "speaker": "Andrew Garfield with Elmo (Sesame Workshop official channel)",
+      "date": "2024-10-18 (YouTube upload)",
+      "locator": "00:22–01:33 (YouTube transcript)",
+      "excerpt": "“I'm just thinking about my mom today. She passed away not too long ago and I just miss her. I miss her a lot.” / “It's actually kind of OK to miss somebody.” / “But that sadness, it's kind of a gift. It's kind of a lovely thing to feel, in a way, because it means you really loved somebody when you miss them.” / “And it makes me feel close to her when I miss her in a strange way.” / “So I can celebrate her and I can miss her at the same time.” / “Elmo was my mommy's favorite.”",
+      "context": "A produced Sesame Workshop segment (likely scripted or semi-scripted educational content about grief for children), released the same week as the We Live in Time US rollout. It is not a talk-show appearance. The baseline quote merges two sentences ('I just miss her a lot') and drops 'in a way'. The segment shows the claim that grief means love and brings closeness, not a refusal to heal.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://podscripts.co/podcasts/all-there-is-with-anderson-cooper/andrew-garfields-grief",
+      "title": "All There Is with Anderson Cooper — Andrew Garfield’s Grief (transcript)",
+      "speaker": "Andrew Garfield with Anderson Cooper (CNN podcast)",
+      "date": "2024-10-08",
+      "locator": "Episode description; transcript at ~00:08:28 (mother), ~00:09:44–00:10:52 (first drama class; Oscar-eve Jack Black story), ~00:17:47 (ran toward pain), ~00:25:14–00:26:07 (grief as route to closeness; 'wound is the only route to the gift'), ~00:34:30–00:35:14 (ambition died; 'I want to be lost')",
+      "excerpt": "Episode description: “‘The wound is the only route to the gift,’ Andrew says. ‘The grief and the loss are the only route to the vitality of being alive.’” / “She was a person that felt most herself when she was able to heal, care, nourish and contain others in a gentle way. On her hospice bed, she was more concerned with the nurses than she was with her own pain and discomfort.” / “I was in a bit of a lost place and she had the trust in me or the trust in my as yet undiscovered soul...” / “I tried painting, sculpture, you name it, music. And then I did the last resort, which was join the circus and do an outside of school drama class when I was 15... I felt accepted. I felt like I belonged.” / Hacksaw Ridge Oscar eve: his mother grabbed Jack Black by the lapels and said, “it was me. It was all me.” / “I do owe her her unmet dreams her the sacrifices she's made her longing” / “I allowed myself to feel broken. I just allowed myself to be in pain. And I didn't run away from it. I ran towards it and I said, help me.” / “Has that grief stayed with you? Yeah, it's here now... it's the only route to feeling her close again” / “being that little boy at the bottom of that empty cave in vast darkness and just kind of crying out that's the only moment that she that she comes” / “I want it to break me open. I want to be lost. It feels healthier than to feel like you know where you're heading.” / “When my mom passed, like two thirds of my ambition died with her. Or let me say differently, two-thirds of my previous ambition, or the style, the type, or the feeling of that ambition died.” / “things can taste much more sweet now because of the sorrow that I've felt and they can taste much more bitter.” / ~00:18:29: “And the ocean had a great answer, a really tremendous answer.” / “That idea, sons have been losing their mothers for thousands and thousands of years” / On his mother’s illness: “About a year and a half.” / Jack Black (~00:10:17): “he says you must be so proud you must be so proud of him what is it is it nature or is it nurture”",
+      "context": "Long-form grief podcast recorded during We Live in Time promotion (Cooper says the film 'comes out this week'). Transcript is a third-party automatic transcript with no reliable speaker labels or punctuation. The 'route/root' homophone appears both ways in the auto-transcript. CNN's own episode description, reproduced on the page, uses 'route' and attributes both lines to Garfield, so prefer 'route'. Cooper plays the 2021 Colbert clip and then asks whether the grief stayed. Mother's name per Garfield: Lynn. Drafting re-check (2026-10-04): Garfield retells the Fire Island ocean story to Cooper (~00:17:47–00:18:29), a third telling after Vanity Fair (S28) and Maron (S06). In the same exchange he objects to “fought it” language about cancer, so the draft avoids it.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://podscripts.co/podcasts/wtf-with-marc-maron-podcast/episode-1359-andrew-garfield",
+      "title": "WTF with Marc Maron Podcast — Episode 1359 - Andrew Garfield (transcript)",
+      "speaker": "Andrew Garfield with Marc Maron",
+      "date": "2022-08-22",
+      "locator": "Transcript ~00:27:14 (mother living for others; his anger), ~00:33:35 (Spider-Man fear), ~00:37:43–00:38:16 (father's disowned screenwriting dream), ~00:40:40–00:42:44 (golden-boy brother; Truman Show; enraged), ~00:46:32 (drama class at 15–16; teacher 'I see you'), ~01:28:51–01:30:24 (ocean; 'I wasn't special')",
+      "excerpt": "“she was the kind of person that would... have stayed here for another 10 years if it meant that we were all happy... i was very angry with her for that a lot of the time i just wanted her to take care of herself better” / “I was just fucking scared. I was scared of this massive film coming out and a gajillion people saying, no, we don't we don't like you. We don't like your soul. We don't like your creative choices.” / “my brother was golden boy... he's a lung doctor” / “I was like, well, fuck this. I mean, like, who am I? What's the point? ... my father is obsessed with my brother.” / “Truman show feeling like, is this everything? It can't be everything. If it is everything, I don't particularly know if I want to be here, actually... I wasn't, like, a suicidal kid, but... I was enraged at the concept of this being everything. ... the arts weren't valued.” / “he had a kind of un an unmentioned unowned a disowned dream of being a screenwriter” / “literally the last thing i tried was a drama a drama class outside of school when i was like 15 16... he just basically said, I see you” / “i was celibate for six months” / “I understood that I wasn't special. I understood that what I was going through felt incredibly acutely unique. And like no one else had been through this agony before. But... that wave gave me the information that it had been healing people through grief for the last millennia and beyond... welcome to the club of life... I'm not the victim. She was... there's nothing unusual about the experience I'm experiencing... I'm not alone in it.” / ~00:40:16: “my Russian coaches sitting on my back while I’m in a box split.” / ~00:42:01: “it was like this kind of amazing gift because it liberated me into going, well, you know, I was born, I was raised in a very kind of conservative suburban… Truman show feeling like, is this everything? It can’t be everything.” / ~01:28:51: “i remember get diving into the water one day and i think it was in fire island yeah staying out there with a friend… it was just before she was um she was about to die yeah it was just this fucking pain that I couldn’t move… I just kind of like submerged myself and I suddenly just got this download from the water.” / ~01:29:51–01:30:24: “the three things that stuck with me fairly quickly was that I’m not the victim. She was. One. The second thing was there’s nothing unusual about what’s happening… There’s nothing unusual about the experience I’m experiencing. I’m not alone in it… and then the other thing was may her memory be a blessing that jewish thing”",
+      "context": "100-minute long-form conversation, not tied to a film release (Under the Banner of Heaven had finished airing in June 2022). This is the richest non-promotional source. Third-party auto-transcript: wording is close but not authoritative, there are no speaker labels, and some lines are duplicated. Verify any quote used verbatim against the audio. The father/brother material is his own account; the father has not been heard. Drafting re-check (2026-10-04): the ocean moment happened on Fire Island just before his mother died (anticipatory grief), not after. Its substance is independently corroborated in print by Vanity Fair (S28, February 2022) and retold to Cooper (S05, 2024). Speaker identity for the ocean passage is clear from content (his mother). The golden-boy/Truman passage remains auto-transcript only, though the Truman Show feeling is corroborated by the Esquire relay (S07). Garfield also says being the less-favored son “liberated” him.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://au.lifestyle.yahoo.com/why-andrew-garfield-gave-competitive-045306162.html",
+      "title": "Why Andrew Garfield Gave Up Competitive Gymnastics at Age 12: 'This Is Not a Childhood'",
+      "speaker": "Ingrid Vasquez (People, syndicated via Yahoo), reporting Garfield's Esquire interview",
+      "date": "2024-10-03 (reporting Esquire interview published 2024-10-02)",
+      "locator": "Article body",
+      "excerpt": "“this is not a childhood” (on a Russian coach sitting on his back during splits) / quitting at 12 was “the first rebellion against my dad and his value system at the time: success and gold medals above any sense of joy, comfort, or pleasure” / “It was like this Truman Show feeling where you're like, ‘I feel there is more. And I can't identify what that more is, but I know it exists, and if it doesn't exist, I am in big trouble’”",
+      "context": "Secondary relay of an Esquire cover story during We Live in Time promotion. The Esquire original could not be opened (domain blocked to this agent). The Maron transcript (S06) independently has Garfield describing 'my Russian coaches sitting on my back while I'm in a box split' and the same Truman Show feeling, so the account is consistent across two interviews, though both are self-report. No source found for the baseline's claim that he looked to the sidelines for his mother and did not find her.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.wmagazine.com/culture/andrew-garfield-we-live-in-time-interview",
+      "title": "Andrew Garfield Bares His Soul",
+      "speaker": "Andrew Garfield, interviewed by Lynn Hirschberg (W Magazine)",
+      "date": "2025-01-04",
+      "locator": "Rapid-fire Q&A ('Are you more like a cat or a dog?') and grief/We Live in Time passages",
+      "excerpt": "Q: “Are you more like a cat or a dog?” A: “Dog, of course. I have no aloofness. I love affection constantly. I'm a pack animal. I love being with the gang. I'm always looking for treats, warmth, coziness, comfort, and play.” / “As artists, we work with the raw material of our own lives, of our own heartaches.” / “I know my foibles so deeply. I know my humanness. I am humbled constantly by myself and by my own choices.”",
+      "context": "Awards-season profile. The 'pack animal' line is a playful answer to a cat-or-dog question. The baseline uses it as one-to-one (sx) evidence, but 'love being with the gang' and 'coziness, comfort' read as group belonging and comfort-seeking. It fits Type 9 or Type 2 as well as Type 4.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.buzzfeednews.com/article/leylamohammed/andrew-garfield-stressful-lying-about-spider-man-no-way-home",
+      "title": "Andrew Garfield Said It Was “Stressful” Lying About His “Spider-Man: No Way Home” Cameo",
+      "speaker": "Leyla Mohammed (BuzzFeed News), reporting Garfield interviews with TheWrap, Entertainment Tonight and Variety",
+      "date": "unknown (early 2022, after the film's 2021-12-17 release)",
+      "locator": "Article body (TheWrap, ET and Variety quote blocks)",
+      "excerpt": "TheWrap: “It was stressful, I'm not gonna lie. It was rather stressful but also weirdly enjoyable.” / “It was like this massive game of Werewolf that I was playing with journalists and with people guessing” / “There were moments where I was like, ‘God, I hate lying.’ I don't like to lie and I'm not a good liar” / “it was thrilling, actually.” Variety: “I will say the image of my catching [Zendaya's] MJ — that was really beautiful and it kind of sold me on the whole thing.”",
+      "context": "Post-release interviews. Secondary aggregation. Other secondary reports (e.g., Bollywood Hungama headline) render the TheWrap line as 'I don't like to lie and I'm not a good liar, but I kept framing it as a game'. That fuller wording was seen only in search snippets. No source was found for the baseline's 'just a fun gift I'm giving people'.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.advocate.com/theater/2017/7/18/andrew-garfield-confirms-hes-straight-says-gay-remarks-were-twisted",
+      "title": "Andrew Garfield Confirms He's Straight, Says Gay Remarks Were 'Twisted'",
+      "speaker": "Daniel Reynolds (The Advocate), reporting a National Theatre Q&A and Garfield's BBC Newsbeat interview",
+      "date": "2017-07-18",
+      "locator": "Article body: NT Q&A remarks; BBC Newsbeat response",
+      "excerpt": "“Every Sunday I would have eight friends over and we would just watch Ru,” Garfield said. “I mean every single series of RuPaul’s Drag Race.” / “I am a gay man right now just without the physical act -- that’s all.” / “As far as I know, I am not a gay man. Maybe I’ll have an awakening later in my life...” / Article: “The remarks sparked a firestorm of criticism from LGBT people on Twitter. Many alleged that Garfield was belittling what it what it was like to be queer. Advocate contributor Nico Lang compared the statement to the gay-baiting of straight actors like James Franco, who hints at a queer identity for media attention. ‘Straight actors, please stop this nonsense,’ he wrote.” / To BBC Newsbeat: “That’s of course not what I meant at all.” / “That discussion was about this play and how deeply grateful I am that I get to work on something so profound.” / “My only longing is to serve and to keep the world spinning forward for the LGBTQ community.” / Article: he “reflected on what ‘right’ he, a straight actor, had to play the gay, HIV-positive lead of Prior Walter in Tony Kushner’s acclaimed play about the AIDS crisis.”",
+      "context": "Re-opened during drafting (2026-10-04). Remarks were made at a Q&A tied to the 2017 London (National Theatre) production of Angels in America, not before he played the role. Criticism came from LGBT people on Twitter and an Advocate contributor (Nico Lang); “compared the statement to the gay-baiting…” is the Advocate’s paraphrase, and Lang’s own quoted words are “Straight actors, please stop this nonsense.” The headline says he called the remarks “twisted”; the body quotes his Newsbeat clarification. No explicit apology appears. Sensitive identity topic: attribute criticism and response.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.eonline.com/news/1328746/why-andrew-garfield-is-taking-a-break-from-acting",
+      "title": "Andrew Garfield Clarifies Comments About Taking a Break From Acting",
+      "speaker": "Elyse Dupre and Emlyn Travis (E! Online), reporting Garfield to Variety and The View",
+      "date": "2022-04-27 (updated 2022-04-28)",
+      "locator": "Article body",
+      "excerpt": "To Variety: “I'm going to rest for a little bit. I need to recalibrate and reconsider what I want to do next” and to “just be ordinary for a while.” On The View: “I don't know where that came from. I'm just having a holiday.” / “I need to take a month or so—a month, a month of a break, maybe two. I'm not retiring.”",
+      "context": "Said at the end of an awards season with two Oscar nominations behind him and Under the Banner of Heaven airing. He softened the remarks the next day. Treat it as a stated wish for ordinariness, not a documented long hiatus.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.americamagazine.org/podcasts/2026/09/14/andrew-garfield-father-james-martin-spiritual-life/",
+      "title": "How Andrew Garfield practices Jesuit spirituality (The Spiritual Life podcast)",
+      "speaker": "Andrew Garfield with James Martin, S.J. (America Media)",
+      "date": "2026-09-14",
+      "locator": "Episode page summary and quoted excerpts",
+      "excerpt": "“It did leave a tremendous curiosity in me and a longing in me to fill that void or to search within that endless chasm of what it is to live a life of faith […] and to be a spiritual seeker.” / “beautiful grace” to “not have to be anything but what we are.” / “The idea that we feel that we have to be more than we are, it's heartbreaking.” / “whether you're an actor or not, with social media and with just kind of the mask or the persona that we give to the world, […] it's a prison that I long to free myself of.” / “free myself into my ordinariness, free myself into my ability to just be a very flawed, a very beautiful… very complicated human being.”",
+      "context": "Most recent long-form self-account (released during The Uprising's release window). Only page excerpts were read, not the full audio. It is the latest point in a 2017→2022→2026 line of statements: hidden life, then 'be a bit ordinary', then 'I wasn't special', then 'free myself into my ordinariness'. The persona-as-prison language also supports a Type 3 reading.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.youtube.com/watch?v=eFS5vxYlfY8",
+      "title": "ANDREW GARFIELD | CHICKEN SHOP DATE",
+      "speaker": "Andrew Garfield with Amelia Dimoldenberg (Chicken Shop Date, official channel)",
+      "date": "2024-10-18 (YouTube upload)",
+      "locator": "~07:06–07:09 (private person), ~08:19–09:53 (Oscar exchange), ~10:17–10:25 ('nice time without the camera')",
+      "excerpt": "Auto-caption text: “I'm a very private person in my private life” / “so you've been nominated for an Oscar... when are you going to win an Oscar” / “can I be honest with you... that whole thing has meant something to me in the past and I think I needed that and then when I didn't win a couple of times I was like I guess maybe I should give up on that dream” / “would you be more attracted to me if I had an Academy Award” / “maybe” / “thank you for your honesty no I get it I get it just like my father” / “my longing is back for it yeah but then I'm like trying to please you and that's [ __ ] up” / “I think we'd have a really nice time without the camera I think we just enjoy each other's company maybe not [ __ ] it I think we should be friends”",
+      "context": "Comic, flirt-format web series released during We Live in Time promotion, so the exchange is partly performance. YouTube auto-captions have NO speaker labels. Garfield's authorship of the Oscar lines is inferred from context (he is the nominee). The 'just like my father' line ties the Oscar to his father's medal values. Who said 'I think we'd have a really nice time without the camera' is ambiguous and must be checked against the video before attributing it.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://collider.com/florence-pugh-andrew-garfield-we-live-in-time/",
+      "title": "Florence Pugh Describes Why Working With Andrew Garfield Was \"One of The Most Beautiful Experiences of My Career\"",
+      "speaker": "Florence Pugh, interviewed by Steven Weintraub (Collider)",
+      "date": "2024-10-19",
+      "locator": "Interview write-up, quote blocks",
+      "excerpt": "“I've then got probably one of the most beautiful experiences of my career that I've been rewarded with.” / “Whatever he did, I would receive, and whatever I did, he would take. I was so excited to not know but also believe that I trusted him.” / “I enjoyed some of the hardest scenes I've ever had to do because it was so wonderful to work with someone that I felt so safe with”",
+      "context": "Co-star testimony during the joint We Live in Time press tour. It is professional praise with a promotional incentive. It describes a mutual, improvisational working relationship, not his motives.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.yahoo.com/entertainment/emma-stone-andrew-garfield-relationship-102400178.html",
+      "title": "Emma Stone and Andrew Garfield’s Relationship Timeline: The Way They Were",
+      "speaker": "Emma Stone (quoted from Teen Vogue, August 2011) via Yahoo/People timeline",
+      "date": "2011-08 (original quote); timeline undated",
+      "locator": "2011 entry of the relationship timeline",
+      "excerpt": "“Andrew is one of the most giving actors I've ever worked with. If I needed to get to a place of love or sadness in a scene, he'd leave messages on my phone to replay, or slip in lines off camera for a different reaction than what was scripted. He gave me so much to react to.”",
+      "context": "Co-star (and then-partner) testimony from The Amazing Spider-Man promotion. The original Teen Vogue piece was not opened. The baseline attributes this to The Hollywood Reporter. A THR piece with a similar headline exists but could not be opened (paywall/tollbit).",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.cbsnews.com/news/the-amazing-andrew-garfield-tick-tick-boom/",
+      "title": "The amazing Andrew Garfield",
+      "speaker": "Rita Braver (CBS Sunday Morning) with Andrew Garfield and Lin-Manuel Miranda",
+      "date": "2021-11-14",
+      "locator": "Segment write-up/transcript",
+      "excerpt": "Garfield: “For whatever reason, I feel compelled to go to places that I haven't been to before, as a person, as an actor.” / “I think everything I do is in dedication to her.” / “She really fought pancreatic cancer really hard for about a year-and-a-half, and then there was no defeating it.” Miranda: “What impressed me was that he brought everything to the role. He brought his joy, and he brought his rage, and I didn't know if he could sing, but I just felt like he could do anything.”",
+      "context": "Promotional TV profile for tick, tick... BOOM!. Miranda is his director with an obvious promotional interest. His opened wording differs from the baseline's 'such a beast… That guy can do anything' (Variety/AFI version, not opened).",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://time.com/4632661/andrew-garfield-martin-scorsese-silence/",
+      "title": "How Andrew Garfield Learned to Suffer Like the Saints",
+      "speaker": "Sam Lansky (TIME) with Andrew Garfield and Martin Scorsese",
+      "date": "2017-01-12",
+      "locator": "Article body",
+      "excerpt": "Garfield: “It feels like a long prayer.” / “I wasn't allowed to read, so it's just you and you. It was a deep dive into your own psyche through the imagined life of Jesus Christ.” / “There's always been a spiritual feeling that I've had, but it's never been my primary focus.” Scorsese: “I saw there was an emotional level that he already had. He knew what the lines meant, or at least he was willing to find out.” / “People say, ‘Well, anybody wants work,’ but not necessarily. Andrew actually wanted to think about all these issues.”",
+      "context": "Silence promotion. Scorsese is a director praising his lead. The baseline's Scorsese quote ('The key there was Andrew… two cameras') was not found in any opened source.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.irishnews.com/magazine/2017/02/03/news/andrew-garfield-could-not-stop-swearing-after-silent-retreat-to-prepare-for-role-918651/",
+      "title": "Andrew Garfield could not stop swearing after silent retreat to prepare for role",
+      "speaker": "Irish News, reporting Garfield on The Graham Norton Show (BBC One)",
+      "date": "2017-02-03",
+      "locator": "Article body",
+      "excerpt": "“We spent all that time together and didn't say a word but there was some miming and mouthing of things.” / “It was a beautiful experience but when we got out it was like we had lost our minds.” / “We spent a three-hour car ride in an outpouring of vile language and imagery. There was a lot of giggling and crying too.”",
+      "context": "Comic talk-show anecdote about leaving the silent retreat at St Beuno's (North Wales) with Adam Driver. Secondary relay of broadcast remarks.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/andrew-garfield-shares-tick-tick-boom-helped-cope-loss-rcna6496",
+      "title": "Andrew Garfield shares how 'Tick, Tick... Boom!' helped him cope with loss",
+      "speaker": "Wilson Wong (NBC News), quoting Garfield on Colbert and to Variety (September 2021)",
+      "date": "2021-11-23",
+      "locator": "Article body",
+      "excerpt": "Variety (Sept. 2021): “The good news about me and her is that we left nothing unsaid. We had all the quality time we could possibly have while she was here. And those last two weeks I got to be with her were probably the most profound two weeks of my life.” Colbert: “...use it as a way to heal — use it as a way to sew up the wounds.”",
+      "context": "Secondary aggregation. 'We left nothing unsaid' (September 2021) sits in tension with 'unexpressed love that I never got to tell her' (Colbert, November 2021). Read together, his grief is surplus love with nowhere to go, not regret over things unsaid.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://en.wikipedia.org/wiki/Andrew_Garfield",
+      "title": "Andrew Garfield — Wikipedia",
+      "speaker": "Wikipedia contributors",
+      "date": "accessed 2026-10-04",
+      "locator": "Early life; Career; Personal life; Filmography sections",
+      "excerpt": "Born August 20, 1983, Los Angeles; moved to England at age three and raised in Epsom, Surrey. Mother Lynn (née Hillman) died of pancreatic cancer (2019); father Richard. Educated at Priory Preparatory School, City of London Freemen's School, and the Royal Central School of Speech and Drama (graduated 2004). Best Actor Oscar nominations for Hacksaw Ridge and tick, tick... BOOM!; Tony Award for Angels in America (2018). 2024 We Live in Time; 2025 After the Hunt; 2026 The Magic Faraway Tree, The Uprising, Artificial (as Sam Altman). “Since early 2025, Garfield has been in a relationship with actress Monica Barbaro.” Identifies as Jewish and an “agnostic pantheist.” / Re-opened via the Wikipedia API (2026-10-04): “Garfield was cast as Spider-Man/Peter Parker… in Marc Webb’s The Amazing Spider-Man (2012)” and “reprised the titular role in The Amazing Spider-Man 2” (2014). “For his performance as Prior Walter in the West End and Broadway revivals of Angels in America, he… won the Tony Award for Best Actor in a Play.” “Garfield’s parents moved the family from the United States to England when he was three years old, and he was brought up in Epsom, Surrey.” “Garfield’s mother, Lynn, died of pancreatic cancer while he was filming The Eyes of Tammy Faye and shortly before Tick, Tick... Boom! began production.” Lead: “an English and American actor”.",
+      "context": "Tertiary reference used only for stable biographical facts and the current-project check. The relationship line is time-sensitive, and he has said he is 'a very private person in my private life' (S13).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://en.wikipedia.org/wiki/The_Uprising_(2026_film)",
+      "title": "The Uprising (2026 film) — Wikipedia",
+      "speaker": "Wikipedia contributors",
+      "date": "accessed 2026-10-04",
+      "locator": "Lead; Release; Reception",
+      "excerpt": "Directed by Paul Greengrass; Garfield plays Ploughman, a leader of the 1381 Peasants' Revolt. “The film was released theatrically in the US on 10 September 2026 and is scheduled to be released in the UK on 9 October.” Mixed reviews (RT 55%, Metacritic 57); opened to $3.3 million domestically against a $20 million budget.",
+      "context": "Current-accuracy check only. Box office and reception will change.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://en.wikipedia.org/wiki/Artificial_(upcoming_film)",
+      "title": "Artificial (upcoming film) — Wikipedia",
+      "speaker": "Wikipedia contributors",
+      "date": "accessed 2026-10-04",
+      "locator": "Lead; Release",
+      "excerpt": "Directed by Luca Guadagnino; Garfield plays OpenAI CEO Sam Altman; the film centers on his 2023 firing and rehiring. “The film will have its world premiere at the 2026 New York Film Festival on October 5, 2026, and is expected to be theatrically released in the United States by Neon on December 25.”",
+      "context": "Current-accuracy check only. The film is unreleased as of the check date, so it should not carry the personality argument.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://en.wikipedia.org/wiki/Hacksaw_Ridge",
+      "title": "Hacksaw Ridge — Wikipedia",
+      "speaker": "Wikipedia contributors",
+      "date": "accessed 2026-10-04",
+      "locator": "Plot; Accolades",
+      "excerpt": "Garfield plays Desmond Doss, an American WWII combat medic and Seventh-day Adventist who refused to carry a weapon; Garfield received his first Academy Award nomination (Best Actor, 89th Academy Awards, 2017).",
+      "context": "Stable role/accolade facts.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://en.wikipedia.org/wiki/Under_the_Banner_of_Heaven_(miniseries)",
+      "title": "Under the Banner of Heaven (miniseries) — Wikipedia",
+      "speaker": "Wikipedia contributors",
+      "date": "accessed 2026-10-04",
+      "locator": "Lead; Cast",
+      "excerpt": "Garfield plays Detective Jeb Pyre, a Latter-day Saint detective whose faith is shaken over the series; premiered April 28, 2022, on FX on Hulu.",
+      "context": "Stable role facts. It supports the pattern of roles about tested faith.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://knowyourarchetypes.com/andrew-garfield-personality-type/",
+      "title": "Andrew Garfield Personality Type - Know Your Archetypes",
+      "speaker": "Know Your Archetypes (uncredited)",
+      "date": "unknown",
+      "locator": "Enneagram section",
+      "excerpt": "“Garfield's portrayal of an Enneagram Type 9 is also evident in his demeanor and approach to relationships. Type 9 individuals seek harmony and avoid conflict, often putting others' needs before their own.”",
+      "context": "Low-authority community typing, used only as evidence that his type is contested. Search results also reported Personality Database and Boo listing him as 9w1/INFP, but those pages blocked access and were not opened. The baseline itself says he was 'originally typed' as Nine.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://comicbook.com/movies/news/spider-man-no-way-home-tom-holland-regrets-not-calling-andrew-garfield-taking-over-role/",
+      "title": "Tom Holland Regrets Not Contacting Andrew Garfield After Adopting Spider-Man Role",
+      "speaker": "Tom Holland, quoted by Cameron Bonomolo (ComicBook.com) from The Hollywood Reporter",
+      "date": "2022-02-04",
+      "locator": "Article body, Holland quote block",
+      "excerpt": "“It was not only an opportunity for him to make peace with the character and the studio, but it was also an opportunity for me and him to have this moment where we realize we could share this thing. The look on his face [when he saves Zendaya [MJ]] is totally genuine, and I'm really proud of him. I'm really chuffed that he got this opportunity to win back the world...”",
+      "context": "Co-star testimony about a scene, relayed second-hand from THR (original not opened). 'when he saves Zendaya' is an editorial bracket, not Holland's words. The baseline presents it as part of the quote.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://variety.com/2021/scene/news/tick-tick-boom-andrew-garfield-lin-manuel-miranda-jonathan-larson-afi-fest-1235110032/",
+      "title": "Andrew Garfield, Lin-Manuel Miranda Talk Making 'Tick Tick Boom'",
+      "speaker": "Lin-Manuel Miranda (Variety, AFI Fest)",
+      "date": "2021-11",
+      "locator": "unavailable (tollbit/paywall redirect)",
+      "excerpt": "Search snippet only (not verified): Miranda called Garfield “such a beast and he's so incredible on stage” and left thinking “That guy can do anything.”",
+      "context": "Not opened. Do not quote the baseline's Variety wording unless the page is opened. Use the CBS wording (S16) instead.",
+      "kind": "testimony",
+      "access": "unavailable"
+    },
+    {
+      "id": "S28",
+      "url": "https://uk.news.yahoo.com/andrew-garfield-found-jumping-sea-150000500.html",
+      "title": "Andrew Garfield found jumping the sea helped him cope with his mother's death",
+      "speaker": "BANG Showbiz (via Yahoo News UK), reporting Garfield's interview in Vanity Fair's 2022 Hollywood issue",
+      "date": "2022-02-18",
+      "locator": "Article body, paragraphs 3–6",
+      "excerpt": "The 38-year-old actor told Vanity Fair’s Hollywood issue: “It was like I got the full download. It reminded me that sons and daughters have been losing their mothers since the dawn of time. And I had this very unique feeling of loss and grief. I’d just jumped into the club of losing the illusion that the person that gives you life is always going to be alive.” / “Like losing my mum, and my psyche being totally rearranged by that… Nothing’s the same.” / BANG paraphrase: frustrated with the attention from Spider-Man, he went on mythologist Michael Meade’s annual men’s retreat in Northern California “to briefly shed his celebrity status.”",
+      "context": "Opened during drafting (2026-10-04). Wire-service relay of a print interview; the Vanity Fair original was not opened. It independently corroborates, in print and six months earlier, the ocean/“download” story that Maron’s auto-transcript (S06) records, so the Maron wording is no longer the only basis for the “wasn’t special” passage. Published during tick, tick... BOOM! awards season.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.wral.com/archive/21679343/",
+      "title": "Why Andrew Garfield's flirty appearance on 'Chicken Shop Date' has the internet abuzz",
+      "speaker": "Alli Rosenbloom (CNN), syndicated by WRAL",
+      "date": "2024-10-18 (updated 2024-10-19)",
+      "locator": "Article body",
+      "excerpt": "Headline: “Why Andrew Garfield’s flirty appearance on ‘Chicken Shop Date’ has the internet abuzz.” / “On Friday, Oscar-nominated actor Andrew Garfield finally appeared on Amelia Dimoldenberg’s latest episode of ‘Chicken Shop Date’…” / Earlier, at the January 2023 Golden Globes, “Garfield joked he can’t come on her show for a ‘date’ because ‘I’m scared of what it could turn into.’”",
+      "context": "Opened during drafting (2026-10-04) as a syndicated copy of the CNN article (cnn.com returned HTTP 451). Used only to establish that the episode drew wide attention for its flirting. It does not quote the Oscar exchange or the “nice time without the camera” line, so those remain attributed only via unlabeled captions (S13); the draft omits the latter.",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Garfield told America (January 2017) that the main thing he brought to the Spiritual Exercises to heal was 'this feeling of not-enough-ness' and 'that forever longing for the perfect expression of this thing that is inside each of us'.",
+      "passage": "The main thing that I wanted to heal, that I brought to Jesus, that I brought to the Exercises, was this feeling of not-enough-ness,\" he told _America_. \"This feeling of that forever longing for the perfect expression of this thing that is inside each of us.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Self-described core wound of deficiency plus longing for an inner thing he cannot fully express. This is the central Four motif, stated before his mother's death and outside any grief context.",
+      "alternative": "'What I have to offer is never enough' also fits a Three's worth-through-output or a Two's worth-through-giving. The discriminator is that his remedy is expression and inward search, not performance or service (see C02, C06). The frame is devotional and the interviewer is a Jesuit, which may have shaped the vocabulary.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "He described creating as 'the beautiful agony of never being able to fully express the possibility of love' and said 'My compulsion to work is this longing to express that very thing.'",
+      "passage": "He called creative work \"the beautiful agony of never being able to fully express the possibility of love,\" and added, \"My compulsion to work is this longing to express that very thing.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Work is framed as the attempt to express an inner reality, not as achievement. This suggests an identity/expression motive.",
+      "alternative": "Many artists speak this way, and the interviewer's devotional frame invites it. 'That very thing' refers to expressing the possibility of love (as Jesus teaches), so the line is about expressive longing, not achievement; on its own it does not separate a Four from an artistic Three or Nine.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "Before his first public performance after drama school (Ophelia at the Globe), he felt 'Terror at being seen. Terror at revealing and offering my heart' and thought 'I have nothing to give, I have nothing to offer, I'm a fraud.'",
+      "passage": "Before his first public performance after drama school, as Ophelia at the Globe, he felt \"Terror at being seen. Terror at revealing and offering my heart,\" and thought, \"I have nothing to give, I have nothing to offer, I'm a fraud.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Shows a lasting tension between needing to be seen for his inner self and dreading exposure. Being misunderstood or unseen is the Four's characteristic injury.",
+      "alternative": "'I'm a fraud' is classic impostor language, also associated with Threes, and stage fright is common among young actors. The story is a retrospective told to a spiritual interviewer. The draft omits the source's line about thinking of throwing himself into the river as unnecessary to the argument.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "In January 2017, more than two years before his mother died in 2019, he said: 'I feel like I've been gifted and cursed with a closeness to some grief…the grief of living…' and completed it as '…the grief of living in a time and a place where a life of joy and love is f–ing impossible.'",
+      "passage": "\"I feel like I've been gifted and cursed with a closeness to some grief…the grief of living…\" Then he finished the thought: \"…the grief of living in a time and a place where a life of joy and love is f–ing impossible.\" That was grief about the world, not a bereavement, and it came more than two years before his mother died.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S20"
+      ],
+      "inference": "Grief and longing were already central to his self-description before the bereavement. That weakens the purely circumstantial explanation (he talks about grief because his mother died) and supports a temperament-level pattern. The full quote shows it was grief about the world and the impossibility of love, and the draft says so.",
+      "alternative": "This may reflect an actor's self-mythology during a prestige-film campaign, and the line is partly social commentary rather than self-description.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "As a child, 'Films were really my church… that is where I felt soothed, that is where I felt most myself…safest.' In books and movies he was 'transported into myself, into the vast inner landscape of myself.'",
+      "passage": "\"Films were really my church,\" he told the Jesuit magazine _America_ in January 2017. \"As a young kid it was movies and books; it was nothing remarkable really, just that is where I felt soothed, that is where I felt most myself…safest.\" In books and movies, \"I was transported into myself, into the vast inner landscape of myself.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "His refuge was inward, an imaginative self-world, which supports an introspective, identity-seeking orientation.",
+      "alternative": "Many future actors describe film as a childhood refuge. 'Safest' and 'soothed' also fit a Nine's or Six's comfort-seeking, and a Five could retreat inward too. Suggestive, not decisive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "He said that where he is 'tempted constantly to be producing, to be seen, to be appreciated', the Exercises showed him 'the beauty of living a hidden life, of retreating in order to offer myself in a deeper way to my art'.",
+      "passage": "\"Where I'm tempted constantly to be producing, to be seen, to be appreciated, etc., I was shown the beauty of living a hidden life, of retreating in order to offer myself in a deeper way to my art, to my life, to the world.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "He admits a real pull toward productivity and admiration and names retreat and depth as the corrective. This is the main evidence for a Three alternative and also for a Four with a strong image wing.",
+      "alternative": "Taken alone this is the Three's temptation in the Three's own words. It counts against a pure Four reading and must be weighed rather than explained away. See type_hypothesis alternative_case.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "After a year of the Exercises he said: 'I was brought to my knees by these Exercises, and yet I sit here before you, struggling with the same s—', and that with Silence's release 'I'm back in Shallow-ville'.",
+      "passage": "\"I was brought to my knees by these Exercises, and yet I sit here before you, struggling with the same s—.\" With the film's release, \"I'm back in Shallow-ville.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Publicly owning an unresolved struggle, and contrasting depth with 'Shallow-ville', fits a Four's sense that depth is real and ordinary public life is thin.",
+      "alternative": "This may be self-deprecating charm for an interviewer. Admitting continued struggle is also standard spiritual humility.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "To prepare for Silence (2016) he spent about a year doing the Spiritual Exercises with Father James Martin, was celibate for six months, fasted and lost about 40 pounds, and spent a silent retreat at St Beuno's in North Wales with Adam Driver.",
+      "passage": "Garfield spent about a year making the Spiritual Exercises of St. Ignatius with the Jesuit writer James Martin, including a silent retreat at St Beuno's in North Wales with his co-star Adam Driver. By his own account he lost 40 pounds and lived celibate for six months, and the Exercises mattered more to him than the film: \"If I hadn't made the film that would've been fine.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S06",
+        "S18"
+      ],
+      "inference": "Extreme, costly immersion that he describes as more important to him than the film itself ('If I hadn't made the film that would've been fine'). This suggests a search for inner transformation, not career strategy.",
+      "alternative": "Method-style preparation is also a professional craft norm and an awards-season story. Driver made a similar commitment. The intensity may reflect acting practice rather than personality.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "On leaving the silent retreat he and Adam Driver spent 'a three-hour car ride in an outpouring of vile language and imagery. There was a lot of giggling and crying too.'",
+      "passage": "he and Driver \"spent a three-hour car ride in an outpouring of vile language and imagery. There was a lot of giggling and crying too.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "A humanizing contradiction: the sublime and the profane together. It is useful color, not typology evidence.",
+      "alternative": "This is a comic talk-show anecdote shaped for laughs.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "He quit competitive gymnastics at about 12 after a coach sat on his back to force splits ('this is not a childhood'), calling it 'the first rebellion against my dad and his value system at the time: success and gold medals above any sense of joy, comfort, or pleasure'.",
+      "passage": "Garfield was a competitive gymnast as a boy. In a 2024 _Esquire_ cover story, as relayed by _People_, he remembered a coach sitting on his back to force him into the splits and thinking, \"this is not a childhood.\" He quit at about 12 and called it \"the first rebellion against my dad and his value system at the time: success and gold medals above any sense of joy, comfort, or pleasure.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "This is an early, costly rejection of an achievement-for-approval system in favor of an inner standard of what a life should feel like. A young Three would be expected to optimize for the valued metric. A Four or a Nine might refuse it.",
+      "alternative": "Many children quit punishing sports. This is a 2024 retrospective (Esquire via People) with a 2022 Maron corroboration from the same speaker. 'Joy, comfort, or pleasure' could also be read as a Nine or Seven value. No source supports the baseline's detail about looking for his mother on the sidelines.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "He described his upbringing as a 'Truman show feeling like, is this everything? It can't be everything' and said he was 'enraged at the concept of this being everything' (Maron, 2022, auto-transcript). In Esquire (2024, via People) he said: 'I feel there is more. And I can't identify what that more is, but I know it exists, and if it doesn't exist, I am in big trouble.'",
+      "passage": "He describes a \"Truman show feeling like, is this everything? It can't be everything,\" and says that while he was never a suicidal kid, \"I was enraged at the concept of this being everything.\" In _Esquire_ he put it more quietly: \"I feel there is more. And I can't identify what that more is, but I know it exists, and if it doesn't exist, I am in big trouble.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S07"
+      ],
+      "inference": "This is the key discriminator against Type 9. A Nine typically merges with an ordinary environment and resists disturbance. Garfield reports rage at ordinariness and a longing for an unnamed 'more', which matches the Four's conviction that something essential is missing.",
+      "alternative": "Adolescent alienation is common, and the 'arts weren't valued' household explains some of it circumstantially. Retrospective accounts can be shaped by later identity.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "He told Maron his brother, a lung doctor, was the 'golden boy', which left him asking 'who am I? What's the point?', and that the position was 'this kind of amazing gift because it liberated me'.",
+      "passage": "His brother, now a lung doctor, was the family's \"golden boy,\" he told Maron, and being the other son left him asking, \"who am I? What's the point?\" He said the position also \"liberated\" him.",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Family position as the less-validated son, and his response (searching for who he is through art), supports an identity-seeking motive. His father's late approval also shows how achievement and love got linked.",
+      "alternative": "This is his account only, from an unlabeled auto-transcript; the father and brother have not spoken about it. The overlooked-child story is also a classic Nine and Three origin narrative, so it cannot discriminate alone. The draft omits the father 'obsessed' line and the screenwriting-dream detail as unnecessary and harder to verify.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "His mother encouraged him to try painting, sculpture and music; the 'last resort' was an outside-of-school drama class at 15, where 'I felt accepted. I felt like I belonged.'",
+      "passage": "His mother pushed him to try painting, sculpture and music. \"And then I did the last resort, which was join the circus and do an outside of school drama class when I was 15,\" he told Anderson Cooper. \"I felt accepted. I felt like I belonged.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "His vocation began with the experience of belonging and being seen. Being seen, the Four's core desire, recurs (C03).",
+      "alternative": "Belonging-through-drama is a near-universal actor origin story. This corrects the baseline's unverified 'theatre-studies class one student short' and 'first play at 16' details.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C62",
+      "claim": "A new drama teacher saw him in a play and 'basically said, I see you, and I think you can do something with this.'",
+      "passage": "A new drama teacher later saw him in a play and, as he told Maron, \"basically said, I see you.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "His vocation began with being seen and recognized, a recurring desire in his self-accounts (C03).",
+      "alternative": "A mentor's recognition is a near-universal actor origin story. Auto-transcript wording; speaker is clear from context.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "On Colbert in November 2021 he said: 'if I cry, it's only... a beautiful thing', called grief 'all the unexpressed love', and said: 'I hope this grief stays with me because it's the unexpressed love that I never got to tell her.' In the same answer he described using his art 'as a way to heal, use it as a way to sew up the wounds'.",
+      "passage": "The first became the clip that followed him: \"I hope this grief stays with me because it's the unexpressed love that I never got to tell her.\" The second rarely traveled with it. He wanted to honor her \"through my art and use it as a way to heal, use it as a way to sew up the wounds because that's what we do.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S19"
+      ],
+      "inference": "He treats grief as a form of love worth keeping, which fits a Four's identification with deep feeling. He also explicitly seeks healing through art, so the evidence does not support a 'refuses to heal' thesis. It supports 'keeps the love that the grief carries'.",
+      "alternative": "This was during an awards-season press tour, and sincere-grief moments are rewarded there. Bereaved people of every type say similar things. The 'unexpressed love' line sits alongside his September 2021 'we left nothing unsaid' (C16).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "In September 2021 he told Variety: 'The good news about me and her is that we left nothing unsaid.'",
+      "passage": "Two months earlier he had told _Variety_, \"The good news about me and her is that we left nothing unsaid.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S19"
+      ],
+      "inference": "This qualifies C15. The 'unexpressed love' is love with nowhere left to go, not regret. That favors grief-as-connection over grief-as-wound.",
+      "alternative": "Two months apart and in different settings, the statements may simply reflect different moods. Either way the profile should not imply unresolved regret.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "In an October 2024 produced Sesame Workshop segment he told Elmo that missing his mother 'makes me feel close to her'.",
+      "passage": "That October he gave Elmo the same idea in a produced Sesame Workshop segment: missing her \"makes me feel close to her.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Repeats the grief-equals-love-and-closeness frame years later and to a child audience, which suggests a stable belief rather than one interview's phrasing.",
+      "alternative": "This is a produced, likely scripted educational segment released in the We Live in Time launch week. It is the most performance-shaped of the grief sources and should not be described as a talk-show appearance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "On Anderson Cooper's podcast (2024-10-08) he said grief is 'the only route to feeling her close again', described being 'that little boy at the bottom of that empty cave in vast darkness and just kind of crying out', said 'The wound is the only route to the gift', and said he 'allowed myself to feel broken... I didn't run away from it. I ran towards it'.",
+      "passage": "\"Yeah, it's here now,\" Garfield said, \"and it's the only route to feeling her close again.\" He described \"being that little boy at the bottom of that empty cave in vast darkness and just kind of crying out that's the only moment that she that she comes.\" CNN's own summary of the episode quotes him: \"The wound is the only route to the gift.\" He described the method as a choice: \"I allowed myself to feel broken. I just allowed myself to be in pain. And I didn't run away from it. I ran towards it and I said, help me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Moving toward pain and inhabiting longing as the way to connection is the strongest single behavior separating him from a Nine, who tends to dampen disturbance, and from a Three, who tends to set feelings aside to function.",
+      "alternative": "This is a grief podcast whose format invites exactly this disclosure, recorded during film promotion. Use 'route' (CNN's own episode description), not the baseline's 'root'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "He told Cooper (2024-10-08): 'When my mom passed, like two thirds of my ambition died with her. Or let me say differently, two-thirds of my previous ambition, or the style, the type, or the feeling of that ambition died', and that he wants to be 'more curious about what we're all doing here rather than narrow and driven and certain.'",
+      "passage": "And he told Cooper that when his mother died, \"like two thirds of my ambition died with her,\" then corrected himself: \"two-thirds of my previous ambition, or the style, the type, or the feeling of that ambition died.\" He wants to be \"more curious about what we're all doing here rather than narrow and driven and certain.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "He admits substantial prior ambition, which is evidence for the Three alternative, and reports that loss reordered him toward openness and not-knowing. A Three under loss would more typically channel it into output.",
+      "alternative": "This is self-report about inner change. His 2024–2026 slate (We Live in Time, After the Hunt, The Magic Faraway Tree, The Uprising, Artificial) shows a still-active career, so 'ambition died' describes his relationship to ambition, not withdrawal from work.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "He told Marc Maron (2022-08-22) that on Fire Island, just before his mother died, carrying 'this fucking pain that I couldn't move', he submerged himself in the ocean, 'got this download from the water' and 'understood that I wasn't special. I understood that what I was going through felt incredibly acutely unique. And like no one else had been through this agony before.' The wave told him grief 'had been healing people… for the last millennia and beyond'.",
+      "passage": "Shortly before his mother died, he told Maron, he was staying with a friend on Fire Island, carrying \"this fucking pain that I couldn't move.\" He went into the ocean, \"submerged myself and I suddenly just got this download from the water.\" Then: \"And I understood that I wasn't special. I understood that what I was going through felt incredibly acutely unique. And like no one else had been through this agony before. But for whatever, that wave gave me the information that it had been healing people through grief for the last millennia and beyond.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S28",
+        "S05"
+      ],
+      "inference": "This is the most distinctive evidence. He reports the Four's signature belief that his suffering is uniquely his, then names its correction. It discriminates against Nine (a Nine rarely starts from 'no one else had been through this agony'). It also contradicts the baseline's claim that his wiring 'curdles' into believing no one feels as deeply. He states the opposite conclusion.",
+      "alternative": "The 'download from the water' is mystical self-narration, and feeling that one's grief is unique is common in early bereavement regardless of type. The Maron wording is an auto-transcript, but the substance is corroborated in print by Vanity Fair (S28, February 2022) and retold to Cooper (S05, 2024).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "Ordinariness recurs as a goal: the 'hidden life' (2017); in April 2022 he told Variety he wanted to 'just be ordinary for a while' and told The View the next day 'I'm just having a holiday… I'm not retiring.'",
+      "passage": "In 2017 it was the \"hidden life.\" In April 2022, after his second Oscar nomination, he told _Variety_ he wanted to \"just be ordinary for a while,\" then told _The View_ the next day, \"I'm just having a holiday... I'm not retiring.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S11"
+      ],
+      "inference": "The recurring arc runs from a boy enraged that ordinariness might be everything (C11) to a man seeking ordinariness as freedom. This is the durable through-line for a refreshed thesis and fits a Four's growth away from specialness.",
+      "alternative": "Ordinariness and hiddenness are also the Nine's native comfort, and persona-as-prison is the Three's classic growth language. This claim is the main battleground between all three readings and is decided by where he started (C11, C20), not by where he wants to go.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "After The Amazing Spider-Man he told Maron: 'I was just fucking scared... of this massive film coming out and a gajillion people saying, no, we don't like you. We don't like your soul. We don't like your creative choices', and that his psyche told him to go do 'something incredibly soulful challenging with members of my kind of theater tribe'.",
+      "passage": "he was \"scared of this massive film coming out and a gajillion people saying, no, we don't we don't like you. We don't like your soul,\" and his instinct was to go do \"something incredibly soulful challenging with members of my kind of theater tribe.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Under exposure he retreated to depth and his own tribe, and the fear was of his soul being rejected. That suggests identity at stake, not just career.",
+      "alternative": "Fear of mass rejection is rational for any actor entering a franchise. Returning to theater is also a common craft and reputation strategy.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "He kept his Spider-Man: No Way Home role secret for months. He later said 'God, I hate lying. I don't like to lie and I'm not a good liar', but also that it was 'rather stressful but also weirdly enjoyable', 'like this massive game of Werewolf' and 'thrilling, actually'.",
+      "passage": "\"There were moments where I was like, 'God, I hate lying.' I don't like to lie and I'm not a good liar.\" He also called it \"rather stressful but also weirdly enjoyable,\" \"like this massive game of Werewolf,\" and \"thrilling, actually.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Shows discomfort with dishonesty and reframing as play, plus real enjoyment. This complicates any tidy 'can't bear inauthenticity' reading: the enjoyment is part of the evidence.",
+      "alternative": "Contractual secrecy is a work obligation, not a personality choice. Enjoying the game fits a playful, social temperament (Seven or Nine flavor) as much as anything. The baseline's 'just a fun gift I'm giving people' is unsourced and should be dropped.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "Tom Holland (THR via ComicBook.com, 2022-02-04), on the scene where Garfield's Spider-Man catches MJ: 'The look on his face… is totally genuine, and I'm really proud of him.' The ellipsis replaces an editorial bracket ('[when he saves Zendaya [MJ]]') that was not Holland's words.",
+      "passage": "[Tom Holland](/personality-analysis/tom-holland), speaking of the scene in which Garfield's Spider-Man catches [Zendaya](/personality-analysis/zendaya)'s MJ, said, \"The look on his face... is totally genuine, and I'm really proud of him.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S26"
+      ],
+      "inference": "Independent co-star testimony that his on-screen emotion read as unperformed. It also introduces the redemption-and-peacemaking context.",
+      "alternative": "This is professional praise during a joint promotion, and THR was not opened. 'when he saves Zendaya' is an editorial insertion, so quote only Holland's words. Garfield himself said the MJ-catch image 'kind of sold me on the whole thing' (S09).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "In July 2017, at a Q&A tied to the London production of Angels in America (in which he played Prior Walter, the gay, HIV-positive lead), reflecting on his 'right' as a straight actor to play the part, he said: 'I am a gay man right now just without the physical act -- that's all,' and cited weekly RuPaul's Drag Race viewing with friends.",
+      "passage": "during the London production of _Angels in America_, in which he played Prior Walter, a gay man living with HIV in Tony Kushner's play about the AIDS crisis. At a Q&A tied to the production, reflecting on what right he had as a straight actor to play the part, he said, \"I am a gay man right now just without the physical act -- that's all,\"",
+      "class": "disputed",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "If used, this can illustrate total-immersion identification with a role tipping into claiming another's experience. Present it as criticism plus his response, not as a settled verdict. 'My only longing is to serve' is also Two-flavored vocabulary.",
+      "alternative": "His defenders read it as clumsy phrasing about method immersion. The baseline's 'He later walked it back' and 'before playing' are inaccurate. Because this concerns sexuality and identity, attribute the criticism, quote the response, and avoid editorializing the backlash as 'fair' without sourcing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "Florence Pugh (Collider, 2024-10-19): 'Whatever he did, I would receive, and whatever I did, he would take.'",
+      "passage": "said in 2024, \"Whatever he did, I would receive, and whatever I did, he would take.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Independent testimony of a reciprocal, emotionally open working style.",
+      "alternative": "It is co-star praise during a joint press tour. It supports generosity and openness, which fit Two or Nine as readily as Four.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "Emma Stone (Teen Vogue, August 2011, via Yahoo/People timeline): 'Andrew is one of the most giving actors I've ever worked with.'",
+      "passage": "[Emma Stone](/personality-analysis/emma-stone) told _Teen Vogue_ in 2011, \"Andrew is one of the most giving actors I've ever worked with.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Early independent testimony of emotional generosity and improvisational intensity, years before the grief-era persona.",
+      "alternative": "This is co-star and then-partner praise during promotion, so it is not independent of affection. The original Teen Vogue piece was not opened. It describes giving, which reads as Two as easily as Four.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "Lin-Manuel Miranda (CBS Sunday Morning, 2021-11-14), on seeing him in Angels in America: 'He brought his joy, and he brought his rage, and I didn't know if he could sing, but I just felt like he could do anything.'",
+      "passage": "Lin-Manuel Miranda, who directed him in _tick, tick... BOOM!_, said of seeing him in _Angels in America_: \"He brought his joy, and he brought his rage, and I didn't know if he could sing, but I just felt like he could do anything.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S16"
+      ],
+      "inference": "Independent observation that he brings intense, full-range emotion (including rage) to work, consistent with C11's rage at ordinariness.",
+      "alternative": "Director praise during promotion. The baseline's Variety wording ('such a beast') was not opened (S27).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "Martin Scorsese (TIME, 2017-01-12): 'People say, “Well, anybody wants work,” but not necessarily. Andrew actually wanted to think about all these issues.'",
+      "passage": "\"People say, 'Well, anybody wants work,' but not necessarily,\" he told _TIME_. \"Andrew actually wanted to think about all these issues.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "A director's independent observation that his engagement with existential questions was genuine rather than careerist.",
+      "alternative": "Director praise during promotion. The baseline's 'two cameras… he could just take off' Scorsese quote was not found and should be replaced or removed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "On Chicken Shop Date (2024-10-18), asked when he would win an Oscar, the guest (inferred to be Garfield; captions unlabeled) said 'that whole thing has meant something to me in the past and I think I needed that'. After asking whether Dimoldenberg would be more attracted to him with an Academy Award and hearing 'maybe', the reply was 'I get it I get it just like my father.'",
+      "passage": "The automatic captions don't label speakers, but the answer comes from the twice-nominated guest: \"that whole thing has meant something to me in the past and I think I needed that.\" When she said an Academy Award might make him more attractive, the reply was \"I get it I get it just like my father.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "This is a rare admission that external validation once mattered ('I needed that'), linked by him to his father. It is evidence for the Three/achievement thread. He also displays the need and the defeat on camera, which a Three would more typically hide.",
+      "alternative": "This is a comedic flirt format, partly performed. Speaker attribution is inferred from unlabeled auto-captions; the draft states this. One search snippet attributes the Oscar line to Garfield, but no opened print source quotes it. The draft omits the ambiguous 'nice time without the camera' line.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "Asked by W Magazine (2025-01-04) whether he is more cat or dog, he said: 'Dog, of course. I have no aloofness. I love affection constantly. I'm a pack animal. I love being with the gang. I'm always looking for treats, warmth, coziness, comfort, and play.'",
+      "passage": "\"Dog, of course. I have no aloofness. I love affection constantly. I'm a pack animal. I love being with the gang. I'm always looking for treats, warmth, coziness, comfort, and play.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "This is counterevidence to the withdrawn 4w5 and sx-only readings in the baseline. It shows warm, group-oriented comfort-seeking that fits Nine or Two at least as well as Four.",
+      "alternative": "It is a light, playful format answer and should not carry heavy typological weight either way.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "He described his mother as 'a person that felt most herself when she was able to heal, care, nourish and contain others', who on her hospice bed 'was more concerned with the nurses than she was with her own pain'. He told Maron that she 'loved living for others' and 'i was very angry with her for that a lot of the time i just wanted her to take care of herself better'.",
+      "passage": "Lynn Garfield was ill with pancreatic cancer for about a year and a half. Her son describes her as \"a person that felt most herself when she was able to heal, care, nourish and contain others in a gentle way. On her hospice bed, she was more concerned with the nurses than she was with her own pain and discomfort.\" He loved this in her and also fought it. \"I was very angry with her for that a lot of the time,\" he told Maron. \"I just wanted her to take care of herself better.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S16"
+      ],
+      "inference": "His anger at her self-erasing care, alongside deep love, is a discriminator against a Two reading of him. A Two typically idealizes self-sacrificing care rather than resenting it.",
+      "alternative": "Anger at a dying parent's self-neglect is common to all types. These are his characterizations of her, not her own words.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "He recalled that on the eve of the 2017 Oscars (Hacksaw Ridge) his mother, after a rare glass and a half of wine, grabbed Jack Black by the lapels and said 'it was me. It was all me.' He said: 'I do owe her her unmet dreams... the sacrifices she's made, her longing.'",
+      "passage": "At a party the night before the 2017 Oscars, after \"a glass and a half of wine, which is a rare occurrence for her,\" his mother was asked by [Jack Black](/personality-analysis/jack-black) whether her son's talent was nature or nurture. \"And my mom goes right up to him and grabs him by the lapels. And she says, it was me. It was all me.\" Telling Cooper the story, Garfield added, \"I do owe her her unmet dreams her the sacrifices she's made her longing.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "This is a vivid, specific scene showing that he experiences his career partly as carrying his mother's unlived creative longing. It reframes his grief as continuity of her longing, not only loss.",
+      "alternative": "It is a single anecdote told on a grief podcast. Jack Black's side is unverified. The interpretation that he carries her longing is his own, so present it as his reflection.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "Stable bio: born 1983-08-20 in Los Angeles; moved to England at three and raised in Epsom, Surrey; trained at the Royal Central School of Speech and Drama; played Spider-Man in The Amazing Spider-Man (2012) and The Amazing Spider-Man 2 (2014); Best Actor Oscar nominations for Hacksaw Ridge and tick, tick... BOOM!; Tony Award (Best Actor in a Play) for Angels in America (2018).",
+      "passage": "Garfield was born in Los Angeles on August 20, 1983, and grew up in Epsom, Surrey, after his family moved to England when he was three. He trained at the Royal Central School of Speech and Drama, played the lead in _The Amazing Spider-Man_ (2012) and its sequel, earned Best Actor Oscar nominations for _Hacksaw Ridge_ and _tick, tick... BOOM!_, and won a Tony Award for _Angels in America_ in 2018.",
+      "class": "observed",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "Factual orientation and metadata. Use 'Lynn' (Wikipedia and his own words on Cooper), not 'Lynne'.",
+      "alternative": "No material dispute. Some outlets spell the mother's name Lynne.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C36",
+      "claim": "As of 2026-10-04: The Uprising (Paul Greengrass; Garfield as Ploughman) was released in the US on 2026-09-10; Artificial (Luca Guadagnino; Garfield as Sam Altman) premieres at NYFF on 2026-10-05, with a US release expected 2026-12-25.",
+      "passage": "As of October 2026 he stars in Paul Greengrass's _The Uprising_ (US release September 10, 2026) and plays [Sam Altman](/personality-analysis/sam-altman) in Luca Guadagnino's _Artificial_, which premieres at the New York Film Festival on October 5, 2026.",
+      "class": "observed",
+      "source_ids": [
+        "S21",
+        "S22"
+      ],
+      "inference": "Current-accuracy context only. None of it should carry the personality argument. Playing Sam Altman, a tech persona, may draw new search traffic and FAQ questions.",
+      "alternative": "Box office, reception and release dates may change.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck after Artificial's NYFF premiere (2026-10-05) and expected US release (2026-12-25), and after the 2027 awards season (March 2027): update tense/status of both films; revise the personality argument only if a new interview materially tests it."
+    },
+    {
+      "id": "C38",
+      "claim": "Most of his public grief disclosures cluster in film-promotion windows: Colbert (November 2021, tick, tick... BOOM!), Cooper, Elmo and Chicken Shop Date (October 2024, We Live in Time). The 2017 America interview predates the bereavement, and the August 2022 Maron conversation was not tied to a release.",
+      "passage": "Most of his grief disclosures land in promotional windows, Colbert during _tick, tick... BOOM!_, then Cooper, Elmo and _Chicken Shop Date_ during _We Live in Time_. But the 2017 _America_ interview, with its \"not-enough-ness\" and \"grief of living,\" predates the bereavement, and the 2022 Maron conversation was not tied to a release.",
+      "class": "interpretation",
+      "source_ids": [
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S01",
+        "S13"
+      ],
+      "inference": "Publicity incentives explain when he talks about grief, not that he does. The pre-bereavement 2017 material and the non-promotional Maron interview show the same orientation, which weakens a pure-branding explanation.",
+      "alternative": "A skeptic can still argue the 'sensitive man' persona is a coherent professional brand. The profile should name this alternative explicitly.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "His Enneagram type is publicly contested: a typing site (Know Your Archetypes) types him as a Nine, arguing 'Type 9 individuals seek harmony and avoid conflict'; search results (not opened) report Personality Database and Boo listing 9w1.",
+      "passage": "some typing sites file Garfield as a Nine, arguing that \"Type 9 individuals seek harmony and avoid conflict.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S25"
+      ],
+      "inference": "Community consensus leans Nine, so the Four argument must beat Nine with a sourced discriminator (C11, C18, C20) rather than assert it.",
+      "alternative": "Community typings are low-authority and popularity-driven. Only one such page was opened.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "Wing and subtype are speculative. The baseline's 4w5 and sexual-subtype calls rest partly on misread evidence ('pack animal', 'films were my church'). His admitted pull toward 'producing, to be seen, to be appreciated' (C06) and the Oscar need (C30) point at least as plausibly to a 4w3.",
+      "passage": "Earlier readings called him a 4w5, the withdrawn, cerebral Four, partly on quotes read out of context. His admitted pull \"to be seen, to be appreciated\" points at least as plausibly to a 4w3.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S08",
+        "S02"
+      ],
+      "inference": "Treat wing and subtype as optional and uncertain. Either omit them or present them as tentative, with the counter-cases stated.",
+      "alternative": "Wing and subtype could be argued either way. The standard does not require a guess.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41",
+      "claim": "On CBS Sunday Morning (2021-11-14) he said: 'I think everything I do is in dedication to her.'",
+      "passage": "On _CBS Sunday Morning_ in 2021 he said, \"I think everything I do is in dedication to her.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S16"
+      ],
+      "inference": "Novelty and depth-seeking in self-transformation, and dedication of his work to his mother, consistent with C15 and C33.",
+      "alternative": "'Places I haven't been' is also Seven-style novelty language and standard actor talk.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42",
+      "claim": "He told Maron in 2022 that his gymnastics included 'my Russian coaches sitting on my back while I'm in a box split', corroborating the 2024 Esquire account.",
+      "passage": "He had told Marc Maron the same story in 2022, down to \"my Russian coaches sitting on my back while I'm in a box split.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Two interviews two years apart give the same specific detail, which supports the consistency of the account (both are still self-report).",
+      "alternative": "Same speaker, so not independent corroboration of the event. Said jokingly in the context of his height. Auto-transcript wording.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "The profile's arc: as a boy he was 'enraged at the concept of this being everything' (Maron, 2022), and in September 2026 he said he wants to 'free myself into my ordinariness' (America podcast).",
+      "passage": "As a boy in suburban Surrey, he says, he was \"enraged at the concept of this being everything.\" In September 2026 he told a Jesuit podcast that he wants to \"free myself into my ordinariness.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S12",
+        "S20"
+      ],
+      "inference": "Pairs his earliest and latest self-descriptions to frame the central tension: from rage at ordinariness to seeking it. The arc itself is the author's framing of two self-reports.",
+      "alternative": "Retrospective self-accounts can be shaped by later identity. 'Suburban' comes from his own description ('conservative suburban'); Surrey from Wikipedia. The 2026 quote comes from podcast page excerpts, not the full audio.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "He told Vanity Fair's 2022 Hollywood issue: 'It was like I got the full download. It reminded me that sons and daughters have been losing their mothers since the dawn of time. And I had this very unique feeling of loss and grief. I'd just jumped into the club of losing the illusion that the person that gives you life is always going to be alive.'",
+      "passage": "\"It was like I got the full download. It reminded me that sons and daughters have been losing their mothers since the dawn of time. And I had this very unique feeling of loss and grief. I'd just jumped into the club of losing the illusion that the person that gives you life is always going to be alive.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "Print corroboration of the ocean realization (C20): the feeling of unique grief, corrected by recognizing it as universal. Supports the 'I wasn't special' turn as a stable, repeated self-account.",
+      "alternative": "Wire relay of a print interview (original not opened). Published during awards season. Self-narration of an inner experience, not proof of a lasting change.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "He retold the ocean story to Anderson Cooper in 2024 ('sons have been losing their mothers for thousands and thousands of years').",
+      "passage": "He told it again to Cooper in 2024.",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "A third telling across 2022–2024, which suggests a settled personal narrative rather than one interview's phrasing.",
+      "alternative": "Auto-transcript. Repetition can reflect a polished anecdote as well as a core belief.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "He told Cooper that the ocean 'had a great answer, a really tremendous answer.'",
+      "passage": "The ocean, he told Cooper, \"had a great answer, a really tremendous answer.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "His framing of the realization as an answer, not a loss, supports reading the 'wasn't special' turn as consolation.",
+      "alternative": "Auto-transcript; mystical self-narration on a grief podcast.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "Since his mother's death he has kept making films: We Live in Time (2024), After the Hunt (2025), The Magic Faraway Tree (2026) and The Uprising (2026).",
+      "passage": "He has kept working, through _We Live in Time_, _After the Hunt_, _The Magic Faraway Tree_ and _The Uprising_",
+      "class": "observed",
+      "source_ids": [
+        "S20",
+        "S21"
+      ],
+      "inference": "His 'ambition died' statement describes a changed relationship to ambition, not withdrawal from work, so it limits the anti-Three argument.",
+      "alternative": "Career choices reflect offers, contracts and finances as well as motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "He told Maron three things stuck with him: 'I'm not the victim. She was'; 'There's nothing unusual about the experience I'm experiencing. I'm not alone in it'; and 'may her memory be a blessing'.",
+      "passage": "Three things stuck with him, he told Maron. \"I'm not the victim. She was.\" There was \"nothing unusual about the experience I'm experiencing. I'm not alone in it.\" And the Jewish blessing \"may her memory be a blessing.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Explicitly rejects a victim or exceptional-sufferer stance, which is the correction of the Four's specialness the profile centers on.",
+      "alternative": "Auto-transcript; some intervening words are omitted between 'experiencing.' and 'I'm not alone in it' only by a timestamp. Could be read as generic grief wisdom.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C49",
+      "claim": "On America's The Spiritual Life podcast (2026-09-14) he said: 'The idea that we feel that we have to be more than we are, it's heartbreaking'; that 'the mask or the persona that we give to the world… it's a prison that I long to free myself of'; and that he wants to 'free myself into my ordinariness, free myself into my ability to just be a very flawed, a very beautiful… very complicated human being.'",
+      "passage": "In September 2026, on _America_'s _The Spiritual Life_ podcast with James Martin, he said, \"The idea that we feel that we have to be more than we are, it's heartbreaking.\" He called \"the mask or the persona that we give to the world\" a prison \"that I long to free myself of,\" and said he wants to \"free myself into my ordinariness, free myself into my ability to just be a very flawed, a very beautiful… very complicated human being.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "The latest point in a 2017–2026 line toward ordinariness; supports the Four-growth reading of losing exceptionalism.",
+      "alternative": "Persona-as-prison is also Three growth language, and ordinariness is native Nine comfort. Only page excerpts were read, not the full audio. Spiritual-podcast framing invites this vocabulary.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "Defending his Angels in America remarks in 2017, he said: 'My only longing is to serve and to keep the world spinning forward for the LGBTQ community.'",
+      "passage": "defending his _Angels in America_ remarks in 2017, he said, \"My only longing is to serve and to keep the world spinning forward for the LGBTQ community.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "Service vocabulary is the main support for a Two reading, weighed against C32.",
+      "alternative": "Said in a defensive clarification after criticism, so it may be reputational rather than characterological. The service is directed at the LGBTQ community the play concerns, which limits its weight as general Two evidence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "After the remarks, many LGBT people on Twitter alleged he was belittling queer identity; Advocate contributor Nico Lang compared them to straight actors' gay-baiting and wrote 'Straight actors, please stop this nonsense.' Garfield told BBC Newsbeat: 'That's of course not what I meant at all' and 'That discussion was about this play and how deeply grateful I am that I get to work on something so profound.' No apology appears in the opened coverage.",
+      "passage": "Many LGBTQ people on Twitter said he was belittling what it is like to be queer; _Advocate_ contributor Nico Lang wrote, \"Straight actors, please stop this nonsense.\" Garfield told BBC Newsbeat, \"That's of course not what I meant at all,\" and said the discussion \"was about this play and how deeply grateful I am that I get to work on something so profound.\"",
+      "class": "disputed",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "Attributed criticism and his own response, presented without an author verdict. Illustrates immersion that landed badly with the community it concerned.",
+      "alternative": "Defenders could read it as clumsy phrasing about method immersion; Garfield says it was taken out of context. One opened source (The Advocate) carries both sides; the BBC original was not opened.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C52",
+      "claim": "His Chicken Shop Date appearance (October 2024) drew wide attention for its flirting (CNN), and in it he said 'I'm a very private person in my private life'.",
+      "passage": "his _Chicken Shop Date_ set the internet buzzing over the flirting ([CNN via WRAL, October 18, 2024](https://www.wral.com/archive/21679343/)), and in it he told Dimoldenberg, \"I'm a very private person in my private life.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S29",
+        "S13"
+      ],
+      "inference": "Unexplained contrast: open about grief, guarded about romance. The draft does not name or speculate about any relationship.",
+      "alternative": "Comic flirt format. Privacy about romance is common among actors regardless of type. Caption speaker for the privacy line is inferred from context.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C53",
+      "claim": "His mother, Lynn, died of pancreatic cancer in 2019.",
+      "passage": "Garfield's mother, Lynn, had died of pancreatic cancer in 2019.",
+      "class": "observed",
+      "source_ids": [
+        "S20",
+        "S05"
+      ],
+      "inference": "Biographical anchor for the grief material.",
+      "alternative": "Some outlets spell her name Lynne; Garfield and Wikipedia use Lynn.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C54",
+      "claim": "He told Colbert (November 2021): 'I love talking about it, by the way, so if I cry, it's only like -- it's only a beautiful thing,' and called grief 'all the unexpressed love'.",
+      "passage": "\"I love talking about it, by the way, so if I cry, it's only like -- it's only a beautiful thing,\" he told Colbert, calling it \"all the unexpressed love.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Treats crying about grief as welcome rather than shameful; consistent with moving toward feeling.",
+      "alternative": "Awards-season talk show; closed captions are not authoritative on punctuation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "Metadata: born 1983-08-20.",
+      "passage": "1983-08-20",
+      "class": "observed",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "Full birth date is supported by Wikipedia's lead and Early life section.",
+      "alternative": "No dispute found.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C56",
+      "claim": "Metadata: born in Los Angeles, California.",
+      "passage": "Los Angeles, California, U.S.",
+      "class": "observed",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "Supported by Wikipedia's Early life section.",
+      "alternative": "No dispute found; raised in England from age three.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "FAQ: He said 'I hope this grief stays with me' on The Late Show in November 2021, about his mother Lynn, who died of pancreatic cancer in 2019.",
+      "passage": "He said it on The Late Show in November 2021, about his mother, Lynn, who died of pancreatic cancer in 2019.",
+      "class": "observed",
+      "source_ids": [
+        "S03",
+        "S20"
+      ],
+      "inference": "Metadata restatement of C15/C53 for the FAQ.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "FAQ: He told Maron in 2022 that shortly before his mother died, after diving into the ocean, he realized his grief felt uniquely his own but was not.",
+      "passage": "He told Marc Maron in 2022 that shortly before his mother died, after diving into the ocean, he realized that his grief felt uniquely his own but was not.",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S28"
+      ],
+      "inference": "Metadata restatement of C20/C44 for the FAQ.",
+      "alternative": "Same limits as C20.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "Description: as a boy he was enraged that ordinary life might be everything; grief taught him he wasn't special.",
+      "passage": "As a boy, Andrew Garfield was enraged that ordinary life might be everything. Grief taught him he wasn't special.",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S07",
+        "S28"
+      ],
+      "inference": "Metadata summary of C11 and C20/C44.",
+      "alternative": "Compresses two self-reports into a causal arc; 'grief taught him' is his own framing (the 'download' came from grief).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "Type answer: Garfield most likely fits Enneagram Type 4 at medium confidence; Type 9 is the strongest alternative and Type 3 a serious second.",
+      "passage": "Andrew Garfield most likely fits Enneagram Type 4, the Individualist, at medium confidence.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S05",
+        "S06",
+        "S07",
+        "S28"
+      ],
+      "inference": "Interpretation of public self-reports: lifelong longing for 'more', 'not-enough-ness', movement toward pain, and the named correction of feeling uniquely afflicted.",
+      "alternative": "Type 9 (community consensus; warmth, comfort-seeking, hiddenness) and Type 3 (medal household, 'to be seen, to be appreciated', Oscar 'needed that') remain live; see type_hypothesis.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "Discriminator: a Nine reading must discount the Surrey rage and the 'no one else had been through this agony' starting point, which the Four reading requires.",
+      "passage": "A Nine reading has to treat the Surrey rage and \"no one else had been through this agony\" as noise. A Four reading needs them.",
+      "class": "interpretation",
+      "source_ids": [
+        "S06",
+        "S07"
+      ],
+      "inference": "States the sourced observation that distinguishes Four from Nine in this record.",
+      "alternative": "Both observations are retrospective self-reports, partly from an auto-transcript; a Nine can also feel adolescent alienation and early-grief uniqueness.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 4,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C01",
+      "C03",
+      "C04",
+      "C10",
+      "C11",
+      "C15",
+      "C18",
+      "C20",
+      "C21",
+      "C32",
+      "C44",
+      "C48",
+      "C49",
+      "C61"
+    ],
+    "against": "Several observations do not fit a clean Four. (1) He admits a real pull toward achievement and admiration: 'tempted constantly to be producing, to be seen, to be appreciated' (C06), the Oscar 'meant something to me... I think I needed that' (C30), and ambition strong enough that 'two thirds' of it 'died' with his mother (C19). (2) His warmth, comfort-seeking and group belonging ('pack animal… love being with the gang… coziness, comfort', C31), his playful enjoyment of the Spider-Man deception (C23) and his flirt-format ease (C30) do not read as withdrawn or melancholic. (3) His recurring wish for ordinariness and a 'hidden life' (C21, C49) is native Nine territory. (4) Service vocabulary ('My only longing is to serve', 'humble service') and emotional generosity in co-star testimony (C25–C27) could support a Two. (5) Most grief disclosures occur in promotional windows (C38), and two key grief sources are performance-shaped (the Sesame segment and Chicken Shop Date). (6) The richest self-accounts are long-form but come from unlabeled auto-transcripts that need audio verification before quotes are used.",
+    "alternative_type": 9,
+    "alternative_case": "Type 9 is the strongest alternative and the community consensus (C39). It explains his gentleness, merging, warmth and comfort-seeking (C31), his generous, receptive scene-partnering (C26, C27), his conflict-softening reframes (lying as a 'game', C23; 'I'm just having a holiday', C21), his overlooked-second-son story ('who am I? What's the point?', C12), and his long attraction to hiddenness and ordinariness (C21, C49). Type 3 is a serious second alternative. His father's medal values, the brother as 'golden boy' and the father drawing closer once he succeeded (C12), the admitted temptation to produce and be appreciated (C06), the Oscar 'need' (C30) and 'mask or persona' language (C21) form a coherent achievement-for-love story. Type 2 is a weaker third, resting on service language, emotional generosity and his idealized model of maternal care (C25–C27, C32).",
+    "discriminator": "Where he started and what he does with pain. A Nine begins merged with the ordinary and dampens disturbance. As a boy Garfield was 'enraged at the concept of this being everything' and felt 'there is more' (C11). As an adult he deliberately moves toward pain ('I didn't run away from it. I ran towards it'; 'I want it to break me open', C18, C19) and at first experienced his grief as uniquely his own ('like no one else had been through this agony before', C20). Ordinariness arrives late, as a hard-won correction ('I wasn't special', 2022, C20/C44/C48; 'free myself into my ordinariness', 2026, C49), not as a starting comfort. Against Three: when achievement and inner truth conflict he repeatedly pays the achievement cost. He quit the medal track at 12 against his father (C10), retreated from blockbuster exposure to theater 'to protect' his soul (C22), publicly owns unresolved struggle ('struggling with the same s—', C07) and displays his Oscar disappointment rather than concealing it (C30). Against Two: he resented, rather than idealized, his mother's self-erasing care (C32), and his named wound is unexpressed inner identity ('the perfect expression of this thing that is inside', C01), not being unneeded.",
+    "unexplained": "He is easy and playful in public deception and flirtation (C23, C30), and he enjoyed lying about Spider-Man despite 'hating' it. He guards his romantic life ('a very private person in my private life', C52) while making his grief public. Achievement still matters to him in ways he admits but says he has outgrown (C06, C19, C30). 'We left nothing unsaid' (C16) sits beside 'unexpressed love that I never got to tell her' (C15). He moved from the 2017 Angels in America remarks to a defense rather than an apology (C25). He also keeps choosing large commercial projects (Spider-Man return, The Magic Faraway Tree, Artificial) while describing ambition as largely dead."
+  }
+}

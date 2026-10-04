@@ -1,0 +1,26 @@
+I wrote the unfamiliar-reader review of the Joseph Zada draft to `docs/content-analysis/pipeline-logs/2026-10-04_07-20-56-255_joseph-zada/review-unfamiliar.json`. It passes the pipeline's review schema, and every passage it quotes appears word for word in the draft. I changed no other files and published nothing.
+
+The review has 8 findings: 2 major and 6 minor.
+
+**Major**
+1. **His *East of Eden* part is overstated.** The opening calls it "his Netflix series" and mentions seven episodes. He's actually in only the last two. A reader first learns that near the end, where it looks like a contradiction.
+2. **There's no career map until the second-to-last paragraph.** In the meantime the evidence jumps between four overlapping productions (Perth, Halifax, New Zealand, Berlin and Spain). Glenn Close and Ralph Fiennes are mentioned without saying which project they're in. Someone new to him can't tell when or where anything happened.
+
+**Minor**
+3. The key idea (he claims the roles as his own but gets rattled by the actors he admires) is first stated in two clipped fragments. The draft also never explains what the Enneagram is.
+4. "This profile" is ambiguous in the paragraph that pays off the opening. It reads as The Hollywood Reporter's profile, not the 9takes article.
+5. The draft admits the flight home is best explained by practical filmmaking reasons, then uses it as evidence twice anyway.
+6. The Elle Fanning interview for *Interview Magazine* is dated both June and August 2026. It was recorded in June and published in August.
+7. A few phrases assume inside knowledge: an outlet name used as a date, "the numbers are conversational," and "gained ground," which hints at an earlier version readers never saw.
+8. The draft runs about 3,890 words, above the 3,500 target. The back third keeps restating the "what settles him" argument and re-quoting evidence already used.
+
+**Risk flags:** I marked the typing as contested and the sources as partly uncertain. The ancestry is disputed and one source is undated. Because contested typing triggers the larger six-reviewer panel, this review is part of that panel.
+
+**Similarity check:** the only matches were against the September 12 version of this same profile, which is expected in a refresh. The closest match to any other person's profile scored 0.027, under the 0.04 cutoff, so I didn't flag any reuse.
+
+**Protected passages:** I marked five for the editor to keep:
+- the dinner where he blanked beside Woody Harrelson
+- the line about his confidence arriving once the people he feared became peers, and then not holding
+- his ancestors described as company
+- his double use of the word "chilling"
+- the draft admitting his swearing story was a joke

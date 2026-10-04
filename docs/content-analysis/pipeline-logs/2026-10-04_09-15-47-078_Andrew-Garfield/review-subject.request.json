@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "Andrew-Garfield",
+  "mode": "refresh",
+  "role": "subject",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/similarity.json"
+  },
+  "outputs": {
+    "review-subject.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/review-subject.json"
+  },
+  "content_sha256": "5d360da4c19b36a25182356716b6ca85bb97257d6e08da1f06b59cc7b2bfd007",
+  "evidence_sha256": "977a1fca814d02ac1d0632672173714b55f04b26edd5f99e1cac0521a1488fb7"
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "59cd3d2d788cf44aec5cb24fa4d04eebeb7e8ca5dd8d1455f7c378f84fb15600",
+  "evidence_sha256": "a3890f1c3cc53541a8e3dd5e23b9144eeb502efd5773643badc434f7dcec0419",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "Her handling of _Don't Worry Darling_ fits the same exit pattern.",
+      "problem": "This paragraph assumes the reader already knows the 2022 press-tour saga. It never says what Don't Worry Darling is (Olivia Wilde's 2022 film, with Pugh in the lead), what was reported, or why missing a press conference drew attention. Wilde's 2026 line \"I've never had a screaming match on my set\" denies an allegation the article never states. A reader with no background can't weigh this as evidence for the 'exit' pattern, even though it is load-bearing in the discriminator section and the FAQ promises to explain it. The topic is sensitive, so the orientation has to be attributed and hedged, not just vivid.",
+      "acceptance_test": "Before the Venice sentence, the paragraph identifies Don't Worry Darling as Wilde's 2022 film starring Pugh. One attributed, hedged sentence states what was reported, limited to what the evidence record already attributes (e.g. anonymous-source reporting in September 2022 of on-set tension and an alleged argument, which a crew statement denied), and says why her absence from the press conference was widely noticed. A reader with no prior knowledge can then say what Wilde's 2026 denial answers. Pugh's continued non-comment stays explicit, no new allegation is introduced, and the FAQ answer agrees with the body."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "In two unrelated episodes, three years apart, the thrill and the comeback came first and the cost arrived years later.",
+      "problem": "The central thesis slides between when the cost was felt and when it was told. By her own account (paragraph 3 and FAQ 1), the Midsommar depression hit within months: by Christmas 2018, lasting 'like six months'. The S56 excerpt in the evidence record even has her linking it to Midsommar at that time ('Oh, I think that's from \"Midsommar\"'). What came years later was the public telling. For Valentino, the article only knows when she named the hurt (2024), not when she felt it. So 'the cost arrived years later' contradicts the article's own opening and leaves an unfamiliar reader unsure whether the claim is about her psychology (deferred feeling) or her storytelling (deferred disclosure). The Seven-versus-ordinary-press-reflection argument depends on that distinction. The interval is also loose: the episodes are late 2018 and July 2022.",
+      "acceptance_test": "The summary sentence says the cost was named or acknowledged publicly later, not that it arrived later. It is consistent with the Christmas/six-month account in paragraph 3 and FAQ 1, and the interval between the episodes is stated accurately or dropped. At least once near the type argument, the article says plainly which strands are self-reported feeling or behavior at the time (Midsommar to Little Women, lockdown, teenage quick fixes) and which are only the order of public telling (Valentino). The meta_title/description phrase 'the cost later' then reads unambiguously."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "When pain arrives, she moves toward something lighter and faster, and names the cost later.",
+      "problem": "The thesis formula appears here and again, nearly word for word, three paragraphs later in the type answer ('when pain arrives, she reaches for motion, play and a lighter room, and names the cost later'). It returns as 'distress met with movement, pleasure and a lighter register, with the cost noticed afterward' and again as 'costly private moments she describes, which run toward lightness.' At about 3,860 body words, above the 2,000 to 3,500 target, these restatements are where an unfamiliar reader feels the drag, and they make the intro tell the answer before the reader has felt the question.",
+      "acceptance_test": "In the body, the pain → lightness → cost-later formula appears at most twice: the plain-language type answer and one earned summary. The intro paragraph sets up the contradiction (directors say she can't be knocked down vs. the Christmas depression) without stating the answer in near-identical words. Paragraphs that come back to the pattern add new evidence or a new consequence instead of re-describing it."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "Theroux quotations here come from print coverage or an official clip of the episode; where only an automated transcript exists, the article says so.",
+      "problem": "A sourcing note sits between the biography and the type answer, right where momentum matters most. It reads as editorial apparatus to a general reader. The caveat is already handled where it applies, at the Podscripts passage in the 'last person' section.",
+      "acceptance_test": "The intro keeps at most one sentence on source limits (the press-tour, promotional nature of the record). The Theroux transcript provenance note appears only where an unverified machine transcript is quoted. All inline attributions stay intact."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "Her Instagram reply to the body-shaming led with nerve.",
+      "problem": "Several events are interpreted before the reader is told what happened. The Valentino body-shaming is never described: what was said, and where. 'Impossible to body-shame into silence' in the intro points at stories the reader hasn't met yet. 'When Instagram limited her Cornell post' introduces the limitation in passing, two sections after the post. 'By her account, _We Live in Time_ ... changed something' never says what the film is or what she said shifted; the evidence record has her describing an 'emptiness' after finishing it. 'A counterphobic Six' is undefined. 'Already struck two notes' never says what the second note, 'a bit of a fluke', signals.",
+      "acceptance_test": "Each item gets one plain, sourced clause at first mention: what the gown drew (online comments about her body and breasts, per the cited TODAY/Harper's coverage); that Instagram limited the Cornell post's reach, stated where the post is first described; what We Live in Time is and what she said she felt on finishing it; what a counterphobic Six is (one clause or a link). Either the second of the 'two notes' is named or the framing is cut. No new unsourced detail is introduced."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "To find Dani's grief in Ari Aster's _Midsommar_ (2019), Florence Pugh imagined her family dying.",
+      "problem": "The hook is strong but leans on prior knowledge. A new reader isn't told that Pugh is an actress or what Dani's grief is (the character's whole family dies at the start of the film) until paragraph five, or never. The coffin method only lands fully once the reader knows she was imagining what her character had lost.",
+      "acceptance_test": "Within the first two sentences, a reader learns that Pugh is a British actress and that Dani, her character, is grieving the deaths of her family, sourced to an item in the evidence record. The hook's quotes, order and dates are otherwise unchanged."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "The work she describes now is the other half, staying put long enough to unpack.",
+      "problem": "Two sections earlier, the 2024–2026 turn toward 'safety, family, a home and security' appears among the things the Seven reading can't explain: it 'could be maturity, a good relationship, or a security motive none of the leading readings captures.' The ending then reads the same turn as Seven growth without acknowledging that. An unfamiliar reader leaves with a tidier conclusion than the article's own counterevidence section allows.",
+      "acceptance_test": "The closing section acknowledges, in a clause, that the same turn could signal something the Seven reading doesn't capture, or the 'can't explain' paragraph and the ending are otherwise reconciled so the final paragraph doesn't quietly settle an open counterpoint in the thesis's favor. The 'I love packing / I hate unpacking' close is kept."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Six years later, on _The Louis Theroux Podcast_, she told the same story with a different ending.",
+      "reason": "Turns two dated interviews into a hook with a real reveal. A new reader instantly understands why this person is worth a portrait, and the article delivers on it."
+    },
+    {
+      "passage": "Two questions do more work: what does she do with her own pain, and what is her pushback defending?",
+      "reason": "The clearest orientation device in the piece. It gives a reader with no Enneagram background a concrete test to carry through the remaining sections, instead of a type stereotype."
+    },
+    {
+      "passage": "She never had to refuse anything; the show simply died.",
+      "reason": "Honestly deflates the most convenient origin story in the record. That builds the reader's trust in every later inference."
+    },
+    {
+      "passage": "The reason she gives for hiding pain concerns the room. Her pains \"would bring people down.\" She says nothing about looking weak.",
+      "reason": "Short, precise and specific to her own words. It is the discriminator an unfamiliar reader will remember."
+    },
+    {
+      "passage": "\"I love packing,\" she said. \"I hate unpacking.\" (Vanity Fair) It was a throwaway, and the Seven pattern in miniature: the pleasure is in the leaving.",
+      "reason": "A memorable, sourced closing image that earns the section title and lets the article end at its natural point without a CTA."
+    }
+  ],
+  "assessment": "For a reader who doesn't know Pugh, this works. The opening (imagined coffins, Little Women as 'the best therapy', then the Christmas depression told six years later) creates real curiosity. The type answer gives a plain question to test, and the Studio City, 'last person that I look after' and co-star-intervention passages are vivid and dated. Momentum is strongest through the first half. It sags in the roughly 1,500-word typing stretch, where the thesis formula is restated and the Don't Worry Darling paragraph assumes knowledge of a 2022 controversy it never states. The main clarity risk is that the thesis slides between deferred feeling and deferred public telling ('the cost arrived years later' contradicts the article's own six-month account). A newcomer learns a lot of specific, durable detail, and the counterevidence sections are honest. The ending, though, tidies one open anomaly. Risk flags: sensitive allegations (pending Cornell case, Don't Worry Darling feud reporting, an unnamed painful relationship) and contested typing (medium confidence, Type 8 and Type 2 both live, counterphobic Six floated), so the expanded jury is warranted. The similarity advisory did not trip (max 0.025 against the 0.04 threshold); top matches share only generic type vocabulary, and my direct read finds the argument and details specific to Pugh, so there is no reuse finding."
+}

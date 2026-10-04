@@ -1,0 +1,2342 @@
+{
+  "schema_version": 3,
+  "subject": "Florence-Pugh",
+  "status": "ready",
+  "research_tasks": [
+    "Before the edit stage keeps C76, listen to The Louis Theroux Podcast S6 E6 (released 2025-11-11) at roughly 00:50:25-00:52:40 to confirm 'that people pleaser thing... paddling for dear life' (machine transcript only, no print relay found) and whether she said 'upbeat' or 'good' for everybody else (S17 vs S58). The draft quotes the print wording and flags the machine-only sentence inline; drop C76 if the audio cannot be checked.",
+    "Confirmed in the draft stage: the Little Women/'shelved' passage (C08, C56) via Variety and TheWrap print transcriptions (S56, S61); the retakes passage (C23, C95-C97) via wire copy (S57); the core people-pleasing sentences (C09) via S58; 'make sure that I'm heard' (C98) via the official clip (S59). Audio for C08/C09/C23 was still not reviewed directly.",
+    "Before publication, recheck the Cornell matter (C91-C93; S20, S21): case status, any charges or dismissals, and whether the accused remain unnamed in mainstream coverage. Describe only Pugh's statements.",
+    "Strengthen the Type 2 versus Type 7 discriminator (C108, C110): look for how she reacts when her giving is unreciprocated, and long-form statements about what she needs from friends and partners. The draft's answer to 'why not Type 2?' rests on what she describes chasing (C10, C107) and is explicitly weaker.",
+    "The Instagram originals (2020 Braff video, 2022 Valentino caption, September 2026 Cornell posts) were not opened; the draft uses only clauses on which relays agree (C71, C72, C88, C93).",
+    "C04 and C65 come from one paywalled Telegraph interview (late October 2022) via Variety; the draft attributes them to The Telegraph via Variety.",
+    "At refresh after 2026-12-18: update relationship status (C40) and any further Gaza statements; East of Eden reception may be added only if it tests the argument. The hook and conclusion do not depend on current events.",
+    "Do not publish her younger sister Rafaela's profession, the identity of the unnamed partner (C29), or the abuse and self-injury details carried in the S58 and S60 relays."
+  ],
+  "accuracy_checked_at": "2026-10-04",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://en.wikipedia.org/wiki/Florence_Pugh",
+      "title": "Florence Pugh (Wikipedia article, read 2026-10-04)",
+      "speaker": "Wikipedia contributors",
+      "date": "2026-10-04",
+      "locator": "Lead; Early life; Career (Early roles; Breakthrough); Public image; Personal life and other work; Accolades",
+      "excerpt": "Florence Pugh was born on 3 January 1996 in Oxford to dancer Deborah and restaurateur Clinton Pugh. She has three siblings: actor and musician Toby Sebastian, actress Arabella Gibbins, and Rafaela \"Raffie\" Pugh. She suffered from tracheomalacia (a windpipe condition causing breathing problems) as a child, which led to frequent hospitalisations. The family relocated to Manilva in Spain when Pugh was three years old, hoping the warmer weather would improve her health. They lived there until she was six, when they moved back to Oxford. [...] Zach Braff's drama film A Good Person (2023), in which Pugh starred as a car crash survivor, marked her first producing venture. Instead of opting for a wig, Pugh cut off her own hair for the part. [...] She insisted on filming the scene where Belova jumps from the top of Merdeka 118 without using stunt doubles. Marvel Studios was initially reluctant to allow Pugh to perform the stunt due to insurance concerns, but after her persistent efforts, including discussions with Kevin Feige, she was permitted to perform the jump. [...] From 2019 to 2022, Pugh was in a relationship with American actor and filmmaker Zach Braff. [...] She has been dating the British actor Finn Cole since 2024. Pugh has polycystic ovary syndrome and endometriosis.",
+      "context": "Tertiary summary used only for biographical scaffolding (birth, family, filmography, accolades, release slate). Fetched as plaintext via the MediaWiki API on 2026-10-04. The DWD \"allegedly clashed with Wilde\" sentence is an allegation and must not be relied on. Lists Spider-Man: Brand New Day (2026) among her Yelena films and upcoming East of Eden, Avengers: Doomsday and Dune: Part Three. Not independent evidence of motive.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://variety.com/2022/film/news/florence-pugh-body-shamed-studio-execs-change-face-1235419750/",
+      "title": "Florence Pugh Felt Acting Was a 'Massive Mistake' After Execs Criticized Her Body at 19: They Tried to Change the 'Shape of My Face'",
+      "speaker": "Florence Pugh, quoted from an interview with The Telegraph; article by Zack Sharf (Variety)",
+      "date": "2022-11-01",
+      "locator": "Article body, paragraphs 2-6",
+      "excerpt": "“I felt very lucky and grateful, and couldn’t believe that I had got this top-of-the-game job,” [...] “All the things that they were trying to change about me – whether it was my weight, my look, the shape of my face, the shape of my eyebrows – that was so not what I wanted to do, or the industry I wanted to work in,” Pugh said. “I’d thought the film business would be like [my experience of making] ‘The Falling,’ but actually, this was what the top of the game looked like, and I felt I’d made a massive mistake.” [...] “That made me fall back in love with cinema – the kind of cinema that was a space where you could be opinionated, and loud, and I’ve stuck by that,” Pugh said. “I think it’s far too easy for people in this industry to push you left and right. And I was lucky enough to discover when I was 19 what kind of a performer I wanted to be.”",
+      "context": "Relay of a Telegraph interview given during The Wonder press (late October 2022). Telegraph original is not reachable from this environment and was not opened. The pilot was Fox's Studio City (rising pop star opposite Eric McCormack); Fox passed on it, she returned to England, and the Lady Macbeth audition came 'two weeks later'. Note she did not refuse the changes: the show died. The 'stuck by that' resolution is retrospective self-report from six to seven years later. S03 relays the same interview and is not independent.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.wmagazine.com/culture/florence-pugh-body-change-pressure",
+      "title": "Florence Pugh Was Pressured to Change Her Body at the Start of Her Career",
+      "speaker": "Florence Pugh, quoted from The Telegraph; article by Aimée Lutkin (W Magazine)",
+      "date": "2022-10-31",
+      "locator": "Final two paragraphs",
+      "excerpt": "“I guess all of my movies have that element of women being forced into a corner, forced into an opinion, forced into a way of life,” Pugh reflected. “And then finally, something cracks.... I love playing a distressed woman.” Probably because in real life, she’s a very confident one.",
+      "context": "Second relay of the same Telegraph interview as S02 (not independent). Preserves a passage Variety omits: her own summary of the roles she gravitates toward. The 'very confident one' line is the W writer's gloss, not Pugh's words.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://deadline.com/2019/12/florence-pugh-little-women-black-widow-midsommar-fighting-with-my-family-interview-1202799412/",
+      "title": "How To Hit A Grand Slam: Florence Pugh On Her Breakout Year (Deadline Q&A)",
+      "speaker": "Florence Pugh, interviewed by Anthony D’Alessandro (Deadline)",
+      "date": "2019-12-05",
+      "locator": "Intro paragraph; answers on Fighting with My Family, Midsommar (Dani) and Little Women",
+      "excerpt": "Ever since Lady Macbeth and Family, I’ve been going back-to-back for about four years now. [...] In all honesty, I was scared, because I’d never come close to any sort of grief like that in my entire life. I didn’t know what that looked like, I didn’t know what that sounded like, and in a film where that is heavily based around anxiety and grief, it would almost be rude to wing it. [...] I imagined every single member of my family in a coffin, which got all the noises that you see in the film out of me. I’m sure many actors would say that’s totally ridiculous, but unfortunately, I can’t cry on cue. So, I had to really just destroy myself for an entire three months, but I was happy with the work. [...] Coming off Midsommar, Amy March in Little Women was the best therapy for me. She was amazing. I got to prance around in petticoats, and essentially flirt with Timothée Chalamet every day, and then punch and wrestle with all the sisters. It was great.",
+      "context": "Awards-season Q&A at the end of her 2019 breakout year. The earliest and least hindsight-shaped account of the Midsommar method; predates her 2023-2025 'abuse' framing. Deadline's own narration says 'Pugh got Aster and Gerwig to work it out a schedule so that she could walk from one film to the next' (writer's words). Opened in full; verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://gulfnews.com/entertainment/hollywood/florence-pugh-brings-the-chills-in-horror-film-midsommar-1.64917847",
+      "title": "Florence Pugh brings the chills in horror film Midsommar (AP feature)",
+      "speaker": "Ari Aster (director) and Florence Pugh; Associated Press story carried by Gulf News",
+      "date": "2019-07-13",
+      "locator": "Body; Aster quote mid-article; Pugh quotes on the ending",
+      "excerpt": "“Florence is kind of supernaturally confident… She’s really not like Dani at all. Those meeker qualities are nowhere to be found in Florence’s personality.” [Aster] / “There was something about her insanity at the end that I knew I would enjoy, and I knew I needed to do.” / “To get it perfect, I knew, would be so exhilarating and the payoff would be a fantastic feeling — which it was.” [Pugh]",
+      "context": "Release-week press for Midsommar (US release July 2019). AP wire copy carried by Gulf News; no byline visible on the carrier page. Aster's testimony is promotional but specific. Opened by research sub-agent via curl; verbatim.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://variety.com/2023/film/news/florence-pugh-midsommar-abuse-1235569340/",
+      "title": "Florence Pugh Says She 'Most Definitely Abused' Herself for 'Midsommar' (relay of Off Menu podcast)",
+      "speaker": "Florence Pugh on the Off Menu podcast (hosts Ed Gamble, James Acaster); article by Zack Sharf (Variety)",
+      "date": "2023-03-30",
+      "locator": "Article body quoting Off Menu episode released 2023-03-29",
+      "excerpt": "“I’d never played someone that was in that much pain before, and I would put myself in really shitty situations that maybe other actors don’t need to do but I would just be imagining the worst things… Each day the content would be getting more weird and harder to do… I think by the end I probably, most definitely abused my own self in order to get that performance.” / “I remember looking [out the plane] and feeling immense guilt because I felt like I’d left [Dani] in that field in that [emotional] state.”",
+      "context": "First public 'abuse' framing, during A Good Person press, about four years after the shoot. Relay; the podcast audio was not reviewed. Comedy-podcast setting.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://collider.com/florence-pugh-a-good-person-dune-2-interview/",
+      "title": "Florence Pugh on A Good Person and Dune: Part Two (Collider interview)",
+      "speaker": "Florence Pugh, interviewed by Steve Weintraub (Collider)",
+      "date": "2023-03-23",
+      "locator": "Answer to 'which day were you dreading'; answer on cutting her hair on camera",
+      "excerpt": "Never. I thrive under pressure, and I love being put to the test, and I completely come alive when we are telling a story in a short amount of time… There’s nowhere to hide. [...] It was an idea I had… Zach was totally terrified… he was trying to give me so many outs… And I was like, ‘Nope, I’m so excited to do it.’",
+      "context": "Press junket Q&A for A Good Person, the first film she produced. Opened by research sub-agent; verbatim with elisions.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://collider.com/zach-braff-a-good-person-interview/",
+      "title": "Zach Braff on A Good Person (Collider interview)",
+      "speaker": "Zach Braff (writer-director of A Good Person; Pugh’s former partner)",
+      "date": "2023-03-24",
+      "locator": "Answer on the on-camera haircut scene",
+      "excerpt": "Florence was really involved in the development of the script, and she said, ‘I think it would be really powerful… if she’s cutting her hair off,’ and I said, ‘That’s like a production nightmare. It’s genius…’ And she just kept saying, ‘You’ll figure it out, you’ll figure it out.’… I was glad that she pushed us because we did figure it out.",
+      "context": "Named testimony but not independent: Braff and Pugh split in 2022 and the film was made during and after the relationship. Promotional context.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.youtube.com/watch?v=dnFZ0UlDQbk",
+      "title": "Happy Sad Confused with Josh Horowitz: Florence Pugh (video podcast)",
+      "speaker": "Florence Pugh, with host Josh Horowitz",
+      "date": "2023-03-23",
+      "locator": "YouTube auto-captions 0:00:57 (host relays David Harbour texts); 0:07:26; 0:29:36",
+      "excerpt": "[0:07:26] “I think I could definitely relax into this role a bit more even though the the subject matters so dark um it's weird that I even could say that” / [0:29:36] “they are the reason why you work back to back to back to back to back for so many years because you're trying to get to that stage where you can be in a room with these Legends” / [0:00:57, Horowitz reading David Harbour's texts] “she's one of the greats” … “Annoying in one so young”",
+      "context": "Auto-captions are unpunctuated; host questions are distinguishable. The 0:29:36 line is about working opposite veteran actors (Morgan Freeman in A Good Person). Harbour's words are second-hand (host reading texts). Opened via transcript by research sub-agent.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.youtube.com/watch?v=wBKwNBGUuwM",
+      "title": "Q with Tom Power (CBC): Florence Pugh on We Live in Time",
+      "speaker": "Florence Pugh, with host Tom Power",
+      "date": "2024-10-17",
+      "locator": "YouTube auto-captions 0:06:21-0:07:10; 0:12:40",
+      "excerpt": "[0:06:27] “not that I won't take on a role but the majority of my roles that I've taken on I've been terrified by [...] not that the movie is Scary or the script is scary but that what I have to do is like I've never done that before I don't know if I can I'm someone that I I just it's a I mean it's a bad trait what but I love I love it's very scary because one day it might it might I mean I just I like the idea of pushing myself to a space that I have no idea if I can do it and then I do it on a set with a camera that needs me to do it”",
+      "context": "Recorded at TIFF during We Live in Time press. Unlabeled auto-captions; the host's prompt ('you won't take on a role unless it makes you nervous') precedes her answer and she partially corrects it. Opened and timestamp-checked.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.youtube.com/watch?v=KLKLJQSjcOA",
+      "title": "SHE MD podcast (Dear Media) with Dr. Thaïs Aliabadi: Florence Pugh",
+      "speaker": "Florence Pugh, with Dr. Thaïs Aliabadi",
+      "date": "2024-11-19",
+      "locator": "YouTube auto-captions 0:04:16; 0:04:58; 0:06:14; 0:10:35; 0:23:37",
+      "excerpt": "[0:04:58] “I just had this sudden feeling that I should go and get everything checked like I'd had a few weird dreams I think my body was telling me… she asked if I'd ever had an egg count and I was like no what do you mean I'm So Young” / [0:06:14] “age 27 that I need to get my eggs out and do it quickly” / [0:10:35] “I just thought that that was part of being a woman and also living a maybe slightly stressful life” / [0:04:16] “two or three of my friends have gone to go and get checked because of my findings” / [0:23:37] “the conversation isn't loud enough… it should be really common to talk about stuff like this”",
+      "context": "Where she disclosed PCOS, endometriosis and egg freezing. The host is her doctor. Auto-captions; speaker attribution is clear for these first-person lines.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://abcnews.com/GMA/Culture/andrew-garfield-chemistry-florence-pugh-we-live-in-time/story?id=114681453",
+      "title": "Andrew Garfield on his chemistry with Florence Pugh in We Live in Time (ABC News / Good Morning America)",
+      "speaker": "Andrew Garfield (co-star)",
+      "date": "2024-10-10",
+      "locator": "Article body quoting GMA interview",
+      "excerpt": "“Safe is the word… safe to fail, safe to look foolish and safe to have all of your nooks and crannies seen… I understood very, very quickly within rehearsals… that I was very, very safe with Florence.”",
+      "context": "Co-star testimony during the film's promotion; promotional incentive applies.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.youtube.com/watch?v=7vyExn--DtA",
+      "title": "Reign with Josh Smith (Josh Smith's Great Chat Show) ep. 128: Florence Pugh",
+      "speaker": "Florence Pugh, with host Josh Smith",
+      "date": "2025-01-02",
+      "locator": "YouTube auto-captions 0:06:17-0:07:05; 0:08:43-0:09:07; 0:10:13-0:10:51; 0:15:29; 0:16:06-0:16:42",
+      "excerpt": "[0:06:42] “when we finished there was um this emptiness naturally obviously and all of the lessons of this film kind of like washed over me and I I kind of I I I definitely wanted to wake up to my own decisions and I didn't want to push things anymore” / [0:10:30] “I definitely acknowledge that there's uh this drive in me which is great and I'm so grateful that I have it also means that I don't uh I don't smell the roses as much as I should which is something my dad always tells me” / [0:08:49] “if I couldn't have shaved my head I wouldn't have accepted this movie” / [0:15:29] “protecting myself is something that I've I've had to learn how to do… when I did midamar [Midsommar]… I definitely felt like I abused myself… I can't do that again because that was too much but… I'm really proud of what I did… so I don't regret it”",
+      "context": "Published 2025-01-02 (Apple lists 2024-12-31); recorded around We Live in Time press (autumn 2024). Auto-captions, verified against saved transcript; 'emptiness' refers to finishing We Live in Time.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.harpersbazaar.com/uk/culture/culture-news/a64455983/florence-pugh-cover-interview-thunderbolts/",
+      "title": "Florence Pugh: Harper's Bazaar UK cover interview (Thunderbolts*)",
+      "speaker": "Florence Pugh, interviewed by Marie-Claire Chappet (Harper’s Bazaar UK)",
+      "date": "2025-04-14",
+      "locator": "Sections on work-life cost and We Live in Time; East of Eden and Cathy Ames; social media and activism; egg freezing",
+      "excerpt": "“I’ve worked back-to-back since I started, and I’ve missed so much,” she says, listing family events, birthdays, barbecues with friends. “I’ve now come to terms with things that I don’t like about myself and want to change. I don’t want to have things just happen to me any more.” [...] “It was a scary break-up,” she says, “and I think that movie forced me to realise I can’t wait for people any more. I can’t accept this version of love. I have to help myself.” [...] “People keep on saying to me, ‘I read the book. She’s a terrible person.’ But I get really arsey about that,” she says. “I can explain all the awful things that she does. It’s my responsibility to understand the character, because they can’t defend themselves.” [...] “I remember reading the scripts and thinking, ‘She wants to give me this power?’” [...] “I got to do a stunt that has never been done before. I give so much of my body to what I do”",
+      "context": "Cover profile in the Thunderbolts* release window. The 'scary break-up' is a relationship after Braff that 'ended as the film began shooting' (partner unnamed; she 'won't be drawn'). Also contains 'tiring and horrible' (egg freezing), 'I wish there was a little more tenderness and understanding' (clickbait comments), and her stated wish to move 'beyond armchair activism'. Opened directly and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.whowhatwear.com/fashion/cover-features/florence-pugh",
+      "title": "Florence Pugh Talks Thunderbolts*, Social Media, and What’s Next (Who What Wear cover)",
+      "speaker": "Florence Pugh, interviewed by Alessandra Codinha (Who What Wear)",
+      "date": "2025-05-01",
+      "locator": "Stunt section; role-selection section; rest/holiday section",
+      "excerpt": "“I could persuade myself to do that. I could fall down the mountain. I was like, ‘ That’s not a good trick to have. Oops.’ … I can basically pretend to myself not to listen to my instincts.” [...] “I feel like I’ve always had a good understanding of what makes me tick,” she says now about how she selects her roles. “In my mind, I definitely have a clock of understanding what I know I still have to show and when I want to show it. So I know of things and characters and ways that I want to perform for like the next 10 to 15 years.” [...] (“I’ve always gone back-to-back-to-back, and I was like, ‘something fudged in the schedule—I’ve got to go away now ’”) [...] “I always say this, but it never happens,” she says. “It’s tricky; I’m a Capricorn. I work hard—if we believe in that. I mean, it tracks. I like working, and I think I just need to find a better relationship with also appreciating that I am a better person after I’ve rested. I’m a kinder friend. I’m a kinder lover. I’m a kinder sibling.”",
+      "context": "Cover feature, Thunderbolts* release week. The three-week Sri Lanka holiday is described as her first ever at that length. Jump counts and heights in the piece are the writer's paraphrase. Opened directly and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://variety.com/2025/film/features/florence-pugh-thunderbolts-interview-1236385097/",
+      "title": "Florence Pugh on Thunderbolts* (Variety Q&A)",
+      "speaker": "Florence Pugh, interviewed by Angelique Jackson (Variety)",
+      "date": "2025-05-03",
+      "locator": "Answers on the Natasha storyline, grief and the Merdeka 118 stunt",
+      "excerpt": "“It wasn’t there on the page… In the original script, there wasn’t anything to do with Natasha… that was just something that David and I were so adamant about.” / “Grief is a painful, embarrassing and horrible hole that you get stuck in.” / “I wanted to do that stunt because I knew that it meant that we all got to do it.”",
+      "context": "Release-weekend Q&A. 'David' is David Harbour. Opened by research sub-agent; verbatim with elisions.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://podscripts.co/podcasts/the-louis-theroux-podcast/s6-ep6-florence-pugh-discusses-intimacy-coordinators-jumping-off-buildings-and-getting-into-character",
+      "title": "The Louis Theroux Podcast S6 E6: Florence Pugh (machine transcript)",
+      "speaker": "Florence Pugh, in conversation with Louis Theroux",
+      "date": "2025-11-11",
+      "locator": "Transcript timestamps 00:09:14-00:12:45 (arguing with directors; crying-scene retakes); 00:17:00-00:20:10 (Midsommar, Little Women, depression); 00:36:22-00:36:59 (being heard); 00:46:06-00:49:30 (privacy, Braff); 00:50:25-00:52:40 (past relationship, people-pleasing)",
+      "excerpt": "“sometimes at the beginning of my career, I hadn't quite figured out the relationship between director and actor yet, and I found myself arguing a lot. I mean, it's something that I still do in a softer way now [...] I just always felt so protective of the character that I was playing” / “women on set um it's a bit stickier you can't really be a problem because people will say that you're a nightmare [...] and when I'm in that state I kind of I'm a bit mushy so I'm like okay we'll do it again And my co-star went up to the director and said, don't do that, man. [...] I wouldn't have been able to have said that because that wouldn't have been received well.” / “Little Women was such a fun experience [...] so I think shelled all of that and then when I got home for Christmas I was so depressed I was like oh I think that's from Midsama and I didn't deal with it” / “I think when you're such a when you're such a bubbly person and you fill in a lot of energy for other people it's definitely I'm definitely the last person that I look after [...] I needed to be upbeat for everybody else and my issues, my worries, my pains weren't worthy of being spoken about. They weren't necessary to speak about because it would bring people down and we don't want that. [...] it's that people pleaser thing where you just try and keep things afloat without anybody else knowing that you're paddling for dear life.” / “I stood up for it and I stood up for him and I stood up for me just being allowed to do whatever the fuck I wanted to do [...] the one thing I can do is stop talking about that part of my life.”",
+      "context": "Long-form, unhurried conversation (about an hour), the most reflective source in the record. Machine transcript without speaker labels; the quoted lines are first-person answers and two segments were cross-checked against official YouTube clips by a research sub-agent. Do NOT attribute the ambiguous 'would you ever say no... no way can't do that' exchange near 00:11:11 to her. 'Shelled' is the transcript's rendering (likely 'shelved'). The people-pleasing passage follows her account of an unnamed past relationship that was 'causing you pain'; do not identify the partner. Opened and spot-verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.vanityfair.com/story/cover-story-florence-pugh",
+      "title": "On the Eve of East of Eden, Florence Pugh Talks About Her Year of Rest and Relaxation (Vanity Fair cover story, October 2026 issue)",
+      "speaker": "Florence Pugh, interviewed by Hillary Busis; with testimony from Zoe Kazan, Denis Villeneuve, Ari Aster, Ashley Park, Andrew Garfield, David Harbour",
+      "date": "2026-09-25",
+      "locator": "Full text; sections on Cathy Ames; Midsommar and protecting her space; siblings; Venice/Don’t Worry Darling; Finn Cole; social media; Gaza; producing and sets; lateness and rest",
+      "excerpt": "“I don’t know how to play characters without sympathizing with them. And I think I’ve tried to do my best after Midsommar to be fair to myself and also to be fair to the character,” she says. “I’ve learned over the years to know when enough is enough, when I’ve abused my state of mind or put my body through things that I shouldn’t. I now know how to protect my space.” [...] “I don’t like messy sets,” she says. “I want people to come to work and work, and enjoy that it’s a luxury to do this. When moods change on set, it’s because someone is preventing that from happening, and that’s what makes people feel like they haven’t been cared for.” [...] “I know that everybody in this industry has rises and falls. I’m not an idiot,” [...] “I wasn’t healthy, I wasn’t happy,” she says. “And I remember at the end of the year going, ‘Eww. I really want to change that. That’s not me.’” [...] “You don’t like that behavior? Change it now before it becomes comfortable.” [...] “I love packing,” she says. “I hate unpacking.” [...] “I don’t want to be a secret, but I also don’t want everything to be divulged,” [...] “But no, I was never scared of it”—even if she estimates she lost hundreds of thousands of followers for posting about the topic. [...] “I want to enter this decade and be like, We’re not gonna coast. We’re not gonna stay the same.” [...] “One of the things that I find most interesting about Florence is that she’s so lovely and warm and approachable and funny,” Kazan tells me. “And at the same time, she’s kind of all business on set. I walked away from our process not understanding any better than I did beforehand how she works.” [...] “There is something unapologetic about the way she inspires respect,” Denis Villeneuve, director of the Dune trilogy, says via email.",
+      "context": "Most recent long-form interview (conducted in London, July 2026, per research sub-agent; published online 2026-09-25 for the October 2026 'New Establishment' issue). Also contains: 'Oh, no. I feel like there's so much stuff we've covered...' when asked about Don't Worry Darling; asked how she met Finn Cole: 'No.'; 'I don't have that tic anymore. I guess maybe I'm not addicted to it anymore'; Ashley Park: 'She's a great chef, she's a great host, she's a great designer, she's a great planner. She has a confidence that's not egotistical'; Harbour: 'She gave me a lava lamp?'; on Cathy: 'I thought it was the most beautiful love letter to protecting her as a child. When I read that, I was like, ‘I can get behind her.’'; 'Emma Thomas, Amy Pascal. I gravitate toward women that command space.' The 'doesn't care about being adored by strangers' and 'control the narrative... without coming off as controlling' lines are the writer's interpretation. Opened directly in full via curl and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.hollywoodreporter.com/tv/tv-features/florence-pugh-east-of-eden-zoe-kazan-boosted-confidence-1236721680/",
+      "title": "Florence Pugh on How Zoe Kazan 'East of Eden' Collaboration Helped Boost Her Confidence",
+      "speaker": "Zoe Kazan (creator, East of Eden) and Florence Pugh; article by Hilary Lewis (The Hollywood Reporter)",
+      "date": "2026-10-03",
+      "locator": "Article body: Kazan premiere quotes; Pugh red-carpet quotes; Pugh Instagram excerpt",
+      "excerpt": "“I didn’t have a backup,” Kazan previously told Netflix. [...] “The way that Cathy Ames is described in the book is kind of doll-like but with something icy or steely underneath,” Kazan told The Hollywood Reporter [...] “And I felt in Florence this mix of a very feminine presentation with, in a Jungian sense not in a gender sense, of masculinity to her soul. That she had a lot of raw emotion and agency and action, which is very Cathy to me.” [...] Pugh also serves as an executive producer on East of Eden, taking on a central role in the creation of the series since she was brought on in 2020. [...] “At that time in my career and in my life, I was being given an opportunity that was a massive moment for me to step up and to lead in a different way. Those moments in people’s careers are the beginning of feeling truly confident about yourself. This project has meant a lot to me.”",
+      "context": "New York premiere coverage (premiere held 2026-09-30). Kazan is a collaborator with a promotional interest. Opened directly and verified verbatim.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://variety.com/2026/tv/news/florence-pugh-cornell-7-instagram-posts-censored-sexual-assault-1236893808/",
+      "title": "Florence Pugh Says 'Instagram Censored Me' Over Cornell 7 Posts Addressing Sexual Assault Case",
+      "speaker": "Florence Pugh on The View; article by Zack Sharf (Variety)",
+      "date": "2026-09-30",
+      "locator": "Article body: Sara Haines question and Pugh answers; quoted Instagram posts",
+      "excerpt": "“Rape is something that lives. The fear of it lives in our bodies, and when stories like this come out and it’s really not picked up in the way that you hope it’s picked up, it makes me feel scared, it makes me feel anxious, it made me feel so much rage,” Pugh answered. “I’m lucky enough to do what I do and I have a platform and I wanted to talk about it.” [...] “I’m able to come here and talk about it in real life, even though, sadly, Instagram censored me when I said it, which is also just another shock that women are censored, even when they go through these things, they can’t talk about it,” [...] Pugh added her in second post: “Instagram decided to block my post from getting in front of the right people. Tut tut tut. Oh dear. That doesn’t look great does it? Here’s another go at it in case you were one of those people that can no longer see my post.”",
+      "context": "East of Eden press stop on ABC's The View. SENSITIVE: concerns pending allegations against seven Cornell students; Haines notes 'The case is still pending, and some of the accused have denied any wrongdoing.' Pugh's posts are her opinion on allegations. Instagram originals not opened (login wall). Published 2026-09-30T21:07Z; opened directly and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.vanityfair.com/story/florence-pugh-cornell-seven-rape",
+      "title": "Florence Pugh on Cornell Rape Case: “It Sits in Us Daily, This Fear”",
+      "speaker": "Florence Pugh, interviewed by Chris Murphy (Vanity Fair)",
+      "date": "2026-09-30",
+      "locator": "Article body: quotes given at the Vanity Fair/Netflix East of Eden event",
+      "excerpt": "“I have no qualms with speaking about things that make me feel pissed off,” Pugh said Tuesday. “This is beyond that. This makes me feel enraged, as it should every person on this earth.” [...] “I don’t find it hard to talk about what doesn’t sit correctly in my body,” she said.",
+      "context": "SENSITIVE: describes pending allegations in detail; the case is ongoing and the accused have denied wrongdoing. Her first post went up on a Sunday (inferred 2026-09-27) after news of the lawsuit; Meta applied then removed a sensitive-content label. Opened by research sub-agent and spot-verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.vogue.com/article/florence-pugh-cover-february-2020",
+      "title": "Florence Pugh (Vogue US cover story, February 2020)",
+      "speaker": "Florence Pugh, profiled by Gaby Wood; testimony from Cate Shortland, Ari Aster",
+      "date": "2020-01-09",
+      "locator": "Profile body: family and childhood; Shortland and Aster quotes",
+      "excerpt": "“I’ve always been a very loud personality… when I was younger I would always wear the brightest thing. I loved painting my face.” / “We’re a big eating family.” / “It’s all big and loving and homey.” / “I like feeling raw. I like feeling naked. Anytime an opportunity of me being perfect onscreen comes up, I panic.” / Cate Shortland: “She is bloody scary. Steely. Absolutely will not back down. She has a healthy amount of anger in her as a person, at the injustices she sees around her.” / Aster: “her gut is so extremely trustworthy.”",
+      "context": "Oscar-campaign-era cover. Shortland directed Black Widow (shot 2019) and is describing Pugh doing most of her own stunts. The writer notes 'Pugh grew up in a family of hosts' (restaurateur father, grandfather who ran a pub) and that the raw/naked line refers to what Lady Macbeth taught her about the actor she wanted to be. Names her maternal grandmother 'Granzo Pat'. Opened directly and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.thewrap.com/florence-pugh-little-women-midsommar-paige-wwe-fighting-with-family/",
+      "title": "Florence Pugh on her breakout year (TheWrap)",
+      "speaker": "Florence Pugh; testimony from Greta Gerwig and Ari Aster (TheWrap)",
+      "date": "2019-12-25",
+      "locator": "Body: Little Women answers; Gerwig and Aster quotes",
+      "excerpt": "“playing and cuddling everyone on the set. It was actually the perfect way to balance who I was two weeks previous.” [...] “I’m already a bit of a big mouth. I already love telling people what’s what. To play Amy was just a joy because I could just let loose and be this very headstrong woman.” [...] “She’s wildly, outlandishly talented and fascinating to watch and totally unafraid as an actor,” Gerwig said. “There is something about her that can’t be knocked down or overtaken, and that’s incredibly telling in a young woman.” [...] “She’s something extraordinarily rare: a true natural.” [Aster]",
+      "context": "Awards-season feature. 'Two weeks previous' refers to the end of the Midsommar shoot (she gives 'three days' as the gap elsewhere, S17). Opened directly and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.harpersbazaar.com/culture/film-tv/a40772062/florence-pugh-dont-worry-darling-interview/",
+      "title": "Florence Pugh Is Just Being Honest (Harper’s Bazaar US cover, September 2022)",
+      "speaker": "Florence Pugh, interviewed by Andrea Cuttler; testimony from Scarlett Johansson",
+      "date": "2022-08-16",
+      "locator": "Opening (Valentino dress); Don’t Worry Darling section; Braff section; Johansson quotes",
+      "excerpt": "After she tried on the dress, Pugh and designer Pierpaolo Piccioli decided to remove the lining [...] “I was comfortable with my small breasts,” [...] “And showing them like that—it aggravated [people] that I was comfortable.” [...] “They were so angry that I was confident, and they wanted to let me know that they would never wank over me. Well, don’t.” [...] “I feel like I am now getting into this groove in my career where I know what I can take, what I can give, and what I will not accept anymore.” [...] “Part of the reason we all do this is because we run away with the circus,” she says. “I think that one of the pulls for me is that I get to see places, see people, befriend people, fall in love with people, and then move on and do it again.” [...] “I don’t think that people, just because they have this job, that every aspect of their life should be watched and written about. We haven’t signed up for a reality TV show.” [...] “We just felt something like this would really do us the benefit of not having millions of people telling us how happy they are that we’re not together. So we’ve done that. I automatically get a lumpy throat when I talk about it.” [...] Johansson: “I still was growing up in the industry in that time when you had to be really pandering in order to be accepted. And she doesn’t have any of that at all. She’s unapologetically herself. There’s a reliability to her.”",
+      "context": "Cover interview published before the Venice premiere of Don't Worry Darling; first public confirmation of the Braff breakup. Also: 'When it's reduced to your sex scenes, or to watch the most famous man in the world go down on someone, it's not why we do it. It's not why I'm in this industry.' The 'no-BS fiery candor' framing is the writer's. Body text renders one quote as 'I'm knowing what I can take, what I give'; the pull quote differs (use the body text or flag). Opened and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.vogue.com/article/florence-pugh-winter-cover-2023-interview",
+      "title": "Florence Pugh’s Radical Self-Acceptance (Vogue US Winter 2023 cover)",
+      "speaker": "Florence Pugh, profiled by Chloe Schama; testimony from Zach Braff, Sebastián Lelio, Scarlett Johansson",
+      "date": "2023-01-12",
+      "locator": "Profile body: siblings, childhood illness, school friends; testimony section",
+      "excerpt": "“My siblings are just as big in my life as my parents… it’s so important to have people who are gonna say, ‘Hey, I know you didn’t mean it, but you were being a bit of a muppet.’” / On her youngest sister: “She was as much my baby as she was my mum’s.” / “We were very loud and very dramatic.” / On her childhood illness: “I never want this to be a sob story,” she tells me, “because it’s never been a story in my life.” / “So many of the things that I did were quick fixes,” she says. “Things were so wrong in my head and things were so wrong with school life and things were so dark and scary. And so I would try and do quick things like, Oh, well, I can change my nails. Oh, I can buy an eyelash kit. I can buy this weird cellulite cream on Amazon.” / Lelio: “Florence had that way of uniting everyone and uplifting the set.” / Braff: “She’s just magnetic. You cannot take your eyes off of her.”",
+      "context": "Cover profile around The Wonder and A Good Person. The family moved to southern Spain 'partly for the adventure, partly for the weather'. The teenage 'quick fixes' passage is her explanation of where the A Good Person haircut idea came from (her own 'on-and-off experience as a teenager experiencing both routine and occasionally acute mental distress', writer's paraphrase). Braff's testimony is not independent (former partner). Opened directly and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.vogue.com/article/cooking-with-florence-pugh",
+      "title": "Cooking With Florence Pugh (Vogue video write-up)",
+      "speaker": "Florence Pugh; write-up by Elise Taylor (Vogue)",
+      "date": "2023-01-12",
+      "locator": "Write-up quoting the video",
+      "excerpt": "“I’ve played, throughout my entire career, very intense characters… When I get home, I really need to get back to my usual self—so I will always cook myself dinner.” / “I always like making a few mistakes because, to me, that’s where the best food comes from.”",
+      "context": "Companion piece to S25. Opened by research sub-agent.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.ibtimes.com/we-have-little-women-star-florence-pughs-father-thank-her-cooking-tutorials-2950336",
+      "title": "We Have 'Little Women' Star Florence Pugh's Father To Thank For Her Cooking Tutorials",
+      "speaker": "Florence Pugh, transcribed from her Instagram Story; article by Andria Moore (IBTimes)",
+      "date": "2020-03-31",
+      "locator": "Article body transcribing the first Story",
+      "excerpt": "“My dad called me yesterday and said, ‘Why aren’t you dancing and why aren’t you cooking?’ ... So this morning I woke up and I danced and I felt better and now I’m going to cook.” / “we have to do things that keep us happy, keep us bubbly and keep moving basically... Get all of the weird horrid anxiety out of your system.”",
+      "context": "Secondary transcription of the Instagram Story that began 'Cooking with Flo' during the March 2020 lockdown (she was in Los Angeles, per S24). The Story itself has expired and was not opened. Opened by research sub-agent.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.vogue.co.uk/article/florence-pugh-british-vogue-interview",
+      "title": "Florence Pugh (British Vogue cover, October 2024)",
+      "speaker": "Florence Pugh, interviewed by Raven Smith (British Vogue)",
+      "date": "2024-09-18",
+      "locator": "Sections on her relationship; friends since 13; body and the internet; Don’t Worry Darling/Braff; head shave; London",
+      "excerpt": "“I am someone that loves falling in love. I love looking after people. I love caring for people. I love the feeling of someone being there. [...] I’m trying to make sure that I’m making all the right decisions so that I can have the thing that I want… which is safety, family, a home and security.” [...] “I think for the first time, I’m not allowing myself to go on a roller-coaster. I’m allowing myself to take time to let something evolve and let it be completely real to its core, as opposed to racing into that.” [...] “Falling is the most amazing feeling,” she says, nodding, “but unfortunately if that’s the only thing that you know in a relationship, then that’s the thing that you chase. That’s not gonna last.” [...] For Pugh, the most important thing is “that I’m a good person and people feel good in my presence”. [...] “I’ve never found it a challenge to be acting in pain,” [...] “I sometimes prefer it. [...] I feel like it’s my duty to play human and ugly” [...] “[The internet’s] a very mean place. It’s really painful to read people being nasty about my confidence or nasty about my weight. It never feels good.” [...] “I don’t think it’s confidence in hoping people like me. I think it’s just, like, I don’t want to be anyone else.” [...] “I had to be public in the past because people were bullying me and bullying my partner.” [...] “I think for anyone I’m with, I want to protect them.”",
+      "context": "Cover interview for We Live in Time. Also: on Don't Worry Darling, 'I always think it's unfair to take the space away from the movie that I'm talking about. So I'm going to politely move away from that.'; 'I don't want to be someone that no one else likes outside of this industry'; 'I don't think I'm a city girl'; 'There's no insecurities about what I am anymore.' Opened and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.nylon.com/florence-pugh-zach-braff-birthday",
+      "title": "Florence Pugh Responds To Instagram Backlash Over Zach Braff Birthday Post",
+      "speaker": "Florence Pugh (Instagram video and caption); article by Maria Bobila (Nylon)",
+      "date": "2020-04-08",
+      "locator": "Paragraphs 1-4",
+      "excerpt": "“My relationship with Instagram,” wrote Pugh in her post’s caption. “In true Flo fashion, wearing spot stickers and all. To those of you that this video applies to - please listen. Please learn. Being hateful is not trendy.” “The world is aching and the world is dying and a few of you decided to bully for no reason,” said Pugh. [...] “I am 24 years old. I do not need you to tell me who I should and should not love, and I would not ever in my life ever, ever tell anyone who they can and cannot love. It is not your place and really it has nothing to do with you,” she said. “So if those rules are something that you do not like, then please unfollow me because the abuse that you throw at him is abuse that you throw at me, and I don't want those followers.”",
+      "context": "Relay of her Instagram video posted two days after a birthday post for Braff drew abuse (posted 2020-04-06; response 2020-04-08). Relays differ on the wording of the 'never in my life' clause (Nylon vs Refinery29 vs People); check the original video before quoting that clause. Original Instagram not opened (login wall).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.refinery29.com/en-us/2020/04/9670576/florence-pugh-zach-braff-instagram-haters",
+      "title": "Florence Pugh Claps Back At Zach Braff Relationship Haters (Refinery29)",
+      "speaker": "Florence Pugh (Instagram video); article by Kaitlin Reilly (Refinery29)",
+      "date": "2020-04-08",
+      "locator": "Paragraph 6",
+      "excerpt": "“I have never been an Instagram page that encourages [bullying.] I have never been an Instagram page that likes that toxic vibe...I will not allow that behavior on my page. I am not about that. It makes me upset. It makes me sad, that during this time, when all really need to be together, we need to be supporting one another, we need to be loving one another. The world is aching and the world is dying, and a few of you decided to bully.”",
+      "context": "Second relay of the same video as S29 (not independent). Useful for the emotional register ('It makes me upset. It makes me sad'). Notes she turned off commenting on the birthday post. A BuzzFeed relay (2024-09-18) quotes her: 'It is the first time in my entire Instagram life that I've had to turn off the comments on my page.' Opened directly and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://abcnews.com/GMA/Culture/ashamed-florence-pugh-apologizes-past-cultural-appropriation/story?id=71530085",
+      "title": "'I am ashamed': Oscar nominee apologizes for past cultural appropriation (ABC News)",
+      "speaker": "Florence Pugh (Instagram post); article by Stephen Iervolino (ABC News)",
+      "date": "2020-06-30",
+      "locator": "Article body quoting the post",
+      "excerpt": "“I braided my hair and painted a beanie with the Jamaican flag colours and went to a friend's house, proud of my Rastafarian creation... I am ashamed of so many things in those few sentences.” [...] “I cannot dismiss the actions I bought into years ago, but I believe that we who were blind to such things must acknowledge them and recognize them as our faults, our ignorance and our white privilege and I apologize profusely that it took this long,” she wrote.",
+      "context": "Post made around 2020-06-27 after a follower flagged a photo of her at 17. Shows her apology register, distinct from her defiance register. Opened and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S32",
+      "url": "https://www.today.com/style/style/florence-pugh-see-through-sheer-gown-rcna37548",
+      "title": "Florence Pugh slams criticism of see-through Valentino gown (TODAY)",
+      "speaker": "Florence Pugh (Instagram caption); article by Francesca Gariano (TODAY)",
+      "date": "2022-07-11",
+      "locator": "Caption quoted across paragraphs 4-9 (expletives censored by TODAY)",
+      "excerpt": "“Listen, I knew when I wore that incredible Valentino dress that there was no way there wouldn’t be a commentary on it. Whether it be negative or positive, we all knew what we were doing,” she wrote. “I was excited to wear it, not a wink of me was nervous. I wasn’t before, during or even now after.” [...] “What’s been interesting to watch and witness is just how easy it is for men to totally destroy a woman’s body, publicly, proudly, for everyone to see. [...] I’ve lived in my body for a long time. I’m fully aware of my breast size and am not scared of it.” [...] “Why are you so scared of breasts? Small? Large? Left? Right? Only one? Maybe none? What. Is. So. Terrifying.” [...] “We were raised to find power in the creases of our body. To be loud about being comfortable.” “It has always been my mission in this industry to say ‘f—k it and f—k that’ whenever anyone expects my body to morph into an opinion of what’s hot or sexually attractive.”",
+      "context": "Valentino couture show, Rome, 2022-07-08; her response caption followed on 2022-07-10 (article date approximate to publication; research sub-agent read 2022-07-10/11). PAPER and WWD carry matching uncensored wording. Original Instagram not opened. Opened and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S33",
+      "url": "https://au.variety.com/2022/film/global/olivia-wilde-florence-pugh-dont-worry-darling-venice-5618",
+      "title": "Olivia Wilde Dodges Question About Feud With 'Don't Worry Darling' Star Florence Pugh",
+      "speaker": "Olivia Wilde (director), at the Venice press conference; article by Manori Ravindran (Variety)",
+      "date": "2022-09-05",
+      "locator": "Paragraphs 2-4",
+      "excerpt": "“Florence is a force. We are so grateful she’s able to make it tonight [for the red carpet] despite being in production on ‘Dune’... I can’t say how honored I am to have her as our lead. She’s amazing. As for all the endless tabloid gossip and all the noise out there, the Internet feeds itself. I don’t feel the need to contribute; I think it’s sufficiently well-nourished.”",
+      "context": "Venice Film Festival press conference, 2022-09-05. The festival said Pugh's flight from Budapest (Dune: Part Two shoot) landed after the press conference; Variety noted Timothée Chalamet, from the same production, attended Venice. Pugh walked the red carpet that evening. SENSITIVE: surrounding 'feud' coverage rests on anonymous sourcing. Opened by research sub-agent.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S34",
+      "url": "https://deadline.com/2022/10/olivia-wilde-florence-pugh-media-pits-women-against-one-another-1235144343/",
+      "title": "Olivia Wilde on Florence Pugh and media pitting women against each other (Deadline relay of Elle US)",
+      "speaker": "Olivia Wilde (Elle US interview; leaked 2020 video message to Shia LaBeouf)",
+      "date": "2022-10-13",
+      "locator": "Article body",
+      "excerpt": "“Florence had a really wise comment that we didn’t sign up for a reality show. And I love that she put it that way...” / [2020 video to LaBeouf, released 2022] “You know, I think this might be a bit of a wake-up call for Miss Flo... If she really commits, if she really puts her mind and heart into it at this point and if you guys can make peace — and I respect your point of view, I respect hers...”",
+      "context": "SENSITIVE/DISPUTED: Wilde says the 'Miss Flo' video was taken out of context; LaBeouf disputes being fired. Neither establishes what happened between Pugh and Wilde. Elle original not opened. Relay opened by research sub-agent.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S35",
+      "url": "https://variety.com/2026/film/news/olivia-wilde-florence-pugh-screaming-match-dont-worry-darling-1236789286/",
+      "title": "Olivia Wilde denies Don't Worry Darling 'screaming match' (Variety relay of The Cut)",
+      "speaker": "Olivia Wilde, interviewed by New York magazine’s The Cut; relayed by Variety",
+      "date": "2026-06-24",
+      "locator": "Article body",
+      "excerpt": "“I’ve never had a screaming match on my set. I was never not available on set. I wanted to be like, ‘None of this is true’... I was told, ‘Don’t say a fucking word. Just go out there and smile.’ I resent that, but it taught me it’s not the way I want to handle things.” / “I became the full-on villain. Like Cruella.”",
+      "context": "SENSITIVE/DISPUTED: responds to Vulture's September 2022 anonymous-source reporting of an on-set screaming match and Pugh's frustration with Wilde's absences; a statement signed by about 40 crew members also denied a screaming match. Pugh has never confirmed or denied any account. The Cut original not opened.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S36",
+      "url": "https://www.vanityfair.com/hollywood/2023/02/florence-pugh-hollywood-issue-2023",
+      "title": "Florence Pugh, Hollywood Issue 2023 (Vanity Fair Q&A)",
+      "speaker": "Florence Pugh, interviewed by David Canfield (Vanity Fair)",
+      "date": "2023-02-15",
+      "locator": "Final three Q&A answers",
+      "excerpt": "If my head and heart are hurting for no other reason other than just anxiety, I take it off my phone from the moment I can feel that anxiety. I don’t need to be reading all of that stuff, and I don’t need to be egging myself on to read it either. [...] I don’t really feel the need to go into the nitty-gritty details of Don’t Worry Darling. So if it’s okay, I’ll probably just let that one sit. [...] When I started out, my granddad would always tell me off and be like, “Why are you showing everyone your ugly spots?” He’d be really confused as to why I’d show my cellulite. My answer was like, “Well, I’d much rather do it than they do it, and then I feel ashamed.” There’s no pretending with me.",
+      "context": "Hollywood Issue Q&A during The Wonder awards season. Opened and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S37",
+      "url": "https://www.elle.com/uk/life-and-culture/culture/a44863369/florence-pugh-interview-elle-style-awards/",
+      "title": "Florence Pugh interviewed by Jodie Turner-Smith (ELLE UK, October 2023 issue)",
+      "speaker": "Florence Pugh, in conversation with Jodie Turner-Smith (ELLE UK)",
+      "date": "2023-08-29",
+      "locator": "Answer to the body-scrutiny question near the end",
+      "excerpt": "I speak the way I do about my body because I’m not trying to hide the cellulite on my thigh or the squidge in between my arm and my boob: I would much rather lay it all out. I think the scariest thing for me are the instances where people have been upset that I’ve shown ‘too much’ of myself. When everything went down with the Valentino pink dress a year ago, my nipples were on display through a piece of fabric, and it really wound people up. It’s the freedom that people are scared of; the fact I’m comfortable and happy. Keeping women down by commenting on their bodies has worked for a very long time.",
+      "context": "Interview conducted before the 2023 SAG-AFTRA strike. Opened and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S38",
+      "url": "https://www.brit.co/lewis-pullman-thunderbolts-interview/",
+      "title": "Lewis Pullman on Thunderbolts* (Brit + Co interview)",
+      "speaker": "Lewis Pullman (co-star)",
+      "date": "2025-05-09",
+      "locator": "Answer about working with Pugh",
+      "excerpt": "“she’s such a goof and is so capable of keeping it light and just being a clown, and then dropping into the most amazing performance ever.”",
+      "context": "Co-star testimony during Thunderbolts* promotion. Opened by research sub-agent.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S39",
+      "url": "https://www.cnn.com/2025/05/01/entertainment/florence-pugh-grandmother-thunderbolts",
+      "title": "Florence Pugh on her grandmother at premieres (CNN relay of Late Night with Seth Meyers)",
+      "speaker": "Florence Pugh (Late Night with Seth Meyers); CNN write-up",
+      "date": "2025-05-01",
+      "locator": "Article body",
+      "excerpt": "Pugh’s grandmother Pat Mackin appears to love the limelight just as much, according to the “Thunderbolts*” star, who said on Wednesday’s episode of “Late Night with Seth Meyers” that Mackin “absolutely loves it” and “laps it up” whenever she comes to her granddaughter’s premieres. [...] “She will turn around and curtsy and pirouette and blow kisses. It’s like she’s a queen.” Pugh added that her grandmother, who she referred to as Granny Pat, also came to visit her on the “Thunderbolts*” set",
+      "context": "Light-touch family detail. Grandmother is named 'Granzo Pat' (Vogue 2020), 'Gran' (2022-2023) and 'Granny Pat' (2025); no source uses 'Nana Pat'. Opened directly and verified verbatim.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S40",
+      "url": "https://enneagramuniverse.com/celebrities/florence-pugh",
+      "title": "Florence Pugh: Enneagram Type 8 Personality (Enneagram Universe)",
+      "speaker": "Enneagram Universe (unsigned typing page)",
+      "date": "unknown",
+      "locator": "Profile header and overview",
+      "excerpt": "Enneagram: Type 8 - \"The Challenger\" MBTI Personality: ISFP – \"The Adventurer\" [...] Bold, grounded, and fiercely independent, Florence radiates strength and authenticity. [...] Type 8: Florence Pugh exudes the confidence, independence, and assertiveness characteristic of an Enneagram 8.",
+      "context": "Low-quality fan typing page included only to document that her typing is contested: it lists her birthplace as the United States and swaps the Type 8 core fear and desire. Search snippets show other databases assigning 3w4 and 6w5 (not opened). The 9takes database stub for florence-pugh (created 2025-06-25, no content) carries type 7 and her portrait sits in static/types/7s; that label was never argued in an article.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S41",
+      "url": "https://www.hollywoodreporter.com/news/general-news/florence-pugh-palestine-support-hollywood-sympathy-1236710258/",
+      "title": "Florence Pugh Says She Was Not “Scared” to Show Support for Palestine (THR relay of Vanity Fair)",
+      "speaker": "Florence Pugh (Vanity Fair cover interview); article by McKinley Franklin (THR)",
+      "date": "2026-09-25",
+      "locator": "Article body",
+      "excerpt": "Last September, Pugh attended the Together for Palestine event, where she said onstage, “Silence in the face of such suffering is not neutrality, it is complicity, and empathy should not be this hard and it should have never been this hard.” [...] “It’s really horrible to be watching such pain when so much of our lives just seem to be moving forward. I think that’s what I’ve found so difficult about social media as well: How can I say I’m having a really good time when literally one scroll up, I’m looking at a baby that’s motherless and fatherless?”",
+      "context": "Relay of S18 (not independent) used for the September 2025 Together for Palestine (OVO Arena Wembley, London) onstage quote, which THR reproduces. Opened directly and verified verbatim.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S42",
+      "url": "https://www.buzzfeed.com/ellendurney/florence-pugh-recalled-zach-braff-age-gap-criticism",
+      "title": "Florence Pugh recalled the Zach Braff age-gap criticism (BuzzFeed)",
+      "speaker": "Florence Pugh (2020 Instagram video, quoted); article by Ellen Durney (BuzzFeed)",
+      "date": "2024-09-18",
+      "locator": "Item on the April 2020 Instagram video",
+      "excerpt": "“Within about eight minutes of the photo being posted, I had about 70 percent of the comments hurling abuse and being horrid — basically bullying someone on my page,” she said in the clip. “It is the first time in my entire Instagram life that I’ve had to turn off the comments on my page.” She continued: “I am 24 years old. I do not need you to tell me who I should and should not love, and I would never in my life tell anyone who they can and cannot love. It is not your place.”",
+      "context": "Third relay of the 2020 video (not independent of S29/S30), published alongside the British Vogue 2024 interview. Shows relay variance in the 'never in my life' clause. Opened directly and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S43",
+      "url": "https://www.bbc.co.uk/programmes/m0010fl4",
+      "title": "This Cultural Life (BBC Radio 4): Florence Pugh, with John Wilson",
+      "speaker": "Florence Pugh, interviewed by John Wilson",
+      "date": "2022-10-29",
+      "locator": "Episode audio (BBC podcast feed, vpid p0db7n4h), locally transcribed with Whisper; approx. 00:06:03-00:07:45 (school nativity, performing), 00:07:27 (addictive), 00:09:45 (not sending the Falling tape), 00:19:14 (back to school), 00:34:52-00:35:45 (Studio City), 00:38:29 (music at 14)",
+      "excerpt": "“I remember telling my mum this and my mum reminds me that at a young age, I said to my mum, I love the power of how everybody is silent waiting for my next line. And whatever age or six, seven, eight, I love being on stage and everybody looking at me, waiting to see what it was that I was going to say next. And that ability to keep everybody on the edge of their seat was something that was addictive to me. I loved it.” [Wilson: Psychologically, that's very revealing...] “Well, I mean, you could read it as like, oh, my God, she's so attention s[eeking]. But I think also what it really taps into is like the art of performing is keeping people hooked.” / “And so I didn't do it because I remember thinking I've been given this little lookie loo as to what the industry is actually like, and I'm not going to get my hopes up on something that isn't going to happen.” / “I only realized just how much I was not built for that. [...] when it didn't get picked up, I was like, oh, maybe the falling was a fluke.” / “I kept on pushing off and pushing off because I was, you know, 14 at the time. And I thought, I don't really want to do this very grown up thing right now. I want to be at school and I want to be a child.”",
+      "context": "Long-form career-retrospective radio interview, recorded during The Wonder press. Audio downloaded from the official BBC feed and transcribed locally with Whisper by a research sub-agent; quotes are machine-transcribed (Whisper rendered 'seeking' as 'sinking'; names garbled) and should be checked against audio before quoting. The 'lookie loo' passage concerns why she nearly did not send the Falling tape (her brother's experience of a 'cutthroat' industry); her mother prompted her on deadline day. Opened (audio) and spot-verified against the transcript.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S44",
+      "url": "https://www.theguardian.com/fashion/tvandradioblog/2018/oct/06/florence-pugh-lady-macbeth-king-lear-le-carre",
+      "title": "Florence Pugh: ‘You never see an unplucked brow in Hollywood’ (The Guardian Weekend)",
+      "speaker": "Florence Pugh, interviewed by Martha Hayes (The Guardian)",
+      "date": "2018-10-06",
+      "locator": "Sections on Spain, the nativity, The Falling set, school and Studio City",
+      "excerpt": "“It was the first time I knew the power of being on stage. I remember thinking, ‘Oh God, they’re waiting for me, they’re listening to everything I say and I have complete control.’ I still feel that now. How everyone is hanging on to your every word; how they are going to feel how you want them to feel.” [...] “Even though we moved out there for other reasons, looking back on it, I’m so happy I had that childhood – in and out of the sea naked, cycling down the road in my knickers, and bartering with the sweet shop owner,” [...] “We weren’t allowed to look at the monitor because we would be acting for vanity,” Pugh says. “And from then on, I’ve tried to keep that as part of how I work.” [...] “For a long time it was like, ‘I know these people [the school] don’t back me’, because they didn’t. When I wanted to do The Falling, I was told it wasn’t going to work, which was shocking to me, because [drama is] the only thing I’ve ever been good at.” [...] “if you go out not knowing what it is that you’re representing, and you are just a canvas, they will make you into the thing they need you to be.” [...] “I swore I would never go back [to LA] until I knew what it was I was representing.”",
+      "context": "Fashion-issue profile at the Little Drummer Girl/King Lear stage (age 22), the earliest long-form account of Studio City; the weight-loss detail is the journalist's gloss. The writer's narration says Lady Macbeth came 'two months later' (she says 'two weeks' elsewhere) and that the family moved to Spain 'for three years'. 'In other words, seeking an audience, even then' is the journalist's gloss. Opened and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S45",
+      "url": "https://www.theguardian.com/culture/2014/dec/28/rising-stars-2015-actor-florence-pugh",
+      "title": "Rising stars of 2015: actor Florence Pugh (The Observer)",
+      "speaker": "Florence Pugh, interviewed by Guy Lodge (The Observer)",
+      "date": "2014-12-28",
+      "locator": "Full profile",
+      "excerpt": "“Throughout my life, I’ve been that annoying kid on every stage at school, in every talent contest,” says Florence Pugh, mock grimacing into her skinny cappuccino. “That’s really sad, isn’t it?” [...] “I’ve been waiting for this my entire life,” [...] “I just happened upon the best possible start for my career. It’s a bit of a fluke.” [...] “I do like a bit of danger,” she admits. “Guns, cars, running, bullets. I’m up for it.”",
+      "context": "Earliest interview in the record (age 18, after The Falling). The writer says she 'initially hung back when Morley arrived at her boarding school for open auditions', which conflicts with other accounts of a leaflet/tape audition. Opened and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S46",
+      "url": "http://www.oxfordtimes.co.uk/leisure/focus/12909725.Florence_Pugh_goes_straight_from_A_levels_to_LA/",
+      "title": "Florence Pugh goes straight from A-levels to LA (Oxford Times)",
+      "speaker": "Florence Pugh, interviewed by Katherine MacAlister (Oxford Times)",
+      "date": "2015-04-23",
+      "locator": "Profile body",
+      "excerpt": "“I did a lot of drama at school. I was that annoying girl with her hand up for everything.” / “I’ve always wanted to do acting. I’ve never been good at anything else.” / “I’m more than happy to move to LA for my career.” / “We were treated like adults when we were filming, so to go back to being told what to eat and how to dress was very hard.” / “I’m not a glitzy person.”",
+      "context": "Local-paper interview during The Falling's release week, given after she shot the Studio City pilot and before Fox passed on it; useful as a contemporaneous check on her later, darker account of LA. Now served under Oxford Mail branding. Opened by research sub-agent; not re-verified line by line in this stage.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S47",
+      "url": "https://theartsdesk.com/film/theartsdesk-qa-special-falling",
+      "title": "theartsdesk Q&A Special: The Falling",
+      "speaker": "Carol Morley (writer-director) and Florence Pugh, interviewed by Kieron Tyler",
+      "date": "2015-04-22",
+      "locator": "Morley section; Pugh section, first answer",
+      "excerpt": "Morley: “She had never done anything before. She had sung from the age of eight with her guitar and had put her songs up on YouTube. The casting agent for the film had leafleted the Oxford area where we were filming and also e-mailed schools. Florence sent in a very short video and I quickly knew she was Abbie. She felt like she could connect with an audience.” / Pugh: “I always wanted to be an actor that takes roles seriously, so I really pushed forward for it in the audition because of the things Abbie has to do.”",
+      "context": "Director testimony from the release window of The Falling. Opened and verified verbatim.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S48",
+      "url": "https://i-d.co/article/florence-pugh-and-carol-morley-of-the-falling-discuss-mass-hysteria-and-maisie-williams/",
+      "title": "florence pugh and carol morley of ‘the falling’ discuss mass hysteria and maisie williams (i-D)",
+      "speaker": "Florence Pugh and Carol Morley (i-D)",
+      "date": "2015-04-24",
+      "locator": "Answer on the audition",
+      "excerpt": "“I had to go into the audition room to do a scene where I put my finger in Maisie’s character’s mouth. I told myself I needed to do anything to get the job so I did just that and when the scene was over, Carol and Maisie were like, ‘we didn’t think you were actually going to do it!’ It broke the ice straight away when I stuck my finger in Maisie’s mouth.”",
+      "context": "Release-window interview. Opened and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S49",
+      "url": "https://www.wmagazine.com/story/florence-pugh-lady-macbeth-movie",
+      "title": "Meet Lady MacBeth’s Florence Pugh, a Truly Modern Feminist Hero in a Corset (W Magazine)",
+      "speaker": "Florence Pugh, interviewed by Katherine Cusumano (W Magazine)",
+      "date": "2017-07-12",
+      "locator": "Section on The Falling tape and the Lady Macbeth audition",
+      "excerpt": "“My brother was in the industry, and I knew that’s not how you’re going to get a part, handing in a three-minute tape.” [quoting her mother:] “She goes, ‘We know you aren’t going to get it, but this is something you want to do with your life, so it’s kind of a free go.’” / “I was like, ‘God, Shakespeare? I have a day to prepare Shakespeare?’ Come on.”",
+      "context": "US release coverage of Lady Macbeth. Narration says she and her mother filmed the tape 'with 20 minutes to spare'. Opened by research sub-agent; not re-verified line by line in this stage.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S50",
+      "url": "https://graziadaily.co.uk/celebrity/news/florence-pugh-lady-macbeth-interview/",
+      "title": "Florence Pugh: The Rising Star On Becoming Lady Macbeth’s Magnetic Anti-Heroine (Grazia)",
+      "speaker": "Florence Pugh, interviewed by Katie Rosseinsky (Grazia)",
+      "date": "2017-04-27",
+      "locator": "Q&A answers on preparation, the director, and the audition",
+      "excerpt": "For me, I’d say that I do have a feisty side, so I tried to incorporate that into Katherine as well. [...] That was something that [director] Will would have to discuss with me: he’d be like, “yes, but you can’t act that way because women of this time just couldn’t.” In a sense, actually, that’s where Katherine and I are quite alike: I don’t like being told how to do things. It was brilliant doing those scenes where the men would just imprison me sentence by sentence: it makes Katherine angry, and it made me angry. [...] I thought I crashed and burned, but then week by week I’d be given another reading.",
+      "context": "UK release Q&A for Lady Macbeth, age 21. Opened and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S51",
+      "url": "https://www.refinery29.com/en-gb/2017/04/151471/florence-pugh-lady-macbeth-interview",
+      "title": "Meet Florence Pugh, Britain’s Next A-List Actress (Refinery29 UK)",
+      "speaker": "Florence Pugh, interviewed by Natalie Gil (Refinery29 UK)",
+      "date": "2017-04",
+      "locator": "Profile body",
+      "excerpt": "“I loved that I agreed with her and supported her. I’m probably the worst person to ask questions about her because I am majorly Team Katherine. We’re both feisty and neither of us likes being told ‘no’.” [...] “You get told ‘no’ about 70% of the year [in this industry] and if you don’t have people who are going to tell you ‘it’s ok’ and to keep on trying, then you’re essentially quite alone a lot of the time.” [...] “If you’re not completely sure of who you are and what you represent before you go over there it will be decided for you,” [...] “It will always be a feisty woman, I think. It will always be something where the character has something to say. Otherwise I can’t really find justification for it.”",
+      "context": "Lady Macbeth release interview; exact day not shown on page. Opened and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S52",
+      "url": "https://www.bfi.org.uk/interviews/lady-macbeth-florence-pugh-william-oldroyd",
+      "title": "Lady Macbeth: ‘We needed somebody who had the strength to carry out despicable deeds’ (BFI)",
+      "speaker": "William Oldroyd (director) and Alice Birch (writer), interviewed by Jason Wood",
+      "date": "2017-04-19",
+      "locator": "Casting answer",
+      "excerpt": "WO: “After we met Florence there was no doubt that she was the Katherine we were looking for. We needed to find somebody who didn’t just have the strength to carry out despicable deeds when pushed, but who also had the vulnerability and optimism of the virgin bride we meet at the start of the film. [...] She’s a very instinctive and organic actor who works with great rigour and discipline.”",
+      "context": "Director testimony about casting and work habits; promotional. Date from page metadata. Opened and verified verbatim.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S53",
+      "url": "https://www.bbc.co.uk/news/entertainment-arts-37274640",
+      "title": "Lady Macbeth: Florence Pugh on her killer first lead role (BBC News)",
+      "speaker": "Florence Pugh, interviewed by Tim Masters (BBC News)",
+      "date": "2017-04-28",
+      "locator": "Article body",
+      "excerpt": "“The Falling was a big, flashy bizarre experience,” she said. “I kept on saying at the time it was a fluke because I did the audition and I didn’t think anything would come of it. “Now I’ve gone from working with Maisie to doing a lead role. Lady Macbeth is a great opportunity for me to prove that maybe the outcome of The Falling was not necessarily a fluke.”",
+      "context": "BBC entertainment piece (an earlier version ran in September 2016 from Toronto). Opened and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S54",
+      "url": "https://www.yahoo.com/entertainment/florence-pugh-has-a-rare-condition-that-forced-her-to-move-from-england-to-spain-065235590.html",
+      "title": "Florence Pugh opens up about her rare breathing issues: ‘I’ve just had a different breathing system’ (Yahoo relay of Running Wild with Bear Grylls)",
+      "speaker": "Florence Pugh (NBC, Running Wild with Bear Grylls); article by George Back (Yahoo)",
+      "date": "2022-08-16",
+      "locator": "Article body",
+      "excerpt": "“We were in Spain because I have a breathing issue, and when I was younger they kind of just advised that a hotter climate would be better,” said Pugh. “I have asthma and I have this thing called tracheomalacia as well. And so from a young age, I’ve just had a different breathing system.”",
+      "context": "Relay of a TV appearance; the only first-person tracheomalacia statement reached. URL is the page's canonical link. Opened and verified verbatim.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S55",
+      "url": "https://www.theguardian.com/film/2017/apr/22/florence-page-rising-star-lady-macbeth-film",
+      "title": "No link to the Bard … but this Lady Macbeth is just as deadly (The Observer)",
+      "speaker": "Florence Pugh, interviewed by Vanessa Thorpe (The Observer)",
+      "date": "2017-04-22",
+      "locator": "Closing section on Fighting with My Family",
+      "excerpt": "“I like a part that is feisty and kick-ass; someone who ‘rules it’. That is my calling,” Pugh said.",
+      "context": "Lady Macbeth UK release feature, age 21; the line is about her role choices as she moved to Fighting with My Family. Opened and verified verbatim.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S56",
+      "url": "https://variety.com/2025/film/news/florence-pugh-midsommar-abuse-depression-six-months-1236574037/",
+      "title": "Florence Pugh Says 'Midsommar' Abuse Caused Depression for Six Months (Variety relay of The Louis Theroux Podcast)",
+      "speaker": "Florence Pugh on The Louis Theroux Podcast; article by Zack Sharf (Variety)",
+      "date": "2025-11-11",
+      "locator": "Article body, paragraphs quoting the podcast (Midsommar method, Little Women, depression)",
+      "excerpt": "“I just can’t exhaust myself like that because it has a knock-on effect,” Pugh said. “I think [‘Midsommar’] made me sad for like six months after and I didn’t know why I was depressed. I got back after shooting ‘Little Women,’ which was such a fun experience and obviously a completely different tone from ‘Midsommar,’ so I think shelved all of that. And then when I got home for Christmas, I was so depressed and I was like, ‘Oh, I think that’s from “Midsommar,”‘ and I didn’t deal with it and I probably shouldn’t do that again.” [...] “At the beginning, I just imagined hearing the news that one of my siblings had died, and then towards the middle of the shoot it was like, ‘Oh no, I actually needed to imagine the coffins.’ And then towards the end of the shoot, I actually was going to my whole family’s funeral.” [...] “I’d never done anything like that before and I was like, ‘OK, well here’s my opportunity. I need to give this a go.’ And I would just basically put myself through hell. But I don’t do that anymore. It really fucked me up.”",
+      "context": "Opened in the draft stage on 2026-10-04 via curl (WebFetch hits the tollbit redirect); published 2025-11-11T22:17Z. A professionally punctuated print transcription of the Theroux passages that S17 renders as machine text; it prints 'shelved' (S17 has 'shelled'). TheWrap's independent transcription (S61) matches word for word, and a YouTube news read-through also renders 'shelved'. Still a relay; the podcast audio itself was not reviewed.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S57",
+      "url": "https://www.pearlanddean.com/florence-pugh-reveals-male-co-star-spoke-up-when-director-demanded-more-takes-of-difficult-scene/",
+      "title": "Florence Pugh reveals male co-star spoke up when director demanded more takes of difficult scene (Pearl & Dean Cinemas)",
+      "speaker": "Florence Pugh on The Louis Theroux Podcast; unbylined wire copy carried by Pearl & Dean Cinemas",
+      "date": "2025-11-11",
+      "locator": "Article body, paragraphs 3-7",
+      "excerpt": "The British actress admitted on The Louis Theroux Podcast that it can be “a bit stickier” for women to advocate for themselves on set in case they are branded “a nightmare”. [...] “And we did it maybe six times, and each time you have to start with no tears and then gear up. So you have to stay in it. And we got it, and the director wanted to go again. And when I’m in that state, I’m a bit mushy, so I’m like, ‘Okay, we’ll do it again.’ “My co-star went up to the director and said, ‘Don’t do that, man. Don’t put her through that. She’s got it. We got it. You’ve got the close-up, you’ve got the wide (shot), don’t do that.’” The Don’t Worry Darling star noted that the director agreed with her co-star “straight away”, and she realised that if she’d spoken up for herself in the same way, it “wouldn’t have been received well”. Pugh did not name the co-star or the film.",
+      "context": "Wire copy (datePublished 2025-11-11T10:51Z); identical text runs on Film-News.co.uk. Opened via curl in the draft stage. Its intimacy-coordinator quotes match the official Louis Theroux YouTube clip captions (S59) word for word, which supports the accuracy of the transcription. Confirms the retakes passage that S17 has only as machine text. 'A bit stickier' and 'a nightmare' are short quoted fragments inside the writer's paraphrase.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S58",
+      "url": "https://dailytimes.com.pk/1398933/florence-pugh-gets-candid-about-health-struggles-and-hitting-breaking-point/",
+      "title": "Florence Pugh gets candid about health struggles and hitting breaking point (Daily Times)",
+      "speaker": "Florence Pugh on The Louis Theroux Podcast; article by Sajid Salamat (Daily Times)",
+      "date": "2025-11-11",
+      "locator": "Article body, paragraphs 4-5",
+      "excerpt": "‘I think when you are such a bubbly person and you fill in a lot of energy for other people, I’m definitely the last person that I look after,’ she said. ‘I felt like there was an expectation that I needed to be good for everybody else. My issues, my worries, my pains weren’t worthy of being spoken about because they would bring people down. Then of course you find yourself in a pit or in a mess.’",
+      "context": "Opened via curl in the draft stage. A low-prestige relay, probably of UK press transcription, but the only print copy found of the people-pleasing passage. It matches the machine transcript S17 on 'bubbly person... last person that I look after' and 'bring people down' but prints 'needed to be good for everybody else' where S17 has 'needed to be upbeat for everybody else', and 'they would' where S17 has 'it would'. It does not contain the 'people pleaser... paddling for dear life' sentence. The same article reports self-injury during the unnamed relationship; that material must not be used.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S59",
+      "url": "https://www.youtube.com/watch?v=QdWZdBSRXZw",
+      "title": "Florence Pugh: “sex scenes are awkward” | The Louis Theroux Podcast (official clip)",
+      "speaker": "Florence Pugh, with Louis Theroux (official Louis Theroux YouTube channel)",
+      "date": "unknown (clip of the episode released 2025-11-11; upload date not shown in metadata)",
+      "locator": "YouTube auto-captions 00:00:59-00:01:12",
+      "excerpt": "And I I think I'm quite I'm quite confident. I'm quite happy in my skin. Um and I've always been able to make sure that I'm heard. That being said, even though I know that I believe that and even though I know that I felt that at the time, there are plenty of things that I remember where it was just completely inappropriate to have asked me to do that, to have directed me in that way.",
+      "context": "Official 6:44 clip from the episode, captions downloaded with yt-dlp in the draft stage. Speaker attribution is clear (Theroux's questions are marked). Confirms the 'make sure that I'm heard' line cited in C23's alternative.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S60",
+      "url": "https://www.yahoo.com/entertainment/celebrity/articles/florence-pugh-opens-unhealthy-past-130000822.html",
+      "title": "Florence Pugh opens up about unhealthy past relationship (Entertainment Weekly via Yahoo)",
+      "speaker": "Florence Pugh on The Louis Theroux Podcast; article by Shania Russell (Entertainment Weekly)",
+      "date": "2025-11-12",
+      "locator": "Article body, paragraphs 3 and 18",
+      "excerpt": "“I have [done] a fair bit of growing, a fair bit of working on myself. I think the further and further way you get from a relationship that was causing you pain, obviously, the love reduces. And so you realize just how much pain you were in.” [...] Looking back on it now, Pugh has no regrets. “I’ll always defend people that I love, I will always stand up for them,” she told Theroux.",
+      "context": "Opened via curl in the draft stage (EW syndicated on Yahoo). The writer notes Pugh did not name the partner or say when the relationship took place. The article then moves to Zach Braff; the two must not be connected. It also reports abuse and self-injury details about the unnamed relationship that must not be used. The 'defend people that I love' line is about the 2020 Braff video.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S61",
+      "url": "https://www.thewrap.com/florence-pugh-midsommar-role-depression/",
+      "title": "Florence Pugh Won't Take Roles Like 'Midsommar,' Which Caused a 6-Month Depression (TheWrap)",
+      "speaker": "Florence Pugh on The Louis Theroux Podcast; TheWrap",
+      "date": "2025-11-11",
+      "locator": "Article body, paragraphs 3-6",
+      "excerpt": "“I think [‘Midsommar’] made me sad for like six months after and I didn’t know why I was depressed. I got back after shooting ‘Little Women,’ which was such a fun experience and obviously a completely different tone from ‘Midsommar,’ so I think shelved all of that. And then when I got home for Christmas, I was so depressed and I was like, ‘Oh, I think that’s from ‘Midsommar,” and I didn’t deal with it and I probably shouldn’t do that again.”",
+      "context": "Opened via curl in the draft stage (datePublished 2025-11-11T23:56Z). Corroborates S56's transcription, including 'shelved'. Not independent of the podcast, but an independent transcription of it.",
+      "kind": "primary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C06",
+      "claim": "In December 2019 she told Deadline: 'unfortunately, I can't cry on cue. So, I had to really just destroy myself for an entire three months, but I was happy with the work.'",
+      "passage": "\"unfortunately, I can't cry on cue. So, I had to really just destroy myself for an entire three months, but I was happy with the work.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Consistent account across 2019 (Deadline, TheWrap) and 2025 (Theroux). Shows willingness to enter pain deliberately for the work.",
+      "alternative": "This is professional method under a director's demand, not a life choice about her own pain; it complicates any claim that she avoids pain. Shoot length is given as 'three months' (2019) and 'like four months' (2023).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "On the Theroux podcast (November 2025) she described escalating the Midsommar method from imagining a sibling's death to imagining coffins to 'going to my whole family's funeral'.",
+      "passage": "By the middle of the shoot, \"I actually needed to imagine the coffins.\" By the end, \"I actually was going to my whole family's funeral.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S56",
+        "S17"
+      ],
+      "inference": "Print transcription (Variety) of the podcast; consistent with her 2019 Deadline account of imagining her family in coffins (S04).",
+      "alternative": "Retrospective account told six years later; craft method under a director, not a life choice about her own pain.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C52",
+      "claim": "She moved from the Midsommar shoot to Little Women with little gap (three days by one account, two weeks by another).",
+      "passage": "From there she went almost straight to Greta Gerwig's _Little Women_, where she played Amy March.",
+      "class": "observed",
+      "source_ids": [
+        "S04",
+        "S23",
+        "S17"
+      ],
+      "inference": "Deadline says she got the directors to arrange the schedule; TheWrap quotes \"two weeks previous\"; S17 gives about three days.",
+      "alternative": "Back-to-back scheduling is common for in-demand actors and was a career decision, not necessarily an emotional one.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C53",
+      "claim": "In December 2019 she called Amy March 'the best therapy for me' after Midsommar.",
+      "passage": "\"Coming off Midsommar, Amy March in Little Women was the best therapy for me,\" she told Deadline.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Contemporaneous framing of the switch as a cure.",
+      "alternative": "Awards-season promotion for Little Women invites a positive framing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C54",
+      "claim": "She described Little Women as getting 'to prance around in petticoats, and essentially flirt with Timothée Chalamet every day'.",
+      "passage": "She got to \"prance around in petticoats\" and flirt on camera with",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Light, playful register in the 2019 account.",
+      "alternative": "Promotional colour; paraphrased in part.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "She told TheWrap that 'playing and cuddling everyone on the set' was 'the perfect way to balance who I was two weeks previous.'",
+      "passage": "Being on that set, \"playing and cuddling everyone,\" was \"the perfect way to balance who I was two weeks previous.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Contemporaneous: distress balanced by play and company.",
+      "alternative": "Promotional; one interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "In November 2025 she said Little Women 'was such a fun experience and obviously a completely different tone from Midsommar, so I think shelved all of that. And then when I got home for Christmas, I was so depressed.'",
+      "passage": "_Little Women_ \"was such a fun experience and obviously a completely different tone from 'Midsommar,' so I think shelved all of that. And then when I got home for Christmas, I was so depressed.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S56",
+        "S61",
+        "S17"
+      ],
+      "inference": "The same sequence told twice: in 2019 as a cure through play and company (C53, C55), in 2025 as pain set aside unprocessed that returned later. This suggests a pattern of meeting distress by moving to something lighter rather than staying with it.",
+      "alternative": "Retrospective self-diagnosis; the scheduling was a career necessity. The wording is now confirmed by two print transcriptions (Variety, TheWrap), which print 'shelved'; the audio itself was not reviewed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C56",
+      "claim": "She said in November 2025 that Midsommar 'made me sad for like six months after and I didn't know why I was depressed.'",
+      "passage": "\"I think ['Midsommar'] made me sad for like six months after and I didn't know why I was depressed.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S56",
+        "S61"
+      ],
+      "inference": "Two print transcriptions agree.",
+      "alternative": "Self-report of mood years later; not a clinical claim and should not be presented as one.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "Greta Gerwig told TheWrap in 2019: 'There is something about her that can't be knocked down or overtaken.'",
+      "passage": "\"There is something about her that can't be knocked down or overtaken,\" Gerwig said in 2019",
+      "class": "third_party",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Named director testimony of strength.",
+      "alternative": "Promotional quote about a star she directed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "The article's thesis: across contexts she meets pain with motion and lightness and names the cost later.",
+      "passage": "When pain arrives, she moves toward something lighter and faster, and names the cost later.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S23",
+        "S56",
+        "S32",
+        "S28",
+        "S58",
+        "S27",
+        "S25",
+        "S15"
+      ],
+      "inference": "Drawn from the convergent sequence in C08, C18, C09, C15, C36 and C14.",
+      "alternative": "Each item alone has an ordinary explanation (craft, normal processing, lockdown, adolescence); the claim rests on the convergence, and the Eight and Two alternatives are argued in the article.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C01",
+      "claim": "Florence Pugh was born on 3 January 1996 in Oxford, England.",
+      "passage": "Pugh was born on January 3, 1996, in Oxford, England",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Birth date from Wikipedia; Oxford birthplace consistent with Vogue 2020 and Vanity Fair 2026 accounts of an Oxford family.",
+      "alternative": "Full date rests on Wikipedia; if a conflicting primary source appears, fall back to the year.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "Metadata: birth_date 1996-01-03, birth_place Oxford, England, nationality British.",
+      "passage": "1996-01-03",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Matches C01.",
+      "alternative": "Wikipedia-sourced; never convert to January 1 if only the year is supported.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C38",
+      "claim": "Career facts: debut in The Falling (2014); Lady Macbeth (2016, British Independent Film Award for Best Actress); BAFTA Rising Star nomination (2018); Fighting with My Family, Midsommar and Little Women in 2019, the last bringing Academy Award and BAFTA Supporting Actress nominations (2020); Yelena Belova in Black Widow (2021), Hawkeye (2021) and Thunderbolts* (2025); Jean Tatlock in Oppenheimer (2023); Princess Irulan in Dune: Part Two (2024); We Live in Time (2024).",
+      "passage": "She broke through in _Lady Macbeth_ (2016), earned Academy Award and BAFTA nominations for _Little Women_, plays Yelena Belova for Marvel, and appeared in _Oppenheimer_ (2023) and _Dune: Part Two_ (2024).",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Biographical scaffolding.",
+      "alternative": "Wikipedia-sourced; check any figure (grosses, award names) against the awards list before using.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "She is an executive producer of East of Eden, Zoe Kazan's Netflix limited series (premiered 2026-10-01), and plays Cathy Ames.",
+      "passage": "She is also an executive producer of _East of Eden_, Zoe Kazan's 2026 Netflix series, in which she plays Cathy Ames.",
+      "class": "third_party",
+      "source_ids": [
+        "S19",
+        "S18",
+        "S01"
+      ],
+      "inference": "Orientation only; the personality argument does not depend on it.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "The source base is structurally tilted: almost everything is press-tour or cover-story material in which candour, warmth and 'no-BS' defiance are part of the Florence Pugh brand ('Fans have come to expect this kind of no-BS fiery candor', Harper's Bazaar's writer, 2022; 'she's figured out a way to control the narrative around her without coming off as controlling', Vanity Fair's writer, 2026). The two most reflective sources (Reign 2025, Theroux 2025) are long-form podcasts where she volunteers costs and people-pleasing.",
+      "passage": "Nearly everything public about her comes from press tours and cover stories, where candor and warmth are part of the brand.",
+      "class": "interpretation",
+      "source_ids": [
+        "S24",
+        "S18",
+        "S17",
+        "S13"
+      ],
+      "inference": "Weight long-form, unprompted reflection above cover-story framing; treat writers' characterisations as interpretation.",
+      "alternative": "Even the podcasts are promotional appearances; the record cannot see her private conduct.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "Leading type hypothesis: Type 7, medium confidence; Type 8 strongest alternative; Type 2 live third reading.",
+      "passage": "Florence Pugh most likely fits Enneagram Type 7, the Enthusiast, at medium confidence.",
+      "class": "interpretation",
+      "source_ids": [
+        "S17",
+        "S56",
+        "S57",
+        "S58",
+        "S28",
+        "S24",
+        "S22",
+        "S18"
+      ],
+      "inference": "See type_hypothesis; argued in the article against Types 8 and 2.",
+      "alternative": "Contested typing: fan sites call her an 8 (S40); collaborator testimony supports 8 (C32); her people-pleasing self-report supports 2 (C09, C30).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "Parents Deborah (dancer) and Clinton Pugh (restaurateur); siblings Toby Sebastian (actor and musician), Arabella Gibbins (actor) and younger sister Rafaela.",
+      "passage": "Her mother, Deborah, is a dancer, and her father, Clinton Pugh, a restaurateur. She has an older brother, the actor and musician Toby Sebastian, an older sister, the actor Arabella Gibbins, and a younger sister, Rafaela.",
+      "class": "third_party",
+      "source_ids": [
+        "S01",
+        "S22",
+        "S18"
+      ],
+      "inference": "Consistent across Wikipedia, Vogue 2020 and Vanity Fair 2026.",
+      "alternative": "Do not publish Rafaela's field of work; Pugh withheld it in Vanity Fair 2026.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "As a small child she had tracheomalacia and was in and out of hospital; the family moved to southern Spain when she was about three and returned to Oxford when she was about six.",
+      "passage": "As a small child she had tracheomalacia, a weak windpipe, and was in and out of hospital; the family moved to southern Spain when she was about three and came back to Oxford when she was about six.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S54",
+        "S25",
+        "S44"
+      ],
+      "inference": "Medical history and the Spain move are consistent across Wikipedia, Vogue 2023 and Vanity Fair 2026. Her own framing explicitly refuses a wound narrative.",
+      "alternative": "Do not present the illness as a formative wound or causal origin of her temperament; she rejects that reading and no source supports it. The voice is a physical trait, not a personality signal.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C62",
+      "claim": "She told Vogue in 2023: 'I never want this to be a sob story, because it's never been a story in my life.'",
+      "passage": "\"I never want this to be a sob story,\" she told Vogue in 2023, \"because it's never been a story in my life.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S25"
+      ],
+      "inference": "She explicitly refuses a wound narrative; the article draws nothing about type from the illness.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "Vogue 2020: 'We're a big eating family... It's all big and loving and homey'; the writer notes she grew up in a family of hosts.",
+      "passage": "\"We're a big eating family,\" she told Vogue in 2020. \"It's all big and loving and homey.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "Family culture of food and hosting.",
+      "alternative": "Family restaurant culture explains much of her hosting; supports both Type 2 and Type 7 readings.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "Of a childhood school nativity she told The Guardian (2018): 'It was the first time I knew the power of being on stage... I have complete control.' I still feel that now.'",
+      "passage": "\"It was the first time I knew the power of being on stage. I remember thinking, 'Oh God, they're waiting for me, they're listening to everything I say and I have complete control.' I still feel that now,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S44"
+      ],
+      "inference": "A consistent, vivid early pleasure in performance, in holding a room and in the 'power' and 'control' of an audience's attention.",
+      "alternative": "Childhood performers of every type say this. 'Power' and 'complete control' fit Type 8 or Type 3 as well as Type 7. The BBC Radio 4 versions (S43) are machine-transcribed and are not quoted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C63",
+      "claim": "The Observer, December 2014 (age 18): 'Throughout my life, I've been that annoying kid on every stage at school, in every talent contest.'",
+      "passage": "At 18 she called herself \"that annoying kid on every stage at school, in every talent contest.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S45"
+      ],
+      "inference": "Early, pre-fame self-description as a compulsive performer.",
+      "alternative": "Self-deprecating interview humour.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C64",
+      "claim": "The childhood performance record does not discriminate between Types 7, 8 and 3.",
+      "passage": "\"Complete control\" sounds as much like an Eight, or a Three holding an audience, as a Seven chasing the thrill of the live moment.",
+      "class": "interpretation",
+      "source_ids": [
+        "S44",
+        "S45"
+      ],
+      "inference": "Honest limit on the childhood evidence.",
+      "alternative": "None; this is a statement of what the evidence cannot show.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "At 17 she nearly did not send a tape for The Falling's open audition because of what her brother's career had taught her ('that's not how you're going to get a part'); her mother persuaded her ('it's kind of a free go'), and she was cast.",
+      "passage": "\"My brother was in the industry, and I knew that's not how you're going to get a part, handing in a three-minute tape.\" Her mother talked her into it: \"We know you aren't going to get it, but this is something you want to do with your life, so it's kind of a free go.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S49",
+        "S43",
+        "S47"
+      ],
+      "inference": "A protective pessimism about hope followed by full commitment once in the room. Director Carol Morley says she 'quickly knew she was Abbie'.",
+      "alternative": "Accounts of the route in differ: tape at home (S49, S43), leaflet at school (S46), the agent emailing schools (S47), or Morley visiting her boarding school (S45). Treat the details as approximate; the hesitancy rests on retrospective self-report.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "The Observer, December 2014: 'I do like a bit of danger... Guns, cars, running, bullets. I'm up for it.'",
+      "passage": "\"I do like a bit of danger,\" she told The Observer. \"Guns, cars, running, bullets. I'm up for it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S45"
+      ],
+      "inference": "Thrill-seeking predates the stunt record (C13, C14) by a decade.",
+      "alternative": "Light, genre-preference remarks by a teenager promoting an art film; useful only as a pattern marker.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "The Observer, December 2014: 'It's a bit of a fluke.' She repeated the worry in 2017 and 2022.",
+      "passage": "And of her break: \"It's a bit of a fluke.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S45",
+        "S53",
+        "S43"
+      ],
+      "inference": "Recurring self-doubt under the confident persona, consistent with her own statement that confidence came later (C36).",
+      "alternative": "Modesty is a British interview norm, and calling an early break a fluke is a common humility move; it may also reflect a Type 6 or Type 3 worry. Not decisive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "At 19 she was cast as the lead in Fox's pilot Studio City; in 2022 she said its makers tried to change 'my weight, my look, the shape of my face, the shape of my eyebrows' and 'I felt I'd made a massive mistake'. Fox passed, and she auditioned for Lady Macbeth two weeks later.",
+      "passage": "In 2022 she told The Telegraph, as relayed by Variety, that the people behind it tried to change \"my weight, my look, the shape of my face, the shape of my eyebrows,\" and that \"I felt I'd made a massive mistake.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S01",
+        "S44"
+      ],
+      "inference": "A retrospective origin story (told in 2022) that frames her later stance as a refusal to be reshaped. The pilot was not picked up; she did not have to refuse anything at the time.",
+      "alternative": "Hindsight narrative useful to a brand built on candor; the Telegraph original was not opened and both relays (Variety, W) derive from it. The stated value is freedom from being 'pushed left and right' (fits 7 or 8), not dominance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C65",
+      "claim": "Of Lady Macbeth (told 2022): 'That made me fall back in love with cinema – the kind of cinema that was a space where you could be opinionated, and loud, and I've stuck by that... I think it's far too easy for people in this industry to push you left and right.'",
+      "passage": "\"That made me fall back in love with cinema – the kind of cinema that was a space where you could be opinionated, and loud, and I've stuck by that,\" she said. \"I think it's far too easy for people in this industry to push you left and right.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Retrospective origin story; the stated value is freedom from being pushed 'left and right'.",
+      "alternative": "Telegraph original paywalled and not opened; both relays (S02, S03) derive from it. Hindsight narrative useful to a candid brand; she did not have to refuse anything at the time (the pilot died).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "Grazia, April 2017 (age 21): 'I don't like being told how to do things... it makes Katherine angry, and it made me angry.'",
+      "passage": "\"I don't like being told how to do things,\" she told Grazia in 2017, describing scenes where the men around her _Lady Macbeth_ character confine her: \"it makes Katherine angry, and it made me angry.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S50",
+        "S51"
+      ],
+      "inference": "Anti-constraint is her oldest stated value, voiced at 19 to 21 before her persona was a brand, and it lines up with her later 'push you left and right' and 'freedom' language (C04, C18).",
+      "alternative": "Resisting being told what to do fits Type 7 (freedom from limits) and Type 8 (autonomy, refusing control) about equally; the teenage-school context is ordinary adolescent friction.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C66",
+      "claim": "Interpretation: the stated object of her defiance is freedom from being told, pushed or reshaped.",
+      "passage": "What her defiance names, from 19 on, is being told, pushed and boxed in.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S50",
+        "S51",
+        "S37",
+        "S14"
+      ],
+      "inference": "Convergent wording from 2017 ('told how to do things', 'told no'), 2022 ('push you left and right'), 2023 ('the freedom that people are scared of') and 2025 ('have things just happen to me').",
+      "alternative": "Resisting being told what to do fits Type 8 (autonomy) nearly as well as Type 7; this is a tilt, not proof.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "AP, July 2019: 'To get it perfect, I knew, would be so exhilarating and the payoff would be a fantastic feeling — which it was.' Her account of Midsommar's cost changed over the following six years.",
+      "passage": "\"To get it perfect, I knew, would be so exhilarating and the payoff would be a fantastic feeling — which it was,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S56",
+        "S18",
+        "S13"
+      ],
+      "inference": "A dated arc of reinterpretation, moving from thrill to cost to boundary. The thrill framing came first and the pain was named years later.",
+      "alternative": "The shift may reflect changing industry vocabulary about wellbeing and the incentives of later press cycles, not a change in her underlying pattern.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C67",
+      "claim": "Off Menu podcast, March 2023 (via Variety): 'I think by the end I probably, most definitely abused my own self in order to get that performance.'",
+      "passage": "she said she \"most definitely abused my own self in order to get that performance\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Middle step of the dated arc of reinterpretation (C07).",
+      "alternative": "Relay; podcast audio not reviewed. Comedy-podcast setting.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C68",
+      "claim": "November 2025: 'But I don't do that anymore. It really fucked me up.'",
+      "passage": "In November 2025: \"But I don't do that anymore. It really fucked me up.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S56",
+        "S61"
+      ],
+      "inference": "Late step in the arc.",
+      "alternative": "Retrospective; therapeutic vocabulary common in recent press cycles.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C69",
+      "claim": "Vanity Fair 2026: 'I now know how to protect my space.'",
+      "passage": "\"I now know how to protect my space.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "Latest step: cost turned into a boundary.",
+      "alternative": "Cover-story framing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C70",
+      "claim": "Reign (January 2025): she is proud of the Midsommar performance, 'so I don't regret it'.",
+      "passage": "She has also said she is proud of the performance, \"so I don't regret it\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Prevents the arc being read as regret.",
+      "alternative": "Auto-captions; short fragment quoted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "At the Valentino couture show in Rome on 2022-07-08 she wore a sheer pink gown whose lining she and Pierpaolo Piccioli had removed.",
+      "passage": "On July 8, 2022, at Valentino's couture show in Rome, she wore a sheer pink gown; she and designer Pierpaolo Piccioli had removed the lining",
+      "class": "observed",
+      "source_ids": [
+        "S24",
+        "S32",
+        "S01"
+      ],
+      "inference": "A deliberate choice, a forceful public reply mixing defiance and comic timing, and a stated 'mission' of not letting her body be reshaped by others' expectations (compare C04).",
+      "alternative": "The gown was a fashion-house moment with publicity value; defiance with humour fits 7 (sass, play) and 8 (confrontation). The caption original was not opened (relays match).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C71",
+      "claim": "Instagram caption, July 2022: 'I was excited to wear it, not a wink of me was nervous. I wasn't before, during or even now after.'",
+      "passage": "\"I was excited to wear it, not a wink of me was nervous. I wasn't before, during or even now after.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S32"
+      ],
+      "inference": "First public response led with confidence.",
+      "alternative": "Instagram original not opened; TODAY relay matches PAPER and WWD per research notes.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C72",
+      "claim": "Instagram caption, July 2022: 'Why are you so scared of breasts? Small? Large? Left? Right? Only one? Maybe none? What. Is. So. Terrifying.'",
+      "passage": "\"Why are you so scared of breasts? Small? Large? Left? Right? Only one? Maybe none? What. Is. So. Terrifying.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S32"
+      ],
+      "inference": "Defiance delivered as comedy.",
+      "alternative": "Instagram original not opened (relay).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C73",
+      "claim": "Harper's Bazaar, August 2022: 'They were so angry that I was confident, and they wanted to let me know that they would never wank over me. Well, don't.'",
+      "passage": "\"They were so angry that I was confident, and they wanted to let me know that they would never wank over me. Well, don't.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "A one-line exit after a firm statement ('Well, don't').",
+      "alternative": "Cover-interview performance of candour; the magazine frames her as fiery.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C74",
+      "claim": "ELLE UK, 2023: 'It's the freedom that people are scared of; the fact I'm comfortable and happy.'",
+      "passage": "\"It's the freedom that people are scared of; the fact I'm comfortable and happy.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S37"
+      ],
+      "inference": "Her chosen word for what critics fear is 'freedom'.",
+      "alternative": "Structural/political framing; one interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "British Vogue, September 2024: '[The internet's] a very mean place. It's really painful to read people being nasty about my confidence or nasty about my weight. It never feels good.'",
+      "passage": "\"[The internet's] a very mean place. It's really painful to read people being nasty about my confidence or nasty about my weight. It never feels good.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S28",
+        "S32",
+        "S37"
+      ],
+      "inference": "The first public response led with confidence and humour; the hurt was acknowledged two years later. Her chosen word for what critics fear is 'freedom'.",
+      "alternative": "Normal processing over time, and the 2024 setting (a reflective cover interview) invites vulnerability. This does not establish that she hid hurt in 2022.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C75",
+      "claim": "Interpretation: in the Midsommar (2019) and Valentino (2022) stories she told the thrill first and named the pain years later.",
+      "passage": "In two unrelated episodes, three years apart, the thrill and the comeback came first and the cost arrived years later.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S04",
+        "S56",
+        "S32",
+        "S28"
+      ],
+      "inference": "Dated sequences in C07, C08, C17, C18.",
+      "alternative": "Normal processing over time; the article states that this does not prove she hid hurt at the time.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "On the Theroux podcast (November 2025) she discussed leaving an unnamed past relationship 'that was causing you pain'.",
+      "passage": "Discussing a past relationship she has not named, one she described as \"causing you pain,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S60",
+        "S17",
+        "S14"
+      ],
+      "inference": "Context for C09: the people-pleasing passage arose from this relationship.",
+      "alternative": "SENSITIVE: never attribute to Zach Braff or any named person. Relays (S58, S60) report abuse and self-injury details that must not be published.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "Theroux, November 2025 (print relay): 'I think when you are such a bubbly person and you fill in a lot of energy for other people, I'm definitely the last person that I look after. I felt like there was an expectation that I needed to be good for everybody else. My issues, my worries, my pains weren't worthy of being spoken about because they would bring people down.'",
+      "passage": "\"I think when you are such a bubbly person and you fill in a lot of energy for other people, I'm definitely the last person that I look after. I felt like there was an expectation that I needed to be good for everybody else. My issues, my worries, my pains weren't worthy of being spoken about because they would bring people down.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S58",
+        "S17"
+      ],
+      "inference": "Her most explicit description of a costly pattern: she hid pain because it would bring others down. The stated reason concerns the room's mood, not looking weak.",
+      "alternative": "Equally readable as Type 2 ('last person I look after', 'good for everybody else'). The draft quotes the print relay (S58), which has 'good' where the machine transcript S17 has 'upbeat'; the 7 argument does not rest on 'upbeat'. Post-breakup reflection in therapeutic language. The partner must not be identified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C76",
+      "claim": "Machine transcript of the Theroux episode: 'it's that people pleaser thing where you just try and keep things afloat without anybody else knowing that you're paddling for dear life.'",
+      "passage": "\"that people pleaser thing where you just try and keep things afloat without anybody else knowing that you're paddling for dear life\"",
+      "class": "self_report",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "Her own label for the habit, supporting the Type 2 reading as much as Type 7.",
+      "alternative": "UNVERIFIED WORDING: appears only in an unlabelled machine transcript; no print relay found. The article flags this inline. Check audio before the edit stage keeps it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C77",
+      "claim": "The machine transcript (S17) and the print relay (S58) disagree on one word in the people-pleasing passage.",
+      "passage": "The same transcript renders \"good for everybody else\" as \"upbeat for everybody else,\"",
+      "class": "observed",
+      "source_ids": [
+        "S17",
+        "S58"
+      ],
+      "inference": "Transparency about transcription uncertainty.",
+      "alternative": "None; directly observable in the two texts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C78",
+      "claim": "Interpretation: her stated motive for hiding pain is the mood of others, not fear of appearing weak.",
+      "passage": "The reason she gives for hiding pain concerns the room. Her pains \"would bring people down.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S58",
+        "S17"
+      ],
+      "inference": "Central to the 7-versus-8 discriminator.",
+      "alternative": "The same reason fits Type 2 (protecting others' feelings).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C79",
+      "claim": "In late March 2020, in lockdown in Los Angeles, she began 'Cooking with Flo' after her father asked 'Why aren't you dancing and why aren't you cooking?'",
+      "class": "self_report",
+      "source_ids": [
+        "S27",
+        "S24"
+      ],
+      "inference": "Coping by activity and pleasure.",
+      "alternative": "Instagram Story expired; secondary transcription only. Lockdown cooking was widespread.",
+      "durability": "stable",
+      "review_trigger": "",
+      "passage": "\"My dad called me yesterday and said, 'Why aren't you dancing and why aren't you cooking?' ... So this morning I woke up and I danced and I felt better and now I'm going to cook.\""
+    },
+    {
+      "id": "C15",
+      "claim": "Instagram Story, March 2020: 'we have to do things that keep us happy, keep us bubbly and keep moving basically... Get all of the weird horrid anxiety out of your system.'",
+      "passage": "\"we have to do things that keep us happy, keep us bubbly and keep moving basically... Get all of the weird horrid anxiety out of your system.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "Her stated coping recipe is activity, pleasure and lightness: dance, cook, keep moving. The cooking also serves others (feeding people) and family tradition (C31).",
+      "alternative": "Cooking during lockdown was widespread; the Story itself was not opened (secondary transcription). Food and hosting also fit a Type 2 reading.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C36",
+      "claim": "Vogue 2023, of her teens: 'So many of the things that I did were quick fixes... Things were so wrong in my head... Oh, well, I can change my nails. Oh, I can buy an eyelash kit.'",
+      "passage": "\"So many of the things that I did were quick fixes,\" she told Vogue in 2023.",
+      "class": "self_report",
+      "source_ids": [
+        "S25"
+      ],
+      "inference": "Her account complicates collaborators' 'supernaturally confident' image: confidence was built over time, and her teenage coping was a run of quick fixes.",
+      "alternative": "'Quick fixes' for teenage distress is common adolescent behaviour; resist over-reading.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C80",
+      "claim": "Vogue 2023: 'And so I would try and do quick things like, Oh, well, I can change my nails. Oh, I can buy an eyelash kit.'",
+      "passage": "\"Oh, well, I can change my nails. Oh, I can buy an eyelash kit.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S25"
+      ],
+      "inference": "Concrete instance of C36.",
+      "alternative": "Ordinary adolescent coping.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "Who What Wear, May 2025, of the Merdeka 118 stunt: 'I could persuade myself to do that... I can basically pretend to myself not to listen to my instincts.'",
+      "passage": "\"I can basically pretend to myself not to listen to my instincts.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "She describes an ability to override fear signals and is uneasy about it. Read alongside C08 and C09, this suggests a capacity to override inner alarms when momentum or a goal calls for it.",
+      "alternative": "A one-off reflection about a stunt; it should not be stretched into a general claim about suppressed feeling.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C81",
+      "claim": "Interpretation: convergent coping pattern across contexts and years.",
+      "passage": "Together, across her teens, 2019, 2020 and 2025, they suggest a pattern: distress met with movement, pleasure and a lighter register, with the cost noticed afterward.",
+      "class": "interpretation",
+      "source_ids": [
+        "S25",
+        "S04",
+        "S56",
+        "S27",
+        "S15"
+      ],
+      "inference": "Built from C36, C08, C15, C14.",
+      "alternative": "Each instance has an ordinary explanation; the article says so before stating the pattern.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "Cate Shortland (Vogue 2020): 'She is bloody scary. Steely. Absolutely will not back down. She has a healthy amount of anger in her as a person, at the injustices she sees around her.' Other collaborators converge (Gerwig, Johansson, Villeneuve).",
+      "passage": "\"She is bloody scary. Steely. Absolutely will not back down. She has a healthy amount of anger in her as a person, at the injustices she sees around her.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S22",
+        "S23",
+        "S24",
+        "S18"
+      ],
+      "inference": "Five independent named collaborators over seven years converge on strength, refusal to yield and anger at injustice. This is the core of the Type 8 case.",
+      "alternative": "All are promotional-cycle quotes about a star the speaker cast or co-starred with; they describe work presence. Shortland's comment is about stunts. Against them: her own 'mushy' on-set account (C23) and 'people pleaser' (C09).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C83",
+      "claim": "Scarlett Johansson (Harper's Bazaar 2022): 'She's unapologetically herself.'",
+      "passage": "\"She's unapologetically herself.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Named co-star testimony supporting the 8 case.",
+      "alternative": "Promotional quote.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C84",
+      "claim": "Denis Villeneuve (Vanity Fair 2026, by email): 'There is something unapologetic about the way she inspires respect.'",
+      "passage": "\"There is something unapologetic about the way she inspires respect.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "Named director testimony supporting the 8 case.",
+      "alternative": "Promotional quote.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "TheWrap, December 2019: 'I'm already a bit of a big mouth. I already love telling people what's what.'",
+      "passage": "\"I'm already a bit of a big mouth. I already love telling people what's what.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "A stable self-concept stated across three interviews over three years. 'Telling people what's what' is assertive; 'brightest thing' and 'loud and dramatic' read as expressive and attention-seeking in a playful register.",
+      "alternative": "Self-description in promotional interviews; expressive extraversion fits Type 7, 8, 3 or 2 equally. It establishes temperament, not motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "Cutting her own hair on camera in A Good Person was her idea, which Zach Braff resisted before she persuaded him.",
+      "passage": "Cutting her own hair on camera in _A Good Person_ (2023) was her idea.",
+      "class": "observed",
+      "source_ids": [
+        "S07",
+        "S08",
+        "S01"
+      ],
+      "inference": "Observable, repeated choices in which she overrode institutional caution. Two are framed in service of the character, one in service of the team.",
+      "alternative": "Physical transformation is rewarded by awards culture and press; Braff's testimony is not independent. Her stunt rationale ('we all got to do it') is collective, not self-aggrandising. Fits Type 8 (force of will) and Type 7 (thrill) alike.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C85",
+      "claim": "Zach Braff (Collider 2023): 'And she just kept saying, You'll figure it out, you'll figure it out.'",
+      "passage": "\"she just kept saying, 'You'll figure it out, you'll figure it out.'\"",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Named testimony of persistence.",
+      "alternative": "Not independent: former partner, promotional context.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C86",
+      "claim": "Marvel initially refused the Merdeka 118 jump over insurance concerns; her persistence, including talks with Kevin Feige, won permission.",
+      "passage": "Marvel was reluctant to let her do the Merdeka 118 jump herself because of insurance, and she kept pushing, including with Kevin Feige, until it agreed",
+      "class": "third_party",
+      "source_ids": [
+        "S01",
+        "S15"
+      ],
+      "inference": "Observable persistence against institutional caution.",
+      "alternative": "Wikipedia summary; fits Type 7 (thrill) and Type 8 (will) alike.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C87",
+      "claim": "Variety, May 2025: 'I wanted to do that stunt because I knew that it meant that we all got to do it.'",
+      "passage": "\"I wanted to do that stunt because I knew that it meant that we all got to do it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S16"
+      ],
+      "inference": "Her stated reason is collective.",
+      "alternative": "Self-presentation in a release-week interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "In April 2020 a birthday post for her then-partner Zach Braff (21 years older) drew abuse; she turned off comments for the first time and posted a video defending the relationship.",
+      "passage": "In April 2020, a birthday post for her then-partner Braff, 21 years older than her, drew so much abuse that she turned off comments for the first time.",
+      "class": "observed",
+      "source_ids": [
+        "S29",
+        "S30",
+        "S42",
+        "S01"
+      ],
+      "inference": "She was willing to lose followers to defend a partner and her own autonomy. In hindsight she gives two motives: protecting him and freedom to choose.",
+      "alternative": "Fits Type 8 (protective confrontation), Type 2 (defending a loved one) and Type 7 (freedom). The draft avoids the clause on which relays disagree.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C88",
+      "claim": "April 2020 video: 'please unfollow me because the abuse that you throw at him is abuse that you throw at me, and I don't want those followers.'",
+      "passage": "\"please unfollow me because the abuse that you throw at him is abuse that you throw at me, and I don't want those followers.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "Willingness to lose audience to defend a partner.",
+      "alternative": "Instagram original not opened; this clause matches across relays. In 2025 she said the abuse was only at him (S60).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C89",
+      "claim": "Theroux, November 2025 (EW relay): 'I'll always defend people that I love, I will always stand up for them.'",
+      "passage": "\"I'll always defend people that I love, I will always stand up for them.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S60"
+      ],
+      "inference": "Protective stance in her own words.",
+      "alternative": "Fits 8 and 2 as well as 7.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "At the Together for Palestine benefit in London in September 2025 she said: 'Silence in the face of such suffering is not neutrality, it is complicity.'",
+      "passage": "\"Silence in the face of such suffering is not neutrality, it is complicity\"",
+      "class": "observed",
+      "source_ids": [
+        "S41",
+        "S18"
+      ],
+      "inference": "Repeated willingness to accept audience loss and platform friction for causes she sees as protecting the vulnerable; anger and teasing appear together.",
+      "alternative": "Activism aligns with her peer group; fits 8 and 2 more directly than 7.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C90",
+      "claim": "Vanity Fair 2026: 'I was never scared of it'; she estimated she lost hundreds of thousands of followers over Gaza posts.",
+      "passage": "She told Vanity Fair in 2026, \"I was never scared of it,\" and estimated she had lost hundreds of thousands of followers.",
+      "class": "self_report",
+      "source_ids": [
+        "S18",
+        "S41"
+      ],
+      "inference": "Cost tolerance for a cause.",
+      "alternative": "The follower figure is the writer's paraphrase of her estimate.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C91",
+      "claim": "In late September 2026 she posted on Instagram about the Cornell sexual-assault lawsuit; the case is pending and some of the accused deny wrongdoing.",
+      "passage": "In late September 2026 she posted about a pending sexual-assault case involving Cornell University students, in which some of the accused deny wrongdoing.",
+      "class": "observed",
+      "source_ids": [
+        "S20",
+        "S21"
+      ],
+      "inference": "Describes only her action and the case status.",
+      "alternative": "SENSITIVE: never characterise the accused or present allegations as fact.",
+      "durability": "unresolved",
+      "review_trigger": "Before publication and at each refresh: check the status of the Cornell civil lawsuit and any criminal investigation; update or remove if charges, dismissals or retractions occur."
+    },
+    {
+      "id": "C92",
+      "claim": "The View, September 2026: when stories like this are 'not picked up in the way that you hope', 'it made me feel so much rage.'",
+      "passage": "\"it made me feel so much rage.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "Moral anger in her own words; supports the 8 case.",
+      "alternative": "SENSITIVE context (pending case).",
+      "durability": "unresolved",
+      "review_trigger": "Recheck with C91 before publication."
+    },
+    {
+      "id": "C93",
+      "claim": "Second Instagram post after Instagram limited the first: 'Tut tut tut. Oh dear. That doesn't look great does it?'",
+      "passage": "\"Tut tut tut. Oh dear. That doesn't look great does it?\"",
+      "class": "self_report",
+      "source_ids": [
+        "S20"
+      ],
+      "inference": "Defiance delivered as a tease.",
+      "alternative": "Instagram original not opened (Variety relay).",
+      "durability": "unresolved",
+      "review_trigger": "Recheck with C91 before publication."
+    },
+    {
+      "id": "C34",
+      "claim": "Executive producer of East of Eden since joining in 2020; 'I don't like messy sets'; 'I gravitate toward women that command space' (Vanity Fair 2026).",
+      "passage": "She has been an executive producer of _East of Eden_ since 2020, says \"I don't like messy sets,\" and admires producers who \"command space.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S19",
+        "S18"
+      ],
+      "inference": "A deliberate move toward authorship and running sets. Her rationale for order on set is people's feeling of being cared for and of enjoying the work.",
+      "alternative": "Moving into producing is the standard path for established actors. 'Command space' fits Type 8; caring about how people feel on set fits Type 2; wanting work to be enjoyable fits Type 7.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update if she announces a directing or writing debut or new producing deals."
+    },
+    {
+      "id": "C94",
+      "claim": "Discriminator 1: her stated reason for hiding pain concerns others' mood, and the move recurs across contexts.",
+      "passage": "Pugh says hers \"would bring people down,\" and the same move recurs from _Little Women_ to the lockdown videos.",
+      "class": "interpretation",
+      "source_ids": [
+        "S58",
+        "S56",
+        "S27"
+      ],
+      "inference": "Restates C78 with the convergent evidence.",
+      "alternative": "Type 2 explains the same reason.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C95",
+      "claim": "Theroux (wire relay): for women on set it is 'a bit stickier' because they may be branded 'a nightmare'.",
+      "passage": "it can be \"a bit stickier\" for women to push back, in case they are called \"a nightmare.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S57",
+        "S17"
+      ],
+      "inference": "Her own circumstantial explanation for on-set softness.",
+      "alternative": "Fragments within the wire writer's paraphrase.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "Theroux (wire relay): after about six takes of a crying scene the director wanted another; 'And when I'm in that state, I'm a bit mushy, so I'm like, Okay, we'll do it again.'",
+      "passage": "\"And when I'm in that state, I'm a bit mushy, so I'm like, 'Okay, we'll do it again.'\"",
+      "class": "self_report",
+      "source_ids": [
+        "S57",
+        "S17"
+      ],
+      "inference": "In the most concrete conflict anecdote in the record she did not refuse, and another person drew the line for her. Her stated motive for arguing is protecting the character, not winning.",
+      "alternative": "Key circumstantial counterweight: she names a gendered constraint, so the softness may be learned strategy. In the same episode she says 'I've always been able to make sure that I'm heard' (S59).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C96",
+      "claim": "Her unnamed male co-star told the director: 'Don't do that, man. Don't put her through that.'",
+      "passage": "Her co-star intervened: \"Don't do that, man. Don't put her through that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S57"
+      ],
+      "inference": "Another person drew the line for her.",
+      "alternative": "Her account; co-star and film unnamed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C97",
+      "claim": "She said that if she had spoken up in the same way it 'wouldn't have been received well'.",
+      "passage": "she reflected that the same words from her \"wouldn't have been received well.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S57"
+      ],
+      "inference": "Gendered explanation in her words.",
+      "alternative": "Self-report.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C98",
+      "claim": "Official Theroux clip: 'I've always been able to make sure that I'm heard.'",
+      "passage": "\"I've always been able to make sure that I'm heard\"",
+      "class": "self_report",
+      "source_ids": [
+        "S59"
+      ],
+      "inference": "Counterweight to C23.",
+      "alternative": "Said in the context of intimate scenes and inappropriate direction.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C99",
+      "claim": "Interpretation: being rescued from an on-set standoff is atypical of an Eight self-narrative.",
+      "passage": "That is an unusual story for an Eight to tell about herself.",
+      "class": "interpretation",
+      "source_ids": [
+        "S57"
+      ],
+      "inference": "Discriminator 2.",
+      "alternative": "The article immediately notes her gendered explanation and C98, so it supports rather than decides.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "Harper's Bazaar UK, April 2025: 'I've now come to terms with things that I don't like about myself and want to change. I don't want to have things just happen to me any more.'",
+      "passage": "\"I don't want to have things just happen to me any more.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S13"
+      ],
+      "inference": "Her stated change is from being carried by momentum ('things just happen to me', 'letting my career take the front') toward deliberate choice and self-care.",
+      "alternative": "A film about mortality, a break-up and a diagnosis in the same period would prompt reassessment in anyone; the language is therapeutic and retrospective.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C100",
+      "claim": "Interpretation: after one firm statement she leaves the topic, often with a joke ('Well, don't'; 'Tut tut tut').",
+      "passage": "Her firmest public statements tend to end in a joke and an exit.",
+      "class": "interpretation",
+      "source_ids": [
+        "S24",
+        "S20",
+        "S36"
+      ],
+      "inference": "Discriminator 3, drawn from C73, C93, C21.",
+      "alternative": "Not true of every statement (the 2020 video did not end in a joke); phrased as a tendency.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "She missed the Don't Worry Darling Venice press conference on 2022-09-05 (the festival attributed it to her flight from the Dune: Part Two shoot) but walked the red carpet that night.",
+      "passage": "In September 2022 she missed the film's Venice Film Festival press conference (the festival said her flight from the _Dune: Part Two_ shoot landed afterward) but walked the red carpet that night",
+      "class": "disputed",
+      "source_ids": [
+        "S33",
+        "S01"
+      ],
+      "inference": "The observable pattern is a public withdrawal from a conflict narrative, kept up for four years with polite deflection and a light touch, rather than either confrontation or reconciliation.",
+      "alternative": "SENSITIVE/DISPUTED. The behind-the-scenes conflict rests on anonymous reporting (Vulture, September 2022) denied by Wilde and by a crew statement; Pugh has neither confirmed nor denied it. Her silence may be legal or professional prudence, not temperament. Do not assert a feud, a screaming match, or her motive for the missed press conference.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C101",
+      "claim": "Reporting of on-set tension rested on anonymous sources (Vulture, September 2022); Wilde told The Cut in June 2026, 'I've never had a screaming match on my set.'",
+      "passage": "Reports of tension with the director, Olivia Wilde, rested largely on anonymous sources, and in 2026 Wilde said, \"I've never had a screaming match on my set.\"",
+      "class": "disputed",
+      "source_ids": [
+        "S35",
+        "S33"
+      ],
+      "inference": "Establishes that the feud narrative is disputed; nothing here establishes Pugh's behaviour.",
+      "alternative": "SENSITIVE/DISPUTED: do not assert a feud or Pugh's motive. Wilde is an interested party.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C102",
+      "claim": "Vanity Fair, February 2023, on Don't Worry Darling: 'I'll probably just let that one sit.' She deflected again in 2024 and 2026.",
+      "passage": "\"I'll probably just let that one sit,\" she said in 2023",
+      "class": "self_report",
+      "source_ids": [
+        "S36",
+        "S28",
+        "S18"
+      ],
+      "inference": "Consistent public withdrawal from the narrative.",
+      "alternative": "Legal or professional prudence may explain it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C103",
+      "claim": "Interpretation: from 2022 to 2026 she neither confronted nor reconciled publicly over Don't Worry Darling.",
+      "passage": "Either way, for four years she has declined either to fight that conflict in public or to resolve it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S36",
+        "S28",
+        "S18"
+      ],
+      "inference": "Observable silence across four years of interviews.",
+      "alternative": "The article names prudence as an equal explanation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "British Vogue 2024: 'I love looking after people. I love caring for people. I love the feeling of someone being there.'",
+      "passage": "\"I love looking after people. I love caring for people. I love the feeling of someone being there.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "The strongest evidence for a caring/relational (Type 2) or security (Type 6) reading; 'people feel good in my presence' also fits a mood-keeper (Type 7).",
+      "alternative": "Wanting a home and family at 28-30 is common and life-stage driven. These statements come from interviews framed around a new relationship.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C104",
+      "claim": "British Vogue 2024: the most important thing is 'that I'm a good person and people feel good in my presence'.",
+      "passage": "\"that I'm a good person and people feel good in my presence.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "Supports Type 2 (and a mood-keeper 7).",
+      "alternative": "One interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C105",
+      "claim": "Vogue 2023, of her youngest sister: 'She was as much my baby as she was my mum's.'",
+      "passage": "\"She was as much my baby as she was my mum's.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S25"
+      ],
+      "inference": "Caretaking role in the family.",
+      "alternative": "Large-family dynamics are common.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C106",
+      "claim": "Ashley Park (Vanity Fair 2026): 'She's a great chef, she's a great host, she's a great designer, she's a great planner.'",
+      "passage": "\"She's a great chef, she's a great host, she's a great designer, she's a great planner.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "Named testimony of hosting.",
+      "alternative": "Friend testimony in a cover story.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "Who What Wear, May 2025: 'I am a better person after I've rested. I'm a kinder friend. I'm a kinder lover. I'm a kinder sibling.'",
+      "passage": "\"I am a better person after I've rested. I'm a kinder friend. I'm a kinder lover. I'm a kinder sibling.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "A durable, costly pattern of overfilling her schedule, named by her and by her father. Her stated reason for rest is how it improves her treatment of others.",
+      "alternative": "Overwork fits Type 3 (achievement), Type 7 (keeping options and stimulation full) and Type 8 (intensity), and is also a rational response to a short window of peak demand. She frames it partly as ambition ('a room with these Legends').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "Harper's Bazaar 2022: 'Part of the reason we all do this is because we run away with the circus... I get to see places, see people, befriend people, fall in love with people, and then move on and do it again.'",
+      "passage": "\"Part of the reason we all do this is because we run away with the circus,\" she said in 2022. \"I think that one of the pulls for me is that I get to see places, see people, befriend people, fall in love with people, and then move on and do it again.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Across four years and different subjects (work, travel, romance) she names the beginning as the pleasure and identifies chasing the beginning as a pattern she is now correcting.",
+      "alternative": "Itinerant work, travel and early-love highs are part of many actors' lives; packing and unpacking is a light aside. Treat it as a convergent pattern, not proof from any single line.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C107",
+      "claim": "British Vogue 2024: 'Falling is the most amazing feeling, but unfortunately if that's the only thing that you know in a relationship, then that's the thing that you chase. That's not gonna last.'",
+      "passage": "\"Falling is the most amazing feeling, but unfortunately if that's the only thing that you know in a relationship, then that's the thing that you chase. That's not gonna last.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "She names chasing beginnings as a pattern she is correcting.",
+      "alternative": "Interview framed around a new relationship.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C108",
+      "claim": "Interpretation: the 2-versus-7 discriminator rests on what she describes chasing.",
+      "passage": "A Two's pattern usually runs toward being needed and hard to replace. Hers, by her own account, ran toward beginnings.",
+      "class": "interpretation",
+      "source_ids": [
+        "S24",
+        "S28",
+        "S18"
+      ],
+      "inference": "Built from C10, C107, C109.",
+      "alternative": "Weaker discriminator; the article states the Two reading is not ruled out.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C109",
+      "claim": "British Vogue 2024: 'I don't think it's confidence in hoping people like me. I think it's just, like, I don't want to be anyone else.'",
+      "passage": "\"I don't think it's confidence in hoping people like me. I think it's just, like, I don't want to be anyone else\"",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "Rejects approval as her engine; weighs against Types 2 and 3.",
+      "alternative": "Self-report.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "British Vogue 2024: friends since 13 matter because 'I don't want to be someone that no one else likes outside of this industry.'",
+      "passage": "\"I don't want to be someone that no one else likes outside of this industry.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "Family and old friends serve as a deliberate check on how fame might change her (compare 'you were being a bit of a muppet', C31 sources).",
+      "alternative": "Light family colour; no source names the grandmother 'Nana Pat'. The 'no one else likes' line could be read as approval-seeking (Type 2) or as fear of losing her real self.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C110",
+      "claim": "Limit: no public evidence of how she responds when her giving is unreciprocated.",
+      "passage": "The observation that would separate the two best, how she reacts when her care goes unreturned, is missing from the public record.",
+      "class": "interpretation",
+      "source_ids": [
+        "S28",
+        "S17"
+      ],
+      "inference": "Honest statement of the open research task.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "British Vogue 2024: 'I've never found it a challenge to be acting in pain... I sometimes prefer it... I feel like it's my duty to play human and ugly.'",
+      "passage": "\"I've never found it a challenge to be acting in pain,\" she said in 2024. \"I sometimes prefer it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S28",
+        "S10"
+      ],
+      "inference": "Fear followed by mastery is something she seeks out; 'come alive' language suggests the challenge itself is rewarding.",
+      "alternative": "Preferring to act in pain sits awkwardly with a pain-avoidant (Type 7) reading; seeking fear-then-mastery can also read as counterphobic Type 6 or as Type 8 testing her strength. Workplace challenge differs from personal pain.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C111",
+      "claim": "British Vogue 2024: 'I feel like it's my duty to play human and ugly.'",
+      "passage": "She calls it \"my duty to play human and ugly.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "Moves toward pain in the work.",
+      "alternative": "Craft talk.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C112",
+      "claim": "CBC Q, October 2024: 'the majority of my roles that I've taken on I've been terrified by'.",
+      "passage": "\"the majority of my roles that I've taken on I've been terrified by\"",
+      "class": "self_report",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "Fear-seeking role choice.",
+      "alternative": "Auto-captions; she partially corrects the host's framing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C113",
+      "claim": "She joined East of Eden as executive producer in 2020; it premiered in 2026.",
+      "passage": "She spent six years bringing _East of Eden_'s Cathy Ames to the screen",
+      "class": "observed",
+      "source_ids": [
+        "S19",
+        "S18"
+      ],
+      "inference": "Long commitment to a dark character.",
+      "alternative": "Producing timelines are set by others too.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "Harper's Bazaar UK, April 2025, on Cathy Ames: 'It's my responsibility to understand the character, because they can't defend themselves.'",
+      "passage": "\"It's my responsibility to understand the character, because they can't defend themselves.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "A consistent protective stance toward the vulnerable or misjudged (characters, a partner in C16, women in C26), with 'they can't defend themselves' as the stated trigger.",
+      "alternative": "Protective advocacy fits Type 8 (protecting the vulnerable), Type 2 (championing the person) and actor craft norms (an actor must not judge the role). It does not by itself discriminate between types.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C114",
+      "claim": "British Vogue 2024: what she wants is 'safety, family, a home and security'.",
+      "passage": "\"safety, family, a home and security.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "Security/home motive, not predicted by the 7 stereotype.",
+      "alternative": "Life-stage driven; interview framed around a new relationship.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "She has been in a relationship with actor Finn Cole since about 2024 (per Wikipedia; Vanity Fair 2026 says \"the last few years\").",
+      "passage": "Of her relationship with the actor Finn Cole, she told Vanity Fair in 2026",
+      "class": "third_party",
+      "source_ids": [
+        "S18",
+        "S01"
+      ],
+      "inference": "Context only; she now declines most relationship questions (C25).",
+      "alternative": "Do not report engagement rumours or the start date as fact; use 'has been with Finn Cole since about 2024' with attribution.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck relationship status before publication and at each refresh; do not speculate."
+    },
+    {
+      "id": "C25",
+      "claim": "Vanity Fair 2026: 'I don't want to be a secret, but I also don't want everything to be divulged.'",
+      "passage": "\"I don't want to be a secret, but I also don't want everything to be divulged,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "Her response to sustained public intrusion is withdrawal of the exposed area, not continued confrontation; she had begun taking social media off her phone when anxious by 2023.",
+      "alternative": "Privacy is a rational lesson from the 2020 abuse and DWD coverage, and a common trajectory as stars grow bigger (she says so herself). Withdrawal can also be a Type 8 control move.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C115",
+      "claim": "Vanity Fair 2026, of her relationship: 'I feel solid and safe and sturdy.'",
+      "passage": "\"I feel solid and safe and sturdy.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "Security language.",
+      "alternative": "Relationship-specific statement.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "Zoe Kazan (Vanity Fair 2026): 'I walked away from our process not understanding any better than I did beforehand how she works.'",
+      "passage": "\"I walked away from our process not understanding any better than I did beforehand how she works,\" Kazan told Vanity Fair.",
+      "class": "third_party",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "Lightness and clowning sit beside fierce focus; collaborators find the work process opaque.",
+      "alternative": "Promotional testimony. Keeping it light on set is also a professional skill.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C116",
+      "claim": "We Live in Time was shot in 2023 and released in October 2024.",
+      "passage": "_We Live in Time_, shot in 2023 and released in 2024",
+      "class": "third_party",
+      "source_ids": [
+        "S13",
+        "S14",
+        "S01"
+      ],
+      "inference": "Dating for the turning point.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C117",
+      "claim": "Reign (January 2025), after We Live in Time: 'I definitely wanted to wake up to my own decisions and I didn't want to push things anymore.'",
+      "passage": "\"I definitely wanted to wake up to my own decisions and I didn't want to push things anymore,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Stated turn from momentum to choice.",
+      "alternative": "Auto-captions; therapeutic, retrospective language.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C118",
+      "claim": "Harper's Bazaar UK, April 2025: 'I've worked back-to-back since I started, and I've missed so much.'",
+      "passage": "\"I've worked back-to-back since I started, and I've missed so much.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Costly overfilled schedule named by her.",
+      "alternative": "Rational response to peak demand.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C119",
+      "claim": "Her spring 2025 three-week holiday was her first ever of that length.",
+      "passage": "In spring 2025 she took a three-week holiday, her first ever of that length",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Change in behaviour.",
+      "alternative": "The writer's paraphrase of her account.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C120",
+      "claim": "British Vogue 2024: 'I think for the first time, I'm not allowing myself to go on a roller-coaster.'",
+      "passage": "\"I think for the first time, I'm not allowing myself to go on a roller-coaster,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "Self-correction in romance.",
+      "alternative": "Relationship-stage statement.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C37",
+      "claim": "Vanity Fair 2026: her rule after a period of lateness 'years ago': 'You don't like that behavior? Change it now before it becomes comfortable.'",
+      "passage": "\"You don't like that behavior? Change it now before it becomes comfortable.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "Self-correction by quick decision; her current wish for home life shows the change described in C28.",
+      "alternative": "Undated and brief; the rest plan is the writer's paraphrase apart from the quoted lines.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C121",
+      "claim": "Vanity Fair 2026: 'I love packing,' she says. 'I hate unpacking.'",
+      "passage": "\"I love packing,\" she said. \"I hate unpacking.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "A light aside used as the closing image of the beginnings pattern.",
+      "alternative": "A throwaway line; the article labels it as such.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 7,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C08",
+      "C53",
+      "C55",
+      "C56",
+      "C09",
+      "C78",
+      "C94",
+      "C15",
+      "C79",
+      "C36",
+      "C14",
+      "C81",
+      "C07",
+      "C18",
+      "C71",
+      "C75",
+      "C23",
+      "C99",
+      "C65",
+      "C46",
+      "C66",
+      "C74",
+      "C28",
+      "C100",
+      "C10",
+      "C107",
+      "C108",
+      "C121",
+      "C50"
+    ],
+    "against": "Three bodies of evidence push against Type 7. Type 8: Shortland, Gerwig, Johansson and Villeneuve describe steel, refusal to yield and an unapologetic presence (C32, C57, C83, C84); she calls herself 'a bit of a big mouth' (C03), forces physical commitments past institutional caution (C13, C85, C86), defends a partner and causes publicly at real cost (C16, C88, C89, C26, C90, C91, C92) and wants producing power and orderly sets (C34). Type 2: her own words for her most costly habit are a Helper's ('the last person that I look after', 'good for everybody else', C09; 'people pleaser', C76, machine transcript only), she says she loves 'looking after people' (C30, C104), was a second mother to her youngest sister (C105), and is described as a host (C31, C106); her case for rest is about being kinder to others (C11). The childhood 'complete control' pleasure in performing (C45) reads as 8 or 3 as easily as 7. And she moves toward pain in the work (C06, C51, C12, C111, C112, C113, C24). Circumstance explains much of the 7-looking surface: back-to-back scheduling in peak demand (C52), a gendered constraint on pushback she names herself (C95, C97), a candid brand (C43), and post-breakup therapeutic vocabulary (C29).",
+    "alternative_type": 8,
+    "alternative_case": "On the Type 8 reading the through-line is refusal to be controlled or reshaped, plus protection of the vulnerable. 'Complete control' over a silent audience at a school nativity (C45); 'I don't like being told how to do things... it made me angry' at 21 (C46); 'push you left and right' after Studio City (C04, C65); 'a bit of a big mouth' (C03); five collaborators over seven years describing force and steel (C32, C57, C83, C84); persistence against Marvel's insurance caution and her director's resistance (C13, C85, C86); public, profane defiance of body-shamers and abusers (C73, C88); 'I'll always defend people that I love' (C89); rage and audience loss over Gaza and the Cornell case (C26, C90, C92); executive-producer power and 'women that command space' (C34). On this reading the people-pleasing line describes one painful relationship (C29), and her softness on set is a learned gendered strategy she names herself (C95, C97).",
+    "discriminator": "What she does with her own pain, and what her pushback defends. (1) Her stated reason for hiding pain is that it 'would bring people down' (C09, C78), not fear of appearing weak or controlled; the same move recurs in unrelated contexts and years: Little Women as 'the best therapy' after Midsommar, then depression at Christmas she hadn't dealt with (C53, C55, C08, C56); dancing and cooking to 'keep moving' in lockdown (C79, C15); teenage 'quick fixes' (C36, C80); and leading with 'not a wink of me was nervous' before naming the hurt two years later (C71, C18, C75). Note: the print relay (S58) has 'good for everybody else' where the machine transcript has 'upbeat'; the argument does not rest on that word. (2) In her most detailed on-set standoff she went along ('I'm a bit mushy') until a male co-star intervened (C23, C96, C97); she gives a gendered explanation and says she can make herself heard (C95, C98), so this supports rather than decides (C99). (3) Her defiance names freedom: being 'told how to do things' (C46), 'push you left and right' (C65), 'the freedom that people are scared of' (C74), 'I don't want to have things just happen to me any more' (C28); her firmest statements tend to end in a joke and an exit ('Well, don't', 'Tut tut tut', 'let that one sit', C73, C93, C102, C100). Shortland's 'will not back down' (C32) and the Cornell rage (C92) fit the Eight better, and the article shows both. Against Type 2 the discriminator is weaker: what she describes chasing is beginnings (C10, C107, C121), she rejects approval as her engine (C109), though C44 cuts the other way (C108, C110).",
+    "unexplained": "(1) Her attraction to pain in the work: the Midsommar method (C06, C51), 'I sometimes prefer [acting in pain]' and 'my duty to play human and ugly' (C12, C111), roles that terrify her (C112), six years on Cathy Ames (C113, C24). Craft may explain it, or the 7 reading is incomplete; fear-seeking choices could also suggest a counterphobic Six. (2) Moral anger and audience loss over Gaza and the Cornell case (C26, C90, C92) fit 8 or 2 better than 7. (3) The people-pleasing self-report (C09, C76) and her love of looking after people (C30, C104) remain the strongest Type 2 evidence. (4) Her 2024-2026 turn toward home and security ('safety, family, a home and security', 'solid and safe and sturdy', C114, C115, C25) could be maturation, a stable relationship or a security motive. (5) Collaborators find her process opaque (C33), and the record is almost entirely promotional (C43). Wing and subtype are left unassigned."
+  }
+}

@@ -1,0 +1,19 @@
+I've written the fan review for the Florence Pugh draft to `docs/content-analysis/pipeline-logs/2026-10-04_05-12-39-331_Florence-Pugh/review-fan.json`. It passes the review schema check, carries the request's two hashes, and every quoted passage matches the draft word for word. I changed no other files and published nothing.
+
+**The verdict:** the Type 7 call at medium confidence still holds, and the Type 8 case is argued fairly. But several small timeline and context errors all tilt toward the thesis, so the story looks tidier than her public record. There are 8 findings: 6 major, 2 minor.
+
+**Major (6):**
+- **Studio City date is wrong.** The draft says she told the story six years later. She first told it in a 2018 Guardian profile, three years after the pilot; I opened the article to confirm. That version has her stronger lines ("just a canvas", "I swore I would never go back") and says Lady Macbeth came two months later, not two weeks.
+- **One FAQ answer is wrong.** It says she has never explained her silence on *Don't Worry Darling*. In British Vogue (2024) she gave a reason: it's "unfair to take the space away from the movie" she's promoting. The draft also leaves out her 2022 Harper's Bazaar jab at the film's marketing.
+- **"Only in September 2024 did she name the hurt"** isn't accurate. She talked about fear and hurt over the Valentino dress backlash in 2023, including in the same ELLE answer the draft quotes.
+- **The persona title, "Keeps Her Own Pain Quiet", overclaims.** She's known for being open about pain, including well-known disclosures the draft doesn't mention: her 2024 PCOS/endometriosis diagnosis and the "lumpy throat" line about her 2022 breakup. The body argues something narrower: the fun comes first and the pain gets named later.
+- **The retake story loses its context.** In the same podcast segment she says she used to argue a lot with directors and still does "in a softer way". That only exists in an automated transcript, so it needs the same caution the draft already uses elsewhere.
+- **One quote is misused.** "I don't want to have things just happen to me any more" is about changing her own habits, not pushing back against others. The draft also skips her own explanation for showing her body: she'd rather do it herself than be shamed by others.
+
+**Minor (2):**
+- The draft makes her passive where she chose: she arranged the schedule to go straight from *Midsommar* to *Little Women*. It makes her deliberate where luck played a part: the 2025 holiday came from a schedule gap, and she said of resting, "it never happens."
+- The Type 2 section counts her hosting as evidence of a Two without noting her family's hospitality trade (restaurateur father, grandfather who ran a pub).
+
+I marked five passages to keep, including the opening's "same story with a different ending" turn and the closing packing/unpacking line. I flagged two risks: sensitive allegations (the pending Cornell case and the anonymously sourced *Don't Worry Darling* reports) and contested typing. Both point to the full six-reviewer panel. The similarity check found no reused writing.
+
+The Supabase connection failed this session, and several connectors (Ahrefs, Slack, GitHub and others) need authorizing in your settings; this stage needed none of them.

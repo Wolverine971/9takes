@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "9b8e08ed61264367b5853138ef43a04338ce16d75724985acdd998ddcb04546b",
+  "evidence_sha256": "920633e02a4f83cf7d792f5b9aa7fecbc0386b18a170ef1df916bc3023c0f7a1",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "He did not walk in willingly. According to THR, at 14 he was skipping so much school that his father set a condition for letting it continue: help out on a family friend's stage production of _Romeo and Juliet_.",
+      "problem": "The origin story takes THR's framing ('He started acting at 14, but against his will', S30) and drops the record that contradicts it. His first screen credit is Bilched (2019, shot in 2018 when he was about 13). Hal wrote it, their father directed it, the cast included 'his younger brothers and friends', and Zada played Toby (S15; Hal Cumpston Wikipedia, S24, reopened 2026-10-04). In the same Fanning answer the draft quotes, he says: 'It was never strange for us to act, or to be chucked into a short film for someone's friend' (S01, reopened via reader proxy 2026-10-04). THR also has him taking small roles in The Speedway Murders and Total Control before Invisible Boys. So what he resisted at 14 was the stage and the risk of embarrassing himself, not acting or the family trade. The H2 'Kicking and screaming into the family trade' overstates this. The Nine section then reuses it as 'a teenager who went into acting \"kicking and screaming,\"', which turns a stage reluctance into inertia toward acting. Omitting Bilched also hides the most relevant precedent for 'A name for the whole family': the Cumpstons already made a feature together as a family, which bears directly on 'We all want to stick together as a family and make films together.' The evidence record had this as C79 and removed it as 'unused'.",
+      "acceptance_test": "Before the Romeo and Juliet anecdote, the formative section says he had already acted on camera, in his father's 2019 feature Bilched, written by and starring Hal, and that acting was 'never strange' at home (S01). The resistance at 14 is described as resistance to the stage and embarrassment. Neither the H2 nor the Nine section says he went into acting itself unwillingly. The family-company paragraph mentions or links the Bilched precedent, or the edit records why not. The claim inventory restores a Bilched claim citing S15, S24 and S01."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "The two famous predecessors got different treatment.",
+      "problem": "The draft leaves out the one statement that shows how Dean's legacy actually landed on him. Right after describing the eight-month wait, he told Fanning: 'I didn't necessarily feel pressure until I finished the job and watched the film. Then I was like, \"Oh, shit.\" [Laughs] That is an incredible, incredible performance from James Dean' (S01). THR confirms he watched it the day the series wrapped (S30). That makes the two predecessors parallel, not different, on the point the thesis cares about. Each was kept out of his head during the work (Dean by Kazan's request, Harrelson 'for my nerves'), and each registered only after the job was safely done: pressure about Dean's performance, a blank beside Harrelson. This also breaks the clean split in the October paragraph ('\"My own shoes\" is a claim about the work ... The blank at dinner is about the man'). Dean's work, not Dean the man, produced the 'Oh, shit.' An informed reader who knows the Fanning interview will see the strongest pattern in the predecessor story missing.",
+      "acceptance_test": "The predecessor section quotes or closely paraphrases the after-the-job 'Oh, shit' reaction to Dean's performance, with its timing. 'Different treatment' is revised, or the text explains why the after-the-fact pressure doesn't count. The 'side by side' paragraph no longer says only the person, never the work, unsettles him, or it addresses the Dean line directly. If THR's 'the same angst and need for approval' is used, it is clearly his reading of Dean's Cal, not a self-description."
+    },
+    {
+      "id": "fan-03",
+      "severity": "minor",
+      "passage": "his mixed record with authority, following a director's repeated instruction while walking out on a principal's ultimatum, fits most young actors as well as it fits a Six",
+      "problem": "Zoe Kazan created, wrote and ran East of Eden, but she directed none of its episodes. Garth Davis directed episodes 1-4 and Laure de Clermont-Tonnerre episodes 5-7, including both of Zada's (East of Eden Wikipedia, S16, reopened 2026-10-04). The draft correctly calls her 'showrunner' elsewhere, so 'a director's repeated instruction' is an inconsistent and inaccurate label. The predecessor section also misses context that most fans would expect: Kazan is the granddaughter of Elia Kazan, who directed Dean in the 1955 film (S16). THR's own profile (S30) makes the link ('not your granddaddy's East of Eden — not even Zoe Kazan's') and reports her Zoom with him. When he named River Phoenix and Heath Ledger as favourite actors, she told him: 'you have to start liking actors who made it past 28. If we put you in this role, we are not repeating history.' Without that, 'She said it so many times' reads as routine craft advice, when the person asking was handling her own family's version of the Dean myth.",
+      "acceptance_test": "The type section calls Kazan the showrunner (or 'his showrunner'), not a director. The first Kazan mention adds, in one clause, that her grandfather Elia Kazan directed the 1955 film, sourced to S16 or S30. Adding the Phoenix/Ledger exchange is optional. If it is added, it is attributed to Kazan via THR and not used as evidence of his motive."
+    },
+    {
+      "id": "fan-04",
+      "severity": "minor",
+      "passage": "Zada plays Cal in Netflix's seven-episode version.",
+      "problem": "The opening twice implies he leads East of Eden: 'the day his Netflix series _East of Eden_ premiered' and 'Zada plays Cal in Netflix's seven-episode version'. He appears only in the last two of the seven episodes (S01: 'I'm in the last two episodes'; S30: his character 'doesn't make an appearance until the final two episodes'), and the series is led by Pugh, Christopher Abbott and others. The reader learns this only near the end ('his two episodes'). For a profile whose hook is the Dean comparison, the sharper and more accurate fact is in THR: Elia Kazan's film adapted only the last part of the novel, the Cal section, which is exactly the part Zada plays. So the comparison is direct for his two episodes and doesn't apply to the series as a whole.",
+      "acceptance_test": "At first mention, the opening says he plays Cal in the final two of the seven episodes. 'His Netflix series' is replaced with wording that doesn't make him its lead. Optionally, one clause notes that the 1955 film covers the same late section of the novel."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "The same profile describes the first time Zada sat beside Harrelson, at a dinner after the prequel was shot. \"But everything I knew about him just went out of my mind. I couldn't think of any questions. I forgot everything I wanted to ask him.\"",
+      "problem": "The quote opens on 'But' because its first half is cut. Per THR (S30) he said: 'We chatted and he asked me questions about myself and told me stories. But everything I knew about him just went out of my mind.' THR's writer frames it as blanking 'on all the research he'd done', and to Fanning he said Harrelson 'was so, so lovely about the whole process' (S01). The full scene is a warm conversation, led by Harrelson, in which his prepared questions evaporated. That is ordinary starstruck behaviour, not a freeze, and it actually fits the draft's own mechanism of being made comfortable. Cut down, it carries more alarm than the source does. The Nine section then lists it as alarm he 'reports' ('the blank beside Harrelson in October 2026. He reports the alarm, then goes to find his people'), and the description and meta title lead with it.",
+      "acceptance_test": "The opening (or the predecessor section) includes or paraphrases 'We chatted and he asked me questions about myself and told me stories' before the blank. The disclosure sequence in the Nine section either drops the dinner blank or describes it as a starstruck lapse rather than reported alarm. The metadata implies no distress beyond what the full quote supports."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "\"My own shoes\" is a claim about the work, and two months of study followed by a deliberate departure gives him some right to it.",
+      "problem": "Fans of the novel will notice two things. First, Collins' Sunrise on the Reaping builds this arc into the character. Haymitch starts as a 16-year-old who loves his mother, his brother Sid and Lenore Dove. The Capitol kills all three after his victory, and he retreats into alcoholism (novel synopsis on Wikipedia, checked 2026-10-04). 'The opposite of Woody's character — make him happy, optimistic, caring — and then find a way to get to where he would eventually wind up' is therefore largely the source's design. Second, the 'own shoes' position isn't a single release-week line. In June 2026 he told Fanning, 'this is very much my interpretation of the character. You meet Woody after 24 years of drinking, so I could do whatever the hell I wanted with that character' (S01). The draft treats the departure as a self-set act of independence while omitting both the book's licence and the earlier, repeated version of the claim. The first inflates the evidence for self-direction. Omitting the second understates the counterevidence, since a stance repeated four months apart to two interviewers is harder to dismiss as junket phrasing.",
+      "acceptance_test": "One clause tells the reader that the novel itself takes a hopeful 16-year-old to the broken mentor, so the 'opposite of Woody' choice is weighed as interpretation within the source. The June 2026 'whatever the hell I wanted' line (or a paraphrase) appears near the October quote to show the stance recurs. The type argument doesn't count the departure as stronger evidence of self-direction than the source allows."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "THR's writer heard him \"not the least bit haunted by the ghosts of movie stars past.\" About the roles, he isn't. About the people,",
+      "reason": "A precise pivot that accepts the reporter's framing for the roles and turns it on the people. It sets up the profile's best tension in a few words."
+    },
+    {
+      "passage": "His confidence arrived once the people he feared had been reclassified as peers.",
+      "reason": "A real insight drawn from his own wording ('these people are actually normal people'). It treats counterevidence fairly and still finds a mechanism in it."
+    },
+    {
+      "passage": "The reclassification did not hold.",
+      "reason": "A short turn that ties two dated interviews eleven months apart into a test the reader can check. This cross-time comparison is the kind the standard asks for."
+    },
+    {
+      "passage": "Chilling is also the word he used for what company protects him from: \"chilling in my own head and going crazy by myself.\"",
+      "reason": "A distinctive close-reading detail specific to this subject, offered with its own limit ('Two uses of a casual word cannot prove it')."
+    },
+    {
+      "passage": "Nervousness, gratitude and \"the cast became a family\" are the house style of those formats, and a newcomer sharing a cast list with Glenn Close and Ralph Fiennes would produce them whatever his type.",
+      "reason": "An honest statement of the source-base limit that shapes how everything after it is weighed. It should survive any trim."
+    }
+  ],
+  "assessment": "Informed-reader pass. I reopened the Interview Magazine transcript (S01) and the THR profile (S30) in full and checked the East of Eden, Sunrise on the Reaping (film and novel), Joseph Zada and Hal Cumpston Wikipedia pages. Quotations I checked against S01 and S30 are accurate: the Pugh exchange, the three-week tape, the name and lineage lines, 'kicking and screaming', the ultimatum, 'my own shoes', the Harrelson study and dinner, Kazan's 'biggest movie star', the girlfriend and LA lines. Jeremy Cumpston's medical career is real. The We Were Liars season 2 claim holds: S33 has it wrapping the night before the premiere, which supersedes THR's 'shooting in Canada right now'. The problems are omissions a fan would notice, and two of them change the argument. First, the origin story drops Bilched and his own 'never strange for us to act'. That overstates his reluctance and hides a precedent for the family-company plan (fan-01). Second, the predecessor section misses his after-the-job 'Oh, shit' about Dean's performance, which makes the two predecessors parallel and complicates the work/man split the October paragraph depends on (fan-02). Smaller items: Kazan is mislabelled a director, and her grandfather link and Phoenix/Ledger exchange are absent (fan-03); the opening implies he leads East of Eden when he appears in two of seven episodes (fan-04); the Harrelson quote is trimmed toward alarm (fan-05); and the novel's built-in arc plus the June 2026 'whatever the hell I wanted' line are missing from the 'own shoes' weighing (fan-06). None of these is flattery repair. Several cut against the Six case, and fan-02 could strengthen it. Typing remains contested between 6, 9 and 3, so contested_typing stays flagged. The genealogy (great- versus great-great-grandfather) and THR's 'started acting at 14' framing keep historical_source_uncertainty flagged. Similarity: every tripped pair is against this article's own 2026-09-12 version, which is expected in a refresh. The highest score against any other subject is 0.027, below the 0.04 trip, and the shared phrases are standard type vocabulary, so I found no meaningful cross-subject reuse. The writing is strong and deliberately hedged. Protect the passages listed."
+}

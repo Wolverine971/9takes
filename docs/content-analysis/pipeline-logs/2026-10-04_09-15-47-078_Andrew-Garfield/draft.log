@@ -1,0 +1,24 @@
+I've finished the draft stage for Andrew Garfield and written the two requested files, `draft.md` and `evidence-draft.json`. Nothing else in the repo changed and nothing was published. The contract's own checks pass: no blockers, 3,936 words, eight sections, and the evidence record is valid (status ready, 59 claims, 29 sources).
+
+**The new angle.** The old "won't let his grief heal" framing is gone; his own words contradict it. The profile now follows his journey from wanting to be extraordinary to wanting to be ordinary:
+- As a boy he was "enraged at the concept of this being everything."
+- His mother's death taught him "I wasn't special."
+- In September 2026 he said he wants to "free myself into my ordinariness."
+
+The opening is the 2021 Colbert answer: the internet kept "I hope this grief stays with me" and dropped the half where he says he uses art "as a way to heal." The type call is 4 at medium confidence, with 9 as the strongest alternative and 3 a serious second.
+
+**Corrections I found while drafting:**
+- **The ocean story:** his moment of realizing "I wasn't special" happened *before* his mother died, not after. It's now backed by a print source: a 2022 *Vanity Fair* interview, relayed word for word by a wire service. The podcast transcript is no longer the only basis.
+- **"The grief of living" (2017):** the full sentence is about the world ("…where a life of joy and love is f–ing impossible"), not personal loss. The draft quotes it in full.
+- **"I'm scared of what it could turn into":** this was a 2023 Golden Globes joke, not a *Chicken Shop Date* line. Removed from that context.
+- ***The Advocate*'s "gay-baiting" line:** that's the outlet's paraphrase. The critic's actual quoted words are "Straight actors, please stop this nonsense," and that's what the draft quotes.
+
+**Two calls you can veto:**
+1. **New meta title:** "Andrew Garfield Enneagram Type 4: Why He Ran Toward His Grief." The persona title is now "The Seeker Learning to Be Ordinary."
+2. **The 2017 *Angels in America* controversy stays in.** It's attributed carefully, with his response quoted and no verdict of my own. Cutting it would soften the profile but lose its most honest complication.
+
+**Still open:** on *Chicken Shop Date*, the Oscar lines ("I think I needed that," "just like my father") are attributed to him by context, because the captions don't say who's speaking. The article says so where they appear. A few Maron podcast lines also rest only on an automatic transcript.
+
+The date, lastmod, slug and unpublished state are kept as they were. This draft goes to the full six-reviewer panel because of the contested typing, the sensitive topic and the thesis change.
+
+Separately, the Supabase connector failed to connect this session; it wasn't needed here. Several plugin connectors (GitHub, Slack, Notion, Ahrefs and others) need authorizing in your claude.ai connector settings or via `/mcp` before they'll work.

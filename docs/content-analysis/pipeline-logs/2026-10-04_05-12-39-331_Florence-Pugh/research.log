@@ -1,0 +1,22 @@
+The research stage is done: `evidence.json` is written and passes the pipeline's own schema check with status **ready**. No other files were changed and nothing was published. The other modified files in `git status` come from parallel work, not from this run.
+
+**What's in it:** 55 sources, all opened, and 50 claims, checked as current on 2026-10-04. The sources run from her earliest interview (Observer, December 2014) to her September 2026 Vanity Fair cover and the week's *East of Eden* and Cornell coverage. I checked most key quotes word for word against the pages or transcripts. A few lower-weight ones were captured by research sub-agents and not re-checked line by line; the file marks which.
+
+**Type call: 7 (Enthusiast), medium confidence, with 8 as the main rival.** The site's empty database stub already says 7, so there's no thesis change.
+- **Why 7 beats 8:** what she does with her own pain. She hid it to stay "upbeat for everybody else… it would bring people down" (Louis Theroux podcast, 2025). She buried the *Midsommar* grief on the fun *Little Women* set and was depressed months later "and I didn't know why." She led with "not a wink of me was nervous" over the Valentino dress and admitted two years later it was "really painful." When her pushback has a stated object, it's freedom ("push you left and right"), not control. In her one concrete on-set fight, a male co-star drew the line for her.
+- **The case for 8 is real:** five directors and co-stars call her steely, "will not back down" and unapologetic, and she lost hundreds of thousands of followers over Gaza.
+- **Type 2 is a live third reading.** Her own words for her worst habit are "people pleaser" and "the last person that I look after." The evidence against 2 is weaker, and I told the draft to name it openly.
+
+**Risk flags (sensitive allegations, contested typing) send this to the six-reviewer jury, not the standard two.**
+- The Cornell sexual-assault case is pending and the accused deny it.
+- The reported *Don't Worry Darling* feud with Olivia Wilde rests on anonymous sources, and Pugh has never confirmed it.
+- An unnamed ex-partner she describes as painful must not be identified.
+- Fan sites type her as 8, 3 or 6.
+
+**Before the draft leans on these, eight research tasks are listed.** The two that matter most:
+- Confirm the Theroux podcast passages against the audio. My source is an unlabelled machine transcript, and those passages carry the 7-versus-8 argument.
+- Recheck the Cornell case status before publication.
+
+Two of the brief's leads were wrong. Her grandmother is "Granzo Pat" or "Granny Pat" in every source, never "Nana Pat". Her 2020 BAFTA nomination was Supporting Actress; the Rising Star nomination was 2018, and she didn't win.
+
+Unrelated: the Supabase connector failed to connect this session, and several plugin connectors (Ahrefs, Slack and others) need authorising in your connector settings. None of them were needed for this stage.

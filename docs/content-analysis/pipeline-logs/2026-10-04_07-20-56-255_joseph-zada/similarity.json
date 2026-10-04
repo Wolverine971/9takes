@@ -1,0 +1,362 @@
+{
+  "target": {
+    "person": "joseph-zada",
+    "type": "6",
+    "units": 14,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_07-20-56-255_joseph-zada/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 16
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27
+    },
+    {
+      "person": "Patrick-Mahomes",
+      "date": "2026-09-08",
+      "units": 43
+    },
+    {
+      "person": "Bill-Burr",
+      "date": "2026-09-07",
+      "units": 32
+    },
+    {
+      "person": "Rebecca-Yarros",
+      "date": "2026-08-31",
+      "units": 28
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 3332,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.009,
+    "max": 0.692
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.692,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "six fear",
+        "ground giv",
+        "giv way",
+        "trust people",
+        "a six fear",
+        "six fear the",
+        "fear the ground",
+        "the ground giv",
+        "ground giv way",
+        "giv way and",
+        "way and settle",
+        "trust people and",
+        "people and structure"
+      ],
+      "target": "[diagnosis] A Six fears the ground giving way and settles once trusted people and structure are in place.",
+      "other": "[diagnosis] A Six fears the ground giving way and settles when trusted people and structure are in place."
+    },
+    {
+      "score": 0.626,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "record favor",
+        "mainly through",
+        "s record favor",
+        "record favor the",
+        "favor the six",
+        "mainly through what",
+        "through what settle"
+      ],
+      "target": "[diagnosis] Zada's record favors the Six mainly through what settles him.",
+      "other": "[diagnosis] Zada's record favors the Six version mainly through what settles him."
+    },
+    {
+      "score": 0.542,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "role thi",
+        "thi size",
+        "role thi size",
+        "thi size would",
+        "size would fit"
+      ],
+      "target": "[diagnosis] Nerves about roles this size would fit Type 6",
+      "other": "[diagnosis] Nerves about a role this size would fit Type 6"
+    },
+    {
+      "score": 0.371,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "nine fear",
+        "fear disruption",
+        "a nine fear",
+        "nine fear disruption",
+        "fear disruption and",
+        "disruption and settle"
+      ],
+      "target": "[diagnosis] A Nine fears disruption and settles by tuning the pressure out.",
+      "other": "[diagnosis] A Nine fears disruption and settles by smoothing things over or tuning pressure out."
+    },
+    {
+      "score": 0.297,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "test whether",
+        "whether people",
+        "test whether people",
+        "whether people can"
+      ],
+      "target": "[diagnosis] He does not visibly test whether people can be trusted",
+      "other": "[diagnosis] such as testing whether people can be trusted or ambivalence toward authority"
+    },
+    {
+      "score": 0.252,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "three fear",
+        "fear fail",
+        "settle through",
+        "a three fear",
+        "three fear fail",
+        "and settle through"
+      ],
+      "target": "[diagnosis] A Three fears failing and settles through results.",
+      "other": "[diagnosis] A Three fears failing in front of people who matter and settles through visible performance."
+    },
+    {
+      "score": 0.126,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "big test",
+        "before a big",
+        "a big test"
+      ],
+      "target": "[diagnosis] Before a big test he builds footing from trusted people and heavy preparation",
+      "other": "[diagnosis] he looks for solid footing in people he trusts before a big test"
+    },
+    {
+      "score": 0.071,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "trust people",
+        "trust people and"
+      ],
+      "target": "[diagnosis] Before a big test he builds footing from trusted people and heavy preparation",
+      "other": "[diagnosis] A Six fears the ground giving way and settles when trusted people and structure are in place."
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 16,
+      "maxScore": 0.692
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42,
+      "maxScore": 0.027
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39,
+      "maxScore": 0.016
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27,
+      "maxScore": 0.015
+    },
+    {
+      "person": "Patrick-Mahomes",
+      "date": "2026-09-08",
+      "units": 43,
+      "maxScore": 0.013
+    },
+    {
+      "person": "Bill-Burr",
+      "date": "2026-09-07",
+      "units": 32,
+      "maxScore": 0.01
+    },
+    {
+      "person": "Rebecca-Yarros",
+      "date": "2026-08-31",
+      "units": 28,
+      "maxScore": 0.009
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11,
+      "maxScore": 0.007
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.692,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "six fear",
+        "ground giv",
+        "giv way",
+        "trust people",
+        "a six fear",
+        "six fear the",
+        "fear the ground",
+        "the ground giv",
+        "ground giv way",
+        "giv way and",
+        "way and settle",
+        "trust people and",
+        "people and structure"
+      ],
+      "target": "[diagnosis] A Six fears the ground giving way and settles once trusted people and structure are in place.",
+      "other": "[diagnosis] A Six fears the ground giving way and settles when trusted people and structure are in place."
+    },
+    {
+      "score": 0.626,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "record favor",
+        "mainly through",
+        "s record favor",
+        "record favor the",
+        "favor the six",
+        "mainly through what",
+        "through what settle"
+      ],
+      "target": "[diagnosis] Zada's record favors the Six mainly through what settles him.",
+      "other": "[diagnosis] Zada's record favors the Six version mainly through what settles him."
+    },
+    {
+      "score": 0.542,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "role thi",
+        "thi size",
+        "role thi size",
+        "thi size would",
+        "size would fit"
+      ],
+      "target": "[diagnosis] Nerves about roles this size would fit Type 6",
+      "other": "[diagnosis] Nerves about a role this size would fit Type 6"
+    },
+    {
+      "score": 0.371,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "nine fear",
+        "fear disruption",
+        "a nine fear",
+        "nine fear disruption",
+        "fear disruption and",
+        "disruption and settle"
+      ],
+      "target": "[diagnosis] A Nine fears disruption and settles by tuning the pressure out.",
+      "other": "[diagnosis] A Nine fears disruption and settles by smoothing things over or tuning pressure out."
+    },
+    {
+      "score": 0.297,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "test whether",
+        "whether people",
+        "test whether people",
+        "whether people can"
+      ],
+      "target": "[diagnosis] He does not visibly test whether people can be trusted",
+      "other": "[diagnosis] such as testing whether people can be trusted or ambivalence toward authority"
+    },
+    {
+      "score": 0.252,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "three fear",
+        "fear fail",
+        "settle through",
+        "a three fear",
+        "three fear fail",
+        "and settle through"
+      ],
+      "target": "[diagnosis] A Three fears failing and settles through results.",
+      "other": "[diagnosis] A Three fears failing in front of people who matter and settles through visible performance."
+    },
+    {
+      "score": 0.126,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "big test",
+        "before a big",
+        "a big test"
+      ],
+      "target": "[diagnosis] Before a big test he builds footing from trusted people and heavy preparation",
+      "other": "[diagnosis] he looks for solid footing in people he trusts before a big test"
+    },
+    {
+      "score": 0.113,
+      "other_person": "joseph-zada",
+      "shared_phrases": [],
+      "target": "[diagnosis] but neither explains as well what settles him.",
+      "other": "[diagnosis] Zada's record favors the Six version mainly through what settles him."
+    },
+    {
+      "score": 0.071,
+      "other_person": "joseph-zada",
+      "shared_phrases": [
+        "trust people",
+        "trust people and"
+      ],
+      "target": "[diagnosis] Before a big test he builds footing from trusted people and heavy preparation",
+      "other": "[diagnosis] A Six fears the ground giving way and settles when trusted people and structure are in place."
+    },
+    {
+      "score": 0.037,
+      "other_person": "joseph-zada",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Three fears failing and settles through results.",
+      "other": "[diagnosis] A Six fears the ground giving way and settles when trusted people and structure are in place."
+    },
+    {
+      "score": 0.034,
+      "other_person": "joseph-zada",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Three fears failing and settles through results.",
+      "other": "[diagnosis] A Nine fears disruption and settles by smoothing things over or tuning pressure out."
+    },
+    {
+      "score": 0.03,
+      "other_person": "joseph-zada",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Nine fears disruption and settles by tuning the pressure out.",
+      "other": "[diagnosis] A Six fears the ground giving way and settles when trusted people and structure are in place."
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "target": {
+    "person": "Andrew-Garfield",
+    "type": "4",
+    "units": 13,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "Cara-Delevingne",
+      "date": "2026-09-01",
+      "units": 33
+    },
+    {
+      "person": "Freddie-Mercury",
+      "date": "2026-08-29",
+      "units": 39
+    },
+    {
+      "person": "jeremy-allen-white",
+      "date": "2026-08-26",
+      "units": 50
+    },
+    {
+      "person": "machine-gun-kelly",
+      "date": "2026-08-16",
+      "units": 47
+    },
+    {
+      "person": "Phoebe-Bridgers",
+      "date": "2026-08-15",
+      "units": 36
+    },
+    {
+      "person": "Bryan-Johnson",
+      "date": "2026-08-13",
+      "units": 34
+    },
+    {
+      "person": "Hunter-Biden",
+      "date": "2026-07-25",
+      "units": 30
+    },
+    {
+      "person": "kacey-musgraves",
+      "date": "2026-07-23",
+      "units": 34
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 3939,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.006,
+    "max": 0.241
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.241,
+      "other_person": "kacey-musgraves",
+      "shared_phrases": [
+        "someth essential",
+        "that someth essential",
+        "someth essential is",
+        "essential is miss"
+      ],
+      "target": "[diagnosis] the sense that something essential is missing and has to be found or expressed.",
+      "other": "[diagnosis] and the feeling that something essential is missing."
+    },
+    {
+      "score": 0.042,
+      "other_person": "Bryan-Johnson",
+      "shared_phrases": [
+        "organiz around"
+      ],
+      "target": "[diagnosis] Type 4 is organized around identity and meaning",
+      "other": "[diagnosis] organized around objectives society had prescribed"
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "kacey-musgraves",
+      "date": "2026-07-23",
+      "units": 34,
+      "maxScore": 0.241
+    },
+    {
+      "person": "jeremy-allen-white",
+      "date": "2026-08-26",
+      "units": 50,
+      "maxScore": 0.08
+    },
+    {
+      "person": "machine-gun-kelly",
+      "date": "2026-08-16",
+      "units": 47,
+      "maxScore": 0.062
+    },
+    {
+      "person": "Bryan-Johnson",
+      "date": "2026-08-13",
+      "units": 34,
+      "maxScore": 0.042
+    },
+    {
+      "person": "Hunter-Biden",
+      "date": "2026-07-25",
+      "units": 30,
+      "maxScore": 0.026
+    },
+    {
+      "person": "Freddie-Mercury",
+      "date": "2026-08-29",
+      "units": 39,
+      "maxScore": 0.016
+    },
+    {
+      "person": "Phoebe-Bridgers",
+      "date": "2026-08-15",
+      "units": 36,
+      "maxScore": 0.013
+    },
+    {
+      "person": "Cara-Delevingne",
+      "date": "2026-09-01",
+      "units": 33,
+      "maxScore": 0.006
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.241,
+      "other_person": "kacey-musgraves",
+      "shared_phrases": [
+        "someth essential",
+        "that someth essential",
+        "someth essential is",
+        "essential is miss"
+      ],
+      "target": "[diagnosis] the sense that something essential is missing and has to be found or expressed.",
+      "other": "[diagnosis] and the feeling that something essential is missing."
+    },
+    {
+      "score": 0.08,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [],
+      "target": "[diagnosis] Garfield describes a boy who raged at ordinary life and a man who walks toward pain deliberately.",
+      "other": "[diagnosis] White describes a public persona that feels unfamiliar"
+    },
+    {
+      "score": 0.062,
+      "other_person": "machine-gun-kelly",
+      "shared_phrases": [],
+      "target": "[diagnosis] Garfield describes a boy who raged at ordinary life and a man who walks toward pain deliberately.",
+      "other": "[diagnosis] And a man who genuinely wanted to be rid of the old version would have finished the job."
+    },
+    {
+      "score": 0.042,
+      "other_person": "Bryan-Johnson",
+      "shared_phrases": [
+        "organiz around"
+      ],
+      "target": "[diagnosis] Type 4 is organized around identity and meaning",
+      "other": "[diagnosis] organized around objectives society had prescribed"
+    },
+    {
+      "score": 0.035,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [],
+      "target": "[diagnosis] Being gentle and emotional doesn't settle the question.",
+      "other": "[diagnosis] Public interviews cannot reliably settle the stacking"
+    },
+    {
+      "score": 0.034,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [
+        "public interview"
+      ],
+      "target": "[diagnosis] This is a reading of public interviews",
+      "other": "[diagnosis] Public interviews cannot reliably settle the stacking"
+    },
+    {
+      "score": 0.032,
+      "other_person": "kacey-musgraves",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a reading of public interviews",
+      "other": "[diagnosis] 4w3 remains the narrower reading of the catalog"
+    },
+    {
+      "score": 0.032,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [],
+      "target": "[diagnosis] and some typing sites file Garfield as a Nine",
+      "other": "[diagnosis] which could describe a Nine finding presence."
+    },
+    {
+      "score": 0.029,
+      "other_person": "kacey-musgraves",
+      "shared_phrases": [
+        "around identity"
+      ],
+      "target": "[diagnosis] Type 4 is organized around identity and meaning",
+      "other": "[diagnosis] Type 4s tend to organize experience around identity"
+    },
+    {
+      "score": 0.027,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [],
+      "target": "[diagnosis] Garfield describes a boy who raged at ordinary life and a man who walks toward pain deliberately.",
+      "other": "[diagnosis] which could describe a Nine finding presence."
+    },
+    {
+      "score": 0.026,
+      "other_person": "Hunter-Biden",
+      "shared_phrases": [],
+      "target": "[diagnosis] Both alternatives get their own section below.",
+      "other": "[counter-typing] Ambient access to doors that opened on their own"
+    },
+    {
+      "score": 0.024,
+      "other_person": "kacey-musgraves",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Nine tends to begin settled into ordinary life and to soften whatever disturbs it.",
+      "other": "[diagnosis] Type 4s tend to organize experience around identity"
+    }
+  ]
+}

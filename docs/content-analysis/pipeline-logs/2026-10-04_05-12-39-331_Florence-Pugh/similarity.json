@@ -1,0 +1,197 @@
+{
+  "target": {
+    "person": "florence-pugh",
+    "type": "7",
+    "units": 8,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_05-12-39-331_Florence-Pugh/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "frank-lloyd-wright",
+      "date": "2026-08-26",
+      "units": 44
+    },
+    {
+      "person": "Tyla",
+      "date": "2026-08-15",
+      "units": 44
+    },
+    {
+      "person": "Travis-Kelce",
+      "date": "2026-08-13",
+      "units": 48
+    },
+    {
+      "person": "stavros-halkias",
+      "date": "2026-07-25",
+      "units": 25
+    },
+    {
+      "person": "lamine-yamal",
+      "date": "2026-07-19",
+      "units": 18
+    },
+    {
+      "person": "john-coogan",
+      "date": "2026-07-14",
+      "units": 28
+    },
+    {
+      "person": "Jeff-Goldblum",
+      "date": "2026-07-03",
+      "units": 21
+    },
+    {
+      "person": "Matt-Smith",
+      "date": "2026-07-03",
+      "units": 24
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 2016,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.007,
+    "max": 0.025
+  },
+  "trip_threshold": 0.04,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "Travis-Kelce",
+      "date": "2026-08-13",
+      "units": 48,
+      "maxScore": 0.025
+    },
+    {
+      "person": "Tyla",
+      "date": "2026-08-15",
+      "units": 44,
+      "maxScore": 0.025
+    },
+    {
+      "person": "john-coogan",
+      "date": "2026-07-14",
+      "units": 28,
+      "maxScore": 0.022
+    },
+    {
+      "person": "Matt-Smith",
+      "date": "2026-07-03",
+      "units": 24,
+      "maxScore": 0.021
+    },
+    {
+      "person": "frank-lloyd-wright",
+      "date": "2026-08-26",
+      "units": 44,
+      "maxScore": 0.021
+    },
+    {
+      "person": "stavros-halkias",
+      "date": "2026-07-25",
+      "units": 25,
+      "maxScore": 0.013
+    },
+    {
+      "person": "Jeff-Goldblum",
+      "date": "2026-07-03",
+      "units": 21,
+      "maxScore": 0.008
+    },
+    {
+      "person": "lamine-yamal",
+      "date": "2026-07-19",
+      "units": 18,
+      "maxScore": 0.001
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.025,
+      "other_person": "Travis-Kelce",
+      "shared_phrases": [],
+      "target": "[diagnosis] stimulating and free of pain and limits.",
+      "other": "[counter-typing] and the joke-out-of-pain instinct keep pointing back to 7."
+    },
+    {
+      "score": 0.025,
+      "other_person": "Tyla",
+      "shared_phrases": [],
+      "target": "[diagnosis] and the evidence against it gets its own sections below.",
+      "other": "[diagnosis] and it gets a fair hearing in the rabbit hole below. ---"
+    },
+    {
+      "score": 0.023,
+      "other_person": "Tyla",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a reading of public interviews",
+      "other": "[counter-typing] up to and including \"This is not what I want\" to the people paying her."
+    },
+    {
+      "score": 0.022,
+      "other_person": "john-coogan",
+      "shared_phrases": [],
+      "target": "[diagnosis] Type 7 is organized around keeping life open",
+      "other": "[diagnosis] The usual caricature of Type 7 is a pleasure seeker bouncing between parties."
+    },
+    {
+      "score": 0.021,
+      "other_person": "Travis-Kelce",
+      "shared_phrases": [],
+      "target": "[diagnosis] and the evidence against it gets its own sections below.",
+      "other": "[counter-typing] The type also has to answer its own anomaly"
+    },
+    {
+      "score": 0.021,
+      "other_person": "Matt-Smith",
+      "shared_phrases": [],
+      "target": "[diagnosis] a bold actress can look like a Seven",
+      "other": "[diagnosis] Sevens keep their options open because a closed option feels like a small death."
+    },
+    {
+      "score": 0.021,
+      "other_person": "frank-lloyd-wright",
+      "shared_phrases": [],
+      "target": "[diagnosis] An Eight guards vulnerability so as not to be controlled or seen as weak.",
+      "other": "[counter-typing] An Eight core would have made the leak somebody's fault."
+    },
+    {
+      "score": 0.018,
+      "other_person": "Tyla",
+      "shared_phrases": [],
+      "target": "[diagnosis] Pugh's record fits the second description more often than the first",
+      "other": "[counter-typing] she works on what makes her feel something the first time she hears it."
+    },
+    {
+      "score": 0.017,
+      "other_person": "frank-lloyd-wright",
+      "shared_phrases": [],
+      "target": "[diagnosis] a bold actress can look like a Seven",
+      "other": "[diagnosis] A Seven's core fear is being trapped"
+    },
+    {
+      "score": 0.017,
+      "other_person": "frank-lloyd-wright",
+      "shared_phrases": [],
+      "target": "[diagnosis] An Eight guards vulnerability so as not to be controlled or seen as weak.",
+      "other": "[counter-typing] \"Move your chair\" is delivered like an Eight and says what only a Seven would say"
+    },
+    {
+      "score": 0.013,
+      "other_person": "frank-lloyd-wright",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Seven moves away from pain to keep things light and moving",
+      "other": "[diagnosis] A Seven's core fear is being trapped"
+    },
+    {
+      "score": 0.013,
+      "other_person": "stavros-halkias",
+      "shared_phrases": [],
+      "target": "[diagnosis] Pugh's record fits the second description more often than the first",
+      "other": "[counter-typing] sustained evidence that the touring scale and the Hollywood run are the point rather than the byproduct."
+    }
+  ]
+}

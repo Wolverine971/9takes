@@ -114,7 +114,7 @@ nearly every person, but those are not contextual links).
 | [Lionel Messi](/personality-analysis/lionel-messi) | 5,069 | 27 | 8.8 | 0 | 3 |
 | [Sabrina Carpenter](/personality-analysis/sabrina-carpenter) | 4,507 | 19 | 6.4 | 0 | 3 |
 | [Ariana Grande](/personality-analysis/ariana-grande) | 3,949 | 22 | 9.6 | 0 | 6 |
-| [Dario Amodei](/personality-analysis/dario-amodei) | 3,864 | 45 | 8.6 | 3 | 2 |
+| [Dario Amodei](/personality-analysis/dario-amodei) | 3,864 | 45 | 8.6 | 3 | 3 |
 | [Jack Black](/personality-analysis/jack-black) | 3,633 | 32 | 7.7 | 1 | 3 |
 | [Asmongold](/personality-analysis/asmongold) | 3,567 | 22 | 9.0 | 0 | 1 |
 | [Selena Gomez](/personality-analysis/selena-gomez) | 3,540 | 21 | 7.4 | 1 | 4 |
@@ -134,7 +134,7 @@ nearly every person, but those are not contextual links).
 ## People pages that need links
 
 A people page "needs links" with 2 or fewer contextual links in (blog posts + other people pages).
-**205 of 450** people pages need links; 71 have none.
+**204 of 450** people pages need links; 71 have none.
 Unlinked mentions on other people pages are queued in `link-opportunities.md` §4.
 
 | Person | Impressions | Position | Blog links in | People links in |
@@ -193,7 +193,7 @@ Unlinked mentions on other people pages are queued in `link-opportunities.md` §
 
 | Status | Files | Meaning |
 |---|---|---|
-| draft | 27 | Routable, `published` is false |
+| draft | 28 | Routable, `published` is false |
 | redirected | 8 | Unpublished and the route 301s the slug to a newer post |
 | no-frontmatter | 2 | Routable folder but no frontmatter (notes); 404s |
 | excluded | 49 | Social variants and notes the route globs skip (`.instagram/.twitter/.reddit/.review`, `-twitter`) |
@@ -216,6 +216,7 @@ Unpublished posts in routable folders. Word count ≥2,500 with links already in
 | 3,325 | 2026-10-03 | 8 | How Common Is Each Enneagram Type? (Rarest to Most Common, and Why th… | `enneagram/how-common-is-each-enneagram-type.md` |
 | 3,122 | 2026-04-30 | 2 | You Can't Inherit a Personality: The Succession Trap That Topples Fou… | `pop-culture/succession-personality-trap.md` |
 | 2,796 | 2026-10-03 | 7 | Where to Find an Enneagram Community That Doesn't Just Type You | `community/enneagram-community.md` |
+| 2,717 | 2026-10-04 | 9 | Artificial: The Real People Behind Luca Guadagnino's OpenAI Movie | `pop-culture/artificial-movie-real-people.md` |
 | 2,627 | 2026-10-03 | 7 | What Is a Love Language in a Relationship? (And Why Two People With t… | `enneagram/what-is-a-love-language.md` |
 | 2,538 | 2026-02-06 | 4 | Your Hidden Superpower: How the Enneagram Reveals the Gifts You Canno… | `guides/enneagram-hidden-strengths-and-gifts.md` |
 | 2,386 | 2026-07-15 | 6 | Enneagram and Autism: Why Masking Makes You Mistype as a 5, 9, or 1 | `enneagram/enneagram-and-autism-why-you-keep-mistyping.md` |

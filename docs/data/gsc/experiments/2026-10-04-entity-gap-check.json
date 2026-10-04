@@ -1,0 +1,2392 @@
+{
+	"label": "2026-10-04-entity-gap-check",
+	"captured_at": "2026-10-04T04:24:49.998Z",
+	"site": "sc-domain:9takes.com",
+	"window": {
+		"start_date": "2026-09-05",
+		"end_date": "2026-10-02",
+		"days": 28
+	},
+	"notes": [
+		"Case variants of the same document URL are consolidated by lowercase slug.",
+		"Fragment URLs are listed under page_variants but excluded from page and query-family metrics.",
+		"Query families are rule-based; inspect the retained query rows before drawing conclusions.",
+		"Search Console metrics are observational and can move with demand, rank, snippet, or seasonality."
+	],
+	"profiles": {
+		"ashby": {
+			"page": {
+				"clicks": 14,
+				"impressions": 3344,
+				"ctr_pct": 0.41866028708133973,
+				"position": 9.660586124401913
+			},
+			"families": {
+				"exact_name": {
+					"clicks": 7,
+					"impressions": 1793,
+					"ctr_pct": 0.39040713887339656,
+					"position": 10.544339096486336
+				},
+				"biography": {
+					"clicks": 1,
+					"impressions": 492,
+					"ctr_pct": 0.20325203252032523,
+					"position": 9.6869918699187
+				},
+				"personality": {
+					"clicks": 0,
+					"impressions": 0,
+					"ctr_pct": 0,
+					"position": null
+				},
+				"other": {
+					"clicks": 2,
+					"impressions": 280,
+					"ctr_pct": 0.7142857142857143,
+					"position": 9.496428571428572
+				}
+			},
+			"queries": [
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence",
+					"family": "exact_name",
+					"clicks": 7,
+					"impressions": 1793,
+					"ctr_pct": 0.39040713887339656,
+					"position": 10.544339096486336
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby comedian",
+					"family": "other",
+					"clicks": 1,
+					"impressions": 151,
+					"ctr_pct": 0.6622516556291391,
+					"position": 10.920529801324504
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence boyfriend",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 98,
+					"ctr_pct": 0,
+					"position": 10.153061224489797
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby real name",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 79,
+					"ctr_pct": 0,
+					"position": 10.278481012658228
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "where is ashby from",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 69,
+					"ctr_pct": 0,
+					"position": 9.942028985507246
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "who is ashby",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 52,
+					"ctr_pct": 0,
+					"position": 10.461538461538462
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "what is ashby's real name",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 37,
+					"ctr_pct": 0,
+					"position": 9.35135135135135
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby tiktok real name",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 27,
+					"ctr_pct": 0,
+					"position": 10.592592592592593
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence real name",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 25,
+					"ctr_pct": 0,
+					"position": 9.4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "who is ashby florence",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 23,
+					"ctr_pct": 0,
+					"position": 8.652173913043478
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "where is ashby florence from",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 21,
+					"ctr_pct": 0,
+					"position": 9.619047619047619
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence parents",
+					"family": "biography",
+					"clicks": 1,
+					"impressions": 20,
+					"ctr_pct": 5,
+					"position": 5.2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence lorax",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 18,
+					"ctr_pct": 0,
+					"position": 7.444444444444445
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence movie",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 17,
+					"ctr_pct": 0,
+					"position": 7.882352941176471
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby drag",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 16,
+					"ctr_pct": 0,
+					"position": 9.9375
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence virginia",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 14,
+					"ctr_pct": 0,
+					"position": 4.071428571428571
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "where does ashby live",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 13,
+					"ctr_pct": 0,
+					"position": 10.538461538461538
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence virginia tech",
+					"family": "other",
+					"clicks": 1,
+					"impressions": 12,
+					"ctr_pct": 8.333333333333332,
+					"position": 2.416666666666667
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence wikipedia",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 12,
+					"ctr_pct": 0,
+					"position": 8.416666666666668
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "is ashby her real name",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 11,
+					"ctr_pct": 0,
+					"position": 6.909090909090909
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence college",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 7,
+					"ctr_pct": 0,
+					"position": 8.142857142857142
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence hamilton",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 6,
+					"ctr_pct": 0,
+					"position": 6.666666666666667
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence merch",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 5,
+					"ctr_pct": 0,
+					"position": 10.2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby person",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 5,
+					"ctr_pct": 0,
+					"position": 10.6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashbyflorence",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 10.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florance",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 9
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby gru",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 9.333333333333334
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "where did ashby florence go to college",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 8.333333333333332
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence age",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 14
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby influencer",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 10.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "how old is ashby florence",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 11.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby age",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 18
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby ass",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby comedian age",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 9
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby dancing with the stars",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence birthday",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 12
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence flash",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 21
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence handstand",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 9
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence height",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 13
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby funny moments",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby live slip",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby snl",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 9
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ben hunt",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 7
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "how old is ashby",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 16
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "what is ashbys real name",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 10
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "where did ashby go to college",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 8
+				}
+			],
+			"page_variants": [
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"clicks": 14,
+					"impressions": 3344,
+					"ctr_pct": 0.41866028708133973,
+					"position": 9.660586124401913
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby#ten-days-in-a-fevered-daze",
+					"clicks": 0,
+					"impressions": 16,
+					"ctr_pct": 0,
+					"position": 3.0625
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby#the-detour-that-built-the-instrument",
+					"clicks": 0,
+					"impressions": 16,
+					"ctr_pct": 0,
+					"position": 3.0625
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby#what-is-ashbys-personality-type",
+					"clicks": 0,
+					"impressions": 16,
+					"ctr_pct": 0,
+					"position": 3.0625
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby#who-is-ashby-florence",
+					"clicks": 0,
+					"impressions": 16,
+					"ctr_pct": 0,
+					"position": 3.0625
+				}
+			]
+		},
+		"john-coogan": {
+			"page": {
+				"clicks": 7,
+				"impressions": 687,
+				"ctr_pct": 1.0189228529839884,
+				"position": 6.774381368267831
+			},
+			"families": {
+				"exact_name": {
+					"clicks": 2,
+					"impressions": 240,
+					"ctr_pct": 0.8333333333333334,
+					"position": 5.0375
+				},
+				"biography": {
+					"clicks": 3,
+					"impressions": 93,
+					"ctr_pct": 3.225806451612903,
+					"position": 9.043010752688172
+				},
+				"personality": {
+					"clicks": 0,
+					"impressions": 0,
+					"ctr_pct": 0,
+					"position": null
+				},
+				"other": {
+					"clicks": 0,
+					"impressions": 43,
+					"ctr_pct": 0,
+					"position": 10.55813953488372
+				}
+			},
+			"queries": [
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan",
+					"family": "exact_name",
+					"clicks": 2,
+					"impressions": 240,
+					"ctr_pct": 0.8333333333333334,
+					"position": 5.0375
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan wife",
+					"family": "biography",
+					"clicks": 2,
+					"impressions": 69,
+					"ctr_pct": 2.898550724637681,
+					"position": 8.53623188405797
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "if i asked john coogan the following: \"how does your founder-mode heuristic shape your decisions?\" what would they say?",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 11,
+					"ctr_pct": 0,
+					"position": 8.727272727272727
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan college",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 9,
+					"ctr_pct": 0,
+					"position": 7.777777777777778
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "if i asked john coogan the following: \"how can i utilize alternative media to get my company story across?\" what would they say?",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 7,
+					"ctr_pct": 0,
+					"position": 9.142857142857142
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "jon coogan",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 5,
+					"ctr_pct": 0,
+					"position": 22.6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "where did john coogan go to college",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 8.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan net worth",
+					"family": "biography",
+					"clicks": 1,
+					"impressions": 3,
+					"ctr_pct": 33.33333333333333,
+					"position": 13.666666666666666
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan education",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 9.666666666666666
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan founders fund",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 8.333333333333332
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan height",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 18.666666666666668
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan tbpn",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 21
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john cooga",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan age",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 11
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan lucy",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 11
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "\"john coogan\" \"host\"",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 11
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "\"john coogan\" \"tbpn\" \"host\"",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 11
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogam",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogen",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogsn",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john cugan",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john koogan",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 10
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john kugan",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 13
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "tbpn john coogan",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 19
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "top podcast earners",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				}
+			],
+			"page_variants": [
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"clicks": 7,
+					"impressions": 687,
+					"ctr_pct": 1.0189228529839884,
+					"position": 6.774381368267831
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan#lucy-and-the-usefulness-of-a-closed-door",
+					"clicks": 0,
+					"impressions": 40,
+					"ctr_pct": 0,
+					"position": 8.25
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan#what-is-john-coogans-personality-type",
+					"clicks": 0,
+					"impressions": 40,
+					"ctr_pct": 0,
+					"position": 8.25
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan#who-is-john-coogan",
+					"clicks": 0,
+					"impressions": 40,
+					"ctr_pct": 0,
+					"position": 8.25
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan#pasadena-gave-him-the-ocean-and-outer-space",
+					"clicks": 0,
+					"impressions": 26,
+					"ctr_pct": 0,
+					"position": 8.346153846153847
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan#soylent-taught-him-what-a-strange-idea-can-unlock",
+					"clicks": 0,
+					"impressions": 26,
+					"ctr_pct": 0,
+					"position": 8.346153846153847
+				}
+			]
+		},
+		"leila-hormozi": {
+			"page": {
+				"clicks": 11,
+				"impressions": 437,
+				"ctr_pct": 2.517162471395881,
+				"position": 6.322654462242563
+			},
+			"families": {
+				"exact_name": {
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 2.75
+				},
+				"biography": {
+					"clicks": 2,
+					"impressions": 94,
+					"ctr_pct": 2.127659574468085,
+					"position": 5.095744680851064
+				},
+				"personality": {
+					"clicks": 0,
+					"impressions": 0,
+					"ctr_pct": 0,
+					"position": null
+				},
+				"other": {
+					"clicks": 0,
+					"impressions": 71,
+					"ctr_pct": 0,
+					"position": 8.23943661971831
+				}
+			},
+			"queries": [
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi maiden name",
+					"family": "biography",
+					"clicks": 1,
+					"impressions": 42,
+					"ctr_pct": 2.380952380952381,
+					"position": 3.9761904761904763
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila naghshineh",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 17,
+					"ctr_pct": 0,
+					"position": 8.117647058823529
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "is leila hormozi persian",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 16,
+					"ctr_pct": 0,
+					"position": 10.1875
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi real name",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 15,
+					"ctr_pct": 0,
+					"position": 3.4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "did leila hormozi go to college",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 14,
+					"ctr_pct": 0,
+					"position": 5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "does leila hormozi have a degree",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 10,
+					"ctr_pct": 0,
+					"position": 6.4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi name before marriage",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 8,
+					"ctr_pct": 0,
+					"position": 4.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi college",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 7,
+					"ctr_pct": 0,
+					"position": 7.142857142857143
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "is leila hormozi iranian",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 6,
+					"ctr_pct": 0,
+					"position": 9.333333333333334
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi age",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 5,
+					"ctr_pct": 0,
+					"position": 2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi",
+					"family": "exact_name",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 2.75
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi leak",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 10.333333333333334
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "what ethnicity is leila hormozi",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 9.666666666666666
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi parents",
+					"family": "biography",
+					"clicks": 1,
+					"impressions": 2,
+					"ctr_pct": 50,
+					"position": 12.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "alex hormozi",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi last name before marriage",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "alex hormozi wiki",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "did leila hormozi have a baby",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi before",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 25
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi biography",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 30
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi childhood",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 11
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi degree",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 9
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi education",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi leaked",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 11
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi young",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 19
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila.hormozi age",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "maiken name",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "qui sont ses parents",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "who is leila hormozi",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 38
+				}
+			],
+			"page_variants": [
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"clicks": 11,
+					"impressions": 437,
+					"ctr_pct": 2.517162471395881,
+					"position": 6.322654462242563
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi#leila-hormozis-childhood-trauma-and-emotional-shutdown",
+					"clicks": 0,
+					"impressions": 103,
+					"ctr_pct": 0,
+					"position": 5.70873786407767
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi#how-leila-hormozi-performs-composure",
+					"clicks": 0,
+					"impressions": 98,
+					"ctr_pct": 0,
+					"position": 5.642857142857143
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi#what-is-leila-hormozis-personality-type",
+					"clicks": 0,
+					"impressions": 66,
+					"ctr_pct": 0,
+					"position": 5.7727272727272725
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi#who-is-leila-hormozi",
+					"clicks": 0,
+					"impressions": 66,
+					"ctr_pct": 0,
+					"position": 5.7727272727272725
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi#how-leila-hormozi-met-alex-hormozi",
+					"clicks": 0,
+					"impressions": 65,
+					"ctr_pct": 0,
+					"position": 5.661538461538462
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi#why-leila-stayed-when-alex-lost-everything",
+					"clicks": 0,
+					"impressions": 63,
+					"ctr_pct": 0,
+					"position": 5.666666666666667
+				}
+			]
+		},
+		"david-friedberg": {
+			"page": {
+				"clicks": 3,
+				"impressions": 573,
+				"ctr_pct": 0.5235602094240838,
+				"position": 10.804537521815009
+			},
+			"families": {
+				"exact_name": {
+					"clicks": 0,
+					"impressions": 35,
+					"ctr_pct": 0,
+					"position": 22.428571428571427
+				},
+				"biography": {
+					"clicks": 0,
+					"impressions": 85,
+					"ctr_pct": 0,
+					"position": 9.905882352941177
+				},
+				"personality": {
+					"clicks": 0,
+					"impressions": 0,
+					"ctr_pct": 0,
+					"position": null
+				},
+				"other": {
+					"clicks": 0,
+					"impressions": 107,
+					"ctr_pct": 0,
+					"position": 16.35514018691589
+				}
+			},
+			"queries": [
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "allison broude friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 47,
+					"ctr_pct": 0,
+					"position": 9.297872340425531
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg",
+					"family": "exact_name",
+					"clicks": 0,
+					"impressions": 35,
+					"ctr_pct": 0,
+					"position": 22.428571428571427
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg wife",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 28,
+					"ctr_pct": 0,
+					"position": 8.75
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg parents",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 17,
+					"ctr_pct": 0,
+					"position": 8.647058823529413
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david albert friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 10,
+					"ctr_pct": 0,
+					"position": 9.8
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 10,
+					"ctr_pct": 0,
+					"position": 34.1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "dave friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 8,
+					"ctr_pct": 0,
+					"position": 15.25
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg family",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 8,
+					"ctr_pct": 0,
+					"position": 10.875
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg wife and kids",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 6,
+					"ctr_pct": 0,
+					"position": 11
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "is david friedberg married",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 6,
+					"ctr_pct": 0,
+					"position": 8.666666666666668
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "where was david friedberg born",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 6,
+					"ctr_pct": 0,
+					"position": 9.166666666666666
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david freidberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 28
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg age",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 22
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg wife angela",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 2.666666666666667
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg wiki",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 8.333333333333332
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg wikipedia",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 7.333333333333333
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "davidfriedberg arma",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 44
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "albert friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 37
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david freidberg wife",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 10
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg arma",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 41.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg ohalo genetics",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg spouse",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "friedberg all in",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 32
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "friedberg david",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 9
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "all in friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 31
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg biography",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 27
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg climate corporation",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 12
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg education",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 19
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg google",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 25
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg linkedin",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 48
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg married",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg the production board",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg wife age",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 9
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg.",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 11
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "davidbfriedberg arma",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 29
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "monsanto climate corp ceo",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 41
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "who is david friedberg",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 34
+				}
+			],
+			"page_variants": [
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"clicks": 3,
+					"impressions": 573,
+					"ctr_pct": 0.5235602094240838,
+					"position": 10.804537521815009
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg#what-is-david-friedbergs-personality-type",
+					"clicks": 0,
+					"impressions": 31,
+					"ctr_pct": 0,
+					"position": 9.096774193548388
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg#cape-town-to-los-angeles-with-nothing",
+					"clicks": 0,
+					"impressions": 27,
+					"ctr_pct": 0,
+					"position": 8.703703703703702
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg#the-11-billion-education-in-humility",
+					"clicks": 0,
+					"impressions": 19,
+					"ctr_pct": 0,
+					"position": 8.736842105263158
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg#the-astrophysicist-in-the-card-room",
+					"clicks": 0,
+					"impressions": 17,
+					"ctr_pct": 0,
+					"position": 8.529411764705882
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg#watching-the-bike-hut-disappear",
+					"clicks": 0,
+					"impressions": 16,
+					"ctr_pct": 0,
+					"position": 8.25
+				}
+			]
+		},
+		"jordi-hays": {
+			"page": {
+				"clicks": 21,
+				"impressions": 1731,
+				"ctr_pct": 1.2131715771230502,
+				"position": 6.337954939341421
+			},
+			"families": {
+				"exact_name": {
+					"clicks": 13,
+					"impressions": 836,
+					"ctr_pct": 1.555023923444976,
+					"position": 6.994019138755981
+				},
+				"biography": {
+					"clicks": 1,
+					"impressions": 181,
+					"ctr_pct": 0.5524861878453038,
+					"position": 5.574585635359116
+				},
+				"personality": {
+					"clicks": 0,
+					"impressions": 0,
+					"ctr_pct": 0,
+					"position": null
+				},
+				"other": {
+					"clicks": 0,
+					"impressions": 181,
+					"ctr_pct": 0,
+					"position": 6.138121546961326
+				}
+			},
+			"queries": [
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays",
+					"family": "exact_name",
+					"clicks": 13,
+					"impressions": 836,
+					"ctr_pct": 1.555023923444976,
+					"position": 6.994019138755981
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays age",
+					"family": "biography",
+					"clicks": 1,
+					"impressions": 64,
+					"ctr_pct": 1.5625,
+					"position": 5.75
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays wife",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 62,
+					"ctr_pct": 0,
+					"position": 5.080645161290323
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi tbpn",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 34,
+					"ctr_pct": 0,
+					"position": 9.294117647058824
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordy hays",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 31,
+					"ctr_pct": 0,
+					"position": 6.580645161290323
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays height",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 22,
+					"ctr_pct": 0,
+					"position": 6.954545454545454
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays tbpn",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 22,
+					"ctr_pct": 0,
+					"position": 7.7272727272727275
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordihays",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 12,
+					"ctr_pct": 0,
+					"position": 6.583333333333333
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "tbpn hosts",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 10,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "how old is jordi",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 9,
+					"ctr_pct": 0,
+					"position": 7.666666666666667
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays wikipedia",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 9,
+					"ctr_pct": 0,
+					"position": 4.888888888888889
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays background",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 7,
+					"ctr_pct": 0,
+					"position": 3.857142857142857
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "tbpn founders",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 7,
+					"ctr_pct": 0,
+					"position": 1.5714285714285714
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays linkedin",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 5,
+					"ctr_pct": 0,
+					"position": 7.8
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays net worth",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 9
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "tbpn",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 2.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "tbpn jordi",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 9.25
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "who is jordi hays",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 5.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "\"jordi hays\" \"tbpn\" \"host\"",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi haya",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 8
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "richest podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 2.333333333333333
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "tbpn podcast hosts",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest paid podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hayes age",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordo hays",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 8
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "who is the highest paid podcaster",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "are podcasts profitable",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "chuck bryant",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "famous podcaster",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes highest paid podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes highest paid podcasters of 2026",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "giggly squad siriusxm deal",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest paid podcaster",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest paid podcasters 2026",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "how much do the top podcasters make",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "how much does joe rogan make a year",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "how tall is jordi hays",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "how to setup a podcast",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "joe rogan",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "joe rogan net worth",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "john and jordi",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 8
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "john coogan age",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "john coogan and jordi hays tbpn",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "john coogan tbpn",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hayes",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 10
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hayes tbpn",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 7
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays instagram",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 9
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "raj shamani podcast price",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "richest podcasters in the world",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "tbpn podcast",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top earning podcasters 2026",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top paid podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "wealthiest podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "who is 2",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "who is the highest paid podcaster?",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 12
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "world no 10 podcaster",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "yes",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "yes q",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 5
+				}
+			],
+			"page_variants": [
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"clicks": 21,
+					"impressions": 1731,
+					"ctr_pct": 1.2131715771230502,
+					"position": 6.337954939341421
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays#why-jordi-hays-reads-as-an-enneagram-type-3",
+					"clicks": 0,
+					"impressions": 1150,
+					"ctr_pct": 0,
+					"position": 6.860869565217391
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays#what-is-jordi-hayss-personality-type",
+					"clicks": 0,
+					"impressions": 1144,
+					"ctr_pct": 0,
+					"position": 6.840909090909091
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays#why-did-openai-acquire-tbpn",
+					"clicks": 0,
+					"impressions": 529,
+					"ctr_pct": 0,
+					"position": 6.77882797731569
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays#the-newspaper-came-before-the-studio",
+					"clicks": 1,
+					"impressions": 522,
+					"ctr_pct": 0.19157088122605362,
+					"position": 6.726053639846743
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays#capital-made-attention-part-of-the-product",
+					"clicks": 0,
+					"impressions": 522,
+					"ctr_pct": 0,
+					"position": 6.726053639846743
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays#tbpn-makes-spontaneity-on-a-schedule",
+					"clicks": 0,
+					"impressions": 522,
+					"ctr_pct": 0,
+					"position": 6.733716475095785
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays#golden-retriever-mode-is-a-type-3-designing-a-posture",
+					"clicks": 0,
+					"impressions": 521,
+					"ctr_pct": 0,
+					"position": 6.727447216890595
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays#branded-native-was-the-same-trick-on-a-bigger-target",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 6.5
+				}
+			]
+		},
+		"aaron-pierre": {
+			"page": {
+				"clicks": 3,
+				"impressions": 228,
+				"ctr_pct": 1.3157894736842104,
+				"position": 7.776315789473684
+			},
+			"families": {
+				"exact_name": {
+					"clicks": 0,
+					"impressions": 0,
+					"ctr_pct": 0,
+					"position": null
+				},
+				"biography": {
+					"clicks": 0,
+					"impressions": 0,
+					"ctr_pct": 0,
+					"position": null
+				},
+				"personality": {
+					"clicks": 1,
+					"impressions": 48,
+					"ctr_pct": 2.083333333333333,
+					"position": 6.479166666666667
+				},
+				"other": {
+					"clicks": 0,
+					"impressions": 17,
+					"ctr_pct": 0,
+					"position": 12.235294117647058
+				}
+			},
+			"queries": [
+				{
+					"page": "https://9takes.com/personality-analysis/aaron-pierre",
+					"query": "aaron pierre mbti",
+					"family": "personality",
+					"clicks": 1,
+					"impressions": 41,
+					"ctr_pct": 2.4390243902439024,
+					"position": 6.195121951219512
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/aaron-pierre",
+					"query": "aaron pierre weight in lanterns",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 8,
+					"ctr_pct": 0,
+					"position": 10.125
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/aaron-pierre",
+					"query": "is aaron pierre an introvert?",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 8,
+					"ctr_pct": 0,
+					"position": 9.875
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/aaron-pierre",
+					"query": "aaron pierre personality",
+					"family": "personality",
+					"clicks": 0,
+					"impressions": 7,
+					"ctr_pct": 0,
+					"position": 8.142857142857142
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/aaron-pierre",
+					"query": "aaron pierre weight",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 48
+				}
+			],
+			"page_variants": [
+				{
+					"page": "https://9takes.com/personality-analysis/aaron-pierre",
+					"clicks": 3,
+					"impressions": 228,
+					"ctr_pct": 1.3157894736842104,
+					"position": 7.776315789473684
+				}
+			]
+		},
+		"duke-dennis": {
+			"page": {
+				"clicks": 0,
+				"impressions": 224,
+				"ctr_pct": 0,
+				"position": 7.924107142857143
+			},
+			"families": {
+				"exact_name": {
+					"clicks": 0,
+					"impressions": 0,
+					"ctr_pct": 0,
+					"position": null
+				},
+				"biography": {
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 8.5
+				},
+				"personality": {
+					"clicks": 0,
+					"impressions": 14,
+					"ctr_pct": 0,
+					"position": 7.428571428571429
+				},
+				"other": {
+					"clicks": 0,
+					"impressions": 9,
+					"ctr_pct": 0,
+					"position": 9.555555555555555
+				}
+			},
+			"queries": [
+				{
+					"page": "https://9takes.com/personality-analysis/duke-dennis",
+					"query": "duke dennis personality",
+					"family": "personality",
+					"clicks": 0,
+					"impressions": 10,
+					"ctr_pct": 0,
+					"position": 8
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/duke-dennis",
+					"query": "duke dennis army rank",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 11
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/duke-dennis",
+					"query": "duke dennis mbti",
+					"family": "personality",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/duke-dennis",
+					"query": "is duke dennis left handed",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 9
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/duke-dennis",
+					"query": "duke dennis age 1987",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 8.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/duke-dennis",
+					"query": "duke dennis self defense",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 8
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/duke-dennis",
+					"query": "how old is duke dennis",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 7
+				}
+			],
+			"page_variants": [
+				{
+					"page": "https://9takes.com/personality-analysis/duke-dennis",
+					"clicks": 0,
+					"impressions": 224,
+					"ctr_pct": 0,
+					"position": 7.924107142857143
+				}
+			]
+		}
+	}
+}

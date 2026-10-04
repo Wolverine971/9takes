@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "Florence-Pugh",
+  "mode": "create",
+  "role": "subject",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_05-12-39-331_Florence-Pugh/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_05-12-39-331_Florence-Pugh/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_05-12-39-331_Florence-Pugh/similarity.json"
+  },
+  "outputs": {
+    "review-subject.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_05-12-39-331_Florence-Pugh/review-subject.json"
+  },
+  "content_sha256": "59cd3d2d788cf44aec5cb24fa4d04eebeb7e8ca5dd8d1455f7c378f84fb15600",
+  "evidence_sha256": "a3890f1c3cc53541a8e3dd5e23b9144eeb502efd5773643badc434f7dcec0419"
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "59cd3d2d788cf44aec5cb24fa4d04eebeb7e8ca5dd8d1455f7c378f84fb15600",
+  "evidence_sha256": "a3890f1c3cc53541a8e3dd5e23b9144eeb502efd5773643badc434f7dcec0419",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "The Big Mouth Who Keeps Her Own Pain Quiet",
+      "problem": "The persona title promises a silence that an informed reader knows is false. Pugh is one of the most openly pain-candid actors of her generation, and the evidence record holds well-known disclosures the draft never mentions. In 2022 she said of the Braff breakup, at the time, \"I automatically get a lumpy throat when I talk about it\" (S24). In Feb 2023 she said \"If my head and heart are hurting ... I take it off my phone\" (S36). In 2024 she volunteered her PCOS/endometriosis diagnosis and egg freezing because \"the conversation isn't loud enough\" (S11; 'tiring and horrible', S14). In 2019 she already said Midsommar made her \"destroy myself\" and that she \"was scared\" (S04). The body's real thesis is narrower and defensible: sequence (thrill and motion first, cost named later), not silence. The description also turns Gerwig's single line into a plural ('directors say she can't be knocked down'). Shortland's 'will not back down' means something different.",
+      "acceptance_test": "persona_title (and any matching meta copy) describes the sequence the body argues, e.g. motion first and cost later, not silence about pain. The description credits 'can't be knocked down' to Gerwig, or rewords it so it no longer claims more than one director said it. The body briefly tests the thesis against at least one contemporaneous disclosure in the record (the 2024 health disclosure or the 2022 'lumpy throat' line) and says whether it fits. Example: years of normalising symptoms as 'part of being a woman' (S11) fits 'last person I look after', while going public quickly cuts the other way."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "Only in September 2024 did she name the hurt",
+      "problem": "This timeline step is distorted by selective quoting from the draft's own sources. The ELLE UK 2023 answer the draft quotes for 'the freedom that people are scared of' opens, about the same Valentino episode, with 'I think the scariest thing for me are the instances where people have been upset that I've shown \"too much\" of myself' (S37). Seven months after the dress, in Vanity Fair (Feb 2023), she described hurt and anxiety from online commentary: 'If my head and heart are hurting ... I take it off my phone' (S36). Even the 2022 caption names harm: 'how easy it is for men to totally destroy a woman's body, publicly' (S32). So C75's 'the cost arrived years later' overstates the Valentino half of the two-episode pattern. This sentence's 'Only in' framing has no claim entry.",
+      "acceptance_test": "The Valentino paragraph acknowledges the 2023 statements (ELLE's 'scariest thing' and/or VF's 'head and heart are hurting'), so the reader sees the hurt was first named within about a year. 'Only in September 2024' is removed or made accurate. C75's 'three years apart ... cost arrived years later' is restated to match the corrected Valentino gap, or the dress is presented as a weaker second example. A claim entry covers the corrected sentence."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "She has not explained. Since 2022 she has declined to discuss the film's production, saying in 2023 that she would let it sit.",
+      "problem": "Factual error in an FAQ. Pugh has given a reason. In British Vogue (Sept 2024) she said: 'I always think it's unfair to take the space away from the movie that I'm talking about. So I'm going to politely move away from that' (S28, in the evidence record). The body makes the same error by offering only 'Legal or professional prudence ... as well as temperament' and omitting her stated reason. It also says 'for four years she has declined either to fight that conflict in public' but omits the one public jab fans remember. In the same Harper's Bazaar interview the draft quotes three times (S24, Aug 2022), she said of the film's marketing: 'When it's reduced to your sex scenes, or to watch the most famous man in the world go down on someone ... It's not why I'm in this industry.' Leaving both out makes the 'joke and an exit' pattern look cleaner than the record.",
+      "acceptance_test": "The FAQ no longer says she has not explained; it reports her 2024 stated reason, attributed and dated. The Don't Worry Darling paragraph gives her own reason alongside prudence/temperament. Either the 2022 marketing remark is included and the paragraph says how it fits the exit pattern, or C103's 'declined to fight that conflict in public' is narrowed to the on-set dispute so the remark doesn't contradict it. The FAQ, the body and C102/C103 stay consistent."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "The story was told six years later, by which point candor was part of her public image.",
+      "problem": "Factual error. The Studio City story was first told in October 2018, three years after the pilot, at age 22. That is the Guardian profile (S44, already cited in the draft for the nativity and listed under C04). I opened it: it describes the pilot, the demand 'to change me', and her lesson: 'if you go out not knowing what it is that you're representing, and you are just a canvas, they will make you into the thing they need you to be', and 'I swore I would never go back [to LA] until I knew what it was I was representing.' The skeptical framing (a late story shaped by a candid brand) rests on the wrong date. The earlier, less polished version is the more revealing formative material, and its 'representing'/'my image' language ('I don't want to feel like I have to change myself or my image') is a live identity lead the type argument should at least notice. Also, 'Two weeks later she auditioned for Lady Macbeth' is stated as fact, but the 2018 piece's narration says 'two months later'.",
+      "acceptance_test": "The sentence no longer says six years. The paragraph cites the 2018 Guardian account as the earliest telling and uses at least one of its first-person lines ('just a canvas' or 'I swore I would never go back'). The gap before Lady Macbeth is attributed ('two weeks', by her 2022 account) or noted as conflicting with the 2018 'two months'. The C04/C65 alternative text no longer calls this only a 2022 hindsight narrative."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "That is an unusual story for an Eight to tell about herself.",
+      "problem": "Discriminator 2 drops its surrounding context in the source. In the same Theroux segment (S17, 00:09:14-00:12:45), the 'mushy' retake story follows her saying that early in her career 'I found myself arguing a lot' with directors, 'something that I still do in a softer way now', because 'I just always felt so protective of the character that I was playing.' A listener hears the retake story as the gendered exception within a history of arguing, not as typical behaviour. Without that frame, the draft calls this her 'most detailed story about a standoff on set' and tells readers she defers. The FAQ repeats this ('a male co-star spoke up for her'). The arguing lines are machine transcript only, so they need the same inline caution the draft already applies to 'people pleaser'.",
+      "acceptance_test": "The retake paragraph tells the reader that, in the same conversation, she described arguing a lot with directors early on and still pushing back 'in a softer way'. Either this is checked against the audio or the official clip, or it is flagged inline as an automated transcript. The draft then reassesses how much the anecdote favours Seven. The 'Why isn't Florence Pugh a Type 8?' FAQ is updated to match."
+    },
+    {
+      "id": "fan-06",
+      "severity": "major",
+      "passage": "In 2025: \"I don't want to have things just happen to me any more.\"",
+      "problem": "The draft uses this as evidence of 'what the defiance defends'. In context (S14) it is self-directed: it follows 'I've worked back-to-back since I started, and I've missed so much ... I've now come to terms with things that I don't like about myself and want to change.' It sits beside 'I can't wait for people any more ... I have to help myself' about a breakup. The evidence record's own inference for C28 calls it a change 'from being carried by momentum ... toward deliberate choice and self-care.' It is not resistance to being boxed in. The same paragraph also omits her own explanation for her signature body candor, which bears directly on this discriminator. In Feb 2023 she said she showed her 'ugly spots' because 'I'd much rather do it than they do it, and then I feel ashamed' (S36). That explanation pre-empts shame and controls the reveal; it is not only 'freedom', and fans will read it as protective.",
+      "acceptance_test": "The 2025 line is moved to the 'Learning to unpack' material, or presented with its self-directed context, and no longer counted as defiance evidence. Discriminator 3 states and weighs the shame-pre-emption quote (S36) and says whether it fits Seven (getting ahead of a painful feeling), Eight (controlling exposure) or both."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "In spring 2025 she took a three-week holiday, her first ever of that length (Who What Wear).",
+      "problem": "Agency is reversed in two places, flattering the arc. In 2018, Deadline's narration (S04, writer's words) says she got Aster and Gerwig to arrange their schedules so she could walk from Midsommar into Little Women. The draft's passive 'went almost straight' hides a choice that actually supports the thesis. In 2025, per the piece I opened, the holiday came when 'something fudged in the schedule', and in the same interview she said of rest: 'I always say this, but it never happens.' 'Learning to unpack' presents the holiday as a chosen turn and leaves out her own doubt. 'Spring 2025' is also an inference: the piece says only that she 'just took' it before the May 1 publication.",
+      "acceptance_test": "The Midsommar-to-Little Women transition credits the scheduling to her (attributed to Deadline's reporting). The holiday sentence reflects the schedule gap and either includes 'I always say this, but it never happens' or otherwise softens the change claim. The date is supported, or reworded to 'shortly before May 2025'."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "The actor Ashley Park told Vanity Fair: \"She's a great chef, she's a great host, she's a great designer, she's a great planner.\"",
+      "problem": "The Type 2 section treats hosting and gift-giving as signs of a Helper motive without weighing the obvious learned explanation that the record supplies. Vogue 2020 (S22) reports that 'Pugh grew up in a family of hosts': a restaurateur father, a grandfather who ran a pub, 'a big eating family'. A grandmother who 'laps it up' at premieres (S39) is a beloved fan detail of the same household. The standard asks that learned practices be compared with the type explanation. As written, inherited hospitality looks like motive evidence.",
+      "acceptance_test": "The Type 2 section (or the childhood section, cross-referenced) notes that hosting runs in her family's trade and culture, and says this weakens hosting as evidence for a Two motive. The Two case then rests on her self-reports ('last person that I look after', 'I love looking after people')."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Six years later, on _The Louis Theroux Podcast_, she told the same story with a different ending.",
+      "reason": "A dated, sourced hook pivot built from her own two tellings. Fans know both versions; putting them side by side is the article's best original move."
+    },
+    {
+      "passage": "She never had to refuse anything; the show simply died.",
+      "reason": "Punctures the tidy origin myth fans repeat, without sneering. Keep it even after the date is fixed (fan-04)."
+    },
+    {
+      "passage": "That wording has not been checked against the audio. The same transcript renders \"good for everybody else\" as \"upbeat for everybody else,\" so this profile does not rest anything on that word.",
+      "reason": "Honest, reader-visible handling of a machine transcript on a much-quoted line. It is the model for handling the arguing-with-directors lines in fan-05."
+    },
+    {
+      "passage": "The observation that would separate the two best, how she reacts when her care goes unreturned, is missing from the public record.",
+      "reason": "Names the real discriminator and admits the gap instead of manufacturing one."
+    },
+    {
+      "passage": "\"I love packing,\" she said. \"I hate unpacking.\"",
+      "reason": "A distinctive, verified 2026 detail that ends the piece on her own words. Keep it even if fan-07 tempers the surrounding arc."
+    }
+  ],
+  "assessment": "As an informed reader, I find the draft knows the well-known record: Midsommar into Little Women, the Valentino caption, the Braff video, Theroux, the Merdeka 118 jump, East of Eden. It quotes them faithfully where I checked, refuses a childhood-wound story, and argues the Type 8 case seriously. The problem is a pattern of small context and timeline distortions that all lean toward the thesis. The Studio City story is dated six years after the pilot when it was first told after three (2018 Guardian, opened). 'Only in September 2024' ignores 2023 statements in the same ELLE answer and in Vanity Fair. The DWD FAQ says she never explained when British Vogue 2024 records her reason. The retake anecdote loses its 'I found myself arguing a lot' frame. A self-directed 2025 line is counted as defiance. Meanwhile the persona title promises silence about pain from someone fans know for candor, and well-known disclosures in the evidence record (2024 health, 2022 'lumpy throat') go untested. None of these alone overturns a medium-confidence Seven, but corrected together they leave the sequence argument real but less tidy, and the Eight/Two alternatives a little closer. Risks: the Cornell case is pending, the DWD feud reporting is anonymous-sourced, and the unnamed-relationship material is sensitive; typing is contested. Source note: I opened the 2018 Guardian and Who What Wear pieces directly; other context comes from the supplied evidence excerpts. The similarity diagnostic did not trip (max 0.025 against a 0.04 threshold), and its top pairs share only generic type vocabulary, so I found no meaningful reuse."
+}

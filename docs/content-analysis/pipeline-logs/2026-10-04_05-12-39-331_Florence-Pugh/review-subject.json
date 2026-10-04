@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "59cd3d2d788cf44aec5cb24fa4d04eebeb7e8ca5dd8d1455f7c378f84fb15600",
+  "evidence_sha256": "a3890f1c3cc53541a8e3dd5e23b9144eeb502efd5773643badc434f7dcec0419",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "She never had to refuse anything; the show simply died. The story was told six years later, by which point candor was part of her public image.",
+      "problem": "Factually wrong in a way that undercuts her credibility. She told the Studio City story in The Guardian on October 6, 2018, aged 22, three years after the pilot. That is the same article this draft cites for the nativity quote. In it the pilot makers wanted \"to change me\", and she said \"if you go out not knowing what it is that you're representing, and you are just a canvas, they will make you into the thing they need you to be\" and \"I swore I would never go back [to LA] until I knew what it was I was representing.\" I opened the Guardian page. Saying the story first appeared in 2022, once candor was her brand, presents her account as brand-era hindsight, and the record does not support that. The Guardian's narration also says Lady Macbeth came \"two months later\", but the draft states \"Two weeks later\" as fact.",
+      "acceptance_test": "The article no longer says the story was first told six years later. The earliest account is dated and linked to The Guardian, October 6, 2018 (S44). Any remaining hindsight caveat is accurate: first told in 2018 and retold in more detail in 2022. If a contemporaneous counterweight is wanted, use a verified 2015 statement, not a wrong date. The two-weeks/two-months gap is either hedged (\"weeks later\") or attributed. C04/C65 in the evidence record list S44 and drop the \"six to seven years later\" wording."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "She has not explained.",
+      "problem": "Her own explanation is left out. In British Vogue (September 18, 2024; page opened) she gave her reason for not discussing Don't Worry Darling: \"I always think it's unfair to take the space away from the movie that I'm talking about. So I'm going to politely move away from that.\" The FAQ says she has not explained, which is false. The body offers only temperament (\"fits the same exit pattern\") or \"legal or professional prudence\" as explanations, and leaves out the reason she actually gave. This reason is already in the evidence record (S28 context).",
+      "acceptance_test": "The FAQ answer no longer says she has not explained. It gives her stated 2024 reason, attributed and dated. The body's Don't Worry Darling paragraph quotes or plainly paraphrases that reason before any type reading of her silence. If the paragraph still says her silence \"fits the same exit pattern\", her stated reason is presented as a competing explanation, not as missing. A claim for the 2024 statement is added to the evidence record with S28."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "Speaking on _The View_ about such stories not being picked up, she said, \"it made me feel so much rage.\"",
+      "problem": "This is a selective quote on a sexual-assault topic. Her full answer (Variety, September 30, 2026; page opened) was: \"Rape is something that lives. The fear of it lives in our bodies, and when stories like this come out and it's really not picked up in the way that you hope it's picked up, it makes me feel scared, it makes me feel anxious, it made me feel so much rage.\" Keeping only \"rage\" builds the Eight case and drops the fear and anxiety she named in public. Those words count against the article's own claim that she keeps her pain quiet, and they bear on the Six alternative the article raises. The later line \"the Cornell rage fit the Eight better\" repeats the skew.",
+      "acceptance_test": "The quote or a faithful paraphrase includes all three feelings in her order (scared, anxious, rage) and her framing that the fear of rape \"lives in our bodies\". The later Eight-versus-Seven sentence no longer relies on rage alone. C92 in the evidence record carries the full sentence. The pending-case wording (accused unnamed; some deny wrongdoing) stays."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "Her firmest public statements tend to end in a joke and an exit.",
+      "problem": "This tendency is presented as a type discriminator, but the draft's own examples contradict it, and it reframes serious advocacy as evasion. After Instagram put a content warning on her Cornell post, she reposted (\"Here's another go at it in case you were one of those people that can no longer see my post\"). She then discussed the case on The View (\"It's an ongoing conversation and it will always be an ongoing conversation until we're harder on those that do that to women\") and again at a Vanity Fair/Netflix event (S21). That is escalation, not an exit. On Gaza she kept posting and lost, by her estimate, hundreds of thousands of followers. The 2020 Braff video had no joke. \"When Instagram limited her Cornell post\" also states her characterization (\"censored\", \"block\") as fact. Variety reports a content-warning label, and the first post stayed visible.",
+      "acceptance_test": "The \"joke and an exit\" claim is either removed or narrowed to what the record shows, for example that she often delivers a firm line with a joke. Exit or withdrawal is not claimed where she kept advocating. The Cornell and Gaza episodes are not used as examples of exits. The Instagram action is described as a content warning, with \"censored\"/\"block\" attributed to her. The Don't Worry Darling paragraph no longer depends on this pattern to read her silence. C100 is revised to match."
+    },
+    {
+      "id": "subject-05",
+      "severity": "major",
+      "passage": "In 2025 she told Theroux, \"I'll always defend people that I love, I will always stand up for them.\"",
+      "problem": "Readers could be led to identify a named third party as the partner in a relationship she described as harmful. The link for this Braff paragraph goes to an article headlined \"Florence Pugh opens up about unhealthy past relationship: 'My body was in full panic mode'\", with the URL slug \"opens-unhealthy-past\" (page opened). In the preceding section the draft introduces \"a past relationship she has not named, one she described as 'causing you pain'\". Braff is the only ex-partner named in the article. Pugh did not name that partner, EW says so explicitly, and the evidence record (C29) forbids connecting the two. The text never makes the connection, but the citation does. Separately, the phrase \"causing you pain\" comes from the EW relay (S60), yet the draft attributes that passage only to Daily Times.",
+      "acceptance_test": "No link, citation label, sentence or adjacency in the Braff paragraph points to coverage of the unnamed relationship. The \"defend\" line is sourced to the official podcast clip or timestamped episode, or replaced with British Vogue 2024 (\"I think for anyone I'm with, I want to protect them\"). Any EW link appears only where it sources the unnamed-relationship phrase. The unnamed-relationship passage still says she has not named the partner. It does not date or sequence the relationship, and no added detail invites identification."
+    },
+    {
+      "id": "subject-06",
+      "severity": "major",
+      "passage": "The Big Mouth Who Keeps Her Own Pain Quiet",
+      "problem": "The persona title states as a present fact a trait that the article's own evidence and thesis contradict. The thesis is that she names the cost later, and she has done so publicly and at length: Midsommar depression on a podcast (2025), \"really painful\" internet cruelty (2024), a harmful relationship (2025), and fear and anxiety over the Cornell case (2026). The closing section says she has changed (\"I don't do that anymore\"; \"I now know how to protect my space\"). \"Big Mouth\" also drops the self-deprecating \"a bit of\" from her own line, and in the headline slot it reads as a label applied to her, not one she chose.",
+      "acceptance_test": "The persona title describes the pattern the article actually supports: timing (thrill first, cost named later) or a past-tense habit. It does not claim a current trait she says she has changed. Any self-description in it keeps her qualifier or is dropped. The title matches the meta_title, description and closing section."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "Cutting her own hair on camera in _A Good Person_ (2023) was her idea.",
+      "problem": "Her stated reason is left out, and one account is split into two type arguments. Vogue (January 12, 2023; page opened) says the haircut idea came from \"her own on-and-off experience as a teenager experiencing both routine and occasionally acute mental distress\". It was the character's \"desperate attempt to puncture the fog of depression.\" The draft uses the haircut as Eight evidence (forcing commitments past others' caution) without her reason. It quotes the same passage's \"quick fixes\" as Seven evidence but cuts \"things were so wrong with school life and things were so dark and scary\". As a result, adolescent mental distress reads as nails-and-eyelash-kit coping.",
+      "acceptance_test": "Either the haircut sentence gives her stated source (her teenage distress, per Vogue 2023), or the haircut is no longer offered as evidence of an Eight's force of will. The quick-fixes passage keeps \"so dark and scary\" or plainly says she was describing teenage mental distress. Nothing beyond what she disclosed is added, and no diagnosis is implied."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "in her most detailed story of a standoff on set, a male co-star spoke up for her.",
+      "problem": "This FAQ answer can appear on its own in search results. It reduces the retakes story to a man rescuing her and drops her own explanation, which the body includes: women risk being called \"a nightmare\", the same words from her \"wouldn't have been received well\", and \"I've always been able to make sure that I'm heard\". Out of context, it suggests she can't stand up for herself, which she disputes.",
+      "acceptance_test": "The FAQ answer either includes her gendered explanation in a clause (for example, that she says a woman pushing back risks being labeled difficult) or drops the anecdote. The FAQ still answers why the Seven reading leads, with no more certainty than the body."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "She refuses to make the illness a story about her.",
+      "reason": "It honors her explicit refusal of a wound narrative and declines to build a childhood cause. With the closing line, \"This profile takes her at her word\", this is the standard's no-invented-wound rule done well."
+    },
+    {
+      "passage": "People process hurt over time, and a reflective cover interview invites admissions. None of this proves she was hiding pain in 2022. What it shows is the order in which she tells her own stories.",
+      "reason": "It clearly separates what the record shows (the order she tells things) from the motive it can't prove. Keep this local hedge even if the surrounding section is revised."
+    },
+    {
+      "passage": "That wording has not been checked against the audio. The same transcript renders \"good for everybody else\" as \"upbeat for everybody else,\" so this profile does not rest anything on that word.",
+      "reason": "It is open with the reader about transcript uncertainty on her most personal disclosure, and it declines to lean on an unverified word."
+    },
+    {
+      "passage": "Reports of tension with the director, Olivia Wilde, rested largely on anonymous sources, and in 2026 Wilde said, \"I've never had a screaming match on my set.\"",
+      "reason": "It handles a disputed conflict fairly: it names the weakness of the sourcing, includes the other party's denial, and does not assert a feud."
+    },
+    {
+      "passage": "And the record has limits. \"I walked away from our process not understanding any better than I did beforehand how she works,\" Kazan told Vanity Fair. The public sees what she shows on press tours, not how she behaves at home.",
+      "reason": "It ends the counterevidence with an honest statement of what public material cannot show, using a collaborator's own words instead of a boilerplate disclaimer."
+    }
+  ],
+  "assessment": "On fairness this is mostly a careful draft. It separates self-report from inference, refuses a childhood-wound story, leaves the accused in the pending Cornell case unnamed and states the case's status, includes Wilde's denial, and never names the partner in the relationship Pugh called harmful. The problems cluster where the type argument draws on sensitive material. Three edits tilt the record against her: the Studio City story is wrongly dated to 2022 when she told it in 2018; her Cornell answer is cut to \"rage\", losing \"scared\" and \"anxious\"; and a joke-and-exit pattern is claimed that her Cornell and Gaza conduct contradicts. Two passages leave out her own stated reasons: why she won't discuss Don't Worry Darling (British Vogue 2024), and where the haircut idea came from (Vogue 2023). A citation on the Braff paragraph links to coverage of the unnamed unhealthy relationship. The persona title asserts a present habit the article says she has changed. Sources I opened for this review: Guardian 2018, British Vogue 2024, Vogue 2023, Variety Cornell 2026 and the EW/Yahoo relay. The paywalled Telegraph original was not opened. Similarity advisory: not tripped. The highest score, 0.025, is under the 0.04 threshold and equals the noise-floor maximum. Top pairs are generic type definitions and a stock \"evidence against it gets its own sections below\" disclaimer, with no reused argument. The portrait reads as specific to her: the two Midsommar/Little Women retellings and the packing/unpacking close. Risk flags: sensitive_allegations (pending sexual-assault case, disputed Don't Worry Darling reporting, a disclosed harmful relationship) and contested_typing (7/8/2, with a Six signal) both stand, so the expanded jury applies."
+}

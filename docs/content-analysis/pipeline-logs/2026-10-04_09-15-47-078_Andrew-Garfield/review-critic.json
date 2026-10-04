@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "critic",
+	"content_sha256": "5d360da4c19b36a25182356716b6ca85bb97257d6e08da1f06b59cc7b2bfd007",
+	"evidence_sha256": "977a1fca814d02ac1d0632672173714b55f04b26edd5f99e1cac0521a1488fb7",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "critic-01",
+			"severity": "major",
+			"passage": "As a boy in suburban Surrey, he says, he was \"enraged at the concept of this being everything.\"",
+			"problem": "The article's central arc depends on how this line is glossed: a boy raging against ordinariness becomes a man who wants ordinariness. The line appears in the hook, the description, an FAQ and the 'hinge' paragraph. I reopened the Maron transcript (S06, ~00:42:01–00:42:44). The 'this' he raged at is named in the next breath: \"raised in a very kind of conservative suburban\" home where \"the arts weren't valued\" and \"if you're not a lawyer a doctor or in business then you're nothing.\" That is rage at a narrow status hierarchy, not at ordinary life as such. On that reading his 2026 line, \"The idea that we feel that we have to be more than we are, it's heartbreaking,\" continues the boy's protest rather than reversing it. The draft also contradicts itself on timing. It says \"ordinariness arrives late, as something grief taught him\" (and the FAQ says \"Ordinariness came later\"), yet it quotes the pre-bereavement 2017 wish for \"the beauty of living a hidden life.\" Finally, the 'enraged' wording exists only in an unlabeled auto-transcript. The evidence record says it has not been checked against audio, yet it carries the metadata description.",
+			"acceptance_test": "Next to the 'enraged' line, the article quotes or closely paraphrases the 'arts weren't valued / if you're not a lawyer, a doctor or in business then you're nothing' context. It then either (a) explains with evidence why a reversal reading (rage at ordinariness → chosen ordinariness) beats a continuity reading (lifelong protest against having to be 'more' than you are), or (b) reframes the arc to match the context. The 'ordinariness arrives late / came later, as something grief taught him' claim is removed or reconciled with the 2017 'hidden life' quote. The description and the Type 9 FAQ no longer gloss the line as 'enraged that ordinary life might be everything' unless the reframed body supports that wording."
+		},
+		{
+			"id": "critic-02",
+			"severity": "major",
+			"passage": "Under loss, a Nine usually turns the volume down, and a Three usually gets back to work. Garfield turns toward the absence and treats it as the meeting place.",
+			"problem": "The discriminator against Three assumes Garfield did not get back to work. The record says he did, at once, and that he chose that himself. Wikipedia (S20, an opened source in this packet) reports that his mother 'died of pancreatic cancer while he was filming The Eyes of Tammy Faye and shortly before Tick, Tick... Boom! began production.' On Colbert he said he would honor her \"through my art and use it as a way to heal.\" The 2020–2022 stretch (tick, tick... BOOM!, No Way Home, Under the Banner of Heaven, which brought an Emmy nomination) was among his busiest. The draft leaves this chronology out. Separately, the paragraph calls this 'the most telling behavior in the record,' but it is self-report from a grief podcast, not observed behavior. And \"I ran towards it and I said, help me\" (Cooper, ~00:17:47) refers specifically to the Fire Island ocean moment, not to a general way of grieving.",
+			"acceptance_test": "The article states that his mother died while he was filming The Eyes of Tammy Faye and shortly before tick, tick... BOOM! began production. The Three/Nine discriminator no longer rests on 'a Three usually gets back to work'. If it is kept, it argues from how he describes the work (expression, healing) and concedes that his visible behavior after the loss was intense, continuous work. 'Most telling behavior' is relabeled as his own account. The 'ran towards it' quote is placed with, or tied explicitly to, the ocean episode it describes."
+		},
+		{
+			"id": "critic-03",
+			"severity": "major",
+			"passage": "What weakens the Three case is what he does when image and inner truth collide.",
+			"problem": "The Three case is shown without its strongest items, and the rebuttal points are not tested against image-based readings. Omitted: (1) Maron (S06, ~00:37:16–00:37:43). His father, who had treated acting as a dead end, 'started to come a bit closer' once Garfield was paying rent and making his first movies. Love following success is the core of an achievement-for-love story, and the evidence file's own alternative_case lists it. (2) The same Chicken Shop Date exchange (S13). The draft keeps the past-tense 'meant something to me in the past' but cuts the present-tense 'my longing is back for it yeah but then I'm like trying to please you.' The rebuttal points also have image readings left unaddressed. Leaving a franchise for prestige theater after The Amazing Spider-Man, which led to Angels in America and a Tony, is a classic reputation move; C22's alternative says so. 'Shows the need and the defeat on camera' happens inside a comic flirt format, where the display is itself a performance. 'He quit the medal track at 12' is used against Three after the draft has already said 'the quitting alone settles nothing.'",
+			"acceptance_test": "The Three section includes the father-came-closer-with-success detail, attributed to Maron via auto-transcript, and the 'my longing is back for it… trying to please you' line with the same caption caveat already used. For each item offered against Three (theater retreat, on-camera Oscar admission, quitting at 12), the article either states the image-management reading and gives a sourced reason it is weaker, or drops the item from the anti-Three case."
+		},
+		{
+			"id": "critic-04",
+			"severity": "major",
+			"passage": "A Nine rarely starts from \"no one else had been through this agony.\" Garfield started there and named the correction.",
+			"problem": "The case against Nine is argued against a stereotype, not the strongest version. Unsourced generalizations do the work: 'A Nine tends to begin settled into ordinary life,' 'An overlooked son who goes quiet and keeps the peace is a classic Nine story,' and this line. Nines sit in the anger triad, and early rage that later turns into acceptance is a common Nine account. Feeling that one's early grief is unique is close to universal, as the evidence file's C20 alternative admits. The record also holds Nine-shaped material the draft never addresses. Just before the ocean passage on Maron (~01:28:18) he says: \"I had to accept death as this tsunami that if we try and fight and beat, we're just going to end up drowning ourselves in more unnecessary anguish. There was something about the inevitability of it that was weirdly reassuring.\" To Cooper he says \"my ego was holding on\" until the ocean would \"hold me under.\" Grief as 'the only route to feeling her close' can be read as merging and connection, not only as a Four's attachment to longing. The 'wasn't special' turn is also scored for Four both ways: feeling special is Four, and losing that feeling is Four growth. Ordinariness as a goal is conceded to be native Nine ground, then credited to Four anyway. Finally, 'Collaborators also report more heat than a Nine usually shows' rests on one quote, Miranda praising his stage performance as Prior Walter, a role written full of rage. Acted rage is not evidence of temperament.",
+			"acceptance_test": "The Nine section gives the strongest Nine case: anger-triad rage that resolves into acceptance, the 'accept death as this tsunami… weirdly reassuring' and 'ego was holding on' self-accounts, and grief-as-connection read as merging. It answers that case with a sourced discriminator. 'A Nine rarely starts from…' and similar type generalizations are either sourced or clearly framed as interpretation with a stated limit. The article names one observation that would have counted against Four, so the 'wasn't special' turn does not confirm Four whichever way it falls. The Miranda quote is removed from the Nine-discriminator paragraph or explicitly labeled as praise for a stage performance."
+		},
+		{
+			"id": "critic-05",
+			"severity": "major",
+			"passage": "Publicity explains when he talks about grief. It doesn't explain why he describes it in the same terms across nine years.",
+			"problem": "The only rebuttal to the no-Enneagram 'sensitive-man brand' explanation is weaker than presented. (1) Its first anchor, the January 2017 America interview, was itself Silence press (S01's context says 'during Silence promotion'). Predating the bereavement does not take it outside a publicity window, and a spiritual-seeker interview with a Jesuit outlet is what a sensitive-seeker brand would produce. (2) 'The 2022 Maron conversation was not tied to a release' is true only narrowly. Wikipedia (S20) records an Emmy nomination for Under the Banner of Heaven, and an August 22, 2022 episode sat in the run-up to the September 12, 2022 Emmy ceremony. The Vanity Fair telling (S28) came during Oscar season. (3) 'The same terms across nine years' clashes with the draft's own correction that the 2017 grief was 'about the world, not a bereavement.' (4) Consistent language does not separate a stable temperament from a stable persona. Both predict it.",
+			"acceptance_test": "The paragraph admits that the 2017 America interview was Silence promotion and that the Maron episode fell during an awards season, or it drops 'not tied to a release.' The rebuttal relies on costly behavior rather than consistent wording: the year of Exercises, the 40 pounds, six months of celibacy, quitting gymnastics, or a source outside any campaign window. Otherwise it plainly concedes that publicity cannot be ruled out. 'The same terms across nine years' is removed or made consistent with the 'grief about the world, not a bereavement' passage."
+		},
+		{
+			"id": "critic-06",
+			"severity": "major",
+			"passage": "The first half became his reputation: the actor who cries on talk shows and won't let the wound close.",
+			"problem": "The hook claims to correct a public misreading but never sources that misreading. 'Won't let the wound close' matches the earlier 9takes draft's own thesis (the research_tasks note that 'won't let his grief heal' was replaced), so the draft may be pinning its predecessor's error on the public. 'The second rarely traveled with it' is contradicted in the same paragraph's citations: NBC News (S19) quoted the 'heal… sew up the wounds' line the same day, under a headline about how the film 'helped him cope with loss.' The Late Show upload is titled 'I Hope This Grief Stays With Me,' which supports 'became the clip' but not a reputation for refusing to heal.",
+			"acceptance_test": "Either at least one independent source shows the 'won't heal / clinging to the wound' public reading and shows the clip circulating without the healing half, or the lead is rewritten so the contrast rests on the clip's title and how it is commonly excerpted, with no claim about his reputation. 'The second rarely traveled with it' is removed or reconciled with the NBC News coverage cited in the same paragraph."
+		},
+		{
+			"id": "critic-07",
+			"severity": "minor",
+			"passage": "Read together, the grief he describes is not regret over things left unsaid. It is love that outlived the person it was for.",
+			"problem": "The draft resolves the 'unexpressed love… never got to tell her' versus 'we left nothing unsaid' contradiction here. Then 'What the type doesn't explain' lists the same pair as an unresolved loose end. Meanwhile the strongest support for this resolution goes unquoted. In the Colbert answer itself (S03), he goes straight on: \"We all told her every day, she was the best of us.\"",
+			"acceptance_test": "The article handles the pair one way only. Either the harmonization stays, supported by the 'We all told her every day' continuation, and the pair is removed from the loose-ends paragraph, or it is presented as unresolved in both places without the author's harmonization."
+		},
+		{
+			"id": "critic-08",
+			"severity": "minor",
+			"passage": "Many LGBTQ people on Twitter said he was belittling what it is like to be queer; _Advocate_ contributor Nico Lang wrote, \"Straight actors, please stop this nonsense.\"",
+			"problem": "The adverse episode is attributed fairly, but the substance of the criticism is trimmed. The opened Advocate piece (S10) also quotes him saying \"As far as I know, I am not a gay man. Maybe I'll have an awakening later in my life,\" and says Lang compared the remarks to the gay-baiting of straight actors who hint at queerness for media attention. Without those, readers cannot tell why Lang objected, and the episode reads as one misheard line rather than the specific charge it drew. Separately, filing it under 'What the type doesn't explain' goes unargued. Claiming another group's experience as one's own identity arguably is something a Four (or image-focused Three) reading predicts, and the article should say which.",
+			"acceptance_test": "The paragraph includes the 'Maybe I'll have an awakening later in my life' line and the Advocate's gay-baiting characterization, attributed to the Advocate. His BBC Newsbeat response stays alongside it. One sentence states whether this episode cuts against, fits, or is neutral to the Four reading, rather than leaving it unexplained by default."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "He gave two answers in one breath.",
+			"reason": "Splitting the famous Colbert answer into its two halves is sourced (S03, S19) and gives a distinctive way into the piece. Keep the structure even if the reception claim that follows changes (critic-06)."
+		},
+		{
+			"passage": "That was grief about the world, not a bereavement, and it came more than two years before his mother died.",
+			"reason": "An honest correction of a quote's scope, restoring the full 'grief of living' sentence instead of using the truncated version that would have flattered the thesis. This is exactly the kind of evidence handling the profile should keep."
+		},
+		{
+			"passage": "And my mom goes right up to him and grabs him by the lapels. And she says, it was me. It was all me.",
+			"reason": "A specific, surprising, sourced scene (Cooper, S05) that makes Lynn a person and anchors 'I do owe her her unmet dreams.' It is the most memorable detail in the profile."
+		},
+		{
+			"passage": "A tidy Four story would have him tormented by the pretense. The record shows a man who hated it and enjoyed it.",
+			"reason": "Admits contrary evidence plainly and leaves it unresolved, which the standard asks for. The skeptical reader trusts the rest of the piece more because of it."
+		},
+		{
+			"passage": "A Two tends to idealize that kind of giving. Garfield loved her for it and wanted her to stop.",
+			"reason": "A crisp discriminator grounded in his own words ('I was very angry with her for that a lot of the time'). It shows how to rule out an alternative with specific evidence instead of a type stereotype, the model the Nine and Three sections should follow."
+		}
+	],
+	"assessment": "A skeptical reader will find this draft unusually candid in places. It scopes the pre-bereavement 'grief of living' correctly, keeps the Spider-Man contradiction, flags caption limits and makes a sharp case against Two. Its two most appealing causal stories are less secure than they look once the full source context is read. I reopened the Maron and Cooper transcripts on podscripts and Wikipedia's Garfield article. The 'enraged at the concept of this being everything' line is aimed at a home where 'if you're not a lawyer a doctor or in business then you're nothing,' which makes a continuity reading at least as plausible as the advertised reversal (critic-01). The 'Three gets back to work, Garfield runs toward the absence' discriminator ignores that he was filming when his mother died and went straight into tick, tick... BOOM! (critic-02). The cases for Nine and Three are argued against stylized versions, while the record's acceptance/surrender language and the father-came-closer-with-success detail go unaddressed (critic-03, critic-04). The rebuttal to the branding explanation leans on interviews that also sat in promotional or awards windows (critic-05). Type 4 at medium confidence may well survive, but only if the discriminator section beats the strongest Nine and Three cases with sourced observations instead of type generalizations. Similarity diagnostic: the Kacey Musgraves trip ('something essential is missing') is stock Type 4 definition wording, and the Bryan Johnson match is a shared common phrase ('organized around'). Neither reuses an argument, so I raised no finding. Tying the type definition to Garfield's own 'not-enough-ness' and 'there is more' would make it more specific to him. Risks are kept at the research-stage flags: sensitive allegations (Angels in America, his one-sided family accounts), contested typing and a major thesis change."
+}

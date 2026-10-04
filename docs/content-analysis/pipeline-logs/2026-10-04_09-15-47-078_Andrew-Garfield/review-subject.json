@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "5d360da4c19b36a25182356716b6ca85bb97257d6e08da1f06b59cc7b2bfd007",
+  "evidence_sha256": "977a1fca814d02ac1d0632672173714b55f04b26edd5f99e1cac0521a1488fb7",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "The coverage reviewed for this profile shows a defense, not an apology. One reading is that total immersion in a role tipped into claiming an experience he had not lived; another, closer to his own, is that remarks about immersion were stripped of context. Either way, it is the clearest public gap between how deeply he feels his way into something and how that lands with the people who live it.",
+      "problem": "This is a sensitive identity topic, and the passage gives an author verdict that the evidence record (C25, C51) says to avoid. (1) 'A defense, not an apology' measures his response against an apology the article implies he owed, and the scope is one opened July 2017 article. (2) His own explanation is reduced to a denial plus a paraphrase. The same opened source (The Advocate, S10, re-opened 2026-10-04) quotes him telling BBC Newsbeat 'It's a love letter to the LGBTQ community' and 'I dive in as fully as I possibly can'; that is his actual account of the remark, and the draft does not quote it. (3) 'How that lands with the people who live it' widens criticism from the sources' 'many LGBT people on Twitter' and one Advocate contributor to the LGBTQ community as a whole. No opened source establishes a community-wide reaction. The section's framing ('The hardest moment for the sincere-seeker reading') also implies the remark tests his sincerity. No source alleges insincerity; the criticism was that he belittled queer experience.",
+      "acceptance_test": "The passage reports his July 2017 response without calling it 'not an apology' and quotes at least one line of his own immersion explanation from S10 ('I dive in as fully as I possibly can' or 'a love letter to the LGBTQ community'). The reaction is attributed only to the critics the sources name (many LGBT people on Twitter; Nico Lang). The closing sentence is either removed or worded as the author's local interpretation ('this suggests…') with no community verdict. The section framing does not imply insincerity unless a cited source makes that charge."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "Most of his grief disclosures land in promotional windows, Colbert during _tick, tick... BOOM!_, then Cooper, Elmo and _Chicken Shop Date_ during _We Live in Time_.",
+      "problem": "Factual error. On 2026-10-04 I pulled and searched the full auto-captions of the Chicken Shop Date episode (S13, 276 segments, about 11 minutes). Nothing in them mentions his mother, grief, loss or death. The talk is about dating, privacy, marriage and the Oscar. Counting it as a grief disclosure inflates the publicity-brand case against him and implies he brought his mother's death into a comic flirt format, which the record does not show. Evidence claim C38 makes the same error.",
+      "acceptance_test": "Chicken Shop Date is removed from the list of grief disclosures in the body and in C38, or replaced with an opened source in which he actually discusses grief during that release window. Every item in the promotional-window list is a source in which he discusses his mother or grief."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "As a boy, Andrew Garfield was enraged that ordinary life might be everything.",
+      "problem": "This puts the author's gloss in his mouth as unattributed fact. In the Maron auto-transcript (S06, about 00:42), 'this' is a specific upbringing: 'I was raised in a very kind of conservative suburban… Truman show feeling… If it is everything, I don't particularly know if I want to be here… I was enraged at the concept of this being everything… the arts weren't valued.' The draft turns 'this' into 'ordinary life' and drops 'the arts weren't valued'. That detail is the circumstantial explanation the evidence record itself names (C11 alternative): a teenager angry at a particular home and suburb that did not value what he loved. The body hinge ('the overlooked son who got angry that ordinary life might be all there is') and the anti-Nine discriminator (C61) therefore rest on the author's abstraction, not his words. Research tasks list this line as unverified against audio. The description states it flatly, about him as a minor, with none of the transcript caveat the body gives. The body's 'never a suicidal kid' also firms up his hedged 'I wasn't, like, a suicidal kid'.",
+      "acceptance_test": "The description attributes the claim ('he says', 'he has said') or uses his own words. The body gives the context he gave: a conservative suburban upbringing where, he says, the arts weren't valued. The hinge paragraph either acknowledges that the anger may have been at that environment rather than at ordinariness itself, or explains with sourced evidence why the broader reading holds. The 'enraged' line is checked against the episode audio before it stays the metadata lead. The suicide reference keeps his hedged wording or is omitted."
+    },
+    {
+      "id": "subject-04",
+      "severity": "minor",
+      "passage": "His father's value system, as he describes it, put \"success and gold medals\" first, his brother was the \"golden boy,\" and he admits the pull \"to be seen, to be appreciated.\"",
+      "problem": "His father and brother are private people whose side is not in the record. The source dates the father's values ('his value system at the time'), but this restatement drops 'at the time' and turns them into a present-tense trait. The next lines then treat a Chicken Shop Date joke ('I get it I get it just like my father', his reply to Dimoldenberg's teasing 'maybe') as Three-case evidence. That line comes from unlabeled captions, and in the same bit he says 'my longing is back for it… then I'm like trying to please you and that's [ __ ] up'. Placed beside the medal quote, the joke reads as a characterization of his father's love as conditional on awards.",
+      "acceptance_test": "Wherever the father's values are characterized, 'at the time' or an equivalent date is kept. The 'just like my father' line is either removed or explicitly framed as a joke in a comedy format, not as evidence about his father. No sentence characterizes the father or brother beyond what Garfield said, and everything said about them is attributed to him."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "The first half became his reputation: the actor who cries on talk shows and won't let the wound close.",
+      "problem": "This is an unsourced claim about how the public sees him, and it carries a slightly mocking label. According to the research tasks, 'won't let the wound close' was the baseline 9takes draft's own thesis. Here it is attributed to his public reputation. The preceding line ('The second rarely traveled with it') is contradicted by the draft's own citation: the NBC News piece (S19) quotes the second half ('use it as a way to heal — use it as a way to sew up the wounds').",
+      "acceptance_test": "Either at least one opened, published instance of the 'won't let it heal' reading is cited, or the sentence is recast in neutral terms as how the clipped line can sound on its own. 'Rarely traveled with it' is removed or supported by sources that the cited NBC article does not contradict."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "It runs into his anger at his mother's self-erasing care. A Two tends to idealize that kind of giving. Garfield loved her for it and wanted her to stop.",
+      "problem": "Lynn Garfield is a deceased private person. Her son's words were that she 'loved living for others' and 'would have stayed here for another 10 years if it meant that we were all happy', and 'I just wanted her to take care of herself better' (S06). 'Self-erasing' is the author's label, not his. 'Wanted her to stop' turns his wish that she look after herself into a wish that she stop caring for others. Earlier, 'He loved this in her and also fought it' also goes beyond 'I was very angry with her for that a lot of the time'.",
+      "acceptance_test": "Her care is described in his words or in attributed paraphrase. 'Wanted her to stop' is replaced by what he said (he wanted her to take better care of herself). 'Self-erasing' and 'fought it' are removed, or worded as the author's interpretation in a way that does not overstate his account."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "Many grieving people feel their loss is unique; fewer describe the feeling so exactly and then call it an illusion.",
+      "problem": "He does not call the feeling that his grief was unique an illusion. In Vanity Fair (S28) the 'illusion' is 'that the person that gives you life is always going to be alive'. To Maron he said 'I understood that I wasn't special… I'm not alone in it.' The draft takes his word for one belief and attaches it to the article's central turn, which it calls 'the most distinctive thing in Garfield's record'.",
+      "acceptance_test": "The sentence uses his own framing (e.g. he concluded he 'wasn't special' or was 'not alone in it'), and 'illusion' appears only with its original referent."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "He calls most of his old ambition dead while signing on to big commercial projects, and he says \"we left nothing unsaid\" while speaking of love \"that I never got to tell her.\"",
+      "problem": "This restates both tensions as unexplained inconsistencies after the draft has already given his own answer to each. He corrected 'two thirds of my ambition' in the same breath to 'the style, the type, or the feeling of that ambition', and the draft concludes 'what changed, by his account, is why he works'. The draft also reconciles the two grief statements ('love that outlived the person it was for'). Repeating them without his correction implies hypocrisy and leaves out his response. 'Big commercial projects' is an author characterization with no project named. Similarly, 'The man who discusses his mother's death on podcasts calls himself private about the rest' presents a caption-attributed line, said while deflecting a dating bit and printed without the speaker caveat used for the Oscar lines, as a contradiction. Being open about grief and private about romance is not an inconsistency (evidence C52 alternative).",
+      "acceptance_test": "The loose-ends sentence is either cut or includes his correction ('previous ambition… the style, the type'). Any 'commercial' characterization names the projects. The nothing-unsaid tension is not called unexplained while the draft keeps its own reconciliation. The privacy line carries the caption-speaker caveat and is not framed as a contradiction or hypocrisy."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Garfield doesn't describe refusing to heal. He describes walking toward the pain on purpose, because that is where he still finds his mother.",
+      "reason": "This is the fairness correction that drives the refresh. It restores the half of the Colbert answer that the clip dropped, and it reports his stated method rather than an imagined pathology."
+    },
+    {
+      "passage": "Read together, the grief he describes is not regret over things left unsaid. It is love that outlived the person it was for.",
+      "reason": "It reconciles two of his statements without accusing him of inconsistency, and it is a distinctive, well-sourced insight (Variety via NBC, Colbert)."
+    },
+    {
+      "passage": "A tidy Four story would have him tormented by the pretense. The record shows a man who hated it and enjoyed it.",
+      "reason": "It keeps evidence that cuts against the type thesis and lets him be contradictory, without moralizing about a contractual secrecy obligation."
+    },
+    {
+      "passage": "Publicity explains when he talks about grief. It doesn't explain why he describes it in the same terms across nine years.",
+      "reason": "It takes the skeptic's brand explanation seriously and answers it with dated evidence rather than dismissing it. Keep it after fixing the Chicken Shop Date error in the preceding sentence (subject-02)."
+    },
+    {
+      "passage": "He has kept working, through _We Live in Time_, _After the Hunt_, _The Magic Faraway Tree_ and _The Uprising_, so what changed, by his account, is why he works.",
+      "reason": "It separates observed behavior from self-report, gives his own account of the change, and keeps 'ambition died' from becoming a gotcha."
+    }
+  ],
+  "assessment": "Fairness proxy; I do not speak for Garfield. Overall the draft is fair. It restores the healing half of the Colbert answer, notes transcript limits inline, attributes all father, brother and mother material to him, avoids relationship speculation (Wikipedia lists a 2025 relationship; the draft rightly leaves it out), and gives both the Angels in America criticism and a response. The problems cluster where author inference is presented as the record. There is one factual error: Chicken Shop Date is counted as a grief disclosure, but its full captions contain no grief content. The Angels passage ends with a verdict ('a defense, not an apology'; 'the people who live it') that grades his reply and omits his own immersion explanation from the same opened source. The type hinge and the meta description turn 'this' (a conservative suburban upbringing where 'the arts weren't valued') into 'ordinary life' and state it as unattributed fact. Smaller issues: the father's dated values become present-tense, and a flirt-format joke is used as evidence about him; the mother's care is relabeled 'self-erasing'; 'illusion' is moved to a different referent; and the loose ends restate contradictions the draft already resolved. A lower-priority note: 'Being seen became the thing he most wanted and most feared' states inference as fact and should be hedged to his account. Similarity: the 0.241 kacey-musgraves match is the stock Type 4 definition ('something essential is missing'). That is ordinary type vocabulary, not reused argument, so it is not a finding. Checked 2026-10-04: I opened The Advocate (S10); pulled and searched the full Chicken Shop Date auto-captions (S13); and ran a web search, which confirms the July 2017 Newsbeat reply included 'love letter' and 'I dive in as fully as I possibly can'. Maron and Cooper context was read from the evidence excerpts; I did not check the audio. Risks match the evidence record: sensitive allegations (sexuality and identity remarks), contested typing (medium confidence; community consensus is Nine), and a major thesis change from the baseline."
+}

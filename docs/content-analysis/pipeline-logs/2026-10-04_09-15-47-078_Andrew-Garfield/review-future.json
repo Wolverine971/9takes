@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "5d360da4c19b36a25182356716b6ca85bb97257d6e08da1f06b59cc7b2bfd007",
+  "evidence_sha256": "977a1fca814d02ac1d0632672173714b55f04b26edd5f99e1cac0521a1488fb7",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "As of October 2026 he stars in Paul Greengrass's _The Uprising_ (US release September 10, 2026) and plays [Sam Altman](/personality-analysis/sam-altman) in Luca Guadagnino's _Artificial_, which premieres at the New York Film Festival on October 5, 2026.",
+      "problem": "This is the profile's only current-status sentence, and it goes stale one day after accuracy_checked_at (2026-10-04). On 2026-10-05, \"premieres ... on October 5, 2026\" becomes wrong in tense, almost certainly before edit, verify and publish are done. \"He stars in\" a September release will read as a current run for years. The cited URL hard-codes \"Artificial_(upcoming_film)\". C36's own inference says none of this carries the argument, and nothing later uses Artificial except the \"big commercial projects\" aside. The Sam Altman internal link is worth keeping. The tense is not.",
+      "acceptance_test": "Rewrite the sentence so it stays true on any date after 2026-10-05 without further edits. For example, use tense-neutral wording like \"His 2026 films include Paul Greengrass's The Uprising and Luca Guadagnino's Artificial, in which he plays [Sam Altman](/personality-analysis/sam-altman).\" Drop \"As of\", \"premieres\" and any future-dated event, and keep the Sam Altman link. C36 keeps its existing trigger (NYFF 2026-10-05, US release 2026-12-25, 2027 awards season), and its locator notes that the Wikipedia title will move after release. Read the paragraph as if today were 2031-10-04: no sentence should be false or misleadingly present-tense."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "He has kept working, through _We Live in Time_, _After the Hunt_, _The Magic Faraway Tree_ and _The Uprising_, so what changed, by his account, is why he works.",
+      "problem": "The Three rebuttal is the part of the argument most exposed to an event already on the calendar. It rests on 2024 self-reports: \"two thirds of my ambition died\" (C19) and the Oscar \"meant something to me in the past\" (C30). Line 152 compresses that to \"an Oscar once meant something to him.\" The frozen evidence for the same Chicken Shop Date exchange (S13, ~08:19–09:53) also has \"when I didn't win a couple of times I was like I guess maybe I should give up on that dream\" and, moments later, \"my longing is back for it yeah but then I'm like trying to please you\". Those lines are omitted, so the draft makes the achievement pull look more settled-in-the-past than the source does. The foreseeable test is Artificial: a Guadagnino prestige film with a December 25, 2026 US release, which puts him in the 2027 awards season. If he campaigns, is nominated or wins, \"what changed ... is why he works\" will read as written before the evidence came in. C19 and C30 are marked stable with no review_trigger, and C36's trigger covers film status, not the Three argument.",
+      "acceptance_test": "(1) Line 152 and the Chicken Shop Date paragraph reflect the full exchange, including the \"give up on that dream\" and \"my longing is back for it\" lines, with the same unlabeled-caption caveat and the flirt-format framing. If they are excluded, the draft says why. (2) The Three rebuttal is phrased as dated self-report (\"In 2024 he told Cooper...\"), not a settled present-tense conclusion. (3) C19 and C30 are reclassified time_sensitive or unresolved, with a review_trigger such as: \"After the 2027 awards season (nominations and ceremony, early 2027) and Artificial's press tour: if Garfield campaigns for, is nominated for or publicly discusses an Oscar, re-test the Three section and the bio honors list.\" (4) A reader in 2031 would not find the Three section obviously overtaken by a 2027 awards run."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "He describes a \"Truman show feeling like, is this everything? It can't be everything,\" and says that while he was never a suicidal kid, \"I was enraged at the concept of this being everything.\"",
+      "problem": "The draft calls this \"the hinge of the type argument.\" It repeats \"enraged\" in the hook, in the meta description (\"As a boy, Andrew Garfield was enraged that ordinary life might be everything\") and in the Type 9 FAQ. The word doing the discriminating work is \"enraged\": anger, not settling. It exists only in a third-party podscripts.co auto-transcript (S06). The record's own open research task says \"Verify against audio before any expansion\", and the print relay (S07) supports only the gentler \"I feel there is more.\" Over five years this is also the most fragile link in the chain. It is an aggregator transcript, and the Esquire and Vanity Fair corroboration is cited only through Yahoo syndications (S07, S28), which often expire. If those pages go, a reader cannot check the line the Four-versus-Nine argument turns on.",
+      "acceptance_test": "Option (a): confirm the \"enraged\" sentence against the WTF episode 1359 audio, record the timestamp in the S06 locator (~00:40:40–00:42:44), and link the official episode page next to the transcript. Option (b): reword the hook, description and Type 9 FAQ so the discriminator rests on print-corroborated wording (\"I feel there is more ... if it doesn't exist, I am in big trouble\"), and attribute \"enraged\" explicitly as transcript wording wherever it remains. Either way, thesis-bearing Esquire (C10, C11) and Vanity Fair (C44) quotes cite the original publisher URL or an archived snapshot in addition to the syndicated copy, recorded in the evidence locators."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "Publicity explains when he talks about grief. It doesn't explain why he describes it in the same terms across nine years.",
+      "problem": "The grief sources in the record run from January 2017 (America, S01) to October 2024 (Cooper S05, Elmo S04), about seven to eight years. The only 2026 source (S12, the America podcast) covers longing, the mask and ordinariness, not grief, as far as it was read. \"Nine years\" seems to be counted to the latest event rather than to the latest grief evidence. A computed span like this also drifts as the article ages.",
+      "acceptance_test": "Replace the span with absolute years that match the cited grief sources (e.g., \"from 2017 to 2024\"), or add a 2025–2026 grief source to the evidence record and cite it. Update C38's passage to match."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "In September 2026 he told a Jesuit podcast that he wants to \"free myself into my ordinariness.\" The distance between those two sentences is the story of his personality.",
+      "problem": "The thesis passes the five-year test. Remove the September 2026 podcast and the arc still stands on the 2017 \"hidden life\", the April 2022 \"just be ordinary for a while\" and the 2022 \"I wasn't special\" story, which has three accounts (Maron, Vanity Fair, Cooper). But the hook names a three-week-old podcast as the endpoint of \"the story of his personality\", and that source is known only from page excerpts (S12 locator), not the full episode. The persona_title (\"The Seeker Learning to Be Ordinary\") echoes the same 2026 wording. If he says something different in 2027–2031, the opening will look dated even though the argument is not.",
+      "acceptance_test": "Run a deletion test: remove the September 2026 sentence from the hook, and the remaining pairing should still read as complete. One option is to make the two sentences \"enraged at the concept of this being everything\" and the already-quoted \"I understood that I wasn't special\". The 2026 quote then stays as the dated latest instance where it already appears in the \"I wasn't special\" section. If the 2026 line stays in the hook, frame it explicitly as the most recent point in the pattern, and give C43/C49 a review_trigger for new long-form self-accounts."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "Earlier readings called him a 4w5, the withdrawn, cerebral Four, partly on quotes read out of context.",
+      "problem": "Per C40, \"earlier readings\" means the previous version of this 9takes page (the baseline's 4w5 and subtype calls). The same sentence appears in the \"Is Andrew Garfield a 4w5?\" FAQ answer. Readers in 2031, and anyone arriving from that FAQ result, cannot see that version, so the line becomes an unsourced swipe at unnamed typists. Changelog material in reader copy ages worse than anything else on the page.",
+      "acceptance_test": "Attribute it plainly (\"An earlier version of this profile called him a 4w5...\"), or drop the historical reference and give the wing reasoning on its own terms. Apply the same change in the body and the 4w5 FAQ answer, and leave no unsourced claim about unnamed \"readings\"."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "The coverage reviewed for this profile shows a defense, not an apology.",
+      "problem": "This absence claim is honestly bounded by what was reviewed. But C25 and C51 record it as \"disputed\" plus \"stable\" with no review_trigger. Any later interview where Garfield revisits the 2017 remarks would make this sentence, and the evidence `unexplained` field, stale. Other status claims follow the same pattern. C34 lists honors to date (two Oscar nominations, a Tony) as stable, though Artificial's awards season could add one. Line 216's \"twice-nominated guest\" and line 158's \"His brother, now a lung doctor\" describe status at the time of an interview without dating it. Only C36 carries a trigger in a 59-claim record.",
+      "acceptance_test": "Reclassify C25 and C51 as unresolved, with a trigger like \"If Garfield publicly revisits the 2017 Angels in America remarks, update the 'defense, not an apology' sentence and quote his response.\" Mark C34 time_sensitive with a trigger tied to 2027 awards results. Anchor \"now a lung doctor\" to the 2022 interview or remove \"now\". Keep \"twice-nominated\" only where it plainly describes his status in October 2024."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "He gave two answers in one breath. The first became the clip that followed him: \"I hope this grief stays with me because it's the unexpressed love that I never got to tell her.\" The second rarely traveled with it.",
+      "reason": "A durable hook. It is a dated 2021 moment with a primary video source and creates curiosity the article pays off. It does not depend on any recent event, so it will still work in 2031."
+    },
+    {
+      "passage": "What he brought to the retreat is the strongest single piece of evidence for the Four reading, because it came years before his mother's death and had nothing to do with a role.",
+      "reason": "Anchors the thesis in pre-bereavement, non-promotional 2017 evidence. This is the main reason the argument survives the five-year test when every 2024–2026 item is removed."
+    },
+    {
+      "passage": "This is the most distinctive thing in Garfield's record. Many grieving people feel their loss is unique; fewer describe the feeling so exactly and then call it an illusion.",
+      "reason": "The central insight is specific to this person and rests on a 2022 story with three accounts (Maron, Vanity Fair, Cooper). It will not date."
+    },
+    {
+      "passage": "For someone who once raged that ordinary life might be everything, the deepest thing he has felt turned out to be the most ordinary thing there is.",
+      "reason": "The ending lands at the story's natural point without leaning on the latest film, award or interview. It is the kind of conclusion that stays true as his career moves on."
+    },
+    {
+      "passage": "Quotations from Marc Maron's _WTF_ (2022) and Anderson Cooper's _All There Is_ (2024) come from automated transcripts; where print coverage carries the same story, this profile cites it.",
+      "reason": "Dated, reader-facing source transparency. It tells a future reader how much weight the transcript quotes can bear. Keep it, and extend it if any transcript-only line stays load-bearing (see future-03)."
+    }
+  ],
+  "assessment": "Five-year test: the thesis passes. The core evidence is dated and spread across 2017–2024: the pre-bereavement America interview, Colbert in 2021, the 2022 ocean story with three accounts, and Cooper in 2024. Removing both the September 2026 podcast and the October 2026 film status leaves the Four argument and the Nine discriminator intact. The ending relies on nothing recent, and the profile wisely avoids relationship status. Weak points: one status sentence that goes stale within a day (future-01). The Three rebuttal is the section most exposed to a foreseeable event, Artificial's 2027 awards season, and trims the Oscar exchange (future-02). The hinge quote depends on a single auto-transcript hosted by an aggregator (future-03). There is also a computed year span, a hook endpoint pinned to a three-week-old podcast, a changelog reference in reader copy, and a 59-claim record where only C36 has a review_trigger. Similarity: the tripped Kacey Musgraves pair is the stock Type 4 definition (\"something essential is missing\") and the Bryan Johnson pair is \"organized around\". Both are ordinary type vocabulary; the actual argument here is distinct, so this is not a finding. Publish-time note for DJ, not the editor: frontmatter date and lastmod are 2026-06-09, earlier than the September 2026 sources cited. The runner preserves these and lastmod is DJ-managed, so it should be reconciled at publish, not in this pass."
+}

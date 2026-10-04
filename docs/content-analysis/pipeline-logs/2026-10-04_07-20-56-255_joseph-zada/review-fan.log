@@ -1,0 +1,21 @@
+I've written the fan-role review for the Joseph Zada draft to `review-fan.json` in the run folder. It passes the review schema, and its two hashes match the request's frozen draft and evidence. I didn't edit any other file in the repo, didn't read the other review, and published nothing.
+
+It has six findings: two major, four minor. I opened the Interview Magazine and THR interviews in full, plus the relevant Wikipedia pages.
+
+**Major:**
+- **fan-01, the origin story:** The draft follows THR's line that he "started acting at 14, but against his will." But his first screen role was in *Bilched* (2019), a film his brother Hal wrote and starred in and his father directed. He also told Elle Fanning, "It was never strange for us to act." What he resisted at 14 was going on stage, not acting. *Bilched* is also an earlier case of the family making a film together, which matters for the "name for the whole family" section.
+- **fan-02, the earlier actors in his roles:** The draft says James Dean and Woody Harrelson "got different treatment." It leaves out his Fanning line about Dean: "I didn't necessarily feel pressure until I finished the job and watched the film. Then I was like, 'Oh, shit.'" So both actors stayed out of his head during the shoot and only hit him afterward. That also breaks the draft's split where only the man unsettles him, never the work.
+
+**Minor:**
+- **fan-03:** The type section calls Zoe Kazan "a director." She created, wrote and ran the series, but other people directed every episode. The draft also never says her grandfather Elia Kazan directed the 1955 film.
+- **fan-04:** The opening ("his Netflix series") implies he leads *East of Eden*. He's only in the last two of seven episodes.
+- **fan-05:** The Harrelson dinner quote cuts its first half ("We chatted and he asked me questions about myself and told me stories"). Without it, the moment reads as more alarming than the source.
+- **fan-06:** The book itself takes young Haymitch from hopeful to broken, so playing him "the opposite of Woody" follows the source. Zada also said a version of "my own shoes" back in June 2026 ("I could do whatever the hell I wanted"). The draft mentions neither.
+
+I also checked three things that held up. His father really is a GP, so "doctor" is accurate. *We Were Liars* season 2 did wrap just before the premiere. The quotes I compared against the two interviews are accurate.
+
+**Risk flags:** I kept "contested typing" and "historical source uncertainty" on, which agrees with the evidence record, so the six-reviewer jury stays required.
+
+**Similarity check:** Every flagged match was against this article's own September 12 version, which is expected for a refresh. The highest score against any other person was 0.027, under the 0.04 threshold.
+
+Separately, the Supabase server failed to connect this session, and several plugin servers (Ahrefs, Slack and others) need authorization in your claude.ai connector settings or via `/mcp`. This review didn't need any of them.

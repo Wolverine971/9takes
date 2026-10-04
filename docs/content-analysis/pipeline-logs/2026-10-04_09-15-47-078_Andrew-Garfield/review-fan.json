@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "5d360da4c19b36a25182356716b6ca85bb97257d6e08da1f06b59cc7b2bfd007",
+  "evidence_sha256": "977a1fca814d02ac1d0632672173714b55f04b26edd5f99e1cac0521a1488fb7",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "Under loss, a Nine usually turns the volume down, and a Three usually gets back to work. Garfield turns toward the absence and treats it as the meeting place.",
+      "problem": "The draft calls this 'the most telling behavior in the record', but it rests on a cleaned-up timeline. The evidence record's own Wikipedia source (S20, re-opened 2026-10-04) says Lynn 'died of pancreatic cancer while he was filming The Eyes of Tammy Faye and shortly before Tick, Tick... Boom! began production.' He flew home, then went almost straight back to work, and he told Colbert he used that work 'as a way to heal' (S03). The draft never mentions Tammy Faye. It says only that 'in public, the grief arrived during the tick, tick... BOOM! press tour', so the reader never learns he made that film right after her death. An informed reader knows the order. Without it, 'a Three usually gets back to work' reads as though Garfield did not, and that weakens the anti-Three discriminator exactly where the draft leans on it hardest.",
+      "acceptance_test": "The article states, linked to a source, that his mother died while he was filming The Eyes of Tammy Faye, shortly before tick, tick... BOOM! went into production. The Nine/Three contrast is rewritten so it no longer implies he stepped away from work. It either explains, using his own sourced words (e.g., Colbert's 'through my art and use it as a way to heal'), how working through grief differs from a Three setting feelings aside to perform, or it narrows the claim to one the dated record supports. The claim inventory gets a matching entry."
+    },
+    {
+      "id": "fan-02",
+      "severity": "minor",
+      "passage": "And the Jewish blessing \"may her memory be a blessing.\"",
+      "problem": "The profile is built on spiritual seeking: the persona title 'The Seeker', a year of Jesuit Exercises, a 2026 Jesuit podcast. Yet it never tells the reader that Garfield identifies as Jewish, calls himself a 'Jewish artist', and has called himself an 'agnostic pantheist' (Wikipedia, S20, already in the record). It also leaves out the best-known line from the source it leans on most: 'What was really easy was falling in love with this person, was falling in love with Jesus Christ. That was the most surprising thing' (America, January 10, 2017, S01; I checked it on the opened page). So 'the Jewish blessing' appears with no context, and the Exercises read like a therapy retreat. Anyone who followed the Silence press will notice the gap. A Jewish-identifying agnostic who was surprised to fall in love with Jesus, and who kept a Jewish blessing for his mother, is a revealing contradiction for the seeker thesis.",
+      "acceptance_test": "Where the Exercises or the blessing appear, the article states his Jewish identity and his 'agnostic pantheist' self-description, linked to a source. It quotes or accurately paraphrases the 'falling in love with Jesus Christ' line from S01, with a matching claim-inventory entry, and does not imply a religious conversion he has not claimed. The blessing line no longer stands without context."
+    },
+    {
+      "id": "fan-03",
+      "severity": "minor",
+      "passage": "He quit at about 12 and called it \"the first rebellion against my dad and his value system at the time: success and gold medals above any sense of joy, comfort, or pleasure.\"",
+      "problem": "Wikipedia (S20) says his father 'became head coach of the Guildford City Swimming Club' and that Garfield 'was a gymnast and a swimmer during his early years.' 'Gold medals' was literally his father's trade, which makes the rebellion concrete and costly instead of a vague clash of values. The draft also gives the reader his mother's 'unmet dreams' but not the matching detail he gave Maron about his father: 'a disowned dream of being a screenwriter' (S06, ~00:37:43, an auto-transcript the record holds back). Both parents carrying unlived creative dreams is the kind of revealing contradiction a fan expects. Without it, the father is a one-note medal-counter that the Three section then builds on.",
+      "acceptance_test": "Near the gymnastics passage, the article names his father's swim-coaching role and links a source. Then it does one of two things. Either it adds the father's disowned screenwriting dream, clearly labeled as Garfield's account from an auto-transcript (after checking it against the audio if the quote is used verbatim), or it explicitly limits the father portrait to Garfield's 'at the time' description so the Three section does not treat the father's values as fixed."
+    },
+    {
+      "id": "fan-04",
+      "severity": "minor",
+      "passage": "[Tom Holland](/personality-analysis/tom-holland), speaking of the scene in which Garfield's Spider-Man catches [Zendaya](/personality-analysis/zendaya)'s MJ, said, \"The look on his face... is totally genuine, and I'm really proud of him.\"",
+      "problem": "The draft flattens the best-known arc of his career. It never says that his Spider-Man sequels were scrapped after the Sony–Marvel deal and the role went to Holland (S20). It never says that he called No Way Home 'closure' with the character (S20). It never names the concrete result of the 'theater tribe' instinct it quotes, his 2012 Broadway debut as Biff in Death of a Salesman (S20). In the source, Holland's quote opens 'It was not only an opportunity for him to make peace with the character and the studio' and ends with 'win back the world' (S26). The draft keeps only 'the look on his face', so the reader can't tell why the look was genuine: the catch redeems the Gwen Stacy death, and Garfield said the MJ image 'kind of sold me on the whole thing' (S09). How he absorbed his biggest public professional loss bears directly on the image-versus-inner-truth discriminator in the Three section.",
+      "acceptance_test": "The article states, linked to a source, that his run ended when the sequels were scrapped and Holland took over the role. It then either restores Holland's 'make peace with the character and the studio' context, or uses Garfield's own 'sold me on the whole thing' / 'closure' wording, or cuts the Holland quote. If the 'theater tribe' passage stays, it names what he actually did next, with a source."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "[Emma Stone](/personality-analysis/emma-stone) told _Teen Vogue_ in 2011, \"Andrew is one of the most giving actors I've ever worked with.\"",
+      "problem": "Stone and Garfield began dating during The Amazing Spider-Man production in 2011 (S20; the record's S15 context says 'then-partner'). Every fan knows this, yet the draft presents her as neutral scene-partner testimony. The trimmed quote also changes its weight as typing evidence. The source goes on: 'If I needed to get to a place of love or sadness in a scene, he'd leave messages on my phone to replay, or slip in lines off camera for a different reaction than what was scripted' (S15). That is active, provocative intensity, not a Nine's merging receptivity, yet the draft files it under the Nine case as someone who 'gives himself over'.",
+      "acceptance_test": "When the article quotes Stone, it discloses the relationship and links a source. It either includes the fuller description and weighs it honestly (it cuts against a merging Nine reading), or it removes Stone from the Nine case."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "and he says \"we left nothing unsaid\" while speaking of love \"that I never got to tell her.\"",
+      "problem": "This contradiction is manufactured. In the same Colbert answer, the very next sentence is 'We all told her every day, she was the best of us,' and he framed the unexpressed love as grief 'because we didn't -- we never get enough time with each other' (S03). The draft already resolves the tension correctly in 'Running toward it' ('not regret over things left unsaid. It is love that outlived the person it was for'), then lists it again as unexplained. Separately, the opening says the healing half of the answer 'rarely traveled with it', but the NBC News piece the draft cites for it (S19) prints both halves, and no source in the record supports a claim about how the coverage traveled.",
+      "acceptance_test": "Either the 'nothing unsaid' / 'never got to tell her' pair is removed from 'Smaller loose ends', or it is reconciled with the earlier reading and the 'We all told her every day' line. 'Rarely traveled with it' is either sourced or softened to a claim the cited coverage supports."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "The first half became his reputation: the actor who cries on talk shows and won't let the wound close.",
+      "problem": "The hook depends on a claim about how the public received the clip, and nothing in the record sources it. 'Won't let the wound close' echoes this site's own superseded baseline thesis ('won't let his grief heal', per research_tasks), not documented reception. An informed viewer remembers the clip being shared as a moving statement of grief as love, not as a refusal to heal. The opening tension then knocks down a reading the article cannot show anyone held.",
+      "acceptance_test": "Either the article cites coverage or commentary that read the clip as a refusal to heal, or it rewrites the hook so the misreading is attributed honestly (for example, as an easy misreading of the line taken alone) and not asserted as his reputation."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "When she said an Academy Award might make him more attractive, the reply was \"I get it I get it just like my father.\"",
+      "problem": "This reverses the exchange in the record's own captions (S13). He asked 'would you be more attracted to me if I had an Academy Award', she said 'maybe', and 'I get it... just like my father' is the punchline of a deadpan flirt bit, followed by 'but then I'm like trying to please you and that's [ __ ] up'. The draft flags the unlabeled captions but never tells the reader that Chicken Shop Date is a comedy format where both people perform. So the Three case gets weight from a joke presented as a straight admission.",
+      "acceptance_test": "The exchange order matches the captions: he asks, she answers 'maybe'. Where the article uses the line as evidence, it flags the comedic, performed register. The Three case does not rest load-bearing weight on the punchline."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "And my mom goes right up to him and grabs him by the lapels. And she says, it was me. It was all me.",
+      "reason": "The most vivid, specific scene in the profile. It is sourced to his own account, and it sets up 'I do owe her her unmet dreams' without the author having to explain."
+    },
+    {
+      "passage": "A tidy Four story would have him tormented by the pretense. The record shows a man who hated it and enjoyed it.",
+      "reason": "It refuses to let the type flatten a well-known episode (the No Way Home denials) and keeps the contradiction alive. Informed readers will recognize that as honest."
+    },
+    {
+      "passage": "Publicity explains when he talks about grief. It doesn't explain why he describes it in the same terms across nine years.",
+      "reason": "It meets the strongest cynical reading of the 'sad Andrew Garfield' persona head-on, with a precise, dated counter instead of flattery."
+    },
+    {
+      "passage": "Many grieving people feel their loss is unique; fewer describe the feeling so exactly and then call it an illusion.",
+      "reason": "This is the profile's distinctive insight, sourced from three tellings (Vanity Fair, Maron, Cooper). It is what this page offers that a fan has not already read elsewhere."
+    },
+    {
+      "passage": "For someone who once raged that ordinary life might be everything, the deepest thing he has felt turned out to be the most ordinary thing there is.",
+      "reason": "The ending pays off the opening arc without overclaiming, and it is still conditioned on 'If the Four reading is right' in the sentence before."
+    }
+  ],
+  "assessment": "Read as an informed fan, the draft handles the best-known grief material faithfully. It quotes the Colbert answer in full instead of the viral half, uses Cooper, and corroborates the Maron ocean story with Vanity Fair. It also doesn't flatter: the Angels in America backlash, the publicity-window skeptic and his enjoyment of the Spider-Man lies are all confronted. The gaps are formative context a knowledgeable reader expects: Jewish/agnostic identity behind the Jesuit year, a swim-coach father behind 'gold medals', the scrapped Spider-Man sequels and his return, Emma Stone as a partner, not a neutral co-star, and the Tammy Faye / tick, tick... BOOM! timing of his mother's death. Most of these are enrichment. One omission, the timeline (fan-01), props up the anti-Three discriminator and should be fixed before release. Optional strengthenings: the 2017 America interview frames the Ophelia story as his deepest experience of God's presence and resolves it with the busker and 'if you don't you're going to die', a pre-grief case of moving toward terror that the draft cuts off at 'I'm a fraud'. The orientation paragraph also skips The Social Network, a natural link now that he plays Sam Altman. Similarity: the kacey-musgraves trip (0.241) is a shared definition of Type 4 ('something essential is missing'). That is ordinary type vocabulary, not argument reuse, and the Garfield argument is person-specific. Swapping it for his own 'I feel there is more' wording is optional. I agree with the record's risk flags: sensitive allegation (Angels remarks), contested typing (Nine consensus), major thesis change from the baseline. Sources I opened: America 2017 (Ophelia, 'falling in love with Jesus Christ') and Wikipedia via API (father's coaching role, Jewish/agnostic-pantheist identity, Tammy Faye timing, the Stone relationship, the Spider-Man recast, Death of a Salesman). Other references were checked against the record's excerpts, not reopened."
+}

@@ -99,7 +99,18 @@ In discovery mode, also use the current `/find-surging-people` research sweeps t
 
 ## Step 1.5: The Wikipedia gate (run this before scoring anything)
 
-For every candidate, fetch `https://en.wikipedia.org/wiki/<Canonical_Name>` first.
+For every candidate, check Wikipedia first. Run the whole batch through the scripted gate:
+
+```bash
+pnpm gate:entities "Name One" "Name Two"        # or: --file names.txt, --json, --no-suggest
+```
+
+It returns `FAIL` (an article exists under the exact name), `CHECK` (a redirect to a show/company,
+or a disambiguation page: decide by hand), or `PASS` (HTTP 404). For each `PASS` it also reports the
+deletion log, any pending `Draft:` page (a draft means the gap may close soon), and live Google
+autocomplete biography suggestions. Those suggestions are real query evidence for Step 4's
+biography-intent score. Do not hand-fetch names one at a time; the MediaWiki action API rate-limits
+bursts, and the script paces itself.
 
 A personal article that is a full biography — birth date, family, education, career timeline — means
 the generic biography query is owned and this is **not** an Emerging Entity Gap. Record it and move
@@ -113,8 +124,11 @@ Rhys Harries were all eliminated by this single check. By 2026 the encyclopedia 
 almost anyone whose catalyst is large enough to matter.
 
 What survives the gate is people whose notability is real but institutionally unrecognised: niche
-authority figures, podcast co-hosts, character creators, analysts. That is the lane Jordi Hays,
-Ashby Florence, John Coogan, and Dylan Patel occupy. Prefer generating candidates there.
+authority figures, podcast co-hosts, analysts, business creators. That is the lane Jordi Hays, John
+Coogan, Leila Hormozi, and Dylan Patel occupy. Prefer generating candidates there. The 2026-10-04
+sweep (~115 names) measured the lanes: about 85% of creator/streamer/comedian names already have
+a personal article, while about 55% of tech, business-media, and business-creator names survive.
+Ashby Florence gained a stub article on 2026-06-07.
 
 Note the gate's one exception. A **fact-query gap** can exist even behind a strong Wikipedia article
 when a handful of private-life details are unestablished and content farms are the only results. Treat
@@ -348,6 +362,22 @@ false precision:
 
 Check after 28 days, then again after 56 days if impressions are still low. Separate demand, ranking,
 and CTR changes. A page can succeed by capturing expanding demand before its average position moves.
+
+Capture checkpoints with
+`node scripts/capture-entity-gap-experiment.mjs --label <date>-<name>-check --days 28 --slugs <slug>`.
+
+**Fragment-URL trap.** GSC reports Google's jump links as separate `page#fragment` URLs, and each
+one counts its own impressions. Any page total built from the monthly `page-trends` CSV or from a
+`contains` page filter includes them, which can multiply impressions and crush apparent CTR. In
+August 2026, Jordi Hays showed 17,683 impressions; about 3,700 were on the real URL. The capture
+script excludes fragments. Use it, or filter on the exact canonical URL.
+
+**Entity-gap pages keep identity-first titles.** These pages win on the bare name, not on
+`[name] personality type`. On 2026-08-15 a corpus pass changed Jordi Hays's `meta_title` to
+`Jordi Hays Personality Type: Enneagram Type 3`. His position improved 9 → 6.4, but exact-name CTR
+fell 2.32% → 1.36%. It was restored to an identity-first title on 2026-10-04. Never apply the
+typology-first title pattern to a page whose name and biography impressions exceed its typology
+impressions.
 
 ## Guardrails
 

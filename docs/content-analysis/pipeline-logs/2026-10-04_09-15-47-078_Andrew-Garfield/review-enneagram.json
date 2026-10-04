@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "5d360da4c19b36a25182356716b6ca85bb97257d6e08da1f06b59cc7b2bfd007",
+  "evidence_sha256": "977a1fca814d02ac1d0632672173714b55f04b26edd5f99e1cac0521a1488fb7",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Type 9 is the strongest alternative. Type 3 is a serious second.",
+      "problem": "The draft aims its main discriminator at Nine, but on its own evidence the Three case is heavier. The Nine side rests on a playful cat-or-dog answer, generic co-star praise ('giving'), a hidden/ordinary-life wish the draft also credits to Three, and a low-authority typing site. The Three side rests on his own words across a decade: 'tempted constantly to be producing, to be seen, to be appreciated', 'I'm a fraud', 'My compulsion to work', the medal-first father and 'golden boy' brother, the Oscar 'I think I needed that... just like my father', 'two thirds of my ambition', and 'the mask or the persona'. The ranking appears to follow community typing rather than evidence weight, so the hardest test never leads the argument.",
+      "acceptance_test": "Either the type-answer section states a criterion by which Nine outranks Three and shows it in the record, or Three is ranked as the strongest alternative and the lead discriminator is aimed at it. The type answer, the alternatives section, the FAQ answers and evidence type_hypothesis all give the same ranking."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "What he brought to the retreat is the strongest single piece of evidence for the Four reading, because it came years before his mother's death and had nothing to do with a role.",
+      "problem": "Two problems with the centerpiece. (1) Scope: the Exercises were undertaken as role preparation for Silence (the previous paragraph says so; S01 confirms) and described in a Silence-promotion interview with a Jesuit writer, so 'had nothing to do with a role' overstates the independence of this evidence. The wound is his own, but the setting and vocabulary were role- and Ignatian-framed. (2) Discrimination: in the same opened passage (S01) he glosses the wound as 'That wound of feeling like what I have to offer is never enough', and in the Globe story he calls himself 'a fraud'. Worth measured by what one offers, plus impostor fear, fits a Three (or Two) as readily as a Four. Only the 'longing for the perfect expression of this thing that is inside' clause is Four-specific, and the draft does not separate the two.",
+      "acceptance_test": "The sentence no longer says the evidence had nothing to do with a role; it states the role-preparation and promotional/Jesuit context. The paragraph either quotes 'what I have to offer is never enough' and explains, with sourced behavior, why this wound reads Four over Three (e.g., the remedy he sought was retreat and expression rather than better output), or stops calling it the strongest single piece of Four evidence."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "This is the hinge of the type argument. An overlooked son who goes quiet and keeps the peace is a classic Nine story. Garfield tells a different one: the overlooked son who got angry that ordinary life might be all there is.",
+      "problem": "The hinge contrasts Garfield with a caricatured Nine. In standard Enneagram theory the Nine sits in the gut/anger triad, and an overlooked child with buried anger is a canonical Nine origin, so adolescent anger alone does not rule Nine out. The opened Maron transcript (S06) also places the anger in a specific milieu: 'a very kind of conservative suburban... Truman show feeling' where 'the arts weren't valued. They weren't spoken about'. 'This' is a narrow, arts-hostile world, a circumstantial cause the draft omits when it generalizes to 'ordinary life'. 'Enraged' exists only in the auto-transcript (audio unverified per the evidence record); the print-relayed Esquire version is quieter ('I feel there is more'). The same straw contrast recurs in 'A Nine tends to begin settled into ordinary life and to soften whatever disturbs it.'",
+      "acceptance_test": "The hinge, plus the matching sentences in the type section, the alternatives section and the 'Why isn't Andrew Garfield a Type 9?' FAQ, acknowledges that Nines carry anger and overlooked-child stories and includes the 'arts weren't valued' context. It locates the Four-vs-Nine discriminator in what the anger was about (an identity question, 'who am I?', and an unnamed significance he pursued by expressing feeling) and what he did with it (amplified and articulated it rather than numbing it), with a source for each half."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "In Enneagram terms, this is the most telling behavior in the record. Under loss, a Nine usually turns the volume down, and a Three usually gets back to work.",
+      "problem": "The generalization fails on the draft's own record. He did get back to work: the lede quotes him using his art 'as a way to heal', the cited NBC piece (S19) is about tick, tick... BOOM! helping him cope with loss, he says 'everything I do is in dedication to her', and the draft lists four films since. As written, the Three contrast describes Garfield. 'I ran towards it' is also mainstream grief-therapy language, said on a grief podcast whose premise invites it, and deliberately feeling acute grief is not type-specific. Calling it 'the most telling behavior in the record' gives a bereavement behavior too much weight when the draft's better type evidence comes from before the bereavement.",
+      "acceptance_test": "The paragraph no longer claims Threes get back to work while Garfield does not. It either states a discriminator the record supports (e.g., whether work is used to feel the loss, with grief as 'the only route to feeling her close' and work as dedication, or to outrun it) or drops the Nine/Three stereotypes. The 'most telling behavior' label is removed or justified by tying the grief behavior to the 2017 pre-bereavement 'grief of living' material."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "A Nine rarely starts from \"no one else had been through this agony.\" Garfield started there and named the correction.",
+      "problem": "Feeling that one's grief is uniquely agonizing is near-universal in acute bereavement (the evidence record concedes this under C20), so it cannot discriminate Four from Nine. It is also the draft's only evidence that he ever saw his suffering as exceptional: the pre-bereavement 2017 quote frames the longing as 'this thing that is inside each of us', which is universal, not special. The arc therefore reads both the feeling of specialness and its loss as Four evidence (the equanimity paragraph completes the loop), and no observation is named that would have counted against Four. The same move recurs in 'A Nine reading has to treat the Surrey rage and \"no one else had been through this agony\" as noise.'",
+      "acceptance_test": "The Nine contrast built on the acute-grief feeling is removed, or qualified as a common grief state, in both this paragraph and the alternatives section. The draft either cites pre-bereavement evidence that he experienced himself as different or exceptional, or says the record lacks it and treats the 'I wasn't special' turn as portrait rather than type proof. One sentence names what observation would have counted against the Four reading in this arc."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "major",
+      "passage": "He shows the need and the defeat on camera instead of hiding them.",
+      "problem": "The anti-Three case relies on evidence a vulnerability-forward Three would also produce. Showing Oscar disappointment on a comic flirt show during a promo window fits the sensitive-man image the draft itself offers as a brand explanation. Quitting a punishing sport at 12 is weak type evidence for any child, and retreating to 'soulful' theater after a blockbuster is a standard prestige-actor move. 'Ambition died' is self-report that the draft concedes his slate qualifies. Meanwhile the 4w3 sentence lets the same image evidence be absorbed as a wing. No choice is shown where staying true to an inner standard cost him image or standing.",
+      "acceptance_test": "The section either adds a sourced choice where his inner standard cost him image or standing (outside a format that rewards vulnerability), or states plainly that the public record cannot cleanly separate a vulnerability-forward Three from a Four with a strong 3 wing, with confidence language to match. If 4w3 is mentioned, one clause says what would distinguish it from a core Three (which motive wins when image and inner truth conflict) and points to evidence."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "is organized around identity and meaning: the sense that something essential is missing and has to be found or expressed.",
+      "problem": "The Four case is built from longing, depth and expressiveness, which are also a serious actor's professional vocabulary (the draft concedes this for publicity). It never tests the Four's characteristic passion, envy: comparison with people who seem to have what one lacks. The obvious test case is in the record but partly left out: the 'golden boy' brother and, in the opened Maron transcript, 'my father is obsessed with my brother'. He says that position 'liberated' him, which may count against envy. Separately, the hunger for 'more' ('It can't be everything') fits a Seven as well as a Four. His movement toward pain is what rules out Seven, but the draft never says so. The similarity diagnostic flags this sentence against the Kacey Musgraves profile; that match ('something essential is missing') is ordinary type vocabulary, not a reused argument.",
+      "acceptance_test": "The draft adds one or two sentences testing envy/comparison against the brother material, reporting honestly if the record shows little envy and what that does to confidence. One clause notes that the 'more' evidence alone also fits Type 7 and names the sourced behavior that rules Seven out."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "Garfield's version keeps the feeling and drops the exceptionalism.",
+      "problem": "This redefines the virtue to fit him. In the tradition, equanimity is the loosening of the Four's attachment to emotional intensity, and 'keeps the feeling' is not that. The paragraph presents the ordinariness arc as Four growth, though the draft elsewhere concedes the same arc is native Nine ground and Three growth language ('the mask or the persona'). It explains away a mismatch instead of testing it.",
+      "acceptance_test": "The paragraph is cut or labeled as one interpretation. It does not claim that keeping emotional intensity is equanimity, and a clause notes that the ordinariness arc is also read as Nine or Three growth."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "That was grief about the world, not a bereavement, and it came more than two years before his mother died.",
+      "reason": "The best type evidence in the piece: it scopes the 2017 quote honestly and separates temperament from bereavement. The repaired discriminators should build on this."
+    },
+    {
+      "passage": "Publicity explains when he talks about grief. It doesn't explain why he describes it in the same terms across nine years.",
+      "reason": "It takes on the non-Enneagram alternative (persona as brand) directly and separates timing from content in two sentences."
+    },
+    {
+      "passage": "The record shows a man who hated it and enjoyed it.",
+      "reason": "It refuses the tidy Four story and keeps behavior the type does not explain, as the standard requires."
+    },
+    {
+      "passage": "This profile leaves the wing open.",
+      "reason": "It declines a convenient wing call (the baseline's 4w5) when the evidence can't settle it."
+    },
+    {
+      "passage": "For someone who once raged that ordinary life might be everything, the deepest thing he has felt turned out to be the most ordinary thing there is.",
+      "reason": "The distinctive insight of the profile. 'Raged' may need softening or context per enneagram-03; keep the inversion."
+    }
+  ],
+  "assessment": "Type 4 at medium confidence is defensible, and the draft is unusually honest in structure: the alternatives get their own section, the wing stays open, the Two case is tested against his anger at his mother's self-erasing care, and a section keeps behavior the type doesn't explain. The weakness is the discriminator architecture. (1) Nine is ranked as the strongest alternative, though the draft's own evidence makes Three heavier; the Three rebuttal relies on image-consistent behavior. (2) The Four-vs-Nine hinge is aimed at a straw Nine (no anger, settled from the start) and leaves out the 'arts weren't valued' context of the 'enraged' line, which I confirmed in the opened Maron transcript (audio still unverified). (3) The grief behavior and the 'no one else had been through this agony' feeling are near-universal in acute bereavement, and the 'Three gets back to work' contrast fails on his own record. (4) The centerpiece 'not-enough-ness' passage is described as unrelated to a role, though it came from role preparation. The same opened source (S01) glosses it as 'what I have to offer is never enough', which is Three-compatible. The strongest real discriminators in the record come from before the bereavement: the 2017 'grief of living' and the longing to express 'this thing that is inside', the identity question 'who am I?', and his consistent treatment of feeling as a destination rather than an obstacle. The draft should put its weight there. The Four's passion (envy) is never tested. Opened for this review: S06 (Maron transcript; 'golden boy', 'obsessed with my brother', 'enraged', 'wasn't special' contexts) and S01 (America 2017; role-preparation context and the full not-enough-ness passage). Similarity: the trip against Kacey Musgraves ('something essential is missing') and the Bryan Johnson 'organized around' match are ordinary type-definition vocabulary, not reused arguments. Risks retained: contested typing (community consensus is Nine and the Three case is strong), sensitive allegations (the 2017 Angels in America remarks), and a major thesis change from the baseline's 'won't let his grief heal'."
+}

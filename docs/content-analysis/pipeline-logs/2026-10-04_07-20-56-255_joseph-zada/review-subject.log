@@ -1,0 +1,19 @@
+I've written the subject-role (fairness) review for the Joseph Zada draft. It's in `review-subject.json` in the run folder. It passes the pipeline's review schema, and every quoted passage matches the draft exactly. Nothing else was changed and nothing was published.
+
+**Sources:** I reopened 10 of the draft's sources. The Hollywood Reporter profile is paywalled, but I got the full text directly; Interview Magazine came through a reader proxy. Every quote I checked is word-for-word accurate. The draft also handles his private life well: his girlfriend isn't named, his parents' divorce is left out, and his Indigenous and Afghan family history is credited to him without doubting it.
+
+**What's wrong:** the problems are context and framing. Each one makes him look more fearful than the sources do. Five are serious:
+- **The Harrelson dinner:** the draft leaves out that they chatted and Harrelson asked about him and told stories, and that Zada called him "so, so lovely." It then treats forgetting his prepared questions as an admission of fear. The meta title, description, opening and the "he broadcasts his fear" argument all rest on that reading.
+- **"She's scary":** this was a joke about Florence Pugh playing his mother, answering a separate question. The draft moves it into his bucket-list answer and concludes "the fear was back."
+- **"Zada broadcasts it":** the same Berlin answer starts with "I usually just say, 'I'm really excited'," so by his own account he normally plays his nerves down. This also weakens the draft's main reason for ruling out Type 9.
+- **The expulsion:** the draft gives no reason. Its own sources do: he missed too much class while chasing auditions, and he mentioned stigma around acting at his all-boys school. Without either, readers may imagine misconduct.
+- **The privacy paragraph:** it calls his name, his nerves and his mother's wishes things he "volunteers." Each was an answer to an interviewer's direct question.
+
+Three smaller items credit him with intentions he never stated:
+- that the swearing story was a joke
+- that his hedging about his method was media coaching
+- that having no next job shows Type 9 passivity, when in March 2026 he said he wanted to wait for the right team
+
+**Risk flags:** I kept contested typing and historical source uncertainty on, and left the other two off. All of the similarity matches are against this profile's own earlier version, so I made no reuse finding.
+
+I saved some scratch copies of the sources in `/tmp`, outside the repo.

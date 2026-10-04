@@ -157,6 +157,15 @@ if [[ -n "$in_progress_name" ]]; then
   fi
 fi
 
+# A manual run (any person) may hold the shared lock. Launching into it fails
+# instantly and would charge the selected entry a retry it didn't earn.
+lock_pid="$(cat "$PIPELINE_LOCK/pid" 2>/dev/null || echo "")"
+if [[ -n "$lock_pid" ]] && kill -0 "$lock_pid" 2>/dev/null; then
+  log INFO "PIPELINE BUSY: $(cat "$PIPELINE_LOCK/person" 2>/dev/null || echo unknown) holds the lock (pid $lock_pid); skipping tonight"
+  log INFO "Nightly blog cron finished"
+  exit 0
+fi
+
 # ── Preflight 3: weekly rate limit ──────────────────────────────────────────
 week_start="$(jq -r '.rateLimit.weekStartDate' "$OVERRIDE")"
 max_per_week="$(jq -r '.rateLimit.maxPerWeek // 5' "$OVERRIDE")"

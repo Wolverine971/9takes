@@ -1,0 +1,24 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 7837b512-5220-493e-b7b8-8bf287e4b90a to write outputs
+The edit stage for Andrew Garfield is done. All three outputs are written and pass the contract checks: the article passes the draft checks, the evidence validates against it, and the resolution answers all 47 review findings and all 19 protected passages. Nothing outside the run folder was touched, and nothing was published.
+
+**What changed for readers**
+- **The opening no longer invents a reputation.** The old "the actor who cries on talk shows and won't let the wound close" was really this page's own earlier thesis, not anything a source documents. The opening now just says the famous grief line, read alone, sounds like refusing to heal.
+- **The "enraged at ordinary life" claim was misleading, so the story arc changed.** In the Marc Maron transcript, the boy was angry at a narrow suburb where "if you're not a lawyer a doctor or in business then you're nothing," not at ordinary life itself. The piece now separates two kinds of "more": status, which he rejected, and meaning, which he kept chasing. The ending's twist survives: the deepest thing he has felt turned out to be the most ordinary.
+- **Stronger sources.** I opened the original Esquire (2024) and Vanity Fair (2022) articles, which confirm in print several things that were transcript-only before. They also added the best new detail: when his father warmed up only after Andrew's career took off, Andrew got angry ("Wait— now you want to hang?"). He went to therapy over it, and both men say the healing culminated in his Broadway run in *Death of a Salesman*.
+- **Fairness fixes.** Chicken Shop Date was wrongly counted as a grief interview (its captions never mention grief), so it's out. The *Angels in America* paragraph now quotes his own explanation and drops the verdict "a defense, not an apology."
+
+**One decision for you to veto:** Type 3 is now ranked as the strongest alternative, ahead of Type 9. The reviewers were right that his own words weigh more toward Three: "tempted constantly to be producing, to be seen, to be appreciated," wanting Tobey Maguire "to be impressed by me," and an Oscar longing that's "back." The verdict is still Type 4 at medium confidence, and the piece now says outright that the public record can't cleanly separate a Three who shows his vulnerability from a Four with a strong Three wing.
+
+**Open items**
+- **Unverified audio.** The Maron quotes, including "enraged," haven't been checked against the episode audio, and the Chicken Shop Date lines are attributed to him by context because the captions don't name speakers. Both are logged as open research tasks, not hidden.
+- **Length.** It's 4,452 words, over the 2,000–3,500 target but under the 4,500 limit. The reviewers' required additions pushed it up even after I cut the repetition. The verifier may mark down writing for length.
+- **Florence Pugh** is quoted but not linked, because her page is unpublished.
+- **Dates.** The `date`/`lastmod` of 2026-06-09 is older than the September 2026 sources. I left it alone since you manage lastmod; worth fixing when you publish.
+
+Several connectors (GitHub, Slack, Ahrefs, and others) need authorizing in your claude.ai connector settings or via `/mcp`, and Supabase failed to connect. None of them were needed for this stage.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/`:
+- `edit.md`
+- `evidence-edit.json`
+- `resolution-edit.json`

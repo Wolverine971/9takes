@@ -1,0 +1,1450 @@
+{
+  "schema_version": 3,
+  "content_sha256": "93a00d616286ebf9985364d8f6311aef1b55771095c22f0392bcf5519e4e1419",
+  "evidence_sha256": "bd5cb997196803717828646092f3096c6bbf2be99f9a64907e17b258b677a0ef",
+  "status": "insufficient_evidence",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "major",
+      "passage": "Print write-ups tidied this passage and some dropped \"upbeat\"; the wording here is checked against the episode audio.",
+      "problem": "The article tells readers its most personal quote (and the \"people pleaser\" keyword, the \"arguing a lot\" frame and \"causing you pain\") was checked against the official episode audio (S63). The verifier downloaded the official feed enclosure (a 61:31 copy, not the 64:16 copy in the locator) but its transcription did not finish, so the audio check is not independently reproduced. Most of the wording is confirmed in the Podscripts machine transcript (S17) and the print relays (S57, S58, S60). The verifier did not see the closing words \"anybody else knowing that you're paddling for dear life\".",
+      "acceptance_test": "An independent check of the official audio confirms C09, C29, C76 (including \"paddling for dear life\"), C131 and the retakes lines verbatim, with locators that note ad-insertion drift. Otherwise the sentence attributes the wording to an automated transcript, and the \"Florence Pugh people pleaser\" keyword is dropped unless the phrase is confirmed."
+    },
+    {
+      "id": "verify-02",
+      "severity": "minor",
+      "passage": "The word was still in her accounts in",
+      "problem": "The verifier confirmed \"fluke\" only in the 2014 Observer (S45). The 2017 link (BBC News, S53) was retrieved but the word was not confirmed, and the 2022 instance rests on the edit stage's Whisper transcript of BBC Radio 4 audio (S43), which the verifier did not check.",
+      "acceptance_test": "S53 is shown to contain \"fluke\" and the S43 audio is checked at the cited time, or the sentence is cut back to the confirmed instances."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "the British actor Florence Pugh imagined her own family dying ([AP via Gulf News, July 13, 2019]",
+      "problem": "The AP link sits on the clause \"imagined her own family dying\", but the AP piece supports only the plot description. Imagining her family's deaths is sourced to Deadline 2019 (\"I imagined every single member of my family in a coffin\") and Variety 2025.",
+      "acceptance_test": "The AP link is attached to the Dani description, and the imagining clause carries the Deadline 2019 or Variety 2025 link."
+    },
+    {
+      "id": "verify-04",
+      "severity": "minor",
+      "passage": "As of September 30, 2026, Variety reported, the case was pending and some of the accused denied wrongdoing.",
+      "problem": "In Variety (S20), \"The case is still pending, and some of the accused have denied any wrongdoing\" is The View co-host Sara Haines's statement, not Variety's own reporting. On a sensitive pending case the attribution should be exact. (\"Pending\" is independently supported by Vanity Fair, S21.)",
+      "acceptance_test": "The sentence attributes the denial to Haines on The View as relayed by Variety, or cites a source that reports the denials directly. The accused stay unnamed."
+    },
+    {
+      "id": "verify-05",
+      "severity": "minor",
+      "passage": "then she spoke publicly because the conversation was not loud enough",
+      "problem": "In the SHE MD captions (about 00:23:35) she says a doctor's dismissal \"proves that the conversation isn't loud enough\". She does not give that as her stated reason for going public. The article's causal \"because\" is a mild stretch, and the \"The second is not\" inference leans on it.",
+      "acceptance_test": "The paraphrase reports what she said (that the dismissal showed \"the conversation isn't loud enough\") without presenting it as her stated reason for disclosure, or another source for the reason is cited."
+    },
+    {
+      "id": "verify-06",
+      "severity": "minor",
+      "passage": "Netflix released the series in October 2026.",
+      "problem": "True (the Wikipedia series page gives October 1, 2026), but the cited sources (S18, S19) only imply the release (\"well-reviewed Netflix adaptation\"; \"the new Netflix series\"). C161 has no source that states it.",
+      "acceptance_test": "C161 cites an opened source that states the October 1, 2026 Netflix release."
+    },
+    {
+      "id": "verify-07",
+      "severity": "minor",
+      "passage": "The Louis Theroux Podcast, November 11, 2025, about 48 to 50 minutes in",
+      "problem": "The time locator depends on the ad-inserted copy. The feed copy the verifier fetched on 2026-10-04 runs 61:31 against the 64:16 copy behind S63, and Podscripts places the passage at about 51:28-52:10. Readers will find it at different times.",
+      "acceptance_test": "The reader-facing locator is hedged (for example \"late in the episode; times vary with inserted ads\"), or it references a stable transcript timestamp."
+    }
+  ],
+  "research_tasks": [
+    "Reverify S63 (official Theroux episode audio, feed enclosure GLT7965081597.mp3): transcribe about 00:07-00:14 and 00:44-00:53 of the current copy (runtime varies with ad insertion; the 2026-10-04 copy is 61:31) and confirm verbatim C09, C29, C76 (through \"paddling for dear life\"), C131, C23, C95-C97. Record the copy runtime with each locator. If not confirmed, attribute the passage to the Podscripts machine transcript (S17) and drop the \"Florence Pugh people pleaser\" keyword (closes verify-01 and future-08).",
+    "Confirm \"fluke\" in BBC News 2017 (S53) and in the BBC Radio 4 This Cultural Life 2022 audio (S43, approx. 00:06-00:38), or cut the C171 sentence to the confirmed 2014 Observer instance (verify-02).",
+    "Confirm, or remove from source_ids, the co-citations the verifier retrieved but did not check: S07 for C13; S30 for C16 (the verifier found no \"first time\"/\"comments\" match); S33 for C101/C124/C167; S47 for C47; S51 for C46. Each claim is independently supported by another verified source.",
+    "Add an opened source stating East of Eden's October 1, 2026 Netflix release to C161 (verify-06).",
+    "Apply the minor wording and attribution repairs verify-03, verify-04, verify-05 and verify-07, then rerun verification. No change to the type thesis is needed."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S04); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S56, S17); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Deadline (S04) narration reads \"Pugh got Aster and Gerwig to work it out [a] schedule so that she could walk from one film to the next\"; TheWrap (S23) says Gerwig, Aster and Amy Pascal \"moved mountains\". Attribution to Deadline is accurate."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S04); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S04); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S23); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Variety 2025 (S56) and TheWrap 2025 (S61): verbatim. The sentence ends before \"and I was like, 'Oh, I think that's from Midsommar'\". Truncating there does not distort the meaning, because the article separates feeling (within months) from telling (2025)."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S56, S61); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S23); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "Interpretation, labelled as such in the type answer. Built on verified Deadline 2019, Variety 2025, IBTimes 2020 and Vogue 2023 passages."
+    },
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Wikipedia (S01): born 3 January 1996 in Oxford."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "Wikipedia (S01) infobox: 1996-01-03, Oxford, England; English actress."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "Wikipedia (S01): Lady Macbeth breakthrough; \"Pugh earned nominations for the BAFTA and Academy Award for Best Supporting Actress\" for Little Women; Yelena Belova from Black Widow (2021). Marked time_sensitive with a trigger."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "THR (S19, 2026-10-03): \"Pugh also serves as an executive producer on East of Eden, taking on a central role in the creation of the series since she was brought on in 2020\"; plays Cathy."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "Interpretation of the source base. The verified sources are overwhelmingly cover stories, press junkets and promotional podcasts, so the claim is fair."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "Interpretation; matches the body, the FAQ and the evidence type_hypothesis (7, medium; 8 alternative; 2 close)."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "Wikipedia (S01): dancer Deborah, restaurateur Clinton, siblings Toby Sebastian, Arabella Gibbins and Rafaela. Vogue 2020 (S22): Arabella and Toby older; \"A younger sister, Rafaela, was born when Pugh was seven.\" Vanity Fair 2026 (S18) agrees."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Wikipedia (S01): tracheomalacia, frequent hospitalisations, moved to Manilva at three, lived there \"until she was six\". Guardian 2018 (S44): \"in and out of hospital as a child\". Yahoo relay of Bear Grylls (S54): tracheomalacia and the move to Spain."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S25); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S22); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S44); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S45); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Interpretation; it declines to type from childhood evidence."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S49, S43, S47); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S45); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S45, S53, S43); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S02, S03, S44, S46); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S02); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "qualified",
+      "reason": "The quote is verified verbatim in Grazia (S50). The verifier did not re-read the framing (\"describing scenes where the men around her Lady Macbeth character confine her\"); the quote itself ties it to Katherine."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "Interpretation conceding shared ground. Consistent with the verified Grazia, Guardian and Variety quotes."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S05); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S06); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S56, S61); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "TODAY (S32): arriving at the Valentino Haute Couture show on July 8 [2022]. Harper's Bazaar (S24): \"Valentino's couture show in Rome this past July\", a gown with \"a completely sheer top\"."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "TODAY (S32) caption: \"I was excited to wear it, not a wink of me was nervous.\""
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S32); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S28); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "Interpretation of dated tellings: July 2022 caption, then ELLE UK on 2023-08-29 (about 13 months later, \"about a year\"); Midsommar 2019, then Theroux 2025. Hedged in the adjacent protected passage."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "\"Causing you pain\" verified in the EW relay (S60). The partner is not named; the article does not date or sequence the relationship."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Podscripts transcript (S17) and the Daily Times relay (S58) contain the passage. The article silently drops a verbal restart (\"when you're such a when you're such a bubbly person\") and marks its other omissions with ellipses; the S17 transcript shows both \"good for everybody else\" and \"upbeat for everybody else\" and \"because it would bring people down\". Faithful."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "qualified",
+      "reason": "Podscripts machine transcript (S17) confirms \"the part that a relationship is feeding into... it's that people pleaser thing where you just try and keep things afloat without\". The verifier did not see the remaining words (\"anybody else knowing that you're paddling for dear life\"). The verifier's own transcription of the official audio (S63) did not complete, so the article's audio-check claim is not independently reproduced."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "qualified",
+      "reason": "Verified: the Daily Times relay (S58) prints \"I needed to be good for everybody else\" without \"upbeat\", and the Podscripts transcript (S17) has both \"good for everybody else\" and \"upbeat for everybody else\". Not reproduced: the reader-facing assertion that the wording \"is checked against the episode audio\" (S63; the verifier's Whisper run did not finish)."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S63, S58); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S27, S24); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "qualified",
+      "reason": "IBTimes (S27) verified for \"glum\", the father's question and \"I danced and I felt better\". This sentence was not separately re-read by the verifier; nothing contradicts it."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S25); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S25); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "Who What Wear (S15): \"I could persuade myself to do that... I can basically pretend to myself not to listen to my instincts.\" Context: the Merdeka 118 stunt."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "Interpretation, hedged (\"suggest\", \"Alone, none of these would carry much weight\"), over verified items."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S22, S23, S24, S18); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S24); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S18); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S23); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "Vogue 2023 (S25): \"Pugh had the notion that Allison should cut her own hair... an idea that came to Pugh from her own on-and-off experience as a teenager experiencing both routine and occasionally acute mental distress.\" Collider (S08): Braff \"That's like a production nightmare... she just kept saying, 'You'll figure it out'\"."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S08); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S62); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "Nylon (S29): the video recalls \"turning off the comments section — a first for the celebrity\" after the birthday post. Wikipedia (S01): \"21-year age-gap\" (birth years 1975/1996; at the April 2020 birthday he turned 45 and she was 24). BuzzFeed (S42) says \"20-year\"; the article's 21 is defensible."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S29); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S41, S18); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S18, S41); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "qualified",
+      "reason": "Vanity Fair (S21): Jane Doe, \"the former student\", filed a civil lawsuit reported September 18 alleging a 2024 assault; Pugh posted \"On Sunday\" (late September); prosecutors reopened an investigation September 28, which supports \"pending\". However, \"some of the accused denied wrongdoing\" appears in Variety (S20) only as Sara Haines's question on The View (\"some of the accused have denied any wrongdoing\"), so \"Variety reported\" compresses the attribution. See verify-04."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S20); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "THR (S19) confirms executive producer since 2020; \"I don't like messy sets\" verified in Vanity Fair (S18)."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S63, S58); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S63, S57); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S57, S63); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S57, S63); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S57, S63); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S59); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with the verified Pearl & Dean relay (S57) of the retakes story."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S14, S13); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S35, S33); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "Interpretation. Her British Vogue 2024 reason (S28) is verified verbatim, and Vanity Fair 2026 (S18) confirms the continued deflection."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S28); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S18); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S24); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "British Vogue (S28): \"Falling is the most amazing feeling,\" she says, nodding, \"but unfortunately if that's the only thing that you know in a relationship, then that's the thing that you chase. That's not gonna last.\" The article joins the two halves across the speech tag, which is acceptable."
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S24, S28); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S28); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S28); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "An absence claim stated as a limit. The verifier found nothing in the opened sources that contradicts it."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S28); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S10); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S28); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "Wikipedia (S01): \"She has been dating the British actor Finn Cole since 2024.\" Vanity Fair (S18): \"dating for the last few years\". Time_sensitive with a trigger."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S18); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S18); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "qualified",
+      "reason": "Wikipedia (S01) lists We Live in Time (2024) among her dramas, and the Reign captions (S13) discuss it. The cancer-plot description was not separately re-read by the verifier; it is consistent with how the film is widely described."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S13); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S14); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S15); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S18); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S46); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S44); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C148",
+      "verdict": "qualified",
+      "reason": "Disputed interval, hedged as \"Weeks after\". The verifier did not re-read the Guardian (S44) \"two months later\" narration or the 2022 \"two weeks\" wording. Two reviewers who opened the Guardian report both figures, and the hedge accommodates both."
+    },
+    {
+      "claim_id": "C149",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S44); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C150",
+      "verdict": "supported",
+      "reason": "Oxford Times 2015 (S46): \"I'm more than happy to move to LA for my career\" (verified). Guardian 2018 (S44): \"just a canvas\" and \"I swore I would never go back\" (verified). Variety 2022 (S02) verified. The interpretation follows."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S22); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C144",
+      "verdict": "supported",
+      "reason": "Deadline 2019 (S04): \"In all honesty, I was scared, because I'd never come close to any sort of grief like that\"; \"I had to really just destroy myself for an entire three months\"."
+    },
+    {
+      "claim_id": "C145",
+      "verdict": "supported",
+      "reason": "Variety 2025 (S56): \"I got back after shooting 'Little Women'... And then when I got home for Christmas, I was so depressed and I was like, 'Oh, I think that's from Midsommar,' and I didn't deal with it\". Feeling within months, account in 2025: accurate."
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S37); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C143",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S32); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C151",
+      "verdict": "supported",
+      "reason": "TODAY (S32) caption answers commenters about her \"breast size\" and \"boobs and body\". Wikipedia (S01): backlash \"as it showed her nipples\"."
+    },
+    {
+      "claim_id": "C152",
+      "verdict": "qualified",
+      "reason": "The British Vogue quote (C18) is verified verbatim in S28. The verifier did not re-read whether the writer raised the topic first; the critic reviewer, who opened the page, reports that the writer raised it."
+    },
+    {
+      "claim_id": "C141",
+      "verdict": "qualified",
+      "reason": "Interpretation. \"Upbeat for everybody else\" and \"would bring people down\" are verified in the Podscripts transcript (S17) and the Daily Times relay (S58); the cited source, the S63 audio, was not reproduced by the verifier."
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "qualified",
+      "reason": "SHE MD captions (S11) at about 00:10:40: symptoms she \"just thought... was part of being a woman\". About 00:23:37: a doctor's dismissal \"to me just proves that the conversation isn't loud enough\". The article's \"then she spoke publicly because the conversation was not loud enough\" turns a comment about the dismissal into a stated reason for going public. That is a mild causal stretch. See verify-05."
+    },
+    {
+      "claim_id": "C153",
+      "verdict": "qualified",
+      "reason": "An interpretation that depends on the C132 paraphrase. The half-fit reading is reasonable once C132 is phrased as she said it."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "IBTimes (S27): \"admitted she had been feeling a bit 'glum' lately in one of her earlier videos\"."
+    },
+    {
+      "claim_id": "C137",
+      "verdict": "supported",
+      "reason": "Interpretation over verified Variety 2025, IBTimes 2020 and Vogue 2023 passages."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S36); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S21); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C154",
+      "verdict": "supported",
+      "reason": "Interpretation, balanced both ways, of the verified Vanity Fair 2023 quote (S36)."
+    },
+    {
+      "claim_id": "C155",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S04, S56); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "Interpretation, explicitly flagged in the prose as a thesis-protecting judgment."
+    },
+    {
+      "claim_id": "C156",
+      "verdict": "supported",
+      "reason": "Interpretation conceding the point to the Eight; consistent with the verified Grazia, Nylon, THR and Variety quotes."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "qualified",
+      "reason": "Wording found verbatim in the Podscripts machine transcript of the episode (S17): \"I found myself arguing a lot\" and \"something that I still do in a softer way now\". The article presents it as audio-checked (S63), which the verifier could not reproduce."
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "Interpretation. The four witnesses are verified: Gerwig 2019 (S23), Shortland 2020 (S22), Johansson 2022 (S24) and Villeneuve 2026 (S18). The costly stands are verified in S41/S18 (followers lost)."
+    },
+    {
+      "claim_id": "C157",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S22, S41, S20); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "Variety 2026 (S35): Vulture reported \"just ahead of the film's theatrical rollout in Sept. 2022\"; \"A group of 40 crew members... denied such an incident ever took place\"."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "Harper's Bazaar (S24), August 2022: \"When it's reduced to your sex scenes... It's not why I'm in this industry.\" Later declining is verified in British Vogue 2024 (S28) and Vanity Fair 2026 (S18)."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S28); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "Vanity Fair (S18): \"Pugh hasn't publicly told her side of the story, and that is not going to change today... she says when I bring up the film.\""
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "Variety (S20): Instagram covered the first post with a content warning; \"Pugh put up a second post\"; the first post later visible."
+    },
+    {
+      "claim_id": "C146",
+      "verdict": "supported",
+      "reason": "Interpretation; it declines to use romance as a discriminator."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "Interpretation, explicitly called thin. The component quotes (AP \"so exhilarating\", Vanity Fair 2023 anxiety, Who What Wear instincts, British Vogue security) are verified."
+    },
+    {
+      "claim_id": "C158",
+      "verdict": "supported",
+      "reason": "Quoted wording found verbatim in the cited source text retrieved by the verifier on 2026-10-04 (S36); speaker, date and context consistent with the article's attribution."
+    },
+    {
+      "claim_id": "C159",
+      "verdict": "supported",
+      "reason": "Interpretation bounded to 2024-2026. British Vogue 2024 \"safety, family, a home and security\" and Vanity Fair 2026 (break at home; \"solid and safe and sturdy\") are verified. Time_sensitive with a trigger."
+    },
+    {
+      "claim_id": "C160",
+      "verdict": "supported",
+      "reason": "Interpretation that leaves the question open; dated to 2026."
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "supported",
+      "reason": "Reign auto-captions (S13), about 00:06:42-00:07:00: \"when we finished there was um this emptiness... I definitely wanted to wake up to my own decisions and I didn't want to push things anymore\"."
+    },
+    {
+      "claim_id": "C161",
+      "verdict": "qualified",
+      "reason": "True: the Wikipedia page \"East of Eden (2026 miniseries)\", opened by the verifier, gives \"premiered on Netflix on October 1, 2026\". But the cited sources only imply it: THR (S19), 2026-10-03, calls it a \"well-reviewed Netflix adaptation\" after a \"New York premiere Wednesday night\", and Vanity Fair (S18) refers to \"the new Netflix series\". See verify-06."
+    },
+    {
+      "claim_id": "C162",
+      "verdict": "supported",
+      "reason": "TheWrap (S23): Gerwig, \"There is something about her that can't be knocked down or overtaken\"."
+    },
+    {
+      "claim_id": "C163",
+      "verdict": "supported",
+      "reason": "Pearl & Dean (S57) relay verified for \"a bit stickier\" / \"a nightmare\"."
+    },
+    {
+      "claim_id": "C164",
+      "verdict": "supported",
+      "reason": "Deadline (S04) and TheWrap (S23) both describe the schedule being arranged so she could go straight from Midsommar into Little Women."
+    },
+    {
+      "claim_id": "C165",
+      "verdict": "supported",
+      "reason": "Harper's Bazaar (S24), dated 2022-08-16, contains the marketing remark."
+    },
+    {
+      "claim_id": "C166",
+      "verdict": "supported",
+      "reason": "British Vogue 2024 (S28) reason verified verbatim; Vanity Fair 2026 (S18) deflection verified."
+    },
+    {
+      "claim_id": "C167",
+      "verdict": "supported",
+      "reason": "Variety 2026 (S35): the crew statement corrects \"the anonymous 'sources'\"; Wilde: \"I've never had a screaming match on my set.\""
+    },
+    {
+      "claim_id": "C168",
+      "verdict": "supported",
+      "reason": "Vanity Fair (S18), September 2026: \"Pugh hasn't publicly told her side of the story\"."
+    },
+    {
+      "claim_id": "C169",
+      "verdict": "supported",
+      "reason": "Interpretation linking verified Gerwig 2019 (S23) to her verified 2025 Christmas account (S56: \"I didn't deal with it\")."
+    },
+    {
+      "claim_id": "C170",
+      "verdict": "supported",
+      "reason": "AP via Gulf News (S05): \"Dani Ardor, a grief-stricken college student who shortly after her family is killed\". Imagining her own family dying is verified in Variety 2025 (S56) and Deadline 2019 (S04: \"I imagined every single member of my family in a coffin\"). Citation placement is noted in verify-03."
+    },
+    {
+      "claim_id": "C171",
+      "verdict": "qualified",
+      "reason": "The 2014 \"It's a bit of a fluke\" is verified in the Observer (S45). The verifier did not confirm \"fluke\" in BBC News 2017 (S53) or in the BBC Radio 4 2022 audio (S43, which rests on the edit stage's Whisper transcript). See verify-02."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Lead; Early life (\"born on 3 January 1996 in Oxford\", Manilva until six, siblings); Career (Little Women BAFTA/Academy nominations); Personal life (Finn Cole since 2024; PCOS, endometriosis). Retrieved 2026-10-04"
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Article body: \"my weight, my look, the shape of my face, the shape of my eyebrows\"; \"push you left and right\" verbatim"
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Final paragraphs: the \"my weight, my look...\" Telegraph quote verbatim"
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Q&A answer on Midsommar/Little Women: \"I was scared\", \"I imagined every single member of my family in a coffin\", \"can't cry on cue... destroy myself\", \"best therapy\", \"prance around in petticoats\"; intro narration on the schedule"
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Body: \"Dani Ardor, a grief-stricken college student\"; \"so exhilarating and the payoff would be a fantastic feeling — which it was\""
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Article body: \"most definitely abused my own self in order to get that performance\""
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": false,
+      "locator": "Retrieved (HTTP 200) but NOT CHECKED by the verifier for the C13 haircut detail; C13 is independently supported by S25/S08"
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Haircut answer: \"That's like a production nightmare...\"; \"she just kept saying, 'You'll figure it out'\""
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto-captions: \"the majority of my roles that I've taken on I've been terrified by\""
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto-captions 00:10:40 (\"part of being a woman\"); 00:23:35-00:23:40 (\"the conversation isn't loud enough\", said about a doctor's dismissal)"
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto-captions 00:06:42-00:07:00 (\"this emptiness\"; \"wake up to my own decisions... didn't want to push things anymore\")"
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Body: \"I've worked back-to-back since I started, and I've missed so much\"; \"I don't want to have things just happen to me any more\""
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Stunt section (\"I can basically pretend to myself not to listen to my instincts\"); rest section (\"something fudged in the schedule\", three-week holiday, \"I always say this, but it never happens\")"
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Machine transcript at Starting point 00:51:28-00:52:10 (bubbly / last person / good and upbeat / bring people down / people pleaser... \"afloat without\"); arguing-a-lot passage; Midsommar passage"
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full text: siblings, Don't Worry Darling deflection (\"Pugh hasn't publicly told her side\"), Gaza (\"I was never scared of it\", hundreds of thousands of followers), Together for Palestine at OVO Arena Wembley, Villeneuve, Park, Kazan, Finn Cole, packing/unpacking, messy sets"
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Body: executive producer \"since she was brought on in 2020\"; New York premiere; Kazan quotes"
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Body: Haines question (\"The case is still pending, and some of the accused have denied any wrongdoing\"); content warning on the first post; second post; full \"Rape is something that lives...\" answer"
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Body: civil lawsuit reported September 18, \"the former student\", Pugh posted \"On Sunday\", investigation reopened September 28; \"I don't find it hard to talk about what doesn't sit correctly in my body\""
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Profile body: siblings and younger sister Rafaela; Spain three to six; \"family of hosts\"; Shortland quote; \"Anytime an opportunity of me being perfect onscreen comes up, I panic\""
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Body: Gerwig \"can't be knocked down or overtaken\"; schedule (\"moved mountains\"); \"playing and cuddling everyone\"; \"a bit of a big mouth\""
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opening (Valentino in Rome, sheer top); marketing remark (\"When it's reduced to your sex scenes\"); Johansson; \"run away with the circus\""
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Profile body: \"sob story\"; the haircut origin in teenage distress; \"quick fixes... so dark and scary\""
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Article body: \"glum\"; \"Why aren't you dancing and why aren't you cooking?\""
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Sections on love (\"Falling is the most amazing feeling\"), caring, friends since 13, body (\"really painful\"), Don't Worry Darling reason, \"safety, family, a home and security\""
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Paragraphs 1-3: turned off comments \"a first\"; \"please unfollow me...\""
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": false,
+      "locator": "Retrieved, but the verifier's search for the \"first time\"/\"comments\" detail found no match; support for C16 not confirmed (C16 stands on S29/S01)"
+    },
+    {
+      "source_id": "S32",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Caption paragraphs: July 8 show; \"not a wink of me was nervous\"; \"totally destroy a woman's body\"; \"Why are you so scared of breasts?\""
+    },
+    {
+      "source_id": "S33",
+      "opened": true,
+      "context_matches": false,
+      "locator": "Retrieved but NOT CHECKED by the verifier; C101/C124/C167 are independently supported by S35"
+    },
+    {
+      "source_id": "S35",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Body: Vulture September 2022 report; 40-crew statement against \"anonymous 'sources'\"; Wilde \"I've never had a screaming match on my set\""
+    },
+    {
+      "source_id": "S36",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Q&A answers: \"I'd much rather do it than they do it, and then I feel ashamed\"; \"from the moment I can feel that anxiety\""
+    },
+    {
+      "source_id": "S37",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Body-scrutiny answer: \"the scariest thing for me are the instances...\""
+    },
+    {
+      "source_id": "S41",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Body: Together for Palestine \"complicity\" line; \"I was never scared of it\"; hundreds of thousands of followers"
+    },
+    {
+      "source_id": "S42",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Item on the April 2020 Instagram video; \"20-year age gap\" (Wikipedia says 21)"
+    },
+    {
+      "source_id": "S43",
+      "opened": false,
+      "context_matches": false,
+      "locator": "Only the BBC programme page was retrieved; the episode audio cited by the locator (Whisper transcript, approx. 00:06-00:38) was not checked by the verifier"
+    },
+    {
+      "source_id": "S44",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Sections on Spain/hospital, nativity (\"complete control\"), Studio City (\"to change me\", \"just a canvas\", \"I swore I would never go back\")"
+    },
+    {
+      "source_id": "S45",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full profile: \"that annoying kid on every stage\"; \"I do like a bit of danger\"; \"It's a bit of a fluke\""
+    },
+    {
+      "source_id": "S46",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Profile body: \"I'm more than happy to move to LA for my career\""
+    },
+    {
+      "source_id": "S47",
+      "opened": true,
+      "context_matches": false,
+      "locator": "Retrieved but NOT CHECKED by the verifier; C47 quotes verified in S49"
+    },
+    {
+      "source_id": "S49",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Falling tape section: brother caution and \"kind of a free go\""
+    },
+    {
+      "source_id": "S50",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Q&A: \"I don't like being told how to do things... it made me angry\""
+    },
+    {
+      "source_id": "S51",
+      "opened": true,
+      "context_matches": false,
+      "locator": "Retrieved but NOT CHECKED by the verifier; C46 quote verified in S50"
+    },
+    {
+      "source_id": "S53",
+      "opened": true,
+      "context_matches": false,
+      "locator": "Retrieved but the verifier did not confirm the 2017 \"fluke\" wording that the article links to this page"
+    },
+    {
+      "source_id": "S54",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Article body: Spain for \"a hotter climate\"; tracheomalacia"
+    },
+    {
+      "source_id": "S56",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Article body: sibling, coffins, family funeral; Little Women \"shelved all of that\"; Christmas depression; \"But I don't do that anymore\""
+    },
+    {
+      "source_id": "S57",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Paragraphs 3-7: \"a bit stickier\", \"a nightmare\", \"a bit mushy\", co-star \"Don't put her through that\", \"wouldn't have been received well\""
+    },
+    {
+      "source_id": "S58",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Paragraphs 4-5: bubbly/last person passage, printed without \"upbeat\""
+    },
+    {
+      "source_id": "S59",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Official clip auto-captions: \"I've always been able to make sure that I'm heard\""
+    },
+    {
+      "source_id": "S60",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Article body: \"a relationship that was causing you pain\"; the partner is not named"
+    },
+    {
+      "source_id": "S61",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Article body: the Midsommar six-month depression quotes"
+    },
+    {
+      "source_id": "S62",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Paragraphs 1-4: Fandango relay, Merdeka 118, \"a crazy insurance ordeal\", emailing Kevin Feige, \"I had to keep on pushing\""
+    },
+    {
+      "source_id": "S63",
+      "opened": false,
+      "context_matches": false,
+      "locator": "Official feed enclosure downloaded 2026-10-04 (runtime 61:31, not the 64:16 copy in the locator; ad insertion shifts times), but the verifier's Whisper transcription of 07:00-14:00 and 44:00-53:00 did not finish, so the audio was not checked. The quoted wording is matched in S17/S57/S58/S60 instead"
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Verified. The Studio City paragraph dates the first telling to the Guardian, 2018-10-06 (\"to change me\", \"just a canvas\", \"I swore I would never go back\", all verbatim in S44). The 2015 Oxford Times counterweight is verified in S46. The gap is hedged as \"Weeks after\"; \"six years later\" is gone."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Verified. FAQ 5 gives the 2024 reason; the body quotes \"I always think it's unfair to take the space away...\" (verbatim in S28) and calls the silence non-diagnostic."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Verified. The full View answer, with scared/anxious/rage in her order, matches Variety (S20). The Eight sentence now names \"the fear she named beside the rage\"."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Verified. \"Joke and an exit\" is absent from the candidate; the content warning is described as such (S20); \"censored\" is not stated as fact; the Don't Worry Darling paragraph is non-diagnostic."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Verified. The Braff paragraph cites only Nylon; no EW link appears anywhere in the body or citations. \"Causing you pain\" is in the EW relay (S60) and cited to the episode. The unnamed relationship is not dated or sequenced."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Verified. persona_title \"Hollywood's Thrill-First Enthusiast\" matches meta_title, description and body, with no silence claim."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "Verified. The haircut origin is attributed to Vogue (S25 wording confirmed), and \"so dark and scary\" is kept."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "Verified. FAQ 2 includes the \"nightmare\" explanation and calls the story not decisive."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Verified. Persona fixed; the description attributes the line to Gerwig; the SHE MD disclosure is tested and said to fit \"only halfway\". Rejecting \"lumpy throat\" for privacy reasons is sound. (The SHE MD paraphrase has a minor causal stretch, verify-05.)"
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Verified. \"Only in September 2024\" is gone; the caption's harm language and ELLE UK 2023 \"the scariest thing\" (verbatim, S37) are added; \"about a year later\" fits July 2022 to August 2023."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Verified. The FAQ question is reworded; the 2024 reason and the August 2022 marketing remark (verbatim, S24) are in the FAQ and body; the claim is narrowed to the production."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Verified. Same repair as subject-01, with \"just a canvas\" and \"I swore...\" quoted verbatim from S44."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Accepted with a caveat. The retakes paragraph now opens with \"I found myself arguing a lot\" / \"something that I still do in a softer way now\", verbatim in the episode machine transcript (S17). \"Standoff\" is gone, the story is reweighed (C99) and the FAQ is updated. The article presents the wording as audio-checked, which the verifier could not reproduce (see verify-01)."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Verified. \"Things just happen to me\" sits in \"Learning to unpack\" with its back-to-back context (S14). The shame-pre-emption quote (verbatim, S36) is weighed as fitting both readings."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Verified. The hook credits the scheduling to her via Deadline (S04 narration confirmed). The holiday sentence uses \"something fudged in the schedule\" and \"I always say this, but it never happens\" (S15) and is dated \"Shortly before May 2025\"."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Verified. The Type 2 section cites Vogue's \"a family of hosts\" (S22) and discounts Park's praise accordingly."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Verified. \"Why the Seven reading still leads\" separates concealment for others (separates her from Eight, not Two) from what she does with her own pain. The lockdown passage notes she told followers she felt \"glum\"."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Verified. The thrill section admits Deadline 2019's \"scared\" and \"destroy myself\" (S04), limits \"later\" to the depression account, separates feeling from telling, and marks the 2024 quote as prompted. \"Decade\" is gone."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Verified. The pre-arranged booking is attributed to Deadline; the craft rule is stated and admitted to protect the thesis; the hook's pain-seeking is addressed in the type argument."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Verified. The exit pattern is removed; the Cornell repost is shown as escalation; \"things just happen\" is moved; autonomy is called shared ground; the value is dated to the 2017 Grazia wording at 21."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Verified. Don't Worry Darling is explicitly non-diagnostic, her stated reason is quoted, and \"that conflict\" is replaced by attributed reports."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Verified. The 2023 cellulite line and the 2026 \"doesn't sit correctly\" line (verbatim, S36 and S21) sit next to discriminator 1 and are weighed; \"nothing here\" limits the claim."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Verified. Persona fixed; the Type 8 FAQ carries the gendered caveat."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Verified. \"Going along when depleted is accommodation, which fits the Two as well as the Seven.\""
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Verified. The film is identified, and the Vulture report and 40-crew denial are attributed (confirmed in S35), so Wilde's denial answers something the reader has seen. The Venice press-conference sentence was cut entirely, which makes that part of the test moot."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Verified. The summary concerns the order of her telling; C145 separates feeling within months from telling six years later; intervals are accurate."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Verified. The intro ends on the contradiction rather than the answer; the formula appears in the type answer and one earned summary."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Verified. The provenance sentence is gone from the intro."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Verified. Clauses added for the comments on her body and breasts, the content warning, We Live in Time with \"this emptiness\" (S13 captions), the counterphobic Six definition, and the second \"note\"."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Verified. The first sentence identifies a British actor and Dani's grief (AP plot narration confirmed). Citation placement is minor (verify-03)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Verified. The ending acknowledges the Six possibility before the packing close."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Verified. Discriminator 1 rests on what she does with her own pain; \"bring people down\" is marked as Two-compatible; Eight is ranked above Two for a sourced reason; FAQ 1 and the type answer match."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Verified. The power/strength stereotype is deleted, the second question is conceded to the Eight, and \"things just happen\" carries its context."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Verified. The generalization is removed and Don't Worry Darling is labelled non-diagnostic."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Accepted with the same caveat as fan-05. \"Standoff\" is replaced and the arguing frame is reported in wording verbatim in S17; the audio check is not reproduced by the verifier."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Verified. The stunt line is moved to the Six paragraph; the span reads \"from her teens through 2020\"; the strand is said to rest mostly on retrospective accounts. Pullman was the optional part."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Verified. The Six case is gathered with one sourced reason and called thin; no wing or arrow is used."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Verified. The British Vogue passage opens with \"I am someone that loves falling in love\" (verbatim, S28); romance is called non-discriminating; FAQ 3 matches."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "Verified. The Three is dismissed with the Vogue 2020 \"I panic\" line (verbatim, S22) while conceding drive."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Verified. No relative duration remains; \"As of September 2026\" is in FAQ 5; C101, C103, C124-C127 and C165-C168 are unresolved with the requested trigger."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Verified. FAQ claims C165-C168 have exact passages and unresolved durability; the question is reworded; Wilde's denial is dated 2026 in both places."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Verified. The exit half is removed; with all September 2026 items removed, the Seven call still rests on 2019-2025 material."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Verified as specified. The legal form is named and status is attributed \"As of September 30, 2026, Variety reported\", with dated rechecks in C91/C92/C128/C157. A residual attribution nuance (the denial is Haines's statement relayed by Variety) is logged as minor verify-04."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Verified. \"has played Marvel's Yelena Belova since Black Widow (2021)\" and \"Netflix released the series in October 2026\" (true per the Wikipedia series page; see verify-06 for sourcing). C38 is time_sensitive."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Verified. \"The work she described in 2026\"; \"In interviews from 2024 to 2026\"; the change arc is time_sensitive with the trigger."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "Verified. C86 now cites Variety 2025-04-14 (S62); \"a crazy insurance ordeal\", the Feige emails and \"I had to keep on pushing\" are confirmed."
+    },
+    {
+      "finding_id": "future-08",
+      "accepted": false,
+      "reason": "NOT ACCEPTED pending reverification. The fix rests entirely on the edit stage's audio check (S63), which the verifier could not reproduce (Whisper run did not complete). The verifier confirmed only \"that people pleaser thing where you just try and keep things afloat without\" in the S17 machine transcript, not the closing words, and the keyword \"Florence Pugh people pleaser\" depends on it. Accept once verify-01 is closed."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "She refuses to make the illness a story about her.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "People process hurt over time, and a reflective cover interview invites admissions. None of this proves she was hiding pain in 2022. What it shows is the order in which she tells her own stories.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "That wording has not been checked against the audio. The same transcript renders \"good for everybody else\" as \"upbeat for everybody else,\" so this profile does not rest anything on that word.",
+      "preserved": true,
+      "reason": "Changed, but its contribution is kept. The old premise was inaccurate: the Podscripts transcript (S17) contains BOTH \"good for everybody else\" and \"upbeat for everybody else\", and the Daily Times relay (S58) drops \"upbeat\", which the verifier confirmed. The replacement keeps reader-facing provenance (\"Print write-ups tidied this passage...\"). Its added clause, \"checked against the episode audio\", is not reproduced by the verifier (verify-01)."
+    },
+    {
+      "passage": "Reports of tension with the director, Olivia Wilde, rested largely on anonymous sources, and in 2026 Wilde said, \"I've never had a screaming match on my set.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "And the record has limits. \"I walked away from our process not understanding any better than I did beforehand how she works,\" Kazan told Vanity Fair. The public sees what she shows on press tours, not how she behaves at home.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "Six years later, on _The Louis Theroux Podcast_, she told the same story with a different ending.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "She never had to refuse anything; the show simply died.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "The observation that would separate the two best, how she reacts when her care goes unreturned, is missing from the public record.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "\"I love packing,\" she said. \"I hate unpacking.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "She never had to refuse anything; the show simply died. The story was told six years later, by which point candor was part of her public image.",
+      "preserved": true,
+      "reason": "First sentence verbatim. The second sentence was false (the Guardian 2018 account is verified in S44) and is replaced by an accurate dated hindsight point, strengthened by the verified 2015 Oxford Times quote."
+    },
+    {
+      "passage": "\"Complete control\" sounds as much like an Eight, or a Three holding an audience, as a Seven chasing the thrill of the live moment. The childhood record shows a performer, not yet a motive.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "Alone, none of these would carry much weight: lockdown cooking was everywhere, teenage quick fixes are ordinary, and the stunt line is one reflection.",
+      "preserved": true,
+      "reason": "Changed only by removing the stunt line, which correctly left the Seven strand. It still discounts each weak item before claiming a pattern."
+    },
+    {
+      "passage": "People process hurt over time, and a reflective cover interview invites admissions. None of this proves she was hiding pain in 2022.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "Two questions do more work: what does she do with her own pain, and what is her pushback defending?",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "The reason she gives for hiding pain concerns the room. Her pains \"would bring people down.\" She says nothing about looking weak.",
+      "preserved": true,
+      "reason": "Now \"nothing here\". The limit was needed because she pre-empts shame elsewhere (S36). The short discriminator is otherwise intact."
+    },
+    {
+      "passage": "\"I love packing,\" she said. \"I hate unpacking.\" (Vanity Fair) It was a throwaway, and the Seven pattern in miniature: the pleasure is in the leaving.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "Shortland's \"will not back down\" and the Cornell rage fit the Eight better. A Seven with a fierce protective streak, or an Eight who learned to soften on sets: the public record can't fully separate them.",
+      "preserved": true,
+      "reason": "Second sentence verbatim. The first now includes the fear she named (S20 verified), so the concession is kept without a selective quote."
+    },
+    {
+      "passage": "None of this proves she was hiding pain in 2022. What it shows is the order in which she tells her own stories.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "It was a throwaway, and the Seven pattern in miniature: the pleasure is in the leaving.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.4,
+      "passage": "Six years later, on _The Louis Theroux Podcast_, she told the same story with a different ending.",
+      "reason": "The spine rests on two dated, verified accounts of the same event (Deadline 2019, Variety 2025), quoted in context. Inference limits are local (\"None of this proves she was hiding pain in 2022\"), and four independent collaborators are cited for the rival case. About 140 claims trace to 63 sources, and the verifier matched every quoted fragment in an opened source. Held below 9 because the positive Seven case rests mostly on retrospective press-tour self-report, the audio-check assertion is not reproduced, and there are small attribution slips (AP link, Haines/Variety, SHE MD causal)."
+    },
+    "enneagram": {
+      "score": 8.2,
+      "passage": "Hiding pain from other people because it \"would bring people down\" separates her from the Eight but not from the Two. What she does with her own pain, shelving _Midsommar_ in a fun set, dancing off a glum lockdown, reaching for quick fixes, is the Seven evidence, and it does not depend on concealment.",
+      "reason": "The call uses a sourced discriminator, concedes the \"what does pushback defend\" question to the Eight, ranks Eight over Two for a stated reason (independent testimony vs self-report), dismisses Three with anti-image evidence, and names the counterphobic Six as the likeliest error. A Seven-specific motive is shown in a costly sequence (the depression after shelving). Not higher: the craft rule openly shields the thesis from its hardest counterexample, and the Seven-over-Six discriminator is admitted to be thin."
+    },
+    "originality": {
+      "score": 8.8,
+      "passage": "In both episodes the thrill or the comeback led her telling and the hurt followed: about a year later for the dress, six years later for _Midsommar_.",
+      "reason": "The insight is about the order in which she tells her own stories, built from details specific to her: the two Midsommar tellings, the eager 2015 Studio City quote against the later defiant version, and \"I love packing. I hate unpacking.\" Very little reusable type boilerplate; the alternatives are argued with her own record."
+    },
+    "writing": {
+      "score": 7.8,
+      "passage": "Two cautions apply. The switch to _Little Women_ was booked in advance, so the Seven evidence is her account of what the fun did (\"shelved all of that\"), not the move.",
+      "reason": "The hook and the first half move well, and sentences are precise. But at 4,343 body words (above the 2,000-3,500 target), the long adjudication stretch from \"The case for Type 8\" through \"What the Seven reading can't explain\" stacks caveats and meta-commentary (\"This profile counts...\", \"Two cautions apply\", \"settles nothing\"). Pacing sags there, though the edit removed the earlier thesis loops."
+    },
+    "durability": {
+      "score": 8.7,
+      "passage": "In interviews from 2024 to 2026 she turned toward home and privacy.",
+      "reason": "Events carry absolute dates; the hook and type argument stand on 2014-2025 material if every September 2026 item is removed. Changing facts (Cornell case, relationship, filmography, change arc, Don't Worry Darling silence) are tracked as time_sensitive/unresolved with triggers. Minor drift risk: the ad-dependent podcast locator."
+    },
+    "hook": {
+      "score": 9,
+      "passage": "By the middle of the shoot, \"I actually needed to imagine the coffins.\" By the end, \"I actually was going to my whole family's funeral.\"",
+      "reason": "A specific, verified, escalating image that sets up the contradiction with Gerwig's \"can't be knocked down\" and the depression, and the article pays it off by testing the type against this very fact. Small citation-placement slip on the AP link."
+    },
+    "discoverability": {
+      "score": 8.3,
+      "passage": "Florence Pugh most likely fits Enneagram Type 7, the Enthusiast, at medium confidence. Her own accounts keep returning to one habit: meeting pain with motion and fun, a lighter set, a dance, the next job, and counting the cost afterward.",
+      "reason": "There is a clear type heading with a plain answer under 60 words. The meta_title and description are accurate and attributed; five FAQs answer real queries (Type 8, Type 2, Midsommar, Don't Worry Darling) with the same qualifiers as the body. Internal links go to the type pages, Gerwig, Chalamet, Johansson and the Type 7 essay. Docked for the \"people pleaser\" keyword resting on an unreproduced audio check, and a Don't Worry Darling FAQ anchored to a section heading rather than its own anchor."
+    }
+  }
+}

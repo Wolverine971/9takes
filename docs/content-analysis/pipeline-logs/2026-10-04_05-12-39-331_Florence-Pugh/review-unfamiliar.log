@@ -1,0 +1,20 @@
+I wrote the unfamiliar-reader review for the Florence Pugh draft to `docs/content-analysis/pipeline-logs/2026-10-04_05-12-39-331_Florence-Pugh/review-unfamiliar.json`. It passes the review schema check, the hashes match the request, and every quoted passage appears word for word in the draft. Nothing else was modified and nothing was published.
+
+**Verdict:** A newcomer gets a strong opening and leaves with a lot of specific, dated detail. The middle sags in the roughly 1,500-word stretch that argues the type.
+
+**Risk flags:** sensitive allegations (the pending Cornell case and the *Don't Worry Darling* feud reporting) and contested typing. Either one calls for the expanded six-reviewer review.
+
+**Similarity check:** it didn't trip (top score 0.025, threshold 0.04). Reading the matches myself, they share only common type vocabulary, so I didn't report any reuse.
+
+**Findings (2 major, 5 minor):**
+- **Major — *Don't Worry Darling* paragraph:** it assumes the reader knows the 2022 controversy. Olivia Wilde's denial of a "screaming match" answers an allegation the article never states, yet the paragraph is used as type evidence and a FAQ promises to explain it.
+- **Major — "the cost arrived years later":** this contradicts the article's own account that the *Midsommar* depression hit by Christmas 2018. What came years later was her telling it publicly, and the thesis needs to say which one it means.
+- **Minor:** the central claim is restated almost word for word about four times, and the piece runs about 3,860 words against a 2,000–3,500 target.
+- **Minor:** a sourcing note sits in the intro, right before the type answer.
+- **Minor:** several events are discussed before the reader is told what happened: the body-shaming over the Valentino dress, Instagram limiting her Cornell post, *We Live in Time*, "counterphobic Six" and "two notes".
+- **Minor:** the opening doesn't say she's an actress, or that her *Midsommar* character's family dies, until later.
+- **Minor:** the ending treats her recent turn toward home and security as growth within the Type 7 reading, after an earlier section listed it as something the Type 7 reading can't explain.
+
+**Protected passages (5):** "the same story with a different ending," "Two questions do more work…," "the show simply died," "concerns the room… nothing about looking weak," and the "I love packing / I hate unpacking" close.
+
+Separately, the Supabase connector failed to connect this session and several plugin connectors need authorization. This stage didn't need any of them.

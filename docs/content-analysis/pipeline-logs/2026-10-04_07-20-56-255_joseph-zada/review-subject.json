@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "9b8e08ed61264367b5853138ef43a04338ce16d75724985acdd998ddcb04546b",
+  "evidence_sha256": "920633e02a4f83cf7d792f5b9aa7fecbc0386b18a170ef1df916bc3023c0f7a1",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "The same profile describes the first time Zada sat beside Harrelson, at a dinner after the prequel was shot. \"But everything I knew about him just went out of my mind.",
+      "problem": "Opened S30 (THR, October 1, 2026, read directly 2026-10-04). The quote begins \"We chatted and he asked me questions about myself and told me stories,\" and THR frames it as blanking \"on all the research he'd done\". S01 adds that Harrelson \"was so, so lovely about the whole process.\" Zada never describes the dinner as nerves or fear. The draft drops both warm contexts and treats the blank as a fear disclosure in four places: the opener (\"has described being unnerved in interviews from July 2025 to October 2026\"), the disclosure list (\"the blank beside Harrelson in October 2026 ... He reports the alarm\"), the meta_title and the description. It then asserts \"The Six reading explains the second far better than the first\" without giving the ordinary explanation recorded in C127's own alternative: forgetting prepared questions beside a famous predecessor is common. The result passes off the author's inference as his self-report, and a search snippet turns a friendly meeting into an embarrassing freeze.",
+      "acceptance_test": "(a) The dinner passage includes, quoted or paraphrased, that they chatted and Harrelson asked about him and told stories. The S01 'so, so lovely' note stays beside 'I had his blessing'. (b) The blank is labeled as the author's reading and removed from every list of things he 'reports' or has 'described being unnerved' about. (c) The body states the ordinary starstruck or forgot-my-questions explanation before the Six reading claims the moment. (d) meta_title and description no longer present 'blanking' as a fear response: either drop it or frame it neutrally. (e) The opener's date range matches the fear statements actually cited (Deadline, June 2025, through Fanning, June 2026) unless the blank is explicitly marked as inference."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "Of Pugh: \"She's scary.\" Then: \"It was very daunting, but she's so friendly and makes everyone feel so comfortable.\"",
+      "problem": "Opened S01 (Interview Magazine, published August 10, 2026, read via reader proxy). \"She's scary\" answers a separate, earlier question, Fanning's \"how was Florence as a mother?\" It continues \"She shouldn't be that scary. [Laughs] As a mother, it doesn't add up. It's funny.\" before \"It was very daunting...\". That is a joke about Pugh playing his mother. The draft places the line after the bucket-list answer, drops the joke without marking an elision (\"Then:\"), and concludes \"The fear was back\". The preceding \"The reclassification did not hold\" also overreaches. The Flaunt remark it answers is about actors he had already worked with. The June 2026 bucket-list fear concerns actors he has not worked with.",
+      "acceptance_test": "(a) The Pugh remark is tied to the 'as a mother' question with its joking frame kept, or the 'She's scary' fragment is cut. (b) Any omitted words are marked. (c) 'The reclassification did not hold' is qualified to say the June 2026 fear concerns actors he has not yet worked with, or is removed. (d) The paragraph's conclusion rests only on 'shit scared'/'deathly nervous' and the 'daunting ... comfortable' line, each attributed to the question it answered."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "The second is disclosure. A Nine tends to play disturbance down. Zada broadcasts it.",
+      "problem": "Opened S02 (Behind The Blinds, July 9, 2025). His 'phenomenally nervous' line comes after \"I keep getting asked that…\" and \"No, no. You didn't let me finish. I usually just say, 'I'm really excited.' But honestly...\". By his own account his usual public answer plays the nerves down, and he admitted them here because a friend was interviewing him. The draft omits this and says he 'broadcasts' the alarm. That overstates what he said about himself and inflates a discriminator against Type 9 without telling the reader. The Deadline line (opened S08) is real but sits inside fan enthusiasm ('very, very, very big fan'). The Fanning lines answer a friend's playful question. The Harrelson item is not a disclosure (subject-01).",
+      "acceptance_test": "(a) The disclosure paragraph quotes or paraphrases 'I usually just say, \"I'm really excited\"' and notes the interview was with a friend. (b) 'Broadcasts' is softened to what the record shows, e.g. he admits nerves when asked directly, across several outlets. (c) The weight of this discriminator is reduced to match in the Nine section, the type-section summary and the Type 9 FAQ ('he announces his fear instead of muting it')."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "THR's writer supplies the rest: expelled from a private school, he re-enrolled at a public one, and in his last four weeks the principal gave him an ultimatum in a meeting with his mother.",
+      "problem": "The draft sets 'School went worse' and 'I had a lot of stuff going on ... I ended up being kicked out' beside 'expelled from a private school'. It omits the reasons its own sources give. Opened S30: \"He missed so much classwork, he got kicked out of private school\", after he \"continued blowing off classes as he pursued auditions and small roles\". Opened S06: immediately after the kicked-out line he said \"I was going to an all-boys school and there was a bit of a stigma around acting. I just thought it was a very vulnerable place to be.\" Without either reason, readers of a page about a 21-year-old are left to imagine misconduct or a private crisis. That is the speculation C07 and C45 say to avoid.",
+      "acceptance_test": "(a) The school passage gives THR's attendance cause (missed classwork while pursuing auditions and small roles), his own Variety Australia follow-up about stigma around acting at an all-boys school, or both. (b) 'School went worse' is reworded, or kept only with the cause beside it. (c) No interpretation of 'a lot of stuff going on' is added. (d) The evidence record (C07/C45) reflects the restored context."
+    },
+    {
+      "id": "subject-05",
+      "severity": "major",
+      "passage": "What stays open is how much he volunteers beyond the job, from his family name to his nerves to his mother's wishes, and how he weighs that against his stated wish for privacy.",
+      "problem": "The three examples were answers to direct interview questions, not things he volunteered. In S01 Fanning asked 'apparently your name is not your name?' and 'Is that where you see yourself living full-time?' (the mother's wishes) and asked the bucket-list question (the nerves). In S30 the writer raised the name. Calling these volunteered 'beyond the job' misdescribes the record and suggests an inconsistency in his character. The draft also cuts his own gloss in the same Flaunt passage (opened S04): 'I just hope that nobody thinks that I'm trying to force any ideas on them over time. I'm just here to act and be in movies, you know, and enjoy me doing it.' It leaves out his Berlin remark that 'The press side of things, people make it sound stressful, but I've enjoyed it' (S02).",
+      "acceptance_test": "(a) No answer to an interviewer's question is described as volunteered. (b) The paragraph either drops the 'open' tension or reframes it with his Flaunt follow-up and his 'I've enjoyed it' remark. (c) Any remaining tension is called modest and attributed to the demands of press, consistent with C24's own alternative."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "The swearing was a joke, told more than a year later to a friendly co-star after the film was safely shot.",
+      "problem": "Nothing in S01 marks the story as a joke. Fanning laughed and asked 'You were more scared after finding out?' and he answered 'Yes.' The flat 'was a joke' assigns him an intent he did not state and discards his self-report. The real limits (told 14 months later, to a co-star, after the shoot) already appear in the same sentence and do the needed work.",
+      "acceptance_test": "(a) 'Was a joke' is replaced with framing the transcript supports, e.g. told lightly with Fanning laughing, or the clause is removed. (b) The timing and audience limits are kept. (c) C48/C60 in the evidence record no longer state that it was a joke."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "Those hedges are exactly what a well-advised teenager says in his first press cycle opposite Hollywood veterans. If he speaks with settled authority about his method once his work is released, the hedging was career position more than temperament.",
+      "problem": "Opened S05 (Polyester, June 18, 2025). The same answer gives his reason: 'I'm young, I want to be able to experiment with a bunch of different ways and a bunch of different processes.' The draft replaces it with an unattributed motive: media-coached hedging, 'career position'. It then sets a test that fails to discriminate. His October 2026 remarks, a confident account of his Haymitch prep and 'many different methods that I'm trying out', both fit his stated wish to experiment. So 'The first release week split that test' presents consistency as a mixed result.",
+      "acceptance_test": "(a) The Polyester quotation includes or paraphrases his experimentation reason. (b) The 'well-advised teenager'/'career position' reading is labeled as one possibility beside his own explanation, or is removed. (c) The 'split that test' paragraph is reworded so that answers matching his stated reason are not counted as evidence either way."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "and a laugh at having no next job for the first time in three years: \"I've got nothing.\"",
+      "problem": "The Nine case reads the empty slate as an unbothered laugh. Opened S03 (HERO, March 23, 2026): after describing the run of jobs he said 'Now I'm in a position where I kind of want to wait for a little bit, and I want the right thing to come up next ... I really just want to work with a great team, great directors, and people who inspire me and push me.' His stated choice to be selective is missing. It bears directly on whether he drifts (Nine) or steers, and it also names people as what he looks for.",
+      "acceptance_test": "(a) Either the 'I've got nothing' item is removed from the Nine case, or it is paired with his dated March 2026 wish to wait for the right team. (b) C129's alternative is updated to match."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Nervousness, gratitude and \"the cast became a family\" are the house style of those formats, and a newcomer sharing a cast list with Glenn Close and Ralph Fiennes would produce them whatever his type.",
+      "reason": "States the main limit on any reading of a young actor's press record before the argument starts. This is the fairest sentence in the piece. Keep it, along with the following commitment to weight costly actions and statements repeated across interviewers."
+    },
+    {
+      "passage": "Other Six markers are thin. He does not visibly test whether people can be trusted, and his mixed record with authority, following a director's repeated instruction while walking out on a principal's ultimatum, fits most young actors as well as it fits a Six.",
+      "reason": "Admits where the Six case is weak instead of stretching the type over him. It shows the separation between public record and author inference that the subject role tests for."
+    },
+    {
+      "passage": "The simplest explanation is production: a director father and an actor brother were the best crew for a tape with locations, costumes and a drone.",
+      "reason": "Gives the ordinary, non-psychological explanation before the type reading claims the anecdote. The same move is needed for the Harrelson dinner (subject-01)."
+    },
+    {
+      "passage": "Wikipedia records his Afghan-Aboriginal heritage and a Barkandji connection, which fits his account, though the sources disagree on which generation the cameleer belonged to.",
+      "reason": "Handles Indigenous and Afghan family history carefully. It attributes the lineage to him, raises no doubt about the heritage itself, and leaves out THR's First World War date, which conflicts with the first-mosque claim."
+    },
+    {
+      "passage": "Of his girlfriend, he told THR, \"she's helped me relax and not think about work so much.\"",
+      "reason": "THR prints her first name and says she is not in the industry. The draft uses only what bears on the argument and keeps a private person unnamed. It likewise omits the parents' divorce that THR reports. Keep both choices."
+    }
+  ],
+  "assessment": "Subject-fairness review. Sources opened on 2026-10-04: S30 (THR, read directly), S01 (Interview Magazine, via reader proxy), S02, S03, S04, S05, S06, S08, S09 and S10. Every quotation checked is verbatim, and the draft handles the privacy-sensitive material well: girlfriend unnamed, divorce omitted, heritage attributed without doubt, ancestor's generation left open. The problems are context and framing, and they run one way: toward a more fearful Zada than the sources show. The Harrelson dinner loses its warm context and becomes a fear disclosure that anchors the title, description, hook and disclosure argument (subject-01). 'She's scary' is moved out of a joke about Pugh playing his mother (subject-02). 'Zada broadcasts it' omits his own 'I usually just say, \"I'm really excited\"' (subject-03). The expulsion appears without the attendance cause and the all-boys-school stigma context its sources give (subject-04). Prompted interview answers are called volunteered, which implies inconsistency with his wish for privacy (subject-05). Three minor items assign intents or motives he did not state: the swearing as a joke, the hedging as career positioning, the empty slate as Nine passivity. Subject-01 and subject-03 also weaken the disclosure discriminator against Type 9, so contested_typing stays flagged. Historical_source_uncertainty stays flagged for the unverified family history (first-mosque claim, ancestor generation) and the unavailable GQ interview. No third-party allegations, no change to the type thesis. Similarity: every trip pair is against this profile's own 2026-09-12 version, which a refresh should resemble. The highest match to any other person is 0.027, below the 0.04 threshold, and the matched sentences are generic type definitions. No reuse finding."
+}

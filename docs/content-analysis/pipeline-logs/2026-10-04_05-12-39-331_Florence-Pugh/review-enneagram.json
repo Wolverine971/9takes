@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "enneagram",
+	"content_sha256": "59cd3d2d788cf44aec5cb24fa4d04eebeb7e8ca5dd8d1455f7c378f84fb15600",
+	"evidence_sha256": "a3890f1c3cc53541a8e3dd5e23b9144eeb502efd5773643badc434f7dcec0419",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "enneagram-01",
+			"severity": "major",
+			"passage": "The first is the reason she gives for hiding pain. An Eight hides vulnerability to avoid being controlled or seen as weak. Pugh says hers \"would bring people down,\" and the same move recurs from _Little Women_ to the lockdown videos.",
+			"problem": "The lead discriminator beats Eight only by pointing at another type. The full Theroux passage ('the last person that I look after', 'an expectation that I needed to be good for everybody else', pains 'weren't worthy of being spoken about because they would bring people down') describes ranking her own needs below others' to keep relationships afloat: the Two's characteristic repression of need. The article itself calls the phrase 'a Helper's phrase' in the Two section. A Seven's pain-avoidance is classically self-directed (reframe it, stay up, move on), not organized around other people's mood. One sentence cannot be both the Seven's lead discriminator and the Two's lead evidence. 'The same move recurs from Little Women to the lockdown videos' also conflates two moves. Those episodes show pain shelved through fun and activity (Seven-leaning); the Theroux line shows pain hidden for others' sake (Two-leaning). Result: the article ranks Eight as strongest alternative using a discriminator that Eight fails and Two passes, so Two is under-ranked as a 'live third reading'.",
+			"acceptance_test": "In 'Why the Seven reading still leads', discriminator 1 rests on what she does with her pain: she shelves it in fun and motion (Midsommar to Little Women, lockdown). The 'bring people down' reason is explicitly marked as separating her from Eight but not from Two. The article either treats Two and Eight as co-equal rivals or gives a sourced reason Eight outranks Two. FAQ 1 ('Type 8 is the strongest alternative, and Type 2 is a live third reading') and the opening type answer match the ranking the body defends."
+		},
+		{
+			"id": "enneagram-02",
+			"severity": "major",
+			"passage": "What her defiance names, from 19 on, is being told, pushed and boxed in. That matters for the type call. An Eight's pushback is usually about strength and who holds power. Hers keeps coming back to freedom.",
+			"problem": "Refusing to be told what to do or pushed around is not a Seven-over-Eight signal. Autonomy (not being controlled, directing one's own life) is the Eight's core desire, and the article's own definition says 'An Eight guards vulnerability so as not to be controlled'. Recasting Eight pushback as 'strength and who holds power' is a stereotype that hands the shared ground to Seven. Two of the supporting quotes in discriminator 3 don't carry the weight. 'The freedom that people are scared of' (ELLE UK 2023) is a political statement about women's bodies, not a personal motive. 'I don't want to have things just happen to me any more' (Harper's Bazaar UK, April 2025, reopened) follows directly from 'I've worked back-to-back since I started, and I've missed so much'. The writer frames it as her wish 'to take control of her romantic life' after a breakup ('I can't wait for people any more... I have to help myself'). That is about passivity versus agency, not escape from limits, and wanting control is if anything the Eight-coded reading. As written, discriminator 3 is 'consistent with either', not a tilt.",
+			"acceptance_test": "The sentence contrasting Eight 'strength and who holds power' with her 'freedom' is removed, or rewritten so it no longer defines Eight away from autonomy. Discriminator 3 is either dropped from the three tipping observations, or re-grounded in a sourced, Seven-specific object, such as fear of being trapped or limited in experience or losing options (e.g. Studio City as a 'massive mistake' that would have locked her into the wrong career). The April 2025 'things just happen to me' quote is either given its overwork/breakup context or no longer offered as evidence of what her defiance defends. The FAQ 'Why isn't Florence Pugh a Type 8?' stops citing 'what her defiance defends' as a deciding reason unless the body supports it."
+		},
+		{
+			"id": "enneagram-03",
+			"severity": "major",
+			"passage": "Her firmest public statements tend to end in a joke and an exit.",
+			"problem": "The article's own evidence contradicts the claimed tendency. After 'Tut tut tut' she did not leave the Cornell matter: she reposted, then took it to The View ('it made me feel so much rage') and a Vanity Fair event ('I have no qualms with speaking about things that make me feel pissed off... This makes me feel enraged', S21). She has held her Gaza stance while, by her estimate, losing hundreds of thousands of followers ('I was never scared of it'). The 2020 Braff video ended in an ultimatum ('please unfollow me'), not a joke. A blunt, profane dismissal like 'Well, don't' fits an Eight at least as well as Seven deflection. The next paragraph then counts the Don't Worry Darling silence as 'the same exit pattern' while admitting legal or professional prudence explains it equally. Silence about a colleague under possible legal constraint is not a motive signal.",
+			"acceptance_test": "The 'joke and an exit' generalization is removed, or narrowed to named instances and set beside the Cornell escalation, the Gaza persistence and the 2020 ultimatum. The Don't Worry Darling paragraph no longer says it 'fits the same exit pattern': it is either cut from the type argument or explicitly labelled non-diagnostic."
+		},
+		{
+			"id": "enneagram-04",
+			"severity": "major",
+			"passage": "The second is her most detailed story about a standoff on set.",
+			"problem": "This was not a standoff. After about six crying takes she was 'mushy' and agreed at once. It is a story about depletion and the gendered cost of objecting, not about how she handles conflict. The same Theroux segment also opens with the record's most direct self-report on conflict with directors, and the article leaves it out. In the automated transcript (S17; podscripts reopened) she says that early in her career 'I found myself arguing a lot. I mean, it's something that I still do in a softer way now', protective of the character. Keeping the single acquiescence anecdote while dropping that line makes 'That is an unusual story for an Eight to tell about herself' look stronger than the episode supports. Her own arc, from arguing a lot to arguing softly, fits 'an Eight who learned to soften on sets' as well as a Seven. The FAQ 'Why isn't Florence Pugh a Type 8?' goes further and states the co-star anecdote with neither the gendered caveat nor 'I've always been able to make sure that I'm heard.'",
+			"acceptance_test": "Either the article reports her account of having argued 'a lot' with directors early on and still doing so 'in a softer way now' (attributed to the automated transcript unless audio or a print relay is verified), or discriminator 2 is dropped. 'Standoff' is replaced with an accurate description. The 'Why isn't Florence Pugh a Type 8?' FAQ either carries her gendered explanation or no longer uses the anecdote as a reason."
+		},
+		{
+			"id": "enneagram-05",
+			"severity": "minor",
+			"passage": "That is the Seven's signature, the habit of reaching for [the next thing](/enneagram-corner/why-the-next-thing-wont-fix-it-type-7) to outrun the hard one, and it is the strongest single strand in her record.",
+			"problem": "This is the best Seven evidence in the record, but not every item shows the claimed move. The 2025 stunt line ('I could persuade myself to do that... pretend to myself not to listen to my instincts') is fear override, not pain met with pleasure. Fear override fits Eight-style denial of vulnerability or a counterphobic Six just as well, yet it supplies the '2025' in 'across her teens, 2019, 2020 and 2025'. The lockdown routine was explicitly her father's suggestion. All third-party testimony in the article supports Eight or Two. The record's one independent observation of the Seven register goes unused: Lewis Pullman (S38, 2025) says 'she's such a goof and is so capable of keeping it light and just being a clown, and then dropping into the most amazing performance ever'. So the Seven case rests entirely on retrospective press-tour self-narration, which the article itself warns is brand-shaped.",
+			"acceptance_test": "The stunt line leaves the pain-to-lightness strand, or is presented as non-discriminating fear override. The year span in the pattern sentence matches the remaining items. The article says the strand rests chiefly on the Midsommar/Little Women sequence told in 2019 and 2025. Optionally, Pullman's testimony (or another independent observation) is added with attribution so the Seven register is not supported by self-report alone."
+		},
+		{
+			"id": "enneagram-06",
+			"severity": "minor",
+			"passage": "That could be maturity, a good relationship, or a security motive none of the leading readings captures.",
+			"problem": "Two paragraphs earlier the article floats a counterphobic Six for her fear-seeking roles. It then calls the security turn something 'none of the leading readings captures', though a Six reading would capture both. The evidence record holds more Six-coded items alongside them: recurring 'fluke' self-doubt (2014, 2017, 2022); nearly not sending the Falling tape out of protective pessimism; managing anxiety ('weird horrid anxiety'; taking social media off her phone when anxious); fear and rage together ('it makes me feel scared, it makes me feel anxious, it made me feel so much rage'). The counterphobic Six is also the classic Eight lookalike. Because the anomalies are listed one by one, the reader never sees that they cluster around one untested alternative. The point is that it goes unexamined, not that Six is correct.",
+			"acceptance_test": "The 'What the Seven reading can't explain' section either names the fear-seeking, security and self-doubt items together as a counterphobic Six case and gives one sourced reason the Seven reading still leads, or removes the claim that no leading reading captures the security turn. No wing, arrow or subtype is introduced to absorb the anomaly."
+		},
+		{
+			"id": "enneagram-07",
+			"severity": "minor",
+			"passage": "A Two's pattern usually runs toward being needed and hard to replace. Hers, by her own account, ran toward beginnings.",
+			"problem": "The 2-vs-7 discriminator splits one British Vogue (2024) passage across two types. In the source it reads 'I am someone that loves falling in love. I love looking after people. I love caring for people. I love the feeling of someone being there.' The Two section quotes the caring sentences without the opening one, and the next paragraph uses 'falling' as the Seven's chase. Chasing romantic intensity does not separate a Seven from a romantically driven (sexual-instinct) Two or a Four. The Seven-specific 'beginnings' evidence is the non-romantic circus line (places, people, 'move on and do it again') and 'I love packing'. What a Two's pattern 'usually' runs toward is asserted without any Pugh-specific evidence.",
+			"acceptance_test": "The Two section quotes the British Vogue passage with 'I am someone that loves falling in love' intact, or acknowledges that the romantic 'falling' line does not separate Two from Seven. The 2-vs-7 call rests chiefly on the non-romantic novelty evidence. FAQ 3 matches."
+		},
+		{
+			"id": "enneagram-08",
+			"severity": "minor",
+			"passage": "Boldness can't settle her type; a bold actress can look like a Seven, an [Eight](/enneagram-corner/enneagram-type-8) or a Three.",
+			"problem": "The article raises Three twice (here and at 'complete control') and never tests it, though the evidence record has Three-coded material. She worked 'back to back to back' to 'be in a room with these Legends' (Happy Sad Confused, 2023, auto-captions). She keeps a 'clock' of 'what I know I still have to show and when I want to show it' for 'the next 10 to 15 years' (Who What Wear, 2025). Her father says her 'drive' keeps her from smelling the roses (Reign, 2025). The record also offers a ready discriminator against Three: 'Anytime an opportunity of me being perfect onscreen comes up, I panic' (Vogue, 2020); showing cellulite and spots because 'I'd much rather do it than they do it... There's no pretending with me' (Vanity Fair, 2023). One or two sentences would close an alternative the article itself opens.",
+			"acceptance_test": "The article dismisses Three in one or two sentences using sourced anti-image evidence, or stops naming Three as a lookalike it never addresses."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Six years later, on _The Louis Theroux Podcast_, she told the same story with a different ending.",
+			"reason": "The hinge of the whole type argument. The strongest Seven evidence is one dated episode told twice, first as a cure and later as an unprocessed cost, and this line lets the reader see the reinterpretation instead of being told about it."
+		},
+		{
+			"passage": "\"Complete control\" sounds as much like an Eight, or a Three holding an audience, as a Seven chasing the thrill of the live moment. The childhood record shows a performer, not yet a motive.",
+			"reason": "Declines a convenient childhood origin story and states exactly what the early evidence cannot discriminate. This is the restraint the standard asks for."
+		},
+		{
+			"passage": "People process hurt over time, and a reflective cover interview invites admissions. None of this proves she was hiding pain in 2022. What it shows is the order in which she tells her own stories.",
+			"reason": "A precise inference limit. It turns a weak claim (she hid pain) into a defensible observation (the order of her self-narration)."
+		},
+		{
+			"passage": "Shortland's \"will not back down\" and the Cornell rage fit the Eight better. A Seven with a fierce protective streak, or an Eight who learned to soften on sets: the public record can't fully separate them.",
+			"reason": "Concedes the strongest alternative's best evidence where the type call is made, instead of explaining it away with a wing or arrow."
+		},
+		{
+			"passage": "The observation that would separate the two best, how she reacts when her care goes unreturned, is missing from the public record.",
+			"reason": "Names a real, specific 2-vs-7 discriminator and admits it is absent. Rare and valuable typing honesty that should survive any edit."
+		}
+	],
+	"assessment": "The draft takes the typing seriously. Eight is argued in good faith, Two gets a real section, wing and subtype are left unassigned, no arrows are invoked to absorb contradictions, and the anomalies get their own section. The Seven call is defensible, but the three tipping observations do less work than the prose claims. (1) The reason she gives for hiding pain beats Eight but is the Two's signature, so it cannot be Seven's lead discriminator, and Two may be at least as strong a rival as Eight. (2) The on-set anecdote is not a standoff, and the same Theroux segment has her saying she argued 'a lot' with directors and still does, more softly; the article omits that. (3) Freedom from being told or pushed is the Eight's autonomy motive as much as a Seven's. The 2025 'things just happen to me' quote is about overwork and romantic passivity, and the 'joke and an exit' tendency is contradicted by the Cornell, Gaza and 2020 episodes the article itself cites. What survives is the pain-handling strand: Midsommar shelved in Little Women's fun, told twice six years apart, plus the lockdown routine, the Valentino ordering and the non-romantic 'run away with the circus' line. That strand genuinely tilts toward Seven. The edit should rest the call there, demote the other observations to 'consistent with', and either lower the stated confidence or show why Seven beats Two without relying on romantic 'falling'. The fear-seeking, security and self-doubt anomalies converge on an untested counterphobic Six, the classic Eight lookalike, which deserves one paragraph. Sources reopened for this review: the Theroux machine transcript on podscripts (confirms 'arguing a lot... in a softer way now' and the people-pleasing passage) and Harper's Bazaar UK, April 2025 (confirms the overwork/breakup context of 'things just happen to me'; WebFetch was blocked, page retrieved directly). Other contexts rely on the frozen evidence record's excerpts. Similarity advisory not tripped (max 0.025 against a 0.04 threshold). Comparing the top pairs, they are generic type-definition sentences with no shared phrases and no reused argument, so there is no formulaic-writing finding. Risk flags: contested_typing (8, 2 and an untested counterphobic 6 are all live) and sensitive_allegations (pending Cornell case, disputed Don't Worry Darling reporting, unnamed painful relationship), which the research stage already raised and this review cannot downgrade."
+}

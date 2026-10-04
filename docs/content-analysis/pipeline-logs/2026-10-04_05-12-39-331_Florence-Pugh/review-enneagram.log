@@ -1,0 +1,17 @@
+I wrote the Enneagram review for the Florence Pugh run to `docs/content-analysis/pipeline-logs/2026-10-04_05-12-39-331_Florence-Pugh/review-enneagram.json`. It passes the pipeline's schema check, and every quoted passage matches the draft word for word. I changed no other files and published nothing.
+
+**Verdict:** Type 7 is a reasonable call, but three arguments the draft uses to settle it do less than the prose claims. It has 4 major and 4 minor findings, and both risk flags are on: the typing is contested, and the draft covers sensitive allegations.
+
+**Major findings:**
+1. **"Her pain would bring people down" points to Type 2, not 7.** It's the draft's main reason she isn't an Eight, but putting her own needs below other people's is the Two's pattern. The draft itself calls the line "a Helper's phrase." So Two may be as strong a rival as Eight, not a distant third.
+2. **"Freedom from being told what to do" doesn't separate 7 from 8.** Not being controlled is the Eight's core drive, and the draft's own definition of Eight says so. The 2025 quote "I don't want to have things just happen to me" is about overwork and drifting in relationships, not about being boxed in. I confirmed that context in the Harper's Bazaar UK piece.
+3. **"Her firmest statements end in a joke and an exit" is contradicted by the draft's own examples.** On the Cornell case she escalated to *The View* ("so much rage"). She kept her Gaza stance after losing followers. Her 2020 video ended in an ultimatum, not a joke.
+4. **The "co-star stood up for her" story leaves out key context.** Earlier in the same Theroux segment she says she used to argue "a lot" with directors and still does "in a softer way now." I confirmed this in the automated transcript; the draft omits it. The scene also wasn't a standoff: she agreed to another take while drained.
+
+**Minor findings:** one of the four examples in the core Type 7 pattern (a stunt quote) doesn't fit it, and a co-star's description of her as a "goof" who keeps things light goes unused. The leftover anomalies cluster into an untested "counterphobic Six" case, the classic Eight lookalike. The Type 2 section splits one Vogue quote across two types. Type 3 is mentioned twice but never ruled out.
+
+**What still holds:** the Midsommar → *Little Women* story, told once in 2019 and again in 2025, really does point to Type 7. My main recommendation is that the edit rest the call there, then either lower the confidence or show why 7 beats 2.
+
+I marked five passages to protect, mostly where the draft is honest about the limits of its evidence. The copy-detection check didn't trip, and its closest matches were generic type definitions, not reused arguments.
+
+Separately, several connectors need authorization before use, through their claude.ai connector settings or `/mcp`: GitHub, Slack, Ahrefs and others. The Supabase server failed to connect this session. None of them were needed for this review.

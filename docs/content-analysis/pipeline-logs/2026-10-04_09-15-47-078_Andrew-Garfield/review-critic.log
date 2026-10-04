@@ -1,0 +1,23 @@
+I wrote `review-critic.json` in the Andrew Garfield run directory. It passes the review schema check, all 13 quoted passages match the draft exactly, and the role and both hashes are copied from the request. Nothing else was changed and nothing was published. The hashes don't match a plain sha256 of `draft.md` and `evidence-draft.json`, so the runner presumably hashes a normalized version.
+
+The critic found 6 major and 2 minor problems, which means the draft can't go out until the edit stage deals with them. Before writing anything I reopened the Maron and Cooper transcripts and Garfield's Wikipedia page.
+
+**Major findings:**
+- **The central story misreads its key quote.** In context, his "enraged at the concept of this being everything" is aimed at a home where "if you're not a lawyer a doctor or in business then you're nothing." Read that way, his 2026 line about feeling we "have to be more than we are" carries on the boy's protest rather than reversing it. The draft also says ordinariness came "later, as something grief taught him," but it quotes his wish for a "hidden life" in 2017, two years before his mother died.
+- **The case against Type 3 assumes he didn't go back to work.** He did. Wikipedia says his mother died while he was filming *The Eyes of Tammy Faye* and shortly before *tick, tick... BOOM!* started production. His "I ran towards it" quote is about one moment in the ocean, not a general way of grieving.
+- **The Type 3 section leaves out its strongest evidence.** His father "started to come a bit closer" once Garfield was earning. And in the Chicken Shop Date clip, the draft cuts his present-tense line "my longing is back for it... trying to please you."
+- **Type 9 is argued against a stereotype.** The section relies on unsourced generalizations. It skips his own words about accepting death ("weirdly reassuring"). It treats both feeling special and losing that feeling as proof of Type 4. And it uses Lin-Manuel Miranda praising the rage in a stage role as if it showed Garfield's own temper.
+- **The answer to "it's just publicity" is thin.** The 2017 interview was press for *Silence*. The Maron episode came out three weeks before the 2022 Emmys, where he was nominated.
+- **The opening corrects a reputation nobody is shown to hold.** "Won't let the wound close" looks like the old 9takes draft's thesis. And NBC News, cited in that same paragraph, ran the healing half of his answer.
+
+**Minor findings:**
+- The "nothing unsaid" vs. "never got to tell her" contradiction is explained away in one section and listed as unexplained in another.
+- The *Angels in America* paragraph leaves out the part of his remarks critics objected to most, and the gay-baiting comparison the Advocate reported.
+
+**Kept as strengths (5 passages):** splitting the famous Colbert answer into its two halves, the honest note that his 2017 "grief" was about the world rather than a death, his mother grabbing Jack Black by the lapels, the Spider-Man lying contradiction, and the sharp argument against Type 2.
+
+**Overlap with other profiles:** the check flagged a match with the Kacey Musgraves profile. It's stock Type 4 definition wording, not a reused argument, so I didn't raise it as a finding.
+
+I kept all three risk flags from research: sensitive allegations, contested typing and a major thesis change. Type 4 at medium confidence may still hold, but only if the Type 9 and Type 3 sections answer the strongest version of each case.
+
+Separately, the Supabase connection failed this session, and several plugin connectors (GitHub, Slack, Ahrefs and others) need to be authorized in claude.ai connector settings or with `/mcp`. This stage didn't need any of them.

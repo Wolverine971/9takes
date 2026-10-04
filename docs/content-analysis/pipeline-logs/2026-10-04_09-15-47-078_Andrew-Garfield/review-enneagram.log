@@ -1,0 +1,18 @@
+I wrote the Enneagram review for the Andrew Garfield run to `docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/review-enneagram.json`. It passes `reviewSchema`, its hashes match the request, and every quoted passage appears word-for-word in the draft. I didn't change or publish anything else.
+
+**Verdict:** Type 4 at medium confidence holds up, and the draft is honest about it: the other types get their own section, the wing is left open, and there's a section for behavior Type 4 doesn't explain. The weak part is how it rules out the other types. Eight findings, six major:
+
+1. **The draft argues against the wrong rival.** It names Type 9 as the strongest alternative, but its own evidence makes the Type 3 case heavier. Garfield says he is "tempted constantly to be producing, to be seen," calls himself "a fraud," and said the Oscar "meant something to me… I think I needed that."
+2. **The "strongest" Type 4 evidence is described wrongly.** The draft says it "had nothing to do with a role," but he did the retreat to prepare for *Silence*. The same 2017 source also describes the wound as "what I have to offer is never enough," which fits a 3 as well as a 4.
+3. **The key contrast with Type 9 relies on a caricature.** 9s carry suppressed anger, and an overlooked child is a classic 9 origin story. The draft also leaves out that his "enraged" line was about a home where "the arts weren't valued."
+4. **"A Three usually gets back to work" fails on his own record.** He healed through *tick, tick... BOOM!* and says "everything I do is in dedication to her."
+5. **Feeling your grief is unique is normal in fresh grief, so it can't separate 4 from 9.** Before his mother died, he described the longing as "inside each of us." The draft counts both feeling special and losing that feeling as Type 4 evidence, so nothing it presents could count against the type.
+6. **The rebuttal of Type 3 uses behavior that fits his public image.** Showing Oscar disappointment on a comedy flirt show doesn't argue against Type 3. Calling the Type 3 evidence a "4w3 wing" lets the draft count it on both sides.
+7. *(minor)* Envy, the core Type 4 trait, is never tested, even though the brother material is the obvious place to test it. His hunger for "more" also fits Type 7, and the draft doesn't say what rules 7 out.
+8. *(minor)* The "equanimity" paragraph bends the classic Type 4 growth idea to fit him: "keeps the feeling" is the opposite of equanimity.
+
+The review protects five passages, including "That was grief about the world, not a bereavement…" and the closing line about the most ordinary thing there is.
+
+I opened the Maron transcript and the 2017 *America* interview to check findings 2 and 3. The "enraged" line still hasn't been checked against the audio. The similarity alert (a match with the Kacey Musgraves profile) is standard Type 4 wording, not a reused argument. All four risk flags match the research stage: sensitive allegations, contested typing and major thesis change are on; historical source uncertainty is off.
+
+Separately, several connectors (GitHub, Slack, Ahrefs and others) need to be authorized in your claude.ai connector settings or `/mcp`, and Supabase failed to connect this session. None of them were needed here.

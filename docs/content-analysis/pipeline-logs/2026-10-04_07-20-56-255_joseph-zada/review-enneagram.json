@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "9b8e08ed61264367b5853138ef43a04338ce16d75724985acdd998ddcb04546b",
+  "evidence_sha256": "920633e02a4f83cf7d792f5b9aa7fecbc0386b18a170ef1df916bc3023c0f7a1",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Before a big test he builds footing from trusted people and heavy preparation, and the fear he names most often is how admired actors will see him.",
+      "problem": "The type answer and FAQ 1 count an evaluation fear toward the Six case, but the article's own key (\"A Six fears the ground giving way... A Three fears failing\") gives that fear to the Three. Every fear the article quotes him naming is about being judged: how the East of Eden cast and filmmakers \"would perceive me\" (S02, July 2025), \"terrified I'd be dreadful\" (S20, February 2025), \"not going to get on stage and embarrass myself\" at 14 (S30), \"shit scared\" and \"deathly nervous\" of the actors he loves (S01, June 2026), and the blank beside Harrelson (S30). None concerns losing support, guidance or footing. On the fear half of its own fear-plus-remedy test the record leans Three. The Six case therefore rests on the remedy alone, and the summary hides that. The Three section also cites only \"dreadful\" as a failure fear and leaves out \"embarrass myself\", which understates the alternative.",
+      "acceptance_test": "The type answer and FAQ 1 either (a) cite a dated, sourced fear about losing support or footing, as distinct from being judged, or (b) say plainly that the fears he names are evaluation fears the Three shares and that the Six reading rests on what settles them. The Three section counts \"embarrass myself\" as well as \"dreadful\". If no remedy-side discriminator survives the fixes for enneagram-02, enneagram-03 and enneagram-05, confidence drops to low, or the record takes the standard's insufficient-evidence path, instead of staying at medium."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "But when he describes nerves resolving, the fix is usually specific people becoming dependable.",
+      "problem": "Only one quoted remedy is about dependability: Close \"made it clear she was always there for me\", from a People interview about a celebrated co-star, which the record itself calls obligatory praise (C19). The rest are about comfort, relaxation or company. Pugh \"makes everyone feel so comfortable\". The girlfriend \"helped me relax and not think about work so much\", which the Nine section also uses as a switch-off datum and C128 calls \"equally a Nine datum\". There is also \"we need someone around\", Grace's dinners, and \"meet everyone, I'll be fine\". The article admits comfort cannot separate Six from Nine, then relabels comfort as dependability to win discriminator 1. Line 199 (\"specific people usually become reliable\") and FAQ 2 make the same move. Meanwhile an opened source holds the strongest structure-seeking remedy, and it is missing from the record. In the same Berlin answer (S02, July 9, 2025) he said: \"I've been in prep mode. I got here early to work with the stunt team, the director, check out the costumes... And like every other project I've done, I think once I step on set and meet everyone, I'll be fine.\" The draft quotes only the last clause.",
+      "acceptance_test": "Every remedy cited in \"What settles him\", in the first Nine discriminator and in FAQ 2 is labeled in the evidence record as reliability/structure or comfort/relaxation. The words \"dependable\"/\"reliable\" stay only if at least two independent, dated items are reliability- or structure-shaped. The S02 \"prep mode... got here early to work with the stunt team, the director\" line should be added as a claim with its locator and tested as one of them. Otherwise the sentence says \"specific people\" plus comfort, and the Nine discriminator is downgraded to match. The girlfriend line is not presented as Six support unless the article notes it is the same switch-off datum the Nine reading uses."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "The second is disclosure. A Nine tends to play disturbance down. Zada broadcasts it.",
+      "problem": "Discriminator 2 breaks the article's own method. Line 147 says nervousness is \"the house style of those formats\" and would appear \"whatever his type\", and promises to lean on costly behavior. Discriminator 2 then rests on four remarks in exactly that register. The opened source for one of them cuts against the claim. In S02 he introduced \"phenomenally nervous\" with \"I usually just say, 'I'm really excited.' But honestly...\". By his own account his default press line projects excitement, and he showed the nerves to a close friend. That line is not in the evidence record. He also follows the nerves straight away with \"I'll be fine. I know it's going to be one of the best shoots ever\", and earlier with \"But I got over that quickly\": he names the fear and then dismisses it, which a Nine can also do. The Harrelson blank is a starstruck anecdote, not a disclosure of alarm. \"He reports the alarm, then goes to find his people\" holds only for Berlin.",
+      "acceptance_test": "Either drop disclosure as a discriminator against Nine, or bring it in line with the line-147 rule by showing disclosure outside a promotional setting or at a cost. Quote or paraphrase \"I usually just say, 'I'm really excited'\" (S02) and say how it bears on the claim. Support \"then goes to find his people\" with a dated instance for each disclosure item cited, or cut it. FAQ 2's \"he announces his fear instead of muting it\" is changed to match."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "The blank at dinner is about the man. The Six reading explains the second far better than the first, and this profile leaves the first standing.",
+      "problem": "Blanking beside a famous predecessor says little about type. A Three anxious to impress an idol, or a Nine going blank under intensity, explains it as easily. The draft offers no Six mechanism, so \"far better\" is asserted, not shown. The opening quote (line 143) starts at \"But\". S30's sentence just before it is \"We chatted and he asked me questions about myself and told me stories\", and in S01 he says Harrelson \"was so, so lovely about the whole process\". It was a warm meeting where he was well received and lost track of his own prepared questions. That reads as awe more than threat. The meta_title (\"Joseph Zada Enneagram Type 6: Blanking Beside Woody Harrelson\") makes this datum the face of the Type 6 label.",
+      "acceptance_test": "Either name a Six-specific mechanism, with evidence that tells it apart from Three and Nine readings of the same moment, or replace \"far better\" with a calibrated claim (consistent with the Six reading, not discriminating). Restore or paraphrase the warm context: Harrelson asked about him and was \"so, so lovely\". The meta_title and description do not suggest the blank is evidence for Type 6."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "Zada's recurring move is to bring trusted people in first, and even the over-delivered tape was made at home with his brother and father.",
+      "problem": "Line 179 concedes \"The simplest explanation is production: a director father and an actor brother were the best crew\". The Three section then makes that same tape its deciding evidence against the Three. Yet answering a one-scene brief with four written scenes, locations, costumes and a drone, while up against \"really big\" names (S09), is leaning on performance and visible results. That is the Three remedy as the article defines it. \"First\" (people before results) is asserted, not shown in any sequence. FAQ 3 repeats it: \"under pressure he reaches for trusted people before results\". Line 209 concedes preparation does not discriminate, and the hedging test is reported as split. That leaves the anti-Three case without a surviving sourced discriminator.",
+      "acceptance_test": "The Three section names at least one dated, sourced choice where he picked trusted people or security over a results-optimal option. Otherwise it treats the tape as neutral, as line 179 does, and says the Three comparison rests on what settles him and on the hedging test, with the confidence consequence (see enneagram-01). FAQ 3 is updated to match."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "Together they still describe someone who steers.",
+      "problem": "All three items fit a Nine. He left school after an attendance ultimatum, having \"hated, hated school\" and stopped \"bothering to go\" (S30). That is withdrawal from a demand, the Nine's passive resistance, as much as steering. Asking for three weeks is a request about timing, and begging to play music on set is a small comfort need. The draft concedes none cost him much, then adds them up into a conclusion. Better evidence against merging is already in the draft but not used here: two months \"obsessed with getting Woody down\", then a self-set challenge to play \"the opposite of Woody's character\" (S30). That is a deliberate break from the established model.",
+      "acceptance_test": "The paragraph rests on at least one instance where he accepted friction or left the default path, for example the \"opposite of Woody\" challenge with its craft explanation noted. Otherwise the closing sentence is softened to a lean. FAQ 2's \"he steers his own course\" matches whichever version stands."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "He told her he was grateful for \"being forced to spend family time so I wasn't chilling in my own head and going crazy by myself.\"",
+      "problem": "The article never names Type 7, the head-center type next to Six. The evidence record sets it aside because \"he names anxiety repeatedly instead of reframing it\". The record shows the opposite: he names a fear, then turns it positive. Examples: \"afraid of how they would perceive me. But I got over that quickly\"; \"phenomenally nervous... I'll be fine. I know it's going to be one of the best shoots ever\" (S02); \"terrified I'd be dreadful! But I think it's come out all right\" (S20); the swearing told as a joke. Other Seven-shaped material: \"hated, hated school\", \"many different methods that I'm trying out\" (S31), and L.A. as \"Movie World. It's got literally everything I could possibly want\" (S30). An Enneagram-literate reader will see this passage, escaping his own head through company, as a Seven move as readily as a Six one.",
+      "acceptance_test": "The article names Seven in one or two sentences and gives the observation that sets it aside. A candidate: his anticipation runs to dread, not excitement (\"I don't know how excited I'd be as opposed to deathly nervous\", S01, June 2026). Alternatively, the record's Seven dismissal is corrected to a criterion the sources support."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "The Six reading predicts that fame will not settle him, and that at the next threshold he will again bring his people with him before he jumps into the deep end.",
+      "problem": "Half of the prediction cannot fail. A Nine, or anyone close to family, would also bring people to a threshold. Only \"fame will not settle him\" separates Six from Three, and the article never says what would count against the Six reading. The evidence record already has a sharper test that goes unused: settling mainly through acclaim and results points to Three; going passive and deferring major decisions points to Nine. The next threshold he has announced is a move to Los Angeles that his reps want and his mother would rather he skipped. The article does not say how that fits \"bring his people\".",
+      "acceptance_test": "The closing names at least one observable outcome that would weaken the Six reading in favor of the Three, and one in favor of the Nine, tied to the November 20, 2026 release or the early-2027 move. The \"bring his people\" half is either made discriminating or dropped."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "A limit shapes everything below. Almost every substantial source on Zada is an interview published between February 2025 and October 2026, inside the promotional windows of four projects.",
+      "reason": "This states the main confound plainly, before the type argument. enneagram-03 asks the article to obey this rule, not cut it."
+    },
+    {
+      "passage": "Zada's record favors the Six mainly through what settles him. Other Six markers are thin. He does not visibly test whether people can be trusted",
+      "reason": "It admits the thin Six-specific markers in the type answer itself. It does not use wings, or the 6-to-3 and 6-to-9 lines that map onto its two alternatives, to explain contradictions away."
+    },
+    {
+      "passage": "The mechanism he names is still worth noticing. His confidence arrived once the people he feared had been reclassified as peers.",
+      "reason": "A distinctive, sourced reading of his own words (S04) that turns counterevidence into insight without discarding it."
+    },
+    {
+      "passage": "If he speaks with settled authority about his method once his work is released, the hedging was career position more than temperament.",
+      "reason": "A falsifiable typing test, followed by an honest report that the first release week split it. This is the method the rest of the type argument should copy."
+    },
+    {
+      "passage": "This suggests his easygoing surface and his need for company are more connected than the Nine reading allows. Two uses of a casual word cannot prove it.",
+      "reason": "A small, specific verbal detail is used against the alternative, and its limit is stated in the same breath."
+    }
+  ],
+  "assessment": "Type 6 at medium confidence is a defensible lean, but the draft does not yet show a discriminator that beats Nine and Three. The article builds its own key: what the fear is about and what settles it. Measured by that key, the fear side leans Three, because every fear he names is evaluative (enneagram-01). The remedy side is mostly comfort, which the draft admits cannot separate Six from Nine, relabeled as dependability (enneagram-02). The disclosure discriminator uses the press register the article's method rules out (enneagram-03). The Harrelson blank and the Haymitch tape are asked to carry more than they can (enneagram-04, enneagram-05). Strengths worth keeping: honest limits, real counterevidence, the opening contradiction left standing, and no wing or arrow rescue. The 6-to-3 and 6-to-9 lines map onto exactly these two alternatives, and the draft rightly does not invoke them. Sources: I opened S02 and S01 through a reader proxy and S03 (HERO). Direct fetches of S01 returned 403, and S30 (THR) redirected to a tollbit paywall, so for S30 I relied on the record's excerpt. S02 contains two lines missing from the evidence record that bear on the type argument: \"I usually just say, 'I'm really excited'\" and \"prep mode... got here early to work with the stunt team, the director\". The second is the best structure-seeking remedy in the record and could rescue part of the Six case. Similarity: every trip pair is a self-match against this subject's own 2026-09-12 version, which is expected on a refresh. The highest cross-subject score is 0.027, below the 0.04 threshold. The short three-type key at line 153 is ordinary type vocabulary, not reused argument. The draft's claim that 9takes types Chalamet and Lawrence as 6 and Butler as 9 matches the site drafts. Risk: contested_typing stays true. If the fixes leave no surviving discriminator, the edit should lower confidence or hold, not restate medium; lowering confidence would itself be a thesis-level change."
+}

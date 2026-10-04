@@ -1,0 +1,1039 @@
+{
+  "schema_version": 3,
+  "content_sha256": "3c04260f52a1be0a06291117f83fadd510ff49577d3f9762254cba34d65520e0",
+  "evidence_sha256": "6fdb1eaea46b4e41f226e27a33265855ff2d68b87a7091c891d2e22368709992",
+  "status": "pass",
+  "findings": [
+    {
+      "id": "verifier-01",
+      "severity": "minor",
+      "passage": "Afterward he told TheWrap, \"There were moments where I was like, 'God, I hate lying.' I don't like to lie and I'm not a good liar.\"",
+      "problem": "In S09 (opened via WebFetch), the TheWrap sentence continues ', but I kept framing it as a game.' The article ends the quotation at 'liar.' with a period inside the quotation marks, so a truncated sentence reads as complete. The dropped clause is how he says he handled the lie.",
+      "acceptance_test": "The quote either includes ', but I kept framing it as a game' or ends with an ellipsis or outside punctuation that marks the cut. C23 matches."
+    },
+    {
+      "id": "verifier-02",
+      "severity": "minor",
+      "passage": "By his own account, being seen became what he most wanted and most feared.",
+      "problem": "'Most wanted and most feared' paraphrases the America writer's own narration ('a deep fear of being seen and an even deeper need of it', S01), not Garfield's words. He described terror at being seen and a temptation to be seen, but never ranked them. The sentence is not in the claim inventory.",
+      "acceptance_test": "The sentence is attributed to the America writer or rests on his own words (e.g. 'Terror at being seen' alongside 'tempted… to be seen'), and the claim inventory has a matching entry."
+    },
+    {
+      "id": "verifier-03",
+      "severity": "minor",
+      "passage": "So the anger had a target: a narrow world that ranked people by profession and had no room for what he loved.",
+      "problem": "In S06 (~00:42:32–00:43:10), right after 'the arts weren't valued. They weren't spoken about', he adds that his dad is a cinephile who 'loves movies' with 'a great record collection', and that his mother was 'incredibly crafty'. 'Had no room for what he loved' and the preceding 'at home \"the arts weren't valued\"' leave out his own qualification about two private people.",
+      "acceptance_test": "The passage notes his qualification in one clause (e.g. his father loved movies) or softens 'had no room' to his framing (the arts 'weren't spoken about'; only law, medicine or business counted). C11 records the qualification."
+    },
+    {
+      "id": "verifier-04",
+      "severity": "minor",
+      "passage": "Feeling that one's grief is uniquely agonizing is common early in bereavement, and before 2019 he didn't claim exceptional suffering; in 2017 he placed his longing in \"each of us.\"",
+      "problem": "This absence claim sits uneasily with the article's own 2017 quote, 'I feel like I've been gifted and cursed with a closeness to some grief' (S01). That reads as claiming a special closeness to grief. The tension cuts toward the Four reading, so the thesis is unaffected, but the absence claim is too clean.",
+      "acceptance_test": "The sentence acknowledges the 2017 'gifted and cursed with a closeness to some grief' line and says how it bears on the question, or narrows the claim (e.g. he did not describe his suffering as greater than others')."
+    },
+    {
+      "id": "verifier-05",
+      "severity": "minor",
+      "passage": "The record also shows little of envy, which Enneagram teachers name as the Four's characteristic passion",
+      "problem": "The envy test cites only admiration for his brother. The same S06 passage (~00:41:20–00:41:52) has 'I had this golden boy brother… And I was like, well, fuck this… who am I? What's the point?… my father is obsessed with my brother', a comparison-and-lack reaction that is the record's closest thing to Four envy. Leaving it out makes the test look more settled than it is (in either direction).",
+      "acceptance_test": "The envy sentence acknowledges the 'father is obsessed with my brother' reaction and states what it does and doesn't show, keeping the confidence language consistent."
+    }
+  ],
+  "research_tasks": [
+    "Optional strengthening (not blocking): check the verbatim WTF #1359 lines used in the body ('golden boy'/'who am I? What's the point?'/'liberated' ~00:41:20–00:42:01; 'enraged at the concept of this being everything', 'the arts weren't valued', lawyer/doctor/business ~00:42:18–00:43:10; 'accept death as this tsunami' ~01:28:18; 'a disowned dream of being a screenwriter' ~00:37:43; 'he's the guy you want taking care of you' ~00:40:40) against the episode audio. This verification read the podscripts auto-transcript only.",
+    "Optional strengthening: confirm against the Chicken Shop Date video (~08:30–09:50) that Garfield, not Dimoldenberg, says 'that whole thing has meant something to me…' and 'my longing is back for it… trying to please you'. Captions have no speaker labels.",
+    "Optional strengthening: listen to the full America 'The Spiritual Life' episode (2026-09-14); only page excerpts were read.",
+    "Optional strengthening: the Cooper (All There Is, 2024-10-08) lines are from a podscripts auto-transcript; check 'it's the only route to feeling her close again' and 'my ego was holding on' against the CNN audio."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "Wikipedia (S20) and Cooper (S05: 'Lynn… she died in 2019 of pancreatic cancer') both opened and agree."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "Colbert captions (S03, ~04:39–06:52) re-pulled: both halves verbatim in one answer; oEmbed confirms upload title 'I Hope This Grief Stays With Me'; NBC (S19) prints the heal/sew-up half; Cooper replays the clip (S05 ~00:24:33)."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "Labeled as how the line reads alone; the same S03 answer contains the healing half, so the contrast is fair."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in S05 ('only route to feeling her close again') and the S03 healing half; worded as his description."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Esquire original (S30) opened: 'I feel there is more… I am in big trouble' verbatim, set in Surrey boyhood; People relay (S07) matches."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "Author framing, signposted as the story; rests on S30, S31 ('sons and daughters… since the dawn of time') and S12."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "Wikipedia wikitext/API (S20): birth 1983-08-20 Los Angeles, moved at three, Epsom, Central School, Spider-Man 2012 + sequel, two Best Actor nominations, Tony for Angels in America. Time-sensitive trigger present."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "S21: The Uprising (Greengrass) US release 2026-09-10; S22: Artificial (Guadagnino), Garfield as Sam Altman, NYFF 2026-10-05, US 2026-12-25. Tense-neutral sentence; trigger present."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "A medium-confidence interpretation with alternatives ranked; consistent with type_hypothesis (4, alt 3)."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "Know Your Archetypes (S25) opened: 'Andrew Garfield is often associated with… Enneagram Type 9' and the quoted sentence verbatim. PDB/Boo listings are not used in the article."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "'At least one typing site' is exactly what S25 shows."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "Interpretive discriminators, each traced to opened sources (S01 hidden life; S30 'now you want to hang?'; S06 'who am I?'; S05 grief as route)."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "Esquire (S30) opened: Russian coach, 'This is not a childhood' at twelve, 'first rebellion… at the time' verbatim."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "S30: 'his dad had become a successful swimming coach, so Garfield tried swimming… quit swimming, too, in his second act of rebellion'; S20 names Guildford City Swimming Club."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "Maron (S06 ~00:40:40–00:42:01): 'golden boy', 'who am I? What's the point?', 'it liberated me'; brother a lung doctor. podscripts auto-transcript opened 2026-10-04; wording matches, audio not checked (disclosed in the article's transcript note). VF (S31) independently names the brother a pulmonary specialist."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "qualified",
+      "reason": "Maron (S06 ~00:42:01–00:43:10) has every quoted phrase, but right after 'the arts weren't valued' he adds that his dad is a cinephile with a great record collection and his mother was crafty; the article omits that qualification (see verifier finding)."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "qualified",
+      "reason": "Reasonable reading of S06, but 'had no room for what he loved' overstates his own hedged account of the home (see verifier finding)."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "America 2017 (S01) opened: both quotes verbatim; 'said of his childhood' in the caption."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "Cooper (S05 ~00:09:10–00:09:44): mother 'desperate for me to find something'; painting, sculpture, music; 'the last resort… drama class when I was 15'; 'I felt accepted. I felt like I belonged.'"
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "Maron (S06 ~00:46:32): new drama teacher 'basically said, I see you'. podscripts auto-transcript opened 2026-10-04; wording matches, audio not checked (disclosed in the article's transcript note)."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "S01: Ophelia at the Globe 'just before his first public performance upon finishing drama school'; both quotes verbatim."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "S01: busker's imperfect 'Vincent'; 'I'm not enough… I wouldn't have been given what I needed'; 'But actually, if you don't you're going to die.' Paraphrase faithful."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "S01 (a year, 40 pounds, celibate six months, 'If I hadn't made the film that would've been fine'); S20 ('spent a year with James Martin'); S18 (silent retreat at St Beuno's, Wales, with Adam Driver)."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "S20 Personal life: 'agnostic pantheist', 'although he identifies as Jewish'."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "S01 verbatim: 'What was really easy was falling in love with this person, was falling in love with Jesus Christ. That was the most surprising thing.' No conversion claim found."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "S01 opening: he asked James Martin to guide him 'as he prepared to play the lead role in… Silence'; interview during Silence release."
+    },
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "S01 verbatim, both sentences."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "S01 verbatim; the Three/Four split is labeled interpretation."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "S01 verbatim, in the 'hidden life' contemplation passage."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "S01 verbatim including the completion; Jan 2017 vs 2019 death (S20) gives the 'more than two years' interval."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "TIME (S17) opened via WebFetch 2026-10-04: Scorsese quote verbatim, Sam Lansky, 2017-01-12."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "Cooper (S05 ~00:10:52: 'About a year and a half') and CBS (S16: 'about a year-and-a-half')."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "S05 ~00:08:28 verbatim; Maron S06 ~00:27:14–00:28:17 has 'very angry with her for that… take care of herself better' and 'loved living for others… It's beautiful, but it cost her'. Order is rearranged, but he clarifies that the anger is at the trait, so the meaning is preserved. podscripts auto-transcript opened 2026-10-04; wording matches, audio not checked (disclosed in the article's transcript note)."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "S20 verbatim: died 'while he was filming The Eyes of Tammy Faye and shortly before Tick, Tick... Boom! began production. He was able to fly home to be with her.'"
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "VF (S31) dek 'The busiest man in Hollywood'; S31/S20 list Tammy Faye, tick, tick... BOOM!, No Way Home (2021)."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "S03 captions verbatim."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "S03 captions verbatim, immediately after the 'grief stays' line."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "NBC (S19) opened, quoting Variety (Sept 2021) verbatim."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "Labeled reconciliation, supported by the S03 continuation 'We all told her every day'."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "S05 ~00:24:33–00:26:07: Cooper plays the Colbert clip, asks if the grief stayed; quotes verbatim. CNN episode description on the page quotes 'The wound is the only route to the gift.' podscripts auto-transcript opened 2026-10-04; wording matches, audio not checked (disclosed in the article's transcript note)."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "CBS (S16) opened: 'Yeah, I mean, I think everything I do is in dedication to her.'"
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "Interpretation that concedes the behavior is common, tied to the 2017 S01 quote."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "S05 ~00:10:17–00:10:52 verbatim (glass and a half of wine; Jack Black; 'nature or… nurture'; lapels; unmet dreams, longing); Esquire (S30) prints the same story."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "Maron (S06 ~01:28:18) verbatim. podscripts auto-transcript opened 2026-10-04; wording matches, audio not checked (disclosed in the article's transcript note)."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "S06 ~01:28:51–01:29:51 verbatim, set 'just before she was about to die' on Fire Island; VF (S31) corroborates the ocean and 'full download' in print; Cooper (S05) retells it. podscripts auto-transcript opened 2026-10-04; wording matches, audio not checked (disclosed in the article's transcript note)."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "VF original (S31) opened: quote verbatim; BANG relay (S28) matches."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "S05 ~00:17:47: 'the only thing I can take credit for… I ran towards it and I said, help me', about the ocean episode."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "S06 ~01:29:51–01:30:24: three things, verbatim. podscripts auto-transcript opened 2026-10-04; wording matches, audio not checked (disclosed in the article's transcript note)."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "Labeled as the author's judgment; quotes his words, not 'illusion'."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "qualified",
+      "reason": "The falsifier and 'portrait more than proof' are sound, but 'before 2019 he didn't claim exceptional suffering' sits uneasily with the article's own 2017 'gifted and cursed with a closeness to some grief' (S01) (see verifier finding)."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "S01 hidden life; E! Online (S11, Apr 27–28 2022) attributes 'Just be ordinary for a while' to Garfield via Variety and quotes 'I'm just having a holiday' on The View, Apr 28."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "Esquire (S30): 'a man comes over to us and timidly asks, \"Are you Andrew Garfield?\" He says no'; walk in a New York park."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "America 2026 page (S12, 2026-09-14) opened: all three quotes present, attributed 'he tells Father Martin'. Page excerpts only; full audio not heard."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; 'In the house' and lawyer/doctor/business line are in S06."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "S06 ~00:37:16–00:37:43: 'making money… pay rent… my first couple of movies he started to come a bit closer'; Esquire (S30): 'As his son's career took off, Richard became more supportive'."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "VF (S31) verbatim."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "qualified",
+      "reason": "Captions (S13) re-pulled: lines verbatim at ~08:35–09:47, but captions carry no speaker labels; Garfield is the speaker by context. The article discloses this and flags the comic format."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "S06 ~00:32:06–00:33:55: just finished Spider-Man, 'gajillion people… We don't like your soul', 'theater tribe'; Maron names Death of a Salesman. S20: Broadway debut as Biff, 2012."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "Esquire (S30) verbatim: 'Wait—now you want to hang?', therapist, 'hash things out', Richard's Hollywood dreams, 'culmination…', 'cautionary tale…'; Maron (S06 ~00:37:43) 'a disowned dream of being a screenwriter'."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "Theory statement flagged 'in the theory'; factual base is C83."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "S05 ~00:34:30–00:35:14 verbatim including the self-correction. Time-sensitive trigger present."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "S20: We Live in Time (2024), After the Hunt (2025), The Magic Faraway Tree (2026); S21: The Uprising (2026)."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "Openly stated limit of the argument; consistent with medium confidence."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "qualified",
+      "reason": "'he's the guy you want taking care of you' verified (S06 ~00:40:40), but the same passage has 'well, fuck this' and 'my father is obsessed with my brother', which read as comparison; the envy test omits them (see verifier finding)."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "Follows from C30's 'my longing is back for it'; trigger present."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "S05 ~00:15:35–00:16:14 verbatim ('my ego was holding on… the ocean the greater opponent to just hold me under')."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "W Magazine (S08) opened: cat-or-dog answer verbatim."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "Collider (S14) opened: Pugh quote verbatim."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "Interpretation supported by S06 (accepting the death) and S05 (grief as route to closeness)."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "People/Yahoo timeline (S15) opened: August 2011 Teen Vogue quote verbatim; S20 confirms they began dating during production in 2011."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "Brief labeled interpretation; grounded in the run-toward-pain evidence (S05)."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "Advocate (S10) verbatim: 'My only longing is to serve…' (July 2017)."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "Theory claim plus S06 anger at his mother's not taking care of herself (verified)."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "S01 quote verified; the wing is explicitly left open."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "Same as C40, in the FAQ."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "Colbert (Nov 2021, tick, tick... BOOM!), Cooper (Oct 2024, 'comes out this week'), Elmo (Sesame Workshop upload during the We Live in Time rollout; grief content verified), America 2017 during Silence release. Chicken Shop Date correctly removed (no grief content in captions)."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "The costly behaviors are sourced: S01 (year of Exercises; mattered more than the film), S30 (two sports quit in rebellion; father repair)."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "Concession plus dated span 2017 to 2024 matches the cited grief sources."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "S20: sequels scrapped after the Sony–Marvel deal, role taken by Tom Holland in a reboot; S30 corroborates The Amazing Spider-Man 3 shelved."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "qualified",
+      "reason": "BuzzFeed (S09) opened via WebFetch: the TheWrap sentence continues ', but I kept framing it as a game'; the article closes the quote at 'liar.' and drops the clause (see verifier finding). 'weirdly enjoyable' and 'thrilling, actually' verbatim."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "VF (S31) verbatim."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "S20: 'closure' with the character; S09: Variety quote 'kind of sold me on the whole thing' verbatim."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "Advocate (S10) opened: Q&A tied to the London production; reflection on his 'right' to play Prior Walter; RuPaul Sundays; both quotes verbatim. Unresolved trigger present."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "S10: 'Many alleged that Garfield was belittling…'; Lang compared it to gay-baiting; 'Straight actors, please stop this nonsense'; Newsbeat reply, 'love letter', 'I dive in as fully as I possibly can' verbatim."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "Labeled neutral interpretation that includes his own account."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "S05 ~00:17:47 verbatim."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "Wikipedia infobox: {{Birth date and age|1983|8|20}}."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Wikipedia infobox: birth_place = Los Angeles, California, U.S."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "S03 (Nov 2021, Late Show) and S20/S05 (Lynn, pancreatic cancer, 2019)."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "S06 ('just before she was about to die') and S31 ('since the dawn of time'); paraphrase faithful."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "Attributed self-report ('says') resting on S30 'there is more'; 'wasn't special' from S06/S31. Anticipatory grief, before the death, still counts as grief."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "S30 (angry, therapy, hashed it out); the FAQ paraphrase is faithful."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Opened 2026-10-04 (HTTP 200). Verified: 'Films were really my church' caption; Ophelia/Globe and 'Vincent' busker passage; not-enough-ness paragraph; 'hidden life' paragraph; 'grief of living' completion; 'falling in love with Jesus Christ'; year/40 pounds/celibate/'would've been fine' closing passage."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Colbert captions re-pulled via youtube-transcript-api ~04:01–06:52; oEmbed title and channel (The Late Show with Stephen Colbert) confirmed."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Sesame Workshop captions re-pulled (~00:22–01:33); grief content ('makes me feel close to her when I miss her') confirmed; oEmbed title confirmed."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "podscripts transcript opened; episode description (CNN, 2024-10-08); ~00:08:28, ~00:09:10–00:10:52, ~00:15:35–00:16:14, ~00:17:14–00:18:29, ~00:24:33–00:26:07, ~00:34:30–00:35:14. Auto-transcript; audio not checked."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "podscripts transcript opened; ~00:27:14–00:28:17, ~00:32:06–00:33:55, ~00:35:18, ~00:37:16–00:37:43, ~00:40:40–00:43:10, ~00:46:32, ~01:28:18–01:30:24. Auto-transcript; audio not checked."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Yahoo/People relay opened: Russian coach, 'this is not a childhood', 'first rebellion', Truman Show 'there is more'."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "W Magazine opened: 'Are you more like a cat or a dog?' Q&A."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "curl returned 406; opened via WebFetch 2026-10-04: dated 2022-01-10, Leyla Mohammed; TheWrap and Variety quote blocks."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Advocate opened (Daniel Reynolds, 2017-07-18): Q&A remarks, criticism paragraph, BBC Newsbeat response."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "E! Online opened (Apr 27, 2022; updated Apr 28): Variety 'Just be ordinary for a while'; The View 'I'm just having a holiday'."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "America podcast page opened (Maggi Van Dorn, 2026-09-14): quoted excerpts 'have to be more than we are', 'mask or the persona… prison', 'free myself into my ordinariness'. Full audio not heard."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Captions re-pulled (276 segments); Oscar exchange ~08:19–09:56. No speaker labels; no grief content."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Collider opened: Pugh interview quote block ('Whatever he did, I would receive…')."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Yahoo/People timeline opened: August 2011 Teen Vogue quote."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CBS News opened: 'year-and-a-half' and 'everything I do is in dedication to her' passage."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "curl returned 406; opened via WebFetch 2026-10-04: Sam Lansky, 2017-01-12; Scorsese 'anybody wants work' quote."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Irish News opened: silent retreat in Wales with Adam Driver; St Beuno's Jesuit Retreat House named."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "NBC News opened: Colbert 'heal — sew up the wounds' quote; Variety Sept 2021 'left nothing unsaid'."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia API extract plus wikitext section 0 (2026-10-04): infobox birth date/place; Early life (Epsom, age three, Guildford swimming coach, Jewish); Career (Spider-Man sequels scrapped/Holland; Death of a Salesman 2012; Angels/Tony; No Way Home 'closure'; 2024–2026 films; Artificial); Personal life ('agnostic pantheist'; Stone 2011; Lynn's death during Tammy Faye, flew home)."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia API extract: lead (Greengrass; US release 10 September 2026)."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia API extract (title 'Artificial (2026 film)'): lead (Guadagnino; Sam Altman; NYFF 2026-10-05; US release 2026-12-25)."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Know Your Archetypes opened: 'What personality type is Andrew Garfield?' section (INFP, Enneagram Type 9)."
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Yahoo UK/BANG Showbiz opened: Vanity Fair quote paragraph."
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Esquire original opened (2024): early-life/gymnastics/swimming passage; father passage ('now you want to hang?', therapist, Hollywood dreams, Death of a Salesman); park scene; 2017 pre-Oscars Fox lot party (Jack Black); Spider-Man 3 shelved."
+    },
+    {
+      "source_id": "S31",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Vanity Fair original opened (2022-02-17): dek; opening paragraph (Fire Island ocean while preparing to film tick, tick... BOOM!); 2021 performances; Spider-Man secrecy; Maguire paragraph."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Verified in candidate: no 'defense, not an apology' or community verdict; quotes 'a love letter to the LGBTQ community' and 'I dive in as fully as I possibly can' (checked against S10); criticism attributed to 'many LGBT people on Twitter' and Lang via the Advocate's summary; neutral section lead; C25/C51 unresolved with triggers."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Chicken Shop Date is gone from the promotional-window list; I re-pulled S13 and found no grief content. C38 lists Colbert, Cooper, Elmo, each of which I confirmed discusses his mother."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Description now attributes ('says he grew up feeling there had to be more'), based on print S30; 'enraged' appears once, in the body only, with the arts/lawyer-doctor context; suicide aside removed; the hinge now says the anger had that target."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "'at the time' kept in both father characterizations; 'just like my father' removed (grep 0); father/brother material attributed to Garfield or Esquire."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "No 'reputation' or 'rarely traveled' (grep 0); the hook uses the line's plain reading, and the upload title is confirmed by oEmbed."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "'self-erasing', 'fought it', 'wanted her to stop' all absent; his words used; Two discriminator rephrased accurately to S06."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "'illusion' now appears only inside the VF quote with its original referent; sentence ends with his 'I'm not alone in it' (S06 verified)."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "Loose-ends sentence removed; ambition line carries his correction (S05 verified); no 'commercial' or privacy line (grep 0)."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Tammy Faye/tick, tick... BOOM! timing stated and linked to Wikipedia (verified in S20); 'gets back to work' gone; intense 2021 work conceded via VF; C63/C71/C96 added."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Jewish identity and 'agnostic pantheist' stated and linked (S20 verified); Jesus line quoted (S01 verified) with 'He has not described a conversion'; the blessing now has context."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Father's swim coaching named and linked (S30 verified); the father portrait keeps 'at the time' (the test's second option). The disowned-dream line is attributed to Maron under the transcript note and its substance corroborated by S30."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Sequels scrapped and Holland reboot stated (S20 verified); Holland quote cut; Garfield's 'closure' and 'sold me' used (S20/S09 verified); theater-tribe passage names Death of a Salesman (2012)."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Stone identified as co-star and then-girlfriend; full quote used (S15 verified) and weighed against a merging Nine."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Pair removed from loose ends and reconciled once with 'We all told her every day' (S03 verified); 'rarely traveled' gone."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "No reputation claim; misreading framed as the line's plain sense taken alone."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Exchange order matches S13 captions (he asks, she says 'maybe'); comic format flagged; punchline dropped; used only as Three evidence."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Context quoted next to 'enraged' (S06 verified); arc reframed with two kinds of 'more' and a continuity paragraph; 'arrives late'/'came later' absent; description and Type 9 FAQ no longer use the gloss."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Timing stated; discriminator no longer rests on 'gets back to work'; continuous work conceded; 'most telling' gone; 'I ran towards it' sits with the ocean story (S05 ~00:17:47 verified)."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Father-came-closer (S06/S30 verified) and 'my longing is back for it' (S13) added with caveats; a paragraph states the image reading of quitting at 12, the theater move and the on-camera disappointment, and none is used against Three."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Nine case opens with anger burial/merging, tsunami (S06) and ego (S05), both verified; answered with sourced observations (C93, C27, C12); stereotype lines gone (grep 0); remaining generalizations marked 'in the theory'; falsifier named; Miranda removed."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Paragraph admits that the 2017 interview was Silence promotion; 'not tied to a release' gone; rebuttal rests on costly behavior; concedes that publicity can't be ruled out for any single interview; 'nine years' replaced with 2017 to 2024."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Lead rests on the upload title and the plain reading; 'rarely traveled' removed."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Harmonization kept with the 'We all told her every day' support; pair absent from loose ends."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "'awakening' line and the Advocate's gay-baiting summary added (S10 verified); Newsbeat response kept; explicit 'neutral on type' sentence."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Superlatives reduced to two ('firmest early evidence', 'most distinctive thing'); 'hinge', 'most telling', 'strongest single' gone; Nine asides cut to clauses; 'Collaborators' gone. Length remains above the 2,000–3,500 target but within limits; the test did not set a length."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Recast as the line's plain reading; no reputation claim."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Section opens 'A Four who decides he isn't special seems to contradict the type' and closes 'Does it break… No, but it doesn't prove it either'; ordinariness paragraph reordered from 2017."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Pair handled once."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Ophelia scene resolves with the 'Vincent' busker and 'if you don't you're going to die' (S01 verified); casting kept neutral."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Holland quote cut; context and Garfield's own words used."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Transcript note describes Chicken Shop Date as 'a deadpan comedy interview series' at first mention; father line cut; caption caveat moved to the note."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Types 4, 3, 9 and 2 each get a one-clause definition; wings defined in the body and the FAQ. Small residue: 'a strong Three wing' appears one paragraph before the wing definition. Acceptable."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Three is ranked the strongest alternative in the type answer, the section title, FAQs and type_hypothesis (alternative_type 3). Core type unchanged; all six reviewers had tested both alternatives, so this is not a new unreviewed risk."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "'nothing to do with a role' removed; role-prep and Jesuit-framework limits stated; 'what I have to offer is never enough' quoted and labeled Three-compatible; the remedy argued next."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Hinge rewritten with the arts/lawyer-doctor context; 'Anger alone doesn't rule out a Nine'; the discriminator now rests on what he did with the anger (S06 'who am I?', S01 inward search). The Nine section does not say in so many words that overlooked-child stories are also Nine origins, as the resolution claims, but the type section and FAQ implicitly concede the shared origin and put the discriminator in his response. The test is substantially met."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "'Three usually gets back to work' and 'most telling' removed; concedes grief behaviors are common; ties the habit to the 2017 'grief of living'."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Acute-grief Nine contrast removed in both places; 'portrait more than proof'; falsifier named. The record-absence wording has a small tension (verifier minor finding) but satisfies the test's 'or says the record lacks it' route."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "States plainly that the record can't cleanly separate a vulnerability-forward Three from a 4w3; names the deciding criterion with sourced choices (S01, S30); confidence medium; the 4w3 note uses the same criterion."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Envy test added (C87) with a stated effect on confidence; Seven clause added; stock 'something essential is missing' wording gone. The envy test's handling of the brother passage is incomplete (verifier minor finding), but the test was met."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "Equanimity paragraph gone (grep 0); Nine and Three readings of the ordinariness arc named."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Sentence tense-neutral ('His 2026 films include'); 'As of'/'premieres' absent; Artificial link uses the current title (S22 verified); C36 trigger present."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Full Oscar exchange included with caveats (S13 verified); ambition rebuttal dated 'in 2024'; C19/C30/C106 time_sensitive with 2027 triggers; a sentence covers the foreseeable awards campaign."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Option (b): hook/description/FAQ rest on print Esquire wording; 'enraged' only in the body under the transcript note; Esquire and VF originals cited and opened (S30, S31). Audio check of 'enraged' remains an open, disclosed research task."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Span is now 'from 2017 to 2024', matching the cited grief sources; C38/C80 updated."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "2026 quote removed from the hook and framed as 'The most recent instance'; the hook survives the deletion test; C49 has a trigger."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "'earlier readings' gone from body and FAQ (grep 0)."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "C25/C51 unresolved with triggers; C34 time_sensitive; 'a lung doctor by then'; 'nominated twice by then'."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "Garfield doesn't describe refusing to heal. He describes walking toward the pain on purpose, because that is where he still finds his mother.",
+      "preserved": true,
+      "reason": "Present verbatim in paragraph 2."
+    },
+    {
+      "passage": "Read together, the grief he describes is not regret over things left unsaid. It is love that outlived the person it was for.",
+      "preserved": true,
+      "reason": "Present verbatim; now backed by the verified 'We all told her every day'."
+    },
+    {
+      "passage": "A tidy Four story would have him tormented by the pretense. The record shows a man who hated it and enjoyed it.",
+      "preserved": true,
+      "reason": "Present verbatim in 'What the type doesn't settle'."
+    },
+    {
+      "passage": "Publicity explains when he talks about grief. It doesn't explain why he describes it in the same terms across nine years.",
+      "preserved": true,
+      "reason": "Rewritten. It keeps the timing-versus-content contrast in two sentences and corrects the span to 2017–2024, which matches the sources. 'Nine years' had overstated the grief record."
+    },
+    {
+      "passage": "He has kept working, through _We Live in Time_, _After the Hunt_, _The Magic Faraway Tree_ and _The Uprising_, so what changed, by his account, is why he works.",
+      "preserved": true,
+      "reason": "Present verbatim, now after the dated 2024 self-report."
+    },
+    {
+      "passage": "And my mom goes right up to him and grabs him by the lapels. And she says, it was me. It was all me.",
+      "preserved": true,
+      "reason": "Present verbatim (S05 verified; Esquire corroborates)."
+    },
+    {
+      "passage": "Many grieving people feel their loss is unique; fewer describe the feeling so exactly and then call it an illusion.",
+      "preserved": true,
+      "reason": "Changed to fix a misattribution: he never called the feeling an illusion. The insight survives with his verified words 'I'm not alone in it'."
+    },
+    {
+      "passage": "For someone who once raged that ordinary life might be everything, the deepest thing he has felt turned out to be the most ordinary thing there is.",
+      "preserved": true,
+      "reason": "The inversion and the ending's payoff are kept. The object of the rage is corrected to 'his small suburban world', matching S06."
+    },
+    {
+      "passage": "He gave two answers in one breath.",
+      "preserved": true,
+      "reason": "Present verbatim as the opening structure."
+    },
+    {
+      "passage": "That was grief about the world, not a bereavement, and it came more than two years before his mother died.",
+      "preserved": true,
+      "reason": "Present verbatim; the repaired discriminators build on it."
+    },
+    {
+      "passage": "A Two tends to idealize that kind of giving. Garfield loved her for it and wanted her to stop.",
+      "preserved": true,
+      "reason": "The crisp Two discriminator is kept and now matches his words ('angry that his mother wouldn't take better care of herself', S06). 'Wanted her to stop' had overstated his account."
+    },
+    {
+      "passage": "He gave two answers in one breath. The first became the clip that followed him: \"I hope this grief stays with me because it's the unexpressed love that I never got to tell her.\" The second rarely traveled with it.",
+      "preserved": true,
+      "reason": "First two sentences and the quote kept verbatim. The unsupported 'rarely traveled' was replaced with the verified upload-title fact; curiosity and orientation remain."
+    },
+    {
+      "passage": "Shortly before his mother died, he told Maron, he was staying with a friend on Fire Island, carrying \"this fucking pain that I couldn't move.\"",
+      "preserved": true,
+      "reason": "Present verbatim; VF original corroborates the scene."
+    },
+    {
+      "passage": "\"And my mom goes right up to him and grabs him by the lapels. And she says, it was me. It was all me.\"",
+      "preserved": true,
+      "reason": "Present verbatim, with quotation marks."
+    },
+    {
+      "passage": "The record shows a man who hated it and enjoyed it.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "This profile leaves the wing open.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "What he brought to the retreat is the strongest single piece of evidence for the Four reading, because it came years before his mother's death and had nothing to do with a role.",
+      "preserved": true,
+      "reason": "Rewritten as 'the Four reading's firmest early evidence, with two limits'. The false 'nothing to do with a role' is gone (S01 shows role preparation), and the pre-bereavement anchoring is kept."
+    },
+    {
+      "passage": "This is the most distinctive thing in Garfield's record. Many grieving people feel their loss is unique; fewer describe the feeling so exactly and then call it an illusion.",
+      "preserved": true,
+      "reason": "First sentence kept verbatim; second keeps the insight with his own words instead of the misattributed 'illusion'."
+    },
+    {
+      "passage": "Quotations from Marc Maron's _WTF_ (2022) and Anderson Cooper's _All There Is_ (2024) come from automated transcripts; where print coverage carries the same story, this profile cites it.",
+      "preserved": true,
+      "reason": "Present verbatim, plus a Chicken Shop Date caption note."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.6,
+      "passage": "Shortly before his mother died, he told Maron, he was staying with a friend on Fire Island, carrying \"this fucking pain that I couldn't move.\"",
+      "reason": "I opened all 25 cited sources this session. Every direct quote in the body matched its source text. Load-bearing stories have independent print corroboration (the ocean in VF 2022, Maron 2022 and Cooper 2024; the father material in Esquire and Maron). Transcript and caption provenance is disclosed at the point of use, and inference is labeled locally ('this suggests', 'in the theory', 'portrait more than proof'). Held below 9 by five minor fidelity slips (verifier-01 to -05) and by Maron/Cooper/Chicken Shop lines that rest on auto-transcripts not checked against audio."
+    },
+    "enneagram": {
+      "score": 8.2,
+      "passage": "None of this cleanly separates a Three who shows his vulnerability from a Four with a strong Three wing. What tips it, modestly, is which motive wins when image and inner truth collide: retreat over applause in 2017, a reckoning with his father over love that came with success.",
+      "reason": "The motive argument runs on repeated, costly, dated choices: quitting two sports against his father's values, the year of Exercises he ranks above the film, the angry reckoning and therapy over love that followed success, and feeling turned up from 2017 to 2024. The Three case gets its strongest items from his own mouth, and the Nine case gets the tsunami and ego-surrender material. Both meet sourced discriminators, and falsifiers are named. It is honest that 3 versus 4w3 can't be cleanly split, hence medium confidence. Held near 8 because the discriminators are modest and the envy test is incomplete (verifier-05)."
+    },
+    "originality": {
+      "score": 8.7,
+      "passage": "For someone who once raged at the idea that his small suburban world might be everything, the deepest thing he has felt turned out to be the most ordinary thing there is.",
+      "reason": "The organizing insight could only be written about Garfield: a boy who needed life to hold 'more' finds it in the most ordinary loss, and draws 'I'm not alone in it' from the ocean. It rests on specific, surprising, verified details (the Jack Black lapels, the 'Vincent' busker, the two kinds of 'more', 'now you want to hang?'). Unresolved contradictions are kept (enjoying and hating the Spider-Man lie). Little reusable type boilerplate remains."
+    },
+    "writing": {
+      "score": 8.2,
+      "passage": "Read together, the grief he describes is not regret over things left unsaid. It is love that outlived the person it was for.",
+      "reason": "Prose is precise and varied, sections develop rather than restate, and the ending returns to the hook without summarizing. The repaired sections read cleanly. Held down by length (4,452 words against a 2,000–3,500 target) and by density in 'The case for Type 3, and for Type 9', which handles Three, Nine, Seven, Two, wings and the brand explanation in sequence."
+    },
+    "durability": {
+      "score": 8.8,
+      "passage": "The most recent instance came in September 2026.",
+      "reason": "The argument rests on dated 2017–2024 evidence. The 2026 podcast is framed as the latest instance and can be deleted without breaking the hook or thesis. The film sentence is tense-neutral, and time-sensitive claims (C19, C30, C34, C36, C49, C106) and the unresolved 2017 controversy (C25, C51) carry concrete triggers. The foreseeable Artificial awards run is addressed in advance."
+    },
+    "hook": {
+      "score": 8.6,
+      "passage": "He gave two answers in one breath. The first became the clip that followed him: \"I hope this grief stays with me because it's the unexpressed love that I never got to tell her.\" The show titled its upload with that line.",
+      "reason": "Specific, dated and sourced (S03 captions and the oEmbed title verified). It raises a real question, what the clip left out, which the article answers in the next paragraph and pays off at the end. It no longer leans on an unsourced reputation claim."
+    },
+    "discoverability": {
+      "score": 8.4,
+      "passage": "## What is Andrew Garfield's personality type?\n\nAndrew Garfield most likely fits Enneagram Type 4, the Individualist, at medium confidence.",
+      "reason": "Clear type heading with a sub-60-word answer. The meta title (59 characters) and description (attributed, within length) match the body. Six substantive FAQs mirror the body's ranking and wording, with anchors to real sections. Internal links go to four type pages and eight published people pages (all confirmed published: true), and the suggestions are published related profiles. Keywords are accurate. Modest deduction: no link to a wings explainer, though the FAQ explains wings."
+    }
+  }
+}

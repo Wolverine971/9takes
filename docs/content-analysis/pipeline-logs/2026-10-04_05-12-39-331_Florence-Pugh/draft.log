@@ -1,0 +1,19 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session fc3fccd4-52aa-4d21-8ba7-2a031f87f56e to write outputs
+The draft stage for Florence Pugh is done. I wrote `draft.md` and `evidence-draft.json` in the run folder, and both pass the pipeline's own checks: no draft blockers, and every claim's quoted passage matches the article exactly. Nothing else in the repo was changed, and the profile is unpublished (`published: false`).
+
+**The profile:** 3,862 words, typing her as a 7 at medium confidence, with 8 as the main rival and 2 as a live third reading. The opening is a sourced moment. She spent about three months imagining her family's funerals for *Midsommar*, then went almost straight to *Little Women* and called it "the best therapy." Six years later she said she'd set the grief aside and was depressed by Christmas. The article argues her pattern is "the thrill first, the cost later." The case for 8 gets a full section, and Type 2 gets a direct "why not" section.
+
+**I checked the key quotes against print coverage before writing.** These are the Theroux podcast lines that carry the 7-versus-8 argument, which the research stage had only from a machine transcript.
+- **Confirmed in print:** the *Little Women* "shelved" passage (Variety and TheWrap), the on-set retakes story (wire copy), and the core people-pleasing lines (Daily Times). One line comes from Theroux's official YouTube clip: "I've always been able to make sure that I'm heard."
+- **A wording problem:** the machine transcript has her saying she needed to be "upbeat for everybody else." The print version says "good for everybody else." The draft quotes the print wording and doesn't build on "upbeat."
+- **Still unchecked:** the "people pleaser… paddling for dear life" sentence exists only in the machine transcript. The article flags this openly. It's listed as the first research task: check the audio before the edit stage keeps the line, or drop it.
+
+**Calls I made for you to veto:**
+- **Cornell case:** included, but only Pugh's own statements, with the case described as pending and some of the accused denying wrongdoing. It must be rechecked before publication.
+- ***Don't Worry Darling*:** covered carefully. The article says the reports rested on anonymous sources, Olivia Wilde has denied a screaming match, and Pugh has never told her side. It also has an FAQ entry, because it's a heavily searched question.
+- **Left out on purpose:** two of the news reports I used to check quotes also report abuse and self-injury in an unnamed past relationship. None of that is in the article, and the partner is never linked to Zach Braff.
+
+Risk flags carried over from research send this to the six-reviewer panel.
+
+Separately, several connectors (Ahrefs, Slack, GitHub and others) need authorizing in your connector settings, and the Supabase connector failed to connect. None of them were needed for this stage.

@@ -1,0 +1,20 @@
+I wrote the five-year durability review for Andrew Garfield to `docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/review-future.json`. It passes the pipeline's review schema, its quoted passages match the draft word for word, and I copied the hashes from the request. Nothing else was changed or published.
+
+**Verdict: the Type 4 argument holds up over five years.** The key evidence runs from 2017 to 2024, and the strongest piece is a 2017 interview from before his mother died. The argument still works if you take out the September 2026 podcast and the October 2026 film news. The ending doesn't depend on anything recent.
+
+**Major findings (3):**
+- **future-01:** The sentence "As of October 2026… *Artificial*, which premieres at the New York Film Festival on October 5, 2026" will be out of date tomorrow, almost certainly before this publishes. It needs wording that stays true after that date. The Sam Altman link should stay.
+- **future-02:** The case against Type 3 is the part most likely to age badly. *Artificial* comes out in the US on December 25, 2026, which puts him in the 2027 awards season. The draft also leaves out lines from that same Chicken Shop Date exchange: "I guess maybe I should give up on that dream" and "my longing is back for it." Including them would make it clear the Oscar pull isn't purely in his past. There's also no reminder in the evidence file to recheck this section after the awards.
+- **future-03:** The word "enraged" is the main thing separating Type 4 from Type 9 in this draft, and it also appears in the opening, the meta description and an FAQ. It comes from one automatic transcript on a third-party site, which nobody has checked against the audio. The *Esquire* and *Vanity Fair* backups are only linked through Yahoo reposts, which tend to disappear.
+
+**Minor findings (4):**
+- "Across nine years" should be about seven; the grief quotes run 2017–2024.
+- The opening frames a three-week-old podcast as where his story ends.
+- "Earlier readings called him a 4w5" really refers to the old version of this page, which readers can't see.
+- Only one of the draft's 59 claims has a reminder to recheck it later. Examples that need one: "a defense, not an apology" on the *Angels in America* remarks, his awards count, and "his brother, now a lung doctor."
+
+The similarity check flagged a shared phrase with the Kacey Musgraves page, but it's the standard Type 4 definition, so I didn't count it as a finding. I kept the three risk flags already in the evidence file (sensitive allegations, contested typing, major thesis change).
+
+**One thing for you at publish:** the page's `date` and `lastmod` say June 9, 2026, but it cites September 2026 sources. The editor won't touch those fields and you manage `lastmod` yourself, so that's yours to fix when you publish.
+
+Separately, several connected tools need sign-in (GitHub, Slack, Ahrefs and others) via claude.ai connector settings or `/mcp`, and Supabase failed to connect this session. None of them were needed for this review.
