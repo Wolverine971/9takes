@@ -1,0 +1,86 @@
+{
+	"schema_version": 3,
+	"role": "enneagram",
+	"content_sha256": "f4a028dd458ec2c3de0c23dafae2772e104f2f36584dca681598c66ee79954af",
+	"evidence_sha256": "ac0520571b28254ff63ae802d83250e7827b800eecc755bf30346a415ee36701",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "enneagram-01",
+			"severity": "major",
+			"passage": "Druski ranks himself against other people and names failure as the outcome he refused to accept.",
+			"problem": "The type section says \"Ambition alone can't show that,\" then makes rank-seeking the deciding test. Wanting to be top is Eight-compatible. An Eight wants to dominate the field too. In the DOAC monologue (publisher VTT 00:56:18-00:57:49), \"number one\" comes with \"you still got to keep pushing... because somebody's chasing... somebody's on the way.\" Billboard's \"outdo the guy... trying to outdo me\" frames rivalry the same way. Neither separates Three from Eight. The failure stake rests on one 2026 answer, yet the next sentence says it \"holds in sources years apart\"; only the rank material spans years. FAQ 2 ends \"his drive for rank carries the call,\" so the FAQs repeat the same non-discriminating test. The record does contain a real discriminator, and the intro already names it (\"He cared about the verdict\"): his sense of worth depends on other people's verdict. Examples: he polled classmates and demanded reasons when he lost (00:30:18-00:30:44). He reported follower counts to his mother, saying \"I have people watching\" (00:47:51). He felt \"not deserving enough\" at Georgia Southern (00:24:33). He wanted the gatekeepers to \"see what I was capable of.\" Outside DOAC, TIME has the TMZ and \"local celebrity\" details and Billboard has \"that kind of reach.\" The emotion at his low point is shame, not anger.",
+			"acceptance_test": "The type section and both type FAQs name the deciding test as his dependence on other people's verdict (being ranked, watched and seen as capable), cite at least one non-DOAC instance, and say outright that wanting to be \"number one\" or to \"outdo\" rivals also fits an Eight. No sentence presents rank or \"drive for rank\" alone as what decides the call. The \"years apart\" sentence attributes cross-year support only to the elements that actually span years, and says the failure stake comes from a single 2026 answer."
+		},
+		{
+			"id": "enneagram-02",
+			"severity": "major",
+			"passage": "He defends a picture of himself as good-hearted, and an Eight ignoring critics beneath notice would owe them no account of his intentions.",
+			"problem": "This sentence is the article's reply to the strongest Eight evidence, and its logic doesn't hold. The good-intent statements answer interviewers' direct questions. He did not offer them to critics. On DOAC, \"I've never punched down... always come from a good hearted place\" answers Bartlett's question about his brand-safety \"decision framework\" (VTT 01:14:31-01:15:08). The Rolling Stone, CBS and TIME lines are also interview answers. Anyone asked on air whether his comedy punches down, an Eight included, will talk about intent, so the observation doesn't separate the types. The companion line in the apologies section, \"An Eight would more likely have taken on Cruz. He hasn't.\", assumes a stereotyped Eight who answers every critic. Eights tend to fight what threatens their control, and a senator's statement doesn't threaten his. Reviving the NASCAR look in July 2026 after Kirk referenced the sketches, plus the \"AM I CANCELLED?\" taunt, is itself a nonverbal counterpunch. The Cruz silence is also argued twice, in the whiteface and apologies sections. That gives a leg the type section calls only \"supporting\" more weight than the article says it has.",
+			"acceptance_test": "The whiteface section describes the good-intent defense as answers to interviewers' direct questions. It removes or qualifies \"would owe them no account of his intentions\". \"An Eight would more likely have taken on Cruz\" is removed or reworded so it no longer assumes an Eight answers every critic. The Cruz silence is argued in one place only. Every passage that uses the criticism leg calls it secondary, and none says it weakens the Eight reading without naming its limits right there."
+		},
+		{
+			"id": "enneagram-03",
+			"severity": "major",
+			"passage": "An Eight builds his own company so that nobody can control him. Druski describes building his so that the companies that said no would see what he could do.",
+			"problem": "This is the Three-over-Eight contrast for the self-funding, and it reads one clean motive out of a sentence that supports two. Druski's full line (VTT 01:27:07-01:27:22) is \"I'm going to show them by doing it myself and having them wanting what I did in reverse.\" Making the gatekeepers come to him reverses the power relationship, which is a natural Eight reading. His words also include \"see what I was capable of,\" which fits the Three. The paragraph then settles it: \"The motive shows in what he says the ownership was for.\" FAQ 2 cuts the quote further to \"Maybe they'll see what I was capable of doing,\" dropping both the reversal clause and his own hedge (\"maybe they don't want that\"). That FAQ is the page's most visible answer to \"Why isn't Druski a Type 8?\" Bartlett's question was about betting on yourself, which also frames the answer as self-reliance.",
+			"acceptance_test": "The self-funding paragraph says \"in reverse\" also reads as leverage, which fits an Eight. It replaces \"The motive shows\" with hedged wording (e.g., his words lean toward being seen). FAQ 2 either keeps the reversal half of the sentence or stops presenting the \"see what I was capable of\" fragment as evidence that settles the question."
+		},
+		{
+			"id": "enneagram-04",
+			"severity": "minor",
+			"passage": "A child who comforts a sibling after a beating could become a Two, a Six or a Nine, and he says the house taught him to \"read a room and sense any type of danger,\" which sounds like a Six's vigilance.",
+			"problem": "The list leaves out Seven. Yet the behavior just described, being \"the funny guy, maybe at the dinner after\" to \"lift everybody's vibe up,\" is a classic Seven move: lighten the pain away. The article concedes Seven lightness elsewhere. The quote is also cut where it turns. The next sentence on tape is \"I can read a room and sense any type of happiness, sadness, anything\" (VTT 00:12:06-00:12:09). In full, he is describing broad emotional attunement, which fits Two or Three audience-reading as well as Six danger-scanning. The cut quote makes the line sound more specifically like Six vigilance than it is.",
+			"acceptance_test": "Seven appears among the types the childhood mood-lifting could fit. The room-reading line either includes or paraphrases its continuation (\"happiness, sadness, anything\") or stops calling it specifically a Six's vigilance."
+		},
+		{
+			"id": "enneagram-05",
+			"severity": "minor",
+			"passage": "Type 8, the boss he plays on camera, is the strongest alternative.",
+			"problem": "The 60-word answer describes the Eight alternative by his on-screen character. That suggests readers who type him Eight are mistaking the character for the man. The article's own serious Eight evidence is off-camera. He paid for his shows after Netflix, Amazon and Hulu said no. He refused to pitch them again and insisted on creative control. He has never retracted the whiteface sketches and revived the look after the backlash. He moved for sanctions. He says \"once I get too close, I can't trust it.\" A reader who stops at the answer box gets a strawman of the alternative the page later argues seriously.",
+			"acceptance_test": "The answer paragraph describes the Eight alternative through at least one off-camera behavior, e.g., self-funding without going back to the companies that refused him, or sketches never retracted, and stays at most 60 words."
+		},
+		{
+			"id": "enneagram-06",
+			"severity": "minor",
+			"passage": "On Diary of a CEO, Druski describes his choices in terms of image, rank and reinvention.",
+			"problem": "\"Image\" in both quotes that follow is brand vocabulary. The cameo passage turns on not wanting to \"dilute the whole brand\" (VTT 01:32:43-01:33:07). The heavyset line is about joining Chris Farley and Jack Black as \"heavyset legends\" (01:34:27-01:34:55). Every creator who depends on brand deals talks this way, and his word \"image\" is not the Enneagram's image triad. The evidence that counts here is a costly choice: he turned down paid cameos (\"a quick $2,000\") to protect his trajectory. The professional-incentive caveat sits three sections later in the unexplained list.",
+			"acceptance_test": "The section frames the cameo refusal as a costly choice: he gave up paid work. It says at the point of use that \"image\" is his brand language and that brand incentives explain part of this. The heavyset line is either dropped as type evidence or labeled as persona curation any brand-reliant comedian practices."
+		},
+		{
+			"id": "enneagram-07",
+			"severity": "minor",
+			"passage": "He finds it \"soothing to be in a chaos situation of work.\"",
+			"problem": "This line sits in the Three evidence, but the quote stops before \"and juggling multiple projects at once\" (VTT 00:54:53-00:55:02). Finding stimulation and juggling soothing is at least as typical of a Seven, and so is \"Fulfilled? No, not yet. Happy? I'm very happy.\" The paragraph gives no sign that this evidence cuts both ways. The page separates Three from Seven only through the rank test, which has the problem described in enneagram-01.",
+			"acceptance_test": "The rest paragraph, or the unexplained section's Seven passage, notes that the restless multi-project pace fits a Seven as well as a Three. Any Three reading of this paragraph rests on the verdict-and-rank material, not on the workload alone."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "The kid running a private poll points somewhere else. He cared about the verdict, and he wanted to win it.",
+			"reason": "This states the Three-over-Eight discriminator in its sharpest and most defensible form: worth decided by other people's verdict, not by rank or control. The type section should match it (see enneagram-01)."
+		},
+		{
+			"passage": "An Eight could aim a vow at doubters too, and the list items were Bartlett's prompts. The telling part is the stake he volunteered: whether he would see himself as a failure.",
+			"reason": "Honest limit-setting about prompted material. \"Volunteered\" checks out against the transcript: Bartlett's question was open (\"what did you actually mean?\", VTT 00:53:02), and Druski supplied the failure stake himself (00:53:27)."
+		},
+		{
+			"passage": "The biggest gap is still the whiteface. Playing white characters is an old, well-rewarded bit for him, so the willingness needs no explaining. The escalation does: full makeup, a sketch widely read as one recently widowed woman, and a July 2026 return to the look after she appeared to call it out on air. Maybe views are his scoreboard, but that is a guess; an Eight who refuses to be cowed explains the return more directly.",
+			"reason": "It concedes that the largest repeated costly choice fits the alternative better, and it refuses to use a wing, arrow or subtype to explain it away. This is the honesty that justifies medium rather than high confidence."
+		},
+		{
+			"passage": "Even the forgiveness is framed as forward motion: \"I cannot look for more success and look for the light at the end of the tunnel without forgiving any and everything in my past.\"",
+			"reason": "A specific, verified link between motive and behavior (VTT 00:13:45). Even an intimate act is described in terms of achievement. The detail belongs to Druski and couldn't be reused as Type 3 boilerplate."
+		},
+		{
+			"passage": "The Three reading is the best fit for what he says he wants. It is not a full account of the man.",
+			"reason": "Calibrated confidence that matches the evidence. Grounding the call in self-reported aims rather than in the whole personality is the correct inference limit for a contested typing."
+		}
+	],
+	"assessment": "Three over Eight at medium confidence is defensible. The draft is unusually honest: it claims no wing, arrow or subtype, it gives the Eight case at full strength, and it leaves the whiteface escalation, the self-roast and the survivor's armor unexplained instead of absorbing them. The weak point is the stated discriminators, which are softer than written. Rank-seeking does not separate Three from Eight. The good-intent defense was given to interviewers who asked, so it says nothing about how an Eight treats critics. The self-funding quote supports leverage as well as being seen. What does separate Three from Eight in this record is that his worth depends on other people's verdict: the classroom poll, follower counts, \"not deserving enough,\" \"see what I was capable of,\" and the shame rather than anger at his lowest point. That evidence exists across 2020-2026 sources but is used only in the hook. Sharpening the type section, the answer box and the FAQs around it (enneagram-01 to -03) is what would let the Enneagram dimension clear 8. The largest repeated costly choice, the escalating and revived whiteface, still favors Eight, so confidence should stay medium. I opened the DOAC publisher transcript (rss.flightcast.com VTT) and checked the context of the number-one monologue, failure line, brand-safety answer, show-them line, image passages, room-reading, forgiveness and survivor lines. I did not reopen Rolling Stone, CBS, Billboard or TIME. The similarity check did not trip (max 0.083, at the noise-floor maximum). The top matches are generic. The one near-template sentence (\"organized around being seen as successful and worth something\" against Qualley's \"organize a life around being worth something\") is ordinary type vocabulary, not reused argument. Risks: sensitive allegations (the Combs suit, the child on stream, the father's violence, the suicide vow, self-reported scams), contested typing, and a major thesis change (the live page argues Eight; per the research tasks, DJ must approve the change before publication). Keep the expanded jury."
+}

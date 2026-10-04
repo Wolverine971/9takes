@@ -1,0 +1,20 @@
+I finished the Druski repair and wrote all three outputs to the run folder: `repair.md`, `evidence-repair.json` and `resolution-repair.json`. The live draft is untouched and nothing was published. Only the runner's independent re-verify can clear the "revise" status.
+
+The three fixes the verifier asked for:
+
+- **The second half no longer re-argues the type call.** The body went from 4,390 to 3,994 words, under the 4,000 limit. The cuts came from repeated Type 8 vs. Type 3 rulings and filler lead-in sentences. No quote, scene, dated status line or fact an FAQ depends on was cut.
+  - **Brand caveat:** the "he sells to brands" point now appears in full once, at the turned-down $2,000 cameos, plus a two-word mention ("brand caution") in the apologies section.
+  - **Whiteface and apologies:** the whiteface section now just tells what happened, with no type ruling, and the apologies section has one. The rulings I took out moved into "What the Type 3 reading leaves unexplained," so none of the argument was lost.
+- **Stray citation removed.** The Complex article about Jack Harlow and Druski's nutritionist is out. Every remaining citation is now either linked in the article or backs a recorded claim.
+- **T.J. Ward is now "former NFL player,"** which is what the sources say.
+
+The pipeline's own checks pass: the draft check finds no blockers, the evidence record matches the new text, and the resolution file is valid. When I ran the pipeline's release check with a stand-in "pass" verdict, nothing else blocked it.
+
+Three calls you can veto:
+- **I dropped the footer disclaimer** ("This analysis… is speculative"). None of the other new-workflow people drafts have one, and the article hedges as it goes ("most likely," "medium confidence," "not a full account of the man"). It's easy to put back, but it costs 25 of the 6 words of slack under the limit.
+- **I removed the "note on sources" footer.** Its key point, that transcripts disagree just before "perceive myself as a failure," now sits inline next to that quote, with a link to the podcast's transcript.
+- **I trimmed a few small details that aren't quotes:** where Charlie Kirk was shot (the date and link stay), "about six months earlier," and "in Statesboro."
+
+You still need to approve changing the live page from Type 8 to Type 3 before this publishes.
+
+Supabase failed to connect this session, and Slack, GitHub, Ahrefs and the other connectors still need authorizing in your connector settings. None of that affected this stage.

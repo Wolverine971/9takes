@@ -36,13 +36,14 @@ async function loadDraftList(): Promise<DraftListItem[]> {
 	return posts;
 }
 
-export const load: PageServerLoad = async () => {
+export const load: PageServerLoad = async ({ parent }) => {
 	draftsPromise ??= loadDraftList().catch((err) => {
 		draftsPromise = null;
 		throw err;
 	});
 
-	return {
-		drafts: await draftsPromise
-	};
+	// The admin layout is the guard. Crafted __data.json requests can skip layout loads;
+	// awaiting parent() forces it to run, so non-admins get its redirect, not the list.
+	const [, drafts] = await Promise.all([parent(), draftsPromise]);
+	return { drafts };
 };

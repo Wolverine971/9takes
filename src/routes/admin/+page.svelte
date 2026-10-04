@@ -196,7 +196,8 @@
 		expanded[key] = !expanded[key];
 	};
 
-	// Notes opened here this visit; the server's viewedAt catches up after the badge refresh.
+	// Notes opened here this visit. The badge refresh doesn't re-run this page's load, so
+	// these stay the source of truth for Seen until the next navigation.
 	let seenHere = $state<Record<string, boolean>>({});
 	const noteState = (note: TalkNotePreview) => {
 		if (note.status === 'replied') return 'replied';
@@ -209,12 +210,26 @@
 		toggleExpanded(key);
 		if (expanded[key] && noteState(note) === 'new') {
 			seenHere[note.id] = true;
-			void markTalkNotesViewed([note.id]);
+			// A failed save shows New again, so expanding the note retries it.
+			void markTalkNotesViewed([note.id]).then((saved) => {
+				if (!saved) delete seenHere[note.id];
+			});
 		}
 	};
 
 	let waitlistEntries = $derived((data.coachingWaitlistUsers ?? []).slice(0, 6));
 	let talkNoteEntries = $derived(data.talkNotes?.latest ?? []);
+	// The badge refresh re-runs only the admin layout, not this page's load, so the card's
+	// count also subtracts notes opened here that the server still has as unseen.
+	let unseenNotes = $derived(
+		Math.max(
+			0,
+			(data.talkNotes?.unseenCount ?? 0) -
+				talkNoteEntries.filter(
+					(note) => note.status === 'new' && !note.viewedAt && seenHere[note.id]
+				).length
+		)
+	);
 	let recentUsers = $derived((data.recentSignups ?? []).slice(0, 8));
 	let recentEmailSignups = $derived((data.recentEmailSignups ?? []).slice(0, 8));
 	let recentUnsubscribes = $derived((data.recentUnsubscribes ?? []).slice(0, 6));
@@ -346,9 +361,9 @@
 				<header class="card-head">
 					<h3 class="card-title">Talk to DJ notes</h3>
 					{#if data.talkNotes}
-						<span class="card-count" class:attention={data.talkNotes.unseenCount > 0}>
-							{data.talkNotes.unseenCount > 0
-								? `${formatCount(data.talkNotes.unseenCount)} new`
+						<span class="card-count" class:attention={unseenNotes > 0}>
+							{unseenNotes > 0
+								? `${formatCount(unseenNotes)} new`
 								: `${formatCount(data.talkNotes.newCount)} open`}
 						</span>
 					{/if}

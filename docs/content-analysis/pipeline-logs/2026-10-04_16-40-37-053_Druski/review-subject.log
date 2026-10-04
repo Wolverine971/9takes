@@ -1,0 +1,19 @@
+The subject (fairness) review for the Druski refresh is done and written to `docs/content-analysis/pipeline-logs/2026-10-04_16-40-37-053_Druski/review-subject.json`. It passes the contract's `reviewSchema` check, and every quoted passage matches the frozen draft exactly. I didn't modify any other files or publish anything.
+
+**Overall:** the draft is mostly fair to Druski. It keeps what he said apart from the author's interpretation. It keeps his credit to his father and his forgiveness, and his clarification next to the suicide remark. It leaves out his brother's diagnoses and the child's name, and labels its own guesses as guesses. Every Diary of a CEO quote I checked matches the publisher's transcript.
+
+**Three major findings.** Each leaves out something on the record that cuts against the page's reading of him, and each affects the Type 8 vs Type 3 argument about how he handles criticism:
+1. **Diddy lawsuit.** The draft says the judge "denied" his sanctions motion. The same August 2025 order also told the plaintiffs' lawyers to explain why they shouldn't be sanctioned for still pressing the claims after seeing his phone and bank records. The FAQ also never says he denied the allegation.
+2. **July 2026 whiteface clip.** The draft reads it as defiance after Erika Kirk's on-air remark. The article it cites (Complex) describes a Fourth of July post of the NASCAR character, apparently from a BET Awards promo shoot with Chris Rock. It wasn't the Kirk character, and no source connects it to her.
+3. **His own concessions are missing.** On CBS Mornings in February 2026 he said "sometimes you could go too far" and "even if it does seem that I crossed the line." The draft calls his defense unchanged for years and treats the Kai Cenat stream as the obvious counterexample.
+
+**Five minor findings:**
+- He apologized on the stream twice, and Cenat defended the apology publicly.
+- The 2022 sketch's supporters praised it for calling out predatory behavior; the draft drops that.
+- "Once I get too close, I can't trust it" was about romantic relationships.
+- The "harder question" about the Kirk sketch is the author's unattributed verdict. The Nation, which the draft cites, argues the other side.
+- Naming his father's employer makes a private person easier to identify.
+
+All four risk flags stay as set: sensitive allegations, contested typing and the Type 8 → 3 change are true; historical source uncertainty is false. So the six-reviewer panel remains required.
+
+**Limits:** time.com blocked direct fetches (HTTP 406), so I checked the TIME September 30 quotes against the research stage's saved copy. The CBS quotes were checked against YouTube captions, not the audio. The similarity check wasn't tripped and found no meaningful reuse from other profiles.

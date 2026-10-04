@@ -1,7 +1,6 @@
 <!-- src/routes/admin/analytics/+page.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { invalidate } from '$app/navigation';
 	import type { PageData } from './$types';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 	import LineChart from '$lib/components/charts/LineChart.svelte';
@@ -425,8 +424,9 @@
 
 	let { data }: { data: PageData } = $props();
 
-	// Must match PAGEVIEWS_DEPENDENCY in +page.server.ts.
-	const PAGEVIEWS_DEPENDENCY = 'admin:analytics-pageviews';
+	// A stream cut off mid-flight (function timeout, dropped connection) never settles its
+	// promises, so a section waits at most this long before fetching its endpoint itself.
+	const STREAM_TIMEOUT_MS = 20_000;
 
 	// Default-view payloads the server load streams on data requests. Each resolves to what its
 	// /api/admin/analytics endpoint returns, or null when the server query failed.
@@ -1795,7 +1795,16 @@
 		streamed: Promise<T | null> | undefined,
 		request: () => Promise<T>
 	): Promise<T> {
-		const seeded = streamed ? await streamed.catch(() => null) : null;
+		let timer: ReturnType<typeof setTimeout> | undefined;
+		const seeded = streamed
+			? await Promise.race([
+					streamed.catch(() => null),
+					new Promise<null>((resolve) => {
+						timer = setTimeout(() => resolve(null), STREAM_TIMEOUT_MS);
+					})
+				])
+			: null;
+		clearTimeout(timer);
 		return seeded ?? request();
 	}
 
@@ -2709,31 +2718,15 @@
 	}
 
 	function getStreamedPageviews(): StreamedPageviews {
-		// A client-side navigation arrives with the default view already streaming.
-		if (data.initialOverview) {
-			return {
-				overview: data.initialOverview,
-				pages: data.initialPages ?? undefined,
-				topPages: data.initialTopPages ?? undefined,
-				trending: data.initialTrending ?? undefined
-			};
-		}
-
-		// A full page load arrives without it (csp hash mode can't run streamed inline scripts;
-		// see +page.server.ts). Re-run the load over __data.json, where it streams, and hand each
-		// section its promise. A failed re-run resolves null, so every section fetches its endpoint.
-		const reloaded = invalidate(PAGEVIEWS_DEPENDENCY).then(
-			() => data,
-			(err) => {
-				console.error('Analytics pageview reload error:', err);
-				return null;
-			}
-		);
+		// A client-side navigation arrives with the default view already streaming. A full page
+		// load arrives without it (csp hash mode can't run streamed inline scripts; see
+		// +page.server.ts), so every section fetches its endpoint.
+		if (!data.initialOverview) return {};
 		return {
-			overview: reloaded.then((next) => next?.initialOverview ?? null),
-			pages: reloaded.then((next) => next?.initialPages ?? null),
-			topPages: reloaded.then((next) => next?.initialTopPages ?? null),
-			trending: reloaded.then((next) => next?.initialTrending ?? null)
+			overview: data.initialOverview,
+			pages: data.initialPages ?? undefined,
+			topPages: data.initialTopPages ?? undefined,
+			trending: data.initialTrending ?? undefined
 		};
 	}
 

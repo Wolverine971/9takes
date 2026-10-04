@@ -1,16 +1,33 @@
 <!-- src/routes/admin/consulting/notes/+page.svelte -->
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import TalkNoteCard from '$lib/components/admin/TalkNoteCard.svelte';
 	import { markTalkNotesViewed } from '$lib/admin/talkNotesViewed';
 	import type { ActionData, PageData } from './$types';
 
 	let { data, form }: { data: PageData; form: ActionData } = $props();
 
-	// Everything on screen counts as read. Done after render rather than in the load so a
-	// hover preload can't mark notes seen; cards keep their "New" badge for this visit.
-	onMount(() => {
-		void markTalkNotesViewed(data.notes.filter((note) => !note.viewedAt).map((note) => note.id));
+	// Everything on screen counts as read once the tab is actually visible. This runs after
+	// render, never in the load, so a preload can't mark notes seen. It re-runs whenever the
+	// list changes: switching tabs (same component, no remount) or the refresh after a reply.
+	const markedIds = new Set<string>();
+	$effect(() => {
+		const unseen = data.notes
+			.filter((note) => !note.viewedAt && !markedIds.has(note.id))
+			.map((note) => note.id);
+		if (unseen.length === 0) return;
+
+		const markWhenVisible = () => {
+			if (document.visibilityState !== 'visible') return;
+			document.removeEventListener('visibilitychange', markWhenVisible);
+			for (const id of unseen) markedIds.add(id);
+			void markTalkNotesViewed(unseen).then((saved) => {
+				// Let the next list change retry.
+				if (!saved) for (const id of unseen) markedIds.delete(id);
+			});
+		};
+		document.addEventListener('visibilitychange', markWhenVisible);
+		markWhenVisible();
+		return () => document.removeEventListener('visibilitychange', markWhenVisible);
 	});
 
 	const views = [

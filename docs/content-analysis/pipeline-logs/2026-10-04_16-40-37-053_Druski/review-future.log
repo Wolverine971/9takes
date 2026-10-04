@@ -1,0 +1,20 @@
+I wrote the future-role review to `docs/content-analysis/pipeline-logs/2026-10-04_16-40-37-053_Druski/review-future.json`. It passes the review schema, and every quoted passage matches the draft exactly. No other files were changed and nothing was published.
+
+**Verdict:** the Druski draft mostly holds up over five years, except for one weak point. Dates are absolute, changing facts are dated and tracked, the opening is backed by a 2020 GQ interview, and the ending is a forecast in his own words that readers can check later. But the switch from Type 8 to Type 3 rests heavily on one week of press: the September 24, 2026 Diary of a CEO episode and TIME's piece six days later. 15 of the 32 claims supporting the type come only from those two sources.
+
+**Two major findings:**
+- **future-01:** The 60-word type answer says he describes the same drive "in interviews six years apart," including "number one" and "a failure." Only the childhood ranking contest is actually in both. The "failure" line, which the page calls "the telling part," comes from a single 2026 interview, and the transcripts disagree on its wording. The fix is to say which evidence comes from before September 2026.
+- **future-02:** The "paying for it himself" section says Druski funded his shows so the companies that rejected him would see what he could do. That comes only from the 2026 interview. His July 2025 AfroTech interview, which is already in the evidence record, gives the opposite reason: "we can do this by ourselves... We don't need to have anybody else." Without the 2026 interview, this part of the argument points to Type 8.
+
+**Five minor findings:**
+- FAQ 2 says he "never retracted" the whiteface sketches without a date, and that claim isn't flagged for re-checking.
+- Lines like "He hasn't" (taken on Cruz) and "hasn't changed in years" need "as of" dates.
+- The CTE sketch has no absolute date; it should read August 2026.
+- Two evidence entries need their re-check reminders fixed: one for the ending's forecast, and one for the T.J. Ward paragraph, whose reminder still describes the paragraph as removed.
+- The FAQ about his father is tied to one podcast episode; it should be reworded so it still works after future interviews.
+
+I kept all the risk flags from the evidence record. The similarity check didn't find anything; the closest matches were standard Enneagram wording.
+
+The two content hashes in the review were copied from the request file as instructed. They don't match a plain hash of the files on disk, presumably because the pipeline normalizes the files before hashing.
+
+The Type 8→3 change still needs your explicit approval before publication, per the evidence record. These two major findings bear directly on that call.

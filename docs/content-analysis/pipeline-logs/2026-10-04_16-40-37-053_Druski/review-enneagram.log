@@ -1,0 +1,27 @@
+I wrote the Enneagram review for the Druski refresh to `docs/content-analysis/pipeline-logs/2026-10-04_16-40-37-053_Druski/review-enneagram.json`. It passes the review schema check, and every quoted passage matches the draft exactly. No other files were changed and nothing was published.
+
+**Verdict:** calling Druski a Three over an Eight at medium confidence holds up. The draft is honest about its gaps and doesn't lean on wings or arrows. The problem is that the reasons it gives for choosing Three over Eight are weaker than the text claims.
+
+**Findings (3 major, 4 minor):**
+- **Major, the deciding test is "rank":** wanting to be number one fits an Eight too. The full transcript has "somebody's chasing… somebody's on the way" right after "number one." What actually separates Three from Eight is that his sense of worth depends on other people's verdict:
+  - polling classmates on who was funniest
+  - telling his mother his follower counts: "I have people watching"
+  - feeling "not deserving enough" at college
+  - wanting the companies that said no to "see what I was capable of"
+
+  The draft makes this point only in the opening ("He cared about the verdict").
+- **Major, the "good-intent defense" argument:** his "from a good place" lines were answers to interviewers' direct questions (Bartlett's brand-safety question, Rolling Stone, CBS, TIME), not replies to critics. So "an Eight would owe them no account" doesn't separate the types. The point about Cruz assumes an Eight would answer every critic, and it's argued twice.
+- **Major, the self-funding quote:** "having them wanting what I did in reverse" also reads as turning the power around, which fits an Eight. FAQ 2 drops that half of the sentence.
+- **Minor:**
+  - The childhood list of other possible types leaves out Seven, and the "read a room" quote stops before "happiness, sadness, anything."
+  - The answer box describes the Eight alternative as the boss character he plays on camera, but the real Eight evidence is his off-camera choices.
+  - The "I'm thinking about my image" section treats his brand language as if it were Enneagram image language.
+  - "Soothing… chaos" is cut before "juggling multiple projects," which fits a Seven as well.
+
+I also marked five passages for the editor to keep, including the "He cared about the verdict" line and the honest admission about the whiteface gap.
+
+**Risk flags:** sensitive allegations, contested typing, and a major thesis change, so the expanded six-reviewer jury should stay. The live page argues Type 8, so you need to approve the 8-to-3 change before this publishes.
+
+**What I checked:** I opened the Diary of a CEO transcript and checked each key quote in context with timestamps. I did not reopen Rolling Stone, CBS, Billboard or TIME. The similarity check didn't flag anything; the closest match was one generic Type 3 definition sentence shared with the Qualley page.
+
+**Connection note:** the Supabase server failed to connect this session. Several other servers (Ahrefs, Figma, Slack and others) need to be authorized through your claude.ai connector settings or `/mcp` before they'll work. This stage didn't need any of them.

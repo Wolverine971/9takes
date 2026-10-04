@@ -220,7 +220,6 @@ describe('/admin/analytics page server load', () => {
 
 		const result = (await load(event)) as any;
 
-		expect(event.depends).toHaveBeenCalledWith('admin:analytics-pageviews');
 		expect(event.parent).toHaveBeenCalledTimes(1);
 		expect(supabase.rpc).not.toHaveBeenCalled();
 		expect(result).toMatchObject({

@@ -1,0 +1,86 @@
+{
+	"schema_version": 3,
+	"role": "unfamiliar",
+	"content_sha256": "f4a028dd458ec2c3de0c23dafae2772e104f2f36584dca681598c66ee79954af",
+	"evidence_sha256": "ac0520571b28254ff63ae802d83250e7827b800eecc755bf30346a415ee36701",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "unfamiliar-01",
+			"severity": "major",
+			"passage": "If the evidence stopped here, Eight would be a fair call.",
+			"problem": "The back half runs as anecdote, then type ruling, again and again. The body names Eight or Type 8 16 times, and 7 of 11 H2 sections end on an Eight-versus-Three verdict: the type section, the house, \"Or die trying\" (\"The telling part is the stake he volunteered\"), the boss section (this line), the ownership section (\"The motive shows in what he says the ownership was for\"), the apologies section (\"anyone would fight a sexual-assault accusation\") and the unexplained section. Each ruling tests a different piece of evidence, so this is not pure repetition. But a newcomer feels a courtroom rhythm, not a person coming into focus, and it is the main reason the piece feels long: 4,321 words against a 2,000–3,500 target and a 4,500 ceiling. The whiteface (~620 words) and apologies (~520) sections carry most of the drag.",
+			"acceptance_test": "The Eight case appears at full strength once, next to the ownership discriminator. The narrative sections (\"Or die trying\", the house, whiteface, apologies) carry at most one Eight/Three comparison sentence each, and no more than four H2 sections end on a type verdict. Counterevidence cut from those sections moves to \"What the Type 3 reading leaves unexplained\" or the type section; it is not dropped. After all accepted additions the body is at or under 4,000 words (draft-checks count). Cuts come from repeated adjudication, not from scenes, quotes, or facts the FAQs depend on (the whiteface non-apology, the Parham dismissal, the father-response check)."
+		},
+		{
+			"id": "unfamiliar-02",
+			"severity": "minor",
+			"passage": "The rule is fitted after the fact, and the silences have plainer explanations: slurs, legal exposure, brand caution.",
+			"problem": "The apologies section opens by stating a rule: he repairs inside his own room and stays quiet outside it. It then calls the CTE answer counter to \"this page's reading,\" admits the rule is post hoc, and ends the paragraph on \"An Eight would more likely have taken on Cruz. He hasn't.\" After ~520 words a newcomer can't say what the section established. The Jaxon Smith-Njigba anecdote, a repair, sits inside the counterexample paragraph between the Mafiathon stream and the CTE sketch, and he is never identified. A reader can't tell whether it is a repair, a slight, or the setup for the concussion sketch.",
+			"acceptance_test": "The section states once, near the top, what the record shows (named repairs, named non-apologies, one factual accusation fought) and the limit of that pattern, then runs the cases in a clear order: repairs together, then non-apologies. Smith-Njigba is identified as an NFL player in a clause and grouped with the repairs. The section no longer both asserts and retracts its rule. A cold reader can state its takeaway in one sentence, and the CTE counterevidence and the plainer explanations (slurs, legal exposure, brand caution) are still present."
+		},
+		{
+			"id": "unfamiliar-03",
+			"severity": "minor",
+			"passage": "When Druski answers critics at all, he mostly defends his image: the jokes come \"from a good place,\" and the backlash was really reach.",
+			"problem": "The type section, the passage a newcomer reads most closely, relies on evidence they haven't met yet. \"The backlash\" and \"the jokes\" point to the whiteface sketches about 1,800 words later. The paragraph then lists three reasons the test fails (an Eight can ignore critics, lawyers and brands, the Seven reframe) and adds a Seven aside. So the answer section ends in hedges, not on the rank discriminator the reader was just given. The test comes back in full in the whiteface and apologies sections, so the newcomer meets it twice: first in the abstract, then with evidence.",
+			"acceptance_test": "The type section ends on the rank discriminator, or on one concrete limit of it, rather than a stack of caveats. The criticism test either moves to the whiteface/apologies material where its evidence lives, leaving at most a one-sentence pointer in the type section, or names the specific backlash (the 2025 NASCAR whiteface sketch) in the same sentence. The Seven alternative is still addressed somewhere in the article."
+		},
+		{
+			"id": "unfamiliar-04",
+			"severity": "minor",
+			"passage": "a parody widely read as Erika Kirk",
+			"problem": "Several names go unexplained where they first appear. In the hook, Erika Kirk appears with no identification. A reader who doesn't follow US politics, or anyone reading in 2031, won't know who she is or why the sketch was provocative until the whiteface section, about 2,500 words later. Smaller cases: \"Kai Cenat's Mafiathon 2 livestream\" (what Mafiathon is), \"Jaxon Smith-Njigba\" (who he is), and \"in a question left by a previous guest\" (the Diary of a CEO convention isn't explained, so the sentence reads as garbled).",
+			"acceptance_test": "Erika Kirk is identified at first mention in 10 words or fewer (e.g., Charlie Kirk's widow and Turning Point USA's CEO, per the claims already in the record). Mafiathon 2, Smith-Njigba and the previous-guest question each get a clause the evidence supports. No added gloss repeats context the reader already has at that point."
+		},
+		{
+			"id": "unfamiliar-05",
+			"severity": "minor",
+			"passage": "So, he told Bartlett, \"instead of going and buying a car or another house or maybe a nice jewelry and all this stuff, I'm going to invest in myself.\"",
+			"problem": "The self-funding story carries the central discriminator, yet the reader never learns what Netflix, Amazon and Hulu turned down or what he paid for. The hook says only \"his shows,\" and \"It paid\" jumps straight to Forbes earnings. The record's own Essence source (S-ESS) names Coulda Been House (58 million views across eight episodes) and Coulda Been Love (80 million across seven). Those figures would make the story concrete, and views are the scoreboard the Three reading proposes. The section's thesis is that he built it so the companies that passed would \"see what I was capable of doing.\" That raises a question the article never answers: did they come back?",
+			"acceptance_test": "At first or second mention, the article names at least one self-funded series and gives one sourced audience figure, checked against the reopened Essence article. It says whether any company that passed later bid or partnered, or states that the opened record doesn't show it. The unresolved \"bidding war\" line stays unattributed."
+		},
+		{
+			"id": "unfamiliar-06",
+			"severity": "minor",
+			"passage": "He would be a famous comedian on TV within a year, he told her, and if he wasn't, he would kill himself.",
+			"problem": "The next paragraph spends \"roughly the next year\" on restaurant jobs and scams. The one-year deadline passes with no comedy at all; his first sketch came in October 2017, at 23. The article never remarks on this, yet it then treats the vow as the \"telling\" evidence of his failure stake. An attentive newcomer will notice the gap and wonder what became of the deadline. That question bears on how literally the vow, and the failure stake, should be read.",
+			"acceptance_test": "One sentence acknowledges that the one-year deadline passed before he began posting sketches. It uses his own account if the opened DOAC transcript addresses it, or says the record is silent. It adds no new detail to the suicide statement, and his clarification (\"I knew I wasn't going to kill myself\") stays next to it."
+		},
+		{
+			"id": "unfamiliar-07",
+			"severity": "minor",
+			"passage": "a vow to be number one",
+			"problem": "The description promises \"a vow to be number one,\" but the article has no such vow. Its only vow is the one he made his mother at 21 or 22: to be a famous comedian on TV within a year (later \"comedian or die trying\"). \"I really want to be number one\" is something he said in a 2026 interview. A reader who comes from search expecting one vow finds a different and much darker one.",
+			"acceptance_test": "Every item in the description matches a passage in the body. Either \"number one\" is described as a goal or aspiration, or the vow is described as it appears in the body (without putting the suicide statement in metadata). The description stays within 120–170 characters."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "When the answer wasn't him, he pushed. \"Like, why is Mikey funnier than me? Tell me why.\"",
+			"reason": "The hook: a child running a secret poll and demanding reasons. A newcomer is curious in two sentences, the scene is fully sourced, and it sets up the article's question without any type jargon."
+		},
+		{
+			"passage": "Filming sketches around his mother's house, he gave her follower counts. Had he made any money? \"No but I have people watching.\"",
+			"reason": "The most compact Three-reading detail in the piece: audience over income, in his words, at the moment before he had either. It teaches the thesis better than any of the type paragraphs."
+		},
+		{
+			"passage": "Bartlett saw it live: after some 700 interviews, he said, Druski was one of the first guests to stop mid-answer and say, \"You look like you had something to say there, Steve.\"",
+			"reason": "A surprising, observed detail from a third party, honestly used as evidence for a different type (Six vigilance), not bent to fit the thesis. It is the person exceeding the typology."
+		},
+		{
+			"passage": "An Eight builds his own company so that nobody can control him. Druski describes building his so that the companies that said no would see what he could do.",
+			"reason": "The clearest moment for an unfamiliar reader to grasp the Eight/Three distinction: two short sentences, the same act, two motives, tied to his own quote. Keep this even if the surrounding adjudication is consolidated."
+		},
+		{
+			"passage": "The boy who tried to cheer his brother up after the beatings now plays the man holding the belt, as a bit.",
+			"reason": "The ending lands without explaining itself. It connects the childhood section to the Joe Jackson sketch through his own \"I've seen it before,\" and leaves the reader with an unresolved image instead of a verdict."
+		}
+	],
+	"assessment": "For a reader who has never heard of Druski, the opening works. The classroom poll creates curiosity, paragraph four gives orientation (sketch comic, Coulda Been Records, 4Lifers, BET host, TIME100), and the Eight-versus-Three question is a clear promise. The first half has real stakes and momentum: the house, the lost semester, the vow, the robbery and the goals list. A newcomer finishes knowing who he is, how he rose, what he has said about his family, what the whiteface fights were about, and why a Three reading is plausible but unproven. The back half sags. Seven of 11 sections close on a type ruling, the whiteface and apologies sections run ~1,140 words with a dozen named people, and the apologies section argues for a rule and then disowns it (unfamiliar-01, -02). Smaller orientation gaps: Erika Kirk is unexplained in the hook, the self-funded shows are never named, the vow's lapsed deadline goes unremarked, and the description invents a \"vow to be number one.\" The honesty about limits is a strength; the fix is consolidation, not more hedging. Risks: I agree with the evidence record on sensitive allegations (domestic violence, the suicide statement, the Parham suit, the Mafiathon child), contested typing, and a major thesis change from the live page's Type 8. The similarity diagnostic did not trip (max 0.083, no shared phrases except \"worth someth\" in a Type 3 definition), and I found no reused argument. The matches are ordinary type vocabulary."
+}

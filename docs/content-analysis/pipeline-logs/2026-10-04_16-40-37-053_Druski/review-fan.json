@@ -1,0 +1,86 @@
+{
+	"schema_version": 3,
+	"role": "fan",
+	"content_sha256": "f4a028dd458ec2c3de0c23dafae2772e104f2f36584dca681598c66ee79954af",
+	"evidence_sha256": "ac0520571b28254ff63ae802d83250e7827b800eecc755bf30346a415ee36701",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "fan-01",
+			"severity": "major",
+			"passage": "It paid. [Forbes](https://www.forbes.com/profile/drew-desbordes-druski/) put his creator earnings at $10 million in 2023 and $20 million on its 2026 Top Creators list.",
+			"problem": "The self-funding story stops before its payoff, and any follower of his 2025-26 career would notice. The page tells readers that Netflix, Amazon and Hulu said no, and that he built his own shows so they would 'see what I was capable of doing.' It never says they came back. In the same DOAC answer the draft quotes (publisher VTT around 01:26:00-01:27:15), just before 'not by coming back and doubling back,' he says: 'Now they want to purchase these shows that we've made and do more in the future.' At 01:47 he adds 'We just got a movie picked up by Netflix.' TIME (September 30, 2026, opened) reports that Collect & Praise 'has since been snapped up by Netflix' and that Livestream From Hell, with Kevin Hart and Kai Cenat, 'drops on Prime Video at the end of September.' Billboard (December 2025) reports that Netflix greenlit a series based on his airport skits. Collect & Praise comes from his January 2026 megachurch-pastor sketch, which is also missing from the page. Druski calls that sketch 'huge' on DOAC. The pastor it was linked to, Michael Todd, called it 'hilarious' and estimated 'a few hundred million views' (Complex, January 2026, in the evidence record). The page also never names the self-funded shows themselves (Coulda Been House, Coulda Been Love; Essence counted 58M and 80M views in October 2025). The omission is consequential because his stated aim was for the gatekeepers to come back. That outcome is observable, and the page tests his motive without it. It also leaves the misleading impression that he stands outside the companies he now sells to.",
+			"acceptance_test": "The self-funding section names at least one self-funded show. It states, with dates and links, that by September 2026 Netflix had picked up Collect & Praise (TIME, September 30, 2026) and that his film Livestream From Hell was on Prime Video. Any quote of 'Now they want to purchase these shows' comes from the DOAC transcript; 'So now it's a bidding war' stays unattributed because its speaker is unresolved. The section says in one or two sentences how this outcome bears on the Eight-vs-Three reading: the 'see what I was capable of' motive was rewarded, and he sold to the companies he had refused to re-pitch. At minimum, the megachurch sketch is identified as the source of Collect & Praise. Any status line is dated so it can be refreshed."
+		},
+		{
+			"id": "fan-02",
+			"severity": "major",
+			"passage": "Now the Type 8 case at full strength. \"We don't need anybody to tell us we can be on that TV show, or to kiss up to somebody to try to get in that door,\" he told Rolling Stone in 2024.",
+			"problem": "Kevin Hart was Druski's mentor and is now his co-star; the draft mentions him only as an idol and a comparison point. The Rolling Stone 2024 piece the draft quotes as the Eight case 'at full strength' is framed around Hart (its headline is 'How Druski Learned to Stop Being a Bitch'). I reopened the article. It opens: 'WHEN KEVIN HART tells you to \"stop being a bitch,\" you listen.' Hart told him 'Do the hard work, do the stand-up'; Druski says 'I didn't have a love for it'; and 'With Hart's counsel, he set out on a 30-plus-stop tour.' The same article says he had held 'opening slots for Lil Baby and J. Cole.' On Club Shay Shay (January 2023, in the evidence record as S-SHAY), he recalled Hart telling him he needed 'to go and do your own thing.' Asked whether he was afraid to go out on his own, he said, 'you could say that.' So the independence the draft presents as the Eight's strongest evidence was coached by a mentor, and he had admitted being afraid to strike out alone a year earlier. That is formative context. It also bears directly on the alternative-type test: it cuts against a native Eight drive for autonomy and fits a climber taking direction from the star he wants to match (the 'modern-day Kevin Hart' pitch). It does not by itself prove Type 3.",
+			"acceptance_test": "The career narrative or the Eight-case section includes Hart's 'stop being a bitch' push, attributed and linked (Rolling Stone, February 2024). It also includes Druski's 2023 Club Shay Shay admission ('you could say that' to fearing going out on his own), stated as caption-transcribed and not over-quoted. The Eight-vs-Three discussion weighs this in one or two sentences without claiming it settles the type. Optionally, mention Hart's later collaborations (Mafiathon 2, November 2024; Livestream From Hell, 2026) so readers understand the relationship."
+		},
+		{
+			"id": "fan-03",
+			"severity": "minor",
+			"passage": "Druski ranks himself against other people and names failure as the outcome he refused to accept.",
+			"problem": "The deciding test slightly overstates how he ranks himself. The same paragraph calls the Billboard line 'the rival he told Billboard in December 2025 he wanted to \"outdo,\"' but the quote names no rival. In the evidence record it answers 'What do you think makes a star in 2025?', and the 'guy' is an anonymous competitor somewhere in the world. A fan who knows how he treats peer rivalries would notice what's missing. On The Breakfast Club (February 2024, S-BC24, auto-captions) he said he hates fans 'trying to start beef' between sketch comics, citing the Desi Banks comparisons: 'I hate that... no no no I rock with them.' On DOAC (around 00:58:30-00:59:40) he defines greatness by measuring himself against a pantheon (Eddie Murphy, Kevin Hart, Kobe/Jordan/LeBron) and says: 'just to be in that conversation and to be remembered and to leave a legacy, that's what matters.' His ranking is private, or measured against the all-time greats, while he avoids open rivalry with his peers. That arguably fits an image-conscious Three better than the current wording does. As written, the page implies head-to-head rivalry he disclaims.",
+			"acceptance_test": "The type section no longer calls the Billboard quote 'the rival'; it describes an unnamed competitor (or quotes the line). The rank discriminator is worded as measuring himself against the greats or an abstract field, not against named peers. Either the peer-beef remark is included after an audio check, with the attribution caveat, or the editor records why it does not bear on the test."
+		},
+		{
+			"id": "fan-04",
+			"severity": "minor",
+			"passage": "His mother gave the comedy its first stage. \"She would put on these camcorders to let me be free,\" he said.",
+			"problem": "Every account of his childhood household on the page is Druski's own. The evidence record holds the only other family voice on the record, and the draft does not use it. His mother spoke on air on 2 Bears, 1 Cave (January 2025, S-2B1C, reopened with Whisper on 2026-10-04). She listed karate, weekly piano, a Georgia Tech science camp every year and a second-grade spelling-bee win, and said: 'his discipline is his key and his resilience... He doesn't let things that are negative impact him... He's very good at restarting.' This is formative context: a structured, achievement-heavy childhood. It is independent support for the 'you could have done better' household, and her 'restarting' line bears on the 'How could I be broken' passage the page treats as Eight-leaning armor. The episode URL also appears in the frontmatter citations, but no body passage uses it, so readers cannot see why it is cited.",
+			"acceptance_test": "Either the household section adds one or two attributed sentences from the mother's on-air answer (noting the comic setting and that her name is not spoken on the call), or the 2 Bears, 1 Cave URL is removed from the citations. Every frontmatter citation should correspond to something in the body."
+		},
+		{
+			"id": "fan-05",
+			"severity": "minor",
+			"passage": "Fellow comedian <a href=\"/personality-analysis/theo-von\">Theo Von</a> praised the sketch.",
+			"problem": "Theo Von is not a neutral peer. He co-starred in Druski's 'The Diggers' fake trailer, which AV Club reported in June 2025 had been optioned for a film, two months before the NASCAR sketch. He hosted Druski on This Past Weekend in 2023, and his response teased his own version. Calling him a 'fellow comedian' makes a collaborator's praise read as independent approval.",
+			"acceptance_test": "The sentence identifies Von as a frequent collaborator (for example, 'his Diggers co-star Theo Von'), or the praise is dropped from the reception record."
+		},
+		{
+			"id": "fan-06",
+			"severity": "minor",
+			"passage": "On Diary of a CEO he also described violence at home.",
+			"problem": "The page presents the father material as a September 2026 disclosure, followed by forgiveness and a 'very, very good' relationship. It never mentions that he had already turned his father into material. On This Past Weekend #428 (January 2023, S-THEO428, auto-captions; the evidence record judges the family passage clearly Druski), he described his father as 'a piece of [expletive]' who is 'very funny because he's a dick.' That earlier, harsher, joking account is a revealing contradiction with the 2026 forgiveness framing. It also strengthens the closing Joe Jackson beat: the father was a bit for him at least three years before 'It wasn't hard to rip that belt off.'",
+			"acceptance_test": "After checking the 2023 passage by ear, the editor either adds one attributed sentence noting the earlier joking account (expletives handled per site convention, date given), or records a reason for leaving it out (for example, attribution not confirmed by audio). The forgiveness paragraph must not imply the 2026 account was his first public word on his father."
+		},
+		{
+			"id": "fan-07",
+			"severity": "minor",
+			"passage": "When Bartlett asked whether hosting a tour, hosting an awards show and starring in a major movie were on the list, he said yes to all three.",
+			"problem": "The goals-list arc is left half told. The page later reports the BET Awards as a goal checked off but never says what happened with the other two. With Hart's counsel he headlined a 30-plus-stop tour by early 2024 (Rolling Stone), and Billboard reported a Barclays Center show. For the movie, he was cast in Universal's The Catch with Emma Stone and Chris Pine, due May 21, 2027 (Complex citing Deadline; he confirms the date on DOAC). He plays a supporting role, Stone's security guard, not the lead. The draft's 'the next day he was on a plane' also hides what the plane was for: shooting Collect & Praise, then The Catch (DOAC around 01:01). A fan would want the scorecard he set up, and a reader can't tell which goals are done and which are pending.",
+			"acceptance_test": "The page says, with dates, that the tour goal was met and that the movie goal is in progress with The Catch (May 21, 2027 release, supporting role). It must not call him the star of The Catch. Release-dependent wording is written so it can be refreshed after May 2027."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "When the answer wasn't him, he pushed. \"Like, why is Mikey funnier than me? Tell me why.\"",
+			"reason": "Verified against the DOAC transcript. It is the most specific, revealing detail on the page and an informed fan would not know it. The hook earns the thesis."
+		},
+		{
+			"passage": "Filming sketches around his mother's house, he gave her follower counts. Had he made any money? \"No but I have people watching.\"",
+			"reason": "Matches the transcript, shows the scoreboard instinct in his own words, and is funny. Keep it."
+		},
+		{
+			"passage": "An Eight builds his own company so that nobody can control him. Druski describes building his so that the companies that said no would see what he could do.",
+			"reason": "The clearest statement of the discriminator, and specific to this person. fan-01 asks for its payoff, not for this line to be replaced."
+		},
+		{
+			"passage": "The boy who tried to cheer his brother up after the beatings now plays the man holding the belt, as a bit.",
+			"reason": "Earned by sourced material on both ends. It states the unresolved contradiction plainly without diagnosing him."
+		},
+		{
+			"passage": "It also skips the harder question: whether a sketch titled for a category, but widely read as one identifiable, recently widowed woman, still hits its target. Corbould's argument settles who holds power, not that.",
+			"reason": "Refuses to flatter the subject on the sketch that matters most and is fair to both camps. This is the opposite of fan service and should stay."
+		}
+	],
+	"assessment": "Read as an informed fan, the draft gets the well-known material right and does not flatter. I spot-checked the classroom poll, the follower-count updates, 'thinking about my image,' the United/CDC household line, the 'show them... in reverse' passage and the brand-safety exchange against the DOAC transcript. I checked the 'kiss up' sequence, the 2022 takedown quote and 'from a good place' against Rolling Stone 2024, and the TIME100 Next quotes against TIME; all match. Whiteface, the Mafiathon stream, the scamming year and the CTE shrug are all on the page. The gaps are career context a follower would notice, and two of them bear on the Eight-vs-Three test. First, the self-funding story stops before its payoff: the companies came back (Netflix took Collect & Praise; Prime Video released Livestream From Hell). The megachurch sketch behind Collect & Praise, his biggest 2026 hit, is missing entirely. Second, Kevin Hart's push to go solo and Druski's 2023 admission that he feared doing so are missing, though the Rolling Stone article quoted as the Eight case 'at full strength' is framed around that push. Smaller items: the 'rival' framing of an anonymous competitor, his mother's on-air testimony (cited in the frontmatter but unused), Theo Von presented as a neutral peer, the 2023 joking account of his father, and the goals-list scorecard. Distinctiveness: the similarity advisory did not trip (max 0.083 against a noise-floor max of 0.083). The only shared phrase, 'worth someth[ing]', is ordinary Type 3 vocabulary. Reading the matched pairs confirms no reused arguments, and the portrait is specific to Druski. Risks stay flagged: the live page argues Type 8, the draft argues 3, and the father, Parham and Mafiathon material is sensitive."
+}

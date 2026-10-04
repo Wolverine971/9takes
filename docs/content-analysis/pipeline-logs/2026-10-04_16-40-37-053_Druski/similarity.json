@@ -1,0 +1,199 @@
+{
+  "target": {
+    "person": "druski",
+    "type": "3",
+    "units": 20,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_16-40-37-053_Druski/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9
+    },
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33
+    },
+    {
+      "person": "Tate-McRae",
+      "date": "2026-08-27",
+      "units": 31
+    },
+    {
+      "person": "margaret-qualley",
+      "date": "2026-08-20",
+      "units": 28
+    },
+    {
+      "person": "alexandr-wang",
+      "date": "2026-08-18",
+      "units": 30
+    },
+    {
+      "person": "adela",
+      "date": "2026-08-14",
+      "units": 17
+    },
+    {
+      "person": "michael-jordan",
+      "date": "2026-08-14",
+      "units": 45
+    },
+    {
+      "person": "David-Beckham",
+      "date": "2026-08-12",
+      "units": 33
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 4520,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.008,
+    "max": 0.083
+  },
+  "trip_threshold": 0.04,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "margaret-qualley",
+      "date": "2026-08-20",
+      "units": 28,
+      "maxScore": 0.083
+    },
+    {
+      "person": "michael-jordan",
+      "date": "2026-08-14",
+      "units": 45,
+      "maxScore": 0.079
+    },
+    {
+      "person": "David-Beckham",
+      "date": "2026-08-12",
+      "units": 33,
+      "maxScore": 0.058
+    },
+    {
+      "person": "alexandr-wang",
+      "date": "2026-08-18",
+      "units": 30,
+      "maxScore": 0.045
+    },
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9,
+      "maxScore": 0.029
+    },
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33,
+      "maxScore": 0.023
+    },
+    {
+      "person": "Tate-McRae",
+      "date": "2026-08-27",
+      "units": 31,
+      "maxScore": 0.021
+    },
+    {
+      "person": "adela",
+      "date": "2026-08-14",
+      "units": 17,
+      "maxScore": 0.01
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.083,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] answering a question about brand safety).",
+      "other": "[diagnosis] Josh Horowitz asked Qualley a question about being a second-generation actor and the expectations that come with it."
+    },
+    {
+      "score": 0.079,
+      "other_person": "michael-jordan",
+      "shared_phrases": [],
+      "target": "[diagnosis] But an Eight can also shrug off critics beneath notice",
+      "other": "[diagnosis] But an Eight runs on control and barely registers the audience."
+    },
+    {
+      "score": 0.067,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] the jokes come \"from a good place",
+      "other": "[diagnosis] and so much of the best work comes from a lack of control.\" — Margaret Qualley on Collider Ladies Night"
+    },
+    {
+      "score": 0.058,
+      "other_person": "David-Beckham",
+      "shared_phrases": [],
+      "target": "[diagnosis] An Eight wants to be beyond anyone's control",
+      "other": "[diagnosis] He wanted to be more than a football player.\" — Gary Neville"
+    },
+    {
+      "score": 0.055,
+      "other_person": "David-Beckham",
+      "shared_phrases": [],
+      "target": "[diagnosis] the rival he told Billboard in December 2025 he wanted to \"outdo",
+      "other": "[diagnosis] He wanted to be more than a football player.\" — Gary Neville"
+    },
+    {
+      "score": 0.045,
+      "other_person": "alexandr-wang",
+      "shared_phrases": [],
+      "target": "[diagnosis] the rival he told Billboard in December 2025 he wanted to \"outdo",
+      "other": "[diagnosis] On This Past Weekend in 2025 he told Theo Von"
+    },
+    {
+      "score": 0.034,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [
+        "worth someth"
+      ],
+      "target": "[diagnosis] Type 3 is organized around being seen as successful and worth something.",
+      "other": "[diagnosis] Type 3s organize a life around being worth something"
+    },
+    {
+      "score": 0.031,
+      "other_person": "michael-jordan",
+      "shared_phrases": [],
+      "target": "[diagnosis] An Eight wants to be beyond anyone's control",
+      "other": "[diagnosis] The popular counter-read types him an Eight"
+    },
+    {
+      "score": 0.029,
+      "other_person": "ben-shelton",
+      "shared_phrases": [],
+      "target": "[diagnosis] the jokes come \"from a good place",
+      "other": "[diagnosis] and its reflex is turning pain into a good story."
+    },
+    {
+      "score": 0.029,
+      "other_person": "michael-jordan",
+      "shared_phrases": [],
+      "target": "[diagnosis] An Eight wants to be beyond anyone's control",
+      "other": "[diagnosis] But an Eight runs on control and barely registers the audience."
+    },
+    {
+      "score": 0.029,
+      "other_person": "alexandr-wang",
+      "shared_phrases": [],
+      "target": "[diagnosis] A second test supports the call without settling it",
+      "other": "[counter-typing] Two findings would overturn the call."
+    },
+    {
+      "score": 0.028,
+      "other_person": "michael-jordan",
+      "shared_phrases": [],
+      "target": "[diagnosis] An Eight wants to be beyond anyone's control",
+      "other": "[diagnosis] An Eight torches the sponsor and keeps the conviction."
+    }
+  ]
+}

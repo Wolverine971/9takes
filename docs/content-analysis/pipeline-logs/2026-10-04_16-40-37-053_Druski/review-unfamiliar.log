@@ -1,0 +1,24 @@
+I've written the "unfamiliar reader" review for the Druski draft to `review-unfamiliar.json` in the run folder. It passes the pipeline's review-format check, and every quoted passage matches the draft exactly. I didn't change any other file, read the other reviewers' files, or publish anything.
+
+**Verdict:** someone who has never heard of Druski gets a strong first half and a sagging second half. The opening works: the childhood "who's the funniest?" poll hooks you, and by the fourth paragraph you know who he is. The family, college and "or die trying" sections have real stakes and keep moving.
+
+**The one major finding:** the back half keeps stopping to rule on "Type 8 or Type 3?" Seven of the 11 sections end that way, and the body mentions Eight 16 times. That's also why it feels long: 4,321 words against a 2,000–3,500 target and a 4,500 cap. The fix I asked for:
+- Make the full Type 8 case once, next to the self-funding argument.
+- Keep the other story sections to at most one comparison sentence each.
+- Get the body to 4,000 words or fewer, without cutting scenes, quotes, or facts the FAQs rely on.
+
+**Six minor findings:**
+- **Apologies section:** it states a rule about when he apologizes, then admits the rule was fitted after the fact, so a reader can't tell what the section showed. The Jaxon Smith-Njigba story is also in the wrong paragraph, and he's never identified.
+- **"What is his type?" section:** it ends in a pile of caveats about backlash the reader hasn't seen yet. That material comes about 1,800 words later.
+- **Unexplained names:** Erika Kirk appears in the opening with no explanation; smaller ones are Mafiathon 2, Smith-Njigba, and the Diary of a CEO "question from the previous guest" format.
+- **Self-funding section:** it never names the shows he paid for. The research has them: Coulda Been House at 58M views and Coulda Been Love at 80M. It also never says whether Netflix, Amazon or Hulu came back.
+- **The vow:** his one-year "famous or else" deadline runs out during the scam year and the article never mentions it, yet it treats the vow as key evidence.
+- **SEO description:** it promises "a vow to be number one," but there's no such vow in the article.
+
+**Passages to keep:** the classroom poll opening, "No but I have people watching," Steven Bartlett noticing Druski reading the room, the two sentences contrasting what an Eight builds a company for with what Druski says he built his for, and the closing belt line.
+
+**Other notes:**
+- **Risk flags:** sensitive allegations, contested typing, and a major thesis change (the live page says Type 8, the draft says Type 3). This matches the research record and keeps all six reviewers involved.
+- **Repetition check:** the automated check comparing this draft with recent profiles didn't flag anything. The closest matches were ordinary Enneagram wording.
+
+Separately, this session reported that the Supabase connector failed to connect, and several plugin connectors (Slack, GitHub, Ahrefs and others) need you to authorize them before they can be used. None of them were needed for this review.

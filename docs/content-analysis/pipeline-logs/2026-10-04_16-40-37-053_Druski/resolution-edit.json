@@ -1,0 +1,343 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Rechecked against the cached Dkt. 54 text (p. 1, title \"ORDER DENYING MOTION FOR SANCTIONS AND ORDERING PLAINTIFFS TO SHOW CAUSE\") and docket entries. The body now says the judge declined sanctions only for the original filing (reasonable basis when filed) but ordered counsel to show cause over pressing the claims after receiving his records, quoting \"appear to have no reasonable factual basis.\" FAQ 5 now says he publicly called the allegation \"a fabricated lie\" and mentions the show-cause order. The show-cause outcome was not located on the public docket; that, counsel's withdrawal (2025-09-30) and the denied reconsideration (2025-10-17) are recorded in C37, C208, S-DOCKET and research_tasks rather than in the prose, which was cut for length."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Every use of the July 2026 clip now says it was the NASCAR character, posted for the Fourth of July, with Complex's hedge (\"would appear to stem from\" a BET Awards promo shoot): body (C144), FAQ 4 (C158). \"After she appeared to call it out on air,\" \"revived after the backlash,\" and the July return as escalation were removed from the Eight paragraph (C107) and the unexplained section (C115), which now rests the escalation on the 2025 makeup and the March 2026 sketch. type_hypothesis against/alternative_case/unexplained updated."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Checked against CBS captions and the Whisper transcript (1:35-1:42): the defense paragraph now quotes \"a good place... even if it does seem that I crossed the line or that something went too far,\" and \"has held since 2024\" replaces \"hasn't changed in years.\" FAQ 4 carries the concession (C209). The NFL Honors \"sometimes you can go too far\" line was verified (Whisper, NY Post) but the Smith-Njigba paragraph was later cut for length; the CBS concession in the whiteface section satisfies the one-concession test. \"I might have went a little too far\" is the host's line and is not used."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "The stream passage now says he apologized twice, the first time at about 15:33-15:46 after someone said \"he's a kid,\" then again at 17:38-17:52 (C192, from S-MAFIA), and adds Kai Cenat's on-record statement that Druski \"knew he was wrong\" and had apologized twice (C193, verified in the cached Dexerto text). The mother is now listed as receiving no later statement, not \"silence\" after no apology."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "The sentence now reads \"Some viewers commended it for calling out the behavior and others found it insensitive, Rolling Stone reported,\" matching Rolling Stone (\"Some commended Druski for calling out this behavior\"). C29 updated."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "The line was removed from the Type 8 case. It was briefly rewritten with its romantic context and his tentative explanation (\"the successful home of two parents,\" \"I'm just hypothesizing,\" \"Does this person just love the superstar of me?\", VTT 00:18:45-00:21:45), then cut for length; the claim (C96) is removed and the context is recorded in type_hypothesis.unexplained. No passage now presents it as general distrust or Eight evidence."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The paragraph now attributes the question to his critics (\"the question his critics kept raising\") and gives The Nation's answer from Fatima B. Jalloh (they/them per the source): \"Erika Kirk is fair game for parody,\" \"While she is indeed a widow,\" with their characterization paraphrased and \"undeniably insensitive. But it's also undeniably funny.\" The unexplained section names her leadership role alongside \"widow.\" C109, C115 updated; C191 added."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "\"United Airlines\" removed; the body now says \"His father was an airline pilot,\" as TIME and Complex 2021 put it. C04 records the privacy reason."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "The self-funding section now names Coulda Been Love with Essence's 80 million views (October 2025), quotes \"Now they want to purchase these shows that we've made\" from the DOAC transcript (01:26:00), and reports TIME's September 30, 2026 account that Netflix \"snapped up\" Collect & Praise, built on his January 2026 megachurch-pastor sketch (dated via Religion News Service), and that Livestream From Hell with Hart and Kai Cenat was due on Prime Video at month's end. \"So now it's a bidding war\" stays unattributed. The weighing paragraph treats the outcome as consistent with both readings. Release status is time-sensitive (C185) with a research task; actual Prime Video release was not confirmed in this edit."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Added Hart's \"stop being a bitch\" push and the 30-plus-stop tour, attributed and linked to Rolling Stone 2024 (C179), and the January 2023 Club Shay Shay exchange (\"go and do your own thing\"; \"you could say that\"), stated in the prose as caption-transcribed (C180). The ownership section weighs it in one sentence without claiming it settles the type (C187). Livestream From Hell with Hart is mentioned in the payoff paragraph."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "The type section now calls the Billboard line \"the unnamed competitor,\" and the image section quotes it as his answer to what makes a star. The discriminator is reworded to verdict-seeking and measuring himself against the all-time greats (\"just to be in that conversation,\" DOAC 00:59:13), not named peers. The Breakfast Club peer-beef remark is not added: it is auto-caption only with no audio check, and once the page no longer claims head-to-head rivalry it does not bear on the test."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Met by the second branch: the 2 Bears, 1 Cave URL is removed from the frontmatter citations. Two attributed sentences from the mother's on-air answer (karate to a black belt, weekly piano, a Georgia Tech science camp, a second-grade spelling bee; \"his discipline,\" \"his resilience,\" \"He's very good at restarting\") were added and checked against the Whisper transcript, then cut to bring the body under the 4,500-word limit. Every remaining citation corresponds to a body passage or, for the DOAC transcript URL, to the source note."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "The Theo Von sentence was first rewritten to identify him as his co-star in \"The Diggers\" fake trailer (A.V. Club, June 2025), then dropped for length, which the acceptance test allows (\"or the praise is dropped from the reception record\"). C68 removed."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "rejected",
+      "reason": "Not added. The father is a private person described elsewhere on the page in connection with violence; quoting a second, profane characterization of him (\"a piece of [expletive]\") adds exposure without changing the type argument, and the 2023 passage was not checked by ear in this edit (auto-captions, unlabeled speakers). The body does not imply the 2026 account was his first public word on his father (\"On Diary of a CEO he also described violence at home\"), and FAQ 3 is now \"What has Druski said about his father?\", so a checked 2023 account can be added later without restructuring."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "The closing section now says the tour goal came earlier (the Rolling Stone 30-plus-stop tour in the boss section) and that the movie goal is pending: \"a supporting role as Emma Stone's security guard in Universal's The Catch, scheduled for May 21, 2027\" (Complex citing Deadline; DOAC says May 2027). It does not call him the star. C204 is time_sensitive with a release trigger."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The type section now concedes \"Wanting to be first can't show that, since an Eight wants the top spot too,\" and places the discriminator in being \"ranked, watched and seen as capable,\" backed by the classroom poll (GQ 2020), \"I'ma prove it to y'all\" (GQ 2020), and the 2024 fan-base line (Rolling Stone), plus follower counts and the \"in that conversation\" answer later. The Billboard line is described as an unnamed competitor and, in the image section, as his answer to what makes a star."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "The ownership section now names the leverage reading of \"having them wanting what I did in reverse\" (\"Reversing who wants whom is leverage, an Eight reading; being seen as capable is a Three's\"), dates his shift from July 2025 self-sufficiency to September 2026, and ends \"On ownership, the evidence is mixed.\" FAQ 2 quotes both halves (\"what I did in reverse\" reads as leverage; \"maybe they'll see what I was capable of\" reads as wanting to be seen) and rests the Three call on the verdict-seeking record instead."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The defense paragraph now opens \"His defense, given to interviewers who asked,\" names CBS's question about lines he won't cross and Bartlett's \"brand safety\" framing, and the weighing says \"each line answered an interviewer, and with brand partners watching, any comedian would talk about intent.\" \"Would owe them no account of his intentions\" is removed. FAQ 2 calls criticism handling \"weak evidence, since his good-intent defenses were answers to interviewers.\""
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Same fix as subject-02: the July 2026 clip is described as the NASCAR character with Complex's hedged BET-promo origin; \"after she appeared to call it out on air\" and \"revived after the backlash\" are gone; the escalation and \"refuses to be cowed\" reasoning rest on the 2025 makeup and the March 2026 sketch."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "The type section says the failure stake \"comes from one answer on Diary of a CEO, taped during a promotional run,\" and names the pre-run evidence (GQ 2020, Rolling Stone 2024; Billboard December 2025 in the rank sentence). \"Or die trying\" adds \"'Great' was Bartlett's word, from his recap of the vow; 'failure' was Druski's\" (VTT 00:52:53, 00:53:27). The unexplained section applies the same incentive caveat to the Three-side quotes (\"his most quotable ambitions came while he had a series and two films to promote\"). Confidence stays medium."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Same fix as subject-06: the line is out of the Eight paragraph; its context and ambiguity are recorded in type_hypothesis.unexplained after a draft placement was cut for length."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "\"Got silence\" is now \"Cruz and Kirk got no direct reply\" (C212). LADbible's unverified reposting report is recorded in C82, C212 and the falsifier research task as unchecked; his X activity was not checked in this edit."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "The stream passage now shows the sequence from S-MAFIA: a voice that appears to be Druski's pushed back at the room (\"y'all want to have fat phobia when it come to the kid but not me\"), his first apology came after someone said \"he's a kid,\" then a second apology, with the speaker uncertainty stated (\"The unlabeled stream audio\"). The bleeped word is not reproduced or described; C30 records why (a slur aimed at a child; the insult is already established)."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Structural parts are met: the Eight case appears at full strength once, in the ownership section next to the \"in reverse\" discriminator (\"Here the Type 8 case is at full strength... Eight is a fair call\"); \"If the evidence stopped here\" is gone; the type section's criticism test is a one-sentence pointer; the Cruz silence is argued once; and four H2 sections end on a type verdict (type, ownership, apologies, unexplained). Cuts came from repeated adjudication and secondary color, not from the FAQ-dependent facts. The length clause is NOT met: the body is 4,390 words by the checkDraft count, under the 4,500 limit but above the 4,000 target, because the accepted major additions (fan-01, fan-02, subject-01, subject-03, critic-05, future-02) needed about 500 words of evidence. A verifier who holds to 4,000 should treat this as open."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The section now states the record once at the top (repairs inside his room, no direct reply outside it, one factual accusation fought) and its limit (fitted after the fact; slurs, legal exposure, brand caution), then runs repairs (2022 takedown, Mafiathon), the punch-down counterexample, the silences (Cruz and Kirk, the mother, the CTE answer) and the Parham fight. It no longer asserts and then retracts the rule. The Smith-Njigba anecdote was identified (Seahawks receiver) and then cut for length, so it no longer interrupts the counterexamples. The CTE counterevidence and the plainer explanations remain."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The type section now ends with a one-sentence pointer (\"How he answers critics, taken up with the whiteface sketches below, is weaker evidence, because nearly all of it came in answer to interviewers\") instead of a stack of caveats. The Seven alternative is addressed in the type section, the house section, the image section and the unexplained section."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Erika Kirk is glossed at first mention in the hook (\"Charlie Kirk's widow and successor at Turning Point USA,\" seven words), and the later CEO repetition was removed. Mafiathon 2 is \"a month-long Twitch livestream\" (Dexerto). The previous-guest question is explained (\"in the show's closing tradition, a question left by the previous guest,\" per DOAC 01:44:41). Smith-Njigba was glossed, then his paragraph was cut for length."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "The section names Coulda Been Love with Essence's 80 million views (as of October 2025) and says the companies came back: his DOAC \"Now they want to purchase these shows\" and TIME's report that Netflix \"snapped up\" Collect & Praise. The bidding-war line stays unattributed."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Added from the opened DOAC transcript (00:41:26): \"The year passed with no TV and no sketches; 'I didn't do it immediately,' he said.\" The suicide statement gets no new detail and his clarification stays next to it."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The description now reads \"a secret childhood contest to be the funniest, follower counts before any paycheck, and no plan B\" (160 characters); every item matches a body passage, and the suicide statement is not in metadata."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The type section and both type FAQs now name the deciding test as dependence on other people's verdict (ranked, watched, seen as capable), cite non-DOAC instances (GQ 2020, Rolling Stone 2024, Billboard 2025), and say outright that wanting to be first fits an Eight (\"an Eight wants the top spot too\"; FAQ 1 \"wanting to be first fits an Eight too\"; image section \"An Eight could say that\"). \"His drive for rank carries the call\" is gone. The years-apart sentence covers only the rank thread, and the failure stake is attributed to a single 2026 answer."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "The defense is framed as answers to interviewers' direct questions; \"would owe them no account of his intentions\" and \"An Eight would more likely have taken on Cruz. He hasn't.\" are removed; the Cruz silence appears once (\"Cruz and Kirk got no direct reply\"); the criticism leg is called weaker/weak in the type section, the whiteface weighing and FAQ 2. The July clip is no longer treated as a counterpunch because its only source ties it to a BET promo shoot, not to Kirk."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Same fix as critic-02: \"in reverse\" is named as a leverage reading, \"The motive shows in what he says the ownership was for\" is replaced by \"On ownership, the evidence is mixed,\" and FAQ 2 keeps the reversal half of the sentence."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Seven added to the list (\"a Two, a Six, a Seven or a Nine\"), and the room-reading line now includes its continuation, \"any type of happiness, sadness, anything,\" described as \"a Six's vigilance or a Two's attunement as easily as a Three's\" (VTT 00:12:06-00:12:09)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The answer box now describes the Eight alternative through an off-camera behavior (\"he self-funded his shows rather than re-pitch the studios that turned him down\"); 56 words."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "The cameo refusal is framed as a costly choice (\"a quick $2,000\"; \"the refusal cost money he needed\") with the caveat at the point of use that \"'Image' is brand language any comedian who lives on brand deals uses.\" The heavyset line is dropped."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The rest paragraph now quotes the full line, \"soothing to be in a chaos situation of work and juggling multiple projects at once,\" and says it is \"as much a Seven's pleasure as a Three's.\" The Three reading rests on the verdict material, not on workload."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "(a) The answer box no longer uses \"number one\" or \"a failure\"; it cites the classroom poll (2020 and 2026) and follower counts. (b) The type section says the failure stake \"comes from one answer on Diary of a CEO,\" while the rank thread runs GQ 2020, Billboard December 2025, DOAC 2026. (c) FAQ 1 says the \"number one\" and failure statements \"come from a single 2026 interview.\" (d) With DOAC/TIME-only claims struck, the body still states a sourced verdict-seeking case on pre-September-2026 statements (GQ 2020 poll and \"I'ma prove it to y'all,\" Rolling Stone 2024 fan base, Billboard December 2025 \"outdo\" and \"reach\"); type_hypothesis.discriminator records which legs survive. The S-THEO428 \"fear of falling off\" line was not used (attribution unconfirmed)."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The section quotes the July 2025 AfroTech framing (\"kind of proved to me that we can do this by ourselves... We don't need to have anybody else,\" verified in the cached HTML), dates the \"see what I was capable of\" framing to September 2026, and downgrades the business leg to mixed evidence. C100 and C182 cite S-AFRO; FAQ 2 dates the 2025 quote. The production-company quote was verified but cut for length."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "FAQ 2 now reads \"As of October 2026 he had not retracted any of his whiteface sketches\" and \"From 2022 to 2026 he rarely argued with critics.\" C160 and C122 are time_sensitive with the C71/C124 and C82 triggers, and FAQ 2 is in the research task list of dated status lines."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "\"An Eight would more likely have taken on Cruz. He hasn't.\" is removed. \"His standing defense hasn't changed in years\" is now \"has held since 2024.\" The sanctions line reads \"was, as of October 2026, the clearest counterpunch on record.\" C32 and C147 are time_sensitive with the C82 falsifier trigger."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The CTE sketch is dated \"On August 26, 2026\" and both Billboard references read \"In December 2025.\""
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "C113 now has a review trigger (re-read in September 2031, or sooner if he announces a move away from social-media sketches) and is time_sensitive. C146's trigger is rewritten to live conditions only (a direct reply to T.J. Ward or another named CTE critic; retraction or removal of the August 26, 2026 sketch), and its inference no longer describes the paragraph as removed."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "FAQ 3 is now \"What has Druski said about his father?\" and the answer dates the September 24, 2026 episode. The optional 2023 version was not added (see fan-06)."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The boy who tried to cheer his brother up after the beatings now plays the man holding the belt, as a bit.",
+      "action": "kept",
+      "reason": "Kept verbatim as the close, after the Joe Jackson exchange and its embedded clip. (Protected by: subject, fan, critic, unfamiliar.)"
+    },
+    {
+      "passage": "None of this settles his type, and this page doesn't claim the house made him a Three.",
+      "action": "kept",
+      "reason": "Kept verbatim at the start of the house section's type paragraph. (Protected by: subject.)"
+    },
+    {
+      "passage": "Asked on Diary of a CEO what he had meant, he said, \"I was chasing being great,\" and that he would otherwise \"perceive myself as a failure.\" He added, \"I knew I wasn't going to kill myself.\"",
+      "action": "kept",
+      "reason": "Kept verbatim with his clarification beside the suicide remark; followed by a new sentence noting that \"great\" was Bartlett's word and \"failure\" his (critic-05). (Protected by: subject.)"
+    },
+    {
+      "passage": "He also credits his father, who grew up in the \"project buildings\" of Northeast DC: \"The lessons he had were very good.\" The episode came out on September 24, 2026; a search on October 4, 2026, found no public response from his father, a private person.",
+      "action": "kept",
+      "reason": "Kept verbatim, including the dated October 4, 2026 response check. (Protected by: subject.)"
+    },
+    {
+      "passage": "The sanctions motion was the clearest counterpunch on record, but anyone would fight a sexual-assault accusation that records contradict.",
+      "action": "changed",
+      "reason": "Changed only to add a date (\"was, as of October 2026, the clearest counterpunch on record\") per future-04; the inference limit (anyone would fight a contradicted sexual-assault accusation) is unchanged. (Protected by: subject.)"
+    },
+    {
+      "passage": "When the answer wasn't him, he pushed. \"Like, why is Mikey funnier than me? Tell me why.\"",
+      "action": "kept",
+      "reason": "Kept verbatim in the hook. (Protected by: fan, unfamiliar.)"
+    },
+    {
+      "passage": "Filming sketches around his mother's house, he gave her follower counts. Had he made any money? \"No but I have people watching.\"",
+      "action": "kept",
+      "reason": "Kept verbatim; it now ends the \"Or die trying\" section. (Protected by: fan, unfamiliar.)"
+    },
+    {
+      "passage": "An Eight builds his own company so that nobody can control him. Druski describes building his so that the companies that said no would see what he could do.",
+      "action": "changed",
+      "reason": "Changed to date the motive per future-02, critic-02 and enneagram-03: \"An Eight builds his own company so that nobody can control him. Druski's July 2025 account sounded like that; in September 2026 he described building his so that the companies that said no would see what he could do.\" The two-sentence same-act, two-motives contrast is retained; the evidence it carries is now dated and marked mixed rather than decisive. (Protected by: fan, unfamiliar.)"
+    },
+    {
+      "passage": "It also skips the harder question: whether a sketch titled for a category, but widely read as one identifiable, recently widowed woman, still hits its target. Corbould's argument settles who holds power, not that.",
+      "action": "changed",
+      "reason": "Changed per subject-07 to \"The defense also skips the question his critics kept raising: whether a sketch titled for a category, but widely read as one identifiable, recently widowed woman, still hits its target. Corbould's argument settles who holds power, not that.\" followed by The Nation's counterargument. It still refuses to let the sympathetic expert defense close the question, now without an unattributed authorial verdict. (Protected by: fan, critic.)"
+    },
+    {
+      "passage": "Set those beside what he told Bartlett: \"you can never show me something that I've done that was like, oh, that's punching down.\" The stream is the obvious counterexample.",
+      "action": "kept",
+      "reason": "Kept verbatim, directly after the Mafiathon stream passage. (Protected by: critic.)"
+    },
+    {
+      "passage": "The rule is fitted after the fact, and the silences have plainer explanations: slurs, legal exposure, brand caution. An Eight would more likely have taken on Cruz. He hasn't.",
+      "action": "changed",
+      "reason": "The self-audit sentence (\"The rule is fitted after the fact, and the silences have plainer explanations: slurs, legal exposure, brand caution.\") is kept verbatim near the top of the section. \"An Eight would more likely have taken on Cruz. He hasn't.\" is removed per enneagram-02 (assumes an Eight answers every critic) and future-04 (undated status); the reviewer asked to keep the self-skepticism even if the Cruz wording changed. (Protected by: critic.)"
+    },
+    {
+      "passage": "None of this settles his type, and this page doesn't claim the house made him a Three. A child who comforts a sibling after a beating could become a Two, a Six or a Nine",
+      "action": "changed",
+      "reason": "Changed to \"could become a Two, a Six, a Seven or a Nine\" per enneagram-04; the refusal of a childhood-wound origin and the list of rival types are retained and widened. (Protected by: critic.)"
+    },
+    {
+      "passage": "Bartlett saw it live: after some 700 interviews, he said, Druski was one of the first guests to stop mid-answer and say, \"You look like you had something to say there, Steve.\"",
+      "action": "kept",
+      "reason": "Kept verbatim, still used as third-party evidence for a non-Three reading. (Protected by: unfamiliar.)"
+    },
+    {
+      "passage": "The kid running a private poll points somewhere else. He cared about the verdict, and he wanted to win it.",
+      "action": "kept",
+      "reason": "Kept verbatim in the hook; the type section now matches it by making verdict-seeking the deciding test. (Protected by: enneagram.)"
+    },
+    {
+      "passage": "An Eight could aim a vow at doubters too, and the list items were Bartlett's prompts. The telling part is the stake he volunteered: whether he would see himself as a failure.",
+      "action": "kept",
+      "reason": "Kept verbatim after the goals-list sentence it refers to. (Protected by: enneagram.)"
+    },
+    {
+      "passage": "The biggest gap is still the whiteface. Playing white characters is an old, well-rewarded bit for him, so the willingness needs no explaining. The escalation does: full makeup, a sketch widely read as one recently widowed woman, and a July 2026 return to the look after she appeared to call it out on air. Maybe views are his scoreboard, but that is a guess; an Eight who refuses to be cowed explains the return more directly.",
+      "action": "changed",
+      "reason": "Changed per subject-02 and critic-04: the July 2026 clip, which its only source ties to a BET promo shoot, is no longer part of the escalation; the escalation is now \"from a character to four hours of makeup in 2025, then to a sketch widely read as one woman, a widow who had succeeded her husband at the head of a political movement, in 2026,\" and the concession that \"an Eight who refuses to be cowed explains the escalation more directly\" is retained. (Protected by: enneagram.)"
+    },
+    {
+      "passage": "Even the forgiveness is framed as forward motion: \"I cannot look for more success and look for the light at the end of the tunnel without forgiving any and everything in my past.\"",
+      "action": "kept",
+      "reason": "Kept verbatim; the forgiveness paragraph now closes the house section. (Protected by: enneagram.)"
+    },
+    {
+      "passage": "The Three reading is the best fit for what he says he wants. It is not a full account of the man.",
+      "action": "kept",
+      "reason": "Kept verbatim as the end of the unexplained section. (Protected by: enneagram.)"
+    },
+    {
+      "passage": "He had described the same contest to [GQ](https://www.gq.com/story/druski-hip-hop-favorite-comedian-drake-jack-harlow-odell-beckham-jr) six years earlier: \"Some kids would be like, yo I wanna be best dressed or I wanna be the best athlete. I used to literally say in my mind in elementary school, 'I wanna be the funniest this year, I wanna be the funniest kid in the class.'\"",
+      "action": "kept",
+      "reason": "Kept verbatim in the hook. (Protected by: future.)"
+    },
+    {
+      "passage": "That holds in sources years apart: the funniest-kid contest he described to GQ in 2020, the rival he told Billboard in December 2025 he wanted to \"outdo,\" and the \"number one\" goal he gave Bartlett in 2026.",
+      "action": "changed",
+      "reason": "Changed to \"The rank thread holds in sources years apart: the funniest-kid contest he described to GQ in 2020, the unnamed competitor he told Billboard in December 2025 he wanted to 'outdo,' and the 'number one' goal he gave Bartlett in 2026.\" Each leg stays dated; \"the rival\" is corrected per fan-03 and critic-01, and the next sentences extend the same dating discipline to the failure stake (future-01). (Protected by: future.)"
+    },
+    {
+      "passage": "From 2022 to 2026, Druski rarely argued back.",
+      "action": "kept",
+      "reason": "Kept verbatim as the section's opening line. (Protected by: future.)"
+    },
+    {
+      "passage": "On June 28, 2026, he hosted the BET Awards, then the youngest host in the show's history, checking off a goal from the list he wrote at 23.",
+      "action": "kept",
+      "reason": "Kept verbatim; the goals-list scorecard follows it. (Protected by: future.)"
+    },
+    {
+      "passage": "Bartlett asked him to picture the next five years as already done. \"I became a superstar,\" Druski said. Then he described who would be gone: \"You don't see the Druski that you once saw, the social media guy.\"",
+      "action": "kept",
+      "reason": "Kept verbatim as the final beat; C113 now carries the requested review trigger. (Protected by: future.)"
+    }
+  ],
+  "prior_blockers": []
+}

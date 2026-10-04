@@ -9,12 +9,6 @@ vi.mock('$lib/components/charts/LineChart.svelte', async () => {
 	return { default: module.default };
 });
 
-const { invalidate } = vi.hoisted(() => ({
-	invalidate: vi.fn<(dependency: string) => Promise<void>>()
-}));
-
-vi.mock('$app/navigation', () => ({ invalidate }));
-
 vi.mock('$lib/components/charts/StatCard.svelte', async () => {
 	const module = await import('$lib/test/StatCardStub.svelte');
 	return { default: module.default };
@@ -149,8 +143,6 @@ describe('/admin/analytics page', () => {
 	}
 
 	beforeEach(() => {
-		invalidate.mockReset();
-		invalidate.mockResolvedValue(undefined);
 		vi.stubGlobal(
 			'fetch',
 			vi.fn().mockResolvedValue({
@@ -925,36 +917,49 @@ describe('/admin/analytics page', () => {
 		expect(screen.getByText('/personality-analysis/streamed-person')).toBeTruthy();
 		expect(screen.getAllByText('/questions/streamed').length).toBeGreaterThan(0);
 		expect(screen.getByText('No pages are trending above baseline right now.')).toBeTruthy();
-		expect(invalidate).not.toHaveBeenCalled();
 		expect(
 			fetchUrls().filter((url) => pageviewEndpoints.some((endpoint) => url.startsWith(endpoint)))
 		).toEqual([]);
 	});
 
-	it('re-runs the load after a full page load and renders its streamed data', async () => {
-		const shellData = {
-			...pageData,
-			initialOverview: null,
-			initialPages: null,
-			initialTopPages: null,
-			initialTrending: null
-		};
-		let rerenderPage!: ReturnType<typeof render>['rerender'];
-		// Stand-in for SvelteKit applying the __data.json response before invalidate resolves.
-		invalidate.mockImplementation(async () => {
-			await Promise.resolve();
-			await rerenderPage({ data: withStreamedPageviews() as any });
+	it('fetches every section from its endpoint after a full page load', async () => {
+		render(AnalyticsPage, {
+			data: {
+				...pageData,
+				initialOverview: null,
+				initialPages: null,
+				initialTopPages: null,
+				initialTrending: null
+			} as any
 		});
-		rerenderPage = render(AnalyticsPage, { data: shellData as any }).rerender;
 
 		await waitFor(() => {
-			expect(screen.getByText('Visits: 4321')).toBeTruthy();
+			for (const endpoint of pageviewEndpoints) {
+				expect(fetchUrls().some((url) => url.startsWith(endpoint))).toBe(true);
+			}
 		});
-		expect(invalidate).toHaveBeenCalledWith('admin:analytics-pageviews');
-		expect(screen.getByText('/personality-analysis/streamed-person')).toBeTruthy();
-		expect(
-			fetchUrls().filter((url) => pageviewEndpoints.some((endpoint) => url.startsWith(endpoint)))
-		).toEqual([]);
+	});
+
+	it('falls back to the endpoint when a streamed section never settles', async () => {
+		vi.useFakeTimers({ toFake: ['setTimeout', 'clearTimeout'] });
+		try {
+			render(AnalyticsPage, {
+				// A stream cut off mid-flight leaves its promise pending forever.
+				data: { ...withStreamedPageviews(), initialOverview: new Promise(() => {}) } as any
+			});
+
+			await vi.advanceTimersByTimeAsync(19_000);
+			expect(fetchUrls().some((url) => url.startsWith('/api/admin/analytics/overview?'))).toBe(
+				false
+			);
+
+			await vi.advanceTimersByTimeAsync(1_000);
+			expect(fetchUrls().some((url) => url.startsWith('/api/admin/analytics/overview?'))).toBe(
+				true
+			);
+		} finally {
+			vi.useRealTimers();
+		}
 	});
 
 	it('shows placeholders until the streamed overview arrives', async () => {

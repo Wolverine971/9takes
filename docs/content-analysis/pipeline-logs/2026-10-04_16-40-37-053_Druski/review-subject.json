@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "f4a028dd458ec2c3de0c23dafae2772e104f2f36584dca681598c66ee79954af",
+  "evidence_sha256": "ac0520571b28254ff63ae802d83250e7827b800eecc755bf30346a415ee36701",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "Judge Rita F. Lin denied that motion in August 2025 but wrote that the allegations against him \"[almost certainly lack a factual basis](https://storage.courtlistener.com/recap/gov.uscourts.cand.437874/gov.uscourts.cand.437874.54.0_1.pdf),\" citing phone and bank records that placed him in Georgia.",
+      "problem": "Reopened Dkt. 54 (Aug. 19, 2025; title and pp. 1, 5-7). The court denied sanctions only on the narrow ground that counsel had a plausible basis when they filed the amended complaint (Parham's photo-lineup identification and two Doe tipsters). In the same order the court directed plaintiffs' counsel to SHOW CAUSE why they should not be sanctioned for continuing to press the claims at the July 10, 2025 hearing after receiving his records, and found those continued allegations 'appear to have no reasonable factual basis.' The docket title reads 'ORDER DENYING 38 MOTION FOR SANCTIONS AND ORDERING PLAINTIFFS TO SHOW CAUSE.' Saying only 'denied that motion' lets a reader conclude the court rejected his position on a sexual-assault accusation, when it partly vindicated him. It also understates the 'clearest counterpunch on record' that the Eight-vs-Three analysis relies on. The FAQ 'Was Druski cleared in the Diddy lawsuit?' leads with 'dismissed, not decided on the merits' and never says he denied the allegation.",
+      "acceptance_test": "The body says the denial covered only the filing of the amended complaint, and that the same order told plaintiffs' counsel to show cause over continuing to advance the claims after they received his records. The OSC's outcome is either stated or marked as not located; the docket shows counsel withdrew on 2025-09-30 and reconsideration was denied on 2025-10-17. The FAQ answer says he publicly denied the allegation. All wording is checked against Dkt. 54 pp. 1 and 6-7 and recorded in C37/C125."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "The escalation does: full makeup, a sketch widely read as one recently widowed woman, and a July 2026 return to the look after she appeared to call it out on air. Maybe views are his scoreboard, but that is a guess; an Eight who refuses to be cowed explains the return more directly.",
+      "problem": "This imputes a defiance motive that no source records. The draft's own source for the July clip (Complex, Trace William Cowen, July 6, 2026) is headlined 'Druski Again Revives NASCAR-Loving \"Proud to Be American\" Character to Mark Fourth of July.' It says the clip 'would appear to stem from a recent BET Awards promo shoot that also featured Chris Rock.' So it was a holiday post of the patriotic NASCAR character, apparently from a network promo shoot, not a return to the Kirk character. Placing it 'after she appeared to call it out on air' and calling it unbowed refusal links it to Kirk without evidence. The same framing appears in 'revived after the backlash and never taken back' (Eight-evidence paragraph) and in the FAQ. Plainer explanations go untested: the July 4 calendar, the BET gig, and a character the press ranked among his best.",
+      "acceptance_test": "Every use of the July 2026 clip (the Eight-evidence paragraph, the 'biggest gap' paragraph and the FAQ) says it was the NASCAR 'Proud to Be American' character, posted for the Fourth of July, and gives Complex's hedged BET-promo-shoot context. No sentence ties the revival to Kirk's April remark or treats it as defiance unless a source records that link. The 'unexplained' weighing is restated with those alternatives, and C144/C158/C115 are updated."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "His standing defense hasn't changed in years. \"It's always coming from a good place,\" he told Rolling Stone in 2024. \"I think I never go and punch down in any anything that I do. Nothing is coming from a bad place,\" he told CBS.",
+      "problem": "Important self-qualifications are omitted. In the CBS Mornings interview (Feb. 19, 2026; YouTube captions about 1:26-1:42) the quoted sentence continues: '...everything I do kind of comes from a good place, a good-hearted situation, even if it does seem that I crossed the line or that something went too far.' On the NFL Honors bit in the same interview (about 3:00-3:20) he said, 'I like to mess around and you know sometimes you could go too far,' and the New York Post headlined it 'Sometimes you can go too far.' A later caption line, 'I might have went a little too far,' needs speaker confirmation. The draft presents his defense as categorical and unchanging, then sets the stream up as 'the obvious counterexample' to his never-punching-down claim, without telling the reader he has publicly allowed that he sometimes goes too far. That makes him look more defensive and less self-aware than the record shows. It also tilts the criticism-handling leg of the type argument.",
+      "acceptance_test": "The whiteface or apologies section quotes at least one CBS concession, such as 'sometimes you could go too far', checked against the CBS audio with the speaker confirmed. 'His standing defense hasn't changed in years' is qualified to match. The claim inventory adds the quote with S-CBS (and S-NYPJSN if the headline is used), and C32/C72/C112 note the concession."
+    },
+    {
+      "id": "subject-04",
+      "severity": "minor",
+      "passage": "Minutes later, on the same stream, Druski apologized: \"I got a couple drinks... but that ain't no excuse bro,\" and \"I really do apologize.\"",
+      "problem": "This understates the repair. The evidence packet's own stream check records an earlier apology at about 15:33-15:46 ('You right... he's a kid... I apologize... I'm sorry'), and Atlanta Black Star reports he hugged the boy and said 'My bad' before the later apology. Kai Cenat publicly said 'He knew he was wrong... He actually apologized for this one,' and noted he had apologized twice (Dexerto). The draft reports a single apology, later puts the mother among those who 'got silence,' and leaves out the host's on-record response on his behalf.",
+      "acceptance_test": "The passage says he apologized more than once on the stream, citing verified timestamps from S-MAFIA. Cenat's public statement that Druski apologized is added with S-DEX, or the inventory records why it is left out."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "In 2022 he took down \"That Friend that tries to make the girls OVERLY drink,\" a sketch in which he played a man who pushes women to drink so he can assault them. Some viewers praised it and others found it insensitive, Rolling Stone reported.",
+      "problem": "Rolling Stone (Feb. 22, 2024) says 'Some commended Druski for calling out this behavior, while others felt that joking about rape was insensitive.' The draft drops what the praise was for. A reader cannot tell the sketch was received as exposing predatory behavior rather than playing it for laughs. That makes the takedown look like retreat from an indefensible bit instead of a contested satire.",
+      "acceptance_test": "The sentence says supporters saw the sketch as calling out the behavior, attributed to Rolling Stone, and C29 is updated."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "And he says closeness makes him pull back: \"once I get too close, I can't trust it.\"",
+      "problem": "The quote is cut from its context. In the DOAC publisher VTT (00:18:45-00:20:40) he is talking specifically about romantic relationships with women. He tentatively links it to not having seen 'the successful home of two parents or two people in a relationship' and says he is 'just hypothesizing.' Stripped of that, the line reads as a general distrust trait and is offered as Eight evidence.",
+      "acceptance_test": "The passage specifies romantic relationships and gives his own tentative explanation, or paraphrases it as his. C96 records the context."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "It also skips the harder question: whether a sketch titled for a category, but widely read as one identifiable, recently widowed woman, still hits its target. Corbould's argument settles who holds power, not that.",
+      "problem": "Here the author issues an unattributed moral verdict in a live political dispute about the subject. The draft also presents the question as unanswered, but The Nation (Fatima B. Jalloh, Apr. 29, 2026), which the draft cites two paragraphs earlier, takes it on directly: 'Erika Kirk is fair game for parody. While she is indeed a widow, she's also...' the head of a political movement whose views the sketch depicts. Repeating 'recently widowed woman' here and in the 'unexplained' section, while dropping her CEO role there, frames the question one way.",
+      "acceptance_test": "The question is attributed to named critics or framed as contested, with The Nation's counterargument given. Alternatively the paragraph is reduced to what it shows about his good-intent defense, with no authorial ruling. C109 is updated."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "His father flew for United Airlines and his mother worked for the CDC, he told Bartlett",
+      "problem": "His father is a private person. Through his son's account, the page connects him with beating a child and with choking his wife and pushing her out of the house. Naming his employer makes him easier to identify without adding to the portrait, whose point is 'broken home, not broke home.' 'An airline pilot', as Complex put it in 2021, carries the same meaning.",
+      "acceptance_test": "The employer name is removed, or the reason for keeping it is recorded. The C04 inventory entry notes the privacy decision about the father."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The boy who tried to cheer his brother up after the beatings now plays the man holding the belt, as a bit.",
+      "reason": "Built entirely from his own words ('It wasn't hard to rip that belt off, man. I've seen it before.' DOAC 01:46:46, checked against the publisher VTT), with no invented interiority. It is a restrained, distinctive close."
+    },
+    {
+      "passage": "None of this settles his type, and this page doesn't claim the house made him a Three.",
+      "reason": "Explicitly declines to manufacture a childhood wound or a causal origin, matching his own caution ('I wouldn't say that my comedy necessarily came from that'). This is the fairness line that makes the abuse material usable."
+    },
+    {
+      "passage": "Asked on Diary of a CEO what he had meant, he said, \"I was chasing being great,\" and that he would otherwise \"perceive myself as a failure.\" He added, \"I knew I wasn't going to kill myself.\"",
+      "reason": "Keeps his own clarification next to the suicide remark (VTT 00:53:15-00:54:10) and quotes only the words the transcripts agree on. It does not sensationalize a sensitive disclosure."
+    },
+    {
+      "passage": "He also credits his father, who grew up in the \"project buildings\" of Northeast DC: \"The lessons he had were very good.\" The episode came out on September 24, 2026; a search on October 4, 2026, found no public response from his father, a private person.",
+      "reason": "Balances a private person's portrayal with the son's own credit to him, and records a dated check for a response instead of implying silence."
+    },
+    {
+      "passage": "The sanctions motion was the clearest counterpunch on record, but anyone would fight a sexual-assault accusation that records contradict.",
+      "reason": "Refuses to treat a defense against a contradicted sexual-assault accusation as personality evidence. This is the right inference limit on the most harmful allegation on the page."
+    }
+  ],
+  "assessment": "Fairness proxy, not a voice for Druski. The draft mostly keeps the public record separate from inference. It attributes the violent-household account to him, keeps his credit to and forgiveness of his father, sets his clarification beside the suicide line, dates its checks for responses, leaves out the brother's diagnoses and the child's name, labels its own guesses ('that is a guess'), and admits the criticism rule 'is fitted after the fact.' Three omissions tilt against him, and each bears on the Eight-vs-Three criticism leg: (1) the August 2025 order's show-cause directive against plaintiffs' counsel; (2) the Fourth of July and BET-promo context of the July 2026 NASCAR-character clip, now read as defiance toward Kirk; (3) his on-record CBS concessions that he sometimes goes 'too far.' The smaller items are context fidelity (the romantic context of 'can't trust it', what the 2022 sketch's supporters praised, the second Mafiathon apology and Cenat's defense), an unattributed moral verdict on the Kirk sketch, and the father's employer. No invented scenes or dialogue were found. The DOAC quotes checked (father, college, suicide remark, scamming and robbery, brand-safety answer, Trump/'sued', Joe Jackson belt) match the publisher VTT. Risks: sensitive allegations (domestic violence, a child on stream, a dismissed sexual-assault suit), contested typing, and a major thesis change (live page Type 8, draft Type 3); all are kept true. Sources opened for this review: DOAC publisher VTT, Dkt. 54 PDF, CourtListener docket pp. 1-2, FOX 11, Dexerto, Atlanta Black Star, AOL/Express, Complex (Kirk call-out, July revival, Rubi Rose), Billboard (acid test, cover), UNILAD, The Nation, UnHerd, Rolling Stone CA, Us Weekly/Yahoo, NY Post/Yahoo, GQ, Complex 2021, and CBS Mornings YouTube captions (not audio). Limitation: time.com returned HTTP 406 to direct fetches, so the TIME September 30, 2026 quotes were checked against the run's cached copy, not independently re-fetched. Similarity advisory: not tripped. The top pairs share no argument; the only shared fragment, 'worth someth', is ordinary Type 3 vocabulary. No meaningful reuse found."
+}

@@ -1,0 +1,1517 @@
+{
+  "schema_version": 3,
+  "content_sha256": "bcbbd8eeb9981ea62d60fdf319f328170587d17b822ef066ced69fc9a508025d",
+  "evidence_sha256": "aeafa95a916d5cf22bcf3ff7eb1e2b10e9ac667e7c205bb734abef7454b2f8f1",
+  "status": "revise",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "major",
+      "passage": "His defense does little to offset them: each line answered an interviewer, and with brand partners watching, any comedian would talk about intent. Legal caution explains some of his quiet, and in comedy, as Billboard's acid test suggests, never apologizing is also a business model.",
+      "problem": "unfamiliar-01 is unresolved. The body is 4,390 words, more than the 4,321 the reviewer called too long, and the back half still loops on adjudication. The brand/incentive caveat is restated in the image section ('brand language any comedian who lives on brand deals uses'), the whiteface weighing (this passage), the apologies opener ('brand caution') and the unexplained section ('he sells to brands'). The whiteface and apologies sections each carry several Eight/Three weighing sentences. Length cuts took scenes and quotes, not the repeated rulings.",
+      "acceptance_test": "Body at or under 4,000 words by the checkDraft count. The brand/incentive caveat is stated once in full, with at most one short back-reference. The whiteface and apologies sections each carry at most one Eight/Three weighing sentence; displaced weighing goes to the type or unexplained section, not dropped. No sourced scene, quote, dated status line or FAQ-dependent fact is cut. evidence-edit.json passages are updated so validateEvidence passes against the repaired text."
+    },
+    {
+      "id": "verify-02",
+      "severity": "minor",
+      "passage": "https://www.complex.com/pop-culture/a/treyalston/jack-harlow-druski-nutritionist",
+      "problem": "This frontmatter citation (S-RUBI) corresponds to no body passage or claim, which fails fan-04's requirement that every citation correspond to the body. The resolution says otherwise.",
+      "acceptance_test": "Remove the URL from citations, or use the article in the body with a recorded claim."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "Former NFL safety T.J. Ward",
+      "problem": "His position is accurate but not in either cited source: Us Weekly/Yahoo says 'Former NFL player' / 'Former NFL Star', and TIME says 'professional athletes'.",
+      "acceptance_test": "Either write 'Former NFL player T.J. Ward' or add an opened source that states his position, and update C146."
+    }
+  ],
+  "research_tasks": [
+    "Repair pass for verify-01/02/03, then re-verify. Cut about 400 words of repeated adjudication from the whiteface, apologies and image sections; drop the stray S-RUBI citation; fix Ward's descriptor.",
+    "Before publication: DJ approves the Type 8 (live page) to Type 3 change, per the evidence research_tasks.",
+    "At publication: confirm Livestream From Hell actually released on Prime Video and update 'was due'; re-run the father-response, whiteface-apology, Cruz/Kirk-reply and CourtListener checks and refresh the 'as of October 2026' lines.",
+    "Optional strengthening: check Club Shay Shay 36:00-38:40 by ear so the caption caveat can go; locate the outcome of the Dkt. 54 order to show cause."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "Publisher VTT and YouTube captions (about 30:18-30:44): 'who's the funniest to you in this class?... why is Mikey funnier than me? Tell me why.' Speaker and context (an after-school self-check) match."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "VTT: 'almost like a competition in my head that nobody knew about, but it was in me'; 'made me feel successful. It felt like I won the Mark Twain Award of the school.'"
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "GQ (H. Drew Blackburn, Nov 11, 2020) quote found verbatim. It independently corroborates the DOAC classroom contest six years earlier."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "AfroTech (July 2025): 'my own personal production company 4Lifers'; Billboard Dec 2025: 'producing everything in-house through his 4Lifers entertainment company' after Netflix and Hulu passed."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-BBACID, S-NATION, S-POSTCOURIER, S-UNILAD. Embedded quotations matched in S-BBACID, S-UNILAD."
+    },
+    {
+      "claim_id": "C178",
+      "verdict": "supported",
+      "reason": "The Nation: 'the widow of the late Charlie Kirk and the current CEO of Turning Point USA'; Complex Apr 29, 2026: 'Turning Point CEO'. 'Successor' is accurate."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "yt-dlp metadata for UhzI1fg8rCA: upload_date 20260924 ('Druski: They're Lying To You About Overnight Success!'). Bartlett's question about what he got from making people laugh precedes the classroom answer in the VTT."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "qualified",
+      "reason": "Hedged interpretation ('most likely', 'medium confidence'). The underlying verdict-seeking evidence verified in GQ 2020, Rolling Stone 2024, Billboard Dec 2025 and DOAC. Medium confidence is warranted given the Eight evidence the article concedes (whiteface escalation, mixed ownership)."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-RS24, S-GQ, S-AFRO, S-BBACID, S-DOAC, S-DOACPOD."
+    },
+    {
+      "claim_id": "C198",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-GQ, S-DOACPOD, S-DOAC, S-BBCOVER, S-RS24."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "qualified",
+      "reason": "Labeled interpretation, dated 2022-2026. Supported in outline (2022 takedown and Mafiathon repairs per RS24/S-MAFIA/S-DEX; no direct reply to Cruz/Kirk found; sanctions motion per Dkt. 54), but 'AM I CANCELLED?', the deleted 'too far' post and the CTE answer to TIME are partial counterexamples. The prose concedes this ('fitted after the fact', 'That cuts against this page's reading')."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-GQ, S-BBCOVER, S-DOACPOD, S-DOAC, S-TIMENEXT. Embedded quotations matched in DOAC YouTube captions, DOAC publisher VTT."
+    },
+    {
+      "claim_id": "C195",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOACPOD, S-DOAC, S-TIMENEXT. Embedded quotations matched in DOAC YouTube captions, DOAC publisher VTT."
+    },
+    {
+      "claim_id": "C194",
+      "verdict": "qualified",
+      "reason": "Instances verified: classroom contest (GQ 2020), 'I'ma prove it to y'all' (GQ 2020), 'amazing that I can create my fan base' (Rolling Stone 2024, sentence after 'kiss up to somebody'). As discriminators they are soft: the prose itself concedes an Eight could aim a vow at doubters. The 'predates that run' dating is correct."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "VTT, answering Bartlett's brand-safety question: 'I don't care for none of that serious stuff. People ask me all these deep questions. I'm like, yo, I don't look at anything like that.'"
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "VTT: 'My dad was a airline pilot for United Airlines... My mom worked for the CDC'; TIME: 'grew up in Gwinnett County' and 'His dad was an airline pilot'. Omitting United is a recorded privacy choice."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "VTT: 'We were a broken home. We weren't a broke home.'"
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "VTT quotes verified ('had great lessons, but his teaching skills was very tough and physical', 'not the normal belt type thing', the choking and door-locking passage); 'some things are kind of blurred for me' supports the memory caveat. theJasmineBRAND (Sept 24, 2026) corroborates the account. Attributed throughout as his account."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "VTT: father grew up in 'the project buildings' of Northeast DC; 'The lessons he had were very good.'"
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "An observed search claim. The verifier's own web search on 2026-10-04 found only coverage of the episode (TIME, AOL, transcript sites), with no statement from his father. Correctly tracked as unresolved with a re-check trigger."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "VTT: 'try to be like a coping mechanism for him'; 'I wouldn't say that my comedy necessarily came from that, but it definitely came from like a healing...'. theJasmineBRAND corroborates."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "VTT: 'Oh, you could have done better'; 'It was almost never a correct answer in my household'; 'Not like it's not enough, but it's like you always can do better.'"
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "VTT: forgiveness 'in my head and also to him face to face'; relationship 'very, very good'."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "VTT about 00:13:45, quote verbatim."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOAC, S-DOACPOD."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "VTT 00:12:06-00:12:09: 'I can read a room and sense any type of danger. I can read a room and sense any type of happiness, sadness, anything.'"
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOAC, S-DOACPOD, S-GQ, S-TIMENEXT. Embedded quotations matched in DOAC YouTube captions, DOAC publisher VTT."
+    },
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "GQ 2020: 'a few years at Georgia Gwinnett College before transferring to Georgia Southern University in Statesboro'; Wikipedia lists both schools; DOAC confirms the transfer and leaving."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "VTT: 'two guys that I knew went to the school from... your County'; excluded ('you have the same shoes that you hoop in. Why would we bring you?'); 'I felt like I wasn't deserving enough to be around them'; 'I stopped going to classes for like the whole second semester'."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "Complex 2021 (Jewel Wicker) quote verbatim."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "VTT: 'the guy that brings the warmth to the room'; 'I took sports journalism to be maybe an ESPN sports cast just to get my face on TV.'"
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "VTT: researching 'successful people' on YouTube, he found the people he admired 'were all comedians', naming Kevin Hart, Steve Harvey, Will Ferrell, Chris Farley and Jim Carrey interviews. Complex 2021 corroborates Steve Harvey and Kevin Hart."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "GQ 2020: 'This left his mother disappointed, but his grandmother threatened to cut him off completely. \"...I was hurt by that. I was like watch, I'ma show y'all. I'ma prove it to y'all.\"' The quote drops only the expletive lead-in."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "VTT: 'if I don't become... a famous comedian on TV, I'm a kill myself'; she said 'don't say stuff like that'; 'it was a little far'; 'I knew I wasn't going to kill myself'. Clarification kept adjacent."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "VTT and captions agree on 'I was chasing being great' and 'perceive myself as a failure'; the preceding words differ between transcripts and are not quoted. Attribution is faithful."
+    },
+    {
+      "claim_id": "C196",
+      "verdict": "supported",
+      "reason": "VTT 00:52:53, Bartlett: 'I'm either going to be great or in your words, I'm going to kill myself.' So 'great' was introduced by the host, and the article says so."
+    },
+    {
+      "claim_id": "C197",
+      "verdict": "supported",
+      "reason": "VTT: 'essentially, I didn't do it immediately. I started trying to work at Red Lobster...'; GQ dates the first sketch to October 2017. The lapsed deadline is accurately stated."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "VTT: Red Lobster, Longhorn, Outback and McDonald's jobs; 'scamming circle'; 'quick, easy scams with banks or doing card scams'; 'the barrel of that gun being pointed at me and my friend at the time, it was a bad scamming situation gone left'; 'comedian or die trying'."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "VTT: 'I wrote all these goals down on a sheet of paper'; 'No plan B, your plan A will work'; Bartlett's prompts about hosting a tour, an 'awards evening' and starring in a major movie were each affirmed; age 23 confirmed. 'Awards show' paraphrases 'awards evening'."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "VTT about 00:47:51: follower counts to his mother; 'No but I have people watching.'"
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOAC, S-DOACPOD."
+    },
+    {
+      "claim_id": "C139",
+      "verdict": "supported",
+      "reason": "GQ 2020: 'in October of 2017, when Druski published his first sketch on Instagram.'"
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "Wikipedia (Laugh Now Cry Later): 'official music video was released on August 13, 2020... shot at Nike's headquarters in Beaverton, Oregon.'"
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "GQ 2020: invited by Drake to 'Nike's Beaverton Oregon campus'; 'His scene was improvised'; 'walking around talking to people like I was the CEO.'"
+    },
+    {
+      "claim_id": "C179",
+      "verdict": "supported",
+      "reason": "Rolling Stone CA (Feb 22, 2024): opens with Hart's 'stop being a bitch'; 'With Hart's counsel, he set out on a 30-plus-stop tour.'"
+    },
+    {
+      "claim_id": "C180",
+      "verdict": "qualified",
+      "reason": "Exchange found in Club Shay Shay YouTube captions (Hart: 'go and do your own thing'; at 38:32: 'were you afraid to go out on your own... you could you could say that'). It is caption-only, with no audio check, and the prose discloses this ('per the episode's captions')."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "TIME100 Creators (July 14, 2026): 'reached a new level of visibility in 2019 via his American Idol-parodying Coulda Been Records series, where he plays a label head'; the GQ quote is verbatim."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "Fresh headless render of stories.complex.com page 12: 'Part of his comedy is he points out his flaws. He makes himself look stupid... opens himself up to being vulnerable.' Speaker (Jack Harlow) and sense match."
+    },
+    {
+      "claim_id": "C149",
+      "verdict": "supported",
+      "reason": "VTT: 'My car got repossessed. I actually made that like a content piece.'"
+    },
+    {
+      "claim_id": "C150",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-HARLOW, S-DOACPOD."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Rolling Stone 2024 quote verbatim; 'my team is involved in the creative side' verified."
+    },
+    {
+      "claim_id": "C182",
+      "verdict": "supported",
+      "reason": "AfroTech (published 2025-07-18 per page metadata) quote verified verbatim."
+    },
+    {
+      "claim_id": "C183",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-RS24, S-AFRO, S-ESS, S-DOACPOD, S-GQ, S-ORDER54, S-AOL, S-TIMENEXT."
+    },
+    {
+      "claim_id": "C184",
+      "verdict": "supported",
+      "reason": "VTT 01:26: 'Now they want to purchase these shows that we've made and do more in the future.' The unresolved 'bidding war' line is correctly not attributed."
+    },
+    {
+      "claim_id": "C185",
+      "verdict": "qualified",
+      "reason": "TIME (via reader proxy of time.com, Sept 30, 2026) says Collect & Praise, 'originally planned for his YouTube channel', 'has since been snapped up by Netflix' and Livestream From Hell 'drops on Prime Video at the end of September'. TIME ties the series to his megachurch-pastor character; the link to the specific January 2026 sketch is a reasonable bridge via RNS (Jan 20, 2026), not stated by TIME. Release still unconfirmed, and the prose correctly says 'was due'."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "No retraction found in Billboard Dec 2025 ('never any backlash'), TIME Sept 2026, DOAC, or the verifier's 2026-10-04 search. Tracked time_sensitive."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "Essence (Wayback copy): 'We tried to get Netflix, we tried to get Amazon, we tried to get Hulu.'"
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "Essence: 'Everything was a no, back to back to back to back to back'; VTT: 'instead of going and buying a car... I'm going to invest in myself.'"
+    },
+    {
+      "claim_id": "C181",
+      "verdict": "supported",
+      "reason": "Essence (Oct 2, 2025, Wayback copy; Cloudflare blocks direct fetch): 'Coulda Been Love, hit 80 million total views across seven episodes.'"
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "Forbes profile: '$20M, 2026 Top Creators Earnings, as of 6/23/26'; AfroTech 2023: Forbes Top Creators 2023, No. 20, '$10 million'."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOAC, S-DOACPOD, S-RS24."
+    },
+    {
+      "claim_id": "C154",
+      "verdict": "supported",
+      "reason": "VTT: 'I'm going to show them not by coming back and doubling back.'"
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "VTT 01:27:07-01:27:22 quote verbatim, including the hedge 'And maybe they don't want that.'"
+    },
+    {
+      "claim_id": "C186",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOACPOD, S-DOAC."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "Rolling Stone 2024: the next sentence after the 'kiss up to somebody' line is 'I think it's just amazing that I can create my fan base.'"
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-BBCOVER, S-AFRO."
+    },
+    {
+      "claim_id": "C187",
+      "verdict": "qualified",
+      "reason": "Labeled interpretation. The mentorship is verified in Rolling Stone 2024 ('With Hart's counsel, he set out on a 30-plus-stop tour'); the fear-of-going-solo admission is caption-only (Club Shay Shay). It is fairly weighted as one consideration that 'sits oddly', not as decisive."
+    },
+    {
+      "claim_id": "C188",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOACPOD, S-AFRO, S-RS24."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "Wikipedia: Cook Out Southern 500, Darlington, August 31, 2025; Rolling Stone via Yahoo: makeup 'took about four hours'; X syndication: posted 2025-09-02 with 'That Guy who is just Proud to be AMERICAN'; UNILAD: Instagram caption 'AM I CANCELLED ?????'."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "Billboard (Frank DiGiacomo, Sept 4, 2025): 'The acid test for comedians? Never apologize... and Druski just passed the test.' Two days after the Sept 2 post."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "Billboard cover Q&A (Dec 9, 2025) verified verbatim, answering about the NASCAR sketch."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "CBS Mornings captions: 'I think the greats have done it like Eddie Murphy, you look at Martin Lawrence'. Allhiphop (Feb 19, 2026) corroborates."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "X post (2026-03-25) and YouTube Short titled 'How Conservative Women in America act'; no name is used; The Nation and Complex report the 'undeniable resemblance' and Kirk's apparent response."
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "supported",
+      "reason": "YouTube Short transcript: 'Especially all white men in America... they are the ones who mattered most'; The Nation renders 'matter most', which the article quotes as The Nation's description."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "TIME (Sept 10, 2025): Kirk died 'after being shot at an event he was hosting at Utah Valley University'. 'About six months' before Mar 25, 2026 is correct."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "UnHerd (Mar 27, 2026): 'Senator Ted Cruz pronounced the video \"beneath contempt\".'"
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "The Conversation: author bio 'Associate Professor of History' at Deakin, which supports 'Historian'; the quote is verbatim."
+    },
+    {
+      "claim_id": "C143",
+      "verdict": "qualified",
+      "reason": "Daily Beast (Apr 1, 2026; Easter lunch held on Wednesday, Apr 1) quotes Trump: 'I think you should sue them... Sue their ass off'. None of the quoted words name Druski, though Daily Beast's own narration says he 'referenced a skit'. Druski told Bartlett he never knew whether it was about him, which supports 'without naming anyone' as a description of Trump's words."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "AOL/The Express (Mar 27, 2026): 'jokingly asked if he had gone \"too far\" in an Instagram post... The post appears to have been deleted.' A separate 'hits back' AOL item found by search is the same post plus 2024 ancestry remarks, not a new reply."
+    },
+    {
+      "claim_id": "C144",
+      "verdict": "supported",
+      "reason": "Complex (Trace William Cowen, July 6, 2026): headline 'Revives... Proud to Be American Character to Mark Fourth of July'; 'would appear to stem from a recent BET Awards promo shoot'. Hedge preserved; no link to Kirk asserted."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "VTT: 'I just, just left it alone'; 'I'm not looking to get sued by nobody' found in captions/VTT."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "Rolling Stone 2024: 'It's always coming from a good place'. CBS captions 1:09-1:42, answering 'is there a line in comedy that you will not cross': quotes verbatim, including 'even if it does seem that I crossed the line or that something went too far'. TIME: 'I'm not no politician... I'm just a funny guy.' DOAC brand-safety framing verified."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-BBCOVER, S-CBS, S-RS24, S-DOAC, S-DOACPOD, S-BBACID, S-UNILAD."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-CORB, S-YTKIRK, S-TIMEKIRK, S-NATION."
+    },
+    {
+      "claim_id": "C191",
+      "verdict": "supported",
+      "reason": "The Nation (Apr 29, 2026): 'Erika Kirk is fair game for parody. While she is indeed a widow, she's also...'. The author bio gives they/them. The paraphrase is marked as Jalloh's view; 'undeniably insensitive. But it's also undeniably funny' is verbatim."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "Rolling Stone 2024: the 2022 skit; 'Some commended Druski for calling out this behavior, while others felt that joking about rape was insensitive'; 'I just played the character too well'. Complex 2024 corroborates."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "Dexerto: Nov 27, 2024 Thanksgiving stream, boy as Pugsley, called 'fat' multiple times, Mafiathon 'month-long'; Atlanta Black Star quotes the mother: 'a 9-year-old'."
+    },
+    {
+      "claim_id": "C192",
+      "verdict": "supported",
+      "reason": "YouTube auto-captions: 13:59 '...want to have fat phobia when it come to the kid but not me'; 15:33-15:41 '...he's a kid... you right... I apologize'; 17:38-17:45 'I got a couple drinks for but that ain't no excuse bro... I really do apologize'. Speakers are unlabeled; the prose hedges ('a voice that appears to be Druski's')."
+    },
+    {
+      "claim_id": "C193",
+      "verdict": "supported",
+      "reason": "Dexerto: 'Kai also defended Druski, noting that he had apologized twice'; 'He knew he was wrong... He actually apologized for this one.'"
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "Dexerto: the apology 'hasn't sufficed' for the mother, who posted on TikTok; HotNewHipHop corroborates the TikTok reaction."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "Atlanta Black Star (Nov 30, 2024) reports the mother's slurs. The verifier's searches found no later Druski statement to her. Tracked time_sensitive."
+    },
+    {
+      "claim_id": "C146",
+      "verdict": "qualified",
+      "reason": "Sketch date and content match TIME (Ray Price character) and Us Weekly via Yahoo (Aug 28, 2026); Ward's 'life-taking disease' and Redd's objection are verified; TIME: 'Multiple professional athletes spoke out... calling the video insensitive.' The prose calls Ward a 'former NFL safety'. That is accurate, but the cited sources say only 'Former NFL player'/'Former NFL Star'."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "VTT: 'you can never show me something that I've done that was like, oh, that's punching down.'"
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-MAFIA, S-DEX, S-RS24, S-CBS, S-UNHERD, S-TIMENEXT, S-NYPJSN."
+    },
+    {
+      "claim_id": "C212",
+      "verdict": "supported",
+      "reason": "No direct reply to Cruz or Kirk found; his only direct response was the deleted 'too far' post (AOL). On DOAC he 'just left it alone' regarding Trump. Phrased as 'no direct reply', which avoids the unchecked LADbible reposting claim."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "FOX 11 (Mar 10, 2025): 'This allegation is a fabricated lie.' Dkt. 54 (Aug 19, 2025): 'almost certainly lack a factual basis'; phone and bank records place him in Georgia; reasonable basis at filing, so sanctions denied; OSC over the July 10, 2025 statements, which 'appear to have no reasonable factual basis'; motion filed May 9, 2025. Complex (Dec 17, 2025): dismissed without prejudice for failure to prosecute."
+    },
+    {
+      "claim_id": "C147",
+      "verdict": "supported",
+      "reason": "Labeled interpretation, dated 'as of October 2026'. The sanctions motion is verified (Dkt. 54) and the inference limit is explicit."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "VTT about 01:32-01:33: the turned-down cameos, 'a quick $2,000', 'I go grab this, but I'm thinking about my image'."
+    },
+    {
+      "claim_id": "C200",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOACPOD, S-DOAC."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "VTT 00:57: 'I really want to be number one. I'm not really falling victim to being okay with being cool with number two or three.'"
+    },
+    {
+      "claim_id": "C199",
+      "verdict": "supported",
+      "reason": "VTT about 00:58-00:59: greatness measured against Eddie Murphy, Kevin Hart, Kobe, Jordan, LeBron; 'just to be in that conversation and to be remembered and to leave a legacy, that's what matters.'"
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "Billboard Dec 2025, answering 'What do you think makes a star in 2025?': 'There's no days off... How can I outdo the guy who's somewhere in the world trying to outdo me?' Names no rival, as the article says."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "VTT about 00:54:53-00:55:02: 'I don't do any vacationing'; 'soothing to be in a chaos situation of work and juggling multiple projects at once'; 'No, not yet'; 'I'm very happy'."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "VTT: 'we have a closing tradition where the last guest leaves a question for the next'; he names Michael Jackson; quotes verbatim."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOAC, S-DOACPOD."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-CBS, S-NATION, S-RSMAKEUP, S-CXWB, S-EKIRK, S-BBCOVER."
+    },
+    {
+      "claim_id": "C151",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOACPOD, S-DOAC, S-CX21."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "Same VTT passage as C65, verbatim."
+    },
+    {
+      "claim_id": "C203",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-TIMENEXT, S-DOACPOD, S-DOAC."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "Complex (June 10, 2026): 'youngest host in the event's 25-year history... June 28'; TIME100 Creators: 'became the youngest host in BET Awards history'. 'Then' dates it."
+    },
+    {
+      "claim_id": "C204",
+      "verdict": "supported",
+      "reason": "Complex (citing Deadline): 'slated to arrive in theaters on May 21, 2027... portray a security guard working for Stone's character'; tour per Rolling Stone 2024."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "Consequence: 'debuted the sketch online while he was hosting the 2026 BET Awards... he wears heavy makeup while portraying the Jackson family patriarch.'"
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "VTT plays the 'Fix your face, Michael, before I fix it for you' clip, then: 'that was some aspects of Joe Jackson that my dad had. Some personality'; captions 1:46:36: 'It wasn't hard to uh to rip that belt off, man. I've seen it before.' The 'uh' is dropped."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOAC, S-DOACPOD, S-JOE."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "qualified",
+      "reason": "Transcript-level claims are reproduced: DOAC quotes match the publisher VTT and the YouTube captions, and only shared words are quoted before 'perceive myself as a failure'. CBS and Mafiathon quotes match the YouTube captions. The verifier did not re-run the audio (Whisper) checks, so the audio clause rests on the editor's record."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "VTT: 'I became a superstar... You don't see the Drewski that you once saw, the social media guy.' Name spelling normalized. Dated review trigger present."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "Wikipedia: born September 12, 1994; Wikidata P569 +1994-09-12 (precision day). Consistent with AfroTech calling him 29 on Sept 26, 2023."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "Wikipedia: Columbia, Maryland; Wikidata P19: Q5092 (Baltimore). Both agree on Maryland, the precision used; the city is correctly left out."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "X syndication screen_name 'druski' (two posts); TikTok oEmbed author_url @druski. Instagram's page returned a login/error shell, but AfroTech 2023's embed reads 'A post shared by DRUSKI (@druski)'."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "Wikidata Q111671188 label 'Druski'; P345 nm11926377."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOAC, S-DOACPOD, S-GQ, S-BBCOVER."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "FAQ restates verified C80/C50 (GQ 2020 and DOAC 2026) and C57."
+    },
+    {
+      "claim_id": "C159",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOACPOD, S-DOAC, S-GQ. Embedded quotations matched in DOAC YouTube captions, DOAC publisher VTT."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-BBCOVER, S-RS24, S-CBS, S-DOAC, S-DOACPOD."
+    },
+    {
+      "claim_id": "C160",
+      "verdict": "supported",
+      "reason": "Each component verified: Essence (Netflix, Amazon, Hulu said no), DOAC ('not by coming back and doubling back'), AfroTech 2025 ('we can do this by ourselves'), no retraction as of October 2026. Dated."
+    },
+    {
+      "claim_id": "C210",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOACPOD, S-DOAC. Embedded quotations matched in DOAC YouTube captions, DOAC publisher VTT."
+    },
+    {
+      "claim_id": "C211",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-GQ, S-DOACPOD, S-DOAC. Embedded quotations matched in DOAC YouTube captions, DOAC publisher VTT."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "Same as C54: the verifier's web search on 2026-10-04 found no response from his father."
+    },
+    {
+      "claim_id": "C157",
+      "verdict": "supported",
+      "reason": "FAQ restates verified VTT quotes; the release date was confirmed by YouTube metadata."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "No apology or retraction found. The verifier's search on 2026-10-04 returned only the March-April 2026 coverage and the TIME 'I'm not no politician' line."
+    },
+    {
+      "claim_id": "C158",
+      "verdict": "supported",
+      "reason": "FAQ restates C144 with Complex's hedge intact."
+    },
+    {
+      "claim_id": "C209",
+      "verdict": "supported",
+      "reason": "CBS captions 1:42: 'even if it does seem that I crossed the line or that something went too far.'"
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "Complex (Dec 17, 2025): 'court docs dated Dec. 16'; dismissed 'due to \"failure to prosecute\"'; 'The dismissal is without prejudice'."
+    },
+    {
+      "claim_id": "C208",
+      "verdict": "supported",
+      "reason": "Dkt. 54 title 'ORDER DENYING MOTION FOR SANCTIONS AND ORDERING PLAINTIFFS TO SHOW CAUSE'; FOX 11: 'a fabricated lie'."
+    },
+    {
+      "claim_id": "C156",
+      "verdict": "supported",
+      "reason": "CourtListener search for 'Desbordes' (fetched 2026-10-04): the only case naming drew desbordes is Parham v. Combs; other hits are unrelated parties. State courts were not checked, as the claim states."
+    },
+    {
+      "claim_id": "C161",
+      "verdict": "supported",
+      "reason": "VTT: 'I've sat here 700 times or something... you're one of the first people to stop mid-conversation... you look like you had something to say there'. Speaker is Bartlett."
+    },
+    {
+      "claim_id": "C162",
+      "verdict": "supported",
+      "reason": "VTT, answering how his past bears on his career: 'How could I be broken if I feel like I've already gone to my furthest extent?'"
+    },
+    {
+      "claim_id": "C163",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-DOACPOD, S-DOAC."
+    },
+    {
+      "claim_id": "C164",
+      "verdict": "supported",
+      "reason": "YouTube captions place the 'who's the funniest... Mikey' exchange at 30:26-30:36, inside the 1805-1865 s embed window."
+    },
+    {
+      "claim_id": "C165",
+      "verdict": "supported",
+      "reason": "Captions: 'scamming circle' at 41:50 (2510 s), 'die trying' 42:55, goals list 43:59-44:03, all inside the 2510-2681 s window."
+    },
+    {
+      "claim_id": "C166",
+      "verdict": "supported",
+      "reason": "Captions: 'rip that belt off... I've seen it before' at 1:46:36, inside the 6347-6402 s window."
+    },
+    {
+      "claim_id": "C167",
+      "verdict": "supported",
+      "reason": "TIME100 Creators 2026 page for Drew Desbordes (July 14, 2026)."
+    },
+    {
+      "claim_id": "C168",
+      "verdict": "supported",
+      "reason": "TIME (Sept 30, 2026) quote verbatim, given in response to athletes' criticism of the Ray Price sketch."
+    },
+    {
+      "claim_id": "C213",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-TIMENEXT, S-USWARD."
+    },
+    {
+      "claim_id": "C169",
+      "verdict": "supported",
+      "reason": "TIME (Sept 30, 2026): watched Entertainment Tonight and TMZ, 'studying how paparazzi would follow stars around in the streets'; Gwinnett 'local celebrity'. The quoted phrase is TIME's narration and is attributed to TIME."
+    },
+    {
+      "claim_id": "C170",
+      "verdict": "supported",
+      "reason": "Complex (May 26, 2025): plays a 'white boy accepted by the Hood' per his Instagram caption; 'He dressed up in white face'."
+    },
+    {
+      "claim_id": "C172",
+      "verdict": "supported",
+      "reason": "TIME (Sept 30, 2026): 'You're looking at the modern-day Eddie Murphy or the modern-day Kevin Hart.'"
+    },
+    {
+      "claim_id": "C174",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the evidence it rests on was verified in the cited sources, and the prose states its limits. Sources: S-RS24, S-CBS, S-BBCOVER, S-DOACPOD, S-TIMENEXT."
+    },
+    {
+      "claim_id": "C175",
+      "verdict": "supported",
+      "reason": "VTT: 'I can only continue to push myself to higher levels.'"
+    },
+    {
+      "claim_id": "C176",
+      "verdict": "supported",
+      "reason": "FAQ restates C106 (AOL: 'appears to have been deleted')."
+    },
+    {
+      "claim_id": "C177",
+      "verdict": "supported",
+      "reason": "VTT: 'I left college around 21, 22.'"
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S-DOAC",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube captions for UhzI1fg8rCA, fetched 2026-10-04 with timestamps; upload_date 20260924 via yt-dlp; embed windows 1805/2510/6347 s checked"
+    },
+    {
+      "source_id": "S-DOACPOD",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Publisher VTT (rss.flightcast.com), fetched 2026-10-04; full text searched at every cited passage"
+    },
+    {
+      "source_id": "S-GQ",
+      "opened": true,
+      "context_matches": true,
+      "locator": "gq.com article (Nov 11, 2020), fetched 2026-10-04; contest, first sketch Oct 2017, Statesboro, Nike shoot, grandmother passages"
+    },
+    {
+      "source_id": "S-AFRO",
+      "opened": true,
+      "context_matches": true,
+      "locator": "afrotech.com (published 2025-07-18 per metadata), fetched; 4Lifers and 'we can do this by ourselves'"
+    },
+    {
+      "source_id": "S-RS24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ca.rollingstone.com (Feb 22, 2024), fetched; Hart lede, 30-plus-stop tour, 'kiss up' and next sentence, 2022 skit paragraph"
+    },
+    {
+      "source_id": "S-BBCOVER",
+      "opened": true,
+      "context_matches": true,
+      "locator": "billboard.com cover Q&A (Dec 9, 2025), fetched; 'never any backlash', 'makes a star' answer, 4Lifers"
+    },
+    {
+      "source_id": "S-TIMENEXT",
+      "opened": true,
+      "context_matches": true,
+      "locator": "time.com TIME100 Next (Sept 30, 2026) via r.jina.ai reader proxy (406 on direct fetch); full article text"
+    },
+    {
+      "source_id": "S-BBACID",
+      "opened": true,
+      "context_matches": true,
+      "locator": "billboard.com (Sept 4, 2025), fetched; 'acid test' lede"
+    },
+    {
+      "source_id": "S-NATION",
+      "opened": true,
+      "context_matches": true,
+      "locator": "thenation.com (Apr 29, 2026), fetched; Kirk resemblance, 'matter most', Jalloh quotes and they/them bio"
+    },
+    {
+      "source_id": "S-POSTCOURIER",
+      "opened": true,
+      "context_matches": true,
+      "locator": "postandcourier.com (Sept 4, 2025), fetched; Darlington whiteface coverage"
+    },
+    {
+      "source_id": "S-UNILAD",
+      "opened": true,
+      "context_matches": true,
+      "locator": "unilad.com (Sept 5, 2025), fetched; 'AM I CANCELLED ?????' Instagram caption"
+    },
+    {
+      "source_id": "S-EKIRK",
+      "opened": true,
+      "context_matches": true,
+      "locator": "complex.com (Apr 29, 2026), fetched; 'Turning Point CEO'; apparent call-out"
+    },
+    {
+      "source_id": "S-ENQ",
+      "opened": true,
+      "context_matches": true,
+      "locator": "nationalenquirer.com (Mar 28, 2026), fetched; Kirk-sketch coverage"
+    },
+    {
+      "source_id": "S-UNHERD",
+      "opened": true,
+      "context_matches": true,
+      "locator": "unherd.com (Mar 27, 2026), fetched; Cruz 'beneath contempt'"
+    },
+    {
+      "source_id": "S-TIMEKIRK",
+      "opened": true,
+      "context_matches": true,
+      "locator": "time.com (Sept 10, 2025) via r.jina.ai reader proxy; shot at Utah Valley University event"
+    },
+    {
+      "source_id": "S-CBS",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CBS Mornings YouTube captions (zoQcSg4OrtE), 1:09-1:42 line question and answer; 'the greats have done it'"
+    },
+    {
+      "source_id": "S-ESS",
+      "opened": true,
+      "context_matches": true,
+      "locator": "essence.com via Wayback snapshot (Cloudflare 403 on direct fetch); Coulda Been Love 80M views; Netflix/Amazon/Hulu quote"
+    },
+    {
+      "source_id": "S-MAFIA",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto-captions for tdIWAgAkHYI with timestamps (13:59, 15:33-15:41, 17:38-17:45); speakers unlabeled"
+    },
+    {
+      "source_id": "S-AOL",
+      "opened": true,
+      "context_matches": true,
+      "locator": "aol.com/The Express (Mar 27, 2026), fetched; 'too far' post 'appears to have been deleted'"
+    },
+    {
+      "source_id": "S-NYPJSN",
+      "opened": true,
+      "context_matches": true,
+      "locator": "NY Post via Yahoo Sports (Feb 19, 2026), fetched; 'Sometimes you can go too far' headline"
+    },
+    {
+      "source_id": "S-CX21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "complex.com 2021 profile, fetched; depression quote, airline-pilot father, Gwinnett"
+    },
+    {
+      "source_id": "S-JASMINE",
+      "opened": true,
+      "context_matches": true,
+      "locator": "thejasminebrand.com (Sept 24, 2026), fetched; father/brother/coping account relayed from DOAC"
+    },
+    {
+      "source_id": "S-WIKI",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia Druski, fetched 2026-10-04; birth date, Columbia MD, education"
+    },
+    {
+      "source_id": "S-LNCL",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia Laugh Now Cry Later, fetched; video released Aug 13, 2020, shot at Nike Beaverton"
+    },
+    {
+      "source_id": "S-SHAY",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Club Shay Shay YouTube captions (E7J2R5zOfD8), about 36:00-38:40 ('you could say that' at 38:32); captions only"
+    },
+    {
+      "source_id": "S-TIME",
+      "opened": true,
+      "context_matches": true,
+      "locator": "time.com TIME100 Creators page (July 14, 2026) via r.jina.ai reader proxy (time.com returns 406 to curl); 2019 Coulda Been Records; youngest BET host"
+    },
+    {
+      "source_id": "S-HARLOW",
+      "opened": true,
+      "context_matches": true,
+      "locator": "stories.complex.com page 12, rendered with headless Chrome 2026-10-04 (curl gets a JS shell); Harlow Q&A answer"
+    },
+    {
+      "source_id": "S-ORDER54",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Dkt. 54 PDF (Aug 19, 2025), fetched and pdftotext; title, pp. 1-2 OSC, p. 5 Georgia records, May 9, 2025 motion"
+    },
+    {
+      "source_id": "S-RNS",
+      "opened": true,
+      "context_matches": true,
+      "locator": "religionnews.com (Jan 20, 2026) via Wayback snapshot (Cloudflare 403 direct); megachurch-pastor skit"
+    },
+    {
+      "source_id": "S-CXWB",
+      "opened": true,
+      "context_matches": true,
+      "locator": "complex.com (May 26, 2025), fetched; 'white boy accepted by the Hood' whiteface skit"
+    },
+    {
+      "source_id": "S-FORBES",
+      "opened": true,
+      "context_matches": true,
+      "locator": "forbes.com profile, fetched; '$20M 2026 Top Creators Earnings as of 6/23/26'"
+    },
+    {
+      "source_id": "S-AFRO23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "afrotech.com 2023, fetched; Forbes 2023 No. 20, $10 million; '@druski' embed"
+    },
+    {
+      "source_id": "S-RSMAKEUP",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Rolling Stone via Yahoo (Sept 4, 2025), fetched; makeup took about four hours; post caption"
+    },
+    {
+      "source_id": "S-SO500",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia 2025 Cook Out Southern 500, fetched; August 31, 2025, Darlington"
+    },
+    {
+      "source_id": "S-XSYND-NASCAR",
+      "opened": true,
+      "context_matches": true,
+      "locator": "X syndication JSON for post 1963017485114040343; created_at 2025-09-02; caption; screen_name druski"
+    },
+    {
+      "source_id": "S-SLATE",
+      "opened": true,
+      "context_matches": true,
+      "locator": "slate.com (Sept 4, 2025), fetched; makeup artist Kaylee Kehne-Swisher interview"
+    },
+    {
+      "source_id": "S-AHH",
+      "opened": true,
+      "context_matches": true,
+      "locator": "allhiphop.com (Feb 19, 2026), fetched; whiteface defense quoting CBS"
+    },
+    {
+      "source_id": "S-YTKIRK",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube Short transcript (JbZIlQdjzu0); 'all white men in America... they are the ones who mattered most'"
+    },
+    {
+      "source_id": "S-XSYND-KIRK",
+      "opened": true,
+      "context_matches": true,
+      "locator": "X syndication JSON for post 2036953526811930846; created_at 2026-03-25; title text; screen_name druski"
+    },
+    {
+      "source_id": "S-BCKIRK",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Breakfast Club YouTube captions (mjv5JlSQIqQ); hosts discuss the sketch as aimed at Erika Kirk"
+    },
+    {
+      "source_id": "S-CORB",
+      "opened": true,
+      "context_matches": true,
+      "locator": "theconversation.com, fetched; quote and author bio (Associate Professor of History, Deakin)"
+    },
+    {
+      "source_id": "S-DBTRUMP",
+      "opened": true,
+      "context_matches": true,
+      "locator": "thedailybeast.com (Apr 1, 2026), fetched; Easter lunch on Wednesday; 'Sue their ass off'"
+    },
+    {
+      "source_id": "S-PROUD",
+      "opened": true,
+      "context_matches": true,
+      "locator": "complex.com (July 6, 2026), fetched; Fourth of July revival; hedged BET promo origin"
+    },
+    {
+      "source_id": "S-CX2022",
+      "opened": true,
+      "context_matches": true,
+      "locator": "complex.com 2024 relay of the Rolling Stone 2022-skit remarks, fetched"
+    },
+    {
+      "source_id": "S-DEX",
+      "opened": true,
+      "context_matches": true,
+      "locator": "dexerto.com (Nov 28, 2024), fetched; Pugsley, 'fat', apologized twice, Cenat quote, month-long Mafiathon"
+    },
+    {
+      "source_id": "S-HNHH",
+      "opened": true,
+      "context_matches": true,
+      "locator": "hotnewhiphop.com (Nov 29, 2024), fetched; apology and mother's TikTok reaction"
+    },
+    {
+      "source_id": "S-ABS",
+      "opened": true,
+      "context_matches": true,
+      "locator": "atlantablackstar.com (Nov 30, 2024), fetched; mother's slurs; '9-year-old'"
+    },
+    {
+      "source_id": "S-USWARD",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Us Weekly via Yahoo (Aug 28, 2026), fetched; Ward and Redd objections"
+    },
+    {
+      "source_id": "S-DOCKET",
+      "opened": true,
+      "context_matches": true,
+      "locator": "courtlistener.com docket page for Parham v. Combs, fetched; entries for the May 2025 sanctions filings; the Dec 16 dismissal is confirmed via S-CXDISMISS"
+    },
+    {
+      "source_id": "S-FOXLA",
+      "opened": true,
+      "context_matches": true,
+      "locator": "foxla.com (Mar 10, 2025), fetched; 'This allegation is a fabricated lie'"
+    },
+    {
+      "source_id": "S-CATCH",
+      "opened": true,
+      "context_matches": true,
+      "locator": "complex.com (June 10, 2026), fetched; BET youngest host June 28; The Catch May 21, 2027; Stone's security guard"
+    },
+    {
+      "source_id": "S-JOE",
+      "opened": true,
+      "context_matches": true,
+      "locator": "consequence.net (June 2026), fetched; JOE debuted during BET hosting; heavy makeup"
+    },
+    {
+      "source_id": "S-WIKIDATA",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikidata Q111671188 JSON; label Druski, P569 1994-09-12, P19 Q5092, P345 nm11926377"
+    },
+    {
+      "source_id": "S-IGMETA",
+      "opened": true,
+      "context_matches": true,
+      "locator": "instagram.com/druski/ fetched 2026-10-04 but returned a login/error shell with no profile text. The @druski handle claim (C78) is independently confirmed by AfroTech 2023's Instagram embed ('A post shared by DRUSKI (@druski)'), the X syndication screen_name and the TikTok oEmbed."
+    },
+    {
+      "source_id": "S-TTOEMBED",
+      "opened": true,
+      "context_matches": true,
+      "locator": "TikTok oEmbed JSON; author_url @druski; 'Mega Church Pastors LOVE Money' title"
+    },
+    {
+      "source_id": "S-CXDISMISS",
+      "opened": true,
+      "context_matches": true,
+      "locator": "complex.com (Dec 17, 2025), fetched; 'court docs dated Dec. 16', failure to prosecute, without prejudice"
+    },
+    {
+      "source_id": "S-CLSEARCH",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CourtListener RECAP search 'Desbordes', fetched 2026-10-04; only Parham v. Combs names him"
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Body now says sanctions were declined only for the filing (reasonable basis when filed) and quotes the OSC finding 'appear to have no reasonable factual basis'. Both verified in Dkt. 54 pp. 1-2. FAQ 5 adds his 'fabricated lie' denial (FOX 11). The OSC outcome is marked not located in C37/C208 and research_tasks."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Every use of the July 2026 clip (body, FAQ 4) names the NASCAR character, the Fourth of July and Complex's hedged BET-promo origin. No sentence ties it to Kirk, and the 'unexplained' escalation now rests on 2025 and March 2026. Verified against Complex July 6, 2026."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "The CBS concession 'even if it does seem that I crossed the line or that something went too far' is quoted (CBS captions 1:42, answering the line question), and 'has held since 2024' replaces 'hasn't changed in years'."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Two apologies with stream timestamps (15:33-15:41, 17:38-17:45 in the captions) and Cenat's statement (Dexerto) are now in the passage."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Now matches Rolling Stone's 'Some commended Druski for calling out this behavior'."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "The 'can't trust it' line is removed from the Eight case. No passage now presents it as general distrust, and the context is recorded in type_hypothesis.unexplained."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "The question is attributed to critics, and The Nation's counterargument (Jalloh) is given with verified quotes. No unattributed authorial verdict remains."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "United Airlines removed; 'an airline pilot' matches TIME and Complex 2021."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Names Coulda Been Love (80M, Essence), quotes 'Now they want to purchase these shows' (VTT 01:26), reports Netflix's Collect & Praise pickup and the Livestream From Hell due date (TIME), identifies the January 2026 megachurch sketch, and leaves the bidding-war line unattributed. 'Was due' is more accurate than the test's 'was on Prime Video', since release is unconfirmed."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Hart's 'stop being a bitch' push and the 30-plus-stop tour are linked to Rolling Stone 2024; the Club Shay Shay admission is flagged as caption-based; the weighing is one sentence and not decisive."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "The Billboard line is now 'the unnamed competitor', quoted later as his answer to what makes a star; the discriminator measures against the greats ('in that conversation'). The reason for omitting the caption-only peer-beef remark is recorded."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": false,
+      "reason": "The 2 Bears, 1 Cave URL was removed (branch met), but the test's last sentence, 'Every frontmatter citation should correspond to something in the body', is not met. citations still include https://www.complex.com/pop-culture/a/treyalston/jack-harlow-druski-nutritionist (S-RUBI), which no body passage or claim uses. The resolution's statement that every remaining citation corresponds to the body is inaccurate. See verify-02."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "The Theo Von praise was dropped, which the test allows."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "The rejection is justified: the father is a private person, the 2023 passage is auto-captions with unlabeled speakers and was not checked by ear (the test's own example reason), and the forgiveness paragraph does not imply the 2026 account was his first public word. FAQ 3 was generalized so a checked account can be added later."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "The closing section says the tour came earlier and the movie is pending: a supporting role as Emma Stone's security guard, May 21, 2027 (Complex citing Deadline). It does not call him the star."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "The type section concedes an Eight wants the top spot too and places the discriminator in being ranked, watched and seen as capable, with GQ 2020, Rolling Stone 2024 and follower-count instances; the Billboard line is described correctly."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Body names the leverage reading of 'in reverse' and ends 'On ownership, the evidence is mixed'; FAQ 2 quotes both halves and rests the call elsewhere."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "The defense is framed as answers to interviewers who asked (CBS line question, DOAC brand safety); 'would owe them no account' is gone; FAQ 2 calls this leg weak evidence."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Same fix as subject-02, verified against Complex July 6, 2026."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "The type section notes the failure stake comes from one answer taped during a promotional run; 'Great was Bartlett's word' is verified at VTT 00:52:53; the incentive caveat is applied to the Three-side quotes in the unexplained section; confidence stays medium."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Same fix as subject-06: the line is out of the Eight paragraph."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "'Got silence' is now 'got no direct reply'; the unverified LADbible reposting claim is recorded as unchecked in C82/C212 and research_tasks."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "The stream passage shows the pushback, the prompt 'he's a kid', then the apologies, with speaker uncertainty stated; captions confirm the sequence. The bleeped word is omitted with a recorded reason."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": false,
+      "reason": "Only partly met. Met: the Eight case at full strength appears once, in the ownership section; 'If the evidence stopped here' is gone; exactly four H2 sections end on a type verdict (type, ownership, apologies, unexplained). Not met: (1) the body is 4,390 words by the checkDraft count, longer than the 4,321 the reviewer flagged as too long and above the test's 4,000 ceiling; (2) the whiteface and apologies sections each still carry several Eight/Three weighing sentences (whiteface: 'The sketches are the Eight case's strongest evidence...', 'His defense does little to offset them...', 'Legal caution explains...'; apologies: 'That cuts against this page's reading...', the sanctions sentence); (3) the length cuts came partly from scenes and quotes (Smith-Njigba, the mother's on-air answer, the intimacy line), while repeated adjudication stayed: the brand/incentive caveat recurs in the image, whiteface, apologies and unexplained sections. The editor flagged this as open. See verify-01."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "The section states the record and its limit once at the top, then runs repairs, the counterexample, silences and the fight in order; the CTE counterevidence and plainer explanations remain."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "The type section now ends on a one-sentence pointer to the criticism test, which it calls weaker; the Seven alternative is addressed in four places."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Erika Kirk glossed in 7 words at first mention (verified against The Nation); Mafiathon 2 glossed (Dexerto 'month-long'); the previous-guest tradition explained (VTT 'closing tradition'). Smith-Njigba was removed."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Coulda Been Love and the 80M figure (Essence) appear at the self-funding passage, and the companies' return is stated (DOAC, TIME)."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "'The year passed with no TV and no sketches; \"I didn't do it immediately\"' is verified at VTT 00:41; his clarification stays next to the suicide statement."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "The description (160 chars) lists the secret contest, follower counts and 'no plan B'; each matches a body passage; no suicide reference in metadata."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "The type section and FAQ 1 name verdict-dependence as the test and concede that wanting to be first fits an Eight; FAQ 2 rests on the poll, follower counts and 'in that conversation'; 'drive for rank' is gone; the 'years apart' sentence covers only the rank thread. FAQ 2 does not repeat the Eight concession explicitly, but no sentence presents rank alone as deciding."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Defense framed as answers to interviewers; 'owe them no account' and 'An Eight would more likely have taken on Cruz' are removed; the Cruz silence appears once; the leg is called weak where used."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "'In reverse' is named as leverage; 'The motive shows' is replaced by 'On ownership, the evidence is mixed'; FAQ 2 keeps the reversal half."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Seven is added, and the room-reading line includes 'any type of happiness, sadness, anything' (VTT 00:12:06-09), framed as Six/Two/Three-compatible."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "The answer box describes the Eight through self-funding rather than re-pitching (an off-camera behavior); about 56 words; checkDraft passes."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "The cameo refusal is framed as a costly choice, with the brand-language caveat at the point of use; the heavyset line is dropped."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Full 'juggling multiple projects at once' quote, plus 'as much a Seven's pleasure as a Three's'."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "(a) The answer box avoids 'number one' and 'failure'; (b) the type section attributes the failure stake to one 2026 answer; (c) FAQ 1 says so; (d) the GQ 2020, Rolling Stone 2024 and Billboard Dec 2025 legs survive deletion of the DOAC/TIME claims, recorded in the discriminator."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "The July 2025 AfroTech quote (verified, published 2025-07-18) is dated; the September 2026 framing is dated; the business leg is downgraded to mixed; FAQ 2 dates the 2025 quote."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "FAQ 2 carries 'As of October 2026' and 'From 2022 to 2026'; C160 and C122 are time_sensitive with triggers and are listed in research_tasks."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "The Cruz line is removed; 'has held since 2024' and 'as of October 2026' added; C32 and C147 are time_sensitive with falsifier triggers."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "'On August 26, 2026' and 'In December 2025' (twice) are in the body."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "C113 has the September 2031 trigger; C146's trigger is live-only and its inference no longer says the paragraph was removed."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "FAQ 3 is 'What has Druski said about his father?' and dates the September 24, 2026 episode."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "The boy who tried to cheer his brother up after the beatings now plays the man holding the belt, as a bit.",
+      "preserved": true,
+      "reason": "Kept verbatim as the close after the 'I've seen it before' exchange (captions 1:46:36)."
+    },
+    {
+      "passage": "None of this settles his type, and this page doesn't claim the house made him a Three.",
+      "preserved": true,
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "Asked on Diary of a CEO what he had meant, he said, \"I was chasing being great,\" and that he would otherwise \"perceive myself as a failure.\" He added, \"I knew I wasn't going to kill myself.\"",
+      "preserved": true,
+      "reason": "Kept verbatim with the clarification adjacent; the added 'Great was Bartlett's word' sentence strengthens it."
+    },
+    {
+      "passage": "He also credits his father, who grew up in the \"project buildings\" of Northeast DC: \"The lessons he had were very good.\" The episode came out on September 24, 2026; a search on October 4, 2026, found no public response from his father, a private person.",
+      "preserved": true,
+      "reason": "Kept verbatim, including the dated October 4, 2026 check."
+    },
+    {
+      "passage": "The sanctions motion was the clearest counterpunch on record, but anyone would fight a sexual-assault accusation that records contradict.",
+      "preserved": true,
+      "reason": "Only 'as of October 2026' added; the inference limit is unchanged."
+    },
+    {
+      "passage": "When the answer wasn't him, he pushed. \"Like, why is Mikey funnier than me? Tell me why.\"",
+      "preserved": true,
+      "reason": "Kept verbatim in the hook."
+    },
+    {
+      "passage": "Filming sketches around his mother's house, he gave her follower counts. Had he made any money? \"No but I have people watching.\"",
+      "preserved": true,
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "An Eight builds his own company so that nobody can control him. Druski describes building his so that the companies that said no would see what he could do.",
+      "preserved": true,
+      "reason": "First sentence verbatim; the second now dates the two accounts (July 2025 vs September 2026). The same-act, two-motives contrast survives, correctly downgraded per future-02/critic-02."
+    },
+    {
+      "passage": "It also skips the harder question: whether a sketch titled for a category, but widely read as one identifiable, recently widowed woman, still hits its target. Corbould's argument settles who holds power, not that.",
+      "preserved": true,
+      "reason": "Now 'The defense also skips the question his critics kept raising...', with 'Corbould's argument settles who holds power, not that' kept and The Nation's counterargument added. It still refuses to let the expert defense close the question."
+    },
+    {
+      "passage": "Set those beside what he told Bartlett: \"you can never show me something that I've done that was like, oh, that's punching down.\" The stream is the obvious counterexample.",
+      "preserved": true,
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "The rule is fitted after the fact, and the silences have plainer explanations: slurs, legal exposure, brand caution. An Eight would more likely have taken on Cruz. He hasn't.",
+      "preserved": true,
+      "reason": "The self-audit sentence is kept verbatim; the Cruz sentence was removed per enneagram-02/future-04, which this reviewer anticipated."
+    },
+    {
+      "passage": "None of this settles his type, and this page doesn't claim the house made him a Three. A child who comforts a sibling after a beating could become a Two, a Six or a Nine",
+      "preserved": true,
+      "reason": "List widened to include Seven; the refusal of a childhood-wound origin is retained."
+    },
+    {
+      "passage": "Bartlett saw it live: after some 700 interviews, he said, Druski was one of the first guests to stop mid-answer and say, \"You look like you had something to say there, Steve.\"",
+      "preserved": true,
+      "reason": "Kept verbatim; verified at the VTT ('700 times or something')."
+    },
+    {
+      "passage": "The kid running a private poll points somewhere else. He cared about the verdict, and he wanted to win it.",
+      "preserved": true,
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "An Eight could aim a vow at doubters too, and the list items were Bartlett's prompts. The telling part is the stake he volunteered: whether he would see himself as a failure.",
+      "preserved": true,
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "The biggest gap is still the whiteface. Playing white characters is an old, well-rewarded bit for him, so the willingness needs no explaining. The escalation does: full makeup, a sketch widely read as one recently widowed woman, and a July 2026 return to the look after she appeared to call it out on air. Maybe views are his scoreboard, but that is a guess; an Eight who refuses to be cowed explains the return more directly.",
+      "preserved": true,
+      "reason": "The July clip was removed from the escalation (source ties it to a BET promo); the concession that an unbowed Eight explains the escalation more directly is kept."
+    },
+    {
+      "passage": "Even the forgiveness is framed as forward motion: \"I cannot look for more success and look for the light at the end of the tunnel without forgiving any and everything in my past.\"",
+      "preserved": true,
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "The Three reading is the best fit for what he says he wants. It is not a full account of the man.",
+      "preserved": true,
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "He had described the same contest to [GQ](https://www.gq.com/story/druski-hip-hop-favorite-comedian-drake-jack-harlow-odell-beckham-jr) six years earlier: \"Some kids would be like, yo I wanna be best dressed or I wanna be the best athlete. I used to literally say in my mind in elementary school, 'I wanna be the funniest this year, I wanna be the funniest kid in the class.'\"",
+      "preserved": true,
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "That holds in sources years apart: the funniest-kid contest he described to GQ in 2020, the rival he told Billboard in December 2025 he wanted to \"outdo,\" and the \"number one\" goal he gave Bartlett in 2026.",
+      "preserved": true,
+      "reason": "Now 'The rank thread holds in sources years apart...', with each leg still dated and 'the rival' corrected to 'the unnamed competitor'."
+    },
+    {
+      "passage": "From 2022 to 2026, Druski rarely argued back.",
+      "preserved": true,
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "On June 28, 2026, he hosted the BET Awards, then the youngest host in the show's history, checking off a goal from the list he wrote at 23.",
+      "preserved": true,
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "Bartlett asked him to picture the next five years as already done. \"I became a superstar,\" Druski said. Then he described who would be gone: \"You don't see the Druski that you once saw, the social media guy.\"",
+      "preserved": true,
+      "reason": "Kept verbatim as the final beat."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 9.0,
+      "reason": "Traceable, context-faithful and unusually independent. All 87 quote-bearing claims matched fresh fetches of their cited sources (publisher VTT, YouTube captions, court PDF, outlet pages), and spot checks of dates, figures and legal steps held. The hook is double-sourced (GQ 2020 + DOAC 2026), contested matters are attributed with responses (Dkt. 54's findings both ways, Cenat's defense, Jalloh vs Corbould), and transcript disagreements and caption-only quotes are disclosed in the prose. Small traceability gaps: Ward's 'safety', and the series-to-January-sketch bridge.",
+      "passage": "She declined to sanction the lawyers for naming him, finding they had a reasonable basis when they filed, but ordered them to show cause why they should not be sanctioned for pressing the claims after receiving his records, allegations she said \"appear to have no reasonable factual basis.\""
+    },
+    "enneagram": {
+      "score": 8.2,
+      "reason": "A motive-level argument with a seriously tested alternative. It concedes that rank does not separate Three from Eight, puts the deciding test in verdict-dependence with pre-2026 instances, marks ownership mixed, rates criticism-handling as weak, and admits the largest costly choice (the whiteface escalation) favors Eight. It addresses Seven and the 2/6/9 childhood readings, and medium confidence is stated and justified. Limits: some Three instances are soft ('I'ma prove it to y'all' is Eight-compatible, as the text admits), and the costly choices favoring Three (the $2,000 cameo refusal) are fewer than those favoring Eight, so the call rests mainly on self-reported aims.",
+      "passage": "Wanting to be first can't show that, since an [Eight](/enneagram-corner/enneagram-type-8) wants the top spot too. The difference is what the win is for. An Eight wants to be beyond anyone's control; a [Type 7](/enneagram-corner/enneagram-type-7) wants options and an exit from limits. Druski keeps asking to be ranked, watched and seen as capable."
+    },
+    "originality": {
+      "score": 9.0,
+      "reason": "Built from details specific to this person, not type boilerplate: the secret classroom poll and 'Mikey', the Mark Twain Award, follower counts given to his mother, the $2,000 cameos, Bartlett's 700-interview observation, the Michael Jackson persona answer. It closes on a verified, unresolved contradiction (the comforting brother now plays the man with the belt) that survives the type argument.",
+      "passage": "On Diary of a CEO, Bartlett played him the moment when Joe threatens to take off his belt: \"Fix your face, Michael, before I fix it for you.\" \"Yeah, that was some aspects of Joe Jackson that my dad had,\" Druski said. \"Some personality.\" Then: \"It wasn't hard to rip that belt off, man. I've seen it before.\""
+    },
+    "writing": {
+      "score": 7.8,
+      "reason": "The first half has strong progression and varied pacing (house, lost semester, vow, robbery, goals list) in precise, quote-led prose. The back half still runs in a courtroom rhythm: the ownership section rules Eight, then mixed, in five consecutive moves; the incentive caveat recurs four times; the whiteface and apologies sections stack weighing sentences and a dozen named actors. At 4,390 words it exceeds the roughly 3,500 target, and the length comes from repeated rulings rather than new evidence.",
+      "passage": "The sketches are the Eight case's strongest evidence: a large public risk, repeated and, as of October 2026, never taken back, with taunts in place of apologies. His defense does little to offset them: each line answered an interviewer, and with brand partners watching, any comedian would talk about intent."
+    },
+    "durability": {
+      "score": 8.8,
+      "reason": "Absolute dates throughout. Every running total is dated ('as of October 2026', 'From 2022 to 2026', 'then the youngest host') and tracked with triggers. The thesis survives deleting the September 2026 promotional week, because the GQ 2020 contest, Rolling Stone 2024 and Billboard Dec 2025 legs remain. The close is a dated forecast checkable in 2031. Residual upkeep: Livestream From Hell, The Catch and Collect & Praise release lines.",
+      "passage": "The rank thread holds in sources years apart: the funniest-kid contest he described to GQ in 2020, the unnamed competitor he told Billboard in December 2025 he wanted to \"outdo,\" and the \"number one\" goal he gave Bartlett in 2026."
+    },
+    "hook": {
+      "score": 9.0,
+      "reason": "A specific, sourced scene (a child secretly polling classmates and demanding reasons) that is corroborated six years earlier and pays off in the 'verdict' thesis and the follower-count detail. The first sentence's podcast framing is a slightly slow way in.",
+      "passage": "When the answer wasn't him, he pushed. \"Like, why is Mikey funnier than me? Tell me why.\""
+    },
+    "discoverability": {
+      "score": 8.5,
+      "reason": "meta_title (60 chars) leads with 'Druski Enneagram Type 3'; the description (160 chars) matches the body; the H2 type heading is followed by a 56-word answer; five useful, dated FAQs cover the questions searchers ask (type, why not 8, father, apology, Diddy suit) with anchors that match the H2 slugs; internal links go to the Type 3/7/8 pages and to Kevin Hart, Drake, Eddie Murphy and Kai Cenat. Minor: one stray citation (verify-02), and the title omits 'Enneagram' (the meta_title carries it).",
+      "passage": "Druski most likely fits Enneagram Type 3, the Achiever, at medium confidence. He runs on other people's verdict: as a boy he polled classmates on who was funniest, and before he made any money he counted followers. Type 8 is the strongest alternative: he self-funded his shows rather than re-pitch the studios that turned him down."
+    }
+  }
+}

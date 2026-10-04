@@ -1,0 +1,22 @@
+I've finished the Druski draft stage and written both files to the run folder. The evidence file passes the contract's checks against the draft: all 130 claims match exact passages, status is `ready`, and the type is 3 with Type 8 as the alternative. `checkDraft` reports no blockers at 4,321 words. Nothing else in the repo was touched and nothing was published or graded.
+
+**What changed from the current page**
+- **Shorter and less repetitive.** It went from 4,450 to 4,321 words even with new material added. The last verifier marked the writing down for repeating the Three-vs-Eight argument in section after section. Now the type section states the deciding test once (what he says he's chasing: rank, and not failing) plus one supporting test (what he defends when criticized). The apologies section is the only place that lays out the pattern.
+- **New evidence from TIME's September 30 profile.** As a kid he studied how paparazzi followed stars on TMZ, people at home called him a "local celebrity," and he called himself "the modern-day Eddie Murphy." He also said "I'm such a fan of upgrading everything," which now leads into the Michael Jackson "changed his persona" answer.
+- **The CTE sketch is back as evidence against the Type 3 read.** It now runs with his answer to TIME ("some people can get sensitive to the subject matter"). The draft says plainly that this weakens the criticism test.
+- **The research stage's corrections are in:**
+  - The Harlow link now goes to page /12/.
+  - The "too far" post is described as one that "appears to have since been deleted," matching the source.
+  - The CBS quote keeps his opening "I think."
+  - The boy is now "a boy whose mother said he was nine."
+  - The "how could I be broken" line is his reply to other people, which he told Bartlett.
+  - Birth place is now "Maryland, United States."
+  - All check dates read October 4, 2026.
+- **Cut for length:** the Wahlberg/Chalamet cameos, the Essence view counts, the Netflix airport series, the mother's 2 Bears quote, and the "Druski vs. Drew" partner worry. Their sources stay in the evidence file, and so does the unverified LADbible reposting report, which isn't used.
+
+**Decisions for you**
+- **The Type 8 → 3 change still needs your approval before publishing.** The live page argues Type 8, and this draft keeps Type 3. I left that as an open research task rather than adding a publish blocker, because the editor stage can't resolve a decision that's yours to make.
+- **Before publishing:** re-check for any response from his father on or after October 24. Also re-check the October 4 dates (whiteface non-apology, the Mafiathon mother, the federal docket search) and run a state-court check.
+- **Six reviewers come next.** The risk flags (sensitive allegations, contested typing, the type change) mean the full jury runs, not the standard two.
+
+The supabase MCP server failed to connect this session, and several plugin connectors (GitHub, Linear, Ahrefs and others) need authorizing in your settings. This stage didn't need any of them.

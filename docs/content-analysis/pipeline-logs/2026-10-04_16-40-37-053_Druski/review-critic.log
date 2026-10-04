@@ -1,0 +1,19 @@
+I've written the critic review to `docs/content-analysis/pipeline-logs/2026-10-04_16-40-37-053_Druski/review-critic.json`. It passes the review schema, and every quoted passage appears word for word in the draft. I didn't change anything else in the repo and didn't publish anything.
+
+**Verdict:** Type 3 at medium confidence still holds up, but the two tests the draft uses to beat Type 8 each depend on a convenient reading of ambiguous or prompted quotes. To its credit, the draft is unusually honest about evidence against itself: it argues the Eight case at full strength and admits its apologies pattern was fitted after the fact.
+
+**Major findings (5):**
+1. **Being number one doesn't separate a Three from an Eight.** Eights compete for the top spot too. What actually points to a Three is whose verdict he chases: asking classmates who was funniest, "people watching," "thinking about my image." Also, the "outdo" quote was his answer to "what makes a star," not a reference to a specific rival.
+2. **The "show them" quote is read too generously.** In the full podcast transcript, the key words are "having them wanting what I did in reverse," said right after the studios that turned him down started bidding on his shows. That sounds as much like turning the tables (an Eight) as wanting to be seen (a Three). The "Why isn't Druski a Type 8?" FAQ quotes only the hedged "maybe they'll see" part.
+3. **The "from a good place" defense was always an answer to an interviewer.** On Diary of a CEO, Bartlett framed the question as advertiser "brand safety." So it doesn't show what he'd bother explaining to critics.
+4. **The July 2026 whiteface "revival" is told as defiance after Erika Kirk's remark, but its only source says otherwise.** Complex says the clip appears to come from a BET Awards promo shoot, it reported no backlash, and it was the NASCAR character, not the Kirk one.
+5. **Skepticism is one-sided.** The draft discounts Eight-side evidence for business incentives but never notes that its deciding Three quotes come from a promotional business podcast. Bartlett himself introduced the word "great" that Druski echoes in "I was chasing being great."
+
+**Minor findings (3):**
+- The "can't trust closeness" quote is filed as Eight evidence without his own explanation: fear rooted in his parents' marriage, and doubt whether partners love Druski or Drew.
+- "Cruz got silence" goes unchecked against reports that he reposted the clip and responses on X after Cruz's condemnation. The reports are weak, but nobody verified either way.
+- The Kai Cenat stream incident is smoothed over. In the draft's own record, a voice that fits Druski argued back at the room before he apologized, and the first apology came only after someone said "he's a kid."
+
+I opened the podcast transcript at every key passage, Rolling Stone 2024, Billboard's December 2025 cover story, Complex's July 2026 piece and UNILAD, and searched the web for the Cruz reposts. For the stream incident and the CBS interview audio I relied on the transcriptions already in the evidence file. The review flags sensitive allegations, contested typing and a type change from the live page's Type 8, so the full six-reviewer jury should run. The similarity check found no reused arguments.
+
+While working, I re-downloaded the podcast transcript to `/tmp/druski_doac.vtt`, overwriting an earlier copy of the same file there.

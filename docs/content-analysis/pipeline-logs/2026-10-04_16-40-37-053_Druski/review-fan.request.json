@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "Druski",
+  "mode": "refresh",
+  "role": "fan",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_16-40-37-053_Druski/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_16-40-37-053_Druski/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_16-40-37-053_Druski/similarity.json"
+  },
+  "outputs": {
+    "review-fan.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_16-40-37-053_Druski/review-fan.json"
+  },
+  "content_sha256": "f4a028dd458ec2c3de0c23dafae2772e104f2f36584dca681598c66ee79954af",
+  "evidence_sha256": "ac0520571b28254ff63ae802d83250e7827b800eecc755bf30346a415ee36701"
+}

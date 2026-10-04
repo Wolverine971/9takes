@@ -1,0 +1,50 @@
+{
+  "schema_version": 3,
+  "subject": "joseph-zada",
+  "mode": "refresh",
+  "started_at": "2026-10-04T19:27:11.981Z",
+  "stages": {
+    "research": {
+      "status": "complete",
+      "started_at": "2026-10-04T19:27:12.009Z",
+      "cache_key": "ddab30c423e77ab343c797d23d9994987f96e1de0d1428fcc1bb2b7fd71775f1",
+      "input_hashes": {
+        "baseline": "c884ab1a8c257bfccd0316ac47211396067c3c88cfeecf38b806d08cffd1bf8b",
+        "research_notes": "7d2cdfdf1d0fdbcd42061f2f6b3c434839ed497d1a8e4862884cdfefce2ee38f",
+        "prior_evidence": "fd876447a8d4153b009c91d2daefd36aed56c7c8428544352f5ca08525bba006",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "027b4aad69f14ec04ff1d9ebadc3772c9b88c48f01cc35f17b435a750655a654",
+        "command": "961aba5e7001672392f90715fb56ac94e38969654ad6d730cd838065425f7aa4",
+        "standard": "c5a11610a5249881e367276b5319c0c6ea0d9600c517795018fc60d216186c25",
+        "contract": "2e33f9feeca0a4ca14c78f1e58a40046b98f091981402947caca5ee1aa24ec51",
+        "runner": "ac14595ef7c7b8efea96d4ab762fab379cacfdb1d990264cbd64b3caefae8425"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "evidence.json": "2c9ac00bb2bc4cc86056552b7a4de53fda986e7b185afb137017dc698ad53975"
+      },
+      "finished_at": "2026-10-04T19:51:35.956Z",
+      "duration_seconds": 1464
+    }
+  },
+  "baseline_sha256": "35fd1faee677fe54eb82bb947d0036fde98783eb89f7a84911ebdf43a4ae3f29",
+  "materialized_sha256": "35fd1faee677fe54eb82bb947d0036fde98783eb89f7a84911ebdf43a4ae3f29",
+  "expanded": false,
+  "run_status": "held",
+  "editorial_status": "insufficient_evidence",
+  "current_stage": "research",
+  "blockers": [
+    "Research log (2026-10-04, second refresh): worked through the human seed brief (docs/content-analysis/research/joseph-zada.md). Opened 18 new sources: S45-S62 (S45, S49-S55 and S61-S62 transcribed from audio with Whisper after YouTube captions returned HTTP 429; S47, S48, S56 and S57 via reader proxy; S59 and S60 via AOL/Yahoo syndication of EW). Rechecked S02, S04, S10 and S30. Recorded S63 and S64 as unavailable. Added C191-C220 and C224-C226. Recoded C171 under a stated rule (verify-01), which withdraws 'more often structure than tuning out'. Corrections to the brief: Close's line (C19) is not about nerves; the MovieZine rituals are for reaching emotion, and 'release stress' is not in the audio (C210); 'I'm going to smash this' is probably McGregor's (C212); the TV Fanatic 'security blanket' passage is probably McGregor's by pitch analysis (C213); 'I don't know if I did find the levity' omits his own correction (S50); ET's 'so nervous for it to come out... it is fantastic' (C204) is a result-shaped settler the brief did not count; and EW and ET accounts of meeting Harrelson conflict with the THR dinner blank that opens the baseline (C216). Outcome: Type 6 remains the leading hypothesis at LOW confidence, Type 3 replaces Type 9 as the strongest alternative, and verify-02's acceptance test is not met. Status: insufficient_evidence. Because the alternative and the remedy argument change, major_thesis_change is set and the next draft needs --refresh --expanded-review.",
+    "After the November 20, 2026 Sunrise on the Reaping release, open at least three press-cycle interviews (November 2026 to January 2027), preferring long-form and non-junket ones. Code every statement about what steadied him through the release with C171's rule: results or reception (Three); named trusted people or structure arranged in advance (Six); tuning out or letting the team decide (Nine). Add the statements as claims, update C171's tally, and test C82 and C183. This is the most likely route to a discriminator.",
+    "Find named testimony from outside the co-star junket format describing what he did under a specific pressure: Miranda Harcourt (his coach, on the East of Eden set per S53), Laure de Clermont-Tonnerre or Garth Davis (East of Eden directors), Francis Lawrence (beyond S47's paraphrase of his 'own voice' note; check whether Lawrence has described the audition impression himself), Nicholas Verso (Invisible Boys), or Hal Cumpston. Search podcasts and director interviews as well as print. Open each source and record whether he sought people or structure, tuned the pressure out, or chased the result.",
+    "Transcribe Mckenna Grace's 43-minute Collider Ladies Night interview (S63, https://www.youtube.com/watch?v=s56VU0CWnfA). Audio downloads with yt-dlp worked on 2026-10-04 using --extractor-args 'youtube:player_client=mweb'; then run Whisper small.en. Grace had him to dinner nightly on the Sunrise shoot (C97), so look for an account of how he handled the shoot.",
+    "Verify by watching the two pitch-attributed passages: S62 at 03:26-04:31 (TV Fanatic: is the reception-based 'ease' Zada's, and is the 'security kind of blanket... Emily, are you happy?' passage McGregor's?), and S61 at 04:40-04:57 (MTV UK: is the 'best team in the world backing' answer Zada's rather than Shubham Maheshwari's?). If confirmed, add C213 and C220 to C171's tally (results +1; vetted team +1).",
+    "Resolve C216 before any draft reuses the opening hook: establish whether the EW 'asked him a bunch of questions' meeting (S60, August 2026), the ET phone call (S55, September 2026) and the THR dinner-party blank (S30, October 2026) are different encounters. If unresolved, a draft that opens on the blank must present the variation, or open elsewhere.",
+    "Reconcile the timing of the Harrelson impression (C198, C125): VF (S47) places it in the audition with Lawrence's correction, while THR (S30) places a two-month study after he signed and the departure at the start of shooting. A draft may present the sequence as 'impression to win, deeper study after signing, deliberate opposite on set' only if each step is attributed to its source.",
+    "Retry GQ Australia's December 2025 interview (S18) and the April 2026 'unstoppable rise' piece (S64) through a library database, PressReader or a syndicated copy. Both are still blocked by News Corp's bot wall.",
+    "Check for a costly or non-routine choice: whether the early-2027 move happened and where (THR says L.A.; VF says 'maybe LA or New York', C218), who drove it and whom he took; roles accepted or declined after the Sunrise release; and whether the dramedy with Hal (C167, C218) or the family production company (C122) advanced.",
+    "Drafting guidance for when the hold clears: present Six as a low-confidence lead, with Three named in the type answer as a live second reading and Nine close. Replace the C171, C165, C166, C178 and C180 passages with the supportable wording in C171. Drop Close as a remedy (C19). Never quote 'release stress', 'I'm going to smash this', the 'security blanket' remark, 'I don't know if I did find the levity' without its correction, or Joe Anders's 'considered an equal' (S53) as Zada's. Never use Kazan's 'self-loathing' as a trait (C219). Ignore VF's 'last year' for the name change (C02). Do not fix the age of the Romeo and Juliet production (14 per THR, about 15 per S45). Earlier guidance stands: keep the Arsenal reason with the move (C40); reflect 'all said in jest, but it's not untrue' (C100); do not name his girlfriend, including VF's details (C128); state the parents' divorce flatly if at all (C121); do not fix the cameleer's generation (C03); do not quote 'first time being on a set at all' as fact (C139); do not call The Speedway Murders his lead (C112).",
+    "Still open from earlier runs: find a source that prints the exact date of Julie Hosking's Invisible Boys set visit (S06; supported only as 'early 2024', C105). After the November 20, 2026 release, record reception and any date change (C37), the We Were Liars season 2 premiere date (C38; he wrapped the season on September 29, 2026 per S50), and whether the method-hedging persists (C21, C138, C208)."
+  ],
+  "finished_at": "2026-10-04T19:51:35.979Z"
+}

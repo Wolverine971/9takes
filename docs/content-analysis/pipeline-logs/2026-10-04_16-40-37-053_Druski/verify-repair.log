@@ -1,0 +1,24 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 4bc14678-b1d9-4fd3-b404-b290a1ba6217 to write outputs
+The Druski profile fails verification and stays on hold. I wrote `verification-repair.json` with status **revise**. It passes the contract's schema check, and running the release assessment on it returns not eligible with 37 blockers. I changed no other file.
+
+**Two new factual errors, both checked against the sources:**
+- **"'Great' was Bartlett's word" is false.** In the episode transcript, Druski says "I always wanted to be great" and talks about "pursuing greatness" about 25 seconds before Bartlett's recap. He says "because I want to be great" again later. An earlier reviewer suggested this line and the editor added it. The same mistake is repeated in the evidence record's type reasoning.
+- **FAQ 1 says the classroom-poll story was told to GQ in 2020. It wasn't.** GQ only has his private wish to be the funniest kid. Asking classmates who was funniest, and demanding reasons, appears only in the September 2026 interview. So the type section's "earlier verdict-seeking" overstates how much evidence predates that interview. FAQ 2's three deciding examples all come from that one interview too.
+- **Minor:** none of the cited sources says the Mafiathon mother's videos were on TikTok.
+
+**What I couldn't verify before the turn limit:**
+- YouTube blocked caption downloads, so the CBS Mornings, Club Shay Shay and Mafiathon stream quotes are unchecked.
+- I downloaded about 18 pages but didn't read them. The important ones are the Diddy-case court order and docket, the Fox LA "a fabricated lie" quote, the Harlow interview, and the BET Awards and The Catch dates.
+
+Those are marked as not verified, not as passed, and each has a specific research task.
+
+**Scores (my own read):** evidence 7.5, Enneagram 7.5, originality 9, writing 8, durability 8, hook 9, discoverability 7.5. That works out to 8.0 overall, below the 8.5 bar. Evidence and Enneagram are also below their required 8. Most quotes match their sources word for word. The scores drop because the two errors overstate how independent the Type 3 evidence is.
+
+Of the 47 review decisions, I accepted 42. Two rejections are for the errors above. Three more are rejections only because their tests require court-order or CBS checks I couldn't do. All 23 protected passages are preserved.
+
+Before you approve the 8-to-3 type change, fix the GQ claim in FAQ 1. It's the page's most visible answer, and it currently overstates the case.
+
+I did open `repair-findings.json` early in the session, which contains the previous stage's grades. I didn't use them, but you should know I saw them.
+
+Separately, several connectors (Asana, GitHub, Slack, Ahrefs and others) need re-authorizing in your claude.ai connector settings or via `/mcp`, and the Supabase server failed to connect. None of them were needed for this stage.

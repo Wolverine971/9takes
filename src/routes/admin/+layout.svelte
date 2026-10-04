@@ -77,8 +77,10 @@
 </script>
 
 {#if data.user?.admin}
-	<!-- The site preloads on tap; admin links start loading on hover so a click lands on ready data. -->
-	<div class="admin-layout" data-sveltekit-preload-data="hover">
+	<!-- Admin links fetch a page's code on hover; its data still loads on tap, like the rest of
+	     the site. Hover-preloaded data never expires (a link hovered minutes ago would open
+	     stale numbers), and every hover would run that page's full server load. -->
+	<div class="admin-layout" data-sveltekit-preload-code="hover">
 		<!-- Mobile Header -->
 		<header class="mobile-header">
 			<div class="mobile-title">

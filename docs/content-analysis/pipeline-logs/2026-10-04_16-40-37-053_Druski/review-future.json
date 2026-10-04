@@ -1,0 +1,86 @@
+{
+	"schema_version": 3,
+	"role": "future",
+	"content_sha256": "f4a028dd458ec2c3de0c23dafae2772e104f2f36584dca681598c66ee79954af",
+	"evidence_sha256": "ac0520571b28254ff63ae802d83250e7827b800eecc755bf30346a415ee36701",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "future-01",
+			"severity": "major",
+			"passage": "In interviews six years apart he describes the same drive: to be ranked the funniest, to be \"number one,\" and not to see himself as \"a failure.\"",
+			"problem": "Five-year test of the thesis without the latest event. Only the ranking contest appears in both the 2020 and the 2026 interviews. \"Number one\" and \"a failure\" come only from the September 24, 2026 Diary of a CEO episode, and the transcripts disagree on the words just before the failure line (C56). This 60-word answer is the most-excerpted text on the page. It implies six years of repetition for the exact stake the article later calls \"the telling part\" (C92) and FAQ 1 calls what \"tips it to Three.\" The change from the live page's Type 8 to Type 3 came after this episode. 15 of the 32 for_claim_ids rest only on S-DOAC/S-DOACPOD/S-TIMENEXT, all from one promotional week (September 24-30, 2026). That set includes every direct motive statement except GQ 2020's classroom contest and Billboard 2025's \"outdo.\" The prose never tells a later reader that both 2026 interviews were given during a promotional run, a caveat the evidence record already states.",
+			"acceptance_test": "(a) The H2 answer attributes \"number one\" and \"a failure\" to the 2026 interview, or uses only wording found in both the 2020 and 2026 sources. (b) One clause in the type section states that the explicit failure stake comes from a single 2026 interview, while the rank thread runs from GQ 2020 through Billboard December 2025 to 2026. (c) FAQ 1 draws the same distinction. (d) With every claim sourced only to S-DOAC/S-DOACPOD/S-TIMENEXT struck out, the body still states a sourced Three-over-Eight case resting on at least two rank statements made before September 2026. The type_hypothesis discriminator records which legs survive that deletion. Optional: check the S-THEO428 (January 2023) \"fear of falling off\" line by ear, and use it as a pre-2026 failure leg only if the speaker is confirmed as Druski."
+		},
+		{
+			"id": "future-02",
+			"severity": "major",
+			"passage": "An Eight builds his own company so that nobody can control him. Druski describes building his so that the companies that said no would see what he could do.",
+			"problem": "This motive reading rests on one 2026 interview (C61, sourced only to DOAC). His earlier, independent account of the same decision is already in the record and unused. AfroTech, July 18, 2025 (S-AFRO, opened): the shows' success \"kind of proved to me that we can do this by ourselves... We don't need to have anybody else.\" Add Rolling Stone 2024's \"We don't need anybody to tell us,\" and the pre-2026 record frames self-funding as self-sufficiency, which is the Eight reading. Presenting the 2026 framing as simply how \"Druski describes\" it hides that his description changed. Remove the latest event and this leg of the discriminator points the other way. C100's alternative mentions \"leverage (8)\" in general terms but not the AfroTech quote. FAQ 2 repeats the 2026 framing (\"But the aim he describes is being seen\").",
+			"acceptance_test": "The section quotes or paraphrases the July 2025 AfroTech framing with its date and dates the \"see what I was capable of\" framing to September 2026. It then either argues why the later account should carry more weight or downgrades the business leg from discriminator to mixed evidence. The same AfroTech passage's wish to build \"that Adam Sandler type movie production company or the Kevin Hart movie production company or the Tyler Perry movie production company\" may be used for the Three side. The C61 and C100 alternative fields cite the S-AFRO quote. FAQ 2's \"the aim he describes\" sentence is dated or qualified to match."
+		},
+		{
+			"id": "future-03",
+			"severity": "minor",
+			"passage": "refused to go back and pitch them again, plays a boss on camera, and never retracted his whiteface sketches.",
+			"problem": "Search features and FAQ schema lift FAQ answers out of context, and the body's \"As of October 4, 2026\" stamps don't travel with them. FAQ 2 contains two open-ended status claims with no date: \"never retracted his whiteface sketches\" and \"He has rarely argued with critics of his comedy.\" C160 restates C71/C124, which are tracked as time_sensitive, but C160 itself is marked stable with an empty review_trigger. If he apologizes in 2027, FAQ 4 gets refreshed because it is tracked, while FAQ 2 silently becomes false.",
+			"acceptance_test": "Both status clauses in FAQ 2 carry a date (\"as of October 2026\" or \"through 2026\"). C160 is time_sensitive with the C71/C124 trigger. FAQ 2 appears in the research task's list of dated status lines to refresh at publication."
+		},
+		{
+			"id": "future-04",
+			"severity": "minor",
+			"passage": "An Eight would more likely have taken on Cruz. He hasn't.",
+			"problem": "The falsifier lines for the type call are written as undated status claims. \"He hasn't\" (C112) is tracked in the evidence record, but the prose doesn't say as of when, so a 2031 reader takes it as current. \"His standing defense hasn't changed in years\" (C32) and \"The sanctions motion was the clearest counterpunch on record\" (C147) are also running totals that the C82 falsifier watch could overturn, yet both are marked stable with no trigger.",
+			"acceptance_test": "Each line carries a year range or an \"as of\" date, for example \"As of October 2026, he hasn't\" or \"From 2024 to 2026 his defense stayed the same.\" C32 and C147 become time_sensitive with the C82 falsifier trigger."
+		},
+		{
+			"id": "future-05",
+			"severity": "minor",
+			"passage": "Six months later he posted a sketch about athletes and concussions.",
+			"problem": "The CTE sketch is the newest counterevidence, yet nothing in the prose gives it an absolute date. It is dated only relative to a February 2026 event in the previous sentence. Two other relative dates also sit far from their anchors: \"Nine months earlier, Billboard had asked\" counts back from an episode introduced four sections earlier, and \"Three months later, Druski told Billboard\" depends on the NASCAR date. These will read loosely once the 2026 context fades.",
+			"acceptance_test": "The CTE sketch is dated \"In August 2026\" (the record has August 26, 2026), and both Billboard references read \"In December 2025\" or carry the date inline."
+		},
+		{
+			"id": "future-06",
+			"severity": "minor",
+			"passage": "Bartlett asked him to picture the next five years as already done. \"I became a superstar,\" Druski said. Then he described who would be gone: \"You don't see the Druski that you once saw, the social media guy.\"",
+			"problem": "Review-trigger hygiene. The close rests on a five-year forecast in his own words, which becomes checkable around 2031, but C113 has no review_trigger. If he leaves sketch content, or very publicly doesn't, the ending reads as fulfilled prophecy or as irony, and nothing in the record prompts a re-read. Separately, C146's trigger still says \"If the paragraph is reinstated, pair it with C168,\" and its inference still opens \"Not in the current baseline: DJ removed this paragraph.\" The paragraph is now in the draft and already paired with C168, so that trigger has already fired and only the reply clause remains actionable.",
+			"acceptance_test": "C113 has a dated review_trigger, for example: re-check the close in September 2031 or when Druski announces a shift away from social sketches. C146's trigger is rewritten as live conditions only (any direct Druski reply to T.J. Ward or another named CTE critic; any retraction or removal of the August 26, 2026 sketch), and its inference no longer describes the paragraph as removed."
+		},
+		{
+			"id": "future-07",
+			"severity": "minor",
+			"passage": "What did Druski say about his father on The Diary of a CEO?",
+			"problem": "The FAQ question is tied to a single episode. In five years the lasting search is what he has said about his father, and later interviews will not fit this question. The evidence record already holds an earlier telling, This Past Weekend #428 (January 31, 2023), in which he describes his father as harsh but \"very funny.\" That lighter 2023 version, beside the 2026 disclosure, would show the account changing over time instead of a single-source snapshot.",
+			"acceptance_test": "The question no longer depends on one episode (for example, \"What has Druski said about his father?\"), and the answer dates the September 24, 2026 episode. Optionally, the FAQ or body notes the 2023 version, quoting only words checked against audio, so a future interview can be added without rewriting the question."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "He had described the same contest to [GQ](https://www.gq.com/story/druski-hip-hop-favorite-comedian-drake-jack-harlow-odell-beckham-jr) six years earlier: \"Some kids would be like, yo I wanna be best dressed or I wanna be the best athlete. I used to literally say in my mind in elementary school, 'I wanna be the funniest this year, I wanna be the funniest kid in the class.'\"",
+			"reason": "This makes the hook independent of the 2026 episode. Remove Diary of a CEO and the opening scene still stands on a 2020 source. It is the strongest durability move on the page."
+		},
+		{
+			"passage": "That holds in sources years apart: the funniest-kid contest he described to GQ in 2020, the rival he told Billboard in December 2025 he wanted to \"outdo,\" and the \"number one\" goal he gave Bartlett in 2026.",
+			"reason": "The right five-year structure: each leg of the rank thread is dated to its source. Fixes for future-01 should extend this sentence's discipline to the H2 answer and FAQ, not replace it."
+		},
+		{
+			"passage": "From 2022 to 2026, Druski rarely argued back.",
+			"reason": "A pattern claim bounded by a dated window and backed by a tracked falsifier (C82). It stays true as a historical statement whatever he does next."
+		},
+		{
+			"passage": "On June 28, 2026, he hosted the BET Awards, then the youngest host in the show's history, checking off a goal from the list he wrote at 23.",
+			"reason": "\"Then\" dates a record a later host could break, and the achievement is tied to his own list from about 2017 instead of to current status. It ages cleanly."
+		},
+		{
+			"passage": "Bartlett asked him to picture the next five years as already done. \"I became a superstar,\" Druski said. Then he described who would be gone: \"You don't see the Druski that you once saw, the social media guy.\"",
+			"reason": "Ending on a dated forecast in his own words makes the close something a reader can check in five years, rather than a line that goes stale. Keep it, and add the review trigger asked for in future-06."
+		}
+	],
+	"assessment": "Five-year verdict: mostly durable, with one structural dependency. Strengths: absolute dates throughout; changing facts carry explicit dates (\"as of\" or \"then\") and are tracked with triggers (4Lifers, Forbes, TPUSA, father response, the apology lines, the docket search); the hook is corroborated by a 2020 source; the close is a dated forecast; and the honest-limits section keeps the call at medium confidence. The latest event is long-form primary testimony (Diary of a CEO, September 24, 2026), not news, so relying on it is legitimate. It is also what flipped the live page from 8 to 3. Every direct motive statement except GQ 2020's contest and Billboard 2025's \"outdo\" comes from that episode and TIME's piece six days later, during one promotional run. Strike that week and the rank thread survives, but the failure stake does not (future-01). The self-funding leg reverses, because his July 2025 AfroTech account frames ownership as \"we can do this by ourselves\" (future-02). The thesis passes the five-year test only if the page shows which legs predate September 2026 and stays at medium confidence. Everything else is dating of FAQ and status lines, plus trigger cleanup. Similarity advisory did not trip (tripped: false). The closest pairs are ordinary type vocabulary (\"An Eight wants to be beyond anyone's control\" against Michael Jordan's \"an Eight runs on control\"; the Type 3 definition sentence against Margaret Qualley's). Their arguments differ, so there is no reuse finding. Risk flags are carried over unchanged from the evidence record; I found no new risk."
+}

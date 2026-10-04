@@ -1,0 +1,18 @@
+I finished the verify stage for Druski and wrote `verification-edit.json`. The verdict is **revise, not pass**: the facts and sourcing hold up, but the editor didn't fully fix two reviewer findings.
+
+**What held up**
+- **Sourcing is solid.** I re-fetched all 57 sources the article relies on and checked them against the article and its claims inventory. All 87 claims that quote someone matched the source text. Dates, dollar figures, the court order and the docket, and the video clip timestamps also checked out.
+- **No new risks from the editor.** All 23 passages the reviewers asked to protect are intact or changed in ways that keep what made them good. The Type 3 call is unchanged, so the full six-reviewer panel doesn't need to run again.
+- **Status lines are still true today.** My web search found no response from his father and no apology for the whiteface sketches.
+- **Scores:** evidence 9.0, Enneagram 8.2, originality 9.0, writing 7.8, durability 8.8, hook 9.0, discoverability 8.5. Overall is 8.6, which clears the 8.5 bar.
+
+**Why it doesn't pass**
+1. **The second half still drags.** One reviewer said the piece was too long and kept stopping to rule on Type 8 vs Type 3. It's now 4,390 words, longer than the 4,321 that reviewer flagged, against the 4,000 they asked for. The cuts took scenes and quotes, and the repeated rulings stayed: the "he sells to brands" caveat appears four times, and the whiteface and apologies sections each stack several weighing sentences. The editor flagged this as possibly still open, and I agree it is.
+2. **One stray citation.** A Complex article about Jack Harlow and Druski's nutritionist is still in the frontmatter citations but used nowhere in the article. The editor's notes say every remaining citation is used, which isn't true.
+3. **Small sourcing gap.** The article calls T.J. Ward a "former NFL safety." That's true, but the cited sources only say "former NFL player."
+
+Running the pipeline's own release check confirms the only blockers are these: the revise status, the two unfixed reviewer findings, and the open length finding. No claim, source or protected passage blocks it.
+
+**Next step:** the pipeline allows one targeted repair before it holds the draft. That repair would cut about 400 words of repeated rulings, drop the stray citation and fix the Ward wording. Separately, you still need to approve the change from Type 8 on the live page to Type 3 before this publishes.
+
+I didn't touch the draft or publish anything, and my scratch files are in `/tmp/druski-verify`. Slack, GitHub, Ahrefs and some other connectors need authorizing in your connector settings, and Supabase failed to connect; none of that affected this stage.

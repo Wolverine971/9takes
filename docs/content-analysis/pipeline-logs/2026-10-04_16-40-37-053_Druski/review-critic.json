@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "critic",
+	"content_sha256": "f4a028dd458ec2c3de0c23dafae2772e104f2f36584dca681598c66ee79954af",
+	"evidence_sha256": "ac0520571b28254ff63ae802d83250e7827b800eecc755bf30346a415ee36701",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "critic-01",
+			"severity": "major",
+			"passage": "Druski ranks himself against other people and names failure as the outcome he refused to accept.",
+			"problem": "The deciding test sets a Three's ranking against a narrowed Eight (\"wants to be beyond anyone's control\"). But Eights also compete for the top spot, so \"number one,\" \"if you ain't first, you're last\" and \"outdo the guy ... trying to outdo me\" can't separate the two. The Billboard line (opened) is his answer to \"What do you think makes a star in 2025?\" and is about work ethic (\"There's no days off\"). It does not name a rival, though the type section calls it \"the rival he told Billboard ... he wanted to 'outdo.'\" The record supports a narrower discriminator: whose verdict counts. He asked classmates to rank him, gave his mother follower counts (\"No but I have people watching\"), says \"I'm thinking about my image,\" and doubts whether partners love \"the superstar\" or Drew. As written, the deciding test could describe an ambitious Eight.",
+			"acceptance_test": "The type section concedes that Eights also chase being first. It places the discriminator in seeking other people's verdict or recognition, as opposed to dominance or independence, and backs that with at least two cited instances. The Billboard line is described as his answer to what makes a star, not as a rival."
+		},
+		{
+			"id": "critic-02",
+			"severity": "major",
+			"passage": "But the aim he described next is about being seen:",
+			"problem": "In context (DOAC publisher transcript 01:24:23-01:27:22, opened) the sequence runs: years of no from FX, Amazon and Netflix; \"I'm just bet on myself\"; \"Now they want to purchase these shows that we've made\"; then \"having them wanting what I did in reverse.\" That clause describes reversing who wants whom, which fits an Eight's leverage at least as well as a Three's wish to be seen. \"Maybe they'll see what I was capable of doing\" is a hedged fallback about future deals. The evidence record lists the leverage reading as an alternative (C61, C100), but the body presents \"being seen\" as the aim. The FAQ \"Why isn't Druski a Type 8?\" quotes only the \"maybe\" clause. This passage carries the anti-Eight case on ownership.",
+			"acceptance_test": "The body names the leverage reading of \"having them wanting what I did in reverse\" as an Eight-compatible reading of the same sentence and says why the Three reading still wins, or demotes the passage from discriminator to ambiguous evidence. The FAQ no longer rests its anti-Eight answer on the \"maybe\" clause alone."
+		},
+		{
+			"id": "critic-03",
+			"severity": "major",
+			"passage": "He defends a picture of himself as good-hearted, and an Eight ignoring critics beneath notice would owe them no account of his intentions.",
+			"problem": "He did not offer these accounts to critics. Each was an answer to an interviewer's question. Rolling Stone (opened) asked about the 2022 takedown. CBS asked about lines he won't cross (per the evidence record). TIME asked about political implications. Bartlett framed his question explicitly as advertisers' \"brand safety\" (DOAC 01:14:10-01:15:08, opened), and Druski answered \"I've never punched down... always come from a good hearted place.\" On a press tour with Nike, Google and T-Mobile deals, a comedian of any type would give that answer. The draft applies incentive to his silences, but here it treats prompted, commercially loaded answers as a motive tell. The criticism-handling half of the \"Why isn't Druski a Type 8?\" FAQ rests on the same inference.",
+			"acceptance_test": "The whiteface section says the good-intent defenses were answers to interviewers and names the DOAC brand-safety framing. It either drops the \"would owe them no account\" inference or explicitly weights it as weak. The FAQ's criticism-handling clause carries the same caveat or is cut."
+		},
+		{
+			"id": "critic-04",
+			"severity": "major",
+			"passage": "and a July 2026 return to the look after she appeared to call it out on air. Maybe views are his scoreboard, but that is a guess; an Eight who refuses to be cowed explains the return more directly.",
+			"problem": "The only cited source for the July 2026 return is Complex (July 6, 2026, opened). It says the clip \"would appear to stem from a recent BET Awards promo shoot that also featured Chris Rock,\" reports no backlash, and says he \"again\" revived the look, which implies this was not the first return. On that record, the July clip was behind-the-scenes footage from a promo for the show he was hosting, posted for the Fourth of July. It featured the NASCAR character, not the Kirk character. \"After she appeared to call it out\" turns timing into a defiance story. Both the Eight's \"strongest evidence\" (\"revived after the backlash\") and the article's \"biggest gap\" lean on that causal implication, and the source does not support it.",
+			"acceptance_test": "The July 2026 clip is described as the NASCAR character, with its reported BET-promo origin hedged the way Complex hedges it. \"After she appeared to call it out on air\" and \"revived after the backlash\" are removed or explicitly marked as timing, not response. The escalation gap and the \"refuses to be cowed\" reasoning rest on the March 2026 sketch itself, unless a source shows the July clip answered Kirk."
+		},
+		{
+			"id": "critic-05",
+			"severity": "major",
+			"passage": "The deciding test is what he says he is chasing.",
+			"problem": "Most of the deciding self-reports come from one September 2026 business-success podcast taped during a promotional run that the evidence record names (Livestream From Hell, Collect & Praise, The Catch): \"number one,\" \"if you ain't first, you're last,\" \"I was chasing being great\" and \"perceive myself as a failure.\" That venue rewards ambition stories. Bartlett set up the failure answer himself: \"I'm either going to be great or in your words, I'm going to kill myself\" (DOAC 00:52:53, opened). So \"I was chasing being great\" echoes the host's word, though \"failure\" is Druski's own. The article applies incentive skepticism to the Eight-side evidence (brands, lawyers, \"never apologizing is also a business model\") but never to the setting of its own deciding evidence. That asymmetry is how a confident-sounding type call outruns its evidence.",
+			"acceptance_test": "The type section or \"Or die trying\" names the promotional podcast context of the DOAC rank-and-failure quotes and notes that \"great\" was Bartlett's word. It identifies which supporting instances come from outside that cycle (for example GQ 2020 and Billboard December 2025) as the independent check, and the medium-confidence label is justified against that narrower base."
+		},
+		{
+			"id": "critic-06",
+			"severity": "minor",
+			"passage": "And he says closeness makes him pull back: \"once I get too close, I can't trust it.\"",
+			"problem": "The line sits in \"the Type 8 case at full strength\" without his own explanations. On DOAC (00:18:45-00:22:36, opened) he says \"I almost get scared with getting too close... because of maybe I haven't seen the successful home of two parents.\" He then adds celebrity doubt: \"this could absolutely be her in love with just Drewski and not Drew at all\" and \"Does this person just love the superstar of me?\" Without that context the line reads as an Eight's armor. With it, the line reads as fear (Six) or as a split between image and self that, if anything, fits the Three thesis. The paragraph misstates what the quote is evidence of.",
+			"acceptance_test": "The sentence adds a short clause giving his stated reasons (fear tied to his parents' marriage, and doubt whether partners love Druski or Drew), or the line moves out of the Eight paragraph to a place where its ambiguity is acknowledged."
+		},
+		{
+			"id": "critic-07",
+			"severity": "minor",
+			"passage": "So the kid, the upset viewers and the botched name got repairs; Cruz and the TikTok mother got silence.",
+			"problem": "\"Silence\" toward Cruz is an affirmative claim the record cannot support. LADbible (March 27, 2026) reported that after Cruz's \"beneath contempt,\" Druski \"has been retweeting the clip and responses to the clip onto his X feed.\" UNILAD (March 28, 2026, same publisher group, opened) headlined that he \"doubles down.\" Both are weak and not independent. The evidence record deliberately leaves the claim out until his X activity is checked, but that check was never done. Amplifying a clip after a senator condemns it is exactly the Eight-leaning behavior this section weighs. (\"Never argues with Cruz\" holds either way.)",
+			"acceptance_test": "Either his X and Instagram activity from March 25-31, 2026 is checked and the result stated, or \"got silence\" becomes \"got no direct reply\" and the reported reposting is attributed to LADbible as unverified or marked as unchecked."
+		},
+		{
+			"id": "critic-08",
+			"severity": "minor",
+			"passage": "cried after Druski repeatedly called him \"fat.\" Minutes later, on the same stream, Druski apologized",
+			"problem": "The draft's own stream record (S-MAFIA 13:44-15:46; I relied on its transcription and did not re-listen) is harsher and messier than this summary. The insult included a word the captions bleep as a slur. Right after it, a voice the research notes say fits Druski pushed back at the room: \"y'all want to have fat phobia when it come to the kid but not me.\" The first apology (15:33) came only after someone else said \"he's a kid.\" He argued with the objection, then repaired once the child cried and the room turned. That sequence bears on both the \"repairs inside his own room\" rule and the Eight's counterpunch. The draft smooths it into insult-then-apology. Uncertain speaker labels are a reason to say so, not to omit the exchange.",
+			"acceptance_test": "The passage shows that the apology followed pushback against the room's objection and a prompt from someone else, with the speaker uncertainty stated. The bleeped word is either described neutrally or its omission is justified in the evidence record."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Set those beside what he told Bartlett: \"you can never show me something that I've done that was like, oh, that's punching down.\" The stream is the obvious counterexample.",
+			"reason": "Confronts the subject's strongest self-defense with direct counterevidence instead of letting the good-intent framing stand. This is the skeptical move the piece needs more of."
+		},
+		{
+			"passage": "The rule is fitted after the fact, and the silences have plainer explanations: slurs, legal exposure, brand caution. An Eight would more likely have taken on Cruz. He hasn't.",
+			"reason": "The article audits its own pattern claim and names the plainer explanations. Keep this self-skepticism even if critic-07 changes the Cruz wording."
+		},
+		{
+			"passage": "None of this settles his type, and this page doesn't claim the house made him a Three. A child who comforts a sibling after a beating could become a Two, a Six or a Nine",
+			"reason": "Turns down the attractive childhood-wound origin story and names the rival types the same evidence supports."
+		},
+		{
+			"passage": "It also skips the harder question: whether a sketch titled for a category, but widely read as one identifiable, recently widowed woman, still hits its target. Corbould's argument settles who holds power, not that.",
+			"reason": "Declines to let a sympathetic expert defense close the moral question. It is fair to the critics without adopting their verdict."
+		},
+		{
+			"passage": "The boy who tried to cheer his brother up after the beatings now plays the man holding the belt, as a bit.",
+			"reason": "An earned, sourced close (\"I've seen it before\") that leaves a real contradiction unresolved and makes no causal claim."
+		}
+	],
+	"assessment": "The draft is unusually honest about adverse evidence: it states the Eight case at full strength, flags the stream as a counterexample to \"never punching down,\" and admits its apologies rule is fitted after the fact. Its two type tests, though, each rest on a preferred reading of ambiguous or prompted material. As framed, rank does not separate Three from Eight (critic-01). The \"show them\" line is read as a wish to be seen when its operative clause describes leverage (critic-02). The good-intent defense was prompted by interviewers, on DOAC explicitly as brand safety (critic-03). The July 2026 revival is told as post-Kirk defiance, but its only source points to a BET promo shoot (critic-04). The skepticism is also asymmetric: incentive explains the Eight-side evidence, but is never applied to the promotional podcast that supplies the deciding Three quotes, where Bartlett supplied \"great\" (critic-05). Type 3 at medium confidence is still defensible on the external-verdict evidence: the classmate poll, \"people watching,\" \"thinking about my image,\" and the Druski/Drew split in his intimacy answer. The article should earn the call with that narrower discriminator. Minor metadata note: the description's \"a vow to be number one\" merges the on-TV-within-a-year vow with the 2026 number-one goal. Sources opened for this review: the DOAC publisher transcript at every cited passage, Rolling Stone 2024, Billboard December 2025, Complex July 6, 2026, UNILAD March 28, 2026, plus a web search on the Cruz reposts. For the Mafiathon stream and the CBS audio I relied on the evidence record's transcriptions. Similarity advisory: not tripped. The top pairs are ordinary Eight vocabulary and, at most, one shared phrase (\"worth something\"); I found no reused argument. Risks: sensitive allegations (the Combs suit, domestic violence, the stream insult, scams, the suicide vow), contested typing, and a type change from the live page's Eight all apply, so the expanded jury is warranted."
+}

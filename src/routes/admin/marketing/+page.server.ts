@@ -5,8 +5,15 @@ import type { PageServerLoad } from './$types';
 import type { Actions } from './$types';
 
 export const load: PageServerLoad = async (event) => {
+	// The admin layout is the guard. Crafted __data.json requests can skip layout loads;
+	// awaiting parent() forces it to run. Kept outside the try below so its redirect
+	// isn't turned into a 500.
+	const [, data] = await Promise.all([event.parent(), loadMarketingData(event.locals.supabase)]);
+	return data;
+};
+
+async function loadMarketingData(supabase: App.Locals['supabase']) {
 	try {
-		const supabase = event.locals.supabase;
 		const [
 			{ data: campaigns, error: campaignsError },
 			{ data: content, error: contentError },
@@ -30,7 +37,7 @@ export const load: PageServerLoad = async (event) => {
 		console.error('Error fetching data:', err);
 		throw error(500, 'Error fetching data');
 	}
-};
+}
 
 export const actions: Actions = guardAdminActions({
 	createCampaign: async (event) => {

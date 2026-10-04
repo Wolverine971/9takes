@@ -1,0 +1,25 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:unfamiliar-01 is unresolved. The body is 4,390 words, more than the 4,321 the reviewer called too long, and the back half still loops on adjudication. The brand/incentive caveat is restated in the image section ('brand language any comedian who lives on brand deals uses'), the whiteface weighing (this passage), the apologies opener ('brand caution') and the unexplained section ('he sells to brands'). The whiteface and apologies sections each carry several Eight/Three weighing sentences. Length cuts took scenes and quotes, not the repeated rulings.",
+    "unresolved_review:fan-04",
+    "unresolved_review:unfamiliar-01"
+  ],
+  "quality": {
+    "evidence": 9,
+    "enneagram": 8.2,
+    "originality": 9,
+    "writing": 7.8,
+    "durability": 8.8,
+    "hook": 9,
+    "discoverability": 8.5,
+    "overall": 8.6,
+    "letter": "B+",
+    "rubric_version": 3,
+    "graded_at": "2026-10-04",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "bcbbd8eeb9981ea62d60fdf319f328170587d17b822ef066ced69fc9a508025d"
+  }
+}

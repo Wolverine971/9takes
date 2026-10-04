@@ -23,9 +23,6 @@ import {
 	loadTrendingAnalytics
 } from '$lib/server/adminTrendingAnalytics';
 
-// Must match the invalidate() call in +page.svelte.
-const PAGEVIEWS_DEPENDENCY = 'admin:analytics-pageviews';
-
 const DEFAULT_SCOPE: AnalyticsScope = 'all';
 const DEFAULT_LIMIT = 50;
 const DEFAULT_COHORT_WEEKS = 8;
@@ -104,8 +101,6 @@ function startDefaultPageviewQueries(
 }
 
 export const load: PageServerLoad = async (event) => {
-	event.depends(PAGEVIEWS_DEPENDENCY);
-
 	// Local check only (no network), so signed-out requests never start the queries below.
 	if (!event.locals.session?.user?.id) {
 		throw redirect(302, '/questions');
@@ -126,8 +121,8 @@ export const load: PageServerLoad = async (event) => {
 	// The default view's queries (0.2-2s RPCs) stream in behind the page shell. On a full page
 	// load SvelteKit would stream them as inline <script> chunks, which csp.mode 'hash' can't
 	// cover (the header is already sent), so the browser would drop them. Full loads send the
-	// shell without them and the page re-requests them through invalidate(), which streams over
-	// __data.json.
+	// shell without them and the page fetches each section from its /api/admin/analytics
+	// endpoint.
 	const queries = event.isDataRequest
 		? startDefaultPageviewQueries(
 				event.locals.supabase,

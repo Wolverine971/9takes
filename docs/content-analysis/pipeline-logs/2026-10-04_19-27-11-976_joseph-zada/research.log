@@ -1,0 +1,20 @@
+The research stage finished as a **hold**. Type 6 is still the leading read, but at low confidence, and the record still doesn't meet the last verifier's test. I wrote only `evidence.json`; it passes the pipeline's schema check (64 sources, 158 claims) and nothing was published.
+
+**Outcome**
+- **Type 6, low confidence (was medium).** The new material adds some Six-sounding language: "safe hands" about a demanding audition, "a lot more careful... a little scary", a "bad omen" about breaking Kazan's no-watch rule, and his dad's "work as hard as you can, then let it go." Each is one phrase in a release-week interview with an ordinary explanation.
+- **Three is now the main alternative, ahead of Nine.** Every fear he names is about being judged. He admits doing a Harrelson impression "hoping that... was going to push me over the line" to win the role. A second result settled his nerves: "so nervous for it to come out but I saw it... it is fantastic."
+- **The "what settles him" argument no longer beats Nine.** Recounted under a stated rule, structure arranged in advance comes up about as often as tuning out (3 vs 3–4). The most common answer, other people's competence or getting to know them, fits Six and Nine equally. Against Three it still holds, 8 people/preparation items to 2 results.
+- **No new source meets the verifier's bar.** Harrelson's "tough enough to deal with stardom" is a prediction from someone who met him once, not an account of how he handles pressure. The low Instagram posting isn't shown to have cost him anything.
+
+**Corrections to the research brief**
+- The Glenn Close "always there for me" line is gratitude in context, not about nerves, so it drops out as a Six item.
+- The "preparation and rituals" answer is about reaching emotion for crying scenes. "Release stress" isn't in the audio.
+- "I'm going to smash this" and the TV Fanatic "security blanket / Emily, are you happy?" passage are probably Esther McGregor's, not his.
+- "I don't know if I did find the levity" leaves out that he corrects himself a moment later.
+- **The draft's opening is at risk.** It leads on him blanking beside Harrelson at a dinner (from THR). EW quotes him saying he "asked him a bunch of questions" when they spoke after the shoot, and Entertainment Tonight has him describing a phone call. Nothing yet shows whether these are different encounters.
+
+**What would settle it:** what steadies him through the November 20 *Sunrise* release, coded under the same rule, or a coach or director describing a specific pressured moment. The full task list is in `evidence.json`. Because both the main alternative and the core argument changed, the next draft needs the expanded six-reviewer review.
+
+**How the sources were read:** YouTube captions were rate-limited, so I downloaded the audio and transcribed it locally with Whisper. Where two people were talking, I used voice pitch to estimate who said what. Those pitch-based attributions are marked "probable" and kept out of the tally until someone watches the clips. The pattern (blocked captions → local transcription → pitch-based speaker split) generalizes to any video-heavy subject and might be a good FDE story.
+
+The GQ Australia pieces are still bot-blocked, and the 43-minute Mckenna Grace interview hasn't been transcribed yet. Separately, several connectors (GitHub, Slack, Ahrefs and others) need authorizing in claude.ai or via `/mcp`, and Supabase failed to connect this session; none were needed here.

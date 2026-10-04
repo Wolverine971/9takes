@@ -25,6 +25,7 @@ import { buildAdminDataStatus } from '$lib/server/adminDataStatus';
 import { loadEmailSuppressionStatus } from '$lib/server/emailSuppressionStatus';
 import { normalizeEmail } from '$lib/email/suppression';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { requireAdmin } from '$lib/server/adminAuth';
 import { cachedAdminQuery } from '$lib/server/adminQueryCache';
 import {
 	adminSnapshotKeys,
@@ -175,10 +176,13 @@ export const load: PageServerLoad = async (event) => {
 		throw redirect(302, '/questions');
 	}
 
-	// The admin layout's guard runs inside parent(). Start the queries alongside it
-	// rather than after it; it is awaited with them, before anything is returned.
-	const parentPromise = event.parent();
-	parentPromise.catch(() => {});
+	// This load checks admin itself instead of awaiting parent(): a page that uses parent()
+	// re-runs whenever the admin layout does, and the layout re-runs to refresh the notes
+	// badge (invalidate('admin:talk-notes') after DJ reads a note). The check runs alongside
+	// the cheap reads; the live aggregate fallbacks wait for it, and it is awaited before
+	// anything is returned.
+	const guard = requireAdmin(event.locals);
+	guard.catch(() => {});
 	const demo_time = await loadRouteDemoTime(supabase);
 
 	// Pre-calculate date constants
@@ -213,7 +217,8 @@ export const load: PageServerLoad = async (event) => {
 	): Promise<Live | Snap> =>
 		snapshotPromise.then<Live | Snap>((snapshot) => {
 			const entry = freshSnapshotEntry(snapshot, key);
-			if (!entry) return live();
+			// Live fallbacks are the 1-7s aggregates: never run them for a non-admin.
+			if (!entry) return guard.then(live);
 			// Report the oldest snapshot shown.
 			const shown = snapshotMeta.refreshedAt;
 			if (!shown || Date.parse(entry.refreshedAt) < Date.parse(shown)) {
@@ -239,8 +244,7 @@ export const load: PageServerLoad = async (event) => {
 		trendingPagesResult,
 		recentUnsubscribesResult,
 		talkNotes,
-		weeklyGrowthResult,
-		parentData
+		weeklyGrowthResult
 	] = await Promise.all([
 		fromSnapshot(
 			adminSnapshotKeys.engagement30Days,
@@ -317,7 +321,9 @@ export const load: PageServerLoad = async (event) => {
 					adminSnapshotKeys.trendingPages({ ...trendingOptions, scope: 'all' }),
 					() =>
 						cachedAdminQuery('get_page_analytics_trending_pages', () =>
-							loadTrendingAnalytics(supabase as any, {
+							// Service role, like the other aggregates: page_analytics RLS is admin-only,
+							// and this result is cached for every admin.
+							loadTrendingAnalytics(getSupabaseAdminClient() as any, {
 								...trendingOptions,
 								scope: 'all'
 							})
@@ -359,14 +365,9 @@ export const load: PageServerLoad = async (event) => {
 					{ shouldCache: withoutError }
 				),
 			(entry) => ({ data: entry.payload as RpcRows<typeof GROWTH_TRENDS_RPC>, error: null })
-		),
-		parentPromise
+		)
 	]);
-
-	const adminUser = parentData.user as unknown as { admin?: boolean } | null;
-	if (!adminUser?.admin) {
-		throw redirect(307, '/questions');
-	}
+	await guard;
 
 	// Until the v2 migration is applied the RPC is missing; the dashboard falls back to
 	// the raw 30-day admin_engagement_trends_30_days data without flagging an error.
@@ -409,18 +410,12 @@ export const load: PageServerLoad = async (event) => {
 	if (dailyEngagementResult.error) {
 		console.error('Failed to load admin engagement trends', dailyEngagementResult.error);
 	}
-	const [visitorFallback, commentFallback] = dailyEngagementResult.error
-		? await Promise.all([
-				// Preserve the overview metrics until the new RPC is deployed.
-				supabase.rpc('visitors_last_30_days'),
-				supabase.rpc('comments_last_30_days')
-			])
-		: [null, null];
+	// Preserve the mobile visitors sparkline when the engagement RPC fails.
+	const visitorFallback = dailyEngagementResult.error
+		? await supabase.rpc('visitors_last_30_days')
+		: null;
 	if (visitorFallback?.error) {
 		console.error('Failed to load fallback daily visitors', visitorFallback.error);
-	}
-	if (commentFallback?.error) {
-		console.error('Failed to load fallback daily comments', commentFallback.error);
 	}
 	if (dailyQuestionsResult.error) {
 		console.error('Failed to load admin daily question stats', dailyQuestionsResult.error);
@@ -497,7 +492,6 @@ export const load: PageServerLoad = async (event) => {
 			error: growthTrendsMigrationPending ? null : weeklyGrowthResult.error
 		},
 		{ key: 'visitor-history', label: 'Visitor history', error: visitorFallback?.error },
-		{ key: 'comment-history', label: 'Comment history', error: commentFallback?.error },
 		{ key: 'question-activity', label: 'Question activity', error: dailyQuestionsResult.error },
 		{ key: 'user-total', label: 'User total', error: totalUsersResult.error },
 		{ key: 'new-users-month', label: '30-day user growth', error: newUsersMonthResult.error },
@@ -558,12 +552,6 @@ export const load: PageServerLoad = async (event) => {
 			: dailyEngagement.map((day) => ({
 					days: day.days,
 					number_of_visitors: day.visitors
-				})),
-		dailyComments: dailyEngagementResult.error
-			? (commentFallback?.data ?? [])
-			: dailyEngagement.map((day) => ({
-					days: day.days,
-					number_of_comments: day.commentsCreated
 				})),
 		dailyQuestions: dailyQuestionsResult.error ? [] : dailyQuestionsResult.data,
 		totalUsers: totalUsersResult.count || 0,

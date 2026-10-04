@@ -1,0 +1,29 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session d12bf52d-5369-40b9-bbc6-657acc05bbe0 to write outputs
+I've finished the edit stage and written all three output files to the run folder. All three pass the pipeline's own checks: no draft blockers, the evidence record validates against the edited text, and the resolution file matches its schema. Nothing was published, and no input files were touched.
+
+**Outputs**
+- `edit.md`: the edited article, now 4,390 words. That's under the 4,500 hard cap but over the 4,000 the unfamiliar-reader reviewer asked for.
+- `evidence-edit.json`: the evidence record, with 151 claims.
+- `resolution-edit.json`: a decision on all 44 reviewer findings (43 fixed, 1 rejected), all 23 protected passages (16 kept word for word, 7 changed with reasons), and no inherited blockers.
+
+**What changed in the argument**
+- **The Type 3 call has a new deciding test.** It's no longer that he wants to be number one, because an Eight wants that too. It's now that he runs on other people's verdict. As a kid he polled classmates on who was funniest, and he counted followers before he made any money. That case still holds if you remove the September 2026 interviews: it rests on GQ (2020), Rolling Stone (2024) and Billboard (December 2025).
+- **The "number one" quote and his fear of failure are now marked as coming from one 2026 podcast,** recorded while he was promoting new work. The article also notes that the host, not Druski, supplied the word "great."
+- **Self-funding is now treated as mixed evidence, not proof.** The article now covers his 2025 "we can do this by ourselves" framing (an Eight-sounding line), Kevin Hart pushing him to go out on his own, and the payoff: Netflix picked up his series Collect & Praise.
+- **Two fairness errors are fixed:**
+  - The July 2026 whiteface clip is no longer presented as defiance aimed at Erika Kirk. Its only source says it appears to come from a BET Awards promo shoot.
+  - The Diddy-lawsuit section now says the judge also ordered the plaintiffs' lawyers to explain why they shouldn't be sanctioned.
+
+**Open items for the verifier**
+- **Word count:** I marked the unfamiliar-reader finding "fixed" for the structural changes, but the resolution file says plainly that the 4,000-word target is not met. Fixes for other findings required about 500 words of added evidence, so the verifier may treat this one as open.
+- **Rejected finding:** fan-06 asked to add a 2023 quote where Druski calls his father "a piece of [expletive]." I left it out because his father is a private person, and those captions weren't checked against the audio.
+- **Not verified in this session** (logged as research tasks, not presented as fact):
+  - Whether the film Livestream From Hell actually came out on Prime Video. TIME only said it was due.
+  - The Club Shay Shay quote comes from auto-captions only; the article says so.
+  - The court's ruling on the order to the plaintiffs' lawyers wasn't found on the public docket.
+  - The unverified report that he reposted the Kirk clip after Senator Cruz condemned it. His X account wasn't checked.
+
+**Still needs your sign-off before publishing:** changing the live page from Type 8 to Type 3.
+
+Separately, a few connected services (Slack, GitHub, Ahrefs and others) need you to authorize them in your connector settings before they'll work, and the Supabase connection failed. Neither affected this stage.

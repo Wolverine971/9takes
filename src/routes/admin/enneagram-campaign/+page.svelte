@@ -1,6 +1,7 @@
 <!-- src/routes/admin/enneagram-campaign/+page.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { browser } from '$app/environment';
 	import { invalidate } from '$app/navigation';
 	import { resolve } from '$app/paths';
 	import HtmlPreviewFrame from '$lib/components/admin/HtmlPreviewFrame.svelte';
@@ -20,7 +21,21 @@
 	// A full page load arrives without the audience (see +page.server.ts); hold the
 	// skeleton until the re-request below streams it in.
 	const audiencePending = new Promise<EnneagramCampaignAudience>(() => {});
-	let audiencePromise = $derived(data.audience ?? audiencePending);
+	// A stream cut off mid-flight (function timeout, dropped connection) never settles, so
+	// give up after this long and show the {:catch} "reload to retry" message.
+	const AUDIENCE_TIMEOUT_MS = 45_000;
+	function settleWithin<T>(promise: Promise<T>, ms: number): Promise<T> {
+		return new Promise<T>((resolve, reject) => {
+			const timer = setTimeout(() => reject(new Error('The audience took too long to load.')), ms);
+			promise.then(resolve, reject).finally(() => clearTimeout(timer));
+		});
+	}
+	// Browser only: the server renders the skeleton and must not leave a timer behind.
+	let audiencePromise = $derived(
+		browser
+			? settleWithin(data.audience ?? audiencePending, AUDIENCE_TIMEOUT_MS)
+			: (data.audience ?? audiencePending)
+	);
 
 	onMount(() => {
 		if (!data.audience) void invalidate(AUDIENCE_DEPENDENCY);
