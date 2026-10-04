@@ -1,14 +1,14 @@
 {
-	"runDate": "2026-09-24",
+	"runDate": "2026-10-04",
 	"site": "sc-domain:9takes.com",
 	"window": {
-		"startDate": "2026-06-24",
-		"endDate": "2026-09-22",
+		"startDate": "2026-07-04",
+		"endDate": "2026-10-02",
 		"days": 90
 	},
 	"files": {
-		"queries": "2026-09-24-queries.csv",
-		"pages": "2026-09-24-pages.csv",
-		"pageQuery": "2026-09-24-page-query.csv"
+		"queries": "2026-10-04-queries.csv",
+		"pages": "2026-10-04-pages.csv",
+		"pageQuery": "2026-10-04-page-query.csv"
 	}
 }

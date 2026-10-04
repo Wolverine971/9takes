@@ -7,7 +7,7 @@ loc: 'https://9takes.com/enneagram-corner/enneagram-stress-number'
 lastmod: '2025-08-15'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 type: ['overview']
 blog: true
 previewHtml: ''

@@ -1,6 +1,6 @@
 ---
 title: 'Anthony Bourdain: Enneagram Type 7w8 Analysis'
-meta_title: "Why Anthony Bourdain Couldn't Stop Running From Himself"
+meta_title: 'Anthony Bourdain Personality Type: Enneagram 7 Profile'
 persona_title: "Travel TV's Beautiful Fugitive"
 description: "Anthony Bourdain wasn't a hedonist. He was a Type 7w8 who couldn't sit still inside his own head — and spent fifty years building a life so he never had to."
 author: 'DJ Wayne'

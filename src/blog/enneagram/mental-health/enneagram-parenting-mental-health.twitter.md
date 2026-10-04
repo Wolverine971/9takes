@@ -172,7 +172,7 @@ You can't pour from an empty cup. 💜
 Resources:
 
 - Crisis Text Line: Text HOME to 741741
-- National Suicide Prevention Lifeline: 988
+- 988 Suicide & Crisis Lifeline: call or text 988 (US)
 - Psychology Today therapist finder: psychologytoday.com
 
 ## Standalone Tweets

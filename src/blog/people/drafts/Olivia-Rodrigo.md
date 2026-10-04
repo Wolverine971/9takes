@@ -1,6 +1,6 @@
 ---
 title: "Olivia Rodrigo: The Therapist's Daughter Who Screams Inside"
-meta_title: "Why Olivia Rodrigo Still Can't Keep Anything for Herself"
+meta_title: 'Olivia Rodrigo Personality Type: Enneagram 2 Profile'
 persona_title: "Pop's Tender Confessor"
 description: 'Olivia Rodrigo learned to hand her feelings to millions through songs long before she learned how to keep any of that tenderness for herself.'
 author: 'DJ Wayne'
@@ -91,6 +91,8 @@ A nine-year-old girl, sobbing before her lesson, then sitting down and writing a
 That gap — between what Olivia Rodrigo feels and what she gives the world — is the engine that drives everything. She has built a career on raw emotional confession for millions of strangers, but she cannot sit in a room while a friend plays her music. She pours her guts into songs that make teenagers feel less alone, then goes home to her four friends and her mom and stares at Instagram posts until she's convinced her face looks weird.
 
 She learned to give her feelings to strangers in songs before she learned to keep them for herself.
+
+**Olivia Rodrigo's personality type is Enneagram Type 2, the Helper, with a 3 wing. She calls herself a people-pleaser who used to reshape her personality for whoever she was dating, and the 3 wing shows in the studio, where "vampire" went through about twenty versions before she would let it go.**
 
 <details>
 <summary class="accordion">TL;DR: Why Olivia Rodrigo is an Enneagram Type 2</summary>

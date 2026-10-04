@@ -336,7 +336,7 @@ Statues. A self-preservation One would be describing his own habits and his own 
 
 ### Stress and Growth Arrows
 
-Under pressure the One <a href="/enneagram-corner/enneagram-stress-number">moves to Four</a>: aggrieved, withdrawn, convinced of being misunderstood. The cleanest instance is the 2015 jealousy admission quoted in the section below, where a stranger's good news arrived as personal unfairness. Doug Bates, watching April in real time, caught the aftermath: Holiday "seems to want everyone to know how upset he is about all of this." The injury became the subject.
+Under pressure the One <a href="/enneagram-corner/enneagram-types-in-stress#type-1-stress-point">moves to Four</a>: aggrieved, withdrawn, convinced of being misunderstood. The cleanest instance is the 2015 jealousy admission quoted in the section below, where a stranger's good news arrived as personal unfairness. Doug Bates, watching April in real time, caught the aftermath: Holiday "seems to want everyone to know how upset he is about all of this." The injury became the subject.
 
 The Seven direction shows up in the parenting question in the section below, the one that deflates his own urgency before he can aim it at a child.
 

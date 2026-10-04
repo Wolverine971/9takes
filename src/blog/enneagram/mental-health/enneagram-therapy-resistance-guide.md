@@ -288,7 +288,7 @@ The frame is the relationship in miniature. How you respond to it reveals everyt
 {name: 'Crisis Management by Type', link: '/enneagram-corner/mental-health/enneagram-crisis-management-guide'},
 {name: 'Medication & Personality', link: '/enneagram-corner/mental-health/enneagram-medication-mental-health'},
 {name: 'How Each Type Self-Sabotages', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'},
-{name: 'Stress Numbers', link: '/enneagram-corner/enneagram-stress-number'}
+{name: 'Stress Numbers', link: '/enneagram-corner/enneagram-types-in-stress'}
 ]} />
 </div>
 

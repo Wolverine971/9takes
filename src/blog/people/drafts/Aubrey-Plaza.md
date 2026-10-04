@@ -1,6 +1,6 @@
 ---
 title: "Aubrey Plaza's Type 6 Mind: Beyond the Deadpan Facade"
-meta_title: 'Why Aubrey Plaza Turned Anxiety Into Deadpan Armor'
+meta_title: 'Aubrey Plaza Personality Type: Enneagram 6 Profile'
 persona_title: "Comedy's Deadpan Skeptic"
 description: "At 20, Aubrey Plaza had a stroke and her friends thought it was a joke. Since then she's turned anxiety into deadpan armor and chosen roles that weaponize it."
 author: 'DJ Wayne'
@@ -92,7 +92,9 @@ FEEDBACK (2026-02-18):
 
 <p class="firstLetter">Margaret Qualley called Aubrey Plaza "the most unanimously loved person ever."</p>
 
-And when Qualley asked if Plaza related to being "an introverted artist in an extroverted business," Plaza didn't flinch: "Definitely. It's the classic case of a look at me, don't look at me." That tension, wanting to perform and wanting to disappear, isn't a phase. It's the operating system of a counterphobic [Enneagram Type 6](/enneagram-corner/enneagram-type-6): someone whose anxiety is constant, whose loyalty runs deep, and whose solution to fear isn't avoidance but charging straight at it.
+And when Qualley asked if Plaza related to being "an introverted artist in an extroverted business," Plaza didn't flinch: "Definitely. It's the classic case of a look at me, don't look at me." That tension, wanting to perform and wanting to disappear, started long before Hollywood.
+
+**Aubrey Plaza's personality type is [Enneagram Type 6](/enneagram-corner/enneagram-type-6), the Loyalist, in its counterphobic form. Her anxiety is constant and her loyalty runs deep, but where a phobic Six backs away from fear, Plaza charges straight at it.**
 
 ## The Shy Girl from Delaware Who Watched Her Parents Build from Nothing
 

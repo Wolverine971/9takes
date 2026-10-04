@@ -1,6 +1,6 @@
 ---
 title: 'Napoleon Bonaparte: An Enneagram Type 8 Analysis'
-meta_title: "Napoleon's Hidden Weakness: The Love That Conquered the Conqueror"
+meta_title: 'Napoleon Bonaparte Personality Type: Enneagram 8 Profile'
 persona_title: "History's Restless Conqueror"
 description: "Inside Napoleon's psychology: the Corsican outsider who conquered Europe but couldn't conquer his need to be loved."
 author: 'DJ Wayne'
@@ -112,6 +112,8 @@ _Clisson et Eugénie_ tells the tale of a military genius who finds love, loses 
 Napoleon Bonaparte wrote this before Austerlitz. Before Egypt. Before he crowned himself Emperor. Before Josephine. Before any of it.
 
 The man history remembers as a war machine — the conqueror who redrew Europe, the megalomaniac who fed a million soldiers into the Russian winter — sat down before all of that and told you exactly who he was. A man who already knew that love would be the thing he couldn't conquer.
+
+**Napoleon Bonaparte's personality type is Enneagram Type 8, the Challenger, most likely an 8w7. He crowned himself in front of the Pope, and his letters to Josephine show what all that armor was protecting.**
 
 <details>
 <summary class="accordion">TL;DR: Why Napoleon is an Enneagram Type 8</summary>
@@ -235,7 +237,7 @@ The artist of power had, by 1804, broken faith with everyone whose admiration ha
 
 ### Napoleon is an Enneagram Type 8
 
-Every era gets its Napoleon. Ridley Scott's 2023 film, expanded in the 2024 director's cut, made him a husband first and a conqueror second — Joaquin Phoenix playing him as a man who could only function with Josephine in the room. Andrew Roberts's _Napoleon: A Life_ (2014) made him the architect of modern Europe, a reformer in a soldier's coat. Zamoyski made him a brilliant opportunist whose self-myth has eaten his record.
+Every era gets its Napoleon. Ridley Scott's 2023 film, expanded in the 2024 director's cut, made him a husband first and a conqueror second — [Joaquin Phoenix](/personality-analysis/joaquin-phoenix) playing him as a man who could only function with Josephine in the room. Andrew Roberts's _Napoleon: A Life_ (2014) made him the architect of modern Europe, a reformer in a soldier's coat. Zamoyski made him a brilliant opportunist whose self-myth has eaten his record.
 
 None of them is wrong. None of them is enough on its own. The Type 8 reading is what explains why all three versions can be simultaneously true.
 

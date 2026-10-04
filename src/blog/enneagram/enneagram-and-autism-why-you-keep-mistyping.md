@@ -1,4 +1,5 @@
 ---
+# Folded into /enneagram-corner/mental-health/enneagram-neurodivergence-guide on 2026-10-03 (section "Why autistic people may test as Type 5, 9, or 1"). Keep unpublished so autism queries stay on one URL.
 title: 'Enneagram and Autism: Why Masking Makes You Mistype as a 5, 9, or 1'
 description: 'Autistic people keep testing as Type 5, 9, or 1. Enneagram tests measure behavior. The system types motivation. Masking is the gap between them.'
 author: 'DJ Wayne'

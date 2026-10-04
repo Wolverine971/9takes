@@ -33,7 +33,7 @@ Nobody changes their mind at the end of an argument.
 
 Not because people are stupid. Because that's not how persuasion works.
 
-When you "win" publicly, you trigger fight-or-flight. The other person's brain stops processing your logic and starts defending their identity. Every point you score makes them dig in deeper.
+When you "win" publicly, you trigger fight-or-flight. The other person's brain stops processing your logic and starts defending their identity. Every point you score [makes them dig in deeper](/community/be-gentle-when-youre-right).
 
 If you embarrassed them? Now everyone who shares their views sees you as mean, heartless, and smug. You didn't just lose one potential convert. You lost anyone watching who leaned their direction.
 

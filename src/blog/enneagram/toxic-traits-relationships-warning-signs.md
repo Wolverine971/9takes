@@ -1,6 +1,7 @@
 ---
 title: "Red Flags You're Dating a Toxic Version of Each Enneagram Type"
-description: "That charming quirk is now driving you insane. Here's how to spot when each Enneagram type turns toxic in relationships, and when to walk away before it gets worse."
+meta_title: 'Which Enneagram Is Most Likely to Cheat? Red Flags by Type'
+description: 'No Enneagram type is most likely to cheat by number. Here are the toxic red flags of each type, and the motives that often show up before a betrayal.'
 author: 'DJ Wayne'
 date: '2024-07-31'
 loc: 'https://9takes.com/enneagram-corner/toxic-traits-relationships-warning-signs'
@@ -27,7 +28,7 @@ quality_safety_gate: 'n/a'
 </script>
 
 <QuickAnswer question="What are the red flags for each Enneagram type in relationships?">
-Each Enneagram type has a relationship red flag: 1s criticize, 2s give with strings attached, 3s perform, 4s make every feeling urgent, 5s withdraw, 6s test loyalty, 7s avoid seriousness, 8s bulldoze boundaries, and 9s go silent. The attractive trait often becomes the toxic pattern under stress.
+Each Enneagram type has a relationship red flag: 1s criticize, 2s give with strings attached, 3s perform, 4s make every feeling urgent, 5s withdraw, 6s test loyalty, 7s avoid seriousness, 8s bulldoze boundaries, and 9s go silent. The attractive trait often becomes the toxic pattern under stress. No type is most likely to cheat by number, but <a href="#which-enneagram-type-is-most-likely-to-cheat">four motives often show up first</a>.
 </QuickAnswer>
 
 ## Relationship Red Flags by Type
@@ -434,6 +435,46 @@ This self-erasure ultimately breeds resentment and prevents the authentic connec
 
 </article>
 
+## Which Enneagram type is most likely to cheat?
+
+None of them, at least not by number. There's no reliable data showing that one Enneagram type cheats more than another. Any type can cheat, and any type can stay faithful for fifty years.
+
+What research does show is that people cheat for specific reasons. When psychologist Dylan Selterman and colleagues surveyed 495 people about why they had cheated ([_Journal of Sex Research_, 2019](https://pubmed.ncbi.nlm.nih.gov/29244527/)), the answers sorted into eight motives: anger at a partner, feeling neglected, falling out of love, low commitment, wanting a self-esteem boost, wanting variety, sexual desire, and plain circumstance, like a night of drinking.
+
+A type number can't predict who strays. It can point to the fears that make some of those motives more tempting for some people, and show you what each one looks like long before anything happens. Four patterns connect those motives to the toxic patterns above.
+
+### Novelty: the relationship starts to feel like a cage
+
+Sevens are the type most often linked to this one. Their core fear is being trapped in pain or limitation, and most long relationships have stretches that feel exactly like that. Fours can get here through a different door: the "something's missing" ache from their section above, where a stranger starts to look like the missing piece.
+
+Watch the energy. They describe someone they just met the way they used to describe you, and the relationship starts getting talked about like a lease they're waiting out.
+
+### Image: someone else's admiration starts to feel like proof
+
+Threes are commonly described as the most exposed here. When worth runs on being admired, a fresh audience can feel like oxygen, especially if home has gone quiet. Twos can arrive at the same place through appreciation. When a partner stops noticing everything they do, the coworker who notices becomes dangerous.
+
+Watch the split between public and private. They're magnetic at the party and flat in the kitchen.
+
+### Resentment: the affair becomes the complaint they never said out loud
+
+This pattern is often described in Nines, Twos, and Ones. Nines swallow anger to keep the peace. Twos keep a quiet ledger of everything they've given. Ones hold resentment under tight control until it finds a trapdoor. When a grievance never gets voiced, it can get acted out instead.
+
+Watch for months of "Whatever you want is fine," followed by a private life you suddenly can't see into. Silence about small things is the early version.
+
+### Avoidance: they leave emotionally before anyone leaves physically
+
+Fives retreat to protect their energy. Nines go numb. Sevens change the subject. Eights wall off anything tender. None of that is cheating. But when every hard conversation gets dodged, the distance gets filled, and sometimes it gets filled by someone who feels easier to talk to.
+
+Watch the postponements. Every serious talk gets pushed to "later," and you start hearing about their week from other people.
+
+### What to watch instead of the type number
+
+Don't type your partner from one suspicious text. A Seven who loves novelty can be fiercely faithful, and the easygoing Nine can be the one with the second phone. Any type can land in any of these four patterns.
+
+The better question works for every type: what does this person do when the relationship stops giving them what they came for? Do they say so, or do they go get it somewhere else? Start with the [revealing questions below](#revealing-questions-the-window-to-true-character), and trust months of behavior over one bad week.
+
+If you've already found evidence of an affair, a couples therapist who works with infidelity is a better next step than a personality chart.
+
 ## Breaking Toxic Patterns: From Awareness to Action
 
 Recognizing toxic traits is just the first step. Real change requires deeper work.
@@ -486,6 +527,24 @@ What steps will you take today to bring more awareness to your relationship patt
 
 Learn more about [how to communicate effectively in relationships here.](/enneagram-corner/relationship-communication-guide)
 
+## Frequently asked questions
+
+### Which Enneagram is most likely to cheat?
+
+None by number. There's no reliable data showing that one Enneagram type cheats more than another. What differs is the motive that tends to build first: Sevens are often linked to novelty, Threes to image, Nines and Twos to swallowed resentment, and Fives to avoidance. Watch for the [warning signs of each pattern](#which-enneagram-type-is-most-likely-to-cheat) over months, not one suspicious moment.
+
+### What are toxic traits in relationships and what are some common examples?
+
+Toxic traits in relationships are harmful behaviors that damage connection and trust between partners. Examples include constant criticism, emotional manipulation, controlling behavior, avoidance of meaningful communication, and inability to respect boundaries.
+
+### What are some early warning signs of toxic relationship patterns?
+
+Early warning signs include constant criticism disguised as "help," boundary violations presented as "care," emotional manipulation through guilt, keeping score of favors, inability to take responsibility for mistakes, dramatic mood swings that leave you walking on eggshells, and a consistent pattern of making you feel diminished after interactions.
+
+### How can the Enneagram help improve toxic relationship dynamics?
+
+The Enneagram gives couples a shared map of the fears that often sit underneath toxic behavior. A Type 6's jealousy, for example, is often driven by fear of being abandoned, so steady reassurance tends to help more than a fight about control. Naming the fear gives both partners something specific to work on besides the surface argument.
+
 <svelte:head>
 
 <script type="application/ld+json">
@@ -499,6 +558,14 @@ Learn more about [how to communicate effectively in relationships here.](/enneag
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
+            "text": "None by number. There's no reliable data showing that one Enneagram type cheats more than another. What differs is the motive that tends to build first: Sevens are often linked to novelty, Threes to image, Nines and Twos to swallowed resentment, and Fives to avoidance. Watch for the warning signs of each pattern over months, not one suspicious moment."
+          },
+          "name": "Which Enneagram is most likely to cheat?"
+        },
+        {
+          "@type": "Question",
+          "acceptedAnswer": {
+            "@type": "Answer",
             "text": "Toxic traits in relationships are harmful behaviors that damage connection and trust between partners. Examples include constant criticism, emotional manipulation, controlling behavior, avoidance of meaningful communication, and inability to respect boundaries."
           },
           "name": "What are toxic traits in relationships and what are some common examples?"
@@ -507,15 +574,7 @@ Learn more about [how to communicate effectively in relationships here.](/enneag
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Each Enneagram type displays unique toxic traits in relationships. Type 1s become overly critical and judgmental, Type 2s manipulate through 'helpfulness,' Type 3s prioritize image over authenticity, Type 4s create emotional drama, Type 5s withdraw emotionally, Type 6s become suspicious and insecure, Type 7s avoid commitment and emotional depth, Type 8s become controlling and domineering, and Type 9s use passive-aggression to avoid conflict."
-          },
-          "name": "How do toxic traits manifest differently across the nine Enneagram types?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Early warning signs include constant criticism disguised as 'help,' boundary violations presented as 'care,' emotional manipulation through guilt, keeping score of favors, inability to take responsibility for mistakes, dramatic mood swings that leave you walking on eggshells, and a consistent pattern of making you feel diminished after interactions."
+            "text": "Early warning signs include constant criticism disguised as \"help,\" boundary violations presented as \"care,\" emotional manipulation through guilt, keeping score of favors, inability to take responsibility for mistakes, dramatic mood swings that leave you walking on eggshells, and a consistent pattern of making you feel diminished after interactions."
           },
           "name": "What are some early warning signs of toxic relationship patterns?"
         },
@@ -523,7 +582,7 @@ Learn more about [how to communicate effectively in relationships here.](/enneag
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Enneagram helps us understand the fear-based motivations behind toxic behaviors, allowing for more compassion and effective intervention. For example, a Type 6's excessive jealousy stems from fear of abandonment, not a desire to control. This understanding helps couples address the root causes rather than just the symptoms, leading to deeper healing and healthier relationship patterns."
+            "text": "The Enneagram gives couples a shared map of the fears that often sit underneath toxic behavior. A Type 6's jealousy, for example, is often driven by fear of being abandoned, so steady reassurance tends to help more than a fight about control. Naming the fear gives both partners something specific to work on besides the surface argument."
           },
           "name": "How can the Enneagram help improve toxic relationship dynamics?"
         }

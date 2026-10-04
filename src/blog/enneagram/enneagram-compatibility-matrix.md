@@ -1,6 +1,7 @@
 ---
-title: 'The Complete Enneagram Compatibility Matrix: All 81 Type Combinations Decoded'
-description: 'Discover relationship compatibility for all 81 Enneagram pairings. Understand attraction patterns, conflict triggers, and growth potential for every type combination with practical relationship advice.'
+title: 'The Complete Enneagram Compatibility Matrix: All 45 Type Pairings Decoded'
+meta_title: 'Enneagram Compatibility Chart: All 45 Type Pairings'
+description: 'A 9x9 Enneagram compatibility chart covering all 45 type pairings: what pulls each pair together, where it tends to crack, and what keeps it working.'
 author: 'DJ Wayne'
 date: '2025-08-24'
 loc: 'https://9takes.com/enneagram-corner/enneagram-compatibility-matrix'
@@ -30,29 +31,223 @@ mentions:
   - name: 'Growth Edges'
     description: 'Areas where relationship challenges promote personal development'
   - name: 'Core Wounds'
-    description: 'Childhood experiences that shape adult personality patterns'
+    description: 'Painful early experiences that many people connect to their adult relationship patterns'
 ---
-
-<!--
-Keyword Strategy:
-- Primary: enneagram compatibility (18,100/mo)
-- Secondary: enneagram relationship compatibility (8,100/mo), enneagram compatibility chart (4,400/mo)
-- Long-tail: which enneagram types are most compatible, enneagram compatibility matrix, enneagram type compatibility in relationships
--->
 
 <script>
   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>
 
+<style>
+  .compat-chart {
+    --blog-link-color: var(--ink-bright);
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .compat-chart table {
+    display: table;
+    width: 100%;
+    min-width: 50rem;
+    margin: 0;
+    table-layout: fixed;
+    overflow: visible;
+    font-size: 0.8125rem;
+    line-height: 1.3;
+  }
+
+  .compat-chart caption {
+    caption-side: bottom;
+    padding-top: 0.5rem;
+    text-align: left;
+    font-size: 0.875rem;
+    color: var(--ink-dim);
+  }
+
+  .compat-chart th,
+  .compat-chart td {
+    min-width: 0;
+    padding: 0.45rem 0.35rem;
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    overflow-wrap: break-word;
+  }
+
+  .compat-chart thead th:first-child {
+    width: 6.5rem;
+  }
+
+  .compat-chart tbody th {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    text-align: left;
+  }
+
+  .compat-chart .tname {
+    display: block;
+    font-size: 0.6875rem;
+    font-weight: 400;
+    color: var(--ink-mid);
+    hyphens: none;
+  }
+
+  .compat-chart td.same {
+    background-color: color-mix(in srgb, var(--lamp-glow) 14%, transparent);
+  }
+</style>
+
 <QuickAnswer question="Which Enneagram types are most compatible?">
 There is no universally best Enneagram pairing. Compatibility depends more on health level than type. Commonly strong pairings include 2 + 8, 4 + 5, 1 + 7, and 3 + 9, but any pairing can work when both people are self-aware, emotionally regulated, and willing to grow.
 </QuickAnswer>
+
+## Enneagram Compatibility Chart: All 45 Pairings
+
+Find your type down the left side and your partner's type across the top. The cell where they meet names that pairing's fault line, the place it tends to crack. Tap or click it for the full breakdown: what pulls you together, how the crack shows up, and what makes it work.
+
+<div class="compat-chart">
+<table>
+<caption>Enneagram compatibility chart: the fault line for each of the 45 type pairings. Same-type pairings sit on the shaded diagonal.</caption>
+<thead>
+<tr>
+<th scope="col">Type</th>
+<th scope="col">1<span class="tname">Perfectionist</span></th>
+<th scope="col">2<span class="tname">Helper</span></th>
+<th scope="col">3<span class="tname">Achiever</span></th>
+<th scope="col">4<span class="tname">Individualist</span></th>
+<th scope="col">5<span class="tname">Investigator</span></th>
+<th scope="col">6<span class="tname">Loyalist</span></th>
+<th scope="col">7<span class="tname">Enthusiast</span></th>
+<th scope="col">8<span class="tname">Challenger</span></th>
+<th scope="col">9<span class="tname">Peacemaker</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">1<span class="tname">Perfectionist</span></th>
+<td class="same"><a href="#1--1-the-perfectionist-mirror">Rigidity spirals</a></td>
+<td><a href="#1--2-the-reformer-and-helper-dance">Criticism vs. unappreciated care</a></td>
+<td><a href="#1--3-the-achievement-partnership">Right way vs. winning</a></td>
+<td><a href="#1--4-the-idealist-connection">Criticism vs. sensitivity</a></td>
+<td><a href="#1--5-the-analytical-alliance">Both retreat, hearts unfed</a></td>
+<td><a href="#1--6-the-security-system">Anxiety feeding anxiety</a></td>
+<td><a href="#1--7-the-paradox-pairing">Rules vs. freedom</a></td>
+<td><a href="#1--8-the-power-struggle">Righteousness wars</a></td>
+<td><a href="#1--9-the-peaceful-reform">More criticism, more retreat</a></td>
+</tr>
+<tr>
+<th scope="row">2<span class="tname">Helper</span></th>
+<td><a href="#1--2-the-reformer-and-helper-dance">Criticism vs. unappreciated care</a></td>
+<td class="same"><a href="#2--2-the-giving-competition">Secret scorekeeping</a></td>
+<td><a href="#2--3-the-power-couple">Used vs. smothered</a></td>
+<td><a href="#2--4-the-emotional-intensity">Escalation, no resolution</a></td>
+<td><a href="#2--5-the-unlikely-connection">Connection vs. space</a></td>
+<td><a href="#2--6-the-support-system">Anxiety and dependency</a></td>
+<td><a href="#2--7-the-joy-and-care">Depth vs. skimming</a></td>
+<td><a href="#2--8-the-intense-bond">Boundary violations</a></td>
+<td><a href="#2--9-the-gentle-connection">Problems go underground</a></td>
+</tr>
+<tr>
+<th scope="row">3<span class="tname">Achiever</span></th>
+<td><a href="#1--3-the-achievement-partnership">Right way vs. winning</a></td>
+<td><a href="#2--3-the-power-couple">Used vs. smothered</a></td>
+<td class="same"><a href="#3--3-the-success-partnership">Competition, workaholism</a></td>
+<td><a href="#3--4-the-success-and-depth">Image vs. authenticity</a></td>
+<td><a href="#3--5-the-strategic-alliance">Feelings performed or analyzed</a></td>
+<td><a href="#3--6-the-achievement-and-security">Risk vs. caution</a></td>
+<td><a href="#3--7-the-dynamic-duo">Stays surface-level</a></td>
+<td><a href="#3--8-the-power-alliance">Power struggles</a></td>
+<td><a href="#3--9-the-achievement-and-peace">Different paces</a></td>
+</tr>
+<tr>
+<th scope="row">4<span class="tname">Individualist</span></th>
+<td><a href="#1--4-the-idealist-connection">Criticism vs. sensitivity</a></td>
+<td><a href="#2--4-the-emotional-intensity">Escalation, no resolution</a></td>
+<td><a href="#3--4-the-success-and-depth">Image vs. authenticity</a></td>
+<td class="same"><a href="#4--4-the-emotional-depths">Who feels more</a></td>
+<td><a href="#4--5-the-depth-and-detachment">Abandoned vs. smothered</a></td>
+<td><a href="#4--6-the-intensity-and-anxiety">Activated fears</a></td>
+<td><a href="#4--7-the-depth-and-light">Melancholy vs. forced positivity</a></td>
+<td><a href="#4--8-the-intense-power">Escalating eruptions</a></td>
+<td><a href="#4--9-the-depth-and-peace">Unseen vs. overwhelmed</a></td>
+</tr>
+<tr>
+<th scope="row">5<span class="tname">Investigator</span></th>
+<td><a href="#1--5-the-analytical-alliance">Both retreat, hearts unfed</a></td>
+<td><a href="#2--5-the-unlikely-connection">Connection vs. space</a></td>
+<td><a href="#3--5-the-strategic-alliance">Feelings performed or analyzed</a></td>
+<td><a href="#4--5-the-depth-and-detachment">Abandoned vs. smothered</a></td>
+<td class="same"><a href="#5--5-the-mind-meld">Silent disconnection</a></td>
+<td><a href="#5--6-the-research-partnership">Analysis paralysis</a></td>
+<td><a href="#5--7-the-mind-and-adventure">Exhausted vs. bored</a></td>
+<td><a href="#5--8-the-strategy-and-power">Push and retreat</a></td>
+<td><a href="#5--9-the-quiet-understanding">Drift no one notices</a></td>
+</tr>
+<tr>
+<th scope="row">6<span class="tname">Loyalist</span></th>
+<td><a href="#1--6-the-security-system">Anxiety feeding anxiety</a></td>
+<td><a href="#2--6-the-support-system">Anxiety and dependency</a></td>
+<td><a href="#3--6-the-achievement-and-security">Risk vs. caution</a></td>
+<td><a href="#4--6-the-intensity-and-anxiety">Activated fears</a></td>
+<td><a href="#5--6-the-research-partnership">Analysis paralysis</a></td>
+<td class="same"><a href="#6--6-the-security-fortress">Fear echoes</a></td>
+<td><a href="#6--7-the-security-and-adventure">Prepare vs. pretend</a></td>
+<td><a href="#6--8-the-loyalty-and-power">Questioning vs. certainty</a></td>
+<td><a href="#6--9-the-loyal-peace">Avoided decisions</a></td>
+</tr>
+<tr>
+<th scope="row">7<span class="tname">Enthusiast</span></th>
+<td><a href="#1--7-the-paradox-pairing">Rules vs. freedom</a></td>
+<td><a href="#2--7-the-joy-and-care">Depth vs. skimming</a></td>
+<td><a href="#3--7-the-dynamic-duo">Stays surface-level</a></td>
+<td><a href="#4--7-the-depth-and-light">Melancholy vs. forced positivity</a></td>
+<td><a href="#5--7-the-mind-and-adventure">Exhausted vs. bored</a></td>
+<td><a href="#6--7-the-security-and-adventure">Prepare vs. pretend</a></td>
+<td class="same"><a href="#7--7-the-adventure-explosion">Neither processes pain</a></td>
+<td><a href="#7--8-the-intensity-and-joy">Control vs. freedom</a></td>
+<td><a href="#7--9-the-joy-and-peace">Activity vs. peace</a></td>
+</tr>
+<tr>
+<th scope="row">8<span class="tname">Challenger</span></th>
+<td><a href="#1--8-the-power-struggle">Righteousness wars</a></td>
+<td><a href="#2--8-the-intense-bond">Boundary violations</a></td>
+<td><a href="#3--8-the-power-alliance">Power struggles</a></td>
+<td><a href="#4--8-the-intense-power">Escalating eruptions</a></td>
+<td><a href="#5--8-the-strategy-and-power">Push and retreat</a></td>
+<td><a href="#6--8-the-loyalty-and-power">Questioning vs. certainty</a></td>
+<td><a href="#7--8-the-intensity-and-joy">Control vs. freedom</a></td>
+<td class="same"><a href="#8--8-the-power-coupling">Control battles</a></td>
+<td><a href="#8--9-the-power-and-peace">Overwhelm, then passive aggression</a></td>
+</tr>
+<tr>
+<th scope="row">9<span class="tname">Peacemaker</span></th>
+<td><a href="#1--9-the-peaceful-reform">More criticism, more retreat</a></td>
+<td><a href="#2--9-the-gentle-connection">Problems go underground</a></td>
+<td><a href="#3--9-the-achievement-and-peace">Different paces</a></td>
+<td><a href="#4--9-the-depth-and-peace">Unseen vs. overwhelmed</a></td>
+<td><a href="#5--9-the-quiet-understanding">Drift no one notices</a></td>
+<td><a href="#6--9-the-loyal-peace">Avoided decisions</a></td>
+<td><a href="#7--9-the-joy-and-peace">Activity vs. peace</a></td>
+<td><a href="#8--9-the-power-and-peace">Overwhelm, then passive aggression</a></td>
+<td class="same"><a href="#9--9-the-double-peace">Mutual inaction</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Why 45 and not 81? A 2 with a 7 is the same pairing as a 7 with a 2, so the chart mirrors itself across the diagonal, and the diagonal holds the nine same-type pairings.
+
+## Perfect on Paper, Struggling in Practice
 
 <p class="firstLetter">Your perfect match isn't who you think it is.</p>
 
 That calm, collected Type 9 you've been eyeing? They might enable your worst patterns. That intense Type 8 who pushes every button you have? They could be exactly what you need.
 
-Enneagram compatibility research reveals a counterintuitive truth: **couples who look perfect on paper often struggle the most, while "incompatible" pairs create the deepest transformations.**
+Here's the counterintuitive part: **couples who look perfect on paper often struggle the most, while "incompatible" pairs can create the deepest transformations.**
 
 The patterns are clear once you see them:
 
@@ -61,7 +256,7 @@ The patterns are clear once you see them:
 - **Opposing types** often carry the exact medicine each partner needs.
 - **"Perfect matches"** frequently enable each other's worst tendencies.
 
-This guide covers all 81 type combinations. It shows why certain pairings create magic, why others create mayhem, and how conscious work can improve any pairing.
+This guide covers all 45 type pairings. It shows why certain pairings create magic, why others create mayhem, and how conscious work can improve any pairing.
 
 ## How Compatibility Actually Works
 
@@ -82,9 +277,9 @@ Can you heal each other's old wounds? Are you willing to face hard truths? This 
 
 ### Why You're Attracted to Who You're Attracted To
 
-Here's the uncomfortable truth: your personality formed as a response to childhood. Something was missing, something felt wrong, and you adapted. We all did.
+Here's the uncomfortable part. Many people can trace their pattern back to childhood: something felt missing, or something felt wrong, and they adapted. Most of us did some version of this.
 
-Now, in relationships, you're unconsciously looking for one of four things:
+In relationships, that old adaptation often shows up as an unconscious pull toward one of four things:
 
 - **Someone who recreates the wound** so maybe this time you can fix it
 - **Someone who gives you what you never got**, the perfect antidote
@@ -101,7 +296,7 @@ You know that person who drives you crazy but you can't stop thinking about them
 
 Opposite types pull you in because they embody what you've suppressed. They do effortlessly what terrifies you. They see reality from an angle you cannot access on your own.
 
-The perfectionist Type 1 feels magnetically drawn to the enthusiast Type 7. Why? The 7 embodies the spontaneity and self-acceptance the 1 has been crushing since childhood. The 1 represents the focus and discipline the 7 secretly wishes they had.
+The perfectionist Type 1 feels magnetically drawn to the enthusiast Type 7. Why? The 7 embodies the spontaneity and self-acceptance the 1 has spent years crushing in themselves. The 1 represents the focus and discipline the 7 secretly wishes they had.
 
 This dynamic creates both intense attraction and intense friction. The very qualities that draw you in become the qualities that drive you insane.
 
@@ -117,25 +312,9 @@ Then reality hits:
 
 Two Type 2s often compete to be the one giving, leaving both feeling unappreciated. Nobody gets taken care of because everyone is too busy taking care. Two Type 8s can turn every disagreement into a power struggle with no one willing to yield.
 
-## The Complete Compatibility Matrix: All 81 Combinations
+## The Complete Compatibility Matrix: All 45 Pairings
 
-<!-- Image 2: The Enneagram Compatibility Web
-Midjourney Prompt: nine greek statues arranged in perfect enneagram circle formation viewed from above, each statue distinct personality archetype with unique pose and expression, golden threads connecting compatible types glowing bright, silver threads for growth connections pulsing with energy, red threads showing challenging connections creating tension, central mandala of interwoven relationship patterns, cyberpunk romantic aesthetic with soft pink and blue neon accents highlighting connections, marble statues with subtle holographic overlays showing personality traits, cosmic background suggesting infinite relationship possibilities, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lens, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Beautiful Lighting, Accent Lighting, Global Illumination, Screen Space Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --v 6
--->
-
-### Quick Reference Compatibility Table
-
-| Type | Most Natural | Most Growth | Most Challenging | Soul Medicine     |
-| ---- | ------------ | ----------- | ---------------- | ----------------- |
-| 1    | 1, 6, 9      | 7, 4        | 4, 7             | 7 (spontaneity)   |
-| 2    | 2, 4, 8      | 4, 8        | 5, 8             | 4 (authenticity)  |
-| 3    | 3, 7, 8      | 6, 9        | 4, 9             | 6 (vulnerability) |
-| 4    | 1, 2, 4      | 1, 2        | 3, 8             | 1 (structure)     |
-| 5    | 5, 9         | 8, 7        | 2, 7             | 8 (engagement)    |
-| 6    | 1, 6, 9      | 3, 9        | 3, 8             | 9 (trust)         |
-| 7    | 3, 7, 8      | 1, 5        | 1, 4             | 5 (depth)         |
-| 8    | 2, 8, 9      | 2, 5        | 1, 6             | 2 (vulnerability) |
-| 9    | 1, 6, 9      | 3, 6        | 3, 8             | 3 (assertion)     |
+The [chart at the top](#enneagram-compatibility-chart-all-45-pairings) gives each pairing's fault line in a few words. This is the full read. Each pairing appears once, under the lower type number: a 7 dating a 2 is listed as 2 + 7, under Type 2.
 
 ### Type 1 Compatibility: The Perfectionist's Relationships
 
@@ -517,13 +696,9 @@ The paralysis: mutual inaction and avoidance. Neither takes initiative. Both wai
 
 ## What Makes Any Enneagram Pairing Work?
 
-<!-- Image 3: The Dance of Growth
-Midjourney Prompt: two greek statues in dynamic dance pose showing mutual transformation, one statue marble cracking to reveal golden light within, other statue flowing from rigid form to fluid movement, spiral energy patterns connecting them showing growth and evolution, particles of light transferring between figures representing shared wisdom, background transitioning from dark shadows to brilliant sunrise, visual metaphor for conscious relationship work, romantic yet powerful composition, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded with transformation gradient from grey marble to golden enlightenment, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lens, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Contre-Jour, Beautiful Lighting, Accent Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --v 6
--->
-
 ### The Universal Success Factors
 
-After studying hundreds of Enneagram pairings, the patterns become clear. Successful couples share these four elements regardless of their type combination:
+Whatever the type combination, the couples who make it work tend to share four things:
 
 **1. Conscious Awareness**
 
@@ -569,7 +744,7 @@ The 4-8 pairing brings intensity meeting intensity, with potential for profound 
 
 ### When Types Clash: The Growth Opportunity
 
-"Incompatible" pairings often offer the greatest growth potential. The friction is the feature, not the bug.
+"Incompatible" pairings often offer the greatest growth potential. The friction is where the growth happens.
 
 **1. Recognize the Medicine**
 
@@ -585,7 +760,7 @@ Respect different processing styles. Allow [separate recharge methods](/enneagra
 
 **4. Use Type Knowledge Wisely**
 
-Never use type as an excuse for harmful behavior. Use it as a tool for understanding, not a weapon for winning arguments. Cultivate compassion by remembering that your partner's patterns also come from childhood wounds.
+Never use type as an excuse for harmful behavior. Use it to understand your partner. Pulled out to win an argument, it becomes a weapon. Cultivate compassion by remembering that your partner's patterns usually formed long before they met you.
 
 ## Red Flags vs Growth Edges in Enneagram Relationships
 
@@ -610,10 +785,6 @@ Not every difficulty is a red flag. These challenges are actually growth invitat
 Feeling triggered by your partner's strengths points to undeveloped aspects of yourself. Different communication styles force you to expand your range. Opposite stress responses teach you new coping strategies. Conflicting core values often align once you dig beneath the surface.
 
 ## Creating Your Personal Compatibility Map
-
-<!-- Image 4: Personal Compatibility Blueprint
-Midjourney Prompt: single greek statue figure at center examining holographic enneagram map floating before them, nine constellation points around them each representing different relationship type with glowing connection lines of varying intensity, figure touching one point causing ripples of understanding through the network, personal growth journal and ancient scrolls at base showing wisdom integration, cyberpunk meets classical aesthetic with neon geometric patterns overlaying marble textures, background showing journey from isolation to connection with ghosted figures representing past and future relationships, atmosphere of self-discovery and relationship wisdom, Unreal Engine, Cinematic, Color Grading, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded with personal discovery palette transitioning from introspective blues to connection golds, insane details, intricate details, beautifully color graded, Editorial Photography, Photoshoot, Shot on 70mm lens, Depth of Field, DOF, Tilt Blur, Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution, Megapixel, ProPhoto RGB, VR, Halfrear Lighting, Backlight, Natural Lighting, Moody Lighting, Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric, Beautiful Lighting, Accent Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --v 6
--->
 
 Reading about compatibility patterns is useful. But the real work happens when you map your specific dynamic.
 
@@ -659,7 +830,7 @@ No types should categorically avoid each other. While some pairings (like 1-7 or
 
 ### How important is Enneagram compatibility compared to other factors?
 
-Enneagram compatibility is one factor among many. Shared values, emotional maturity, [communication skills](/enneagram-corner/relationship-communication-guide), and commitment to growth matter more than type matching. Use the Enneagram as a tool for understanding, not a relationship rulebook.
+Enneagram compatibility is one factor among many. Shared values, emotional maturity, [communication skills](/enneagram-corner/relationship-communication-guide), and commitment to growth matter more than type matching. Treat the Enneagram as a tool for understanding each other. It makes a poor rulebook.
 
 ### Can Enneagram compatibility predict relationship success?
 

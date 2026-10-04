@@ -228,7 +228,7 @@ The person who never stopped moving suddenly can't start. Endless energy becomes
 
 This isn't laziness. It's system failure. When the achievement machine breaks down, you don't know how to exist without it. A shark that must keep moving to breathe. Forced to stop, you feel like you're drowning.
 
-Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+Read more about <a href="/enneagram-corner/enneagram-types-in-stress">other types under stress</a>
 
 </section>
 

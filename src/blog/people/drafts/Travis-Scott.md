@@ -1,6 +1,6 @@
 ---
 title: 'Travis Scott: The Enneagram Type 9 Who Builds Worlds to Disappear Into'
-meta_title: "Why Travis Scott Can't Stop Building Worlds He Can't Control"
+meta_title: 'Travis Scott Personality Type: Enneagram 9 Profile'
 persona_title: "Hip-Hop's Quiet Architect"
 description: "Inside Travis Scott's contradiction: a meticulous perfectionist who builds overwhelming worlds, then can't bear to see what happens inside them."
 author: 'DJ Wayne'
@@ -77,13 +77,15 @@ path: src/blog/people/drafts/Travis-Scott.md
 
 <p class="firstLetter">The most photographed rapper alive cannot look at a camera.</p>
 
-Every red carpet, every festival stage, every magazine cover. Travis Scott's head is down. Chin to chest. Eyes on the floor. For years, fans assumed this was branding. A signature pose. An aesthetic choice from a man who treats everything like a design decision.
+Every red carpet, every festival stage, every magazine cover. Travis Scott's head is down. Chin to chest. Eyes on the floor. For years, fans assumed this was branding, an aesthetic choice from a man who treats everything like a design decision.
 
-It isn't. "I'm just really just looking down," he told SHOWstudio. No irony. No performance. The man who sold out SoFi Stadium, who spent a decade building the most overwhelming sensory experiences in modern music, cannot meet the lens.
+It isn't. "I'm just really just looking down," he told SHOWstudio. The man who sold out SoFi Stadium, who spent a decade building the most overwhelming sensory experiences in modern music, cannot meet the lens.
 
 This is the contradiction at the center of **Travis Scott**. He builds worlds with architectural precision, then unleashes forces inside those worlds that he cannot control. Fifty studio sessions per song. Self-engineered vocals. Stage designs inspired by brutalism and Japanese anime. He is the most meticulous creative mind in hip-hop, and the man who, when ten people died at his festival, said he didn't know what was happening until minutes before the press conference.
 
 The head stays down. It has always stayed down.
+
+**Travis Scott's personality type is Enneagram Type 9, the Peacemaker. The lowered head and the overwhelming stages are one Nine habit: disappearing into something bigger than himself.**
 
 <details>
 <summary class="accordion">TL;DR: Why Travis Scott is an Enneagram Type 9</summary>
@@ -179,7 +181,7 @@ Here's what critics noticed across four albums: the production is visionary. The
 
 Stereogum put it bluntly: "Let go of the idea that Scott can or should have anything to say at all." Slant said he was "largely unable to convey anything close to a personality on the mic." Rolling Stone's Andre Gee wrote that Travis "continues to seem like he's better at producing and choosing collaborators than he is at expressing himself as a rapper."
 
-This isn't a failure of skill. It's a pattern. His songs orbit drugs, sex, and excess, but underneath the braggadocio, there's a persistent haze of dissatisfaction he never names directly. On "Goosebumps," being "way too numb" isn't a confession. It's an atmospheric detail. "Astrothunder" explores disconnection and longing but keeps the longing abstract: "I need blessings and my peace." On "Drugs You Should Try It," the parallel between substances and love is deliberate. He merges the two into a single undifferentiated feeling, avoiding having to confront either one directly.
+That emptiness is a pattern. His songs orbit drugs, sex, and excess, but underneath the braggadocio, there's a persistent haze of dissatisfaction he never names directly. On "Goosebumps," being "way too numb" isn't a confession. It's an atmospheric detail. "Astrothunder" explores disconnection and longing but keeps the longing abstract: "I need blessings and my peace." On "Drugs You Should Try It," the parallel between substances and love is deliberate. He merges the two into a single undifferentiated feeling, avoiding having to confront either one directly.
 
 He doesn't write lyrics the way most rappers do. "I don't really write," he told MTV. "I'm an on-the-spot type of person. This beat, let's listen to it, let's vibe. And then I'll do a melody and then we'll go back and do it." A journalist for The Fader watched him in the studio "mumbling into the microphone, barely saying words, grasping at a cadence and flow." Sound first. Meaning second. The container before the contents.
 

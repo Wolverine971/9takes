@@ -1,6 +1,6 @@
 ---
 title: 'Robert Downey Jr.: The Escape Artist Who Learned to Stay'
-meta_title: "Why Robert Downey Jr. Couldn't Stop Running (Until Three Things Forced Him to Stay)"
+meta_title: 'Robert Downey Jr. Personality Type: Enneagram 7 Profile'
 persona_title: "Hollywood's Comeback Alchemist"
 description: "Inside the psychology of Robert Downey Jr. — how a father who taught love through drugs created Hollywood's greatest escape artist, and the three forces that finally made him stay."
 author: 'DJ Wayne'
@@ -91,6 +91,8 @@ That sentence is the key to everything that followed. The arrests. The prison ce
 Robert Downey Jr. spent thirty years proving you could outrun anything. Then he spent twenty years proving that everything worth having required him to stay.
 
 That gap between the man who runs and the man who stays is the story everyone tells about him. But the running wasn't rebellion and the staying wasn't willpower. Both were responses to the same wound, inflicted before he was old enough to understand it: his father taught him that love looks like escape.
+
+**Robert Downey Jr.'s personality type is Enneagram Type 7, the Enthusiast. Sevens are driven by a fear of being trapped in pain, and his life shows that fear from both sides: thirty years of exits, then the hard work of no longer taking them.**
 
 <details>
 <summary class="accordion">TL;DR: Why Robert Downey Jr. is an Enneagram Type 7</summary>

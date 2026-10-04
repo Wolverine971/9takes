@@ -183,7 +183,7 @@ The cruelest part is how much you hate yourself for it. You can see exactly what
 
 **Distinguish feeling from fact.** "I feel completely alone" is real. "I am completely alone" may not be true. Both can exist. The feeling doesn't require the fact to validate it.
 
-Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+Read more about <a href="/enneagram-corner/enneagram-types-in-stress">other types under stress</a>
 
 </section>
 

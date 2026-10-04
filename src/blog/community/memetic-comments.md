@@ -109,7 +109,7 @@ Every platform that shows you other people's reactions before you've formed your
 
 This might sound like an academic curiosity. The consequences are everywhere.
 
-**We lose the dissenting voice that matters most.** The person with an unusual perspective reads the thread, senses they'll be piled on, and closes the tab. Their insight — the one that might have changed someone's mind — never gets posted. The Smithsonian's coverage of the Muchnik study noted this exact dynamic: social influence doesn't just amplify popular views, it suppresses unpopular ones.
+**We lose the dissenting voice that matters most.** The person with an unusual perspective reads the thread, [senses they'll be piled on](/community/be-gentle-when-youre-right), and closes the tab. Their insight — the one that might have changed someone's mind — never gets posted. The Smithsonian's coverage of the Muchnik study noted this exact dynamic: social influence doesn't just amplify popular views, it suppresses unpopular ones.
 
 **We get lonelier while agreeing with more people.** Performative agreement isn't connection. When you mirror a thread's consensus because the social cost of disagreeing is too high, you trade authenticity for belonging — and on some level, you know it. That gap between what you actually think and what you publicly say compounds into isolation.
 

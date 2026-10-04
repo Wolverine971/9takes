@@ -228,3 +228,14 @@ Work stopped at the tasker's mandatory source-verification gate on 2026-07-15.
 - Confirmed the live source does not contain the claimed 457-couple sample or the 20.7%, 17.9%, 17.5%, and 17.3% pairing frequencies. Its methodology is not a replacement for the claimed study.
 
 Per Step 2, no title, description, chart, thesis, article body, or redirect was changed. The task remains blocked until the 457-couple figures can be verified from a trustworthy source or the merge plan is rewritten without them.
+
+### 2026-10-03 update: chart rebuilt independently of the blocked salvage
+
+Done under plan Clean-up row 4 (`docs/content-strategy/2026-10-03-search-cleanup-and-gap-plan.md`), without the 457-couple data. The salvage asset stays blocked and withdrawn. No statistic of any kind was added.
+
+- **Chart (Step 4, done):** the contradictory Quick Reference table (Type 1 listed 4 and 7 as both "Most Growth" and "Most Challenging") is gone. In its place is a symmetric 9x9 chart directly under the QuickAnswer, under a new H2 `#enneagram-compatibility-chart-all-45-pairings`. Each cell names the pairing's fault line in words taken from that pairing's own section and links to it. A scratch verifier parsed the final chart and confirmed 81 cells, 45 unique pairings, a mirrored diagonal, and every cell agreeing with and linking to its section.
+- **81 vs 45 (Step 6, Option A, done):** title, description, lede and H2 now say 45, with one line explaining why 45 covers all 81 cells. The anchor `#the-complete-compatibility-matrix-all-81-combinations` (622 impressions, 0 clicks, position 6.8 in the 90 days to 2026-10-02) is now `#the-complete-compatibility-matrix-all-45-pairings`. If that anchor drops out of GSC, it was renamed on purpose. It was not a regression.
+- **Retitle (Step 3, partial):** `meta_title` is now "Enneagram Compatibility Chart: All 45 Type Pairings". The H1 keeps "Matrix" (now "All 45 Type Pairings Decoded"). The slug is unchanged.
+- **Also removed:** "research reveals", "after studying hundreds of pairings", the Keyword Strategy comment and the Midjourney comments. Childhood lines are now hedged.
+- **Not done:** Step 5 (thesis and data merge) and Step 8 (the guide 301, still tied to T-07).
+- **Baseline for the 2-week and 4-week re-snapshots** (`docs/data/gsc/2026-10-04-*.csv`, 90 days to 2026-10-02): 89 clicks, 8,180 impressions, 1.09% CTR, position 13.4. Top queries, with fragment rows deduped: "enneagram compatibility chart" 28 clicks, 944 impressions, position 6.3; "enneagram type compatibility" 0 clicks, 611 impressions, position 15.3; "enneagram compatibility" 0 clicks, 272 impressions, position 13.1.

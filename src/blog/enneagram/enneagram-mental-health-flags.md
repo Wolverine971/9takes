@@ -506,7 +506,7 @@ Nines often struggle with numbing out and avoiding conflict. This can lead to de
 
 **If you or someone you know is experiencing suicidal thoughts or severe mental health crisis:**
 
-- **National Suicide Prevention Lifeline:** 988 (US)
+- **988 Suicide & Crisis Lifeline:** call or text 988 (US)
 - **Crisis Text Line:** Text HOME to 741741
 - **International Association for Suicide Prevention:** https://www.iasp.info/resources/Crisis_Centres/
 - **Emergency Services:** Call 911 or your local emergency number

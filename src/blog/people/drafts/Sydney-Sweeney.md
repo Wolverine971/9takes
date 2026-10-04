@@ -460,7 +460,7 @@ By early 2026, _The Housemaid_ had crossed $400 million. The question that start
 
 ## Where stress takes her (and where growth lives)
 
-In Enneagram terms, [Type 3 moves toward Type 9 under stress](/enneagram-corner/enneagram-stress-number): numb out, go on autopilot, avoid feeling, keep busy. The production line keeps running but the person inside goes quiet.
+In Enneagram terms, [Type 3 moves toward Type 9 under stress](/enneagram-corner/enneagram-types-in-stress#type-3-stress-point): numb out, go on autopilot, avoid feeling, keep busy. The production line keeps running but the person inside goes quiet.
 
 In a W Magazine interview, Sweeney said something worth sitting with:
 

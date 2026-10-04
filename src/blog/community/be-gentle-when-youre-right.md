@@ -1,6 +1,7 @@
 ---
 title: "Be Gentle When You're Right"
-description: 'Shaming people for being wrong feels like justice. Mostly it teaches them to stop trying.'
+meta_title: "Be Gentle When You're Right: Why People Can't Admit They're Wrong"
+description: "Dunking on people who are wrong makes it unsafe to admit being wrong, and people who can't admit it start to lie. Be clear about the error. Be merciful."
 author: 'DJ Wayne'
 date: '2026-09-26'
 loc: 'https://9takes.com/community/be-gentle-when-youre-right'
@@ -10,171 +11,332 @@ priority: '0.8'
 published: true
 type: ['idea', 'community']
 blog: true
-previewHtml: ''
+previewHtml: 'Humiliate people for being wrong and admitting it becomes unsafe. A pile-on made Megan Phelps-Roper surer. A few merciful strangers got her out of Westboro.'
+pic: 'greek-statue-offering-mercy-under-streetlamp'
 path: src/blog/community/be-gentle-when-youre-right.md
+article_citations:
+  - name: 'Unfollow'
+    author: 'Adrian Chen'
+    datePublished: '2015'
+    publisher:
+      '@type': Organization
+      name: 'The New Yorker'
+    url: 'https://www.newyorker.com/magazine/2015/11/23/conversion-via-twitter-westboro-baptist-church-megan-phelps-roper'
+  - name: "I grew up in the Westboro Baptist Church. Here's why I left"
+    author: 'Megan Phelps-Roper'
+    datePublished: '2017'
+    publisher:
+      '@type': Organization
+      name: 'TED'
+    url: 'https://www.ted.com/talks/megan_phelps_roper_i_grew_up_in_the_westboro_baptist_church_here_s_why_i_left'
+  - name: 'On being wrong'
+    author: 'Kathryn Schulz'
+    datePublished: '2011'
+    publisher:
+      '@type': Organization
+      name: 'TED'
+    url: 'https://www.ted.com/talks/kathryn_schulz_on_being_wrong'
+  - name: 'Shame and Guilt'
+    author: 'June Price Tangney and Ronda L. Dearing'
+    datePublished: '2002'
+    publisher:
+      '@type': Organization
+      name: 'Guilford Press'
+  - name: 'Shame, Guilt and Remorse: Implications for Offender Populations'
+    author: 'June P. Tangney, Jeffrey Stuewig, and Logaina Hafez'
+    datePublished: '2011'
+    publisher:
+      '@type': Organization
+      name: 'Journal of Forensic Psychiatry & Psychology'
+    url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3328863/'
+  - name: 'Learning from Mistakes Is Easier Said Than Done: Group and Organizational Influences on the Detection and Correction of Human Error'
+    author: 'Amy C. Edmondson'
+    datePublished: '1996'
+    publisher:
+      '@type': Organization
+      name: 'The Journal of Applied Behavioral Science'
+    url: 'https://journals.sagepub.com/doi/10.1177/0021886396321001'
+  - name: 'Immunity Policies'
+    author: 'NASA Aviation Safety Reporting System'
+    publisher:
+      '@type': Organization
+      name: 'NASA'
+    url: 'https://asrs.arc.nasa.gov/overview/immunity.html'
+  - name: 'Postmortem Culture: Learning from Failure'
+    author: 'John Lunney and Sue Lueder'
+    datePublished: '2016'
+    publisher:
+      '@type': Organization
+      name: 'Google, Site Reliability Engineering'
+    url: 'https://sre.google/sre-book/postmortem-culture/'
+  - name: 'Trump Doubles Down on Inaccurate Hurricane Forecast'
+    author: 'Eugene Kiely and Lori Robertson'
+    datePublished: '2019'
+    publisher:
+      '@type': Organization
+      name: 'FactCheck.org'
+    url: 'https://www.factcheck.org/2019/09/trump-doubles-down-on-inaccurate-hurricane-forecast/'
+  - name: 'Trump Stays Firm on Alabama Hurricane Claim'
+    author: 'Terry Collins'
+    datePublished: '2019'
+    publisher:
+      '@type': Organization
+      name: 'Fortune'
+    url: 'https://fortune.com/2019/09/06/trump-hurricane-alabama/'
+  - name: 'President Trump Displays Altered Hurricane Dorian Forecast Chart Showing It Was Expected to Pass Over Alabama'
+    author: 'Jasmine Aguilera'
+    datePublished: '2019'
+    publisher:
+      '@type': Organization
+      name: 'TIME'
+    url: 'https://time.com/5669115/trump-hurricane-dorian-alabama-sharpie/'
+  - name: 'White House Official Says It Was Trump Himself Who Altered the Hurricane Dorian Map With a Sharpie'
+    author: 'Elliot Hannon'
+    datePublished: '2019'
+    publisher:
+      '@type': Organization
+      name: 'Slate'
+    url: 'https://slate.com/news-and-politics/2019/09/trump-altered-hurricane-dorian-map-sharpie.html'
+  - name: '#Sharpiegate Trends as People Mock Trump For Showing Hurricane Dorian Path Map Altered With Pen'
+    author: 'Ewan Palmer'
+    datePublished: '2019'
+    publisher:
+      '@type': Organization
+      name: 'Newsweek'
+    url: 'https://www.newsweek.com/sharpiegate-hurricane-dorian-trump-map-alabma-1457782'
+  - name: 'The FRONTLINE Interviews: Mary Trump'
+    author: 'Mary L. Trump, interviewed by Gabrielle Schonder'
+    datePublished: '2020'
+    publisher:
+      '@type': Organization
+      name: 'PBS FRONTLINE'
+    url: 'https://www.pbs.org/wgbh/frontline/interview/mary-trump/'
+  - name: 'The FRONTLINE Interviews: Michael Kruse'
+    author: 'Michael Kruse, interviewed by Michael Kirk'
+    datePublished: '2020'
+    publisher:
+      '@type': Organization
+      name: 'PBS FRONTLINE'
+    url: 'https://www.pbs.org/wgbh/frontline/interview/michael-kruse/'
+  - name: "Trump on 'Tonight Show:' Will apologize 'if I'm ever wrong'"
+    author: 'Associated Press'
+    datePublished: '2015'
+    publisher:
+      '@type': Organization
+      name: 'Associated Press (via Fox News)'
+    url: 'https://www.foxnews.com/entertainment/trump-on-tonight-show-will-apologize-if-im-ever-wrong'
 ---
 
 <!--
-WORKING DRAFT, 2026-09-26.
-Section 1 is DJ's voice memo, lightly cleaned (filler removed, "mispoke" fixed, one garbled
-opening line interpreted; see the note under it). Sections 2-7 are scaffolding to expand from.
-Delete the scaffolding as it turns into prose.
-
-Other working titles: "The Shame of Being Wrong" / "Why We Dunk" / "Nobody Feels Wrong While They're Wrong"
+Image concept (matches the community Greek-statue set):
+Two Greek marble statues on a city sidewalk at night. One holds a picket sign turned face-down;
+the other offers her a small wrapped pastry box. A crowd of statues behind them holds up glowing
+phones, faces lit and jeering. Warm streetlamp light on the two, cold phone light on the crowd.
+Generated 2026-10-03 via OpenRouter (google/gemini-2.5-flash-image, 16:9), variant set:
+source-assets/blogs/greek-statue-offering-mercy-under-streetlamp.png (master) +
+static/blogs/greek-statue-offering-mercy-under-streetlamp.webp + s-greek-statue-offering-mercy-under-streetlamp.webp.
+The two central figures sit in the middle third so the 10:16 PopCard hero crop keeps both.
+Midjourney prompt:
+two classical Greek marble statues on a modern city sidewalk at night, one woman statue holding a
+picket sign turned face-down, a man statue offering her a small wrapped pastry box, behind them a
+crowd of marble statues holding up glowing phones with jeering expressions, warm amber streetlamp
+light on the two figures, cold blue phone light on the crowd, cinematic depth, realistic marble
+texture, no readable text --ar 16:9 --v 6 --style raw --stylize 150
 -->
 
-## 1. The Core Idea
+<script>
+	import InsightBox from '$lib/components/blog/callouts/InsightBox.svelte';
+</script>
 
-One thing I want to talk about is punishing or shaming people when they're wrong.
+<p class="firstLetter">On World AIDS Day in 2009, a comedian with more than a million followers found a member of the Westboro Baptist Church on Twitter and handed her to his audience.</p>
 
-There's a reason we do it. You do need a certain amount of shame when you're wrong, because you shouldn't be proud when you're wrong. You should be learning from it. When you're wrong, you made a miscalculation, or you misspoke, or something. There's an element of: you messed up, and another person didn't. You made an error, and the other person didn't make an error. It's a shame thing because someone did it better than you. That's sort of the thinking of it.
+Her name was Megan Phelps-Roper, a granddaughter of the church's founder. He quoted one of her tweets, "AIDS is God's curse on you," and added: "Let her feel your love." A famous director and a sitcom star joined in. So did many of their followers.
 
-However, people mess up all the time, and in the moment they think they're right. So they want to shame people who are wrong, but they don't want to be shamed when they're wrong. When a lot of people are walking around spouting off ideas, saying they're right about something, my thinking is that they're not aware of the times they've been wrong in their life. They don't have that humility.
+Megan was exhilarated. "It's proof that people are seeing it and reacting to it," she later told _The New Yorker_. She spent the morning firing Bible verses back and taunted the comedian: "I think your plan is back-firing."
 
-One thing that's beautiful is when you're right about something and you're gentle with the other person who's wrong. I think we've lost a lot of that in our society. When someone's wrong, we dunk on them. When you do that, it just hardens people's hearts, and it makes them even more fearful and guarded and constricted, because they don't want to be in a world where they're wrong. They're never going to put themselves out there. They're never going to put themselves in a position to learn, because they're just going to cling to the beliefs they know are right. They're not going to try things.
+She was right about that.
 
-I'm trying to figure out the relationship between these different mechanisms. If you have a lot of shame for being wrong, you're not going to try new things and experiment and be creative. You're going to be very closed off and sort of dogmatic. I think this has to do with religious stuff and everything.
+I think the same thing is going on everywhere right now. We love to dunk on people when they're wrong, to humiliate them and pass the screenshot around. What that does is make it unsafe to admit you're wrong. And a person who can't safely admit they're wrong stays wrong. They defend it, then they hide it, and when hiding stops working, some of them lie.
 
-<!-- Interpretation note: the memo's second sentence was "You do need a certain amount of shame to
-shame people when they are wrong." Read here as two claims: (a) there's a reason we shame people,
-(b) some shame is appropriate when you're wrong. Restore the original if you meant something else. -->
+Megan left the church in November 2012. By her own account, what moved her was a handful of people on Twitter who were just as sure she was wrong and merciful with her anyway. I'll come back to them.
 
-## 2. The Threads
+I'm not writing this from a high horse. I'm an Enneagram 8. I say things harshly without realizing it, and what I think is just direct, [my wife hears as an attack](/community/inspiration-for-9takes). But one of the most beautiful things a person can do is be right about something and be gentle with the person who's wrong, and I think we've lost a lot of that.
 
-Nine separate ideas are braided together in the memo. Each one could carry its own section.
+Here's where I've landed: **be clear about the error and gentle with the person.**
 
-**1. Shame has a job.** _"You shouldn't be proud when you're wrong. You should be learning from it."_
-You open by defending shame, not attacking it. Being wrong is supposed to cost something, and the cost is what makes you learn.
+The dunk gets half of that right. It names the error, usually loudly. Then it goes after the person, so admitting the error now means accepting the humiliation too.
 
-**2. Shame is comparative.** _"It's a shame thing because someone did it better than you."_
-You put the sting in the ranking, not in the mistake. Being wrong hurts because someone else was right while you were wrong.
+## Being wrong should cost you something
 
-**3. The double standard.** _"They want to shame people who are wrong, but they don't want to be shamed when they are wrong."_
-Everyone wants to hand out shame. Nobody wants to take any.
+I'll start with the case for shame, because there is one.
 
-**4. Certainty as amnesia.** _"They're not aware of the times that they've been wrong in their life."_
-Loud confidence here is a memory problem. The certain person has forgotten their own track record.
+You shouldn't be proud when you're wrong. You should be learning from it. You made a miscalculation, or you misspoke, and somebody else didn't. Part of the sting is that someone did it better than you. That sting is how you remember.
 
-**5. Gentleness is how the right person should act.** _"When you're right about something, you're gentle with the other person."_
-Being right comes with an obligation to be gentle. You call this "beautiful," which is the only moment in the memo where you describe the ideal instead of the problem.
+The trouble is that everybody is wrong constantly, and almost nobody notices while it's happening.
 
-**6. The cultural shift.** _"We've lost a lot of that in our society. When someone's wrong, we dunk on them."_
-This is a historical claim: there used to be more gentleness than there is now.
+Kathryn Schulz, who wrote the book _Being Wrong_, once asked a TED audience how it feels to be wrong. Dreadful, they said. Embarrassing. She told them that's how it feels to _realize_ you're wrong. "Just being wrong doesn't feel like anything," she said. "It does feel like something to be wrong; it feels like being right."
 
-**7. The hardening chain.** _"Hardens people's hearts... fearful and guarded and constricted."_
-This is a causal sequence: dunking leads to fear, fear leads to guardedness, guardedness leads to never being exposed, and a person who's never exposed never learns.
+So the person you're about to dunk on can't feel their error. And right now, about something, neither can you.
 
-**8. Shame vs. creativity.** _"You're not going to try new things and experiment and be creative."_
-The amount of shame someone attaches to being wrong decides how much they're willing to try.
+That's where the double standard comes from. People want to shame others for being wrong, and they don't want to be shamed when they're wrong. The loudest ones usually aren't aware of the times they've been wrong in their own life. Loud certainty is mostly a memory problem.
 
-**9. The religious thread.** _"I think this has to do with religious stuff."_
-This is the least developed thread. It's where dogma comes from, and it hints that being wrong can be treated as a moral failure, not just a factual one.
+## Humiliation teaches people to hide their mistakes
 
-## 3. The Timeline: How the Logic Moves
+When you dunk on someone, it hardens their heart. It makes them more fearful, more guarded, more constricted. They don't want to live in a world where they're wrong, so they stop putting themselves out there. They cling to the beliefs they already _know_ are right, and the [fortress turns into a prison](/community/fear-triad-intellectual-fortress-or-prison). They stop experimenting, too, because the safest bet is no bet.
 
-Here's the order the argument runs in:
+Amy Edmondson, a Harvard Business School professor, found the evidence in hospitals. In a 1996 study of medication errors across nursing teams, she expected the better teams to make fewer mistakes. They had the highest recorded error rates.
 
-1. **Premise:** some shame is earned when you're wrong.
-2. **Mechanism:** shame comes from comparison. Someone else got it right.
-3. **Hinge ("However"):** everyone is wrong constantly, and from the inside it feels like being right.
-4. **Double standard:** so people hand out shame they would never accept.
-5. **Diagnosis:** loud certainty means forgotten wrongness, which means no humility.
-6. **Ideal:** the person who's right should be gentle.
-7. **Social claim:** we've lost that, and now we dunk.
-8. **Consequence:** dunk → hardened heart → fear → guardedness → no exposure → no learning → clinging to "known" beliefs → no trying.
-9. **Generalization:** how much shame people attach to being wrong controls how open they are. Religion is one big example.
+One nurse said that after she hurt a patient while drawing blood, her manager made her feel "on trial; it was degrading, like I was a two-year-old." After a meeting like that, you keep the next mistake to yourself. The good teams were admitting their errors. The harsh ones were hiding theirs, where nobody could fix them.
 
-**The shape of it:** you start in the shamer's seat (steps 1-2), move to the shamed person's seat (step 8), then zoom out to the whole system (step 9). The memo opens with a certainty ("you do need shame") and ends with a question ("what's the relationship?"). The piece does what it recommends: it starts sure and ends open.
+Fields where hidden errors get expensive wrote this into policy. Pilots who report their own mistakes to NASA's Aviation Safety Reporting System within 10 days can often avoid FAA penalties, and Google runs "blameless" postmortems because otherwise "people will not bring issues to light for fear of punishment."
 
-**The loop you described but didn't close:** the output of step 8 (people clinging to beliefs they "know" are right) is the input of step 5 (people spouting off with no humility). The people who got hardened become the next dunkers. So it isn't a line, it's a cycle:
+Here's the whole loop.
 
-```
-someone is wrong in public
-        ↓
-they get dunked on
-        ↓
-it lands as "I am wrong," not "I got this wrong"
-        ↓
-they harden: guarded, constricted, stop trying things
-        ↓
-they cling to the beliefs they "know" are right
-        ↓
-certainty with no memory of ever being wrong
-        ↓
-they dunk on the next person who's wrong
-        ↓
-(back to the top, with a new person)
-```
+<InsightBox title="The dunk loop" tone="info">
+<ol>
+<li>Someone is wrong in public.</li>
+<li>They get dunked on.</li>
+<li>It lands as "I am wrong" instead of "I got this wrong."</li>
+<li>Admitting it now means agreeing they deserved the humiliation, so they defend the error instead.</li>
+<li>They harden. More guarded, quieter, done trying new things.</li>
+<li>Certain, and with no memory of ever being wrong, they dunk on the next person.</li>
+</ol>
+</InsightBox>
 
-That cycle is probably the "relationship between these different mechanisms" you were reaching for. It explains your claim that "we've lost that" without needing a villain: every turn of the loop produces more dunkers and fewer gentle people.
+Every turn of that loop makes another dunker. Nobody had to choose cruelty for the gentle version to disappear.
 
-## 4. Interesting Tidbits
+## Guilt says "I did something bad." Shame says "I am bad."
 
-**"Someone did it better than you."** This is the sharpest line in the memo. Try a thought experiment: if you're wrong alone, say you miscalculate something nobody will ever see, it's annoying and it costs you, but it doesn't burn. If you're wrong in front of people, it burns. So most of the pain of being wrong is social. If that's true, a dunk isn't a correction. It's a public grab for the higher rank.
+Most of us lump those two feelings together. The psychologist June Tangney has studied the difference for decades, including in her 2002 book with Ronda Dearing, _Shame and Guilt_. The two push people in opposite directions.
 
-**"They don't want to be in a world where they're wrong."** You didn't say they don't want to _be_ wrong. You said they don't want to _be in a world where_ they're wrong. That's a bigger claim. Dogma, read this way, is a smaller world someone builds where they can't be wrong.
+"Shame often motivates efforts to deny, hide or escape the shame-inducing situation," Tangney and her colleagues write. Guilt "often motivates reparative action": confessing, apologizing, trying to undo the harm. Shame also travels with anger and blaming someone else, and it "is apt to disrupt people's ability to connect empathically with others."
 
-**"Beliefs they know are right."** The word "know" gives it away. Here certainty is working as a shelter, not a conclusion someone reasoned their way to.
+That's the mechanism under everything I'm arguing. A correction aimed at the act produces guilt, and guilt admits. A dunk aimed at the person produces shame, and shame denies.
 
-**Nobody feels wrong while they're wrong.** Kathryn Schulz (_Being Wrong_, 2010) makes this point: there's no inner sensation of being wrong. Being wrong feels exactly like being right until you find out. So "people think they're right" isn't a character flaw. It's how being wrong works from the inside. That makes dunking even stranger: you're punishing someone for a state they had no way of perceiving.
+So when I said being wrong should cost you something, I meant the guilt kind. It points at what you did and leaves you intact enough to own it.
 
-**Humility and gentleness are the same thing seen from two sides.** Paragraph 2 (people who forget their own errors) and paragraph 3 (being gentle when you're right) are one idea. You can only be gentle when you're right if you remember being wrong. That means the dunker isn't mean first. They're forgetful first.
+## What it looks like when being wrong is unsurvivable
 
-**"You shouldn't be proud when you're wrong."** This line assumes two options, shame or pride. There's a third: interest. Scientists, poker players, and good engineers treat a wrong call as information: "huh, what did I miss?" That response is neither pride nor shame, and it may be the one you're actually describing when you say "you should be learning from it."
+Run the dunk loop long enough, starting early enough, and you get a person who can't afford to be wrong. The clearest public example I know is Donald Trump. If this turns into a dunk, I'm doing the thing I'm arguing against, so I'll stick to the mechanism.
 
-## 5. What You're Missing
+On September 1, 2019, he tweeted that Alabama, among other states, would "most likely be hit (much) harder than anticipated" by Hurricane Dorian. Twenty minutes later, the National Weather Service office in Birmingham posted: "Alabama will NOT see any impacts from #Dorian."
 
-**1. The word "shame" is doing two jobs.** Paragraph 1 describes a healthy response: _I made a miscalculation, I should learn from it._ Paragraph 3 describes a destructive one: hardening, hiding, clinging. Psychologists split these into **guilt** ("I did a bad thing") and **shame** ("I am bad"). June Tangney's research (_Shame and Guilt_, with Ronda Dearing, 2002) found that people prone to guilt tend toward empathy and repair. People prone to shame tend toward anger, blame, defensiveness, and hiding. That's your hardening thesis, backed by research. It's also the key to your central tension: the goal isn't zero shame. The goal is to keep the correction pointed at the act, not the person.
+That was the cheap moment. One sentence would have closed it: I had an old forecast, glad Alabama's safe.
 
-**2. Being wrong vs. doing wrong.** Your examples are about facts and skill (miscalculating, misspeaking). Dunk culture works by moralizing them: a factual error becomes proof that you're a bad person. Once being wrong is a moral failure, admitting a mistake is like confessing a sin, and nobody confesses in public. This is probably the bridge to your religion thread.
+He spent the week defending it instead. He tweeted that "the Fake News is only interested in demeaning and belittling." On September 4, in the Oval Office, he held up a forecast map from August 29 with a black marker loop stretching the storm's cone into Alabama. Asked later that day whether the map had been altered, he said, "I don't know." _The Washington Post_ reported, citing an anonymous White House official, that he'd drawn the loop himself.
 
-**3. The audience.** A dunk isn't really aimed at the person who's wrong. It's aimed at the crowd watching. Real correction usually happens in private, and dunks happen in public, because the point is status, not the fix. This ties straight back to "someone did it better than you": the dunk is someone claiming that rank out loud.
+Look at his complaint, though: demeaning and belittling. The correction landed as humiliation, and he fought the humiliation instead of the error. By the next morning, thousands of people were mocking him under #Sharpiegate, and every round of it made backing down cost more.
 
-**4. Wrong isn't always an error.** Sometimes you made the best call you could with what you knew, and it didn't work out. Annie Duke (_Thinking in Bets_) calls judging a decision by its outcome "resulting." If people get shamed for outcomes instead of reasoning, they learn to never bet at all. That's another route to your "they're not going to try things."
+The way he acts makes me think he grew up somewhere it wasn't okay to be wrong. His niece Mary Trump, a psychologist, told FRONTLINE that young Donald watched his older brother take "abuse and humiliation" from their father, then set out to become "the person who would never be wrong, could never be wrong, could never admit a mistake, and avoided being kind," because in that house all of it "spoke to an unforgivable weakness." That's her account, and she's one of his sharpest critics.
 
-**5. Institutions already solved this.** Aviation runs NASA's Aviation Safety Reporting System, where pilots report their own errors confidentially and get limited protection from penalties. In hospitals, Amy Edmondson studied nursing teams in 1996 and found the best-led teams _reported more_ errors, not fewer, because reporting was safe. Software has blameless postmortems, which you've run yourself. The pattern is the same everywhere: punish people for reporting errors and the errors go underground; make reporting safe and the system learns. Your personal-level thesis already has a proven institutional version, and that's strong evidence for the piece.
+His 1970s mentor, the lawyer Roy Cohn, ran on the same rule. Politico's Michael Kruse told FRONTLINE that Cohn's "fundamental tenet" was "to attack and to never back down and to never apologize and to never admit wrongdoing." Trump's own version came on Jimmy Fallon's show in 2015. "I fully think apologizing is a great thing," he said, and the studio audience applauded when he added, "But you have to be _wrong_."
 
-**6. The religion thread cuts both ways.** Religion built the machinery for weaponizing wrongness: heresy, excommunication, sin as an identity. It also built one of the best tools ever made for being wrong safely: confession, forgiveness, grace. "Let him who is without sin cast the first stone" (John 8:7) is your paragraph 2 almost word for word. So is "take the plank out of your own eye" (Matthew 7:5). Decide which one you mean. Maybe the answer is that the same tradition flips depending on whether being wrong is survivable inside it.
+9takes reads him as an [Enneagram 3](/personality-analysis/donald-trump), and the 3's alarm, as I understand it, is failing where people can see. A type doesn't explain a man, and neither does one childhood. But someone who can't afford to be wrong doesn't stop being wrong. He stops admitting it, and the lies follow.
 
-**7. Where's the line?** You open by saying some shame is warranted, then spend the rest of the memo showing how it backfires. You never say where the line is. Readers will ask: so we never correct anyone? What about someone who's wrong repeatedly, wrong in a way that hurts people, or wrong in bad faith? There's also the opposite failure. If gentleness turns into "everyone's truth is valid," the learning disappears too. Learning needs the error named clearly and the person kept safe. Soften the error until it's gone and nobody learns anything.
+That's what you create when you dunk on people for being wrong, one humiliation at a time.
 
-**8. Nine people, nine reasons not to admit it.** From the outside, refusing to admit you're wrong looks the same in everyone. The fear driving it may not be. For one person, being wrong means being _bad_. For another, it means looking incompetent. For another, it means losing the ground they stand on, or looking weak, or being seen failing. That's a 9takes-shaped claim, and it's worth testing as a question instead of asserting it. (In the Enneagram, types 2, 3, and 4 make up what's often called the "shame triad," which gives you a way in.)
+## The dunk is for the audience
 
-## 6. How You Thread the Needle
+Most of the pain of being wrong is social. Miscalculate something nobody sees and it's annoying. Get it wrong in front of people and it burns.
 
-**The tension:** you hold two claims that seem to fight each other.
+A dunk runs on that. It's a correction performed for the room, and the real message is about rank: I'm up here, you're down there.
 
-- (a) Shame is warranted when you're wrong. You shouldn't be proud of it.
-- (b) Shaming people for being wrong backfires. It hardens them into dogma.
+This is how the internet collapses nine perspectives into one winning take. Everyone who saw it differently watches what happened to the last person who was wrong out loud, and they [close the tab without posting](/community/memetic-comments). The take they kept to themselves might have been the one somebody needed.
 
-**How you already resolve it (without saying so):** paragraph 1 is about how _the person who's wrong_ should feel. Paragraph 3 is about how _the person who's right_ should act. The shame you defend is the kind you apply to yourself. The shame you attack is the kind you apply to others.
+## "So we never tell anyone they're wrong?"
 
-That means you didn't eliminate the double standard from paragraph 2. **You flipped it.** The hypocrite goes easy on themselves and hard on everyone else. Your ideal is honest with yourself and gentle with everyone else. The needle isn't "less shame." It's shame pointed in the right direction.
+No. This is where gentle gets misread.
 
-**The refinement from the research:** even shame you apply to yourself hardens you if it's aimed at who you are instead of what you did. Paragraph 4 says so: a lot of shame about being wrong shuts down creativity, and that's true even when the shame comes from inside. So the full version has three parts:
+If gentleness turns into "everyone's truth is valid," nobody learns anything either. The error has to be named, plainly. Learning takes both halves: the mistake out in the open, and the person safe enough to admit it.
 
-1. **Point it at the act, not the person.** ("I got that wrong," not "I'm an idiot.")
-2. **Apply it to yourself, not others.** (Flip the double standard.)
-3. **Keep the dose survivable.** (Enough to learn from, not so much that you stop trying.)
+Back to Megan. One of the people who reached her was David Abitbol, who ran a Jewish blog called Jewlicious. He argued with her for months, arguments she later called "heated but friendly." He teased her ("You know, for an evil something something, you sure do crack me up"), and he went straight at the doctrine.
 
-**Candidate thesis lines:**
+One Westboro sign demanded the death penalty for gay people, citing Leviticus. David quoted Jesus back at her, "He that is without sin among you, let him first cast a stone," and pointed out that Megan's own mother had committed a sin Leviticus also counts as a capital crime: she'd had a child before she was married. The church said she had repented. David's answer: kill people and they never get the chance to.
 
-- "Be hard on your own errors and gentle with other people's."
-- "Clear about the error, gentle with the person."
-- "Shame that points at the mistake teaches. Shame that points at the person hardens."
+Megan took the question to her mother and got the church's answer. She didn't accept it. "That was the first time I came to a place where I disagreed, I knew I disagreed, and I didn't accept the answer that they gave," she told _The New Yorker_. She quietly stopped holding the church's death-penalty sign.
 
-## 7. Where This Touches 9takes
+David even came out to one of her pickets, in New Orleans. He brought her a Middle Eastern dessert from Jerusalem. She brought him kosher chocolate and held a "God hates Jews" sign. "There was no confusion about our positions," she said later, "but the line between friend and foe was becoming blurred."
 
-- **Movement belief:** "The internet collapses nine perspectives into one winning take." The dunk is how the collapse happens: one take wins by shaming the others off the field. This post could be the most personal version of that belief you've written.
-- **Product ritual:** "Answer before the crowd." Give-first asks people to do exactly what shame blocks: commit to a take before they know whether it's the "right" one. Anonymity is 9takes' built-in answer to the shame of being wrong. This post may partly explain why most readers never leave a take.
-- **Personal payoff:** "Stop mistaking someone else's alarm for a defect." A dunk is often someone else's alarm, not proof that you're defective.
-- **Seed question for the post** (embed it so readers answer before they see others): _"What's something you were wrong about, where someone was gentle with you about it?"_ or _"When was the last time you admitted you were wrong in public?"_
+On the TED stage years later, she put it this way:
+
+> My friends on Twitter didn't abandon their beliefs or their principles, only their scorn. They channeled their infinitely justifiable offense and came to me with pointed questions tempered with kindness and humor.
+
+"Infinitely justifiable offense." They were right, and they had every reason to be furious. They kept the principle and dropped the scorn: clear about the error, gentle with the person.
+
+Gentle has limits. If someone's error is hurting people right now, stop the harm first. Gentleness is for the person, never for the damage. And if other people might believe the error, correct it in public. The bystanders need to see the error named, not the person humiliated, because what a crowd learns from scorn is to never admit anything out loud.
+
+## Nine people, nine reasons not to admit they're wrong
+
+From the outside, refusing to admit you're wrong looks the same in everyone. The jaw sets. The goalposts move. I doubt the fear underneath is the same.
+
+I know mine. As a newlywed, in the middle of a fight with my wife, my brain ran this equation: "She's crying. She's weak. Weak means wrong. Therefore I'm right." ([I wrote about that here](/enneagram-corner/enneagram-self-development).) For me, being wrong felt like being weak, and weak was the one thing I couldn't be.
+
+If the Enneagram's [core fears](/enneagram-corner/enneagram-tldr) hold up, the person across from you may be protecting something else entirely:
+
+- A 1 may hear "you're wrong" as "you're bad."
+- A 2 may hear "you're less lovable."
+- A 3 may hear "you failed, and people saw."
+- A 4 may hear "there's something wrong with you."
+- A 5 may hear "you don't know what you're talking about."
+- A 6 may feel the ground move under a belief that was holding them up.
+- A 7 may hear "now you're stuck in this," and reframe so fast the error never lands.
+- An 8 may hear "you're weak," like I did.
+- A 9 may hear "now there's a fight," and agree out loud to end it without ever actually updating.
+
+The Enneagram groups 2, 3, and 4 around shame, so the dunk may cut deepest there. Same refusal, different alarm. Correct all nine people the same way and you'll be gentle with some and brutal with others without meaning to.
+
+Don't use this to type the person you're arguing with; you can't read a type off one argument. Use it to remember there's a reason under the refusal, and you probably don't know it yet. Stop mistaking someone else's alarm for a defect.
+
+I can't prove these alarms split by type. 9takes is built to test exactly that: one question, nine perspectives. The question at the end of this post is a start.
+
+## How to be right gently
+
+### Ask who the correction is for
+
+If the honest answer is "so the people watching see me win," wait, or take it private. A correction that needs an audience to sting is a dunk with better manners.
+
+### Name the error in one sentence
+
+Make it specific and checkable. David gave Megan a contradiction she could test against her own family, which is much harder to wave off than a verdict on her character.
+
+### Go first with your own plank
+
+The passage people quote when they mean "don't judge," Matthew 7, still ends with the speck coming out of your brother's eye. You just take the plank out of your own first. With my wife, that sounds like: "Hey, I'm trying to say something and I want to say it the right way, so work with me as I get this out." That one disclaimer changed our fights more than any grand insight about personality. It tells her I know I might be the one who's wrong.
+
+### Ask a question they can answer their way out of
+
+A good question lets the other person find the error themselves, so they keep their dignity while they drop the belief. That's most of [how minds actually change](/community/how-minds-change-on-9takes), and the core of [arguing online without dunking](/community/what-winning-online-arguments-looks-like).
+
+### Don't collect the concession
+
+Megan didn't announce anything. She quietly stopped holding the sign. If you need someone to say "you were right" out loud, the correction was for you.
+
+## Mercy builds what the dunk can't
+
+When Megan left, "the instinct to hide was almost paralyzing," she said in her TED talk. The people she'd spent years picketing had no reason to give her a second chance.
+
+They gave her one anyway. She wrote an apology for the harm she'd caused. "People had every reason to doubt my sincerity, but most of them didn't," she said. And David, who'd spent months arguing with her, she calls "my 'Jewlicious' friend from Twitter." He invited her and her sister to spend time in a Jewish community in Los Angeles.
+
+Look at the order. The mercy came first, in years of arguments with people who stayed kind while she was still holding the signs. The apology came after. She could admit she'd been wrong because the people she'd wronged had made that survivable. Trump, by his niece's account, grew up in a house where it never was.
+
+You build more by being merciful when people are wrong. You build good friends and good relationships. A dunk gets you a good minute in front of a crowd. Mercy got David Abitbol a friend who once took his dessert while holding a "God hates Jews" sign.
+
+And you build the thing you'll need most: people who feel safe telling you when _you're_ wrong. People rarely correct a dunker. They've watched what he does to the last person who was wrong, so they keep quiet and let him stay wrong.
+
+Flip the double standard. Keep the sting for your own mistakes, in a dose you can learn from, and be merciful with everyone else's.
+
+That's part of why 9takes works the way it does. You answer before the crowd, before you can see which take is winning, and your answer carries your type, not your name. If you turn out to be wrong, the only thing it costs you is changing your mind.
+
+So here's the question. Answer it before you read anyone else's.
+
+**When was someone gentle with you when you were wrong?**
 
 <!--
-LINK TARGETS when this goes live (crosslinks:check needs 3+ out, 3+ in):
-- /community/fear-triad-intellectual-fortress-or-prison  ("the fortress that becomes a prison" = clinging to beliefs they know are right)
-- /community/what-winning-online-arguments-looks-like    (the dunk vs. productive disagreement)
-- /community/how-minds-change-on-9takes                   (why facts fail; safety as a precondition)
-- /community/memetic-comments                             (dunks as crowd performance)
-Run: pnpm gen:crosslinks -- --target /community/be-gentle-when-youre-right
+SEED QUESTION: no matching row exists in the `questions` table (checked 2026-10-03). To make this
+answer-first, DJ creates the question, then replace the bold line above with:
+<StrategicQuestion question="When was someone gentle with you when you were wrong?" questionId={NEW_ID} questionUrl="NEW_URL" blogSlug="be-gentle-when-youre-right" />
+and add `import StrategicQuestion from "$lib/components/blog/StrategicQuestion.svelte";` to the script.
+Before embedding on /community: StrategicQuestion hardcodes its impression sourcePath to
+/enneagram-corner/${blogSlug}, and src/routes/community/[slug]/ does not record server-side
+strategic-question impressions the way enneagram-corner's +page.server.ts does.
 -->

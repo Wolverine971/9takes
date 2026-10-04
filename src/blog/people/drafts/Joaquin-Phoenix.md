@@ -1,6 +1,6 @@
 ---
 title: 'Joaquin Phoenix: Enneagram Type 4 and the Outsider Who Makes Art From Grief'
-meta_title: "Why Joaquin Phoenix Runs From the Roles He's Best At"
+meta_title: 'Joaquin Phoenix Personality Type: Enneagram 4 Profile'
 persona_title: "Cinema's Grief-Struck Outsider"
 description: 'Why does Joaquin Phoenix flee the roles he is best at? Inside the Enneagram Type 4 mind of an actor who turns grief and difference into unfakeable art.'
 author: DJ Wayne
@@ -145,7 +145,7 @@ Ending swap-test: pass — closes on the still-standing empty sets outside Guada
 
 <p class="firstLetter">In the fall of 2023, crews in Guadalajara built the sets for Todd Haynes' NC-17 gay love story, a detective romance Joaquin Phoenix had spent months developing with the director. Five days before cameras rolled, Phoenix walked. The role could not be recast. The crew went home unpaid.</p>
 
-He had done the same thing, in softer forms, his whole career. Two weeks before shooting Ridley Scott's _Napoleon_, he told the director "I don't know what to do." In 2010 he faked his own retirement on national television. The pattern is strange for a man who is arguably the best film actor alive: the closer Phoenix gets to the thing he is best at, the more he needs to run from it.
+He had done the same thing, in softer forms, his whole career. Two weeks before he was due to play [Napoleon](/personality-analysis/napoleon-bonaparte) for Ridley Scott, he told the director "I don't know what to do." In 2010 he faked his own retirement on national television. The pattern is strange for a man who is arguably the best film actor alive: the closer Phoenix gets to the thing he is best at, the more he needs to run from it.
 
 Laziness and ego are the easy explanations, and both miss it. What waits for him at the threshold is a specific fear. Phoenix has never once felt like he belonged in the room, and he has spent 50 years turning that not-belonging into the truest performances in American movies.
 

@@ -194,6 +194,7 @@ Short tests are not automatically worthless, and long tests are not automaticall
 4. **Read disconfirming evidence.** Ask what does not fit instead of collecting only flattering matches.
 5. **Retest later if the scores are close.** Stability matters more than one dramatic result.
 6. **Use observation to validate.** Our [beginner's guide to finding your Enneagram type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) walks through that process.
+7. **Check the result against a real question.** The [9takes Enneagram test](/enneagram-test) skips the checkbox quiz. You answer a real question before you see anyone else's answer, then read nine takes on it, one written from each type's lens. If the take that sounds like the inside of your head matches your top quiz score, you have two different kinds of evidence pointing the same way.
 
 If wings are the confusing part, use the [complete Enneagram wings guide](/enneagram-corner/enneagram-wings-complete-guide). If instinct results are driving the disagreement, read the [instinctual subtypes guide](/enneagram-corner/enneagram-instinctual-subtypes) before treating a stacking label as settled.
 

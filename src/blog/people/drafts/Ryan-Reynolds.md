@@ -1,6 +1,6 @@
 ---
 title: 'Ryan Reynolds: An Enneagram Type 7 Analysis'
-meta_title: "Inside Ryan Reynolds' Mind: Why the Funniest Man Alive Can't Stop Running"
+meta_title: 'Ryan Reynolds Personality Type: Enneagram 7 Profile'
 persona_title: "Hollywood's Armored Comedian"
 description: "Ryan Reynolds uses humor to outrun anxiety he's carried since childhood. Inside the Type 7 psychology behind the jokes, the empire, and the father wound."
 author: 'DJ Wayne'
@@ -92,6 +92,8 @@ The man who built a comedy empire spanning Deadpool, Aviation Gin, Mint Mobile, 
 "I've always had anxiety," Reynolds told the New York Times in 2018. "Both in the lighthearted 'I'm anxious about this' kind of thing, and I've been to the depths of the darker end of the spectrum, which is not fun."
 
 That gap between the public performance and the private experience is not just interesting. It explains everything.
+
+**Ryan Reynolds' personality type is Enneagram Type 7, the Enthusiast, with a 6 wing. The humor is the Seven's way out of pain before it can land, and the 6 wing explains the safety nets: a diversified business empire and friendships that outlast every project.**
 
 ## "The Toughest Man Alive"
 

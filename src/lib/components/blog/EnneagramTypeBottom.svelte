@@ -270,8 +270,9 @@
 			natural leadership shape and where it breaks
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-stress-number">The Stress Number Explained</a>: what 3 →
-			9 disintegration actually feels like
+			<a href="/enneagram-corner/enneagram-types-in-stress#type-3-stress-point"
+				>The Stress Number Explained</a
+			>: what 3 → 9 disintegration actually feels like
 		</li>
 		<li>
 			<a href="/enneagram-corner/enneagram-self-development">Enneagram Self-Development</a>:
@@ -809,8 +810,9 @@
 			how to be heard when you'd rather merge
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-stress-number">The Stress Number Explained</a>: what 9 →
-			6 disintegration actually feels like
+			<a href="/enneagram-corner/enneagram-types-in-stress#type-9-stress-point"
+				>The Stress Number Explained</a
+			>: what 9 → 6 disintegration actually feels like
 		</li>
 	</ul>
 {/if}

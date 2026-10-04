@@ -273,7 +273,7 @@ That collapse is system overload. The compression has been running hot too long:
 
 The repair question: _What have I been holding to a standard alone, and what would I have to feel if I stopped?_
 
-Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+Read more about <a href="/enneagram-corner/enneagram-types-in-stress">other types under stress</a>
 
 </section>
 

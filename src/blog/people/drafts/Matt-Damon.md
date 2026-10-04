@@ -1,6 +1,6 @@
 ---
 title: "Matt Damon: The Enneagram Type 1 Behind Hollywood's Most Ordinary Extraordinary Man"
-meta_title: "Why Matt Damon Nearly Killed Himself to Be Perfect (It's Not Ambition)"
+meta_title: 'Matt Damon Personality Type: Enneagram 1 Profile'
 persona_title: "Hollywood's Disciplined Everyman"
 description: 'Matt Damon plays the normal guy. But the discipline behind that normalcy almost stopped his heart. Inside the Enneagram Type 1 drive no one talks about.'
 author: 'DJ Wayne'
@@ -105,6 +105,8 @@ He needed eighteen months of medication to repair the damage.
 And here's what he said about it years later, in the only way that makes sense if you understand what drives him: "It was a weird way of saying... nobody's ever going to tell me that there's anybody out here with more discipline."
 
 Not ambition. Not career strategy. Discipline. The word matters. Because Matt Damon — the guy People magazine calls Hollywood's nicest everyman, the dad who walks his kids to school in anonymity, the one who fell in love with a bartender — has been waging a quiet, relentless war against his own standards for forty years. And the normalcy everyone admires? That might be the most demanding performance of all.
+
+**Matt Damon's personality type is Enneagram Type 1, the Reformer, most likely a 1w2. The tell is a standard that never stops moving: he lost fifty-one pounds for eight minutes of screen time, and he runs a deliberately boring private life like a system.**
 
 ---
 

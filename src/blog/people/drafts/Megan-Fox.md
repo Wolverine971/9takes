@@ -1,6 +1,6 @@
 ---
 title: 'Megan Fox: An Enneagram Type 4 Personality Analysis'
-meta_title: 'Why Megan Fox Has Never Felt Beautiful (The Truth Behind the Image)'
+meta_title: 'Megan Fox Personality Type: Enneagram 4 Profile'
 persona_title: "Hollywood's Unseen Exile"
 description: 'The world worshipped Megan Fox for how she looked. She has spent twenty years proving someone lives inside the body they built a shrine to. An Enneagram Type 4 analysis.'
 author: 'DJ Wayne'

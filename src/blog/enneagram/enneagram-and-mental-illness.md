@@ -72,6 +72,8 @@ Yes, each Enneagram type shows specific vulnerabilities to certain mental health
 
 **Read time**: 18 minutes | **Important**: This is informational only - not medical advice
 
+**If you're thinking about suicide or worried about someone who is**, call or text **988** to reach the 988 Suicide & Crisis Lifeline (US). If someone is in immediate danger, call **911**. Outside the US, call your local emergency number.
+
 <p class="firstLetter">Mental illness scares everyone.</p>
 
 The unspoken belief is that it happens to other people.
@@ -416,6 +418,8 @@ Type 5s are susceptible to:
 - Rejecting all help, further compounding isolation
 - Turning to suicidal ideation to escape overwhelming despair
 
+**If this section sounds like you right now:** suicidal thoughts call for help today, whatever your type. Call or text **988** (US), or call **911** if you're in immediate danger.
+
 **Further Reading**:  
 [Enneagram Type 5 in Stress](https://9takes.com/enneagram-corner/enneagram-types-in-stress#enneagram-5-in-stress)
 
@@ -675,6 +679,26 @@ Looking at the [Enneagram types'](/enneagram-corner/enneagram-tldr) potential me
 
 Use the Enneagram as a pattern map, then check it against professional advice and your own experience.
 
+## Enneagram and personality disorders: common questions
+
+A type describes what you fear and what you protect. A diagnosis describes symptoms a clinician can assess. Keep those two apart and both of these questions get easier.
+
+### Which Enneagram type is most likely to be a psychopath?
+
+None of them. Psychopathy is a pattern of callousness: little remorse, little empathy, and a habit of using people as tools. No validated research ties it to any of the nine types. It isn't a DSM-5 diagnosis either. Clinicians assess it with tools like Robert Hare's Psychopathy Checklist (PCL-R), and the closest formal diagnosis is antisocial personality disorder.
+
+The type people usually guess is 8, and this guide lists antisocial traits under Type 8 for the same reason: an unhealthy 8 can intimidate, retaliate, and steamroll people. Type 3 is the next guess, because polished charm and image management look like the "superficial charm" item on psychopathy checklists. The difference shows up after the damage. Most 8s are fiercely loyal to their own people, and 3s sit in the Enneagram's shame triad, so getting caught in a lie usually stings. Psychopathy is defined by the absence of that guilt and empathy, and it can hide behind any type.
+
+If someone's behavior scares you, take the behavior seriously on its own terms. Their type won't tell you whether you're safe. Our [Dark Triad breakdown](/pop-culture/dark-triad-meets-enneagram) covers how psychopathy is actually measured.
+
+### Which Enneagram type is most likely to have BPD?
+
+No type predicts borderline personality disorder, and no validated research links the diagnosis to one type. BPD is diagnosed by a clinician, who looks for at least five of nine DSM-5 criteria. They include frantic efforts to avoid abandonment, an unstable sense of self, recurring self-harm or suicidal behavior, chronic emptiness, and intense mood shifts that usually last hours rather than days.
+
+The types most often confused with BPD are 4 and 6, which is why this guide lists BPD under both. A stressed 4 can swing between intense attachment and rejection, question who they really are, and describe a constant sense that something is missing. A stressed 6 can flip from leaning on someone to suspecting them, which can look like the idealize-then-devalue cycle. Some 2s get pulled in too, because their fear of being unwanted can read as fear of abandonment. Those overlaps describe how a type can look during a hard stretch, and they tend to ease when the stress does. BPD is a long-running pattern that shows up across relationships and settings, usually starting by early adulthood.
+
+If the criteria read like your life, take them to a clinician, ideally one trained in dialectical behavior therapy (DBT), the most studied treatment for BPD. BPD is treatable. If you're thinking about hurting yourself, call or text 988.
+
 ## Mental health guides by topic
 
 Use these guides to examine specific mental health topics by Enneagram type:
@@ -746,6 +770,22 @@ Use these guides to examine specific mental health topics by Enneagram type:
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes, understanding your Enneagram type helps identify specific patterns and vulnerabilities in therapy. It provides a framework for understanding your defense mechanisms, core wounds, and growth paths. Many therapists use the Enneagram as a supplementary tool to customize treatment approaches based on your type's specific needs and patterns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Enneagram type is most likely to be a psychopath?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "None of them. Psychopathy is a pattern of callousness: little remorse, little empathy, and a habit of using people as tools. No validated research ties it to any of the nine types. It isn't a DSM-5 diagnosis either. Clinicians assess it with tools like Robert Hare's Psychopathy Checklist (PCL-R), and the closest formal diagnosis is antisocial personality disorder. The type people usually guess is 8, and this guide lists antisocial traits under Type 8 for the same reason: an unhealthy 8 can intimidate, retaliate, and steamroll people. Type 3 is the next guess, because polished charm and image management look like the \"superficial charm\" item on psychopathy checklists. The difference shows up after the damage. Most 8s are fiercely loyal to their own people, and 3s sit in the Enneagram's shame triad, so getting caught in a lie usually stings. Psychopathy is defined by the absence of that guilt and empathy, and it can hide behind any type. If someone's behavior scares you, take the behavior seriously on its own terms. Their type won't tell you whether you're safe. Our Dark Triad breakdown covers how psychopathy is actually measured."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Enneagram type is most likely to have BPD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No type predicts borderline personality disorder, and no validated research links the diagnosis to one type. BPD is diagnosed by a clinician, who looks for at least five of nine DSM-5 criteria. They include frantic efforts to avoid abandonment, an unstable sense of self, recurring self-harm or suicidal behavior, chronic emptiness, and intense mood shifts that usually last hours rather than days. The types most often confused with BPD are 4 and 6, which is why this guide lists BPD under both. A stressed 4 can swing between intense attachment and rejection, question who they really are, and describe a constant sense that something is missing. A stressed 6 can flip from leaning on someone to suspecting them, which can look like the idealize-then-devalue cycle. Some 2s get pulled in too, because their fear of being unwanted can read as fear of abandonment. Those overlaps describe how a type can look during a hard stretch, and they tend to ease when the stress does. BPD is a long-running pattern that shows up across relationships and settings, usually starting by early adulthood. If the criteria read like your life, take them to a clinician, ideally one trained in dialectical behavior therapy (DBT), the most studied treatment for BPD. BPD is treatable. If you're thinking about hurting yourself, call or text 988."
           }
         }
       ]

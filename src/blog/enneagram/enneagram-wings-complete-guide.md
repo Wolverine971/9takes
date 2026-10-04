@@ -647,6 +647,20 @@ Try wing-specific growth practices for a month:
 
 **Example:** A 5w6 choosing 5w4 because their creativity is more noticeable than their loyalty
 
+### 4w5 vs 6w5: The "Shared Wing" Trap
+
+**Mistake:** Treating the shared 5 wing as the whole personality
+**Reality:** Both can read as quiet, private, and research-heavy, but the core type underneath is different, and so is the reason for pulling back
+
+A 4w5 commonly withdraws to protect an identity. The running question is "Who am I, and does anyone actually see it?" A 6w5 commonly withdraws to prepare. The running question is "What could go wrong, and who can I trust?"
+
+Two checks help:
+
+- **What do you research at 1 a.m.?** 4w5s often go deep on meaning, art, and their own inner life. 6w5s more often go deep on risks, systems, and worst-case scenarios.
+- **What happens when someone you trust hands you a clear plan?** Many 6w5s feel relief, then stress-test it. Many 4w5s feel the plan was written for someone else.
+
+**Example:** A 6w5 choosing 4w5 because their anxiety feels like melancholy from the inside. Compare the full [4w5](#4w5-the-bohemian) and [6w5](#6w5-the-defender) profiles above.
+
 ## Wing Dynamics in Relationships
 
 Wings explain why two people of the same type can handle relationships differently. (For foundational insights into how types connect, see [Enneagram types in relationships](/enneagram-corner/enneagram-types-in-relationships).)
@@ -735,7 +749,7 @@ Understanding this interaction provides even deeper insight into your personalit
 
 ### Wings and Your Stress/Growth Arrows
 
-Wings work alongside your [integration and disintegration arrows](/enneagram-corner/enneagram-stress-number). They shape _how_ you experience those movements, not _where_ you go.
+Wings work alongside your [integration and disintegration arrows](/enneagram-corner/enneagram-types-in-stress#stress-points). They shape _how_ you experience those movements, not _where_ you go.
 
 **Example:** Both 6w5 and 6w7 move toward Type 3 under disintegration, but they do it differently. A 6w5 becomes calculating and quietly status-conscious, using analysis to manage image. A 6w7 becomes flashier and trend-chasing, using optimism to paper over the hollowness.
 

@@ -1,6 +1,6 @@
 ---
 title: 'Sam Altman: The Boy Who Was Already King of the Island'
-meta_title: 'Why Sam Altman Always Ends Up Leading'
+meta_title: 'Sam Altman Personality Type: Enneagram 4 Profile'
 description: 'Sam Altman grew up feeling fundamentally different, then turned that outsider identity into the strange advantage that keeps making him the leader.'
 persona_title: "Silicon Valley's King of Every Island"
 author: 'DJ Wayne'

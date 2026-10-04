@@ -1,6 +1,7 @@
 ---
 title: "Why You Hate Your Job (It's Not the Boss, It's Your Enneagram Type)"
-description: "Stuck in the wrong career? Your Enneagram type reveals why you're miserable at work and what jobs can help you thrive. Match your core motivations with your skills."
+meta_title: 'Enneagram Careers: Best Jobs and Jobs to Avoid by Type'
+description: 'Best jobs and careers to avoid for all 9 Enneagram types, plus the signs your job is starving your core motivation and what to ask before you quit.'
 author: 'DJ Wayne'
 date: '2023-11-29'
 loc: 'https://9takes.com/enneagram-corner/enneagram-types-and-career-choices'
@@ -31,21 +32,19 @@ Type 1s thrive in quality control and ethics roles. Type 2s excel in healthcare 
 
 **Read time**: 12 minutes | **Key insight**: Your job dread tracks whether the work feeds or starves your core motivation.
 
-## Career Match Comparison Table
+## Enneagram careers at a glance: best jobs and jobs to avoid
 
-| Type       | Core Work Need            | Dream Role         | Career Killer             | Salary Sweet Spot\* |
-| ---------- | ------------------------- | ------------------ | ------------------------- | ------------------- |
-| **Type 1** | Improving systems         | Quality Director   | Tolerated mediocrity      | $85-150K            |
-| **Type 2** | Helping people directly   | Healthcare Manager | Invisible solo work       | $60-120K            |
-| **Type 3** | Visible achievement       | Sales Executive    | No scoreboard             | $100-300K+          |
-| **Type 4** | Authentic expression      | Creative Director  | Corporate sameness        | $55-130K            |
-| **Type 5** | Mastery and autonomy      | Research Scientist | Open-office chitchat      | $80-180K            |
-| **Type 6** | Stability and trust       | Risk Manager       | "Move fast, break things" | $70-140K            |
-| **Type 7** | Variety and freedom       | Entrepreneur       | Single-track desk jobs    | $60-unlimited       |
-| **Type 8** | Control and real stakes   | CEO/Founder        | Weak leaders above them   | $120-500K+          |
-| **Type 9** | Harmony and quiet meaning | Mediator/Counselor | Constant conflict         | $50-100K            |
-
-<small>\*Ranges reflect mid-career US compensation drawn from BLS Occupational Employment Statistics and Glassdoor medians for the most-cited roles in each section. Geography, seniority, and industry can move you up or down a bracket.</small>
+| Type       | Core Work Need            | Best-Fit Job       | Careers to Avoid                           |
+| ---------- | ------------------------- | ------------------ | ------------------------------------------ |
+| **Type 1** | Improving systems         | Quality Director   | Startups that pivot weekly                 |
+| **Type 2** | Helping people directly   | Healthcare Manager | Solo back-office work                      |
+| **Type 3** | Visible achievement       | Sales Executive    | Seniority-ladder jobs with rigid pay bands |
+| **Type 4** | Authentic expression      | Creative Director  | High-volume roles like accounts payable    |
+| **Type 5** | Mastery and autonomy      | Research Scientist | Open offices and sales floors              |
+| **Type 6** | Stability and trust       | Risk Manager       | Early startups and commission-only sales   |
+| **Type 7** | Variety and freedom       | Entrepreneur       | Long-tenure corporate ladders              |
+| **Type 8** | Control and real stakes   | CEO/Founder        | Roles with responsibility but no authority |
+| **Type 9** | Harmony and quiet meaning | Mediator/Counselor | Commission sales, trial law, ER medicine   |
 
 <p class="firstLetter" style="margin-top:2rem">Follow your heart.</p>
 
@@ -63,7 +62,7 @@ Here is the thing nobody tells you. The right job for you is the one that feeds 
 
 If your role is fine but the day-to-day execution feels like a fight, the issue is probably workflow, not career. Try [productivity systems by Enneagram type](/how-to-guides/productivity-systems-by-enneagram-type) first.
 
-## 7 Signs You're in the Wrong Job for Your Type
+## Signs you're in the wrong job for your type
 
 Forget the boss. Forget the commute. The clearest signal you're in the wrong seat is when your core motivation gets blocked every single day. Here is how that shows up by triad.
 
@@ -75,7 +74,7 @@ Forget the boss. Forget the commute. The clearest signal you're in the wrong sea
 
 If three or more of those hit, this article is for you.
 
-## Why the Enneagram Matters in Career Choice
+## Why the Enneagram matters in career choice
 
 The Enneagram maps what you keep chasing beneath your work habits. Once you see your core motivation clearly, you can tell:
 
@@ -84,15 +83,15 @@ The Enneagram maps what you keep chasing beneath your work habits. Once you see 
 - How to negotiate the role you have so it stops draining you
 - What your growth edge looks like once you outgrow the obvious matches
 
-What follows is the per-type breakdown. Each section has the dream-job lineup, the soul-crusher description the table promised, the wing tilt that changes the picture, what stress and growth do to your career fit, and one interview hack you will not read anywhere else.
+What follows is the per-type breakdown. Each section has the best-fit jobs, the careers to avoid, the wing tilt that changes the picture, what stress and growth do to your career fit, and one interview hack you will not read anywhere else.
 
 <section class="section-content">
 
-### Type 1 - The Perfectionist: Pursuing Excellence in Their Chosen Field
+### Type 1 careers: jobs where high standards are the point
 
 Type 1s are wired for "this could be better." Give them a broken system and they will fix it. Give them a system nobody is willing to fix and you will watch them slowly turn to stone. The dream role is one where high standards are expected, not tolerated as a personality quirk.
 
-#### Best-Fit Careers
+#### Best jobs for Type 1
 
 - **Environmental lawyer**: rules, righteousness, and measurable wins
 - **Quality control or compliance lead**: their attention to detail becomes the company's safety net
@@ -100,7 +99,7 @@ Type 1s are wired for "this could be better." Give them a broken system and they
 - **Sustainability consultant**: fixing the world one audit at a time
 - **Curriculum designer or academic**: setting the standard everyone else follows
 
-#### The Career Killer
+#### Type 1 careers to avoid
 
 A Type 1 in a chaotic, "we'll fix it later" startup feels morally offended by every shipped bug. Each one registers as a small ethical violation. After eighteen months they either become the office martyr or quit on principle. Avoid founder-led teams that pivot weekly, "good enough" cultures, and any role that asks you to defend bad work to clients.
 
@@ -116,11 +115,11 @@ A Type 1 in a chaotic, "we'll fix it later" startup feels morally offended by ev
 
 <section class="section-content">
 
-### Type 2 - The Helper: Building Careers Around Empowering Others
+### Type 2 careers: jobs where the help lands on a real person
 
 Type 2s are wired to be needed. The dream job is one where their care lands visibly on a real human, not a metric. The nightmare is a job where they help and help and nobody notices.
 
-#### Best-Fit Careers
+#### Best jobs for Type 2
 
 - **Nurse or occupational therapist**: tangible help, immediate gratitude
 - **HR business partner**: people-problem solving with strategic stakes
@@ -128,7 +127,7 @@ Type 2s are wired to be needed. The dream job is one where their care lands visi
 - **Hospitality or experience design**: warmth that scales
 - **Nonprofit program manager**: mission with real beneficiaries
 
-#### The Career Killer
+#### Type 2 careers to avoid
 
 A Type 2 stuck in a transactional, solo, or remote-first role with no human contact will rot. The pattern looks like this: work harder than anyone, get less recognition than anyone, become quietly resentful, then snap. Avoid pure individual-contributor coding jobs, back-office accounting, and any "helping role" where the helping is buried in paperwork (think Medicaid claims processing, not Medicaid case management).
 
@@ -144,11 +143,11 @@ A Type 2 stuck in a transactional, solo, or remote-first role with no human cont
 
 <section class="section-content">
 
-### Type 3 - The Achiever: Driven to Succeed in High-Powered Roles
+### Type 3 careers: jobs with a scoreboard
 
 Type 3s are wired for visible accomplishment. They need a scoreboard, a podium, and a stretch goal. The dream job has all three. The nightmare is invisible work in a slow corporate ladder where the best you can hope for is a polite thank-you email.
 
-#### Best-Fit Careers
+#### Best jobs for Type 3
 
 - **Sales executive or account director**: the scoreboard is built in
 - **Founder or product lead**: ambition with a clear deliverable
@@ -156,7 +155,7 @@ Type 3s are wired for visible accomplishment. They need a scoreboard, a podium, 
 - **Brand strategist or marketing director**: image work that pays
 - **Investment banker or VC**: high stakes, public wins, bonus structure
 
-#### The Career Killer
+#### Type 3 careers to avoid
 
 A Type 3 in a behind-the-scenes back-office role becomes a ghost. They start tying their identity to LinkedIn instead of their actual work. They polish the resume on Sunday nights and feel hollow Monday morning. Avoid pure research roles with no revenue line, government jobs with rigid pay bands, and any role where promotion is based on seniority instead of results.
 
@@ -188,11 +187,11 @@ A Type 3 in a behind-the-scenes back-office role becomes a ghost. They start tyi
 
 <section class="section-content">
 
-### Type 4 - The Individualist: Expressing Creativity in Unique Careers
+### Type 4 careers: jobs with your fingerprint on the work
 
 Type 4s are wired for meaning and authenticity. The dream job is one where what they make has a fingerprint on it. The nightmare is interchangeability, a role where someone else with your skill set could replace you tomorrow and nobody would notice.
 
-#### Best-Fit Careers
+#### Best jobs for Type 4
 
 - **Brand storyteller or creative director**: emotional intelligence as the deliverable
 - **Author, screenwriter, or longform journalist**: depth over speed
@@ -200,7 +199,7 @@ Type 4s are wired for meaning and authenticity. The dream job is one where what 
 - **Designer (graphic, fashion, interior)**: aesthetic with a personal voice
 - **Independent consultant in a niche craft**: control and meaning
 
-#### The Career Killer
+#### Type 4 careers to avoid
 
 A Type 4 in accounts payable or any high-volume, low-variation job will start drowning. The interchangeability drains them. They start chronically comparing themselves to friends with "more interesting" lives. By month six they are either applying to MFA programs or going quietly numb. Avoid large corporate environments with cubicle culture, jobs measured purely by throughput, and any role that treats personal style as a liability.
 
@@ -216,11 +215,11 @@ A Type 4 in accounts payable or any high-volume, low-variation job will start dr
 
 <section class="section-content">
 
-### Type 5 - The Investigator: Analyzing Complex Problems in Specialized Fields
+### Type 5 careers: jobs with a closed door and an empty calendar
 
 Type 5s are wired for mastery and autonomy. The dream job is one where they get to go deep on something hard, alone, with the door closed and the calendar empty. The nightmare is open-plan, interruption-heavy roles where every hour gets fragmented.
 
-#### Best-Fit Careers
+#### Best jobs for Type 5
 
 - **Research scientist or academic**: depth is the job
 - **Software engineer (infra, security, specialized backend)**: puzzles plus autonomy
@@ -228,7 +227,7 @@ Type 5s are wired for mastery and autonomy. The dream job is one where they get 
 - **Cybersecurity or ML engineer**: mastery is rewarded with more autonomy
 - **Technical writer or documentation lead**: explaining hard things clearly
 
-#### The Career Killer
+#### Type 5 careers to avoid
 
 A Type 5 in a chatty, meeting-heavy, "let's hop on a quick sync" environment will start building elaborate avoidance rituals. They begin hoarding information, dreading 1-on-1s, and treating their inbox like a hostile country. The energy drain is real and physical. Avoid open offices, sales-floor cultures, and any role where "soft skills" is code for constant performative talking.
 
@@ -244,11 +243,11 @@ A Type 5 in a chatty, meeting-heavy, "let's hop on a quick sync" environment wil
 
 <section class="section-content">
 
-### Type 6 - The Loyalist: Finding Security in Responsible Positions
+### Type 6 careers: jobs with clear protocols and a boss who keeps their word
 
 Type 6s are wired for safety and trust. The dream job has clear protocols, a stable team, a leader who keeps their word, and a career path you can actually see. The nightmare is a "move fast and break things" startup where nobody knows what tomorrow looks like.
 
-#### Best-Fit Careers
+#### Best jobs for Type 6
 
 - **Risk manager or compliance officer**: vigilance is the deliverable
 - **Auditor or financial analyst**: methodical work with stable pay
@@ -256,7 +255,7 @@ Type 6s are wired for safety and trust. The dream job has clear protocols, a sta
 - **Cybersecurity analyst**: paid to be paranoid
 - **Government or institutional roles**: federal agencies, university admin, big-company ops
 
-#### The Career Killer
+#### Type 6 careers to avoid
 
 A Type 6 in a chaotic, founder-driven startup with shifting priorities will catastrophize themselves into burnout in nine months. Sunday-night dread becomes Wednesday-night dread becomes a permanent low hum of fear. Avoid pre-product-market-fit startups, commission-only sales, and any leader who promises a lot in interviews and delivers ambiguity in onboarding.
 
@@ -272,11 +271,11 @@ A Type 6 in a chaotic, founder-driven startup with shifting priorities will cata
 
 <section class="section-content">
 
-### Type 7 - The Enthusiast: Seeking Adventure in Dynamic Careers
+### Type 7 careers: jobs where today doesn't look like yesterday
 
 Type 7s are wired for possibility. They want options on the table, freedom to pivot, and stimulation that does not quit. The dream job is one where today does not look like yesterday. The nightmare is a single-track desk job where the next ten years are already on a slide deck.
 
-#### Best-Fit Careers
+#### Best jobs for Type 7
 
 - **Founder or early-stage operator**: variety is built in
 - **Marketing or growth lead**: experiments, creativity, speed
@@ -284,7 +283,7 @@ Type 7s are wired for possibility. They want options on the table, freedom to pi
 - **Consultant in a fast-moving field**: project rotation, no monotony
 - **Trend forecaster, food critic, travel writer**: literally paid for novelty
 
-#### The Career Killer
+#### Type 7 careers to avoid
 
 A Type 7 in a stable corporate role with golden handcuffs will start running a side hustle in their head all day. By year two the side hustle is more interesting than the job. By year three they are actively miserable. By year four they make a chaotic exit they have been planning since year one. Avoid long-tenure corporate ladders, any job where the entire next year is mapped, and bosses who treat curiosity as distraction.
 
@@ -316,11 +315,11 @@ A Type 7 in a stable corporate role with golden handcuffs will start running a s
 
 <section class="section-content">
 
-### Type 8 - The Challenger: Taking Charge in Leadership Roles
+### Type 8 careers: jobs with real stakes and real authority
 
 Type 8s are wired for control, impact, and real consequences. The dream job is one where the stakes are visible, the leadership is strong (yours or someone you respect), and your decisions actually move the needle. The nightmare is a weak boss above you and a consensus culture below you.
 
-#### Best-Fit Careers
+#### Best jobs for Type 8
 
 - **Founder or CEO**: control plus impact plus freedom
 - **Trial lawyer or litigation attorney**: confrontation as a feature
@@ -328,7 +327,7 @@ Type 8s are wired for control, impact, and real consequences. The dream job is o
 - **Construction or operations director**: command big teams and real-world outcomes
 - **Venture capitalist or activist investor**: power and influence at scale
 
-#### The Career Killer
+#### Type 8 careers to avoid
 
 A Type 8 in a passive-aggressive, consensus-driven, micromanaged role becomes a wrecking ball. They start treating every meeting as a power test, lose respect for the boss inside two weeks, and either get pushed out or get promoted past the boss within six months. Avoid corporate cultures that mistake niceness for excellence, roles with all responsibility and no authority, and bosses who say "let's circle back" more than once a meeting.
 
@@ -344,11 +343,11 @@ A Type 8 in a passive-aggressive, consensus-driven, micromanaged role becomes a 
 
 <section class="section-content">
 
-### Type 9 - The Peacemaker: Creating Harmony in Collaborative Environments
+### Type 9 careers: jobs with low conflict and quiet meaning
 
 Type 9s are wired for inner peace and outer harmony. The dream job has low conflict, meaningful work, kind colleagues, and enough quiet to actually think. The nightmare is constant decision-making, emotional labor, and any environment where you are expected to take strong sides daily.
 
-#### Best-Fit Careers
+#### Best jobs for Type 9
 
 - **Mediator, ombudsman, or conflict-resolution specialist**: pattern recognition turned into a paycheck
 - **Counselor or therapist**: presence is the deliverable
@@ -356,7 +355,7 @@ Type 9s are wired for inner peace and outer harmony. The dream job has low confl
 - **Diplomat or policy analyst**: seeing all sides as a strategic skill
 - **Environmental conservationist or community organizer**: quiet, purposeful work
 
-#### The Career Killer
+#### Type 9 careers to avoid
 
 A Type 9 on a high-conflict sales floor or in an aggressive law-firm associate role will physically check out within months. The body knows. They start zoning out in meetings, making small "mistakes" they would not normally make, and quietly resenting the weekend ending. Avoid commission-only sales, trial law, ER medicine (despite the stereotype, 9s are not built for it), and any role that requires constant strong opinions delivered fast.
 
@@ -370,7 +369,7 @@ A Type 9 on a high-conflict sales floor or in an aggressive law-firm associate r
 
 </section>
 
-## The 2026 Reality Check: Remote Work, AI, and the Gig Economy by Type
+## The 2026 reality check: remote work, AI, and the gig economy by type
 
 Some of the career advice that worked in 2019 is actively dangerous in 2026. Three forces have rewritten the map. Remote work normalized. AI started eating the bottom rungs of knowledge work. The gig economy stopped being a side option and became a primary path. Here is how each lands by type.
 
@@ -402,92 +401,49 @@ If you cannot remember, that is your data.
 
 For more, read [how each Enneagram type works in a team](/enneagram-corner/enneagram-types-working-in-teams).
 
+## Frequently asked questions
+
+### What careers should each Enneagram type avoid?
+
+It depends on which motivation the job starves. Type 1s tend to burn out in startups that pivot weekly. Type 2s wither in solo back-office work with no human contact. Type 3s stall where promotion follows seniority instead of results. Type 4s go numb in high-volume, low-variation jobs like accounts payable. Type 5s drain fast in open offices and meeting-heavy roles. Type 6s struggle in early startups and commission-only sales. Type 7s get restless on long corporate ladders. Type 8s clash with roles that carry all the responsibility and none of the authority. Type 9s check out in commission-only sales, trial law, and other high-conflict work.
+
+### What are the best careers for an Enneagram 4?
+
+Type 4s tend to do best where their fingerprint is on the work: brand storytelling, creative direction, writing, art therapy, design, and independent niche consulting. A 4w3 usually leans toward polished, public work, and a 4w5 toward quiet, deep work like novels or depth psychology. The common test is whether someone else with your skills could have made the same thing.
+
+### What are the best careers for an Enneagram 1?
+
+Type 1s tend to do best where high standards are the job itself: environmental law, quality control and compliance, editing and technical writing, sustainability consulting, and curriculum design. A 1w9 often prefers quiet, careful work like academic editing. A 1w2 often wants to fix people as well as systems, as an ethics officer or nonprofit policy lead.
+
  <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@context": "https://schema.org",
       "@type": "FAQPage",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How do I know I'm in the wrong job for my Enneagram type?",
+          "name": "What careers should each Enneagram type avoid?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The clearest signal is when your core motivation is blocked daily. Gut types (8, 9, 1) feel a slow erosion of power. Heart types (2, 3, 4) feel an identity crisis. Head types (5, 6, 7) feel a cage on their nervous system. If three or more symptoms hit, your job is starving your type."
+            "text": "It depends on which motivation the job starves. Type 1s tend to burn out in startups that pivot weekly. Type 2s wither in solo back-office work with no human contact. Type 3s stall where promotion follows seniority instead of results. Type 4s go numb in high-volume, low-variation jobs like accounts payable. Type 5s drain fast in open offices and meeting-heavy roles. Type 6s struggle in early startups and commission-only sales. Type 7s get restless on long corporate ladders. Type 8s clash with roles that carry all the responsibility and none of the authority. Type 9s check out in commission-only sales, trial law, and other high-conflict work."
           }
         },
         {
           "@type": "Question",
-          "name": "What are the best career choices for Enneagram Type 1 - The Perfectionist?",
+          "name": "What are the best careers for an Enneagram 4?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Type 1s, known as 'The Perfectionist', thrive in careers where high standards are expected, not tolerated. Suitable roles include environmental law, quality control, compliance, editing, sustainability consulting, and curriculum design."
+            "text": "Type 4s tend to do best where their fingerprint is on the work: brand storytelling, creative direction, writing, art therapy, design, and independent niche consulting. A 4w3 usually leans toward polished, public work, and a 4w5 toward quiet, deep work like novels or depth psychology. The common test is whether someone else with your skills could have made the same thing."
           }
         },
         {
           "@type": "Question",
-          "name": "What careers are ideal for Enneagram Type 2 - The Helper?",
+          "name": "What are the best careers for an Enneagram 1?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Enneagram Type 2s excel in roles where their care lands visibly on real humans, such as nursing, occupational therapy, HR business partner work, counseling, hospitality management, and nonprofit program management."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What professional paths suit Enneagram Type 3 - The Achiever?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Type 3s are ambitious and goal-oriented, well-suited for sales executive, founder, management consultant, brand strategist, marketing director, investment banker, and venture capital roles where the scoreboard is clear."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the recommended careers for Enneagram Type 4 - The Individualist?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Type 4s find satisfaction in creative fields where their fingerprint is on the deliverable, including brand storytelling, creative direction, authorship, art therapy, design (graphic, fashion, interior), and independent niche consulting."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which careers are best for Enneagram Type 5 - The Investigator?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Type 5s thrive in careers offering depth and autonomy, including research science, software engineering (especially infrastructure or security), data and quantitative analysis, cybersecurity, ML engineering, and technical writing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What professional paths are suitable for Enneagram Type 6 - The Loyalist?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Type 6s value security and clear protocols, making them fit for risk management, compliance, auditing, financial analysis, operations, cybersecurity, and stable government or institutional roles."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What career options are best for Enneagram Type 7 - The Enthusiast?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Type 7s thrive where today does not look like yesterday, including founder roles, marketing and growth, creative producing, consulting in fast-moving fields, and any work paid for novelty like trend forecasting or travel writing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which careers are ideal for Enneagram Type 8 - The Challenger?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Type 8s are natural leaders drawn to high-stakes roles with real consequences, including founder or CEO positions, trial law, crisis management, ER medicine, military leadership, construction directing, and venture capital."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What are the recommended career paths for Enneagram Type 9 - The Peacemaker?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Type 9s are suited for low-conflict, meaningful roles such as mediation, counseling, therapy, library and museum work, diplomacy, policy analysis, environmental conservation, and community organizing."
+            "text": "Type 1s tend to do best where high standards are the job itself: environmental law, quality control and compliance, editing and technical writing, sustainability consulting, and curriculum design. A 1w9 often prefers quiet, careful work like academic editing. A 1w2 often wants to fix people as well as systems, as an ethics officer or nonprofit policy lead."
           }
         }
       ]

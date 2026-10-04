@@ -238,7 +238,7 @@ The Run DMC layoff is the same logic at operational scale. A layoff that is just
 
 Then there is the line that, to journalists who heard it, sounded like megalomania, and to a Three reader, sounds like the most honest thing he ever said in public. According to a [Wall Street Journal report](https://www.cnbc.com/2019/09/18/weworks-neumann-wants-to-live-forever-and-be-the-first-trillionaire.html), Neumann told associates he wanted to live forever, become the world's first trillionaire, expand WeWork to Mars, run for prime minister of Israel, and become "president of the world." That is not a delusion. It is persona-shopping out loud — a Three trying on every available status costume in one breath to see which one the room writes the next check on. None of the items are ambitions in the way a Five or an Eight has ambitions. All of them are pitches looking for a buyer.
 
-The tequila isn't a celebration. It is a [stress arrow to Nine](/enneagram-corner/enneagram-stress-number) — the Three under pressure narcotizing his way out of the part of the room where the spreadsheet lives.
+The tequila isn't a celebration. It is a [stress arrow to Nine](/enneagram-corner/enneagram-types-in-stress#type-3-stress-point) — the Three under pressure narcotizing his way out of the part of the room where the spreadsheet lives.
 
 ## What the WeWork collapse revealed about Adam Neumann
 

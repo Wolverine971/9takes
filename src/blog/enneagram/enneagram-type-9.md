@@ -177,7 +177,7 @@ This isn't a character flaw. It may be a sign that something needs attention. Ma
 
 Recognizing this pattern gives you a choice. You can address what's actually going on instead of white-knuckling through it.
 
-Read more about <a href="/enneagram-corner/enneagram-stress-number">how different types experience stress</a>
+Read more about <a href="/enneagram-corner/enneagram-types-in-stress">how different types experience stress</a>
 
 </section>
 

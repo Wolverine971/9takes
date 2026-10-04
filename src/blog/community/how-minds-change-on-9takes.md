@@ -36,7 +36,7 @@ Not because one side is dumb. Not because the evidence is weak.
 
 They fail because identity threat shows up first — and curiosity disappears.
 
-When someone hears "your view is wrong" as "you are bad," their brain switches from exploration to defense. Your logic is now competing with social survival. Social survival wins every time.
+When someone [hears "your view is wrong" as "you are bad,"](/community/be-gentle-when-youre-right) their brain switches from exploration to defense. Your logic is now competing with social survival. Social survival wins every time.
 
 Two books changed how I think about this problem. Adam Grant's _Think Again_ examines how we update our own beliefs. David McRaney's _How Minds Change_ examines how others update theirs. They arrive at the same core insight from opposite directions: **facts alone almost never change minds.** What changes minds is the quality of the conversation surrounding those facts and the emotional safety of the person hearing them.
 

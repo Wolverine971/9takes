@@ -1,6 +1,6 @@
 ---
 title: 'Mindy Kaling: The Woman Who Turned Repression Into Output'
-meta_title: "Why Mindy Kaling Can't Stop Working (Even Mid-Labor)"
+meta_title: 'Mindy Kaling Personality Type: Enneagram 3 Profile'
 persona_title: "Comedy's Relentless Alchemist"
 description: 'Mindy Kaling turned repression, ambition, and grief into an output machine, building a career where control always felt safer than feeling.'
 author: 'DJ Wayne'
@@ -89,6 +89,8 @@ Hudson meant it as a compliment. The audience laughed. Mindy would probably laug
 But sit with it for a second. A woman, in labor, texting notes about a television show. Not because the network demanded it. Not because the show would collapse without her. Because she couldn't stop. Because the engine that has powered Mindy Kaling from a bullied kid in Cambridge, Massachusetts to a Hollywood Walk of Fame star does not have an off switch.
 
 And she might not want one. Because the last time life forced her to stop producing and start feeling — when her mother was dying of pancreatic cancer and the grief nearly broke her — she discovered that sitting still was worse than any deadline. So she keeps the engine running. She writes another show. She publishes another book. She texts production notes between contractions. And the question nobody seems to ask is whether the productivity is the point — or whether it's what stands between Mindy Kaling and everything she hasn't let herself feel.
+
+**Mindy Kaling's personality type is Enneagram Type 3, the Achiever, with a 2 wing. Work is where her feelings go: she texted production notes while in labor and worked 14- to 16-hour days through the grief of losing her mother.**
 
 <details>
 <summary class="accordion">TL;DR: Why Mindy Kaling is an Enneagram Type 3</summary>

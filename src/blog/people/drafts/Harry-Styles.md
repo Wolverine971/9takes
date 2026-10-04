@@ -1,6 +1,6 @@
 ---
 title: 'Harry Styles: The Seven-Year-Old Who Never Stopped Holding Everyone Together'
-meta_title: "Why Harry Styles Can't Stop Giving - The Psychology Behind His Kindness"
+meta_title: 'Harry Styles Personality Type: Enneagram 2 Profile'
 description: "Discover why Harry Styles' Helper personality drives everything from Love On Tour to 'Treat People With Kindness' - an Enneagram Type 2 analysis."
 persona_title: "Pop's Emotional First Responder"
 author: 'DJ Wayne'
@@ -102,7 +102,7 @@ FEEDBACK (2026-02-18):
 
 When Harry was seven, his parents divorced. Most kids retreat inward during that kind of upheaval. Harry did the opposite. He became the one checking on his mother Anne, his sister Gemma, sensing when tension was rising and defusing it with humor. He discovered something that would shape the next 25 years: making other people feel okay made him feel like he mattered.
 
-This is the origin story of an [Enneagram Type 2](/enneagram-corner/enneagram-type-2). Everything that followed traces back to it.
+**Harry Styles' personality type is [Enneagram Type 2](/enneagram-corner/enneagram-type-2), the Helper. The kid who kept his family steady after the divorce grew into the performer who scanned every Love On Tour crowd for signs asking for help.**
 
 <details>
 <summary class="accordion">TL;DR: Why Harry Styles is an Enneagram Type 2</summary>

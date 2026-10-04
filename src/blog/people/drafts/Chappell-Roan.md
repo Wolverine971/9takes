@@ -1,6 +1,6 @@
 ---
 title: "Chappell Roan: The Type 8 Psychology Behind Pop's Most Defiant Star"
-meta_title: "Why Chappell Roan Won't Soften"
+meta_title: 'Chappell Roan Personality Type: Enneagram 8 Profile'
 persona_title: "Pop's Unapologetic Rebel"
 description: "Chappell Roan turned Catholic guilt, firm boundaries, and queer self-invention into pop's most defiant persona — a stage name borrowed from her late grandfather and a refusal to perform smaller than she is."
 author: 'DJ Wayne'
@@ -203,7 +203,7 @@ The pre-Chappell era is essential context for everything that followed. The arti
 
 After the Atlantic drop, she went back to LA in October 2020 to keep making music independently — but she had to pay rent. Over the next two years, she worked as a production assistant, a barista, a nanny, and a cashier at a donut shop. She moved briefly back to Missouri at one point and worked a drive-through window between writing sessions. By 2021, she was playing "Pink Pony Club" to about 50 people in parks.
 
-In March 2022, she reunited with producer Dan Nigro, who had paused their collaboration to focus on Olivia Rodrigo's _SOUR_. They released "Naked in Manhattan" as her first independent single that same month. She signed a publishing deal with Sony. A year later, in March 2023, after meeting with nine labels, she signed with Nigro's Island Records imprint **Amusement Records**.
+In March 2022, she reunited with producer Dan Nigro, who had paused their collaboration to focus on [Olivia Rodrigo](/personality-analysis/olivia-rodrigo)'s _SOUR_. They released "Naked in Manhattan" as her first independent single that same month. She signed a publishing deal with Sony. A year later, in March 2023, after meeting with nine labels, she signed with Nigro's Island Records imprint **Amusement Records**.
 
 As Matt Bernstein and Eliza McLamb discussed on the [_A Bit Fruity_ podcast](https://www.youtube.com/watch?v=XQSQ02k0RTc), the "industry plant" accusation that some fans later leveled at her is laughable when you see the documented evidence: years of grinding with almost no audience, a major label that discarded her, and a slow rebuild from scratch.
 

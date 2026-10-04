@@ -1,6 +1,6 @@
 ---
 title: 'Will Smith: An In-Depth Enneagram Type 3 Analysis'
-meta_title: 'Why Will Smith Really Slapped Chris Rock (It Started at Age 9)'
+meta_title: 'Will Smith Personality Type: Enneagram 3 Profile'
 persona_title: "Hollywood's Manufactured Hero"
 description: "Will Smith built Hollywood's biggest career to hide the 9-year-old boy who couldn't save his mother. On live TV, the armor did what it was built to do."
 author: 'DJ Wayne'

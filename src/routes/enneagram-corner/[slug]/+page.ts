@@ -14,6 +14,7 @@ const permanentRedirectMap: Record<string, string> = {
 	'enneagram-types-overview': '/enneagram-corner/enneagram-tldr',
 	'enneagram-test': '/enneagram-corner/enneagram-test-comparison-2026',
 	'enneagram-test-comparison-2025': '/enneagram-corner/enneagram-test-comparison-2026',
+	'enneagram-stress-number': '/enneagram-corner/enneagram-types-in-stress',
 	'enneagram-anxiety-management-guide':
 		'/enneagram-corner/mental-health/enneagram-anxiety-complete-guide',
 	'anxiety-and-enneagram-types-guide':

@@ -235,7 +235,7 @@ Netflix announced it would split into two companies — Netflix for streaming, Q
 
 "I messed up. I owe everyone an explanation."
 
-Under [stress](/enneagram-corner/enneagram-stress-number), Type 8s can disintegrate toward [Type 5](/enneagram-corner/enneagram-type-5) patterns — retreating into isolation, becoming overly cerebral, ignoring outside input while convinced their own analysis is sufficient. The Qwikster disaster is a textbook case. Hastings later told Tim Ferriss that Netflix "didn't do much farming for dissent" during the decision. Executives privately had severe doubts they never shared with each other. The very system Hastings had built to prevent groupthink — the rating system, the radical candor — went unused because the boss had already decided.
+Under [stress](/enneagram-corner/enneagram-types-in-stress#type-8-stress-point), Type 8s can disintegrate toward [Type 5](/enneagram-corner/enneagram-type-5) patterns — retreating into isolation, becoming overly cerebral, ignoring outside input while convinced their own analysis is sufficient. The Qwikster disaster is a textbook case. Hastings later told Tim Ferriss that Netflix "didn't do much farming for dissent" during the decision. Executives privately had severe doubts they never shared with each other. The very system Hastings had built to prevent groupthink — the rating system, the radical candor — went unused because the boss had already decided.
 
 <p class="inner-thought">I see it clearly. Why can't they see it?</p>
 

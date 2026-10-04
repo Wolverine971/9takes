@@ -398,6 +398,7 @@ Run via `pnpm <alias>` where available:
 | `pnpm portrait:check`                           | Preflight personality portrait assets                                  |
 | `pnpm audit:people-seo` / `audit:people-corpus` | People SEO / corpus audits                                             |
 | `pnpm audit:blog-enrichment`                    | Blog enrichment status report                                          |
+| `pnpm audit:superlatives`                       | Pages ranking for 'which type is most X' searches they never answer    |
 | `pnpm supabase:normalize-personality-slugs`     | Normalize personality slugs in DB                                      |
 | `pnpm seo:normalize-internal-personality-links` | Rewrite internal personality links                                     |
 | `pnpm label-paths`                              | Annotate files with path comments                                      |

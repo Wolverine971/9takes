@@ -1,6 +1,6 @@
 ---
 title: 'Noah Kahan: Enneagram Type 4 Analysis'
-meta_title: 'Why Noah Kahan Was Afraid to Stop Hating Himself'
+meta_title: 'Noah Kahan Personality Type: Enneagram 4 Profile'
 persona_title: "Folk-Pop's Reluctant Survivor"
 description: 'Noah Kahan got famous singing about anxiety. Then he got diagnosed with OCD and had to choose between healing and his career. A Type 4 analysis.'
 author: 'DJ Wayne'
@@ -175,7 +175,7 @@ Kahan's longing is geographic. The friends are in New York. The career is in Nas
 
 The geography even has a song of its own. "The View Between Villages" is the drive between South Strafford and Strafford on a road protected by town ordinance. Kahan has said that when he drives it, he feels "truly and completely at peace." Then he passes his old house and the anxiety comes back. The narrator turns the car around at the end of the song. He never makes it home.
 
-When Olivia Rodrigo brought him onstage at Madison Square Garden in April 2024 to share "Stick Season," she introduced him to her crowd: _"I've been looking forward to this all tour. I found his music about a year ago and instantly became obsessed."_ Kahan wrote on Twitter afterward that he just wanted to thank her band for inviting him to sing — phrasing himself as a guest at his own song. Rodrigo treats him like a star. He treats himself like an interloper. When he tours, he flies back to Strafford anyway.
+When [Olivia Rodrigo](/personality-analysis/olivia-rodrigo) brought him onstage at Madison Square Garden in April 2024 to share "Stick Season," she introduced him to her crowd: _"I've been looking forward to this all tour. I found his music about a year ago and instantly became obsessed."_ Kahan wrote on Twitter afterward that he just wanted to thank her band for inviting him to sing — phrasing himself as a guest at his own song. Rodrigo treats him like a star. He treats himself like an interloper. When he tours, he flies back to Strafford anyway.
 
 There's a moment in the _Out of Body_ documentary that makes the whole pattern visible. Kahan describes a flooded farm in Vermont where horses had been turned out into the rain because the barn was unsafe. The horses stayed in the field. He noticed they didn't try to leave.
 

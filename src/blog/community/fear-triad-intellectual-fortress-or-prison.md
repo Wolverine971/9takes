@@ -88,7 +88,7 @@ So here's the practice: take a little poison every day.
 
 Not reckless exposure. Not throwing yourself into chaos for the sake of it. But deliberate, daily contact with the thing that makes you uncomfortable.
 
-For Fives: share an idea before it's perfect. Let someone see your thinking before you've triple-checked it. Risk being wrong in public.
+For Fives: share an idea before it's perfect. Let someone see your thinking before you've triple-checked it. [Risk being wrong in public](/community/be-gentle-when-youre-right).
 
 For Sixes: make a decision without consulting everyone. Trust one person without needing proof. Let one scenario go unplanned.
 

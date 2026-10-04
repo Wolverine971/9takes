@@ -1,6 +1,6 @@
 ---
 title: "Jenna Ortega: The Achiever Who Can't Stop Running"
-meta_title: "Why Jenna Ortega Was Miserable After Wednesday's Massive Success"
+meta_title: 'Jenna Ortega Personality Type: Enneagram 3 Profile'
 persona_title: "Hollywood's Restless Machine"
 description: "Inside Jenna Ortega's psychology: the OCD rituals, the existential childhood, and why achieving everything left her empty. A Type 3 analysis."
 author: 'DJ Wayne'
@@ -93,6 +93,8 @@ The clip went viral. The internet saw poise, protectiveness, quiet authority fro
 What the internet didn't see: the woman who just set a boundary for a legend can't always set one for her own brain. Her OCD keeps her up at night with rituals and repetitive counting. She ground her teeth through her Invisalign in her sleep. She was, by her own admission to Harper's Bazaar in 2025, "an unhappy person" — this after starring in the most-watched English-language Netflix show in history.
 
 That gap — between the composed surface and the anxious interior — is the real story of Jenna Ortega.
+
+**Jenna Ortega's personality type is Enneagram Type 3, the Achiever. She has been chasing the next goal since she was six and begging her mother to let her act, and Wednesday showed her that hitting every target left the anxiety exactly where it was.**
 
 <details>
 <summary class="accordion">TL;DR: Why Jenna Ortega is an Enneagram Type 3</summary>

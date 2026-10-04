@@ -90,7 +90,7 @@ Each Enneagram type connects to two others:
 
 Understanding this dynamic gives you a roadmap. You stop being surprised by your own reactions and start anticipating them.
 
-For a deeper look at how each type responds under pressure, see our guide on <a href="/enneagram-corner/enneagram-stress-number">each type's stress number</a>.
+For a deeper look at how each type responds under pressure, see our guide on <a href="/enneagram-corner/enneagram-types-in-stress#stress-points">each type's stress number</a>.
 
 ## How to Interrupt the Pattern
 

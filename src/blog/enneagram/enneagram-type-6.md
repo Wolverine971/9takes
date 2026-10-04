@@ -184,7 +184,7 @@ Achievement becomes self-sufficiency. Image becomes armor. The loyal team player
 
 The cruel irony: this strategy disconnects you from the relationships you need to feel secure. You push away support in a desperate attempt to prove you don't need it.
 
-Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+Read more about <a href="/enneagram-corner/enneagram-types-in-stress">other types under stress</a>
 
 </section>
 

@@ -40,7 +40,7 @@ NOTES:
 <div class="crisis-banner">
   <h2>If you're in immediate danger, please contact:</h2>
   <ul>
-    <li><strong>National Suicide Prevention Lifeline</strong>: 988</li>
+    <li><strong>988 Suicide &amp; Crisis Lifeline</strong>: call or text 988</li>
     <li><strong>Crisis Text Line</strong>: Text HOME to 741741</li>
     <li><strong>Emergency Services</strong>: 911</li>
   </ul>
@@ -48,7 +48,7 @@ NOTES:
 </div>
 
 <QuickAnswer question="What should you do in a mental health crisis?">
-Call 988 (Suicide Prevention Lifeline) or 911 if in immediate danger. For non-emergency crises, identify your Enneagram type's specific crisis pattern: Body types (8, 9, 1) need physical outlets and grounding; Heart types (2, 3, 4) need emotional validation and connection; Head types (5, 6, 7) need reduced demands and safety. Each type has distinct triggers, warning signs, and recovery strategies. This guide provides immediate interventions for every Enneagram type.
+Call or text 988 (the 988 Suicide & Crisis Lifeline) or 911 if in immediate danger. For non-emergency crises, identify your Enneagram type's specific crisis pattern: Body types (8, 9, 1) need physical outlets and grounding; Heart types (2, 3, 4) need emotional validation and connection; Head types (5, 6, 7) need reduced demands and safety. Each type has distinct triggers, warning signs, and recovery strategies. This guide provides immediate interventions for every Enneagram type.
 </QuickAnswer>
 
 <p class="firstLetter">The Type 4 sits alone at 3 AM, convinced that this pain proves something is fundamentally broken inside them. The Type 1 replays a mistake from work, each repetition adding another layer of self-condemnation until sleep becomes impossible. The Type 7 hasn't stopped moving in three days, another drink, another plan, anything to outrun the grief they refuse to feel.</p>
@@ -1261,7 +1261,7 @@ For ongoing support after crisis stabilization, explore [therapy options tailore
 
 **Crisis Resources**:
 
-- National Suicide Prevention Lifeline: 988
+- 988 Suicide & Crisis Lifeline: call or text 988 (US)
 - Crisis Text Line: Text HOME to 741741
 - SAMHSA National Helpline: 1-800-662-4357
 - Emergency Services: 911
@@ -1284,7 +1284,7 @@ Yes. Understanding your type's specific triggers, warning signs, and needs allow
 
 ### When should I call 988 vs. going to the emergency room?
 
-Call 988 (Suicide Prevention Lifeline) for suicidal thoughts, emotional distress, or when you need immediate support but aren't in physical danger. Go to the ER or call 911 if there's active self-harm, a suicide plan in progress, danger to others, psychosis symptoms, or medical emergency related to substance use. When in doubt, call 988 first: they can help determine the appropriate level of care.
+Call or text 988 (the 988 Suicide & Crisis Lifeline) for suicidal thoughts, emotional distress, or when you need immediate support but aren't in physical danger. Go to the ER or call 911 if there's active self-harm, a suicide plan in progress, danger to others, psychosis symptoms, or medical emergency related to substance use. When in doubt, call 988 first: they can help determine the appropriate level of care.
 
 ### How do I support a friend in crisis without burning out myself?
 
@@ -1328,7 +1328,7 @@ Set clear boundaries about what you can and can't provide. Stay calm and present
           "name": "When should I call 988 vs. going to the emergency room?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Call 988 (Suicide Prevention Lifeline) for suicidal thoughts, emotional distress, or when you need immediate support but aren't in physical danger. Go to the ER or call 911 if there's active self-harm, a suicide plan in progress, danger to others, psychosis symptoms, or medical emergency related to substance use."
+            "text": "Call or text 988 (the 988 Suicide & Crisis Lifeline) for suicidal thoughts, emotional distress, or when you need immediate support but aren't in physical danger. Go to the ER or call 911 if there's active self-harm, a suicide plan in progress, danger to others, psychosis symptoms, or medical emergency related to substance use."
           }
         },
         {

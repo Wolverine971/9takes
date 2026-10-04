@@ -1,5 +1,5 @@
 ---
-title: 'How to Compliment Each Enneagram Type (Words That Actually Land)'
+title: 'Best Compliments for Each Enneagram Type'
 description: 'Generic compliments fall flat. Learn what each Enneagram type wants recognized, plus exact words that feel specific, sincere, and useful in real life.'
 author: 'DJ Wayne'
 date: '2023-08-09'

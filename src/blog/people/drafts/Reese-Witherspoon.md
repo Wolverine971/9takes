@@ -228,7 +228,7 @@ And through all of it, she had two children. Ava was six when the Oscar came. De
 
 This wasn't a career slump. This was a system failure. The achievement machine had been running since she was seven, and for the first time, the inputs weren't producing outputs. The room had changed, and for the first time, she couldn't find the signal.
 
-For anyone who understands the [stress patterns of each Enneagram type](/enneagram-corner/enneagram-stress-number), this collapse is textbook. The Three under extreme pressure doesn't fight harder. She shuts down. The drive that defined her evaporates into paralysis. Productivity becomes procrastination. The achiever becomes the avoider. She described her brain as "scrambled eggs" — the exact opposite of the precision machine that had won her an Oscar.
+For anyone who understands the [stress patterns of each Enneagram type](/enneagram-corner/enneagram-types-in-stress), this collapse is textbook. The Three under extreme pressure doesn't fight harder. She shuts down. The drive that defined her evaporates into paralysis. Productivity becomes procrastination. The achiever becomes the avoider. She described her brain as "scrambled eggs" — the exact opposite of the precision machine that had won her an Oscar.
 
 The paralysis lasted years. And the way out wasn't through another role. It was through a fundamental identity shift. But before she could rebuild, something else had to surface.
 

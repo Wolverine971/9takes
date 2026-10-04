@@ -35,7 +35,7 @@ Keyword Strategy:
 -->
 
 <QuickAnswer question="How do love languages connect to Enneagram types?">
-Love languages show what affection feels like; Enneagram type helps explain why that form matters. A Type 2 may crave words because they fear being unloved, while a Type 5 may value acts of service because energy feels limited. The love language is the signal. The Enneagram reveals the wound underneath it.
+A love language is the kind of affection that lands for you: words, acts of service, gifts, quality time, or touch. One love language can run on different motives. A Type 1 and a Type 5 can both ask for acts of service, the 1 because someone finally shares the load, the 5 because help that asks nothing back protects their energy. Same language, different motive, so the version of the gesture that lands can be different too.
 </QuickAnswer>
 
 <p class="firstLetter">Your love language isn't random. Two people can get the same result on Chapman's quiz and want it for opposite reasons.</p>
@@ -44,13 +44,13 @@ Gary Chapman's 5 Love Languages sorts what you want into five buckets. It can't 
 
 The Enneagram, built on work by Riso, Hudson, Palmer, and Ichazo on older contemplative foundations, is the vocabulary for telling them apart. Layer it over Chapman's five categories and a sharper pattern emerges:
 
-> **Your love language is your core wound asking to be healed.**
+> **Your love language is often your core fear asking to be reassured.**
 
-- **Type 1s** don't want Acts of Service because they're helpful—they need them because **perfectionism feels like a burden they shouldn't carry alone.**
-- **Type 3s** don't want Receiving Gifts because they're materialistic—they need them because **a thoughtful gift is proof they're worth someone's best effort, not just their achievements.**
-- **Type 4s** don't crave Quality Time because they're clingy—they need it because **feeling ordinary is their greatest fear.**
-- **Type 5s** don't want Acts of Service because they're lazy—they need them because **their energy is finite and love shouldn't cost them what little they have.**
-- **Type 8s** don't crave Physical Touch because they're just sexual—they need it because **touch is the only language direct enough to land past their armor.**
+- **Type 1s** don't want Acts of Service because they're helpful. They often want them because **perfectionism feels like a burden they shouldn't carry alone.**
+- **Type 3s** don't want Receiving Gifts because they're materialistic. They often want them because **a thoughtful gift is proof they're worth someone's best effort, not just their achievements.**
+- **Type 4s** don't crave Quality Time because they're clingy. They often want it because **feeling ordinary is their greatest fear.**
+- **Type 5s** don't want Acts of Service because they're lazy. They often want them because **their energy is finite and love shouldn't cost them what little they have.**
+- **Type 8s** don't crave Physical Touch because they're just sexual. They often want it because **touch is one of the few languages direct enough to land past their armor.**
 
 > **Not sure of your Enneagram type?** Start with our [beginner's guide to determining your Enneagram type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) so the rest of this article actually applies to you.
 
@@ -92,24 +92,24 @@ Dr. Gary Chapman identified five primary ways humans express and receive love:
 - Hugs, holding hands, closeness
 - Physical comfort and connection
 
-What the quiz misses: **your personality type doesn't just pick your primary—it rewrites how all five land in your body.** Your [attachment style](/enneagram-corner/attachment-styles-and-enneagram-types) adds another filter on top of that.
+What the quiz misses: **your personality type can shape how all five land, including the four you didn't rank first.** Your [attachment style](/enneagram-corner/attachment-styles-and-enneagram-types) adds another filter on top of that.
 
 Pair this with [the specific dating patterns each type falls into](/how-to-guides/dating-dynamics-by-enneagram-type) and you'll stop misreading your partner's love from the first date onward.
 
 ## How Your Enneagram Type Shapes Your Love Language
 
-### The wound underneath the preference
+### The fear underneath the preference
 
-Your love language isn't a preference—**it's your personality's strategy for feeling secure in relationships.**
+Your love language is a preference, and **for a lot of people it doubles as a strategy for feeling secure in relationships.**
 
-Each Enneagram type carries a core fear and a core desire. The love language is just the external shape of the internal need. Here's how it plays out type by type.
+Each Enneagram type carries a core fear and a core desire. The love language is often the outside shape of that inside need. Here's how it commonly plays out type by type.
 
 ## Type 1: The Perfectionist's Love Language
 
 <a href="/enneagram-corner/enneagram-type-1">→ Learn more about Type 1: The Perfectionist</a>
 
 **Primary:** Acts of Service &nbsp;·&nbsp; **Secondary:** Words of Affirmation
-**Core wound it's healing:** The belief that if they stop maintaining the world, everything falls apart. Acts of Service is someone else picking up a corner of the load.
+**What it often answers:** The belief that if they stop maintaining the world, everything falls apart. Acts of Service is someone else picking up a corner of the load.
 
 ### How Type 1s give love:
 
@@ -134,7 +134,7 @@ Name the specific effort, help them hit their standard instead of dismissing it,
 <a href="/enneagram-corner/enneagram-type-2">→ Learn more about Type 2: The Helper</a>
 
 **Primary:** Words of Affirmation &nbsp;·&nbsp; **Secondary:** Physical Touch
-**Core wound it's healing:** The fear that they're only loved for what they give. Words of Affirmation are the proof their _existence_ is lovable, not just their usefulness.
+**What it often answers:** The fear that they're only loved for what they give. Words of Affirmation are the proof their _existence_ is lovable, not just their usefulness.
 
 ### How Type 2s give love:
 
@@ -163,7 +163,7 @@ Name what they are, not what they do. Catch them in the middle of _not_ helping 
 <a href="/enneagram-corner/enneagram-type-3">→ Learn more about Type 3: The Achiever</a>
 
 **Primary:** Receiving Gifts &nbsp;·&nbsp; **Secondary:** Words of Affirmation
-**Core wound it's healing:** The suspicion that they're only loved for their wins. A thoughtful, specific gift is evidence that someone saw _them_—their taste, their rhythm, their weird niche preferences—not just the highlight reel.
+**What it often answers:** The suspicion that they're only loved for their wins. A thoughtful, specific gift is evidence that someone saw _them_—their taste, their rhythm, their weird niche preferences—not just the highlight reel.
 
 ### How Type 3s give love:
 
@@ -188,7 +188,7 @@ Catch them doing nothing and love them there. Celebrate their wins, yes—but al
 <a href="/enneagram-corner/enneagram-type-4">→ Learn more about Type 4: The Individualist</a>
 
 **Primary:** Quality Time &nbsp;·&nbsp; **Secondary:** Receiving Gifts (when personalized)
-**Core wound it's healing:** The fear of being fundamentally missing something everyone else has. Quality Time is the one place where being deeply _seen_ is possible, and being seen is how they come to believe they're real.
+**What it often answers:** The fear of being fundamentally missing something everyone else has. Quality Time is the one place where being deeply _seen_ is possible, and being seen is how they come to believe they're real.
 
 ### How Type 4s give love:
 
@@ -213,7 +213,7 @@ Trade generic for specific every time. Ask the follow-up question. Say out loud 
 <a href="/enneagram-corner/enneagram-type-5">→ Learn more about Type 5: The Investigator</a>
 
 **Primary:** Acts of Service &nbsp;·&nbsp; **Secondary:** Quality Time (with space)
-**Core wound it's healing:** The fear of being overwhelmed and drained until nothing is left. Acts of Service done _without making a thing of it_ is love that costs them nothing—which, for a Type 5, is the only kind they can actually accept.
+**What it often answers:** The fear of being overwhelmed and drained until nothing is left. Acts of Service done _without making a thing of it_ is love that costs them nothing—which, for a Type 5, is the only kind they can actually accept.
 
 ### How Type 5s give love:
 
@@ -254,7 +254,7 @@ Do the practical thing quietly. Don't ask for a reaction. Give them space withou
 <a href="/enneagram-corner/enneagram-type-6">→ Learn more about Type 6: The Loyalist</a>
 
 **Primary:** Words of Affirmation &nbsp;·&nbsp; **Secondary:** Acts of Service
-**Core wound it's healing:** The constant low-grade anxiety that the floor is about to drop out. Words are the railing their inner committee grabs for when the stairs creak—a concrete, repeatable "I'm still here."
+**What it often answers:** The constant low-grade anxiety that the floor is about to drop out. Words are the railing their inner committee grabs for when the stairs creak—a concrete, repeatable "I'm still here."
 
 ### How Type 6s give love:
 
@@ -272,14 +272,14 @@ Type 6 Words of Affirmation are different from Type 2's. Type 2s want to feel _v
 
 ### What actually lands:
 
-Reassure before they ask. Be boringly consistent. When they spiral, don't argue with the anxiety—name it and stay next to it until it settles. The repetition isn't neediness; it's how the wound closes.
+Reassure before they ask. Be boringly consistent. When they spiral, don't argue with the anxiety. Name it and stay next to it until it settles. For a lot of 6s, that repetition is how the alarm finally goes quiet, so don't read it as neediness.
 
 ## Type 7: The Enthusiast's Adventure Love
 
 <a href="/enneagram-corner/enneagram-type-7">→ Learn more about Type 7: The Enthusiast</a>
 
 **Primary:** Quality Time (shared adventure) &nbsp;·&nbsp; **Secondary:** Physical Touch
-**Core wound it's healing:** The terror of being trapped in pain with nowhere to escape to. Shared adventure is Quality Time that keeps moving, so the inner "no exit" alarm never fires.
+**What it often answers:** The terror of being trapped in pain with nowhere to escape to. Shared adventure is Quality Time that keeps moving, so the inner "no exit" alarm never fires.
 
 ### How Type 7s give love:
 
@@ -304,7 +304,7 @@ Match their pace, then slow it once in a while. Bring them adventures _and_ hold
 <a href="/enneagram-corner/enneagram-type-8">→ Learn more about Type 8: The Challenger</a>
 
 **Primary:** Physical Touch &nbsp;·&nbsp; **Secondary:** Acts of Service
-**Core wound it's healing:** The belief that the world is hostile and softness is a weakness that gets you punished. Physical Touch bypasses language and hits the armor directly—it's the only dialect they can't argue with.
+**What it often answers:** The belief that the world is hostile and softness is a weakness that gets you punished. Physical Touch bypasses language and hits the armor directly—it's the only dialect they can't argue with.
 
 ### How Type 8s give love:
 
@@ -333,7 +333,7 @@ Don't flinch. Don't perform calm either—they can smell it. Match their weight 
 <a href="/enneagram-corner/enneagram-type-9">→ Learn more about Type 9: The Peacemaker</a>
 
 **Primary:** Physical Touch (gentle) &nbsp;·&nbsp; **Secondary:** Quality Time
-**Core wound it's healing:** The belief that their presence disturbs the peace and their needs start fights. Gentle touch is connection that doesn't require them to assert anything—love that meets them where they already are.
+**What it often answers:** The belief that their presence disturbs the peace and their needs start fights. Gentle touch is connection that doesn't require them to assert anything—love that meets them where they already are.
 
 ### How Type 9s give love:
 
@@ -455,7 +455,7 @@ Not the whole relationship—the specific absent behavior. Whatever's in that se
 
 **3. What did your parents or early caregivers _not_ give you that you always quietly wanted?**
 
-The absence becomes the language. This is the core-wound question, and it's the one the quiz can't ask.
+For a lot of people, the absence becomes the language. It won't hold for everyone, but it's the question the quiz never asks.
 
 Write the three answers down before reading the next section. Compare them to your type's row in the matrix above. The overlap is your real love language.
 
@@ -510,13 +510,13 @@ The 3 is all forward motion. The 9 keeps disappearing into the passenger seat. T
 
 ### Can your love language change?
 
-The primary doesn't really move—your Enneagram type doesn't change, and the underlying wound that shaped the preference isn't going anywhere. What _does_ change is how intensely you need it, and which secondary rises to meet the moment.
+The primary usually doesn't move much. Your Enneagram type doesn't change, and the core fear underneath the preference tends to stay put. What _does_ change is how intensely you need it, and which secondary rises to meet the moment.
 
 Newborn in the house? Acts of Service becomes survival for almost every type. Grief? Physical Touch, even for types who usually keep distance. A major career win? Words of Affirmation for a beat. The preference is the through-line; the volume knob turns.
 
 ### What if we have completely different love languages?
 
-Some of the best relationships have huge love language gaps—when both people do the work of learning each other's native tongue as a second language, it becomes the most intimate thing in the relationship. A Type 5 who learns to initiate touch and a Type 8 who learns to ask for gentleness end up with a kind of closeness that matched pairs often skip.
+Some of the best relationships have huge love language gaps. When both people do the work of learning each other's native tongue as a second language, it becomes the most intimate thing in the relationship. A Type 5 who learns to initiate touch and a Type 8 who learns to ask for gentleness can end up with a kind of closeness that matched pairs often skip.
 
 _However_: this only works when both people are actually translating. If one of you keeps giving love in your own language and calling it good enough, the gap doesn't close, it calcifies.
 
@@ -524,23 +524,23 @@ _However_: this only works when both people are actually translating. If one of 
 
 Sometimes it isn't. Pop psychology oversells how much people change, and the Enneagram can name the pattern but can't guarantee the outcome. Here's the honest version:
 
-- **Workable with effort:** you speak different primaries, but both of you are willing to learn the other's—and the willingness itself is reciprocated.
+- **Workable with effort:** you speak different primaries, but both of you are willing to learn the other's, and the willingness itself is reciprocated.
 - **Workable with acceptance:** you know the gap is permanent, you make peace with the fact that some of your love will always land differently than you hoped, and the rest of the relationship is rich enough to carry that.
-- **Not workable:** you've both done the real work—therapy, direct conversation, consistent attempts—and you still feel chronically unloved. That's real data, not a failure of imagination.
+- **Not workable:** you've both done the real work (therapy, direct conversation, consistent attempts) and you still feel chronically unloved. That's real data, not a failure of imagination.
 
-The Enneagram can tell you which category you're in. It can't make the climate change.
+Only the two of you can tell which category you're in. No personality system can make the climate change.
 
 ### Why don't traditional love language quizzes work?
 
-They score preferences without asking _why_ the preference formed. Knowing you're "Words of Affirmation" doesn't tell you whether you need to hear "you matter" (Type 2), "I'm not going anywhere" (Type 6), or "no one else could do what you just did" (Type 3). All three get the same quiz result. None of them get the same words. That's the gap the Enneagram closes.
+They score the preference without asking what it's for. Knowing you're "Words of Affirmation" doesn't tell you whether you need to hear "you matter" (a common Type 2 need), "I'm not going anywhere" (Type 6), or "no one else could do what you just did" (Type 3). All three get the same quiz result. None of them want the same words. Asking about the motive is how you find the right ones.
 
 ### How do you handle love language conflicts in the moment?
 
-Don't argue about the expression—argue about the underlying need. "You never text me back" is a Type 6 asking "am I still secure?" or a Type 2 asking "do I still matter to you?" The behavior is the same; the fix is completely different. Ask "what are you actually scared of right now?" and listen to the answer before defending the text message.
+Don't argue about the expression. Argue about the underlying need. "You never text me back" can be a Type 6 asking "am I still secure?" or a Type 2 asking "do I still matter to you?" The behavior is the same; the fix is completely different. Ask "what are you actually scared of right now?" and listen to the answer before defending the text message.
 
-## What changes when you stop reading the behavior and start reading the wound
+## What changes when you stop reading the behavior and start reading the motive
 
-The love language tells you what your partner reaches for. Nine different people reach for the same thing for nine different reasons, and the Enneagram is how you tell them apart.
+Your partner's love language is what they reach for. Nine people can reach for the same thing for nine different reasons, and the Enneagram gives you a vocabulary for asking which reason is theirs.
 
 When your Type 6 partner asks, "do you still love me?" for the eighth time this week, you stop hearing neediness. You start hearing a nervous system checking that the floor is still there.
 
@@ -550,9 +550,7 @@ When your Type 3 partner arrives with the perfect-on-paper gift, you stop callin
 
 **You don't have to change your love language or your type. You have to stop mistranslating.**
 
-Your love language shows what your heart reaches for. Your type tells your version of that need apart from the eight versions that look just like it from the outside.
-
-Together, they tell you which gestures land and which ones slide off.
+Same love language, different motive. Once you know which motive you're dealing with, you can tell which gestures land and which ones slide off.
 
 ---
 
@@ -586,7 +584,7 @@ So: **what's the mismatch pattern that feels most like yours?** Post it as "Type
       "name": "Can your love language change?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary doesn't really move — your Enneagram type doesn't change, and the underlying wound that shaped the preference isn't going anywhere. What does change is how intensely you need it and which secondary rises to meet the moment. A newborn makes Acts of Service survival for almost every type. Grief pulls Physical Touch forward, even for types who usually keep distance. The preference is the through-line; the volume knob turns."
+        "text": "The primary usually doesn't move much. Your Enneagram type doesn't change, and the core fear underneath the preference tends to stay put. What does change is how intensely you need it, and which secondary rises to meet the moment. Newborn in the house? Acts of Service becomes survival for almost every type. Grief? Physical Touch, even for types who usually keep distance. A major career win? Words of Affirmation for a beat. The preference is the through-line; the volume knob turns."
       }
     },
     {
@@ -594,7 +592,7 @@ So: **what's the mismatch pattern that feels most like yours?** Post it as "Type
       "name": "What if we have completely different love languages?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Some of the best relationships have huge love language gaps. When both people do the work of learning each other's native tongue as a second language, it becomes the most intimate thing in the relationship. However, this only works when both people are actually translating. If one of you keeps giving love in your own language and calling it good enough, the gap doesn't close, it calcifies."
+        "text": "Some of the best relationships have huge love language gaps. When both people do the work of learning each other's native tongue as a second language, it becomes the most intimate thing in the relationship. A Type 5 who learns to initiate touch and a Type 8 who learns to ask for gentleness can end up with a kind of closeness that matched pairs often skip. However: this only works when both people are actually translating. If one of you keeps giving love in your own language and calling it good enough, the gap doesn't close, it calcifies."
       }
     },
     {
@@ -602,7 +600,7 @@ So: **what's the mismatch pattern that feels most like yours?** Post it as "Type
       "name": "What if the gap genuinely isn't bridgeable?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sometimes it isn't. Pop psychology oversells how much people change. The honest version has three categories: workable with effort (you both translate), workable with acceptance (you make peace with a permanent gap), or not workable (you've both done real work and still feel chronically unloved). The Enneagram can tell you which category you're in. It can't make the climate change."
+        "text": "Sometimes it isn't. Pop psychology oversells how much people change, and the Enneagram can name the pattern but can't guarantee the outcome. Here's the honest version: Workable with effort: you speak different primaries, but both of you are willing to learn the other's, and the willingness itself is reciprocated. Workable with acceptance: you know the gap is permanent, you make peace with the fact that some of your love will always land differently than you hoped, and the rest of the relationship is rich enough to carry that. Not workable: you've both done the real work (therapy, direct conversation, consistent attempts) and you still feel chronically unloved. That's real data, not a failure of imagination. Only the two of you can tell which category you're in. No personality system can make the climate change."
       }
     },
     {
@@ -610,7 +608,7 @@ So: **what's the mismatch pattern that feels most like yours?** Post it as "Type
       "name": "Why don't traditional love language quizzes work?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "They score preferences without asking why the preference formed. Knowing you're 'Words of Affirmation' doesn't tell you whether you need to hear 'you matter' (Type 2), 'I'm not going anywhere' (Type 6), or 'no one else could do what you just did' (Type 3). All three get the same quiz result. None of them get the same words. That's the gap the Enneagram closes."
+        "text": "They score the preference without asking what it's for. Knowing you're \"Words of Affirmation\" doesn't tell you whether you need to hear \"you matter\" (a common Type 2 need), \"I'm not going anywhere\" (Type 6), or \"no one else could do what you just did\" (Type 3). All three get the same quiz result. None of them want the same words. Asking about the motive is how you find the right ones."
       }
     },
     {
@@ -618,7 +616,7 @@ So: **what's the mismatch pattern that feels most like yours?** Post it as "Type
       "name": "How do you handle love language conflicts in the moment?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Don't argue about the expression — argue about the underlying need. 'You never text me back' is a Type 6 asking 'am I still secure?' or a Type 2 asking 'do I still matter to you?' The behavior is the same; the fix is completely different. Ask 'what are you actually scared of right now?' and listen to the answer before defending the text message."
+        "text": "Don't argue about the expression. Argue about the underlying need. \"You never text me back\" can be a Type 6 asking \"am I still secure?\" or a Type 2 asking \"do I still matter to you?\" The behavior is the same; the fix is completely different. Ask \"what are you actually scared of right now?\" and listen to the answer before defending the text message."
       }
     }
   ]

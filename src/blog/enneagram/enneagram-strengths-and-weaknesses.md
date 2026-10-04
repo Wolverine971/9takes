@@ -1,5 +1,6 @@
 ---
 title: "Your Type's Fatal Flaw (And Secret Superpower) Based on Enneagram"
+meta_title: 'Enneagram Strengths and Weaknesses of All 9 Types'
 description: "Compare all nine Enneagram types' common strengths and weaknesses, see how each strength can become a shadow, and try practical, non-clinical counter-moves."
 author: 'DJ Wayne'
 date: '2023-05-10'

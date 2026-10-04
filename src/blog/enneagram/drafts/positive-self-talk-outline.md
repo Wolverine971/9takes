@@ -512,7 +512,7 @@ Your inner critic has had years of practice. Give your inner champion at least 3
 **Primary Links:**
 
 - [Enneagram Mental Health Guide](/enneagram-corner/enneagram-and-mental-illness)
-- [Enneagram Stress Patterns](/enneagram-corner/enneagram-stress-number)
+- [Enneagram Stress Patterns](/enneagram-corner/enneagram-types-in-stress)
 - [Enneagram Growth Paths](/enneagram-corner/enneagram-self-development)
 
 **Type-Specific Links:**

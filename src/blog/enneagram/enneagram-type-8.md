@@ -288,7 +288,7 @@ The way out starts with one repair question: **what exact freedom, trust, or lin
 
 Name it and you can fight it, which is the mode you're built for. Leave it vague and you'll fortify against everything at once, which looks like strength and functions like hiding.
 
-Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+Read more about <a href="/enneagram-corner/enneagram-types-in-stress">other types under stress</a>
 
 </section>
 

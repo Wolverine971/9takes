@@ -173,7 +173,7 @@ _What's happening is disintegration._
 
 When their primary defense (withdrawal and analysis) fails, Fives swing to its opposite: escape through expansion rather than contraction. The person who usually thinks before speaking cannot stop talking. The one who carefully conserves energy frantically pursues multiple activities. Without their usual structure, this expansion becomes chaos. Then they collapse and must withdraw completely to recover.
 
-Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+Read more about <a href="/enneagram-corner/enneagram-types-in-stress">other types under stress</a>
 
 </section>
 

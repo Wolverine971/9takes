@@ -269,7 +269,7 @@ All that suppressed need has a physical address.
 
 **The numb stretch.** When the account is truly overdrawn, the warmth itself goes offline. You keep performing care and feel nothing. Treat this as a serious signal. Pushing through it is how an overdraft becomes a collapse.
 
-Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+Read more about <a href="/enneagram-corner/enneagram-types-in-stress">other types under stress</a>
 
 </section>
 

@@ -201,7 +201,7 @@ You're in this stress spiral when you notice:
 
 The exit isn't more control. It's actually simpler: let yourself feel whatever you've been trying to outrun. The feeling won't destroy you. It might even have something useful to tell you.
 
-Read more about <a href="/enneagram-corner/enneagram-stress-number">other types under stress</a>
+Read more about <a href="/enneagram-corner/enneagram-types-in-stress">other types under stress</a>
 
 </section>
 

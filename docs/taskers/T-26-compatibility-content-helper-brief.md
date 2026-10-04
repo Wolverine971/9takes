@@ -69,3 +69,11 @@ AI content tools reward topical similarity and can encourage generic bloat or fa
 ## Definition of done
 
 9takes has an evidence-safe, GSC-grounded compatibility brief and either a verified bounded improvement or a clear DJ decision package, with no paid spend and no unsupported statistics.
+
+## 2026-10-03 note: chart rebuilt outside this brief
+
+The page's chart was rebuilt under plan Clean-up row 4 (`docs/content-strategy/2026-10-03-search-cleanup-and-gap-plan.md`), separately from T-05's blocked data salvage. That covers part of §4's bounded-improvement list: the chart is now easy to reach, the jump link is fixed, and the chart's terminology is clarified. The change:
+
+- A symmetric 9x9 chart now sits directly under the QuickAnswer at `#enneagram-compatibility-chart-all-45-pairings`. It was built only from the page's own 45 pairing sections, so it adds no new claims and no statistics. The withdrawn 457-couple figures are not used anywhere.
+- `meta_title` is "Enneagram Compatibility Chart: All 45 Type Pairings". "81" is replaced with 45 throughout the page.
+- This brief's deliverable (`docs/seo/2026-08-13-compatibility-content-brief.md`) has still not been created. When the brief is written, it should measure against the post-change page, not the July snapshot.
