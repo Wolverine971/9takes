@@ -2,6 +2,8 @@
 
 # Carousel — 9takes Instagram Teaching-Carousel Factory
 
+> **Image rule (DJ, 2026-10-04): agents never generate images.** No OpenRouter, no `gemini-imagegen` / Gemini API, no Canva AI generate, no other paid image API, and no driving ChatGPT in the browser. Output finished prompts; DJ runs them himself in a separate ChatGPT chat on his subscription. Text-bearing panels = a text-free ChatGPT background + the exact type set in Canva. After DJ saves a blog image: `node scripts/blog-image-variants.mjs <slug> <image>`.
+
 You build a complete, design-ready Instagram **teaching carousel** for 9takes, following the decoded @iklipse\_ engine re-skinned for 9takes. The output is a full slide-by-slide deck: beat copy + per-slide image prompts + caption + CTA + a posting/engagement plan — ready for Canva or the admin asset generators with zero further decisions.
 
 This is **not** the same as `/distribute-instagram` (that builds a per-person asset pack of mixed formats). This command builds **one carousel deck** off a named structural engine, for any source: a person, an Enneagram type, a situation, or a blog.
@@ -226,7 +228,7 @@ Format: square 1:1 (1024×1024), composition top-weighted.
 - **Vary the direction across slides:** every pair of photo prompts must differ on **at least two** of {angle, distance, lens, light, setting}. Nine identical eye-level 50mm frames = flat deck.
 - Midjourney remains a fallback only — refine with `/midjourney-prompt` if the user asks for MJ.
 
-**Text-bearing slides** (hook, diagram/taxonomy, formula peak, badges, CTA) → spec for **`gemini-imagegen` (Nano Banana Pro)**, which renders text-in-image cleanly. Give it: background (amber or inverted-light for the peak), the exact on-slide text, and the chrome positions. **Caveat:** `gemini-imagegen` needs `GEMINI_API_KEY` in the environment, which this project does not currently set — when it's absent, generate a **text-free background** in ChatGPT and set the type in **Canva** (this is the proven fallback). Photo-slide captions are always overlaid after generation — never ask the model to render them in-image.
+**Text-bearing slides** (hook, diagram/taxonomy, formula peak, badges, CTA) → spec a **text-free ChatGPT background** brief (DJ runs it) + the exact on-slide text and chrome positions for Canva type (background: amber or inverted-light for the peak). Never route these to `gemini-imagegen` or any image API. Photo-slide captions are always overlaid after generation — never ask the model to render them in-image.
 
 ## J. Quality gates (run before writing the file)
 
@@ -268,7 +270,7 @@ Write **every slide** in the chosen mode's beat skeleton (§C). Hit all ★ beat
 
 **If a moodboard was found in Step 1:** pull the photo-slide prompts straight from its shot list — they're already directed (POV lens, camera, light, style) and non-flat. Match each beat to the moment whose feeling fits; the moodboard's bright peak shot becomes the deck's one inverted slide. Only write a fresh §I prompt for a beat the moodboard doesn't cover.
 
-**Otherwise (no moodboard):** for each photo slide, emit a ChatGPT production brief (§I) tuned to that slide's named emotion/type — and vary the camera angle, distance, lens, and lighting across slides so the set isn't flat (don't repeat `50mm` + the same amber light on every frame). For each text-bearing slide, emit a `gemini-imagegen` brief (if `GEMINI_API_KEY` is available) or mark it "ChatGPT background + Canva type" (§I caveat). Every slide gets the fixed chrome (§G — series chrome for Story decks).
+**Otherwise (no moodboard):** for each photo slide, emit a ChatGPT production brief (§I) tuned to that slide's named emotion/type — and vary the camera angle, distance, lens, and lighting across slides so the set isn't flat (don't repeat `50mm` + the same amber light on every frame). For each text-bearing slide, mark it "ChatGPT background + Canva type" (DJ runs the ChatGPT prompt; see the image rule at the top). Every slide gets the fixed chrome (§G — series chrome for Story decks).
 
 ## Step 5 — Assemble the deck
 
@@ -327,7 +329,7 @@ Add the posting + type-pond engagement plan. Write the file, then report.
 _Vary: [one axis]._ · _Kill rule: [keep only the frame where ...]._
 
 **Slide [N] (Text — formula peak):**
-gemini-imagegen brief: [background = inverted light; exact on-slide text; chrome positions]. (No `GEMINI_API_KEY`? → ChatGPT text-free background + Canva type.)
+ChatGPT text-free background brief (DJ runs it) + Canva type: [background = inverted light; exact on-slide text; chrome positions].
 
 [...one block per slide...]
 
@@ -377,7 +379,7 @@ Then report to the user:
 **Save-able payload:** [one line]
 **Scorecard:** [X]/12 — [Ship/Revise]
 
-Next: [generate the images (/midjourney-prompt or gemini-imagegen), then build in Canva / asset-generators].
+Next: [DJ generates the images in ChatGPT from these prompts, then builds in Canva / asset-generators].
 ```
 
 ---
@@ -393,4 +395,3 @@ This command is self-sufficient. It's distilled from:
 - `docs/ai-image-gen/moodboards/chappell-roan/carousel.md` — the reference Story-deck build sheet.
 - `docs/instagram/personality-series-north-star.md` + `docs/instagram/post-ideas/2026-05-19_personality-series-intro-arc-lineup.md` — the series voice, tidbit five-test + wound test, and type-pond coordination Story decks inherit.
 - `midjourney-prompt` skill — legacy templates (fallback only; photo slides target ChatGPT).
-- `gemini-imagegen` skill — text-in-image generation for badge/formula/CTA slides (needs `GEMINI_API_KEY`).

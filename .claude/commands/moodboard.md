@@ -2,6 +2,8 @@
 
 # Moodboard — 9takes Per-Person Art-Direction & POV Pipeline
 
+> **Image rule (DJ, 2026-10-04): agents never generate images.** No OpenRouter, no `gemini-imagegen` / Gemini API, no Canva AI generate, no other paid image API, and no driving ChatGPT in the browser. Output finished prompts; DJ runs them himself in a separate ChatGPT chat on his subscription. Text-bearing panels = a text-free ChatGPT background + the exact type set in Canva. After DJ saves a blog image: `node scripts/blog-image-variants.mjs <slug> <image>`.
+
 You lock the **visual vision** for a person _before_ anyone writes an image prompt. The output is a per-person **moodboard doc**: a locked vision palette + a ranked set of **POV moments** (what this person _saw_) + a directed **shot list** (camera, light, style per shot) + finished image prompts with variation/kill guidance. This doc then feeds `/carousel` (and any other 9takes image gen) so the visuals stop being flat.
 
 **The problem this fixes:** `/carousel` is copy-first. It writes the teaching beats, then bolts on image prompts as an afterthought — every photo ends up `type N greek statue ... 50mm ... warm amber`, identical framing, generic. That violates the single most important rule in the decoded iklipse engine:
@@ -206,7 +208,7 @@ Format: square 1:1 (1024×1024).
 
 Every prompt must visibly differ from the others in the set on **at least two** of {POV lens, angle, distance, lens, light, setting}. If two prompts share all of those, one is redundant — kill or redirect it.
 
-**Text-bearing panels** (hook, formula peak, badges, CTA) → `gemini-imagegen` (Nano Banana Pro renders text-in-image cleanly): give it background (amber, or inverted-light for the peak), the exact on-slide text, and the chrome positions. Or mark "Canva (type+shape)." (Photo-set captions are overlaid **after** generation — never ask ChatGPT to render them in-image.)
+**Text-bearing panels** (hook, formula peak, badges, CTA) → a **text-free ChatGPT background** brief (DJ runs it) + the exact on-slide text and chrome positions for Canva type (background: amber, or inverted-light for the peak). Or mark "Canva (type+shape)." (Photo-set captions are overlaid **after** generation — never ask ChatGPT to render them in-image.)
 
 **Consistency workflow tip (put this in the doc's hand-off):** generate the first shot, approve it, then **upload that frame as a style reference** for the rest so the grain/amber/finish stay consistent. Refine conversationally in ChatGPT — regenerate, don't overload one prompt.
 
@@ -338,7 +340,7 @@ Each shot prompt must encode **its own era-palette** (not a global one), while k
 2. **Overlay caption** — the on-image text (bottom-right), grounded in a real citable fact.
 3. **Prompt** — the full ChatGPT production-brief prompt (§9), **inside a fenced code block** so it's copy-pasteable, + variation axis + kill rule.
 
-Text panels get a `gemini-imagegen` brief. Mark which single shot is the **bright peak** candidate.
+Text panels get a text-free ChatGPT background brief + Canva type spec. Mark which single shot is the **bright peak** candidate.
 
 ## Step 5 — Enrichment pass (do NOT skip)
 
@@ -431,7 +433,7 @@ _Vary: <the one axis to spin>._ · _Kill rule: <keep only the frame where ...>._
 
 <per §15: the vacated frame rhymed against Shot <X>, palette, why-this-shot, the bridge line + mirror question (near-verbatim to the target question page), the 9takes-only test, the caption bridge, the landing (question page, not blog), and the full ChatGPT prompt in a fenced code block with variation + kill rule. No fact caption — the question is the only text.>
 
-**Text panels (if any) → gemini-imagegen** (requires `GEMINI_API_KEY`; else ChatGPT text-free background + Canva type): <briefs with exact text + chrome>
+**Text panels (if any) → ChatGPT text-free background (DJ runs it) + Canva type:** <briefs with exact text + chrome>
 
 ## Hand-off
 
@@ -464,4 +466,3 @@ Self-sufficient by design. Distilled from:
 - `.claude/commands/carousel.md` — the deck engine this feeds (Story mode is the person-deck consumer).
 - `docs/product/the-mirror-moment.md` — the canonical mirror-shot / final-slide mechanic (§15).
 - `midjourney-prompt` skill — legacy Greek-statue + other photo templates (fallback only).
-- `gemini-imagegen` skill — text-in-image panels (needs `GEMINI_API_KEY`).

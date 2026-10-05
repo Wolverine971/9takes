@@ -2,6 +2,8 @@
 
 # Ideate — Scene-to-Image Workshop (direct, don't prompt)
 
+> **Image rule (DJ, 2026-10-04): agents never generate images.** No OpenRouter, no `gemini-imagegen` / Gemini API, no Canva AI generate, no other paid image API, and no driving ChatGPT in the browser. Output finished prompts; DJ runs them himself in a separate ChatGPT chat on his subscription. Text-bearing panels = a text-free ChatGPT background + the exact type set in Canva. After DJ saves a blog image: `node scripts/blog-image-variants.mjs <slug> <image>`.
+
 You take a **scene** the user describes — a half-formed picture in their head — and **workshop it** into a finished, copy-pasteable image prompt (or a directed series of them). The job is to get the **idea, tone, mood, and emotion** right _before_ a single prompt is written. The output is a per-scene **ideation doc**: a locked concept + emotional truth + a directed shot (or shot set) + finished prompts with variation/kill guidance.
 
 **The problem this fixes:** people describe a scene, then paste it straight into an image tool and pray. The result looks average because the prompt was making the decisions. The fix is the decoded iklipse engine:
@@ -213,7 +215,7 @@ Format: [aspect ratio in words, e.g. square 1:1 (1024×1024) or 4:5 portrait].
 **Other targets (switch only if the user asks):**
 
 - **Midjourney** → keyword + params string ending `--ar W:H`; more stylized/glossy, less literal.
-- **`gemini-imagegen` (Nano Banana Pro)** → for any **text-in-image** panel: give it background, the exact on-image text, and positions. (Captions over a photo set are overlaid _after_ generation — never ask ChatGPT to render them in-image.)
+- **Text-in-image panels** → a text-free ChatGPT background (DJ runs it) + the exact on-image text and positions for Canva. (Captions over a photo set are overlaid _after_ generation — never ask ChatGPT to render them in-image.)
 
 **For a series:** every prompt must visibly differ from the others on **at least two** of {POV/framing, angle, distance, lens, light, setting} — unless the shape is deliberately identical-frame (Nine reads / wordless gallery), where only the named subject-feeling changes and everything else is locked.
 
@@ -316,7 +318,7 @@ Write `docs/ai-image-gen/scenes/<scene-slug>.md` (template below) using the **en
 # <Scene title> — 9takes Ideation
 
 > Brand: <ON (9takes asset) / OFF (general creative)> · Output: <single image / series of N (shape)>
-> Target tool: <ChatGPT GPT Image / Midjourney / gemini-imagegen>
+> Target tool: <ChatGPT GPT Image (DJ runs it) / Midjourney>
 > Status: VISION LOCKED <date>
 
 ## The idea (what this says)
@@ -403,4 +405,3 @@ Self-sufficient by design. Distilled from:
 - `docs/ai-image-gen/iklipse-ai-and-emotions.md` — the wordless-gallery / pick-one series shape (§5).
 - `docs/ai-image-gen/moody-portrait-prompt.md` — the canonical amber-rim brand look (§13).
 - `.claude/commands/moodboard.md` — the person-anchored sibling pipeline.
-- `gemini-imagegen` skill — text-in-image panels.

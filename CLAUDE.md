@@ -409,7 +409,7 @@ Run via `pnpm <alias>` where available:
 
 - **Add blog post**: Create `.md` in `src/blog/[category]/`, run `pnpm index:blogs`. Once `published: true`, give it 3+ outbound and 3+ inbound links (`pnpm gen:crosslinks -- --target <url>`) or `pnpm crosslinks:check` (lint + CI) fails. `/crosslink-queue` works the link queue weekly.
 - **Add celebrity analysis**: Use admin `/admin/content-board` (saves to `blogs_famous_people`)
-- **Blog hero image**: NEVER generate images through OpenRouter or any paid image API (DJ's rule, 2026-10-04; one run cost ~$7). Write the prompt (Greek marble statues, amber accent, no text), DJ generates it in ChatGPT on his subscription, then `node scripts/blog-image-variants.mjs <slug> <image>` builds the variant set and you set `pic: '<slug>'`.
+- **Any image (blog hero, carousel, social)**: agents NEVER generate images (DJ's rule, 2026-10-04; one OpenRouter run cost ~$7). That means no OpenRouter, no `gemini-imagegen` / Gemini API, no Canva AI generate, no other paid image API, and no driving ChatGPT in the browser. Write the finished prompt (Greek marble statues, amber accent, no text) and hand it to DJ; he runs it himself in a separate ChatGPT chat on his subscription. For a blog hero, once he saves the file, `node scripts/blog-image-variants.mjs <slug> <image>` builds the variant set and you set `pic: '<slug>'`. Subagent prompts must restate this rule.
 - **Add API endpoint**: Create `+server.ts` in `src/routes/api/[path]/`
 - **Add page**: Create `+page.svelte` and optionally `+page.server.ts`
 - **Database changes**: Add migration in `supabase/migrations/`, regenerate types, update affected RPCs
