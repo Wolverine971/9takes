@@ -403,11 +403,13 @@ Run via `pnpm <alias>` where available:
 | `pnpm supabase:normalize-personality-slugs`     | Normalize personality slugs in DB                                      |
 | `pnpm seo:normalize-internal-personality-links` | Rewrite internal personality links                                     |
 | `pnpm label-paths`                              | Annotate files with path comments                                      |
+| `node scripts/blog-image-variants.mjs <slug> <img>` | Build blog image variant set from a ChatGPT-generated image (free) |
 
 ## Common Tasks
 
 - **Add blog post**: Create `.md` in `src/blog/[category]/`, run `pnpm index:blogs`. Once `published: true`, give it 3+ outbound and 3+ inbound links (`pnpm gen:crosslinks -- --target <url>`) or `pnpm crosslinks:check` (lint + CI) fails. `/crosslink-queue` works the link queue weekly.
 - **Add celebrity analysis**: Use admin `/admin/content-board` (saves to `blogs_famous_people`)
+- **Blog hero image**: NEVER generate images through OpenRouter or any paid image API (DJ's rule, 2026-10-04; one run cost ~$7). Write the prompt (Greek marble statues, amber accent, no text), DJ generates it in ChatGPT on his subscription, then `node scripts/blog-image-variants.mjs <slug> <image>` builds the variant set and you set `pic: '<slug>'`.
 - **Add API endpoint**: Create `+server.ts` in `src/routes/api/[path]/`
 - **Add page**: Create `+page.svelte` and optionally `+page.server.ts`
 - **Database changes**: Add migration in `supabase/migrations/`, regenerate types, update affected RPCs
