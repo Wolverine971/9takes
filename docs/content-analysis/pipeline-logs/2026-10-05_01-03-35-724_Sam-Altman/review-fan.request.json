@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "Sam-Altman",
+  "mode": "refresh",
+  "role": "fan",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/similarity.json"
+  },
+  "outputs": {
+    "review-fan.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-fan.json"
+  },
+  "content_sha256": "925a318a406d87caa7ffe839dd592350cc6f38bf2b17d96c5e18ed292cf94130",
+  "evidence_sha256": "c02501903bf57263b8fa25f36f570e737722214ec26b438c0935b9940e12f151"
+}

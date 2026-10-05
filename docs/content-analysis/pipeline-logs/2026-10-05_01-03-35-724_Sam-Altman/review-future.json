@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "925a318a406d87caa7ffe839dd592350cc6f38bf2b17d96c5e18ed292cf94130",
+  "evidence_sha256": "c02501903bf57263b8fa25f36f570e737722214ec26b438c0935b9940e12f151",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "minor",
+      "passage": "It has its world premiere at the New York Film Festival on October 5, 2026, and Neon opens it in U.S. theaters on December 25",
+      "problem": "The release facts use present or future-tense verbs for events that will be past within weeks (the premiere is the accuracy-check date itself, and the U.S. opening is December 25, 2026). The Artificial FAQ repeats the same wording ('It has its world premiere ... Neon opens it in U.S. theaters on December 25, 2026'). The FAQ is the most search-visible sentence on the page, and it goes wrong on December 26 unless someone remembers C73's trigger. The film is correctly kept out of the argument, so this is a tense problem only, but it is the page's fastest-expiring sentence.",
+      "acceptance_test": "The body and the Artificial FAQ state the release facts in a form that stays true after the dates pass (for example, 'was scheduled to premiere at the New York Film Festival on October 5, 2026, with a U.S. release from Neon set for December 25, 2026'), or report the verified actual premiere and release. No present-tense or future-tense release verbs remain. C73's passage is updated to match."
+    },
+    {
+      "id": "future-02",
+      "severity": "minor",
+      "passage": "Enneagram Type 3 fits the OpenAI CEO better than Type 4",
+      "problem": "The description identifies him by a current title with no date. The body carefully dates the same fact ('he still held the job in early October 2026', C74), but no claim covers the metadata, and descriptions are re-checked less often than body copy. A leadership change after an IPO, or any other exit, would leave the search snippet false while the body stayed correct. The persona_title and title are already title-free and durable.",
+      "acceptance_test": "The description names him by a stable fact (for example 'OpenAI co-founder Sam Altman' or 'OpenAI's Sam Altman') or dates the title, and stays within 120-170 characters. Alternatively, C74's review_trigger explicitly lists the description and keywords as surfaces to update on a leadership change."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "Ilya Sutskever, OpenAI's co-founder and chief scientist, wrote memos for the board.",
+      "problem": "The present-tense appositive gives Sutskever a title he no longer holds. He served as chief scientist, left the board after Altman's return, and co-founded Safe Superintelligence in June 2024 (Wikipedia, checked 2026-10-05). The same paragraph then mentions his 2025 testimony, so a reader can easily take 'chief scientist' as his current role. Absolute-time phrasing is used everywhere else in the piece.",
+      "acceptance_test": "The sentence says the title belongs to the time of the memos (for example, 'OpenAI co-founder Ilya Sutskever, then its chief scientist, wrote memos for the board'). No title is stated as current for anyone whose role has since changed."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "The old Four case also leaned on money.",
+      "problem": "Several arguments are framed as rebuttals to the page's previous version rather than to the Type 4 hypothesis: 'The old Four reading leaned on \"shameful,\"' 'The old Four case also leaned on money', and, in the Type 4 FAQ, 'this page used to lead with it'. A new reader never saw the old page. In five years the revision history is inside baseball, and the counterargument reads like a rebuttal of something the reader never met. The one transparency sentence under the type answer ('Earlier versions of this page read Altman as a Type 4...') is enough disclosure. The substance of each rebuttal is good and should stay.",
+      "acceptance_test": "Argument sentences address the Type 4 hypothesis directly (for example, 'A Four reading leans on \"shameful\"' and 'A Four case can also point to money'). At most one revision-history note remains, and the existing 'Earlier versions of this page...' sentence is sufficient. The Type 4 FAQ answer either opens with substance or drops 'this page used to lead with it'. C96's passage is updated to the new wording."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "As of September 30, 2026, the case was active, and a December 2025 order had set a jury trial for May 3, 2027",
+      "problem": "The as-of framing is good and accurate today: CourtListener, checked 2026-10-05 in desc order, shows no entry after #128 (Sept 30, 2026). However, the C91 and C69 triggers name the October 2, 2026 hearing as their first checkpoint, and that date has already passed before release. That hearing was set to address Sam's pending motion to dismiss as a discovery sanction (Doc. 109, per S64 and the Sept 18 docket order). The paragraph points readers to a May 2027 trial as the next milestone while a dispositive motion is pending and could end the case first. 'Altman is countersuing her for defamation' is also an undated present-tense status sentence in a paragraph whose status will change.",
+      "acceptance_test": "Immediately before release, the docket is re-checked and the 'As of' date matches that check. If the Doc. 109 motion has been decided, the paragraph reports the ruling neutrally. If it is still pending, the paragraph either notes in one neutral clause that a motion to dismiss is pending (no sanction, discovery or medical detail) or keeps the trial date in its 'had set' form. The countersuit sentence is tied to the same as-of date. C91's review_trigger names the Doc. 109 ruling, the Nov 16, 2026 dispositive-motion deadline and the trial date, and the passed Oct 2 hearing is removed as a future checkpoint."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "A Three reading sees market timing; a reading of sincere recalibration sees conviction.",
+      "problem": "The page's named forward test does not test the type. The sentence sets 'Three' against 'sincere', so either outcome of the evaluator question (embedded or not) speaks to sincerity, not to motive. Threes can sincerely recalibrate and follow through, especially when credibility is at stake. When the test resolves, a future editor will not know what to change in the type argument. Separately, C67's trigger fires only on events ('announces embedded independent evaluators, files a public S-1, or sets an IPO date'). Non-occurrence, the outcome the article treats as most telling, will never prompt a re-check.",
+      "acceptance_test": "The paragraph says what each outcome would and would not mean for the type argument, or says plainly that the evaluator question tests follow-through rather than type. It no longer equates the Three reading with insincerity. C67 gains a dated fallback (for example, 're-check by 2027-03-12, six months after the commitment, whether any outside evaluator has employee-like access at OpenAI, whether or not OpenAI has announced anything')."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "Now I'm very happy to fire people quickly",
+      "problem": "This is the only claim in the record that the defining pattern has changed, and it is the most type-relevant thing to check over the next five years. The article uses it only to confirm the old pattern (here and in the conflict-averse FAQ), not as an unverified claim of change. In the evidence record, C88's inference calls it 'a forward test' and its alternative says 'the change is asserted, not shown', yet C88 is marked stable with no review trigger. C102, the closing 'whether he can lose a room on purpose' test, is likewise stable with no trigger. The page's best five-year question is therefore tracked nowhere and has no observable that would count as an answer.",
+      "acceptance_test": "One clause in the body marks the 2026 statement as a self-assessment that is asserted but not yet shown, ideally linked to the closing question. C88 and C102 become time_sensitive (or unresolved) with a review_trigger naming concrete observables. Examples: named colleague or board testimony after April 2026 describing him delivering unwelcome decisions directly; a public position he holds at a real cost in approval outside a fight over control. The trigger also carries a date (for example, re-check at the next major profile or by 2027-10-05)."
+    },
+    {
+      "id": "future-08",
+      "severity": "minor",
+      "passage": "email released in Musk's lawsuit",
+      "problem": "The record contains opened, dated, adversarially tested evidence that the draft leaves out. In May 2026 Altman testified under oath in Musk v. OpenAI. Asked 'Do you always tell the truth?', he answered 'I'm sure there is some time in my life when I have not' and 'I believe I am an honest and trustworthy businessperson' (S72, The Ringer). He also described being 'upset, angry and hurt' during the November 2023 days (S71). A unanimous jury found Musk's suit time-barred, and Musk's lawyer said he would appeal (S73, May 18, 2026). For a profile whose thesis is about candor, sworn testimony is the evidence most likely to still be cited in five years. As written, two links mention 'Musk's lawsuit' and a 'court-released email' without saying the case went to trial and lost, which leaves its status unclear.",
+      "acceptance_test": "The editor either adds one dated sentence on the trial outcome (jury verdict May 2026, time-barred, appeal intended per S73) and, if used, quotes the sworn truthfulness exchange exactly from S72 with the outlet named, each with a claim entry and an appeal-status review_trigger. Or the resolution records why the sworn exchange is not probative for the type argument. In either case, no sentence leaves the Musk case's status ambiguous."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Read side by side, the two lines describe one capacity from opposite ends.",
+      "reason": "This is the durable core. It joins a 2008 observation and a 2026 self-report into one claim about a single capacity, and the claim survives removing every 2026 event because Hagey, Hao, the 2016 profile and the 2017 email carry it independently."
+    },
+    {
+      "passage": "Whether outside evaluators actually work inside OpenAI is the test, and as of October 5, 2026, it is unsettled.",
+      "reason": "This is a model for handling a live matter: absolute date, an observable test, and honest uncertainty. future-06 asks for the type consequence to be spelled out, not for this line to change."
+    },
+    {
+      "passage": "The allegation is unresolved, and it is not evidence for or against any personality type.",
+      "reason": "This sentence stays correct whatever the verdict, and it keeps a sensitive, changing matter out of the type argument permanently."
+    },
+    {
+      "passage": "A dramatization is not evidence, and nothing here draws on it.",
+      "reason": "It handles the film news peg so that the film's reception, good or bad, can never contaminate the portrait."
+    },
+    {
+      "passage": "The 2026 apology describes the price of the same gift: rooms kept happy, fights put off, trust spent later.",
+      "reason": "A distinctive close that dates its anchor and points forward ('Whether he can lose a room on purpose') instead of resting on a current status."
+    }
+  ],
+  "assessment": "Five-year test: passes on the thesis. The Three-over-Four argument rests on a 2005-2025 record: Graham 2008/2009, the 2016 New Yorker self-portrait, the 2017 Sutskever/Brockman email, Hagey and Hao 2025, and Bloomberg 2025. That record stands if the newest events are removed. The September 2026 pacing post, the IPO remarks, the film and the October CEO check are all non-load-bearing, and the April 2026 New Yorker cluster corroborates the argument rather than solely supporting it. Absolute dates are used almost everywhere. I decoded all ten cited X post IDs, and every timestamp matches the prose: the 'eulogy' post at 9:05 p.m. PT on Nov 17, 2023 ('That night'); 'npc trap' on Jan 22, 2025 PT ('The next day' after Stargate); 'pace the frontier' on Sept 12, 2026; the son post on Feb 22, 2025; Annie's post on Nov 13, 2021. CourtListener, checked 2026-10-05, shows nothing after entry #128 (Sept 30), so the Oct 2 hearing outcome is not yet public. The weaknesses are phrasing that will expire, not arguments that will: future-tense film release lines in the body and FAQ, an undated 'OpenAI CEO' in the description, a lapsed title for Sutskever, rebuttals aimed at 'the old' page, and event-only triggers that miss the informative non-event. The best forward question, whether the claimed change ('very happy to fire people quickly') is real, is tracked nowhere. Nit: 'the clearest change in the recent record' (Nostalgic for the present) should use an absolute anchor. Risk flags match the evidence record. The 4-to-3 thesis change, contested typing and the sister's lawsuit keep the expanded jury necessary. The similarity advisory did not trip (max 0.058, all pairs generic type-description sentences), and I found no meaningful reuse."
+}

@@ -1,0 +1,328 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Fixed. The Lex Fridman quote now begins at 'incredibly unproductive to try and argue with someone else's vision' and includes 'You might think they're not doing it the right way' and 'Who knows? Maybe you're right, maybe you're not.' No sentence says he names or holds a suspicion of dishonesty; the text says he 'declined to judge anyone.' The Six reading rests on 'take some people you trust' and his verified line about a path 'that builds trust in the organization and in individuals' (transcript re-opened 2026-10-05; C25, C116, C118). C25's alternative records the omitted context."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Fixed. The paragraph now names the trigger (Altman's announcement of a classified Pentagon deal during Anthropic's dispute, per the Journal), ties the tobacco line to the Journal's 'healthy alternative' brand strategy (C120), and keeps the unnamed-source caveat verbatim. The anger claim is narrowed to public anger and the left-out-of-the-loop episode is added (C121, C64). The Gulf Slack quote now says it was 'obtained by Wired' (verified in S01 on 2026-10-05)."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Fixed. 'Until 2026 he kept even his father's illness out of the long profiles' is cut; the only statement left is 'The 2025 profiles left the disease unnamed' (C158), with no intent implied. 'Spent a reserved fact' is removed. The paragraph quotes the essay's framing ('I feel the urgency personally') and no longer attributes any motive to either disclosure; it only says which observation each type reading would weigh (neither fact appeared in the 2025 profiles; the pledge in the same post) before declining to count them. That non-discrimination test is kept because four other reviewers protected it."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Fixed. The Palihapitiya quote is followed by 'though the essay never mentions open source' (verified by searching S09) and the essay's own answer ('even when this gets us accused of hype, \"doomerism\", or regulatory capture'; 'a race to the top', C131). The Huang paragraph now includes his denial ('I've said nothing that anywhere near resembles the idea that this company should be the only one to build the technology', C35). The pacing section states both stated reasons with the 'including at Anthropic' admission (C136) and the dated public-pressure context (C137). The incentive alternative stays fully stated (Palihapitiya, AFP's 'skilled operator')."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Fixed. The account of the refusal now reflects the statement's scope in one sentence (it left 'military decisions' to the department and called partially autonomous weapons 'vital to the defense of democracy', C122). The 'radical left, woke company' label is no longer printed, so no political label stands unanswered; his CBS 'tried to be very neutral' reply was verified but dropped with the label to stay under the 4,500-word ceiling. The counterphobic reading is kept as 'consistent with'."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Fixed. 'Rivals' unenforced promises get no such faith' is gone. The article quotes 'if there's nothing watching over us as an industry, there's no guarantee that we'll do the right thing' and says he 'put Anthropic inside the principle' (C81, transcript re-opened). The held-back-model example was removed from the section, so nothing is presented as a standing lock."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Fixed. The sentence now reads 'Three accounts suggest recognition mattered to him', with Berry's 'proud person' attributed to him (his 'I imagine' speculation is no longer quoted), and Marre's moderation plus 'wasn't a megalomaniac who crushed others' included (C75). Berry's on-record AFP testimony that he was 'very idealistic...in a technical or scientific sense' is added to the Princeton section (C143)."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Fixed. The type section no longer says he builds AI because he believes it is dangerous; building is credited to his stated reasons (the essay's 'Not building ... reckless', C68; the attributed father lesson, C72). 'Counterphobic' appears only as 'consistent with' in the Pentagon section. The title is kept under head_term_exception, and the body now earns it with attributed evidence: he wrote that 'AI-enabled authoritarianism terrifies me' and that a national security report would call it 'the single most serious national security threat we've faced in a century, possibly ever' (C107), and in his own logic not building is worse (C68, FAQ). The closing no longer asserts 'why he can't stop building' in author voice."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Fixed. The quote carries the agnostic frame ('Who knows? Maybe you're right, maybe you're not') and the race-to-the-top conclusion ('people will copy it'), verified in the transcript. 'Names dishonesty' is gone; the Six reading rests on 'people you trust' and 'builds trust in the organization and in individuals'. The contrast with his argue-first record is addressed: after years of arguing from inside he came to think he should have left sooner (Wired), so 'He learned to leave sooner, not to go alone', which keeps the trusted-group detail that matters for 5 versus 6 (C117, C118)."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Fixed. The career narrative now gives Baidu's 'very smooth trends' and a plain gloss of scaling laws (C110); the Google Brain stint and the bad-behavior paper; joining OpenAI in 2016, research director, helping pioneer RLHF, and leading GPT-3 with '50-60% of the entire company's compute' (C111, verified in S01). Baidu's collapse in turf battles sits next to Diamos's account, which is flagged as not independent of Kantrowitz (C16). 'Recurs for the rest of his career' is narrowed to Baidu and OpenAI (C76). The Lex section notes his denial that he left over commercialization (in C116; body says he 'declined to judge anyone')."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Fixed. The left-out-of-the-Obama-meeting episode is added, attributed to the Journal (C121). 'Consistent target' and the exclusive claim are gone; the conclusion says his public anger targets dishonesty and bad faith while the private record adds exclusion, which can read as betrayal (6) or pride, and the record can't separate them (C64). The Type 1 sloppiness stereotype is removed in favor of a motive-level 6-versus-1 test (C89, C125)."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Fixed. Kantrowitz's 'flag planting and heavy handed' and 'a bit abrasive, sometimes disparaging projects he didn't believe in' are attributed in the career section (C112) and the flag-planting point is used in the Type 5 writing discussion (C129). His sources' finding that he was too focused on 'collaborating with the government to address' the technology's potential is cited next to the Journal's government-first account (C113). 'Usually measured scientist' is removed from the opening; the anger section now opens 'Amodei is plain-spoken in public.'"
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "rejected",
+      "reason": "Rejected. Not a factual error, and the page is at 4,470+ words against a 4,500 ceiling after the required repairs. The incentive-versus-update test the reviewer wants is already carried by the pacing essay: Palihapitiya's positioning critique, the essay's own answer, and the dated reasons and public-pressure context (C60, C131, C136, C137). The 2025 jobs forecast is a dated economic prediction rather than personality evidence; S28 and S29 remain in the evidence record for a later refresh."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Fixed. The G7 paragraph now cites his own 2024 essay as primary evidence ('the \"coalition of democracies\" his 2024 essay had proposed'), with the 2017 WSJ account kept attributed and worded as the Journal does ('he had hired an adviser to pitch a coordination regime', C127). The export-control irony is stated: he had urged export controls on chips against adversaries in 'Machines of Loving Grace', and when the tool was turned on his own company it drew a request for fair process (C126). The Pentagon refusal is framed as two named uses, with partially autonomous weapons called 'vital' (C122). The FAQ now says 'hired an adviser who pitched', not 'backed a proposal' (C103)."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Fixed. The close now says 'in what he proposes, he puts himself inside it' and that whether he would accept that structure when it cost him control 'is the part the record leaves open' (C142), pointing back to the control evidence. The Axios vanguard critique sits beside the 'prophet' quote (C141). The SBF sentence was removed, so it no longer frames the investment as a lock. The heading 'Defying Washington as a patriot' is replaced with 'Two fights with Washington'. The persona_title 'AI's Reluctant Prometheus' is kept: it names the paradox (bringing a dangerous power while warning about it) without endorsing a motive, and 'reluctant' matches his own on-record 'I'm uncomfortable'."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Fixed. The heading now puts his phrase in quotation marks ('A cure that came \"a few years\" late'), attributing the timing to him while keeping the FAQ anchor; the body attributes 'Maybe three or four years after he died' to him. The Five-case sentence about keeping the illness out of the profiles is cut; the article says only that the 2025 profiles left the disease unnamed (C158). The father FAQ now quotes his own 'only a few years before the development of direct-acting antivirals' (C104)."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Fixed. The hook now quotes the full clause ('unilaterally committing to (and calls on governments to require other frontier companies to match)') and notes the narrow redaction right (C108, verified in S09). 'Odd offer' is followed by the pre-IPO credibility reading (C153) and Altman's same-day similar pledge (C109, verified in S41). The Type 5 FAQ no longer presents the evaluators as self-binding; it says the safeguards he builds, including the evaluators he promised, 'fit either type' (C101)."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Fixed. The non-type section now names the milieu alternative with attribution: the Journal places Holden Karnofsky, an effective-altruism philanthropy founder and Daniela's then-fiancé, beside Amodei in the 2016 argument; AFP calls Amodei a leading figure in effective altruism and rationalism; Anthropic's statement that he does not identify with the EA community is included (C132, verified in S13 and S14). The OpenAI-era control reading appears once in 'What the type doesn't settle' (C134). 'What tips this page' is replaced by a stated limit (timing predates commercial interests 'but not his milieu', C91) followed by an observation neither milieu nor incentive predicts: whom he trusts, when he walks out, what makes him angry (C133). The answer stays at medium confidence."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Fixed. The left-out-of-the-loop episode is included, attributed to the Journal's unnamed sources (Hitler/Stalin and 'evil' remain unquoted). The claim is narrowed to his public anger, which often concerns his own motives being misread; the text says exclusion can register as betrayal (6) or plain pride, and the record can't separate them (C64, C121). The Type 1 contrast sentence is replaced by a motive-level test that does not depend on what angers him (C89)."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Fixed. 'Staying on conditions' now gives the Journal's own framing ('personal wounds that have never healed, including jockeying over more classic corporate issues such as power and credit') and the Brockman/GPT dispute, including Radford's feeling that his preferences were used 'in a proxy war between senior executives' (C114, re-verified in S13). The text then says the conditions may have been about turf as much as trust, and that the conditional-loyalty argument survives only in weakened form ('guarantees from people, enforced by leaving', C115). The tobacco line is tied to the Journal's brand-strategy framing (C120)."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Fixed. 'He doesn't exempt himself' is replaced by 'in what he proposes, he puts himself inside it', followed by 'Whether he would accept that structure when it cost him control is the part the record leaves open' (C142). The control charge appears once with attribution and context: Kantrowitz's OpenAI-era 'route to control the company altogether' (C134) and Emil Michael's 'a liar' with a 'God complex' who wanted 'to personally control the U.S military', labeled as a counterparty's insult (C135, verified in S18). The final paragraph presents his self-description and the Axios vanguard critique side by side and ends on his own uncertainty, not as an answer to the charge."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Fixed. The causal sentence is now attributed ('By his own account it is why he keeps building, though not his only reason') and names a competing reason from his own essay (keeping AI from authoritarian powers, C72). The heading attributes 'a few years' to him with quotation marks. The Jade Wang FAQ is locked verbatim by the entity-gap packet (protect, do_not_optimize); the body does not repeat its 'lost time' causal claim and keeps her to her on-record quote."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Fixed. 'That is the counterphobic Six in one week' now reads 'That week is consistent with what Enneagram teachers call a counterphobic Six' (C88). The section adds the Pentagon's stated position (no intention of mass surveillance or removing humans from targeting decisions, per Fortune, C123) and the commercial reading (OpenAI and xAI had accepted 'all lawful purposes', so refusing made Anthropic the 'healthy alternative', C124). The Type 1 line stays."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Fixed. The heading 'The brake he set in advance' is replaced with 'Pacing the frontier'. The section names both stated triggers (accelerating capability since 'roughly this summer'; the OpenAI-Hugging Face agent incident, both 'including at Anthropic', C136) and the dated public-pressure context from Axios (C137), and states plainly that he presented the change as events outrunning his expectations, not as his 2025 rule firing (C138)."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Fixed. Before the first OpenAI anecdote the reader now learns, from opened sources only, that he joined OpenAI in 2016, became a research director, helped pioneer RLHF (glossed as a way of steering models toward answers people prefer) and led GPT-3 (C111); scaling is glossed in plain language at Baidu (C110). No career dates the research stage cut as unverified were restored; the dates used (2016) appear in S01 and S13."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Fixed. The section now gives his two stated reasons with the source, then one plain sentence: the reasons echo his 2025 condition, but he presented the change as events outrunning his expectations, not as the rule firing (C138). The heading ('Pacing the frontier') agrees. The Baker exchange and disclosures moved to the father section, where they serve the illness story, and the section ends on a forward-moving sentence about him making the case in public and committing his own company first (C139)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Fixed. Outside the type section and 'The case for Type 5', explicit Five-versus-Six contrasts are now three: the Lex close reading, the end of the anger section, and the disclosure paragraph. The 'goes quiet and routes around the problem' line, the 'A Five protects itself by needing less' ending, the G7 page-history ending and the furniture-section contrast are removed; those sections now end on evidence or a new turn."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Fixed. The litigation paragraph is cut to one sentence that introduces the Pentagon's two parallel designations before saying the courts split (one ruled unlawful, one upheld, each linked), followed by the dated status line."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Fixed. The G7 paragraph no longer refers to an earlier version of the page; it argues the coordination pattern from his 2024 essay and the 2017 WSJ account. The page mentions its prior typing once, in the type section, dated."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Fixed. The neurodivergence note is moved out of the type section to follow the Type 5 habits, no longer asserts what readers ask, and keeps the 'infers none' sentence verbatim (C59)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Fixed. The near-verbatim disclaimer ('This is a reading of public evidence...') is cut. The Five/Six discriminator is stated in motive terms and immediately applied to Amodei-specific acts (staying at OpenAI on Altman's promise, leaving after agreements produced no change, taking people he trusted), plus the line about what a Five with Six leanings would not do (C63, C144, C145), so it could not be pasted into another profile unchanged."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Fixed. Altman is introduced as OpenAI's chief executive, Ilya Sutskever as OpenAI's chief scientist, Jensen Huang as Nvidia chief executive, and Greg Brockman as an OpenAI co-founder. The November 2023 sentence notes that OpenAI's board had just fired Altman. 'Department of War' is glossed as the administration's name for the Pentagon. 'Head types' and 'Five wing' are removed; 'counterphobic' keeps a plain gloss."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Fixed. The type argument now rests first on interpersonal evidence: conditional stay against Altman's promise and exit after agreements failed (C22, C21, C144), leaving with 'people you trust' (C25), equal equity and 'total and complete trust' (C79, C80), the trusted inside versus bad-faith outside (C83) and trust vocabulary (C34). Policy architecture is explicitly labeled non-discriminating ('either can design safeguards, so worry, intellect and institutions can't separate them', C146). The page names what a 5w6 reading would not predict: a Five with Six leanings builds alliances as tools but 'rarely stakes its own staying on another person's word' (C145)."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Fixed. The passage names professional field and milieu as a separate non-type explanation (C91, C132). His pre-Anthropic safety work is confirmed in an opened source (S01: interested in safety at Google, co-authored a paper on AI's potential for bad behavior, joined OpenAI in 2016 and 'got to work on AI safety'; C111). The coordination episodes are labeled 'the Journal's anonymously sourced account', and the 2016 exchange is told 'from Brockman's side'. The nuclear-deterrent reaction is dated to his OpenAI years ('which Wired places at OpenAI', C62). The claim is narrowed to predating Anthropic's commercial interests 'but not his milieu', and the type case is rested on personal choices a milieu does not decide (C133)."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Fixed. The wing clause is cut. The point is stated symmetrically: 'a Six who thinks for a living can keep the same desk, just as a Five can build alliances' (C65). The type case is carried by the interpersonal discriminator. No wing is asserted anywhere."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Fixed. The type section no longer says he builds AI because it is dangerous. The Pentagon paragraph says 'consistent with' and names the observation that separates a Six from a One or an Eight in that week: his lines concerned reliability and who holds the button, not his own rightness or power (C125). Type 8 is addressed with evidence: in November 2023 he shut down the offer to merge the companies with himself as CEO (C32). The 'bullish' confidence is now stated as 'a real cost to the Six reading, whose hallmark is doubt', not rescued by the subtype."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Fixed. The sloppiness stereotype is gone. The Type 1 paragraph adds omitted data with attribution: the op-ed's 'right now and without delay' (C07) and Kantrowitz's 'his strident sense of the way things should be' (C130); the career section adds 'a bit abrasive, sometimes disparaging projects he didn't believe in' (C112). The page then says why Six still leads at motive level: his moral lines usually arrive through reliability and trust rather than his own rightness, and a One rarely stakes its loyalty on other people's promises (C89). The RSP fairness quote and the 2019 'not to denigrate' email were verified but cut for length; two or more data points remain."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Fixed. The Five is stated once in motive terms near the type answer ('seeks security through mastery: understanding enough, and needing little enough, to stand alone'). 'Goes quiet and routes around the problem' is cut. Five-leaning observations are tested against both readings in the Type 5 section: 'the thing that no one else sees' and the self-driven pacing update ('I have become convinced') are said to fit a Five's motive better (C128), and the memo-writing is shown to cut both ways ('flag planting', C129). Sections no longer end on a repeated 'a Five would X' contrast."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Fixed in the form the acceptance test allows. I retried S39 via reader proxy on 2026-10-05; the body is still subscriber-only past the lede, and S40 captions were not retrievable. The article now says next to the discriminator: 'How he handles stress in private is not in the record reviewed here' (C147, unresolved, with a review trigger), and the research task is marked REQUIRED in evidence-edit.json."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Fixed. The sentence is cut. The only remaining statement is 'The 2025 profiles left the disease unnamed', captured as claim C158 citing S01 and S03, with no intent implied."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Fixed. C27, C36, C38 and C67 are now time_sensitive with leadership/IPO review triggers, C101 is time_sensitive, and Daniela's operating role is a new dated, time_sensitive claim (C106). In the prose, the Daniela split carries a year ('Daniela, he said in 2026, runs the company day to day') and the company address is dated ('By 2026 he addressed the whole company every two weeks'). The wing-based rebuttal that leaned on these facts is gone."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Fixed. No source ties the September 2026 shift to his July 2025 condition, so the heading is retitled 'Pacing the frontier' and the body states the essay's actual reasons with dates (C136) and that he presented the change as events outrunning his expectations (C138). C42's inference is corrected to match C93. The takeaway (he made the case in public and committed his own company first, in September 2026) stays true if the pacing commitment later changes; C139 carries a trigger."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Fixed. The line now reads 'The evaluators he promised in September 2026, with their desks and badges, are the same idea with furniture' (C161). C43's review trigger now names every dependent passage (hook C43/C108, C161, description C100, Type 5 FAQ C101, pacing close C139), and C100 and C101 are time_sensitive with the same trigger."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Fixed. The sentence is past tense with an absolute date ('In early October 2026, Quartz, citing Bloomberg, reported that Anthropic was weighing super-voting shares...'). C30's trigger now says how the argument changes: if adopted, keep or strengthen the safe-base-versus-control tension with the adopted structure; if rejected or absent from the S-1, drop the clause and let the board-reporting demand and the control reading carry the point."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Fixed. One page-history note remains, in the type section, with an absolute date ('Until this October 2026 revision, this page typed him as a Five'). The G7 paragraph makes its point from the 2024 essay and the 2017 account without referring to an earlier version."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "Fixed. A new FAQ, 'Why does Dario Amodei keep building AI if he thinks it is dangerous?', answers from the essay's 'Not building ...' line, the father's illness and the July 2025 'obligated to warn' quote, none of which depends on the latest event (C152, C68, C92). The G7 FAQ's first sentence now describes 'a U.S. export-control directive [that] led Anthropic to switch off its newest models for all customers' without requiring the model names."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The lesson of his father's death is that delay has a body count. It explains why he keeps building. It does not explain what he does with the danger of the thing he builds, and that part of him shows up early.",
+      "action": "changed",
+      "reason": "First and third sentences kept verbatim. The second is now attributed and names a competing reason ('By his own account it is why he keeps building, though not his only reason; the pacing essay adds keeping AI from authoritarian powers'), per critic-06 and enneagram-04. The distinctive move, separating the motive for building from the handling of fear, is retained."
+    },
+    {
+      "passage": "These accounts come from unnamed sources in a feud story, and Amodei is not quoted responding to them.",
+      "action": "kept",
+      "reason": "Kept verbatim after the added Pentagon-deal trigger and brand-strategy context (subject-02)."
+    },
+    {
+      "passage": "None of the interviews, essays, profiles and posts reviewed for this page describe any such diagnosis, and this page infers none.",
+      "action": "kept",
+      "reason": "Kept verbatim; moved from the type section to follow the Type 5 habits, with a new lead-in that no longer asserts what readers ask (unfamiliar-06)."
+    },
+    {
+      "passage": "The most serious alternative may not be a type at all.",
+      "action": "kept",
+      "reason": "Kept verbatim. What follows is strengthened, not softened: the essay's own answer, the milieu alternative and Anthropic's denial are added."
+    },
+    {
+      "passage": "From outside, securing a safe base and grabbing control look the same.",
+      "action": "kept",
+      "reason": "Kept verbatim, now closing a fuller control paragraph (OpenAI-era control reading, Michael's charge, super-voting report). The ending now honors it (critic-05)."
+    },
+    {
+      "passage": "He named the problem they would fix: \"we are still the ones choosing what to include and omit.\"",
+      "action": "kept",
+      "reason": "Kept verbatim; the preceding sentences add the competitor-binding clause and redaction carve-out (critic-01)."
+    },
+    {
+      "passage": "The 2026 evaluators, with their desks and badges, are the same idea with furniture.",
+      "action": "changed",
+      "reason": "Now 'The evaluators he promised in September 2026, with their desks and badges, are the same idea with furniture.' The callback is intact; the wording marks the commitment as promised, not in place (future-04)."
+    },
+    {
+      "passage": "Both disclosures arrived as evidence inside arguments. Read as a Five, he spent a reserved fact when the argument needed it. Read as a Six, he offered proof of sincerity to a public he had just described as in a crisis of trust, with his word attached. Both readings fit, so this page does not lean on them.",
+      "action": "changed",
+      "reason": "First and last sentences kept verbatim. The middle two now say only which observation each reading would weigh ('A Five reading would stress that neither appeared in the long 2025 profiles; a Six reading, the word he gave alongside one'), removing 'spent a reserved fact' and any motive attributed to health disclosures (subject-03). The honest non-discrimination test is retained."
+    },
+    {
+      "passage": "Read as a Five, he spent a reserved fact when the argument needed it. Read as a Six, he offered proof of sincerity to a public he had just described as in a crisis of trust, with his word attached. Both readings fit, so this page does not lean on them.",
+      "action": "changed",
+      "reason": "Same change as the fuller passage: both type readings are still applied to the same fact and the page still declines to count it, but neither reading now attributes a motive to the health disclosures (subject-03); 'Both readings fit, so this page does not lean on them.' is kept verbatim."
+    },
+    {
+      "passage": "Read as a Five, that is independence: go build your own system. The words that matter are in the middle. He takes people he trusts, and the suspicion he names is dishonesty.",
+      "action": "changed",
+      "reason": "Removing a context error was necessary: in the transcript he explicitly declined to judge, so 'the suspicion he names is dishonesty' was false (subject-01, fan-01). The close reading is kept, rival reading first: 'Read as a Five, that is independence: go build your own system. What survives his refusal to judge is trust, in the people he takes and the path he wants.'"
+    },
+    {
+      "passage": "A lab colleague, Olivier Marre, gave AFP a cooler picture in 2026",
+      "action": "kept",
+      "reason": "Kept verbatim; it now follows Berry's on-record 'very idealistic' AFP testimony, so the admiring and cooler accounts sit side by side."
+    },
+    {
+      "passage": "This profile is about what he does with the fear that is left over.",
+      "action": "kept",
+      "reason": "Kept verbatim as the opening's last line."
+    },
+    {
+      "passage": "The lesson of his father's death is that delay has a body count.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "Jade Wang, who dated him in the early 2010s, told Big Technology what the timing meant: \"It's the difference between his father most likely dying and most likely living, okay?\"",
+      "action": "kept",
+      "reason": "Kept verbatim, per the entity-gap packet."
+    },
+    {
+      "passage": "That is an odd offer from a chief executive whose company had [confidentially filed for an IPO](https://ca.finance.yahoo.com/news/ai-giant-anthropic-confidentially-files-160453569.html) that June. For Amodei, it was a familiar move. For a decade, when the stakes have risen, he has gone looking for people he can trust and rules that can hold, including rules that bind him.",
+      "action": "changed",
+      "reason": "All three sentences are kept; the first now continues with the pre-IPO credibility reading and Altman's same-day similar pledge (critic-01). The turn from a recent event to a decade-long pattern, which made the passage durable, is intact."
+    },
+    {
+      "passage": "What tips this page toward personality is that the reflexes predate the company: the threat-first reaction to scaling and the coordination proposals the Journal describes came years before Anthropic had a product to protect.",
+      "action": "changed",
+      "reason": "Its discriminating function is kept and made honest: 'Timing answers only part of this. The threat-first reaction to scaling, which Wired places at OpenAI, and the coordination proposals in the Journal's anonymously sourced account predate Anthropic's commercial interests, but not his milieu', followed by the observation neither milieu nor incentive predicts (critic-02, enneagram-02)."
+    },
+    {
+      "passage": "As of early October 2026, Anthropic was \"considering all options, including further review.\"",
+      "action": "kept",
+      "reason": "Kept verbatim after the shortened litigation sentence."
+    },
+    {
+      "passage": "Both readings fit, so this page does not lean on them.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    }
+  ],
+  "prior_blockers": []
+}

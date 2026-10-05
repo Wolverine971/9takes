@@ -1,0 +1,263 @@
+{
+  "target": {
+    "person": "dario-amodei",
+    "type": "6",
+    "units": 20,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27
+    },
+    {
+      "person": "Patrick-Mahomes",
+      "date": "2026-09-08",
+      "units": 43
+    },
+    {
+      "person": "Bill-Burr",
+      "date": "2026-09-07",
+      "units": 32
+    },
+    {
+      "person": "Rebecca-Yarros",
+      "date": "2026-08-31",
+      "units": 28
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 4700,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.008,
+    "max": 0.47
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.47,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [
+        "public evidence",
+        "read of public",
+        "of public evidence"
+      ],
+      "target": "[diagnosis] This is a reading of public evidence",
+      "other": "[diagnosis] That is a reading of public evidence rather than a diagnosis"
+    },
+    {
+      "score": 0.127,
+      "other_person": "Nathan-Fielder",
+      "shared_phrases": [
+        "public record",
+        "the public record"
+      ],
+      "target": "[diagnosis] Across ten years of the public record",
+      "other": "[diagnosis] the public record here is performed and edited."
+    },
+    {
+      "score": 0.087,
+      "other_person": "Rebecca-Yarros",
+      "shared_phrases": [
+        "thi page",
+        "of thi page"
+      ],
+      "target": "[diagnosis] An earlier version of this page typed him as a Five",
+      "other": "[diagnosis] The evidence starts at the top of this page"
+    },
+    {
+      "score": 0.052,
+      "other_person": "inde-navarrette",
+      "shared_phrases": [
+        "pull back"
+      ],
+      "target": "[diagnosis] A Five tends to pull back",
+      "other": "[diagnosis] setting a rule in advance or pulling back."
+    },
+    {
+      "score": 0.05,
+      "other_person": "Rebecca-Yarros",
+      "shared_phrases": [
+        "thi page"
+      ],
+      "target": "[diagnosis] and this page infers none.",
+      "other": "[diagnosis] The evidence starts at the top of this page"
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42,
+      "maxScore": 0.47
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27,
+      "maxScore": 0.127
+    },
+    {
+      "person": "Rebecca-Yarros",
+      "date": "2026-08-31",
+      "units": 28,
+      "maxScore": 0.087
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11,
+      "maxScore": 0.052
+    },
+    {
+      "person": "Bill-Burr",
+      "date": "2026-09-07",
+      "units": 32,
+      "maxScore": 0.033
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39,
+      "maxScore": 0.022
+    },
+    {
+      "person": "Patrick-Mahomes",
+      "date": "2026-09-08",
+      "units": 43,
+      "maxScore": 0.017
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13,
+      "maxScore": 0.017
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.47,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [
+        "public evidence",
+        "read of public",
+        "of public evidence"
+      ],
+      "target": "[diagnosis] This is a reading of public evidence",
+      "other": "[diagnosis] That is a reading of public evidence rather than a diagnosis"
+    },
+    {
+      "score": 0.127,
+      "other_person": "Nathan-Fielder",
+      "shared_phrases": [
+        "public record",
+        "the public record"
+      ],
+      "target": "[diagnosis] Across ten years of the public record",
+      "other": "[diagnosis] the public record here is performed and edited."
+    },
+    {
+      "score": 0.087,
+      "other_person": "Rebecca-Yarros",
+      "shared_phrases": [
+        "thi page",
+        "of thi page"
+      ],
+      "target": "[diagnosis] An earlier version of this page typed him as a Five",
+      "other": "[diagnosis] The evidence starts at the top of this page"
+    },
+    {
+      "score": 0.052,
+      "other_person": "inde-navarrette",
+      "shared_phrases": [
+        "pull back"
+      ],
+      "target": "[diagnosis] A Five tends to pull back",
+      "other": "[diagnosis] setting a rule in advance or pulling back."
+    },
+    {
+      "score": 0.05,
+      "other_person": "Rebecca-Yarros",
+      "shared_phrases": [
+        "thi page"
+      ],
+      "target": "[diagnosis] and this page infers none.",
+      "other": "[diagnosis] The evidence starts at the top of this page"
+    },
+    {
+      "score": 0.033,
+      "other_person": "Bill-Burr",
+      "shared_phrases": [],
+      "target": "[diagnosis] finding something solid to stand on when the ground might move.",
+      "other": "[diagnosis] He described wanting the room to stand down."
+    },
+    {
+      "score": 0.031,
+      "other_person": "Bill-Burr",
+      "shared_phrases": [],
+      "target": "[diagnosis] Amodei keeps making the second move.",
+      "other": "[counter-typing] Burr keeps volunteering the vulnerability on his own show"
+    },
+    {
+      "score": 0.03,
+      "other_person": "Rebecca-Yarros",
+      "shared_phrases": [
+        "thi page"
+      ],
+      "target": "[diagnosis] profiles and posts reviewed for this page describe any such diagnosis",
+      "other": "[diagnosis] The evidence starts at the top of this page"
+    },
+    {
+      "score": 0.028,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] Amodei keeps making the second move.",
+      "other": "[diagnosis] The second half is what he does with an authority he has stopped trusting."
+    },
+    {
+      "score": 0.027,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a reading of public evidence",
+      "other": "[diagnosis] \"you can basically run it on your own terms.\" As procurement advice this is unremarkable."
+    },
+    {
+      "score": 0.026,
+      "other_person": "Nathan-Fielder",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Five tends to pull back",
+      "other": "[diagnosis] A Five's preparation tends toward self-sufficiency and needs no witness."
+    },
+    {
+      "score": 0.024,
+      "other_person": "Bill-Burr",
+      "shared_phrases": [],
+      "target": "[diagnosis] mainly on his solitary writing and protected time",
+      "other": "[counter-typing] Burr keeps volunteering the vulnerability on his own show"
+    }
+  ]
+}

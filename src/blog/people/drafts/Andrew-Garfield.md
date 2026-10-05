@@ -7,12 +7,12 @@ description: >-
   taught him he wasn't special. Why Type 4 fits, and where Types 3 and 9 push
   back.
 author: DJ Wayne
-date: '2026-06-09'
+date: '2026-10-05'
 loc: 'https://9takes.com/personality-analysis/Andrew-Garfield'
-lastmod: '2026-06-09'
+lastmod: '2026-10-05'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type:
   - movieStar

@@ -1,0 +1,1284 @@
+{
+  "schema_version": 3,
+  "content_sha256": "deb9b7711cf30a58cdf9f490c0972f213490437d65982abdae93186fcb5588e4",
+  "evidence_sha256": "8de7576c264a2cd3037b281a1ac93d55a50dd7e0e8800ee9f51b70f904e0c4fb",
+  "status": "insufficient_evidence",
+  "findings": [
+    {
+      "id": "verify2-01",
+      "severity": "minor",
+      "passage": "A month after an investor asked him to sound more positive, he made the case for slowing down in public and committed his own company first.",
+      "problem": "Coverage gap in the pacing timeline. Fortune (Beatrice Nolan, July 29, 2026, https://fortune.com/2026/07/29/anthropic-deepmind-openai-meta-washington-ai-slowdown-plan/, opened this session) reports that the cross-lab 'Pacing the Frontier' statement, published Tuesday July 28, 2026, was signed by Amodei and several Anthropic co-founders. It asks the U.S. government to help build tools to slow AI development if that becomes necessary. His Aug 15 X reply to Baker (S10, opened in research) defends 'the \"Pacing the Frontier\" letter'. The section jumps from July 2025 to September 2026, so this sentence can read as his first public pacing stance. The Type 5 section's 'His 2026 turn on pacing came as his own model updating' (C128) also omits that the turn first surfaced as a co-signed collective statement to government. Nothing stated is false; the September essay was his first call to slow now.",
+      "acceptance_test": "The evidence record adds the July 28, 2026 statement with an opened source. The pacing section gets one dated clause placing it between the July 2025 condition and the September 2026 essay. The investor sentence no longer implies the essay was his first public pacing position, and C128's Five-leaning reading is re-tested against the co-signed statement."
+    },
+    {
+      "id": "verify2-02",
+      "severity": "minor",
+      "passage": "Greg Diamos, who hired him, told AFP",
+      "problem": "S01 says Ng reached out to Amodei and Diamos, 'an early member of the team', 'encouraged the team to hire him'. AFP (S14) says Diamos reviewed his application and code. 'Who hired him' makes him the hiring decision-maker.",
+      "acceptance_test": "Reword to what the sources support, e.g., 'Greg Diamos, an early Baidu team member who pushed to hire him, told AFP'."
+    },
+    {
+      "id": "verify2-03",
+      "severity": "minor",
+      "passage": "OpenAI and xAI had accepted terms allowing \"all lawful purposes,\" so refusing them made Anthropic the Journal's \"healthy alternative.\"",
+      "problem": "The clause rests on Fortune's Feb 27, 2026 report (S18). AP (S19, same day) reports that hours later Altman announced a classified Pentagon deal and said it enshrined prohibitions on domestic mass surveillance and required human responsibility for the use of force. Undated, the clause can leave readers thinking OpenAI's eventual terms had none of Anthropic's limits.",
+      "acceptance_test": "Date the clause to Fortune's Feb 27 report (e.g., 'as Fortune reported that day') or add one clause noting Altman's claim about OpenAI's deal; the commercial reading can stay."
+    }
+  ],
+  "research_tasks": [
+    "VERIFY (incomplete at the stage turn limit): re-open S36 (Quartz via finance.yahoo.com) and confirm it reports, in early October 2026, that Anthropic was weighing super-voting shares that would give Amodei and his co-founders more control after an IPO, and check whether that sentence is attributed to Bloomberg (C30, C142, C162). The page returned HTTP 200 on 2026-10-05.",
+    "VERIFY: re-open S34 (Reuters via ca.finance.yahoo.com) and confirm Anthropic said on June 1, 2026 that it had confidentially filed for a U.S. IPO (C56, C153, hook link text 'confidentially filed for an IPO that June').",
+    "VERIFY: re-open S24 (anthropic.com/news/fable-mythos-access, June 12, 2026) and confirm the 5:21 p.m. receipt time and the scope 'any foreign national ... including foreign national Anthropic employees' behind 'barring every foreign national, including Anthropic's own foreign-national employees' (C53, verify-02).",
+    "VERIFY: re-open S25 (Bloomberg Law summary of the FT, June 17, 2026) and confirm the attribution behind 'According to the Financial Times, citing people familiar with the discussions', plus 'sympathized with efforts to keep AI from the wrong hands' and 'democratic nations should come together' (C54, C103).",
+    "VERIFY (low stakes; claims independently supported): re-open S38 (60 Minutes, six other employees), S45 (Business Insider, San Francisco birth), S49 (sofosbuvir U.S. approval 2013) and S50 (TechCrunch, one direct report/chief of staff) and confirm context for C26, C67, C79, C01, C70, C104, C09, C38 and C147.",
+    "COVERAGE (finding verify2-01): add the July 28, 2026 'Pacing the Frontier' statement Amodei co-signed (Fortune, July 29, 2026: https://fortune.com/2026/07/29/anthropic-deepmind-openai-meta-washington-ai-slowdown-plan/) and his Aug 15 defense of it (S10) to the evidence record, then date it in the pacing section.",
+    "CARRIED FORWARD (REQUIRED, open): read the S39 Bloomberg body past the lede and the S40 'Trust' and 'Dario's writing style' chapters for his stated stress response (C147). On 2026-10-05 the S39 live page served a robot check to this verifier.",
+    "NOTE: S19 (AP), S41 and S42 (Axios) returned HTTP 403 on 2026-10-05 to curl, r.jina.ai and WebFetch, and S26 (WaPo) and S39 (Bloomberg) also blocked live fetches. This verification read the research stage's 2026-10-04 r.jina.ai captures. If a live copy is required, corroborate S41 via the primary X posts (x.com/sama/status/2098811563415150910; x.com/chamath/status/2098780471966802037)."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "S03 (Wired, 2025-03-28) gives 1983, the parents' 1970s move to San Francisco and the Mission District; S44's infobox lists San Francisco as birthplace. Birth year only; no full date used."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Verbatim in S03, said to Wired about his childhood fixation on math."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "Verbatim in the S01 profile ('They gave me a sense of right and wrong...' 'imbuing a strong sense of responsibility'), attributed to Kantrowitz/Big Technology as the article does."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "S01 quotes the March 3, 2003 California Tech op-ed with both phrases verbatim; the op-ed itself was not opened, and the article attributes it through Kantrowitz."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "S01: father 'long fought' an illness and died in 2006; he shifted his Princeton graduate studies from theoretical physics. S02 [44:57]: arrived wanting to be a theoretical physicist, cosmology for the first months, father died around then."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "S02 [45:11] verbatim 'Maybe three or four years after he died, the cure rate ... went from 50% to roughly 95%'; S01 says 'within four years'. Presented as his estimate. S49 (2013 approval, alternative field only) not re-read this session."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 with the same split attribution."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "Verbatim in S01; Wang identified as having dated him in the early 2010s. Body limited to her on-record quote."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "Verbatim in S01 including the bracketed '[earlier]'; S02 [00:01] has the unedited 'a few years later'. The article quotes the profile version, not a blend."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "S01 and S02 both have 'felt to me like the only technology that could kind of bridge that gap'."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "Verbatim in S14 (AFP via France 24, Oct 2, 2026), Marre identified as having worked with him at Princeton."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "qualified",
+      "reason": "Diamos quotes are verbatim in S14, and S01 reports Baidu's 'turf battles' and collapse. 'Who hired him' overstates slightly: S01 says Diamos 'encouraged the team to hire him' after Ng reached out (finding verify2-02)."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "S13: early 2016 group-house exchange; 'it would be better to tell the government first' verbatim; the Journal frames what 'Brockman took away from the exchange'. Article attributes it as told from Brockman's side."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "S13: fall 2017 ethics and policy adviser's presentation; 'international coordination regime for advanced AI' verbatim (the article drops 'something like' outside the quotation)."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "Verbatim in S03, with OpenAI's non-comment and 'safety has been a constant' stance in the same paragraph."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "Verbatim in S13 ('Conflicting promises' section, early 2018); attributed to the Journal and labeled anonymously sourced in the type section."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "Verbatim in S13 ('Fight after fight'); S14 Marre and S01 Berry quotes verified separately."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "S06 (01:33:01-01:33:52) verbatim, including 'You might think they're not doing it the right way' and 'Who knows? Maybe you're right, maybe you're not.' 'Declined to judge anyone' is a fair paraphrase of the frame."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "S03: 'At the end of 2020, he and six other OpenAI employees, including Daniela, quit' and 'Within a few weeks, a dozen more would bolt'. S38 not re-read this session; S03 suffices."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "S05 verbatim: 'operationally execute' vs 'see the most important thing or the thing that no one else sees ... my job is the second and Daniela's job is the first.' Marked time_sensitive."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "unsupported",
+      "reason": "Not verified this session, not refuted. S36 (Quartz via Yahoo Finance) returned HTTP 200 on 2026-10-05, but its text was not checked before the stage turn limit, so the super-voting report and its attribution to Quartz alone are unconfirmed. See research_tasks."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "S01 verbatim, including that the Slack message was 'obtained by Wired'."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "S03: board members 'asked if he would consider merging the companies, with him as CEO. Amodei shut down the discussion', after the board 'voted to fire' Altman."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "S06 (01:00:35) describes the RSP's 'if-then structure'; (01:20:58-01:22:07) 'our RSP is checked by our long-term benefit trust'. S03 describes the trust as people 'with no financial stake in the company'."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "Verbatim in S01, followed in the source by 'no matter how much you're driving forward the company technically'; the omission does not change meaning."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "S01: Huang quote, 'most outrageous lie', the 'only one to build the technology' denial and 'bad faith distortion' are verbatim in that order; dated 2025 by the July 2025 profile ('recently')."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "S03: 'nearly 14,000-word manifesto' written 'over the course of two frenzied days'. S04: 'I wrote it over winter break' about the recent essay. The fetched Adolescence text is longer than the MoLG text."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "S04 verbatim: 'I probably spend a third, maybe 40%, of my time making sure the culture of Anthropic is good.'"
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "S39 (research-stage capture; live page shows a robot check): 'one direct report' and 'protects nearly all of his time for big-picture conversations, organizational culture, and giving input on research direction and strategy, rather than managing people in senior leadership roles.' S50 not re-read this session."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "S07 'Avoid grandiosity' paragraph, verbatim."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "S02 (~06:11) and S01: 'I am indeed one of the most bullish about AI capabilities improving very fast.'"
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "S09 verbatim: 'over the last few months, I have become convinced', 'We must slow the pace...', 'pacing does not mean halting model training or technical progress'. Date is corroborated by S37 and S41 (essay published Saturday, Sept 12)."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "S09: 'we are still the ones choosing what to include and omit' in the Transparency section, explaining what embedded evaluators would change. Commitment is stated as intended ('in the near future'), as the article now says."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "S37 verbatim, answering CBS's question about personal responsibility."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "qualified",
+      "reason": "S13 verbatim for 'mendacious' and 'a pattern of behavior that I've seen often from Sam Altman'. The Journal puts Altman's classified-deal announcement and the Slack post in the same 'recent weeks' passage. 'When ... Amodei wrote' is a fair reading of that juxtaposition, not an explicit causal statement."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "S17 (Feb 26, 2026, statement from Dario Amodei): 'not reliable enough to power fully autonomous weapons' and 'we cannot in good conscience accede to their request' verbatim; S16 confirms the 'two red lines'."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "S19 (AP, Feb 27, 2026; read from the research-stage capture because the live page returns 403): the administration 'on Friday ordered all U.S. agencies to stop using Anthropic's artificial intelligence technology', and Hegseth 'deemed the company a \"supply chain risk\"'. Feb 27, 2026 was a Friday, the day after the statement."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "S20: sued Monday, March 9, 2026 (N.D. Cal.). S22: Judge Rita Lin ruled the designation unlawful on Aug 27, 2026. S23: 2-1 D.C. Circuit panel upheld on Sept 25, 2026; 'two distinct designations'; spokesperson quote 'considering all options, including further review' verbatim."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "qualified",
+      "reason": "Quoted wording in S24 ('must abruptly disable Fable 5 and Mythos 5 for all our customers'; 'a statutory process that is transparent, fair, clear, and grounded in technical facts') matched verbatim in this session's fetch. The 5:21 p.m. receipt time and the foreign-national scope were not re-read before the turn limit."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "qualified",
+      "reason": "S25 contains 'resist the temptation to splinter' verbatim; S26 (research-stage capture) gives 'a working lunch Wednesday with Group of Seven leaders during the G-7 summit in Evian-les-Bains, France' (June 17, 2026 was a Wednesday, five days after June 12). The FT 'people familiar with the discussions' attribution in S25 was not re-read this session."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "unsupported",
+      "reason": "Not verified this session, not refuted. S34 (Reuters via Yahoo) returned HTTP 200 on 2026-10-05, but the June 1, 2026 confidential-filing statement was not checked before the turn limit. See research_tasks."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "S11 (fxtwitter API: @DarioAmodei, Sat Aug 15 2026 22:44 UTC, post 2/2): 'I think it is fundamentally a crisis of trust' and '... as loudly as possible, you have my word on that' verbatim."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "S09 verbatim: 'I feel the urgency personally. My own father died ... and I myself survived an early-stage cancer that would not have been treatable even fifty years ago.' No further health detail is added."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "qualified",
+      "reason": "An absence statement scoped to 'reviewed for this page'. None of the S01, S03, S04, S05, S06, S09, S11 or S14 passages read this session describe a diagnosis. This session did not run a full term sweep, so the claim rests on the scope limit it states."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "S41 (Axios, Sept 12, 2026; research-stage capture, live page 403): Palihapitiya's line verbatim, under 'Amodei's critics suggested the essay was as much about market position as safety.'"
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "S03: 'At OpenAI ... he wrote his \"big blob\" paper' and the nuclear-deterrent quote verbatim. The article dates it to OpenAI."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "Labeled typology interpretation stated in motive terms, and applied in the next paragraph to sourced acts (S03, S06, S13)."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Interpretation over verified items: public anger (S01 'doomer' and Huang passages) and the Journal's 'left out of the loop' (S13). It concedes that exclusion may read as pride, and the record cannot separate the two."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "Symmetric interpretation, no wing claim; desk-habit facts verified in S39 capture, S04, S05, S03."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "qualified",
+      "reason": "The disclosure facts are verified (S11 Aug 15 post; S09 essay). 'Neither appeared in the long 2025 profiles' is confirmed for the disease name (S01 'rare illness', S03 'took ill'). Absence of the cancer from S01/S03 was not separately swept this session. The page declines to lean on either reading."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "S05 (seven co-founders), S17 (statement under his name), S14/S18 (CEO). Time_sensitive with an IPO/leadership trigger. S38 not re-read."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "S09 verbatim, in the paragraph on the 'duality of risk and benefit'."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "S03 verbatim: parents' names, 1970s move, 'a tiny town near the island of Elba', mother a Chicago-born project manager for libraries."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "S11 verbatim: 'I lost my father to Hepatitis C only a few years before the development of direct-acting antivirals (sofosbuvir), which cure 95% of patients and probably would have cured him.' The reply is to Gavin Baker (S12)."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "Attributed interpretation; S09 gives the authoritarian-powers reason verbatim, and S01/S02 give his father-urgency account."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "S01: 'I think internally, he was kind of a proud person,' Berry says. The article quotes only 'proud person' and hedges ('Three accounts suggest')."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "S01: co-invented 'a new, better sensor' in Berry's retina lab; dissertation won the Hertz Thesis Prize. S13: 'doctorate in biophysics'. S02: cosmology at the start of Princeton."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "S14 verbatim, both sentences."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "Interpretation narrowed to Baidu (S14 Diamos: disagreement, then 'not worth continuing') and OpenAI (S03, S13). AFP also says he 'later left OpenAI as well over strategy'."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "S13 ('The final split'): 'Dario said he would accept nothing less than reporting directly to the board' when Altman asked him to stay."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "S05 verbatim: seven-cofounder advice and 'even more negativity on my decision to give everyone the same amount of equity'."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "S05: Collison raises 'a long-running and deep trust relationship'; Amodei: 'Yeah, yeah, where you have just total and complete trust. I mean, I think even beyond that.' 'Raised the stakes' is fair."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "S06 (01:20:58-01:22:07) verbatim; 'us as an industry' included."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "S42 (Axios, Sept 28, 2026; research-stage capture, live 403): 'His penchant for being plain-spoken'."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "S04 verbatim; the 'bad faith' clause precedes the 'company of people who you trust' sentence in the same passage."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "S15 (CBS full transcript, Feb 28, 2026) verbatim: 'who is holding the button and who can say no' (accountability for autonomous fleets) and 'Disagreeing with the government is the most American thing in the world. And we are patriots.'"
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "S15 verbatim in his closing answer."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "Hedged interpretation ('consistent with') of verified S17/S15/S19 facts, with the Type 1 and commercial alternatives in the same section."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in verified S17 ('not reliable enough'), S15 ('who is holding the button'), S01 ('trustworthy people') and S13 (the stay condition)."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "S14 verbatim ('Others describe a skilled operator...')."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with S03 (reaction at OpenAI) and S13 (2016/2017 episodes, Karnofsky/EA context); the limit 'but not his milieu' is stated."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "S02 [~03:46] verbatim, July 30, 2025."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "S02 verbatim; the source continues 'The reason I'm warning about the risk is so that we don't have to slow down.'"
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "S37 verbatim, his response to the former Anthropic researcher's warning."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "S12 (fxtwitter API, Aug 15 2026 12:59 UTC): 'He is about to be the CEO of one of the most important public companies ... he should make an effort to be a more positive advocate for his own industry'; the paraphrase is fair."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "S37 verbatim, answering whether he would give the technology to government. The article omits 'I don't know about handing over', a hedge that does not change the cited meaning."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "S37 re-read in full: asked whether the U.S. should slow down if China would not, he called it 'the toughest dilemma'; CBS says he 'looks to the nuclear arms agreements with the former Soviet Union as a potential model'; 'speed limit on the rate of AI progress' and 'And honestly, I don't know if it's possible, but we should try' verbatim. The doubt is now attached to the right proposal. 'Would bind his company' is the page's reasonable inference."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "Description matches the body and S09 (evaluator commitment); time_sensitive trigger present."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "qualified",
+      "reason": "FAQ components verified: one direct report and time protection (S39 capture), long essays (S03, S04), WSJ stay account (S13), Wired exit account (S03), 'people you trust' (S06). 'Fit either type' is interpretation."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "S03 for the 'opposite direction' account, six colleagues and a dozen more within weeks; founding 2021 consistent with S03's January 2021 launch."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "qualified",
+      "reason": "Verified: S24 quote on disabling models for all customers, S26 setting, S07 coalition of democracies, S13 2017 adviser. The S25 FT attribution wording was not re-read this session."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "S03 (Riccardo, leather craftsman, near Elba), S01 (2006, long illness), S11 (hepatitis C, quotes verbatim with corrected marks), S02 (physics to biology to AI)."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "S01 Wang quote; 'probably' paraphrases her 'most likely'. FAQ held verbatim per the entity-gap packet."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "S04 verbatim: 'It's me, it's Daniela, who runs the company day to day...' Dated 2026 in prose; time_sensitive."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "S08 (January 2026) verbatim for both phrases; the national-security sentence concerns the 'country of geniuses' scenario, fairly glossed as 'powerful AI'."
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "S09 verbatim: 'unilaterally committing to (and calls on governments to require other frontier companies to match)'; desks, badges and laptops; publish 'without editorial control by Anthropic'; 'narrow ability to redact'."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "S41 (capture): 'OpenAI's Altman later posted that \"I agree with Dario that we need to pace the frontier,\" and said his company would also give access to external evaluators', in the same-day story."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "S01 verbatim 'I saw these very smooth trends'; scaling-laws gloss matches S01's description."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "S01: ten months at Google Brain, safety interest and 'paper on its potential for bad behavior', joined OpenAI 2016, research director, RLHF 'something Amodei helped pioneer', GPT-3 with '50-60% of the entire company's compute'."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "S01 verbatim; attributed to 'some colleagues'."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "S01: 'Amodei, to some, was also too focused on maintaining secrecy around the technology's potential and collaborating with the government to address it.'"
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "S13 verbatim ('personal wounds...'; Radford 'mortified' and the 'proxy war' clause). Radford is described as having laid the groundwork for the GPT series, with Daniela as co-lead."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "Interpretation that concedes the turf reading; consistent with S13."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "S06 verbatim: 'people will copy it' (01:33:52) and 'that builds trust in the organization and in individuals' (01:32:07)."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "S03: 'Amodei realized he should have left sooner.' The 'learned to leave sooner' line is labeled as the page's reading."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "Interpretation over the verified S06 passage; no longer misstates 'dishonest' as his suspicion."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "S13 verbatim, followed by 'This brand strategy is known internally as one that casts Anthropic as the \"healthy alternative\"'."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "S13 verbatim (2018 Obama slides)."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "S17 verbatim: 'the Department of War, not private companies, makes military decisions' and 'Partially autonomous weapons ... are vital to the defense of democracy.'"
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "S18 verbatim: 'publicly stated it has no intention of conducting mass surveillance or removing humans from weapons-targeting decisions'."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "qualified",
+      "reason": "S18 (Feb 27, 2026): 'Rivals OpenAI and xAI have agreed to Pentagon contracts that allow their models to be used for all lawful purposes'; S13 'healthy alternative'. AP (S19) reports that hours later Altman said OpenAI's new classified deal enshrined the same two prohibitions. The article's undated pluperfect leaves that out (finding verify2-03)."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "Interpretation over verified S17/S15 wording."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "S07 'entente strategy' passage on blocking adversaries' access to chips; S24 fair-process quote verified verbatim. The parallel is to the tool, as the evidence notes."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "S07 'coalition of democracies' verified; S13 2017 adviser verified."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "qualified",
+      "reason": "S05 and S09 wording verified. But the record omits that on July 28, 2026 he and several co-founders signed the cross-lab 'Pacing the Frontier' statement (Fortune, July 29, 2026), and his Aug 15 reply (S10) defends that letter. The pacing turn was not only a solitary model update (finding verify2-01)."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "Interpretation over S01's 'flag planting and heavy handed'."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "S01 verbatim (Princeton paragraph)."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "S09's visible text contains no 'open source' or 'open-weight' mention; 'regulatory capture' and 'race to the top' verbatim."
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "supported",
+      "reason": "S13: Karnofsky, Daniela's fiancé, founded an EA philanthropy and argued with Dario in the early-2016 exchange. S14: 'considered a leading figure in the effective altruism and rationalism movements' and Anthropic's statement, both verbatim."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "Interpretation, labeled as the page's judgment."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "S01 verbatim."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "S18 verbatim ('a liar', 'God complex', 'to personally control the U.S military')."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "S09 verbatim for both concerns and both 'including at Anthropic' admissions."
+    },
+    {
+      "claim_id": "C137",
+      "verdict": "supported",
+      "reason": "S41 (capture) verbatim: 'amid a sudden surge of public and congressional outrage'."
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with S09's stated reasons and S37's 'I don't think I fully just appreciated...'."
+    },
+    {
+      "claim_id": "C139",
+      "verdict": "qualified",
+      "reason": "Baker's Aug 15 request (S12) and the Sept 12 essay (S09) are verified, and the sentence is literally accurate. But it omits that he had publicly signed the July 28, 2026 'Pacing the Frontier' statement before Baker's request, so it can read as a first public stance (finding verify2-01)."
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "supported",
+      "reason": "S08 verbatim (section '32 AI companies')."
+    },
+    {
+      "claim_id": "C141",
+      "verdict": "supported",
+      "reason": "S42 (capture) verbatim."
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "qualified",
+      "reason": "Interpretation consistent with verified S37/S08/S13; the S36 super-voting component is unverified this session (see C30)."
+    },
+    {
+      "claim_id": "C143",
+      "verdict": "supported",
+      "reason": "S14 verbatim."
+    },
+    {
+      "claim_id": "C144",
+      "verdict": "supported",
+      "reason": "Interpretation ordering verified S03 (own account) before S13 (anonymous), with S06 'people you trust'."
+    },
+    {
+      "claim_id": "C145",
+      "verdict": "supported",
+      "reason": "Labeled 'In Enneagram theory'; a typology generalization, not a source claim."
+    },
+    {
+      "claim_id": "C146",
+      "verdict": "supported",
+      "reason": "Interpretation, stated as a limit."
+    },
+    {
+      "claim_id": "C147",
+      "verdict": "qualified",
+      "reason": "Limitation statement. The S39 capture read this session shows the org-chart sentences only. S50 and the S39 body (paywalled) were not read; S40 is unavailable. The task stays open."
+    },
+    {
+      "claim_id": "C152",
+      "verdict": "supported",
+      "reason": "S09 'Not building...' verbatim, S01 2006 death, S02 'obligated to warn' verbatim."
+    },
+    {
+      "claim_id": "C153",
+      "verdict": "qualified",
+      "reason": "Labeled reading; the IPO filing it relies on (S34) was not re-verified this session (see C56)."
+    },
+    {
+      "claim_id": "C158",
+      "verdict": "supported",
+      "reason": "S01 'a rare illness' and S03 'took ill' leave the disease unnamed in the passages read; no intent implied."
+    },
+    {
+      "claim_id": "C161",
+      "verdict": "supported",
+      "reason": "Interpretation; the commitment is described as promised, matching S09's 'intends to invite ... in the near future'."
+    },
+    {
+      "claim_id": "C162",
+      "verdict": "supported",
+      "reason": "Interpretation stating the tension; components verified in S13, S01 and S18, with S36 pending (C30)."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wired, datePublished 2025-03-28, fetched live: parents/Elba/1983/Mission District; 'obsessed' quote; 'big blob' paper and nuclear-deterrent reaction at OpenAI; 'opposite direction' and listen-and-agree; 'should have left sooner'; six other employees and a dozen more; long-term benefit trust; Nov 2023 merger offer; 'two frenzied days', 14,000 words."
+    },
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Big Technology profile, datePublished 2025-07-29, fetched live 2026-10-05: parents and 'sense of right and wrong'; 2003 op-ed; 2006 death, 'rare illness', 'within four years'; Jade Wang; 'I get really angry ... [earlier]'; Berry 'proud person'; sensor/Hertz/'strident'; Stanford postdoc; Baidu 'smooth trends' and turf battles; Google Brain ten months; OpenAI 2016, research director, RLHF, GPT-3 '50-60%'; 'flag planting', government collaboration, 'abrasive'; 'trustworthy people'; 'route to control'; Huang exchange; 'most bullish'; Gulf Slack 'obtained by Wired'."
+    },
+    {
+      "source_id": "S45",
+      "opened": true,
+      "context_matches": false,
+      "locator": "Business Insider: fetched live 2026-10-05 (HTTP 200) but not read before the stage turn limit; C01/C70/C104 are independently supported by S03."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "pod.wave.co transcript of Big Technology Podcast, July 30, 2025, fetched live: [00:01] doomer; ~[03:46] 'such a good world'; ~[06:11] 'most bullish'; [44:57]-[45:36] cosmology, father, 'three or four years', cure rate; 'few years ahead in models' condition."
+    },
+    {
+      "source_id": "S49",
+      "opened": true,
+      "context_matches": false,
+      "locator": "Wikipedia 'Sofosbuvir': fetched live 2026-10-05 (HTTP 200) but not read before the stage turn limit; used only in alternative fields (2013 approval)."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "AFP via France 24, 2026-10-02, fetched live 2026-10-05 with a curl user agent (browser UA returned 403): ''Idealistic' or operator?' section (Berry, Marre); EA/rationalism and Anthropic statement; 'Internal battle' section (Diamos quotes)."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "WSJ (Hagey and Jin) syndicated on tovima.com, dated 28.03.2026, fetched live: opening (Hitler/Stalin, 'evil', tobacco, 'healthy alternative', 'personal wounds'); 'mendacious' Slack paragraph; Delano Avenue house/Karnofsky; early-2016 exchange; fall 2017 adviser; 'Conflicting promises' (2018); GPT/Radford dispute; 'Fight after fight' (recognition, Obama); 'The final split' (board-only demand)."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Lex Fridman #452 transcript, fetched live: 01:00:35 'if-then structure'; 01:20:58-01:22:07 voluntary plans, 'checked by our long-term benefit trust', 'us as an industry'; 01:32:07-01:33:52 exit answer with agnostic frame, 'builds trust', 'people will copy it'."
+    },
+    {
+      "source_id": "S38",
+      "opened": true,
+      "context_matches": false,
+      "locator": "CBS 60 Minutes, Nov 16, 2025: fetched live 2026-10-05 (HTTP 200) but not read before the stage turn limit; claims citing it are independently supported by S03/S05."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cheeky Pint transcript, fetched live; episode page dated 'Aug 06, 25': Daniela operational vs 'the thing that no one else sees'; 'total and complete trust'; seven cofounders and equal-equity negativity."
+    },
+    {
+      "source_id": "S36",
+      "opened": true,
+      "context_matches": false,
+      "locator": "Quartz via finance.yahoo.com: fetched live 2026-10-05 (HTTP 200) but not read before the stage turn limit; the super-voting report and its attribution are unconfirmed this session."
+    },
+    {
+      "source_id": "S44",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia raw wikitext, fetched live 2026-10-05: infobox birth_place San Francisco; postdoctoral scholar at Stanford School of Medicine; 2011 thesis; Baidu Nov 2014-Oct 2015."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Dwarkesh Podcast transcript, datePublished 2026-02-13, fetched live: 'wrote it over winter break'; 'a third, maybe 40%'; 'Daniela, who runs the company day to day'; 'bad faith' / 'entirely unfiltered' passage."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/DarioAmodei/status/2088758819304443967 read via api.fxtwitter.com on 2026-10-05: post 2/2, Sat Aug 15 2026 22:44:44 UTC; hepatitis C sentence, 'fundamentally a crisis of trust', 'you have my word on that'."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "darioamodei.com, 'The Adolescence of Technology', page dated January 2026, fetched live: 'terrifies me'; national-security-report sentence; '32 AI companies' section 'somewhat awkward'."
+    },
+    {
+      "source_id": "S39",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Bloomberg newsletter, 2026-06-11; the live page served a robot check on 2026-10-05, so this was read from the research stage's r.jina.ai capture of 2026-10-04: 'one direct report at the artificial intelligence company' and the 'protects nearly all of his time ...' sentence. The body past the lede (stress) was not available."
+    },
+    {
+      "source_id": "S50",
+      "opened": true,
+      "context_matches": false,
+      "locator": "TechCrunch, June 10, 2026: fetched live 2026-10-05 (HTTP 200) but not read before the stage turn limit; C38 is supported by the S39 capture."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "darioamodei.com, 'Machines of Loving Grace', page dated October 2024, fetched live: 'Avoid grandiosity' paragraph; 'entente strategy' / 'coalition of democracies' / chips passage."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "darioamodei.com/post/we-must-pace-the-frontier, fetched live: duality paragraph ('Not building ...', 'race to the top', 'regulatory capture'); 'over the last few months, I have become convinced'; two concerns with 'including at Anthropic'; 'pacing does not mean halting'; first step 'unilaterally committing to (...)'; embedded review team; publish without editorial control; narrow redaction; Transparency 'choosing what to include and omit'; 'I feel the urgency personally'. No 'open source' in visible text."
+    },
+    {
+      "source_id": "S41",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Axios, Sept 12, 2026; live page returned HTTP 403 to curl, r.jina.ai and WebFetch on 2026-10-05; read from the research stage's r.jina.ai capture of 2026-10-04: Altman 'later posted' and evaluator access; 'very public resignation'; 'sudden surge of public and congressional outrage'; 'gone back and forth'; Palihapitiya quote."
+    },
+    {
+      "source_id": "S37",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CBS News Sunday Morning (Jo Ling Kent), updated Sept 14, 2026, interview the day before, fetched live: answer sequence 'fully just appreciated' -> evaluators -> kill switch -> China/'toughest dilemma'/nuclear arms model/'speed limit' -> 'I'm uncomfortable' -> joint governance."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "anthropic.com/news/statement-department-of-war, 'Statement from Dario Amodei', Feb 26, 2026, fetched live: deferral on military decisions; 'vital to the defense of democracy'; 'not reliable enough'; 'cannot in good conscience accede'."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CBS News Sunday Morning piece, fetched live: 'We have these two red lines' and the two named uses."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "AP, 'Trump orders US agencies to stop using Anthropic technology...', published 2026-02-27; live page returned HTTP 403 to curl, r.jina.ai and WebFetch on 2026-10-05; read from the research stage's r.jina.ai capture of 2026-10-04: lede (Friday order), Hegseth 'supply chain risk', OpenAI deal section."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CNBC, Mar 9, 2026, fetched live: 'Anthropic sued the Trump administration on Monday' in N.D. Cal."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CNN (Hadas Gold), Aug 27, 2026, fetched live: Judge Rita Lin ruled the supply-chain-risk label unlawful."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CNBC, Sep 25, 2026, fetched live: 2-1 D.C. Circuit panel upheld; spokesperson 'considering all options, including further review'; 'The DOD relied on two distinct designations'."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": false,
+      "locator": "anthropic.com/news/fable-mythos-access: fetched live 2026-10-05 (HTTP 200); quoted wording cited by the article matched verbatim, but surrounding context was not re-read before the stage turn limit (the 5:21 p.m. time and foreign-national scope are unconfirmed)."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": false,
+      "locator": "Bloomberg Law summary of the FT, June 17, 2026: fetched live 2026-10-05 (HTTP 200); quoted wording cited by the article matched verbatim, but surrounding context was not re-read before the stage turn limit (the FT sourcing attribution is unconfirmed)."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Washington Post, June 17, 2026; live page returned HTTP 403 to curl, r.jina.ai and WebFetch on 2026-10-05; read from the research stage's r.jina.ai capture of 2026-10-04: 'a working lunch Wednesday with Group of Seven leaders during the G-7 summit in Evian-les-Bains, France'. Used only for the setting."
+    },
+    {
+      "source_id": "S34",
+      "opened": true,
+      "context_matches": false,
+      "locator": "Reuters via ca.finance.yahoo.com: fetched live 2026-10-05 (HTTP 200) but not read before the stage turn limit; the June 1, 2026 confidential IPO filing is unconfirmed this session."
+    },
+    {
+      "source_id": "S42",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Axios, 'AI's man of the moment', Sept 28, 2026; live page returned HTTP 403 to curl, r.jina.ai and WebFetch on 2026-10-05; read from the research stage's r.jina.ai capture of 2026-10-04: 'penchant for being plain-spoken'; SNL/'vanguard' sentence."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CBS News full transcript, February 28, 2026, fetched live: accountability/'holding the button' answer; 'Disagreeing with the government ... we are patriots'; 'principle of standing up for what's right'."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/GavinSBaker/status/2088611616577253502 read via api.fxtwitter.com: Aug 15 2026 12:59:48 UTC; 'more positive advocate for his own industry'; 'Dario makes all of these arguments in good faith'."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fortune, Feb 27, 2026, fetched live: Emil Michael posts; Department of War's stated position; Lessig praise; OpenAI and xAI 'all lawful purposes' contracts."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "The candidate quotes 'incredibly unproductive...' through 'Who knows? Maybe you're right, maybe you're not', says he 'declined to judge anyone', and rests the Six reading on 'people you trust' and 'builds trust in the organization and in individuals'. Both verified in S06."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "The Pentagon-deal trigger, 'healthy alternative' framing and unnamed-source caveat are present (verified in S13); anger is narrowed to public anger plus exclusion; the Gulf Slack quote says 'obtained by Wired' (verified in S01)."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "The 'kept even his father's illness out' sentence is gone; only 'The 2025 profiles left the disease unnamed' remains. 'I feel the urgency personally' is quoted, and no motive is attributed to either disclosure."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "'though the essay never mentions open source' is confirmed (no mention in S09); the essay's capture answer and race-to-the-top aim, the Huang denial, and both stated reasons with 'including at Anthropic' are present and verified."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "The 'woke' label is no longer printed, which removes the need for his reply. The statement's scope (deferral on military decisions; partially autonomous weapons 'vital') is in one sentence, and the counterphobic reading is hedged."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "'Rivals' unenforced promises' is gone; the S06 'us as an industry' clause is quoted; the held-back-model example is removed."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "'Three accounts suggest...' is hedged; Berry's speculative 'I imagine' line is not quoted; his on-record AFP 'very idealistic' line is added; Marre's moderation and 'megalomaniac' line are kept (all verified in S14/S01)."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "The type section no longer says he builds because AI is dangerous; his stated reasons are given. The curiosity title is kept under head_term_exception, and the body now supplies attributed fear language (S08 'terrifies me'; 'single most serious national security threat'). Those lines concern AI-enabled authoritarianism and powerful AI, so 'fears most' is earned loosely but not falsely."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Agnostic frame and 'people will copy it' are quoted; 'names dishonesty' is gone; the contrast with his argue-first record is addressed ('He learned to leave sooner, not to go alone', sourced to S03)."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Google Brain and the safety paper, RLHF, GPT-3 leadership with '50-60%' compute, and Baidu turf battles are present (verified in S01); the recurrence claim is narrowed to Baidu and OpenAI. GPT-2 is not named, but RLHF on GPT-2 is covered by the RLHF clause."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "The Obama 'left out of the loop' episode is added and attributed; the 'consistent target' claim is gone; the sloppiness stereotype is removed."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "'flag planting and heavy handed' and 'a bit abrasive...' are attributed to Kantrowitz's sources and used in the Type 5 writing discussion; the government-collaboration line sits beside the Journal; 'usually measured scientist' is gone."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "The rejection is reasonable. Minor finding, no factual error; the page is near the 4,500-word ceiling; and the strategy-versus-personality test is carried by the Palihapitiya/essay-answer/stated-reasons sequence. S28/S29 stay in the record for a later refresh."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "The G7 paragraph cites the 2024 'coalition of democracies' (verified in S07), and the export-control irony is stated. The Pentagon fight is framed as two uses with partially autonomous weapons 'vital'. The FAQ says 'hired an adviser who pitched' (matches S13)."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "'Doesn't exempt himself' is replaced by 'in what he proposes, he puts himself inside it' plus an open question on control. The Axios vanguard critique (verified, S42 capture) sits beside the prophet quote. The SBF sentence is removed and the heading is neutral; the persona_title rationale is acceptable."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "The heading puts 'a few years' in quotation marks; S09 itself says 'cured just a few years after his death'. The Five-case overstatement is cut."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "The full clause, the redaction carve-out, the pre-IPO credibility reading and Altman's same-day pledge are present (S09, S41 capture). The Type 5 FAQ says the safeguards 'fit either type'."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Karnofsky/EA (S13), AFP's EA/rationalism line and Anthropic's denial (S14) are present. The OpenAI-era control reading appears once (in 'What the type doesn't settle'). 'Tips this page' is downgraded to a stated limit, followed by an observation neither milieu nor incentive predicts."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "The exclusion episode is included and attributed; the claim is narrowed to public anger; the Type 1 contrast is replaced by a motive-level test."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "The Journal's power-and-credit framing and the Brockman/GPT/Radford dispute are present and verified in S13. The tobacco line is tied to the brand strategy, and the conditional-loyalty argument is explicitly weakened ('turf as much as trust')."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "The close is qualified, Michael's charge appears once with context (S18 verified), and the final paragraph ends on his doubt about a speed-limit pact rather than on his self-description."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "The causal sentence is attributed ('By his own account ... though not his only reason') with the authoritarian-powers reason named. The heading attributes 'a few years'. The body does not repeat the Jade Wang FAQ's 'lost time' claim."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "'Consistent with' wording; the Pentagon's stated position (S18) and the commercial 'all lawful purposes'/'healthy alternative' reading are in-section; the Type 1 line stays. See finding verify2-03 on dating the 'all lawful purposes' clause."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "The heading is 'Pacing the frontier'; both stated triggers and the Axios public-pressure context are present and verified."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "The Google Brain/OpenAI 2016/research director/RLHF/GPT-3 paragraph precedes 'Staying on conditions'; scaling is glossed at Baidu; no unverified career dates were restored."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Two stated reasons with source; one plain sentence relating them to the 2025 condition; the heading agrees; the Baker exchange moved to the father section; the section ends on a forward sentence."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Outside the type and Type 5 sections I count three explicit Five-versus-Six contrasts: the Lex close reading, the disclosure paragraph, and the end of the anger section."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "One sentence introduces the two parallel designations before the split rulings (S23 confirms 'two distinct designations'), followed by the dated status line."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "The page mentions its prior typing once, dated, in the type section; the G7 paragraph argues from the 2024 essay and the 2017 account."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "The diagnosis note follows the Type 5 habits, makes no claim about what readers ask, and keeps 'infers none'."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "The generic disclaimer is gone, and the discriminator is applied to Amodei-specific acts (staying on Altman's promise, leaving with people he trusted)."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Altman, Sutskever, Huang and Brockman get role descriptors; the November 2023 sentence notes the firing; 'Department of War' is glossed; wing jargon is removed."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Interpersonal evidence leads, with his on-record account before the Journal's anonymously sourced one. Institutions are labeled non-discriminating, and the 5w6 contrast is marked as theory."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Field and milieu are named; pre-Anthropic safety work is confirmed in S01 ('got to work on AI safety', Google paper). The Journal episodes are labeled anonymous and from Brockman's side, the nuclear reaction is dated to OpenAI (S03), and the claim is narrowed."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "No wing is asserted; the desk-habits point is stated symmetrically."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "The type section credits building to his stated reasons. The Pentagon paragraph says 'consistent with' and names the 6-versus-1/8 observation. Type 8 is addressed with the November 2023 refusal (S03), and the 'bullish' confidence is stated as a cost."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "The stereotype is replaced by a motive-level test. 'right now and without delay' and 'strident sense' (S01) are in the Type 1 paragraph, abrasiveness is in the career section, and the page says why Six still leads."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "The Five is stated in motive terms near the answer, and 'goes quiet' is cut. 'The thing that no one else sees' and 'I have become convinced' are tested as Five-leaning, and the writing habit is shown to cut both ways. The July 2026 co-signed pacing statement would bear on the 'own model updating' test (finding verify2-01, minor)."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "The acceptance test's fallback is met: 'How he handles stress in private is not in the record reviewed here' sits next to the discriminator, and the REQUIRED research task remains open. This session could not read the S39 body either (robot check)."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "The sentence is cut; C158 records the narrower statement, which is consistent with S01/S03."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "C27, C38, C67, C101 and C106 are time_sensitive with leadership/IPO triggers; the prose dates Daniela's role to 2026; C36 is stable after the cadence clause was cut."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "The heading is retitled, the essay's actual reasons are given with dates, and C42's inference no longer claims the 2025 rule fired."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "'The evaluators he promised in September 2026'; C43's trigger names the dependent passages; C100/C101/C108/C161 are time_sensitive."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Past tense with an absolute date, and C30's trigger says how the argument changes. The underlying Quartz report itself was not re-verified this session (research task)."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "One dated page-history note remains."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "The new 'keep building' FAQ answers from durable sourced material (S09, S01/S02), and the G7 FAQ's first sentence stands without the model names."
+    },
+    {
+      "finding_id": "verify-01",
+      "accepted": true,
+      "reason": "Re-read S37 this session: the 'speed limit' answer and 'And honestly, I don't know if it's possible, but we should try' answer the China question with CBS's nuclear-arms-model narration, before and separate from the joint-governance answer. The close now matches."
+    },
+    {
+      "finding_id": "verify-02",
+      "accepted": false,
+      "reason": "Not independently confirmed. The candidate now reads 'barring every foreign national, including Anthropic's own foreign-national employees', but this session did not re-read S24's directive text before the turn limit. Re-check under the S24 research task."
+    },
+    {
+      "finding_id": "verify-03",
+      "accepted": true,
+      "reason": "The candidate no longer calls the meeting 'closed'. Whether S25's wording is exactly 'people familiar with the discussions' was not re-read this session (S24/S25 research task); the removal itself is verified."
+    },
+    {
+      "finding_id": "verify-04",
+      "accepted": true,
+      "reason": "The father FAQ's quoted words 'only a few years before the development of direct-acting antivirals' and 'probably would have cured him' match S11 verbatim, with consistent double quotation marks."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "The lesson of his father's death is that delay has a body count. It explains why he keeps building. It does not explain what he does with the danger of the thing he builds, and that part of him shows up early.",
+      "preserved": true,
+      "reason": "First and last sentences are verbatim in the candidate; the middle is now attributed with a competing reason. The distinctive split between the motive for building and the handling of fear is retained."
+    },
+    {
+      "passage": "These accounts come from unnamed sources in a feud story, and Amodei is not quoted responding to them.",
+      "preserved": true,
+      "reason": "Verbatim in the candidate; S13 contains no Amodei response to these items."
+    },
+    {
+      "passage": "None of the interviews, essays, profiles and posts reviewed for this page describe any such diagnosis, and this page infers none.",
+      "preserved": true,
+      "reason": "Verbatim, moved after the Type 5 habits."
+    },
+    {
+      "passage": "The most serious alternative may not be a type at all.",
+      "preserved": true,
+      "reason": "Verbatim; what follows is strengthened (essay answer, milieu, Anthropic denial)."
+    },
+    {
+      "passage": "From outside, securing a safe base and grabbing control look the same.",
+      "preserved": true,
+      "reason": "Verbatim, closing the control paragraph."
+    },
+    {
+      "passage": "He named the problem they would fix: \"we are still the ones choosing what to include and omit.\"",
+      "preserved": true,
+      "reason": "Verbatim; quote verified in S09."
+    },
+    {
+      "passage": "The 2026 evaluators, with their desks and badges, are the same idea with furniture.",
+      "preserved": true,
+      "reason": "Now 'The evaluators he promised in September 2026, with their desks and badges, are the same idea with furniture.' The callback is intact, and the wording correctly marks a promise, not an arrangement in place."
+    },
+    {
+      "passage": "Both disclosures arrived as evidence inside arguments. Read as a Five, he spent a reserved fact when the argument needed it. Read as a Six, he offered proof of sincerity to a public he had just described as in a crisis of trust, with his word attached. Both readings fit, so this page does not lean on them.",
+      "preserved": true,
+      "reason": "First and last sentences are verbatim. The middle sentences now say only what each reading would weigh, with no motive attributed to health disclosures. That removal was required by subject-03, and the honest non-discrimination test survives."
+    },
+    {
+      "passage": "Read as a Five, he spent a reserved fact when the argument needed it. Read as a Six, he offered proof of sincerity to a public he had just described as in a crisis of trust, with his word attached. Both readings fit, so this page does not lean on them.",
+      "preserved": true,
+      "reason": "Same change: both readings are still applied to the same fact, the page still declines to count it, and 'Both readings fit, so this page does not lean on them.' is verbatim."
+    },
+    {
+      "passage": "Read as a Five, that is independence: go build your own system. The words that matter are in the middle. He takes people he trusts, and the suspicion he names is dishonesty.",
+      "preserved": true,
+      "reason": "The false detail had to go: S06 shows he declined to judge, so 'the suspicion he names is dishonesty' was a context error. The close reading survives with the rival reading first: 'Read as a Five, that is independence: go build your own system. What survives his refusal to judge is trust, in the people he takes and the path he wants.'"
+    },
+    {
+      "passage": "A lab colleague, Olivier Marre, gave AFP a cooler picture in 2026",
+      "preserved": true,
+      "reason": "Verbatim, now paired with Berry's on-record 'very idealistic' AFP line, which mirrors AFP's own pairing (S14)."
+    },
+    {
+      "passage": "This profile is about what he does with the fear that is left over.",
+      "preserved": true,
+      "reason": "Verbatim as the opening's last line."
+    },
+    {
+      "passage": "The lesson of his father's death is that delay has a body count.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "Jade Wang, who dated him in the early 2010s, told Big Technology what the timing meant: \"It's the difference between his father most likely dying and most likely living, okay?\"",
+      "preserved": true,
+      "reason": "Verbatim; quote verified in S01."
+    },
+    {
+      "passage": "That is an odd offer from a chief executive whose company had [confidentially filed for an IPO](https://ca.finance.yahoo.com/news/ai-giant-anthropic-confidentially-files-160453569.html) that June. For Amodei, it was a familiar move. For a decade, when the stakes have risen, he has gone looking for people he can trust and rules that can hold, including rules that bind him.",
+      "preserved": true,
+      "reason": "All three sentences survive; the first now continues with the pre-IPO credibility reading and Altman's same-day pledge. The turn from the recent event to a decade-long pattern is intact. The IPO-filing fact itself awaits re-verification (S34 task)."
+    },
+    {
+      "passage": "What tips this page toward personality is that the reflexes predate the company: the threat-first reaction to scaling and the coordination proposals the Journal describes came years before Anthropic had a product to protect.",
+      "preserved": true,
+      "reason": "The overclaim had to be corrected (critic-02, enneagram-02). The discriminating function is kept as a stated limit ('Timing answers only part of this ... but not his milieu'), followed by the observation milieu cannot supply. The contribution survives in truthful form."
+    },
+    {
+      "passage": "As of early October 2026, Anthropic was \"considering all options, including further review.\"",
+      "preserved": true,
+      "reason": "Verbatim; the spokesperson quote is verified in S23 (Sept 25, 2026)."
+    },
+    {
+      "passage": "Both readings fit, so this page does not lean on them.",
+      "preserved": true,
+      "reason": "Verbatim."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.0,
+      "passage": "By the Wall Street Journal's anonymously sourced account, he had earlier stayed on the strength of Altman's promise.",
+      "reason": "Every quotation I checked, across about 30 opened sources, matched verbatim, and the repaired contexts hold: S06's agnostic exit answer, S37's speed-limit answer, S13's brand-strategy framing. Anonymous WSJ material is labeled at the point of use, and limits stay visible ('How he handles stress in private is not in the record reviewed here'). Holding it at 8: the type tell still leans partly on one anonymously sourced feud story; there are small slips ('who hired him'; the undated 'all lawful purposes'); the July 2026 pacing statement is missing; and several secondary facts (IPO filing, super-voting report, directive time/scope) were not re-verified this session."
+    },
+    "enneagram": {
+      "score": 7.5,
+      "passage": "What separates them is what each leans on when the ground moves: a Five on its own understanding and a guarded store of time and energy, a Six on people and promises it has tested.",
+      "reason": "The motive-level discriminator is clear and honestly applied: institutions are labeled non-discriminating, Five gets real evidence ('the thing that no one else sees', 'I have become convinced'), and Types 1 and 8 and the milieu alternative are each tested with sourced data. Medium confidence is stated. It stops short of the 8 anchor because the decisive personal evidence is thin. Leaving with trusted colleagues and equal equity are common founder moves that a Five-with-allies reading also predicts (the page concedes 'a Five can build alliances'). The strongest Six datum, staying on Altman's promise, is anonymous. The 'a Five with Six leanings ... rarely stakes its own staying on another person's word' step is theory, not evidence."
+    },
+    "originality": {
+      "score": 8.5,
+      "passage": "The evaluators he promised in September 2026, with their desks and badges, are the same idea with furniture.",
+      "reason": "Insights and details are specific to him: outside evaluators as the hook; the hepatitis C naming arriving inside an argument with an investor; 'The man who warns about scaling did much of the scaling'; export controls he had urged turned on his own company; the close reading of the Lex exit answer. Little reusable type boilerplate."
+    },
+    "writing": {
+      "score": 7.5,
+      "passage": "Timing answers only part of this. The threat-first reaction to scaling, which Wired places at OpenAI, and the coordination proposals in the Journal's anonymously sourced account predate Anthropic's commercial interests, but not his milieu.",
+      "reason": "The sentences are precise and the opening moves well, but at 4,467 words the back half reads as a brief. 'The case for Type 5', 'A One, or no type at all', 'What the type doesn't settle' and the Washington sections stack long attribution chains ('per the Journal', 'Kantrowitz reports', 'as the Journal tells it from ... side'), and some sections restate the trust thesis instead of advancing it."
+    },
+    "durability": {
+      "score": 8.0,
+      "passage": "Daniela, he said in 2026, runs the company day to day.",
+      "reason": "Changing facts are dated ('As of mid-2026', 'In early October 2026, Quartz reported', 'As of early October 2026') and carry review triggers, and the type case rests on 2016-2026 interpersonal evidence that survives removal of the latest events. Held at 8 because a large share of the body is 2026 news (Pentagon, export directive, G7, pacing, IPO) that will read as dated history, and the pacing timeline misses the July 2026 step."
+    },
+    "hook": {
+      "score": 8.5,
+      "passage": "It would host embedded third-party evaluators with \"Desks in our offices, access badges, and company laptops,\" and the right to publish findings \"without editorial control by Anthropic,\" save a narrow right to redact sensitive material.",
+      "reason": "A specific, verified (S09) and surprising self-binding commitment, immediately complicated by the IPO and Altman's matching pledge, then turned into the decade-long pattern the article pays off."
+    },
+    "discoverability": {
+      "score": 7.5,
+      "passage": "Dario Amodei most likely fits Enneagram Type 6, the Loyalist, at medium confidence.",
+      "reason": "Clear type heading and a 60-word answer mirrored in the first FAQ; seven useful FAQs (Type 5, why he keeps building, leaving OpenAI, father, G7); an accurate description naming Types 6 and 5; internal links to type pages and related people. Held back because meta_title repeats the curiosity title with no 'Enneagram' or 'personality type' term (kept under head_term_exception), and the G7 FAQ targets a fading event query."
+    }
+  }
+}

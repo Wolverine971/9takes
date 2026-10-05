@@ -1,0 +1,19 @@
+The future-role review for Sam Altman is written to `docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-future.json`. It passes the review schema, its hashes match the request, and every quoted passage appears exactly in the draft. I changed no other files and published nothing.
+
+**Verdict: the Type 3 argument holds up over five years.** It still stands with every 2026 event removed, because the support runs from 2008 to 2025: Paul Graham, the 2016 New Yorker profile, the 2017 email from Sutskever and Brockman, his biographer Keach Hagey, and Karen Hao's book. The newest items (the September 2026 safety post, the IPO comments, the film, the current-CEO check) don't carry any of the argument. All ten cited X posts carry the dates the article gives them.
+
+**Eight findings, all minor.** The problem is wording that will go out of date, not the argument:
+1. The film release lines in the body and the FAQ are in present or future tense ("has its world premiere… opens December 25"). They'll be wrong within weeks.
+2. The meta description calls him "the OpenAI CEO" with no date, and nothing in the evidence record tracks it.
+3. Sutskever is called "OpenAI's co-founder and chief scientist" as if he still holds that job. He left in 2024 and co-founded Safe Superintelligence.
+4. Some rebuttals argue against "the old Four reading" of this page, which a new reader never saw. They should argue against the Type 4 case directly. One note that the page used to say Type 4 is enough.
+5. The sister's lawsuit was already scheduled for re-check after an October 2 hearing, and that date has passed. That hearing was set to address Sam's pending motion to dismiss. CourtListener shows nothing after September 30, so the docket needs a fresh check right before release.
+6. The "independent evaluators" test checks whether he's sincere, not what type he is. Its re-check also only happens if OpenAI announces something, so if nothing happens, nobody re-checks — and the article treats "nothing happens" as the telling outcome.
+7. "Now I'm very happy to fire people quickly" is the only sign in the record that the pattern has changed. It's the page's best question for the next five years, but nothing in the evidence record schedules a re-check of it.
+8. Altman's May 2026 sworn testimony ("Do you always tell the truth?") and the jury verdict against Musk were found in research but left out of the draft. For a profile about candor, sworn testimony is the evidence most likely to still matter in five years.
+
+**Five passages marked for protection**, including the central "one capacity from opposite ends" line and the dated, testable evaluator sentence.
+
+The risk flags match the evidence record. The switch from Type 4 to Type 3 and the lawsuit still require the full six-reviewer panel. The similarity check found no meaningful reuse from other profiles.
+
+When this goes to release, keep in mind that the live page currently ranks as a Type 4 profile. Changing it to Type 3 changes what searchers see on that page.

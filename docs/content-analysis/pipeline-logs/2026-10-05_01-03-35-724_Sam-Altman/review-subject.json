@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "subject",
+	"content_sha256": "925a318a406d87caa7ffe839dd592350cc6f38bf2b17d96c5e18ed292cf94130",
+	"evidence_sha256": "c02501903bf57263b8fa25f36f570e737722214ec26b438c0935b9940e12f151",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "subject-01",
+			"severity": "major",
+			"passage": "After the attack on his home, he wrote that he had \"underestimated the power of words and narratives.\"",
+			"problem": "Context distortion of a statement made hours after a violent attack. I opened the post (blog.samaltman.com/2279512). The full passage reads: \"Words have power too. There was an incendiary article about me a few days ago. Someone said to me yesterday they thought it was coming at a time of great anxiety about AI and that it made things more dangerous for me. I brushed it aside. Now I am awake in the middle of the night and pissed, and thinking that I have underestimated the power of words and narratives.\" He is saying that hostile coverage may have put him in physical danger. The draft lists the line as an exhibit that \"he watches the picture of himself closely\" and that \"what he guards is an image of being credible, effective and likeable.\" That turns a crime victim's remark about his safety into evidence of image management. The evidence record (C71, C78) already trims the line the same way.",
+			"acceptance_test": "The line no longer appears in the image-monitoring list or anywhere else as type evidence. If it is quoted at all, the surrounding sentence states its context: someone had told him the article made things more dangerous for him, and he wrote this the night an incendiary device hit his home. C78 is updated to drop it, and the C71 inference records the context. No sentence uses something he said in response to violence against him as evidence of a type motive."
+		},
+		{
+			"id": "subject-02",
+			"severity": "major",
+			"passage": "He withheld details of the teenage assault lest a fuller telling \"make me look like I'm manipulative or playing for sympathy.\"",
+			"problem": "The childhood section promises \"That is his speculation, and this profile builds nothing on it,\" and the evidence record's handling note says the assault uses only his account. Sixty lines later the draft uses his reluctance to describe a brutal, unreported homophobic assault at 16 or 17 as an exhibit for an image-driven type. The record's own alternative (C08) says that reticence about an assault often reflects privacy or self-protection. He also gave this answer inside an adversarial investigation, where concern about being framed as \"playing for sympathy\" is ordinary. This is the profile's most sensitive personal material, so using it as motive evidence is both internally inconsistent and an imagined motive.",
+			"acceptance_test": "The assault appears only in the childhood section, with his own account and his hedged guess. It is not cited as evidence for any type in \"Why Type 3 leads,\" the FAQs, or elsewhere, so the promise that \"this profile builds nothing on it\" holds. Remove the quote from the image list in C78 and from that list in the article. If the author insists on keeping it, the ordinary alternative (a victim's privacy, the hostile setting) must sit in the same sentence. Removal is preferred."
+		},
+		{
+			"id": "subject-03",
+			"severity": "major",
+			"passage": "Second, his feelings tend to arrive after the fact, and in public.",
+			"problem": "This presents an imagined inner process (he sets feelings aside to function and narrates them later) as an observed pattern. The method can't separate the readings, because interviews, podcasts and profiles are retrospective by nature. The record the draft itself cites also has contemporaneous feeling. On the post-firing board call he said \"This is just so fucked up\" repeatedly (S43). That night he posted that the day was \"a weird experience\" and \"sorta like reading your own eulogy.\" He was \"supermad\" on the Saturday call (S40). The 2023 Musk email says \"it really fucking hurts.\" The hook's own source, written in real time and in public, says \"Now I am awake in the middle of the night and pissed\" (S36). The Codex post says \"I felt a little useless and it was sad.\" Hao (p. 42) reports \"flashes of anger and frustration\" in private. Some support exists: he told Bloomberg \"you can do a lot on a four-day adrenaline rush\" (S40). So the claim should be narrowed, not deleted. The same certainty repeats in the November section (\"The feelings came later, named in interviews.\") and in the Type 4 FAQ (\"his feelings mostly surface later in public settings\").",
+			"acceptance_test": "Three passages are rewritten to match the record: this sentence and its paragraph, the November line \"The feelings came later, named in interviews,\" and the Type 4 FAQ. They either narrow the claim to what sources show (he twice calls himself low in emotional attunement, and Hao's sources say he avoided negative emotion in public at YC) or label it as interpretation (\"this suggests\"). The strongest real-time counterexamples, including \"awake in the middle of the night and pissed\" and the board-call outburst, appear next to the claim. No sentence states as fact when or how he experiences feelings. C77 is revised to match."
+		},
+		{
+			"id": "subject-04",
+			"severity": "major",
+			"passage": "One begins with a list headed \"Sam exhibits a consistent pattern of . . .\" whose first item is \"Lying.\"",
+			"problem": "Missing response from the accuser himself. The section presents Sutskever's memo, with \"Lying\" as its first item, plus his later admission that much of it was secondhand. It omits the best-known public fact about his role. On November 20, 2023, Sutskever posted \"I deeply regret my participation in the board's actions. I never intended to harm OpenAI,\" and signed the employee letter demanding that the board resign and Altman return (opened: Fortune, November 20, 2023, https://fortune.com/2023/11/20/ilya-sutskever-openai-cofounder-deeply-regrets-resign/; post: https://x.com/ilyasut/status/1726590052392956028). The evidence record notes that Sutskever \"regretted the rushed process\" (C46), but the article never tells the reader. The regret concerned the board's action, not a retraction of the memos, and his 2025 deposition shows he still held concerns. The fix must say exactly that.",
+			"acceptance_test": "The memo paragraph adds, with a dated link, Sutskever's November 20, 2023 statement of regret and his signature on the employee letter. It does not imply he retracted the memos' substance, and it notes that the regret was about the board's action. The evidence record gains a source and a claim for it."
+		},
+		{
+			"id": "subject-05",
+			"severity": "minor",
+			"passage": "In September 2026 Altman swung the other way.",
+			"problem": "Missing response, and the framing overstates the reversal. The draft gives Jan Leike's May 2024 criticism and the team's disbanding, then says Altman \"swung the other way\" in 2026, which implies he had opposed Leike's position. Hours after Leike posted on May 17, 2024, Altman replied publicly: \"i'm super appreciative of @janleike 's contributions to openai's alignment research and safety culture, and very sad to see him leave. he's right we have a lot more to do; we are committed to doing it.\" (I opened VentureBeat, May 17, 2024, which quotes the reply.) His public agreement with a departing critic is a relevant response, and it bears on the accommodation argument either way.",
+			"acceptance_test": "The paragraph quotes or faithfully paraphrases his May 2024 reply, with a link and date. \"Swung the other way\" is replaced with a description of what actually changed: a general 2024 commitment versus a specific September 2026 commitment to independent evaluators. The evidence record adds the source and claim."
+		},
+		{
+			"id": "subject-06",
+			"severity": "minor",
+			"passage": "Then he set a condition: \"Only if the whole board quits\"",
+			"problem": "The draft trims his own self-assessments. In the same Bloomberg answer (S40) he said \"I really care about [OpenAI]\" and, right after the demand, \"I wish I had taken a different tack than that, but at the time it felt like a just thing to ask for.\" The demand appears twice as evidence of hard confrontation (November section, Type 8 section) without his retrospective regret. Similarly, the \"unifying force\" gloss in the board-call paragraph drops the New Yorker's report that he added \"this trait had enabled him to lead an immensely successful company\" (S43). That leaves the adversarial board member's reading as the only fully stated one.",
+			"acceptance_test": "Where the board-quits demand is first quoted, his \"I wish I had taken a different tack\" (or a faithful paraphrase) appears in the same paragraph. The board-call paragraph includes his claim that the trait helped him lead a successful company before giving the board member's reading."
+		},
+		{
+			"id": "subject-07",
+			"severity": "minor",
+			"passage": "A long climb paired with a sincere-sounding denial fits the Three's blind spot, where the achieving self and the mission blur together.",
+			"problem": "This imputes self-deception without giving his stated motive at the same spot. In S43 the denial comes inside \"I'm very ambitious as far as, like, my hope for humanity, and what I expect us all to achieve. I weirdly have very little personal ambition,\" followed by \"No one believes you're doing this just because it's interesting.\" His own account of his motive is interest and the mission. Elsewhere he calls the job \"my childhood dream job.\" The paragraph also opens with an absolute, \"the drive to win and hold the top job never lets up.\" It attributes \"relentless will to power\" to most sources without saying that the New Yorker framed it as sharing \"the judgment of Sutskever and Amodei,\" two people in direct conflict with him, one of whom runs a rival lab.",
+			"acceptance_test": "His stated alternative motive (hope for humanity, the work being interesting) is quoted or paraphrased next to the denial. The blind-spot reading is marked as interpretation (\"one reading\" or \"this suggests\"). \"Never lets up\" is softened to what the dated record shows. The will-to-power line says whose judgment most sources shared."
+		},
+		{
+			"id": "subject-08",
+			"severity": "minor",
+			"passage": "Hao's sources are mostly unnamed, but it is the record's clearest account of a public self fitted to a role.",
+			"problem": "A load-bearing characterization rests on text whose context hasn't been checked. The pp. 34-35 and p. 42 passages from Empire of AI were verified only through a self-described critic's compilation titled \"Sam Altman's track record of manipulation\" (S55). The book was not opened, and the compiler's brackets and \"[...]\" elision sit inside the quoted span. The draft joins \"avoided expressing negative emotions, avoided confrontation, avoided saying no to people\" to the makeover passage without marking the gap. It also calls it \"the new president's makeover,\" though nothing opened establishes when in his YC tenure it happened. Readers are sent to the hostile compilation as the citation. My own search found no independent copy of the p. 42 text.",
+			"acceptance_test": "Before release, the pp. 34-35 and 42 passages and their surrounding context are checked against the book or an independent excerpt or preview, and the citation points to the book. If that check is impossible, the article (a) marks the elision, (b) drops \"new president\" unless supported, and (c) replaces \"the record's clearest account\" with an attributed characterization noting that the context is unverified. The research task for S55 stays open until one of these is done."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "That is his speculation, and this profile builds nothing on it.",
+			"reason": "Correct restraint with sensitive material: it refuses to build a childhood-wound story from his hedged guess. Keep it, and make the rest of the article honor it (see subject-02)."
+		},
+		{
+			"passage": "That is an adversary's characterization, not a diagnosis.",
+			"reason": "It labels the most damaging quote (\"sociopathic\") at the point of use, which the standard requires, instead of relying on a footer disclaimer."
+		},
+		{
+			"passage": "The allegation is unresolved, and it is not evidence for or against any personality type. An honest profile can't leave it out.",
+			"reason": "The lawsuit section is neutral and dated, includes the family denial, the procedural rulings and the New Yorker's inability to substantiate the account, avoids the family statement's characterizations of Annie, and keeps the allegation out of the type argument. This sentence states that boundary plainly."
+		},
+		{
+			"passage": "Read generously, this is a founder doing a founder's job: a company without a finished product has to sell what it will become.",
+			"reason": "It gives the professional-incentive reading before the type reading on the Loopt testimony. That is the fairness move the profile needs most and makes most consistently."
+		},
+		{
+			"passage": "and added a caveat: \"I think it's a typical critique of people who have the salesman skill set\"",
+			"reason": "Keeps the biographer's own caveat attached to her most-quoted line, so the reader sees that the key witness offers a non-type explanation."
+		}
+	],
+	"assessment": "Fairness proxy for a living subject, not a voice for him. The profile is mostly careful. Denials and institutional responses travel with the allegations: Taylor's response to Toner, Altman's \"I don't think I was doing things that were sneaky,\" the WilmerHale summary, the Loopt board member's denial, Murati's on-record statement, Hagey's salesman caveat, and the family denial in the lawsuit section. \"Sociopathic\" is labeled at the point of use, the film is excluded as evidence, home details are withheld, and the 4-to-3 thesis change is disclosed to returning readers. The problems cluster in \"Why Type 3 leads.\" There, author inference about his inner life is written as observation (subject-03), and two statements made in the context of violence against him become evidence of image management (subject-01, subject-02). I opened the April 10, 2026 post, and its context reverses the meaning the draft assigns to \"words and narratives.\" Missing responses: Sutskever's public regret and signature on the employee letter (subject-04), Altman's same-day agreement with Jan Leike (subject-05), and his own \"different tack\" and successful-company defenses (subject-06). The type answer and FAQs are attributed and not defamatory, but the Type 4 FAQ repeats the overstated feelings-arrive-later claim and should change with subject-03. Similarity advisory: not tripped. The top pair (0.058, Jonathan Bailey) matches a generic one-line Eight definition against an unrelated counter-typing sentence, with no shared phrases. That is ordinary type vocabulary, not reuse, and I found no formulaic argument transplanted from other profiles. Risk flags confirm the evidence record: sensitive allegations, contested typing and a major thesis change all warrant the expanded jury. Limits: I opened the April 2026 post, Fortune on Sutskever's regret and VentureBeat on the Leike reply, and relied on the research-stage excerpts of the New Yorker, Bloomberg and Hao compilation texts. I could not check Empire of AI itself."
+}

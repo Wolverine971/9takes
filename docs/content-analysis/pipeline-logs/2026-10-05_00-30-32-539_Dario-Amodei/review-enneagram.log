@@ -1,0 +1,20 @@
+I wrote the Enneagram-role review for the Dario Amodei refresh to `docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/review-enneagram.json`. It passes the contract's review schema, and its two hashes match the frozen draft and evidence. I only read the other files and changed nothing else.
+
+**Verdict:** the retype from Type 5 to Type 6 at medium confidence holds up and is better than the old Five reading. The strongest support is how he talks about people: a decade of trust and bad-faith language, staying at OpenAI only in exchange for promises, and leaving with "people you trust." The article's stated tiebreaker is weaker than that evidence.
+
+**7 findings (6 major, 1 minor):**
+1. **The main evidence doesn't separate 5 from 6.** It is mostly company design: the safety policy, the outside trust, the G7 appeal, the embedded evaluators. The site's own Demis Hassabis page reads the same pattern (an ethics board and a weapons ban) as a Type 5 with a 6 wing. The Arthur Mensch draft dropped this exact tiebreaker for that reason. The fix is to lead with the person-level evidence.
+2. **"The reflexes predate the company" only rules out commercial motive.** By 2016 he was already working in AI safety, where government coordination was a standard idea. The early examples come from one Wall Street Journal story built on unnamed sources, and the 2016 episode is a rival's account.
+3. **The "strong Five wing" explains away the best Type 5 evidence.** The evidence record itself says no wing is established, and the same move works just as well in reverse.
+4. **"Counterphobic" is stretched too far.** The type section says he builds AI *because* it's dangerous, which contradicts his own stated reason. The Pentagon fight is typed with certainty from a company PR stance, and Type 8 is never ruled out.
+5. **Type 1 is underplayed.** The case against it rests on a stereotype that 1s burn at sloppiness. Several Type 1 details in sources the researcher opened were left out, including Big Technology's "strident sense of the way things should be," the "disparaging projects" accounts, and his "not fair" complaint about rival safety plans.
+6. **Type 5 is described as a cliché (quiet, cool, withdrawn) rather than by its motive.** Some evidence that leans Five is never tested for it, such as "the thing that no one else sees" and his self-described bullishness.
+7. **(Minor) The one source on how he personally handles stress is paywalled.** I tried the Bloomberg piece again today and the body was still blocked. That reading task should be required, not optional.
+
+I flagged five passages to protect, including the close reading of his "people you trust" quote and the section that refuses to count his health disclosures either way.
+
+Two things outside this draft:
+- **Stale cross-reference:** `Arthur-Mensch.md` says Amodei "reads as a Five on 9takes." That goes stale if this retype publishes.
+- **Length:** the body is about 4,000 words, above the 3,500 target, so edits should replace text rather than add it.
+
+The similarity check flagged one pair, which is a shared stock disclaimer, not reused argument.

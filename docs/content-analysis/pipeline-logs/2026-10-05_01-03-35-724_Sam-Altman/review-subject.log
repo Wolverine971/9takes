@@ -1,0 +1,19 @@
+I wrote the subject-role (fairness) review of the Sam Altman draft to `docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-subject.json`. It passes the review schema check, the hashes are copied from the request, and every quoted passage matches the draft exactly. Nothing else was changed and nothing was published.
+
+The review has 4 major and 4 minor findings. Major findings block release until the editor fixes or rejects them.
+
+**Major**
+1. **The "words and narratives" quote is used out of context.** I opened Altman's April 10, 2026 post. He wrote that line about hostile coverage making him less safe, on the night someone threw a Molotov cocktail at his home. The draft lists it as evidence that he guards his image.
+2. **The teenage assault is used as type evidence.** The childhood section promises "this profile builds nothing on it." Later, his reluctance to give details of the attack is listed as image management anyway.
+3. **"His feelings tend to arrive after the fact" overstates the record.** This is one of the three main reasons the draft gives for Type 3. The cited sources include feelings expressed in the moment, most clearly "Now I am awake in the middle of the night and pissed," from the same post the article opens with. The same claim also appears in a FAQ answer.
+4. **Sutskever's reversal is missing.** The draft quotes his memo listing "Lying." It leaves out that on November 20, 2023 he posted "I deeply regret my participation in the board's actions" and signed the staff letter demanding Altman's return.
+
+**Minor**
+5. Altman's same-day public reply agreeing with Jan Leike ("he's right we have a lot more to do") is missing, so "swung the other way" overstates his change on safety.
+6. Altman's own later regret about demanding the whole board quit is trimmed out.
+7. The draft calls his "very little personal ambition" line a blind spot without giving his stated motive. It also doesn't say that Sutskever and Amodei held the "will to power" judgment the New Yorker says most sources shared.
+8. The Karen Hao book passages were checked only through a critic's compilation of quotes. The book itself still hasn't been checked.
+
+I also listed five passages to keep. They include the lawsuit section and the line labeling "sociopathic" as an adversary's characterization, not a diagnosis. The similarity check found no meaningful reuse from other profiles. The risk flags agree with the evidence record: sensitive allegations, contested typing, and a major change in the type (4 to 3). That keeps the full six-role review in play.
+
+I relied on the research stage's excerpts of the New Yorker and Bloomberg pieces rather than reopening them. The supabase connector failed to connect this session, and several plugin connectors need sign-in; this stage didn't use any of them.

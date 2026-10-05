@@ -70,7 +70,9 @@ export type CreateBetaSignupInput = {
 };
 
 export type CreateBetaSignupResult =
-	{ ok: true; alerted: boolean } | { ok: false; status: number; message: string };
+	// recorded is false only for bot-flagged addresses, which get the same answer.
+	| { ok: true; alerted: boolean; recorded: boolean }
+	| { ok: false; status: number; message: string };
 
 type WaitlistMatch = { id: string; flagged_reason: string | null; created_at: string | null };
 

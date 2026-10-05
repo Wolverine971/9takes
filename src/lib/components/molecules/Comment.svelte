@@ -599,7 +599,7 @@
 					</button>
 
 					<div class="comment-overflow">
-						<Popover position="bottom-right">
+						<Popover position="bottom-right" label="Comment options">
 							<svelte:fragment slot="icon">
 								<span
 									class="flex h-11 w-11 items-center justify-center rounded-md text-[var(--ink-dim)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)]"

@@ -8,6 +8,93 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-10-05
+
+**Weekly growth audit: comments stayed at their pre-July floor for a second week (0, then 2, against about 8 a week from mid-July to mid-September). The two surfaces built to bring them back have shown the gate to 32 humans since 10-03 and received 0 takes. Celebrity pages are sending the deepest readers on the site to the gate: 26 viewers, a median of about 6 minutes on the page, and none answered q567. The host digest works again (10-03: 8 drafts), but none of the drafts was posted. The week's best visitor answered, opted in to replies, got "Server error" twice when registering, and left.**
+
+- Area: give-first activation (live-take homepage, celebrity mid-article question) / host-reply loop / registration / email lifecycle / coaching
+- Status: audit complete, live prod DB via `scripts/db-query.sh` (Supabase MCP down). This is the first audit with headlines from **`admin_engagement_trends_weekly_v2(26)`**. "This week" = **2026-09-28..10-04** (weeks start Monday, America/New_York); the 10-05 row is Monday only. Two series breaks fall inside the week. On **10-02**, `gate_shown` stopped counting crawlers and `contribution.path` became non-null. On **10-03**, the live-take homepage and the celebrity mid-article question went live.
+
+| Week (v2 RPC)        | Human visitors (returning) |                            Human comments |            Contributors (returning) |         Real signups | Registrations |        Bookings |
+| -------------------- | -------------------------: | ----------------------------------------: | ----------------------------------: | -------------------: | ------------: | --------------: |
+| 08-10                |                   575 (39) |                                        17 |                               7 (1) |                    1 |             2 |               0 |
+| 08-17                |                   586 (35) |                                         3 |                               3 (0) |                    0 |             0 |               0 |
+| 08-24                |                   590 (27) |                                         7 |                               5 (1) |                    1 |             3 |               0 |
+| 08-31                |                   582 (38) |                                         4 |                               3 (0) |                    0 |             2 |               0 |
+| 09-07                |                   643 (28) |                                         6 |                               6 (0) |                    0 |             0 |               0 |
+| 09-14                |                   658 (35) |                                         9 |                               6 (1) |                    1 |             1 |               0 |
+| 09-21                |                   669 (43) |                                         0 |                               0 (0) |                    1 |             0 |               0 |
+| **09-28**            |               **586 (35)** |                                     **2** |                           **2 (0)** | **1 (inferred bot)** |         **1** |           **1** |
+| 10-05 (partial, Mon) |                      1 (0) |                                         0 |                               0 (0) |                    1 |             0 |               0 |
+| 26-week context      |        200-818, median 538 | 12 in 13 wks to 07-06; 82 in 07-13..09-14 | 4 returning of 63 contributor-weeks |              9 total |      26 total | 1 total (first) |
+
+| Secondary diagnostic                                                               | Value                                                                                                                 |
+| ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Celebrity mid-article gate (q567), 10-03..10-05 08:13 UTC (human-only)             | **26 fps -> 0 takes**; 24 engaged >=30 s, median ~6 min, 11 scrolled >=75%                                            |
+| Live-take homepage gate (q203), same window                                        | **6 fps -> 0**; 1 engaged >=30 s. `/` gets 17-25 fps/day, 1-7 engaged >=10 s                                          |
+| Question pages + blog embeds, 09-28..10-02 (before the 10-02 break, bot-inclusive) | 9 + 18 fps -> 2 + 0 (both takes on q118: 749, 750)                                                                    |
+| Contributor 7-day return, 09-28 cohort                                             | 2 -> 0 (3-4 days observed, right-censored)                                                                            |
+| Takes with a DJ reply within 24 h                                                  | 1 of 2 (750 at 21.8 h; 749 still unanswered at 4 days)                                                                |
+| Host digest runs (`app_error_events`, `host_digest`)                               | 10-03 sent (8 takes, 7 model + 1 fallback, 7.7 s); 10-04 `no_takes`. First runs since 09-13. **Drafts acted: 0 of 8** |
+| Reply opt-ins                                                                      | 3 lifetime (takes 733, 743, 749), all `notification_count = 0`                                                        |
+| Registration failures                                                              | 2 people, 4 `AuthWeakPasswordError` events (10-01, 10-03), 0 later registered                                         |
+| Email                                                                              | 0 sent since 09-01 20:30 UTC; 2 failed this week + 1 today, all `EMAIL_FOOTER_ADDRESS`                                |
+| Raw visitors (bot-inclusive, diagnostic only)                                      | 3,209 (09-21: 4,438)                                                                                                  |
+
+- Direction changes:
+  - **Comments fell and stayed down, and the 26-week history shows a real drop, not a series that was always low.** There were 12 human comments in the 13 weeks to 07-06, 82 in the 10 weeks from 07-13 to 09-14, and 2 since. Homepage gate fingerprints went 19 / 19 / 13 / 19 -> 6 -> 0 -> 0 across the 09-10 swap, which matches the 09-30 audit's cause. Visitors did not drop. 586 is 12% below last week but inside the normal band (8-week mean 611, 26-week median 538), and returning visitors held at 35.
+  - **Both replacement surfaces have shown the gate to 32 humans (after the 10-02 break) and received 0 takes. 2.3 days is too early for a verdict.** Celebrity pages logged 18 gate fingerprints on 10-04, their first full day, against 13-19 a week from the old homepage. That already makes them the biggest gate surface on the site, and the readers are deep. Every one of them was asked q567 ("something you do every day to seem fine that's costing you effort"), a heavy disclosure in the middle of a celebrity article. There are no mirror errors in `app_error_events`, but no real reader has submitted through that path since 10-03, so a broken submit is unverified, not ruled out. The live-take homepage reaches about 3 engaged humans a day. The formal readout is still 10-17 (T-41 C).
+  - **The reply loop works again in code, but nobody is replying.** The host-digest fix (`6f34ad64b`) works. DJ's only reply (752, to take 750) went to an anonymous "ok" with no opt-in, so it notified nobody. Two takes have authors who can get a reply by email: 743 (09-19) and 749 (10-01). Both are still unanswered. Draft #8 still reads `pending`, because the reply to 750 was posted outside the desk.
+  - **A mislabelled error stopped the week's best visitor.**
+    - Fingerprint `b83f1c12`: DuckDuckGo -> shadow-work post (1,485 s engaged) -> `/enneagram-test` -> q118 (3.8 min from page view to take 749) -> reply opt-in 17 s later -> another question -> `/register` (63 s) -> `AuthWeakPasswordError` twice -> gone.
+    - Cause: `src/routes/register/+page.server.ts:144-157` only turns `AuthApiError` 400 into a message the user sees, so a weak-password rejection shows "Server error. Please try again later."
+    - A second person hit the same wall on 10-03. These are the first weak-password events in the log (it starts 03-30).
+    - The week's one completed registration (09-29, a real Google arrival) never confirmed its email, and its welcome step 1 failed on the footer address.
+  - **The RPC's 1 real signup is inferred to be a bot.** Signup 210 landed on `/login` with no referrer and hit 15 pages in 2 minutes with 0 ms engaged, the same crawler sweep as 09-21. The auth-page-first rule only excludes `first_acquisition_source = 'internal'` (migration lines 239-240), so it counted. Signup 211 today is real (Google -> `/personality-analysis/type/1`, 81 s, 89% scroll); its confirmation failed on the footer 0.4 s after signup. That makes 5 real people lost to the mail block: 208, the 09-19 registrant, 209, the 09-29 registrant, and 211.
+  - **The first booking in 26 weeks led to a content fix.** The 10-02 Talk to DJ note said Trump was typed as an 8 in one article, and T-38 retyped it (`e4fe1d896`). The note left no email, so DJ can't answer it. Beta session requests: 0. The Type 6 critic was emailed on 10-03 16:03 UTC ("You were right about the Type 6 section"); no reply, and no visits since 09-22.
+
+- **Biggest leak this week: the people who do activate get nothing back.** The week's one reachable contributor (25 minutes of reading, a take, an email opt-in, two registration attempts) was told "Server error" and has waited 4 days for a reply, while 8 drafts sit unposted on a host desk that now works. Anti-pattern: a leaky bucket. Celebrity pages are pouring readers into the top while the bottom is still open.
+
+- Recommended bets (ranked):
+  1. **Clear the desk, opt-ins first.**
+     - Hypothesis: we believe DJ replying today to 749 and 743 through `/admin/host-desk` (then the other drafts, using `docs/growth/host-desk/2026-10-03-type6-critic-replies.md` for 746/747) will fire the first-ever reply-opt-in email and bring at least one of those contributors back. The reason: a DJ reply is the only event that has ever retained a contributor (1 of 45 since July, per the 09-30 audit).
+     - **Success over 7 days: >=1 `comment_reply_subscriptions.notification_count > 0`, `b83f1c12` or 743's author seen again, and >=80% of new human takes replied within 24 h over 2 weeks** (now 1 of 2, with 0 of 8 drafts acted).
+     - Guardrail: no fallback text.
+     - Cost: about 15 minutes of DJ's time.
+  2. **Stop turning away people who already said yes.**
+     - Hypothesis: we believe (a) mapping `AuthWeakPasswordError` to a 400 that says "this password appeared in a breach, pick another" and keeps the form filled, and (b) setting `EMAIL_FOOTER_ADDRESS` in Vercel (the sixth ask) and resending 211's confirmation and the 09-29 welcome, will turn the next weak-password hit into a registration and restore lifecycle mail. The reasons: both people this week retried before they quit, and every failed send since 09-02 has the same one error.
+     - **Success: the next weak-password hit is followed by a profile within 10 min, 0 footer errors over 7 days, and 211's confirmation sends within 24 h.**
+     - Guardrail: `idempotency_key` prevents duplicate sends.
+     - Metric fix (not a bet): also exclude zero-engagement auth-page landings in the v2 real-signup rule, whatever their source.
+  3. **Give the celebrity slot an easier question before the 10-17 readout.**
+     - Hypothesis: we believe approving the T-41 G seed drafts, so celebrity pages rotate q118 ("what were you like as a kid, in 3 words") in alongside q567, will move celebrity answers from 0 of 26 to >=3 contributors a week. The reasons: q118 got 100% of this week's takes, and a 3-word answer costs seconds, while q567 asks for a private disclosure in the middle of an article.
+     - **Success over 2 weeks after seeding: >=3 celebrity contributors a week, and q118's answer rate above q567's.**
+     - Guardrail: median engaged time on celebrity pages stays >=5 min.
+     - Read it as a before/after with per-question rates, not an A/B. At about 100 viewers a week, the minimum detectable effect would be far above 20%.
+
+- Running experiment status:
+  - Host digest: **restored 10-02**, 0 of 8 drafts acted.
+  - Welcome and confirmation mail: **blocked 34 days**, 5 real people lost.
+  - Reply opt-in: 3 lifetime, 0 served.
+  - Logged-in reply email: 0 sent.
+  - Live-take homepage (q203, 10-03): **running**, 6 -> 0.
+  - Celebrity mid-article question (q567 only, 10-03): **running**, 26 -> 0. Readout 10-17.
+  - Crawler-free gate + `contribution.path`: **shipped 10-02**. The human signal reads right, but no contribution has exercised `path` since the break.
+  - `/forgotPassword` reCAPTCHA race: **fixed 10-02**.
+  - Talk to DJ: 1 note, 0 session requests.
+  - Beta card: **committed 10-04**. The `/book-session` section is live; the celebrity-page card is not in the server HTML (unverified). 0 signups against the goal of 10 by 11-15.
+  - Starters + pins: q118 took both takes.
+  - The Nine, Reddit, founding circle and type prompt: **held**.
+  - Last week's bets: #1 **partly done** (desk fixed, Type 6 email sent; 743 and the site replies still owed). #2 **not done**. #3 **shipped 10-02**.
+- Repro:
+  - Headline: `select * from admin_engagement_trends_weekly_v2(26)`.
+  - Gate by surface: the standard query, split by `timezone('America/New_York', created_at)::date`.
+  - Gate engagement: the first `gate_shown` per (fingerprint, path) since 10-03, laterally joined to `page_analytics_visits` on the same fingerprint and path within [-30 min, +2 h].
+  - Desk: `host_reply_drafts` by status.
+  - Registration: `app_error_events where error_name = 'AuthWeakPasswordError'`, checked against `auth.users` (no emails written here).
+  - Signup trails: `signups.first_*` joined to `page_analytics_visits` on `first_touch_fingerprint`.
+  - Everything is observed unless marked inferred.
+
 ### 2026-09-28
 
 **Weekly growth audit: contributions went 9 -> 0, the first empty week since July. The one repeat contributor in the log came back, reloaded their own unanswered question nine times, lost their session, never got a reset email, and has not been seen since 09-22. The four takes owed a reply last week are still unanswered after 8 days. The host desk has been dead 16 days, mail has been off 26 days, and the new homepage is live but still sends nobody to a gate.**

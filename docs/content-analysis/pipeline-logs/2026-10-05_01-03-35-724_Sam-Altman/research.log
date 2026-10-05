@@ -1,2 +1,26 @@
 You've hit your weekly limit · resets Oct 7 at 5pm (America/New_York)
 You've hit your weekly limit · resets Oct 7 at 5pm (America/New_York)
+I've written `evidence.json` for the Sam Altman research stage, with status **ready**. It has 101 sources (100 actually opened, none from search snippets) and 80 claims, and it passes the pipeline's evidence check. I spot-checked the key quotes against the saved source texts. Nothing else was edited and nothing was published.
+
+**The leading type changes from 4 to 3, and that's your call.** The research now reads Altman as a Type 3 at medium confidence, with Type 4 (the published thesis) as the strongest alternative and Type 8 as the next. The deciding question is what he does when staying liked in the room conflicts with saying what he thinks or feels. Across Loopt, YC and OpenAI, from 2005 to 2026, independent sources say he tells people what they want to hear. Altman says the same about himself:
+
+- **April 2026 blog post:** "I am not proud of being conflict-averse, which has caused great pain."
+- **Bloomberg, January 2025:** "I'm not a high-EQ person."
+- **The New Yorker, 2016:** he views subtle emotions "with alien intrigue."
+
+Those points cut against a Type 4, who usually puts feelings and authenticity first. The record says the change needs a `--refresh --expanded-review` run. Every type field changes with it: the enneagram value, title, meta_title, the type FAQ and keywords, the TL;DR and the Rabbit Hole. The live page has ranked as a Type 4 profile since 2023, so veto here if you want to keep it.
+
+**The live page has misquotes and unsourced lines.** These are listed in the record's research tasks; the most visible:
+
+- The "heart pounding, just terrified" anxiety quote isn't in the podcast it cites. The only source I found is an anonymous Medium post.
+- "You should be skeptical of any company calling for its own regulation" is not in the Senate hearing record.
+- "We needed a structure that didn't exist," "I don't know what Sam believes" and "totally transformed" have no source.
+- "Chaotic. And shameful. And upsetting." is really one run-on line: "chaotic and shameful and upsetting and a bunch of other negative things." The page builds a whole section on the word "shameful."
+- The TL;DR says he never called the firing "unfair." He did: "it felt so unfair."
+- The Ozymandias quote comes from Reid Hoffman's *Masters of Scale*, not Tyler Cowen.
+
+**Risk flags:** all four are now set except historical sources. Sensitive allegations covers his sister's lawsuit, which is still active (trial set for May 2027 in a 2025 order, not reconfirmed since), and the deception testimony. The record also flags contested typing and the major thesis change.
+
+This would make a good FDE story: five parallel agents verified a 100-source record and found about two dozen errors on a live, ranking page.
+
+The Supabase connector failed to connect this session, and several plugin connectors need you to authorize them. Neither affected this stage.

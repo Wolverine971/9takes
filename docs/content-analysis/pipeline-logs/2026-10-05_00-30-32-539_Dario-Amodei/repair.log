@@ -1,0 +1,32 @@
+I wrote the three repair outputs. Nothing else was edited and nothing was published.
+
+**The main fix: the closing quote.** The article ended with Amodei saying "And honestly, I don't know if it's possible… but we should try," presented as his doubt about shared governance. I re-read the CBS article: he actually said it about a different idea, an international "speed limit on the rate of AI progress" modeled on nuclear arms control. The page now ends on that proposal, which fits the thesis better anyway: it's a rule that would bind his own company too.
+
+**Other fixes the verifier asked for:**
+- The June 2026 export-control order covered Anthropic's *foreign-national* employees, not all employees. Corrected.
+- I dropped "closed" from the G7 meeting description, since no source we read says that.
+- The father FAQ's quote marks are now consistent.
+- The super-voting-shares report is now credited to Quartz only. The text we opened doesn't attribute that sentence to Bloomberg.
+
+**Changes to the type argument:**
+- The key evidence for Type 6 now leads with Amodei's own on-record account. The Wall Street Journal's version is labeled as anonymously sourced.
+- The "a Five with Six leanings rarely stakes its staying on someone's word" line is now introduced as Enneagram theory, not evidence.
+- The Type 1 and "maybe it's not personality at all" paragraphs got their own heading instead of sitting under "The case for Type 5."
+
+**Research I ran:**
+- None of the 2025 profiles named his father's disease.
+- Nine sources contain no self-described diagnosis.
+- The Cheeky Pint episode date (Aug 6, 2025) is confirmed.
+
+The schema checks pass: draft, evidence and resolution all validate against the contract. The only remaining blockers come from the old verification, which the re-verifier will replace.
+
+**Decision for you:** the page will probably still fall short of the 8.5 overall bar, and the cause is length. It's 4,467 words against a 2,000–3,500 target, and the verifier held writing at 7.5 mostly for that. Almost every remaining paragraph is something the six reviewers required or a passage they asked to protect. Cutting deeper in a repair would undo accepted fixes, so I didn't. If it holds, the real fix is a deliberate shortening run (`--refresh --expanded-review`) aimed at about 3,500 words, not another repair.
+
+**One thing only you can unlock:** the open research task on how he handles stress. Bloomberg's "Protects His Time, De-Stresses" article is still paywalled, and YouTube blocked the interview captions. If you can read it, paste the body into `docs/content-analysis/research/Dario-Amodei.md`. That's the evidence most likely to settle Type 5 vs. Type 6.
+
+Some connectors (Slack, Notion, Ahrefs and others) need authorization in your claude.ai connector settings or `/mcp`. None were needed here.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/`:
+- `repair.md`
+- `evidence-repair.json`
+- `resolution-repair.json`

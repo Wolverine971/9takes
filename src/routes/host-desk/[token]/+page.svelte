@@ -41,7 +41,7 @@
 	<meta name="robots" content="noindex, nofollow" />
 </svelte:head>
 
-<main class="desk">
+<div class="desk page-main">
 	{#if data.state === 'invalid'}
 		<section class="card">
 			<p class="eyebrow">Host desk</p>
@@ -185,7 +185,7 @@
 			</section>
 		{/if}
 	{/if}
-</main>
+</div>
 
 <style>
 	.desk {

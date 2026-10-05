@@ -1,0 +1,29 @@
+{
+  "schema_version": 3,
+  "subject": "Dario-Amodei",
+  "mode": "refresh",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_edit_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/evidence-edit.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/similarity.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/repair-findings.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/resolution-edit.json",
+    "verification": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/verification-edit.json"
+  },
+  "outputs": {
+    "repair.md": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/repair.md",
+    "evidence-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/evidence-repair.json",
+    "resolution-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/resolution-repair.json"
+  }
+}

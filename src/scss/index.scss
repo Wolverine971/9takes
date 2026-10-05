@@ -516,7 +516,11 @@ a {
 	   (no background, z-index:-1) — pure GPU/battery waste. 2026-05-29. */
 }
 
-main {
+// The root layout owns the page's single <main> landmark. Pages that used to nest
+// their own <main> now use <div class="page-main">; :where() keeps the selector at
+// main's exact specificity (0,0,1) so those pages lay out exactly as before.
+main,
+div:where(.page-main) {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 2rem;
@@ -946,7 +950,8 @@ body::-webkit-scrollbar-thumb,
   MEDIA QUERIES
 ==============================================*/
 @include desktop {
-	main {
+	main,
+	div:where(.page-main) {
 		padding: 1rem;
 	}
 }
@@ -1009,7 +1014,8 @@ body::-webkit-scrollbar-thumb,
 		margin: 0;
 	}
 
-	main {
+	main,
+	div:where(.page-main) {
 		padding: 0.5rem;
 	}
 

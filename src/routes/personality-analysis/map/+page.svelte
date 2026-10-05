@@ -45,7 +45,7 @@
 		</div>
 	</section>
 
-	<main class="map-shell" id="people-map">
+	<div class="map-shell page-main" id="people-map">
 		<header class="map-heading">
 			<SectionKicker num="02" label="9 PATTERNS · 27 PEOPLE" />
 			<h2>One pattern. Three very different lives.</h2>
@@ -96,7 +96,7 @@
 				</section>
 			{/each}
 		</div>
-	</main>
+	</div>
 
 	<section class="closing" aria-labelledby="closing-title">
 		<div class="closing-inner">

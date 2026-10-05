@@ -150,41 +150,79 @@
 	}
 
 	function handleKeydown(event: KeyboardEvent) {
+		if (!revealControl) return;
 		if (event.key !== 'Enter' && event.key !== ' ') return;
 		event.preventDefault();
 		if (scramble) startTextScramble();
 		showDescription = !showDescription;
+	}
+
+	// The card is its own keyboard control only when it has an overlay to reveal and
+	// isn't already inside a link. Most blog uses wrap it in <a>, and most cards have
+	// no overlay, so an unconditional role="button" was a second (or dead) tab stop.
+	// Decided on mount: the reveal is JS state, so the SSR card stays a plain figure.
+	let isLinked = true;
+	$: hasOverlay = enneagramType > 0 && enneagramType <= 9;
+	$: revealControl = hasOverlay && !isLinked;
+	$: controlAttrs = revealControl ? { role: 'button', tabindex: 0 } : {};
+
+	// Hover/tap effects are wired here rather than as on: directives so a decorative
+	// (non-control) card stays a static element.
+	function cardBehavior(node: HTMLElement) {
+		const link = node.closest('a');
+		isLinked = !!link;
+		// Keyboard focus reveals what hover reveals: on the wrapping link when there
+		// is one, otherwise on the card itself (only focusable when it's a control).
+		const focusHost: HTMLElement = link ?? node;
+
+		const show = () => {
+			if (!isTouchDevice) showDescription = true;
+		};
+		const hide = () => {
+			if (!isTouchDevice) showDescription = false;
+		};
+		const scrambleOnHover = () => {
+			if (scramble) startTextScramble();
+		};
+		const markTouch = () => {
+			isTouchDevice = true;
+		};
+		const toggleOnTap = () => {
+			if (isTouchDevice) showDescription = !showDescription;
+		};
+
+		node.addEventListener('mouseover', scrambleOnHover);
+		node.addEventListener('mouseenter', show);
+		node.addEventListener('mouseleave', hide);
+		node.addEventListener('touchstart', markTouch, { passive: true });
+		node.addEventListener('click', toggleOnTap);
+		node.addEventListener('keydown', handleKeydown);
+		focusHost.addEventListener('focusin', show);
+		focusHost.addEventListener('focusout', hide);
+
+		return {
+			destroy() {
+				node.removeEventListener('mouseover', scrambleOnHover);
+				node.removeEventListener('mouseenter', show);
+				node.removeEventListener('mouseleave', hide);
+				node.removeEventListener('touchstart', markTouch);
+				node.removeEventListener('click', toggleOnTap);
+				node.removeEventListener('keydown', handleKeydown);
+				focusHost.removeEventListener('focusin', show);
+				focusHost.removeEventListener('focusout', hide);
+			}
+		};
 	}
 </script>
 
 <div
 	class="image-card-base {enneagramType ? 'enneagram-card' : ''}"
 	class:personality-portrait-well={imageTreatment === 'personality'}
+	class:image-card-base--control={revealControl}
 	style="aspect-ratio: {aspectRatio};"
 	title={altText || displayText}
-	aria-roledescription="card"
-	role="button"
-	tabindex="0"
-	on:mouseover={() => scramble && startTextScramble()}
-	on:mouseenter={() => {
-		if (!isTouchDevice) showDescription = true;
-	}}
-	on:focus={() => {
-		if (!isTouchDevice) showDescription = true;
-	}}
-	on:blur={() => {
-		if (!isTouchDevice) showDescription = false;
-	}}
-	on:mouseleave={() => {
-		if (!isTouchDevice) showDescription = false;
-	}}
-	on:touchstart={() => {
-		isTouchDevice = true;
-	}}
-	on:click={() => {
-		if (isTouchDevice) showDescription = !showDescription;
-	}}
-	on:keydown={handleKeydown}
+	{...controlAttrs}
+	use:cardBehavior
 >
 	<!-- Responsive image with proper loading attributes -->
 	{#if priority}
@@ -349,7 +387,6 @@
 		border-radius: var(--border-radius-lg);
 		background-color: var(--lamp-soft);
 		box-shadow: var(--shadow-sm);
-		cursor: pointer;
 		transition: var(--transition-glow);
 
 		&:hover {
@@ -366,6 +403,11 @@
 			outline: 2px solid var(--lamp-glow);
 			outline-offset: 2px;
 		}
+	}
+
+	// Linked cards inherit the link's pointer; decorative cards aren't clickable.
+	.image-card-base--control {
+		cursor: pointer;
 	}
 
 	.image-card__overlay {

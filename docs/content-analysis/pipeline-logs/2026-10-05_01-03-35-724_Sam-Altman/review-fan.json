@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "925a318a406d87caa7ffe839dd592350cc6f38bf2b17d96c5e18ed292cf94130",
+  "evidence_sha256": "c02501903bf57263b8fa25f36f570e737722214ec26b438c0935b9940e12f151",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "The founder who can win any island reads each room and gives it what it wants.",
+      "problem": "The hook bends the most-quoted line about Altman. In the essay (opened directly), the island sentence sits under the heading \"5. Be independent.\" Graham writes \"When we predict\" (YC), not investors, and \"Sam Altman has it\" refers to \"that quality\": not needing investors, the founders who \"can take care of themselves,\" who \"succeed with or without them,\" plus \"deal-making ability.\" The draft turns \"it\" into \"them\" (the three listed qualities) and glosses the line as reading each room and giving it what it wants, which is close to the opposite of Graham's point. The closing (\"king of any island ... the price of the same gift\") inherits that reading. An accurate version is sharper anyway: Graham praised a founder who needed no one's approval, and the 2026 apology admits a costly need to keep rooms happy.",
+      "acceptance_test": "The hook states Graham's actual claim (YC's \"we,\" the \"Be independent\" section, \"succeed with or without them,\" \"deal-making ability\"). Any link to room-reading or telling people what they want to hear is explicitly marked as the author's reading, or the frame is rebuilt on the independence-versus-approval tension. The closing paragraph and the C10/C94/C102 inferences match that version."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "Graham predicted that Altman would end up king of any island, and he has, more than once.",
+      "problem": "Graham is the article's opening and closing witness, but the profile never says how Altman's YC presidency ended. It goes straight from \"In 2014 Altman succeeded Graham\" to leading OpenAI \"since 2019.\" The opened 2026 New Yorker source (S43) reports that Graham told YC colleagues that, before Altman's removal, \"Sam had been lying to us all the time.\" It also carries Graham's on-record statement: \"We didn't have the legal power to fire anyone. All we could do was apply moral pressure.\" That is the record's most revealing contradiction for this frame: the mentor who crowned him king of the island later pressed him out of YC. Without it, the \"three organizations\" claim leans on Hagey's one-line summary for YC, and the last line reads as unqualified triumph.",
+      "acceptance_test": "A dated paragraph says how Altman left YC in 2019. Graham's \"lying to us all the time\" is labeled as secondhand (relayed by YC colleagues, The New Yorker, 2026) and paired with Graham's on-record \"moral pressure\" statement and any response from Altman the source gives. The closing line acknowledges that Graham's own island pushed him out, or is reworded so it no longer depends on Graham's unqualified 2008 endorsement."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "The same 2016 profile caught Altman describing his own inner weather:",
+      "problem": "Both self-reports behind the \"low emotional attunement\" pillar are about reading other people, not about his own feelings. \"Alien intrigue\" is his reaction to someone reading subtle emotions in a photo, said while joking about an Asperger's suggestion (\"Fuck you, I don't have Asperger's! ... I can see why he thinks I do\"). In Bloomberg, \"I'm not a high-EQ person\" refers to failing to detect board tension. The draft calls the first \"his own inner weather,\" and \"Why Type 3 leads\" uses both as proof that his feelings arrive late. The hook says he \"reads each room,\" and Hao's Loopt source (\"so good at adjusting to what you say\") and Hagey (\"convincing people ... that he has something in common with them\") describe an exceptional reader of people. A room-reader who says he can't read faces is the profile's most interesting contradiction, and the draft never examines it. The \"missing circuit\" line is also stripped of its context. The next sentence is about risk: \"Most people want to be accepted, so they won't take risks that could make them look crazy.\" The draft presents it as a general claim of indifference to approval.",
+      "acceptance_test": "Each quote is described for what it is: reading others' emotions, the Asperger's-joke context, the board-tension context, and the risk sentence after \"missing circuit.\" \"Inner weather\" and \"twice described himself as low in emotional attunement\" are reworded. The second pillar of \"Why Type 3 leads\" rests on evidence about his own feelings. The article names the contradiction between his self-described low EQ and colleagues' accounts of uncanny room-reading, and either argues it through or lists it under what the type doesn't explain."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "his mother says he keeps \"an awful lot tied up inside.\"",
+      "problem": "The mother's quote is cut off before its point. Connie Gibstine continues: \"He'll call and say he has a headache—and he'll have Googled it, so there's some cyber-chondria in there, too. I have to reassure him that he doesn't have meningitis or lymphoma, that it's just stress\" (S03, C21). In context she describes stress that comes out as health worry and needs reassurance, not someone who coolly sets feelings aside to function. The draft uses the shortened version twice as Three evidence. The same 2016 profile has the record's best-known anxiety detail, which the draft omits: the prepper list (\"guns, gold, potassium iodide ... gas masks from the Israeli Defense Force, and a big patch of land in Big Sur I can fly to\") and Thiel's \"an optimist yet a survivalist.\" Altman's 2023 TIME reply is already in evidence (S09: \"caricatured very wildly\"; \"very optimistic and prepared for things to go super wrong\"). The Six alternative gets one sentence from a 2022 podcast while its strongest exhibits are missing.",
+      "acceptance_test": "The mother's quote either appears with its continuation or is no longer cited as evidence of setting feelings aside. \"What the type doesn't explain,\" or a Six paragraph, weighs the 2016 prepper list and Thiel's \"survivalist\" line against Altman's 2023 TIME response, dated and attributed, and says why Six does or does not threaten the Three read."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "Altman confronts openly when control of the institution is on the line, as in 2017 and 2023, and accommodates almost everywhere else, by his own account and others'.",
+      "problem": "The Three-versus-Eight discriminator omits a counterexample from an interview the draft already quotes. In the January 2025 Bloomberg Q&A (S40), Altman says that before the firing he \"had issues with various board members on what I viewed as conflicts or otherwise problematic behavior, and they were not happy with the way that I tried to get them off the board. Lesson learned on that.\" That is neither open confrontation nor accommodation. It is moving against people indirectly, the third mode the article's binary leaves out, and it bears on 3 vs 8 vs 9. The draft also trims the \"supermad\" passage, cutting \"I really care about [OpenAI]\" and his own afterthought, \"I wish I had taken a different tack than that, but at the time it felt like a just thing to ask for.\" As a result, \"Only if the whole board quits\" reads as a pure power demand with no retrospective regret.",
+      "acceptance_test": "The 3-vs-8 (and 3-vs-9) argument addresses Altman's own admission that he tried to get board members off the board, quoted and dated to Bloomberg (January 2025), and says what that indirect method shows. The \"Only if the whole board quits\" passage notes his later \"I wish I had taken a different tack,\" or the resolution explains why the omission is fair."
+    },
+    {
+      "id": "fan-06",
+      "severity": "major",
+      "passage": "More telling is the shape of those days. In the moment he ran a campaign: advisers, a public story, a post that turned rejection into an \"outpouring of love.\"",
+      "problem": "The five-day account leaves out the turns an informed reader knows best, and the \"campaign\" reading depends on leaving them out. Greg Brockman quit in protest the same day (S44). On Sunday the board named Emmett Shear interim CEO, which Altman told Bloomberg was \"real deception\" that made him \"f---ing really done\" (S40). Microsoft announced that Altman and Brockman would join it to lead a new AI team, and the employee letter threatened to follow them. Sutskever, author of the memos, publicly said he regretted his part in the board's action and signed the letter for Altman's return. That reversal is not in the evidence record and needs an opened source. In his 2025 deposition he also called the process \"rushed\" and said he had been considering removal for \"at least a year\" (S60). Calling Nadella \"mediating\" casts OpenAI's largest backer, which had just offered Altman a job, as a neutral broker. Without these facts, \"he ran a campaign\" credits personal image work and understates the leverage of a ready exit and an employee revolt.",
+      "acceptance_test": "The section briefly and with sources covers Brockman's resignation, the Shear appointment, Microsoft's job offer as leverage behind the letter, and Sutskever's public reversal (from his own post or reliable reporting, opened), plus the \"rushed\"/\"at least a year\" testimony. \"Mediating\" is replaced or attributed. The \"campaign\" interpretation is restated so it holds with that leverage acknowledged."
+    },
+    {
+      "id": "fan-07",
+      "severity": "major",
+      "passage": "In September 2017, in a fight over control of OpenAI, Sutskever and Brockman wrote to him",
+      "problem": "The profile never says that OpenAI was founded in 2015 as a nonprofit with Musk among its backers, or that Altman led its moves to a capped-profit company (2019, S32) and a 2025 restructuring (S33). That history is what the 2017 control fight, Musk's public attacks and the Musk lawsuit are about. Without it, \"a fight over control\" and \"while Elon Musk was criticizing OpenAI in public\" have no stakes. The evidence record holds the sharpest test of \"Your stated reasons have changed\": in the same September 2017 thread Altman wrote, \"i remain enthusiastic about the non-profit structure!\" (S56). It also covers the May 2026 trial. Asked on cross-examination \"Do you always tell the truth?\", Altman answered \"I believe I'm a truthful person,\" then \"I'm sure there is some time in my life when I have not\" (S72, The Ringer). A jury later rejected Musk's suit on timing grounds (S73). For an article whose central question is candor, sworn testimony on exactly that is a conspicuous gap.",
+      "acceptance_test": "One or two dated sentences give OpenAI's nonprofit origin and the 2019 and 2025 structural changes. The type argument weighs the 2017 \"non-profit structure\" reply against those changes, whether as Three image-adaptation, Eight control or ordinary capital pressure. The May 2026 cross-examination appears, attributed to the outlet, with the verdict's statute-of-limitations basis stated so it does not imply a ruling on his honesty."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "At about 17, after a Christian group boycotted an assembly about sexuality at the John Burroughs School, he addressed the whole school and announced that he was gay.",
+      "problem": "Tad Friend's 2016 account (S03) says Altman also asked \"whether the school wanted to be a repressive place or one open to different ideas.\" The speech was a public challenge to a boycotting group and to the institution, not only a self-disclosure. That matters to the comparison. The Four case reads it as self-expression, \"What the type doesn't explain\" calls it courage an image-manager wouldn't spend, and the conflict-averse thesis (with his own guess about \"not wanting more conflict\") has to account for a 17-year-old who took on a faction in front of everyone. The Eight section does not mention it.",
+      "acceptance_test": "The speech is described with its challenge to the school, attributed as Friend's paraphrase rather than Altman's words, and the type sections say which reading the confrontation supports."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "It is a brother's joke about a board game, and also the first entry in a long file.",
+      "reason": "Weighs a childhood anecdote honestly. It keeps the joke a joke while explaining why it matters, without turning it into origin-story certainty."
+    },
+    {
+      "passage": "That is his speculation, and this profile builds nothing on it.",
+      "reason": "Refuses to build a childhood-wound story from a hedged self-guess about a sensitive event. It is a model of restraint the edit should keep."
+    },
+    {
+      "passage": "Plenty of executives courted the new administration for business reasons. What fits the Three reading is the framing: a turn toward power, presented as independent thinking.",
+      "reason": "Concedes the ordinary explanation first, then finds the specific discriminator in dated primary sources (2016 blog, Stargate remarks, the 'npc trap' post). This is the profile at its best."
+    },
+    {
+      "passage": "As evidence of indifference to status, the salary is weaker than it looks, and he frames the regret in terms of how it looks.",
+      "reason": "Takes apart an old Four exhibit with Altman's own words in one precise sentence."
+    },
+    {
+      "passage": "A Four reading hears wistfulness. A Three reading hears the sting of being outdone, by a product he sells, at something he was good at, and a choice to say so in public. Both fit the sentence.",
+      "reason": "Leaves a real contradiction open instead of forcing it into the thesis, using a distinctive 2026 detail."
+    }
+  ],
+  "assessment": "Informed-reader read: the draft corrects the old page's misquotes, treats the sister's lawsuit and the 2026 New Yorker allegations with attribution and responses, and has several sentences worth protecting. It does not flatter Altman. Its weakness is selective use of well-known sources, which lets the Three case look cleaner than the record. Graham's island line is read against its \"Be independent\" context, and Graham's later reversal at YC is left out even though it is in the opened New Yorker source. Quotes about reading other people's emotions are used as evidence about his own feelings, and the mother's quote is truncated. The five days and the OpenAI structure fight omit their best-known turns: Microsoft's offer, Brockman, Shear, Sutskever's flip, the nonprofit history and the May 2026 testimony. Several of these cut against Altman and some would sharpen the Three case. The Type 3 lead may survive, but its discriminators need rebuilding on accurately framed quotes, and Six deserves a fair hearing. Minor absences that are not findings: Worldcoin/World (listed in knows_about but never discussed) and the 2017 political ambitions behind \"How does it connect to your political goals?\" Similarity: the diagnostic did not trip. The top pairs are ordinary type-definition sentences with no shared phrases (for example, \"An Eight tends to confront\" against Jonathan Bailey's counter-typing). The arguments themselves are specific to Altman, so there is no reuse finding. Limits: I opened Graham's essay directly. For the 2016 and 2026 New Yorker pieces, Bloomberg, TIME, The Ringer and the deposition report, I relied on the evidence record's quoted excerpts. Sutskever's November 2023 regret post and Microsoft's job offer come from general knowledge and need sources the editor opens. Risks: sensitive allegations, contested typing and a 4-to-3 thesis change all warrant the full jury."
+}

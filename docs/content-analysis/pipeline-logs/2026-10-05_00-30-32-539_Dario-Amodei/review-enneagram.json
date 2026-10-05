@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "992ec97f20f95f1758c66dd4544db6fae699f7fb935ffdb272dbc1a9c917799d",
+  "evidence_sha256": "f907a25633af7abea28d0dcf9dac1a78671d38b2deb064e246a27afc16ddd423",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Across ten years of the public record, Amodei keeps making the second move.",
+      "problem": "The stated discriminator rests mainly on institutional and policy design: government-first disclosure, a coordination regime, RSP trigger commitments, the long-term benefit trust, G7 coordination, embedded evaluators and joint governance. That is company governance, not personal dependency, so it cannot show whether the man himself pulls back or secures backup. It also fails inside 9takes. The live Demis Hassabis page types him 5w6 and credits a Five with 'the Six's instinct for alliances, institutions, and worst-case planning', citing an ethics board and a weapons ban negotiated into his own acquisition. That is the same architecture this page treats as decisive Six evidence. The Arthur-Mensch draft dropped 'alliance density' as a 5/6 tiebreaker for exactly this reason. Under the house typing, institution-building is consistent with both types and separates neither.",
+      "acceptance_test": "The 5-versus-6 argument rests first on interpersonal evidence already in the record: conditional stays bargained against promises (C22, attributed), leaving with 'people you trust' (C25), equal equity and 'total and complete trust' (C79, C80), the trusted inside versus the bad-faith outside (C83), and trust/sincerity vocabulary (C34). The policy architecture is explicitly labeled consistent but non-discriminating. The page names at least one thing Amodei does that the site's 5w6 Hassabis reading would not predict. If no such contrast survives, every passage that treats institutional design as proof is softened to 'consistent with'."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "What tips this page toward personality is that the reflexes predate the company: the threat-first reaction to scaling and the coordination proposals the Journal describes came years before Anthropic had a product to protect.",
+      "problem": "This sentence is the page's only answer to what it calls 'the most serious alternative', and it rules out commercial incentive only. It does not touch the professional and ideological explanation. In 2016-2017 he was already a working AI-safety researcher inside a community where staged disclosure, government partnership and international coordination regimes were standard proposals, so those reflexes may be learned field norms, not motive. The supporting evidence is also thinner than the sentence implies. The 2016 'tell the government first' exchange is Greg Brockman's account in an anonymously sourced feud story (S13 context). Kantrowitz (S01, opened) frames the same tendency as being 'too focused on maintaining secrecy around the technology's potential and collaborating with the government', which has a Five-compatible half. The Wired nuclear-deterrent reaction follows 'But now we're building the systems' (S03), and the article never dates it, so 'years before' is not established for that example.",
+      "acceptance_test": "The passage names professional role and field ideology as a separate non-type explanation. Before the page cites his 2016 role as an AI-safety researcher, the editor confirms it in an opened source (for example S44 or the 2016 'Concrete Problems in AI Safety' paper). The sentence says the coordination episodes are the Journal's anonymously sourced account, the 2016 exchange as told by Brockman. It either dates the nuclear-deterrent reaction from S03 or drops 'years before' for it. It then either cites pre-career or non-policy evidence for the same security-seeking move (for example the Baidu sequence or the Lex Fridman 'people you trust' answer) or narrows the claim to 'predates Anthropic's commercial interests'."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "A Six with a strong Five wing, a scientist's training and a sibling trusted completely to run operations would look much the same at a desk.",
+      "problem": "A wing is used here to absorb the strongest alternative's best evidence (one direct report, protected time, written-first thinking, rare social media). The standard forbids using wings to explain away contradictions. The evidence record says 'Wing and instinctual subtype are not established; the draft makes no wing, subtype or arrow claim', yet the body leans on a 'strong Five wing'. The move is also symmetric. A 5w6 absorbs the alliance and institution evidence just as easily, which is exactly what the site's Hassabis page does. So the wing argument cannot favor Six.",
+      "acceptance_test": "The wing no longer explains away Five evidence. Either the wing clause is cut and the desk habits are conceded as unexplained or non-discriminating, or the point is stated symmetrically (a 6w5 would keep these desk habits and a 5w6 would build these alliances, so neither set separates the types). The type case is then carried by the interpersonal discriminator from enneagram-01. No wing is asserted anywhere unless evidence and metadata support it."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "That is the counterphobic Six in one week: open defiance of the most powerful authority available, justified by reliability and accountability, with a pledge of loyalty attached.",
+      "problem": "'Counterphobic' is doing rescue work in three places. It explains why he builds AI ('That describes a man who builds frontier AI because he believes it is dangerous'). It explains the Pentagon defiance. It neutralizes his self-described bullishness ('unless it is the counterphobic kind'). The first use contradicts the article's own sourced motive. He says he builds because not building 'places AI in the hands of authoritarian powers' and delays benefits (C68), and the article itself says 'The father's story explains why he can't stop building'. The second use types a company's legal and PR stance with certainty, although any firm called 'a radical left, woke company' by a president would profess patriotism. Defiance of power justified by principle is also a stock Type 1 or Type 8 reading, and Diamos's 'one of the strongest personalities of anybody in the group' (S14) is unaddressed. No observation separates counterphobic Six from 1 or 8 here.",
+      "acceptance_test": "The type section no longer says he builds AI because he believes it is dangerous; building is credited to his stated reasons. The Pentagon paragraph says 'consistent with' rather than 'That is the counterphobic Six', and it names the observation that separates a 6 from a 1 or 8 in that episode (for example, lines framed around reliability and who can be trusted with the button, as opposed to his own rightness or his own power). Type 8 is dismissed in at least one clause with evidence, for example declining to run OpenAI in November 2023 and inviting checks on himself. The 'bullish' confidence is stated as a cost to the Six reading, not rescued by the subtype."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "It rarely targets sloppiness or rule-breaking for their own sake, where a perfectionist [Type 1](/enneagram-corner/enneagram-type-1) tends to burn.",
+      "problem": "The 6-versus-1 test rests on a stereotype. Dishonesty, bad faith and broken promises are core Type 1 triggers, because they are integrity violations, so 'anger targets dishonesty' does not separate 6 from 1. Opened sources also contain Type 1 evidence the page omits. Kantrowitz describes 'his strident sense of the way things should be' and says he 'could be a bit abrasive, sometimes disparaging projects he didn't believe in' (S01). The WSJ reports Altman's 2019 email saying Dario agreed 'not to denigrate projects he doesn't believe in' (S13). The 2003 op-ed continues 'This needs to change, right now and without delay' (S01). The RSP complaint says the lack of uniformity 'is not fair to those of us who have put a lot of effort into being very thoughtful about these procedures' (S06). The type answer's own phrase, 'rules that bind everyone, including himself', reads at least as much like 1 as 6. As written, the Type 1 paragraph is a token third.",
+      "acceptance_test": "The sloppiness stereotype is replaced by a motive-level 6-versus-1 discriminator. The page already has one: 'His moral lines usually arrive through reliability and trust rather than through his own rightness', supported by conditional-loyalty bargaining and anger at being 'left out of the loop' (S13, attributed). At least two of the omitted Type 1 data points appear in the Type 1 paragraph with attribution. The page then says plainly why 6 still leads or, if it cannot, lowers its confidence language."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "major",
+      "passage": "A Five who disagrees often goes quiet and routes around the problem. Amodei argues first.",
+      "problem": "Throughout the article the Five is defined by behavioral caricature: quiet, cool, withdrawn, needing less ('A Five protects itself by needing less from other people'; 'hard to square with a Five's cool distance'; 'Under threat, a Five tends to reduce dependence'). The motive is never stated: security through mastery, understanding and a self-sufficient vantage point. Fives can be combative in argument within their domain. Under the motive version, several observations filed elsewhere lean Five and are never tested for it: 'the thing that no one else sees' (used only as division-of-labor evidence), 'one of the most bullish' confidence in his own forecasts, the 'anti-swayed' reaction to the celebrity-investor pitch for OpenAI (S03, opened, omitted), the secrecy half of S01's government passage, and updating by his own model in 2026 ('I have become convinced'). Rejecting a caricature is not a serious test of the strongest alternative.",
+      "acceptance_test": "The Five is stated once in motive terms, near the type answer. The 'goes quiet and routes around the problem' generalization is cut or qualified. At least two of the 5-leaning observations listed here are tested explicitly against both readings, and the article says which reading explains each better and why. Each section ends without restating the same 'a Five would X; Amodei does Y' contrast."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "so worry and intellect can't separate them. The move under threat can.",
+      "problem": "The chosen discriminator is how he personally responds to threat. The one source about his personal stress response, Bloomberg's 'How Anthropic CEO Dario Amodei Protects His Time, De-Stresses' (S39), was read only to its lede and is used only for the Five side. The Bloomberg Originals interview chapters on 'Trust' and 'Dario's writing style' (S40) are unavailable. I retried S39 through a reader proxy on 2026-10-05 and the body was still paywalled. The page's confidence that 'the move under threat' separates the types rests on institutional behavior because the personal-behavior record is incomplete.",
+      "acceptance_test": "The editor either reads the S39 body or the S40 'Trust' chapter and records whether he describes withdrawal and conserving energy or leaning on people as his stress response, re-weighing 5 against 6 if needed, or, if both stay unavailable, adds one sentence near the discriminator saying how he personally de-stresses is not in the record reviewed. This research task should be marked required, not 'optional strengthening'."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Read as a Five, that is independence: go build your own system. The words that matter are in the middle. He takes people he trusts, and the suspicion he names is dishonesty.",
+      "reason": "This is the page's best discriminating move. It reads a primary quote closely and finds the trust/dishonesty detail a Five reading cannot easily absorb. The type argument should be re-anchored on evidence like this."
+    },
+    {
+      "passage": "Both disclosures arrived as evidence inside arguments. Read as a Five, he spent a reserved fact when the argument needed it. Read as a Six, he offered proof of sincerity to a public he had just described as in a crisis of trust, with his word attached. Both readings fit, so this page does not lean on them.",
+      "reason": "It is a model of honest typing: both hypotheses are applied to the same sensitive evidence, and the page declines to count it. Keep it as written."
+    },
+    {
+      "passage": "The lesson of his father's death is that delay has a body count. It explains why he keeps building. It does not explain what he does with the danger of the thing he builds, and that part of him shows up early.",
+      "reason": "It separates the circumstantial explanation (loss) from the type explanation, so the type does not have to explain everything. Enneagram-04 asks the type section to stop contradicting it."
+    },
+    {
+      "passage": "From outside, securing a safe base and grabbing control look the same.",
+      "reason": "It is an unresolved contradiction that survives the type argument, stated plainly. This is the honesty the Enneagram dimension rewards."
+    },
+    {
+      "passage": "The most serious alternative may not be a type at all.",
+      "reason": "It names the non-type (incentive) explanation as a real rival rather than a footnote. Enneagram-02 asks for a stronger answer to it, not removal."
+    }
+  ],
+  "assessment": "Type 6 at medium confidence is defensible and improves on the old Five reading. The decade of trust, sincerity and bad-faith vocabulary, the bargaining for promises before staying, and the 'people you trust' exit rule are real interpersonal evidence a Five does not easily explain. The weak point is the discriminator the article actually states. It leans on institutional and policy design, which the site's own Hassabis page reads as 5w6 and which the AI-safety field explains as a learned norm. It then uses a 'strong Five wing' and 'counterphobic' to absorb the Five evidence, his confident forecasts and the Pentagon defiance. Both alternatives are tested against caricatures: a quiet, cool Five and a 1 who burns at sloppiness. Opened-source Type 1 evidence (Kantrowitz's 'strident sense of the way things should be', the 'disparaging projects' accounts, the RSP fairness complaint) is missing. Fix: re-anchor the case on interpersonal evidence, state 5 and 1 by motive, and soften certainty where only institutional evidence remains. At about 4,000 body words, above the 3,500 target, repairs should replace text, not add it. Similarity: the tripped 0.47 pair with Arthur-Mensch is a stock disclaimer ('a reading of public evidence'), not argument reuse. The 5/6 'secure support vs pull back' frame recurs across the Mensch, Fielder and Navarrette pages, but here it is filled with Amodei-specific evidence. The one substantive overlap, alliance density, is covered in enneagram-01. Release note outside this draft: Arthur-Mensch.md says Amodei 'read[s] as a Five on 9takes', which goes stale if this retype publishes. Limitation: the S39 body was paywalled when retried on 2026-10-05."
+}

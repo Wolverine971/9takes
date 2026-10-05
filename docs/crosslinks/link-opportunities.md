@@ -1,6 +1,6 @@
 # Link Opportunities
 
-_Generated: 2026-10-04 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
+_Generated: 2026-10-05 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
 _Search data: GSC 2026-07-04 → 2026-10-02. 320 candidate links found (+115 weaker ones offered only for gate debt); 130 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
@@ -96,10 +96,13 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 A people page names another person who needs links (2 or fewer contextual links in) without linking them.
 Sources with 10+ internal links are skipped; at most 2 per source, and targets fill to 3.
 These pages live in the database: edit the draft, then sync (see `/crosslink-queue` step 4b).
-3 unlinked mentions found; top 3 after caps.
+7 unlinked mentions found; top 6 after caps.
 
 | Target (in, impressions) | Source (line) | Anchor | Sentence |
 |---|---|---|---|
-| `/personality-analysis/emma-stone` (1, 0) | `src/blog/people/drafts/Jimmy-Fallon.md` (L195) | "Emma Stone" | Lip Sync Battle, Box of Lies, Wheel of Musical Impressions, Egg Russian Roulette. The genius was never the games themselves. It was that he… |
-| `/personality-analysis/emma-stone` (1, 0) | `src/blog/people/drafts/Druski.md` (L335) | "Emma Stone" | On June 28, 2026, he hosted the BET Awards, then the youngest host in the show's history, checking off a goal from the list he wrote at 23.… |
+| `/personality-analysis/andrew-garfield` (0, 0) | `src/blog/people/drafts/Emma-Stone.md` (L136) | "Andrew Garfield" | Around the same time, she fell in love with Andrew Garfield. They met in 2010 when he screen-tested opposite her for _The Amazing Spider-Ma… |
+| `/personality-analysis/andrew-garfield` (0, 0) | `src/blog/people/drafts/Tom-Holland.md` (L211) | "Andrew Garfield" | Holland's specific flavor is 7w6, the Entertainer wing. The 6 wing adds a layer of loyalty, anxiety about security, and a deep need to belo… |
+| `/personality-analysis/andrew-garfield` (0, 0) | `src/blog/people/drafts/Tobey-Maguire.md` (L202) | "Andrew Garfield" | That kind of loyalty runs in both directions, and other actors feel its pull. When the three screen Spider-Men reunited for *No Way Home* a… |
 | `/personality-analysis/jamie-dimon` (2, 222) | `src/blog/people/drafts/Adam-Neumann.md` (L255) | "Jamie Dimon" | Behind the scenes, the establishment had reached its own verdict. Jamie Dimon — Neumann's personal banker, whose JPMorgan was the lead unde… |
+| `/personality-analysis/demis-hassabis` (2, 182) | `src/blog/people/drafts/Peter-Thiel.md` (L131) | "Demis Hassabis" | Years later, Demis Hassabis, co-founder of DeepMind, had exactly one minute with Thiel at the Singularity Summit. He'd spent a year prepari… |
+| `/personality-analysis/emma-stone` (2, 0) | `src/blog/people/drafts/Jimmy-Fallon.md` (L195) | "Emma Stone" | Lip Sync Battle, Box of Lies, Wheel of Musical Impressions, Egg Russian Roulette. The genius was never the games themselves. It was that he… |

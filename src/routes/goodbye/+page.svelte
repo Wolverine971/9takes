@@ -4,12 +4,12 @@
 	<meta name="robots" content="noindex, nofollow" />
 </svelte:head>
 
-<main class="confirmation">
+<div class="confirmation page-main">
 	<a class="brand" href="/">9takes</a>
 	<h1>You are off the list.</h1>
 	<p>You will not receive the reactivation sequence or future 9takes emails at that address.</p>
 	<a class="button" href="/">Back to 9takes</a>
-</main>
+</div>
 
 <style>
 	.confirmation {

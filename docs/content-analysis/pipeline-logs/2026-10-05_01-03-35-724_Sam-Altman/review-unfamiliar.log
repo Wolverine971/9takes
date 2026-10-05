@@ -1,0 +1,19 @@
+I've written the unfamiliar-reader review for the Sam Altman refresh to `docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-unfamiliar.json`. It passes the review schema check, carries the right role and hashes from the request, and every passage it quotes appears word for word in the draft. That's the only file I wrote: nothing was published, and I didn't open the other jurors' reviews.
+
+**Verdict:** it's a strong portrait for someone with no background. The island → room → apology storyline is clear, the test that separates the types is stated early in plain language, and the Type 4 and Type 8 cases get real evidence. I logged three major and five minor findings:
+
+- **Major: a misread quote.** The "alien intrigue" line is set up as Altman describing his own feelings. In the 2016 New Yorker profile, he was actually talking about reading *other people's* emotions in a photo. The article then uses it to argue he processes feelings late, which the quote doesn't show. It also clashes with the article's own claim that he reads every room.
+- **Major: the opening confession has no context.** The April 10, 2026 post was answering a New Yorker investigation into whether he can be trusted, published days earlier, as well as the firebombing. The draft never says so, so readers take the apology as unprompted. Later, "Altman called the article 'incendiary'" doesn't say which article.
+- **Major: the type answer rests on weak evidence.** The answer box and the type FAQ back Type 3 only with conflict aversion. The article itself admits that trait fits Type 9 or Type 2 just as well.
+- **Minor:**
+  - **AI-safety stakes:** these arrive too late, and the reader never learns how Altman won his job back. Insider terms like "superalignment" go unexplained, and Dario Amodei is never identified.
+  - **Introductions:** several people and terms are never explained (Paul Graham, Y Combinator, Greg Brockman, Mira Murati, "npc trap"). The $43.4M Loopt sale isn't framed as a modest exit.
+  - **Back third:** the momentum sags. The sister's lawsuit section breaks into the type argument, the fatherhood paragraph never connects to the thesis, and the body runs about 4,190 words against a 3,500-word target.
+  - **Page history:** "several corrected quotes" is insider meta-commentary a first-time reader can't use.
+  - **Dates:** "Three years later" should be about two years (October 2016 to January 2019).
+
+I flagged five passages to keep: the Graham "king of the island" hook, the "uncontrolled smile" reading, Jacobstein's "blurring" insight, the "nostalgic for the present" two-readings beat, and the closing "lose a room on purpose" line.
+
+The similarity check didn't flag anything. The closest match, to the Jonathan Bailey profile, is one-line type definitions with no shared phrases. I also marked sensitive allegations, contested typing and the 4→3 thesis change as risks, consistent with the six-reviewer jury.
+
+The Supabase connection failed to connect this session. Several plugin connections (GitHub, Ahrefs, Slack and others) also need authorizing in your connector settings or via `/mcp`. Neither affected this review.

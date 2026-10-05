@@ -1,0 +1,21 @@
+I wrote the critic review for the Sam Altman refresh to `docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-critic.json`. It passes the review schema check, and both hashes match the request. That's the only file I wrote in the repo. I didn't touch the draft, the evidence file, the other reviews, or anything that publishes.
+
+**Verdict:** The draft is honest about switching Altman from Type 4 to Type 3, and it handles the assault and his sister's lawsuit carefully. The problem is that the Type 3 case is built on the mildest version of what he's accused of. I flagged eight findings: six major, two minor, no blockers.
+
+- **"Conflict-averse" is his own defence, not a confession.** Each time he says it, he's answering an accusation of lying. The April 2026 post came days after the New Yorker investigation into his honesty. The draft counts it as a second witness alongside his colleagues.
+- **The harder evidence is left out, though the evidence file already has it.** He told Bloomberg board members "were not happy with the way that I tried to get them off the board. Lesson learned on that." Helen Toner, one of the board members who fired him, says he lied to other board members to push her out. That's neither accommodating people nor open confrontation, and it bears directly on the Type 3 vs Type 8 argument.
+- **The opening misreads Paul Graham.** His "king of the island" line is about founders who can take care of themselves without investors, not about reading the room. The draft also never mentions how Altman left YC in 2019. The New Yorker reports Graham privately said "Sam had been lying to us all the time." Graham's public line is "we didn't want him to leave, just to choose."
+- **Two of the three reasons for Type 3 are weaker than they look:**
+  - The two times he called himself low in emotional intelligence were about reading other people. That clashes with the article's own picture of him as a man who reads every room.
+  - The claim that his feelings only come out later and in public is contradicted by quotes in the draft: "This is just so fucked up" on the board call, "supermad," and the private "it really fucking hurts" email to Elon Musk.
+- **The "it's just a salesman's job" explanation is raised but never answered** at the point where the article picks Type 3.
+- **Minor:** the ambition quote drops the half where he says he's "very ambitious" about humanity's future. Two Karen Hao book passages were checked only through a hostile anonymous compilation, not the book itself.
+
+None of this necessarily overturns Type 3. A full account of how he maneuvers quietly while keeping his image clean might make the case stronger. Medium confidence is the right ceiling.
+
+**How I checked:** I re-opened the 2026 New Yorker article, Graham's essay and the Bloomberg interview myself, and confirmed Graham's public denial that YC fired Altman through search results. Other source checks used the excerpts already saved in the evidence file, and I couldn't get the Hao book. The similarity check didn't flag any reused writing.
+
+Sources for the Graham/YC check:
+- [Hacker News: "I got tired of hearing that YC fired Sam, so here's what actually happened"](https://news.ycombinator.com/item?id=40521657)
+- [Forbes: Sam Altman wasn't fired from Y Combinator, founder says](https://www.forbes.com/sites/roberthart/2024/05/30/sam-altman-wasnt-fired-from-y-combinator-founder-says-as-openai-chief-faces-criticism-from-ex-board-member/)
+- [The Information: Paul Graham denies Y Combinator fired Sam Altman](https://www.theinformation.com/briefings/paul-graham-denies-y-combinator-fired-sam-altman)

@@ -1,0 +1,25 @@
+I wrote the fan review to `docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/review-fan.json`. It passes the review schema check, and its two hashes match a fresh recompute of the frozen draft and evidence file. No other files were changed and nothing was published. I didn't read the other review (`review-subject.json`).
+
+**Verdict:** the draft attributes its sources carefully and takes the alternatives seriously. But it leans toward the Type 6 reading and toward how Amodei presents himself. Six still holds at medium confidence, so there are no blockers. There are 4 major and 4 minor findings:
+
+- **fan-01 (major), a key quote is misread.** I opened the Lex Fridman transcript. In his answer about leaving OpenAI, "You might think they're dishonest" is a hypothetical, and he immediately adds "Who knows? Maybe you're right, maybe you're not." His actual point is that arguing with someone else's vision is "incredibly unproductive." The draft says "the suspicion he names is dishonesty," and the evidence file treats this quote as the best single piece of evidence for 6 over 5.
+- **fan-02 (major), his years building AI are missing.** The title is "Why Dario Amodei Can't Stop Building the Thing He Fears Most," but the profile never says what he built before Anthropic. Sources already in the evidence file cover it:
+  - a safety paper he co-wrote at Google Brain;
+  - GPT-2, which he wanted to "signpost" as possibly dangerous;
+  - RLHF, which he helped pioneer;
+  - leading GPT-3 with 50–60% of OpenAI's computing power.
+
+  The draft also says his "disagree, then leave" pattern "recurs for the rest of his career." That overreaches: Big Technology says Baidu's lab collapsed from internal turf battles, and he left Google over "large-company morass."
+- **fan-03 (major), the anger section is selective.** It says his anger "has a consistent target" (bad faith). The same WSJ story it quotes also shows him angry at being left out of an Obama meeting, annoyed over credit, and "horrified" by firings he found "needlessly cruel."
+- **fan-04 (major), the colleague critique is left out.** Big Technology reports OpenAI colleagues saw his memos as "flag planting and heavy handed" and found him "a bit abrasive." That undercuts the Type 5 reading of his writing habit, and contradicts the draft's "usually measured scientist." The same passage also backs up his government-first instinct with a second source, which the draft currently rests on the WSJ's unnamed sources alone.
+- **Minor:**
+  - His best-known warning is missing: the 2025 prediction about white-collar jobs and his 2026 softening of it.
+  - The G7 section uses an unnamed-source 2017 account when his own 2024 "Machines of Loving Grace" essay argues for a coalition of democracies. The draft also misses that the 2026 export controls on his models were the kind of tool he had urged against China.
+  - The closing line "he doesn't exempt himself" and the "Reluctant Prometheus" title flatter him more than the record supports.
+  - The heading "A cure that came a few years late" adopts his timeline, but the drug he named was approved in 2013, about seven years after his father died in 2006. The Type 5 section also says he kept his father's illness out of earlier profiles; he only withheld the disease's name.
+
+The review protects five passages, including "the same idea with furniture" and "From outside, securing a safe base and grabbing control look the same."
+
+The similarity check flagged one match (0.47) with the Arthur Mensch draft. It's the standard "reading of public evidence" disclaimer, not a reused argument, so I didn't make it a finding. I kept all four risk flags from the evidence file, which supports running the full six-reviewer jury.
+
+The supabase connector failed to connect, and several plugin connectors (GitHub, Slack, Ahrefs and others) need authorizing via /mcp. None of them were needed for this review.

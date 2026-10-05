@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "unfamiliar",
+	"content_sha256": "992ec97f20f95f1758c66dd4544db6fae699f7fb935ffdb272dbc1a9c917799d",
+	"evidence_sha256": "f907a25633af7abea28d0dcf9dac1a78671d38b2deb064e246a27afc16ddd423",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "unfamiliar-01",
+			"severity": "major",
+			"passage": "After a Stanford postdoc, he moved into deep learning at Baidu.",
+			"problem": "The career story jumps from Baidu straight into the WSJ feud. A reader with no prior knowledge is never told that he joined OpenAI, when, or what he did there (the Journal's own excerpt has him asking for and getting vice president of research; Wired's account covers his GPT-2 era work). So 'Staying on conditions' has no stakes: why did it matter whether he stayed, and why could he extract promises from Altman? 'Of his theory about how far scaling could go' is also unexplained, though it is the core of the 'can't stop building' title. The reader learns he fears the technology but not that he helped prove it would work.",
+			"acceptance_test": "Before the first OpenAI anecdote, one or two sentences sourced only to opened sources (S13, S03, S44) say that he moved to OpenAI and what role and work he led there, and gloss 'scaling' in plain language (more data and computing power producing more capable systems). A reader new to AI can answer 'what did he build at OpenAI, and why did his staying or leaving matter?' No career dates the research stage cut as unverified come back."
+		},
+		{
+			"id": "unfamiliar-02",
+			"severity": "major",
+			"passage": "In September 2026 he changed position, writing that \"over the last few months, I have become convinced\" that \"We must slow the pace at which we improve the capabilities of AI models,\"",
+			"problem": "This section closes the loop on the hook's essay, but an unfamiliar reader can't tell what happened. The heading promises a pre-set brake being pulled. The prose says he 'changed position', Axios says Anthropic has gone 'back and forth', and his stated reason (since roughly summer 2026, AI's growing ability to build the next generation of AI, per S09) is never given. So the reader can't judge whether he honored his July 2025 condition, which would support the self-binding thesis, or reversed himself, which would complicate it. The section then detours through Gavin Baker and the X disclosures and ends on 'Both readings fit, so this page does not lean on them.' That leaves the penultimate beat with no payoff. The opening also never says the slowdown essay was a shift, so its most surprising fact surfaces only near the end.",
+			"acceptance_test": "The section gives his stated reason for the September 2026 shift with its source, and says in one plain sentence whether that matches the July 2025 condition and what this means for the thesis. The heading agrees with that sentence. The Baker exchange and the disclosures either serve that point or move elsewhere, and the section ends on a sentence that moves the portrait forward, not on a disclaimer. Optional: one clause in the opening paragraphs says the essay marked a change from his 2025 stance."
+		},
+		{
+			"id": "unfamiliar-03",
+			"severity": "major",
+			"passage": "A Five protects itself by needing less from other people.",
+			"problem": "Almost every section ends by arguing Five against Six again: 'A Five who disagrees often goes quiet... Amodei argues first'; 'Read as a Five, that is independence'; 'A Five protects itself by needing less'; 'hard to square with a Five's cool distance. It fits a Six'; 'An earlier version of this page read that lunch as a Five'; 'Read as a Five, he spent a reserved fact'. The type section has already stated the discriminator and 'The case for Type 5' argues it in full. By the midpoint an unfamiliar reader is reading a brief, not meeting a person. The verdict is predictable before each section's evidence lands, so momentum drops.",
+			"acceptance_test": "Outside the type section and 'The case for Type 5', no more than three passages explicitly set Five against Six. The other sections end on the evidence, a consequence, or a new turn in his story. Each section can be summarized as something new the reader learned about Amodei, not as 'another Six-not-Five data point'."
+		},
+		{
+			"id": "unfamiliar-04",
+			"severity": "minor",
+			"passage": "and struck one designation on August 27",
+			"problem": "The reader has been told about only one label (Hegseth's supply-chain-risk designation). 'Struck one designation' and 'upheld the other' assume they know there were two parallel designations and two courts, so the paragraph reads as an unexplained legal ledger. It also adds nothing about Amodei's behavior, and its status changes with every ruling. It makes the article's longest section longer without advancing the portrait.",
+			"acceptance_test": "Either cut the paragraph to one dated sentence saying the dispute was split and unresolved in court as of early October 2026, or introduce both designations before saying which court ruled on which. A reader who has never heard of the case can say what each ruling did, or wasn't asked to track it."
+		},
+		{
+			"id": "unfamiliar-05",
+			"severity": "minor",
+			"passage": "An earlier version of this page read that lunch as a Five forced out of self-reliance.",
+			"problem": "A first-time reader never saw the earlier page. A second reference to its history (after the one in the type section) reads as inside baseball and pulls attention from Amodei to the site's own revisions. It will also age badly as the page goes on changing. The point it makes, that coordination under pressure is a habit going back to 2017, stands without it.",
+			"acceptance_test": "The page mentions its prior typing at most once. The G7 paragraph argues the 2017-to-2026 coordination pattern directly from the evidence, without reference to an earlier version of the page."
+		},
+		{
+			"id": "unfamiliar-06",
+			"severity": "minor",
+			"passage": "Readers often ask whether he is autistic.",
+			"problem": "In the type section, before the reader has met him, the article raises a diagnosis question unprompted. An unfamiliar reader who had no such question now has the idea planted, and 'Readers often ask' is an unsourced claim about the audience. The disclaimer is careful, but where it sits makes the orientation section about something the page says it will not discuss.",
+			"acceptance_test": "The neurodivergence note is moved out of the opening type section (for example to an FAQ, or a short note after the Type 5 discussion of his solitary habits) or cut. If kept, it does not assert what readers ask unless the claim is grounded, and it keeps the existing 'infers none' language."
+		},
+		{
+			"id": "unfamiliar-07",
+			"severity": "minor",
+			"passage": "This is a reading of public evidence, not access to his mind or a clinical claim.",
+			"problem": "Similarity lead: this sentence nearly duplicates the Arthur Mensch profile's 'That is a reading of public evidence rather than a diagnosis' (score 0.47), and it is generic boilerplate the article already covers with 'at medium confidence' and local hedging. Comparing the arguments, the Mensch page is another AI-lab founder typed Six over Five on the same discriminator: trusted people plus built structure instead of withdrawal. The generic paragraph 'A Five tends to pull back, need less and rely on private competence. A Six tends to secure backup...' could be pasted into either page. Amodei's distinct evidence (self-binding trigger commitments, outside evaluators, anger at bad faith) carries the difference, so this is minor. The other matches ('the public record', 'this page', 'pull back') are ordinary vocabulary and not reuse.",
+			"acceptance_test": "The disclaimer sentence is cut or rewritten so it is not near-verbatim with another profile. The type section's Five/Six discriminator paragraph names at least one Amodei-specific act (for example the evaluators who can publish without Anthropic's editorial control, or the 'people you trust' rule) so it could not be pasted unchanged into the Mensch page."
+		},
+		{
+			"id": "unfamiliar-08",
+			"severity": "minor",
+			"passage": "Dario agreed to stay so long as Altman promised that Brockman and Sutskever wouldn't be in charge",
+			"problem": "Several names and terms a newcomer needs are never decoded. Sam Altman is never identified as OpenAI's chief executive in the prose. Sutskever gets no first name or role. Jensen Huang gets no role. The November 2023 approach from OpenAI's board appears without the context that the board had just ousted Altman. 'Department of War' appears beside 'the Pentagon' with no link between them. 'Head types' and 'a strong Five wing' are used without a gloss, though 'counterphobic' is helpfully defined.",
+			"acceptance_test": "On first mention, Altman, Ilya Sutskever and Jensen Huang each get a short role descriptor that their sources support. The November 2023 sentence gets a clause of context. The Department of War quote is tied to the Pentagon. 'Head types' and 'Five wing' are glossed in a few words or replaced with plain language."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "This profile is about what he does with the fear that is left over.",
+			"reason": "Orientation in one line: it tells a newcomer the question the article will answer, and the article pays it off."
+		},
+		{
+			"passage": "The lesson of his father's death is that delay has a body count.",
+			"reason": "Turns the sourced biography into the stakes of the whole piece in eight words. It is the sentence an unfamiliar reader will remember."
+		},
+		{
+			"passage": "Jade Wang, who dated him in the early 2010s, told Big Technology what the timing meant: \"It's the difference between his father most likely dying and most likely living, okay?\"",
+			"reason": "Named outside testimony that makes the father's story concrete and human rather than asserted, and gives it emotional weight."
+		},
+		{
+			"passage": "The 2026 evaluators, with their desks and badges, are the same idea with furniture.",
+			"reason": "A vivid, specific callback that connects the hook to Anthropic's early structure and lands the argument without jargon."
+		},
+		{
+			"passage": "From outside, securing a safe base and grabbing control look the same.",
+			"reason": "An honest unresolved contradiction that survives the type argument. It shows the reader a person, not just a type, and fairly hands them the strongest skeptical reading."
+		}
+	],
+	"assessment": "For an unfamiliar reader the start is strong: a dated, specific hook (the September 12, 2026 essay and its embedded evaluators), a one-line identity, a type answer under 60 words, and an explicit question ('what he does with the fear that is left over'). The father section supplies real stakes, and the anger and 'What the type doesn't settle' sections show a person rather than a type. Three things cost orientation and momentum. First, the reader never learns what he did at OpenAI before the feud section relies on it, so the 'builder' story has a hole between Baidu and Anthropic. Second, nearly every section ends by re-arguing Five against Six, which turns the portrait into a brief by the midpoint. Third, the penultimate section, which resolves the hook's essay, never gives his stated reason for the shift or says whether his 2025 brake was triggered, then ends on 'this page does not lean on them'. Smaller problems: the Washington section carries litigation status that teaches nothing about him; the page refers to its own history twice; and several names and terms go undecoded. Similarity: the 0.47 Arthur Mensch match is a near-verbatim disclaimer. At the argument level both AI-founder profiles pick Six over Five on the same discriminator, but Amodei's self-binding evidence keeps this one distinct, so the finding is minor. Risk flags: the page retypes a live page from 5 to 6 at medium confidence (major thesis change, contested typing) and relies on unnamed-source WSJ feud material plus health disclosures (sensitive allegations)."
+}

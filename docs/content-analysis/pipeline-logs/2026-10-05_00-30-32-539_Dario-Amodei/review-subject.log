@@ -1,0 +1,22 @@
+I've written the subject-role (fairness) review to `docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/review-subject.json`. It passes the review schema, and every quoted passage in it matches the frozen draft exactly. Nothing else was changed and nothing was published.
+
+**Verdict:** most of the draft is careful about fairness. Four major problems remain, all in places where the Type 6 argument relies on quotes or claims missing their context:
+
+1. **The Lex Fridman "dishonest" quote is turned around.** In the full transcript he lists two complaints someone *might* have ("not doing it the right way", "dishonest") and then says "Who knows? Maybe you're right, maybe you're not." The draft cuts that and calls dishonesty "the suspicion he names". That quote is the main 5-vs-6 evidence.
+2. **The WSJ private messages are missing their context.** The "mendacious" Slack post came right after OpenAI announced its Pentagon deal. The Journal itself describes the tobacco comparison as part of a "healthy alternative" brand strategy. The same article also reports him angry at being left out of the loop, which undercuts the draft's claim that his anger targets dishonesty and broken promises.
+3. **"Until 2026 he kept even his father's illness out of the long profiles" is false.** The 2025 podcast and profile discuss the illness at length; only its name was missing. The draft then reads his hepatitis C and cancer disclosures as tactical ("spent a reserved fact").
+4. **The strongest critique runs without his answer.** Palihapitiya's line says the pacing essay argues against open source, but the essay never mentions open source. The essay also answers the "regulatory capture" charge directly. Similarly, the Huang exchange keeps "most outrageous lie" but drops his actual rebuttal.
+
+Four minor findings:
+- Trump's "woke company" label appears without Amodei's CBS answer to it.
+- "Rivals' unenforced promises" leaves out that he included his own industry ("us as an industry").
+- "Recognition matters to him" is stated as fact on thin evidence, and Berry's favorable testimony to AFP is dropped.
+- The title's "Can't Stop… Fears Most" claims a compulsion the body itself calls a choice.
+
+The review also protects five passages and keeps all three risk flags on, so the six-role jury is warranted. The similarity matches are shared disclaimer phrases, not reused arguments, so there's no reuse finding.
+
+I didn't open the X posts, the paywalled Bloomberg piece or the FT summary.
+
+Two connections are down this session:
+- **Supabase** failed to connect; this stage didn't need it.
+- **Engineering and marketing plugin servers** (GitHub, Slack, Ahrefs and others) need authorization in your claude.ai connector settings, or via `/mcp` in an interactive session.

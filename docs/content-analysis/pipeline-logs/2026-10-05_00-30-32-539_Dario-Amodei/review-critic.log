@@ -1,0 +1,21 @@
+I've written the critic review to `docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/review-critic.json`. It passes the review schema, every quoted passage matches the frozen draft exactly, and the two hashes are copied from the request. That's the only file I created; the draft, evidence, other reviews and other pages are untouched, and nothing was published.
+
+**Verdict:** I found no made-up facts and no misquotes; the quoted words match the sources. The weakness is that the bad evidence about him sits in the sections set aside for counterarguments, while the main story sections state flattering explanations as fact. I reopened six sources (the "We Must Pace the Frontier" essay, the WSJ feud piece, the Big Technology profile, the AFP profile, Fortune and Axios). Each one has context that cuts against the claim it's cited for.
+
+**Eight findings (six major, two minor):**
+1. **The opening quote is cut short.** The essay says Anthropic is "unilaterally committing to" outside evaluators "(and calls on governments to require other frontier companies to match)." The draft drops that clause and Anthropic's right to redact "commercially sensitive" material. It also leaves out that Sam Altman made the same pledge the same day.
+2. **"The reflexes predate the company" doesn't hold up.** Two alternatives also predate Anthropic, and the draft never mentions either:
+   - At OpenAI, some colleagues already saw his safety focus as "a route to control the company."
+   - His effective-altruism circle: he made the 2016 "tell the government first" argument jointly with Holden Karnofsky, and AFP calls him a leading figure in the movement. AFP also reports that Anthropic says he doesn't identify as EA.
+3. **The anger section picks its examples.** The WSJ also reports him getting angry at being "left out of the loop" on an Obama meeting, and calling Greg Brockman's pro-Trump donation "evil." Neither is about a broken promise.
+4. **The WSJ's own interpretation is dropped.** The draft uses the Journal's facts but not its reading: it says the split was partly over "power and credit," describes a turf fight over the GPT language project, and calls the tobacco comparison a "brand strategy."
+5. **The ending claims too much.** "He doesn't exempt himself" settles what the "What the type doesn't settle" section admits it can't. It also skips the Pentagon official's charge that he has a "God complex" and wants "to personally control the U.S military."
+6. **The father's death is stated as the cause** of his career, in the author's voice. The draft itself shows him using that story to win arguments, and the record gives other reasons too.
+7. *(minor)* "That is the counterphobic Six in one week" is asserted as fact. The section also leaves out the Pentagon's side, and doesn't mention that refusing the Pentagon set Anthropic apart from OpenAI and xAI, which had accepted its terms.
+8. *(minor)* The heading "The brake he set in advance" suggests he pulled a brake he'd committed to in 2025. The essay names two recent triggers instead, and it came out the same week an Anthropic employee resigned publicly with a doom warning.
+
+**Similarity check:** the top match with the Arthur Mensch page is a shared disclaimer sentence, which is boilerplate. The two pages also break the Type 5 vs. Type 6 tie the same way, but the evidence here is specific to Amodei, so I didn't count it as reuse.
+
+**Outside this stage:** the Arthur Mensch draft says Amodei reads "as a Five on 9takes." That becomes false if this retype to Type 6 ships, so that page needs a follow-up edit.
+
+I kept all of research's risk flags as they were, and the six-role review is warranted.

@@ -1,0 +1,16 @@
+The Sam Altman verification passed, and I wrote `verification-edit.json`, the only file this stage changes. I didn't modify or publish anything else. Running the scores through the pipeline's own release check gives "eligible" with no blockers.
+
+**Scores:** evidence 8.5, Enneagram 8.5, originality 8.5, writing 8.0, durability 8.5, hook 9.0, discoverability 8.5. The overall works out to 8.45, which rounds to 8.5, exactly the release floor. I set each score before computing the overall; any slip of a single score would drop it to a hold. Writing scored lowest because the body runs 4,377 words, well past the roughly 3,500-word target. The "Why Type 3 leads" section and the section of witness accounts are dense.
+
+**What I checked:**
+- **Sources and quotes:** I reopened all 71 cited sources. Every quotation in the body, FAQs and description matches its source. Where a site blocked direct download, I used reader proxies, the Wayback Machine or X's public post API. For two podcast quotes with no written transcript, I transcribed the audio myself: "clearly a bully" from the Bari Weiss episode, and the equity regret from the 2024 DealBook interview.
+- **Review findings:** all 48 findings from the six reviewers were resolved in ways that meet their own pass conditions. That includes one partial rejection: the editor refused to cut the piece toward 3,600 words, because other reviewers had required added counterevidence. I agree with that call.
+- **Kept passages and lawsuit status:** all 22 passages the reviewers asked to keep survived. One was reworded slightly, with its point intact. The sister's lawsuit paragraph matches the court docket as of today.
+
+**Four small issues, none blocking release:**
+1. "co-found Loopt … in 2005, at 19": no opened source gives his age. Y Combinator's first batch ran the summer after he turned 20.
+2. "At a 2016 family dinner": The New Yorker says "one evening at Altman's house." No dinner is mentioned.
+3. On the teenage assault, "declined to give details" overstates the source. The New Yorker says he "was reluctant to give us more details." This is the page's most sensitive passage, so the wording should match.
+4. The "clearly a bully" link goes to a paywalled page where readers can't see the line. Two internal notes in the run's evidence and resolution files also describe the article inaccurately. The article text itself is fine.
+
+**Decision for you:** this edit changes the page's type from 4 to 3, and the live page has ranked as a Type 4 profile since 2023. The research notes ask that you sign off before release. The reasoning holds up, and Type 4 is kept as the strongest alternative.

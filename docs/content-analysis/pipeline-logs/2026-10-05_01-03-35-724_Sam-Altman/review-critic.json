@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "925a318a406d87caa7ffe839dd592350cc6f38bf2b17d96c5e18ed292cf94130",
+  "evidence_sha256": "c02501903bf57263b8fa25f36f570e737722214ec26b438c0935b9940e12f151",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "He has twice described himself as low in emotional attunement: the \"alien intrigue\" of 2016 and, to Bloomberg in 2025, \"I'm not a high-EQ person.\"",
+      "problem": "This pillar of the Three-over-Four case doesn't match its sources. Both self-reports are about reading other people, not about how he handles his own feelings. In 2016 he was pushing back on an Asperger's suggestion ('Fuck you, I don't have Asperger's!') and talking about reading other people's emotions in a photo (S03). In 2025 Bloomberg asked whether he had sensed board tension, and he used 'not a high-EQ person' to explain missing it (S40). The draft goes further and says the 2016 line shows him 'describing his own inner weather', which misstates it, and then treats both quotes as proof that he 'sets feelings aside'. They also cut against the article's own frame. The opening says he 'reads each room and gives it what it wants', and colleagues call him 'so attentive', a man who uses remembered details 'to figure out how to influence you' (S55). A man who can't read emotions can't also be the room-reader the hook describes unless the article explains how both are true.",
+      "acceptance_test": "The 'inner weather' sentence describes the 2016 quote accurately (other people's emotions in a photo, said while rejecting an Asperger's label), and the 2025 quote carries its context (explaining why he missed board tension). The second reason in 'Why Type 3 leads' either stops using these quotes as evidence that he brackets his own feelings, or explicitly squares them with the room-reading frame (for example: he reads rooms for what will persuade, not for what people feel, citing Hao's 'uses that to figure out how to influence you'). The Type 4 FAQ answer, which repeats 'twice described himself as low in emotional attunement', changes to match."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "Second, his feelings tend to arrive after the fact, and in public.",
+      "problem": "The draft's own quotes contradict this. On the board call he repeatedly said 'This is just so fucked up' in the moment. When the board first called about his return he was 'initially just supermad and said no'. He wrote the 'it really fucking hurts' email to Musk privately, while the attacks were happening. Hao reports that 'in private settings and with close friends, he still showed flashes of anger and frustration.' The claim also partly reflects what a public record can contain: for almost anyone it is mostly interviews and posts after the fact, so 'later, in public' is what you'd expect regardless of type. The Five Days section repeats the claim ('The feelings came later, named in interviews'), and so does the Type 4 FAQ answer. The comparison it rests on, 'A Four tends to lead with feeling as it happens', is a stereotype that the article itself doesn't support.",
+      "acceptance_test": "Either rebuild the second reason on what the record actually shows: a controlled public face, with anger and hurt shown in private or to insiders in the moment (Hao's public/private split, the Musk email versus 'clearly a bully'). Or drop it as a discriminator and say in one sentence that a public record over-represents retrospective, public disclosure for any subject. In both cases, 'The feelings came later, named in interviews' and the Type 4 FAQ answer no longer state a pattern the draft's own quotes contradict."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "Altman accommodates whoever is in front of him rather than risk a fight",
+      "problem": "The article's core behavioral claim uses the mildest version of the record and leaves out a harder strand that sits in its own evidence packet. Altman told Bloomberg in 2025 that board members 'were not happy with the way that I tried to get them off the board. Lesson learned on that' (S40). Toner said that 'after the paper came out, Sam started lying to other board members in order to try and push me off the board' (S48). Bloomberg reporting says he misrepresented directors' views while lobbying for her removal and offered to apologize (S41, which OpenAI disputes). Hao reports that challengers could be quickly cut out of decisions (S55, p. 347), and The Atlantic says he 'iced out' Murati (S54). The 2016 New Yorker called him 'quick to smile, but also quick to anger' (S03). The 2026 New Yorker says his greatest strength is convincing groups 'that what he wants and what they need are one and the same', which is persuasion toward his own goal, not accommodation. Toner's quote is cut just before 'Misrepresenting things... in some cases outright lying to the board', and the example the draft picks (ChatGPT on Twitter) is her mildest. The Eight discriminator ('confronts openly when control of the institution is on the line... and accommodates almost everywhere else') depends on this softened picture. Trying to remove a board member is neither accommodation nor open confrontation.",
+      "acceptance_test": "The draft includes the board-removal episode with attribution: Altman's own 'tried to get them off the board... Lesson learned', Toner's allegation, and OpenAI's dispute. It restates the core behavior so it covers indirect pursuit of his own aims, not only avoiding fights. The Eight paragraph says whether indirect maneuvering that keeps his public image clean fits Three better than Eight, and why, rather than relying on 'accommodates almost everywhere else'."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "Colleagues from Loopt onward, board members and his biographer describe it, and so does he.",
+      "problem": "His self-description is counted as independent confirmation, but every time he uses it, he is answering an accusation of lying. On the board call he attributed the criticism to being 'too much of a conflict avoider' (S43). He gave the 2026 New Yorker the same account. The April 10 post came days after the New Yorker investigation into his honesty, and the same post calls that article 'incendiary' (S36). 'Conflict-averse' is the most sympathetic available label for conduct that board members call lying, and a board member explicitly rejects it ('What it meant was \"I have this trait where I lie to people\"'). The hook presents the post as candid ('mixed pride with apology') without saying what it was responding to, and the type answer and FAQ ('By his own account, yes') treat it as a confession.",
+      "acceptance_test": "The hook, or the sentence right after it, says the post came days after a New Yorker investigation into his honesty. 'Why Type 3 leads' treats his 'conflict-averse' label as his framing of disputed behavior, weighed as self-report given in a defensive context, not as another witness. The 'Is Sam Altman conflict-averse?' FAQ notes that he offered the description in response to accusations of dishonesty, which critics frame differently."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "Read side by side, the two lines describe one capacity from opposite ends. The founder who can win any island reads each room and gives it what it wants.",
+      "problem": "The article's framing story, that the gift and the flaw are one capacity, assigns to Graham something his essay doesn't say. The cannibals line appears under '5. Be independent'. The 'it' Altman 'has' is the quality of founders who 'can take care of themselves' and don't need investors (toughness, adaptability, determination), and Graham then credits Altman's 'deal-making ability'. Nothing in the essay is about reading rooms or giving them what they want; self-sufficiency and coming out on top is arguably the opposite of accommodation. The draft also uses Graham only as an admirer (2008, 2009, 2016, and the closing: 'he has, more than once') and never says how Altman left YC. The 2026 New Yorker reports that Graham privately told YC colleagues 'Sam had been lying to us all the time' before Altman's removal, and that the parting 'was not entirely mutual'. On the record, Graham says 'All we could do was apply moral pressure' and has tweeted that 'we didn't want him to leave, just to choose' between YC and OpenAI, and Altman maintains he was never fired. Leaving this out makes the hook's witness look more admiring than he is.",
+      "acceptance_test": "The hook marks the 'one capacity' link as the article's reading and supports the room-reading half with a source that actually describes it (for example, the 2026 New Yorker's 'convince disparate groups that what he wants and what they need are one and the same', or Graham's 'deal-making ability'), instead of attributing it to the island line. The 2019 YC exit appears with attribution: the New Yorker's reporting, Graham's on-record statement and tweet, and Altman's denial. The closing no longer implies Graham's view stayed purely admiring."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "Conflict avoidance alone could belong to a [Nine](/enneagram-corner/enneagram-type-9) or a [Two](/enneagram-corner/enneagram-type-2). Three things tip it toward Three.",
+      "problem": "Where the verdict is reached, only rival types are tested. The strongest rival that isn't a type, a fundraiser-salesman's learned craft, comes up earlier but is never weighed. Hagey calls the pattern 'a typical critique of people who have the salesman skill set', and the Loopt section opens with 'Read generously, this is a founder doing a founder's job', then moves to 'Through the type lens' without answering it. The standard requires comparing professional incentives with the type explanation. The record has a possible answer: the behavior kept going when it hurt his career (two Loopt attempts to remove him, YC partners' mistrust, the 2023 firing), and he calls it costly himself. There is also a real limit: the pattern starts with his first job, so timing can't separate craft from motive. The draft states neither.",
+      "acceptance_test": "'Why Type 3 leads' contains two to four sentences that name the learned-salesman explanation and either point to sourced costs the job explanation wouldn't predict, or say plainly that the record can't separate craft from motive and that this is part of why confidence is medium."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "His own account: \"I weirdly have very little personal ambition.\" A long climb paired with a sincere-sounding denial fits the Three's blind spot, where the achieving self and the mission blur together.",
+      "problem": "The quote is cut down. In the source the sentence before it is 'I'm very ambitious as far as, like, my hope for humanity, and what I expect us all to achieve', and right after it he anticipates disbelief: 'No one believes you're doing this just because it's interesting... You're doing it for power or for some other thing' (S43). He is drawing a distinction, not issuing a flat denial. 'Sincere-sounding' is a judgment about tone that the article doesn't show. The obvious alternatives (he experiences the drive as mission, or he is positioning himself in a hostile interview) don't appear next to the inference.",
+      "acceptance_test": "The passage quotes both halves of the distinction, and either cuts 'sincere-sounding' or supports it. One clause names the alternative reading next to the Three inference."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "Hao's sources are mostly unnamed, but it is the record's clearest account of a public self fitted to a role.",
+      "problem": "The p. 42 YC makeover passage, and the pp. 34-35 'adjusting to what you say' quote, were checked only through an anonymous LessWrong/Substack compilation titled 'Sam Altman's track record of manipulation', which its author partly calls a hit piece (S55). The book itself wasn't opened. The draft still calls this 'the record's clearest account' and uses it again in the second reason ('Hao reports that in his YC years he \"avoided expressing negative emotions\"'). The reader-facing link label, 'via a compilation of excerpts', doesn't reveal the compilation's slant.",
+      "acceptance_test": "Before release, either the page numbers and wording are checked against the book, or the link text names the compilation for what it is and the draft stops calling it the record's clearest account or using it as discriminator evidence on its own."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The word \"uncontrolled\" implies that the usual face was controlled.",
+      "reason": "A precise reading of one sourced word that does real argumentative work without overclaiming."
+    },
+    {
+      "passage": "That is his speculation, and this profile builds nothing on it.",
+      "reason": "Turns down the childhood-wound story the material invites. This is the fairness discipline the rest of the type argument should match."
+    },
+    {
+      "passage": "The email is raw; the public lines win the exchange without making him look like the aggressor.",
+      "reason": "The draft's best observed evidence of a private/public split. A rebuilt second reason (critic-02) should grow from this sentence."
+    },
+    {
+      "passage": "A Four reading hears wistfulness. A Three reading hears the sting of being outdone, by a product he sells, at something he was good at, and a choice to say so in public. Both fit the sentence.",
+      "reason": "Declines to count ambiguous evidence for the thesis. This is the standard the rest of the article should be held to."
+    },
+    {
+      "passage": "Whether he can lose a room on purpose is what the next few years will show.",
+      "reason": "A concrete, observable forward test that grows out of the article's own argument instead of a generic sign-off."
+    }
+  ],
+  "assessment": "The draft is candid about its switch from Four to Three, careful with the assault and the Annie Altman lawsuit, and gives the Four case real space. The skeptical problem is that the Three verdict rests on the softest available description of the core behavior. 'Conflict aversion' is Altman's own label, offered each time in reply to accusations of lying, and the draft counts it as corroboration (critic-04). Meanwhile it leaves out the harder strand in its own evidence packet: his admitted attempt to get board members off the board, Toner's account of lying to push her out, and Graham's part in his YC exit (critic-03, critic-05). Two of the three reasons in 'Why Type 3 leads' are weaker than presented. The low-EQ self-reports concern reading other people and conflict with the room-reading frame (critic-01). The 'feelings arrive later, in public' claim is contradicted by real-time anger and private hurt the draft itself quotes (critic-02). The learned-salesman explanation is raised but never weighed at the verdict (critic-06). None of this necessarily overturns Three. A full account of indirect maneuvering that keeps his image clean might strengthen it. As written, though, the attractive story outruns its support. Medium confidence is the right ceiling, and the argument for it needs rebuilding on the full record. Verification: I re-fetched the 2026 New Yorker text directly (YC exit, Yoon, ambition, and 'convince disparate groups' passages), Graham's essay ('Be independent' context), and the Bloomberg interview ('tried to get them off the board', EQ question context), and confirmed Graham's 2024 denial that YC fired Altman via search results. Other checks relied on the excerpts recorded for S03, S36, S38, S41, S47, S48, S54 and S55. The Hao book was not available. Similarity advisory: not tripped. Its top pair (0.058, Jonathan Bailey) is ordinary type vocabulary with no shared phrasing or argument, so there is no reuse finding."
+}

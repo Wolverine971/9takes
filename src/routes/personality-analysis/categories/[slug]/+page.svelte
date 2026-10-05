@@ -439,7 +439,7 @@
 		{/if}
 	</header>
 
-	<main class="content">
+	<div class="content page-main">
 		{#if data.featured.length > 0}
 			<section class="section">
 				<div class="section-head">
@@ -630,7 +630,7 @@
 				</div>
 			</section>
 		{/if}
-	</main>
+	</div>
 </div>
 
 <style lang="scss">

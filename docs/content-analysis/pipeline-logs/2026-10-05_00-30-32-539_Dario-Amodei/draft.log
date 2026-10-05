@@ -1,2 +1,22 @@
 You've hit your weekly limit · resets Oct 7 at 5pm (America/New_York)
 You've hit your weekly limit · resets Oct 7 at 5pm (America/New_York)
+I've written both files for the Dario Amodei draft stage: `draft.md` (3,977 words) and `evidence-draft.json` (94 claims, 49 sources). The draft passes the contract's draft check with no blockers, and the evidence file passes its validation against the draft, so every quote and fact links to a source passage. I changed no other files, didn't grade or publish anything, and set `production_pretext` to draft. The other uncommitted `src/` changes in your working tree aren't mine.
+
+**The page now argues Type 6, not Type 5 (medium confidence).** Type 5 is the strongest alternative and Type 1 a credible third. The story is the pattern behind the title: he can't stop building because delay costs lives, as his father's death taught him. What he does with that fear is look for people he trusts and rules that bind everyone, himself included. The opening is his September 2026 offer to give outside evaluators desks, badges and the right to publish findings without Anthropic's editorial control. The argument rests on 2016–2026 evidence, so it holds up even if that commitment changes.
+
+**Decisions for you:**
+- **This retypes a live page.** The type field, description, every FAQ and the type answer all change. The next stages will run the full six-reviewer panel. If you'd rather keep Type 5, stop the run before the review stage.
+- **I kept the title and meta title** ("Why Dario Amodei Can't Stop Building the Thing He Fears Most"). It still fits the new argument, and the Jordi CTR drop after a type-first title argues against changing it.
+- **The page says openly that an earlier version called him a Five**, once in the type section and once at the G7 section. Say if you'd rather it didn't mention the old reading.
+
+**What changed from the live page:**
+- **Errors fixed:** six colleagues left with him, not fourteen. The "anthropic principle" naming story is gone. Daniela's "four years without me" line is credited to CNBC, and "such a good world" to the July 2025 podcast. His PhD is in biophysics. His father came from "a tiny town near the island of Elba", not Tuscany. The G7 account follows the FT, and "woke" is attributed to Trump.
+- **Cut:**
+  - **Unverifiable quotes:** the opening quote and the "light speed" passage. I tried the Bloomberg captions again and was still blocked.
+  - **Old type material:** the Rabbit Hole section (5w6, sp/so, arrows). The draft now makes no wing or subtype claim.
+  - **Detail that didn't help the argument:** the Super Bowl ads, Emil Michael's "God complex" insult, the jobs-forecast section and the IPO loss figures.
+- **Kept on purpose:** the Jade Wang FAQ, word for word, as the "protect, don't optimize" note requires; only its link target changed. There's no autism inference and nothing new about his health or relationships.
+
+**Length:** it's above the ~3,500 target but leaves about 500 words of room under the 4,500 limit for the edit stage. Court rulings, the IPO, the slowdown position and the evaluator commitment all carry dated reminders to recheck them; the core argument doesn't depend on any of them.
+
+Supabase failed to connect this session, and several connectors (GitHub, Slack, Ahrefs and others) still need authorizing in your connector settings. This stage didn't need any of them.

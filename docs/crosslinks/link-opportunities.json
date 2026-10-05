@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-10-04",
+	"generatedAt": "2026-10-05",
 	"gsc": {
 		"runDate": "2026-10-04",
 		"window": {
@@ -17,7 +17,7 @@
 		"gateDebt": 0,
 		"topBlog": 40,
 		"peopleBridge": 30,
-		"peopleToPeople": 3,
+		"peopleToPeople": 6,
 		"skipped": 130
 	},
 	"gateDebt": [],
@@ -1917,41 +1917,60 @@
 	],
 	"peopleToPeople": [
 		{
-			"id": "/personality-analysis/jimmy-fallon -> /personality-analysis/emma-stone",
+			"id": "/personality-analysis/emma-stone -> /personality-analysis/andrew-garfield",
 			"source": {
-				"url": "/personality-analysis/jimmy-fallon",
-				"file": "src/blog/people/drafts/Jimmy-Fallon.md",
-				"outCount": 7
+				"url": "/personality-analysis/emma-stone",
+				"file": "src/blog/people/drafts/Emma-Stone.md",
+				"outCount": 4
 			},
 			"target": {
-				"url": "/personality-analysis/emma-stone",
-				"name": "Emma Stone",
-				"inCount": 1,
+				"url": "/personality-analysis/andrew-garfield",
+				"name": "Andrew Garfield",
+				"inCount": 0,
 				"impressions": 0,
 				"position": null
 			},
-			"line": 195,
-			"anchor": "Emma Stone",
-			"excerpt": "Lip Sync Battle, Box of Lies, Wheel of Musical Impressions, Egg Russian Roulette. The genius was never the games themselves. It was that he got A-list stars to look ridiculous and love it. Bradley Cooper lip-syncing with murderous commitment. Emma Stone slaughtering him at a lip sync. Robert De Niro giggling. Barack Obama slow-jamming the news. The most image-managed people alive walked into that studio and put the image down.",
+			"line": 136,
+			"anchor": "Andrew Garfield",
+			"excerpt": "Around the same time, she fell in love with Andrew Garfield. They met in 2010 when he screen-tested opposite her for _The Amazing Spider-Man_ — she'd already been cast as Gwen Stacy, and the chemistry was visible from the first read. \"She keeps you on your toes, and that wakes you up,\" Garfield said later. They dated for four years. At the _Amazing Spider-Man 2_ premiere in 2014, a reporter assumed the relationship out loud, and Garfield cut him off mid-question: \"My personal life is not public property.\" Stone stood next to him in silence. She never needed to say it herself. By the time they split in 2015, she had learned the rule she has followed ever since: talk about the work, never about the life.",
 			"typeClaim": null
 		},
 		{
-			"id": "/personality-analysis/druski -> /personality-analysis/emma-stone",
+			"id": "/personality-analysis/tom-holland -> /personality-analysis/andrew-garfield",
 			"source": {
-				"url": "/personality-analysis/druski",
-				"file": "src/blog/people/drafts/Druski.md",
-				"outCount": 7
+				"url": "/personality-analysis/tom-holland",
+				"file": "src/blog/people/drafts/Tom-Holland.md",
+				"outCount": 6
 			},
 			"target": {
-				"url": "/personality-analysis/emma-stone",
-				"name": "Emma Stone",
-				"inCount": 1,
+				"url": "/personality-analysis/andrew-garfield",
+				"name": "Andrew Garfield",
+				"inCount": 0,
 				"impressions": 0,
 				"position": null
 			},
-			"line": 335,
-			"anchor": "Emma Stone",
-			"excerpt": "On June 28, 2026, he hosted the BET Awards, then the youngest host in the show's history, checking off a goal from the list he wrote at 23. The tour had come earlier; the movie, a supporting role as Emma Stone's security guard in Universal's [The Catch](https://www.complex.com/pop-culture/a/markelibert/druski-catch-emma-stone-chris-pine-universal), is scheduled for May 21, 2027. That night he also debuted \"JOE,\" a [parody](https://consequence.net/2026/06/druski-joe-jackson-michael-biopic-parody-sketch/) built around the Michael Jackson biopic, playing Joe Jackson in heavy makeup.",
+			"line": 211,
+			"anchor": "Andrew Garfield",
+			"excerpt": "Holland's specific flavor is 7w6, the Entertainer wing. The 6 wing adds a layer of loyalty, anxiety about security, and a deep need to belong that the core Seven doesn't always show. It's why Holland is so family-oriented. Why he created The Brothers Trust charity with his parents and brothers. Why he keeps a \"Spider-Boys\" group chat with Andrew Garfield and [Tobey Maguire](/personality-analysis/tobey-maguire), three people who've been through something \"so unique that we really are like brothers.\"",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/tobey-maguire -> /personality-analysis/andrew-garfield",
+			"source": {
+				"url": "/personality-analysis/tobey-maguire",
+				"file": "src/blog/people/drafts/Tobey-Maguire.md",
+				"outCount": 7
+			},
+			"target": {
+				"url": "/personality-analysis/andrew-garfield",
+				"name": "Andrew Garfield",
+				"inCount": 0,
+				"impressions": 0,
+				"position": null
+			},
+			"line": 202,
+			"anchor": "Andrew Garfield",
+			"excerpt": "That kind of loyalty runs in both directions, and other actors feel its pull. When the three screen Spider-Men reunited for *No Way Home* alongside [Tom Holland](/personality-analysis/tom-holland), Andrew Garfield described how he decided to sign on. \"I was just waiting to see if Tobey was going to do it,\" he said, \"and if Tobey was going to do it I was like, well, I have no choice. I followed Tobey.\" Maguire is the one the others orbit. He is not the loudest man in any room. He is the one people organize themselves around, which is a very particular kind of quiet authority.",
 			"typeClaim": null
 		},
 		{
@@ -1971,6 +1990,44 @@
 			"line": 255,
 			"anchor": "Jamie Dimon",
 			"excerpt": "Behind the scenes, the establishment had reached its own verdict. Jamie Dimon — Neumann's personal banker, whose JPMorgan was the lead underwriter on the IPO — [told him](https://fortune.com/longform/book-excerpt-cult-of-we-work/) he was his own worst enemy and that JPM could not take the company public with him as CEO. Bruce Dunlevie at Benchmark had received the same Type 3 read seven years earlier and committed; Dimon received it in 2019 and walked. Same persona. Different valuation regime. Different room.",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/peter-thiel -> /personality-analysis/demis-hassabis",
+			"source": {
+				"url": "/personality-analysis/peter-thiel",
+				"file": "src/blog/people/drafts/Peter-Thiel.md",
+				"outCount": 6
+			},
+			"target": {
+				"url": "/personality-analysis/demis-hassabis",
+				"name": "Demis Hassabis",
+				"inCount": 2,
+				"impressions": 182,
+				"position": 6.9
+			},
+			"line": 131,
+			"anchor": "Demis Hassabis",
+			"excerpt": "Years later, Demis Hassabis, co-founder of DeepMind, had exactly one minute with Thiel at the Singularity Summit. He'd spent a year preparing. Instead of pitching his AI company, Hassabis talked about chess. He asked Thiel why the bishop and knight are both worth three points but have such different powers, and why all the creative tension comes from swapping one for the other in certain positions. Thiel said he'd never thought of it that way. Within months, he invested roughly $2.25 million. When Google acquired DeepMind for roughly $600 million, Founders Fund owned over 25%.",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/jimmy-fallon -> /personality-analysis/emma-stone",
+			"source": {
+				"url": "/personality-analysis/jimmy-fallon",
+				"file": "src/blog/people/drafts/Jimmy-Fallon.md",
+				"outCount": 7
+			},
+			"target": {
+				"url": "/personality-analysis/emma-stone",
+				"name": "Emma Stone",
+				"inCount": 2,
+				"impressions": 0,
+				"position": null
+			},
+			"line": 195,
+			"anchor": "Emma Stone",
+			"excerpt": "Lip Sync Battle, Box of Lies, Wheel of Musical Impressions, Egg Russian Roulette. The genius was never the games themselves. It was that he got A-list stars to look ridiculous and love it. Bradley Cooper lip-syncing with murderous commitment. Emma Stone slaughtering him at a lip sync. Robert De Niro giggling. Barack Obama slow-jamming the news. The most image-managed people alive walked into that studio and put the image down.",
 			"typeClaim": null
 		}
 	]

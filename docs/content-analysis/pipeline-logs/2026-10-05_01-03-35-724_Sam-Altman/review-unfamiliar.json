@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "925a318a406d87caa7ffe839dd592350cc6f38bf2b17d96c5e18ed292cf94130",
+  "evidence_sha256": "c02501903bf57263b8fa25f36f570e737722214ec26b438c0935b9940e12f151",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "The same 2016 profile caught Altman describing his own inner weather",
+      "problem": "The quote that follows is not about his own feelings. Per the 2016 New Yorker (S03), he was talking about reading other people's emotions in a photo, said while joking about a friend's Asperger's suggestion. 'Why Type 3 leads' then reuses it with 'I'm not a high-EQ person' as the first support for 'his feelings tend to arrive after the fact,' which neither quote shows. Low attunement to others also clashes with the article's own thesis that he 'reads each room and gives it what it wants' and with Hao's colleague who found him 'so attentive.' The evidence record flags this conflict at C20, but the article never addresses it. A newcomer reads 'low in emotional attunement' and 'reads every room' a few paragraphs apart, and the second of the three reasons for Type 3 falls apart.",
+      "acceptance_test": "The 2016 'alien intrigue' line is introduced as being about reading other people's emotions, not his own inner weather. The second Type 3 reason either stops citing the two EQ self-reports as evidence of delayed feeling, or reconciles them with the room-reading thesis in one or two plain sentences (e.g., he reads what people want rather than what they feel). No passage claims both low attunement and expert room-reading without addressing the tension."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "Altman published a blog post that mixed pride with apology",
+      "problem": "The hook's second beat has no visible occasion. The post itself (S36) says it responded to the attack and to 'an incendiary article about me a few days ago,' the April 6, 2026 New Yorker investigation 'Sam Altman May Control Our Future—Can He Be Trusted?' (S43, 100+ interviews). The article never introduces that investigation as an event. It's cited about a dozen times as '(The New Yorker, 2026),' and 'Altman called the article \"incendiary\"' later has no antecedent. The 'pride' is never shown in the hook: it reappears unlinked in the Type 8 section as 'in 2026 he wrote that he was proud.' The Molotov attack works only as a date stamp. A newcomer reads the confession as spontaneous and misses the real stakes: days earlier, a major investigation had asked whether he can be trusted.",
+      "acceptance_test": "Within the opening four paragraphs, the reader learns that the April 10, 2026 post came days after a New Yorker investigation into his trustworthiness (named and dated), as well as the night of the attack. Either what he was proud of (holding the line against Musk's control) is stated, or 'mixed pride with apology' is reworded. 'Altman called the article \"incendiary\"' has a clear antecedent. The Type 8 section's 2026 pride line is identified as the same post. No detail about the attacker or home location is added."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "major",
+      "passage": "His biographer and former colleagues describe a long habit of telling people what they want to hear, and he has called his own conflict aversion a flaw that \"caused great pain.\"",
+      "problem": "The plain-language answer is the part most readers see, and the type FAQ repeats it. Its only support for Type 3 is conflict aversion and telling people what they want to hear. The article itself later concedes that this behavior 'could belong to a Nine or a Two.' A reader who stops at the answer box gets the evidence that doesn't tell the types apart and none of the reasoning that does: reshaping the presented self to win each room, two decades of reaching for and holding the top job, and feelings narrated after the fact.",
+      "acceptance_test": "The answer stays at most 60 words, and so does the mirrored type FAQ. Each names at least one reason in plain words that actually separates Type 3 from Nine or Two, not only conflict aversion. Both keep 'medium confidence' and name Type 4 as the strongest alternative and Type 8 as second."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "On November 17, 2023, Altman was in Las Vegas for a Formula 1 race when the OpenAI board fired him on a video call",
+      "problem": "A newcomer is never told why candor mattered so much at this company. OpenAI's board was a nonprofit board charged with overseeing a technology its own leaders consider potentially dangerous (S43: Sutskever's 'I don't think Sam is the guy who should have his finger on the button'). The safety stakes surface only in one Sutskever clause and in the late 'largest open question' paragraph. That paragraph is dense with unexplained insider terms: 'superalignment,' 'pace the frontier,' 'independent evaluators,' and Dario Amodei, who is never identified. The reader also doesn't learn what leverage won his return: S44 cites pressure from employees and investors, and 'Satya Nadella mediating' leaves Microsoft's role unexplained. Without the stakes, the conflict-aversion thesis reads as office politics, and the ending's 'lose a room on purpose' carries less weight.",
+      "acceptance_test": "At or before 'Five days in November,' one or two sourced sentences explain that OpenAI's board was a nonprofit board with a safety mission, so 'not consistently candid' was a mission concern and not only a management one. The leverage behind his return (the employee letter plus investor pressure, and Microsoft's role) is stated using a source in the record or one newly opened. The 'largest open question' paragraph identifies Dario Amodei at first mention and explains superalignment and 'pace the frontier'/independent evaluators in plain words."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "In 2008, [Paul Graham](/personality-analysis/paul-graham) listed the qualities that come up when investors predict good outcomes for startups",
+      "problem": "The hook depends on Graham's authority, but he is never identified (essayist, co-founder of Y Combinator), and Y Combinator itself is never explained. Several other names and terms assume prior knowledge: Brockman, who appears first in a 2017 email with no role given; Mira Murati, never identified as CTO; Naval Ravikant; 'Sama'; 'npc trap'; and Theranos. 'Loopt sold for $43.4 million in 2012' is dropped without saying what it meant. S44/Wikipedia frames it as a sale after Loopt 'failed to gain significant user traction,' and that outcome bears directly on the 'selling what it will become' reading.",
+      "acceptance_test": "Paul Graham and Y Combinator are identified in a short clause at first mention, either in the hook or by the Loopt paragraph. Brockman, Murati and Naval Ravikant each get a role at first mention, 'npc trap' and Theranos get a few words of gloss, and the Loopt sale is framed (a modest exit after the app failed to gain traction), sourced to the record."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "The allegation is unresolved, and it is not evidence for or against any personality type.",
+      "problem": "Momentum sags in the back third. The type argument builds 3 → 4 → 8. It then stops for a section the article itself says is not type evidence, then resumes with 'What the type doesn't explain.' To a newcomer the lawsuit reads as an obligatory insert that breaks the argument at its climax. 'Nostalgic for the present' then opens with fatherhood but gives it no interpretive sentence, even though 'I'm like noticing it happening' echoes the article's observer-of-his-own-feelings pattern, before moving to the Codex post. At about 4,190 body words the piece runs well past the 2,000–3,500 target, and these sections are where it drags.",
+      "acceptance_test": "The lawsuit section sits outside the run of type-argument sections, for example with the biographical material or immediately before the closing section. Its wording, attribution, family denial, dismissal/amended-complaint status and trial date stay unchanged. The fatherhood paragraph either connects to the article's pattern in one sentence or is cut so the section leads with the Codex post. Body length moves toward roughly 3,600 words or fewer without cutting sourced counterevidence or protected passages."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "Earlier versions of this page read Altman as a Type 4. A fuller check of the record, including several corrected quotes, moved the lead to Type 3.",
+      "problem": "A first-time reader never saw an earlier version. 'Several corrected quotes' raises a question the article never answers (which quotes were wrong, and does the new read rest on the fix?), and it spends space in the type section on the page's history. The FAQ repeats it ('this page used to lead with it').",
+      "acceptance_test": "Either the type section drops the page-history sentence, or it cuts it to one sentence useful to a newcomer (e.g., Type 4 was the earlier read and now ranks second, for reasons below), with no reference to corrected quotes. The Type 4 FAQ answer works without the page-history clause or mentions it only once."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Three years later he told Tyler Cowen",
+      "problem": "The 2016 profile ran in October 2016 (S03) and the Cowen episode is dated January 28, 2019 (S11). That's a gap of about two years and three months, not three years. It's small, but this paragraph sets the two dates against each other.",
+      "acceptance_test": "The time gap is stated accurately ('In January 2019' or 'Two years later'), matching the dates of S03 and S11."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "You could parachute him into an island full of cannibals and come back in 5 years and he'd be the king",
+      "reason": "A specific, sourced, memorable hook. With the follow-up beat 'Altman was 23,' it gives a newcomer a vivid image that the whole article pays off, through to the closing callback."
+    },
+    {
+      "passage": "The word \"uncontrolled\" implies that the usual face was controlled.",
+      "reason": "A precise close reading of one witness's word that makes the 'controlled public self' idea concrete without jargon. It's the kind of detail an unfamiliar reader remembers."
+    },
+    {
+      "passage": "Through the type lens, Jacobstein's \"blurring\" is the telling detail. It describes someone who comes to believe the version of himself that wins the room.",
+      "reason": "Offers the generous founder reading first, then lands a distinctive insight (self-belief rather than plain lying) that later sources pick up. This is the article's most original idea."
+    },
+    {
+      "passage": "A Four reading hears wistfulness. A Three reading hears the sting of being outdone, by a product he sells, at something he was good at, and a choice to say so in public. Both fit the sentence.",
+      "reason": "Leaves a real contradiction unresolved and shows the reader how the competing readings work on one sentence. It's honest about the limits of the typing."
+    },
+    {
+      "passage": "Whether he can lose a room on purpose is what the next few years will show.",
+      "reason": "A memorable ending that turns the thesis into a concrete, observable test and doesn't depend on any one current event."
+    }
+  ],
+  "assessment": "For a reader with no prior knowledge, this is a strong, well-built portrait. The island → room → apology spine is clear. The test for the type (what he does when approval conflicts with saying what he thinks or feels) is stated early and in plain terms. Generous readings come before the type lens, and the Four and Eight cases get real exhibits. A newcomer leaves knowing the Graham prophecy, the coming-out speech, the Loopt trust problems, the YC makeover, the five days, the witness accounts, and why the author ranks 3 over 4 and 8. Four things weaken orientation and momentum. (1) The hook's confession is shown without its occasion, the New Yorker investigation. (2) A load-bearing quote is misframed, and its use creates a visible contradiction with the room-reading thesis. (3) The answer box argues from evidence that doesn't separate 3 from 9 or 2. (4) The AI-safety stakes and the cast are under-introduced, and the back third sags (lawsuit placement, an unconnected fatherhood paragraph, about 4,190 words). The sensitive material (assault, sister's lawsuit, 'sociopathic') reads as carefully handled for a newcomer and should not be expanded. Similarity advisory: not tripped. The top pair (0.058, Jonathan Bailey) matches only one-line type definitions and shares no phrases. I compared the arguments and found no reuse. The distinctiveness comes from Altman-specific detail. Risks: sensitive allegations, contested typing and a 4→3 thesis change are all present, so the expanded jury is warranted."
+}

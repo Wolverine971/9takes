@@ -513,7 +513,7 @@
 	<p class="hero-tagline">{meta.description}</p>
 </header>
 
-<main class="main-content">
+<div class="main-content page-main">
 	{#if subsection === 'overview'}
 		<section id="introduction" class="intro-section">
 			<p class="hook">
@@ -944,7 +944,7 @@
 			{/each}
 		</div>
 	</section>
-</main>
+</div>
 
 <style lang="scss">
 	/* 9takes Warm Tech Theme */

@@ -1,0 +1,197 @@
+{
+  "target": {
+    "person": "sam-altman",
+    "type": "3",
+    "units": 8,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "tiger-woods",
+      "date": "2026-10-04",
+      "units": 10
+    },
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9
+    },
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33
+    },
+    {
+      "person": "Tate-McRae",
+      "date": "2026-08-27",
+      "units": 31
+    },
+    {
+      "person": "margaret-qualley",
+      "date": "2026-08-20",
+      "units": 28
+    },
+    {
+      "person": "alexandr-wang",
+      "date": "2026-08-18",
+      "units": 30
+    },
+    {
+      "person": "adela",
+      "date": "2026-08-14",
+      "units": 17
+    },
+    {
+      "person": "michael-jordan",
+      "date": "2026-08-14",
+      "units": 45
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 1624,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.013,
+    "max": 0.058
+  },
+  "trip_threshold": 0.052,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33,
+      "maxScore": 0.058
+    },
+    {
+      "person": "Tate-McRae",
+      "date": "2026-08-27",
+      "units": 31,
+      "maxScore": 0.031
+    },
+    {
+      "person": "margaret-qualley",
+      "date": "2026-08-20",
+      "units": 28,
+      "maxScore": 0.029
+    },
+    {
+      "person": "michael-jordan",
+      "date": "2026-08-14",
+      "units": 45,
+      "maxScore": 0.016
+    },
+    {
+      "person": "adela",
+      "date": "2026-08-14",
+      "units": 17,
+      "maxScore": 0.015
+    },
+    {
+      "person": "alexandr-wang",
+      "date": "2026-08-18",
+      "units": 30,
+      "maxScore": 0.013
+    },
+    {
+      "person": "tiger-woods",
+      "date": "2026-10-04",
+      "units": 10,
+      "maxScore": 0.013
+    },
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9,
+      "maxScore": 0.006
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.058,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] An Eight tends to confront and doesn't need to be liked.",
+      "other": "[counter-typing] and nothing in his record suggests he needs to be needed."
+    },
+    {
+      "score": 0.031,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 tends to protect the honest expression of feeling",
+      "other": "[counter-typing] Fours protect the gap between themselves and everyone else."
+    },
+    {
+      "score": 0.029,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 tends to protect the honest expression of feeling",
+      "other": "[diagnosis] and they tend to settle the question through work."
+    },
+    {
+      "score": 0.027,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] An Eight tends to confront and doesn't need to be liked.",
+      "other": "[diagnosis] and they tend to settle the question through work."
+    },
+    {
+      "score": 0.021,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] since nearly every founder has it.",
+      "other": "[counter-typing] she manifests the leaving so that she has it beat by the time it arrives."
+    },
+    {
+      "score": 0.02,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Three tends to adjust the presented self to what wins the room and narrate the feelings later.",
+      "other": "[diagnosis] and they tend to settle the question through work."
+    },
+    {
+      "score": 0.019,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] Earlier versions of this page read Altman as a Type 4.",
+      "other": "[diagnosis] I had this shy and awkward version of myself and then this super fearless"
+    },
+    {
+      "score": 0.016,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] His biographer and former colleagues describe a long habit of telling people what they want to hear",
+      "other": "[diagnosis] \"I think I just so desperately want to like be good"
+    },
+    {
+      "score": 0.016,
+      "other_person": "michael-jordan",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 tends to protect the honest expression of feeling",
+      "other": "[counter-typing] while Jordan guarded his commercial persona so tightly he joked away a Senate race to protect it."
+    },
+    {
+      "score": 0.016,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 tends to protect the honest expression of feeling",
+      "other": "[diagnosis] dancing was my way of feeling cool and feeling like I excelled at something.\" Six years old"
+    },
+    {
+      "score": 0.015,
+      "other_person": "adela",
+      "shared_phrases": [],
+      "target": "[diagnosis] and he has called his own conflict aversion a flaw that \"caused great pain.\" Type 4 is the strongest alternative",
+      "other": "[diagnosis] The strongest evidence is her stated emotional investment in doing good work and moving forward."
+    },
+    {
+      "score": 0.014,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] His biographer and former colleagues describe a long habit of telling people what they want to hear",
+      "other": "[diagnosis] What they need is the receipt showing the effort worked"
+    }
+  ]
+}

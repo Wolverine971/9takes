@@ -10,6 +10,18 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-10-05 — Unattended weekly brief: DJ shipped the engineering half of the loop (host desk alive, human-only gate, live-take homepage, celebrity mid-article question, beta card) but 0 of 8 desk drafts were posted and mail is still blocked in prod; content engine restarted (queue 0 -> 18, 10 v3 runs, Andrew Garfield published on _Artificial_'s NYFF day); three live people pages carry unapproved retypes on disk
+
+- Brief: [`docs/daily-briefs/2026-10-05_marketing-status.md`](../daily-briefs/2026-10-05_marketing-status.md). Growth freshness gate PASSED (growth-log `### 2026-10-05`, audit 06:00:00 -> 06:08:10, exit 0; chain on time). Headline + biggest leak quoted verbatim. Supabase MCP down (5th week); read-only `scripts/db-query.sh` (people counts + key rows, history since 09-28, `coaching_waitlist`, `cta_experiment_events`, `host_reply_drafts`) + six production GETs.
+- **Growth headline (verbatim):** _"comments stayed at their pre-July floor for a second week (0, then 2, against about 8 a week from mid-July to mid-September). The two surfaces built to bring them back have shown the gate to 32 humans since 10-03 and received 0 takes. Celebrity pages are sending the deepest readers on the site to the gate: 26 viewers, a median of about 6 minutes on the page, and none answered q567. The host digest works again (10-03: 8 drafts), but none of the drafts was posted. The week's best visitor answered, opted in to replies, got "Server error" twice when registering, and left."_ Week 09-28 (v2 RPC): 586 human visitors (35 returning), 2 comments, 2 contributors (0 returning), 1 registration, 1 booking (first in 26 weeks).
+- **Biggest leak (verbatim):** _"the people who do activate get nothing back."_ 749 and 743 (email opt-ins) unanswered; 0 of 8 desk drafts acted; 2 people lost to `AuthWeakPasswordError` shown as "Server error" (`register/+page.server.ts:144-157`); mail blocked 34 days, 5 real people lost (211 today).
+- **Shipped and pushed (`main` = `origin/main` at `54943c886`):** host digest rewrite + crawler-free gate + `contribution.path` + `/forgotPassword` fix + deploy-skew manifest v2 (`6f34ad64b`); live-take homepage + celebrity mid-article question (`3dfa99ef8`); T-38 Trump 3 vs 2 with 301 (`e4fe1d896`); T-41 B/D-L + IndexNow key (`d0984dab1`; IndexNow live, first submit 10-03 HTTP 202); search cleanup (13 pages, `audit:superlatives`, `enneagram-stress-number` 301'd, 16/17 people meta_titles synced) (`0d1beba58`); two scouts + queue refill + pipeline-lock fix + _Artificial_ explainer draft (`8b2852cfb`); 4 new MDsvex posts live + be-gentle promo packet (`e710d8a05`); beta card + `cta_experiment_events` (`34d66f4ba`); agent image-generation ban (`65a29e616`, `54943c886`).
+- **Beta card observed live (client-rendered):** 16 views since 02:09 UTC today across 3 copy variants (14 celebrity, 2 Enneagram), 0 opens, 0 submits; `coaching_waitlist` 0 new since 10-04. Goal 10 signups by 11-15.
+- **Content engine:** queue 0 -> 18 (4 entity gaps + 14 surging CREATEs); 10 v3 runs 10-04 -> 10-05 (pass: Andrew Garfield, Sam Altman; `insufficient_evidence`: Florence Pugh, Joseph Zada, Dario Amodei; `revise`: Druski, Tiger Woods; Tiger Woods repair failed "modified a read-only input"; Zada 10-05 run stalled at draft). **Andrew Garfield published 10-05 06:00** (DB 450 -> 451; first people publish in 25 days; prod 200), the day _Artificial_ premieres at NYFF. Publisher then died on `gen:all` (Node v26.5.0 engine error, same break on every auto-publish since 08-29; the 09-21 "v24 default fixes it" guess is disproved). Nightly create skipped both nights (DJ's manual runs held the lock).
+- **Unapproved retypes on live-page drafts (none synced):** Sam Altman 4 -> 3 (verify pass, uncommitted; 5 published pop-culture posts + the unpublished `artificial-movie-real-people` call him 4), Dario Amodei 5 -> 6 (verify `insufficient_evidence`, uncommitted), Druski 8 -> 3 (committed, 2nd week undecided).
+- **Still dark:** Instagram 59 days (queue RED 0/10, frozen 58), Quora + Twitter 139, outreach 62, One Take 72, The Nine 0 actions in 13 days, pop-culture 22 unpublished (oldest 294 days), 10 unfired packets (new be-gentle promo set included).
+- **Next move (ranked, growth's bets adopted):** (1) DJ posts the desk drafts today, 749 + 743 first (~15 min). (2) `EMAIL_FOOTER_ADDRESS` into Vercel production (6th ask; local `.env` now has a value) + resend 211 / 09-29; delegate the weak-password message fix (~30 min agent). (3) Approve T-41 G q118/q203 seeds so celebrity pages rotate q118 before the 10-17 readout. Following: typing calls (Altman first, _Artificial_ window); pin Node 24 for the publisher + commit Garfield frontmatter + `index:blogs`; request indexing for 7 de-indexed people URLs; fire or drop the be-gentle packet.
+
 ### 2026-09-28 — Unattended weekly brief: contributions 9 -> 0 and the only retained contributor churned into an empty room; growth's #1 bet unshipped for the third week while DJ shipped 11 commits of SEO, cross-links, homepage, Talk-to-DJ and The Nine; content engine idle (queue empty 8 nights, 0 publishes in 18 days)
 
 - Brief: [`docs/daily-briefs/2026-09-28_marketing-status.md`](../daily-briefs/2026-09-28_marketing-status.md). Growth freshness gate PASSED (growth-log `### 2026-09-28`, audit 06:00 -> 06:09:06, exit 0; chain on time). Headline + biggest leak quoted verbatim. Supabase MCP down (4th week); read-only `scripts/db-query.sh` (people counts, `blogs_famous_people_history` since 09-21) + two production GETs.
@@ -345,6 +357,19 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Blocked / waiting
 
+### 2026-10-05 — Current blockers needing DJ / eng decision
+
+- **Desk replies (DJ, ~15 min):** 0 of 8 drafts acted since the 10-03 digest; 749 + 743 have email opt-ins (3 opt-ins lifetime, 0 served). 746/747 replies drafted in `docs/growth/host-desk/2026-10-03-type6-critic-replies.md`.
+- **`EMAIL_FOOTER_ADDRESS` in Vercel production (DJ only, 34 days, 6th ask):** local `.env` now non-empty, prod still failing (today included). 5 real people lost; Enneagram campaign (31 eligible) waiting.
+- **Weak-password "Server error" on `/register` (eng, ~30 min, delegable):** 2 people / 4 events, 0 registered.
+- **T-41 G seed approval (DJ, ~10 min):** q118 rotation for the celebrity slot (q567: 26 -> 0). Readout 10-17.
+- **Typing decisions (DJ):** Sam Altman 4 -> 3 (verify pass; cascade into 5 published pop-culture posts + the _Artificial_ explainer), Dario Amodei 5 -> 6 (verify failed), Druski 8 -> 3 (2nd week). Nothing synced; an explicit `--sync` would push the retype live.
+- **_Artificial_ explainer (DJ):** publish for the premiere wave or hold to Dec 25; needs a hero (DJ-made per the image rule) + 3 inbound links; depends on the Altman call.
+- **Publisher Node pin (eng, ~5 min):** OpenClaw 06:00 job resolves Node v26.5.0, `gen:all` fails after every publish; Garfield frontmatter edit uncommitted, `index:blogs` not run.
+- **GSC request-indexing for 7 people URLs (DJ only, ~10 min):** jenna-ortega, olivia-rodrigo, robert-downey-jr, travis-scott, ryan-reynolds, will-smith, harry-styles.
+- **Carried:** Instagram restore-or-retire (8th brief; 59 days dark); perspective-review backfill (8th brief; 72 blocked); The Nine vs the Reddit hold (no account/app); Zada stalled run + Tiger Woods repair failure; Ben Shelton off the closest list (unexplained); Weekly Crosslinks `error` 10-01 (expected to clear 10-08); be-gentle promo packet unfired; pop-culture 22; One Take ep 1; outreach; T-41 A (10-10) / C (10-17) date-gated; Abrams held.
+- **Resolved since 09-28:** host-desk fix shipped + verified (10-03 digest); human-only `gate_shown` + `contribution.path` shipped; `/forgotPassword` reCAPTCHA race fixed; create queue refilled (18); IndexNow key live; first people publish since 09-10 (Andrew Garfield).
+
 ### 2026-09-28 — Current blockers needing DJ / eng decision
 
 - **Owed replies (DJ, 8 days):** takes 746/747/748 (repeat contributor, now signed out and gone since 09-22) and 743 (anon opt-in #2), plus q570 as host. Email is the only remaining channel and it fires only on a reply.
@@ -461,6 +486,16 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Decisions
 
+### 2026-10-05 — Observed from artifacts + memory (not stated to the PM directly)
+
+- **10-02:** growth audit loose ends approved and shipped (host digest rewrite, crawler-free gate, `/forgotPassword` fix, `_v2` weekly RPC).
+- **10-03:** live-take homepage (q203) and celebrity mid-article question (q567) promoted to production. Trump retyped 8 -> 3 (T-38) with a 301 after a Talk to DJ note flagged it. The Type 6 critic was emailed.
+- **10-03:** the free 1-on-1 beta replaces paid sessions (The Decode / T-17 retired); success = beta signups (goal 10 by 11-15); recruiting unparked.
+- **10-04:** search cleanup executed ("do the ambitious updates"); `enneagram-stress-number` retired with a 301 to `enneagram-types-in-stress`; 4 new posts published; be-gentle got the lean ending (no answer box).
+- **10-04:** surging-scout picks: ambitious AI cluster + 14 CREATEs queued; Zada + Garfield refreshed; Pugh in a separate chat. Entity gaps Codie Sanchez / Shyam Sankar / Dylan Patel / Dan Ives queued.
+- **10-04:** beta card design "experimental therapy, 9takes style" -> email (post-take signup prompt rejected).
+- **10-04:** agents never generate images; DJ runs prompts in ChatGPT (`54943c886`).
+
 ### 2026-09-28 — Observed from artifacts (not stated to the PM directly)
 
 - **09-21:** DJ committed and pushed the SEO batch (`e69f2b7b8`): personality ISR (confirmed serving `x-vercel-cache: HIT`), discussion endpoint, `revalidate:personality`, IndexNow submitter, `enneagram-test-comparison-2025` unpublished (not 301'd).
@@ -519,6 +554,7 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Status snapshots
 
+- [2026-10-05](../daily-briefs/2026-10-05_marketing-status.md) — Growth gate passed (chain on time); headline: comments stayed at the pre-July floor a second week (0, then 2); the two new gate surfaces showed the gate to 32 humans and got 0 takes (celebrity q567: 26 deep readers -> 0); host digest works again (8 drafts) but 0 posted; the week's best visitor answered, opted in, hit "Server error" twice registering (weak-password) and left. DJ shipped the loop's engineering half (desk, human-only gate, live-take homepage, celebrity question, beta card live with 16 views / 0 opens, IndexNow); mail still blocked in prod (6th ask, 5 people lost). Content engine restarted: queue 0 -> 18, 10 v3 runs, 4 MDsvex posts live, Andrew Garfield published on _Artificial_'s NYFF day (first people publish in 25 days) before the publisher died on Node 26 again. Unapproved retypes on live drafts: Sam Altman 4 -> 3, Dario 5 -> 6, Druski 8 -> 3. Instagram 59 / Quora 139 days dark.
 - [2026-09-28](../daily-briefs/2026-09-28_marketing-status.md) — Growth gate passed (chain on time); headline: contributions 9 -> 0 (first empty week since July); the only retained contributor reloaded their unanswered q570 nine times, lost their session, got no reset email and left (last seen 09-22); four takes unanswered 8 days; host desk dead 16 days; mail off 26 days (third real person lost, signup 209); homepage V2 live but no gate. 0 / 34 matured contributor return. Growth's #1 bet unshipped 3rd week (confirmed from git) while DJ shipped 11 commits: personality ISR live, cross-link system (371 links, gate debt 66 -> 2, 139 live people rows synced), question-page opt-in tray, Talk-to-DJ rebuild (0 notes), The Nine harness (never run live), fresh GSC pull. Create queue empty 8 nights; 0 people publishes in 18 days; Druski refresh failed v3 verify and its draft retypes the live page 8 -> 3 unsynced. Instagram 52 / Quora 132 days dark.
 - [2026-09-21](../daily-briefs/2026-09-21_marketing-status.md) — Growth gate passed (chain on time); headline: best takes on record (median 367 chars, gate 33%) landed on a host desk dead for 8 days (0/9 drafted); four reachable contributors incl. the first repeat contributor and the first answer -> register conversion got nothing; mail off 19 days and the 503 pre-check now blocks retries; `/` at 0/0 gate for a full week; none of last week's bets shipped (confirmed from git). DJ's week went to SEO: GSC indexed 464 -> 524 with the deploy-skew noindex fix pushed, and personality ISR + IndexNow + 2025-page unpublish sitting uncommitted behind `BYPASS_TOKEN` / `INDEXNOW_KEY`. Ben Shelton is the first v3 subject through the full chain (8.5 B+, images only); Rod Wave stuck at verify-repair; Harries failed permanently; create queue empty; 0 people publishes in 11 days. Instagram 45 / Quora 125 days dark.
 - [2026-09-14](../daily-briefs/2026-09-14_marketing-status.md) — Growth gate passed; headline: best activation week on record (gate 25%, 7 contributors) and every contributor hit a dead end (0 reachable, 1 host reply at 115h, first anonymous opt-in never answered); welcome mail off 12 days and now blocking signup confirmations; 0/31 contributor return across seven matured cohorts. The mail blocker is a postal address that exists nowhere in config; the approved Enneagram campaign (31 eligible) waits on the same value. NEW: the 09-10 homepage rebuild removed the live featured question, and `/` has logged 0 gate events since (traffic flat). CORRECTION: the auto-publisher did publish the "lost" 08-28 -> 09-01 drafts and Zach Bryan; only post-publish `gen:all` fails on Node 26. Queue refilled + pipeline v3 shipped, 0 of 4 nightly attempts publishable; DB 447 -> 450. Instagram 38 / Quora 118 days dark; GSC 32 days stale.
@@ -540,6 +576,18 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 ## Experiment + campaign log
 
 Cross-link only. Detail lives in `docs/growth/growth-log.md`.
+
+### 2026-10-05 — Beta card v1 live (`34d66f4ba`); first 7 hours
+
+- `cta_experiment_events` (`beta_card_v1`, variants `read_like_this` / `flaw_or_alarm` / `nine_eyes`): 16 views (14 celebrity rail/inline, 2 Enneagram), 0 opens, 0 submits since 02:09 UTC 10-05. `coaching_waitlist` 0 new. Goal: 10 beta signups by 11-15. Too early to read.
+
+### 2026-10-03 — Live-take homepage (q203) + celebrity mid-article question (q567) live (`3dfa99ef8`)
+
+- Growth-log `### 2026-10-05`: q567 26 human fps -> 0 takes (median ~6 min engaged); q203 6 -> 0. Formal readout 10-17 (T-41 C). Growth bet #3 proposes rotating q118 into the celebrity slot.
+
+### 2026-09-28 -> 10-04 — Post-answer loop experiment, week 4 readout
+
+- Growth-log `### 2026-10-05`. 2 human comments (both on q118), 2 contributors (0 returning). Host digest restored 10-02 (10-03: 8 drafts), 0 acted; reply opt-ins 3 lifetime, 0 served; 1 DJ reply (to an anonymous take with no opt-in). Mail blocked 34 days. Of last week's bets: #1 partly done (desk fixed, critic emailed, site replies owed), #2 not done, #3 shipped 10-02.
 
 ### 2026-09-21 -> 09-27 — Post-answer loop experiment, week 3 readout
 

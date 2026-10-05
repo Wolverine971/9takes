@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "Sam-Altman",
+  "mode": "refresh",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/verification-edit.json"
+  },
+  "content_sha256": "d08998ae10da79820d8d3abc51b64d6375c110468a77b80078af4c3b28f9a8d4",
+  "evidence_sha256": "8b5a0cfd99b0571b730da73a495d9a169a57779192c9ba7d8a5c30ad9763ea90"
+}

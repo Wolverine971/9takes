@@ -220,8 +220,12 @@
 	{/if}
 
 	<p class="etc__fine">
-		Free beta · Coaching, not clinical therapy{#if !onDetailsPage}
-			· <a class="etc__fine-link" href={BETA_DETAILS_HREF}>Details</a>{/if}
+		<span>Free beta · Coaching, not clinical therapy</span>
+		<!-- The thank-you state already links to the details. -->
+		{#if !onDetailsPage && betaCard.stage !== 'done'}
+			<span aria-hidden="true">·</span>
+			<a class="etc__fine-link" href={BETA_DETAILS_HREF}>Details</a>
+		{/if}
 	</p>
 </section>
 

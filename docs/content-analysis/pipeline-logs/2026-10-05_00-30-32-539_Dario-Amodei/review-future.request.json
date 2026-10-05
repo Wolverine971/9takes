@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "Dario-Amodei",
+  "mode": "refresh",
+  "role": "future",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/similarity.json"
+  },
+  "outputs": {
+    "review-future.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/review-future.json"
+  },
+  "content_sha256": "992ec97f20f95f1758c66dd4544db6fae699f7fb935ffdb272dbc1a9c917799d",
+  "evidence_sha256": "f907a25633af7abea28d0dcf9dac1a78671d38b2deb064e246a27afc16ddd423"
+}

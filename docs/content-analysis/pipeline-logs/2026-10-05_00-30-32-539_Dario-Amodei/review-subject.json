@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "992ec97f20f95f1758c66dd4544db6fae699f7fb935ffdb272dbc1a9c917799d",
+  "evidence_sha256": "f907a25633af7abea28d0dcf9dac1a78671d38b2deb064e246a27afc16ddd423",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "Read as a Five, that is independence: go build your own system. The words that matter are in the middle. He takes people he trusts, and the suspicion he names is dishonesty.",
+      "problem": "Context reversal on the thesis hinge (C25). Opened Lex transcript (01:32:07-01:33:52): \"I don't want to talk about anyone else's vision... It is incredibly unproductive to try and argue with someone else's vision. You might think they're not doing it the right way. You might think they're dishonest. Who knows? Maybe you're right, maybe you're not.\" The rule then ends with a race-to-the-top claim (\"people will copy it\"). He lists two hypothetical complaints a dissenter might hold and explicitly declines to judge either. The draft's quote starts at \"dishonest\", which drops the parallel complaint and the refusal frame. It then calls dishonesty \"the suspicion he names\", turning a deliberate non-accusation into his suspicion (implicitly of Altman) and counting it as Six evidence.",
+      "acceptance_test": "The quotation includes \"You might think they're not doing it the right way\" (or starts at \"It is incredibly unproductive\"). No sentence says he names or holds a suspicion of dishonesty, and the text notes that he declined to say whether that charge was right. Any Six reading of this passage rests on \"take some people you trust\" (optionally plus his 01:32:07 line about a path that is \"cautious, straightforward, honest, that builds trust\"). C25's alternative field records the omitted context."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "In private, according to the Journal, the language runs hotter and toward the same target. He wrote a Slack post calling OpenAI \"mendacious\" and citing \"a pattern of behavior that I've seen often from Sam Altman,\" and he likened rivals to tobacco companies, in the Journal's words, \"knowingly hawking a harmful product.\"",
+      "problem": "These sensitive private messages, known only through unnamed sources, are stripped of context the opened WSJ text supplies. (1) The Journal places the \"mendacious\" Slack post right after Altman answered Anthropic's Pentagon fight by announcing an OpenAI deal for classified Defense Department work (\"these facts suggest a pattern...\"). It was a reaction to a dated event, not free-floating animus. (2) The Journal presents the tobacco comparison as part of a brand strategy \"known internally as one that casts Anthropic as the 'healthy alternative'\" (the Super Bowl ads). That is the incentive reading, yet the draft offers the line as proof of a hot betrayal alarm. (3) The same article reports he \"got angry that he had been left out of the loop\" (the Obama-meeting slides). That anger targets exclusion, not dishonesty, so the article's own record contradicts the next paragraph's claim (C64) that his anger targets dishonesty and broken promises. Separately, the Gulf-investment Slack quote in 'The case for Type 5' is a leaked internal message presented without saying who obtained it (Big Technology says Wired).",
+      "acceptance_test": "The paragraph names the trigger (OpenAI's classified Pentagon deal, announced during Anthropic's dispute, per the Journal) and the Journal's 'healthy alternative' brand-strategy framing of the tobacco line, and keeps the unnamed-source caveat. The 'His anger in this record targets...' claim either accounts for the left-out-of-the-loop episode or is narrowed so it no longer claims to cover the whole record. The Gulf Slack quote names who obtained it (Wired, as reported by Big Technology)."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "Until 2026 he kept even his father's illness out of the long profiles.",
+      "problem": "This is factually overstated, and the article's own sources contradict it. In the 2025 Big Technology podcast (44:57-45:36) and profile, the interviewer raises the illness and Amodei discusses its long course, its curability and the 50%-to-95% cure-rate change. Only the disease's name was missing, and Big Technology itself called it a \"rare illness\", so the omission may reflect the reporter's framing rather than his withholding. Line 202 states this correctly (\"left the disease unnamed\"). The sentence turns 'unnamed' into deliberate concealment of family medical information and uses it as Five evidence. That sets up the later claim, \"Read as a Five, he spent a reserved fact when the argument needed it\", which treats grief and cancer disclosures as tactical spending. The essay's own framing is plainer: \"I feel the urgency personally.\" The page says it does not lean on either reading, so the motive speculation adds risk to a living person's health disclosures without adding evidence.",
+      "acceptance_test": "The Five section no longer says or implies he kept the illness out of the profiles. At most it repeats that the 2025 profiles did not name the disease, without implying intent. The disclosure paragraph quotes the essay's framing (\"I feel the urgency personally\") and drops \"spent a reserved fact\" and any reading of a health disclosure as a tactical move, or the paragraph is cut. No inference about why he named hepatitis C or disclosed his cancer remains unless attributed to him."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "wrote that \"Dario makes the case to stop open source and concentrate enormous technological and economic power with Anthropic\"",
+      "problem": "The strongest motive critique runs without the subject's existing on-record answer. (1) The opened essay (S09) never mentions open source, yet Palihapitiya's description of it appears unqualified. (2) The essay answers this charge in advance: Anthropic has backed regulation \"even when this gets us accused of hype, 'doomerism', or regulatory capture.\" It frames the plan as \"a race to the top\", commits Anthropic first, and admits that incidents like OAI-HF happened \"including at Anthropic.\" (3) The same Axios piece reports that Altman (\"I agree with Dario that we need to pace the frontier\", with OpenAI also offering evaluator access) and Musk endorsed the call the same day. (4) The Huang exchange has the same pattern: the page keeps \"most outrageous lie\" and \"bad faith distortion\" but drops his substantive reply in the same Big Technology passage: \"I've said nothing that anywhere near resembles the idea that this company should be the only one to build the technology,\" plus his race-to-the-top aim. (5) 'The brake he set in advance' reports his September 2026 change of position and critics' readings, but not the two reasons he gave: AI speeding up its own development since summer 2026, and the OpenAI-Hugging Face rogue-agent incident.",
+      "acceptance_test": "The critique paragraph keeps Palihapitiya and AFP. It flags that the essay does not mention open source (or clearly labels the quote as his inference) and gives Amodei's dated, attributed answer from the essay (the capture acknowledgement and the race-to-the-top rationale). The Huang paragraph includes his \"only one to build the technology\" denial alongside the angry words. The pacing section states his two stated reasons with dates and the \"including at Anthropic\" admission. The incentive alternative stays fully stated."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "ordered agencies to stop using Anthropic's technology, calling it \"a radical left, woke company,\"",
+      "problem": "This is a missing response. The page prints the President's political label but not Amodei's answer in the CBS interview it already cites (February 28, 2026). Asked whether the decision was ideological, he said Anthropic has \"tried to be very neutral,\" speaks up only \"on issues of AI policy where we have expertise,\" and had told the president he \"agreed with many aspects of what he's doing.\" The opened February 26 statement also limits the dispute: the Department \"not private companies, makes military decisions\", Anthropic has \"never raised objections to particular military operations\", partially autonomous weapons are \"vital\", and it offered R&D to improve reliability. Without these, the label stands unanswered and the refusal reads broader than it was.",
+      "acceptance_test": "The section gives his attributed, dated CBS answer to the ideology/'woke' question. The account of the refusal reflects the statement's stated scope (two use cases; deference on military operations) in at most a clause or two, and the counterphobic reading is kept."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "Rivals' unenforced promises get no such faith",
+      "problem": "This misframes a quote and makes him look self-exempting. In the opened Lex passage (01:20:58-01:22:07) the same thought continues: \"if there's nothing watching over them, if there's nothing watching over us as an industry, there's no guarantee that we'll do the right thing.\" He puts Anthropic inside the distrust (after \"I like to think that Anthropic will\"). Saying the distrust is reserved for rivals contradicts the record and the page's own thesis about rules that bind him. In the same section, the held-back model is listed among Anthropic's 'locks', but Wired quotes him calling it a \"one-off\": \"In that one instance, we probably did the right thing. But that is not sustainable.\"",
+      "acceptance_test": "The sentence reflects that he applied the distrust to \"us as an industry\" (quoted), keeping his \"I like to think that Anthropic will\" if useful. The held-back-model example carries his \"one-off ... not sustainable\" qualification, or is presented as a single costly choice rather than a standing lock."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "Recognition matters to him in a way neither Five nor Six centers",
+      "problem": "This states an inner priority as fact on thin, mixed evidence: Berry's admitted guess (\"I imagine...\"), an unnamed-source WSJ line, and a Marre quote that itself plays the point down (\"not excessively or abnormally\"). AFP continues that quote with \"He wasn't a megalomaniac who crushed others,\" which the page omits. The Princeton section also keeps only the less favorable half of AFP's Berry/Marre pairing. AFP quotes Berry calling him \"very idealistic...in a technical or scientific sense\" and wanting skills to \"cure various diseases.\" The page drops that while keeping Berry's speculation about applause and Marre's \"cooler picture.\"",
+      "acceptance_test": "The sentence is hedged and attributed (for example, 'Three accounts suggest recognition mattered to him...'), with Berry's line labeled as his guess. The Princeton section includes Berry's on-record 'idealistic' testimony from AFP or gives a reason for leaving it out, and Marre's moderation stays."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "That describes a man who builds frontier AI because he believes it is dangerous.",
+      "problem": "This sentence, the title (\"Can't Stop Building the Thing He Fears Most\") and the close (\"why he can't stop building\") assert a compulsion and a motive the record states differently. His quoted reasons are benefits and keeping AI from authoritarian powers (the opening's essay quote). Anthropic's stated logic is that safety work requires being at the frontier (Wired, Chris Olah: \"It would be a much simpler world if you could work on safety without going to the frontier\"). The body itself says \"He will not stop\", which is a choice. No opened source has him ranking AI as what he fears most. The counterphobic reading may be defensible, but it is presented as description rather than interpretation.",
+      "acceptance_test": "The counterphobic sentence is labeled as the page's reading and sits next to his stated reasons for building. The title and closing line either match the body's choice framing or the body earns \"can't\" and \"fears most\" with attributed evidence. head_term_exception may keep a curiosity title only if its claims are supported."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The lesson of his father's death is that delay has a body count. It explains why he keeps building. It does not explain what he does with the danger of the thing he builds, and that part of him shows up early.",
+      "reason": "Separates the sourced motive (his own repeated framing of his father's death) from the type claim instead of letting a childhood loss do the typing; fair and distinctive."
+    },
+    {
+      "passage": "These accounts come from unnamed sources in a feud story, and Amodei is not quoted responding to them.",
+      "reason": "Names the sourcing limit and the absence of a response where the allegation appears; checked against the opened WSJ text (no Anthropic or Amodei response). Keep it while adding the context in subject-02."
+    },
+    {
+      "passage": "None of the interviews, essays, profiles and posts reviewed for this page describe any such diagnosis, and this page infers none.",
+      "reason": "Answers a search question about a living person's health without speculating or citing mannerisms."
+    },
+    {
+      "passage": "The most serious alternative may not be a type at all.",
+      "reason": "Honestly gives the incentive explanation its full weight, and the predates-the-company test is a real discriminator. Subject-04 adds his answer; it should not soften the critique."
+    },
+    {
+      "passage": "From outside, securing a safe base and grabbing control look the same.",
+      "reason": "Refuses to settle an adverse fact (founder-control reports) in the subject's favor."
+    }
+  ],
+  "assessment": "Fairness proxy (I do not speak for Amodei). Most of the draft is careful. WSJ material is attributed to the Journal and its unnamed sources. The Hitler/Stalin and 'evil' remarks are cut. Nothing is added to his health disclosures, no neurodivergence is inferred, Jade Wang stays within her on-record quote, and type confidence is hedged ('most likely', 'medium confidence'). The fairness problems cluster where the 5-to-6 argument leans on trimmed context: a Lex quote in which he explicitly declined to accuse anyone; WSJ private messages without their Pentagon-deal trigger or the Journal's brand-strategy framing; a 'kept the illness out of the profiles' claim the 2025 podcast contradicts; and the concentrate-power critique (Huang, Palihapitiya) printed without his substantive answers, even though one is in the essay the page opens with. I opened S01, S02, S03, S04, S06, S09, S13, S15, S17, S36 and S37 directly, and S14 and S41 through a reader proxy. I did not open the X posts (S10-S12), Bloomberg (S39, paywalled) or the FT summary (S25). Risk flags: sensitive_allegations (private messages from unnamed sources; health disclosures), contested_typing and major_thesis_change (live 5-to-6 retype) are all true, so the six-role jury is warranted. Similarity advisory: the tripped pairs share disclaimer and orientation phrases ('reading of public evidence', 'the public record', 'this page'), not arguments, so no reuse finding."
+}

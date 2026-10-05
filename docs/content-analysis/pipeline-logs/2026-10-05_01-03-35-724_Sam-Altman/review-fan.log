@@ -1,0 +1,22 @@
+I've finished the fan review stage for the Sam Altman draft. The result is in `review-fan.json`, the only file I wrote. It passes the schema check, and every quoted passage matches the draft exactly. I didn't edit the draft or the evidence and didn't publish anything. I also didn't look at the other reviews.
+
+**Verdict:** the draft is careful and doesn't flatter him. The sister's lawsuit and the 2026 New Yorker allegations are both handled fairly. But it uses some famous sources selectively, which makes the Type 3 case look cleaner than the record. The Type 3 lead may still hold; the arguments that separate it from the other types need rebuilding on quotes read in context.
+
+I logged eight findings, seven major and one minor:
+
+1. **The opening misreads Paul Graham's island line.** In his essay it sits under "Be independent": Altman will succeed "with or without" investors. The draft reads it as "reads each room and gives it what it wants," which is close to the opposite.
+2. **Graham's later reversal is missing.** The 2026 New Yorker reports Graham told colleagues that before Altman left YC, "Sam had been lying to us all the time." That's the biggest contradiction to the article's frame, and the research already had it.
+3. **Two quotes are about reading other people, not his own feelings.** "Alien intrigue" and "not a high-EQ person" are used as proof that his own feelings show up late. The draft also never deals with the obvious tension: a famous room-reader who says he can't read faces.
+4. **His mother's quote is cut short.** The rest is about stress coming out as health worries. That, plus the well-known prepper list (guns, gold, gas masks), belongs in a fair hearing for Type 6.
+5. **His own admission is left out.** In the same Bloomberg interview the draft quotes, he says he "tried to get [board members] off the board." That undercuts the claim that he only confronts people when control is at stake.
+6. **The five days in November skip their best-known turns:** Microsoft's job offer, Brockman quitting, Emmett Shear named interim CEO, and Ilya Sutskever (who wrote the memos) reversing himself.
+7. **OpenAI's nonprofit history is missing,** and so is Altman's May 2026 answer under oath to "Do you always tell the truth?": "I'm sure there is some time in my life when I have not."
+8. **Minor:** his coming-out speech at 17 also challenged the school itself, which complicates the "avoids conflict" thesis.
+
+I also marked five passages the edit should keep. The automated check for recycled phrasing didn't flag anything, and the arguments are specific to Altman.
+
+**What I didn't check myself:** I read Graham's essay directly. For the New Yorker, Bloomberg, TIME and the court-testimony coverage I relied on the excerpts in the research file. Sutskever's public regret post and Microsoft's job offer aren't in the research at all, so the editor needs to find and open sources before adding them.
+
+As noted in the research file, this rewrite moves the page from Type 4 to Type 3, while the live page has been ranking as a Type 4 profile, so it needs your sign-off before release.
+
+Separately, the Supabase connection failed this session, and several plugin connections (Slack, GitHub, Ahrefs and others) need authorizing in your connector settings. This stage didn't need any of them.

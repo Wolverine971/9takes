@@ -1,0 +1,1452 @@
+{
+  "schema_version": 3,
+  "content_sha256": "d08998ae10da79820d8d3abc51b64d6375c110468a77b80078af4c3b28f9a8d4",
+  "evidence_sha256": "8b5a0cfd99b0571b730da73a495d9a169a57779192c9ba7d8a5c30ad9763ea90",
+  "status": "pass",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "minor",
+      "passage": "Altman left Stanford after two years to co-found Loopt, a location-sharing app, in 2005, at 19. It was in Y Combinator's first batch",
+      "problem": "'At 19' appears in no opened source. S42 gives only 2005; S43 places the inaugural YC batch in the summer after his sophomore year, when Altman (born April 22, 1985) had turned 20. The 'first batch' fact is supported by S43 ('inaugural batch'), but C13 cites only S42 and S01.",
+      "acceptance_test": "Either drop 'at 19' or cite an opened source that states it, and add S43 to C13's source_ids for the first-batch fact."
+    },
+    {
+      "id": "verify-02",
+      "severity": "minor",
+      "passage": "At a 2016 family dinner, his brother Jack told a New Yorker writer",
+      "problem": "S03 sets the Samurai exchange 'one evening at Altman's house' with his brothers Max and Jack teasing him. It mentions no dinner, so 'family dinner' is an embellished scene detail (repeated in C02's claim).",
+      "acceptance_test": "The sentence matches S03's setting (e.g., 'One evening in 2016 at Altman's house, his brother Jack told a New Yorker writer'), and C02's claim is updated."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "He declined to give details on the record and offered one hedged guess about its legacy",
+      "problem": "S43 says he 'was reluctant to give us more details on the record'; he did give the setting (out late in a predominantly gay neighborhood). 'Declined to give details' slightly overstates his reticence, in the profile's most sensitive passage.",
+      "acceptance_test": "The clause matches S43 (e.g., 'He was reluctant to give more details on the record'), and C08 is updated. No new detail about the attack is added."
+    },
+    {
+      "id": "verify-04",
+      "severity": "minor",
+      "passage": "In public he called Musk \"clearly a bully\" ([Honestly with Bari Weiss, December 2024](https://www.thefp.com/p/sam-altman-openai-feud-with-elon))",
+      "problem": "The quote is accurate: I transcribed the episode audio at ~14:50, 'He's also clearly a bully'. But the linked thefp.com page is paywalled before the line, so a reader following the link cannot see it. Two sidecar descriptions are also inaccurate, though the copy is fine. The resolution for enneagram-01 cites a sentence ('Power-seeking alone can't separate Three from Eight') that is not in the article. The evidence research_tasks says nothing from the April 10 post is used as type evidence, yet 'awake in the middle of the night and pissed' is used as (acceptable, context-stated) counterevidence.",
+      "acceptance_test": "At the next touch, the citation names the episode timestamp (about 14:50) or links an accessible transcript, and the evidence/resolution notes describe the candidate accurately. No reader-facing claim needs to change."
+    }
+  ],
+  "research_tasks": [
+    "Before release if feasible: check Karen Hao's Empire of AI pp. 34-35, 42 and 240 against the book or an independent excerpt (currently verified only through S55, a critic's compilation); restore stronger wording only if context matches.",
+    "Before release and at each refresh: re-check the Altman v. Altman docket (Doc. 109 motion to dismiss, heard or set for Oct 2 2026 with no entry as of 2026-10-05; trial 5/3/2027), and restate the film's Oct 5 premiere and Dec 25 release in the past tense once they occur."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "S01 opened (paulgraham.com): under '5. Be independent', 'When we predict good outcomes... toughness, adaptability, determination', 'Sam Altman has it. You could parachute him into an island full of cannibals...' verbatim; Aug 2008, born April 1985 so 23."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "S36 opened: 'I am not proud of being conflict-averse, which has caused great pain for me and OpenAI' verbatim; the post calls the New Yorker piece 'an incendiary article about me a few days ago'; S37 dates it to the night of the attack."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "S77 (CNBC, Apr 10 2026): Molotov cocktail hit an external gate, no one injured, suspect arrested; S36 describes the 3:45 am attack and responds to the article."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "Labeled in the body as 'this profile's reading, not Graham's'; grounded in S43's 'ability to convince disparate groups that what he wants and what they need are one and the same' (verbatim) and S38's Hagey quote (verbatim)."
+    },
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "S42 infobox: born April 22, 1985, Chicago, Illinois."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "S42: CEO of OpenAI since 2019; S70 (Reuters via Star-Advertiser, Oct 4 2026) calls him 'OpenAI chief executive'. Dated 'early October 2026' with a review trigger."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "Interpretive type answer; each element traced: S38 'tell people what they want to hear', S36 'caused great pain', S43/S54/S55 accommodation-with-agenda. Medium confidence and 4/8 alternatives stated."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "Body passage only says earlier versions read him as Type 4 (baseline enneagram: 4). The retractions check out: S84 has one run-on 'chaotic and shameful and upsetting'; S85 lacks 'heart pounding' while S99 (anonymous Medium) has it; S29 lacks the regulation line; S08 has a Coogan line but not the old ones; S40 has 'it felt so unfair'; Ozymandias is in S12, not S11."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "S43: 'grew up in Clayton, Missouri, an affluent suburb of St. Louis, as the eldest of four siblings' verbatim."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "qualified",
+      "reason": "Quote verbatim in S03 (Jack Altman, 'I have to win, and I'm in charge of everything'). But S03 sets it 'one evening at Altman's house' with brothers Max and Jack, not a 'family dinner'; see verify-02."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "S03: after a Christian group boycotted an assembly about sexuality at John Burroughs, he addressed the whole community and announced he was gay. S06 (Wayback copy of First Contact): 'back and forth like three times, because I just couldn't do it' and 'I was like 17'."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "Interpretation, qualified in the body by S06's 'mostly out' (verbatim: 'I was like mostly out, most people knew about it'). It is labeled the Four reading's best exhibit."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "qualified",
+      "reason": "S43: at sixteen or seventeen, out late in a predominantly gay neighborhood of St. Louis, 'subjected to a brutal physical attack and homophobic slurs'. But S43 says he 'was reluctant to give us more details on the record'; 'declined to give details' slightly overstates. See verify-03."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "S43 verbatim: 'probably that has, like, some deep-seated psychological thing—that I think I'm over but I'm not—about not wanting more conflict.' The body labels it his speculation and builds nothing on it."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "qualified",
+      "reason": "S42: two years at Stanford, dropped out, co-founded Loopt in 2005. 'At 19' is in no opened source (born April 22, 1985; S43 dates the inaugural YC batch to the summer after his sophomore year). 'Y Combinator's first batch' is supported by S43 ('inaugural batch'), which C13 does not cite. See verify-01."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "S03: Graham, 'Sam is extremely good at becoming powerful' verbatim."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "S43 verbatim: groups of senior employees 'concerned with Altman's leadership and lack of transparency' asked Loopt's board on two occasions to fire him; Jacobstein to Hagey, 'There's a blurring...leads to Theranos'; 'A board member denied that the attempts to remove Altman as C.E.O. were serious.'"
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "qualified",
+      "reason": "S55 (critic's compilation) contains the pp. 34-35 quote verbatim. The book itself was not opened, and the body discloses 'via a critic's compilation of excerpts'."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "S42: 'after Loopt failed to gain significant user traction, the company was acquired by the Green Dot Corporation for $43.4 million' (March 2012)."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "Interpretation marked 'Through the type lens', preceded by the protected generous reading. It rests on S43's Jacobstein quote and is later echoed by Sue Yoon's 'too caught up in his own self-belief' (S43)."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "S03: Graham on the kitchen offer, 'he smiled, like, it worked. I had never seen an uncontrolled smile from Sam.' verbatim; S42: YC president 2014-2019."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "qualified",
+      "reason": "S55 contains both p. 42 sentences verbatim with a marked elision. The book was not checked. The body discloses the compilation, the elision, unnamed sources and the unverifiable context."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "S03: said after 'Fuck you, I don't have Asperger's!' about reading emotions in a photo; 'I look on with alien intrigue' verbatim. The body gives that context."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "S03 verbatim, including the following risk sentence (C132), which the body now quotes."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "S11 (Conversations with Tyler, taped Jan 2019, posted Feb 27 2019): quote verbatim."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "S45 (via r.jina.ai): 'not consistently candid in his communications with the board, hindering its ability...' verbatim; S43: in Las Vegas at a Formula 1 race, video call; S91 corroborates the hotel room in Las Vegas."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "S46 via fxtwitter: posted Nov 18 05:05 UTC (Nov 17 evening PT), text verbatim."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "S43: 'set up what he called a sort of government-in-exile'; Chesky and Lehane named verbatim."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "S40 verbatim: 'Saturday morning two of the board members called...I was initially just supermad and said no...only if the whole board quits.'"
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "S44: letter signed by 745 of 770 employees; S42: reinstated five days later after employee and investor backlash."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "S43 verbatim for 'This is just so fucked up', 'I can't change my personality', Altman's 'unifying force' gloss, 'too much of a conflict avoider', the trait enabling an immensely successful company, and the board member's reading; S39 corroborates."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "S84 (00:01:13) verbatim, one run-on clause; March 18, 2024."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in S84's exact wording; the body states the limit."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "Interpretation; the leverage items each verified: S81 Brockman, S105 Nadella, S44 letter, S43 government-in-exile."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "S78 (Wikipedia): Guadagnino, written by Simon Rich, Garfield, Neon, NYFF Oct 5 2026, US Dec 25 2026; S79 (filmlinc via r.jina.ai): world premiere October 5 at Alice Tully Hall; S80 Neon Dec 25 date. Past-tense 'was scheduled' form survives the dates."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "S43 verbatim: list headed 'Sam exhibits a consistent pattern of . . .', first item 'Lying'; 'just tells people what they want to hear'; Murati 'Everything I shared was accurate, and I stand behind all of it.' S60: 'the process was rushed', 'secondhand knowledge', 'nearly everything in Sutskever's 52-page memo came from one person: Mira Murati'."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "S48 transcript: 'Sam had made it really difficult for the board...by, you know, withholding information'; S49: 'disappointed that Ms. Toner continues to revisit these issues'; S40: 'I don't think I was doing things that were sneaky'."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "S50 via r.jina.ai: 'acted within its broad discretion to terminate Mr. Altman, but also found that his conduct did not mandate removal'; S43: 'no need for a formal written report'."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "S38 verbatim for both Hagey quotes, including the salesman caveat."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "S54 (Wayback snapshot of The Atlantic, May 15 2025): 'If two teams disagreed, he often agreed in private with each of their perspectives' verbatim."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "S43 verbatim. Attributed in the body to an unnamed board member and labeled a characterization, not a diagnosis."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "S43: Sue Yoon, a former board member, 'He's too caught up in his own self-belief' verbatim."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "S36 'an incendiary article'; S39 Farrow: 'meticulously fact-checked, and OpenAI is not disputing the core facts' verbatim."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "Interpretation; the components were each verified (S38, S54, S55, S43, S40, S48). The body flags his self-label as framing given under accusation."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "S43: 'Now I'm very happy to fire people quickly' verbatim. Marked in the body as a self-assessment, not yet a record; time_sensitive trigger set."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "S56 'Honest Thoughts', Sep 20 2017 (2:08 pm), signed Ilya and Greg: 'We don't understand why the CEO title is so important to you. Your stated reasons have changed' verbatim."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "S43 verbatim, both halves quoted in the body with the mission alternative named."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "Interpretation based on S56 verbatim. The body names the title as the Three-specific prize."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "S40 verbatim: 'I'm not a high-EQ person, so there's probably even more', said about detecting board tension; the body states that context."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "S25 'Donald Trump represents an unprecedented threat to America' (Oct 2016); S26 transcript 'We wouldn't be able to do this without you, Mr. President' (Jan 21 2025, Stargate); S27 via fxtwitter (Jan 23 01:10 UTC = Jan 22 PT) verbatim; S23 corroborates."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "Interpretation; it rests on S21 (equity regret framed around 'conspiracy theories', verbatim) and S27 (npc trap). The body concedes the npc framing's Four-like ring."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "S03: ''Melancholy' is a better word than 'sad.'' verbatim, about humans' narrowing advantage."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "S14 (released email, Feb 18 2023): 'well, you're my hero...it really fucking hurts when you publicly attack openai' verbatim; Musk 'certainly not my intention to be hurtful'."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "S15 episode audio re-downloaded and transcribed with Whisper (small.en) at about 14:50: 'He's also clearly a bully, and he's also someone who clearly likes to get in fights.' Preceded by praise ('legendary entrepreneur'), which supports the body's point. The linked thefp.com page is paywalled before this line; see verify-04."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "S17 via fxtwitter, Feb 10 2025 21:11 UTC, verbatim; S16 Fortune: $97.4 billion bid for the nonprofit."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "Interpretation; S14 private email versus S15/S17 public lines. In S15 'bully' is wrapped in gratitude, which fits 'without making him look like the aggressor'."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "S20 '$76,001'; S22 (Reuters, May 2026): 'does not hold direct equity in OpenAI'; S21 (Oct 30 2025) 'i do wish i had taken equity...far fewer conspiracy theories' verbatim; S19 and S18 audio (DealBook, Dec 2024: 'So I wish I had taken some', 'childhood dream job') corroborate. Trigger set."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "S07 Advocate: 'I don't really think about being a gay CEO. I don't look at it that way.' verbatim."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "Interpretation; each limit verified (S06 'mostly out', S07 quote, S03 melancholy context). The body acknowledges the reserved Four."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "S43: a former employee recalled 'I don't care about money. I care more about power.' verbatim, attributed in the body."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "S56 verbatim: 'Sam stood his ground' in the Sep 20 2017 email."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "S36 verbatim: 'held the line on not being willing to agree to the unilateral control he wanted over OpenAI'."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "Interpretation grounded in S40 ('tried to get them off the board', verbatim), S48 (Toner), S56 and S40 open demands. The OpenAI dispute (S41) is given in the witnesses section."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "S63 via fxtwitter (Nov 14 01:35 UTC = Nov 13 2021 PT): abuse 'from my biological siblings, mostly Sam Altman'; S62: E.D. Mo. suit, abuse began 'when Ann...was 3 and Sam was 12'; S61 statement verbatim; S43 'could not substantiate Annie's account'. Unresolved; trigger set."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "S65 (Reuters via r.jina.ai): Mar 20 ruling that standalone claims expired in 2008, amended complaint under the Missouri child sexual abuse statute filed Wednesday (Apr 1), defamation countersuit. S64 docket re-opened newest-first 2026-10-05: latest entry #128 Sep 30 2026; Doc. 109 motion to dismiss pending; Dec 19 2025 case management order sets jury trial 5/3/2027."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "S85 transcript: 'a very anxious, high-strung person, much more than I realized' verbatim."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "S57 via fxtwitter (May 17 2024) verbatim; S101 CNBC: team disbanded."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "S97 via fxtwitter (Sep 12 2026): 'I agree with Dario that we need to pace the frontier...independent evaluators with employee-like access is a great idea' verbatim. Dated fallback trigger set."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "S89 via fxtwitter (Feb 2 2026 21:59 UTC): 'off-script for a minute', 'I felt a little useless and it was sad', 'nostalgic for the present' verbatim; S90 corroborates."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "Interpretation; both readings are offered and the body says both fit."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "Interpretation, qualified by S43's YC exit reporting. It is time_sensitive with concrete observables."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "S01 verbatim: 'that you'll succeed with or without them' and 'deal-making ability'."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "S43 published online April 6 2026; S36 refers to 'an incendiary article about me a few days ago'."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "S43 verbatim."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "S03 verbatim; presented as The New Yorker's paraphrase."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "S106 Wikipedia (Theranos): the blood-testing company's false claims and fraud."
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "Interpretation that reconciles S03/S40 context (reading others' emotions) with S55's 'uses that to figure out how to influence you'. It is labeled as reconciliation."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "S43 verbatim: parting 'was not entirely mutual'; 'Sam had been lying to us all the time' relayed by colleagues, labeled secondhand in the body."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "S43 verbatim: Graham tweet 'we didn't want him to leave, just to choose' and 'All we could do was apply moral pressure'; Altman says he was never fired."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "S43 verbatim: the board 'had a duty to prioritize the safety of humanity over the company's success'; nonprofit founding in 2015."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "S32 (via r.jina.ai): 'capped-profit' company (March 2019); S33 (via r.jina.ai): 'we are moving to a normal capital structure where everyone has stock' verbatim."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "S81 via fxtwitter (Nov 18 00:09 UTC = Nov 17 PT) posted his resignation message; S54 reports he quit in protest."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "S105 via fxtwitter (Nov 20 2023): 'to lead a new advanced AI research team' verbatim; S104 Fortune: Microsoft 'the startup's biggest strategic shareholder'."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "S40 verbatim: 'I wish I had taken a different tack than that, but at the time it felt like a just thing to ask for.'"
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "S40 verbatim: Shear announcement 'was real deception'; S44/S42: reinstated after employee and investor pressure within five days."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "S103 via fxtwitter (Nov 20 2023 13:15 UTC) verbatim; S44/S104: he signed the employee letter. The body says he regretted the action without retracting the memos."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "S60 Decrypt: 'the process was rushed' (testimony) and 'At least a year' in answer to how long he had considered it."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "S48 transcript verbatim; S47/S49 corroborate. Paired in the body with OpenAI's response, Altman's denial and WilmerHale."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "S40 verbatim."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "S41 (Bloomberg via Gulf News): he 'offered to publicly apologise for misrepresenting some board members' views'; 'An OpenAI spokesperson said this account significantly differs from Sam's recollection'."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "S72 Ringer transcript: 'Do you always tell the truth?' / 'I believe I'm a truthful person' / 'I'm sure there is some time in my life when I have not' verbatim."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "S73 NBC (May 18 2026): jury found Musk 'waited too long'; Musk's lawyer Molo: 'intends to appeal'. Trigger set."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "Interpretation; the defensive contexts are verified (S43 board call and 2026 interviews; S36 post days after the investigation)."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "Interpretation that names the salesman confound (S38 caveat verbatim) and states it is unresolvable by timing. It honestly limits confidence."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "qualified",
+      "reason": "S55 contains the p. 240 passage verbatim; the book was not opened. The body attributes it 'via the compilation'. The pattern is independently corroborated by S54's published excerpt ('agreed in private with each of their perspectives')."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "Interpretation; rests on S55 p. 240 plus S43's 'what he wants and what they need' and S40's own board-removal admission. Labeled as type reasoning."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "Interpretation; S89 'I felt a little useless' verbatim and S56's years-long title fight."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "S56: Sam Altman to Elon Musk, Sep 21 2017 9:17 AM, 'i remain enthusiastic about the non-profit structure!' verbatim, after Musk's Sep 20 'continue with OpenAI as a nonprofit' funding ultimatum."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "Interpretation; dates verified (Sep 2017 to Mar 2019 is about 18 months, S32). The capital-needs explanation is named first."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "Interpretation; components verified: S03 smile, S55 p. 42, S14 email, S40 'supermad', S36 'Now I am awake in the middle of the night and pissed' (with the attack context in the same sentence). It concedes the reserved Four."
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "supported",
+      "reason": "S03 verbatim."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "Interpretive ranking sentence with stated evidence."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "S03 Friend's narration: 'quick to smile, but also quick to anger' verbatim."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "S03 verbatim prepper list."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "S03: Thiel, 'an optimist yet a survivalist' verbatim."
+    },
+    {
+      "claim_id": "C137",
+      "verdict": "supported",
+      "reason": "S09 TIME (Jun 21 2023, via WebFetch): 'it's gotten caricatured very wildly' and 'very optimistic and prepared for things to go super wrong at any point' verbatim, in answer to the doomsday-prepper question."
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "Interpretation; the Six exhibits are verified (S85, S03, S09) and it is named the largest gap."
+    },
+    {
+      "claim_id": "C139",
+      "verdict": "supported",
+      "reason": "S102 via fxtwitter (May 17 2024 18:56 UTC, hours after S57 at 15:57 UTC) verbatim."
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "supported",
+      "reason": "S43: Amodei 'was leading the company's safety team'; 'in 2020 Amodei, Daniela, and other colleagues left to found Anthropic, which is now one of OpenAI's chief rivals'."
+    },
+    {
+      "claim_id": "C141",
+      "verdict": "supported",
+      "reason": "Interpretation; it frames the open question as follow-through, not type. Dated fallback trigger 2027-03-12."
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "supported",
+      "reason": "S69 CNBC (Sep 29 2026): 'I mean, looks like an awful movie, but I appreciate people's creativity, and I really do support that' verbatim."
+    },
+    {
+      "claim_id": "C143",
+      "verdict": "supported",
+      "reason": "S43: by 2018 several YC partners complained to Graham about Altman; the parting 'not entirely mutual'; attributed 'by The New Yorker's account'."
+    },
+    {
+      "claim_id": "C144",
+      "verdict": "supported",
+      "reason": "Interpretation from S21's framing of the equity regret ('far fewer conspiracy theories') and S20. It is modest, one example, and stated as such."
+    },
+    {
+      "claim_id": "C145",
+      "verdict": "supported",
+      "reason": "Interpretation; the defensive contexts are verified in S43 and S36."
+    },
+    {
+      "claim_id": "C146",
+      "verdict": "supported",
+      "reason": "S48: Toner 'misrepresenting things...in some cases outright lying to the board'; S43 board member 'I have this trait where I lie to people'."
+    },
+    {
+      "claim_id": "C147",
+      "verdict": "supported",
+      "reason": "Interpretive FAQ line consistent with the body's 3-vs-4 argument."
+    },
+    {
+      "claim_id": "C148",
+      "verdict": "supported",
+      "reason": "Interpretive summary; components verified (S38, S54, S55, S43)."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "paulgraham.com/fundraising.html, curl direct; section '5. Be independent' (island line, 'deal-making ability', 'with or without them')"
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "newyorker.com 2016 profile, curl direct full text; Asperger's para, prepper scene, mother/Thiel para, John Burroughs speech para, Graham 'powerful', YC smile, brothers' evening (Samurai), 'missing circuit', 'Melancholy', 'quick to anger'"
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback copy of mostlyhuman.com First Contact transcript, curl; 'I was like 17', 'mostly out', 'back and forth like three times'"
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "advocate.com Q&A, curl direct; answer on being a gay CEO"
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "sherwood.news compilation, curl direct; Coogan 'Michael Jordan of listening' present, old 'totally transformed' lines absent (supports C79's retraction)"
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "time.com full interview via WebFetch (curl returned empty); doomsday-prepper question, 'caricatured very wildly'"
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "conversationswithtyler.com episode page and transcript, curl; Ep. 61, posted Feb 27 2019; 'all of us, myself included...'"
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ycombinator.com Masters of Scale uncut transcript, curl; ~53:09 Ozymandias passage (supports C79 retraction)"
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "chatgptiseatingtheworld.com post with the released Feb 18 2023 email image/text, curl; 'you're my hero', 'it really fucking hurts', Musk reply"
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "megaphone.fm episode MP3 re-downloaded as binary; my own Whisper small.en transcript of 14:30-15:20, line at ~14:50 'He's also clearly a bully'"
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "fortune.com Feb 11 2025, curl direct; $97.4 billion bid for the controlling nonprofit"
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/sama/status/1889059531625464090 via api.fxtwitter.com; Feb 10 2025 21:11 UTC"
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Apple Podcasts DealBook episode; enclosure MP3 byte ranges ~27.6-32.6MB transcribed locally with Whisper: 'So I wish I had taken some', 'This is my childhood dream job'"
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "cnbc.com Dec 10 2024 via r.jina.ai (direct hit a Cloudflare page); no equity, $76,000, 'childhood dream job'"
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "news.bloomberglaw.com, curl direct; headline and body '$76,001 in pay last year'"
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/sama/status/1983941806393024762 via api.fxtwitter.com; Oct 30 2025 'i do wish i had taken equity...conspiracy theories'"
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reuters via thestar.com.my, May 2026, curl direct; 'Altman does not hold direct equity in OpenAI'"
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "abcnews.go.com Jan 2025, curl direct; 2016 'unprecedented threat' and Stargate context"
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "blog.samaltman.com/the-2016-election, curl direct; 'Donald Trump represents an unprecedented threat to America'"
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "singjupost.com Stargate press-conference transcript, curl direct; Altman's remarks"
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/sama/status/1882234406662000833 via api.fxtwitter.com; Jan 23 2025 01:10 UTC (Jan 22 PT)"
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "govinfo.gov Senate Judiciary hearing transcript, curl direct; regulation-skepticism line absent (supports C79 retraction)"
+    },
+    {
+      "source_id": "S32",
+      "opened": true,
+      "context_matches": true,
+      "locator": "openai.com/index/openai-lp via r.jina.ai (direct 403); 'capped-profit' company paragraph"
+    },
+    {
+      "source_id": "S33",
+      "opened": true,
+      "context_matches": true,
+      "locator": "openai.com/index/evolving-our-structure via r.jina.ai (direct 403); 'a normal capital structure where everyone has stock'"
+    },
+    {
+      "source_id": "S36",
+      "opened": true,
+      "context_matches": true,
+      "locator": "blog.samaltman.com/2279512, curl direct; 'Second, some personal reflections' ('held the line', 'conflict-averse', 'awake in the middle of the night and pissed', 'incendiary article')"
+    },
+    {
+      "source_id": "S37",
+      "opened": true,
+      "context_matches": true,
+      "locator": "techcrunch.com Apr 11 2026, curl direct; Molotov attack Friday morning, response to the New Yorker article"
+    },
+    {
+      "source_id": "S38",
+      "opened": true,
+      "context_matches": true,
+      "locator": "techcrunch.com Jun 1 2025 Hagey interview, curl direct; 'not great at dealing with conflict', 'salesman skill set'"
+    },
+    {
+      "source_id": "S39",
+      "opened": true,
+      "context_matches": true,
+      "locator": "sfstandard.com PST podcast page, curl direct; Farrow 'OpenAI is not disputing the core facts', 'incendiary'"
+    },
+    {
+      "source_id": "S40",
+      "opened": true,
+      "context_matches": true,
+      "locator": "bloomberg.com Jan 5 2025 interview, curl direct (full text in page JSON); 'supermad', 'Only if the whole board quits', 'real deception', 'not a high-EQ person', 'tried to get them off the board'"
+    },
+    {
+      "source_id": "S41",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Bloomberg via gulfnews.com Dec 9 2023, curl direct; apologise for misrepresenting views; spokesperson 'significantly differs'"
+    },
+    {
+      "source_id": "S42",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en.wikipedia.org/wiki/Sam_Altman, curl direct; infobox (born April 22 1985, Chicago), early life/Loopt/YC/OpenAI sections"
+    },
+    {
+      "source_id": "S43",
+      "opened": true,
+      "context_matches": true,
+      "locator": "newyorker.com Apr 2026 investigation, curl direct (full body in HTML/JSON-LD); memos, board call, government-in-exile, Loopt/Hagey, YC exit, assault para, 'very happy to fire people quickly', Amodei safety team"
+    },
+    {
+      "source_id": "S44",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en.wikipedia.org Removal of Sam Altman, curl direct; 745 of 770 letter, Shear, WilmerHale 'did not mandate removal'"
+    },
+    {
+      "source_id": "S45",
+      "opened": true,
+      "context_matches": true,
+      "locator": "openai.com leadership-transition post via r.jina.ai (direct 403); 'not consistently candid in his communications with the board'"
+    },
+    {
+      "source_id": "S46",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/sama/status/1725742088317534446 via api.fxtwitter.com; Nov 18 2023 05:05 UTC (Nov 17 PT)"
+    },
+    {
+      "source_id": "S47",
+      "opened": true,
+      "context_matches": true,
+      "locator": "fortune.com May 29 2024, curl direct; Toner quotes, 'four board members'"
+    },
+    {
+      "source_id": "S48",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ted.com TED AI Show transcript page, curl direct; 'withholding information', 'push me off the board', 'outright lying to the board', 'all four of us who fired him'"
+    },
+    {
+      "source_id": "S49",
+      "opened": true,
+      "context_matches": true,
+      "locator": "theverge.com May 28 2024, curl direct; Toner quotes and Taylor 'disappointed' statement"
+    },
+    {
+      "source_id": "S50",
+      "opened": true,
+      "context_matches": true,
+      "locator": "openai.com WilmerHale review summary via r.jina.ai (direct 403); 'acted within its broad discretion...did not mandate removal'"
+    },
+    {
+      "source_id": "S54",
+      "opened": true,
+      "context_matches": true,
+      "locator": "The Atlantic May 15 2025 excerpt via Wayback raw snapshot 20251226152358 (live page paywalled); 'he often agreed in private with each of their perspectives'"
+    },
+    {
+      "source_id": "S55",
+      "opened": true,
+      "context_matches": true,
+      "locator": "lesswrong.com compilation (linkpost of iamnuts.substack), curl direct; pp. 34-35, 42, 240 passages verbatim. Compilation only; the book itself was not checked (disclosed in body)"
+    },
+    {
+      "source_id": "S56",
+      "opened": true,
+      "context_matches": true,
+      "locator": "lesswrong.com Musk v. Altman email archive, curl direct; 'Honest Thoughts' Sep 20 2017 2:08 pm; Altman reply Sep 21 2017 9:17 AM"
+    },
+    {
+      "source_id": "S57",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/janleike/status/1791498184671605209 via api.fxtwitter.com; May 17 2024 15:57 UTC"
+    },
+    {
+      "source_id": "S60",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Decrypt via yahoo.com Nov 2025, curl direct; deposition: 'rushed', 'secondhand knowledge', 'at least a year', memo material from Murati"
+    },
+    {
+      "source_id": "S61",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/sama/status/1876780763653263770 via api.fxtwitter.com; Jan 7 2025, family statement"
+    },
+    {
+      "source_id": "S62",
+      "opened": true,
+      "context_matches": true,
+      "locator": "nbcnews.com Jan 8 2025, curl direct; E.D. Mo. complaint, abuse alleged from when Annie was 3 and Sam 12, family statement"
+    },
+    {
+      "source_id": "S63",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/anniealtman108/status/1459696444802142213 via api.fxtwitter.com; Nov 14 2021 01:35 UTC (Nov 13 PT)"
+    },
+    {
+      "source_id": "S64",
+      "opened": true,
+      "context_matches": true,
+      "locator": "courtlistener docket 69520118 re-opened newest-first 2026-10-05: #128 Sep 30 2026 latest; Doc. 109 motion to dismiss pending (hearing set 10/2/2026, no entry since); #43 Dec 19 2025 CMO sets jury trial 5/3/2027; #18 counterclaim"
+    },
+    {
+      "source_id": "S65",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reuters via usnews.com through r.jina.ai (direct empty); Mar 20 ruling, amended complaint filed Wednesday, defamation countersuit"
+    },
+    {
+      "source_id": "S69",
+      "opened": true,
+      "context_matches": true,
+      "locator": "cnbc.com DevDay live blog Sep 29 2026, curl direct; 'looks like an awful movie...support that'"
+    },
+    {
+      "source_id": "S70",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reuters via staradvertiser.com Oct 4 2026, curl direct; 'OpenAI chief executive Sam Altman'"
+    },
+    {
+      "source_id": "S72",
+      "opened": true,
+      "context_matches": true,
+      "locator": "theringer.com May 15 2026 trial transcription, curl direct; Molo/Altman truthfulness exchange"
+    },
+    {
+      "source_id": "S73",
+      "opened": true,
+      "context_matches": true,
+      "locator": "nbcnews.com May 18 2026, curl direct; jury: Musk waited too long; Molo intends to appeal"
+    },
+    {
+      "source_id": "S77",
+      "opened": true,
+      "context_matches": true,
+      "locator": "cnbc.com Apr 10 2026, curl direct; Molotov cocktail, external gate, no one injured, suspect arrested"
+    },
+    {
+      "source_id": "S78",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en.wikipedia.org Artificial (2026 film), curl direct; infobox (Guadagnino, Simon Rich, Garfield, Neon, Oct 5 2026 NYFF, Dec 25 2026 US)"
+    },
+    {
+      "source_id": "S79",
+      "opened": true,
+      "context_matches": true,
+      "locator": "filmlinc.org NYFF announcement via r.jina.ai (direct Cloudflare); 'world premiere will take place on October 5 at Alice Tully Hall', Garfield, Simon Rich"
+    },
+    {
+      "source_id": "S80",
+      "opened": true,
+      "context_matches": true,
+      "locator": "worldofreel.com Sep 8 2026, curl direct; Neon dated release Dec 25 2026"
+    },
+    {
+      "source_id": "S81",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/gdb/status/1725667410387378559 via api.fxtwitter.com; Nov 18 2023 00:09 UTC (Nov 17 PT) resignation message"
+    },
+    {
+      "source_id": "S84",
+      "opened": true,
+      "context_matches": true,
+      "locator": "lexfridman.com transcript, curl direct; 00:01:13 'most painful professional experience...chaotic and shameful and upsetting'"
+    },
+    {
+      "source_id": "S85",
+      "opened": true,
+      "context_matches": true,
+      "locator": "artofaccomplishment.com episode transcript, curl direct; 'a very anxious, high-strung person'; no 'heart pounding' line (supports C79)"
+    },
+    {
+      "source_id": "S89",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/sama/status/2018444309750862333 via api.fxtwitter.com; Feb 2 2026 21:59 UTC full text"
+    },
+    {
+      "source_id": "S90",
+      "opened": true,
+      "context_matches": true,
+      "locator": "fortune.com Feb 4 2026, curl direct; quotes the Codex post"
+    },
+    {
+      "source_id": "S91",
+      "opened": true,
+      "context_matches": true,
+      "locator": "blog.samaltman.com/reflections, curl direct; 'fired by surprise on a video call...hotel room in Las Vegas'"
+    },
+    {
+      "source_id": "S97",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/sama/status/2098811563415150910 via api.fxtwitter.com; Sep 12 2026 16:30 UTC full text"
+    },
+    {
+      "source_id": "S99",
+      "opened": true,
+      "context_matches": true,
+      "locator": "gimbhi.medium.com compilation via r.jina.ai (direct 403); attributes 'heart pounding, just terrified' to the Art of Accomplishment podcast, which S85 does not contain (supports C79)"
+    },
+    {
+      "source_id": "S101",
+      "opened": true,
+      "context_matches": true,
+      "locator": "cnbc.com May 17 2024, curl direct; OpenAI disbanded the long-term risk team"
+    },
+    {
+      "source_id": "S102",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/sama/status/1791543264090472660 via api.fxtwitter.com; May 17 2024 18:56 UTC"
+    },
+    {
+      "source_id": "S103",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/ilyasut/status/1726590052392956028 via api.fxtwitter.com; Nov 20 2023 13:15 UTC"
+    },
+    {
+      "source_id": "S104",
+      "opened": true,
+      "context_matches": true,
+      "locator": "fortune.com Nov 20 2023, curl direct; Microsoft 'the startup's biggest strategic shareholder', Sutskever regret"
+    },
+    {
+      "source_id": "S105",
+      "opened": true,
+      "context_matches": true,
+      "locator": "x.com/satyanadella/status/1726509045803336122 via api.fxtwitter.com; Nov 20 2023 07:53 UTC"
+    },
+    {
+      "source_id": "S106",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en.wikipedia.org/wiki/Theranos, curl direct; lead and fraud categories"
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Accepted. 'underestimated the power of words and narratives' is gone from the article and the image list. The only other use of the April 10 post's attack passage is 'awake in the middle of the night and pissed', with 'hours after the attack on his home' in the same sentence. It serves as counterevidence that his feeling is not delayed (subject-03 asked for it), not as evidence of a type motive. Sidecar note: evidence research_tasks overstates that nothing from the post is type evidence; see verify-04."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Accepted. The assault appears only in the childhood section with his account and hedged guess; the 'manipulative or playing for sympathy' quote is absent from the candidate (grep), so 'this profile builds nothing on it' holds."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Accepted. 'after the fact', 'came later' and the timing claim are gone (grep). The rebuilt paragraph states 'The feeling is not delayed' with 'supermad' and 'awake...and pissed' beside it. 'This is just so fucked up' stays in the board-call paragraph, and the Type 4 FAQ uses the motive test."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Accepted. The memo paragraph adds Sutskever's Nov 20 2023 'I deeply regret my participation in the board's actions' (S103 verified), his signature on the letter, 'regretting the action without retracting the memos', and the 2025 'rushed'/'at least a year' testimony (S60 verified)."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Accepted. The paragraph quotes 'he's right we have a lot more to do; we are committed to doing it' with a link and says he replied the same day (S102, 18:56 UTC vs S57 15:57 UTC). 'Swung the other way' is replaced by 'In September 2026 he made it specific'."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Accepted. 'Looking back: \"I wish I had taken a different tack than that.\"' follows the demand in the same paragraph. The board-call paragraph adds 'crediting the trait with his company's success' before the board member's reading."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "Accepted. Both halves of the ambition quote, 'He may experience the drive as mission', and a separating observable are present. 'sincere-sounding', 'never lets up' and 'relentless will to power' are absent (grep); removing the will-to-power line satisfies the attribution concern."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "Accepted under the test's fallback branch. The book could not be checked (I also found no independent copy), so the elision is marked ('After a cut the compilation marks'), 'new president' is dropped, and 'could not check the passage against the book' replaces 'the record's clearest account'. The research task stays open."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Accepted. The hook states Graham's context ('told founders to be independent of investors', YC's predictions, 'deal-making ability', 'with or without them', all verbatim in S01). The one-capacity link is marked 'In this profile's reading, not Graham's'; the closing is qualified."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Accepted. A dated YC-exit paragraph gives Altman's denial, Graham's tweet and 'moral pressure' statement, 'not entirely mutual', and secondhand 'Sam had been lying to us all the time', all verified in S43. The closing acknowledges that partners stopped trusting him."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Accepted. 'Alien intrigue' is introduced with the Asperger's context and 'not a high-EQ person' with the board-tension context (both verified). 'Inner weather' is gone, the room-reading contradiction is argued through (C108), and the risk sentence follows 'missing circuit'."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Accepted (second branch). The mother quote is no longer cited ('tied up inside' absent). The Six paragraph weighs the 2016 prepper list, Thiel's 'survivalist' and the 2023 TIME reply (all verified) and says why Six does not displace Three."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Accepted. The Bloomberg admission is quoted and dated, it drives the 3-vs-8 indirectness argument, and 'I wish I had taken a different tack' follows the demand."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Accepted. Brockman's resignation, Microsoft's offer via Nadella (S105), the 745/770 letter, the Shear appointment and 'real deception', investor and employee pressure, and Sutskever's reversal and testimony are all sourced. 'Mediating' is gone; the campaign reading is restated with the leverage acknowledged."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Accepted. The nonprofit origin, 2019 capped-profit and 2025 structure are dated and sourced (S43/S32/S33 verified). The Sep 21 2017 9:17 AM reply is weighed with capital needs as the ordinary explanation. The sworn exchange is quoted with The Ringer named, and the verdict is described as about timing."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Accepted. The speech carries 'whether the school wanted to be a repressive place...' attributed as The New Yorker's paraphrase. The type sections say which reading it supports (Four's best exhibit; unexplained by the conflict-averse thesis)."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Accepted. Same repair as fan-03. Contexts are given, no Type 3 reason uses the EQ quotes as feeling-bracketing evidence, and the reconciliation via 'uses that to figure out how to influence you' is explicit. The Type 4 FAQ no longer repeats the claim."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Accepted (first branch). A controlled public face with feeling shown privately (smile, Hao p. 42, the Musk email). Real-time anger is acknowledged, a reserved Four is conceded, and the stereotype and 'came later' lines are removed."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Accepted. The board-removal episode appears with Altman's own words, Toner's allegation and OpenAI's dispute of the Bloomberg report (all verified). The core behavior includes indirect pursuit outside the room, and the Eight paragraph argues that indirect sidelining fits Three. Omitting the compilation-only p. 347 and the 'iced out' line is reasonable."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Accepted. The hook says the post came days after the investigation; 'Why Type 3 leads' treats 'conflict-averse' as framing, not another witness. The FAQ opens 'though he gave that account while answering accusations of dishonesty' and adds the board members' reading."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Accepted. Same repair as fan-01/fan-02. The link is marked as the profile's reading and supported by S43's 'greatest strength' line; the YC exit is attributed; the closing is no longer purely admiring."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Accepted. Three sentences name the fundraiser/salesman explanation, the costs it would not predict (Loopt, YC, 2023), and that timing cannot separate craft from motive, which is why confidence stays medium."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Accepted. Both halves are quoted, 'sincere-sounding' is cut, and the mission alternative is named in place."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Accepted. The link text names a 'critic's compilation of excerpts'; 'the record's clearest account' is gone. p. 42 sits beside Graham's smile and the Musk email; p. 240 sits in an argument also carried by Altman's own board-removal admission, S54's independent excerpt and S43's 'what he wants' line. So the compilation is not the sole discriminator."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Accepted. 'Alien intrigue' is about reading other people's emotions; the tension is reconciled in two plain sentences (C108)."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Accepted. The second paragraph names and links the New Yorker investigation (April 2026) and the attack, states what he was proud of (holding the line against Musk), and gives 'incendiary' a clear antecedent. No attacker or location detail was added."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Accepted. The 57-word answer and type FAQ say 'adjusting to win each room while steering it toward what he wants' and keep medium confidence and the 4/8 alternatives (answer passes checkDraft's 60-word test)."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Accepted. 'Five days in November' opens with the nonprofit safety duty and why candor mattered. The leverage is stated with sources, Amodei is identified (verified in S43), superalignment is glossed, and the evaluator commitment is explained concretely."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Accepted. Graham/YC, Brockman, Murati and Theranos are glossed at first mention, Naval and 'Sama' are cut, and the Loopt sale is framed with S42's 'failed to gain significant user traction'."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Rejection of the length target accepted; the rest was fixed. The lawsuit section now sits before the closing with its wording intact (docket sentence updated per future-05), and fatherhood is cut. The ~3,600-word target conflicted with majors from five roles that required new sourced counterevidence, and this finding's own test forbids cutting sourced counterevidence. 4,377 words is inside the 1,200-4,500 release range, though length remains the piece's main writing cost (reflected in the writing score)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Accepted. One newcomer-useful history sentence remains; there is no reference to corrected quotes, and the Type 4 FAQ opens with substance."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Accepted. 'In 2019 he told Tyler Cowen' matches S11 (taped Jan 2019, posted Feb 27 2019)."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Accepted. The Nine/Two dismissal now rests on accommodation serving his own direction (p. 240 plus the board-removal and S43 evidence), not ambition. The title paragraph names the Three-specific prize ('The prize is the top job'). Note: the resolution quotes a sentence ('Power-seeking alone can't separate Three from Eight') that is not in the candidate; the test is still met via its first branch. See verify-04."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Accepted. No 'Fours lead with feeling' claim remains, a reserved Four is acknowledged twice, the 3-vs-4 case rests on what costly choices protect, and the EQ self-reports carry their context."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Accepted. 'Very little personal ambition' and 'missing circuit' (with its risk sentence) are presented as counterevidence with separating observables. Neither is used as support for Three."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Accepted. Same as unfamiliar-03: the Three-specific element is in the answer and FAQ, at 57 words."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Accepted. Seven is named and tested twice (the title fight vs options; lost usefulness vs lost options), and 'outpouring of love' is no longer Three evidence."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Accepted. The assault reticence is removed, the credible-over-distinctive claim rests on the equity regret, and the npc-trap example concedes 'a Four-like ring'."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Accepted. 'Four outranks Eight because it explains what Three can't...while Eight fails the accommodation test outright' is present, and the ranking is consistent across body, FAQs and evidence."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "Accepted. The Eight section separates open confrontation (2017, 2023) from indirect moves with sourced instances, and adds 'quick to anger'. 'Almost everywhere else' is gone."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Accepted. The body and FAQ say 'was scheduled to premiere...October 5, 2026, with a U.S. release...set for December 25, 2026'; no present or future release verbs remain."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Accepted. The description uses 'OpenAI's co-founder' (passes the 120-170 check), and C74's trigger lists the description and keyword."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Accepted. 'OpenAI co-founder Ilya Sutskever, then its chief scientist'; Murati is 'interim CEO during the crisis'."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Accepted. 'A Four reading leans on...' and 'A Four case can also point to money'; one history sentence remains."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Accepted. I re-checked the docket newest-first on 2026-10-05: #128 Sep 30 2026 is the latest entry, Doc. 109 is pending, the Oct 2 hearing has no entry, and the Dec 19 2025 CMO sets trial for 5/3/2027. The paragraph's as-of wording matches, with no sanction, discovery or medical detail, and the triggers are updated."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Accepted. 'It tests follow-through, not type: a Three can recalibrate sincerely'; C67/C141 carry the 2027-03-12 fallback."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "Accepted. 'That is a self-assessment, not yet a record.' C88 and C102 are time_sensitive with concrete observables and a 2027-10-05 date."
+    },
+    {
+      "finding_id": "future-08",
+      "accepted": true,
+      "reason": "Accepted. The sworn exchange is quoted exactly from The Ringer (verified) and the verdict is described as about timing with the appeal noted (S73 verified); the case status is unambiguous."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "That is his speculation, and this profile builds nothing on it.",
+      "preserved": true,
+      "reason": "Present verbatim, and now true: the assault appears only in the childhood section and is used nowhere as type evidence."
+    },
+    {
+      "passage": "That is an adversary's characterization, not a diagnosis.",
+      "preserved": true,
+      "reason": "Present verbatim, directly after the 'sociopathic' quote."
+    },
+    {
+      "passage": "The allegation is unresolved, and it is not evidence for or against any personality type. An honest profile can't leave it out.",
+      "preserved": true,
+      "reason": "Present verbatim; the section moved before the closing, with wording intact."
+    },
+    {
+      "passage": "Read generously, this is a founder doing a founder's job: a company without a finished product has to sell what it will become.",
+      "preserved": true,
+      "reason": "Present verbatim; the job explanation is also weighed at the verdict now."
+    },
+    {
+      "passage": "and added a caveat: \"I think it's a typical critique of people who have the salesman skill set\"",
+      "preserved": true,
+      "reason": "Present verbatim, still attached to Hagey's testimony; the quote checks out in S38."
+    },
+    {
+      "passage": "It is a brother's joke about a board game, and also the first entry in a long file.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "Plenty of executives courted the new administration for business reasons. What fits the Three reading is the framing: a turn toward power, presented as independent thinking.",
+      "preserved": true,
+      "reason": "Present verbatim; one honest qualifier follows."
+    },
+    {
+      "passage": "As evidence of indifference to status, the salary is weaker than it looks, and he frames the regret in terms of how it looks.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "A Four reading hears wistfulness. A Three reading hears the sting of being outdone, by a product he sells, at something he was good at, and a choice to say so in public. Both fit the sentence.",
+      "preserved": true,
+      "reason": "Present verbatim; a Seven test follows without converting the post into Three evidence."
+    },
+    {
+      "passage": "The word \"uncontrolled\" implies that the usual face was controlled.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "The email is raw; the public lines win the exchange without making him look like the aggressor.",
+      "preserved": true,
+      "reason": "Present verbatim. My transcription of S15 shows the 'bully' line wrapped in praise, which strengthens the sentence."
+    },
+    {
+      "passage": "Whether he can lose a room on purpose is what the next few years will show.",
+      "preserved": true,
+      "reason": "Present verbatim as the final line."
+    },
+    {
+      "passage": "You could parachute him into an island full of cannibals and come back in 5 years and he'd be the king",
+      "preserved": true,
+      "reason": "Present verbatim (S01 checked); its actual context is now stated around it."
+    },
+    {
+      "passage": "Through the type lens, Jacobstein's \"blurring\" is the telling detail. It describes someone who comes to believe the version of himself that wins the room.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "Ambition can't settle the question, since nearly every founder has it. The test here is narrower: what Altman does when keeping a room's approval conflicts with saying what he thinks or feels.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "The old Four reading leaned on \"shameful,\" but it is one item in a run-on list, and a public firing would shame most people.",
+      "preserved": true,
+      "reason": "Changed to 'A Four reading leans on \"shameful,\" but it is one item in a run-on list, and a public firing would shame most people.' Only the history framing changed, as future-04 required. The distinctive contribution (the corrected misquote and why one word cannot discriminate) is retained word for word, so it counts as preserved."
+    },
+    {
+      "passage": "The Four's core motive, protecting an authentic self even when it costs approval, is hard to find in the adult record, where the costly choices mostly run the other way.",
+      "preserved": true,
+      "reason": "Present verbatim, now carrying more of the 3-vs-4 load."
+    },
+    {
+      "passage": "Read side by side, the two lines describe one capacity from opposite ends.",
+      "preserved": true,
+      "reason": "Present verbatim; the next sentence now marks the link as the profile's reading."
+    },
+    {
+      "passage": "Whether outside evaluators actually work inside OpenAI is the test, and as of October 5, 2026, it is unsettled.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "The allegation is unresolved, and it is not evidence for or against any personality type.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "A dramatization is not evidence, and nothing here draws on it.",
+      "preserved": true,
+      "reason": "Present verbatim."
+    },
+    {
+      "passage": "The 2026 apology describes the price of the same gift: rooms kept happy, fights put off, trust spent later.",
+      "preserved": true,
+      "reason": "Present verbatim; qualified by the YC-exit clause before it."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "open_case_eligible": false,
+  "scores": {
+    "evidence": {
+      "score": 8.5,
+      "reason": "I re-matched every quotation in body, FAQs and description against the reopened sources; all match, using curl, reader, Wayback and API fallbacks, plus my own Whisper transcriptions of two podcast segments. Allegations are paired with responses: Toner with OpenAI's reply, Altman's concession, Bloomberg's disputed account and the WilmerHale summary. Secondhand material is labeled. Inference is marked locally ('In this profile's reading', 'That is his speculation'). Held back from 9 by: three Hao passages verified only through a hostile compilation (honestly disclosed); several anonymous characterizations (attributed and labeled); and small precision slips ('at 19', 'family dinner', 'declined to give details').",
+      "passage": "He says he was already \"mostly out.\" Even so, this is the clearest early evidence that he will spend social standing to say something true about himself, and to challenge an institution in public."
+    },
+    "enneagram": {
+      "score": 8.5,
+      "reason": "The Three case is argued from repeated costly behavior across Loopt, YC and OpenAI: accommodation in the room, indirect pursuit outside it, and trust lost each time. Each rival is tested with a named discriminator: Four (what the public face protects; credible over distinctive), Eight (indirect sidelining, not open fighting), Nine/Two (the agenda survives the room), Seven (lost usefulness, one title), Six (named the largest gap). The salesman-craft confound is stated as unresolvable, which is why confidence stays medium. Residuals (the speech at 17, the Musk email, 'missing circuit') are left unexplained rather than explained away. Limits: the credible-over-distinctive test rests on few examples, and the 9/2 discriminator leans partly on a compilation passage.",
+      "passage": "The strongest rival to any type is the job: a fundraiser is paid to tell each audience what it wants. The habit persisted when it hurt him, at Loopt, at YC and in the 2023 firing. But it began with his first job, so timing can't separate craft from motive, which is much of why confidence stays at medium."
+    },
+    "originality": {
+      "score": 8.5,
+      "reason": "The central insight is specific to Altman: the island-king gift Graham praised and the conflict aversion he confessed are one capacity, persuasion, read from opposite ends. It is developed through details not found in generic type copy: the 'uncontrolled smile', the 9:17 AM 'i remain enthusiastic about the non-profit structure!' reply, the low-EQ self-reports reconciled as reading wants rather than feelings, and 'The campaign was his; the leverage was mostly other people's'. Little reusable type boilerplate.",
+      "passage": "Yet the Loopt colleague describes a man who studies people to influence them. The accounts fit if what he reads is what a person wants rather than what a person feels."
+    },
+    "writing": {
+      "score": 8.0,
+      "reason": "The prose is precise, with varied sentence rhythm and memorable lines ('Whether he can lose a room on purpose'). Sections develop rather than loop: origin, Loopt, YC, the firing, witnesses, verdict, rivals, residuals, coda. Costs: at 4,377 body words it runs well past the 2,000-3,500 target. The witnesses section and 'Why Type 3 leads' (seven dense paragraphs) stack attributed quotes and caveats tightly enough to slow a general reader. Some parenthetical citation runs interrupt the flow.",
+      "passage": "Put the accounts side by side and one behavior recurs across three organizations and two decades. In the room, Altman accommodates whoever is in front of him rather than risk a fight"
+    },
+    "durability": {
+      "score": 8.5,
+      "reason": "The argument rests on a dated 2005-2026 pattern. Removing the latest events (Sept 2026 evaluator post, the film, the docket) leaves it intact. Every changing fact is dated in absolute terms ('he still held the job in early October 2026', 'As of September 30, 2026', 'was scheduled to premiere') and tracked with triggers (docket Doc. 109, Musk appeal, evaluators by 2027-03-12, the claimed change by 2027-10-05, equity, CEO status). The claimed change is marked as a self-assessment, not a record. Maintenance load is real (film, lawsuit, appeal) but explicit.",
+      "passage": "Whether outside evaluators actually work inside OpenAI is the test, and as of October 5, 2026, it is unsettled. It tests follow-through, not type: a Three can recalibrate sincerely."
+    },
+    "hook": {
+      "score": 9.0,
+      "reason": "It opens on a specific, verified 2008 line ('island full of cannibals... he'd be the king') and sets it against the dated 2026 confession of conflict aversion, written days after the investigation and on the night of the attack. That creates a clear question (how is the gift also the flaw?), which the article answers and returns to in its closing.",
+      "passage": "Graham was praising independence; the 2026 line confesses a costly habit of keeping the peace. Read side by side, the two lines describe one capacity from opposite ends."
+    },
+    "discoverability": {
+      "score": 8.5,
+      "reason": "The meta_title 'Sam Altman Personality Type: The Case for Enneagram 3' (53 chars) and the 156-char description are accurate and match the body's medium-confidence Type 3. The H2 'What is Sam Altman's personality type?' is followed by a 57-word plain answer mirrored in the FAQ. FAQs cover high-intent queries (conflict-averse, Type 4, the firing, who plays him in Artificial) with dated facts. Internal links go to seven type pages and nine published people pages. Slight cost: the display title leads with the metaphor, not the keyword.",
+      "passage": "Sam Altman most likely fits Enneagram Type 3, the Achiever, at medium confidence. Across two decades, colleagues and his biographer describe him adjusting to win each room while steering it toward what he wants"
+    }
+  }
+}

@@ -684,6 +684,29 @@ TODO: add source.
 			expect(verified.lastmod).toBe(existing.lastmod);
 		});
 
+		it('refuses to sync a retyped draft under the live type', async () => {
+			const from = vi.fn(() => ({
+				select: vi.fn().mockReturnValue({
+					ilike: vi.fn().mockReturnValue({
+						maybeSingle: vi.fn().mockResolvedValue({ data: existing, error: null })
+					})
+				})
+			}));
+			const rpc = vi.fn().mockResolvedValue({ error: null });
+
+			const result = await insertIntoSupabase(
+				[{ ...entry, lastmod: existing.lastmod, enneagram: 4, _source_path: '/test/retyped.md' }],
+				{ sync: true, supabase: { from, rpc } as any }
+			);
+
+			expect(result.updated).toBe(0);
+			expect(result.errors).toEqual([expect.stringMatching(/Type change refused.*Type 4.*Type 3/)]);
+			expect(rpc).not.toHaveBeenCalledWith(
+				'update_blogs_famous_people_if_unchanged',
+				expect.anything()
+			);
+		});
+
 		it('bulk syncs the corpus and inserts a missing draft as unpublished', async () => {
 			const matchingEntry = {
 				...existing,

@@ -2239,6 +2239,15 @@ export async function insertIntoSupabase(entries, options = {}) {
 			}
 
 			if (reviewedSync) {
+				// A sync keeps the live enneagram, so a retyped draft would ship an article
+				// arguing one type under another type's badge. Retypes go through DJ.
+				const typeDrift = plan.protectedDrift.find(({ field }) => field === 'enneagram');
+				if (typeDrift) {
+					throw new Error(
+						`Type change refused: draft argues Type ${String(typeDrift.local)} but the live row is Type ${String(typeDrift.live)}. ` +
+							`A sync keeps the live type, so the article and its type badge would disagree. Retype deliberately instead.`
+					);
+				}
 				if (plan.protectedDrift.length > 0) {
 					console.warn(
 						`Preserving protected live fields for ${entry.person}: ${plan.protectedDrift

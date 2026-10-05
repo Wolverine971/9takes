@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "992ec97f20f95f1758c66dd4544db6fae699f7fb935ffdb272dbc1a9c917799d",
+  "evidence_sha256": "f907a25633af7abea28d0dcf9dac1a78671d38b2deb064e246a27afc16ddd423",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "Read as a Five, that is independence: go build your own system. The words that matter are in the middle. He takes people he trusts, and the suspicion he names is dishonesty.",
+      "problem": "Distorts a well-known source. I opened the Lex Fridman #452 transcript (01:31:11-01:34:48). Asked \"Why'd you leave?\", he opens \"I don't want to talk about anyone else's vision.\" He offers two hypotheticals to the listener: \"You might think they're not doing it the right way. You might think they're dishonest.\" He then withholds judgment at once: \"Who knows? Maybe you're right, maybe you're not.\" The point of the answer is \"It is incredibly unproductive to try and argue with someone else's vision ... It's much more productive to go off and do a clean experiment\" that rivals then copy (the race to the top). The draft drops the first hypothetical and the agnostic frame, then says he \"names\" dishonesty as his suspicion. That turns a deliberately non-accusatory answer into Six evidence. The evidence record calls this quote (C25) the best single self-report on the 5-versus-6 hinge. His stated lesson, that arguing is unproductive and you should exit and build, also cuts against the previous section's \"Amodei argues first,\" and the draft never confronts that. The same answer has trust language the draft could use honestly: a path that is \"cautious, straightforward, honest, that builds trust in the organization and in individuals.\"",
+      "acceptance_test": "The passage quotes or fairly paraphrases the agnostic frame (\"Who knows? Maybe you're right, maybe you're not\") and the race-to-the-top conclusion. It no longer says he \"names\" dishonesty as his suspicion. Any Six reading rests on what he affirms (\"take some people you trust\"; \"builds trust in the organization and in individuals\"). The article acknowledges that his stated lesson (don't argue, go build) contrasts with the recorded argue-first behavior and says what that does to the 5-versus-6 case."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "After a Stanford postdoc, he moved into deep learning at Baidu.",
+      "problem": "Missing formative context. The title promises to explain why he \"can't stop building the thing he fears most,\" but the profile never says what he built before Anthropic. Sources already in the record cover it. Big Technology (S01, which I opened): his Baidu work fed the scaling-laws observation (\"I saw these very smooth trends\"). After the 2015 Rosewood dinner he \"felt unsure\" about OpenAI and went to Google Brain, where he \"worried about the rapidly improving technology's capacity for harm and co-authored a paper on its potential for bad behavior.\" At OpenAI he helped pioneer RLHF, worked directly on GPT-2 and led GPT-3 with \"50-60% of the entire company's compute.\" Lex (S06): \"me and my collaborators, on GPT-2, GPT-3, RL from Human Feedback ... We built GPT-3, which was the model that was commercialized. I was involved in commercialization.\" Wired (S03): the GPT-2 \"signpost\" and \"now we're building the systems.\" Without this, three things suffer. The reader misses the profile's sharpest contradiction: the man who fears scaling personally scaled GPT-3. The \"reflexes predate the company\" rebuttal loses its strongest evidence, the 2016 safety paper and the GPT-2 signpost. And \"That sequence recurs for the rest of his career\" overreaches. Kantrowitz attributes Baidu's collapse to \"turf battles\" and \"meddling from powerbrokers in China.\" Google Brain ended in \"large-company morass,\" not a confront-and-exit. Diamos also spoke to Kantrowitz, so his AFP account is not independent.",
+      "acceptance_test": "The career narrative names, with dated attribution, (a) the Google Brain stint and the safety paper co-authored there, (b) his GPT-2/RLHF role and leadership of GPT-3, and (c) the structural collapse of Baidu's lab next to Diamos's disagreement account. \"Recurs for the rest of his career\" is narrowed to the episodes that show it. Recommended: the OpenAI-exit passage or FAQ includes his own denial that he left over commercialization (\"That's not true. We built GPT-3\")."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "His anger in this record targets dishonesty, bad faith and broken promises.",
+      "problem": "Selective use of the WSJ feud story (S13). The draft takes the \"mendacious\" Slack post and the conditional-stay bargain from it, but leaves out anger episodes in the same story that don't fit. When Brockman said he and Altman would meet Barack Obama, \"Dario got angry that he had been left out of the loop.\" He was \"annoyed\" that Brockman discussed the charter on a podcast \"despite having contributed less to it than Amodei did.\" He sought a promotion with \"equal PR treatment to co-founders.\" He was \"horrified\" by firings he \"considered needlessly cruel.\" Those triggers are exclusion, credit and cruelty, not only bad faith. The draft moves recognition to \"What the type doesn't settle\" while this section says his anger \"has a consistent target.\" This section is the type discriminator, and it overstates how clean the record is.",
+      "acceptance_test": "Either the anger section includes, attributed to the Journal's unnamed sources, at least the left-out-of-the-Obama-meeting episode and says whether it reads as a trust breach (6) or a recognition/pride wound, or the article drops \"consistent target\" and the exclusive \"targets dishonesty, bad faith and broken promises.\" The Type 1 dismissal (\"rarely targets sloppiness or rule-breaking\") is checked against the \"needlessly cruel\" reaction."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "He thinks in long documents: the nearly 14,000-word \"Machines of Loving Grace,\" written over \"two frenzied days,\"",
+      "problem": "Omits the only colleague portrait of him at OpenAI, which Kantrowitz (S01, opened) reports and the draft otherwise mines. His \"long documents about values and technology\" struck \"some colleagues ... as inspirational but others saw as flag planting and heavy handed.\" To some he was \"too focused on maintaining secrecy around the technology's potential and collaborating with the government.\" He \"could be a bit abrasive, sometimes disparaging projects he didn't believe in.\" The profile also cites his \"outspokenness and sharp elbows\" and critics who see a \"control-oriented 'doomer' who wants to ... shut out the competition.\" The WSJ adds Altman's 2019 email that Dario agreed \"not to denigrate projects he doesn't believe in.\" The omission matters three ways. (a) It reframes the writing habit the Five case leans on: inside OpenAI the memos read as staking ground, not private retreat. (b) It independently corroborates the government-first reflex the draft hangs on Brockman's account alone (C19, disputed). (c) It contradicts the opening's \"usually measured scientist,\" which reads as flattering to anyone who knows the Kantrowitz piece.",
+      "acceptance_test": "The draft attributes to Kantrowitz at least the \"flag planting and heavy handed\" reading of his memos and the \"collaborating with the government\" observation. It uses the first in the 5-versus-6 discussion of his writing and cites the second alongside the Journal for the government-first instinct. The opening's \"usually measured scientist\" is reconciled with the abrasive/sharp-elbows record."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "He disagreed that his messaging had been \"disproportionately negative\" and called public distrust of AI \"fundamentally a crisis of trust.\"",
+      "problem": "The reader never learns which messaging Baker meant, and Amodei's most widely reported public claim appears nowhere. In May 2025 he told Axios that AI could \"wipe out half of all entry-level white-collar jobs\" and push unemployment to 10-20% in one to five years. He said producers have \"a duty and an obligation to be honest about what is coming,\" and Axios reported that he \"acknowledges the contradiction\" of building it (S28). That is the most direct self-report on the title's paradox. In May 2026 Fortune reported him \"changing the narrative\" toward Jevons-style optimism and named the either/or: a genuine update, or the bloodbath framing becoming costly (S29). Both sources are opened and unused. They give a dated test of the strategy-not-personality alternative, which the draft calls \"the most serious alternative\" and answers only with \"the reflexes predate the company.\"",
+      "acceptance_test": "The article includes the May 2025 forecast, dated and framed as a forecast, plus the May 2026 reframing with Fortune's stated alternative. It says whether the shift supports the Six reading, the incentive reading, or neither."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "The longer record makes it a habit under maximum pressure: by the Journal's account, he brought in an adviser to pitch a coordination regime in 2017.",
+      "problem": "The G7 continuity claim rests on the weakest available source: an unnamed-source feud story with Amodei not quoted. His best-known signed essay makes the case directly, and the draft already cites it elsewhere. I opened \"Machines of Loving Grace\" (October 2024, S07). It proposes an \"entente strategy\" in which \"a coalition of democracies\" secures the supply chain and blocks \"adversaries' access to key resources like chips and semiconductor equipment,\" using AI for \"robust military superiority.\" Leaving it out hides two contradictions an informed reader will notice. (a) The June 2026 shutdown came through an export-control directive, the kind of tool he had urged against adversaries; his response accepted the principle and asked for a statutory process. That is a strong test of \"rules that bind him.\" (b) The Pentagon fight was over two named uses, not over military AI, which his own essay endorsed. Separately, the G7 FAQ's \"backed a proposal for international AI coordination\" overstates the Journal's account that he hired an adviser who gave a presentation.",
+      "acceptance_test": "The G7/continuity passage cites the October 2024 entente passage as primary evidence and keeps the 2017 WSJ account attributed and accurately worded. Ideally it notes the export-control irony and his stated military-superiority position when framing the Pentagon red lines. The FAQ wording matches the Journal's (\"hired an adviser who pitched\"), not \"backed a proposal.\""
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "He looks for a structure strong enough to hold it, and he doesn't exempt himself.",
+      "problem": "The close gives an authorial verdict (\"doesn't exempt himself\"; his plan is \"less heroic and harder to carry out\") that the article's own record complicates. Two sections earlier it reports that he demanded to report only to OpenAI's board and that Anthropic may adopt founder super-voting shares. Axios (S42, in the evidence) reports that allies are frustrated he calls for regulation and slowdown \"while accelerating the theory that he and Anthropic are best-equipped to be at the vanguard.\" That is the exact tension with the \"prophet\" quote the draft ends on. The SBF sentence, framed as a \"lock,\" leaves out that by his own account he judged SBF \"a good fit\" and took the money. Add the persona title \"AI's Reluctant Prometheus\" and the heading \"Defying Washington as a patriot,\" which adopts his own CBS framing, and the frame rewards his self-presentation more than the evidence does.",
+      "acceptance_test": "The closing either qualifies \"doesn't exempt himself\" with the control exceptions the article already documents, or drops the verdict. The Axios vanguard critique appears next to the \"prophet\" quote. The SBF sentence says he accepted the investment. The persona_title and the patriot heading are checked against the \"skilled operator\" alternative so the frame doesn't endorse one side."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "A cure that came a few years late",
+      "problem": "Two details in the founding story are off. (a) The heading states his compressed timeline in the author's voice. Amodei says \"three or four years\" and Kantrowitz says \"within four years,\" but sofosbuvir, the drug he named, was approved in the U.S. in 2013 (S49), about seven years after his father's 2006 death. The evidence record flags this gap (C71, C104), and the draft does not reflect it. (b) The Five case says \"Until 2026 he kept even his father's illness out of the long profiles.\" Both 2025 profiles discuss the illness: Kantrowitz says \"long fought a rare illness,\" Wired says \"took ill when the children were small,\" and he discussed it at length on the Big Technology podcast. Only the disease's name was withheld. The sentence overstates the reserve it offers as Five evidence and contradicts the article's own father section.",
+      "acceptance_test": "The heading and narration either attribute the \"few years\" timing to Amodei or add the dated approval (sofosbuvir, U.S. 2013, about seven years after 2006) without speculating about the gap. The Five-case sentence says he withheld the disease's name, not the illness."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "He named the problem they would fix: \"we are still the ones choosing what to include and omit.\"",
+      "reason": "A sourced, surprising hook: a CEO naming his own company's editorial self-interest. It sets up the trust-and-verification thread the whole profile follows."
+    },
+    {
+      "passage": "The lesson of his father's death is that delay has a body count. It explains why he keeps building. It does not explain what he does with the danger of the thing he builds, and that part of him shows up early.",
+      "reason": "The profile's best structural move. It separates the motive for building from the handling of fear, so the origin story doesn't become a universal explanation."
+    },
+    {
+      "passage": "The 2026 evaluators, with their desks and badges, are the same idea with furniture.",
+      "reason": "A memorable line specific to this person that ties the 2026 commitment back to the RSP pattern without restating the thesis."
+    },
+    {
+      "passage": "Both disclosures arrived as evidence inside arguments. Read as a Five, he spent a reserved fact when the argument needed it. Read as a Six, he offered proof of sincerity to a public he had just described as in a crisis of trust, with his word attached. Both readings fit, so this page does not lean on them.",
+      "reason": "Honest non-discrimination. It tests both types against the same fact and declines to claim it, which earns the reader's trust for the claims it does make."
+    },
+    {
+      "passage": "From outside, securing a safe base and grabbing control look the same.",
+      "reason": "A compact admission of the central unresolved tension, the strongest antidote to the article's sympathetic tilt. Keep it even if the closing is revised."
+    }
+  ],
+  "assessment": "Informed-reader verdict: the draft is carefully attributed and engages its alternatives more honestly than most profiles, but it tilts toward the Six thesis and toward the subject's self-image. (1) A thesis-bearing quote is misread: the Lex Fridman exit answer is explicitly agnostic and argues against arguing (fan-01). (2) The profile never says what he built before Anthropic: Google Brain safety paper, GPT-2 signpost, RLHF, GPT-3 lead. That is the sharpest evidence for both the title and the claim that the reflexes predate the company (fan-02). (3) Material from Kantrowitz and the WSJ that cuts against the clean pattern (anger at exclusion and credit, memos as flag planting, abrasiveness) is left out while sympathetic material from the same sources is used (fan-03, fan-04). (4) His most famous public claim, the 2025 white-collar warning and its 2026 reframing, is missing despite opened sources (fan-05). Fixes would both weaken and strengthen the Six case: Kantrowitz's note on government collaboration and the 2024 entente essay give independent support the draft currently gets from unnamed-source feud reporting. No blocker: the Six reading stays plausible at medium confidence once these are addressed. Sources I opened for this review on 2026-10-05: the Lex Fridman #452 transcript, the Big Technology profile and \"Machines of Loving Grace\"; the other checks rely on evidence-record excerpts. Similarity: the 0.47 trip against Arthur-Mensch is the sentence \"This is a reading of public evidence, not access to his mind or a clinical claim,\" a standard-derived disclaimer, not reused argument. Other matches (\"public record,\" \"this page,\" \"pull back\") are ordinary vocabulary. No finding; limitation: I compared only the sentence pairs in the diagnostic and did not open the other drafts. I kept all four risk flags from the evidence record, unchanged. The retype from 5 to 6 (contested typing, major thesis change) and the WSJ private-message, health and neurodivergence material (sensitive) justify the six-role jury. The title frames him through the \"doomer\" caricature he calls a bad-faith distortion, but the body confronts it and the title is held under head_term_exception, so I make no finding on it."
+}

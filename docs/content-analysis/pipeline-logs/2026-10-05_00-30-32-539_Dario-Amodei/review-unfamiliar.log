@@ -1,0 +1,27 @@
+I wrote the unfamiliar-reader review to `review-unfamiliar.json` in the Dario Amodei run directory. It passes the review schema check, and every quoted passage matches the draft exactly. I didn't change any other files or look at the other reviewers' files.
+
+**Risk flags:**
+- **Contested typing and major thesis change:** this draft changes the live page from Type 5 to Type 6, at medium confidence.
+- **Sensitive allegations:** it leans on the Wall Street Journal's account of the Altman feud, which mostly comes from unnamed sources, and on his father's and his own illnesses.
+- **Historical source uncertainty:** not flagged.
+
+**Major findings (3):**
+1. **His OpenAI years are missing.** The story jumps from his Baidu job straight into the feud with Altman. A new reader never learns that he joined OpenAI, that he became vice president of research there, or what "scaling" means. Without that, the section on why he stayed and then left has no stakes.
+2. **The second-to-last section never says what happened.** It returns to the slowdown essay from the opening but doesn't give his stated reason for changing course. It also doesn't say whether the slowdown condition he set in 2025 was actually met. It then wanders into the Gavin Baker exchange and ends on "this page does not lean on them," which leaves the reader with nothing.
+3. **Almost every section ends by re-arguing Five against Six.** I counted about six of these endings outside the type sections, so by the middle the piece reads like a legal brief instead of a portrait.
+
+**Minor findings (5):**
+- The lawsuit status paragraph says the courts "struck one designation" and "upheld the other," but the reader only ever heard about one, and the paragraph says nothing about Amodei himself.
+- The page mentions its own earlier Type 5 version twice. Once is enough.
+- The type section raises "Readers often ask whether he is autistic" before the reader has met him, and the claim about what readers ask has no source.
+- The similarity check's 0.47 match with the Arthur Mensch page is a nearly identical disclaimer sentence. Both pages type an AI lab founder as Six over Five on the same reasoning. The Amodei-specific evidence keeps this one distinct, but the general Five-versus-Six paragraph could be pasted into either page. The other matches are ordinary wording, not reuse.
+- Several people and terms are never explained: Altman's role, Sutskever's first name and role, Jensen Huang's role, the November 2023 OpenAI board crisis, "Department of War," "head types," and "Five wing."
+
+**Passages to protect:**
+- "the fear that is left over"
+- "delay has a body count"
+- Jade Wang's quote about his father
+- "the same idea with furniture"
+- "securing a safe base and grabbing control look the same"
+
+Separately, the Supabase server failed to connect this session, and several plugin servers (Slack, GitHub, Ahrefs and others) need authorization in your connector settings or through `/mcp`. This stage didn't need any of them.

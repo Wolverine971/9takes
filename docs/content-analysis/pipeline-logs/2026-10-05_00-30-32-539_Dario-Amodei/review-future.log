@@ -1,0 +1,16 @@
+I wrote the five-year-test review to `docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/review-future.json`. It passes the pipeline's review schema, and the two content hashes match the request. No other files were changed and nothing was published.
+
+**Verdict:** the Type 6 argument still holds if you remove the September 2026 essay. Evidence from 2016 to 2024 carries it: telling the government first, the coordination proposal, staying at OpenAI only on conditions, leaving with "people you trust," and the outside-checked safety commitments. The opening and closing both use the newest events, but each one is shown as part of a 10-year pattern rather than as the proof.
+
+**Findings (3 major, 4 minor):**
+1. **Major, factual error:** line 276 says "Until 2026 he kept even his father's illness out of the long profiles." That contradicts line 202 and both 2025 profiles, which discussed the illness at length. Only the name of the disease was held back.
+2. **Major:** several current-role facts the Type 5 rebuttal depends on are marked as stable when they can change. Examples: Daniela runs the company day to day, he has one direct report, and he addresses the company every two weeks (that schedule has already changed once). None has a date to recheck them, and the IPO (roadshow expected around November 9) could change several of them.
+3. **Major:** the heading "The brake he set in advance" implies the slowdown condition he set in July 2025 is what triggered his September 2026 shift. The essay gives a different reason: AI started building AI faster from summer 2026. The evidence file also contradicts itself on this point.
+4. **Minor:** "The 2026 evaluators… with furniture" treats the outside-evaluator promise as if it's already in place. Its recheck reminder also misses the description and FAQ that depend on it.
+5. **Minor:** "is reportedly weighing super-voting shares" is in present tense and should be dated, or it will read as current after the IPO.
+6. **Minor:** "An earlier version of this page" appears twice with no date. Keep one note, dated.
+7. **Minor:** the G7 FAQ is tied to one event, and there's no FAQ for the question the title asks: why does he keep building what he fears?
+
+I protected five passages, including the opening that turns the latest event into a decade-long pattern, and the "reflexes predate the company" argument. The similarity check flagged a match, but it was mainly a standard disclaimer line ("This is a reading of public evidence"), not a reused argument, so I didn't log a finding for it. I kept all the risk flags from the research stage (sensitive allegations, contested typing, major thesis change), so the full six-reviewer panel still applies.
+
+Some connectors in this session also need authorization (Slack, Linear, Notion, Ahrefs and others in the engineering and marketing plugins), and Supabase failed to connect. None of them were needed for this stage.

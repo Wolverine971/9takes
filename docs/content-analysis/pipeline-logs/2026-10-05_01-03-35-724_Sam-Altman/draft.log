@@ -1,0 +1,22 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 6b81df58-dbc0-416f-a788-ef4be133003f to write outputs
+I've written both draft-stage files for Sam Altman. They pass the runner's own checks: the evidence check succeeds with 81 claims and 101 sources, and the draft check reports no blockers at 4,189 words (the limit is 4,500). I changed nothing else and published nothing.
+
+**The page now leads with Type 3, not Type 4. That's your call before release.** This follows the research stage's finding. The draft says "most likely Type 3, medium confidence," with Type 4 as the strongest alternative and Type 8 second. The enneagram number, title, meta title, description, keywords and type FAQ changed together. I removed the TL;DR and the Rabbit Hole block (wings, subtypes and stress arrows) rather than rewriting them for Type 3. A short note tells returning readers that the page used to say Type 4 and why that changed. The live page has ranked as a Type 4 profile since 2023, so veto here if you want to keep it. The type change also means it gets the full six-reviewer review.
+
+**The new angle:** Paul Graham's 2008 "king of the island" quote praised Altman's *adaptability*. In April 2026 Altman wrote, "I am not proud of being conflict-averse, which has caused great pain for me and OpenAI." The draft argues these are one trait seen from both sides: his biographer says he'll "basically tell people what they want to hear." Type 4 and Type 8 each get a fair section, plus a section on what the type doesn't explain.
+
+**What changed from the live page:**
+- **Errors gone.** The misquotes and unsourced lines the research found are corrected or removed, including the "heart pounding" quote, the Senate "skeptical" line, and "Chaotic. And shameful."
+- **Length.** It went from about 7,400 words to about 4,200.
+- **Sensitive material.** His sister's lawsuit is stated neutrally, with the family's denial and the current court status. It's explicitly not used as evidence for any type. The teenage attack appears only in his own words.
+
+**Still not fully verified:**
+- **Karen Hao book quotes.** They were checked only against a critic's compilation, not the book itself. The draft cites the book with page numbers and links the compilation.
+- **Dated facts.** These need a re-check before release: the court docket after the October 2 hearing, OpenAI's promise to give outside safety testers inside access, his equity status, and reaction to the *Artificial* premiere.
+
+The Supabase connector failed to connect this session, and several plugin connectors (GitHub, Slack, Ahrefs and others) need authorizing. None of them were needed for this stage.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/`:
+- `draft.md`
+- `evidence-draft.json`

@@ -1,0 +1,358 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Opened S36 context accepted. The 'words and narratives' line is gone from the image list and from the article. C78 was rebuilt on the equity regret and the npc-trap framing (S21, S27) and no longer cites S36; C71 now states that nothing he wrote in response to the attack is used as type evidence. The only other use of the April 10 post is 'awake in the middle of the night and pissed', placed in 'Why Type 3 leads' with 'hours after the attack on his home' in the same sentence, as evidence that he feels anger in the moment (the counterexample subject-03 asked for), not as evidence of an image motive."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "The assault reticence is removed from the type argument and from the image list, and the 'make me look like I'm manipulative or playing for sympathy' quote is no longer used anywhere. The assault appears only in the childhood section with his own account and hedged guess, so 'this profile builds nothing on it' now holds. C08 and C78 updated; C08 removed from type_hypothesis.for_claim_ids."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "'His feelings tend to arrive after the fact, and in public' is deleted as a discriminator, as are the November line 'The feelings came later, named in interviews' and the type-section clause 'and narrate the feelings later'. The rebuilt passage (C131) claims only what sources show: a managed public face with feeling shown mostly in private (Graham's smile, Hao's private anger, the Musk email), states plainly that 'The feeling is not delayed', and puts the real-time counterexamples ('supermad' on the board's call; 'awake in the middle of the night and pissed') in the same paragraph, together with the limit that a reserved Four also holds suffering in. 'This is just so fucked up' remains in the board-call paragraph. The Type 4 FAQ now uses the motive-level test instead of the timing claim. C77 removed."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "The memo paragraph now adds, with links to his post (S103, opened via fxtwitter) and Fortune (S104, opened), that on November 20, 2023 Sutskever posted 'I deeply regret my participation in the board's actions' and signed the employees' letter, followed by 'regretting the action without retracting the memos', and his 2025 deposition testimony that the process was 'rushed' and that he had weighed removal for 'at least a year'. New claims C117 and C118."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Opened Altman's reply directly (S102, May 17, 2024 18:56 UTC). The Leike paragraph now quotes 'he's right we have a lot more to do; we are committed to doing it' with a link and says he replied the same day (C139). 'Swung the other way' is replaced by 'In September 2026 he made it specific', which describes the change from a general 2024 commitment to the specific evaluator commitment."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "The board-quits demand is now followed in the same paragraph by 'Looking back: \"I wish I had taken a different tack than that.\"' (C115). The board-call paragraph now says he credited 'the trait with his company's success' (S43: the trait 'had enabled him to lead an immensely successful company') before the board member's reading (C39)."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The denial is now presented as counterevidence with his stated motive beside it ('very ambitious as far as, like, my hope for humanity'), followed by 'He may experience the drive as mission' and the observation that would separate the readings. 'Sincere-sounding', 'blind spot' and 'never lets up' are gone. The 'relentless will to power' sentence was removed rather than re-attributed (C87 deleted), so no unattributed synthesis of adversaries' judgment remains."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "The book could not be checked: research found no Google Books result and no independent excerpt, and the reviewers found none, so the fallback branch applies. (a) The p. 42 elision is marked ('After a cut the compilation marks'); (b) 'the new president's makeover' and the Henleys detail are dropped, and the placement is attributed to the compilation ('a passage the same compilation places in his YC years'); (c) 'the record's clearest account' is replaced by 'Her sources are mostly unnamed, and this profile could not check the passage against the book.' The citation text now reads 'via a critic's compilation of excerpts'. The research task for S55 stays open in research_tasks."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Opened S01 context accepted. The hook now states Graham's claim: he 'told founders to be independent of investors', 'When YC predicts good outcomes' (the essay's 'we'), quotes 'that you'll succeed with or without them' and 'deal-making ability'. The frame is rebuilt on the independence-versus-peacekeeping tension ('Graham was praising independence; the 2026 line confesses a costly habit of keeping the peace'), and the one-capacity link is explicitly marked as the author's reading ('In this profile's reading, not Graham's, that capacity is persuasion'), supported by The New Yorker's 'greatest strength' line (C105). C10, C94 and C102 updated; the closing is qualified (fan-02)."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Added a dated YC-exit paragraph from the opened 2026 New Yorker text (re-fetched 2026-10-05): Altman says he was never fired; Graham's tweet ('we didn't want him to leave, just to choose') and on-record statement ('All we could do was apply moral pressure'); the magazine's report that the parting 'was not entirely mutual'; and, labeled secondhand, Graham's 'Sam had been lying to us all the time'. The closing now reads 'though by The New Yorker's account Graham's own island was one where partners stopped trusting him'. C109, C110, C143."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "'Alien intrigue' is now introduced as said while 'Waving off a suggestion in 2016 that he had Asperger's' and about reading others' emotions in a photo; 'I'm not a high-EQ person' is introduced as said while 'discussing how much tension he had sensed on OpenAI's board'. 'Inner weather' and 'twice described himself as low in emotional attunement' are gone, and no Type 3 reason rests on these quotes. The contradiction is named and argued through: 'Yet the Loopt colleague describes a man who studies people to influence them. The accounts fit if what he reads is what a person wants rather than what a person feels' (C108), using the restored influence clause of the Hao quote. The 'missing circuit' line now carries its next sentence about risk (C132)."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Took the second branch: the mother's quote is no longer cited (C21 removed). A Six paragraph in 'What the type doesn't explain' weighs his 2022 'very anxious, high-strung' self-report, the 2016 prepper list ('guns, gold, potassium iodide' to 'gas masks from the Israeli Defense Force'), Thiel's 'an optimist yet a survivalist' and his 2023 TIME reply ('caricatured very wildly'), dated and attributed (C135-C137), and says why Six does not displace Three while remaining the portrait's largest gap (C138)."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Altman's Bloomberg admission is quoted in the witnesses section ('were not happy with the way that I tried to get them off the board. Lesson learned on that', C120) and drives the 3-vs-8 argument: the Eight section says that when he moves against people he does it indirectly, 'trying to get board members off the board, by his own account', and that sidelining while keeping the public face clean fits Three better than Eight; 'Why Type 3 leads' adds that outside the room he pursues his aims indirectly. 'I wish I had taken a different tack' now follows the demand (C115)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "The five-day section now covers, with sources: Brockman quitting in protest (S81, S54; C113); Microsoft's announced offer via Nadella's opened post (S105; C114) with Microsoft described as OpenAI's biggest strategic shareholder (S104); the 745-of-770 letter; the board naming Emmett Shear and Altman calling it 'real deception' (S40; C116); reinstatement 'under pressure from employees and investors' (S44). Sutskever's public reversal (opened S103/S104) and his 'rushed' and 'at least a year' testimony (S60) are in the memo paragraph (C117, C118). 'Mediating' is gone. The campaign reading is restated with the leverage acknowledged: 'The campaign was his; the leverage was mostly other people's' (C97)."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Added at the start of 'Five days in November': OpenAI's 2015 nonprofit origin and its board's safety duty (C111), the 2019 capped-profit company and the 2025 move to 'a normal capital structure where everyone has stock' (C112). 'Why Type 3 leads' now weighs Altman's September 21, 2017 reply ('i remain enthusiastic about the non-profit structure!', sender and time confirmed in S56) against the 2019 change, naming capital needs as the ordinary explanation and the reply itself as what fits Three (C129, C130). The May 2026 cross-examination is quoted with The Ringer named (C122), and the verdict's timing basis and intended appeal are stated so it implies nothing about his honesty (C123)."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "The speech now includes, attributed as 'in The New Yorker's paraphrase', that he asked 'whether the school wanted to be a repressive place or one open to different ideas' (C106). The childhood section says it is evidence he will 'challenge an institution in public' and the Four reading's best exhibit; 'What the type doesn't explain' says it is 'the kind of open confrontation the conflict-averse thesis doesn't predict'; the Four ranking sentence cites it as something Three cannot explain."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Same repair as fan-03. Both self-reports now carry their context (Asperger's joke; board-tension discussion), the 'inner weather' sentence is gone, no Type 3 reason uses them as evidence that he brackets his own feelings, and the article squares them with the room-reading frame using Hao's restored clause 'he uses that to figure out how to influence you in different ways': he reads what a person wants rather than what a person feels (C108). The Type 4 FAQ no longer repeats the low-attunement claim."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Took the first branch. The second reason is rebuilt as a managed public face with feeling shown mostly in private or to insiders (Hao's public/private split, the private Musk email versus his public jabs, Graham's uncontrolled smile), states that the feeling is not delayed ('supermad' on the call; 'awake in the middle of the night and pissed'), and concedes that a reserved Four also holds suffering in, so the split cannot decide 3 vs 4 (C131). 'The feelings came later, named in interviews' is deleted, the Four-leads-with-feeling stereotype is removed from the type section and the body, and the Type 4 FAQ now uses what his costly choices protect."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The board-removal episode now appears with attribution: Altman's own 'tried to get them off the board ... Lesson learned' (C120), Toner's 'Sam started lying to other board members in order to try and push me off the board' (C119), and OpenAI's dispute of the Bloomberg report that he misrepresented directors' views in that effort (C121), alongside OpenAI's response to Toner. 'Why Type 3 leads' restates the core behavior as accommodation in the room plus indirect pursuit of his aims outside it, and the Eight section says indirect sidelining that keeps the public face clean fits Three better than Eight, replacing 'accommodates almost everywhere else' (C100). Friend's 'quick to anger' is added to the Eight exhibits (C134). Hao p. 347 and the Murati 'iced out' line were not added: they are compilation-only or anonymous, and his own concession plus Toner's on-record account carry the point."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "The hook now says the April 10 post came 'days after The New Yorker published an investigation asking whether he could be trusted' (C104). 'Why Type 3 leads' says he names the trait 'mostly while answering charges of dishonesty, so \"conflict-averse\" is best read as his framing of disputed behavior, not as another witness' (C124). The conflict-averse FAQ now opens 'By his own account, yes, though he gave that account while answering accusations of dishonesty' and adds 'Former board members describe the same behavior as lying' (C145, C146)."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Same repair as fan-01 and fan-02. The one-capacity link is marked as the profile's reading and supported by The New Yorker's 'ability to convince disparate groups that what he wants and what they need are one and the same' and Graham's 'deal-making ability', not by the island line. The 2019 YC exit appears with The New Yorker's reporting, Graham's on-record statement and tweet, and Altman's denial, and the closing no longer implies Graham's view stayed purely admiring."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "'Why Type 3 leads' now opens its second paragraph with the job as the strongest rival ('a fundraiser is paid to tell each audience what it wants'), names costs the job explanation would not predict ('The habit persisted when it hurt him, at Loopt, at YC and in the 2023 firing'), and states the limit: 'it began with his first job, so timing can't separate craft from motive, which is much of why confidence stays at medium' (C125). Hagey's salesman caveat remains attached to her testimony."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Both halves are quoted ('very ambitious as far as, like, my hope for humanity' and 'I weirdly have very little personal ambition'), 'sincere-sounding' is cut, the alternative is named beside it ('He may experience the drive as mission'), and the paragraph states the observation that would separate the readings. The denial is no longer counted as Three evidence (C30 inference updated)."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "The link text now reads 'via a critic's compilation of excerpts'; 'the record's clearest account' is gone; the p. 42 passage is introduced as one 'the same compilation places in his YC years', its elision is marked, and the article says it 'could not check the passage against the book'. Hao's compilation passages are never used alone as discriminators: the public/private split sits beside Graham's smile and the Musk email (C131), and p. 240 sits beside The New Yorker's 'what he wants and what they need' (C127). The book was not opened; research task kept."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Same repair as fan-03/critic-01: 'alien intrigue' is introduced as about reading other people's emotions, the second Type 3 reason no longer cites either EQ self-report, and the tension with the room-reading thesis is reconciled in two plain sentences (he reads what a person wants rather than what a person feels). No passage claims both low attunement and expert room-reading without addressing it."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Within the second paragraph the reader learns that the April 10, 2026 post came 'days after The New Yorker published an investigation asking whether he could be trusted' (linked as 'The New Yorker, April 2026') as well as on the day of the attack, and what he was proud of: having 'held the line on not being willing to agree to the unilateral control' Musk wanted. 'Altman called the article \"incendiary\"' now follows sentences quoting that article, and the investigation is introduced in the hook. The Eight section's separate pride line was cut, so the pride appears once, identified with the post. No attacker or home-location detail was added."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The 57-word answer and the mirrored type FAQ now say 'Across two decades, colleagues and his biographer describe him adjusting to win each room while steering it toward what he wants', which separates Three from Nine and Two (C148), and keep 'medium confidence', Type 4 as strongest alternative and Type 8 as second."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "'Five days in November' now opens with the stakes: OpenAI began as a nonprofit whose board 'had a duty to prioritize the safety of humanity over the company's success', so 'A board charged with safety had to trust what its CEO told it' (C111). The leverage behind his return is stated with sources (Brockman's resignation, Microsoft's offer via Nadella's post, the employee letter, pressure from employees and investors). The open-question paragraph identifies Amodei at first mention ('who left OpenAI's safety team in 2020 to co-found the rival Anthropic', C140), glosses superalignment as a team 'on long-term AI risk', and states the evaluator commitment concretely ('give independent evaluators \"employee-like access\"')."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Graham is identified in the hook as 'the essayist who co-founded the startup accelerator Y Combinator'; Brockman appears first as 'Co-founder Greg Brockman'; Murati as 'interim CEO during the crisis'; Theranos is glossed as 'the blood-testing startup built on false claims' (S106, C107); the npc-trap line is glossed by his own clause 'i wish i had done more of my own thinking'; the Loopt sale is framed ('after failing to gain significant user traction', C84). The Naval Ravikant and 'Sama' references were cut, so they need no gloss."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "rejected",
+      "reason": "Partly adopted, length target rejected. Adopted: the lawsuit section now sits immediately before the closing section, outside the run of type-argument sections, with its wording, attribution, family denial, dismissal/amended-complaint status and trial date unchanged except for the docket-status update future-05 required; the fatherhood paragraph is cut so the section leads with the Codex post. Rejected: the move toward roughly 3,600 words. Majors from five other roles required new sourced counterevidence and context (YC exit, board-removal maneuvering, Sutskever's reversal, Microsoft's leverage, the nonprofit stakes, sworn testimony, the Six and Seven tests, the salesman alternative), and this finding's own test forbids cutting sourced counterevidence or protected passages. To offset them, the draft's prose was compressed throughout (the page-history rebuttals, a duplicated Graham quote, the mother quote, 'What would Sama do?', the YC 'glory' quote, the Naval line, fatherhood, the trailer quote in the body), leaving a 4,377-word body (checkDraft), inside the 1,200-4,500 release range and about 190 words above the draft."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The type section keeps one newcomer-useful sentence, 'Earlier versions of this page read Altman as a Type 4; Four now ranks second, for the reasons below', with no reference to corrected quotes. The Type 4 FAQ opens with substance and drops 'this page used to lead with it'."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "The Cowen remark is now dated 'In 2019' (S11, January 28, 2019) and no longer set against the 2016 profile as 'three years later'."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The Nine/Two dismissal now rests on a motive-level observation, not ambition: 'What tips it toward Three is that the accommodation serves his own direction', supported by Hao p. 240 (sympathy to Safety, 'he pressed them to keep going' with Applied, C126) and The New Yorker's 'what he wants and what they need are one and the same' (C105), followed by 'A Nine's merging tends to dissolve its own agenda; a Two's attentiveness seeks to be needed. His agenda survives every room' (C127). The old 'First' reason is replaced by 'The prize is the top job', which names the title as the Three-specific element and states plainly that 'Power-seeking alone can't separate Three from Eight'."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "The body no longer claims Fours lead with feeling in real time (sentence deleted from the type section and from 'Why Type 3 leads'), and the Type 4 FAQ now rests on what his costly choices protect. The reserved/self-preservation Four is acknowledged twice ('But a reserved Four also holds suffering in'; 'A reserved Four, or one with a strong Three wing, could look like this as a public CEO'). The 3-vs-4 case now rests on the protected motive sentence plus the credible-versus-distinctive test. The EQ self-reports carry their context and are reconciled with the attentiveness testimony (C108)."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "'I weirdly have very little personal ambition' is presented as counterevidence with his stated motive and the observable that would separate sincere mission from Three self-deception (whether he ever gives up the top role or a public win because the mission requires it). The 'missing circuit' claim now appears in 'What the type doesn't explain' with its risk sentence (C132), is called a cut against the approval motive at Three's core, and is paired with the observation that would weaken the Three reading. The 2019 Cowen line is said to qualify it 'without making it support for Three'. No sentence treats a denial of the Three motive as evidence for it."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Same repair as unfamiliar-03: the answer and type FAQ now include the Three-specific element 'adjusting to win each room while steering it toward what he wants', at 57 words, with medium confidence and the 4/8 alternatives."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Type 7 is named and tested: 'A Seven, the other look-alike for an upbeat founder, guards freedom and options; Altman fought for years over one title' (S56), and in the closing section, 'What he named was lost usefulness, the Three's fear, not the lost options a Seven would mourn' (S89; C128). The 'outpouring of love' post is no longer counted as Three evidence; it appears only as part of the campaign, and the evidence record notes it fits Seven-flavored optimism."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "The assault reticence is removed from the type argument (subject-02). The credible-over-distinctive conclusion now rests on a case where the two image goals diverge, the equity regret ('Where looking credible and looking distinctive pull apart, as in his regret, below, about having no equity, he picks credible', C144), and the npc-trap example is acknowledged: 'The appeal to independence has a Four-like ring; the move it explained did not.'"
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Added the evidence-based ranking sentence to the Four section: 'Four outranks Eight because it explains what Three can't, the speech and the Musk email, while Eight fails the accommodation test outright' (C133). The ranking is consistent across body, FAQs and the evidence record."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The Eight section now separates open confrontation (2017, 2023) from indirect moves, citing his own 'tried to get them off the board' and Toner's account, and adds Friend's 2016 'quick to smile, but also quick to anger' (C134). 'Accommodates almost everywhere else' is replaced by 'Elsewhere he accommodates in the room and, when he moves against people, does it indirectly', followed by 'An Eight tends to fight in the open.'"
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Body and Artificial FAQ now say the film 'was scheduled to premiere at the New York Film Festival on October 5, 2026, with a U.S. release ... set for December 25, 2026'; no present- or future-tense release verbs remain. C73's passage and review trigger updated (restate in past tense after the dates)."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The description now names him by a stable fact, 'OpenAI's co-founder' (156 characters). C74's review trigger also lists the bio sentence, the description and the 'OpenAI CEO' keyword as surfaces to update on any leadership change."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Now 'OpenAI co-founder Ilya Sutskever, then its chief scientist, wrote memos for the board.' No title is stated as current for anyone whose role has changed (Murati is 'interim CEO during the crisis')."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Rebuttals now address the hypothesis: 'A Four reading leans on \"shameful,\" ...' and 'A Four case can also point to money.' One revision-history sentence remains in the type section, and the Type 4 FAQ opens with substance. C96's passage updated."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Re-checked the docket on 2026-10-05 (CourtListener, descending): the latest entry is #128 of September 30, 2026, with no entry for the October 2 hearing. The paragraph now reads 'As of September 30, 2026, the date of the latest docket entry, the case and Altman's defamation countersuit were active, a defense motion to dismiss was pending, and a December 2025 order had set a jury trial for May 3, 2027', with no sanction, discovery or medical detail, and the countersuit tied to the same date. C69 and C91 triggers now name the Doc. 109 ruling, the November 16, 2026 dispositive-motion deadline and the trial date, and record that the October 2 hearing has passed."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "After the protected test sentence the paragraph now says 'It tests follow-through, not type: a Three can recalibrate sincerely', so the Three reading is no longer equated with insincerity (C141). C67 and C141 carry a dated fallback: re-check by 2027-03-12 whether any outside evaluator has employee-like access at OpenAI, whether or not OpenAI has announced anything."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "The closing now reads 'He told The New Yorker that he has changed: \"Now I'm very happy to fire people quickly.\" That is a self-assessment, not yet a record. Whether he can lose a room on purpose is what the next few years will show.' C88 and C102 are time_sensitive with review triggers naming concrete observables (named post-April-2026 testimony of him delivering unwelcome decisions directly; a public position held at real cost in approval outside a fight over control) and a 2027-10-05 date."
+    },
+    {
+      "finding_id": "future-08",
+      "action": "fixed",
+      "reason": "Added, in the witnesses section before either court-released email is cited, the sworn exchange quoted exactly from The Ringer (S72; 'I believe I'm a truthful person' and 'I'm sure there is some time in my life when I have not', C122) and the verdict: 'The jury found that Musk had sued too late, a ruling on timing, not honesty; Musk's lawyer said he would appeal' (S73; C123, time_sensitive with an appeal-status trigger). The Musk case's status is no longer ambiguous."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "That is his speculation, and this profile builds nothing on it.",
+      "action": "kept",
+      "reason": "Unchanged. The rest of the article now honors it: the assault reticence and its quote were removed from the type argument (subject-02), so the assault appears only in the childhood section."
+    },
+    {
+      "passage": "That is an adversary's characterization, not a diagnosis.",
+      "action": "kept",
+      "reason": "Unchanged, still placed immediately after the 'sociopathic' quote."
+    },
+    {
+      "passage": "The allegation is unresolved, and it is not evidence for or against any personality type. An honest profile can't leave it out.",
+      "action": "kept",
+      "reason": "Unchanged. The section moved to sit immediately before the closing section (unfamiliar-06); only the docket-status sentence was updated (future-05)."
+    },
+    {
+      "passage": "Read generously, this is a founder doing a founder's job: a company without a finished product has to sell what it will become.",
+      "action": "kept",
+      "reason": "Unchanged; the job explanation is now also weighed at the verdict in 'Why Type 3 leads' (critic-06)."
+    },
+    {
+      "passage": "and added a caveat: \"I think it's a typical critique of people who have the salesman skill set\"",
+      "action": "kept",
+      "reason": "Unchanged wording, still attached to Hagey's testimony; the preceding verb became 'traced' and her first quote moved to the hook."
+    },
+    {
+      "passage": "It is a brother's joke about a board game, and also the first entry in a long file.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "Plenty of executives courted the new administration for business reasons. What fits the Three reading is the framing: a turn toward power, presented as independent thinking.",
+      "action": "kept",
+      "reason": "Unchanged; one sentence now follows acknowledging the npc-trap's Four-like flavor (enneagram-06)."
+    },
+    {
+      "passage": "As evidence of indifference to status, the salary is weaker than it looks, and he frames the regret in terms of how it looks.",
+      "action": "kept",
+      "reason": "Unchanged; the equity regret it describes is now also the divergence example for credible-over-distinctive (C144)."
+    },
+    {
+      "passage": "A Four reading hears wistfulness. A Three reading hears the sting of being outdone, by a product he sells, at something he was good at, and a choice to say so in public. Both fit the sentence.",
+      "action": "kept",
+      "reason": "Unchanged. One sentence after it adds the Seven test (enneagram-05) without converting the post into Three evidence."
+    },
+    {
+      "passage": "The word \"uncontrolled\" implies that the usual face was controlled.",
+      "action": "kept",
+      "reason": "Unchanged; it now also anchors the rebuilt public-face paragraph (C131)."
+    },
+    {
+      "passage": "The email is raw; the public lines win the exchange without making him look like the aggressor.",
+      "action": "kept",
+      "reason": "Unchanged; the rebuilt second reason now grows from this contrast, as critic-02 suggested."
+    },
+    {
+      "passage": "Whether he can lose a room on purpose is what the next few years will show.",
+      "action": "kept",
+      "reason": "Unchanged final line; it now follows his claimed change marked as a self-assessment, not yet a record (future-07)."
+    },
+    {
+      "passage": "You could parachute him into an island full of cannibals and come back in 5 years and he'd be the king",
+      "action": "kept",
+      "reason": "Unchanged quote; Graham's actual context (independence from investors, 'deal-making ability') is now stated around it (fan-01, critic-05)."
+    },
+    {
+      "passage": "Through the type lens, Jacobstein's \"blurring\" is the telling detail. It describes someone who comes to believe the version of himself that wins the room.",
+      "action": "kept",
+      "reason": "Unchanged, still preceded by the generous founder reading."
+    },
+    {
+      "passage": "Ambition can't settle the question, since nearly every founder has it. The test here is narrower: what Altman does when keeping a room's approval conflicts with saying what he thinks or feels.",
+      "action": "kept",
+      "reason": "Unchanged. The Nine/Two/Seven/Eight discriminators were rebuilt to this standard (enneagram-01, -02, -05) instead of relying on ambition."
+    },
+    {
+      "passage": "The old Four reading leaned on \"shameful,\" but it is one item in a run-on list, and a public firing would shame most people.",
+      "action": "changed",
+      "reason": "Now 'A Four reading leans on \"shameful,\" but it is one item in a run-on list, and a public firing would shame most people.' future-04 asked that rebuttals address the Type 4 hypothesis rather than the page's history; the corrected misquote and the reason one word cannot discriminate are retained word for word."
+    },
+    {
+      "passage": "The Four's core motive, protecting an authentic self even when it costs approval, is hard to find in the adult record, where the costly choices mostly run the other way.",
+      "action": "kept",
+      "reason": "Unchanged; it now carries more of the 3-vs-4 load, as enneagram-02 asked."
+    },
+    {
+      "passage": "Read side by side, the two lines describe one capacity from opposite ends.",
+      "action": "kept",
+      "reason": "Unchanged sentence; the next sentence now marks the link as the profile's reading, not Graham's, and grounds it in The New Yorker's 'greatest strength' line (fan-01, critic-05)."
+    },
+    {
+      "passage": "Whether outside evaluators actually work inside OpenAI is the test, and as of October 5, 2026, it is unsettled.",
+      "action": "kept",
+      "reason": "Unchanged; the following sentence spells out that it tests follow-through, not type (future-06)."
+    },
+    {
+      "passage": "The allegation is unresolved, and it is not evidence for or against any personality type.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "A dramatization is not evidence, and nothing here draws on it.",
+      "action": "kept",
+      "reason": "Unchanged; the release facts before it are now in a form that stays true after the dates pass (future-01)."
+    },
+    {
+      "passage": "The 2026 apology describes the price of the same gift: rooms kept happy, fights put off, trust spent later.",
+      "action": "kept",
+      "reason": "Unchanged; the sentence before it now qualifies Graham's callback with the YC exit (fan-02)."
+    }
+  ],
+  "prior_blockers": []
+}

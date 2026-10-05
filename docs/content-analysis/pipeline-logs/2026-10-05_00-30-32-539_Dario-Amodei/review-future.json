@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "992ec97f20f95f1758c66dd4544db6fae699f7fb935ffdb272dbc1a9c917799d",
+  "evidence_sha256": "f907a25633af7abea28d0dcf9dac1a78671d38b2deb064e246a27afc16ddd423",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "Until 2026 he kept even his father's illness out of the long profiles.",
+      "problem": "Factual misstatement that contradicts the article's own line 202 (\"The 2025 profiles left the disease unnamed\") and the sources. Big Technology (S01, July 29, 2025) describes Riccardo's long illness and 2006 death at length, and Wired (S03, March 28, 2025) says he \"took ill when the children were small.\" What he withheld until August 2026 was the disease's name, not the illness. The sentence is used as Type 5 evidence of reserve, so the overstatement inflates the alternative's case. It is also not captured as a claim in evidence-draft.json (C71 covers only line 202).",
+      "acceptance_test": "The sentence says the disease's name (hepatitis C) stayed out of the 2025 profiles, or it is cut. No sentence implies the illness or death went undiscussed before 2026. The passage is either added as a claim citing S01/S03/S11 or folded into C71."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "Daniela runs the company day to day, while his job, he says, is strategy, seeing \"the thing that no one else sees.\"",
+      "problem": "Present-tense role and operating-structure claims that carry the type argument are recorded as `stable` with no review trigger, and some go undated in the prose. C27 (Daniela runs the company day to day, sourced to Feb 2026 Dwarkesh), C67 (\"runs it as chief executive\"), C36 (\"He addresses the whole company every two weeks\", a cadence that has already changed once, from monthly in Wired's October 2024 account to twice a month by late 2025) and C38/C101 (one direct report in what Bloomberg calls a leadership \"experiment\"). The Type 5 section and its key rebuttal (\"A Six with a strong Five wing, a scientist's training and a sibling trusted completely to run operations would look much the same at a desk\") rest on these. The IPO (roadshow expected around November 9, 2026 per S36) is a near-term catalyst likely to change the leadership structure. The standard requires changing positions and relationships to be time_sensitive with an actionable review_trigger.",
+      "acceptance_test": "C27, C36, C38, C67 and C101 are marked time_sensitive. Each has a trigger such as \"After the IPO or any leadership change, re-check CEO/President roles, the number of CEO direct reports and DVQ cadence. If they change, re-weigh the Type 5 paragraph and the 'sibling trusted completely to run operations' rebuttal.\" In the prose, the Daniela split and the biweekly address carry a year (e.g., \"Daniela, who he said in 2026 runs the company day to day\"; \"by 2026 he addressed the whole company every two weeks\")."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "The brake he set in advance",
+      "problem": "The heading, followed by the July 2025 condition and then the September 2026 reversal, invites the reader to infer that his pre-set condition fired. The essay (S09) gives different reasons: \"since roughly this summer, AI has been advancing drastically faster, driven primarily by AI's growing ability to build the next generation of AI,\" plus a specific incident. It also says slowing \"made little sense\" in 2023. The evidence record contradicts itself: C42's inference says the change was \"made by his own pre-stated rule once observed conditions changed,\" while C93 says \"the draft does not claim the 2026 change was triggered by this exact condition.\" Pacing is also the most volatile position on the page (Axios: Anthropic \"has gone back and forth\"). If it reverses again, a heading built on a mechanism the sources don't establish will read as a claim the page made and lost.",
+      "acceptance_test": "Either a source is cited in which Amodei ties the September 2026 shift to his July 2025 condition, or the heading and body stop implying it. That means retitling the section and adding one dated sentence on the reasons the essay actually gives (AI accelerating since summer 2026 through AI building AI). C42's inference is corrected to match C93. The section's takeaway would still be true if Anthropic later loosened or reversed the pacing commitment."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "The 2026 evaluators, with their desks and badges, are the same idea with furniture.",
+      "problem": "This treats an announced commitment as an existing arrangement. The hook correctly says Anthropic \"would host\" evaluators, and C43's own alternative notes that \"implementation details are not yet public.\" C43's review trigger is attached only to the quote \"we are still the ones choosing what to include and omit.\" Other passages that depend on the same commitment are marked stable with no trigger: the description (C100, \"then inviting outsiders to check his own company\"), the Type 5 FAQ (C101, \"invited embedded evaluators who can publish without Anthropic's editorial control\") and this line. If the commitment is narrowed, delayed or dropped, a maintainer following triggers would miss three of the four passages that depend on it.",
+      "acceptance_test": "This line describes the evaluators as promised or committed in September 2026 (e.g., \"The evaluators he promised in September 2026...\") unless a source showing they are in place is added. C43's trigger names every dependent passage (hook, line 238, description, Type 5 FAQ), or C100 and C101 are marked time_sensitive with the same trigger."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "Anthropic is reportedly weighing super-voting shares that would give him and his co-founders more control after an IPO",
+      "problem": "The present-tense \"is reportedly weighing\" will be stale within weeks: the S-1 and roadshow are expected around November 2026, and S36 notes \"any dates are subject to change.\" The claim carries the first unexplained tension in \"What the type doesn't settle\" (safe base vs. control). The parenthetical citation is dated, but the sentence itself is not, so a 2031 reader gets a superseded rumor as current fact. C30's trigger asks for an update but doesn't say how the argument should change.",
+      "acceptance_test": "The sentence is past tense with an absolute date (e.g., \"In October 2026, Bloomberg reported that Anthropic was weighing super-voting shares...\") so it stays true after the IPO. C30's trigger adds: if super-voting shares are adopted, keep or strengthen the control-vs-safe-base tension; if they are rejected or absent from the S-1, drop the clause and let the OpenAI board demand carry the point alone."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "An earlier version of this page read that lunch as a Five forced out of self-reliance.",
+      "problem": "Page-history commentary appears twice (here and at line 190, \"An earlier version of this page typed him as a Five\") and neither carries a date. It helps 2026 returning readers but ages badly. After the next refresh, \"an earlier version\" is ambiguous, and a reader in 2031 never saw the Five page. The line-270 instance argues against a retired reading of one event instead of letting the 2017 coordination evidence stand on its own.",
+      "acceptance_test": "At most one page-history note remains, in the type section, with an absolute date (e.g., \"Until October 2026, this page typed him as a Five...\"). The G7 paragraph makes its point (coordination under pressure, a habit dating to 2017) without referring to an earlier version of the page."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "Why did Dario Amodei ask G7 leaders to cooperate on AI?",
+      "problem": "One of six FAQs is tied to a single June 2026 event, and searches for it will fade. Meanwhile the durable question the title promises (why he keeps building what he fears) has no FAQ, even though the body answers it with stable, sourced material: the father story, the essay's \"Not building the technology deprives humanity of benefits...\" line and the 2025 \"obligated to warn\" quote. The G7 answer is accurate and dated, so this is about long-term usefulness, not error.",
+      "acceptance_test": "The FAQ set includes a question like \"Why does Dario Amodei keep building AI if he thinks it's dangerous?\" with a dated, sourced answer that mirrors the body and doesn't depend on the latest event. The G7 FAQ may stay, but if kept, its first sentence still makes sense to a reader who has never heard of Fable 5 or Mythos 5."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "That is an odd offer from a chief executive whose company had [confidentially filed for an IPO](https://ca.finance.yahoo.com/news/ai-giant-anthropic-confidentially-files-160453569.html) that June. For Amodei, it was a familiar move. For a decade, when the stakes have risen, he has gone looking for people he can trust and rules that can hold, including rules that bind him.",
+      "reason": "This passage passes the five-year test. It immediately turns a three-week-old event into one instance of a decade-long pattern, so the hook survives if the essay is superseded. The past-perfect IPO clause stays true after the listing."
+    },
+    {
+      "passage": "The lesson of his father's death is that delay has a body count. It explains why he keeps building. It does not explain what he does with the danger of the thing he builds, and that part of him shows up early.",
+      "reason": "A durable structural pivot. It separates the stable motive for building from the type question, and neither half depends on any changing fact."
+    },
+    {
+      "passage": "What tips this page toward personality is that the reflexes predate the company: the threat-first reaction to scaling and the coordination proposals the Journal describes came years before Anthropic had a product to protect.",
+      "reason": "This is the discriminator against the incentive explanation, anchored in pre-Anthropic dates. It is the reason the thesis would stand if every 2026 event were removed."
+    },
+    {
+      "passage": "As of early October 2026, Anthropic was \"considering all options, including further review.\"",
+      "reason": "A model of how to handle an unresolved matter: an absolute date, a sourced status and an unresolved claim (C52) with an actionable trigger. It is honest about what is still open without forecasting."
+    },
+    {
+      "passage": "Both readings fit, so this page does not lean on them.",
+      "reason": "An honest inference limit on the newest and most sensitive disclosures. It keeps the type argument from depending on recent events that a later refresh could reread."
+    }
+  ],
+  "assessment": "Five-year test: the thesis passes in substance, conditional on the fixes above. With the September 2026 pacing essay and CBS interview removed, the Six case still rests on pre-2026, dated evidence: routing danger to government first (2016) and the coordination-regime adviser (2017), both from the Journal's unnamed sources; staying at OpenAI on conditions and leaving with 'people you trust' (Wired 2025, Lex 2024); RSP trigger commitments checked by the long-term benefit trust; distrust of rivals' voluntary plans; and SBF's non-voting shares. The hook and the close use the newest events, but each is framed as an instance of the pattern rather than as the pattern's proof. That matches the Durability-9 anchor, not the Durability-6 'this year's comeback' anchor. Absolute dates are used almost everywhere. Unresolved litigation (C52), the IPO clause (C56), super-voting (C30), pacing (C42) and evaluators (C43) are tracked. The weaknesses are tracking gaps and one causal frame. (1) A factual misstatement at line 276 conflicts with line 202 and S01/S03. (2) Present-tense role and operating facts that carry the Type 5 rebuttal (Daniela running day to day, one direct report, DVQ cadence, the CEO title) are labeled stable just ahead of an IPO. (3) The 'brake he set in advance' heading implies the 2025 condition fired, which the essay does not say, and C42's inference contradicts C93. (4) The evaluator commitment's trigger misses three of the four passages that depend on it. Risk flags: sensitive_allegations=true (WSJ unnamed-source material; health disclosures; the Pentagon/administration dispute), contested_typing=true and major_thesis_change=true (live retype from 5 to 6), historical_source_uncertainty=false. The expanded jury is warranted, and this review does not downgrade any research-stage risk. Similarity advisory: it tripped, mainly on the disclaimer 'This is a reading of public evidence' (0.47 vs Arthur-Mensch), plus 'the public record', 'this page' and 'pull back'. These are ordinary disclaimer and type vocabulary, not a reused argument. The Dario-specific arguments (father's cure gap, conditional staying at OpenAI, the evaluators, the anger aimed at bad faith) do not reappear in the comparison set. No finding on distinctiveness."
+}

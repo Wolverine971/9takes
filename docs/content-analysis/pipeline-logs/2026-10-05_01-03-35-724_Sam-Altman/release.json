@@ -1,0 +1,60 @@
+{
+  "schema_version": 3,
+  "subject": "Sam-Altman",
+  "content_sha256": "d08998ae10da79820d8d3abc51b64d6375c110468a77b80078af4c3b28f9a8d4",
+  "expanded": true,
+  "artifacts": {
+    "baseline": {
+      "file": "baseline.md",
+      "sha256": "b9c84a549b79f9fb90e31d3f92cf9f3a6f09622d0669d5f867b0e2900c34cef3"
+    },
+    "research": {
+      "file": "evidence.json",
+      "sha256": "3576d5c356ad9bd8258a9a7bb75e0783925147c97705777f5b848c5b976a48a2"
+    },
+    "draft": {
+      "file": "draft.md",
+      "sha256": "49768209e66c0e7f424cc862b4cbd2a32c0b4fac590a4b6466a8b04d6192c96b"
+    },
+    "draft_evidence": {
+      "file": "evidence-draft.json",
+      "sha256": "80d0a0c6de6828e62bb06327b71494892fb665d0143e6caf3648e675cda4a9ae"
+    },
+    "evidence": {
+      "file": "evidence-edit.json",
+      "sha256": "5f6a489e25db350b5bab5562ebe9b01c121714ea9e5dea487006155d9af95f13"
+    },
+    "resolution": {
+      "file": "resolution-edit.json",
+      "sha256": "254ef132576ec81d7962449ad7193dcc79aa3f56cf3a4a3385afd4c23b5e0528"
+    },
+    "verification": {
+      "file": "verification-edit.json",
+      "sha256": "26e43158cfebd69eaf5c1786bec6b8465fbb30329ef6fc63665abca1215e3d9a"
+    },
+    "review-subject": {
+      "file": "review-subject.json",
+      "sha256": "95b610b0b206a5aba6f325f8361f64aae8414c006dd95a42c4b4f5a7acd43028"
+    },
+    "review-fan": {
+      "file": "review-fan.json",
+      "sha256": "c3a46b834683863f4029312aea94a74b1c0d71b1f5c6d740f4d7c0d76650b55e"
+    },
+    "review-critic": {
+      "file": "review-critic.json",
+      "sha256": "9c197b64ed1182b3124ddab32e7a2872120c44727b601eef69be2c6272738078"
+    },
+    "review-unfamiliar": {
+      "file": "review-unfamiliar.json",
+      "sha256": "dd7112b6cd85818a60c0ce9f0ad9d5d92b0e45dcddc571e1e2bd310735aa42f0"
+    },
+    "review-enneagram": {
+      "file": "review-enneagram.json",
+      "sha256": "28046ea1a5f37da877c3c131d67f90528b402892bb39127b21e04e8f562c9bf9"
+    },
+    "review-future": {
+      "file": "review-future.json",
+      "sha256": "0a10d3b76f1107303931911fb4cdaf419c5d1af5afba8c7bacb6ad2954810438"
+    }
+  }
+}

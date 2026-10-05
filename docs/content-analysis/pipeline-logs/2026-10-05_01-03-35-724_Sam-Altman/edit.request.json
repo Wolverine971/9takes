@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "Sam-Altman",
+  "mode": "refresh",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_edit_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/similarity.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/draft-checks.json"
+  },
+  "outputs": {
+    "edit.md": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/edit.md",
+    "evidence-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/evidence-edit.json",
+    "resolution-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/resolution-edit.json"
+  }
+}

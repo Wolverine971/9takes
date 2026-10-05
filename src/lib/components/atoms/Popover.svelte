@@ -13,6 +13,8 @@
 
 	export let position: 'top' | 'right' | 'bottom' | 'left' | 'top-right' | 'bottom-right' =
 		'bottom-right';
+	/** Accessible name for the icon-only trigger, e.g. "Comment options". */
+	export let label = 'More options';
 
 	// Disclosure pattern (button + panel of ordinary controls), not an ARIA menu:
 	// the panel holds plain buttons and static info, so menu/menuitem semantics
@@ -145,7 +147,7 @@
 		class="border-0 bg-transparent p-0"
 		on:click={handleClick}
 		bind:this={triggerButton}
-		aria-label="Open menu"
+		aria-label={label}
 		aria-expanded={popupVisible}
 		aria-controls={popupVisible ? panelId : undefined}
 	>

@@ -1,0 +1,26 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:Quotation context error in the article's closing line, carried into claim C99. In S37 (CBS, September 13, 2026) the line answers whether the U.S. should slow down if China won't. He cites nuclear arms agreements and says 'The more long-term thing would be working together to put a speed limit on the rate of AI progress ... I think that's going to be very difficult ... And honestly, I don't know if it's possible, but we should try.' It comes before, and separately from, his 'joint governance' answer about giving the technology to governments. The page ends by assigning his doubt to a proposal he did not attach it to.",
+    "unverified_claim:C99",
+    "unverified_source:S37",
+    "overall_below_8.5:8.1"
+  ],
+  "quality": {
+    "evidence": 8,
+    "enneagram": 8,
+    "originality": 8.5,
+    "writing": 7.5,
+    "durability": 8.5,
+    "hook": 8.5,
+    "discoverability": 8,
+    "overall": 8.1,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-05",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "37120f7966ce22d064ed44f732857a4bdeb7dfcd9a660d6c66820eea6237fa65"
+  }
+}

@@ -202,7 +202,7 @@
 		{/each}
 	</nav>
 
-	<main class="content">
+	<div class="content page-main">
 		<section class="section">
 			<div class="section-head">
 				<h2>Core categories</h2>
@@ -333,7 +333,7 @@
 				<ArrowRightIcon iconStyle={''} height={'1rem'} fill={'currentColor'} />
 			</a>
 		</aside>
-	</main>
+	</div>
 </div>
 
 <style lang="scss">

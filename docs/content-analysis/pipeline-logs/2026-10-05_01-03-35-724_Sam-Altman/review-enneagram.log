@@ -1,0 +1,19 @@
+I wrote the Enneagram review for the Sam Altman refresh to `review-enneagram.json` in the run folder. It matches the review schema, its hashes and role match the request, and every quoted passage appears word for word in the draft. I didn't change any other file and didn't publish anything.
+
+**Verdict:** Type 3 at medium confidence holds up, and it's a better lead than the old Type 4 page. The problem is the reasoning used to rule out the other types, not the type itself. The evidence file already has better proof; the fixes are mostly about using it.
+
+**Major findings (5):**
+1. **Nine and Two are ruled out only by ambition**, which the draft itself says "can't settle the question." The sources show something better: he keeps people happy while still pushing his own agenda. The New Yorker's line that he convinces groups "what he wants and what they need are one and the same," and Hao's account of him siding privately with the safety team while pushing the product team to keep going, fit Type 3, not 9 or 2.
+2. **The Three-versus-Four test leans on a stereotype** ("a Four leads with feeling as it happens"). It doesn't hold against the reserved, self-preservation kind of Four, which is exactly what the old page claimed he was (4w3 sp/so). The two "low emotional intelligence" quotes also need their context: one was a joke, the other an excuse.
+3. **Statements that cut against Type 3 get counted as support.** "Very little personal ambition" is treated as Three self-deception. The "missing circuit" quote, where he says he doesn't care what people think, also loses its context. The evidence file lists it as something Type 3 doesn't explain, but the article never says so.
+4. **The 60-word type answer and its FAQ** justify Type 3 using only conflict avoidance, which the body itself says could fit a Nine or a Two.
+5. **Type 7 is never considered**, yet behavior Sevens share (turning rejection into an "outpouring of love," being "grateful for the bad days") is counted as Three evidence. His "I felt a little useless" post is a usable way to separate 3 from 7.
+
+**Minor findings (3):**
+- The image-management examples include his reluctance to detail the teenage assault, which clashes with the draft's earlier promise to build nothing on it.
+- The draft never explains why Type 4 outranks Type 8 as the main alternative.
+- The Type 8 section skips how he handles conflict indirectly: sidelining people, and trying to get board members off the board.
+
+I marked five passages to keep, including the "Ambition can't settle the question" framing and the closing line "Whether he can lose a room on purpose…". I kept all four risk flags as the evidence file had them; the sensitive-allegations, contested-typing and major-thesis-change flags are true. The similarity check against other recent profiles turned up no meaningful reuse. I judged sources from the excerpts saved in the evidence file and didn't reopen them myself.
+
+This session flagged that several plugin connectors (GitHub, Slack, Linear, Notion, Ahrefs and others) need authorization, which you can do via `/mcp` in an interactive session. The Supabase connector failed to connect. This stage didn't need any of them.

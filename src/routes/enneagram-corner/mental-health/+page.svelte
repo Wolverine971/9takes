@@ -272,7 +272,7 @@
 		</div>
 	</nav>
 
-	<main class="main-content">
+	<div class="main-content page-main">
 		<!-- Crisis Banner -->
 		<section class="crisis-banner">
 			<strong>If you're in crisis, please reach out:</strong>
@@ -406,7 +406,7 @@
 				</div>
 			</div>
 		</section>
-	</main>
+	</div>
 </div>
 
 <style lang="scss">

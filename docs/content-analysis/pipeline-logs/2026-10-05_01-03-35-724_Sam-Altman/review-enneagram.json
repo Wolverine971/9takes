@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "925a318a406d87caa7ffe839dd592350cc6f38bf2b17d96c5e18ed292cf94130",
+  "evidence_sha256": "c02501903bf57263b8fa25f36f570e737722214ec26b438c0935b9940e12f151",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Nine and Two explain the accommodation, and the attentiveness colleagues describe gives Two some support, but neither explains two decades of reaching for, and holding, the top job.",
+      "problem": "The profile's central behavior is conflict avoidance: agreeing with each side, \"I do try to be a unifying force,\" keeping \"an awful lot tied up inside.\" That is the Nine's signature, yet the draft rules out Nine and Two only by ambition, the variable it says \"can't settle the question, since nearly every founder has it.\" The first of the \"three things\" (\"the drive to win and hold the top job\") also fits the Eight the draft ranks second, so it separates 3 from nothing it needs to. The packet already holds a motive-level discriminator the draft never uses: the accommodation serves his own agenda instead of dissolving it. The New Yorker (S43) writes that \"his greatest strength has always been his ability to convince disparate groups that what he wants and what they need are one and the same.\" Hao (p. 240, via S55) reports that he sympathized privately with Safety while pressing Applied to keep going. Hao's Loopt source says he used his attentiveness \"to figure out how to influence you,\" a clause the draft cuts when it quotes \"so attentive.\" A Nine's merging gives up its own agenda. A Two's attentiveness seeks to be needed. This pattern fits neither.",
+      "acceptance_test": "The Nine/Two dismissal rests on at least one sourced observation where 3 and 9, and 3 and 2, predict different behavior (e.g., accommodation used to advance his own direction, per S43's \"what he wants and what they need\" or Hao p. 240). It does not rest on ambition or holding the top job alone. The \"First\" reason either names what is Three-specific in the drive (the title and status, being seen as the winner) or states plainly that it does not separate 3 from 8."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "A Four tends to lead with feeling as it happens. A Three tends to set it aside to function, then narrate it.",
+      "problem": "This 3-versus-4 test describes a style, not a motive, and it fails against the strongest version of the rival. The page's own former typing was 4w3 sp/so, and the self-preservation Four is commonly described as stoic: it holds suffering in, works hard and doesn't display feeling. That fits \"keeps an awful lot tied up inside\" as well as a Three does. The two low-attunement self-reports that carry this test are contextual. \"Alien intrigue\" came while he was joking off an Asperger's suggestion (S03). \"I'm not a high-EQ person\" explained why he missed board tension (S40). Both sit uneasily with colleagues' \"so attentive.\" The Type 4 FAQ draws two of its three reasons from this weaker test. The draft already states a stronger motive test elsewhere: what his costly adult choices protect (approval and being seen as valuable, versus an authentic, distinct self). That test should carry the 3-versus-4 case.",
+      "acceptance_test": "Neither the body nor the Type 4 FAQ claims that Fours lead with feeling in real time; alternatively, both acknowledge the withdrawn or self-preservation Four and say why the evidence still favors 3. The 3-versus-4 case rests mainly on what the costly choices protect. The low-EQ self-reports carry their context (a joke; an explanation for missing board tension) and are reconciled with the attentiveness testimony: reading what others want is different from attending to his own feelings."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "A long climb paired with a sincere-sounding denial fits the Three's blind spot, where the achieving self and the mission blur together.",
+      "problem": "Counterevidence is turned into support through the Three's self-deception. \"I weirdly have very little personal ambition\" becomes positive evidence for 3. Earlier, the 2016 \"missing circuit ... that would make me care what people think about me\" directly denies the approval motive at the core of Type 3, yet the draft aims it only at Type 4. The 2019 Cowen line qualifies it but does not make it support 3, and the draft drops its risk-taking context (S03: \"Most people want to be accepted, so they won't take risks that could make them look crazy\"). The evidence record's own `unexplained` field lists the missing-circuit claim as unexplained by 3, but the article's \"What the type doesn't explain\" section leaves it out. If every denial confirms the type, the type cannot be tested. The standard forbids explaining away every contradiction this way.",
+      "acceptance_test": "Each self-report that cuts against 3 (the missing circuit; little personal ambition) is first presented as counterevidence, along with the observation that would separate sincere mission-drive or real indifference to risk from Three self-deception. The missing-circuit claim, with its risk-taking context, appears in \"What the type doesn't explain\" or an equivalent passage. No sentence treats a denial of the Three motive as positive evidence for it."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "His biographer and former colleagues describe a long habit of telling people what they want to hear, and he has called his own conflict aversion a flaw that \"caused great pain.\"",
+      "problem": "The 60-word type answer, its FAQ mirror and, in substance, the description justify Type 3 only with conflict avoidance and telling people what they want to hear. The body itself says that behavior \"could belong to a Nine or a Two.\" So the most-read, snippet-eligible part of the page teaches that conflict aversion signals Type 3. Nothing Three-specific appears in it: no winning the room, no being seen as valuable, no drive for the top title.",
+      "acceptance_test": "The <=60-word answer and the type FAQ answer name at least one Three-specific element alongside the accommodation (e.g., adjusting himself to win each room while pursuing the top role). They still state medium confidence and the Type 4 / Type 8 alternatives, and the answer stays at or under 60 words."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "Conflict avoidance alone could belong to a [Nine](/enneagram-corner/enneagram-type-9) or a [Two](/enneagram-corner/enneagram-type-2). Three things tip it toward Three.",
+      "problem": "The draft never names Type 7, yet it counts behavior Sevens share as Three evidence. Examples: the \"post that turned rejection into an 'outpouring of love'\" (positive reframing), Hao's \"avoided expressing negative emotions\" and \"grateful for the bad days.\" For that last line the evidence packet itself notes \"7-style reframing\" (C60). Add a biography titled _The Optimist_, Hagey's \"convincing people that he can see the future\" and a spread of side ventures (Worldcoin appears in knows_about but not in the body). Three and Seven are a standard look-alike pair among upbeat, assertive founders. The record holds discriminators the draft leaves unused. In the February 2026 Codex post, \"I felt a little useless and it was sad\" names a loss of usefulness and value, the Three's core fear, rather than lost options or stimulation, though the post then reframes forward. And his years-long fight for one title is not option-hopping.",
+      "acceptance_test": "The type argument names Type 7 and rules it out with at least one sourced observation where 3 and 7 predict different behavior. The positive-reframing evidence (\"outpouring of love\") counts toward 3 only after that test."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "He withheld details of the teenage assault lest a fuller telling \"make me look like I'm manipulative or playing for sympathy.\"",
+      "problem": "The image-monitoring evidence mixes items that discriminate with items that don't. He was reticent about an assault while talking to reporters investigating whether he is manipulative. That reticence is situational and common across types, and putting it in the type argument clashes with the earlier promise that \"this profile builds nothing on\" the assault. Separately, the \"npc trap\" framing presents his Trump reversal as escaping conformity. That is closer to an image of distinctiveness than to \"credible, effective and likeable,\" so it partly undercuts the conclusion it supports (\"more than an image of being distinctive, the Four's\").",
+      "acceptance_test": "The assault reticence is removed from the type argument or explicitly labeled situational. The \"credible, effective and likeable ... more than distinctive\" claim rests on examples where those two image goals actually diverge. The npc-trap example is either reframed or acknowledged as having a distinctiveness flavor."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "Type 4 is the strongest alternative; Type 8 is a serious second.",
+      "problem": "The draft asserts this ranking but never argues it. The body's own analysis leaves Four with thin adult evidence: one private email, a word about humanity's prospects and Naval's idea. Eight has the Samurai line, \"Only if the whole board quits,\" \"Sam stood his ground\" and \"relentless will to power.\" A reader could suspect Four ranks first because the page used to say Four, and the standard treats older drafts as hypotheses, not proof.",
+      "acceptance_test": "One sentence explains in evidence terms why 4 outranks 8. For example: 4 explains residuals that 3 cannot (the speech at 17, the Musk email), while 8 fails the pervasive accommodation test outright. Otherwise, the ranking changes consistently across the body, the FAQs and the evidence record."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "Altman confronts openly when control of the institution is on the line, as in 2017 and 2023, and accommodates almost everywhere else, by his own account and others'.",
+      "problem": "\"Accommodates almost everywhere else\" overstates a binary. The packet records a third mode the 3-versus-8 test should use: covert conflict. Hao (p. 347, via S55) reports that people who challenged him could be cut out \"of key decision-making processes\" or have their credibility undermined. Altman told Bloomberg (S40) that board members \"were not happy with the way that I tried to get them off the board.\" Friend (S03, 2016) described him as \"quick to smile, but also quick to anger.\" Sidelining people indirectly instead of confronting them in the open is itself a 3-versus-8 discriminator, since an Eight fights in the open. Leaving it out makes the accommodation look more Nine-like than the record is.",
+      "acceptance_test": "The Eight section distinguishes open confrontation from covert sidelining with at least one sourced instance. The \"almost everywhere else\" claim is qualified to match the reports of anger and sidelining."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Ambition can't settle the question, since nearly every founder has it. The test here is narrower: what Altman does when keeping a room's approval conflicts with saying what he thinks or feels.",
+      "reason": "This is the right discriminator, stated in motive terms and specific to this subject. It also refuses the achievement-equals-Three shortcut. The fixes for enneagram-01, -02 and -05 should bring the rest of the argument up to this standard, not weaken it."
+    },
+    {
+      "passage": "The old Four reading leaned on \"shameful,\" but it is one item in a run-on list, and a public firing would shame most people.",
+      "reason": "It corrects an inherited misquote and states why one word cannot discriminate between types. Typing discipline should look like this."
+    },
+    {
+      "passage": "The Four's core motive, protecting an authentic self even when it costs approval, is hard to find in the adult record, where the costly choices mostly run the other way.",
+      "reason": "This is the strongest 3-versus-4 argument in the draft: it is motive-level and tied to costly, repeated choices. It should carry more of the load that now rests on the feeling-display test (enneagram-02)."
+    },
+    {
+      "passage": "That is his speculation, and this profile builds nothing on it.",
+      "reason": "It refuses to turn a hedged self-report into a childhood-wound origin story for the type. Keep it, and keep the type argument consistent with it (see enneagram-06)."
+    },
+    {
+      "passage": "Whether he can lose a room on purpose is what the next few years will show.",
+      "reason": "It ends on an observable forward test drawn directly from the discriminator. That keeps the typing falsifiable and durable without leaning on the latest event."
+    }
+  ],
+  "assessment": "Type 3 at medium confidence is a defensible lead and better supported than the former Type 4 reading. The repeated, costly accommodation pattern across Loopt, YC and OpenAI is well sourced, Altman names it himself, and the draft states the right motive test. The draft also avoids wing, arrow and subtype rescues: it asserts no wing, and the anxiety strand is left as an honest residual pointing to Six. The edit should not add those moves, and confidence should stay medium. The weakness is in the discriminators. Nine and Two are dismissed by ambition, which the draft itself says cannot settle type. The 3-versus-4 test leans on a feeling-display stereotype that the self-preservation Four does not fit. Seven is never tested, though Seven-shared reframing is counted as Three evidence. Two counter-indicating self-reports are absorbed as Three self-deception. And the 60-word answer cites only behavior that fits 9 and 2 equally. The packet already contains better discriminators: accommodation that advances his own agenda (S43; Hao p. 240), the importance of the CEO title, \"I felt a little useless,\" and covert sidelining rather than open confrontation. These findings ask the editor to use them, not to change the type. Risk flags are confirmed: the sister's lawsuit and the teenage assault are sensitive, the typing is contested across 3, 4, 8, 9 and 7, and the 4-to-3 move is a major thesis change, so the expanded jury is warranted. Similarity: nothing tripped. The top match (0.058, Jonathan-Bailey) shares only ordinary type vocabulary and makes a different argument, so it is not meaningful reuse. The generic \"A Four tends to... A Three tends to... An Eight tends to...\" triad is addressed as reasoning in enneagram-02, not as reuse. Limitation: source context was judged from the opened excerpts in the evidence packet; the enneagram role did not reopen the sources independently."
+}

@@ -687,6 +687,10 @@
 	}
 
 	function handleTocClick(e: MouseEvent) {
+		// Modified clicks (new tab/window, download) keep the browser's default.
+		if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) {
+			return;
+		}
 		// Handle in-page scrolling when clicking TOC links
 		const link = getTocLink(e.target);
 		if (link?.hash) {
