@@ -373,37 +373,37 @@ RECAPTCHA_SECRET_KEY=
 
 Run via `pnpm <alias>` where available:
 
-| Command                                         | Purpose                                                                |
-| ----------------------------------------------- | ---------------------------------------------------------------------- |
-| `pnpm gen:types`                                | Generate TS types from blog frontmatter                                |
-| `pnpm gen:famous-types`                         | Generate famous-people type data                                       |
-| `pnpm gen:personality-image-map`                | Build personality → image slug map                                     |
-| `pnpm gen:sitemap`                              | Generate XML sitemap                                                   |
-| `pnpm gen:llms`                                 | Generate llms.txt                                                      |
-| `pnpm gen:corpus-stats`                         | Generate corpus stats                                                  |
-| `pnpm gen:crosslinks`                           | Cross-link report + link queue for blogs + people (`docs/crosslinks/`) |
-| `pnpm gen:crosslinks -- --target <url>`         | Sentences in live posts that mention a page but don't link it yet      |
-| `pnpm crosslinks:check`                         | Publish gate: live posts need 3+ in / 3+ out links, no broken links    |
-| `pnpm audit:links:jev`                          | Jev-judged link audit → `docs/crosslinks/jev-audit.md` (~$0.77/run)    |
-| `pnpm gen:search-index`                         | Index blogs into Supabase (guarded by env)                             |
-| `pnpm gen:all`                                  | Format + all generators + blog index                                   |
-| `pnpm gen:chorus` / `:force`                    | Generate chorus content                                                |
-| `pnpm gen:instagram-plan`                       | Build Instagram posting plan                                           |
-| `pnpm marketing:queue`                          | Check marketing content queue                                          |
-| `pnpm index:blogs` / `:dry` / `:force`          | Direct blog indexer (bypasses env guard)                               |
-| `pnpm push:people`                              | Atomically sync all local people drafts; insert missing unpublished    |
-| `pnpm push:people -- <Person> --sync`           | Atomically sync one reviewed existing people draft                     |
-| `pnpm push:people -- --insert-missing`          | Insert missing drafts without updating existing rows                   |
-| `pnpm regen:takes`                              | Regenerate per-type AI takes (comments_ai)                             |
-| `pnpm portrait:check`                           | Preflight personality portrait assets                                  |
-| `pnpm audit:people-seo` / `audit:people-corpus` | People SEO / corpus audits                                             |
-| `pnpm audit:blog-enrichment`                    | Blog enrichment status report                                          |
-| `pnpm audit:superlatives`                       | Pages ranking for 'which type is most X' searches they never answer    |
-| `pnpm gate:entities "Name" ...`                 | Wikipedia gate + autocomplete bio-intent probe for entity-gap scouting |
-| `pnpm supabase:normalize-personality-slugs`     | Normalize personality slugs in DB                                      |
-| `pnpm seo:normalize-internal-personality-links` | Rewrite internal personality links                                     |
-| `pnpm label-paths`                              | Annotate files with path comments                                      |
-| `node scripts/blog-image-variants.mjs <slug> <img>` | Build blog image variant set from a ChatGPT-generated image (free) |
+| Command                                             | Purpose                                                                |
+| --------------------------------------------------- | ---------------------------------------------------------------------- |
+| `pnpm gen:types`                                    | Generate TS types from blog frontmatter                                |
+| `pnpm gen:famous-types`                             | Generate famous-people type data                                       |
+| `pnpm gen:personality-image-map`                    | Build personality → image slug map                                     |
+| `pnpm gen:sitemap`                                  | Generate XML sitemap                                                   |
+| `pnpm gen:llms`                                     | Generate llms.txt                                                      |
+| `pnpm gen:corpus-stats`                             | Generate corpus stats                                                  |
+| `pnpm gen:crosslinks`                               | Cross-link report + link queue for blogs + people (`docs/crosslinks/`) |
+| `pnpm gen:crosslinks -- --target <url>`             | Sentences in live posts that mention a page but don't link it yet      |
+| `pnpm crosslinks:check`                             | Publish gate: live posts need 3+ in / 3+ out links, no broken links    |
+| `pnpm audit:links:jev`                              | Jev-judged link audit → `docs/crosslinks/jev-audit.md` (~$0.77/run)    |
+| `pnpm gen:search-index`                             | Index blogs into Supabase (guarded by env)                             |
+| `pnpm gen:all`                                      | Format + all generators + blog index                                   |
+| `pnpm gen:chorus` / `:force`                        | Generate chorus content                                                |
+| `pnpm gen:instagram-plan`                           | Build Instagram posting plan                                           |
+| `pnpm marketing:queue`                              | Check marketing content queue                                          |
+| `pnpm index:blogs` / `:dry` / `:force`              | Direct blog indexer (bypasses env guard)                               |
+| `pnpm push:people`                                  | Atomically sync all local people drafts; insert missing unpublished    |
+| `pnpm push:people -- <Person> --sync`               | Atomically sync one reviewed existing people draft                     |
+| `pnpm push:people -- --insert-missing`              | Insert missing drafts without updating existing rows                   |
+| `pnpm regen:takes`                                  | Regenerate per-type AI takes (comments_ai)                             |
+| `pnpm portrait:check`                               | Preflight personality portrait assets                                  |
+| `pnpm audit:people-seo` / `audit:people-corpus`     | People SEO / corpus audits                                             |
+| `pnpm audit:blog-enrichment`                        | Blog enrichment status report                                          |
+| `pnpm audit:superlatives`                           | Pages ranking for 'which type is most X' searches they never answer    |
+| `pnpm gate:entities "Name" ...`                     | Wikipedia gate + autocomplete bio-intent probe for entity-gap scouting |
+| `pnpm supabase:normalize-personality-slugs`         | Normalize personality slugs in DB                                      |
+| `pnpm seo:normalize-internal-personality-links`     | Rewrite internal personality links                                     |
+| `pnpm label-paths`                                  | Annotate files with path comments                                      |
+| `node scripts/blog-image-variants.mjs <slug> <img>` | Build blog image variant set from a ChatGPT-generated image (free)     |
 
 ## Common Tasks
 
