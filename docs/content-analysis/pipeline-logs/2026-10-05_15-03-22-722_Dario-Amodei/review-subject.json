@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "subject",
+	"content_sha256": "e9fa2dc8670bd45011ce2d7e18f8165f656aad97774c3d88e417f72627a6804d",
+	"evidence_sha256": "f201c873eae08efdfc51302ca442790a87a921f68218dd1c5b2dfaa664b00776",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": true
+	},
+	"findings": [
+		{
+			"id": "subject-01",
+			"severity": "major",
+			"passage": "The most serious alternative may not be a type at all. Threat-modeling and calls for regulation are an AI-safety chief's job, and critics read them as strategy.",
+			"problem": "The paragraph runs the strongest charge against his motives (Palihapitiya: he wants to \"concentrate enormous technological and economic power with Anthropic\"; AFP: \"a skilled operator willing to exploit collective fears\") and answers it only with a narrow fact-check (\"the essay never mentions open source\"). His substantive on-record replies to this exact charge sit in sources the page already cites and are omitted. 60 Minutes transcript (S56, the hook's source): Cooper: \"Some people say about Anthropic that this is safety theater, that it's good branding. It's good for business. Why should people trust you?\" Amodei: \"So some of the things just can be verified now. They're not safety theater.\" His August 15, 2026 X post (S10, linked elsewhere on the page) says the Pacing the Frontier letter, as Anthropic would implement it, means \"modulating the pace of the very best models while not constraining those who are catching up\" and argues that the \"regulation = regulatory capture = concentration of power\" frame underrates fair institutional processes. The pacing essay (S09) acknowledges being \"accused of hype, 'doomerism', or regulatory capture.\" A reader gets the accusation with no reply from the accused.",
+			"acceptance_test": "Next to the critics' charge, the article quotes at least one of his on-record replies in context, with date and link. The August 15 \"not constraining those who are catching up\" line answers the power-concentration claim most directly; date it correctly as a month before Palihapitiya's post, not as a reply to it. The page does not rule on who is right. A new or updated claim in evidence-edit.json cites S10 and/or S56 with the exact passage."
+		},
+		{
+			"id": "subject-02",
+			"severity": "major",
+			"passage": "Within OpenAI, Kantrowitz reports, some saw his safety focus \"as a route to control the company altogether,\" and before he left, per the Journal, he would accept nothing less than reporting directly to the board.",
+			"problem": "Both halves are stripped of the context their sources give. (a) In Kantrowitz's profile (S01, reopened), this sentence leads straight into Jensen Huang \"echo[ing] these criticisms\" and Amodei's rebuttal: \"I've said nothing that anywhere near resembles the idea that this company should be the only one to build the technology,\" along with his stated aim of a \"race to the top.\" The draft quotes only \"an incredible and bad faith distortion,\" two sections earlier and attached to Huang alone, so here the control charge stands unanswered. (b) In the WSJ (S13, reopened via To Vima), the board demand was his answer when \"Altman went over to Dario's house to ask him to stay\" at the end of 2020. That came after a blowup in which Altman accused the siblings of plotting against him. They denied it, the executive Altman cited said she had no idea what he meant, and Altman then denied saying it. It also came after a 2019 arrangement in which Dario reported to Altman. In that context, refusing to report to Altman reads at least as plausibly as a trust condition (the page's own thesis) as a grab for control. The draft gives neither the context nor, in this section, the Journal's unnamed sourcing.",
+			"acceptance_test": "The control paragraph (1) states that Amodei rejected this charge, quoting the \"only one to build the technology\" rebuttal (or an explicit pointer back to it), dated to Kantrowitz's 2025 interview; (2) gives the WSJ context in a clause: Altman asked him to stay after the plotting accusation the siblings denied, and he would accept nothing less than reporting to the board instead of to Altman; (3) labels this as the Journal's account from unnamed sources. The control question may stay open, but the reader can see both readings."
+		},
+		{
+			"id": "subject-03",
+			"severity": "major",
+			"passage": "Several accounts suggest recognition mattered to him in a way neither Five nor Six centers. Berry, whose lab he worked in, called him \"kind of a proud person.\"",
+			"problem": "The recognition strand quotes its witnesses selectively. Olivier Marre is quoted earlier to weaken Type 1, but his next lines in the same AFP piece (S14, reopened) bear on recognition directly and are left out: \"Dario was ambitious, eager to succeed and be recognized for it, but not excessively or abnormally ... He wasn't a megalomaniac who crushed others.\" Berry's actual words (S01, reopened) are \"I think internally, he was kind of a proud person ... I imagine his whole academic career up until that point, whenever he did something, people would stand up and clap.\" That is his guess, framed around Kantrowitz's report that Berry called him his most talented graduate student and that his focus on teamwork clashed with a system that rewards individual achievement. Dropping \"internally\" and the \"I imagine\" framing turns a guess into a verdict. In the WSJ Obama anecdote (S13), Brockman had asked Dario to double-check a fact on the slides for the meeting he was then excluded from, and the Journal calls it \"one such slight.\" The draft omits that and does not restate the unnamed sourcing. The evidence record says the article hedges ('Three accounts suggest') and labels Berry's line as a guess (C23, C73), but the draft does neither.",
+			"acceptance_test": "(1) Marre's \"not excessively or abnormally\" qualifier appears beside the recognition evidence. (2) Berry's line keeps \"internally\" or is explicitly presented as his impression or guess. (3) The Obama anecdote includes the slide fact-check context and is labeled as the Journal's account from unnamed sources. (4) The C23, C73 and C121 inference text matches what the article actually says."
+		},
+		{
+			"id": "subject-04",
+			"severity": "major",
+			"passage": "Four days after the apology, Anthropic sued.",
+			"problem": "The draft quotes the conciliatory lines of the March 5 statement (\"the tone of the post\", \"much more in common with the Department of War\") and then gives the lawsuit as the next beat. A reader can infer a reversal or an insincere apology that the record does not show. The same March 5 statement (S57, reopened) says: \"we do not believe this action is legally sound, and we see no choice but to challenge it in court.\" On February 28 he told CBS (S15), \"when we receive some kind of formal action ... we will challenge it in court.\" The suit was announced follow-through, not a turn. This also bears on the type argument, because the \"heat, and then repair\" reading rests on this statement and the repair covered the post's tone, not the dispute. The evidence record (C177 alternative, C52) misses that the statement announced the litigation.",
+			"acceptance_test": "The Pentagon passage says the March 5 statement itself announced the court challenge (quoted and linked), so the March 9 suit reads as follow-through. The \"heat, and then repair\" sentence limits the repair to tone, not the dispute. C177 and C52 in evidence-edit.json record the statement's court-challenge line."
+		},
+		{
+			"id": "subject-05",
+			"severity": "major",
+			"passage": "It is, he added, \"an incredible advantage because I never feel like I'm alone.\"",
+			"problem": "The page's central type tell rests on words from a local whisper machine transcript with no speaker labels and approximate timestamps. That tell is that he \"used the word again\" (\"freeing\" twice), plus \"3,000 people who are on the same page as me\" and \"I never feel like I'm alone\" (S59, C179). The same applies to the S40 quotes that carry the exit rule and the peer-trust sorting (C181, C182, C185, C194). The research record marks a human re-listen as REQUIRED before publication, and the draft-stage re-download failed (HTTP 403). This reviewer's caption pull was also blocked (YouTube IP block), so the wording is still unchecked. Putting unverified words in a living subject's mouth at the center of a public retype is the largest residual fairness risk. A small fidelity slip is also visible against the transcript itself: it reads \"And I think it's an incredible advantage,\" and the draft's \"It is, he added\" drops his \"I think.\"",
+			"acceptance_test": "Before release, a human re-listen is recorded in the S59 and S40 locators: S59 at about 31:58-32:47, and S40 at about 6:45, 9:02-9:40 and 27:00. Each quoted clause is confirmed verbatim or corrected in both the article and the claim passages. The C179 lead-in keeps his \"I think\" hedge. If the check cannot be done, the release holds. Alternatively, the article drops the quotation marks from those lines and stops building the \"used the word again\" argument on unverified wording."
+		},
+		{
+			"id": "subject-06",
+			"severity": "minor",
+			"passage": "Rules like that also bind his rivals, so they are strategy as well as conviction.",
+			"problem": "Three sentences state strategic motive or self-exemption in the author's voice, without a source, turning critics' readings into page findings. (1) This sentence asserts strategy as fact. (2) \"He sorts the field by trust and wants rules for everyone else\" implies a double standard. But his quote asks that the untrustworthy \"adopt the same standards,\" which assumes the trustworthy already follow them. In the same answer (S40) he names trustworthy players outside Anthropic, and the paragraph before shows him putting Anthropic inside the principle. (3) \"The pledge doubled as a credential for a company that had confidentially filed for an IPO in June\": no source links the evaluator pledge to the IPO, and the evidence record itself calls this \"A reading, not a sourced statement of motive\" (C153).",
+			"acceptance_test": "Each of the three sentences is either attributed to a named source that makes the point, or framed visibly as the page's reading. Examples: \"can serve strategy as well as conviction\"; \"arrived three months after a confidential IPO filing, which gave it commercial value too.\" \"For everyone else\" is replaced with wording faithful to \"the same standards.\""
+		},
+		{
+			"id": "subject-07",
+			"severity": "minor",
+			"passage": "Why Dario Amodei Can't Stop Building the Thing He Fears Most",
+			"problem": "The inherited title and meta_title claim two things no source supports: compulsion (\"can't stop\") and a ranking of fears (\"fears most\"). The body contradicts the first. It says he \"will not stop\" and lays out his stated reasons (\"Not building the technology deprives humanity of benefits...\"). Since September 2026 he has also committed Anthropic to slowing capability gains, while saying pacing is not halting, so \"can't stop\" now misdescribes a deliberate, argued position. The description (\"keeps building the AI he warns about\") is accurate. The title is the most widely shown claim on the page.",
+			"acceptance_test": "Title and meta_title drop the compulsion framing and the unsourced \"fears most\" while keeping the curiosity hook. Example: \"Why Dario Amodei Keeps Building the AI He Warns About\" (53 characters, within the 35-65 meta_title range). If the editor keeps the title for ranking under head_term_exception, the resolution names a source where he describes AI as what he fears most and explains why \"can't stop\" is not a compulsion claim."
+		},
+		{
+			"id": "subject-08",
+			"severity": "minor",
+			"passage": "A document-first, time-guarding style is not evidence of any diagnosis, including autism.",
+			"problem": "Real search demand exists (GSC: \"is dario amodei neurodivergent\" and \"autistic\" variants), so a plain non-claim helps readers. But this sentence puts a clinical label next to a description of his habits, and it closes \"The case for Type 5,\" so Five traits read as adjacent to autism even inside a denial. The research notes ask for the bare non-claim only: no diagnosis is described in the reviewed record, and the page infers none.",
+			"acceptance_test": "The paragraph keeps only the factual non-claim, for example: \"None of the interviews, essays, profiles and posts reviewed for this page describe any diagnosis, and this page infers none.\" No sentence links his working style or Five traits to any diagnosis. If moved, it does not sit as the conclusion of the Type 5 case."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Both disclosures arrived as evidence inside arguments, and this page reads nothing further into them.",
+			"reason": "Exemplary restraint with a living subject's health disclosures (his father's hepatitis C, his own cancer). It reports what he chose to say and declines to psychologize it."
+		},
+		{
+			"passage": "(OpenAI declined to comment to Wired; its stance, the magazine noted, is that safety has been a constant.)",
+			"reason": "Puts the other party's position right beside his account of leaving OpenAI. This is the model the missing-response findings ask the rest of the page to follow."
+		},
+		{
+			"passage": "One episode weighs against reading control as the point, as a Type 8 reading would: in November 2023, after OpenAI's board fired Altman, board members asked whether Amodei would merge the companies with himself as CEO, and he shut the discussion down.",
+			"reason": "A concrete, sourced counterweight to the control charge that a less fair profile would leave out. Keep it when the control paragraph is expanded."
+		},
+		{
+			"passage": "Whether he would accept that structure when it cost him control is the part the record leaves open.",
+			"reason": "States the limit of the inference plainly, without resolving the tension in his favor or against him."
+		},
+		{
+			"passage": "Anthropic told AFP he has repeatedly said he does not identify as part of the EA community.",
+			"reason": "Gives the subject's side on a label often applied to him, attributed and sourced, without overruling the milieu point."
+		}
+	],
+	"assessment": "Subject-fairness proxy. This review does not speak for Amodei. The draft is careful in most places. It attributes the OpenAI-exit account to him and gives OpenAI's stance, labels the WSJ's unnamed sourcing at first use, declines to read into his health disclosures, keeps the Jade Wang FAQ within her on-record testimony as the owner's protect decision requires, fact-checks Palihapitiya, carries Anthropic's EA denial, and leaves control unresolved with the 2023 merger refusal as a counterweight. Its weak points are where adverse material lacks his on-record reply or the source's own context: critics' 'strategy/power' charge runs without his answers (60 Minutes 'not safety theater'; August 15 'not constraining those who are catching up'). The control paragraph separates Kantrowitz's charge from his rebuttal and strips the WSJ board demand of its context (Altman asked him to stay after a plotting accusation the siblings denied). The recognition strand quotes Marre selectively, drops Berry's hedge and omits the Obama slide context. The apology-then-lawsuit sequence leaves out that the same March 5 statement announced the court challenge. A few author-voice lines turn critics' readings into page fact. The retype's central tell still rests on machine-transcribed quotes awaiting the required human audio check, the biggest residual risk of misquoting a living subject. Sources reopened for this review: WSJ via To Vima (full text), Big Technology profile (full text), AFP via reader proxy, 60 Minutes transcript, Anthropic's March 5 statement, plus the research-stage cached copies of the February 28 CBS transcript and Wired. Could not open The Atlantic (Cloudflare block) or the Bloomberg captions (YouTube IP block), so Roose's sourcing, any OpenAI reply in that piece, and the S40/S59 wording are unverified here. Risk flags: sensitive allegations, contested typing and a major thesis change (5 to 6) all hold. No new risk category is added; the six-role jury is already in force."
+}

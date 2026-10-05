@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "Dario-Amodei",
+  "mode": "refresh",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/verification-edit.json"
+  },
+  "content_sha256": "502304fb80d685baaac03ce5f54490023631d4253ea7d5f4258f496471177729",
+  "evidence_sha256": "361ad89e4a1049fc9d7a612766c00a0f64891db07f869beb9f4f10ab783a4370"
+}

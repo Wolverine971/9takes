@@ -2,6 +2,7 @@
 
 <script lang="ts">
 	import { Button } from '$lib/components/atoms';
+	import { MAILING_ADDRESS } from '$lib/constants/contact';
 	import twitter from '$lib/images/twitter.svg';
 
 	let showEmail = $state(false);
@@ -347,6 +348,13 @@
 				</p>
 			</div>
 		{/if}
+		<address class="mailing-address">
+			<strong>Mailing address</strong><br />
+			9takes<br />
+			{MAILING_ADDRESS.streetAddress}<br />
+			{MAILING_ADDRESS.addressLocality}, {MAILING_ADDRESS.addressRegion}
+			{MAILING_ADDRESS.postalCode}
+		</address>
 	</section>
 </div>
 
@@ -879,6 +887,13 @@
 	.email-info p {
 		margin: 0;
 		font-size: 1rem;
+	}
+
+	.mailing-address {
+		margin-top: 1.5rem;
+		color: var(--ink-mid);
+		font-style: normal;
+		line-height: 1.6;
 	}
 
 	@media (max-width: 900px) {

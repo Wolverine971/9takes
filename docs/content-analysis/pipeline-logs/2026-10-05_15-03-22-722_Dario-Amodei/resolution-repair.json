@@ -1,0 +1,383 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Fixed. The strategy paragraph now gives his on-record replies beside the charge: the 60 Minutes 'So some of the things just can be verified now. They're not safety theater.' (S56, re-opened, C224) and the August 15, 2026 X line 'modulating the pace of the very best models while not constraining those who are catching up', dated as a month before Palihapitiya's post (S10, C225). It also adds that the essay asks governments to require rivals to match and anticipates the regulatory-capture charge (C131). The page does not rule on who is right."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Fixed. The control paragraph now quotes his rebuttal to Huang, dated 2025 ('I've said nothing that anywhere near resembles the idea that this company should be the only one to build the technology', C35). It gives the WSJ context: Altman came to his house at the end of 2020 to ask him to stay, he had reported to Altman since 2019, and Altman had accused the siblings of plotting, which they denied (S13, re-read, C78). It labels the Journal's unnamed sourcing and states both readings (trust condition or bid for control, C227)."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Fixed. Marre's 'ambitious, eager to succeed and be recognized for it, but not excessively or abnormally' now sits beside the recognition evidence (S14, C228). Berry's line keeps 'internally' and is presented as his impression (C73). The Obama anecdote gives the slide fact-check context and the Journal's 'one such slight', in a paragraph that labels the Journal's sourcing (C121). The C23/C73/C121 inference text matches the article. Repair (verify-02): the recognition paragraph's own Journal sentence now carries the label ('The Journal, citing unnamed sources, reports ...'), so the Obama anecdote is labeled where it appears."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Fixed. The Pentagon passage now quotes the March 5 statement's own line that Anthropic saw 'no choice but to challenge it in court' (S57, re-opened, C212), and says the suit four days later means 'the apology covered tone, not the dispute' (C213). C177 records the court-challenge line. The 'heat, and then repair' generalization is cut."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Fixed by the finding's alternative branch. Every S59/S40 machine-transcript quotation is now an attributed paraphrase without quotation marks (C179, C181, C185, C208). His 'I think' hedge is kept as 'He thinks'. The type section no longer says his vocabulary 'marks the fork'; the 'freeing' pair is illustration, and the argument rests on opened, mostly pre-2026 sources (C235, C79, C187, C174, C198). The human re-listen could not be done at the edit stage (YouTube IP block; audio HTTP 403). The verify stage then re-transcribed the archived audio with a second model, and both transcripts agree on every paraphrased clause. A human listen is still required before any S40/S59 words return to quotation marks, and research_tasks records the publish-step precondition for the paraphrase-only text: log that listen or record an explicit owner decision (verify-05). Repair: the S59 paraphrase now names Bloomberg's Emily Chang as the interviewer (C179); the S40 exit-rule paraphrase reads 'In a June 2026 interview, he told Chang' (C181)."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Fixed. (1) 'so they are strategy as well as conviction' is now 'so they can serve strategy as well as conviction', the page's reading (C161). (2) 'He sorts the field by trust and wants rules for everyone else' and its S40 paraphrase are cut. (3) 'The pledge doubled as a credential' is now 'The pledge arrived three months after Anthropic confidentially filed for an IPO in June 2026, which gave it commercial value too' (C153)."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Fixed. The title and meta_title are now 'Why Dario Amodei Keeps Building the Thing He Fears' (50 characters). This drops the compulsion ('Can't Stop') and the unsupported ranking ('Most') and keeps the existing curiosity phrasing. 'Fears' is supported by his own words (GPT-2 'terrified him', Wired; 'I worry a lot about the unknowns', 60 Minutes) (C234)."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Fixed. The diagnosis sentence is removed from the body. The bare non-claim now sits in an FAQ, 'Has Dario Amodei described any neurodivergence?', which says no diagnosis is described in the reviewed record and the page infers none (C59). No sentence links his working style or Five traits to any diagnosis."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Fixed. The pacing section now opens with the mid-2021 held-back model and his 'one-off ... not sustainable' verdict (Wired, March 28, 2025; C230), then the July 2025 'so that we don't have to slow down' line with its stated condition (Big Technology Podcast, July 30, 2025; C231). It says the 2026 turn reads 'less like a reversal than like his 2025 condition being invoked' (C138), with the public-pressure context beside it (C233). Quotes were checked against local captures of S03/S02."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Fixed. The opening now quotes the essay's next sentence: Anthropic's answer is 'a race to the top' that makes 'safety something on which AI companies compete' (S09, C199). The father section no longer says the essay 'adds' authoritarian powers; it now reads 'It is his personal reason to keep building; the race to the top is his strategic one' (C72). The keep-building FAQ adds the race to the top and Chris Olah's frontier premise (S03, C200). Critics' reading sits in the strategy paragraph."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Fixed. The Lex paragraph now says he framed the answer as one that 'ties to the race to the top' and that if your vision is compelling 'people will copy it' (S06, 01:31:13 and 01:33:52; C25). The inference is narrowed: 'Most of that answer concerns vision and influence by example, which a Five or a strategist could give. Trust is one clause' (C118)."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Fixed. The Gulf line now gives its context and his stated reason. Within Anthropic, Kantrowitz reports, he argued that Gulf states' capital would help keep the company at the frontier, and the Slack message was obtained by Wired. His 'Unfortunately' is kept, and the paragraph relates the episode to his authoritarian-powers rationale ('The same man counts keeping AI from authoritarian powers among his reasons to build') (S01, C31)."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Fixed. The 'heat, and then repair' generalization is cut. The March 5 statement now appears only as a tone apology alongside the announced court challenge (C177, C212, C213). The article no longer treats repair as a Five-versus-Six discriminator; C64 is removed."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Fixed. The G7 paragraph adds that in 2025 he pushed for chip export controls on China, and that his 2024 essay wanted a 'coalition of democracies' to deny adversaries chips (S01, S02, S07; C217). This sets the June 2026 directive against that background. The optional WSJ 'treason' episode is not added, for length."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Fixed. The OpenAI paragraph now adds: the Google Brain paper on AI's potential for bad behavior; his role in pioneering the human-feedback training used on GPT-2; GPT-2 'terrified him' with the staged-release 'signpost' quote (Wired, March 28, 2025); and, per the Journal, vice president of research by 2019 (S01, S03, S13; C111, C202). 'The man who warns about scaling did much of the scaling' stays. Repair: the colleague-memo sentence in that paragraph now names its source ('In Kantrowitz's account'), because it followed a Wired attribution and read as Wired's."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Fixed. His estimate stays as he said it. The cure section adds 'Sofosbuvir won U.S. approval in December 2013, about seven years after his death' without commenting on his accuracy (S49, C201), and the father FAQ adds the same date. The heading keeps 'a few years' in quotation marks as his phrase."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Fixed by cutting the generalization. No sentence presents the apology as evidence of a general repair pattern. The March 5 statement now carries its court-challenge line, and the apology is limited to tone (C212, C213). The paraphrased 'completely at peace' line is not added, because it is an unverified S40 transcript."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Fixed. The paraphrase now includes the 'keeps the company's position consistent under outside challenge' clause and his hedge (C179). The 'two freedoms' paragraph now says one word can't decide the case because both arrangements spare him one-on-one demands (a Five's economy of attention). It points to the specific clue: the time he guards is routed through his sister (C188, C187). The human re-listen could not be done at the edit stage (YouTube IP block; audio HTTP 403). The verify stage then re-transcribed the archived audio with a second model, and both transcripts agree on every paraphrased clause. A human listen is still required before any S40/S59 words return to quotation marks, and research_tasks records the publish-step precondition for the paraphrase-only text: log that listen or record an explicit owner decision (verify-05). Repair (verify-01): the routing through his sister now sits in its own 'later clue' paragraph just before this answer, so the fine-print line still follows directly from it."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Fixed. The 'Five meets rising danger by pulling back to think / he gets louder' contrast is cut, along with the section built on it. The 60 Minutes 'predict everything we can' line is removed from the Six column (C190 removed). The S40 cold-open stance is added as attributed paraphrase in the Type 5 section: never slept well; paranoia unproductive; respond rationally, keep dangers in proportion, stay basically calm; drawn from studying people in history. It is presented as separate montage statements and weighed as Five-coded (C208, C209). It is also on the audio-check list."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Fixed. The counterphobic label is cut. The paragraph now says the defiance-plus-loyalty pattern 'fits a Six, but it fits a One's principled stand and ordinary litigation strategy too'. It gives the incentive reading for the patriot and common-ground lines ($200 million military contract and all federal business at stake; S18, S19, S20) (C88)."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Fixed. The pacing section now cites Axios: the essay landed amid 'public and congressional outrage' after an Anthropic employee's very public resignation, and 'Anthropic itself has gone back and forth on the value of unilaterally slowing development' (S41, C233). It also gives his July 2025 stance (C231). The final Six sentence now begins 'Whatever mix of conviction and pressure drove the 2026 turn', so it holds even if the turn was partly reputational."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Fixed. 'Either way ...' is replaced by two explicit readings. The exit is 'a long test of other people's word' or a researcher with leverage negotiating from strength, and the group exit was Kaplan's idea. 'Both fit the same steps, and a Five's exit, over ideas or autonomy, would share some of them' (C144, C115). The remaining lean is stated narrowly: 'Roose's detail favors Six: what he kept a record of was being misled' (C236, reworded at repair to drop the recurring 'What leans Six' frame, verify-04), with his June 2026 exit rule as paraphrase (C181)."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Fixed. The milieu paragraph now concedes that milieu and commercial stakes can explain much of his 2026 talk of trust. It then says they explain less of the earlier record, which came before the IPO filing and the fights with Washington: the OpenAI exit, the 2021 equity split and the 2022 'trust and common purpose' line, said before Anthropic had a product (C133, C237). Repair (verify-04): reworded from 'The Six reading leans instead on what came earlier' so the section ends on what the alternative fails to explain. The Chamath sentence adds that the essay asks governments to require rivals to match and anticipates the regulatory-capture charge (C131)."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Fixed in part and justified in part. The sentence is now attributed: 'The lesson he draws from his father's death is that delay has a body count' (C72), and the sofosbuvir approval date is stated (C201). The Jade Wang FAQ is kept verbatim for a specific owner-level reason: docs/content-analysis/entity-gaps/Dario-Amodei.md (recommended_action: protect, do_not_optimize: true) audits that FAQ as within her on-record testimony and 'worth preserving exactly as-is', and the research task carries that rule."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Fixed. The diagnosis paragraph is cut from the body, so a newcomer meets no diagnosis term attached to his work style. The non-claim moves to an FAQ phrased as the searched question (C59)."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Fixed. The Pentagon section now glosses 'the Department of War' once (C238). It dates the ban and designation to February 27 directly and introduces OpenAI's same-day deal before the staff post (C51, C210). Before the court outcome it says the government relied on two separate designations, then which court ruled on which: a San Francisco federal judge ruled one unlawful on August 27, 2026, and a divided D.C. appeals panel upheld the other on September 25 (S22, S23, C214). Repair (verify-04): the section is now five shorter paragraphs in date order: the February 26 refusal and the Pentagon's position; the February 27 order, designation and OpenAI deal, then the February 28 CBS lines; the March 5 apology, court line and the suit four days later; the two designations and the split rulings, each in its own sentence, with the spokesperson's September 25 statement; then the incentive readings; then the June 12 directive, the G7 lunch and the June 30 lift. Every dated fact is kept."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Fixed. The directive clause now says it barred any foreign national, including Anthropic's own foreign-national employees, from the two newest models, and that the company switched them off for all customers to comply (S24, S61, C53). The issuing authority is given as 'a government export-control directive', as the opened statement words it. The FAQ matches."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Fixed. 'Less composed' is now tied to his own apology for the post's tone ('By his own account'). The article does not characterize the post's contents, because the statement does not quote it and the WSJ identification is an inference. It adds that the statement also announced the court challenge and that the suit four days later means the apology covered tone, not the dispute (C177, C212, C213)."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Fixed. The revision note is removed from the type section and appears once, in the Type 5 section, with an absolute month: 'Until October 2026, 9takes typed him as a Five' (S62, C239). 'This page' now appears twice in the body, both in protected passages."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "rejected",
+      "reason": "Rejected on the 3,700-word target only. The other 49 findings required substantive additions (his replies to critics, WSJ and Wired context, pacing history, court dates, the June 30 lift, the One and Three tests). To offset them the edit cut the repeated 'doesn't decide' caveats, the 'speak up louder' section, the nuclear-deterrent aside, the Karnofsky debate, the trust-sorting paraphrase, the culture-time clause and the Five-section recap. Each alternative section adds new facts (Type 5: the montage stance; One: 'strident sense' and the motive-level anger test; control/recognition: Huang rebuttal, WSJ context, Marre's qualifier, Type 3). The 'doesn't decide' caveat is stated in full once (the protected 'Neither set of habits' line). The body was 4,323 words at edit, and the verifier accepted this rejection. Repair (2026-10-05): splitting the Washington sentences and adding the requested source labels (unnamed-source label, Bloomberg's 'testing' framing, Emily Chang and Kantrowitz named) brings it to 4,367 words by the contract count, still within the 4,500 release limit. Merging the 'What leans Six' verdict paragraph removed repetition rather than evidence."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Fixed. The keep-building FAQ anchor now points to a-cure-that-came-a-few-years-late, which holds the father material and the personal-versus-strategic reason. The 'obligated to warn' quote now names its source and date in the answer ('said on the Big Technology Podcast in July 2025')."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Fixed. His quotes stay as they are. One clause gives the dated record: 'Sofosbuvir won U.S. approval in December 2013, about seven years after his death' (S49, C201)."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Fixed. (a) The S59 and TechCrunch-placed wording is no longer quoted from the machine transcript; the S59 answer is paraphrased pending the human re-listen kept in research_tasks. (b) The paraphrase includes the 'consistent position under outside challenge' framing. (c) The two freedoms are now illustration ('One word can't decide the case'), the type section opens on named costly choices (C235, C79, C187), and 'marks the fork' is gone. (d) The one-direct-report fact now notes that the executive team reports to Daniela, so it is not assigned wholly to Five (C187, C188). (e) The Type 5 FAQ changes in step (C101). Repair (verify-01): of the costly choices in (c), only Roose's record and the 2021 equity split are presented as pre-fame; the June 2026 routing (d) is introduced as a later clue with Bloomberg's 'testing' framing. The paraphrase in (a) now names Bloomberg's Emily Chang as the interviewer."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Fixed. The 'judgment, not footing' distinction is cut. The Type 5 section now says that by the page's own test the 2023 quote, writing to clarify his thinking, time protection and his calm/proportion stance are Five facts. It argues that the costlier choices, whom he built around and how he left, run the other way (C196). Culture time is no longer counted as motive evidence; the clause is removed. Repair (verify-04): the sentence now reads 'His costliest choices, whom he built around and how he left, run the other way', without the 'The case for Six is that' frame."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Fixed. The section concedes that the leverage reading fits the same steps: he had run GPT-3 on half the company's compute, the group exit was Kaplan's idea, and a Five's exit would share some steps (C115). 'Each step is a bet on people' becomes one labeled reading (C144). The Lex close reading acknowledges the answer's emphasis on vision and influence by example (C118). The Type 5 FAQ no longer presents 'people you trust' as his account of his own exit (C101). Repair (verify-04): the section's lean is now worded 'Roose's detail favors Six: what he kept a record of was being misled' (C236), and the concessions are unchanged."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Fixed. 'What makes him angry' is removed from the Six pillars (C133). The One section now leads with its strongest datum, Kantrowitz's 'strident sense of the way things should be' (C221), and applies a motive-level test to the anger strand. A One's anger tracks what is wrong, a Six's alarm tracks betrayal and danger, and his recorded anger targets misrepresentation, which either would resent (C222). The modest tip rests on how he argues his lines (C85, C125, C89). The type answer now says Type 1 is 'close behind'. The S40 'don't do the right thing on their own' clause is not used, because it is unverified audio."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Fixed. The heat-and-repair sentence is cut. The OpenAI exit is described consistently as leaving when trust breaks, and the March apology appears with its legal context and limited to tone (C212, C213). The prudential and One readings are given in the Pentagon paragraph (C88)."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Fixed. The counterphobic label is cut. The Pentagon paragraph no longer counts defiance and loyalty as Six evidence without a discriminator; its wording matches C88's 'consistent with' ('fits a Six, but it fits a One's principled stand and ordinary litigation strategy too')."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Fixed. The volume contrast and the Mensch-like 'Five retreats' frame are removed from the article. The 60 Minutes worry quote leaves the type argument. The stress evidence is weighed in the Type 5 section as cutting both ways (C208, C209). The Arthur-Mensch follow-up note in research_tasks now also warns against reusing that frame."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "Fixed. One verification rule now applies to every machine-transcribed line: all S40/S59 material is attributed paraphrase awaiting the same human re-listen. Under that rule the S40 stress stance is added (never slept well; paranoia unproductive; respond rationally, keep dangers in proportion, stay basically calm). It is paraphrased without reconstructing the montage's question and weighed against the Six claim (C208, C209). The 'he fell back on people' sentence is replaced. Repair: C208's montage paraphrase is unchanged. The verify stage's second-model transcript agrees with it, and the human listen remains required before any quotation is restored (verify-05)."
+    },
+    {
+      "finding_id": "enneagram-09",
+      "action": "fixed",
+      "reason": "Fixed. The 60-word answer and its FAQ mirror now say he 'proposes rules that would bind everyone, his company included' (59 words), consistent with the open closing question (C191). The opening thesis says 'rules he says should bind his own company' (C192)."
+    },
+    {
+      "finding_id": "enneagram-10",
+      "action": "fixed",
+      "reason": "Fixed. The trust paragraph now names the professional-vocabulary alternative and the founder-prudence concession together: 'But trust is also AI safety's working vocabulary, and choosing trusted co-founders is ordinary prudence that a Five would share. The clearer evidence is how much of his footing he places with the people closest to him' (C206, C193). Daniela's on-record account follows and ends the section. The weight is on where he places his footing, not on how long the word has persisted. Repair (verify-04): the separate 'What leans Six is how much of his footing...' verdict paragraph is merged into this one."
+    },
+    {
+      "finding_id": "enneagram-11",
+      "action": "fixed",
+      "reason": "Fixed. The recognition paragraph names the recognition-centered reading, Type 3, and gives the sourced reason it fails: his deliberate 2023 low profile and his embarrassment at his new station (S60, S55; C229)."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Fixed in the evidence record. C142 and C162 are now 'unresolved' with review triggers naming the nearest dated catalyst: the public S-1 governance terms around the week of Nov. 9, 2026 (super-voting shares; the Long-Term Benefit Trust's board role), whether the embedded evaluators are in place and publishing unedited findings, and whether the pacing commitment survives a competitive release. C30's trigger now adds either IPO outcome as dated evidence and forbids deleting the clause."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Fixed. The section adds 'The controls were lifted on June 30, and Claude Fable 5 returned to users worldwide on July 1', sourced to Anthropic's June 30, 2026 post (opened at this stage, new source S61, C218, corroborated by S27). The G7 FAQ adds 'The controls were lifted on June 30, 2026' (C103). C53 and C103 cite S61. No Mythos 5 detail is added."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Fixed with the release precondition kept. The type section now opens on named, dated costly choices from opened sources: Roose's account of the record he kept at OpenAI and the 2021 equal-equity decision (Cheeky Pint, 2025), the two made before he was famous (C235, C79). Repair (verify-01): the June 2026 executive team routed through his sister now follows in its own paragraph as a later clue, with Bloomberg's framing that Anthropic was testing the setup (TechCrunch, Bloomberg; C187). Deleting the 'freeing' paragraphs leaves that fork in place. C179 and the Type 5 FAQ now paraphrase rather than quote. The human re-listen could not be done at the edit stage (YouTube IP block; audio HTTP 403). The verify stage then re-transcribed the archived audio with a second model, and both transcripts agree on every paraphrased clause. A human listen is still required before any S40/S59 words return to quotation marks, and research_tasks records the publish-step precondition for the paraphrase-only text: log that listen or record an explicit owner decision (verify-05)."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Fixed. 'For a decade' is now 'Since he joined OpenAI in 2016' (C192). No body duration is measured from the writing date."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Fixed. The retype is disclosed once, with an absolute month and no deixis: 'Until October 2026, 9takes typed him as a Five' (C239, with a time_sensitive trigger in case publication slips). 'This page' appears twice in the body."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Fixed. (1) 'In July 2025 he called himself \"one of the most bullish...\"' (C41 now time_sensitive, with a trigger for when his forecasts come due). (2) The court rulings are named and dated: a San Francisco federal judge on August 27, 2026, and a divided D.C. appeals panel on September 25 (C214). (3) 'confidentially filed for an IPO in June 2026'. (4) The 'next year' phrase was removed with the 'same page' clause it belonged to. Repair (verify-03): the litigation status is now dated to the spokesperson's statement after the September 25 ruling ('After that ruling, an Anthropic spokesperson told CNBC ...'), not 'As of early October 2026'; C52 keeps its trigger."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "Fixed. C139's trigger now names passages that exist ('His pacing turn has a history.' and the September 2026 'I have become convinced' sentence, C42) and a concrete condition. C67's trigger now lists the title, meta_title, description, keep-building FAQ and 'Anthropic CEO' keyword alongside the orientation sentence."
+    },
+    {
+      "finding_id": "verify-01",
+      "action": "fixed",
+      "reason": "Fixed. The lead now reads 'The Six reading rests first on costly choices, two of them made before he was famous', followed by Roose's account of the record he kept at OpenAI and the 2021 equal-equity decision (C235, C79). The June 2026 routing through his sister moves to its own paragraph, introduced as 'A later arrangement adds a clue', and adds Bloomberg's visible framing that Anthropic was testing the setup (S39 lede, linked; S50; C187). C235 and C187 passages and claim text match the new wording."
+    },
+    {
+      "finding_id": "verify-02",
+      "action": "fixed",
+      "reason": "Fixed. The recognition paragraph's Journal sentence now reads 'The Journal, citing unnamed sources, reports that at OpenAI he \"didn't always feel properly recognized for his contributions,\" and calls one 2018 episode \"one such slight\" ...' (C23, C121). C121's claim text no longer says the label is 'in the same paragraph'; it says where the label sits."
+    },
+    {
+      "finding_id": "verify-03",
+      "action": "fixed",
+      "reason": "Fixed. 'As of early October 2026, Anthropic was ...' is replaced by 'After that ruling, an Anthropic spokesperson told CNBC the company was \"considering all options, including further review.\"', which follows the sentence dating the September 25 D.C. appeals ruling (S23 re-read: the quote is the spokesperson's statement to CNBC). C52 keeps durability 'unresolved' and its review trigger."
+    },
+    {
+      "finding_id": "verify-04",
+      "action": "fixed",
+      "reason": "Fixed. The Washington section is now five shorter paragraphs, each date in its own sentence. They keep every fact the acceptance test lists: the two limits and the February 26 statement; the February 27 order, designation and same-day OpenAI deal; the February 28 CBS lines; the March 5 apology and its court line; the suit four days later; the two designations with the August 27 and September 25 rulings ('and the courts split'); the June 12 directive; the G7 lunch 'five days after the shutdown'; the June 30 lift. The flagged sentence is split into three: 'The refusal also set Anthropic apart commercially. Fortune reported on February 27 that OpenAI and xAI had accepted Pentagon contracts allowing use for \"all lawful purposes.\" That night, though, Altman said OpenAI's own deal kept the same two limits.' 'That night' matches AP's 'Friday night' (C124). The four recurring verdict lines are varied or merged. 'What leans Six is what he tracked' becomes 'Roose's detail favors Six: what he kept a record of was being misled' (C236), and the section still ends on his June 2026 exit rule. 'What leans Six is how much of his footing...' is merged into the trust paragraph, so 'People he trusts' ends on Daniela's account (C193, C206). 'The case for Six is that...' becomes 'His costliest choices ... run the other way' (C196). 'The Six reading leans instead on...' becomes 'They explain less of what came before the IPO filing and the fights with Washington: ...' (C133). The long control sentence is split (C227), and the IPO/Altman sentence in the opening is split (C109). No dated evidence, alternative-type fact, attribution or protected passage is cut; all 20 protected passages remain."
+    },
+    {
+      "finding_id": "verify-05",
+      "action": "fixed",
+      "reason": "Fixed within this stage's scope. The article quotes no S40/S59 words; C179, C181, C185 and C208 remain attributed paraphrase. The S40/S59 locators and those claims now record the verifier's concordant second-model transcript (openai-whisper large-v3-turbo against whisper.cpp medium.en) and that no human listen is recorded. research_tasks restates the acceptance test as a release precondition. A human listen at the listed timestamps is required before any quotation returns. For the paraphrase-only text, the publish step must log that listen or record an explicit owner decision (DJ) that two concordant machine transcripts suffice. That owner decision belongs to the publish step, not to this editorial stage, so it is recorded here, not made."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Both disclosures arrived as evidence inside arguments, and this page reads nothing further into them.",
+      "action": "kept",
+      "reason": "Kept verbatim in the cure section; the new sofosbuvir date sentence dates the drug and adds nothing about his health. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "(OpenAI declined to comment to Wired; its stance, the magazine noted, is that safety has been a constant.)",
+      "action": "kept",
+      "reason": "Kept verbatim beside his OpenAI exit account. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "One episode weighs against reading control as the point, as a Type 8 reading would: in November 2023, after OpenAI's board fired Altman, board members asked whether Amodei would merge the companies with himself as CEO, and he shut the discussion down.",
+      "action": "kept",
+      "reason": "Kept verbatim as the close of the expanded control paragraph. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "Whether he would accept that structure when it cost him control is the part the record leaves open.",
+      "action": "kept",
+      "reason": "Kept verbatim in the closing paragraph; C142 is now 'unresolved' with dated review triggers. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "Anthropic told AFP he has repeatedly said he does not identify as part of the EA community.",
+      "action": "kept",
+      "reason": "Kept verbatim in the milieu paragraph. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "In Enneagram terms, the first freedom, fewer demands on his time, is a Five's. The second, never standing alone, is a Six's.",
+      "action": "kept",
+      "reason": "Kept verbatim. It is now framed as illustration followed by 'One word can't decide the case', per enneagram-01 and critic-02; the distinctive two-uses-of-one-word device survives. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "The man who warns about scaling did much of the scaling.",
+      "action": "kept",
+      "reason": "Kept verbatim; the paragraph now also gives his early safety work (fan-07). Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "Before he left, he offered Altman \"a list of conditions under which he'd agree to stay,\" while \"the group of seven formed a private Slack channel and called it BATNA,\" negotiators' shorthand for the best alternative to a deal.",
+      "action": "kept",
+      "reason": "Kept verbatim in the Roose paragraph. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "The evaluators he promised in September 2026, with their desks and badges, are the same idea with furniture: a pre-commitment that binds the builder, plus an outsider empowered to check it.",
+      "action": "kept",
+      "reason": "Kept verbatim. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "A lab colleague, Olivier Marre, told AFP: \"I never saw someone engaged in a strong moral or ethical quest.\"",
+      "action": "kept",
+      "reason": "Kept verbatim; Marre's recognition qualifier is added separately in the recognition paragraph (subject-03). Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "\"Like, who elected you and Sam Altman?\" Anderson Cooper asked Dario Amodei on 60 Minutes in November 2025.",
+      "action": "kept",
+      "reason": "Kept verbatim as the hook. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "That is a coherent Five portrait, and the 2023 quote is the strongest single line against this page's reading.",
+      "action": "kept",
+      "reason": "Kept verbatim; the Type 5 section now opens with the dated disclosure of the prior typing. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "He also calls himself \"one of the most bullish about AI capabilities improving very fast,\" a confidence that is a real cost to the Six reading, whose hallmark is doubt.",
+      "action": "changed",
+      "reason": "Changed only to add the date required by future-06: 'In July 2025 he called himself \"one of the most bullish about AI capabilities improving very fast,\" a confidence that is a real cost to the Six reading, whose hallmark is doubt.' The unrescued concession is intact. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "From outside, securing a safe base and grabbing control look the same.",
+      "action": "kept",
+      "reason": "Kept verbatim; C162 is now 'unresolved' with dated triggers (future-01). Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "Rules like that also bind his rivals, so they are strategy as well as conviction.",
+      "action": "changed",
+      "reason": "Changed to 'Rules like that also bind his rivals, so they can serve strategy as well as conviction.' This frames it as the page's reading, as subject-06 required. Its contribution, keeping the incentive reading next to the flattering one, is retained, and the same treatment now runs through the Pentagon, milieu and pacing passages. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "He learned to leave sooner, not to go alone.",
+      "action": "kept",
+      "reason": "Kept verbatim; it now follows the narrowed Lex reading ('Trust is one clause, but it marks the lesson he took'). Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "Both run worst-case scenarios, and either can design safeguards, so worry, intellect and institutions can't separate them.",
+      "action": "kept",
+      "reason": "Kept verbatim and applied consistently. The 60 Minutes worry line, the 'speak up louder' contrast and the institution evidence no longer count as Six discriminators. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "Rules like that also bind his rivals, so they are strategy as well as conviction. The evaluators he promised in September 2026, with their desks and badges, are the same idea with furniture: a pre-commitment that binds the builder, plus an outsider empowered to check it.",
+      "action": "changed",
+      "reason": "First sentence changed to 'so they can serve strategy as well as conviction' (subject-06); the second sentence and its furniture image are kept verbatim. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "The lesson of his father's death is that delay has a body count.",
+      "action": "changed",
+      "reason": "Changed to 'The lesson he draws from his father's death is that delay has a body count.' This attributes the lesson to him, as critic-08 required, and keeps the compressed, durable line. Unchanged at repair (2026-10-05)."
+    },
+    {
+      "passage": "Neither set of habits decides the case alone: a Six who thinks for a living can keep the same desk, just as a Five can build alliances.",
+      "action": "kept",
+      "reason": "Kept verbatim as the single full statement of the 'doesn't decide' caveat (unfamiliar-06). Unchanged at repair (2026-10-05)."
+    }
+  ],
+  "prior_blockers": []
+}

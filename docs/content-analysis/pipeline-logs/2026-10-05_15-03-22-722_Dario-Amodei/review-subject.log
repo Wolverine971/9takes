@@ -1,0 +1,24 @@
+The subject-fairness review for the Dario Amodei refresh is written to `review-subject.json` in the run directory. It passes the review schema check, and all 13 quoted passages match the draft exactly. I didn't change any other repo files or publish anything.
+
+**Bottom line:** most of the draft is fair to Amodei. Its weak spots are places where criticism of him appears without his on-record reply, or without context from the very source it quotes. There are 8 findings, 5 of them major.
+
+**Major findings:**
+1. **Critics' "strategy" charge has no reply from him.** Two of his answers are in sources the page already cites. On 60 Minutes he said "They're not safety theater." In an August 15 X post he said the pacing plan means "not constraining those who are catching up."
+2. **The control paragraph is missing context on both sides.** Big Technology's "route to control the company" sentence leads straight into his rebuttal, which the draft doesn't quote there. The WSJ's "would accept nothing less than reporting directly to the board" was his answer when Altman came to his house to ask him to stay. That followed Altman accusing him and his sister of plotting, which they denied.
+3. **The "recognition mattered to him" passage quotes witnesses selectively.**
+   - The draft quotes Marre elsewhere but leaves out his line that Amodei wanted recognition "but not excessively or abnormally."
+   - Berry's "proud person" line loses "internally" and his "I imagine" framing, so his guess reads as a verdict.
+   - The Obama anecdote leaves out that Amodei had been asked to fact-check the slides for the meeting he was then excluded from.
+4. **"Four days after the apology, Anthropic sued" reads like a reversal.** The same March 5 statement that apologized also announced the court challenge, and he had told CBS on February 28 that they would challenge any formal action in court.
+5. **The type argument's key quotes are still unverified.** "Freeing" used twice and "I never feel like I'm alone" come from a machine transcript, and a human audio check is already marked as required before publication. I couldn't verify them either, because YouTube blocked the caption pull. The draft also drops his "I think" before "it's an incredible advantage."
+
+**Minor findings:**
+6. **Motive claims stated as page fact.** Examples are "strategy as well as conviction," "wants rules for everyone else," and the claim that the evaluator pledge was a credential for the IPO. No source makes these points.
+7. **The title overstates.** "Can't Stop Building the Thing He Fears Most" suggests compulsion and claims a "most feared" thing no source supports. I suggested "Why Dario Amodei Keeps Building the AI He Warns About," and left room to keep the current title for ranking if there's a sourced reason.
+8. **The autism sentence ties his working style to a diagnosis.** It also sits as the last word of the Type 5 section. People do search this question, so the review keeps a plain statement that no source describes a diagnosis and drops the link to his traits.
+
+The review protects five passages, including the refusal to read anything into his health disclosures and the 2023 merger refusal that weighs against the control reading. Risk flags carried forward are sensitive allegations, contested typing, and the major thesis change from Type 5 to 6.
+
+**What I couldn't check:** The Atlantic blocked access, so Roose's sourcing and any OpenAI reply in that piece are unchecked. The Bloomberg quotes are unchecked for the reason in finding 5.
+
+I didn't use any MCP connectors for this stage. Several still need authorization in your claude.ai connector settings or via `/mcp`: Ahrefs, Slack, GitHub, Linear and the other engineering and marketing plugins. The Supabase server failed to connect.

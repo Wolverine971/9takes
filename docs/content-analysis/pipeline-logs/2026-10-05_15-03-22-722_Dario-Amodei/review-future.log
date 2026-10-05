@@ -1,0 +1,18 @@
+I wrote the five-year ("future") review of the Dario Amodei draft to `review-future.json`. It passes the review schema, its two hashes match the request, and every quoted passage appears word-for-word in the draft. I didn't change any other file or publish anything.
+
+**Verdict:** the main argument holds up over five years. It rests on how he handled trust and leaving from Baidu through OpenAI to 2026. Removing the September 2026 essay, the outside-evaluator pledge, the pacing turn and the IPO news leaves it standing. The November 2025 *60 Minutes* opening also holds up.
+
+**3 major findings:**
+- **future-01:** The article closes on its best open question, whether he'd accept a structure that cost him control. The evidence record has no reminder to revisit it. The record's instruction for the super-voting-shares report says to delete that sentence if the IPO filing omits the shares. That outcome actually answers the closing question, so the fix is to record either result as dated evidence instead of deleting it.
+- **future-02:** The June 2026 export-control shutdown was lifted on June 30, 2026, and Fable 5 came back worldwide on July 1. Anthropic's own post says so; I opened it. The body, the G7 FAQ and the evidence record all stop at the shutdown, though the record says it was fact-checked on October 5.
+- **future-03:** The type section rests its main argument on a June 2026 Bloomberg quote ("I never feel like I'm alone"). That quote comes from a machine transcript that still needs the human audio check the record marks as required before publication. I tried to pull YouTube captions to check it myself, but YouTube blocked the request, so the wording is still unverified. The fix is to do the audio check and also put one dated pre-2026 example into that section, so the argument survives if the quote doesn't.
+
+**4 minor findings:**
+- **future-04:** "For a decade" in the thesis sentence is measured from today, so it will drift.
+- **future-05:** "Until this October 2026 revision" will point at the wrong revision after the next refresh, and the draft says "this page" nine times. The similarity scanner's only match (against Rebecca Yarros) was on the words "this page", not shared argument, so it's a false alarm.
+- **future-06:** Four claims need full dates: his "most bullish" forecast quote (July 2025), the two court rulings (August 27 and September 25, 2026), "filed for an IPO in June", and "the next year".
+- **future-07:** Two maintenance reminders in the evidence record are broken. One points to wording that's no longer in the draft. The other, for a leadership change, doesn't cover the title, description or FAQ that depend on him still running Anthropic.
+
+I also marked five passages to keep: the *60 Minutes* opening, "delay has a body count", the safe-base-versus-control line, "Neither set of habits decides the case alone", and the closing question.
+
+One setup note: the Supabase connection failed this session, and several plugin connectors (Slack, GitHub, Ahrefs and others) need authorizing in your claude.ai connector settings or via `/mcp`. This review didn't need any of them.

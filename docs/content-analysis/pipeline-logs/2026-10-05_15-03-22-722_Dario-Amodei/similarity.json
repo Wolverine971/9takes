@@ -1,0 +1,215 @@
+{
+  "target": {
+    "person": "dario-amodei",
+    "type": "6",
+    "units": 15,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27
+    },
+    {
+      "person": "Patrick-Mahomes",
+      "date": "2026-09-08",
+      "units": 43
+    },
+    {
+      "person": "Bill-Burr",
+      "date": "2026-09-07",
+      "units": 32
+    },
+    {
+      "person": "Rebecca-Yarros",
+      "date": "2026-08-31",
+      "units": 28
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 3525,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.007,
+    "max": 0.041
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.041,
+      "other_person": "Rebecca-Yarros",
+      "shared_phrases": [
+        "thi page"
+      ],
+      "target": "[diagnosis] this page typed him as a Five.",
+      "other": "[diagnosis] The evidence starts at the top of this page"
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "Rebecca-Yarros",
+      "date": "2026-08-31",
+      "units": 28,
+      "maxScore": 0.041
+    },
+    {
+      "person": "Bill-Burr",
+      "date": "2026-09-07",
+      "units": 32,
+      "maxScore": 0.035
+    },
+    {
+      "person": "Patrick-Mahomes",
+      "date": "2026-09-08",
+      "units": 43,
+      "maxScore": 0.031
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13,
+      "maxScore": 0.025
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42,
+      "maxScore": 0.022
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27,
+      "maxScore": 0.015
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11,
+      "maxScore": 0.009
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39,
+      "maxScore": 0.009
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.041,
+      "other_person": "Rebecca-Yarros",
+      "shared_phrases": [
+        "thi page"
+      ],
+      "target": "[diagnosis] this page typed him as a Five.",
+      "other": "[diagnosis] The evidence starts at the top of this page"
+    },
+    {
+      "score": 0.035,
+      "other_person": "Bill-Burr",
+      "shared_phrases": [],
+      "target": "[diagnosis] something solid to stand on when the ground might move.",
+      "other": "[diagnosis] He described wanting the room to stand down."
+    },
+    {
+      "score": 0.034,
+      "other_person": "Rebecca-Yarros",
+      "shared_phrases": [
+        "thi page"
+      ],
+      "target": "[diagnosis] This page reads the second as the deeper one",
+      "other": "[diagnosis] The evidence starts at the top of this page"
+    },
+    {
+      "score": 0.031,
+      "other_person": "Patrick-Mahomes",
+      "shared_phrases": [
+        "move toward"
+      ],
+      "target": "[diagnosis] he moves toward people he trusts and rules that bind everyone",
+      "other": "[diagnosis] the mode that moves toward what it fears."
+    },
+    {
+      "score": 0.029,
+      "other_person": "Patrick-Mahomes",
+      "shared_phrases": [],
+      "target": "[diagnosis] He said that \"not only does it build trust",
+      "other": "[diagnosis] \" he said on the same New Heights episode"
+    },
+    {
+      "score": 0.025,
+      "other_person": "joseph-zada",
+      "shared_phrases": [],
+      "target": "[diagnosis] Asked in Bloomberg's documentary how he handles the pressure",
+      "other": "[diagnosis] A Nine fears disruption and settles by tuning the pressure out."
+    },
+    {
+      "score": 0.022,
+      "other_person": "joseph-zada",
+      "shared_phrases": [],
+      "target": "[diagnosis] a Six on people and promises it has tested.",
+      "other": "[diagnosis] A Six fears the ground giving way and settles once trusted people and structure are in place."
+    },
+    {
+      "score": 0.022,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] This page reads the second as the deeper one",
+      "other": "[diagnosis] The second half is what he does with an authority he has stopped trusting."
+    },
+    {
+      "score": 0.02,
+      "other_person": "Patrick-Mahomes",
+      "shared_phrases": [],
+      "target": "[diagnosis] a Six on people and promises it has tested.",
+      "other": "[diagnosis] and the way he only trusts himself once someone he respects has tested him."
+    },
+    {
+      "score": 0.018,
+      "other_person": "joseph-zada",
+      "shared_phrases": [],
+      "target": "[diagnosis] something solid to stand on when the ground might move.",
+      "other": "[diagnosis] A Six fears the ground giving way and settles once trusted people and structure are in place."
+    },
+    {
+      "score": 0.016,
+      "other_person": "joseph-zada",
+      "shared_phrases": [],
+      "target": "[diagnosis] What separates them is what each leans on when the ground moves",
+      "other": "[diagnosis] A Six fears the ground giving way and settles once trusted people and structure are in place."
+    },
+    {
+      "score": 0.015,
+      "other_person": "Patrick-Mahomes",
+      "shared_phrases": [
+        "feel like"
+      ],
+      "target": "[diagnosis] \"an incredible advantage because I never feel like I'm alone.\" (Bloomberg Originals",
+      "other": "[diagnosis] \"I feel like you're not playing aggressive enough.\" The league has the tape."
+    }
+  ]
+}

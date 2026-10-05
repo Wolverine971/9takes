@@ -1,5 +1,6 @@
 // src/emails/index.ts
 import { EmailHead } from './EmailHead';
+import { MAILING_ADDRESS_LINE } from '$lib/constants/contact';
 
 const from = '9takes Admins';
 
@@ -88,6 +89,7 @@ export const joinEmail = () => {
                     <tr>
                       <td style="color: #78716c; font-size: 14px; line-height: 1.5;">
                         <p style="margin: 0;">&copy; 9takes. All rights reserved.</p>
+                        <p style="margin: 10px 0 0;">${MAILING_ADDRESS_LINE}</p>
                         <p style="margin: 10px 0 0;">
                           Questions? Contact us at <a href="mailto:usersup@9takes.com" style="color: #b45309; text-decoration: none;">usersup@9takes.com</a>
                         </p>
@@ -192,6 +194,7 @@ export const joinEmail2 = () => {
                     <tr>
                       <td style="color: #78716c; font-size: 14px; line-height: 1.5;">
                         <p style="margin: 0;">&copy; 9takes. All rights reserved.</p>
+                        <p style="margin: 10px 0 0;">${MAILING_ADDRESS_LINE}</p>
                       </td>
                     </tr>
                   </table>
@@ -296,6 +299,7 @@ export const personSuggestionEmail = () => {
                     <tr>
                       <td style="color: #78716c; font-size: 14px; line-height: 1.5;">
                         <p style="margin: 0;">&copy; 9takes. All rights reserved.</p>
+                        <p style="margin: 10px 0 0;">${MAILING_ADDRESS_LINE}</p>
                       </td>
                     </tr>
                   </table>
@@ -379,6 +383,7 @@ export const emailTemplate = (subject: string, header: string, body: string) => 
                     <tr>
                       <td style="color: #78716c; font-size: 14px; line-height: 1.5;">
                         <p style="margin: 0;">&copy; 9takes. All rights reserved.</p>
+                        <p style="margin: 10px 0 0;">${MAILING_ADDRESS_LINE}</p>
                       </td>
                     </tr>
                   </table>
@@ -454,6 +459,7 @@ export const signupEmail = () => {
                     <tr>
                       <td style="color: #78716c; font-size: 14px; line-height: 1.5; text-align: center;">
                         <p style="margin: 0;">&copy; 9takes. All rights reserved.</p>
+                        <p style="margin: 10px 0 0;">${MAILING_ADDRESS_LINE}</p>
                       </td>
                     </tr>
                   </table>
@@ -546,6 +552,7 @@ export const forgotPass = (link: string = '{{ .ConfirmationURL }}') => {
                     <tr>
                       <td style="color: #78716c; font-size: 14px; line-height: 1.5; text-align: center;">
                         <p style="margin: 0;">&copy; 9takes. All rights reserved.</p>
+                        <p style="margin: 10px 0 0;">${MAILING_ADDRESS_LINE}</p>
                         <p style="margin: 10px 0 0;">
                           For security, this link will expire in 24 hours.
                         </p>

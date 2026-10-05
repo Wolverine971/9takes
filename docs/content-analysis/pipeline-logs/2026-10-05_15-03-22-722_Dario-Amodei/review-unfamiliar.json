@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "e9fa2dc8670bd45011ce2d7e18f8165f656aad97774c3d88e417f72627a6804d",
+  "evidence_sha256": "f201c873eae08efdfc51302ca442790a87a921f68218dd1c5b2dfaa664b00776",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "A document-first, time-guarding style is not evidence of any diagnosis, including autism. None of the interviews, essays, profiles and posts reviewed for this page describe any such diagnosis, and this page infers none.",
+      "problem": "Nothing in the article raises autism before this. A reader who arrives knowing nothing meets the word for the first time as the author's own denial, placed directly after a description of his habits. That creates the association it disclaims, about a living person's health. The evidence record says the paragraph answers a search question (C59), but the article never says readers ask it, so the newcomer cannot tell why it is there.",
+      "acceptance_test": "A reader with no prior knowledge does not meet a diagnosis term attached to his work style in the body. Either cut the paragraph, or move the question to an FAQ phrased as the question people actually search, with the same no-inference answer. If any body sentence remains, it names the outside question first and does not directly follow the description of his habits."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "ruled one of the Pentagon's two designations unlawful",
+      "problem": "The section names one designation (Hegseth's supply-chain-risk label) and then reports court rulings on 'two designations'. A newcomer cannot tell what the second one was, or which one survived. The same section quotes 'the Department of War' with no gloss, so a reader in 2031 will not know it is the Pentagon. 'The next day' follows a sentence citing Fortune's February 27 report, which dates the ban to February 28. The ban and designation came on February 27 (AP, S19), the day after his statement. OpenAI's Pentagon deal is mentioned in the second paragraph but only explained in the third. The reader cannot rebuild the most consequential public fight in the profile.",
+      "acceptance_test": "Before the court outcome, the section says the government relied on two separate designations (per CNBC, S23) and says in one clause which one each court ruled on. The first 'Department of War' is glossed once (the Pentagon's alternative name under the Trump administration). The ban and designation are dated February 27, 2026 without depending on 'the next day' after a February 27 citation. OpenAI's same-day deal is introduced before, or in the same place as, the staff post it helps date."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "The second front opened in June, when an export-control directive forced Anthropic to switch off its newest models for all customers.",
+      "problem": "An export-control rule forcing a shutdown for every customer, including Americans, sounds wrong to a newcomer, and the article never says why it happened. The record (C53, S24) explains it: the directive barred any foreign national, including Anthropic's own foreign-national employees, from accessing the two newest models, and Anthropic disabled them for everyone to comply. The article also does not say which part of the government issued the directive. Without these, the G7 lunch reads as a reaction to an unexplained event.",
+      "acceptance_test": "One clause says what the directive required (no access by any foreign national, inside or outside the U.S., including its own staff) and that Anthropic switched the models off for all customers in order to comply, and names the issuing authority if the record supports it. The FAQ's description of the directive matches."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "The private record was less composed. Within a few hours of the ban, the designation and OpenAI's announcement of its own Pentagon deal, he wrote a post to his staff.",
+      "problem": "The previous section promises that 'heat, and then repair' will show in 'the worst week of his 2026'. Here the reader gets the repair, an apology for 'the tone of the post', but never sees the heat. A newcomer has to take 'less composed' on trust and cannot judge how far the post went. Four days after the apology Anthropic sued, which also complicates 'repair', and the article passes over it without comment.",
+      "acceptance_test": "Either the reader gets one attributed, sourced indication of what the post said or how it was reported (labeled with its sourcing and the caveat that the statement does not quote it), or the setup line and 'less composed' are toned down to match what is shown. One sentence acknowledges that the apology and the lawsuit four days later sit together, so the newcomer does not read the apology as a retreat."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "Until this October 2026 revision, this page typed him as a Five.",
+      "problem": "A first-time reader never saw the old page. Putting the site's revision history at the end of the type answer, the section a newcomer most needs to be clean, pulls them into bookkeeping. The note is repeated in the Type 5 section. 'This page' appears nine times in the body ('this page reads', 'this page's reading', 'this page infers none'), and the self-reference starts to sound like a hedge. It is also the only shared phrase behind the similarity trip (0.041, Rebecca-Yarros). The comparison found no reused argument, but the tic is a house habit.",
+      "acceptance_test": "The revision history appears once, in the Type 5 section, where it does work. The type section ends on the 'freeing' discriminator. 'This page' appears no more than three times in the body. The rest become direct attributions ('the stronger reading', 'the Six reading') without adding certainty."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "Neither set of habits decides the case alone: a Six who thinks for a living can keep the same desk, just as a Five can build alliances.",
+      "problem": "The body runs to 4,113 words, above the standard's roughly 3,500 target, and the research record had already asked for a cut toward 3,500. The extra length falls after the narrative peak. The Washington section is followed by three analysis sections in a row (about 900 words) before the close. Each one ends by restating that the evidence doesn't decide between types, a caveat already made in the type section ('worry, intellect and institutions can't separate them') and in the trust section ('ordinary prudence that a Five would share'). A newcomer's momentum stalls just before the strongest ending.",
+      "acceptance_test": "The body is at or under about 3,700 words. The cuts come from repeated caveats and stacked attributions, not from dated evidence or the alternative-type facts. Each of the three alternative sections adds at least one fact the reader has not seen, and the 'doesn't decide' caveat is stated in full once."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "Because we can have such a good world if we get everything right, I feel obligated to warn about the risks.",
+      "problem": "This FAQ quote appears nowhere in the article, so a reader cannot see where it came from (the evidence record dates it to the July 2025 podcast). The FAQ's anchor is 'im-uncomfortable', but that section covers pacing and government oversight. The FAQ's actual answer, the 'Not building the technology' quote and the father's death, sits in the opening and the father section. A searcher who clicks through lands on material that does not answer their question.",
+      "acceptance_test": "The FAQ anchor points to the section that holds its answer (the opening or 'a-cure-that-came-a-few-years-late'), and every quote in the FAQ either appears in the body or names its source and date in the answer."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "\"Maybe three or four years after he died,\" Amodei said, the cure rate for his father's disease rose from 50% to roughly 95%.",
+      "problem": "A newcomer takes the timeline from this sentence and from the H2, which puts 'a few years' in the headline. The record has sofosbuvir approved in December 2013 (S49), about seven years after 2006. The evidence file notes the gap is longer than his estimate (C71). The attribution is accurate, but the reader leaves with his estimate as the only date, in a section whose point is that 'delay has a body count'. A reader who looks up the drug will see the mismatch and may trust the rest of the page less.",
+      "acceptance_test": "His quotes stay as they are. One clause gives the dated record (sofosbuvir's U.S. approval in December 2013) next to his estimate, so the reader can tell his recollection from the timeline without the article calling him wrong."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"Like, who elected you and Sam Altman?\" Anderson Cooper asked Dario Amodei on 60 Minutes in November 2025.",
+      "reason": "A sourced, dated opening a newcomer gets at once. The question of unaccountable power sets up the article's stakes, and his 'No one, no one. Honestly, no one.' pays them off immediately."
+    },
+    {
+      "passage": "In Enneagram terms, the first freedom, fewer demands on his time, is a Five's. The second, never standing alone, is a Six's.",
+      "reason": "Turns an abstract Five-versus-Six fork into two uses of one word in his own vocabulary. It is the clearest orientation to the type question for a reader who knows no Enneagram."
+    },
+    {
+      "passage": "The man who warns about scaling did much of the scaling.",
+      "reason": "One plain sentence that changes how a newcomer sees him and sets up the contradiction the whole profile works through."
+    },
+    {
+      "passage": "He learned to leave sooner, not to go alone.",
+      "reason": "Compresses the OpenAI exit sequence into a memorable, specific takeaway that a reader can carry out of the article."
+    },
+    {
+      "passage": "Whether he would accept that structure when it cost him control is the part the record leaves open.",
+      "reason": "Ends on an honest, unresolved stake instead of a verdict, which leaves the newcomer a real question to watch rather than a tidy label."
+    }
+  ],
+  "assessment": "Orientation at the top is strong. By paragraph four a newcomer knows who he is (Anthropic co-founder and CEO), what tension drives him (he keeps building what he warns about) and what the profile is for: 'what he does with the fear that is left over once he has decided to keep building'. The 'freeing' pair is the best orientation device for the type question. The middle sections carry momentum with dated, named scenes: the father's hepatitis C death, the scaling irony, the Baidu-then-OpenAI pattern of disagreeing out loud and then leaving, Roose's BATNA channel, the trust vocabulary, and evaluators with desks and badges. An unfamiliar reader comes away with real knowledge. Weak spots: the Washington section assumes knowledge the reader lacks (the Department of War name, the two designations, the directive's foreign-national scope, the content of the leaked post); an unprompted autism denial; and a back half that runs about 900 words of analysis after the climax in a 4,113-word body. 'This page' appears nine times, and the revision note pulls the newcomer into site bookkeeping. Smaller gaps, not filed as findings: the jump from giving up on OpenAI in 2019 to leaving at the end of 2020 is never explained, and the Enneagram itself is never glossed (though the Type 6/5 motive paragraph orients adequately). Similarity: tripped at 0.041, but only on the shared phrase 'this page' (Rebecca-Yarros). The Six 'ground' metaphor overlaps with the Zada page, but that is ordinary type vocabulary. The discriminating evidence here is specific to Amodei, and no argument is reused. Risks: kept every research flag (sensitive allegations, contested typing, major thesis change); this review raises no new one. As the unfamiliar-reader proxy I did not reopen external sources. I checked the timeline and scope points against the excerpts in the evidence record (S19, S22, S23, S24, S49, S57; C53, C71, C124, C177)."
+}

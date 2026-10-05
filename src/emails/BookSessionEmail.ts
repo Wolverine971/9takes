@@ -1,5 +1,6 @@
 // src/emails/BookSessionEmail.ts
 import { EmailHead } from './EmailHead';
+import { MAILING_ADDRESS_LINE } from '$lib/constants/contact';
 
 const from = '9takes Team';
 const currentYear = new Date().getFullYear();
@@ -159,6 +160,7 @@ export const welcomeEmail = (name: string) => {
                     <tr>
                       <td style="color: #78716c; font-size: 14px; line-height: 1.5; text-align: center;">
                         <p style="margin: 0;">&copy; ${currentYear} 9takes. All rights reserved.</p>
+                        <p style="margin: 10px 0 0;">${MAILING_ADDRESS_LINE}</p>
                         <p style="margin: 10px 0 0;">
                           Questions? Contact us at <a href="mailto:usersup@9takes.com" style="color: #b45309; text-decoration: none;">usersup@9takes.com</a>
                         </p>

@@ -1,0 +1,21 @@
+I've written the draft stage for Dario Amodei. Both files pass the pipeline's own contract checks, and nothing else in the repo was touched or published.
+
+**What changed in the article**
+- **New opening.** It starts with the 60 Minutes exchange from November 2025. Anderson Cooper asks "who elected you and Sam Altman?" and Amodei answers "No one, no one. Honestly, no one." The quote comes from CBS's official transcript. The outside-evaluators pledge follows it.
+- **The Type 6 case now rests on his own words and people named on the record.** The anonymous Wall Street Journal material is backup, cited once and labeled. The new main evidence:
+  - Kevin Roose's Atlantic account of how he left OpenAI: talking himself out of quitting, thinking about DeepMind before going independent, setting conditions for staying, and a private exit channel called "BATNA".
+  - His 2026 rule: disagreement "alone is not sufficient to leave", but not being able to trust someone is.
+  - "Trust" as his key word from 2022 to 2026, plus his sister Daniela's on-record account of their bond.
+  - His March 2026 apology for the tone of a leaked staff post.
+- **A new idea that's specific to him.** In 2026 he called two different things "freeing". One is having only one direct report, which fits a Five. The other is talking uncensored to 3,000 employees every two weeks because "I never feel like I'm alone", which fits a Six. The page argues the second runs deeper.
+- **The Type 5 case got stronger, not weaker.** It now includes his 2023 line about deliberately keeping a low profile to protect his independent thinking. The page calls that the strongest single argument against Type 6.
+- **Length:** about 4,100 words, down from 4,467. That's still above the ~3,500 the research stage asked for; I chose to keep the new evidence rather than cut further.
+- **Sensitive handling:** the line about OpenAI's "disturbing patterns of behavior" is no longer quoted. The disputed "mendacious" and tobacco quotes from the Journal are gone too. OpenAI's stance that "safety has been a constant" now sits beside his account of leaving, taken from Wired, which I re-checked. Dates, slug, `published: true` and the Jade Wang FAQ are unchanged. No grades were added.
+
+**Before this publishes, a person has to listen to four Bloomberg audio clips.** Those quotes come from machine transcripts. I tried to re-download the audio for a second check, but YouTube blocked it (HTTP 403). So the draft only quotes phrases the transcript renders cleanly; the full list with timestamps is in `research_tasks`. Two smaller items remain open: the paywalled Bloomberg piece on how he de-stresses is still unread, and `Arthur-Mensch.md` still calls him a Five on 9takes.
+
+Unrelated to this stage: the Supabase connection failed this session, and several plugin connectors (GitHub, Slack, Ahrefs and others) need authorizing via `/mcp` in an interactive session.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/`:
+- `draft.md`
+- `evidence-draft.json`

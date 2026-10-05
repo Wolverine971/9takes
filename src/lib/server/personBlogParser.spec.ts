@@ -707,6 +707,29 @@ TODO: add source.
 			);
 		});
 
+		it('lists a retyped draft as held in a bulk sync instead of failing the push', async () => {
+			const from = vi.fn(() => ({
+				select: vi.fn().mockReturnValue({
+					ilike: vi.fn().mockReturnValue({
+						maybeSingle: vi.fn().mockResolvedValue({ data: existing, error: null })
+					})
+				})
+			}));
+			const rpc = vi.fn().mockResolvedValue({ error: null });
+
+			const result = await insertIntoSupabase(
+				[{ ...entry, lastmod: existing.lastmod, enneagram: 4, _source_path: '/test/retyped.md' }],
+				{ syncAll: true, supabase: { from, rpc } as any }
+			);
+
+			expect(result.errors).toEqual([]);
+			expect(result.held).toEqual([expect.stringMatching(/^example-person: Type change refused/)]);
+			expect(rpc).not.toHaveBeenCalledWith(
+				'update_blogs_famous_people_if_unchanged',
+				expect.anything()
+			);
+		});
+
 		it('bulk syncs the corpus and inserts a missing draft as unpublished', async () => {
 			const matchingEntry = {
 				...existing,

@@ -7,6 +7,15 @@ Draft: `src/blog/people/drafts/Sam-Altman.md` (published; DB grade 9.5 dated 202
 Packet: `docs/content-research/2026-10-04_surging-people-scout.md` (Sam Altman UPDATE, score 86: "Keep film dramatization separate from evidence"; follow-up "what _Artificial_ gets right/wrong" after NYFF reviews, ship by ~Dec 1).
 WebSearch was unavailable for this pass. Everything below was verified by direct fetch of the URL listed, unless marked otherwise.
 
+
+## Owner type decision (DJ, 2026-10-05): read first
+
+**Sam Altman stays Enneagram Type 4 (4w3).** DJ reviewed the 2026-10-05 refresh, which argued Type 3 and passed review, and kept the published Type 4. Treat Type 4 as the type under test, not as an open question.
+
+- Build the strongest honest Type 4 case. Keep Type 3 as the strongest alternative and answer its best evidence head-on, as counterevidence the article addresses: his "I am not proud of being conflict-averse" post (April 2026), "I'm not a high-EQ person" (Bloomberg, January 2025), and viewing subtle emotions "with alien intrigue" (The New Yorker, 2016). The discriminator has to explain why a Four would present that way.
+- Keep every factual correction the 2026-10-05 run found. The prior evidence record (`docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman/`) is the source of truth for the misquotes on the old live page: "heart pounding, just terrified" (not in the cited podcast), the Senate "skeptical of any company calling for its own regulation" line (not in the hearing record), the unsourced "We needed a structure that didn't exist", "I don't know what Sam believes" and "totally transformed" quotes, the "shameful" run-on misquote, the TL;DR's "never called it unfair" (he said "it felt so unfair"), and the Ozymandias attribution (Reid Hoffman's *Masters of Scale*, not Tyler Cowen). None of them may return.
+- If the evidence cannot support Type 4 with a defensible discriminator at the release bar, hold with `insufficient_evidence` and say why. Do not retype.
+
 ---
 
 ## Accepted refresh evidence

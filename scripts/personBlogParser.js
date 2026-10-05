@@ -138,6 +138,7 @@ dotenv.config();
  *   skipped: number,
  *   existingUntouched: number,
  *   blocked: string[],
+ *   held: string[],
  *   insertedPeople: string[],
  *   errors: string[]
  * }} InsertIntoSupabaseResult
@@ -1801,6 +1802,15 @@ const V3_EDITORIAL_SENSITIVE_FIELDS = [
 ];
 
 /**
+ * A deliberate stop that waits on review or a decision from DJ, not a failure.
+ * The bulk sync lists these as held instead of failing the whole push.
+ * @param {string} message
+ */
+function heldError(message) {
+	return Object.assign(new Error(message), { held: true });
+}
+
+/**
  * The publish path gates on the perspective review, but `--sync` and `--apply`
  * historically did not, so a post could publish clean, get rewritten, and be
  * pushed back to production with the jury's verification pointing at text that
@@ -1842,7 +1852,7 @@ export async function assertPerspectiveGateForUpdate(plan, entry, existing) {
 
 	const status = await getPerspectivePublishStatus(sourcePath);
 	if (!status.valid) {
-		throw new Error(
+		throw heldError(
 			`Perspective gate refused update for ${plan.person}: ${status.blocker || 'verification invalid'}. ` +
 				`This update changes reader-visible fields (${touched.join(', ')}) on a published row. ` +
 				`Re-run the six-perspective verification, or pass --skip-perspective-gate with an explicit reason.`
@@ -2116,6 +2126,7 @@ export async function insertIntoSupabase(entries, options = {}) {
 		skipped: 0,
 		existingUntouched: 0,
 		blocked: [],
+		held: [],
 		insertedPeople: [],
 		errors: []
 	};
@@ -2243,7 +2254,7 @@ export async function insertIntoSupabase(entries, options = {}) {
 				// arguing one type under another type's badge. Retypes go through DJ.
 				const typeDrift = plan.protectedDrift.find(({ field }) => field === 'enneagram');
 				if (typeDrift) {
-					throw new Error(
+					throw heldError(
 						`Type change refused: draft argues Type ${String(typeDrift.local)} but the live row is Type ${String(typeDrift.live)}. ` +
 							`A sync keeps the live type, so the article and its type badge would disagree. Retype deliberately instead.`
 					);
@@ -2329,9 +2340,13 @@ export async function insertIntoSupabase(entries, options = {}) {
 				`Verified update: ${entry.person}; lastmod=${String(verified.lastmod)}; published=${String(verified.published)}`
 			);
 		} catch (error) {
-			const message = `Error processing ${entry.person || entry.title}: ${
-				error instanceof Error ? error.message : String(error)
-			}`;
+			const reason = error instanceof Error ? error.message : String(error);
+			if (syncAll && error instanceof Error && 'held' in error) {
+				console.warn(`Held ${entry.person || entry.title}: ${reason}`);
+				result.held.push(`${entry.person || entry.title}: ${reason}`);
+				continue;
+			}
+			const message = `Error processing ${entry.person || entry.title}: ${reason}`;
 			console.error(message);
 			result.errors.push(message);
 		}
@@ -2525,6 +2540,10 @@ async function main() {
 			}
 			console.log(`Blocked: ${syncResult.blocked.length}`);
 			for (const reason of syncResult.blocked) console.log(`  - ${reason}`);
+			if (syncResult.held.length > 0) {
+				console.log(`Held for review or a type decision (not pushed): ${syncResult.held.length}`);
+				for (const reason of syncResult.held) console.log(`  - ${reason}`);
+			}
 			console.log('='.repeat(60));
 
 			if (syncResult.inserted > 0) {

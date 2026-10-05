@@ -1,0 +1,21 @@
+I've written the fan review to `docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/review-fan.json`. It passes the contract's review schema and matches the request's role and both hashes. No other files were touched and nothing was published.
+
+**Overall:** The draft is fair, and it keeps unflattering testimony instead of smoothing it over. Its problems are things a close Anthropic watcher would raise first. Several of the omissions tilt the same way: they drop the context the Type 5 reading and the "it's just strategy" reading rely on, so trust is all that's left to explain him. Fixing them needs no new research. Everything is in sources the research stage already opened, and I re-fetched six of them myself to confirm the quoted wording.
+
+**Major findings (5):**
+1. **The pacing turn has no "before."** In 2025 he called holding back a model in 2021 a "one-off… not sustainable." He also said "the reason I'm warning about the risk is so that we don't have to slow down," and named the condition under which he'd call for slowing. The draft never connects that to his September 2026 "We must slow the pace."
+2. **"Race to the top" is missing** from a page whose title asks why he keeps building. The essay sentence the draft quotes is followed directly by that rationale, so the line "the pacing essay adds keeping AI from authoritarian powers" misstates what the essay says.
+3. **The Lex Fridman exit answer is trimmed.** He framed it as "ties to the race to the top": build your vision separately and rivals will copy it. The draft quotes only the "people you trust" clause and uses it as evidence for Type 6.
+4. **The Gulf-money quote has lost its subject.** "No bad person should ever benefit" was about taking investment from Gulf autocracies to stay at the frontier. That cuts directly against the "authoritarian powers" reason the page quotes twice.
+5. **"Heat, and then repair" is overclaimed.** It rests on one apology to the government. His central broken relationship, with Altman and OpenAI, shows distance and a feud that lasted years.
+
+**Minor findings (3):**
+- His push for chip export controls on China isn't mentioned, which drops the irony that an export-control directive later switched off Anthropic's own models.
+- His early safety work is missing: the Google-era safety paper, helping pioneer RLHF, the GPT-2 "signpost" quote, and his later title of VP of research.
+- The draft repeats his "three or four years" cure timeline without saying sofosbuvir was approved in December 2013, about seven years after his father died. The research notes had deliberately chosen not to correct him, so the editor may reject this one.
+
+**Protected passages (5):** the two "freeing" freedoms as the Five-versus-Six test, "The man who warns about scaling did much of the scaling," the BATNA Slack channel, "the same idea with furniture," and Marre's "no moral quest" quote.
+
+The similarity check flagged a match, but it's only the phrase "this page" and a common Type 6 "ground" image shared with the Zada page. I don't count that as reuse. I kept all four risk flags except historical source uncertainty, so the six-role jury stays on.
+
+Separately, the Supabase MCP server failed to connect this session. Several plugin connectors (Slack, Notion, Ahrefs, etc.) also need authorization through claude.ai connector settings or `/mcp`. This stage didn't need any of them.

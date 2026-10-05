@@ -1,0 +1,23 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "overall_below_8.5:8.3"
+  ],
+  "quality": {
+    "evidence": 8.5,
+    "enneagram": 8,
+    "originality": 8.5,
+    "writing": 7.5,
+    "durability": 8.5,
+    "hook": 9,
+    "discoverability": 8.5,
+    "overall": 8.3,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-05",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "502304fb80d685baaac03ce5f54490023631d4253ea7d5f4258f496471177729"
+  }
+}

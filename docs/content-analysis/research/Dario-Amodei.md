@@ -7,6 +7,17 @@ Draft: `src/blog/people/drafts/Dario-Amodei.md` (published; DB grade 8.8 is pre-
 Entity-gap packet: `docs/content-analysis/entity-gaps/Dario-Amodei.md` (2026-09-01, `protect`, `do_not_optimize: true` for the girlfriend / Jade Wang cluster). Read it before any future pass.
 WebSearch was unavailable for this pass; everything below was verified by direct fetch of the URL listed.
 
+
+## Owner type decision (DJ, 2026-10-05): read first
+
+**Dario Amodei is Enneagram Type 6.** DJ accepted the Type 6 reading from the 2026-10-05 run, which was held at 7.9 overall and 7.5 Enneagram. Treat Type 6 as the type under test. Type 5 (the old published type) stays as the strongest alternative.
+
+- The verifier said the argument was careful, but its strongest personal evidence for Six was thin and leaned partly on anonymous WSJ sources. Prioritize named, on-record evidence: his own essays, interviews and talks, and named colleagues and family. Use the anonymous WSJ material only as corroboration.
+- Finish what the last verifier could not. Re-read sources S24, S25, S34, S36, S38, S45, S49 and S50 from the prior evidence record (`docs/content-analysis/pipeline-logs/2026-10-05_00-30-32-539_Dario-Amodei/`). Confirm or cut C30 (Quartz on super-voting shares) and C56 (the June 2026 confidential IPO filing).
+- Apply the verifier's minor findings: he co-signed the cross-lab "Pacing the Frontier" statement on July 28, 2026 (Fortune, July 29), before the September investor exchange. Greg Diamos pushed the team to hire him; he did not hire him himself. Date the "OpenAI and xAI had accepted all lawful purposes" line, since hours later Altman said OpenAI's Pentagon deal kept the same two limits.
+- Sam Altman's published type stays 4. Any contrast with Altman uses Type 4.
+- If the evidence cannot support Type 6 at the release bar, hold with `insufficient_evidence` and say why. Do not revert to 5 on your own.
+
 ---
 
 ## Accepted refresh evidence

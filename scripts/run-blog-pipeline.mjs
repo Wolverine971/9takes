@@ -405,7 +405,8 @@ export async function runPipeline(options, { root = repoRoot, execute = executeC
 					model,
 					timeoutSeconds: options.timeoutSeconds,
 					// Research at 80 hit the cap on refreshes with long baselines (Druski, Ben Shelton).
-					maxTurns: command === 'research' ? 120 : 60
+					// Verify at 60 ran out before re-reading 8 of ~50 sources (Dario Amodei, 2026-10-05).
+					maxTurns: command === 'research' ? 120 : command === 'verify' ? 100 : 60
 				});
 				if (JSON.stringify(await fingerprint(allInputs)) !== JSON.stringify(inputHashes))
 					throw new Error('Stage modified a read-only input');

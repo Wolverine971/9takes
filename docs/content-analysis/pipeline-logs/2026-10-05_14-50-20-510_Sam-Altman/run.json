@@ -1,0 +1,48 @@
+{
+  "schema_version": 3,
+  "subject": "Sam-Altman",
+  "mode": "refresh",
+  "started_at": "2026-10-05T14:50:20.512Z",
+  "stages": {
+    "research": {
+      "status": "complete",
+      "started_at": "2026-10-05T14:50:20.521Z",
+      "cache_key": "5256da16c3d8c8a885e766e96e1fd9ba1e0f69c70c0569413d61c85e8d275f0e",
+      "input_hashes": {
+        "baseline": "dad9c6e02321d266128c58ced65676c4837cea91f6d910f2d04a5cbf8fba0ed2",
+        "research_notes": "c264077bfdc04259345e44479e841d9da9d29a80219af7c4ac114709ece86367",
+        "prior_evidence": "5f6a489e25db350b5bab5562ebe9b01c121714ea9e5dea487006155d9af95f13",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "027b4aad69f14ec04ff1d9ebadc3772c9b88c48f01cc35f17b435a750655a654",
+        "command": "2fb89b06fb7ae4d5f77a7de81fee26e8c8c09a29ab923d201690a22794c29eac",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "1382a08fdb4b968844fe5dc31438808098de259e08f27513c371a52e593ae851"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "evidence.json": "b299225f0e363694a8282ee77f210a1dc0cad51829c5712cbd3af25f083c7287"
+      },
+      "finished_at": "2026-10-05T15:02:56.764Z",
+      "duration_seconds": 756
+    }
+  },
+  "baseline_sha256": "52a404dd4ff8b5223af657304b071d609c05b40aca6a54afdbe31c654700e838",
+  "materialized_sha256": "52a404dd4ff8b5223af657304b071d609c05b40aca6a54afdbe31c654700e838",
+  "expanded": true,
+  "run_status": "held",
+  "editorial_status": "insufficient_evidence",
+  "current_stage": "research",
+  "blockers": [
+    "HOLD REASON FOR DJ (owner decision needed): DJ kept Type 4 and asked for the strongest honest Four case, with a hold rather than a retype if no defensible discriminator exists. Research re-opened the key sources and added long-form interviews (Tucker Carlson 2025, Theo Von 2025, Uncapped 2025, Lex Fridman 2023) and plus Keach Hagey's interviews and reviews and compilations of her biography, and found no sourced observation that separates Four from Three; the new material mostly leans Three (C158, C159, C161, C165, C168, C169, C171, C172) or is neutral (C162, C167). Confidence in Four is low (C157). Options: (a) keep the live Type 4 page, with its misquotes corrected (C79), while the tasks below run; (b) commission the Type 3 article the evidence supports, which needs DJ's explicit decision; (c) supply new evidence for Four. A Type 4 draft built on this record would not clear the Enneagram gate (8) because Three explains the repeated costly choices better.",
+    "Read Keach Hagey's The Optimist (2025) itself, chapters on childhood, John Burroughs School, Stanford and Loopt, and the October-November 2023 chapters. Confirm with page numbers the passages so far known only through reviews and compilations (C165, C168, C170, C171, C172), above all whose words 'bombshell for maximum rhetorical impact' are and their context. Record page-located testimony from Connie Gibstine, Jack and Max Altman, Nick Sivo, school friends and early colleagues, and code each item: identity built on difference or what is missing, envy or longing, withdrawal into a distinct self (Four) versus adapting to win, reading what people want, performance and standing (Three). So far the biography-derived material leans Three; nothing found shows envy, melancholy or longing.",
+    "Verify Karen Hao's Empire of AI against the book or an independent excerpt: p. 42 is now shown in two independent compilations (S55, S113), including the words S55 elided, but not in the book; pp. 34-35 (Loopt colleague, 'He's so attentive') and p. 240 (Safety vs. Applied) remain single-compilation (S55). Until checked, none is a standalone discriminator, and the ketamine detail in p. 42 stays out of any draft.",
+    "Build a dated list of every adult instance (2005-2026) where Altman took a public position that cost approval with his own core audience and was not a fight for control of his institution. Start with the October 2016 refusal to drop Peter Thiel (C154, S25) and the 2016 Trump posts (S24, S25). For each, record the cost, who he was protecting, and whether he held or reversed. If such stands recur outside alliance-protection, the Four (or Eight) reading strengthens; if they cluster around protecting powerful allies, Three holds.",
+    "Code every first-person feeling disclosure in long-form sources (Lex Fridman 2023 and 2024, Bloomberg 2025, Art of Accomplishment 2022, Theo Von 2025, Tucker Carlson 2025, Uncapped 2025, Hard Fork, his blog) by setting: prompted or unprompted; public or private; under accusation or not; whether it cost credibility at the time; and whether it centers identity, meaning or being misunderstood (Four) or competence, usefulness and standing (Three). Re-listen to the Uncapped audio at 00:29:50-00:34:03 before quoting it (single machine transcript).",
+    "Envy test: find sourced instances where Altman expresses longing for what a peer or rival has, as distinct from status competition. Start with the Musk hero arc (C51, C164) and his public statements about Anthropic and Dario Amodei (C67, C140); record exact wording and context. No envy statement has been found so far.",
+    "Lines removed or corrected must not return in any Type 4 rebuild: the 'heart pounding, just terrified' quote (S99 only); 'You should be skeptical of any company calling for its own regulation' (not in S29); 'We needed a structure that didn't exist'; Coogan's 'totally transformed' and 'I don't know what Sam believes' (not in S08); the 'Mom's Favorite' T-shirts; 'Chaotic. And shameful. And upsetting.' (S84 is one run-on clause); the TL;DR claim that he never called the firing 'unfair' (S40: 'it felt so unfair'); Ozymandias credited to Tyler Cowen (S12, Masters of Scale with Reid Hoffman); 'relax and recharge' (S82); the Musk email described as a 'private text' or capitalized (S14). Also: 'alien intrigue' as 'his own inner weather'; 'his feelings tend to arrive after the fact' as a discriminator; the teenage-assault reticence or the April 2026 'words and narratives' line as image-management evidence; Graham's island line glossed as room-reading.",
+    "Time-sensitive checks before any release and at each refresh: Altman v. Altman docket (C69, C91: Doc. 109 motion to dismiss; Nov 16, 2026 dispositive-motion deadline; May 3, 2027 trial); Musk v. OpenAI appeal (C123); outside evaluators at OpenAI by 2027-03-12 (C67, C141); equity status (C28); CEO status (C74); Artificial premiered at NYFF on Oct 5, 2026 and opens Dec 25, 2026, so update tense and keep the film out of the evidence (C73, C142); his claimed change 'very happy to fire people quickly' by 2027-10-05 (C88, C102).",
+    "Sensitive handling to preserve: the teenage assault (C08, C83) appears only in a childhood section with his account and hedged guess, no added detail, no causal story, and is not type evidence (C153 uses only the sexuality-and-identity point); nothing he wrote in response to the April 2026 attack is type evidence; 'sociopathic' stays attributed to an unnamed board member and labeled a characterization (C40); Toner's allegations stay paired with OpenAI's response, Altman's denial and concession, and the WilmerHale summary (C47, C119-C121, C50); the family statement's characterizations of Annie Altman's health or finances are not repeated (C69); no sanction, discovery or medical detail from the docket; no home-location detail (C71); the Suchir Balaji exchange (C163) carries no detail of the death or the murder theory."
+  ],
+  "finished_at": "2026-10-05T15:02:56.771Z"
+}

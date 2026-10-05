@@ -383,13 +383,13 @@ Run with `pnpm test:unit`.
 
 ## 11. Environment variables
 
-| Variable                          | Purpose                                                                                                      |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| `PRIVATE_gmail_private_key`       | Gmail service account JSON, base64 or raw. The sender parses it with `JSON.parse` and extracts `privateKey`. |
-| `CRON_SECRET`                     | Bearer token for the cron endpoint. Also on Vercel cron config.                                              |
-| `SUPABASE_SERVICE_KEY`            | Service-role Supabase client for cron RPCs.                                                                  |
-| `PUBLIC_SUPABASE_URL`             | Used by both admin client and service client.                                                                |
-| `EMAIL_FOOTER_ADDRESS` (optional) | Physical address shown in email footer for CAN-SPAM compliance.                                              |
+| Variable                                        | Purpose                                                                                                                                           |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `PRIVATE_gmail_private_key`                     | Gmail service account JSON, base64 or raw. The sender parses it with `JSON.parse` and extracts `privateKey`.                                      |
+| `CRON_SECRET`                                   | Bearer token for the cron endpoint. Also on Vercel cron config.                                                                                   |
+| `SUPABASE_SERVICE_KEY`                          | Service-role Supabase client for cron RPCs.                                                                                                       |
+| `PUBLIC_SUPABASE_URL`                           | Used by both admin client and service client.                                                                                                     |
+| `EMAIL_FOOTER_ADDRESS` (required for marketing) | Mailing address shown in HTML and plain-text email footers: `PO Box 662, Glen Burnie, MD 21061-0662`. Keep local and Vercel environments in sync. |
 
 ---
 

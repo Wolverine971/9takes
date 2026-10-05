@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "e9fa2dc8670bd45011ce2d7e18f8165f656aad97774c3d88e417f72627a6804d",
+  "evidence_sha256": "f201c873eae08efdfc51302ca442790a87a921f68218dd1c5b2dfaa664b00776",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "Whether he would accept that structure when it cost him control is the part the record leaves open.",
+      "problem": "This is the page's best five-year hook, and the evidence record can't reopen it. C142 (this passage) and C162 ('From outside, securing a safe base and grabbing control look the same.') are recorded as stable with no review trigger, though both state an unresolved matter. The one trigger that bears on it, C30 (super-voting shares), says to 'drop the clause' if the S-1 omits super-voting shares. That would delete a result on the question the article ends with instead of recording it. The next dated catalyst is already in the record: the IPO roadshow expected around the week of November 9, 2026 (S36).",
+      "acceptance_test": "C142 and C162 are reclassified `unresolved` with a review_trigger that names observable tests and the nearest date: (1) the final IPO governance terms in the public S-1 (super-voting shares adopted or not; whether the Long-Term Benefit Trust's board role survives listing); (2) whether the embedded evaluators promised in September 2026 are in place and have published findings Anthropic did not edit; (3) whether the September 2026 pacing commitment survives a competitive model release. C30's trigger is rewritten so either IPO outcome is added to 'What the type doesn't settle' as dated evidence on this question. Neither outcome may delete the clause."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "The second front opened in June, when an export-control directive forced Anthropic to switch off its newest models for all customers.",
+      "problem": "The record was accuracy-checked on 2026-10-05, yet the body, the G7 FAQ (C103) and C53 all stop at the June 12 switch-off. Anthropic's own post of June 30, 2026, 'Redeploying Claude Fable 5' (https://www.anthropic.com/news/redeploying-fable-5, opened for this review), says: 'As of today, June 30, the export controls on Fable 5 and Mythos 5 have been lifted,' and that Fable 5 'will be available starting tomorrow, Wednesday, July 1, to users globally.' The Pentagon front in the same section ends on its dated court outcome; this one has no ending, and the FAQ implies a shutdown that never ended. C53 and C103 are marked stable with no trigger, so nothing in the record would prompt the fix later.",
+      "acceptance_test": "The section and the G7 FAQ answer each add one dated clause saying the controls were lifted on June 30, 2026 and Fable 5 returned globally on July 1. The clause is sourced to Anthropic's June 30, 2026 post, added to the evidence record as an opened source and cited by C53 and C103. No detail beyond what the opened source states is added. A reader in 2031 can tell how, and how fast, the second front ended."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "His own vocabulary marks the fork.",
+      "problem": "The type section is the first thing a searcher reads after the 60-word answer, and it rests its discriminator on the newest, least-verified evidence. Both 'freeing' quotes are June 2026 material. The decisive one, 'I have 3,000 people who are on the same page as me' and 'I never feel like I'm alone' (C179), comes from a local whisper transcript of S59 that research_tasks marks 'REQUIRED before publication: a human must re-listen.' That check is still open. This review couldn't verify the wording either: a youtube-transcript-api pull for v1wZwxY3CMg was IP-blocked. The same quote carries the Type 5 FAQ and C188's two-freedoms paragraph. The decade-long record that actually carries the thesis enters only in later sections: Wired's 2025 account of the exit, Roose's 2026 reporting on 2019-2020, the 2024 Lex answer and the 2022 FLI trust line. If C179's wording fails the audio check, the orientation section and an FAQ fail with it.",
+      "acceptance_test": "Before release, the S59 audio at about 31:58-32:47 is re-listened to. The verbatim wording and who checked it are recorded in S59's locator, and C179, C188 and the Type 5 FAQ match that wording. Then a reader who deletes the 'freeing' paragraph and the 'first freedom' paragraph still finds, in the type section, one named and dated pre-2026 datum that marks the Five-versus-Six fork, for example a sentence pointing to the OpenAI exit sequence or the 2024 Lex answer."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "For a decade, when the stakes have risen, he has gone looking for people he can trust and rules that can hold, including rules that bind him.",
+      "problem": "'For a decade' is measured from the writing date, so it drifts: a 2031 reader will take it as 2021-2031. It's also imprecise now. The pattern the article documents starts at Baidu in the mid-2010s and runs through the OpenAI exit sequence (2017-2020) to Anthropic (2021-2026). This is the thesis sentence (C192), so the drift matters most here.",
+      "acceptance_test": "The sentence is anchored to where the pattern starts, not to the present (for example 'Since his Baidu years in the mid-2010s' or 'From Baidu to Anthropic'). No duration in the body is measured from the writing date."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "Until this October 2026 revision, this page typed him as a Five.",
+      "problem": "'This October 2026 revision' is deictic. After the next refresh it will name the wrong revision. The retype is also narrated twice: here and again at 'The Five reading, which this page held until October 2026'. The draft says 'this page' nine times. The similarity scanner's 0.041 trip against Rebecca-Yarros rests only on that shared phrase ('thi page'). The arguments differ, so this is not cross-profile reuse, but the tic is real inside this draft, and page-history narration is the part of the text a five-year reader needs least.",
+      "acceptance_test": "The retype is disclosed once, with an absolute date and no 'this revision' deixis (for example 'Until October 2026, 9takes typed him as a Five'). 'This page' appears no more than about three times, kept where it marks inference (for example 'this page infers none')."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "He also calls himself \"one of the most bullish about AI capabilities improving very fast,\" a confidence that is a real cost to the Six reading, whose hallmark is doubt.",
+      "problem": "Several time-bound claims are undated, or dated only relative to other events. (1) This forecasting stance is written in the present tense with no date. It comes from July 30, 2025 (S02), events will test or revise his capability forecasts within five years, and C41 is stable with no trigger. (2) 'The courts have since ruled one of the Pentagon's two designations unlawful and upheld the other' names no dates or courts in the prose. S22 and S23 give August 27, 2026 (a federal judge in San Francisco) and September 25, 2026 (a 2-1 D.C. appeals panel). (3) 'confidentially filed for an IPO ... in June' has no year. (4) 'the phrase he would use for his whole company the next year' leaves the reader to work out June 2026.",
+      "acceptance_test": "Each of the four passages carries an absolute date in the prose: July 2025; August 27, 2026 and September 25, 2026, with the court named; June 2026; June 2026. C41 becomes time_sensitive, with a trigger to re-weigh the 'real cost to the Six reading' sentence when his public capability forecasts come due or he revises them."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "His pacing turn came in steps.",
+      "problem": "Two review triggers won't fire usefully. C139's trigger (this passage) tells the editor to revise 'committed his own company first'. That wording isn't in the draft, so a maintainer won't find it. C67's trigger (leadership change) covers only the orientation sentence. The title ('Can't Stop Building the Thing He Fears Most'), the description ('keeps building the AI he warns about'), the 'keep building' FAQ and the 'Anthropic CEO' keyword rest on the same fact, and the trigger doesn't name them.",
+      "acceptance_test": "C139's trigger names passages that exist in the draft ('His pacing turn came in steps.' and the September 2026 'I have become convinced' sentence) and a concrete condition. C67's trigger lists the title, meta_title, description, the 'keep building' FAQ and the 'Anthropic CEO' keyword alongside the orientation sentence."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"Like, who elected you and Sam Altman?\" Anderson Cooper asked Dario Amodei on 60 Minutes in November 2025.",
+      "reason": "An officially transcribed hook with an absolute date that passes the five-year test. It doesn't depend on the September 2026 essay, the IPO or any current title, and it sets up the self-binding question the article closes on."
+    },
+    {
+      "passage": "The lesson of his father's death is that delay has a body count.",
+      "reason": "Compresses the motive in one line that rests on stable, sourced biography and invents no interiority. It will read the same in 2031."
+    },
+    {
+      "passage": "From outside, securing a safe base and grabbing control look the same.",
+      "reason": "States the record's central unresolved contradiction plainly. It stays true whichever way the IPO governance terms go."
+    },
+    {
+      "passage": "Neither set of habits decides the case alone: a Six who thinks for a living can keep the same desk, just as a Five can build alliances.",
+      "reason": "Keeps the verdict at medium confidence. What it says would stay true even if a later refresh moved back to Type 5."
+    },
+    {
+      "passage": "Whether he would accept that structure when it cost him control is the part the record leaves open.",
+      "reason": "The page's most durable sentence. It turns the latest news into a standing test that the next five years will answer. Keep it; future-01 only asks that the evidence record track it."
+    }
+  ],
+  "assessment": "Five-year test: the thesis passes. The type argument rests on interpersonal evidence from the mid-2010s to 2026: Baidu, the OpenAI exit sequence, the 2022 'trust and common purpose' line, the 2024 Lex answer and Daniela's 2026 account. Removing the September 2026 essay, the evaluator pledge, the pacing turn and the October 2026 Quartz report leaves that argument intact. The November 2025 hook is durable. Hook paragraphs two and three and the closing section are the perishable layer, and most of it is dated and tracked (C43, C42, C164, C56, C30, C52, C67, C187). Gaps: the closing open question has no trigger, and C30 would delete its best test (future-01). The June 2026 export-control episode ended on June 30, 2026, according to Anthropic's own post, but the body, the FAQ and the record omit the ending (future-02). The type section's discriminator leads with a June 2026 quote still awaiting the required audio check, which this review could not do because caption retrieval was IP-blocked (future-03). Relative durations, deictic page history and undated stances need absolute anchors (future-04 to future-06), and two triggers need repair (future-07). The similarity scanner tripped at 0.041 against Rebecca-Yarros on the phrase 'this page' alone. The arguments differ, so this is not formulaic reuse. Standard profile, not an open case. Risk flags are carried unchanged."
+}

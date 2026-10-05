@@ -168,7 +168,7 @@ HTML from the 2026-09-25 to 2026-09-28 deploys still renders the old error page 
 
 ## 4. DJ-only (the agent must not do these)
 
-- Set `EMAIL_FOOTER_ADDRESS` in Vercel production. Welcome and signup-confirmation emails have been off since about 2026-09-02 (anti-spam law requires a postal address in marketing email).
+- **Address supplied and configured (2026-10-05):** DJ supplied `PO Box 662, Glen Burnie, MD 21061-0662` and authorized updating it everywhere. `EMAIL_FOOTER_ADDRESS` is set and verified in Vercel Production, Preview, and Development and both local env files. See the latest [marketing log](../marketing/marketing-log.md) entry for deployment status. Stopped enrollments, confirmation resends, and deliverability checks remain separate work.
 - Approve the q118 and q203 nine-take drafts from item G.
 - Decide on the 7 likely-bot signups (ids 197–203) still subscribed.
 - Send the beta invites to the 2 real waitlist signups. No invite appears in dj@9takes.com Sent as of 2026-10-03; the Beta Kit markup comes first.

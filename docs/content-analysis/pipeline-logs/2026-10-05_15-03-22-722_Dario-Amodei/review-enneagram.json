@@ -1,0 +1,114 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "e9fa2dc8670bd45011ce2d7e18f8165f656aad97774c3d88e417f72627a6804d",
+  "evidence_sha256": "f201c873eae08efdfc51302ca442790a87a921f68218dd1c5b2dfaa664b00776",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "In Enneagram terms, the first freedom, fewer demands on his time, is a Five's. The second, never standing alone, is a Six's.",
+      "problem": "The type section's hinge is a word coincidence carried by the two least-verified quotes in the record. The first 'freeing' is TechCrunch's placement of a line from footage nobody on this run heard (C187). The second is a whisper machine transcript that the research record says must be re-listened before publication (C179). The trim also drops context that points to an instrumental reading. The same answer opens 'I try very hard to communicate and always be straightforward and honest,' calls the all-hands 'an incredible amplifier,' and says it 'allows us to have a consistent and coherent position' when confronting external challenges (S59 excerpt). The 'Five's freedom' is not cleanly a Five's either. TechCrunch reports that everyone else on the executive team reports to Daniela, so the one-direct-report setup also rests his operations on the most-tested person in his life. Two uses of a common word cannot mark a fork in motive. At most they illustrate a fork already established by costly choices.",
+      "acceptance_test": "(a) The S59 31:58-32:47 wording and the 'incredibly freeing' moment are audio-verified, or the quotes are cut. (b) The excerpt includes the 'amplifier' / 'consistent and coherent position' framing, or the evidence record explains why leaving it out does not change the meaning. (c) The type section presents the two freedoms as illustration, rests its tell on named, verified costly choices, and no longer says his vocabulary 'marks the fork.' (d) The one-direct-report fact is not assigned wholly to Five without noting that it routes the executive team through Daniela. (e) The 'Why isn't Dario Amodei a Type 5?' FAQ changes in step."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "And what he guards is his judgment, not his footing.",
+      "problem": "This contradicts the page's own discriminator. In its type section the page defines a Five as leaning 'on its own understanding and a guarded store of time and energy.' The 2023 Dwarkesh line ('defend my ability to think about things intellectually ... isn't tinged by the approval of other people') is a man protecting his own understanding from other people's influence. By the page's own definition, that is a Five's footing. Calling it 'judgment, not footing' moves the strongest Five datum onto another axis after the fact. That makes the Six reading unfalsifiable by the very evidence that should test it. The companion point ('The guarded resources go to a group': 'a third, maybe 40%' of his time on culture) describes a CEO's job, not a motive.",
+      "acceptance_test": "The discriminator is stated once and applied consistently. Either the page concedes that the 2023 quote and the time-guarding are Five evidence on its own axis and argues why the costlier choices outweigh them, or it redefines the axis before applying it and shows the new definition is not tailored to absorb the 2023 quote. The 'Two things keep Six ahead' paragraph no longer depends on separating judgment from footing. It also does not count culture time as motive evidence without addressing the job-description alternative."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "That is a long test of other people's word, ending in an exit in company. Each step is a bet on people rather than a retreat into his own understanding.",
+      "problem": "The conclusion outruns the sequence the section itself reports. (1) It is a false fork. 'Retreat into his own understanding' was never an option at OpenAI for any type; a Five researcher would also stay near the resources, negotiate, and leave for another lab or found one with collaborators. (2) The page leaves out a strong non-type reason to stay for years, though it reports the fact itself: he led GPT-3 with '50-60% of the entire company's compute.' (3) In this section, the exit in company was Jared Kaplan's idea, which Amodei 'was initially skeptical' of, and his first thought was DeepMind. So the record does not show that the group form was his choice. (4) A list of conditions plus a BATNA channel is standard negotiation for anyone with leverage. (5) In the Lex Fridman answer quoted next, the word he repeats is 'vision': if you have one, 'go off and you should do that vision'; arguing is 'incredibly unproductive'; doing it better 'causes them to change their behavior' (transcript 01:31-01:33, opened for this review). 'Take some people you trust' is one clause in an argument for autonomy and influence by example. Read whole, the answer supports a Five or One reading at least as well as Six, yet the close reading says trust is what 'survives.'",
+      "acceptance_test": "The section names what a Five in the same position would have done differently and shows the record diverges from it. It addresses the compute-access reason to stay and Kaplan's authorship of the group exit. It tempers 'Each step is a bet on people' to 'consistent with' unless it can supply a discriminating step. The Lex close reading acknowledges the answer's emphasis on vision and autonomy. The 'Why isn't Dario Amodei a Type 5?' FAQ stops presenting 'taking \"people you trust\"' as his account of his own exit; it is general advice he gave Fridman."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "It does not decide whom he trusts, when he walks out, or what makes him angry, and those choices carry this page's type argument.",
+      "problem": "One of the three pillars named here, what makes him angry, is the One's home ground, not the Six's. In Enneagram theory, anger is Type 1's core passion, and his recorded anger is at being misjudged and at bad faith ('I get really angry when someone's like, \"This guy's a doomer\"'; Huang's line as 'bad faith distortion'). The article credits several One-coded strands to Six: 'cannot in good conscience', 'the principle of standing up for what's right', 'the trustworthy actors ... have to adopt the same standards' (in C182 the next sentence is 'there are some folks who don't do the right thing on their own'), an apology for tone that reads as self-correction, 'abrasive' and 'disparaging projects he didn't believe in', his parents' 'right and wrong', and the 2003 op-ed. Kantrowitz's 'strident sense of the way things should be' (S01) is in the evidence but not on the page. The rebuttal rests on Marre's grad-school impression from about twenty years earlier and on the reliability framing of a corporate statement written during a legal fight, which says more about counsel than about motive. Type 1 is closer to the main contest than 'a credible third' implies.",
+      "acceptance_test": "The page gives a motive-level 6-versus-1 test applied to the anger strand itself, for example whether his anger tracks betrayal and danger or wrongness and error, with sourced instances. It either removes 'what makes him angry' from the Six pillars or shows why that strand discriminates against One. The One section engages its strongest on-record datum (Kantrowitz's 'strident sense', or the 'don't do the right thing on their own' clause after an audio check), not only Marre and the Gulf-money Slack line."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "In Enneagram terms, a Five's usual answer to a broken bond is distance. His is heat, and then repair, as the worst week of his 2026 showed.",
+      "problem": "The examples do not support the contrast. The 'heat' examples just above (doomer critics, Jensen Huang) are not bonds. The one broken bond in the record, OpenAI, ended in years of testing and then exit, which is distance. In the same Bloomberg answer the page quotes for 'alone is not sufficient to leave,' he goes on to ask 'why argue with someone when you don't have the same vision' and says 'I am completely at peace with the idea that we're doing things our way and they're doing things their way' (C181). The 'repair' example is weak too. The page itself reports that Anthropic sued four days after the apology, and an apology for tone during litigation with a government customer is prudent for any type; the inventory notes it also 'fits a One's self-correction' (C177).",
+      "acceptance_test": "The sentence is cut, or rebuilt on an actual broken bond. If the March 2026 apology stays as type evidence, the paragraph puts the prudential and One readings beside it. The OpenAI exit is not counted as 'not distance' here and as 'leaving when trust breaks' elsewhere without reconciling the two."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "major",
+      "passage": "Defiance of the most powerful authority available, paired with a pledge of loyalty, is what Enneagram teachers call the counterphobic Six, who meets fear by moving toward it.",
+      "problem": "The counterphobic label makes this episode unfalsifiable for Six: compliance would read as a phobic Six and defiance reads as a counterphobic Six. The prose asserts the label ('is what Enneagram teachers call'), though claim C88 says it is stated 'as \"consistent with\", not as proof,' and the evidence record says the counterphobic rescues were removed. The 'pledge of loyalty' is 'we are patriots,' said on CBS in the middle of a legal and commercial fight. The move is also corpus boilerplate. 51 people drafts invoke 'counterphobic,' and two pages in the similarity comparison set, Arthur-Mensch and Bill Burr, use the same step from defiance to counterphobic Six. It is reusable type vocabulary, not an insight specific to Amodei.",
+      "acceptance_test": "The sentence either drops the counterphobic label or states, in a clause, what observation in this episode would have counted against Six rather than 1 or 8. The Pentagon section does not count both the defiance and the loyalty line as Six evidence without a discriminator, and its wording matches C88's 'consistent with.'"
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "major",
+      "passage": "In Enneagram theory, a Five meets rising danger by pulling back to think. Amodei, in his own account, gets louder.",
+      "problem": "The contrast relies on a caricature of the Five and on behavior that is his job. Public advocacy is what an AI-safety CEO is expected to do, and speaking up despite peer attack fits a One's principled stand or an Eight's escalation at least as well. Fives with expertise at stake are often outspoken; the type concerns motive, not volume. The quote that follows ('I worry a lot about the unknowns ... we're trying to predict everything we can') is prediction in response to uncertainty. By the page's own rule ('worry, intellect and institutions can't separate them') it does not discriminate, and it reads as Five-compatible mastery. The 'Five retreats; he advances' move also repeats the Arthur-Mensch tiebreaker ('A Five who concludes ... retreats ... Mensch did the reverse'), a reusable template for typing AI founders Six over Five.",
+      "acceptance_test": "The section replaces the volume contrast with a motive-level test of what the escalation protects, sourced, or labels it consistent rather than discriminating. The 60 Minutes worry quote is presented as non-discriminating, in line with the page's own rule, or leaves the type argument. The page does not reuse the Mensch 'Five retreats' frame."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "major",
+      "passage": "When the ground moved, at OpenAI, in the Pentagon fight and under the pressure of 2026, he fell back on people, and said so.",
+      "problem": "The page omits the most direct account in the evidence of how he handles pressure, while it uses machine transcripts of equal standing that favor Six. It quotes whisper transcripts from S59 and S40 (C179, C181, C182), all still awaiting audio checks. It leaves out the S40 passage where he says he has 'never been someone who slept all that well,' is 'learning the art of finding ways to relax,' and that 'I don't think paranoia or worrying about what you'll wake up to is productive ... you need to learn to respond rationally and not put dangers out of proportion ... maintain a basic sense of calm.' That passage bears directly on 'where he turns when he is afraid' and cuts both ways. Poor sleep and an effortful, learned calm suit a managed-anxiety Six; proportion and detachment suit a Five. The edited montage is a fair reason not to pair the answer with the interviewer's question. It is not a reason to drop his stated stance while keeping unverified Six-favoring quotes. That selection rule tilts the type test.",
+      "acceptance_test": "One verification rule applies to every machine-transcribed quote. After the audio check, the stress stance appears as attributed evidence (paraphrase is fine, without reconstructing the montage's question) and is weighed against the Six claim. Otherwise the evidence record documents an exclusion reason that would equally exclude C179, C181 and C182. The 'he fell back on people' sentence is qualified to match."
+    },
+    {
+      "id": "enneagram-09",
+      "severity": "minor",
+      "passage": "When danger rises, he moves toward people he trusts and rules that bind everyone, himself included, and he leaves when trust breaks.",
+      "problem": "The plain-language answer and its FAQ mirror state 'himself included' as a trait. The closing paragraph says whether he would accept such a structure 'when it cost him control is the part the record leaves open,' and the page reports the board-only reporting demand and the super-voting-share report. The record supports that he proposes rules that would bind him, not that he accepts them.",
+      "acceptance_test": "The type answer and the FAQ that mirrors it say he proposes or advocates rules that would bind him (or equivalent), consistent with the closing paragraph, and stay within 60 words."
+    },
+    {
+      "id": "enneagram-10",
+      "severity": "minor",
+      "passage": "Choosing trusted co-founders is ordinary prudence that a Five would share. What stands out is how long trust has stayed his central word.",
+      "problem": "Word persistence is weak motive evidence, and 'trust' is the core professional vocabulary of AI safety and of CEO talk about culture. In the Lex answer the page quotes, his own use is about public trust in AI organizations: 'cautious, straightforward, honest, that builds trust in the organization and in individuals.' The page concedes founder prudence but not this professional-vocabulary alternative, so the word's persistence is counted as personality.",
+      "acceptance_test": "The paragraph names the professional-vocabulary alternative. It either points to instances where trust means personal reliance rather than institutional legitimacy (Daniela's on-record testimony is the strongest candidate) or puts less weight on how long the word has persisted."
+    },
+    {
+      "id": "enneagram-11",
+      "severity": "minor",
+      "passage": "Several accounts suggest recognition mattered to him in a way neither Five nor Six centers.",
+      "problem": "The page identifies a strand neither leading type explains but never names the type that would center it (Type 3) or says why that reading fails. Marre's 'eager to succeed and be recognized for it' (S14) is in the evidence but not here. The reader gets a homeless datum instead of a tested alternative.",
+      "acceptance_test": "One or two sentences name the recognition-centered reading (Type 3) and give the sourced reason it fails, such as the deliberate 2023 low profile and Roose's 'tried to live below his means, and was slightly embarrassed by his new station.' Otherwise the page says plainly that the strand remains unexplained."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Both run worst-case scenarios, and either can design safeguards, so worry, intellect and institutions can't separate them.",
+      "reason": "An honest, motive-level limit on what the most abundant evidence (threat-modeling and institution-building) can show. It is the rule the rest of the type argument should be held to; keep it and apply it consistently."
+    },
+    {
+      "passage": "That is a coherent Five portrait, and the 2023 quote is the strongest single line against this page's reading.",
+      "reason": "Steelmans the alternative in the page's own voice instead of making it token. It is rare in the corpus for a retype to name its strongest counter-datum this plainly."
+    },
+    {
+      "passage": "One episode weighs against reading control as the point, as a Type 8 reading would: in November 2023, after OpenAI's board fired Altman, board members asked whether Amodei would merge the companies with himself as CEO, and he shut the discussion down.",
+      "reason": "A real discriminating test of the Type 8 alternative: a specific, costly choice that cuts against the control-seeking reading, not a theory-level dismissal."
+    },
+    {
+      "passage": "He also calls himself \"one of the most bullish about AI capabilities improving very fast,\" a confidence that is a real cost to the Six reading, whose hallmark is doubt.",
+      "reason": "Lets behavior the leading type does not neatly explain stand unresolved, as the standard requires."
+    },
+    {
+      "passage": "Rules like that also bind his rivals, so they are strategy as well as conviction. The evaluators he promised in September 2026, with their desks and badges, are the same idea with furniture: a pre-commitment that binds the builder, plus an outsider empowered to check it.",
+      "reason": "Distinctive, specific image that keeps the incentive alternative in view while linking the opening's evaluator pledge to the pattern."
+    }
+  ],
+  "assessment": "Type 6 at medium confidence is a defensible reading, and the page does several things well. It states a motive-level discriminator, gives the Five case its best facts (including the 2023 quote it calls the strongest line against itself), tests Type 8 with a real counter-episode, and admits that his forecasting confidence costs the Six reading. But the argument claims more discrimination than it has. The type section's hinge is two uses of 'freeing' from unverified sources, with the instrumental context trimmed (01). The Five's strongest datum is moved off-axis by a judgment-versus-footing distinction the page's own definition contradicts (02). The OpenAI sequence, the 'speak up louder' contrast, the heat-and-repair line and the counterphobic label each count behavior that a Five, a One or plain incentive explains as well (03, 05-07), and two of those moves are corpus templates. Type 1 is undertested where it is strongest, on anger and standards (04). An unverified stress passage that cuts both ways is dropped while unverified Six-favoring quotes are kept (08). The likely result after repair is still Six at medium, but with the tell presented as a weighing of costly choices rather than a fork in his vocabulary, and with the 6-versus-1 contest argued. No wing, arrow or subtype claim should be added to close these gaps. Risks: contested typing, sensitive allegations and the major thesis change all stand. Similarity: the tripped 'this page' pair is meta phrasing, not reuse. The meaningful reuse is argumentative: the Five-retreats frame shared with Arthur-Mensch and the counterphobic step found in about 51 people drafts (06, 07). I opened the Lex Fridman transcript to check the exit answer's context."
+}

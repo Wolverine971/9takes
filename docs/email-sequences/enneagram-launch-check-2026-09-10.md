@@ -2,6 +2,8 @@
 
 # Enneagram campaign launch check — September 10, 2026
 
+> **Address update — October 5, 2026:** DJ supplied `PO Box 662, Glen Burnie, MD 21061-0662`. `EMAIL_FOOTER_ADDRESS` is now set and its exact value verified in local `.env` / `.env.local` and Vercel Production, Preview, and Development. See the latest [marketing log](../marketing/marketing-log.md) entry for deployment and verification status. The September findings below are historical; the address no longer needs to be requested from DJ. No emails were manually sent or enrollments restarted as part of the address update; inbox delivery still needs its own verification.
+
 DJ approved the revised email and explicitly authorized sending it after deployment and preflight checks. No further send approval is needed. Delivery is currently blocked by the missing mailing address for `EMAIL_FOOTER_ADDRESS`; DJ was asked for that value during this task.
 
 ## Completed checks

@@ -1,6 +1,7 @@
 <!-- src/lib/components/molecules/Footer.svelte -->
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { MAILING_ADDRESS_LINE } from '$lib/constants/contact';
 	import instagram from '$lib/images/instagram.svg';
 	import twitter from '$lib/images/twitter.svg';
 
@@ -156,6 +157,7 @@
 		<!-- Bottom Section -->
 		<div class="footer-bottom">
 			<p>&copy; {currentYear} 9takes. All rights reserved.</p>
+			<address>{MAILING_ADDRESS_LINE}</address>
 		</div>
 	</div>
 </footer>
@@ -358,6 +360,13 @@
 			font-size: 0.8125rem;
 			color: var(--ink-dim);
 			margin: 0;
+		}
+
+		address {
+			margin-top: 0.5rem;
+			font-size: 0.8125rem;
+			font-style: normal;
+			color: var(--ink-dim);
 		}
 	}
 

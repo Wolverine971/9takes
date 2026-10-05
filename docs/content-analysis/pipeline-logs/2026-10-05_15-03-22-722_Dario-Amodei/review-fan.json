@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "e9fa2dc8670bd45011ce2d7e18f8165f656aad97774c3d88e417f72627a6804d",
+  "evidence_sha256": "f201c873eae08efdfc51302ca442790a87a921f68218dd1c5b2dfaa664b00776",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "His pacing turn came in steps.",
+      "problem": "The record has a clear arc for the title's tension, and the pacing section never shows it. In Wired (S03, March 28, 2025) Amodei says Anthropic held back a working model in mid-2021 (\"we don't want to be the one to drop the shoe and set off the race\"; \"It was costly to us\"). He calls that hesitation a \"one-off\": \"In that one instance, we probably did the right thing. But that is not sustainable,\" because if rivals release first, \"We're just going to lose and stop existing as a company.\" On the July 2025 Big Technology Podcast (S02, ~61:01) he said \"The reason I'm warning about the risk is so that we don't have to slow down.\" In the same answer he set a condition: if models got \"a few years ahead\" with only today's alignment techniques, \"I would definitely be advocating for us to slow down a lot.\" The September 2026 essay (S09) says pausing or slowing \"made little sense back then\" (2023). The draft quotes his 2025 anger at being called someone who \"wants to slow things down\" and his 2026 \"We must slow the pace\" in separate sections and never connects them. That leaves an informed reader's first question unanswered: was this a reversal, or a condition he had stated in advance being met? It is also a missed type test. A stated if-then condition later honored bears directly on the pre-commitment (Six) reading versus the strategy reading.",
+      "acceptance_test": "The pacing section (or the doomer paragraph) includes, with dated attribution, (a) the mid-2021 held-back model and his \"one-off ... not sustainable\" verdict (Wired, March 28, 2025) and (b) the July 2025 \"so that we don't have to slow down\" line with its stated condition (Big Technology Podcast, July 30, 2025). It explicitly relates both to the September 2026 call to slow the pace, saying whether the record reads as a reversal or as his own stated condition being met. Quotes match S03/S02/S09, and any new claims enter the evidence inventory."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "The lesson of his father's death is that delay has a body count. By his own account it is why he keeps building, though not his only reason; the pacing essay adds keeping AI from authoritarian powers.",
+      "problem": "The page's title question, and the FAQ \"Why does Dario Amodei keep building AI if he thinks it is dangerous?\", leave out his best-known answer. In the essay (S09), the sentence quoted in the opening and the FAQ is followed directly by: \"We have sought a middle way: to show that it's possible to build carefully and succeed commercially, and to make safety something on which AI companies compete. In other words, to create a race to the top.\" He has given the same theory of change elsewhere. He told Lex Fridman: \"we have a theory of change called Race to the Top ... trying to push the other players to do the right thing by setting an example\" (S06, ~00:20:58). Answering Huang, he told Kantrowitz he has \"always wanted to spark a 'race to the top'\" (S01). Wired presents it as his way out of the hold-back-or-lose dilemma, next to Chris Olah's \"It would be a much simpler world if you could work on safety without going to the frontier\" (S03). So \"the pacing essay adds\" misstates the essay: what it adds is the race to the top. A reader who knows Anthropic will notice its signature phrase is missing from a page about why he keeps building.",
+      "acceptance_test": "The opening's \"says why\" passage or the end of the father section, and the \"keep building\" FAQ answer, include his race-to-the-top rationale in his own words (S09 and/or S06, dated) and the argument that safety work requires being at the frontier (S03, attributed to Olah or Amodei as appropriate). The description of what the pacing essay adds matches the reasons it actually gives. The article need not endorse the rationale and can place critics' reading (C60/C90) beside it."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "Read as a Five, that advice is independence: go build your own system. What survives his refusal to judge is trust, in the people he takes and the path he wants.",
+      "problem": "The Lex Fridman exit answer counts as Six evidence (C25, C118 are in for_claim_ids), but the article quotes only the part about trust. In the transcript (S06, 01:31:13-01:33:52) he opens with \"I'm going to put things this way and I think it ties to the race to the top.\" He then says, \"If you have a vision for how to do it, you should go off and you should do that vision. It is incredibly unproductive to try and argue with someone else's vision.\" He closes by saying that if your vision is compelling, \"people will copy it,\" because doing it better \"causes them to change their behavior in a much more compelling way than if they're your boss and you're arguing with them ... It's much more productive to go off and do a clean experiment.\" \"Vision\" recurs throughout, while \"people you trust\" is a single clause. Read in full, the answer is about influencing rivals by example from a separate base. The Five reading (go build your own system) and the strategy reading fit that at least as well as the trust reading. The article presents \"what survives ... is trust\" as the decisive takeaway without showing readers how he himself framed the answer.",
+      "acceptance_test": "Before any type inference, the paragraph quotes or accurately paraphrases how he framed the answer (race to the top, vision, a \"clean experiment\" that rivals copy, with timestamp). The inference is narrowed so the trust clause reads as one part of an answer whose stated purpose is influence by example. Alternatively, the type hypothesis stops citing this passage as Six evidence. Quoted words match S06."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "in a Slack message obtained by Wired, he called \"No bad person should ever benefit from our success\" \"a pretty difficult principle to run a business on.\"",
+      "problem": "The quote appears without its context. Big Technology (S01), relaying the memo Wired obtained, reports that Amodei argued the Gulf states had \"$100 billion or more in capital to invest, and their cash would help Anthropic stay on the technology's frontier.\" It adds that he \"seemed to reluctantly accept the idea of taking the money from dictators.\" The reader is never told that the \"bad person\" meant authoritarian Gulf governments. That matters twice. It is the best-known contradiction of his 2025: the essay quoted in the opening and the FAQ says he builds partly to keep AI away from \"authoritarian powers.\" It also shows the stay-at-the-frontier logic (see fan-02) overriding a principle he had stated. Used here only as generic pragmatism against Type 1, it softens an episode knowledgeable readers will recognize. That is flattery by omission.",
+      "acceptance_test": "The sentence names the context: a 2025 internal message, first reported by Wired and relayed by Big Technology, about accepting investment from Gulf states. It gives his stated reason (staying at the frontier) and keeps his hedge (\"Unfortunately\") or otherwise represents it. At least one clause relates the episode to the \"authoritarian powers\" rationale quoted elsewhere. Attribution names Wired as the original outlet and links an opened source."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "In Enneagram terms, a Five's usual answer to a broken bond is distance. His is heat, and then repair, as the worst week of his 2026 showed.",
+      "problem": "This generalization rests on one apology to the government (C177), issued four days before Anthropic sued it. The relationship the article itself centers contradicts it. With Altman and OpenAI the record shows heat and distance, not repair. By his own account he left, and the article's central story is that exit, which is distance. The Journal reports a decade-long feud and a 2026 Slack post calling OpenAI \"mendacious\" and citing \"a pattern of behavior that I've seen often from Sam Altman.\" It also reports a 2026 public moment when Amodei and Altman \"opted out, instead awkwardly touching elbows\" (S13; the private items are anonymously sourced). Readers who have followed the rivalry will read \"heat, and then repair\" as a convenient reading. As a discriminator against Type 5 it claims more than the record supports.",
+      "acceptance_test": "The sentence is narrowed to what the record supports, for example heat followed by public repair toward the government after the leaked post, and with OpenAI a departure and a lasting rivalry. Alternatively, it names the Altman rivalry as counterevidence. C64's inference no longer treats repair as a general Five-versus-Six discriminator. Any WSJ detail added is attributed to the Journal and its unnamed sources."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "It was the \"coalition of democracies\" his 2024 essay \"Machines of Loving Grace\" had proposed, and by the Journal's account he had hired an adviser to pitch a coordination regime as early as 2017.",
+      "problem": "In the essay, the coalition is an \"entente strategy\": democracies \"gain a clear advantage\" by \"blocking or delaying adversaries' access to key resources like chips\" and \"use AI to achieve robust military superiority (the stick)\" (S07). He has also prominently pushed for chip export controls on China. Huang's \"so scary that only they should do it\" came \"after Amodei called for GPU export controls to China\" (S01), and in July 2025 Amodei called export controls \"a better measure\" than asking China to stop (S02). The article presents the coalition only as a cooperation and coordination impulse and never mentions his export-control advocacy. Informed readers therefore lose the most revealing feature of the June 2026 episode, when an export-control directive switched off Anthropic's own models: a leading advocate of export controls was hit by one. The exit section also leaves out the Journal's report that selling AGI to \"rival powers such Russia and China struck Dario as tantamount to treason, and he considered quitting\" (S13), an OpenAI-era trigger for quitting.",
+      "acceptance_test": "In one or two attributed sentences, the G7 paragraph (or the Huang paragraph) says that his coalition idea is competitive toward authoritarian rivals (entente, S07) and that he had pushed for chip export controls on China (S01/S02). It then sets the June 2026 directive against that background. Optionally, the WSJ \"treason\" episode appears where the OpenAI exit is discussed, attributed to the Journal's unnamed sources."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "At OpenAI, which he joined in 2016 after a stint at Google Brain, he became a research director and led GPT-3 with \"50-60% of the entire company's compute,\" Kantrowitz reports.",
+      "problem": "This sentence leaves out the safety work that preceded and ran alongside the scaling, which an informed reader would expect. Without it, his warnings look as if they began after the scaling. Big Technology (S01) reports that he had \"grown interested in safety at Google, where he ... co-authored a paper on its potential for bad behavior.\" It also reports that OpenAI \"fine-tuned GPT-2 with a technique called reinforcement learning with human feedback, something Amodei helped pioneer.\" Wired (S03) describes the GPT-2 moment that \"blew Amodei's mind—and terrified him\" (\"This is going to determine the fate of nations\"), after which he urged a staged release: \"I didn't know if this model was dangerous, but my general feeling was that we should do something to signpost that.\" That line shows caution in the face of uncertainty and bears directly on the type argument. The article also understates his later title: the Journal reports that he asked for and received a promotion to vice president of research (S13).",
+      "acceptance_test": "The \"He would say it\" section adds, with attribution, the Google-era safety paper, his role in pioneering RLHF, and the GPT-2 staged-release \"signpost\" quote (Wired, March 28, 2025). It also gives his later title, vice president of research, attributed to the WSJ or another opened source. The existing \"did much of the scaling\" line stays."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "\"Maybe three or four years after he died,\" Amodei said, the cure rate for his father's disease rose from 50% to roughly 95%.",
+      "problem": "The heading (\"A cure that came 'a few years' late\") and this sentence adopt his shorter timeline and never give the reader the actual date. The evidence record's own source (S49) dates U.S. approval of sofosbuvir to December 2013, about seven years after his father's death in 2006, and his X post names sofosbuvir as the cure. Readers who know the hepatitis C story will notice. The longer gap does not weaken his point, since it lengthens the delay he grieves, so leaving out the date gains nothing.",
+      "acceptance_test": "The paragraph keeps his estimate attributed (as quoted, or \"by his estimate\") and adds one dated clause: sofosbuvir, the drug he names, was approved in the U.S. in December 2013 (S49, or a stronger opened source such as the FDA). It does not comment on his accuracy. The heading stays in quotation marks as his phrase."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "In Enneagram terms, the first freedom, fewer demands on his time, is a Five's. The second, never standing alone, is a Six's.",
+      "reason": "The discriminator is built from his own repeated word (\"freeing\") used about two different things. It is specific to him, not type boilerplate, and it lets readers test the 5-versus-6 case themselves."
+    },
+    {
+      "passage": "The man who warns about scaling did much of the scaling.",
+      "reason": "One sentence states the central contradiction an informed reader cares about, and it is grounded in sourced facts about GPT-3 compute."
+    },
+    {
+      "passage": "Before he left, he offered Altman \"a list of conditions under which he'd agree to stay,\" while \"the group of seven formed a private Slack channel and called it BATNA,\" negotiators' shorthand for the best alternative to a deal.",
+      "reason": "A distinctive, sourced detail (The Atlantic, 2026) that a fan is unlikely to know. It shows the exit as a negotiation with a fallback rather than a principled walkout."
+    },
+    {
+      "passage": "The evaluators he promised in September 2026, with their desks and badges, are the same idea with furniture: a pre-commitment that binds the builder, plus an outsider empowered to check it.",
+      "reason": "A precise, memorable line that ties the 2026 commitment to a longer pattern without inflating it."
+    },
+    {
+      "passage": "A lab colleague, Olivier Marre, told AFP: \"I never saw someone engaged in a strong moral or ethical quest.\"",
+      "reason": "Unflattering on-record testimony the page keeps instead of smoothing the origin story. It guards against hagiography and is used honestly against the Type 1 reading."
+    }
+  ],
+  "assessment": "As an informed reader I found the draft fair-minded and unusually willing to keep unflattering testimony: Marre, Berry's \"proud person\", the OpenAI-era control reading, \"left out of the loop\", and the Gulf quote, though that one is stripped of its subject. Its gaps are the material any close Anthropic watcher would bring first. Race to the top is missing, both as his stated reason for building and as the frame of the Lex exit answer. The 2021 held-back model and the 2025 \"so that we don't have to slow down\" stance, which set up the 2026 pacing turn, are missing. The Gulf memo's actual subject is missing, as are his export-control hawkishness and his early safety work (Google paper, RLHF, GPT-2 signpost). Several of these omissions tilt the same way. They remove frames the Five and strategy readings rely on (influence by example, frontier-or-lose, strategic competition) and leave trust as what remains. The \"heat, then repair\" line generalizes from one apology while the Altman rivalry shows distance. Fixing these needs no new research: everything is in opened sources S01, S02, S03, S06, S07, S09, S13, S49. I re-fetched S01, the S02 transcript, S03, S06, S07 and S09 directly and confirmed the wording quoted in the findings. I did not reopen the 2026 Pentagon, Bloomberg or Atlantic sources; that belongs to the evidence role. Similarity: the 0.041 trip is the phrase \"this page\" plus the generic Six \"ground\" image also used on the Zada page. That is ordinary vocabulary, not reused argument, and the \"freeing\" discriminator is specific to him. This is not an open case. Risk flags: a 5-to-6 retype on a live page, contested typing, and sensitive allegations (his dishonesty account of OpenAI, the Pentagon's \"liar\" charge, health disclosures) all justify the expanded jury."
+}

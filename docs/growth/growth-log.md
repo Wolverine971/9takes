@@ -6,6 +6,8 @@ Newest updates should go at the top of each section.
 
 Use this file as the persistent memory for growth work across audits, research passes, and experiments.
 
+> **October 5, 2026 — mailing-address blocker resolved:** DJ supplied `PO Box 662, Glen Burnie, MD 21061-0662`. The value is verified in local and all three Vercel environments, and the address update is live on `9takes.com`. See the latest [marketing log](../marketing/marketing-log.md) entry for deployment evidence and the separate remaining email-recovery work. Earlier audit observations below are historical.
+
 ## Experiment Log
 
 ### 2026-10-05

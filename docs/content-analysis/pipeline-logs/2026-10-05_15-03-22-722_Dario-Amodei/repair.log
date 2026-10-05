@@ -1,0 +1,14 @@
+I've finished the repair stage and written all three outputs: `repair.md`, `evidence-repair.json` and `resolution-repair.json`. They pass the same contract checks the runner uses: schemas valid, all 142 claim passages match the new text, and no draft blockers. I didn't modify any input or the live draft, and nothing was published. The verifier now re-scores the article. That re-check is the pipeline's last chance before a hold.
+
+**What changed for readers (the verifier's five minor findings):**
+- **Type section opening:** it no longer claims all three choices came "before he was famous." Only two did: the record he kept of times he felt Altman misled him, and the equal equity in 2021. The 2026 arrangement where his executive team reports to his sister is now a separate "later clue." It also notes that Bloomberg described this setup as something Anthropic was testing.
+- **Wall Street Journal recognition story:** the Obama-slide anecdote now carries its own "citing unnamed sources" label.
+- **Court status:** the "considering all options" quote is now credited to Anthropic's statement after the September 25 ruling, not stretched to "as of early October."
+- **Washington section (the main drag on writing):** it's rebuilt in shorter sentences and runs in date order, with every dated fact kept. The four repeated "what leans Six" closing lines are reworded or merged, so each section now ends on new evidence instead of restating the verdict.
+- **Two small clarity fixes:** Emily Chang is named the first time Bloomberg comes up, so later "he told Chang" lines make sense. A colleague quote that read as Wired's is now credited to Kantrowitz.
+
+**Risk:** the body is 4,367 words, 44 more than before, because splitting sentences and adding source labels costs words. The verifier ruled out cutting dated facts, so I didn't trim to the roughly 3,500-word target. Passing needs an overall 8.5, up from 8.3. That means writing has to rise from 7.5 to about 8.5, and one other score has to tick up too. Fixing the three framing slips should help the evidence score, but I can't guarantee the bar.
+
+**Decision for you, at publish time:** for the paraphrased lines from the Bloomberg interviews, the publish step needs one of two things. Either someone listens at the logged timestamps (a few minutes in total), or you record that two matching machine transcripts are enough. I recommend the second: none of those words appear as quotes, and the two transcripts agree on every clause. A listen is still required before any of those lines go back into quotation marks.
+
+Separately, several plugin connectors (Ahrefs, Slack, GitHub and others) need authorizing in your claude.ai connector settings or via `/mcp`, and Supabase failed to connect this session. This stage needed none of them.

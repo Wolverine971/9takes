@@ -1,0 +1,28 @@
+I wrote the "unfamiliar reader" review for the Dario Amodei draft to `review-unfamiliar.json` in the run folder. No other files were changed and nothing was published. The file passes the pipeline's review format check, every quoted passage matches the draft exactly, and the two version fingerprints were copied from the request and match the draft.
+
+**Verdict:** the top of the piece works well for someone who knows nothing about him. It opens on the 60 Minutes "who elected you?" exchange, and by paragraph four the reader knows who he is and what the profile is about. The best device is the "freeing" pair: he calls having one direct report "freeing," and also calls never feeling alone "freeing." That turns the Type 5 vs Type 6 question into his own words. Where newcomers get lost is the second half, especially the Washington section.
+
+**Two major findings (the editor has to fix or justify these):**
+- **The autism paragraph comes from nowhere.** Nothing earlier raises it, so a newcomer meets the word for the first time as the author's denial, right after a description of his work habits. That plants the link it's trying to deny. Fix: cut it, or move it to an FAQ phrased as the question people actually search.
+- **The Pentagon fight can't be followed:**
+  - The article names one government designation, then reports court rulings on "two designations."
+  - "Department of War" is never explained.
+  - "The next day" makes the ban look like February 28; it was February 27.
+  - OpenAI's same-day Pentagon deal is mentioned before it's explained.
+
+**Six minor findings:**
+- The export-control shutdown isn't explained. The rule barred foreign nationals, including Anthropic's own staff, so the company switched the models off for everyone.
+- The leaked staff post: the reader sees his apology but never what he wrote. The section promises "heat, then repair" and only shows the repair.
+- "This page" appears nine times, and the note that the page used to call him a Type 5 sits inside the main type answer.
+- The body is 4,113 words, over the roughly 3,500 target. About 900 words of back-to-back analysis come after the climax.
+- One FAQ points to the wrong section and quotes a line that isn't in the article.
+- The section on his father's cure puts his "a few years" estimate in the heading. The drug was approved in December 2013, about seven years after his father died. The fix adds that date next to his quote without calling him wrong.
+
+**Protected passages (five):** the 60 Minutes opening, the "freeing" pair, "The man who warns about scaling did much of the scaling," "He learned to leave sooner, not to go alone," and the open-ended closing line.
+
+**Other notes:**
+- **Similarity check:** it flagged this draft against the Rebecca Yarros page, but the only shared phrase was "this page." I found no reused argument.
+- **Risk flags:** I kept all three from research (sensitive allegations, contested typing, major thesis change).
+- **Sources:** as the unfamiliar-reader role I didn't reopen outside sources. I checked the timeline and scope points against the source excerpts already in the evidence file.
+
+Separately, the Supabase connector failed to connect this session. This stage didn't need it.

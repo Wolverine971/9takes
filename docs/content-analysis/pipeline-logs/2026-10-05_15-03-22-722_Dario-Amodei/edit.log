@@ -1,0 +1,20 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session d4dd0950-c602-4f03-8876-18ac4011331e to write outputs
+The edit stage for Dario Amodei is finished. All three outputs are written and pass the contract's checks: `edit.md`, `evidence-edit.json` and `resolution-edit.json` in the run folder. Nothing else was modified and nothing was published.
+
+**What changed for readers**
+- **Type read is unchanged:** Type 6, medium confidence, with Type 5 as the strongest alternative. Type 1 is now "close behind" rather than "a credible third."
+- **The argument rests on costly choices, not his 2026 wording.** It now leans on things he did before he was famous: the record he kept of times he felt Altman misled him, equal equity for all seven co-founders, and routing his executive team through his sister Daniela. The two uses of the word "freeing" are now an illustration, not the proof.
+- **Readings that couldn't be tested are gone.** I cut the "heat, then repair" pattern, the "counterphobic Six" label and the "Fives pull back, he gets louder" contrast. Where another reading fits the same facts (leverage at OpenAI, a lawsuit strategy, a One's principles), the article now says so.
+- **Context the critics asked for is added, with sources.** That includes his race-to-the-top reason for building and his on-record answers to the "safety theater" and power-grab charges. Also new: the 2021 model Anthropic held back, his July 2025 condition for slowing down, the public outrage around the September 2026 turn, and the Gulf-money context. The WSJ background to his board demand, the court rulings with dates, the June 30 lifting of the export controls and the 2013 sofosbuvir approval date are in too.
+- **The autism non-claim moved out of the body into an FAQ** ("Has Dario Amodei described any neurodivergence?"). The Jade Wang FAQ is unchanged, per the protect note in the entity-gap file.
+
+**Adjudication:** the six reviews held 50 findings, not 48. I fixed 49 and rejected one: the 3,700-word target. The body is 4,323 words, under the 4,500 limit but about 210 words longer than the draft, because most findings required additions.
+
+**Decisions you can veto**
+1. **The title on the live page changed.** It went from "Why Dario Amodei Can't Stop Building the Thing He Fears Most" to "Why Dario Amodei Keeps Building the Thing He Fears." A reviewer flagged "can't stop" and "most" as unsupported, and the new title keeps most of the old wording. Most of this page's search impressions come from the girlfriend-query cluster, not the title.
+2. **Length.** I chose completeness over the 3,700 target. A further cut would mean dropping minor additions such as the export-control background or his early safety work.
+
+**Blocks publication:** a person needs to listen to the two Bloomberg interviews at the timestamps listed in `evidence-edit.json`. Those quotes come only from a machine transcript, and I couldn't re-check them because YouTube blocked both the caption and audio downloads. Instead, every line from those interviews is now a paraphrase without quotation marks, and nothing in the argument depends on their exact wording. Quotes can only be restored after that listen. Separately, `Arthur-Mensch.md` still says 9takes reads Amodei as a Five and needs updating if this retype publishes.
+
+Unrelated to this edit: several connectors (GitHub, Slack, Linear, Notion, Ahrefs, HubSpot and others) need authorizing in your claude.ai connector settings or via `/mcp`. Supabase also failed to connect this session.

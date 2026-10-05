@@ -1,0 +1,17 @@
+I've finished the Enneagram review of the Dario Amodei draft and written it to `docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/review-enneagram.json`. It passes the pipeline's schema check, and every quoted passage matches the draft word for word. No other files were changed and nothing was published.
+
+**Verdict:** Type 6 at medium confidence holds up, but the article claims a sharper split from Type 5 than its evidence shows. The likely result after edits is still Type 6. The reasoning needs fixing, not the type. The review flags 8 major and 3 minor problems, and the risk flags (disputed typing, sensitive allegations, type change on a live page) all stay on.
+
+**The biggest problems:**
+- **The main argument rests on a word coincidence.** The type section turns on two times he called something "freeing." Both quotes are unverified: one comes from TechCrunch's write-up, and the other from a machine transcript that still needs someone to re-listen to the audio. The trimmed quote also drops lines that make his company-wide talks sound like a leadership tool ("an incredible amplifier").
+- **The article contradicts itself.** It defines a Five as someone who leans on their own understanding. Then it waves off his 2023 quote about protecting his independent thinking by calling it "judgment, not footing." By the article's own definition, that is a Five's footing.
+- **The OpenAI exit doesn't prove Type 6.** He controlled half the company's computing power, which is a strong non-personality reason to stay for years. Founding a company with a group was Jared Kaplan's idea, which he was "initially skeptical" of. I opened the Lex Fridman transcript: the word he keeps repeating in that answer is "vision," not trust.
+- **Type 1 is underplayed.** "What makes him angry" is one of the article's three pillars for Type 6, but anger is Type 1's core trait. Several lines that point to Type 1 get counted for Type 6 instead.
+- **Two arguments are reused templates from other pages.** The "a Five pulls back, he gets louder" contrast copies the Arthur Mensch page's reasoning. The "counterphobic Six" label appears in 51 people drafts and fits either outcome, so it proves nothing.
+- **Unverified quotes are used selectively.** Unverified transcript quotes that support Type 6 are used. An equally unverified passage where he says paranoia isn't productive and he keeps "a basic sense of calm" is left out, even though it could cut either way.
+
+The review also protects five passages for the editor to keep, including the honest "That is a coherent Five portrait…" line and the 2023 merger episode, which genuinely tests the Type 8 alternative.
+
+One step is still required before release, and a person has to do it: re-listen to the Bloomberg audio at the quoted timestamps. Three of my findings depend on it.
+
+Several connected services (Slack, GitHub, Notion, Ahrefs and others) need you to authorize them in your claude.ai connector settings or via `/mcp`. Supabase failed to connect this session. None of them were needed for this review.

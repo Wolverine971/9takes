@@ -1,0 +1,27 @@
+The research stage for Dario Amodei is done. The record supports your Type 6 call, so it goes forward as `ready` rather than a hold: Type 6 at medium confidence, with Type 5 as the strongest alternative.
+
+The only file I wrote is `docs/content-analysis/pipeline-logs/2026-10-05_15-03-22-722_Dario-Amodei/evidence.json`. It extends the prior record from 50 to 60 sources and from 129 to 152 claims, keeps all existing IDs, and passes the contract's validation. Nothing was published.
+
+**The Six case now rests on named, on-record evidence.** The last verifier's main complaint was that it leaned on the WSJ's unnamed sources; that story is now backup only. New anchors:
+- **How he handles pressure, in his own words.** Asked this directly (Bloomberg documentary, June 2026), he names his talks to the whole company: "I have 3,000 people who are on the same page as me… I never feel like I'm alone." Elsewhere he says he has "never been someone who slept all that well" and is "learning the art" of staying calm. This mostly closes the stress gap the last run couldn't fill.
+- **Why he left OpenAI, in his own words (2026):** disagreement "alone is not sufficient to leave," but not trusting someone is. This makes his 2024 Lex Fridman answer explicit. Kevin Roose's new Atlantic excerpt (Sept 29) adds a separately reported account of the same exit.
+- **Trust as his organizing word from 2022 to 2026.** It runs through a 2022 podcast, Cheeky Pint, two Dwarkesh interviews and Daniela on the record ("fighting and getting over it for almost 40 years").
+- **Rising danger makes him speak up more, not withdraw:** "then I speak up louder" (Big Technology Podcast, July 2025).
+- **His March 2026 statement** publicly apologizing for the tone of a leaked internal post.
+
+**The Five case is still real.** In 2023 he said he deliberately kept a low profile "to defend my ability to think about things intellectually." He also writes "to clarify my own thinking," and he has one direct report, which he calls "incredibly freeing." The record frames this as a different axis: Five-like in how he protects his judgment, Six-like in whom he relies on and when he leaves.
+
+**The checks you asked for:**
+- **Sources re-read:** all eight (S24, S25, S34, S36, S38, S45, S49, S50) were re-opened and confirmed.
+- **C30:** confirmed. Quartz ran the super-voting line as its own closing sentence, with no Bloomberg attribution and no link.
+- **C56:** confirmed. Reuters reported the June 1, 2026 confidential IPO filing.
+- **July 28 pacing statement:** added, with Fortune's report and the statement page itself, which lists him and four co-founders. The pacing timeline now puts it before the September essay.
+- **Diamos:** corrected to "pushed the team to hire him."
+- **"All lawful purposes":** dated to Fortune's Feb 27 report, with Altman's same-day claim that OpenAI's deal kept the same two limits.
+
+**Needs a human before drafting:**
+- **Listen to the Bloomberg audio before quoting it.** The new Bloomberg quotes come from local machine transcripts of the audio, since YouTube refused captions. They have no speaker labels and approximate timestamps, which are listed in the record. The same transcripts also locate the two passages the last run had to cut, the "respond rationally" line and the light-speed analogy. Both sit in an edited cold-open montage.
+- **One quote is a sensitive allegation.** His "disturbing patterns of behavior dishonesty" remark about OpenAI has to be attributed as his view.
+- **Bloomberg newsletter still unread.** The piece on how he "de-stresses" is still paywalled.
+
+The record also carries guardrails for the drafter. Never cite the "finish a map before he shares it" line, which traces back to our own page. In the Bloomberg relaxation answer, he mentions his wife; the record says to leave that out under the existing no-spouse rule. It also notes that `Arthur-Mensch.md` still calls him a Five on 9takes, so that sentence needs updating if this retype publishes.

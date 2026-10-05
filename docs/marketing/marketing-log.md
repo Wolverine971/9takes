@@ -10,6 +10,15 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-10-05 — PO box configured and deployed
+
+- **Mailing address supplied by DJ:** 9takes, PO Box 662, Glen Burnie, MD 21061-0662.
+- **Configuration:** `EMAIL_FOOTER_ADDRESS="PO Box 662, Glen Burnie, MD 21061-0662"` is saved and its exact value verified in `.env`, `.env.local`, `.env.example`, and Vercel Production, Preview, and Development. The shared email renderer uses it for HTML and plain-text footers; the existing missing-address guard remains in place.
+- **Public and legacy templates:** `src/lib/constants/contact.ts` supplies the About/contact address, site footer, site-wide Organization postal schema, and seven older email-template footers. No separate privacy or terms pages were found in this repository.
+- **Live deployment:** `dpl_HkVQkE1taevCkrDBUJeLC8d7nZFE` ([deployment](https://9takes-e0wqjamhx-djwayne35gmailcoms-projects.vercel.app)) was built from the previously live revision `d2f7170afa91e16de11d0a9b59e222973bc58f26` plus only the six address-related application files, then promoted to `9takes.com`. Unrelated local drafts and pipeline edits were excluded. Local source changes remain uncommitted.
+- **Verification:** all three remote address values matched; nine rendered email outputs contained the exact address; 25 existing email tests passed; `pnpm check` reported 0 errors (21 existing warnings in unrelated files); the production build, server-runtime checks, and asset budgets passed. The candidate contact/footer/schema passed HTML assertions, and the live [contact page](https://9takes.com/about#contact) and footer were verified in the browser.
+- **Remaining email work:** no email was manually sent, failed enrollment restarted, confirmation resent, or campaign activated during this address update. Existing schedules can now use the configured footer. Prior stopped enrollments and inbox-authentication checks still need their own follow-up; the missing postal address is no longer a blocker.
+
 ### 2026-10-05 — Unattended weekly brief: DJ shipped the engineering half of the loop (host desk alive, human-only gate, live-take homepage, celebrity mid-article question, beta card) but 0 of 8 desk drafts were posted and mail is still blocked in prod; content engine restarted (queue 0 -> 18, 10 v3 runs, Andrew Garfield published on _Artificial_'s NYFF day); three live people pages carry unapproved retypes on disk
 
 - Brief: [`docs/daily-briefs/2026-10-05_marketing-status.md`](../daily-briefs/2026-10-05_marketing-status.md). Growth freshness gate PASSED (growth-log `### 2026-10-05`, audit 06:00:00 -> 06:08:10, exit 0; chain on time). Headline + biggest leak quoted verbatim. Supabase MCP down (5th week); read-only `scripts/db-query.sh` (people counts + key rows, history since 09-28, `coaching_waitlist`, `cta_experiment_events`, `host_reply_drafts`) + six production GETs.
