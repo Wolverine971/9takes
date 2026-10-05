@@ -138,10 +138,35 @@
 		isLibraryOpen = false;
 	}
 
+	// Library is a disclosure of plain links (not an ARIA menu): Escape closes it
+	// and hands focus back to the trigger, and tabbing out of it closes it so the
+	// panel never stays open over the page.
+	let libraryControl: HTMLDivElement | undefined = $state();
+	let libraryTrigger: HTMLButtonElement | undefined = $state();
+
+	function handleLibraryKeydown(event: KeyboardEvent) {
+		if (event.key !== 'Escape' || !isLibraryOpen) return;
+		const focusWasInside =
+			event.target instanceof Node && Boolean(libraryControl?.contains(event.target));
+		closeLibrary();
+		if (focusWasInside) libraryTrigger?.focus();
+	}
+
+	function handleLibraryFocusOut(event: FocusEvent) {
+		// relatedTarget is null when focus leaves the document or lands on a
+		// non-focusable click target; mouse dismissal is handled by onClickOutside.
+		const next = event.relatedTarget;
+		if (next instanceof Node && !libraryControl?.contains(next)) {
+			closeLibrary();
+		}
+	}
+
 	function isActive(href: string): boolean {
 		return href === '/' ? $page.url.pathname === '/' : $page.url.pathname.startsWith(href);
 	}
 </script>
+
+<svelte:window onkeydown={handleLibraryKeydown} />
 
 <!-- Both layouts render; CSS media queries pick one (design audit 2026-06-09).
      The old JS branch (innerWidth < 900, SSR default 1200) served desktop markup
@@ -213,12 +238,17 @@
 				Questions
 			</a>
 
-			<div class="library-control" use:onClickOutside={closeLibrary}>
+			<div
+				class="library-control"
+				bind:this={libraryControl}
+				use:onClickOutside={closeLibrary}
+				onfocusout={handleLibraryFocusOut}
+			>
 				<button
 					type="button"
 					class="library-button"
 					class:is-active={isLibraryActive || isLibraryOpen}
-					aria-haspopup="true"
+					bind:this={libraryTrigger}
 					aria-expanded={isLibraryOpen}
 					aria-controls="desktop-library-menu"
 					onclick={toggleLibrary}

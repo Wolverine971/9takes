@@ -1,0 +1,29 @@
+I've finished the Tiger Woods edit stage and written the three outputs: `edit.md`, `evidence-edit.json` and `resolution-edit.json`. Nothing else was modified, nothing was published, and the article stays `published: false`. The edited article passes the machine checks: 4,423 words, no blockers, a 56-word type answer. The evidence and resolution files pass their schema checks.
+
+**The main change: the case for Type 3 now rests on different evidence.** Four reviewers pointed out the same problem. The draft decided Three over Eight using the 2007 tabloid deal and the 2010 apology. Nothing shows Woods made the 2007 deal himself, and almost anyone with that much at stake would have made the 2010 apology. I rebuilt that argument around evidence that money doesn't explain:
+- **Michael Jordan, 2016.** He told ESPN's Wright Thompson that Woods is "so haunted by his public shaming that he obsesses over it" and "wants to erase the things that happened." This came six years after the apology. I reopened the ESPN feature to confirm the wording.
+- **The 2010 apology itself.** Woods turned achievement into a license: he had worked hard, so he felt he deserved it. The article now flags that this was a prepared statement read after 45 days of therapy.
+
+The type, medium confidence, and Type 8 and Type 5 as alternatives are all unchanged. Because only the evidence shifted, I left the "major thesis change" flag off. The verifier may still check whether that holds.
+
+**Factual corrections:**
+- **2008 knee injury.** He tore his ACL in July 2007 and played on it, chose a minimal surgery so he could play the majors, and hid the injury until after he won.
+- **2017 arrest.** It came "a little over a month" after back surgery, not seven weeks.
+- **December 2009.** The article now includes his December 11 written admission of infidelity, so the move from asking for privacy to confessing on TV is no longer one jump.
+- **2013 Masters.** The rules committee chose a two-stroke penalty over disqualification, and Woods publicly accepted it.
+- **2026 arrest.** The draft said chronic pain caused it, and no source supports that, so I removed it. I also cut the claim that his response was "unchanged since 2009" and named the pending court case as the reason he took no questions.
+
+**Fairness and durability:**
+- Removed the line from the first director of the Tiger Woods Foundation and the detail about his father's infidelity.
+- Attributed every 2026 arrest detail to the sheriff's office or the arrest affidavit, and noted his not-guilty plea.
+- Deleted the "As of October 2026" sentence.
+- Added one sentence admitting that his 2026 withdrawal looks like a Five. A review trigger in the evidence file says to re-test Three vs. Five if he returns, gives a real interview about his treatment, or retires.
+
+**Protected passages:** reviewers marked 18 passages to keep. I kept 15 word for word and reworded 3, each with a reason in the resolution file: the Williams caddie line, the "Seventy-nine days" line, and "the broken leg" line.
+
+**Things that could trip the verifier:**
+- **Length.** It's 4,423 words against a 4,500 ceiling. To get there I cut the McIlroy aside, the Butch Harmon "prick" quote and the GQ detail. Any repair pass has almost no room to add text.
+- **One relinked source.** The Golf Channel Hall of Fame article returns a 403 error, so I linked its NBC Sports copy (same article, same author).
+- **Plea type.** ABC reports no contest and CBS reports guilty. The article says outlets differ, and that stays an open research task.
+
+Several connectors (Asana, Slack, Ahrefs, Figma and others) need authorizing in your claude.ai connector settings or via `/mcp`, and Supabase failed to connect this session. None of them were needed for this stage.

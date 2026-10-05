@@ -21,7 +21,7 @@
 	import ArticleDescription from '$lib/components/blog/ArticleDescription.svelte';
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
-	import EnneagramCTASidebar from '$lib/components/blog/EnneagramCTASidebar.svelte';
+	import ExperimentalTherapyInvite from '$lib/components/blog/ExperimentalTherapyInvite.svelte';
 	import { buildHowToSchema } from '$lib/utils/schema';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 	import { getAuthShellUser } from '$lib/authShell';
@@ -156,10 +156,20 @@
 
 <div class="join">
 	{#if !$authUser}
-		<EnneagramCTASidebar />
 		<EmailSignup cta={'Get the next practical guide from 9takes'} />
 	{/if}
 </div>
+
+<!-- The beta card ("Want to try experimental therapy, 9takes style?") for every
+     reader: a side card on wide screens, inside the article on narrower ones.
+     It replaced the newsletter side card here on 2026-10-04. -->
+{#key data.slug}
+	<ExperimentalTherapyInvite
+		surface="guides"
+		articleSelector="article.blog"
+		fallbackBeforeSelector=".author-bio"
+	/>
+{/key}
 
 <style lang="scss">
 	.section-divider {

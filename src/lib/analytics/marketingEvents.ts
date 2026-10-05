@@ -127,3 +127,22 @@ export function captureHomepageLinkClicked(input: HomepageLinkClickedInput): Pro
 		destination: input.destination
 	});
 }
+
+// Beta card copy experiment: seen, opened (first focus on the email field),
+// submitted (server saved the email). Never send the email itself.
+export type BetaInviteStep = 'viewed' | 'opened' | 'submitted';
+
+type BetaInviteInput = SharedMarketingContext & {
+	step: BetaInviteStep;
+	placement: 'rail' | 'inline';
+	/** Copy variant in the running experiment ($lib/utils/betaCardCopy). */
+	variant: string;
+};
+
+export function captureBetaInvite(input: BetaInviteInput): Promise<void> {
+	return capture(`beta_invite_${input.step}`, {
+		...sharedProperties(input),
+		placement: input.placement,
+		variant: input.variant
+	});
+}

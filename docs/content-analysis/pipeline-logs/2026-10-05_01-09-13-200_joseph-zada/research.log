@@ -1,0 +1,28 @@
+The research stage is done. It came back `ready` as an **open case**, which makes Zada the first subject to use the new format. Its leading read is **Type 6, held loosely (low confidence)**, with **Type 3 as the main alternative and Type 9 still in contention**. I wrote only `evidence.json` and published nothing. The file passes the pipeline's own validator: 66 sources, 64 of them opened, and 166 claims.
+
+**Why an open case, not another hold:** four research passes still can't separate Six from Three or Nine. The reason is that his public record is young, not that the research was thin. He's 21, his first lead role came out in February 2025, and almost every source is release-week press. His biggest release, *Sunrise on the Reaping*, opens November 20, 2026. That fits the standard's eligibility rules, and the later verifier still has to confirm eligibility on its own.
+
+**What's new this pass:**
+- **Two video quotes now have a confirmed speaker.** The last run guessed speakers from voice pitch. This time I downloaded the videos and looked at frames to see who was talking.
+  - TV Fanatic: Zada is the one who says the warm public reaction to his casting gave him "ease". That cuts toward Three. The reassuring "security blanket" line is his co-star Esther McGregor's, so it never counts for him.
+  - MTV UK: the "best team in the world backing [us]" line is his. That cuts toward Six. So the two confirmed quotes push in opposite directions and cancel out.
+- **Three new sources:**
+  - *Sydney Morning Herald*, February 2024 set visit, when he was 18: "I'm not a very vulnerable person" and "I was sort of defiant." He also says he was "kicked out of both of my schools", which conflicts with the school accounts THR and GQ give. The draft should present the versions side by side, not pick one. The reporter notes they were told not to get personal, which is one more limit on what these early sources can show.
+  - Mckenna Grace on Collider: she and Zada prepped together from character notebooks. That's a habit of preparing with a partner, but it says nothing about how he handles pressure.
+  - Nicholas Verso, his first showrunner: talent praise only.
+- **Updated tally of what settles his nerves:** preparation or a trusted team 4, tuning out 3 to 4, other people (fits Six or Nine) 5, results or reception 3. That leans Six over Three and gives Six nothing over Nine.
+- **Nobody outside the press-junket format has described how he handles pressure.** I searched for his coach, his directors, producer Nina Jacobson, co-star Whitney Peak and his brother. Nothing beyond talent praise exists.
+
+**What would settle it:** next review is **2026-12-15**, after the *Sunrise* press cycle. The four signals:
+1. What he credits for getting through the release: reception (Three), trusted people and preparation (Six), or not looking at all (Nine).
+2. How he reacts if reviews are mixed. He has already been seen searching the reaction to his casting for bad comments.
+3. Who picks his next role and his planned early-2027 move, and why.
+4. Testimony from his coach, director Francis Lawrence or his brother about a specific moment when he was rattled.
+
+**Two things the draft stage has to handle:**
+- **The opening hook may not hold.** It opens on him blanking beside Woody Harrelson at a dinner, but other interviews describe their first contact differently. Either show that variation or open elsewhere.
+- **Every headline field has to change.** The current title, meta title, description and type FAQ all say "Type 6", at medium confidence, with Nine as the main alternative. They need "leading read" or "open case" wording instead. The article also has to drop from about 3,880 words to the open-case range of 1,200 to 2,500.
+
+The frame-by-frame speaker check, building on the last run's voice-pitch split, works for any video-heavy subject and could make a good interview story.
+
+Separately, several connectors (GitHub, Slack, Ahrefs and others) need authorizing in your claude.ai connector settings or via `/mcp`, and Supabase failed to connect this session. None of them were needed for this stage.

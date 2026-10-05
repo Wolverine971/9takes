@@ -1,0 +1,17 @@
+I've written the five-year ("future") review for the Tiger Woods draft to `docs/content-analysis/pipeline-logs/2026-10-04_22-22-14-073_Tiger-Woods/review-future.json`. It passes the review schema, its two content hashes match the stage request, and every quoted passage appears word-for-word in the draft. No other files were changed and nothing was published.
+
+**Verdict:** the core argument holds up over five years; the handling of the 2026 events doesn't yet. If you deleted every 2026 sentence, the opening, the Type 3 case and the Hall of Fame ending would all still stand. The metadata and FAQs don't mention 2026 at all, and dates are absolute throughout. All the problems sit in the last two paragraphs of the "Everest, one more time" section.
+
+**Findings (4 major, 2 minor):**
+- **future-01 (major):** The line "a way of handling exposure unchanged since 2009" uses the 2026 events as evidence for Type 3. The draft itself contradicts it with Woods' 2010 interviews, the 2021 Golf Digest interview and the 2022 St Andrews press conference. It also leaves out the obvious alternative: when he took no questions in June 2026, his criminal case was still pending.
+- **future-02 (major):** The draft says "a Five tends to leave the stage." Stepping away from golf, getting treatment abroad and declining the Ryder Cup captaincy looks at least as much like that as like a Type 3 repairing his image. Nothing in the evidence record asks for the Type 3 vs Type 5 call to be re-checked as this plays out.
+- **future-03 (major):** "The likeliest explanation… chronic pain" settles an open medical question, and it isn't recorded as a claim. The 2026 record keeps the clinical details private and talks of "lasting recovery."
+- **future-04 (major):** The 2026 paragraph reads like a court docket: the affidavit details, treatment abroad, the Ryder Cup, the plea and the license suspension. The draft itself says the arrests "say little about type," and outlets still disagree on what type of plea he entered.
+- **future-05 (minor):** The "As of October 4, 2026, he had not returned to competition" line will need editing on every refresh and adds nothing to the argument.
+- **future-06 (minor):** "The clearest statement he has made" is an undated superlative that any later interview could make false.
+
+I protected five passages: the "same rule both times" opening, "Seventy-nine days later," "the public Tiger Woods as an outfit," the line on the Navy SEAL chapter, and the closing two sentences.
+
+I re-opened the Al Jazeera and ESPN 2026 sources and they confirm the draft's facts. The similarity flag isn't real reuse: the matches are common phrases and standard type vocabulary, and the "reading of the public record" disclaimer appears nowhere else in the people articles. I kept all three risk flags on (sensitive allegations, contested typing, source uncertainty), so the full six-reviewer process stays in place.
+
+Separately, the Supabase connector failed to connect this session. Several plugin servers (GitHub, Slack, Ahrefs and others) also need to be authorized via `/mcp` or your claude.ai connector settings. None of them were needed for this stage.

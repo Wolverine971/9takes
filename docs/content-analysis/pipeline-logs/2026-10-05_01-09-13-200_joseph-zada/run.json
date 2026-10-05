@@ -1,0 +1,52 @@
+{
+  "schema_version": 3,
+  "subject": "joseph-zada",
+  "mode": "refresh",
+  "started_at": "2026-10-05T01:09:13.203Z",
+  "stages": {
+    "research": {
+      "status": "complete",
+      "started_at": "2026-10-05T01:09:13.214Z",
+      "cache_key": "cb371b7c103bf0b17188fcef89b10251a14cd4f5241ce55978405a396f67f6f8",
+      "input_hashes": {
+        "baseline": "c884ab1a8c257bfccd0316ac47211396067c3c88cfeecf38b806d08cffd1bf8b",
+        "research_notes": "ba563c976a02e63c7af3a45827e241c264b3774010ca963484b32a15d5e8c1ce",
+        "prior_evidence": "fd876447a8d4153b009c91d2daefd36aed56c7c8428544352f5ca08525bba006",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "027b4aad69f14ec04ff1d9ebadc3772c9b88c48f01cc35f17b435a750655a654",
+        "command": "2fb89b06fb7ae4d5f77a7de81fee26e8c8c09a29ab923d201690a22794c29eac",
+        "standard": "7736ceed97b17a2f4842d47b58bad36a6526db61362ed5b83287be0954d281fb",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "ac14595ef7c7b8efea96d4ab762fab379cacfdb1d990264cbd64b3caefae8425"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "evidence.json": "9cd81fd20e31436d7d7cda1897ab994721c26577398a668d34d3fb5447afff97"
+      },
+      "finished_at": "2026-10-05T01:25:07.703Z",
+      "duration_seconds": 954
+    },
+    "draft": {
+      "status": "running",
+      "started_at": "2026-10-05T01:25:07.707Z",
+      "cache_key": "6863b9f47b54d7af9a9a67f2baba794034428eed0dc301f20fcec799bf8ae7c7",
+      "input_hashes": {
+        "baseline": "c884ab1a8c257bfccd0316ac47211396067c3c88cfeecf38b806d08cffd1bf8b",
+        "evidence": "9cd81fd20e31436d7d7cda1897ab994721c26577398a668d34d3fb5447afff97",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "027b4aad69f14ec04ff1d9ebadc3772c9b88c48f01cc35f17b435a750655a654",
+        "command": "bcabfcd306d3a1d5d234ac1e396424b5a6853e3bf831c2d0eebc1e35e49d2e42",
+        "standard": "7736ceed97b17a2f4842d47b58bad36a6526db61362ed5b83287be0954d281fb",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "ac14595ef7c7b8efea96d4ab762fab379cacfdb1d990264cbd64b3caefae8425"
+      },
+      "model": "CLI default"
+    }
+  },
+  "baseline_sha256": "35fd1faee677fe54eb82bb947d0036fde98783eb89f7a84911ebdf43a4ae3f29",
+  "materialized_sha256": "35fd1faee677fe54eb82bb947d0036fde98783eb89f7a84911ebdf43a4ae3f29",
+  "expanded": true,
+  "run_status": "running",
+  "editorial_status": "pending",
+  "current_stage": "draft"
+}

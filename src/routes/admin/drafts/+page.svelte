@@ -250,6 +250,7 @@
 		margin: 0 0 0.75rem 0;
 		flex: 1;
 		display: -webkit-box;
+		line-clamp: 3;
 		-webkit-line-clamp: 3;
 		-webkit-box-orient: vertical;
 		overflow: hidden;

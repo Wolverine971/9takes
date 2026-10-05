@@ -95,7 +95,8 @@ const config = ({ command }: ConfigEnv) => ({
 			// /api/* SvelteKit route (see scripts/vercel-add-standalone-functions.mjs).
 			'vercel-functions/**/*.{test,spec}.{js,ts}',
 			'scripts/**/*.{test,spec}.{js,mjs,ts}'
-		]
+		],
+		setupFiles: ['./vitest.setup.ts']
 	},
 	css: {
 		preprocessorOptions: {

@@ -185,7 +185,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
-path: src/blog/people/drafts/Druski.md
+path: docs/content-analysis/pipeline-logs/2026-10-04_16-40-37-053_Druski/edit.md
 ---
 
 In a Diary of a CEO episode released on September 24, 2026, host Steven Bartlett asked Druski what he got out of making people laugh. The answer went back to elementary school. After class he would ask himself, "did I make the class laugh today?" Then he took the question to the other kids: "who's the funniest to you in this class?" When the answer wasn't him, he pushed. "Like, why is Mikey funnier than me? Tell me why." ([The Diary of a CEO, September 24, 2026](https://www.youtube.com/watch?v=UhzI1fg8rCA))

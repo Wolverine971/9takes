@@ -13,18 +13,45 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 402,
+		"candidates": 435,
 		"gateDebt": 0,
 		"topBlog": 40,
 		"peopleBridge": 30,
-		"peopleToPeople": 2,
+		"peopleToPeople": 3,
 		"skipped": 130
 	},
 	"gateDebt": [],
 	"topBlog": [
 		{
+			"id": "/community/enneagram-community -> /enneagram-corner/astrology-and-the-enneagram",
+			"score": 6.05,
+			"target": {
+				"url": "/enneagram-corner/astrology-and-the-enneagram",
+				"title": "What Enneagram Type Is Your Zodiac Sign? The Complete Correlation Chart",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 10859,
+				"clicks": 146,
+				"position": 8.2,
+				"inbound": 8
+			},
+			"source": {
+				"url": "/community/enneagram-community",
+				"file": "src/blog/community/enneagram-community.md",
+				"section": "community",
+				"impressions": 0,
+				"outCount": 7
+			},
+			"line": 272,
+			"anchor": "astrology",
+			"phrase": "astrology",
+			"phraseKind": "curated",
+			"mentionScore": 4.5,
+			"excerpt": "…6, the first page listed two dozen servers bumped within the previous four hours. Only a handful are Enneagram-only. Most are general typology servers that mix the Enneagram with MBTI, Socionics, and sometimes astrology."
+		},
+		{
 			"id": "/community/be-gentle-when-youre-right -> /enneagram-corner/how-to-apologize-like-a-pro",
-			"score": 6.1,
+			"score": 5.79,
 			"target": {
 				"url": "/enneagram-corner/how-to-apologize-like-a-pro",
 				"title": "How to Apologize by Enneagram Type: The Nine Scripts Each Type Skips",
@@ -33,7 +60,7 @@
 				"impressions": 1110,
 				"clicks": 26,
 				"position": 7.8,
-				"inbound": 8
+				"inbound": 9
 			},
 			"source": {
 				"url": "/community/be-gentle-when-youre-right",
@@ -51,7 +78,7 @@
 		},
 		{
 			"id": "/enneagram-corner/enneagram-types-and-career-choices -> /enneagram-corner/how-to-apologize-like-a-pro",
-			"score": 3.83,
+			"score": 3.63,
 			"target": {
 				"url": "/enneagram-corner/how-to-apologize-like-a-pro",
 				"title": "How to Apologize by Enneagram Type: The Nine Scripts Each Type Skips",
@@ -60,7 +87,7 @@
 				"impressions": 1110,
 				"clicks": 26,
 				"position": 7.8,
-				"inbound": 8
+				"inbound": 9
 			},
 			"source": {
 				"url": "/enneagram-corner/enneagram-types-and-career-choices",
@@ -78,7 +105,7 @@
 		},
 		{
 			"id": "/enneagram-corner/enneagram-strengths-and-weaknesses -> /enneagram-corner/how-to-apologize-like-a-pro",
-			"score": 3.74,
+			"score": 3.55,
 			"target": {
 				"url": "/enneagram-corner/how-to-apologize-like-a-pro",
 				"title": "How to Apologize by Enneagram Type: The Nine Scripts Each Type Skips",
@@ -87,7 +114,7 @@
 				"impressions": 1110,
 				"clicks": 26,
 				"position": 7.8,
-				"inbound": 8
+				"inbound": 9
 			},
 			"source": {
 				"url": "/enneagram-corner/enneagram-strengths-and-weaknesses",
@@ -102,33 +129,6 @@
 			"phraseKind": "curated",
 			"mentionScore": 3,
 			"excerpt": "Choose one low-stakes decision and voice your preference before asking the group. For a harder conflict, write the sentence you are avoiding and say it without adding an apology for having a position."
-		},
-		{
-			"id": "/enneagram-corner/enneagram-and-mental-illness -> /enneagram-corner/toxic-traits-relationships-warning-signs",
-			"score": 3.47,
-			"target": {
-				"url": "/enneagram-corner/toxic-traits-relationships-warning-signs",
-				"title": "Red Flags You're Dating a Toxic Version of Each Enneagram Type",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 1839,
-				"clicks": 33,
-				"position": 10.2,
-				"inbound": 3
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-and-mental-illness",
-				"file": "src/blog/enneagram/enneagram-and-mental-illness.md",
-				"section": "enneagram-corner",
-				"impressions": 11948,
-				"outCount": 21
-			},
-			"line": 280,
-			"anchor": "Cheats",
-			"phrase": "cheat",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "- Cheats on tests to maintain top grades"
 		},
 		{
 			"id": "/pop-culture/tech-titans-platform-emperors -> /pop-culture/tech-titans-disruptors",
@@ -186,7 +186,7 @@
 		},
 		{
 			"id": "/community/why-im-selective-sharing-enneagram -> /enneagram-corner/mental-health/enneagram-science-mental-health",
-			"score": 3.37,
+			"score": 3.27,
 			"target": {
 				"url": "/enneagram-corner/mental-health/enneagram-science-mental-health",
 				"title": "Is the Enneagram Scientifically Valid? What Research Says",
@@ -195,7 +195,7 @@
 				"impressions": 4400,
 				"clicks": 5,
 				"position": 9.6,
-				"inbound": 15
+				"inbound": 16
 			},
 			"source": {
 				"url": "/community/why-im-selective-sharing-enneagram",
@@ -212,31 +212,31 @@
 			"excerpt": "\"Are there peer-reviewed research papers on this?\" he asked. \"Sounds like horoscopes.\""
 		},
 		{
-			"id": "/enneagram-corner/how-each-enneagram-type-manipulates -> /enneagram-corner/enneagram-and-mental-illness",
-			"score": 3.27,
+			"id": "/enneagram-corner/enneagram-and-mental-illness -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"score": 3.1,
 			"target": {
-				"url": "/enneagram-corner/enneagram-and-mental-illness",
-				"title": "The Enneagram and Mental Illness: Understand Each Type's Predispositions",
+				"url": "/enneagram-corner/toxic-traits-relationships-warning-signs",
+				"title": "Red Flags You're Dating a Toxic Version of Each Enneagram Type",
 				"kind": "blog",
 				"section": "enneagram-corner",
-				"impressions": 11948,
-				"clicks": 305,
-				"position": 9.7,
-				"inbound": 23
+				"impressions": 1839,
+				"clicks": 33,
+				"position": 10.2,
+				"inbound": 4
 			},
 			"source": {
-				"url": "/enneagram-corner/how-each-enneagram-type-manipulates",
-				"file": "src/blog/enneagram/how-each-enneagram-type-manipulates.md",
+				"url": "/enneagram-corner/enneagram-and-mental-illness",
+				"file": "src/blog/enneagram/enneagram-and-mental-illness.md",
 				"section": "enneagram-corner",
-				"impressions": 3571,
-				"outCount": 20
+				"impressions": 11948,
+				"outCount": 22
 			},
-			"line": 550,
-			"anchor": "narcissism",
-			"phrase": "narcissist",
+			"line": 280,
+			"anchor": "Cheats",
+			"phrase": "cheat",
 			"phraseKind": "gsc",
-			"mentionScore": 3,
-			"excerpt": "**But manipulation crosses into abuse when it becomes pathological**, when it overlaps with [dark triad personality traits](/pop-culture/dark-triad-meets-enneagram) like narcissism, psychopathy, and Machiavellianism."
+			"mentionScore": 1.5,
+			"excerpt": "- Cheats on tests to maintain top grades"
 		},
 		{
 			"id": "/enneagram-corner/enneagram-self-development -> /enneagram-corner/enneagram-vs-personality-frameworks-comparison",
@@ -401,33 +401,6 @@
 			"excerpt": ">This post is part of the Tech Titans Through the Enneagram series. See also"
 		},
 		{
-			"id": "/enneagram-corner/enneagram-harmonic-approaches -> /enneagram-corner/love-languages-and-enneagram-types",
-			"score": 2.79,
-			"target": {
-				"url": "/enneagram-corner/love-languages-and-enneagram-types",
-				"title": "Love Languages & Enneagram Types: The 45-Combination Compatibility Guide (2026)",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 3017,
-				"clicks": 8,
-				"position": 8.7,
-				"inbound": 12
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-harmonic-approaches",
-				"file": "src/blog/enneagram/enneagram-harmonic-approaches.md",
-				"section": "enneagram-corner",
-				"impressions": 55,
-				"outCount": 14
-			},
-			"line": 218,
-			"anchor": "love language",
-			"phrase": "love language",
-			"phraseKind": "curated",
-			"mentionScore": 3,
-			"excerpt": "…tency types need to spend thirty seconds explicitly _acknowledging the feeling_ before moving to solutions. Reactive types need to recognize that solution-mode is the Competency type's love language, not their dismissal."
-		},
-		{
 			"id": "/enneagram-corner/mental-health/enneagram-crisis-management-guide -> /enneagram-corner/depression-patterns-by-enneagram-type",
 			"score": 2.76,
 			"target": {
@@ -482,31 +455,31 @@
 			"excerpt": "**The paradox:** More thinking doesn't lead to better outcomes. Research shows overthinking actually reduces problem-solving ability, increases anxiety and depression risk, impairs decision-making, and disrupts sleep."
 		},
 		{
-			"id": "/enneagram-corner/how-each-enneagram-flexes -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"id": "/enneagram-corner/enneagram-harmonic-approaches -> /enneagram-corner/love-languages-and-enneagram-types",
 			"score": 2.69,
 			"target": {
-				"url": "/enneagram-corner/toxic-traits-relationships-warning-signs",
-				"title": "Red Flags You're Dating a Toxic Version of Each Enneagram Type",
+				"url": "/enneagram-corner/love-languages-and-enneagram-types",
+				"title": "Love Languages & Enneagram Types: The 45-Combination Compatibility Guide (2026)",
 				"kind": "blog",
 				"section": "enneagram-corner",
-				"impressions": 1839,
-				"clicks": 33,
-				"position": 10.2,
-				"inbound": 3
+				"impressions": 3017,
+				"clicks": 8,
+				"position": 8.7,
+				"inbound": 13
 			},
 			"source": {
-				"url": "/enneagram-corner/how-each-enneagram-flexes",
-				"file": "src/blog/enneagram/how-each-enneagram-flexes.md",
+				"url": "/enneagram-corner/enneagram-harmonic-approaches",
+				"file": "src/blog/enneagram/enneagram-harmonic-approaches.md",
 				"section": "enneagram-corner",
-				"impressions": 302,
-				"outCount": 17
+				"impressions": 55,
+				"outCount": 14
 			},
-			"line": 309,
-			"anchor": "cheat",
-			"phrase": "cheat",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "If you want the compliment-version of this cheat sheet, see [How to Compliment Each Enneagram Type](/enneagram-corner/biggest-compliments-to-give-each-enneagram-type)."
+			"line": 218,
+			"anchor": "love language",
+			"phrase": "love language",
+			"phraseKind": "curated",
+			"mentionScore": 3,
+			"excerpt": "…tency types need to spend thirty seconds explicitly _acknowledging the feeling_ before moving to solutions. Reactive types need to recognize that solution-mode is the Competency type's love language, not their dismissal."
 		},
 		{
 			"id": "/enneagram-corner/shadow-work-by-enneagram-type -> /enneagram-corner/enneagram-types-and-career-choices",
@@ -534,33 +507,6 @@
 			"phraseKind": "curated",
 			"mentionScore": 3,
 			"excerpt": "… colleague finally landed her dream job after years of anxiety about making the wrong career move. Within two months, she was already interviewing elsewhere. \"Just in case.\" She couldn't explain why. The job was great. H…"
-		},
-		{
-			"id": "/enneagram-corner/enneagram-instinctual-subtypes -> /enneagram-corner/enneagram-test-comparison-2026",
-			"score": 2.58,
-			"target": {
-				"url": "/enneagram-corner/enneagram-test-comparison-2026",
-				"title": "Best Free Enneagram Tests (2026): An Honest Comparison",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 2112,
-				"clicks": 14,
-				"position": 9.8,
-				"inbound": 6
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-instinctual-subtypes",
-				"file": "src/blog/enneagram/enneagram-instinctual-subtypes.md",
-				"section": "enneagram-corner",
-				"impressions": 6880,
-				"outCount": 16
-			},
-			"line": 31,
-			"anchor": "variants",
-			"phrase": "variant",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "Instinctual variants (also called subtypes or instincts) are the reason two people with the same Enneagram type can seem like different people. There are three: <strong>Self-Preservation (SP)</strong>, focused on safety,…"
 		},
 		{
 			"id": "/pop-culture/breaking-points-enneagram-analysis -> /enneagram-corner/enneagram-compatibility-matrix",
@@ -617,33 +563,6 @@
 			"excerpt": "The nine types also sort into three centers, or triads, each with a default way of handling the anxiety of closeness:"
 		},
 		{
-			"id": "/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten -> /enneagram-corner/toxic-traits-relationships-warning-signs",
-			"score": 2.48,
-			"target": {
-				"url": "/enneagram-corner/toxic-traits-relationships-warning-signs",
-				"title": "Red Flags You're Dating a Toxic Version of Each Enneagram Type",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 1839,
-				"clicks": 33,
-				"position": 10.2,
-				"inbound": 3
-			},
-			"source": {
-				"url": "/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten",
-				"file": "src/blog/guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md",
-				"section": "how-to-guides",
-				"impressions": 1,
-				"outCount": 11
-			},
-			"line": 182,
-			"anchor": "cheat",
-			"phrase": "cheat",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "Why does this matter? Because many people who struggle to name emotions _can_ notice physical sensations. Your body is the cheat sheet your brain never got."
-		},
-		{
 			"id": "/enneagram-corner/enneagram-social-styles -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
 			"score": 2.45,
 			"target": {
@@ -669,6 +588,60 @@
 			"phraseKind": "gsc",
 			"mentionScore": 1.5,
 			"excerpt": "- (C) You find the host and help with whatever needs helping."
+		},
+		{
+			"id": "/enneagram-corner/enneagram-instinctual-subtypes -> /enneagram-corner/enneagram-test-comparison-2026",
+			"score": 2.41,
+			"target": {
+				"url": "/enneagram-corner/enneagram-test-comparison-2026",
+				"title": "Best Free Enneagram Tests (2026): An Honest Comparison",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 2112,
+				"clicks": 14,
+				"position": 9.8,
+				"inbound": 7
+			},
+			"source": {
+				"url": "/enneagram-corner/enneagram-instinctual-subtypes",
+				"file": "src/blog/enneagram/enneagram-instinctual-subtypes.md",
+				"section": "enneagram-corner",
+				"impressions": 6880,
+				"outCount": 16
+			},
+			"line": 31,
+			"anchor": "variants",
+			"phrase": "variant",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "Instinctual variants (also called subtypes or instincts) are the reason two people with the same Enneagram type can seem like different people. There are three: <strong>Self-Preservation (SP)</strong>, focused on safety,…"
+		},
+		{
+			"id": "/enneagram-corner/how-each-enneagram-flexes -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"score": 2.41,
+			"target": {
+				"url": "/enneagram-corner/toxic-traits-relationships-warning-signs",
+				"title": "Red Flags You're Dating a Toxic Version of Each Enneagram Type",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 1839,
+				"clicks": 33,
+				"position": 10.2,
+				"inbound": 4
+			},
+			"source": {
+				"url": "/enneagram-corner/how-each-enneagram-flexes",
+				"file": "src/blog/enneagram/how-each-enneagram-flexes.md",
+				"section": "enneagram-corner",
+				"impressions": 302,
+				"outCount": 17
+			},
+			"line": 309,
+			"anchor": "cheat",
+			"phrase": "cheat",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "If you want the compliment-version of this cheat sheet, see [How to Compliment Each Enneagram Type](/enneagram-corner/biggest-compliments-to-give-each-enneagram-type)."
 		},
 		{
 			"id": "/enneagram-corner/enneagram-test-comparison-2026 -> /enneagram-corner/enneagram-social-styles",
@@ -699,7 +672,7 @@
 		},
 		{
 			"id": "/enneagram-corner/mental-health/enneagram-parenting-mental-health -> /enneagram-corner/love-languages-and-enneagram-types",
-			"score": 2.32,
+			"score": 2.23,
 			"target": {
 				"url": "/enneagram-corner/love-languages-and-enneagram-types",
 				"title": "Love Languages & Enneagram Types: The 45-Combination Compatibility Guide (2026)",
@@ -708,7 +681,7 @@
 				"impressions": 3017,
 				"clicks": 8,
 				"position": 8.7,
-				"inbound": 12
+				"inbound": 13
 			},
 			"source": {
 				"url": "/enneagram-corner/mental-health/enneagram-parenting-mental-health",
@@ -750,6 +723,33 @@
 			"phraseKind": "title",
 			"mentionScore": 2,
 			"excerpt": "… mind runs constant threat-detection. New opportunity? Here are 17 things that could go wrong. New relationship? Let me test them to make sure they won't leave. New project? Better have backup plans for the backup plans."
+		},
+		{
+			"id": "/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"score": 2.21,
+			"target": {
+				"url": "/enneagram-corner/toxic-traits-relationships-warning-signs",
+				"title": "Red Flags You're Dating a Toxic Version of Each Enneagram Type",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 1839,
+				"clicks": 33,
+				"position": 10.2,
+				"inbound": 4
+			},
+			"source": {
+				"url": "/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten",
+				"file": "src/blog/guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md",
+				"section": "how-to-guides",
+				"impressions": 1,
+				"outCount": 11
+			},
+			"line": 182,
+			"anchor": "cheat",
+			"phrase": "cheat",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "Why does this matter? Because many people who struggle to name emotions _can_ notice physical sensations. Your body is the cheat sheet your brain never got."
 		},
 		{
 			"id": "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide -> /enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
@@ -833,31 +833,31 @@
 			"excerpt": "**The invite that works:** \"I really need your help pulling this off. You're the only person I trust to make sure guests feel welcome. Can you help me co-host?\""
 		},
 		{
-			"id": "/how-to-guides/using-the-enneagram-for-self-development -> /enneagram-corner/enneagram-test-comparison-2026",
+			"id": "/enneagram-corner/what-is-a-love-language -> /enneagram-corner/mental-health/enneagram-science-mental-health",
 			"score": 2.12,
 			"target": {
-				"url": "/enneagram-corner/enneagram-test-comparison-2026",
-				"title": "Best Free Enneagram Tests (2026): An Honest Comparison",
+				"url": "/enneagram-corner/mental-health/enneagram-science-mental-health",
+				"title": "Is the Enneagram Scientifically Valid? What Research Says",
 				"kind": "blog",
 				"section": "enneagram-corner",
-				"impressions": 2112,
-				"clicks": 14,
-				"position": 9.8,
-				"inbound": 6
+				"impressions": 4400,
+				"clicks": 5,
+				"position": 9.6,
+				"inbound": 16
 			},
 			"source": {
-				"url": "/how-to-guides/using-the-enneagram-for-self-development",
-				"file": "src/blog/guides/using-the-enneagram-for-self-development.md",
-				"section": "how-to-guides",
-				"impressions": 22,
-				"outCount": 11
+				"url": "/enneagram-corner/what-is-a-love-language",
+				"file": "src/blog/enneagram/what-is-a-love-language.md",
+				"section": "enneagram-corner",
+				"impressions": 0,
+				"outCount": 7
 			},
-			"line": 247,
-			"anchor": "eclectic",
-			"phrase": "eclectic",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "…ous wisdom traditions. Whether you're following a specific faith path or a more eclectic spiritual journey, the Enneagram can deepen your understanding of both yourself and your spiritual practice. Check out our explorat…"
+			"line": 205,
+			"anchor": "Peer-reviewed research",
+			"phrase": "peer-reviewed research",
+			"phraseKind": "curated",
+			"mentionScore": 3,
+			"excerpt": "**Peer-reviewed research.** In 2025, psychologist Sharon Flicker and colleagues rebuilt a love-language questionnaire from the bottom up across three U.S. samples of people in long-term relationships (696, 500, and 499 p…"
 		},
 		{
 			"id": "/enneagram-corner/enneagram-and-adhd-which-types-struggle-most -> /enneagram-corner/mental-health/enneagram-neurodivergence-guide",
@@ -914,60 +914,6 @@
 			"excerpt": "The pressure leading up to it complicates the read. In November 2022, Christopher Hohn — head of activist hedge fund TCI Fund Management — sent Pichai a public letter demanding Google cut headcount and \"aggressive action…"
 		},
 		{
-			"id": "/enneagram-corner/mental-health/enneagram-science-mental-health -> /pop-culture/dark-triad-meets-enneagram",
-			"score": 2.09,
-			"target": {
-				"url": "/pop-culture/dark-triad-meets-enneagram",
-				"title": "Dark Triad Celebrities and the Enneagram: What We Can Actually Say",
-				"kind": "blog",
-				"section": "pop-culture",
-				"impressions": 154,
-				"clicks": 1,
-				"position": 6.1,
-				"inbound": 6
-			},
-			"source": {
-				"url": "/enneagram-corner/mental-health/enneagram-science-mental-health",
-				"file": "src/blog/enneagram/mental-health/enneagram-science-mental-health.md",
-				"section": "enneagram-corner",
-				"impressions": 4400,
-				"outCount": 6
-			},
-			"line": 60,
-			"anchor": "literature",
-			"phrase": "literature",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "That table is less exciting than a brain-scan headline. It is also much closer to what the literature says."
-		},
-		{
-			"id": "/enneagram-corner/enneagram-social-styles -> /enneagram-corner/enneagram-test-comparison-2026",
-			"score": 2.08,
-			"target": {
-				"url": "/enneagram-corner/enneagram-test-comparison-2026",
-				"title": "Best Free Enneagram Tests (2026): An Honest Comparison",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 2112,
-				"clicks": 14,
-				"position": 9.8,
-				"inbound": 6
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-social-styles",
-				"file": "src/blog/enneagram/enneagram-social-styles.md",
-				"section": "enneagram-corner",
-				"impressions": 316,
-				"outCount": 3
-			},
-			"line": 239,
-			"anchor": "variants",
-			"phrase": "variant",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "…rticle — the Hornevian groups. \"Social Subtype\" is one of the three instinctual variants (the one that focuses on group, status, and belonging). A Self-preservation 4 is still socially **Withdrawn**. Same person, differe…"
-		},
-		{
 			"id": "/enneagram-corner/enneagram-online-dating-guide -> /enneagram-corner/enneagram-compatibility-matrix",
 			"score": 2.05,
 			"target": {
@@ -1012,7 +958,7 @@
 				"file": "src/blog/enneagram/enneagram-faqs.md",
 				"section": "enneagram-corner",
 				"impressions": 0,
-				"outCount": 15
+				"outCount": 17
 			},
 			"line": 306,
 			"anchor": "leadership style",
@@ -1101,6 +1047,60 @@
 			"phraseKind": "title",
 			"mentionScore": 2,
 			"excerpt": "…Type 8) broke the taxi industry through raw aggression, and got broken himself. Elon Musk (Type 5) decoded automotive, aerospace, and social media as systems to master. Three 8s and a 5. The 8s broke industries through f…"
+		},
+		{
+			"id": "/how-to-guides/using-the-enneagram-for-self-development -> /enneagram-corner/enneagram-test-comparison-2026",
+			"score": 1.99,
+			"target": {
+				"url": "/enneagram-corner/enneagram-test-comparison-2026",
+				"title": "Best Free Enneagram Tests (2026): An Honest Comparison",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 2112,
+				"clicks": 14,
+				"position": 9.8,
+				"inbound": 7
+			},
+			"source": {
+				"url": "/how-to-guides/using-the-enneagram-for-self-development",
+				"file": "src/blog/guides/using-the-enneagram-for-self-development.md",
+				"section": "how-to-guides",
+				"impressions": 22,
+				"outCount": 11
+			},
+			"line": 247,
+			"anchor": "eclectic",
+			"phrase": "eclectic",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "…ous wisdom traditions. Whether you're following a specific faith path or a more eclectic spiritual journey, the Enneagram can deepen your understanding of both yourself and your spiritual practice. Check out our explorat…"
+		},
+		{
+			"id": "/pop-culture/podcaster-personality-map -> /enneagram-corner/enneagram-types-and-career-choices",
+			"score": 1.99,
+			"target": {
+				"url": "/enneagram-corner/enneagram-types-and-career-choices",
+				"title": "Why You Hate Your Job (It's Not the Boss, It's Your Enneagram Type)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 1889,
+				"clicks": 18,
+				"position": 14.8,
+				"inbound": 8
+			},
+			"source": {
+				"url": "/pop-culture/podcaster-personality-map",
+				"file": "src/blog/pop-culture/podcaster-personality-map.md",
+				"section": "pop-culture",
+				"impressions": 60,
+				"outCount": 13
+			},
+			"line": 69,
+			"anchor": "careers",
+			"phrase": "careers",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "…are editorial interpretations of public work and behavior rather than clinical assessments. Claims about shows, careers, and deals require a first-party source or reputable reporting; none of those facts proves a typing."
 		}
 	],
 	"peopleBridge": [
@@ -1933,6 +1933,25 @@
 			"line": 195,
 			"anchor": "Emma Stone",
 			"excerpt": "Lip Sync Battle, Box of Lies, Wheel of Musical Impressions, Egg Russian Roulette. The genius was never the games themselves. It was that he got A-list stars to look ridiculous and love it. Bradley Cooper lip-syncing with murderous commitment. Emma Stone slaughtering him at a lip sync. Robert De Niro giggling. Barack Obama slow-jamming the news. The most image-managed people alive walked into that studio and put the image down.",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/druski -> /personality-analysis/emma-stone",
+			"source": {
+				"url": "/personality-analysis/druski",
+				"file": "src/blog/people/drafts/Druski.md",
+				"outCount": 7
+			},
+			"target": {
+				"url": "/personality-analysis/emma-stone",
+				"name": "Emma Stone",
+				"inCount": 1,
+				"impressions": 0,
+				"position": null
+			},
+			"line": 335,
+			"anchor": "Emma Stone",
+			"excerpt": "On June 28, 2026, he hosted the BET Awards, then the youngest host in the show's history, checking off a goal from the list he wrote at 23. The tour had come earlier; the movie, a supporting role as Emma Stone's security guard in Universal's [The Catch](https://www.complex.com/pop-culture/a/markelibert/druski-catch-emma-stone-chris-pine-universal), is scheduled for May 21, 2027. That night he also debuted \"JOE,\" a [parody](https://consequence.net/2026/06/druski-joe-jackson-michael-biopic-parody-sketch/) built around the Michael Jackson biopic, playing Joe Jackson in heavy makeup.",
 			"typeClaim": null
 		},
 		{

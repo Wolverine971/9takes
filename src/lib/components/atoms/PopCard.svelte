@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
+	import { prefersReducedMotion } from 'svelte/motion';
 	import { browser } from '$app/environment';
 
 	// Component props with default values
@@ -124,6 +125,9 @@
 	 * Animates the text with a scrambling effect
 	 */
 	function startTextScramble() {
+		// Random letters flickering through the name is motion too (and reads as
+		// gibberish to a screen reader mid-scramble).
+		if (prefersReducedMotion.current) return;
 		const nameElement = document.querySelector(`.name-pop-${namePopId}`);
 		if (!nameElement) return;
 
@@ -213,7 +217,7 @@
 			class:image-card__img--tinted={tint && showDescription && enneagramType}
 			class:personality-portrait-image={imageTreatment === 'personality'}
 			alt={altText || displayText}
-			in:fly={{ y: 200, duration: 2000 }}
+			in:fly={{ y: 200, duration: prefersReducedMotion.current ? 0 : 2000 }}
 		/>
 	{/if}
 
@@ -236,7 +240,7 @@
 				<p
 					class={`name-pop-${namePopId} image-card__title`}
 					data-value={displayText}
-					in:fly={{ y: -200, duration: 2000 }}
+					in:fly={{ y: -200, duration: prefersReducedMotion.current ? 0 : 2000 }}
 				>
 					{displayText}
 				</p>

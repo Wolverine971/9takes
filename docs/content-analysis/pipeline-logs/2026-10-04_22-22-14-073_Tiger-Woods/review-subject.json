@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "44f07324e87e41ba588425c1592316847261a8ec4f437e8c3a66a6d8a2683a03",
+  "evidence_sha256": "14bc405fbd058ff9db7d223e7741f254b0c16c30ecfec1ee22e543de1cd5fb05",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "His own words tie being deserving to earning results, and when his public image and private life split apart, he worked to repair the image.",
+      "problem": "The body says plainly that there is no public record of what Woods himself said or decided about the 2007 Enquirer/Men's Fitness trade and that his representatives may have made it (Pecker's testimony and the HuffPost/NY Post/WSJ reporting describe the deal, not Woods' role). This type answer, and the first FAQ answer ('When his public image and private life split apart, the record shows him repairing the image'), turn that into a personal act by Woods. The summary lines readers and search snippets will see attribute a motive-revealing act to the subject that the record attributes only to 'his side'. This is the discriminator the type rests on, so the overclaim carries weight.",
+      "acceptance_test": "Every summary statement of the discriminator (the type answer under the H2, the FAQs, the description and the 'Why the Three reading still leads' section) either says 'his side' or 'his representatives' for 2007, or rests Woods' personal evidence only on his own 2010 and 2022 words. No sentence says or implies that Woods personally arranged or carried out the 2007 trade."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "The rule about deserving also recurs where the incentives differ: the private self-justification in 2010, the Hall of Fame speech, and a press conference at St Andrews four months later.",
+      "problem": "The 2010 words were not private. They were a scripted, televised crisis statement read after 45 days of inpatient therapy to a room that the draft itself says included sponsors' representatives: the highest-incentive setting in his career. 'I felt I was entitled' is the kind of accountability admission that this setting and treatment context call for, and the evidence record (S01 context, C01 alternative) says the statement uses therapy vocabulary and was shaped by advisers. Line 229 ('not obviously written for sponsors') sets aside commercial authorship but never raises the therapy/script alternative. Treating a ritual public admission as candid evidence of his own operating rule overreads the subject's words, and the profile's central thread leans on it.",
+      "acceptance_test": "The prose calls the 2010 statement a scripted public statement shaped by advisers and the therapy setting. 'Private self-justification' and the claim that incentives differed in 2010 are removed or corrected. The parallel is said to rest mainly on the unscripted 2022 speech (and the LIV remarks), with 2010 presented as consistent but compromised evidence."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "The likeliest explanation for both arrests is the one the record offers: chronic pain after years of spinal surgery.",
+      "problem": "For 2017, Woods himself attributed the arrest to prescribed medication after back surgery. For 2026, the record does not offer this. In the opened Fox News report (S49), Woods does not attribute the crash to pain; his attorney did not respond to questions about the pills or a prescription; his statement speaks only of 'treatment', 'my health' and 'lasting recovery'; and the affidavit reports that he told deputies he had been looking at his phone and adjusting the radio. The draft supplies a medical cause for a sensitive legal matter that the subject has not given, presents it as 'the record', omits his own reported account, and has no claim entry for the causal sentence (C34 leans on the unopened S45 for the surgery context).",
+      "acceptance_test": "The sentence separates the two arrests: 2017 is attributed to Woods' own medication explanation; for 2026 the draft says Woods has not publicly explained the cause, quotes his 'treatment'/'health' wording, and attributes his phone-and-radio account to the affidavit. Any pain or surgery context is attributed to reporting from an opened source. The causal claim is added to the inventory as time_sensitive with a review trigger, or cut."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "What they show is a way of handling exposure unchanged since 2009: a written statement, a request for privacy, and, on June 23, 2026, a first public appearance as chairman of a PGA Tour committee that consisted of a prepared statement and no questions",
+      "problem": "On June 23, 2026, his criminal case was pending: he had pleaded not guilty and demanded a jury trial (S49), and the plea came on September 2. Taking no questions in that window is ordinary legal advice, the alternative the evidence record itself lists (C35), but the prose leaves it out and reads the silence as a character pattern. 'Unchanged since 2009' also conflicts with the draft's own sources: a month after the 2010 statement he gave interviews with no question restrictions (S05, quoted in the draft), and in November 2021 he gave Golf Digest a long interview. The passage ties a decades-long psychological pattern to a pending prosecution while omitting the obvious reason.",
+      "acceptance_test": "The passage says the case was pending and names counsel-driven silence as a sufficient explanation for the no-questions appearance. 'Unchanged' is dropped, or qualified with the March 2010 interviews and the 2021 interview as counterexamples. If neither can be done, the pattern claim is cut."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "His breath test was negative, he refused a urine test, and the arrest affidavit reported two hydrocodone pills in his pocket",
+      "problem": "The refusal comes from the sheriff and the affidavit but is stated as fact, while the pills alone are attributed. The draft also omits that Woods first pleaded not guilty and that the DUI charge was resolved as reckless driving: ABC (S53) and CBS (S54) disagree on guilty versus no contest but agree on the amended reckless-driving charge. 'A plea deal on reduced charges' leaves 'DUI' as the reader's last impression of what the record established.",
+      "acceptance_test": "The refusal and the pills are both attributed to the sheriff or affidavit. The article notes his initial not-guilty plea and names the amended charge (reckless driving) while staying neutral on the disputed plea type."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "Williams was fired in 2011 and had a book to sell, but Woods conceded the substance in 2010: \"I need to make my behavior more respectful of the game.\"",
+      "problem": "A general pledge in February 2010 cannot concede the specific claims in a 2015 tell-all (spitting at the hole, tossing clubs toward the bag as if Williams were a servant). 'Conceded the substance' turns broad self-criticism into an admission of a hostile witness's account. The credibility caveat is also thin: the evidence record notes that Williams made a racially charged public remark about Woods in 2011 (S22 context), and Woods' recorded response to Williams ('I know he looks at it probably differently than I do. But, hey, life goes forward', S22) is missing.",
+      "acceptance_test": "'Conceded the substance' is replaced with an accurate relation: Woods said in 2010 that he needed to make his behavior more respectful, which broadly fits reports of his temper. The specific spitting and club claims stay attributed to Williams. The credibility note includes the 2011 remark (sourced) or Woods' 2011 response."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "Thompson reported that as a teenager Tiger had been upset about his father's infidelity; Paul Fregia, the first director of the Tiger Woods Foundation, said, \"In some respects, he became what he loathed about his father.\" No type explains that, and this profile won't try.",
+      "problem": "This sits under 'The coldness is the second gap', but none of it is about coldness. Jordan's 'no companion' line in the ESPN feature is a friend's worry ('He has to find that happiness within his life, that's the thing that worries me'), and the draft recasts it as evidence of coldness. The infidelity detail is Thompson's narration about a teenager's private grief and a deceased parent. Fregia's line is a former employee's moral verdict, from a story for which 'Woods' camp declined to comment'. The draft says it will not explain the material, so it does no analytic work while importing a damaging judgment the subject cannot answer.",
+      "acceptance_test": "Either the infidelity/Fregia sentences are cut, or they get a stated analytic role with visible limits (a single former employee, a 2016 hindsight feature, Woods' camp declined to comment). Jordan's line is presented as concern about isolation, not as evidence of coldness."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "Seventy-nine days later he made a public confession on television.",
+      "problem": "The juxtaposition reads as a single reversal from 'personal sins should not require press releases' to a televised confession. It omits that on December 11, 2009, nine days after the privacy statement and amid mounting reports, Woods admitted 'infidelity' in a written statement, apologized and announced an indefinite break (confirmed in a reproduced copy of the text; the evidence record holds it only as unopened S04). The omission makes the subject look more inconsistent than the sequence shows.",
+      "acceptance_test": "The sequence includes the December 11, 2009 written admission, sourced from an opened copy, or the sentence is rephrased so it no longer presents privacy-to-confession as one jump."
+    },
+    {
+      "id": "subject-09",
+      "severity": "minor",
+      "passage": "On May 29, 2017, about seven weeks after spinal fusion surgery, Woods was arrested for DUI in Jupiter, Florida.",
+      "problem": "Factual timing error. The opened CBS source (S23) cites Woods' website describing the fusion as 'just over a month' before the arrest. The surgery was in mid-to-late April 2017 (April 19–20 by my own recollection; I did not confirm that date in an opened source), which puts the arrest at roughly six weeks. The S23 context entry repeats 'about seven weeks' without support.",
+      "acceptance_test": "The interval matches an opened source ('just over a month' or 'about six weeks', with the surgery date confirmed), and the C29 passage and S23 context are updated to match."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "There is no public record of what Woods himself said or decided; his representatives may have made the deal. What the record shows is the trade: a published picture of a fit, married man for an unpublished one.",
+      "reason": "A model separation of public record from inference on the most sensitive thesis-bearing anecdote. Keep it, and make the summaries match it (subject-01)."
+    },
+    {
+      "passage": "He had spent 45 days in inpatient therapy for what he called only \"the issues I'm facing.\"",
+      "reason": "Declines to import the widely circulated 'sex addiction' label the subject never used. Fair, precise and verifiable against S01."
+    },
+    {
+      "passage": "which the sheriff attributed to unsafe speed, with no evidence of impairment and no citation",
+      "reason": "Includes the exculpatory official findings on the 2021 crash, so the two DUI arrests do not contaminate it."
+    },
+    {
+      "passage": "Haney later said, \"He wanted to be a Navy SEAL. For sure that was on his list\"; Woods' agent, Mark Steinberg, said Haney had twisted Woods' \"high respect for the military\"",
+      "reason": "Gives the subject's side its response right next to a disputed claim from an estranged coach. This is the response pattern other third-party claims should follow."
+    },
+    {
+      "passage": "None of this proves a type. A child put on television at two, called the Chosen One and taught that results answer exclusion could build his identity around performance whatever his core motive.",
+      "reason": "Keeps circumstance (Earl's mythmaking, racial exclusion) from being passed off as evidence of motive, and avoids inventing a childhood wound."
+    }
+  ],
+  "assessment": "As a fairness proxy, this draft is better than most. It attributes nearly all third-party claims, carries the AMI denial and Steinberg's rebuttal, notes that Woods did not take part in the Thompson feature, labels Uchitel's view as interested interpretation, and avoids a diagnosis. The failures are where summary and late sections drop the hedges the body earns: the type answer and FAQ assign the 2007 image trade to Woods personally (subject-01); a scripted, therapy-shaped crisis statement is treated as a 'private' window into his motive (subject-02); and the 2026 section supplies a medical cause and a character pattern the record does not support, while omitting his not-guilty plea, his reported account to deputies, the amended charge and the pending-case reason for silence (subject-03 to subject-05). Two smaller issues stack hostile or gratuitous material without its limits: Williams (subject-06) and the Fregia/infidelity lines (subject-07). One timing error needs correcting (subject-09). A smaller point not raised as a finding: the Uchitel passage could say that Woods did not take part in HBO's Tiger, and 'independently' is generous when two of the three corroborators are one reporter's unnamed sources and the third may be his agents' act. Sources I opened for this review: the CBS 2017 statement (S23), Fox News on the 2026 affidavit (S49), the Thompson ESPN feature (S17: the 77-minute line, Jordan's and Fregia's context, and 'Woods' camp declined to comment'), and a reproduced copy of the December 11, 2009 statement (the CNN copy returned HTTP 451). Similarity diagnostic: the tripped pair ('the public record' against Margaret Qualley) and the top pair ('a Five tends to leave the stage' against Alexandr Wang) are ordinary phrasing and standard type vocabulary, not reused arguments, so no finding. Risk flags: sensitive allegations, contested typing (medium confidence, a strong Eight case) and historical source uncertainty (decades-later recollections, relay-only 2021 quotes, a conflict over the 2026 plea type) all apply. The expanded jury is required."
+}

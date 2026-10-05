@@ -40,6 +40,8 @@
 	import PeopleBlogPageHead from '$lib/components/blog/PeopleBlogPageHead.svelte';
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
 	import PeopleSuggestionsSideBar from '$lib/components/blog/PeopleSuggestionsSideBar.svelte';
+	import BetaRailCard from '$lib/components/blog/BetaRailCard.svelte';
+	import ExperimentalTherapyInvite from '$lib/components/blog/ExperimentalTherapyInvite.svelte';
 	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
 	// Lazy-loaded RelatedPosts component
 	import RelatedPosts from '$lib/components/molecules/RelatedPosts.svelte';
@@ -52,6 +54,7 @@
 	import ArticleSources from '$lib/components/blog/ArticleSources.svelte';
 	import EvidenceFigure from '$lib/components/blog/EvidenceFigure.svelte';
 	import FAQSection from '$lib/components/blog/FAQSection.svelte';
+	import OpenCaseNote from '$lib/components/blog/OpenCaseNote.svelte';
 
 	export let data: PageData;
 
@@ -203,6 +206,9 @@
 	// otherwise a proven live question (chosen in +page.server.ts). Identical
 	// for every visitor, so it can live in the ISR copy.
 	$: chorus = data.chorus ?? null;
+	// Open case: a thin-record profile (pipeline-set profile_format). Adds the
+	// header marker and the closing format note; standard profiles are untouched.
+	$: isOpenCase = data.isOpenCase === true;
 	// The article author chooses the dossier's exact location with an
 	// <EnneagramTypeDossier /> element in the source markdown. Without that
 	// explicit slot, the article renders uninterrupted and no dossier appears.
@@ -565,11 +571,24 @@
 
 		<div class="case-file-inner">
 			<div class="case-file-text">
-				<div class="case-file-kicker">
+				<div class="case-file-kicker" class:case-file-kicker--open-case={isOpenCase}>
 					<SectionKicker
 						num={dossierNum}
 						label={`TYPE ${typeNum ?? '—'} · ${typeNameUpper || 'CASE FILE'}`}
 					/>
+					<!-- Thin-record profile: the type above is the leading read, not a
+					     verdict. Jumps to the closing note that explains the format. -->
+					{#if isOpenCase}
+						<a
+							class="case-file-status"
+							href="#open-case"
+							aria-label="Open case: see how this profile works"
+						>
+							<span class="case-file-status-ring" aria-hidden="true"></span>
+							Open case
+							<span class="case-file-status-arrow" aria-hidden="true">↓</span>
+						</a>
+					{/if}
 				</div>
 
 				{#key post.slug}
@@ -707,6 +726,10 @@
 				{@render chorusBlock()}
 			{/if}
 
+			{#if isOpenCase}
+				<OpenCaseNote personName={postDisplayName} />
+			{/if}
+
 			<AuthorBio />
 		</div>
 	</section>
@@ -723,16 +746,27 @@
 <!-- Floating related-personalities rail — the curated `suggestions` graph,
      mirrored on the left of the TOC. Desktop only; auto-hides near the top and
      bottom of the page so it never collides with the "Further analysis" block.
-     Inline list suppressed: that bottom section is the canonical related block. -->
+     Inline list suppressed: that bottom section is the canonical related block.
+     The beta card rides at the top of this rail on wide screens; narrower
+     screens get it inside the article instead (ExperimentalTherapyInvite). -->
 {#key post.slug}
-	{#if postSuggestions.length || (data.bridgeLinks?.length ?? 0)}
-		<PeopleSuggestionsSideBar
-			links={postSuggestions}
-			bridgeLinks={data.bridgeLinks ?? []}
-			showInline={false}
-			hideBeforeBottom={1400}
-		/>
-	{/if}
+	<PeopleSuggestionsSideBar
+		links={postSuggestions}
+		bridgeLinks={data.bridgeLinks ?? []}
+		showInline={false}
+		hideBeforeBottom={1400}
+	>
+		<svelte:fragment slot="lead">
+			<BetaRailCard surface="celebrity" personName={postDisplayName} />
+		</svelte:fragment>
+	</PeopleSuggestionsSideBar>
+	<ExperimentalTherapyInvite
+		surface="celebrity"
+		personName={postDisplayName}
+		articleSelector=".breakdown-inner .article-body"
+		fraction={0.7}
+		floatingRail={false}
+	/>
 {/key}
 
 <!-- =====================================================================
@@ -991,6 +1025,61 @@
 
 	.case-file-kicker {
 		margin-bottom: 4px;
+	}
+
+	/* Open-case profiles only: the type kicker and its status marker share a
+	   row and wrap together on narrow screens. */
+	.case-file-kicker--open-case {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 8px 12px;
+	}
+
+	/* "Open case" marker — a case-file status stamp in the kicker's mono voice,
+	   not a warning: dashed amber outline, hollow ring for "still open". */
+	.case-file-status {
+		display: inline-flex;
+		align-items: center;
+		gap: 7px;
+		min-height: 26px;
+		padding: 3px 9px 3px 8px;
+		font-family: var(--font-mono);
+		font-size: 11px;
+		font-weight: 600;
+		line-height: 1;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		white-space: nowrap;
+		text-decoration: none;
+		color: var(--lamp-glow);
+		background: transparent;
+		border: 1px dashed color-mix(in srgb, var(--lamp-glow) 60%, transparent);
+		border-radius: 4px;
+		transition:
+			background-color 0.18s ease,
+			border-color 0.18s ease;
+
+		/* Focus ring comes from the global `a:focus-visible` rule. */
+		&:hover {
+			background: var(--lamp-soft);
+			border-style: solid;
+			border-color: var(--lamp-glow);
+		}
+	}
+
+	.case-file-status-ring {
+		width: 8px;
+		height: 8px;
+		flex-shrink: 0;
+		border: 1.5px solid currentColor;
+		border-radius: 50%;
+	}
+
+	.case-file-status-arrow {
+		color: var(--ink-dim);
+		font-weight: 500;
+		letter-spacing: 0;
 	}
 
 	.case-file-name {
@@ -1374,6 +1463,12 @@
 
 		:global(.faq-section) {
 			padding-inline: 0;
+		}
+
+		/* Open-case note: the header marker jumps here; leave breathing room
+		   above it instead of landing flush with the viewport edge. */
+		:global(.open-case-note) {
+			scroll-margin-top: 24px;
 		}
 	}
 

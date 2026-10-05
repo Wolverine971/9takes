@@ -123,7 +123,6 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
-path: docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/draft.md
 ---
 
 On January 21, 2023, Ben Shelton walked onto John Cain Arena in Melbourne to play Alexei Popyrin, the local hope, in the third round of the Australian Open. He was 20, five months into his professional career, and on his first trip outside the United States. The crowd booed him before the first ball. "They kind of set the tone when I walked out on the court, and I got booed (laughing)," he said afterward. "First time at a pro match that that's happened. I mean, it was unreal."

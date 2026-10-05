@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "44f07324e87e41ba588425c1592316847261a8ec4f437e8c3a66a6d8a2683a03",
+  "evidence_sha256": "14bc405fbd058ff9db7d223e7741f254b0c16c30ecfec1ee22e543de1cd5fb05",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Woods' side did the opposite, twice: in 2007 a cleaner picture went out while a contradicting one stayed buried, and in 2010 he asked to be believed in again.",
+      "problem": "The deciding discriminator rests on two events where commercial incentive predicts the same behavior in any type. The draft's own 2007 section says there is no record of what Woods said or decided and his representatives may have made the deal, yet this section counts the trade as one of the two instances that decide his type. The 2010 apology was read to a room including sponsors' representatives after sponsors had dropped him. The draft also skips the one uncoerced response in the sequence. In the December 2, 2009 statement (S03, reopened 2026-10-04), Woods refused the public's claim on principle: 'I realize there are some who don't share my view on that. But for me, the virtue of privacy is one that must be protected ... I must stick to that principle even though it's difficult.' That is the boundary-holding move the draft assigns to Eights and Fives. The image-repair move came only after the commercial fallout. The Eight move is also stated as a stereotype: 'own it and dare people to object' is not what an Eight with a nine-figure endorsement portfolio and a family to shield would predictably do. As written, the discriminator does not separate Three from Eight.",
+      "acceptance_test": "The type section (and the matching sentence in 'What is Tiger Woods' personality type?') (a) weights the 2007 trade as an act by Woods' camp, not as evidence of his motive, unless a source documents his role; (b) names the December 2009 'stick to that principle' refusal as counterevidence and explains why the later confession, not the first refusal, is the diagnostic move; and (c) describes the Eight's likely response under commercial exposure without the 'dare people to object' caricature. FAQ 1's 'the record shows him repairing the image' is narrowed to the 2010 statement or matched to the revised argument."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "Michael Jordan told Thompson that Woods has \"no companion\" and is \"gonna have to trust somebody.\"",
+      "problem": "The draft has no incentive-independent observation separating Three from Eight and Five, yet the source it already cites contains one. Thompson's 2016 ESPN feature (S17, reopened 2026-10-04) reports that Jordan calls Woods 'Rabbit Ears' because 'He hears everything.' It quotes Jordan directly on Woods' public shaming: 'That bothers him more than anything ... It looms. It's in his mind ... He wants to erase the things that happened.' That describes private, sustained distress over public judgment years after the commercial damage was done. It directly tests the claim that an Eight 'barely registers the audience' and that a Five detaches from others' opinions. The draft quotes Jordan only on trust and isolation, and the evidence record has no claim for this passage. The Three case currently depends on sponsor-confounded events (see enneagram-01) and an interested party (Uchitel), while stronger evidence from a named, friendly witness goes unused.",
+      "acceptance_test": "The 'Why the Three reading still leads' section (or the Uchitel paragraph) quotes Jordan's 'Rabbit Ears ... He hears everything' and 'That bothers him more than anything ... He wants to erase the things that happened' verbatim, attributed to Jordan via Thompson (ESPN, April 21, 2016). It separates Jordan's direct quote from Thompson's narration ('perhaps sitting up in the middle of the night ...' is narration, not testimony) and states its limits: one friend's account, which also fits Six-style rumination. A matching claim with S17 and the exact passage is added to the evidence record."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "He was a PGA Tour stakeholder, so institutional loyalty explains part of that. But it is the rule again: money not earned in competition doesn't count.",
+      "problem": "The profile's central thread, the earn-it/deserve rule, is used as type evidence without saying why it is Three-specific. Its recurrence across contexts shows the rule is sincerely held. It does not show which motive holds it. An Eight's contempt for players who won't 'earn it in the dirt', a One's moral desert ('you don't deserve it') and Earl's military code (which the draft credits) would all produce the same LIV quote and the same Hall of Fame line. The draft dismisses the One reading in one clause and never tests the rule against the Eight. The part of the rule that could favor Three is the 2010 use: results converted into a personal license ('worked hard my entire life and deserved ... I felt I was entitled'). There, worth earned through achievement justifies the self, where an Eight's appetite usually needs no earned justification. The draft gestures at this ('The rule that built the career had become a license') but does not make it the argument.",
+      "acceptance_test": "Either one or two sentences in 'Why the Three reading still leads' state what in the deserving rule separates Three from Eight and One (for example, achievement-as-license in 2010 versus moral desert or strength), or the LIV and Hall of Fame recurrences are explicitly labeled as consistent with several types, not counted as discriminator evidence."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "minor",
+      "passage": "In 2004, when Harmon, by then a TV commentator, criticized his swing, Woods said Harmon \"doesn't really know what I'm working on\" and added, \"If you go say something like that, you go right up to my face and say it\" ([ESPN, June 19, 2004](https://www.espn.co.uk/golf/usopen04/news/story?id=1824929)). That face-to-face code is a textbook Eight line.",
+      "problem": "This piece of evidence is miscounted for the alternative. In the source (S27, reopened 2026-10-04), Woods' objection is that Harmon criticized him publicly, on Sky Sports, instead of privately. Insisting that criticism stay out of public view is at least as consistent with protecting the public picture (Three) as with Eight directness. The same article has Harmon saying that Woods' repeated 'I am close, I feel really good about what I am doing' during a ten-major drought 'might be a bit of denial'. That is a coach describing Woods projecting success during failure, which bears on the Three hypothesis, and the draft omits it. 'Textbook Eight line' overstates a one-way reading.",
+      "acceptance_test": "The 2004 episode is presented as reading both ways: the Eight's direct-confrontation code and the Three's wish to keep criticism out of public view. 'Textbook' is removed or qualified. Optionally, Harmon's 'I am close ... a bit of denial' remark is quoted with attribution and his incentive as a TV critic and former coach."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "minor",
+      "passage": "But a Five usually minimizes appetite and avoids spectacle. Woods sought golf's largest stage for three decades and kept returning after injuries that would have ended most careers.",
+      "problem": "Half of the anti-Five argument does not discriminate. For a professional golfer, majors are where the competition and the mastery are tested. A Five who had made golf their domain of competence would play them too, so 'sought golf's largest stage' describes the job, not a motive. The returns after injury fit an Eight or plain competitive need just as well. The appetite half is valid but is carried only by the 2009 affairs. The stronger anti-Five evidence (sustained distress over public judgment; see enneagram-02) is unused.",
+      "acceptance_test": "The Five rebuttal rests on an observation a domain-mastery Five would not produce, such as the appetites of 2009, or Jordan's account of Woods being unable to let go of what is said about him. The 'largest stage' clause is cut or qualified as weak."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "An Eight's appetite for intensity, a [Six](/enneagram-corner/enneagram-type-6)'s loyalty to a father's code, or grief fits more naturally.",
+      "problem": "Six is invoked to explain the behavior the Three reading cannot, but it is never tested as a type. A counterphobic Six is a standard alternative for athletes typed Eight, and the record offers it real material: identification with the father's military code and world, the loyalty/betrayal framing ('turned their back', 'say it to my face'), low trust ('gonna have to trust somebody'), danger-seeking after Earl's death (SEALs, skydiving), and reproducing Earl's tests on Charlie. Using a type as an explanation for the gaps while leaving it out of the type contest is convenient. There is a sourced discriminator against Six: Woods' conspicuous lack of doubt and his overriding of authority ('I'm playing the U.S. Open and I'm going to win'; telling doctors 'Ah, I don't know about that'). Seven is similarly skipped, though 'deserved to enjoy all the temptations' and 'stop following every impulse' are Seven-flavored and the evidence record flags them (C37).",
+      "acceptance_test": "The alternatives section includes one or two sentences testing Six (and optionally Seven) with a sourced discriminator, such as the absence of doubt or authority-seeking against Six, or the grinding, pain-accepting practice regime against Seven. Alternatively, the SEAL passage stops offering Six as an explanation."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "An Eight tends to own the appetite openly; a Five tends to leave the stage.",
+      "problem": "Similarity lead checked. The 'public record' match with margaret-qualley is an ordinary disclaimer phrase and not reuse. The meaningful overlap is the argument. The Michael Jordan profile (also typed Three over Eight) uses the same discriminator: 'An Eight torches the sponsor and keeps the conviction. Jordan kept the sponsor.' Here, an Eight would own the appetite, and Woods' side protected the picture. Both profiles type an endorsement-dependent athlete a Three because the athlete protected a commercial image, and that argument would type nearly any sponsored star a Three. The one-line type-contrast formula also echoes alexandr-wang ('A Five leaves the room to feel something'). The house pattern of type summaries in single aphorisms invites the stereotyped Eight and Five definitions criticized in enneagram-01 and enneagram-05.",
+      "acceptance_test": "The Three-vs-Eight discriminator in this profile rests on at least one Woods-specific observation that is not a sponsor-protection move (for example, the Jordan 'Rabbit Ears' testimony or the 2010 achievement-as-license logic). The one-line Eight/Five definitions are replaced with descriptions tied to what each type would have done in Woods' actual situations."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "It is the same rule both times: work earns results, and results make you deserving. In 2022 the rule explained a career. In 2010 it explained an exemption: \"I convinced myself that normal rules didn't apply.\"",
+      "reason": "The profile's distinctive insight, built from two verbatim self-reports twelve years apart. It is the strongest Three-relevant thread when framed as achievement licensing the self (see enneagram-03). Sharpen how it is used as type evidence; do not cut the observation."
+    },
+    {
+      "passage": "It was a joke, and it was his: the public Tiger Woods as an outfit. Thompson's narration goes further: \"it starts to seem like he's doing an impersonation of what he thinks a superstar athlete is supposed to be.\" That is a reporter's synthesis, and it reads two ways. For a Three, the impersonation is the point, a self assembled to look like success. For a Five, the introvert with a book is the real man and the superstar a costume the money required.",
+      "reason": "A model of honest type reasoning. It separates Woods' own words from the reporter's synthesis and gives the competing type its best reading in the same breath."
+    },
+    {
+      "passage": "The Eight explanation still answers the broken leg better, and the coldness and temper cut against a Three's usual charm. That is why confidence is medium.",
+      "reason": "Calibrated confidence that names exactly what the leading type fails to explain. Keep it through any strengthening of the discriminator."
+    },
+    {
+      "passage": "This is the hardest stretch for a Three reading: a dangerous arena with no gallery and no golf payoff, pursued at real cost after his father's death.",
+      "reason": "Confronts the most damaging counterevidence directly instead of absorbing it with a wing or arrow. The profile sensibly makes no wing or arrow claims at all."
+    },
+    {
+      "passage": "Woods spent a career proving he deserved to be Tiger Woods. That night, briefly, he described it as something other people had given him.",
+      "reason": "An ending that closes the deserving thread on sourced words ('a team award') without forcing interiority or a CTA."
+    }
+  ],
+  "assessment": "Type 3 at medium confidence is defensible, and the profile is unusually honest: it gives Eight its best evidence (the 2008 U.S. Open), concedes the temper and coldness, keeps an unexplained section, and makes no wing or arrow claims. The weakness is the discriminator. 'What he does when the picture and the private reality diverge' is tested only on the 2007 Enquirer trade (Woods' role undocumented) and the 2010 televised apology (sponsor-pressured), so commercial incentive predicts the result for any type. The uncoerced December 2009 privacy refusal points the other way and goes unaddressed. The earn-it rule is sincere across contexts but is never shown to be Three-specific rather than an Eight, One or Earl-code ethic. The cited Thompson feature holds a better, incentive-independent discriminator that the draft omits: Jordan's 'Rabbit Ears ... He hears everything' and 'That bothers him more than anything ... He wants to erase the things that happened.' Several one-line type contrasts ('textbook Eight line', 'a Five tends to leave the stage') are stereotypes. The 2004 'say it to my face' remark was an objection to public criticism on TV and reads at least as plausibly as Three. Six is invoked to explain the SEAL chapter but never tested, and the Three-over-Eight-because-he-protected-the-sponsor argument repeats the Michael Jordan profile. None of this requires changing the type. It requires re-grounding the decisive argument in Woods-specific evidence. Sources reopened for this review on 2026-10-04: S03 (December 2009 statement, full text), S02 (Globe and Mail 2010 transcript; the CNN copy S01 returned HTTP 451), S17 (Thompson, ESPN 2016: Jordan passage) and S27 (ESPN 2004: Harmon on Sky Sports, 'denial')."
+}

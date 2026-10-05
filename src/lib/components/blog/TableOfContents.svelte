@@ -6,8 +6,11 @@
 	import '../../../scss/blog.scss';
 	import { onMount, onDestroy, afterUpdate } from 'svelte';
 	import { fly } from 'svelte/transition';
+	import { prefersReducedMotion } from 'svelte/motion';
 	import { writable, type Writable } from 'svelte/store';
 	import { browser } from '$app/environment';
+	import { replaceState } from '$app/navigation';
+	import { page } from '$app/state';
 
 	export let contentStore: Writable<string>;
 
@@ -661,8 +664,30 @@
 		restoreTocLink(link);
 	}
 
+	/**
+	 * Move keyboard/screen-reader focus to the section a TOC link targets, so the
+	 * next Tab continues from that heading and focus is never stranded inside the
+	 * accordion we just collapsed. Headings aren't focusable, so a temporary
+	 * tabindex="-1" is added and removed again on blur.
+	 */
+	function focusTocTarget(target: HTMLElement) {
+		if (!target.hasAttribute('tabindex')) {
+			target.setAttribute('tabindex', '-1');
+			target.setAttribute('data-toc-focus-target', '');
+			target.addEventListener(
+				'blur',
+				() => {
+					target.removeAttribute('tabindex');
+					target.removeAttribute('data-toc-focus-target');
+				},
+				{ once: true }
+			);
+		}
+		target.focus({ preventScroll: true });
+	}
+
 	function handleTocClick(e: MouseEvent) {
-		// Handle smooth scrolling when clicking TOC links
+		// Handle in-page scrolling when clicking TOC links
 		const link = getTocLink(e.target);
 		if (link?.hash) {
 			const targetId = link.hash.substring(1);
@@ -681,9 +706,18 @@
 				const elementPosition = targetElement.getBoundingClientRect().top;
 				const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
+				// Keep the URL shareable (#section) without the browser's native jump.
+				try {
+					replaceState(`#${targetId}`, page.state);
+				} catch {
+					// Hash sync is a nicety; never let it block scrolling or focus.
+				}
+
+				focusTocTarget(targetElement);
+
 				window.scrollTo({
 					top: offsetPosition,
-					behavior: 'smooth'
+					behavior: prefersReducedMotion.current ? 'auto' : 'smooth'
 				});
 			}
 		}
@@ -841,7 +875,10 @@
 		style="{sidebarPosition.left
 			? `left: ${sidebarPosition.left}`
 			: `right: ${sidebarPosition.right}`};"
-		transition:fly={{ x: sidePosition === 'left' ? -100 : 100, duration: 300 }}
+		transition:fly={{
+			x: sidePosition === 'left' ? -100 : 100,
+			duration: prefersReducedMotion.current ? 0 : 300
+		}}
 		aria-label="Table of contents"
 	>
 		<nav aria-label="Table of contents">
@@ -992,11 +1029,36 @@
 			color: var(--lamp-glow);
 			background-color: var(--lamp-soft);
 		}
+
+		/* Keyboard ring. Inset because .toc-accordion clips overflow; radius
+		   follows the card so the ring corners aren't cut off. */
+		&:focus-visible {
+			outline: 2px solid var(--lamp-glow);
+			outline-offset: -2px;
+			border-radius: inherit;
+		}
 	}
 
 	/* Rotate arrow when open */
 	:global(details[open]) .toc-summary::before {
 		transform: rotate(90deg);
+	}
+
+	:global(details[open]) > .toc-summary:focus-visible {
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	/* Headings a TOC link moved focus to (tabindex="-1" added on click). Mouse
+	   users see no ring; keyboard users get the system lamp ring. */
+	:global([data-toc-focus-target]:focus:not(:focus-visible)) {
+		outline: none;
+	}
+
+	:global([data-toc-focus-target]:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 4px;
+		border-radius: 4px;
 	}
 
 	.toc-accordion-content {

@@ -1,0 +1,23 @@
+I've written the fairness review of the Tiger Woods draft to `review-subject.json`. It passes the pipeline's review schema, its hashes match the request, and every passage it quotes appears word for word in the draft. That's the only file I wrote; nothing was published.
+
+**Overall:** the draft is fairer than most. It attributes most outside claims to their sources, includes the tabloid publisher's denial and Woods' agent's rebuttal of his old coach, and doesn't label him a sex addict. The problems are where the summaries and later sections drop the caveats the body is careful to make.
+
+**Major findings (4):**
+- **The type answer and FAQ overclaim the 2007 tabloid deal.** They say Woods personally "worked to repair the image." The body itself says his representatives may have made the deal, and that deal is the main evidence for typing him a 3 rather than an 8.
+- **The 2010 apology is treated as candid.** The draft calls it his "private self-justification," but it was a scripted TV statement made after 45 days of inpatient therapy, with sponsors' representatives in the room. "I felt I was entitled" is the kind of admission that setting calls for.
+- **The draft supplies a cause for the 2026 arrest that Woods never gave.** It says chronic pain from spinal surgery is "the one the record offers." I opened the Fox report: Woods didn't blame pain, his lawyer didn't respond to questions about the pills, and the affidavit says he told deputies he'd been looking at his phone and adjusting the radio. The draft leaves that out.
+- **Legal caution is read as a personality pattern.** The draft says his no-questions appearance in June 2026 shows a way of handling exposure "unchanged since 2009." But his court case was still open then, and the draft's own sources include his open interviews in 2010 and a long one in 2021.
+
+**Minor findings (5):**
+- The 2026 section doesn't say he first pleaded not guilty, or that the charge ended up as reckless driving rather than DUI.
+- It says Woods "conceded" his former caddie's 2015 book claims with a general pledge he made back in 2010, five years before the book.
+- A paragraph labeled "coldness" includes his father's infidelity, a harsh verdict from a former foundation director, and a worried line from Michael Jordan presented as evidence of coldness.
+- It skips his December 11, 2009 written admission of infidelity, so going from asking for privacy to a TV confession looks like one sudden reversal.
+- The 2017 timing is wrong: "about seven weeks after spinal fusion surgery" should be about six. The CBS source says "just over a month"; I didn't confirm the exact surgery date from a source.
+
+**Other notes:**
+- I flagged five passages to protect, including the careful wording on the tabloid deal and the line that refuses to name a diagnosis.
+- The similarity check flagged phrases like "the public record," but they're ordinary wording, not reused arguments, so I didn't raise them.
+- All three risk flags are on (sensitive allegations, contested typing, uncertain sources), so this draft needs the full six-reviewer panel.
+
+**Unavailable this session:** the Supabase connector failed to connect. Several other connectors (Ahrefs, Figma, Slack, GitHub and others) need authorization in your claude.ai connector settings or via `/mcp`. This review didn't need any of them.

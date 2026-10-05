@@ -1,0 +1,27 @@
+I've written the Enneagram review for the Tiger Woods draft to `review-enneagram.json` in the run directory. It passes the repo's review schema, and no other files were changed or published.
+
+**Verdict:** Type 3 at medium confidence holds up. The problem is the argument used to choose 3 over 8, which is weaker than it looks. Nothing I found calls for changing the type. The editor needs to rebuild that argument on evidence specific to Woods.
+
+**Findings (3 major, 4 minor):**
+1. **Major: the deciding test doesn't actually separate 3 from 8.** The draft decides it on two events where any sponsored athlete would act the same way:
+   - The 2007 Enquirer trade, where the draft itself admits Woods' personal role is undocumented.
+   - The 2010 apology, read with sponsors' representatives in the room.
+
+   The draft also skips his first, unpressured response. His December 2009 statement refused on principle: "I must stick to that principle even though it's difficult." That reads like the Eight/Five move the draft says he didn't make.
+2. **Major: the best evidence is already in a cited source but unused.** Wright Thompson's ESPN feature, which the draft quotes, has Michael Jordan calling Woods "Rabbit Ears," because "He hears everything." Jordan also says, "That bothers him more than anything… He wants to erase the things that happened." Distress about public judgment years after the commercial damage was done is a much better 3-vs-8 test than the sponsor-driven events.
+3. **Major: the "earn it / deserve it" thread isn't shown to be a Type 3 trait.** An Eight, a One, or his father Earl's military code would produce the same LIV and Hall of Fame quotes. The Three-specific part is the 2010 logic: achievement turned into a personal license.
+4. **Minor: one piece of Eight evidence is miscounted.** The 2004 "say it to my face" remark was Woods objecting that his former coach, Butch Harmon, criticized him publicly on Sky Sports. Wanting criticism kept out of public view fits 3 at least as well as 8. The same article has Harmon calling Woods' "I am close" claims "a bit of denial," which the draft leaves out.
+5. **Minor:** "Sought golf's largest stage" is the job description of any pro golfer, so it doesn't rule out Type 5.
+6. **Minor:** The draft uses Type 6 to explain Woods' Navy SEAL period but never tests it. Seven gets no test either.
+7. **Minor: the main argument repeats the Michael Jordan profile.** That profile also picks 3 over 8 because the athlete protected his sponsors, an argument that would make nearly any sponsored star a Three. The "public record" overlap the similarity check flagged with Margaret Qualley is just a standard phrase, not reuse.
+
+I protected five passages for the editor to keep:
+- the "same rule both times" opening insight
+- the reading of the Halloween costume text as either a Three or a Five
+- the medium-confidence concession
+- the SEAL counterevidence
+- the "team award" ending
+
+All four risk flags except a major thesis change are on, so the six-reviewer panel stays required.
+
+I reopened four sources: the December 2009 statement, the Globe and Mail copy of the 2010 apology transcript, Thompson's 2016 ESPN feature, and the 2004 ESPN Harmon article. The CNN copy of the 2010 transcript returned HTTP 451 (unavailable for legal reasons), so I checked against the Globe and Mail copy instead.

@@ -718,7 +718,6 @@
 		border-bottom: 1px solid var(--stone-edge);
 		line-height: 1.5;
 	}
-	.kv-list code,
 	.page-section code {
 		font-family: var(--font-mono);
 		font-size: 0.88em;

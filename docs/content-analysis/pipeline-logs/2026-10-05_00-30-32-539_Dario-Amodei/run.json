@@ -1,0 +1,55 @@
+{
+  "schema_version": 3,
+  "subject": "Dario-Amodei",
+  "mode": "refresh",
+  "started_at": "2026-10-05T00:30:32.541Z",
+  "stages": {
+    "research": {
+      "status": "complete",
+      "started_at": "2026-10-05T00:30:32.549Z",
+      "cache_key": "0588a781210fc1b744138336db52519e180a203af3166f294df8486cc83e1668",
+      "input_hashes": {
+        "baseline": "bf0108ee26ceba7d80114b8efc175e2229def950e9b9bab937f562665e9fbce8",
+        "research_notes": "7916f45e0aee1ffe202030c8d692316d06a42ab859288e15ce18c81527f010de",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "027b4aad69f14ec04ff1d9ebadc3772c9b88c48f01cc35f17b435a750655a654",
+        "command": "2fb89b06fb7ae4d5f77a7de81fee26e8c8c09a29ab923d201690a22794c29eac",
+        "standard": "7736ceed97b17a2f4842d47b58bad36a6526db61362ed5b83287be0954d281fb",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "ac14595ef7c7b8efea96d4ab762fab379cacfdb1d990264cbd64b3caefae8425"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "evidence.json": "9da20d3e7e16f19df836a62a2583f84923a8157eceb53b83ebfb0a68b1a25071"
+      },
+      "finished_at": "2026-10-05T00:54:04.045Z",
+      "duration_seconds": 1411
+    },
+    "draft": {
+      "status": "failed",
+      "started_at": "2026-10-05T01:03:22.116Z",
+      "cache_key": "5e233c255bd2696e7bc18cd16b62c95a219f0650ab0a31149a75a6a61897f108",
+      "input_hashes": {
+        "baseline": "bf0108ee26ceba7d80114b8efc175e2229def950e9b9bab937f562665e9fbce8",
+        "evidence": "9da20d3e7e16f19df836a62a2583f84923a8157eceb53b83ebfb0a68b1a25071",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "027b4aad69f14ec04ff1d9ebadc3772c9b88c48f01cc35f17b435a750655a654",
+        "command": "bcabfcd306d3a1d5d234ac1e396424b5a6853e3bf831c2d0eebc1e35e49d2e42",
+        "standard": "7736ceed97b17a2f4842d47b58bad36a6526db61362ed5b83287be0954d281fb",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "ac14595ef7c7b8efea96d4ab762fab379cacfdb1d990264cbd64b3caefae8425"
+      },
+      "model": "CLI default",
+      "error": "Claude exited 1",
+      "finished_at": "2026-10-05T01:03:25.850Z",
+      "duration_seconds": 4
+    }
+  },
+  "baseline_sha256": "a1973766ae47789e76c466a6b17a6417e7352330f29db2a7c859ffac4d41b04b",
+  "materialized_sha256": "a1973766ae47789e76c466a6b17a6417e7352330f29db2a7c859ffac4d41b04b",
+  "expanded": true,
+  "run_status": "failed",
+  "editorial_status": "pending",
+  "current_stage": "draft",
+  "error": "Claude exited 1"
+}

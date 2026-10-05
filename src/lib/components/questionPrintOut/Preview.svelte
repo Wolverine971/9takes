@@ -66,7 +66,7 @@
 		{#if !position.isBackground}
 			<img
 				src={image}
-				alt="User uploaded image"
+				alt="User upload"
 				class="draggable-image"
 				style="position: absolute; left: {position.x}px; top: {position.y}px;"
 				draggable="true"
@@ -77,7 +77,7 @@
 			<div
 				class="background-image"
 				style="background-image: url({image}); position: absolute; left: {position.x}px; top: {position.y}px; width: 100%; height: 100%; opacity: 0.3; pointer-events: none;"
-			/>
+			></div>
 		{/if}
 	{/each}
 </div>

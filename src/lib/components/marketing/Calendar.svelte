@@ -360,34 +360,32 @@
 				{/each}
 
 				{#each calendarDays as day}
-					<div
-						class="day-cell"
-						class:is-today={day && day.toDateString() === todayDate.toDateString()}
-						class:is-empty={!day}
-						class:is-active={!!day}
-						role={day ? 'button' : undefined}
-						tabindex={day ? 0 : undefined}
-						onclick={() => day && openCreateModal(day)}
-						onkeydown={(event) => {
-							if (!day) return;
-							if (event.key === 'Enter' || event.key === ' ') {
-								event.preventDefault();
-								openCreateModal(day);
-							}
-						}}
-					>
-						{#if day}
+					{#if day}
+						{@const dayContent = filteredContentItems
+							.filter((item) => new Date(item.scheduled_date).toDateString() === day.toDateString())
+							.sort(sortContentByDateTime)}
+						<div
+							class="day-cell is-active"
+							class:is-today={day.toDateString() === todayDate.toDateString()}
+							role="button"
+							tabindex="0"
+							onclick={() => openCreateModal(day)}
+							onkeydown={(event) => {
+								// Keys pressed on the chips/"more" buttons inside bubble up here;
+								// only the cell itself should open the create modal.
+								if (event.target !== event.currentTarget) return;
+								if (event.key === 'Enter' || event.key === ' ') {
+									event.preventDefault();
+									openCreateModal(day);
+								}
+							}}
+						>
 							<div
 								class="day-number"
 								class:today-number={day.toDateString() === todayDate.toDateString()}
 							>
 								{day.getDate()}
 							</div>
-							{@const dayContent = filteredContentItems
-								.filter(
-									(item) => new Date(item.scheduled_date).toDateString() === day.toDateString()
-								)
-								.sort(sortContentByDateTime)}
 							<div class="day-content">
 								{#each dayContent.slice(0, 3) as item (item.id)}
 									<button
@@ -437,8 +435,10 @@
 									</button>
 								{/if}
 							</div>
-						{/if}
-					</div>
+						</div>
+					{:else}
+						<div class="day-cell is-empty"></div>
+					{/if}
 				{/each}
 			</div>
 		</div>

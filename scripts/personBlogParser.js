@@ -32,7 +32,7 @@ import {
 	normalizePersonalitySuggestions
 } from './lib/personalitySeo.js';
 import { getPerspectivePublishStatus } from './lib/perspectiveReview.js';
-import { isV3, priorBlockers, checkDraft } from './lib/blogEditorial.js';
+import { isV3, priorBlockers, checkDraft, QUALITY_GATES } from './lib/blogEditorial.js';
 import { isInternalLinkOnlyChange } from './lib/linkOnlyChange.js';
 
 dotenv.config();
@@ -61,7 +61,8 @@ dotenv.config();
  *   needs_review?: boolean,
  *   first_overall?: number,
  *   regrade_overall?: number,
- *   grade_stability_delta?: number
+ *   grade_stability_delta?: number,
+ *   profile_format?: 'open_case'
  * }} ContentQuality
  */
 
@@ -183,6 +184,12 @@ const BLOG_HISTORY_SIGNATURE_SENTINEL_ID = 2147483648;
 const PEOPLE_ATOMIC_UPDATE_RPC = 'update_blogs_famous_people_if_unchanged';
 const PEOPLE_DRAFTS_DIR = 'src/blog/people/drafts';
 const PUBLISH_MIN_CONTENT_GRADE = 8.5;
+/** Open cases carry their own release floor (see QUALITY_GATES in lib/blogEditorial.js).
+ * @param {ContentQuality | null | undefined} quality */
+const publishMinContentGrade = (quality) =>
+	quality?.profile_format === 'open_case'
+		? QUALITY_GATES.open_case.overall
+		: PUBLISH_MIN_CONTENT_GRADE;
 // Audit 2026-06-10: v1 grades clustered 8.5-9.4 and were discoverability-blind. Publishing
 // requires a rubric-v2 grade and the v2 discoverability gate (>=7). Re-grade with /grade_blog.
 const PUBLISH_REQUIRED_RUBRIC_VERSION = 2;
@@ -422,6 +429,8 @@ export function normalizeContentQuality(raw) {
 	if (firstOverall !== null) normalized.first_overall = firstOverall;
 	if (regradeOverall !== null) normalized.regrade_overall = regradeOverall;
 	if (gradeStabilityDelta !== null) normalized.grade_stability_delta = gradeStabilityDelta;
+	// Runner-set marker; the profile page renders the open-case badge/note from it.
+	if (qualityInput.profile_format === 'open_case') normalized.profile_format = 'open_case';
 
 	return Object.keys(normalized).length > 0 ? normalized : undefined;
 }
@@ -1097,8 +1106,10 @@ export async function readPublishCandidate(filePath) {
 		blockers.push('missing_content_quality');
 	} else if (!entry._has_valid_content_quality || qualityOverall === null) {
 		blockers.push('invalid_content_quality');
-	} else if (qualityOverall < PUBLISH_MIN_CONTENT_GRADE) {
-		blockers.push(`content_quality_below_${PUBLISH_MIN_CONTENT_GRADE}:${qualityOverall}`);
+	} else if (qualityOverall < publishMinContentGrade(entry.content_quality)) {
+		blockers.push(
+			`content_quality_below_${publishMinContentGrade(entry.content_quality)}:${qualityOverall}`
+		);
 	} else {
 		const rubricVersion = entry.content_quality?.rubric_version ?? null;
 		const discoverability = normalizeScore(entry.content_quality?.discoverability);

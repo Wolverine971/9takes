@@ -17,6 +17,16 @@ export const DIMENSIONS = {
 	durability: 0.15,
 	hook: 0.05
 };
+// Release floors by profile format. An open case (early-career subject whose
+// record cannot yet separate the leading type from its alternatives) is scored
+// against its own anchors and floors; source/claim integrity gates never relax.
+export const QUALITY_GATES = {
+	standard: { overall: 8.5, discoverability: 7, evidence: 8, enneagram: 8, durability: 8 },
+	open_case: { overall: 8, discoverability: 7, evidence: 7.5, enneagram: 7, durability: 7 }
+};
+/** @param {{profile_format?: string} | null | undefined} record */
+export const profileFormat = (record) =>
+	record?.profile_format === 'open_case' ? 'open_case' : 'standard';
 const text = z.string().trim().min(1);
 const strings = z.array(text);
 const hash = z.string().regex(/^[a-f0-9]{64}$/);
@@ -74,7 +84,17 @@ export const evidenceSchema = z.object({
 		alternative_case: text,
 		discriminator: text,
 		unexplained: text
-	})
+	}),
+	// Optional so evidence written before open cases parses (and hashes) unchanged.
+	profile_format: z.enum(['standard', 'open_case']).optional(),
+	open_case: z
+		.object({
+			reason: text,
+			live_alternatives: z.array(z.number().int().min(1).max(9)).min(1),
+			settle_signals: z.array(text).min(2),
+			next_review: z.string().regex(/^\d{4}-\d{2}-\d{2}$/)
+		})
+		.optional()
 });
 const findingSchema = z.object({
 	id: text,
@@ -145,6 +165,7 @@ export const verificationSchema = z.object({
 	metadata_consistent: z.boolean(),
 	alternative_type_addressed: z.boolean(),
 	five_year_test_passed: z.boolean(),
+	open_case_eligible: z.boolean().optional(),
 	scores: z.object({
 		evidence: assessmentSchema,
 		enneagram: assessmentSchema,
@@ -270,10 +291,18 @@ export function validateEvidence(raw, subject, markdown) {
 	for (const id of h.for_claim_ids)
 		if (!evidence.claims.some((c) => c.id === id))
 			throw new Error(`Type hypothesis references missing ${id}`);
+	const openCase = profileFormat(evidence) === 'open_case';
+	if (openCase) {
+		if (!evidence.open_case) throw new Error('Open-case evidence requires an open_case record');
+		if (h.confidence === 'high') throw new Error('An open case cannot claim high confidence');
+		// Contested typing by definition: route open cases to the full jury.
+		if (!evidence.risks.contested_typing)
+			throw new Error('Open-case evidence must flag contested_typing');
+	}
 	if (evidence.status === 'ready') {
 		if (
 			!h.type ||
-			h.confidence === 'low' ||
+			(h.confidence === 'low' && !openCase) ||
 			!h.alternative_type ||
 			h.alternative_type === h.type ||
 			h.for_claim_ids.length < 2
@@ -387,8 +416,8 @@ export function checkDraft(markdown) {
 		words
 	};
 }
-/** @param {Verification} verification */
-export function calculateQuality(verification) {
+/** @param {Verification} verification @param {'standard' | 'open_case'} [format] */
+export function calculateQuality(verification, format = 'standard') {
 	const scores =
 		/** @type {{[K in keyof Verification['scores']]: number} & Record<string, number>} */ (
 			Object.fromEntries(
@@ -409,7 +438,9 @@ export function calculateQuality(verification) {
 		graded_at: new Date().toISOString().slice(0, 10),
 		caps_applied: [],
 		needs_review: verification.status !== 'pass',
-		content_sha256: verification.content_sha256
+		content_sha256: verification.content_sha256,
+		// Synced to the DB; the profile page reads it to render the open-case badge/note.
+		...(format === 'open_case' ? { profile_format: 'open_case' } : {})
 	};
 }
 
@@ -480,13 +511,23 @@ export function assessEditorial({
 		if (verification.evidence_sha256 !== sha256(JSON.stringify(evidence)))
 			blockers.push('stale_evidence_verification');
 		if (verification.status !== 'pass') blockers.push(`verification:${verification.status}`);
+		const format = profileFormat(evidence);
+		// An open case is time-bound by design; its durability duty is to stay honest
+		// (dated claims, named settle signals), and an independent verifier must confirm
+		// the subject genuinely qualifies rather than being a shortcut past hard research.
 		for (const flag of /** @type {const} */ ([
 			'coverage_complete',
 			'metadata_consistent',
 			'alternative_type_addressed',
-			'five_year_test_passed'
+			...(format === 'open_case' ? [] : /** @type {const} */ (['five_year_test_passed']))
 		]))
 			if (!verification[flag]) blockers.push(`verification:${flag}`);
+		if (format === 'open_case') {
+			if (verification.open_case_eligible !== true)
+				blockers.push('verification:open_case_eligible');
+			if (!/^##\s+What would settle it\b/im.test(matter(markdown, {}).content))
+				blockers.push('open_case_missing_settle_section');
+		}
 		for (const f of verification.findings)
 			if (f.severity !== 'minor') blockers.push(`unresolved:${f.id}:${f.problem}`);
 		unique(
@@ -529,12 +570,14 @@ export function assessEditorial({
 				!verification.prior_blocker_checks.some((c) => c.blocker === b && c.accepted)
 			)
 				blockers.push(`unresolved_prior_blocker:${b}`);
-		const quality = calculateQuality(verification);
-		if (quality.overall < 8.5) blockers.push(`overall_below_8.5:${quality.overall}`);
-		if (quality.discoverability < 7)
-			blockers.push(`discoverability_below_7:${quality.discoverability}`);
+		const quality = calculateQuality(verification, format);
+		const gate = QUALITY_GATES[format];
+		if (quality.overall < gate.overall)
+			blockers.push(`overall_below_${gate.overall}:${quality.overall}`);
+		if (quality.discoverability < gate.discoverability)
+			blockers.push(`discoverability_below_${gate.discoverability}:${quality.discoverability}`);
 		for (const key of /** @type {const} */ (['evidence', 'enneagram', 'durability']))
-			if (quality[key] < 8) blockers.push(`${key}_below_8:${quality[key]}`);
+			if (quality[key] < gate[key]) blockers.push(`${key}_below_${gate[key]}:${quality[key]}`);
 		return { eligible: blockers.length === 0, blockers, quality };
 	} catch (error) {
 		return {

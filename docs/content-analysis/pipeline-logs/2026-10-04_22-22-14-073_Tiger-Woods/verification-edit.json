@@ -1,0 +1,1318 @@
+{
+  "schema_version": 3,
+  "content_sha256": "6a02e7c30ea46a642297197be52599216e790a9dee28e88ea458b782fc215212",
+  "evidence_sha256": "018d7e25ac1528f777df7d603101cff0c390cce789c228069bcc207ffb9887a2",
+  "status": "revise",
+  "findings": [
+    {
+      "id": "V-01",
+      "severity": "major",
+      "passage": "One unnamed friend said: \"Frankly, the real Tiger Woods isn't that marketable. There isn't a lot of money to be made off a guy who just wants to be left alone to read a book.\" Another: \"Tiger was a natural introvert, and the financial interest for him to be extroverted really drove a wedge in his personality.\"",
+      "problem": "Speaker error that invents a second corroborating witness. In the full text of Thompson's April 21, 2016 ESPN feature (S17), both lines are one continuous quotation from a single unnamed friend: '\"Frankly, the real Tiger Woods isn't that marketable,\" a friend says. \"There isn't a lot of money to be made off a guy who just wants to be left alone to read a book. Or left alone to play fetch with his dog. ... Do you see a trend? Tiger was a natural introvert, and the financial interest for him to be extroverted really drove a wedge in his personality.\"' The draft splits it into 'One unnamed friend ... Another', FAQ 3 repeats the split in a search-visible answer ('One friend told ESPN's Wright Thompson that Woods was \"a natural introvert,\" another that he \"just wants to be left alone to read a book\"'), and the Uchitel paragraph says 'what unnamed friends told one reporter'. The Five case and the man-versus-persona thread both lean on this testimony, so overstating its independence matters. The evidence record (C12, C91, C93) has the same error.",
+      "acceptance_test": "The body attributes both lines to the same unnamed friend (for example, 'One unnamed friend said: \"...read a book.\" The same friend added: \"Tiger was a natural introvert...\"'), with any omission marked by an ellipsis. FAQ 3 attributes both phrases to one friend. 'what unnamed friends told one reporter' becomes singular. C12, C91 and C93 are corrected to one speaker. No sentence in the body, FAQs or evidence implies two independent friends."
+    },
+    {
+      "id": "V-02",
+      "severity": "major",
+      "passage": "Jordan was speaking six years after the apology. A man who wants the record erased is still living inside other people's picture of him.",
+      "problem": "Context error in the stated discriminator. In S17, between Thompson's 'He hears everything.' and Jordan's 'That bothers him more than anything,' Thompson writes: 'For Tiger, this dwelling on old mistakes is a path to madness. Nothing can take him back to 2006 and give him a second chance.' Jordan then says: 'It looms. It's in his mind. It's a ship he can't right and he's never going to. What can you do? The thing is about T-Dub, he cannot erase. That's what he really wants. He wants to erase the things that happened.' The draft's splice drops the bridge, so 'That' seems to point at public commentary, while in the source it follows regret over old mistakes and a lost second chance. The draft builds on that reading three times: 'A man who wants the record erased' turns 'erase the things that happened' (the events) into the public record; the One rebuttal says 'Jordan describes torment over what people say', although regret over the acts is what the draft says a One's inner critic produces; and the Five rebuttal says Jordan 'worries about a man who can't stop reading it', where Thompson wrote 'perhaps sitting up in the middle of the night reading'. The evidence record's own alternatives for C95 and C132 note this limit; the prose does not. Since this passage carries the Three over the Eight, Five and One, the overreach goes to the core of the type argument.",
+      "acceptance_test": "(1) The Jordan passage conveys Thompson's bridging framing, quoted or accurately summarized ('dwelling on old mistakes', no 'second chance'), so 'That bothers him' keeps its source referent. (2) 'wants the record erased' is replaced with wording faithful to 'He wants to erase the things that happened'. (3) The One rebuttal ('What tips against the One...') no longer says Jordan describes torment only over what people say. It rests the image reading on the reading-what-people-write and 'Rabbit Ears' details, labeled as Thompson's report of Jordan's worry, and concedes that wanting to undo the past fits a One's inner critic or ordinary regret as well. (4) 'can't stop reading it' matches Thompson's 'perhaps ... reading'. (5) C81, C95, C130, C132 and C133 are updated to match. Confidence stays medium or is reconsidered explicitly, and the repaired paragraph is reverified."
+    },
+    {
+      "id": "V-03",
+      "severity": "minor",
+      "passage": "Nothing shows Woods made the 2007 deal.",
+      "problem": "Slight understatement against the article's own cited source. HuffPost (S10) relays the Wall Street Journal, citing 'people directly involved in the arrangement', that 'Mr. Woods agreed to the cover shot and photo spread in Men's Fitness ... in return for the National Enquirer squelching a story', and that when approached, Woods' reps 'almost immediately \"made an offer\"'. So 'Nothing shows' and the protected 'There is no public record of what Woods himself said or decided' go further than the record. What is missing is a first-hand or on-record account of his personal role, not any reporting at all. The error leans toward the subject and leaves the argument unaffected (the crisis sequence is correctly treated as non-discriminating), but it is a factual characterization of a cited source.",
+      "acceptance_test": "The type section and/or the 2007 paragraph say accurately that 2010 reporting (WSJ, citing people involved, via S10) said Woods agreed to the shoot in exchange for the story being dropped and that his representatives made the offer, while there is no first-hand account of his own role. The protected passage's separation of record from inference is kept. The conclusion that the crisis cannot separate a Three from an Eight may stand."
+    },
+    {
+      "id": "V-04",
+      "severity": "minor",
+      "passage": "read a prepared statement about his affairs to an invited room at TPC Sawgrass in Florida. He took no questions.",
+      "problem": "Unsourced metadata-level fact. The venue and the no-questions format are true: AP (via MPR News, February 19, 2010) reports he spoke 'from the clubhouse at the TPC Sawgrass, home of the PGA Tour' and 'no questions were allowed'. But neither linked transcript (S02 inline, S01) says so, and no opened source in the inventory does, while C126 (FAQ 4: 'took no questions') cites only the transcripts. The 'unequal evidence' argument leans on the setting.",
+      "acceptance_test": "An opened source stating the venue and that no questions were taken (for example https://www.mprnews.org/story/2010/02/19/tiger-woods-speech) is added to the evidence with locator and excerpt. It is cited in C126 and linked at the hook or FAQ 4."
+    },
+    {
+      "id": "V-05",
+      "severity": "minor",
+      "passage": "After a February 23, 2021, crash near Rancho Palos Verdes, California",
+      "problem": "Location does not match the cited source. The linked ESPN report (S41, April 7, 2021) places the crash 'in Rolling Hills Estates, just outside Los Angeles'. The site is on the Rolling Hills Estates / Rancho Palos Verdes border, so the draft is not false, but the passage's own citation does not support it.",
+      "acceptance_test": "The sentence matches the cited source ('in Rolling Hills Estates, near Los Angeles') or cites an opened source for 'near Rancho Palos Verdes'. C32 is updated."
+    }
+  ],
+  "research_tasks": [],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Verbatim in the CNN transcript (S01, raw page retrieved by direct fetch) and the Globe and Mail copy (S02): 'I felt that I had worked hard my entire life and deserved to enjoy all the temptations around me. I felt I was entitled.' Labeled in prose as his post-treatment public account."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "S01 reads 'it's not what you achieve in life that matters, it is what you overcome' exactly as quoted (S02 has 'it's what you overcome'); 'one day believe in me again' in both copies."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "Fox reproduction of the December 2, 2009 statement (S03) contains 'transgressions', 'an important and deep principle', the 'Personal sins...public confessions' sentence and 'stick to that principle even though it's difficult' verbatim."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "qualified",
+      "reason": "Fox (S09, April 26, 2024) reports Pecker 'said he bought the photos and buried them in return for Woods appearing on the magazine'; the passage is accurate. The claim's accompanying hedge (no public record of Woods' role) understates S10, which relays the WSJ, citing people involved, that 'Mr. Woods agreed to the cover shot ... in return for the National Enquirer squelching a story' and that his reps 'made an offer'. See V-03."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "ESPN (S07, Harig, March 22, 2017) quotes the book: 'I probably came back too early from some of the surgeries, but I was single-minded in my desire to compete and my need for competition.'"
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "S06 oral history: Williams, 'I think I asked him on three separate occasions if it was the right thing to carry on. And I got the same reply each time: F--- you, Stevie, I'm winning this tournament.' Attributed to Williams."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "S08 (Australian Golf Digest, Dec 30, 2025) quotes How I Play Golf: 'I didn't see one flaw. I saw about 10' and 'I had struck the ball great that week, but by my standard, I felt I had gotten away with murder.' 12-shot record confirmed in S71."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "ASAP transcript (S14) contains the quoted words; the ellipses drop 'you don't go out and put in the effort' and 'So that defined my upbringing', neither of which changes meaning. Credited to his father in prose."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "S14 and S13 both contain 'I hit thousands of balls, hands bleeding, aching, just so that I could play in a tournament.'"
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "GOLF.com (S15, July 12, 2022) contains 'getting paid a lot of money up front' and 'What is the incentive to go out there and earn it in the dirt?'"
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "qualified",
+      "reason": "Words are verbatim in S17, but the raw article text shows both lines are ONE continuous quotation from the same unnamed friend ('...left alone to read a book. Or left alone to play fetch with his dog. ... Do you see a trend? Tiger was a natural introvert...'). The claim and the prose ('Another:') invent a second witness. See V-01."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "S17: 'when Notah asked about his costume, Tiger wrote back. \"I'm going as a golfer known as Tiger Woods.\"' Begay was his college friend; 'texted' is a fair rendering of 'wrote back'."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "S17: 'Talk to enough people who've met him and it starts to seem like he's doing an impersonation of what he thinks a superstar athlete is supposed to be.' Labeled as Thompson's synthesis."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "Fox (S18, Jan 6, 2021) quotes Uchitel from HBO's Tiger verbatim; prose labels it her interpretation and notes her interest."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "S17: 'Seventy-seven minutes after touching down in Kansas, Tiger took off again'; 'TWENTY-FIVE DAYS after he buried his father and 15 before the 2006 U.S. Open, Tiger went back to visit the Navy SEALs'; 'My dad'; the 2006 missed cut; 'Dec. 30, 2006 -- his 31st birthday -- in San Diego skydiving with SEALs.'"
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "ESPN (S60, Evans, July 12, 2014) recalls the 2006 line: 'I'm kind of the one who bottles things up a little bit and moves on, tries to deal with things in my own way.' Quoted portion is exact."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Wire report (S25, March 23, 1997): the GQ article 'was based in part on an interview Woods gave during a limousine ride', quotes him telling jokes, and his statement says 'naive about the motives of certain ambitious writers'. Pierce's text (S26) places some jokes at the photo shoot, so 'in a limousine' is slightly loose but matches the cited report."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "ESPN (S27, June 19, 2004): 'he doesn't really know what I'm working on ... and no one knows' and 'If you go say something like that, you go right up to my face and say it.'"
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "Slate (S70, July 2000) quotes Earl from Gary Smith's SI piece: 'He is the Chosen One. He'll have the power to impact nations. Not people. Nations.' Also in S56. Tiger's reply correctly omitted."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "AP via Fox (S28, Aug 6, 2013): '4-year-old son, Charlie' and 'If they play golf, no lessons. We are just going to go out there and just have fun.'"
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "GOLF.com (S64) lists the 1978 Mike Douglas Show appearance at age 2."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "S14 verbatim: 'I was not allowed in the clubhouses where all the other juniors were. The color of my skin dictated that. As I got older, that drove me even more' and 'Put my shoes on here in the parking lot. I asked two questions only ... Where was the 1st tee, and what was the course record.'"
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "ESPN (S11, April 13, 2013): his account 'I went 2 yards further back'; disqualification waived under Rule 33; 'I understand and accept the penalty and respect the Committees' decision.'"
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "CBS (S23): 'an unexpected reaction to prescribed medications', 'I expect more from myself, too', and his own 'just over a month since I underwent fusion surgery'; S72 dates the fusion April 20, 2017. 'A little over a month' is accurate."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "S71 and S38 (2019 Masters press conference, 'one closer at 15') confirm the 2019 Masters win after the 2017 fusion."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "qualified",
+      "reason": "ESPN (S41, April 7, 2021) confirms 'speed unsafe for the road conditions', 'no evidence of impairment' and 'No traffic citations were issued', but places the crash 'in Rolling Hills Estates, just outside Los Angeles', not near Rancho Palos Verdes. See V-05."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "AP via PGA Tour (S47): rollover crash on Jupiter Island, negative breath test, refused urine test, played TGL 'on Tuesday night' (three days earlier). Fox (S49) quotes the affidavit: phone and radio, 'two white pills ... identified as hydrocodone'. Attributed in prose."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "ESPN (S52, June 23, 2026): Woods, chairman of the Future Competition Committee, 'read from a prepared statement ... and didn't take questions'; not-guilty plea pending (S49, S53). Prose offers legal caution as the explanation and no longer counts it as type evidence."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "S01/S02: 'Buddhism, which my mother taught me at a young age' and 'It teaches me to stop following every impulse and to learn restraint.' Prose treats it as weak, doctrinal evidence."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "AP via Fox (S21, Nov 2, 2015) quotes Williams' book: 'flippantly toss a club in the general direction of the bag' and 'habit of spitting at the hole if he missed a putt'. Attributed to a named hostile witness."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "ESPN (S05, March 21, 2010): 'stripping away denial and rationalization you start coming to the truth of who you really are'. 'A month later' is accurate (Feb 19 to Mar 21)."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "TODAY (S33, May 1, 2024) quotes the Carson Daly interview verbatim."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "NBC Sports (S19, Feb 29, 2012) has Haney's 'He wanted to be a Navy SEAL. For sure that was on his list' and Steinberg's 'high respect for the military'. IBT (S20) supports only the dispute context (Steinberg calling Haney's book 'self-serving ... full of guesses')."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "S17: '\"He has ...\" Jordan says ... \"... no companion. He has to find that happiness within his life, that's the thing that worries me ... He's gonna have to trust somebody.\"' Framed correctly as worry about isolation."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "S14: 'at the age of 14-1/2 we took out a second mortgage so I could go out and play the AJGA Tour'; Golf Channel (S12): 'when Tiger signed his first deal with Titleist, the first thing he did was pay off that loan.'"
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "ESPN (S07) quotes the memoir: 'My dishonesty and selfishness caused her intense pain.' 'My regret will last a lifetime.' The memoir is named at the passage."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "Wikipedia (S71): 'Eldrick Tont \"Tiger\" Woods (born December 30, 1975)', born Cypress, California."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "S14 matches each element: mother dropped him at the entryway, south side of The Ditch out of the clubhouse's sight, 'a former special forces and a Green Beret', the foliage instructions, '(laughter). Part sniper.', Earl's cart. 'Played until dark' slightly simplifies 'it was already dark ... 17 holes in the dark'."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "Labeled author interpretation of S14; the motif is used with restraint and recurs on sourced events (2008 concealment, 2006 tears)."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Golf Channel (S12): 'He was slated to talk for seven minutes. But he spoke for nearly 17, without notes or the use of a teleprompter.' PGA Tour's 'approximately 15' correctly not used."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "Interpretation resting on verified S01 and S14 wording; the next paragraph states the two halves are unequal evidence."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "S01/S02: 'But I convinced myself that normal rules didn't apply.'"
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "Thesis statement at medium confidence with 8 and 5 named; consistent with type_hypothesis and enneagram: '3'."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Fox (S09) gives the 12-page story 'about his diet, workout regimen and marriage'; HuffPost (S10, March 18, 2010) relays the NY Post (Kelly/Boulton) and WSJ reporting and 'American Media has denied the quid-pro-quo arrangement'."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "S06 Haney: 'He's showing us everything, but Tiger is not really listening. ... Tiger looks up and says, \"I'm playing the U.S. Open and I'm going to win.\"'"
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "S06: 'From there, they were saying I was pretty much done for the year. I said, \"Ah, I don't know about that.\"'"
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "S08: Harmon, 'I wanted him to take the year and do a little bit at a time. But no, that's not Tiger Woods. He wanted to do it all right now.'"
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "S17 verbatim, including the '30 seconds' clause. In context Thompson ties the pattern to how people project superstar expectations on him; labeled as Thompson's description."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "Golf Channel (S12): 'One of the most guarded athletes in history, here now he was speaking from the heart.' Prose adds the commercial alternative."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "S27: 'he's never asked me and I've never talked to him about it and no one knows.'"
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "The Open (S61): 'I wish he could have seen this one last time'; 'showed his emotions'; father died two months earlier. S17: the 2006 U.S. Open 'where Tiger missed his first major cut as a pro'."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "SI (S30, Dec 2, 2022) quotes the words exactly; S29 corroborates the Charlie context."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "NBC News (S24, Aug 15, 2017): five drugs (hydrocodone, hydromorphone, alprazolam, zolpidem, THC); 'I realize now it was a mistake to do this without medical assistance'; diversion program; prosecutors say he 'will also plead guilty to a lesser charge of reckless driving'."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "GOLF.com (S40, Nov 29, 2021) has the Everest quote exactly as printed ('Mount Everest', 'that's okay'); S39 has the same words with 'Mt.'/'OK'."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "qualified",
+      "reason": "Sky Sports (S46) and AP (S47) confirm he played TGL on March 24, 2026; Sky notes he had held a non-playing role all season and returned only for the finale, so 'was competing in TGL' is generous for a one-match return. Not material."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "ABC (S53): plea changed to no contest, first charge amended to reckless driving, five-year suspension, Sept 2, 2026. CBS (S54): 'amended his plea to guilty'. Prose states the disagreement neutrally."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "Fox (S49): 'entering a plea of not guilty'; PGA Tour (S48) quotes 'stepping away for a period of time to seek treatment and focus on my health'."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "Reuters via Al Jazeera (S51): judge granted motion to leave the U.S. for an 'intensive, highly individualized and medically integrated program'; S50 confirms he declined the 2027 captaincy."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "S01: 'When I do return, I need to make my behavior more respectful of the game.' Prose says it fits the broader reports without confirming Williams' details."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "PGA Tour (S13): 'record-tying 82 PGA TOUR wins and 15 major championships'; S38/S71 confirm the 15th at the 2019 Masters."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "ESPN obituary (S57): Earl died May 3, 2006. PGA Tour (S66) and NBC Sports (S43): Kultida died Tuesday, Feb 4, 2025. S66 names grandchildren Sam and Charlie."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "S71 gives December 30, 1975; full date supported, not inflated."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "S71: born Cypress, California, U.S."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "Labeled interpretation; the preceding sentences name the post-treatment and therapy-script limits."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with S09/S10/S01/S03; correctly declines to treat the crisis sequence as a discriminator."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "qualified",
+      "reason": "The appetite half rests on verified S01 wording. 'Jordan worries about a man who can't stop reading it' firms up Thompson's 'perhaps sitting up in the middle of the night reading all the things people write'. See V-02."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "S17: Joe Grohman 'worried that Tiger didn't have friends his own age until high school. His friends were Earl and Earl's old military buddies.'"
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "S12: 'For 17 unscripted minutes, Woods made only one passing mention of his life and career this century. Nothing about the Tiger Slam. Nothing about the majors. Nothing about the soaring highs. The scandals.' (source continues 'The crushing injuries. The inspiring comebacks.'); now correctly linked to S12."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "PGA Tour (S13): 'We didn't know if you'd come home with two legs or not.'"
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "S14: 'But I didn't get here alone.' and 'This is an individual award, but it's actually a team award. All of you allowed me to get here.'"
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "Reuters (S74) dates the car accident outside his Florida home to November 27 (2009); S03 statement follows it."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "S01: 'I was unfaithful. I had affairs. I cheated.'; 'For 45 days ... I was in inpatient therapy, receiving guidance for the issues I'm facing'; 'considerable worry to my business partners'; 'Parents used to point to me as a role model for their kids.'"
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "S10 (WSJ via HuffPost): Enquirer had photos of Woods with a woman in a church parking lot in 2007; S09: never published."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "S01 'deserved' (2010) and S14 'you don't deserve it' (2022) both verified; description is accurate."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "S06/S72: played the 2008 U.S. Open on a ruptured ACL with a double stress fracture after doctors said he was done for the year; Williams' 'I'm winning this tournament'."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "qualified",
+      "reason": "FAQ 3 repeats the C12 error: 'One friend ... \"a natural introvert,\" another that he \"just wants to be left alone to read a book\"'. In S17 both lines come from one unnamed friend. See V-01."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "S01 business partners, role-model apology and 'one day believe in me again' verified."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "qualified",
+      "reason": "Framing as resemblance not proof is right, but 'what unnamed friends told one reporter' should be singular: the cited introvert/marketability lines come from one unnamed friend (V-01)."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "S01 'core values' and S08 'by my standard' verified; the passage keeps the One open rather than dismissing it."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "qualified",
+      "reason": "Every quoted word is verbatim in S17, correctly split between Thompson's narration and Jordan's direct speech. But the passage cuts Thompson's bridging sentences between 'He hears everything.' and Jordan's 'That bothers him more than anything': 'For Tiger, this dwelling on old mistakes is a path to madness. Nothing can take him back to 2006 and give him a second chance.' In the source, 'That' follows that framing, and Jordan's direct words are about not being able to undo 'the things that happened'. See V-02."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "Press Democrat AP text (S73, Dec 11, 2009) contains 'infidelity' and 'an indefinite break from professional golf'. Reuters (S74): 'two weeks of frenzied media scrutiny' and 'multiple media allegations of numerous extramarital flings'."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "Interpretation that names the treatment-script limit; S05 'stripping away denial and rationalization' verified."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "Interpretation resting on verified S01 wording; prose adds 'even if treatment shaped the telling'."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "S71: married October 5, 2004; divorced August 23, 2010."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "S06: 'I had ruptured my ACL in July the previous year, and I played on it with no ACL' and 'we'll just do a cleanup job first, because I wanted to play the next three major championships'; S72: 'double stress fracture in his left tibia as a result of his preparation for the U.S. Open'."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "S06: 'No one outside of Tiger Woods' inner circle knew' and 'Two days after the playoff, Woods announced ... a double stress fracture'."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "S08: 'struggle through 1998, winning just once'."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "S27: parted with Harmon in August 2002; 'Woods hasn't won a major since'; Harmon says he is 'not working on the right things in his golf swing'."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "S27: Harmon, quoted via Reuters from Sky Sports: \"for him to stand there at every one of his interviews and say 'I am close, I feel really good about what I am doing,' I think it might be a bit of denial.\""
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with S27: Woods' complaint was that Harmon criticized him on TV instead of privately."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "ESPN (S22, Oct 24, 2015): fired in 2011; the caddie awards dinner remark; the book; Woods at the 2011 Presidents Cup: 'I know he looks at it probably differently than I do. But, hey, life goes forward.'"
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "S40: 'it was damn near there if I was going to walk out of that hospital with one leg' (printed 'damn-near' in the GOLF.com copy)."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "S71: returned at the 2022 Masters and made the cut (finished 47th). S72: April 2023 Masters withdrawal and subtalar fusion; March 11, 2025 Achilles rupture at 49 while 'ramping up training'."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "S48 statement names no cause; S51 filing cites only an 'intensive, highly individualized and medically integrated program'. Correctly classed unresolved with a trigger."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "Labeled interpretation with an actionable re-test trigger; does not count 2026 as Three evidence."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "S06 'Ah, I don't know about that' and S14 hands-bleeding practice verified; reasoning labeled."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "S71: four consecutive major titles across 2000 and 2001 known as the 'Tiger Slam'."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "S71: 'ranks second in men's major championships'."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "S08 (1998) and S27 (2004) verified; labeled counterevidence."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "S14 credits Earl ('instilled in me this work ethic'); reasoning labeled."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "S06 concealment verified; the sentence also offers the competitive-sense alternative."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with S06, S21, S17; states why confidence is medium."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "A framing sentence for the discriminator; sound as an interpretation, subject to C95's limits."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "S17: 'He worries that Tiger is so haunted by his public shaming that he obsesses over it'; the type answer says ESPN reported Jordan's worry, which is the right attribution."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "Same S17 attribution plus verified S01 'entitled' wording. No 2007 overreach."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "Fair summary of S17 and states 'That rests on one friend's account'."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "'In Jordan's telling, obsesses over his public shaming' is accurate to S17's report of Jordan's worry."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "qualified",
+      "reason": "True: AP (via MPR News, Feb 19, 2010) reports he spoke 'from the clubhouse at the TPC Sawgrass' and 'no questions were allowed'. But neither cited transcript (S01, S02) states the venue or the no-questions format, and no opened source in the inventory does. See V-04."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "S01 shows a prepared statement after 45 days of treatment; S12 shows the 2022 speech was without notes."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "S03: 'I have not been true to my values and the behavior my family deserves.'"
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "S03 boundary language verified; interpretation labeled."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "qualified",
+      "reason": "'Jordan's account ... fits none of those' is stronger than S17 allows: Thompson frames the rumination as 'dwelling on old mistakes', which is close to the One's inner-critic pattern the passage rules out. See V-02."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "December 2, 2009 to February 19, 2010 is 79 days."
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "qualified",
+      "reason": "'Jordan describes torment over what people say' holds only for Thompson's paraphrase of Jordan's worry (reading what people write; 'Rabbit Ears'). Jordan's own words ('a ship he can't right ... He wants to erase the things that happened') describe regret over the events, which a One's inner critic would also produce. The evidence record's own alternative notes this; the prose does not. See V-02."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "qualified",
+      "reason": "'A man who wants the record erased' rewrites Jordan's 'He wants to erase the things that happened' (the events) as erasing the public record, which favors the Three reading more than the source does. See V-02."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CNN transcript retrieved by direct fetch (raw HTML; WebFetch gets HTTP 451). Full text: infidelity/entitlement paragraph, 'it is what you overcome', 45 days, Buddhism, 'respectful of the game', closing ask."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Globe and Mail transcript: entitlement paragraph, Buddhism ('which my mother taught me at a young age'), 'core values', business partners, role model; British spellings ('behaviour') and 'it's what you overcome'."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fox reproduction of the Dec 2, 2009 statement: 'transgressions', 'the behavior my family deserves', privacy principle paragraph."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ESPN Mar 21, 2010: Rinaldi interview, 'stripping away denial and rationalization'."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ESPN oral history, June 11, 2018: Woods on the ACL/cleanup/'Ah, I don't know about that'; Haney MRI paragraph; Williams 'three separate occasions'; 'No one outside of Tiger Woods' inner circle knew'; announcement 'Two days after the playoff'."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ESPN Mar 22, 2017 (Harig) quoting The 1997 Masters: My Story: 'came back too early', 'dishonesty and selfishness', 'regret will last a lifetime'."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Australian Golf Digest, Dec 30, 2025: How I Play Golf quotes; Harmon 'that's not Tiger Woods'; 'struggle through 1998, winning just once'."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fox, Apr 26, 2024: Pecker 'said he bought the photos and buried them in return for Woods appearing on the magazine'; 12-page story about diet, workout regimen and marriage."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "HuffPost, Mar 18, 2010: NY Post (Kelly/Boulton) and WSJ reporting; 'American Media has denied the quid-pro-quo arrangement'. Also relays WSJ: 'Mr. Woods agreed to the cover shot ... in return for the National Enquirer squelching a story' and the reps 'made an offer' (V-03)."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ESPN Apr 13, 2013: '2 yards further back' (his account), Rule 33 waiver of disqualification, 'accept the penalty and respect the Committees' decision'."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Golf Channel (Lavner) at the NBC Sports mirror, Mar 10, 2022: seven minutes vs nearly 17, no notes; 'One of the most guarded athletes in history'; Titleist loan; 'Nothing about the Tiger Slam...'."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "PGA Tour, Mar 10, 2022: record-tying 82 wins and 15 majors; Sam's 'two legs' line; 'hands bleeding'."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ASAP Sports transcript, Mar 9, 2022: the Ditch and 'Part sniper'; clubhouse exclusion; parking lot; 14-1/2 mortgage; earning paragraph; 'I didn't get here alone'; 'team award'."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "GOLF.com, July 12, 2022: 'getting paid a lot of money up front'; 'earn it in the dirt'."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": false,
+      "locator": "ESPN, Thompson, Apr 21, 2016 (full text retrieved). Most uses match, but two do not: (1) the 'isn't that marketable ... read a book' and 'natural introvert' lines are one continuous quotation from a single unnamed friend, presented as two friends (V-01); (2) the Jordan passage omits Thompson's bridging 'dwelling on old mistakes ... no second chance' framing that precedes 'That bothers him' (V-02). Other uses (77 minutes, 25/15 days, 'My dad', 31st birthday, 30-seconds sentence, impersonation, Begay costume, Grohman/military buddies, 'no companion', 'Woods' camp declined to comment') match."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fox, Jan 6, 2021: Uchitel quote from HBO's Tiger verbatim."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "NBC Sports, Feb 29, 2012: Haney SEAL quote; Steinberg 'high respect for the military'."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "IBT, Mar 27, 2012: supports only the dispute context (Steinberg: Haney's book 'self-serving ... full of guesses and false assumptions'); contains no SEAL quote, which C43 takes from S19."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "AP via Fox, Nov 2, 2015: Williams' book on club tossing and spitting."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ESPN, Oct 24, 2015: fired 2011; caddie-dinner remark; Woods at the 2011 Presidents Cup: 'But, hey, life goes forward.'"
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CBS Sports, May 29, 2017: 'unexpected reaction to prescribed medications', 'I expect more from myself, too', 'just over a month since I underwent fusion surgery'."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "NBC News, Aug 15, 2017: five drugs; 'mistake to do this without medical assistance'; diversion; prosecutors say he will plead guilty to reckless driving."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Spokesman-Review wire, Mar 23, 1997: GQ piece 'based in part on an interview Woods gave during a limousine ride'; 'naive about the motives of certain ambitious writers'."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Grantland republication of Pierce's 1997 GQ piece: limo ride and jokes at the shoot; Woods not yet 21 for a month. Context only."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ESPN, June 19, 2004: Harmon on Sky Sports; Woods 'no one knows' and 'right up to my face'; 'a bit of denial'; split August 2002, no major since."
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "AP via Fox, Aug 6, 2013: 4-year-old Charlie; 'no lessons ... just have fun'."
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "PGA Tour, Dec 7-8, 2022: Begay interview with Tiger and Charlie; supports Charlie context only."
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "SI, Dec 2, 2022: 'if I can get into his head ... That's what my dad believed in. You've got to be willing to take it.'"
+    },
+    {
+      "source_id": "S33",
+      "opened": true,
+      "context_matches": true,
+      "locator": "TODAY, May 1, 2024: Carson Daly interview; Sam's 'negative connotation' quote."
+    },
+    {
+      "source_id": "S38",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ASAP 2019 Masters winner's press conference: 'one closer at 15'."
+    },
+    {
+      "source_id": "S39",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Australian Golf Digest Nov 2021 interview: Everest and one-leg lines (Mt./OK spellings); relay-only 'pick and choose' line correctly not used."
+    },
+    {
+      "source_id": "S40",
+      "opened": true,
+      "context_matches": true,
+      "locator": "GOLF.com, Nov 29, 2021: Everest quote and 'damn near there ... one leg'."
+    },
+    {
+      "source_id": "S41",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ESPN, Apr 7, 2021: unsafe speed, no impairment evidence, no citation; location given as Rolling Hills Estates (V-05)."
+    },
+    {
+      "source_id": "S43",
+      "opened": true,
+      "context_matches": true,
+      "locator": "NBC Sports, Feb 4, 2025: Woods announced Kultida died Tuesday morning."
+    },
+    {
+      "source_id": "S46",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Sky Sports, Mar 25, 2026: Woods confirmed to return for the TGL finale on Tuesday Mar 24 after a non-playing season."
+    },
+    {
+      "source_id": "S47",
+      "opened": true,
+      "context_matches": true,
+      "locator": "AP via PGA Tour, Mar 27, 2026: rollover crash on Jupiter Island; negative breathalyzer; refused urine test; played TGL Tuesday night."
+    },
+    {
+      "source_id": "S48",
+      "opened": true,
+      "context_matches": true,
+      "locator": "PGA Tour, Mar 31, 2026: statement 'stepping away for a period of time to seek treatment and focus on my health'."
+    },
+    {
+      "source_id": "S49",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fox, Mar 31, 2026: not-guilty plea and jury demand; affidavit: phone and radio station; two pills identified as hydrocodone."
+    },
+    {
+      "source_id": "S50",
+      "opened": true,
+      "context_matches": true,
+      "locator": "PGA Tour, Apr 1, 2026: PGA of America says Woods declined the 2027 captaincy."
+    },
+    {
+      "source_id": "S51",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reuters via Al Jazeera, Apr 2, 2026: judge granted travel; 'intensive, highly individualized and medically integrated program'."
+    },
+    {
+      "source_id": "S52",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ESPN, June 23, 2026: Future Competition Committee chairman; read a prepared statement and didn't take questions; no reason given."
+    },
+    {
+      "source_id": "S53",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ABC, Sept 2, 2026: plea changed to no contest; reckless driving (second offense) amended charge; five-year suspension."
+    },
+    {
+      "source_id": "S54",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CBS Sports, Sept 2, 2026: 'amended his plea to guilty', reduced charge of reckless driving, five-year suspension."
+    },
+    {
+      "source_id": "S56",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Unauthorized reproduction of Smith's 1996 SI piece: Earl's 'Chosen One ... Nations' paragraph; used only as corroboration of S70."
+    },
+    {
+      "source_id": "S57",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ESPN/AP obituary dated May 3, 2006: Earl died Wednesday morning at home in Cypress."
+    },
+    {
+      "source_id": "S60",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ESPN, July 12, 2014 (Evans): the 2006 'bottles things up' quote."
+    },
+    {
+      "source_id": "S61",
+      "opened": true,
+      "context_matches": true,
+      "locator": "The Open, 2006 Royal Liverpool: 'I wish he could have seen this one last time'; father died two months earlier."
+    },
+    {
+      "source_id": "S64",
+      "opened": true,
+      "context_matches": true,
+      "locator": "GOLF.com: 1978 Mike Douglas Show at age 2."
+    },
+    {
+      "source_id": "S66",
+      "opened": true,
+      "context_matches": true,
+      "locator": "PGA Tour, Feb 4, 2025: Kultida passed away Tuesday Feb 4; grandchildren Sam and Charlie."
+    },
+    {
+      "source_id": "S70",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Slate, July 2000: Earl's 'Chosen One' quote attributed to Gary Smith's SI article."
+    },
+    {
+      "source_id": "S71",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia (retrieved 2026-10-04): birth date/place; 82 wins tied first; second in men's majors; Tiger Slam; marriage 2004/divorce 2010; 2022 Masters cut."
+    },
+    {
+      "source_id": "S72",
+      "opened": true,
+      "context_matches": true,
+      "locator": "ESPN injury timeline, Oct 12, 2025: ACL ruptured after the 2007 British Open; April 2008 cleanup; double stress fracture; April 20, 2017 fusion; April 2023 subtalar fusion; March 11, 2025 Achilles at 49."
+    },
+    {
+      "source_id": "S73",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Press Democrat AP text, Dec 11, 2009: 'my infidelity' and 'an indefinite break from professional golf'."
+    },
+    {
+      "source_id": "S74",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Reuters via Fox, Dec 11, 2009: 'two weeks of frenzied media scrutiny'; 'confessed \"infidelity\" for the first time'; Nov 27 accident."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Verified: the type answer and FAQs 1-2 rest on Jordan's account (S17) and his own 2010 words; 'Nothing shows Woods made the 2007 deal'; no summary attributes the 2007 trade to Woods. (V-03 separately asks for a more precise hedge against S10.)"
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Verified: 'private self-justification' is gone; the opening says the halves are unequal evidence; the 2010 section calls it his post-treatment account 'in treatment's words'. Declining 'shaped by advisers' without an opened source is justified."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Verified: the chronic-pain sentence is gone; 2017 is tied to his own medication account (S23/S24); 2026 says his statement named no cause, quotes 'seek treatment and focus on my health', and attributes the phone/radio account to the affidavit; C110 added unresolved with a trigger."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Verified: 'unchanged since 2009' is gone; the June 23, 2026 appearance is placed 'at a time when his case was pending and silence was ordinary legal caution'; C35 is out of for_claim_ids."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Verified: the breath test, refusal and pills are attributed to the sheriff's office and affidavit; the not-guilty plea and the amended reckless-driving charge are stated; plea type left neutral."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Verified: 'conceded the substance' replaced by 'fits the broader reports without confirming Williams' details'; the 2011 caddie-dinner remark and Woods' 2011 reply are added and match S22."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "Verified: the Fregia line and father's-infidelity detail are cut; Jordan's 'no companion' is framed as worry about isolation, matching S17."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "Verified: the Dec 11, 2009 written admission and indefinite break are added from opened S73/S74, so the sequence is no longer one jump."
+    },
+    {
+      "finding_id": "subject-09",
+      "accepted": true,
+      "reason": "Verified: 'a little over a month' matches Woods' 'just over a month' (S23) and the April 20, 2017 fusion date (S72)."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Verified against S06/S72: ACL dated to July 2007 in his words, the cleanup choice quoted, the double stress fracture, 'No one outside his inner circle knew', announcement two days later; the Type 8 section grants the Three a foothold (C118)."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Verified: 'which my mother taught me at a young age' is quoted (S01/S02); 'His own 2010 diagnosis' is gone; the paragraph calls it 'doctrine meant for everyone, so it is weak type evidence'."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Verified: 1998 cost stated from S08; the 2004 rebuild dated from S27; repeated slumps listed as counterevidence that a One or Five explains at least as well."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Verified: Dec 2 'transgressions' and 'the behavior my family deserves' are quoted accurately from S03; Dec 11 admission added; the 'deserves' verb turn is used accurately."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Verified: same correction as subject-09, against S23 and S72."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Verified: April 2022 Masters cut (S71), April 2023 withdrawal and ankle fusion, March 2025 Achilles rupture at 49 while ramping up training (S72), all dated."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Verified against S11: '2 yards further back' is his own account; two-stroke penalty rather than disqualification; his acceptance quoted; Faldo line dropped; the episode 'doesn't settle' the One question."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Verified: Elin Nordegren named with the 2004 marriage and 2010 divorce (S71); the 2017 quote names the memoir and links ESPN (S07)."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Verified for option (b), with the discriminator also moved off the confounded events: the type section says the crisis sequence 'can't separate a Three from an Eight on its own', 'twice' is gone, FAQ 2 says confidence stays medium. The replacement discriminator (Jordan via Thompson) has its own context problem, flagged as new finding V-02, not as a failure of this repair."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Verified: the 2010 line is described as a post-treatment public account; the therapy alternative is named; the rule is labeled non-specific ('proves little'); the type answer and FAQ 1 do not rest on the rule alone."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Verified: pain explanation attributed to his own 2017 account; 2026 cause undisclosed; 'unchanged since 2009' deleted; pending case named; C35 removed from for_claim_ids."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Verified: timing corrected; the 2017 plea now matches S24 ('prosecutors said he would plead guilty'); Lavner's line relinked to S12, which contains it; 'nearly 17' is Golf Channel's figure."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Verified: committee ruling and acceptance added from S11; the text says 'normal rules didn't apply' doesn't settle the One. The One's new discriminator overreads S17 (V-02), but the finding's test (a fair, sourced discriminator or an admission that the line doesn't rule the One out) is met by the latter."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Verified: 'sought golf's largest stage' replaced by 'playing the biggest tournaments is simply the job'; the Five rebuttal rests on appetite and attention."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Verified: now 'resemblance, not independent proof', and the 2007 trade is dropped as corroboration. ('unnamed friends' should be singular; covered by V-01.)"
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Verified: the Dec 2 'transgressions' and the Dec 11 admission now precede the televised statement."
+    },
+    {
+      "finding_id": "unfamiliar-U01",
+      "accepted": true,
+      "reason": "Verified: the Dec 2 'transgressions', Reuters-sourced two weeks of reports, Elin named, divorce from opened S71; no unsourced counts added."
+    },
+    {
+      "finding_id": "unfamiliar-U02",
+      "accepted": true,
+      "reason": "Verified: 'damn-near there ... with one leg' (S40) precedes the Everest quote; the Type 8 sentence names 'the 2008 U.S. Open'."
+    },
+    {
+      "finding_id": "unfamiliar-U03",
+      "accepted": true,
+      "reason": "Verified: LIV identified as a rival league with his own 'getting paid a lot of money up front' wording (S15); the stakeholder clause is cut."
+    },
+    {
+      "finding_id": "unfamiliar-U04",
+      "accepted": true,
+      "reason": "Verified: 'Only one man has won more majors' (S71); Tiger Slam explained; 'the British Open at Royal Liverpool'."
+    },
+    {
+      "finding_id": "unfamiliar-U05",
+      "accepted": true,
+      "reason": "Verified: 'A month earlier, after the SEAL detour described below, he had missed his first major cut as a professional' lets the 2006 order be followed in one pass."
+    },
+    {
+      "finding_id": "unfamiliar-U06",
+      "accepted": true,
+      "reason": "Verified: the answer box (56 words, counted) and FAQ 1 rest on Jordan's account and the 2010 words, not the 2007 deal."
+    },
+    {
+      "finding_id": "unfamiliar-U07",
+      "accepted": true,
+      "reason": "Verified: the quote now includes 'People who meet him for 30 seconds love him' (S17), and the confidence sentence speaks of aloofness after a first meeting."
+    },
+    {
+      "finding_id": "unfamiliar-U08",
+      "accepted": true,
+      "reason": "Verified: 'a little over a month' is supported by Woods' own 'just over a month' (S23) and the April 20 date (S72)."
+    },
+    {
+      "finding_id": "unfamiliar-U09",
+      "accepted": true,
+      "reason": "Verified: Eight, Five and One get short definitions at first mention; the test is stated concretely as what a public humiliation does once it is over."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Verified: 2007 weighted as his camp's act, the Dec 2009 'stick to that principle' refusal named as counterevidence (C129), the caricature removed, and FAQ 1 narrowed. Rather than arguing the confession is diagnostic, the edit concedes the crisis doesn't discriminate and moves the discriminator, which goes further than the test."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Verified as a repair: the Jordan passage is quoted verbatim with narration and testimony separated, limits stated, and C95 added. Fresh verification found that the splice omits Thompson's bridging 'dwelling on old mistakes' framing, which changes what 'That bothers him' refers to; raised as new finding V-02 for a targeted repair."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Verified: the 2010 achievement-as-license logic is argued against the One and the Eight; LIV and the Hall of Fame line are labeled as showing 'only that he means it'."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Verified: 'textbook' removed; the 2004 episode reads both ways; Harmon's 'a bit of denial' quoted with his TV-commentator role (S27)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Verified: same as critic-06; the 'largest stage' clause is replaced."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Verified: a paragraph tests Six (doubt and authority-seeking against 'Ah, I don't know about that', S06) and Seven (against decades of practice, S14)."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Verified: the Three-over-Eight call rests on Jordan's account and the 2010 license logic, not sponsor protection; the one-line aphorisms are replaced with post-humiliation predictions."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Verified: narrowed to the dated June 23, 2026 appearance with the pending-case explanation; 'unchanged since 2009' dropped; C35 out of for_claim_ids. Removing every 2026 sentence leaves the type sections unchanged."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Verified: one sentence says the 2026 retreat 'looks as much like a Five's withdrawal as a Three's repair'; C111 carries a concrete re-test trigger; the matching OPEN research task exists."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Verified: same as subject-03; C110 is interpretation/unresolved with the requested trigger."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Verified: 2026 compressed to one factual paragraph plus one interpretive paragraph; affidavit details labeled and followed by the not-guilty plea and amended charge; plea type left neutral."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Verified: the 'As of October 4, 2026' line is deleted; the close does not depend on playing status."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Verified: the undated superlative is gone; the November 2021 quote is dated."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "There is no public record of what Woods himself said or decided; his representatives may have made the deal. What the record shows is the trade: a published picture of a fit, married man for an unpublished one.",
+      "preserved": true,
+      "reason": "Present verbatim (2007-2010 section). The model separation of record from inference stands, and the summaries now match it. V-03 asks for one precision fix: S10 relays WSJ reporting that 'Mr. Woods agreed' and that his reps made the offer, so 'no public record' should be 'no first-hand account'. That change would keep this passage's contribution."
+    },
+    {
+      "passage": "He had spent 45 days in inpatient therapy for what he called only \"the issues I'm facing.\"",
+      "preserved": true,
+      "reason": "Present verbatim; S01 confirms 'For 45 days ... in inpatient therapy, receiving guidance for the issues I'm facing' with no diagnosis named."
+    },
+    {
+      "passage": "which the sheriff attributed to unsafe speed, with no evidence of impairment and no citation",
+      "preserved": true,
+      "reason": "Present verbatim; S41 confirms unsafe speed, no evidence of impairment, no citations. (V-05 concerns only the location clause before it.)"
+    },
+    {
+      "passage": "Haney later said, \"He wanted to be a Navy SEAL. For sure that was on his list\"; Woods' agent, Mark Steinberg, said Haney had twisted Woods' \"high respect for the military\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; its contribution stands in context."
+    },
+    {
+      "passage": "None of this proves a type. A child put on television at two, called the Chosen One and taught that results answer exclusion could build his identity around performance whatever his core motive.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; its contribution stands in context."
+    },
+    {
+      "passage": "It is the same rule both times: work earns results, and results make you deserving. In 2022 the rule explained a career. In 2010 it explained an exemption: \"I convinced myself that normal rules didn't apply.\"",
+      "preserved": true,
+      "reason": "Present verbatim as the hook's payoff; both halves verified (S01 'normal rules didn't apply'; S14 'you don't deserve it. You need to earn it'). The added 'not equal evidence' paragraph qualifies it without weakening it."
+    },
+    {
+      "passage": "It is a funny story, and an early version of a skill that returns in this profile: staying out of sight until it is time to play.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; its contribution stands in context."
+    },
+    {
+      "passage": "It was a joke, and it was his: the public Tiger Woods as an outfit.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; its contribution stands in context."
+    },
+    {
+      "passage": "The SEAL chapter may say more about whose son he was than about his type.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; its contribution stands in context."
+    },
+    {
+      "passage": "Woods spent a career proving he deserved to be Tiger Woods. That night, briefly, he described it as something other people had given him.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; its contribution stands in context."
+    },
+    {
+      "passage": "That is her interpretation, from someone with her own reasons to explain the affair.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; its contribution stands in context."
+    },
+    {
+      "passage": "He won after an 18-hole playoff and a sudden-death hole against Rocco Mediate. That scene is the Eight reading's best evidence, and it returns below.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; its contribution stands in context."
+    },
+    {
+      "passage": "This is the hardest stretch for a Three reading: a dangerous arena with no gallery and no golf payoff, pursued at real cost after his father's death.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; its contribution stands in context."
+    },
+    {
+      "passage": "Williams was fired in 2011 and had a book to sell, but Woods conceded the substance in 2010: \"I need to make my behavior more respectful of the game.\" A Three usually polishes visible conduct. For years, Woods let this show.",
+      "preserved": true,
+      "reason": "Changed, contribution kept. The passage still discounts a hostile witness (now with the 2011 caddie-dinner remark and Woods' reply, verified in S22), relates his 2010 pledge accurately ('fits the broader reports without confirming Williams' details', checked against S01), and keeps 'A Three usually polishes visible conduct. For years, Woods let this show.' verbatim. Removing 'conceded the substance' corrects an overstatement."
+    },
+    {
+      "passage": "Seventy-nine days later he made a public confession on television.",
+      "preserved": true,
+      "reason": "Changed, contribution kept: 'Seventy-nine days after the privacy statement, he made a public confession on television.' The 79-day interval (Dec 2, 2009 to Feb 19, 2010) is correct, and the wording now measures from the right date after the Dec 11 admission was added."
+    },
+    {
+      "passage": "The feeling waited until the result was in.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate; its contribution stands in context."
+    },
+    {
+      "passage": "It was a joke, and it was his: the public Tiger Woods as an outfit. Thompson's narration goes further: \"it starts to seem like he's doing an impersonation of what he thinks a superstar athlete is supposed to be.\" That is a reporter's synthesis, and it reads two ways. For a Three, the impersonation is the point, a self assembled to look like success. For a Five, the introvert with a book is the real man and the superstar a costume the money required.",
+      "preserved": true,
+      "reason": "Present verbatim. The Thompson narration is verified in S17 ('Talk to enough people who've met him and it starts to seem like he's doing an impersonation...'). The 'introvert with a book' reference depends on the friend's quote, whose speaker count needs fixing elsewhere (V-01); this passage itself stays accurate."
+    },
+    {
+      "passage": "The Eight explanation still answers the broken leg better, and the coldness and temper cut against a Three's usual charm. That is why confidence is medium.",
+      "preserved": true,
+      "reason": "Changed, contribution kept: 'The Eight explanation still answers the 2008 U.S. Open better, and the temper, along with the aloofness people report once a first meeting is over, cuts against a Three's usual polish. That is why confidence is medium.' Calibrated confidence and named failures remain; the edit fixes the ambiguous 'broken leg' and the mismatch with Thompson's 30-second charm."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 7.5,
+      "passage": "One unnamed friend said: \"Frankly, the real Tiger Woods isn't that marketable. ...\" Another: \"Tiger was a natural introvert...\"",
+      "reason": "Exceptional breadth and fidelity overall. I reopened 54 used sources, and nearly every quotation is verbatim with the right speaker, date and locator: the CNN and Globe transcripts, ASAP 2022, the S06 oral history, the 2026 affidavit reporting. Attribution is handled at the passage, hostile witnesses are discounted (Williams, Uchitel, Haney with Steinberg's reply), and inference limits sit in the prose ('That is a reporter's synthesis', 'one friend, relayed and partly paraphrased'). But two context-fidelity errors hit load-bearing evidence: one unnamed friend becomes two (V-01, body and FAQ), and the Jordan splice drops the bridge that frames 'That bothers him' as regret over old mistakes (V-02). The standard asks for context-faithful, independent evidence, and these errors fall exactly at the independence and context of the type evidence. Smaller sourcing gaps (V-03 to V-05) are minor."
+    },
+    "enneagram": {
+      "score": 7.5,
+      "passage": "What tips against the One is where the pain lands: a One's torment is usually the inner critic, and Jordan describes torment over what people say.",
+      "reason": "The reasoning is honest and tested. The Eight gets its best evidence in plain view ('That scene is the Eight reading's best evidence'), the Five gets a fair reading of the costume and introvert material, Six and Seven are tested with sourced discriminators, the crisis sequence is correctly ruled non-discriminating, and confidence stays medium with named failures (SEAL chapter, aloofness, temper, slumps). The positive Three case is thinner than the counterevidence, though. It rests mostly on the 2010 achievement-as-license reading (a post-treatment account, as the article admits) and on one relayed friend's account, and this sentence overreads that account: in S17 Jordan's direct words are about wanting to undo 'the things that happened', which the article itself says is One territory. With V-02 repaired, the One and Three may sit closer than the prose now claims."
+    },
+    "originality": {
+      "score": 9.0,
+      "passage": "He had not been true, he wrote, to \"the behavior my family deserves.\" By February, the verb would name what he thought he had earned.",
+      "reason": "The profile is built from details specific to Woods: the 'deserve' rule traced through December 2009, February 2010 and March 2022; the Ditch 'Part sniper' motif returning as the concealed 2008 fracture and 'The feeling waited until the result was in'; the costume text; the SEAL chapter left unexplained; and an ending that turns his own 'team award' line against the earning rule. Almost no reusable type boilerplate survives, and the type contrasts are tied to his situations."
+    },
+    "writing": {
+      "score": 8.0,
+      "passage": "It is a funny story, and an early version of a skill that returns in this profile: staying out of sight until it is time to play.",
+      "reason": "Sections build rather than restate: motifs set up early pay off later, the prose is precise and mostly free of AI tells, and the close is earned. The piece pays for its honesty in pacing, though. At 4,423 words it is well above the 2,000-3,500 target and near the 4,500 ceiling. 'Why the Three reading still leads' stacks six consecutive alternative-type and counterevidence paragraphs that read like a ledger, and the 2026 paragraph is still dense with court and treatment detail just before the close."
+    },
+    "durability": {
+      "score": 8.5,
+      "passage": "By this profile's own test, the 2026 retreat looks as much like a Five's withdrawal as a Three's repair; a return, an open interview about the treatment or a quiet exit could move the reading.",
+      "reason": "Dates are absolute throughout. The hook, discriminator and close rest on 2010, 2016 and 2022 material, so deleting every 2026 sentence leaves the argument intact. Changing facts (win totals, plea type, treatment, TGL) are tracked as time_sensitive or unresolved with actionable triggers, and C111 asks for a re-test of the 3-vs-5 call. The remaining exposure is one dense 2026 legal paragraph and the TGL line, which will date but are tracked."
+    },
+    "hook": {
+      "score": 9.0,
+      "passage": "One sentence explained how he had let himself do it: \"I felt that I had worked hard my entire life and deserved to enjoy all the temptations around me. I felt I was entitled.\"",
+      "reason": "It opens on a specific, transcript-verified moment, pairs it with the unscripted 2022 Hall of Fame line on the same verb, and frames a rule the article then tests and finally turns at the close. It is sourced at the passage and honest about the unequal weight of its two halves."
+    },
+    "discoverability": {
+      "score": 7.5,
+      "passage": "One friend told ESPN's Wright Thompson that Woods was \"a natural introvert,\" another that he \"just wants to be left alone to read a book,\" and he has been secretive about his methods.",
+      "reason": "The metadata is accurate and well formed: a 55-character meta_title, a 150-character description with a real hook ('deserve'), a 56-word plain-language type answer directly under the H2, and four substantive FAQs whose anchors match their headings. Body and metadata agree. Two things hold it back. FAQ 3 repeats the one-friend-as-two error in a search-visible answer (V-01). And internal links stop at five type-hub pages: there are no body links to related profiles, even though the corpus has a Michael Jordan profile and Jordan is the key witness here (the suggestions frontmatter partly compensates)."
+    }
+  }
+}

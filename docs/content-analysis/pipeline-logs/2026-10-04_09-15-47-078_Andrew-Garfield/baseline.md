@@ -38,7 +38,7 @@ content_quality:
   letter: B+
   rubric_version: 2
   graded_at: '2026-06-09'
-path: docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/baseline.md
+path: src/blog/people/drafts/Andrew-Garfield.md
 ---
 
 <!-- QUALITY GRADE: B+ (8.7) — rubric v2

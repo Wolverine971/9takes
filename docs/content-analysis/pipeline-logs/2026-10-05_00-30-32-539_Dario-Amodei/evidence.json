@@ -1,0 +1,1588 @@
+{
+ "schema_version": 3,
+ "subject": "Dario-Amodei",
+ "status": "ready",
+ "research_tasks": [
+  "THESIS CHANGE: this refresh moves the leading type from 5 (published) to 6, with Type 5 as the strongest alternative. Treat it as a major thesis change on a live page and run with --refresh --expanded-review. The enneagram field, description, every FAQ answer, the type H2 answer, the TL;DR and the Rabbit Hole (wing, subtype, arrows, counterarguments) all depend on it. Flag to DJ before release; no URL change is needed because the slug carries no type.",
+  "Verify or cut the epigraph ('You need to learn to respond rationally and not put dangers out of proportion to each other') and the 'accelerating near light speed ... two, then three, then four days had passed' passage. Both cite the Bloomberg Originals interview (S40, June 17, 2026), whose captions could not be retrieved (HTTP 429, sign-in required). Pull captions (yt-dlp with cookies) or review the 26:13 'Dario's writing style' and 1:07:32 'Trust' chapters, which may also bear on the 5-vs-6 discriminator. Record exact wording and a timestamp before quoting.",
+  "Correct these draft facts against opened sources: (a) 'Fourteen researchers followed' and the FAQ's '14 colleagues' become six colleagues at the end of 2020 with about a dozen more within weeks (C26); (b) remove 'naming it after the anthropic principle' (C26); (c) re-attribute Daniela's 'genuinely a privilege ... four years without me' quote to CNBC, Jan. 10, 2026, not Big Technology (C06); (d) re-attribute 'We can have such a good world if we get everything right' to the July 2025 Big Technology Podcast, not Machines of Loving Grace (C41); (e) remove quotation marks from Berry's 'most talented graduate student', which is Kantrowitz's paraphrase (C14); (f) his PhD is in physics/biophysics, not 'computational neuroscience' (C14); (g) the Wired profile is dated March 28, 2025, not May 2025 (S03); (h) use 'a tiny town near the island of Elba' for the father's hometown unless Massa Marittima is verified in an opened source (C01, S47); (i) The Adolescence of Technology is longer than Machines of Loving Grace, not 'equally long' (C36); (j) attribute the 'four-year gap' to his own estimate ('three or four years') and avoid 'rare illness' (C09).",
+  "Rewrite the G7 paragraph to what S25 and S26 support (C54). Replace 'Altman called for an international safety forum, and Demis Hassabis proposed a standards body' with the Bloomberg Law/FT account (Altman: cyber-defense tools for all countries in the room; Hassabis: US-led collaboration), or open the WaPo or FT body first. Drop 'coordinate trade in advanced models and share their benefits' unless sourced.",
+  "Citation and wording fixes: link the hepatitis C disclosure to X post 2/2 (S11), not 1/2; name Big Technology explicitly before the Jade Wang quote; use 'God complex' as in Fortune (S18); attribute 'woke' to President Trump (AP, S19) unless a David Sacks primary source is opened; describe 'a pair of TV commercials' (AP, S31) instead of a 'four-ad campaign'; qualify the '$42 billion loss' with the more than $34 billion non-cash accounting adjustment (S36); present the export shut-off as Anthropic's action under the directive (S24); and replace 'contract included two restrictions Dario insisted on' with Anthropic's statement that the two uses 'have never been included in our contracts' (S17).",
+  "Verify or cut these unverified draft details: 'AI Safety Levels modeled on biosafety tiers' (Wired says 'kind of like the Defcon scale'; the original 2023 RSP was not opened); 'congressional testimony' (2023 Senate testimony not opened); Daniela as OpenAI 'vice president of safety and policy'; 'His proposal inside OpenAI ... dramatically increase investment in interpretability and alignment research'; and the career path 'Baidu ... then OpenAI as VP of Research', which omits Google Brain (2015-2016) and that the VP promotion came in 2019 (S13).",
+  "Current accuracy, checked 2026-10-04. Add or update: litigation is split, with one designation struck (Aug. 27) and the other upheld by the D.C. Circuit (Sept. 25), and further review possible (C52); IPO timing remains fluid (C56); the Sept. 12, 2026 pacing essay is his latest position (C42). Keep the core argument independent of these. The June 2026 export/G7 hook is time-bound; consider opening on a durable pattern (the father's death and the 'few years' of delay, or the 2018 conditional stay at OpenAI) and using the 2026 events as the latest test.",
+  "Sensitive handling. Present WSJ interpersonal episodes (C19-C24, C49) as reported by the Journal from unnamed sources, with Amodei's own account where it exists (C21, C25), and avoid the Hitler/Stalin line unless essential. Present Emil Michael's 'liar ... God complex' as a counterparty attack, balanced by Lessig (C51). Keep Jade Wang to her on-record quote per docs/content-analysis/entity-gaps/Dario-Amodei.md (protect, do_not_optimize). Add no detail to the health disclosures (C09, C58), infer no neurodivergence (C59), and make no spouse or relationship claims (S46 unverified).",
+  "Optional strengthening for the 6-vs-5 discriminator: find first-person material on how he personally handles uncertainty or stress, such as the body of Bloomberg's 'How Anthropic CEO Dario Amodei Protects His Time, De-Stresses' (S39, paywalled) or the S40 'Trust' chapter. Check whether he describes leaning on trusted people and structures (6) or retreating to solitude and conserving energy (5). If the answer is clearly the latter, re-weigh the leading type before drafting."
+ ],
+ "accuracy_checked_at": "2026-10-04",
+ "risks": {
+  "sensitive_allegations": true,
+  "contested_typing": true,
+  "historical_source_uncertainty": false,
+  "major_thesis_change": true
+ },
+ "sources": [
+  {
+   "id": "S01",
+   "url": "https://www.bigtechnology.com/p/the-making-of-dario-amodei",
+   "title": "The Making Of Dario Amodei",
+   "speaker": "Alex Kantrowitz (Big Technology), quoting Dario Amodei, Michael Berry, Stephanie Palmer, Greg Diamos, Jack Clark, Jade Wang, Eric Schmidt and Jensen Huang",
+   "date": "2025-07-29",
+   "locator": "Full article opened via direct fetch and read end to end on 2026-10-04. Key passages: childhood and parents paragraphs; Caltech 2003 op-ed paragraph; father's death paragraph ('within four years'); Jade Wang paragraph; 'I get really angry' paragraph; Berry paragraphs ('most talented graduate student' is Kantrowitz's paraphrase; 'kind of a proud person' is a direct quote); OpenAI controversy paragraph (long documents, 'abrasive'); 'leaders of a company, they have to be trustworthy'; Huang exchange; Anthropic naming spreadsheet; SBF non-voting shares; Gulf states Slack quote; Claude 4 launch scene; closing 'The reason I'm warning about the risk' paragraph.",
+   "excerpt": "\"Writing some website actually had no interest to me whatsoever,\" he tells me. \"I was interested in discovering fundamental scientific truth.\" / \"They gave me a sense of right and wrong and what was important in the world,\" he says, \"imbuing a strong sense of responsibility.\" / \"The problem isn't that everyone is just peachy with the idea of bombing Iraq; it's that most people are opposed in principle but refuse to give one millisecond of their time,\" Amodei wrote in The California Tech ... on March 3, 2003. \"This needs to change, right now and without delay.\" / His father Riccardo, who'd long fought a rare illness, lost the battle in 2006 ... within four years, a new breakthrough turned the illness from something that was 50% fatal to 95% curable. / \"It's the difference between his father most likely dying and most likely living, okay?,\" she says. / \"I get really angry when someone's like, 'This guy's a doomer. He wants to slow things down,'\" ... \"You heard what I just said, my father died because of cures that could have happened a few years [earlier]. I understand the benefit of this technology.\" / But Amodei's penchant for poking at norms, and his strident sense of the way things should be, set him apart in an academic setting. Berry tells me that Amodei was the most talented graduate student he ever had, but his focus on technological progress and teamwork didn't play well in a system built to recognize individual achievement. / \"I think internally, he was kind of a proud person,\" Berry tells me. \"I imagine his whole academic career up until that point, whenever he did something, people would stand up and clap. And that was not really happening here.\" / A prolific writer, he'd produce long documents about values and technology, which some colleagues saw as inspirational but others saw as flag planting and heavy handed. ... Amodei, to some, was also too focused on maintaining secrecy around the technology's potential and collaborating with the government to address it. And he could be a bit abrasive, sometimes disparaging projects he didn't believe in. / \"The leaders of a company, they have to be trustworthy people,\" he says. \"They have to be people whose motivations are sincere ...\" / \"That's the most outrageous lie I've ever heard,\" ... \"It's just an incredible and bad faith distortion.\" / Anthropic, a word that connotes being human centered and human oriented, is also there, and it also happened to be an available domain name in early 2021. / Amodei says SBF was an AI bull interested in safety, a good fit, but had sufficient red flags to keep him off the board and give him non-voting shares. / \"Unfortunately,\" he wrote. \"I think 'No bad person should ever benefit from our success' is a pretty difficult principle to run a business on.\" / Instead of a flashy presentation, he picks up a handheld mic, makes the announcement, reads his notes from a laptop, and then turns the spotlight over to Anthropic product head Mike Krieger. / \"The reason I'm warning about the risk is so that we don't have to slow down,\" he says. / Working in Professor Michael Berry's retina lab, Amodei was so dissatisfied with the methods available to measure the retina's signals that he co-invented a new, better sensor to pick up more data. ... His dissertation won the Hertz Thesis Prize / \"There was someone who worked on the cure to this disease, that managed to cure it, and save a bunch of people's lives,\" Amodei says, \"but could have saved even more.\" / Amodei's father's passing has shaped his life's path to this day, says Jade Wang, who dated him in the early 2010s. / \"The complexity of the underlying problems in biology felt like it was beyond human scale,\" Amodei tells me. / \"AI, which I was just starting to see the discoveries in, felt to me like the only technology that could kind of bridge that gap,\" he says / \"He believes that AI is so scary that only they should do it,\" Huang said. / (One such memo: an exploration of \"M\" companies vs. \"P\" companies, where Ms provide market-focused goods and Ps provide public-focused goods).",
+   "context": "A reported profile based on 'more than two dozen interviews with him, his friends, colleagues, and competitors', published the day before the companion Big Technology Podcast episode (S02). Quotes from Amodei are edited versions of the podcast speech (compare S02). The illness is called 'a rare illness' here; Amodei later named it hepatitis C (S11), which is not rare, so do not repeat 'rare'. Berry's 'most talented graduate student' line is Kantrowitz's paraphrase, not a direct quotation. The Gulf-states Slack quote originally appeared in Wired. The Jade Wang material is constrained by docs/content-analysis/entity-gaps/Dario-Amodei.md (protect, do_not_optimize): only her on-record quote and that she dated him in the early 2010s may be used. The Daniela 'genuinely a privilege' / 'four years without me' quote is NOT in this article (it is from S43).",
+   "kind": "testimony",
+   "access": "opened"
+  },
+  {
+   "id": "S02",
+   "url": "https://pod.wave.co/podcast/big-technology-podcast/anthropic-ceo-dario-amodei-ais-potential-openai-rivalry-genai-business-doomerism-451c32cc",
+   "title": "Anthropic CEO Dario Amodei: AI's Potential, OpenAI Rivalry, GenAI Business, Doomerism (Big Technology Podcast transcript)",
+   "speaker": "Dario Amodei, interviewed by Alex Kantrowitz; machine transcript hosted by Wave",
+   "date": "2025-07-30",
+   "locator": "Timestamped transcript opened and searched on 2026-10-04: [01:16] 'obligated to warn'; [06:11] 'one of the most bullish' and 'when you're on an exponential'; [40:38] childhood interests; [41:51] parents and Daniela; [43:02] father's illness and 2006 death; [45:11] cure rate; [45:36] 'I get very angry ... doomer' and 'lack any moral credibility'; [47:42] Game of Thrones; [53:10] 'leaders of a company ... trustworthy'; [61:01] conditional slowdown and 'I'm willing to do it'.",
+   "excerpt": "[01:16] Because we can have such a good world if we get everything right, I feel obligated to warn about the risks. / [06:11] I am indeed one of the most bullish about AI capabilities improving very fast. ... when you're on an exponential, you can really get fooled by it. Two years away from when the exponential goes totally crazy, it looks like it's just starting. / [40:38] You know, I was interested in being like a scientist. I was interested in physics and math. And, you know, the idea of like, you know, you know, like writing some website actually had no interest to me, to me whatsoever. Or like founding a company. ... I was interested in discovering fundamental scientific truth / [41:51] I feel like they gave me a sense of, you know, of kind of right and wrong and what was important in the world. I feel like, you know, kind of imbuing a strong sense of responsibility and is maybe the thing that I remember most. ... I was very close with my sister Daniela ... I think we decided very early that we wanted to work together in some. In some capacity. / [43:02] he was ill for a long time and eventually died in. Eventually died in. In. In 2006. ... I'd shown up at Princeton, wanting to be a theoretical physicist ... did some work in, in cosmology for the first few, few months ... that was around the time that my father died. / [45:11] Maybe three or four years after he died, the cure rate for the disease that he had went from, went from 50% to roughly 95%. / [45:36] I get very angry when people call me a doomer. ... my father died because of cures that could have happened a few years later. ... when these people call me a doomer, I think they just completely, completely lack any moral credibility in doing that. You know, it really makes me lose respect for them. / [47:42] Actually, that's not quite right. I wouldn't watch it because it was so negative. ... I'm really excited about, like, creating positive sum situations. / [61:01] But if we got a few years ahead in models and had only the alignment and steering techniques we had today, then I would definitely be advocating for us to slow down a lot. The reason I'm warning about the risk is so that we don't have to slow down",
+   "context": "Unlabeled-speaker risk is low here: the Wave transcript labels 'Interviewer' and 'Dario Amodei' turns. It is a machine transcript with disfluencies; quotations in the article should either follow this wording or the edited wording in S01, and say which. 'A few years later' at [45:36] is a speech slip the profile renders as '[earlier]'. The Game of Thrones answer corrects a friend's account (relayed by Kantrowitz) that he refused the show because it was 'a waste of time' not tied to impact. The [61:01] conditional is the 2025 baseline against which the September 2026 pacing essay (S09) is a change.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S03",
+   "url": "https://www.wired.com/story/anthropic-benevolent-artificial-intelligence/",
+   "title": "If Anthropic Succeeds, a Nation of Benevolent AI Geniuses Could Be Born",
+   "speaker": "Steven Levy (Wired), quoting Dario Amodei, Daniela Amodei, Chris Olah, Jared Kaplan, Demis Hassabis and others",
+   "date": "2025-03-28",
+   "locator": "Opened via direct fetch (WebFetch blocked) and read end to end. Page metadata datePublished 2025-03-28 (the draft and research notes say May 2025; correct the date). Key passages: family paragraph ('In the 1970s, their parents'); math obsession; 'anti-swayed' Rosewood dinner; GPT-2 'signpost'; 'One of the sources of my dismay'; 'he and six other OpenAI employees ... quit'; $124 million; held-back model 'It was costly to us'; Amazon/Google balance; OpenAI board merger approach; DVQ scene and two-day Machines of Loving Grace.",
+   "excerpt": "In the 1970s, their parents, Elena Engel and Riccardo Amodei, moved from Italy to San Francisco. Dario was born in 1983 and Daniela four years later. Riccardo, a leather craftsman from a tiny town near the island of Elba, took ill when the children were small and died when they were young adults. Their mother, a Jewish American born in Chicago, worked as a project manager for libraries. / \"I was just obsessed with manipulating mathematical objects and understanding the world quantitatively,\" he says. / Daniela and Dario Amodei grew up in San Francisco's Mission District. (photo caption) / \"I wasn't swayed,\" Amodei says. \"I was anti-swayed. The goals weren't clear to me. It felt like it was more about celebrity tech investors and entrepreneurs than AI researchers.\" / \"I didn't know if this model was dangerous,\" Amodei says, \"but my general feeling was that we should do something to signpost that\" / \"One of the sources of my dismay,\" he says, \"was that as these issues were getting more serious, the company started moving in the opposite direction.\" He took his concerns to Altman, who he says would listen carefully and agree. Then nothing would change, Amodei says. / Amodei realized he should have left sooner. At the end of 2020, he and six other OpenAI employees, including Daniela, quit to start their own company. ... Within a few weeks, a dozen more would bolt OpenAI for the new competitor. / most of the initial funding—$124 million— / \"Our conclusion was, we don't want to be the one to drop the shoe and set off the race,\" he says. ... \"It was costly to us,\" Amodei admits. / Amodei says that balancing Amazon with Google assures his company's independence. / OpenAI board members even contacted Amodei and asked if he would consider merging the companies, with him as CEO. Amodei shut down the discussion / So over the course of two frenzied days he banged out a nearly 14,000-word manifesto called \"Machines of Loving Grace.\" / \"We're not the prophets causing this to happen,\" he tells his team. / Even as a toddler, Amodei lived in a world of numbers. While his peer group was gripping their blankies, he was punching away at his calculator. / \"Before, I was like, we're not building those systems, so what can we really do?\" he says. \"But now we're building the systems.\" / \"My first thought,\" he says, \"was, oh my God, could systems that are smarter than humans figure out how to destabilize the nuclear deterrent?\" / \"There is compelling evidence that the models can wreak havoc,\" he says. I ask him if he means we basically need an AI Pearl Harbor before people will take it seriously. \"Basically, yeah,\" he replies. / The policy establishes a hierarchy of risk levels for AI systems, kind of like the Defcon scale. / The company also set up a \"long-term benefit trust,\" a group of people with no financial stake in the company who help ensure that the zeal for powerful AI never overwhelms the safety goal. / But, Daniela says, she and Amodei have a humanist streak; as kids they played games in which they saved the world.",
+   "context": "Long-form magazine profile with on-record interviews and office visits. Independent of S01 in reporting, though both rely on Amodei's own account of the OpenAI exit. Wired does not name the father's illness or his town; 'Massa Marittima' (draft) is not supported here. 'Six other OpenAI employees ... a dozen more within a few weeks' contradicts the draft's 'fourteen researchers followed'. Describes the RSP as 'kind of like the Defcon scale' (not 'biosafety tiers'). Describes DVQ as a monthly session in October 2024 (biweekly by 2026 per S04).",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S04",
+   "url": "https://www.dwarkesh.com/p/dario-amodei-2",
+   "title": "Dario Amodei — \"We are near the end of the exponential\" (Dwarkesh Podcast transcript)",
+   "speaker": "Dario Amodei, interviewed by Dwarkesh Patel",
+   "date": "2026-02-13",
+   "locator": "Full published transcript opened; searched and read the compute-purchase section (00:46:20 chapter, 'If AGI is imminent, why not buy more compute?') and the closing culture section (memo/DVQ/Slack answer).",
+   "excerpt": "Even though a part of my brain wonders if it's going to keep growing 10x, I can't buy $1 trillion a year of compute in 2027. If I'm just off by a year in that rate of growth, or if the growth rate is 5x a year instead of 10x a year, then you go bankrupt. ... there's no force on earth, there's no hedge on earth that could stop me from going bankrupt if I buy that much compute. / For this particular one, I wrote it over winter break. ... I probably spend a third, maybe 40%, of my time making sure the culture of Anthropic is good. / It's me, it's Daniela, who runs the company day to day, it's the co-founders / This is why I get up in front of the whole company every two weeks and speak for an hour. I wouldn't say I write essays internally. ... I write this thing called a DVQ, Dario Vision Quest. I wasn't the one who named it that. ... I have a three or four-page document, and I just talk through three or four different topics ... The other thing I do is I have a channel in Slack where I just write a bunch of things and comment a lot. ... The point is to get a reputation of telling the company the truth about what's happening, to call things what they are, to acknowledge problems, to avoid the sort of corpo speak, the kind of defensive communication that often is necessary in public because the world is very large and full of people who are interpreting things in bad faith. But if you have a company of people who you trust, and we try to hire people that we trust, then you can really just be entirely unfiltered.",
+   "context": "Long-form technical interview; the personal material is Amodei's description of his own management practice, so it is self-report about method, not observed behavior. 'This particular one' refers to The Adolescence of Technology (S08). The compute answer is also a business-risk explanation any CEO might give; it supports a worst-case-hedging style only in combination with S01/S03 hedges.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S05",
+   "url": "https://cheekypint.transistor.fm/5/transcript",
+   "title": "Cheeky Pint #5: Anthropic CEO Dario Amodei on designing AGI-pilled products, model economics, and 19th-century vitalism (transcript)",
+   "speaker": "Dario Amodei, interviewed by John Collison",
+   "date": "2025-08-06",
+   "locator": "Published transcript opened; read the opening exchange on starting a company with a sibling and the 'keeping the coherence of the organization' passage.",
+   "excerpt": "You need to operationally execute, and you need to have a good strategy and see the most important thing or the thing that no one else sees. And so my job is the second and Daniela's job is the first. ... John Collison: ... having someone where you have a long-running and deep trust relationship— Dario Amodei: Yeah, yeah, where you have just total and complete trust. I mean, I think even beyond that. Anthropic has seven cofounders. When we founded it, basically the advice from pretty much everyone was like, \"Seven cofounders is a disaster ...\" There was even more negativity on my decision to give everyone the same amount of equity. / a big part of my job is keeping the coherence of the organization around this central thesis.",
+   "context": "Friendly founder-to-founder podcast. 'Total and complete trust' agrees with an interviewer's framing, so it is endorsed rather than volunteered wording. Confirms seven cofounders (consistent with S03 and S38).",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S06",
+   "url": "https://lexfridman.com/dario-amodei-transcript/",
+   "title": "Transcript for Dario Amodei: Anthropic CEO on Claude, AGI & the Future of AI & Humanity | Lex Fridman Podcast #452",
+   "speaker": "Dario Amodei, interviewed by Lex Fridman",
+   "date": "2024-11-11",
+   "locator": "Official transcript opened; read (01:33:01)-(01:33:52) on leaving OpenAI, the RSP/if-then trigger section (~01:04:27) and the regulation section (~01:22:07).",
+   "excerpt": "(01:33:01) I don't want to talk about anyone else's vision. If you have a vision for how to do it, you should go off and you should do that vision. It is incredibly unproductive to try and argue with someone else's vision. You might think they're not doing it the right way. You might think they're dishonest. Who knows? Maybe you're right, maybe you're not. But what you should do is you should take some people you trust and you should go off together and you should make your vision happen. / (01:04:27) this if-then structure basically says, \"Look, we don't want to antagonize a bunch of people ... by imposing these very onerous burdens on models that are not dangerous today.\" So the if-then, the trigger commitment is basically a way to deal with this. / I think the lack of uniformity is not fair to those of us who have put a lot of effort into being very thoughtful about these procedures. The second thing is I don't think you can trust these companies to adhere to these voluntary plans on their own. ... our RSP is checked by our long-term benefit trust",
+   "context": "A five-hour interview in which he generally declines to discuss OpenAI personalities; the exit answer is deliberately general. Independent of the 2025-2026 profiles and earlier than the WSJ reporting.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S07",
+   "url": "https://darioamodei.com/machines-of-loving-grace",
+   "title": "Machines of Loving Grace: How AI Could Transform the World for the Better",
+   "speaker": "Dario Amodei",
+   "date": "2024-10 (page dated October 2024; Wikipedia gives 2024-10-11)",
+   "locator": "Full essay opened; read the introduction (reasons for focusing on risks; 'Avoid grandiosity'; 'bad for your soul') and searched the body.",
+   "excerpt": "I think and talk a lot about the risks of powerful AI. ... people sometimes draw the conclusion that I'm a pessimist or \"doomer\" who thinks AI will be mostly bad or dangerous. I don't think that at all. / Avoid perception of propaganda. ... I also think that as a matter of principle it's bad for your soul to spend too much of your time \"talking your book\". / Avoid grandiosity. I am often turned off by the way many AI risk public figures (not to mention AI company leaders) talk about the post-AGI world, as if it's their mission to single-handedly bring it about like a prophet leading their people to salvation. I think it's dangerous to view companies as unilaterally shaping the world",
+   "context": "Self-authored policy essay. Checked for the draft's contrast-panel quotation 'We can have such a good world if we get everything right': it is NOT in this essay; it comes from the July 2025 podcast (S02 [01:16]). Wired (S03) says it was written in two days and runs nearly 14,000 words.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S08",
+   "url": "https://darioamodei.com/essay/the-adolescence-of-technology",
+   "title": "The Adolescence of Technology",
+   "speaker": "Dario Amodei",
+   "date": "2026-01 (page dated January 2026)",
+   "locator": "Full essay opened; searched for self-description ('Humanity needs to wake up', 'Avoid doomerism', 'Acknowledge uncertainty', 'which I have always tried to do'). Retrieved text is roughly 20,000+ words including notes, longer than Machines of Loving Grace.",
+   "excerpt": "I think it should be clear that this is a dangerous situation / Humanity needs to wake up, and this essay is an attempt—a possibly futile one, but it's worth trying—to jolt people awake. / Avoid doomerism. Here, I mean \"doomerism\" not just in the sense of believing doom is inevitable ... but more generally, thinking about AI risks in a quasi-religious way. / Acknowledge uncertainty. ... Nothing here is intended to communicate certainty or even likelihood. / The first step is for those closest to the technology to simply tell the truth about the situation humanity is in, which I have always tried to do",
+   "context": "Self-authored risk essay, written over winter break per S04. The draft calls it 'equally long' as Machines of Loving Grace; it is substantially longer.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S09",
+   "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+   "title": "We Must Pace the Frontier",
+   "speaker": "Dario Amodei",
+   "date": "2026-09 (page dated September 2026; published Saturday 2026-09-12 per S37 and S41)",
+   "locator": "Full essay opened and read end to end on 2026-10-04: opening paragraphs; 'over the last few months, I have become convinced'; three-step plan; 'Embedded Evaluators' section; 'Why Pace?'; 'Bottom Line'.",
+   "excerpt": "I feel the urgency personally. My own father died of a disease that was cured just a few years after his death, and I myself survived an early-stage cancer that would not have been treatable even fifty years ago. / Not building the technology deprives humanity of benefits or simply places AI in the hands of authoritarian powers, while building it too fast is reckless. / But over the last few months, I have become convinced that fully addressing the risks requires even more prudence — not just investing in risk prevention, but pacing the rate of capabilities advancement so that risk prevention has time to keep up. We must slow the pace at which we improve the capabilities of AI models. Progress will still seem fast, and we must make wise use of the time we gain. / The idea of pausing or slowing AI has been floated as far back as 2023, and I think it made little sense back then. / The first step is something Anthropic is unilaterally committing to / But we are still the ones choosing what to include and omit. Embedded evaluators will change this dynamic. / Second Opinion. ... embedded evaluators can simply provide a second opinion free of commercial incentives. / we can't redact findings just because they are unfavorable. / Each frontier AI company commits to giving ongoing, employee-like access to a team of embedded third-party evaluators (such as METR) / Desks in our offices, access badges, and company laptops. / External reviewers should have the right to publish key findings about risk levels, incidents, practices, and the access they received or didn't receive — without editorial control by Anthropic. / My first concern is that, since roughly this summer, AI has been advancing drastically faster, driven primarily by AI's growing ability to build the next generation of AI. ... My second concern is the OpenAI-Hugging Face incident (OAI-HF) / To be clear, pacing does not mean halting model training or technical progress",
+   "context": "Policy essay published amid a week of public alarm (an Anthropic researcher's public resignation; the OpenAI-Hugging Face incident; S41). Discloses cancer without type, date or treatment; do not add any. Pacing is explicitly 'not halting'. Critics (S41) read it as market positioning.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S10",
+   "url": "https://x.com/DarioAmodei/status/2088758816376807762",
+   "title": "Dario Amodei on X, reply thread 1/2 to Gavin Baker",
+   "speaker": "Dario Amodei (@DarioAmodei)",
+   "date": "2026-08-15",
+   "locator": "Post text opened via api.fxtwitter.com JSON mirror (author @DarioAmodei, created_at Sat Aug 15 22:44:43 +0000 2026); quotes Baker's post S12.",
+   "excerpt": "1/2 Thanks Gavin for an especially thoughtful exchange. I don't usually spend much time on social media but I wanted to engage here because it really brings out the heart of an important conversation. / At their best, institutions can vest power in ideas rather than people, and thereby decentralize that power. / The approach that the Trump administration is reported to be taking — pre-deployment testing for frontier models ... — is one that I am very supportive of, though of course I have to see the details to be sure. I am also supportive of Demis Hassabis' ideas around a FINRA-like entity.",
+   "context": "Public reply to an investor's critique. The draft links this post (1/2) for the father's-illness disclosure, which is actually in 2/2 (S11); fix the link.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S11",
+   "url": "https://x.com/DarioAmodei/status/2088758819304443967",
+   "title": "Dario Amodei on X, reply thread 2/2 to Gavin Baker",
+   "speaker": "Dario Amodei (@DarioAmodei)",
+   "date": "2026-08-15",
+   "locator": "Post text opened via api.fxtwitter.com JSON mirror (created_at Sat Aug 15 22:44:44 +0000 2026; replying to 2088758816376807762).",
+   "excerpt": "2/2 Second, on the messaging around AI. I do not agree that my messaging has been disproportionately negative. ... I feel the urgency here: I lost my father to Hepatitis C only a few years before the development of direct-acting antivirals (sofosbuvir), which cure 95% of patients and probably would have cured him. / I think it is fundamentally a crisis of trust. / I don't think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust / I think by far the most accurate criticism of AI companies including Anthropic is that we haven't yet delivered on our big promises to benefit the world. That is totally on us / When we've actually accomplished something real, the whole world will hear about it, as loudly as possible, you have my word on that. / Honesty is the right thing on the merits",
+   "context": "First naming of the illness in the record reviewed; earlier long profiles (S01, S03) left it unnamed. The disclosure arrives as a premise in a public argument about messaging during the IPO run-up.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S12",
+   "url": "https://x.com/GavinSBaker/status/2088611616577253502",
+   "title": "Gavin Baker on X, reply to Sholto Douglas about Amodei's messaging",
+   "speaker": "Gavin Baker (Managing Partner & CIO, Atreides Management, per X bio)",
+   "date": "2026-08-15",
+   "locator": "Post text opened via api.fxtwitter.com JSON mirror (created_at Sat Aug 15 12:59:48 +0000 2026; replying to @_sholtodouglas).",
+   "excerpt": "I agree with the potential risks and I believe Dario makes all of these arguments in good faith. / At this point, I think safe to say that Dario has lost the argument. His messaging has failed to result in his preferred regulatory path. / He is about to be the CEO of one of the most important public companies in the world and given that the pro-regulatory effort has failed (at least for now), I respectfully think he should make an effort to be a more positive advocate for his own industry. / Ironically, the main risk I saw to Anthropic a few months ago was nationalization as a result of Dario's own rhetoric and behavior.",
+   "context": "An investor critic who also affirms Amodei's good faith; keep both halves if quoted. Baker's post begins by thanking Sholto Douglas for 'setting the record straight' on an unspecified claim circulating about Amodei; do not speculate about that claim.",
+   "kind": "testimony",
+   "access": "opened"
+  },
+  {
+   "id": "S13",
+   "url": "https://www.tovima.com/wsj/the-decadelong-feud-shaping-the-future-of-ai/",
+   "title": "The Decadelong Feud Shaping the Future of AI (WSJ, syndicated by To Vima)",
+   "speaker": "Keach Hagey and Berber Jin (The Wall Street Journal), based on interviews with current and former employees and people close to the leaders",
+   "date": "2026-03-28",
+   "locator": "Syndicated full text opened on tovima.com and read end to end (sections 'Early traumas', 'Conflicting promises', 'Fight after fight', 'The final split').",
+   "excerpt": "In communication with colleagues in recent months, the Anthropic CEO has compared the legal battle between Altman and Elon Musk to the fight between Hitler and Stalin, dubbed a $25 million donation by OpenAI President Greg Brockman to a pro-Trump super political-action committee \"evil,\" and likened OpenAI and other rivals to tobacco companies knowingly hawking a harmful product. This brand strategy is known internally as one that casts Anthropic as the \"healthy alternative\" / Amodei wrote a blistering Slack post calling OpenAI \"mendacious\" and saying \"these facts suggest a pattern of behavior that I've seen often from Sam Altman.\" / Dario argued that when it came to sensitive topics like how fast AI was developing, it would be better to tell the government first. / Dario was horrified as he watched his colleagues be fired one by one, which he considered needlessly cruel. / The notion of selling AGI to rival powers such Russia and China struck Dario as tantamount to treason, and he considered quitting. / Dario agreed to stay so long as Altman promised that Brockman and Sutskever wouldn't be in charge. Altman agreed. Dario soon learned that Altman had made a promise that he felt conflicted with that agreement. / Dario's profile at OpenAI grew ... but he didn't always feel properly recognized for his contributions. ... Dario got angry that he had been left out of the loop. / Altman's November 2019 email also told the board that Dario agreed \"not to denigrate projects he doesn't believe in that others want to bet on.\" / Altman then denied that he had said it, prompting the Amodeis to begin shouting angrily at him. / Dario said he would accept nothing less than reporting directly to the board. He also said he couldn't work with Brockman. / Weeks later, Dario, Daniela and nearly a dozen other employees had left OpenAI. / Amodei and Altman opted out, instead awkwardly touching elbows. / In the fall of 2017, Dario hired an ethics and policy adviser who gave a presentation to OpenAI leadership about how the nonprofit lab could be a coordinating entity among other AI companies, and ultimately between those companies and the U.S. government, to get something like an international coordination regime for advanced AI. / He told people that Altman underplayed his role and was annoyed that Brockman went on a podcast to discuss things such as the company's charter despite having contributed less to it than Amodei did. ... When Brockman said that he and Altman were going to meet former President Barack Obama, Dario got angry that he had been left out of the loop. The following year, Dario asked for a promotion to vice president of research. Altman agreed and sent an email to the board saying Dario would report directly to him and receive equal PR treatment to co-founders Brockman and Sutskever. / Altman called Dario and Daniela into a conference room and accused them of plotting against him by encouraging colleagues to send negative feedback about him to the board. / During his final weeks, Dario—who had become known for his lengthy technical memos—wrote a long memo outlining two types of AI companies: Market companies and public- good companies.",
+   "context": "Investigative reporting relying largely on unnamed sources and on accounts from both camps (for example, the 2016 'tell the government first' exchange is Brockman's takeaway). Amodei is not quoted giving his side of the interpersonal episodes. Treat every interpersonal episode as reported and contested; attribute to the WSJ; avoid presenting private messages or the shouting episode as established fact. Syndicated copy, not independent corroboration of the WSJ. Says Dario got a 'doctorate in biophysics'.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S14",
+   "url": "https://www.france24.com/en/live-news/20261002-anthropic-s-dario-amodei-ai-s-most-visible-ceo-and-enigma",
+   "title": "Anthropic's Dario Amodei: AI's most visible CEO and enigma (AFP)",
+   "speaker": "AFP, quoting Michael Berry, Olivier Marre, Greg Diamos, Alex Karp, Stephen Henriques and an anonymous witness",
+   "date": "2026-10-02",
+   "locator": "AFP wire text on France24 opened via reader proxy and read in full.",
+   "excerpt": "\"He was very idealistic...in a technical or scientific sense,\" recalls Michael Berry / \"I never saw someone engaged in a strong moral or ethical quest,\" says Olivier Marre, who worked with Amodei at Princeton on a retinal analysis device. \"Dario was ambitious, eager to succeed and be recognized for it, but not excessively or abnormally,\" says Marre ... \"He wasn't a megalomaniac who crushed others.\" / Some trained engineers looked down on him, but \"he really outworked everybody,\" Diamos says. \"He caught up quickly because he devoted his whole life to it, for every waking hour and then some.\" / On a team of 300, \"he had one of the strongest personalities of anybody in the group,\" Diamos says ... \"He didn't have a problem confronting much more experienced researchers.\" / \"If he would disagree with ...the direction of the company, he would say it,\" Diamos says. \"I think that's what ended up leading to him leaving -- eventually the disagreement got to be so big that he felt like it was not worth continuing.\" / Some see a humanist concerned about AI's impact on society ... Others describe a skilled operator willing to exploit collective fears about technology to serve Anthropic's interests.",
+   "context": "Independent of S01 for Marre; Berry and Diamos also spoke to Kantrowitz, so their testimony is two interviews with the same people, not independent witnesses. AFP says he confronted the Pentagon 'in March'; the public standoff began in late February (S17, S19). Mentions a 'Saturday Night Live' sketch the previous weekend.",
+   "kind": "testimony",
+   "access": "opened"
+  },
+  {
+   "id": "S15",
+   "url": "https://www.cbsnews.com/news/anthropic-ceo-dario-amodei-full-transcript/",
+   "title": "Read the full transcript of Jo Ling Kent's interview with Dario Amodei",
+   "speaker": "Dario Amodei, interviewed by Jo Ling Kent (CBS News)",
+   "date": "2026-02-28",
+   "locator": "Full transcript opened; read the autonomous-weapons, accountability, 'race to the bottom', 'patriots' and closing passages.",
+   "excerpt": "We don't want to sell something that we don't think is reliable, and we don't want to sell something that could get our own people killed or that could get innocent people killed. / We can't just be a total race to the bottom. We-- we, you know, we have to have some principles. / we need to have a conversation about accountability, about who is holding the button and who can say no. / When-- when-- when-- when we receive some kind of formal action, we will look at it, we will understand it, and we will challenge it in court. / Disagreeing with the government is the most American thing in the world. And we are patriots. / It's about the principle of standing up for what's right.",
+   "context": "Broadcast interview the day after the administration's ban (S19). Verbatim transcript with stammers; CBS's edited article (S16) cleans some quotes.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S16",
+   "url": "https://www.cbsnews.com/news/ai-executive-dario-amodei-on-the-red-lines-anthropic-would-not-cross/",
+   "title": "AI executive Dario Amodei on the red lines Anthropic would not cross",
+   "speaker": "Jo Ling Kent (CBS News Sunday Morning), quoting Dario Amodei",
+   "date": "2026-03-01",
+   "locator": "Article opened and read in full.",
+   "excerpt": "\"We have these two red lines,\" said Amodei. \"We've had them from Day One. We are still advocating for those red lines. We're not gonna move on those red lines.\" / \"It feels very punitive and inappropriate, given the amount that we've done for U.S. national security,\" he said. / Defense Secretary Pete Hegseth labeled Anthropic \"a supply chain risk to national security\" – a first for an American company.",
+   "context": "Edited broadcast companion to S15; not independent of it.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S17",
+   "url": "https://www.anthropic.com/news/statement-department-of-war",
+   "title": "Statement from Dario Amodei on our discussions with the Department of War",
+   "speaker": "Dario Amodei (signed company statement)",
+   "date": "2026-02-26",
+   "locator": "Statement opened and read in full.",
+   "excerpt": "Two such use cases have never been included in our contracts with the Department of War, and we believe they should not be included now: / today, frontier AI systems are simply not reliable enough to power fully autonomous weapons. We will not knowingly provide a product that puts America's warfighters and civilians at risk. / These latter two threats are inherently contradictory: one labels us a security risk; the other labels Claude as essential to national security. / Regardless, these threats do not change our position: we cannot in good conscience accede to their request.",
+   "context": "Company statement under his name; drafted with counsel and policy staff in a live negotiation. Grounds the red lines in reliability, oversight and democratic values rather than in a general claim of moral authority.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S18",
+   "url": "https://fortune.com/2026/02/27/pentagon-brands-anthropic-ceo-dario-amodei-a-liar-with-a-god-complex-as-deadline-looms-over-ai-use-in-weapons-and-surveillance/",
+   "title": "The Pentagon brands Anthropic CEO a 'liar' with a 'God complex' as deadline looms over AI use in weapons and surveillance",
+   "speaker": "Beatrice Nolan (Fortune), reporting posts by Emil Michael and quoting Lawrence Lessig",
+   "date": "2026-02-27",
+   "locator": "Article opened via direct fetch and read in full.",
+   "excerpt": "Emil Michael, the U.S.'s undersecretary of war, called Amodei \"a liar\" with a \"God complex\" in response, accusing the CEO of wanting \"to personally control the U.S military\" in posts on social media platform X. / The Pentagon has demanded Anthropic remove the contract limitations it objects to by 5:01 p.m. Friday or face having its $200 million contract with the U.S. military canceled / Harvard law professor Lawrence Lessig praised the company's statement as \"a beautiful act of integrity and principle\"",
+   "context": "A hostile characterization by a counterparty official during a negotiation deadline, and a sympathetic one by a law professor. Neither is evidence of motive. Fortune's spelling is 'God complex' (no hyphen); the draft's 'God-complex' should follow the cited source.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S19",
+   "url": "https://apnews.com/article/anthropic-pentagon-ai-hegseth-dario-amodei-b72d1894bc842d9acf026df3867bee8a",
+   "title": "Trump orders US agencies to stop using Anthropic technology in clash over AI safety",
+   "speaker": "Matt O'Brien and Konstantin Toropin (Associated Press)",
+   "date": "2026-02-27",
+   "locator": "Opened via r.jina.ai reader proxy (direct fetch 403); read the article body.",
+   "excerpt": "The Trump administration on Friday ordered all U.S. agencies to stop using Anthropic's artificial intelligence technology ... after CEO Dario Amodei refused to back down / Hegseth also deemed the company a \"supply chain risk,\" a designation typically stamped on foreign adversaries / Hours after its competitor was punished, OpenAI CEO Sam Altman announced on Friday night that his company struck a deal with the Pentagon / \"The United States of America will never allow a radical left, woke company to dictate how our great military fights and wins wars!\" he wrote in all caps. / venture capitalists, prominent AI scientists and a large number of workers from Anthropic's top rivals ... voiced support for Amodei's stand",
+   "context": "Wire report. The 'woke' quotation here is President Trump's; the draft attributes 'woke' to David Sacks, which was not verified in an opened source this pass.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S20",
+   "url": "https://www.cnbc.com/2026/03/09/anthropic-trump-claude-ai-supply-chain-risk.html",
+   "title": "Anthropic sues Trump administration over Pentagon blacklist",
+   "speaker": "CNBC",
+   "date": "2026-03-09",
+   "locator": "Opened via r.jina.ai reader proxy; read the article body.",
+   "excerpt": "The company said in a complaint, filed in the U.S. District Court for the Northern District of California, that these actions are \"unprecedented and unlawful,\" ... The company has separately filed for a formal review of the Defense Department's determination in the U.S. Court of Appeals in Washington D.C. / Anthropic signed a $200 million contract with the Department of Defense in July / On Thursday, Anthropic confirmed that it had officially been designated a supply chain risk",
+   "context": "Confirms the draft's 'sued in two federal courts' on March 9, 2026.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S21",
+   "url": "https://www.npr.org/2026/03/06/g-s1-112713/pentagon-labels-ai-company-anthropic-a-supply-chain-risk",
+   "title": "Pentagon labels AI company Anthropic a supply chain risk",
+   "speaker": "NPR",
+   "date": "2026-03-06",
+   "locator": "Opened via r.jina.ai reader proxy; read the contractor paragraph.",
+   "excerpt": "Some military contractors were already cutting ties with Anthropic ... Lockheed Martin said it will \"follow the President's and the Department of War's direction\" and look to other providers of large language models. \"We expect minimal impacts as Lockheed Martin is not dependent on any single LLM vendor for any portion of our work,\" the company said.",
+   "context": "Supports the draft's 'Lockheed Martin cut ties' in substance; Lockheed's own framing is compliance with a directive, with minimal impact.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S22",
+   "url": "https://www.cnn.com/2026/08/27/tech/anthropic-pentagon-supply-chain-risk-unlawful-hnk",
+   "title": "Judge rules the Pentagon's supply chain risk label for Anthropic unlawful",
+   "speaker": "Hadas Gold (CNN)",
+   "date": "2026-08-27",
+   "locator": "Opened via r.jina.ai reader proxy; read the article body.",
+   "excerpt": "A federal judge ruled the Pentagon's decision to label AI company Anthropic a 'supply chain risk' violated the law and ordered the designation be removed Thursday evening. Judge Rita Lin wrote that ... its actions against Anthropic \"constituted unlawful retaliation in violation of the First Amendment\" / A second lawsuit brought by Anthropic related to the supply chain risk label is still being considered by a Washington, DC, court.",
+   "context": "One of two parallel designations; see S23 for the D.C. Circuit outcome. Litigation is ongoing.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S23",
+   "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+   "title": "U.S. appeals court upholds Pentagon designation of Anthropic as supply chain risk",
+   "speaker": "CNBC",
+   "date": "2026-09-25",
+   "locator": "Opened via r.jina.ai reader proxy; read the article body.",
+   "excerpt": "A federal appeals court panel in Washington, D.C., on Friday upheld the Pentagon's blacklisting of Anthropic ... The 2-1 decision rejected Anthropic's argument that the Department of Defense's ban on its Claude models was arbitrary, unauthorized and unconstitutional. / The DOD relied on two distinct designations ... A San Francisco federal judge ruled last month that one designation was illegal. The ruling Friday by the D.C. appeals court upheld the second designation. / \"The Trump Administration has stopped AI \"people\" from doing bad, or potentially bad, \"things,\" like Dario (Anthropic!), who is now pretending to be a \"perfect little angel\" - and we will continue to do so!,\" Trump wrote / \"We respectfully disagree with the court's decision,\" an Anthropic spokesperson told CNBC in a statement. \"Another federal court has already held the government's parallel designation unlawful. We remain confident in our position and are considering all options, including further review.\"",
+   "context": "Latest legal status found on the accuracy-check date. Anthropic said it is 'considering all options, including further review'. Unresolved.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S24",
+   "url": "https://www.anthropic.com/news/fable-mythos-access",
+   "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+   "speaker": "Anthropic (company statement)",
+   "date": "2026-06-12",
+   "locator": "Statement opened and read in full (page datePublished 2026-06-12T23:38Z).",
+   "excerpt": "The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. / We received the directive from the government today at 5:21pm (ET). The letter did not provide specific details of its national security concern. / we believe the government should have the ability to block unsafe deployments, as part of a statutory process that is transparent, fair, clear, and grounded in technical facts.",
+   "context": "A company statement, not signed by Amodei. Saying Amodei personally 'switched both models off' is an inference from his role.",
+   "kind": "primary",
+   "access": "opened"
+  },
+  {
+   "id": "S25",
+   "url": "https://news.bloomberglaw.com/artificial-intelligence/amodei-tells-g7-to-resist-temptation-to-splinter-on-ai-ft",
+   "title": "Amodei Tells G7 to 'Resist Temptation to Splinter' on AI: FT",
+   "speaker": "Bloomberg Law summary of a Financial Times report citing unidentified people familiar with the discussions",
+   "date": "2026-06-17",
+   "locator": "Free summary bullets opened; full text behind login (not read).",
+   "excerpt": "Anthropic CEO Dario Amodei told G7 leaders they should \"resist the temptation to splinter\" over the rollout of advanced AI tools, the Financial Times reports, citing unidentified people familiar with the discussions. / Amodei made the comments in front of US President Donald Trump and other leaders on Wednesday / Amodei said he sympathized with efforts of countries to prevent AI from getting into the wrong hands but democratic nations should come together / In the meeting, Altman emphasized that cyber defense tools should be provided to all the countries in the room Demis Hassabis of Google DeepMind called for US-led collaboration ...",
+   "context": "Second-hand account of a closed meeting. It contradicts the draft's 'Altman called for an international safety forum, and Demis Hassabis proposed a standards body'. The draft's 'coordinate trade in advanced models and share their benefits' is not supported by the opened text.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S26",
+   "url": "https://www.washingtonpost.com/technology/2026/06/17/trumps-anthropic-restrictions-rattle-us-allies-ai-leaders-gather-g-7/",
+   "title": "Trump's Anthropic restrictions rattle U.S. allies as AI leaders gather at G-7",
+   "speaker": "The Washington Post",
+   "date": "2026-06-17",
+   "locator": "Page opened via r.jina.ai reader proxy, but only the headline, dek and photo caption were visible; the article body is paywalled and was not read.",
+   "excerpt": "The White House export ban on Anthropic's latest models cast a shadow at the summit, as industry figures urged global standards and democratic cooperation. / Anthropic CEO Dario Amodei during a working lunch Wednesday with Group of Seven leaders during the G-7 summit in Evian-les-Bains, France. (Anna Moneymaker/Getty Images)",
+   "context": "Supports only the working-lunch setting, the location and the general 'global standards and democratic cooperation' framing. Do not use it for what any individual executive proposed.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S27",
+   "url": "https://www.axios.com/2026/07/03/anthropic-ai-models-revived-behind-the-scenes",
+   "title": "How the world's top AI models were revived",
+   "speaker": "Axios, citing a U.S. official and unnamed sources",
+   "date": "2026-07-03",
+   "locator": "Opened via r.jina.ai reader proxy (direct fetch 403) and read in full.",
+   "excerpt": "On June 12, Commerce Secretary Howard Lutnick, at the direction of President Trump, called Anthropic CEO Dario Amodei. ... Amodei called Lutnick back that night after receiving the letter, realizing it effectively meant the models would have to be taken offline — to which Lutnick responded that was indeed the goal. / Anthropic deployed engineers to Washington D.C. ... Gradually, various agency heads approved of the changes, and on July 1 the models were released, the official said. / Anthropic eventually understood that in order to be successful, it needed to be on the same side as the government, the U.S. official said. / As discussions turned more technical, Anthropic policy chief Sarah Heck and co-founder Tom Brown got more involved. ... There was never a moment when Dario stepped offstage and someone else replaced him, one source said",
+   "context": "Mostly government-side sourcing; 'the impact of its 20-day showdown'. The 'same side as the government' line is a U.S. official's characterization.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S28",
+   "url": "https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic",
+   "title": "Behind the Curtain: A white-collar bloodbath",
+   "speaker": "Axios (Behind the Curtain column; byline not visible in retrieved text), interview with Dario Amodei",
+   "date": "2025-05-28",
+   "locator": "Opened via r.jina.ai reader proxy; read the article body.",
+   "excerpt": "AI could wipe out half of all entry-level white-collar jobs — and spike unemployment to 10-20% in the next one to five years, Amodei told us / \"We, as the producers of this technology, have a duty and an obligation to be honest about what is coming,\" Amodei told us. / Amodei acknowledges the contradiction but says workers are \"already a little bit better off if we just managed to successfully warn people.\"",
+   "context": "On-record interview. The forecast is dated and should be presented as a 2025 forecast, not a current figure.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S29",
+   "url": "https://fortune.com/2026/05/05/dario-amodei-jevons-paradox-will-ai-wipe-out-white-collar-jobs/",
+   "title": "Dario Amodei spent last year warning of an AI white-collar bloodbath. Now he's changing the narrative",
+   "speaker": "Nick Lichtenberg (Fortune), quoting Amodei at Anthropic's financial-services briefing",
+   "date": "2026-05-05",
+   "locator": "Article opened via direct fetch and read in full.",
+   "excerpt": "\"If you automate 90% of the job,\" he said, ... \"then everyone does the 10% of the job. And the 10% kind of expands to be 100% of what people do and kind of 10xs their productivity.\" / \"AI is moving faster than all these previous technologies,\" he said. \"And so when you strain a system more than, you know, than it's usually strained, it's possible you get these weird behaviors and this big disruption.\" / Either he has genuinely updated his view based on new evidence, or the social and political cost of the bloodbath framing ... has made it more useful to suddenly sound a bit more optimistic.",
+   "context": "Fortune itself names the incentive alternative to a genuine update; keep that alternative visible.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S30",
+   "url": "https://www.commbank.com.au/articles/newsroom/2026/05/sam-altman-close-ai-gap.html",
+   "title": "'We try to think out loud': OpenAI's Sam Altman on closing the gap between AI and how we're adopting it",
+   "speaker": "Commonwealth Bank newsroom, quoting Sam Altman",
+   "date": "2026-05-26 (date string in page source; URL dates it May 2026)",
+   "locator": "Article opened and read in full.",
+   "excerpt": "\"My scorecard, at the highest level would be we've been roughly right on technological predictions and pretty wrong on the social and economic implications,\" he said. / One of the areas where he personally had been wide of the mark was on AI's short-term impact on entry-level white-collar jobs ... \"I'm delighted to be wrong about that.\"",
+   "context": "Comparison point only (Altman, not Amodei). A corporate newsroom write-up of a client event.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S31",
+   "url": "https://apnews.com/article/openai-anthropic-chatgpt-claude-rivalry-c19e0cca22c37190cc4e0dc08e889ef0",
+   "title": "Anthropic, OpenAI rivalry spills into new Super Bowl ads as both fight to win over AI users",
+   "speaker": "Associated Press",
+   "date": "2026-02-05",
+   "locator": "Opened via r.jina.ai reader proxy; read the article body.",
+   "excerpt": "Anthropic is airing a pair of TV commercials during Sunday's game that ridicule OpenAI for the digital advertising it's beginning to place on free and cheaper versions of ChatGPT. / OpenAI CEO Sam Altman said in a social media post that he laughed at the \"funny\" ads but blasted them as dishonest / Chiming in to directly challenge Anthropic CEO Dario Amodei was OpenAI's president and co-founder Greg Brockman ... Amodei, who rarely posts on X, did not respond.",
+   "context": "AP says 'a pair of TV commercials'; the draft's 'four-ad campaign' was not verified.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S32",
+   "url": "https://abcnews.com/GMA/Culture/anthropic-president-talks-debut-super-bowl-ad-future/story?id=129843379",
+   "title": "Anthropic president talks debut Super Bowl ad, future of AI and what it means for kids",
+   "speaker": "ABC News (Good Morning America), quoting Daniela Amodei",
+   "date": "2026-02-04",
+   "locator": "Article opened via direct fetch and read in full.",
+   "excerpt": "\"This really isn't intended to be about any other company other than us,\" Daniela Amodei, president of Anthropic, told ABC News' Rebecca Jarvis of the big game spot.",
+   "context": "Shows Daniela, not Dario, fronting the campaign publicly.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S33",
+   "url": "https://clios.com/press-article/mother-wins-super-clio-for-creative-excellence-in-super-bowl-lx-advertising/",
+   "title": "Mother Wins Super Clio For Creative Excellence In Super Bowl LX Advertising",
+   "speaker": "The Clio Awards (press release)",
+   "date": "2026-02-08",
+   "locator": "Opened via r.jina.ai reader proxy (direct fetch 403); read the release.",
+   "excerpt": "Anthropic's \"Can I get a six-pack quickly? by Mother\" stood out for its timely topic ... The brand took aim at its competition and touted its product benefits",
+   "context": "Confirms the agency Mother made the winning Anthropic spot.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S34",
+   "url": "https://ca.finance.yahoo.com/news/ai-giant-anthropic-confidentially-files-160453569.html",
+   "title": "AI giant Anthropic confidentially files for US IPO (Reuters, syndicated on Yahoo Finance Canada)",
+   "speaker": "Reuters",
+   "date": "2026-06-01",
+   "locator": "Syndicated Reuters text opened via direct fetch (the reuters.com URL in the draft returned HTTP 401).",
+   "excerpt": "June 1 (Reuters) - AI giant Anthropic said on Monday it has confidentially filed for a U.S. initial public offering ... Anthropic did not disclose the size or terms of the offering. It last raised $65 billion at a post-money valuation of $965 billion in late May",
+   "context": "Syndicated copy of the Reuters story the draft cites; same reporting, not an independent source.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S35",
+   "url": "https://fortune.com/2026/09/29/anthropic-leaked-ipo-prospectus-losses-growth-ai-end-humanity/",
+   "title": "Anthropic's leaked IPO prospectus details steep losses, rapid growth, and a fear that AI could end humanity",
+   "speaker": "Beatrice Nolan (Fortune), citing a leaked filing reviewed by Reuters",
+   "date": "2026-09-29",
+   "locator": "Article opened via direct fetch and read in full.",
+   "excerpt": "The company is burning cash—losing $42 billion last year—while bringing in $4.6 billion in revenue, according to the leaked filing reviewed by Reuters. / Revenue rose 1,088% in 2025, while its operating loss widened to $8.06 billion from $2.98 billion a year earlier. / It also referred to the potential for \"existential risks to humanity.\" / The lab is reportedly aiming for a valuation of more than $2 trillion in an IPO that, after several delays, could occur after the U.S. midterm elections in November.",
+   "context": "Secondary report of a leaked, unofficial document. 'Burning cash—losing $42 billion' overstates the cash picture; S36 reports more than $34 billion of the net loss reflected non-cash fair-value accounting adjustments. The draft should not present $42 billion as cash burn.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S36",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-targets-pre-thanksgiving-ipo-111436118.html",
+   "title": "Anthropic targets pre-Thanksgiving IPO at $2 trillion valuation (Quartz, citing Bloomberg)",
+   "speaker": "Cris Tolomia (Quartz via Yahoo Finance), summarizing Bloomberg reporting citing unnamed sources",
+   "date": "2026-10-02",
+   "locator": "Article opened via direct fetch and read in full.",
+   "excerpt": "Anthropic PBC has set its sights on a pre-Thanksgiving stock market listing, with bankers potentially kicking off the IPO roadshow during the week of Nov. 9 ... Anthropic plans to host prospective investors at its San Francisco headquarters on Oct. 14 ahead of the offering. The process remains fluid and any dates are subject to change. / Its 2025 net loss came to nearly $42 billion ... however, the overwhelming majority of that shortfall — over $34 billion — reflected accounting adjustments tied to the fair value of the company's liabilities rather than cash outflows from operations. / Anthropic is also considering super-voting shares that would give Amodei and fellow co-founders greater control over the company after it goes public.",
+   "context": "Third-hand (Quartz summarizing Bloomberg's unnamed sources). Not confirmed by Anthropic. All dates fluid.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S37",
+   "url": "https://www.cbsnews.com/news/anthropic-ceo-dario-amodei-on-ai-risks/",
+   "title": "Anthropic CEO Dario Amodei: \"For too long the industry lied\" about AI risks",
+   "speaker": "Jo Ling Kent (CBS News Sunday Morning), interview with Dario Amodei",
+   "date": "2026-09-13",
+   "locator": "Article opened and read in full.",
+   "excerpt": "\"I won't lie to you – there are real dangers,\" said Anthropic CEO and co-founder Dario Amodei ... \"And I think for too long the industry lied to people about the fact that this technology had risks.\" / \"I don't think I fully just appreciated what it would actually be like when the progress was as fast as it was.\" / \"It doesn't mean we need to panic today. It doesn't mean we need to shut it all down. But I would say it's a warning sign. It's a warning sign that we need to slow down.\" / \"Whenever anyone builds an AI model, there's a third-party evaluator who can verify whether that company is following the safety practices that they're committed to – it's like a food inspector,\" he said. / \"My view here is, it has always been very strange that this technology is being built by a private company,\" he said. \"People ask me that question all the time: Why isn't this being built by government? And the strangest thing about it is, I agree with them. I'm uncomfortable.\" / \"To the right combination of governments. The worry I have – I am concerned that one single government could abuse this technology just as easily as a single company could. But I think a combination of democratically-elected governments, I don't know about handing over, but some kind of oversight, some kind of joint governance.\" / \"And honestly, I don't know if it's possible, but we should try.\"",
+   "context": "Interview the day after the pacing essay, during a week of public alarm. Most recent long on-record personal answers found.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S38",
+   "url": "https://www.cbsnews.com/news/anthropic-ai-safety-transparency-60-minutes/",
+   "title": "Anthropic CEO warns that without guardrails, AI could be on dangerous path (60 Minutes)",
+   "speaker": "Aliza Chasan and Nichole Marks (60 Minutes/CBS News), quoting Dario Amodei",
+   "date": "2025-11-16",
+   "locator": "Article opened and read in full.",
+   "excerpt": "Amodei said he's \"deeply uncomfortable with these decisions [about AI] being made by a few companies, by a few people.\" / \"for some of it, it will depend on the future, and we're not always gonna be right, but we're calling it as best we can.\" / He left along with six other employees, including his sister, Daniela, to start Anthropic in 2021. / Twice a month, Amodei convenes his more than 2,000 employees for meetings known as Dario Vision Quests",
+   "context": "Independent of S03 on the founding headcount (six others), and of S04 on DVQ frequency (twice a month).",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S39",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-06-11/how-anthropic-ceo-dario-amodei-protects-his-time-de-stresses",
+   "title": "How Anthropic CEO Dario Amodei Protects His Time, De-Stresses",
+   "speaker": "Bloomberg (newsletter), from Emily Chang's 'The Circuit' interview recorded 2026-04-30",
+   "date": "2026-06-11",
+   "locator": "Page opened via r.jina.ai reader proxy; only the headline, dek, lede sentence and photo caption were visible before the paywall. The body (including how he 'de-stresses') was not read.",
+   "excerpt": "\"It lets me do all the things that I do much more easily than I would otherwise,\" Amodei says. / For all of his influence at Anthropic PBC, co-founder and Chief Executive Officer Dario Amodei has just one direct report at the artificial intelligence company. / Anthropic is testing a different version of leadership, one where the CEO protects nearly all of his time for big-picture conversations, organizational culture, and giving input on research direction and strategy, rather than managing people in senior leadership roles.",
+   "context": "The single most Type-5-consistent observation found (protecting time, minimal people management). The dek quote's referent ('It') is not visible; do not say what 'it' is without reading the body. The one direct report's identity is not stated in the visible text.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S40",
+   "url": "https://www.youtube.com/watch?v=x2VHFgyawPE",
+   "title": "Inside the Mind of Anthropic CEO Dario Amodei | The Circuit | Extended Interview | Bloomberg Originals",
+   "speaker": "Dario Amodei, interviewed by Emily Chang (Bloomberg)",
+   "date": "2026-06-17",
+   "locator": "Video metadata and chapter list opened via yt-dlp (70 min; chapters include 26:13 'Dario's writing style', 36:41 'Pentagon standoff', 1:07:32 'Trust'). Captions could not be retrieved (HTTP 429; sign-in required); the interview itself was not heard or read.",
+   "excerpt": "Emily Chang sits down with Anthropic CEO Dario Amodei in a wide-ranging interview discussing his San Francisco roots, the race against OpenAI, the Pentagon standoff and AI's endgame. (video description)",
+   "context": "The draft's epigraph ('You need to learn to respond rationally and not put dangers out of proportion to each other') and its 'accelerating near light speed ... two, then three, then four days had passed' passage cite this interview. Neither could be verified this pass; a web search for the epigraph returns only the 9takes page itself.",
+   "kind": "primary",
+   "access": "unavailable"
+  },
+  {
+   "id": "S41",
+   "url": "https://www.axios.com/2026/09/12/anthropic-ai-amodei-pacing",
+   "title": "Anthropic, OpenAI CEOs call for slowdown in AI development",
+   "speaker": "Axios",
+   "date": "2026-09-12",
+   "locator": "Opened via r.jina.ai reader proxy; read in full.",
+   "excerpt": "OpenAI CEO Sam Altman quickly agreed that the industry needs to slow the pace of frontier-model advances / This is the week that the AI safety debate broke into the public consciousness, driven by an Anthropic employee's very public resignation and warning of possible doom. / \"Dario is right,\" he wrote on X. (Anthropic is a major customer of Musk's for data center capacity.) / Anthropic itself has gone back and forth on the value of unilaterally slowing development. / \"Dario makes the case to stop open source and concentrate enormous technological and economic power with Anthropic,\" venture capitalist Chamath Palihapitiya wrote on X.",
+   "context": "Contemporary reception of S09, including the market-positioning critique.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S42",
+   "url": "https://www.axios.com/2026/09/28/dario-amodei-artificial-intelligence-ai",
+   "title": "AI's man of the moment",
+   "speaker": "Axios",
+   "date": "2026-09-28",
+   "locator": "Opened via r.jina.ai reader proxy; read in full.",
+   "excerpt": "His penchant for being plain-spoken — especially when it comes to the risk of disaster — has earned him admirers and critics in equal measure, although he has remained consistent in his positions for years. / The SNL sketch captured what often frustrates allies about him: calling for more regulation and a slowdown to establish greater safety, while accelerating the theory that he and Anthropic are best-equipped to be at the vanguard. / By Sunday, Maria and Marc scooped that President Trump had personally invited Amodei to dinner. / an unflattering \"Weekend Update\" skit that painted him as barely able to complete a sentence without saying AI was going to kill us all.",
+   "context": "Fast-moving political context; useful only as dated background, not as personality evidence.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S43",
+   "url": "https://www.cnbc.com/2026/01/10/anthropic-amodei-siblings-generative-ai.html",
+   "title": "Behind Anthropic's stunning growth is a sibling team that may hold the key to generative AI",
+   "speaker": "MacKenzie Sigalos (CNBC), quoting Daniela Amodei",
+   "date": "2026-01-10",
+   "locator": "Article opened via direct fetch and read in full.",
+   "excerpt": "\"It's genuinely a privilege to run Anthropic with my sibling,\" Daniela Amodei said. \"We've known each other our whole lives — or my whole life, at least. He had four years without me, poor guy.\" / \"Dario and I really help each other,\" she added. \"He's great at pushing me to think about the big picture... I am helpful in thinking about, like, how do we build an organization that is enduring, that's sustainable, that's filled with great people\" / Daniela Amodei ... has emerged as the operational counterweight to her brother Dario's technical vision.",
+   "context": "The draft attributes this Daniela quote to the Big Technology profile; the correct source is this CNBC piece.",
+   "kind": "testimony",
+   "access": "opened"
+  },
+  {
+   "id": "S44",
+   "url": "https://en.wikipedia.org/w/index.php?title=Dario_Amodei&action=raw",
+   "title": "Dario Amodei (Wikipedia, raw wikitext)",
+   "speaker": "Wikipedia contributors",
+   "date": "unknown (pulled 2026-10-04)",
+   "locator": "Raw wikitext opened and read in full; used for leads and citations only.",
+   "excerpt": "He was awarded the Hertz Foundation Fellowship in 2007 while earning his doctorate in biophysics from Princeton University. He later received the Hertz Thesis Prize in 2011 for his doctoral research on electrophysiology of neural circuits. / His father, Riccardo Amodei, an Italian-American leather craftsman from Massa Marittima, Tuscany, died of hepatitis C when Dario was 23 years old. / In November 2023, the board of directors of OpenAI approached Amodei about replacing Sam Altman and potentially merging the two startups. Amodei declined both offers. / Amodei began dating Camilla Clark in 2014 and married her in 2022.",
+   "context": "Reference only, never sole support for a body claim. 'Massa Marittima' cites an Italian site (S48) whose opened text does not contain it; the spouse line cites a paywalled source (S47). Thesis title: 'Network-Scale Electrophysiology: Measuring and Understanding the Collective Behavior of Neural Circuits' (2011), advisors Michael J. Berry and William Bialek.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S45",
+   "url": "https://www.businessinsider.com/dario-amodei",
+   "title": "Meet Dario Amodei, Anthropic's outspoken CEO",
+   "speaker": "Business Insider",
+   "date": "2026-01-05",
+   "locator": "Opened via r.jina.ai reader proxy; read the early-life section.",
+   "excerpt": "Amodei's father was a leatherworker raised in a small town near the Italian island of Elba. / In 2011, Amodei obtained a Ph.D. in physics from Princeton. / \"I think at the end of the day, I warn about these things not to be a prophet of doom, but because warning about them is the first step towards solving them,\" Amodei said in December during The New York Times' DealBook Summit.",
+   "context": "Secondary roundup that leans on S01 and S03; not independent for family facts. Corroborates the PhD being in physics (biophysics), not 'computational neuroscience'.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S46",
+   "url": "https://www.theinformation.com/articles/anthropics-first-lady-took-winding-road-top",
+   "title": "Anthropic's 'First Lady' Took a Winding Road to the Top",
+   "speaker": "Cory Weinberg, Jemima McEvoy, Jessica Lessin, Stephanie Palazzolo (The Information)",
+   "date": "2026-08-13",
+   "locator": "Paywalled; headline and byline only (via Wikipedia citation). Body not read.",
+   "excerpt": "Anthropic's 'First Lady' Took a Winding Road to the Top (headline only)",
+   "context": "Cited by Wikipedia for a marriage claim. Unverified; the entity-gap packet bars relationship optimization on this page. Do not use.",
+   "kind": "secondary",
+   "access": "unavailable"
+  },
+  {
+   "id": "S47",
+   "url": "https://ainews.it/chi-sono-dario-e-daniela-amodei-gli-italoamericani-delletica-tech/",
+   "title": "Chi sono Dario e Daniela Amodei: gli italoamericani dell'AI etica",
+   "speaker": "Edoardo Frasso (AI News, Italian)",
+   "date": "2023-11-27",
+   "locator": "Opened via direct fetch; searched the retrieved text for Massa, Toscana, padre, pelle, cuoio and Elba. None found.",
+   "excerpt": "Searched terms not found in the retrieved article text (the page mentions the Amodei siblings 13 times).",
+   "context": "This is Wikipedia's citation for 'Massa Marittima, Tuscany'. The retrieved text does not support it, so the hometown remains unverified; use Wired's 'a tiny town near the island of Elba' (S03).",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S48",
+   "url": "https://reason.com/2026/03/30/government-actions-against-anthropic-are-classic-first-amendment-retaliation/",
+   "title": "Government actions against Anthropic are 'classic First Amendment retaliation'",
+   "speaker": "Elizabeth Nolan Brown (Reason)",
+   "date": "2026-03-30",
+   "locator": "Opened via direct fetch; read the Anthropic section.",
+   "excerpt": "In a March 26 order, Lin issued a preliminary injunction order that prohibits the federal government \"from implementing, applying, or enforcing in any manner\" the president's directive ... \"This appears to be classic First Amendment retaliation,\" she wrote.",
+   "context": "Opinion-section newsletter quoting the order; use for the date and quoted language only.",
+   "kind": "secondary",
+   "access": "opened"
+  },
+  {
+   "id": "S49",
+   "url": "https://en.wikipedia.org/wiki/Sofosbuvir",
+   "title": "Sofosbuvir (Wikipedia)",
+   "speaker": "Wikipedia contributors",
+   "date": "unknown (pulled 2026-10-04)",
+   "locator": "Lead section opened via r.jina.ai reader proxy.",
+   "excerpt": "Sofosbuvir was discovered in 2007 and approved for medical use in the United States in 2013.",
+   "context": "Reference for the timing tension only: 2013 approval is about seven years after the father's 2006 death, while Amodei's own estimate is 'three or four years' (S02) and Big Technology says 'within four years' (S01). Earlier direct-acting antivirals (2011) are not covered here.",
+   "kind": "secondary",
+   "access": "opened"
+  }
+ ],
+ "claims": [
+  {
+   "id": "C01",
+   "claim": "Dario Amodei was born in San Francisco in 1983; Daniela was born four years later. Their parents, Elena Engel (a Jewish American born in Chicago who managed library renovation and construction projects in Berkeley and San Francisco) and Riccardo Amodei (a leather craftsman from 'a tiny town near the island of Elba'), moved from Italy to San Francisco in the 1970s. The siblings grew up in the Mission District.",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S03",
+    "S01",
+    "S45"
+   ],
+   "inference": "Stable biographical frame for the opening sections. Use the birth year only; no full birth date is supported.",
+   "alternative": "The draft's 'from Massa Marittima, Tuscany' rests on Wikipedia (S44), whose cited Italian source (S47) did not contain it when opened. Use Wired's wording or verify the town before naming it. The FAQ's 'from Tuscany' is an inference from 'near Elba' and should be softened or sourced.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C02",
+   "claim": "Wired reports that as a toddler he 'was punching away at his calculator', and Amodei says: 'I was just obsessed with manipulating mathematical objects and understanding the world quantitatively.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S03"
+   ],
+   "inference": "An early, enduring preference for quantitative understanding. Consistent with a head-center type (5 or 6) and with the 5 reading's 'understanding first' motive, but it describes a cognitive style, not a motive.",
+   "alternative": "Talent and temperament of many scientists regardless of type; the toddler detail is the reporter's narration.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C03",
+   "claim": "He says the dot-com boom around his high school years did not interest him: 'the idea of ... writing some website actually had no interest to me ... whatsoever. Or like founding a company.' He wanted to discover 'fundamental scientific truth.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S02",
+    "S01"
+   ],
+   "inference": "He did not set out to be a founder or executive; the CEO role arrived as a means. Supports reading his public role as instrumental rather than image-seeking (against Type 3).",
+   "alternative": "Retrospective self-narrative told in 2025, when a scientist-not-salesman image also serves him. The quotation differs between the podcast (S02, verbatim with fillers) and the profile (S01, edited); the draft must follow one source and cite it.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C04",
+   "claim": "Amodei says his parents 'gave me a sense of ... right and wrong and what was important in the world', and that 'imbuing a strong sense of responsibility ... is maybe the thing that I remember most.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S02",
+    "S01"
+   ],
+   "inference": "Duty and responsibility are part of his own origin story. This supports a values-and-obligation frame that fits Types 1 and 6 more naturally than 5.",
+   "alternative": "Self-report about upbringing is not evidence of core motive; many people credit parents with values. The draft attributes the longer wording to the Big Technology profile, but only the podcast (S02 [41:51]) contains 'is maybe the thing that I remember most'.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C05",
+   "claim": "He describes a very close childhood bond with Daniela: 'I think we decided very early that we wanted to work together in some capacity.' Daniela told Wired that as children they 'played games in which they saved the world.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S02",
+    "S03"
+   ],
+   "inference": "A lifelong trusted alliance precedes the company. Relevant to the Type 6 reading, where security is built through a small, reliable inner circle.",
+   "alternative": "A close sibling bond is common and does not discriminate type by itself.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C06",
+   "claim": "Daniela Amodei told CNBC in January 2026: 'It's genuinely a privilege to run Anthropic with my sibling ... He had four years without me, poor guy,' and said Dario pushes her 'to think about the big picture' while she focuses on building an enduring organization.",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S43"
+   ],
+   "inference": "Confirms the division of labor (he strategy and vision, she operations and people) from her side.",
+   "alternative": "The draft attributes this quote to the Big Technology profile; it is from CNBC (S43). Fix the attribution. Warm public framing by a co-founder during IPO preparation.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C07",
+   "claim": "On March 3, 2003, as a Caltech undergraduate, he wrote in The California Tech that most students were 'opposed in principle but refuse to give one millisecond of their time' to oppose the Iraq war: 'This needs to change, right now and without delay.'",
+   "passage": "",
+   "class": "observed",
+   "source_ids": [
+    "S01"
+   ],
+   "inference": "Early public moral urgency aimed at others' passivity. Fits a Type 1 reformer or a counterphobic 6; less typical of a detached 5.",
+   "alternative": "A single student op-ed during a period of campus activism; the original was not opened (quoted by Kantrowitz). Marre's later testimony (C15) cuts against a lifelong moral-crusade reading.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C08",
+   "claim": "His father, Riccardo, 'was ill for a long time and eventually died in ... 2006', around the time Dario began his Princeton physics PhD (first months on cosmology). The death pushed him from theoretical physics toward biology 'to try and address ... human illnesses.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S02",
+    "S01",
+    "S03"
+   ],
+   "inference": "The central consequential choice in the record: loss redirected his work toward preventing avoidable death.",
+   "alternative": "Career shifts also have intellectual causes; Wired (S03) says he had already concluded physics was 'too removed from the real world.' The death plausibly accelerated rather than solely caused the change.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C09",
+   "claim": "On the cure-rate gap, Amodei said in 2025: 'Maybe three or four years after he died, the cure rate for the disease that he had went from ... 50% to roughly 95%.' Big Technology wrote 'within four years.' On August 15, 2026 he named the disease: 'I lost my father to Hepatitis C only a few years before the development of direct-acting antivirals (sofosbuvir), which cure 95% of patients and probably would have cured him.' Sofosbuvir was approved in the U.S. in 2013.",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S02",
+    "S01",
+    "S11",
+    "S49"
+   ],
+   "inference": "The 'few years' of delay is the emotional engine of his urgency argument. The specific 'four-year' figure is his own estimate, so the H2 'The four-year gap' should be attributed ('by his estimate, three or four years') or softened.",
+   "alternative": "Sofosbuvir's 2013 approval is about seven years after 2006; earlier direct-acting antivirals (2011) raised cure rates in some patients. Do not 'correct' him in prose. Present the gap as his account. Big Technology's 'rare illness' wording conflicts with hepatitis C; avoid 'rare'.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C10",
+   "claim": "Amodei: 'There was someone who worked on the cure to this disease, that managed to cure it, and save a bunch of people's lives, but could have saved even more.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S01",
+    "S02"
+   ],
+   "inference": "He frames delay itself as moral cost, which underlies 'warning so that we don't have to slow down' (C42).",
+   "alternative": "A rhetorically useful frame for an AI CEO arguing for speed; sincerity is supported by consistency across 2025-2026 sources but not proven.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C11",
+   "claim": "Jade Wang, who dated him in the early 2010s, told Big Technology: 'It's the difference between his father most likely dying and most likely living, okay?'",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S01"
+   ],
+   "inference": "Independent named testimony that the father's death shaped his path.",
+   "alternative": "Constrained by the entity-gap packet (protect, do_not_optimize): use only this on-record quote and the early-2010s dating fact; no relationship content, no speculation, no added FAQ emphasis. The draft's 'in the same profile' now follows an X citation and must name Big Technology explicitly.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C12",
+   "claim": "Amodei becomes visibly angry when his motives are mischaracterized: 'I get really angry when someone's like, \"This guy's a doomer. He wants to slow things down\"' ... 'my father died because of cures that could have happened a few years [earlier]' (Big Technology, 2025). In the podcast he added that such critics 'completely lack any moral credibility' and 'it really makes me lose respect for them.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S01",
+    "S02"
+   ],
+   "inference": "Hot, moralized anger when his good faith is questioned. This is evidence against the detached Type 5 portrait in the draft and fits Type 6 (bad-faith and betrayal sensitivity) or Type 1 (anger at being judged wrong).",
+   "alternative": "Performative anger can be a communications choice in an interview about his public image. The profile edits 'a few years later' (podcast slip) to '[earlier]'; quote the bracketed profile version or the transcript, not a blend.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C13",
+   "claim": "Amodei on his Stanford postdoc: 'The complexity of the underlying problems in biology felt like it was beyond human scale', and AI 'felt to me like the only technology that could kind of bridge that gap.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S01"
+   ],
+   "inference": "Links the loss-driven biology turn to AI as a means of scaling scientific understanding.",
+   "alternative": "Retrospective rationale; many researchers moved to deep learning in 2014 for career and resource reasons (Baidu's $100 million lab).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C14",
+   "claim": "At Princeton he co-invented a sensor to record retinal signals and won the Hertz Thesis Prize. Kantrowitz reports that adviser Michael Berry called him the most talented graduate student he ever had (a paraphrase, not a direct quote), and quotes Berry: 'I think internally, he was kind of a proud person ... whenever he did something, people would stand up and clap. And that was not really happening here.' Kantrowitz describes 'his strident sense of the way things should be' and a 'focus on technological progress and teamwork' that clashed with academic individualism. His doctorate was in physics/biophysics (thesis on the electrophysiology of neural circuits, 2011).",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S01",
+    "S44",
+    "S45"
+   ],
+   "inference": "Pride and a felt lack of recognition in an individualist system, plus a preference for team science. The teamwork detail cuts against a lone-investigator Type 5 picture; the pride/recognition detail complicates any type.",
+   "alternative": "The draft puts 'the most talented graduate student he ever had' in quotation marks as Berry's words; it is Kantrowitz's paraphrase. The draft's 'Ph.D. in computational neuroscience' should read biophysics/physics. Berry's 'imagine' is speculation about Amodei's inner experience.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C15",
+   "claim": "Princeton colleague Olivier Marre told AFP in October 2026: 'I never saw someone engaged in a strong moral or ethical quest' and 'Dario was ambitious, eager to succeed and be recognized for it, but not excessively or abnormally ... He wasn't a megalomaniac who crushed others.' Berry told AFP he was 'very idealistic...in a technical or scientific sense.'",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S14"
+   ],
+   "inference": "Named contemporaneous-era testimony that weakens a Type 1 'moral crusader' reading of his youth and records a moderate recognition motive. Berry's 'idealistic in a technical sense' fits a head-center type.",
+   "alternative": "Retrospective testimony 15+ years later, given to a wire service profiling a now-famous CEO. Moral framing may have intensified with stakes and role rather than reflecting core motive either way.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C16",
+   "claim": "Greg Diamos, who hired him at Baidu, says 'he really outworked everybody ... every waking hour and then some', had 'one of the strongest personalities of anybody in the group', 'didn't have a problem confronting much more experienced researchers', and that when he disagreed with the company's direction 'he would say it ... eventually the disagreement got to be so big that he felt like it was not worth continuing.'",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S14",
+    "S01"
+   ],
+   "inference": "A repeated pattern begins early: open disagreement with authority, then exit when trust in the direction fails (Baidu, Google, OpenAI). This counterphobic, confront-then-leave pattern fits Type 6 (or 8) more than the withdrawn 5.",
+   "alternative": "Baidu's lab also collapsed from turf battles (S01), so leaving had structural causes. Diamos is an admirer recalling a decade later.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C17",
+   "claim": "Recalling the 2015 Rosewood dinner that led to OpenAI: 'I wasn't swayed. I was anti-swayed. The goals weren't clear to me. It felt like it was more about celebrity tech investors and entrepreneurs than AI researchers.' On AI risk at Google he changed his mind: 'Before, I was like, we're not building those systems, so what can we really do? ... But now we're building the systems.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S03"
+   ],
+   "inference": "Skepticism toward charisma and celebrity authority, and willingness to update when conditions change. Both 5 and 6 are suspicious of hype; the 6 is specifically suspicious of leaders' motives.",
+   "alternative": "He later joined OpenAI anyway; retrospective self-presentation.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C18",
+   "claim": "At OpenAI he was a prolific writer of long documents about values and technology, which some colleagues found inspirational and others 'flag planting and heavy handed'. Some thought him 'too focused on maintaining secrecy around the technology's potential and collaborating with the government to address it', and 'a bit abrasive, sometimes disparaging projects he didn't believe in.' Before leaving he wrote a memo dividing AI companies into 'Market' and 'public-good' types.",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S01",
+    "S13"
+   ],
+   "inference": "Writing as a way to organize others around his view, plus orientation toward government as the proper partner for managing risk. The government orientation fits Type 6's turn to authority structures under threat.",
+   "alternative": "Colleague criticism from an internal factional fight; 'secrecy' may reflect safety norms of the period rather than temperament.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C19",
+   "claim": "The WSJ reports that in 2016 Amodei argued that 'when it came to sensitive topics like how fast AI was developing, it would be better to tell the government first' rather than the public (Greg Brockman's account of the exchange).",
+   "passage": "",
+   "class": "disputed",
+   "source_ids": [
+    "S13"
+   ],
+   "inference": "If accurate, an early instinct to route danger through official authority rather than public broadcast. That is a Type 6 move, not a withdrawn Type 5 one.",
+   "alternative": "Reported from Brockman's side of a rivalry with unnamed sourcing; Amodei is not quoted. Amodei later became one of the loudest public voices, so the account may be selective.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C20",
+   "claim": "The WSJ reports that in 2017 Amodei was 'horrified' by staff cuts he 'considered needlessly cruel'; that he hired a policy adviser who proposed OpenAI as a coordinating entity toward 'an international coordination regime for advanced AI'; and that the idea of selling AGI to rival powers 'struck Dario as tantamount to treason, and he considered quitting.'",
+   "passage": "",
+   "class": "disputed",
+   "source_ids": [
+    "S13"
+   ],
+   "inference": "Loyalty and treason framing, plus an early impulse to build coordinating institutions. Prefigures the 2026 G7 request (C54) by nine years and undermines the draft's claim that the G7 was a turn away from his usual strategy.",
+   "alternative": "Anonymous-sourced; reported in a piece about the OpenAI feud. Use with attribution and without presenting private reactions as established fact.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C21",
+   "claim": "Amodei told Wired that as safety issues grew more serious at OpenAI 'the company started moving in the opposite direction'; he took his concerns to Altman, 'who he says would listen carefully and agree. Then nothing would change.' He 'realized he should have left sooner.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S03"
+   ],
+   "inference": "Trust broken by unkept agreement is his own stated reason for the exit. Betrayal-of-trust framing is a Type 6 marker.",
+   "alternative": "OpenAI declined to comment and maintains safety was constant. One side of a dispute.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C22",
+   "claim": "The WSJ reports that in 2018 'Dario agreed to stay so long as Altman promised that Brockman and Sutskever wouldn't be in charge', then learned of a conflicting promise; and that in late 2020 'Dario said he would accept nothing less than reporting directly to the board. He also said he couldn't work with Brockman.'",
+   "passage": "",
+   "class": "disputed",
+   "source_ids": [
+    "S13"
+   ],
+   "inference": "Conditional loyalty: staying in exchange for guarantees, then exiting when guarantees fail. Fits Type 6 (testing and securing commitments); the 'board only' demand could also read as 5/8 autonomy.",
+   "alternative": "Unnamed sourcing in a rivalry story; Amodei not quoted. Present as reported.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C23",
+   "claim": "The WSJ reports that at OpenAI Amodei 'didn't always feel properly recognized for his contributions', was annoyed that Brockman discussed the charter on a podcast 'despite having contributed less to it', 'got angry that he had been left out of the loop' of a 2018 meeting with Barack Obama, asked for a promotion to vice president of research with 'equal PR treatment' to the co-founders, and agreed in 2019 'not to denigrate projects he doesn't believe in that others want to bet on.'",
+   "passage": "",
+   "class": "disputed",
+   "source_ids": [
+    "S13",
+    "S14",
+    "S01"
+   ],
+   "inference": "Recognition and inclusion mattered to him. Marre (S14) independently describes him as 'eager to succeed and be recognized for it, but not excessively', and Berry describes a 'proud person' (S01). This complicates the detached Type 5 portrait. It is consistent with a 6's concern about being kept out of the loop, and with a modest 3 strand.",
+   "alternative": "Anonymous sourcing; credit disputes are normal in research labs and may say more about OpenAI's politics than his motives.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C24",
+   "claim": "The WSJ reports that after Altman accused the siblings of encouraging negative board feedback, then denied having said it, the exchange ended with 'the Amodeis ... shouting angrily at him.'",
+   "passage": "",
+   "class": "disputed",
+   "source_ids": [
+    "S13"
+   ],
+   "inference": "Hot anger at perceived dishonesty, consistent with C12 and C49. Not typical of a detached Type 5.",
+   "alternative": "Single anonymous-sourced account of a private confrontation; sensitive. Use, if at all, as 'the Journal reported' with no embellishment.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C25",
+   "claim": "On leaving OpenAI, Amodei told Lex Fridman in November 2024: 'If you have a vision for how to do it, you should go off and you should do that vision. It is incredibly unproductive to try and argue with someone else's vision. You might think they're not doing it the right way. You might think they're dishonest. ... what you should do is you should take some people you trust and you should go off together and you should make your vision happen.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S06"
+   ],
+   "inference": "The best single self-report on the 5-versus-6 hinge. Independence is pursued through a trusted group, not alone, and dishonesty is the named suspicion. A 5 can also 'go off' to build their own system, so the discriminating detail is 'take some people you trust'.",
+   "alternative": "General advice framed to avoid naming Altman; it also serves Anthropic's founding myth.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C26",
+   "claim": "At the end of 2020 Amodei and six other OpenAI employees, including Daniela, quit; 'within a few weeks, a dozen more would bolt' (Wired). The WSJ says 'Dario, Daniela and nearly a dozen other employees' left; 60 Minutes says he left 'along with six other employees.' Anthropic has seven co-founders and launched with $124 million mostly from effective-altruism-affiliated investors. The name came from a brainstorm list; 'Anthropic, a word that connotes being human centered and human oriented' was chosen partly because the domain was available.",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S03",
+    "S13",
+    "S38",
+    "S05",
+    "S01"
+   ],
+   "inference": "Corrects two draft facts: 'fourteen researchers followed' (and the FAQ's '14 colleagues' vs 'roughly a dozen') is not supported, and the name is not documented as coming from the anthropic principle.",
+   "alternative": "Headcounts vary by who is counted and when; use 'six colleagues, with about a dozen more within weeks' or 'a small group'. The anthropic-principle etymology appears in some secondary coverage but not in any opened source.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C27",
+   "claim": "Anthropic has seven co-founders; Amodei gave them equal equity against advice and describes 'total and complete trust'. He divides the work: 'my job is the second [strategy, seeing what no one else sees] and Daniela's job is the first [operational execution]'. Daniela 'runs the company day to day'.",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S05",
+    "S04",
+    "S43"
+   ],
+   "inference": "He secures his preferred work (strategy, thinking) by delegating human-contact operations to a fully trusted sibling. Fits both a 5's energy conservation and a 6's reliance on a trusted inner circle; the explicit emphasis on trust tilts toward 6.",
+   "alternative": "Standard founder division of labor; 'total and complete trust' was the interviewer's framing, which he endorsed.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C28",
+   "claim": "In 2021 Anthropic held back a working model: 'we don't want to be the one to drop the shoe and set off the race ... We let someone else do that.' He admits 'It was costly to us,' calls it a 'one-off', and says that repeating it would mean 'We're just going to lose and stop existing as a company.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S03"
+   ],
+   "inference": "A costly precautionary choice, then a pragmatic reversal under competitive threat. Shows the safety-versus-survival bind that recurs through 2026.",
+   "alternative": "Could be read as caution (6), conscience (1) or strategic reputation-building; the reversal shows commercial pressure dominating.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C29",
+   "claim": "He repeatedly hedges against worst cases: he kept Sam Bankman-Fried off the board with non-voting shares because of 'sufficient red flags'; he says 'balancing Amazon with Google assures his company's independence'; and he declines to buy compute at his own optimistic forecast because 'there's no hedge on earth that could stop me from going bankrupt if I buy that much compute.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S01",
+    "S03",
+    "S04"
+   ],
+   "inference": "A consistent worst-case-planning style in business decisions. Fits Type 6 (guarding against betrayal and catastrophe) and also Type 5 (conserving resources).",
+   "alternative": "Prudent capital management is expected of any CEO; the evidence is consistency, not uniqueness.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C30",
+   "claim": "Bloomberg (via Quartz, October 2, 2026) reports Anthropic is considering super-voting shares that would give Amodei and fellow co-founders greater control after the IPO.",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S36"
+   ],
+   "inference": "If adopted, it would secure founder control against public-market pressure, consistent with his pattern of guaranteeing independence through structure.",
+   "alternative": "Unconfirmed report of an option under consideration; common in tech IPOs.",
+   "durability": "time_sensitive",
+   "review_trigger": "Check the public S-1 or final IPO terms when filed (expected around the Nov. 9, 2026 roadshow); drop or update the claim to the actual share structure."
+  },
+  {
+   "id": "C31",
+   "claim": "On taking Gulf-state capital, Amodei wrote in an internal Slack message: 'Unfortunately ... I think \"No bad person should ever benefit from our success\" is a pretty difficult principle to run a business on.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S01"
+   ],
+   "inference": "Reluctant pragmatic compromise. Cuts against a purist Type 1 reading; fits a 6 or 5 who accepts tradeoffs once the risk model favors it.",
+   "alternative": "A leaked internal message originally reported by Wired; tone may differ in context.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C32",
+   "claim": "In November 2023 OpenAI's board approached Amodei about replacing Sam Altman as CEO and merging the companies; Wired reports 'Amodei shut down the discussion'.",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S03",
+    "S44"
+   ],
+   "inference": "Declining power when offered weakens Type 8 and Type 3 readings.",
+   "alternative": "He may have judged the offer unworkable or risky; Amodei has not commented.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C33",
+   "claim": "Anthropic's Responsible Scaling Policy uses 'if-then' trigger commitments, and Amodei says the RSP 'is checked by our long-term benefit trust'. He argues 'I don't think you can trust these companies to adhere to these voluntary plans on their own' and that 'the lack of uniformity is not fair to those of us who have put a lot of effort into being very thoughtful about these procedures.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S06",
+    "S03"
+   ],
+   "inference": "He builds pre-committed rules with an outside check on his own company and distrusts others' unenforced promises. Binding commitments plus external verification is a Type 6 signature; the fairness complaint has a Type 1 flavor.",
+   "alternative": "Commitment devices are also regulatory strategy (critics call it capture, S41). Wired compares the ASL tiers to 'the Defcon scale'; the draft's 'modeled on biosafety tiers' was not checked in an opened source.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C34",
+   "claim": "Trust is a recurring organizing category in his own words across years: 'The leaders of a company, they have to be trustworthy people ... whose motivations are sincere' (2025); 'if you have a company of people who you trust ... you can really just be entirely unfiltered', versus a public world 'full of people who are interpreting things in bad faith' (February 2026); public distrust of AI is 'fundamentally a crisis of trust' and 'you have my word on that' (August 2026).",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S01",
+    "S02",
+    "S04",
+    "S11"
+   ],
+   "inference": "A decade-spanning preoccupation with sincerity, trustworthiness and bad faith, separating a trusted inside from a suspect outside. This is one of the strongest Type 6 markers in the record.",
+   "alternative": "Trust is also the explicit business problem of an AI company (enterprise sales, public opinion), so the vocabulary may be partly professional.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C35",
+   "claim": "Jensen Huang said in 2025: 'He believes that AI is so scary that only they should do it.' Amodei replied: 'That's the most outrageous lie I've ever heard ... It's just an incredible and bad faith distortion.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S01"
+   ],
+   "inference": "Same pattern as C12: reactive anger framed around lies and bad faith.",
+   "alternative": "Huang's critique (regulatory capture, control) is the main rival explanation of Amodei's policy activism and should stay visible alongside his reply.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C36",
+   "claim": "His characteristic medium is long-form writing. He wrote the nearly 14,000-word 'Machines of Loving Grace' over 'two frenzied days'. 'The Adolescence of Technology', written over a winter break, is longer, about 20,000 words. Every two weeks he speaks to the whole company for an hour from a 'three or four-page document', and he writes extensively in an internal Slack channel.",
+   "passage": "",
+   "class": "observed",
+   "source_ids": [
+    "S03",
+    "S04",
+    "S08",
+    "S38"
+   ],
+   "inference": "Written-first thinking and communication. The draft's strongest Type 5 marker, but also typical of a head-center 6 with a 5 wing and of a scientist-CEO addressing 2,500 people.",
+   "alternative": "The draft calls Adolescence 'equally long' as Machines of Loving Grace; it is substantially longer. DVQ was monthly in 2024 (S03) and twice a month by late 2025-2026 (S38, S04).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C37",
+   "claim": "Amodei says he spends 'a third, maybe 40%' of his time 'making sure the culture of Anthropic is good,' and that he speaks to the whole company every two weeks and answers questions.",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S04"
+   ],
+   "inference": "Heavy, ongoing investment in group cohesion and shared belief. This sits poorly with a withdrawing, need-minimizing Type 5 and well with a 6's focus on a loyal, aligned group.",
+   "alternative": "A large company requires culture work from any founder-CEO; the share of time is his own estimate.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C38",
+   "claim": "Bloomberg reported in June 2026 that Amodei 'has just one direct report' and that Anthropic is testing a leadership model 'where the CEO protects nearly all of his time for big-picture conversations, organizational culture, and giving input on research direction and strategy, rather than managing people in senior leadership roles.'",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S39"
+   ],
+   "inference": "The most Type-5-consistent observation in the record: deliberate protection of time and minimal people management.",
+   "alternative": "Only the paywall-free portion was read. The arrangement also fits a 6 relying on one fully trusted deputy, and is a deliberate organizational experiment, not necessarily temperament. The identity of the direct report is not in the opened text.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C39",
+   "claim": "He avoids personal publicity channels. At the May 2025 Claude 4 launch he 'picks up a handheld mic, makes the announcement, reads his notes from a laptop, and then turns the spotlight over' to a colleague. He wrote in August 2026 that 'I don't usually spend much time on social media', and AP noted he 'rarely posts on X' and did not respond when Greg Brockman challenged him there over the February 2026 Super Bowl ads.",
+   "passage": "",
+   "class": "observed",
+   "source_ids": [
+    "S01",
+    "S10",
+    "S31"
+   ],
+   "inference": "Low image-management weakens Type 3. Reticence fits 5 and is also consistent with a 6 who distrusts the public arena as a bad-faith space (C34).",
+   "alternative": "Could be a deliberate brand strategy (the 'unvarnished' contrast with Altman noted by Axios, S42).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C40",
+   "claim": "In 'Machines of Loving Grace' (October 2024) he wrote that he avoids grandiosity: 'I am often turned off by the way many AI risk public figures (not to mention AI company leaders) talk about the post-AGI world, as if it's their mission to single-handedly bring it about like a prophet', and that 'as a matter of principle it's bad for your soul to spend too much of your time \"talking your book\".'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S07"
+   ],
+   "inference": "Suspicion of single-actor power and of self-serving salesmanship, framed as principle. Fits 6 (distrust of unchecked individuals) and 1 (principle).",
+   "alternative": "Self-authored essay positioning; critics (Axios, S42) note the tension with his own vanguard role.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C41",
+   "claim": "In July 2025 he called himself 'one of the most bullish about AI capabilities improving very fast' and said: 'Because we can have such a good world if we get everything right, I feel obligated to warn about the risks.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S02"
+   ],
+   "inference": "Optimism and alarm come from the same model; warning is framed as obligation. 'Obligated' is duty language consistent with 6/1.",
+   "alternative": "The draft's contrast panel attributes 'We can have such a good world if we get everything right' to Machines of Loving Grace (2024). The phrase is not in that essay; it is from this 2025 podcast. Fix or remove.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C42",
+   "claim": "In July 2025 he set a condition in advance: 'if we got a few years ahead in models and had only the alignment and steering techniques we had today, then I would definitely be advocating for us to slow down a lot. The reason I'm warning about the risk is so that we don't have to slow down.' In September 2026 he wrote that 'over the last few months, I have become convinced' that 'We must slow the pace at which we improve the capabilities of AI models,' citing recursive self-improvement and the OpenAI-Hugging Face incident. He told CBS: 'I don't think I fully just appreciated what it would actually be like when the progress was as fast as it was.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S02",
+    "S09",
+    "S37"
+   ],
+   "inference": "A real change of position, made by his own pre-stated rule once observed conditions changed, with an admission that he underestimated the experience. It shows model-driven updating (head-center) under rising threat.",
+   "alternative": "Critics (S41) read the pacing call as competitive positioning; Axios notes Anthropic 'has gone back and forth' on unilateral slowing. Pacing is explicitly 'not halting'; the draft must not imply he wants to stop.",
+   "durability": "time_sensitive",
+   "review_trigger": "Re-check after any industry pacing agreement, regulation, Anthropic model release or reversal of the pacing position; update the 'current position' wording."
+  },
+  {
+   "id": "C43",
+   "claim": "The September 2026 essay commits Anthropic 'unilaterally' to embedded third-party evaluators with 'employee-like access' (desks, badges, laptops), the right to publish findings, and a 'Second Opinion' role. It explains: 'we are still the ones choosing what to include and omit. Embedded evaluators will change this dynamic', and 'we can't redact findings just because they are unfavorable.' He told CBS it is 'like a food inspector.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S09",
+    "S37"
+   ],
+   "inference": "He invites outside eyes into his own company and gives up control over what is disclosed. That runs against a Type 5's guarded boundary and matches a Type 6's search for external verification and a 'second opinion'.",
+   "alternative": "A pre-IPO credibility measure with commercial value; implementation details are not yet public. A Type 1 could also embrace accountability.",
+   "durability": "time_sensitive",
+   "review_trigger": "Check whether embedded evaluators (e.g., METR) are actually in place and publishing; update if the commitment is implemented, narrowed or dropped."
+  },
+  {
+   "id": "C44",
+   "claim": "He repeatedly says he is uncomfortable with private power, including his own: 'deeply uncomfortable with these decisions [about AI] being made by a few companies, by a few people' (November 2025). In September 2026: 'it has always been very strange that this technology is being built by a private company ... I agree with them. I'm uncomfortable', and he favors 'some kind of oversight, some kind of joint governance' by 'a combination of democratically-elected governments.' In August 2026 he wrote: 'At their best, institutions can vest power in ideas rather than people, and thereby decentralize that power.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S38",
+    "S37",
+    "S10"
+   ],
+   "inference": "Prefers impersonal institutions and shared oversight to personal or single-actor authority, including his own. A strong Type 6 marker (security through legitimate structures, distrust of concentrated personal power) and a poor fit for self-sufficient 5 or self-certain 1.",
+   "alternative": "Also a policy and PR position useful to a company seeking favorable regulation (Huang, Chamath and Emil Michael read it as control-seeking: S01, S41, S18).",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C45",
+   "claim": "In May 2025 he told Axios that AI could 'wipe out half of all entry-level white-collar jobs — and spike unemployment to 10-20% in the next one to five years', adding: 'We, as the producers of this technology, have a duty and an obligation to be honest about what is coming.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S28"
+   ],
+   "inference": "The warning is framed as duty. It is the forecast that made him a public figure.",
+   "alternative": "A forecast, not an outcome; present with its date.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C46",
+   "claim": "At a May 5, 2026 briefing he offered a second mechanism (Jevons): 'If you automate 90% of the job, then everyone does the 10% of the job. And the 10% kind of expands to be 100% of what people do', while keeping the speed caveat: 'AI is moving faster than all these previous technologies ... it's possible you get these weird behaviors and this big disruption.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S29"
+   ],
+   "inference": "He adds a model rather than retracting one, which suits careful head-center reasoning.",
+   "alternative": "Fortune explicitly offers the incentive alternative: 'the social and political cost of the bloodbath framing ... has made it more useful to suddenly sound a bit more optimistic.' Keep both readings.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C47",
+   "claim": "Sam Altman told a Commonwealth Bank event in May 2026: 'we've been roughly right on technological predictions and pretty wrong on the social and economic implications', including on entry-level jobs: 'I'm delighted to be wrong about that.'",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S30"
+   ],
+   "inference": "A useful contrast in how two CEOs revise forecasts.",
+   "alternative": "Comparison only; not evidence about Amodei's motive.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C48",
+   "claim": "In February 2026 Anthropic aired Super Bowl commercials, made by the agency Mother, mocking chatbots that sell ads. Altman called them dishonest, and Brockman challenged Amodei directly on X; Amodei did not respond. Daniela Amodei presented the campaign on ABC's Good Morning America.",
+   "passage": "",
+   "class": "observed",
+   "source_ids": [
+    "S31",
+    "S32",
+    "S33"
+   ],
+   "inference": "The institution, not Amodei personally, carried the public aggression; his silence fits his low social-media presence.",
+   "alternative": "AP describes 'a pair of TV commercials'; the draft's 'four-ad campaign' is unverified. No evidence on whether he approved the creative.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C49",
+   "claim": "The WSJ reported in March 2026 that, in communication with colleagues, Amodei compared the Musk-Altman legal battle to 'the fight between Hitler and Stalin', called a $25 million Brockman donation to a pro-Trump super PAC 'evil', likened OpenAI and other rivals to tobacco companies knowingly hawking a harmful product, and wrote a Slack post calling OpenAI 'mendacious' and citing 'a pattern of behavior that I've seen often from Sam Altman.' Internally the brand strategy cast Anthropic as the 'healthy alternative.'",
+   "passage": "",
+   "class": "disputed",
+   "source_ids": [
+    "S13"
+   ],
+   "inference": "Private language is intensely moralized and organized around dishonesty and betrayal by a former ally. Consistent with C12, C24 and C34 and with a Type 6 (or 1) reading; inconsistent with emotional detachment.",
+   "alternative": "Reported from private messages via unnamed sources in a feud story; sensitive. Attribute to the Journal and avoid quoting the Hitler/Stalin comparison unless essential.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C50",
+   "claim": "In the February 2026 Pentagon dispute he refused to drop two contract limits (no mass domestic surveillance, no fully autonomous weapons): 'we cannot in good conscience accede to their request.' He grounded the line in reliability and accountability ('frontier AI systems are simply not reliable enough to power fully autonomous weapons'; 'We don't want to sell something that we don't think is reliable'; 'we need to have a conversation about accountability, about who is holding the button and who can say no'), and in principle and patriotism ('We can't just be a total race to the bottom ... we have to have some principles'; 'It's about the principle of standing up for what's right'; 'Disagreeing with the government is the most American thing in the world. And we are patriots.').",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S17",
+    "S15",
+    "S16"
+   ],
+   "inference": "Counterphobic confrontation with the most powerful authority available, justified through risk, reliability and accountability while affirming loyalty to the country. This blend of defiance and loyalty is characteristic of Type 6; the 'principle' language also supports Type 1.",
+   "alternative": "A business and legal position drafted with counsel; holding red lines can also be brand strategy. The draft's 'Dario insisted on' the restrictions in a July 2025 contract should be phrased as Anthropic's statement that the two uses 'have never been included in our contracts'.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C51",
+   "claim": "On February 27, 2026 President Trump ordered agencies to stop using Anthropic technology, calling it 'a radical left, woke company'. Defense Secretary Hegseth designated Anthropic a supply-chain risk (formalized in early March), and OpenAI announced its own Pentagon deal within hours. Under Secretary of War Emil Michael called Amodei 'a liar' with a 'God complex' who wanted 'to personally control the U.S military'. Lawrence Lessig called the company's statement 'a beautiful act of integrity and principle'. Lockheed Martin said it would 'follow the President's and the Department of War's direction' and expected 'minimal impacts'.",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S19",
+    "S18",
+    "S16",
+    "S21",
+    "S20"
+   ],
+   "inference": "Dated public consequences of the red-line choice; the hostile and admiring characterizations frame the strongest rival readings (control and arrogance versus integrity).",
+   "alternative": "Insults from a negotiating counterparty are not evidence of motive. Spell it 'God complex' as in the cited source. The draft attributes 'woke' to David Sacks; the opened source attributes it to Trump. Use Trump or open a Sacks primary source.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C52",
+   "claim": "Anthropic sued on March 9, 2026 in the Northern District of California and in the D.C. Circuit. Judge Rita Lin granted a preliminary injunction on March 26 ('classic First Amendment retaliation') and on August 27, 2026 ruled one designation unlawful. On September 25, 2026 a 2-1 D.C. Circuit panel upheld the second designation. Anthropic said it is 'considering all options, including further review.'",
+   "passage": "",
+   "class": "observed",
+   "source_ids": [
+    "S20",
+    "S48",
+    "S22",
+    "S23"
+   ],
+   "inference": "Legal status current as of the accuracy check; the dispute remains split and unresolved.",
+   "alternative": "Court outcomes may change on rehearing, en banc review or Supreme Court petition.",
+   "durability": "unresolved",
+   "review_trigger": "Re-check after any D.C. Circuit rehearing or en banc decision, Supreme Court petition, settlement, or rescission of either designation."
+  },
+  {
+   "id": "C53",
+   "claim": "On June 12, 2026 an export-control directive arrived at 5:21 p.m. ET barring all foreign nationals, including Anthropic's own employees, from accessing Fable 5 and Mythos 5; Anthropic disabled both models for all customers. Its statement said the letter 'did not provide specific details of its national security concern' and that government should block unsafe deployments 'as part of a statutory process that is transparent, fair, clear, and grounded in technical facts.' Axios reports Commerce Secretary Lutnick called Amodei that day and Amodei called him back that night.",
+   "passage": "",
+   "class": "observed",
+   "source_ids": [
+    "S24",
+    "S27"
+   ],
+   "inference": "A sudden external loss of control over his work; the company response asks for fair, rule-bound process rather than exemption.",
+   "alternative": "The statement is the company's, not personally signed. The draft's 'Dario Amodei switched both models off for everyone' is a reasonable inference from his role but should not be presented as his personal act. The hook depends on a 2026 event; durability is better if the opening rests on a pattern.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C54",
+   "claim": "On June 17, 2026, at a working lunch with G7 leaders in Évian-les-Bains, Amodei told them to 'resist the temptation to splinter' over advanced AI, according to the Financial Times citing unidentified people. He said he sympathized with efforts to keep AI from the wrong hands but that democratic nations should come together. Per the same summary, Altman emphasized providing cyber-defense tools to all countries present and Demis Hassabis called for US-led collaboration.",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S25",
+    "S26"
+   ],
+   "inference": "Under acute threat he moved toward a coalition of democratic governments and shared rules. This continues his 2017 coordination-regime instinct (C20), not a break from it.",
+   "alternative": "Closed meeting known only second-hand. The draft's 'Altman called for an international safety forum, and Demis Hassabis proposed a standards body' and 'coordinate trade in advanced models and share their benefits' are not supported by opened sources (the WaPo body is paywalled). Correct or remove them.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C55",
+   "claim": "Axios reports that over a 20-day showdown Anthropic sent engineers to Washington, the federal Center for AI Standards and Innovation and the NSA required further fixes, and the models were released on July 1, 2026. A U.S. official said 'Anthropic eventually understood that in order to be successful, it needed to be on the same side as the government'; another source said 'There was never a moment when Dario stepped offstage', while policy chief Sarah Heck and co-founder Tom Brown took on more of the technical talks.",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S27"
+   ],
+   "inference": "He stayed personally engaged with authority through the crisis instead of withdrawing; resolution came through institutional process.",
+   "alternative": "Government-side sourcing; the 'same side' line is an official's spin.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C56",
+   "claim": "Anthropic said on June 1, 2026 that it had confidentially filed for a U.S. IPO. A leaked prospectus reviewed by Reuters showed a roughly $42 billion 2025 net loss on $4.6 billion revenue and referred to 'existential risks to humanity'; more than $34 billion of that loss reflected non-cash fair-value accounting adjustments. Bloomberg reported a pre-Thanksgiving listing target (investor day Oct. 14; roadshow week of Nov. 9; $1.8-2 trillion valuation), with dates 'subject to change'.",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S34",
+    "S35",
+    "S36"
+   ],
+   "inference": "Places his warnings inside an investor document; context for Baker's critique (C57).",
+   "alternative": "Leaked and unofficial; IPO dates are fluid and Fortune mentions post-midterm timing. Do not present $42 billion as cash burn.",
+   "durability": "time_sensitive",
+   "review_trigger": "Update when the public S-1 is filed, the IPO prices, or the listing is delayed; replace leaked figures with filed ones."
+  },
+  {
+   "id": "C57",
+   "claim": "On August 15, 2026 investor Gavin Baker wrote that 'Dario has lost the argument' and, as the soon-to-be CEO of 'one of the most important public companies in the world', should be 'a more positive advocate for his own industry', while saying 'I believe Dario makes all of these arguments in good faith.' Amodei replied the same day ('Thanks Gavin for an especially thoughtful exchange. I don't usually spend much time on social media but I wanted to engage here'), rejected the claim that his messaging was 'disproportionately negative', named his father's hepatitis C, declined 'a glitzy marketing campaign with a positive spin', and conceded 'That is totally on us' about undelivered benefits, adding 'you have my word on that' and 'Honesty is the right thing on the merits.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S12",
+    "S10",
+    "S11"
+   ],
+   "inference": "Under pre-IPO pressure he answered in public, courteously and at length, and spent a long-held private fact as a premise. The vocabulary (trust, word, honesty) matches C34.",
+   "alternative": "The disclosure also serves credibility with investors and the public. The draft links the first post for the illness disclosure, which is in the second post (S11); fix the link.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C58",
+   "claim": "In September 2026 he disclosed: 'I myself survived an early-stage cancer that would not have been treatable even fifty years ago.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S09"
+   ],
+   "inference": "A second private fact, again used as an argumentative premise ('I feel the urgency personally').",
+   "alternative": "Health information: do not add cancer type, date, treatment or speculation.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C59",
+   "claim": "None of the reviewed interviews, essays, profiles or posts (2024-2026) contain a self-described diagnosis of autism, ADHD or other neurodivergence; the page should infer none.",
+   "passage": "",
+   "class": "observed",
+   "source_ids": [
+    "S01",
+    "S03",
+    "S09",
+    "S11",
+    "S44"
+   ],
+   "inference": "Answers a reader search question without speculation.",
+   "alternative": "Absence in reviewed sources is not proof of absence; do not cite mannerisms as evidence of anything clinical.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C60",
+   "claim": "In late September 2026 his public role became polarized and personal. Altman agreed the industry should 'pace the frontier' and Musk wrote 'Dario is right', while Chamath Palihapitiya said the essay was a case to 'concentrate enormous technological and economic power with Anthropic'. An SNL 'Weekend Update' sketch mocked him. Trump attacked him on Truth Social as 'pretending to be a \"perfect little angel\"' and later personally invited him to dinner. AFP notes some see 'a humanist' and others 'a skilled operator willing to exploit collective fears'.",
+   "passage": "",
+   "class": "third_party",
+   "source_ids": [
+    "S41",
+    "S42",
+    "S23",
+    "S14"
+   ],
+   "inference": "Dated reception that frames the incentive alternative to a type explanation. Optional for the body; not personality evidence.",
+   "alternative": "Rapidly changing political context.",
+   "durability": "time_sensitive",
+   "review_trigger": "Re-check before release and after the IPO or any White House meeting; remove items that no longer bear on the argument."
+  },
+  {
+   "id": "C61",
+   "claim": "Asked about a friend's claim that he refused to watch Game of Thrones because it was not tied to 'impact', he corrected it: 'I wouldn't watch it because it was so negative ... I'm really excited about, like, creating positive sum situations.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S02"
+   ],
+   "inference": "A small, specific preference: aversion to stories of betrayal and zero-sum cruelty. Mildly consistent with 6 or 1 and an anti-cynicism value.",
+   "alternative": "Minor anecdote; low evidentiary weight.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C62",
+   "claim": "His characteristic first response to a powerful new capability is a threat scenario. On his scaling theory: 'My first thought ... was, oh my God, could systems that are smarter than humans figure out how to destabilize the nuclear deterrent?' On withholding GPT-2: 'I didn't know if this model was dangerous, but my general feeling was that we should do something to signpost that.' Asked by Wired whether 'we basically need an AI Pearl Harbor before people will take it seriously', he replied: 'Basically, yeah.'",
+   "passage": "",
+   "class": "self_report",
+   "source_ids": [
+    "S03"
+   ],
+   "inference": "Threat-first cognition that predates his CEO role and its incentives. This is the 6's scanning for danger, not only a job requirement.",
+   "alternative": "Safety research is his professional field; threat-modeling is a learned practice. This is why the discriminator rests on what he does with threat (C63), not on the presence of worry.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C63",
+   "claim": "Interpretation (discriminator): across a decade, his repeated move under threat is to secure trusted allies and binding external structures, including structures that constrain him. Examples: urging government-first disclosure (2016); proposing an international coordination regime (2017); staying at OpenAI only against promises (2018); leaving with 'people you trust' (2020); RSP trigger commitments checked by a trust; equal-equity co-founders; asking the G7 for democratic coordination (2026); inviting embedded evaluators with publication rights; calling for 'joint governance'. He does not withdraw into private self-sufficiency.",
+   "passage": "",
+   "class": "interpretation",
+   "source_ids": [
+    "S13",
+    "S06",
+    "S03",
+    "S09",
+    "S37",
+    "S25",
+    "S10",
+    "S05"
+   ],
+   "inference": "This pattern discriminates Type 6 (security through trusted alliances, rules and legitimate authority, with counterphobic defiance when trust is broken) from Type 5 (security through withdrawal, minimized needs and private competence). It also overturns the draft's thesis that the G7 appearance was an unusual 'public turn'.",
+   "alternative": "Some examples are anonymous-sourced (S13); institution-building is also the job description of an AI-safety CEO and a regulatory strategy (critics in S01, S41). A 5w6 would show some of this; the weight of trust/betrayal language (C34) and hot anger (C12, C24, C49) is what tilts it to 6.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C64",
+   "claim": "Interpretation: his anger in the record targets dishonesty, bad faith and broken promises (Altman's conflicting promise, 'mendacious', Huang's 'outrageous lie', the 'doomer' label, 'lack any moral credibility'). It does not target imperfection, sloppiness or rule-breaking as such.",
+   "passage": "",
+   "class": "interpretation",
+   "source_ids": [
+    "S01",
+    "S02",
+    "S13",
+    "S03"
+   ],
+   "inference": "Distinguishes a Type 6 reading (reactivity to betrayal and bad faith) from Type 1 (resentment at imperfection) and from Type 5 (cool detachment).",
+   "alternative": "The WSJ examples are anonymous-sourced; public anger can be strategic.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C65",
+   "claim": "Interpretation: the real Type 5-like features are protecting nearly all his time, one direct report, written-first thinking, rare social media use, preferring strategy to operations and the childhood quantitative obsession. A head-center 6 with a strong 5 wing, a scientist's training and full delegation of people work to a trusted sibling explain them as well.",
+   "passage": "",
+   "class": "interpretation",
+   "source_ids": [
+    "S39",
+    "S36",
+    "S04",
+    "S05",
+    "S03",
+    "S10"
+   ],
+   "inference": "Keeps the strongest alternative honest: these behaviors are why Type 5 remains the main rival.",
+   "alternative": "If later sources show him withdrawing from engagement under threat, or describing energy depletion and boundary-guarding as his core concern, the 5 reading would strengthen.",
+   "durability": "stable",
+   "review_trigger": ""
+  },
+  {
+   "id": "C66",
+   "claim": "Interpretation: both personal disclosures (hepatitis C in August 2026; early-stage cancer in September 2026) arrived as premises in public arguments about trust and urgency, after years in which long profiles left the illness unnamed.",
+   "passage": "",
+   "class": "interpretation",
+   "source_ids": [
+    "S01",
+    "S03",
+    "S11",
+    "S09"
+   ],
+   "inference": "Under Type 5 this reads as spending a reserved private fact when the argument needs it. Under Type 6 it reads as offering proof of sincerity to restore trust ('crisis of trust', 'you have my word'). Both readings fit, so it does not discriminate.",
+   "alternative": "Investor and IPO pressure gives an incentive explanation for the timing.",
+   "durability": "stable",
+   "review_trigger": ""
+  }
+ ],
+ "type_hypothesis": {
+  "type": 6,
+  "confidence": "medium",
+  "for_claim_ids": [
+   "C63",
+   "C34",
+   "C25",
+   "C44",
+   "C43",
+   "C33",
+   "C21",
+   "C22",
+   "C20",
+   "C19",
+   "C12",
+   "C64",
+   "C49",
+   "C24",
+   "C29",
+   "C62",
+   "C50",
+   "C16",
+   "C37",
+   "C27"
+  ],
+  "against": "Real evidence resists Type 6. (1) The strongest Type 5 markers are well sourced. In 2026 he keeps one direct report and protects 'nearly all of his time' for big-picture thinking, culture and research direction rather than managing people (C38). His characteristic medium is solitary long-form writing: about 14,000 words in two days, a winter-break essay of about 20,000, biweekly talks read from a three-to-four-page document (C36). He rarely uses social media (C39). He prefers strategy, 'the thing that no one else sees', to operations (C27). He was a quantitatively obsessed child (C02). (2) He shows little of the visible self-doubt, reassurance-seeking or indecision often associated with 6. He is the 'purest believer' in scaling and holds 90% confidence against peers (S01, S04), and he acts decisively against the most powerful authority available (C50). (3) Much of the threat-modeling, institution-building and regulation advocacy is his profession and his company's strategy. Critics including Jensen Huang, Chamath Palihapitiya and Emil Michael read it as control-seeking or market positioning (C35, C60, C51). That incentive explanation competes with any type explanation. (4) Several Type 6 data points (C19, C20, C22, C23, C24, C49) come from one WSJ feud story built on unnamed sources. (5) Moral and duty language ('right and wrong', 'responsibility', 'cannot in good conscience', 'standing up for what's right', 'Honesty is the right thing on the merits'), the 2003 op-ed and Kantrowitz's 'strident sense of the way things should be' give Type 1 real support (C04, C07, C14, C50, C57). (6) Recognition concerns at OpenAI (C23) and Berry's 'proud person' (C14) hint at an image strand the 6 reading does not center.",
+  "alternative_type": 5,
+  "alternative_case": "Type 5 (the published reading) remains the strongest rival. It explains the lifelong drive to understand before acting ('fundamental scientific truth', C03; quantitative obsession, C02); thinking through writing and speaking from documents (C36); protecting his time and handing people management to one trusted deputy (C38, C27); low social-media presence and plain stage manner (C39); the preference for strategy over operations (C27); private reserve about personal life, including the father's illness left unnamed in long 2025 profiles, then disclosed only as argumentative premises (C66, C58); and skepticism of celebrity and hype (C17, C40). A 5w6 would add caution, threat-modeling and some loyalty to a small circle. Type 1 is a credible third: parental 'right and wrong' and 'strong sense of responsibility' (C04), the 2003 op-ed (C07), principled red lines (C50), fairness complaints (C33) and 'That is totally on us' (C57). It is weakened by Marre's 'I never saw someone engaged in a strong moral or ethical quest' (C15), the pragmatic Gulf-money compromise (C31), and his habit of grounding moral lines in reliability and accountability rather than in his own rightness (C50, C43).",
+  "discriminator": "What he does when security or control is threatened. A 5 reduces dependence: it withdraws, conserves, and relies on private competence and a guarded boundary. A 6 secures support: it tests trust, binds others and itself with rules and commitments, seeks legitimate authority and external verification, and confronts openly when trust breaks. Amodei's repeated move, from 2016 to 2026, is the second. He routed danger to government first and proposed a coordination regime (C19, C20). He stayed at OpenAI only against promises and left when they failed, taking 'people you trust' (C21, C22, C25). He built trigger commitments checked by an outside trust (C33). He asked G7 democracies to coordinate after the export shock (C54). He invited embedded evaluators who can publish what Anthropic would omit (C43). He calls for 'joint governance' over his own industry, saying 'I'm uncomfortable' that a private company holds this power (C44). The same axis shows in his emotional reactions. Hot, moralized anger recurs when he perceives dishonesty, bad faith or broken promises (C12, C24, C35, C49, C64), and trust and sincerity form a decade-long organizing category in his own words (C34). The time-protection and writing habits (C38, C36) are real, but a 6 with a 5 wing, scientific training and a fully trusted operator sibling explains them. A 5 does not easily explain the hot anger, the conditional-loyalty bargaining, or inviting outsiders past his own boundary.",
+  "unexplained": "(1) Why someone so oriented to shared oversight also demanded to report only to the board at OpenAI (C22) and may seek super-voting control after the IPO (C30). Securing a safe base and grabbing control look alike from outside, and the record cannot fully separate them. (2) The recognition and credit sensitivity at OpenAI (C23) and Berry's 'proud person' (C14), which neither 5 nor 6 centers. (3) His steady confidence in his own technical forecasts against consensus (scaling; 90% on a 'country of geniuses'), which sits awkwardly with 6 doubt unless read as counterphobic certainty. (4) Marre's report that the young Amodei showed no visible moral quest (C15), set against the heavily moralized adult (C12, C49, C50). This suggests stakes and role amplified moral framing, which no type explanation fully captures. (5) How much of the safety-institution building is personality rather than strategy. The incentive explanation (C35, C60) cannot be ruled out from public evidence. Wing and instinctual subtype are not established: 6w5 is plausible but optional, and the draft's 5w6 and sp/so claims should be dropped or re-argued from evidence."
+ },
+ "profile_format": "standard"
+}

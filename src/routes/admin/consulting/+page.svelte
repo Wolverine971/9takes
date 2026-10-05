@@ -8,6 +8,7 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import EmailComposeModal from '$lib/components/email/EmailComposeModal.svelte';
 	import type { EmailRecipient } from '$lib/types/email';
+	import { buildBetaDetailsEmail, buildGmailComposeUrl } from '$lib/utils/betaDetailsEmail';
 	import { tick } from 'svelte';
 	import type { PageData } from './$types';
 
@@ -104,6 +105,18 @@
 		'how_heard_about_us',
 		'urgency_level'
 	] as const;
+
+	/** The page someone asked from, when they came in through the beta card. */
+	function betaCardSource(entry: WaitlistEntry): string | null {
+		const row = entry.metadata?.find((meta) => meta.source === 'beta_card');
+		return row ? row.utm_content || 'beta card' : null;
+	}
+
+	/** A Gmail draft (dj@9takes.com) with the beta details email filled in. */
+	function betaDetailsComposeUrl(entry: WaitlistEntry): string {
+		const draft = buildBetaDetailsEmail({ name: entry.name, bookingUrl: data.betaBookingUrl });
+		return buildGmailComposeUrl({ to: entry.email, subject: draft.subject, body: draft.body });
+	}
 
 	function openEmailForWaitlist(entry: WaitlistEntry) {
 		const firstName = entry.name?.split(' ')[0] || 'there';
@@ -659,6 +672,45 @@
 				{/if}
 			</section>
 
+			<!-- Beta card copy experiment (betaCardCopy.ts): which headline gets signups. -->
+			<section class="section-card beta-test" aria-labelledby="beta-test-heading">
+				<h2 id="beta-test-heading">Beta card copy test</h2>
+				{#if data.betaCardResults}
+					<div class="beta-test-table-wrapper" role="region" aria-label="Beta card variants">
+						<table class="beta-test-table">
+							<thead>
+								<tr>
+									<th scope="col">Headline</th>
+									<th scope="col">Seen</th>
+									<th scope="col">Clicked in</th>
+									<th scope="col">Signups</th>
+									<th scope="col">Signups per 100 seen</th>
+								</tr>
+							</thead>
+							<tbody>
+								{#each data.betaCardResults as row (row.variant)}
+									<tr>
+										<td>{row.headline}</td>
+										<td>{row.viewed}</td>
+										<td>{row.opened}</td>
+										<td>{row.submitted}</td>
+										<td>
+											{row.viewed ? ((row.submitted / row.viewed) * 100).toFixed(1) : '-'}
+										</td>
+									</tr>
+								{/each}
+							</tbody>
+						</table>
+					</div>
+					<p class="beta-test-note">
+						Each visitor always sees the same variant. "Seen" counts cards on screen (per page), not
+						people. Wait for a few hundred views each before calling a winner.
+					</p>
+				{:else}
+					<p class="beta-test-note">Results aren't available right now.</p>
+				{/if}
+			</section>
+
 			<!-- Recent Waitlist -->
 			<section
 				id="waitlist-section"
@@ -804,7 +856,7 @@
 													class="person-name person-button"
 													onclick={() => openPersonDetails(entry)}
 												>
-													{entry.name}
+													{entry.name || entry.email?.split('@')[0]}
 												</button>
 												<div class="person-badges">
 													{#if entry.enneagram_type}
@@ -829,6 +881,16 @@
 																<polyline points="20 6 9 17 4 12" />
 															</svg>
 															Client
+														</span>
+													{/if}
+													{#if betaCardSource(entry) && !entry.flagged_reason}
+														<span
+															class="beta-badge"
+															title="Asked for the experimental therapy details from {betaCardSource(
+																entry
+															)}"
+														>
+															Beta card
 														</span>
 													{/if}
 													{#if entry.flagged_reason}
@@ -869,6 +931,8 @@
 														? '...'
 														: ''}
 												</span>
+											{:else if betaCardSource(entry)}
+												<span class="no-goal">Asked from {betaCardSource(entry)}</span>
 											{:else}
 												<span class="no-goal">No goal provided</span>
 											{/if}
@@ -886,6 +950,18 @@
 												{#if entry.flagged_reason}
 													<span class="flagged-note">Bot signup · emails blocked</span>
 												{:else}
+													{#if betaCardSource(entry)}
+														<Button
+															href={betaDetailsComposeUrl(entry)}
+															target="_blank"
+															rel="noopener noreferrer"
+															size="sm"
+															class="btn-action"
+															title="Opens a Gmail draft from dj@9takes.com with the beta details filled in. Nothing sends until you press Send."
+														>
+															Send details
+														</Button>
+													{/if}
 													<Button
 														variant="secondary"
 														size="sm"
@@ -1690,6 +1766,47 @@
 		margin-bottom: 1rem;
 	}
 
+	.beta-test h2 {
+		margin: 0 0 0.75rem;
+		color: var(--ink-bright);
+		font-size: 1.05rem;
+	}
+
+	.beta-test-table-wrapper {
+		overflow-x: auto;
+	}
+
+	.beta-test-table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 0.85rem;
+	}
+
+	.beta-test-table th,
+	.beta-test-table td {
+		padding: 0.45rem 0.6rem;
+		border-bottom: 1px solid var(--stone-edge);
+		text-align: left;
+	}
+
+	.beta-test-table th {
+		color: var(--ink-dim);
+		font-size: 0.75rem;
+		font-weight: 600;
+	}
+
+	.beta-test-table td:not(:first-child),
+	.beta-test-table th:not(:first-child) {
+		text-align: right;
+		white-space: nowrap;
+	}
+
+	.beta-test-note {
+		margin: 0.6rem 0 0;
+		color: var(--ink-dim);
+		font-size: 0.78rem;
+	}
+
 	.section-card.compact {
 		padding: 1rem;
 	}
@@ -1934,6 +2051,17 @@
 		padding: 0.125rem 0.375rem;
 		border-radius: 4px;
 		font-weight: 500;
+	}
+
+	.beta-badge {
+		display: inline-flex;
+		align-items: center;
+		background: color-mix(in srgb, var(--lamp-glow) 16%, transparent);
+		color: var(--lamp-glow);
+		font-size: 0.625rem;
+		padding: 0.125rem 0.375rem;
+		border-radius: 4px;
+		font-weight: 600;
 	}
 
 	.bot-badge {

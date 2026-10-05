@@ -94,6 +94,7 @@
 <div class="interact-text-container">
 	<textarea
 		placeholder="What are your thoughts on {formatPersonalityDisplayName(data.slug)}?"
+		aria-label="What are your thoughts on {formatPersonalityDisplayName(data.slug)}?"
 		class="interact-textbox"
 		bind:value={comment}></textarea>
 </div>

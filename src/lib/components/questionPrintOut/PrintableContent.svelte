@@ -56,7 +56,7 @@
 			<div
 				class=" {backgroundImage && 'background-image'}"
 				style={backgroundImage && `background-image: url(${backgroundImage})`}
-			/>
+			></div>
 			{#if images && images.length > 0}
 				{#each images as image, i}
 					{@const position = positions[i]}
@@ -91,7 +91,7 @@
 						{#if position && !position.isBackground}
 							<img
 								src={image}
-								alt="User uploaded image"
+								alt="User upload"
 								class={position.isBackground ? 'background-image' : 'foreground-image'}
 								style="left: {position.x}px; top: {position.y}px;"
 							/>
@@ -118,7 +118,7 @@
 						{#if position && !position.isBackground}
 							<img
 								src={image}
-								alt="User uploaded image"
+								alt="User upload"
 								class={position.isBackground ? 'background-image' : 'foreground-image'}
 								style="left: {position.x}px; top: {position.y}px;"
 							/>
@@ -141,15 +141,6 @@
 		padding: 10px 37px;
 		width: 100%;
 		position: relative;
-	}
-	.greek-frame {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		z-index: 1;
-		pointer-events: none;
 	}
 	.content {
 		position: relative;

@@ -23,7 +23,10 @@ const EXCLUDED_DIRS = [
 	'public',
 	// Frozen review evidence: rewriting the `path:` line changes bytes the
 	// perspective gate froze, so the snapshot no longer matches its contract hash.
-	'perspective-reviews'
+	'perspective-reviews',
+	// Same for v3 runs: release.json pins sha256 of every artifact (baseline.md, draft.md).
+	// A 2026-10-04 run over these silently invalidated live-eligible releases.
+	'pipeline-logs'
 ];
 
 const EXCLUDED_FILES = [
@@ -102,6 +105,11 @@ function shouldProcessFile(filePath: string): boolean {
 
 	// Skip excluded files
 	if (EXCLUDED_FILES.includes(fileName)) {
+		return false;
+	}
+
+	// Explicit file lists bypass the directory walk, so apply the directory excludes here too.
+	if (filePath.split(/[\\/]/).some((segment) => EXCLUDED_DIRS.includes(segment))) {
 		return false;
 	}
 

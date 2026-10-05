@@ -1,0 +1,22 @@
+I wrote the fan review for the Tiger Woods draft to `docs/content-analysis/pipeline-logs/2026-10-04_22-22-14-073_Tiger-Woods/review-fan.json`. It passes the review schema, the role and both hashes match the request, and every quoted passage appears word for word in the draft. I changed no other files and published nothing.
+
+**Risk flags:** sensitive allegations, contested typing and uncertain historical sources are all flagged; no major thesis change.
+
+**Findings: 3 major, 5 minor**
+- **fan-01 (major):** The draft says doctors "found" the torn ACL before the 2008 U.S. Open. He actually tore it in July 2007 and kept playing on it. The draft's own source has him choosing a quick cleanup over reconstruction so he could play the majors, and keeping the injuries from the public. Hiding the private reality is the draft's own test for Type 3, yet it gives this whole scene to Type 8.
+- **fan-02 (major):** The Buddhism quote is treated as Woods' own diagnosis and used as Type 8 evidence. The full 2010 statement says it is the faith "which my mother taught me at a young age," and the lines are standard Buddhist teaching, so they can't tell Type 8 from Type 3.
+- **fan-03 (major):** One swing rebuild stands in for a career-long habit of rebuilding from the top (Harmon, then Haney in 2004, then Foley in 2010). Each one cost him visible slumps, and the draft's own source says he won just once in 1998. That pattern challenges the Type 3 reading rather than proving it.
+- **fan-04 to fan-08 (minor):**
+  - The December 2009 statement is quoted selectively: the same statement admitted "transgressions."
+  - "About seven weeks" after the spinal surgery is wrong. The surgery was April 20, 2017, so the arrest came about five and a half weeks later.
+  - The post-2021 comeback evidence is thin. It leaves out the 2022 Masters return, the 2024 Masters cuts record and the 2025 Achilles rupture.
+  - The 2013 Masters ruling lacks context: his own candid description triggered the penalty, and the committee's decision let him keep playing.
+  - His ex-wife, Elin Nordegren, is never named, and the 2017 memoir quote has no source at the passage.
+
+The review also protects five passages, including the 2010/2022 "deserve" opening and the ending built on his "team award" line.
+
+The similarity check flagged a match on "public record," but that's ordinary wording rather than a reused argument, so it isn't a finding.
+
+For fact-checking I opened the CBS text of the 2010 statement and the Golf Digest swing-rebuild article. A web search confirmed the 2017 surgery date and the 2007 ACL tear. The CNN transcript was blocked (HTTP 451).
+
+Some connectors (Slack, GitHub, Ahrefs and others) need sign-in through claude.ai connector settings or `/mcp`, and the Supabase server failed to connect. This stage didn't need any of them.

@@ -2474,10 +2474,10 @@
 		color: var(--ink-mid);
 		font-size: 14px;
 		line-height: 1.55;
+	}
 
-		code {
-			color: var(--ink-bright);
-		}
+	.sg-preflight-instruction code {
+		color: var(--ink-bright);
 	}
 
 	.sg-preflight-error {

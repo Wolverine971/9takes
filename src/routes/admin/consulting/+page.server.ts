@@ -2,6 +2,13 @@
 import type { PageServerLoad, Actions } from './$types';
 import { fail } from '@sveltejs/kit';
 import { guardAdminActions } from '$lib/server/adminAuth';
+import { betaBookingUrl } from '$lib/server/betaSignups';
+import { loadCtaExperimentResults } from '$lib/server/ctaExperiments';
+import {
+	BETA_CARD_EXPERIMENT,
+	BETA_CARD_VARIANTS,
+	renderBetaHeadline
+} from '$lib/utils/betaCardCopy';
 import type { Database } from '../../../../database.types';
 
 type ClientIdentity = Pick<
@@ -183,34 +190,44 @@ export const load: PageServerLoad = async ({ locals }) => {
 	const now = new Date();
 	const nextWeek = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);
 
-	const [summary, { data: upcomingSessions }, { data: recentWaitlist }] = await Promise.all([
-		loadConsultingDashboardSummary(supabase),
-		// Upcoming sessions (next 7 days)
-		supabase
-			.from('consulting_sessions')
-			.select(
-				`
+	const [summary, { data: upcomingSessions }, { data: recentWaitlist }, betaCardResults] =
+		await Promise.all([
+			loadConsultingDashboardSummary(supabase),
+			// Upcoming sessions (next 7 days)
+			supabase
+				.from('consulting_sessions')
+				.select(
+					`
 				id,
 				scheduled_at,
 				session_type,
 				status,
 				client:consulting_clients(id, name, email, enneagram_type, trust_layer)
 			`
+				)
+				.gte('scheduled_at', now.toISOString())
+				.lte('scheduled_at', nextWeek.toISOString())
+				.in('status', ['scheduled', 'confirmed'])
+				.order('scheduled_at', { ascending: true })
+				.limit(5),
+			// Recent waitlist entries
+			supabase
+				.from('coaching_waitlist')
+				.select(
+					'id, name, email, session_goal, enneagram_type, created_at, flagged_reason, metadata:coaching_waitlist_metadata(source, utm_medium, utm_campaign, utm_content, ip_address, user_agent)'
+				)
+				.order('created_at', { ascending: false })
+				.limit(10),
+			// Beta card copy experiment: which headline gets people to sign up.
+			loadCtaExperimentResults(
+				supabase,
+				BETA_CARD_EXPERIMENT,
+				BETA_CARD_VARIANTS.map((variant) => ({
+					id: variant.id,
+					headline: renderBetaHeadline(variant, 'Taylor Swift')
+				}))
 			)
-			.gte('scheduled_at', now.toISOString())
-			.lte('scheduled_at', nextWeek.toISOString())
-			.in('status', ['scheduled', 'confirmed'])
-			.order('scheduled_at', { ascending: true })
-			.limit(5),
-		// Recent waitlist entries
-		supabase
-			.from('coaching_waitlist')
-			.select(
-				'id, name, email, session_goal, enneagram_type, created_at, flagged_reason, metadata:coaching_waitlist_metadata(source, utm_medium, utm_campaign, utm_content, ip_address, user_agent)'
-			)
-			.order('created_at', { ascending: false })
-			.limit(10)
-	]);
+		]);
 
 	const waitlistEntries = (recentWaitlist || []) as WaitlistWithMetadata[];
 	const waitlistRawEmails = [
@@ -394,6 +411,9 @@ export const load: PageServerLoad = async ({ locals }) => {
 		stats: summary.stats,
 		upcomingSessions: upcomingSessions || [],
 		recentWaitlist: enrichedWaitlist,
+		// Prefills the "Send details" Gmail draft for beta-card signups.
+		betaBookingUrl: betaBookingUrl(),
+		betaCardResults,
 		statusCounts: summary.statusCounts,
 		typeDistribution: summary.typeDistribution
 	};

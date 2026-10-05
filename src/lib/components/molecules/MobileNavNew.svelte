@@ -6,6 +6,7 @@
 	import { getAuthShellUser } from '$lib/authShell';
 	import { fly, fade } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
+	import { prefersReducedMotion } from 'svelte/motion';
 	import {
 		focusInitialElement,
 		inertBodySiblings,
@@ -175,15 +176,15 @@
 			aria-labelledby="mobile-nav-title"
 			on:click={handleBackdropClick}
 			on:keydown={handleKeydown}
-			in:fade={{ duration: 300, easing: cubicOut }}
-			out:fade={{ duration: 200, easing: cubicOut }}
+			in:fade={{ duration: prefersReducedMotion.current ? 0 : 300, easing: cubicOut }}
+			out:fade={{ duration: prefersReducedMotion.current ? 0 : 200, easing: cubicOut }}
 		>
 			<nav
 				id="mobile-navigation"
 				class="mobile-nav-panel"
 				aria-label="Mobile Navigation"
-				in:fly={{ x: -300, duration: 300, easing: cubicOut }}
-				out:fly={{ x: -300, duration: 200, easing: cubicOut }}
+				in:fly={{ x: -300, duration: prefersReducedMotion.current ? 0 : 300, easing: cubicOut }}
+				out:fly={{ x: -300, duration: prefersReducedMotion.current ? 0 : 200, easing: cubicOut }}
 			>
 				<!-- Header -->
 				<div class="mobile-nav-header">
@@ -254,8 +255,8 @@
 								<ul
 									id="mobile-library-menu"
 									class="submenu"
-									in:fly={{ y: -10, duration: 200 }}
-									out:fly={{ y: -10, duration: 150 }}
+									in:fly={{ y: -10, duration: prefersReducedMotion.current ? 0 : 200 }}
+									out:fly={{ y: -10, duration: prefersReducedMotion.current ? 0 : 150 }}
 								>
 									{#each libraryItems as { href, label }}
 										<li class="submenu-item">

@@ -71,9 +71,4 @@
 		aspect-ratio: 1;
 		overflow: hidden;
 	}
-
-	/* Optional styling differences if you want a "loading" vs "loaded" class. */
-	.grid-cell.loading {
-		background-color: #ddd; /* or some placeholder style */
-	}
 </style>

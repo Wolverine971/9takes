@@ -115,7 +115,8 @@
 				<a href={item.link} class="marquee-item">{item.name}</a>
 			{/each}
 		</div>
-		<div class="marquee-content" aria-hidden="true">
+		<!-- Visual duplicate for the seamless loop: inert keeps its links out of the tab order -->
+		<div class="marquee-content" aria-hidden="true" inert>
 			{#each finalDisplayList as item}
 				<a href={item.link} class="marquee-item">{item.name}</a>
 			{/each}
@@ -160,7 +161,9 @@
 		width: calc(var(--marquee-width) * 2);
 		animation: scroll var(--marquee-speed) linear infinite;
 
-		&.paused {
+		&.paused,
+		&:hover,
+		&:focus-within {
 			animation-play-state: paused;
 		}
 	}

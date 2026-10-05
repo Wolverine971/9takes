@@ -188,8 +188,11 @@ describe('Comment', () => {
 		const replyField = getByRole('textbox', { name: 'Your reply' });
 		expect(replyField.closest('article.comment-card')).toBe(card);
 
-		await fireEvent.click(getByRole('button', { name: 'Open menu' }));
-		const menu = getByRole('menu');
+		const menuTrigger = getByRole('button', { name: 'Open menu' });
+		await fireEvent.click(menuTrigger);
+		const menu = document.getElementById(
+			menuTrigger.getAttribute('aria-controls') ?? ''
+		) as HTMLElement;
 		const postedAt = menu.querySelector('time[itemprop="dateCreated"]');
 
 		expect(menu.textContent).toContain('Posted');
@@ -218,8 +221,11 @@ describe('Comment', () => {
 		expect(card?.querySelector('.comment-card__main time')).toBeNull();
 		expect(card?.textContent).not.toContain('Aug 4, 2026');
 
-		await fireEvent.click(getByRole('button', { name: 'Open menu' }));
-		const editedAt = getByRole('menu').querySelector('time[itemprop="dateModified"]');
+		const menuTrigger = getByRole('button', { name: 'Open menu' });
+		await fireEvent.click(menuTrigger);
+		const editedAt = document
+			.getElementById(menuTrigger.getAttribute('aria-controls') ?? '')
+			?.querySelector('time[itemprop="dateModified"]');
 
 		expect(editedAt?.textContent?.trim()).toBe('Aug 4, 2026');
 		expect(editedAt?.getAttribute('datetime')).toBe(editedComment.modified_at);

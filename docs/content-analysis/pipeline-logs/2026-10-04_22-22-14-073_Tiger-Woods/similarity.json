@@ -1,0 +1,213 @@
+{
+  "target": {
+    "person": "tiger-woods",
+    "type": "3",
+    "units": 10,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_22-22-14-073_Tiger-Woods/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9
+    },
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33
+    },
+    {
+      "person": "Tate-McRae",
+      "date": "2026-08-27",
+      "units": 31
+    },
+    {
+      "person": "margaret-qualley",
+      "date": "2026-08-20",
+      "units": 28
+    },
+    {
+      "person": "alexandr-wang",
+      "date": "2026-08-18",
+      "units": 30
+    },
+    {
+      "person": "adela",
+      "date": "2026-08-14",
+      "units": 17
+    },
+    {
+      "person": "michael-jordan",
+      "date": "2026-08-14",
+      "units": 45
+    },
+    {
+      "person": "David-Beckham",
+      "date": "2026-08-12",
+      "units": 33
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 2260,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.008,
+    "max": 0.061
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.049,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [
+        "public record",
+        "the public record"
+      ],
+      "target": "[diagnosis] then a televised apology that asked the public to \"one day believe in me again.\" This is a reading of the public record",
+      "other": "[counter-typing] She declines to correct the public record about herself at all"
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "alexandr-wang",
+      "date": "2026-08-18",
+      "units": 30,
+      "maxScore": 0.061
+    },
+    {
+      "person": "margaret-qualley",
+      "date": "2026-08-20",
+      "units": 28,
+      "maxScore": 0.049
+    },
+    {
+      "person": "michael-jordan",
+      "date": "2026-08-14",
+      "units": 45,
+      "maxScore": 0.031
+    },
+    {
+      "person": "adela",
+      "date": "2026-08-14",
+      "units": 17,
+      "maxScore": 0.027
+    },
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9,
+      "maxScore": 0.019
+    },
+    {
+      "person": "Tate-McRae",
+      "date": "2026-08-27",
+      "units": 31,
+      "maxScore": 0.017
+    },
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33,
+      "maxScore": 0.017
+    },
+    {
+      "person": "David-Beckham",
+      "date": "2026-08-12",
+      "units": 33,
+      "maxScore": 0.009
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.061,
+      "other_person": "alexandr-wang",
+      "shared_phrases": [],
+      "target": "[diagnosis] a Five tends to leave the stage.",
+      "other": "[counter-typing] A Five leaves the room to feel something."
+    },
+    {
+      "score": 0.049,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [
+        "public record",
+        "the public record"
+      ],
+      "target": "[diagnosis] then a televised apology that asked the public to \"one day believe in me again.\" This is a reading of the public record",
+      "other": "[counter-typing] She declines to correct the public record about herself at all"
+    },
+    {
+      "score": 0.038,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] a Five tends to leave the stage.",
+      "other": "[diagnosis] and they tend to settle the question through work."
+    },
+    {
+      "score": 0.033,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] An Eight tends to own the appetite openly",
+      "other": "[diagnosis] and they tend to settle the question through work."
+    },
+    {
+      "score": 0.031,
+      "other_person": "michael-jordan",
+      "shared_phrases": [],
+      "target": "[diagnosis] An Eight tends to own the appetite openly",
+      "other": "[diagnosis] The popular counter-read types him an Eight"
+    },
+    {
+      "score": 0.028,
+      "other_person": "michael-jordan",
+      "shared_phrases": [],
+      "target": "[diagnosis] An Eight tends to own the appetite openly",
+      "other": "[diagnosis] An Eight torches the sponsor and keeps the conviction."
+    },
+    {
+      "score": 0.027,
+      "other_person": "adela",
+      "shared_phrases": [
+        "private life"
+      ],
+      "target": "[diagnosis] and when his public image and private life split apart",
+      "other": "[diagnosis] though they leave much of her ordinary private life unseen."
+    },
+    {
+      "score": 0.026,
+      "other_person": "michael-jordan",
+      "shared_phrases": [],
+      "target": "[diagnosis] An Eight tends to own the appetite openly",
+      "other": "[diagnosis] But an Eight runs on control and barely registers the audience."
+    },
+    {
+      "score": 0.019,
+      "other_person": "ben-shelton",
+      "shared_phrases": [],
+      "target": "[diagnosis] Type 3 is organized around being valuable through achievement and its image.",
+      "other": "[diagnosis] and its reflex is turning pain into a good story."
+    },
+    {
+      "score": 0.018,
+      "other_person": "alexandr-wang",
+      "shared_phrases": [],
+      "target": "[diagnosis] a Five tends to leave the stage.",
+      "other": "[counter-typing] A Five withdraws to master a domain before engaging with it"
+    },
+    {
+      "score": 0.017,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] the record shows Woods' side working on the picture instead",
+      "other": "[diagnosis] and she describes it on the record with unusual precision."
+    },
+    {
+      "score": 0.017,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] Type 3 is organized around being valuable through achievement and its image.",
+      "other": "[counter-typing] Twos build identity around being needed"
+    }
+  ]
+}

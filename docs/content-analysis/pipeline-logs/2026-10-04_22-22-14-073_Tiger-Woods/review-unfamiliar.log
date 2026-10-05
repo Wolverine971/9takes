@@ -1,0 +1,22 @@
+I've written the unfamiliar-reader review to `docs/content-analysis/pipeline-logs/2026-10-04_22-22-14-073_Tiger-Woods/review-unfamiliar.json`. It passes the review schema, its two hashes match the request, and every quoted passage matches the draft exactly. I changed nothing else.
+
+The verdict: someone who doesn't know Tiger Woods or the Enneagram can follow the draft and gets a lot from it. The opening sets his 2010 apology against his 2022 Hall of Fame speech and gets the whole argument across in plain words. The type answer comes early, and the main alternative (Type 8) is argued right next to it. The ending turns the opening's "earn it" theme back on itself.
+
+**One major finding**
+- **The 2009 scandal itself never appears.** The article's key test is what Woods did when his public image and private life split apart, but the reader never sees the split. They get a car crash, a privacy statement and then a televised confession, with nothing saying the crash led to the affair reports. His wife is never named, and the reader only learns the marriage ended from a 2017 quote about "his former wife."
+
+**Eight minor findings**
+- **One factual error:** the draft says the May 29, 2017 DUI arrest came "about seven weeks" after his spinal fusion. [ESPN](https://www.espn.com/golf/story/_/id/19490176/tiger-woods-arrested-dui-florida) dates the surgery April 19, so it was 40 days, about six weeks. The error came from a note in the evidence file, not from any source.
+- **The 2021 leg injury is never described,** so his daughter Sam's closing line, "We didn't know if you'd come home with two legs or not," has no setup. "The broken leg" in the Type 8 section also reads as 2021 when it means 2008.
+- **LIV is never explained,** and the draft leaves out Woods' own "guaranteed money" wording from the source, which is what makes his point about earning it make sense.
+- **The scale of his career is missing.** It never says his 15 majors rank second all-time, "Tiger Slam" goes unexplained, and nothing tells non-golf readers that "the Open" and "the U.S. Open" are different tournaments.
+- **The 2006 events are out of order across two sections:** the missed U.S. Open cut and the tearful Open win come before the Navy SEAL training visit that explains them.
+- **The short type answer near the top is more certain than the body.** It says "he worked to repair the image," while the body admits his representatives may have made the 2007 magazine deal.
+- **A cut quote changes the meaning.** Thompson's line starts "People who meet him for 30 seconds love him," and dropping that makes his coldness look like his first impression. It also hides the brief charm a Type 3 reading would predict.
+- **The type test is hard to follow for Enneagram newcomers.** "An Eight tends to own the appetite openly" comes before any appetite has been mentioned, and Type 5 is never defined.
+
+I also marked five passages to protect, including the opening's "same rule both times" turn, "the public Tiger Woods as an outfit," and the closing two sentences.
+
+Three risk flags stay on: sensitive allegations, contested typing and some uncertain or second-hand sources. The similarity check flagged only common phrases like "public record," not reused arguments.
+
+Several MCP connectors (GitHub, Slack, Ahrefs and others) need authorization in claude.ai connector settings or via `/mcp`, and Supabase failed to connect this session. None of them were needed for this review.

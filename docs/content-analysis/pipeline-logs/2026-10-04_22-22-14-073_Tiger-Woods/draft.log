@@ -1,0 +1,27 @@
+I've written the Tiger Woods draft and its evidence map. Both pass the pipeline's own checks, nothing was published, and I touched no files outside those two outputs (`draft.md` and `evidence-draft.json` in the run folder).
+
+**The story**
+- **Opening:** it starts with two moments 12 years apart where Woods explains himself with the same word. In his 2010 apology he said he "deserved to enjoy all the temptations around me." At his 2022 Hall of Fame induction he said "you don't deserve it. You need to earn it… That defined my career."
+- **Main idea:** the rule that built his career is the same one he used to excuse himself in 2010. The second thread is the gap friends describe between the man and the public figure. That gap is summed up in his Halloween text: "I'm going as a golfer known as Tiger Woods."
+- **Type call:** Type 3 at medium confidence. Type 8 is the strongest alternative and gets its own section, led by him playing the 2008 U.S. Open on a broken leg. Type 5 is a serious second and Type 1 a weak third. A separate section covers what no type explains: the Navy SEAL training after his father died, his coldness toward people, and his father's infidelity repeating in his own life.
+- **Length:** 3,833 words. That's within the 4,500 cap but above the ~3,500 target. About 200 of those words are inline source links.
+
+**What I checked or changed before using quotes**
+- **Hall of Fame wording:** I opened the full ASAP Sports transcript. It confirms the "earn it" quote and that he credited his dad, not his mom. It also gave me a better childhood scene: as an 8-year-old he hid in a ditch to sneak onto a Navy golf course, which he called "part sniper."
+- **"Chosen One":** his father's line is backed up by a 2000 Slate piece. Tiger's own "This is my purpose" line was only in an unauthorized blog copy, so I left it out.
+- **2008 U.S. Open:** the source didn't support "doctors advised crutches and rest." I replaced it with his own recollection: "they were saying I was pretty much done for the year."
+- **Dropped claims:** I dropped Greg Norman's unconfirmed claim about a giant LIV offer, plus a few minor claims the draft no longer uses.
+
+**Sensitive material**
+- **Diagnosis:** none is named. His 2010 statement only says "the issues I'm facing."
+- **2007 magazine deal:** the deal where a Men's Fitness cover was traded for burying photos is presented as reported, then confirmed under oath in 2024. The draft says there's no record of Woods' own role, and the woman isn't named.
+- **Erica Herman:** her dropped lawsuit is left out entirely.
+- **Arrests:** the 2017 and 2026 arrests are framed as medical and legal facts, not personality evidence.
+
+**Still open for reviewers or before publishing**
+- **2026 plea:** outlets disagree on whether he pleaded no contest or guilty, so the draft says only "plea deal on reduced charges."
+- **2021 Golf Digest quotes:** these come from reprints. They should be checked against the original interview.
+
+Because research flagged sensitive allegations and contested typing, this draft goes to the full six-reviewer panel next.
+
+The Supabase connection failed this session, and several plugin servers (Ahrefs, Slack, GitHub and others) need you to authorize them. None of them were needed for this stage.

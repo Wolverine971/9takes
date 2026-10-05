@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "44f07324e87e41ba588425c1592316847261a8ec4f437e8c3a66a6d8a2683a03",
+  "evidence_sha256": "14bc405fbd058ff9db7d223e7741f254b0c16c30ecfec1ee22e543de1cd5fb05",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "What they show is a way of handling exposure unchanged since 2009: a written statement, a request for privacy, and, on June 23, 2026, a first public appearance as chairman of a PGA Tour committee that consisted of a prepared statement and no questions",
+      "problem": "The newest event is doing thesis work, and the continuity claim is overstated. C35, which backs this sentence, is listed in type_hypothesis.for_claim_ids, so a six-month-old event supports the Type 3 case. 'Unchanged since 2009' is contradicted by the draft itself. Woods gave interviews a month after the 2010 apology (ESPN, March 21, 2010). He sat for a long Golf Digest interview in November 2021, and he took questions at St Andrews in July 2022. The 2017 statement (S23) contains no privacy request. On June 23, 2026, he had pleaded not guilty, and the charges were still pending until September 2. Any defense lawyer would advise taking no questions. The evidence record names this alternative in C35 ('legal counsel would advise no questions during a pending case'), but the prose leaves it out. I confirmed on the live ESPN page that the article gives no reason he took no questions.",
+      "acceptance_test": "Either delete the sentence, or narrow it to the specific dated observations (a written statement on March 31, 2026, and a prepared statement with no questions on June 23, 2026) and state the pending-case explanation in the same paragraph. Drop 'unchanged since 2009' or replace it with a claim the article's own 2010, 2021 and 2022 material does not contradict. Remove C35 from for_claim_ids or relabel it as ambiguous. Check: if every 2026 sentence is deleted, the type argument in 'What is Tiger Woods' personality type?' and 'Why the Three reading still leads' reads exactly as before."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "An Eight tends to own the appetite openly; a Five tends to leave the stage.",
+      "problem": "The draft's own discriminator is being tested by an ongoing event, and nothing in the record tracks it. In 2026, after exposure, Woods stepped away from golf, went abroad for treatment and declined the 2027 Ryder Cup captaincy. He then made one appearance with a prepared statement and no questions, and as of the accuracy check he had not competed. By the draft's own test, that looks at least as much like 'leave the stage' (the Five move) as like repairing the picture (the Three move). The draft reads it as Three-consistent instead (future-01). How this resolves over the next five years could strengthen or weaken the medium-confidence Type 3 call. Examples: a comeback with a redemption story, a long interview that reframes the treatment, or a lasting withdrawal from competition and the press. No claim or trigger in the evidence record tells a future editor to re-test the type at that point. C70's trigger only asks for a status update.",
+      "acceptance_test": "Add an unresolved claim to the evidence record, or a trigger on the type hypothesis, that names which future observations would move the 3/5 balance and requires re-checking the type argument when they happen (e.g., an unscripted interview about the treatment, a competitive return, or formal retirement from tour play). In the draft, add at most one sentence. Either acknowledge that the 2026 withdrawal is the kind of move the article attributes to a Five, or explain why it is not (for example, that 2009-10 also paired a withdrawal with a picture-repairing apology). Do not count the 2026 response as Three evidence."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "The likeliest explanation for both arrests is the one the record offers: chronic pain after years of spinal surgery.",
+      "problem": "This sentence makes a medical interpretation about an unresolved, sensitive matter, and it is not in the claim inventory. For 2026 the record does not offer chronic pain. The treatment motion cites an 'intensive, highly individualized and medically integrated program' and keeps the clinical details private (Al Jazeera, April 2, 2026; I re-opened it live and confirmed this). Woods' statement speaks of 'lasting recovery' (S48). C34's own alternative lists dependence alongside pain. If Woods or a court filing later describes the treatment, this sentence could become false. It is also the only sentence that settles the cause of either arrest.",
+      "acceptance_test": "Add the claim to the inventory as class 'interpretation', durability 'unresolved', with a trigger such as 're-check if Woods, his representatives or court records describe the nature of the 2026 treatment'. In the prose, attribute only what is known: in 2017 he said 'an unexpected reaction to prescribed medications' and later 'a mistake to do this without medical assistance'; in 2026 the treatment details were not disclosed. Do not choose between pain and dependence. Keep the separate point that neither arrest is type evidence."
+    },
+    {
+      "id": "future-04",
+      "severity": "major",
+      "passage": "His breath test was negative, he refused a urine test, and the arrest affidavit reported two hydrocodone pills in his pocket",
+      "problem": "The paragraph on 2026 reads like a news brief, not part of the portrait. It packs six time-sensitive legal and treatment details into one stretch: the urine-test refusal, the affidavit's pills, going abroad, the Ryder Cup captaincy, the plea, and the license suspension. That is five of the eight time_sensitive claims (C34, C69-C72), plus the 'As of' line. The draft says the arrests 'say little about type', and the standard admits recent events only when they deepen, complicate or test the argument. The affidavit details are arrest-time allegations, and they were overtaken by a plea to reduced charges whose type is still disputed between outlets (no contest per ABC vs guilty per CBS, OPEN research task). These are the least durable and most sensitive lines in the profile. A reader in 2031 meets a court docket just before the closing section.",
+      "acceptance_test": "Cut the 2026 material down to what the argument uses: the dated arrest, the March 31, 2026 treatment statement, and the plea outcome described without specifying the plea type until the court record is checked. Either cut the affidavit details or explicitly label them as allegations later resolved by the September 2, 2026 plea. Keep the Ryder Cup captaincy only if it carries a point. Check: no remaining 2026 sentence needs rewriting whether Woods returns, retires or speaks about treatment."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "As of October 4, 2026, he had not returned to competition.",
+      "problem": "This is a temporary status line the argument never uses. It is honestly dated, but it goes stale as soon as his status changes, and C70's trigger requires editing it on every refresh. The section's point is already made by 'His behavior kept testing it' and the 2021 Everest quote.",
+      "acceptance_test": "Delete the sentence and retire C70. If a status note is kept, replace it with a completed, dated fact that cannot expire (for example, that he did not play in the 2026 PGA Tour season, per S54), and make sure the closing section does not depend on his playing status."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "That is the clearest statement he has made of the rule loosening",
+      "problem": "This is an undated superlative about everything Woods has said. Any interview after his treatment could supersede it, and no claim or trigger tracks it (C67 is marked stable with no trigger).",
+      "acceptance_test": "Rephrase so it cannot be falsified by a future interview, for example by dating it ('In November 2021 he put the loosening most plainly') or dropping the superlative. Otherwise add a trigger to C67: re-check if Woods gives a later statement about competing or identity."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "It is the same rule both times: work earns results, and results make you deserving. In 2022 the rule explained a career. In 2010 it explained an exemption: \"I convinced myself that normal rules didn't apply.\"",
+      "reason": "The hook passes the five-year test cleanly. It rests on two dated, transcript-backed statements twelve years apart, not on the latest event, and it sets up the argument the rest of the article delivers."
+    },
+    {
+      "passage": "Seventy-nine days later he made a public confession on television.",
+      "reason": "A precise, checkable contrast (December 2, 2009 to February 19, 2010 is 79 days) that shows the privacy-then-confession reversal without any commentary. It is durable and distinctive."
+    },
+    {
+      "passage": "It was a joke, and it was his: the public Tiger Woods as an outfit.",
+      "reason": "It credits the source of the joke and turns Woods' own text into the persona argument, then reads it both ways (Three vs Five) instead of forcing it. It is specific to this person and does not date."
+    },
+    {
+      "passage": "The SEAL chapter may say more about whose son he was than about his type.",
+      "reason": "It leaves unexplained what the type doesn't explain, without forcing it into the type. That kind of honest limit keeps a profile credible as new facts arrive."
+    },
+    {
+      "passage": "Woods spent a career proving he deserved to be Tiger Woods. That night, briefly, he described it as something other people had given him.",
+      "reason": "The ending is anchored in the 2022 speech, not the 2026 news. It still lands whether Woods returns, retires or speaks about his treatment, and it closes the 'deserve' thread from the hook."
+    }
+  ],
+  "assessment": "Five-year test: the core argument passes; the latest-event handling does not yet. Delete every 2026 sentence and the hook (2010/2022), the discriminator (2007 Enquirer trade, 2010 apology), the Eight/Five/One comparison and the Hall of Fame close all stand unchanged. The description, meta_title and all four FAQs avoid 2026 entirely. Dates are absolute throughout, and the relative phrases ('a month later', 'two years later', 'four months later') are anchored to dated citations. The durability risk is concentrated in the last two paragraphs of 'Everest, one more time'. There, a six-month-old event carries thesis weight via C35 and an overstated 'unchanged since 2009'. An unrecorded medical explanation settles an unresolved question. The legal detail of a court docket sits in a section the draft says says little about type. Nothing in the record asks for the 3-vs-5 call to be re-tested as the 2026 withdrawal resolves, even though that withdrawal resembles the draft's own Five marker. Evidence-record triggers on C34/C35/C68-C72/C75 are otherwise concrete and actionable. I re-opened S51 (Al Jazeera) and S52 (ESPN) live: the undisclosed clinical details, the travel ruling, the captaincy decision and the prepared-statement/no-questions appearance are confirmed, and ESPN gives no reason for the no-questions format. Similarity: the tripped pair with margaret-qualley shares only the ordinary phrase 'the public record', and the Five/Eight sentences matching alexandr-wang and michael-jordan are standard type vocabulary making different arguments. The disclaimer 'This is a reading of the public record, not access to his mind' appears nowhere else in the people corpus. I found no meaningful reuse. Risk flags stay elevated: affairs, two DUI arrests and sworn third-party testimony (sensitive), medium-confidence typing with live 8 and 5 alternatives (contested), and Thompson's unnamed sources plus relay-only copies of the 1996 SI and 2021 Golf Digest material (source uncertainty)."
+}

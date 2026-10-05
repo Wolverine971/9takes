@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte';
 	import { fly } from 'svelte/transition';
+	import { prefersReducedMotion } from 'svelte/motion';
 	import { browser } from '$app/environment';
 	import {
 		buildPersonalityAnalysisPath,
@@ -167,43 +168,49 @@
 	<aside
 		class="sidebar"
 		style="left: {sidebarPosition.left};"
-		transition:fly={{ x: -100, duration: 300 }}
+		transition:fly={{ x: -100, duration: prefersReducedMotion.current ? 0 : 300 }}
 		aria-label="Related personalities navigation"
 	>
-		<nav class="sidebar-nav">
-			<h3 class="sidebar-title">{title}</h3>
-			<ul class="sidebar-list">
-				{#each links as link}
-					<li class="sidebar-item">
-						<a href={buildPersonalityAnalysisPath(link)} class="sidebar-link">
-							{formatPersonalityDisplayName(link)}
-						</a>
-					</li>
-				{/each}
-			</ul>
-			{#if bridgeLinks.length}
-				<div class="sidebar-bridges" aria-label="Explore the framework">
-					<h4 class="sidebar-subtitle">Explore the Framework</h4>
+		<!-- Optional card above the list (the beta card on personality pages). -->
+		<slot name="lead" />
+		{#if links.length || bridgeLinks.length || $$slots.default}
+			<nav class="sidebar-nav">
+				{#if links.length}
+					<h3 class="sidebar-title">{title}</h3>
 					<ul class="sidebar-list">
-						{#each bridgeLinks as bridge}
+						{#each links as link}
 							<li class="sidebar-item">
-								<a
-									href={bridge.href}
-									class="sidebar-link"
-									data-bridge="true"
-									data-track="profile-sidebar-bridge"
-								>
-									{bridge.label}
+								<a href={buildPersonalityAnalysisPath(link)} class="sidebar-link">
+									{formatPersonalityDisplayName(link)}
 								</a>
 							</li>
 						{/each}
 					</ul>
+				{/if}
+				{#if bridgeLinks.length}
+					<div class="sidebar-bridges" aria-label="Explore the framework">
+						<h4 class="sidebar-subtitle">Explore the Framework</h4>
+						<ul class="sidebar-list">
+							{#each bridgeLinks as bridge}
+								<li class="sidebar-item">
+									<a
+										href={bridge.href}
+										class="sidebar-link"
+										data-bridge="true"
+										data-track="profile-sidebar-bridge"
+									>
+										{bridge.label}
+									</a>
+								</li>
+							{/each}
+						</ul>
+					</div>
+				{/if}
+				<div class="sidebar-extra">
+					<slot />
 				</div>
-			{/if}
-			<div class="sidebar-extra">
-				<slot />
-			</div>
-		</nav>
+			</nav>
+		{/if}
 	</aside>
 {/if}
 
@@ -267,27 +274,39 @@
 		}
 	}
 
+	// The rail is a column: an optional lead card (the beta card), then the
+	// list card. Only the list scrolls, so the lead card never scrolls away.
 	.sidebar {
+		position: fixed;
+		top: 50%;
+		transform: translateY(-50%);
+		display: flex;
+		flex-direction: column;
+		width: 200px;
+		max-width: 200px;
+		max-height: 88vh;
+		font-size: 0.875rem;
+		line-height: 1.4;
+		z-index: 40;
+
+		// Ensure it doesn't overlap with other elements
+		pointer-events: auto;
+	}
+
+	.sidebar-nav {
 		/* Card base styles - Solo Leveling dark theme */
+		box-sizing: border-box;
+		flex: 0 1 auto;
+		min-height: 0;
+		width: 100%;
+		max-height: 70vh;
+		padding: 0.5rem;
+		overflow-y: auto;
+		overflow-x: hidden;
 		background-color: var(--night-deep);
 		border-radius: 1rem;
 		box-shadow: 0 0 20px color-mix(in srgb, var(--lamp-glow) 15%, transparent);
 		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
-
-		position: fixed;
-		top: 50%;
-		transform: translateY(-50%);
-		width: 200px;
-		font-size: 0.875rem;
-		line-height: 1.4;
-		max-width: 200px;
-		z-index: 40;
-		max-height: 70vh;
-		overflow-y: auto;
-		overflow-x: hidden;
-
-		// Ensure it doesn't overlap with other elements
-		pointer-events: auto;
 
 		/* Custom scrollbar */
 		&::-webkit-scrollbar {
@@ -306,11 +325,6 @@
 				background-color: color-mix(in srgb, var(--lamp-glow) 50%, transparent);
 			}
 		}
-	}
-
-	.sidebar-nav {
-		width: 100%;
-		padding: 0.5rem;
 	}
 
 	.sidebar-bridges {

@@ -1,0 +1,31 @@
+I've finished the research stage and written `evidence.json` to the run directory. It passes the pipeline's own validation with status **ready** and is the only file I wrote in the repo. Nothing was published.
+
+**Type call: 3 (the Achiever), medium confidence.** The strongest alternative is 8 (the Challenger), with 5 (the Investigator) a serious second and 1 (the Perfectionist) a weak third.
+
+**What decides it:** when his public image and his private life split apart, Woods works to repair the image. He doesn't own the appetite openly, which is what an 8 tends to do, and he doesn't pull away from the public stage, which is what a 5 tends to do.
+- **2007:** Under oath in 2024, the Enquirer's former owner said Woods gave a fitness-and-marriage cover story to his Men's Fitness magazine in exchange for burying photos of an affair.
+- **2009–10:** He first called privacy a principle. Then he gave a scripted confession that apologized to his sponsors and asked the public to "believe in me again."
+- **Same rule for 26 years:** His own words tie being deserving to winning. At 20 it was "This is my purpose." In 2010 it was "worked hard my entire life and deserved." In 2022 it was "you don't deserve it… You need to earn it… That defined my career," and "earn it in the dirt," aimed at the LIV players.
+- **What friends say:** they describe the public Tiger as a role he plays. He once texted that his Halloween costume would be "a golfer known as Tiger Woods," and a friend said the real one "isn't that marketable."
+
+**Why it's only medium:** the 8 case is real. He played the 2008 U.S. Open on a broken leg against doctors' advice, told his caddie "F--- you, Stevie, I'm winning this tournament," and coaches describe a will to crush rivals. The record also shows coldness toward people, temper on the course, a friend calling him "a natural introvert," and a Navy SEAL fixation after his father died that none of the types explains well. The file records all of this as evidence against, or as unexplained.
+
+**Current accuracy (checked 2026-10-04):**
+- **The 2026 arrest:** On 2026-03-27 he was arrested for DUI after a rollover crash on Jupiter Island. He then went to treatment abroad, missed every 2026 major, and turned down the 2027 Ryder Cup captaincy.
+- **The plea:** On 2026-09-02 he took a plea deal on reduced charges, with a five-year license suspension.
+- **Current status:** He hasn't competed since.
+- **Durability:** The type argument doesn't depend on any of these events. They're logged as time-sensitive claims with triggers for when to re-check.
+
+**What the file holds:**
+- **Sources:** 69 in total. I opened 63 of them; 6 were blocked and are marked as such.
+- **Claims:** 49, each tagged by kind (what he did, what he said about himself, what others said).
+- **Risk flags:** I flagged sensitive allegations, contested typing and uncertain childhood sources, so the draft will go to the full six-reviewer panel instead of the usual two.
+
+**Before drafting, a few quotes need checking.** They're listed in the file's research tasks:
+- **2022 Hall of Fame speech:** the exact wording, and whether the "earn it" lesson came from his father, his mother or both.
+- **1996 "Chosen One" profile:** the only copy I could open is an unauthorized blog repost of the Sports Illustrated piece.
+- **The 2026 plea:** ABC says no contest and CBS says guilty.
+- **Greg Norman's claim** that Woods turned down a "high nine digits" offer from LIV is unconfirmed.
+- **Do not use:** several viral quotes that no opened source supports, including "the control I craved," his mother's "kill them," and "Second sucks."
+
+The Supabase connection failed this session, and several plugin servers need you to authorize them. Neither was needed for this stage.

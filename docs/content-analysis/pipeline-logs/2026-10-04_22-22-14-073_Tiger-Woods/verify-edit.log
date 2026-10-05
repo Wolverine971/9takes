@@ -1,0 +1,35 @@
+The Tiger Woods profile can't be released yet: verification came back **`revise`**, with two major findings and an overall score of 8.0 against the 8.5 bar. Both majors are wording fixes, not new research. The result is in `docs/content-analysis/pipeline-logs/2026-10-04_22-22-14-073_Tiger-Woods/verification-edit.json`. It passes the contract's schema and its hashes match the request.
+
+**Checks performed**
+- **Sources:** I reopened all 54 sources the claims rely on, including the CNN and ESPN pages earlier reviewers couldn't open. Nearly every quote matches word for word, with the right speaker and date.
+- **Review decisions:** the editor's fixes for all 47 reviewer findings hold up against their acceptance tests. All 18 protected passages kept what made them worth protecting. There were no inherited blockers.
+- **Overall:** the alternative types are seriously argued, the profile passes the five-year test, and the body and metadata agree.
+
+**Major findings (both block release)**
+- **V-01 – one friend presented as two.** In the 2016 ESPN feature, "isn't that marketable … read a book" and "Tiger was a natural introvert…" are one continuous quote from a single unnamed friend. The draft says "One unnamed friend … Another:", and FAQ 3 repeats the split, which invents a second witness.
+- **V-02 – trimmed Jordan quote.** The draft cuts the reporter's sentence just before Jordan's "That bothers him more than anything": "this dwelling on old mistakes … Nothing can take him back to 2006 and give him a second chance." Without it, "That" seems to mean what people say about Woods; in the source it means regret over his mistakes.
+  - Three sentences build on that misreading: "wants the record erased", the case against Type 1, and "can't stop reading it".
+  - This passage is what puts Type 3 ahead of the other types, so it should be re-checked after the fix.
+
+**Minor findings**
+- **V-03:** "Nothing shows Woods made the 2007 deal" understates the article's own HuffPost source. That source relays Wall Street Journal reporting that "Mr. Woods agreed … in return for" the story being dropped, and that his representatives made the offer.
+- **V-04:** the TPC Sawgrass venue and "took no questions" are true, but no source in the evidence file says so. AP (via [MPR News](https://www.mprnews.org/story/2010/02/19/tiger-woods-speech)) does.
+- **V-05:** the cited ESPN story puts the 2021 crash in Rolling Hills Estates, not "near Rancho Palos Verdes".
+
+**Scores**
+
+| Dimension | Score |
+|---|---|
+| Evidence | 7.5 |
+| Enneagram | 7.5 |
+| Originality | 9 |
+| Writing | 8 (4,423 words, over the 2,000–3,500 target) |
+| Durability | 8.5 |
+| Hook | 9 |
+| Discoverability | 7.5 |
+
+Running the release check returns: needs revision, V-01 and V-02 open, the ESPN feature's context marked as not matching, overall under 8.5, and evidence and Enneagram under 8. I expect one targeted repair pass to clear the major findings, followed by reverification.
+
+I didn't modify any other files or publish anything. Scratch downloads went to `/tmp/tw-verify-edit/`. I also saved a memory note on how to get full text from ESPN and CNN for future verification runs.
+
+Unrelated to this stage: the Supabase server failed to connect, and several plugin servers (Ahrefs, Slack, Notion, others) need authorization through `/mcp` or claude.ai connector settings. None of them were needed here.

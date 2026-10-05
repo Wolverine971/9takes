@@ -20,7 +20,12 @@ import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { logger } from '$lib/utils/logger';
 
 export type RateLimitBucket =
-	'transcribe' | 'chorus_mirror' | 'person_suggestion' | 'comment_views' | 'talk_note';
+	| 'transcribe'
+	| 'chorus_mirror'
+	| 'person_suggestion'
+	| 'comment_views'
+	| 'talk_note'
+	| 'beta_signup';
 
 export type RateLimitRule = {
 	limit: number;
@@ -32,7 +37,8 @@ export const RATE_LIMIT_RULES: Record<RateLimitBucket, RateLimitRule> = {
 	chorus_mirror: { limit: 20, windowMs: 10 * 60 * 1000 },
 	comment_views: { limit: 30, windowMs: 60 * 1000 },
 	person_suggestion: { limit: 3, windowMs: 24 * 60 * 60 * 1000 },
-	talk_note: { limit: 5, windowMs: 60 * 60 * 1000 }
+	talk_note: { limit: 5, windowMs: 60 * 60 * 1000 },
+	beta_signup: { limit: 5, windowMs: 60 * 60 * 1000 }
 };
 
 export type RateLimitDecision = {

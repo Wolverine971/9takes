@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "44f07324e87e41ba588425c1592316847261a8ec4f437e8c3a66a6d8a2683a03",
+  "evidence_sha256": "14bc405fbd058ff9db7d223e7741f254b0c16c30ecfec1ee22e543de1cd5fb05",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-U01",
+      "severity": "major",
+      "passage": "On November 27, 2009, Woods crashed his car outside his home. Five days later he wrote that privacy was \"an important and deep principle\"",
+      "problem": "The draft's key test is what Woods did when his public image and private life split apart, but it never shows the split itself. A reader who doesn't already know the story is told about a car crash, then a privacy statement, then a televised confession. Nothing says the crash set off public reports of his affairs, or that the December 2 statement already admitted unspecified \"transgressions\" (S03). Nothing shows what the exposure cost him. His wife is never named, and the 2017 line about \"his former wife\" is the reader's only sign that the marriage ended. Without that context the reader cannot judge the stakes of the 2010 apology, the \"business partners\" line, or the claim that he was repairing an image.",
+      "acceptance_test": "Before or within the December 2 paragraph, one or two sourced sentences establish that the November 27 crash was followed by public reports of affairs and that the December 2 statement admitted \"transgressions\" without saying what they were (S03). The 2017 regret quote names Elin Nordegren (S07 context). The divorce is stated only with an opened source. No unsourced figures, such as numbers of women or lists of lost sponsors, are added."
+    },
+    {
+      "id": "unfamiliar-U02",
+      "severity": "minor",
+      "passage": "After a February 23, 2021, crash near Rancho Palos Verdes, California, which the sheriff attributed to unsafe speed, with no evidence of impairment and no citation",
+      "problem": "The reader is never told that the 2021 crash nearly cost Woods his leg. That is his own account in the opened source S40: \"damn-near there if I was going to walk out of that hospital with one leg.\" Two later lines depend on knowing it: \"I don't think I'll have the body to climb Mount Everest\" and Sam's \"We didn't know if you'd come home with two legs or not\" in the closing section. Without it the ending's emotional payoff is muted. Separately, the line \"The Eight explanation still answers the broken leg better\" reads as if it means 2021, not the 2008 torn ACL and stress fractures.",
+      "acceptance_test": "Before the Everest quote, the 2021 paragraph states how serious the leg injury was, in Woods' own sourced words (S40/S39). The Type 8 sentence names the 2008 U.S. Open injury, for example \"the 2008 U.S. Open\" rather than \"the broken leg\". A reader with no background can then explain Sam's \"two legs\" line from the article alone."
+    },
+    {
+      "id": "unfamiliar-U03",
+      "severity": "minor",
+      "passage": "There he said LIV's players had \"turned their back on what has allowed them to get to this position\" and asked, \"What is the incentive to go out there and earn it in the dirt?\"",
+      "problem": "LIV is never explained. The paragraph's conclusion, \"money not earned in competition doesn't count,\" only makes sense if the reader knows LIV paid players large sums up front. The opened source quotes Woods saying exactly that (\"What these players are doing for guaranteed money ... You're just getting paid a lot of money up front\", S15), but the draft leaves it out. \"PGA Tour stakeholder\" is also left vague. A reader in 2031 may not know what LIV was.",
+      "acceptance_test": "A short clause identifies LIV Golf as a rival league. The paragraph includes Woods' own \"guaranteed money\" or \"paid a lot of money up front\" wording from S15, so the link to the earning rule is visible in the quote rather than asserted. The stakeholder clause says concretely what his stake was, or is cut back to a sourced description."
+    },
+    {
+      "id": "unfamiliar-U04",
+      "severity": "minor",
+      "passage": "He has 82 PGA Tour wins, tied for the record, and 15 major championships, the 15th at the 2019 Masters",
+      "problem": "An unfamiliar reader never learns how dominant Woods was at his peak. The draft states two numbers without context: S71 says his 15 majors rank second all-time among men. The 1999–2008 prime is nearly absent. Later, Lavner's \"Nothing about the Tiger Slam\" uses a term the article never explains. Golf vocabulary also gets in the way: in 2006 \"the Open at Royal Liverpool\" sits beside \"the U.S. Open\" with nothing telling non-golf readers they are different tournaments. The thesis that he spent a career proving he deserved to be Tiger Woods needs the reader to feel the scale of the achievement.",
+      "acceptance_test": "The orientation paragraph says, with a source, that the 15 majors rank second all-time among men. Where Lavner's quote appears, \"Tiger Slam\" is either explained in a sourced clause or removed with an ellipsis that keeps Lavner's meaning. The first mention of the 2006 Open at Royal Liverpool tells the reader it is the British Open, not the U.S. Open."
+    },
+    {
+      "id": "unfamiliar-U05",
+      "severity": "minor",
+      "passage": "That July he won the Open at Royal Liverpool, his first major since his father's death and a month after missing his first major cut as a professional.",
+      "problem": "The most charged stretch of the story, 2006, is split across two sections in the wrong order. The reader first meets the missed cut and the tearful Open win here, with no cause given. Two sections later the same missed cut comes back as the result of a Navy SEAL training visit 15 days before the U.S. Open, after his father's burial. The article never connects the two mentions. As a result the tears lose the grief and searching that explain them, and the SEAL chapter loses its sporting consequence.",
+      "acceptance_test": "In one reading pass, an unfamiliar reader can put 2006 in order: Earl's death, the burial, the SEAL visit, the missed U.S. Open cut, the Open win and the tears. This is done by a cross-reference of a clause or less in either passage, without duplicating the SEAL material."
+    },
+    {
+      "id": "unfamiliar-U06",
+      "severity": "minor",
+      "passage": "His own words tie being deserving to earning results, and when his public image and private life split apart, he worked to repair the image.",
+      "problem": "The answer box, the first thing a skimming reader sees, is more certain than the body about who did the repairing. The body says \"There is no public record of what Woods himself said or decided; his representatives may have made the deal\" and uses \"Woods' side\" for 2007. FAQ 1 likewise says \"the record shows him repairing the image.\" The 2010 apology was his own act, so \"he\" is defensible for 2010, but the summary blurs the 2007 case. A reader who reaches the body's hedge may then distrust the summary.",
+      "acceptance_test": "The 60-word answer and FAQ 1 are attributed the same way the body is. Either they anchor the claim to the apology he personally delivered in 2010, or they say \"he and his camp\" so the 2007 deal is covered. The answer stays at 60 words or fewer."
+    },
+    {
+      "id": "unfamiliar-U07",
+      "severity": "minor",
+      "passage": "In Thompson's summary, people who spend several hours with him \"think he's aloof and weird, while people who hang around long enough to know him end up both loving him and being oddly protective.\"",
+      "problem": "Thompson's sentence in S17 begins: \"People who meet him for 30 seconds love him.\" The draft starts the quote after that clause. That makes coldness look like his first impression, and it props up the later line \"the coldness and temper cut against a Three's usual charm.\" Thompson actually describes three stages: brief contact brings charm, hours bring aloofness, long acquaintance brings loyalty. That is a more distinctive and more useful detail, because the brief-contact charm is what a Three reading would predict. The reader loses the most revealing part of the observation.",
+      "acceptance_test": "The quote includes the \"30 seconds love him\" clause from S17. The Type 8 section's statement about coldness and charm is adjusted to match: charm shows in brief contact and fades over hours."
+    },
+    {
+      "id": "unfamiliar-U08",
+      "severity": "minor",
+      "passage": "On May 29, 2017, about seven weeks after spinal fusion surgery, Woods was arrested for DUI in Jupiter, Florida.",
+      "problem": "Factual error. The fusion surgery was on April 19, 2017: ESPN's May 2017 arrest story says he had been \"undergoing back surgery on April 19\". The arrest came 40 days later, about six weeks, not seven. The error comes from the context note in the evidence record for S23/C29, not from any source text.",
+      "acceptance_test": "The passage says \"about six weeks\" or \"40 days\" after surgery, or gives the April 19, 2017 date, and cites an opened source that states the date. The C29 context in the evidence record is corrected to match."
+    },
+    {
+      "id": "unfamiliar-U09",
+      "severity": "minor",
+      "passage": "An Eight tends to own the appetite openly; a Five tends to leave the stage.",
+      "problem": "This is where the type section states its deciding test, and a reader new to the Enneagram cannot follow it. Nothing so far has introduced any appetite: the reader knows only about \"affairs\" and \"temptations,\" and the craving language comes four sections later. Type 3 gets a one-line definition. Type 8 is defined only in its own section later on, and Type 5 is never defined. So the reader meets the test before understanding the two types it compares.",
+      "acceptance_test": "The discriminator sentence says what an Eight would own, for example the affairs or the appetite behind them. Types 8 and 5 each get a short definition at first mention in this section, just as Type 3 does. A newcomer can restate the test in their own words after reading this section alone."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "It is the same rule both times: work earns results, and results make you deserving. In 2022 the rule explained a career. In 2010 it explained an exemption: \"I convinced myself that normal rules didn't apply.\"",
+      "reason": "A hook that pays off. It sets two of Woods' own speeches, 12 years apart, against each other and gives an unfamiliar reader the whole thesis in plain words. Every later section can be checked against it."
+    },
+    {
+      "passage": "It was a joke, and it was his: the public Tiger Woods as an outfit.",
+      "reason": "A distinctive, verified detail (the Halloween text), interpreted cautiously. It also shows Woods himself describing the gap between the man and the persona, which grounds the article's second thread."
+    },
+    {
+      "passage": "Seventy-nine days later he made a public confession on television.",
+      "reason": "A precise, checked interval (December 2, 2009 to February 19, 2010) that lets the contradiction with his own \"shouldn't have to mean public confessions\" speak for itself, without editorializing."
+    },
+    {
+      "passage": "The feeling waited until the result was in.",
+      "reason": "One sentence that turns a self-report (\"bottles things up\") and a sourced scene (the 2006 Open tears) into a memorable insight. Excellent pacing."
+    },
+    {
+      "passage": "Woods spent a career proving he deserved to be Tiger Woods. That night, briefly, he described it as something other people had given him.",
+      "reason": "The ending reverses the opening rule using his own \"team award\" words. It leaves the reader with a real unresolved contradiction instead of a verdict, and \"briefly\" keeps it honest."
+    }
+  ],
+  "assessment": "Read as someone new to Woods and to the Enneagram, the draft orients quickly and moves well. The 2010 and 2022 hook states a clear, checkable rule, the type answer comes early with medium confidence, and the strongest alternative is argued close to the main case. The \"What the type doesn't explain\" section treats the SEAL chapter and the coldness honestly. Momentum is strongest from the opening through the 2007–2010 section. The main gap is that the 2009 exposure, the event the deciding test depends on, happens offstage (U01). Golf context (U03, U04), the 2021 leg injury (U02) and the 2006 timeline (U05) also need a clause or two each for readers without background. The procedural detail of the 2026 arrest slows the run-up to the close, given that the section itself concludes the arrests say little about type; compressing it is optional and must keep both the exculpatory and the adverse facts. A reader comes away knowing the earn-and-deserve rule, the persona-as-costume thread, how the type was decided and what it leaves unexplained. Similarity advisory checked: the tripped pair with margaret-qualley shares only the ordinary phrase \"public record\", and the alexandr-wang pair is generic Type 5 vocabulary used for a different argument. I found no meaningful argument reuse. One factual error, the 2017 surgery-to-arrest interval, was checked against ESPN's May 2017 report (U08). Risks remain: sensitive allegations, contested typing and partly syndicated or second-hand sources."
+}

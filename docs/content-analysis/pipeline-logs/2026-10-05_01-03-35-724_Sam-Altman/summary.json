@@ -1,0 +1,38 @@
+{
+  "schema_version": 3,
+  "subject": "Sam-Altman",
+  "mode": "refresh",
+  "started_at": "2026-10-05T01:03:35.726Z",
+  "stages": {
+    "research": {
+      "status": "failed",
+      "started_at": "2026-10-05T01:03:39.472Z",
+      "cache_key": "d16b4f65a3ab02d9473487014c50651c1ff3fd9341f4c1f93386cb71c75a2342",
+      "input_hashes": {
+        "baseline": "c0575e9f1835bfccb0ce292cf6835877a75ad7876f97ec730f64b02ffbbe8244",
+        "research_notes": "35196cd8deff64f757edb196a0e10914b6e2d383dbf164949f6b6584f9714239",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "027b4aad69f14ec04ff1d9ebadc3772c9b88c48f01cc35f17b435a750655a654",
+        "command": "2fb89b06fb7ae4d5f77a7de81fee26e8c8c09a29ab923d201690a22794c29eac",
+        "standard": "7736ceed97b17a2f4842d47b58bad36a6526db61362ed5b83287be0954d281fb",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "ac14595ef7c7b8efea96d4ab762fab379cacfdb1d990264cbd64b3caefae8425"
+      },
+      "model": "CLI default",
+      "error": "Claude exited 1",
+      "finished_at": "2026-10-05T01:03:42.984Z",
+      "duration_seconds": 4
+    }
+  },
+  "baseline_sha256": "b9c84a549b79f9fb90e31d3f92cf9f3a6f09622d0669d5f867b0e2900c34cef3",
+  "materialized_sha256": "b9c84a549b79f9fb90e31d3f92cf9f3a6f09622d0669d5f867b0e2900c34cef3",
+  "expanded": false,
+  "run_status": "failed",
+  "editorial_status": "pending",
+  "current_stage": "research",
+  "error": "Claude exited 1",
+  "completed": false,
+  "person": "Sam-Altman",
+  "draft_path": "/Users/djwayne/9takes/src/blog/people/drafts/Sam-Altman.md",
+  "log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-05_01-03-35-724_Sam-Altman"
+}

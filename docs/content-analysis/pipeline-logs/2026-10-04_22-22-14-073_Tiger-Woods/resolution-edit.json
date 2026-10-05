@@ -1,0 +1,333 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Fixed. The type answer, FAQ 1 and FAQ 2 no longer attribute the 2007 trade to Woods. They rest on Michael Jordan's 2016 account (S17, C95/C122/C123/C124) and, in FAQ 1, on his own 2010 words. 'Why the Three reading still leads' says 'Nothing shows Woods made the 2007 deal', and the protected 2007 hedge is unchanged. The description never mentioned 2007."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Fixed. 'Private self-justification' is gone. The opening now says the halves are unequal evidence: 'the 2010 sentence was prepared and read after treatment, the 2022 one unscripted' (C127). The 2010 section calls it 'his account after treatment, read to a room, in treatment's words', cites his March 2010 'stripping away denial and rationalization' (S05), and says it 'may be the account therapy taught him to give' (C98). I did not write 'shaped by advisers' because no opened source documents adviser authorship. The parallel's weight now rests on the unscripted 2022 speech and on the type logic of how the rule was used."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Fixed. The 'chronic pain ... the record offers' sentence is deleted. 2017 is tied to his own medication explanation (S23, S24). For 2026 the article says his statement named no cause and the court filing described the treatment only in general terms (S48, S51), quotes 'seek treatment and focus on my health', and attributes the phone-and-radio account to the arrest affidavit (S49). C110 is added as interpretation/unresolved with a review trigger."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Fixed. 'Unchanged since 2009' and the pattern claim are deleted. The June 23, 2026 appearance is now described with the pending case and 'silence was ordinary legal caution' (S52, S49, S53). C35 was relabeled and removed from type_hypothesis.for_claim_ids."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Fixed. The breath test, the urine-test refusal and the pills are all attributed: 'According to the sheriff's office and the arrest affidavit'. The not-guilty plea is stated (S49, S53). The outcome is 'a plea to an amended charge of reckless driving', and the article stays neutral on plea type ('outlets differ on whether the plea was guilty or no contest')."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Fixed. 'Conceded the substance' is replaced. The 2010 pledge now 'fits the broader reports without confirming Williams' details'. The spitting and club claims stay attributed to Williams. The credibility note adds his 2011 racially charged remark at a caddie dinner (S22, not quoted) and Woods' 2011 reply ('life goes forward', S22)."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Fixed. The Fregia line and the father's-infidelity detail are cut. Jordan's 'no companion' / 'gonna have to trust somebody' is now framed as 'Jordan's worry was isolation', not as evidence of coldness (C44)."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Fixed. The December 11, 2009 written admission of 'infidelity' and the 'indefinite break from professional golf' are added from opened sources (S73, AP text; S74, Reuters). The 79-day sentence now reads 'Seventy-nine days after the privacy statement', so it no longer presents one jump."
+    },
+    {
+      "finding_id": "subject-09",
+      "action": "fixed",
+      "reason": "Fixed. 'About seven weeks' becomes 'a little over a month after spinal fusion surgery'. That matches Woods' 'just over a month' quoted by CBS (S23) and the April 20, 2017 surgery date (S72). C29 and the S23 context are updated."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Fixed. Using S06 (reopened) and S72, the passage now dates the ACL rupture to July 2007 in Woods' words ('I played on it with no ACL'). It quotes his choice of a cleanup 'because I wanted to play the next three major championships', then the double stress fracture. It adds 'No one outside his inner circle knew' and the announcement two days after the playoff. 'The case for Type 8' acknowledges the Three's foothold in 2008 (C102, C118)."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Fixed. The Buddhism lines now carry 'which my mother taught me at a young age' (S02). 'His own 2010 diagnosis' is removed. The paragraph calls it 'doctrine meant for everyone, so it is weak type evidence'. FAQ 2 no longer cites craving and impulse, and the Eight case no longer uses it as a pillar (C37)."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Fixed. The 1998 cost is stated ('struggled through 1998, winning just once', S08), and the 2004 rebuild after the Harmon split is dated (S27). 'Other evidence cuts the other way' lists the repeated public slumps as counterevidence that 'a One's standard or a Five's mastery explains at least as well' (C103, C104, C116)."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Fixed. The December 2 statement's admission of unnamed 'transgressions' and 'the behavior my family deserves' are quoted (S03). The December 11 admission and break are added (S73/S74). The 'deserves' reversal is used: 'By February, the verb would name what he thought he had earned' (C128)."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Fixed. Same correction as subject-09: 'a little over a month', from S23 and S72 (April 20, 2017)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Fixed. With dated sources, the article adds the April 2022 Masters cut about 14 months after the crash (S71), the April 2023 Masters withdrawal and ankle fusion, and the March 2025 Achilles rupture at 49 while ramping up training (S72) (C109). The 2022 and 2024 Opens were cut for length; TGL stays because it dates the 2026 arrest."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Fixed. '2 yards further back' is attributed to 'his own account'. The text says the committee gave a two-stroke penalty rather than disqualification, and quotes his acceptance (S11). The Faldo line is dropped, and the article says the 2013 episode 'doesn't settle' the One question. The One argument now rests on where the distress lands (C132)."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Fixed. Elin Nordegren is named in the orientation paragraph with the 2004 marriage and 2010 divorce (S71, C100). The 2017 quote names its source at the passage: 'his memoir The 1997 Masters: My Story', linked to ESPN (S07)."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Fixed with options (a) and (b). (a) The stated discriminator now rests on Jordan's 2016 account (S17, C95), observed six years after the apology rather than in a career-threatening crisis. Here an Eight (stops caring), a Five (detaches) and a One (inner critic) predict differently. It also rests on the 2010 achievement-as-license logic (C99). (b) The type section says the crisis sequence 'can't separate a Three from an Eight on its own'. It notes 'Nothing shows Woods made the 2007 deal' and that almost anyone would have asked to be believed in again. FAQs 1 and 2 match, 'twice' is gone, and confidence stays medium everywhere, including type_hypothesis."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Fixed. The 2010 line is described as his post-treatment public account, and the therapy-vocabulary alternative is named at the opening (C127) and in the 2010 section (C98). The rule is presented as the organizing thread: 'The rule itself proves little: Earl taught it, many athletes share it, and a One or an Eight could hold it as sincerely' (C117). The Three-specific use, achievement as license, is argued against the One and the Eight. The type answer and FAQ 1 rest on Jordan's account, not on the rule."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Fixed. The pain explanation is now attributed to his own 2017 account (S23, S24). For 2026 the article says his statement named no cause and the filing described the treatment only generally. 'Unchanged since 2009' is deleted. The pending case is named as the explanation for no questions. C35 was removed from for_claim_ids, and the prose no longer gives the arrests any type weight (C110, C111)."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Fixed. The timing is corrected to 'a little over a month' (S23). The plea is now 'entered a diversion program; prosecutors said he would plead guilty to reckless driving', matching S24. Lavner's 'Nothing about the Tiger Slam' is relinked to the Golf Channel article (S12, opened at its NBC Sports mirror because golfchannel.com returns 403). 'Nearly 17' is Golf Channel's figure; the PGA Tour's 'approximately 15' is not used."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Fixed. The committee ruling and Woods' acceptance are added from S11, and the Faldo framing is removed. The text now says a One under strain can grant himself a private exemption, so 'normal rules didn't apply' doesn't settle it. The One gets a stated discriminator: a One's torment is usually the inner critic, while Jordan describes torment over what people say (C94, C132)."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Fixed. 'Sought golf's largest stage' is removed, and the text says 'playing the biggest tournaments is simply the job'. The Five rebuttal now rests on appetite ('deserved to enjoy all the temptations around me') and on attention to strangers' commentary (Jordan via Thompson) (C81, C125)."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Fixed. The line now reads 'It echoes what unnamed friends told one reporter and Woods' own costume joke: resemblance, not independent proof.' The 2007 trade is no longer offered as corroboration (C93)."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Fixed. The text notes the December 2 statement's 'transgressions' (S03) and adds the December 11 admission (S73/S74). The televised statement now follows a two-stage written sequence instead of reading as one reversal."
+    },
+    {
+      "finding_id": "unfamiliar-U01",
+      "action": "fixed",
+      "reason": "Fixed. The December 2 paragraph quotes the admission of unnamed 'transgressions' (S03). A Reuters-sourced clause establishes 'two weeks of reports about women who said they had been involved with him' after the crash (S74), with no counts or names. Elin Nordegren is named, and the 2010 divorce comes from opened S71."
+    },
+    {
+      "finding_id": "unfamiliar-U02",
+      "action": "fixed",
+      "reason": "Fixed. Before the Everest quote the 2021 paragraph adds his own words: 'damn-near there if I was going to walk out of that hospital with one leg' (S40). That sets up Sam's 'two legs' line. 'The broken leg' in the Three section now reads 'the 2008 U.S. Open'."
+    },
+    {
+      "finding_id": "unfamiliar-U03",
+      "action": "fixed",
+      "reason": "Fixed. LIV is identified as 'a rival league whose players, he said, were \"getting paid a lot of money up front\"' (S15), so the earning link is visible in his words. The vague stakeholder clause is cut."
+    },
+    {
+      "finding_id": "unfamiliar-U04",
+      "action": "fixed",
+      "reason": "Fixed. 'Only one man has won more majors' (S71, C114). The Tiger Slam is explained as 'his four straight major titles in 2000 and 2001' (S71, C113). The 2006 Open is introduced as 'the British Open at Royal Liverpool'."
+    },
+    {
+      "finding_id": "unfamiliar-U05",
+      "action": "fixed",
+      "reason": "Fixed. The Open paragraph now reads 'A month earlier, after the SEAL detour described below, he had missed his first major cut as a professional', so the 2006 order can be followed in one pass without duplicating the SEAL material."
+    },
+    {
+      "finding_id": "unfamiliar-U06",
+      "action": "fixed",
+      "reason": "Fixed. Same as subject-01. The answer box and FAQ 1 rest on Jordan's account and the 2010 words, never on the 2007 deal, and the answer is 56 words."
+    },
+    {
+      "finding_id": "unfamiliar-U07",
+      "action": "fixed",
+      "reason": "Fixed. The quote now includes 'People who meet him for 30 seconds love him' (S17), and the text adds 'The first is what a Three predicts; the second is not.' The confidence sentence now speaks of 'the aloofness people report once a first meeting is over' instead of coldness against charm."
+    },
+    {
+      "finding_id": "unfamiliar-U08",
+      "action": "fixed",
+      "reason": "Fixed. Same as subject-09: 'a little over a month', with S72 giving April 20, 2017. Woods' own statement (S23) gives 'just over a month'."
+    },
+    {
+      "finding_id": "unfamiliar-U09",
+      "action": "fixed",
+      "reason": "Fixed. The type section defines the Eight (strength and control), the Five (privacy and competence) and the One (being right) at first mention, alongside the Three. It states the test concretely: what a public humiliation does to him once it is over, with what each type would likely do. The old 'own the appetite' test, which preceded any appetite in the text, was replaced."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Fixed. (a) The 2007 trade is weighted as his camp's act ('Nothing shows Woods made the 2007 deal'). (b) The December 2009 'stick to that principle even though it's difficult' refusal is quoted (S03) and named as counterevidence, 'closer to an Eight holding a line or a Five closing a door' (C129). The edit does not claim the later confession is diagnostic. It concludes the crisis sequence 'fits a Three without proving one' and moves the discriminator to incentive-independent evidence, as enneagram-02 suggests. (c) The 'dare people to object' caricature is removed. FAQ 1 no longer says 'the record shows him repairing the image'."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Fixed. 'Why the Three reading still leads' quotes Thompson's paraphrase of Jordan's worry ('so haunted by his public shaming...'), the 'Rabbit Ears' / 'He hears everything' gloss, and Jordan's direct 'That bothers him more than anything ... He wants to erase the things that happened' (S17, reopened 2026-10-04). Narration is separated from testimony. The limits are stated: one friend, one reporter, Woods' camp declined to comment, and it could be Six-style rumination or plain shame. C95 was added with the exact passage."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Fixed. 'The second is how he used the rule' says what separates the types. For a One, deserving is moral and binds tighter; an Eight's appetite rarely needs a ledger; the 2010 account turns achievement into a personal license (C99). The LIV and Hall of Fame recurrences are labeled as showing 'only that he means it' and 'proves little' (C117)."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Fixed. 'Textbook Eight line' is removed. The 2004 episode is presented as reading both ways: 'the complaint was that the criticism went public, which bothers a Three as much' (C106). Harmon's '\"I am close ...\" \"might be a bit of denial\"' is quoted with his role as a TV commentator (S27, C105)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Fixed. Same as critic-06. The 'largest stage' clause is replaced with 'playing the biggest tournaments is simply the job'. The Five rebuttal rests on the 2009 appetites and on Jordan's account of preoccupation with what is said about him."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Fixed. A new paragraph tests both. Six fits the father's code and slow trust, but 'Sixes are marked by doubt and a search for trusted authority, and Woods answered his doctors with \"Ah, I don't know about that\"' (S06). Seven fits the 2009 temptations 'not decades of hands-bleeding practice' (S13) (C112)."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Fixed. The Three-over-Eight call no longer rests on sponsor protection. It rests on Jordan's account (C95) and the 2010 achievement-as-license logic (C99). The one-line type aphorisms ('a Five tends to leave the stage', 'own the appetite openly') are replaced with what each type would likely do after a public humiliation. The disclaimer is reworded, which also removes the 'the public record' phrase that tripped the similarity check."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Fixed. The sentence is narrowed to the dated observation: the June 23, 2026 prepared statement with no questions, 'at a time when his case was pending and silence was ordinary legal caution'. 'Unchanged since 2009' is dropped, and C35 is relabeled and removed from for_claim_ids. With every 2026 sentence deleted, the type section and 'Why the Three reading still leads' read the same."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Fixed. One sentence now says the 2026 retreat 'looks as much like a Five's withdrawal as a Three's repair' and names what could move the reading. C111 is added as an unresolved interpretation whose review_trigger requires re-testing the 3-vs-5 call (and confidence) after an unscripted interview about the treatment, a return, or retirement. A matching OPEN research task was added. 2026 is not counted as Three evidence."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Fixed. Same as subject-03. The chronic-pain sentence is deleted, and the article does not choose between pain and dependence. 2017 is attributed to his own words. For 2026 the article states only that his statement named no cause and the filing was general. C110 is class interpretation, durability unresolved, with the trigger 're-check if Woods, his representatives or court records describe the cause ... or the nature of the treatment'."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Fixed. The 2026 material is compressed into one paragraph plus one interpretive paragraph. The affidavit details are labeled as the sheriff's and affidavit's account and are followed directly by the not-guilty plea and the plea to an amended reckless-driving charge. The plea type is left unspecified ('outlets differ'). The Ryder Cup captaincy stays because it is part of the withdrawal that C111 tests. The 'As of' line is deleted, and the cause sentence is phrased as a completed dated fact so it survives a return, retirement or treatment interview."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Fixed. 'As of October 4, 2026, he had not returned to competition' is deleted, and C70 is retired. The closing section does not depend on his playing status."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Fixed. The undated superlative 'the clearest statement he has made' is gone. The sentence now reads 'That is the rule loosening, and \"had to\" is the phrase worth noticing', tied to the dated November 2021 quote."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "There is no public record of what Woods himself said or decided; his representatives may have made the deal. What the record shows is the trade: a published picture of a fit, married man for an unpublished one.",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by subject, critic). Its contribution stands in the edited article. The summaries and the type discriminator were brought into line with this hedge (subject-01, critic-01, enneagram-01)."
+    },
+    {
+      "passage": "He had spent 45 days in inpatient therapy for what he called only \"the issues I'm facing.\"",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by subject). Its contribution stands in the edited article."
+    },
+    {
+      "passage": "which the sheriff attributed to unsafe speed, with no evidence of impairment and no citation",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by subject). Its contribution stands in the edited article."
+    },
+    {
+      "passage": "Haney later said, \"He wanted to be a Navy SEAL. For sure that was on his list\"; Woods' agent, Mark Steinberg, said Haney had twisted Woods' \"high respect for the military\"",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by subject). Its contribution stands in the edited article."
+    },
+    {
+      "passage": "None of this proves a type. A child put on television at two, called the Chosen One and taught that results answer exclusion could build his identity around performance whatever his core motive.",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by subject). Its contribution stands in the edited article."
+    },
+    {
+      "passage": "It is the same rule both times: work earns results, and results make you deserving. In 2022 the rule explained a career. In 2010 it explained an exemption: \"I convinced myself that normal rules didn't apply.\"",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by fan, unfamiliar, enneagram, future). Its contribution stands in the edited article."
+    },
+    {
+      "passage": "It is a funny story, and an early version of a skill that returns in this profile: staying out of sight until it is time to play.",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by fan). Its contribution stands in the edited article."
+    },
+    {
+      "passage": "It was a joke, and it was his: the public Tiger Woods as an outfit.",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by fan, unfamiliar, future). Its contribution stands in the edited article."
+    },
+    {
+      "passage": "The SEAL chapter may say more about whose son he was than about his type.",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by fan, future). Its contribution stands in the edited article."
+    },
+    {
+      "passage": "Woods spent a career proving he deserved to be Tiger Woods. That night, briefly, he described it as something other people had given him.",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by fan, unfamiliar, enneagram, future). Its contribution stands in the edited article."
+    },
+    {
+      "passage": "That is her interpretation, from someone with her own reasons to explain the affair.",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by critic). Its contribution stands in the edited article."
+    },
+    {
+      "passage": "He won after an 18-hole playoff and a sudden-death hole against Rocco Mediate. That scene is the Eight reading's best evidence, and it returns below.",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by critic). Its contribution stands in the edited article."
+    },
+    {
+      "passage": "This is the hardest stretch for a Three reading: a dangerous arena with no gallery and no golf payoff, pursued at real cost after his father's death.",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by critic, enneagram). Its contribution stands in the edited article."
+    },
+    {
+      "passage": "Williams was fired in 2011 and had a book to sell, but Woods conceded the substance in 2010: \"I need to make my behavior more respectful of the game.\" A Three usually polishes visible conduct. For years, Woods let this show.",
+      "action": "changed",
+      "reason": "Changed to fix subject-06: 'conceded the substance' overstated a general 2010 pledge as an admission of Williams' 2015 specifics. The passage's contribution is kept. It still discounts a hostile witness, now more fully (2011 racially charged remark and Woods' 2011 reply, S22). It still relates his own 2010 words accurately: 'fits the broader reports without confirming Williams' details'. And it still counts the temper against the author's thesis, with 'A Three usually polishes visible conduct. For years, Woods let this show.' verbatim."
+    },
+    {
+      "passage": "Seventy-nine days later he made a public confession on television.",
+      "action": "changed",
+      "reason": "Changed because the December 11, 2009 written admission (subject-08, fan-04, critic-08) now sits between the privacy statement and the televised confession, so 'later' would have measured from the wrong date. The checked interval and the contrast with 'shouldn't have to mean public confessions' are kept: 'Seventy-nine days after the privacy statement, he made a public confession on television.'"
+    },
+    {
+      "passage": "The feeling waited until the result was in.",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by unfamiliar). Its contribution stands in the edited article."
+    },
+    {
+      "passage": "It was a joke, and it was his: the public Tiger Woods as an outfit. Thompson's narration goes further: \"it starts to seem like he's doing an impersonation of what he thinks a superstar athlete is supposed to be.\" That is a reporter's synthesis, and it reads two ways. For a Three, the impersonation is the point, a self assembled to look like success. For a Five, the introvert with a book is the real man and the superstar a costume the money required.",
+      "action": "kept",
+      "reason": "Kept verbatim (protected by enneagram). Its contribution stands in the edited article."
+    },
+    {
+      "passage": "The Eight explanation still answers the broken leg better, and the coldness and temper cut against a Three's usual charm. That is why confidence is medium.",
+      "action": "changed",
+      "reason": "Changed for unfamiliar-U02 ('the broken leg' read as 2021) and unfamiliar-U07 (Thompson's 30-second charm undercuts 'coldness vs charm'). The calibrated confidence and the named failures of the leading type are kept: 'The Eight explanation still answers the 2008 U.S. Open better, and the temper, along with the aloofness people report once a first meeting is over, cuts against a Three's usual polish. That is why confidence is medium.'"
+    }
+  ],
+  "prior_blockers": []
+}

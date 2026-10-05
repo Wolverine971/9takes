@@ -195,24 +195,4 @@
 		height: 500px;
 		max-width: 1000px;
 	}
-
-	.action-buttons {
-		display: flex;
-		justify-content: space-between;
-	}
-
-	#fly-to,
-	#change-zoom {
-		display: block;
-		position: relative;
-		margin: 0px auto;
-		height: 40px;
-		padding: 10px;
-		border: none;
-		border-radius: 0.625rem;
-		font-size: 12px;
-		text-align: center;
-		color: #fff;
-		background: #ee8a65;
-	}
 </style>

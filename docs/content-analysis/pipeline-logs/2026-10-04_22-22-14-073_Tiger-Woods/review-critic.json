@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "44f07324e87e41ba588425c1592316847261a8ec4f437e8c3a66a6d8a2683a03",
+  "evidence_sha256": "14bc405fbd058ff9db7d223e7741f254b0c16c30ecfec1ee22e543de1cd5fb05",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "Under exposure, an Eight's move is to own it and dare people to object. Woods' side did the opposite, twice: in 2007 a cleaner picture went out while a contradicting one stayed buried, and in 2010 he asked to be believed in again.",
+      "problem": "The discriminator compares Woods with a counterfactual almost no public figure of any type acts out: defiantly owning serial adultery while married with two small children, a billion-dollar endorsement portfolio and a tour behind him. Both data points are confounded. For 2007, the draft has already conceded \"There is no public record of what Woods himself said or decided; his representatives may have made the deal\" (HuffPost, summarizing WSJ and NY Post, names only \"Mr. Woods' representatives\"; Fox's report of Pecker's testimony does not say whom he dealt with). Here it is nonetheless counted as Woods' own move. The 2010 statement, which the draft itself says \"owns the behavior plainly\", was prepared and read to friends, colleagues, sponsors and foundation staff after 45 days of inpatient treatment. Any type would make the same move under those conditions. So the test cannot separate a Three from an Eight, yet it is the only stated reason the Three outranks the Eight (\"The deciding question...\"). Medium confidence currently rests on a discriminator the Eight could not have passed.",
+      "acceptance_test": "Either (a) add at least one opened-source observation attributable to Woods himself, outside a career-threatening crisis, where a Three and an Eight predict different behavior and commercial or legal incentive does not explain the difference, and make it the stated discriminator; or (b) say plainly in the type section and in FAQ answers 1 and 2 that the 2007 and 2010 evidence is confounded by representatives and incentives, and lower or qualify confidence consistently across the body, FAQs and type_hypothesis. In either case, stop counting 2007 as something Woods did (\"twice\") unless a source shows his personal role."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "The rule about deserving also recurs where the incentives differ: the private self-justification in 2010, the Hall of Fame speech, and a press conference at St Andrews four months later.",
+      "problem": "The title, meta_title, description and opening all rest on one causal story: an earned-equals-deserving rule built the career and then licensed the affairs (\"The rule that built the career had become a license\"). The only evidence for the 2010 half is a prepared statement read publicly (S01/S02) immediately after 45 days of inpatient therapy. Its words (\"entitled\", \"convinced myself\") match the accountability vocabulary the draft itself quotes a month later (\"stripping away denial and rationalization\"). Calling it \"the private self-justification\" relabels a public, post-treatment retrospective account as his contemporaneous private reason. The draft rebuts only the sponsor alternative (\"not obviously written for sponsors\"); it never names the therapy-script alternative its own evidence record lists (C01, C53, C79). The rule is also not shown to be distinctively Three. Woods attributes it to Earl (S14), it is a common elite-athlete meritocratic ethic, and \"I worked hard, so I earned an indulgence\" fits a One's or an Eight's entitlement logic at least as well as a Three's need to be valued. Yet the type section treats it as its first piece of Three evidence (\"His own words tie being deserving to earning results\").",
+      "acceptance_test": "The prose describes the 2010 line as his post-treatment public account, not a \"private self-justification\". It names the therapy-vocabulary alternative near the opening parallel or in the 2010 section. It then either shows, with sourced behavior, why the deserving rule points to Three rather than One, Eight or a shared athlete ethic, or presents the rule as the profile's organizing thread rather than as type evidence. Neither the type-section answer nor FAQ 1 may rest on the rule alone."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "The likeliest explanation for both arrests is the one the record offers: chronic pain after years of spinal surgery. They say little about type. What they show is a way of handling exposure unchanged since 2009",
+      "problem": "Two unsupported moves in a sensitive medical and legal passage. (1) \"The one the record offers\" presents an author inference as the record. For 2017, Woods himself cited back pain and insomnia (NBC News, August 15, 2017). For 2026, his statement names no condition and speaks of \"lasting recovery\" (PGA Tour, March 31, 2026); the affidavit as reported by Fox records only that he referenced prior surgeries during field tests. (2) \"Unchanged since 2009\" contradicts the draft's own record. A month after the 2010 statement he gave the ESPN and Golf Channel interviews the draft quotes (ESPN, March 21, 2010). On April 5, 2010 he took questions for about 36 minutes at Augusta (CNN transcript, https://www.cnn.com/2010/US/04/05/tiger.woods.transcript/index.html; not in the evidence file). In 2017 and in June 2026 he faced pending criminal cases, and \"prepared statement and no questions\" is standard defence-counsel advice. ESPN gives no reason he declined questions. The evidence record also lists this pattern (C35) among the claims supporting Type 3, while the prose says the arrests \"say little about type\". So the passage feeds the image-management thesis while disclaiming that it does.",
+      "acceptance_test": "Attribute the pain explanation to its sources: his own 2017 account of back pain and insomnia, and the affidavit's reference to prior surgeries. State that the nature of the 2026 treatment was not disclosed. Delete \"unchanged since 2009\" or reconcile it with the March 2010 interviews and the April 2010 Augusta press conference. Name the pending-case explanation for declining questions. Then either remove C35 from type_hypothesis.for_claim_ids or argue its type relevance openly in the prose."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "On May 29, 2017, about seven weeks after spinal fusion surgery, Woods was arrested for DUI in Jupiter, Florida.",
+      "problem": "Factual error against the cited source. The CBS Sports report (S23) quotes Woods' own statement that day: \"It has been just over a month since I underwent fusion surgery on my back.\" The fusion was in late April 2017, so \"about seven weeks\" is wrong. Two citation mismatches nearby: (a) \"pleaded guilty to reckless driving\" is cited to NBC News of August 15, 2017, which reports only that he had agreed to a diversion program and was expected to plead guilty when he returned to court in October; (b) in the closing section, Ryan Lavner's \"Nothing about the Tiger Slam...\" line is attributed to Golf Channel's Lavner but linked to the PGA Tour article (Sean Martin), which does not contain it. The line is in S12. The PGA Tour piece also gives the speech as \"approximately 15 minutes\", not 17.",
+      "acceptance_test": "Change the timing to \"just over a month after\" to match S23, and update C29. Cite a source that reports the October 2017 guilty plea, or write \"agreed to plead guilty to reckless driving\". Relink the Lavner quotation to the Golf Channel article (S12)."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "At the 2013 Masters, after an illegal drop \"2 yards further back\" cost him two strokes, he kept playing despite Nick Faldo's call to \"sit down and think about this\"",
+      "problem": "As written, the sentence implies he defied an obligation to withdraw. The cited ESPN report (S11) shows that the Masters committee waived disqualification under Rule 33 and allowed him to continue. It also shows that Woods said \"I understand and accept the penalty and respect the Committees' decision.\" Faldo's remark was a commentator's opinion. Leaving this out is unfair to the subject, and it misrepresents what the anecdote can say against Type 1. The companion line, \"a One rarely says 'normal rules didn't apply'\", is also thin. The draft's own story is a strict rule-keeper privately granting himself an earned exemption, and that is a recognized One stress pattern. So the One is dismissed on weaker evidence than the draft demands elsewhere.",
+      "acceptance_test": "Add the committee ruling and Woods' acceptance from S11, or cut the 2013 example. Give the One alternative one fair, sourced discriminator, or state that the 2010 line does not by itself rule the One out."
+    },
+    {
+      "id": "critic-06",
+      "severity": "minor",
+      "passage": "But a Five usually minimizes appetite and avoids spectacle. Woods sought golf's largest stage for three decades and kept returning after injuries that would have ended most careers.",
+      "problem": "Playing the majors is the job of the world's best golfer, not a voluntary bid for spectacle. Returning from injury is equally explained by the \"need for competition\" he names (S07), by the Eight's refusal to yield to the body, or by commitment to a mastered domain, which suits a Five. Outside competition, the draft's own evidence points the other way: \"left alone to read a book\", \"one of the most guarded athletes in history\", statements without questions. The Three's lead over the Five rests on this one sentence.",
+      "acceptance_test": "Name at least one sourced behavior beyond what competing requires where a Three and a Five predict differently (for example, voluntary persona or publicity work he did not need), or say in the prose that stage-seeking does not exclude the Five."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "It carries weight only because it matches things said independently: the friends' \"isn't that marketable,\" his costume text, the 2007 trade.",
+      "problem": "The claimed independence is overstated. Two of the three corroborators come from one reporter's 2016 piece: the unnamed friends and the costume text relayed by Thompson. The third, the 2007 deal, is something the draft itself says may not have been Woods' own act. The friends' line is about marketability, not fear of failing the image, and the draft says the costume joke \"reads two ways\". These are thematically related, not independent confirmation of the fear Uchitel attributes to him.",
+      "acceptance_test": "Reword to something like \"it echoes what unnamed friends told one reporter\", and drop the 2007 trade as corroboration of Woods' inner fear. Alternatively, add a named source independent of Thompson."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "Seventy-nine days later he made a public confession on television.",
+      "problem": "The juxtaposition reads as a clean reversal from \"no public confessions\" to confession. But the December 2, 2009 statement it quotes (S03) already said \"I have let my family down and I regret those transgressions with all of my heart\", and a December 11 statement (S04, unopened) reportedly admitted infidelity. Admission and the privacy principle coexisted from the start. That weakens the picture-first-then-confess pattern the draft builds on.",
+      "acceptance_test": "Note in the prose that the December 2 statement itself admitted \"transgressions\" (S03), or rephrase so the televised statement is described as a fuller, televised account rather than a reversal."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "There is no public record of what Woods himself said or decided; his representatives may have made the deal. What the record shows is the trade: a published picture of a fit, married man for an unpublished one.",
+      "reason": "An honest statement of the inference limit on the most tempting piece of Three evidence. Keep it, and make the later discriminator consistent with it (critic-01) instead of weakening this hedge."
+    },
+    {
+      "passage": "That is her interpretation, from someone with her own reasons to explain the affair.",
+      "reason": "Labels an interested witness's psychological claim as interpretation, at the passage itself, and names her motive. This is the right handling of adverse and sensitive testimony."
+    },
+    {
+      "passage": "He won after an 18-hole playoff and a sudden-death hole against Rocco Mediate. That scene is the Eight reading's best evidence, and it returns below.",
+      "reason": "Gives the strongest counterevidence its full force in the narrative and flags it, instead of burying it in the alternative-type section."
+    },
+    {
+      "passage": "This is the hardest stretch for a Three reading: a dangerous arena with no gallery and no golf payoff, pursued at real cost after his father's death.",
+      "reason": "A rare, explicit admission that the leading type fails on a costly, well-sourced behavior, alongside grief and a father's code as non-type explanations. This is the kind of unresolved contradiction the standard asks for."
+    },
+    {
+      "passage": "Williams was fired in 2011 and had a book to sell, but Woods conceded the substance in 2010: \"I need to make my behavior more respectful of the game.\" A Three usually polishes visible conduct. For years, Woods let this show.",
+      "reason": "Discounts a hostile witness, corroborates it with the subject's own words, and then lets it count against the author's own thesis. This is fair-minded adverse-evidence handling."
+    }
+  ],
+  "assessment": "On adverse evidence, the draft is unusually candid. It gives the 2008 U.S. Open, the temper, the coldness, the SEAL chapter and Woods' own \"craving\" diagnosis to the alternatives in plain view. It discounts Uchitel, Williams and Haney for their interests, and it keeps confidence at medium. Its weakness is the attractive causal story at its centre. The \"earn it, deserve it\" rule is presented as the same rule that built the career and licensed the affairs, and as Three evidence. But its 2010 half is a prepared, post-treatment public statement (critic-02). The discriminator that puts Three ahead of Eight counts a 2007 deal the draft concedes may not have been his, together with crisis behavior any type would show (critic-01). The case for Three may still be right, but as written it is asserted more firmly than it is tested. Fix the discriminator or lower confidence before verification. Spot checks: S01/S02 (via the Globe and Mail; CNN returned 451), S03, S09, S10, S11, S13, S14, S17, S18, S23, S24, S47, S48, S49, S52 and S53 were opened and match the draft's quotations, except the 2017 surgery timing (critic-04) and the Lavner citation. S12 (Golf Channel) returned 403 and was checked only against the evidence excerpt. Similarity advisory: the tripped pair with margaret-qualley shares only the hedge phrase \"the public record\", and the Five/Eight \"tends to\" sentences use ordinary type vocabulary. After comparing the arguments, I found no meaningful reuse. Risk flags stay raised: the draft covers affairs, DUI arrests, sworn tabloid testimony and family infidelity (sensitive); Three, Eight and Five are all live (contested); and key testimony is decades-old recall, unnamed friends or syndicated copies (historical source uncertainty). If critic-01 leads to a different leading type, major_thesis_change should be re-flagged and the six roles rerun."
+}

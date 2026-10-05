@@ -1,0 +1,2613 @@
+{
+  "schema_version": 3,
+  "subject": "Tiger-Woods",
+  "status": "ready",
+  "research_tasks": [
+    "RESOLVED at draft (2026-10-04): Hall of Fame wording checked against the ASAP Sports transcript (S14). Draft quotes use ASAP wording, and 'instilled in me this work ethic' is attributed to his father.",
+    "RESOLVED at draft: Earl's 'Chosen One ... Nations' line is corroborated by Slate 2000 (S70). Tiger's 'This is my purpose. It will unfold.' remains verified only by an unauthorized reproduction (S56) and is NOT used.",
+    "RESOLVED at draft: the Greg Norman LIV-offer claim (S16, formerly C11) was dropped.",
+    "RESOLVED at edit (2026-10-04): 2008 injury timeline corrected from S06 (reopened) and S72: ACL ruptured July 2007 and played on; cleanup chosen after the 2008 Masters; double stress fracture before the U.S. Open; disclosed two days after the playoff.",
+    "RESOLVED at edit: the December 11, 2009 statement is now sourced from an opened copy (S73, AP text via The Press Democrat) plus Reuters (S74); S04 (CNN, 451) stays unused.",
+    "RESOLVED at edit: the 2017 surgery-to-arrest interval corrected to 'a little over a month' (S23 quotes Woods: 'just over a month'; S72 dates the fusion April 20, 2017).",
+    "RESOLVED at edit: Golf Channel (S12) returned 403 to reviewers; reopened at the NBC Sports mirror of the same article and relinked. Lavner's 'Nothing about the Tiger Slam' line is now linked to S12, not the PGA Tour piece (S13).",
+    "RESOLVED at edit: Michael Jordan's 'public shaming'/'Rabbit Ears'/'erase' passage verified in S17 (reopened); Thompson's paraphrase and gloss are separated from Jordan's direct quote in the prose.",
+    "RESOLVED at edit: the relay-only November 2021 Golf Digest line ('never full time, ever again—but pick and choose', S39) was cut; the Everest and leg quotes rest on S40.",
+    "OPEN: the 2026 plea type conflicts (ABC 'no contest' vs CBS 'guilty', S53/S54). The article says outlets differ. Pin it from court records before specifying.",
+    "OPEN: the 2025 disc-replacement date and the 'seventh back surgery' count (S45 unopened) are not used.",
+    "OPEN (type trigger, C111): re-test the Type 3 vs Type 5 call when Woods gives an unscripted interview about the 2026 treatment, returns to competition, or formally retires from tour play.",
+    "Do not use the circulating lines 'the control I craved', 'addicted to staying on the range', Kultida's 'kill them' (S67), Harmon's 'win by 10', 'Second sucks', the Rinaldi 'life of a lie' variant (unpinned wording), or Nike's 'Winning takes care of everything' as a Woods quote (S34).",
+    "RESOLVED at repair (2026-10-04): S17 full text reopened. The 'marketable ... read a book' and 'natural introvert' lines are one continuous quotation from a single unnamed friend; body, FAQ 3, the Uchitel paragraph, the opening and C12/C91/C93 now say one friend (V-01).",
+    "RESOLVED at repair: Thompson's bridge ('this dwelling on old mistakes is a path to madness. Nothing can take him back to 2006 and give him a second chance') is now quoted before Jordan's 'That bothers him'; 'wants the record erased' and 'can't stop reading it' were replaced; the One rebuttal concedes regret fits a One (V-02; C81, C95, C130, C132, C133, C136).",
+    "RESOLVED at repair: S10 reopened; the WSJ, citing people directly involved, reported that Woods agreed to the 2007 shoot and that his reps made the offer. The article now says so and limits the gap to a first-hand account (V-03; C56, C80, C138).",
+    "RESOLVED at repair: NPR (S75, Mike Pesca, 2010-02-19) opened for the TPC Sawgrass venue and 'no questions were allowed'; linked at the hook and cited in C126/C134 (V-04). The suggested MPR/AP copy was opened but its current text lacks the no-questions line.",
+    "RESOLVED at repair: the 2021 crash location now follows the cited ESPN report, 'Rolling Hills Estates, just outside Los Angeles' (V-05; C32)."
+  ],
+  "accuracy_checked_at": "2026-10-04",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://edition.cnn.com/2010/US/02/19/tiger.woods.transcript/",
+      "title": "Tiger Woods' apology: Full transcript",
+      "speaker": "Tiger Woods (prepared statement at TPC Sawgrass), transcript via CNN",
+      "date": "2010-02-19",
+      "locator": "Full transcript, opened and read end to end. Key passages: opening ('always tried to be a private person'); infidelity/entitlement paragraph; 'it's not what you achieve in life that matters'; role-model apology; 45 days inpatient therapy; privacy/children paragraph; Buddhism paragraph; return-to-golf paragraph; closing ask.",
+      "excerpt": "I want to say to each of you, simply, and directly, I am deeply sorry for my irresponsible and selfish behavior I engaged in. / And while I have always tried to be a private person, there are some things I want to say. / My behavior has caused considerable worry to my business partners. / I was unfaithful. I had affairs. I cheated. What I did is not acceptable. And I am the only person to blame. I stopped living by the core values that I was taught to believe in. I knew my actions were wrong. But I convinced myself that normal rules didn't apply. I never thought about who I was hurting. Instead, I thought only about myself. I ran straight through the boundaries that a married couple should live by. I thought I could get away with whatever I wanted to. I felt that I had worked hard my entire life and deserved to enjoy all the temptations around me. I felt I was entitled. Thanks to money and fame, I didn't have far -- didn't have to go far to find them. I was wrong. I was foolish. I don't get to play by different rules. / I once heard -- and I believe it is true -- it's not what you achieve in life that matters, it is what you overcome. Achievements on the golf course are only part of setting an example. Character and decency are what really count. Parents used to point to me as a role model for their kids. I owe all of those families a special apology. / For 45 days, from the end of December to early February, I was in inpatient therapy, receiving guidance for the issues I'm facing. / I have always tried to maintain a private space for my wife and children. They have been kept separate from my sponsors, my commercial endorsements / Buddhism teaches that a craving for things outside ourselves causes an unhappy and pointless search for security. It teaches me to stop following every impulse and to learn restraint. Obviously, I lost track of what I was taught. / When I do return, I need to make my behavior more respectful of the game. / I ask you to find room in your hearts to one day believe in me again.",
+      "context": "A scripted, televised statement read to an invited room of friends, staff, sponsors' representatives and pool reporters, with no questions taken. Delivered 84 days after the 2009-11-27 crash outside his home and 79 days after his 2009-12-02 written statement that problems 'shouldn't have to mean public confessions' (S03). The statement was a public-relations event as well as a confession; its self-analysis uses therapy vocabulary. It names no diagnosis: 'the issues I'm facing' is the only treatment language, so any 'sex addiction' label is not established by his words. The Globe and Mail transcript (S02) matches this wording; AJC's live-typed copy is rougher and should not be quoted. Edit stage (2026-10-04): the CNN copy returned HTTP 451 to several reviewers; the article now links the matching Globe and Mail copy (S02) and keeps CNN in citations. The room is described in S02 as friends, colleagues, supporters and foundation staff; the edit no longer asserts that sponsors' representatives were present.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.theglobeandmail.com/news/world/transcript-tiger-woods-apologizes/article4306934/",
+      "title": "Transcript: Tiger Woods apologizes",
+      "speaker": "Tiger Woods (same 2010-02-19 statement), transcript in The Globe and Mail",
+      "date": "2010-02-19",
+      "locator": "Infidelity/entitlement paragraph; 45-day therapy paragraph; business-partners and role-model sentences; Buddhism paragraph ('which my mother taught me at a young age'); 'core values'; 'respectful of the game'; closing ask (reopened 2026-10-04)",
+      "excerpt": "I knew my actions were wrong but I convinced myself that normal rules didn't apply. / I felt that I had worked hard my entire life and deserved to enjoy all the temptations around me. I felt I was entitled. / I need to regain my balance and be centred so that I can save the things that are most important to me: My marriage and my children. / Part of following this path, for me, is Buddhism, which my mother taught me at a young age. / I was raised a Buddhist and I actively practised my faith from childhood until I drifted away from it in recent years. / Buddhism teaches that a craving for things outside ourselves causes an unhappy and pointless search for security. It teaches me to stop following every impulse and to learn restraint. / For 45 days from the end of December to early February, I was in in-patient therapy. / I ask you to find room in your heart to one day believe in me again.",
+      "context": "Second copy of the same event (Canadian spellings, minor transcription variance such as 'receiving for the issues'). Corroborates S01's wording; not independent evidence of anything beyond what was said. Note: Bleacher Report's 'Full UNEDITED Transcript' is satire mixing real and invented lines and must never be used. Reopened at edit 2026-10-04 and now the inline link for the 2010 statement because the CNN copy (S01) is geo-blocked (HTTP 451). Minor variance from S01: 'heart' (S02) vs 'hearts' (S01); the edit quotes only 'one day believe in me again', which both share.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.foxnews.com/entertainment/tiger-woods-statement-full-text.amp",
+      "title": "Tiger Woods' Statement: Full Text",
+      "speaker": "Tiger Woods (website statement), reproduced by Fox News",
+      "date": "2009-12-02",
+      "locator": "Full statement, all five paragraphs (reopened 2026-10-04)",
+      "excerpt": "I have let my family down and I regret those transgressions with all of my heart. I have not been true to my values and the behavior my family deserves. / For the last week, my family and I have been hounded to expose intimate details of our personal lives. / But no matter how intense curiosity about public figures can be, there is an important and deep principle at stake which is the right to some simple, human measure of privacy. I realize there are some who don't share my view on that. But for me, the virtue of privacy is one that must be protected in matters that are intimate and within one's own family. Personal sins should not require press releases and problems within a family shouldn't have to mean public confessions. / I have given this a lot of reflection and thought and I believe that there is a point at which I must stick to that principle even though it's difficult. / I will strive to be a better person and the husband and father that my family deserves.",
+      "context": "Written statement five days after the 2009-11-27 single-car crash outside his Isleworth home. It does not say what the 'transgressions' were. Same text on CBC, CNBC, ABC (copies, not independent).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://edition.cnn.com/2009/US/12/11/tiger.woods.golf.break/index.html",
+      "title": "Tiger Woods taking hiatus from golf, admits 'infidelity' in Web site statement",
+      "speaker": "Tiger Woods (website statement), via CNN",
+      "date": "2009-12-11",
+      "locator": "Not opened (HTTP 451 from CNN; Washington Post copy 403)",
+      "excerpt": "Snippet only, not verified: 'After much soul searching, I have decided to take an indefinite break from professional golf. I need to focus my attention on being a better husband, father, and person.'",
+      "context": "Search-snippet text only. Do not quote until an opened copy is found.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S05",
+      "url": "https://africa.espn.com/golf/news/story?id=5016125",
+      "title": "Woods gives first interview since crash",
+      "speaker": "Tiger Woods interviewed by Tom Rinaldi (ESPN) and a Golf Channel interviewer; ESPN.com report",
+      "date": "2010-03-21",
+      "locator": "Rinaldi interview quotes; Golf Channel quotes",
+      "excerpt": "I was living a life of a lie, I really was. / stripping away denial and rationalization you start coming to the truth of who you really are / It would be nice to hear a couple claps here and there / It was all me / He'd be very disappointed in me",
+      "context": "Two five-minute interviews at Isleworth with no question restrictions. 'He'd be very disappointed in me' refers to his late father. Other copies render the first line 'I was living a lie'; check the video before quoting. The 'claps' line concerns how fans would receive him at the Masters.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://africa.espn.com/golf/story/_/id/23747717/us-open-2018-ten-years-later-players-caddies-observers-marvel-tiger-2008-win",
+      "title": "Ten years later: players, caddies and observers marvel at Tiger's 2008 U.S. Open win",
+      "speaker": "Bob Harig (ESPN), oral history quoting Hank Haney, Steve Williams, Rocco Mediate and Tiger Woods",
+      "date": "2018-06-11",
+      "locator": "Tiger's account of the 2007 ACL rupture and the post-Masters cleanup; Haney MRI paragraph; Williams paragraph; narration on secrecy and the announcement two days after the playoff (reopened 2026-10-04)",
+      "excerpt": "Tiger: I had ruptured my ACL in July the previous year, and I played on it with no ACL and my meniscus was just, I was trashing it. / Tiger: my surgeons were saying that I also have to have the knee reconstructed. And I said, 'Well, we'll just do a cleanup job first,' because I wanted to play the next three major championships. ... From there, they were saying I was pretty much done for the year. I said, 'Ah, I don't know about that.' / Haney: He's showing there are two stress fractures, as well as the torn ACL. He's showing us everything, but Tiger is not really listening. ... Tiger looks up and says, 'I'm playing the U.S. Open and I'm going to win.' / Williams: 'F--- you, Stevie, I'm winning this tournament.' After three times, I wasn't going to say it to him again. / Narration: No one outside of Tiger Woods' inner circle knew he played -- and won -- the 2008 U.S. Open with a fracture in his left tibia. / Narration: Two days after the playoff, Woods announced to the world he had a double stress fracture in his left tibia and would need surgery.",
+      "context": "Oral history ten years after the event. Haney and Williams both later fell out with Woods and wrote books, but here they are admiring rather than critical. Medical facts (torn ACL, two tibial stress fractures, doctors' advice of crutches then rest) are reported widely; Woods himself said on his website after winning that 'the right thing to do is to listen to my doctors' (search snippet only). Reopened during the draft stage on 2026-10-04: the article does not itself state the 'crutches then rest' advice, so the draft uses Woods' own recollection ('they were saying I was pretty much done for the year') instead. It confirms the 18-hole playoff with Rocco Mediate (both shot 71) followed by sudden death.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://africa.espn.com/golf/story/_/id/18970847/quick-9-tiger-woods-tells-tale-almost-mythical-first-masters-win",
+      "title": "Quick 9: Tiger Woods tells tale of almost mythical first Masters win",
+      "speaker": "Bob Harig (ESPN), quoting Tiger Woods' book The 1997 Masters: My Story (with Lorne Rubenstein)",
+      "date": "2017-03-22",
+      "locator": "Book excerpts: 'came back too early'; the passage about his ex-wife Elin (reopened 2026-10-04)",
+      "excerpt": "I probably came back too early from some of the surgeries, but I was single-minded in my desire to compete and my need for competition. / My dishonesty and selfishness caused her intense pain. My regret will last a lifetime.",
+      "context": "A ghost-assisted memoir published while he was injured and not competing; it is curated self-presentation. The second line refers to Elin Nordegren. The book's swing-rebuild lines that circulate online ('the control I craved', 'addicted to staying on the range') were not seen in any opened source and must not be used until the book is checked. Reopened at edit 2026-10-04: the book is The 1997 Masters: My Story (with Lorne Rubenstein, 2017); the article identifies the ex-wife as Elin, divorced in 2010.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.australiangolfdigest.com.au/tiger-woods-mindset-swing-change/",
+      "title": "Tiger @ 50: What Woods' radical swing change revealed about his competitive mindset",
+      "speaker": "Sam Weinman (Golf Digest, syndicated by Australian Golf Digest), quoting Tiger Woods (How I Play Golf, 2001; later interview) and Butch Harmon",
+      "date": "2025-12-30",
+      "locator": "Swing-change section; 1998 results sentence (reopened 2026-10-04)",
+      "excerpt": "Woods (How I Play Golf): I didn't see one flaw. I saw about 10. ... I had struck the ball great that week, but by my standard, I felt I had gotten away with murder. From a ball-striking standpoint, I was playing better than I knew how. / Woods (later): At that time I still thought I had good hands and I could time it up. But the problem is timing that golf swing at that particular time, I'm going to hit some serious foul balls, too, and I need to get the foul balls in the position where I can play and compete / Harmon: He used to say, 'I gotta be more consistent. ... I want to get this to become second nature to where I can swing like this every time in any situation.' ... I wanted him to take the year and do a little bit at a time. But no, that's not Tiger Woods. He wanted to do it all right now. / [Woods] struggled through 1998, winning just once.",
+      "context": "About the 1997-98 rebuild with Harmon after the record 12-shot Masters win. The interview and date of the 'foul balls' quote are not named in the article. Syndicated copy of golfdigest.com (one source, not several). Harmon's account is decades-later recall.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.foxnews.com/sports/david-pecker-makes-shocking-revelation-about-tiger-woods-sex-scandal-in-ny-v-trump-trial",
+      "title": "David Pecker makes shocking revelation about Tiger Woods sex scandal in NY v. Trump trial",
+      "speaker": "Ryan Morik (Fox News), reporting David Pecker's sworn testimony",
+      "date": "2024-04-26",
+      "locator": "Body: testimony summary",
+      "excerpt": "Pecker says he bought the pictures of the two in the parking lot of a church and used them as blackmail. / bought the photos and buried them in return for Woods appearing on the magazine / a 12-page story about his diet, workout regimen and marriage",
+      "context": "Testimony by the former American Media Inc. CEO in People of the State of New York v. Donald J. Trump, Manhattan. 'Used them as blackmail' is the reporter's characterization. Pecker testified under oath but about events 17 years earlier and in a trial about other matters. Woods was not a party and did not comment in this article. The photos showed Woods with Mindy Lawton in 2007.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.huffpost.com/entry/tiger-woods-killed-nation_n_396985",
+      "title": "Tiger Woods Killed National Enquirer Affair Story In 2007 In Exchange For Men's Fitness Cover",
+      "speaker": "HuffPost, summarizing New York Post (Keith Kelly) and Wall Street Journal reporting",
+      "date": "2010-03-18",
+      "locator": "Body: New York Post (Keith Kelly) paragraph; Wall Street Journal (Albergotti, O'Connell, Adams) paragraphs; American Media denial (reopened 2026-10-04 at repair)",
+      "excerpt": "The New York Post's Keith Kelly reported earlier this month... / [Neal Boulton:] He traded silence for a Men's Fitness cover. / And while American Media has denied the quid-pro-quo arrangement, the Wall Street Journal's Reed Albergotti, Vanessa O'Connell and Russell Adams report further details that corroborate Kelly's story. / [WSJ:] Mr. Woods agreed to the cover shot and photo spread in Men's Fitness ... in return for the National Enquirer squelching a story / When the Enquirer approached Woods' reps about the photos, the reps almost immediately 'made an offer,' the WSJ reports.",
+      "context": "Contemporaneous reporting (March 2010). The New York Post reported first; the WSJ, citing anonymous 'people directly involved in the arrangement', corroborated it and said Woods agreed to the shoot in return for the story being dropped, with his representatives making the offer when the Enquirer approached them. American Media denied the arrangement at the time; former Men's Fitness editor Neal Boulton confirmed it. This is reported, anonymous sourcing: there is no first-hand or on-record account of Woods' own words or decision. Pecker's 2024 sworn testimony (S09) is a later, named confirmation from the other party to the deal. Repair (2026-10-04): the edit's 'Nothing shows Woods made the 2007 deal' and 'no public record' understated this source (V-03); the article now reports the Journal's account and limits the gap to a first-hand account.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.espn.com/golf/masters13/story/_/id/9167230/2013-masters-tiger-penalized-2-strokes-ball-drop-15",
+      "title": "Tiger penalized 2 strokes for ball drop on 15",
+      "speaker": "Bob Harig (ESPN), quoting Tiger Woods, Nick Faldo and Fred Couples",
+      "date": "2013-04-13",
+      "locator": "Body: Woods' post-round account; his Twitter statement; the 2011 rule change that allowed a penalty instead of disqualification (reopened 2026-10-04)",
+      "excerpt": "Woods: I went back to where I played it from, but I went 2 yards further back and I took, tried to take two yards off the shot. / Woods (Twitter): I was unaware at that time I had violated any rules. ... I understand and accept the penalty and respect the Committees' decision. / The penalty was assessed after the round because the facts emerged from Woods' own post-round interview; under the pre-2011 rules he would have been disqualified for signing an incorrect scorecard.",
+      "context": "Woods volunteered the facts that led to the penalty; the committee chose a two-stroke penalty instead of disqualification, so his continuing was within the ruling. Nick Faldo's on-air call to withdraw is a commentator's opinion and is no longer quoted in the article.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.nbcsports.com/golf/news/emotional-unscripted-tiger-woods-focuses-family-upbringing-hof-speech",
+      "title": "Emotional, unscripted Tiger Woods focuses on family, upbringing in HOF speech",
+      "speaker": "Ryan Lavner (Golf Channel), quoting Tiger Woods' World Golf Hall of Fame induction speech",
+      "date": "2022-03-10",
+      "locator": "Body (reopened 2026-10-04 at the NBC Sports mirror; the original golfchannel.com URL returns HTTP 403): speech-length paragraph; 'most guarded athletes' sentence; Titleist/mortgage sentence; 'Nothing about the Tiger Slam' paragraph",
+      "excerpt": "Lavner: He was slated to talk for seven minutes. But he spoke for nearly 17, without notes or the use of a teleprompter. One of the most guarded athletes in history, here now he was speaking from the heart. / Woods: So without the sacrifices of Mom, who took me to all those junior golf tournaments, and Dad, who's not here, but who instilled in me this work ethic to fight for what I believe in, to chase after my dreams - that nothing's ever going to be given to you, everything's going to be earned. If you don't go out there and put in the work, if you don't go out and put in the effort - one, you're not going to get the results, and two, and more importantly, you don't deserve it. You need to earn it. So that defined my upbringing. That defined my career. / Lavner: For 17 unscripted minutes, Woods made only one passing mention of his life and career this century. Nothing about the Tiger Slam. Nothing about the majors. Nothing about the soaring highs. The scandals.",
+      "context": "Delivered a year after the 2021 crash, before his return to competition. Lavner's account includes Woods hiding in 'The Ditch' at the Navy Golf Course, being denied clubhouse access as a junior because of his skin color, and the family's second mortgage, which he paid off with his first Titleist deal. Celebratory setting; memory is 40 years old. The PGA Tour's 2025 obituary attributes 'instilled in me this work ethic' to his mother; Golf Channel's rendering ties it to 'Dad'. Check the video before assigning it to one parent. Same article and byline (Ryan Lavner, March 10, 2022) as the original https://www.golfchannel.com/news/emotional-unscripted-tiger-woods-focuses-family-upbringing-hof-speech, which several reviewers could not open (403); the NBC Sports mirror opened and matches the quoted text.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.pgatour.com/article/news/latest/2022/03/10/tiger-woods-world-golf-hall-of-fame-speech-focused-on-family",
+      "title": "Tiger Woods' Hall of Fame speech focused on family",
+      "speaker": "Sean Martin (PGA Tour), quoting Tiger Woods and Sam Woods",
+      "date": "2022-03-10",
+      "locator": "Body (opened via direct download): practice paragraph; team-award paragraph; Sam's introduction",
+      "excerpt": "Woods: I made practicing so difficult, hurt so much, because I wanted to make sure that I was ready come game time. I hit thousands of balls, hands bleeding, aching, just so that I could play in a tournament. / Woods: This is an individual award, but it's actually a team award. All of you allowed me to get here. / Martin: the record-tying 82 PGA TOUR wins and 15 major championships / Sam Woods: We didn't know if you'd come home with two legs or not.",
+      "context": "Tour-owned outlet, celebratory framing. Supplies the career-record figures (82 PGA Tour wins, tied with Sam Snead; 15 majors) used as factual metadata.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "http://www.asapsports.com/show_conference.php?id=173620",
+      "title": "2022 World Golf Hall of Fame (March 9) - Tiger Woods",
+      "speaker": "Tiger Woods, ASAP Sports transcript",
+      "date": "2022-03-09",
+      "locator": "Induction speech, full text: Navy Golf Course/Ditch passage; junior-golf racism passage; second-mortgage and work-ethic passage; practice passage; closing thanks",
+      "excerpt": "My dad, as you have known, is a former special forces and a Green Beret. So mom would drop me off. I would hop into the ditch. I would then walk on the south side of The Ditch because the clubhouse was perched up two stories. ... But dad taught me how to always grab a piece of foliage, cover yourself up, listen for noise. If you hear anybody coming, lay still (laughter). Part sniper. ... at the age of 8, I would play underage the golf course. / I was not allowed in the clubhouses where all the other juniors were. The color of my skin dictated that. As I got older, that drove me even more. So as I was denied access into the clubhouses, that's fine. Put my shoes on here in the parking lot. I asked two questions only, that was it. Where was the 1st tee, and what was the course record. / at the age of 14-1/2 we took out a second mortgage so I could go out and play the AJGA Tour. ... So without the sacrifices of Mom who took me to all those junior golf tournaments, and Dad, who's not here, but who instilled in me this work ethic to fight for what I believe in, chase after my dreams, nothing's ever going to be given to you, everything's going to be earned. If you don't go out there and put in the work, you don't go out and put in the effort, one, you're not going to get the results, but two, and more importantly, you don't deserve it. You need to earn it. So that defined my upbringing. That defined my career, which allowed me to get into a great university like Stanford. / I made practicing so difficult, hurt so much, because I wanted to make sure that I was ready come game time. I hit thousands of balls, hands bleeding, aching, just so that I could play in a tournament. / but in my case, I didn't get here alone. I had unbelievable parents, mentors, friends, who allowed me and supported me in the toughest times, the darkest of times, and celebrated the highest of times. ... This is an individual award, but it's actually a team award. All of you allowed me to get here.",
+      "context": "Official stenographic transcript of the 2022-03-09 induction speech. Opened directly (raw HTML download) during the draft stage on 2026-10-04 and read end to end; this resolves the research task on wording: the drafted quotes use the ASAP wording, which differs slightly from Golf Channel's rendering (S12), and the 'instilled in me this work ethic' clause refers to 'Dad, who's not here', so the PGA Tour obituary's attribution to his mother is not followed. The Ditch story is told with laughter in a celebratory setting about events roughly 38 years earlier.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://golf.com/news/tiger-woods-slams-liv-golf-candid-open-presser/",
+      "title": "'They've turned their back': Tiger Woods slams LIV Golf in candid Open presser",
+      "speaker": "James Colgan (GOLF.com), quoting Tiger Woods' 150th Open press conference",
+      "date": "2022-07-12",
+      "locator": "Quote blocks on LIV players, guaranteed money, majors, Norman; 'paid a lot of money up front' sentence (reopened 2026-10-04)",
+      "excerpt": "I think that what they've done is they've turned their back on what has allowed them to get to this position. / What these players are doing for guaranteed money, what is the incentive to practice? What is the incentive to go out there and earn it in the dirt? You're just getting paid a lot of money up front and playing a few events and playing 54 holes. / Greg has done some things that I don't think are in the best interest of our game. / You're just getting paid a lot of money up front and playing a few events.",
+      "context": "Pre-tournament press conference at St Andrews. Secondary write-up of a primary event; ASAP transcript not opened. Woods was simultaneously a PGA Tour stakeholder, so institutional incentive is relevant.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.golfdigest.com/story/tiger-woods-liv-golf-offer-2022",
+      "title": "Report: Tiger Woods turned down 'mind-blowingly enormous ... high nine digits' figure from Saudi golf league",
+      "speaker": "Golf Digest relaying Greg Norman (LIV CEO) to the Washington Post and Fox News",
+      "date": "2022-08",
+      "locator": "Not opened (not reached within budget)",
+      "excerpt": "Snippet only, not verified: Norman described the offer as 'mind-blowingly enormous' and 'high nine digits', and said a reported $700-800 million was 'somewhere in that neighborhood'.",
+      "context": "One-party claim by an interested rival executive. No confirmation from Woods found.",
+      "kind": "testimony",
+      "access": "unavailable"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.espn.com/espn/feature/story/_/id/15278522/how-tiger-woods-lost-way-secret-history-tiger-woods",
+      "title": "The Secret History of Tiger Woods",
+      "speaker": "Wright Thompson (ESPN The Magazine), with named witnesses (John Brown, Ryan Zinke, Billy Helmers, Joe Grohman, Paul Fregia, Michael Jordan) and unnamed friends",
+      "date": "2016-04-21",
+      "locator": "Act I: Earl's death and burial; childhood at the Navy Golf Course. Act II: Fort Bragg 2004, SEAL facility 2006, birthday skydive 2006-12-30, '30 seconds' narration and unnamed-friend quotation (one continuous quote), set-piece icebreakers and 'impersonation' narration, Halloween text; aftermath list ('internet comments he read while driving to Augusta National before the 2010 Masters'); Jordan 'public shaming'/'Rabbit Ears'/'dwelling on old mistakes'/'erase' passage; 'no companion'; 'Woods' camp declined to comment' note (full text reopened 2026-10-04 at repair)",
+      "excerpt": "Narration: Seventy-seven minutes after touching down in Kansas, Tiger took off again for Orange County. / Narration: TWENTY-FIVE DAYS after he buried his father and 15 before the 2006 U.S. Open, Tiger went back to visit the Navy SEALs / Brown: 'Why are you here?' ... 'My dad,' Tiger said, explaining that Earl had told him he'd either end up being a golfer or a special operations soldier. / Narration: He chose to spend Dec. 30, 2006 -- his 31st birthday -- in San Diego skydiving with SEALs. / Narration: People who meet him for 30 seconds love him, and people who spend several hours with him think he's aloof and weird, while people who hang around long enough to know him end up both loving him and being oddly protective. / One unnamed friend, one continuous quotation: \"Frankly, the real Tiger Woods isn't that marketable,\" a friend says. \"There isn't a lot of money to be made off a guy who just wants to be left alone to read a book. Or left alone to play fetch with his dog. Or left alone to play with his kids. Or left alone to lift weights. Or left alone to play a video game. Do you see a trend? Tiger was a natural introvert, and the financial interest for him to be extroverted really drove a wedge in his personality.\" / Narration: Tiger uses well-rehearsed set pieces as standard icebreakers -- things that get trotted out again and again. ... Talk to enough people who've met him and it starts to seem like he's doing an impersonation of what he thinks a superstar athlete is supposed to be. / Woods (text to Notah Begay about a Halloween costume): I'm going as a golfer known as Tiger Woods. / Narration (aftermath list): The internet comments he read while driving to Augusta National before the 2010 Masters, obsessed over what people thought. / Narration: He worries that Tiger is so haunted by his public shaming that he obsesses over it, perhaps sitting up in the middle of the night reading all the things people write and say about him. / Narration: 'Rabbit Ears,' Michael calls him sometimes. / Narration: He hears everything. For Tiger, this dwelling on old mistakes is a path to madness. Nothing can take him back to 2006 and give him a second chance. / Jordan: \"That bothers him more than anything. It looms. It's in his mind. It's a ship he can't right and he's never going to. What can you do? The thing is about T-Dub, he cannot erase. That's what he really wants. He wants to erase the things that happened.\" / Jordan: He has ... no companion. ... He's gonna have to trust somebody. / Grohman (narration): worried that Tiger didn't have friends his own age until high school. His friends were Earl and Earl's old military buddies. / (Woods' camp declined to comment for this story.)",
+      "context": "Long-form reported feature (about 18 months), published ten years after Earl's death and after the scandal, so it builds a hindsight narrative. Woods did not participate. Many motive claims come from unnamed friends or SEALs; Brown's 'two paths' account is second-hand recall. 'Impersonation', the set-piece line, the '30 seconds' line and the Augusta internet-comments line are Thompson's narration, not attributed testimony. Fregia was the first director of the Tiger Woods Foundation. Also establishes the birth date (31st birthday on 2006-12-30). Repair corrections (2026-10-04): (1) the 'isn't that marketable ... read a book' and 'natural introvert' lines are ONE continuous quotation from a single unnamed friend, not two friends (V-01); (2) in the Jordan passage, Thompson's bridge ('this dwelling on old mistakes is a path to madness. Nothing can take him back to 2006 and give him a second chance') immediately precedes Jordan's 'That bothers him more than anything', so Jordan's direct words are about regret over 'the things that happened', while the preoccupation with what people write and say is Thompson's paraphrase of Jordan's worry ('perhaps sitting up ... reading') and the 'Rabbit Ears' gloss (V-02). Jordan is a friend ('I love him so much that I can't tell him...'). The Augusta line comes from the same reporter, so it is a second time point, not independent corroboration.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://foxnews.com/entertainment/tiger-woods-mistress-rachel-uchitel-speaks-affair-first-meeting-hbo-documentary.amp",
+      "title": "Tiger Woods' former mistress Rachel Uchitel breaks silence on intimate details of their sordid love affair",
+      "speaker": "Melissa Roberto (Fox News), quoting Rachel Uchitel from HBO's 'Tiger' (2021)",
+      "date": "2021-01-06",
+      "locator": "Uchitel quotes from the documentary",
+      "excerpt": "He had trouble sleeping and would have to take Ambien. / He was sick of trying to hide who he was but he was so scared of the real Tiger not living up to the Tiger that everybody else thinks he is / I regret that he was married and I regret the mistakes that I made but people came at me like they wanted to blame me for the fact a married man cheated",
+      "context": "Testimony from a party to the 2009 affair with an interest in her own public rehabilitation; her statements about his fears are her interpretation. Woods did not participate in the documentary. Relay of documentary material, published before the 2021-01-10 premiere.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.nbcsports.com/golf/news/hank-haneys-suggestion-tiger-woods-wanted-be-navy-seal-nothing-new",
+      "title": "Haney's suggestion Woods wanted to be Navy SEAL nothing new",
+      "speaker": "NBC Sports, quoting Hank Haney and Woods' agent Mark Steinberg",
+      "date": "2012-02-29",
+      "locator": "Haney quote; Steinberg response",
+      "excerpt": "Haney: People don't realize how seriously he took it...He wanted to be a Navy SEAL. For sure that was on his list. / Steinberg: Because of his father, it's no secret that Tiger has always had high respect for the military, so for Haney to twist that admiration into something negative is disrespectful.",
+      "context": "Haney (coach 2004-2010) had a book to sell (The Big Miss, 2012) and a falling-out. The article notes the SEAL claim was public by 2010, before the book. Woods' camp disputes the framing but not the training.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.ibtimes.com/tiger-woods-book-key-details-hank-haneys-big-miss-430792",
+      "title": "Tiger Woods Book: Key Details From Hank Haney's 'The Big Miss'",
+      "speaker": "Cristina Merrill (International Business Times), quoting Hank Haney's book",
+      "date": "2012-03-27",
+      "locator": "Five quoted book passages",
+      "excerpt": "Haney: My first thought is that there's a natural reason for the wariness, Tiger is a black kid in a white sport... / Haney: He liked being one of Nike's so-called golf athletes...He liked being considered buff. / Haney: After I'd been Tiger's coach for only a few months, Mark would make a point of telling me that I was one of Tiger's best friends...",
+      "context": "All Haney narration with book-sales and grievance incentives; ellipses may be the outlet's. Woods called the book 'unprofessional' and 'self-serving' (snippet only; Golf Channel 403).",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.foxnews.com/sports/former-caddie-says-tiger-woods-treated-him-like-i-was-his-slave-on-the-golf-course",
+      "title": "Former caddy for Tiger Woods writes tell-all book",
+      "speaker": "Associated Press via Fox News, quoting Steve Williams' book Out of the Rough",
+      "date": "2015-11-02",
+      "locator": "Book passages on on-course conduct and the March 2010 call",
+      "excerpt": "uneasy about bending down to pick up his discarded club - it was like I was his slave / flippantly toss a club in the general direction of the bag / habit of spitting at the hole if he missed a putt / I wanted him to prove to me he could change his behavior and show me — and the game of golf — more respect.",
+      "context": "Williams caddied for Woods 1999-2011 and was fired in 2011; he later made a racially charged public remark about Woods (ESPN 2015 column, S22), so animus and book sales are incentives. Fragments came through a fetch tool. His 'more respect' demand converges with Woods' own 2010 line (S01).",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.espn.com/golf/story/_/id/13963255/steve-williams-new-book-shows-no-love-lost-tiger-woods",
+      "title": "Birdies & Bogeys: Williams' book shows no love lost for Tiger",
+      "speaker": "ESPN column, quoting Steve Williams and Tiger Woods (2011)",
+      "date": "2015-10-24",
+      "locator": "Column body; Woods' 2011 response; Williams' 2011 caddie-dinner remark (reopened 2026-10-04)",
+      "excerpt": "Woods (2011): There are some great things that Stevie and I did. That's how I look at it. I know he looks at it probably differently than I do. But, hey, life goes forward. / After winning the WGC-Bridgestone with Adam Scott, Williams made a controversial, racially charged comment about Woods at a caddie awards dinner.",
+      "context": "Opinion column documenting Williams' grievances and animus. Establishes Williams' 2011 racially charged remark about Woods (not quoted in the article) and Woods' mild public response. Does not mention spitting; that detail comes from Williams' book via AP (S21).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.cbssports.com/golf/news/tiger-woods-claims-dui-charge-due-to-prescribed-medications-not-alcohol",
+      "title": "Tiger Woods claims DUI charge due to prescribed medications, not alcohol",
+      "speaker": "Tiger Woods (statement), reported by Adam Silverstein, CBS Sports",
+      "date": "2017-05-29",
+      "locator": "Full statement",
+      "excerpt": "I understand the severity of what I did and take full responsibility for my actions. I want the public to know that alcohol was not involved. What happened was an unexpected reaction to prescribed medications. I didn't realize the mix of medications had affected me so strongly. / I would like to apologize with all my heart to my family, friends and the fans. I expect more from myself, too. / Woods (quoted by CBS): It has been just over a month since I underwent fusion surgery on my back, and it is hard to express how much better I feel.",
+      "context": "Woods' own statement on the day of the arrest. CBS also quotes Woods describing the fusion as 'just over a month' earlier; the surgery date was April 20, 2017 (S72), so the arrest came about five and a half weeks later. The draft's 'about seven weeks' was wrong and has been corrected.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.nbcnews.com/news/sports/tiger-woods-dui-arrest-golfer-had-five-drugs-system-toxicology-n792856",
+      "title": "Tiger Woods DUI Arrest: Golfer Had Five Drugs in System, Toxicology Report Shows",
+      "speaker": "Erik Ortiz (NBC News), quoting a Woods statement and the toxicology report",
+      "date": "2017-08-15",
+      "locator": "Toxicology list; Woods' August 2017 statement; plea arrangement (reopened 2026-10-04)",
+      "excerpt": "Five drugs: hydrocodone, hydromorphone, alprazolam, zolpidem and THC. / Woods: I realize now it was a mistake to do this without medical assistance. [He said he had been trying to treat back pain and sleep problems on his own after his April surgery.] / He entered a diversion program; prosecutors said he would plead guilty to reckless driving when he returned to court in October.",
+      "context": "NBC reports the plea as expected, not completed; the article says prosecutors said he would plead guilty, not that he did.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.spokesman.com/stories/1997/mar/23/tiger-blames-writers-ambition-for-unflattering/",
+      "title": "Tiger Blames Writer's Ambition For Unflattering Article In GQ",
+      "speaker": "Tiger Woods (issued statement), wire report",
+      "date": "1997-03-23",
+      "locator": "Lead paragraphs",
+      "excerpt": "It's no secret that I'm 21 years old and that I'm naive about the motives of certain ambitious writers. / The article proves that, and I don't see any reason for anyone to pay $3 to find that out. / It's easy to laugh it off as juvenile and petty except for the attacks on my father. I don't understand the cheap shots against him.",
+      "context": "Response to Charles P. Pierce's GQ profile (S26), weeks before the 1997 Masters. He did not deny the jokes attributed to him.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://grantland.com/features/director-cut-charlie-pierce-tiger-woods/",
+      "title": "Director's Cut: 'The Man. Amen.' by Charles P. Pierce",
+      "speaker": "Charles P. Pierce (originally GQ, April 1997), republished with notes on Grantland",
+      "date": "1997-04",
+      "locator": "Limo-ride section; Earl Woods section",
+      "excerpt": "Earl Woods: Tiger will do more than any other man in history to change the course of humanity.",
+      "context": "Pierce recorded the 21-year-old telling crude racial and sexual jokes after a GQ cover shoot; the jokes are documented here but are not needed verbatim. Shows how open press access was before the guarded era. The republication's added notes were not separated from the 1997 text in the fetch.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.espn.co.uk/golf/usopen04/news/story?id=1824929",
+      "title": "Tiger says Butch talked out of turn",
+      "speaker": "David Kraft (ESPN), quoting Tiger Woods and Butch Harmon",
+      "date": "2004-06-19",
+      "locator": "U.S. Open week coverage",
+      "excerpt": "Woods: Obviously, he doesn't really know what I'm working on, and he's never asked me and I've never talked to him about it and no one knows. / Woods: I mean, friends say that face to face...If you go say something like that, you go right up to my face and say it. / Harmon: But for him to stand there at every one of his interviews and say 'I am close, I feel really good about what I am doing,' I think it might be a bit of denial.",
+      "context": "During the Haney rebuild, while Woods had not won a major since parting with Harmon in August 2002. Harmon's criticism ran in the media (Reuters/Sky Sports); Woods objected that it went to 'the rest of the media' instead of face to face. Harmon, his former coach and by then a TV voice, has his own incentives; his 'denial' line is hedged ('I think it might be').",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.foxnews.com/sports/tiger-woods-says-he-wont-push-his-son-into-golf",
+      "title": "Tiger Woods says he won't push his son into golf",
+      "speaker": "Associated Press via Fox News, quoting Tiger Woods",
+      "date": "2013-08-06",
+      "locator": "Pre-tournament remarks",
+      "excerpt": "If he did decide to play golf, so be it. ... as long as he's happy and he enjoys his life, I'm there to support and guide him / It was the exact opposite. He was trying to get me not to play it. 'Go play baseball.' / If they play golf, no lessons. We are just going to go out there and just have fun",
+      "context": "Charlie was four. Venue line in the fetched text was garbled (probably the 2013 PGA Championship at Oak Hill). His account that Earl steered him away from golf conflicts with biographers' account that Earl kept him out of team sports (S35, snippet only).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.pgatour.com/article/news/latest/2022/12/07/tiger-woods-son-charlie-appear-in-first-interview-together-golf-channel-pnc-championship",
+      "title": "Tiger Woods, son Charlie appear in first interview together",
+      "speaker": "Jay Coffin (PGA Tour), reporting a Golf Channel interview by Notah Begay III",
+      "date": "2022-12-08",
+      "locator": "Interview quotes",
+      "excerpt": "I just want him to enjoy whatever he's doing. / I'm supporting him wherever he wants to go, and obviously providing opportunities for that direction. / Don't copy my swing. Copy Rory's.",
+      "context": "Friendly interviewer (lifelong friend).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.si.com/golf/news/tiger-woods-training-son-charlie-woods-earl-woods",
+      "title": "Tiger Woods Trains Son Charlie With Ruthless Mental-Game Lessons Inspired by His Father",
+      "speaker": "SI.com, reporting Tiger Woods on a Golf Channel broadcast at the Hero World Challenge",
+      "date": "2022-12-02",
+      "locator": "Single direct quote",
+      "excerpt": "It's nonstop. It's trying to get him—if I can get into his head, that means someone else can get in his head. It's getting to a point where I can't get in his head and then no one else can get in there, either. That's what my dad believed in. You've got to be willing to take it.",
+      "context": "Live broadcast remark; his adult endorsement of Earl's method, applied to his own son.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://www.foxbusiness.com/sports/tiger-woods-prick-mentality-golf-butch-harmon",
+      "title": "Tiger Woods relied on 'prick' mentality to dominate golf, coach Butch Harmon says",
+      "speaker": "Thomas Barrabi (Fox Business), quoting Butch Harmon on Instagram Live",
+      "date": "2020-04-27",
+      "locator": "Body quotes",
+      "excerpt": "you got to have a lot of prick in you / You have to be that kind of guy when you walk between the ropes / they just want to cut your heart out. They want to beat you.",
+      "context": "Several quotes describe great champions in general ('they'); the headline applies them to Woods. The often-repeated Harmon line that Woods wanted to win by 10 instead of five is snippet only.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S32",
+      "url": "https://www.espn.com/golf/story/_/id/40574425/tiger-woods-offers-friend-rory-mcilroy-words-encouragement",
+      "title": "Tiger Woods offers friend Rory McIlroy words of encouragement",
+      "speaker": "Mark Schlabach (ESPN), quoting Tiger Woods and Rory McIlroy",
+      "date": "2024-07-16",
+      "locator": "Open at Royal Troon press conferences",
+      "excerpt": "Woods: We've all been there as champions. We all lose. / Woods: The thing is you still take the game-winning shot, and I still want the last putt. / McIlroy: Tiger has been nothing but incredible to me over the course of my career in the good moments and the bad.",
+      "context": "After McIlroy's 2024 U.S. Open loss. Late-career mentor role.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S33",
+      "url": "https://www.today.com/parents/dads/tiger-woods-kids-rcna150195",
+      "title": "Tiger Woods Talks About Why Daughter Sam Doesn't Love Golf",
+      "speaker": "Rachel Paula Abrahamson (TODAY), quoting Tiger Woods' interview with Carson Daly",
+      "date": "2024-05-01",
+      "locator": "Interview quotes",
+      "excerpt": "She has … a negative connotation to the game, because when she was growing up, golf took Daddy away from her. / I had to leave, and I'd be gone for weeks. / It's amazing how many things I say to my kids that came from him.",
+      "context": "Friendly morning-TV setting.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S34",
+      "url": "https://www.cbsnews.com/news/nikes-tiger-woods-ad-worthy-salute-or-wrong-message/",
+      "title": "Nike's Tiger Woods ad: Worthy salute or wrong message?",
+      "speaker": "CBS/AP, quoting the Nike tagline and Nike spokeswoman Beth Gast",
+      "date": "2013-03-26",
+      "locator": "Body",
+      "excerpt": "Winning takes care of everything. / When asked about his goals such as getting back to number one, he has said consistently winning is the way to get there. The statement references that sentiment and is a salute to his athletic performance.",
+      "context": "A sponsor's ad copy, run the day after he regained world No. 1. AP says Woods used the phrase when asked about rankings; no dated verbatim Woods use was captured. Treat as Nike's line.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S35",
+      "url": "https://www.cbsnews.com/news/tiger-woods-biography-armen-keteyian-jeff-benedict/",
+      "title": "A new biography asks, 'Who is Tiger Woods?'",
+      "speaker": "David Morgan (CBS News), interviewing Jeff Benedict and Armen Keteyian",
+      "date": "2018-03-29",
+      "locator": "Author interview",
+      "excerpt": "Keteyian: The predominant question for both Jeff and I was, 'Who is Tiger Woods?' / Benedict: Earl is a guy, I think, who felt like they were entitled.",
+      "context": "Unauthorized biography; Woods did not cooperate, and the authors say his representatives imposed conditions they would not accept. Commercial and adversarial incentives.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S36",
+      "url": "https://www.upbuild.com/enneagram/celebrity-personality/tiger-woods",
+      "title": "Tiger Woods Enneagram Type 3 with 4 Wing",
+      "speaker": "Upbuild (no author named)",
+      "date": "unknown",
+      "locator": "Evidence bullets",
+      "excerpt": "Intense ambition. He has a relentless drive to dominate the sport of golf and to become the best there ever was. / Performance mode. When he is being interviewed, it can be difficult to know if you are getting the 'real' Tiger.",
+      "context": "Unsourced typing page; assigns 3w4. Records the existing public hypothesis only; not evidence.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S37",
+      "url": "https://www.typologycentral.com/threads/tiger-woods.45616/",
+      "title": "Tiger Woods (Typology Central forum thread)",
+      "speaker": "Anonymous forum users",
+      "date": "2011-03-20",
+      "locator": "Posts 2011-2015",
+      "excerpt": "Either INFP or INTP type 3.",
+      "context": "Anonymous, unreasoned guesses. Shows low-quality community leaning toward Type 3; no Enneagram Institute listing found.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S38",
+      "url": "http://www.asapsports.com/show_interview.php?id=149121",
+      "title": "2019 Masters Tournament - April 14 - Tiger Woods",
+      "speaker": "Tiger Woods, winner's press conference (ASAP Sports transcript)",
+      "date": "2019-04-14",
+      "locator": "Opening statement and Q&A on family, father, comeback",
+      "excerpt": "I wasn't going to let that happen to them twice (smiling), and so for them to see what it's like to have their dad win a major championship, I hope that's something they will never forget. / I had serious doubts after what transpired a couple years ago. I could barely walk. I couldn't sit. Couldn't lay down. / But just to have them there, and then now to have them see their Pops win, just like my Pops saw me win here, it's pretty special.",
+      "context": "Official transcript. His 15th major, 22 years after his first; first major since 2008.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S39",
+      "url": "https://www.australiangolfdigest.com.au/tiger-woods-opens-up-in-first-interview/",
+      "title": "Exclusive: Tiger Woods discusses golf future in first in-depth interview since car accident",
+      "speaker": "Tiger Woods, interviewed for Golf Digest (syndicated by Australian Golf Digest)",
+      "date": "2021-11-30",
+      "locator": "Body quotes",
+      "excerpt": "I think something that is realistic is playing the Tour one day—never full time, ever again—but pick and choose / I don't have to compete and play against the best players in the world to have a great life",
+      "context": "Syndicated copy of the Golf Digest original (S40 is another relay; the original returned 403). Some quotes were truncated by the fetch tool.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S40",
+      "url": "https://golf.com/news/tiger-woods-50-50-chance-lose-leg-accident/",
+      "title": "Tiger Woods says he faced near '50/50' chance of losing leg after car accident",
+      "speaker": "James Colgan (GOLF.com), quoting the Golf Digest interview",
+      "date": "2021-11-29",
+      "locator": "Quote blocks; leg-amputation sentence (reopened 2026-10-04)",
+      "excerpt": "There was a point in time when, I wouldn't say it was 50/50, but it was damn-near there if I was going to walk out of that hospital with one leg. / After my back fusion, I had to climb Mount Everest one more time. I had to do it, and I did. This time around, I don't think I'll have the body to climb Mount Everest, and that's okay. / I wanted to test and see that I still had my hands. So even in the hospital, I had Erica and Rob throw me something. / Woods: There was a point in time when, I wouldn't say it was 50/50, but it was damn-near there if I was going to walk out of that hospital with one leg.",
+      "context": "Aggregator relay of the same interview; not independent of S39.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S41",
+      "url": "https://www.espn.com/golf/story/_/id/31209160/excessive-speed-caused-tiger-woods-suv-crash-sheriff-says",
+      "title": "Excessive speed caused Tiger Woods' SUV crash, sheriff says",
+      "speaker": "ESPN News Services, reporting the LA County Sheriff's press conference and a Woods statement",
+      "date": "2021-04-07",
+      "locator": "Sheriff quotes; Woods statement",
+      "excerpt": "Villanueva: The primary causal factor for this traffic collision was driving at a speed unsafe for the road conditions and the inability to negotiate the curve of the roadway. / Woods: I am grateful for all the help I received and am continuing to focus on my recovery and family. / He was driving a 2021 Genesis GV80 SUV lent to him by the tournament when he struck a raised median in Rolling Hills Estates, just outside Los Angeles. / No traffic citations were issued.",
+      "context": "Crash on 2021-02-23 'in Rolling Hills Estates, just outside Los Angeles' (ESPN's wording; the site is on the Rolling Hills Estates / Rancho Palos Verdes border, and the article now follows the cited source, V-05); 84-87 mph in a 45 zone; 'no evidence of impairment or of distracted driving'; 'No traffic citations were issued.' (reopened 2026-10-04 at repair)",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S42",
+      "url": "https://globalnews.ca/news/10096488/tiger-woods-ex-girlfriend-erica-herman-drops-sexual-assault-allegations-nda-lawsuit/",
+      "title": "Tiger Woods' ex-girlfriend Erica Herman drops sexual assault allegations, NDA lawsuit",
+      "speaker": "Sarah Do Couto (Global News), quoting filings, the court and Woods' attorney",
+      "date": "2023-11-16",
+      "locator": "Allegations; legal response; ruling; dismissal",
+      "excerpt": "Woods' attorney: a jilted ex-girlfriend who wants to publicly litigate specious claims in court, rather than honour her commitment to arbitrate disputes in a confidential arbitration proceeding / Herman's notice: Erica Herman states that she was never a victim of sexual harassment or sexual abuse at the hands of Tiger Woods.",
+      "context": "Herman alleged in 2022-2023 filings a broken tenancy agreement and sought to void an NDA; a Florida judge ruled in May 2023 that she must arbitrate; she dropped the case and appeal by November 2023 with the disavowal above. Allegations were never adjudicated on the merits. Woods spoke only through counsel. Closed matter.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S43",
+      "url": "https://www.nbcsports.com/golf/news/tiger-woods-announces-that-his-mother-kultida-has-passed-away",
+      "title": "Tiger Woods announces that his mother, Kultida, has died",
+      "speaker": "Ryan Lavner (NBC Sports), quoting Tiger Woods' social-media statement",
+      "date": "2025-02-04",
+      "locator": "Embedded statement",
+      "excerpt": "My Mom was a force of nature all her own, her spirit was simply undeniable. She was quick with the needle and a laugh. She was my biggest fan, greatest supporter, without her none of my personal achievements would have been possible. / Thank you all for your support, prayers and privacy at this difficult time for me and my family.",
+      "context": "Kultida Woods died 2025-02-04; reported ages differ (78-81), so do not state an age without checking.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S44",
+      "url": "https://www.aljazeera.com/sports/2025/3/24/tiger-woods-confirms-relationship-with-vanessa-trump-on-social-media",
+      "title": "Tiger Woods confirms relationship with Vanessa Trump on social media",
+      "speaker": "Al Jazeera (news agencies), quoting Tiger Woods' post",
+      "date": "2025-03-24",
+      "locator": "Quoted post",
+      "excerpt": "Love is in the air and life is better with you by my side! We look forward to our journey through life together, / At this time, we would appreciate privacy for all those close to our hearts.",
+      "context": "Posted 2025-03-23 per other outlets. ABC News photo caption (S53) shows him leaving court with Vanessa Trump on 2026-09-02, so the relationship was ongoing as of that date.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S45",
+      "url": "https://www.golfdigest.com/story/tiger-woods-announces-back-surgery-lumbar-disk-achilles-tendon",
+      "title": "Tiger Woods announces he had spinal surgery",
+      "speaker": "Tiger Woods statement via Golf Digest",
+      "date": "2025-10-11",
+      "locator": "Not opened (HTTP 403)",
+      "excerpt": "Snippet only, not verified: 'The scans determined that I had a collapsed disc in L4/5, disc fragments and a compromised spinal canal. I opted to have my disc replaced yesterday'",
+      "context": "Reported as his seventh back surgery and third surgery in about 13 months (September 2024 microdecompression; March 2025 left Achilles repair). An AP copy says 'September'; date needs pinning.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S46",
+      "url": "https://www.skysports.com/golf/news/13523714/tgl-golf-league-tiger-woods-confirms-comeback-for-jupiter-links-gc-after-los-angeles-gc-win-finals-opener",
+      "title": "TGL golf league: Tiger Woods confirms comeback for Jupiter Links GC",
+      "speaker": "Sky Sports, quoting Tiger Woods post-match",
+      "date": "2026-03-25",
+      "locator": "Post-match quote",
+      "excerpt": "As a team, we were together in this, all of us together, and it was close. ... We're not out of this. Even with a loss we're still not out of it.",
+      "context": "His first TGL appearance of 2026, on 2026-03-24, three days before the crash; last confirmed competitive appearance found.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S47",
+      "url": "https://www.pgatour.com/article/news/latest/2026/03/27/tiger-woods-arrested-dui-after-rollover-car-crash-jupiter-florida",
+      "title": "Tiger Woods arrested at crash scene on suspicion of DUI, sheriff says",
+      "speaker": "Associated Press via PGATour.com, quoting Martin County Sheriff John Budensiek",
+      "date": "2026-03-27",
+      "locator": "Crash details; sheriff quotes",
+      "excerpt": "investigators at the scene found Woods to be showing signs of impairment / Woods and the person in the other vehicle were not injured.",
+      "context": "Rollover on Jupiter Island just after 2 p.m. ET on 2026-03-27 after clipping a truck's trailer while passing. Breath test negative; he refused a urine test. Charged with misdemeanor DUI with property damage and refusal to submit to a lawful test.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S48",
+      "url": "https://www.pgatour.com/article/news/latest/2026/03/31/tiger-woods-announces-stepping-away-from-pro-golf-following-car-accident-statement-arrest-masters",
+      "title": "Tiger Woods announces he's stepping away from golf to seek treatment, focus on his health",
+      "speaker": "Paul Hodowanic (PGA Tour), quoting Tiger Woods' statement",
+      "date": "2026-03-31",
+      "locator": "Statement block; crash facts",
+      "excerpt": "I know and understand the seriousness of the situation I find myself in today. I am stepping away for a period of time to seek treatment and focus on my health. This is necessary in order for me to prioritize my well-being and work toward lasting recovery. / ask for privacy for my family, loved ones and myself at this time.",
+      "context": "The PGA Tour rendering omits a sentence present in Fox's copy (S49); the fetch tool may have dropped it. He had pleaded not guilty on the same day.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S49",
+      "url": "https://www.foxnews.com/sports/tiger-woods-stepping-away-from-golf-seek-treatment-following-dui-arrest.print",
+      "title": "Tiger Woods stepping away from golf to 'seek treatment' following DUI arrest",
+      "speaker": "Scott Thompson (Fox News), quoting Woods' statement and the arrest affidavit",
+      "date": "2026-03-31",
+      "locator": "Statement block; affidavit excerpts; plea paragraph; affidavit account (reopened 2026-10-04)",
+      "excerpt": "I'm committed to taking the time needed to return in a healthier, stronger, and more focused place, both personally and professionally. / Affidavit: two white pills inside Woods' left side pant pocket / Woods (2026-03-31): I am stepping away for a period of time to seek treatment and focus on my health. / Affidavit (reported speech): Woods said he was looking down at his cell phone and changing the radio station and did not notice the vehicle in front of him slowing down. / Woods entered a not guilty plea, waived his arraignment and demanded a jury trial.",
+      "context": "Affidavit identifies the pills as hydrocodone. What Woods told deputies (phone and radio distraction) is reported speech in the affidavit, not a direct quote. He pleaded not guilty and requested a jury trial.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S50",
+      "url": "https://www.pgatour.com/article/news/latest/2026/04/01/pga-of-america-announces-tiger-woods-will-not-be-us-ryder-cup-captain",
+      "title": "PGA of America: Tiger Woods will not be next U.S. Ryder Cup captain",
+      "speaker": "Paul Hodowanic (PGA Tour), quoting the PGA of America",
+      "date": "2026-04-01",
+      "locator": "Statements",
+      "excerpt": "Woods has shared with us that he will not serve as Captain.",
+      "context": "2027 U.S. Ryder Cup captaincy (Adare Manor). Communicated through the institution; no direct Woods quote.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S51",
+      "url": "https://www.aljazeera.com/sports/2026/4/2/tiger-woods-declines-2027-ryder-cup-captaincy-can-leave-us-for-treatment",
+      "title": "Tiger Woods declines 2027 Ryder Cup captaincy; can leave US for treatment",
+      "speaker": "Reuters via Al Jazeera, quoting the defense motion and court",
+      "date": "2026-04-02",
+      "locator": "Ruling and motion paragraphs; PGA of America statement (reopened 2026-10-04)",
+      "excerpt": "Judge Darren Steele approved Woods' request to leave the United States for an 'intensive, highly individualized and medically integrated program'. The motion cited his 'complex clinical presentation' and said 'his privacy has been repeatedly compromised'. PGA of America: 'Tiger has shared with us that he will not serve as the Captain of the 2027 US Ryder Cup Team and we support his decision.'",
+      "context": "The filing describes the program, not the condition treated. Clinical details were not disclosed.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S52",
+      "url": "https://www.espn.com/golf/story/_/id/49155213/tiger-woods-makes-first-public-appearance-dui-arrest",
+      "title": "Tiger Woods makes first public appearance since DUI arrest",
+      "speaker": "Mark Schlabach (ESPN), quoting Tiger Woods' prepared remarks",
+      "date": "2026-06-23",
+      "locator": "Press conference at TPC River Highlands",
+      "excerpt": "It was about bringing together different perspectives, having honest, hard conversations, and thinking boldly about what is best for the game that we all love. / We have to look forward and beyond today and over the horizon to set up the PGA Tour and our sport for the future generations of players and fans.",
+      "context": "Spoke as chairman of the PGA Tour Future Competition Committee, read a prepared statement and took no questions. He did not mention the arrest or his playing future.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S53",
+      "url": "https://abcnews.com/US/tiger-woods-plea-dui-case-drivers-license-suspended/story?id=136125302",
+      "title": "Tiger Woods changes plea in DUI case, driver's license suspended for 5 years",
+      "speaker": "Emily Shapiro (ABC News)",
+      "date": "2026-09-02",
+      "locator": "Plea and charge paragraphs (reopened 2026-10-04)",
+      "excerpt": "Woods ... change[d] his plea to no contest. / He initially pleaded not guilty to driving under the influence with property damage and refusal to submit to a lawful test. / The prosecution amended the first charge to reckless driving, second offense, and the second charge to a careless driving citation. / The judge imposed a five-year driver's license suspension on both charges, to run concurrently.",
+      "context": "Charges were amended to reckless driving (second offense) and a careless-driving citation. No statement from Woods quoted.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S54",
+      "url": "https://www.cbssports.com/golf/news/tiger-woods-plea-deal-reckless-driving-dui-florida/",
+      "title": "Tiger Woods takes plea deal for reckless driving in DUI case, loses driver's license for five years",
+      "speaker": "CBS Sports",
+      "date": "2026-09-02",
+      "locator": "Lead paragraphs (opened via direct download)",
+      "excerpt": "Woods amended his plea to guilty, accepting a reduced charge of reckless driving and refusal to submit to a lawful test as part of a deal that allows him to avoid jail time. / He ultimately did not play during the PGA Tour season.",
+      "context": "CONFLICT with S53 on plea type (guilty vs no contest) and on how the refusal charge was resolved. Describe it as a plea deal on reduced charges unless the court record is checked.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S55",
+      "url": "https://vault.si.com/vault/1996/12/23/the-chosen-one",
+      "title": "The Chosen One",
+      "speaker": "Gary Smith (Sports Illustrated, Sportsman of the Year)",
+      "date": "1996-12-23",
+      "locator": "Not opened (HTTP 404 from SI Vault)",
+      "excerpt": "Not opened.",
+      "context": "Original of the reproduced copy at S56. Quotes from it need checking against the original or the anthology reprint.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S56",
+      "url": "https://harmeetsinghgill.wordpress.com/2012/03/19/the-chosen-one/",
+      "title": "The Chosen One by Gary Smith (reproduced on a personal blog)",
+      "speaker": "Gary Smith (Sports Illustrated), quoting Earl, Kultida and Tiger Woods; unauthorized reproduction",
+      "date": "1996-12-23",
+      "locator": "Earl's prophecy section; training paragraph; Tiger on purpose; Buddhism",
+      "excerpt": "Earl: Tiger will do more than any other man in history to change the course of humanity / Earl: He's the Chosen One. He'll have the power to impact nations. Not people. Nations. / Tiger: I don't see any of this as scary or a burden. I see it as fortunate. I've always known where I wanted to go in life. I've never let anything deter me. This is my purpose. It will unfold. / Tiger: I like Buddhism because it's a whole way of being and living. It's based on discipline and respect and personal responsibility. / Kultida: He can hold everyone together. He is the Universal Child.",
+      "context": "Not independent and fidelity unverified. Smith's narration of Earl's training (dropping bags, jingling change, the 'Enough' stop word) is author narration almost certainly sourced from Earl. Earl's prophecy also appears in GQ 1997 (S26), so the 'humanity' line is corroborated.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S57",
+      "url": "https://www.espn.com/golf/news/story?id=2431912",
+      "title": "Tiger Woods' father, Earl, succumbs to cancer",
+      "speaker": "ESPN/AP obituary, quoting Tiger Woods and earlier Earl Woods interviews",
+      "date": "2006-05",
+      "locator": "Obituary body",
+      "excerpt": "Tiger: My dad was my best friend and greatest role model, and I will miss him deeply. / Tiger (foreword): In retrospect, golf for me was an apparent attempt to emulate the person I looked up to more than anyone: my father. / Earl: I tried to break him down mentally, tried to intimidate him verbally, by saying, 'Water on the right, OB on the left,' just before his downswing. / Earl: You've completed the training...You'll never run into another person as mentally tough as you. / Earl: my purpose in raising Tiger was not to raise a golfer. I wanted to raise a good person.",
+      "context": "Earl died 2006-05-03. Tiger's statement is a crafted release; the foreword's book is not named. Earl's quotes are recycled from earlier AP and Golf Digest interviews.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S58",
+      "url": "https://www.theglobeandmail.com/sports/golf/earl-woods-helped-legend-of-tiger-grow/article729239/",
+      "title": "Earl Woods helped legend of Tiger grow",
+      "speaker": "Lorne Rubenstein (The Globe and Mail), quoting Earl and Tiger Woods",
+      "date": "2006-05-05",
+      "locator": "Body",
+      "excerpt": "Earl: Let the legend grow. / Earl (from Tim Rosaforte's book): There's a dark side to me. I pulled every nasty, dirty, ungodly trick on him. He'll tell you today it was one of the toughest periods of his life. / Tiger (How I Play Golf): Pop gave me many great lessons, not only about golf, but about life. His greatest advice to me was to always be myself.",
+      "context": "Direct evidence that Earl managed the legend deliberately, which is a reason to discount his own anecdotes. The Rosaforte quote is second-hand.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S59",
+      "url": "https://golf.com/news/tiger-woods-earl-lessons-disruptive-charlie/",
+      "title": "How Tiger Woods is using Earl's disruptive lessons with Charlie",
+      "speaker": "GOLF.com, quoting Tiger Woods (Sports Illustrated, 1995-03-27)",
+      "date": "unknown",
+      "locator": "Body: 1995 SI quote",
+      "excerpt": "I mean, yeah, I'd get angry sometimes. But I knew it was for the betterment of me. That's what learning is all about, right?",
+      "context": "Earliest Tiger-voice account of Earl's training (age 19), relayed from Rick Reilly's SI piece (SI Vault 404). A second quote in the same article reads in Earl's voice and is misattributed or ambiguous; do not use it.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S60",
+      "url": "https://www.espn.com/golf/theopen14/story/_/id/11204462/tiger-woods-history-resurfaces-hoylake-open-championship-royal-liverpool-golf",
+      "title": "Tiger Woods' history resurfaces at Hoylake",
+      "speaker": "Farrell Evans (ESPN), recalling Tiger Woods' 2006 remarks",
+      "date": "2014-07-12",
+      "locator": "Recap of the 2006 Open",
+      "excerpt": "I'm kind of the one who bottles things up a little bit and moves on, tries to deal with things in my own way / But at that moment it just came pouring out and of all the things that my father has meant to me and the game of golf, and I just wish he could have seen it one more time.",
+      "context": "2006 quotes recycled in 2014. Wording of the last clause conflicts with TheOpen.com (S61); check the 2006 transcript.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S61",
+      "url": "https://www.theopen.com/previous-opens/135th-open-royal-liverpool-2006",
+      "title": "135th Open, Royal Liverpool 2006",
+      "speaker": "The Open (R&A), quoting Tiger Woods",
+      "date": "2006-07",
+      "locator": "Final-round recap",
+      "excerpt": "I wish he could have seen this one last time,",
+      "context": "Official retrospective; his first major after Earl's death and after his first missed major cut as a pro.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S62",
+      "url": "https://www.nbcnews.com/id/wbna12161037",
+      "title": "With 'best friend' on his mind, Tiger focused",
+      "speaker": "Leonard Shapiro (Washington Post via NBC News), quoting Tiger Woods",
+      "date": "2006-04-05",
+      "locator": "2006 Masters pre-tournament press quotes",
+      "excerpt": "I've been dealing with it for years, so nothing has changed. It is what it is and you just deal with it. / It's always been family first. Our family, golf has always come down the road. / I'll never not take that bet",
+      "context": "About a month before Earl's death, in a guarded press setting.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S63",
+      "url": "https://golf.com/news/tiger-woods-first-coach-rudy-duran/",
+      "title": "No one knew Tiger Woods' talent better than his first coach Rudy Duran",
+      "speaker": "Alan Shipnuck (GOLF.com), interviewing Rudy Duran",
+      "date": "2020-04-10",
+      "locator": "Course tour at Heartwell; reflections",
+      "excerpt": "He's a wizard at playing golf. Always has been. / He's made some double bogeys in life, but I'm very impressed with the way he's dug in and kept going.",
+      "context": "First coach from age four; recall decades later; Duran has his own book about Woods.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S64",
+      "url": "https://golf.com/news/tiger-woods-40-biggest-moments-television-debut-at-age-2/",
+      "title": "Tiger Woods' 40 Biggest Moments: Television Debut at Age 2",
+      "speaker": "GOLF.com, quoting Mike Douglas",
+      "date": "unknown",
+      "locator": "Body",
+      "excerpt": "Mike Douglas: That tape has played all over the world. ... And the most exposure I got was for the show with Tiger Woods.",
+      "context": "Retrospective listicle. Establishes national TV exposure at age two (1978); does not document who arranged it.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S65",
+      "url": "https://www.cbsnews.com/news/tigers-mother-defends-her-son/",
+      "title": "Tiger's Mother Defends Her Son",
+      "speaker": "CBS/AP, quoting Kultida Woods",
+      "date": "2010-02-19",
+      "locator": "Remarks on the day of the apology",
+      "excerpt": "Golf is just like life, when you make a mistake, you learn from your mistake and move on stronger. / It's not easy to be him.",
+      "context": "A mother defending her son on the day of the televised apology.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S66",
+      "url": "https://www.pgatour.com/article/news/latest/2025/02/04/tiger-woods-mom-kutilda-passes-away",
+      "title": "Kultida Woods, mother of Tiger Woods, dies",
+      "speaker": "Paul Hodowanic (PGA Tour), quoting Tiger Woods",
+      "date": "2025-02-04",
+      "locator": "Statement; Bob Jones Award remarks (June 2024)",
+      "excerpt": "Woods (Bob Jones Award, 2024): My Mom doesn't get enough credit. They all thought that it was me and Dad on the road, which it was, but Mom was at home.",
+      "context": "Memorial piece. Woods himself corrects the Earl-centred origin story.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S67",
+      "url": "https://www.golfdigest.com/story/tida",
+      "title": "Tida In Thailand",
+      "speaker": "Golf Digest, quoting Kultida Woods",
+      "date": "unknown",
+      "locator": "Not opened (HTTP 403)",
+      "excerpt": "Snippet only, not verified: a widely repeated Kultida line about going 'for the throat' and 'kill them' in sport.",
+      "context": "The most-cited Kultida competitiveness quote is unverified. Do not publish until opened.",
+      "kind": "testimony",
+      "access": "unavailable"
+    },
+    {
+      "id": "S68",
+      "url": "https://archive.seattletimes.com/archive/19970423/2535313/tiger-woods-says-hes-not-just-black",
+      "title": "Tiger Woods Says He's Not Just Black",
+      "speaker": "Michael A. Fletcher (Washington Post, via Seattle Times), quoting Tiger Woods",
+      "date": "1997-04-23",
+      "locator": "Lead",
+      "excerpt": "Growing up, I came up with this name: I'm a 'Cablinasian,'",
+      "context": "From an Oprah Winfrey Show taping days after the 1997 Masters. He described the term as a blend of Caucasian, black, Indian and Asian (reporter's paraphrase).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S69",
+      "url": "https://www.golfdigest.com/story/tiger-woods-exclusive-interview",
+      "title": "Exclusive: Tiger Woods discusses golf future in first in-depth interview since car accident (original)",
+      "speaker": "Tiger Woods interviewed by Henni Zuël (Golf Digest)",
+      "date": "2021-11-29",
+      "locator": "Not opened (HTTP 403)",
+      "excerpt": "Not opened.",
+      "context": "Original of S39/S40. Verify quotes against it or the video before publishing.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S70",
+      "url": "https://slate.com/news-and-politics/2000/07/gandhi-and-tiger-woods.html",
+      "title": "Gandhi and Tiger Woods",
+      "speaker": "Slate, quoting Earl Woods and Kultida Woods from Gary Smith's 1996 Sports Illustrated article",
+      "date": "2000-07",
+      "locator": "Opening epigraph quotes and the sentence attributing them to Smith's SI article",
+      "excerpt": "“Tiger will do more than any other man in history to change the course of humanity. … He is the Chosen One. He’ll have the power to impact nations. Not people. Nations.”— Earl Woods, Tiger’s father / These quotes come from an article by Gary Smith published in Sports Illustrated three years ago.",
+      "context": "Opened 2026-10-04 during the draft stage via direct download. An independent 2000 publication quoting the SI original, so it corroborates Earl's 'Chosen One ... Nations' line beyond the unauthorized blog copy (S56). It does not include Tiger's 'This is my purpose. It will unfold.' reply, which remains verified only by S56 and is not used in the draft.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S71",
+      "url": "https://en.wikipedia.org/wiki/Tiger_Woods",
+      "title": "Tiger Woods",
+      "speaker": "Wikipedia contributors",
+      "date": "2026-10-04",
+      "locator": "Lead section and infobox (birth_date, birth_place); REST summary; majors ranking; Tiger Slam paragraph; spouse field; 2022 Masters paragraph (reopened 2026-10-04)",
+      "excerpt": "Eldrick Tont \"Tiger\" Woods is an American professional golfer. ... Woods is tied for first in PGA Tour wins, ranks second in men's major championships ... | birth_date = {{birth date and age|1975|12|30}} | birth_place = [[Cypress, California]], U.S. / When Woods won the 2001 Masters, he became the only player to win four consecutive major professional golf titles, although not in the same calendar year. This achievement came to be known as the 'Tiger Slam'. / Spouse: Elin Nordegren (m. 2004; div. 2010) / [2022 Masters] He made the cut and finished in 47th place at 13-over par.",
+      "context": "Tertiary reference, used only for biographical facts: birth date and place, the majors ranking (second among men), the Tiger Slam definition, the 2004 marriage and 2010 divorce, and the 2022 Masters cut. Not used for any interpretive claim.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S72",
+      "url": "https://www.espn.com/golf/story/_/id/44210106/tiger-woods-career-injuries-ruptured-achilles-tendon",
+      "title": "Tiger Woods injuries: Timeline of some of the injuries from Tiger's career",
+      "speaker": "ESPN staff",
+      "date": "2025-10-12",
+      "locator": "Timeline entries: July 2007 ACL; 2008 U.S. Open tibia; April 20, 2017 back surgery; April 9 and April 19, 2023 Masters withdrawal and ankle surgery; March 2025 Achilles",
+      "excerpt": "Woods ruptured the anterior cruciate ligament in his left knee while at home running after the 2007 British Open. / Woods had a double stress fracture in his left tibia as a result of his preparation for the U.S. Open. / April 20, 2017: Back surgery. / April 9, 2023: Withdraws from Masters. / April 19, 2023: Ankle surgery [subtalar fusion]. / [March 2025] rupturing his left Achilles tendon while ramping up training and practice at home.",
+      "context": "Compiled injury timeline published October 12, 2025. Used only for dated medical/competition facts; it gives the 2017 fusion date (April 20), which corrects the draft's surgery-to-arrest interval.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S73",
+      "url": "https://www.pressdemocrat.com/2009/12/11/text-of-statement-by-tiger-woods/",
+      "title": "TEXT OF STATEMENT BY TIGER WOODS",
+      "speaker": "Tiger Woods (website statement), reproduced by The Press Democrat (AP)",
+      "date": "2009-12-11",
+      "locator": "Full statement",
+      "excerpt": "I am deeply aware of the disappointment and hurt that my infidelity has caused to so many people, most of all my wife and children. / After much soul searching, I have decided to take an indefinite break from professional golf. I need to focus my attention on being a better husband, father, and person.",
+      "context": "Opened replacement for the geo-blocked CNN copy (S04). Written statement nine days after the December 2, 2009 privacy statement (S03); his first public use of the word infidelity.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S74",
+      "url": "https://www.foxnews.com/sports/tiger-woods-taking-break-from-golf-admits-infidelity",
+      "title": "Tiger Woods taking break from golf, admits infidelity",
+      "speaker": "Jim Loney and Pascal Fletcher (Reuters), via Fox News",
+      "date": "2009-12-11",
+      "locator": "Lead and background paragraphs",
+      "excerpt": "Woods' use of the word 'infidelity' apparently amounts to his first public admission ... amid claims by multiple women, in the weeks since his Nov. 27 auto accident, that they had affairs with him.",
+      "context": "Contemporaneous wire report. Used only to establish that the two weeks after the crash brought public claims by several women; the article does not repeat tabloid counts or names.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S75",
+      "url": "https://www.npr.org/2010/02/19/123898292/tiger-woods-apologizes-for-affairs",
+      "title": "Tiger Woods Apologizes For Affairs",
+      "speaker": "Mike Pesca (NPR, All Things Considered), reporting from Ponte Vedra Beach",
+      "date": "2010-02-19",
+      "locator": "Broadcast transcript, Pesca's description of the room and format",
+      "excerpt": "The you in question was an assemblage of family and employees in a room at the 77,000-square-foot clubhouse at the TPC at Sawgrass golf course. Though no questions were allowed, there were to be six reporters on hand, but only the three from the wire services chose to attend. / [Bob Harig, ESPN:] This wasn't a news conference. This is a staged choreographed deal.",
+      "context": "Same-day reporting from the event (opened at repair 2026-10-04). Establishes the venue (TPC Sawgrass clubhouse), the invited audience (family and employees) and that no questions were allowed; the Golf Writers Association boycotted the event. The AP report via MPR News (mprnews.org/story/2010/02/19/tiger-woods-speech) confirms the clubhouse at TPC Sawgrass and 'about 40 people' but its current text does not state the no-questions rule, so NPR is the cited source (V-04).",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "In his 2010-02-19 statement Woods explained the affairs in his own words: 'I convinced myself that normal rules didn't apply', 'I felt that I had worked hard my entire life and deserved to enjoy all the temptations around me. I felt I was entitled.'",
+      "passage": "I felt that I had worked hard my entire life and deserved to enjoy all the temptations around me. I felt I was entitled.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "inference": "His own account links achievement to exemption: a lifetime of earned results bought a private reward and a suspension of rules. 'Convinced myself' is self-deception language. This supports a worth-through-achievement reading (Type 3's self-deceptive image) more than appetite for intensity as such.",
+      "alternative": "The statement was prepared, read after 45 days of inpatient therapy, and uses treatment vocabulary ('convinced myself', 'entitled'); it is his post-treatment public account, not a contemporaneous record of what he told himself in 2009. It may be the account therapy taught him to give. The edit says so in the opening and the 2010 section.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "The same statement reframed his worth from results to character and asked for restored belief: 'it's not what you achieve in life that matters, it is what you overcome. Achievements on the golf course are only part of setting an example', apologized to families who 'used to point to me as a role model', to 'business partners', and closed: 'I ask you to find room in your hearts to one day believe in me again.'",
+      "passage": "He offered a new measure of worth: \"it's not what you achieve in life that matters, it is what you overcome.\" He ended by asking the public to \"one day believe in me again.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "inference": "The repair he sought was in how he was seen: role model, belief, partners. Speaking of image restoration this directly fits a 3's concern with being regarded as valuable.",
+      "alternative": "Sponsors (Accenture, Gillette, AT&T had dropped or paused him) and an image-based fortune gave commercial reasons to ask for belief whatever his type; crisis PR norms dictate such language.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "On 2009-12-02 Woods' written statement regretted unnamed 'transgressions', called privacy 'an important and deep principle', said 'Personal sins should not require press releases and problems within a family shouldn't have to mean public confessions', and said he must 'stick to that principle even though it's difficult'.",
+      "passage": "Five days later he posted a statement that regretted unnamed \"transgressions\" and set a boundary: privacy was \"an important and deep principle,\" \"Personal sins should not require press releases and problems within a family shouldn't have to mean public confessions,\" and he would \"stick to that principle even though it's difficult\"",
+      "class": "observed",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "His first, least commercially pressured response to exposure was a boundary, not image repair. The edit treats it as counterevidence to the picture-repair reading (closer to an Eight holding a line or a Five closing a door).",
+      "alternative": "Privacy statements are standard advice for public figures in a breaking scandal; it also admitted wrongdoing in general terms, so it was not a denial.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "Former American Media CEO David Pecker testified under oath on 2024-04-26 that he bought the 2007 photos of Woods and buried them in return for Woods appearing in Men's Fitness. In 2010 the WSJ (via S10), citing anonymous people directly involved, reported that Woods agreed to the shoot in exchange and that his representatives made the offer; there is no first-hand account of Woods' own words or decision. The article does not name the woman photographed.",
+      "passage": "On April 26, 2024, testifying under oath in an unrelated trial, the publisher's former chief executive, David Pecker, said he had bought the photos and buried them in return for Woods appearing in the magazine",
+      "class": "third_party",
+      "source_ids": [
+        "S09",
+        "S10"
+      ],
+      "inference": "A costly, deliberate image trade: he supplied an idealized public image (fitness and marriage) to keep a contradicting one hidden. This is the clearest observed act of protecting an image rather than confronting a threat.",
+      "alternative": "Brand protection was worth tens of millions in endorsements, so his representatives may have driven the decision; the WSJ's sources are anonymous and no first-hand account of Woods' role exists. Pecker's testimony came 17 years later in an unrelated trial. 'Blackmail' is a reporter's word, not a finding. Almost anyone with a marriage and sponsors at stake would want such a story killed, so the article treats the trade as non-discriminating (C80).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "In his 2017 book Woods wrote: 'I probably came back too early from some of the surgeries, but I was single-minded in my desire to compete and my need for competition.'",
+      "passage": "\"I probably came back too early from some of the surgeries, but I was single-minded in my desire to compete and my need for competition\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "He names competing as a need, not just a preference, and accepts physical cost for it. Consistent with identity fused with performance.",
+      "alternative": "Elite athletes broadly describe competition as a need; career incentives, sponsor obligations and fear of decline explain early returns. Also fits an 8's refusal to yield to the body.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "Steve Williams says he asked Woods three times during the 2008 U.S. Open whether to carry on and got 'F--- you, Stevie, I'm winning this tournament' each time.",
+      "passage": "His caddie, Steve Williams, asked three times whether carrying on was right and got the same reply: \"F--- you, Stevie, I'm winning this tournament.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S06",
+        "S17"
+      ],
+      "inference": "Overriding medical advice and his own caddie to win shows willpower and an extreme priority on winning the biggest events.",
+      "alternative": "This is the strongest single datum for Type 8 (defiance, dominance, denial of vulnerability). Haney and Williams both later fell out with Woods. Major titles also drove his legacy and earnings. Two witnesses with independent vantage points agree, which strengthens the fact but not the motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "After winning the 1997 Masters by a record 12 shots, Woods rebuilt his swing; in How I Play Golf (2001) he wrote: 'I didn't see one flaw. I saw about 10 ... by my standard, I felt I had gotten away with murder.'",
+      "passage": "\"I didn't see one flaw. I saw about 10,\" he wrote in _How I Play Golf_ (2001). \"I had struck the ball great that week, but by my standard, I felt I had gotten away with murder.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Accepting a short-term slump after a record win to secure dominance every week. The stated goal is consistent results under pressure, not appearance. Repeated with Haney (2004) and later coaches.",
+      "alternative": "The perfectionist standard ('by my standard') supports Type 1; the mastery-and-control rationale supports Type 5; the impatience fits 8. A 3 reading has to treat the rebuild as investment in future winning, which is plausible but not unique.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "In his 2022-03-09 Hall of Fame speech Woods credited his father ('Dad, who's not here, but who instilled in me this work ethic') with the rule: 'nothing's ever going to be given to you, everything's going to be earned ... you don't deserve it. You need to earn it. So that defined my upbringing. That defined my career' (ASAP Sports wording).",
+      "passage": "\"nothing's ever going to be given to you, everything's going to be earned. If you don't go out there and put in the work ... one, you're not going to get the results, but two, and more importantly, you don't deserve it. You need to earn it. ... That defined my career\"",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S12"
+      ],
+      "inference": "He states a rule that ties deservingness to earned results, the same logic he used in 2010 to excuse himself ('worked hard ... deserved'). The repetition across 12 years and opposite contexts (confession vs celebration) is the strongest self-report thread for a worth-through-achievement motive.",
+      "alternative": "This is also a Type 1 moral rule about effort and fairness, and a widely shared athlete ethic shaped by Earl's military values and racial exclusion ('twice as good to be given half a chance', S14). The ASAP transcript (opened 2026-10-04) ties the clause to his father; Golf Channel's rendering differs slightly in wording.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "Woods said in 2022: 'I made practicing so difficult, hurt so much, because I wanted to make sure that I was ready come game time. I hit thousands of balls, hands bleeding, aching, just so that I could play in a tournament.'",
+      "passage": "I hit thousands of balls, hands bleeding, aching, just so that I could play in a tournament",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S14"
+      ],
+      "inference": "Self-imposed pain in service of being ready to compete; used in the edit against the Seven reading (decades of grinding practice).",
+      "alternative": "Fits 8 (toughness, pain tolerance), 1 (discipline) and Earl's 'train hard, fight easy' military code as learned practice rather than motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "At the 2022 Open Woods said LIV players were 'just getting paid a lot of money up front and playing a few events' and asked 'What is the incentive to go out there and earn it in the dirt?'",
+      "passage": "His 2022 attack on LIV Golf, a rival league whose players, he said, were \"getting paid a lot of money up front,\" shows only that he means it: \"What is the incentive to go out there and earn it in the dirt?\"",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "The earned-equals-deserving rule is sincerely held across contexts. The edit labels this as consistent with several types, not a discriminator.",
+      "alternative": "Institutional loyalty to the PGA Tour, where he spent his career, explains part of it; an Eight's contempt or a One's moral desert would produce the same words.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "One unnamed friend, in a single continuous quotation to Wright Thompson: 'the real Tiger Woods isn't that marketable. There isn't a lot of money to be made off a guy who just wants to be left alone to read a book. Or left alone to play fetch with his dog. ... Do you see a trend? Tiger was a natural introvert, and the financial interest for him to be extroverted really drove a wedge in his personality.'",
+      "passage": "\"Frankly, the real Tiger Woods isn't that marketable. There isn't a lot of money to be made off a guy who just wants to be left alone to read a book. Or left alone to play fetch with his dog. ... Do you see a trend? Tiger was a natural introvert, and the financial interest for him to be extroverted really drove a wedge in his personality.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "One friend perceives a gap between a commercially produced public self and a private, quieter self. The split between performed image and inner self is central to both the Three and the Five readings; the article reads it both ways (C14).",
+      "alternative": "Read straightforwardly, the private self described here (introverted, wanting to be left alone) is the strongest evidence for Type 5 with a commercially imposed persona. One unnamed source, hindsight framing; the ellipsis marks three omitted 'left alone' items. Corrected at repair: the edit split this into two friends (V-01).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "Asked by Notah Begay about a Halloween costume, Woods texted: 'I'm going as a golfer known as Tiger Woods.'",
+      "passage": "Woods texted: \"I'm going as a golfer known as Tiger Woods.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "His own joke treats 'Tiger Woods' as a costume, an awareness that the public figure is a role. Supports the image/self gap in C12.",
+      "alternative": "Thompson presents it as humor during a hard period. One joke cannot carry a motive claim.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "Wright Thompson's narration (2016): talk to enough people who have met Woods 'and it starts to seem like he's doing an impersonation of what he thinks a superstar athlete is supposed to be.'",
+      "passage": "\"it starts to seem like he's doing an impersonation of what he thinks a superstar athlete is supposed to be.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "A reporter's synthesis of many interviews: the public persona is rehearsed and modeled on an idea of what a star should be.",
+      "alternative": "The same aloofness counts against a 3's usual charm and adaptiveness; it fits 5's detachment or 8's indifference to approval. Author narration, not testimony.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "Rachel Uchitel said in HBO's 'Tiger' (2021) that Woods 'was sick of trying to hide who he was but he was so scared of the real Tiger not living up to the Tiger that everybody else thinks he is.'",
+      "passage": "\"He was sick of trying to hide who he was but he was so scared of the real Tiger not living up to the Tiger that everybody else thinks he is\"",
+      "class": "third_party",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "If accurate, this names a fear of the real self failing the public image. That is close to the Type 3 core fear stated in plain language.",
+      "alternative": "Her interpretation, from a party with an interest in her own rehabilitation; sensitive. Do not lean on it without the independent support of C04, C12 and C13.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "After Earl Woods died on 2006-05-03, Woods left Kansas 77 minutes after landing for the burial, visited a SEAL training facility 25 days after the burial and 15 days before the 2006 U.S. Open (where he missed his first major cut as a pro), told a SEAL his reason was 'My dad', and spent his 31st birthday (2006-12-30) skydiving with SEALs.",
+      "passage": "At the burial in Kansas, Thompson reported, Tiger took off again 77 minutes after landing. Twenty-five days after the burial and 15 days before the U.S. Open, he went back to visit Navy SEAL training. A SEAL, John Brown, asked why he was there. \"My dad,\" Woods said, explaining that Earl had told him he would end up either a golfer or a special operations soldier. Woods missed the cut at that U.S. Open, and he spent his 31st birthday skydiving with SEALs",
+      "class": "observed",
+      "source_ids": [
+        "S17",
+        "S19"
+      ],
+      "inference": "Grief channeled into his father's world and a dangerous alternative identity, at real career cost (coach objections, a missed cut). It suggests identity searching after losing his primary audience and model.",
+      "alternative": "This is the strongest behavior the 3 hypothesis does not explain neatly: an arena with no audience and no golf payoff. It fits an 8's appetite for intensity, a 6's identification with his father's code, or grief alone. (Zinke's 'never got wet and sandy' was cut at edit for length; S17 still records it.)",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "Woods described himself in 2006: 'I'm kind of the one who bottles things up a little bit and moves on, tries to deal with things in my own way.'",
+      "passage": "\"I'm kind of the one who bottles things up a little bit and moves on\"",
+      "class": "self_report",
+      "source_ids": [
+        "S60"
+      ],
+      "inference": "Emotion is set aside for function and released only after the result. Consistent with a 3's suspended feelings in service of performance.",
+      "alternative": "Equally consistent with 5's compartmentalization, 8's guardedness against vulnerability, or Earl's explicit coaching not to let 'emotions get the better of you'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "After Charles P. Pierce's April 1997 GQ profile printed crude jokes Woods told in a limousine, Woods, then 21, said he was 'naive about the motives of certain ambitious writers'.",
+      "passage": "At 21, burned by a GQ profile that printed jokes he had told in a limousine, he blamed \"the motives of certain ambitious writers\"",
+      "class": "observed",
+      "source_ids": [
+        "S25",
+        "S26"
+      ],
+      "inference": "An early reputational wound followed by a long era of controlled, bland media access. Protecting image by restricting access.",
+      "alternative": "Media guardedness is also standard advice for a young star with large endorsements, and fits 5's privacy. The source chain does not prove the GQ episode caused the change.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "When Butch Harmon, by then a TV commentator, criticized him in the media in 2004, Woods objected that friends should 'go right up to my face and say it.'",
+      "passage": "Woods objected: \"If you go say something like that, you go right up to my face and say it\"",
+      "class": "self_report",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "Read both ways: a face-to-face code (Eight) and an objection that criticism went to the media rather than privately (Three).",
+      "alternative": "The 'say it to my face' code is a classic Type 8 marker. A 3 reading treats it as protecting his public narrative ('I am close') during a slump, which Harmon called 'denial'. Compressed at repair; 'doesn't really know what I'm working on' was cut for length.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "In Gary Smith's 1996 Sports Illustrated profile, Earl Woods proclaimed: 'He is the Chosen One. He'll have the power to impact nations. Not people. Nations.' Tiger's reported reply ('This is my purpose. It will unfold.') is not used because only an unauthorized reproduction (S56) was opened.",
+      "passage": "In 1996 Earl told Sports Illustrated: \"He is the Chosen One. He'll have the power to impact nations. Not people. Nations.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S70",
+        "S56",
+        "S26"
+      ],
+      "inference": "A parent publicly assigned the child an identity of world-historical achievement. Context for an identity built around performance, not evidence of the son's motive.",
+      "alternative": "Circumstance, not type: any child framed this way could internalize it. Earl was a self-described mythmaker ('Let the legend grow', S58). Slate (S70) independently quotes the SI line, and GQ 1997 (S26) records Earl's similar 'change the course of humanity' line.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "In 2013, when Charlie was four, Woods said that if his children played golf there would be 'no lessons ... just have fun'.",
+      "passage": "In 2013, when Charlie was four, he said that if his children played golf there would be \"no lessons\"",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "A change of mind: he came to reproduce his father's method, which shows how fully he endorses the training that formed him.",
+      "alternative": "Could reflect Charlie's own choices and talent rather than Woods' motive. The 2013 account of Earl steering him away from golf conflicts with biographers' accounts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "Woods appeared on national television (The Mike Douglas Show) at age two, in 1978.",
+      "passage": "He had been in public view far earlier, on _The Mike Douglas Show_ at two, in 1978",
+      "class": "observed",
+      "source_ids": [
+        "S64"
+      ],
+      "inference": "He performed for an audience before he could choose to. Context for an identity built around being watched.",
+      "alternative": "Circumstance alone; a 5 or 8 child could have had the same upbringing. Who arranged the appearance is not documented in opened sources.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "Woods said that as a junior 'I was not allowed in the clubhouses where all the other juniors were. The color of my skin dictated that. As I got older, that drove me even more', and that he put his shoes on in the parking lot and asked only where the first tee was and what the course record was.",
+      "passage": "\"I was not allowed in the clubhouses where all the other juniors were. The color of my skin dictated that. As I got older, that drove me even more,\" Woods said in 2022. He put his shoes on in the parking lot and asked two questions: \"Where was the 1st tee, and what was the course record.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Exclusion was converted into fuel for results; results were the answer to status denied.",
+      "alternative": "Racism is a real, external circumstance; this is resilience under discrimination, not proof of type. Also fits 8's defiance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "At the 2013 Masters Woods' own post-round account of dropping '2 yards further back' led to a two-stroke penalty rather than disqualification; he said he accepted the penalty and respected the committee's decision, and kept playing.",
+      "passage": "Neither does the 2013 Masters, where his own account of dropping \"2 yards further back\" led to a two-stroke penalty rather than disqualification. He said he would \"accept the penalty and respect the Committees' decision\" and kept playing",
+      "class": "observed",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Candor (One-like) plus compliance with a sanctioned ruling; the edit says the episode does not settle the One question either way.",
+      "alternative": "He said he was unaware he had broken a rule; staying in the field followed the committee's ruling, so it is not evidence of defiance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "On 2017-05-29, a little over a month after his April 20, 2017 spinal fusion, Woods was arrested for DUI in Jupiter, Florida; he called it 'an unexpected reaction to prescribed medications' and said 'I expect more from myself, too.'",
+      "passage": "On May 29, 2017, a little over a month after spinal fusion surgery, Woods was arrested for DUI in Jupiter, Florida. He called it \"an unexpected reaction to prescribed medications\" and said, \"I expect more from myself, too\"",
+      "class": "observed",
+      "source_ids": [
+        "S23",
+        "S72"
+      ],
+      "inference": "Self-managed medication during severe back pain; public framing shifted as facts emerged. 'I expect more from myself' is self-standard language.",
+      "alternative": "Sensitive medical/legal matter. Chronic pain and surgery are the main circumstantial explanation; this is not type evidence and must not be framed as character diagnosis.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "Woods won the 2019 Masters after the 2017 fusion surgery and arrest.",
+      "passage": "He came back to win the 2019 Masters.",
+      "class": "observed",
+      "source_ids": [
+        "S13",
+        "S71"
+      ],
+      "inference": "Context for the 2021 Everest quote about the post-fusion comeback.",
+      "alternative": "None material; a dated, completed result.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "On 2021-02-23 Woods crashed in Rolling Hills Estates, just outside Los Angeles; the LA County Sheriff said the primary cause was unsafe speed (84-87 mph in a 45 zone). No impairment evidence was found and no citation was issued.",
+      "passage": "After a February 23, 2021, crash in Rolling Hills Estates, near Los Angeles, which the sheriff attributed to unsafe speed, with no evidence of impairment and no citation",
+      "class": "observed",
+      "source_ids": [
+        "S41"
+      ],
+      "inference": "His public reply stressed gratitude and recovery, not the speed finding.",
+      "alternative": "An accident under investigation that found no impairment; no type inference should rest on it. Location follows the cited ESPN report (V-05).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "On 2026-03-27, three days after a TGL appearance, Woods was arrested on suspicion of DUI after a rollover crash on Jupiter Island, Florida. Per the sheriff's office and the arrest affidavit: breath test negative; he refused a urine test; two hydrocodone pills in his pocket.",
+      "passage": "he was arrested on suspicion of DUI after a rollover crash on Jupiter Island, Florida. According to the sheriff's office and the arrest affidavit, his breath test was negative, he refused a urine test and deputies found two hydrocodone pills in his pocket",
+      "class": "observed",
+      "source_ids": [
+        "S47",
+        "S49",
+        "S46"
+      ],
+      "inference": "Arrest-time allegations, all attributed to the sheriff/affidavit, later resolved by the 2026-09-02 plea (C69). Not type evidence.",
+      "alternative": "Allegations, not findings; the case ended in a plea to amended charges. The affidavit's account of what he told deputies (phone and radio distraction, S49) was cut at repair for length; it is not type evidence.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check if Woods returns to competition, makes a substantive public statement about his treatment, faces any further legal matter, or if any outlet corrects the 2026 arrest details."
+    },
+    {
+      "id": "C35",
+      "claim": "Woods' first public appearance after the 2026 arrest, on 2026-06-23 as chair of the PGA Tour Future Competition Committee, was a prepared statement with no questions; his criminal case was pending until 2026-09-02, and ESPN gave no reason for the format.",
+      "passage": "His first appearance afterward, on June 23, 2026, as chairman of a PGA Tour committee, was a prepared statement with no questions",
+      "class": "interpretation",
+      "source_ids": [
+        "S52",
+        "S49",
+        "S53"
+      ],
+      "inference": "No type inference. The edit names pending-case legal caution as a sufficient explanation and removed the earlier 'unchanged since 2009' pattern claim. Removed from type_hypothesis.for_claim_ids.",
+      "alternative": "Ordinary legal caution during a pending prosecution; also consistent with Five-style withdrawal.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check when Woods next gives an unscripted interview or press conference, or if his PGA Tour committee or board role changes."
+    },
+    {
+      "id": "C38",
+      "claim": "Steve Williams wrote that Woods would 'flippantly toss a club in the general direction of the bag' and had a 'habit of spitting at the hole if he missed a putt'.",
+      "passage": "Williams wrote that Woods would \"flippantly toss a club in the general direction of the bag\" and had a \"habit of spitting at the hole if he missed a putt\"",
+      "class": "third_party",
+      "source_ids": [
+        "S21",
+        "S22"
+      ],
+      "inference": "On-course temper was visible and recognized by Woods himself. Image management was not total.",
+      "alternative": "Counter to a pure 3 reading (a 3 usually polishes visible conduct); fits 8 or 1 anger. Williams has animus and book incentives; Woods' 2010 pledge to be 'more respectful of the game' fits the broader reports without confirming Williams' details (C73).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "In his first interviews after the scandal (2010-03-21) Woods said therapy meant 'stripping away denial and rationalization'.",
+      "passage": "A month later he said therapy meant \"stripping away denial and rationalization\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Supports the edit's point that the 2010 self-justification is phrased in treatment vocabulary.",
+      "alternative": "He may be describing real insight; vocabulary origin does not make the account false.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "Woods said in 2024 that his daughter Sam has 'a negative connotation to the game, because when she was growing up, golf took Daddy away from her.'",
+      "passage": "Sam has \"a negative connotation to the game, because when she was growing up, golf took Daddy away from her\"",
+      "class": "self_report",
+      "source_ids": [
+        "S33"
+      ],
+      "inference": "Names a family cost of his career.",
+      "alternative": "Ordinary travel cost of a touring athlete.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "Hank Haney said Woods 'wanted to be a Navy SEAL. For sure that was on his list'; agent Mark Steinberg said Haney twisted Woods' 'high respect for the military'.",
+      "passage": "Haney later said, \"He wanted to be a Navy SEAL. For sure that was on his list\"; Woods' agent, Mark Steinberg, said Haney had twisted Woods' \"high respect for the military\"",
+      "class": "disputed",
+      "source_ids": [
+        "S19",
+        "S20"
+      ],
+      "inference": "At his peak, he seriously pursued an identity outside golf tied to his father.",
+      "alternative": "Contested by his camp; sources have incentives (Haney's book) or are anonymous. Supports the unexplained-behavior column rather than any type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "Michael Jordan told Thompson that Woods has '... no companion' and is 'gonna have to trust somebody', framed as worry about his happiness.",
+      "passage": "Jordan's worry was isolation: Woods has \"no companion,\" he said, and \"He's gonna have to trust somebody.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "A friend's concern about isolation and trust; presented as concern, not as evidence of coldness.",
+      "alternative": "Friend's speculation. Low trust fits 5, 6 and 8 as much as 3. (Fregia's line and the father-infidelity detail were cut at edit as gratuitous.)",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "At 14 1/2 the family took out a second mortgage so Woods could play the AJGA tour; Golf Channel reported he paid it off with his first Titleist deal.",
+      "passage": "At 14 1/2, the family took out a second mortgage so he could play the national junior tour; Golf Channel reported that he paid it off with his first Titleist deal.",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S12"
+      ],
+      "inference": "Loyalty and repayment to family; achievement as provision.",
+      "alternative": "Fits many types; mainly a humanizing detail.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "In his 2017 memoir The 1997 Masters: My Story, Woods wrote of his ex-wife, Elin Nordegren: 'My dishonesty and selfishness caused her intense pain. My regret will last a lifetime.'",
+      "passage": "\"My dishonesty and selfishness caused her intense pain. My regret will last a lifetime.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Sustained ownership of the betrayal seven years later.",
+      "alternative": "Curated memoir voice.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C49",
+      "claim": "Eldrick Tont 'Tiger' Woods was born 1975-12-30 in Cypress, California.",
+      "passage": "Eldrick Tont \"Tiger\" Woods was born on December 30, 1975, in Cypress, California",
+      "class": "observed",
+      "source_ids": [
+        "S71",
+        "S17"
+      ],
+      "inference": "Factual metadata.",
+      "alternative": "Wikipedia is tertiary; the birth date is independently implied by Thompson's report that 2006-12-30 was his 31st birthday (S17). Birthplace rests on Wikipedia only.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "In his 2022 Hall of Fame speech Woods recounted sneaking onto the Navy Golf Course at 8 via 'The Ditch', taught by his Green Beret father to 'grab a piece of foliage, cover yourself up, listen for noise. If you hear anybody coming, lay still ... Part sniper', then playing with Earl until dark.",
+      "passage": "In the Hall of Fame speech, Woods explained how he got onto the Navy Golf Course as an underage 8-year-old. His mother dropped him at the entrance, and he slipped into a ditch on the side the clubhouse couldn't see. His father, \"a former special forces and a Green Beret,\" had \"taught me how to always grab a piece of foliage, cover yourself up, listen for noise. If you hear anybody coming, lay still.\" The room laughed. \"Part sniper.\" When Earl's cart came by after work, they played until dark",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S12"
+      ],
+      "inference": "A self-told childhood story of hiding unseen until it was time to play; the draft labels the link to his later guardedness as its own reading.",
+      "alternative": "A humorous anecdote told 38 years later in a celebratory setting; it describes Earl's military habits and a practical way to play underage, not a motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "Author interpretation: the Ditch story previews a recurring pattern of concealment until performance.",
+      "passage": "It is a funny story, and an early version of a skill that returns in this profile: staying out of sight until it is time to play.",
+      "class": "interpretation",
+      "source_ids": [
+        "S14",
+        "S12",
+        "S17"
+      ],
+      "inference": "Thematic link between the childhood anecdote and the later guarded public persona.",
+      "alternative": "Could be over-reading a funny, practical story; the draft presents it as the profile's framing, not as evidence of type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C52",
+      "claim": "Golf Channel reported Woods was slated to speak for seven minutes at the 2022 Hall of Fame induction and spoke for nearly 17, without notes or a teleprompter.",
+      "passage": "Slated to speak for seven minutes, he spoke for nearly 17, without notes",
+      "class": "observed",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Sets the unscripted context for the speech quotes.",
+      "alternative": "Reporter's account; timing approximate ('nearly 17').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C53",
+      "claim": "Author interpretation linking the 2010 self-justification and the 2022 speech: the same earned-equals-deserving rule.",
+      "passage": "It is the same rule both times: work earns results, and results make you deserving.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S14"
+      ],
+      "inference": "The central thread of the profile: the logic that built the career also supplied the 2010 excuse.",
+      "alternative": "Shared vocabulary could be coincidence or a common athlete ethic; the 2010 statement was scripted with advisers. The draft keeps both quotes verbatim so readers can judge the parallel.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C54",
+      "claim": "In the 2010-02-19 statement Woods said: 'I convinced myself that normal rules didn't apply.'",
+      "passage": "In 2010 it explained an exemption: \"I convinced myself that normal rules didn't apply.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "inference": "Self-deception language tied to the earned-exemption logic of C01.",
+      "alternative": "Scripted statement with therapy vocabulary; also readable as Eight-style rule defiance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "The draft's type thesis: Type 3 at medium confidence, Type 8 strongest alternative, Type 5 serious second.",
+      "passage": "Tiger Woods most likely fits Enneagram Type 3, the Achiever, at medium confidence.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S03",
+        "S09",
+        "S10",
+        "S14",
+        "S15",
+        "S17",
+        "S18"
+      ],
+      "inference": "Summarizes the type_hypothesis: the deserving rule across contexts plus image repair when picture and private reality diverged.",
+      "alternative": "Type 8 explains the 2008 U.S. Open, temper and the self-described craving; Type 5 explains the introversion and privacy. Confidence stays medium.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C56",
+      "claim": "In 2007 Woods appeared on a Men's Fitness cover with a 12-page story about his diet, workout regimen and marriage while the Enquirer's photos went unpublished. After the 2009 scandal, the New York Post reported the arrangement first; the WSJ, citing people directly involved, reported that Woods agreed to the shoot in return for the story being dropped; American Media denied it at the time.",
+      "passage": "Woods instead appeared on the cover of Men's Fitness with a 12-page story \"about his diet, workout regimen and marriage.\" After the 2009 scandal broke, The Wall Street Journal, following the New York Post and citing people directly involved, reported that Woods agreed to the shoot in return for the story being dropped; the Enquirer's publisher denied it",
+      "class": "third_party",
+      "source_ids": [
+        "S10",
+        "S09"
+      ],
+      "inference": "An observable image trade, reported by two outlets and later confirmed under oath by the other party (C04). Treated as consistent with but not proof of a Three (C80).",
+      "alternative": "The WSJ's sources are anonymous and no first-hand account of Woods' role exists; agents may have arranged it for commercial reasons.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "Hank Haney recalls that while the doctor showed the MRI, Woods was 'not really listening' and then said 'I'm playing the U.S. Open and I'm going to win.'",
+      "passage": "His coach, Hank Haney, remembered Woods \"not really listening\" as a doctor went through the MRI, then looking up: \"I'm playing the U.S. Open and I'm going to win.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Overriding medical information to pursue a major title.",
+      "alternative": "Haney later fell out with Woods; recalled ten years on. Strong Type 8 datum.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "Before the 2008 U.S. Open, with a 2007 ACL rupture he had played on and a new double stress fracture of the left tibia, Woods recalled that 'they were saying I was pretty much done for the year' and that he replied 'Ah, I don't know about that.'",
+      "passage": "Woods recalled: \"From there, they were saying I was pretty much done for the year. I said, 'Ah, I don't know about that.'\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "His own account confirms he set aside medical judgment to chase majors.",
+      "alternative": "Retrospective self-report in an anniversary oral history; consistent with Haney's and Williams' accounts. Fits Type 8 defiance as well as Type 3 priority on titles.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "Butch Harmon says he wanted Woods to take a year over the 1997-98 swing rebuild, but 'that's not Tiger Woods. He wanted to do it all right now.'",
+      "passage": "His coach, Butch Harmon, wanted to go slowly: \"But no, that's not Tiger Woods. He wanted to do it all right now.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Impatience for mastery after a record win.",
+      "alternative": "Decades-later recall; impatience fits Type 8 as readily as Type 3.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "Thompson's narration describes three stages: people who meet Woods for 30 seconds love him; people who spend several hours with him find him aloof and weird; people who know him long love him and are oddly protective.",
+      "passage": "\"People who meet him for 30 seconds love him, and people who spend several hours with him think he's aloof and weird, while people who hang around long enough to know him end up both loving him and being oddly protective.\" The first is what a Three predicts; the second is not.",
+      "class": "interpretation",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "Brief-contact charm fits a Three; the lapse after hours does not.",
+      "alternative": "Reporter's synthesis, not testimony; aloofness also fits Five or ordinary celebrity fatigue.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "Golf Channel's Ryan Lavner (2022) called Woods 'one of the most guarded athletes in history'.",
+      "passage": "He became, in Golf Channel's 2022 phrase, \"one of the most guarded athletes in history,\" though a young star with large endorsements had plenty of reasons to go quiet.",
+      "class": "third_party",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Long-run media guardedness.",
+      "alternative": "Commercial advice to a young star explains guardedness; causation from the GQ episode is not established, as the draft states.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C62",
+      "claim": "In 2004 Woods said of his swing work: 'he's never asked me and I've never talked to him about it and no one knows.'",
+      "passage": "the secrecy about his swing (\"no one knows,\" he said in 2004)",
+      "class": "self_report",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "Secrecy about process, cited as Type 5 evidence.",
+      "alternative": "Protecting a work in progress from a TV critic is ordinary competitive caution.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C63",
+      "claim": "In July 2006 Woods won the Open at Royal Liverpool, his first major after Earl's death and after his first missed major cut as a pro, broke down, and said 'I wish he could have seen this one last time.'",
+      "passage": "That July he won the British Open at Royal Liverpool, his first major since his father's death. A month earlier, after the SEAL detour described below, he had missed his first major cut as a professional. He broke down after the win: \"I wish he could have seen this one last time\"",
+      "class": "observed",
+      "source_ids": [
+        "S61",
+        "S60",
+        "S17"
+      ],
+      "inference": "Emotion released after the result.",
+      "alternative": "Ordinary grief; S60 renders the quote differently ('one more time'); the draft uses The Open's wording (S61).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C65",
+      "claim": "In December 2022 Woods described testing his son Charlie with Earl-style mental pressure: 'if I can get into his head, that means someone else can get in his head ... That's what my dad believed in. You've got to be willing to take it.'",
+      "passage": "By December 2022 he was testing Charlie the way Earl had tested him: \"if I can get into his head, that means someone else can get in his head. ... That's what my dad believed in. You've got to be willing to take it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S30",
+        "S29"
+      ],
+      "inference": "A change of mind from 2013's 'no lessons': he came to reproduce his father's method.",
+      "alternative": "May reflect Charlie's own choices and talent rather than Woods' motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C66",
+      "claim": "The 2017 toxicology report found five drugs (hydrocodone, hydromorphone, alprazolam, zolpidem, THC); Woods said he had been treating back pain and sleep problems on his own and that 'it was a mistake to do this without medical assistance'; he entered a diversion program and prosecutors said he would plead guilty to reckless driving.",
+      "passage": "Toxicology found five drugs, including painkillers, sleep medication and THC. He said he had been treating back pain and sleeplessness on his own, \"a mistake to do this without medical assistance,\" and entered a diversion program; prosecutors said he would plead guilty to reckless driving",
+      "class": "observed",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Woods' own explanation ties the 2017 arrest to self-managed medication after surgery.",
+      "alternative": "Self-report about cause; NBC reports the plea as expected (October 2017), and the article says only that prosecutors said he would plead guilty.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C67",
+      "claim": "In November 2021 Woods said: 'After my back fusion, I had to climb Mount Everest one more time. I had to do it, and I did. This time around, I don't think I'll have the body to climb Mount Everest, and that's okay.'",
+      "passage": "\"After my back fusion, I had to climb Mount Everest one more time. I had to do it, and I did. This time around, I don't think I'll have the body to climb Mount Everest, and that's okay.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S40",
+        "S39"
+      ],
+      "inference": "A stated loosening of identity from competition; 'had to' frames the 2019 comeback as compulsion.",
+      "alternative": "GOLF.com relay of the Golf Digest interview (original S69 not opened); behavior after 2021 partly contradicts it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C68",
+      "claim": "Woods played a TGL match on 2026-03-24, three days before the 2026-03-27 arrest (his only playing appearance of the 2026 season, per Sky Sports).",
+      "passage": "three days after playing in TGL, a team league",
+      "class": "observed",
+      "source_ids": [
+        "S46",
+        "S47"
+      ],
+      "inference": "Dates the 2026 arrest against his last competitive appearance; the edit's 'was competing in TGL' overstated a one-match return and was replaced at repair.",
+      "alternative": "Business roles and the desire to play a few events explain returns without any identity claim.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check if Woods competes again; add the latest appearance only if it changes the argument."
+    },
+    {
+      "id": "C69",
+      "claim": "On 2026-09-02 Woods resolved the case by plea to an amended charge of reckless driving with a five-year driver's license suspension; ABC reports no contest and CBS reports guilty. He had initially pleaded not guilty.",
+      "passage": "On September 2, 2026, he pleaded to an amended charge of reckless driving, with a five-year license suspension; outlets differ on whether the plea was guilty or no contest",
+      "class": "observed",
+      "source_ids": [
+        "S53",
+        "S54"
+      ],
+      "inference": "Legal resolution of the 2026 arrest.",
+      "alternative": "Outlets conflict on plea type (no contest vs guilty), so the draft says only 'plea deal on reduced charges'.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check if court records or a correction specify the plea type (no contest vs guilty) or if the license suspension terms change."
+    },
+    {
+      "id": "C71",
+      "claim": "Woods initially pleaded not guilty, and on 2026-03-31 said he was 'stepping away for a period of time to seek treatment and focus on my health'.",
+      "passage": "He pleaded not guilty, said he was \"stepping away for a period of time to seek treatment and focus on my health\"",
+      "class": "self_report",
+      "source_ids": [
+        "S48",
+        "S49",
+        "S53"
+      ],
+      "inference": "Controlled written disclosure with a privacy request.",
+      "alternative": "Standard legal and medical caution during a pending case.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check if Woods makes a further statement about his treatment or health."
+    },
+    {
+      "id": "C72",
+      "claim": "Woods told the PGA of America he would not captain the 2027 U.S. Ryder Cup team (a judge separately allowed him to leave the U.S. for treatment, S51).",
+      "passage": "declined the 2027 U.S. Ryder Cup captaincy",
+      "class": "observed",
+      "source_ids": [
+        "S51",
+        "S50"
+      ],
+      "inference": "Withdrawal from public roles during treatment.",
+      "alternative": "Institutional communication; no direct Woods quote on the captaincy. The judge's permission is now referenced only in C110.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check if Woods is named to any future Ryder Cup or PGA Tour role."
+    },
+    {
+      "id": "C73",
+      "claim": "Woods' 2010 statement said: 'When I do return, I need to make my behavior more respectful of the game.'",
+      "passage": "Still, Woods said in 2010 that he needed \"to make my behavior more respectful of the game,\" which fits the broader reports without confirming Williams' details.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "A general 2010 pledge consistent with broad reports of his temper; it does not confirm the specific claims in Williams' 2015 book.",
+      "alternative": "Generic accountability language in a scripted statement.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C75",
+      "claim": "Woods has 82 PGA Tour wins (tied for the record) and 15 major championships, the 15th at the 2019 Masters.",
+      "passage": "He has 82 PGA Tour wins, tied for the record, and 15 major championships, the 15th at the 2019 Masters",
+      "class": "observed",
+      "source_ids": [
+        "S13",
+        "S38",
+        "S71"
+      ],
+      "inference": "Factual metadata.",
+      "alternative": "Record counts change only if he wins again.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check win totals if Woods records another PGA Tour or major win."
+    },
+    {
+      "id": "C76",
+      "claim": "Earl Woods died 2006-05-03; Kultida Woods died 2025-02-04; Woods' children are Sam and Charlie.",
+      "passage": "His father, Earl, died on May 3, 2006, and his mother, Kultida, died on February 4, 2025. He has two children, Sam and Charlie.",
+      "class": "observed",
+      "source_ids": [
+        "S57",
+        "S17",
+        "S43",
+        "S66",
+        "S13",
+        "S29"
+      ],
+      "inference": "Factual metadata.",
+      "alternative": "Kultida's reported age varies by outlet, so the draft omits it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C77",
+      "claim": "Metadata birth_date: 1975-12-30.",
+      "passage": "1975-12-30",
+      "class": "observed",
+      "source_ids": [
+        "S71",
+        "S17"
+      ],
+      "inference": "Factual metadata.",
+      "alternative": "Derived independently from S17 (31st birthday on 2006-12-30).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C78",
+      "claim": "Metadata birth_place: Cypress, California, U.S.",
+      "passage": "Cypress, California, U.S.",
+      "class": "observed",
+      "source_ids": [
+        "S71"
+      ],
+      "inference": "Factual metadata.",
+      "alternative": "Single tertiary source; check against a primary biography if challenged.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C79",
+      "claim": "Author interpretation: the earned-equals-deserving rule functioned in 2010 as a self-granted exemption.",
+      "passage": "The rule that built the career had become a license.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S14"
+      ],
+      "inference": "Connects the 2010 self-justification to the career rule.",
+      "alternative": "The 2010 wording came from a scripted statement shaped by advisers and therapists; the draft notes that commercial pressure explains part of the statement.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C80",
+      "claim": "Author interpretation: the crisis sequence (2007 trade, December 2009 boundary, February 2010 apology) is consistent with a Three but does not separate Three from Eight: the 2007 trade is reported (WSJ via S10, Pecker via S09) but never told in Woods' own words, almost anyone with a marriage and sponsors at stake would want such a story killed, and the 2010 apology is what almost anyone with that much at stake would do.",
+      "passage": "The obvious test, what he did when the picture and the private reality came apart, can't separate a Three from an Eight on its own. The 2007 trade is reported, never told in Woods' own words, and almost anyone with a marriage and sponsors at stake would have wanted that story killed.",
+      "class": "interpretation",
+      "source_ids": [
+        "S09",
+        "S10",
+        "S01",
+        "S03"
+      ],
+      "inference": "Demotes the 2007 trade to consistent-but-confounded evidence (critic-01, enneagram-01) while describing the reporting accurately (V-03).",
+      "alternative": "Some readers will still see the 2010 'believe in me again' plea as image-first; the article lets them, without counting it as decisive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C81",
+      "claim": "Author interpretation against Type 5: appetite (the 2009 'temptations' self-account) and attention to public commentary (Thompson's report of Jordan's worry that Woods may sit up at night reading what people write) cut against a Five's minimized needs and detachment; playing majors is the job and does not discriminate.",
+      "passage": "A Five keeps needs small; Woods \"deserved to enjoy all the temptations around me.\" A Five detaches from what strangers think; Jordan worries about a man who may be up at night reading it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S17"
+      ],
+      "inference": "Replaces the draft's 'largest stage' argument, which reviewers showed does not discriminate.",
+      "alternative": "A Five under stress can act out appetites; the reading detail is Thompson's paraphrase of one friend's worry ('perhaps sitting up ... reading'), so the article now keeps the 'perhaps' (V-02).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C82",
+      "claim": "Thompson reported, via Navy course pro Joe Grohman, that Woods had few friends his own age until high school; his friends were Earl and Earl's old military buddies.",
+      "passage": "Thompson also reported that until high school his friends were Earl and Earl's old military buddies.",
+      "class": "third_party",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "Context for the SEAL identification with his father's world.",
+      "alternative": "Second-hand recollection; does not establish motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C83",
+      "claim": "Lavner observed that in the 17-minute Hall of Fame speech Woods made only one passing mention of his life and career this century.",
+      "passage": "For 17 unscripted minutes, Golf Channel's Ryan Lavner noted, Woods made only one passing mention of his life and career this century: \"Nothing about the Tiger Slam. Nothing about the majors. Nothing about the soaring highs. The scandals.\"",
+      "class": "observed",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "The speech centered on upbringing and earning rather than achievements.",
+      "alternative": "Reporter's characterization of an unscripted speech.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C84",
+      "claim": "Sam Woods introduced her father at the 2022 induction, saying 'We didn't know if you'd come home with two legs or not.'",
+      "passage": "His daughter, Sam, introduced him: \"We didn't know if you'd come home with two legs or not\"",
+      "class": "observed",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Family cost of the 2021 crash.",
+      "alternative": "Celebratory setting.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C85",
+      "claim": "Woods closed the Hall of Fame speech: 'I didn't get here alone ... This is an individual award, but it's actually a team award. All of you allowed me to get here.'",
+      "passage": "\"I didn't get here alone.\" Then: \"This is an individual award, but it's actually a team award. All of you allowed me to get here.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S13"
+      ],
+      "inference": "The draft reads this as a rare loosening of the earning rule.",
+      "alternative": "Customary induction-speech gratitude; the draft labels its reading as interpretation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C86",
+      "claim": "Woods crashed his car outside his Isleworth home on 2009-11-27.",
+      "passage": "On November 27, 2009, Woods crashed his car outside his home.",
+      "class": "observed",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Start of the 2009 exposure.",
+      "alternative": "No further detail needed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C87",
+      "claim": "In the 2010-02-19 statement Woods admitted affairs, disclosed 45 days of inpatient therapy for 'the issues I'm facing' (no diagnosis named), cited 'considerable worry to my business partners', and apologized to families who had pointed to him as a role model.",
+      "passage": "\"I was unfaithful. I had affairs. I cheated,\" he said on February 19, 2010. He had spent 45 days in inpatient therapy for what he called only \"the issues I'm facing.\" He acknowledged \"considerable worry to my business partners\" and apologized to the families whose parents \"used to point to me as a role model for their kids.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "inference": "The repair sought is in standing: partners, role-model status, belief.",
+      "alternative": "Crisis-PR norms and sponsors in the room shape such language; no diagnosis should be inferred.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C88",
+      "claim": "In 2007 the National Enquirer obtained photographs of Woods with another woman, and they were not published.",
+      "passage": "In 2007, the National Enquirer obtained photographs of Woods with another woman. The photos never ran.",
+      "class": "third_party",
+      "source_ids": [
+        "S09",
+        "S10"
+      ],
+      "inference": "Precondition of the 2007 trade.",
+      "alternative": "The woman is not named in the draft.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C89",
+      "claim": "Metadata description: Woods used 'deserve' in his 2010 self-justification and his 2022 Hall of Fame speech.",
+      "passage": "Tiger Woods used one word to explain his affairs in 2010 and his career in 2022: deserve.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S14"
+      ],
+      "inference": "Metadata summary of the central thread.",
+      "alternative": "'Explain his affairs' compresses 'deserved to enjoy all the temptations around me'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C90",
+      "claim": "FAQ: Woods played the 2008 U.S. Open on a torn ACL and two stress fractures against medical advice and told his caddie he was winning.",
+      "passage": "He played the 2008 U.S. Open on a torn ACL and two stress fractures against medical advice and told his caddie he was winning.",
+      "class": "observed",
+      "source_ids": [
+        "S06",
+        "S01"
+      ],
+      "inference": "Summarizes the Type 8 case in metadata.",
+      "alternative": "'Against medical advice' is supported by his own account that doctors said he was 'pretty much done for the year'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C91",
+      "claim": "FAQ: one unnamed friend described Woods to Thompson as someone who 'just wants to be left alone to read a book' and as 'a natural introvert'; he has been secretive about his swing work.",
+      "passage": "One unnamed friend told ESPN's Wright Thompson that Woods \"just wants to be left alone to read a book\" and was \"a natural introvert,\" and he has been secretive about his methods.",
+      "class": "third_party",
+      "source_ids": [
+        "S17",
+        "S27"
+      ],
+      "inference": "Summarizes the Type 5 case in metadata.",
+      "alternative": "One unnamed source. Corrected at repair: the edit attributed the two phrases to two friends (V-01).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C92",
+      "claim": "FAQ summary of the 2010 statement's apologies and closing request.",
+      "passage": "He acknowledged worry he had caused his business partners, apologized to families who had seen him as a role model, and asked the public to \"one day believe in me again.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Metadata restatement of C02/C87.",
+      "alternative": "Scripted statement.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C93",
+      "claim": "Author framing of the Uchitel testimony: it resembles what one unnamed friend told Thompson and Woods' own Halloween joke, but that is resemblance, not independent corroboration.",
+      "passage": "It echoes what one unnamed friend told a reporter and Woods' own costume joke: resemblance, not independent proof.",
+      "class": "interpretation",
+      "source_ids": [
+        "S18",
+        "S17"
+      ],
+      "inference": "Limits reliance on an interested party's psychological claim; the 2007 trade is no longer offered as corroboration.",
+      "alternative": "The convergence may reflect a shared hindsight narrative after 2009.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C94",
+      "claim": "Type 1 is closer than it first looks: 'core values' and 'by my standard' support it, a One under strain can grant a private exemption so 'normal rules didn't apply' does not exclude it, and the 2013 Masters episode does not settle it.",
+      "passage": "Type 1 is closer than it first looks. He spoke of \"core values\" and judged his swing \"by my standard,\" and a One under strain can grant himself a private exemption, so \"normal rules didn't apply\" doesn't settle it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S08"
+      ],
+      "inference": "After the repair the One is weighed as the nearest rival on the humiliation test; the remaining tilt toward the Three is stated as narrow (C132, C137).",
+      "alternative": "Standards talk in a scripted apology is weak evidence either way; the swing perfectionism (C07) and visible temper (C38) also fit a One.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C95",
+      "claim": "Thompson (2016) reports Michael Jordan's worry that Woods is 'so haunted by his public shaming that he obsesses over it, perhaps sitting up in the middle of the night reading all the things people write and say about him'; Jordan's nickname for him is 'Rabbit Ears'; Thompson glosses: 'He hears everything. For Tiger, this dwelling on old mistakes is a path to madness. Nothing can take him back to 2006 and give him a second chance.' Jordan, quoted directly next: 'That bothers him more than anything. It looms. It's in his mind. It's a ship he can't right and he's never going to. ... He wants to erase the things that happened.'",
+      "passage": "Thompson's 2016 feature reports that his friend Michael Jordan \"worries that Tiger is so haunted by his public shaming that he obsesses over it, perhaps sitting up in the middle of the night reading all the things people write and say about him.\" Jordan sometimes calls him \"Rabbit Ears,\" Thompson writes: \"He hears everything. For Tiger, this dwelling on old mistakes is a path to madness. Nothing can take him back to 2006 and give him a second chance.\" Jordan picks up the thought: \"That bothers him more than anything. It looms. It's in his mind. It's a ship he can't right and he's never going to. ... He wants to erase the things that happened.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "Six years after the apology, a close friend's account holds two strands: regret over what happened (Jordan's own words) and preoccupation with what is said about him (Thompson's paraphrase of Jordan's worry and the 'Rabbit Ears' gloss). Only the second favors the Three; the first fits a One's inner critic or ordinary remorse as well (C132, C136).",
+      "alternative": "One friend's account, partly Thompson's paraphrase and gloss; Woods' camp declined to comment. Rumination also fits Six-style anxiety or ordinary shame. Repair (V-02): the bridge sentence is now quoted, so 'That' keeps its source referent (old mistakes, no second chance).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C96",
+      "claim": "On 2009-12-11, after reports by several women of affairs with him, Woods admitted 'infidelity' in a written statement and announced 'an indefinite break from professional golf'.",
+      "passage": "On December 11, after two weeks of reports about women who said they had been involved with him ([Reuters via Fox News](https://www.foxnews.com/sports/tiger-woods-taking-break-from-golf-admits-infidelity)), he admitted \"infidelity\" in writing and announced \"an indefinite break from professional golf\"",
+      "class": "self_report",
+      "source_ids": [
+        "S73",
+        "S74"
+      ],
+      "inference": "The privacy boundary of December 2 lasted nine days; the sequence was gradual, not a single jump to televised confession.",
+      "alternative": "Mounting reporting, not a change of motive, explains the shift; any public figure under that pressure might do the same.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C98",
+      "claim": "Author interpretation: the 2010 self-justification is Woods' post-treatment public account in treatment vocabulary; either way it frames his license in terms of results earned.",
+      "passage": "The self-justification needs more care: it is his account after treatment, read to a room, in treatment's words.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S05"
+      ],
+      "inference": "Achievement converted into personal license ('worked hard my entire life ... deserved') is the Three-specific part of the earning rule, even if treatment shaped the telling.",
+      "alternative": "The account may be the one therapy taught him to give rather than his 2009 reasoning; a One or Eight could voice entitlement too.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C99",
+      "claim": "Author interpretation of the 2010 achievement-as-license logic as the Three-relevant use of the rule.",
+      "passage": "Woods' account turns results into a personal license: he had achieved, so he was owed. That is a Three's arithmetic, even if treatment shaped the telling.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S14"
+      ],
+      "inference": "For a One, deserving is moral and rules bind tighter; an Eight's appetite rarely needs a ledger. Converting achievement into license is closer to a Three's worth-through-performance.",
+      "alternative": "The distinction is typological interpretation, and the 2010 account is post-treatment (C98).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C100",
+      "claim": "Woods married Elin Nordegren in 2004; they divorced in 2010.",
+      "passage": "He married Elin Nordegren in 2004; they divorced in 2010.",
+      "class": "observed",
+      "source_ids": [
+        "S71",
+        "S07"
+      ],
+      "inference": "Orientation for the 2007-2010 section and the 2017 memoir quote.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C101",
+      "claim": "Woods ruptured his left ACL in July 2007 and played on it; after the 2008 Masters he chose a cleanup over reconstruction 'because I wanted to play the next three major championships', then suffered a double stress fracture of the left tibia preparing for the U.S. Open.",
+      "passage": "The knee came due in 2008. \"I had ruptured my ACL in July the previous year, and I played on it with no ACL,\" he said a decade later. After the 2008 Masters he chose a cleanup over reconstruction: \"'Well, we'll just do a cleanup job first,' because I wanted to play the next three major championships.\" Then came a double stress fracture in his left tibia",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S72"
+      ],
+      "inference": "A ten-month choice to keep competing on a damaged knee, not a one-week discovery; corrects the draft's 'doctors found' framing.",
+      "alternative": "Recollection ten years later; competitive need explains it in any type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C102",
+      "claim": "No one outside Woods' inner circle knew he played the 2008 U.S. Open with the fracture; he announced it two days after the playoff.",
+      "passage": "No one outside his inner circle knew. He won after an 18-hole playoff and a sudden-death hole against Rocco Mediate. That scene is the Eight reading's best evidence, and it returns below. Two days later he announced the fracture: the ditch habit again, the injury kept out of sight until the result was in.",
+      "class": "observed",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "The 2008 episode contains concealment until the result was in, a foothold for the Three reading beside the Eight's defiance.",
+      "alternative": "Hiding an injury from rivals is ordinary competitive practice.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C103",
+      "claim": "Woods' 1997-98 swing rebuild cost him: he struggled through 1998, winning just once.",
+      "passage": "The rebuild cost him: he struggled through 1998, winning just once",
+      "class": "observed",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "He accepted public under-performance to fix flaws he saw after a record win.",
+      "alternative": "Counterevidence for Three as much as evidence: a One's standard or a Five's mastery predicts it (C116).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C104",
+      "claim": "By June 2004 Woods had parted with Harmon (August 2002), had not won a major since, and was reworking his swing.",
+      "passage": "By June 2004 he was doing it again: split from Harmon, reworking his swing, without a major since the split",
+      "class": "observed",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "A second self-imposed public slump for a swing change.",
+      "alternative": "Same as C103; Harmon is a former coach turned critic.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C105",
+      "claim": "Harmon, by then a TV commentator, said in 2004 that Woods saying 'I am close, I feel really good about what I am doing' at every interview 'might be a bit of denial'.",
+      "passage": "In 2004 Harmon, by then a TV commentator, said that Woods telling every interviewer \"I am close, I feel really good about what I am doing\" \"might be a bit of denial.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "A coach describing Woods projecting success during a drought; read in the edit as bearing on image as much as on Eight directness.",
+      "alternative": "Hedged ('I think it might be') and from a former coach turned media critic with his own incentives.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C106",
+      "claim": "Author interpretation: the 2004 face-to-face complaint reads both ways, Eight code or Three objection to public criticism.",
+      "passage": "It sounds like an Eight's code, but the complaint was that the criticism went public, which bothers a Three as much.",
+      "class": "interpretation",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "Removes the draft's 'textbook Eight line' overstatement.",
+      "alternative": "An Eight's loyalty code can include objecting to public betrayal.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C107",
+      "claim": "Williams is a hostile witness: fired in 2011, he later made a racially charged remark about Woods at a caddie awards dinner, and had a book to sell.",
+      "passage": "Williams is a hostile witness: fired in 2011, he later made a racially charged remark about Woods at a caddie awards dinner, and he had a book to sell",
+      "class": "third_party",
+      "source_ids": [
+        "S22",
+        "S21"
+      ],
+      "inference": "Gives the reader Williams' credibility limits beside the hostile claims. Woods' mild 2011 reply ('life goes forward', S22) was cut at repair for length.",
+      "alternative": "Williams' animus does not make his on-course account false.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C108",
+      "claim": "After the 2021 crash Woods said it had been 'damn-near there if I was going to walk out of that hospital with one leg'.",
+      "passage": "he said it had been \"damn-near there if I was going to walk out of that hospital with one leg.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S40"
+      ],
+      "inference": "Establishes the severity behind 'two legs' and the Everest remark.",
+      "alternative": "Self-report in a relayed interview; consistent with the medical record of open fractures (S72).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C109",
+      "claim": "Woods made the cut at the April 2022 Masters about 14 months after the crash; withdrew from the 2023 Masters and had ankle fusion surgery in April 2023; ruptured his left Achilles in March 2025, at 49, while ramping up training.",
+      "passage": "He made the cut at the April 2022 Masters, about 14 months after the crash ([Wikipedia](https://en.wikipedia.org/wiki/Tiger_Woods)). In April 2023 he withdrew from the Masters and had ankle fusion surgery, and in March 2025, at 49, he ruptured his left Achilles tendon while ramping up his training",
+      "class": "observed",
+      "source_ids": [
+        "S71",
+        "S72"
+      ],
+      "inference": "His behavior kept testing the 2021 'that's okay': repeated returns and training through injury echo the 2017 'need for competition'.",
+      "alternative": "Competitive need and identity explain returns in any type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C110",
+      "claim": "Woods' 2026 statement named no cause for the crash, and the court filing seeking permission for treatment abroad described the treatment only as an 'intensive, highly individualized and medically integrated program'.",
+      "passage": "Neither arrest is good type evidence. In 2017 he tied his to medication after back surgery; in 2026 his statement named no cause, and a court filing on his treatment abroad described it only in general terms.",
+      "class": "interpretation",
+      "source_ids": [
+        "S23",
+        "S24",
+        "S48",
+        "S49",
+        "S51"
+      ],
+      "inference": "Replaces the draft's unsupported 'chronic pain' causal claim; neither arrest is counted as type evidence.",
+      "alternative": "Pain management and dependence are both possible; the article chooses neither.",
+      "durability": "unresolved",
+      "review_trigger": "Re-check if Woods, his representatives or court records describe the cause of the 2026 crash or the nature of the treatment."
+    },
+    {
+      "id": "C111",
+      "claim": "Author interpretation and type trigger: the 2026 retreat (stepping away, treatment abroad, declining the captaincy, no-questions appearance) looks as much like a Five's withdrawal as a Three's repair; a return, an open interview about the treatment or a quiet exit could move the 3-vs-5 reading.",
+      "passage": "By this profile's own test, the 2026 retreat looks as much like a Five's withdrawal as a Three's repair; a return, an open interview about the treatment or a quiet exit could move the reading.",
+      "class": "interpretation",
+      "source_ids": [
+        "S48",
+        "S51",
+        "S52"
+      ],
+      "inference": "The 2026 response is not counted as Three evidence.",
+      "alternative": "Legal and medical constraints, not motive, may explain the retreat.",
+      "durability": "unresolved",
+      "review_trigger": "Re-test the Type 3 vs Type 5 call (and the medium confidence) when Woods gives an unscripted interview about the treatment, returns to competition, or formally retires from tour play."
+    },
+    {
+      "id": "C112",
+      "claim": "Author interpretation: Six fits the father's-code loyalty and low trust but fails on doubt and authority-seeking (he overrode his doctors); Seven fits the 2009 temptations but not decades of painful practice.",
+      "passage": "A [Six](/enneagram-corner/enneagram-type-6), loyal to a father's code and slow to trust, fits the SEAL chapter below, but Sixes are marked by doubt and a search for trusted authority, and Woods answered his doctors with \"Ah, I don't know about that.\" A Seven fits the temptations of 2009, not decades of hands-bleeding practice.",
+      "class": "interpretation",
+      "source_ids": [
+        "S06",
+        "S13",
+        "S17",
+        "S01"
+      ],
+      "inference": "Tests the types the draft invoked or skipped (enneagram-06).",
+      "alternative": "A counterphobic Six can override authority; one sentence each is a light test.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C113",
+      "claim": "The Tiger Slam was Woods' four consecutive major titles across 2000 and 2001.",
+      "passage": "The Tiger Slam was his four straight major titles in 2000 and 2001.",
+      "class": "observed",
+      "source_ids": [
+        "S71"
+      ],
+      "inference": "Orientation for Lavner's line.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C114",
+      "claim": "Woods' 15 majors rank second among men.",
+      "passage": "Only one man has won more majors.",
+      "class": "observed",
+      "source_ids": [
+        "S71"
+      ],
+      "inference": "Orientation on scale of achievement.",
+      "alternative": "None material.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check if Woods or another man wins a major that changes the ranking."
+    },
+    {
+      "id": "C116",
+      "claim": "Author interpretation: Woods twice accepted lean public years to rebuild his swing (1998, by 2004), which a One's standard or a Five's mastery explains at least as well as a Three.",
+      "passage": "A Three is supposed to dodge visible failure, yet Woods accepted lean public years to rebuild his swing in 1998 and again by 2004, which a One's standard or a Five's mastery explains at least as well.",
+      "class": "interpretation",
+      "source_ids": [
+        "S08",
+        "S27"
+      ],
+      "inference": "Counterevidence recorded in the type section (fan-03).",
+      "alternative": "A Three may accept short-term failure for a better long-term result.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C117",
+      "claim": "Author interpretation: the earning rule itself is not type-specific (Earl taught it; common athlete ethic; One or Eight could hold it).",
+      "passage": "The rule itself proves little: Earl taught it, many athletes share it, and a One or an Eight could hold it as sincerely.",
+      "class": "interpretation",
+      "source_ids": [
+        "S14",
+        "S12",
+        "S15"
+      ],
+      "inference": "Labels the rule as the profile's organizing thread, not discriminator evidence (critic-02, enneagram-03).",
+      "alternative": "None; this is a limit statement.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C118",
+      "claim": "Author interpretation: the 2008 episode gives the Three a foothold because the injury stayed hidden until he had won.",
+      "passage": "Even there the Three keeps a foothold, since he hid the injury until he had won, though hiding an injury from rivals is also plain competitive sense.",
+      "class": "interpretation",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Acknowledges concealment in the Eight's best scene (fan-01).",
+      "alternative": "Concealment from competitors is standard practice.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C119",
+      "claim": "Author interpretation: the Eight explains the 2008 U.S. Open better, and the temper and the aloofness after first meetings cut against a Three's polish; hence medium confidence.",
+      "passage": "The Eight explanation still answers the 2008 U.S. Open better, and the temper, along with the aloofness people report once a first meeting is over, cuts against a Three's usual polish. That is why confidence is medium.",
+      "class": "interpretation",
+      "source_ids": [
+        "S06",
+        "S21",
+        "S17"
+      ],
+      "inference": "Calibrates confidence.",
+      "alternative": "None; a limit statement.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C120",
+      "claim": "Author interpretation of the type contrast: the types part ways on what a public humiliation does to a man once it is over. An Eight usually stops caring what strangers think, a Five leaves the commentary unread, and a One is tormented more by the wrong than by what is said; Jordan's account fits the Eight and Five poorly and the One only in part (C130).",
+      "passage": "They part ways on what a public humiliation does to a man once it is over.",
+      "class": "interpretation",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "States the discriminator in Woods-specific terms (enneagram-07, U09).",
+      "alternative": "Type descriptions are framework generalizations. Repair (V-02): the contrast no longer claims Jordan's account excludes the One.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C122",
+      "claim": "Type answer: Woods most likely fits Type 3 at medium confidence; how he is seen weighs on him, per ESPN's 2016 report of Michael Jordan's worry.",
+      "passage": "How he is seen weighs on him: in 2016, ESPN reported Michael Jordan's worry that Woods \"is so haunted by his public shaming that he obsesses over it.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "Summary of C95 for the answer box.",
+      "alternative": "See C95 limits.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C123",
+      "claim": "FAQ 1 summary of the evidence for Type 3.",
+      "passage": "The strongest sign is how much public judgment weighs on him: a 2016 ESPN feature reported Michael Jordan's worry that Woods \"is so haunted by his public shaming that he obsesses over it.\" His 2010 apology also treated achievement as what had entitled him.",
+      "class": "interpretation",
+      "source_ids": [
+        "S17",
+        "S01",
+        "S02"
+      ],
+      "inference": "FAQ restates C95 and C99 without the 2007 trade.",
+      "alternative": "See C95 and C98 limits.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C124",
+      "claim": "FAQ 2: the Three reading leads on how public judgment weighs on him, per Jordan's worry as ESPN reported it; it rests on one friend's account relayed by one reporter.",
+      "passage": "The Three reading leads on how public judgment weighs on him: an Eight tends to stop caring what strangers think once a fight is over, while his friend Michael Jordan worried in 2016, as ESPN reported, that Woods was still haunted by his public shaming. That rests on one friend's account relayed by one reporter, so confidence stays medium.",
+      "class": "interpretation",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "FAQ version of the discriminator.",
+      "alternative": "See C95.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C125",
+      "claim": "FAQ 3: against Five, appetite and attention.",
+      "passage": "The Three reading stays ahead on appetite and attention: a Five usually keeps needs small and tunes out strangers, while Woods felt he \"deserved to enjoy all the temptations around me\" and, as Thompson reported Michael Jordan's worry, obsesses over his public shaming.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S17"
+      ],
+      "inference": "FAQ version of C81.",
+      "alternative": "See C81.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C126",
+      "claim": "FAQ 4: the 2010 statement was prepared, televised, read after 45 days of inpatient therapy, with no questions allowed (NPR, S75).",
+      "passage": "On February 19, 2010, after 45 days of inpatient therapy, Woods read a prepared, televised statement and took no questions.",
+      "class": "observed",
+      "source_ids": [
+        "S75",
+        "S01",
+        "S02"
+      ],
+      "inference": "Metadata context for the apology.",
+      "alternative": "None material.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C127",
+      "claim": "Author interpretation: the two halves of the opening parallel are unequal evidence (2010 prepared and post-treatment; 2022 unscripted).",
+      "passage": "The two halves are not equal evidence: the 2010 sentence was prepared and read after treatment, the 2022 one unscripted.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S12"
+      ],
+      "inference": "Flags the 2010 limitation at the hook (subject-02, critic-02).",
+      "alternative": "None; a limit statement.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C128",
+      "claim": "The December 2 statement said he had not been true to 'the behavior my family deserves'; by February 'deserve' named what he thought he had earned.",
+      "passage": "He had not been true, he wrote, to \"the behavior my family deserves.\" By February, the verb would name what he thought he had earned.",
+      "class": "interpretation",
+      "source_ids": [
+        "S03",
+        "S01"
+      ],
+      "inference": "Shows the verb reversing direction across 11 weeks (fan-04).",
+      "alternative": "Word-level echo across two prepared statements; not a motive claim on its own.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C129",
+      "claim": "Author interpretation: the crisis sequence fits a Three without proving one; the December 2009 boundary is closer to an Eight holding a line or a Five closing a door.",
+      "passage": "And his first response, in December 2009, was a boundary, closer to an Eight holding a line or a Five closing a door. The crisis fits a Three without proving one.",
+      "class": "interpretation",
+      "source_ids": [
+        "S03",
+        "S01"
+      ],
+      "inference": "Names the uncoerced December 2009 refusal as counterevidence (enneagram-01).",
+      "alternative": "Privacy statements are standard crisis advice.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C130",
+      "claim": "Author interpretation: Jordan's 2016 account, six years after the apology, fits the Eight's and the Five's post-humiliation patterns poorly and the One's only in part (his direct words are regret, which a One's inner critic would produce).",
+      "passage": "Jordan's account, six years after the apology, fits the Eight and the Five poorly and the One only in part.",
+      "class": "interpretation",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "Ties the type-section contrast to the dated observation without overstating it against the One (V-02).",
+      "alternative": "See C95.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C131",
+      "claim": "The televised confession on 2010-02-19 came 79 days after the 2009-12-02 privacy statement.",
+      "passage": "Seventy-nine days after the privacy statement, he made a public confession on television.",
+      "class": "observed",
+      "source_ids": [
+        "S03",
+        "S01",
+        "S02"
+      ],
+      "inference": "A precise interval that lets the contrast with 'shouldn't have to mean public confessions' speak; the December 11 admission (C96) now sits between them.",
+      "alternative": "The confession followed mounting reporting, the December 11 admission and 45 days of treatment, so it was not a single reversal.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C132",
+      "claim": "Author interpretation on Type 1: wanting to undo the past fits a One's inner critic or ordinary regret as well as a Three; the tilt toward the Three rests narrowly on the listening (Thompson's report of Jordan's worry and the 'Rabbit Ears' gloss) and on the costume (C137).",
+      "passage": "Wanting to undo the past fits a One's inner critic, or ordinary regret, as well as it fits a Three. What tips toward the Three is narrower: the listening, which rests on Thompson's report of Jordan's worry, and the costume.",
+      "class": "interpretation",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "Replaces the edit's 'Jordan describes torment over what people say', which overread Jordan's direct words (V-02).",
+      "alternative": "If the listening detail is discounted (one friend's worry, paraphrased), the One and the Three are close to level on this test; confidence stays medium.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C133",
+      "claim": "Author interpretation of C95: the strand that favors the Three is the listening, a man who six years after the apology, by this account, still hears everything said about him.",
+      "passage": "The strand that favors the Three is the listening: six years after the apology, by this account, he still hears everything said about him.",
+      "class": "interpretation",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "The incentive-light observation that carries the Three over the Eight and Five; replaces the edit's 'wants the record erased', which turned Jordan's 'erase the things that happened' into erasing the public record (V-02).",
+      "alternative": "See C95: one friend's worry, paraphrased by one reporter; 'He hears everything' is Thompson's gloss on a nickname. Could be ordinary shame or Six rumination.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C134",
+      "claim": "On 2010-02-19 Woods read a prepared statement to an invited room (family and employees) at the TPC Sawgrass clubhouse, and no questions were allowed.",
+      "passage": "read a prepared statement about his affairs to an invited room at TPC Sawgrass in Florida. He took no questions",
+      "class": "observed",
+      "source_ids": [
+        "S75",
+        "S01",
+        "S02"
+      ],
+      "inference": "Sets the controlled format that makes the 2010 account unequal evidence beside the unscripted 2022 speech (C127).",
+      "alternative": "A controlled format is ordinary crisis communication and says nothing distinctive about type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C135",
+      "claim": "Thompson's narration reports that before the 2010 Masters Woods read internet comments while driving to Augusta National and 'obsessed over what people thought'.",
+      "passage": "Thompson places the habit earlier too: on the drive to Augusta National before the 2010 Masters, Woods read internet comments and \"obsessed over what people thought.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "A second, earlier time point for the same preoccupation with what is said about him, which favors the Three over the Five's detachment and the Eight's indifference.",
+      "alternative": "Same reporter as C95, so not independent corroboration; unattributed narration; and in April 2010 he was about to return in public, so attention to coverage was situational and commercially motivated.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C136",
+      "claim": "Author interpretation: Jordan's own words in C95 are regret; he wants the events undone.",
+      "passage": "Two strands run through that passage. Jordan's own words are regret: he wants the events undone.",
+      "class": "interpretation",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "Separates the regret strand (not type-specific) from the listening strand (C133), as V-02 required.",
+      "alternative": "Regret over 'the things that happened' could include regret over lost image as well as over the acts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C137",
+      "claim": "Author interpretation against Type 1: a One's public self is usually built on principle, while Woods joked that his public self was an outfit and Thompson, noting his 'well-rehearsed set pieces as standard icebreakers', found it looked like an impersonation of a superstar.",
+      "passage": "A One's public self is usually built on principle. Woods joked that his was an outfit; Thompson, noting that he \"uses well-rehearsed set pieces as standard icebreakers,\" thought it looked like an impersonation.",
+      "class": "interpretation",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "A second, narrow discriminator between the Three and the One, grounded in the costume text (C13) and Thompson's observation of rehearsed social routines (C14).",
+      "alternative": "The costume joke and rehearsed routines also fit the Five reading (a private man performing a required role, C12); Thompson's 'impersonation' is a reporter's synthesis.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C138",
+      "claim": "Per WSJ reporting relayed by HuffPost (S10), Woods' representatives made the offer when the Enquirer approached them; there is no first-hand account of what Woods himself said or decided.",
+      "passage": "There is no first-hand account of what Woods himself said or decided; in the Journal's telling, his representatives made the offer.",
+      "class": "third_party",
+      "source_ids": [
+        "S10",
+        "S09"
+      ],
+      "inference": "Keeps the protected separation of record from inference while describing the cited reporting accurately (V-03).",
+      "alternative": "The WSJ's sources are anonymous and American Media denied the arrangement in 2010; Pecker's 2024 testimony confirms the trade from his side but not Woods' personal role.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 3,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C95",
+      "C122",
+      "C98",
+      "C99",
+      "C01",
+      "C53",
+      "C79",
+      "C02",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C60",
+      "C120",
+      "C133",
+      "C135",
+      "C137"
+    ],
+    "against": "Substantial observations resist Type 3. (1) The 2008 U.S. Open, overriding doctors and caddie (C06, C57, C58, C101), is better explained by an Eight; on-course temper he let show for years (C38, C73, C107) and the aloofness that follows first meetings (C60) cut against a Three's polish. (2) His first, least pressured response to exposure in December 2009 was a privacy boundary he said he would hold 'even though it's difficult' (C03, C129). (3) The crisis-era image repair is confounded: the 2007 trade is not shown to be Woods' own act (C04, C56) and the 2010 apology is what almost anyone with a marriage and business partners at stake would do (C80). (4) He twice accepted lean public years to rebuild his swing (C103, C104, C116), which a One's standard or a Five's mastery explains at least as well. (5) Friends describe a private introvert who wants to be left alone with a book (C12), and his privacy and secrecy fit a Five (C62); the 2026 retreat looks as much like Five withdrawal as Three repair (C111). (6) The One is the nearest rival on the humiliation test: Jordan's own words are regret over 'the things that happened' (C95, C136), which a One's inner critic or ordinary remorse would produce; 'core values', 'by my standard' and 'I expect more from myself' give a One reading some support, and a One under strain can grant himself an exemption (C94). (7) The earning rule itself is Earl's and a common athlete ethic, so its recurrence (C08, C10) is not type-specific (C117). (8) Being proclaimed 'the Chosen One' and on TV at two (C21, C25) is circumstance that could produce a performance-centred identity in any type.",
+    "alternative_type": 8,
+    "alternative_case": "Type 8 is the strongest alternative. It explains overriding his doctors and caddie to win the 2008 U.S. Open on a ruptured ACL and a double stress fracture (C06, C57, C58, C101), the self-imposed painful practice (C09), the face-to-face code with his old coach (C19, read both ways in C106), denial of vulnerability ('bottles things up', C17), the appetite of 2009 (C01), the risk-seeking SEAL training (C16, C43), visible temper on the course (C38), and a first response to exposure that held a boundary (C03, C129). Type 5 is a serious second: the introvert one friend describes (C12), lifelong privacy and secrecy about his process (C62, C61), compartmentalization (C17), an adult and military childhood world with few peers (C82), low trust (C44), and a 2026 retreat that resembles withdrawal (C111). Type 1 is closer than the edit allowed (C94, C132): the regret in Jordan's direct words fits it, as do the swing perfectionism (C07) and the temper; it trails only on the listening (C133, C135) and the costume (C137). Six fits the father's-code loyalty but fails on doubt and authority-seeking; Seven fits 2009's temptations but not decades of grinding practice (C112). (Repair 2026-10-04: the Buddhism lines (former C37), already rated weak, doctrinal evidence, were cut for length; the 2004 Harmon exchange was compressed but kept.)",
+    "discriminator": "What a public humiliation does to him once it is over, observed where commercial incentive no longer predicts the answer. Six years after the 2010 apology, Thompson reports his friend Michael Jordan's worry that Woods is 'so haunted by his public shaming that he obsesses over it, perhaps sitting up in the middle of the night reading all the things people write and say about him', and Jordan's nickname 'Rabbit Ears' ('He hears everything', Thompson's gloss) (C95, C133). Thompson's narration places the same preoccupation in 2010, reading internet comments on the drive to Augusta (C135). An Eight usually stops caring what strangers think once the fight is over; a Five detaches from commentary (C120, C130). Against the One the test is weaker: Jordan's own direct words, after Thompson's bridge about 'dwelling on old mistakes' and no 'second chance', are regret over 'the things that happened', which a One's inner critic or ordinary remorse would produce (C136, C132). The tilt toward the Three over the One rests narrowly on the listening and on the costume: a One's public self is usually built on principle, while Woods called his an outfit and Thompson saw rehearsed set pieces and an impersonation (C137, C13, C14). Second, the 2010 self-account turns achievement into a personal license ('worked hard my entire life ... deserved ... entitled', C01, C98, C99). The earning rule itself (C08, C10) is labeled non-specific (C117), and the 2007-2010 crisis sequence is treated as consistent with but not proof of a Three (C80, C129). Limits: C95 and C135 come from one reporter, with Jordan's worry partly paraphrased and Woods' camp declining comment; rumination also fits a Six or plain shame; the 2010 account was prepared after 45 days of treatment (C98, C127). The Eight still answers the 2008 U.S. Open better (C119), and the One is close on the humiliation test, so confidence stays medium. (Revised at edit 2026-10-04 to drop the confounded 2007/2010 discriminator; revised again at repair 2026-10-04 after verification V-02 showed the edit overread Jordan's direct words. Type and confidence unchanged; the One is now weighed as the nearest rival on this test.)",
+    "unexplained": "The Navy SEAL pursuit at his peak and in the months after his father's death (C16, C43): a dangerous, audience-less identity tied to Earl that cost him at the 2006 U.S. Open and has no golf payoff. The aloofness that sets in after a first meeting (C60) and the on-course temper he let damage his image (C38, C73, C107). His willingness to slump publicly for swing rebuilds (C116). The shift from 'no lessons' to Earl-style mental tests with his son (C24, C65). The 2017 and 2026 driving arrests (C29, C34, C66, C110): the 2017 one he tied to self-managed medication after surgery; the cause of the 2026 crash and the nature of the treatment are undisclosed, and neither is type evidence. The 2026 retreat (C111) is unresolved evidence for the 3-vs-5 balance."
+  }
+}

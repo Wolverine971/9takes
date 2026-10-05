@@ -13,6 +13,7 @@
 	// The host page's HTML is shared (ISR), so everything visitor-specific
 	// happens here in the browser: the visitor id, the gate impression, the answer.
 	import { tick } from 'svelte';
+	import { prefersReducedMotion } from 'svelte/motion';
 	import { browser } from '$app/environment';
 	import QRCode from 'qrcode';
 	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
@@ -94,7 +95,10 @@
 					.catch(() => {});
 			}
 			await tick();
-			root?.querySelector('.chorus-reveal')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+			root?.querySelector('.chorus-reveal')?.scrollIntoView({
+				behavior: prefersReducedMotion.current ? 'auto' : 'smooth',
+				block: 'start'
+			});
 		} catch (e) {
 			submitError =
 				e instanceof Error && e.message !== 'failed'

@@ -36,6 +36,13 @@
 		box-shadow: 0 0 0 3px var(--error-light);
 	}
 
+	// The error halo above replaces the focus halo, so an invalid field needs its
+	// own focus cue or keyboard users lose track of it.
+	&[aria-invalid='true']:focus-visible {
+		outline: 2px solid var(--error);
+		outline-offset: 2px;
+	}
+
 	&:disabled {
 		cursor: not-allowed;
 		opacity: 0.55;

@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "44f07324e87e41ba588425c1592316847261a8ec4f437e8c3a66a6d8a2683a03",
+  "evidence_sha256": "14bc405fbd058ff9db7d223e7741f254b0c16c30ecfec1ee22e543de1cd5fb05",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "Before the 2008 U.S. Open, doctors found a torn ACL and two stress fractures in his left tibia.",
+      "problem": "This gets the best-known injury story in modern golf wrong, and it does so in the scene the draft calls the Eight reading's best evidence. Woods tore the ACL in July 2007 and kept playing on it, winning the 2007 PGA Championship. He disclosed the tear only after the 2008 Open. The draft's own cited source (S06) has him choosing a cartilage cleanup over reconstruction after the 2008 Masters: \"'Well, we'll just do a cleanup job first,' because I wanted to play the next three major championships.\" Its narration also says \"no one outside of his inner circle knew\" about the fractures. As written, \"found\" turns a ten-month choice into a one-week discovery. It also drops the concealment, and keeping a contradicting private reality out of public view is exactly the article's Three discriminator. The scene is evidence for both readings, but the draft hands it entirely to the Eight.",
+      "acceptance_test": "The passage no longer implies the ACL tear was discovered before the Open. It dates the tear to 2007 and says he played on it. It quotes or paraphrases from S06 his choice of a cleanup over reconstruction so he could play the majors, and it notes that the injuries were kept from the public until after he won. The type sections (\"The case for Type 8\" or \"Why the Three reading still leads\") acknowledge that the 2008 episode also contains picture management, not only defiance."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "His own 2010 diagnosis was appetite, not image: \"Buddhism teaches that a craving for things outside ourselves causes an unhappy and pointless search for security. It teaches me to stop following every impulse and to learn restraint.\" Craving and impulse sit closer to the Eight's lust for intensity than to the Three's need to be admired.",
+      "problem": "This strips the quote of context any reader of the full statement knows. Woods introduced it with: \"Part of following this path for me is Buddhism, which my mother taught me at a young age. People probably don't realize it, but I was raised a Buddhist, and I actively practiced my faith from childhood until I drifted away from it in recent years\" (CBS News text of the February 19, 2010 statement, opened). The lines restate the core Buddhist teaching that craving causes suffering, a teaching that applies to everyone. They are not a self-chosen personality diagnosis that separates lust from image. Treating them as one of the four pillars of the Eight case over-reads them. The omission also drops formative context in a profile that elsewhere says his mother \"doesn't get enough credit\": his Thai mother raised him in a faith he says he had drifted from.",
+      "acceptance_test": "The article says the lines are Buddhist teaching his mother taught him, quoting the transcript's \"which my mother taught me at a young age\" or equivalent. The words \"His own 2010 diagnosis\" are removed, or the passage explicitly treats the doctrinal vocabulary as weak, non-discriminating evidence. The Eight case stands on its remaining evidence (2008, temper, the face-to-face code) without this paragraph as a pillar."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "A record win was not proof enough if it came with ten flaws he could see; the point was to win every week.",
+      "problem": "Informed readers know Woods rebuilt his swing from the top repeatedly, not once. He rebuilt with Harmon after 1997, with Hank Haney from 2004 after splitting with Harmon during a run of ten majors without a win, and with Sean Foley in 2010. Each time he accepted a visible slump. The draft's own source for this section (S08, opened) says the first rebuild had him \"struggle through 1998, winning just once,\" and the draft leaves that cost out. Accepting public under-performance to chase an internal standard is the signature pattern of his career. It is also a real test of the thesis. A Three is said to avoid visible failure, while the One reading (\"by my standard\") and the Five reading (mastery) both predict it. Framing the rebuild as \"Winning as proof\" without the slump, and without the repetition, makes the pattern look like Three evidence when it is at least contested.",
+      "acceptance_test": "The section states the cost of the first rebuild (one PGA Tour win in 1998, per S08) and names at least one later rebuild (Haney 2004 or Foley 2010) with a dated source. The text then either argues why repeated self-imposed slumps fit a Three better than a One or Five, or lists the pattern as counterevidence in the type sections."
+    },
+    {
+      "id": "fan-04",
+      "severity": "minor",
+      "passage": "Five days later he wrote that privacy was \"an important and deep principle\" and that \"Personal sins should not require press releases and problems within a family shouldn't have to mean public confessions\"",
+      "problem": "Selective quotation makes the reversal sharper than the record. The same December 2, 2009 statement (S03) opens: \"I have let my family down and I regret those transgressions with all of my heart. I have not been true to my values and the behavior my family deserves.\" On December 11 he admitted infidelity in writing and took an indefinite break from golf (S04, listed but not opened). A reader comes away thinking he went from a privacy plea with no admission straight to a televised confession 79 days later. The draft also misses a gift to its own thread. In December 2009 \"deserves\" names what his family was owed. Eleven weeks later it names what he thought he had earned.",
+      "acceptance_test": "The passage quotes or summarizes the statement's admission of \"transgressions\" alongside the privacy lines. It mentions the written admission and the break from golf before the February 19 confession (with an opened source, or as attributed reporting if S04 stays unopened). Any use of the \"my family deserves\" line is accurate to S03."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "On May 29, 2017, about seven weeks after spinal fusion surgery, Woods was arrested for DUI in Jupiter, Florida.",
+      "problem": "Factual error. The fusion surgery was on April 20, 2017 (some reports say April 19), in Texas. May 29 is about five and a half weeks later, and contemporaneous wire reports said \"five weeks.\" The \"seven weeks\" figure comes from the evidence record's context note on S23, not from the source text, so C29's context is wrong as well.",
+      "acceptance_test": "The passage says \"about five weeks,\" \"less than six weeks,\" or gives the April 2017 surgery date, with a source that states the date. C29 and the S23 context no longer say seven weeks."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "He played the 2022 Open at St Andrews and the 2024 Open at Royal Troon, and in March 2026 he was competing in TGL, a team league",
+      "problem": "\"His behavior kept testing it\" rests on two missed-cut Opens and an exhibition-style league. The draft leaves out the most famous tests of \"that's okay.\" He returned at the April 2022 Masters about 14 months after the crash and made the cut. He withdrew from the 2023 Masters and then had ankle fusion surgery. At the 2024 Masters he set a record for consecutive cuts made. In March 2025, at 49, he ruptured his left Achilles while ramping up training to compete. That last one is the \"need for competition\" line from 2017 replaying almost exactly, and it is stronger evidence for the thesis than TGL.",
+      "acceptance_test": "The sentence or paragraph cites, with dated sources, the April 2022 Masters return and at least one later data point (the 2024 Masters cut record, the 2023 ankle surgery, or the March 2025 Achilles rupture while training). The claim that behavior \"kept testing\" the loosened rule is supported by those, not only by the two Opens and TGL."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "At the 2013 Masters, after an illegal drop \"2 yards further back\" cost him two strokes, he kept playing despite Nick Faldo's call to \"sit down and think about this\"",
+      "problem": "Fans remember this episode differently. \"2 yards further back\" is Woods' own candid post-round description, and that candor is what triggered the penalty. He also said he was \"unaware at that time I had violated any rules\" (both in S11). Augusta's committee then chose a two-stroke penalty over disqualification, so staying in the field was a sanctioned ruling, not defiance of one. As written, the passage reads as a man brushing off a rules verdict. The record is murkier: open self-disclosure, ignorance of the rule, then accepting the committee's decision. That neither clearly defeats a One nor supports the Three.",
+      "acceptance_test": "The passage attributes \"2 yards further back\" to Woods' own post-round explanation and notes that the committee's ruling allowed him to continue. The Type 1 argument rests on the \"normal rules didn't apply\" line rather than on his not withdrawing, or it acknowledges the episode cuts both ways."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "In 2017 he wrote of his former wife: \"My dishonesty and selfishness caused her intense pain. My regret will last a lifetime.\"",
+      "problem": "Elin Nordegren is never named, and the article never says the marriage ended in divorce in 2010, even though the 2007–2010 section turns on a magazine story about \"his diet, workout regimen and marriage.\" An unfamiliar reader meets \"his former wife\" without knowing who she is or when the marriage ended. This 2017 quote is also the only quotation in that section with no inline source or title. S07 shows it comes from his 2017 memoir, The 1997 Masters: My Story, which the passage does not say.",
+      "acceptance_test": "Elin Nordegren is named at the first relevant mention, with the marriage (2004) and divorce (2010) dated. The 2017 quote names its source (the 2017 memoir, via the ESPN link in S07) at the passage."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "It is the same rule both times: work earns results, and results make you deserving. In 2022 the rule explained a career. In 2010 it explained an exemption: \"I convinced myself that normal rules didn't apply.\"",
+      "reason": "The hook pairs two of his best-known speeches through one verified word. A fan will not have seen the connection made before, and the article keeps returning to it."
+    },
+    {
+      "passage": "It is a funny story, and an early version of a skill that returns in this profile: staying out of sight until it is time to play.",
+      "reason": "This turns a charming Hall of Fame anecdote (Earl's sniper tradecraft) into a motif that pays off in the 2007 and 2026 material without forcing it."
+    },
+    {
+      "passage": "It was a joke, and it was his: the public Tiger Woods as an outfit.",
+      "reason": "The Halloween text is the most revealing first-person detail in the piece, and the draft fairly lets it support both the Three and Five readings."
+    },
+    {
+      "passage": "The SEAL chapter may say more about whose son he was than about his type.",
+      "reason": "This is an honest refusal to make the type explain everything. It ties the SEAL obsession to Earl, which fans recognize as the real story."
+    },
+    {
+      "passage": "Woods spent a career proving he deserved to be Tiger Woods. That night, briefly, he described it as something other people had given him.",
+      "reason": "The ending is earned. It uses his own \"team award\" words to leave a contradiction open instead of resolving it."
+    }
+  ],
+  "assessment": "Read as an informed golf fan's proxy, this is a well-sourced, unflattering, distinctive profile. The ditch story, the costume text, the SEAL chapter and the Hall of Fame bookends are real and well chosen, and the 2007 Enquirer paragraph is careful about what Woods himself did. The main problems are distortions of well-known material in places that carry the type argument. First, the 2008 injury timeline is misstated in a way that hides his choice to defer surgery and the concealment (fan-01). Second, the Buddhism lines lose their maternal and doctrinal context and are over-read as Eight evidence (fan-02). Third, one swing rebuild stands in for a career-long pattern of self-imposed public slumps that tests the Three thesis (fan-03). Smaller fixes: the December 2009 statement is quoted selectively, \"seven weeks\" should be about five and a half, the post-2021 comeback record is thin, the 2013 drop lacks context, and Elin Nordegren is unnamed. Optional gaps the editor may weigh: (1) the 2012–13 return to world No. 1 (five wins in 2013) is missing, though it is the cleanest test of \"winning repairs the picture\"; (2) \"that first Masters\" is ambiguous because he played the 1995 and 1996 Masters as an amateur. Similarity advisory: the tripped pair (\"public record\") and the top pair (a Five \"leave the stage\" vs \"leaves the room\") are ordinary vocabulary and type shorthand, not reused argument, so there is no finding. Verification this pass: I opened the CBS News text of the February 19, 2010 statement (Buddhism and mother passage) and the Australian Golf Digest copy of S08 (\"winning just once\" in 1998). Web search confirmed the April 20, 2017 fusion date and the July 2007 ACL tear. The CNN transcript returned HTTP 451. Risk flags: sensitive allegations (affairs, Pecker testimony, two DUI arrests), contested typing (strong Eight and Five cases at medium confidence), and historical source uncertainty (decades-old recollections, relay copies, unnamed friends in Thompson). I see no major thesis change in a create-mode draft."
+}

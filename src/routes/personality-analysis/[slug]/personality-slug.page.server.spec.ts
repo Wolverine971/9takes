@@ -204,6 +204,46 @@ describe('/personality-analysis/[slug] load', () => {
 		expect(lookup).toContainEqual(['limit', [1]]);
 	});
 
+	it('flags open-case profiles without shipping the pipeline record', async () => {
+		const { event, peopleCalls } = setup({
+			person: {
+				data: {
+					...PUBLISHED_PERSON,
+					content_quality: { profile_format: 'open_case', overall_grade: 8.6 }
+				},
+				error: null
+			}
+		});
+
+		const result = await loadPage(event);
+
+		expect(result.isOpenCase).toBe(true);
+		expect(result.post).not.toHaveProperty('content_quality');
+		const personSelect = peopleCalls.find(([method]) => method === 'select');
+		expect(String(personSelect?.[1][0]).split(/,\s*/)).toContain('content_quality');
+	});
+
+	it('leaves standard profiles unflagged', async () => {
+		for (const content_quality of [
+			undefined,
+			null,
+			{},
+			{ overall_grade: 9 },
+			{ profile_format: 'standard' },
+			['open_case'],
+			'open_case'
+		]) {
+			const { event } = setup({
+				person: { data: { ...PUBLISHED_PERSON, content_quality }, error: null }
+			});
+
+			const result = await loadPage(event);
+
+			expect(result.isOpenCase).toBe(false);
+			expect(result.post).not.toHaveProperty('content_quality');
+		}
+	});
+
 	it('answers 503 when the chorus question lookup fails instead of caching the page without it', async () => {
 		const consoleError = vi.spyOn(console, 'error').mockImplementation(() => {});
 		const { event } = setup({

@@ -209,17 +209,5 @@
 		h2 {
 			font-size: 2rem !important;
 		}
-
-		header h1 {
-			font-size: 24px;
-		}
-		nav li {
-			margin: 5px;
-		}
-	}
-	@media (max-width: 480px) {
-		header h1 {
-			font-size: 18px;
-		}
 	}
 </style>

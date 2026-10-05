@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "Tiger-Woods",
+  "mode": "create",
+  "role": "future",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_22-22-14-073_Tiger-Woods/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_22-22-14-073_Tiger-Woods/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_22-22-14-073_Tiger-Woods/similarity.json"
+  },
+  "outputs": {
+    "review-future.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-04_22-22-14-073_Tiger-Woods/review-future.json"
+  },
+  "content_sha256": "44f07324e87e41ba588425c1592316847261a8ec4f437e8c3a66a6d8a2683a03",
+  "evidence_sha256": "14bc405fbd058ff9db7d223e7741f254b0c16c30ecfec1ee22e543de1cd5fb05"
+}

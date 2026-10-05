@@ -185,12 +185,6 @@
 			padding-bottom: 0.5rem;
 		}
 
-		.section-icon {
-			font-size: 1rem;
-			width: 1.75rem;
-			height: 1.75rem;
-		}
-
 		.section-title-group h2 {
 			font-size: 1.0625rem;
 		}

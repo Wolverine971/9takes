@@ -510,9 +510,14 @@
 		const edgeWidth = 24;
 		if (touchStartX > edgeWidth) return;
 
-		// Never hijack drags that begin inside a horizontal scroller
+		// Listeners live on the window (a gesture handler on a plain <div> fails
+		// a11y_no_static_element_interactions), so scope to the app shell: story
+		// pages and body-portaled overlays sit outside it.
 		const target = e.target as Element | null;
-		if (target?.closest?.('.scroll-table, [data-swipe-ignore]')) return;
+		if (!target?.closest?.('.app-wrapper')) return;
+
+		// Never hijack drags that begin inside a horizontal scroller
+		if (target.closest('.scroll-table, [data-swipe-ignore]')) return;
 
 		const swipeThreshold = 100; // Minimum swipe distance
 		const swipeDistance = touchEndX - touchStartX;
@@ -680,16 +685,16 @@
 	})}</script>`}
 </svelte:head>
 
-<svelte:window bind:innerWidth />
+<svelte:window
+	bind:innerWidth
+	on:touchstart|passive={handleTouchStart}
+	on:touchend|passive={handleTouchEnd}
+/>
 
 {#if browser && $page?.route?.id?.includes('/stories/')}
 	<slot />
 {:else}
-	<div
-		class="app-wrapper flex min-h-screen w-full flex-col"
-		on:touchstart|passive={handleTouchStart}
-		on:touchend|passive={handleTouchEnd}
-	>
+	<div class="app-wrapper flex min-h-screen w-full flex-col">
 		<!-- Skip link for accessibility (WCAG 2.4.1) -->
 		<a
 			href="#main-content"

@@ -127,7 +127,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
-path: >-
+path: docs/content-analysis/pipeline-logs/2026-10-04_19-27-11-976_joseph-zada/baseline-reader.md
   src/blog/people/drafts/joseph-zada.md src/blog/people/drafts/joseph-zada.md
   docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/edit.md
 ---

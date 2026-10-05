@@ -128,7 +128,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
-path: docs/content-analysis/pipeline-logs/2026-10-04_09-15-47-078_Andrew-Garfield/draft.md
+path: src/blog/people/drafts/Andrew-Garfield.md
 ---
 
 In November 2021, [Stephen Colbert](/personality-analysis/stephen-colbert) asked Andrew Garfield how art helped him deal with grief. Garfield's mother, Lynn, had died of pancreatic cancer in 2019. He gave two answers in one breath. The first became the clip that followed him: "I hope this grief stays with me because it's the unexpressed love that I never got to tell her." The second rarely traveled with it. He wanted to honor her "through my art and use it as a way to heal, use it as a way to sew up the wounds because that's what we do." ([The Late Show with Stephen Colbert, November 2021](https://www.youtube.com/watch?v=_u_TswLQ4ws); [NBC News, November 23, 2021](https://www.nbcnews.com/pop-culture/pop-culture-news/andrew-garfield-shares-tick-tick-boom-helped-cope-loss-rcna6496))

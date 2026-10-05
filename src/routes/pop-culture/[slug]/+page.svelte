@@ -14,7 +14,7 @@
 	import SuggestionsBlog from '$lib/components/blog/SuggestionsBlog.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import TestYourTypeCTA from '$lib/components/blog/TestYourTypeCTA.svelte';
-	import EnneagramCTASidebar from '$lib/components/blog/EnneagramCTASidebar.svelte';
+	import ExperimentalTherapyInvite from '$lib/components/blog/ExperimentalTherapyInvite.svelte';
 	import { getPopCultureBridges } from '$lib/data/popCultureBridges';
 	import { getPersonalityCategoryBySlug } from '$lib/personalityCategories';
 	import { getAuthShellUser } from '$lib/authShell';
@@ -216,11 +216,17 @@
 <SuggestionsBlog posts={data?.posts} blogType={'Pop Culture'} slugPrefix={'pop-culture'} />
 
 {#if !$authUser}
-	<EnneagramCTASidebar />
 	<div class="join">
 		<EmailSignup />
 	</div>
 {/if}
+
+<!-- The beta card ("Want to try experimental therapy, 9takes style?") for every
+     reader: a side card on wide screens, inside the article on narrower ones.
+     It replaced the newsletter side card here on 2026-10-04. -->
+{#key data.slug}
+	<ExperimentalTherapyInvite surface="pop_culture" articleSelector=".article-content" />
+{/key}
 
 <style lang="scss">
 	/* 9takes Warm Tech Theme - Pop Culture Article */

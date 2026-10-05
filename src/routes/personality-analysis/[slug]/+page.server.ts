@@ -140,7 +140,7 @@ export const load: PageServerLoad = async (event) => {
 	const { data: personDataRaw, error: personError } = await supabase
 		.from('blogs_famous_people')
 		.select(
-			'id, author, birth_date, birth_place, category, changefreq, chorus_question, chorus_question_url, citations, content, created_at, date, description, enneagram, faqs, first_published_at, imdb_id, instagram, keywords, knows_about, lastmod, loc, meta_title, nationality, occupation, person, persona_title, priority, published, published_at, same_as, suggestions, tags, tiktok, title, twitter, type, wikidata_qid, wikipedia'
+			'id, author, birth_date, birth_place, category, changefreq, chorus_question, chorus_question_url, citations, content, content_quality, created_at, date, description, enneagram, faqs, first_published_at, imdb_id, instagram, keywords, knows_about, lastmod, loc, meta_title, nationality, occupation, person, persona_title, priority, published, published_at, same_as, suggestions, tags, tiktok, title, twitter, type, wikidata_qid, wikipedia'
 		)
 		.eq('person', canonicalSlugParam)
 		.order('published', { ascending: false, nullsFirst: false })
@@ -152,11 +152,17 @@ export const load: PageServerLoad = async (event) => {
 		throwTemporarilyUnavailable(requestedSlug, 'person', personError);
 	}
 
-	const personData = personDataRaw as FamousPersonRow | null;
+	const personRow = personDataRaw as FamousPersonRow | null;
 
-	if (!personData) {
+	if (!personRow) {
 		throw error(404, `Person not found: ${requestedSlug}`);
 	}
+
+	// content_quality is the pipeline's internal record (grades, gate results).
+	// The page needs one fact from it, so derive that here and keep the rest
+	// out of the shared payload.
+	const { content_quality: contentQuality, ...personData } = personRow;
+	const isOpenCase = isOpenCaseProfile(contentQuality);
 
 	// Unpublished people 404 for everyone here, including admins: this response is
 	// shared, so a draft fetched by an admin would be replayed to the public.
@@ -180,7 +186,7 @@ export const load: PageServerLoad = async (event) => {
 			processBlogContent(personData.content ?? '', { popCardImageTreatment: 'personality' }),
 			buildRelatedPosts(supabase, canonicalSlug, postTypes, enneagramNum),
 			getPersonalitySimilarityRows(supabase),
-			resolvePublicChorusQuestion(supabase, personData, canonicalSlug)
+			resolvePublicChorusQuestion(supabase, personRow, canonicalSlug)
 		]);
 	const suggestedPeople = buildSuggestedPeople(
 		personData.suggestions,
@@ -194,7 +200,7 @@ export const load: PageServerLoad = async (event) => {
 
 	return {
 		post: {
-			...(personData as FamousPersonRow),
+			...personData,
 			// The person's own question, only while it is public. What the page
 			// actually renders (own or proven fallback) is `chorus` below.
 			chorus_question: publicChorus.own.question,
@@ -222,6 +228,9 @@ export const load: PageServerLoad = async (event) => {
 		},
 		slug: canonicalSlug,
 		canonicalSlug,
+		// Thin-record profile: leading read, live alternatives, what would settle
+		// it. Drives the header marker and the closing format note.
+		isOpenCase,
 		// Visitor-independent (same question for everyone), so it is safe in the
 		// ISR copy. Impressions and answers happen in the browser.
 		chorus: publicChorus.chorus,
@@ -395,6 +404,18 @@ function countRenderableWords(content: string): number {
 	// ’ counts as part of a word: content is typographically quoted, and
 	// "don’t" must stay one word or read time inflates.
 	return plainText.match(/[A-Za-z0-9][A-Za-z0-9'’-]*/g)?.length ?? 0;
+}
+
+/**
+ * The people pipeline marks thin-record profiles (young, early-career subjects)
+ * with `content_quality.profile_format = 'open_case'`. Standard profiles carry
+ * no `profile_format` key at all.
+ */
+function isOpenCaseProfile(contentQuality: FamousPersonRow['content_quality']): boolean {
+	if (!contentQuality || typeof contentQuality !== 'object' || Array.isArray(contentQuality)) {
+		return false;
+	}
+	return contentQuality.profile_format === 'open_case';
 }
 
 function smartQuoteFaqs(faqs: FamousPersonRow['faqs']): FamousPersonRow['faqs'] {

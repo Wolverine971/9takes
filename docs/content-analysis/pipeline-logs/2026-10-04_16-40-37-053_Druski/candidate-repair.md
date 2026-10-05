@@ -183,7 +183,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
-path: src/blog/people/drafts/Druski.md
+path: docs/content-analysis/pipeline-logs/2026-10-04_16-40-37-053_Druski/candidate-repair.md
 editorial_workflow:
   version: 3
   run_dir: docs/content-analysis/pipeline-logs/2026-10-04_16-40-37-053_Druski

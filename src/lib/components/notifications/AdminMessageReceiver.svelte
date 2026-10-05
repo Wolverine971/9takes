@@ -125,7 +125,12 @@
 			<div class="notification-panel">
 				<div class="notification-header">
 					<h3 style="padding: 0;">Admin Messages</h3>
-					<button class="close-btn" on:click={() => (showNotifications = false)}>×</button>
+					<button
+						type="button"
+						class="close-btn"
+						aria-label="Close admin messages"
+						on:click={() => (showNotifications = false)}>×</button
+					>
 				</div>
 
 				<div class="notification-content">

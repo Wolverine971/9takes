@@ -1,0 +1,24 @@
+I've written the critic review for Tiger Woods to `docs/content-analysis/pipeline-logs/2026-10-04_22-22-14-073_Tiger-Woods/review-critic.json`. It passes the review schema, and every quoted passage matches the draft exactly. I didn't change any other file in the repo and didn't publish anything.
+
+**Verdict:** the draft is honest about the evidence against Type 3. It gives the 2008 U.S. Open, his temper, the Navy SEAL episode and his own "craving" line to the rival types in plain view. Its weak point is the main story it tells about him.
+
+**Findings (5 major, 3 minor):**
+- **critic-01 (major):** The draft's main test for Type 3 over Type 8 can't tell the two apart.
+  - The 2007 tabloid deal is counted as Woods' own choice, though the draft admits his representatives may have made it.
+  - In 2010 he read a prepared apology to a room that included sponsors, right after 45 days of inpatient therapy. Anyone would try to repair their image in that spot, whatever their type.
+- **critic-02 (major):** The profile hangs on the idea that the "earn it, deserve it" rule that built his career also excused the affairs. But the 2010 half of that is a prepared public statement written after therapy, and the draft calls it a "private self-justification." The rule also isn't shown to be specific to Type 3.
+- **critic-03 (major):** The paragraph on the DUI arrests has two problems.
+  - It presents "chronic pain" as what the record says. Woods gave that reason in 2017, but he didn't say what the 2026 treatment was for.
+  - It calls his way of handling exposure "unchanged since 2009." That conflicts with the March 2010 interviews the draft itself quotes, and with a 36-minute question session at Augusta in April 2010. Lawyers' advice during a pending case also explains why he took no questions in 2026.
+- **critic-04 (major):** One factual error and two citation problems.
+  - The draft says the 2017 arrest came "about seven weeks" after back surgery. Woods' own statement that day says "just over a month."
+  - The guilty plea is cited to an August 2017 article, which only says he was expected to plead guilty in October.
+  - The "Nothing about the Tiger Slam" quote links to the wrong article.
+- **critic-05 (major):** The 2013 Masters example leaves out that the tournament committee allowed him to keep playing and that he publicly accepted the penalty. Without that it's unfair to him, and it's weak as evidence against Type 1.
+- **Minor:** The case against Type 5 confuses playing the majors, which is his job, with seeking attention. The three "independent" sources backing Rachel Uchitel's claim mostly come from one reporter's article. "Seventy-nine days later" overstates a reversal, since his December 2, 2009 statement had already admitted "transgressions."
+
+I marked five passages to keep, all of them places where the draft handles evidence against its own argument fairly.
+
+I left all four risk flags as the research stage set them; all are on except "major thesis change." If fixing critic-01 changes his leading type, that flag should be raised and the six-reviewer panel run again.
+
+On sources: I opened 16 of the ones the draft relies on most and they match its quotes, apart from the errors above. CNN's transcript page was blocked, so I checked the 2010 apology against the Globe and Mail copy. The Golf Channel article was also blocked, so I checked it only against the excerpt in the evidence file. The similarity check flagged a shared phrase with another profile ("the public record"), but it's an ordinary hedge, not reused argument.

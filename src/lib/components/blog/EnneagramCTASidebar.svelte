@@ -4,6 +4,7 @@
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 	import { fly } from 'svelte/transition';
+	import { prefersReducedMotion } from 'svelte/motion';
 	import { notifications } from '../molecules/notifications';
 	import { getEnneagramSidebarCopy } from './enneagramSidebarCopy';
 	import { captureEmailSignupCompleted } from '$lib/analytics/marketingEvents';
@@ -155,7 +156,7 @@
 	$: shouldRenderFloating =
 		variant === 'floating' && visible && windowWidth >= mobileBreakpoint && sidebarCoords !== null;
 	$: transitionParams =
-		variant === 'embedded'
+		variant === 'embedded' || prefersReducedMotion.current
 			? { x: 0, duration: 0 }
 			: { x: sidePosition === 'left' ? -100 : 100, duration: 300 };
 

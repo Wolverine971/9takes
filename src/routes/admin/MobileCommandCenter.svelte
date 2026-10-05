@@ -663,7 +663,7 @@
 		background: color-mix(in srgb, var(--warning) 8%, var(--stone-warm));
 	}
 
-	.degraded-alert > svg {
+	.degraded-alert > :global(svg) {
 		color: var(--warning);
 	}
 
@@ -1004,7 +1004,7 @@
 		padding: 10px 11px 8px;
 	}
 
-	.compact-panel-header > svg {
+	.compact-panel-header > :global(svg) {
 		color: var(--ink-mid);
 	}
 
@@ -1181,7 +1181,7 @@
 		background: color-mix(in srgb, var(--warning) 5%, transparent);
 	}
 
-	.activity-row > svg {
+	.activity-row > :global(svg) {
 		flex: 0 0 auto;
 		color: var(--ink-mid);
 	}

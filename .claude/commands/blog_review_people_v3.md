@@ -18,3 +18,5 @@ Role responsibilities:
 - future: Apply a five-year test. Check the thesis without the latest event, temporary status claims, absolute dates and evidence-record review triggers.
 
 Keep assessment and findings compact. Aim for at most eight consequential findings and five protected passages; never omit a material factual error to meet a quota. Each finding needs an exact passage, problem, severity and concrete acceptance test. The evidence reviewer must actually open sources; source URLs and recognized outlet names are not verification. Return honest uncertainty when a source is unavailable. Do not generate grades or a rewritten draft.
+
+Open cases (`profile_format: "open_case"`): every role also checks eligibility. Raise a blocker if the subject has a deep record that research skipped, or is not early in a public career. Raise a finding if the article overstates confidence anywhere (body, title, description, FAQ), treats alternatives as token, or gives generic settle signals.

@@ -48,8 +48,6 @@
 <a
 	href="/questions/{questionData.url}"
 	class="greek-question-card my-1 flex min-h-12 transform-gpu cursor-pointer items-center justify-between gap-2 rounded-md px-3 py-2.5 text-inherit no-underline transition-all duration-200 will-change-auto sm:px-4 sm:py-3"
-	class:focus:outline-primary-light={true}
-	class:focus:outline-offset-2={true}
 	class:w-full={showDetails}
 	data-sveltekit-preload-data="tap"
 	on:mouseenter={handleMouseEnter}
@@ -69,9 +67,7 @@
 	</div>
 
 	{#if showDetails}
-		<div
-			class="xs:flex-row xs:items-center xs:gap-2 flex flex-shrink-0 flex-col items-end gap-1 sm:flex-row sm:items-center"
-		>
+		<div class="flex flex-shrink-0 flex-col items-end gap-1 sm:flex-row sm:items-center">
 			<span
 				class="flex min-w-[2rem] items-center text-xs font-bold text-[var(--ink-bright)] sm:min-w-[2.5rem] sm:text-sm"
 			>
@@ -95,7 +91,8 @@
 <style>
 	/* Solo Leveling dark theme styles for question cards */
 	:global(.greek-question-card) {
-		@apply relative overflow-hidden;
+		position: relative;
+		overflow: hidden;
 		background-color: var(--stone-warm);
 		border-left: 3px solid color-mix(in srgb, var(--lamp-glow) 60%, transparent);
 		border-radius: 0.625rem;
@@ -108,57 +105,20 @@
 		box-shadow: var(--glow-sm);
 	}
 
+	:global(.greek-question-card:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
+	}
+
 	.question-content {
 		position: relative;
 	}
 
-	.question-quote {
-		font-size: 1.5rem;
-		line-height: 1;
-		transition: opacity 0.3s ease;
-	}
-
-	.question-hover-text {
-		opacity: 0;
-		height: 0;
-		transition:
-			opacity 0.3s ease,
-			height 0.3s ease;
-		overflow: hidden;
-	}
-
-	:global(.greek-question-card:hover) .question-hover-text {
-		opacity: 0.9;
-		height: 1.2em;
-	}
-
-	/* Add responsive utilities for extra small screens */
+	/* Extra-small screens (no `xs` screen exists in the Tailwind config) */
 	@media (max-width: 576px) {
-		.xs\:flex-col {
-			flex-direction: column;
-		}
-
-		.xs\:items-end {
-			align-items: flex-end;
-		}
-
-		.xs\:gap-1 {
-			gap: 0.25rem;
-		}
-
-		.xs\:py-0\.5 {
-			padding-top: 0.125rem;
-			padding-bottom: 0.125rem;
-		}
-
 		.xs\:px-2 {
 			padding-left: 0.5rem;
 			padding-right: 0.5rem;
-		}
-
-		.xs\:text-xs {
-			font-size: 0.75rem;
-			line-height: 1rem;
 		}
 
 		.xs\:min-w-14 {
@@ -171,27 +131,13 @@
 		.duration-200 {
 			transition-duration: 0s;
 		}
-
-		:global(.greek-question-card:hover) .question-hover-text,
-		.question-hover-text,
-		.question-quote {
-			transition: none;
-		}
 	}
 
 	/* Add in Tailwind's built-in line-clamp if unavailable */
 	.line-clamp-2 {
 		display: -webkit-box;
+		line-clamp: 2;
 		-webkit-line-clamp: 2;
 		-webkit-box-orient: vertical;
-	}
-
-	:global(.greek-circle) {
-		@apply rounded-full shadow-sm transition-all duration-300;
-		border: 1px solid var(--stone-warm);
-	}
-
-	:global(.greek-question-card:hover .greek-circle) {
-		background-color: var(--lamp-soft) !important;
 	}
 </style>

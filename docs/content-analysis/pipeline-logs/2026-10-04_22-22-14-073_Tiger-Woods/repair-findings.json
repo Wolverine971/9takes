@@ -1,0 +1,28 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:V-01:Speaker error that invents a second corroborating witness. In the full text of Thompson's April 21, 2016 ESPN feature (S17), both lines are one continuous quotation from a single unnamed friend: '\"Frankly, the real Tiger Woods isn't that marketable,\" a friend says. \"There isn't a lot of money to be made off a guy who just wants to be left alone to read a book. Or left alone to play fetch with his dog. ... Do you see a trend? Tiger was a natural introvert, and the financial interest for him to be extroverted really drove a wedge in his personality.\"' The draft splits it into 'One unnamed friend ... Another', FAQ 3 repeats the split in a search-visible answer ('One friend told ESPN's Wright Thompson that Woods was \"a natural introvert,\" another that he \"just wants to be left alone to read a book\"'), and the Uchitel paragraph says 'what unnamed friends told one reporter'. The Five case and the man-versus-persona thread both lean on this testimony, so overstating its independence matters. The evidence record (C12, C91, C93) has the same error.",
+    "unresolved:V-02:Context error in the stated discriminator. In S17, between Thompson's 'He hears everything.' and Jordan's 'That bothers him more than anything,' Thompson writes: 'For Tiger, this dwelling on old mistakes is a path to madness. Nothing can take him back to 2006 and give him a second chance.' Jordan then says: 'It looms. It's in his mind. It's a ship he can't right and he's never going to. What can you do? The thing is about T-Dub, he cannot erase. That's what he really wants. He wants to erase the things that happened.' The draft's splice drops the bridge, so 'That' seems to point at public commentary, while in the source it follows regret over old mistakes and a lost second chance. The draft builds on that reading three times: 'A man who wants the record erased' turns 'erase the things that happened' (the events) into the public record; the One rebuttal says 'Jordan describes torment over what people say', although regret over the acts is what the draft says a One's inner critic produces; and the Five rebuttal says Jordan 'worries about a man who can't stop reading it', where Thompson wrote 'perhaps sitting up in the middle of the night reading'. The evidence record's own alternatives for C95 and C132 note this limit; the prose does not. Since this passage carries the Three over the Eight, Five and One, the overreach goes to the core of the type argument.",
+    "unverified_source:S17",
+    "overall_below_8.5:8",
+    "evidence_below_8:7.5",
+    "enneagram_below_8:7.5"
+  ],
+  "quality": {
+    "evidence": 7.5,
+    "enneagram": 7.5,
+    "originality": 9,
+    "writing": 8,
+    "durability": 8.5,
+    "hook": 9,
+    "discoverability": 7.5,
+    "overall": 8,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-05",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "6a02e7c30ea46a642297197be52599216e790a9dee28e88ea458b782fc215212"
+  }
+}

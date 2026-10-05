@@ -1,0 +1,34 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 5f351b09-fa24-4ffd-9e6f-2f1a0264d50d to write outputs
+The repair is written and passes the contract's own checks (evidence, resolution, word count and structure). The article is at 4,471 words, just under the 4,500 ceiling. I didn't touch the live draft or any input file, and nothing was published.
+
+**Fixes for the five verifier findings**
+- **V-01:** The two "unnamed friends" were one friend. I reread the ESPN feature: the "isn't that marketable / read a book" and "natural introvert" lines are one continuous quote. The body, FAQ 3, the Uchitel paragraph and the opening now all say one friend.
+- **V-02 (the main one):** The Jordan passage now quotes the reporter's bridge ("dwelling on old mistakes… no second chance"), so Jordan's "That bothers him" points where it does in the source. The article now splits his account into two parts:
+  - Jordan's own words are regret over what happened. That fits a One as well as a Three.
+  - The part that favors the Three is the listening: still hearing everything said about him years later.
+  - I added one detail from the same feature: before the 2010 Masters, Woods read internet comments on the drive to Augusta and "obsessed over what people thought." It is labeled as the same reporter, not independent confirmation.
+
+  The One section now opens "Type 1 is closer than it first looks." "Can't stop reading it" now keeps the source's "perhaps." **Confidence stays medium, but the One is now the closest alternative on this test.** That is a substantive change to the type argument; the type itself (3) is unchanged.
+- **V-03:** The 2007 Men's Fitness deal now reports what the cited source says. The Wall Street Journal, citing people involved, said Woods agreed to the shoot and his representatives made the offer. What's missing is a first-hand account of his role, not any record at all.
+- **V-04:** "Took no questions" is now sourced to NPR's same-day report. The AP/MPR page the verifier suggested doesn't contain that line in its current text.
+- **V-05:** The 2021 crash location now matches the cited ESPN report: Rolling Hills Estates, near Los Angeles.
+
+**Cuts for length and pacing**
+- The Buddhism paragraph, which the article itself rated weak evidence.
+- From 2026: the phone-and-radio detail and the judge's permission; the TGL appearance is now just a clause dating the arrest.
+- Woods' 2011 reply to his former caddie Steve Williams.
+- The 2004 Harmon exchange is shorter. I kept it because one reviewer's acceptance test requires that episode to read both ways.
+
+The resolution file covers all 47 original findings plus the five verifier findings, and all 18 protected passages. The 2007 hedge is now recorded as "changed," with its point kept.
+
+Two calls the verifier may question:
+- Cutting the Buddhism paragraph entirely. I recorded the reviewer finding about it as fixed by removal rather than by rewording.
+- The new argument that tips toward the Three over the One. It says a One's public self is usually built on principle, while Woods joked his was an outfit. That is a narrower line than the claim it replaces.
+
+Separately, several connectors (GitHub, Slack, Ahrefs and others) need authorization in your claude.ai connector settings or via `/mcp` before they can be used. None were needed for this stage.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-04_22-22-14-073_Tiger-Woods/`:
+- repair.md
+- evidence-repair.json
+- resolution-repair.json

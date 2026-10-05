@@ -260,12 +260,12 @@
 		<div class="nav-scroll">
 			{#each navItems as item}
 				<a href="#{item.id}" class="nav-pill">
-					<span class="nav-icon">{item.icon}</span>
+					<span class="nav-icon" aria-hidden="true">{item.icon}</span>
 					<span class="nav-text">{item.title}</span>
 				</a>
 			{/each}
 			{#each Array(9) as _, i}
-				<a href="#type-{i + 1}" class="nav-pill type-pill">
+				<a href="#type-{i + 1}" class="nav-pill type-pill" aria-label="Jump to Type {i + 1}">
 					<span class="type-num">{i + 1}</span>
 				</a>
 			{/each}

@@ -7,7 +7,8 @@
 -->
 <script lang="ts">
 	import { enhance } from '$app/forms';
-	import { onMount } from 'svelte';
+	import { onMount, tick } from 'svelte';
+	import { prefersReducedMotion } from 'svelte/motion';
 	import { Button } from '$lib/components/atoms';
 	import type { PageData, ActionData } from './$types';
 
@@ -44,11 +45,23 @@
 		return true;
 	}
 
+	/**
+	 * Sections swap via display:none, so the control that triggered the change
+	 * (Next/Previous, or an input on Enter) is often hidden or removed. Land
+	 * focus on the new heading so keyboard and screen-reader users keep their
+	 * place (headings carry tabindex="-1" for this).
+	 */
+	async function focusHeading(selector: string) {
+		await tick();
+		document.querySelector<HTMLElement>(selector)?.focus({ preventScroll: true });
+	}
+
 	function nextSection() {
 		if (!validateActiveSection()) return;
 		if (currentSection < totalSections) {
 			currentSection++;
 			scrollToTop();
+			void focusHeading('.form-section.active h2');
 		}
 	}
 
@@ -56,6 +69,7 @@
 		if (currentSection > 1) {
 			currentSection--;
 			scrollToTop();
+			void focusHeading('.form-section.active h2');
 		}
 	}
 
@@ -93,7 +107,7 @@
 	}
 
 	function scrollToTop() {
-		window.scrollTo({ top: 0, behavior: 'smooth' });
+		window.scrollTo({ top: 0, behavior: prefersReducedMotion.current ? 'auto' : 'smooth' });
 	}
 
 	const ageRanges = [
@@ -170,7 +184,7 @@
 					<polyline points="22,4 12,14.01 9,11.01" />
 				</svg>
 			</div>
-			<h1>Thank You!</h1>
+			<h1 tabindex="-1">Thank You!</h1>
 			<p class="completion-message">
 				Your intake form has been submitted successfully. We've received your responses and will
 				review them before our session.
@@ -199,7 +213,9 @@
 			<div class="progress-bar">
 				<div class="progress-fill" style="width: {(currentSection / totalSections) * 100}%"></div>
 			</div>
-			<span class="progress-text">Section {currentSection} of {totalSections}</span>
+			<span class="progress-text" aria-live="polite" aria-atomic="true"
+				>Section {currentSection} of {totalSections}</span
+			>
 		</div>
 
 		<!-- Error Message -->
@@ -223,6 +239,8 @@
 					if (result.type === 'success') {
 						showSuccess = true;
 						scrollToTop();
+						// The focused submit button is gone; land on the confirmation.
+						void focusHeading('.completion-screen h1');
 					} else {
 						await update();
 					}
@@ -231,7 +249,7 @@
 		>
 			<!-- Section 1: Background -->
 			<section class="form-section" class:active={currentSection === 1}>
-				<h2>About You</h2>
+				<h2 tabindex="-1">About You</h2>
 				<p class="section-intro">Let's start with some basic information.</p>
 
 				<div class="form-group">
@@ -277,7 +295,7 @@
 
 			<!-- Section 2: Current Situation -->
 			<section class="form-section" class:active={currentSection === 2}>
-				<h2>Current Situation</h2>
+				<h2 tabindex="-1">Current Situation</h2>
 				<p class="section-intro">Help us understand what's bringing you to coaching right now.</p>
 
 				<div class="form-group">
@@ -327,7 +345,7 @@
 
 			<!-- Section 3: Personality Assessment -->
 			<section class="form-section" class:active={currentSection === 3}>
-				<h2>Personality Assessment</h2>
+				<h2 tabindex="-1">Personality Assessment</h2>
 				<p class="section-intro">
 					Let's explore your Enneagram type. Don't worry if you're not sure - we'll figure it out
 					together.
@@ -394,7 +412,7 @@
 
 			<!-- Section 4: Emotional Patterns -->
 			<section class="form-section" class:active={currentSection === 4}>
-				<h2>Emotional Patterns</h2>
+				<h2 tabindex="-1">Emotional Patterns</h2>
 				<p class="section-intro">Understanding your emotional landscape helps us work together.</p>
 
 				<div class="form-group">
@@ -445,7 +463,7 @@
 
 			<!-- Section 5: Relationships -->
 			<section class="form-section" class:active={currentSection === 5}>
-				<h2>Relationships</h2>
+				<h2 tabindex="-1">Relationships</h2>
 				<p class="section-intro">How you relate to others reveals important patterns.</p>
 
 				<div class="form-group">
@@ -483,7 +501,7 @@
 
 			<!-- Section 6: Goals -->
 			<section class="form-section" class:active={currentSection === 6}>
-				<h2>Your Goals</h2>
+				<h2 tabindex="-1">Your Goals</h2>
 				<p class="section-intro">Let's get specific about what you want to achieve.</p>
 
 				<div class="form-group">
@@ -519,7 +537,7 @@
 
 			<!-- Section 7: Logistics -->
 			<section class="form-section" class:active={currentSection === 7}>
-				<h2>Scheduling</h2>
+				<h2 tabindex="-1">Scheduling</h2>
 				<p class="section-intro">Last section! Just a few logistics.</p>
 
 				<div class="form-group">
@@ -681,6 +699,20 @@
 		font-weight: 600;
 		margin: 0 0 0.5rem;
 		color: var(--ink-bright);
+	}
+
+	/* Headings receive programmatic focus on section change: no ring for
+	   mouse users, the lamp ring for keyboard users. */
+	.form-section h2:focus:not(:focus-visible),
+	.completion-screen h1:focus:not(:focus-visible) {
+		outline: none;
+	}
+
+	.form-section h2:focus-visible,
+	.completion-screen h1:focus-visible {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 4px;
+		border-radius: 4px;
 	}
 
 	.section-intro {

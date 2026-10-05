@@ -90,7 +90,13 @@
 		</div>
 	{/if}
 	{#if comment.comment_count && !allComments.length}
-		<button type="button" class="load-more-btn" onclick={loadMore}>
+		<button
+			type="button"
+			class="load-more-btn"
+			onclick={loadMore}
+			aria-label="Show {comment.comment_count} {comment.comment_count === 1 ? 'reply' : 'replies'}"
+			aria-busy={loading}
+		>
 			{comment.comment_count}
 			{#if loading}
 				<div class="loader"></div>
