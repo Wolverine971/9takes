@@ -1,5 +1,6 @@
 // src/lib/constants/contact.ts
-// Public mailing address supplied by DJ on October 5, 2026.
+// Mailing address for email footers, supplied by DJ on October 5, 2026.
+// DJ prefers it in emails only; do not add it to public site pages or metadata.
 // Keep EMAIL_FOOTER_ADDRESS in local and Vercel environments in sync.
 export const MAILING_ADDRESS = {
 	postOfficeBoxNumber: '662',
@@ -11,8 +12,3 @@ export const MAILING_ADDRESS = {
 } as const;
 
 export const MAILING_ADDRESS_LINE = `${MAILING_ADDRESS.streetAddress}, ${MAILING_ADDRESS.addressLocality}, ${MAILING_ADDRESS.addressRegion} ${MAILING_ADDRESS.postalCode}`;
-
-export const MAILING_ADDRESS_JSON_LD = {
-	'@type': 'PostalAddress',
-	...MAILING_ADDRESS
-} as const;

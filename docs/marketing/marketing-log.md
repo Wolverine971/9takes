@@ -10,6 +10,13 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-10-05 — PO box display limited to email footers
+
+- **DJ clarified the preference:** display the PO box in emails only. The earlier addition to the public website was broader than necessary.
+- **Requirement checked:** [FTC CAN-SPAM guidance](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) requires the sender's valid postal address in commercial email and accepts a registered USPS PO box. That requirement does not extend to the website footer. This is a check of the email rule, not a comprehensive review of every possible business disclosure obligation.
+- **Correction:** removed the PO box from the site footer, About/contact page, and site-wide Organization metadata. Email templates and all local/Vercel `EMAIL_FOOTER_ADDRESS` settings remain configured. Documented the email-only preference in the source constant and email-system spec.
+- **Deployed and verified:** `dpl_C6XZVjAhRX14FeviMi56skAuPhrA` ([deployment](https://9takes-6qier65hk-djwayne35gmailcoms-projects.vercel.app)) is promoted to `9takes.com`. The candidate About page and homepage rendered normally with no PO box in the HTML or metadata. `pnpm check` reported 0 errors and the same 21 existing warnings; the production build and its runtime/budget checks passed. The shared email address and local env values still match the supplied PO box. This correction supersedes the public-address display from the earlier entry below; source edits remain uncommitted.
+
 ### 2026-10-05 — PO box configured and deployed
 
 - **Mailing address supplied by DJ:** 9takes, PO Box 662, Glen Burnie, MD 21061-0662.

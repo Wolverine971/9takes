@@ -6,7 +6,6 @@
 	// templates / poster generator until Phase 6) but no longer loaded
 	// globally.
 	import { serializeJsonLd } from '$lib/utils/jsonLd';
-	import { MAILING_ADDRESS_JSON_LD } from '$lib/constants/contact';
 	import '@fontsource-variable/inter';
 	import '@fontsource/jetbrains-mono/400.css';
 	import '@fontsource/jetbrains-mono/500.css';
@@ -642,7 +641,6 @@
 				description:
 					'One question, nine perspectives. 9takes is a Q&A platform where you answer before the crowd, then see the emotions behind every take — nine coherent readings of the same situation, mapped by the Enneagram.',
 				foundingDate: '2022',
-				address: MAILING_ADDRESS_JSON_LD,
 				founder: { '@id': AUTHOR_DJ_WAYNE_ID },
 				logo: {
 					'@type': 'ImageObject',

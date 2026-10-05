@@ -383,6 +383,8 @@ Run with `pnpm test:unit`.
 
 ## 11. Environment variables
 
+**Mailing-address display (DJ preference, October 5, 2026):** Keep the PO box in email footers. Do not display it in the public website footer, About page, or Organization metadata. The [FTC CAN-SPAM guidance](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) requires a valid postal address in commercial email messages and allows a registered USPS PO box; that email rule does not require a website address footer.
+
 | Variable                                        | Purpose                                                                                                                                           |
 | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `PRIVATE_gmail_private_key`                     | Gmail service account JSON, base64 or raw. The sender parses it with `JSON.parse` and extracts `privateKey`.                                      |
