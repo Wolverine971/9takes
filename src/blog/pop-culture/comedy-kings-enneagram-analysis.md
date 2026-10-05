@@ -211,7 +211,7 @@ That's the arc of a 9 who finally ran the numbers. Avoiding conflict had always 
 
 Shane Gillis might be the most relatable comedian alive.
 
-It's because he genuinely thinks like the guy two stools down at the bar, and none of it is an act. Type 9 is the most common Enneagram type and the one most prone to blending into the crowd, so when a 9 talks, he tends to sound like the median person in the room. Gillis turned that ordinary frequency into a career.
+It's because he genuinely thinks like the guy two stools down at the bar, and none of it is an act. [Type 9 is the most common Enneagram type](/enneagram-corner/how-common-is-each-enneagram-type) and the one most prone to blending into the crowd, so when a 9 talks, he tends to sound like the median person in the room. Gillis turned that ordinary frequency into a career.
 
 Then 2019 happened.
 

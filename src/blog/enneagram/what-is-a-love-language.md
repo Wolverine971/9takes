@@ -8,12 +8,12 @@ loc: 'https://9takes.com/enneagram-corner/what-is-a-love-language'
 lastmod: '2026-10-03'
 changefreq: 'monthly'
 priority: '0.8'
-published: false
+published: true
 type: ['relationships']
 blog: true
 previewHtml: 'Chapman named five love languages. The research adds a catch: the reason behind a gesture changes how it lands.'
-pic: 'Relationship-Challenges'
-pic_alt: 'Two marble statues mid-conversation, one reaching out while the other gestures back, a gesture that is not landing'
+pic: 'greek-statues-fixing-the-lamp-while-she-waits'
+pic_alt: 'A marble statue on a stepladder beams at the kitchen lamp he just fixed while his partner sits at the table below, a second cup of tea poured beside the empty chair she pulled out for him'
 path: src/blog/enneagram/what-is-a-love-language.md
 article_citations:
   - name: "Speaking the Language of Relational Maintenance: A Validity Test of Chapman's (1992) Five Love Languages"
@@ -146,12 +146,12 @@ article_citations:
 </svelte:head>
 
 <!--
-Hero image concept (pic currently borrows the unused 'Relationship-Challenges' image so the post is publish-ready).
-Concept: one marble statue holds out a finished act of service (a neatly folded stack of laundry, or a just-fixed lamp) toward a second statue, who is looking past it at the empty chair beside her. Same gesture, missed message.
-Prompt (Midjourney or the house generator):
-Two classical Greek marble statues in a dim kitchen. The statue on the left holds out a neatly folded stack of linens with both hands, posture proud and expectant. The statue on the right looks past the linens toward an empty chair at the table, one hand resting on its back. A single warm amber glow comes from the linens, the only color in the frame. Dramatic chiaroscuro, deep charcoal background, black, white, and grey marble tones, moody and editorial, no text, no watermark, negative space at top. --ar 1:1 --v 6
-To generate with the house pipeline: echo "PROMPT_TEXT" | node scripts/gen-blog-image-openrouter.mjs what-is-a-love-language (paste the prompt above, minus the Midjourney flags, as PROMPT_TEXT)
-Then set pic: 'what-is-a-love-language' in the frontmatter.
+Hero image (generated 2026-10-04): greek-statues-fixing-the-lamp-while-she-waits
+Concept: the opening Saturday couple in one frame. He stands on a stepladder, beaming at the kitchen lamp he just fixed (acts of service, his "I love you"). She sits at the table below, a second cup of tea poured in front of the empty chair she pulled out for him (quality time, what she was listening for). The light he fixed falls on the chair he never sits in.
+Model: google/gemini-3-pro-image (Nano Banana Pro) via OpenRouter, image_config aspect_ratio 16:9, image_size 2K. Master 2752x1536 at source-assets/blogs/, delivery webp 1200 q82 + s- thumb 480 q72 in static/blogs/.
+Crop check: both faces and the lamp survive the 6:5 desktop hero crop, the 4:3 CaseCard listing crop, and a 1:1 crop.
+Prompt:
+A cinematic widescreen photograph, 16:9, of two life-size classical Greek white marble statues in a dark kitchen at night, lit by a single lamp. The story: he spent all Saturday fixing things for her as his way of saying "I love you"; all she wanted was for him to sit down with her. Left of center: a male marble statue with carved curly hair in a draped himation stands with both feet on the top step of a small wooden stepladder, both arms raised, fitting a glowing bulb into a hanging glass pendant lamp above the kitchen table. The lamp has just come on and glows warm amber. His face is turned up to the lamp, satisfied and absorbed. He does not see her. Right of center, close beside the ladder: a female marble statue in a draped chiton sits at a small wooden table directly under the lamp. Two cups of tea steam on the table; one sits untouched in front of the empty chair beside her, which she has pulled out for him. One hand rests on the back of that empty chair. She gazes up at him with quiet, patient longing. The amber pendant lamp is the only light: a tight golden pool over the table, the cups, the empty chair and both marble figures. Everything else falls off into near-black shadow, with only faint hints of kitchen cabinets. Keep the ladder, both statues, the lamp, and the empty chair inside the central half of the frame, with dark negative space on both sides. Realistic weathered Carrara marble with fine grey veining and subtle chips, believable anatomy, natural hands with five fingers, shallow depth of field, dramatic chiaroscuro, mostly black, white and grey tones with warm amber as the only color accent. The image fills the entire frame edge to edge: no black bars, no letterboxing, no borders. Fully clothed figures. Absolutely no text, letters, numbers, logos, or watermarks anywhere.
 -->
 
 <QuickAnswer question="What is a love language in a relationship?">

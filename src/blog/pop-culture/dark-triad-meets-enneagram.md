@@ -32,7 +32,7 @@ None that research can name. No validated study has mapped psychopathy, or any o
 
 <p class="firstLetter">Search "dark triad celebrities" and you get confident lists of narcissist pop stars and psychopath CEOs, almost never with a test score attached.</p>
 
-The Enneagram corner of the internet runs the same shortcut: call the domineering person a Type 8 psychopath, the image-conscious liar a Type 3 narcissist, or the detached person a Type 5 with no empathy.
+The Enneagram corner of the internet runs the same shortcut: call the domineering person a Type 8 psychopath, the image-conscious liar a [Type 3 narcissist](/enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist), or the detached person a Type 5 with no empathy.
 
 That may feel like pattern recognition. It is usually several unsupported inferences stacked together.
 

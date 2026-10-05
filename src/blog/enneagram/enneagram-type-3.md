@@ -512,7 +512,7 @@ Whether identifying yourself or recognizing others, these patterns are distincti
 
 **"3s don't have feelings."** They have feelings. They just don't know what to do with them. Feelings that don't serve goals get filed away. Emotional processing happens eventually. Often through physical symptoms, breakdowns, or years later in therapy. The feelings were always there.
 
-**"3s are just narcissists."** Narcissistic traits can appear in unhealthy 3s, but motivation differs. Narcissism involves genuine belief in one's superiority. Type 3's grandiosity is compensatory. It covers deep fear of worthlessness. When 3s act superior, they're often trying to convince themselves as much as you.
+**"3s are just narcissists."** [Narcissistic traits can appear in unhealthy 3s](/enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist), but motivation differs. Narcissism involves genuine belief in one's superiority. Type 3's grandiosity is compensatory. It covers deep fear of worthlessness. When 3s act superior, they're often trying to convince themselves as much as you.
 
 </section>
 

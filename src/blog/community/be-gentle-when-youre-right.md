@@ -327,16 +327,6 @@ Flip the double standard. Keep the sting for your own mistakes, in a dose you ca
 
 That's part of why 9takes works the way it does. You answer before the crowd, before you can see which take is winning, and your answer carries your type, not your name. If you turn out to be wrong, the only thing it costs you is changing your mind.
 
-So here's the question. Answer it before you read anyone else's.
+So here's the question I'd leave you with: **when was someone gentle with you when you were wrong?** Hold on to that answer. Then think of the person who's waiting on you to do the same.
 
-**When was someone gentle with you when you were wrong?**
-
-<!--
-SEED QUESTION: no matching row exists in the `questions` table (checked 2026-10-03). To make this
-answer-first, DJ creates the question, then replace the bold line above with:
-<StrategicQuestion question="When was someone gentle with you when you were wrong?" questionId={NEW_ID} questionUrl="NEW_URL" blogSlug="be-gentle-when-youre-right" />
-and add `import StrategicQuestion from "$lib/components/blog/StrategicQuestion.svelte";` to the script.
-Before embedding on /community: StrategicQuestion hardcodes its impression sourcePath to
-/enneagram-corner/${blogSlug}, and src/routes/community/[slug]/ does not record server-side
-strategic-question impressions the way enneagram-corner's +page.server.ts does.
--->
+If you want to practice saying what you actually think before you know which take is winning, [pick a question on 9takes](/questions) and answer it before you read anyone else's.

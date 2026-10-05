@@ -166,6 +166,8 @@ Not sure of your type? See our [full comparison of Enneagram tests](/enneagram-c
 
 - [What Enneagram Type Are Most Musicians?](/pop-culture/what-enneagram-type-are-most-musicians): One domain from the corpus, worked through. Type 4 makes up 38.8% of 67 musician profiles, more than double its sitewide share.
 
+- [How Common Is Each Enneagram Type?](/enneagram-corner/how-common-is-each-enneagram-type): Truity's and enneagram-personality.com's type percentages side by side, rarest to most common, and the five reasons the two charts disagree.
+
 - <a target="_blank" rel="noopener" href="https://enneagram-personality.com/en/test/stats/1-enneagram-population-distribution">Enneagram-Personality.com Population Distribution</a>: The only public source we've found that publishes a complete 9-type distribution table with sample size, date, and methodology on a single page. n ≈ 200,000 online test-takers as of 2026.
 
 </article>
@@ -640,7 +642,7 @@ Several active Enneagram Facebook groups exist for specific interests:
 - <a  target="_blank" rel="noopener" href="https://www.internationalenneagram.org/membership/join-the-iea/">IEA Membership</a>: Access to the Nine Points magazine, conference discounts, and a directory of certified practitioners.
 - <a  target="_blank" rel="noopener" href="https://ieaninepoints.com/">IEA Nine Points</a>: The IEA's library of articles, research, and event listings.
 
-**Pro tip**: Online communities are great for learning, but be cautious of mistyping. Many people in forums are early in their journey and may confidently share incorrect information. Cross-reference what you read with credible sources from the [books](#📚-enneagram-books-📖) and [experts](#enneagram-influencers--experts) listed above.
+**Pro tip**: [Online communities](/community/enneagram-community) are great for learning, but be cautious of mistyping. Many people in forums are early in their journey and may confidently share incorrect information. Cross-reference what you read with credible sources from the [books](#📚-enneagram-books-📖) and [experts](#enneagram-influencers--experts) listed above.
 
 </article>
 

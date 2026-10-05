@@ -116,7 +116,7 @@ These perspectives stifle curiosity. Personality attempts to map out the dimensi
 
 I went looking for a place where these conversations were already happening.
 
-I scoured Reddit, Discord, every online community I could find. The conversations were either too shallow ("OMG I'm such a Type 4!") or too fragmented to build real understanding.
+I scoured Reddit, Discord, [every online community I could find](/community/enneagram-community). The conversations were either too shallow ("OMG I'm such a Type 4!") or too fragmented to build real understanding.
 
 Reddit was the closest thing, and Reddit has a power law problem: lurkers everywhere, early comments snowball, late answers die unread. [Reddit's structure makes deep connection almost impossible](/community/reddit-deep-connections-limitations). The design rewards quick takes, not genuine exploration. I realized that if you want authentic answers, people have to give their own take before they see the crowd.
 

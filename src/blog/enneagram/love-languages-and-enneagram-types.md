@@ -60,7 +60,7 @@ The Enneagram, built on work by Riso, Hudson, Palmer, and Ichazo on older contem
 Midjourney Prompt: five interconnected circles with elegant symbols representing each love language - hands holding a gift, two figures embracing, one person helping another, speech bubbles with hearts, and two people sitting close together, golden connecting lines between circles, warm romantic color palette with soft pinks and golds, classical marble texture background, ethereal glow around each symbol, Unreal Engine, Cinematic, beautifully detailed, hyper realistic --ar 16:9 --v 6
 -->
 
-Dr. Gary Chapman identified five primary ways humans express and receive love:
+Dr. Gary Chapman identified [five primary ways humans express and receive love](/enneagram-corner/what-is-a-love-language):
 
 **1. Words of Affirmation**
 

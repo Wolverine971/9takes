@@ -342,7 +342,7 @@ For a closer look at every combination, use the [complete Enneagram compatibilit
 
 ## How Each Type Commonly Gives and Receives Love
 
-Love languages are preferences, not fixed traits, and your Enneagram type does not assign one. The table below describes common ways a type's motivation can shape affection.
+[Love languages](/enneagram-corner/what-is-a-love-language) are preferences, not fixed traits, and your Enneagram type does not assign one. The table below describes common ways a type's motivation can shape affection.
 
 | Type       | Affection may look like                        | What may be easy to miss                        |
 | ---------- | ---------------------------------------------- | ----------------------------------------------- |

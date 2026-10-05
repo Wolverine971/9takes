@@ -8,11 +8,11 @@ loc: 'https://9takes.com/community/enneagram-community'
 lastmod: '2026-10-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 type: ['idea']
 blog: true
 previewHtml: 'r/Enneagram, the IEA, Discord, PersonalityCafe, and Narrative Enneagram panels: what each Enneagram community is good for, and how to keep a thread about your life from turning into a vote on your number.'
-pic: 'Engaging-with-Community-and-Neighbors'
+pic: 'greek-statue-being-measured-instead-of-heard'
 path: src/blog/community/enneagram-community.md
 article_citations:
   - name: 'r/Enneagram Subreddit Stats & Analysis'
@@ -115,20 +115,35 @@ Facts verified 2026-10-03 (all cited in article_citations):
 - PersonalityCafe counts and thread titles are from the live board pages, viewed 2026-10-03.
 - Narrative Enneagram: panel method from its Narrative Tradition page; Third Thursday gatherings from its calendar.
 
-Image: pic points at the existing, unused static/blogs/Engaging-with-Community-and-Neighbors.webp (statues
-gathered at a candlelit table) so the page is complete if flipped live. It skews teal. Dedicated image concept:
-A circle of Greek marble statues on stone benches in a small plaza at dusk, each bent over a wax tablet,
-writing alone, under one warm amber streetlamp. Behind them, out of focus, a crowd of statues points at a
-single statue holding up a stone placard with a large carved number. Warm amber light on the writers,
-cold flat light on the crowd.
-Midjourney prompt:
-circle of classical Greek marble statues seated on stone benches in a small neoclassical plaza at dusk,
-each statue bent over a wax tablet writing privately, one warm amber streetlamp lighting the circle,
-background out of focus: a crowd of marble statues pointing at a lone statue holding a stone placard
-carved with a large numeral, cold blue-grey light on the crowd, realistic marble texture, cinematic depth,
-museum-quality editorial photography, no readable text --ar 16:9 --v 6 --style raw --stylize 150
-Generate with: echo "$PROMPT" | node scripts/gen-blog-image-openrouter.mjs greek-statues-enneagram-community
-then set pic: 'greek-statues-enneagram-community'.
+Image (dedicated hero, generated 2026-10-04): pic 'greek-statue-being-measured-instead-of-heard'.
+Concept: "too often, what they get is typed." A marble statue sits on a stone chair and looks straight at
+the reader, weary, while four confident marble scholars crowd around him with brass calipers, a compass
+and a rule, arguing over his skull. A fifth writes the verdict on a wax tablet. Nobody meets his eyes.
+Warm amber pendant lamp overhead, brass glinting gold, charcoal gallery. The subject sits dead center, so
+he survives the 6:5 post-hero crop and the 3:4 / 4:3 listing crops.
+Model: google/gemini-3-pro-image (Nano Banana Pro) via OpenRouter, image_config aspect_ratio 16:9 +
+image_size 2K (2752x1536 master in source-assets/blogs/, 1200w + 480w webp in static/blogs/).
+Picked from 11 renders over three concepts: a vote panel holding blank scorecards at a confessing statue,
+the measuring scene, and a lamplit listening circle with a typing crowd behind it.
+Prompt (paste verbatim into the stdin of the generator):
+A cinematic widescreen 16:9 photograph of classical Greek marble statues in a dark gallery at night. In
+the exact center of the frame, a life-size marble statue of a man sits upright and very still on a stone
+chair, looking straight into the camera with a patient, weary, quietly sad expression, the look of someone
+being discussed instead of asked how he is. Crowded tightly around him, four marble statues lean in like
+scientists, absorbed and arguing with each other: one measures the width of his skull with large antique
+brass calipers, one holds a brass drafting compass against his jaw, one stretches a brass measuring rule
+along his shoulder, and one scratches notes on a blank wax tablet with a stylus. None of them meet his
+eyes. A single warm amber lamp hangs just above, making the polished brass instruments glint gold and
+lighting his face; the measuring statues fall off into shadow toward the edges of the frame. Deep
+charcoal background. Realistic weathered white Carrara marble with fine grey veining, subtle chips and
+soft subsurface glow, museum-quality editorial photography, shot on a 50mm lens, shallow depth of field,
+dramatic chiaroscuro. Palette: mostly black, white and grey stone tones with warm amber lamplight as the
+only strong color; any cool light is a muted, desaturated slate grey, never teal or cyan. Keep the main
+subject inside the central third of the frame with breathing room above the head, so the image still
+works cropped to a tall portrait card. The picture fills the entire 16:9 frame edge to edge: no borders,
+no letterboxing, no vignette frame. Absolutely no text, letters, numbers, numerals, symbols, logos or
+watermarks anywhere; every tablet and card is completely blank smooth stone. All figures fully draped in
+carved robes, no nudity.
 
 Inbound links to add when publishing (pnpm crosslinks:check needs 3+; link-only edits, never touch lastmod):
 1. src/blog/enneagram/enneagram-books-websites-podcasts.md, "Online Communities" pro tip (~L643):

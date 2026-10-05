@@ -153,7 +153,11 @@
 				>
 				is the most common Enneagram type at {pct(mostCommonType[1])}%.
 				<a href="/personality-analysis/type/{rarestType[0]}">{TYPE_NAMES[Number(rarestType[0])]}</a>
-				is the rarest at {pct(rarestType[1])}%.
+				is the rarest at {pct(rarestType[1])}%. Public figures aren't a population sample. For
+				test-taker percentages, rarest to most common, see
+				<a href="/enneagram-corner/how-common-is-each-enneagram-type"
+					>how common each Enneagram type is</a
+				>.
 			</p>
 			<p>
 				The strongest domain skews are where the data gets useful:

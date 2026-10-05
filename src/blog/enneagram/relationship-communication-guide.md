@@ -575,7 +575,7 @@ The Enneagram works best alongside other relationship frameworks.
 
 **Attachment Theory**: Your attachment style (secure, anxious, avoidant, disorganized) interacts with your Enneagram type. An anxiously attached Two looks different from an avoidantly attached Two. Layer these systems for deeper self-understanding. (We mapped <a href="/enneagram-corner/attachment-styles-and-enneagram-types">how each Enneagram type relates to attachment styles</a>.)
 
-**Love Languages**: Twos often give through acts of service and need words of affirmation. Fives often give through quality time (in small doses) and need acts of service that respect their space. Your Enneagram type predicts which love languages come naturally, and which you need to intentionally develop. (See the full breakdown of <a href="/enneagram-corner/love-languages-and-enneagram-types">love languages by Enneagram type</a>.)
+**[Love Languages](/enneagram-corner/what-is-a-love-language)**: Twos often give through acts of service and need words of affirmation. Fives often give through quality time (in small doses) and need acts of service that respect their space. Your Enneagram type predicts which love languages come naturally, and which you need to intentionally develop. (See the full breakdown of <a href="/enneagram-corner/love-languages-and-enneagram-types">love languages by Enneagram type</a>.)
 
 ## The Bottom Line
 

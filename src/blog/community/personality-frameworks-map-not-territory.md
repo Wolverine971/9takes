@@ -49,7 +49,7 @@ He meant this literally, and also as a broader principle. The word is not the th
 
 Korzybski's point was that humans constantly confuse abstraction with reality — and this confusion is the source of most of our thinking errors, our arguments, and our suffering.
 
-Enneagram forums, Discord servers, and Reddit threads have missed this memo entirely.
+[Enneagram forums, Discord servers, and Reddit threads](/community/enneagram-community) have missed this memo entirely.
 
 <div class="pull-quote">Stop arguing over the map. Update the math.</div>
 

@@ -8,23 +8,25 @@ loc: 'https://9takes.com/enneagram-corner/which-enneagram-type-is-most-likely-to
 lastmod: '2026-10-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 type: ['situational']
 blog: true
 previewHtml: ''
-pic: 'greek-mirror-shattered'
+pic: 'greek-statue-proud-pose-ashamed-shadow'
 path: src/blog/enneagram/which-enneagram-type-is-most-likely-to-be-a-narcissist.md
 ---
 
 <!--
-HERO IMAGE CONCEPT (pic currently borrows the existing 'greek-mirror-shattered' asset so the card renders).
-Concept: Narcissus at the pool, but the reflection answers back in nine faces. One marble figure kneels over still black water.
-His posture is proud; the face in the water is fractured into nine slightly different expressions, one per type. A thin crack of
-amber light runs through the statue's chest, the only color in the frame.
-Midjourney (V8.2, no --quality):
-greek marble statue of Narcissus kneeling at the edge of a dark still pool, gazing down with a proud but brittle expression, his reflection in the water fractured into nine slightly different faces, thin cracks of warm amber light running through the marble chest, deep charcoal background, black white and grey marble tones with a single amber accent, cinematic portrait photography, shot on 50mm lens, depth of field, detailed marble texture, low-key chiaroscuro lighting, beautifully color graded, elegant, hyper realistic --ar 16:9 --style raw
-Alt route: echo "<prompt above, reworded as a 1:1 editorial illustration>" | node scripts/gen-blog-image-openrouter.mjs which-enneagram-type-is-most-likely-to-be-a-narcissist
-then set pic: 'which-enneagram-type-is-most-likely-to-be-a-narcissist'.
+HERO IMAGE (dedicated, generated 2026-10-04): pic 'greek-statue-proud-pose-ashamed-shadow'.
+Concept: the loud and quiet versions in one person. A marble statue strikes a grandiose pose (chin up, hand on hip, triumphant
+flourish, superior smile) under an amber streetlamp in a night alley, but the shadow he casts on the concrete wall is a figure
+curled on the ground, head buried in its arms. Proud statue, ashamed shadow: the grandiose/vulnerable split and the shame under
+the defense (see "Grandiose and vulnerable"). Statue and shadow sit in the central half so both survive the 1:1 detail-page crop
+and the 4:3 / 3:4 listing-card crops.
+Model: google/gemini-3-pro-image (Nano Banana Pro) via OpenRouter, image_config aspect_ratio 16:9, image_size 2K (2752x1536 master
+in source-assets/blogs/; static/blogs/ holds the 1200px q82 webp and the 480px q72 s- thumbnail). Picked from 14 renders across
+3 concepts (dinner-table mirror, broken-amphora repair test, proud statue with mismatched reflection/shadow).
+Prompt: A full-bleed cinematic widescreen 16:9 photograph (the picture fills the entire frame edge to edge, no borders, no letterboxing) of a real carved classical Greek marble statue in an empty modern city alley at night. A life-size white marble statue of a young man in a carved marble himation stands on a low stone plinth close against a rough concrete wall, just left of the center of the frame. He is posed grandly: chest out, chin lifted high, one hand on his hip and the other raised in a triumphant flourish, a proud, superior, self-satisfied smile. An old-fashioned iron streetlamp stands at the far left edge of the frame and pours warm amber light across him from the side, so his shadow falls on the wall IMMEDIATELY to his right, almost touching his shoulder, the same size as he is. But the shadow does NOT match his pose: it is the flat black silhouette of a figure sitting curled up on the ground, knees hugged to its chest, head buried in its arms, hiding in shame. The shadow is a flat, soft-edged cast shadow on the concrete, not a solid figure. Proud statue, ashamed shadow, side by side: the loud self and the quiet self of the same person. Wet pavement reflecting the amber light, deep charcoal night, a few out-of-focus city lights far down the alley. Realistic weathered marble texture with fine veining and small chips, anatomically correct hands with five fingers, dramatic chiaroscuro, shallow depth of field, shot on a 50mm lens, beautifully color graded, mostly black, white and grey tones with warm amber as the only accent color. Composition: the statue and his shadow together sit tightly inside the central half of the frame, the statue just left of center and the shadow just right of center. Absolutely no text, graffiti, letters, numbers, signs, logos or watermarks anywhere.
 -->
 
 <script>

@@ -8,12 +8,12 @@ loc: 'https://9takes.com/enneagram-corner/how-common-is-each-enneagram-type'
 lastmod: '2026-10-03'
 changefreq: 'monthly'
 priority: '0.8'
-published: false
+published: true
 type: ['overview']
 blog: true
 previewHtml: 'Truity says Eights are the most common Enneagram type. A 200,000-person sample says they are second rarest. Both are right about their own test-takers.'
-pic: 'circle_of_nine_greek_greek_statues_sitting'
-pic_alt: 'Nine marble statues seated in a circle around a glowing amber floor, each lit a little differently'
+pic: 'greek-statue-two-doors-two-crowds'
+pic_alt: 'A marble statue of a woman holding a wax tablet looks back in disbelief between two amber-lit doorways, armored warriors filing through one and robed figures through the other'
 path: src/blog/enneagram/how-common-is-each-enneagram-type.md
 article_citations:
   - name: 'Population distribution of Enneagram types (stats)'
@@ -135,12 +135,21 @@ Keyword strategy (GSC, 90 days to 2026-10-02, deduped):
 </svelte:head>
 
 <!--
-Hero image concept (pic currently borrows 'circle_of_nine_greek_greek_statues_sitting', also used by enneagram-social-styles, so the post is publish-ready).
-Concept: two rows of nine marble statues stand on plinths, facing each other across a narrow aisle like two bar charts that were supposed to match. In each row the plinth heights differ, and the heights do not line up across the aisle: the tallest plinth on one side faces one of the shortest on the other. One amber streetlamp at the end of the aisle lights both rows. Same nine figures, two different counts.
-Prompt (Midjourney or the house generator):
-Two facing rows of nine classical Greek marble statues standing on stone plinths of uneven heights, arranged like two bar charts across a narrow night-time plaza aisle. The plinth heights do not match across the aisle, the tallest plinth on the left faces a short plinth on the right. A single warm amber streetlamp at the far end of the aisle casts long shadows, the only color in the frame. Black, white and grey marble tones, deep charcoal sky, moody editorial lighting, symmetrical composition, negative space at top, no text, no numbers, no watermark. --ar 3:2 --v 6
-To generate with the house pipeline: echo "PROMPT_TEXT" | node scripts/gen-blog-image-openrouter.mjs how-common-is-each-enneagram-type (paste the prompt above, minus the Midjourney flags, as PROMPT_TEXT)
-Then set pic: 'how-common-is-each-enneagram-type' and update pic_alt in the frontmatter.
+Hero image (generated 2026-10-04): pic 'greek-statue-two-doors-two-crowds' (dedicated; replaces the borrowed circle_of_nine_greek_greek_statues_sitting).
+Concept: the post's thesis line, "Each one counted the people who came through its own door, and different doors draw different crowds." A marble scholar stands between two amber-lit doorways holding a blank wax tablet and stylus. Armored warrior statues (Eights, Truity's most common type) file through the left door; serene robed figures (Nines, enneagram-personality.com's most common type) file through the right. She looks back in baffled disbelief because her count no longer adds up.
+Model: google/gemini-3-pro-image (Nano Banana Pro) via OpenRouter, image_config aspect_ratio 16:9, image_size 2K (2752x1536 master in source-assets/blogs/). Chosen from 12 renders across 3 concepts (streetlight-effect census, two doors, nine heaps of voting pebbles).
+Crop note: the enneagram-corner post page shows this hero as a 1:1 center crop on desktop and full-frame on mobile; listings crop 4:3 or 3:4 from center. The woman stays in the middle third, so every crop keeps her face and tablet.
+To regenerate: put the prompt below on stdin to scripts/gen-blog-image-openrouter.mjs with model google/gemini-3-pro-image, and pass image_config aspect_ratio 16:9 (the stock script does not request 16:9, so the default model returns 1:1).
+Prompt:
+A cinematic widescreen 16:9 photograph that fills the entire frame edge to edge (no borders, no letterboxing). Subject: classical Greek marble statues; two doors draw two different crowds, so one count says one thing and the other count says the opposite.
+
+A dark, high-ceilinged marble hall at night. In the back wall, two tall rectangular doorways stand close together, just left and right of center, separated by a narrow strip of dark marble wall. Each doorway glows with warm amber light from within.
+
+Through the left doorway pours a dense crowd of commanding marble warrior statues, all fully clothed in carved marble breastplates and short pleated tunics, crested Corinthian helmets on their heads, jaws set, chests forward, shouldering through the door. Through the right doorway pours a dense crowd of serene marble figures in long flowing robes and veils, fully covered, hands folded, eyes half closed, drifting through unhurried. The two crowds spill toward the viewer along the left and right walls and never mix.
+
+In the exact center of the frame, in the foreground, in front of the strip of wall between the doors, stands a life-size marble statue of a woman scholar in a draped chiton. In one hand she holds a small open wooden writing tablet the size of a paperback book, its blank surface tilted away from the viewer; in the other hand a thin bronze stylus is frozen mid-tally. Her head is turned sharply toward the left doorway, eyes wide, brows pulled up and together, lips parted: baffled disbelief, as if her count no longer adds up.
+
+Style: realistic weathered Carrara marble with fine veins, hairline cracks and chips, anatomically correct hands with five fingers, cinematic editorial photography, 50mm lens, shallow depth of field so the crowds soften behind her, dramatic chiaroscuro, warm amber light spilling from both doorways across a polished black marble floor, deep charcoal shadows, mostly black, white and grey tones with warm amber as the only color. Every figure is fully clothed; no nudity. Keep the woman and both doorways inside the middle half of the frame. Absolutely no text, letters, words, numbers, signage, logos or watermarks anywhere.
 -->
 
 <QuickAnswer question="How common is each Enneagram type?">

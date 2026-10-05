@@ -242,7 +242,7 @@ Type 2s are susceptible to:
 
 Type 3s are susceptible to:
 
-- Narcissistic Personality Disorder
+- [Narcissistic Personality Disorder](/enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist)
 - Hypertension
 - Depression
 - Narcissistic rage
