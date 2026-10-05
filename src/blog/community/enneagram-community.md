@@ -396,9 +396,11 @@ The best Enneagram community leaves you reading people better. Your number is a 
 
 Ask nine people what they'd want to know before you move across the country. One asks about the money. One asks who you'd be leaving behind. One asks whether you'll be bored by spring, and one asks what you're running from. None of them is wrong, and you'd want to hear every one.
 
-So here's the question. Answer it before you read anyone else's.
+So here's the question I'd leave you with:
 
 **What situation would you want nine different people's takes on before you decide?**
+
+When you have one, [pick a question on 9takes](/questions) and answer it before you read anyone else's.
 
 <!--
 SEED QUESTION: no matching row exists in the `questions` table (checked 2026-10-03 against all 47 live,

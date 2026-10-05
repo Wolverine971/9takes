@@ -416,9 +416,11 @@ Yes, on average. A 2024 meta-analysis of 51 longitudinal samples found that narc
 
 ## One question before you go
 
-Answer it for yourself before you read anyone else's take:
+Sit with this one for a second:
 
 **When people call someone a narcissist, what behavior are they usually describing?**
+
+Then [pick a question on 9takes](/questions) and answer it before you read anyone else's take.
 
 <!--
 DJ: wire the give-first question once the DB row exists.

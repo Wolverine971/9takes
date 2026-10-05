@@ -418,9 +418,11 @@ Every Enneagram chart is an honest answer to a narrower question than the one yo
 
 9takes runs on the same idea at human scale. One question, nine perspectives. You answer before the crowd, so the room can't pick your answer for you, and then you see how other types read the same thing. If the nine types are real, the takes should sound different by type, and that's something you can check one question at a time.
 
-So check it. Answer this before you read anyone else's take:
+Start with your own read:
 
 **Which type do you almost never meet, and why do you think that is?**
+
+Then check it: [pick a question on 9takes](/questions) and answer it before you read anyone else's take.
 
 <!--
 StrategicQuestion wiring (for DJ, once the DB question exists; no matching row in `questions` as of 2026-10-03):

@@ -336,9 +336,11 @@ A love language tells you which channel to use. The motive decides what the mess
 
 So when something your partner clearly meant as love doesn't land, ask what it was carrying before you grade the gesture. The two of you may be hearing different reasons behind the same act, and once you know which, you can stop reading a mistranslation as a lack of love.
 
-Try it on yourself first. Answer this before you read anyone else's take:
+Try it on yourself first:
 
 **What does your partner do that they clearly mean as love, but it doesn't land for you?**
+
+Then [pick a question on 9takes](/questions) and answer it before you read anyone else's take.
 
 <!--
 StrategicQuestion wiring (for DJ, once the DB question exists):
