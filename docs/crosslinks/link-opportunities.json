@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-10-05",
+	"generatedAt": "2026-10-06",
 	"gsc": {
 		"runDate": "2026-10-04",
 		"window": {
@@ -13,14 +13,164 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 435,
-		"gateDebt": 0,
+		"candidates": 453,
+		"gateDebt": 1,
 		"topBlog": 40,
 		"peopleBridge": 30,
-		"peopleToPeople": 6,
+		"peopleToPeople": 5,
 		"skipped": 130
 	},
-	"gateDebt": [],
+	"gateDebt": [
+		{
+			"url": "/pop-culture/artificial-movie-real-people",
+			"title": "Is Artificial a True Story? The Real People Behind Guadagnino's OpenAI Movie",
+			"file": "src/blog/pop-culture/artificial-movie-real-people.md",
+			"inCount": 0,
+			"outCount": 10,
+			"needIn": 3,
+			"needOut": 0,
+			"grandfathered": false,
+			"inbound": [
+				{
+					"id": "/pop-culture/tech-titans-ai-wars -> /pop-culture/artificial-movie-real-people",
+					"score": 1.26,
+					"target": {
+						"url": "/pop-culture/artificial-movie-real-people",
+						"title": "Is Artificial a True Story? The Real People Behind Guadagnino's OpenAI Movie",
+						"kind": "blog",
+						"section": "pop-culture",
+						"impressions": 0,
+						"clicks": 0,
+						"position": null,
+						"inbound": 0
+					},
+					"source": {
+						"url": "/pop-culture/tech-titans-ai-wars",
+						"file": "src/blog/pop-culture/tech-titans-ai-wars.md",
+						"section": "pop-culture",
+						"impressions": 983,
+						"outCount": 14
+					},
+					"line": 42,
+					"anchor": "Sam Altman",
+					"phrase": "sam altman",
+					"phraseKind": "title",
+					"mentionScore": 3,
+					"excerpt": "The AI race is mostly led by Type 4 and Type 5 patterns. Sam Altman reads as a Type 4 chasing a defining act of significance. Dario Amodei, Elon Musk, and Mark Zuckerberg read as Type 5s, each trying to understand, contr…"
+				},
+				{
+					"id": "/pop-culture/musk-vs-altman-trial-personality-dynamics -> /pop-culture/artificial-movie-real-people",
+					"score": 1.22,
+					"target": {
+						"url": "/pop-culture/artificial-movie-real-people",
+						"title": "Is Artificial a True Story? The Real People Behind Guadagnino's OpenAI Movie",
+						"kind": "blog",
+						"section": "pop-culture",
+						"impressions": 0,
+						"clicks": 0,
+						"position": null,
+						"inbound": 0
+					},
+					"source": {
+						"url": "/pop-culture/musk-vs-altman-trial-personality-dynamics",
+						"file": "src/blog/pop-culture/musk-vs-altman-trial-personality-dynamics.md",
+						"section": "pop-culture",
+						"impressions": 12,
+						"outCount": 5
+					},
+					"line": 36,
+					"anchor": "Sam Altman",
+					"phrase": "sam altman",
+					"phraseKind": "title",
+					"mentionScore": 4,
+					"excerpt": "OpenAI, Sam Altman, Greg Brockman, and Microsoft won at the trial level on May 18, 2026. A nine-person advisory jury unanimously found that Elon Musk waited too long to bring his claims, and Judge Yvonne Gonzalez Rogers …"
+				},
+				{
+					"id": "/pop-culture/fallen-founders-enneagram-analysis -> /pop-culture/artificial-movie-real-people",
+					"score": 1.05,
+					"target": {
+						"url": "/pop-culture/artificial-movie-real-people",
+						"title": "Is Artificial a True Story? The Real People Behind Guadagnino's OpenAI Movie",
+						"kind": "blog",
+						"section": "pop-culture",
+						"impressions": 0,
+						"clicks": 0,
+						"position": null,
+						"inbound": 0
+					},
+					"source": {
+						"url": "/pop-culture/fallen-founders-enneagram-analysis",
+						"file": "src/blog/pop-culture/fallen-founders-enneagram-analysis.md",
+						"section": "pop-culture",
+						"impressions": 87,
+						"outCount": 23
+					},
+					"line": 137,
+					"anchor": "Sam Altman",
+					"phrase": "sam altman",
+					"phraseKind": "title",
+					"mentionScore": 3,
+					"excerpt": "Sam Altman is a [Type 4](/enneagram-corner/enneagram-type-4) in the same structural position the other founders occupied right before the wheels came off. The full case for the typing is in [Musk vs Altman: A Type 5 and …"
+				},
+				{
+					"id": "/pop-culture/tech-titans-enneagram-analysis -> /pop-culture/artificial-movie-real-people",
+					"score": 0.91,
+					"target": {
+						"url": "/pop-culture/artificial-movie-real-people",
+						"title": "Is Artificial a True Story? The Real People Behind Guadagnino's OpenAI Movie",
+						"kind": "blog",
+						"section": "pop-culture",
+						"impressions": 0,
+						"clicks": 0,
+						"position": null,
+						"inbound": 0
+					},
+					"source": {
+						"url": "/pop-culture/tech-titans-enneagram-analysis",
+						"file": "src/blog/pop-culture/tech-titans-enneagram-analysis.md",
+						"section": "pop-culture",
+						"impressions": 240,
+						"outCount": 32
+					},
+					"line": 89,
+					"anchor": "Sam Altman",
+					"phrase": "sam altman",
+					"phraseKind": "title",
+					"mentionScore": 3,
+					"excerpt": "**Cast**: Sam Altman (Type 4) vs Dario Amodei (Type 5) vs Elon Musk (Type 5)"
+				},
+				{
+					"id": "/pop-culture/tech-titans-leadership-styles -> /pop-culture/artificial-movie-real-people",
+					"score": 0.64,
+					"target": {
+						"url": "/pop-culture/artificial-movie-real-people",
+						"title": "Is Artificial a True Story? The Real People Behind Guadagnino's OpenAI Movie",
+						"kind": "blog",
+						"section": "pop-culture",
+						"impressions": 0,
+						"clicks": 0,
+						"position": null,
+						"inbound": 0
+					},
+					"source": {
+						"url": "/pop-culture/tech-titans-leadership-styles",
+						"file": "src/blog/pop-culture/tech-titans-leadership-styles.md",
+						"section": "pop-culture",
+						"impressions": 484,
+						"outCount": 31
+					},
+					"line": 133,
+					"anchor": "OpenAI",
+					"phrase": "openai",
+					"phraseKind": "title",
+					"mentionScore": 2,
+					"excerpt": "…on pushback on this typing is that Altman looks like a 3: Loopt, the YC presidency, OpenAI, the relentless networking, the ladder-climbing. Watch what he optimizes for, though, and the 4 wiring is the only one that fits."
+				}
+			],
+			"outbound": [],
+			"bridgeHosts": []
+		}
+	],
 	"topBlog": [
 		{
 			"id": "/community/enneagram-community -> /enneagram-corner/astrology-and-the-enneagram",
@@ -372,33 +522,6 @@
 			"phraseKind": "curated",
 			"mentionScore": 3,
 			"excerpt": "…vitable endpoint of parasocial attachment. If a bond is disrupting daily life, driving unsafe behavior, or creating a belief that a public figure secretly reciprocates, it deserves support beyond a personality framework."
-		},
-		{
-			"id": "/pop-culture/fallen-founders-enneagram-analysis -> /pop-culture/tech-titans-enneagram-analysis",
-			"score": 2.93,
-			"target": {
-				"url": "/pop-culture/tech-titans-enneagram-analysis",
-				"title": "Tech Titans Through the Enneagram: A Series on the Personality Types Shaping the Future",
-				"kind": "blog",
-				"section": "pop-culture",
-				"impressions": 240,
-				"clicks": 6,
-				"position": 9.1,
-				"inbound": 5
-			},
-			"source": {
-				"url": "/pop-culture/fallen-founders-enneagram-analysis",
-				"file": "src/blog/pop-culture/fallen-founders-enneagram-analysis.md",
-				"section": "pop-culture",
-				"impressions": 87,
-				"outCount": 23
-			},
-			"line": 226,
-			"anchor": "Tech Titans",
-			"phrase": "tech titan",
-			"phraseKind": "title",
-			"mentionScore": 3,
-			"excerpt": ">This post is part of the Tech Titans Through the Enneagram series. See also"
 		},
 		{
 			"id": "/enneagram-corner/mental-health/enneagram-crisis-management-guide -> /enneagram-corner/depression-patterns-by-enneagram-type",
@@ -1022,33 +1145,6 @@
 			"excerpt": "- Retire the script early. \"How do you know the host?\" is a wall. \"You look like you're having a complicated relationship with this party\" is a door."
 		},
 		{
-			"id": "/pop-culture/tech-titans-disruptors -> /pop-culture/tech-titans-ai-wars",
-			"score": 2,
-			"target": {
-				"url": "/pop-culture/tech-titans-ai-wars",
-				"title": "The AI Wars: Why Personality Types Determine Who Gets to Build God",
-				"kind": "blog",
-				"section": "pop-culture",
-				"impressions": 983,
-				"clicks": 6,
-				"position": 9,
-				"inbound": 7
-			},
-			"source": {
-				"url": "/pop-culture/tech-titans-disruptors",
-				"file": "src/blog/pop-culture/tech-titans-disruptors.md",
-				"section": "pop-culture",
-				"impressions": 42,
-				"outCount": 10
-			},
-			"line": 42,
-			"anchor": "Elon Musk",
-			"phrase": "elon musk",
-			"phraseKind": "title",
-			"mentionScore": 2,
-			"excerpt": "…Type 8) broke the taxi industry through raw aggression, and got broken himself. Elon Musk (Type 5) decoded automotive, aerospace, and social media as systems to master. Three 8s and a 5. The 8s broke industries through f…"
-		},
-		{
 			"id": "/how-to-guides/using-the-enneagram-for-self-development -> /enneagram-corner/enneagram-test-comparison-2026",
 			"score": 1.99,
 			"target": {
@@ -1101,6 +1197,60 @@
 			"phraseKind": "gsc",
 			"mentionScore": 1.5,
 			"excerpt": "…are editorial interpretations of public work and behavior rather than clinical assessments. Claims about shows, careers, and deals require a first-party source or reputable reporting; none of those facts proves a typing."
+		},
+		{
+			"id": "/enneagram-corner/astrology-and-the-enneagram -> /enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+			"score": 1.99,
+			"target": {
+				"url": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+				"title": "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 160,
+				"clicks": 2,
+				"position": 16.6,
+				"inbound": 9
+			},
+			"source": {
+				"url": "/enneagram-corner/astrology-and-the-enneagram",
+				"file": "src/blog/enneagram/astrology-and-the-enneagram.md",
+				"section": "enneagram-corner",
+				"impressions": 10859,
+				"outCount": 15
+			},
+			"line": 90,
+			"anchor": "next thing",
+			"phrase": "next thing",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "…ou're a [Type 7](/enneagram-corner/enneagram-type-7). If freedom means nobody tells you what to do, look at [Type 8](/enneagram-corner/enneagram-type-8). The tell: 7s run toward the next thing. 8s refuse to be held back."
+		},
+		{
+			"id": "/enneagram-corner/enneagram-social-styles -> /enneagram-corner/enneagram-test-comparison-2026",
+			"score": 1.95,
+			"target": {
+				"url": "/enneagram-corner/enneagram-test-comparison-2026",
+				"title": "Best Free Enneagram Tests (2026): An Honest Comparison",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 2112,
+				"clicks": 14,
+				"position": 9.8,
+				"inbound": 7
+			},
+			"source": {
+				"url": "/enneagram-corner/enneagram-social-styles",
+				"file": "src/blog/enneagram/enneagram-social-styles.md",
+				"section": "enneagram-corner",
+				"impressions": 316,
+				"outCount": 3
+			},
+			"line": 239,
+			"anchor": "variants",
+			"phrase": "variant",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "…rticle — the Hornevian groups. \"Social Subtype\" is one of the three instinctual variants (the one that focuses on group, status, and belonging). A Self-preservation 4 is still socially **Withdrawn**. Same person, differe…"
 		}
 	],
 	"peopleBridge": [
@@ -1265,6 +1415,33 @@
 			"phraseKind": "name",
 			"mentionScore": 3,
 			"excerpt": "…. He studied economics, graduated into the post-crisis finance track, then read Paul Graham's essays and Hacker News and redirected toward startups. His stated reason for not joining a large technology company is a Seven…"
+		},
+		{
+			"id": "/pop-culture/artificial-movie-real-people -> /personality-analysis/lex-fridman",
+			"score": 5.41,
+			"target": {
+				"url": "/personality-analysis/lex-fridman",
+				"title": "Lex Fridman",
+				"kind": "person",
+				"section": "people",
+				"impressions": 1317,
+				"clicks": 17,
+				"position": 12.1,
+				"inbound": 2
+			},
+			"source": {
+				"url": "/pop-culture/artificial-movie-real-people",
+				"file": "src/blog/pop-culture/artificial-movie-real-people.md",
+				"section": "pop-culture",
+				"impressions": 0,
+				"outCount": 10
+			},
+			"line": 174,
+			"anchor": "Lex Fridman",
+			"phrase": "Lex Fridman",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "…ted that it felt \"sorta like reading your own eulogy while you're still alive.\" Months later, he told Lex Fridman it had been \"the most painful professional experience of my life, and chaotic and shameful and upsetting.\""
 		},
 		{
 			"id": "/community/societal-ticking-time-bombs -> /personality-analysis/sam-parr",
@@ -1456,33 +1633,6 @@
 			"excerpt": "…rviews with powerful figures—including Volodymyr Zelenskyy, Benjamin Netanyahu, Mark Zuckerberg, and Elon Musk—show a consistent Type 5-style preference for patient inquiry over confrontation. His [official episode catal…"
 		},
 		{
-			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /personality-analysis/elon-musk",
-			"score": 4.44,
-			"target": {
-				"url": "/personality-analysis/elon-musk",
-				"title": "Elon Musk",
-				"kind": "person",
-				"section": "people",
-				"impressions": 1297,
-				"clicks": 2,
-				"position": 17.4,
-				"inbound": 7
-			},
-			"source": {
-				"url": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
-				"file": "src/blog/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md",
-				"section": "pop-culture",
-				"impressions": 225,
-				"outCount": 8
-			},
-			"line": 235,
-			"anchor": "Elon Musk",
-			"phrase": "Elon Musk",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "…ne of the strongest lineups they had ever booked. It was also the day Trump and Elon Musk publicly fell out, and the live chat could talk about nothing else. Mid-show, the hosts canceled the interviews and followed the f…"
-		},
-		{
 			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/theo-von",
 			"score": 4.37,
 			"target": {
@@ -1645,6 +1795,33 @@
 			"excerpt": "- **Rogan**: Brian Redban co-launched the podcast. His comedian circle — Tom Segura, Bert Kreischer, Joey Diaz — formed a content ecosystem that fed the show."
 		},
 		{
+			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /personality-analysis/elon-musk",
+			"score": 4.18,
+			"target": {
+				"url": "/personality-analysis/elon-musk",
+				"title": "Elon Musk",
+				"kind": "person",
+				"section": "people",
+				"impressions": 1297,
+				"clicks": 2,
+				"position": 17.4,
+				"inbound": 8
+			},
+			"source": {
+				"url": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+				"file": "src/blog/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md",
+				"section": "pop-culture",
+				"impressions": 225,
+				"outCount": 8
+			},
+			"line": 235,
+			"anchor": "Elon Musk",
+			"phrase": "Elon Musk",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "…ne of the strongest lineups they had ever booked. It was also the day Trump and Elon Musk publicly fell out, and the live chat could talk about nothing else. Mid-show, the hosts canceled the interviews and followed the f…"
+		},
+		{
 			"id": "/pop-culture/breaking-points-enneagram-analysis -> /personality-analysis/bernie-sanders",
 			"score": 4.14,
 			"target": {
@@ -1780,33 +1957,6 @@
 			"excerpt": "…ia. He appeared in the background of a photo alongside **Jeff Bezos, Elon Musk, Sergey Brin, and Bill Gates**. ([BuzzFeed News](https://www.buzzfeednews.com/article/peteraldhous/jeffrey-epstein-bezos-musk-billionaires-di…"
 		},
 		{
-			"id": "/pop-culture/twitter-x-personality-types-toxic -> /personality-analysis/elon-musk",
-			"score": 3.31,
-			"target": {
-				"url": "/personality-analysis/elon-musk",
-				"title": "Elon Musk",
-				"kind": "person",
-				"section": "people",
-				"impressions": 1297,
-				"clicks": 2,
-				"position": 17.4,
-				"inbound": 7
-			},
-			"source": {
-				"url": "/pop-culture/twitter-x-personality-types-toxic",
-				"file": "src/blog/pop-culture/twitter-x-personality-types-toxic.md",
-				"section": "pop-culture",
-				"impressions": 0,
-				"outCount": 14
-			},
-			"line": 225,
-			"anchor": "Elon Musk",
-			"phrase": "Elon Musk",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "**Did X become more toxic after Elon Musk bought Twitter?**"
-		},
-		{
 			"id": "/pop-culture/google-leadership-evolution -> /personality-analysis/tim-cook",
 			"score": 3.3,
 			"target": {
@@ -1834,31 +1984,31 @@
 			"excerpt": "Tim Cook, Satya Nadella, Andy Jassy. None of them needed the founder back when the world changed. Each successor was the founder's psychological twin — or close enough that the company never had to renegotiate what it wa…"
 		},
 		{
-			"id": "/pop-culture/fallen-founders-enneagram-analysis -> /personality-analysis/satya-nadella",
-			"score": 3.21,
+			"id": "/pop-culture/twitter-x-personality-types-toxic -> /personality-analysis/elon-musk",
+			"score": 3.12,
 			"target": {
-				"url": "/personality-analysis/satya-nadella",
-				"title": "Satya Nadella",
+				"url": "/personality-analysis/elon-musk",
+				"title": "Elon Musk",
 				"kind": "person",
 				"section": "people",
-				"impressions": 116,
-				"clicks": 0,
-				"position": 15.8,
-				"inbound": 5
+				"impressions": 1297,
+				"clicks": 2,
+				"position": 17.4,
+				"inbound": 8
 			},
 			"source": {
-				"url": "/pop-culture/fallen-founders-enneagram-analysis",
-				"file": "src/blog/pop-culture/fallen-founders-enneagram-analysis.md",
+				"url": "/pop-culture/twitter-x-personality-types-toxic",
+				"file": "src/blog/pop-culture/twitter-x-personality-types-toxic.md",
 				"section": "pop-culture",
-				"impressions": 87,
-				"outCount": 23
+				"impressions": 0,
+				"outCount": 14
 			},
-			"line": 150,
-			"anchor": "Satya Nadella",
-			"phrase": "Satya Nadella",
+			"line": 225,
+			"anchor": "Elon Musk",
+			"phrase": "Elon Musk",
 			"phraseKind": "name",
 			"mentionScore": 3,
-			"excerpt": "2. **Microsoft's $13 billion is too entangled to unwind.** Satya Nadella made it instantly clear that if the board pushed Altman out, Microsoft would hire him and the entire research team."
+			"excerpt": "**Did X become more toxic after Elon Musk bought Twitter?**"
 		},
 		{
 			"id": "/pop-culture/psychology-of-public-shame -> /personality-analysis/grimes",
@@ -1888,8 +2038,8 @@
 			"excerpt": "- **Being weird on Twitter** (Grimes)"
 		},
 		{
-			"id": "/pop-culture/musk-vs-altman-trial-personality-dynamics -> /personality-analysis/satya-nadella",
-			"score": 2.79,
+			"id": "/pop-culture/fallen-founders-enneagram-analysis -> /personality-analysis/satya-nadella",
+			"score": 2.97,
 			"target": {
 				"url": "/personality-analysis/satya-nadella",
 				"title": "Satya Nadella",
@@ -1898,21 +2048,21 @@
 				"impressions": 116,
 				"clicks": 0,
 				"position": 15.8,
-				"inbound": 5
+				"inbound": 6
 			},
 			"source": {
-				"url": "/pop-culture/musk-vs-altman-trial-personality-dynamics",
-				"file": "src/blog/pop-culture/musk-vs-altman-trial-personality-dynamics.md",
+				"url": "/pop-culture/fallen-founders-enneagram-analysis",
+				"file": "src/blog/pop-culture/fallen-founders-enneagram-analysis.md",
 				"section": "pop-culture",
-				"impressions": 12,
-				"outCount": 5
+				"impressions": 87,
+				"outCount": 23
 			},
-			"line": 174,
+			"line": 150,
 			"anchor": "Satya Nadella",
 			"phrase": "Satya Nadella",
 			"phraseKind": "name",
 			"mentionScore": 3,
-			"excerpt": "…reconstruct the distrust that culminated in Altman's 2023 firing. Microsoft CEO Satya Nadella, meanwhile, described the board's execution of that decision as \"amateur city\" and recalled fearing that employees would leave…"
+			"excerpt": "2. **Microsoft's $13 billion is too entangled to unwind.** Satya Nadella made it instantly clear that if the board pushed Altman out, Microsoft would hire him and the entire research team."
 		}
 	],
 	"peopleToPeople": [
@@ -1926,7 +2076,7 @@
 			"target": {
 				"url": "/personality-analysis/andrew-garfield",
 				"name": "Andrew Garfield",
-				"inCount": 0,
+				"inCount": 1,
 				"impressions": 0,
 				"position": null
 			},
@@ -1945,32 +2095,13 @@
 			"target": {
 				"url": "/personality-analysis/andrew-garfield",
 				"name": "Andrew Garfield",
-				"inCount": 0,
+				"inCount": 1,
 				"impressions": 0,
 				"position": null
 			},
 			"line": 211,
 			"anchor": "Andrew Garfield",
 			"excerpt": "Holland's specific flavor is 7w6, the Entertainer wing. The 6 wing adds a layer of loyalty, anxiety about security, and a deep need to belong that the core Seven doesn't always show. It's why Holland is so family-oriented. Why he created The Brothers Trust charity with his parents and brothers. Why he keeps a \"Spider-Boys\" group chat with Andrew Garfield and [Tobey Maguire](/personality-analysis/tobey-maguire), three people who've been through something \"so unique that we really are like brothers.\"",
-			"typeClaim": null
-		},
-		{
-			"id": "/personality-analysis/tobey-maguire -> /personality-analysis/andrew-garfield",
-			"source": {
-				"url": "/personality-analysis/tobey-maguire",
-				"file": "src/blog/people/drafts/Tobey-Maguire.md",
-				"outCount": 7
-			},
-			"target": {
-				"url": "/personality-analysis/andrew-garfield",
-				"name": "Andrew Garfield",
-				"inCount": 0,
-				"impressions": 0,
-				"position": null
-			},
-			"line": 202,
-			"anchor": "Andrew Garfield",
-			"excerpt": "That kind of loyalty runs in both directions, and other actors feel its pull. When the three screen Spider-Men reunited for *No Way Home* alongside [Tom Holland](/personality-analysis/tom-holland), Andrew Garfield described how he decided to sign on. \"I was just waiting to see if Tobey was going to do it,\" he said, \"and if Tobey was going to do it I was like, well, I have no choice. I followed Tobey.\" Maguire is the one the others orbit. He is not the loudest man in any room. He is the one people organize themselves around, which is a very particular kind of quiet authority.",
 			"typeClaim": null
 		},
 		{

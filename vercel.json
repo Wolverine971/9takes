@@ -123,6 +123,11 @@
 			"permanent": true
 		},
 		{
+			"source": "/blog/enneagram-lineage",
+			"destination": "/enneagram-corner/enneagram-influences",
+			"permanent": true
+		},
+		{
 			"source": "/contact-us",
 			"destination": "/about#contact",
 			"permanent": true

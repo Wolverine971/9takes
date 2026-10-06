@@ -1,6 +1,6 @@
 // src/routes/admin/email-campaigns/+page.server.ts
-import { error } from '@sveltejs/kit';
-import type { PageServerLoad } from './$types';
+import { error, fail } from '@sveltejs/kit';
+import type { Actions, PageServerLoad } from './$types';
 
 import { generateEmailHtml } from '$lib/email/base-template';
 import {
@@ -9,6 +9,11 @@ import {
 } from '$lib/email/enneagram-type-prompt-content';
 import { prepareSequenceSend, type SequenceSendRow } from '$lib/email/sequences';
 import { requireAdmin } from '$lib/server/adminAuth';
+import {
+	endStoppedEnrollment,
+	loadStoppedEnrollments,
+	resumeStoppedEnrollment
+} from '$lib/server/stoppedEnrollments';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import type {
 	EmailCampaignDetailLink,
@@ -109,32 +114,42 @@ function prepareStepPreview(sequence: any, step: any) {
 export const load: PageServerLoad = async ({ locals }) => {
 	await requireAdmin(locals);
 	const supabase = getSupabaseAdminClient() as any;
-	const [sequencesResult, stepsResult, enrollmentsResult, sendsResult, suppressionsResult] =
-		await Promise.all([
-			supabase
-				.from('email_sequences')
-				.select('id, key, display_name, description, trigger_type, status, created_at, updated_at'),
-			supabase
-				.from('email_sequence_steps')
-				.select(
-					'id, sequence_id, step_number, delay_days_after_previous, subject, html_content, plain_text, updated_at'
-				)
-				.order('step_number', { ascending: true }),
-			supabase.from('email_sequence_enrollments').select('sequence_id, status'),
-			supabase
-				.from('email_sends')
-				.select(
-					'sequence_id, sequence_step_number, status, sent_at, opened_at, clicked_at, unsubscribed_at, bounced_at'
-				),
-			supabase.from('email_unsubscribes').select('*', { count: 'exact', head: true })
-		]);
+	const [
+		sequencesResult,
+		stepsResult,
+		enrollmentsResult,
+		sendsResult,
+		suppressionsResult,
+		stoppedResult
+	] = await Promise.all([
+		supabase
+			.from('email_sequences')
+			.select('id, key, display_name, description, trigger_type, status, created_at, updated_at'),
+		supabase
+			.from('email_sequence_steps')
+			.select(
+				'id, sequence_id, step_number, delay_days_after_previous, subject, html_content, plain_text, updated_at'
+			)
+			.order('step_number', { ascending: true }),
+		supabase.from('email_sequence_enrollments').select('sequence_id, status'),
+		supabase
+			.from('email_sends')
+			.select(
+				'sequence_id, sequence_step_number, status, sent_at, opened_at, clicked_at, unsubscribed_at, bounced_at'
+			),
+		supabase.from('email_unsubscribes').select('*', { count: 'exact', head: true }),
+		loadStoppedEnrollments(supabase)
+			.then((data) => ({ data, error: null }))
+			.catch((loadError: { message?: string }) => ({ data: [], error: loadError }))
+	]);
 
 	const firstError = [
 		sequencesResult.error,
 		stepsResult.error,
 		enrollmentsResult.error,
 		sendsResult.error,
-		suppressionsResult.error
+		suppressionsResult.error,
+		stoppedResult.error
 	].find(Boolean);
 
 	if (firstError) {
@@ -237,6 +252,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 
 	return {
 		campaigns,
+		stoppedEnrollments: stoppedResult.data,
 		summary: {
 			...totals,
 			campaigns: campaigns.length,
@@ -244,4 +260,25 @@ export const load: PageServerLoad = async ({ locals }) => {
 			suppressed: suppressionsResult.count ?? 0
 		}
 	};
+};
+
+async function resolveStoppedEnrollment(
+	request: Request,
+	locals: App.Locals,
+	transition: typeof resumeStoppedEnrollment
+) {
+	await requireAdmin(locals);
+	const enrollmentId = String((await request.formData()).get('enrollmentId') ?? '').trim();
+	if (!enrollmentId) return fail(400, { error: 'Missing enrollment' });
+
+	const changed = await transition(getSupabaseAdminClient(), enrollmentId);
+	if (!changed) return fail(409, { error: 'That enrollment was already resolved.' });
+	return { resolved: enrollmentId };
+}
+
+export const actions: Actions = {
+	resumeEnrollment: ({ request, locals }) =>
+		resolveStoppedEnrollment(request, locals, resumeStoppedEnrollment),
+	endEnrollment: ({ request, locals }) =>
+		resolveStoppedEnrollment(request, locals, endStoppedEnrollment)
 };

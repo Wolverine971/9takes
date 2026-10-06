@@ -1,0 +1,1642 @@
+{
+	"method_note": "Real Google results captured 2026-10-06 in DJ's own Chrome via Claude in Chrome, URL pattern google.com/search?q=<kw>&hl=en&gl=us. Results are PERSONALIZED: browser is signed in to Google (and to Search Console, which is why an owner-only 'Search performance for this query' panel with 9takes clicks/impressions/avg position appears on some SERPs) and located in Maryland. Treat positions as one real user's view, not a neutral rank tracker. Google page 1 now shows only 6-9 organic blue links, so positions after the page-1 count were filled from page 2 (start=10) and numbered continuously (entries marked page:2). 'Organic' = standard blue-link results in the main results column, excluding ads, AI Overview, People Also Ask, image packs and Discussions blocks; YouTube videos that render as standard results are counted as organic. ai_overview.cited_domains = every non-Google link host inside the AI Overview container (includes YouTube/TikTok video cards it embeds). URLs are normalized (scheme https, 'www.' and query strings stripped by the extraction tool); long paths end in '...'; YouTube video IDs were not captured. Page-1 titles are as Google displays them (Google's own '...' truncation); page-2 titles were clipped to ~45 chars by the extractor. The GSC panel window (last 28 vs last 90 days) is whatever Google chose to show per query.",
+	"completed": 17,
+	"stopped_reason": "Google showed an 'unusual traffic' CAPTCHA on request 33 (page 2 of 'the office enneagram'). Stopped immediately without solving it. All 17 page-1 SERPs are complete; page 2 (to fill positions up to 10) is complete for 15/17. Missing: positions 9-10 for 'the office enneagram' and 'enneagram community'.",
+	"serps": [
+		{
+			"keyword": "enneagram type 9",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "enneagraminstitute.com",
+					"url": "https://enneagraminstitute.com/type-9/",
+					"title": "Enneagram Type 9: The Peacemaker",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "lorrensiucounseling.com",
+					"url": "https://lorrensiucounseling.com/enneagram-type-nine-what-its-like/",
+					"title": "Enneagram Type Nine: What It's Like",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "integrative9.com",
+					"url": "https://integrative9.com/enneagram/introduction/type-9",
+					"title": "Enneagram Type 9 Personality - The Peacemaker",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "intervarsity.org",
+					"url": "https://intervarsity.org/blog/reflections-enneagram-nine-learning-face-conflict-and-take-action",
+					"title": "Reflections from an Enneagram Nine: Learning to Face ...",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "narrativeenneagram.org",
+					"url": "https://narrativeenneagram.org/enneagram-type/type-9-the-mediator/",
+					"title": "Type 9: The Mediator",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "truity.com",
+					"url": "https://truity.com/blog/enneagram-type/type-nine",
+					"title": "Enneagram Type Nine: The Peacemaker | True You Journal",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "dropcapdesign.com",
+					"url": "https://dropcapdesign.com/enneagram-nine/",
+					"title": "Enneagram Nine: The Peacemaker",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "expectingandempowered.com",
+					"url": "https://expectingandempowered.com/blog/enneagram-type-9-the-peacemaker-fitness",
+					"title": "Enneagram Type 9 (The Peacemaker) Fitness Per...",
+					"page": 2
+				},
+				{
+					"pos": 9,
+					"domain": "upbuild.com",
+					"url": "https://upbuild.com/enneagram/type9",
+					"title": "enneagram type 9: the peace-seeker",
+					"page": 2
+				},
+				{
+					"pos": 10,
+					"domain": "insightglobal.com",
+					"url": "https://insightglobal.com/blog/7-top-careers-for-an-enneagram-type-9/",
+					"title": "7 Top Careers for an Enneagram Type 9",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"enneagraminstitute.com",
+					"upbuild.com",
+					"youtube.com",
+					"cpenneagram.com",
+					"lifecoachingforparents.com",
+					"truity.com",
+					"lorrensiucounseling.com",
+					"integrative9.com",
+					"reddit.com",
+					"narrativeenneagram.org",
+					"dropcapdesign.com"
+				]
+			},
+			"paa": [
+				"Who should a type 9 marry?",
+				"What Enneagram type is Donald Trump?",
+				"What is the childhood trauma of Enneagram 9?",
+				"Why is Enneagram 9 the most powerful?"
+			],
+			"forums_block": false,
+			"video_or_social_block": "none (Images block only)",
+			"ninetakes_position": "not in top 10 (not on page 1 or page 2, i.e. not in roughly the top 16); GSC insights panel: avg position 38.8, 208 impressions, 3 clicks (last 28 days)",
+			"notes": "Page 1 showed only 7 organic results. Reddit appears only as an AI Overview citation. PAA includes 'What Enneagram type is Donald Trump?'",
+			"page1_organic_count": 7,
+			"page2_checked": true
+		},
+		{
+			"keyword": "enneagram and relationships",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "enneagraminstitute.com",
+					"url": "https://enneagraminstitute.com/the-enneagram-type-combinations/",
+					"title": "Relationships (Type Enneagram Type Combinations)",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "drdaviddaniels.com",
+					"url": "https://drdaviddaniels.com/enneagram-types-in-relationship/",
+					"title": "Enneagram Types in Relationship and 45 Combinations",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/Enneagram/comments/18roqp8/what_are_the_stereotypically_unlikely_romantic/",
+					"title": "What are the stereotypically unlikely romantic enneagram ... (Reddit r/Enneagram, 140+ comments, with 2 extra reddit sub-results)",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "enneagramuniverse.com",
+					"url": "https://enneagramuniverse.com/enneagram/learn/relationships",
+					"title": "Enneagram Types Compatibility",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "drlenaagree.com",
+					"url": "https://drlenaagree.com/understanding-relationships-through-the-enneagram-practical-insights-for-c...",
+					"title": "Understanding Relationships Through the Enneagram",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "heartofdating.com",
+					"url": "https://heartofdating.com/podcast/037-enneagram-relationships-type-elisabeth-peter-bennett",
+					"title": "THE ENNEAGRAM!! Relationships with Each Type",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "mindbodygreen.com",
+					"url": "https://mindbodygreen.com/articles/enneagram-compatibility-how-types-pair-romantically",
+					"title": "Enneagram Compatibility: How The Types Pair Romantically",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "ninetypes.co",
+					"url": "https://ninetypes.co/enneagram-type-pairings",
+					"title": "Enneagram Type Pairings — Nine Types Co.",
+					"page": 2
+				},
+				{
+					"pos": 9,
+					"domain": "narrativeenneagram.org",
+					"url": "https://narrativeenneagram.org/love-relationships/",
+					"title": "Love & Relationships",
+					"page": 2
+				},
+				{
+					"pos": 10,
+					"domain": "3in30podcast.com",
+					"url": "https://3in30podcast.com/368-enneagram-in-relationships/",
+					"title": "368: Using the Enneagram to Improve our Relat...",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"enneagraminstitute.com",
+					"drlenaagree.com",
+					"drdaviddaniels.com",
+					"heartofdating.com",
+					"narrativeenneagram.org",
+					"ninetypes.co",
+					"youtube.com"
+				]
+			},
+			"paa": [
+				"Which Enneagram types pair best in relationships?",
+				"How does Enneagram 9 behave in relationships?",
+				"What Enneagram is most likely a narcissist?",
+				"Which enneagrams don't get along?"
+			],
+			"forums_block": false,
+			"video_or_social_block": "YouTube videos embedded inside the AI Overview (Type-ish x2, Dr. Tom LaHue); Images block",
+			"ninetakes_position": "not in top 10 (not on page 1 or page 2, i.e. not in roughly the top 17); GSC insights panel: avg position 37.5, 130 impressions (-36%), 0 clicks (last 28 days)",
+			"notes": "7 organic on page 1. Reddit ranks as a regular organic result (#3) with sitelinked threads, not a Discussions block. AI Overview ends by asking the user for their type and partner's type (interactive). PAA includes the narcissist question (keyword 13).",
+			"page1_organic_count": 7,
+			"page2_checked": true
+		},
+		{
+			"keyword": "enneagram for personal growth",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/Enneagram/comments/1gbue9e/how_i_use_my_enneagram_type_for_selfimprovement/",
+					"title": "How I use my Enneagram type for self-improvement (me...",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "medium.com",
+					"url": "https://medium.com/@samanthamackay/how-do-you-actually-do-growth-work-with-the-enneagram-d6ffc6661...",
+					"title": "How do you actually do growth work with the Enneagram?",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "enneagraminstitute.com",
+					"url": "https://enneagraminstitute.com/how-the-enneagram-system-works/",
+					"title": "How The Enneagram System Works",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "mendingrootshealingcenter.com",
+					"url": "https://mendingrootshealingcenter.com/using-the-enneagram-to-grow/",
+					"title": "Using the Enneagram to Grow",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "medium.com",
+					"url": "https://medium.com/big-self-society/why-the-enneagram-is-the-ultimate-personal-growth-system-479c2...",
+					"title": "Why the Enneagram is the Ultimate Personal Growth System",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "integrative9.com",
+					"url": "https://integrative9.com/ieq9products/enneagram-for-myself/",
+					"title": "Enneagram for Personal Development",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "centerforadolescentstudies.com",
+					"url": "https://centerforadolescentstudies.com/the-enneagram-a-powerful-tool-for-personal-and-professional...",
+					"title": "The Enneagram: A Powerful Tool for Personal and ...",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "headlight.health",
+					"url": "https://headlight.health/accelerate-your-growth-with-the-enneagram/",
+					"title": "Accelerate Your Growth with The Enneagram - H...",
+					"page": 2
+				},
+				{
+					"pos": 9,
+					"domain": "facebook.com",
+					"url": "https://facebook.com/groups/lifepointPN/posts/892982331168927/",
+					"title": "Understanding the Enneagram for Personal Grow...",
+					"page": 2
+				},
+				{
+					"pos": 10,
+					"domain": "livingtheenneagram.com",
+					"url": "https://livingtheenneagram.com/why-the-enneagram",
+					"title": "Why the Enneagram? | A Tool for Self-Discover...",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"enneagraminstitute.com",
+					"medium.com",
+					"facebook.com",
+					"livingtheenneagram.com",
+					"haven-psychology.com",
+					"mendingrootshealingcenter.com"
+				]
+			},
+			"paa": [
+				"Which Enneagram type is the most selfless?",
+				"Where do Enneagram 9s go in growth?",
+				"What is Donald Trump on the enneagram?",
+				"What Enneagram is most likely a narcissist?"
+			],
+			"forums_block": true,
+			"video_or_social_block": "none; Discussions and forums block (reddit.com r/Enneagram + quora.com)",
+			"ninetakes_position": "not in top 10 (not on page 1 or page 2, i.e. not in roughly the top 17); GSC insights panel: avg position 31.8 (+11.1), 133 impressions (-38%), 0 clicks (last 28 days)",
+			"notes": "Reddit is #1 organic AND a separate Discussions and forums block. Medium holds 2 of 7 organic slots. Trump and narcissist PAAs recur.",
+			"page1_organic_count": 7,
+			"page2_checked": true
+		},
+		{
+			"keyword": "enneagram career",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "lifegoalsmag.com",
+					"url": "https://lifegoalsmag.com/career-path-enneagram-type/",
+					"title": "What Career Path Is Best For You Based On Your ...",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/Enneagram/comments/ryb2nc/career_paths_of_the_enneagram_types/",
+					"title": "Career Paths of the Enneagram Types",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "jobcannon.io",
+					"url": "https://jobcannon.io/answers/career-for-each-enneagram",
+					"title": "Best Career for Each Enneagram Type?",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "linkedin.com",
+					"url": "https://linkedin.com/pulse/best-jobs-each-enneagram-type-how-you-can-thrive-work-barron-hall",
+					"title": "Best Jobs for Each Enneagram Type & How You Can ...",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "resources.careersandenterprise.co.uk",
+					"url": "https://resources.careersandenterprise.co.uk/resources/enneagram-career-quiz-what-career-right-me",
+					"title": "Enneagram Career Quiz: What Career is Right for Me?",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "enneagramgift.com",
+					"url": "https://enneagramgift.com/enneagram-careers/",
+					"title": "10 Career Ideas For Each Enneagram Type: Finding Job Fit",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "typologycentral.com",
+					"url": "https://typologycentral.com/threads/careers-for-each-enneagram-type.76485/",
+					"title": "Careers for each enneagram type.",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "youtube.com",
+					"url": "https://youtube.com/watch",
+					"title": "Discover Your Perfect Career Match Based on ...",
+					"page": 2
+				},
+				{
+					"pos": 9,
+					"domain": "truity.com",
+					"url": "https://truity.com/blog/how-enneagram-type-impacts-your-career-decisions",
+					"title": "How Enneagram Type Impacts Your Career Decisi...",
+					"page": 2
+				},
+				{
+					"pos": 10,
+					"domain": "compassionateconsultingcompany.com",
+					"url": "https://compassionateconsultingcompany.com/enneagram-career/",
+					"title": "The Enneagram and Career Paths",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"youtube.com",
+					"enneagramgift.com",
+					"linkedin.com",
+					"indeed.com",
+					"jobcannon.io",
+					"lifegoalsmag.com",
+					"insightglobal.com",
+					"truity.com"
+				]
+			},
+			"paa": [
+				"What Enneagram is a workaholic?",
+				"What is Barack Obama's Enneagram type?",
+				"What is Donald Trump's Enneagram?",
+				"Which Enneagram is the most hardworking?"
+			],
+			"forums_block": true,
+			"video_or_social_block": "YouTube cited inside AI Overview; Discussions and forums block (reddit.com + quora.com); 'Ask anything in AI Mode' prompt",
+			"ninetakes_position": "not in top 10 (not on page 1 or page 2, i.e. not in roughly the top 17); GSC insights panel: avg position 16.0 (+2.5), 144 impressions (-2%), 0 clicks (last 28 days)",
+			"notes": "Forum-heavy: Reddit #2, TypologyCentral forum thread #7, plus Discussions block. Celebrity-typing PAAs (Obama, Trump) appear even on a career query.",
+			"page1_organic_count": 7,
+			"page2_checked": true
+		},
+		{
+			"keyword": "best free enneagram test",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "truity.com",
+					"url": "https://truity.com/test/enneagram-personality-test",
+					"title": "Enneagram Personality Test",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/Enneagram/comments/rz40wf/whats_the_current_best_free_online_enneagram_tests/",
+					"title": "What's the current best (free) online Enneagram tests?",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "personalitypath.com",
+					"url": "https://personalitypath.com/free-enneagram-personality-test/",
+					"title": "Free Enneagram Personality Test: No Email Needed",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "enneagram-personality.com",
+					"url": "https://enneagram-personality.com/",
+					"title": "Enneagram Test with Wings 2026 | 100% Free & Instant Results",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "talkenneagram.substack.com",
+					"url": "https://talkenneagram.substack.com/p/best-enneagram-tests-free-paid-the",
+					"title": "Best Enneagram Tests (Free + Paid): The Ultimate Guide",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "cloverleaf.me",
+					"url": "https://cloverleaf.me/assessments/enneagram/",
+					"title": "Free & validated Enneagram test",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "enneagramgift.com",
+					"url": "https://enneagramgift.com/free-enneagram-tests/",
+					"title": "Best Free Enneagram Tests in 2026 — Reviewed & Compared",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "youtube.com",
+					"url": "https://youtube.com/shorts/_lVL4ngzSm8",
+					"title": "The Best Free Enneagram Test (actually works)",
+					"page": 2
+				},
+				{
+					"pos": 9,
+					"domain": "openpsychometrics.org",
+					"url": "https://openpsychometrics.org/tests/OEPS/",
+					"title": "Open Enneagram of Personality Scales",
+					"page": 2
+				},
+				{
+					"pos": 10,
+					"domain": "jobcannon.io",
+					"url": "https://jobcannon.io/blog/best-free-enneagram-test-2026",
+					"title": "Best Free Enneagram Test in 2026: 7 Top Optio...",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"personalitypath.com",
+					"truity.com",
+					"youtube.com",
+					"talkenneagram.substack.com",
+					"crystalknows.com"
+				]
+			},
+			"paa": [
+				"What is Elon Musk's Enneagram type?",
+				"Which Enneagram type is Donald Trump?",
+				"Are Enneagram 4 narcissists?",
+				"Is Myers Briggs or Enneagram more accurate?"
+			],
+			"forums_block": true,
+			"video_or_social_block": "YouTube cited in AI Overview; Discussions and forums block (reddit.com + quora.com); Sponsored (ads) results at top",
+			"ninetakes_position": "not in top 10 (not on page 1 or page 2, i.e. not in roughly the top 17); GSC insights panel (last 90 days): avg position 11.9 (-2.2), 777 impressions (+83%), 2 clicks",
+			"notes": "Only keyword so far with ads. Highest 9takes impressions of the set so far and closest to page 1 (avg 11.9). Celebrity-type PAAs (Elon Musk, Trump) and narcissist PAA again.",
+			"page1_organic_count": 7,
+			"page2_checked": true
+		},
+		{
+			"keyword": "enneagram compatibility chart",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "enneagraminstitute.com",
+					"url": "https://enneagraminstitute.com/the-enneagram-type-combinations/",
+					"title": "Relationships (Type Enneagram Type Combinations)",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/Enneagram/comments/1jrbvoy/the_ultimate_tritype_enneagram_compatibility_chart",
+					"title": "The Ultimate Tritype & Enneagram Compatibility Chart",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "9takes.com",
+					"url": "https://9takes.com/enneagram-corner/enneagram-compatibility-matrix",
+					"title": "The Complete Enneagram Compatibility Matrix: All 81 Type…",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "jobcannon.io",
+					"url": "https://jobcannon.io/compatibility/enneagram",
+					"title": "Enneagram Compatibility Chart — All 81 Pairings",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "drdaviddaniels.com",
+					"url": "https://drdaviddaniels.com/enneagram-types-in-relationship/",
+					"title": "Enneagram Types in Relationship and 45 Combinations",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "lisanotes.com",
+					"url": "https://lisanotes.com/enneagram-types-go-best-together-enneagram-25/",
+					"title": "Which Enneagram Types Go Best Together? ...",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "enneagramuniverse.com",
+					"url": "https://enneagramuniverse.com/enneagram/learn/relationships",
+					"title": "Enneagram Types Compatibility",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "mindbodygreen.com",
+					"url": "https://mindbodygreen.com/articles/enneagram-compatibility-how-types-pair-romantically",
+					"title": "Enneagram Compatibility: How The Types Pair Romantically",
+					"page": 1
+				},
+				{
+					"pos": 9,
+					"domain": "brainmanager.io",
+					"url": "https://brainmanager.io/blog/personality/enneagram-compatibility-how-enneagram...",
+					"title": "Enneagram Compatibility: Best & Worst Matches",
+					"page": 2
+				},
+				{
+					"pos": 10,
+					"domain": "pinterest.com",
+					"url": "https://pinterest.com/ideas/enneagram-compatibility-chart/911072286827/",
+					"title": "Enneagram Compatibility Chart",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": false,
+				"cited_domains": []
+			},
+			"paa": [
+				"What are the most compatible Enneagram types?",
+				"Who are Enneagram 5 most compatible with?",
+				"What are the worst Enneagram pairings?",
+				"What Enneagram type is Donald Trump?"
+			],
+			"forums_block": false,
+			"video_or_social_block": "Images pack at the very top (personalitydata.org, reddit.com, wikihow.com, pinterest.com, tiktok.com, instagram.com, personalitycafe.com, etc.)",
+			"ninetakes_position": "3 (9takes.com/enneagram-corner/enneagram-compatibility-matrix); GSC insights panel: avg position 6.8, 298 impressions, 7 clicks (last 28 days)",
+			"notes": "No AI Overview on this query; Images pack is the top SERP feature (chart intent = visual). jobcannon.io directly copies the '81 pairings' framing at #4. Reddit #2.",
+			"page1_organic_count": 8,
+			"page2_checked": true
+		},
+		{
+			"keyword": "enneagram type compatibility",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "enneagraminstitute.com",
+					"url": "https://enneagraminstitute.com/the-enneagram-type-combinations/",
+					"title": "Relationships (Type Enneagram Type Combinations)",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "enneagramuniverse.com",
+					"url": "https://enneagramuniverse.com/enneagram/learn/relationships",
+					"title": "Enneagram Types Compatibility",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "mindbodygreen.com",
+					"url": "https://mindbodygreen.com/articles/enneagram-compatibility-how-types-pair-romantically",
+					"title": "Enneagram Compatibility: How The Types Pair Romantically",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/Enneagram/comments/1jrbvoy/the_ultimate_tritype_enneagram_compatibility_chart",
+					"title": "The Ultimate Tritype & Enneagram Compatibility Chart",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "drdaviddaniels.com",
+					"url": "https://drdaviddaniels.com/enneagram-types-in-relationship/",
+					"title": "Enneagram Types in Relationship and 45 Combinations",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "ninetypes.co",
+					"url": "https://ninetypes.co/enneagram-type-pairings",
+					"title": "Enneagram Type Pairings — Nine Types Co.",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "drlenaagree.com",
+					"url": "https://drlenaagree.com/understanding-relationships-through-the-enneagram-practical-insights-for-c...",
+					"title": "Understanding Relationships Through the Enneagram",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "youtube.com",
+					"url": "https://youtube.com/watch",
+					"title": "What Each Enneagram Type Needs in a Partner (...",
+					"page": 2
+				},
+				{
+					"pos": 9,
+					"domain": "verywellmind.com",
+					"url": "https://verywellmind.com/enneagram-types-compatibility-8752481",
+					"title": "Which Enneagram Types Are Most and Least Comp...",
+					"page": 2
+				},
+				{
+					"pos": 10,
+					"domain": "9takes.com",
+					"url": "https://9takes.com/enneagram-corner/enneagram-compatibility-matrix",
+					"title": "The Complete Enneagram Compatibility Matrix: ...",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"enneagraminstitute.com",
+					"drdaviddaniels.com",
+					"mindbodygreen.com",
+					"jobcannon.io",
+					"reddit.com",
+					"enneagramuniverse.com"
+				]
+			},
+			"paa": [
+				"Which Enneagram types are most compatible?",
+				"Who are Enneagram 5 most compatible with?",
+				"Which enneagrams don't get along?",
+				"What Enneagram type is Donald Trump?"
+			],
+			"forums_block": false,
+			"video_or_social_block": "none (Images block: evolutionaryteams.com, wikihow.com, reddit.com, brainmanager.io, lynnroulo.com)",
+			"ninetakes_position": "10 (9takes.com/enneagram-corner/enneagram-compatibility-matrix, 3rd result on page 2); GSC insights panel: avg position 17.1 (+1.6), 155 impressions (-25%), 0 clicks (last 28 days)",
+			"notes": "Same matrix page that ranks #3 for 'compatibility chart' is not on page 1 for this near-synonym. AI Overview cites jobcannon.io (the '81 pairings' competitor) but not 9takes.",
+			"page1_organic_count": 7,
+			"page2_checked": true
+		},
+		{
+			"keyword": "famous enneagram 1",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "enneagramuniverse.com",
+					"url": "https://enneagramuniverse.com/celebrities/enneagram/1",
+					"title": "Enneagram Type 1 Celebrities – The Reformer Personality",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "truity.com",
+					"url": "https://truity.com/blog/enneagram-type/type-one",
+					"title": "Enneagram : | True You Journal",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "9takes.com",
+					"url": "https://9takes.com/personality-analysis/type/1",
+					"title": "Famous Enneagram Type 1s: The Perfectionist",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/EnneagramType1/comments/i6vnh2/who_are_some_enneagram_type_one_celebrities_i/",
+					"title": "Who are some enneagram type one celebrities? I have ...",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "brainmanager.io",
+					"url": "https://brainmanager.io/blog/personality/famous-people-enneagram-1",
+					"title": "Famous People Who Are Enneagram 1 Reformers",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "psychologyjunkie.com",
+					"url": "https://psychologyjunkie.com/40-iconic-enneagram-1-characters-from-movies-television-and-literatur...",
+					"title": "40 Iconic Enneagram 1 Characters from Movies, Television ...",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "enneagramtest.com",
+					"url": "https://enneagramtest.com/blog/enneagram-type-1-celebrities",
+					"title": "30 Enneagram Type 1 Celebrities Who Left a Mark on the World",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "personalitydata.org",
+					"url": "https://personalitydata.org/enneagram/type-1-celebrities",
+					"title": "Enneagram Type 1 Celebrities and Famous People",
+					"page": 1
+				},
+				{
+					"pos": 9,
+					"domain": "personalitycafe.com",
+					"url": "https://personalitycafe.com/threads/famous-and-fictional-examples-of-enneagram...",
+					"title": "Famous and Fictional examples of Enneagram 1",
+					"page": 2
+				},
+				{
+					"pos": 10,
+					"domain": "enneagrammer.com",
+					"url": "https://enneagrammer.com/database-list",
+					"title": "Database List",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"enneagramuniverse.com",
+					"personalitydata.org",
+					"brainmanager.io",
+					"truity.com",
+					"youtube.com"
+				]
+			},
+			"paa": [
+				"Is type 1 Enneagram rare?",
+				"What Enneagram type is Donald Trump?",
+				"What was Adolf Hitler's Enneagram?",
+				"Which Enneagram is Elon Musk?"
+			],
+			"forums_block": false,
+			"video_or_social_block": "YouTube cited in AI Overview only; 'Ask anything in AI Mode' prompt; no video/short-video block",
+			"ninetakes_position": "3 (9takes.com/personality-analysis/type/1); GSC insights panel (last 90 days): avg position 7.4 (-3.3), 265 impressions (+165%), 7 clicks (+133%)",
+			"notes": "9takes ranks organically but is NOT among AI Overview citations (enneagramuniverse, personalitydata, brainmanager, truity, youtube are). Truity's title renders broken ('Enneagram : | True You Journal'). PAAs are all celebrity-typing questions (Trump, Hitler, Musk).",
+			"page1_organic_count": 8,
+			"page2_checked": true
+		},
+		{
+			"keyword": "enneagram celebrities",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "enneagramuniverse.com",
+					"url": "https://enneagramuniverse.com/celebrities",
+					"title": "Celebrities and Famous Characters' Personality Types",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/Enneagram/comments/1jsamgw/confirmed_celebrity_enneagrams/",
+					"title": "Confirmed celebrity enneagrams - Reddit",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "truity.com",
+					"url": "https://truity.com/blog/celebrity-youll-most-relate-based-your-enneagram-type",
+					"title": "The Celebrity You'll Most Relate To, Based On Your ...",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "upbuild.com",
+					"url": "https://upbuild.com/enneagram/celebrity-personality",
+					"title": "Enneagram Types of Famous People",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "enneagrammer.com",
+					"url": "https://enneagrammer.com/database-list",
+					"title": "Database List",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "lisanotes.com",
+					"url": "https://lisanotes.com/enneagram-numbers-famous-people-bible-enneagram-6/",
+					"title": "Who Has Your Enneagram Number? Numbers of ...",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "psychologyjunkie.com",
+					"url": "https://psychologyjunkie.com/enneagram-famous-people/",
+					"title": "The Enneagram Types of Your Favorite Movie Stars",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "enneagramtest.com",
+					"url": "https://enneagramtest.com/celebrities",
+					"title": "Celebrity List Page - Enneagram Test",
+					"page": 1
+				},
+				{
+					"pos": 9,
+					"domain": "imdb.com",
+					"url": "https://imdb.com/list/ls045498363/",
+					"title": "Enneagram Type 4s",
+					"page": 2
+				},
+				{
+					"pos": 10,
+					"domain": "thechangeworks.com",
+					"url": "https://thechangeworks.com/images/Famous.pdf",
+					"title": "Enneagram Styles of Famous People",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"enneagramuniverse.com",
+					"enneagrammer.com",
+					"truity.com",
+					"psychologyjunkie.com",
+					"personalitydata.org",
+					"enneagramelements.com"
+				]
+			},
+			"paa": [
+				"What Enneagram type is Donald Trump?",
+				"What's the kindest Enneagram?",
+				"What is Barack Obama's Enneagram type?",
+				"What's the rarest Enneagram?"
+			],
+			"forums_block": false,
+			"video_or_social_block": "none (Images block: reddit.com, truity.com, psychologyjunkie.com, instagram.com, behance.net); 'Ask anything in AI Mode' prompt",
+			"ninetakes_position": "not in top 10 (not on page 1 or page 2, i.e. not in roughly the top 17); no Search Console insights panel shown for this query (no meaningful 9takes impressions)",
+			"notes": "Head term for 9takes' biggest content pillar (personality-analysis) and 9takes has no visible presence. enneagramuniverse.com is #1 here and #1 for 'famous enneagram 1'. Reddit #2.",
+			"page1_organic_count": 8,
+			"page2_checked": true
+		},
+		{
+			"keyword": "sabrina carpenter personality type",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "personality-database.com",
+					"url": "https://personality-database.com/profile/34075/sabrina-carpenter-pop-contemporary-musicians-mbti-p...",
+					"title": "Sabrina Carpenter Personality Type (MBTI, Enneagram, ...",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "9takes.com",
+					"url": "https://9takes.com/personality-analysis/sabrina-carpenter",
+					"title": "Why Sabrina Carpenter's Humor Hides an Achievement ...",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/SabrinaCarpenterFans/comments/1l0fqcf/sabrina_carpenter_songs_as_mbti_persona...",
+					"title": "Sabrina Carpenter songs as MBTI personalities (ESTJ)",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "youtube.com",
+					"url": "https://youtube.com/watch (video id not captured)",
+					"title": "What Makes Sabrina Carpenter So Seductive? A Deep Dive ...",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "boo.world",
+					"url": "https://boo.world/database/profile/16988/sabrina-carpenter-personality-type",
+					"title": "Sabrina Carpenter Personality Type",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "myenneagramtest.org",
+					"url": "https://myenneagramtest.org/celebrities/sabrina-carpenter/",
+					"title": "Sabrina Carpenter – Enneagram Type 3w2 Personality",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "youtube.com",
+					"url": "https://youtube.com/watch (video id not captured)",
+					"title": "You Might Be Wrong about Extroverted Sensing | ft. SABRINA ...",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "personality-database.com",
+					"url": "https://personality-database.com/profile/1761738/sabrina-carpenter-short-n-swe...",
+					"title": "Sabrina Carpenter - Short n' Sweet Personalit...",
+					"page": 2
+				},
+				{
+					"pos": 9,
+					"domain": "youtube.com",
+					"url": "https://youtube.com/watch",
+					"title": "Sabrina Carpenter ROASTS Shawn Mendes | MBTI ...",
+					"page": 2
+				},
+				{
+					"pos": 10,
+					"domain": "tiktok.com",
+					"url": "https://tiktok.com/discover/sabrina-carpenter-personality-type",
+					"title": "Sabrina Carpenter Personality Type",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"reddit.com",
+					"youtube.com",
+					"facebook.com",
+					"astridsigns.com",
+					"astrostyle.com",
+					"instagram.com",
+					"aol.com",
+					"tiktok.com"
+				]
+			},
+			"paa": [
+				"What type of Enneagram is Sabrina Carpenter?",
+				"What is Sabrina Carpenter's personality type?",
+				"Is ESFJ a rare personality?",
+				"How would you describe Sabrina Carpenter's personality?"
+			],
+			"forums_block": false,
+			"video_or_social_block": "2 YouTube videos ranking as organic results (#4, #7); AI Overview cites YouTube, TikTok, Instagram, Facebook, Reddit; Images block (instagram, personality-database, youtube, reddit, boo.world)",
+			"ninetakes_position": "2 (9takes.com/personality-analysis/sabrina-carpenter); GSC insights panel (last 90 days): avg position 5.5, 299 impressions (-59%), 2 clicks",
+			"notes": "MBTI intent dominates (PDB #1, boo.world, ESFJ PAA). AI Overview is built from social/astrology sources (astrostyle, astridsigns, TikTok, Instagram, AOL) and does NOT cite 9takes despite its #2 organic rank. 9takes title leads with a thesis, not the type.",
+			"page1_organic_count": 7,
+			"page2_checked": true
+		},
+		{
+			"keyword": "messi personality type",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "personality-database.com",
+					"url": "https://personality-database.com/profile/45/lionel-messi-football-mbti-personality-type",
+					"title": "Lionel Messi Personality Type | Football Player MBTI",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "9takes.com",
+					"url": "https://9takes.com/personality-analysis/lionel-messi",
+					"title": "Lionel Messi's Personality Type",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "sportpersonalities.com",
+					"url": "https://sportpersonalities.com/articles/the-harmonizer/athlete-personality/lionel-messi-personalit...",
+					"title": "Lionel Messi Personality Type: The Harmonizer, Explained",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/mbti/comments/upnf87/is_lionel_messi_an_intj/",
+					"title": "Is Lionel Messi an INTJ? : r/mbti",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "personality-database.com",
+					"url": "https://personality-database.com/profile/45/lionel-messi-football-soccer-mbti-personality-type",
+					"title": "Lionel Messi Personality Type | Football Player MBTI",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "quora.com",
+					"url": "https://quora.com/What-is-Messis-MBTI-type",
+					"title": "What is Messi's MBTI type?",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "personality.fyi",
+					"url": "https://personality.fyi/blog/lionel-messi-mbti",
+					"title": "Lionel Messi MBTI: ISFP (Adventurer)",
+					"page": 2
+				},
+				{
+					"pos": 8,
+					"domain": "jobcannon.io",
+					"url": "https://jobcannon.io/famous/lionel-messi",
+					"title": "Lionel Messi MBTI Type: ISFP (9)",
+					"page": 2
+				},
+				{
+					"pos": 9,
+					"domain": "instagram.com",
+					"url": "https://instagram.com/reel/DTLYMesj1Fv/",
+					"title": "Messi just became WAY more relatable in this ...",
+					"page": 2
+				},
+				{
+					"pos": 10,
+					"domain": "boo.world",
+					"url": "https://boo.world/database/profile/20818/lionel-messi-personality-type",
+					"title": "Lionel Messi Personality Type",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"sportpersonalities.com",
+					"personality-database.com",
+					"quora.com",
+					"jobcannon.io",
+					"personality.fyi"
+				]
+			},
+			"paa": [
+				"What is Messi's personality?",
+				"What is Ronaldo's personality type?",
+				"What is Messi's MBTI personality type?",
+				"What is Neymar's personality type?"
+			],
+			"forums_block": false,
+			"video_or_social_block": "Videos block (YouTube, Facebook); Images block includes a 9takes.com image alongside facebook, instagram, personality-database, youtube",
+			"ninetakes_position": "2 (9takes.com/personality-analysis/lionel-messi), also appears in the Images pack; GSC insights panel (last 90 days): avg position 7.7, 1.18K impressions (+215%), 6 clicks (+200%)",
+			"notes": "Only 6 organic results on page 1. Highest 9takes impression count among the 17 queries. Despite #2 organic, 9takes is not cited in the AI Overview (sportpersonalities, PDB, quora, jobcannon, personality.fyi are). PAAs point to adjacent athlete pages: Ronaldo, Neymar.",
+			"page1_organic_count": 6,
+			"page2_checked": true
+		},
+		{
+			"keyword": "worst enneagram type",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/Enneagram/comments/18i7gep/the_worst_person_you_know_and_their_enneagram_type",
+					"title": "the worst person you know and their enneagram type",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "psychologyjunkie.com",
+					"url": "https://psychologyjunkie.com/the-best-and-worst-versions-of-every-enneagram-type/",
+					"title": "The Best and Worst Versions of Every Enneagram Type",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "truity.com",
+					"url": "https://truity.com/blog/dark-side-enneagram-shadow-each-type",
+					"title": "The Dark Side of the Enneagram: The Shadow for Each Type",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "9takes.com",
+					"url": "https://9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type",
+					"title": "9 Toxic Personality Traits: The Dark Side of Each Type",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "ninetypes.co",
+					"url": "https://ninetypes.co/blog/best-and-worst-enneagram-types",
+					"title": "The Best and Worst Enneagram Types: A Definitive Guide",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "personalitycafe.com",
+					"url": "https://personalitycafe.com/threads/what-is-the-most-inhuman-and-dangerous-enneagram.1317027/",
+					"title": "What is the most inhuman and dangerous enneagram ?",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "psychologyjunkie.com",
+					"url": "https://psychologyjunkie.com/the-dark-side-of-each-enneagram-type/",
+					"title": "The Dark Side of Each Enneagram Type",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "medium.com",
+					"url": "https://medium.com/the-love-lock/which-is-the-most-difficult-enneagram-type-df833bfdd3ff",
+					"title": "Which Is the Most Difficult Enneagram Type? - Medium",
+					"page": 1
+				},
+				{
+					"pos": 9,
+					"domain": "youtube.com",
+					"url": "https://youtube.com/watch",
+					"title": "Annoying Things Enneagram Personality Types D...",
+					"page": 2
+				},
+				{
+					"pos": 10,
+					"domain": "relconsultants.com",
+					"url": "https://relconsultants.com/blog/2022/10/29/what-is-the-hardest-enneagram-type-...",
+					"title": "What is the Hardest Enneagram Type to Love?",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"ninetypes.co",
+					"youtube.com",
+					"personalitycafe.com",
+					"medium.com",
+					"reddit.com",
+					"psychologyjunkie.com",
+					"quora.com"
+				]
+			},
+			"paa": [
+				"What is the least popular Enneagram type?",
+				"What is the most annoying Enneagram type?",
+				"Why is Enneagram 4 so negative?",
+				"What enneagrams don't get along?"
+			],
+			"forums_block": false,
+			"video_or_social_block": "YouTube cited in AI Overview only; no video/image block; 'Ask anything in AI Mode' prompt",
+			"ninetakes_position": "4 (9takes.com/enneagram-corner/toxic-traits-of-each-enneagram-type); GSC insights panel (last 90 days): avg position 9.8 (-1.1), 232 impressions (+92%), 0 clicks (-100%)",
+			"notes": "Forum-heavy: Reddit #1 and PersonalityCafe forum thread #6 (also cited in AI Overview). 9takes ranks #4 but gets 0 clicks; its page answers a 'toxic traits per type' angle rather than naming a 'worst' type (the superlative-unanswered pattern). Not cited in AI Overview.",
+			"page1_organic_count": 8,
+			"page2_checked": true
+		},
+		{
+			"keyword": "which enneagram is most likely to be a narcissist",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "lesliehershberger.com",
+					"url": "https://lesliehershberger.com/enneagram/one-enneagram-type-display-narcissism/",
+					"title": "Does One Enneagram Type Display More Narcissism?",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "psychologyjunkie.com",
+					"url": "https://psychologyjunkie.com/which-enneagram-type-is-the-most-narcissistic/",
+					"title": "Which Enneagram Type Is the Most Narcissistic?",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/Enneagram/comments/klau6t/what_does_narcissism_look_like_in_each_type/",
+					"title": "What does narcissism look like in each type? : r/Enneagram",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "truity.com",
+					"url": "https://truity.com/blog/which-enneagram-types-attract-narcissists",
+					"title": "Which Enneagram Types Attract Narcissists?",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "9takes.com",
+					"url": "https://9takes.com/enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist",
+					"title": "Which Enneagram Type Is Most Likely to Be a Narcissist?",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "quora.com",
+					"url": "https://quora.com/Which-Enneagram-personality-type-aligns-with-narcissism",
+					"title": "Which Enneagram personality type aligns with narcissism?",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "enneagramspectrum.com",
+					"url": "https://enneagramspectrum.com/narcissism-and-enneagram-styles/",
+					"title": "Narcissism and Enneagram Styles",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "ieaninepoints.com",
+					"url": "https://ieaninepoints.com/can-all-enneagram-types-be-narcissistic/",
+					"title": "Can All Enneagram Types Be Narcissistic?",
+					"page": 1
+				},
+				{
+					"pos": 9,
+					"domain": "facebook.com",
+					"url": "https://facebook.com/groups/evolvingenneagramcommunity/posts/24113678834986145/",
+					"title": "Narcissistic tendencies across Enneagram types",
+					"page": 1
+				},
+				{
+					"pos": 10,
+					"domain": "personalitycafe.com",
+					"url": "https://personalitycafe.com/threads/how-exactly-is-narcissism-correlated-with-...",
+					"title": "How exactly is Narcissism correlated with Enn...",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"lesliehershberger.com",
+					"quora.com",
+					"psychologyjunkie.com",
+					"personalitycafe.com"
+				]
+			},
+			"paa": [
+				"What personality type is a narcissistic?",
+				"Which Enneagram is the most manipulative?",
+				"What Enneagram are most psychopaths?",
+				"What zodiac is most likely to be a narcissist?"
+			],
+			"forums_block": false,
+			"video_or_social_block": "none; Facebook group post ranks organically at #9",
+			"ninetakes_position": "5 (9takes.com/enneagram-corner/which-enneagram-type-is-most-likely-to-be-a-narcissist, exact-match title); a second 9takes page (enneagram-and-mental-illness) also ranks at 13; no Search Console insights panel shown for this exact phrasing",
+			"notes": "9 organic results on page 1 (most of any query). Community content is heavy: Reddit #3, Quora #6, Facebook group #9, PersonalityCafe cited in AI Overview. The narcissist question also recurs as a PAA on 'enneagram and relationships' and 'enneagram for personal growth'.",
+			"page1_organic_count": 9,
+			"page2_checked": true
+		},
+		{
+			"keyword": "enneagram and mental illness",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "9takes.com",
+					"url": "https://9takes.com/enneagram-corner/enneagram-and-mental-illness",
+					"title": "The Enneagram and Mental Illness - 9takes",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/Enneagram/comments/v1eatj/mapping_the_enneagram_to_personality_disorders/",
+					"title": "Mapping the Enneagram to Personality Disorders",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "fherehab.com",
+					"url": "https://fherehab.com/learning/enneagram-mental-health/",
+					"title": "What the Enneagram Says About Mental Health",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "texaschristiancounseling.com",
+					"url": "https://texaschristiancounseling.com/articles/the-enneagram-and-bipolar-personality-disorder",
+					"title": "The Enneagram and Bipolar Personality Disorder",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "psychiatryonline.org",
+					"url": "https://psychiatryonline.org/doi/10.1176/appi.ajp-rj.2020.150301",
+					"title": "The Enneagram: A Primer for Psychiatry Residents",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "click2pro.com",
+					"url": "https://click2pro.com/blog/enneagram-mental-health-typing",
+					"title": "Enneagram & Mental Health: Unmasking Mistyped Identities",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "pmc.ncbi.nlm.nih.gov",
+					"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9731769/",
+					"title": "Enneagram typologies and healthy personality to ... - PMC",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "bravegr.com",
+					"url": "https://bravegr.com/blog/the-enneagram-and-mental-health",
+					"title": "The Enneagram and Mental Health - brave",
+					"page": 1
+				},
+				{
+					"pos": 9,
+					"domain": "youtube.com",
+					"url": "https://youtube.com/watch (video id not captured)",
+					"title": "The Enneagram And Mental Health: What You Need To ...",
+					"page": 1
+				},
+				{
+					"pos": 10,
+					"domain": "enneagraminstitute.com",
+					"url": "https://enneagraminstitute.com/how-the-enneagram-system-works/",
+					"title": "How The Enneagram System Works",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"psychiatryonline.org",
+					"click2pro.com",
+					"reddit.com",
+					"fherehab.com",
+					"youtube.com",
+					"texaschristiancounseling.com"
+				]
+			},
+			"paa": [
+				"Which personality type is most prone to mental illness?",
+				"What mental illness is typically associated with Enneagram Type 7?",
+				"Which Enneagram type is most likely to be depressed?",
+				"Which Enneagram tends to be narcissistic?"
+			],
+			"forums_block": false,
+			"video_or_social_block": "YouTube video ranks organically at #9; 'Scholarly articles' block; 'Ask anything in AI Mode' prompt",
+			"ninetakes_position": "1 (9takes.com/enneagram-corner/enneagram-and-mental-illness); no Search Console insights panel shown for this query",
+			"notes": "9takes holds #1 organic but the AI Overview above it cites 6 other sources (psychiatryonline, click2pro, reddit, fherehab, youtube, texaschristiancounseling) and not 9takes. Authority sources (psychiatryonline, PMC) on page 1. PAAs are superlative questions (most prone, type 7 illness, most likely depressed, narcissistic).",
+			"page1_organic_count": 9,
+			"page2_checked": true
+		},
+		{
+			"keyword": "enneagram statistics",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/Enneagram/comments/1bge896/mythbustingdiscussion_statistics_of_type/",
+					"title": "Statistics of Type Distribution in Populations : r/Enneagram",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "enneagram-personality.com",
+					"url": "https://enneagram-personality.com/en/reports/distribution",
+					"title": "Most Common Enneagram Types (Based on 200K People)",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "9takes.com",
+					"url": "https://9takes.com/enneagram-corner/how-common-is-each-enneagram-type",
+					"title": "How Common Is Each Enneagram Type? (Rarest to Most ...",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "enneagraminstitute.com",
+					"url": "https://enneagraminstitute.com/type-descriptions/",
+					"title": "The Nine Enneagram Type Descriptions",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "personalitymax.com",
+					"url": "https://personalitymax.com/enneagram/types/rarest-type/",
+					"title": "What Is The Rarest Enneagram Type?",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "enneagramuniverse.com",
+					"url": "https://enneagramuniverse.com/blog/which-enneagram-is-the-rarest-why",
+					"title": "Which Are The Rarest Enneagram Types? And Why?",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "truity.com",
+					"url": "https://truity.com/blog/what-most-common-enneagram-type",
+					"title": "What is the Most Common Enneagram Type?",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "typologycentral.com",
+					"url": "https://typologycentral.com/wiki/index.php/Enneagram_and_MBTI_Correlation",
+					"title": "Enneagram and MBTI Correlation - Typology Wiki",
+					"page": 1
+				},
+				{
+					"pos": 9,
+					"domain": "9takes.com",
+					"url": "https://9takes.com/corpus-stats",
+					"title": "Enneagram Type Distribution Statistics: ...",
+					"page": 2
+				},
+				{
+					"pos": 10,
+					"domain": "themindfulword.org",
+					"url": "https://themindfulword.org/most-common-enneagram-type/",
+					"title": "What Is the Most Common Enneagram Type i...",
+					"page": 2
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"enneagraminstitute.com",
+					"reddit.com",
+					"typologycentral.com",
+					"enneagram-personality.com",
+					"personalitymax.com"
+				]
+			},
+			"paa": [
+				"What is the most successful Enneagram type?",
+				"What is the most rare Enneagram?",
+				"What Enneagram are most people?",
+				"What's the kindest Enneagram?"
+			],
+			"forums_block": false,
+			"video_or_social_block": "none (Images block: enneagramgirl.wordpress.com, reddit.com, testgorilla.com, personalitycafe.com, typologycentral.com)",
+			"ninetakes_position": "3 (9takes.com/enneagram-corner/how-common-is-each-enneagram-type) AND 9 (9takes.com/corpus-stats); no Search Console insights panel shown for this query",
+			"notes": "Reddit #1. enneagram-personality.com (#2) owns a '200K people' first-party data claim, and is cited in the AI Overview; 9takes (#3) is not cited. PAAs are all superlatives (most successful, rarest, most common, kindest).",
+			"page1_organic_count": 8,
+			"page2_checked": true
+		},
+		{
+			"keyword": "the office enneagram",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "relevantmagazine.com",
+					"url": "https://relevantmagazine.com/culture/the-enneagram-type-of-everyone-in-the-office/",
+					"title": "The Enneagram Type of Everyone in 'The Office'",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/Enneagram/comments/jkj4ql/the_office_enneagram/",
+					"title": "The Office Enneagram!",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "monicamarymoser.medium.com",
+					"url": "https://monicamarymoser.medium.com/tv-shows-the-enneagram-the-office-98c1e3d4d65c",
+					"title": "TV SHOWS & THE ENNEAGRAM: The Office - Medium",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "sailorssweetlife.com",
+					"url": "https://sailorssweetlife.com/articles/practicing-the-enneagram-with-the-office/",
+					"title": "Enneagram at The Office",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "youtube.com",
+					"url": "https://youtube.com/watch (video id not captured)",
+					"title": "What Enneagram Types are the cast of THE OFFICE?",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "enneagramtest.com",
+					"url": "https://enneagramtest.com/blog/the-office-enneagram",
+					"title": "The Office Enneagram – Which Type Is Your Favorite ...",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "tumblr.com",
+					"url": "https://tumblr.com/enneagramwingmiranda/615517896048820224/the-office-the-actual-enneagram-types-o...",
+					"title": "The actual enneagram types of Michael, Dwight, Jim, Pam ...",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "psychologyjunkie.com",
+					"url": "https://psychologyjunkie.com/the-myers-briggs-personality-types-of-the-office-characters/",
+					"title": "The Myers-Briggs® Personality Types of The Office ...",
+					"page": 1
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"monicamarymoser.medium.com",
+					"relevantmagazine.com",
+					"reddit.com",
+					"youtube.com",
+					"pinterest.com",
+					"tumblr.com",
+					"sailorssweetlife.com"
+				]
+			},
+			"paa": [
+				"What type of Enneagram is Michael Scott?",
+				"What enneagram type is Donald Trump?",
+				"What is Barack Obama's enneagram type?",
+				"What is Elon Musk's enneagram type?"
+			],
+			"forums_block": false,
+			"video_or_social_block": "YouTube video ranks organically at #5 (with 'In this video' key-moments block); AI Overview cites Pinterest, Tumblr, YouTube, Reddit; Images block (reddit, instagram, pinterest)",
+			"ninetakes_position": "not in top 8 (page 1); page 2 not checked; no Search Console insights panel shown for this query",
+			"notes": "Weak, aging field: Medium, Tumblr, a small blog and a 2020 Reddit thread all rank on page 1, which suggests a winnable SERP for a fresh, thorough page. Trump/Obama/Musk PAAs again. Page 2 not captured (CAPTCHA), so only positions 1-8 are recorded. Repo check: 9takes already has a draft for this, src/blog/pop-culture/the-office-enneagram-types.md, but it is set to published: false.",
+			"page1_organic_count": 8,
+			"page2_checked": false
+		},
+		{
+			"keyword": "enneagram community",
+			"organic": [
+				{
+					"pos": 1,
+					"domain": "reddit.com",
+					"url": "https://reddit.com/r/Enneagram/",
+					"title": "The Enneagram of Personality (r/Enneagram subreddit)",
+					"page": 1
+				},
+				{
+					"pos": 2,
+					"domain": "narrativeenneagram.org",
+					"url": "https://narrativeenneagram.org/our-community/",
+					"title": "Our Community",
+					"page": 1
+				},
+				{
+					"pos": 3,
+					"domain": "internationalenneagram.org",
+					"url": "https://internationalenneagram.org/about/the-community/",
+					"title": "The Community",
+					"page": 1
+				},
+				{
+					"pos": 4,
+					"domain": "evolvingenneagram.com",
+					"url": "https://evolvingenneagram.com/contemplative-enneagram-community",
+					"title": "Contemplative Practices & the Enneagram (CPE)",
+					"page": 1
+				},
+				{
+					"pos": 5,
+					"domain": "personalitycafe.com",
+					"url": "https://personalitycafe.com/forums/enneagram-personality-theory-forum.51/",
+					"title": "Enneagram Personality Theory Forum",
+					"page": 1
+				},
+				{
+					"pos": 6,
+					"domain": "facebook.com",
+					"url": "https://facebook.com/groups/evolvingenneagramcommunity/",
+					"title": "Evolving Enneagram Community",
+					"page": 1
+				},
+				{
+					"pos": 7,
+					"domain": "sojo.net",
+					"url": "https://sojo.net/articles/what-enneagram-can-teach-us-about-beloved-community",
+					"title": "What the Enneagram Can Teach Us About Beloved ...",
+					"page": 1
+				},
+				{
+					"pos": 8,
+					"domain": "enneagraminstitute.com",
+					"url": "https://enneagraminstitute.com/",
+					"title": "The Enneagram Institute - The Enneagram Institute",
+					"page": 1
+				}
+			],
+			"ai_overview": {
+				"present": true,
+				"cited_domains": [
+					"narrativeenneagram.org",
+					"internationalenneagram.org",
+					"evolvingenneagram.com",
+					"reddit.com"
+				]
+			},
+			"paa": [
+				"What is Donald Trump on the enneagram?",
+				"Which Enneagram is autism?",
+				"What was Hitler's Enneagram type?",
+				"Is Enneagram based on childhood trauma?"
+			],
+			"forums_block": false,
+			"video_or_social_block": "none; 'Find related products & services' block; 'Ask anything in AI Mode' prompt",
+			"ninetakes_position": "not in top 8 (page 1); page 2 not checked; GSC insights panel (last 90 days): avg position 33.5 (-7.5), 334 impressions (-51%), 0 clicks",
+			"notes": "Navigational intent: the SERP is a list of actual communities (r/Enneagram #1, PersonalityCafe forum, Facebook group, IEA, Narrative Enneagram). A Q&A product page would compete as a destination, not an article. PAAs again lead with Trump and Hitler. Page 2 not captured (CAPTCHA), so only positions 1-8 are recorded.",
+			"page1_organic_count": 8,
+			"page2_checked": false
+		}
+	]
+}

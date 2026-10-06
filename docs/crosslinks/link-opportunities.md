@@ -1,15 +1,27 @@
 # Link Opportunities
 
-_Generated: 2026-10-05 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
-_Search data: GSC 2026-07-04 → 2026-10-02. 320 candidate links found (+115 weaker ones offered only for gate debt); 130 suppressed in `docs/crosslinks/skipped.json`._
+_Generated: 2026-10-06 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
+_Search data: GSC 2026-07-04 → 2026-10-02. 329 candidate links found (+124 weaker ones offered only for gate debt); 130 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
 Score = target's search demand × link deficit × mention strength × source visibility (cross-section links get a bonus).
 Line numbers are file lines at generation time; match on the sentence if the file has changed.
 
-## 1. Gate debt (0 posts below 3 in / 3 out)
+## 1. Gate debt (1 posts below 3 in / 3 out)
 
-Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslinks:check`.
+Sorted by impressions. 1 of these are NOT grandfathered and fail `pnpm crosslinks:check`.
+
+### `/pop-culture/artificial-movie-real-people` — in 0, out 10 — **failing gate**
+
+Needs 3 more inbound link(s).
+
+| Score | Source (line) | Target | Anchor | Sentence |
+|---|---|---|---|---|
+| 1.26 | `/pop-culture/tech-titans-ai-wars` (L42) | `/pop-culture/artificial-movie-real-people` | "Sam Altman" | The AI race is mostly led by Type 4 and Type 5 patterns. Sam Altman reads as a Type 4 chasing a defining act of significance. Dario Amodei,… |
+| 1.22 | `/pop-culture/musk-vs-altman-trial-personality-dynamics` (L36) | `/pop-culture/artificial-movie-real-people` | "Sam Altman" | OpenAI, Sam Altman, Greg Brockman, and Microsoft won at the trial level on May 18, 2026. A nine-person advisory jury unanimously found that… |
+| 1.05 | `/pop-culture/fallen-founders-enneagram-analysis` (L137) | `/pop-culture/artificial-movie-real-people` | "Sam Altman" | Sam Altman is a [Type 4](/enneagram-corner/enneagram-type-4) in the same structural position the other founders occupied right before the w… |
+| 0.91 | `/pop-culture/tech-titans-enneagram-analysis` (L89) | `/pop-culture/artificial-movie-real-people` | "Sam Altman" | **Cast**: Sam Altman (Type 4) vs Dario Amodei (Type 5) vs Elon Musk (Type 5) |
+| 0.64 | `/pop-culture/tech-titans-leadership-styles` (L133) | `/pop-culture/artificial-movie-real-people` | "OpenAI" | …on pushback on this typing is that Altman looks like a 3: Loopt, the YC presidency, OpenAI, the relentless networking, the ladder-climbing… |
 
 ## 2. Highest-value blog links
 
@@ -28,7 +40,6 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 2.93 | `/enneagram-corner/enneagram-types-on-a-first-date` (L303) | `/enneagram-corner/enneagram-compatibility-matrix` | "compatibility" | Investigators approach dates with analytical curiosity. They're evaluating compatibility through careful observation, forming hypotheses ab… |
 | 2.93 | `/community/software-and-hardware-of-the-mind` (L114) | `/enneagram-corner/enneagram-vs-personality-frameworks-comparison` | "personality systems" | All personality systems attempt to explain the dimensions by which we are similar and different. The most popular scientific model—the <a c… |
 | 2.93 | `/pop-culture/parasocial-relationships-enneagram-type` (L118) | `/enneagram-corner/enneagram-vs-personality-frameworks-comparison` | "personality framework" | …vitable endpoint of parasocial attachment. If a bond is disrupting daily life, driving unsafe behavior, or creating a belief that a public… |
-| 2.93 | `/pop-culture/fallen-founders-enneagram-analysis` (L226) | `/pop-culture/tech-titans-enneagram-analysis` | "Tech Titans" | >This post is part of the Tech Titans Through the Enneagram series. See also |
 | 2.76 | `/enneagram-corner/mental-health/enneagram-crisis-management-guide` (L332) | `/enneagram-corner/depression-patterns-by-enneagram-type` | "depression" | …elationships are sacrificed on the altar of the next milestone. Emotions flatten. Not depression yet, but a growing numbness. They can't r… |
 | 2.76 | `/enneagram-corner/why-you-cant-stop-overthinking-enneagram` (L131) | `/enneagram-corner/depression-patterns-by-enneagram-type` | "depression" | **The paradox:** More thinking doesn't lead to better outcomes. Research shows overthinking actually reduces problem-solving ability, incre… |
 | 2.69 | `/enneagram-corner/enneagram-harmonic-approaches` (L218) | `/enneagram-corner/love-languages-and-enneagram-types` | "love language" | …tency types need to spend thirty seconds explicitly _acknowledging the feeling_ before moving to solutions. Reactive types need to recogni… |
@@ -52,9 +63,10 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 2.04 | `/enneagram-corner/enneagram-faqs` (L306) | `/pop-culture/tech-titans-leadership-styles` | "leadership style" | - Improve leadership style |
 | 2.02 | `/pop-culture/epstein-psychology-part-1` (L455) | `/enneagram-corner/enneagram-and-religion` | "religious" | This wasn't religious identity. Epstein showed no evidence of Jewish observance or community. As the University of Maryland's _Mitzpeh_ not… |
 | 2.02 | `/enneagram-corner/first-impression-enneagram-playbook` (L161) | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` | "host" | - Retire the script early. "How do you know the host?" is a wall. "You look like you're having a complicated relationship with this party" … |
-| 2 | `/pop-culture/tech-titans-disruptors` (L42) | `/pop-culture/tech-titans-ai-wars` | "Elon Musk" | …Type 8) broke the taxi industry through raw aggression, and got broken himself. Elon Musk (Type 5) decoded automotive, aerospace, and soci… |
 | 1.99 | `/how-to-guides/using-the-enneagram-for-self-development` (L247) | `/enneagram-corner/enneagram-test-comparison-2026` | "eclectic" | …ous wisdom traditions. Whether you're following a specific faith path or a more eclectic spiritual journey, the Enneagram can deepen your … |
 | 1.99 | `/pop-culture/podcaster-personality-map` (L69) | `/enneagram-corner/enneagram-types-and-career-choices` | "careers" | …are editorial interpretations of public work and behavior rather than clinical assessments. Claims about shows, careers, and deals require… |
+| 1.99 | `/enneagram-corner/astrology-and-the-enneagram` (L90) | `/enneagram-corner/why-the-next-thing-wont-fix-it-type-7` | "next thing" | …ou're a [Type 7](/enneagram-corner/enneagram-type-7). If freedom means nobody tells you what to do, look at [Type 8](/enneagram-corner/enn… |
+| 1.95 | `/enneagram-corner/enneagram-social-styles` (L239) | `/enneagram-corner/enneagram-test-comparison-2026` | "variants" | …rticle — the Hornevian groups. "Social Subtype" is one of the three instinctual variants (the one that focuses on group, status, and belon… |
 
 ## 3. People bridge (blog → personality-analysis)
 
@@ -66,6 +78,7 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 5.73 | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` (L187) | `/personality-analysis/mark-zuckerberg` | "Mark Zuckerberg" | Less than a year later, they sat at Meta's campus interviewing Mark Zuckerberg about the next Ray-Bans. The tiny room had become a set. The… |
 | 5.5 | `/pop-culture/podcaster-personality-map` (L80) | `/personality-analysis/dave-portnoy` | "Dave Portnoy" | **Joe Rogan. Dave Portnoy. [Sam Parr](/personality-analysis/sam-parr).** |
 | 5.49 | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` (L227) | `/personality-analysis/paul-graham` | "Paul Graham" | …. He studied economics, graduated into the post-crisis finance track, then read Paul Graham's essays and Hacker News and redirected toward… |
+| 5.41 | `/pop-culture/artificial-movie-real-people` (L174) | `/personality-analysis/lex-fridman` | "Lex Fridman" | …ted that it felt "sorta like reading your own eulogy while you're still alive." Months later, he told Lex Fridman it had been "the most pa… |
 | 5.19 | `/community/societal-ticking-time-bombs` (L379) | `/personality-analysis/sam-parr` | "Sam Parr" | The numbers bear this out. Sam Parr and Shaan Puri discussed this on [My First Million (Episode 797)](https://www.youtube.com/watch?v=Jd3he… |
 | 5.16 | `/pop-culture/podcaster-personality-map` (L213) | `/personality-analysis/krystal-ball` | "Krystal Ball" | …ars on [Breaking Points](/pop-culture/breaking-points-enneagram-analysis), with Krystal Ball typed as a 1 and Saagar Enjeti as a 7. The 7 … |
 | 5.02 | `/pop-culture/podcast-bros-enneagram-analysis` (L63) | `/personality-analysis/alex-cooper` | "Alex Cooper" | …der landscape of how personality type maps across the entire podcasting ecosystem—including Alex Cooper, Theo Von, Howard Stern, and more—… |
@@ -73,36 +86,34 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 4.73 | `/community/societal-ticking-time-bombs` (L610) | `/personality-analysis/george-w-bush` | "George W. Bush" | - George W. Bush Presidential Center. [Mississippi's Reading Revolution](https://www.bushcenter.org/catalyst/the-fix/mississippis-reading-r… |
 | 4.69 | `/enneagram-corner/enneagram-leadership` (L191) | `/personality-analysis/bill-gates` | "Bill Gates" | **Reality Check:** When did you last have lunch with your team? Bill Gates evolved his [leadership style](/pop-culture/tech-titans-leadersh… |
 | 4.46 | `/pop-culture/podcast-bros-enneagram-analysis` (L206) | `/personality-analysis/mark-zuckerberg` | "Mark Zuckerberg" | …rviews with powerful figures—including Volodymyr Zelenskyy, Benjamin Netanyahu, Mark Zuckerberg, and Elon Musk—show a consistent Type 5-st… |
-| 4.44 | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` (L235) | `/personality-analysis/elon-musk` | "Elon Musk" | …ne of the strongest lineups they had ever booked. It was also the day Trump and Elon Musk publicly fell out, and the live chat could talk … |
 | 4.37 | `/pop-culture/podcast-bros-enneagram-analysis` (L63) | `/personality-analysis/theo-von` | "Theo Von" | …der landscape of how personality type maps across the entire podcasting ecosystem—including Alex Cooper, Theo Von, Howard Stern, and more—… |
 | 4.34 | `/pop-culture/fallen-founders-enneagram-analysis` (L89) | `/personality-analysis/steve-jobs` | "Steve Jobs" | Holmes is sometimes typed as a 3w4, the Steve Jobs cosplayer in the black turtleneck. The stronger read is [Type 3](/enneagram-corner/ennea… |
 | 4.32 | `/enneagram-corner/enneagram-leadership` (L638) | `/personality-analysis/jeff-bezos` | "Jeff Bezos" | **Example:** Jeff Bezos (Amazon) |
 | 4.28 | `/pop-culture/epstein-psychology-part-2` (L34) | `/personality-analysis/bill-gates` | "Bill Gates" | > — Bill Gates, explaining why he met with Jeffrey Epstein ([CNBC](https://www.cnbc.com/2019/09/10/bill-gates-met-with-jeffrey-epstein-to-c… |
 | 4.23 | `/pop-culture/hollywood-heartthrobs-enneagram-analysis` (L391) | `/personality-analysis/greta-gerwig` | "Greta Gerwig" | When Gosling took the role of Ken in Greta Gerwig's _Barbie_ (2023), it was a Type 9 doing something rare: stepping fully into the joke. Hi… |
 | 4.19 | `/enneagram-corner/how-type-8-challengers-actually-succeed` (L122) | `/personality-analysis/bert-kreischer` | "Bert Kreischer" | - **Rogan**: Brian Redban co-launched the podcast. His comedian circle — Tom Segura, Bert Kreischer, Joey Diaz — formed a content ecosystem… |
+| 4.18 | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` (L235) | `/personality-analysis/elon-musk` | "Elon Musk" | …ne of the strongest lineups they had ever booked. It was also the day Trump and Elon Musk publicly fell out, and the live chat could talk … |
 | 4.14 | `/pop-culture/breaking-points-enneagram-analysis` (L41) | `/personality-analysis/bernie-sanders` | "Bernie Sanders" | Krystal Ball calls herself a "left populist." She was shaped by the Bernie Sanders movement, fights for guaranteed economic rights, and sta… |
 | 4.11 | `/pop-culture/fallen-founders-enneagram-analysis` (L85) | `/personality-analysis/travis-kalanick` | "Travis Kalanick" | He is not even the only ousted founder of the era who walked. Travis Kalanick was forced out of Uber in 2017 by Benchmark, the same firm wh… |
 | 3.94 | `/community/software-and-hardware-of-the-mind` (L144) | `/personality-analysis/carl-jung` | "Carl Jung" | Carl Jung understood the importance of emotions. |
 | 3.94 | `/enneagram-corner/90-day-personality-maxing-blueprint` (L628) | `/personality-analysis/carl-jung` | "Carl Jung" | Carl Jung's concept of the "shadow" refers to the parts of yourself you've rejected, denied, or hidden, often the very parts that hold your… |
 | 3.42 | `/pop-culture/epstein-psychology-part-1` (L407) | `/personality-analysis/sergey-brin` | "Sergey Brin" | …ia. He appeared in the background of a photo alongside **Jeff Bezos, Elon Musk, Sergey Brin, and Bill Gates**. ([BuzzFeed News](https://ww… |
-| 3.31 | `/pop-culture/twitter-x-personality-types-toxic` (L225) | `/personality-analysis/elon-musk` | "Elon Musk" | **Did X become more toxic after Elon Musk bought Twitter?** |
 | 3.3 | `/pop-culture/google-leadership-evolution` (L50) | `/personality-analysis/tim-cook` | "Tim Cook" | Tim Cook, Satya Nadella, Andy Jassy. None of them needed the founder back when the world changed. Each successor was the founder's psycholo… |
-| 3.21 | `/pop-culture/fallen-founders-enneagram-analysis` (L150) | `/personality-analysis/satya-nadella` | "Satya Nadella" | 2. **Microsoft's $13 billion is too entangled to unwind.** Satya Nadella made it instantly clear that if the board pushed Altman out, Micro… |
+| 3.12 | `/pop-culture/twitter-x-personality-types-toxic` (L225) | `/personality-analysis/elon-musk` | "Elon Musk" | **Did X become more toxic after Elon Musk bought Twitter?** |
 | 3.11 | `/pop-culture/psychology-of-public-shame` (L203) | `/personality-analysis/grimes` | "Grimes" | - **Being weird on Twitter** (Grimes) |
-| 2.79 | `/pop-culture/musk-vs-altman-trial-personality-dynamics` (L174) | `/personality-analysis/satya-nadella` | "Satya Nadella" | …reconstruct the distrust that culminated in Altman's 2023 firing. Microsoft CEO Satya Nadella, meanwhile, described the board's execution … |
+| 2.97 | `/pop-culture/fallen-founders-enneagram-analysis` (L150) | `/personality-analysis/satya-nadella` | "Satya Nadella" | 2. **Microsoft's $13 billion is too entangled to unwind.** Satya Nadella made it instantly clear that if the board pushed Altman out, Micro… |
 
 ## 4. People → people (personality-analysis → personality-analysis)
 
 A people page names another person who needs links (2 or fewer contextual links in) without linking them.
 Sources with 10+ internal links are skipped; at most 2 per source, and targets fill to 3.
 These pages live in the database: edit the draft, then sync (see `/crosslink-queue` step 4b).
-7 unlinked mentions found; top 6 after caps.
+7 unlinked mentions found; top 5 after caps.
 
 | Target (in, impressions) | Source (line) | Anchor | Sentence |
 |---|---|---|---|
-| `/personality-analysis/andrew-garfield` (0, 0) | `src/blog/people/drafts/Emma-Stone.md` (L136) | "Andrew Garfield" | Around the same time, she fell in love with Andrew Garfield. They met in 2010 when he screen-tested opposite her for _The Amazing Spider-Ma… |
-| `/personality-analysis/andrew-garfield` (0, 0) | `src/blog/people/drafts/Tom-Holland.md` (L211) | "Andrew Garfield" | Holland's specific flavor is 7w6, the Entertainer wing. The 6 wing adds a layer of loyalty, anxiety about security, and a deep need to belo… |
-| `/personality-analysis/andrew-garfield` (0, 0) | `src/blog/people/drafts/Tobey-Maguire.md` (L202) | "Andrew Garfield" | That kind of loyalty runs in both directions, and other actors feel its pull. When the three screen Spider-Men reunited for *No Way Home* a… |
+| `/personality-analysis/andrew-garfield` (1, 0) | `src/blog/people/drafts/Emma-Stone.md` (L136) | "Andrew Garfield" | Around the same time, she fell in love with Andrew Garfield. They met in 2010 when he screen-tested opposite her for _The Amazing Spider-Ma… |
+| `/personality-analysis/andrew-garfield` (1, 0) | `src/blog/people/drafts/Tom-Holland.md` (L211) | "Andrew Garfield" | Holland's specific flavor is 7w6, the Entertainer wing. The 6 wing adds a layer of loyalty, anxiety about security, and a deep need to belo… |
 | `/personality-analysis/jamie-dimon` (2, 222) | `src/blog/people/drafts/Adam-Neumann.md` (L255) | "Jamie Dimon" | Behind the scenes, the establishment had reached its own verdict. Jamie Dimon — Neumann's personal banker, whose JPMorgan was the lead unde… |
 | `/personality-analysis/demis-hassabis` (2, 182) | `src/blog/people/drafts/Peter-Thiel.md` (L131) | "Demis Hassabis" | Years later, Demis Hassabis, co-founder of DeepMind, had exactly one minute with Thiel at the Singularity Summit. He'd spent a year prepari… |
 | `/personality-analysis/emma-stone` (2, 0) | `src/blog/people/drafts/Jimmy-Fallon.md` (L195) | "Emma Stone" | Lip Sync Battle, Box of Lies, Wheel of Musical Impressions, Egg Russian Roulette. The genius was never the games themselves. It was that he… |

@@ -1,6 +1,8 @@
 <!-- src/routes/admin/email-campaigns/+page.svelte -->
 <script lang="ts">
+	import { enhance } from '$app/forms';
 	import { resolve } from '$app/paths';
+	import type { SubmitFunction } from '@sveltejs/kit';
 	import {
 		Activity,
 		ArrowUpRight,
@@ -14,9 +16,10 @@
 		UsersRound
 	} from '@lucide/svelte';
 	import HtmlPreviewFrame from '$lib/components/admin/HtmlPreviewFrame.svelte';
-	import type { PageData } from './$types';
+	import type { ActionData, PageData } from './$types';
 
-	let { data }: { data: PageData } = $props();
+	let { data, form }: { data: PageData; form: ActionData } = $props();
+	let pendingEnrollmentId = $state<string | null>(null);
 	let selectedCampaignId = $state('');
 	let selectedEmailId = $state('');
 	let contentView = $state<'preview' | 'plain'>('preview');
@@ -56,6 +59,16 @@
 		return value.replaceAll('_', ' ');
 	}
 
+	function trackPending(enrollmentId: string): SubmitFunction {
+		return () => {
+			pendingEnrollmentId = enrollmentId;
+			return async ({ update }) => {
+				await update();
+				pendingEnrollmentId = null;
+			};
+		};
+	}
+
 	function percentage(part: number, total: number): string {
 		if (total === 0) return '0%';
 		return `${Math.round((part / total) * 100)}%`;
@@ -89,13 +102,84 @@
 		</div>
 	</header>
 
+	{#if data.stoppedEnrollments.length > 0}
+		<section class="stopped" aria-labelledby="stopped-heading">
+			<div class="stopped-header">
+				<CircleAlert size={20} strokeWidth={1.8} aria-hidden="true" />
+				<div>
+					<strong id="stopped-heading">
+						{data.stoppedEnrollments.length} stopped enrollment{data.stoppedEnrollments.length === 1
+							? ''
+							: 's'}
+					</strong>
+					<p>
+						These people stopped getting their sequence after three failed sends, and the sequence
+						cron reports an error on every run until each one is resolved. Resume sends the email
+						they missed on the next run (within 15 minutes). End stops their sequence for good.
+					</p>
+				</div>
+			</div>
+			{#if form?.error}
+				<p class="stopped-error" role="alert">{form.error}</p>
+			{/if}
+			<ul class="stopped-list">
+				{#each data.stoppedEnrollments as enrollment (enrollment.id)}
+					<li>
+						<div class="stopped-who">
+							<strong>{enrollment.recipientEmail}</strong>
+							{#if enrollment.emailConfirmed !== null}
+								<span class="confirm-badge" class:unconfirmed={!enrollment.emailConfirmed}>
+									{enrollment.emailConfirmed ? 'Email confirmed' : 'Email not confirmed'}
+								</span>
+							{/if}
+						</div>
+						<p>
+							{enrollment.sequenceName} · stopped {formatDate(enrollment.stoppedAt)} before email
+							{enrollment.nextStepNumber}{#if enrollment.nextSubject}: “{enrollment.nextSubject}”{/if}
+						</p>
+						{#if enrollment.lastError}
+							<p class="stopped-reason">{enrollment.lastError}</p>
+						{/if}
+						<div class="stopped-actions">
+							<form
+								method="POST"
+								action="?/resumeEnrollment"
+								use:enhance={trackPending(enrollment.id)}
+							>
+								<input type="hidden" name="enrollmentId" value={enrollment.id} />
+								<button
+									type="submit"
+									class="resume-button"
+									disabled={pendingEnrollmentId === enrollment.id}>Resume</button
+								>
+							</form>
+							<form
+								method="POST"
+								action="?/endEnrollment"
+								use:enhance={trackPending(enrollment.id)}
+							>
+								<input type="hidden" name="enrollmentId" value={enrollment.id} />
+								<button
+									type="submit"
+									class="end-button"
+									disabled={pendingEnrollmentId === enrollment.id}>End</button
+								>
+							</form>
+						</div>
+					</li>
+				{/each}
+			</ul>
+		</section>
+	{/if}
+
 	<section class="preflight" aria-label="Campaign preflight notice">
 		<CircleAlert size={20} strokeWidth={1.8} aria-hidden="true" />
 		<div>
-			<strong>Review workspace — no send button</strong>
+			<strong>Review workspace — no campaign send buttons</strong>
 			<p>
 				Campaign activation, recipient enrollment, and delivery remain in their dedicated control
-				pages. This screen is the source-of-truth view for copy and performance.
+				pages. This screen is the source-of-truth view for copy and performance. The only controls
+				here recover enrollments that stopped after errors.
 			</p>
 		</div>
 	</section>
@@ -436,6 +520,125 @@
 		margin-bottom: 0;
 		color: var(--ink-mid);
 		font-size: 0.8rem;
+	}
+
+	.stopped {
+		display: grid;
+		gap: 0.8rem;
+		margin-bottom: 1rem;
+		padding: 0.9rem 1rem;
+		border: 1px solid color-mix(in srgb, var(--error) 45%, var(--stone-edge));
+		border-radius: 16px;
+		background: color-mix(in srgb, var(--error) 6%, var(--night-surface));
+	}
+
+	.stopped-header {
+		display: flex;
+		align-items: flex-start;
+		gap: 0.8rem;
+		color: var(--error);
+	}
+
+	.stopped-header > div {
+		display: grid;
+		gap: 0.15rem;
+	}
+
+	.stopped-header strong {
+		color: var(--ink-bright);
+	}
+
+	.stopped p {
+		margin-bottom: 0;
+		color: var(--ink-mid);
+		font-size: 0.8rem;
+	}
+
+	.stopped .stopped-error {
+		color: var(--error);
+		font-weight: 700;
+	}
+
+	.stopped-list {
+		display: grid;
+		gap: 0.5rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.stopped-list li {
+		display: grid;
+		gap: 0.3rem;
+		padding: 0.75rem 0.85rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--night-surface);
+	}
+
+	.stopped-who {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 0.5rem;
+		overflow-wrap: anywhere;
+	}
+
+	.confirm-badge {
+		padding: 0.1rem 0.45rem;
+		border-radius: 4px;
+		background: color-mix(in srgb, var(--lamp-glow) 12%, var(--night-deep));
+		color: var(--lamp-glow);
+		font-family: var(--font-mono);
+		font-size: 0.66rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+	}
+
+	.confirm-badge.unconfirmed {
+		background: var(--night-deep);
+		color: var(--ink-dim);
+	}
+
+	.stopped .stopped-reason {
+		color: var(--ink-dim);
+		font-family: var(--font-mono);
+		font-size: 0.72rem;
+	}
+
+	.stopped-actions {
+		display: flex;
+		gap: 0.5rem;
+		margin-top: 0.2rem;
+	}
+
+	.resume-button,
+	.end-button {
+		min-height: 36px;
+		padding: 0.4rem 0.85rem;
+		border-radius: 10px;
+		font-size: 0.8rem;
+		font-weight: 700;
+		cursor: pointer;
+	}
+
+	.resume-button {
+		border: 1px solid var(--lamp-glow);
+		background: var(--lamp-glow);
+		color: var(--night-deep);
+	}
+
+	.end-button {
+		border: 1px solid var(--stone-edge);
+		background: transparent;
+		color: var(--ink-mid);
+	}
+
+	.resume-button:disabled,
+	.end-button:disabled {
+		opacity: 0.55;
+		cursor: wait;
 	}
 
 	.summary-grid {

@@ -13,6 +13,15 @@ Agent-directed work orders. One file per unit of work. A tasker is written so th
 - `enneagram-and-mental-illness` (287 clicks) is frozen: it may absorb other pages, never be absorbed, retitled, or reslugged.
 - Other agents and DJ edit this repo in parallel. Never `git stash`, never bulk-reset, never a wide operation that could clobber uncommitted work.
 
+## New workstream: Search follow-ups from the keyword map (2026-10-06)
+
+Out of the 2026-10-06 keyword and outreach map (`docs/seo/2026-10-06-keyword-and-outreach-map.md`, Decisions 1 and 2). DJ decided to build a scored test later, from his own design (T-42), and to make question answers indexable for Google only, never shown to visitors before they answer (T-43).
+
+| ID       | Tasker                                                                    | What it is                                                                                                                                                                                                                                                                                  | Status                       |
+| -------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| **T-42** | [Scored Enneagram test](T-42-scored-enneagram-test.md)                    | Why a scored test matters (1,780 test-intent impressions at ~12, about 6 roundups that only list scored tests, and a CTA on every post that promises a five-minute scored test that doesn't exist), plus constraints and a definition of done. **The design is DJ's: interview him first.** | Parked until DJ picks it up  |
+| **T-43** | [Index question answers for Google only](T-43-crawlable-gated-answers.md) | Question pages show Google no answers (144 impressions in 90 days). Serve answers only to IP-verified Googlebot with paywall markup and `data-nosnippet`; humans keep the zero-answer wall. About 0.5–1 day. Modest upside today (47 live questions).                                       | Ready once DJ answers fork 1 |
+
 ## New workstream: Growth audit loose ends (2026-10-03)
 
 Out of the 2026-09-30 "why isn't 9takes growing" audit and the 10-02/10-03 fix round. Search was not the problem (16-month high); the leak is after the click. Most fixes are live; this is what is left, plus a DJ-only list the agent must not touch.

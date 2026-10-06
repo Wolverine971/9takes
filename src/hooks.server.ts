@@ -23,6 +23,7 @@ import {
 import { recordSharedContentAccessEvent } from '$lib/server/contentAccessStore';
 import { runBestEffortTelemetry } from '$lib/server/bestEffortTelemetry';
 import { moveInjectedStylesAfterStylesheets } from '$lib/server/injectedStyleOrder';
+import { getSrcsetCandidatePath } from '$lib/server/srcsetPathRedirect';
 
 import type { Handle } from '@sveltejs/kit';
 
@@ -43,6 +44,11 @@ export const handle: Handle = async ({ event, resolve }) => {
 	const retypedImageResponse = await createRetypedPersonalityImageResponse(event.url.pathname);
 	if (retypedImageResponse) {
 		return retypedImageResponse;
+	}
+
+	const srcsetCandidateResponse = createSrcsetCandidateResponse(event.url.pathname);
+	if (srcsetCandidateResponse) {
+		return srcsetCandidateResponse;
 	}
 
 	event.locals.supabase = createServerClient<Database>(
@@ -397,6 +403,21 @@ async function createRetypedPersonalityImageResponse(pathname: string): Promise<
 	// here. Load the people lookup lazily to keep it off every other request.
 	const { getRetypedPersonalityImagePath } = await import('$lib/server/personalityImageRedirect');
 	const location = getRetypedPersonalityImagePath(pathname);
+	if (!location) {
+		return null;
+	}
+
+	const headers = new Headers({
+		location,
+		'Cache-Control': 'public, max-age=86400'
+	});
+	applySecurityHeaders(headers);
+
+	return new Response(null, { status: 308, headers });
+}
+
+function createSrcsetCandidateResponse(pathname: string): Response | null {
+	const location = getSrcsetCandidatePath(pathname);
 	if (!location) {
 		return null;
 	}

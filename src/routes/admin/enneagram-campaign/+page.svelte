@@ -112,8 +112,8 @@
 				{data.delivery.stoppedEnrollments} enrollment{data.delivery.stoppedEnrollments === 1
 					? ''
 					: 's'}
-				in active sequences stopped after errors. Review them in the
-				<a href={resolve('/admin/email-campaigns')}>email campaigns dashboard</a> before resuming.
+				in active sequences stopped after errors. Resume or end them in the
+				<a href={resolve('/admin/email-campaigns')}>email campaigns dashboard</a>.
 			</p>
 		{/if}
 		<p>

@@ -26,7 +26,10 @@ async function handleSequenceCron(request: Request) {
 		const summary = await processPendingSequenceSends(10);
 		const currentDelivery = await loadEmailDeliveryHealth(getSupabaseAdminClient());
 		if (currentDelivery.stoppedEnrollments > 0) {
-			console.error('Active email sequences have stopped enrollments', currentDelivery);
+			console.error(
+				'Active email sequences have stopped enrollments; resume or end them at /admin/email-campaigns',
+				currentDelivery
+			);
 		}
 		console.info('Processed email sequence cron run', summary);
 		return json(
