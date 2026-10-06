@@ -1,8 +1,10 @@
 // src/routes/book-session/+page.server.ts
 //
-// "Talk to DJ": note first, details after.
+// "Talk it through": the visitor picks a situation, then leaves a note.
 //   ?/note     saves the note (typed, or a voice note + its transcript) right away,
-//              anonymous, and hands the browser a short-lived details token.
+//              anonymous, and hands the browser a short-lived details token. The
+//              situation they picked rides along for DJ's alert and the
+//              per-situation readout (talkSituations.ts).
 //   ?/details  optionally adds an email for a private reply and/or a free
 //              1-on-1 session request to that same note.
 // Bot filtering mirrors the old waitlist form (honeypot, fill time, user agent,
@@ -10,7 +12,9 @@
 import { randomUUID } from 'node:crypto';
 import { fail } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
+import corpusStats from '$lib/data/corpus-stats.json';
 import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
+import { recordCtaExperimentEvent } from '$lib/server/ctaExperiments';
 import {
 	createTalkNote,
 	looksLikeBotUserAgent,
@@ -19,6 +23,11 @@ import {
 	TALK_NOTE_MIN_FORM_MS
 } from '$lib/server/talkNotes';
 import { isHoneypotTriggered } from '$lib/utils/recaptcha';
+import {
+	roundedCorpusCount,
+	talkSituationById,
+	TALK_SITUATIONS_EXPERIMENT
+} from '$lib/utils/talkSituations';
 
 const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content'] as const;
 
@@ -35,10 +44,12 @@ function readUtm(url: URL): Record<string, string> {
 	return utm;
 }
 
-export const load: PageServerLoad = async () => ({});
+export const load: PageServerLoad = async () => ({
+	publicFigureCount: roundedCorpusCount(corpusStats.totals.published)
+});
 
 export const actions: Actions = {
-	note: async ({ request, getClientAddress, url, locals }) => {
+	note: async ({ request, getClientAddress, url, locals, cookies }) => {
 		const formData = await request.formData();
 		const body = formData.get('body')?.toString() ?? '';
 		const userAgent = request.headers.get('user-agent') ?? '';
@@ -65,10 +76,12 @@ export const actions: Actions = {
 		}
 
 		const audioSecondsRaw = Number.parseInt(formData.get('audioSeconds')?.toString() ?? '', 10);
+		const situation = talkSituationById(formData.get('situation')?.toString());
 		const result = await createTalkNote({
 			body,
 			audio: formData.get('audio'),
 			audioSeconds: Number.isFinite(audioSecondsRaw) ? audioSecondsRaw : null,
+			situationLabel: situation?.label ?? null,
 			sourcePath: url.searchParams.get('from') ?? null,
 			referrer: request.headers.get('referer'),
 			utm: readUtm(url),
@@ -77,6 +90,17 @@ export const actions: Actions = {
 		});
 
 		if (!result.ok) return fail(result.status, { noteMessage: result.message, body });
+		if (situation) {
+			await recordCtaExperimentEvent({
+				experiment: TALK_SITUATIONS_EXPERIMENT,
+				variant: situation.id,
+				event: 'submitted',
+				surface: 'book_session',
+				placement: 'door',
+				path: url.pathname,
+				fingerprint: cookies.get('9tfingerprint') ?? null
+			});
+		}
 		return { noteSaved: true as const, noteId: result.noteId, detailsToken: result.detailsToken };
 	},
 

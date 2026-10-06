@@ -88,7 +88,16 @@ describe('contentAccessGuard', () => {
 			'Google-Extended/1.0',
 			'Applebot-Extended/1.0',
 			'meta-externalagent/1.1',
-			'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Reflectionbot/1.0; +https://reflection.ai/bot) Chrome/151.0.0.0 Safari/537.36'
+			'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Reflectionbot/1.0; +https://reflection.ai/bot) Chrome/151.0.0.0 Safari/537.36',
+			'Mozilla/5.0 (compatible; DeepseekBot/1.0)',
+			'Mozilla/5.0 (compatible; xAI-Bot/1.0)',
+			'Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; spider-feedback@bytedance.com)',
+			'cohere-training-data-crawler/1.0',
+			'Mozilla/5.0 (compatible; AI2Bot/1.0; +https://www.allenai.org/crawler)',
+			'Mozilla/5.0 (compatible; Diffbot/0.1; +http://www.diffbot.com)',
+			'Mozilla/5.0 (compatible; FacebookBot/1.0; +https://developers.facebook.com/docs/sharing/webmasters/facebookbot/)',
+			'Mozilla/5.0 (compatible; PanguBot/1.0)',
+			'Mozilla/5.0 (compatible; omgili/0.5 +http://omgili.com)'
 		]) {
 			expect(
 				getHardBlockedReason({

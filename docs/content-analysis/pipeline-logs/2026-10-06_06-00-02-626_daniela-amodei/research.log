@@ -1,0 +1,26 @@
+Error: Reached max turns (120)
+[runner] Turn limit reached; resuming session 443fa943-8ab8-44f1-81f7-098091f0e55b to write outputs
+Research for Daniela Amodei ended in a hold (`status: insufficient_evidence`), not a draft. I wrote `evidence.json` to the run directory and it passes the contract's validator. Nothing else in the repo changed, and nothing was published.
+
+**Why it's a hold:** Type 2 (the Helper) is the leading read, but only at low confidence. Type 6 (the Loyalist) and Type 1 (the Reformer) are both still live, and nothing yet separates them:
+- **For Type 2:** she chose to translate Dario's vision rather than set it, and has done so since 2023. She once joked that "People love people. People are going to want to report to me". OpenAI staff saw her as his "high-EQ counterpart". She calls herself a "supportive manager" who wants people to succeed.
+- **Against it:** the best-documented conflicts cut the other way. The WSJ and The Atlantic, both relying on unnamed sources, describe her fighting over decision rights at OpenAI. Greg Brockman, an OpenAI co-founder, accused her in a peer review of "abusing her power to create bureaucratic processes." She also led the negotiations when the group left OpenAI. Her repeated language about fairness and "radical responsibility" fits Type 1 just as well.
+- Almost all her first-person material is executive interviews, so there's very little about what she needs or fears for herself. That's exactly where these three types would differ.
+
+**What's in the file:**
+- **28 sources.** 26 are opened, including full transcripts of her talks at Stanford GSB (2026) and Stanford eCorner (2024), the Future of Life podcast (2022) and Notion's First Block (2023). I also re-transcribed her segments of Bloomberg's "Inside Anthropic" documentary. I attributed those to her by her saying "Dario and I", by matching outfit and set across video frames, and by voice pitch, not by face recognition.
+- **42 claims**, with the WSJ and Atlantic conflict accounts marked as disputed.
+- **Facts checked as of 2026-10-06:** board chair, a Forbes estimate of $15.5B, No. 75 on the Forbes 400, married to Holden Karnofsky in 2017, two children. The IPO dates are reported by unnamed sources and could still move.
+
+**Gaps to know about:**
+- The Atlantic blocked a fresh fetch, so I quoted from the full-text copy saved by the Oct 5 Dario run. It should be re-checked before anything is quoted.
+- I downloaded several long video interviews but never read the transcripts. Nothing from them is used.
+- Both risk flags are set (disputed allegations and contested typing), so the next run will get the full six-reviewer panel.
+
+**Research tasks recorded for the next run:**
+- Read seven long interviews, starting with Anthropic's co-founders video, the only place named colleagues may describe her.
+- Get The Information's August 2026 profile of her, which is paywalled.
+- Re-check The Atlantic excerpt against a fresh copy.
+- Apply a specific test to tell Types 2, 6 and 1 apart.
+
+**Decision for you:** the "open case" format (publishing with the type left open) is probably not available here. She has been public since 2022–2023, and that format is meant for people whose record is thin because their career is new. If the next pass still can't settle her type, you'll need to choose between holding the page and trying the open-case format anyway. That matters because the target was to have it live before the reported Nov 9 roadshow.

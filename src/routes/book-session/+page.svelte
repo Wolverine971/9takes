@@ -1,22 +1,34 @@
 <!-- src/routes/book-session/+page.svelte -->
 <!--
-  "Talk to DJ": note first, details after (DJ, 2026-09-23).
-  Step 1 is only the note (typed, or a voice note that gets transcribed) and it
-  saves immediately. Step 2 is optional: an email for a private reply, and the
-  free 1-on-1 session request. See docs/product/2026-09-23-therapy-on-steroids.md.
+  "Talk it through" (DJ, 2026-10-05): the page is about the visitor's situation,
+  not about DJ. It opens on situation doors (talkSituations.ts). Tapping one opens
+  the note box with a question written for it and an example reply. DJ's bio
+  moves down to "Who reads these". ?about=<id> opens a door directly, so other
+  pages can link straight to one.
+  The note flow is unchanged: the note saves immediately, then an optional step
+  adds an email for a private reply and the free 1-on-1 session request.
+  See docs/product/2026-09-23-therapy-on-steroids.md.
 -->
 <script lang="ts">
-	import { onDestroy, onMount } from 'svelte';
+	import { onDestroy, onMount, tick } from 'svelte';
 	import { applyAction, enhance } from '$app/forms';
+	import { replaceState } from '$app/navigation';
+	import { resolve } from '$app/paths';
+	import { page } from '$app/state';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import { Button, Field, Input, Textarea } from '$lib/components/atoms';
 	import ExperimentalTherapyCard from '$lib/components/blog/ExperimentalTherapyCard.svelte';
 	import VoiceRecorder, {
 		type RecordedAudio
 	} from '$lib/components/molecules/VoiceRecorder.svelte';
+	import {
+		TALK_SITUATIONS,
+		TALK_SITUATIONS_EXPERIMENT,
+		talkSituationById
+	} from '$lib/utils/talkSituations';
 	import type { ActionData, PageData } from './$types';
 
-	let { form }: { data: PageData; form: ActionData } = $props();
+	let { data, form }: { data: PageData; form: ActionData } = $props();
 
 	type Stage = 'note' | 'details' | 'done';
 	type TalkFormState = {
@@ -45,7 +57,13 @@
 	let localError = $state('');
 	let localStage = $state<Stage | null>(null);
 	let wantsSession = $state(false);
+	let selectedId = $state<string | null>(
+		talkSituationById(page.url.searchParams.get('about'))?.id ?? null
+	);
+	let doorsEl = $state<HTMLElement | null>(null);
+	let cardEl = $state<HTMLElement | null>(null);
 	let formLoadTime = 0;
+	const reportedDoors = new Set<string>();
 
 	const formState = $derived((form ?? {}) as TalkFormState);
 	const stage = $derived<Stage>(
@@ -56,22 +74,14 @@
 					? 'details'
 					: 'note')
 	);
+	const selected = $derived(talkSituationById(selectedId));
 	const canSend = $derived(!voiceBusy && !sending && (body.trim().length > 0 || !!voiceNote));
 	const noteError = $derived(localError || formState.noteMessage || '');
 	const replyExpected = $derived(localStage === 'done' ? false : !!formState.replyExpected);
 
-	const title = 'Talk to DJ: Leave a Note or a Voice Note | 9takes';
+	const title = 'Talk It Through: Leave a Note or a Voice Note | 9takes';
 	const metaDescription =
-		'Tell DJ what’s going on. Type it or record a voice note, stay anonymous or leave an email for a private reply, and ask for a free 1-on-1 session.';
-
-	const prompts = [
-		'Someone you can’t figure out: a partner, a boss, a parent, a friend.',
-		'The fight you keep having, with the same person or with different ones.',
-		'A pattern you keep repeating even though you know better.',
-		'Your type, if you’re stuck between two.',
-		'Something you’ve been carrying and haven’t said out loud.',
-		'What’s energizing you, or draining you, right now.'
-	];
+		'Stuck on someone you can’t read, a fight you keep having, or a pattern you can’t break? Type it or record a voice note. Free, private, and you can stay anonymous.';
 
 	const faqs = [
 		{
@@ -108,6 +118,43 @@
 		return `${minutes}:${String(seconds % 60).padStart(2, '0')}`;
 	}
 
+	function scrollBehavior(): ScrollBehavior {
+		return window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+	}
+
+	/** Once per door per visit: which situations people pick (admin notes page). */
+	function reportDoor(id: string) {
+		if (reportedDoors.has(id)) return;
+		reportedDoors.add(id);
+		void fetch('/api/cta-event', {
+			method: 'POST',
+			headers: { 'content-type': 'application/json' },
+			keepalive: true,
+			body: JSON.stringify({
+				experiment: TALK_SITUATIONS_EXPERIMENT,
+				variant: id,
+				event: 'opened',
+				surface: 'book_session',
+				placement: 'door',
+				sourcePath: window.location.pathname
+			})
+		}).catch(() => {});
+	}
+
+	async function openDoor(id: string) {
+		const firstOpen = !selectedId;
+		selectedId = id;
+		localError = '';
+		reportDoor(id);
+		const url = new URL(page.url);
+		url.searchParams.set('about', id);
+		replaceState(url, {});
+		// Switching doors keeps the reader where they are; the first one brings the box into view.
+		if (!firstOpen) return;
+		await tick();
+		cardEl?.scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
+	}
+
 	function appendTranscript(transcript: string) {
 		const current = body.trim();
 		body = current ? `${current}\n\n${transcript}` : transcript;
@@ -127,13 +174,16 @@
 		voiceNote = null;
 	}
 
-	function leaveAnother() {
+	async function leaveAnother() {
 		body = '';
 		clearVoice();
 		wantsSession = false;
 		localError = '';
+		selectedId = null;
 		formLoadTime = Date.now();
 		localStage = 'note';
+		await tick();
+		doorsEl?.scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
 	}
 
 	onMount(() => {
@@ -155,7 +205,7 @@
 	jsonLd={{
 		'@context': 'https://schema.org',
 		'@type': 'ContactPage',
-		name: 'Talk to DJ',
+		name: 'Talk it through',
 		description: metaDescription,
 		url: 'https://9takes.com/book-session',
 		mainEntity: {
@@ -170,251 +220,276 @@
 <div class="talk-page">
 	<div class="talk-container">
 		<header class="talk-intro">
-			<img
-				src="/brand/djface.webp"
-				alt="DJ Wayne"
-				class="talk-photo"
-				width="96"
-				height="96"
-				decoding="async"
-			/>
-			<p class="talk-eyebrow">Talk to DJ</p>
-			<h1 class="talk-title">Tell me what’s going on.</h1>
-			<div class="talk-bio">
-				<p>
-					I’m DJ. I built 9takes. Marine, sniper school, wrestler, then self-taught coder. I do hard
-					things, and I don’t quit.
-				</p>
-				<p>
-					The Enneagram found me when my wife and I were newlyweds and fighting. I didn’t understand
-					her fear, and she didn’t understand my anger. It gave us both a map, and it made me a much
-					better listener.
-				</p>
-				<p>Now I want to hear what’s going on with you. Type it or say it out loud.</p>
-				<p>
-					Here about experimental therapy?
-					<a href="#experimental-therapy" class="talk-text-link">Read the details</a>
-				</p>
-			</div>
+			<p class="talk-eyebrow">Talk it through</p>
+			<h1 class="talk-title">What are you trying to figure out?</h1>
+			<p class="talk-lede">
+				Pick the closest one, then type it or say it out loud. It’s free and private, and you can
+				stay anonymous.
+			</p>
+			<p class="talk-credential">
+				{#if data.publicFigureCount}
+					I’ve mapped the patterns behind
+					<a href={resolve('/personality-analysis')}>{data.publicFigureCount} public figures</a>
+					on 9takes.
+				{/if}
+				I read every note myself.
+			</p>
 		</header>
 
-		<section class="talk-card" aria-live="polite" aria-labelledby="talk-card-title">
-			{#if stage === 'note'}
-				<h2 id="talk-card-title" class="visually-hidden">Leave a note</h2>
-				<div class="talk-prompts">
-					<p class="talk-prompts__label">People bring me things like</p>
-					<ul>
-						{#each prompts as prompt (prompt)}
-							<li>{prompt}</li>
-						{/each}
-					</ul>
-				</div>
+		{#if stage === 'note'}
+			<section class="talk-doors" bind:this={doorsEl} aria-label="What’s going on">
+				<ul>
+					{#each TALK_SITUATIONS as situation (situation.id)}
+						<li>
+							<button
+								type="button"
+								class="talk-door"
+								aria-pressed={selectedId === situation.id}
+								aria-controls="talk-card"
+								onclick={() => openDoor(situation.id)}
+							>
+								<span class="talk-door__label">{situation.label}</span>
+								<span class="talk-door__hint">{situation.hint}</span>
+							</button>
+						</li>
+					{/each}
+				</ul>
+			</section>
+		{/if}
 
-				<form
-					method="POST"
-					action="?/note"
-					class="talk-form"
-					use:enhance={({ formData, cancel }) => {
-						if (!canSend) {
-							cancel();
-							return;
-						}
-						sending = true;
-						localError = '';
-						formData.set('_timeToken', String(Date.now() - formLoadTime));
-						if (voiceNote) {
-							formData.set(
-								'audio',
-								new File([voiceNote.blob], `note.${audioExtension(voiceNote.mimeType)}`, {
-									type: voiceNote.mimeType
-								})
-							);
-							formData.set('audioSeconds', String(voiceNote.durationSeconds));
-						}
-						return async ({ result }) => {
-							sending = false;
-							if (result.type === 'success') {
-								body = '';
-								clearVoice();
-							}
-							if (result.type === 'success' || result.type === 'failure') {
-								localStage = null;
-								await applyAction(result);
-							} else {
-								localError = 'Something went wrong. Please try again.';
-							}
-						};
-					}}
-				>
-					<div class="honeypot" aria-hidden="true">
-						<label for="talk-form-extra">Leave blank</label>
-						<input
-							type="text"
-							id="talk-form-extra"
-							name="form_extra"
-							tabindex="-1"
-							autocomplete="new-password"
-						/>
+		{#if stage !== 'note' || selected}
+			<section
+				id="talk-card"
+				class="talk-card"
+				bind:this={cardEl}
+				aria-live="polite"
+				aria-labelledby="talk-card-title"
+			>
+				{#if stage === 'note' && selected}
+					<div class="talk-prompt">
+						<p class="talk-prompt__picked">{selected.label}</p>
+						<h2 id="talk-card-title">{selected.prompt}</h2>
+						<p>{selected.helper}</p>
 					</div>
 
-					<Field for="talk-body" label="Your note">
-						<Textarea
-							id="talk-body"
-							name="body"
-							bind:value={body}
-							rows={6}
-							maxlength={NOTE_MAX_CHARS}
-							placeholder="Say it the way you’d say it to a friend."
-							disabled={sending}
-						/>
-					</Field>
-
-					<div class="talk-voice">
-						{#if voiceNote && !voiceBusy}
-							<div class="talk-voice__attached">
-								<div class="talk-voice__meta">
-									<span class="talk-voice__badge">Voice note</span>
-									<span>{formatDuration(voiceNote.durationSeconds)}</span>
-									<button type="button" class="talk-link-button" onclick={clearVoice}>
-										Remove
-									</button>
-								</div>
-								<audio controls preload="metadata" src={voiceNote.url}></audio>
-								<p class="talk-fine">
-									I get the recording and the transcript above. Edit the text if it misheard you.
-								</p>
-							</div>
-						{:else}
-							<VoiceRecorder
-								id="talk-voice"
-								label="Record a voice note"
-								hint="Up to 3 minutes. You’ll see the transcript."
-								maxSeconds={MAX_RECORDING_SECONDS}
-								disabled={sending}
-								ontranscript={appendTranscript}
-								onaudio={attachVoice}
-								onbusychange={(busy) => (voiceBusy = busy)}
-							/>
-						{/if}
-					</div>
-
-					{#if noteError}
-						<p class="talk-error" role="alert">{noteError}</p>
-					{/if}
-
-					<Button type="submit" size="lg" fullWidth loading={sending} disabled={!canSend}>
-						Send to DJ
-					</Button>
-					<p class="talk-fine talk-fine--center">
-						Anonymous is fine. If you want a reply, you can add your email on the next step.
-					</p>
-				</form>
-			{:else if stage === 'details'}
-				<form
-					method="POST"
-					action="?/details"
-					class="talk-form"
-					use:enhance={() => {
-						saving = true;
-						return async ({ result }) => {
-							saving = false;
-							if (result.type === 'success' || result.type === 'failure') {
-								localStage = null;
-								await applyAction(result);
-							} else {
-								localError = 'Something went wrong. Please try again.';
+					<form
+						method="POST"
+						action="?/note"
+						class="talk-form"
+						use:enhance={({ formData, cancel }) => {
+							if (!canSend) {
+								cancel();
+								return;
 							}
-						};
-					}}
-				>
-					<div class="talk-step-head">
-						<h2 id="talk-card-title">Got it. I read every one.</h2>
-						<p>
-							Want a reply? Leave your email and I’ll write back, sometimes with a voice note of my
-							own. It stays between us.
-						</p>
-					</div>
-
-					<input type="hidden" name="noteId" value={formState.noteId ?? ''} />
-					<input type="hidden" name="detailsToken" value={formState.detailsToken ?? ''} />
-
-					<Field for="talk-email" label="Email" optional>
-						<Input
-							id="talk-email"
-							name="email"
-							type="email"
-							placeholder="you@example.com"
-							autocomplete="email"
-							inputmode="email"
-							value={formState.email ?? ''}
-							disabled={saving}
-						/>
-					</Field>
-
-					<label class={['talk-session', wantsSession && 'talk-session--checked']}>
-						<input
-							type="checkbox"
-							name="wantsSession"
-							bind:checked={wantsSession}
-							disabled={saving}
-						/>
-						<span>
-							<strong>I’d like a free 1-on-1 session</strong>
-							<small>
-								I’m running a small free beta. Going deep should feel like leveling up, not like a
-								secret you carry. Check this and I’ll email you to find a time.
-							</small>
-						</span>
-					</label>
-
-					{#if wantsSession}
-						<Field for="talk-name" label="First name" required>
-							<Input
-								id="talk-name"
-								name="name"
+							sending = true;
+							localError = '';
+							formData.set('_timeToken', String(Date.now() - formLoadTime));
+							if (voiceNote) {
+								formData.set(
+									'audio',
+									new File([voiceNote.blob], `note.${audioExtension(voiceNote.mimeType)}`, {
+										type: voiceNote.mimeType
+									})
+								);
+								formData.set('audioSeconds', String(voiceNote.durationSeconds));
+							}
+							return async ({ result }) => {
+								sending = false;
+								if (result.type === 'success') {
+									body = '';
+									clearVoice();
+								}
+								if (result.type === 'success' || result.type === 'failure') {
+									localStage = null;
+									await applyAction(result);
+								} else {
+									localError = 'Something went wrong. Please try again.';
+								}
+							};
+						}}
+					>
+						<div class="honeypot" aria-hidden="true">
+							<label for="talk-form-extra">Leave blank</label>
+							<input
 								type="text"
-								autocomplete="given-name"
-								value={formState.name ?? ''}
-								required
+								id="talk-form-extra"
+								name="form_extra"
+								tabindex="-1"
+								autocomplete="new-password"
+							/>
+						</div>
+						<input type="hidden" name="situation" value={selected.id} />
+
+						<Field for="talk-body" label="Your note">
+							<Textarea
+								id="talk-body"
+								name="body"
+								bind:value={body}
+								rows={6}
+								maxlength={NOTE_MAX_CHARS}
+								placeholder={selected.placeholder}
+								disabled={sending}
+							/>
+						</Field>
+
+						<div class="talk-voice">
+							{#if voiceNote && !voiceBusy}
+								<div class="talk-voice__attached">
+									<div class="talk-voice__meta">
+										<span class="talk-voice__badge">Voice note</span>
+										<span>{formatDuration(voiceNote.durationSeconds)}</span>
+										<button type="button" class="talk-link-button" onclick={clearVoice}>
+											Remove
+										</button>
+									</div>
+									<audio controls preload="metadata" src={voiceNote.url}></audio>
+									<p class="talk-fine">
+										I get the recording and the transcript above. Edit the text if it misheard you.
+									</p>
+								</div>
+							{:else}
+								<VoiceRecorder
+									id="talk-voice"
+									label="Record a voice note"
+									hint="Up to 3 minutes. You’ll see the transcript."
+									maxSeconds={MAX_RECORDING_SECONDS}
+									disabled={sending}
+									ontranscript={appendTranscript}
+									onaudio={attachVoice}
+									onbusychange={(busy) => (voiceBusy = busy)}
+								/>
+							{/if}
+						</div>
+
+						{#if noteError}
+							<p class="talk-error" role="alert">{noteError}</p>
+						{/if}
+
+						<Button type="submit" size="lg" fullWidth loading={sending} disabled={!canSend}>
+							Send
+						</Button>
+						<p class="talk-fine talk-fine--center">
+							Anonymous is fine. If you want a reply, you can add your email on the next step.
+						</p>
+						{#if selected.showCrisisLine}
+							<p class="talk-fine talk-fine--center">
+								In crisis right now? Call or text <a href="tel:988">988</a> (US) or your local emergency
+								number.
+							</p>
+						{/if}
+					</form>
+
+					<figure class="talk-example">
+						<figcaption>Example reply</figcaption>
+						<blockquote>{selected.exampleReply}</blockquote>
+					</figure>
+				{:else if stage === 'details'}
+					<form
+						method="POST"
+						action="?/details"
+						class="talk-form"
+						use:enhance={() => {
+							saving = true;
+							return async ({ result }) => {
+								saving = false;
+								if (result.type === 'success' || result.type === 'failure') {
+									localStage = null;
+									await applyAction(result);
+								} else {
+									localError = 'Something went wrong. Please try again.';
+								}
+							};
+						}}
+					>
+						<div class="talk-step-head">
+							<h2 id="talk-card-title">Got it. I read every one.</h2>
+							<p>
+								Want a reply? Leave your email and I’ll write back, sometimes with a voice note of
+								my own. It stays between us.
+							</p>
+						</div>
+
+						<input type="hidden" name="noteId" value={formState.noteId ?? ''} />
+						<input type="hidden" name="detailsToken" value={formState.detailsToken ?? ''} />
+
+						<Field for="talk-email" label="Email" optional>
+							<Input
+								id="talk-email"
+								name="email"
+								type="email"
+								placeholder="you@example.com"
+								autocomplete="email"
+								inputmode="email"
+								value={formState.email ?? ''}
 								disabled={saving}
 							/>
 						</Field>
-					{/if}
 
-					{#if formState.detailsMessage || localError}
-						<p class="talk-error" role="alert">{formState.detailsMessage || localError}</p>
-					{/if}
+						<label class={['talk-session', wantsSession && 'talk-session--checked']}>
+							<input
+								type="checkbox"
+								name="wantsSession"
+								bind:checked={wantsSession}
+								disabled={saving}
+							/>
+							<span>
+								<strong>I’d like a free 1-on-1 session</strong>
+								<small>
+									I’m running a small free beta. Going deep should feel like leveling up, not like a
+									secret you carry. Check this and I’ll email you to find a time.
+								</small>
+							</span>
+						</label>
 
-					<Button type="submit" size="lg" fullWidth loading={saving}>Save</Button>
-					<button
-						type="button"
-						class="talk-link-button talk-link-button--center"
-						onclick={() => (localStage = 'done')}
-						disabled={saving}
-					>
-						Skip. Stay anonymous.
-					</button>
-				</form>
-			{:else}
-				<div class="talk-done">
-					{#if replyExpected}
-						<h2 id="talk-card-title">Thanks. I’ll write back to {formState.email}.</h2>
-						{#if formState.wantsSession}
-							<p>I’ll also email you about setting up your free 1-on-1 session.</p>
-						{:else}
-							<p>Keep an eye on your inbox. It might be a voice note.</p>
+						{#if wantsSession}
+							<Field for="talk-name" label="First name" required>
+								<Input
+									id="talk-name"
+									name="name"
+									type="text"
+									autocomplete="given-name"
+									value={formState.name ?? ''}
+									required
+									disabled={saving}
+								/>
+							</Field>
 						{/if}
-					{:else}
-						<h2 id="talk-card-title">Thanks for trusting me with that.</h2>
-						<p>No email means I can’t write back, but I read every note.</p>
-					{/if}
-					<div class="talk-done__actions">
-						<Button variant="secondary" onclick={leaveAnother}>Leave another note</Button>
-						<a href="/questions" class="talk-text-link">See how other people answer</a>
+
+						{#if formState.detailsMessage || localError}
+							<p class="talk-error" role="alert">{formState.detailsMessage || localError}</p>
+						{/if}
+
+						<Button type="submit" size="lg" fullWidth loading={saving}>Save</Button>
+						<button
+							type="button"
+							class="talk-link-button talk-link-button--center"
+							onclick={() => (localStage = 'done')}
+							disabled={saving}
+						>
+							Skip. Stay anonymous.
+						</button>
+					</form>
+				{:else}
+					<div class="talk-done">
+						{#if replyExpected}
+							<h2 id="talk-card-title">Thanks. I’ll write back to {formState.email}.</h2>
+							{#if formState.wantsSession}
+								<p>I’ll also email you about setting up your free 1-on-1 session.</p>
+							{:else}
+								<p>Keep an eye on your inbox. It might be a voice note.</p>
+							{/if}
+						{:else}
+							<h2 id="talk-card-title">Thanks for trusting me with that.</h2>
+							<p>No email means I can’t write back, but I read every note.</p>
+						{/if}
+						<div class="talk-done__actions">
+							<Button variant="secondary" onclick={leaveAnother}>Leave another note</Button>
+							<a href={resolve('/questions')} class="talk-text-link">See how other people answer</a>
+						</div>
 					</div>
-				</div>
-			{/if}
-		</section>
+				{/if}
+			</section>
+		{/if}
 
 		<!-- The beta card on blog pages links here (DJ, 2026-10-04). -->
 		<section id="experimental-therapy" class="talk-sessions" aria-labelledby="talk-sessions-title">
@@ -445,6 +520,30 @@
 				what isn’t. It’s coaching, not clinical therapy, diagnosis, or crisis support.
 			</p>
 			<ExperimentalTherapyCard placement="inline" surface="book_session" />
+		</section>
+
+		<section class="talk-about" aria-labelledby="talk-about-title">
+			<img
+				src="/brand/djface.webp"
+				alt="DJ Wayne"
+				class="talk-photo"
+				width="64"
+				height="64"
+				loading="lazy"
+				decoding="async"
+			/>
+			<div>
+				<h2 id="talk-about-title">Who reads these</h2>
+				<p>
+					I’m DJ, and I built 9takes. The Enneagram found me when my wife and I were newlyweds and
+					kept having the same fight. I didn’t understand her fear, and she didn’t understand my
+					anger. It gave us both a map, and it made me a much better listener.
+				</p>
+				<p>
+					Every note comes to me. If you leave an email, I write back myself, sometimes with a voice
+					note.
+				</p>
+			</div>
 		</section>
 
 		<section class="talk-faq" aria-label="Questions">
@@ -490,21 +589,11 @@
 	.talk-intro {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		gap: 0.5rem;
-		text-align: center;
-	}
-
-	.talk-photo {
-		width: 5.5rem;
-		height: 5.5rem;
-		border: 2px solid color-mix(in srgb, var(--lamp-glow) 55%, var(--stone-edge));
-		border-radius: 999px;
-		object-fit: cover;
+		gap: 0.75rem;
 	}
 
 	.talk-eyebrow {
-		margin: 0.5rem 0 0;
+		margin: 0;
 		color: var(--lamp-glow);
 		font-size: 0.75rem;
 		font-weight: 700;
@@ -520,19 +609,88 @@
 		line-height: 1.1;
 	}
 
-	.talk-bio {
-		display: grid;
-		gap: 0.75rem;
-		max-width: 36rem;
-		margin-top: 0.5rem;
-		text-align: left;
-	}
-
-	.talk-bio p {
+	.talk-lede {
 		margin: 0;
 		color: var(--ink-mid);
-		font-size: 1rem;
-		line-height: 1.6;
+		font-size: 1.0625rem;
+		line-height: 1.55;
+	}
+
+	.talk-credential {
+		margin: 0;
+		padding-left: 0.75rem;
+		border-left: 2px solid color-mix(in srgb, var(--lamp-glow) 60%, transparent);
+		color: var(--ink-dim);
+		font-size: 0.9375rem;
+		line-height: 1.5;
+	}
+
+	.talk-credential a {
+		color: var(--lamp-light);
+		text-underline-offset: 3px;
+	}
+
+	.talk-doors {
+		scroll-margin-top: 5rem;
+	}
+
+	.talk-doors ul {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 0.6rem;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.talk-doors li {
+		display: flex;
+	}
+
+	.talk-door {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.3rem;
+		padding: 0.875rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+		background: var(--night-mid);
+		color: inherit;
+		font: inherit;
+		text-align: left;
+		cursor: pointer;
+		transition:
+			border-color 0.15s ease,
+			background-color 0.15s ease;
+	}
+
+	.talk-door:hover {
+		border-color: color-mix(in srgb, var(--lamp-glow) 45%, var(--stone-edge));
+	}
+
+	.talk-door:focus-visible {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
+	}
+
+	.talk-door[aria-pressed='true'] {
+		border-color: var(--lamp-glow);
+		background: color-mix(in srgb, var(--lamp-soft) 45%, var(--night-mid));
+	}
+
+	.talk-door__label {
+		color: var(--ink-bright);
+		font-size: 0.9375rem;
+		font-weight: 650;
+		line-height: 1.3;
+	}
+
+	.talk-door__hint {
+		color: var(--ink-dim);
+		font-size: 0.8125rem;
+		line-height: 1.35;
 	}
 
 	.talk-card {
@@ -544,40 +702,34 @@
 		border-radius: 16px;
 		background: var(--night-mid);
 		box-shadow: 0 18px 50px color-mix(in srgb, var(--night-deep) 60%, transparent);
+		scroll-margin-top: 5rem;
 	}
 
-	.talk-prompts__label {
-		margin: 0 0 0.5rem;
-		color: var(--ink-dim);
-		font-size: 0.8125rem;
-		font-weight: 650;
-	}
-
-	.talk-prompts ul {
+	.talk-prompt {
 		display: grid;
 		gap: 0.4rem;
+	}
+
+	.talk-prompt__picked {
 		margin: 0;
-		padding: 0;
-		list-style: none;
+		color: var(--lamp-glow);
+		font-size: 0.75rem;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
 	}
 
-	.talk-prompts li {
-		position: relative;
-		padding-left: 1rem;
+	.talk-prompt h2 {
+		margin: 0;
+		color: var(--ink-bright);
+		font-size: 1.375rem;
+		line-height: 1.25;
+	}
+
+	.talk-prompt p:not(.talk-prompt__picked) {
+		margin: 0;
 		color: var(--ink-mid);
-		font-size: 0.9375rem;
-		line-height: 1.45;
-	}
-
-	.talk-prompts li::before {
-		position: absolute;
-		top: 0.55em;
-		left: 0;
-		width: 0.35rem;
-		height: 0.35rem;
-		border-radius: 999px;
-		background: var(--lamp-glow);
-		content: '';
+		line-height: 1.55;
 	}
 
 	.talk-form {
@@ -652,6 +804,36 @@
 
 	.talk-fine--center {
 		text-align: center;
+	}
+
+	.talk-fine a {
+		color: var(--ink-bright);
+		font-weight: 700;
+	}
+
+	.talk-example {
+		display: grid;
+		gap: 0.5rem;
+		margin: 0;
+		padding: 1rem;
+		border: 1px dashed var(--stone-edge);
+		border-radius: 10px;
+	}
+
+	.talk-example figcaption {
+		color: var(--ink-dim);
+		font-size: 0.75rem;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+	}
+
+	.talk-example blockquote {
+		margin: 0;
+		color: var(--ink-mid);
+		font-size: 0.9375rem;
+		font-style: italic;
+		line-height: 1.55;
 	}
 
 	.talk-error {
@@ -762,16 +944,39 @@
 		color: var(--ink-bright);
 	}
 
-	.talk-sessions h2 {
+	.talk-sessions h2,
+	.talk-about h2 {
 		margin: 0 0 0.75rem;
 		color: var(--ink-bright);
 		font-size: 1.25rem;
 	}
 
-	.talk-sessions p {
+	.talk-sessions p,
+	.talk-about p {
 		margin: 0 0 0.75rem;
 		color: var(--ink-mid);
 		line-height: 1.6;
+	}
+
+	.talk-about {
+		display: flex;
+		align-items: flex-start;
+		gap: 1rem;
+		padding-top: 1.5rem;
+		border-top: 1px solid var(--stone-edge);
+	}
+
+	.talk-about p:last-child {
+		margin-bottom: 0;
+	}
+
+	.talk-photo {
+		width: 4rem;
+		height: 4rem;
+		flex: 0 0 auto;
+		border: 2px solid color-mix(in srgb, var(--lamp-glow) 55%, var(--stone-edge));
+		border-radius: 999px;
+		object-fit: cover;
 	}
 
 	.talk-faq {
@@ -817,13 +1022,10 @@
 		overflow: hidden;
 	}
 
-	.visually-hidden {
-		position: absolute;
-		width: 1px;
-		height: 1px;
-		overflow: hidden;
-		clip: rect(0 0 0 0);
-		white-space: nowrap;
+	@media (max-width: 340px) {
+		.talk-doors ul {
+			grid-template-columns: 1fr;
+		}
 	}
 
 	@media (min-width: 640px) {

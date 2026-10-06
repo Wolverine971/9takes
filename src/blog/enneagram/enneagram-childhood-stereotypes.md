@@ -1,6 +1,6 @@
 ---
 title: '9 Childhood Stereotypes Based on the Enneagram'
-description: 'The childhood pattern behind each Enneagram type — and why you are still running it'
+description: 'The perfectionist, the caretaker, the bookworm: what each Enneagram type often looked like as a kid, and the childhood habits many adults still run today.'
 author: 'DJ Wayne'
 date: '2023-12-16'
 loc: 'https://9takes.com/enneagram-corner/enneagram-childhood-stereotypes'

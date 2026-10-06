@@ -73,7 +73,7 @@
 			<section class="reply-card reply-card--empty">
 				<h1>This link isn’t working.</h1>
 				<p>It may be mistyped, or the reply was removed. You can always leave DJ a new note.</p>
-				<Button href="/book-session">Talk to DJ</Button>
+				<Button href="/book-session">Talk it through</Button>
 			</section>
 		{/if}
 	</div>

@@ -49,7 +49,17 @@ export type TrainingCrawlerName =
 	| 'Google-Extended'
 	| 'Applebot-Extended'
 	| 'Meta-ExternalAgent'
-	| 'Reflectionbot';
+	| 'Reflectionbot'
+	| 'DeepseekBot'
+	| 'xAI-Bot'
+	| 'Bytespider'
+	| 'cohere-training-data-crawler'
+	| 'AI2Bot'
+	| 'Diffbot'
+	| 'FacebookBot'
+	| 'PanguBot'
+	| 'omgilibot'
+	| 'Webzio-Extended';
 export type HardBlockedReason = 'disallowed_ai_training_crawler' | 'unknown_bot_user_agent';
 export type ContentActorType = 'anonymous_human';
 export type ContentRequestKind = 'page' | 'data';
@@ -144,6 +154,9 @@ const USER_FETCH_BOTS: BotDefinition<UserFetchBotName>[] = [
 	{ name: 'Meta-ExternalFetcher', pattern: /meta-externalfetcher/i }
 ];
 
+// Mirrors the training group in static/robots.txt; publicDelivery.spec.ts fails
+// when the two drift. Robots-only tokens (Google-Extended, Webzio-Extended) never
+// appear in a user agent but stay listed so the two lists can be compared.
 const TRAINING_CRAWLERS: BotDefinition<TrainingCrawlerName>[] = [
 	{ name: 'GPTBot', pattern: /gptbot/i },
 	{ name: 'ClaudeBot', pattern: /claudebot/i },
@@ -153,8 +166,22 @@ const TRAINING_CRAWLERS: BotDefinition<TrainingCrawlerName>[] = [
 	{ name: 'Applebot-Extended', pattern: /applebot-extended/i },
 	{ name: 'Meta-ExternalAgent', pattern: /meta-externalagent/i },
 	// Undocumented crawler from Reflection, an AI model lab; no stated search use.
-	{ name: 'Reflectionbot', pattern: /reflectionbot/i }
+	{ name: 'Reflectionbot', pattern: /reflectionbot/i },
+	{ name: 'DeepseekBot', pattern: /deepseekbot/i },
+	{ name: 'xAI-Bot', pattern: /xai-bot/i },
+	{ name: 'Bytespider', pattern: /bytespider/i },
+	{ name: 'cohere-training-data-crawler', pattern: /cohere-training-data-crawler/i },
+	{ name: 'AI2Bot', pattern: /ai2bot/i },
+	{ name: 'Diffbot', pattern: /diffbot/i },
+	{ name: 'FacebookBot', pattern: /facebookbot/i },
+	{ name: 'PanguBot', pattern: /pangubot/i },
+	{ name: 'omgilibot', pattern: /omgili(bot)?/i },
+	{ name: 'Webzio-Extended', pattern: /webzio-extended/i }
 ];
+
+export const TRAINING_CRAWLER_NAMES: readonly TrainingCrawlerName[] = TRAINING_CRAWLERS.map(
+	(crawler) => crawler.name
+);
 
 const GENERIC_BOT_PATTERNS = [/\bbot\b/i, /\bcrawler\b/i, /\bspider\b/i, /\bscraper\b/i];
 

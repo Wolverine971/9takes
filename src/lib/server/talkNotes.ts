@@ -311,6 +311,8 @@ export type CreateTalkNoteInput = {
 	body: string;
 	audio?: unknown;
 	audioSeconds?: number | null;
+	/** The door they picked on /book-session. Only shown in DJ's alert. */
+	situationLabel?: string | null;
 	sourcePath?: string | null;
 	referrer?: string | null;
 	utm?: Record<string, string> | null;
@@ -402,7 +404,7 @@ export async function createTalkNote(
 				htmlContent: `
 <h1>New note</h1>
 <p><strong>${escapeHtml(kind)}</strong> · ${escapeHtml(formatEasternTime(now()))}</p>
-${paragraphsHtml(body)}
+${input.situationLabel ? `<p>They picked: <strong>${escapeHtml(input.situationLabel)}</strong></p>\n` : ''}${paragraphsHtml(body)}
 <p>They can still add an email or ask for a session on the next step.</p>
 <p><a class="button" href="https://9takes.com/admin/consulting/notes">Open notes</a></p>
 				`.trim(),

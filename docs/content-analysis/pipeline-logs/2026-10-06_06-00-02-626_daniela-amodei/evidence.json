@@ -1,0 +1,982 @@
+{
+  "schema_version": 3,
+  "subject": "daniela-amodei",
+  "status": "insufficient_evidence",
+  "research_tasks": [
+    "Read the long-form first-person interviews this run located but did not review, transcribing each fully and labelling speakers (pitch separation worked for the Bloomberg film): ABC News full interview with Rebecca Jarvis (YouTube qUDG06BvWxc, 2026-02-07, 23:36); CNBC Television interview (GMXnmaky9FY, 2026-01-03, 36:24); Anthropic's 'Building Anthropic | A conversation with our co-founders' (om2lIWXLLN4, 2024-12-20, 51:49), the only located source where named co-founders may describe her; 'A conversation with Dario Amodei & Daniela Amodei' (Claude channel, 7xco5Qd2Oo8, 2026-05-06, 33:10); 'The Co-Founders of Claude AI Tell Oprah' (w5dJqHilu5s); Bloomberg Live 'Anthropic President Amodei on the Future of Claude' (Kfz-NxEvu-U); Sixth Street conversation (iTaHatJKphg). In each, look for her own account of what she does under pressure, what she says she was protecting in costly choices, how she disagrees with Dario, and any named colleague describing her.",
+    "Obtain and read The Information's 'Anthropic's \"First Lady\" Took a Winding Road to the Top' (2026-08-13, S27) through a subscription or library; record every named Stripe, OpenAI and Anthropic colleague's testimony with locators. It is likely the only long profile built on named testimony about her.",
+    "Re-open The Atlantic excerpt (S12) from a fresh, verifiable copy (or Kevin Roose's book The AGI Chronicles) to confirm the paragraphs quoted from the 2026-10-05 capture, and record the context of her 2023 interview with Roose about the stuffed-animal council.",
+    "Test a discriminator among Two, Six and One against the new material: when she explains her own costly choices (leaving Stripe, the 2018 language-project standoff, leaving OpenAI, leading the 2020 negotiations, withholding Mythos), does she cite the people she was protecting or serving (Two), the trustworthiness and safety of the group and the downside she feared (Six), or what was right and fair (One)? Separately, in conflict, does she move toward repair and other people's feelings, toward procedure and rules, or toward allies and guarantees? Record at least two dated, sourced observations on each side before choosing.",
+    "Seek on-record accounts of the WSJ and Atlantic OpenAI episodes (S12, S13): Brockman's 2020 peer review and her point-by-point rebuttal, the Altman conference-room confrontation, the Murati clash. Check whether Anthropic or Daniela has responded, and whether Brockman or Murati has spoken on record. Until then they stay 'disputed' and cannot carry the type argument.",
+    "Find named testimony from her Stripe years (she credits Claire Hughes Johnson as a mentor and model) and from Anthropic executives about how she manages conflict, feedback and pressure.",
+    "Read the paywalled The Times interview (2024-06-26, S26) and TIME's May 2024 'Inside Anthropic' feature for any first-person motive statements; verify Wikipedia leads before use (Lowell High School; August 2017 wedding month).",
+    "Decide format only after the tasks above: her public career dates to 2021-2023 (FLI podcast March 2022; TIME100 AI September 2023), so open-case eligibility ('first breakout within roughly three years; record thin because it is young') is borderline at best. If a defensible discriminator still does not exist after the reading above, put the eligibility question to DJ and the verifier explicitly rather than defaulting to an open case to meet the reported Nov. 9 roadshow date.",
+    "Current accuracy before drafting: re-check IPO status after the reported Oct. 14, 2026 investor event and any public S-1 (her titles, board-chair role, equity, any super-voting shares), and update Forbes figures with a date."
+  ],
+  "accuracy_checked_at": "2026-10-06",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.gsb.stanford.edu/insights/daniela-amodei-says-curiosity-underrated",
+      "title": "Daniela Amodei Says Curiosity Is Underrated (Stanford GSB View From The Top, podcast page with full transcript)",
+      "speaker": "Daniela Amodei, interviewed by Gintare Zukauskaite (Stanford GSB); page by Michael McDowell",
+      "date": "2026-06-29 (published; the page says the talk was recorded live 'earlier this year'; it mentions Mythos and Project Glasswing, so spring 2026)",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-06 and the full transcript read end to end. Key passages: original-career-plan answer ('I graduated in 2009'; 'defining feature, of both me and Dario'); generalist answer ('What is this lady actually good at?'; 'something that feels really wrong to me'); leaving-OpenAI answer ('big sip of water'; 'a lot of integrity'; 'running towards something'); co-founder answer ('fighting and getting over it for almost 40 years'; vacation test); AI-safety answer ('radical responsibility'; 'eating disorders for teenage girls'); AI use-cases answer ('I'm a career manager'; 'People love people'; upward feedback; 'two little kids'); bubble answer ('we could absolutely be wrong'); rapid-fire (literature; Thanksgiving; weekly time outside the office; Guns of August); best-advice answer (mentor: 'You already know what the right answer is'). The page notes the transcript is automated and lightly edited.",
+      "excerpt": "So I was like, “Okay, there’s something that feels really wrong to me about the fact that I was born in America, I had access to all of the sort of basic things that we take for granted in life.” / I’m a career manager. So I spend most of my time with people ... everybody thinks that AI is not going to come for their job, because they’re so special, and I am extremely guilty of this. I was like, “People love people. People are going to want to report to me. They’re not going to want to report to Claude, obviously.” / So I upload all of my reports, upward feedback for me, and sometimes Claude will kind of very kindly be like, “It sounds like you haven’t improved on this in the past year. Maybe you should get some extra coaching, Daniela.” / So for example, Dario and I have been fighting and getting over it for almost 40 years. Because he’s my brother, and I used to steal his toys, right? / We were like, “This is kind of a crazy thing to do. Maybe we should stay. Maybe we could make this work.” But we talked, I talked to one sort of friend and mentor outside of work, and she was like, “Honestly, I don’t think you really need to be on the phone with me. You already know what the right answer is.” / I’m gonna take a big sip of water, for that one. / And I think, in our own very different ways, all seven of us are people that have a lot of integrity. / But I think to us, the kind of highest level of framing, is just taking a form of radical responsibility for the technology that we’re developing. / I actually think developers who created these technology companies, they weren’t like, “I’m setting out to cause a pandemic of eating disorders for teenage girls.” / So we build in time every week when we hang out outside of the office. / Sometimes we’re able to say things to each other that nobody else in the company can. / It’s ultimately a bet. ... but we could absolutely be wrong. / But I think it’s a really important study of just the individual people and personalities that resulted in, and sort of led to, the beginnings of what became World War I. / I have two little kids. So I have an almost-five-year-old, and an almost-one-year-old. / Sometimes Claude is wrong. Heretical to say, but a fact. / I would probably major in literature again. I know that sounds crazy. I like to read.",
+      "context": "The longest first-person source in the record: a friendly live interview before business-school students, so self-presentation, humor and Anthropic messaging all shape it. Strong on how she describes herself; silent on what she personally fears or resents. The co-founder material repeats what Fortune summarized (not re-opened this session), so cite this transcript, not Fortune. Children are mentioned only as context; do not name or describe them.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://futureoflife.org/podcast/daniela-and-dario-amodei-on-anthropic/",
+      "title": "Daniela and Dario Amodei on Anthropic (Future of Life Institute Podcast, transcript)",
+      "speaker": "Daniela Amodei and Dario Amodei, interviewed by Lucas Perry",
+      "date": "2022-03-04 (date per page metadata recorded by the 2026-10-05 Dario run; she says Anthropic was founded 'about a year ago at the beginning of 2021')",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-06; full transcript parsed and every Daniela turn read. Key passages: answer to 'Do you guys still get along since childhood?' ('always been really close'; 'interest area of Dario's'; GiveWell; malaria donations); answer to the 'heart based inspiration' question ('classic do-gooder'; 'fairly obsessed with trying to do as much good as I personally can'); team-culture answer (lunch, microCOVID).",
+      "excerpt": "Dario and I have always been really close. I think since we were very, very small, we've always had this special bond around really wanting to make the world better or wanting to help people. So originally started my career in international development ... and part of why I got interested in that is that it was an interest area of Dario's at the time ... I was very keen to understand the things that he was working or interested in as a potential area to have impact. / we both started donating small amounts of money to organizations that were working on global health issues like malaria prevention when we were still both in school. / I worked in Washington DC at a few different NGOs, I spent time working in east Africa for a public health organization, I worked on a congressional campaign, I've worked on Capitol Hill, so I was much more in this classic, like a friend at an old job used to call me, the classic do-gooder. / So I think for me, I've always been someone who has been fairly obsessed with trying to do as much good as I personally can, given the constraints of what my skills are and where I can add value in the world.",
+      "context": "Earliest long interview in the record, recorded about a year after founding and before commercial success, in a friendly effective-altruism-adjacent venue. Valuable as a pre-fame baseline: the do-good motive language matches the 2026 GSB talk four years later. Joint interview with Dario, so some answers are shaped by the pairing.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.notion.com/blog/first-block-with-daniela-amodei",
+      "title": "First Block with Daniela Amodei, President and Co-founder at Anthropic (Notion; episode transcript)",
+      "speaker": "Daniela Amodei, interviewed by Akshay Kothari (Notion co-founder and COO)",
+      "date": "2023-12-19 (episode date per podcast listings found in search; the retrieved page text is undated; content refers to Claude 2 and the recently published Responsible Scaling Policy)",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-06. The transcript sits in a collapsed block; extracted from the page's embedded data. Timestamped turns read: 02:16 (sibling), 03:36 (disagreement; time horizons), 05:06 (being a founder; payroll), 10:05 (themed days; '70% hit rate'), 17:56 ('I oversaw the team that did GPT2'), 34:48 (ruthless prioritization), 36:14 (day in the life), 39:29 ('I Need an Adult'). One turn (37:56, Claude's title suggestions) was truncated by extraction and is not used.",
+      "excerpt": "And I think being a founder you really quickly learn all of the things you’re bad at, which are many. ... We had to figure out simple stuff like how to run payroll, which we messed up multiple times. / He’s this sort of technical visionary and I think really saw where the field of generative AI was heading, and I feel like he is often thinking about the 5 to 10 year timeframe and really my role is around what is the one to two year timeframe / I oversaw the team that did GPT2 when I was at OpenAI / In reality, it’s probably like 70% hit rate just because things come up / And when I started at Stripe, it was around 40 people I left around 1200. / I am a mom. I have a 2-year-old. / I did come up with, I Need an Adult. That wasn’t Claude, that one was me.",
+      "context": "Partner-company podcast (Notion was an Anthropic customer), so warm and promotional. Useful for self-deprecation and role division. Note the Stripe headcount discrepancy: here 'around 1200'; in S04 '40 to 1500'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://stvp.stanford.edu/node/10761/printable/print",
+      "title": "‘Helpful, Honest, Harmless’ AI [Entire Talk] (Stanford eCorner, Entrepreneurial Thought Leaders, printable transcript)",
+      "speaker": "Daniela Amodei, interviewed by Emily Ma, with student questions",
+      "date": "2024-02-14 (the host introduces her 'on Valentine's Day'; Stanford pages date the talk February 2024)",
+      "locator": "The PDF transcript URLs returned HTTP 403/404 on 2026-10-06; the printable transcript was opened via r.jina.ai and read end to end (timestamps 00:01:42 to 00:51:39). Key passages: 00:02:05 (zones of ownership); 00:07:22 (managing technical people; 'I probably shouldn't even be the arbiter'); 00:09:14 to 00:11:06 (performance reviews; 'supportive manager ... high bar'; 'not the expert in anything'); 00:33:47 (Capitol Hill 'extremely not for me'); 00:38:51 ('I actually write a document at the beginning of every year'; 'I loved Stripe'); 00:44:03 ('we don't wanna sell you a bill of goods'); 00:46:21 (AUP on military uses).",
+      "excerpt": "I think the things the things in particular that my reports say about me is I simultaneously really, I'm a supportive manager. I really want people to succeed. And I also hold a high bar. Those are kind of the two things I hear the most. ... In terms of things I'm less good at, probably unsurprisingly, I'm not the expert in anything / But my default there was, you guys are gonna have to talk about it and figure it out either way, right? So I probably shouldn't even be the arbiter. I should just sort of be supporting you in figuring that out. / I had an incredible opportunity to work on Capitol Hill and I was like, this is extremely not for me, right? It just was slow and bureaucratic and I missed the campaign days of getting to build something together with a small group of, you know, motivated people. / For me, I loved Stripe. Like, Stripe is a great company and it was a hard decision to leave. ... payments is cool, but it didn't sort of feel like fully meeting this other aim or goal that I had around wanting to like, positively impact the world. And so when I saw the opportunity at OpenAI and I knew people there / And I actually write a document at the beginning of every year saying, here's what we should expect from just a pure scaling perspective over the next year at Anthropic, because I've seen it before, right? / But there are some customers who come to us and the honest conversation we have with them is, I don't think we can do anything for you right now. And we don't wanna sell you a bill of goods that we can to close a deal with you and get your logo. / And so our current AUP says you cannot use Claude for things like military applications, for weapons, right? / I'm much more sort of practical kind of the business oriented side",
+      "context": "Long-form, student-facing talk; the most detail on how she manages. The feedback themes are her report of what others say, not independent testimony. The intro (read by the host) gives 'BA in English Literature, Politics, and Music' at UC Santa Cruz and her Stripe recruiting and risk roles. The AUP line describes company policy in February 2024; later classified-network defense work (S14, interviewer's framing to Dario) is a company position change owned by Dario's page, not a personality claim about her.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.cnbc.com/2026/01/10/anthropic-amodei-siblings-generative-ai.html",
+      "title": "Behind Anthropic's stunning growth is a sibling team that may hold the key to generative AI (CNBC)",
+      "speaker": "MacKenzie Sigalos (CNBC), quoting Daniela Amodei and others",
+      "date": "2026-01-10",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-06; page shows 'Published Sat, Jan 10 2026 8:00 AM EST'. Article body read in full (December 2025 interview scene at Anthropic headquarters; enterprise-bet quotes; 'not to believe the hype'; sibling quotes).",
+      "excerpt": "Daniela Amodei has an energy that's hard to place — warm, unhurried, immediately present. She swept into a sunlit room on the ground floor of Anthropic's headquarters in December, sat down, and immediately apologized for her mug. / \"Is my, like, gigantic novelty mug going to be distracting if I have it?\" she said. \"I'll defer to the wise camera people in terms of what's in the shot.\" / \"One of the values and the things that we talk about a lot internally is just how not to believe the hype,\" Daniela Amodei told CNBC. \"For us, it's never been about seeking attention or sort of being in the headlines. We're really here to do the work.\" / \"Dario and I really help each other,\" she added. \"He's great at pushing me to think about the big picture... I am helpful in thinking about, like, how do we build an organization that is enduring, that's sustainable, that's filled with great people who really want to do the type of work that we set out to do five years ago.\" / \"We really just felt more like we were running towards something than running away from something,\" Daniela said of the decision to leave.",
+      "context": "Business-news feature; the 'warm, unhurried' description is the reporter's own observation from one session. The quotes are on-record interview answers.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.fastcompany.com/90948058/how-anthropics-daniela-amodei-is-keeping-ai-grounded-in-safety",
+      "title": "How Anthropic’s Daniela Amodei is keeping AI from spinning out of control (Fast Company, AI 20)",
+      "speaker": "Mark Sullivan (Fast Company), quoting Daniela Amodei",
+      "date": "2023-09-06",
+      "locator": "Direct fetch returned HTTP 403 on 2026-10-06; opened via r.jina.ai (Published Time 2023-09-06) and the full body read.",
+      "excerpt": "“I’ve done everything from managing people functions to managing technical teams—engineering and research teams,” she says. ... “I oversee the majority of the day-to-day management of the company, so the senior leadership team reports to me.” / “I personally think Dario is the most impressive technical visionary in this space,” she says. “I really view my job as helping to take that vision that Dario and other technical leadership have, and help to actually translate it into sets of operating norms—how the researchers work together, how we build things into a product and how we translate that into a business.”",
+      "context": "Short profile in a list series; quotes are on record. Establishes that the operator/translator self-description predates the 2026 fame.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://time.com/collection/time100-ai/6309047/daniela-and-dario-amodei/",
+      "title": "TIME100 AI 2023: Dario and Daniela Amodei",
+      "speaker": "Will Henshall and Billy Perrigo (TIME), quoting Daniela and Dario Amodei",
+      "date": "2023-09-07 (per the Wikipedia citation; the retrieved text does not show the date)",
+      "locator": "Direct fetch returned HTTP 406; opened via r.jina.ai on 2026-10-06 and the full entry read.",
+      "excerpt": "As siblings go, Dario and Daniela Amodei agree more than most. “Since we were kids, we’ve always felt very aligned,” Daniela says. / Dario, 40, and Daniela, 36—CEO and president of Anthropic, respectively / Dario and Daniela are diplomatic about what, if anything, pushed them to leave / That’s “not because we don’t care or because we don’t think it’s there,” Daniela says, “but because we think there’s so much important work to do right now.”",
+      "context": "List entry; brief. Her first major public recognition, relevant to the open-case question (her public career is not new in 2026).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.businessinsider.com/anthropic-cofounder-daniela-amodei-trust-safety-generative-artificial-intelligence-2023-4",
+      "title": "How Anthropic cofounder Daniela Amodei plans to turn trust and safety into a feature, not a bug (Business Insider)",
+      "speaker": "Stephanie Palazzolo (Business Insider), quoting Daniela Amodei",
+      "date": "2023-04-24 (per the Wikipedia citation)",
+      "locator": "Opened via r.jina.ai on 2026-10-06; body read in full (career paragraph; trust-and-safety quotes; 'triple H').",
+      "excerpt": "She originally began her career in global health and politics, even helping to win a Congressional campaign in northeast Pennsylvania. However, after a few months on Capitol Hill running scheduling and communications for congressman Matt Cartwright,she realized that politics wasn't a fit. / In both companies, her roles centered around people, risk, and safety / \"It's an organizational structure question, but it's also a mindset question,\" she told Insider. \"So if trust and safety is viewed as an equal partner to all of these other teams, I don't think that necessarily causes friction.\"",
+      "context": "Independent reporting line for the Cartwright staff job and campaign; the original text is missing a space after 'Cartwright,' (preserve if quoted).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.wired.com/story/anthropic-benevolent-artificial-intelligence/",
+      "title": "If Anthropic Succeeds, a Nation of Benevolent AI Geniuses Could Be Born (Wired)",
+      "speaker": "Steven Levy (Wired), quoting Daniela Amodei, Dario Amodei, Amanda Askell and others",
+      "date": "2025-03-28 (page datePublished 2025-03-28T06:00:00-04:00)",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-06; the Daniela passages located and read in context: family paragraph ('In the 1970s, their parents'); high-school paragraph (flute scholarship; 'saved the world'); OpenAI-arrival paragraph ('Joan Didion fangirl'; GPT-2 'Daniela was managing the team'); founding paragraph (January 2021 tent photo); effective-altruism paragraph ('outdated term'); constitutional-AI paragraph.",
+      "excerpt": "In the 1970s, their parents, Elena Engel and Riccardo Amodei, moved from Italy to San Francisco. Dario was born in 1983 and Daniela four years later. Riccardo, a leather craftsman from a tiny town near the island of Elba, took ill when the children were small and died when they were young adults. Their mother, a Jewish American born in Chicago, worked as a project manager for libraries. / Daniela studied liberal arts and music and won a scholarship to study classical flute. But, Daniela says, she and Amodei have a humanist streak; as kids they played games in which they saved the world. / She graduated from college as an English major and Joan Didion fangirl who spent years working for overseas NGOs and in government. ... Daniela was managing the team. / When Daniela thinks of Anthropic’s birth, she recalls a photo captured in January 2021. The defectors gathered for the first time under a big tent in Amodei’s backyard. ... Everyone was wearing Covid masks. Rain was pouring down. / Ask Daniela about it and she says, “I’m not the expert on effective altruism. I don’t identify with that terminology. My impression is that it’s a bit of an outdated term.” Yet her husband, Holden Karnofsky, cofounded one of EA’s most conspicuous philanthropy wings, is outspoken about AI safety, and, in January 2025, joined Anthropic.",
+      "context": "Long-form magazine profile with office access; centered on Dario. The parents paragraph is Levy's narration; it does not name the father's illness or town. Wikipedia's 'Massa Marittima' is not supported here (and the Dario run found Wikipedia's Italian citation does not support it either): use 'a tiny town near the island of Elba'. No first-person statement from Daniela about her father's death was found; do not build a childhood-wound argument.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://abcnews.com/GMA/Culture/anthropic-president-talks-debut-super-bowl-ad-future/story?id=129843379",
+      "title": "Anthropic president talks debut Super Bowl ad, future of AI and what it means for kids (ABC News / GMA)",
+      "speaker": "ABC News, quoting Daniela Amodei (interview with Rebecca Jarvis)",
+      "date": "2026-02-04 (page datePublished 2026-02-04T21:36:26Z)",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-06; article read in full. The 23-minute full ABC interview video (YouTube qUDG06BvWxc) was downloaded and machine-transcribed this session but the transcript was NOT read; nothing from it is used.",
+      "excerpt": "\"This really isn't intended to be about any other company other than us,\" Daniela Amodei, president of Anthropic, told ABC News' Rebecca Jarvis of the big game spot. \"People are sometimes uploading private or confidential information to their AI tool, and to us, it just didn't feel like the respectful way to treat our users' data.\" / Amodei, a mom of two, co-founded the company alongside her brother and CEO Dario Amodei / \"Probably like most parents, I feel a mixture of things,\" Daniela Amodei said ... \"When I look at my kids, I think, 'Wow, it would be amazing if this technology just enabled them to live healthier, happier lives.'\"",
+      "context": "Shows Daniela, not Dario, fronting the Super Bowl campaign publicly. The 'respectful way' line frames a business decision in relational terms; it is also company messaging during an ad war with OpenAI.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://time.com/collection/100-most-influential-people/2026/dario-daniela-amodei/",
+      "title": "Dario and Daniela Amodei: The 100 Most Influential People of 2026 (TIME)",
+      "speaker": "Billy Perrigo (TIME), with Harry Booth, quoting Daniela Amodei",
+      "date": "2026-04-15",
+      "locator": "Direct fetch returned HTTP 406; opened via r.jina.ai on 2026-10-06 (Published Time 2026-04-15) and the entry read in full.",
+      "excerpt": "“We’re doing our best, but like, we don’t necessarily know what the right answer is,” Daniela told TIME just before that standoff emerged into public view. “We’re just trying to be as good of an actor as we possibly can in this really challenging situation.”",
+      "context": "Short list entry; the quote predates the Pentagon standoff becoming public (early 2026).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.theatlantic.com/technology/2026/09/openai-v-anthropic-inside-biggest-rivalry-tech/688819/",
+      "title": "OpenAI vs. Anthropic: Inside the Biggest Rivalry in Tech (The Atlantic; adapted from The AGI Chronicles)",
+      "speaker": "Kevin Roose (The Atlantic), quoting Daniela Amodei (2023 and 2026 interviews) and unnamed OpenAI employees and people who know the Amodeis",
+      "date": "2026-09-29 (Published Time 2026-09-29T10:00:00Z)",
+      "locator": "A fresh fetch on 2026-10-06 hit a CAPTCHA (reader proxy) and WebFetch is blocked for the domain. The full text was read this session from the reader-proxy capture of the gift-link URL made on 2026-10-05 by the Dario run (3,687 words). Paragraphs used (capture numbering): 20 (Brockman toast at her 2017 wedding; Murati clash); 21 ('high-EQ counterpart'; 'inflexible triumvirate'); 22 (stuffed-animal advisory council; 2023 quote); 23 ('Dario's clique'); 29-30 (BATNA; 'the divorce'; she led negotiations; mutual non-disparagement); 43 ('stressful on every dimension'); 44-45 ('despise', anonymous; 'power-hungry virtue-signalers', anonymous OpenAI critics). Re-verify against a fresh copy before quoting.",
+      "excerpt": "His sister, Daniela Amodei, was also getting fed up with OpenAI. She and Brockman had once been close. (Brockman even gave a toast at her 2017 wedding to Holden Karnofsky, who joined OpenAI’s nonprofit board that year.) But years of working together had strained their relationship. She had also started to clash with Mira Murati, then OpenAI’s vice president of applied AI and partnerships, over who was in charge of making decisions related to safety. / Inside OpenAI, some employees viewed Daniela as her brother’s high-EQ counterpart. She was a skilled manager who had majored in English literature in college and worked in politics before her career in tech. But as her role expanded to include managing more of OpenAI’s technical teams, she collided with Brockman and other leaders, who came to see her as the third member of an inflexible triumvirate that included Dario and Karnofsky. / Daniela had an unusual process for working through conflicts. She and Karnofsky had a large collection of stuffed animals, which they treated as their personal advisory council for managerial role-playing. Each animal had an assigned character profile. Jinji was a lazy cat who encouraged Daniela to cancel meetings and avoid taking on too much work. Maura, a pink bear, was a detail-oriented, type-A manager. A panda named Beary Bonds was the “patron bear of generosity and empathy.” She treated these exercises as something between an inside joke and an earnest management technique. (In 2023, she told me the animals were “very useful in analyzing different personality types.”) / Daniela Amodei, who was leading the negotiations on the BATNA group’s side, asked to take some of their internal research documents with them to the new company. They agreed to sign a mutual non-disparagement agreement / “It’s stressful on every dimension,” Daniela told me. “And it’s scary because we can lose it at any time. That’s just on the business side. Then there’s the mission, and we’re like, Are we accidentally making things worse? Like, we think we have all the safety stuff figured out, but do we?” / Dario and Daniela still despise Altman and Brockman, according to several people who know them well. / In private, some people at OpenAI have described the Amodeis as power-hungry virtue-signalers, not principled humanitarians.",
+      "context": "Book excerpt by a named reporter. Her two direct quotes are on record. Most narration (the clashes, 'high-EQ counterpart', 'triumvirate', 'despise', the critics' line) rests on unnamed sources and is contested; Roose and the WSJ (S13) are separate bylines but may share sources, so treat them as partially independent. The mutual non-disparagement agreement is a circumstantial explanation for her public restraint about OpenAI. Breitbart (S28) and Inc. are derivative of this piece, not corroboration.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.tovima.com/wsj/the-decadelong-feud-shaping-the-future-of-ai/",
+      "title": "The Decadelong Feud Shaping the Future of AI (The Wall Street Journal, syndicated by To Vima)",
+      "speaker": "Keach Hagey and Berber Jin (The Wall Street Journal), based largely on unnamed sources",
+      "date": "2026-03-28",
+      "locator": "Syndicated full text opened by direct fetch (HTTP 200) on 2026-10-06; Daniela passages read in context: 'The house on Delano Avenue'; 'Conflicting promises' (stuffed animals; proposal; panda wedding; Brockman recruited her; language project and offer to step down); 'Fight after fight' (Altman conference-room confrontation; 2020 peer reviews); 'The final split' (tapped to lead exit negotiations).",
+      "excerpt": "Daniela’s fiancé, Holden Karnofsky , also lived in the group house. / Living together in the group house, Dario, Daniela and Karnofsky had shared both a commitment to AI safety and a sense of whimsy. Daniela was such a fan of her stuffed animals that Karnofsky had proposed to her via a movie of the dolls coming to life. Dario wore a panda outfit to their costume party-themed wedding. His clique at OpenAI became known as “the pandas.” / Brockman recruited Daniela to OpenAI, where she became a jill-of-all-trades, working on engineering management and recruiting. She had married Karnofsky, who was on the OpenAI board, the prior year. / Daniela, who was co-leading the language project with Radford, told Brockman he couldn’t work on it. When Altman asked her if there was any way to make it work, she offered to step down as head of the project rather than allow Brockman on it. / Altman called Dario and Daniela into a conference room and accused them of plotting against him by encouraging colleagues to send negative feedback about him to the board. The brother and sister denied it. ... Daniela called that executive into the room, who said she had no idea what Altman was talking about. Altman then denied that he had said it, prompting the Amodeis to begin shouting angrily at him. / Brockman wrote a lengthy piece of feedback for Daniela accusing her of abusing her power to create bureaucratic processes to get her way. He showed it to Altman beforehand, who declared it “tough but fair.” Daniela delivered a long response, rebutting him point by point. / Daniela was ultimately tapped to lead the exit negotiations with their lawyers.",
+      "context": "Investigative reporting relying largely on unnamed sources from both camps; Daniela is not quoted giving her side of any episode. Every interpersonal episode is reported and contested: attribute to the WSJ, do not present private feedback or the shouting as established fact, and do not use them alone to type her. Syndicated copy, not independent corroboration of the WSJ.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.youtube.com/watch?v=v1wZwxY3CMg",
+      "title": "Inside Anthropic, the $965 Billion AI Juggernaut | The Circuit (Bloomberg Originals documentary)",
+      "speaker": "Daniela Amodei and Dario Amodei, interviewed by Emily Chang (Bloomberg Originals); narration by Bloomberg",
+      "date": "2026-06-10 (upload date confirmed with yt-dlp metadata on 2026-10-06: 20260610, 2,860 s)",
+      "locator": "A fresh audio download on 2026-10-06 failed (HTTP 403); this stage used the full audio archived by the 2026-10-05 Dario run (duration 2,859.9 s, matching) and its whisper.cpp transcript, and re-transcribed every Daniela segment with openai-whisper large-v3-turbo on 2026-10-06. Daniela segments (approx.): 1:20-1:25 (rooftop); 3:37-3:55; 4:43-4:59; 7:20-9:30; 21:51-22:45; 34:36-35:03; 40:10-40:33; 40:55-41:25; 42:43-43:18. Speaker attribution, not facial recognition: she names herself ('Dario and I') on the rooftop scene; video frames show the same tan-jacket interviewee on the orange-couch sit-down at 4:50, 7:21, 21:52, 34:45-34:55 and 42:44, and the rooftop woman speaking at 40:18-40:25 and 41:08-41:18; per-segment pitch estimates put these answers at roughly 190-250 Hz versus roughly 100-135 Hz for Dario. Segment 39:47 ('I worry that something will go wrong') measured ~145-165 Hz and 42:04 ('plan for the worst') ~85-100 Hz; neither is attributed to her. Machine transcript; no speaker labels.",
+      "excerpt": "Dario and I, we've always been really close since we were little. But I think we always really wanted to do something big together. / He was so smart. He was taking, you know, calculus when he was, you know, in, I think, like middle school. He took math classes at UC Berkeley when he was in high school. I was actually more into reading and arts. So we were almost like complete complements in that way. / I think when people interact with Claude versus, you know, other systems, there is more of a feeling of, I like to describe it as professional warmth. So the goal is not for it to be your best friend, but it's not for it to be sort of cold, rote, calculating. It should feel approachable, but distant, right? Professional. / The example I often reach for is what will happen in medicine. ... They can't have a bedside manner with you that says, tell me how you're feeling about this. How are you coping with going through this process? ... But the interpersonal human part, that's not going to change. / I think we've tried to be as publicly open as possible to say we're trying our best to make this decision well, but we might not do it perfectly. / It was really scary to read that. I mean, it was, we were obviously extremely relieved that he and his family were okay. ... I hope that this is a topic we can all just debate, you know, as peacefully as possible. / We view it as our job to try and proactively think about all of the things that could go wrong. Because if we don't, who's going to? / We should not just say, well, we were just trying to grow the product, and suddenly there's an entire generation of young women who have eating disorders or who have mental health problems because, whoops, we were just trying to grow the product. That's not the stance that I think any technology company should take. (narration, ~4:04: 'They lived together in San Francisco, along with Daniela's husband, Holden Karnofsky.')",
+      "context": "Edited documentary; answers may be cut and reordered. The medicine and eating-disorders answers repeat the GSB talk (S01) nearly verbatim, so they are stable talking points, not spontaneous disclosures. The Altman-home answer is a conciliatory public statement about a rival she reportedly clashed with privately (S12, S13).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.anthropic.com/company/leadership",
+      "title": "Leadership at Anthropic",
+      "speaker": "Anthropic (company page)",
+      "date": "accessed 2026-10-06 (undated page)",
+      "locator": "Opened via r.jina.ai on 2026-10-06; Daniela Amodei entry read.",
+      "excerpt": "Daniela Amodei co-founded Anthropic and serves as chair of its Board of Directors. As President, she leads the organization’s work across research, engineering, product, governance, and commercial execution and manages the executive team.",
+      "context": "Company self-description of her current titles; time-sensitive ahead of the IPO.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.forbes.com/profile/daniela-amodei/",
+      "title": "Daniela Amodei (Forbes profile)",
+      "speaker": "Forbes",
+      "date": "profile last updated 2026-09-15; real-time figure as of 2026-10-06",
+      "locator": "Opened via r.jina.ai on 2026-10-06; stats block, editor's bullets and Forbes Lists section read.",
+      "excerpt": "$15.5B Real Time Net Worth as of 10/6/26 / Amodei studied English literature at the University of California, Santa Cruz, then joined fintech unicorn Stripe in 2013 as a founding recruiter. / Amodei worked at OpenAI for about three years as an engineering manager and vice president. / 2026 Forbes 400 #75 / 2026 America's Richest Self-Made Women #2 / Age 39 ... Marital Status Married Children 2",
+      "context": "Forbes estimates of private equity value; change daily and will move with the IPO. Use dated figures only. 'Children 2' conflicts with Wikipedia's outdated 'children 1' (S25); S01 and S10 support two.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://fortune.com/2025/02/13/anthropic-hired-president-daniela-amodei-husband-ai-safety-responsible-scaling/",
+      "title": "Anthropic hired president Daniela Amodei's husband to work on the company's AI safety strategy (Fortune)",
+      "speaker": "Jessica Mathews (Fortune), with confirmation from an Anthropic spokesperson",
+      "date": "2025-02-13",
+      "locator": "Opened via r.jina.ai on 2026-10-06; article read in full.",
+      "excerpt": "Holden Karnofksy, Daniela Amodei’s husband, joined Anthropic last month as a member of the startup’s “technical staff,” a company spokesperson confirmed. ... Karnofsky, who served on OpenAI’s board between 2017 and 2021, co-founded Open Philanthropy ... Karnofsky and Dario Amodei were former roommates, and while Karnofsky and Daniela Amodei were engaged, the couple lived with Dario Amodei.",
+      "context": "Independent confirmation of the marriage and of Karnofsky's January 2025 hire (note Fortune's misspelling 'Karnofksy' in one line). A family-in-the-company fact that critics cite; report neutrally.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://cheekypint.transistor.fm/5/transcript",
+      "title": "Cheeky Pint #5: Anthropic CEO Dario Amodei (transcript)",
+      "speaker": "Dario Amodei, interviewed by John Collison",
+      "date": "2025-08-06 (date per the 2026-10-05 Dario run's record)",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-06; sibling-cofounder answer read in context.",
+      "excerpt": "But it's almost like there's two things you need to do when you're running a company. You need to operationally execute, and you need to have a good strategy and see the most important thing or the thing that no one else sees. And so my job is the second and Daniela's job is the first. And we're both good at the things that we do",
+      "context": "Named family testimony from her closest collaborator; not independent, but it agrees with her own role descriptions (S03, S06).",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.dwarkesh.com/p/dario-amodei-2",
+      "title": "Dario Amodei — \"We are near the end of the exponential\" (Dwarkesh Podcast transcript)",
+      "speaker": "Dario Amodei, interviewed by Dwarkesh Patel",
+      "date": "2026-02-13 (date per the 2026-10-05 Dario run's record)",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-06; culture answer read in context.",
+      "excerpt": "How do you make that the case? It’s a lot of things. It’s me, it’s Daniela, who runs the company day to day, it’s the co-founders, it’s the other people we hire, it’s the environment we try to create.",
+      "context": "Brief role confirmation from Dario.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
+      "title": "Anthropic's Dario Amodei has just one direct report (TechCrunch)",
+      "speaker": "TechCrunch (write-up of Dario Amodei's Bloomberg interview with Emily Chang)",
+      "date": "2026-06-10",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-06; short article read in full.",
+      "excerpt": "In a new sit-down with Bloomberg’s Emily Chang, he reveals he has just one direct report — his chief of staff. Everyone else on Anthropic’s executive team reports to his sister, co-founder and president Daniela Amodei, who handles day-to-day operations.",
+      "context": "Corroborates the reporting structure; the same structure appears in a joint exchange in S14 (~22:49).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://pod.wave.co/podcast/big-technology-podcast/anthropic-ceo-dario-amodei-ais-potential-openai-rivalry-genai-business-doomerism-451c32cc",
+      "title": "Big Technology Podcast: Anthropic CEO Dario Amodei (Wave machine transcript)",
+      "speaker": "Dario Amodei, interviewed by Alex Kantrowitz",
+      "date": "2025-07-30 (Release Date shown in the transcript page)",
+      "locator": "Not re-fetched on 2026-10-06; the full transcript text captured by the 2026-10-05 Dario run was read this session and the family passage located (around the [42:54] marker). Re-open before quoting.",
+      "excerpt": "You know, it was always a very. A very. A very loving family, a very caring family. I was very close with my sister Daniela, who of course, became my. Became my. Became my co. Founder. And, you know, I think we decided very early that we wanted to work together in some. In some capacity.",
+      "context": "Machine transcript with disfluencies; Dario's account corroborates her 'always really close' and 'always wanted to do something big together' statements (S02, S14).",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://darioamodei.com/essay/the-adolescence-of-technology",
+      "title": "The Adolescence of Technology (essay)",
+      "speaker": "Dario Amodei",
+      "date": "2026-01 (page dating per the 2026-10-05 Dario run)",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-06; the pledge sentence located in the philanthropy passage.",
+      "excerpt": "All of Anthropic’s co-founders have pledged to donate 80% of our wealth, and Anthropic’s staff have individually pledged to donate company shares worth billions at current prices—donations that the company has committed to matching.",
+      "context": "A pledge shared by all seven co-founders, stated by Dario; not specific to Daniela and not yet fulfilled. It does not discriminate her type.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.axios.com/2026/09/24/trump-anthropic-ai-doomerism-dario-amodei",
+      "title": "Scoop: Trump allies open new front against Anthropic CEO over AI \"doomerism\" (Axios)",
+      "speaker": "Axios, describing a memo circulating in the White House",
+      "date": "2026-09-24",
+      "locator": "Opened via r.jina.ai on 2026-10-06; article read in full.",
+      "excerpt": "It names Amodei as one of the people who \"built the [EA] network\" as well as his sister and Anthropic president Daniela Amodei, whose husband once led a philanthropy dedicated to AI safety. / The other side: Anthropic has been working to distance itself from effective altruism. In a 2025 Wired story, Daniela Amodei said: \"I don't identify with that terminology.\"",
+      "context": "Political opposition research reported by Axios; the memo's characterizations are a partisan attack, not evidence about her motives. Current-events context only.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-targets-pre-thanksgiving-ipo-111436118.html",
+      "title": "Anthropic targets pre-Thanksgiving IPO at $2 trillion valuation (Quartz via Yahoo Finance, citing Bloomberg)",
+      "speaker": "Quartz (summarizing Bloomberg reporting citing unnamed sources)",
+      "date": "2026-10-02 (date per the 2026-10-05 Dario run's record)",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-06; body read in full.",
+      "excerpt": "Anthropic PBC has set its sights on a pre-Thanksgiving stock market listing, with bankers potentially kicking off the IPO roadshow during the week of Nov. 9, according to Bloomberg. ... Anthropic plans to host prospective investors at its San Francisco headquarters on Oct. 14 ahead of the offering. The process remains fluid and any dates are subject to change. ... Anthropic is also considering super-voting shares that would give Amodei and fellow co-founders greater control over the company after it goes public.",
+      "context": "Third-hand, unconfirmed by Anthropic; all dates fluid. Use only as attributed, dated context.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://en.wikipedia.org/w/index.php?title=Daniela_Amodei&action=raw",
+      "title": "Daniela Amodei (Wikipedia, raw wikitext)",
+      "speaker": "Wikipedia contributors",
+      "date": "accessed 2026-10-06",
+      "locator": "Raw wikitext fetched on 2026-10-06 and read in full; used only as a lead list.",
+      "excerpt": "| birth_date = {{Birth year and age|1987}} / | spouse = {{marriage|[[Holden Karnofsky]]|2017}} / | children = 1 / Her father, Riccardo Amodei, an Italian American leather craftsman from Massa Marittima, Tuscany / Daniela graduated from Lowell High School. / In August 2017, Daniela married Holden Karnofsky",
+      "context": "Leads only. 'children = 1' is outdated (S01, S10, S16 support two). 'Massa Marittima' is unsupported by its cited sources. Lowell High School rests on an alumni-newsletter citation not opened here; the August 2017 month rests on a paywalled WSJ citation not opened here. Use year 2017 only (S12, S13).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.thetimes.com/business-money/companies/article/anthropic-boss-daniela-amodei-makes-her-pitch-for-trustworthy-ai-hnw37q50z",
+      "title": "Anthropic boss Daniela Amodei makes her pitch for ‘trustworthy’ AI (The Times)",
+      "speaker": "Katie Prescott (The Times)",
+      "date": "2024-06-26 (per the Wikipedia citation)",
+      "locator": "Reader-proxy fetch on 2026-10-06 returned only navigation, the headline and the dek ('Daniela Amodei is on a mission to build the tech safely'); body paywalled and not read.",
+      "excerpt": "Anthropic boss Daniela Amodei makes her pitch for ‘trustworthy’ AI (headline only)",
+      "context": "Unread long interview; listed as a research task.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.theinformation.com/articles/anthropics-first-lady-took-winding-road-top",
+      "title": "Anthropic's 'First Lady' Took a Winding Road to the Top (The Information)",
+      "speaker": "Cory Weinberg, Jemima McEvoy, Jessica Lessin, Stephanie Palazzolo (The Information)",
+      "date": "2026-08-13 (per the Wikipedia/Dario-run citation)",
+      "locator": "Not opened this session; paywalled per the 2026-10-05 Dario run (headline and byline only).",
+      "excerpt": "Anthropic's 'First Lady' Took a Winding Road to the Top (headline only)",
+      "context": "Likely the only long profile built on named testimony from her Stripe and OpenAI colleagues. Essential for a discriminator; listed as a research task.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.breitbart.com/politics/2026/10/01/anthropic-co-founder-daniela-amodei-kept-personal-advisory-council-of-stuffed-animals-to-solve-problems/",
+      "title": "Anthropic Co-Founder Daniela Amodei Kept ‘Personal Advisory Council’ of Stuffed Animals to Solve Problems (Breitbart)",
+      "speaker": "Breitbart News (summarizing The Atlantic; quoting Alex Marlow)",
+      "date": "2026-10-01",
+      "locator": "Opened via r.jina.ai on 2026-10-06; body read in full.",
+      "excerpt": "Daniela took the lead on negotiating the split with OpenAI, a process insiders nicknamed “the divorce.” / Marlow then noted that Karnofsky so happens to be “married to someone named Daniela Amodei, who is the co-founder of Anthropic with her brother.”",
+      "context": "Derivative of S12 with partisan framing; not independent corroboration. Shows the stuffed-animal detail and the family/EA connection are now being used in political attacks (current-events context). Do not use as evidence for type.",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Daniela Amodei was born in 1987 in San Francisco, four years after Dario (born 1983), and the siblings grew up in the Mission District. Birth year only; no full birth date is supported. Forbes listed her age as 39 in 2026.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S09",
+        "S01",
+        "S16"
+      ],
+      "inference": "Stable biographical frame. Supports birth year and birthplace metadata only.",
+      "alternative": "No source gives a full birth date; never render 1987 as January 1. Wikipedia's birth year cites the same Wired passage, so it is not independent.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "Her parents, Elena Engel (a Jewish American born in Chicago who worked as a project manager for libraries) and Riccardo Amodei (a leather craftsman from a tiny town near the island of Elba), moved from Italy to San Francisco in the 1970s; Riccardo took ill when the children were small and died when they were young adults.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Family background only. No source in the record has Daniela describing her father's illness or death or linking it to her choices.",
+      "alternative": "Do not name the town (Wikipedia's 'Massa Marittima' is unsupported, S25) and do not build a childhood-wound explanation; nothing in her own words supports one.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "She studied liberal arts and music in high school, won a classical-flute scholarship, majored in English literature at UC Santa Cruz (the Stanford eCorner introduction says English Literature, Politics, and Music), graduated in 2009, was a Joan Didion fan, and says she would major in literature again.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S09",
+        "S04",
+        "S16",
+        "S01"
+      ],
+      "inference": "A humanities path into a technical field; she credits the humanities for her people-management approach (S04).",
+      "alternative": "The eCorner degree wording is the host's introduction; Forbes and Wired say English literature. Keep the major as English literature.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "Before tech she worked in international development and global health (NGOs in Washington, DC; time in East Africa for a public-health organization), helped win a 2012-cycle congressional campaign in northeast Pennsylvania, and spent a few months on Capitol Hill running scheduling and communications for Rep. Matt Cartwright.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S08",
+        "S01",
+        "S04"
+      ],
+      "inference": "Consistent account across her own interviews (2022, 2024, 2026) and independent Business Insider reporting.",
+      "alternative": "The campaign year is inferred from Cartwright's election and is not stated by these sources; state it only as 'a congressional campaign in northeast Pennsylvania' unless verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "She left Capitol Hill quickly: 'this is extremely not for me ... It just was slow and bureaucratic and I missed the campaign days of getting to build something together with a small group of, you know, motivated people.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S08"
+      ],
+      "inference": "A costly early exit toward small, committed teams building together; the same preference reappears in her Stripe (40 people) and Anthropic (seven co-founders) choices.",
+      "alternative": "Ordinary early-career fit-finding; one self-report, told years later in a talk urging students to follow their passions.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "She joined Stripe in 2013 when it had about 40 people, as an early recruiter, later moving into risk; she left in 2018. She gives different leaving headcounts: 'around 1200' (2023) and 'from 40 to 1500' (2024).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S04",
+        "S16",
+        "S01"
+      ],
+      "inference": "Career facts for the timeline; the move from recruiting to risk shows a people-and-safety thread that Business Insider also notes (S08).",
+      "alternative": "Do not state a precise Stripe headcount at departure; her own figures differ.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "On leaving Stripe she said: 'I loved Stripe ... it was a hard decision to leave,' because payments 'didn't sort of feel like fully meeting this other aim ... positively impact the world,' and she went to OpenAI where 'I knew people there'; the WSJ reports Greg Brockman, a friend from Stripe, recruited her.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S13"
+      ],
+      "inference": "A costly move justified by impact, made through existing relationships. Fits a do-good motive (One or Two) and a preference for trusted people (Six or Two).",
+      "alternative": "Common career logic for an early employee after five years; the recruitment detail is WSJ reporting from unnamed sources.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "At OpenAI (2018-2020) she worked across engineering management and recruiting, managed the team that built GPT-2 ('I oversaw the team that did GPT2'), co-led the language project with Alec Radford, and became vice president of safety and policy.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S09",
+        "S03",
+        "S13",
+        "S06",
+        "S04"
+      ],
+      "inference": "Establishes that she managed technical teams, not only operations.",
+      "alternative": "The 'co-led the language project' detail is WSJ reporting; the VP title rests on Fast Company and the Stanford introduction.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "She describes a lifelong closeness with Dario built around wanting to make the world better: 'Since we were kids, we've always felt very aligned' (2023); as children they played games in which they saved the world (Wired); 'we always really wanted to do something big together' (2026). Dario independently says they 'decided very early' to work together.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S09",
+        "S02",
+        "S14",
+        "S21"
+      ],
+      "inference": "A stable, repeated self-account (2022-2026) with family corroboration; the sibling bond is central to the portrait.",
+      "alternative": "Public sibling narratives are also brand-useful for Anthropic; both siblings have reasons to present harmony. The WSJ and Atlantic portray them as a tight unit in conflict at OpenAI (S12, S13), which is consistent.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "Her move into international development followed Dario's interest: 'it was an interest area of Dario's at the time ... I was very keen to understand the things that he was working or interested in'; as students they both donated small amounts to malaria-prevention groups.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "An early instance of orienting her path around a loved person's concerns: consistent with a Two's attunement to others, a Six's alignment with a trusted figure, or simply shared values.",
+      "alternative": "She was a younger sibling in college; following an admired older brother is common and may say little about core motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "She frames her motive as doing good: a friend called her 'the classic do-gooder'; 'I've always been someone who has been fairly obsessed with trying to do as much good as I personally can, given the constraints of what my skills are and where I can add value in the world' (2022); 'there's something that feels really wrong to me about the fact that I was born in America ... How do I make that more fair?' (2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S01"
+      ],
+      "inference": "The same motive language four years apart, before and after fame. 'Feels really wrong' and 'fair' lean One; 'add value' and helping lean Two.",
+      "alternative": "This is also the shared vocabulary of the effective-altruism milieu she moved in (GiveWell, Open Philanthropy) and of Anthropic's mission messaging, so it may reflect culture as much as type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "She has repeatedly defined her job as translating Dario's vision rather than setting it: 'I personally think Dario is the most impressive technical visionary in this space ... I really view my job as helping to take that vision ... and help to actually translate it into sets of operating norms' (2023); he thinks in 5-10 years, she in 1-2 (2023); 'I'm much more sort of practical' (2024). Dario: 'my job is the second and Daniela's job is the first' (operational execution). By June 2026 every executive except Dario's chief of staff reported to her.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S03",
+        "S04",
+        "S18",
+        "S19",
+        "S20"
+      ],
+      "inference": "A durable, chosen supporting role beside a visionary while holding most of the managerial power. Fits a Two (indispensable partner, power behind the visible leader) or a Six (loyal lieutenant to a trusted authority).",
+      "alternative": "A rational division of labor between a researcher and an operator; she herself frames it as comparative advantage (S01). Holding all executive reports and the board chair (C35) is real power, which also fits a non-Two reading.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "She locates her own value in people wanting her: 'I'm a career manager. So I spend most of my time with people ... everybody thinks that AI is not going to come for their job, because they're so special, and I am extremely guilty of this. I was like, \"People love people. People are going to want to report to me. They're not going to want to report to Claude, obviously.\"'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "The most Two-shaped statement in the record: she names the belief that she is indispensable to people, and names it as a flaw.",
+      "alternative": "A humorous aside in an answer about AI and jobs; one statement, not a pattern. Self-aware joking about pride does not establish a core motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "She reports that her direct reports most often describe her as both 'a supportive manager. I really want people to succeed' and someone who 'hold[s] a high bar', and says she is 'not the expert in anything'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Her own summary of others' feedback. 'Supportive' and 'want people to succeed' fit Two; 'high bar' fits One. It does not discriminate between them.",
+      "alternative": "Second-hand (her report of reviews), delivered to students; managers commonly describe themselves this way.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "She uses Claude to read three to four years of performance reviews to spot recurring patterns in her reports, and uploads her own upward feedback, quoting Claude 'very kindly' telling her she hasn't improved on something in a year.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Investment in other people's development plus openness to criticism. Consistent with a supportive manager; also with a One's improvement drive or a Six's appetite for external checks.",
+      "alternative": "Also a product demonstration by Anthropic's president.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "When two technical leaders reporting to her disagreed, her default was to push them to resolve it: 'I probably shouldn't even be the arbiter. I should just sort of be supporting you in figuring that out.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "A supportive, non-directive conflict style when she lacks expertise; leans Two or Nine.",
+      "alternative": "Sensible practice for a non-technical manager of researchers; contrasts with the reported OpenAI fights (C19-C21), where she did not stay out.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "Inside OpenAI, some employees viewed her as Dario's 'high-EQ counterpart' and 'a skilled manager'; as her role grew she collided with Brockman and other leaders, who came to see her as part of an 'inflexible triumvirate' with Dario and Karnofsky.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Outside perception of emotional attunement (supports Two) and of rigidity under conflict (supports One or Six), from the same unnamed sources.",
+      "alternative": "Unnamed employees, filtered through a reporter writing about a feud; the 'triumvirate' view comes from her adversaries.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "She and Karnofsky kept a collection of stuffed animals used as a 'personal advisory council' for managerial role-playing: Jinji, a lazy cat who urged her to cancel meetings; Maura, a detail-oriented, type-A pink bear; Beary Bonds, the 'patron bear of generosity and empathy.' In 2023 she told Kevin Roose the animals were 'very useful in analyzing different personality types.' The WSJ separately reports Karnofsky proposed via a movie of the dolls coming to life and Dario wore a panda outfit to their costume-themed wedding.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S12",
+        "S13"
+      ],
+      "inference": "A playful but earnest method of externalizing competing voices and other people's perspectives before conflicts. It can read as empathic role-taking (Two), as an externalized inner committee consulted for guidance (Six), or as whimsy. Two separate reporting lines describe the animals.",
+      "alternative": "Roose says even OpenAI colleagues who knew weren't sure how seriously she took it. Now circulating as ridicule in partisan media (S28); treat with respect and do not over-read a private habit.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "The WSJ reports that, while co-leading OpenAI's language project, she told Brockman he couldn't work on it and offered to step down as head of the project rather than allow him on it; Altman asked her to stay.",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "If accurate, a costly stand to protect a team's composition (and her brother's position): protective loyalty (Two or Six) or principle (One), but also a power move.",
+      "alternative": "Unnamed sources; she is not quoted; Radford reportedly felt his preferences were used in a proxy war. Use only as attributed, contested reporting.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "The WSJ reports that in 2020 Brockman wrote peer feedback accusing her of 'abusing her power to create bureaucratic processes to get her way' (Altman called it 'tough but fair'), and that she rebutted it point by point; The Atlantic reports she clashed with Mira Murati over who decided safety matters.",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S13",
+        "S12"
+      ],
+      "inference": "The strongest counterevidence to a soft-helper reading: fights over decision rights and process. Process as leverage fits One or Six; fierce defense of her domain also fits a Two under threat.",
+      "alternative": "An adversary's characterization during a feud, reported from unnamed sources; she has not publicly answered it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "The WSJ reports that when Altman accused Dario and her of encouraging negative feedback about him to the board, she called the executive he cited into the room, that executive denied it, Altman then denied saying it, and the Amodeis shouted at him.",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "If accurate: she checked the facts in the room, then reacted with open anger to a perceived lie. Anger at dishonesty fits One (and Six's sensitivity to betrayal).",
+      "alternative": "Single report, unnamed sources, no response from her; sensitive. Do not present as fact or use alone to type her.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "She led the departing group's side of the exit negotiations with OpenAI at the end of 2020 (the group called it 'the divorce'), asked to take some internal research documents, and both sides signed a mutual non-disparagement agreement.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S12",
+        "S13"
+      ],
+      "inference": "Two reporting lines agree she was the negotiator. The non-disparagement agreement is a circumstantial explanation for her diplomatic public silence about OpenAI.",
+      "alternative": "S12 and S13 may share unnamed sources; the document request and the agreement come from S12 alone.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "Before leaving OpenAI she hesitated ('This is kind of a crazy thing to do. Maybe we should stay. Maybe we could make this work.') and called a friend and mentor, who told her, 'You already know what the right answer is.' She calls it the best advice she has received.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Sought outside counsel before a high-stakes break and recalls being told to trust herself: Six-shaped (seeking guidance, doubting own authority) or ordinary prudence.",
+      "alternative": "Told as a lesson to students; seeking counsel before leaving an employer with a large group is normal.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "In public she consistently says the founders were 'running towards something versus running away from something,' takes 'a big sip of water' before answering why they left, and TIME described both siblings as 'diplomatic' about it; privately, according to The Atlantic's unnamed sources, the Amodeis 'still despise Altman and Brockman.'",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S05",
+        "S07",
+        "S12"
+      ],
+      "inference": "A gap between public restraint and reported private animus. Could show image management, harmony-keeping, or simply the non-disparagement agreement (C22).",
+      "alternative": "The 'despise' line is anonymous and contested; the restraint has a contractual explanation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "Her co-founder advice centers on testing relationships before committing: 'the interpersonal relationships ... matter a lot more than you think. How do you guys have conflict together?'; 'Dario and I have been fighting and getting over it for almost 40 years'; 'go on vacation together ... Share a room with them.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Trust-testing before commitment (Six) and relational emphasis (Two).",
+      "alternative": "Widely shared founder advice; Anthropic's seven co-founders were long-known colleagues, so the advice describes her circumstance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "She and Dario schedule weekly time together outside the office to 'water that relationship', and say things to each other 'that nobody else in the company can.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Deliberate relationship maintenance; Two- or Nine-consistent, also simply healthy practice for sibling co-founders.",
+      "alternative": "Rapid-fire answer, partly joking ('Thanksgiving dinner').",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "She speaks openly about doubt and pressure: 'It's stressful on every dimension ... scary because we can lose it at any time ... Are we accidentally making things worse?' (2026); 'We're doing our best ... we don't necessarily know what the right answer is' (2026); AI 'is ultimately a bet ... we could absolutely be wrong' (2026); on Mythos access, 'we might not do it perfectly' (2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S12",
+        "S11",
+        "S01",
+        "S14"
+      ],
+      "inference": "Repeated anxious vigilance and doubt: the Six case's best first-person support.",
+      "alternative": "Her company sells caution and is preparing an IPO; doubt is mission-aligned and investor-appropriate messaging, and Dario says similar things. Work incentive may explain it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "She frames safety as responsibility for harm to people: 'radical responsibility'; social-media founders did not set out 'to cause a pandemic of eating disorders for teenage girls'; 'whoops, we were just trying to grow the product. That's not the stance that I think any technology company should take'; 'if we don't, who's going to?'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S14"
+      ],
+      "inference": "Moral responsibility (One) expressed through concern for vulnerable people (Two). Repeated nearly verbatim across venues, so a settled talking point.",
+      "alternative": "Company positioning against social media and rivals; repetition shows message discipline, not necessarily inner motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "She says Anthropic tells some would-be customers 'I don't think we can do anything for you right now. And we don't wanna sell you a bill of goods ... to close a deal with you and get your logo.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Integrity in sales; One-leaning.",
+      "alternative": "Also a sound enterprise sales strategy and part of Anthropic's 'honest' branding.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "She repeatedly argues human relationships become more valuable as AI improves, using 'the example I often reach for' of doctors' bedside manner.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S14"
+      ],
+      "inference": "A consistent worldview centered on interpersonal care; Two-consistent.",
+      "alternative": "A stock answer to the jobs question at an AI company.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "She is persistently self-deprecating: 'What is this lady actually good at? She doesn't have a law degree. She's not a computer scientist'; a mock memoir title 'I Need an Adult'; Anthropic 'messed up' payroll 'multiple times'; her themed-days schedule has a '70% hit rate'; 'Sometimes Claude is wrong. Heretical to say.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S03"
+      ],
+      "inference": "Ease with her own imperfection and humor about status; weighs against a tense, self-critical One presentation and against a Three's image focus.",
+      "alternative": "Self-deprecation is also a disarming public style for a powerful executive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "She says Anthropic is about 'how not to believe the hype ... it's never been about seeking attention or sort of being in the headlines,' yet she fronted the company's first Super Bowl campaign interviews in February 2026.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S10"
+      ],
+      "inference": "Stated aversion to attention; weighs against a Three image motive.",
+      "alternative": "Corporate messaging; fronting the ad is part of her job.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "Asked about effective altruism in 2025, she said, 'I'm not the expert on effective altruism. I don't identify with that terminology. My impression is that it's a bit of an outdated term,' although her husband co-founded Open Philanthropy and joined Anthropic in January 2025; Axios reports Anthropic 'has been working to distance itself' from EA, and a memo circulating in the White House in September 2026 named her among those who 'built the [EA] network.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S17",
+        "S23"
+      ],
+      "inference": "Protective boundary-drawing around the company's reputation, or sincere non-identification. Relevant to image management (Three) or protecting the group (Six).",
+      "alternative": "Critics read reputation management after FTX; she may genuinely not identify with the label. The political memo is partisan opposition research.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "She married Holden Karnofsky in 2017 (Brockman gave a toast at the wedding); they lived in a group house with Dario; Karnofsky served on OpenAI's board from 2017 to 2021 and joined Anthropic in January 2025 as a member of technical staff. She has two children.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S12",
+        "S13",
+        "S17",
+        "S14",
+        "S16",
+        "S10",
+        "S01"
+      ],
+      "inference": "Stable personal facts for metadata and a brief family mention.",
+      "alternative": "Wikipedia's month (August) and 'children = 1' are unverified/outdated (S25). Do not name or describe the children.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C35",
+      "claim": "As of October 6, 2026, she is Anthropic's president, manages the executive team, and chairs its board of directors.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S15",
+        "S20"
+      ],
+      "inference": "Current title and power; time-sensitive ahead of the IPO.",
+      "alternative": "Titles can change at listing; the board-chair role comes from Anthropic's own page.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check titles and board role when Anthropic's S-1 becomes public or at the IPO pricing date."
+    },
+    {
+      "id": "C36",
+      "claim": "Forbes put her real-time net worth at $15.5 billion on October 6, 2026; she debuted on the 2026 Forbes 400 at No. 75 and ranked No. 2 on Forbes' 2026 America's Richest Self-Made Women list.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S16"
+      ],
+      "inference": "Dated wealth context only.",
+      "alternative": "Estimates of private equity; will move with the IPO.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update after the IPO prices or when Forbes revises the estimate."
+    },
+    {
+      "id": "C37",
+      "claim": "Dario wrote in January 2026 that all of Anthropic's co-founders have pledged to donate 80% of their wealth.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S22",
+        "S02"
+      ],
+      "inference": "Echoes the siblings' student-era donations to malaria prevention (S02); a shared pledge, so it does not distinguish her type.",
+      "alternative": "A pledge, not completed giving; stated by Dario on behalf of all co-founders.",
+      "durability": "unresolved",
+      "review_trigger": "Check for any public record of fulfillment (foundation filings, Giving Pledge listing) after the IPO."
+    },
+    {
+      "id": "C38",
+      "claim": "Anthropic is reported (by Bloomberg via Quartz, citing unnamed sources) to be targeting a pre-Thanksgiving 2026 listing, with an Oct. 14 investor event and a roadshow possibly starting the week of Nov. 9; dates are fluid and unconfirmed by the company.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Explains the current search surge; not personality evidence.",
+      "alternative": "Unconfirmed; may slip.",
+      "durability": "unresolved",
+      "review_trigger": "Re-check after Oct. 14, 2026 and when an S-1 is publicly filed or the IPO prices."
+    },
+    {
+      "id": "C39",
+      "claim": "Her public descriptions of Claude's intended character mirror the qualities reporters ascribe to her: she wants Claude to have 'professional warmth ... not for it to be your best friend, but it's not for it to be sort of cold, rote, calculating'; CNBC's reporter described her as 'warm, unhurried, immediately present', apologizing for her novelty mug and deferring to 'the wise camera people.'",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S14",
+        "S05"
+      ],
+      "inference": "Warm but bounded attentiveness to others; supports the interpersonal reading in a small, observed scene.",
+      "alternative": "One reporter's impression of one session; the Claude-character answer is product messaging, not self-description.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "She names Barbara Tuchman's The Guns of August as a favorite book, praising it as 'a really important study of just the individual people and personalities' that led to World War I.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "A distinctive detail: her attention goes to how personalities shape catastrophe, which fits a people-reader and an AI-safety executive.",
+      "alternative": "A rapid-fire answer prompted by Anthropic's office library.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41",
+      "claim": "Responding on camera to the attack on Sam Altman's home, she said, 'It was really scary to read that ... we were obviously extremely relieved that he and his family were okay ... I hope that this is a topic we can all just debate ... as peacefully as possible.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Public conciliation toward a rival she reportedly clashed with (C20-C22, C24): harmony-keeping or decency under public scrutiny.",
+      "alternative": "Any executive would say this; tells little about private feeling.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42",
+      "claim": "In February 2024 she said Anthropic's acceptable use policy barred 'military applications, for weapons'; by 2026 Anthropic worked with the U.S. defense establishment on classified networks (as Bloomberg's interviewer put it to Dario).",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S04",
+        "S14"
+      ],
+      "inference": "A company position change, owned by Dario's page; relevant only if the profile discusses how she explains policy shifts.",
+      "alternative": "The 2026 framing is the interviewer's, addressed to Dario; she is not shown explaining the change.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 2,
+    "confidence": "low",
+    "for_claim_ids": [
+      "C12",
+      "C13",
+      "C14",
+      "C16",
+      "C17",
+      "C18",
+      "C10",
+      "C30",
+      "C39"
+    ],
+    "against": "The best-documented conflicts (C19-C21, reported from unnamed sources) show her fighting over control of projects, processes and decision rights rather than seeking closeness; Brockman's reported charge that she used 'bureaucratic processes to get her way' and her point-by-point rebuttal read as One or Six as easily as a Two defending her people. Her most repeated motive language is fairness, responsibility and doing good (C11, C28, C29), which fits One. The warmth evidence is largely executive self-presentation in a people-and-operations role at a company whose brand is 'professional warmth', and several key lines are repeated talking points (C28, C30). The record contains almost no first-person account of her own needs, resentments, or what she fears for herself, which is where Two, Six and One would separate. Her own feedback summary ('supportive manager ... high bar', C14) straddles Two and One.",
+    "alternative_type": 6,
+    "alternative_case": "A Six reading fits a cluster of choices: she tests co-founders' trust before committing (C25) and built Anthropic from a long-trusted in-group; she sought a mentor's counsel and voiced 'maybe we should stay' before leaving OpenAI (C23); she writes an annual document anticipating what scaling will bring (S04); she repeatedly voices doubt and fear of loss ('scary because we can lose it at any time ... Are we accidentally making things worse?', C27); her stuffed-animal 'advisory council' externalizes competing voices she consults before conflicts (C18); and the reported anger at Altman's denial (C21) fits sensitivity to betrayal. Type 1 is a second live alternative: 'something that feels really wrong ... How do I make that more fair?' (C11), 'radical responsibility' and moral anger at growth-at-all-costs (C28), integrity in sales (C29), a self-reported 'high bar' (C14), and reported reliance on process (C20). Weighing against Six: she moves decisively and repeatedly toward risky small ventures (C05, C06, C07) and her doubt statements are mission- and investor-appropriate. Weighing against One: her relaxed, self-deprecating ease with mistakes (C31).",
+    "discriminator": "No defensible discriminator yet. The candidate test: in her own accounts of costly choices and conflicts, what does she say she was protecting? People she serves and her place with them (Two), the safety and trustworthiness of the group against a feared downside (Six), or what is right and fair (One)? The current record mixes all three (C07 cites impact and 'I knew people there'; C23 cites doubt and outside counsel; C05 cites building with a small, motivated group; C19-C21 are third-hand). The only sharply Two-shaped first-person line (C13) is a single joke. The unread long-form interviews and The Information profile are the most likely places to settle it.",
+    "unexplained": "Why a self-described supportive, high-EQ manager became, in two independent reports, the hard-edged negotiator and process-enforcer of the OpenAI split (C19-C22); why she distanced herself from effective altruism so flatly despite her husband's role in it (C33); how 'I hold a high bar' coexists with her easy self-mockery (C14, C31); and how much of the public warmth is temperament versus the role Anthropic needs her to play beside Dario."
+  },
+  "profile_format": "standard"
+}

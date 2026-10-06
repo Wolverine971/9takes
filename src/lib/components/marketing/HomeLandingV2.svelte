@@ -896,7 +896,7 @@
 			<a data-track="link" data-placement="reading_links" href={resolve('/book-session')}
 				><span class="mono">SOMETHING MORE PERSONAL</span>
 				<h3>Bring a real situation you’re trying to understand.</h3>
-				<span>Talk to DJ <ArrowRight size={16} aria-hidden="true" /></span></a
+				<span>Talk it through <ArrowRight size={16} aria-hidden="true" /></span></a
 			>
 		</div>
 	</section>

@@ -1,6 +1,6 @@
 ---
 title: 'The Hardware and Software of the Mind'
-description: 'Where the study of Personality went wrong in the modern Psychological discourse'
+description: "Why trait scores like the Big Five miss the person behind them, what the ancient Greeks understood about emotion, and where the Enneagram's 3 centers fit."
 author: 'DJ Wayne'
 date: '2023-12-10'
 loc: 'https://9takes.com/community/software-and-hardware-of-the-mind'

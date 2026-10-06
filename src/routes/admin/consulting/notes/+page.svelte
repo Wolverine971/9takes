@@ -90,8 +90,9 @@
 		<div>
 			<h1>Notes</h1>
 			<p>
-				Notes left on <a href="/book-session" target="_blank" rel="noopener">Talk to DJ</a>. Reply
-				with text or your own voice note. Anonymous notes have no email, so you can only read them.
+				Notes left on <a href="/book-session" target="_blank" rel="noopener">Talk it through</a>.
+				Reply with text or your own voice note. Anonymous notes have no email, so you can only read
+				them.
 			</p>
 		</div>
 	</div>
@@ -120,6 +121,34 @@
 			No notes yet.
 		{/if}
 	</p>
+
+	{#if data.situationResults}
+		<!-- The doors on /book-session (talkSituations.ts): which situations pull people in. -->
+		<section class="notes-situations" aria-labelledby="notes-situations-heading">
+			<h2 id="notes-situations-heading">Which situations people pick</h2>
+			<div class="notes-situations__wrapper" role="region" aria-label="Situations">
+				<table>
+					<thead>
+						<tr>
+							<th scope="col">Situation</th>
+							<th scope="col">Tapped</th>
+							<th scope="col">Sent a note</th>
+						</tr>
+					</thead>
+					<tbody>
+						{#each data.situationResults as row (row.variant)}
+							<tr>
+								<td>{row.headline}</td>
+								<td>{row.opened}</td>
+								<td>{row.submitted}</td>
+							</tr>
+						{/each}
+					</tbody>
+				</table>
+			</div>
+			<p>Tapped counts once per visit per situation, all time.</p>
+		</section>
+	{/if}
 
 	<nav class="notes-tabs" aria-label="Filter notes">
 		{#each views as view (view.key)}
@@ -189,6 +218,51 @@
 		color: var(--ink-dim);
 		font-size: 0.75rem;
 		font-weight: 600;
+	}
+
+	.notes-situations h2 {
+		margin: 0 0 0.5rem;
+		color: var(--ink-bright);
+		font-size: 1rem;
+	}
+
+	.notes-situations__wrapper {
+		overflow-x: auto;
+		border: 1px solid var(--stone-edge);
+		border-radius: 10px;
+	}
+
+	.notes-situations table {
+		width: 100%;
+		border-collapse: collapse;
+		font-size: 0.875rem;
+	}
+
+	.notes-situations th,
+	.notes-situations td {
+		padding: 0.5rem 0.75rem;
+		border-bottom: 1px solid var(--stone-edge);
+		text-align: left;
+	}
+
+	.notes-situations tbody tr:last-child td {
+		border-bottom: 0;
+	}
+
+	.notes-situations th {
+		color: var(--ink-dim);
+		font-weight: 600;
+	}
+
+	.notes-situations td {
+		color: var(--ink-mid);
+		font-variant-numeric: tabular-nums;
+	}
+
+	.notes-situations p {
+		margin: 0.4rem 0 0;
+		color: var(--ink-dim);
+		font-size: 0.75rem;
 	}
 
 	.notes-stat dd {

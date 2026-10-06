@@ -1,0 +1,46 @@
+{
+  "schema_version": 3,
+  "subject": "daniela-amodei",
+  "mode": "create",
+  "started_at": "2026-10-06T06:00:02.628Z",
+  "stages": {
+    "research": {
+      "status": "complete",
+      "started_at": "2026-10-06T06:00:02.630Z",
+      "cache_key": "a86e038254d6480331c1b6b7cfb62ecf282cf5c77f9a11b5cc05fc22cbfec33c",
+      "input_hashes": {
+        "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "027b4aad69f14ec04ff1d9ebadc3772c9b88c48f01cc35f17b435a750655a654",
+        "command": "2fb89b06fb7ae4d5f77a7de81fee26e8c8c09a29ab923d201690a22794c29eac",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "1382a08fdb4b968844fe5dc31438808098de259e08f27513c371a52e593ae851"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "evidence.json": "a63561e091c535e1d3f93fdf49a4785f96138726fc47c9a2626edf991ef4ddc1"
+      },
+      "finished_at": "2026-10-06T06:21:23.477Z",
+      "duration_seconds": 1281
+    }
+  },
+  "baseline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "materialized_sha256": null,
+  "expanded": false,
+  "run_status": "held",
+  "editorial_status": "insufficient_evidence",
+  "current_stage": "research",
+  "blockers": [
+    "Read the long-form first-person interviews this run located but did not review, transcribing each fully and labelling speakers (pitch separation worked for the Bloomberg film): ABC News full interview with Rebecca Jarvis (YouTube qUDG06BvWxc, 2026-02-07, 23:36); CNBC Television interview (GMXnmaky9FY, 2026-01-03, 36:24); Anthropic's 'Building Anthropic | A conversation with our co-founders' (om2lIWXLLN4, 2024-12-20, 51:49), the only located source where named co-founders may describe her; 'A conversation with Dario Amodei & Daniela Amodei' (Claude channel, 7xco5Qd2Oo8, 2026-05-06, 33:10); 'The Co-Founders of Claude AI Tell Oprah' (w5dJqHilu5s); Bloomberg Live 'Anthropic President Amodei on the Future of Claude' (Kfz-NxEvu-U); Sixth Street conversation (iTaHatJKphg). In each, look for her own account of what she does under pressure, what she says she was protecting in costly choices, how she disagrees with Dario, and any named colleague describing her.",
+    "Obtain and read The Information's 'Anthropic's \"First Lady\" Took a Winding Road to the Top' (2026-08-13, S27) through a subscription or library; record every named Stripe, OpenAI and Anthropic colleague's testimony with locators. It is likely the only long profile built on named testimony about her.",
+    "Re-open The Atlantic excerpt (S12) from a fresh, verifiable copy (or Kevin Roose's book The AGI Chronicles) to confirm the paragraphs quoted from the 2026-10-05 capture, and record the context of her 2023 interview with Roose about the stuffed-animal council.",
+    "Test a discriminator among Two, Six and One against the new material: when she explains her own costly choices (leaving Stripe, the 2018 language-project standoff, leaving OpenAI, leading the 2020 negotiations, withholding Mythos), does she cite the people she was protecting or serving (Two), the trustworthiness and safety of the group and the downside she feared (Six), or what was right and fair (One)? Separately, in conflict, does she move toward repair and other people's feelings, toward procedure and rules, or toward allies and guarantees? Record at least two dated, sourced observations on each side before choosing.",
+    "Seek on-record accounts of the WSJ and Atlantic OpenAI episodes (S12, S13): Brockman's 2020 peer review and her point-by-point rebuttal, the Altman conference-room confrontation, the Murati clash. Check whether Anthropic or Daniela has responded, and whether Brockman or Murati has spoken on record. Until then they stay 'disputed' and cannot carry the type argument.",
+    "Find named testimony from her Stripe years (she credits Claire Hughes Johnson as a mentor and model) and from Anthropic executives about how she manages conflict, feedback and pressure.",
+    "Read the paywalled The Times interview (2024-06-26, S26) and TIME's May 2024 'Inside Anthropic' feature for any first-person motive statements; verify Wikipedia leads before use (Lowell High School; August 2017 wedding month).",
+    "Decide format only after the tasks above: her public career dates to 2021-2023 (FLI podcast March 2022; TIME100 AI September 2023), so open-case eligibility ('first breakout within roughly three years; record thin because it is young') is borderline at best. If a defensible discriminator still does not exist after the reading above, put the eligibility question to DJ and the verifier explicitly rather than defaulting to an open case to meet the reported Nov. 9 roadshow date.",
+    "Current accuracy before drafting: re-check IPO status after the reported Oct. 14, 2026 investor event and any public S-1 (her titles, board-chair role, equity, any super-voting shares), and update Forbes figures with a date."
+  ],
+  "finished_at": "2026-10-06T06:21:23.480Z"
+}

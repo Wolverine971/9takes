@@ -124,10 +124,10 @@
 				<!-- Connect Section -->
 				<div class="link-section connect-section">
 					<h3>Connect</h3>
-					<p>Working through a real situation? Leave DJ a note, typed or as a voice note.</p>
+					<p>Working through a real situation? Talk it through, typed or as a voice note.</p>
 					<div class="connect-links">
 						<a href="/book-session" class="contact-link">
-							Talk to DJ
+							Talk it through
 							<svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
 								<path
 									stroke-linecap="round"

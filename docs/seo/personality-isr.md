@@ -39,7 +39,7 @@ Without it, pages still cache and still refresh every 24h; they just won't updat
 
 ### 2. Vercel Firewall rule (optional, restores the hard block)
 
-robots.txt already disallows GPTBot, ClaudeBot, anthropic-ai, CCBot, Google-Extended, Applebot-Extended, meta-externalagent and Reflectionbot site-wide, and those crawlers honor it. The removed 403 only ever caught a crawler that declares itself _and_ ignores robots.txt.
+robots.txt already disallows every training crawler in `TRAINING_CRAWLERS` (`src/lib/server/contentAccessGuard.ts`) site-wide; `publicDelivery.spec.ts` keeps the two lists identical. The documented crawlers honor it. The removed 403 only ever caught a crawler that declares itself _and_ ignores robots.txt.
 
 To enforce it in front of the cache: Vercel → Firewall → Custom Rule, match `Request Header: user-agent` contains any of those names, path starts with `/personality-analysis/`, action Deny. Use a **custom rule**, not the managed "AI Bots" ruleset, which would also block OAI-SearchBot and PerplexityBot — crawlers 9takes deliberately allows.
 

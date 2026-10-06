@@ -1,10 +1,16 @@
 // src/routes/book-session/book-session.page.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { createTalkNoteMock, saveTalkNoteDetailsMock, consumeApiRateLimitMock } = vi.hoisted(() => ({
+const {
+	createTalkNoteMock,
+	saveTalkNoteDetailsMock,
+	consumeApiRateLimitMock,
+	recordCtaExperimentEventMock
+} = vi.hoisted(() => ({
 	createTalkNoteMock: vi.fn(),
 	saveTalkNoteDetailsMock: vi.fn(),
-	consumeApiRateLimitMock: vi.fn()
+	consumeApiRateLimitMock: vi.fn(),
+	recordCtaExperimentEventMock: vi.fn()
 }));
 
 vi.mock('$lib/server/talkNotes', () => ({
@@ -20,7 +26,12 @@ vi.mock('$lib/server/apiRateLimit', () => ({
 	resolveRateLimitSubject: ({ clientAddress }: { clientAddress: string }) => `ip:${clientAddress}`
 }));
 
-import { actions } from './+page.server';
+vi.mock('$lib/server/ctaExperiments', () => ({
+	recordCtaExperimentEvent: recordCtaExperimentEventMock
+}));
+
+import { actions, load } from './+page.server';
+import { TALK_SITUATIONS_EXPERIMENT } from '$lib/utils/talkSituations';
 
 const BROWSER_UA =
 	'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36';
@@ -40,7 +51,8 @@ function noteEvent(fields: Record<string, string | File> = {}, userAgent = BROWS
 		}),
 		url: new URL('http://localhost/book-session?utm_source=ig'),
 		getClientAddress: () => '203.0.113.5',
-		locals: {}
+		locals: {},
+		cookies: { get: () => 'fp-1' }
 	} as any;
 }
 
@@ -62,6 +74,49 @@ beforeEach(() => {
 		ok: true,
 		noteId: 'note-1',
 		detailsToken: 'token-bbbbbbbbbbbbbbbbbbbbbbbb'
+	});
+});
+
+describe('/book-session load', () => {
+	it('rounds the corpus count down for the credential line', async () => {
+		const data = (await load({} as any)) as { publicFigureCount: string | null };
+		expect(data.publicFigureCount).toMatch(/^\d+0\+$/);
+	});
+});
+
+describe('/book-session ?/note situations', () => {
+	it('passes the picked situation to the alert and counts the sent note', async () => {
+		await actions.note(noteEvent({ situation: 'fight' }));
+
+		expect(createTalkNoteMock).toHaveBeenCalledWith(
+			expect.objectContaining({ situationLabel: 'The fight we keep having' })
+		);
+		expect(recordCtaExperimentEventMock).toHaveBeenCalledWith({
+			experiment: TALK_SITUATIONS_EXPERIMENT,
+			variant: 'fight',
+			event: 'submitted',
+			surface: 'book_session',
+			placement: 'door',
+			path: '/book-session',
+			fingerprint: 'fp-1'
+		});
+	});
+
+	it('ignores unknown situations', async () => {
+		await actions.note(noteEvent({ situation: 'made-up' }));
+
+		expect(createTalkNoteMock).toHaveBeenCalledWith(
+			expect.objectContaining({ situationLabel: null })
+		);
+		expect(recordCtaExperimentEventMock).not.toHaveBeenCalled();
+	});
+
+	it('counts nothing when the note did not save or was a bot', async () => {
+		createTalkNoteMock.mockResolvedValueOnce({ ok: false, status: 500, message: 'nope' });
+		await actions.note(noteEvent({ situation: 'fight' }));
+		await actions.note(noteEvent({ situation: 'fight', form_extra: 'spam' }));
+
+		expect(recordCtaExperimentEventMock).not.toHaveBeenCalled();
 	});
 });
 

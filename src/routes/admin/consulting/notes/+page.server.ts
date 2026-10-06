@@ -6,6 +6,7 @@
 import { fail } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
 import { guardAdminActions, requireAdmin } from '$lib/server/adminAuth';
+import { loadCtaExperimentResults } from '$lib/server/ctaExperiments';
 import {
 	countTalkPageVisits,
 	getTalkNotesOverview,
@@ -16,6 +17,7 @@ import {
 	type TalkNoteFilter,
 	type TalkNotesOverview
 } from '$lib/server/talkNotes';
+import { TALK_SITUATIONS, TALK_SITUATIONS_EXPERIMENT } from '$lib/utils/talkSituations';
 
 const FILTERS: TalkNoteFilter[] = ['open', 'replied', 'archived', 'all'];
 
@@ -29,22 +31,37 @@ export const load: PageServerLoad = async ({ locals, url, setHeaders }) => {
 	const filter = readFilter(url.searchParams.get('view'));
 
 	const alertEmail = talkNoteAlertAddress();
-	// Never throws (null on error), so it can run alongside the notes queries.
+	// Never throw (null on error), so they can run alongside the notes queries.
 	const visits = countTalkPageVisits(7);
+	const situations = loadCtaExperimentResults(
+		locals.supabase,
+		TALK_SITUATIONS_EXPERIMENT,
+		TALK_SITUATIONS.map((situation) => ({ id: situation.id, headline: situation.label }))
+	);
 
 	try {
-		const [notes, overview, pageVisits7d] = await Promise.all([
+		const [notes, overview, pageVisits7d, situationResults] = await Promise.all([
 			listTalkNotesForAdmin(filter, url.origin),
 			getTalkNotesOverview(),
-			visits
+			visits,
+			situations
 		]);
-		return { filter, notes, overview, pageVisits7d, alertEmail, loadError: null as string | null };
+		return {
+			filter,
+			notes,
+			overview,
+			pageVisits7d,
+			situationResults,
+			alertEmail,
+			loadError: null as string | null
+		};
 	} catch {
 		return {
 			filter,
 			notes: [],
 			overview: null as TalkNotesOverview | null,
 			pageVisits7d: await visits,
+			situationResults: await situations,
 			alertEmail,
 			loadError: 'Couldn’t load notes. Has the talk_notes migration been applied?'
 		};

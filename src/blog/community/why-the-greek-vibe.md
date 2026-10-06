@@ -1,6 +1,6 @@
 ---
 title: 'Why the Greek vibe?'
-description: '9takes is what Socrates would have wanted: a modern acropolis for meaningful conversation'
+description: 'Socrates asked questions before anyone posted a take. Why 9takes borrows from the Greek agora: open questions, nine perspectives, thinking before reacting.'
 author: 'DJ Wayne'
 date: '2023-09-24'
 loc: 'https://9takes.com/community/why-the-greek-vibe'

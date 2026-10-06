@@ -2,6 +2,7 @@
 import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { describe, expect, it } from 'vitest';
+import { TRAINING_CRAWLER_NAMES } from './contentAccessGuard';
 
 const ROOT = process.cwd();
 const PRIVATE_ROUTES = [
@@ -23,16 +24,6 @@ const SEARCH_AND_USER_CRAWLERS = [
 	'Claude-User',
 	'Perplexity-User',
 	'meta-externalfetcher'
-];
-const TRAINING_CRAWLERS = [
-	'GPTBot',
-	'ClaudeBot',
-	'anthropic-ai',
-	'CCBot',
-	'Google-Extended',
-	'Applebot-Extended',
-	'meta-externalagent',
-	'Reflectionbot'
 ];
 
 describe('public delivery policy', () => {
@@ -57,13 +48,34 @@ describe('public delivery policy', () => {
 		const robots = readFileSync(path.join(ROOT, 'static', 'robots.txt'), 'utf8');
 		const blocks = robots.split(/\n\s*\n/);
 
-		for (const crawler of TRAINING_CRAWLERS) {
+		for (const crawler of TRAINING_CRAWLER_NAMES) {
 			const block = blocks.find((candidate) =>
-				candidate.split('\n').some((line) => line.trim() === `User-agent: ${crawler}`)
+				candidate
+					.split('\n')
+					.some((line) => line.trim().toLowerCase() === `user-agent: ${crawler.toLowerCase()}`)
 			);
 			expect(block, `missing robots group for ${crawler}`).toBeDefined();
-			expect(block).toContain('Disallow: /');
+			expect(block).toMatch(/^Disallow: \/$/m);
 		}
+	});
+
+	// Ahrefs flags "Inconsistent AI training bot policy" when a training bot it
+	// knows about falls through to `User-agent: *`. Both lists have to grow together.
+	it('blocks exactly the training crawlers the server guard knows about', () => {
+		const robots = readFileSync(path.join(ROOT, 'static', 'robots.txt'), 'utf8');
+		const trainingBlock = robots
+			.split(/\n\s*\n/)
+			.find((candidate) => /^Disallow: \/$/m.test(candidate));
+		expect(trainingBlock, 'missing site-wide Disallow group').toBeDefined();
+
+		const robotsAgents = (trainingBlock ?? '')
+			.split('\n')
+			.map((line) => line.match(/^User-agent:\s*(\S+)/i)?.[1]?.toLowerCase())
+			.filter((agent): agent is string => Boolean(agent))
+			.sort();
+		const guardAgents = TRAINING_CRAWLER_NAMES.map((name) => name.toLowerCase()).sort();
+
+		expect(robotsAgents).toEqual(guardAgents);
 	});
 
 	it('publishes a no-training license without exposing a full LLM corpus manifest', () => {

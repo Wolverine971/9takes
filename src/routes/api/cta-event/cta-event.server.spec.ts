@@ -15,6 +15,7 @@ vi.mock('$lib/utils/logger', () => ({ logger: { error: vi.fn(), warn: vi.fn(), i
 
 import { POST } from './+server';
 import { BETA_CARD_EXPERIMENT, BETA_CARD_VARIANTS } from '$lib/utils/betaCardCopy';
+import { TALK_SITUATIONS_EXPERIMENT } from '$lib/utils/talkSituations';
 
 const BROWSER_UA =
 	'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148';
@@ -50,6 +51,28 @@ describe('POST /api/cta-event', () => {
 		expect(recordCtaExperimentEventMock).toHaveBeenCalledWith(
 			expect.objectContaining({ event: 'viewed', fingerprint: 'fp-9', surface: 'celebrity' })
 		);
+	});
+
+	it('records a tap on a /book-session situation door', async () => {
+		const door = {
+			experiment: TALK_SITUATIONS_EXPERIMENT,
+			variant: 'fight',
+			event: 'opened',
+			surface: 'book_session',
+			placement: 'door',
+			sourcePath: '/book-session'
+		};
+
+		expect((await call(door)).status).toBe(204);
+		expect(recordCtaExperimentEventMock).toHaveBeenCalledWith(
+			expect.objectContaining({ experiment: TALK_SITUATIONS_EXPERIMENT, variant: 'fight' })
+		);
+
+		vi.clearAllMocks();
+		expect((await call({ ...door, variant: 'made-up' })).status).toBe(400);
+		expect((await call({ ...door, event: 'submitted' })).status).toBe(400);
+		expect((await call({ ...door, variant: BETA_CARD_VARIANTS[0].id })).status).toBe(400);
+		expect(recordCtaExperimentEventMock).not.toHaveBeenCalled();
 	});
 
 	it('refuses submits from the browser: only the signup endpoint writes those', async () => {

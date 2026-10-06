@@ -94,6 +94,16 @@
 				href: '/enneagram-corner/subtopic/workplace',
 				label: 'Navigate Work',
 				hook: 'Read office dynamics'
+			},
+			{
+				href: '/enneagram-corner/subtopic/situational',
+				label: 'Types in the Wild',
+				hook: 'See real situations play out'
+			},
+			{
+				href: '/enneagram-corner/subtopic/resources',
+				label: 'Vetted Resources',
+				hook: 'Tests, books, and tools'
 			}
 		],
 		'nine-types': [
@@ -116,6 +126,16 @@
 				href: '/enneagram-corner/subtopic/workplace',
 				label: 'Types at Work',
 				hook: 'Spot them in meetings'
+			},
+			{
+				href: '/enneagram-corner/subtopic/situational',
+				label: 'Types in the Wild',
+				hook: 'See real situations play out'
+			},
+			{
+				href: '/enneagram-corner/subtopic/resources',
+				label: 'Vetted Resources',
+				hook: 'Tests, books, and tools'
 			}
 		],
 		development: [
@@ -138,6 +158,16 @@
 				href: '/enneagram-corner/subtopic/workplace',
 				label: 'Professional Development',
 				hook: 'Unlock career growth'
+			},
+			{
+				href: '/enneagram-corner/subtopic/situational',
+				label: 'Types in the Wild',
+				hook: 'See real situations play out'
+			},
+			{
+				href: '/enneagram-corner/subtopic/resources',
+				label: 'Vetted Resources',
+				hook: 'Tests, books, and tools'
 			}
 		],
 		relationships: [
@@ -160,6 +190,16 @@
 				href: '/enneagram-corner/subtopic/workplace',
 				label: 'Work Relationships',
 				hook: 'Navigate colleagues'
+			},
+			{
+				href: '/enneagram-corner/subtopic/situational',
+				label: 'Types in the Wild',
+				hook: 'See real situations play out'
+			},
+			{
+				href: '/enneagram-corner/subtopic/resources',
+				label: 'Vetted Resources',
+				hook: 'Tests, books, and tools'
 			}
 		],
 		workplace: [
@@ -182,6 +222,16 @@
 				href: '/enneagram-corner/subtopic/relationships',
 				label: 'Office Dynamics',
 				hook: 'Navigate the politics'
+			},
+			{
+				href: '/enneagram-corner/subtopic/situational',
+				label: 'Types in the Wild',
+				hook: 'See real situations play out'
+			},
+			{
+				href: '/enneagram-corner/subtopic/resources',
+				label: 'Vetted Resources',
+				hook: 'Tests, books, and tools'
 			}
 		],
 		resources: [
@@ -209,6 +259,11 @@
 				href: '/enneagram-corner/subtopic/workplace',
 				label: 'Optimize Career',
 				hook: 'Navigate professional life'
+			},
+			{
+				href: '/enneagram-corner/subtopic/situational',
+				label: 'Types in the Wild',
+				hook: 'See real situations play out'
 			}
 		],
 		situational: [
@@ -236,6 +291,11 @@
 				href: '/enneagram-corner/subtopic/workplace',
 				label: 'Excel Professionally',
 				hook: 'Read workplace situations'
+			},
+			{
+				href: '/enneagram-corner/subtopic/resources',
+				label: 'Vetted Resources',
+				hook: 'Tests, books, and tools'
 			}
 		]
 	};
