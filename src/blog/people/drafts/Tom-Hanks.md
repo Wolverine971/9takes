@@ -139,7 +139,7 @@ The man everyone treats as bedrock spends a lot of energy managing the fear that
 <li><b>Ten houses by ten:</b> a childhood of constant moving taught him to travel "emotionally light" and to find stability by being the dependable one.</li>
 <li><b>Anxiety as fuel:</b> he admits to "total terror" before every job, then converts it into obsessive preparation audiences read as care.</li>
 <li><b>The trust is the tell:</b> we believe him because he openly distrusts his own myth, which is the opposite of how a Type 3 sells confidence.</li>
-<li><b>Now guarding the last thing he owns:</b> at 68 he is warning fans about AI fakes of himself while starring in a movie that de-ages him with AI.</li>
+<li><b>Now guarding the last thing he owns:</b> in 2024, at 68, he warned fans about AI fakes of himself while starring in a movie that de-ages him with AI.</li>
 </ul>
 </div>
 </details>
@@ -250,7 +250,7 @@ His posts from quarantine were exactly that: factual, wry, undramatic updates th
 
 ## Why Tom Hanks is fighting his own AI ghost
 
-At 68, Hanks has found a threat he cannot out-prepare. In 2023 he warned fans about a deepfake video using "an AI version of me" to sell a dental plan. In 2024 he did it again, flagging online ads that used an AI copy of his voice to hawk fake cures, some of them exploiting his own type 2 diabetes diagnosis. "Beware," he wrote, over and over, to the people who trust him most, because trust is exactly what the scammers were counting on.
+In 2024, at 68, Hanks found a threat he cannot out-prepare. In 2023 he warned fans about a deepfake video using "an AI version of me" to sell a dental plan. In 2024 he did it again, flagging online ads that used an AI copy of his voice to hawk fake cures, some of them exploiting his own type 2 diabetes diagnosis. "Beware," he wrote, over and over, to the people who trust him most, because trust is exactly what the scammers were counting on.
 
 Sit with the cruelty of that for a Six. Hanks spent fifty years building himself into the most reliable signal in American culture. His whole security rests on being believed. Now anyone with software can wear his face and spend his credibility for him, and there is no early arrival, no obsessive preparation, no loyal crew that can stop it.
 

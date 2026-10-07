@@ -174,7 +174,7 @@ The scene where a young man with perfect defenses meets an older man who sees th
 
 ## The Body as a Moral Instrument
 
-The Courage Under Fire weight loss wasn't an isolated incident. For The Informant, he gained thirty pounds. For the upcoming film The Odyssey, at fifty-four, he dropped from 200 pounds to 167, comparing the physical preparation to an NFL season — a daily rhythm, not a temporary grind.
+The Courage Under Fire weight loss wasn't an isolated incident. For The Informant, he gained thirty pounds. For the film The Odyssey, in his mid-fifties, he dropped from 200 pounds to 167, comparing the physical preparation to an NFL season — a daily rhythm, not a temporary grind.
 
 But the body is only the most visible part of the commitment. For The Bourne Identity, he boxed for six months — not just to look competent in fight scenes, but to change how he walked, how he stood, how he listened. "Getting punches thrown at you and throwing punches at somebody, if you do it enough it does change the way you carry yourself." His insight for the character: even though Bourne doesn't remember his past, the training would still live in his body. So the physical work wasn't cosmetic. It was character work.
 
@@ -214,7 +214,7 @@ Enneagram Ones live with a voice that never stops auditing. The standard moves. 
 
 The evidence in Damon's case:
 
-- **The body as evidence of commitment**: Three decades of physical transformations that go far beyond what any director requires. The adrenal failure at twenty-five. The weight cuts at fifty-four. This is someone whose standard isn't "convincing" — it's "beyond reproach."
+- **The body as evidence of commitment**: Three decades of physical transformations that go far beyond what any director requires. The adrenal failure at twenty-five. The weight cuts in his mid-fifties. This is someone whose standard isn't "convincing" — it's "beyond reproach."
 - **Principled anger channeled into reform**: His Save Our Schools rally speech attacking education policy ("People who have literally never taught anyone anything have no business being involved in education policy"). Declining the NEA Friend of Education Award because he disagreed with the organization's leadership on teacher training. The anger is always principled, always targeted at systems, never at individuals.
 - **The controlled private life as moral architecture**: "I got lucky, I fell in love with a civilian," Damon told Esquire. He walks his kids to school. He never makes headlines. He's explained the strategy plainly: "If I'm not jumping up and down on a bar, or lighting something on fire, or cheating on my wife, there's not really any story to tell."
 - **The obsessive internal audit**: The Fresh Air quotes above. The "weird obsessive thing." The fear of not committing. This is the Type 1 voice narrating in real time.
@@ -236,7 +236,7 @@ In 2009, they merged their organizations to create Water.org and built WaterCred
 
 "Had we just kept doing direct impact work, which is drilling wells," Damon has said, "it would have taken us 600 years to get to 70 million people."
 
-By 2016, they'd launched WaterEquity, the first impact investment fund focused exclusively on the water crisis — attracting capital from Microsoft, Starbucks, and the U.S. government. The numbers as of 2025: over 80 million people reached, $7 billion in capital mobilized, operations across East Africa, Latin America, South Asia, and Southeast Asia.
+By 2016, they'd launched WaterEquity, the first impact investment fund focused exclusively on the water crisis — attracting capital from Microsoft, Starbucks, and the U.S. government. By 2025 the numbers were: over 80 million people reached, $7 billion in capital mobilized, operations across East Africa, Latin America, South Asia, and Southeast Asia.
 
 And the moment that crystallized his mission: visiting a Haitian village where Water.org had installed a new water system. He sought out a thirteen-year-old girl — the same age as his oldest daughter — and asked what she'd do with the three hours a day she used to spend collecting water. He assumed she'd say homework.
 

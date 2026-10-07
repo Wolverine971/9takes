@@ -98,7 +98,7 @@ FEEDBACK (2026-02-19):
 - Exceptional hook: the Golden Globes side-entrance scene is specific, visual, and immediately establishes the central paradox — the most-followed woman on Instagram hiding from cameras. "The most visible invisible woman in America" is a thesis that drives every section.
 - The Type 9 analysis is the ENGINE of the piece, not paint. The counter-typing section ("Why Type 9 and Not Type 3 or Type 4?") is one of the best in the collection — concrete behavioral comparisons instead of theory. The 9w8 wing is threaded throughout (Snapchat crash, breast implant disclosure, "original baddie") rather than listed as a sidebar. The merging pattern (Travis → chaos, Chalamet → calm) gives the piece narrative arc.
 - Evidence is outstanding: Life of Kylie therapy session, GQ, Dazed, multiple Kardashians seasons, ABC News, Forbes, People, Time, Reuters — all linked. Kris Jenner, Kim, Kendall quoted as witnesses. Specific numbers ($1.3B Snapchat crash, $600M Coty deal, seven-week silence, three consecutive Golden Globes).
-- "She was 15 when a boy said her lips were too small to kiss. She's 28 now. The comment changed her face, launched an empire, defined beauty standards for a generation. And it still makes her cry." — one of the most devastating passages in any blog.
+- "She was 15 when a boy said her lips were too small to kiss. She's in her late twenties now. The comment changed her face, launched an empire, defined beauty standards for a generation. And it still makes her cry." — one of the most devastating passages in any blog.
 - "The minimalism isn't taste. It's scar tissue" energy pervades this piece — every surface detail decoded as psychology.
 - MINOR ISSUES: The reader-question CTA after the ending weakens the cut-to-black. The business section, while tied to thesis (consistency over reinvention), could lose 2-3 sentences. The structured data JSON is fine for SEO but irrelevant to grading.
 - TO REACH A+: (1) Cut the CTA question after the ending — "Underneath the empire built on disappearing is a woman still figuring out if it's safe to show up" IS the ending. (2) One more emotionally immersive scene — the "I've never cried about this before" moment is powerful but told in summary. Expand by 2-3 sentences to put us IN the room.
@@ -346,7 +346,7 @@ In a 2024 episode of _The Kardashians_, Kylie told Kendall she was _"numb"_ to t
 
 The whole system held for years, the persona, the withdrawal, the Cloud Bed, the glass walls, and then it cracked. On camera. In front of her sister. Over the simplest possible wound: people saying she isn't pretty.
 
-She was 15 when a boy said her lips were too small to kiss. She's 28 now. The comment changed her face, launched an empire, defined beauty standards for a generation. And it still makes her cry.
+She was 15 when a boy said her lips were too small to kiss. She's in her late twenties now. The comment changed her face, launched an empire, defined beauty standards for a generation. And it still makes her cry.
 
 ## The Quiet Power of the Peacekeeper
 
@@ -370,7 +370,7 @@ STRONGEST SECTION: "Why Kylie Jenner Disappears When Chaos Hits" — the seven-w
 WEAKEST SECTION: "How Kylie Jenner Built Kylie Cosmetics" — the business case ties to "consistency over reinvention" but it's the only section where the Type 9 frame feels grafted on. The Khy/Kylie Skin/Sprinter rundown is brand-fact-dump, not psychology.
 
 STRENGTHS (3-5 bullets, specific):
-- "She was 15 when a boy said her lips were too small to kiss. She's 28 now. The comment changed her face, launched an empire, defined beauty standards for a generation. And it still makes her cry." — the most devastating four-sentence run in the corpus.
+- "She was 15 when a boy said her lips were too small to kiss. She's in her late twenties now. The comment changed her face, launched an empire, defined beauty standards for a generation. And it still makes her cry." — the most devastating four-sentence run in the corpus.
 - The Caitlyn-transition / "the only thing I really bottled in" beat is Type 9 evidence with real biographical weight; it's not name-dropped, it's prosecuted.
 - The Jordyn Woods reconciliation reveal — "Type 9s struggle to hold onto anger" — is the rare moment where the framework illuminates a public event the average reader misread.
 - The 9w8 wing is threaded through (Snapchat $1.3B drop, breast-implant disclosure, "original baddie" Dazed quote) rather than stamped once and abandoned.

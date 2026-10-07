@@ -120,7 +120,7 @@ A man who answers 300 letters a day about human suffering while eating a plain t
 
 > **"Optimism is a strategy for making a better future. Because unless you believe that the future can be better, it's unlikely you will step up and take responsibility for making it so."** — Noam Chomsky
 
-The question worth asking about Noam Chomsky isn't why he fought the powerful for seven decades. It's why the fighting never ended. Why the anger never cooled. Why a 95-year-old man who can no longer speak or walk still raises his left arm in rage when he sees images of Gaza on television.
+The question worth asking about Noam Chomsky isn't why he fought the powerful for seven decades. It's why the fighting never ended. Why the anger never cooled. Why a man in his nineties who can no longer speak or walk still raises his left arm in rage when he sees images of Gaza on television.
 
 The answer isn't politics. It's something older than politics.
 
@@ -363,7 +363,7 @@ He is visited daily by a neurologist, a speech therapist, a lung specialist. Bra
 
 And here is the detail that breaks the analysis open:
 
-At 95, unable to speak, unable to walk, Noam Chomsky still follows the news. And when images of Israel's war on Gaza appear on screen, he raises his left arm in anger.
+In his nineties, unable to speak, unable to walk, Noam Chomsky still follows the news. And when images of Israel's war on Gaza appear on screen, he raises his left arm in anger.
 
 The body still has one gesture left, and it is a gesture of protest.
 

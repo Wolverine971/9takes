@@ -265,6 +265,6 @@ He still shows up to set every day. Still gets on his knees every morning. Still
 
 "I tell myself that the phone stops ringing for everybody, doesn't it?"
 
-He is 75 and he is not slowing down. The man who starts each morning in surrender spends the rest of the day in motion — not because he's outrunning anything, but because the work and the prayer might be the same act. The fortress and the kneeling. The fury and the faith. He needs both, and he has never pretended otherwise.
+He was born in 1948 and he is not slowing down. The man who starts each morning in surrender spends the rest of the day in motion — not because he's outrunning anything, but because the work and the prayer might be the same act. The fortress and the kneeling. The fury and the faith. He needs both, and he has never pretended otherwise.
 
 > **Disclaimer:** This analysis of Samuel L. Jackson's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Samuel L. Jackson.

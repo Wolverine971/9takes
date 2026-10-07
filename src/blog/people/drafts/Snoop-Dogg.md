@@ -209,7 +209,7 @@ Most of the softness in the next thirty years traces back to that room. Every in
 
 He married Shante Taylor, his high school sweetheart, in June 1997. He filed for divorce in May 2004. They reconciled. On January 12, 2008, he threw her a surprise vow renewal ceremony on a twenty-acre ranch.
 
-The number that matters is 28 — their current year-count. That number does not happen to gangsta rappers. It barely happens to senators.
+The number that matters is 28 — their year-count in 2025. That number does not happen to gangsta rappers. It barely happens to senators.
 
 What broke and what mended reveal the personality. The divorce filing came during his peak-fame years, the Doggystyle Records era, when, as he later put it to People, "I thought I was the man, and I was willing to give up what I had at home for that, until I realized that what I had at home was irreplaceable."
 
@@ -265,7 +265,7 @@ A [Type Nine recovering from severe stress](/enneagram-corner/enneagram-types-in
 
 The "chill" framing is the most misleading thing ever said about him.
 
-Since 1993 he has released 20 studio albums. He owns a cannabis brand, a wine label, a fragrance, a dog food company, a YouTube sports commentary channel, a boxing promotion arm, a record label, and — as of 2022 — Death Row Records itself, the same label he once left in fear for his life. He [integrates to Three](/enneagram-corner/enneagram-wings-complete-guide) in a way most Nines never do, because most Nines never get the chance. Most Nines work in the mediating layer of an organization and never get their own office. Snoop got his own empire and ran it like a Nine would — through warmth, through relationships, through never asking anyone to choose between him and another friend.
+Since 1993 he has released 20 studio albums. He owns a cannabis brand, a wine label, a fragrance, a dog food company, a YouTube sports commentary channel, a boxing promotion arm, a record label, and — acquired in 2022 — Death Row Records itself, the same label he once left in fear for his life. He [integrates to Three](/enneagram-corner/enneagram-wings-complete-guide) in a way most Nines never do, because most Nines never get the chance. Most Nines work in the mediating layer of an organization and never get their own office. Snoop got his own empire and ran it like a Nine would — through warmth, through relationships, through never asking anyone to choose between him and another friend.
 
 The Olympic chapter is the cleanest illustration. In 2024, NBC made him a full-time correspondent for the Paris Games. He carried the torch through Saint-Denis. He commentated on dressage. He did equestrian coverage with [Kevin Hart](/personality-analysis/kevin-hart). He hosted state-delegation parties. He was, by a wide margin, the most-watched figure of the games outside of [Simone Biles](/personality-analysis/simone-biles).
 
@@ -277,7 +277,7 @@ There is a kid on the Long Beach Eastside who joined the Rollin' 20s Crips at tw
 
 He lost his mother in 2021. _Altar Call_, the gospel album he released on April 27, 2025, came out on what would have been her 74th birthday. "The spirit of my mother will forever live within me," he said, announcing it.
 
-The kid she called Snoopy is sixty-four now. He still plays piano. He still sings in the church register she taught him. He still picks up the phone for friends nobody else would pick up for. He still refuses to be the gangster the culture occasionally asks him to return to. He still, when pushed to the exact line Nines won't cross, becomes as immovable as concrete and then, once the pressure stops, becomes warm again.
+The kid she called Snoopy is in his fifties now. He still plays piano. He still sings in the church register she taught him. He still picks up the phone for friends nobody else would pick up for. He still refuses to be the gangster the culture occasionally asks him to return to. He still, when pushed to the exact line Nines won't cross, becomes as immovable as concrete and then, once the pressure stops, becomes warm again.
 
 A man spent thirty years proving that the quietest person in the room can outlast the loudest. The loudest one is dead. The quiet one is carrying the torch.
 

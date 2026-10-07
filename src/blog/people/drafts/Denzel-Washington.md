@@ -2,7 +2,7 @@
 title: "Denzel Washington: The Preacher's Son Who Found His Pulpit in Hollywood"
 meta_title: 'Why Denzel Washington Quit Drinking Overnight'
 persona_title: 'The Preacher Who Chose a Different Pulpit'
-description: "Inside Denzel Washington's private world, from a beauty-parlor prophecy and two bottles a day to sobriety, baptism, and late-life surrender."
+description: 'Denzel Washington, Enneagram 8: a beauty-parlor prophecy, two bottles of wine a day, sobriety overnight, and a baptism a week before he turned 70.'
 author: 'DJ Wayne'
 date: '2024-07-12'
 loc: 'https://9takes.com/personality-analysis/denzel-washington'
@@ -51,18 +51,25 @@ citations:
   - 'https://en.wikipedia.org/wiki/Fences_(film)'
   - 'https://en.wikipedia.org/wiki/Chadwick_Boseman'
   - 'https://en.wikipedia.org/wiki/Pauletta_Washington'
+  - 'https://www.tmz.com/2024/12/22/denzel-washington-baptized-receives-ministers-license/'
+  - 'https://variety.com/2024/film/news/denzel-washington-ethan-hawke-lose-oscar-training-day-1235983929/'
+  - 'https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2025/01/04/president-biden-announces-recipients-of-the-presidential-medal-of-freedom-3/'
+  - 'https://en.wikipedia.org/wiki/Here_Comes_the_Flood_(film)'
+  - 'https://en.wikipedia.org/wiki/The_Equalizer_(franchise)'
+  - 'https://www.indiewire.com/news/breaking-news/denzel-washington-star-antoine-fuqua-hannibal-netflix-1234925862/'
+  - 'https://www.netflix.com/tudum/articles/august-wilson-plays-films-explained'
 faqs:
   - question: "What is Denzel Washington's personality type?"
     answer: "Denzel Washington is an Enneagram Type 8 (The Challenger), specifically an 8w9. The pattern shows in the two-bottles-a-day drinking he ran for fifteen years before quitting overnight at his mother's correction, the controlled-eruption performances like the King Kong speech in Training Day, the marriage he proposed to Pauletta three times until she said yes, and the quiet mentorship infrastructure — Boseman, Hardwick, Butler, Powell, Jenkins — that surfaces only when the beneficiaries tell the stories."
     anchor: 'what-is-denzel-washingtons-personality-type'
   - question: 'Why did Denzel Washington quit drinking?'
-    answer: "Around 1999, Denzel and Pauletta built a ten-thousand-bottle wine cellar; for fifteen years he ordered two bottles a day from Gil Turner's in Los Angeles — never one, never three. In 2013, his mother Lennis told him: 'Denzel, you do a lot of good. You have to do good the right way and you know what I'm talking about.' He stopped completely. He hasn't had a thimble's worth since."
+    answer: "Around 1999, Denzel and Pauletta built a ten-thousand-bottle wine cellar; for fifteen years he ordered two bottles a day from Gil Turner's in Los Angeles — never one, never three. Then his mother Lennis told him: 'Denzel, you do a lot of good. You have to do good the right way and you know what I'm talking about.' He stopped completely, at sixty. He hasn't had a thimble's worth since."
     anchor: 'two-bottles-a-day-no-more-no-less'
   - question: 'What did Denzel Washington do for Chadwick Boseman?'
     answer: "Denzel privately paid for a group of Howard University students — including Chadwick Boseman — to study at Oxford. He didn't tell anyone; Boseman didn't reveal it publicly for twenty years. The same pattern repeats with Omari Hardwick (housed when facing homelessness), Austin Butler (advocated to Baz Luhrmann for Elvis), and Glen Powell (introduced to agent Ed Limato at eighteen). The help is always private; the stories surface years later."
     anchor: 'the-protectors-network'
-  - question: 'Why was Denzel Washington baptized at 70?'
-    answer: "In December 2024, three days before his seventieth birthday, Denzel walked into Kelly Temple Church of God in Christ in New York City, was baptized, and received a minister's training license. The seed had been planted in 1975 when Ruth Green, an elderly church member in his mother's Mount Vernon beauty parlor, told him 'Boy, you are going to travel the world and speak to millions of people.' He kept the paper in his wallet. 'It took a while,' he said, 'but I'm finally here.'"
+  - question: 'Why was Denzel Washington baptized just before turning 70?'
+    answer: "On December 21, 2024, a week before his seventieth birthday, Denzel walked into Kelly Temple Church of God in Christ in New York City, was baptized, and received a minister's training license. The seed had been planted in 1975 when Ruth Green, an elderly church member in his mother's Mount Vernon beauty parlor, told him 'Boy, you are going to travel the world and speak to millions of people.' He kept the paper in his wallet. 'It took a while,' he said, 'but I'm finally here.'"
     anchor: 'i-wanted-to-party'
 twitter: ''
 instagram: ''
@@ -92,7 +99,7 @@ FEEDBACK (2026-03-01):
 
 > "It took a while, but I'm finally here."
 
-<p class="firstLetter">On March 27, 1975, a twenty-year-old Denzel Washington sat in his mother's beauty parlor in Mount Vernon, New York. He was flunking out of Fordham University. Couldn't pronounce "cardiac morphogenesis," let alone pass it. His running buddies were accumulating the prison sentences that would eventually total 60 years between them.</p>
+<p class="firstLetter">On March 27, 1975, a twenty-year-old Denzel Washington sat in his mother's beauty parlor in Mount Vernon, New York. He was flunking out of Fordham University. Couldn't pronounce "cardiac morphogenesis," let alone pass it. His running buddies were accumulating the prison sentences that would eventually total 60 years between them. There was no sign yet of the Enneagram 8 who would one day decide who gets protected.</p>
 
 An elderly church member named Ruth Green kept staring at him. Every time he looked up, she was watching. Then she asked for a pen and paper.
 
@@ -102,7 +109,7 @@ Denzel kept that piece of paper. He still carries it in his wallet.
 
 He thought the prophecy meant acting. So he acted. He won Oscars and commanded $20 million a picture and built a wine cellar he'd drain for the next fifteen years. He played [Malcolm X](/personality-analysis/malcolm-x) and a corrupt cop and a grief-stricken bodyguard and a father who couldn't stop controlling the people he loved most. He became, by almost any measure, the most respected actor of his generation.
 
-Then, three days before his seventieth birthday, he walked into Kelly Temple Church of God in Christ in New York City, was baptized, and received a minister's training license. "It took a while," he said, "but I'm finally here."
+Then, a week before his seventieth birthday, he walked into Kelly Temple Church of God in Christ in New York City, was baptized, and received a minister's training license. "It took a while," he said, "but I'm finally here."
 
 The prophecy wasn't about acting. The acting was the detour. And somehow, the detour _was_ the sermon.
 
@@ -169,7 +176,7 @@ The same role. The same text. A completely different man saying the words.
 
 ## From St. Elsewhere to Glory
 
-After Fordham, Denzel studied briefly at the American Conservatory Theater in San Francisco, then started scraping together a career in New York. In 1982, he was cast as Dr. Phillip Chandler on NBC's hospital drama _St. Elsewhere_ -- one of the few Black actors in a lead role on a major network series. He played the part for six years, building the kind of quiet credibility that doesn't make headlines but keeps you employed.
+After Fordham, Denzel studied briefly at the American Conservatory Theater in San Francisco, then started scraping together a career in New York. In 1982, he was cast as Dr. Phillip Chandler on NBC's hospital drama _St. Elsewhere_ -- one of the few Black actors in a lead role on a major network series. He played the part for six years.
 
 The film career grew alongside it. _A Soldier's Story_ in 1984. _Cry Freedom_ in 1987, playing South African activist Stephen Biko -- his first Oscar nomination. Then _Glory_ in 1989, as Private Trip, a defiant former slave who refuses to fight until he has something worth fighting for. The whipping scene -- where Trip is lashed and a single tear rolls down his face while he stares straight ahead -- won him the Academy Award for Best Supporting Actor.
 
@@ -185,6 +192,8 @@ The post-_Malcolm X_ slump matters because it shows the pattern: Denzel doesn't 
 
 Most people see an actor of extraordinary talent and commanding presence. But if you understand [Type 8](/enneagram-corner/enneagram-type-8), the real driver isn't talent and it isn't ambition. It's a man who learned early that the world doesn't protect the vulnerable -- it eats them -- and who spent his life building the kind of power that lets him decide who gets protected and who doesn't.
 
+More precisely, he reads as an 8w9. The Nine wing is why the force comes out as stillness instead of volume.
+
 The evidence runs through everything:
 
 - **The all-or-nothing pattern**: He built a ten-thousand-bottle wine cellar and drank from it every day for fifteen years. Then he stopped entirely. Not gradually. Completely. "I've been clean. Be ten years this December. I stopped at sixty and I haven't had a thimble's worth since."
@@ -198,7 +207,7 @@ When a Type 8 is healthy, they integrate toward [Type 2](/enneagram-corner/ennea
 
 When a Type 8 is stressed, they disintegrate toward [Type 5](/enneagram-corner/enneagram-type-5) -- the Investigator. The commanding presence collapses inward. The man who fills rooms retreats into isolation, analysis, and private intellectual worlds. Denzel has described this tension directly: "I'm both an introvert and extrovert. I love people, but I need to be alone. If I don't find the valuable alone time I need to recharge, I cannot be my highest self."
 
-This withdrawal shows up everywhere: the total absence from social media, the private daily Bible study, the years of quiet theological preparation before accepting a ministry license. After the post-_Malcolm X_ career slump, he didn't do a press tour of self-correction. He disappeared into better choices. The retreat is the tell. When Denzel goes quiet, something is being rebuilt.
+This withdrawal shows up everywhere: the total absence from social media, the private daily Bible study, the years of quiet theological preparation before accepting a ministry license. The retreat is the tell. When Denzel goes quiet, something is being rebuilt.
 
 This is the architecture of a Type 8: power as protection. Control as love. Strength as the only acceptable vocabulary for [tenderness](/enneagram-corner/enneagram-strengths-and-weaknesses).
 
@@ -216,7 +225,7 @@ Two bottles. Not three. Not one. A strange, meticulous discipline inside an addi
 
 <p class="inner-thought">If I can control the amount, I'm not out of control. If I set the rules, even the destruction follows my terms.</p>
 
-His mother saw it. In 2013, when Denzel was fifty-nine years old and one of the biggest stars on the planet, Lennis Washington told her son: "Denzel, you do a lot of good. You have to do good the right way and you know what I'm talking about."
+His mother saw it. With her son one of the biggest stars on the planet, Lennis Washington told him: "Denzel, you do a lot of good. You have to do good the right way and you know what I'm talking about."
 
 He stopped drinking. He hasn't had a thimble's worth since.
 
@@ -236,7 +245,7 @@ That sentence is the most revealing thing Denzel Washington has ever said public
 
 Pauletta's version is less controlled: "We work at it. It's work. There are a lot of prayers for strength for staying in a forgiveness mode and both parts, mine and his."
 
-At the American Black Film Festival, during a fireside chat, Denzel spontaneously FaceTimed Pauletta in front of the audience. "She gon' be mad," he told the crowd before calling. Pauletta appeared on screen in her glasses, startled. "Tomorrow is Father's Day, so forget getting a gift!" she told him. The audience watched a seventy-year-old man grin like a teenager whose girlfriend just picked up the phone.
+At the American Black Film Festival, during a fireside chat, Denzel spontaneously FaceTimed Pauletta in front of the audience. "She gon' be mad," he told the crowd before calling. Pauletta appeared on screen in her glasses, startled. "Tomorrow is Father's Day, so forget getting a gift!" she told him. The audience watched Denzel Washington grin like a teenager whose girlfriend just picked up the phone.
 
 "I would not be alive without Pauletta Washington," he has said. "I wouldn't survive."
 
@@ -266,9 +275,9 @@ Here's what people miss about Denzel's filmography: he isn't choosing roles. He'
 
 Sidney Poitier told him early on that "the first four or five movies determine how you're perceived in the business." Denzel listened. But he didn't just pick good roles -- he picked moral puzzles.
 
-**Fences**: A father who loves his family so fiercely that the protection becomes a cage. Troy Maxson doesn't know how to love without controlling. The tenderness comes out as rigidity. The care comes out as rules. Viola Davis, who starred opposite him, said Denzel told her before filming: "Remember the love." He also told her: "Viola, what you're doing, you're making a living, not a life."
+**Fences**: A father who loves his family so fiercely that the protection becomes a cage. Troy Maxson doesn't know how to love without controlling. The tenderness comes out as rigidity. The care comes out as rules. Viola Davis, who starred opposite him, said Denzel told her before filming: "Remember the love."
 
-**Training Day**: The King Kong speech -- thirty to forty percent of it improvised -- is not Alonzo Harris losing control. It's a man who has been in control so long that the performance of control has become the only reality. Ethan Hawke showed up for the screen test with his lines memorized. Denzel didn't say a single scripted line. Not one. The entire screen test was improvised, forcing Hawke to keep up or drown.
+**Training Day**: The King Kong speech -- partly improvised -- is not Alonzo Harris losing control. It's a man who has been in control so long that the performance of control has become the only reality. Ethan Hawke showed up for the screen test with his lines memorized. Denzel didn't say a single scripted line. Not one. The entire screen test was improvised, forcing Hawke to keep up or drown.
 
 Then he stepped behind the camera. **Antwone Fisher** (2002), his directorial debut: a Navy psychiatrist slowly earns the trust of a young sailor with a childhood of abandonment and foster care abuse. **The Great Debaters** (2007): a professor in 1930s Jim Crow Texas coaches Black students to use intellectual rigor as resistance -- the team debates Harvard and wins. Both films are about a powerful older figure creating safety for vulnerable younger people. He didn't just play the protector. He built the frame around the story.
 
@@ -296,7 +305,7 @@ Denzel heard that and went back to making movies. He told interviewers: "It's no
 
 He reads the Bible every day. He's on his second pass through the New Testament. He's been a member of West Angeles Church for over thirty years.
 
-Then, in December 2024, the detour ended. He was baptized. He received a minister's license. And he told the University of Colorado Boulder football team: "God put me on this planet to preach."
+Then, in December 2024, the detour ended. He was baptized. He received a minister's license. Twenty-five years earlier, he had told Parade: "A part of me still says, 'Maybe, Denzel, you're supposed to preach. Maybe you're still compromising.'"
 
 ---
 
@@ -304,7 +313,7 @@ Then, in December 2024, the detour ended. He was baptized. He received a ministe
 
 Spike Lee, who has directed him in five films: "Denzel is so powerful that you could get blown out." But their relationship runs deeper than cinema: "Our relationship is based upon love and trust, trust and love." Denzel reciprocates with a word he doesn't use lightly: "Which is why I call Spike, _Trust_. I trust Spike completely."
 
-Ethan Hawke, asked about losing the Oscar to Denzel for Training Day, recalled that Denzel whispered to him afterward: "It's better that you didn't win. Losing was better. You don't want an award to improve your status. You want to improve the award's status."
+Ethan Hawke lost Best Supporting Actor for Training Day to Jim Broadbent the night Denzel won Best Actor. Asked by Chris Wallace in 2024 about Denzel leaning over to tell him losing was better, Hawke summed up the advice: "You don't want an award to improve your status. You want to improve the award's status. That's the way he thinks."
 
 <div class="pull-quote">"You don't want an award to improve your status. You want to improve the award's status."</div>
 
@@ -318,7 +327,7 @@ The pattern is always the same: the help is private, the advocacy is behind clos
 
 ---
 
-## The Mother Who Corrected Him at Fifty-Nine
+## The Mother Who Corrected Him
 
 Lennis Washington died in June 2021 at ninety-seven years old.
 
@@ -343,15 +352,15 @@ This is the private Denzel. Not the man with the commanding screen presence. Not
 
 ## The Last Quarter
 
-Denzel has said he's in "the last quarter" of his life. He's outlined his remaining projects: _Othello_ (completed, Broadway, 2025), _Highest 2 Lowest_ with Spike Lee (premiered at Cannes to a surprise honorary Palme d'Or), _Hannibal_ with Steve McQueen, _Black Panther 3_ with Ryan Coogler, and _King Lear_. He also plans to shepherd all ten of August Wilson's Century Cycle plays as film adaptations for HBO.
+Denzel has said he's in "the last quarter" of his life. He's spending it working. _Gladiator II_ came out in 2024. President Biden gave him the Presidential Medal of Freedom on January 4, 2025. That year he played _Othello_ on Broadway, and _Highest 2 Lowest_ with Spike Lee premiered at Cannes to a surprise honorary Palme d'Or. Still ahead: the Netflix heist film _Here Comes the Flood_ (2027), Ryan Coogler's _Black Panther III_ (December 15, 2028), two more Equalizer films he agreed to in late 2024, and Antoine Fuqua's _Hannibal_ at Netflix. His August Wilson adaptations keep coming too; _Ma Rainey's Black Bottom_ and _The Piano Lesson_ went to Netflix.
 
 He was asked in 2025 how many films he's made. "Too many. I think 50!" He added: "I don't watch movies, man. I really don't. I'm tired of movies."
 
 The man who has been in fifty films is tired of films. The man who built his career on the screen is moving toward the stage. The man who won Oscars says: "I've been around too long to care."
 
-And the man who ran from a calling received his minister's license three days before his seventieth birthday and told a room full of football players that God put him on this planet to preach.
+And the man who ran from a calling received his minister's license a week before his seventieth birthday.
 
-When he was twenty, Ruth Green wrote it down. When he was seventy, he caught up.
+When he was twenty, Ruth Green wrote it down. A week shy of seventy, he caught up.
 
 His name, he revealed on Jimmy Kimmel Live!, is actually pronounced DEN-zel, with the emphasis on the first syllable. But his mother started saying den-ZEL so that when she called out for him, he'd respond instead of his father. The whole world has been saying his name the way his mother needed it said. He never corrected anyone.
 

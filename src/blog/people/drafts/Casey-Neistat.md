@@ -348,7 +348,7 @@ In February 2024, 368 closed its doors. Fluctuating sponsorships and New York re
 
 The most interesting question about Casey Neistat isn't whether he'll make another viral video or launch another company. It's whether the man who built the creator economy template can reconcile with what it became. Whether the compulsion to transform everything into content can survive the realization that content — at scale, without guardrails — transforms people into something worse.
 
-He's 43. He still runs every morning on a leg held together by titanium and screws. He still films. He still can't sit still.
+He was born in 1981. He still runs every morning on a leg held together by titanium and screws. He still films. He still can't sit still.
 
 But the thing he's making now might not be a video. It might be an answer.
 

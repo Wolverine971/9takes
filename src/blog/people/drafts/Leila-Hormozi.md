@@ -45,15 +45,22 @@ citations:
   - 'https://strongandsculpted.podbean.com/e/my-mother-tried-to-commit-suicide-in-front-of-me-this-is-how-i-repaid-her-interview-with-leila-hormozi-episode-59/'
   - 'https://hormozi.blog/doing-my-own-hair-and-makeup/'
   - 'https://www.famousbirthdays.com/people/leila-hormozi.html'
+  - 'https://leilahormozi.com/about'
+  - 'https://www.acquisition.com/'
+  - 'https://foundr.com/articles/building-a-business/how-leila-hormozi-went-from-six-arrests-to-a-250-million-empire'
+  - 'https://enterprisezone.cc/leila-hormozi-transitions-to-executive-chairwoman-role-at-acquisition-com/'
+  - 'https://leilahormozi.com/p/what-rising-reveals'
+  - 'https://www.guinnessworldrecords.com/world-records/78599-fastest-selling-non-fiction-book'
+  - 'https://www.aol.com/articles/acquisition-founders-alex-leila-hormozi-160000000.html'
 faqs:
   - question: 'Who is Leila Hormozi?'
-    answer: 'Leila Hormozi is an Iranian-American entrepreneur, investor, and co-founder and chairwoman of Acquisition.com. She previously built Gym Launch, Prestige Labs, and ALAN with Alex Hormozi and is best known for her work in operations, hiring, and scaling companies.'
+    answer: 'Leila Hormozi is a first-generation Iranian-American (often described as Persian) entrepreneur, investor, and co-founder and executive chairwoman of Acquisition.com. She previously built Gym Launch, Prestige Labs, and ALAN with Alex Hormozi and is best known for her work in operations, hiring, and scaling companies.'
     anchor: 'who-is-leila-hormozi'
   - question: "What is Leila Hormozi's role at Acquisition.com?"
-    answer: 'Leila Hormozi is the co-founder and chairwoman of Acquisition.com. After running its day-to-day operations as CEO, she moved into the chairwoman role so she could focus on the portfolio, leadership, and longer-term strategy.'
+    answer: 'Leila Hormozi is the co-founder and executive chairwoman of Acquisition.com. After running its day-to-day operations as CEO, she became executive chairwoman in March 2026, with Sharran Srivatsaa taking over as CEO, so she could focus on the portfolio, leadership, and longer-term strategy.'
     anchor: 'what-is-leila-hormozis-role-at-acquisitioncom'
   - question: 'Where did Leila Hormozi go to college?'
-    answer: 'Leila Hormozi graduated from Western Michigan University in 2014 with a degree in kinesiology and exercise science. She moved to Orange County, California, the following year to begin her career as a personal trainer.'
+    answer: 'Leila Hormozi graduated from Western Michigan University with a degree in kinesiology and exercise science. After graduating, she moved to Orange County, California, in 2015 to begin her career as a personal trainer.'
     anchor: 'where-did-leila-hormozi-go-to-college'
   - question: "What is Leila Hormozi's personality type?"
     answer: "Leila Hormozi is an Enneagram Type 3 (The Achiever). The pattern shows in her own equation — 'I have to make all of this worth something. My life has to be worth this pain' — in performing composure ('can be nervous, scared, anxious, and still act like I'm not'), in the 5-minute rule that schedules emotions like meetings, in reframing shame itself as a performance problem, and in converting six arrests and a childhood spent keeping her mother alive into a $100 million net worth by 28."
@@ -138,9 +145,9 @@ That's not ambition. That's a debt she's been paying since she was ten years old
 
 ## Who is Leila Hormozi?
 
-Leila Hormozi is an Iranian-American entrepreneur, investor, and co-founder and chairwoman of Acquisition.com. She began as a personal trainer, helped build Gym Launch, Prestige Labs, and ALAN with [Alex Hormozi](/personality-analysis/alex-hormozi), and now works with a portfolio of founder-led companies. Her [official biography](https://leilahormozi.com/about) emphasizes operations, hiring, management systems, and company scaling.
+Leila Hormozi is a first-generation Iranian-American entrepreneur, investor, and co-founder and executive chairwoman of Acquisition.com. Her heritage is Iranian, often described as Persian: her father emigrated from Iran. She began as a personal trainer, helped build Gym Launch, Prestige Labs, and ALAN with [Alex Hormozi](/personality-analysis/alex-hormozi), and now works with a portfolio of founder-led companies. Her [official biography](https://leilahormozi.com/about) emphasizes operations, hiring, management systems, and company scaling.
 
-Hormozi graduated from Western Michigan University with a degree in kinesiology and exercise science before moving to Orange County, California, in 2015. She later ran Acquisition.com's day-to-day operations as CEO and moved into the chairwoman role as the organization expanded. That factual career spine explains the scale of the psychological question this profile examines: why competence became both her professional advantage and her measure of personal worth.
+Hormozi graduated from Western Michigan University with a degree in kinesiology and exercise science before moving to Orange County, California, in 2015. She later ran Acquisition.com's day-to-day operations as CEO, and in March 2026 she became executive chairwoman, with Sharran Srivatsaa taking over as CEO. In May 2026, she and Alex told PEOPLE they were expecting their first child.
 
 <details>
 <summary class="accordion">TL;DR: Why Leila Hormozi is an Enneagram Type 3</summary>
@@ -149,7 +156,7 @@ Hormozi graduated from Western Michigan University with a degree in kinesiology 
 <li><b>Worth-Through-Pain:</b> Leila's core equation: convert suffering into proof that she matters. An alcoholic mother, a suicide attempt she witnessed at 15, six arrests by 21. The pain had to mean something — so she made it mean $100M by 28.</li>
 <li><b>The Performance of Composure:</b> "Can be nervous, scared, anxious, and still act like I'm not" (<a href="https://davidtogoliath.com/p/untold-rise-leila-hormozi">David to Goliath</a>). She doesn't suppress emotions; she performs through them. That's not Type 8 toughness. That's Type 3 image management.</li>
 <li><b>The 5-Minute Rule:</b> She studied behavioral psychologists Albert Ellis and Stephen Hayes, then built her own system: feel the emotion fully for 5 minutes, dismiss the thought as "a mere sentence," refocus on action. She architects her inner world the same way she architects businesses.</li>
-<li><b>Shame as Engine:</b> "I was so concerned with being better all the time that it made me generally worse" (<a href="https://www.tiktok.com/@leilahormozi">TikTok</a>). Her entire podcast episode on shame (<i>Build with Leila Hormozi</i>, Ep 273) argues that "beating yourself up is not only unproductive, it's self-indulgent." She knows the engine. She's trying to rebuild it while it's still running.</li>
+<li><b>Shame as Engine:</b> "I was so concerned with being better all the time that it made me generally worse" (<a href="https://www.tiktok.com/@leilahormozi">TikTok</a>). Her entire podcast episode on shame (<i>Build with Leila Hormozi</i>, Ep 276) argues that "beating yourself up is not only unproductive, it's self-indulgent." She knows the engine. She's trying to rebuild it while it's still running.</li>
 <li><b>The Bridge Moment:</b> When Alex lost everything, she didn't calculate her exit. She grabbed his chin and chose loyalty. That's Type 3 integrating toward Type 6, choosing commitment over self-preservation. The "assets" quote came later, once the bridge had been crossed.</li>
 </ul>
 </div>
@@ -175,7 +182,7 @@ Watch Leila's intensity and you might see Type 8, the Challenger. Watch her disc
 
 But look at what happens when she breaks.
 
-Type 8s fight back. When cornered, they escalate. Leila didn't escalate at 19. She numbed out. After her mother's suicide attempt, she went emotionally flat for four years. _"Not feeling anger or happiness, just feeling flat,"_ she described on the [Kim Constable Podcast](https://strongandsculpted.podbean.com/e/my-mother-tried-to-commit-suicide-in-front-of-me-this-is-how-i-repaid-her-interview-with-leila-hormozi-episode-59/). That's not Eight behavior. That's a Three disintegrating toward Nine, the type that goes numb, merges with the background, disappears.
+Type 8s fight back. When cornered, they escalate. Leila didn't escalate at 15. She numbed out. After her mother's suicide attempt, she went emotionally flat for four years. _"Not feeling anger or happiness, just feeling flat,"_ she described on the [Kim Constable Podcast](https://strongandsculpted.podbean.com/e/my-mother-tried-to-commit-suicide-in-front-of-me-this-is-how-i-repaid-her-interview-with-leila-hormozi-episode-59/). That's not Eight behavior. That's a Three disintegrating toward Nine, the type that goes numb, merges with the background, disappears.
 
 Type 1s are driven by moral correctness. Their inner critic says _do the right thing_. Leila's inner critic doesn't care about right. It cares about results. She gets professional hair and makeup done before work, not because it's proper but because it makes her ["feel prepared."](https://hormozi.blog/doing-my-own-hair-and-makeup/) That's image-consciousness, not moral conscience.
 
@@ -217,7 +224,7 @@ She snapped out of it. Not gradually. Immediately. She conducted what she calls 
 
 She lost 85 pounds. The number is hers: _"You know what got me to lose 85 pounds? Not wanting to be 500 pounds,"_ she [wrote on LinkedIn](https://www.linkedin.com/posts/leilahormozi_you-know-what-got-me-to-lose-85-pounds-activity-7120797008423968771-h08T). On the [YAP podcast](https://podscripts.co/podcasts/young-and-profiting-with-hala-taha/leila-hormozi-from-six-arrests-to-100m-net-worth-how-leila-changed-her-mind-and-built-an-empire-by-age-28-e202) she named the fuel: _"I use that anger to fuel myself to lose 85 pounds, to get good grades in college."_ She overcame body dysmorphia and an eating disorder through strength training. Found, as she put it, "newfound stability and self-acceptance" in the gym.
 
-The day after graduating from Western Michigan University with a degree in kinesiology, she drove to Orange County with $5,000, signed a lease without a job, and started over.
+After graduating from Western Michigan University with a degree in kinesiology, she moved to Orange County in 2015 with $5,000 in the bank, signed a lease online without a job, and started over.
 
 Her first sales approach (offering free gym passes and protein cookies door-to-door) ended with a woman telling her to fuck off.
 
@@ -233,7 +240,7 @@ Whether there's been reconciliation, contact, or silence, Leila has never said. 
 
 ## How Leila Hormozi Met Alex Hormozi
 
-Before she built a $200M business empire, Leila applied the same systematic thinking to love.
+Before she built a business empire, Leila applied the same systematic thinking to love.
 
 She went on approximately sixty dates on Bumble. Not casually. Strategically. She dedicated her lunch break to swiping and set a goal: one date per week. She treated it, she said, exactly like a sales funnel.
 
@@ -255,7 +262,7 @@ On their fourth day together, Alex asked Leila to collect cash from his gyms and
 
 Two weeks after the froyo date, Alex proposed that she come work for him. Not a marriage proposal. A business one. They made a handshake deal: regardless of whether they liked each other romantically, they would build the business together.
 
-Her reasoning for saying yes was pure Three logic: _"There's really no better time than now because I'm young."_ She told Alex: _"I feel like we can make such a great team... I think if we keep cultivating our skills, we could be unstoppable together."_
+She told Alex: _"I feel like we can make such a great team... I think if we keep cultivating our skills, we could be unstoppable together."_
 
 On the [COO Alliance podcast](https://cooalliance.com/podcasts/ep-18-gym-launch-co-founder-and-president-leila-hormozi/), Leila described it honestly: _"It wasn't romantic at all for the first two years."_
 
@@ -303,7 +310,7 @@ Her own framing of the surgery is the line worth sitting with: _"I got plastic s
 
 It's a strangely Type 3 sentence. The honesty isn't a defense of the surgery. It's the deeper currency she's trying to protect. The body is something she can engineer. So is the makeup. So is the morning routine. What she's unwilling to engineer is the story about why. A Three who decides to admit something about image-consciousness — rather than perform that she's "above" it — is a Three refusing to curate the explanation while still curating the face.
 
-Many readers will flinch at the openness. The flinch is the diagnostic. We expect successful women to either deny cosmetic work or weaponize it. Leila does neither. She names it as architecture, the same way she names her morning routine as architecture and (next) her emotional system as architecture. The whole self is the project. The surgery is just the part most people lie about.
+Many readers will flinch at the openness. The flinch is the diagnostic. We expect successful women to either deny cosmetic work or weaponize it. Leila does neither. She names it as architecture, the same way she names her morning routine and (next) her emotional system. The whole self is the project. The surgery is just the part most people lie about.
 
 But the most revealing thing about Leila isn't the routine, and it isn't the surgery. It's what happens underneath both of them.
 
@@ -319,11 +326,11 @@ This is the inner architecture of a Three who learned the hard way that feelings
 
 ## What Actually Drives Leila Hormozi
 
-In May 2025, Leila recorded a podcast episode called ["How Shame Is Hindering Your Performance"](https://podbay.fm/p/build-with-leila-hormozi/e/1747213200) (_Build with Leila Hormozi_, Episode 273).
+In May 2025, Leila recorded a podcast episode called ["How Shame Is Hindering Your Performance"](https://podbay.fm/p/build-with-leila-hormozi/e/1747213200) (_Build with Leila Hormozi_, Episode 276).
 
 Her thesis: _"Beating yourself up is not only unproductive, it's self-indulgent."_
 
-Listen to what she just did. She reframed shame as a performance problem. Not a feeling to process. A bug in the software. A drag on output. That's the single most Three sentence ever recorded on a podcast.
+Listen to what she just did. She reframed shame as a performance problem. Not a feeling to process. A bug in the software. A drag on output.
 
 But sometimes the engineering fails.
 
@@ -345,25 +352,23 @@ Alex is the visionary. He creates content, writes books, develops frameworks tha
 
 Leila sees all the steps to get there.
 
-She's the operator. The CEO who ran Acquisition.com's day-to-day operations across a portfolio generating $250M+ in annual revenue. She built the team past 100 people, hiring 41 in a single quarter during 2025. And when a launch underperformed expectations, she didn't spin it. She [laid off half the team](https://hormozi.blog/we-fired-half-our-teamthis-is-why/), publicly explained why, and built an accountability formula she published for anyone to use: _"Expectations + Measurement x Feedback = Accountability."_
+She's the operator. The CEO who ran Acquisition.com's day-to-day operations across a portfolio the [company says](https://www.acquisition.com/) does more than $250M in annual revenue. In 2025 the team more than doubled, with 41 hires in the fourth quarter alone, by [her own count](https://leilahormozi.com/p/what-rising-reveals). Years earlier, when a launch underperformed expectations, she didn't spin it. She [laid off half the team](https://hormozi.blog/we-fired-half-our-teamthis-is-why/), publicly explained why, and built an accountability formula she published for anyone to use: _"Expectations + Measurement x Feedback = Accountability."_
 
 On the [Female Startup Club podcast](https://www.femalestartupclub.com/blogs/podcasts/leila-hormozi-prestige-labs), she described it without flinching: _"I had to lay off like half a team because we hired in anticipation of a launch we're going to do, and that launch didn't go nearly as well as we anticipated."_ Most founders bury that story. Leila teaches from it.
 
-But teaching from it isn't the same as the team feeling taught. The day before the layoff, her HR director texted one person who told the rest of the team. The leak gutted the rollout. Acquisition.com's Glassdoor rating dropped from 4.9 to 2.2 — a public scoreboard moving in the wrong direction for a Type 3 who builds entire systems around the right scoreboard moving. Leila has named the underlying failure in her own voice: she'd defaulted to wanting to be liked, then swung too far the other way trying to overcorrect, and had to find a middle she didn't have a map for. _"Being so nice you don't tell people the truth has the same long-term effect on people as yelling at your team,"_ she's said. It does — for the leader. For the person on the other side of a Three who's trying to engineer her way to the right calibration, the cost is real, and it's not paid by the Three. The accountability formula she published is genuinely useful. It also exists because the version of her that hired those forty-one people in a quarter ran ahead of the version of her that had to lay half of them off.
+But teaching from it isn't the same as the team feeling taught. In a 2026 [Foundr interview](https://foundr.com/articles/building-a-business/how-leila-hormozi-went-from-six-arrests-to-a-250-million-empire), she told the harder version of a layoff from the Gym Launch years. Inexperienced managers had made the hiring projections: _"We hired 35 people. We only needed five."_ The day before the layoff, her director of HR texted one person, who told the whole team. _"My Glassdoor went from a 4.9 to a 2.2,"_ she said — a public scoreboard moving in the wrong direction for a Type 3 who builds entire systems around the right scoreboard moving. She has named the underlying failure in her own voice: she _"desperately wanted to be liked,"_ swung too far the other way, and had to find a middle she didn't have a map for. _"Whether I'm yelling at my team, or I'm being so nice I don't tell them the truth, the same result occurs."_ It does — for the leader. For the person on the other side of a Three who's trying to engineer her way to the right calibration, the cost is real, and it's not paid by the Three. The accountability formula she published is genuinely useful. It also exists because the hiring ran ahead of what the company could hold, and the team paid for the gap first.
 
 In a [Fortune interview](https://fortune.com/2026/01/12/acquisition-com-ceo-emotional-intelligence-over-technical-skills-success/) in January 2026, she described her hiring philosophy: _"People overvalue technical skills and undervalue social and emotional skills."_ She cited the Ritz-Carlton model: hire for character, train for competence. This from the woman who built her own emotional system from behavioral psychology textbooks. She doesn't just manage teams. She selects for the emotional architecture she had to build herself.
 
 She reads people in ways Alex doesn't. When Alex's dishonest business partner first entered the picture, Leila saw the problem immediately, just from meeting him. Alex worked alongside the man for months without noticing. She caught it in one conversation.
 
-Their dynamic is complementary but not symmetrical. Alex's Three manifests as charisma and content. Leila's Three manifests as competence and systems. In early 2026, she made that distinction structural: she [stepped down as CEO](https://www.threads.com/@leilahormozi/post/DK9nA_0od7_/) and moved to Executive Chairwoman, bringing in Sharran Srivatsaa as CEO. Her reasoning was characteristically precise: _"When one person is trying to hold the present and the future at the same time, neither gets full attention."_
+Their dynamic is complementary but not symmetrical. Alex's Three manifests as charisma and content. Leila's Three manifests as competence and systems. In March 2026, she made that distinction structural: she stepped down as CEO and moved to Executive Chairwoman, handing the CEO role to Sharran Srivatsaa. Her reasoning, in a [LinkedIn post](https://enterprisezone.cc/leila-hormozi-transitions-to-executive-chairwoman-role-at-acquisition-com/), was characteristically precise: _"When one person tries to hold both the present and the future of a company, neither gets their full attention."_
 
 A Three voluntarily giving up the CEO title. That's not a small thing for someone whose identity runs on achievement. But it's the move of a Three who's learning that control and worth aren't the same thing.
 
 ### Why Rest Feels Like Quitting to Leila Hormozi
 
-The article would be incomplete without asking: what does all this optimization cost?
-
-_"The price of improving yourself is loneliness,"_ Leila [posted on X](https://x.com/LeilaHormozi/status/1934265945083498953). It's a theme she returns to constantly. _"You'll lose more friends to your growth than your failures,"_ she wrote on [Threads](https://www.threads.com/@leilahormozi/post/DPjJyBSD9KE/youll-lose-more-friends-to-your-growth-than-your-failures). She published a blog post called ["No New Friends"](https://hormozi.blog/no-new-friends-my-extreme-views-on-friendship/) and has said _"it's okay to shed old friends. Maybe they were meant for one season of your life and not the next."_
+_"The price of improving yourself is loneliness,"_ Leila [posted on X](https://x.com/LeilaHormozi/status/1934265945083498953). _"You'll lose more friends to your growth than your failures,"_ she wrote on [Threads](https://www.threads.com/@leilahormozi/post/DPjJyBSD9KE/youll-lose-more-friends-to-your-growth-than-your-failures). She published a blog post called ["No New Friends"](https://hormozi.blog/no-new-friends-my-extreme-views-on-friendship/) and has said _"it's okay to shed old friends. Maybe they were meant for one season of your life and not the next."_
 
 She has friends — life coach [Brooke Castillo](https://www.thelifecoachschool.com/podcasts/the-life-coach-school-podcast-2/episodes/2148779712) has called Leila "one of my best friends." She says she deliberately surrounds herself with people who are _"more spontaneous and more flexible"_ than she is. But she frames friendship the way she frames everything: through the lens of growth. Friends who match the hustle stick. Friends who don't get audited out.
 
@@ -375,15 +380,15 @@ She had to be her own bridge first.
 
 ## What Leila Hormozi Learned From Burnout and Surgery
 
-In August 2025, Leila and Alex broke the Guinness World Record for the fastest-selling nonfiction book. Alex's _$100M Money Models_ sold 2,917,443 copies on day one (August 17, 2025) — generating roughly $82 million in 24 hours and crossing $106 million over the 3-day launch weekend. They bought a second building. They crossed 100 teammates at Acquisition.com.
+In August 2025, Alex's _$100M Money Models_ set the [Guinness World Record](https://www.guinnessworldrecords.com/world-records/78599-fastest-selling-non-fiction-book) for the fastest-selling nonfiction book, a record held in his name: 2,917,443 copies on day one (August 17, 2025), generating roughly $82 million in 24 hours and crossing $106 million over the 3-day launch weekend. They bought a second building. They crossed 100 teammates at Acquisition.com.
 
-And then, in January 2026, Leila published a blog post called ["What Rising Reveals."](https://leilahormozi.com/p/what-rising-reveals)
+And then, in January 2026, Leila published a blog post called ["What's Rising Reveals."](https://leilahormozi.com/p/what-rising-reveals)
 
 It's the most vulnerable thing she's written.
 
 She called 2025 "personally one of the hardest years I have experienced." She'd become, she said, _"too many of the systems,"_ doing everything herself because it was faster than hiring and documenting properly. Creating fragility for both the business and herself.
 
-The body broke first. She got sick, was put on antibiotics, and the antibiotics caused secondary infections that required multiple surgeries. On her podcast episode ["Rest, Don't Quit"](https://podcasts.apple.com/jm/podcast/rest-dont-quit-ep-283/id1663834553?i=1000712424134) (_Build with Leila Hormozi_, Ep 283), she recorded 17 days post-surgery, having paused content production and pulled out of workshops she'd been running twice a month. Concurrently: multiple lawsuits, multiple executives she had to let go and replace.
+The body had broken first. The post mentions illness and surgery only in passing; she gave the details in June 2025, on her podcast episode ["Rest, Don't Quit"](https://podcasts.apple.com/jm/podcast/rest-dont-quit-ep-283/id1663834553?i=1000712424134) (_Build with Leila Hormozi_, Ep 285). She got sick, was put on antibiotics, developed infections, and needed multiple surgeries. She recorded the episode 17 days post-surgery, having paused content production and pulled out of the workshops she'd been running a couple of times a month. Concurrently: multiple lawsuits, multiple executives she had to let go and replace.
 
 Her key distinction from that episode: _"Quitting is walking away because you don't want to finish. Resting is stepping back so that you can actually finish."_ A Three who needs to rebrand rest before she can take it.
 

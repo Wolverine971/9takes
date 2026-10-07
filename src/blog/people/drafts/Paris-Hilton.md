@@ -53,6 +53,11 @@ citations:
   - 'https://www.parlux.com/paris-hilton-fragrances'
   - 'https://www.prnewswire.com/news-releases/claires-and-paris-hiltons-11-11-media-team-up-to-bring-paris-signature-style-to-claires-consumers-worldwide-302264787.html'
   - 'https://11-11media.com/'
+  - 'https://armchairexpertpod.com/pods/paris-hilton'
+  - 'https://www.npr.org/2023/03/18/1163964122/paris-hilton-book-memoir-interview'
+  - 'https://en.wikipedia.org/wiki/The_Simple_Life'
+  - 'https://www.youtube.com/watch?v=Uqxhro4tXIM'
+  - 'https://19thnews.org/2026/01/paris-hilton-aoc-deepfakes/'
 faqs:
   - question: "What is Paris Hilton's personality type?"
     answer: "Paris Hilton is an Enneagram Type 3 (The Achiever). The pattern shows in the dumb-blonde character she built as a trauma response ('I made a big brand out of pretending to be a dumb blonde. I'm not'), the locked-room promise at 16 to become too successful for anyone to control her again, the $4 billion product empire that promise fueled, and the healthy-Three turn toward Type 6: converting her own story into federal law protecting institutionalized kids."
@@ -102,7 +107,7 @@ For the next twenty years, she kept that promise. She also had nightmares every 
 
 > "I made a big brand out of pretending to be a dumb blonde. I'm not — but I'm just very good at pretending to be one."
 
-That's Paris Hilton on Dax Shepard's podcast in 2024 (<a href="https://youtu.be/en1f3hTIZpk?si=soSYBhyJAwJKgT9x&t=503">Armchair Expert interview</a>), summarizing twenty years of public life in two sentences. The woman the world wrote off as an airhead was performing a character the entire time.
+That's Paris Hilton on Dax Shepard's podcast in 2023 (<a href="https://youtu.be/en1f3hTIZpk?si=soSYBhyJAwJKgT9x&t=503">Armchair Expert interview</a>), summarizing twenty years of public life in two sentences. The woman the world wrote off as an airhead was performing a character the entire time.
 
 The question nobody was asking is: why did she need a character at all?
 
@@ -194,11 +199,11 @@ She was a survivor playing safe.
 
 ## The Sex Tape and What It Actually Cost Her
 
-Any honest analysis of Paris Hilton has to deal with the 2004 sex tape leak. Not because it defines her, but because it shaped the armor she wore for the next two decades (<a href="https://www.youtube.com/watch?v=en1f3hTIZpk">Armchair Expert interview</a>).
+Any honest analysis of Paris Hilton has to deal with the sex tape that leaked in late 2003. Not because it defines her, but because it shaped the armor she wore for the next two decades (<a href="https://www.youtube.com/watch?v=en1f3hTIZpk">Armchair Expert interview</a>).
 
 > "I couldn't even leave my house for months. I was so depressed, so humiliated. The whole world has seen me naked. This was supposed to be a private night between two people who are in love."
 
-The cultural response was brutal. This was 2004, before #MeToo, before anyone was questioning how the media treated young women.
+The cultural response was brutal. This was 2003, before #MeToo, before anyone was questioning how the media treated young women.
 
 > "One night with someone and then the whole world thinks that you're a slut because of it. The conversation is that you're a slut and your sex tape — as opposed to 'someone took this private piece of information and sold it.' That's the problem. And no one's talking about that."
 
@@ -210,7 +215,7 @@ And here's the detail that reframes the entire "sex symbol" image the media buil
 
 The woman packaged as a sex symbol was coping with sexual trauma. The image and the reality were running in opposite directions. **That gap is the Type 3 condition in a single life:** the public persona and the private self diverge until the person inside barely recognizes either one.
 
-Rather than retreating, Paris leaned into the attention. _The Simple Life_ was already running. She reframed the crisis as an opportunity — the Type 3 instinct to convert pain into forward motion. But calling it purely strategic would miss the point. She was already performing to survive. The tape just raised the stakes.
+Rather than retreating, Paris leaned into the attention. _The Simple Life_ premiered weeks later, on December 2, 2003. She reframed the crisis as an opportunity — the Type 3 instinct to convert pain into forward motion. But calling it purely strategic would miss the point. She was already performing to survive. The tape just raised the stakes.
 
 ## The Blueprint Nobody Recognized
 
@@ -226,7 +231,9 @@ She's also named the cost — rejection sensitivity dysphoria, which means any p
 
 Her grandfather saw what she was building before most people did:
 
-> "My grandfather was my business mentor and he was always so proud of me and would always say, 'Paris, you work harder than any CEO I know.' And he said, 'I used to be known as Baron Hilton, founder of Hilton Hotels, and now I'm known as Paris Hilton's grandpa.'"
+> "He was my business mentor and he was always so proud of me and would always say, 'Paris, you work harder than any CEO I know.' ... He's like, 'I used to be known as Barron Hilton... and now I'm known as Paris Hilton's grandpa.'"
+
+Barron ran Hilton Hotels for decades; his father, Conrad, founded it (<a href="https://www.youtube.com/watch?v=Uqxhro4tXIM">Skinny Confidential interview</a>).
 
 But the drive always traced back to the locked room:
 
@@ -242,7 +249,7 @@ In 2020, her documentary _This Is Paris_ broke the character open. She talked pu
 
 > "It's exhausting having to pretend to be this Barbie doll who has no brain all day long, when in the back of my mind I know exactly what's happening."
 
-When Dax Shepard interviewed her in 2024, he named the emotion running beneath every page of her memoir. Not ambition. Not image management. **Shame.** The emotion that powers every Type 3, finally spoken out loud by someone sitting across from her (<a href="https://www.youtube.com/watch?v=en1f3hTIZpk">Armchair Expert interview</a>).
+When Dax Shepard interviewed her in 2023, he named the emotion running beneath every page of her memoir. Not ambition. Not image management. **Shame.** The emotion that powers every Type 3, finally spoken out loud by someone sitting across from her (<a href="https://www.youtube.com/watch?v=en1f3hTIZpk">Armchair Expert interview</a>).
 
 The most loaded scene in the documentary wasn't the abuse revelations. It was when Paris told her mother Kathy the full extent of what had happened at Provo Canyon. Kathy visibly broke down.
 
@@ -256,7 +263,7 @@ This is the piece of the story that makes the rest make sense. A teenager gets t
 
 It took twenty years and a documentary crew for Paris to finally have that conversation with her mother.
 
-Then came the memoir in 2024, which went deeper. Her first press appearance for the book triggered a panic attack:
+Then came the memoir in 2023, which went deeper. Her first press appearance for the book triggered a panic attack:
 
 > "I literally was having a panic attack. I could not breathe. I called my publicist: 'Please cancel this one, this one, this one. I only want to do the fun ones where they ask nice questions.'"
 
@@ -286,11 +293,11 @@ On June 26, 2024, she testified before the House Committee on Ways and Means, te
 
 At the state level, her advocacy organization says it has helped pass bills in eight states, including reforms in Utah and California (<a href="https://11-11mediaimpact.com/">11:11 Media Impact</a>; <a href="https://apnews.com/article/b3fa67c952c686f7dafe3dddf83c114f">AP coverage</a>).
 
-Her current fight has expanded to AI-generated deepfakes:
+Her next fight was AI-generated deepfakes. On January 22, 2026, she stood at the Capitol with Reps. Alexandria Ocasio-Cortez and Laurel Lee to push the DEFIANCE Act, which would let victims sue the people who create and distribute explicit deepfakes. The Senate had passed it unanimously the week before. She said more than 100,000 nonconsensual explicit deepfake images of her have circulated online. Then she renamed the event the tabloids had owned for more than two decades (<a href="https://19thnews.org/2026/01/paris-hilton-aoc-deepfakes/">The 19th</a>):
 
-> "Right now with AI and deepfakes and everything that's happening, the technology is moving so fast and the laws have not caught up with it yet. There are so many explicit videos being made — deepfakes of underage children, of celebrities, of women — and there's nothing to protect anyone."
+> "People called it a scandal. It wasn't. It was abuse. There were no laws at the time to protect me. There weren't even words for what had been done to me."
 
-For someone whose formative public trauma was a private image distributed without consent, the deepfake fight isn't abstract. It's the same violation at scale.
+For someone whose formative public trauma was a private image distributed without consent, the deepfake fight isn't abstract. It's the same violation at scale, and this time she's the one setting the terms.
 
 The locked room promise was _no one will ever control me again._ She kept it for herself first. Now she's keeping it for other people's kids.
 
@@ -308,7 +315,7 @@ Performing love. Performing happiness. Privacy by performance, all the way down.
 
 The fame compounded it. The power imbalance — her being more famous, more wealthy — made partners jealous, controlling, and in some cases abusive. She let them control her because the dynamic felt familiar.
 
-Carter Reum, whom she'd known casually for 15 years, represented something different. She started dating him at the end of 2019 and has described it as the first time she "began a relationship of full disclosure," telling him about her traumas upfront rather than performing happiness.
+Carter Reum, whom she'd known casually for 15 years, represented something different. She started dating him at the end of 2019, married him in November 2021, and has described the relationship as the first time she "began a relationship of full disclosure," telling him about her traumas upfront rather than performing happiness.
 
 > "My heart had such giant walls around it that I was not ready for anyone. I'm so happy that it happened at the perfect time, because I would not have been ready for this type of love."
 

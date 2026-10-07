@@ -270,11 +270,11 @@ For a Type 9 who cherishes harmony and connection, watching his children erase h
 
 ### Finding Love Again with Ines de Ramon
 
-Despite the family turmoil, Brad has found happiness with jewelry designer Ines de Ramon, 35. The couple began dating in late 2022 and have taken things slowly.
+Despite the family turmoil, Brad has found happiness with jewelry designer Ines de Ramon. The couple began dating in late 2022 and have taken things slowly.
 
 When asked if going public was a strategic move, Pitt laughingly told _GQ_: "No, dude, it's not that calculated... No, life just evolves. Relationships evolve." Don't force things. Let them unfold naturally.
 
-As of October 2025, the couple has moved in together. Sources describe them as "madly in love," though Brad reportedly doesn't want to marry again. Why risk another potential conflict? Better to enjoy the peace of the present moment.
+As of October 2025, the couple had moved in together. Sources describe them as "madly in love," though Brad reportedly doesn't want to marry again. Why risk another potential conflict? Better to enjoy the peace of the present moment.
 
 ## Behind the Camera: Producer, Builder, Humanitarian
 

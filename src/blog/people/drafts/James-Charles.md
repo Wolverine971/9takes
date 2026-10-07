@@ -86,7 +86,7 @@ There was just one problem. A former friend later revealed that James had edited
 
 And that's the most important thing to understand about James Charles. He has been constructing versions of himself since before anyone was watching. He got so good at it that even he may not know where the construction ends.
 
-His friends see it too. They told him, according to a PAPER Magazine interview, that "when you truly figure out how to be yourself, that's when you'll be unstoppable." He's 26. He's been performing since he was 11. The question isn't whether the performance is impressive. It is. The question is whether there's someone underneath it.
+His friends see it too. They told him, according to a PAPER Magazine interview, that "when you truly figure out how to be yourself, that's when you'll be unstoppable." He was born in 1999 and has been performing since he was 11. The question isn't whether the performance is impressive. It is. The question is whether there's someone underneath it.
 
 <details>
 <summary class="accordion">TL;DR: Why James Charles is an Enneagram Type 3</summary>

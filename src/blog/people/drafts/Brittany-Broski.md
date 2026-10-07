@@ -403,7 +403,7 @@ Her musical influences (Hozier, Florence and the Machine, Mumford and Sons, The 
 
 In July 2025, Brittany was named to the inaugural TIME100 Creators list in the Entertainers category. Recognition of how she's sustained influence beyond her initial viral moment. The honor placed her alongside creators like Khabane Lame, [Jake Shane](/personality-analysis/jake-shane), and Hannah Berner.
 
-Now 28, Brittany has amassed over 7.6 million followers on TikTok and another 4.6 million across YouTube and Instagram.
+Born in 1997, Brittany has amassed over 7.6 million followers on TikTok and another 4.6 million across YouTube and Instagram.
 
 Season three of Royal Court premiered in Fall 2025 with guests including Noah Cyrus, Brie Larson, Fred Armisen, Finn Wolfhard, Josh Hutcherson, Paul Mescal, Da'Vine Joy Randolph, Jessie Buckley, and Rachel Sennott. Her goal remains establishing Royal Court as an **"absolutely necessary press stop for anyone promoting anything."** A millennial-coded late-night talk show for the YouTube generation.
 

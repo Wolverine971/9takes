@@ -243,7 +243,7 @@ A Seven's worst instinct is to skip over her own body and reach for the next ref
 
 ## The joke Anna Kendrick is finally willing to not tell
 
-Forty years old this year. Tony nominee at twelve. Oscar nominee at twenty-four. Three _Pitch Perfects_, two _A Simple Favors_, a _Trolls_ franchise, a triple-platinum single, a directorial debut with a 91% Rotten Tomatoes score, a memoir that sold well enough to fund the rest of her life, two therapists a week, a public reckoning with an abusive relationship that gave other women the language to name their own, a quiet new relationship with comedian Alex Edelman she has mostly kept off the internet.
+Forty years old in 2025. Tony nominee at twelve. Oscar nominee at twenty-four. Three _Pitch Perfects_, two _A Simple Favors_, a _Trolls_ franchise, a triple-platinum single, a directorial debut with a 91% Rotten Tomatoes score, a memoir that sold well enough to fund the rest of her life, two therapists a week, a public reckoning with an abusive relationship that gave other women the language to name their own, a quiet new relationship with comedian Alex Edelman she has mostly kept off the internet.
 
 Three decades of learning she could outrun almost anything by moving a little faster and being a little funnier.
 

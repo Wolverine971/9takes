@@ -58,9 +58,17 @@ citations:
   - 'https://en.wikipedia.org/wiki/Camelot_(musical)#Kennedy_administration'
   - 'https://en.wikipedia.org/wiki/Pink_Chanel_suit_of_Jacqueline_Bouvier_Kennedy'
   - 'https://en.wikipedia.org/wiki/Penn_Central_Transportation_Co._v._New_York_City'
+  - 'https://us.macmillan.com/books/9781250276216/jackiepublicprivatesecret/'
+  - 'https://en.wikipedia.org/wiki/State_funeral_of_John_F._Kennedy'
+  - 'https://en.wikipedia.org/wiki/Autopsy_of_John_F._Kennedy'
+  - 'https://en.wikipedia.org/wiki/Theodore_H._White'
+  - 'https://www.aarp.org/entertainment/celebrities/carly-simon-on-her-pal-jackie-o-interview-2019/'
+  - 'https://www.anothermag.com/fashion-beauty/8989/reflecting-on-diana-vreelands-cult-book-allure'
+  - 'https://en.wikipedia.org/wiki/Grand_Central_Tower'
+  - 'https://wwd.com/pop-culture/celebrity-news/feature/jackie-kennedy-pink-suit-1237052750/'
 faqs:
   - question: "What is Jackie Kennedy's personality type?"
-    answer: "Jackie Kennedy is an Enneagram Type 4 (The Individualist), specifically a 4w3 sometimes called 'The Aristocrat.' The pattern shows in her explicit 'I have three lives. Public, private, and secret' self-description, her refusal to keep a diary ('I want to live my life, not record it'), the White House restoration she insisted was scholarship not decoration, the Camelot myth she dictated to Theodore H. White within a week of Dallas, and the pink Chanel suit she sealed in a vault until 2103."
+    answer: "Jackie Kennedy is an Enneagram Type 4 (The Individualist), specifically a 4w3 sometimes called 'The Aristocrat.' The pattern shows in her 'I have three lives. Public, private, and secret' self-description (reported by biographer J. Randy Taraborrelli), her refusal to keep a diary ('I want to live my life, not record it'), the White House restoration she insisted was scholarship not decoration, the Camelot myth she dictated to Theodore H. White within a week of Dallas, and the pink Chanel suit she sealed in a vault until 2103."
     anchor: 'what-is-jackie-kennedys-personality-type'
   - question: 'Why did Jackie Kennedy refuse to change out of the bloody pink suit?'
     answer: "After JFK was shot in Dallas on November 22, 1963, Jackie wore the bloodstained pink Chanel-style suit through the swearing-in of Lyndon Johnson and back to Washington. According to witnesses she said, 'I want them to see what they have done to Jack.' For the most curated woman in America to deliberately refuse curation that day was aesthetic control in reverse — the surface as accusation. The suit has never been cleaned and is sealed in a National Archives vault until at least 2103."
@@ -69,7 +77,7 @@ faqs:
     answer: "Five years after Dallas and four months after Bobby Kennedy's assassination, Jackie married Greek shipping magnate Aristotle Onassis in October 1968. Biographers like Barbara Leaming frame it as retreat, not romance — Onassis offered a private island, a 325-foot yacht, and the round-the-clock security her first husband's government had failed to provide. He was a wall, a fortress of distance from a country she no longer trusted to keep her children alive."
     anchor: 'why-jackie-kennedy-married-aristotle-onassis'
   - question: 'What did Jackie Kennedy do after the White House?'
-    answer: "Starting in September 1975, Jackie spent nineteen years as a book editor — first at Viking, then at Doubleday — earning $200 a week at first and eventually around $100,000 a year. She edited Naguib Mahfouz's Cairo Trilogy, Gelsey Kirkland's memoir, Carly Simon's autobiography, and Michael Jackson's bestseller Moonwalk. She also helped lead the 1975–78 fight that saved Grand Central Terminal from a fifty-nine-story tower, winning at the Supreme Court in Penn Central v. New York City."
+    answer: "Starting in September 1975, Jackie spent nineteen years as a book editor — first at Viking, then at Doubleday — earning $200 a week at first and eventually around $100,000 a year. She edited Naguib Mahfouz's Cairo Trilogy, Gelsey Kirkland's memoir, Carly Simon's children's books, and Michael Jackson's bestseller Moonwalk. She also helped lead the 1975–78 fight that saved Grand Central Terminal from a skyscraper planned on top of it, winning at the Supreme Court in Penn Central v. New York City."
     anchor: 'the-secret-life-of-jackie-kennedy-book-editor'
 production_pretext:
   status: draft
@@ -95,24 +103,24 @@ content_quality:
 path: src/blog/people/drafts/Jackie-Kennedy.md
 ---
 
-> "I have three lives. Public, private, and secret." — Jacqueline Kennedy Onassis, to a former lover, one week before her sixtieth birthday
+> "I have three lives. Public, private, and secret." — Jacqueline Kennedy Onassis, to a former lover in 1989, as reported in J. Randy Taraborrelli's _Jackie: Public, Private, Secret_ (2023)
 
 <p class="firstLetter">A week after her husband was shot in her lap, Jacqueline Kennedy summoned a writer to Hyannis Port and handed him a myth.</p>
 
-She had already bathed. She had already buried him. She had already designed the funeral the world had just finished watching. Now she wanted Theodore H. White from <i>Life</i> magazine to come up to the Kennedy compound in the cold of November 29, 1963, and she wanted him to listen carefully, because she was about to dictate — polite, dry-eyed, controlled — exactly how America was supposed to remember the last thousand days. Before the week was over she would have pinned a single word to the Kennedy presidency that sixty years of history have not been able to pry off: Camelot.
+She had already bathed. She had already buried him. She had already designed the funeral the world had just finished watching. Now she wanted Theodore H. White from <i>Life</i> magazine to come up to the Kennedy compound in the cold of November 29, 1963, and she wanted him to listen carefully, because she was about to dictate — polite, dry-eyed, controlled — exactly how America was supposed to remember the last thousand days. Before the week was over she would have pinned a single word to the Kennedy presidency that more than sixty years of history have not been able to pry off: Camelot.
 
-It was a staggering act of composure, and a staggering act of aesthetic control. Jackie turned her husband's murder into a fairy tale within a week. Not because she was avoiding her grief — biographer Barbara Leaming documents that she would carry PTSD for the next thirty-one years of her life. She was doing something else entirely. She was doing the thing she had been doing her entire life: curating the visible surface so ruthlessly that nobody would ever see underneath it.
+It was a staggering act of composure, and a staggering act of aesthetic control. Jackie turned her husband's murder into a fairy tale within a week. Not because she was avoiding her grief — biographer Barbara Leaming argues that she carried PTSD for the rest of her life. She was doing something else entirely. She was doing the thing she had been doing her entire life: curating the visible surface so ruthlessly that nobody would ever see underneath it.
 
 This is the psychological architecture of Jacqueline Lee Bouvier Kennedy Onassis — the most photographed woman in American history, and a woman who went to war to keep her inner life unphotographed. Everything the world saw of Jackie was deliberate. Everything she was, underneath, belonged to her alone.
 
-She described this to exactly one person in her entire life, as far as anyone knows: architect John Warnecke, a former lover, in a conversation about a week before her sixtieth birthday. The quote is at the top of this page. The rest of this piece is about the woman who lived in that third life.
+She put it this way to architect John Warnecke, a former lover, about a week before her sixtieth birthday. Warnecke repeated it to biographer J. Randy Taraborrelli, whose 2023 book takes its title from the line at the top of this page. The rest of this piece is about the woman who lived in that third life.
 
 <details>
 <summary class="accordion">TL;DR: Why Jackie Kennedy is an Enneagram Type 4</summary>
 <div class="panel">
 <ul>
 <li><b>Type:</b> Enneagram 4w3, sometimes called "The Aristocrat" — a Four who channels longing into aesthetic achievement and cultivated image.</li>
-<li><b>Core wound:</b> The adored daughter of an unreliable father. Her parents' divorce when she was ten taught her that the people who love you most can still disappear.</li>
+<li><b>Core wound:</b> The adored daughter of an unreliable father. Her parents' public divorce, final when she was ten, likely taught her that the people who love you most can still disappear.</li>
 <li><b>Signature move:</b> Ruthless control of the visible surface — dresses, rooms, myths, legacies — as a way to defend a private self no one was allowed to reach.</li>
 <li><b>Stress response:</b> Retreat. To the yacht. To the horse. To the book. To the dark glasses. Always to a place where no one could follow.</li>
 <li><b>Great paradox:</b> The most recorded woman of the 20th century kept no journal, gave almost no interviews, and told her press secretary a doctrine on day one that shaped the next thirty years of her public silence.</li>
@@ -148,15 +156,15 @@ Her father, John Vernou Bouvier III — "Black Jack" — was a Wall Street gambl
 
 Her parents separated in 1936, when Jackie was seven. Their divorce — and the newspaper coverage of Black Jack's infidelity that came with it — was finalized in 1940. Jackie was ten. Her mother Janet married Hugh Auchincloss, a wealthy, decent, emotionally remote WASP who could offer Jackie the stable pampered life her father never could.
 
-It was the life Jackie wanted. It was also, according to her own admission later, a life in which she "sometimes felt like an outsider in the WASP social circle of the Auchinclosses," attributing the feeling to being Catholic and being a child of divorce — almost unheard of in that social set at the time.
+It was the life Jackie wanted. It was also, by biographers' accounts, a life in which she sometimes felt like an outsider in the Auchinclosses' WASP social circle, a feeling she put down to being Catholic and a child of divorce, almost unheard of in that social set at the time.
 
-Read that carefully. The daughter of a charming man who couldn't keep his promises. The stepdaughter of a reliable man who couldn't quite reach her. A Catholic child in a Protestant social aquarium. A girl who had learned, before the age of ten, that the person who adored you most could also disappear.
+The daughter of a charming man who couldn't keep his promises. The stepdaughter of a reliable man who couldn't quite reach her. A Catholic child in a Protestant social aquarium. A girl who had seen, before the age of ten, that the person who adored you most could also disappear.
 
-This is how a Four is made.
+Many Fours describe a childhood shaped like this one.
 
 Her cousin John H. Davis, who grew up around her, noticed it immediately. After the divorce she developed, in his words, "a tendency to withdraw frequently into a private world of her own." That world was made of books, ballet, French, horseback riding, and the kind of precocious silence that makes adults lean in. Her Chapin School teacher described young Jacqueline as "a darling child, the prettiest little girl, very clever, very artistic, and full of the devil" — a girl who would misbehave when bored and behave again when warned that her reputation might suffer.
 
-She had already learned the lesson that would shape everything she became: the world outside is unreliable. The world inside is yours.
+She seems to have already learned the lesson that would shape so much of what she became: the world outside is unreliable. The world inside is yours.
 
 ---
 
@@ -164,9 +172,9 @@ She had already learned the lesson that would shape everything she became: the w
 
 By the time Jackie walked into the White House she had quietly built the private education a Four would dream of. Two years at Vassar. A junior year at the Sorbonne, where she fell in love with eighteenth-century French literature. A degree from George Washington University. Fluent French, fluent Spanish, functional Italian. She had won <i>Vogue</i>'s Prix de Paris contest for a college essay and then turned the prize down because her mother decided Paris was not safe for a single young woman.
 
-Her first job was as "The Inquiring Camera Girl" at the <i>Washington Times-Herald</i>, where for about $42 a week she wandered the city with a Speed Graphic asking strangers questions. Do you think men marry for love or money. What do you think of the Rosenberg trial. She once stopped a junior senator named John F. Kennedy. She once stopped Vice President Nixon's six-year-old daughter. The woman who would later treat the press like an invading army spent her early twenties on the other side of the notepad.
+Her first job was as "The Inquiring Camera Girl" at the <i>Washington Times-Herald</i>, where for $25 a week she wandered the city with a Speed Graphic asking strangers questions. Do you think men marry for love or money. What do you think of the Rosenberg trial. She once stopped a junior senator named John F. Kennedy. She once stopped Vice President Nixon's six-year-old daughter. The woman who would later treat the press like an invading army spent her early twenties on the other side of the notepad.
 
-It is the through-line most Jackie profiles forget. The girl who conducted interviews for a daily column is the same woman who later whispered her way through the Blue Room on CBS, and the same woman who charmed Charles de Gaulle and disarmed Nikita Khrushchev at state dinners in their own languages. Her husband, whose French stopped at _bonjour_, told the Paris press corps in 1961: _"I am the man who accompanied Jacqueline Kennedy to Paris, and I have enjoyed it."_ He meant it. She had just delivered the most effective soft-power mission of his first year in office in a language he could not follow.
+The girl who conducted interviews for a daily column is the same woman who later whispered her way through the Blue Room on CBS, and the same woman who charmed Charles de Gaulle in his own language and so disarmed Nikita Khrushchev in Vienna that he asked to shake her hand before her husband's. Her husband, whose French stopped at _bonjour_, told the Paris press corps in 1961: _"I am the man who accompanied Jacqueline Kennedy to Paris, and I have enjoyed it."_ He meant it. She had just delivered the most effective soft-power mission of his first year in office in a language he could not follow.
 
 ---
 
@@ -200,7 +208,7 @@ Listen to how she described the project:
 
 She hated the word _decoration_ because decoration is surface. Restoration is soul. She did not want a beautiful room. She wanted a room that _meant_ something — that carried history, intent, feeling, the fingerprints of the dead.
 
-She tracked down original Monroe-era furniture in government warehouses. She persuaded donors to give back pieces that had been auctioned off decades earlier. She commissioned the first official guidebook. She argued, reportedly at length, with Pierre Salinger about whether the Blue Room should be changed to white. ("The Blue Room will always be the Blue Room," she wrote back.) She brought in the French decorator Stéphane Boudin without telling the American committee — because she cared about the result, not the process.
+She tracked down original Monroe-era furniture in government warehouses. She persuaded donors to give back pieces that had been auctioned off decades earlier. She commissioned the first official guidebook. She brought in the French decorator Stéphane Boudin without telling the American committee — because she cared about the result, not the process.
 
 And she controlled her own image with the same precision. Her letters to designer Oleg Cassini, who dressed her for the White House years, are the single most revealing artifact of her public life. She edited his sketches personally. She specified fabrics. She wrote this, about the dresses he was sending her:
 
@@ -208,7 +216,7 @@ And she controlled her own image with the same precision. Her letters to designe
 
 "No fat little women hopping around in the same dress." That is not just snobbery. That is terror of merging, of being interchangeable, of losing the self inside a crowd of replicas. She would rather not exist than exist as a copy. Cassini, who was a skilled reader of his client, referred to her as "the star in a major film" and designed accordingly — clean lines, chiffon, lace, eye-catching on camera, regal from a distance, untouchable up close.
 
-On Valentine's Day 1962, forty-six million people tuned in to watch her give a televised tour of the restored White House on CBS and NBC. She was thirty-two. She spoke softly. She knew every date and every attribution. The Academy of Television Arts and Sciences gave her an honorary Emmy. It is the only Emmy ever given to a First Lady.
+On Valentine's Day 1962, an estimated fifty-six million Americans tuned in to watch her give a televised tour of the restored White House on CBS and NBC. She was thirty-two. She spoke softly. She knew every date and every attribution. The Academy of Television Arts and Sciences gave her an honorary Emmy. It is the only Emmy ever given to a First Lady.
 
 The thing to notice is that every single piece of that performance — the rooms, the tour, the dress, the voice — was built to _make visible_ a version of herself she could control. The real Jackie was somewhere else.
 
@@ -240,11 +248,11 @@ November 22, 1963. Dallas. 12:30 p.m.
 
 She is in the back seat of a Lincoln Continental in a pink Chanel-style wool bouclé suit with a navy collar, a pink pillbox hat, white gloves. Her husband is next to her. He is forty-six. She is thirty-four. In about sixty seconds, a bullet will enter the back of his head and she will be holding pieces of his skull in her white-gloved hands.
 
-For the next twenty-four hours, she refuses to change her clothes.
+For the rest of that day and deep into the night, she refuses to change her clothes.
 
 On Air Force One, during the swearing-in of Lyndon B. Johnson, she stands in the blood-soaked suit next to the new president. Lady Bird Johnson gently offered to help her change. Jackie refused. She said it, according to the women who were there: _"I want them to see what they have done to Jack."_ In the 2023 docuseries <i>JFK: One Day in America</i>, a journalist present on the plane recalled her saying it slightly differently: _"Let them see what they have done."_
 
-She wore the blood back to Washington. She wore it into the Executive Office Building. She wore it into the night. She removed it the following morning, to bathe.
+She wore the blood back to Washington. She wore it to Bethesda Naval Hospital, where she waited out the autopsy. She wore it into the night. She removed it the following morning, to bathe.
 
 Stop and think about what that act is.
 
@@ -254,25 +262,25 @@ It is the most curated woman in America refusing — for the only time in her pu
 
 She believed, every other day of her public life, that surface was a form of protection. For this one day she decided surface was a form of accusation. The dress had to tell the truth because nothing else ever would. Then she never did it again.
 
-The pink suit has never been cleaned. It sits today in a climate-controlled vault at the National Archives, folded exactly as it came off her body. At her daughter Caroline Kennedy's request, it will not be shown to the public until at least the year 2103. Caroline has extended the embargo once already.
+The pink suit has never been cleaned. It sits today in a climate-controlled vault at the National Archives, folded exactly as it came off her body. Under the deed of gift her daughter Caroline Kennedy signed in 2003, it will not be shown to the public until at least the year 2103.
 
-That detail — the vault, the hundred-year lock — is not incidental. It is the last piece of her mother's image that Jackie Kennedy is still controlling, forty years after her death.
+That detail — the vault, the hundred-year lock — is not incidental. It is the last piece of her mother's image that Jackie Kennedy is still controlling, more than three decades after her death.
 
 ---
 
 ## The Funeral She Designed and the Myth She Chose
 
-Between the Thursday she walked off Air Force One in the bloody suit and the Friday she sat Theodore H. White down in Hyannis Port, Jackie did one more thing. She designed her husband's funeral.
+Between the Friday she walked off Air Force One in the bloody suit and the Friday a week later when she sat Theodore H. White down in Hyannis Port, Jackie did one more thing. She designed her husband's funeral.
 
-She modeled it on Abraham Lincoln's. She sent researchers to the Library of Congress in the middle of the night to pull every detail of how Lincoln's body had been laid in state and moved through Washington in 1865. She ordered a riderless horse with the boots turned backward in the stirrups, the old cavalry symbol of a fallen commander. She put the flag-draped coffin on the same catafalque that had held Lincoln. She insisted the procession from the Capitol to St. Matthew's Cathedral be walked, not driven, so the world could see it. She walked it herself, in a black veil, flanked by Robert and Ted Kennedy. Charles de Gaulle walked behind her. So did Haile Selassie, Prince Philip, and leaders of ninety-two nations. A million mourners lined the streets. Her three-year-old son, John Jr., saluted the passing coffin on what his mother had quietly arranged to be his third birthday.
+She modeled it on Abraham Lincoln's. She sent researchers to the Library of Congress in the middle of the night to pull every detail of how Lincoln's body had been laid in state and moved through Washington in 1865. She ordered a riderless horse with the boots turned backward in the stirrups, the old cavalry symbol of a fallen commander. She put the flag-draped coffin on the same catafalque that had held Lincoln. She insisted the procession from the White House to St. Matthew's Cathedral be walked, not driven, so the world could see it. She walked it herself, in a black veil, flanked by Robert and Ted Kennedy. Charles de Gaulle walked behind her. So did Haile Selassie, Prince Philip, and dignitaries from ninety-two countries. A million mourners lined the streets. Her son, John Jr., saluted the passing coffin on the day he turned three.
 
 She had buried a child in August. She had buried a husband in November. And she had spent both of the days between the assassination and the funeral in what amounted to a production office, choosing pallbearers and ritual and lighting and the angle of the cortege, because she had decided, exactly the way she had decided about the White House two years earlier, that decoration was beneath her and that only the soul of the thing would do. The restoration of 1961 and the funeral of 1963 are the same argument, staged in the same voice, using the same word she kept reaching for: _scholarship_.
 
-Then, seven days after Dallas, she called for Theodore H. White. He was forty-seven, an experienced journalist, a family friend. He drove up to the Kennedy compound through a November rainstorm. She sat him down and talked to him for four hours. She was, in his later account, "obsessed" — her word, she used it about herself — with the notion that her husband be remembered as a hero. A man of magic. She had a single lyric in mind, from the Lerner and Loewe musical _Camelot_, which she said John used to play on their bedroom record player before bed:
+Then, seven days after Dallas, she called for Theodore H. White. He was forty-eight, an experienced journalist, a family friend. He drove up to the Kennedy compound through a November rainstorm. She sat him down and talked to him for four hours. She was, in his later account, "obsessed" — her word, she used it about herself — with the notion that her husband be remembered as a hero. A man of magic. She had a single lyric in mind, from the Lerner and Loewe musical _Camelot_, which she said John used to play on their bedroom record player before bed:
 
 > _"Don't let it be forgot, that once there was a spot, for one brief shining moment that was known as Camelot."_
 
-Historians have since gently pointed out that there is no evidence John F. Kennedy ever described his own presidency as Camelot while he was alive. The Camelot frame was hers. She made it in a single conversation, she made it within a week of his death, and she made it stick for sixty years.
+Historians have since gently pointed out that there is no evidence John F. Kennedy ever described his own presidency as Camelot while he was alive. The Camelot frame was hers. She made it in a single conversation, she made it within a week of his death, and she made it stick for more than sixty years.
 
 White dictated the thousand-word story from the servants' quarters of the compound that night. His editors at _Life_ in New York objected to the Camelot language. It was, they said, overwrought. Jackie objected to their objection. She won. The article, "For President Kennedy: An Epilogue," ran on December 6, 1963. The Kennedy years have been Camelot ever since. Every biographer, every documentary, every elegy runs through her framing.
 
@@ -323,7 +331,7 @@ She stayed in publishing — Viking at first, then Doubleday after a controversy
 
 The books she worked on tell you everything about the third life.
 
-She edited the English translation of Naguib Mahfouz's Cairo Trilogy. She edited Larry Gonick's _The Cartoon History of the Universe_. She edited the ballerina Gelsey Kirkland's memoir of heroin addiction and ballet. She edited Carly Simon's autobiography. She edited Diana Vreeland's memoir of a life spent in fashion. And she edited Michael Jackson's _Moonwalk_ — the first Jackson memoir, which sold half a million copies and hit #1 on the _New York Times_ bestseller list in 1988.
+She edited the English translation of Naguib Mahfouz's Cairo Trilogy. She edited Larry Gonick's _The Cartoon History of the Universe_. She edited the ballerina Gelsey Kirkland's memoir of heroin addiction and ballet. She edited Carly Simon's children's books. She edited _Allure_, Diana Vreeland's 1980 book of fashion photographs. And she edited Michael Jackson's _Moonwalk_ — the first Jackson memoir, which sold half a million copies and hit #1 on the _New York Times_ bestseller list in 1988.
 
 Think about that range. Arab literary fiction. A cartoonist's history of everything. A ballerina's confession of abuse and addiction. A pop star's tightly guarded autobiography. What is the connective tissue?
 
@@ -341,7 +349,7 @@ The woman who once told a designer not to let any fat little women hop around in
 
 ## The Last Private Life
 
-The book-editor years had a parallel track. In 1975, the same year she walked into Viking with a legal pad and a pencil, a developer proposed building a fifty-nine-story tower on top of Grand Central Terminal. The plan would have gutted the Beaux-Arts concourse. Jackie joined the Municipal Art Society's fight to stop it. She wrote to Mayor Abraham Beame: _"Is it not cruel to let our city die by degrees, stripped of all her proud monuments, until there will be nothing left of all her history and beauty to inspire our children?"_ She went to Washington to campaign for the case. When _Penn Central Transportation Co. v. City of New York_ reached the Supreme Court in 1978, the justices ruled 6–3 in favor of preservation. Grand Central survived. It was the 1961 argument on a larger stage: it must be restored, not redecorated; that is a question of scholarship. For a Four, aesthetic preservation is never decoration. It is always an argument against erasure.
+The book-editor years had a parallel track. In January 1975, the same year she walked into Viking with a legal pad and a pencil, a state judge struck down Grand Central Terminal's landmark status, reviving a 1968 plan for a Marcel Breuer skyscraper of more than fifty stories on top of it. One version would have torn down everything but the Main Concourse. Jackie joined the Municipal Art Society's fight to stop it. She wrote to Mayor Abraham Beame: _"Is it not cruel to let our city die by degrees, stripped of all her proud monuments, until there will be nothing left of all her history and beauty to inspire our children?"_ She went to Washington to campaign for the case. When _Penn Central Transportation Co. v. City of New York_ reached the Supreme Court in 1978, the justices ruled 6–3 in favor of preservation. Grand Central survived. It was the 1961 argument on a larger stage: it must be restored, not redecorated; that is a question of scholarship. For a Four, aesthetic preservation is never decoration. It is always an argument against erasure.
 
 Quietly, through all of it, there was Maurice Tempelsman. A Belgian-born diamond merchant whom Jackie had known socially for years, Tempelsman moved into her apartment at 1040 Fifth Avenue sometime in the early 1980s. They never married. He managed her money with an unshowy competence that had eluded both of her husbands, read manuscripts with her, made her laugh. Friends said he was the first man in her life who was not a project. When she was diagnosed with non-Hodgkin lymphoma in early 1994 and the disease moved fast, he was the one who carried her up the stairs at their country house in New Jersey on days she was too weak to climb them. He was in the room on the night of May 19, 1994, when she died. She was sixty-four.
 
@@ -355,20 +363,18 @@ She had left careful instructions about what the world could and could not see a
 
 The pink Chanel suit is sealed until 2103.
 
-Caroline has extended that embargo once already.
-
 <div class="key-stat">
 <span>2103</span>
 <p>The year the pink Chanel suit she wore in Dallas will next be allowed to be seen by the public.</p>
 </div>
 
-Think about what that date means. Nobody alive today — no biographer, no historian, no gawker, no Fourth of July documentarian — will ever see that suit. Caroline won't. Her grandchildren won't. The embargo exists for a reason that has nothing to do with preservation. Those fibers are not decaying faster than other fabric from the 1960s. The lock is symbolic. It is the final sentence of an argument her mother started in 1961 on her first day with Pam Turnure and never finished for the rest of her life.
+Think about what that date means. Almost nobody alive today — no biographer, no historian, no gawker, no Fourth of July documentarian — will ever see that suit. Caroline won't. The embargo exists for a reason that has nothing to do with preservation. Those fibers are not decaying faster than other fabric from the 1960s. The lock is symbolic. It is the final sentence of an argument her mother started in 1961 on her first day with Pam Turnure and never finished for the rest of her life.
 
 _Minimum information. Maximum politeness._
 
-The suit is the last piece of the image Jackie Kennedy is still editing, eighty years after she first realized that the visible surface of a life can be controlled if you are ruthless enough about it, and that the real life — the third life, the secret one — can be protected, even from beyond the grave, if you give the instructions in writing and you give them to the right daughter.
+The suit is the last piece of the image Jackie Kennedy is still editing, more than eighty years after she first realized that the visible surface of a life can be controlled if you are ruthless enough about it, and that the real life — the third life, the secret one — can be protected, even from beyond the grave, if you raise the right daughter.
 
-She is still winning that argument. She will be winning it for eighty more years.
+She is still winning that argument. She will be winning it until at least 2103.
 
 And somewhere in an unmarked vault, the pink wool is still waiting for a public she made sure would never come.
 

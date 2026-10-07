@@ -305,7 +305,7 @@ Both gestures came from the same place: this is mine to set the price on. That i
 
 **The room he can't fortify.** His wife, Judy Kent, paid for drinks on their first date at Harvard Business School. On their fifteenth anniversary, the gift he gave her was a stock certificate worth a third of his net worth. Read that twice. The most romantic gesture this man could think of was a piece of a balance sheet. The 8 expresses love by giving the thing he has made unstealable.
 
-Twenty-six years after his three daughters asked him whether they would be homeless, they are thirty-four, thirty-six, and thirty-eight, and there are seven grandchildren. Asked by Bloomberg's Emily Chang in 2024 for parenting advice in three words, Dimon said: _"Just love them."_ Asked what the job had cost him, he was specific: _"You didn't see me in black tie and red carpets."_ A binary life.
+Twenty-six years after his three daughters asked him whether they would be homeless, in 2024 they were thirty-four, thirty-six, and thirty-eight, and there were seven grandchildren. Asked by Bloomberg's Emily Chang in 2024 for parenting advice in three words, Dimon said: _"Just love them."_ Asked what the job had cost him, he was specific: _"You didn't see me in black tie and red carpets."_ A binary life.
 
 Asked, in the same interview, what running JPMorgan actually felt like at sixty-eight, the man who has spent forty years making himself unfireable said the line that should be the kicker on every reading of him: _"just riding the bronco and hanging on for dear life."_
 

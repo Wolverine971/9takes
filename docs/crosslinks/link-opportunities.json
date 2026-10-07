@@ -13,164 +13,14 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 453,
-		"gateDebt": 1,
+		"candidates": 458,
+		"gateDebt": 0,
 		"topBlog": 40,
 		"peopleBridge": 30,
-		"peopleToPeople": 5,
+		"peopleToPeople": 7,
 		"skipped": 130
 	},
-	"gateDebt": [
-		{
-			"url": "/pop-culture/artificial-movie-real-people",
-			"title": "Is Artificial a True Story? The Real People Behind Guadagnino's OpenAI Movie",
-			"file": "src/blog/pop-culture/artificial-movie-real-people.md",
-			"inCount": 0,
-			"outCount": 10,
-			"needIn": 3,
-			"needOut": 0,
-			"grandfathered": false,
-			"inbound": [
-				{
-					"id": "/pop-culture/tech-titans-ai-wars -> /pop-culture/artificial-movie-real-people",
-					"score": 1.26,
-					"target": {
-						"url": "/pop-culture/artificial-movie-real-people",
-						"title": "Is Artificial a True Story? The Real People Behind Guadagnino's OpenAI Movie",
-						"kind": "blog",
-						"section": "pop-culture",
-						"impressions": 0,
-						"clicks": 0,
-						"position": null,
-						"inbound": 0
-					},
-					"source": {
-						"url": "/pop-culture/tech-titans-ai-wars",
-						"file": "src/blog/pop-culture/tech-titans-ai-wars.md",
-						"section": "pop-culture",
-						"impressions": 983,
-						"outCount": 14
-					},
-					"line": 42,
-					"anchor": "Sam Altman",
-					"phrase": "sam altman",
-					"phraseKind": "title",
-					"mentionScore": 3,
-					"excerpt": "The AI race is mostly led by Type 4 and Type 5 patterns. Sam Altman reads as a Type 4 chasing a defining act of significance. Dario Amodei, Elon Musk, and Mark Zuckerberg read as Type 5s, each trying to understand, contr…"
-				},
-				{
-					"id": "/pop-culture/musk-vs-altman-trial-personality-dynamics -> /pop-culture/artificial-movie-real-people",
-					"score": 1.22,
-					"target": {
-						"url": "/pop-culture/artificial-movie-real-people",
-						"title": "Is Artificial a True Story? The Real People Behind Guadagnino's OpenAI Movie",
-						"kind": "blog",
-						"section": "pop-culture",
-						"impressions": 0,
-						"clicks": 0,
-						"position": null,
-						"inbound": 0
-					},
-					"source": {
-						"url": "/pop-culture/musk-vs-altman-trial-personality-dynamics",
-						"file": "src/blog/pop-culture/musk-vs-altman-trial-personality-dynamics.md",
-						"section": "pop-culture",
-						"impressions": 12,
-						"outCount": 5
-					},
-					"line": 36,
-					"anchor": "Sam Altman",
-					"phrase": "sam altman",
-					"phraseKind": "title",
-					"mentionScore": 4,
-					"excerpt": "OpenAI, Sam Altman, Greg Brockman, and Microsoft won at the trial level on May 18, 2026. A nine-person advisory jury unanimously found that Elon Musk waited too long to bring his claims, and Judge Yvonne Gonzalez Rogers …"
-				},
-				{
-					"id": "/pop-culture/fallen-founders-enneagram-analysis -> /pop-culture/artificial-movie-real-people",
-					"score": 1.05,
-					"target": {
-						"url": "/pop-culture/artificial-movie-real-people",
-						"title": "Is Artificial a True Story? The Real People Behind Guadagnino's OpenAI Movie",
-						"kind": "blog",
-						"section": "pop-culture",
-						"impressions": 0,
-						"clicks": 0,
-						"position": null,
-						"inbound": 0
-					},
-					"source": {
-						"url": "/pop-culture/fallen-founders-enneagram-analysis",
-						"file": "src/blog/pop-culture/fallen-founders-enneagram-analysis.md",
-						"section": "pop-culture",
-						"impressions": 87,
-						"outCount": 23
-					},
-					"line": 137,
-					"anchor": "Sam Altman",
-					"phrase": "sam altman",
-					"phraseKind": "title",
-					"mentionScore": 3,
-					"excerpt": "Sam Altman is a [Type 4](/enneagram-corner/enneagram-type-4) in the same structural position the other founders occupied right before the wheels came off. The full case for the typing is in [Musk vs Altman: A Type 5 and …"
-				},
-				{
-					"id": "/pop-culture/tech-titans-enneagram-analysis -> /pop-culture/artificial-movie-real-people",
-					"score": 0.91,
-					"target": {
-						"url": "/pop-culture/artificial-movie-real-people",
-						"title": "Is Artificial a True Story? The Real People Behind Guadagnino's OpenAI Movie",
-						"kind": "blog",
-						"section": "pop-culture",
-						"impressions": 0,
-						"clicks": 0,
-						"position": null,
-						"inbound": 0
-					},
-					"source": {
-						"url": "/pop-culture/tech-titans-enneagram-analysis",
-						"file": "src/blog/pop-culture/tech-titans-enneagram-analysis.md",
-						"section": "pop-culture",
-						"impressions": 240,
-						"outCount": 32
-					},
-					"line": 89,
-					"anchor": "Sam Altman",
-					"phrase": "sam altman",
-					"phraseKind": "title",
-					"mentionScore": 3,
-					"excerpt": "**Cast**: Sam Altman (Type 4) vs Dario Amodei (Type 5) vs Elon Musk (Type 5)"
-				},
-				{
-					"id": "/pop-culture/tech-titans-leadership-styles -> /pop-culture/artificial-movie-real-people",
-					"score": 0.64,
-					"target": {
-						"url": "/pop-culture/artificial-movie-real-people",
-						"title": "Is Artificial a True Story? The Real People Behind Guadagnino's OpenAI Movie",
-						"kind": "blog",
-						"section": "pop-culture",
-						"impressions": 0,
-						"clicks": 0,
-						"position": null,
-						"inbound": 0
-					},
-					"source": {
-						"url": "/pop-culture/tech-titans-leadership-styles",
-						"file": "src/blog/pop-culture/tech-titans-leadership-styles.md",
-						"section": "pop-culture",
-						"impressions": 484,
-						"outCount": 31
-					},
-					"line": 133,
-					"anchor": "OpenAI",
-					"phrase": "openai",
-					"phraseKind": "title",
-					"mentionScore": 2,
-					"excerpt": "…on pushback on this typing is that Altman looks like a 3: Loopt, the YC presidency, OpenAI, the relentless networking, the ladder-climbing. Watch what he optimizes for, though, and the 4 wiring is the only one that fits."
-				}
-			],
-			"outbound": [],
-			"bridgeHosts": []
-		}
-	],
+	"gateDebt": [],
 	"topBlog": [
 		{
 			"id": "/community/enneagram-community -> /enneagram-corner/astrology-and-the-enneagram",
@@ -325,7 +175,7 @@
 				"file": "src/blog/pop-culture/fallen-founders-enneagram-analysis.md",
 				"section": "pop-culture",
 				"impressions": 87,
-				"outCount": 23
+				"outCount": 24
 			},
 			"line": 85,
 			"anchor": "Travis Kalanick",
@@ -1677,7 +1527,7 @@
 				"file": "src/blog/pop-culture/fallen-founders-enneagram-analysis.md",
 				"section": "pop-culture",
 				"impressions": 87,
-				"outCount": 23
+				"outCount": 24
 			},
 			"line": 89,
 			"anchor": "Steve Jobs",
@@ -1866,7 +1716,7 @@
 				"file": "src/blog/pop-culture/fallen-founders-enneagram-analysis.md",
 				"section": "pop-culture",
 				"impressions": 87,
-				"outCount": 23
+				"outCount": 24
 			},
 			"line": 85,
 			"anchor": "Travis Kalanick",
@@ -2055,7 +1905,7 @@
 				"file": "src/blog/pop-culture/fallen-founders-enneagram-analysis.md",
 				"section": "pop-culture",
 				"impressions": 87,
-				"outCount": 23
+				"outCount": 24
 			},
 			"line": 150,
 			"anchor": "Satya Nadella",
@@ -2066,6 +1916,25 @@
 		}
 	],
 	"peopleToPeople": [
+		{
+			"id": "/personality-analysis/hugh-jackman -> /personality-analysis/kate-hudson",
+			"source": {
+				"url": "/personality-analysis/hugh-jackman",
+				"file": "src/blog/people/drafts/Hugh-Jackman.md",
+				"outCount": 3
+			},
+			"target": {
+				"url": "/personality-analysis/kate-hudson",
+				"name": "Kate Hudson",
+				"inCount": 1,
+				"impressions": 85,
+				"position": 7.4
+			},
+			"line": 222,
+			"anchor": "Kate Hudson",
+			"excerpt": "But the roles that reveal the most about him aren't the Wolverine films. They're the musicals. _The Boy from Oz_ (Tony Award, 2004) — playing openly gay entertainer Peter Allen. _Les Miserables_ (Golden Globe, 2013) — playing a man who redeems himself through sacrifice for a child who isn't his. _The Greatest Showman_ (2017) — playing a man who builds a family out of misfits and gives them a stage. _Song Sung Blue_ (December 2025): playing Mike Sardina, a real Neil Diamond tribute singer who performed with his wife, played by an Oscar-nominated Kate Hudson. Even the family hit _The Sheep Detectives_ (May 2026) casts him as a shepherd so loved that his flock sets out to solve his murder.",
+			"typeClaim": null
+		},
 		{
 			"id": "/personality-analysis/emma-stone -> /personality-analysis/andrew-garfield",
 			"source": {
@@ -2140,6 +2009,25 @@
 			"line": 131,
 			"anchor": "Demis Hassabis",
 			"excerpt": "Years later, Demis Hassabis, co-founder of DeepMind, had exactly one minute with Thiel at the Singularity Summit. He'd spent a year preparing. Instead of pitching his AI company, Hassabis talked about chess. He asked Thiel why the bishop and knight are both worth three points but have such different powers, and why all the creative tension comes from swapping one for the other in certain positions. Thiel said he'd never thought of it that way. Within months, he invested roughly $2.25 million. When Google acquired DeepMind for roughly $600 million, Founders Fund owned over 25%.",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/lex-fridman -> /personality-analysis/khabib-nurmagomedov",
+			"source": {
+				"url": "/personality-analysis/lex-fridman",
+				"file": "src/blog/people/drafts/Lex-Fridman.md",
+				"outCount": 7
+			},
+			"target": {
+				"url": "/personality-analysis/khabib-nurmagomedov",
+				"name": "Khabib Nurmagomedov",
+				"inCount": 2,
+				"impressions": 96,
+				"position": 8.3
+			},
+			"line": 281,
+			"anchor": "Khabib Nurmagomedov",
+			"excerpt": "The cycle plays out in real time. After wading into the Trump-Zelenskyy fallout in February 2025, he regretted it publicly. Then the guest list changed. Since the Modi episode in March 2025, no head of state has appeared on the show. In their place: Telegram's Pavel Durov (October 2025), Nvidia's Jensen Huang (March 2026), historians of Rome and the Vikings, physicists, game designers, and, for episode #500 in August 2026, Khabib Nurmagomedov. The pattern is there in the episode list: fewer heads of state, more builders, scholars, and fighters.",
 			"typeClaim": null
 		},
 		{

@@ -313,7 +313,7 @@ Kyle Forgeard has optimized everything that can be quantified. Brand valuation, 
 
 He has never shown us what he does with an empty afternoon.
 
-The discipline is real. A hundred miles through the desert proved that. The empire is durable. The business model confirms it. But the question the trajectory doesn't answer is whether Kyle, at 31, knows what he wants from a life that isn't performing.
+The discipline is real. A hundred miles through the desert proved that. The empire is durable. The business model confirms it. But the question the trajectory doesn't answer is whether Kyle, in his thirties, knows what he wants from a life that isn't performing.
 
 Jesse found out. He chose Sunday over Full Send, stillness over speed, and called it the happiest stage of his life. Kyle's father cried when his son gave him permission to rest. Drake, in the middle of Kyle's most grueling test, sent a message rooted not in where they were going but where they started.
 

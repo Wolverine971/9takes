@@ -2,7 +2,7 @@
 title: "Kara Swisher: Why Tech's Most Feared Journalist Is an Enneagram Type 8"
 meta_title: 'Why Kara Swisher Makes Silicon Valley Billionaires Squirm'
 persona_title: "Tech's Unapologetic Inquisitor"
-description: "Why does Kara Swisher intimidate Silicon Valley's most powerful men? We decode the Type 8 drive behind the interviews, bluntness, and refusal to defer."
+description: "Why does Kara Swisher make billionaires sweat? Inside her Enneagram Type 8 drive, her 2011 stroke, and her marriages to Megan Smith and Amanda Katz."
 author: 'DJ Wayne'
 date: '2026-03-24'
 loc: 'https://9takes.com/personality-analysis/kara-swisher'
@@ -46,6 +46,10 @@ citations:
   - 'https://en.wikipedia.org/wiki/Kara_Swisher'
   - 'https://www.imdb.com/name/nm2425576/'
   - 'https://www.imdb.com/name/nm2425576/bio/'
+  - 'https://www.huffingtonpost.com/2011/10/19/kara-swisher-stroke_n_1019427.html'
+  - 'https://washingtonian.com/2024/12/23/kara-swisher-just-wants-a-meeting-with-jeff-bezos/'
+  - 'https://variety.com/2026/tv/news/kara-swisher-cnn-documentary-longevity-anti-aging-1236644503/'
+  - 'https://barrettmedia.com/2026/09/23/kara-swisher-asks-cnn-release-her/'
 faqs:
   - question: "What is Kara Swisher's personality type?"
     answer: "Kara Swisher is an Enneagram Type 8 (The Challenger). The pattern shows in the family nickname Tempesta (storm), the interview method built on knowing more than subjects expect and refusing to perform deference, making Mark Zuckerberg sweat through his hoodie on stage in 2010, telling Obama 'Yes, I am' when he'd heard she was obnoxious, and a fear list that ends with 'not being scared enough' — an Eight who knows her own wiring."
@@ -56,12 +60,15 @@ faqs:
   - question: 'What happened between Kara Swisher and Elon Musk?'
     answer: "She initially admired him for thinking big, writing off the juvenile humor as ten percent of who he was. In September 2020, pressed on COVID worker safety, he answered 'Everybody dies' and threatened to end the interview. After he bought Twitter she sent him strategic advice; weeks later he emailed her a single word — 'Asshole' — and she replied, 'If I did something assholish, I'd say so and I didn't, so fuck you.' In Burn Book she calls Zuckerberg the most damaging man in tech and Musk the most disappointing."
     anchor: 'how-kara-swisher-interviews-powerful-men'
+  - question: 'Who is Kara Swisher married to?'
+    answer: "Kara Swisher married editor Amanda Katz on October 3, 2020. They have two children together; Swisher has four in all, including two sons from her first marriage, to technologist Megan Smith (married 1999, divorced 2017). Swisher was born in 1962. Katz's birth date isn't public, so the roughly 20-year age gap people cite is an estimate."
+    anchor: 'kara-swishers-marriages-megan-smith-and-amanda-katz'
   - question: "What happened during Kara Swisher's stroke?"
-    answer: "In 2011, on a 14-hour flight to Hong Kong, a clot traveled through an undetected hole in her heart to her brain. She was 49 with no typical risk factors and recovered completely. Her father died of a cerebral hemorrhage when she was five; she nearly died of a cerebral clot — the same organ, the same mechanism, one generation apart. The fear that stayed was leaving her children the way her father left her."
+    answer: "In October 2011, on a 14-hour flight to Hong Kong, a clot traveled through an undetected hole in her heart to her brain. Most coverage called it a mini-stroke. She was 48 with no typical risk factors and recovered completely. Her father died of a cerebral hemorrhage when she was five; she nearly died of a cerebral clot — the same organ, the same mechanism, one generation apart. The fear that stayed was leaving her children the way her father left her."
     anchor: 'kara-swishers-stroke-and-mortality-shift'
   - question: "What does Kara Swisher mean by 'man-boys'?"
     answer: "It's her term for the tech founders who accumulated world-altering power without the emotional development to wield it: 'What I hate is persistent puerile behavior and lack of care about the pain it causes, qualities too often tinged with odd personal grievance and deep-seated insecurity.' Her 2024 memoir Burn Book reads as a love story turned grief — she believed the world-changing promises, and the book hurts because she was right about the change and wrong about its shape."
-    anchor: 'kara-swishers-love-life-and-her-problem-with-man-boys'
+    anchor: 'kara-swishers-burn-book-and-her-problem-with-man-boys'
 twitter: '@karaswisher'
 instagram: '@karaswisher'
 tiktok: ''
@@ -157,7 +164,7 @@ It has been an issue for every powerful person she has ever interviewed.
 
 ## Why Kara Swisher Seems So Confrontational
 
-Swisher joined The Wall Street Journal in 1997 and began covering the internet. She co-founded AllThingsD with Walt Mossberg, then launched Recode, co-hosted _Pivot_ with [Scott Galloway](/personality-analysis/scott-galloway), then launched the podcast _On with Kara Swisher_. Each move was away from institutional control and toward platforms she owned outright. But the career arc is less interesting than the method.
+Swisher joined The Wall Street Journal in 1997 and began covering the internet. She co-founded AllThingsD with Walt Mossberg, then launched Recode, co-hosted _Pivot_ with [Scott Galloway](/personality-analysis/scott-galloway), then launched the podcast _On with Kara Swisher_. Each move bought her more independence, if not outright ownership: she sold Recode to Vox Media in 2015 and later wrote for The New York Times and signed with CNN. But the career arc is less interesting than the method.
 
 She doesn't prepare questions for interviews. She thinks having a list makes her miss things. Instead, she interviews everyone _around_ her subject first, colleagues, rivals, friends, enemies, so by the time she sits down with the person, she already knows more about them than they expect anyone to know. Marc Andreessen, describing the AllThingsD era to _New York Magazine_: "She would sit on instant messenger all day and harass the shit out of people."
 
@@ -181,7 +188,7 @@ The bosses who worked best for her were forthright and clear. "People who are se
 
 The most famous moment of Swisher's career might be the sweat.
 
-In 2010, at the All Things Digital conference, Mark Zuckerberg sat down across from Swisher for an onstage interview. She had been, in her words, "very hard on him around issues of privacy." What followed became internet legend. Zuckerberg began sweating visibly. Then profusely. Then he took off his hoodie on stage, something the famously hoodie-clad CEO had never done in public. Clips circulated for years.
+In 2010, at the All Things Digital conference, Mark Zuckerberg sat down across from Swisher for an onstage interview. She had been, in her words, "very hard on him around issues of privacy." What followed became internet legend. Zuckerberg began sweating visibly. Then profusely. Then he took off his hoodie on stage, something the famously hoodie-clad CEO had never done in public.
 
 "He really lost it a little bit," Swisher recalled. "I felt bad for him."
 
@@ -203,19 +210,25 @@ Damaging is a policy assessment. Disappointing is personal. That ten percent of 
 
 ---
 
-## Kara Swisher's Stroke and Mortality Shift
+## Kara Swisher's Marriages: Megan Smith and Amanda Katz
 
-Swisher married engineer and technologist Megan Smith in 1999. They had two sons together before separating in 2014 and divorcing in 2017. Smith went on to serve as the Chief Technology Officer of the United States under Obama, a fact that critics occasionally deploy to question Swisher's independence from the industry she covers.
+Kara Swisher married Amanda Katz on October 3, 2020. They have two children together, and Swisher has four children in all. Swisher was born in 1962. Katz's birth date isn't public, so the "about 20 years" age gap people cite is an estimate, not a documented fact. Katz is an editor who worked in The Washington Post's opinion section until late 2024.
 
-In 2020, she married Amanda Katz, a senior editor at CNN Investigates. They have a daughter together, born in 2019.
+Her first marriage was to engineer and technologist Megan Smith, in 1999. They had two sons together before separating in 2014 and divorcing in 2017. Smith went on to serve as the Chief Technology Officer of the United States under Obama, a fact that critics occasionally deploy to question Swisher's independence from the industry she covers.
 
 The family life is the part Swisher guards most carefully. "Though everyone thinks she's a super ambitious person, which she is and doesn't hide from it, she's also someone who's really very much, much more oriented towards her family than people realize."
 
-In 2011, on a 14-hour flight to Hong Kong for the AllThingsD Asia conference, Swisher suffered a stroke. A small hole in her heart that no one knew about allowed a clot to travel to her brain. She was 49, healthy, with none of the typical risk factors.
+---
+
+## Kara Swisher's Stroke and Mortality Shift
+
+In October 2011, on a 14-hour flight to Hong Kong for the AllThingsD Asia conference, Swisher suffered a stroke; most coverage at the time called it a mini-stroke. A small hole in her heart that no one knew about allowed a clot to travel to her brain. She was 48, healthy, with none of the typical risk factors.
 
 She recovered completely. But in a WNYC segment called "10 Things That Scare Me," she listed harm to her children, dying young, and — most revealingly — "difficulty forming attachments." She acknowledged that the fear of loss has shaped her capacity for closeness. But the fear that stayed was the stroke's echo. Not the medical event itself. The moment she realized she might leave her children the way her father left her.
 
 Her father died of a cerebral hemorrhage. She nearly died of a cerebral clot. The same organ, the same mechanism, one generation apart. She has never, in any interview I've found, drawn this connection explicitly. But it's the kind of rhyme that a person who learned at five that "life can change on a dime" would feel in her body before she could name it.
+
+Fifteen years later she made the subject television. _Kara Swisher Wants to Live Forever_, her CNN series on the longevity business, premiered in April 2026.
 
 "Wasting time" is another fear she listed. She dislikes being told to slow down and rest.
 
@@ -223,7 +236,7 @@ That's an Eight talking. Rest requires lowering defenses. Stillness means you're
 
 ---
 
-## Kara Swisher's Love Life and Her Problem With Man-Boys
+## Kara Swisher's Burn Book and Her Problem With Man-Boys
 
 _Burn Book: A Tech Love Story_ was published in February 2024, more than two decades after Swisher first began covering the internet. The subtitle is deliberate. It is, genuinely, a love story about technology, about the people who build it, about the future they promised and the present they delivered.
 
@@ -239,7 +252,7 @@ The line could describe anyone. But coming from Swisher, it carries a specific c
 
 And then there's the line that should be on a plaque somewhere: "Data is people." She said it the way someone says _Soylent Green is people_, same cadence, same horror, same point. The companies "collect all the money and have none of the responsibility."
 
-"We're going to change the world. We're going to make the world a better place. We're going to flatten organizations. We're going to bring education to everybody," she said on NPR, summarizing what tech leaders had promised. They talked like change-makers "in ways you never hear from Wall Street or pharmaceutical executives."
+"We're going to change the world. We're going to make the world a better place. We're going to flatten organizations. We're going to bring education to everybody," she said on NPR, summarizing what tech leaders had promised.
 
 She believed them. That's the part that makes the book hurt.
 
@@ -254,8 +267,6 @@ She was right. She just didn't expect the change to look like this.
 The tech industry's accountability gap, the distance between what Silicon Valley promised and what it delivered, is one of the defining stories of the 21st century. So why was the person who closed that gap most forcefully _this_ particular woman with _this_ particular psychology?
 
 An Eight's relationship to [power and truth](/enneagram-corner/relationship-communication-guide) is visceral, not intellectual. Swisher doesn't analyze lies from a distance; she feels them as a physical affront. "Just telling the truth is always better." "It's better if you're true to what you're like instead of pretending, 'cause I think it makes you sick."
-
-She said that about being closeted. But she meant it as a universal law.
 
 Her anger at the industry isn't random. It's directional. "We had, in essence, privatized our public discourse and were now allowing billionaires" to control it. What drives her journalism is what drives all [healthy Eights](/enneagram-corner/enneagram-type-8): the instinct to channel power into protection, shielding others from the self-serving narratives of people who hold more of it.
 
@@ -276,6 +287,8 @@ The key word is _intelligent_. She doesn't tolerate the performance of disagreem
 There's a moment in the WNYC "10 Things That Scare Me" segment that doesn't get quoted as often as the ones about her father or her stroke. She talks about a confrontation with a large raccoon. She faced it down instead of retreating, and then realized her tendency to charge at threats reflects "insufficient caution." Her tenth fear: _not being scared enough_.
 
 This is the crack in the armor most people miss. Eights know their own wiring. They know the confrontation instinct can be a liability as easily as a superpower. Swisher knows she doesn't flinch when she should. She knows the word Tempesta is both compliment and diagnosis.
+
+She still charges. In September 2026, as Paramount Skydance moved to acquire CNN's parent company, she asked CNN to release her from a contract that ends December 31 rather than work for Larry and David Ellison. "I just can't," she said on _Pivot_. "I don't want to work for them."
 
 She had children to break a cycle she could see clearly: the difficulty forming attachments, the independence that calcifies into isolation, the momentum that substitutes for stillness. She named the pattern and moved against it. That's what [healthy Eights](/enneagram-corner/how-type-8-challengers-actually-succeed) do. They don't eliminate the armor. They choose when to lower it.
 

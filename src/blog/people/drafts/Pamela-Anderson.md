@@ -169,7 +169,7 @@ Pamela Anderson is the rare Seven whose entire public life has been pain that ot
 >
 > — Pamela Anderson, _Variety_, 2023
 
-That is one of the cleanest articulations of Type 7 freedom you will find. The Seven's deepest fear is being defined by their pain. The Seven's growth is the slow discovery that staying with the pain — not running into it, not running from it — is what finally lets it pass through. She is now, at fifty-eight, doing both at once. Still mobile. Still falling in love with new things. And, finally, sitting still long enough in a garden to notice what is growing.
+That is one of the cleanest articulations of Type 7 freedom you will find. The Seven's deepest fear is being defined by their pain. The Seven's growth is the slow discovery that staying with the pain — not running into it, not running from it — is what finally lets it pass through. She is now, in her late fifties, doing both at once. Still mobile. Still falling in love with new things. And, finally, sitting still long enough in a garden to notice what is growing.
 
 The 6 wing is what keeps the wandering anchored. Sevens with a strong 6 wing are the ones whose escapism gets routed through loyalty — they fall hard, commit publicly, fight for the underdog, defend the people the room is targeting. Pamela has been an honorary director of PETA for over thirty years — wrote Vladimir Putin a letter in 2014 urging Russia to ban Canadian seal-product imports (Russia did, killing roughly 95% of the market), wrote [Justin Trudeau](/personality-analysis/justin-trudeau) in 2016 asking him to cut federal subsidies for the same hunt, and [brought a vegan sandwich to Julian Assange](https://time.com/4532939/pamela-anderson-julian-assage-vegan-lunch/) at the Ecuadorian embassy in London in October 2016 and kept visiting for years. She raised her sons through a public marriage and an ugly divorce. She protected Tommy Lee in print long after the relationship ended. That is not a contradiction with the Type 7 wandering. It is the structure underneath it.
 
@@ -380,7 +380,7 @@ That is a Seven who has finally figured out why she keeps falling. It is not the
 
 What looks, from the outside, like a woman who could not commit was a woman whose attention never stopped being all the way on. She is currently paying attention to her garden.
 
-She is fifty-eight. Her sons are grown. The Hulu show is forgotten. _The Last Showgirl_ is on awards lists. The makeup artist she loved is gone. The bodyguard she married has gone home. The next love, the next role, the next garden are all somewhere ahead of her, and she will walk into them.
+She is in her late fifties. Her sons are grown. The Hulu show is forgotten. _The Last Showgirl_ is on awards lists. The makeup artist she loved is gone. The bodyguard she married has gone home. The next love, the next role, the next garden are all somewhere ahead of her, and she will walk into them.
 
 But for now, in the middle of a Vancouver Island spring, she has stopped sprinting. In her gardening show _Pamela's Garden of Eden_, she reads poetry aloud to her flowers. She believes they listen.
 

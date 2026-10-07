@@ -209,7 +209,7 @@ For <a href="/enneagram-corner/enneagram-type-7">Type 7s</a>, physical intensity
 
 ### The Sobriety Paradox
 
-The candy answer isn't a joke, though it reads like one. It's a kid at 23 who has watched himself run all-in on every small pleasure he gets near and drawn the obvious conclusion: if he started drinking, he wouldn't just drink. If he tried a drug, he wouldn't just try it. So he drew a hard line before he had a reason to.
+The candy answer isn't a joke, though it reads like one. It's a kid in his early twenties who has watched himself run all-in on every small pleasure he gets near and drawn the obvious conclusion: if he started drinking, he wouldn't just drink. If he tried a drug, he wouldn't just try it. So he drew a hard line before he had a reason to.
 
 The discipline this takes inside a touring pop bubble is the part worth noticing. Most people with that level of intensity find out about their addictive tendencies the hard way, usually around year three of success. Boone mapped himself preemptively and refuses to negotiate the line. Not because a church told him to. Because he knows what he'd do.
 
@@ -261,7 +261,7 @@ Which is where the Type 7 question comes in. There's a version of turning pain i
 
 ## Benson Boone's Legacy and Current Work
 
-At 23, Boone occupies a fascinating cultural position. His _American Heart_ album draws on Bruce Springsteen and Americana, suggesting he's searching for a more grounded artistic identity. His first all-arena world tour proves his commercial power is real.
+In his early twenties, Boone occupies a fascinating cultural position. His _American Heart_ album draws on Bruce Springsteen and Americana, suggesting he's searching for a more grounded artistic identity. His first all-arena world tour proves his commercial power is real.
 
 He lives in a sharp-angled luxury fortress overlooking Utah Lake, about 30 minutes south of Salt Lake City. He owns a pink and orange ice cream truck called "Moonbeam Ice Cream and Popsicles." When asked about his plans for it, he said: "drive it around." Crumbl created a limited-edition moonbeam ice cream cookie to coincide with his album drop.
 

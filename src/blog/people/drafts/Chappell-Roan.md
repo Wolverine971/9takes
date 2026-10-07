@@ -313,7 +313,7 @@ Chappell describes exactly this. She stayed in a four-year relationship with a m
 
 Then there's the other side, the challenger in love. She always makes the first move. When she saw her ex hitting on a girl at a club, she walked up, told the girl "I think you're so pretty," and stole her. They ended the night making out while the ex stood there watching. "I weaponized gay," she admitted.
 
-As of March 2025, she's in a serious relationship. Six months in, met through a friend before fame exploded, and "very in love." She found someone outside the industry entirely, someone where the playing field feels level.
+In March 2025, she was in a serious relationship. Six months in, met through a friend before fame exploded, and "very in love." She found someone outside the industry entirely, someone where the playing field feels level.
 
 "Any new person that I am texting, I'm assuming they will screenshot this and send it to someone else." The trust deficit is real.
 

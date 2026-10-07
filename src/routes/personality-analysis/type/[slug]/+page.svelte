@@ -283,26 +283,34 @@
 
 	let corpusInsight = $derived(data.corpusInsight);
 
+	// Two different facts, two different questions: the most over-represented
+	// domain (relative to the corpus baseline) is not the most common one.
 	let corpusFaqs = $derived(
 		corpusInsight
 			? [
-					{
-						'@type': 'Question',
-						name: `In which domain is Enneagram Type ${data.slug} (${typeInfo.name}) most over-represented on 9takes?`,
-						acceptedAnswer: {
-							'@type': 'Answer',
-							text:
-								corpusInsight.variant === 'domain-overrep'
-									? `${corpusInsight.claim} See the full breakdown at https://9takes.com${corpusInsight.corpusAnchorUrl}.`
-									: `${corpusInsight.claim} Full corpus stats: https://9takes.com${corpusInsight.corpusAnchorUrl}.`
-						}
-					},
+					corpusInsight.variant === 'domain-overrep'
+						? {
+								'@type': 'Question',
+								name: `In which domain is Enneagram Type ${data.slug} (${typeInfo.name}) most over-represented on 9takes?`,
+								acceptedAnswer: {
+									'@type': 'Answer',
+									text: `${corpusInsight.claim}${corpusInsight.mostCommonDomainText ? ` By raw count, the most common domain for Type ${data.slug}s on 9takes is ${corpusInsight.mostCommonDomainText}.` : ''} See the full breakdown at https://9takes.com${corpusInsight.corpusAnchorUrl}.`
+								}
+							}
+						: {
+								'@type': 'Question',
+								name: `Which domain has the most Enneagram Type ${data.slug} (${typeInfo.name}) profiles on 9takes?`,
+								acceptedAnswer: {
+									'@type': 'Answer',
+									text: `${corpusInsight.claim} Full corpus stats: https://9takes.com${corpusInsight.corpusAnchorUrl}.`
+								}
+							},
 					{
 						'@type': 'Question',
 						name: `How rare is Enneagram Type ${data.slug} (${typeInfo.name}) in the 9takes corpus?`,
 						acceptedAnswer: {
 							'@type': 'Answer',
-							text: `9takes profiles ${peopleCount} Type ${data.slug} (${typeInfo.name}) personalities out of ${corpusInsight.corpusPublished} published profiles. The dominant lane for this type is ${corpusInsight.domainLabel}. Browse the full Type ${data.slug} gallery at https://9takes.com/personality-analysis/type/${data.slug}.`
+							text: `Type ${data.slug} is ${corpusInsight.typeSharePct} of the 9takes corpus: ${corpusInsight.typeCount} of ${corpusInsight.corpusPublished} published profiles, ${corpusInsight.typeRankPhrase}.${corpusInsight.mostCommonDomainText ? ` Its most common domain is ${corpusInsight.mostCommonDomainText}.` : ''} These shares reflect which public figures 9takes has profiled and how its editors typed them, not how common Type ${data.slug} is in the general population. Browse the full Type ${data.slug} gallery at https://9takes.com/personality-analysis/type/${data.slug}.`
 						}
 					}
 				]
@@ -414,11 +422,11 @@
 		{#if corpusInsight}
 			<CorpusStatCallout
 				claim={corpusInsight.claim}
-				eyebrow={`9takes Corpus Stat: Type ${data.slug}`}
+				eyebrow={`9takes Corpus Stat: ${corpusInsight.sampleLabel}`}
 				domainLabel={corpusInsight.domainLabel}
 				domainUrl={corpusInsight.domainUrl}
 				corpusAnchorUrl={corpusInsight.corpusAnchorUrl}
-				domainTotal={corpusInsight.domainTotal}
+				domainTotal={corpusInsight.sampleSize}
 				sharePct={corpusInsight.sharePct}
 				deltaPpFormatted={corpusInsight.deltaPpFormatted}
 				generatedAt={corpusInsight.generatedAt}
@@ -486,25 +494,27 @@
 			</ul>
 		</nav>
 
-		<footer>
-			<p class="more-info">More analyses of Enneagram Type {data.slug} coming soon.</p>
-			{#if corpusInsight}
-				<p class="corpus-links">
-					Want the raw numbers? See the
-					<a href="/corpus-stats#enneagram-distribution"
-						>full type distribution across {corpusInsight.corpusPublished} profiles</a
-					>
-					or the
-					<a href="/corpus-stats#per-type-domains">per-type domain breakdown for Type {data.slug}</a
-					>.
-				</p>
-			{/if}
-			{#if !data?.user}
-				<div class="email-signup">
-					<EmailSignup />
-				</div>
-			{/if}
-		</footer>
+		{#if corpusInsight || !data?.user}
+			<footer>
+				{#if corpusInsight}
+					<p class="corpus-links">
+						Want the raw numbers? See the
+						<a href="/corpus-stats#enneagram-distribution"
+							>full type distribution across {corpusInsight.corpusPublished} profiles</a
+						>
+						or the
+						<a href="/corpus-stats#per-type-domains"
+							>per-type domain breakdown for Type {data.slug}</a
+						>.
+					</p>
+				{/if}
+				{#if !data?.user}
+					<div class="email-signup">
+						<EmailSignup />
+					</div>
+				{/if}
+			</footer>
+		{/if}
 	</article>
 </div>
 
@@ -882,14 +892,6 @@
 		}
 	}
 
-	.more-info {
-		font-style: italic;
-		margin-bottom: 1.5rem;
-		color: var(--ink-mid);
-		font-size: 0.9375rem;
-		position: relative;
-	}
-
 	.corpus-links {
 		margin: 0 auto 1.5rem;
 		max-width: 640px;
@@ -1004,10 +1006,6 @@
 		footer {
 			padding: 1.5rem 1.25rem;
 			margin-top: 2rem;
-		}
-
-		.more-info {
-			font-size: 0.8125rem;
 		}
 	}
 </style>

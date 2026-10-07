@@ -314,7 +314,7 @@ Bradley Cooper, decades younger, once described the shift from worshipping De Ni
 
 Most stars are a wall you bounce off. Robert De Niro is a door. He will not introduce you to himself. But if you are quiet enough, and patient enough, he will let you pass through into the next room.
 
-He is 82 now. He has a two-year-old daughter. A grandson in the ground. A father's studio he still pays the rent on. Ten Scorsese films, and fifty years of silence between the takes.
+In 2025 he was 82, with a two-year-old daughter. A grandson in the ground. A father's studio he still pays the rent on. Ten Scorsese films, and fifty years of silence between the takes.
 
 On the first day of shooting _The Irishman_, he walked to his mark. He stood there, looking at nothing, for what the crew remembered as a long time. And then he wasn't there anymore.
 

@@ -1,27 +1,15 @@
 # Link Opportunities
 
 _Generated: 2026-10-06 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
-_Search data: GSC 2026-07-04 → 2026-10-02. 329 candidate links found (+124 weaker ones offered only for gate debt); 130 suppressed in `docs/crosslinks/skipped.json`._
+_Search data: GSC 2026-07-04 → 2026-10-02. 334 candidate links found (+124 weaker ones offered only for gate debt); 130 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
 Score = target's search demand × link deficit × mention strength × source visibility (cross-section links get a bonus).
 Line numbers are file lines at generation time; match on the sentence if the file has changed.
 
-## 1. Gate debt (1 posts below 3 in / 3 out)
+## 1. Gate debt (0 posts below 3 in / 3 out)
 
-Sorted by impressions. 1 of these are NOT grandfathered and fail `pnpm crosslinks:check`.
-
-### `/pop-culture/artificial-movie-real-people` — in 0, out 10 — **failing gate**
-
-Needs 3 more inbound link(s).
-
-| Score | Source (line) | Target | Anchor | Sentence |
-|---|---|---|---|---|
-| 1.26 | `/pop-culture/tech-titans-ai-wars` (L42) | `/pop-culture/artificial-movie-real-people` | "Sam Altman" | The AI race is mostly led by Type 4 and Type 5 patterns. Sam Altman reads as a Type 4 chasing a defining act of significance. Dario Amodei,… |
-| 1.22 | `/pop-culture/musk-vs-altman-trial-personality-dynamics` (L36) | `/pop-culture/artificial-movie-real-people` | "Sam Altman" | OpenAI, Sam Altman, Greg Brockman, and Microsoft won at the trial level on May 18, 2026. A nine-person advisory jury unanimously found that… |
-| 1.05 | `/pop-culture/fallen-founders-enneagram-analysis` (L137) | `/pop-culture/artificial-movie-real-people` | "Sam Altman" | Sam Altman is a [Type 4](/enneagram-corner/enneagram-type-4) in the same structural position the other founders occupied right before the w… |
-| 0.91 | `/pop-culture/tech-titans-enneagram-analysis` (L89) | `/pop-culture/artificial-movie-real-people` | "Sam Altman" | **Cast**: Sam Altman (Type 4) vs Dario Amodei (Type 5) vs Elon Musk (Type 5) |
-| 0.64 | `/pop-culture/tech-titans-leadership-styles` (L133) | `/pop-culture/artificial-movie-real-people` | "OpenAI" | …on pushback on this typing is that Altman looks like a 3: Loopt, the YC presidency, OpenAI, the relentless networking, the ladder-climbing… |
+Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslinks:check`.
 
 ## 2. Highest-value blog links
 
@@ -108,12 +96,14 @@ Needs 3 more inbound link(s).
 A people page names another person who needs links (2 or fewer contextual links in) without linking them.
 Sources with 10+ internal links are skipped; at most 2 per source, and targets fill to 3.
 These pages live in the database: edit the draft, then sync (see `/crosslink-queue` step 4b).
-7 unlinked mentions found; top 5 after caps.
+10 unlinked mentions found; top 7 after caps.
 
 | Target (in, impressions) | Source (line) | Anchor | Sentence |
 |---|---|---|---|
+| `/personality-analysis/kate-hudson` (1, 85) | `src/blog/people/drafts/Hugh-Jackman.md` (L222) | "Kate Hudson" | But the roles that reveal the most about him aren't the Wolverine films. They're the musicals. _The Boy from Oz_ (Tony Award, 2004) — playi… |
 | `/personality-analysis/andrew-garfield` (1, 0) | `src/blog/people/drafts/Emma-Stone.md` (L136) | "Andrew Garfield" | Around the same time, she fell in love with Andrew Garfield. They met in 2010 when he screen-tested opposite her for _The Amazing Spider-Ma… |
 | `/personality-analysis/andrew-garfield` (1, 0) | `src/blog/people/drafts/Tom-Holland.md` (L211) | "Andrew Garfield" | Holland's specific flavor is 7w6, the Entertainer wing. The 6 wing adds a layer of loyalty, anxiety about security, and a deep need to belo… |
 | `/personality-analysis/jamie-dimon` (2, 222) | `src/blog/people/drafts/Adam-Neumann.md` (L255) | "Jamie Dimon" | Behind the scenes, the establishment had reached its own verdict. Jamie Dimon — Neumann's personal banker, whose JPMorgan was the lead unde… |
 | `/personality-analysis/demis-hassabis` (2, 182) | `src/blog/people/drafts/Peter-Thiel.md` (L131) | "Demis Hassabis" | Years later, Demis Hassabis, co-founder of DeepMind, had exactly one minute with Thiel at the Singularity Summit. He'd spent a year prepari… |
+| `/personality-analysis/khabib-nurmagomedov` (2, 96) | `src/blog/people/drafts/Lex-Fridman.md` (L281) | "Khabib Nurmagomedov" | The cycle plays out in real time. After wading into the Trump-Zelenskyy fallout in February 2025, he regretted it publicly. Then the guest … |
 | `/personality-analysis/emma-stone` (2, 0) | `src/blog/people/drafts/Jimmy-Fallon.md` (L195) | "Emma Stone" | Lip Sync Battle, Box of Lies, Wheel of Musical Impressions, Egg Russian Roulette. The genius was never the games themselves. It was that he… |

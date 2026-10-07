@@ -208,7 +208,7 @@ Years later she named what Minchin had actually given her. "He was the first per
 
 The wound under all of this, if you want to call it one, isn't abandonment but _under-resourcing_. The quiet realization that if her life was going to shape itself around acting, she was the only one with the blueprints.
 
-Love without logistics. That is the kind of childhood that produces a thirteen-year-old who calls the agent herself. It is also the kind that produces a twenty-two-year-old who keeps checking whether she is still allowed to be in the room.
+Love without logistics. That is the kind of childhood that produces a thirteen-year-old who calls the agent herself. It is also the kind that produces a young woman who keeps checking whether she is still allowed to be in the room.
 
 Then she got what she wanted.
 

@@ -185,7 +185,7 @@ A Four can be jealous of horses standing in a flood. That's not a metaphor he re
 
 ## Noah Kahan's childhood: therapy at eight, the family fault line
 
-Noah Kahan went to therapy for the first time at age eight. He was prescribed his first anxiety medication around thirteen. His OCD diagnosis came at twenty-eight. He was, by his own count, in some form of treatment for two decades before anyone gave him the right name for what was happening.
+Noah Kahan went to therapy for the first time at age eight. He was prescribed his first anxiety medication around thirteen. His OCD diagnosis came in 2025, at twenty-eight. He was, by his own count, in some form of treatment for two decades before anyone gave him the right name for what was happening.
 
 His mother, Lauri Berkenkamp, is a writer who published parenting guides for a living. His father, Josh Kahan, taught him to play guitar. The pairing is almost too on-the-nose: the kid raised by the woman who professionally explained how to raise kids, and the man who handed him the instrument he would later use to mythologize the family.
 

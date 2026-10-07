@@ -156,7 +156,7 @@ The third signature is the contradiction she sees in herself but cannot resolve:
 
 The reason explicit Enneagram framing fits her so quickly and then disappears for the rest of this piece is that the rest of her life is the system she built around the fear. The typing is not the interesting thing. The interesting thing is the architecture.
 
-A skeptical reader will push back here: every actress claims to be anxious. Method actors talk about fear the way athletes talk about pain — it is part of the brand. Fair. The differentiator is not the worry, which is common, but what Cruz did with it. Most anxious performers either burn out by their mid-thirties, get sober, find a therapist, and quietly graduate to the actresses who do not talk about fear anymore. Cruz, at fifty-one, is still openly worrying, still openly leaning on a director two meters off-camera, still organizing her marriage around a two-week separation rule. She did not graduate out of the fear. She built the architecture that lets her keep working inside it. That is what the Enneagram lens makes visible — not "she is anxious" but "she has constructed a thirty-year system to keep being anxious productively."
+A skeptical reader will push back here: every actress claims to be anxious. Method actors talk about fear the way athletes talk about pain — it is part of the brand. Fair. The differentiator is not the worry, which is common, but what Cruz did with it. Most anxious performers either burn out by their mid-thirties, get sober, find a therapist, and quietly graduate to the actresses who do not talk about fear anymore. Cruz, in her fifties, is still openly worrying, still openly leaning on a director two meters off-camera, still organizing her marriage around a two-week separation rule. She did not graduate out of the fear. She built the architecture that lets her keep working inside it. That is what the Enneagram lens makes visible — not "she is anxious" but "she has constructed a thirty-year system to keep being anxious productively."
 
 <div class="pull-quote">"I have a little bit of an addiction to work. So I'm always hiding in the bathroom with my Blackberry to work when I'm on holiday."</div>
 
@@ -222,7 +222,7 @@ Maria Elena in <em>Vicky Cristina Barcelona</em> — gun-waving, multilingual, s
 
 That is the inversion the Type 6 system performs. The volatile women on screen are not the opposite of the cautious woman off it. They are her release valve, contained by months of rehearsal, by a director within reach, by every other piece of her life being held in advance. She acts in Spanish, English, Italian, and French — and is rehearsed enough in each that the trilingual Oscar speech was not the riskiest non-native performance of her career. Every phoneme is pre-cleared. There is no improvisational room in a Cruz performance because improvisation is precisely the thing the Type 6 cannot survive.
 
-The economics of being a sex-symbol-typed actress are that you do not get to be one at fifty-one. Cruz still is, working at Best Actress level into a fifth decade that almost no one in her category sustains. The discipline that made the worry productive at twenty made it productive at fifty.
+The economics of being a sex-symbol-typed actress are that you do not get to be one in your fifties. Cruz still is, working at Best Actress level into a fifth decade that almost no one in her category sustains. The discipline that made the worry productive at twenty made it productive at fifty.
 
 ## Why Worry Is the Engine, Not the Obstacle
 

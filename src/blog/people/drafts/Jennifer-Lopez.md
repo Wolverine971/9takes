@@ -53,19 +53,28 @@ citations:
   - 'https://en.wikipedia.org/wiki/This_Is_Me..._Now'
   - 'https://en.wikipedia.org/wiki/Hustlers_(2019_film)'
   - 'https://en.wikipedia.org/wiki/Super_Bowl_LIV_halftime_show'
+  - 'https://en.wikipedia.org/wiki/24th_Golden_Raspberry_Awards'
+  - 'https://en.wikipedia.org/wiki/Kiss_of_the_Spider_Woman_(2025_film)'
+  - 'https://en.wikipedia.org/wiki/Jennifer_Lopez:_Up_All_Night_Live_in_Las_Vegas'
 faqs:
   - question: "What is Jennifer Lopez's personality type?"
-    answer: "Jennifer Lopez is an Enneagram Type 3 (The Achiever), specifically a 3w2. The pattern shows in her self-named wound — 'My whole life has been proving my enoughness' — the multi-hyphenate empire built as evidence of worth, four marriages each entered as proof she'd been chosen, the $20 million This Is Me... Now trilogy that staged a love story as it was collapsing, and the Vegas dance studio she slept on at 18 when home stopped feeling safe."
+    answer: "Jennifer Lopez is an Enneagram Type 3 (The Achiever), specifically a 3w2. The pattern shows in her self-named wound — 'My whole life has been proving my enoughness' — the multi-hyphenate empire built as evidence of worth, four marriages each entered as proof she'd been chosen, the $20 million This Is Me... Now trilogy that staged a love story as it was collapsing, and the Manhattan dance studio she slept in at 18 when home stopped feeling safe."
     anchor: 'what-is-jennifer-lopezs-personality-type'
   - question: "Why did Jennifer Lopez spend $20 million on This Is Me... Now?"
     answer: "She self-funded a trilogy — album, film, documentary — to prove she'd finally found authentic love with Ben Affleck. For a Three, the private isn't real unless it's also public. She shared his love letters with her musicians (he called himself 'Pen Affleck'). The album sold 14,000 first-week copies, the tour was cancelled, and she filed for divorce six months later. The wound wouldn't scale with the venue."
     anchor: 'why-jennifer-lopez-spent-20-million-to-prove-a-love-story'
   - question: 'Why does Jennifer Lopez seem so demanding?'
-    answer: "The all-white dressing rooms, the lime-blossom Jo Malone candles, the two-page demands list — she's blamed gender bias for the diva label, which is partly fair. But the deeper reading is a girl who shared a bed with two sisters and learned that nobody would make space for her unless she demanded it. Every white room is a shrine to the child who never had her own bed."
+    answer: "The all-white dressing rooms, the lime-blossom Jo Malone candles, the reported list of backstage demands — she's blamed gender bias for the diva label, which is partly fair. But the deeper reading is a girl who shared a bed with two sisters and learned that nobody would make space for her unless she demanded it. Every white room is a shrine to the child who never had her own bed."
     anchor: 'why-jennifer-lopez-seems-so-demanding'
   - question: 'How did Hustlers matter so much to Jennifer Lopez?'
     answer: "Director Lorene Scafaria said 'Ramona is Jennifer Lopez. It has to be her' — and was truer than she knew. Ramona survives by performing, controls every transaction, and mistakes the hustle for the self. Lopez installed poles in three homes and trained for months. The Oscar nomination never came; the snub became another data point in her ledger of not enough."
     anchor: 'why-hustlers-mattered-so-much-to-jennifer-lopez'
+  - question: 'Why does Jennifer Lopez keep reinventing herself?'
+    answer: "Because slowing down feels like disappearing. For a Three, multi-hyphenate isn't a business strategy. It's emotional survival. Each new venture is another argument that she exists."
+    anchor: 'how-jennifer-lopez-survived-being-over-twice'
+  - question: "How does being a mother affect Jennifer Lopez's drive?"
+    answer: "It reframed the wound. Instead of 'Am I enough to be loved?', motherhood introduced 'Am I enough for them?', a question that finally gave her achievement engine something it couldn't outperform."
+    anchor: 'the-one-role-jennifer-lopez-couldnt-perform-mother'
 content_quality:
   hook: 9.0
   enneagram: 9.0
@@ -102,7 +111,9 @@ That detail tells you more about Jennifer Lopez than any headline ever published
 
 For once, the quote wasn't a performance. It was a diagnosis.
 
-The woman the world calls J.Lo, the one with the billion-dollar brand, the Super Bowl halftime show, the fragrance empire, the six-picture deals, has spent three decades building the most visible career in American entertainment. And every brick was laid by a girl who believed that if she stopped building, she'd disappear.
+The woman the world calls J.Lo, the one with the billion-dollar brand, the Super Bowl halftime show, the fragrance empire, has spent three decades building the most visible career in American entertainment. And every brick was laid by a girl who believed that if she stopped building, she'd disappear.
+
+In plain terms, Jennifer Lopez comes across as relentlessly hardworking, exacting about every detail of her shows and image, and all-in when she falls in love. Underneath runs the drive she named herself: proving she is enough. In Enneagram terms, that is a Type 3 with a Two wing.
 
 <details>
 <summary class="accordion">TL;DR: Why Jennifer Lopez is an Enneagram Type 3</summary>
@@ -162,8 +173,8 @@ She was a Fly Girl on _In Living Color_ by 21. Then a backup dancer for Janet Ja
 <p><b>1997</b> — Stars in <em>Selena</em>; marries Ojani Noa (divorced 1998)</p>
 <p><b>1999</b> — <em>On the 6</em> debut album; becomes global pop star</p>
 <p><b>2001</b> — Marries Cris Judd (divorced 2003)</p>
-<p><b>2003</b> — <em>Gigli</em> disaster; first Affleck engagement called off</p>
-<p><b>2004</b> — Marries Marc Anthony</p>
+<p><b>2003</b> — <em>Gigli</em> disaster; Affleck wedding postponed</p>
+<p><b>2004</b> — Affleck engagement ends; marries Marc Anthony</p>
 <p><b>2008</b> — Twins Emme and Max born</p>
 <p><b>2011</b> — <em>American Idol</em> judge; career relaunch</p>
 <p><b>2014</b> — Divorces Anthony; publishes <em>True Love</em></p>
@@ -172,7 +183,8 @@ She was a Fly Girl on _In Living Color_ by 21. Then a backup dancer for Janet Ja
 <p><b>2020</b> — Super Bowl LIV halftime show</p>
 <p><b>2022</b> — Marries Ben Affleck (second time)</p>
 <p><b>2024</b> — <em>This Is Me... Now</em> trilogy; tour cancelled; files for divorce</p>
-<p><b>2026</b> — New Las Vegas residency</p>
+<p><b>2025</b> — Divorce finalized; <em>Kiss of the Spider Woman</em></p>
+<p><b>2025–26</b> — <em>Up All Night</em> Las Vegas residency</p>
 </div>
 </div>
 </details>
@@ -183,9 +195,9 @@ The grit is real. The stage is real. What she doesn't say is what the grit is ru
 
 ## Why Jennifer Lopez Seems So Demanding
 
-The diva stories are legendary. The all-white dressing rooms. The Jo Malone candles, specifically lime blossom or Grapefruit, no substitutions. Walking off set at 10:15 sharp regardless of how perfect the light was, because it was time to eat. The reported "no eye contact" rule for crew members. The two-page list of demands that went public in 2007.
+The diva stories are legendary. The all-white dressing rooms. The Jo Malone candles, specifically lime blossom or Grapefruit, no substitutions. Walking off set at 10:15 sharp regardless of how perfect the light was, because it was time to eat. Reports of a "no eye contact" rule for crew members and a list of backstage demands.
 
-Director Michael Apted, seven-time Oscar nominee, said working with her was exactly as difficult as the legends suggested. "You hear all the legends about how difficult she is and it's going to be hard to get through it."
+Director Michael Apted admitted he went in braced for the reputation. "You hear all the legends about how difficult she is and it's going to be hard to get through it."
 
 But then he added: "What I love about her is that she's gifted, but she's also very hardworking."
 
@@ -226,7 +238,7 @@ What makes Lopez a 3w2 (a Three with a [Two wing](/enneagram-corner/enneagram-ty
 
 The thing about Threes is they don't just succeed. They come back from the dead.
 
-In 2003, _Gigli_, her romantic comedy with Affleck, grossed $7.3 million against a $75 million budget. One of the biggest box office bombs in cinema history. She collected seven Razzie nominations. The film became shorthand for everything critics wanted to believe about her: that she was a brand, not a talent.
+In 2003, _Gigli_, her romantic comedy with Affleck, grossed $7.3 million against a $75 million budget. One of the biggest box office bombs in cinema history. It won six Razzies, including Worst Actress for Lopez. The film became shorthand for everything critics wanted to believe about her: that she was a brand, not a talent.
 
 "I was eviscerated," she told Vanity Fair. "I lost my sense of self, questioned if I belonged in this business, thought maybe I did suck at everything."
 
@@ -234,7 +246,7 @@ For two years she couldn't climb out. The first Affleck engagement disintegrated
 
 A lesser ego would have retired. Lopez joined _American Idol_.
 
-Her team warned her: "you're going to be reduced to just a reality star." She did it anyway. Billboard later called it "the most impressive reality-TV-based rejuvenation of a music career ever." Her single "On the Floor" became the year's highest-selling single by a female artist. A study analyzing over a billion Google searches called her "the world's greatest musical comeback act."
+Her team warned her: "you're going to be reduced to just a reality star." She did it anyway. Billboard later called it "the most impressive reality-TV-based rejuvenation of a music career ever." Her single "On the Floor" became the year's highest-selling single by a female artist.
 
 Then a Las Vegas residency that grossed over $100 million. Then _Hustlers_.
 
@@ -255,6 +267,8 @@ Ramona is a woman who survives by performing. Who reads every room and becomes w
 Lopez prepared like she was training for combat. Poles installed in her homes in Miami, Los Angeles, and New York. Two and a half months of training, two to three sessions a week. She wanted to "look convincing, like I've been stripping for a while, I'm comfortable on this pole, and I'm also comfortable with my game because my character really has the hustle down."
 
 She didn't get the Oscar nomination. The snub became its own wound, another data point in the ledger of _not enough_. The Hollywood establishment saw the performance and still wouldn't hand her the trophy. The applause was there. The respect had an asterisk.
+
+It happened again six years later. _Kiss of the Spider Woman_ (2025), her first role in a full-fledged musical, drew strong reviews for her performance and early awards talk, then grossed $1.8 million against a $30 million budget. No Oscar nomination followed.
 
 "My whole life I've been battling and battling to be heard, to be seen, to be taken seriously," she said in _Halftime_.
 
@@ -282,13 +296,13 @@ And none of it registered as _enough_. Because the message she received wasn't "
 
 ## Jennifer Lopez's Relationships and the Need to Be Chosen
 
-Ojani Noa in 1997. Divorced eleven months later. Cris Judd in 2001. Divorced in 2003. Marc Anthony in 2004, twins Emme and Max in 2008, divorced in 2014. Ben Affleck, first engagement in 2002, called off in 2004, married in 2022, divorced in 2024.
+Ojani Noa in 1997. Divorced eleven months later. Cris Judd in 2001. Divorced in 2003. Marc Anthony in 2004, twins Emme and Max in 2008, divorced in 2014. Ben Affleck, first engagement in 2002, called off in 2004, married in 2022, divorce finalized in early 2025.
 
 Four marriages. Each one entered with total conviction. Each one the same story: _this time I've found the thing that will make me enough_.
 
 "Reality is hard to see through the adrenaline rush of a new love," she wrote in her memoir _True Love_. "It's easy to project your hopes and dreams onto a relationship when it's new and exciting, but the truth is that it is only in knowing who you are at your core and staying true to yourself that you can possibly see the difference."
 
-She wrote that in 2014. Ten years later, she married Ben Affleck.
+She wrote that in 2014. Eight years later, she married Ben Affleck.
 
 After the Marc Anthony divorce, when twins were three years old, she almost gave up: "I was really about to give up on it all. I was a single mom with two 3-year-old twins."
 
@@ -357,7 +371,7 @@ After the divorce, Lopez did something she'd never done in her adult life. She s
 
 "When you sit in those feelings and go, 'These things are not going to kill me,' it's like actually, I am capable of joy and happiness all by myself," she told Interview magazine. "Being in a relationship doesn't define me. I can't be looking for happiness in other people. I have to have happiness within myself."
 
-In March 2026, launching a new Las Vegas residency, she said: "I think for the first time in my life, I feel like I'm free. I am on my own. And it feels really good."
+During her Las Vegas residency, which ran from December 2025 to March 2026, she said: "I think for the first time in my life, I feel like I'm free. I am on my own. And it feels really good."
 
 She also said: "I didn't really know what that felt like since I was in my early 20s. I've always had a boyfriend. There was always kind of, like, someone in my life."
 
@@ -379,22 +393,4 @@ There's a version of the Jennifer Lopez story that's about ambition and grit. Th
 
 The more interesting story is about a girl who looked into a camera at 54 and said, "My whole life has been proving my enoughness." She wasn't performing when she said it. You could hear it in the pause before the word, the way she'd clearly never said it that way before, the way it landed on her own ears like something she'd been carrying for fifty years without ever giving it a name.
 
-She's 56 now, alone for the first time. The woman who spent three decades turning silence into noise has to sit in the silence and find out what's been living there all along. Nobody else can answer the question for her. And she's starting to suspect she might have to answer it herself.
-
-## FAQs About Jennifer Lopez's Personality
-
-**What personality type is Jennifer Lopez?**
-
-Enneagram Type 3, "The Achiever." The defining pattern is how achievement, romance, and image all serve the same function: proof that she is worthy of love and attention.
-
-**Why does Jennifer Lopez keep reinventing herself?**
-
-Because slowing down feels like disappearing. For a Three, multi-hyphenate isn't a business strategy. It's emotional survival. Each new venture is another argument that she exists.
-
-**How does being a mother affect Jennifer Lopez's drive?**
-
-It reframed the wound. Instead of "Am I enough to be loved?", motherhood introduced "Am I enough for them?", a question that finally gave her achievement engine something it couldn't outperform.
-
-**Why did the _This Is Me... Now_ era fail so badly?**
-
-The $20 million trilogy centered on a relationship that was already fracturing. The album sold 14,000 copies in its first week, the tour was cancelled, and the divorce followed months later. It became the most literal example of a Three trying to perform a feeling into existence.
+Emme and Max turned 18 in February 2026. Their mother, born in 1969, is alone for the first time. The woman who spent three decades turning silence into noise has to sit in the silence and find out what's been living there all along. Nobody else can answer the question for her. And she's starting to suspect she might have to answer it herself.

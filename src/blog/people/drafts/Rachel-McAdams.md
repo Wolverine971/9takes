@@ -55,9 +55,13 @@ citations:
   - 'https://ew.com/domhnall-gleeson-on-why-costar-rachel-mcadams-doesnt-deserve-walk-of-fame-star-11889264'
   - 'https://people.com/rachel-mcadams-calls-partner-jamie-linden-my-north-star-11888528'
   - 'https://www.gamesradar.com/entertainment/thriller-movies/gory-comedy-thriller-send-help-just-bagged-sam-raimi-his-highest-rotten-tomatoes-score-since-spider-man-2/'
+  - 'https://www.cbsnews.com/news/rachel-mcadams-talks-are-you-there-god-its-me-margaret/'
+  - 'https://www.manhattantheatreclub.com/shows/2023-24-season/mary-jane/'
+  - 'https://en.wikipedia.org/wiki/2034_(film)'
+  - 'https://en.wikipedia.org/wiki/The_Family_Stone'
 faqs:
   - question: "What is Rachel McAdams's personality type?"
-    answer: "Rachel McAdams is an Enneagram Type 9 (The Peacemaker). The pattern shows in the two-year vanishing act at peak fame when she turned down five blockbusters worth a combined $2.5 billion, the drama-free 'No, I'm not into that' refusal of a nude Vanity Fair shoot, her self-described 'split personality' of total immersion in one world at a time, the privacy fortress around her children, and the late-bloom growth arc — Broadway debut at forty-five, Tony nomination, Walk of Fame star at forty-seven."
+    answer: "Rachel McAdams is an Enneagram Type 9 (The Peacemaker). The pattern shows in the two-year vanishing act at peak fame when she turned down five blockbusters that went on to gross about $2.16 billion combined, the drama-free 'No, I'm not into that' refusal of a nude Vanity Fair shoot, her self-described 'split personality' of total immersion in one world at a time, the privacy fortress around her children, and the late-bloom growth arc — Broadway debut at forty-five, Tony nomination, Walk of Fame star at forty-seven."
     anchor: 'what-is-rachel-mcadamss-personality-type'
   - question: 'Why did Rachel McAdams turn down Iron Man and The Devil Wears Prada?'
     answer: "Between roughly 2006 and 2008 she turned down The Devil Wears Prada (offered three times by director David Frankel), Casino Royale, Mission: Impossible III, Iron Man, and Get Smart, and went home to St. Thomas, Ontario, to ride her bicycle and garden. Her explanation: the it-girl track 'wasn't quite jiving with my personality and what I needed to stay sane.' The piece argues it wasn't humility but self-preservation — she could feel herself fragmenting and chose wholeness over the biggest career in Hollywood."
@@ -69,7 +73,7 @@ faqs:
     answer: "No — they clashed so badly that Gosling asked the director to replace her for a scene. 'We inspired the worst in each other,' he said. Sent to a room to work it out, they instead fell in love and dated for over two years before breaking up in 2007. Gosling later said: 'People do Rachel and me a disservice by assuming we were anything like the people in that movie. Rachel and my love story is a hell of a lot more romantic than that.'"
     anchor: 'the-notebook-the-gosling-and-the-war-on-set'
   - question: 'What is Rachel McAdams doing now?'
-    answer: "She made her Broadway debut in April 2024 in Mary Jane, never leaving the stage for the show's ninety-minute running time, and earned a Tony nomination — USA Today called it 'the best performance of the Broadway season.' Sam Raimi then cast her as the lead in Send Help, which opened in January 2026 to 93% on Rotten Tomatoes and $94 million worldwide. On January 20, 2026, she received the 2,833rd star on the Hollywood Walk of Fame."
+    answer: "She made her Broadway debut in April 2024 in Mary Jane, never leaving the stage for the show's ninety-five-minute running time, and earned a Tony nomination — USA Today called it 'the best performance of the Broadway season.' Sam Raimi then cast her as the lead in Send Help, which opened in January 2026 to 93% on Rotten Tomatoes and $94 million worldwide. On January 20, 2026, she received the 2,833rd star on the Hollywood Walk of Fame. Next up: 2034, Joseph Gordon-Levitt's AI thriller for Netflix, which began filming in May 2026, and The Families Stone, Searchlight's sequel to The Family Stone, set to shoot in New York in fall 2026 with much of the original cast."
     anchor: 'ninety-minutes-never-leaving-the-stage'
 twitter: ''
 instagram: ''
@@ -141,7 +145,7 @@ Then she saw the setup. Tom Ford wanted her nude, alongside Scarlett Johansson a
 
 She didn't yell. She didn't storm out. She said it the way you'd decline a second cup of coffee. Then she flew home to Canada. She fired her publicist — the one who'd forgotten to mention the nude part. And she didn't come back for two years.
 
-During those two years, she turned down everything. Five blockbusters that would gross a combined $2.5 billion. She went home to St. Thomas, Ontario. She rode her bicycle. She gardened.
+During those two years, she turned down everything. Five blockbusters that would gross about $2.16 billion combined. She went home to St. Thomas, Ontario. She rode her bicycle. She gardened.
 
 Most people tell this story as a tale of humility, or of a woman who didn't want fame. That's the wrong story. Rachel McAdams didn't walk away from Hollywood because she didn't want it. She walked away because she could feel herself disappearing inside it.
 
@@ -150,7 +154,7 @@ Most people tell this story as a tale of humility, or of a woman who didn't want
 <div class="panel">
 <ul>
 <li><b>The vanishing act:</b> At peak fame, she rejected five blockbusters and fled to Canada — not from ambition, but to protect a sense of wholeness she could feel fragmenting.</li>
-<li><b>The merging:</b> She describes a "split personality" — completely absorbed in whatever world she inhabits, whether that's a film set or her garden. There is no half-presence.</li>
+<li><b>The merging:</b> She once described a "split personality" — completely absorbed in whatever world she inhabits, whether that's a film set or her garden. There is no half-presence.</li>
 <li><b>The quiet boundary:</b> From the Vanity Fair refusal to keeping her children's names private, she protects her inner world without confrontation — just decisive, silent withdrawal.</li>
 <li><b>The late bloom:</b> She waited until 39 for motherhood, until 45 for Broadway, until 47 for her Walk of Fame star. Every major move arrived when she was ready, not when the industry demanded it.</li>
 </ul>
@@ -175,7 +179,7 @@ At twelve, she joined the Original Kids Theatre Company in London and started pe
 
 In 1995, she won her first acting award for a student-written one-act called _I Live in a Little Town_, which made it to the Ontario Showcase of the Sears Drama Festival. By her late teens she was directing children's theatre productions, not just performing in them. She'd planned to study cultural studies at the University of Western Ontario until a drama teacher persuaded her that acting was a viable career.
 
-She graduated with honors from York University's theatre program at twenty-three. Her professor David Rotenberg remembered his first impression: she "was shy, but sort of had a twinkle." By her final year, he cast her as the lead in Wedekind's _Lulu_. "It was fascinating to watch the agents watch her, their eyes rolling back into their heads. They came chasing me after the first act."
+She graduated with honors from York University's theatre program in 2001, at twenty-two. Her professor David Rotenberg remembered his first impression: she "was shy, but sort of had a twinkle." By her final year, he cast her as the lead in Wedekind's _Lulu_. "It was fascinating to watch the agents watch her, their eyes rolling back into their heads. They came chasing me after the first act."
 
 She was in no hurry. But something had arrived.
 
@@ -223,7 +227,7 @@ Enneagram Nines carry a core fear of loss and fragmentation — of being pulled 
 
 Most people misread Nines as passive. They're not. They're fiercely protective of something invisible: the quiet center that holds them together. And when that center is threatened, they don't fight. They [withdraw](/enneagram-corner/enneagram-types-in-stress). Completely, decisively, without drama.
 
-McAdams named the pattern herself, without knowing she was describing textbook Nine psychology. In a 2023 Bustle interview, she said: "I have a split personality — I love being completely immersed in my nonworking life, but I am equally compelled by the lives of the characters I play."
+McAdams named the pattern herself, without knowing she was describing textbook Nine psychology. In an earlier interview, she said: "I have a split personality — I love being completely immersed in my nonworking life, but I am equally compelled by the lives of the characters I play."
 
 That word — _immersed_. Not "I enjoy" or "I like." Immersed. Nines don't do half-measures of presence. When they're in, they're all the way in. When they're out, they're gone. The split she describes isn't a personality disorder. It's a survival strategy. She can only be fully present in one world at a time because spreading herself across multiple worlds is the thing that fragments her.
 
@@ -265,7 +269,7 @@ For Spotlight, she spent weeks with the real journalist Sacha Pfeiffer — dinne
 
 That's the Nine's merging gift weaponized into craft. She doesn't perform a character. She dissolves into them — and the dissolution is so complete that people who know the real person can't find the seam.
 
-"For me, acting doesn't feel easy," she told Bustle in 2023. "It always feels like, 'Oh, I don't know what I'm doing.' And I never feel like I can totally relax doing it."
+"For me, acting doesn't feel easy," she told CBS News in 2023. "It always feels like, 'Oh, I don't know what I'm doing.' And I never feel like I can totally relax doing it."
 
 A Nine who never relaxes in her art. Because relaxing would mean staying on the surface, and she only works at the depth where self and character become indistinguishable.
 
@@ -325,13 +329,13 @@ She doesn't own a car. She installed renewable energy systems in her Toronto hom
 
 For a Nine, environmental activism makes perfect sense — and not in the generic "she cares about things" way. Nines are driven by a desire for harmony and wholeness that extends beyond the self. The planet is the largest system she belongs to, and its fragmentation mirrors the personal fragmentation she's spent her life resisting. She doesn't campaign loudly. She narrates documentaries, visits farmers, builds a website, rides her bike. Behind-the-scenes protection of something larger. The same pattern, scaled up.
 
-## Ninety Minutes, Never Leaving the Stage
+## Ninety-Five Minutes, Never Leaving the Stage
 
 In April 2024, Rachel McAdams made her Broadway debut in Mary Jane, Amy Herzog's play about a single mother caring for a toddler with cerebral palsy. It was the kind of role that Hollywood doesn't write — quiet, relentless, built entirely on the accumulation of small, exhausting acts of love.
 
-McAdams did not leave the stage for the entirety of the show's ninety-minute running time.
+McAdams did not leave the stage for the entirety of the show's ninety-five-minute running time.
 
-Think about that in the context of everything else. A woman who spent two decades carefully rationing her presence — choosing when to appear, when to vanish, where to be fully immersed. And then she stood on a stage in New York and gave everything, without interruption, for ninety minutes, eight shows a week.
+Think about that in the context of everything else. A woman who spent two decades carefully rationing her presence — choosing when to appear, when to vanish, where to be fully immersed. And then she stood on a stage in New York and gave everything, without interruption, for ninety-five minutes, eight shows a week.
 
 On the role: "Parts like this just don't come along, sometimes ever in a lifetime. To be able to play a woman with this much resilience and joie de vivre and buoyancy." On the preparation: "We had a palliative care doctor in here the other day and we got to spend hours with her asking all the questions." On drawing from motherhood: "You've got a really ferocious mama bear in this play. I now, having my own children, really understand deeply what that is. I don't think you have to be a mom to play a great mom, but it definitely lightened my load in terms of research and the guessing."
 

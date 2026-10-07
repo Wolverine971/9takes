@@ -84,7 +84,7 @@ content_quality:
 
 <p class="firstLetter">Thirteen years. That's how long fans have waited for The Winds of Winter. But what if I told you the delay isn't about laziness or writer's block—it's about the fundamental architecture of George R.R. Martin's mind?</p>
 
-The 76-year-old creator of Westeros has called his unfinished magnum opus "the curse of my life." Critics mock him. Fans despair. Yet behind the frustration lies a psychological pattern that explains not just why he can't finish, but why he created something so extraordinarily detailed in the first place.
+The seventy-something creator of Westeros has called his unfinished magnum opus "the curse of my life." Critics mock him. Fans despair. Yet behind the frustration lies a psychological pattern that explains not just why he can't finish, but why he created something so extraordinarily detailed in the first place.
 
 Understanding Martin requires understanding how a lonely boy in a Bayonne housing project turned pet turtle deaths into his first epic saga.
 
@@ -207,7 +207,7 @@ His subsequent disputes with HBO over House of the Dragon—including a since-de
 
 ## What the Waiting Reveals
 
-At 76, Martin has admitted he may never finish the books. "Maybe they're right," he's said of critics. "I don't know."
+In his late seventies, Martin has admitted he may never finish the books. "Maybe they're right," he's said of critics. "I don't know."
 
 This honesty is devastating but clarifying. The Type 5's relationship with time is complicated. They live so deeply in their mental worlds that external deadlines feel arbitrary. The story will be done when the story is done—or it won't be done at all.
 

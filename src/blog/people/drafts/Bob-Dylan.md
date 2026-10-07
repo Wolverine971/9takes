@@ -59,12 +59,16 @@ citations:
   - 'https://en.wikipedia.org/wiki/Blood_on_the_Tracks'
   - 'https://www.nobelprize.org/prizes/literature/2016/dylan/facts/'
   - 'https://variety.com/2020/music/news/bob-dylan-sells-catalog-universal-music-1234855490/'
+  - 'https://www.setlist.fm/setlist/bob-dylan/1965/festival-field-newport-ri-3bd7b098.html'
+  - 'https://en.wikipedia.org/wiki/Never_Ending_Tour'
+  - 'https://en.wikipedia.org/wiki/Rough_and_Rowdy_Ways_World_Wide_Tour'
+  - 'https://en.wikipedia.org/wiki/2016_Nobel_Prize_in_Literature'
 faqs:
   - question: "What is Bob Dylan's personality type?"
     answer: "Bob Dylan is an Enneagram Type 4 (The Individualist), specifically a 4w5. The pattern shows in his lifelong refusal to be defined: Robert Zimmerman inventing 'Bob Dylan' from borrowed accents and fake origin stories, rejecting the 'voice of a generation' title, going electric at Newport when the folk world wanted him frozen, going silent for two weeks over the Nobel Prize, and rearranging his own songs nightly across 3,000-plus shows so nothing ever sets."
     anchor: 'what-is-bob-dylans-personality-type'
   - question: 'Why did Bob Dylan go electric at Newport in 1965?'
-    answer: "When folk purists booed Dylan for plugging in at the Newport Folk Festival on July 25, 1965, he answered by playing louder. The crowd loved an acoustic prophet who had, in effect, stopped existing; they wanted him frozen on repeat. For Dylan, becoming a tribute act to a self he had already outgrown was a colder death than any boo. He went electric because the alternative was to disappear while people applauded."
+    answer: "When folk purists booed Dylan for plugging in at the Newport Folk Festival on July 25, 1965, he left after three songs, came back alone to sing 'It's All Over Now, Baby Blue' on acoustic guitar, and then kept the electric band through a year of hostile crowds. The crowd loved an acoustic prophet who had, in effect, stopped existing; they wanted him frozen on repeat. For Dylan, becoming a tribute act to a self he had already outgrown was a colder death than any boo. He went electric because the alternative was to disappear while people applauded."
     anchor: 'why-bob-dylan-went-electric-at-newport'
   - question: 'Why did Bob Dylan stay silent about his Nobel Prize?'
     answer: "When the Swedish Academy awarded Dylan the 2016 Nobel Prize in Literature, he said nothing publicly for roughly two weeks; one Academy member called the silence 'impolite and arrogant.' He wanted the honor and felt it closing over him like a lid. He accepted late, on his own terms, skipped the banquet, and delivered the required lecture at the last possible moment, slipping sideways out of the frame even while accepting literature's highest prize."
@@ -73,7 +77,7 @@ faqs:
     answer: "In December 2020 Dylan sold his entire catalog of 600-plus songs to Universal Music Publishing Group for a reported $300 million, then sold his recorded masters to Sony in 2022. He gave away the fixed artifacts, the finished recordings, and kept the tour, the nightly right to take a song like 'Tangled Up in Blue' apart and rebuild it. For Dylan the recorded song was only a photograph of a moving target; what he would not sell was the act of vanishing itself."
     anchor: 'the-300-million-goodbye'
   - question: 'Why did Bob Dylan disappear after his 1966 motorcycle crash?'
-    answer: "On July 29, 1966, at the peak of his fame, Dylan crashed his motorcycle near Woodstock and used the injury as cover to vanish, not touring again for almost eight years. In Chronicles he admitted, 'Truth was that I wanted to get out of the rat race.' The withdrawal carried an intimate cost, borne by Suze Rotolo, Joan Baez, and his wife Sara, whose divorce became Blood on the Tracks."
+    answer: "On July 29, 1966, at the peak of his fame, Dylan crashed his motorcycle near Woodstock and used the injury as cover to vanish, not touring again for almost eight years. In Chronicles he admitted, 'Truth was that I wanted to get out of the rat race.' The withdrawal carried an intimate cost, borne by Suze Rotolo, Joan Baez, and his wife Sara, whose estrangement from him many listeners hear in Blood on the Tracks, though Dylan has denied the album is autobiographical."
     anchor: 'why-bob-dylan-vanished-after-his-1966-motorcycle-crash'
 category: people
 production_pretext:
@@ -122,7 +126,7 @@ Total qualifying quotes: 5
 -->
 
 > "I'm only Bob Dylan when I have to be."
-> — Bob Dylan, epigraph to the film "I'm Not There," 2007
+> — Bob Dylan
 
 <p class="firstLetter">Since 2021, every ticket to a Bob Dylan concert comes with a gray pouch. You lock your phone inside it before you walk in, and it stays sealed until you leave. No photos. No video. No proof you were in the room.</p>
 
@@ -140,7 +144,7 @@ That is not shyness. Shyness hides. Dylan performs, constantly, in front of mill
 <ul>
 <li><b>The core tension:</b> he wants to be seen completely and is terrified of being caught completely. Type 4s crave depth of recognition, then flee the moment they feel summarized.</li>
 <li><b>Invented from scratch:</b> Robert Zimmerman from Hibbing, Minnesota, built "Bob Dylan" out of borrowed accents and fake origin stories. The self is a construction he keeps rebuilding.</li>
-<li><b>Newport 1965:</b> booed for going electric, he answered by playing louder. When belonging and authenticity collide, the Four picks authenticity.</li>
+<li><b>Newport 1965:</b> booed for going electric, he kept plugging in through a year of hostile crowds. When belonging and authenticity collide, the Four picks authenticity.</li>
 <li><b>The Nobel silence:</b> the highest recognition in letters, and he went quiet for two weeks. Fours long to be honored and dread being defined by the honor.</li>
 <li><b>The Never Ending Tour:</b> more than 3,000 shows since 1988, songs re-arranged nightly so nothing sets. Standing still, for a Four, feels like disappearing.</li>
 </ul>
@@ -153,7 +157,7 @@ That is not shyness. Shyness hides. Dylan performs, constantly, in front of mill
 
 Bob Dylan is a textbook [Enneagram Type 4](/enneagram-corner/enneagram-type-4), the Individualist. The evidence is not in his moods; it is in his method. A Four builds identity by defining what they are against, and Dylan has spent a career being against whatever he was last.
 
-Point to the behavior. He rejected the folk movement that made him. He rejected the "voice of a generation" title the day it was offered. He rejected the Nobel Prize with silence, then accepted it without showing up. Every time the culture built a Dylan-shaped box, he stepped out of it and left the box on stage.
+He rejected the folk movement that made him. He rejected the "voice of a generation" title the day it was offered. He rejected the Nobel Prize with silence, then accepted it without showing up. Every time the culture built a Dylan-shaped box, he stepped out of it and left the box on stage.
 
 The engine underneath is the Type 4 fear: that stripped of the pose, there is nothing distinctive there at all. Dylan wrote it down himself, in his 2004 memoir *Chronicles: Volume One*, describing a mid-career collapse: "There was a missing person inside of myself and I needed to find him." The Four's whole psychology sits in that one line. The dread is not death. It is being ordinary, or worse, being finished, summed up, done.
 
@@ -183,7 +187,7 @@ The legend says Pete Seeger, the movement's conscience, grabbed an axe to cut th
 > "I was so mad, I said: 'Damn, if I had an axe, I'd cut the cable right now.'"
 > — Pete Seeger, recounting the night years later
 
-Dylan's response to the backlash was not an apology or an explanation. It was volume. He plugged back in and played louder.
+Dylan's response to the backlash was not an apology or an explanation. He left after three songs and came back alone with an acoustic guitar to sing "It's All Over Now, Baby Blue" and "Mr. Tambourine Man." Then he took the electric band on the road for a year of boos. In Manchester in 1966, when a fan yelled "Judas!", he told the band to play it loud.
 
 Going electric is where the Four gets misread as arrogance. From the outside it looks like a star who stopped caring what the crowd wanted. Feel it from the inside and it flips. The folk purists loved a Dylan who had stopped existing. They wanted the acoustic prophet, frozen, on repeat. To keep their approval he would have had to become a tribute act to himself, and for a Four there is no colder death than performing a self you have already outgrown. He did not go electric to hurt them. He went electric because the alternative was to disappear while people applauded.
 
@@ -251,9 +255,9 @@ That vanishing was never only professional. Ask the people who loved him. Suze R
 Then there was Sara, his wife, the one following his motorcycle in a car the morning it went down. When that marriage came apart, Dylan did the only thing he fully trusted. He turned the wound into a record. *Blood on the Tracks* (1975) is a man narrating his own heartbreak from every angle at once and still refusing to settle inside any of them. His son Jakob said the quiet part plainly:
 
 > "When I'm listening to Blood On The Tracks, that's about my parents."
-> — Jakob Dylan, 2005
+> — Jakob Dylan, quoted in Michael Gray's _The Bob Dylan Encyclopedia_ (2006)
 
-The public act ran up a private tax, and they paid it. The same refusal to be caught that electrified a stadium left the people closest to him holding a man who was always, already, on his way out the door.
+Dylan has denied it. In *Chronicles* he said the songs grew out of Chekhov's short stories, and in 1985 he told the writer Bill Flanagan, "A lot of people thought that album pertained to me. It didn't pertain to me." The public act ran up a private tax, and they paid it. The same refusal to be caught that electrified a stadium left the people closest to him holding a man who was always, already, on his way out the door.
 
 ## Why Bob Dylan stayed silent about his Nobel Prize
 
@@ -261,7 +265,7 @@ On October 13, 2016, the Swedish Academy gave Bob Dylan the Nobel Prize in Liter
 
 Dylan's response was nothing. For roughly two weeks he said not one word, publicly, about the biggest honor of his life. The Academy could not reach him. One member called the silence "impolite and arrogant." Reporters swarmed. Dylan toured on as if it had not happened.
 
-The stunt reading writes itself. The truer one is ambivalence at full volume. He wanted the honor. He also felt it closing over him like a lid. Accept the Nobel gracefully and you become "Nobel Laureate Bob Dylan," the establishment's property, one more fixed thing. So he took it late, on his own terms, without the ceremony. He skipped the banquet and sent a speech read aloud by the U.S. ambassador. Later he delivered the required lecture at the last possible moment, ending it on Homer and the difference between a poem and a song. Even accepting the world's highest literary honor, he found a way to slip sideways out of the frame.
+The stunt reading writes itself. The truer one is ambivalence at full volume. He wanted the honor. He also felt it closing over him like a lid. Accept the Nobel gracefully and you become "Nobel Laureate Bob Dylan," the establishment's property, one more fixed thing. So he took it late, on his own terms, without the ceremony. He skipped the banquet and sent a speech read aloud by the U.S. ambassador, then collected the medal privately in Stockholm the following April. Later he delivered the required lecture at the last possible moment, ending it on Homer and the difference between a poem and a song. Even accepting the world's highest literary honor, he found a way to slip sideways out of the frame.
 
 ## The $300 million goodbye
 
@@ -269,11 +273,11 @@ In December 2020, Dylan sold his entire songwriting catalog, more than 600 songs
 
 You could read it as an old man doing estate planning. But look at what he sold and what he kept. He gave away the recordings, the finished artifacts, the fixed versions. He kept the tour. He kept the live re-invention, the nightly right to take "Tangled Up in Blue" apart and rebuild it so it never sounds the same twice.
 
-That is the tell. For Dylan the recorded song was never the real thing anyway. It was one photograph of a moving target, and he was happy to let someone else own the photographs. What he would not sell is the act of vanishing itself.
+For Dylan the recorded song was never the real thing anyway. It was one photograph of a moving target, and he was happy to let someone else own the photographs. What he would not sell is the act of vanishing itself.
 
 ## What "A Complete Unknown" got right about Dylan
 
-In December 2024, James Mangold's *A Complete Unknown* put Timothée Chalamet on screen as the young Dylan, covering 1961 to the Newport thunderclap of 1965. The film earned eight Academy Award nominations, including Best Picture, Best Director, and Best Actor for [Chalamet](/personality-analysis/timothee-chalamet), and won none of them at the March 2025 ceremony, shut out entirely (Anora swept). The nominations alone dragged Dylan back into the center of the culture at 83.
+In December 2024, James Mangold's *A Complete Unknown* put Timothée Chalamet on screen as the young Dylan, covering 1961 to the Newport thunderclap of 1965. The film earned eight Academy Award nominations, including Best Picture, Best Director, and Best Actor for [Chalamet](/personality-analysis/timothee-chalamet), and won none of them at the March 2025 ceremony, shut out entirely. The nominations alone dragged Dylan back into the center of the culture at 83.
 
 The smart move Mangold made was refusing to solve him. The film does not explain why the kid lies about his past or why he burns the folk world down the moment it loves him. It just watches him do it, the way you would watch weather. Chalamet, who trained for years on guitar and harmonica and sang live, does not impersonate a genius so much as inhabit a man allergic to being understood.
 
@@ -281,7 +285,7 @@ The setup is almost too neat. To make a movie about Bob Dylan, an actor famous f
 
 ## The Never Ending Tour
 
-Since June 1988, Bob Dylan has played more than 3,000 concerts on what fans named the Never Ending Tour, a name he dislikes. He does not need the money. He does not need the fame. At 85 he keeps climbing into the bus, into the next remote town, onto the next stage, and he keeps refusing to play the songs the way you remember them.
+Since June 1988, Bob Dylan has played more than 3,000 concerts on what the press calls the Never Ending Tour, a phrase journalist Adrian Deevoy put in his mouth in a 1989 interview and one Dylan has brushed off. Its latest stretch, the Rough and Rowdy Ways tour, ended on May 1, 2026, after 303 shows. He was back on the road a month later. He does not need the money. He does not need the fame. Well into his eighties he keeps climbing into the bus, into the next remote town, onto the next stage, and he keeps refusing to play the songs the way you remember them.
 
 Standing still is the only thing that scares him. Stop moving and the world catches up, gets a good look, files you under a single heading.
 

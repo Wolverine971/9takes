@@ -298,7 +298,7 @@ Then there is the dating pattern, the most discussed fact about his private life
 
 DiCaprio has never publicly addressed it. He doesn't have to. Whatever psychological architecture produces the pattern, it maps cleanly onto the Type 7 fear of limitation. Each new relationship is a clean slate. Each ending prevents the thing Sevens fear most: being locked in.
 
-His current partner, Italian model Vittoria Ceretti, is 27 — the oldest known partner he's dated. Whether this represents a shift or an exception remains to be seen.
+Italian model Vittoria Ceretti, born in 1998 and linked to him since 2023, is the oldest known partner he's dated. Whether this represents a shift or an exception remains to be seen.
 
 But what's more revealing than the dating pattern is what DiCaprio said about his emotional range.
 

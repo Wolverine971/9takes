@@ -268,7 +268,7 @@ Reports cited a salary dispute — Disney and Madison were reportedly "far apart
 
 What spoke to her instead: Frances Haugen, the Facebook whistleblower, in The Social Reckoning — the sequel to The Social Network. A mermaid thriller called Reptilia opposite Kirsten Dunst. An Edgar Allan Poe adaptation for A24. Smaller worlds she can disappear into completely.
 
-The roles keep getting bigger. The person behind them keeps withdrawing. At 25, she still daydreams — "it kind of runs in my family; my dad is, too" — still drifts into "random little pockets of dreams." And she sees no contradiction in any of it.
+The roles keep getting bigger. The person behind them keeps withdrawing. In her mid-twenties, she still daydreams — "it kind of runs in my family; my dad is, too" — still drifts into "random little pockets of dreams." And she sees no contradiction in any of it.
 
 Six months after the Oscar, sitting for a Vogue Italia cover story, she said: "I feel like everything around me has changed, and I think that's increasing my need to withdraw into myself." When asked about the gap between who she is and who the world now expects her to be, she offered this:
 

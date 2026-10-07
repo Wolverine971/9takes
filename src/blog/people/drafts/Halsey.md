@@ -66,7 +66,7 @@ faqs:
     answer: "Her 2022 lupus and T-cell lymphoproliferative disorder diagnoses (plus Ehlers-Danlos, Sjögren's, MCAS, POTS) collided directly with the Eight's operating system — the body that was supposed to be armor became the thing she could not out-perform. She told herself 'I'm giving myself two more years to be sick. By 30, I'm having a rebirth.' She made The Great Impersonator during chemotherapy, named it after the medical nickname for lupus ('The Great Imitator'), and was hospitalized at Mass General mid-tour, then performed the next night."
     anchor: 'im-still-sick-thats-still-reality-this-is-forever-now'
   - question: 'What did motherhood do to Halsey?'
-    answer: "She has called it 'the absolute, glorious eradication and death of my ego.' The woman who carried her life in a duffel bag and stayed awake on Red Bull rather than sleep somewhere random discovered that her son Ender's opinion of her outweighed every platinum record and label fight. Eights in growth move toward healthy Type 2 — learning that protection can be received as well as given. The fortress now has a four-year-old inside it who calls her 'Ash.'"
+    answer: "She has called it 'the absolute, glorious eradication and death of my ego.' The woman who carried her life in a duffel bag and stayed awake on Red Bull rather than sleep somewhere random discovered that her son Ender's opinion of her outweighed every platinum record and label fight. Eights in growth move toward healthy Type 2 — learning that protection can be received as well as given. The fortress now has a small child inside it who calls her 'Ash.'"
     anchor: 'the-absolute-glorious-eradication-of-my-ego'
 content_quality:
   hook: 9
@@ -305,7 +305,7 @@ She also played the arenas. The For My Last Trick tour was the highest-grossing 
 
 "There's a really humbling experience as a musician," she told Rolling Stone, "when you sing a song that you wrote ten years ago and you realize that it's still relevant, and you're like, 'I guess I haven't learned my goddamn lesson.'"
 
-She hasn't. She wrote _Badlands_ about being trapped in a mental landscape of neon and sin and revolving doors. A decade later, she's still there — still fighting labels, still managing a body that rebels against her, still splitting into Ashley and Halsey depending on what the moment requires. But the fortress has a door now. It has a four-year-old in it who calls her "Ash" instead of "mommy," and a fiancé who proposed with a joke instead of a diamond, and a discography that spans Dolly Parton impressions and hardcore punk yearbook quotes and a yogurt commercial she never finished.
+She hasn't. She wrote _Badlands_ about being trapped in a mental landscape of neon and sin and revolving doors. A decade later, she's still there — still fighting labels, still managing a body that rebels against her, still splitting into Ashley and Halsey depending on what the moment requires. But the fortress has a door now. It has a small child in it who calls her "Ash" instead of "mommy," and a fiancé who proposed with a joke instead of a diamond, and a discography that spans Dolly Parton impressions and hardcore punk yearbook quotes and a yogurt commercial she never finished.
 
 "I spent half my life being someone else," she said. "I never stopped to ask myself, 'If it all ended right now, is this a person you'd be proud to leave behind? Is it even you?'"
 

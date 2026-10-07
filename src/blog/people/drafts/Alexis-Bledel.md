@@ -235,7 +235,7 @@ She had appeared when the moment felt right to her. And disappeared when it didn
 
 ## Her Legacy
 
-At 43, Alexis Bledel has achieved something most Hollywood careers never produce: two iconic television roles, an Emmy, a son raised in near-complete privacy, and the freedom to work exactly when and how she chooses.
+In her mid-forties, Alexis Bledel has achieved something most Hollywood careers never produce: two iconic television roles, an Emmy, a son raised in near-complete privacy, and the freedom to work exactly when and how she chooses.
 
 She stumbled into acting because she didn't know who she was. She stayed because characters gave her boundaries she couldn't find in real life. She left because she'd finally learned something more valuable than any role could teach her — that the most powerful performance a Nine can give is **the one where they stop performing entirely.**
 

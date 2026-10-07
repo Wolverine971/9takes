@@ -194,7 +194,7 @@ He published the speech as a book. It became a bestseller. His strategist Jeff W
 
 This is the central paradox of his life. The man who has been right about income inequality for four decades — who warned about oligarchy before it was fashionable, who was talking about climate change before most politicians could spell it — has won almost none of the legislative battles he's fought. The economy got more unequal. The billionaires got richer. The healthcare system stayed broken.
 
-And he kept talking. At 83, he's on a "Fighting Oligarchy" tour with <a href="/personality-analysis/alexandria-ocasio-cortez">Alexandria Ocasio-Cortez</a> that has drawn over 261,000 people across the country. A Denver rally drew 34,000 — larger than any event during either of his presidential campaigns.
+And he kept talking. In 2025, at 83, he was on a "Fighting Oligarchy" tour with <a href="/personality-analysis/alexandria-ocasio-cortez">Alexandria Ocasio-Cortez</a> that drew over 261,000 people across the country. A Denver rally drew 34,000 — larger than any event during either of his presidential campaigns.
 
 The world hasn't changed. He hasn't changed. And the gap between those two facts is where the real story lives.
 

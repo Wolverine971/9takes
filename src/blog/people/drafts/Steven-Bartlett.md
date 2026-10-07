@@ -178,7 +178,7 @@ Expelled from Plymstock School. Dropped out of Manchester Metropolitan Universit
 
 By December 2025, [Spotify Wrapped](https://podcastrex.com/news/spotify-wrapped-2025-reveals-the-years-biggest-podcasts-and-a-new-no-1-in-the-uk) named The Diary of a CEO the most-listened-to podcast in the UK and the **second-largest in the world** — only [Joe Rogan](/personality-analysis/joe-rogan) ahead of him globally. Bartlett's [own reaction](https://x.com/StevenBartlett/status/1996504762997756394) was a tell: "what. the. f\*ck! 😳… i genuinely don't know how to say this, so I'm just going to word vomit it out… How f\*cking weird is that?"
 
-It's a weird thing. He's 33. Rogan is 58. Bartlett's typical guest — Esther Perel, Mo Gawdat, Gabor Maté, Andrew Huberman, Jordan Peterson, Daniel Amen — is twenty to forty years older than the host, often holds a doctorate the host does not, and is sitting opposite a man who attended one university lecture before dropping out. The reasonable question is: how does this work?
+It's a weird thing. In 2025 he was 33 and Rogan was 58. Bartlett's typical guest — Esther Perel, Mo Gawdat, Gabor Maté, Andrew Huberman, Jordan Peterson, Daniel Amen — is twenty to forty years older than the host, often holds a doctorate the host does not, and is sitting opposite a man who attended one university lecture before dropping out. The reasonable question is: how does this work?
 
 ### The booking machine
 
@@ -274,7 +274,7 @@ The parents arc rhymes with it. Bartlett now works alongside his mother and fath
 
 Type 3s who become more self-aware don't stop being Type 3s. They just get faster at catching themselves.
 
-Bartlett at 33 is still building. Still color-coding the calendar. Still scheduling time with Melanie as a recurring event. He's [started talking](https://dnyuz.com/2026/01/10/the-diary-of-a-ceo-host-steven-bartlett-explains-how-the-1-rule-has-led-to-big-results-at-his-company/) about a "1% rule" — embarrassingly small compounding improvements rather than heroic swings, which is what growth advice sounds like once you've been burned by the big-swing version. He's started calling health "the foundation upon which everything else sits." For most of his twenties, health was something you maintained so you could keep working. Now it's the premise. That's a Type 3 admitting the body isn't a tool you use to build the thing. The body is the thing.
+Bartlett in his thirties is still building. Still color-coding the calendar. Still scheduling time with Melanie as a recurring event. He's [started talking](https://dnyuz.com/2026/01/10/the-diary-of-a-ceo-host-steven-bartlett-explains-how-the-1-rule-has-led-to-big-results-at-his-company/) about a "1% rule" — embarrassingly small compounding improvements rather than heroic swings, which is what growth advice sounds like once you've been burned by the big-swing version. He's started calling health "the foundation upon which everything else sits." For most of his twenties, health was something you maintained so you could keep working. Now it's the premise. That's a Type 3 admitting the body isn't a tool you use to build the thing. The body is the thing.
 
 He says he wants to be a "good human." It's a strange line from someone running one of the largest podcasts on Earth — unless you've already run the experiment where net worth was supposed to answer that question and it didn't.
 

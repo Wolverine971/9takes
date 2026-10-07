@@ -240,7 +240,7 @@ Ariana's look is a case study in brand clarity. The high ponytail silhouette. Th
 
 She's translated that into actual empire. Her fragrance line with Luxe Brands launched in 2015 with Ari by Ariana Grande. Since then she's released 18 fragrances, including Cloud, Thank U Next, and God Is a Woman. By 2022, the fragrance line had crossed $1 billion in retail sales. One of the most successful celebrity perfume ventures ever.
 
-Then came r.e.m. beauty, launched in November 2021 with a space-age aesthetic and vegan, cruelty-free formulas. The brand generated $88.7 million in revenue in 2023, ranking as the fourth-wealthiest celebrity beauty brand according to Marie Claire. As of 2025, r.e.m. beauty is valued at over $500 million. When the brand partnered with Ulta, the retailer cited it as a key driver of their 21% sales surge in Q1 2022.
+Then came r.e.m. beauty, launched in November 2021 with a space-age aesthetic and vegan, cruelty-free formulas. The brand generated $88.7 million in revenue in 2023, ranking as the fourth-wealthiest celebrity beauty brand according to Marie Claire. In 2025, r.e.m. beauty was valued at over $500 million. When the brand partnered with Ulta, the retailer cited it as a key driver of their 21% sales surge in Q1 2022.
 
 Even in moments that aren't about music, she shows up like a founder. At the 2024 Paris Olympics, she leaned into r.e.m. beauty looks the way a CEO wears their own brand. The _Wicked_ tie-in collection ran like a product launch.
 

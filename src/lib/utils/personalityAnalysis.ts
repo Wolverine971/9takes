@@ -4,8 +4,46 @@ import personalityImageSlugMap from '$lib/generated/personalityImageSlugMap.json
 // A profile's canonical URL/image key is occasionally shorter than the public
 // name people search for. Keep those identities explicit instead of changing a
 // ranking URL or overloading the image-slug compatibility map.
+// Names the slug can't spell: accents, apostrophes, initials, internal capitals
+// and hyphens. personalityDisplayNames.spec.ts checks every published draft's
+// display name against the article's own spelling.
 const PERSONALITY_DISPLAY_NAME_OVERRIDES: Record<string, string> = {
-	ashby: 'Ashby Florence'
+	adela: 'Adéla',
+	'alexandria-ocasio-cortez': 'Alexandria Ocasio-Cortez',
+	'ana-de-armas': 'Ana de Armas',
+	'anya-taylor-joy': 'Anya Taylor-Joy',
+	ashby: 'Ashby Florence',
+	'beyonce-knowles': 'Beyoncé Knowles',
+	'charli-damelio': "Charli D'Amelio",
+	'charli-xcx': 'Charli XCX',
+	'conan-obrien': "Conan O'Brien",
+	'dixie-damelio': "Dixie D'Amelio",
+	'dr-phil': 'Dr. Phil',
+	'ellen-degeneres': 'Ellen DeGeneres',
+	'george-h-w-bush': 'George H.W. Bush',
+	'george-rr-martin': 'George R.R. Martin',
+	'george-w-bush': 'George W. Bush',
+	'jk-rowling': 'J.K. Rowling',
+	'john-d-rockefeller': 'John D. Rockefeller',
+	'john-f-kennedy': 'John F. Kennedy',
+	'khloe-kardashian': 'Khloé Kardashian',
+	'leonardo-da-vinci': 'Leonardo da Vinci',
+	'lupita-nyongo': "Lupita Nyong'o",
+	'marcello-hernandez': 'Marcello Hernández',
+	'michael-b-jordan': 'Michael B. Jordan',
+	'mr-beast': 'MrBeast',
+	'mr-rogers': 'Mister Rogers',
+	'odessa-azion': "Odessa A'zion",
+	'patrick-bet-david': 'Patrick Bet-David',
+	'penelope-cruz': 'Penélope Cruz',
+	'rachel-mcadams': 'Rachel McAdams',
+	'sam-bankman-fried': 'Sam Bankman-Fried',
+	'samuel-l-jackson': 'Samuel L. Jackson',
+	'stephen-a-smith': 'Stephen A. Smith',
+	'timothee-chalamet': 'Timothée Chalamet',
+	'tyler-the-creator': 'Tyler, The Creator',
+	'vincent-van-gogh': 'Vincent van Gogh',
+	'zoe-kravitz': 'Zoë Kravitz'
 };
 
 // Version portraits that were added or replaced after their original URLs reached

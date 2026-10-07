@@ -204,7 +204,7 @@ Acting, for Ford, is the same transaction. He told Jason Segel this directly. Se
 
 <div class="pull-quote">
 
-He is 83, the most famous actor of his generation, and the metaphor he uses for his craft is still the one he used when he was 28 and broke.
+He is in his eighties, the most famous actor of his generation, and the metaphor he uses for his craft is still the one he used when he was 28 and broke.
 
 </div>
 

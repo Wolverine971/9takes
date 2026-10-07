@@ -281,9 +281,9 @@ For an 8, publicly saying "I am saved" is still seismic. A man who once said "I 
 
 ## The Comeback That Hasn't Happened Yet
 
-As of March 2026, McGregor hasn't fought in the UFC since the broken leg in July 2021. An 18-month anti-doping suspension for missed tests pushes his eligibility to March 20, 2026. There are rumors about a UFC White House card in June 2026, part of America's 250th anniversary celebration.
+In March 2026, McGregor hadn't fought in the UFC since the broken leg in July 2021. An 18-month anti-doping suspension for missed tests pushed his eligibility to March 20, 2026. There were rumors about a UFC White House card in June 2026, part of America's 250th anniversary celebration.
 
-He's 37 years old. He has $200 million. Four children. A marriage. A faith testimony. A body held together by titanium and willpower. Every rational argument says walk away.
+In March 2026 he was 37 years old. He had $200 million. Four children. A marriage. A faith testimony. A body held together by titanium and willpower. Every rational argument says walk away.
 
 But the rational argument has never been the operating system.
 

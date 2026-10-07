@@ -213,7 +213,7 @@ Speed didn't dip a toe into music. He cannonballed. **"Shake"** hit 211 million 
 
 The songs aren't high art. They don't need to be. Each one is a territory marker. Beating Lil Baby in three hours isn't an artistic statement; it's a power move.
 
-February 2025: WWE Royal Rumble. Speed landed a perfect backflip, helped eliminate Otis, then got speared through a table by Bron Breakker. His response: he called out Roman Reigns and Rey Mysterio for next year. Getting destroyed didn't humble him. It made him hungrier.
+February 2025: WWE Royal Rumble. Speed landed a perfect backflip, helped eliminate Otis, then got speared through a table by Bron Breakker. His response: he called out Roman Reigns and Rey Mysterio for the following year's event. Getting destroyed didn't humble him. It made him hungrier.
 
 The body had changed too. Starting around early 2024, Speed quietly committed to a physical transformation: 50 pull-ups a day, six workouts a week, a 225-pound bench press that eventually climbed to 300. The kid who once projected strength through volume alone was now building it into bone and muscle. He raced Noah Lyles in a 50-meter dash. He ran a 4.49-second 40-yard dash in front of Tom Brady, who said: "_Oh my God. That's unbelievable._" Randy Orton, after training him at the WWE Performance Center, said he could be a full-time WWE superstar. The armor was no longer just noise. He was making it physical.
 

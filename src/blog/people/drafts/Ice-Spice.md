@@ -232,7 +232,7 @@ The deepest tell is how she talks about her own work ethic. In the _Rolling Ston
 
 > "He never wanted a day off, even when Mr. Krabs would tell him, 'Go the fuck home.'"
 
-She is twenty-four years old telling a reporter that her spirit animal is a cartoon sponge who won't stop flipping Krabby Patties. Read it twice. That is not irony. That is a Type 3 confessing the engine without saying the word "workaholic."
+She was in her mid-twenties when she told a reporter that her spirit animal is a cartoon sponge who won't stop flipping Krabby Patties. Read it twice. That is not irony. That is a Type 3 confessing the engine without saying the word "workaholic."
 
 She adds, in the same interview: "It just feels like time is fleeting, so I have to take advantage of the time I do have now." The calm face, the Bronx drawl, the deadpan — all of it sits on top of a clock ticking very fast underneath.
 
@@ -288,7 +288,7 @@ Even the [Drake](/personality-analysis/drake) tabloid loop behaves the same way.
 
 She has stated her thesis on the record, more than once, in the same flat tone. The interviewers keep laughing at it like it is a catchphrase. It is not a catchphrase. It is her theory of her own life, spoken calmly at a volume nobody can accuse of bragging, in one minute forty-nine seconds or less, on loop.
 
-The Bronx girl who Googled "how to be rich" is twenty-four now. The album wobbled. The hair is still orange. The songs are still short. The next viable moment is already being planned. Munch is still 1:49. It never had to be longer.
+The Bronx girl who Googled "how to be rich" is in her mid-twenties now. The album wobbled. The hair is still orange. The songs are still short. The next viable moment is already being planned. Munch is still 1:49. It never had to be longer.
 
 <!-- FRESH-EYES READER REVIEW (DJ — added 2026-04-23)
 

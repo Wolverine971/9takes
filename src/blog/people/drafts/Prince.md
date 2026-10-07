@@ -241,7 +241,7 @@ Underneath Paisley Park, his purpose-built complex in Chanhassen, Minnesota, Pri
 Sit with that number. This is a man who recorded more music than the industry could ever release, and locked most of it away where no one could touch it. The vault is the whole personality in architecture: an inner world so overflowing that the public only ever heard the runoff.
 
 <div class="key-stat">
-<div class="key-stat-row"><strong>~45%</strong> of Prince's vault has been archived and digitized as of 2025, per the estate. The rest is still sealed.</div>
+<div class="key-stat-row">By 2025, <strong>~45%</strong> of Prince's vault had been archived and digitized, per the estate. The rest was still sealed.</div>
 </div>
 
 Rogers, who watched him work through his commercial peak, refused the myth of the untouchable genius. "He was not a lordly type," she said. "He was a working man. He had a strong work ethic." He recorded through the night, alone, playing every part himself, the way he had since the basement. His 1978 debut, _For You_, carried a credit almost no one else in pop could claim: "produced, arranged, composed and performed by Prince." He was nineteen and had played all 27 instruments listed on the sleeve.

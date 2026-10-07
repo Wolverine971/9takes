@@ -286,7 +286,7 @@ Chelsea now describes solitude differently. She gets up at six. She stretches. S
 
 "I am in a different phase in my life," she said. "I've been to a lot of therapy and have been given the gift of self-awareness so I'm a lot softer, gentler, more compassionate person."
 
-Softer. Gentler. More compassionate. Words that would have been insults to the woman who hosted _Chelsea Lately_. Words that the woman who turns fifty uses as evidence of progress.
+Softer. Gentler. More compassionate. Words that would have been insults to the woman who hosted _Chelsea Lately_. Words that the woman who turned fifty uses as evidence of progress.
 
 But she hasn't gone soft in any way that the old Chelsea would have feared. She's still the person who will tell you exactly what she thinks. She still thrives on confrontation. She still gets up at six regardless of what happened the night before. She just doesn't pretend anymore that the armor is who she is.
 

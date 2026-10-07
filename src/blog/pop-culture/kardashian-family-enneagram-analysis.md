@@ -1,7 +1,7 @@
 ---
 title: 'The Kardashian Family Enneagram: How Each Type Built a Billion Dollar Dynasty'
-meta_title: 'Kardashian Enneagram Types: The Psychology Behind the Dynasty'
-description: 'Kris the Type 3 Momager. Kim the Image Queen. Rob the one who disappeared. Why men who date Kardashians spiral. Decode the psychology behind the empire.'
+meta_title: 'Kardashian Personality Types: Kim, Kris & Family Enneagram'
+description: 'Kim and Kris read as Type 3s, Kourtney a 1, Khloé a 2, Kendall a 6, Kylie and Rob 9s. The pattern behind each, updated for The Kardashians season 8.'
 author: 'DJ Wayne'
 date: '2026-05-09'
 loc: 'https://9takes.com/pop-culture/kardashian-family-enneagram-analysis'
@@ -54,12 +54,12 @@ path: src/blog/pop-culture/kardashian-family-enneagram-analysis.md
           "name": "Are the Kardashians actually this psychologically complex?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Every human has psychological architecture. The Kardashians' just plays out on camera. Their types emerged through childhood experiences, family dynamics, and individual temperament—same as everyone else."
+            "text": "Yes. Every human has psychological architecture. The Kardashians' just plays out on camera. Type patterns are often thought to grow out of temperament, family dynamics, and childhood experience, the same as everyone else's."
           }
         },
         {
           "@type": "Question",
-          "name": "Why is there no Type 5, 7, or 8 in the immediate family?",
+          "name": "Why is there no Type 5, 7, or 8 among Kris and her children?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Families often cluster around certain types. The Kardashian system rewards Types 1, 2, 3, 6, and 9 (perfecting, helping, achieving, securing, and smoothing). Types that value pure withdrawal (5), stimulation-seeking (7), or open dominance (8) tend not to thrive in a matriarchal performance culture where every conflict becomes content. Scott Disick (likely Type 7) is arguably the closest—and we saw how that worked out."
@@ -70,7 +70,7 @@ path: src/blog/pop-culture/kardashian-family-enneagram-analysis.md
           "name": "What about Robert Kardashian Sr.?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Robert was likely a Type 6 (Loyalist)—security-focused, devoted to his family, professionally successful in law. His death in 2003 shaped all his children's psychology. Kim, Kourtney, Khloé, and Rob lost their father during formative years. That loss echoes through their adult patterns."
+            "text": "Robert was likely a Type 6 (Loyalist)—security-focused, devoted to his family, professionally successful in law. He died in 2003, when Kourtney, Kim, Khloé, and Rob were 24, 22, 19, and 16. A loss like that can echo through adult patterns for years."
           }
         },
         {
@@ -156,9 +156,9 @@ Before we decode each type, let's address what critics get right—and wrong.
 
 If you hate the Kardashians, you're not entirely wrong. Let's be honest about the legitimate criticisms before we explain the psychology:
 
-**The exploitation question:** Did Kris turn her children into products? Type 3s can unconsciously treat people as extensions of their achievement. The line between "supportive manager mom" and "exploitative stage parent" is genuinely blurry. When your daughter's sex tape becomes a business opportunity, that's worth examining.
+**The exploitation question:** Did Kris turn her children into products? Type 3s can unconsciously treat people as extensions of their achievement. The line between "supportive manager mom" and "exploitative stage parent" is genuinely blurry. When a daughter's leaked sex tape becomes the family's origin story, that's worth examining.
 
-**The beauty standard impact:** Kim's aesthetic—surgically enhanced, heavily contoured, impossibly proportioned—influenced a generation. BBL procedures increased dramatically through the 2010s. Young women developed eating disorders trying to achieve bodies that don't exist without surgery. That's not neutral. That's consequential.
+**The beauty standard impact:** Kim's aesthetic (heavily contoured, impossibly proportioned, widely read as surgical) influenced a generation. BBL procedures increased dramatically through the 2010s. That's not neutral. That's consequential.
 
 **The privilege foundation:** They didn't start from nothing. Robert Kardashian Sr. was a wealthy attorney who defended O.J. Simpson. They had money, connections, and proximity to fame before any reality show. The bootstrap narrative is partially myth.
 
@@ -178,13 +178,13 @@ Now let's decode the types.
 
 But where does that drive come from?
 
-Type 3s typically develop from childhoods where love felt conditional on performance. Somewhere, young Kris learned: _you're valuable when you achieve. You're invisible when you don't._
+Many Type 3s describe childhoods where love seemed to depend on performance. The lesson that pattern can teach: _you're valuable when you achieve. You're invisible when you don't._
 
-Her first marriage to Robert Kardashian gave her stability and status. When that ended, she learned a harder lesson: security comes from what _you_ build yourself. Then Robert died of esophageal cancer in 2003—just eight weeks after diagnosis—leaving four teenagers without their father.
+Kris's first marriage to Robert Kardashian gave her stability and status. When that ended, the harder lesson seemed to be that security comes from what _you_ build yourself. Then Robert died of esophageal cancer in 2003, about eight weeks after his diagnosis. Their four children were 16, 19, 22, and 24.
 
 Kris's response? Control what you can. Build something no one can take away.
 
-Kris Jenner is a Type 3 operating at full power because she learned early that loss is inevitable and achievement is the only hedge against irrelevance.
+Kris Jenner reads like a Type 3 at full power: someone who may have concluded that loss is inevitable and achievement is the only hedge against irrelevance.
 
 After Robert Kardashian's prominence during the O.J. Simpson trial and her tumultuous marriage to Caitlyn Jenner (then Bruce), Kris transformed family dysfunction into family business. Every scandal became content. Every child became a revenue stream. Every tragedy became a storyline.
 
@@ -199,7 +199,7 @@ After Robert Kardashian's prominence during the O.J. Simpson trial and her tumul
 
 Kris famously takes 10% of her children's earnings as their manager. This isn't greed. It's Type 3 psychology. Her worth is tied to their success. By making their careers her career, she ensures she's always relevant, always needed, always achieving.
 
-When Kim's sex tape leaked in 2007, most parents would have seen disaster. Kris saw distribution opportunity. This isn't heartless. It's Type 3 reframing: every setback is a setup for a comeback.
+When Kim's sex tape leaked in 2007, critics claimed Kris saw a distribution opportunity. That claim is contested; in October 2025, Kris and Kim sued Ray J for defamation over his public accusations against them. What's on the record: eight months after the leak, Kris had her family on E!. That's Type 3 reframing: every setback is a setup for a comeback.
 
 > "If somebody says 'no,' you're talking to the wrong person.": Kris Jenner
 
@@ -222,22 +222,22 @@ Kim shares her mother's Type 3 core but adds a Type 4 wing, making her not just 
 - **Emotional depth under the surface:** Her prison reform work reveals genuine feeling
 - **Competitive with siblings:** Must be the most successful AND the most distinctive
 
-### From Sex Tape to Law Student: The Numbers Tell the Story
+### From Sex Tape to the Bar Exam: The Numbers Tell the Story
 
 Kim's evolution from reality star to criminal justice advocate confuses people who see her as shallow. But it makes perfect sense for a Type 3w4—and the achievements are real:
 
 | Achievement               | The Numbers                            |
 | ------------------------- | -------------------------------------- |
-| SKIMS valuation           | $4 billion (2023)                      |
-| Instagram followers       | 360+ million                           |
+| SKIMS valuation           | $5 billion (November 2025)             |
+| Instagram followers       | About 350 million                      |
 | People freed from prison  | 17+ through direct advocacy            |
 | Baby bar attempts         | Passed on 4th try while raising 4 kids |
-| KKW Beauty sale           | $200 million to Coty                   |
+| KKW Beauty stake          | 20% sold to Coty for $200 million      |
 | Time 100 Most Influential | Named in 2015                          |
 
 Type 3s need achievement. Type 4 wings need meaning. As Kim aged, pure fame wasn't enough. She needed to matter—to be seen as substantive, not just beautiful.
 
-The law study isn't random. It's psychological evolution. Her Type 3 needs success validation. Her Type 4 wing needs to feel special and purposeful. The criminal justice work accomplishes both: it's impressive AND meaningful.
+The criminal justice work satisfies both: it's impressive AND meaningful.
 
 Whether you think she's genuinely committed or just rebranding, the results—actual humans freed from unjust sentences—are tangible.
 
@@ -374,11 +374,11 @@ Kendall's entire life is an architecture of safety.
 
 Kendall's anxiety has, at times, been so overpowering she couldn't get on transatlantic flights without a family member sitting beside her. The woman whose career depends on projecting effortless composure was gripping armrests at 35,000 feet, certain her heart was failing.
 
-That single detail tells you more about her than any Vogue cover. The aloofness isn't attitude. It's a security system, built by someone who was placed on camera at ten and never got to decide when the watching would stop.
+That single detail tells you more about her than any Vogue cover. The aloofness isn't attitude. It's a security system, built by someone who was placed on camera at eleven and never got to decide when the watching would stop.
 
 > "I was born into this life, but I didn't choose this life. I'm not built for this by any means.": Kendall Jenner
 
-She had the fewest appearances of any sibling across 20 seasons of the show. That wasn't laziness or scheduling. That was a Type 6 rationing access — controlling the one variable she could.
+Her guardedness on the show reads the same way. It looks less like laziness or scheduling than a Type 6 rationing access, controlling the one variable she could.
 
 ### "She Lets Me Call Her Dad"
 
@@ -396,9 +396,9 @@ By 2024 she'd been two years panic-attack-free. She announced it like a sobriety
 
 ### America's Most Visible Ghost
 
-The most-followed woman to walk the Golden Globes red carpet didn't walk it. She snuck in through a side entrance in a silver gown so her boyfriend, [Timothée Chalamet](/personality-analysis/timothee-chalamet), could have his moment alone. She'd done the same thing the year before. And the year before that. Three consecutive Golden Globes, three red carpets erased. What that spotlight does to Chalamet himself gets its own section in [inside the heartthrob machine](/pop-culture/hollywood-heartthrobs-enneagram-analysis).
+The second-most-followed woman on Instagram didn't walk the Golden Globes red carpet. She snuck in through a side entrance in a silver gown so her boyfriend, [Timothée Chalamet](/personality-analysis/timothee-chalamet), could have his moment alone. She'd done the same thing the year before. And the year before that. Three consecutive Golden Globes, three red carpets erased. What that spotlight does to Chalamet himself gets its own section in [inside the heartthrob machine](/pop-culture/hollywood-heartthrobs-enneagram-analysis).
 
-This is not shyness. It's the strategy you develop when you're the youngest in a family where every personality slot is already taken and every conflict gets turned into content.
+It may not be shyness. It looks like a strategy a youngest child can develop in a family where every personality slot is already taken and every conflict gets turned into content.
 
 [Enneagram Type 9s](/enneagram-corner/enneagram-type-9) — Peacekeepers — organize their lives around one goal: avoiding conflict. Their core fear is loss and fragmentation. Their survival strategy is merging: absorbing the emotions, habits, and priorities of whoever sits closest until they become almost invisible. Their superpower is creating calm. Their blind spot is forgetting themselves in the process.
 
@@ -415,7 +415,7 @@ Kylie didn't just grow up with this pattern. She built an empire on it.
 
 At fifteen, a boy told Kylie her lips were too small to kiss. She rebuilt her face. The fillers became a global trend. The brand they birthed, Kylie Cosmetics, sold 51% to Coty in 2019 for $600 million.
 
-The empire is real. So is the wound underneath it. Type 9s absorb external opinion the way other people breathe — and Kylie absorbed one boy's offhand cruelty so deeply it reshaped beauty standards for a generation.
+The empire is real. So, by her own account, is the insecurity underneath it. Type 9s often absorb outside opinion the way other people breathe, and one boy's offhand cruelty seems to have stuck with Kylie long enough to reshape her face, and then a generation's beauty standards.
 
 > "I think I lost a lot of parts of myself.": Kylie Jenner
 
@@ -439,15 +439,15 @@ There was no public attack. No scorched-earth posts. Kylie went quiet, withdrew,
 
 ### The Kris-Kim Axis of Power
 
-Kris (Type 3) and Kim (Type 3w4) form the family's power center because they share achievement drive. They understand each other's ambition intuitively. When they align, the family business thrives. When they conflict, it's about whose success matters more.
+Kris (Type 3) and Kim (Type 3w4) form the family's power center because they share achievement drive. When they align, the family business thrives. When they conflict, it's about whose success matters more.
 
 ### The Kourtney Outsider
 
-Kourtney (Type 1) often feels like she's in the wrong family. Her values (authenticity, health, doing things "right") clash with the family's core business (image, entertainment, monetization). Her recurring desire to leave the show is Type 1 moral exhaustion.
+Kourtney (Type 1) often seems to feel like she's in the wrong family. Her values (authenticity, health, doing things "right") clash with the family's core business, and her recurring desire to leave the show reads as Type 1 moral exhaustion.
 
 ### The Khloé Stabilizer
 
-Khloé (Type 2) keeps the family functioning emotionally. She's the one siblings call during crises. She's also the one most damaged by family chaos because Type 2s absorb everyone's pain.
+Khloé (Type 2) keeps the family functioning emotionally. She's the one siblings call during crises. She may also take the most damage from family chaos, because Type 2s tend to absorb everyone's pain.
 
 ### The Younger Generation Divide
 
@@ -466,13 +466,13 @@ Why do men who date Kardashians seem to spiral? Tabloids call it the "Kardashian
 
 ### The Pattern, Decoded
 
-| Partner          | Who They Dated    | What Happened                         | The Type Dynamic                                                               |
-| ---------------- | ----------------- | ------------------------------------- | ------------------------------------------------------------------------------ |
-| Lamar Odom       | Khloé (Type 2)    | Addiction spiral, near-death          | Type 2 over-giving → partner doesn't develop self-reliance                     |
-| Scott Disick     | Kourtney (Type 1) | Addiction, erratic behavior           | Type 1 criticism → partner feels constantly inadequate                         |
-| Tristan Thompson | Khloé (Type 2)    | Serial infidelity                     | Type 2 forgiveness → no consequences for behavior                              |
-| Kanye West       | Kim (Type 3)      | Mental health crisis, divorce         | Type 3 outshining → partner feels emasculated by her fame                      |
-| Travis Scott     | Kylie (Type 9)    | On-off for five years, eventual split | Type 9 merging → loses herself in his world, can't fully assert what she wants |
+| Partner          | Who They Dated    | What Happened                 | The Type Dynamic                                                               |
+| ---------------- | ----------------- | ----------------------------- | ------------------------------------------------------------------------------ |
+| Lamar Odom       | Khloé (Type 2)    | Addiction spiral, near-death  | Type 2 over-giving → partner doesn't develop self-reliance                     |
+| Scott Disick     | Kourtney (Type 1) | Addiction, erratic behavior   | Type 1 criticism → partner feels constantly inadequate                         |
+| Tristan Thompson | Khloé (Type 2)    | Serial infidelity             | Type 2 forgiveness → no consequences for behavior                              |
+| Kanye West       | Kim (Type 3)      | Mental health crisis, divorce | Type 3 outshining → partner feels emasculated by her fame                      |
+| Travis Scott     | Kylie (Type 9)    | On and off from 2017 to 2023  | Type 9 merging → loses herself in his world, can't fully assert what she wants |
 
 ### Scott Disick: The Extended Family Case Study
 
@@ -500,6 +500,8 @@ The Kardashian family system has specific properties:
 
 For men with their own psychological vulnerabilities—addiction, narcissism, insecurity—this environment amplifies rather than heals.
 
+Travis Barker is the counterexample the tabloids skip. He married Kourtney in 2022, their son Rocky was born in 2023, and the marriage has held up on camera ever since. Same family, same cameras, same matriarch. The difference is the partner.
+
 The "curse" is really just incompatible psychology + maximum pressure + zero privacy.
 
 ## Why the Dynasty Works
@@ -518,7 +520,15 @@ The Kardashian empire succeeds because these personality types complement each o
 
 The family fights that drive ratings aren't dysfunction—they're the natural friction of these types rubbing against each other. The drama IS the product.
 
-But notice Rob in that table. His withdrawal isn't separate from the dynasty's success. It's the price of it. Every empire has casualties. The Kardashian machine works precisely because most family members adapted to its demands. Rob shows what happens when you can't.
+But notice Rob in that table. His withdrawal isn't separate from the dynasty's success. It's the price of it. The Kardashian machine works precisely because most family members adapted to its demands. Rob shows what happens when you can't.
+
+## Where They Are in 2026
+
+Season 8 of _The Kardashians_ (Hulu, October 8, 2026) puts Kim's health in the frame: its trailer cuts to her in a hospital bed as she reveals she has esophagitis. Here's where the storylines stood at the start of the season:
+
+- **Kim** has been romantically linked to Lewis Hamilton since early 2026; they first appeared together at the Super Bowl in February. She finished her law apprenticeship in 2025, failed the July 2025 California bar exam, and is reportedly waiting until 2027 to try again. Her Hulu legal drama _All's Fair_ was panned by critics and renewed for a second season anyway. The Type 3 engine doesn't stop for bad reviews.
+- **Kourtney** is married to Travis Barker, and their son Rocky was born in 2023. That marriage is the hole in the "curse" theory above.
+- **Rob** made a rare appearance in season 7, joining the family to say goodbye to the home featured on _Keeping Up_. The 9 who disappeared showed up for the goodbye.
 
 ## Lessons from the Kardashian Enneagram
 
@@ -537,7 +547,7 @@ Each Kardashian demonstrates their type's superpower and shadow. Here's what we 
 Notice that every "shadow" involves losing connection—to self, to others, or to reality. The Kardashians succeed professionally because they lean into their type's strengths. They struggle personally when those same strengths become prisons.
 
 - Kris's achievement drive built an empire but may have cost her children's authentic development
-- Kim's image focus created a brand worth billions but nearly cost her marriage
+- Kim's image focus created a brand worth billions, but her marriage ended in a very public divorce
 - Kourtney's standards created Poosh but isolated her from family
 - Khloé's giving nature made her beloved but left her repeatedly hurt
 - Kendall's vigilance kept her safe but left her crying herself to sleep in hotel rooms across three months of fashion weeks
@@ -550,15 +560,15 @@ The question isn't whether you have these patterns. You do. The question is whet
 
 **Are the Kardashians actually this psychologically complex?**
 
-Yes. Every human has psychological architecture. The Kardashians' just plays out on camera. Their types emerged through childhood experiences, family dynamics, and individual temperament—same as everyone else.
+Yes. Every human has psychological architecture. The Kardashians' just plays out on camera. Type patterns are often thought to grow out of temperament, family dynamics, and childhood experience, the same as everyone else's.
 
-**Why is there no Type 5, 7, or 8 in the immediate family?**
+**Why is there no Type 5, 7, or 8 among Kris and her children?**
 
 Families often cluster around certain types. The Kardashian system rewards Types 1, 2, 3, 6, and 9 (perfecting, helping, achieving, securing, and smoothing). Types that value pure withdrawal (5), stimulation-seeking (7), or open dominance (8) tend not to thrive in a matriarchal performance culture where every conflict becomes content. Scott Disick (likely Type 7) is arguably the closest—and we saw how that worked out.
 
 **What about Robert Kardashian Sr.?**
 
-Robert was likely a Type 6 (Loyalist)—security-focused, devoted to his family, professionally successful in law. His death in 2003 shaped all his children's psychology. Kim, Kourtney, Khloé, and Rob lost their father during formative years. That loss echoes through their adult patterns.
+Robert was likely a Type 6 (Loyalist)—security-focused, devoted to his family, professionally successful in law. He died in 2003, when Kourtney, Kim, Khloé, and Rob were 24, 22, 19, and 16. A loss like that can echo through adult patterns for years.
 
 **Why do their relationships keep failing?**
 

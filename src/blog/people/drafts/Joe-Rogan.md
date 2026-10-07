@@ -120,7 +120,7 @@ And underneath both — the reason the whole pattern is so intense in the first 
 <ul>
 <li><b>The abandoned kid who armored up:</b> Father gone by age 7, stepfather who showed him a different model of manhood — and a very specific moment, age five, that wired everything that came after.</li>
 <li><b>Anger as engine, not outburst:</b> Joe's gut-center anger doesn't explode the way people expect. It gets refined — turned into jiu-jitsu reps, long-form interrogations, businesses that can't be taken from him.</li>
-<li><b>Power as survival:</b> Martial arts champion by 19, still trains jiu-jitsu at 58, co-built Onnit into a nine-figure exit, media empire with no corporate owner.</li>
+<li><b>Power as survival:</b> Martial arts champion by 19, still trains jiu-jitsu in his late fifties, co-built Onnit into a nine-figure exit, media empire with no corporate owner.</li>
 <li><b>Loyalty to truth over tribe:</b> Endorsed Trump, then publicly torched his immigration policies within months. Declared himself "politically homeless" by April 2026.</li>
 <li><b>The protector instinct:</b> Renegotiated Spotify for freedom over money, built Comedy Mothership, hunts his own food, won't leave his daughters for more than three days.</li>
 </ul>
@@ -159,7 +159,7 @@ Who does that? Who goes on the biggest podcast in the world and tells 200 millio
 
 A Type 8 who has stopped flinching from his own anger and started studying it. Which is the best version of Type 8 you can get.
 
-This is why the sauna makes sense. 190 degrees, four times a week. Cold plunge at 34 degrees every morning. Jiu-jitsu at 58. Bow hunting his own food. Kettlebells never to failure. The body as a pressure valve. If you don't give the anger somewhere to go, it comes out in the room.
+This is why the sauna makes sense. 190 degrees, four times a week. Cold plunge at 34 degrees every morning. Jiu-jitsu in his late fifties. Bow hunting his own food. Kettlebells never to failure. The body as a pressure valve. If you don't give the anger somewhere to go, it comes out in the room.
 
 Joe gave it somewhere to go.
 
@@ -197,7 +197,7 @@ Joe found comedy.
 
 In 1996, he walked into Jean Jacques Machado's jiu-jitsu academy and got humbled immediately. A different kind of fighting: slower, more cerebral, where a smaller person with better technique can control a bigger one. By 2010, he'd earned black belts from Machado (gi) and Eddie Bravo (no-gi, 10th Planet).
 
-He still trains at 58. Jiu-jitsu, Muay Thai, cycling through disciplines the way he cycles through podcast guests. The dojo that saved him at 14 never stopped saving him.
+He still trains in his late fifties. Jiu-jitsu, Muay Thai, cycling through disciplines the way he cycles through podcast guests. The dojo that saved him at 14 never stopped saving him.
 
 ## How Comedy Replaced the Dojo
 
@@ -357,7 +357,7 @@ The strongest alternate read is **8w9**, not a different core type. 8w9 advocate
 
 The next alternate case is **Type 6 counterphobic**. Counterphobic 6s look almost identical to 8s from the outside — they charge at threats, they confront authority, they build loyalty structures. The tell: 6s scan for an _authority_ to either rely on or rebel against. 8s don't. Joe's default move is to trust himself over every expert, every institution, every tribe. A 6 in that situation would have eventually anchored to _some_ authority — a politician, a guru, a framework. Joe keeps floating free, "politically homeless," suspicious of any structure that wants his loyalty. That's 8, not 6.
 
-**Type 7** comes up because of the appetite — psychedelics, hunting, comedy, multiple businesses, new guests every week. But 7s flee pain. Joe walks into it: 190° sauna, 34° plunge, jiu-jitsu at 58, admitting on the biggest podcast in the world that he's scared of his own capacity for violence. 7s would never sit with that admission. They'd reframe, rationalize, redirect toward something pleasurable. Joe's 7-wing flavors his 8 core. It doesn't replace it.
+**Type 7** comes up because of the appetite — psychedelics, hunting, comedy, multiple businesses, new guests every week. But 7s flee pain. Joe walks into it: 190° sauna, 34° plunge, jiu-jitsu in his late fifties, admitting on the biggest podcast in the world that he's scared of his own capacity for violence. 7s would never sit with that admission. They'd reframe, rationalize, redirect toward something pleasurable. Joe's 7-wing flavors his 8 core. It doesn't replace it.
 
 **Type 3** gets floated because of the empire. But 3s optimize for image and validation. Joe turned down the Golden Globe submission, gave up exclusivity money at Spotify, and said publicly he's "not a respected source of information, even for me." A 3 at his scale would be collecting awards, polishing narrative, managing perception at every turn. Joe refuses the game. That's 8.
 
@@ -475,7 +475,7 @@ Sometimes the sparring partner lands a clean shot. The question is whether you l
 
 > "Be the hero of your own story."
 
-Joe Rogan built the world's biggest conversation platform. He endorsed a president and criticized him within months. He left California because the government told him how to live. He created a comedy club so others would have a stage. He hunts his own food with a bow. He still rolls jiu-jitsu at 58. He platforms flat-earthers and physicists in the same week because he trusts himself — and his audience — to sort through it.
+Joe Rogan built the world's biggest conversation platform. He endorsed a president and criticized him within months. He left California because the government told him how to live. He created a comedy club so others would have a stage. He hunts his own food with a bow. He still rolls jiu-jitsu in his late fifties. He platforms flat-earthers and physicists in the same week because he trusts himself — and his audience — to sort through it.
 
 And the same force that built all of it — the self-trust, the directness, the refusal to defer — is the thing that sometimes blinds him. But he knows that. **"I'm not a respected source of information, even for me."**
 

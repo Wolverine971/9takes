@@ -1,0 +1,2115 @@
+{
+	"generatedAt": "2026-10-06T22:52:08.177Z",
+	"asOf": "2026-10-06",
+	"source": "db",
+	"minSeverity": "medium",
+	"profilesScanned": 451,
+	"findings": [
+		{
+			"person": "jk-rowling",
+			"where": "content",
+			"sentence": "The disease that killed Anne at forty-five is now the clinic's primary research focus.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "at forty-five",
+			"detail": "present-tense age 45 that doesn't match the subject (61); likely about someone else and stale-prone"
+		},
+		{
+			"person": "chelsea-handler",
+			"where": "content",
+			"sentence": "Words that the woman who turns fifty uses as evidence of progress.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "turns fifty",
+			"detail": "written as current (50); subject is 51 as of 2026-10-06"
+		},
+		{
+			"person": "ellen-degeneres",
+			"where": "content",
+			"sentence": "Critics split, some finding it self-serving, but the framing is the point: at 66, she still narrated her life as a bid to be accepted back into the room.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "at 66",
+			"detail": "written as current (66); subject is 68 as of 2026-10-06"
+		},
+		{
+			"person": "khloe-kardashian",
+			"where": "content",
+			"sentence": "Tatum is now three.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is now three",
+			"detail": "present-tense age 3 that doesn't match the subject (42); likely about someone else and stale-prone"
+		},
+		{
+			"person": "meryl-streep",
+			"where": "content",
+			"sentence": "Meryl at Seventy-Six",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at Seventy-Six",
+			"detail": "\"at Seventy-Six\" matched the subject around when the page was written (2025); subject is now 77"
+		},
+		{
+			"person": "pete-davidson",
+			"where": "content",
+			"sentence": "A seven-year-old who lost his father, still searching for that presence in every room.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "seven-year-old",
+			"detail": "present-tense age 7 that doesn't match the subject (32); likely about someone else and stale-prone"
+		},
+		{
+			"person": "tom-hardy",
+			"where": "content",
+			"sentence": "Hardy at 47: The Current Phase",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 47",
+			"detail": "\"at 47\" matched the subject around when the page was written (2024); subject is now 49"
+		},
+		{
+			"person": "tom-hardy",
+			"where": "content",
+			"sentence": "At 47, Hardy is in the most prolific stretch of his career.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At 47",
+			"detail": "\"At 47\" matched the subject around when the page was written (2024); subject is now 49"
+		},
+		{
+			"person": "tom-hardy",
+			"where": "faq 1 answer",
+			"sentence": "The pattern shows in his own admission that 'everything that I play is what scared me' — the boy who felt small, skinny, and preyed upon built armor through 42 pounds of muscle for Bronson, voices engineered as psychological weapons, a crack addiction pushed to the limit before 20-plus years of sobriety, and a competitive Brazilian jiu-jitsu purple belt at 47.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 47",
+			"detail": "\"at 47\" matched the subject around when the page was written (2024); subject is now 49"
+		},
+		{
+			"person": "casey-neistat",
+			"where": "content",
+			"sentence": "He's 43.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "He's 43",
+			"detail": "written as current (43); subject is 45 as of 2026-10-06"
+		},
+		{
+			"person": "joe-rogan",
+			"where": "content",
+			"sentence": "Power as survival: Martial arts champion by 19, still trains jiu-jitsu at 58, co-built Onnit into a nine-figure exit, media empire with no corporate owner.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "at 58",
+			"detail": "written as current (58); subject is 59 as of 2026-10-06"
+		},
+		{
+			"person": "joe-rogan",
+			"where": "content",
+			"sentence": "Jiu-jitsu at 58.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 58",
+			"detail": "\"at 58\" matched the subject around when the page was written (2025); subject is now 59"
+		},
+		{
+			"person": "joe-rogan",
+			"where": "content",
+			"sentence": "He still trains at 58.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "at 58",
+			"detail": "written as current (58); subject is 59 as of 2026-10-06"
+		},
+		{
+			"person": "joe-rogan",
+			"where": "content",
+			"sentence": "He still rolls jiu-jitsu at 58.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "at 58",
+			"detail": "written as current (58); subject is 59 as of 2026-10-06"
+		},
+		{
+			"person": "logan-paul",
+			"where": "content",
+			"sentence": "In August 2023, MMA fighter Dillon Danis launched a harassment campaign against Nina to promote their upcoming boxing match.",
+			"kind": "past_event_in_future_tense",
+			"severity": "medium",
+			"phrase": "upcoming",
+			"detail": "future tense (\"upcoming\") about August 2023, which has passed"
+		},
+		{
+			"person": "emma-chamberlain",
+			"where": "content",
+			"sentence": "The Diploma She Finished at 23",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 23",
+			"detail": "\"at 23\" matched the subject around when the page was written (2024); subject is now 25"
+		},
+		{
+			"person": "emma-chamberlain",
+			"where": "content",
+			"sentence": "She is twenty-four now.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "She is twenty-four",
+			"detail": "written as current (24); subject is 25 as of 2026-10-06"
+		},
+		{
+			"person": "emma-chamberlain",
+			"where": "content",
+			"sentence": "She is twenty-four now.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is twenty-four",
+			"detail": "written as current (24); subject is 25 as of 2026-10-06"
+		},
+		{
+			"person": "gigi-hadid",
+			"where": "content",
+			"sentence": "Something to be achieved, measured, and reported on next year.",
+			"kind": "relative_time_stale",
+			"severity": "medium",
+			"phrase": "next year",
+			"detail": "\"next year\" written 2026-03-29; the reference has likely moved"
+		},
+		{
+			"person": "james-charles",
+			"where": "content",
+			"sentence": "They told him, according to a PAPER Magazine interview, that \"when you truly figure out how to be yourself, that's when you'll be unstoppable.\" He's 26.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "He's 26",
+			"detail": "written as current (26); subject is 27 as of 2026-10-06"
+		},
+		{
+			"person": "kylie-jenner",
+			"where": "content",
+			"sentence": "She's 28 now.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "She's 28",
+			"detail": "written as current (28); subject is 29 as of 2026-10-06"
+		},
+		{
+			"person": "arnold-schwarzenegger",
+			"where": "content",
+			"sentence": "At 77, Arnold wakes at 5 AM, feeds Whiskey and Lulu, bikes three miles to Gold's Gym, works out for ninety minutes, then goes to work.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At 77",
+			"detail": "\"At 77\" matched the subject around when the page was written (2024); subject is now 79"
+		},
+		{
+			"person": "dwayne-johnson",
+			"where": "content",
+			"sentence": "That question caught up with him at 53.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 53",
+			"detail": "\"at 53\" matched the subject around when the page was written (2025); subject is now 54"
+		},
+		{
+			"person": "dwayne-johnson",
+			"where": "content",
+			"sentence": "He sobbed at Venice at 53.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 53",
+			"detail": "\"at 53\" matched the subject around when the page was written (2025); subject is now 54"
+		},
+		{
+			"person": "jennifer-garner",
+			"where": "content",
+			"sentence": "Garner is 53.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is 53",
+			"detail": "written as current (53); subject is 54 as of 2026-10-06"
+		},
+		{
+			"person": "jennifer-lopez",
+			"where": "content",
+			"sentence": "She's 56 now, alone for the first time.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "She's 56",
+			"detail": "written as current (56); subject is 57 as of 2026-10-06"
+		},
+		{
+			"person": "keanu-reeves",
+			"where": "content",
+			"sentence": "Professional racing at sixty.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at sixty",
+			"detail": "\"at sixty\" matched the subject around when the page was written (2024); subject is now 62"
+		},
+		{
+			"person": "leonardo-dicaprio",
+			"where": "content",
+			"sentence": "His current partner, Italian model Vittoria Ceretti, is 27 — the oldest known partner he's dated.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is 27",
+			"detail": "present-tense age 27 that doesn't match the subject (51); likely about someone else and stale-prone"
+		},
+		{
+			"person": "tom-cruise",
+			"where": "content",
+			"sentence": "At 62, he is not just an actor.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At 62",
+			"detail": "\"At 62\" matched the subject around when the page was written (2024); subject is now 64"
+		},
+		{
+			"person": "tom-cruise",
+			"where": "content",
+			"sentence": "Every stunt is proof that Tom Cruise exists — not as a brand, not as a marketing construct, but as a living person who hangs from planes at 62.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 62",
+			"detail": "\"at 62\" matched the subject around when the page was written (2024); subject is now 64"
+		},
+		{
+			"person": "tom-cruise",
+			"where": "content",
+			"sentence": "Still Having to Prove It at 62",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "at 62",
+			"detail": "written as current (62); subject is 64 as of 2026-10-06"
+		},
+		{
+			"person": "tom-cruise",
+			"where": "content",
+			"sentence": "He hangs from planes at 62.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 62",
+			"detail": "\"at 62\" matched the subject around when the page was written (2024); subject is now 64"
+		},
+		{
+			"person": "tom-cruise",
+			"where": "faq 1 answer",
+			"sentence": "The pattern shows in an abusive father and fifteen schools in fourteen years that taught him worth comes from performance, the shedding of the Mapother family name to become 'Tom Cruise,' the stunts performed at 62 as proof the persona is physically real, and his own creed: 'I can't do something halfway, three-quarters, nine-tenths.'",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 62",
+			"detail": "\"at 62\" matched the subject around when the page was written (2024); subject is now 64"
+		},
+		{
+			"person": "tom-hanks",
+			"where": "content",
+			"sentence": "Now guarding the last thing he owns: at 68 he is warning fans about AI fakes of himself while starring in a movie that de-ages him with AI.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "at 68",
+			"detail": "written as current (68); subject is 70 as of 2026-10-06"
+		},
+		{
+			"person": "tom-hanks",
+			"where": "content",
+			"sentence": "At 68, Hanks has found a threat he cannot out-prepare.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At 68",
+			"detail": "\"At 68\" matched the subject around when the page was written (2024); subject is now 70"
+		},
+		{
+			"person": "ariana-grande",
+			"where": "content",
+			"sentence": "As of 2025, r.e.m. beauty is valued at over $500 million.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "As of 2025",
+			"detail": "\"As of 2025\" is more than 90 days old"
+		},
+		{
+			"person": "beyonce-knowles",
+			"where": "content",
+			"sentence": "At 27, most artists are still following the machine.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "At 27",
+			"detail": "present-tense age 27 that doesn't match the subject (45); likely about someone else and stale-prone"
+		},
+		{
+			"person": "chappell-roan",
+			"where": "content",
+			"sentence": "As of March 2025, she's in a serious relationship.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "As of March 2025",
+			"detail": "\"As of March 2025\" is more than 90 days old"
+		},
+		{
+			"person": "eminem",
+			"where": "content",
+			"sentence": "Yet as of 2025, they've found stability.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "as of 2025",
+			"detail": "\"as of 2025\" is more than 90 days old"
+		},
+		{
+			"person": "eminem",
+			"where": "content",
+			"sentence": "Even at 52, even with generational wealth, even with nothing left to prove, the anxiety keeps him working.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 52",
+			"detail": "\"at 52\" matched the subject around when the page was written (2024); subject is now 53"
+		},
+		{
+			"person": "halsey",
+			"where": "faq 4 answer",
+			"sentence": "The fortress now has a four-year-old inside it who calls her 'Ash.'",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "four-year-old",
+			"detail": "present-tense age 4 that doesn't match the subject (32); likely about someone else and stale-prone"
+		},
+		{
+			"person": "olivia-rodrigo",
+			"where": "content",
+			"sentence": "But the fear that haunts her is still the same one she named at nineteen: \"I think I feel inadequate in many sorts of relationships.\"",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "at nineteen",
+			"detail": "present-tense age 19 that doesn't match the subject (23); likely about someone else and stale-prone"
+		},
+		{
+			"person": "prince",
+			"where": "content",
+			"sentence": "~45% of Prince's vault has been archived and digitized as of 2025, per the estate.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "as of 2025",
+			"detail": "\"as of 2025\" is more than 90 days old"
+		},
+		{
+			"person": "sabrina-carpenter",
+			"where": "content",
+			"sentence": "I'm doing the 25-year-old thing right now, whatever that means.\" The line is doing exactly what the songs do: staying present, witty, and giving you nothing.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "25-year-old",
+			"detail": "written as current (25); subject is 27 as of 2026-10-06"
+		},
+		{
+			"person": "mikey-madison",
+			"where": "content",
+			"sentence": "At 25, she still daydreams — \"it kind of runs in my family; my dad is, too\" — still drifts into \"random little pockets of dreams.\" And she sees no contradiction in any of it.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "At 25",
+			"detail": "written as current (25); subject is 27 as of 2026-10-06"
+		},
+		{
+			"person": "millie-bobby-brown",
+			"where": "description",
+			"sentence": "At twenty-one, aging too fast.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At twenty-one",
+			"detail": "\"At twenty-one\" matched the subject around when the page was written (2025); subject is now 22"
+		},
+		{
+			"person": "millie-bobby-brown",
+			"where": "content",
+			"sentence": "At twenty-one, too old in appearance.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At twenty-one",
+			"detail": "\"At twenty-one\" matched the subject around when the page was written (2025); subject is now 22"
+		},
+		{
+			"person": "millie-bobby-brown",
+			"where": "content",
+			"sentence": "The giving that won't stop: UNICEF ambassador at 14, beauty brand at 15, adoption at 21, veterinary school enrollment, 62 rescued animals on a Georgia farm.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 21",
+			"detail": "\"at 21\" matched the subject around when the page was written (2025); subject is now 22"
+		},
+		{
+			"person": "millie-bobby-brown",
+			"where": "content",
+			"sentence": "Body-shamed at 21.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 21",
+			"detail": "\"at 21\" matched the subject around when the page was written (2025); subject is now 22"
+		},
+		{
+			"person": "millie-bobby-brown",
+			"where": "content",
+			"sentence": "At twenty-one, they said she aged too fast.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At twenty-one",
+			"detail": "\"At twenty-one\" matched the subject around when the page was written (2025); subject is now 22"
+		},
+		{
+			"person": "millie-bobby-brown",
+			"where": "content",
+			"sentence": "And at twenty-one, she adopted a baby girl whose name she won't share, whose face she won't show, and whose story she says is not hers to tell.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at twenty-one",
+			"detail": "\"at twenty-one\" matched the subject around when the page was written (2025); subject is now 22"
+		},
+		{
+			"person": "robert-pattinson",
+			"where": "content",
+			"sentence": "A man who, at 38, discovered that the most extraordinary thing in his life is a barbecue with his neighbors.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 38",
+			"detail": "\"at 38\" matched the subject around when the page was written (2024); subject is now 40"
+		},
+		{
+			"person": "greta-thunberg",
+			"where": "content",
+			"sentence": "The Reformer at 22",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 22",
+			"detail": "\"at 22\" matched the subject around when the page was written (2025); subject is now 23"
+		},
+		{
+			"person": "bernie-sanders",
+			"where": "content",
+			"sentence": "At 83, he's on a \"Fighting Oligarchy\" tour with Alexandria Ocasio-Cortez that has drawn over 261,000 people across the country.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At 83",
+			"detail": "\"At 83\" matched the subject around when the page was written (2024); subject is now 85"
+		},
+		{
+			"person": "jackie-kennedy",
+			"where": "content",
+			"sentence": "He is forty-six.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "He is forty-six",
+			"detail": "present-tense age 46 that doesn't match the subject (97); likely about someone else and stale-prone"
+		},
+		{
+			"person": "jackie-kennedy",
+			"where": "content",
+			"sentence": "He is forty-six.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is forty-six",
+			"detail": "present-tense age 46 that doesn't match the subject (97); likely about someone else and stale-prone"
+		},
+		{
+			"person": "jackie-kennedy",
+			"where": "content",
+			"sentence": "She is thirty-four.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "She is thirty-four",
+			"detail": "present-tense age 34 that doesn't match the subject (97); likely about someone else and stale-prone"
+		},
+		{
+			"person": "jackie-kennedy",
+			"where": "content",
+			"sentence": "She is thirty-four.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is thirty-four",
+			"detail": "present-tense age 34 that doesn't match the subject (97); likely about someone else and stale-prone"
+		},
+		{
+			"person": "meghan-markle",
+			"where": "content",
+			"sentence": "It does not unmake the act — an eleven-year-old still wrote those letters and the ad still changed.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "eleven-year-old",
+			"detail": "present-tense age 11 that doesn't match the subject (45); likely about someone else and stale-prone"
+		},
+		{
+			"person": "david-sacks",
+			"where": "content",
+			"sentence": "And the five-year-old who left Cape Town is still running the calculations, still scanning the horizon, still asking the question that Type 6s never stop asking: What if it all comes apart again?",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "five-year-old",
+			"detail": "present-tense age 5 that doesn't match the subject (54); likely about someone else and stale-prone"
+		},
+		{
+			"person": "jason-calacanis",
+			"where": "content",
+			"sentence": "As of January 2026, he's recorded over 2,200 episodes.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "As of January 2026",
+			"detail": "\"As of January 2026\" is more than 90 days old"
+		},
+		{
+			"person": "jason-calacanis",
+			"where": "content",
+			"sentence": "LAUNCH Portfolio (as of January 2026):",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "as of January 2026",
+			"detail": "\"as of January 2026\" is more than 90 days old"
+		},
+		{
+			"person": "jason-calacanis",
+			"where": "content",
+			"sentence": "As of January 2026: still co-hosting one of the most listened-to business podcasts in tech, still running 100 startup investments per year through LAUNCH, still keynoting CES, still publishing on Substack, still making civilization-defining claims about Elon Musk's robots, still advising on AI policy at the White House level.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "As of January 2026",
+			"detail": "\"As of January 2026\" is more than 90 days old"
+		},
+		{
+			"person": "palmer-luckey",
+			"where": "content",
+			"sentence": "Palmer Luckey is 33 years old.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "33 years old",
+			"detail": "written as current (33); subject is 34 as of 2026-10-06"
+		},
+		{
+			"person": "palmer-luckey",
+			"where": "content",
+			"sentence": "Palmer Luckey is 33 years old.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is 33",
+			"detail": "written as current (33); subject is 34 as of 2026-10-06"
+		},
+		{
+			"person": "charli-damelio",
+			"where": "content",
+			"sentence": "\"I still feel like that same 15-year-old,\" she's said at nineteen.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "at nineteen",
+			"detail": "present-tense age 19 that doesn't match the subject (22); likely about someone else and stale-prone"
+		},
+		{
+			"person": "robert-downey-jr",
+			"where": "content",
+			"sentence": "He is sixty now.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "He is sixty",
+			"detail": "written as current (60); subject is 61 as of 2026-10-06"
+		},
+		{
+			"person": "robert-downey-jr",
+			"where": "content",
+			"sentence": "He is sixty now.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is sixty",
+			"detail": "written as current (60); subject is 61 as of 2026-10-06"
+		},
+		{
+			"person": "zoe-kravitz",
+			"where": "content",
+			"sentence": "Turns twenty-five.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "Turns twenty-five",
+			"detail": "present-tense age 25 that doesn't match the subject (37); likely about someone else and stale-prone"
+		},
+		{
+			"person": "ishowspeed",
+			"where": "content",
+			"sentence": "His response: he called out Roman Reigns and Rey Mysterio for next year.",
+			"kind": "relative_time_stale",
+			"severity": "medium",
+			"phrase": "next year",
+			"detail": "\"next year\" written 2026-04-03; the reference has likely moved"
+		},
+		{
+			"person": "druski",
+			"where": "content",
+			"sentence": "The 31-year-old who used to study Steve Harvey videos from his mother's couch in Georgia is now the one Timothée Chalamet flies to Brooklyn to audition for, and the one Justin Bieber casts as a \"therapist\" between R&B tracks.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "31-year-old",
+			"detail": "written as current (31); subject is 32 as of 2026-10-06"
+		},
+		{
+			"person": "emma-watson",
+			"where": "content",
+			"sentence": "Emma Watson is an Enneagram Type 1 , \"The Perfectionist.\" Type 1s carry an inner critic that measures every choice against an impossible moral standard — which is why Emma broke publicly with the woman who made her famous, withdrew from acting at the height of her market value, and went back to Oxford at 35 to start a PhD.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 35",
+			"detail": "\"at 35\" matched the subject around when the page was written (2025); subject is now 36"
+		},
+		{
+			"person": "emma-watson",
+			"where": "content",
+			"sentence": "The Type 1 inner critic that drives her activism, her selective career, her PhD at 35, also runs alongside a privilege that keeps the consequences of being morally wrong unusually small.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 35",
+			"detail": "\"at 35\" matched the subject around when the page was written (2025); subject is now 36"
+		},
+		{
+			"person": "emma-watson",
+			"where": "content",
+			"sentence": "The DPhil at 35: Switching from a Master's to an Oxford PhD is a Type 1 tell.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 35",
+			"detail": "\"at 35\" matched the subject around when the page was written (2025); subject is now 36"
+		},
+		{
+			"person": "emma-watson",
+			"where": "content",
+			"sentence": "Oxford University: The DPhil at 35",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 35",
+			"detail": "\"at 35\" matched the subject around when the page was written (2025); subject is now 36"
+		},
+		{
+			"person": "emma-watson",
+			"where": "content",
+			"sentence": "The honest assessment of Emma Watson at thirty-five looks like this: she is a Type 1 perfectionist whose moral conviction is real, whose courage in the Rowling dispute is real, and whose conditions for being morally consistent have always been favorable.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at thirty-five",
+			"detail": "\"at thirty-five\" matched the subject around when the page was written (2025); subject is now 36"
+		},
+		{
+			"person": "saoirse-ronan",
+			"where": "content",
+			"sentence": "At thirty, the Four who spent two decades channeling her depth into other people's characters is beginning to tell her own stories.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At thirty",
+			"detail": "\"At thirty\" matched the subject around when the page was written (2024); subject is now 32"
+		},
+		{
+			"person": "scarlett-johansson",
+			"where": "content",
+			"sentence": "A seven-year-old girl stood on a New York sidewalk while her mother asked if she still wanted to do this.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "seven-year-old",
+			"detail": "present-tense age 7 that doesn't match the subject (41); likely about someone else and stale-prone"
+		},
+		{
+			"person": "brad-pitt",
+			"where": "content",
+			"sentence": "As of October 2025, the couple has moved in together.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "As of October 2025",
+			"detail": "\"As of October 2025\" is more than 90 days old"
+		},
+		{
+			"person": "aubrey-plaza",
+			"where": "content",
+			"sentence": "The woman who weaponized awkwardness, survived a stroke at 20, charged at every fear her career could offer, lost the person who made the world feel safe, and described her grief as an ocean she can see at all times — is still, at bottom, the shy kid from Delaware who wanted to be Cinderella and got the ugly stepsister instead.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "at 20",
+			"detail": "present-tense age 20 that doesn't match the subject (42); likely about someone else and stale-prone"
+		},
+		{
+			"person": "aubrey-plaza",
+			"where": "faq 3 answer",
+			"sentence": "The 2013 MTV Movie Awards stage-rush at Will Ferrell — she'd scrawled her upcoming movie's title on her chest, so there was calculation underneath — is the cleanest example.",
+			"kind": "past_event_in_future_tense",
+			"severity": "medium",
+			"phrase": "upcoming",
+			"detail": "future tense (\"upcoming\") about 2013, which has passed"
+		},
+		{
+			"person": "jenna-ortega",
+			"where": "content",
+			"sentence": "She is 22 and has not stopped running since she was nine.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "She is 22",
+			"detail": "written as current (22); subject is 24 as of 2026-10-06"
+		},
+		{
+			"person": "jenna-ortega",
+			"where": "content",
+			"sentence": "She is 22 and has not stopped running since she was nine.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is 22",
+			"detail": "written as current (22); subject is 24 as of 2026-10-06"
+		},
+		{
+			"person": "dave-chappelle",
+			"where": "content",
+			"sentence": "This is Chappelle at 51 — not the provocateur, not the exile, not the culture warrior.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 51",
+			"detail": "\"at 51\" matched the subject around when the page was written (2024); subject is now 53"
+		},
+		{
+			"person": "dave-chappelle",
+			"where": "content",
+			"sentence": "She did not anticipate that he would put it on at fourteen and still be wearing it at fifty-one.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "at fifty-one",
+			"detail": "written as current (51); subject is 53 as of 2026-10-06"
+		},
+		{
+			"person": "dave-chappelle",
+			"where": "content",
+			"sentence": "He is 51 and he is getting funnier, which most comedians are not at 51.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "He is 51",
+			"detail": "written as current (51); subject is 53 as of 2026-10-06"
+		},
+		{
+			"person": "dave-chappelle",
+			"where": "content",
+			"sentence": "He is 51 and he is getting funnier, which most comedians are not at 51.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is 51",
+			"detail": "written as current (51); subject is 53 as of 2026-10-06"
+		},
+		{
+			"person": "dave-chappelle",
+			"where": "content",
+			"sentence": "He is 51 and he is getting funnier, which most comedians are not at 51.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "at 51",
+			"detail": "written as current (51); subject is 53 as of 2026-10-06"
+		},
+		{
+			"person": "jordan-peterson",
+			"where": "content",
+			"sentence": "As of January 2026, he's home in Arizona, recovering slowly.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "As of January 2026",
+			"detail": "\"As of January 2026\" is more than 90 days old"
+		},
+		{
+			"person": "ben-shapiro",
+			"where": "content",
+			"sentence": "The pattern is twenty years old, and the public usually sees only the most recent example.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "twenty years old",
+			"detail": "present-tense age 20 that doesn't match the subject (42); likely about someone else and stale-prone"
+		},
+		{
+			"person": "ben-shapiro",
+			"where": "content",
+			"sentence": "The pattern is twenty years old, and the public usually sees only the most recent example.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is twenty",
+			"detail": "present-tense age 20 that doesn't match the subject (42); likely about someone else and stale-prone"
+		},
+		{
+			"person": "dr-phil",
+			"where": "content",
+			"sentence": "And somewhere behind the social mask, behind the bald head and the Texas drawl and the $400 million fortune, there's still a twelve-year-old boy in a car in Kansas City, watching his father drink, calculating the fastest route to a window.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "twelve-year-old",
+			"detail": "present-tense age 12 that doesn't match the subject (76); likely about someone else and stale-prone"
+		},
+		{
+			"person": "lionel-messi",
+			"where": "content",
+			"sentence": "A four-year-old whose grandmother fought to get him on the field became the man who won everything, lost the final ending, and still pointed two fingers toward her.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "four-year-old",
+			"detail": "present-tense age 4 that doesn't match the subject (39); likely about someone else and stale-prone"
+		},
+		{
+			"person": "chris-hemsworth",
+			"where": "content",
+			"sentence": "He's 2,000 years old or something, so we tried to play into that more than we had before.\" He's letting the god age.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "000 years old",
+			"detail": "present-tense age 0 that doesn't match the subject (43); likely about someone else and stale-prone"
+		},
+		{
+			"person": "chris-hemsworth",
+			"where": "content",
+			"sentence": "Hemsworth is 42.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is 42",
+			"detail": "written as current (42); subject is 43 as of 2026-10-06"
+		},
+		{
+			"person": "michael-b-jordan",
+			"where": "content",
+			"sentence": "At 38, Michael B.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At 38",
+			"detail": "\"At 38\" matched the subject around when the page was written (2025); subject is now 39"
+		},
+		{
+			"person": "pokimane",
+			"where": "content",
+			"sentence": "Twenty-five years after the playground, with three companies behind her, a TIME100 plaque, nine million followers, two podcasts ended on her own terms, and a slow, careful relationship to her own body — Imane is still doing the work the four-year-old started.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "four-year-old",
+			"detail": "present-tense age 4 that doesn't match the subject (30); likely about someone else and stale-prone"
+		},
+		{
+			"person": "tim-cook",
+			"where": "content",
+			"sentence": "They are the financial form of I will not let this fall apart on my watch.",
+			"kind": "relative_time_stale",
+			"severity": "medium",
+			"phrase": "this fall",
+			"detail": "\"this fall\" written 2026-04-07; the reference has likely moved"
+		},
+		{
+			"person": "conan-obrien",
+			"where": "content",
+			"sentence": "And at 62, both parents gone, the question is whether the running has finally become the destination — or whether he's simply gotten too fast to catch.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 62",
+			"detail": "\"at 62\" matched the subject around when the page was written (2025); subject is now 63"
+		},
+		{
+			"person": "conan-obrien",
+			"where": "content",
+			"sentence": "At 62, he says he's \"more creatively engaged now than at any other point in his life.\"",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "At 62",
+			"detail": "written as current (62); subject is 63 as of 2026-10-06"
+		},
+		{
+			"person": "conan-obrien",
+			"where": "content",
+			"sentence": "He's 62 now.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "He's 62",
+			"detail": "written as current (62); subject is 63 as of 2026-10-06"
+		},
+		{
+			"person": "theo-von",
+			"where": "content",
+			"sentence": "At 45, Theo describes the idea of marriage as \"harrowing.\" But he can think about it now.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "At 45",
+			"detail": "written as current (45); subject is 46 as of 2026-10-06"
+		},
+		{
+			"person": "alexis-bledel",
+			"where": "content",
+			"sentence": "At 43, Alexis Bledel has achieved something most Hollywood careers never produce: two iconic television roles, an Emmy, a son raised in near-complete privacy, and the freedom to work exactly when and how she chooses.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At 43",
+			"detail": "\"At 43\" matched the subject around when the page was written (2024); subject is now 45"
+		},
+		{
+			"person": "bella-hadid",
+			"where": "content",
+			"sentence": "It is why a girl who said she felt ugly ended up shot for Vogue Italia at 19, posed inside a glass display case for Pop magazine at 21, and walked Saint Laurent at 28 after a multi-year health absence.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 28",
+			"detail": "\"at 28\" matched the subject around when the page was written (2024); subject is now 29"
+		},
+		{
+			"person": "george-rr-martin",
+			"where": "content",
+			"sentence": "At 76, Martin has admitted he may never finish the books.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At 76",
+			"detail": "\"At 76\" matched the subject around when the page was written (2024); subject is now 78"
+		},
+		{
+			"person": "alix-earle",
+			"where": "content",
+			"sentence": "On September 4, 2026, Netflix will premiere Earle Meets World , an unscripted series built around Alix, her friends, and the blended family she has been folding into the content for years.",
+			"kind": "past_event_in_future_tense",
+			"severity": "high",
+			"phrase": "will premiere",
+			"detail": "future tense (\"will premiere\") about September 4, 2026, which has passed"
+		},
+		{
+			"person": "alix-earle",
+			"where": "content",
+			"sentence": "On September 4, 2026, Earle Meets World premieres on Netflix.",
+			"kind": "past_event_in_future_tense",
+			"severity": "high",
+			"phrase": "premieres on",
+			"detail": "future tense (\"premieres on\") about September 4, 2026, which has passed"
+		},
+		{
+			"person": "hasan-piker",
+			"where": "content",
+			"sentence": "A thirty-four-year-old man with a national platform, still getting interrupted by his mom with a snack.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "thirty-four-year-old",
+			"detail": "written as current (34); subject is 35 as of 2026-10-06"
+		},
+		{
+			"person": "steven-bartlett",
+			"where": "content",
+			"sentence": "He's eighteen.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "He's eighteen",
+			"detail": "present-tense age 18 that doesn't match the subject (34); likely about someone else and stale-prone"
+		},
+		{
+			"person": "steven-bartlett",
+			"where": "content",
+			"sentence": "He's 33.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "He's 33",
+			"detail": "written as current (33); subject is 34 as of 2026-10-06"
+		},
+		{
+			"person": "steven-bartlett",
+			"where": "content",
+			"sentence": "Rogan is 58.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is 58",
+			"detail": "present-tense age 58 that doesn't match the subject (34); likely about someone else and stale-prone"
+		},
+		{
+			"person": "steven-bartlett",
+			"where": "content",
+			"sentence": "Bartlett's typical guest — Esther Perel, Mo Gawdat, Gabor Maté, Andrew Huberman, Jordan Peterson, Daniel Amen — is twenty to forty years older than the host, often holds a doctorate the host does not, and is sitting opposite a man who attended one university lecture before dropping out.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is twenty",
+			"detail": "present-tense age 20 that doesn't match the subject (34); likely about someone else and stale-prone"
+		},
+		{
+			"person": "steven-bartlett",
+			"where": "content",
+			"sentence": "Bartlett at 33 is still building.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "at 33",
+			"detail": "written as current (33); subject is 34 as of 2026-10-06"
+		},
+		{
+			"person": "brittany-broski",
+			"where": "content",
+			"sentence": "Now 28, Brittany has amassed over 7.6 million followers on TikTok and another 4.6 million across YouTube and Instagram.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "Now 28",
+			"detail": "written as current (28); subject is 29 as of 2026-10-06"
+		},
+		{
+			"person": "tim-ferriss",
+			"where": "content",
+			"sentence": "The man who would teach two million readers how to build a four-hour workweek is twenty-one years old, failing his thesis, watching his girlfriend leave, and doing what he'd done his entire life: turning the judgment inward.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "twenty-one years old",
+			"detail": "present-tense age 21 that doesn't match the subject (49); likely about someone else and stale-prone"
+		},
+		{
+			"person": "tim-ferriss",
+			"where": "content",
+			"sentence": "The man who would teach two million readers how to build a four-hour workweek is twenty-one years old, failing his thesis, watching his girlfriend leave, and doing what he'd done his entire life: turning the judgment inward.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is twenty-one",
+			"detail": "present-tense age 21 that doesn't match the subject (49); likely about someone else and stale-prone"
+		},
+		{
+			"person": "benson-boone",
+			"where": "content",
+			"sentence": "It's a kid at 23 who has watched himself run all-in on every small pleasure he gets near and drawn the obvious conclusion: if he started drinking, he wouldn't just drink.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 23",
+			"detail": "\"at 23\" matched the subject around when the page was written (2025); subject is now 24"
+		},
+		{
+			"person": "benson-boone",
+			"where": "content",
+			"sentence": "At 23, Boone occupies a fascinating cultural position.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At 23",
+			"detail": "\"At 23\" matched the subject around when the page was written (2025); subject is now 24"
+		},
+		{
+			"person": "ali-abdaal",
+			"where": "content",
+			"sentence": "That six-year-old is still part of the engine.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "six-year-old",
+			"detail": "present-tense age 6 that doesn't match the subject (32); likely about someone else and stale-prone"
+		},
+		{
+			"person": "keke-palmer",
+			"where": "content",
+			"sentence": "The girl who was trapped in a SpongeBob suit on a Nickelodeon cruise ship at fifteen is now thirty-two, building a media company, raising a son, and releasing the most honest music of her career.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is now thirty-two",
+			"detail": "written as current (32); subject is 33 as of 2026-10-06"
+		},
+		{
+			"person": "shaan-puri",
+			"where": "content",
+			"sentence": "Does it matter, if the guy coaching teenagers for free at 37 is the same person who kept a stranger's line about the ordinary life not being for him?",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 37",
+			"detail": "\"at 37\" matched the subject around when the page was written (2025); subject is now 38"
+		},
+		{
+			"person": "kendall-jenner",
+			"where": "content",
+			"sentence": "Now, every morning, when the Forbes Number One model catches herself spiraling into self-criticism, she looks at that four-year-old and says the same thing:",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "four-year-old",
+			"detail": "present-tense age 4 that doesn't match the subject (30); likely about someone else and stale-prone"
+		},
+		{
+			"person": "conor-mcgregor",
+			"where": "content",
+			"sentence": "As of March 2026, McGregor hasn't fought in the UFC since the broken leg in July 2021.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "As of March 2026",
+			"detail": "\"As of March 2026\" is more than 90 days old"
+		},
+		{
+			"person": "conor-mcgregor",
+			"where": "content",
+			"sentence": "He's 37 years old.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "37 years old",
+			"detail": "written as current (37); subject is 38 as of 2026-10-06"
+		},
+		{
+			"person": "conor-mcgregor",
+			"where": "content",
+			"sentence": "He's 37 years old.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "He's 37",
+			"detail": "written as current (37); subject is 38 as of 2026-10-06"
+		},
+		{
+			"person": "marcello-hernandez",
+			"where": "content",
+			"sentence": "Imposter syndrome that still whispers he doesn't belong at 30 Rock.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "at 30",
+			"detail": "present-tense age 30 that doesn't match the subject (29); likely about someone else and stale-prone"
+		},
+		{
+			"person": "jake-gyllenhaal",
+			"where": "content",
+			"sentence": "His vision is 20/1250.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is 20",
+			"detail": "present-tense age 20 that doesn't match the subject (45); likely about someone else and stale-prone"
+		},
+		{
+			"person": "kara-swisher",
+			"where": "content",
+			"sentence": "The second, which she has been less willing to name, is something harder: a five-year-old learning that the people you love most can be erased without warning, that dependence is a liability, and that the only person guaranteed to still be there tomorrow is you.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "five-year-old",
+			"detail": "present-tense age 5 that doesn't match the subject (63); likely about someone else and stale-prone"
+		},
+		{
+			"person": "reid-hoffman",
+			"where": "content",
+			"sentence": "In August 2023, Hoffman stepped back from Greylock's upcoming $1 billion fund, shifting from general partner to venture partner.",
+			"kind": "past_event_in_future_tense",
+			"severity": "medium",
+			"phrase": "upcoming",
+			"detail": "future tense (\"upcoming\") about August 2023, which has passed"
+		},
+		{
+			"person": "tyler-perry",
+			"where": "content",
+			"sentence": "Tyler Perry is fifty-six years old.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "fifty-six years old",
+			"detail": "written as current (56); subject is 57 as of 2026-10-06"
+		},
+		{
+			"person": "tyler-perry",
+			"where": "content",
+			"sentence": "Tyler Perry is fifty-six years old.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is fifty-six",
+			"detail": "written as current (56); subject is 57 as of 2026-10-06"
+		},
+		{
+			"person": "troye-sivan",
+			"where": "content",
+			"sentence": "At thirty, he curated his own adolescence into an object you can hold.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At thirty",
+			"detail": "\"At thirty\" matched the subject around when the page was written (2025); subject is now 31"
+		},
+		{
+			"person": "james-dyson",
+			"where": "content",
+			"sentence": "He's 78 and still running.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "He's 78",
+			"detail": "written as current (78); subject is 79 as of 2026-10-06"
+		},
+		{
+			"person": "james-dyson",
+			"where": "content",
+			"sentence": "James Dyson is 78.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is 78",
+			"detail": "written as current (78); subject is 79 as of 2026-10-06"
+		},
+		{
+			"person": "simon-sinek",
+			"where": "faq 2 answer",
+			"sentence": "He's 52 and frames his singleness as a career choice, but the ADHD he wasn't diagnosed with until age 32 shaped every close relationship before he could name it — accidental stonewalling, a blank face women called 'so hard to read,' bluntness that works professionally but not romantically.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "age 32",
+			"detail": "present-tense age 32 that doesn't match the subject (52); likely about someone else and stale-prone"
+		},
+		{
+			"person": "bradley-martyn",
+			"where": "description",
+			"sentence": "Why does a 260-lb man who challenges UFC fighters still carry a six-year-old's wound?",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "six-year-old",
+			"detail": "present-tense age 6 that doesn't match the subject (37); likely about someone else and stale-prone"
+		},
+		{
+			"person": "kate-hudson",
+			"where": "content",
+			"sentence": "At 46 she earned her second Oscar nomination.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "At 46",
+			"detail": "\"At 46\" matched the subject around when the page was written (2025); subject is now 47"
+		},
+		{
+			"person": "kyle-forgeard",
+			"where": "content",
+			"sentence": "But the question the trajectory doesn't answer is whether Kyle, at 31, knows what he wants from a life that isn't performing.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 31",
+			"detail": "\"at 31\" matched the subject around when the page was written (2025); subject is now 32"
+		},
+		{
+			"person": "mike-majlak",
+			"where": "content",
+			"sentence": "The same wiring that cycled him through every drug in Connecticut by age 25 is what makes him one of the most compelling voices in addiction recovery today.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "age 25",
+			"detail": "present-tense age 25 that doesn't match the subject (41); likely about someone else and stale-prone"
+		},
+		{
+			"person": "mike-majlak",
+			"where": "faq 3 answer",
+			"sentence": "He walked out at 285 pounds, lost over 100 of them within a year, and is now fifteen years clean.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is now fifteen",
+			"detail": "present-tense age 15 that doesn't match the subject (41); likely about someone else and stale-prone"
+		},
+		{
+			"person": "rachel-mcadams",
+			"where": "content",
+			"sentence": "Linden's appearance at her Walk of Fame ceremony was described as \"rare.\" They are one of the most private couples in Hollywood, and the privacy isn't an accident — it's the same architecture of protection she's been building since she was nine years old.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "nine years old",
+			"detail": "present-tense age 9 that doesn't match the subject (47); likely about someone else and stale-prone"
+		},
+		{
+			"person": "samuel-l-jackson",
+			"where": "content",
+			"sentence": "He is 75 and he is not slowing down.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "He is 75",
+			"detail": "present-tense age 75 that doesn't match the subject (77); likely about someone else and stale-prone"
+		},
+		{
+			"person": "samuel-l-jackson",
+			"where": "content",
+			"sentence": "He is 75 and he is not slowing down.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is 75",
+			"detail": "present-tense age 75 that doesn't match the subject (77); likely about someone else and stale-prone"
+		},
+		{
+			"person": "hilary-duff",
+			"where": "content",
+			"sentence": "The girl who couldn't start a washing machine at eighteen now has four children, a husband who writes songs with her about the worst parts of her life, an album that debuted at 3 on the Billboard 200, and a world tour spanning seven countries.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "at eighteen",
+			"detail": "present-tense age 18 that doesn't match the subject (39); likely about someone else and stale-prone"
+		},
+		{
+			"person": "patrick-bet-david",
+			"where": "content",
+			"sentence": "As of June 2026, Bet-David's public profile listed $110 for a text answer, $300 for video, and $800 per minute for a call with a fifteen-minute minimum.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "As of June 2026",
+			"detail": "\"As of June 2026\" is more than 90 days old"
+		},
+		{
+			"person": "patrick-bet-david",
+			"where": "content",
+			"sentence": "Somewhere inside the media empire is still the ten-year-old at a German swimming pool, collecting one bottle at a time, counting each deposit, certain that enough of them will finally buy safety.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "ten-year-old",
+			"detail": "present-tense age 10 that doesn't match the subject (47); likely about someone else and stale-prone"
+		},
+		{
+			"person": "kris-jenner",
+			"where": "content",
+			"sentence": "When she became pregnant with Kylie at forty, the reaction was hushed disapproval: \"It was almost whispered about... like, 'She's 40?",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "at forty",
+			"detail": "present-tense age 40 that doesn't match the subject (70); likely about someone else and stale-prone"
+		},
+		{
+			"person": "matt-damon",
+			"where": "content",
+			"sentence": "The weight cuts at fifty-four.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at fifty-four",
+			"detail": "\"at fifty-four\" matched the subject around when the page was written (2024); subject is now 55"
+		},
+		{
+			"person": "matt-damon",
+			"where": "content",
+			"sentence": "The numbers as of 2025: over 80 million people reached, $7 billion in capital mobilized, operations across East Africa, Latin America, South Asia, and Southeast Asia.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "as of 2025",
+			"detail": "\"as of 2025\" is more than 90 days old"
+		},
+		{
+			"person": "noam-chomsky",
+			"where": "content",
+			"sentence": "Why a 95-year-old man who can no longer speak or walk still raises his left arm in rage when he sees images of Gaza on television.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "95-year-old",
+			"detail": "present-tense age 95 that doesn't match the subject (97); likely about someone else and stale-prone"
+		},
+		{
+			"person": "noam-chomsky",
+			"where": "content",
+			"sentence": "At 95, unable to speak, unable to walk, Noam Chomsky still follows the news.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "At 95",
+			"detail": "present-tense age 95 that doesn't match the subject (97); likely about someone else and stale-prone"
+		},
+		{
+			"person": "sara-saffari",
+			"where": "content",
+			"sentence": "She's twenty years old, driving around at night with a large soda from McDonald's, looping the same songs on repeat, trying to escape how empty she feels.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "twenty years old",
+			"detail": "present-tense age 20 that doesn't match the subject (25); likely about someone else and stale-prone"
+		},
+		{
+			"person": "sara-saffari",
+			"where": "content",
+			"sentence": "She's twenty years old, driving around at night with a large soda from McDonald's, looping the same songs on repeat, trying to escape how empty she feels.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "She's twenty",
+			"detail": "present-tense age 20 that doesn't match the subject (25); likely about someone else and stale-prone"
+		},
+		{
+			"person": "christian-bale",
+			"where": "content",
+			"sentence": "California's 2024 federal Child and Family Services Review statewide assessment reported that, as of October 1, 2022, 54.6 percent of children in the measured California foster-care population who had siblings were placed with all siblings, while 74.1 percent were placed with some or all siblings.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "as of October 1, 2022",
+			"detail": "\"as of October 1, 2022\" is more than 90 days old"
+		},
+		{
+			"person": "shailene-woodley",
+			"where": "content",
+			"sentence": "And now, at thirty-two, she's asking the question her parents never thought to teach her:",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "at thirty-two",
+			"detail": "present-tense age 32 that doesn't match the subject (34); likely about someone else and stale-prone"
+		},
+		{
+			"person": "anna-kendrick",
+			"where": "content",
+			"sentence": "She is twenty-four.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "She is twenty-four",
+			"detail": "present-tense age 24 that doesn't match the subject (41); likely about someone else and stale-prone"
+		},
+		{
+			"person": "anna-kendrick",
+			"where": "content",
+			"sentence": "She is twenty-four.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is twenty-four",
+			"detail": "present-tense age 24 that doesn't match the subject (41); likely about someone else and stale-prone"
+		},
+		{
+			"person": "anna-kendrick",
+			"where": "content",
+			"sentence": "Forty years old this year.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "Forty years old",
+			"detail": "written as current (40); subject is 41 as of 2026-10-06"
+		},
+		{
+			"person": "amelia-dimoldenberg",
+			"where": "content",
+			"sentence": "The twenty-year-old in a chicken shop with a thousand views is now the thirty-two-year-old who decides whose publicist gets a reply.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "twenty-year-old",
+			"detail": "present-tense age 20 that doesn't match the subject (32); likely about someone else and stale-prone"
+		},
+		{
+			"person": "amelia-dimoldenberg",
+			"where": "content",
+			"sentence": "Somewhere right now, a nineteen-year-old in her Lambeth academy is writing down the third rule of Chicken Shop Date in a notebook — learning, ten years late, the math Amelia worked out alone at a styrofoam table with a thousand views and no one watching.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "nineteen-year-old",
+			"detail": "present-tense age 19 that doesn't match the subject (32); likely about someone else and stale-prone"
+		},
+		{
+			"person": "lili-reinhart",
+			"where": "content",
+			"sentence": "At 28, Reinhart is one of the most articulate mental health advocates of her generation, in a cohort alongside artists like Billie Eilish, Olivia Rodrigo, and Chappell Roan who have built careers on emotional transparency.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "At 28",
+			"detail": "written as current (28); subject is 30 as of 2026-10-06"
+		},
+		{
+			"person": "odessa-azion",
+			"where": "content",
+			"sentence": "She does not need to take formal piano, guitar, ukulele, and drum lessons at 25.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 25",
+			"detail": "\"at 25\" matched the subject around when the page was written (2025); subject is now 26"
+		},
+		{
+			"person": "snoop-dogg",
+			"where": "content",
+			"sentence": "The adult Snoop — the one who married his high school sweetheart, the one who still drops gospel albums on what would have been his mother's birthday — is a man executing instructions he got at church at eight years old, with a few detours.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "eight years old",
+			"detail": "present-tense age 8 that doesn't match the subject (54); likely about someone else and stale-prone"
+		},
+		{
+			"person": "snoop-dogg",
+			"where": "content",
+			"sentence": "The number that matters is 28 — their current year-count.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is 28",
+			"detail": "present-tense age 28 that doesn't match the subject (54); likely about someone else and stale-prone"
+		},
+		{
+			"person": "snoop-dogg",
+			"where": "content",
+			"sentence": "He owns a cannabis brand, a wine label, a fragrance, a dog food company, a YouTube sports commentary channel, a boxing promotion arm, a record label, and — as of 2022 — Death Row Records itself, the same label he once left in fear for his life.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "as of 2022",
+			"detail": "\"as of 2022\" is more than 90 days old"
+		},
+		{
+			"person": "snoop-dogg",
+			"where": "content",
+			"sentence": "The kid she called Snoopy is sixty-four now.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is sixty-four",
+			"detail": "present-tense age 64 that doesn't match the subject (54); likely about someone else and stale-prone"
+		},
+		{
+			"person": "ice-spice",
+			"where": "content",
+			"sentence": "She is twenty-four years old telling a reporter that her spirit animal is a cartoon sponge who won't stop flipping Krabby Patties.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "twenty-four years old",
+			"detail": "written as current (24); subject is 26 as of 2026-10-06"
+		},
+		{
+			"person": "ice-spice",
+			"where": "content",
+			"sentence": "She is twenty-four years old telling a reporter that her spirit animal is a cartoon sponge who won't stop flipping Krabby Patties.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "She is twenty-four",
+			"detail": "written as current (24); subject is 26 as of 2026-10-06"
+		},
+		{
+			"person": "ice-spice",
+			"where": "content",
+			"sentence": "She is twenty-four years old telling a reporter that her spirit animal is a cartoon sponge who won't stop flipping Krabby Patties.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is twenty-four",
+			"detail": "written as current (24); subject is 26 as of 2026-10-06"
+		},
+		{
+			"person": "ice-spice",
+			"where": "content",
+			"sentence": "The Bronx girl who Googled \"how to be rich\" is twenty-four now.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is twenty-four",
+			"detail": "written as current (24); subject is 26 as of 2026-10-06"
+		},
+		{
+			"person": "milly-alcock",
+			"where": "content",
+			"sentence": "It is also the kind that produces a twenty-two-year-old who keeps checking whether she is still allowed to be in the room.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "twenty-two-year-old",
+			"detail": "present-tense age 22 that doesn't match the subject (26); likely about someone else and stale-prone"
+		},
+		{
+			"person": "milly-alcock",
+			"where": "content",
+			"sentence": "The thirteen-year-old who called her own agent is still on the line.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "thirteen-year-old",
+			"detail": "present-tense age 13 that doesn't match the subject (26); likely about someone else and stale-prone"
+		},
+		{
+			"person": "ilona-maher",
+			"where": "content",
+			"sentence": "Honestly, I haven't been on a date in years.\" On GMA and elsewhere she said she had never, as of 2024, been in a serious relationship.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "as of 2024",
+			"detail": "\"as of 2024\" is more than 90 days old"
+		},
+		{
+			"person": "ilona-maher",
+			"where": "faq 1 answer",
+			"sentence": "The pattern shows in the twelve-year-old fast-pitch story she still tells, the BMI video where she answered a stranger by naming her exact weight, the 'I don't have imposter syndrome' CNN line, the bronze medal plus Sports Illustrated cover plus Dancing with the Stars run she stacked simultaneously, and the 'wrung dry' Rugby World admission that named the cost out loud.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "twelve-year-old",
+			"detail": "present-tense age 12 that doesn't match the subject (30); likely about someone else and stale-prone"
+		},
+		{
+			"person": "paul-mescal",
+			"where": "content",
+			"sentence": "Panel three: a Best Actor Oscar nomination for Aftersun at twenty-seven, four years out of drama school, still trying to explain to journalists that he did not fully want this.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "at twenty-seven",
+			"detail": "present-tense age 27 that doesn't match the subject (30); likely about someone else and stale-prone"
+		},
+		{
+			"person": "taylor-frankie-paul",
+			"where": "content",
+			"sentence": "She wants, at 31, to find out if she can survive what happens when they finally line up.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 31",
+			"detail": "\"at 31\" matched the subject around when the page was written (2025); subject is now 32"
+		},
+		{
+			"person": "ben-horowitz",
+			"where": "content",
+			"sentence": "His company stock once traded at 35 cents — below the cash in the bank, which is the market's way of saying you're already dead — and he still sold it to Hewlett-Packard for $1.65 billion.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "at 35",
+			"detail": "present-tense age 35 that doesn't match the subject (60); likely about someone else and stale-prone"
+		},
+		{
+			"person": "ben-horowitz",
+			"where": "content",
+			"sentence": "He is 59 years old.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "59 years old",
+			"detail": "written as current (59); subject is 60 as of 2026-10-06"
+		},
+		{
+			"person": "ben-horowitz",
+			"where": "content",
+			"sentence": "He is 59 years old.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "He is 59",
+			"detail": "written as current (59); subject is 60 as of 2026-10-06"
+		},
+		{
+			"person": "ben-horowitz",
+			"where": "content",
+			"sentence": "He is 59 years old.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is 59",
+			"detail": "written as current (59); subject is 60 as of 2026-10-06"
+		},
+		{
+			"person": "ben-horowitz",
+			"where": "content",
+			"sentence": "That is also what he is doing now, at 59, in a Las Vegas estate behind four gates, with a wife of 37 years and three kids and a partner of 30 years and a firm worth more than he can spend and a new political tribe he is still learning to trust and a father he just buried.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "at 59",
+			"detail": "written as current (59); subject is 60 as of 2026-10-06"
+		},
+		{
+			"person": "harrison-ford",
+			"where": "content",
+			"sentence": "He is 83, the most famous actor of his generation, and the metaphor he uses for his craft is still the one he used when he was 28 and broke.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "He is 83",
+			"detail": "written as current (83); subject is 84 as of 2026-10-06"
+		},
+		{
+			"person": "harrison-ford",
+			"where": "content",
+			"sentence": "He is 83, the most famous actor of his generation, and the metaphor he uses for his craft is still the one he used when he was 28 and broke.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is 83",
+			"detail": "written as current (83); subject is 84 as of 2026-10-06"
+		},
+		{
+			"person": "neil-strauss",
+			"where": "content",
+			"sentence": "Tenn turned eleven this spring.",
+			"kind": "relative_time_stale",
+			"severity": "medium",
+			"phrase": "this spring",
+			"detail": "\"this spring\" written 2026-04-25; the reference has likely moved"
+		},
+		{
+			"person": "neil-strauss",
+			"where": "content",
+			"sentence": "And somewhere underneath all of it, there is still a ten-year-old boy standing on the porch of a Chicago house, waiting for his mother to decide whether to let him in.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "ten-year-old",
+			"detail": "present-tense age 10 that doesn't match the subject (52); likely about someone else and stale-prone"
+		},
+		{
+			"person": "robert-de-niro",
+			"where": "content",
+			"sentence": "He is 82 now.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "He is 82",
+			"detail": "written as current (82); subject is 83 as of 2026-10-06"
+		},
+		{
+			"person": "robert-de-niro",
+			"where": "content",
+			"sentence": "He is 82 now.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is 82",
+			"detail": "written as current (82); subject is 83 as of 2026-10-06"
+		},
+		{
+			"person": "callum-turner",
+			"where": "content",
+			"sentence": "He still talks about his mum the way a thirty-five-year-old usually only talks about a parent if the bond never thinned.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "thirty-five-year-old",
+			"detail": "written as current (35); subject is 36 as of 2026-10-06"
+		},
+		{
+			"person": "lily-allen",
+			"where": "content",
+			"sentence": "That she made it in two weeks, sober, at age 39, after seven years away from music, is the headline number.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at age 39",
+			"detail": "\"at age 39\" matched the subject around when the page was written (2024); subject is now 41"
+		},
+		{
+			"person": "riz-ahmed",
+			"where": "content",
+			"sentence": "His Oscar-winning short film, The Long Goodbye (2022, with director Aneil Karia), opens on a British Pakistani family at a wedding and ends with armed men dragging the men of the household into the street.",
+			"kind": "past_event_in_future_tense",
+			"severity": "high",
+			"phrase": "opens on",
+			"detail": "future tense (\"opens on\") about 2022, which has passed"
+		},
+		{
+			"person": "riz-ahmed",
+			"where": "content",
+			"sentence": "The Oscar-winning short The Long Goodbye (2022, with Aneil Karia) opens on a British Pakistani family at a wedding and ends with armed men dragging them into the street.",
+			"kind": "past_event_in_future_tense",
+			"severity": "high",
+			"phrase": "opens on",
+			"detail": "future tense (\"opens on\") about 2022, which has passed"
+		},
+		{
+			"person": "anna-wintour",
+			"where": "content",
+			"sentence": "The bob is sixty-three years old.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "sixty-three years old",
+			"detail": "present-tense age 63 that doesn't match the subject (76); likely about someone else and stale-prone"
+		},
+		{
+			"person": "anna-wintour",
+			"where": "content",
+			"sentence": "The bob is sixty-three years old.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is sixty-three",
+			"detail": "present-tense age 63 that doesn't match the subject (76); likely about someone else and stale-prone"
+		},
+		{
+			"person": "hayao-miyazaki",
+			"where": "content",
+			"sentence": "The most-shared Miyazaki moment of the last decade is forty-five seconds long.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is forty",
+			"detail": "present-tense age 40 that doesn't match the subject (85); likely about someone else and stale-prone"
+		},
+		{
+			"person": "hayao-miyazaki",
+			"where": "content",
+			"sentence": "He is 84.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "He is 84",
+			"detail": "written as current (84); subject is 85 as of 2026-10-06"
+		},
+		{
+			"person": "hayao-miyazaki",
+			"where": "content",
+			"sentence": "He is 84.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is 84",
+			"detail": "written as current (84); subject is 85 as of 2026-10-06"
+		},
+		{
+			"person": "jamie-dimon",
+			"where": "content",
+			"sentence": "Twenty-six years after his three daughters asked him whether they would be homeless, they are thirty-four, thirty-six, and thirty-eight, and there are seven grandchildren.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "they are thirty-four",
+			"detail": "present-tense age 34 that doesn't match the subject (70); likely about someone else and stale-prone"
+		},
+		{
+			"person": "jamie-dimon",
+			"where": "content",
+			"sentence": "Asked, in the same interview, what running JPMorgan actually felt like at sixty-eight, the man who has spent forty years making himself unfireable said the line that should be the kicker on every reading of him: \"just riding the bronco and hanging on for dear life.\"",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at sixty-eight",
+			"detail": "\"at sixty-eight\" matched the subject around when the page was written (2024); subject is now 70"
+		},
+		{
+			"person": "rupert-murdoch",
+			"where": "content",
+			"sentence": "Murdoch is eighty years old.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "eighty years old",
+			"detail": "present-tense age 80 that doesn't match the subject (95); likely about someone else and stale-prone"
+		},
+		{
+			"person": "rupert-murdoch",
+			"where": "content",
+			"sentence": "Murdoch is eighty years old.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is eighty",
+			"detail": "present-tense age 80 that doesn't match the subject (95); likely about someone else and stale-prone"
+		},
+		{
+			"person": "vivek-ramaswamy",
+			"where": "content",
+			"sentence": "The stock would eventually trade at 40 cents.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 40",
+			"detail": "\"at 40\" matched the subject around when the page was written (2025); subject is now 41"
+		},
+		{
+			"person": "britney-spears",
+			"where": "content",
+			"sentence": "The number to remember is 24.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is 24",
+			"detail": "present-tense age 24 that doesn't match the subject (44); likely about someone else and stale-prone"
+		},
+		{
+			"person": "noah-kahan",
+			"where": "content",
+			"sentence": "He's still here, in the same town, on the same road, in the same bedroom where he learned guitar from his father at six years old.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "six years old",
+			"detail": "present-tense age 6 that doesn't match the subject (29); likely about someone else and stale-prone"
+		},
+		{
+			"person": "noah-kahan",
+			"where": "content",
+			"sentence": "His OCD diagnosis came at twenty-eight.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at twenty-eight",
+			"detail": "\"at twenty-eight\" matched the subject around when the page was written (2025); subject is now 29"
+		},
+		{
+			"person": "pamela-anderson",
+			"where": "content",
+			"sentence": "The Last Showgirl at 57.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 57",
+			"detail": "\"at 57\" matched the subject around when the page was written (2024); subject is now 59"
+		},
+		{
+			"person": "pamela-anderson",
+			"where": "content",
+			"sentence": "She is now, at fifty-eight, doing both at once.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "at fifty-eight",
+			"detail": "written as current (58); subject is 59 as of 2026-10-06"
+		},
+		{
+			"person": "pamela-anderson",
+			"where": "content",
+			"sentence": "She is fifty-eight.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "She is fifty-eight",
+			"detail": "written as current (58); subject is 59 as of 2026-10-06"
+		},
+		{
+			"person": "pamela-anderson",
+			"where": "content",
+			"sentence": "She is fifty-eight.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is fifty-eight",
+			"detail": "written as current (58); subject is 59 as of 2026-10-06"
+		},
+		{
+			"person": "larry-page",
+			"where": "content",
+			"sentence": "It reports that he held 27.4 percent of Alphabet's total voting power as of April 6, 2026.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "as of April 6, 2026",
+			"detail": "\"as of April 6, 2026\" is more than 90 days old"
+		},
+		{
+			"person": "larry-page",
+			"where": "faq 2 answer",
+			"sentence": "The same filing reports that he held 27.4% of Alphabet's total voting power as of April 6, 2026.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "as of April 6, 2026",
+			"detail": "\"as of April 6, 2026\" is more than 90 days old"
+		},
+		{
+			"person": "ella-langley",
+			"where": "faq 1 answer",
+			"sentence": "The pattern shows in the kid who wouldn't sit still at the green metal desk in the church corner, the 20-year-old who walked away from forestry school at Auburn because 'nothing's going to happen if I stay here,' the artist who told her label she'd 'stick my heels in the mud' rather than make music she didn't want to make, and the 8 who covers her calves on every stage.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "20-year-old",
+			"detail": "present-tense age 20 that doesn't match the subject (27); likely about someone else and stale-prone"
+		},
+		{
+			"person": "penelope-cruz",
+			"where": "content",
+			"sentence": "Cruz, at fifty-one, is still openly worrying, still openly leaning on a director two meters off-camera, still organizing her marriage around a two-week separation rule.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "at fifty-one",
+			"detail": "written as current (51); subject is 52 as of 2026-10-06"
+		},
+		{
+			"person": "penelope-cruz",
+			"where": "content",
+			"sentence": "The economics of being a sex-symbol-typed actress are that you do not get to be one at fifty-one.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at fifty-one",
+			"detail": "\"at fifty-one\" matched the subject around when the page was written (2025); subject is now 52"
+		},
+		{
+			"person": "alex-warren",
+			"where": "content",
+			"sentence": "The discipline still carries the memory of a nine-year-old standing over a sink.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "nine-year-old",
+			"detail": "present-tense age 9 that doesn't match the subject (26); likely about someone else and stale-prone"
+		},
+		{
+			"person": "madelaine-petsch",
+			"where": "content",
+			"sentence": "She financially supports \"a lot of my family,\" she said in that 2025 interview, and her explanation arrives in the same shape: \"No one asked me to.",
+			"kind": "past_event_in_future_tense",
+			"severity": "high",
+			"phrase": "arrives in",
+			"detail": "future tense (\"arrives in\") about 2025, which has passed"
+		},
+		{
+			"person": "madelaine-petsch",
+			"where": "content",
+			"sentence": "Recovery, at 31, looks like sitting still while every cell in her body files an objection:",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "at 31",
+			"detail": "written as current (31); subject is 32 as of 2026-10-06"
+		},
+		{
+			"person": "kaia-gerber",
+			"where": "content",
+			"sentence": "Ryan Murphy's The Shards , with Gerber as Susan Reynolds, is scheduled to premiere August 5 (Vogue, July 13, 2026).",
+			"kind": "past_event_in_future_tense",
+			"severity": "high",
+			"phrase": "is scheduled to",
+			"detail": "future tense (\"is scheduled to\") about July 13, 2026, which has passed"
+		},
+		{
+			"person": "n3on",
+			"where": "content",
+			"sentence": "He is twenty-one.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "He is twenty-one",
+			"detail": "written as current (21); subject is 22 as of 2026-10-06"
+		},
+		{
+			"person": "n3on",
+			"where": "content",
+			"sentence": "He is twenty-one.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "is twenty-one",
+			"detail": "written as current (21); subject is 22 as of 2026-10-06"
+		},
+		{
+			"person": "pete-hegseth",
+			"where": "content",
+			"sentence": "Secretary of War at 44.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 44",
+			"detail": "\"at 44\" matched the subject around when the page was written (2024); subject is now 46"
+		},
+		{
+			"person": "hunter-biden",
+			"where": "content",
+			"sentence": "Self Portrait 2 is forty-eight inches by sixty.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is forty-eight",
+			"detail": "present-tense age 48 that doesn't match the subject (56); likely about someone else and stale-prone"
+		},
+		{
+			"person": "travis-kelce",
+			"where": "content",
+			"sentence": "His jersey number is 87, and the story he tells about it, on camera and off, is that it has nothing to do with luck or the draft.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is 87",
+			"detail": "present-tense age 87 that doesn't match the subject (37); likely about someone else and stale-prone"
+		},
+		{
+			"person": "travis-kelce",
+			"where": "content",
+			"sentence": "The appetite that nearly ended it all at 20 is the one thing that will not let him leave at 36.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at 36",
+			"detail": "\"at 36\" matched the subject around when the page was written (2025); subject is now 37"
+		},
+		{
+			"person": "travis-kelce",
+			"where": "faq 1 answer",
+			"sentence": "The pattern shows in the three-year-old who studied his parents, climbed the drawers, and started the family car; the discipline he openly says his brother and Andy Reid installed rather than himself; and the Cincinnati drug suspension he now turns into a punchline and reframes as something that worked out perfectly.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "three-year-old",
+			"detail": "present-tense age 3 that doesn't match the subject (37); likely about someone else and stale-prone"
+		},
+		{
+			"person": "tate-mcrae",
+			"where": "content",
+			"sentence": "She's 22, near the end of an 88-date worldwide tour.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "She's 22",
+			"detail": "written as current (22); subject is 23 as of 2026-10-06"
+		},
+		{
+			"person": "simone-biles",
+			"where": "content",
+			"sentence": "As of April 2026 the answer was 50-50 and she was in no hurry to close it.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "As of April 2026",
+			"detail": "\"As of April 2026\" is more than 90 days old"
+		},
+		{
+			"person": "simone-biles",
+			"where": "content",
+			"sentence": "She is twenty-four, the most decorated gymnast alive, 10,700 kilometers from Spring, Texas, and the sentence her body produces is the one a lost child says.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "She is twenty-four",
+			"detail": "present-tense age 24 that doesn't match the subject (29); likely about someone else and stale-prone"
+		},
+		{
+			"person": "simone-biles",
+			"where": "content",
+			"sentence": "She is twenty-four, the most decorated gymnast alive, 10,700 kilometers from Spring, Texas, and the sentence her body produces is the one a lost child says.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is twenty-four",
+			"detail": "present-tense age 24 that doesn't match the subject (29); likely about someone else and stale-prone"
+		},
+		{
+			"person": "simone-biles",
+			"where": "faq 7 answer",
+			"sentence": "As of April 2026 she had not decided.",
+			"kind": "as_of_dated",
+			"severity": "medium",
+			"phrase": "As of April 2026",
+			"detail": "\"As of April 2026\" is more than 90 days old"
+		},
+		{
+			"person": "jonathan-bailey",
+			"where": "content",
+			"sentence": "At thirty-seven, safe and decorated, he talked himself out of a backflip he can still land, in case a failed one ended up on TikTok.",
+			"kind": "stale_subject_age",
+			"severity": "high",
+			"phrase": "At thirty-seven",
+			"detail": "written as current (37); subject is 38 as of 2026-10-06"
+		},
+		{
+			"person": "patrick-mahomes",
+			"where": "content",
+			"sentence": "That is the pattern at fifteen and at thirty.",
+			"kind": "possible_stale_age",
+			"severity": "medium",
+			"phrase": "at thirty",
+			"detail": "\"at thirty\" matched the subject around when the page was written (2025); subject is now 31"
+		},
+		{
+			"person": "ryan-holiday",
+			"where": "content",
+			"sentence": "The household he quotes back: raised in Sacramento by a police detective and a high school principal, and still citing his father's lessons about right and wrong in open letters at 33.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "at 33",
+			"detail": "present-tense age 33 that doesn't match the subject (39); likely about someone else and stale-prone"
+		},
+		{
+			"person": "ryan-holiday",
+			"where": "content",
+			"sentence": "He is twenty-four and already exhausted.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "He is twenty-four",
+			"detail": "present-tense age 24 that doesn't match the subject (39); likely about someone else and stale-prone"
+		},
+		{
+			"person": "ryan-holiday",
+			"where": "content",
+			"sentence": "He is twenty-four and already exhausted.",
+			"kind": "present_age_other",
+			"severity": "medium",
+			"phrase": "is twenty-four",
+			"detail": "present-tense age 24 that doesn't match the subject (39); likely about someone else and stale-prone"
+		}
+	]
+}

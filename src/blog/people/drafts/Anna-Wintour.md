@@ -300,7 +300,7 @@ She kept her global title. She remains chief content officer of Condé Nast and 
 
 For someone whose job has been the protection of a single editorial line for thirty-seven years, this is the only retirement that was ever going to make sense. A Type 1 does not step away from the work — she redesigns it so the line can outlive her presence at any single desk. Stepping down would mean the line might slip. Stepping _sideways_, while keeping global oversight, means it can't.
 
-She is seventy-six now. She still wakes before five. She still plays tennis at 5:45. The bob is sixty-three years old. The Met Gala will run again next May. The seating chart will already be in her bag the night before, alongside the page proofs.
+Born in 1949, she still wakes before five. She still plays tennis at 5:45. The bob dates to 1963. The Met Gala will run again next May. The seating chart will already be in her bag the night before, alongside the page proofs.
 
 People have spent decades trying to understand what she's hiding behind the sunglasses. The more interesting question is what she's protecting in front of them. The answer has been visible the entire time.
 

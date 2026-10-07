@@ -244,6 +244,6 @@ He knows the clock is running, too. "I know streaming won't last forever," he sa
 
 The fake death was the first time the whole internet said his name at once. Thousands of strangers mourning a boy sitting in his bedroom in Houston, watching the numbers finally move. He calls it his biggest regret. He also spent the next seven years industrializing the exact mechanism it taught him: stage the event, harvest the feeling, check the count.
 
-Now the doctors are real. The Crohn's that kept him out of school still lands him in hospital beds, and he streams from them when he can, because the quiet on the other side of the camera is the thing he has been outrunning since he was eleven. He is twenty-one.
+Now the doctors are real. The Crohn's that kept him out of school still lands him in hospital beds, and he streams from them when he can, because the quiet on the other side of the camera is the thing he has been outrunning since he was eleven. He was born in 2004.
 
 Somewhere he still has the montage a stranger made when he pretended to die. Sad music. A career's worth of clips. A comment section full of people who cared for one afternoon. It is the most honest thing anyone has ever made about him, and he produced it himself. The fear underneath all the noise is quiet and specific: that if the surgery ever really goes wrong, the montage nobody bothers to make will be the true one.

@@ -272,7 +272,7 @@ In 2026, he starred in _Crime 101_, a crime thriller with Mark Ruffalo — playi
 
 "My appetite for racing forward has really been reined in," he said in early 2026. "I've become more aware of the fragility of things. You start thinking, 'My dad won't be here forever.' And my kids are now 11 and 13. Those nights where they'd fight over sleeping in our bed — suddenly they're not happening anymore."
 
-Hemsworth is 42. Something is changing — not dramatically, but the frequency has shifted.
+Hemsworth is in his early forties. Something is changing — not dramatically, but the frequency has shifted.
 
 "I'm at that sort of point where I'd love to step away on one hand and do a little soul searching," he told Theo Von.
 

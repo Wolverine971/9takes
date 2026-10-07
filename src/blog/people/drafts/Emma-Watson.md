@@ -57,7 +57,7 @@ citations:
   - 'https://www.thetrevorproject.org/'
 faqs:
   - question: "What is Emma Watson's personality type?"
-    answer: "Emma Watson is an Enneagram Type 1 (The Perfectionist). The pattern shows in her self-described terror of 'doing it wrong' on the Harry Potter set at nine, her HeForShe speech at the UN at twenty-four, her decision to step away from acting at peak market value, her switch from an Oxford Master's to a DPhil at thirty-five, and her refusal to stay silent on Rowling's gender-critical position even when silence was the easier career move."
+    answer: "Emma Watson is an Enneagram Type 1 (The Perfectionist). The pattern shows in her self-described terror of 'doing it wrong' on the Harry Potter set at nine, her HeForShe speech at the UN at twenty-four, her decision to step away from acting at peak market value, her switch from an Oxford Master's to a DPhil in her mid-thirties, and her refusal to stay silent on Rowling's gender-critical position even when silence was the easier career move."
     anchor: 'what-is-emma-watsons-personality-type'
   - question: 'Why did Emma Watson publicly break with JK Rowling?'
     answer: "After Rowling's 2020 essays and tweets on gender identity, Emma posted a brief affirmation of trans people on X without naming Rowling, then at the 2022 BAFTAs declared 'I'm here for all of the witches.' Rowling later named that BAFTAs line as the moment the relationship broke. The Type 1 inner critic could have lived with the post; it could not have lived with silence on a question it had already answered."
@@ -88,7 +88,7 @@ content_quality:
 </script>
 
 <QuickAnswer question="What is Emma Watson's personality type?">
-Emma Watson is an <a href="/enneagram-corner/enneagram-type-1">Enneagram Type 1</a>, "The Perfectionist." Type 1s carry an inner critic that measures every choice against an impossible moral standard — which is why Emma broke publicly with the woman who made her famous, withdrew from acting at the height of her market value, and went back to Oxford at 35 to start a PhD.
+Emma Watson is an <a href="/enneagram-corner/enneagram-type-1">Enneagram Type 1</a>, "The Perfectionist." Type 1s carry an inner critic that measures every choice against an impossible moral standard — which is why Emma broke publicly with the woman who made her famous, withdrew from acting at the height of her market value, and went back to Oxford in her mid-thirties to start a PhD.
 </QuickAnswer>
 
 > "I was terrified by the level of interest in me." — Emma Watson
@@ -97,7 +97,7 @@ Emma Watson is an <a href="/enneagram-corner/enneagram-type-1">Enneagram Type 1<
 
 It's a brutal sentence. It's also not entirely wrong, and any honest read of Emma Watson has to start there.
 
-She is an [Enneagram Type 1](/enneagram-corner/enneagram-type-1) — The Perfectionist — operating inside a cushion of wealth and fame she did not choose but cannot pretend away. The Type 1 inner critic that drives her activism, her selective career, her PhD at 35, also runs alongside a privilege that keeps the consequences of being morally wrong unusually small. Both things are true. Most pieces about Emma Watson pick one. This one will try to hold both.
+She is an [Enneagram Type 1](/enneagram-corner/enneagram-type-1) — The Perfectionist — operating inside a cushion of wealth and fame she did not choose but cannot pretend away. The Type 1 inner critic that drives her activism, her selective career, her PhD in her mid-thirties, also runs alongside a privilege that keeps the consequences of being morally wrong unusually small. Both things are true. Most pieces about Emma Watson pick one. This one will try to hold both.
 
 <details>
 <summary class="accordion">TL;DR: Why Emma Watson is an Enneagram Type 1</summary>
@@ -106,7 +106,7 @@ She is an [Enneagram Type 1](/enneagram-corner/enneagram-type-1) — The Perfect
 <li><b>The inner critic that never sleeps:</b> From age 9, Emma feared "doing it wrong" on set, pushing herself to excel academically while filming. The same internal voice now runs her activism, her gin company, and her doctoral research.</li>
 <li><b>Moral compulsion as career strategy:</b> Her HeForShe speech, the public break with Rowling, and her decision to step away from Hollywood at peak market value all share a Type 1 pattern: integrity costs less than living with the inner verdict.</li>
 <li><b>Perfectionist burnout:</b> Her admission that "the bottom fell out" of her life maps a textbook Type 1 collapse — push until you break, then rebuild from scratch.</li>
-<li><b>The DPhil at 35:</b> Switching from a Master's to an Oxford PhD is a Type 1 tell. Mastery is never finished. There is always more to be earned.</li>
+<li><b>The DPhil in her mid-thirties:</b> Switching from a Master's to an Oxford PhD is a Type 1 tell. Mastery is never finished. There is always more to be earned.</li>
 <li><b>The cushion she will not name:</b> Rowling's "uncushioned by wealth and fame" critique has a real edge. Emma's principled withdrawal happened to be financially possible. The Type 1 frame explains the conviction; it does not explain the absence of cost.</li>
 </ul>
 </div>
@@ -246,7 +246,7 @@ She took five years instead of four to graduate, taking two full semesters off f
 
 In May 2014, Emma graduated with a Bachelor's degree in English Literature. Within months, she would launch HeForShe.
 
-### Oxford University: The DPhil at 35
+### Oxford University: The DPhil in Her Mid-Thirties
 
 In September 2023, Emma returned to Oxford, this time as a student in the creative writing Master's program at Lady Margaret Hall.
 
@@ -342,7 +342,7 @@ The nine-year-old terrified of doing Hermione wrong and the thirty-five-year-old
 
 At nine, the standard belonged to someone else — directors, producers, Rowling's text. By Brown, she had designed her own major to take ownership of her own development. By Oxford, a Master's wasn't enough and she upgraded to a DPhil. At the UN, she stood in front of 193 member states and asked "If not me, who?" because the internal pressure to act had become unbearable. The pressure didn't get smaller. The audience for it kept getting bigger.
 
-The honest assessment of Emma Watson at thirty-five looks like this: she is a Type 1 perfectionist whose moral conviction is real, whose courage in the Rowling dispute is real, and whose conditions for being morally consistent have always been favorable. She has not had to be brave under economic pressure. She has not had to be principled while broke. The Type 1 inner critic operates inside an unbroken cushion of resources, and it would be sentimental to pretend that doesn't matter.
+The honest assessment of Emma Watson in her mid-thirties looks like this: she is a Type 1 perfectionist whose moral conviction is real, whose courage in the Rowling dispute is real, and whose conditions for being morally consistent have always been favorable. She has not had to be brave under economic pressure. She has not had to be principled while broke. The Type 1 inner critic operates inside an unbroken cushion of resources, and it would be sentimental to pretend that doesn't matter.
 
 What is also true is that most people in her position do not bother. Most actors with Harry Potter money go quiet. Most former child stars do not learn three languages of activism — the U.N. one, the academic one, the corporate-board one. Most do not enroll in a doctoral program at Oxford in their thirties. The conditions are favorable; the use she has made of them is not the standard celebrity outcome.
 

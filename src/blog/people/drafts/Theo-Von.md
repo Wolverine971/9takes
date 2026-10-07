@@ -445,7 +445,7 @@ The result is a string of relationships that follow the same arc. "I've cheated 
 
 There's a deeper thread. When his first serious girlfriend broke up with him, Theo blurted out: "You can't break up with me, you're my mother." He didn't understand what it meant for years. "Once I got into recovery and started getting a look at my life, I was like, wow, I had no understanding of how to get affection or be fair with affection. I didn't have a template."
 
-At 45, Theo describes the idea of marriage as "harrowing." But he can think about it now. For someone who once looked at functioning families and thought "what the fuck is this, this is the dumbest thing I've ever seen," that counts as real progress.
+In his mid-forties, Theo described the idea of marriage as "harrowing." But he can think about it now. For someone who once looked at functioning families and thought "what the fuck is this, this is the dumbest thing I've ever seen," that counts as real progress.
 
 The late-night pattern tells you where the wound still lives. On the road, alone on his tour bus, he stays up past the hour he knows is safe. Once the clock crosses that line, a familiar sequence kicks in: vaping, scrolling, pornography, shame. "Sometimes if I'm up too late then I'll do something to damage myself," he told Dax. Not damage as hyperbole. Damage as the accurate word for what happens when the eight-year-old inside him can't sleep and no one is coming to check.
 

@@ -305,7 +305,7 @@ The loyalty to Coogler isn't just loyalty. It's a partnership with the one perso
 
 ## Noble Promise
 
-At 38, Michael B. Jordan has 16 Oscar nominations for a vampire movie, a directorial career in motion, a production company that changed how Hollywood thinks about inclusion, and People's Sexiest Man Alive on his résumé — because Type 3s even achieve in categories they didn't pursue.
+In his late thirties, Michael B. Jordan has 16 Oscar nominations for a vampire movie, a directorial career in motion, a production company that changed how Hollywood thinks about inclusion, and People's Sexiest Man Alive on his résumé — because Type 3s even achieve in categories they didn't pursue.
 
 But the question that haunts every Type 3 still echoes.
 

@@ -2,7 +2,7 @@
 title: 'Hugh Jackman: The Nicest Man in Hollywood and the Boy Who Still Waits Outside'
 meta_title: "Hugh Jackman's Wound: Why Warmth Became a Survival Skill"
 persona_title: "Hollywood's Tireless Host"
-description: "Behind Hugh Jackman's warmth lies a boy who came home to an empty house at 8 and built a life around being impossible to leave."
+description: "Behind Hugh Jackman's warmth may lie a boy who came home to an empty house at 8 and built a life around being impossible to leave."
 author: 'DJ Wayne'
 date: '2026-04-01'
 loc: 'https://9takes.com/personality-analysis/hugh-jackman'
@@ -54,6 +54,10 @@ citations:
   - 'https://en.wikipedia.org/wiki/Wolverine_(film)'
   - 'https://en.wikipedia.org/wiki/Les_Misérables_(2012_film)'
   - 'https://en.wikipedia.org/wiki/The_Greatest_Showman'
+  - 'https://extratv.com/2025/05/28/hugh-jackman-s-ex-deborra-lee-furness-speaks-out-on-betrayal-after-filing-for-divorce/'
+  - 'https://abcnews.com/GMA/Culture/hugh-jackman-deborra-lee-furness-finalize-divorce-after/story?id=123167993'
+  - 'https://en.wikipedia.org/wiki/Song_Sung_Blue_(2025_film)'
+  - 'https://en.wikipedia.org/wiki/The_Sheep_Detectives'
 faqs:
   - question: "What is Hugh Jackman's personality type?"
     answer: "Hugh Jackman is an Enneagram Type 2 (The Helper), specifically a 2w3 — what the system calls 'The Host.' The pattern shows in the eight-year-old who couldn't enter his own empty house after his mother's telegram from England, the adolescent 'white rage' that became Wolverine fuel (the Two's stress arrow to Eight), the morning tea ritual of a 27-year marriage, and a stage philosophy that 'all spiritual moments in my life have been on stage' — connection as both calling and survival mechanism."
@@ -62,7 +66,7 @@ faqs:
     answer: "His mother left for England when he was eight; the rage didn't surface until 12 or 13, when a planned reconciliation fell apart. He headbutted lockers, went into 'white rage' in rugby rucks, and identified the source himself: 'Isn't most anger fear-based, ultimately? It emanates from some kind of powerlessness.' Preparing for Wolverine, he stood in a Toronto apartment at 3 AM under a freezing shower and felt the rage rise — the same fury, stored in his body for decades, finally with a controlled place to go across ten films and twenty-four years."
     anchor: 'white-rage-and-the-diving-board'
   - question: 'What happened with Hugh Jackman and Deborra-Lee Furness?'
-    answer: "They married in 1996 after meeting on the set of Correlli, adopted Oscar and Ava after multiple miscarriages, and announced their separation in September 2023 citing 'individual growth.' By 2024, Jackman was linked to his Music Man co-star Sutton Foster — described by sources as 'Broadway's worst-kept secret.' Furness filed for divorce in May 2025 with a statement referencing 'the traumatic journey of betrayal' — a single word that reframed twenty-seven years of public morning-tea narrative."
+    answer: "They married in 1996 after meeting on the set of Correlli, adopted Oscar and Ava after multiple miscarriages, and announced their separation in September 2023 citing 'individual growth.' By 2024, Jackman was linked to his Music Man co-star Sutton Foster — described by sources as 'Broadway's worst-kept secret.' Furness filed for divorce in May 2025 and days later released a statement referencing 'the traumatic journey of betrayal' — a single word that reframed twenty-seven years of public morning-tea narrative. A New York court granted the divorce on June 3, 2025."
     anchor: '27-years-of-morning-tea'
   - question: 'Why does Hugh Jackman call performing a spiritual practice?'
     answer: "At thirteen, his evangelical father took him to a Billy Graham crusade in Sydney, where he had a premonition he'd one day stand on stage 'like the preachers I saw.' Before every Broadway performance, he prays: 'Allow me to surrender.' He compares himself to Eric Liddell's 'When I run, I feel His pleasure.' The stage is where the boy who waited outside the empty house finally gets to be inside a room so full that absence becomes impossible."
@@ -87,7 +91,7 @@ That was 1976. In the fifty years since, Jackman has become perhaps the most uni
 
 Everybody loves Hugh Jackman. The question nobody asks is why Hugh Jackman needs everybody to.
 
-Because there is a gap between the public Hugh Jackman — the warmest man in any room, the one who remembers every name and makes every stranger feel like family — and the private architecture that built him. A boy who couldn't enter his own house alone. A man who, in September 2023, saw his twenty-seven-year marriage end with his ex-wife publicly using the word "betrayal."
+Because there is a gap between the public Hugh Jackman — the warmest man in any room, the one who remembers every name and makes every stranger feel like family — and the private architecture that built him. A boy who couldn't enter his own house alone. A man whose twenty-seven-year marriage ended in a 2023 separation, and whose ex-wife reached for the word "betrayal" when she filed for divorce in 2025.
 
 The nicest guy in Hollywood has a more complicated story than the niceness suggests.
 
@@ -95,7 +99,7 @@ The nicest guy in Hollywood has a more complicated story than the niceness sugge
 <summary class="accordion">TL;DR: Why Hugh Jackman is an Enneagram Type 2</summary>
 <div class="panel">
 <ul>
-<li><b>The warmth has a source:</b> Abandoned by his mother at 8, Jackman built a life around making sure no room he enters feels empty</li>
+<li><b>The warmth may have a source:</b> His mother left when he was 8, and one plausible read of everything since is a man making sure no room he enters feels empty</li>
 <li><b>Rage underneath the charm:</b> A "white rage" in adolescent rugby became the fuel for Wolverine — and the stress pattern of a Two going to Eight</li>
 <li><b>Philosophy vs. behavior:</b> He preaches the 85% rule and surrender while waking at 3 AM for punishing Wolverine workouts</li>
 <li><b>The performer's paradox:</b> "All spiritual moments in my life have been on stage" — connection as both calling and survival mechanism</li>
@@ -121,7 +125,7 @@ She didn't come back. The family split — Hugh and his brothers stayed in Sydne
 
 Picture that for a moment. An eight-year-old sitting on the front step of his own home, afraid to open the door. Not because of what was inside. Because of what wasn't.
 
-Christopher Jackman raised five children alone. He was devout, principled, and emotionally restrained in the way of many English fathers of that generation. His parenting philosophy was radical non-interference: when Hugh was deciding whether to take a job on a soap opera or attend drama school, he asked his father what to do.
+Christopher Jackman raised Hugh and his two brothers alone. He was devout, principled, and emotionally restrained in the way of many English fathers of that generation. His parenting philosophy was radical non-interference: when Hugh was deciding whether to take a job on a soap opera or attend drama school, he asked his father what to do.
 
 "I can't answer that for you," Christopher said. "You have to make your own decision."
 
@@ -133,7 +137,7 @@ When Hugh told him he'd chosen drama school, his father exhaled: "Oh, thank God!
 
 Hugh now calls this "an amazing bit of parenting." But there's a quieter read: a father who, having been abandoned by his wife, was careful never to be too needed. A father who withheld advice so he could never be blamed — or credited — for the outcome. A father who loved fiercely but kept his emotional fingerprints off everything.
 
-Hugh absorbed both lessons. From his mother's departure: _connection can be ripped away without warning._ From his father's restraint: _love doesn't always announce itself._ The child who carried both of those truths would spend his entire adult life making sure no one around him ever felt alone or unseen.
+Hugh seems to have absorbed both lessons. From his mother's departure: _connection can be ripped away without warning._ From his father's restraint: _love doesn't always announce itself._ Children who carry both of those truths often grow into adults who make sure no one around them feels alone or unseen. Jackman fits that pattern closely.
 
 "My Father taught me to always keep my promises," Jackman wrote on Instagram after Christopher died on Father's Day 2021, at age eighty-four. "Even if it turns out there's a better option or something that will benefit me more. Always be true to your word."
 
@@ -167,7 +171,7 @@ He had found the rage. It had been inside him the whole time — the same white 
 
 "Aggression is a primal thing and it needs to be exorcised in some way," he said later. "Far better to have it in a controlled violent environment. So in a way playing Wolverine is good therapy."
 
-He played the character across ten films and twenty-four years. The Guinness World Record for longest career as a live-action Marvel superhero. Most people see an actor who got lucky with a franchise. The deeper truth is that a boy with a lifetime of suppressed rage found the one character in cinema who makes fury look like a superpower.
+He played the character across ten films and twenty-four years, and once held the Guinness World Record for longest career as a live-action Marvel superhero. Most people see an actor who got lucky with a franchise. The deeper truth is that a boy with a lifetime of suppressed rage found the one character in cinema who makes fury look like a superpower.
 
 ---
 
@@ -181,7 +185,7 @@ The evidence doesn't point to a man driven primarily by achievement or success. 
 
 Consider the evidence:
 
-- Ryan Reynolds, his closest friend in Hollywood, let slip what Jackman is like behind the public faux-feud: "When we are together outside of our public persona taking the piss out of each other, most of our conversations are very vulnerable." When they first met on the set of _X-Men Origins: Wolverine_ in 2008, Reynolds was a relative nobody. Jackman walked straight over: "He gave me a big hug and said, 'Welcome aboard. It's all going to be fine. We're going to make you comfortable,'" Reynolds recalled. Eighteen years later, Jackman describes their friendship as one that "just gets better and better, deeper and deeper." The man everybody thinks they know is actually most himself in private, unguarded vulnerability.
+- Ryan Reynolds, his closest friend in Hollywood, let slip what Jackman is like behind the public faux-feud: "When we are together outside of our public persona taking the piss out of each other, most of our conversations are very vulnerable." When they first met on the set of _X-Men Origins: Wolverine_ in 2008, Reynolds was a relative nobody. Jackman walked straight over: "He gave me a big hug and said, 'Welcome aboard. It's all going to be fine. We're going to make you comfortable,'" Reynolds recalled. The man everybody thinks they know is actually most himself in private, unguarded vulnerability.
 - His [stress pattern](/enneagram-corner/enneagram-types-in-stress) maps precisely onto the Two's line to [Type Eight](/enneagram-corner/enneagram-type-8). Under pressure, the warmest person in the room becomes volatile, controlling, rageful. The white rage in rugby. The cold-shower scream in Toronto. The man who never raises his voice — until something cracks.
 - His growth pattern maps onto the Two's line to Type Four: increasing emotional self-awareness, willingness to sit with difficult feelings, therapy as a practice of seeing himself clearly. "Understanding my past and how it's informing my thinking unconsciously — getting to really understand some of the patterns that I was unconsciously just repeating."
 
@@ -191,7 +195,7 @@ The **2w3 wing** — what the Enneagram calls "The Host" — adds the showmanshi
 
 An achiever wouldn't frame it as insecurity. An achiever would frame it as drive. Jackman names the wound — and that naming is itself a Two's move: vulnerable, relational, reaching toward connection even in the act of self-description.
 
-Not everyone finds the warmth charming. Jackman has acknowledged that the "nicest guy in Hollywood" label irritates him: "Any label is your enemy," he's said. Director Bryan Singer reportedly yelled at him early in the first _X-Men_ film for being too pleasant on set — "You need to be edgier, you need to be meaner" — and at least one observer has noted that his relentless enthusiasm "treads the line between infectious and exhausting." He knows this about himself. The question is whether the warmth is a choice he makes or a reflex he can't turn off. For a Two, the honest answer is usually both.
+Not everyone finds the warmth charming. Jackman has acknowledged that the "nicest guy in Hollywood" label irritates him: "Any label is your enemy," he's said. Director Bryan Singer reportedly yelled at him early in the first _X-Men_ film for being too pleasant on set — "You need to be edgier, you need to be meaner." He knows this about himself. The question is whether the warmth is a choice he makes or a reflex he can't turn off. For a Two, the honest answer is usually both.
 
 ---
 
@@ -199,7 +203,7 @@ Not everyone finds the warmth charming. Jackman has acknowledged that the "nices
 
 Before he was Wolverine, Hugh Jackman was Coco the Clown.
 
-He rented the suit. He could juggle three things, poorly. He had no balloon skills. No magic tricks. Fifty dollars a party. A six-year-old once stood up and announced: "Mummy, this clown is terrible, he doesn't know any tricks." At his last party, an eight-year-old yelled "Mom, this clown is crap" and the other children pelted him with eggs.
+He rented the suit. He could juggle three things, poorly. He had no balloon skills. No magic tricks. Fifty dollars a party. At his last party, an eight-year-old yelled "Mom, this clown is crap" and the other children pelted him with eggs.
 
 "50 bucks," he reflected later. "Not worth it."
 
@@ -215,7 +219,7 @@ He was offered a role on _Neighbours_, the Australian soap opera — quick money
 
 Then came _X-Men_. He wasn't the first choice. Dougray Scott was cast but dropped out due to scheduling conflicts with _Mission: Impossible II_. Jackman auditioned, got the role, and nearly got fired five weeks in. He kept going. He would play the character for twenty-four years across ten films.
 
-But the roles that reveal the most about him aren't the Wolverine films. They're the musicals. _The Boy from Oz_ (Tony Award, 2004) — playing openly gay entertainer Peter Allen. _Les Miserables_ (Golden Globe, 2013) — playing a man who redeems himself through sacrifice for a child who isn't his. _The Greatest Showman_ (2017) — playing a man who builds a family out of misfits and gives them a stage.
+But the roles that reveal the most about him aren't the Wolverine films. They're the musicals. _The Boy from Oz_ (Tony Award, 2004) — playing openly gay entertainer Peter Allen. _Les Miserables_ (Golden Globe, 2013) — playing a man who redeems himself through sacrifice for a child who isn't his. _The Greatest Showman_ (2017) — playing a man who builds a family out of misfits and gives them a stage. _Song Sung Blue_ (December 2025): playing Mike Sardina, a real Neil Diamond tribute singer who performed with his wife, played by an Oscar-nominated Kate Hudson. Even the family hit _The Sheep Detectives_ (May 2026) casts him as a shepherd so loved that his flock sets out to solve his murder.
 
 "The reason I weirdly pretend to be other people — this may sound sort of ass-backwards — but the reason I do it is to actually understand life, humanity, myself, and why we're here."
 
@@ -231,7 +235,7 @@ And then he wakes up at 3 AM to train.
 
 For Wolverine roles, his routine was punishing: forty-five minutes of low-intensity fasted cardio before sunrise, followed by heavy lifting, followed by an afternoon high-intensity session. Six thousand calories a day. Three hours of total training. Cold showers in Canadian winters. Abstaining from alcohol entirely during Broadway runs. Rating each day on a zero-to-ten scale as personal accountability.
 
-He meditates twice daily. He reads for thirty minutes every morning. He makes his own coffee and his wife's tea. He has a spiritual practice rooted in surrender.
+He meditates twice daily. He reads for thirty minutes every morning. For most of his marriage, he made his own coffee and his wife's tea. He has a spiritual practice rooted in surrender.
 
 And he cannot stop.
 
@@ -243,7 +247,7 @@ He says this. He doesn't do this. The gap between Jackman's philosophy and Jackm
 
 ## 27 Years of Morning Tea
 
-He was twenty-seven. She was forty. He spotted her in the front seat of a car picking him up from the set of _Correlli_.
+He was twenty-six. She was thirty-nine. He spotted her in the front seat of a car picking him up from the set of _Correlli_.
 
 "She took off her seatbelt, turned around and put out her hand and took off her sunglasses, and said, 'Hi, I'm Deborra-Lee Furness; nice to meet you.' I remember thinking, 'I like this girl.'"
 
@@ -261,7 +265,7 @@ In September 2023, they announced their separation in a joint statement citing "
 
 Reports emerged linking Jackman to Sutton Foster, his co-star in the Broadway revival of _The Music Man_, which had run from 2021 to 2023. Sources told outlets it was "Broadway's worst-kept secret." Foster separated from her own husband around the same time. By early 2025, the two were photographed together publicly.
 
-In May 2025, Furness filed for divorce. Her public statement cut through whatever was left of the joint-statement narrative: "My heart and compassion goes out to everyone who has traversed the traumatic journey of betrayal."
+In May 2025, Furness filed for divorce. Days later, her public statement cut through whatever was left of the joint-statement narrative: "My heart and compassion goes out to everyone who has traversed the traumatic journey of betrayal." A New York court granted the divorce on June 3, 2025.
 
 One word in that sentence rewrites twenty-seven years. And it reframes the morning tea, the family decision-making framework, the public image of the guy who chose the older woman and stayed. Not as lies, necessarily — twenty-seven years is too long to be entirely performance. But as something more complicated than the story either of them had been telling.
 
@@ -283,7 +287,7 @@ But the few things Jackman has said about fatherhood reveal the architecture und
 
 "The love I have for my wife is so intense, but nothing prepared me for the love I have for my kids," he told interviewers. "I would jump in front of a bus for them."
 
-That's a common enough sentiment from any parent. What's less common is how transparently he connects his parenting to his own childhood wound. "My kids have so many advantages," he told _People_. "And I want them to know that they have a responsibility to use those advantages to help others." The boy who came home to an empty house raised children who would never wonder whether someone was coming back.
+Common enough from any parent. What stands out is what he asks of them. "My kids have so many advantages," he told _People_. "And I want them to know that they have a responsibility to use those advantages to help others." The boy who came home to an empty house raised children who would never wonder whether someone was coming back.
 
 He describes his parenting philosophy as presence above all: "I believe in letting kids be kids for as long as possible. I do constantly talk to them about giving everything their best and doing the thing you love."
 
@@ -321,6 +325,8 @@ That's a Two's theology. Not doctrine. Not hierarchy. A dinner table where every
 
 "What I strive for in my life is everything but separation," he once told Oprah. "If I meet someone at a bus stop, I want to really meet that person."
 
-He has been meeting people — really meeting them — for forty years now. On stages and sets and red carpets and in coffee farms in Ethiopia. He cannot stop. And maybe that's the point. The boy who sat outside an empty house decided, somewhere in his body before his mind had words for it, that he would spend the rest of his life making sure no room he walked into was empty again.
+He has been meeting people — really meeting them — for forty years now. On stages and sets and red carpets and in coffee farms in Ethiopia. He cannot stop. Maybe the boy who sat outside an empty house decided, somewhere in his body before his mind had words for it, that no room he walked into would be empty again. Only Jackman can say whether that's true. The pattern fits.
 
 At some point you stop asking whether it's generosity or survival. You realize it might be the same thing.
+
+> **Disclaimer:** This analysis of Hugh Jackman's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Hugh Jackman.

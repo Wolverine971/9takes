@@ -268,7 +268,7 @@ The strongest alternate case is Type 3, the Achiever. She is a relentless perfor
 
 ## Ellen DeGeneres now: an anxious exile in the Cotswolds
 
-The show ended in 2022. Then, in September 2024, Ellen released a Netflix stand-up special, _For Your Approval_, billed as her last, and set the terms of her own story. "For those keeping score, this is the second time I got kicked out of show business." Even the title is a Six confession. _For your approval._ Critics split, some finding it self-serving, but the framing is the point: at 66, she still narrated her life as a bid to be accepted back into the room.
+The show ended in 2022. Then, in September 2024, Ellen released a Netflix stand-up special, _For Your Approval_, billed as her last, and set the terms of her own story. "For those keeping score, this is the second time I got kicked out of show business." Even the title is a Six confession. _For your approval._ Critics split, some finding it self-serving, but the framing is the point: in 2024, at 66, she still narrated her life as a bid to be accepted back into the room.
 
 Then she left the room entirely. Ellen and her wife, Portia de Rossi, moved to the UK, arriving in the Cotswolds just before the 2024 US election. Speaking in Cheltenham in July 2025, Ellen said the plan had been temporary until it wasn't: "We got here the day before the election and woke up to lots of texts from our friends with crying emojis, and I was like, 'He got in.' And we're like, 'We're staying here.'" She added that if American courts move to reverse same-sex marriage, "Portia and I are already looking into it, and if they do that, we're going to get married here."
 

@@ -244,7 +244,7 @@ For most actors, rehearsal is professional. For her, too much rehearsal is a slo
 
 ## Why Odessa A'zion keeps making music nobody asked for
 
-A young actress with a BAFTA nomination does not need a SoundCloud account. She does not need a band called Dessa. She does not need to take formal piano, guitar, ukulele, and drum lessons at 25. She does not need to spend 2025 recording an album to release alongside her biggest film year ever.
+A young actress with a BAFTA nomination does not need a SoundCloud account. She does not need a band called Dessa. She does not need to take formal piano, guitar, ukulele, and drum lessons in her mid-twenties. She does not need to spend 2025 recording an album to release alongside her biggest film year ever.
 
 But she does all of it, because she cannot not.
 

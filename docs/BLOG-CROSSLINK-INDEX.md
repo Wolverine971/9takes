@@ -21,15 +21,13 @@ Link ideas to act on: [`docs/crosslinks/link-opportunities.md`](crosslinks/link-
 | Live blog posts | 148 (+ 9 type pages) |
 | Published people pages | 451 |
 | Completely isolated (0 in, 0 out) | 0 |
-| 0 incoming | 1 |
+| 0 incoming | 0 |
 | 0 outgoing | 0 |
-| Below gate (<3 in or <3 out) | 1 (1 not grandfathered) |
+| Below gate (<3 in or <3 out) | 0 (0 not grandfathered) |
 | Broken internal links (live post → non-live page) | 0 |
 | Links that go through a 301 | 0 |
 | Broken/redirected links on people pages (draft mirror) | 0 |
-| Body links: blog → blog / blog → people | 1,580 / 302 |
-
-**Zero-link posts:** `/pop-culture/artificial-movie-real-people` (in 0, out 10)
+| Body links: blog → blog / blog → people | 1,583 / 302 |
 
 ---
 
@@ -42,7 +40,7 @@ Where body links go. Rows = linking section, columns = linked section.
 | enneagram-corner | 1,140 | 23 | 13 | 20 | 77 | 90% | 95 | 8 |
 | community | 57 | 50 | 1 | 6 | 2 | 43% | 18 | 4 |
 | how-to-guides | 56 | 3 | 20 | 0 | 0 | 25% | 11 | 3 |
-| pop-culture | 89 | 3 | 0 | 99 | 223 | 24% | 33 | 3 |
+| pop-culture | 89 | 3 | 0 | 102 | 223 | 24% | 33 | 3 |
 
 ---
 
@@ -318,7 +316,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 531 | 29.2 | 9 (9/0) | 12 (12/0) | How Your Enneagram Type Shapes Your Therapy Experience | `/enneagram-corner/mental-health/enneagram-therapy-guide` |
 | 503 | 9.9 | 12 (12/0) | 18 (18/0) | Enneagram Types on a First Date: What to Expect | `/enneagram-corner/enneagram-types-on-a-first-date` |
 | 489 | 15.1 | 3 (3/0) | 10 (7/3) | The Psychology of Jeffrey Epstein: Understanding the Dark Helper (Par… | `/pop-culture/epstein-psychology-part-1` |
-| 484 | 10.5 | 6 (6/0) | 31 (6/25) | Tech Leadership by Personality Type: How Each Enneagram Type Runs a C… | `/pop-culture/tech-titans-leadership-styles` |
+| 484 | 10.5 | 6 (6/0) | 32 (7/25) | Tech Leadership by Personality Type: How Each Enneagram Type Runs a C… | `/pop-culture/tech-titans-leadership-styles` |
 | 479 | 40.3 | 11 (8/3) | 23 (23/0) | Enneagram Concepts: The Personality Box You're Living In | `/enneagram-corner/enneagram-concepts` |
 | 456 | 19.2 | 129 (52/77) | 12 (12/0) | Enneagram Type 7: Enthusiast - The Possibility Engine | `/enneagram-corner/enneagram-type-7` |
 | 394 | 43.0 | 5 (3/2) | 9 (8/1) | Enneagram Leadership: Why Your Approach Keeps Backfiring | `/enneagram-corner/enneagram-leadership` |
@@ -349,7 +347,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 102 | 30.2 | 4 (4/0) | 37 (37/0) | Enneagram Books, Websites, Podcasts & Influencers | `/enneagram-corner/enneagram-books-websites-podcasts` |
 | 100 | 20.4 | 14 (14/0) | 14 (14/0) | Enneagram Self-Development: What I Got Wrong as a Type 8 | `/enneagram-corner/enneagram-self-development` |
 | 100 | 10.0 | 6 (6/0) | 7 (7/0) | Philosophy and Psychology Gave Birth to the Enneagram | `/enneagram-corner/philosophy-psychology-and-the-enneagram` |
-| 87 | 8.3 | 3 (3/0) | 23 (14/9) | The Fallen Founders: What Holmes, Neumann, and Bankman-Fried Reveal A… | `/pop-culture/fallen-founders-enneagram-analysis` |
+| 87 | 8.3 | 3 (3/0) | 24 (15/9) | The Fallen Founders: What Holmes, Neumann, and Bankman-Fried Reveal A… | `/pop-culture/fallen-founders-enneagram-analysis` |
 | 85 | 28.3 | 3 (2/1) | 3 (3/0) | Who Built the Enneagram? Mystics, Psychiatrists, Philosophers | `/enneagram-corner/enneagram-influences` |
 | 75 | 5.9 | 4 (4/0) | 5 (5/0) | The Enneagram Changed My Life, But I Learned to Shut Up About It | `/community/why-im-selective-sharing-enneagram` |
 | 63 | 8.9 | 3 (3/0) | 9 (4/5) | Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline Always Ex… | `/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis` |
@@ -364,7 +362,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 25 | 11.9 | 4 (4/0) | 16 (16/0) | Enneagram First Impressions: What Each Type Is Scanning For | `/enneagram-corner/first-impression-enneagram-playbook` |
 | 23 | 10.3 | 3 (3/0) | 4 (4/0) | Why You Don't Believe in Yourself (And How to Fix It in 30 Days) | `/how-to-guides/definitive-guide-to-self-efficacy` |
 | 22 | 17.2 | 3 (3/0) | 11 (11/0) | How to Use the Enneagram for Self-Development (Past the Test) | `/how-to-guides/using-the-enneagram-for-self-development` |
-| 12 | 8.9 | 4 (4/0) | 5 (2/3) | Musk vs Altman Trial: The Verdict, the Vibes, and the Personality Cla… | `/pop-culture/musk-vs-altman-trial-personality-dynamics` |
+| 12 | 8.9 | 4 (4/0) | 6 (3/3) | Musk vs Altman Trial: The Verdict, the Vibes, and the Personality Cla… | `/pop-culture/musk-vs-altman-trial-personality-dynamics` |
 | 7 | 10.7 | 3 (3/0) | 6 (6/0) | 3 Societal Ticking Time Bombs Nobody Is Connecting | `/community/societal-ticking-time-bombs` |
 | 5 | 9.2 | 4 (4/0) | 11 (4/7) | Podcast Bros: Inside the Movement That Replaced Mainstream Media | `/pop-culture/podcast-bros-enneagram-analysis` |
 | 4 | 5.5 | 3 (3/0) | 7 (7/0) | You Didn't Find Yourself in the Enneagram. You Found a Map. | `/community/personality-frameworks-map-not-territory` |
@@ -414,6 +412,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | — | — | 3 (3/0) | 5 (5/0) | How to Read People: The 4-Step Guide to Understanding Anyone | `/how-to-guides/how-to-psychoanalyze-people` |
 | — | — | 3 (3/0) | 20 (20/0) | Productivity Systems by Enneagram Type | `/how-to-guides/productivity-systems-by-enneagram-type` |
 | — | — | 3 (3/0) | 6 (6/0) | Active Listening Guide: Why Your Personality Type Sabotages It | `/how-to-guides/ultimate-guide-to-active-listening` |
+| — | — | 3 (3/0) | 10 (4/6) | Is Artificial a True Story? The Real People Behind Guadagnino's OpenA… | `/pop-culture/artificial-movie-real-people` |
 | — | — | 3 (3/0) | 9 (6/3) | Breaking Points: How a Type 1 and a Type 7 Built Media's Most Unlikel… | `/pop-culture/breaking-points-enneagram-analysis` |
 | — | — | 3 (3/0) | 5 (5/0) | Influencer Enneagram Types: Nine Creator Pressure Patterns | `/pop-culture/influencer-enneagram-types-instagram` |
 | — | — | 3 (3/0) | 7 (7/0) | Masculinity, Strength, and Emotional Maturity | `/pop-culture/masculinity-strength-and-the-enneagram` |
@@ -421,4 +420,3 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | — | — | 3 (3/0) | 13 (3/10) | The Platform Emperors: How Personality Types Shape the Products Billi… | `/pop-culture/tech-titans-platform-emperors` |
 | — | — | 3 (3/0) | 14 (5/9) | Trump's Type 3 vs Biden's Type 2: Why They Could Never Understand Eac… | `/pop-culture/trump-type-3-vs-biden-type-2` |
 | — | — | 3 (3/0) | 14 (14/0) | Why Is Twitter/X So Toxic? 6 Reasons Conflict Spreads | `/pop-culture/twitter-x-personality-types-toxic` |
-| — | — | 0 (0/0) | 10 (4/6) | Is Artificial a True Story? The Real People Behind Guadagnino's OpenA… | `/pop-culture/artificial-movie-real-people` |

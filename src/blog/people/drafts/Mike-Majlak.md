@@ -51,7 +51,7 @@ faqs:
     answer: "At 16, a freak basketball accident shattered his femur and the hospital prescribed OxyContin — in 2001, just as Purdue Pharma was marketing pain as 'the fifth vital sign.' OxyContin led to heroin, then crack cocaine; he dealt to fund the habit, his mother kicked him out, and he was homeless for two years. The addiction consumed roughly a decade, from 18 to his mid-twenties."
     anchor: 'a-decade-in-the-dark'
   - question: 'How did Mike Majlak get sober?'
-    answer: "In 2010, his worst year — his grandfather dying of Parkinson's downstairs while he failed drug tests upstairs — his parole officer gave him an ultimatum: rehab or prison. He chose 90 days of detox, tapering off 80mg of daily methadone at 2mg per week. He walked out at 285 pounds, lost over 100 of them within a year, and is now fifteen years clean."
+    answer: "In 2010, his worst year — his grandfather dying of Parkinson's downstairs while he failed drug tests upstairs — his parole officer gave him an ultimatum: rehab or prison. He chose 90 days of detox, tapering off 80mg of daily methadone at 2mg per week. He walked out at 285 pounds, lost over 100 of them within a year, and has stayed clean since."
     anchor: 'the-year-everything-screamed'
   - question: 'How did Mike Majlak meet Logan Paul?'
     answer: "In 2014, while working as a marketing coordinator at furniture company LoveSac, Majlak noticed Logan Paul racking up millions of views on Vine and recruited him for a promotion that sold over two million beanbags in a single day. He became part of Logan's inner circle, and in November 2018 they launched Impaulsive, which grew past 900 million YouTube views and joined the WWE and Fanatics network in 2025."

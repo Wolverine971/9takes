@@ -126,7 +126,7 @@ That's not marketing. That's how a Type 4 genuinely experiences their work. Ever
 
 Altman doesn't manage through systems like a 5. He doesn't intimidate like an 8. He doesn't build consensus like a 9. He manages through _story_. And the story is always the same: we are doing the most important thing anyone has ever done, and you get to be part of it.
 
-> **Happening now:** Altman is currently in [federal court in Oakland defending OpenAI against Elon Musk](/pop-culture/musk-vs-altman-trial-personality-dynamics), and the case is being decided on vibes, which is to say, on a Type 5 vs Type 4 personality collision in front of a jury. The trial is the cleanest live test of everything in this section.
+> **Since then:** OpenAI [beat Elon Musk in federal court in Oakland](/pop-culture/musk-vs-altman-trial-personality-dynamics) on May 18, 2026, after the jury found Musk had waited too long to sue, so the Type 5 vs Type 4 collision never got a verdict on the merits. The 2023 boardroom fight is now a movie, too: [_Artificial_](/pop-culture/artificial-movie-real-people), with Andrew Garfield as Altman.
 
 ### "But Isn't Altman a 3?"
 

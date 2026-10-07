@@ -211,7 +211,7 @@ The first was the dance studio. His account of it, given to CBS Sunday Morning i
 
 The second was his twenties, closeted, working. "It was like a Tupperware box that had been locked down," he told [Attitude](https://www.attitude.co.uk/culture/film-tv/bridgertons-jonathan-bailey-talks-being-an-out-gay-actor-with-sir-ian-mckellen-304734/) in 2020. "It was affecting relationships, friendships, romantic relationships, because I felt like I was withdrawing." Then the line that matters most: "To be able to identify emotion seems to me completely parallel to being honest and authentic." He is describing a period where he could not locate his own feelings.
 
-The third has no closet in it. At thirty-seven, safe and decorated, he talked himself out of a backflip he can still land, in case a failed one ended up on TikTok. Nobody was reading him. He read himself anyway.
+The third has no closet in it. In 2025, at thirty-seven, safe and decorated, he talked himself out of a backflip he can still land, in case a failed one ended up on TikTok. Nobody was reading him. He read himself anyway.
 
 The Three shows in what he did next. He did not argue with the reading, and he did not go looking for a better room to be seen in. He took one glance as data and turned it on himself. The recognition was instant, by his own account; the edit was partial. He dropped the dance and kept the acting and the singing.
 

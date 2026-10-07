@@ -26,6 +26,13 @@ const MD_OUT = path.join(MD_OUT_DIR, 'corpus-stats.md');
 
 const SUPABASE_URL = process.env.PUBLIC_SUPABASE_URL;
 const SUPABASE_ANON_KEY = process.env.PUBLIC_SUPABASE_PUBLISHABLE_KEY;
+// Drafts need the service key: RLS hides unpublished rows from the public key,
+// which is how "Drafts in pipeline: 0" shipped. Without the key the draft count
+// is null (unknown) and /corpus-stats hides it instead of printing a fake 0.
+const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_KEY;
+// An unpublished row only counts as a draft once it has real writing in it.
+const DRAFT_MIN_CONTENT_CHARS = 2000;
+const PAGE_SIZE = 1000;
 
 function warnAndSkip(reason) {
 	console.warn(`⚠️  ${reason}`);
@@ -111,19 +118,60 @@ function round(n, digits = 2) {
 }
 
 async function fetchRows() {
-	let data;
-	let error;
-	try {
-		({ data, error } = await supabase
+	const rows = [];
+	for (let from = 0; ; from += PAGE_SIZE) {
+		let data;
+		let error;
+		try {
+			({ data, error } = await supabase
+				.from('blogs_famous_people')
+				.select('person, enneagram, type, published, lastmod, first_published_at, published_at')
+				.order('id', { ascending: true })
+				.range(from, from + PAGE_SIZE - 1));
+		} catch (err) {
+			warnAndSkip(`Supabase request threw: ${err.message}`);
+		}
+		if (error) {
+			warnAndSkip(`Supabase fetch failed: ${error.message}`);
+		}
+		rows.push(...(data || []));
+		if (!data || data.length < PAGE_SIZE) break;
+	}
+	return rows;
+}
+
+/**
+ * Unpublished profiles with more than DRAFT_MIN_CONTENT_CHARS of content, one
+ * per person, skipping people who already have a published profile. Returns
+ * null when the service key is missing or the query fails: never a fake 0.
+ */
+async function countSubstantiveDrafts(publishedPeople) {
+	if (!SUPABASE_SERVICE_KEY) {
+		console.warn('⚠️  SUPABASE_SERVICE_KEY not set; drafts count left null (tile hidden).');
+		return null;
+	}
+	const admin = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY, {
+		auth: { persistSession: false }
+	});
+	const draftPeople = new Set();
+	for (let from = 0; ; from += PAGE_SIZE) {
+		const { data, error } = await admin
 			.from('blogs_famous_people')
-			.select('person, enneagram, type, published, lastmod, first_published_at, published_at'));
-	} catch (err) {
-		warnAndSkip(`Supabase request threw: ${err.message}`);
+			.select('person, content')
+			.eq('published', false)
+			.order('id', { ascending: true })
+			.range(from, from + PAGE_SIZE - 1);
+		if (error) {
+			console.warn(`⚠️  Draft count failed (${error.message}); drafts count left null.`);
+			return null;
+		}
+		for (const row of data || []) {
+			if (!row.person || publishedPeople.has(row.person)) continue;
+			if ((row.content || '').length > DRAFT_MIN_CONTENT_CHARS) draftPeople.add(row.person);
+		}
+		if (!data || data.length < PAGE_SIZE) break;
 	}
-	if (error) {
-		warnAndSkip(`Supabase fetch failed: ${error.message}`);
-	}
-	return data || [];
+	return draftPeople.size;
 }
 
 function normalizeRows(rows) {
@@ -151,6 +199,13 @@ function typeDistribution(rows) {
 
 function rankEntries(obj, { desc = true } = {}) {
 	return Object.entries(obj).sort((a, b) => (desc ? b[1] - a[1] : a[1] - b[1]));
+}
+
+/** "A", "A and B", "A, B, and C". */
+function joinList(items) {
+	if (items.length <= 1) return items[0] ?? '';
+	if (items.length === 2) return `${items[0]} and ${items[1]}`;
+	return `${items.slice(0, -1).join(', ')}, and ${items[items.length - 1]}`;
 }
 
 function buildDomainStats(published, baselineShares) {
@@ -197,11 +252,10 @@ function buildDomainStats(published, baselineShares) {
 	return domains;
 }
 
-function buildPipelineStats(normalized, published) {
-	// Unpublished drafts = profiles in the review pipeline.
-	// Publishing cadence = real count of profiles whose first_published_at
-	// fell in the last 30/90 days — proof the pipeline is active.
-	const drafts = normalized.filter((r) => !r.published);
+function buildPipelineStats(draftCount, published) {
+	// Drafts = substantive unpublished profiles (see countSubstantiveDrafts), or
+	// null when they can't be counted. Publishing cadence = real count of
+	// profiles whose first_published_at fell in the last 30/90 days.
 	const now = new Date();
 	const cut30 = new Date(now.getTime() - 30 * 86400000);
 	const cut90 = new Date(now.getTime() - 90 * 86400000);
@@ -216,7 +270,8 @@ function buildPipelineStats(normalized, published) {
 	}
 
 	return {
-		in_draft: drafts.length,
+		in_draft: draftCount,
+		draft_min_content_chars: DRAFT_MIN_CONTENT_CHARS,
 		published_last_30_days: published30,
 		published_last_90_days: published90,
 		avg_new_per_month: round(published90 / 3, 1)
@@ -278,10 +333,13 @@ function buildCitableClaims(stats) {
 	const { totals, enneagram_distribution, domains } = stats;
 	const claims = [];
 
+	// Tie-aware: if two types share the top count, name both.
+	const leaders = mostCommonTypes(enneagram_distribution.counts);
+	const leaderShare = pct(enneagram_distribution.shares[leaders[0]]);
 	claims.push(
-		`Across ${totals.published} published personality profiles on 9takes, Enneagram types are not evenly distributed — ${TYPE_NAMES[mostCommonType(enneagram_distribution.counts)]} is the most common at ${pct(
-			enneagram_distribution.shares[mostCommonType(enneagram_distribution.counts)]
-		)}% of the corpus.`
+		leaders.length > 1
+			? `Across ${totals.published} published personality profiles on 9takes, Enneagram types are not evenly distributed — ${joinList(leaders.map((t) => TYPE_NAMES[t]))} tie for most common at ${leaderShare}% of the corpus each.`
+			: `Across ${totals.published} published personality profiles on 9takes, Enneagram types are not evenly distributed — ${TYPE_NAMES[leaders[0]]} is the most common at ${leaderShare}% of the corpus.`
 	);
 
 	// Per-domain over-representation
@@ -294,21 +352,26 @@ function buildCitableClaims(stats) {
 		);
 	}
 
-	// Pipeline — FOMO-style ("work in progress")
+	// Pipeline — only when the draft count is known and non-zero.
 	if (stats.pipeline && stats.pipeline.in_draft > 0) {
 		const cadenceSuffix = stats.pipeline.avg_new_per_month
-			? `, with ~${stats.pipeline.avg_new_per_month} new profiles shipping per month`
+			? `, and ~${stats.pipeline.avg_new_per_month} new profiles were published per month over the last 90 days`
 			: '';
 		claims.push(
-			`${stats.pipeline.in_draft} additional profiles are in the review pipeline${cadenceSuffix}.`
+			`${stats.pipeline.in_draft} more profiles exist as unpublished drafts on 9takes${cadenceSuffix}.`
 		);
 	}
 
 	return claims;
 }
 
-function mostCommonType(counts) {
-	return Number(rankEntries(counts)[0][0]);
+/** Every type sharing the top count, in type order. */
+function mostCommonTypes(counts) {
+	const top = Math.max(...Object.values(counts));
+	return Object.keys(counts)
+		.filter((t) => counts[t] === top)
+		.map(Number)
+		.sort((a, b) => a - b);
 }
 
 function buildMarkdown(stats) {
@@ -343,7 +406,9 @@ function buildMarkdown(stats) {
 	lines.push('## Corpus Totals');
 	lines.push('');
 	lines.push(`- **Published profiles:** ${totals.published}`);
-	lines.push(`- **Drafts in pipeline:** ${totals.unpublished_drafts}`);
+	lines.push(
+		`- **Drafts in pipeline:** ${totals.unpublished_drafts ?? 'unknown (needs SUPABASE_SERVICE_KEY)'}`
+	);
 	lines.push('');
 	lines.push('> All stats below are computed against **published** profiles only.');
 	lines.push('');
@@ -406,7 +471,9 @@ function buildMarkdown(stats) {
 	// Pipeline
 	lines.push('## Pipeline');
 	lines.push('');
-	lines.push(`- **In the draft / review pipeline:** ${pipeline.in_draft}`);
+	lines.push(
+		`- **Unpublished drafts (${DRAFT_MIN_CONTENT_CHARS}+ characters):** ${pipeline.in_draft ?? 'unknown'}`
+	);
 	lines.push(`- **Published in the last 30 days:** ${pipeline.published_last_30_days}`);
 	lines.push(`- **Published in the last 90 days:** ${pipeline.published_last_90_days}`);
 	lines.push(`- **Average new profiles per month (trailing 90d):** ${pipeline.avg_new_per_month}`);
@@ -449,6 +516,12 @@ function buildMarkdown(stats) {
 	lines.push(
 		'- **Multi-domain figures:** A person tagged with both `musician` and `activist` is counted in both domains.'
 	);
+	lines.push(
+		`- **Drafts:** unpublished profiles with more than ${DRAFT_MIN_CONTENT_CHARS} characters of content, one per person, excluding people who already have a published profile. Counting them needs \`SUPABASE_SERVICE_KEY\` (RLS hides unpublished rows from the public key); without it the count is null, not 0.`
+	);
+	lines.push(
+		'- **Who assigns the types:** 9takes editors type every profile. Over- and under-representation can reflect editor-typing bias as well as who becomes famous; treat explanations as hypotheses.'
+	);
 	lines.push('');
 	lines.push('_Regenerate with `pnpm gen:corpus-stats`. Refresh cadence: monthly._');
 	lines.push('');
@@ -468,14 +541,15 @@ async function main() {
 	const baselineDist = typeDistribution(published);
 	const domains = buildDomainStats(published, baselineDist.shares);
 	const perTypeDomains = buildPerTypeDomains(published);
-	const pipeline = buildPipelineStats(normalized, published);
+	const draftCount = await countSubstantiveDrafts(new Set(published.map((r) => r.person)));
+	const pipeline = buildPipelineStats(draftCount, published);
 	const freshness = buildFreshnessStats(published);
 
 	const stats = {
 		generated_at: new Date().toISOString(),
 		totals: {
 			published: published.length,
-			unpublished_drafts: normalized.length - published.length
+			unpublished_drafts: draftCount
 		},
 		enneagram_distribution: {
 			counts: baselineDist.counts,
@@ -499,7 +573,7 @@ async function main() {
 	console.log(`✅ Wrote ${path.relative(process.cwd(), JSON_OUT)}`);
 	console.log(`✅ Wrote ${path.relative(process.cwd(), MD_OUT)}`);
 	console.log(
-		`   Published: ${published.length}  |  Domains reported: ${Object.keys(domains).length}  |  Claims: ${stats.citable_claims.length}`
+		`   Published: ${published.length}  |  Drafts: ${draftCount ?? 'unknown'}  |  Domains reported: ${Object.keys(domains).length}  |  Claims: ${stats.citable_claims.length}`
 	);
 }
 

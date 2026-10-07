@@ -270,7 +270,7 @@ And Dogstar. During COVID lockdowns in 2020, he called up his old bandmates Rob 
 
 In October 2024, at age sixty, he made his professional motorsport debut at Indianapolis Motor Speedway. Finished 25th and 24th. When asked why: "Racing is fun."
 
-The BRZRKR comic series. The Book of Elsewhere novel. Dogstar on world tour. Professional racing at sixty. These aren't the moves of a man still deferring. They're the moves of a man who is, slowly and carefully, building things with his name on them.
+The BRZRKR comic series. The Book of Elsewhere novel. Dogstar on world tour. Professional racing in his sixties. These aren't the moves of a man still deferring. They're the moves of a man who is, slowly and carefully, building things with his name on them.
 
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/H5tGAReWTe0" title="Racing GRit: A Keanu Reeves Story - Toyota GR Cup 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

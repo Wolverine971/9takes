@@ -160,7 +160,7 @@ But the lesson stuck: never build something that a single algorithm change can d
 
 If Mahalo showed Jason's vulnerability, This Week in Startups shows his consistency.
 
-Since 2009, Jason has hosted <a class="external-link" target="_blank" rel="noopener" href="https://thisweekinstartups.com/">TWiST</a>, the longest-running, most prolific show in startup media. As of January 2026, he's recorded over 2,200 episodes. That's 15+ years of showing up three times a week to interview founders, debate markets, and argue investment philosophy. It streams live Monday, Wednesday, and Friday from his Austin studio to an audience of 400,000+ across podcast, YouTube, and social.
+Since 2009, Jason has hosted <a class="external-link" target="_blank" rel="noopener" href="https://thisweekinstartups.com/">TWiST</a>, the longest-running, most prolific show in startup media. By January 2026, he had recorded over 2,200 episodes. That's 15+ years of showing up three times a week to interview founders, debate markets, and argue investment philosophy. It streams live Monday, Wednesday, and Friday from his Austin studio to an audience of 400,000+ across podcast, YouTube, and social.
 
 His interview style is distinctly Type 3: direct questions about traction, revenue, path to $100 million. He doesn't waste time on founder backstories unless they're relevant. He wants to know: "When are you going to reach $100 million in revenue, and what is the path to it?"
 
@@ -270,7 +270,7 @@ The product tells you how Jason thinks about everything he touches. The brand ha
 
 While podcasting and politics grab headlines, Jason's investment operation continues at scale.
 
-**LAUNCH Portfolio (as of January 2026):**
+**LAUNCH Portfolio (January 2026):**
 
 - <a class="external-link" target="_blank" rel="noopener" href="https://www.launch.co/">300+ startups backed</a> to date
 - <a class="external-link" target="_blank" rel="noopener" href="https://www.launch.co/">8 unicorns</a>: Uber, Thumbtack, Calm, Datastax, Wealthfront, Robinhood, Desktop Metal, and Density
@@ -435,7 +435,7 @@ At 55, Jason could coast. The Uber returns alone could fund multiple lifetimes o
 
 He doesn't coast.
 
-As of January 2026: still co-hosting one of the most listened-to business podcasts in tech, still running 100 startup investments per year through LAUNCH, still keynoting CES, still publishing on Substack, still making civilization-defining claims about Elon Musk's robots, still advising on AI policy at the White House level. Still going.
+In January 2026: still co-hosting one of the most listened-to business podcasts in tech, still running 100 startup investments per year through LAUNCH, still keynoting CES, still publishing on Substack, still making civilization-defining claims about Elon Musk's robots, still advising on AI policy at the White House level. Still going.
 
 For a Type 3 who still measures himself against men worth ten times his net worth, "enough" isn't a finish line. It's a word that would require leaving the room.
 

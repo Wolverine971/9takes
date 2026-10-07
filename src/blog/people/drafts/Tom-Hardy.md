@@ -49,7 +49,7 @@ citations:
   - 'https://www.imdb.com/name/nm0362766/'
 faqs:
   - question: "What is Tom Hardy's personality type?"
-    answer: "Tom Hardy is an Enneagram Type 8 (The Challenger). The pattern shows in his own admission that 'everything that I play is what scared me' — the boy who felt small, skinny, and preyed upon built armor through 42 pounds of muscle for Bronson, voices engineered as psychological weapons, a crack addiction pushed to the limit before 20-plus years of sobriety, and a competitive Brazilian jiu-jitsu purple belt at 47."
+    answer: "Tom Hardy is an Enneagram Type 8 (The Challenger). The pattern shows in his own admission that 'everything that I play is what scared me' — the boy who felt small, skinny, and preyed upon built armor through 42 pounds of muscle for Bronson, voices engineered as psychological weapons, a crack addiction pushed to the limit before 20-plus years of sobriety, and a competitive Brazilian jiu-jitsu purple belt in his late forties."
     anchor: 'tom-hardy-is-an-enneagram-type-8'
   - question: 'Why does Tom Hardy physically transform for every role?'
     answer: "Hardy traced it to childhood fear: 'I remember being frightened a lot, of being small and skinny and vulnerable... everything that I play is what scared me.' Rebuilding his body — 42 pounds of muscle for Bronson, 30 for Bane, lean and sinewy for Warrior — constructs external armor, the psychological fortification made visible."
@@ -340,9 +340,9 @@ Type 6 counterphobic is the strongest alternate. The childhood fear, the "I coul
 </div>
 </details>
 
-## Hardy at 47: The Current Phase
+## Hardy in His Late Forties: The Current Phase
 
-At 47, Hardy is in the most prolific stretch of his career.
+In his late forties, Hardy is in the most prolific stretch of his career.
 
 ### Saying Goodbye to Venom
 

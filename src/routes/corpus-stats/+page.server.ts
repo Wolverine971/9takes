@@ -21,6 +21,7 @@ import {
 	NINE_TAKES_ORGANIZATION,
 	SITE_URL
 } from '$lib/utils/corpusDatasetJsonLd';
+import { joinList, typeExtremes } from '$lib/utils/corpusTypeRanking';
 
 const PAGE_URL = CORPUS_DATASET_URL;
 const DATASET_ID = CORPUS_DATASET_ID;
@@ -33,10 +34,13 @@ const PAGE_FIRST_PUBLISHED = '2025-09-01T00:00:00.000Z';
 type ExternalSource = {
 	id: string;
 	name: string;
+	short_name: string;
 	url: string;
 	methodology: string;
 	sample_size: number;
 	date_range: string;
+	complete: boolean;
+	type_shares: Record<string, number>;
 };
 type CredibilityReference = {
 	id: string;
@@ -65,11 +69,13 @@ const TYPE_NAMES: Record<string, string> = {
 };
 
 const pct = (n: number) => (n * 100).toFixed(1);
+const typeLabel = (t: string) => `Type ${t} (${TYPE_NAMES[t]})`;
+const typeLabels = (types: string[]) => joinList(types.map(typeLabel));
 
 export const load: PageServerLoad = async () => {
 	const stats = corpusStats as unknown as {
 		generated_at?: string;
-		totals: { published: number; unpublished_drafts: number };
+		totals: { published: number; unpublished_drafts: number | null };
 		enneagram_distribution: { shares: Record<string, number>; counts: Record<string, number> };
 		domains: Record<
 			string,
@@ -78,10 +84,11 @@ export const load: PageServerLoad = async () => {
 				label: string;
 				url: string;
 				total: number;
+				counts_by_type: Record<string, number>;
 				top_over_represented: { type: number; share: number; count: number; delta_pp: number };
 			}
 		>;
-		pipeline?: { avg_new_per_month: number; in_draft: number };
+		pipeline?: { avg_new_per_month: number; in_draft: number | null };
 		citable_claims: string[];
 	};
 	const external = externalStats as unknown as External;
@@ -90,18 +97,32 @@ export const load: PageServerLoad = async () => {
 	const generatedAt = stats.generated_at ?? new Date().toISOString();
 	const externalSampleTotal = external.sources.reduce((sum, s) => sum + s.sample_size, 0);
 
-	// Largest type in the corpus baseline.
-	const sortedTypes = Object.entries(stats.enneagram_distribution.shares).sort(
-		(a, b) => b[1] - a[1]
-	);
-	const topType = sortedTypes[0]; // [typeKey, share]
-	const topTypeKey = topType[0];
-	const topTypeShare = topType[1];
-	const topTypeName = TYPE_NAMES[topTypeKey];
-	const rarestType = sortedTypes[sortedTypes.length - 1]; // [typeKey, share]
-	const rarestTypeKey = rarestType[0];
-	const rarestTypeShare = rarestType[1];
-	const rarestTypeName = TYPE_NAMES[rarestTypeKey];
+	// Most common and rarest types, tie-aware (Types 1 and 2 can share the bottom).
+	const shares = stats.enneagram_distribution.shares;
+	const extremes = typeExtremes(stats.enneagram_distribution.counts);
+
+	// Largest gaps vs the one public source with a full nine-type table.
+	const primarySource =
+		external.sources.find((s) => s.id === 'enneagram_personality_com') ?? external.sources[0];
+	const deltasPp: Record<string, number> = {};
+	for (const [type, share] of Object.entries(shares)) {
+		const reference = primarySource?.type_shares?.[type];
+		if (typeof reference === 'number')
+			deltasPp[type] = Number(((share - reference) * 100).toFixed(1));
+	}
+	const deltaExtremes = typeExtremes(deltasPp);
+	const gapClauses: string[] = [];
+	if (deltaExtremes && deltaExtremes.mostValue > 0) {
+		gapClauses.push(
+			`${deltaExtremes.mostValue.toFixed(1)} points above it on ${typeLabels(deltaExtremes.most)}`
+		);
+	}
+	if (deltaExtremes && deltaExtremes.leastValue < 0) {
+		gapClauses.push(
+			`${Math.abs(deltaExtremes.leastValue).toFixed(1)} points below it on ${typeLabels(deltaExtremes.least)}`
+		);
+	}
+	const draftCount = stats.pipeline?.in_draft ?? stats.totals.unpublished_drafts;
 
 	// ----- Dynamic SEO copy. Bound to live numbers. -----
 	const title = `Enneagram Type Distribution Statistics: ${published} Public Figures by Type`;
@@ -116,46 +137,80 @@ export const load: PageServerLoad = async () => {
 		.map((d) => ({
 			label: d.label,
 			url: d.url,
+			total: d.total,
+			counts_by_type: d.counts_by_type,
 			top: d.top_over_represented
 		}))
 		.filter((d) => d.top.delta_pp >= 5)
 		.sort((a, b) => b.top.delta_pp - a.top.delta_pp);
 
-	const faqs: { q: string; a: string }[] = [
-		{
-			q: 'What is the most common Enneagram type among public figures on 9takes?',
-			a: `Across ${published} published personality profiles, Type ${topTypeKey} (${topTypeName}) is the most common at ${pct(topTypeShare)}% of the corpus.`
-		},
-		{
-			q: 'Are Enneagram types evenly distributed across public figures?',
-			a: `No. The 9takes corpus shows an uneven distribution: Type ${topTypeKey} (${topTypeName}) leads at ${pct(topTypeShare)}%, while Type ${rarestTypeKey} (${rarestTypeName}) is rarest at ${pct(rarestTypeShare)}%. The often-cited "11.11% per type" baseline is a theoretical prior, not an empirical finding — no primary public dataset supports an even distribution.`
-		}
-	];
+	const faqs: { q: string; a: string }[] = [];
 
-	if (domainLeaders[0]) {
-		const d = domainLeaders[0];
-		faqs.push({
-			q: `Which Enneagram type is most over-represented in ${d.label} on 9takes?`,
-			a: `Type ${d.top.type} (${TYPE_NAMES[String(d.top.type)]}) is most over-represented in ${d.label} at ${pct(d.top.share)}% — ${d.top.delta_pp >= 0 ? '+' : ''}${d.top.delta_pp} percentage points above the corpus baseline (n=${d.top.count}).`
-		});
-	}
-	if (domainLeaders[1]) {
-		const d = domainLeaders[1];
-		faqs.push({
-			q: `Which Enneagram type dominates ${d.label} profiles on 9takes?`,
-			a: `Type ${d.top.type} (${TYPE_NAMES[String(d.top.type)]}) is the dominant type in ${d.label} at ${pct(d.top.share)}% — ${d.top.delta_pp >= 0 ? '+' : ''}${d.top.delta_pp} percentage points above the 9takes corpus baseline (n=${d.top.count}).`
-		});
+	if (extremes) {
+		const topShare = pct(shares[extremes.most[0]] ?? 0);
+		const rarestShare = pct(shares[extremes.least[0]] ?? 0);
+		const topTied = extremes.most.length > 1;
+		const rarestTied = extremes.least.length > 1;
+		const mostCommonSentence = topTied
+			? `${typeLabels(extremes.most)} tie for most common at ${topShare}% of the corpus each`
+			: `${typeLabel(extremes.most[0])} is the most common at ${topShare}% of the corpus`;
+		const leaderClause = topTied
+			? `${typeLabels(extremes.most)} tie for the lead at ${topShare}% each`
+			: `${typeLabel(extremes.most[0])} leads at ${topShare}%`;
+		const rarestClause = rarestTied
+			? `${typeLabels(extremes.least)} tie for rarest at ${rarestShare}% each`
+			: `${typeLabel(extremes.least[0])} is rarest at ${rarestShare}%`;
+
+		faqs.push(
+			{
+				q: 'What is the most common Enneagram type among public figures on 9takes?',
+				a: `Across ${published} published personality profiles, ${mostCommonSentence}. These are shares of the public figures 9takes has profiled, as typed by its editors, not population estimates.`
+			},
+			{
+				q: 'Are Enneagram types evenly distributed across public figures?',
+				a: `No. The 9takes corpus shows an uneven distribution: ${leaderClause}, while ${rarestClause}. The often-cited "11.11% per type" baseline is a theoretical prior, not an empirical finding — no primary public dataset supports an even distribution.`
+			}
+		);
 	}
 
-	faqs.push({
-		q: 'How does the 9takes corpus compare to public Enneagram test-taker data?',
-		a: `The 9takes corpus over-indexes on Type 3 (Achiever) and under-indexes on Type 9 (Peacemaker) compared to the largest public datasets (~${externalSampleTotal.toLocaleString()} test-takers across ${external.sources.length} published sources). The gap reflects sample bias: public figures are selected for visibility, which skews toward Achievers, while Peacemakers tend to be culturally invisible.`
+	// "Most over-represented" and "most common" are different facts; only call a
+	// type dominant in a domain when it also has the domain's largest count.
+	domainLeaders.slice(0, 2).forEach((d, index) => {
+		const typeName = TYPE_NAMES[String(d.top.type)];
+		const deltaText = `${d.top.delta_pp >= 0 ? '+' : ''}${d.top.delta_pp} percentage points above the corpus baseline`;
+		const domainLeadersByCount = typeExtremes(d.counts_by_type)?.most ?? [];
+		const isDominant =
+			domainLeadersByCount.length === 1 && domainLeadersByCount[0] === String(d.top.type);
+		faqs.push(
+			index === 1 && isDominant
+				? {
+						q: `Which Enneagram type dominates ${d.label} profiles on 9takes?`,
+						a: `Type ${d.top.type} (${typeName}) is the most common type in ${d.label} at ${pct(d.top.share)}% (${d.top.count} of ${d.total}), ${deltaText}.`
+					}
+				: {
+						q: `Which Enneagram type is most over-represented in ${d.label} on 9takes?`,
+						a: `Type ${d.top.type} (${typeName}) is most over-represented in ${d.label} at ${pct(d.top.share)}% — ${deltaText} (n=${d.top.count}).`
+					}
+		);
 	});
 
+	// Explanations stay hypotheses: first-party corpus stats can't prove a cause,
+	// and 9takes editors assign every type in the corpus.
+	if (primarySource && gapClauses.length > 0) {
+		faqs.push({
+			q: 'How does the 9takes corpus compare to public Enneagram test-taker data?',
+			a: `Compared with ${primarySource.short_name} (~${primarySource.sample_size.toLocaleString()} online test-takers${primarySource.complete ? ', the one public source here with a full nine-type table' : ''}), the 9takes corpus runs ${joinList(gapClauses)}, its largest ${gapClauses.length > 1 ? 'gaps in each direction' : 'gap'}. Two explanations are plausible and untested. One is selection: public figures are chosen for visibility, which may favor some types and pass over others. The other is editor-typing bias: 9takes editors assign every type in the corpus, and their reads may lean toward some types. The corpus describes profiled public figures, not the population.`
+		});
+	}
+
 	if (stats.pipeline) {
+		const draftClause =
+			typeof draftCount === 'number' && draftCount > 0
+				? `, and ${draftCount} more profiles are in unpublished draft`
+				: '';
 		faqs.push({
 			q: 'How often is the 9takes corpus updated?',
-			a: `The corpus is regenerated on every deploy. As of the latest update, ~${stats.pipeline.avg_new_per_month} new profiles ship per month, with ${stats.pipeline.in_draft} additional profiles in the review pipeline.`
+			a: `The corpus is regenerated on every deploy. As of the latest update, ~${stats.pipeline.avg_new_per_month} new profiles were published per month over the last 90 days${draftClause}.`
 		});
 	}
 
@@ -227,7 +282,9 @@ export const load: PageServerLoad = async () => {
 				'@type': 'PropertyValue',
 				name: 'publishing_pipeline_cadence',
 				description:
-					'Drafts in pipeline, profiles published in the last 30/90 days, and trailing-90-day average new profiles per month.'
+					typeof draftCount === 'number'
+						? 'Unpublished drafts, profiles published in the last 30/90 days, and trailing-90-day average new profiles per month.'
+						: 'Profiles published in the last 30/90 days and trailing-90-day average new profiles per month.'
 			},
 			{
 				'@type': 'PropertyValue',

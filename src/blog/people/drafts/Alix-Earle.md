@@ -71,7 +71,7 @@ faqs:
     answer: "When Alex Cooper publicly accused her of 'passive-aggressive reposts' on April 13, 2026, Alix posted a two-word comment: 'Okay on it!!' Four weeks later on the Today show, she smiled and called the feud exaggerated. She has since said the conflict unfolded while Earle Meets World was filming and will be addressed in the Netflix series. It is a revealing Type 9 move: delay the direct answer until the conflict can be processed inside the family room."
     anchor: 'how-alix-earle-handles-a-fight'
   - question: "What is Alix Earle's Netflix show Earle Meets World about?"
-    answer: "Earle Meets World is an unscripted Netflix series premiering September 4, 2026. It follows Alix, her sister Ashtin, their parents, stepparents, half-siblings, and friends through the aftermath of Alix's breakup with Braxton Berrios, the Alex Cooper conflict, and the unresolved tensions inside their blended family. The format is a natural extension of Alix's unfiltered social media persona, but producers also force conversations she says the family would usually sweep under the rug."
+    answer: "Earle Meets World is an unscripted Netflix series set to premiere September 4, 2026. It follows Alix, her sister Ashtin, their parents, stepparents, half-siblings, and friends through the aftermath of Alix's breakup with Braxton Berrios, the Alex Cooper conflict, and the unresolved tensions inside their blended family. The format is a natural extension of Alix's unfiltered social media persona, but producers also force conversations she says the family would usually sweep under the rug."
     anchor: 'why-earle-meets-world-is-the-natural-next-act'
   - question: 'What did Dancing with the Stars reveal about Alix Earle?'
     answer: "Her ten weeks on DWTS Season 34 in fall 2025 (perfect 30s in the finale, second place to Robert Irwin, most-improved dancer of the season) are the cleanest documented example of a Type 9 integrating to Type 3 in real time. Under the right structure (a coach, a schedule, a partner waking her up at 9 a.m.), a Nine can briefly look more focused and ambitious than an actual Achiever. Her framing in a TikTok after the semifinals, 'I am gonna come out of this such a different person than I was going in,' was about being different, not about winning."
@@ -163,7 +163,7 @@ When the paparazzi showed up at her family's New Jersey house in 2008 and her mo
 
 She is not lying. The drift is the engine.
 
-Forbes ranked her #32 on its 2025 Top Creators list, with $8 million in earnings that year. _Hot Mess with Alix Earle_ debuted at #1 on Spotify in September 2023, per Tubefilter, pushing Cooper's _Call Her Daddy_ to #2 three years before the two would feud publicly. She finished second on _Dancing with the Stars_. On September 4, 2026, Netflix will premiere _Earle Meets World_, an unscripted series built around Alix, her friends, and the blended family she has been folding into the content for years.
+Forbes ranked her #32 on its 2025 Top Creators list, with $8 million in earnings that year. _Hot Mess with Alix Earle_ debuted at #1 on Spotify in September 2023, per Tubefilter, pushing Cooper's _Call Her Daddy_ to #2 three years before the two would feud publicly. She finished second on _Dancing with the Stars_. Netflix set _Earle Meets World_ to premiere on September 4, 2026, an unscripted series built around Alix, her friends, and the blended family she has been folding into the content for years.
 
 She did not build an empire. The empire built itself around her. Now Netflix has put the room on television.
 
@@ -266,7 +266,7 @@ Compare that to the rest of the top tier, including [Hailey Bieber](/personality
 
 ## Why Earle Meets World is the natural next act
 
-On September 4, 2026, _Earle Meets World_ premieres on Netflix. The unscripted series follows Alix and Ashtin alongside their parents, stepparents, half-siblings, childhood best friend Sally, and the friends around them.
+Netflix set _Earle Meets World_ to premiere on September 4, 2026. The unscripted series follows Alix and Ashtin alongside their parents, stepparents, half-siblings, childhood best friend Sally, and the friends around them.
 
 That cast list is the thesis of this profile with production credits.
 
@@ -386,7 +386,7 @@ That is not the direct counterattack Cooper asked for. It is the most Alix Earle
 
 _Earle Meets World_ is a promotion, a brand expansion, and a reality series. More interestingly, it is the first format in Alix's career designed to hold the shot after she wants to restore the peace.
 
-On September 4, Netflix will premiere the test of this profile's thesis: can the woman whose gift is disappearing into the room remain herself when the room has producers?
+On September 4, Netflix was set to premiere the test of this profile's thesis: can the woman whose gift is disappearing into the room remain herself when the room has producers?
 
 > **Disclaimer:** This analysis of Alix Earle's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.
 

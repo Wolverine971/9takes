@@ -60,6 +60,10 @@ citations:
   - 'https://en.wikipedia.org/wiki/Joseph_Baena'
   - 'https://en.wikipedia.org/wiki/Maria_Shriver'
   - 'https://en.wikipedia.org/wiki/California_Global_Warming_Solutions_Act_of_2006'
+  - 'https://en.wikipedia.org/wiki/Governorship_of_Arnold_Schwarzenegger'
+  - 'https://en.wikipedia.org/wiki/2008_California_Proposition_11'
+  - 'https://en.wikipedia.org/wiki/2010_California_Proposition_20'
+  - 'https://en.wikipedia.org/wiki/2025_California_Proposition_50'
 faqs:
   - question: "What is Arnold Schwarzenegger's personality type?"
     answer: "Arnold Schwarzenegger is an Enneagram Type 3 (The Achiever), specifically a 3w2. The pattern shows in his serial reinvention from Mr. Olympia to movie star to governor to newsletter publisher, his self-coined word 'schmah' for strategic packaging, the body-image crisis that persisted through his physical peak, the 14-year secret about Mildred Baena that he traced to becoming 'an expert in living in denial,' and the deliberate choice to play emotionless machines that didn't require the dramatic range he lacked."
@@ -71,7 +75,7 @@ faqs:
     answer: "Arnold has called himself 'an expert in living in denial' — the same emotional-freeze system that saved him as a child running a father who hit him. He didn't tell Maria Shriver about the affair, his first major heart surgery, or his decision to run for governor until announcement was imminent. The Type 3 pattern wasn't conscious deception but the survival strategy that had always worked: freeze the inconvenient emotion, focus on what you can achieve, let the feelings wait until they can't."
     anchor: 'the-secret-that-lasted-14-years'
   - question: 'How did losing all four 2005 ballot initiatives change Schwarzenegger as governor?'
-    answer: "Every initiative was defeated. His approval rating dropped to 33%, lower than the governor he'd replaced. It was a kind of failure Arnold had never encountered — in bodybuilding and film, individual dominance wins; in politics, you can do everything 'right' and still lose. He hired a Democratic chief of staff, set up a smoking tent outside the Capitol where Democrats and Republicans came to deal, and signed AB 32, the country's most aggressive climate legislation. The Achiever learned to integrate."
+    answer: "Every initiative was defeated. His approval rating dropped to 33%, down from 65% in May 2004. It was a kind of failure Arnold had never encountered — in bodybuilding and film, individual dominance wins; in politics, you can do everything 'right' and still lose. He hired a Democratic chief of staff, set up a smoking tent outside the Capitol where Democrats and Republicans came to deal, and signed AB 32, the country's most aggressive climate legislation. The Achiever learned to integrate."
     anchor: 'the-governor-who-had-to-learn-to-lose'
 path: src/blog/people/drafts/Arnold-Schwarzenegger.md
 content_quality:
@@ -98,7 +102,7 @@ FEEDBACK (2026-04-03):
 
 > "When I look in the mirror, I throw up."
 
-<p class="firstLetter">That's not some washed-up has-been talking. That's <b>Arnold Schwarzenegger</b>, seven-time Mr. Olympia, highest-paid actor of the 1990s, two-term Governor of California, describing how he's felt about his own body for most of his life. Even at the peak. Even when the body in question was, by most objective measures, the most famous physique on the planet.</p>
+<p class="firstLetter">That's not some washed-up has-been talking. That's <b>Arnold Schwarzenegger</b>, seven-time Mr. Olympia, two-term Governor of California, describing how he's felt about his own body for most of his life. Even at the peak. Even when the body in question was, by most objective measures, the most famous physique on the planet.</p>
 
 After winning the Mr. Olympia title, the highest achievement in his sport, he looked at himself and thought: **"How did this pile of sh\*t win?"**
 
@@ -254,8 +258,6 @@ Maria Shriver wrote of sitting **"on the hotel room floor in the dark, terrified
 
 The Enneagram framework resolves something that otherwise looks like simple hypocrisy. Arnold wasn't consciously choosing deception. He was running the same system that had saved him as a child: freeze the inconvenient emotion, focus on what you can achieve, handle the performance, let the feelings wait. The feelings can always wait. Until they can't.
 
-**"I had others,"** he admitted when asked if the affair with Baena was the only one.
-
 ---
 
 ## The Governor Who Had to Learn to Lose
@@ -268,7 +270,7 @@ His first two years looked like every other Arnold conquest. He came in swinging
 
 Then came November 2005. Arnold called a special election and put four ballot initiatives before voters: union restrictions, teacher tenure reform, spending caps, redistricting. He framed it as taking on the special interests.
 
-**Every single one was defeated.** All four lost. His approval rating dropped to 33%, lower than the governor he'd replaced.
+**Every single one was defeated.** All four lost. His approval rating dropped to 33%, down from 65% in May 2004.
 
 This was a kind of failure Arnold had never encountered. In bodybuilding, if you train harder, you win. In movies, if the box office is big, you win. In politics, winning is ambiguous and coalitional, and you can do everything "right" and still lose because the system doesn't reward individual dominance.
 
@@ -276,11 +278,13 @@ This was a kind of failure Arnold had never encountered. In bodybuilding, if you
 
 What happened next revealed genuine adaptability. Arnold hired a Democratic chief of staff, started working _with_ the legislature instead of steamrolling it, and signed AB 32, the most aggressive climate legislation in the country at the time. **"I say the debate is over. We know the science. We see the threat. And we know the time for action is now."**
 
-He set up a smoking tent outside the Capitol. California law prohibited indoor smoking, but Arnold loved his cigars. The tent became a bipartisan meeting ground. Democrats and Republicans came to smoke and deal. Several legislators credited it with facilitating negotiations that wouldn't have happened in formal settings. Arnold instinctively understood that personal connection breaks down barriers. The 2 wing at work in the political arena.
+He set up a smoking tent outside the Capitol. California law prohibited indoor smoking, but Arnold loved his cigars. The tent became a bipartisan meeting ground. Democrats and Republicans came to smoke and deal. Several legislators credited it with facilitating negotiations that wouldn't have happened in formal settings. The 2 wing at work in the political arena.
 
 He never solved the budget crisis. California's deficit ballooned to $25 billion by the time he left office. His self-assessment: **"In bodybuilding, I could see my progress in the mirror every day. In movies, I could see it at the box office. In politics, you sometimes can't see the results for years. That requires a different kind of patience, one I had to learn."**
 
-After leaving office, he championed redistricting reform, taking the power of drawing legislative districts away from politicians. **"Politicians shouldn't pick their voters. Voters should pick their politicians."** This is genuinely self-sacrificing from a political standpoint. It doesn't benefit the reformer personally. It benefits the system.
+Redistricting was a fight he did win. He backed Proposition 11 in 2008, which moved state legislative maps to a citizens commission, and Proposition 20 in 2010, which added congressional maps. Both passed. **"Politicians shouldn't pick their voters. Voters should pick their politicians."** It's genuinely self-sacrificing: it doesn't benefit the reformer. It benefits the system.
+
+He kept defending it after leaving office. In 2025 he came out against Proposition 50, the Newsom-backed measure to replace the commission's congressional map mid-decade. Voters passed it on November 4, 2025, with 64.4%.
 
 After January 6th, Arnold released a video comparing the Capitol attack to Kristallnacht, drawing on his Austrian childhood: **"My father came home every night with pain from the war. The whole generation was filled with pain. They drank to numb the pain. They were broken men."** The kind of emotional disclosure about his father's Nazi past that earlier Arnold would never have offered publicly.
 
@@ -325,7 +329,7 @@ Whether the service fully resolves the achiever's need to be seen, whether Arnol
 
 ## How He Keeps Running
 
-At 77, Arnold wakes at 5 AM, feeds Whiskey and Lulu, bikes three miles to Gold's Gym, works out for ninety minutes, then goes to work. He's had three open-heart surgeries and a pacemaker. He eats mostly plant-based now.
+Born in 1947, Arnold still wakes at 5 AM, feeds Whiskey and Lulu, bikes three miles to Gold's Gym, works out for ninety minutes, then goes to work. He's had open-heart surgery twice (1997 and 2018), another valve procedure in 2020, and a pacemaker. He eats mostly plant-based now.
 
 On masculinity, he has broken with the self-help gurus who trade in toughness: **"Real masculinity is about responsibility. It's about being strong enough to lift others up. It also means being strong enough to be vulnerable."**
 
@@ -335,6 +339,6 @@ His children have become the new metric. **"Watching my kids become their own pe
 
 Watch what Arnold does when he looks at his reflection now: **"Look at those pectoral muscles that used to be firm and powerful with a striation in there. Now they're just hanging there. What the hell is going on here?"** He's not joking. He is genuinely distressed by the body that has served him for nearly eight decades.
 
-But here's what's different from the 23-year-old who won Mr. Olympia and thought he was looking at a pile of garbage: at 77, Arnold also knows what to do with the distress. He doesn't freeze it. He bikes to the gym. He writes the newsletter. He calls his kids. He feeds the horse. The program Gustav installed is still running. But Arnold has been slowly, imperfectly, writing new code alongside it — and for the first time in his life, the new code is starting to compile.
+But here's what's different from the 23-year-old who won Mr. Olympia and thought he was looking at a pile of garbage: today's Arnold also knows what to do with the distress. He doesn't freeze it. He bikes to the gym. He writes the newsletter. He calls his kids. He feeds the horse. The program Gustav installed is still running. But Arnold has been slowly, imperfectly, writing new code alongside it — and for the first time in his life, the new code is starting to compile.
 
 > **Disclaimer:** This analysis of Arnold Schwarzenegger's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.

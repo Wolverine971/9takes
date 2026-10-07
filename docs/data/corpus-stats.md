@@ -2,7 +2,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-10-06T20:51:28.615Z_
+_Generated: 2026-10-07T01:05:35.368Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -11,7 +11,7 @@ Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM
 ## Corpus Totals
 
 - **Published profiles:** 451
-- **Drafts in pipeline:** 0
+- **Drafts in pipeline:** 84
 
 > All stats below are computed against **published** profiles only.
 
@@ -173,14 +173,14 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 
 ## Pipeline
 
-- **In the draft / review pipeline:** 0
+- **Unpublished drafts (2000+ characters):** 84
 - **Published in the last 30 days:** 5
 - **Published in the last 90 days:** 56
 - **Average new profiles per month (trailing 90d):** 18.7
 
 ## Freshness
 
-- **Updated in last 30 days:** 4
+- **Updated in last 30 days:** 3
 - **Updated in last 90 days:** 73 (16.2%)
 - **Missing `lastmod`:** 0
 
@@ -196,6 +196,7 @@ Drop these into a blog verbatim — they are pre-computed from the live corpus a
 - Among 80 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.8% — +15.32 percentage points above the corpus baseline.
 - Among 35 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 42.9% — +29.11 percentage points above the corpus baseline.
 - Among 26 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 30.8% — +22.34 percentage points above the corpus baseline.
+- 84 more profiles exist as unpublished drafts on 9takes, and ~18.7 new profiles were published per month over the last 90 days.
 
 ---
 
@@ -206,5 +207,7 @@ Drop these into a blog verbatim — they are pre-computed from the live corpus a
 - **Domain buckets:** Raw `type` labels are grouped into readable categories (e.g. `movieStar` + `newMovieStar` + `actor` → Actors). Domains with fewer than 10 profiled figures are omitted to avoid small-sample noise.
 - **Over/under-representation:** Each domain's type share minus the corpus-wide baseline share, in percentage points. Positive means over-represented vs. the 9takes corpus average, not vs. general population.
 - **Multi-domain figures:** A person tagged with both `musician` and `activist` is counted in both domains.
+- **Drafts:** unpublished profiles with more than 2000 characters of content, one per person, excluding people who already have a published profile. Counting them needs `SUPABASE_SERVICE_KEY` (RLS hides unpublished rows from the public key); without it the count is null, not 0.
+- **Who assigns the types:** 9takes editors type every profile. Over- and under-representation can reflect editor-typing bias as well as who becomes famous; treat explanations as hypotheses.
 
 _Regenerate with `pnpm gen:corpus-stats`. Refresh cadence: monthly._

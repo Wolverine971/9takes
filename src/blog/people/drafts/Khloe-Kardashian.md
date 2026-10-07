@@ -49,12 +49,15 @@ citations:
   - 'https://en.wikipedia.org/wiki/Khlo%C3%A9_Kardashian'
   - 'https://www.wikidata.org/wiki/Q231270'
   - 'https://www.imdb.com/name/nm2835957/'
+  - 'https://en.wikipedia.org/wiki/Robert_Kardashian'
+  - 'https://www.eonline.com/news/1433778/lamar-odom-clarifies-khloe-kardashian-marriage-comments'
+  - 'https://www.realitytea.com/2026/01/29/khloe-kardashian-dating-scary-tough-world-podcast/'
 faqs:
   - question: "What is Khloé Kardashian's personality type?"
     answer: "Khloé Kardashian is an Enneagram Type 2 (The Helper). The pattern shows in her cleaning Lamar Odom's motel rooms before housekeeping could sell a story, pumping his stomach at home during overdoses, spending four months at his hospital bedside mid-divorce, forgiving Tristan Thompson through three public betrayals, and her own stated epitaph: 'I want to be remembered for giving second chances... and for loving selflessly.'"
     anchor: 'what-is-khlo-kardashians-personality-type'
   - question: 'Why did Khloé Kardashian stay with Lamar Odom through his addiction?'
-    answer: "From age twenty-four she made his survival her full-time job — searching alleys and motels, keeping his secret because he begged her to, building an at-home detox infrastructure with nurses and a private chef after his 2015 brothel overdose. The piece argues leaving would have meant admitting she wasn't enough to save him, and being enough was the only proof of love she trusted. It ended when she showed up, smelled crack, punched him in the face, and gave him until Monday to get out."
+    answer: "From age twenty-five she made his survival her full-time job — searching alleys and motels, keeping his secret because he begged her to, building an at-home detox infrastructure with nurses and a private chef after his 2015 brothel overdose. The piece argues leaving would have meant admitting she wasn't enough to save him, and being enough was the only proof of love she trusted. It ended when she showed up, smelled crack, punched him in the face, and gave him until Monday to get out."
     anchor: 'how-khlo-kardashian-lost-herself-saving-lamar-odom'
   - question: 'Why did Khloé Kardashian keep forgiving Tristan Thompson?'
     answer: "She let him in the delivery room two days after TMZ published the cheating videos, took him back after the Jordyn Woods kiss, and only left after learning from a published article that he'd fathered a child with Maralee Nichols while encouraging her to proceed with their embryo transfer. For a Two, forgiving is giving, and giving is the only currency she trusts — her own later question, 'Why wasn't I forgiving myself?', is the one the piece says matters."
@@ -63,7 +66,7 @@ faqs:
     answer: "When an exposure therapist made her deliberately mess up her own home, she called it 'torture.' After a decade of relationships defined by chaos — motel rooms, alleys, infidelity — the color-coded pantry is the one space where nothing leaves and everything stays where she put it. Kris Jenner calls her 'the most organised, cleanest, most obsessive person I know.'"
     anchor: 'why-khlo-kardashians-obsessive-organizing-isnt-about-tidiness'
   - question: 'Did Khloé Kardashian struggle to bond with her son Tatum?'
-    answer: "Yes — she said publicly that bonding with True took days but with Tatum, born via surrogate in July 2022 after her relationship with Tristan ended, it took months. Her OB-GYN even offered to take the baby home until she was ready. She called the surrogacy experience 'transactional' and went public so other mothers would hear an honest account; Tatum is now, in her words, 'truly the best thing that has ever happened to me.'"
+    answer: "Yes — she said publicly that bonding with True took days but with Tatum, born via surrogate in July 2022 after her relationship with Tristan ended, it took months. Her OB-GYN even offered to take the baby home until she was ready. She called the surrogacy experience 'transactional' and went public so other mothers would hear an honest account; she now calls Tatum 'truly the best thing that has ever happened to me.'"
     anchor: 'it-took-me-months-to-bond-with-my-own-son'
 twitter: 'khloekardashian'
 instagram: 'khloekardashian'
@@ -94,9 +97,9 @@ path: src/blog/people/drafts/Khloe-Kardashian.md
 
 > "I remember needing to go to hotel rooms to clean up after him so the housekeeping didn't sell a story."
 
-<p class="firstLetter">She was twenty-four years old. Her husband was freebasing cocaine in motels, and her job — the job she assigned herself — was to arrive before housekeeping, collect the tinfoil cutouts and burnt spoons, and make the room look like nothing had happened. Not because anyone asked her to. Because if she didn't hold it together, who would?</p>
+<p class="firstLetter">She was in her twenties. Her husband was freebasing cocaine in motels, and her job — the job she assigned herself — was to arrive before housekeeping, collect the tinfoil cutouts and burnt spoons, and make the room look like nothing had happened. Not because anyone asked her to. Because if she didn't hold it together, who would?</p>
 
-She didn't know she was an enabler. She said that years later, in the 2026 Netflix documentary about Lamar Odom, with the flat clarity of someone who has finally named the thing that almost killed her. But at twenty-four, she just called it love.
+She didn't know she was an enabler. She said that years later, in _Untold: The Death & Life of Lamar Odom_, Netflix's 2026 documentary, with the flat clarity of someone who has finally named the thing that almost killed her. But in her twenties, she just called it love.
 
 She didn't sleep for years.
 
@@ -138,7 +141,7 @@ Think about that. A girl who was fine with herself was handed a new identity by 
 
 Then, at seventeen, the car accident. She went through the windshield headfirst, her lower body pinned under the steering wheel. A severe concussion left her with long-term memory loss — not just the accident, but chunks of her childhood gone. "It's really irritating and frustrating and kind of sad that I can't remember so many things from my childhood," she said. She dropped out of school. Got her GED with honors. Kept going. But the memory loss mattered in ways that wouldn't become clear for years — when you can't remember being loved as a child, the only evidence that you belong is what you're doing for people right now.
 
-Two years later, her father Robert Kardashian Sr. died of esophageal cancer. He was diagnosed in July 2003, dead by September. Six weeks. Khloé was nineteen.
+Two years later, her father Robert Kardashian Sr. died of esophageal cancer. He was diagnosed in July 2003, dead by the end of September. About eight weeks. Khloé was nineteen.
 
 "I was incredibly angry," she said. "Like, for about three years."
 
@@ -179,7 +182,7 @@ In growth, Twos move toward [Type 4](/enneagram-corner/enneagram-type-4) — the
 
 ## How Khloé Kardashian Lost Herself Saving Lamar Odom
 
-They met at a party in 2009 and married nine days later. She was twenty-four.
+They met at a party in 2009 and married about a month later. She was twenty-five.
 
 "At the beginning, it was a recreational party use," Khloé said in the Netflix documentary. "As silly as this sounds, it seemed responsibly done."
 
@@ -191,7 +194,7 @@ _I had to pump his stomach._ Not a nurse. Not a paramedic. Khloé. In their home
 
 "I was either looking for him in alleys, looking for him in motels. He would have tinfoil cutouts or spoons and freebasing things and leaving things everywhere."
 
-She was twenty-four when it started. She was still trying to figure out her own life. And she made his survival her full-time job.
+She was twenty-five when they married. She was still trying to figure out her own life. And she made his survival her full-time job.
 
 "You cannot tell anyone," Lamar told her. "I'll lose it all. And if I lost it, where are we gonna live? What are we gonna do?"
 
@@ -213,11 +216,13 @@ Then she showed up one day and smelled crack.
 
 She was done. But the pattern wasn't.
 
-She had given Lamar her entire late twenties — from twenty-four to thirty. She later wrote that her workouts during that period "were not about vanity; they were about relieving stress. I had so much going on emotionally, and I was disinclined to talk about it, even with my own family, so the workouts became a form of therapy." The gym replaced the conversations she couldn't have. The secrecy replaced the life she should have been building. "I'm so pessimistic these days," she said in the documentary. "I wish I could have that innocence of when I first met him and the love we had and how pure it was."
+She had given Lamar her late twenties and the start of her thirties. She later wrote that her workouts during that period "were not about vanity; they were about relieving stress. I had so much going on emotionally, and I was disinclined to talk about it, even with my own family, so the workouts became a form of therapy." The gym replaced the conversations she couldn't have. The secrecy replaced the life she should have been building. "I'm so pessimistic these days," she said in the documentary. "I wish I could have that innocence of when I first met him and the love we had and how pure it was."
 
 In her book's acknowledgments, she wrote to Lamar: "Before I met you I felt invisible, and after I felt seen." That's the tragedy in one sentence. She finally felt visible — and the price was becoming invisible to herself.
 
 > "When I got married, I was no longer simply one of the Kardashians; I had my own life and a separate identity. I had broken free... But with Lamar gone, it was as if I had taken a giant backward step. I was back to being Khloé, but a somewhat more 'damaged' version." — _Strong Looks Better Naked_
+
+Even the documentary didn't close the chapter. After it came out in March 2026, Khloé said on her podcast that Lamar had told the cameras he married her for fame. "I feel so dumb, I spent hours and time doing this documentary as a favor. I'm not paid one penny." That July, Lamar denied saying it: "That never came out of my mouth." Whoever is right, it's the old shape in miniature. She gave her time as a favor and came away feeling used.
 
 ---
 
@@ -233,7 +238,7 @@ Ten months later, Tristan was at it again — this time with Jordyn Woods, Kylie
 
 She forgave Tristan again. They tried again.
 
-Then, in March 2021, Tristan fathered a child with fitness model Maralee Nichols. He knew about the pregnancy by July. He didn't tell Khloé. Instead, that November — already knowing another woman was carrying his child — he encouraged Khloé to proceed with their embryo transfer for a surrogate baby "by a certain date." She did. Days later, she found out from a published article.
+Then, in March 2021, Tristan conceived a child with fitness model Maralee Nichols; their son, Theo, was born that December. Tristan knew about the pregnancy by July. He didn't tell Khloé. Instead, that November — already knowing another woman was carrying his child — he encouraged Khloé to proceed with their embryo transfer for a surrogate baby "by a certain date." She did. Days later, she found out from a published article.
 
 "I was definitely very angry," she said. "I felt bamboozled." And: "It's such a dark cloud around something that's supposed to be so joyous."
 
@@ -249,7 +254,7 @@ She tweeted once: "So crazy how emotions never die! You may forgive but forgetti
 
 When asked if she'd ever give Tristan another chance: "No, no chances." Then, softer: "I'm totally fine with him. I don't have the energy for issues."
 
-After three years deliberately alone — "not because she wanted to avoid love, but to heal" — Khloé has started describing herself differently. "I'm my biggest bully," she told Jay Shetty. "I made the best choice I could at the time."
+By January 2026, she was describing being single as shelter. "I feel so safe where I am," she said on her podcast. "Now I feel like I've gone so long now. It's like so scary to get back in there." She has also started describing herself differently. "I'm my biggest bully," she told Jay Shetty. "I made the best choice I could at the time."
 
 That last sentence might be the most important thing she's ever said. Because a Type 2 who can look at her own choices with compassion instead of shame is a Type 2 who's beginning to grow.
 
@@ -306,7 +311,7 @@ With True, Khloé felt an instant connection. With Tatum, nothing.
 
 "With True it took me a couple of days to be like, 'OK, this is my daughter.' It was just days. But with him, it has taken me months."
 
-Her OB-GYN offered to take the baby home with her until Khloé was ready. Think about that. A doctor saw that the mother was so disconnected she offered to take the child herself.
+Her OB-GYN offered to take the baby home with her until Khloé was ready.
 
 "I feel guilty sometimes like, 'Why isn't it the same?'" Khloé said. "I don't treat him differently — I just question myself sometimes."
 
@@ -316,11 +321,11 @@ For a woman whose entire identity was built around giving love, the inability to
 
 She went public with the struggle. She didn't have to. Most celebrities would have performed instant maternal bliss. But Khloé told the truth.
 
-Tatum is now three. "He is truly the best thing that has ever happened to me, and I cannot imagine my life without him," she said.
+She talks about Tatum differently now. "He is truly the best thing that has ever happened to me, and I cannot imagine my life without him," she said.
 
 And about her daughter: "True and I are sickly codependent on one another. And I secretly love it."
 
-That word — _codependent_ — lands differently when you know the pattern. Khloé said on Jay Shetty's podcast that her childhood made her fiercely protective: "For children, I will do everything to include them, to make sure they never feel like that." Beautiful instinct. But a woman who spent her life being needed by broken men and found it intoxicating — what happens when she channels that same energy into a four-year-old? The question isn't whether she loves True enough. It's whether True might become the person Khloé needs to be needed by. The one who finally can't leave.
+That word — _codependent_ — lands differently when you know the pattern. Khloé said on Jay Shetty's podcast that her childhood made her fiercely protective: "For children, I will do everything to include them, to make sure they never feel like that." Beautiful instinct. But a woman who spent her life being needed by broken men and found it intoxicating — what happens when she channels that same energy into a child? The question isn't whether she loves True enough. It's whether True might become the person Khloé needs to be needed by. The one who finally can't leave.
 
 ---
 
@@ -342,7 +347,7 @@ What changed was Kim.
 
 "Kim introduced me to her therapist, and I actually loved her. Maybe because Kim was seeing her and I felt safe with that."
 
-That detail is pure Type 2: she couldn't accept help from a stranger. She needed a relational bridge — someone she already loved vouching for the person asking her to be vulnerable. The woman who could give to anyone still couldn't receive unless trust came prepackaged.
+That detail is pure Type 2: she couldn't accept help from a stranger. She needed a relational bridge — someone she already loved vouching for the person asking her to be vulnerable.
 
 "She really worked hard to earn my trust. That made me feel safer with her. But the trust took a long time."
 
@@ -366,8 +371,8 @@ Then she did it.
 
 Now, more than two decades later, she talks about Robert with "smiles and happiness and admiration and understanding."
 
-That's the crack in the armor. The proof that the woman who spent her life earning love by giving it away can also receive it — from a memory, from a therapist, from a three-year-old son she couldn't bond with at first, from herself. But only when she stops performing and lets the mess stay messy. Only when the pantry gets to be a little disorganized and the world doesn't end.
+That's the crack in the armor. The proof that the woman who spent her life earning love by giving it away can also receive it — from a memory, from a therapist, from the son she couldn't bond with at first, from herself. But only when she stops performing and lets the mess stay messy. Only when the pantry gets to be a little disorganized and the world doesn't end.
 
-Khloé Kardashian has spent forty-one years proving she deserves to be in the frame. The organized closets, the pumped stomachs, the forgiven betrayals, the sculpted body — every act an audition for a love she was born into but never believed she'd earned.
+Khloé Kardashian has spent four decades proving she deserves to be in the frame. The organized closets, the pumped stomachs, the forgiven betrayals, the sculpted body — every act an audition for a love she was born into but never believed she'd earned.
 
 She's still auditioning. But lately, for the first time, she's also started to wonder if maybe the role was hers all along.

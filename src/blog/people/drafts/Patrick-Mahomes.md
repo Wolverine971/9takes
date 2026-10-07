@@ -259,7 +259,7 @@ The adults who were supposed to know the way did not agree on it. On a recruitin
 
 He stayed at quarterback, he told the same podcast, for a reason that had nothing to do with ceilings. "More than anything I just said, I didn't want to not be there playing with all my buddies when they were in football season." Brittany Matthews, his high-school girlfriend, remembers the moment Whitehouse High's quarterback graduated. "Patrick said, 'I think I'm going to give it a shot.' I was like, 'Wait, what?'"
 
-That is the pattern at fifteen and at thirty. Given a choice between the optimal path and the people he trusts, he chooses the people, then outworks the path. He married Brittany; they have three children, born in 2021, 2022 and 2025, and he has said on CBS that "if I didn't have Brittany I wouldn't be in the position I am now." On draft night, after the phone finally rang, the family went to "the hole-in-the-wall bar my dad's been going to forever" and played darts.
+That is the pattern at fifteen and in adulthood. Given a choice between the optimal path and the people he trusts, he chooses the people, then outworks the path. He married Brittany; they have three children, born in 2021, 2022 and 2025, and he has said on CBS that "if I didn't have Brittany I wouldn't be in the position I am now." On draft night, after the phone finally rang, the family went to "the hole-in-the-wall bar my dad's been going to forever" and played darts.
 
 ## The Coach Patrick Mahomes Said He Needed
 

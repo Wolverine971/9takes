@@ -33,7 +33,7 @@ path: src/blog/pop-culture/musk-vs-altman-trial-personality-dynamics.md
 </script>
 
 <QuickAnswer question="Who won the Musk vs Altman trial?">
-OpenAI, Sam Altman, Greg Brockman, and Microsoft won at the trial level on May 18, 2026. A nine-person advisory jury unanimously found that Elon Musk waited too long to bring his claims, and Judge Yvonne Gonzalez Rogers adopted that finding and dismissed Musk's remaining claims. The jury did not decide whether OpenAI betrayed its founding mission. It decided that Musk missed the legal deadline to ask.
+OpenAI, Sam Altman, Greg Brockman, and Microsoft won at the trial level on May 18, 2026. A nine-person advisory jury unanimously found that Elon Musk waited too long to bring his claims, and Judge Yvonne Gonzalez Rogers adopted that finding and dismissed Musk's remaining claims. The jury did not decide whether OpenAI betrayed its founding mission. It decided that Musk missed the legal deadline to ask. (The fight that set all this up, Altman's 2023 firing and five-day return, is now a film: <a href="/pop-culture/artificial-movie-real-people"><em>Artificial</em></a>.)
 </QuickAnswer>
 
 <p class="firstLetter">When this article first ran on May 1, the trial was still unfolding in an Oakland federal courtroom. Jacob Ward, reporting from inside, said the case would come down to vibes. I agreed. I thought the jury would eventually have to choose between Elon Musk's tightly controlled moral certainty and Sam Altman's smoother, more emotionally coherent version of OpenAI's history.</p>

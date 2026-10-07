@@ -6,6 +6,8 @@ import { error } from '@sveltejs/kit';
 import type { Database } from '../../../../../database.types';
 import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 import { getTypeCorpusInsight, type TypeCorpusInsight } from '$lib/server/typeCorpusStats';
+import personalityFame from '$lib/generated/personalityFame.json';
+import { sortPeopleByFame, type FameViews } from './typeHubOrder';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type PersonPost = Pick<FamousPersonRow, 'person' | 'enneagram' | 'title' | 'date' | 'lastmod'> & {
@@ -35,12 +37,9 @@ export const load: PageServerLoad = async ({
 		slug: normalizePersonalitySlug(entry.person)
 	}));
 
-	// const posts: any = await getAllPosts(slug);
-	const publishedPosts: PersonPost[] = posts;
-
-	publishedPosts.sort((a, b) =>
-		new Date(a.date ?? a.lastmod ?? 0) > new Date(b.date ?? b.lastmod ?? 0) ? -1 : 1
-	);
+	// Best-known first (Wikipedia pageview snapshot), then newest first for anyone
+	// without fame data. The FAQ's "famous Type N" names read from this order too.
+	const publishedPosts = sortPeopleByFame(posts, personalityFame.views as FameViews);
 
 	const corpusInsight = getTypeCorpusInsight(slug);
 

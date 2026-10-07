@@ -303,7 +303,7 @@ At the Glamour ceremony in 2017 she stood at a podium and told the room the true
 
 Eight years later, at thirty, she set a goal to say what she thinks when she thinks it.
 
-Not a decision. A goal. Something to be achieved, measured, and reported on next year.
+Not a decision. A goal. Something to be achieved, measured, and reported on the following year.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">The Enneagram rabbit hole: 3w2, the arrows, and the counter-typing case</summary>

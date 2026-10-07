@@ -1,7 +1,7 @@
 ---
 title: 'Margot Robbie: The Enneagram Type 2 Who Can Only Find You Through Your Need'
 meta_title: "Inside Margot Robbie's Mind: The Woman Who Gives Everything Away"
-description: "How Margot Robbie's Enneagram Type 2 wiring drives her auditions, her producing empire, her daily gifts to co-stars, and the role that finally made her face her own shadow."
+description: "How Margot Robbie's Enneagram Type 2 wiring drives her auditions, her producing empire, her gifts to co-stars, and the role that made her face her shadow."
 author: 'DJ Wayne'
 date: '2025-03-10'
 loc: 'https://9takes.com/personality-analysis/margot-robbie'
@@ -51,6 +51,8 @@ citations:
   - 'https://www.cinemablend.com/movies/margot-robbie-freaking-day-before-barbie-started-shooting-greta-gerwig'
   - 'https://www.cnbc.com/2020/02/07/oscar-nominee-margot-robbie-shares-her-first-job.html'
   - 'https://tvtonight.com.au/2024/01/she-exuded-something-special-even-then-neighbours-casting-director-remembers-a-young-margot-robbie.html'
+  - 'https://en.wikipedia.org/wiki/Wuthering_Heights_(2026_film)'
+  - 'https://en.wikipedia.org/wiki/A_Big_Bold_Beautiful_Journey'
 faqs:
   - question: "What is Margot Robbie's personality type?"
     answer: "Margot Robbie is an Enneagram Type 2 (The Helper) with a strong 3 wing. The pattern shows in her confession that she couldn't find Barbie because 'Barbie doesn't have childhood trauma... and I couldn't get her' — she accesses characters through their wounds — plus the daily gifts she left in Ryan Gosling's dressing room, the tattoo parlour she ran to bind the Suicide Squad cast together, the LA compound she bought so her closest friends could live near her, and LuckyChap, a production company built to scale the helping."
@@ -64,8 +66,8 @@ faqs:
   - question: 'Why did Margot Robbie start LuckyChap Entertainment?'
     answer: "Her stated reason: 'Every time I pick up a script, I want to play the guy. Wouldn't it be so cool if people pick up scripts that we're making and always wanted to play the female role?' It was also strategic — producing put her in the conversations about who gets hired and how much they're paid. The company greenlights roughly 1% of submissions, and its slate includes I, Tonya, Promising Young Woman, Maid, Saltburn, and Barbie, which she pitched by comparing Gerwig-plus-Barbie to 'dinosaurs and Spielberg' and correctly predicting a billion dollars."
     anchor: 'luckychap-the-system-she-built-to-scale-the-giving'
-  - question: 'Why is Margot Robbie playing Catherine Earnshaw in Wuthering Heights?'
-    answer: "She pitched herself for the role after reading Emerald Fennell's script. Catherine is the shadow side of every instinct her career is built on — a woman whose love is so consuming it annihilates everyone it touches. Robbie connected it to a self she learned to suppress: 'I feel like I felt things so potently and the tiniest thing could wound me and when I loved something it was everything... that's so Cathy to me.'"
+  - question: 'Why did Margot Robbie play Catherine Earnshaw in Wuthering Heights?'
+    answer: "She pitched herself for the role after reading Emerald Fennell's script. Catherine is the shadow side of every instinct her career is built on — a woman whose love is so consuming it annihilates everyone it touches. Robbie connected it to a self she learned to suppress: 'I feel like I felt things so potently and the tiniest thing could wound me and when I loved something it was everything... that's so Cathy to me.' The film, which she also produced, opened in February 2026 to mixed reviews and grossed about $242 million worldwide on an $80 million budget."
     anchor: 'wuthering-heights-facing-the-dark-mirror'
 twitter: ''
 instagram: ''
@@ -115,7 +117,7 @@ That is the operating system of an [Enneagram Type 2](/enneagram-corner/enneagra
 <li><b>Need Is Her Entry Point:</b> She accesses characters, relationships, and creative partnerships by finding what the other person needs — then filling it before they ask.</li>
 <li><b>Generosity as Architecture:</b> LuckyChap Entertainment is not a vanity label. It is a system that guarantees she is at the center of every creative relationship she values.</li>
 <li><b>The Weight She Carries:</b> She absorbs responsibility for outcomes that don't belong to her — projects, people, pressure — and the cost shows up as anxiety, imposter syndrome, and stress spikes she manages in private.</li>
-<li><b>The Growth Edge:</b> Playing Catherine Earnshaw in <i>Wuthering Heights</i> — a character whose love destroys — signals she is ready to face what happens when giving becomes consuming.</li>
+<li><b>The Growth Edge:</b> Playing Catherine Earnshaw in <i>Wuthering Heights</i> — a character whose love destroys — signaled she was ready to face what happens when giving becomes consuming.</li>
 </ul>
 </div>
 </details>
@@ -224,7 +226,9 @@ If you read her pattern through the lens of [Enneagram stress dynamics](/enneagr
 
 ## Wuthering Heights: Facing the Dark Mirror
 
-In February 2026, Robbie stars as Catherine Earnshaw in Emerald Fennell's _Wuthering Heights_. It is the most psychologically significant role of her career. (<a href="https://people.com/all-about-wuthering-heights-movie-11891199">People</a>)
+In September 2025, Kogonada's _A Big Bold Beautiful Journey_, opposite Colin Farrell, bombed: $20.2 million worldwide against a $45 million net budget. (<a href="https://en.wikipedia.org/wiki/A_Big_Bold_Beautiful_Journey">Wikipedia</a>) Five months later, Robbie starred as Catherine Earnshaw in Emerald Fennell's _Wuthering Heights_, which she also produced. It was the most psychologically significant role of her career. (<a href="https://people.com/all-about-wuthering-heights-movie-11891199">People</a>)
+
+The film opened on February 13, 2026, to mixed reviews (57% on Rotten Tomatoes) and criticism over the casting of Jacob Elordi, a white actor, as the racially ambiguous Heathcliff. It still grossed about $242 million worldwide on an $80 million budget. (<a href="https://en.wikipedia.org/wiki/Wuthering_Heights_(2026_film)">Wikipedia</a>)
 
 Catherine Earnshaw is not a helper. She is a destroyer — a woman whose love is so consuming it annihilates everyone it touches, including herself. She is the shadow side of every instinct Robbie has built her career on. What happens when giving becomes devouring? When devotion becomes control? When "I love you more than anything" becomes "I will burn this house down before I let you go"?
 
@@ -232,13 +236,13 @@ Robbie pitched herself for the role after reading the script. That choice is not
 
 She described the appeal by channeling a version of herself she had learned to suppress: "I feel like I felt things so potently and the tiniest thing could wound me and when I loved something it was everything. Over the years, I guess you figure out how to calibrate your feelings a little bit so you can protect yourself emotionally. As a teenager everything feels like the end of the world and everything feels like the best thing in the world — so that's so Cathy to me." (<a href="https://www.yahoo.com/entertainment/movies/article/margot-robbie-and-jacob-elordi-say-they-have-a-mutual-obsession-heres-everything-theyve-said-about-one-another-on-the-wuthering-heights-press-tour-194118666.html">Yahoo Entertainment</a>)
 
-The calibration she describes — the slow process of learning to protect yourself from your own intensity — is the central project of a maturing Two. They start with a heart that gives everything. Life teaches them to give less, or give smarter, or give with a wall behind the giving. _Wuthering Heights_ is Robbie going back behind that wall to play what she was before the calibration: a woman who feels at the scale of weather, and it wrecks everything.
+The calibration she describes — the slow process of learning to protect yourself from your own intensity — is the central project of a maturing Two. They start with a heart that gives everything. Life teaches them to give less, or give smarter, or give with a wall behind the giving. _Wuthering Heights_ was Robbie going back behind that wall to play what she was before the calibration: a woman who feels at the scale of weather, and it wrecks everything.
 
 Fennell understood the casting: "She is not like anyone I've ever met. She is the type of person who, like Cathy, could get away with anything." (<a href="https://deadline.com/2025/09/emerald-fennell-wuthering-heights-primal-sexual-margot-robbie-jacob-elordi-1236565521/">Deadline</a>)
 
 Jacob Elordi, her co-star, put it differently: "If you have the opportunity to share a film set with Margot Robbie, you're going to make sure you're within 5 to 10 meters at all times, watching how she drinks tea, how she eats her food. She's an elite actor." (<a href="https://www.foxnews.com/entertainment/margot-robbie-jacob-elordi-developed-intense-chemistry-filming-wuthering-heights">Fox News</a>)
 
-Even in the description, you hear the gravity. People orbit her. She holds the center. And now she is playing the character who learns, too late, what that kind of gravity costs.
+Even in the description, you hear the gravity. People orbit her. She holds the center. In _Wuthering Heights_, she played the character who learns, too late, what that kind of gravity costs.
 
 ## Conclusion
 
@@ -246,7 +250,7 @@ Margot Robbie's story is not about fame or range or producing savvy, though she 
 
 The upside is extraordinary: loyalty that builds empires, warmth that transforms sets, and work that changes what gets made for other people. The cost is real: private panic attacks before billion-dollar openings, imposter syndrome that lasted years, and the quiet belief that if you stop being needed, you stop deserving what you have.
 
-Catherine Earnshaw destroys everything she loves because she cannot separate devotion from possession. Playing her is Robbie's way of asking the question she has been circling her entire career.
+Catherine Earnshaw destroys everything she loves because she cannot separate devotion from possession. Playing her was Robbie's way of asking the question she has been circling her entire career.
 
 What would change if the giving didn't have to cost you everything?
 

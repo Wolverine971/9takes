@@ -211,7 +211,7 @@ The shift has actually changed his output, not just his podcast monologues. Loga
 
 Logan met Nina Agdal at a New York event in 2022. She convinced him to come upstairs for a drink; they talked all night and, as Logan put it, "literally have not left each other's sides since." Nina is a Danish supermodel with her own career and agency. She takes Logan to Denmark annually, grounding the relationship outside the creator ecosystem. When things are normal, they look like a stabilizing partnership: she has her lane, he has his, and neither orbits the other.
 
-That stability got tested in the worst way. In August 2023, MMA fighter Dillon Danis launched a harassment campaign against Nina to promote their upcoming boxing match. Danis posted over 250 times targeting her, including nonconsensual sexually explicit photos taken over a decade earlier.
+That stability got tested in the worst way. In August 2023, MMA fighter Dillon Danis launched a harassment campaign against Nina to promote their then-upcoming boxing match. Danis posted over 250 times targeting her, including nonconsensual sexually explicit photos taken over a decade earlier.
 
 For someone whose identity hinges on controlling the narrative, having someone he loves targeted publicly, and being unable to stop it with content or charisma, was a different kind of crisis. Logan's response was notably restrained: no viral clapback, no escalation. Nina filed a lawsuit and obtained a restraining order. Logan's only public comment: "He picked a fight with an innocent woman who is standing up for herself the only way she can: by holding a predator legally accountable for breaking the law."
 

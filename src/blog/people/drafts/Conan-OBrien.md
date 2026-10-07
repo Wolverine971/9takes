@@ -100,7 +100,7 @@ FEEDBACK (2026-06-22):
 
 Ten weeks later, he hosted the Academy Awards. Nineteen million people watched him be the funniest person on the planet for three and a half hours. He'd promised himself to do all the preparation necessary so that during the ceremony he could have fun, knowing that "if I was having a good time, it would be good."
 
-That sentence contains the whole paradox of Conan O'Brien. The man who admitted he's been anxious since the fourth grade — who told doctors for years he wasn't depressed, just anxious, until someone explained that chronic anxiety _is_ depression — found his parents dead and dying within the same week, and his response was to make a room full of movie stars laugh. Not because he's shallow. Because motion is how he survives. It has been since childhood. And at 62, both parents gone, the question is whether the running has finally become the destination — or whether he's simply gotten too fast to catch.
+That sentence contains the whole paradox of Conan O'Brien. The man who admitted he's been anxious since the fourth grade — who told doctors for years he wasn't depressed, just anxious, until someone explained that chronic anxiety _is_ depression — found his parents dead and dying within the same week, and his response was to make a room full of movie stars laugh. Not because he's shallow. Because motion is how he survives. It has been since childhood. And in his sixties, both parents gone, the question is whether the running has finally become the destination — or whether he's simply gotten too fast to catch.
 
 <details>
 <summary class="accordion">TL;DR: Why Conan O'Brien is an Enneagram Type 7</summary>
@@ -246,7 +246,7 @@ The dreamer and the realist. Married for 66 years. Dead within three days of eac
 
 In 2021, Conan ended his TBS show. Late night television — the format that defined him for 28 years — was, in his view, dying. He left before it could leave him.
 
-What he built afterward is the most interesting turn in the whole career. A podcast that earned a $150 million SiriusXM deal. A travel show that won two Emmys for vulnerability and authenticity, of all things. An Oscar hosting gig that drew 19 million viewers and a standing invitation to return. At 62, he says he's "more creatively engaged now than at any other point in his life."
+What he built afterward is the most interesting turn in the whole career. A podcast that earned a $150 million SiriusXM deal. A travel show that won two Emmys for vulnerability and authenticity, of all things. An Oscar hosting gig that drew 19 million viewers and a standing invitation to return. In his sixties, he says he's "more creatively engaged now than at any other point in his life."
 
 That late-career shape puts him somewhere between late-night hosts like [Jimmy Fallon](/personality-analysis/jimmy-fallon), long-form comic podcasters like [Dax Shepard](/personality-analysis/dax-shepard), and arena performers like [Kevin Hart](/personality-analysis/kevin-hart). Conan's signature is not domination of one lane; it is the refusal to stop mutating.
 
@@ -258,7 +258,7 @@ Something changed in what he reached for. Late night was breadth: five shows a w
 
 He said that line to laughter. But Conan O'Brien has had his worst fears realized repeatedly — public humiliation at 30, betrayal at 46, orphanhood at 61 — and each time the liberation was real. Not because the pain wasn't.
 
-He's 62 now. Both parents gone. The late-night format that defined him, gone. And yet: the same marriage for twenty-four years. The same second chair next to Andy for thirty. The same assistant for seventeen. The medication he was afraid would dull him made him sharper. The therapy he resisted made the running quieter, if not slower.
+He's in his sixties now. Both parents gone. The late-night format that defined him, gone. And yet: the same marriage for twenty-four years. The same second chair next to Andy for thirty. The same assistant for seventeen. The medication he was afraid would dull him made him sharper. The therapy he resisted made the running quieter, if not slower.
 
 Somewhere in the vault at NBC, there's footage of a thirty-seven-year-old comedian falling in love with a woman across a room, and he won't rewatch it. He wants to remember it instead. For a man who has spent forty years converting every feeling into forward motion, that might be the most radical thing he's ever done — choosing to sit with something exactly as it was.
 

@@ -81,7 +81,7 @@ describe('personalityAnalysis helpers', () => {
 		expect(formatPersonalityDisplayName('jordan-peterson')).toBe('Jordan Peterson');
 		// j.k.-rowling now normalizes to the URL-safe jk-rowling; the proper-cased
 		// "J.K. Rowling" lives in the DB title field, not the slug-derived name.
-		expect(formatPersonalityDisplayName('j.k.-rowling')).toBe('JK Rowling');
+		expect(formatPersonalityDisplayName('j.k.-rowling')).toBe('J.K. Rowling');
 	});
 
 	it('can use a full public entity name without changing a ranking slug or image key', () => {

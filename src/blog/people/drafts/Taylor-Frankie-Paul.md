@@ -265,7 +265,7 @@ Demi Engemann, her season-long antagonist on _Secret Lives of Mormon Wives_ (the
 
 On April 23, 2026, she deactivated Instagram and TikTok. The exact platforms her career was built on. A source told _People_ she was taking a mental-health break. The woman whose engine had always been narration had, finally, stopped narrating.
 
-The hotel door and the car keys are the whole blog in one image. The motion kept going after the body stopped. She wants, at 31, to find out if she can survive what happens when they finally line up.
+The hotel door and the car keys are the whole blog in one image. The motion kept going after the body stopped. She wants, in her early thirties, to find out if she can survive what happens when they finally line up.
 
 <!-- FRESH-EYES REVIEW RESOLUTION (2026-04-23)
 All eight content gaps addressed:

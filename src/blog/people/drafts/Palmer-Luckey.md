@@ -84,7 +84,7 @@ The man who built this headset is the same one who shows up to Pentagon briefing
 
 He also builds autonomous weapons for the United States military. Anduril Industries is worth over $30 billion. The Chinese government has sanctioned him personally.
 
-Palmer Luckey is 33 years old.
+Palmer Luckey was born in 1992.
 
 The distance between the Game Boy and the guided missile is shorter in his mind than anyone outside it is comfortable admitting. He didn't stop being the kid in the garage when he started building weapons. The garage just got bigger, the toys got deadlier, and the stakes went from virtual to very, very real.
 

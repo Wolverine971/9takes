@@ -294,7 +294,7 @@ She quit Notre Dame at sixteen and went back at twenty-three to finish. She quit
 
 Type 7s would have moved on without finishing. Type 3s would have rebranded the abandonment as growth and told you on a podcast why it was the right call. Type 9s would have simply forgotten. Fours circle back. They circle back because the part of them that always feels something is missing cannot fully accept a missing piece.
 
-She is twenty-four now. She has been the voice of Gen Z, the most talked about influencer in the world, the founder of an eight-figure brand, and a woman who tells her audience, on the record, that she gets sad every winter and never sees her anxiety go fully away.
+She is in her mid-twenties now. She has been the voice of Gen Z, the most talked about influencer in the world, the founder of an eight-figure brand, and a woman who tells her audience, on the record, that she gets sad every winter and never sees her anxiety go fully away.
 
 Every Four spends a life looking for the missing piece. Emma found something close. Twelve million people who watch her search.
 

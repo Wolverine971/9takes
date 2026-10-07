@@ -245,7 +245,7 @@ Read it the other way and it's an indictment. The man is sitting on the boards o
 
 This is the Type 7 trap dressed up as productivity philosophy. Casnocha documented Hoffman's decision style: provisional calls made with incomplete information, a 10-20% error rate accepted as the price of velocity, complex problems compressed into three buckets ("light, medium, heavy"). It's a brilliant operating system for throughput. It's also, structurally, the way someone who can't bear closing options keeps everything half-open. Each commitment gets just enough Hoffman to stay alive, never enough to fully realize. After one 2018 Las Vegas speaking event that hit his impact metric but missed his intellectual and friendship metrics, Casnocha saw him looking "exhausted." Not physically. Existentially. The man with the world's biggest professional network was running an audit on his own experience and finding it short on both sides.
 
-In August 2023, Hoffman stepped back from Greylock's upcoming $1 billion fund, shifting from general partner to venture partner. The stated reason: focus on AI directly. The unstated arithmetic: one more game had to be added, so one had to be subtracted. The 60 percent stayed 60 percent.
+In August 2023, Hoffman stepped back from Greylock's then-upcoming $1 billion fund, shifting from general partner to venture partner. The stated reason: focus on AI directly. The unstated arithmetic: one more game had to be added, so one had to be subtracted. The 60 percent stayed 60 percent.
 
 ---
 

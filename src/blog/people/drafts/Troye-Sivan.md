@@ -350,7 +350,7 @@ He keeps landing on that last word. Nuanced. Nothing files cleanly. Every identi
 
 The current chapter is a good test of everything above, because he is more visible than he has been in years and almost none of it is him standing in front of a camera.
 
-His debut turned ten in February 2026 and he reissued it as _Blue Neighbourhood: Ten Years On_, with new artwork from the illustrator who did the original. It worked: [_Forbes_ reported](https://www.forbes.com/sites/hughmcintyre/2026/03/02/troye-sivans-debut-album-spikes-23000-in-sales/) the album jumped from roughly twenty copies in a week to 5,400, a new peak on the vinyl chart. At thirty, he curated his own adolescence into an object you can hold.
+His debut turned ten in February 2026 and he reissued it as _Blue Neighbourhood: Ten Years On_, with new artwork from the illustrator who did the original. It worked: [_Forbes_ reported](https://www.forbes.com/sites/hughmcintyre/2026/03/02/troye-sivans-debut-album-spikes-23000-in-sales/) the album jumped from roughly twenty copies in a week to 5,400, a new peak on the vinyl chart. In his early thirties, he curated his own adolescence into an object you can hold.
 
 Four days before this was written, FX premiered _The Shards_, the Bret Easton Ellis adaptation, carrying [original songs by Sivan and Leland](https://press.disney.co.uk/news/fxs-the-shards-to-feature-original-music-by-troye-sivan,-leland-and-hayes-warner). He is not in the cast. After two films in which he played versions of his own adolescent fear, he has taken up a position off screen, writing the interior voice for somebody else's frightened teenager.
 

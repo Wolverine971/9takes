@@ -243,7 +243,7 @@ Her cello teacher on Wednesday gave her advice she says changed her life. "She t
 
 For a Latina actress who spent years walking into audition rooms that weren't built for her, who learned through trial that speaking honestly gets punished, who carries the weight of being the most-watched face on the planet's biggest streaming platform — this reframe is both practical and profound. Not performing confidence to impress, but believing she belongs even when every signal says otherwise.
 
-Her slate through 2026 includes _The Gallerist_ (which premiered at Sundance in January alongside [Natalie Portman](/personality-analysis/natalie-portman)), _Klara and the Sun_ with Taika Waititi, _Ghostwriter_ with J.J. Abrams, and Wednesday Season 3 — already renewed. She is 22 and has not stopped running since she was nine.
+Her slate through 2026 includes _The Gallerist_ (which premiered at Sundance in January alongside [Natalie Portman](/personality-analysis/natalie-portman)), _Klara and the Sun_ with Taika Waititi, _Ghostwriter_ with J.J. Abrams, and Wednesday Season 3 — already renewed. She is in her twenties and has not stopped running since she was nine.
 
 At some point you have to wonder whether the script she's been carrying for a decade — the one she won't put herself in — is her attempt to finally create something that isn't about being seen. Or whether the running itself has become the architecture, and dismantling it would mean confronting the existential child underneath who always believed the world was ending.
 

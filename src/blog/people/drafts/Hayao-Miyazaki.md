@@ -316,7 +316,7 @@ It is also where the Enneagram becomes useful as a framework rather than a label
 
 ## What He Is Doing as You Read This
 
-He is 84. He is still smoking. He is, as of the most recent reports, working on what Studio Ghibli has carefully not called his final film. *The Boy and the Heron* won the Oscar for Best Animated Feature in 2024. He did not attend the ceremony. He was at his desk. He was drawing.
+He was born in 1941. He is still smoking. He is, as of the most recent reports, working on what Studio Ghibli has carefully not called his final film. *The Boy and the Heron* won the Oscar for Best Animated Feature in 2024. He did not attend the ceremony. He was at his desk. He was drawing.
 
 There is a small bench outside his studio with a sign on it that reads *"Have a seat."* If you went and sat there today, he would see you from his window.
 

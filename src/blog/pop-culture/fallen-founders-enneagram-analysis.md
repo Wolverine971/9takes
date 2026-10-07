@@ -47,7 +47,7 @@ Adam Neumann, Elizabeth Holmes, and Sam Bankman-Fried all built the founder befo
 
 Three children. Three sentences. Three later founders. Each sentence is the entire personality, already on the page. (The SBF beat is a paraphrase of his mother's published view; the receipts are in [Frame 3](#frame-3-sam-bankman-fried-the-5-who-calculated-his-way-into-prison).) Twenty years later, one walks free with $2.5 billion in fresh funding. One is in a Texas prison camp until 2032. One is in federal custody until 2049.
 
-Same starting move: _build the founder before the product._ Three different failure paths. Three different prison terms. And a fourth founder, [Sam Altman](/personality-analysis/sam-altman), who learned to run all three plays at once. He is the live experiment this piece is really about.
+Same starting move: _build the founder before the product._ Three different failure paths. Three different prison terms. And a fourth founder, [Sam Altman](/personality-analysis/sam-altman), who learned to run all three plays at once. He is the live experiment this piece is really about. His 2023 firing and five-day return is now a Luca Guadagnino film; [here's who plays whom in _Artificial_](/pop-culture/artificial-movie-real-people).
 
 Every CEO lies. The interesting question is which personality types lie in which shapes, and which type the consequences let walk away.
 

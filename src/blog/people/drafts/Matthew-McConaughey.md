@@ -48,12 +48,13 @@ citations:
   - 'https://en.wikipedia.org/wiki/Matthew_McConaughey'
   - 'https://www.wikidata.org/wiki/Q188955'
   - 'https://www.imdb.com/name/nm0000190/'
+  - 'https://aaspeechesdb.oscars.org/link/086-1/'
 faqs:
   - question: "What is Matthew McConaughey's personality type?"
     answer: "Matthew McConaughey is an Enneagram Type 9 (The Peacemaker). The pattern shows in his own admission that the laid-back calm is 'a state of being that I work at, continuously, daily, and I break a sweat to get it,' in disappearing from Hollywood for twenty months rather than fighting it, in going quiet for an eight-year estrangement from his mother instead of confronting her, and in walkabouts to places where nobody speaks his language so he can 'hear the background signals' of his own mind."
     anchor: 'what-is-matthew-mcconaugheys-personality-type'
   - question: 'Why did Matthew McConaughey turn down $14.5 million?'
-    answer: "In 2011 a romantic-comedy offer escalated from $8 million to $14.5 million — 'the same words that were in the $8 million offer I said no to, but it was better written' — and he turned it all down to 'unbrand' himself from the rom-com image. His phone went silent for twenty months and he considered becoming a teacher or wildlife guide. Then the dramatic offers arrived: The Lincoln Lawyer, Mud, Magic Mike, Killer Joe, and finally Dallas Buyers Club, for which he lost 47 pounds and won the 2014 Best Actor Oscar."
+    answer: "After he quit rom-coms, his phone went quiet and he considered becoming a teacher or wildlife guide. In the middle of that roughly twenty-month drought, an action-comedy offer escalated from $8 million to $14.5 million — 'the same words that were in the $8 million offer I said no to, but it was better written' — and he turned it all down to 'unbrand' himself from the rom-com image. About two months later, the dramatic offers arrived: The Lincoln Lawyer, Mud, Magic Mike, Killer Joe, and finally Dallas Buyers Club, for which he lost 47 pounds and won the 2014 Best Actor Oscar."
     anchor: '145-million-to-keep-sleeping'
   - question: "What are Matthew McConaughey's walkabouts?"
     answer: "After A Time to Kill made him famous overnight in 1996, he flew to Peru and spent weeks on the Amazon instead of doing press. He later hitchhiked through Mali to find his favorite musician, Ali Farka Toure, then hiked the Bandiagara Escarpment for eighteen days — and returned five and a half years later to do it again. His explanation: 'We all need a walkabout. We need to put ourselves in places of decreased sensory input so we can hear the background signals of our psychological processes.'"
@@ -94,9 +95,9 @@ FEEDBACK (2026-02-19):
 
 > "It's always been obvious to me that I do not have a laissez-faire attitude. It's a state of being that I work at, continuously, daily, and I break a sweat to get it."
 
-<p class="firstLetter">In 2011, Matthew McConaughey's agent called with an offer: $8 million for a romantic comedy. McConaughey said no. The offer rose to $10 million. No. $12 million. No. Then $14.5 million, nearly double what he'd been paid for previous rom-coms. He read the script again and laughed: "It's the same words that were in the $8 million offer I said no to, but it was better written." He turned it down.</p>
+<p class="firstLetter">Matthew McConaughey had told Hollywood he was done with romantic comedies, and Hollywood had stopped calling. Then his agent called with an offer: $8 million for an action-comedy. McConaughey said no. The offer rose to $10 million. No. $12 million. No. Then $14.5 million, nearly double what he'd been paid for previous rom-coms. He read the script again and laughed: "It's the same words that were in the $8 million offer I said no to, but it was better written." He turned it down.</p>
 
-For twenty months after that, his phone didn't ring. His agent would call with the same update: "Buddy, no one is even mentioning your name. I bring up your name, they say, 'Don't even want to talk about it.'" His brothers were furious: "Little brother, what is your major mal-fucking-function?" He considered quitting acting entirely: becoming a school teacher, a wildlife guide, or going back to law school.
+The drought lasted about twenty months. His agent's updates never changed: "Buddy, no one is even mentioning your name. I bring up your name, they say, 'Don't even want to talk about it.'" His brothers were furious: "Little brother, what is your major mal-fucking-function?" He considered quitting acting entirely: becoming a school teacher, a wildlife guide, or finally going to law school.
 
 This is not how Hollywood reinvention stories usually go. A-listers don't disappear for two years. They don't turn down eight figures to sit in silence. They don't genuinely consider becoming orchestra conductors.
 
@@ -145,7 +146,7 @@ His mother, known as "MaMac," was a force. Her philosophy was built on tough-lov
 
 Matthew was the youngest of three brothers in Longview, Texas. Voted "Most Handsome Student" at Longview High. Built a treehouse the summer they moved: twelve-hour days, stolen lumber, a secret project nobody asked him to do, and nobody knew about until it was finished. He described it later as learning "the importance of finding freedom by building your own structure."
 
-His father, Jim, a former college football player drafted by the Green Bay Packers who never played in the NFL, ran an oil pipe supply business. Jim died of a heart attack in 1992, when Matthew was twenty-three.
+His father, Jim, a former college football player drafted by the Green Bay Packers who never played in the NFL, ran an oil pipe supply business. Jim died of a heart attack in 1992, when Matthew was twenty-two.
 
 "When my father moved on, it was obviously hard because I didn't even think he was killable, you know?" he told Interview Magazine. In _Greenlights_, he wrote: "I got a call from my mum: 'Your dad died.' My knees buckled. I couldn't believe it. He was my dad. Nobody or nothing could kill him."
 
@@ -157,11 +158,11 @@ A few days later, still processing the grief while shooting _Dazed and Confused_
 
 ## The Book That Found Him
 
-Before his father died, before Hollywood, McConaughey was studying law at the University of Texas at Austin. He'd been going along with expectations (study law, become a lawyer, follow the path) until Og Mandino's _The Greatest Salesman in the World_ arrived like an interruption.
+Before his father died, before Hollywood, McConaughey was a University of Texas at Austin undergrad headed for law school. He'd been going along with expectations (go to law school, become a lawyer, follow the path) until Og Mandino's _The Greatest Salesman in the World_ arrived like an interruption.
 
 "I got so engrossed in it that I was almost late for my exam," he later said. He called it "the book that I wouldn't be sitting here talking to you with the life I have if it didn't find me."
 
-The book _found_ him. He didn't seek it out. He was studying law because that's what you study. The book arrived and rerouted his life. He switched to film school.
+The book _found_ him. He didn't seek it out. He was headed for law school because that was the plan. The book arrived and rerouted his life. He switched to film school, graduating from UT in 1993 with a degree in radio-television-film.
 
 His breakout came almost immediately, a small role in Richard Linklater's _Dazed and Confused_ (1993). On his first night of shooting, he'd been listening to a live Doors recording where Jim Morrison repeated "alright" four times between tracks. Standing on the set, he thought, "What is Wooderson about? He's about four things: his car, getting high, rock n' roll, and picking up chicks." Three of those were already handled. The fourth was about to be.
 
@@ -194,13 +195,9 @@ This is the Nine's trap in its purest form. The path of least resistance isn't a
 <span class="timeline__year">2009</span>
 <span class="timeline__event">Tells his agent: "No more rom-coms. Let the town know."</span>
 </div>
-<div class="timeline__item">
-<span class="timeline__year">2010</span>
-<span class="timeline__event">Phone stops ringing. "No one is even mentioning your name."</span>
-</div>
 <div class="timeline__item timeline__item--key">
-<span class="timeline__year">2011</span>
-<span class="timeline__event">Turns down $14.5 million. Hollywood realizes he's not bluffing.</span>
+<span class="timeline__year">2009–10</span>
+<span class="timeline__event">Phone stops ringing. Mid-drought, he turns down $14.5 million. Hollywood realizes he's not bluffing.</span>
 </div>
 <div class="timeline__item">
 <span class="timeline__year">2011</span>
@@ -228,7 +225,7 @@ He called it becoming "unbranded."
 
 His wife Camila was the one who held the line. "If we're going to do this, we're not going to half-ass it," she told him. They cried together. They prayed together. But they held.
 
-During the drought, McConaughey genuinely considered alternative careers. Teaching. Conducting. Wildlife photography. Law school again. "It was scary," he admitted. But two months after turning down $14.5 million, the phone rang with a different kind of call. Dramatic offers arrived: _The Lincoln Lawyer_. Then _Mud_. _Magic Mike_. _Killer Joe_. Each role pushed him further from the beach-body image.
+During the drought, McConaughey genuinely considered alternative careers. Teaching. Conducting. Wildlife photography. Law school. "It was scary," he admitted. But two months after turning down $14.5 million, the phone rang with a different kind of call. Dramatic offers arrived: _The Lincoln Lawyer_. Then _Mud_. _Magic Mike_. _Killer Joe_. Each role pushed him further from the beach-body image.
 
 Then came _Dallas Buyers Club_. He lost 47 pounds to play Ron Woodroof, a rodeo rider diagnosed with AIDS. Film critic David Denby wrote: "It's McConaughey's spiritual transformation that is most remarkable. His gaze is at once desperate and challenging."
 
@@ -238,7 +235,7 @@ The integration toward [Type 3](/enneagram-corner/enneagram-type-3) came differe
 
 He won the Oscar. In his acceptance speech, he shared a philosophy he'd been refining since he was fifteen:
 
-"When someone once asked me: who's your hero? I realized: It's me in 10 years. I turned 25. That same person asked: 'So are you a hero?' 'Not even close,' I said. 'Because my hero's me at 35.' My hero is always 10 years away. I'm never gonna be my hero. I'm not gonna attain that. I know I'm not, and that's just fine with me because that keeps me with somebody to keep on chasing."
+"When I was 15 years old I had a very important person in my life come to me and say, 'Who's your hero?' ... I said, it's me in 10 years. So I turned 25; ten years later that same person comes to me and goes, 'So, are you a hero?' And I was like, not even close! ... because my hero's me at 35. So you see every day, every week, every month and every year of my life, my hero's always 10 years away. I'm never gonna be my hero. I'm not gonna attain that; I know I'm not. And that's just fine with me, because that keeps me with somebody to keep on chasin'."
 
 That's not an achiever's hunger. It's not an adventurer's restlessness. It's a man who has made peace with forward movement without arrival, a chase he knows will never end, and that's exactly the point.
 
@@ -267,9 +264,9 @@ He spent three years of his life traveling the country in an Airstream trailer h
 
 And then there are the bongo drums.
 
-In October 1999, police found McConaughey playing congas naked at 2:45 AM after neighbors complained about the noise. "'Ohhh no!' I'm not putting shit on!" he told the officers. "My naked ass is proof I was mindin' my own business." He paid a $50 fine and pleaded guilty to disturbing the peace.
+In October 1999, police found McConaughey playing congas naked at 2:45 AM after neighbors complained about the noise. "'Ohhh no!' I'm not putting shit on!" he told the officers. "My naked ass is proof I was mindin' my own business."
 
-He's never apologized. When asked in 2013 if he still plays naked, he said: "Of course I still play the congas naked." In 2025, he revealed that it had happened forty-five more times since the arrest. His only takeaway: "Shut the window that has the beautiful scent of jasmine blowing in because it's two in the morning and you might wake a neighbor."
+He's never apologized. When asked in 2013 if he still plays naked, he said: "Of course I still play the congas naked." His only takeaway: "Shut the window that has the beautiful scent of jasmine blowing in because it's two in the morning and you might wake a neighbor."
 
 The walkabouts and the bongos are two versions of the same impulse, a man periodically stripping away everything (expectations, clothing, language, identity) to find out who's underneath.
 
@@ -322,12 +319,12 @@ But standing at the White House podium with a dead child's shoes in his hands �
 
 ---
 
-Today, McConaughey lives in Austin with Camila and their three children. He teaches "Script to Screen" at UT Austin, where he has a perfect 5.0 on Rate My Professors and a student who described his classroom style as "he just drops those wisdom bombs all the time. That's just how he talks normally." He returned to film in 2025 with _The Lost Bus_, playing a school bus driver who saves children during a California wildfire, his first live-action role in six years, another emergence from another long silence.
+Today, McConaughey lives in Austin with Camila and their three children. He teaches "Script to Screen" at UT Austin. In 2025 he came back to live-action film for the first time since 2019's _The Gentlemen_, first with _The Rivals of Amziah King_ at SXSW, then with _The Lost Bus_, playing a school bus driver who gets children out of California's 2018 Camp Fire. Another emergence from another long silence. In September 2025 he also published a second book, _Poems & Prayers_.
 
 His friend Woody Harrelson, who may literally be his half-brother, once described the boundary between them: "Where I start and where he ends, and where he starts and I end, has always been like a murky line."
 
 That murky line is the Nine's native habitat. The place where self and other blur. The place where peace lives, but identity gets lost. McConaughey has spent his whole life learning to draw that line a little sharper, not to build walls, but to know where the world ends and he begins.
 
-He's been chasing his hero for thirty years now. The gap never closes. It's not supposed to. Because for a man who spent a decade saying "alright" to everything, the most radical act wasn't learning to say no. It was learning to say _I want_ — and then sitting with the terrifying silence that followed.
+He's been chasing his hero since he was fifteen. The gap never closes. It's not supposed to. Because for a man who spent a decade saying "alright" to everything, the most radical act wasn't learning to say no. It was learning to say _I want_ — and then sitting with the terrifying silence that followed.
 
 > **Disclaimer** This analysis of Matthew McConaughey's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Matthew McConaughey.

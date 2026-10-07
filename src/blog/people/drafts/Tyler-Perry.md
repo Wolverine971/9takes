@@ -278,7 +278,7 @@ The man who built a fortress for himself saw the threat and thought about the pe
 
 ## The Man Behind the Machine
 
-Tyler Perry is fifty-six years old. He has a son, Aman, born in 2014 with his former partner Gelila Bekele. They split in 2020 after thirteen years together. Perry announced it on Instagram: "I'm 51, single and wondering what the next chapter in my life will look like."
+Tyler Perry was born in 1969. He has a son, Aman, born in 2014 with his former partner Gelila Bekele. They split in 2020 after thirteen years together. Perry announced it on Instagram: "I'm 51, single and wondering what the next chapter in my life will look like."
 
 He has deliberately kept Aman out of the public eye. "I want him to know what it's like to have his own name and his own life and not have the pressure of trying to live up to whatever or whoever your father was." When they made the documentary _Maxine's Baby: The Tyler Perry Story_ in 2023, Perry and Bekele agreed not to show their son's face.
 

@@ -265,7 +265,7 @@ The tell is in the kind of partner she chose. Miller is, by every visible signal
 
 ## April 2026: where the lesson is finally landing
 
-Garner is 53. She's a year past the Affleck-Lopez divorce finalizing. The 67-day, 67-mile run for child malnutrition has reportedly become an annual rhythm. _Once Upon a Farm_ raised a $52M Series C in 2024 — a number most of her press has soft-pedaled because the scale complicates the helpful-mom framing.
+Garner was born in 1972. The Affleck-Lopez divorce was finalized in early 2025. The 67-day, 67-mile run for child malnutrition has reportedly become an annual rhythm. _Once Upon a Farm_ raised a $52M Series C in 2024 — a number most of her press has soft-pedaled because the scale complicates the helpful-mom framing.
 
 The change worth naming in her 2026 is tempo, not transformation. There's no rehab drive this year. There's a quiet engagement, a non-Hollywood partner, a co-parenting setup that has outlasted both Bennifers, and a public posture that no longer requires her to be the one holding it all together.
 

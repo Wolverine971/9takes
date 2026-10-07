@@ -250,7 +250,7 @@ Nine countries. A dozen ventures. Three exits. Five hundred thousand followers. 
 
 And nothing he wanted has really changed.
 
-Is the reinvention taking him somewhere, or has the reinvention itself become the destination? Does it matter, if the guy coaching teenagers for free at 37 is the same person who kept a stranger's line about the ordinary life not being for him?
+Is the reinvention taking him somewhere, or has the reinvention itself become the destination? Does it matter, if the guy coaching teenagers for free in 2025, at 37, is the same person who kept a stranger's line about the ordinary life not being for him?
 
 He's been carrying that line for sixteen years now. No framework. No system. No timer. Just a sentence from a stranger, held quietly while everything else kept changing.
 

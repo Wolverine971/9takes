@@ -259,7 +259,7 @@ Roger Ebert understood: "The genius of Rabbit is to admit his own weaknesses. Th
 
 "She's always been the driving force for me to stay busy, stay focused, always been my number one reason for fear of failure," Eminem told Mike Tyson about his daughter Hailie.
 
-His relationship with ex-wife Kim Scott was volcanic. Two marriages, two divorces, documented in brutal detail across multiple albums. Yet as of 2025, they've found stability. "We're really close friends," Kim revealed. "We're just trying to raise our kids together and make it as normal for them as possible."
+His relationship with ex-wife Kim Scott was volcanic. Two marriages, two divorces, documented in brutal detail across multiple albums. Yet in 2025, they had found stability. "We're really close friends," Kim revealed. "We're just trying to raise our kids together and make it as normal for them as possible."
 
 When romance didn't work, they built a different framework. Co-parenting, clear boundaries, shared purpose.
 
@@ -285,7 +285,7 @@ He relapsed within a month of leaving the hospital. This is what [disintegration
 
 "I don't sleep well. Never have. My brain doesn't shut off."
 
-Even at 52, even with generational wealth, even with nothing left to prove, the anxiety keeps him working. Court filings from 2025 reveal he's still in the studio daily with multiple engineers and collaborators.
+Even in his fifties, even with generational wealth, even with nothing left to prove, the anxiety keeps him working. Court filings from 2025 reveal he's still in the studio daily with multiple engineers and collaborators.
 
 "I actually drive myself insane with it," he said about thinking about rhymes all day long.
 

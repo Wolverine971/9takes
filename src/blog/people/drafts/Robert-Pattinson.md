@@ -280,7 +280,7 @@ Here is a man who was dressed as someone else before he could choose, who was to
 
 What would it look like to stop performing the version of yourself the world expects? To strip away every identity you've been given, every label, every role, every "Claudia," and just sit with what's left?
 
-Pattinson found out. What was left was a man who makes beats in a Batman costume that nobody will ever hear. A man who lies in interviews because the truth is boring and the lies are more fun. A man who, at 38, discovered that the most extraordinary thing in his life is a barbecue with his neighbors.
+Pattinson found out. What was left was a man who makes beats in a Batman costume that nobody will ever hear. A man who lies in interviews because the truth is boring and the lies are more fun. A man who, in 2024, at 38, discovered that the most extraordinary thing in his life is a barbecue with his neighbors.
 
 Maybe the search for who you really are doesn't end with a dramatic revelation. Maybe it ends at a playground.
 

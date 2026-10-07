@@ -2,7 +2,7 @@
 title: "Aubrey Plaza's Type 6 Mind: Beyond the Deadpan Facade"
 meta_title: 'Aubrey Plaza Personality Type: Enneagram 6 Profile'
 persona_title: "Comedy's Deadpan Skeptic"
-description: "At 20, Aubrey Plaza had a stroke and her friends thought it was a joke. Since then she's turned anxiety into deadpan armor and chosen roles that weaponize it."
+description: 'Aubrey Plaza is a counterphobic Enneagram 6: she charges at fear instead of hiding from it. How a stroke at 20 turned anxiety into deadpan armor.'
 author: 'DJ Wayne'
 date: '2025-04-08'
 loc: 'https://9takes.com/personality-analysis/aubrey-plaza'
@@ -55,19 +55,27 @@ citations:
   - 'https://en.wikipedia.org/wiki/The_White_Lotus'
   - 'https://en.wikipedia.org/wiki/Jeff_Baena'
   - 'https://en.wikipedia.org/wiki/Black_Bear_(film)'
+  - 'https://abcnews.com/GMA/Culture/jeff-baena-aubrey-plaza-separated-months-prior-baenas/story?id=119967830'
+  - 'https://playbill.com/article/aubrey-plaza-and-christopher-abbott-have-welcomed-their-first-child-together'
 faqs:
   - question: "What is Aubrey Plaza's personality type?"
     answer: "Aubrey Plaza is a counterphobic Enneagram Type 6 (The Loyalist). The pattern shows in the 'look at me, don't look at me' tension she names herself, the class-president-of-everything organizing as anxiety management, the role choices that map to Six fears (Legion's mind-parasite reality, Black Bear's gaslit performer, Harper Spiller running a 'trust audit' in The White Lotus), and the way the stroke at 20 took her worst fear — total loss of control — and made it real, then became the engine that drove her to charge at fear rather than wait for it."
     anchor: 'aubrey-plazas-type-6-mind-beyond-the-deadpan-facade'
   - question: 'How did the stroke at 20 change Aubrey Plaza?'
-    answer: "She was at lunch in Astoria, mid-sentence about a Hillary Duff concert, when her right arm stopped feeling like hers. Her friends thought it was a bit. She had expressive aphasia from a blood clot in her left temporal lobe — she could understand but couldn't speak. The hypothetical Six nightmare of total loss of control became literal. After she recovered, the panic attacks started, but so did the fuel: if the worst can happen any moment, standing still is the most dangerous thing she could do."
+    answer: "She was at lunch in Astoria, mid-sentence about a Hilary Duff concert, when her right arm stopped feeling like hers. Her friends thought it was a bit. She had expressive aphasia from a blood clot in her left temporal lobe — she could understand but couldn't speak. The hypothetical Six nightmare of total loss of control became literal. After she recovered, the panic attacks started, but so did the fuel: if the worst can happen any moment, standing still is the most dangerous thing she could do."
     anchor: 'i-forgot-how-to-talk-the-stroke-that-changed-everything'
   - question: 'Why does Aubrey Plaza weaponize awkwardness?'
     answer: "On Armchair Expert she named it directly: 'I would like to be an interruptor. Silence is power.' Break the pattern by creating a situation so weird the room has to reorient. The 2013 MTV Movie Awards stage-rush at Will Ferrell — she'd scrawled her upcoming movie's title on her chest, so there was calculation underneath — is the cleanest example. Her comedy hero Rosie O'Donnell taught her 'never have a net.' For an anxious Six, that's not recklessness. It's a declaration of war against the part of yourself that wants to hide."
     anchor: 'weaponized-awkwardness-how-discomfort-became-a-tool'
   - question: "How did Jeff Baena's death affect Aubrey Plaza?"
-    answer: "For a Six, the anchor person isn't just a partner — they make the unpredictable world predictable. Plaza and Baena were together over a decade, married on a whim with 1HourMarriage.com and a backyard altar of stones and smoke. When he died by suicide in January 2025, she described grief through The Gorge: a cliff on each side and 'a giant ocean of just awfulness that's right there, and I can see it… sometimes I just want to dive into it.' The fear that had been running in the background all along — nothing is permanent, not even the structures you build — became the present."
+    answer: "For a Six, the anchor person isn't just a partner — they make the unpredictable world predictable. Plaza and Baena were together over a decade, married on a whim with 1HourMarriage.com and a backyard altar of stones and smoke. They had been separated since September 2024, according to the medical examiner, when he died by suicide in January 2025. Months later she described grief through The Gorge: a cliff on each side and 'a giant ocean of just awfulness that's right there, and I can see it… sometimes I just want to dive into it.' The fear that had been running in the background all along — nothing is permanent, not even the structures you build — became the present."
     anchor: 'its-like-a-daily-struggle-the-anchor-the-loss-and-what-remains'
+  - question: 'Is Aubrey Plaza nice?'
+    answer: "By the accounts of people who know her, yes. Margaret Qualley called her 'the most unanimously loved person ever.' Amy Poehler, who worked with her for seven seasons, says the secret to Plaza is that 'she cares very deeply. People project on her that she's indifferent, and she's definitely not.' The coldness people think they see is mostly a bit, and Plaza says she is often misread when she's being sincere. In Enneagram terms, the deadpan is armor over loyalty: a Six protecting how much she cares."
+    anchor: 'is-aubrey-plaza-nice'
+  - question: 'Why is Aubrey Plaza so weird?'
+    answer: "Mostly on purpose. 'I would like to be an interruptor,' she told Dax Shepard. 'Silence is power.' Casting director Allison Jones called her 'the weirdest girl I've ever met in my life,' and Mike Schur cast her after she made him uncomfortable for an hour. Read through the Enneagram, it's a counterphobic Six strategy: instead of waiting for an awkward moment to ambush her, she creates it and controls it. She also describes herself as more anxious and shy than people expect, and the strangeness gives that anxiety something to do."
+    anchor: 'why-is-aubrey-plaza-so-weird'
 path: src/blog/people/drafts/Aubrey-Plaza.md
 content_quality:
   hook: 9
@@ -126,7 +134,7 @@ Her high school boyfriend, now Broadway actor John Gallagher Jr., saw it clearly
 
 Plaza was a student at NYU, studying film and performing improv at UCB, when she had a stroke at 20.
 
-"I took the train to Astoria to have lunch with my friends," she told Maron. "I sat down. I was talking about a Hillary Duff concert that I had taken my sister to the night before. And then I looked down at my right arm and it was like my brain was telling me that wasn't my arm. Like, whose arm is that?"
+"I took the train to Astoria to have lunch with my friends," she told Maron. "I sat down. I was talking about a Hilary Duff concert that I had taken my sister to the night before. And then I looked down at my right arm and it was like my brain was telling me that wasn't my arm. Like, whose arm is that?"
 
 The right side of her body went paralyzed. For about a second. Then her friends saw her making strange sounds and thought she was doing a bit. "My friends thought I was doing a weird bit and they were like, stop it. What the fuck are you doing?"
 
@@ -136,7 +144,7 @@ She wasn't doing a bit. The blood clot was in her left temporal lobe.
 
 She recovered. But the experience rewired something fundamental.
 
-The stroke took the hypothetical worst case and made it real. At 20, Aubrey Plaza learned that her body could betray her without warning. Language could vanish. Paralysis could arrive mid-sentence about a Hillary Duff concert. The thing every Six fears — total loss of control — actually happened.
+The stroke took the hypothetical worst case and made it real. At 20, Aubrey Plaza learned that her body could betray her without warning. Language could vanish mid-sentence. The thing every Six fears — total loss of control — actually happened.
 
 "I always am aware of how precious life is, and I try to remember that every day," she said. "I tend to see the bigger picture and try not to get hung up on the small things. I do have an overall feeling of life is short. And I might as well just do as much as I can. Maybe it's why I'm so busy."
 
@@ -148,7 +156,7 @@ Before the stroke, during NYU, and obsessively after it, Plaza lived at the Upri
 
 "It was the best time of my life, looking back on it," she said. "It just truly felt like: 'We are in an underground (literally, underground) theatre doing an art form that is so hard, and just so fun when you get it right.' It was intoxicating, and I was intoxicated."
 
-She performed on Harold teams (first Twelve Thousand Dollars, then Whorenado) alongside people like Aziz Ansari, Donald Glover, and Ellie Kemper. She brought a warm-up ritual called "Che Che Coolay" from her indie group Bombardo that the team did before every show. She left Whorenado after three months when Judd Apatow cast her in _Funny People_. But those years underground gave her something essential: a space where losing control was the whole point.
+She performed on Harold teams (first Twelve Thousand Dollars, then Whorenado) alongside people like Aziz Ansari, Donald Glover, and Ellie Kemper. She left Whorenado after three months when Judd Apatow cast her in _Funny People_. But those years underground gave her something essential: a space where losing control was the whole point.
 
 ## Weaponized Awkwardness: How Discomfort Became a Tool
 
@@ -160,7 +168,7 @@ Those interview moments (the deadpan stare-downs, the hostile non-answers, the b
 
 On Dax Shepard's _Armchair Expert_, she named the impulse directly: "I would like to be an interruptor." Break the pattern, yours and everyone else's, by creating a situation so weird that the room has to reorient. "Silence is power," she told Shepard.
 
-The 2013 MTV Movie Awards made this unmistakable. Will Ferrell was accepting the Comedic Genius award when Plaza, drink in hand, rushed the stage and tried to grab his golden popcorn trophy. Ferrell later recalled experiencing "a lot of hot liquor breath and a little bit of sweat." MTV executives escorted her out during the next commercial break.
+The 2013 MTV Movie Awards made this unmistakable. Will Ferrell was accepting the Comedic Genius award when Plaza, drink in hand, rushed the stage and tried to grab his golden popcorn trophy. MTV executives escorted her out during the next commercial break.
 
 She'd scrawled "The To-Do List" (her upcoming movie) on her chest, so there was calculation underneath the chaos. But the willingness to actually _do it_, to risk humiliation on live television, goes beyond marketing.
 
@@ -208,7 +216,7 @@ Her relationship with social media tells a similar story. "I don't really like t
 
 She wants to direct a film, and talks about it with a mix of longing and fear that could be the Six's motto. "I'm scared," she told Poehler on _Good Hang_. "I'm being too precious about it." She's directed one episode of TV, a Showtime series called _Cinema Toast_ that Jeff Baena created, and loved it. "Unfortunately I don't think you can watch it anymore. Showtime just erased it."
 
-Off-camera, she plays pickup basketball, a genuine lifelong passion. Her dad coached her teams growing up. Elena Delle Donne, one of the greatest WNBA players ever, went to her high school. On the court, men consistently underestimate her: "Whoever's stuck defending me is usually the worst player. And then they're all in their heads and I just use it to mess with them because I'm pretty good on defense."
+Off-camera, she plays pickup basketball, a genuine lifelong passion. Her dad coached her teams growing up. On the court, men consistently underestimate her: "Whoever's stuck defending me is usually the worst player. And then they're all in their heads and I just use it to mess with them because I'm pretty good on defense."
 
 ## The Roles That Reveal Her
 
@@ -228,11 +236,11 @@ Then came Rio Vidal in _Agatha All Along_, where Plaza discovered something unex
 
 For a Six, the anchor person is everything. Not just a partner, but the person who makes the unpredictable world predictable. The one whose presence turns the background hum of anxiety into something manageable. Losing that person isn't heartbreak in the normal sense. It's structural collapse. The floor disappears.
 
-She and writer-director Jeff Baena were together for over a decade, collaborating on five films: _Life After Beth_, _The Little Hours_, _Joshy_, _Spin Me Round_, and the series _Cinema Toast_. Their partnership was both creative and deeply private, the kind of intertwined life that a Six builds slowly, testing trust at every stage, until the other person becomes load-bearing.
+She and writer-director Jeff Baena were together for over a decade, collaborating on four films (_Life After Beth_, _The Little Hours_, _Joshy_, _Spin Me Round_) and the series _Cinema Toast_. Their partnership was both creative and deeply private, the kind of intertwined life that a Six builds slowly, testing trust at every stage, until the other person becomes load-bearing.
 
 In 2021, they got married in the most Aubrey Plaza way possible. "We got a little bored one night," she explained. They used 1HourMarriage.com. She built a "quick love altar" in the backyard: "facts of our love, little stones, smoke, fire." They wore tie-dye pajamas Jeff had made during quarantine. "A man from Alhambra showed up in a Hawaiian shirt with a briefcase and I can't remember a lot of it. But I'm pretty sure it's legal."
 
-In January 2025, Jeff Baena died by suicide. He was 47. Plaza called it "an unimaginable tragedy." For a Six who had spent a decade building a partnership designed to make the world feel safe, the loss confirmed the fear that had been running in the background all along: nothing is permanent, not even the structures you build with the most care.
+In January 2025, Jeff Baena died by suicide. He was 47. The two had been separated since September 2024, according to the medical examiner's report. Plaza called it "an unimaginable tragedy." For a Six who had spent more than a decade building a partnership designed to make the world feel safe, separated or not, the loss confirmed the fear that had been running in the background all along: nothing is permanent, not even the structures you build with the most care.
 
 Months later, on _Good Hang_, she described her grief through a movie analogy, because of course she did. She'd watched _The Gorge_, with Miles Teller and Anya Taylor-Joy, and saw her own experience in it: "There's a cliff on one side and a cliff on the other side and then there's a gorge in between filled with all these monster people trying to get them. And I swear, that feels like what my grief is. At all times there's a giant ocean of just awfulness that's right there, and I can see it. And sometimes I just want to dive into it and be in it. And sometimes I just look at it. And sometimes I try to get away from it. But it's always there."
 
@@ -249,5 +257,7 @@ A Six never does. The scanning doesn't stop. The anxiety doesn't update itself b
 "I'm literally just trying to be normal," she told The Independent. "But I can't do it."
 
 That's the line that cracks the whole thing open. The woman who weaponized awkwardness, survived a stroke at 20, charged at every fear her career could offer, lost the person who made the world feel safe, and described her grief as an ocean she can see at all times — is still, at bottom, the shy kid from Delaware who wanted to be Cinderella and got the ugly stepsister instead. She made the ugly stepsister funnier than Cinderella ever could have been. She's been doing that ever since.
+
+The newest chapter is a quieter one. Plaza now lives in New York with actor Christopher Abbott, whom she met making _Black Bear_, and in late July 2026 she reportedly gave birth to their daughter. There was no big announcement. In August, she simply brought the baby to Abbott's final performance in _Death of a Salesman_ on Broadway. For a woman who doesn't want people to know everything about her, it was exactly enough.
 
 > **Disclaimer** This analysis of Aubrey Plaza's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Aubrey.

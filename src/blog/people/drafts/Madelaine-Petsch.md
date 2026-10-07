@@ -278,7 +278,7 @@ She never did convince the internet she wasn't mean. She got something better: s
 
 All that therapy produced the insight. The reflex outlived it. "I still have a hard time allowing conflict to stew," she says. "When there's unease or conflict, I get really uncomfortable for obvious reasons." In her past relationships, the sequence was automatic: "There was conflict, I was immediately fixing it. To my detriment." Even in fights that had nothing to do with her, "I would just scramble to fix it."
 
-Recovery, at 31, looks like sitting still while every cell in her body files an objection:
+Recovery, in her early thirties, looks like sitting still while every cell in her body files an objection:
 
 <p class="inner-thought">I'm rageful inside, cuz I'm like, I have to fix it, I have to fix it, I have to fix it. It's okay. I'm just going to move my ankle and sit here and listen to you talk. And then I'm going to walk away, even though I don't want to walk away. I want to stay and fix it. And we'll talk about it tomorrow. That's okay.</p>
 

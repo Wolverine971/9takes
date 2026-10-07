@@ -266,7 +266,7 @@ A Type 2 who chose the thankless work over the applause. Who ranked the role whe
 
 ---
 
-## Meryl at Seventy-Six
+## Meryl in Her Seventies
 
 In 2024, something shifted.
 

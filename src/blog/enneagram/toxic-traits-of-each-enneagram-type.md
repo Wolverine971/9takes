@@ -28,7 +28,7 @@ quality_safety_gate: 'n/a'
 </script>
 
 <QuickAnswer question="What is the worst Enneagram type?">
-<strong>No Enneagram type is the worst. Every type has a worst version</strong>, and a person's health level predicts the damage better than their type number does. Under stress, each type has a predictable toxic reflex. Type 1 nitpicks and judges, Type 2 uses guilt, Type 3 performs for approval, Type 4 pulls people into emotional intensity, Type 5 withdraws, Type 6 suspects and tests, Type 7 escapes, Type 8 dominates, and Type 9 goes passive-aggressive. Spot yours and you can interrupt it.
+<strong>No Enneagram type is the worst. Every type has a worst version</strong>, and a person's health level matters more than their type number. Under stress, each type has a predictable toxic reflex. Type 1 nitpicks and judges, Type 2 uses guilt, Type 3 performs for approval, Type 4 pulls people into emotional intensity, Type 5 withdraws, Type 6 suspects and tests, Type 7 escapes, Type 8 dominates, and Type 9 goes passive-aggressive. Spot yours and you can interrupt it.
 </QuickAnswer>
 
 **Read time**: 14 minutes | **Key insight**: Your shadow side is predictable
@@ -49,7 +49,7 @@ This guide breaks down what each type looks like at its worst, how to deal with 
 
 ## What is the worst Enneagram type?
 
-None of them. Every type has a worst version, and the number tells you less about the damage than the person's health level does: how stressed, defended, and accountable they are right now. A secure Eight protects the people around them. A cornered Eight flattens them.
+None of them. Every type has a worst version, and the person's health level matters more than the number: how stressed, defended, and accountable they are right now. A secure Eight protects the people around them. A cornered Eight flattens them.
 
 So the useful question is "worst for whom?" Each type's unhealthy pattern lands hardest on a different need. If you need someone steady in a crisis, an unhealthy Four or Seven will cost you the most.
 
@@ -67,7 +67,7 @@ So the useful question is "worst for whom?" Each type's unhealthy pattern lands 
 
 Health level beats type. A healthy version of any number on this list is good company, and an unhealthy version of any number can wreck a room. Most of these moves are alarms: a defense firing because the person feels threatened. That doesn't make the behavior acceptable, and you still get to set a boundary. It does mean you can stop mistaking someone else's alarm for a defect.
 
-As for the "most evil" Enneagram type, there isn't one. Research has not linked any type to Dark Triad traits like narcissism or psychopathy. Here's [what we can actually say about the Dark Triad and the Enneagram](/pop-culture/dark-triad-meets-enneagram).
+As for the "most evil" Enneagram type, there isn't one. We found no peer-reviewed study linking any type to Dark Triad traits like narcissism or psychopathy. Here's [what we can actually say about the Dark Triad and the Enneagram](/pop-culture/dark-triad-meets-enneagram).
 
 ## Why every type has toxic traits under stress
 
@@ -400,7 +400,7 @@ Which type description felt the most personal, and what is one change you're wil
 
 ### What is the worst Enneagram type?
 
-No Enneagram type is the worst. Every type has a worst version, and a person's health level predicts how much harm they cause better than their type number does. When unhealthy, Ones are commonly described as the hardest to argue with, Twos as the hardest to leave, Eights as the most intimidating, and Nines as the hardest to fight with.
+No Enneagram type is the worst. Every type has a worst version, and a person's health level matters more than their type number in how much harm they cause. When unhealthy, Ones are commonly described as the hardest to argue with, Twos as the hardest to leave, Eights as the most intimidating, and Nines as the hardest to fight with.
 
 ### Which Enneagram type is the most toxic in relationships?
 
@@ -412,7 +412,7 @@ Unhealthy Nines are commonly described as checking out during conflict, letting 
 
 ### Which Enneagram type is the most evil?
 
-None. "Evil" is not an Enneagram category, and research has not established a link between any Enneagram type and Dark Triad traits like narcissism or psychopathy. Any type can do serious harm at its least healthy. For what the evidence does and doesn't support, read [the Dark Triad and the Enneagram](/pop-culture/dark-triad-meets-enneagram).
+None. "Evil" is not an Enneagram category, and we found no peer-reviewed study linking any Enneagram type to Dark Triad traits like narcissism or psychopathy. Any type can do serious harm at its least healthy. For what the evidence does and doesn't support, read [the Dark Triad and the Enneagram](/pop-culture/dark-triad-meets-enneagram).
 
 ## Related Reading
 
@@ -436,7 +436,7 @@ None. "Evil" is not an Enneagram category, and research has not established a li
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No Enneagram type is the worst. Every type has a worst version, and a person's health level predicts how much harm they cause better than their type number does. When unhealthy, Ones are commonly described as the hardest to argue with, Twos as the hardest to leave, Eights as the most intimidating, and Nines as the hardest to fight with."
+            "text": "No Enneagram type is the worst. Every type has a worst version, and a person's health level matters more than their type number in how much harm they cause. When unhealthy, Ones are commonly described as the hardest to argue with, Twos as the hardest to leave, Eights as the most intimidating, and Nines as the hardest to fight with."
           },
           "name": "What is the worst Enneagram type?"
         },
@@ -460,7 +460,7 @@ None. "Evil" is not an Enneagram category, and research has not established a li
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "None. \"Evil\" is not an Enneagram category, and research has not established a link between any Enneagram type and Dark Triad traits like narcissism or psychopathy. Any type can do serious harm at its least healthy. For what the evidence does and doesn't support, read the Dark Triad and the Enneagram."
+            "text": "None. \"Evil\" is not an Enneagram category, and we found no peer-reviewed study linking any Enneagram type to Dark Triad traits like narcissism or psychopathy. Any type can do serious harm at its least healthy. For what the evidence does and doesn't support, read the Dark Triad and the Enneagram."
           },
           "name": "Which Enneagram type is the most evil?"
         }

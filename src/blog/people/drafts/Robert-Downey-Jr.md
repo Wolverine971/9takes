@@ -331,7 +331,7 @@ Then the line that stops the air in the room:
 
 "I'm a veteran of a war that is difficult to discuss with people who haven't been there."
 
-He is sixty now. More than eighty roles. One Oscar. Three decades of running and two decades of staying. A father who showed love through smoke. A wife who showed love through an ultimatum. A martial art that became his skeleton. A son who inherited the curse and, by all accounts, is fighting it.
+He turned sixty in 2025. More than eighty roles. One Oscar. Three decades of running and two decades of staying. A father who showed love through smoke. A wife who showed love through an ultimatum. A martial art that became his skeleton. A son who inherited the curse and, by all accounts, is fighting it.
 
 "It is at these moments, these points of acceptance, that you realize human beings can do fucking anything."
 

@@ -258,7 +258,7 @@ A Type 3 would have doubled down on work — success as answer. A Type 8 would h
 
 Mariah's diagnosis was not a one-time pivot point. It became the long structure of his decisions. He turned down jobs that required travel he could not predict. He took the Lotus role because it let him be home. Later, when he and Felicia could afford a different shape of life, they organized it around the three kids — Sophie, Mariah, Jules — in the literal sense of organizing a house, a schedule, and an extended community around a daughter whose needs would not get easier with time. Sixes do not build for the easy case. They build for the hard one, in detail, every day, because they have decided early on that no version of "later" is coming to fix it.
 
-He has been married to Felicia since 1988. They have three children. He is 59 years old. The marriage has lasted longer than most Silicon Valley companies.
+He has been married to Felicia since 1988. They have three children. He was born in 1966. The marriage has lasted longer than most Silicon Valley companies.
 
 ## Ben Horowitz and Marc Andreessen: the 30-year contract
 
@@ -363,7 +363,7 @@ Ben Horowitz is not a general. He has not led a revolt. But the story is the map
 
 He teaches you how to stare down terror because he has never stopped staring at it.
 
-That is also what he is doing now, at 59, in a Las Vegas estate behind four gates, with a wife of 37 years and three kids and a partner of 30 years and a firm worth more than he can spend and a new political tribe he is still learning to trust and a father he just buried. The boy who cried on his first day of kindergarten, who learned at twelve how fast a room could rearrange itself around his father, who stayed on an IPO roadshow while his wife stopped breathing because she told him to — that boy is still scanning. Still looking for the opening.
+That is also what he is doing now, in his sixties, in a Las Vegas estate behind four gates, with a wife he married in 1988 and three kids and a partner of 30 years and a firm worth more than he can spend and a new political tribe he is still learning to trust and a father he just buried. The boy who cried on his first day of kindergarten, who learned at twelve how fast a room could rearrange itself around his father, who stayed on an IPO roadshow while his wife stopped breathing because she told him to — that boy is still scanning. Still looking for the opening.
 
 Still calibrating the floor, every night, in case the ground decides to move.
 

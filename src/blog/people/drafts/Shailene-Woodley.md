@@ -296,7 +296,7 @@ Then she sat for interviews in which she said things she'd never said before. No
 
 "I'm a loner. I'm not a people person. I really enjoy solitude."
 
-These aren't the words of someone who has given up on connection. They're the words of someone who has finally stopped confusing connection with self-erasure. Who has learned, at thirty-two, the difference between holding space for someone else and disappearing into it.
+These aren't the words of someone who has given up on connection. They're the words of someone who has finally stopped confusing connection with self-erasure. Who has learned, by thirty-two, the difference between holding space for someone else and disappearing into it.
 
 "I've always been a little bit of a late bloomer," she said. "Learning things at 32 that many of my friends learned at 20."
 
@@ -306,7 +306,7 @@ She says it like an apology. Like she's behind.
 
 But the late bloomer isn't behind. The late bloomer has been gathering data that the rest of us skipped. Feeling every room, absorbing every person, carrying what she couldn't name until her body forced her to look.
 
-And now, at thirty-two, she's asking the question her parents never thought to teach her:
+And now, in her thirties, she's asking the question her parents never thought to teach her:
 
 _What do I think I'm feeling?_
 

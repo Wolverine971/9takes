@@ -89,7 +89,7 @@ His father's cancer was the one thing that couldn't be fixed. Everything else �
 <li><b>Anger as fuel:</b> Dyson's entire career starts from frustration with things that don't work — not ambition, not curiosity, but moral outrage at broken design.</li>
 <li><b>The impossible standard:</b> Thousands of prototypes weren't experimentation — they were correction. Each one was wrong and needed to be made right.</li>
 <li><b>Perpetual dissatisfaction:</b> "There's nothing wrong in always being dissatisfied" isn't a business philosophy. It's a confession.</li>
-<li><b>Childhood wound to adult pattern:</b> A fatherless boy ran alone on the Norfolk dunes at dawn and built an empire dedicated to proving broken things can be fixed. He's 78 and still running.</li>
+<li><b>Childhood wound to adult pattern:</b> A fatherless boy ran alone on the Norfolk dunes at dawn and built an empire dedicated to proving broken things can be fixed. He's in his late seventies and still running.</li>
 </ul>
 </div>
 </details>
@@ -325,9 +325,9 @@ That word again. The same word from the nine-year-old at Holt Railway Station. "
 
 ## How It Ends (It Doesn't)
 
-James Dyson is 78. He remains the chief engineer and sole owner of a company generating over £7 billion in annual revenue. He's one of Britain's largest landowners, with 36,000 acres across four counties. He holds a knighthood, a CBE, a Fellowship of the Royal Society, and the Order of Merit — personally bestowed by Queen Elizabeth, one of the highest honors in the British system.
+James Dyson was born in 1947. He remains the chief engineer and sole owner of a company generating over £7 billion in annual revenue. He's one of Britain's largest landowners, with 36,000 acres across four counties. He holds a knighthood, a CBE, a Fellowship of the Royal Society, and the Order of Merit — personally bestowed by Queen Elizabeth, one of the highest honors in the British system.
 
-The question everyone asks about a 78-year-old sole owner is: what happens next? His son Jake — who ran his own lighting company for a decade before joining Dyson as chief engineer — is the obvious answer. His son Sam runs the family's farming empire. His daughter Emily works in design. The company brought in a professional CEO in 2022. The structure looks like what it is: a family trust that will outlast its founder, run by the children of a man who lost his own father at nine and spent his life making sure nothing important could be taken away again.
+The question everyone asks about a sole owner in his late seventies is: what happens next? His son Jake — who ran his own lighting company for a decade before joining Dyson as chief engineer — is the obvious answer. His son Sam runs the family's farming empire. His daughter Emily works in design. The company brought in a professional CEO in 2022. The structure looks like what it is: a family trust that will outlast its founder, run by the children of a man who lost his own father at nine and spent his life making sure nothing important could be taken away again.
 
 None of it has made him satisfied. He has said as much:
 

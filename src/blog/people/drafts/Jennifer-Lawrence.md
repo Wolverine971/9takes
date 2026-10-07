@@ -18,7 +18,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jennifer_Lawrence'
 wikidata_qid: 'Q189490'
 imdb_id: 'nm2225369'
 birth_date: '1990-08-15'
-birth_place: 'Indian Hills, Kentucky, United States'
+birth_place: 'Louisville, Kentucky, United States'
 nationality: 'American'
 occupation:
   - 'Actress'
@@ -57,6 +57,9 @@ citations:
   - 'https://es.hollywoodreporter.com/jennifer-lawrence-protagonizara-la-comedia-romantica-one-month-mark-para-apple/'
   - 'https://au.variety.com/2025/film/news/jennifer-lawrence-josh-hutcherson-hunger-games-prequel-sunrise-on-the-reaping-30973/'
   - 'https://au.variety.com/2026/film/global/jennifer-lawrence-white-men-women-directors-32137/'
+  - 'https://variety.com/2026/film/news/jennifer-lawrence-zach-creggers-the-flood-1236878570/'
+  - 'https://www.yahoo.com/entertainment/celebrity/articles/jennifer-lawrence-joins-instagram-warns-191500676.html'
+  - 'https://en.wikipedia.org/wiki/Die_My_Love'
 faqs:
   - question: "What is Jennifer Lawrence's personality type?"
     answer: "9takes' best fit for Jennifer Lawrence is Enneagram Type 6 (The Loyalist), probably a counterphobic 6w7. The strongest evidence is her description of anxiety as a driver, work as a way to keep people from being mad at her, candor as a defense mechanism, and an organized spouse as her anchor. Lawrence has not publicly confirmed an Enneagram type, so this remains an interpretation of public evidence."
@@ -71,7 +74,7 @@ faqs:
     answer: "She revealed in November 2025 that she uses a private TikTok account to argue in comment sections about reality television, the Kardashians, and the British royal family. It is not proof of an Enneagram type, but it does complicate her post-fame retreat: she limited public exposure without losing her appetite for debate."
     anchor: 'the-secret-tiktok-account'
   - question: 'What is Jennifer Lawrence working on in 2026?'
-    answer: "As of August 2026, Lawrence had finished filming Martin Scorsese's What Happens at Night as both star and producer. She was also attached to star in and produce Apple's romantic comedy One Month Mark, expected to return briefly as Katniss Everdeen in The Hunger Games: Sunrise on the Reaping, and developing a comedy she has said she would like to direct."
+    answer: "As of October 2026, Lawrence has finished filming Martin Scorsese's What Happens at Night as both star and producer and is attached to star in and produce Apple's romantic comedy One Month Mark. She is expected to return as Katniss Everdeen in The Hunger Games: Sunrise on the Reaping, which opens November 20, 2026, and will lead Zach Cregger's sci-fi thriller The Flood, set for August 2028. She is also developing a comedy she has said she would like to direct."
     anchor: 'jennifer-lawrence-in-2026-control-not-disappearance'
 content_quality:
   hook: 9
@@ -110,7 +113,7 @@ Then she called that famous authenticity “also a defense mechanism.” The can
 
 ## The Light That Went Out
 
-Jennifer Shrader Lawrence was born in Indian Hills, Kentucky, to Gary, who ran a construction company, and Karen, who managed a summer camp called Camp Hi-Ho. She had two older brothers, Ben and Blaine. They gave her a nickname: **Nitro.**
+Jennifer Shrader Lawrence was born in Louisville, Kentucky, to Gary, who ran a construction company, and Karen, who managed a summer camp called Camp Hi-Ho. She had two older brothers, Ben and Blaine. They gave her a nickname: **Nitro.**
 
 As in nitroglycerin. Explosive. Volatile. Too much.
 
@@ -128,7 +131,7 @@ The explosive kid struggled in social settings she could not control. She though
 
 That door was acting. Lawrence described it as the first place where she felt capable. It may also have offered what school did not: a defined role, a shared task, and rules for what happened next.
 
-Her mother begged to take her to New York for auditions at 14. A talent scout spotted her at Union Square. She told agencies she would only sign if they let her act, not model. By 14, she'd dropped out of school entirely.
+At 14, on a family trip to New York, she was spotted by a talent scout at Union Square. She told agencies she would only sign if they let her act, not model. By 14, she'd dropped out of school entirely.
 
 The light came back on. But the anxiety never left.
 
@@ -246,11 +249,13 @@ The woman who once seemed like the wildest person at every party was actually cr
 
 In November 2025, Lawrence [revealed](https://www.townandcountrymag.com/society/tradition/a69306347/jennifer-lawrence-royal-family-tiktoks/) that she uses a private TikTok account to argue about reality television, the Kardashians, and the British royal family. When <a href="/personality-analysis/robert-pattinson">Robert Pattinson</a> pressed her, she admitted, “I guess I rage-bait on TikTok.” It is not proof of a type, but it complicates the idea that she became conflict-avoidant. She reduced the cost of exposure without losing her appetite for debate.
 
+In September 2026, she [joined Instagram](https://www.yahoo.com/entertainment/celebrity/articles/jennifer-lawrence-joins-instagram-warns-191500676.html) with a condition attached: "if anyone says anything negative I will quit immediately, no questions asked."
+
 ---
 
 ## "Terrified of Being Invisible"
 
-In _Die My Love_ (2025), directed by Lynne Ramsay, Lawrence plays Grace, a new mother descending into a mental-health crisis on a remote farm. She filmed it while about five months pregnant and later [described a difficult postpartum period](https://www.wmagazine.com/culture/jennifer-lawrence-cover-interview-art-issue-2025) after her second child was born.
+In _Die My Love_ (2025), directed by Lynne Ramsay, Lawrence plays Grace, a new mother descending into a mental-health crisis on a remote farm. She filmed it while about five months pregnant and later [described a difficult postpartum period](https://www.wmagazine.com/culture/jennifer-lawrence-cover-interview-art-issue-2025) after her second child was born. The role earned her a [Golden Globe nomination](https://en.wikipedia.org/wiki/Die_My_Love) for Best Actress in a Motion Picture (Drama).
 
 She described Grace as someone "terrified of being invisible. She would rather her husband be mad at her than not see her."
 
@@ -275,7 +280,7 @@ The double negative leaves both truths standing. Motherhood enlarged her life an
 </div>
 <div class="key-stat">
 <span class="key-stat__number">2</span>
-<span class="key-stat__label">sons as of August 2026</span>
+<span class="key-stat__label">sons as of October 2026</span>
 </div>
 <div class="key-stat">
 <span class="key-stat__number">3</span>
@@ -285,9 +290,9 @@ The double negative leaves both truths standing. Motherhood enlarged her life an
 
 ## Jennifer Lawrence in 2026: Control, Not Disappearance
 
-As of August 2026, the “retreat” ending no longer fits. Apple announced in March that Lawrence was starring in and producing Martin Scorsese's _What Happens at Night_; filming concluded by June. The [official production notice](https://www.filmcommission.cz/media/lbdnlyie/tz_what-happens-at-night_czech-film-commission_1_2026.pdf) also lists the Apple/A24 murder mystery _The Wives_ as another film she will star in and produce.
+By October 2026, the “retreat” ending no longer fits. Apple announced in March that Lawrence was starring in and producing Martin Scorsese's _What Happens at Night_; filming concluded by June. The [official production notice](https://www.filmcommission.cz/media/lbdnlyie/tz_what-happens-at-night_czech-film-commission_1_2026.pdf) also lists the Apple/A24 murder mystery _The Wives_ as another film she will star in and produce.
 
-In June, Apple also won _One Month Mark_, a romantic comedy Lawrence will produce through Excellent Cadaver and star in, according to [_The Hollywood Reporter_](https://es.hollywoodreporter.com/jennifer-lawrence-protagonizara-la-comedia-romantica-one-month-mark-para-apple/).
+In June, Apple also won _One Month Mark_, a romantic comedy Lawrence will produce through Excellent Cadaver and star in, according to [_The Hollywood Reporter_](https://es.hollywoodreporter.com/jennifer-lawrence-protagonizara-la-comedia-romantica-one-month-mark-para-apple/). In late September, Warner Bros. cast her as the lead in Zach Cregger's sci-fi thriller _The Flood_, set for release on August 11, 2028, [_Variety_ reported](https://variety.com/2026/film/news/jennifer-lawrence-zach-creggers-the-flood-1236878570/).
 
 Then there is the franchise she once seemed finished with. Lawrence and Josh Hutcherson are [expected to return](https://au.variety.com/2025/film/news/jennifer-lawrence-josh-hutcherson-hunger-games-prequel-sunrise-on-the-reaping-30973/) as Katniss and Peeta in _The Hunger Games: Sunrise on the Reaping_, scheduled for November 20, 2026. The nature of their appearance has not been officially detailed, so it is better understood as a reported return than a new Katniss-led film.
 

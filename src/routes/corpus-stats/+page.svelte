@@ -7,6 +7,7 @@
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import CorpusStatsTable from '$lib/components/marketing/CorpusStatsTable.svelte';
 	import CorpusStatsComparisonSection from '$lib/components/marketing/CorpusStatsComparisonSection.svelte';
+	import { typeExtremes } from '$lib/utils/corpusTypeRanking';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -27,7 +28,9 @@
 		top_domains: { slug: string; label: string; url: string; count: number; share: number }[];
 	};
 	type Pipeline = {
-		in_draft: number;
+		/** null = not counted (generator ran without the service key). */
+		in_draft: number | null;
+		draft_min_content_chars?: number;
 		published_last_30_days: number;
 		published_last_90_days: number;
 		avg_new_per_month: number;
@@ -36,7 +39,8 @@
 		generated_at: string;
 		totals: {
 			published: number;
-			unpublished_drafts: number;
+			/** null = not counted; hide it rather than show a fake 0. */
+			unpublished_drafts: number | null;
 		};
 		enneagram_distribution: {
 			counts: Record<string, number>;
@@ -83,16 +87,42 @@
 	const sortedDomains = $derived(Object.values(stats.domains).sort((a, b) => b.total - a.total));
 	const OPEN_TOP_N = 3;
 
-	const sortedTypeEntries = $derived(
-		Object.entries(stats.enneagram_distribution.shares).sort((a, b) => b[1] - a[1])
+	// Tie-aware: every type sharing the top or bottom count gets named.
+	const extremes = $derived(typeExtremes(stats.enneagram_distribution.counts));
+	const mostCommonTypes = $derived(extremes?.most ?? []);
+	const rarestTypes = $derived(extremes?.least ?? []);
+	const shareOf = (types: string[]) => pct(stats.enneagram_distribution.shares[types[0]] ?? 0);
+	const mostCommonSuffix = $derived(
+		mostCommonTypes.length > 1
+			? `tie for the most common Enneagram type at ${shareOf(mostCommonTypes)}% each.`
+			: `is the most common Enneagram type at ${shareOf(mostCommonTypes)}%.`
 	);
-	const mostCommonType = $derived(sortedTypeEntries[0]);
-	const rarestType = $derived(sortedTypeEntries[sortedTypeEntries.length - 1]);
+	const rarestSuffix = $derived(
+		rarestTypes.length > 1
+			? `tie for the rarest at ${shareOf(rarestTypes)}% each.`
+			: `is the rarest at ${shareOf(rarestTypes)}%.`
+	);
+	const leadSuffix = $derived(
+		mostCommonTypes.length > 1
+			? `share the lead at ${shareOf(mostCommonTypes)}% each.`
+			: `leads at ${shareOf(mostCommonTypes)}%.`
+	);
+	const draftCount = $derived(stats.totals.unpublished_drafts);
+	const hasDraftCount = $derived(typeof draftCount === 'number');
+	/** Separator before item i of n: "", " and ", ", ", ", and ". */
+	const listSeparator = (i: number, n: number) =>
+		i === 0 ? '' : n === 2 ? ' and ' : i === n - 1 ? ', and ' : ', ';
 	const musicStats = $derived(stats.domains['music']);
 	const comedyStats = $derived(stats.domains['comedy']);
 	const techStats = $derived(stats.domains['tech-business']);
 	const politicsStats = $derived(stats.domains['politics-public']);
 </script>
+
+{#snippet typeLinks(types: string[])}
+	{#each types as type, i (type)}{listSeparator(i, types.length)}<a
+			href="/personality-analysis/type/{type}">{TYPE_NAMES[Number(type)]}</a
+		>{/each}
+{/snippet}
 
 <SEOHead
 	title={seo.title}
@@ -148,13 +178,11 @@
 			<h2 id="direct-answer-heading">What the Enneagram Type Distribution Shows</h2>
 			<p>
 				Across {stats.totals.published} public-figure profiles on 9takes,
-				<a href="/personality-analysis/type/{mostCommonType[0]}"
-					>{TYPE_NAMES[Number(mostCommonType[0])]}</a
-				>
-				is the most common Enneagram type at {pct(mostCommonType[1])}%.
-				<a href="/personality-analysis/type/{rarestType[0]}">{TYPE_NAMES[Number(rarestType[0])]}</a>
-				is the rarest at {pct(rarestType[1])}%. Public figures aren't a population sample. For
-				test-taker percentages, rarest to most common, see
+				{@render typeLinks(mostCommonTypes)}
+				{mostCommonSuffix}
+				{@render typeLinks(rarestTypes)}
+				{rarestSuffix} Public figures aren't a population sample, and 9takes editors assign every type.
+				For test-taker percentages, rarest to most common, see
 				<a href="/enneagram-corner/how-common-is-each-enneagram-type"
 					>how common each Enneagram type is</a
 				>.
@@ -199,10 +227,12 @@
 					<div class="total-value">{stats.totals.published}</div>
 					<div class="total-label">Published profiles</div>
 				</div>
-				<div class="total-tile">
-					<div class="total-value">{stats.totals.unpublished_drafts}</div>
-					<div class="total-label">Drafts in pipeline</div>
-				</div>
+				{#if hasDraftCount}
+					<div class="total-tile">
+						<div class="total-value">{draftCount}</div>
+						<div class="total-label">Drafts in pipeline</div>
+					</div>
+				{/if}
 			</div>
 			<p class="note">
 				All percentages, deltas, and domain breakdowns below are computed against the published set
@@ -218,8 +248,10 @@
 		>
 			<h2 id="distribution-heading">Enneagram Type Distribution</h2>
 			<p class="lede">
-				How the corpus-wide baseline is split across the nine types. Type 3 (Achiever) leads at
-				{pct(stats.enneagram_distribution.shares['3'])}%. Each type has its own deep-dive at the
+				How the corpus-wide baseline is split across the nine types. {@render typeLinks(
+					mostCommonTypes
+				)}
+				{leadSuffix} Each type has its own deep-dive at the
 				<a href="/enneagram-corner">Enneagram Corner</a>.
 			</p>
 			<CorpusStatsTable
@@ -317,14 +349,17 @@
 			<section class="page-section" aria-labelledby="pipeline-heading" id="pipeline">
 				<h2 id="pipeline-heading">Pipeline</h2>
 				<p class="lede">
-					Proof the corpus is active, not frozen. Drafts in review + monthly shipping cadence show
-					new profiles are arriving on a regular beat.
+					Proof the corpus is active, not frozen. {hasDraftCount
+						? 'Unpublished drafts and the monthly publishing cadence show'
+						: 'The monthly publishing cadence shows'} new profiles arriving on a regular beat.
 				</p>
 				<ul class="kv-list">
-					<li>
-						<strong>In draft / review pipeline:</strong>
-						{stats.pipeline.in_draft}
-					</li>
+					{#if typeof stats.pipeline.in_draft === 'number'}
+						<li>
+							<strong>Unpublished drafts:</strong>
+							{stats.pipeline.in_draft}
+						</li>
+					{/if}
 					<li>
 						<strong>Published in last 30 days:</strong>
 						{stats.pipeline.published_last_30_days}
@@ -367,6 +402,17 @@
 					<strong>Multi-domain figures:</strong> A person tagged as both a musician and an activist is
 					counted in both domains.
 				</li>
+				<li>
+					<strong>Who assigns the types:</strong> 9takes editors type every profile from biographical
+					sources and interviews. Any skew on this page can come from editor-typing bias as well as from
+					who becomes famous, so read every explanation here as a hypothesis, not a finding.
+				</li>
+				{#if hasDraftCount && stats.pipeline?.draft_min_content_chars}
+					<li>
+						<strong>Drafts:</strong> Unpublished profiles with more than {stats.pipeline.draft_min_content_chars.toLocaleString()}
+						characters written, one per person, excluding anyone already published.
+					</li>
+				{/if}
 				<li>
 					<strong>Related reading:</strong>
 					<a href="/enneagram-corner/enneagram-test-comparison-2026"

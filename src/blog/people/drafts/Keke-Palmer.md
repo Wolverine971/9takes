@@ -320,7 +320,7 @@ In January 2025 she opened _One of Them Days_ with SZA, the Issa Rae–produced 
 
 "A big part of self-mastery," she wrote, "is knowing that you don't control anything but yourself."
 
-The girl who was trapped in a SpongeBob suit on a Nickelodeon cruise ship at fifteen is now thirty-two, building a media company, raising a son, and releasing the most honest music of her career.
+The girl who was trapped in a SpongeBob suit on a Nickelodeon cruise ship at fifteen is now in her thirties, building a media company, raising a son, and releasing the most honest music of her career.
 
 But the suit is still there. She designed it herself now, and she chooses when to put it on. That's the difference.
 

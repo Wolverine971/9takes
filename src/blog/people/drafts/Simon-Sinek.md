@@ -53,7 +53,7 @@ faqs:
     answer: "Simon Sinek is an Enneagram Type 2 (The Helper), specifically a 2w1. The pattern shows in the 2005 depression that hit when his work stopped feeling like service rather than when it stopped being profitable, his choice of the Marine Corps — where 'officers eat last' — as his spiritual home, the formal systems he built to receive care like the 'no crying alone' rule and 8-minute friend calls, and a career that began the moment a friend asked 'How are you doing?' and he let himself answer honestly."
     anchor: 'what-is-simon-sineks-personality-type'
   - question: 'Why has Simon Sinek never been married?'
-    answer: "He's 52 and frames his singleness as a career choice, but the ADHD he wasn't diagnosed with until age 32 shaped every close relationship before he could name it — accidental stonewalling, a blank face women called 'so hard to read,' bluntness that works professionally but not romantically. On Finding Mastery in 2025 he said he'd carried stress about being unmarried 'for decades' and once believed he was 'a failure' at relationships, a framing he's since rejected: 'I'm a very happy person, with great friends.'"
+    answer: "Born in 1973, he frames his singleness as a career choice, but the ADHD he wasn't diagnosed with until age 32 shaped every close relationship before he could name it — accidental stonewalling, a blank face women called 'so hard to read,' bluntness that works professionally but not romantically. On Finding Mastery in 2025 he said he'd carried stress about being unmarried 'for decades' and once believed he was 'a failure' at relationships, a framing he's since rejected: 'I'm a very happy person, with great friends.'"
     anchor: 'the-adhd-that-explained-everything'
   - question: "Why hasn't Simon Sinek published a new book since The Infinite Game?"
     answer: "Sinek averaged a book every two to three years from 2009 to 2019, then went silent for seven years. Instead he launched Optimism Press and began publishing other people's books — Will Guidara's Unreasonable Hospitality, Jean Oelwang's Partnering — while his podcast A Bit of Optimism became his primary creative output. Its dominant theme is friendship, the question he admits he hasn't solved yet."
@@ -133,7 +133,7 @@ That's not a contradiction. That's the entire story.
 
 **Simon Sinek** built a career teaching people how to find their "why." He's written five books on leadership, belonging, and infinite games. He founded The Optimism Company. He advises the United States Marine Corps. Corporations pay him upwards of $200,000 to explain to a room full of executives why their people don't care.
 
-He has never been married. He's 52. Wasn't diagnosed with the ADHD that silently shaped every close relationship until he was 32.
+He has never been married. Born in 1973. Wasn't diagnosed with the ADHD that silently shaped every close relationship until he was 32.
 
 <details>
 <summary class="accordion">TL;DR: Why Simon Sinek is an Enneagram Type 2</summary>

@@ -257,7 +257,7 @@ Then there is the self-deprecation, which most people misread. He plays dumb, ca
 
 ## The people he lets in
 
-His mother is a recurring character whether he wants her to be or not. She walks into Valorant matches, which produces the universal problem of explaining that you cannot pause an online game, and brings plates of food mid-broadcast, indifferent to the forty thousand people watching. A thirty-four-year-old man with a national platform, still getting interrupted by his mom with a snack.
+His mother is a recurring character whether he wants her to be or not. She walks into Valorant matches, which produces the universal problem of explaining that you cannot pause an online game, and brings plates of food mid-broadcast, indifferent to the forty thousand people watching. A man in his mid-thirties with a national platform, still getting interrupted by his mom with a snack.
 
 Will Neff is the best friend, and the origin story is perfect. The bond got sealed at a restaurant when another couple at their table had a screaming fight and stormed out. Will turned to Hasan and asked whether he wanted to eat their food and stiff them with the bill. Hasan said yes instantly. Will knew him "back when he was a fat, sweaty mess," and still says the honest thing: "There are days that I miss the sweaty Backyardigans version of him."
 

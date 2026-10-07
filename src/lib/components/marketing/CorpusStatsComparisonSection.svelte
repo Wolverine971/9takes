@@ -5,6 +5,7 @@
 <script lang="ts">
 	import corpusStats from '$lib/data/corpus-stats.json';
 	import externalStats from '$lib/data/corpus-stats-external.json';
+	import { describeTypeRank, joinList, typeExtremes } from '$lib/utils/corpusTypeRanking';
 
 	type ExternalSource = {
 		id: string;
@@ -62,7 +63,9 @@
 	const secondarySource = external.sources.find((s) => s.id === 'truity')!;
 
 	const corpusShares = corpusStats.enneagram_distribution.shares as Record<string, number>;
+	const corpusCounts = corpusStats.enneagram_distribution.counts as Record<string, number>;
 	const corpusTotal = corpusStats.totals.published;
+	const primaryShares = primarySource.type_shares;
 
 	type Row = {
 		type: number;
@@ -91,45 +94,170 @@
 		};
 	});
 
-	// Per-type interpretive copy. Keyed by Enneagram type number. We render
-	// entries only when |Δ vs primary| ≥ 3 pp OR the entry has a narrative
-	// reason to appear (e.g., Type 7 sits inside a source conflict).
-	const INTERPRETATIONS: Record<number, { heading: string; body: string }> = {
+	// Same threshold that colors the table's delta column: gaps under 3 pp are
+	// treated as noise, not divergence.
+	const DIVERGENCE_PP = 3;
+	type Direction = 'over' | 'under' | 'close';
+	const direction = (pp: number | null): Direction =>
+		pp === null ? 'close' : pp >= DIVERGENCE_PP ? 'over' : pp <= -DIVERGENCE_PP ? 'under' : 'close';
+	const points = (pp: number) => `${Math.abs(pp).toFixed(1)} points`;
+	const NUMBER_WORDS = [
+		'zero',
+		'one',
+		'two',
+		'three',
+		'four',
+		'five',
+		'six',
+		'seven',
+		'eight',
+		'nine'
+	];
+	const countWord = (n: number) => NUMBER_WORDS[n] ?? String(n);
+	const typeLabel = (t: number | string) => `Type ${t} (${TYPE_NAMES[Number(t)]})`;
+	const corpusRank = (t: number) => describeTypeRank(corpusCounts, String(t));
+	const EDITOR_TYPING = '9takes editors assign every type in this corpus';
+
+	// Per-type interpretive copy. Every number is computed from the live corpus and
+	// the external JSON; only the hypotheses are hand-written, and each note only
+	// renders its hypothesis while the gap still points the way it explains.
+	// Notes whose gap has closed or flipped fall back to neutral copy.
+	type Note = {
+		expects: 'over' | 'under' | 'always';
+		heading: string;
+		facts: (row: Row) => string;
+		hypothesis: (row: Row) => string;
+	};
+
+	const baseFacts = (row: Row) =>
+		`Type ${row.type} is ${pct(row.corpusShare)} of the 9takes corpus, ${corpusRank(row.type)}, against ${pct(row.primaryShare)} on ${primarySource.short_name}`;
+
+	const sourceGapPp = (row: Row) =>
+		row.primaryShare !== null && row.secondaryShare !== null
+			? Math.abs(row.primaryShare - row.secondaryShare) * 100
+			: null;
+
+	const NOTES: Record<number, Note> = {
 		3: {
-			heading: 'Type 3 (Achiever): the corpus leans heavily into achievement',
-			body: 'The biggest over-representation on the page. Type 3 sits near 20% of the 9takes corpus versus roughly 10% of the largest online test-taker sample. The explanation is not mysterious: becoming a publicly-documented figure is already an Achiever-shaped outcome. Our corpus selects for visibility and resume, which selects for Type 3.'
+			expects: 'over',
+			heading: "Type 3 (Achiever): visibility, or the typist's eye?",
+			facts: (row) => `${baseFacts(row)}.`,
+			hypothesis: () =>
+				'One hypothesis: becoming a publicly documented figure is already an achievement-shaped outcome, so a corpus built from visible people may select for Type 3. Another is editor-typing bias: on-camera polish and ambition are easy to read as Type 3, and ' +
+				EDITOR_TYPING +
+				". This data can't tell the two apart."
 		},
 		8: {
-			heading: 'Type 8 (Challenger): power and presence bias',
-			body: 'Challengers run companies, enter politics, and get profiled. At 11.9% the corpus sits above online test-taker baselines but below what Truity reports (15%). Treat this as a "public-figure" effect more than a "9takes" effect. Every corpus of well-known people will over-index on Type 8.'
+			expects: 'over',
+			heading: 'Type 8 (Challenger): a public-figure effect?',
+			facts: (row) =>
+				`${baseFacts(row)}${row.secondaryShare !== null ? ` and ${pct(row.secondaryShare)} on ${secondarySource.short_name}` : ''}.`,
+			hypothesis: (row) => {
+				const gap = sourceGapPp(row);
+				return (
+					'If public life rewards people who take charge, a corpus of well-known people could run heavy on Type 8 compared with test-taker samples. That is a hypothesis, not a finding' +
+					(gap !== null && gap >= DIVERGENCE_PP
+						? `: the two test-taker sources are ${points(gap)} apart on Type 8 themselves, and `
+						: ', and ') +
+					EDITOR_TYPING +
+					'.'
+				);
+			}
 		},
 		9: {
-			heading: 'Type 9 (Peacemaker): the invisible majority',
-			body: 'The opposite story. Type 9 is the single most common type in online test-taker samples (16.5%) and one of the least-represented in ours (9.2%). Peacemakers hold groups together from the inside; that kind of work rarely produces a Wikipedia page. This gap is one of the best arguments that the 9takes corpus is a public-figure sample, not a population sample.'
+			expects: 'under',
+			heading: 'Type 9 (Peacemaker): common online, rarer here',
+			facts: (row) =>
+				`Type 9 is ${pct(row.primaryShare)} of ${primarySource.short_name}'s sample, ${describeTypeRank(primaryShares, '9')}, but ${pct(row.corpusShare)} of the 9takes corpus, ${corpusRank(9)}.`,
+			hypothesis: () =>
+				'One hypothesis: Peacemakers hold groups together from the inside, and that kind of work rarely produces a Wikipedia page. Another is editor-typing bias: easygoing public figures may get typed as something else. Either way, the gap is a reminder that this is a sample of public figures, not of the population.'
 		},
 		1: {
-			heading: 'Type 1 (Reformer): modestly under-represented',
-			body: "At 7.2% versus 11.5% online, Reformers run about four points light. Expect this to drift upward as the corpus grows toward politicians, judges, and activist founders, the kinds of public figures that frequently type as Type 1 but we haven't yet profiled in numbers."
+			expects: 'under',
+			heading: 'Type 1 (Reformer): lighter than test-taker data',
+			facts: (row) => `${baseFacts(row)}.`,
+			hypothesis: () =>
+				"Two possible reasons, neither tested: 9takes hasn't profiled many politicians, judges, or activist founders yet, the kinds of public figures who often type as 1, or its editors read principled public figures as other types. If the first is right, the share should rise as the corpus adds more of them."
 		},
 		6: {
-			heading: 'Type 6 (Loyalist): common online, less so in public-figure data',
-			body: 'Loyalists over-index in test-taker samples (13.8%) and under-index in our corpus (9.6%). Part of this is that anxiety-linked types engage with typology tools at higher rates. Part of it is that skepticism and loyalty do not automatically make a person famous.'
+			expects: 'under',
+			heading: 'Type 6 (Loyalist): common online, less so here',
+			facts: (row) => `${baseFacts(row)}.`,
+			hypothesis: () =>
+				'One hypothesis is that anxiety-prone types seek out typology tests more often, which would inflate their share among test-takers. Another is that skepticism and loyalty do not automatically make a person famous. A third is editor-typing bias in how 9takes reads public figures. None of these has been tested.'
 		},
 		7: {
+			expects: 'always',
 			heading: 'Type 7 (Enthusiast): the source-of-truth problem',
-			body: 'The 9takes corpus shows Type 7 at 14.3%, essentially matching enneagram-personality.com (13.6%). But Truity, with a very large sample of its own, calls Type 7 the single rarest type at 9%. The two largest public sources disagree on Type 7 by more than they disagree on any other type. Treat any Type 7 comparison as noisy until the disagreement is resolved.'
+			facts: (row) => {
+				const truityKeys = Object.keys(secondarySource.type_shares);
+				const truityLowest = typeExtremes(secondarySource.type_shares)?.least ?? [];
+				const truityPosition =
+					truityLowest.length === 1 && truityLowest[0] === '7'
+						? `, the lowest of the ${countWord(truityKeys.length)} types it publishes`
+						: '';
+				return `The 9takes corpus shows Type 7 at ${pct(row.corpusShare)}. ${primarySource.short_name} ranks it ${describeTypeRank(primaryShares, '7')} at ${pct(row.primaryShare)}, while ${secondarySource.short_name} puts it at ${pct(row.secondaryShare)}${truityPosition}.`;
+			},
+			hypothesis: (row) => {
+				const gap = sourceGapPp(row);
+				if (gap === null) return 'Treat any Type 7 comparison as noisy.';
+				const otherGaps = rows
+					.filter((other) => other.type !== 7)
+					.map(sourceGapPp)
+					.filter((value): value is number => value !== null);
+				const largest = otherGaps.every((other) => gap > other);
+				return `The two public sources are ${points(gap)} apart on Type 7${largest ? ', more than on any other type they both report' : ''}. Treat any Type 7 comparison as noisy until that disagreement is resolved.`;
+			}
 		}
 	};
 
+	function interpret(row: Row): { heading: string; body: string } {
+		const note = NOTES[row.type];
+		const dir = direction(row.deltaVsPrimaryPp);
+		if (note.expects === 'always' || note.expects === dir) {
+			return { heading: note.heading, body: `${note.facts(row)} ${note.hypothesis(row)}` };
+		}
+		if (dir === 'close') {
+			return {
+				heading: `${typeLabel(row.type)}: close to test-taker data`,
+				body: `${baseFacts(row)}, a gap of ${points(row.deltaVsPrimaryPp ?? 0)}. That is small enough to be noise at this sample size, so there is no divergence to explain yet.`
+			};
+		}
+		return {
+			heading: `${typeLabel(row.type)}: ${dir === 'over' ? 'heavier' : 'lighter'} than test-taker data`,
+			body: `${baseFacts(row)}. There is no working hypothesis for this direction yet; keep in mind that ${EDITOR_TYPING}.`
+		};
+	}
+
 	const divergenceInterpretations = rows
-		.filter((r) => INTERPRETATIONS[r.type])
+		.filter((r) => NOTES[r.type])
 		.sort((a, b) => Math.abs(b.deltaVsPrimaryPp ?? 0) - Math.abs(a.deltaVsPrimaryPp ?? 0))
 		.map((r) => ({
-			...INTERPRETATIONS[r.type],
+			...interpret(r),
 			type: r.type,
 			delta: r.deltaVsPrimaryPp,
 			share: r.corpusShare
 		}));
+
+	// "11.11% per type" note: name each source's extremes from the data shown,
+	// so the copy can't contradict the table (Truity's partial table only
+	// supports "lowest of the types it publishes").
+	const typesList = (types: string[]) =>
+		types.length > 1 ? `Types ${joinList(types)}` : `Type ${types[0]}`;
+	const publicDataSentence = (() => {
+		const primaryExtremes = typeExtremes(primaryShares);
+		if (!primaryExtremes) return '';
+		const secondaryExtremes = typeExtremes(secondarySource.type_shares);
+		const agreeOnLowest =
+			!!secondaryExtremes && secondaryExtremes.least.join() === primaryExtremes.least.join();
+		const primaryPart = `${primarySource.short_name}${primarySource.complete ? ', the one source here with a full nine-type table,' : ''} has ${typesList(primaryExtremes.least)} lowest (${pct(primaryExtremes.leastValue)}) and ${typesList(primaryExtremes.most)} highest (${pct(primaryExtremes.mostValue)}).`;
+		if (!secondaryExtremes) return `The public data that does exist is uneven. ${primaryPart}`;
+		const secondaryCount = Object.keys(secondarySource.type_shares).length;
+		return (
+			`The public data that does exist is uneven${agreeOnLowest ? '' : ", and the sources don't agree on which type is rarest"}. ` +
+			`${primaryPart} ${secondarySource.short_name}'s lowest share among the ${countWord(secondaryCount)} types it publishes is ${typesList(secondaryExtremes.least)} (${pct(secondaryExtremes.leastValue)})${agreeOnLowest ? ', the same' : ''}.`
+		);
+	})();
 </script>
 
 <section
@@ -153,9 +281,10 @@
 			<strong>not</strong>
 			a representative population sample. When our numbers diverge from test-taker datasets like Truity
 			or enneagram-personality.com, the divergence is usually a story about <em>our</em> sample (which
-			types become famous, who gets written about, which professions we lean toward), not about which
-			dataset is "right." This section exists to make those sample biases legible, not to claim a true
-			population distribution.
+			types become famous, who gets written about, which professions we lean toward) or about our typing:
+			9takes editors assign every type in the corpus, so their judgment calls are part of the data. It
+			is not a verdict on which dataset is "right." This section exists to make those biases legible,
+			not to claim a true population distribution.
 		</p>
 		<p class="sub">
 			Sources last reviewed {external.last_reviewed}. See
@@ -206,8 +335,8 @@
 						</td>
 						<td
 							class="num"
-							class:pos={row.deltaVsPrimaryPp !== null && row.deltaVsPrimaryPp >= 3}
-							class:neg={row.deltaVsPrimaryPp !== null && row.deltaVsPrimaryPp <= -3}
+							class:pos={direction(row.deltaVsPrimaryPp) === 'over'}
+							class:neg={direction(row.deltaVsPrimaryPp) === 'under'}
 						>
 							{fmtDelta(row.deltaVsPrimaryPp)} pp
 						</td>
@@ -226,8 +355,9 @@
 		<h3 id="comparison-divergence-heading">Where the 9takes corpus diverges, and why</h3>
 		<p class="lede-sub">
 			Types ordered by absolute delta against
-			{primarySource.short_name}. Entries below are written, not generated. Each one is a working
-			hypothesis for why our sample moves the way it does.
+			{primarySource.short_name}. The numbers are computed from the live data; the explanations are
+			written by hand, and each one is a working hypothesis for why our sample moves the way it
+			does, not a finding.
 		</p>
 
 		{#each divergenceInterpretations as intp (intp.type)}
@@ -254,8 +384,7 @@
 		<p>
 			Enneagram discourse sometimes cites an "11.11% per type" baseline: the idea that every type is
 			equally common in the general population. No primary empirical source supports that number.
-			It's a theoretical prior, not a finding. The actual public data (when it exists at all) shows
-			uneven distributions with Type 5 consistently rare and Type 9 consistently common.
+			It's a theoretical prior, not a finding. {publicDataSentence}
 		</p>
 	</aside>
 

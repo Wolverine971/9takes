@@ -420,7 +420,7 @@ Her friendship with Ugandan activist **Vanessa Nakate** reveals both solidarity 
 
 At Youth4Climate in Milan in 2021, Thunberg and Nakate jointly criticized world leaders for delivering "blah blah blah" while failing to meet funding pledges. The Fridays for Future movement has grown to include millions of participants across dozens of countries. **When the burden is shared, the internal critic becomes less overwhelming.**
 
-## The Reformer at 22
+## The Reformer in Her Twenties
 
 Greta turned 22 on January 3, 2025. She has accomplished what most activists never achieve: Time Magazine's 2019 Person of the Year, Nobel Peace Prize nominee multiple times, the spark that ignited the largest climate protests in human history.
 

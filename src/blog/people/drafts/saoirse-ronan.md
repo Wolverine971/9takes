@@ -275,7 +275,7 @@ But the real shift isn't the projects — it's what happened to her internally. 
 
 It also, unexpectedly, made her calmer. "Letting go of what I think the process of making a film should be was really important," she said. "It's OK not to know everything straight away. And the movie will evolve even in the edit from what it was when we shot it." Twenty years of learning how directors succeed and fail on set — she finally got to apply all of it. "If more actors experienced that," she said, "they'd never want to give it up."
 
-At thirty, the Four who spent two decades channeling her depth into other people's characters is beginning to tell her own stories.
+In her early thirties, the Four who spent two decades channeling her depth into other people's characters is beginning to tell her own stories.
 
 ---
 

@@ -94,7 +94,7 @@ Then he said he'd finally "exorcised this damn chocolate demon."
 
 That detail (not the $20 million paychecks, not the Forbes lists, not the 400 million Instagram followers) tells you who Dwayne Johnson actually is. A man who turns every wound into a production. Every shame into a brand. Every failure into the origin story of the next success. The question nobody asks is what happens when you run out of wounds to monetize. When you've performed "authentic" so long you can't locate the person underneath.
 
-That question caught up with him at 53.
+That question caught up with him in 2025, at 53.
 
 <details>
 <summary class="accordion">TL;DR: Why Dwayne Johnson is an Enneagram Type 3</summary>
@@ -309,7 +309,7 @@ He called it "a new book. A whole new book. And I love it."
 
 ---
 
-Here was the most famous performer in the world admitting, at 53, that he'd been performing the wrong thing. That the box office crown was a cage. That the audience's love, the thing he'd spent his entire life earning, wasn't enough.
+Here was the most famous performer in the world admitting, in 2025, at 53, that he'd been performing the wrong thing. That the box office crown was a cage. That the audience's love, the thing he'd spent his entire life earning, wasn't enough.
 
 When a Type 3 grows, the Enneagram says they move toward authenticity, the willingness to be seen without achievements as shields. Johnson chasing an A24 film he knew would bomb instead of another franchise paycheck is that integration in action. Not performing for adoration. Performing for something closer to truth.
 
@@ -319,7 +319,7 @@ That's not a costume change. Something cracked.
 
 Whether the crack holds — whether the man who's been performing since he was 14 can sustain this rawer version of himself, or whether "vulnerable dramatic actor" just becomes the next character in the rotation — nobody knows yet. Maybe not even him. But for the first time in three decades of watching Dwayne Johnson become whatever the room needs, the performance and the person seem to be reaching for the same thing.
 
-He named his company after his lowest moment. He bought every Snickers bar in the store. He fed a stranger her own lunch. He pulled his mother from oncoming traffic at 15. He sobbed at Venice at 53.
+He named his company after his lowest moment. He bought every Snickers bar in the store. He fed a stranger her own lunch. He pulled his mother from oncoming traffic at 15. He sobbed at Venice in 2025, at 53.
 
 The distance between those two moments is the whole story.
 

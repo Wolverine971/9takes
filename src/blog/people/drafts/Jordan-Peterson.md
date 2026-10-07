@@ -304,7 +304,7 @@ The withdrawal produced what he described as **"anxiety far beyond what I had ev
 
 It was Mikhaila who drove the decision that came next. After multiple failed tapering attempts in North American hospitals, she pushed for an experimental treatment in Russia: a medically induced coma. **"The decision to bring him to Russia was made in extreme desperation, when we couldn't find any better option,"** she said. She was the family spokesperson throughout. Her video broke the news, her framing shaped the narrative, and her advocacy drove the unconventional choice. Addiction medicine specialists criticized the approach. Peterson spent four weeks in the ICU. He nearly died. He had to relearn basic motor functions. His [struggles illustrate a pattern](/enneagram-corner/enneagram-and-mental-illness): people with this personality type often internalize stress until their bodies break down.
 
-Then in August 2025, everything collapsed again. Pneumonia and sepsis led to five months of hospitalization, three in intensive care, triggered by mold exposure while cleaning out his deceased parents' house. As of January 2026, he's home in Arizona, recovering slowly. His 45-city arena tour was cancelled entirely.
+Then in August 2025, everything collapsed again. Pneumonia and sepsis led to five months of hospitalization, three in intensive care, triggered by mold exposure while cleaning out his deceased parents' house. By January 2026, he was home in Arizona, recovering slowly. His 45-city arena tour was cancelled entirely.
 
 ### The Controversial Statements
 
