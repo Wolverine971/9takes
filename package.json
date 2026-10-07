@@ -154,7 +154,7 @@
 		"remark-github": "^11.2.4",
 		"resend": "6.25.0",
 		"sanitize-html": "2.17.7",
-		"sharp": "0.35.4",
+		"sharp": "0.35.5",
 		"stemmer": "^2.0.1",
 		"stripe": "^11.18.0",
 		"uuid": "^11.1.1",
