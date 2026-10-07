@@ -36,13 +36,14 @@ Keyword Strategy:
 
 ## Free and paid Enneagram tests at a glance
 
-| Test                  | Price and result access                                                                | Length                                                                            | What the provider says you receive                                    | Best fit                             |
-| --------------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------ |
-| **Truity**            | Free basic results; optional paid report, with no price stated on the public test page | About 105 questions; 10–15 minutes                                                | Scores across all nine types                                          | Best documented free starting point  |
-| **Eclectic Energies** | Free                                                                                   | Classical test: 78–126 adaptive questions; a second, faster test covers instincts | Core type and wing; instinctual subtype on the second test            | Free wing or instinct exploration    |
-| **Cloverleaf**        | Provider says the individual test is 100% free                                         | About 12 minutes; public page does not state an item count                        | Type, wings, triads, arrows, and workplace insights                   | Applying type at work                |
-| **RHETI 2.5**         | $20 for one test code and report                                                       | 144 paired statements; about 40 minutes                                           | Scores for all nine types and expanded descriptions for the top three | Established Riso-Hudson instrument   |
-| **iEQ9**              | $60 standard report; $120 professional report                                          | 175 adaptive questions; roughly 20–35 minutes                                     | Type, subtype, wings, centers, integration, and stress measures       | Coaching or professional development |
+| Test                  | Price and result access                                                                | Length                                                                            | What the provider says you receive                                      | Best fit                                      |
+| --------------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------- |
+| **Truity**            | Free basic results; optional paid report, with no price stated on the public test page | About 105 questions; 10–15 minutes                                                | Scores across all nine types                                            | Best documented free starting point           |
+| **Eclectic Energies** | Free                                                                                   | Classical test: 78–126 adaptive questions; a second, faster test covers instincts | Core type and wing; instinctual subtype on the second test              | Free wing or instinct exploration             |
+| **Cloverleaf**        | Provider says the individual test is 100% free                                         | About 12 minutes; public page does not state an item count                        | Type, wings, triads, arrows, and workplace insights                     | Applying type at work                         |
+| **RHETI 2.5**         | $20 for one test code and report                                                       | 144 paired statements; about 40 minutes                                           | Scores for all nine types and expanded descriptions for the top three   | Established Riso-Hudson instrument            |
+| **iEQ9**              | $60 standard report; $120 professional report                                          | 175 adaptive questions; roughly 20–35 minutes                                     | Type, subtype, wings, centers, integration, and stress measures         | Coaching or professional development          |
+| **9takes** (ours)     | Free; result on screen, no email                                                       | 5 choices plus an optional tiebreak; about 5–10 minutes                           | One or two likely types you pick yourself, plus a link a friend answers | Checking your type with someone who knows you |
 
 This is deliberately **not an accuracy ranking**. The previous version of this article assigned stars and labels such as “fair,” “good,” and “excellent” without a common dataset or a disclosed scoring method. Those labels looked precise but were not evidence.
 
@@ -137,6 +138,20 @@ Its marketing pages also use a 95% figure while referring variously to accuracy,
 
 **Skip it if:** you only want a first-pass type hypothesis. A free all-nine score is a more proportionate starting point.
 
+## 6. 9takes: our test, and how it is different
+
+[Take the 9takes Enneagram test](/enneagram-test)
+
+Disclosure: this is our test, so weigh what follows accordingly. It is not a scored questionnaire. It walks you through the conversation our founder has when someone asks how to find their type. You pick the hard emotion that shows up most for you (anger, shame or fear), check it against the strength that emotion tends to build, then read the three types that share it and pick the one or two that sound like you. If you pick two, their core fears go side by side as a tiebreak.
+
+The result is free, shows on screen, and needs no email. The step the others lack comes last: the test gives you a link to send to someone who knows you. They pick your type before they see yours, and their read lands on your result page.
+
+Its limits are the limits of any self-report, plus one more. Because you choose instead of rating statements, there are no scores to compare and nothing stops you from picking the card you like best. The friend link is the counterweight, not a validation study.
+
+**Choose 9takes if:** you want a short, guided way to find your likely type and a built-in way to check it with someone who knows you.
+
+**Skip it if:** you want all-nine scores, a wing result, or a standardized instrument. Truity, Eclectic Energies or RHETI fit that better.
+
 ## Which Enneagram test should you take?
 
 ### If you want a free answer today
@@ -154,6 +169,10 @@ Use **Cloverleaf**. Its result is organized around communication and collaborati
 ### If you want the Riso-Hudson assessment
 
 Use **RHETI**. Budget $20 for the type test or $36 if you also want the separate IVQ.
+
+### If you want someone who knows you to check your result
+
+Use the **[9takes test](/enneagram-test)** (ours). It ends with a link a friend, partner or parent answers about you before they see your pick.
 
 ### If a coach will help interpret the report
 
@@ -194,7 +213,7 @@ Short tests are not automatically worthless, and long tests are not automaticall
 4. **Read disconfirming evidence.** Ask what does not fit instead of collecting only flattering matches.
 5. **Retest later if the scores are close.** Stability matters more than one dramatic result.
 6. **Use observation to validate.** Our [beginner's guide to finding your Enneagram type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) walks through that process.
-7. **Check the result against a real question.** The [9takes Enneagram test](/enneagram-test) skips the checkbox quiz. You answer a real question before you see anyone else's answer, then read nine takes on it, one written from each type's lens. If the take that sounds like the inside of your head matches your top quiz score, you have two different kinds of evidence pointing the same way.
+7. **Get an outside read.** Ask someone who knows you well which type sounds like you before you tell them your result. The [9takes Enneagram test](/enneagram-test) builds this in: it gives you a link a friend answers before they see your pick. If their read matches your top score, you have two different kinds of evidence pointing the same way.
 
 If wings are the confusing part, use the [complete Enneagram wings guide](/enneagram-corner/enneagram-wings-complete-guide). If instinct results are driving the disagreement, read the [instinctual subtypes guide](/enneagram-corner/enneagram-instinctual-subtypes) before treating a stacking label as settled.
 

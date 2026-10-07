@@ -2,7 +2,7 @@
 
 # T-42 user flow: the 9takes Enneagram test
 
-**Status:** Draft flow, built from DJ's spoken process on 2026-10-06. Copy is a first draft for DJ to edit; the structure and the four decisions below are DJ's.
+**Status:** Built 2026-10-06 (DJ approved the flow: "the test is good to go"). Code: `src/lib/enneagramTest/` (copy bank + step logic), `src/lib/components/enneagramTest/`, `src/routes/enneagram-test/`, `src/routes/api/enneagram-test/`, `src/lib/server/enneagramTest.ts`. Copy edits go in `src/lib/enneagramTest/content.ts`; this doc's §6 is the original draft. Where the build differs from the draft, it says so below.
 **Parent:** `docs/taskers/T-42-scored-enneagram-test.md`
 **Prototype:** https://claude.ai/artifact/D7txmWh3hqBDAjs8CWWBn3 (private, clickable, 2026-10-06). It uses this doc's copy. If the two disagree, this doc wins.
 
@@ -134,8 +134,9 @@ Time budget: 5 to 10 minutes. Most of it is reading. There are 5 required taps, 
 ### Test-taker side (invite sheet)
 
 - **Fields:** "What should they call you?" (optional, defaults to "your friend"). The message is pre-filled and editable:
-  - One type: "I took an Enneagram test and it says I'm a 6. I want an outside read before I believe it. Takes 3 minutes, and you answer before you see my pick: [link]"
-  - Two types: "I took an Enneagram test and I'm stuck between a 5 and a 6. Which am I? Takes 3 minutes, and you answer before you see my pick: [link]"
+  - One type: "I took an Enneagram test and I want an outside read before I believe my result. It takes 3 minutes, and you answer before you see what I picked: [link]"
+  - Two types: "I took an Enneagram test and I'm stuck between two types. Which one am I? It takes 3 minutes, and you answer before you see my two: [link]"
+  - **Changed in the build:** the draft message named the types ("it says I'm a 6"), which told the friend the answer before they gave theirs. The shipped message never names a type.
 - **Send options:** Copy link · Text · Email. Copy is the primary button because it works everywhere.
 - **One link, many people.** The same link can go to a parent, a partner and a friend. Each read shows up separately.
 
@@ -277,20 +278,19 @@ Alternate prompt (empathy version): anger → "the one who's fed up"; shame → 
 
 Events go through the existing tracking path (PostHog plus the in-house analytics). None of them carries answers tied to an identity.
 
-| Event                                                                  | When                                  |
-| ---------------------------------------------------------------------- | ------------------------------------- |
-| `test_started`                                                         | Tap Start on the landing              |
-| `test_step_completed` (step)                                           | Each step done                        |
-| `test_emotion_alt_used`                                                | They opened the "Hard to say?" prompt |
-| `test_strength_mismatch` (path: repick / both)                         | Mismatch branch taken                 |
-| `test_none_fit`                                                        | "None of these" tapped                |
-| `test_tiebreak` (outcome: one / both)                                  | Tiebreak resolved                     |
-| `test_result_shown` (types, single/split)                              | Result rendered                       |
-| `test_exit_clicked` (question / type_page / friend)                    | One of the three exits                |
-| `friend_link_created` / `friend_link_opened` / `friend_read_submitted` | Friend loop                           |
-| `friend_started_own_test`                                              | Friend tapped "Now find yours"        |
+| Event (as built, PostHog)                                                                                     | When                                                |
+| ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| `test_started` (source: direct / friend_link)                                                                 | Tap Start on the landing                            |
+| `test_step_completed` (step)                                                                                  | Each step done                                      |
+| `test_branch_taken` (branch: emotion_alt_used / strength_mismatch_both / strength_mismatch_repick / none_fit) | A branch was taken                                  |
+| `test_result_shown` (split, tiebreak, saved)                                                                  | Result reached (saved: false means the save failed) |
+| `test_exit_clicked` (exit: question / type_page / friend, split)                                              | One of the three exits                              |
+| `friend_link_shared` (method: share / copy / text / email)                                                    | Test-taker sent their link                          |
+| `test_notify_opt_in`                                                                                          | Opted in to the read email                          |
+| `friend_link_opened` / `friend_read_submitted` (match: same / one_of_two / different, with_note)              | Friend loop                                         |
+| `friend_started_own_test`                                                                                     | A friend landed on the test from "Now find yours"   |
 
-**The funnel that matters:** started → result → any exit, and friend link created → friend read submitted → friend started own test. That last number is the viral coefficient of the test.
+**The funnel that matters:** started → result → any exit, and friend link shared → friend read submitted → friend started own test. That last number is the viral coefficient of the test. Saved results and reads are also countable in SQL (`enneagram_test_results`, `enneagram_test_reads`).
 
 ## 10. Build notes (for whoever implements)
 

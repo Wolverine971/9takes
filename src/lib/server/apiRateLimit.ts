@@ -25,7 +25,10 @@ export type RateLimitBucket =
 	| 'person_suggestion'
 	| 'comment_views'
 	| 'talk_note'
-	| 'beta_signup';
+	| 'beta_signup'
+	| 'enneagram_test_result'
+	| 'enneagram_test_update'
+	| 'enneagram_test_read';
 
 export type RateLimitRule = {
 	limit: number;
@@ -38,7 +41,10 @@ export const RATE_LIMIT_RULES: Record<RateLimitBucket, RateLimitRule> = {
 	comment_views: { limit: 30, windowMs: 60 * 1000 },
 	person_suggestion: { limit: 3, windowMs: 24 * 60 * 60 * 1000 },
 	talk_note: { limit: 5, windowMs: 60 * 60 * 1000 },
-	beta_signup: { limit: 5, windowMs: 60 * 60 * 1000 }
+	beta_signup: { limit: 5, windowMs: 60 * 60 * 1000 },
+	enneagram_test_result: { limit: 30, windowMs: 60 * 60 * 1000 },
+	enneagram_test_update: { limit: 40, windowMs: 60 * 60 * 1000 },
+	enneagram_test_read: { limit: 15, windowMs: 60 * 60 * 1000 }
 };
 
 export type RateLimitDecision = {

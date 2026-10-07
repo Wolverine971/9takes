@@ -3,15 +3,16 @@
   Inline below-fold CTA pointing readers at /enneagram-test.
 
   Bridges authority from blog content (/enneagram-corner, /pop-culture, and
-  /personality-analysis) into the typing quiz, which currently leaks
-  internal authority despite being the highest-conversion touchpoint.
+  /personality-analysis) into the Enneagram test (T-42). Keep the default
+  copy true to what the test does: self-pick, no scores, no email wall, and
+  a friend link at the end.
 
   Bucket 3 — internal linking and graph bridging.
 -->
 <script lang="ts">
 	export let heading: string = "Don't know your type yet?";
 	export let body: string =
-		'Take the free 9takes Enneagram test — five minutes, no email wall, returns your dominant pattern with confidence scores.';
+		'Take the free 9takes Enneagram test. It starts with the emotion that runs you, takes 5 to 10 minutes, needs no email, and lets someone who knows you check your result.';
 	export let ctaLabel: string = 'Start the Enneagram test';
 	export let secondaryHref: string | null = null;
 	export let secondaryLabel: string | null = null;

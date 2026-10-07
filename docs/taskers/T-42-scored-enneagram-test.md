@@ -100,4 +100,13 @@ Record DJ's answers here before building:
 
 ## 6. What was actually done
 
-_(Fill in on completion: what shipped, commit, live URL, and the 28/56-day readout.)_
+**2026-10-06: built and verified locally, not yet deployed.**
+
+- `/enneagram-test` is now the test (DJ's flow, `docs/taskers/T-42-assets/user-flow.md`). The title and H1 name the intent. The intro, how-it-works section, honest limits, nine-type list and FAQ (with FAQPage JSON-LD) are server-rendered.
+- Private result page at `/enneagram-test/result/[token]` and friend link at `/enneagram-test/read/[token]`. Both are noindex and no-store. The friend sees the test-taker's picks only after answering.
+- The email ask is optional, comes after the result, and only covers "email me when someone answers." It skips suppressed addresses and caps at 20 emails per result. A stop link is included.
+- **Migration `20261006120000_enneagram_test.sql` is applied to production** (two new tables, RLS on, admin-only policy) and recorded in `supabase_migrations.schema_migrations`.
+- `TestYourTypeCTA` copy no longer promises confidence scores.
+- The comparison post lists the 9takes test as section 6 with a disclosure, plus a table row and a "which test" pick. `lastmod` is untouched (DJ manages it).
+- Verified: `pnpm check` 0 errors, `pnpm test` 1655 passing (38 new), `pnpm build` and the server-runtime check pass, lint gates pass (the only Prettier warning is in someone else's `docs/blog-automation/backlog-queue.json`). Walked through end to end on a dev server against the real database: the mismatch branch, both groups, two picks, the tiebreak "both", a saved result, the name save, the friend flow and reveal, and the read landing on the result page. Checked at 390px with no horizontal scroll. Test rows were deleted afterward.
+- Still open: deploy; DJ's per-type question picks (`CURATED_QUESTION_SLUGS` in `src/lib/enneagramTest/content.ts`, empty means fall back to the most-answered unflagged questions); the outreach in §4.6; the 28/56-day GSC readout.

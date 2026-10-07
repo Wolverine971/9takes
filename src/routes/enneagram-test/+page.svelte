@@ -1,22 +1,51 @@
 <!-- src/routes/enneagram-test/+page.svelte -->
 <!--
-  /enneagram-test — the test, reframed. Streetlamp Symposium V5.
-  9takes never assigns a type: you answer real questions, read the nine
-  takes, and notice which one you didn't have to translate.
-  Tokens (lamp/night/stone/ink/data custom properties) live globally in
-  src/scss/index.scss.
+  /enneagram-test: the free 9takes Enneagram test (T-42). DJ's emotion-first
+  typing conversation as a self-pick flow (TestFlow). Everything below the
+  test (how it works, honest limits, FAQ, the nine types) is server-rendered
+  so search engines see a real page, and is hidden while someone is taking
+  the test. Design: docs/taskers/T-42-assets/user-flow.md.
 -->
 <script lang="ts">
-	import { Button, SectionKicker } from '$lib/components/atoms';
 	import SEOHead from '$lib/components/SEOHead.svelte';
-	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
+	import TestFlow from '$lib/components/enneagramTest/TestFlow.svelte';
+	import TypeBadge from '$lib/components/enneagramTest/TypeBadge.svelte';
+	import { EMOTIONS, EMOTION_ORDER, TEST_TYPES, typesForEmotion } from '$lib/enneagramTest/content';
 	import { buildBreadcrumbSchemaForGraph } from '$lib/utils/schema';
 
 	const siteUrl = 'https://9takes.com';
 	const pageUrl = `${siteUrl}/enneagram-test`;
-	const pageTitle = 'The Enneagram Test, Reframed | 9takes';
+	const pageTitle = 'Free Enneagram Test (No Email, 5 to 10 Minutes) | 9takes';
 	const pageDescription =
-		'Skip the checkbox Enneagram test. Answer real questions before the crowd, read the nine takes, and notice which one sounds like the inside of your head.';
+		'A free Enneagram test that starts with emotion, not behavior. About 5 to 10 minutes, no email, and your result shows on screen. Then ask someone who knows you to check it.';
+
+	const faqs = [
+		{
+			question: 'Is the 9takes Enneagram test free?',
+			answer:
+				'Yes. The whole test and your result are free, and you don’t need an email address to see your result. After your result you can choose to get an email when a friend checks it.'
+		},
+		{
+			question: 'How long does the test take?',
+			answer:
+				'About 5 to 10 minutes. Most of that is reading. There are five choices to make, plus a tiebreak if two types sound like you.'
+		},
+		{
+			question: 'How accurate is it?',
+			answer:
+				'It is a self-report test, so it is only as accurate as your honesty about yourself. It doesn’t measure you or claim scientific validity. It walks you through how to recognize your type, and the last step asks someone who knows you for their read, which is the best check a self-report test has.'
+		},
+		{
+			question: 'Why does it start with emotions instead of behavior?',
+			answer:
+				'The same behavior can come from different places. The Enneagram groups the nine types by the hard emotion they organize around: anger, shame or fear. Finding that emotion first narrows nine types down to three.'
+		},
+		{
+			question: 'What if two types sound like me?',
+			answer:
+				'Pick both. The test then puts the two core fears side by side and asks which would actually wreck your week. If both still fit, your result says you’re between the two, and you can send a link to someone who knows you.'
+		}
+	];
 
 	const jsonLd = {
 		'@context': 'https://schema.org',
@@ -28,11 +57,7 @@
 				name: pageTitle,
 				description: pageDescription,
 				inLanguage: 'en-US',
-				isPartOf: {
-					'@type': 'WebSite',
-					name: '9takes',
-					url: siteUrl
-				},
+				isPartOf: { '@type': 'WebSite', name: '9takes', url: siteUrl },
 				breadcrumb: { '@id': `${pageUrl}#breadcrumb` }
 			},
 			{
@@ -41,543 +66,258 @@
 					{ name: 'Home', url: siteUrl },
 					{ name: 'Enneagram Test', url: pageUrl }
 				])
+			},
+			{
+				'@type': 'FAQPage',
+				'@id': `${pageUrl}#faq`,
+				mainEntity: faqs.map((faq) => ({
+					'@type': 'Question',
+					name: faq.question,
+					acceptedAnswer: { '@type': 'Answer', text: faq.answer }
+				}))
 			}
 		]
 	};
 
-	type Step = {
-		title: string;
-		detail: string;
-	};
-
-	const steps: Step[] = [
-		{
-			title: 'Answer honestly',
-			detail:
-				'You give your take before you see anyone else’s. That is the house rule: no anchoring, no performing for the room. What you write is what you actually think.'
-		},
-		{
-			title: 'Read the nine takes',
-			detail:
-				'The same question comes back through nine patterns: nine reads on what matters, what is at stake, and what to do next. All of them are honest. None of them is a malfunction.'
-		},
-		{
-			title: 'Notice the one you didn’t have to translate',
-			detail:
-				'Eight of the reads will sound like other people. One will sound like the inside of your head. Nobody assigns you that result. You recognize it.'
-		}
-	];
-
-	const typeHooks: Record<number, string> = {
-		1: 'Often leads with how it should be done, and grades its own work hardest.',
-		2: 'Often leads with what you need, and files its own needs under later.',
-		3: 'Often leads with what winning looks like, and adapts to whatever the room rewards.',
-		4: 'Often leads with what is missing, and trusts the feelings that run deepest.',
-		5: 'Often leads with what it still needs to know, and spends energy like it is scarce.',
-		6: 'Often leads with what could go wrong, and keeps testing whether the ground holds.',
-		7: 'Often leads with what is next, and keeps every exit open.',
-		8: 'Often leads with who is steering, and meets pressure with more force.',
-		9: 'Often leads with what keeps the peace, and lets its own agenda go quiet.'
-	};
-
-	const nineTypes = Array.from({ length: 9 }, (_, index) => {
-		const type = index + 1;
-		return {
-			type,
-			color: TYPE_COLOR_MAP[type],
-			label: formatTypeLabel(type),
-			hook: typeHooks[type],
-			href: `/enneagram-corner/enneagram-type-${type}`
-		};
-	});
+	let testActive = $state(false);
 </script>
 
 <SEOHead title={pageTitle} description={pageDescription} canonical={pageUrl} {jsonLd} />
 
-<div class="ennea-test">
-	<section class="hero" aria-labelledby="test-hero-title">
-		<div class="hero-atmosphere" aria-hidden="true"></div>
-		<div class="shell hero-inner">
-			<SectionKicker num="01" label="THE TEST YOU WERE PROMISED" />
-			<h1 id="test-hero-title">There&rsquo;s no <span>checkbox quiz</span> here.</h1>
-			<p class="hero-lede">
-				A quiz can only score the person you decided to be for five minutes. Your pattern shows up
-				in how you answer real questions: what you defend, what you prove, what you brace for. So we
-				skip the scoring and let you catch the pattern yourself.
-			</p>
-			<p class="hero-sub">
-				9takes finds your type the honest way: you answer, then you see which of the nine reads
-				sounds like the inside of your head.
-			</p>
+<div class="test-page">
+	<TestFlow onActiveChange={(active) => (testActive = active)} />
 
-			<div class="hero-action">
-				<Button href="/questions" size="lg">Answer a real question</Button>
-				<Button href="/enneagram-corner" size="lg" variant="secondary">
-					Learn the nine patterns
-				</Button>
-			</div>
-
-			<ul class="proof-line" aria-label="How the 9takes test is different">
-				<li>No scoring</li>
-				<li>No assigned label</li>
-				<li>Anonymous answers</li>
-			</ul>
-		</div>
-	</section>
-
-	<section class="steps" aria-labelledby="steps-title">
-		<div class="shell">
-			<header class="section-heading">
-				<SectionKicker num="02" label="ANSWER · READ · RECOGNIZE" />
-				<h2 id="steps-title">Three steps. No scoring.</h2>
-			</header>
-
-			<ol class="step-grid">
-				{#each steps as step, index (step.title)}
-					<li class="step-card">
-						<span class="step-index" aria-hidden="true">0{index + 1}</span>
-						<h3>{step.title}</h3>
-						<p>{step.detail}</p>
-					</li>
-				{/each}
+	<div class="about" hidden={testActive}>
+		<section aria-labelledby="how-title">
+			<h2 id="how-title">How the test works</h2>
+			<ol class="how">
+				<li>
+					<strong>Find your emotion.</strong> Anger, shame or fear. Everyone feels all three. One shows
+					up most.
+				</li>
+				<li>
+					<strong>Check it against your strength.</strong> Each emotion builds one: instinct, emotional
+					intelligence or intellect.
+				</li>
+				<li>
+					<strong>Meet the three types who share it.</strong> What separates them is what they do with
+					it: use it, push it down, or not notice it.
+				</li>
+				<li>
+					<strong>Still torn? Go back to the core fear,</strong> then ask someone who knows you. The test
+					gives you a link to send them.
+				</li>
 			</ol>
-		</div>
-	</section>
+		</section>
 
-	<section class="patterns" aria-labelledby="patterns-title">
-		<div class="shell">
-			<header class="section-heading patterns-heading">
-				<SectionKicker num="03" label="THE NINE PATTERNS" tone="data" />
-				<h2 id="patterns-title">Nine reads. One will sound familiar.</h2>
-				<p>
-					These are not verdicts. They are reading lenses: one line on what each pattern tends to
-					lead with, so you can notice which read you never had to translate. Follow any card to go
-					deeper.
-				</p>
-			</header>
+		<section aria-labelledby="limits-title">
+			<h2 id="limits-title">What a self-report test can and can’t tell you</h2>
+			<p>
+				This test doesn’t measure you. It walks you through how to recognize your type, the way DJ,
+				who built 9takes, walks people through it in person. People sometimes pick who they want to
+				be, which is why the last step is a read from someone who knows you.
+			</p>
+			<p>
+				Want to compare free tests? Here’s <a
+					href="/enneagram-corner/enneagram-test-comparison-2026">our honest list, ours included</a
+				>. New to the system? Start with the
+				<a href="/enneagram-corner/beginners-guide-to-determining-your-enneagram-type"
+					>four-step guide to finding your type</a
+				>.
+			</p>
+		</section>
 
-			<div class="type-grid">
-				{#each nineTypes as entry (entry.type)}
-					<a class="type-card" href={entry.href} style:--type-color={entry.color}>
-						<span class="type-card-top">
-							<span class="type-index">0{entry.type}</span>
-							<span class="type-read">Read the pattern</span>
-						</span>
-						<span class="type-label">{entry.label}</span>
-						<span class="type-hook">{entry.hook}</span>
-					</a>
+		<section aria-labelledby="types-title">
+			<h2 id="types-title">The nine types, grouped by emotion</h2>
+			<div class="type-groups">
+				{#each EMOTION_ORDER as emotion (emotion)}
+					<div class="type-group">
+						<h3>
+							<span class="dot" style:background={EMOTIONS[emotion].color}></span>
+							{EMOTIONS[emotion].name}
+						</h3>
+						<ul class="type-list">
+							{#each typesForEmotion(emotion) as type (type)}
+								<li>
+									<a href="/enneagram-corner/enneagram-type-{type}" class="type-link">
+										<TypeBadge {type} small />
+										<span class="type-text">
+											<span class="type-name">Type {type}: {TEST_TYPES[type].name}</span>
+											<span class="type-fear">Core fear: {TEST_TYPES[type].fear.toLowerCase()}</span
+											>
+										</span>
+									</a>
+								</li>
+							{/each}
+						</ul>
+					</div>
 				{/each}
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<section class="closing" aria-labelledby="closing-title">
-		<div class="closing-pool" aria-hidden="true"></div>
-		<div class="shell closing-inner">
-			<SectionKicker num="04" label="THE ONLY RESULT THAT STICKS" />
-			<h2 id="closing-title">Your type is the one you recognize, not the one a quiz assigns.</h2>
-			<p>Personality is a door you open from the inside. The questions are waiting.</p>
-			<Button href="/questions" size="lg">Go answer a question</Button>
-		</div>
-	</section>
+		<section aria-labelledby="faq-title">
+			<h2 id="faq-title">Questions about the test</h2>
+			<div class="faqs">
+				{#each faqs as faq (faq.question)}
+					<div class="faq">
+						<h3>{faq.question}</h3>
+						<p>{faq.answer}</p>
+					</div>
+				{/each}
+			</div>
+		</section>
+	</div>
 </div>
 
-<style lang="scss">
-	.ennea-test {
-		--cta-text: var(--night-deep);
-		position: relative;
-		isolation: isolate;
+<style>
+	.test-page {
+		display: flex;
+		flex-direction: column;
+		gap: clamp(2.5rem, 7vw, 4rem);
 		width: 100%;
-		max-width: none;
+		padding-block: 0.5rem 3rem;
+		color: var(--ink-bright);
+	}
+
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 2.5rem;
+		width: 100%;
+		max-width: 40rem;
+		margin-inline: auto;
+		padding-top: 2rem;
+		border-top: 1px solid var(--stone-mid);
+	}
+
+	.about[hidden] {
+		display: none;
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.9rem;
+	}
+
+	h2,
+	h3 {
 		margin: 0;
 		padding: 0;
-		overflow: clip;
-		background: var(--night-deep);
 		color: var(--ink-bright);
-		font-family: 'Inter Variable', 'Inter', system-ui, sans-serif;
-	}
-
-	:global(html.light) .ennea-test {
-		--cta-text: #faf8f4;
-	}
-
-	.ennea-test,
-	.ennea-test * {
-		box-sizing: border-box;
-	}
-
-	.shell {
-		width: min(100% - 3rem, 86rem);
-		margin-inline: auto;
-	}
-
-	/* ---------------------------------------------------------------- */
-	/* Hero                                                             */
-	/* ---------------------------------------------------------------- */
-	.hero {
-		position: relative;
-		padding: clamp(4.5rem, 8vw, 8rem) 0 clamp(4rem, 7vw, 7rem);
-	}
-
-	.hero-atmosphere {
-		position: absolute;
-		z-index: -1;
-		inset: 0;
-		background:
-			radial-gradient(
-				circle at 72% 18%,
-				color-mix(in srgb, var(--lamp-glow) 13%, transparent),
-				transparent 34%
-			),
-			radial-gradient(
-				circle at 12% 62%,
-				color-mix(in srgb, var(--data-teal) 6%, transparent),
-				transparent 26%
-			);
-		pointer-events: none;
-	}
-
-	.hero-inner {
-		max-width: 54rem;
-	}
-
-	.hero h1 {
-		max-width: 16ch;
-		margin: 1.5rem 0 1.75rem;
-		color: var(--ink-bright);
-		font-size: clamp(2.9rem, 5.6vw, 5.4rem);
-		font-weight: 780;
-		letter-spacing: -0.05em;
-		line-height: 0.98;
 		text-wrap: balance;
 	}
 
-	.hero h1 span {
-		color: color-mix(in srgb, var(--ink-bright) 70%, var(--lamp-glow));
+	h2 {
+		font-size: 1.45rem;
+		font-weight: 750;
+		line-height: 1.2;
+		letter-spacing: -0.02em;
 	}
 
-	.hero-lede {
-		max-width: 40rem;
+	h3 {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		font-size: 1.05rem;
+		font-weight: 700;
+		line-height: 1.3;
+	}
+
+	p {
 		margin: 0;
-		color: var(--ink-mid);
-		font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+		font-size: 1rem;
 		line-height: 1.65;
+		color: var(--ink-mid);
 	}
 
-	.hero-sub {
-		max-width: 40rem;
-		margin: 1.1rem 0 0;
-		color: var(--ink-bright);
-		font-size: clamp(1rem, 1.4vw, 1.15rem);
-		font-weight: 600;
+	a {
+		color: var(--lamp-glow);
+	}
+
+	.how {
+		display: flex;
+		flex-direction: column;
+		gap: 0.6rem;
+		margin: 0;
+		padding-left: 1.25rem;
+		color: var(--ink-mid);
 		line-height: 1.6;
 	}
 
-	.hero-action {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;
-		gap: 1rem;
-		margin-top: 2.25rem;
-	}
-
-	.proof-line {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.7rem 1.3rem;
-		margin: 2.5rem 0 0;
-		padding: 1.2rem 0 0;
-		border-top: 1px solid color-mix(in srgb, var(--stone-edge) 64%, transparent);
-		list-style: none;
-	}
-
-	.proof-line li {
-		position: relative;
-		padding-left: 0.8rem;
-		color: var(--ink-dim);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.67rem;
-		letter-spacing: 0.06em;
-		text-transform: uppercase;
-	}
-
-	.proof-line li::before {
-		position: absolute;
-		left: 0;
-		top: 0.45em;
-		width: 0.25rem;
-		height: 0.25rem;
-		border-radius: 9999px;
-		background: var(--lamp-glow);
-		content: '';
-	}
-
-	/* ---------------------------------------------------------------- */
-	/* Shared section heading                                           */
-	/* ---------------------------------------------------------------- */
-	.section-heading h2 {
-		margin: 1.25rem 0 1.1rem;
+	.how strong {
 		color: var(--ink-bright);
-		font-size: clamp(2.1rem, 4.2vw, 3.8rem);
-		font-weight: 760;
-		letter-spacing: -0.045em;
-		line-height: 1.02;
-		text-wrap: balance;
 	}
 
-	.section-heading > p {
-		max-width: 45rem;
-		margin: 0;
-		color: var(--ink-mid);
-		font-size: 1.05rem;
-		line-height: 1.7;
+	.type-groups {
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
 	}
 
-	/* ---------------------------------------------------------------- */
-	/* How it works                                                     */
-	/* ---------------------------------------------------------------- */
-	.steps {
-		padding: clamp(4.5rem, 8vw, 7.5rem) 0;
-		border-top: 1px solid color-mix(in srgb, var(--stone-edge) 58%, transparent);
+	.type-group {
+		display: flex;
+		flex-direction: column;
+		gap: 0.6rem;
 	}
 
-	.steps .section-heading {
-		margin-bottom: clamp(2.25rem, 5vw, 3.5rem);
+	.dot {
+		display: inline-block;
+		width: 0.65rem;
+		height: 0.65rem;
+		border-radius: 9999px;
 	}
 
-	.step-grid {
-		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
-		gap: 1rem;
+	.type-list {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
 		margin: 0;
 		padding: 0;
 		list-style: none;
 	}
 
-	.step-card {
-		min-width: 0;
-		padding: clamp(1.4rem, 3vw, 2rem);
-		border: 1px solid var(--stone-edge);
-		border-radius: 1rem;
-		background: var(--stone-warm);
-	}
-
-	.step-index {
-		display: inline-block;
-		color: var(--lamp-glow);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.75rem;
-		letter-spacing: 0.08em;
-	}
-
-	.step-card h3 {
-		margin: 1.4rem 0 0;
+	.type-link {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		padding: 0.7rem 0.9rem;
+		border: 1px solid var(--stone-mid);
+		border-radius: 10px;
+		background: var(--night-mid);
 		color: var(--ink-bright);
-		font-size: clamp(1.25rem, 2vw, 1.55rem);
-		font-weight: 720;
-		letter-spacing: -0.03em;
-		line-height: 1.15;
-		text-wrap: balance;
-	}
-
-	.step-card p {
-		margin: 0.85rem 0 0;
-		color: var(--ink-mid);
-		font-size: 0.92rem;
-		line-height: 1.62;
-	}
-
-	/* ---------------------------------------------------------------- */
-	/* Nine patterns grid                                               */
-	/* ---------------------------------------------------------------- */
-	.patterns {
-		padding: clamp(4.5rem, 8vw, 7.5rem) 0;
-		border-top: 1px solid color-mix(in srgb, var(--stone-edge) 58%, transparent);
-	}
-
-	.patterns-heading {
-		max-width: 56rem;
-		margin-bottom: clamp(2.25rem, 5vw, 3.5rem);
-	}
-
-	.type-grid {
-		display: grid;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
-		gap: 0.85rem;
-	}
-
-	.type-card {
-		--type-color: var(--lamp-glow);
-		position: relative;
-		display: grid;
-		gap: 0.55rem;
-		align-content: start;
-		overflow: hidden;
-		min-width: 0;
-		padding: 1.1rem 1.1rem 1.2rem 1.3rem;
-		border: 1px solid color-mix(in srgb, var(--type-color) 34%, var(--stone-edge));
-		border-radius: 1rem;
-		background: color-mix(in srgb, var(--type-color) 7%, var(--stone-warm));
-		color: inherit;
 		text-decoration: none;
 	}
 
-	.type-card::before {
-		position: absolute;
-		inset: 0 auto 0 0;
-		width: 3px;
-		background: var(--type-color);
-		content: '';
+	.type-link:hover,
+	.type-link:focus-visible {
+		border-color: var(--lamp-glow);
 	}
 
-	.type-card:focus-visible {
-		outline: 2px solid var(--lamp-glow);
-		outline-offset: 3px;
-	}
-
-	.type-card-top {
+	.type-text {
 		display: flex;
-		align-items: baseline;
-		justify-content: space-between;
-		gap: 0.75rem;
+		flex-direction: column;
+		min-width: 0;
 	}
 
-	.type-index {
-		color: var(--type-color);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.72rem;
-		letter-spacing: 0.08em;
+	.type-name {
+		font-weight: 700;
 	}
 
-	.type-read {
-		color: var(--ink-dim);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.58rem;
-		letter-spacing: 0.06em;
-		text-transform: uppercase;
-	}
-
-	.type-label {
-		color: var(--type-color);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.7rem;
-		letter-spacing: 0.06em;
-		text-transform: uppercase;
-	}
-
-	.type-hook {
-		color: var(--ink-bright);
+	.type-fear {
 		font-size: 0.9rem;
-		line-height: 1.5;
-	}
-
-	/* ---------------------------------------------------------------- */
-	/* Closing CTA                                                      */
-	/* ---------------------------------------------------------------- */
-	.closing {
-		position: relative;
-		padding: clamp(5rem, 10vw, 9rem) 0 clamp(4rem, 8vw, 6.5rem);
-		border-top: 1px solid color-mix(in srgb, var(--stone-edge) 58%, transparent);
-	}
-
-	.closing-pool {
-		position: absolute;
-		top: 2rem;
-		left: 50%;
-		width: min(78vw, 56rem);
-		height: 26rem;
-		transform: translateX(-50%);
-		background: radial-gradient(
-			ellipse,
-			color-mix(in srgb, var(--lamp-glow) 13%, transparent),
-			transparent 66%
-		);
-		pointer-events: none;
-	}
-
-	.closing-inner {
-		position: relative;
-		max-width: 62rem;
-		text-align: center;
-	}
-
-	.closing h2 {
-		max-width: 24ch;
-		margin: 1.35rem auto 1.2rem;
-		color: var(--ink-bright);
-		font-size: clamp(2.35rem, 5.4vw, 4.6rem);
-		font-weight: 780;
-		letter-spacing: -0.05em;
-		line-height: 1.02;
-		text-wrap: balance;
-	}
-
-	.closing p {
-		margin: 0 0 2rem;
 		color: var(--ink-mid);
-		font-size: 1.1rem;
 	}
 
-	/* ---------------------------------------------------------------- */
-	/* Motion + responsive                                              */
-	/* ---------------------------------------------------------------- */
-	@media (prefers-reduced-motion: no-preference) {
-		.type-card {
-			transition:
-				border-color 180ms ease,
-				background-color 180ms ease,
-				transform 180ms ease;
-		}
-
-		.type-card:hover {
-			border-color: color-mix(in srgb, var(--type-color) 62%, var(--stone-edge));
-			transform: translateY(-2px);
-		}
+	.faqs {
+		display: flex;
+		flex-direction: column;
+		gap: 1.1rem;
 	}
 
-	@media (max-width: 61rem) {
-		.step-grid,
-		.type-grid {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-	}
-
-	@media (max-width: 46rem) {
-		.shell {
-			width: min(100% - 2rem, 86rem);
-		}
-
-		.hero {
-			padding-top: 4.25rem;
-		}
-
-		.hero h1 {
-			font-size: clamp(2.5rem, 12vw, 3.6rem);
-		}
-
-		.hero-action {
-			align-items: stretch;
-			flex-direction: column;
-		}
-
-		:global(.ennea-test .hero-action .btn) {
-			width: 100%;
-		}
-
-		.step-grid,
-		.type-grid {
-			grid-template-columns: 1fr;
-		}
-
-		.step-card {
-			padding: 1.25rem;
-		}
-	}
-
-	@media (max-width: 25rem) {
-		.proof-line {
-			align-items: flex-start;
-			flex-direction: column;
-		}
+	.faq {
+		display: flex;
+		flex-direction: column;
+		gap: 0.35rem;
 	}
 </style>
