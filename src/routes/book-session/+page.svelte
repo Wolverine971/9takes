@@ -220,11 +220,13 @@
 <div class="talk-page">
 	<div class="talk-container">
 		<header class="talk-intro">
-			<p class="talk-eyebrow">Talk it through</p>
+			<!-- Echoes both ways in: the mobile menu's "Free 1-on-1" and the footer's "Talk it through". -->
+			<p class="talk-eyebrow">Free 1-on-1 · Talk it through</p>
 			<h1 class="talk-title">What are you trying to figure out?</h1>
 			<p class="talk-lede">
 				Pick the closest one, then type it or say it out loud. It’s free and private, and you can
-				stay anonymous.
+				stay anonymous. Want to go deeper?
+				<a href="#experimental-therapy">Your first 1-on-1 is a free 30-minute call.</a>
 			</p>
 			<p class="talk-credential">
 				{#if data.publicFigureCount}
@@ -625,6 +627,7 @@
 		line-height: 1.5;
 	}
 
+	.talk-lede a,
 	.talk-credential a {
 		color: var(--lamp-light);
 		text-underline-offset: 3px;

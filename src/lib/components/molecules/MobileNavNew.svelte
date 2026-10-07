@@ -1,6 +1,6 @@
 <!-- src/lib/components/molecules/MobileNavNew.svelte -->
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { afterNavigate } from '$app/navigation';
 	import { onDestroy, tick } from 'svelte';
 	import { getAuthShellUser } from '$lib/authShell';
@@ -14,21 +14,53 @@
 		trapFocus
 	} from '$lib/utils/focusBoundary';
 	import { lockBodyScroll } from '$lib/utils/scrollLock';
+	import { NAV_OFFER_EXPERIMENT } from '$lib/utils/navOffer';
 
-	// Props to receive navigation items
-	export let navItems: Array<{ href: string; label: string }> = [];
-	export let libraryItems: Array<{ href: string; label: string }> = [];
+	type NavItem = { href: string; label: string; badge?: string; track?: string };
+
+	let { navItems = [], libraryItems = [] }: { navItems?: NavItem[]; libraryItems?: NavItem[] } =
+		$props();
 	const authUser = getAuthShellUser();
 
 	// State management. Library starts expanded — it holds the core product
 	// links (Questions, the blog sections) and the drawer has the room.
-	let isMenuOpen = false;
-	let isDropdownOpen = true;
+	let isMenuOpen = $state(false);
+	let isDropdownOpen = $state(true);
 	let releaseBodyScroll: (() => void) | null = null;
 	let releaseBackgroundInert: (() => void) | null = null;
-	let menuDialog: HTMLDivElement;
-	let menuToggle: HTMLButtonElement;
+	let menuDialog = $state<HTMLDivElement | null>(null);
+	let menuToggle = $state<HTMLButtonElement | null>(null);
 	let previouslyFocused: HTMLElement | null = null;
+	const reportedNavEvents = new Set<string>();
+
+	/**
+	 * Tracked links (navOffer.ts): a menu open counts as a view, once per page;
+	 * a tap counts once per page. Instrumentation only, never blocks navigation.
+	 */
+	function reportNavEvent(event: 'viewed' | 'opened', variant: string) {
+		const path = window.location.pathname;
+		const key = `${event}:${variant}:${path}`;
+		if (reportedNavEvents.has(key)) return;
+		reportedNavEvents.add(key);
+		void fetch('/api/cta-event', {
+			method: 'POST',
+			headers: { 'content-type': 'application/json' },
+			keepalive: true,
+			body: JSON.stringify({
+				experiment: NAV_OFFER_EXPERIMENT,
+				variant,
+				event,
+				surface: 'mobile_nav',
+				placement: 'menu',
+				sourcePath: path
+			})
+		}).catch(() => {});
+	}
+
+	function followLink(item: NavItem) {
+		if (item.track) reportNavEvent('opened', item.track);
+		closeMenu(false);
+	}
 
 	function lockMenuScroll() {
 		releaseBodyScroll ??= lockBodyScroll();
@@ -68,6 +100,7 @@
 			document.activeElement instanceof HTMLElement ? document.activeElement : menuToggle;
 		isMenuOpen = true;
 		lockMenuScroll();
+		for (const item of navItems) if (item.track) reportNavEvent('viewed', item.track);
 		await tick();
 
 		if (!isMenuOpen || !menuDialog) return;
@@ -125,7 +158,7 @@
 	}
 
 	function isActive(href: string): boolean {
-		return href === '/' ? $page.url.pathname === '/' : $page.url.pathname.startsWith(href);
+		return href === '/' ? page.url.pathname === '/' : page.url.pathname.startsWith(href);
 	}
 
 	/**
@@ -144,7 +177,7 @@
 	}
 </script>
 
-<svelte:window on:keydown={handleKeydown} />
+<svelte:window onkeydown={handleKeydown} />
 
 <div class="mobile-nav-container">
 	<!-- Menu toggle button -->
@@ -154,7 +187,7 @@
 		aria-label={isMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
 		aria-expanded={isMenuOpen}
 		aria-controls="mobile-navigation"
-		on:click={toggleMenu}
+		onclick={toggleMenu}
 	>
 		<div class="hamburger" class:open={isMenuOpen}>
 			<span class="line line-1"></span>
@@ -165,7 +198,7 @@
 
 	<!-- Mobile navigation overlay -->
 	{#if isMenuOpen}
-		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+		<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
 		<div
 			bind:this={menuDialog}
 			use:portalToBody
@@ -174,8 +207,8 @@
 			tabindex="-1"
 			aria-modal="true"
 			aria-labelledby="mobile-nav-title"
-			on:click={handleBackdropClick}
-			on:keydown={handleKeydown}
+			onclick={handleBackdropClick}
+			onkeydown={handleKeydown}
 			in:fade={{ duration: prefersReducedMotion.current ? 0 : 300, easing: cubicOut }}
 			out:fade={{ duration: prefersReducedMotion.current ? 0 : 200, easing: cubicOut }}
 		>
@@ -193,7 +226,7 @@
 						type="button"
 						class="close-button"
 						aria-label="Close navigation"
-						on:click={() => closeMenu()}
+						onclick={() => closeMenu()}
 					>
 						<svg
 							width="24"
@@ -213,16 +246,19 @@
 				<div class="mobile-nav-content">
 					<ul class="nav-list">
 						<!-- Main navigation items -->
-						{#each navItems as { href, label }}
+						{#each navItems as item (item.href)}
 							<li class="nav-item">
 								<a
-									{href}
+									href={item.href}
 									class="nav-link"
-									class:active={isActive(href)}
-									on:click={() => closeMenu(false)}
-									aria-current={isActive(href) ? 'page' : undefined}
+									class:active={isActive(item.href)}
+									onclick={() => followLink(item)}
+									aria-current={isActive(item.href) ? 'page' : undefined}
 								>
-									{label}
+									{item.label}
+									{#if item.badge}
+										<span class="nav-badge">{item.badge}</span>
+									{/if}
 								</a>
 							</li>
 						{/each}
@@ -234,7 +270,7 @@
 								class="dropdown-toggle"
 								aria-expanded={isDropdownOpen}
 								aria-controls="mobile-library-menu"
-								on:click={toggleDropdown}
+								onclick={toggleDropdown}
 							>
 								<span>Library</span>
 								<svg
@@ -258,13 +294,13 @@
 									in:fly={{ y: -10, duration: prefersReducedMotion.current ? 0 : 200 }}
 									out:fly={{ y: -10, duration: prefersReducedMotion.current ? 0 : 150 }}
 								>
-									{#each libraryItems as { href, label }}
+									{#each libraryItems as { href, label } (href)}
 										<li class="submenu-item">
 											<a
 												{href}
 												class="submenu-link"
 												class:active={isActive(href)}
-												on:click={() => closeMenu(false)}
+												onclick={() => closeMenu(false)}
 												aria-current={isActive(href) ? 'page' : undefined}
 											>
 												{label}
@@ -283,16 +319,16 @@
 								<a
 									href="/admin"
 									class="admin-button"
-									class:active={$page.url.pathname.startsWith('/admin')}
-									on:click={() => closeMenu(false)}
-									aria-current={$page.url.pathname.startsWith('/admin') ? 'page' : undefined}
+									class:active={page.url.pathname.startsWith('/admin')}
+									onclick={() => closeMenu(false)}
+									aria-current={page.url.pathname.startsWith('/admin') ? 'page' : undefined}
 								>
 									Admin
 								</a>
 							{/if}
 
 							{#if !$authUser}
-								<a href="/login" class="login-button" on:click={() => closeMenu(false)}>
+								<a href="/login" class="login-button" onclick={() => closeMenu(false)}>
 									Log in / Sign up
 								</a>
 							{/if}
@@ -490,6 +526,22 @@
 			outline: 2px solid var(--lamp-glow);
 			outline-offset: -2px;
 		}
+	}
+
+	/* Small amber pill after a label ("Free 1-on-1  BETA"): dark text on amber. */
+	.nav-badge {
+		display: inline-block;
+		margin-left: 0.5rem;
+		padding: 0.15rem 0.45rem;
+		border-radius: 999px;
+		background: var(--lamp-glow);
+		color: var(--text-on-primary);
+		font-size: 0.6875rem;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		line-height: 1.2;
+		text-transform: uppercase;
+		vertical-align: 0.15em;
 	}
 
 	/* Dropdown */

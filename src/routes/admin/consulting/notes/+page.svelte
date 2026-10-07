@@ -150,6 +150,36 @@
 		</section>
 	{/if}
 
+	{#if data.menuLinkResults}
+		<!-- The link to this page in the mobile menu (navOffer.ts): is the label earning taps? -->
+		<section class="notes-situations" aria-labelledby="notes-menu-link-heading">
+			<h2 id="notes-menu-link-heading">Mobile menu link</h2>
+			<div class="notes-situations__wrapper" role="region" aria-label="Mobile menu link">
+				<table>
+					<thead>
+						<tr>
+							<th scope="col">Label</th>
+							<th scope="col">Menu opens</th>
+							<th scope="col">Taps</th>
+							<th scope="col">Taps per 100 opens</th>
+						</tr>
+					</thead>
+					<tbody>
+						{#each data.menuLinkResults as row (row.variant)}
+							<tr>
+								<td>{row.headline}</td>
+								<td>{row.viewed}</td>
+								<td>{row.opened}</td>
+								<td>{row.viewed ? ((row.opened / row.viewed) * 100).toFixed(1) : '-'}</td>
+							</tr>
+						{/each}
+					</tbody>
+				</table>
+			</div>
+			<p>Counted once per page per visitor, all time. Mobile only; desktop has no link here.</p>
+		</section>
+	{/if}
+
 	<nav class="notes-tabs" aria-label="Filter notes">
 		{#each views as view (view.key)}
 			<a

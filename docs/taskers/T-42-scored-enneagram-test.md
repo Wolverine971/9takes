@@ -5,7 +5,7 @@
 **For:** whoever builds a real, scored Enneagram test on 9takes (DJ, or an agent working from DJ's design).
 **Owner:** DJ
 **Created:** 2026-10-06
-**Status:** Parked until DJ picks it up. DJ said on 2026-10-06: "I'm going to do a scored test later... I already have an idea about how I want the Enneagram test to go." **The design is DJ's. Interview him before building anything (Section 3).** This tasker records why the test matters, the evidence, the constraints and what "done" means for search and list inclusion. It does not design the test.
+**Status:** Design interview done 2026-10-06. DJ described his process and settled the four forks (§3). The user flow, a draft copy bank and a clickable prototype are in `docs/taskers/T-42-assets/user-flow.md`. Next: DJ edits the draft copy, then the build. This tasker records why the test matters, the evidence, the constraints and what "done" means for search and list inclusion.
 **Related:** `docs/seo/2026-10-06-keyword-and-outreach-map.md` (Decision 2); `docs/taskers/T-41-assets/N-seo-proposals.md` §N2 (earlier analysis of `/enneagram-test`, including one test idea; reference only, not a decision); `src/routes/enneagram-test/+page.svelte`; `src/lib/components/blog/TestYourTypeCTA.svelte`; `src/blog/enneagram/enneagram-test-comparison-2026.md`; the private outreach board (link in the SEO doc), "Get listed" play.
 
 ---
@@ -59,7 +59,21 @@ Open with: "Describe what you're envisioning for the test." Then ask narrowing q
 
 Record DJ's answers here before building:
 
-> _(DJ's design notes go here.)_
+> **DJ's design notes (2026-10-06).** The test is the conversation DJ has when someone asks how to find their type, turned into a flow. It deduces one or two types.
+>
+> 1. **Groundwork.** Personality forms around one of three hard emotions: anger, shame, fear. Most other negative feelings are versions of them (anger: resentful, frustrated; fear: anxious, worried, stressed; shame: insecure, less than, "other than"). Everyone feels all three. One shows up most.
+> 2. **Find the emotion.** Which one comes up most day to day? Alternate: which one do you empathize with most in other people?
+> 3. **Its strength.** Each emotion builds a strength: shame → emotional intelligence, fear → intellectual intelligence, anger → instinctual intelligence.
+> 4. **Three ways to relate to it.** Use it (it gives you energy), push it down ("I don't want to feel this right now"), or don't notice it (it drives you from the background). DJ's map: **uses it 8 / 4 / 6, pushes it down 1 / 2 / 7, unaware 9 / 3 / 5.**
+> 5. **Meet the three types** in that emotion: core fear, relationship to the emotion, patterns, special intelligence. The person picks. Relating to two is fine.
+> 6. **Tiebreak:** go back to each type's core fear and core motivation.
+> 7. **Still unsure:** ask a friend, a parent, someone who knows you well.
+>
+> **Forks DJ settled:** pure self-pick at every step (no rated statements, no percentages); "ask someone" is a friend link (the friend answers about you before seeing your pick, and both see the comparison); the result offers three exits: answer a question as your type, read your type page, send the friend link.
+>
+> **Full flow, copy bank, defaults Claude picked (veto-able) and risks:** `docs/taskers/T-42-assets/user-flow.md`. **Clickable prototype (private):** https://claude.ai/artifact/D7txmWh3hqBDAjs8CWWBn3
+>
+> **Naming note:** with self-pick, "scored" in this tasker's title now means "ends in a typed result", not a numeric score. The `TestYourTypeCTA` promise of "confidence scores" has to change at launch (user-flow §8).
 
 ## 4. Definition of done (search and lists)
 

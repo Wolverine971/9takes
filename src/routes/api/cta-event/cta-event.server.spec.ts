@@ -15,6 +15,7 @@ vi.mock('$lib/utils/logger', () => ({ logger: { error: vi.fn(), warn: vi.fn(), i
 
 import { POST } from './+server';
 import { BETA_CARD_EXPERIMENT, BETA_CARD_VARIANTS } from '$lib/utils/betaCardCopy';
+import { NAV_OFFER, NAV_OFFER_EXPERIMENT } from '$lib/utils/navOffer';
 import { TALK_SITUATIONS_EXPERIMENT } from '$lib/utils/talkSituations';
 
 const BROWSER_UA =
@@ -72,6 +73,26 @@ describe('POST /api/cta-event', () => {
 		expect((await call({ ...door, variant: 'made-up' })).status).toBe(400);
 		expect((await call({ ...door, event: 'submitted' })).status).toBe(400);
 		expect((await call({ ...door, variant: BETA_CARD_VARIANTS[0].id })).status).toBe(400);
+		expect(recordCtaExperimentEventMock).not.toHaveBeenCalled();
+	});
+
+	it('records mobile menu opens and taps on the tracked link', async () => {
+		const menu = {
+			experiment: NAV_OFFER_EXPERIMENT,
+			variant: NAV_OFFER.id,
+			event: 'viewed',
+			surface: 'mobile_nav',
+			placement: 'menu',
+			sourcePath: '/personality-analysis/zendaya'
+		};
+
+		expect((await call(menu)).status).toBe(204);
+		expect((await call({ ...menu, event: 'opened' })).status).toBe(204);
+		expect(recordCtaExperimentEventMock).toHaveBeenCalledTimes(2);
+
+		vi.clearAllMocks();
+		expect((await call({ ...menu, variant: 'talk_it_through' })).status).toBe(400);
+		expect((await call({ ...menu, event: 'submitted' })).status).toBe(400);
 		expect(recordCtaExperimentEventMock).not.toHaveBeenCalled();
 	});
 

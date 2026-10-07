@@ -4,6 +4,7 @@
 	import { resolve } from '$app/paths';
 	import { page } from '$app/stores';
 	import MobileNav from './MobileNavNew.svelte';
+	import { NAV_OFFER } from '$lib/utils/navOffer';
 	import HeaderSearch from './HeaderSearch.svelte';
 	import ThemeToggle from '$lib/components/atoms/ThemeToggle.svelte';
 	import { Button } from '$lib/components/atoms';
@@ -67,12 +68,15 @@
 		label: string;
 		description?: string;
 		featured?: boolean;
+		badge?: string;
+		/** Counts menu opens and taps for this link under its own id (navOffer.ts). */
+		track?: string;
 	}
 
 	const mobileNavItems: NavigationItem[] = [
 		{ href: '/', label: 'Home' },
 		{ href: '/about', label: 'About' },
-		{ href: '/book-session', label: 'Talk it through' },
+		{ href: '/book-session', label: NAV_OFFER.label, badge: NAV_OFFER.badge, track: NAV_OFFER.id },
 		{ href: '/corpus-stats', label: 'Corpus Stats' }
 	];
 

@@ -7,6 +7,8 @@
 // the signup endpoint itself, once the server has really saved the signup.
 // Second experiment: taps on the situation doors on /book-session
 // (talkSituations.ts). Its `submitted` is written by the note action.
+// Third: the /book-session link in the mobile menu (navOffer.ts), menu opens
+// and taps only.
 import { z } from 'zod';
 import type { RequestHandler } from './$types';
 import { recordCtaExperimentEvent } from '$lib/server/ctaExperiments';
@@ -14,6 +16,7 @@ import { isLikelyCrawlerUserAgent } from '$lib/server/giveFirstFunnel';
 import { looksLikeBotUserAgent } from '$lib/server/talkNotes';
 import { BETA_CARD_EXPERIMENT, isBetaCardVariantId } from '$lib/utils/betaCardCopy';
 import { BETA_PLACEMENTS, BETA_SURFACES } from '$lib/utils/betaInvite';
+import { isNavOfferVariantId, NAV_OFFER_EXPERIMENT } from '$lib/utils/navOffer';
 import { isTalkSituationId, TALK_SITUATIONS_EXPERIMENT } from '$lib/utils/talkSituations';
 
 const sourcePath = z
@@ -37,6 +40,14 @@ const requestSchema = z.discriminatedUnion('experiment', [
 		event: z.literal('opened'),
 		surface: z.literal('book_session'),
 		placement: z.literal('door'),
+		sourcePath
+	}),
+	z.object({
+		experiment: z.literal(NAV_OFFER_EXPERIMENT),
+		variant: z.string().refine(isNavOfferVariantId, 'unknown label'),
+		event: z.enum(['viewed', 'opened']),
+		surface: z.literal('mobile_nav'),
+		placement: z.literal('menu'),
 		sourcePath
 	})
 ]);

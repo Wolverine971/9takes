@@ -17,6 +17,7 @@ import {
 	type TalkNoteFilter,
 	type TalkNotesOverview
 } from '$lib/server/talkNotes';
+import { NAV_OFFER_EXPERIMENT, NAV_OFFER_HISTORY, navOfferDisplayName } from '$lib/utils/navOffer';
 import { TALK_SITUATIONS, TALK_SITUATIONS_EXPERIMENT } from '$lib/utils/talkSituations';
 
 const FILTERS: TalkNoteFilter[] = ['open', 'replied', 'archived', 'all'];
@@ -38,13 +39,19 @@ export const load: PageServerLoad = async ({ locals, url, setHeaders }) => {
 		TALK_SITUATIONS_EXPERIMENT,
 		TALK_SITUATIONS.map((situation) => ({ id: situation.id, headline: situation.label }))
 	);
+	const menuLink = loadCtaExperimentResults(
+		locals.supabase,
+		NAV_OFFER_EXPERIMENT,
+		NAV_OFFER_HISTORY.map((offer) => ({ id: offer.id, headline: navOfferDisplayName(offer) }))
+	);
 
 	try {
-		const [notes, overview, pageVisits7d, situationResults] = await Promise.all([
+		const [notes, overview, pageVisits7d, situationResults, menuLinkResults] = await Promise.all([
 			listTalkNotesForAdmin(filter, url.origin),
 			getTalkNotesOverview(),
 			visits,
-			situations
+			situations,
+			menuLink
 		]);
 		return {
 			filter,
@@ -52,6 +59,7 @@ export const load: PageServerLoad = async ({ locals, url, setHeaders }) => {
 			overview,
 			pageVisits7d,
 			situationResults,
+			menuLinkResults,
 			alertEmail,
 			loadError: null as string | null
 		};
@@ -62,6 +70,7 @@ export const load: PageServerLoad = async ({ locals, url, setHeaders }) => {
 			overview: null as TalkNotesOverview | null,
 			pageVisits7d: await visits,
 			situationResults: await situations,
+			menuLinkResults: await menuLink,
 			alertEmail,
 			loadError: 'Couldn’t load notes. Has the talk_notes migration been applied?'
 		};
