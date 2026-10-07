@@ -391,6 +391,8 @@ Understanding individual types is step one. Step two is seeing how they interact
 - **5 + 2**: The Investigator needs space to think. The Helper needs connection. One feels smothered. The other feels shut out.
 - **3 + 9**: The Achiever drives hard. The Peacemaker absorbs without pushing back. One burns out. The other gets invisible.
 
+Want to watch these pairings collide on screen? [The Office's Enneagram types](/pop-culture/the-office-enneagram-types) put a 5 (Stanley) next to a 2 (Michael) and a 1 (Angela) next to a 7 (Kelly) for nine seasons.
+
 **Natural synergies:**
 
 - **1 + 6**: Both value doing things right and being prepared. Solid foundation for reliable execution.

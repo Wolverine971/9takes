@@ -1,0 +1,378 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Reopened S06 in full. The hook now quotes the whole sentence ('...and this probably said more about my abilities than the problem'). The 'bothered him more than his own doubt' line is gone. His own explanations are in the text: skills 'always in demand' and 'procrastinating', 'the demands on my time had relented', 'I wanted to see the whole picture clearly', and the 'too timid' barrier. The visibility reading is now labeled 'This suggests the Type 3 fear...', and the next paragraph sets out the One and Five counter-readings. C53, C85 and C86 are revised; C129, C153, C154 and C155 are new. Repair: the full hook quote is now inventoried as its own claim (C202, S06)."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Reopened S22. The WSJ paragraph now says he and Altman 'reluctantly agreed' to keep him off the language project. It says Altman requested the peer reviews and called Brockman's 'tough but fair'; that Daniela rebutted 'point by point'; that he offered to withdraw his review; and that the 2017 layoffs followed Musk's spreadsheet request. The Nine paragraph no longer says he pushed onto the project. It treats his acceptance of exclusion and the withdrawal offer as Nine-compatible."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "'Like a bear' now separates Fortune's anonymous 'bear' image from his own account. It quotes his stated reason from the Knowledge Project captions ('needed some time to kind of find my way back to remembering like why I was doing this'), with the media framing and OpenAI's response beside it. The sabbatical FAQ carries the same reason. The claim that the cycle 'appears in his own account' is gone. C38 is revised; C192 and C194 are new."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "WIRED (S21) was opened in full during this edit. The article quotes his rationale ('maybe supporting the team is bigger than the people that I happen to be employed with. It's really team humanity'). 'His latest reversal fits' is gone. The PAC item is now explicitly non-discriminating because of audience and role incentives (C189). The Type 1 FAQ no longer uses the PAC at all. C108 is replaced by C188; C41 and C106 are revised."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Added a dated, sourced sentence from NPR (S35, opened). On May 18, 2026 a unanimous advisory jury found the claims filed too late, the judge dismissed without reaching the merits, and Musk said he would appeal. The wording does not imply exoneration on the merits. C165 is unresolved, with an appeal/retrial trigger."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Fortune now opens with named praise: Lisa Su, labeled a business partner, on his 'just maniacal focus'. OpenAI's denial is quoted in full, including the petition and the independent review. The 'high standards' quote was cut for length, so it no longer appears without its 'heartbeat' context. The 'the worst' comparison is framed as the author's comparison resting on one unnamed source, and it notes that the quote describes working around slow work, not overturning decisions."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The quit FAQ now says that, on a video call Sutskever set up, the board minus Altman told him Altman had been fired, that he was being removed from the board where he was chairman, and that he would keep his job (S15, S24, S13). The Type 1 FAQ no longer uses the anonymous 'ends-over-means' quote. C123 is revised; C174, C175 and C199 are new."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "The description now uses sequence, not causation, and limits the episode to the Dota project: 'quit machine learning on the Dota project after a colleague's better results left him \"nothing to show.\"' The title and meta_title keep the hook as a question ('Does Greg Brockman Need Something to Show?'). Lengths: description 166, meta_title 63. C120 and C121 are revised."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "The full sentence, with the 'colleagues said the problem was hard' context, opens the article. 'Nothing to show for my efforts' now names the refuse-the-excuse reading and weighs it both ways: 'a Three might lower expectations that way, but a One might simply insist on the truth' (C157)."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "The Five dismissal is corrected. The text acknowledges three months of study before he 'felt ready' and quotes his 'see the whole picture clearly' motive, and 'half blind' is now tied to the 'software lens' constraint (C150). The surviving 3-vs-5 discriminator is first-person: a record full of performing and recruiting, plus his wish 'to be able to make critical contributions like that' (C151, C159)."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "The November section now covers the chairmanship (S13), his refused requests for 'any reasons, any feedback', the same-day planning of a new company, and his 10% odds (S24). The protected verdict line stays, and a new paragraph argues why these facts leave it unchanged: the due-process complaint helps One, and the new-company planning is a reflex any founder might share (C180). The old procedure discriminator in 'Where the One reading strains' was removed."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Reopened S03 (repair stage, via a reader copy of the live page). 'From wake until sleep' opens with Turing, the gap-year chatbot, and AI as 'definitely my life goal' (told to Altman in 2015). It now tells the shelving in his own terms and dates and links it to the 2016 essay: the bot could 'talk about the weather very convincingly,' but 'no one had any techniques that could make my bot really work,' so he 'shelved my chatbot pursuits' and 'decided to focus on creating systems that can have a real impact.' That is the 'work' to 'real impact' pivot the acceptance test asked for, which the edit stage had missed. The 2016 and 2026 tellings are presented as possibly one chatbot or two. The edit stage's 'nothing to show' wording, which contradicted both tellings, is gone. The recurrence now reads 'This was the first of two times he shelved his own AI work when he could not make it do what he wanted' (C143 rewritten; C204, C205 added). The field-choice qualification stays: the Stratechery section quotes the 'best in the world' bar and the impact-based choice, and the discriminator now matches it (verify-01)."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Reopened S01. The sentence now states the delegation purpose and the order of events: 'His first vacation was a delegation tactic, and a build followed it.' The career loop now rests on accurate first-person instances: the 2010 Stripe vault built over the holidays and the 2018 holiday study (C67, C145, C195)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "The orientation now cites his de facto CEO role (Fortune) and his board chairmanship. 'Runs light on glamour' and 'gives up titles with unusual ease' are gone. The 2019 step back is tied to reported staff doubts (WSJ). He is described as the face of the Astra launch, and the GPT-4 livestream of March 14, 2023 appears with its source (S37, opened)."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "The May 18, 2026 outcome is stated and dated (S35, C165, unresolved with an appeal trigger). The $100,000 admission is left out on purpose. Courthouse News is the only source, it blocked a re-fetch during this edit, and its sentence does not make clear whether he told donors he would give personally. It is logged as a research task rather than printed ambiguously."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "The tribute section now opens with his own plan: in June 2015 he told Altman 'my current plan was to start an AI company within the next year'. It says volunteering made him the founder who recruited the team. The anti-status claim now rests on the errands ('Those errands are the strongest evidence...'), not the tribute line."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The framing paragraph now matches the essay. The stall came alongside praised infrastructure work, not in years with nothing to show. 'Nothing to show' is tied to the single 2017 project. The essay's 'always in demand ... procrastinating' explanation is quoted, and staying where he was valued is read as possibly Three-consistent (C129, C133, C152)."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "All four points are addressed. (1) The full 'correct them' sentence is quoted and weighed. (2) His own reasons for the timing and for persisting are given. (3) The 'commits and hours' claim is removed, and the commits are credited to Pachocki and Sidor. (4) The One-versus-Three paragraph now concedes that his frustrations were about correctness. 'That is the Type 3 fear in plain form' is now a labeled 'This suggests'. The type_hypothesis discriminator was rebuilt (C85, C86, C157, C158)."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The mirror testimony now counts as One-compatible ('a One's answer'). The peer review is given with 'tough but fair' and the two-sided dispute, and treated as cutting both ways. The launch rule is out of the discriminator. No named, non-anonymous instance of trading principle for speed was found. As the acceptance test allows, the article now says the discriminator does not rest on these items: it rests on first-person self-scoring, and 'ends-over-means' is called a single unnamed source (C105, C109, C184). Confidence stays medium and the article calls the One case 'close'."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "'If he is a One' now includes the New Yorker's 'it was a lie' diary rule (C163) and both environment self-descriptions, 2014 and April 2026 (C182, C183). 'Where the One reading strains' gives a specific reason: in 2026 he framed environment-building as producing 'great results' (C187). It concedes that the moral vocabulary favors One. Repair: 'Where the One reading strains' no longer files the diary as judging others. It concedes the self-directed entries as 'the One reading's best private evidence' and narrows the Three lead to how he scores his own work (verify-02; C206, C207, C209)."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "The summary now matches the source: 'his bar for committing to a field was being best in the world, though the choice itself turned on impact.' 'Favorite' is dropped. His own gloss on the audition ('trying to be out of the box in order to try to get the job done') sits beside the reading, and the text says a One could tell it as conscientiousness (C64, C138, C139). Repair: the discriminator sentence that had blended the two clauses again ('He chose a field by asking where he \"could be best in the world\"') now reads 'His ninth-grade bar for any field was being \"best in the world\"', matching this section; C04's claim text separates the bar from the impact-based choice (verify-01)."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Wherever the 2019 'less public-facing role' appears, it is now preceded by the reported loss of staff confidence (C40 revised, citing S19 and S22), and it is no longer used as title humility. The Nine paragraph reports what the WSJ says: he sought the role, appealed to Altman, and then accepted exclusion."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Motive clauses are restored or placed beside each quote: 'got hooked on programming because I loved the act of creating something from nothing', 'coding feels like magic made real', and 'I want to help people'. The researcher quote is now framed as impact. 'What the record shows most consistently' is now a labeled 'In this profile's reading'. The details a craft- or impact-driven builder would not show are the rank and impression items: Kaggle number 1, Goodfellow 'impressed', the audition display (C185, C186, C138)."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Mentions the backlash, quotes his own WIRED rationale, and restores the omitted Slack sentence ('I've been thinking hard about how to turn the ship on it.'). The message is labeled non-discriminating because any executive would frame it the same way (C189). The Type 1 FAQ drops the PAC entirely. The pledge is attributed to him and his wife, per WIRED and Gizmodo."
+    },
+    {
+      "finding_id": "critic-09",
+      "action": "fixed",
+      "reason": "The discriminator no longer relies on anonymous or same-camp items; they are explicitly demoted (C105, C109). The 2017 'sell AGI to governments' episode is left out of the article: it is a rival-camp account (the Hedley recollection, the Amodei-hired adviser, the WSJ) of a briefly discussed idea, Brockman denies seriously entertaining it, and it would add a sensitive allegation with no more type weight than the demoted items. The exclusion is recorded in type_hypothesis.unexplained. The $100,000 admission is excluded for the reason given under fan-07."
+    },
+    {
+      "finding_id": "critic-10",
+      "action": "fixed",
+      "reason": "The Stripe sentence keeps the 'and then' order and the delegation purpose. The sabbatical paragraph includes his own stated reason. The loop is re-tested: 'His 2024 account adds a loss of meaning after a partner left, which a Nine or Six reading could claim as easily.'"
+    },
+    {
+      "finding_id": "critic-11",
+      "action": "fixed",
+      "reason": "The closing labels the 2026 line as 'launch messaging' and quotes his own hedge from Stratechery ('maybe it was the previous model, maybe it's Astra, maybe it's the next model'). The bookend now rests on the act of pronouncing, which he has done since the 2023 GPT-4 demo, not on the AGI claim being true, so it survives if the claim is disputed. The protected callback line is kept."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The opening now gives the context: 'When colleagues said the problem was hard', followed by the full sentence. 'More than his own doubt' and 'talking their estimate down' are gone. The refuse-the-excuse reading is named and weighed for One and Three. C53's claim text no longer says 'praise'."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The type answer and the first FAQ now rest on how he scores himself in his own accounts, not on 'costliest choices'. The body's 'costliest choice' passage is consistent with this, since it concedes November 17 to One/Six. The answer and FAQ are identical at 54 words. Repair: both now say he scores his work, not himself, by being best, being noticed and having a result to point to, more than by doing it right (verify-02). They remain identical, now 55 words, under the 60-word limit."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The mirror item is out of the Three list and is counted as 'a One's answer'. The discriminator paragraph now names its first-person items and labels the rest as non-discriminating."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The diary section now explains, with sources: Musk as co-founder and main early funder; the dispute over a for-profit arm and control; his exit in 2018 (S35); what a b-corp is; the 2024 suit's 'breach of charitable trust' claim; the 2019 for-profit subsidiary; and the May 18, 2026 outcome with the appeal (C160–C165). 'A line he would not cross alone' is replaced by 'a line drawn at converting \"without him\"', followed by what OpenAI later did."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "The November section now says Sutskever was a board member who texted him, and gives the board's stated reason ('not consistently candid') and the chairmanship. It describes the staff petition that 'crashed Google Docs', and Sutskever's signing, before the closing. The closing now explains the weekend: competitors 'circling', 'No one accepted a competing offer.'"
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Dario Amodei is introduced as 'then research director'. Daniela Amodei is 'Dario's sister' and co-lead. The layoffs are dated (2017) and explained as following Musk's spreadsheet request. 'The Amodeis later founded Anthropic, a rival' comes before the source-weighting caveat."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The orientation now gives his remit: de facto CEO in the early years (Fortune), and since July 2026 the product business plus infrastructure, 'second-in-command ahead of a possible IPO' (Forbes). C130 is time_sensitive with a trigger."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Dota is glossed ('a multiplayer video game'), CTF3 is glossed ('a security contest'), and AGI is expanded at use. Sutskever's departure is dated May 2024 (S36, opened). The undated coding hand-off line was cut. 'Teenager' is replaced with 'the young extra'. Stratechery is linked at the gingerbread passage, and 'a 2026 interview story' names the source type."
+    },
+    {
+      "finding_id": "unfamiliar-09",
+      "action": "fixed",
+      "reason": "The self-interruption is now marked with a dash ('I don't always—Sorry'); the words are unchanged. The wording matches YouTube auto-captions re-downloaded twice on 2026-10-07 ('Like I just like run right in'). The audio itself was not checked in this session, and the research_tasks record that. The earlier 'Like I just run right in' variant came from the same auto-caption source. Repair: the podcast-feed audio was transcribed with Whisper medium.en and large-v3-turbo, with a verbatim-style prompt, on the full clip and 3-second sub-clips. 'Sorry,' and 'Like I' appear only in the captions, so the quote now keeps only audio-confirmed words: the break is described in author prose ('He broke off:') and the gap before 'just like run right in' is marked with an ellipsis (verify-06)."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The essay's self-study arc ('I felt ready to work on an actual project') and his 'see the whole picture clearly' motive are now in the text. The 'Five would withdraw, Brockman doesn't' sentence is removed. The 3-vs-5 discriminator is the first-person record of performing and recruiting, plus his wish to make 'critical contributions' (C151, C159)."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "The full clause is quoted and the correctness frustrations are acknowledged ('hadn't properly archived', bugs). The essay is now presented as contested, with One and Five readings. A separate first-person discriminator carries the case, using the candidates the reviewer named and more: the audition reasoning, 'best in the world', the $1B diary target, Kaggle number 1, and Goodfellow (C137, C04, C88, C185, C186, C184)."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The mirror is counted for One. The peer review is quoted in full ('of abusing her power to create bureaucratic processes to get her way') and treated as a fairness charge that cuts both ways. The launch rule is removed. The 'Ones defend procedure' stereotype is gone. The paragraph now says the case rests on first-person self-scoring, and that the One case is 'close'."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "The Type 1 FAQ now opens 'He might be, and the case is close'. It rests its Three-over-One reason on the durable 2019 essay ('nothing to show for my efforts', 'unwilling to become a beginner again') and on how he scores himself. It no longer uses the anonymous quote or the PAC item. Repair: the FAQ now says the moral vocabulary applies to his own conduct ('a private 2017 diary entry calling an option he and his co-founders were weighing \"pretty morally bankrupt\"') and keeps the Three-over-One reason on how his accounts of his work keep score (verify-02)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Both environment self-descriptions (2014, 2026) are confronted in 'If he is a One', and 'Where the One reading strains' gives the 2026 'deliver great results' framing as the reason Three still leads. 'The currency in his writing...' is removed. The researcher quote is reframed as impact."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "'He quit when the visible result vanished' is gone. The time-demand constraint is named ('always in demand ... procrastinating'; 'demands on my time had relented'). The commits are credited to his teammates. The hours metric is removed from the argument."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The Nine rebuttal now acknowledges Nine-compatible items: he accepted exclusion and offered to withdraw his review. It drops the anonymous and rival-sourced counterevidence and rests on first-person items: the 'best in the world' bar, the Mannheim audition, and volunteering to run the founding."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The definition is rewritten without the shared frame: 'A Type 3 tends to measure worth by results that register with other people', followed immediately by Brockman-specific qualification. 'This is a reading of the public record' is also rephrased."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "The Type 1 FAQ now grounds Three-over-One in the 2019 essay and drops the PAC item and the unnamed quote. The body's PAC passage gives the dated, hedged Slack wording ('no plans to donate more at this time') with both stated reasons, and no sentence says the giving ended permanently."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The verdict sentence was added as specified (S35). C165 is unresolved with the trigger 'Re-check on any Ninth Circuit ruling, settlement or retrial in Musk v. Altman; revise the trial-testimony framing if the merits are reached.' C23 now carries a matching trigger."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "The 'less public-facing' claim is limited in time ('after Altman became CEO in 2019 ... as Fortune put it in 2025') and qualified. The July 2026 remit expansion appears with its date and Forbes source (C130), and by September 2026 he was the face of the Astra launch (C134). C40 now has an IPO/CEO/remit trigger."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Relative time is removed. 'His latest reversal' is gone. Nine evidence is dated 'April 2026'. 'Interest spiked again' is replaced by the dated premiere. Sutskever's departure is dated May 2024. A scan of author prose for now/recent/latest/currently/this year finds no matches, and 'again' appears only inside quotations."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The FAQ now reads 'As of October 2026, Neon had scheduled a U.S. theatrical release for December 25, 2026.' C59's trigger is kept."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Triggers were added. C23 and C109 are stable with triggers. C32, C33, C30, C31, C167 and C168–C170 are unresolved, with triggers naming on-record responses from Brockman, Daniela Amodei or named colleagues. The discriminator no longer depends on these items. Repair: the new or reworded time-sensitive claim (C210, Leading the Future promise) is unresolved with a post-midterms trigger."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "The undated wealth snapshot is removed from the body; Forbes is now cited only for his dated July 2026 remit. No undated wealth figure appears anywhere in the body or metadata. C24 is retired because its passage is gone."
+    },
+    {
+      "finding_id": "verify-01",
+      "action": "fixed",
+      "reason": "Reopened S28 by direct fetch (Background). The discriminator sentence now reads 'His ninth-grade bar for any field was being \"best in the world.\"' It describes the bar for doubling down, not the question that picked the field, and matches the Stratechery section, which quotes both the bar and the impact-based choice. C04's claim text now separates the bar ('could be best in the world and really try to move the needle in a field') from the choice ('because I felt like maybe that was an area where I could most make a difference in the world'). C184 and type_hypothesis.discriminator say 'the \"best in the world\" bar he set for committing to any field, though impact decided which field.' A new claim, C208, maps the discriminator sentence. No body, FAQ or evidence text says he chose a field by where he could be best."
+    },
+    {
+      "finding_id": "verify-02",
+      "action": "fixed",
+      "reason": "The discriminator paragraph now states the split accurately: 'His moral vocabulary turns up when he judges conduct, his own included. In the private 2017 diary, a b-corp move he and his co-founders were weighing would be \"a lie\" if it reversed a public commitment and \"morally bankrupt\" if made \"without him.\"' It then concedes the entries as 'the One reading's best private evidence' and gives the reason they do not overturn the Three lead: most people would judge both acts the same way, and what marks a One is turning that standard on everything, the work included, so the better test is how he scores his own work. The section's summary now reads 'the Three reading leads on how he scores his work and the One on how he judges conduct.' The type answer and the matching FAQ say he 'scores his work' (not himself). The 'Why isn't he a Type 1?' FAQ now says the moral vocabulary 'applies to his own conduct.' C184, C51 and C135 are revised. C206, C207 and C209 are added. type_hypothesis.discriminator no longer lists Musk among the others judged and says the Three lead holds for work-scoring, not conduct-judging. type_hypothesis.against and unexplained name the self-directed entries. Confidence stays medium, with the concession explicit. The body is 4,496 words after trims elsewhere."
+    },
+    {
+      "finding_id": "verify-03",
+      "action": "fixed",
+      "reason": "Reopened S03 via a reader copy of the live page (the origin returned an empty response). The sentence now describes the gap-year shelving in his terms, dated and linked to the 2016 essay: 'It could \"talk about the weather very convincingly,\" but \"no one had any techniques that could make my bot really work,\" so \"I soon shelved my chatbot pursuits\" and \"decided to focus on creating systems that can have a real impact.\"' 'Nothing to show' is gone. The recurrence stays, framed as the verifier specified: 'This was the first of two times he shelved his own AI work when he could not make it do what he wanted.' The second time is the 2017 Dota project, after a colleague got better results without his code. C143's claim and passage match the new wording, and its inference records that neither episode left him with nothing. C204 (weather) and C205 (real impact) are added, and C140's passage is updated."
+    },
+    {
+      "finding_id": "verify-04",
+      "action": "fixed",
+      "reason": "'Begins with 2017 layoffs' is now 'reports 2017 layoffs'. The rest of the WSJ paragraph is unchanged."
+    },
+    {
+      "finding_id": "verify-05",
+      "action": "fixed",
+      "reason": "Added C202 for the hook quote ('I didn't feel confident in my work, but to make it worse, other people did', S06) and C203 for 'circling' (S24; the audio has 'all the competitors were circling'). C60's claim text now says Hedlund. No article text changed for this finding. Also from the verifier's qualified claim checks: C152 is reclassified as an interpretation of S06, and C41 now dates only the MAGA Inc. gift to September 2025. The body sentence was split so the date no longer scopes the Leading the Future promise, which is a separate claim (C210, S31, S21)."
+    },
+    {
+      "finding_id": "verify-06",
+      "action": "fixed",
+      "reason": "Checked the audio instead of relying on captions. The podcast-feed clip (about 22:10-22:45) was transcribed with Whisper medium.en and large-v3-turbo, with and without a verbatim-style prompt that includes 'sorry' and 'like', on the full 35-second clip and on 3-second sub-clips. All runs confirm 'I don't always', 'Um, but I don't always look back to see if everyone's following' and 'just like run right in'. medium.en and the captions agree on 'I'm getting a little emotional'. No run hears the captions' 'Sorry,'. The words between 'following' and 'just' differ ('Like I' in the captions, 'right?' in medium.en, 'me. I' in large-v3-turbo). Following the acceptance test's fallback, the quote now drops only those unconfirmed words: '...I don't always—\" He broke off: \"I'm getting a little emotional. Um, but I don't always look back to see if everyone's following ... just like run right in.\"' 'I'm getting a little emotional' and 'just like run right in' are kept. C198, C36 and S24 record the check. A non-blocking research task asks for a human listen to confirm 'getting' and the omitted fillers."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Nothing in the record points to a formative wound, and this profile won't supply one.",
+      "action": "kept",
+      "reason": "Kept verbatim; still opens the childhood section."
+    },
+    {
+      "passage": "Sutskever also testified that his written claim that Brockman \"was essentially fired from Stripe\" rested on \"Mira told me,\" meaning [Mira Murati](/personality-analysis/mira-murati), and that he never checked it with Brockman, whose 2015 farewell post describes a voluntary exit.",
+      "action": "kept",
+      "reason": "Kept verbatim; the deposition rebuttal still sits beside the memo and OpenAI's full denial."
+    },
+    {
+      "passage": "This was the costliest choice in his record, made in an afternoon, and it is the One reading's best day: a moral verdict, with anger set aside. A Six would read it as loyalty. Nothing in it favors a Three over a One.",
+      "action": "kept",
+      "reason": "Kept verbatim. A new following paragraph adds the chairmanship, the refused reasons and the same-day new-company planning, and argues why the concession stands."
+    },
+    {
+      "passage": "Some of Brockman doesn't fit the Three reading, and it shouldn't be trimmed to fit.",
+      "action": "kept",
+      "reason": "Kept verbatim at the start of the closing section."
+    },
+    {
+      "passage": "I think the way that I operate is I'm very much a in the trenches kind of leader. Try to lead from the front. And sometimes when I do that, I don't always Sorry, I'm getting a little emotional. Um, but I don't always look back to see if everyone's following. Like I just like run right in.",
+      "action": "changed",
+      "reason": "Changed only to keep audio-confirmed words (verify-06). The podcast audio, transcribed with two Whisper models, confirms every content word, but not the captions' 'Sorry,' or 'Like I'. The quote now reads: 'I think the way that I operate is I'm very much a in the trenches kind of leader. Try to lead from the front. And sometimes when I do that, I don't always—\" He broke off: \"I'm getting a little emotional. Um, but I don't always look back to see if everyone's following ... just like run right in.\"' Its contribution is intact: the in-the-trenches self-image, the emotional break mid-sentence, and 'just like run right in' as the closing image."
+    },
+    {
+      "passage": "The next line sits alone as its own paragraph: \"I never tried machine learning on the Dota project again.\"",
+      "action": "kept",
+      "reason": "Kept verbatim in the second paragraph."
+    },
+    {
+      "passage": "He wasn't picked, but the organizers told him, \"We loved seeing how much you were dedicated to this, so we're going to actually make a new role for you.\" He became a gingerbread man.",
+      "action": "kept",
+      "reason": "Kept verbatim. The audition paragraph now also gives his own reasoning ('this job has one requirement')."
+    },
+    {
+      "passage": "which later noted, in a correction OpenAI requested, that he grew up \"on a hobby farm,\" not a farm: \"Brockman considers this distinction important.\"",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "A former colleague's \"into his own hands\" also sits uncomfortably close to the habit Brockman himself called \"the worst\" in 2014.",
+      "action": "changed",
+      "reason": "Changed to meet subject-06's acceptance test while keeping the contradiction. It now reads as the author's comparison resting on one unnamed source ('On one unnamed source, \"into his own hands\" sits uncomfortably close to the habit Brockman called \"the worst\" in 2014'). It adds that the quote describes working around slow work, not overturning decisions."
+    },
+    {
+      "passage": "Ten years after admiring the pronouncement, he was the one making it.",
+      "action": "kept",
+      "reason": "Kept verbatim. The surrounding text now labels the Astra line as launch messaging with his own hedge, so the callback rests on the act of pronouncing."
+    },
+    {
+      "passage": "Even the charter aside cuts both ways: the care to get the lines \"exactly right\" belongs to a One, and the reflex to head off the impression that he had crammed belongs to a Three.",
+      "action": "kept",
+      "reason": "Kept verbatim at the end of 'If he is a One'."
+    },
+    {
+      "passage": "His first vacation became a build.",
+      "action": "changed",
+      "reason": "Changed because it misread the source (fan-05, critic-10). The 2014 essay presents the vacation and the build that followed as a deliberate tactic to route problems to Hedlund. The distinctive detail survives in accurate form: 'His first vacation was a delegation tactic, and a build followed it.' The holiday-builds pattern it set up now rests on the 2010 vault and the 2018 holiday study."
+    },
+    {
+      "passage": "Startup culture rewards the same sprints in any type, including a hard-driving [Eight](/enneagram-corner/enneagram-type-8) or [Seven](/enneagram-corner/enneagram-type-7), so the loop supports the reading without proving it.",
+      "action": "kept",
+      "reason": "Kept verbatim; still closes 'Like a bear', now after an accurate account of the loop and his stated reason for the break."
+    },
+    {
+      "passage": "Then a colleague, Jie Tang, \"figured out how to get better results without using my code, and I had nothing to show for my efforts.\" The next line sits alone as its own paragraph: \"I never tried machine learning on the Dota project again.\"",
+      "action": "kept",
+      "reason": "Kept verbatim; still anchors the hook."
+    },
+    {
+      "passage": "This essay carries more of the type argument than anything else in the record. Other people's confidence bothered him more than his own doubt, and he kept talking their estimate down. He quit when the visible result vanished. He came back in private, over a holiday, beside someone who made failure feel \"ok,\" and he scored the comeback in commits and hours. That is the Type 3 fear in plain form: failing where people can see it.",
+      "action": "changed",
+      "reason": "Changed because several statements in it did not survive the full essay (subject-01, critic-02, enneagram-02, enneagram-06). The draft wrongly said he 'talked their estimate down' and that 'other people's confidence bothered him more'. 'He quit when the visible result vanished' was missing the time-demand context, the commits were his teammates', and the hours measured motivation. Its contribution, a close reading of the load-bearing, no-legal-stakes essay that does not depend on any 2025–2026 status, is kept and labeled: 'This essay carries more of the type argument than anything else in the record, though it cannot carry it alone. Read as a Three, he stayed where he was in demand and praised, dropped the one attempt that left nothing to point to, and named his obstacle as a status... This suggests the Type 3 fear of failing where people can see it.'"
+    },
+    {
+      "passage": "He went once he was no longer the critical piece. A [Type 2](/enneagram-corner/enneagram-type-2), whose sense of worth rests on being needed, would be expected to stay where the need was.",
+      "action": "kept",
+      "reason": "Kept verbatim; still closes the Stripe section."
+    },
+    {
+      "passage": "The Three reading rests on their agreement with the 2019 essay, written with no legal stakes.",
+      "action": "changed",
+      "reason": "Changed because the items 'their' referred to (anonymous, rival-sourced and litigated) were demoted in the rebuilt discriminator. The contribution, tying the thesis to durable first-person sources without legal stakes, is kept and strengthened: 'But the Three reading rests on these first-person accounts, most written with no legal stakes, more than on anonymous, rival-sourced or litigated items.'"
+    }
+  ],
+  "prior_blockers": []
+}

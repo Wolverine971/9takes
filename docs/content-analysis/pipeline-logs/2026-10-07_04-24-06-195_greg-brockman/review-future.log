@@ -1,0 +1,20 @@
+I wrote the five-year ("future") review for the Greg Brockman draft to `review-future.json` in the run directory. It passes the pipeline's review schema, and every quoted passage matches the draft or its parsed FAQ text exactly. I changed no other files and published nothing.
+
+**Verdict:** the type argument holds up over five years. It rests on Brockman's own essays from 2014–2019, mainly his 2019 machine-learning essay. Take out every 2025–2026 item (the Musk trial, the super PAC money, the GPT-6 Astra launch, Forbes, the *Artificial* film) and the main argument still stands. The weak spots are in the FAQs and the record-keeping.
+
+**Major findings (3):**
+- **FAQ overstates the PAC story.** The FAQ says he "stopped giving" to the super PAC. The source only reports a June 2026 Slack message saying he had "no plans to donate more at this time." If filings after the November 3 midterms show new giving, the FAQ becomes false. It's also the least-verified piece of evidence in the Type 3 vs. Type 1 case: secondhand through Gizmodo, and the underlying New York Times report wasn't opened.
+- **The trial outcome is missing.** The draft quotes his diary and testimony from Musk v. Altman, where he was a named defendant, but never says how the case ended. NPR, which I opened, reports that on May 18, 2026 an advisory jury found Musk sued too late, and the judge dismissed the case without ruling on the merits. Musk's side signaled an appeal, and nothing in the record prompts a re-check if that appeal lands.
+- **"Less public-facing role" is already out of date.** The draft uses this Fortune line from 2025 as evidence against a status-hungry Type 3. But the draft's own Forbes source says he took over OpenAI's product business in July 2026, "making him the company's second-in-command." He also fronted the Astra launch.
+
+**Minor findings (4):**
+- Wording like "latest," "now," "recent" and "Interest spiked again" will age. The "spiked" line has no source behind it.
+- The FAQ's "Neon plans a release on December 25, 2026" goes stale in about 11 weeks.
+- The claims the Type 3 vs. Type 1 call depends on (the anonymous Fortune quotes, the WSJ account, his trial testimony) have no triggers for re-checking them later.
+- The Forbes net-worth figure in the intro is a dated snapshot that does no work in the argument.
+
+The similarity checker flagged a one-sentence Type 3 definition that also appears in the Tiger Woods draft. That's ordinary type vocabulary rather than reused argument, so I didn't log a finding. Worth varying that sentence across Type 3 drafts, though.
+
+Sources:
+- [NPR: Jury dismisses all claims in Elon Musk's lawsuit against OpenAI CEO Sam Altman](https://www.npr.org/2026/05/18/nx-s1-5822366)
+- [Fortune, November 5, 2025](https://fortune.com/2025/11/05/openai-greg-brockman-ai-infrastructure-data-center-master-builder/)

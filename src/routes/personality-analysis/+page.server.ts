@@ -3,6 +3,11 @@ import type { Actions } from './$types';
 import type { PageServerLoad } from './$types';
 import type { Database } from '../../../database.types';
 import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
+import { roundedCorpusCount } from '$lib/utils/talkSituations';
+import corpusStats from '$lib/data/corpus-stats.json';
+import personalityFame from '$lib/generated/personalityFame.json';
+import { buildCelebrityHub } from './celebrityHub';
+import type { FameViews } from './type/[slug]/typeHubOrder';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type PersonPost = Pick<
@@ -163,10 +168,18 @@ export const load: PageServerLoad = async ({ locals }) => {
 		console.warn('[personality-analysis] using fallback index data', err);
 	}
 
-	const posts: PersonPost[] = (personData?.length ? personData : FALLBACK_POSTS).map((e) => ({
+	const usingFallback = !personData?.length;
+	const posts: PersonPost[] = (usingFallback ? FALLBACK_POSTS : personData!).map((e) => ({
 		...e,
 		slug: normalizePersonalitySlug(e.person)
 	}));
+
+	// "Enneagram celebrities by type": live counts and best-known names. If the
+	// live query failed, the fallback list is only a handful of people, so the
+	// counts come from the build-time corpus snapshot instead.
+	const celebrityHub = buildCelebrityHub(posts, personalityFame.views as FameViews, {
+		counts: usingFallback ? corpusStats.enneagram_distribution.counts : undefined
+	});
 
 	const uniqueTypes = Array.from(new Set(posts.map((obj) => obj.enneagram)));
 
@@ -206,7 +219,10 @@ export const load: PageServerLoad = async ({ locals }) => {
 		featured,
 		recentlyUpdated,
 		totalPeople: posts.length,
-		typeCounts
+		typeCounts,
+		celebrityHub,
+		// "450+": rounded down from corpus-stats.json so the title never overstates.
+		publicFigureCount: roundedCorpusCount(corpusStats.totals.published)
 	};
 };
 

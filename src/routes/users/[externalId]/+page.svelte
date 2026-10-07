@@ -20,7 +20,8 @@
 
 	interface UserComment {
 		id: number;
-		comment: string;
+		/** Only sent to the profile owner and admins (give-first). */
+		comment?: string;
 		url: string;
 		question: string;
 		question_formatted: string | null;
@@ -40,6 +41,7 @@
 
 	const subscriptions = $derived((data.subscriptions || []) as Subscription[]);
 	const comments = $derived((data.comments || []) as UserComment[]);
+	const canSeeTakeText = $derived(Boolean(data.canSeeTakeText));
 
 	const enneagramType = $derived(String(data?.user?.enneagram ?? '').trim());
 	const typeName = $derived(enneagramNames[enneagramType] || '');
@@ -126,7 +128,11 @@
 						<span class="badge">{comments.length}</span>
 					{/if}
 				</div>
-				<p class="card-subtitle">Contributions to questions</p>
+				<p class="card-subtitle">
+					{!canSeeTakeText && comments.length
+						? 'Answer a question to see their take'
+						: 'Contributions to questions'}
+				</p>
 			</div>
 
 			{#if !comments.length}
@@ -152,7 +158,9 @@
 									<span class="item-question">
 										{comment.question_formatted || comment.question}
 									</span>
-									<p class="item-answer">{comment.comment}</p>
+									{#if canSeeTakeText && comment.comment}
+										<p class="item-answer">{comment.comment}</p>
+									{/if}
 								</div>
 								<svg
 									class="chevron"

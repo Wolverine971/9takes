@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "greg-brockman",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/verification-edit.json"
+  },
+  "content_sha256": "de950db0e680c580495ef60b1d68a1d4b2f8c67636285b57dffaa62530f721ea",
+  "evidence_sha256": "0757b34c3a2ad8bb505a124560d9e574eb8c989e0804c246109a113bb6a9e767"
+}

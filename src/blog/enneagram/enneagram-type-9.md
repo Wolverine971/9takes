@@ -456,6 +456,8 @@ For sourced first-person accounts, this video features Beatrice Chestnut leading
 
 The people below have been interpreted as Type 9 through our editorial framework. Public typing is speculative: it cannot establish someone's private motivations or clinical traits. Instead, treat the examples as invitations to notice qualities the Enneagram associates with Nine, such as a grounding presence, perspective-taking, and a preference for harmony.
 
+Fiction has its Nines too. Jim and Pam from The Office read as [two Nines with different wings](/pop-culture/the-office-enneagram-types), which explains both the romance and the later-season drift.
+
 <FamousTypes type={9} />
 
 </section>

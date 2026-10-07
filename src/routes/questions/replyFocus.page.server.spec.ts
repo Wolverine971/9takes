@@ -12,11 +12,13 @@ const state = vi.hoisted(() => ({
 	resolver: null as
 		null | ((table: string, calls: { method: string; args: unknown[] }[]) => unknown),
 	rpcMock: vi.fn(),
-	checkDemoTimeMock: vi.fn()
+	checkDemoTimeMock: vi.fn(),
+	reads: [] as { client: string; table: string; calls: { method: string; args: unknown[] }[] }[]
 }));
 
-function chain(table: string): any {
+function chain(table: string, client = 'anon'): any {
 	const calls: Call[] = [];
+	state.reads.push({ client, table, calls });
 	const proxy: any = new Proxy(
 		{},
 		{
@@ -42,7 +44,10 @@ vi.mock('$lib/supabase', () => ({
 	supabase: { rpc: state.rpcMock, from: (table: string) => chain(table) }
 }));
 vi.mock('$lib/server/supabaseAdmin', () => ({
-	getSupabaseAdminClient: () => ({ rpc: state.rpcMock, from: (table: string) => chain(table) })
+	getSupabaseAdminClient: () => ({
+		rpc: state.rpcMock,
+		from: (table: string) => chain(table, 'admin')
+	})
 }));
 vi.mock('$lib/server/giveFirstFunnel', () => ({ recordGiveFirstEvent: vi.fn() }));
 vi.mock('$lib/server/bestEffortTelemetry', () => ({
@@ -121,9 +126,22 @@ function buildEvent(search: string, answered = true) {
 		cookies: { get: vi.fn(() => 'visitor-1'), delete: vi.fn() },
 		locals: {
 			session: { user: { id: 'user-1', email: 'u@example.com', aud: 'authenticated' } },
-			supabase: { rpc: state.rpcMock, from: (table: string) => chain(table) }
+			supabase: { rpc: state.rpcMock, from: (table: string) => chain(table, 'locals') }
 		}
 	};
+}
+
+/** Reads of take text (or links) that did not go through the service role. */
+function nonServiceTextReads() {
+	return state.reads.filter(
+		(read) =>
+			read.client !== 'admin' &&
+			(read.table === 'links' ||
+				(/^comments(_demo)?$/.test(read.table) &&
+					read.calls.some(
+						(call) => call.method === 'select' && /\bcomment\b/.test(String(call.args[0]))
+					)))
+	);
 }
 
 const take = (id: number, questionId = QUESTION_ID, extra: Partial<Row> = {}): Row => ({
@@ -148,7 +166,20 @@ const reply = (id: number, parentId: number, extra: Partial<Row> = {}): Row => (
 describe('/questions/[slug]?reply=<id> resolution', () => {
 	beforeEach(() => {
 		vi.clearAllMocks();
+		state.reads = [];
 		state.checkDemoTimeMock.mockResolvedValue(false);
+	});
+
+	it('reads take text and links only through the service role', async () => {
+		state.resolver = buildResolver([take(100, QUESTION_ID, { comment_count: 1 }), reply(900, 100)]);
+
+		const result = (await load(buildEvent('?reply=900') as any)) as any;
+
+		expect(result.replyFocus?.replyId).toBe(900);
+		expect(state.reads.some((read) => read.client === 'admin' && read.table === 'comments')).toBe(
+			true
+		);
+		expect(nonServiceTextReads()).toEqual([]);
 	});
 
 	it('resolves a valid reply to its parent take with replies pre-loaded', async () => {

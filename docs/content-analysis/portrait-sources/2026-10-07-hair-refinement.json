@@ -1,0 +1,319 @@
+{
+  "date": "2026-10-07",
+  "templateSha256": "74b6538bbdbf61cb61ce29a7c8e7a97041108f7fdc20851291c1cd388da09344",
+  "revisions": [
+    {
+      "slug": "ben-shelton",
+      "name": "Ben Shelton",
+      "beforeMaster": {
+        "path": "output/portrait-processed/2026-10-07-queue-rest/Ben-Shelton-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "cfa44c683f06b2f83c594adb39d238118633d8b44d288c8d07e85de33595c3b2"
+      },
+      "afterMaster": {
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Ben-Shelton-final-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "22604d6b242e6674265643b4b4d1b9573d29b06dba3a1fc6a295c2b74181e89f"
+      },
+      "refinement": {
+        "date": "2026-10-07",
+        "script": "output/portrait-processed/2026-10-07-hair-fixes/refine-hair.mjs",
+        "finalizer": "output/portrait-processed/2026-10-07-hair-fixes/finalize-masters.mjs",
+        "settings": {
+          "config": {
+            "inner": 18,
+            "outer": 25,
+            "seed": 6,
+            "cutoff": 310,
+            "fade": 20,
+            "bgWhite": true,
+            "minContrast": 60
+          },
+          "changed": 11364,
+          "recovered": 8481,
+          "cleared": 2883,
+          "method": "Source-photo local foreground/background color matting in the hair fringe, no shape or face generation",
+          "finalFrameTreatment": {
+            "preserveOpaqueInteriorPixels": true,
+            "hairEditCutoff": 560,
+            "fade": 25,
+            "crownMask": null
+          }
+        },
+        "matteInput": "output/portrait-processed/2026-10-07-hair-fixes/ben-shelton-refined-cutout.png",
+        "matteCrop": "output/portrait-processed/2026-10-07-hair-fixes/ben-shelton-refined-crop.png",
+        "intermediateMaster": "output/portrait-processed/2026-10-07-hair-fixes/Ben-Shelton-refined-master.png",
+        "faceGeneration": false,
+        "sourcePixels": "Hair fringe alpha and background contamination refined from the existing original photograph. Opaque interior pixels and the original central face region are preserved from the previous master."
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "installedPortraitCheck": "pass",
+        "hairEdges": "Revised and visually compared on light and dark backgrounds",
+        "centralFacePixelPreservation": {
+          "x": 450,
+          "y": 550,
+          "width": 190,
+          "height": 200,
+          "result": "identical to previous master"
+        }
+      }
+    },
+    {
+      "slug": "arthur-mensch",
+      "name": "Arthur Mensch",
+      "beforeMaster": {
+        "path": "output/portrait-processed/2026-10-07-queue-rest/Arthur-Mensch-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "28a1f072b6d137f50fdc69e0a1003d69bdb80e8d7569575e9d90261a05f93436"
+      },
+      "afterMaster": {
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Arthur-Mensch-final-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "1a17572c509db4928981422c1bcdc1993819a2854f2ef29bc9dfbbbb113340de"
+      },
+      "refinement": {
+        "date": "2026-10-07",
+        "script": "output/portrait-processed/2026-10-07-hair-fixes/refine-hair.mjs",
+        "finalizer": "output/portrait-processed/2026-10-07-hair-fixes/finalize-masters.mjs",
+        "settings": {
+          "config": {
+            "inner": 23,
+            "outer": 18,
+            "seed": 5,
+            "cutoff": 210,
+            "fade": 20,
+            "minContrast": 55
+          },
+          "changed": 6440,
+          "recovered": 3181,
+          "cleared": 3259,
+          "method": "Source-photo local foreground/background color matting in the hair fringe, no shape or face generation",
+          "finalFrameTreatment": {
+            "preserveOpaqueInteriorPixels": true,
+            "hairEditCutoff": 555,
+            "fade": 25,
+            "crownMask": null
+          }
+        },
+        "matteInput": "output/portrait-processed/2026-10-07-hair-fixes/arthur-mensch-refined-cutout.png",
+        "matteCrop": "output/portrait-processed/2026-10-07-hair-fixes/arthur-mensch-refined-crop.png",
+        "intermediateMaster": "output/portrait-processed/2026-10-07-hair-fixes/Arthur-Mensch-refined-master.png",
+        "faceGeneration": false,
+        "sourcePixels": "Hair fringe alpha and background contamination refined from the existing original photograph. Opaque interior pixels and the original central face region are preserved from the previous master."
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "installedPortraitCheck": "pass",
+        "hairEdges": "Revised and visually compared on light and dark backgrounds",
+        "centralFacePixelPreservation": {
+          "x": 450,
+          "y": 550,
+          "width": 190,
+          "height": 200,
+          "result": "identical to previous master"
+        }
+      }
+    },
+    {
+      "slug": "naval-ravikant",
+      "name": "Naval Ravikant",
+      "beforeMaster": {
+        "path": "output/portrait-processed/2026-10-07-queue-rest/Naval-Ravikant-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "7b2574f0ed56fda1302b81dbdf43a14b3b7907f4a0af1d874f67b580f7846f5f"
+      },
+      "afterMaster": {
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Naval-Ravikant-final-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "c0c59a06baa4ec19ac81b57547061d3d6e130f27643e692d47bfe0603ed85013"
+      },
+      "refinement": {
+        "date": "2026-10-07",
+        "script": "output/portrait-processed/2026-10-07-hair-fixes/refine-hair.mjs",
+        "finalizer": "output/portrait-processed/2026-10-07-hair-fixes/finalize-masters.mjs",
+        "settings": {
+          "config": {
+            "inner": 42,
+            "outer": 28,
+            "seed": 10,
+            "cutoff": 370,
+            "fade": 30,
+            "bgWhite": true,
+            "minContrast": 45
+          },
+          "changed": 16950,
+          "recovered": 4022,
+          "cleared": 12928,
+          "method": "Source-photo local foreground/background color matting in the hair fringe, no shape or face generation",
+          "finalFrameTreatment": {
+            "preserveOpaqueInteriorPixels": true,
+            "hairEditCutoff": 560,
+            "fade": 25,
+            "crownMask": null
+          }
+        },
+        "matteInput": "output/portrait-processed/2026-10-07-hair-fixes/naval-ravikant-refined-cutout.png",
+        "matteCrop": "output/portrait-processed/2026-10-07-hair-fixes/naval-ravikant-refined-crop.png",
+        "intermediateMaster": "output/portrait-processed/2026-10-07-hair-fixes/Naval-Ravikant-refined-master.png",
+        "faceGeneration": false,
+        "sourcePixels": "Hair fringe alpha and background contamination refined from the existing original photograph. Opaque interior pixels and the original central face region are preserved from the previous master."
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "installedPortraitCheck": "pass",
+        "hairEdges": "Revised and visually compared on light and dark backgrounds",
+        "centralFacePixelPreservation": {
+          "x": 450,
+          "y": 550,
+          "width": 190,
+          "height": 200,
+          "result": "identical to previous master"
+        }
+      }
+    },
+    {
+      "slug": "rebecca-yarros",
+      "name": "Rebecca Yarros",
+      "beforeMaster": {
+        "path": "output/portrait-processed/2026-10-07-queue-rest/Rebecca-Yarros-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "10f2fa38e1f8a82ceb6f880e235f52ed996efb43929bb18e036367530af1d702"
+      },
+      "afterMaster": {
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Rebecca-Yarros-final-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "451fc1c76535454b007e90dd82b5e25443c4dce4e7df3527ed469c8b7f2ece20"
+      },
+      "refinement": {
+        "date": "2026-10-07",
+        "script": "output/portrait-processed/2026-10-07-hair-fixes/refine-hair.mjs",
+        "finalizer": "output/portrait-processed/2026-10-07-hair-fixes/finalize-masters.mjs",
+        "settings": {
+          "config": {
+            "inner": 40,
+            "outer": 15,
+            "seed": 8,
+            "cutoff": 1740,
+            "fade": 100,
+            "minContrast": 25,
+            "recoveryMinY": 350
+          },
+          "changed": 106088,
+          "recovered": 11012,
+          "cleared": 95076,
+          "method": "Source-photo local foreground/background color matting in the hair fringe, no shape or face generation",
+          "finalFrameTreatment": {
+            "preserveOpaqueInteriorPixels": true,
+            "hairEditCutoff": 1080,
+            "fade": 25,
+            "crownMask": "Original uncontracted alpha above y290, blended to refined matte by y360"
+          }
+        },
+        "matteInput": "output/portrait-processed/2026-10-07-hair-fixes/rebecca-yarros-refined-aligned.png",
+        "matteCrop": "output/portrait-processed/2026-10-07-hair-fixes/rebecca-yarros-refined-crop.png",
+        "intermediateMaster": "output/portrait-processed/2026-10-07-hair-fixes/Rebecca-Yarros-refined-master.png",
+        "faceGeneration": false,
+        "sourcePixels": "Hair fringe alpha and background contamination refined from the existing original photograph. Opaque interior pixels and the original central face region are preserved from the previous master."
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "installedPortraitCheck": "pass",
+        "hairEdges": "Revised and visually compared on light and dark backgrounds",
+        "centralFacePixelPreservation": {
+          "x": 450,
+          "y": 550,
+          "width": 190,
+          "height": 200,
+          "result": "identical to previous master"
+        }
+      }
+    },
+    {
+      "slug": "joseph-zada",
+      "name": "Joseph Zada",
+      "beforeMaster": {
+        "path": "output/portrait-processed/2026-10-07-queue-rest/Joseph-Zada-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "9a21b744c3fc06017154ba90b31d0f5ccd587c2a0882baee7672219c522d841b"
+      },
+      "afterMaster": {
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Joseph-Zada-final-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "9294e54a73e6a7601b45023b1f53e4561e1a8f19ac16f96f05207122e8fc1ffb"
+      },
+      "refinement": {
+        "date": "2026-10-07",
+        "script": "output/portrait-processed/2026-10-07-hair-fixes/refine-hair.mjs",
+        "finalizer": "output/portrait-processed/2026-10-07-hair-fixes/finalize-masters.mjs",
+        "settings": {
+          "config": {
+            "inner": 115,
+            "outer": 85,
+            "seed": 24,
+            "cutoff": 1210,
+            "fade": 100,
+            "minContrast": 65
+          },
+          "changed": 215507,
+          "recovered": 51174,
+          "cleared": 164333,
+          "method": "Source-photo local foreground/background color matting in the hair fringe, no shape or face generation",
+          "finalFrameTreatment": {
+            "preserveOpaqueInteriorPixels": true,
+            "hairEditCutoff": 650,
+            "fade": 25,
+            "crownMask": null
+          }
+        },
+        "matteInput": "output/portrait-processed/2026-10-07-hair-fixes/joseph-zada-refined-cutout.png",
+        "matteCrop": "output/portrait-processed/2026-10-07-hair-fixes/joseph-zada-refined-crop.png",
+        "intermediateMaster": "output/portrait-processed/2026-10-07-hair-fixes/Joseph-Zada-refined-master.png",
+        "faceGeneration": false,
+        "sourcePixels": "Hair fringe alpha and background contamination refined from the existing original photograph. Opaque interior pixels and the original central face region are preserved from the previous master."
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "installedPortraitCheck": "pass",
+        "hairEdges": "Revised and visually compared on light and dark backgrounds",
+        "centralFacePixelPreservation": {
+          "x": 450,
+          "y": 550,
+          "width": 190,
+          "height": 200,
+          "result": "identical to previous master"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+I've written the subject (fairness) review for Greg Brockman to `review-subject.json`, and it passes the review schema. Every quoted passage matches the draft exactly, the two content hashes are copied from the request, and no other files were changed.
+
+**Verdict:** the draft doesn't need a different type, but it has six major fairness problems. They all sit where the Type 3 argument is built: the draft leaves out Brockman's own explanations and some outcomes that work in his favor. I flagged sensitive allegations and contested typing as risks, which triggers the full six-role review.
+
+**Major findings:**
+1. **The 2019 machine-learning essay.** "That is the Type 3 fear in plain form" states the author's guess about his motive as fact. In the essay itself, Brockman says other work kept him busy and he procrastinated, then came back because he "wanted to see the whole picture clearly." The draft also cuts the "newbie" sentence short and makes it say more than it does.
+2. **The Wall Street Journal episodes.** The Journal says Brockman and Altman "reluctantly agreed to keep Brockman off the language project," but the draft says he pushed onto it over objections. Altman had asked for the 2020 peer reviews and called Brockman's "tough but fair." The layoffs followed a staff spreadsheet Musk had asked for.
+3. **The sabbatical.** The draft says the anonymous "work super hard, then hibernate" pattern appears in his own account. His actual explanation, on The Knowledge Project, was that he "needed some time to… find my way back to remembering… why it was worth the pain." Neither the body nor the FAQ includes that.
+4. **The political donations.** The draft says his reasoning wasn't available, but it's widely reported from his February 2026 WIRED interview ("It's really team humanity"). The FAQ also states his reason for pulling back as fact and makes the pullback sound more final than his "no plans to donate more at this time."
+5. **The Musk lawsuit outcome is missing.** On May 18, 2026, the jury found Musk's claims came too late, without ruling on the merits, and Musk says he'll appeal. The draft calls Brockman "a defendant facing claims of greed" and never says how the case ended.
+6. **Fortune quotes.** The "high standards" quote is cut away from its first sentence, "He's the heartbeat of OpenAI." Named praise from AMD's Lisa Su and Stargate head Peter Hoeschele is left out. OpenAI's denial of the bullying claim is shortened, and one line implies hypocrisy based on a single anonymous quote.
+
+**Minor findings:**
+- **Quit FAQ.** It says Sutskever told him he was off the board. Brockman says it was "the board minus Sam" on the call.
+- **Title and description.** They state the inferred need ("needs something to show") as settled fact. The description also says he stopped trying machine learning, when he wrote that he stopped on the Dota project.
+
+I marked five passages to keep, including the line refusing to invent a childhood wound, the November 17 concession to the Type 1 reading, and the closing "run right in" quote. That quote matches YouTube's automatic captions word for word.
+
+The similarity check flagged two matches with other profiles: a standard Type 3 definition and a "public record" disclaimer. The arguments themselves are different, so I didn't count it as reuse.
+
+I couldn't open the New Yorker or WIRED directly. New Yorker details come from the research notes. WIRED quotes come from a reposted copy and news summaries, so they need checking against WIRED before the draft uses them.
+
+Separately, the Supabase connection failed this session. Several plugin services (Notion, Slack, Ahrefs and others) also need authorizing through `/mcp` or your claude.ai connector settings. None of that affected this review.

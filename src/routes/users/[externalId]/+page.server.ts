@@ -4,6 +4,7 @@ import type { Actions, PageServerLoad } from './$types';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { canSeeProfileTakeText, loadProfileAnswers } from '$lib/server/profileAnswers';
 import type { Database } from '../../../../database.types';
 
 type ProfileRow = Database['public']['Tables']['profiles']['Row'];
@@ -12,13 +13,6 @@ type QuestionRow = Pick<
 	Database['public']['Tables']['questions']['Row'],
 	'id' | 'question' | 'question_formatted' | 'url'
 >;
-type UserCommentRow = {
-	id: number;
-	comment: string;
-	url: string;
-	question: string;
-	question_formatted: string | null;
-};
 type ProfileSummary = Pick<
 	ProfileRow,
 	'id' | 'enneagram' | 'external_id' | 'created_at' | 'first_name'
@@ -30,7 +24,7 @@ type SubscriptionWithQuestion = SubscriptionRow & {
 /** @type {import('./$types').PageLoad} */
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const load: PageServerLoad = async (event) => {
-	const { demo_time } = await event.parent();
+	const { demo_time, user: viewer } = await event.parent();
 	const profileTable = demo_time === true ? 'profiles_demo' : 'profiles';
 	const subscriptionTable = demo_time === true ? 'subscriptions_demo' : 'subscriptions';
 	const questionTable = demo_time === true ? 'questions_demo' : 'questions';
@@ -72,19 +66,25 @@ export const load: PageServerLoad = async (event) => {
 		console.log(subscriptionsError);
 	}
 
-	const { data: comments, error: commentsError } = (await db.rpc('get_user_question_comments2', {
-		authorid: user?.id
-	})) as { data: UserCommentRow[] | null; error: unknown };
-
-	if (commentsError) {
-		console.log(commentsError);
-	}
+	// Give-first: visitors see which questions this user answered, never the
+	// take text. The owner and admins (verified session + layout admin flag)
+	// also get the text. Take text is service-role only.
+	const canSeeTakeText = canSeeProfileTakeText(
+		{ id: event.locals.user?.id ?? null, admin: viewer?.admin === true },
+		user.id
+	);
+	const comments = await loadProfileAnswers(getSupabaseAdminClient(), {
+		authorId: user.id,
+		demoTime: demo_time === true,
+		includeText: canSeeTakeText
+	});
 
 	if (!findUserError) {
 		return {
 			user: mapDemoValues(user),
 			subscriptions: mapDemoValues(subscriptions),
-			comments: mapDemoValues(comments),
+			comments,
+			canSeeTakeText,
 			lastSignIn
 		};
 	} else {

@@ -1,0 +1,34 @@
+I've written both output files for the Greg Brockman draft stage: `draft.md` and `evidence-draft.json`. Nothing else in the repo changed, nothing was published, and the profile is set to `published: false`. The contract's checks pass: no blockers, 3,951 words, and every claim's passage matches the article text exactly.
+
+**The draft**
+- **Title:** "Why Greg Brockman Needs Something to Show"
+- **Opening:** his own 2019 essay. In July 2017 his code was dropped from the Dota bot and he "had nothing to show for my efforts." The next line: "I never tried machine learning on the Dota project again."
+- **Main idea:** he gives up titles easily. He handed off management at Stripe to go back to coding, celebrated making himself unnecessary there, and fetched a whiteboard for OpenAI's first researchers. But the one stretch where he says he was stuck for years came when he had no visible result.
+- **Type read:** Type 3, medium confidence. Type 1 is argued in full as the strongest rival, and Type 9 as a third.
+- **Concessions:** the article says plainly that November 17, 2023 (the day he quit) favors a One over a Three, and lists what the Three reading doesn't explain.
+- **What separates 3 from 1:** when the right way and the fast way collide, he picks the fast way. Examples include his rule of a soft and a hard launch date, a peer review attacking a colleague's "bureaucratic processes," and pulling his super PAC money because it kept "reflecting on the company."
+
+**Accuracy**
+- Before quoting, I re-opened the main sources: five of his blog essays, Stratechery, Fortune, the WSJ piece, The New Yorker, the MIT Technology Review trial coverage and the Knowledge Project transcript.
+- That turned up two wording fixes:
+  - Fortune says Keach Hagey's book "suggested" the Sutskever memo raised "alleged bullying." The research summary had stated it more firmly.
+  - The captions for the closing quote read "Like I just like run right in." The research excerpt dropped the "like."
+- Three quotes contain em dashes. I quoted around them without changing any words, so the article has none.
+
+**Editorial calls**
+- I left out two disputed allegations the research found: Dario Amodei's private note that Brockman said he wanted "money and power," and the "countries plan" to sell AI access to governments. Both are still in the research record.
+- The claim that he was "essentially fired from Stripe" appears only as unverified hearsay. Sutskever admitted under oath he never checked it.
+- I left the $25 million MAGA Inc. gift undated because sources disagree on the year.
+
+**Evidence file:** 113 claims, all 33 sources kept, and a type hypothesis updated to match the draft. The sensitive-allegation and contested-typing flags are still set, so the six-reviewer jury is required next.
+
+**Lint:** `blog-lint.sh` still fails on old-format sections (TL;DR, Rabbit Hole, ledgers, the fixed H3). The v3 standard makes those optional. It also warns that 3,951 words is over its 3,200–3,900 target band, though under the 4,500 limit.
+
+**Left for later stages**
+- Open the paywalled NYT report to confirm the Slack quote.
+- Read the WIRED interview on his donations.
+- Check the Knowledge Project audio for the closing line.
+- Keep the hedge on "appears to be Anna," which is inferred from timing.
+- Before publishing, recheck his title, net worth, the super PAC's status and the film's December 25 release.
+
+The Supabase connector failed to connect this session. Ahrefs, Figma, Notion, Slack and several other plugin connectors need authorizing through `/mcp` or claude.ai connector settings. This stage didn't need any of them.

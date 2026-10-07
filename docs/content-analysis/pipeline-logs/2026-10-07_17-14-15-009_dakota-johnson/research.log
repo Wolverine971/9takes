@@ -1,0 +1,37 @@
+I've finished the research stage and written `evidence.json` to the Dakota Johnson run folder. It passes the pipeline's evidence check with status ready. No other repo files were changed and nothing was published.
+
+**Type read: 4, medium confidence. The strongest alternative is 6.**
+
+- **The case for 4:** across nine years, what she protects is being seen as she really is, and keeping her work from being turned into something fake.
+  - "different is what I'm about" (2017)
+  - the best compliment of her life was being told she "did something different" with a role (2022)
+  - she wanted "to be seen—to not just be the hot girl on the beach" (2021)
+  - the one time the 2026 Vogue writer saw her bristle was at being called "cool." She answered, "I just want to be authentic."
+- **The case for 6:** recurring anxiety and stage fright, steady "safe" and "protected" language, loyalty to chosen family, and a 2021 line about fearing "is that going to be okay?"
+- **What separates them:** for her, safety is what lets her express herself freely, not the goal. She rejects having a method or rules and mocks decision-makers who want "the safe thing." Her complaints about Fifty Shades and Madame Web are that the films became contrived, not that she was left unprotected.
+- **The other readings:** 8 fits the Ellen moment, 9 fits her solitude and going "along for the ride," and 7 fits her mischief.
+- **What the 4 read doesn't explain:** she loves lying to the press for fun, and she contradicted her own plans after Madame Web.
+
+**How this differs from this morning's run (the one that timed out at review)**
+
+I reopened every source rather than trusting that run's file, and it had two errors I corrected:
+- **An Ellen line was given to the wrong person.** "Well, I didn't even know you liked me" was attributed to DeGeneres. The replies that follow indicate it was Johnson's, so I flagged it to confirm on the video before anyone quotes it.
+- **A joke was used as evidence of anxiety.** "Terrified of what happens to me all the time?" (2024) is her joking that other actors are scared by what happens to her. I marked it as not usable for that.
+
+It also adds new sources:
+- **Fifty Shades fight, independently confirmed:** in 2017, five years before Johnson spoke about it, the first film's director, Sam Taylor-Johnson, told The Hollywood Reporter that "every scene was fought over" with E.L. James.
+- **The limes, in her own words:** two official Tonight Show clips give her account, and the account changes. In January 2021 the limes were "set dressing" and "I just lied." In December 2021 it was "I love them," and she found out about the allergy from a test "a few weeks later."
+- **Others:** a Ringer critique of her press persona, Christy Hall confirming she recruited Sean Penn for Daddio, a 2018 "very porous person" quote, and a 2022 W magazine Q&A.
+
+The file has 42 sources, all opened, and 47 claims. A script confirmed every source excerpt word for word against the text I fetched. Two quotes inside claims differ trivially: a caption's laugh note and a dropped period.
+
+**Risk flags:** sensitive allegations and contested typing are both on, so the draft gets the full six-reviewer panel. The research tasks also tell the drafter:
+- don't use Wikipedia's rehab claim
+- don't state any romance after the Chris Martin split as fact
+- present the limes story as her shifting account
+- add a date and the COVID context to the 2020 anxiety quote
+- recheck for any response from E.L. James
+
+Two things I couldn't open: the original 2015 Vogue story (vogue.com has removed it and the Wayback Machine was rate-limiting), so only its one relayed quote is used, and Verity's opening weekend and reviews.
+
+Separately, I added a note to my memory file about pulling YouTube captions when the usual transcript tool won't load. Supabase failed to connect this session and several plugin connectors need authorizing in your settings; none were needed for this stage.

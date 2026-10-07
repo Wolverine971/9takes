@@ -20,6 +20,7 @@ import {
 	resolveAccountTables,
 	seedFrom
 } from '$lib/server/accountDashboard';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -88,7 +89,8 @@ export const load: PageServerLoad = async (event) => {
 		loadCommunityPulse(supabase, tables),
 		loadPersonalStats(supabase, tables, profile.id),
 		loadActiveQuestions(supabase, tables),
-		loadYourTakes(supabase, tables, profile.id),
+		// Own take text is service-role only; scoped by the verified session id.
+		loadYourTakes(supabase, getSupabaseAdminClient(), tables, session.user.id),
 		loadNotifications(supabase),
 		loadNotificationPreferences(supabase, profile.id)
 	]);

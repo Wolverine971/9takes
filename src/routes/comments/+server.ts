@@ -5,6 +5,7 @@ import { z } from 'zod';
 import type { Database } from '../../../database.types';
 
 import { getQuestionTakes } from '$lib/server/questionTakes';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 import { checkDemoTime } from '../../utils/api';
 
@@ -32,6 +33,30 @@ interface CommentWithProfile extends PublicCommentRow {
 const PUBLIC_COMMENT_FIELDS =
 	'id, comment, author_id, parent_id, parent_type, comment_count, created_at, modified_at, like_count';
 
+/** Upper bound on the reply chain walked to find a thread's question. */
+const MAX_THREAD_DEPTH = 10;
+
+/**
+ * The question a reply thread hangs off: walks parent links from a comment up
+ * to its top-level take. Null when the chain is broken, passes through a
+ * removed comment, or runs deeper than MAX_THREAD_DEPTH. Reads ids only.
+ */
+async function resolveThreadQuestionId(db: any, table: string, commentId: number) {
+	let currentId = commentId;
+	for (let depth = 0; depth < MAX_THREAD_DEPTH; depth += 1) {
+		const { data, error: lookupError } = await db
+			.from(table)
+			.select('parent_id, parent_type, removed')
+			.eq('id', currentId)
+			.maybeSingle();
+		if (lookupError || !data || data.removed === true || data.parent_id == null) return null;
+		if (data.parent_type === 'question') return Number(data.parent_id);
+		if (data.parent_type !== 'comment') return null;
+		currentId = Number(data.parent_id);
+	}
+	return null;
+}
+
 // Validation schemas
 const getCommentsSchema = z.object({
 	parentId: z.coerce.number().int().positive().safe(),
@@ -43,7 +68,8 @@ const getCommentsSchema = z.object({
 
 const postCommentSchema = z.object({
 	comment: z.string().min(1).max(5000),
-	comment_id: z.string().uuid()
+	// comments.id is a bigint; the old uuid check rejected every edit with a 400.
+	comment_id: z.coerce.number().int().positive().safe()
 });
 
 /** @type {import('./$types').RequestHandler} */
@@ -71,23 +97,34 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 
 		const user = locals?.session?.user;
 
-		if (parentType === 'question') {
-			// only works for questions
-			const { data: userHasAnswered, error: canSeeCommentsError } = await supabase.rpc(
-				'can_see_comments_3',
-				{
-					userfingerprint: cookie ?? null,
-					questionid: parentId,
-					userid: user?.id || null
-				}
-			);
+		// Take text is readable only by the service role (give-first wall), so
+		// every read below uses it, and only after the gate passes.
+		const db = getSupabaseAdminClient() as any;
+		const table = demo_time === true ? 'comments_demo' : 'comments';
 
-			if (!userHasAnswered) {
-				if (canSeeCommentsError) {
-					logger.error('Error checking comment permissions', canSeeCommentsError);
-				}
-				return json([]);
+		// Replies are held to the gate of the question their thread hangs off.
+		const gateQuestionId =
+			parentType === 'question' ? parentId : await resolveThreadQuestionId(db, table, parentId);
+		if (gateQuestionId === null) {
+			return json([]);
+		}
+
+		// The gate runs on the request's client so auth.uid() resolves for
+		// signed-in readers.
+		const { data: userHasAnswered, error: canSeeCommentsError } = await supabase.rpc(
+			'can_see_comments_3',
+			{
+				userfingerprint: cookie ?? null,
+				questionid: gateQuestionId,
+				userid: user?.id || null
 			}
+		);
+
+		if (!userHasAnswered) {
+			if (canSeeCommentsError) {
+				logger.error('Error checking comment permissions', canSeeCommentsError);
+			}
+			return json([]);
 		}
 
 		if (parentType === 'question' && demo_time !== true) {
@@ -101,8 +138,8 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 			return json(result.data);
 		}
 
-		const { data: questionComments, error: questionCommentsError } = (await supabase
-			.from(demo_time === true ? 'comments_demo' : 'comments')
+		const { data: questionComments, error: questionCommentsError } = (await db
+			.from(table)
 			.select(
 				`${PUBLIC_COMMENT_FIELDS}, ${demo_time === true ? 'profiles_demo:public_profiles_demo' : 'profiles:public_profiles'} ( external_id, enneagram)`
 			)
@@ -134,13 +171,14 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 				throw new Error('Unable to retrieve comments');
 			}
 			if (questionCommentIds) {
-				const { data: commentComments, error: commentError } = (await supabase
-					.from(demo_time === true ? 'comments_demo' : 'comments')
+				const { data: commentComments, error: commentError } = (await db
+					.from(table)
 					.select(
 						`${PUBLIC_COMMENT_FIELDS}, ${demo_time === true ? 'profiles_demo:public_profiles_demo' : 'profiles:public_profiles'} ( external_id, enneagram)`
 					)
 					.in('parent_id', questionCommentIds)
 					.eq('parent_type', parentType)
+					.eq('removed', false)
 					.order('created_at', { ascending: parentType === 'comment' })
 					.order('id', { ascending: parentType === 'comment' })) as {
 					data: CommentWithProfile[] | null;

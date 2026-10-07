@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "77a606b0cdd9f977ba00778706be75962db4fb7e82faa05d13f41637ab154618",
+  "evidence_sha256": "98f08e7c6e7a4ee2c46cada7c4a827fb0a3e4bd15e49c578e736b26fe3656381",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "Not everyone buys the candor. The Ringer's Jodi Walker wrote on _Madame Web_'s opening day",
+      "problem": "This mischaracterizes the source. I reopened The Ringer piece (February 14, 2024) on 2026-10-07, and it is admiring. It calls her \"the Calm Queen of Chaos.\" The \"Then hire Johnson\" line goes on: \"She's gonna get out there and say some shit, and it'll probably all turn out fine.\" That is advice to publicists praising her unfiltered candor. Nowhere does Walker question whether the candor is genuine. \"Not everyone buys the candor\" turns a fan piece into a skeptic and implies a doubting camp that the record does not contain. \"Named the persona's market value\" is the article's reading, not Walker's argument. The incentive point is fair as the author's own caveat. It is unfair to the subject to present it as outside doubt about her sincerity.",
+      "acceptance_test": "No sentence implies that Walker or The Ringer doubts Johnson's candor. Walker's piece is described as admiring or affectionate. Any claim that the persona has commercial value is labeled as the article's own inference, or sourced to someone who actually makes it. C85's inference and S38's context are updated to match."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "When she is low, she reaches for meaning rather than reassurance.",
+      "problem": "This builds a type discriminator from how she copes with a mood disorder, and it drops her own account of that coping. In every opened source where she discusses depression, she credits professionals or people. Marie Claire 2020: \"with the help of professionals\" and \"I am in a lot of therapy.\" Vanity Fair 2022, in the same breath as the scarab line: \"I am in therapy, and I have struggled with depression for my whole life. I'm always trying to navigate that in an honest and safe way.\" Vogue 2026 introduces the Jung line with \"Various modalities of therapy have helped\" and adds \"as has a solid network of friends and chosen family.\" The draft removes all of this and quotes the Jung interest as meaning-making. It also hides a counter-instance (\"navigate that in an honest and safe way\") to the claim that Johnson \"almost always\" treats safety as a means to something else. The standard warns against treating a mood disorder as personality evidence.",
+      "acceptance_test": "The paragraph either drops the \"meaning rather than reassurance\" contrast or tests it against her stated reliance on therapy, friends and chosen family. The Jung and scarab quotes either carry their therapy context or are no longer used as meaning-making evidence. Depression is not used as a discriminator. \"Almost always\" is either checked against the Vanity Fair \"honest and safe way\" line or softened."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "Dakota Johnson: The Prankster Who Won't Fake a Feeling",
+      "problem": "The title, and the meta_title \"Why She Won't Fake It,\" present the article's inference as a fixed trait. Her own words are \"It's hard for me to fake it.\" Bustle shows she said this about the press tour, in answer to \"Have the last two weeks been weird?\" The record also cuts against the headline. She promoted Fifty Shades for years in a way she later said she could not discuss \"truthfully\" because \"you want to promote a movie the right way.\" The Marie Claire article the draft quotes notes that she \"has denied reports that she was displeased with the Fifty Shades films\" (2020), and the draft omits that note. The body concedes she \"can hold a public line for years\" and calls the bit/feeling line an inference with \"fuzzy edges.\" But \"The bit and the feeling\" never tests that line against the Fifty Shades years, and the headline states it without qualification.",
+      "acceptance_test": "The title and meta_title use wording the body supports, such as her own \"hard to fake\" framing or a question. \"The bit and the feeling\" explicitly addresses the Fifty Shades promotional years and the 2020 denial (for example, withholding a grievance versus performing a feeling), or the thesis is narrowed. Title, meta_title, persona_title, description and FAQs all agree with the resulting claim."
+    },
+    {
+      "id": "subject-04",
+      "severity": "minor",
+      "passage": "Defiance that fires even when she doesn't want the forbidden thing is reactive, and reactive defiance is classic counterphobic Six.",
+      "problem": "The hook (\"The most fun\"), the cult joke and the \"very defiant person… shaking\" line all come from the March 2024 Bustle Q&A. In that interview she says: \"I know I've exaggerated in this interview, and you can tell that I'm exaggerating because you see my face. If it's written down, it's hard.\" The evidence record notes this caveat (S04 context), but readers never see it. Her answer about lying to the press also continues: \"Sometimes when you're in a ridiculous situation, you just have to be ridiculous.\" That makes the lying situational, yet the hook and description drop it. Reading \"shaking\" literally, as a reactive-defiance discriminator, is the kind of reading she warned against.",
+      "acceptance_test": "Where Bustle lines carry type weight, the article tells readers once that she said she exaggerated in that interview. The defiance sentence is framed as her self-description in a riffing Q&A, not as observed behavior. The hook or the description includes or reflects the \"ridiculous situation\" qualifier."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "In 2024 she said the author's grip on Fifty Shades left",
+      "problem": "This hardens Johnson's description of a named living person. In 2024 she said \"the author was extremely precious about words, clothing, anything, everything\"; \"grip\" is the article's harsher paraphrase. It stacks on \"always a battle\" and \"authors who clamp down.\" Taylor-Johnson framed the 2015 conflict as two opposed visions (\"Her vision versus mine, and they were polar opposite\"), not one-sided obstruction. A web search on 2026-10-07 found no public response from E.L. James, which is consistent with C70.",
+      "acceptance_test": "The 2024 line quotes or neutrally paraphrases \"extremely precious about words, clothing, anything, everything.\" Nothing characterizes James's conduct beyond what Johnson and Taylor-Johnson said. The C70 recheck for a James response stays in place before publishing."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "Asked about it in 2024, Johnson said, \"It will haunt me.\"",
+      "problem": "This is missing its context. L'Officiel's prompt was praise: \"There's a special place in heaven for you being on the Ellen show and talking about your birthday. It was a really winning moment.\" Her answer reads as wry weariness at being defined by a meme. Without the prompt, readers of the body, and of the FAQ that ends on this line, may infer regret about correcting DeGeneres or an ongoing feud. Per the Wikipedia article on the interview, DeGeneres never publicly addressed the clip.",
+      "acceptance_test": "The body and the Ellen FAQ say she was answering an interviewer who praised the moment as \"a really winning moment,\" or otherwise make that clear. No interpretation of her motive is added."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "For most actors, wrap is the end of a job. For Johnson it means losing, again, the kind of set Vogue says she joined the industry for",
+      "problem": "The closing contrast is unsupported, and the evidence record itself contradicts it (C118 alternative: \"Actors commonly grieve wrap\"). In Vogue she describes post-wrap grief as \"this thing that happens on set… when you have this really intense connection to the material,\" which presents it as a general phenomenon. The contrast inflates her distinctiveness so it can carry the final claim about what she protects.",
+      "acceptance_test": "The \"most actors\" contrast is removed or sourced. The paragraph acknowledges that post-wrap grief is common, then locates what is specific to her (how often, how devastating, what she says she joined the industry for) without claiming other actors don't feel it."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "Her eight-year relationship with Coldplay's Chris Martin had ended in June 2025, and asked about her romantic life, she said, \"I don't want to say anything about that.\" She said she wants children: \"I hope that that happens for me.\"",
+      "problem": "These personal-life facts do no type work, and their placement invites an inference she never made. The breakup, her refusal to discuss romance and her wish for children sit together directly before a \"heartbreak\" quote, so a reader can easily tie that heartbreak to the breakup or to childlessness. In Vogue 2026 the children line follows \"I want to unfold… embrace this life,\" not the breakup, and the heartbreak quote is about wrap. She says she is \"obsessed with people not knowing where I am or what I'm doing.\" For that subject, the cluster reads as personal-life filler, and it carries three time-sensitive review triggers.",
+      "acceptance_test": "Either the breakup and children lines are cut (her refusal to discuss romance stays only if it serves the privacy point), or the children wish keeps its Vogue context and is separated from the breakup so nothing implies a causal link. The heartbreak paragraph keeps its explicit wrap framing."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "So the one moment that ruffled her in that Vogue interview is worth slowing down for.",
+      "reason": "I checked the scene against the Vogue 2026 text: the order of the \"feathers ruffle\" moment, the \"cool\" exchange and \"I just want to be authentic\" is faithful. It is a specific, sourced hook that the article pays off."
+    },
+    {
+      "passage": "That covers the first film only. Johnson's rewriting and the sequels rest on her word.",
+      "reason": "This is a model of fairness to a named living person in a dispute. It states the limits of the corroboration, notes that no James response was found, and keeps Johnson's own praise of James."
+    },
+    {
+      "passage": "A childhood like that can produce privacy, vigilance and a sense of not belonging in almost anyone, so it can't settle her type.",
+      "reason": "It refuses childhood-wound causation and keeps the sensitive family material (parents' addictions, the tabloid in class) attributed to Vogue rather than used as type proof."
+    },
+    {
+      "passage": "These are friends and colleagues quoted in flattering profiles. Foley's remark matters most because it predates the candid persona.",
+      "reason": "It labels the limits of the testimony honestly and gives a dating argument for why one witness counts more."
+    },
+    {
+      "passage": "A Seven's appetite usually runs from that sentence. Hers runs toward it.",
+      "reason": "I confirmed in Bustle that both halves come from the same motherhood answer. It is a distinctive, compact discriminator drawn from her own words."
+    }
+  ],
+  "assessment": "As a fairness proxy (I don't claim to speak for Johnson), I find the draft fair overall and unusually careful about separating her record from the author's inference. The E.L. James dispute appears as two attributed accounts with corroboration limits, Johnson's praise of James and a recheck trigger. A 2026-10-07 search found no James response. Vogue's family-addiction material is attributed and not used as causation. No rumored romance is named, and the typing is held at medium confidence with a substantial Six case. Three fairness problems need fixing. (1) An admiring Ringer piece is presented as skepticism about her candor. (2) Her depression is used as a type discriminator, with the therapy and chosen-family support she credits in all three relevant sources stripped out. (3) The title and meta_title state the bit/feeling inference as a fixed trait, and the body never tests it against her years of Fifty Shades promotion or the 2020 denial. The minor findings are missing prompt or qualifier context: the Bustle exaggeration caveat, \"It will haunt me\" answering praise, \"grip\" for \"precious,\" an unsupported wrap contrast, and personal-life details placed so they imply a link. Sources this reviewer opened: Bustle 2024, The Ringer 2024, L'Officiel 2024, Vogue 2026, Vanity Fair 2022 and the Wikipedia article on the Ellen interview; I also searched for a James response. Both risk flags stand. Sensitive allegations: a creative-control dispute naming a living author, parents' addictions, mental health. Contested typing: Four versus counterphobic Six at medium confidence. The six-role jury is warranted. The similarity advisory did not trip (max 0.016 against a 0.04 threshold, no shared phrases). Its top matches are generic type vocabulary, and the argument and details read as specific to Johnson."
+}

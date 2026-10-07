@@ -1,0 +1,213 @@
+{
+  "target": {
+    "person": "dakota-johnson",
+    "type": "4",
+    "units": 9,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_14-48-06-833_dakota-johnson/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "Andrew-Garfield",
+      "date": "2026-10-05",
+      "units": 12
+    },
+    {
+      "person": "Cara-Delevingne",
+      "date": "2026-09-01",
+      "units": 33
+    },
+    {
+      "person": "Freddie-Mercury",
+      "date": "2026-08-29",
+      "units": 39
+    },
+    {
+      "person": "jeremy-allen-white",
+      "date": "2026-08-26",
+      "units": 50
+    },
+    {
+      "person": "machine-gun-kelly",
+      "date": "2026-08-16",
+      "units": 47
+    },
+    {
+      "person": "Phoebe-Bridgers",
+      "date": "2026-08-15",
+      "units": 36
+    },
+    {
+      "person": "Bryan-Johnson",
+      "date": "2026-08-13",
+      "units": 34
+    },
+    {
+      "person": "Hunter-Biden",
+      "date": "2026-07-25",
+      "units": 30
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 2529,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.006,
+    "max": 0.438
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.144,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [
+        "public record",
+        "the public record"
+      ],
+      "target": "[diagnosis] This is a reading of the public record",
+      "other": "[diagnosis] The public record points toward Enneagram Type 4"
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "Andrew-Garfield",
+      "date": "2026-10-05",
+      "units": 12,
+      "maxScore": 0.438
+    },
+    {
+      "person": "jeremy-allen-white",
+      "date": "2026-08-26",
+      "units": 50,
+      "maxScore": 0.144
+    },
+    {
+      "person": "Hunter-Biden",
+      "date": "2026-07-25",
+      "units": 30,
+      "maxScore": 0.028
+    },
+    {
+      "person": "Phoebe-Bridgers",
+      "date": "2026-08-15",
+      "units": 36,
+      "maxScore": 0.025
+    },
+    {
+      "person": "Cara-Delevingne",
+      "date": "2026-09-01",
+      "units": 33,
+      "maxScore": 0.016
+    },
+    {
+      "person": "Bryan-Johnson",
+      "date": "2026-08-13",
+      "units": 34,
+      "maxScore": 0.013
+    },
+    {
+      "person": "machine-gun-kelly",
+      "date": "2026-08-16",
+      "units": 47,
+      "maxScore": 0.008
+    },
+    {
+      "person": "Freddie-Mercury",
+      "date": "2026-08-29",
+      "units": 39,
+      "maxScore": 0.008
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.438,
+      "other_person": "Andrew-Garfield",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a reading of the public record",
+      "other": "[diagnosis] This is a reading of public interviews"
+    },
+    {
+      "score": 0.144,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [
+        "public record",
+        "the public record"
+      ],
+      "target": "[diagnosis] This is a reading of the public record",
+      "other": "[diagnosis] The public record points toward Enneagram Type 4"
+    },
+    {
+      "score": 0.077,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [],
+      "target": "[diagnosis] Johnson's own vocabulary keeps circling that need.",
+      "other": "[diagnosis] White's own descriptions keep returning to identity mismatch as the problem fame creates."
+    },
+    {
+      "score": 0.032,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [
+        "public record"
+      ],
+      "target": "[diagnosis] This is a reading of the public record",
+      "other": "[diagnosis] White's public record offers more support for the Type 1 side"
+    },
+    {
+      "score": 0.028,
+      "other_person": "Hunter-Biden",
+      "shared_phrases": [],
+      "target": "[diagnosis] \"I know I've exaggerated in this interview",
+      "other": "[diagnosis] I've been very open about.\" What he fights over is authorship."
+    },
+    {
+      "score": 0.028,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [],
+      "target": "[diagnosis] Types 8 and 9 explain parts of her persona.",
+      "other": "[diagnosis] The useful part of that label is not eccentricity or sadness."
+    },
+    {
+      "score": 0.025,
+      "other_person": "Phoebe-Bridgers",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a reading of the public record",
+      "other": "[diagnosis] The public self is also crafted"
+    },
+    {
+      "score": 0.023,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [],
+      "target": "[diagnosis] Johnson's own vocabulary keeps circling that need.",
+      "other": "[diagnosis] White's public record offers more support for the Type 1 side"
+    },
+    {
+      "score": 0.017,
+      "other_person": "Phoebe-Bridgers",
+      "shared_phrases": [],
+      "target": "[diagnosis] because her anxiety and her talk of feeling safe run just as deep.",
+      "other": "[diagnosis] That interpretation explains both her disclosure and her retreat."
+    },
+    {
+      "score": 0.017,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a reading of the public record",
+      "other": "[diagnosis] and tendency to withdraw from the public story around him."
+    },
+    {
+      "score": 0.016,
+      "other_person": "Phoebe-Bridgers",
+      "shared_phrases": [],
+      "target": "[diagnosis] and a lasting sense of being different from other people.",
+      "other": "[diagnosis] and seeks a form of being seen that leaves room beyond the stage character."
+    },
+    {
+      "score": 0.016,
+      "other_person": "Cara-Delevingne",
+      "shared_phrases": [],
+      "target": "[diagnosis] Types 8 and 9 explain parts of her persona.",
+      "other": "[counter-typing] sustained on-record framing of her own motive as escape from pain or reality full stop"
+    }
+  ]
+}

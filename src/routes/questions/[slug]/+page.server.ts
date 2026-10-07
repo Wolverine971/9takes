@@ -1,7 +1,15 @@
 // src/routes/questions/[slug]/+page.server.ts
 import { supabase } from '$lib/supabase';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { TAKE_FETCH_LIMIT } from '$lib/components/questions/commentRanking';
 import { getQuestionTakes, isCommentRankingEnabled } from '$lib/server/questionTakes';
+import { isVerifiedGooglebot } from '$lib/server/verifiedGooglebot';
+import {
+	getQuestionAnswerSummary,
+	hasQuestionAnswerSummary
+} from '$lib/server/questionAnswerSummary';
+import { CONTENT_GUARD_CACHE_CONTROL } from '$lib/server/contentAccessGuard';
+import type { AnswerSummary } from '$lib/types/questions';
 
 import type { Actions, PageServerLoad, RequestEvent } from './$types';
 import { error, fail } from '@sveltejs/kit';
@@ -143,6 +151,14 @@ export const load: PageServerLoad = async (event) => {
 	const replyNotificationReturn = consumeReplyNotificationReturn(event, question.id);
 	const canEditTags =
 		!isDemoTime && Boolean(session?.user?.id && question.author_id === session?.user?.id);
+	// T-43: started now so a crawler's DNS verification overlaps the gate reads.
+	// Anything without a Googlebot user agent resolves false at once, no DNS.
+	const verifiedCrawler: Promise<boolean> = isDemoTime
+		? Promise.resolve(false)
+		: isVerifiedGooglebot({
+				userAgent: event.request?.headers.get('user-agent'),
+				ip: getRequestIp(event)
+			});
 	const [viewerHasAnswered, questionTags, replyNotificationThread, categoryEditor] =
 		await Promise.all([
 			checkUserAnswered(cookie, question.id, session?.user?.id, event.locals.supabase),
@@ -168,14 +184,21 @@ export const load: PageServerLoad = async (event) => {
 			});
 		}
 
-		const [commentCount, aiComments, { curation, nextStarter }] = await Promise.all([
+		const [commentCount, aiComments, { curation, nextStarter }, lockedGist] = await Promise.all([
 			getCommentCount(question.id, isDemoTime),
 			isDemoTime ? null : getAIComments(question.id),
-			getCurationWithNextStarter(question.id, isDemoTime)
+			getCurationWithNextStarter(question.id, isDemoTime),
+			getLockedAnswerSummary(question.id, isDemoTime, verifiedCrawler)
 		]);
+		if (lockedGist.verifiedCrawler) {
+			// The crawler variant carries gated content: never let a shared
+			// cache replay it to a human (or a locked page to the crawler).
+			event.setHeaders({ 'cache-control': CONTENT_GUARD_CACHE_CONTROL });
+		}
 		// Give-first integrity: pinned human takes are never sent before the
 		// visitor answers. Only the starter position (for the next-question
-		// nudge) travels with the locked payload.
+		// nudge) travels with the locked payload. The gist travels only to
+		// IP-verified Googlebot (T-43); humans get just whether one exists.
 		return {
 			...createBaseResponse(
 				question,
@@ -195,42 +218,40 @@ export const load: PageServerLoad = async (event) => {
 			replyNotificationThread,
 			starterRank: curation.starterRank,
 			nextStarter,
-			replyFocus: null as ReplyFocusThread | null
+			replyFocus: null as ReplyFocusThread | null,
+			answerSummary: lockedGist.answerSummary,
+			answerSummaryAvailable: lockedGist.answerSummaryAvailable
 		};
 	}
 
+	// The gist joins the reveal batch below without changing its shape.
+	const answerSummaryRead = isDemoTime ? Promise.resolve(null) : readAnswerSummary(question.id);
+
 	// One parallel batch: this is the payload the post-answer reveal waits on.
-	const [
-		comments,
-		removedComments,
-		links,
-		aiComments,
-		flagReasons,
-		{ curation, nextStarter },
-		replyFocus
-	] = await Promise.all([
-		isDemoTime
-			? getComments(question.id, true, false)
-			: getQuestionTakes(question.id, { viewerId: session?.user?.id, fingerprint: cookie }),
-		getComments(question.id, isDemoTime, true),
-		getQuestionLinks(question.id),
-		isDemoTime ? null : getAIComments(question.id),
-		getFlagReasons(),
-		getCurationWithNextStarter(question.id, isDemoTime),
-		getReplyFocusThread(
-			question.id,
-			parseReplyFocusParam(event.url.searchParams.get('reply')),
+	const [comments, links, aiComments, flagReasons, { curation, nextStarter }, replyFocus] =
+		await Promise.all([
 			isDemoTime
-		)
-	]);
+				? getComments(question.id, true, false)
+				: getQuestionTakes(question.id, { viewerId: session?.user?.id, fingerprint: cookie }),
+			getQuestionLinks(question.id),
+			isDemoTime ? null : getAIComments(question.id),
+			getFlagReasons(),
+			getCurationWithNextStarter(question.id, isDemoTime),
+			getReplyFocusThread(
+				question.id,
+				parseReplyFocusParam(event.url.searchParams.get('reply')),
+				isDemoTime
+			)
+		]);
 
 	return {
 		...createFullResponse(
 			question,
 			comments.data ?? [],
 			comments.count ?? 0,
-			removedComments.data ?? [],
-			removedComments.count ?? 0,
+			// Removed takes are never sent (the old read always returned [] under RLS).
+			[],
+			0,
 			links.data,
 			links.count ?? 0,
 			questionTags,
@@ -251,9 +272,73 @@ export const load: PageServerLoad = async (event) => {
 		pinnedCommentIds: curation.pinnedCommentIds,
 		ownComments: 'ownComments' in comments ? comments.ownComments : [],
 		commentViewsEnabled: !isDemoTime,
-		commentRankingEnabled: !isDemoTime && isCommentRankingEnabled()
+		commentRankingEnabled: !isDemoTime && isCommentRankingEnabled(),
+		...(await answeredGist(answerSummaryRead))
 	};
 };
+
+// =============================================================================
+// "The gist so far" (T-43): gated AI paraphrase of how people answered
+// =============================================================================
+type GistPayload = {
+	answerSummary: AnswerSummary | null;
+	answerSummaryAvailable: boolean;
+};
+
+function getRequestIp(event: { getClientAddress?: () => string }): string | null {
+	try {
+		return event.getClientAddress?.() ?? null;
+	} catch {
+		return null;
+	}
+}
+
+/** Service-role read; null on any failure (e.g. before the migration lands). */
+async function readAnswerSummary(questionId: number): Promise<AnswerSummary | null> {
+	try {
+		return await getQuestionAnswerSummary(getSupabaseAdminClient(), questionId);
+	} catch {
+		return null;
+	}
+}
+
+async function answeredGist(read: Promise<AnswerSummary | null>): Promise<GistPayload> {
+	const answerSummary = await read;
+	return { answerSummary, answerSummaryAvailable: Boolean(answerSummary) };
+}
+
+/**
+ * The locked page. Only IP-verified Googlebot gets the summary text; every
+ * other visitor gets just whether one exists, so the paywall JSON-LD is the
+ * same on every version of the page while the gated text stays server-side.
+ */
+async function getLockedAnswerSummary(
+	questionId: number,
+	isDemoTime: boolean,
+	verifiedCrawler: Promise<boolean>
+): Promise<GistPayload & { verifiedCrawler: boolean }> {
+	if (isDemoTime) {
+		return { answerSummary: null, answerSummaryAvailable: false, verifiedCrawler: false };
+	}
+	if (await verifiedCrawler) {
+		const answerSummary = await readAnswerSummary(questionId);
+		return { answerSummary, answerSummaryAvailable: Boolean(answerSummary), verifiedCrawler: true };
+	}
+	return {
+		answerSummary: null,
+		answerSummaryAvailable: await answerSummaryExists(questionId),
+		verifiedCrawler: false
+	};
+}
+
+/** Existence only (never the text); false on any failure. */
+async function answerSummaryExists(questionId: number): Promise<boolean> {
+	try {
+		return await hasQuestionAnswerSummary(getSupabaseAdminClient(), questionId);
+	} catch {
+		return false;
+	}
+}
 
 function consumeReplyNotificationReturn(
 	event: RequestEvent,
@@ -277,7 +362,8 @@ async function getReplyNotificationThread(
 	isDemoTime: boolean
 ): Promise<ReplyNotificationThread | null> {
 	if (isDemoTime) return null;
-	const { data, error: threadError } = await supabase
+	// Take text is service-role only; the signed return cookie is the gate here.
+	const { data, error: threadError } = await getSupabaseAdminClient()
 		.from('comments')
 		.select(
 			`${PUBLIC_COMMENT_FIELDS}, removed, profiles:public_profiles (external_id, enneagram), comment_like (id, comment_id, user_id)`
@@ -760,10 +846,15 @@ async function removeSubscription(db: any, parent_id: string, user_id: string, d
 }
 
 async function incrementLinkClicks(linkId: string) {
+	const id = Number.parseInt(linkId, 10);
+	if (!Number.isSafeInteger(id) || id <= 0) return;
+	// links is service-role only (it holds URLs lifted from takes). Under the
+	// anon client this UPDATE matched nothing (no anon UPDATE policy).
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const { error: incrementError } = await (supabase.rpc as any)('increment_clicks', {
-		link_id: parseInt(linkId)
-	});
+	const { error: incrementError } = await (getSupabaseAdminClient().rpc as any)(
+		'increment_clicks',
+		{ link_id: id }
+	);
 
 	if (incrementError) {
 		console.error('Failed to increment link clicks:', incrementError);
@@ -826,11 +917,16 @@ async function getCommentCount(questionId: number, demo_time: boolean) {
 }
 
 async function getComments(questionId: number, demo_time: boolean, removed: boolean) {
+	// Removed takes never render here: under RLS this read always returned [],
+	// so it is short-circuited rather than queried with the service role.
+	if (removed) return { data: [], count: 0 };
+
 	const table = demo_time ? 'comments_demo' : 'comments';
 	const profiles = demo_time ? 'profiles_demo' : 'profiles';
 	const commentLike = demo_time ? 'comment_like_demo' : 'comment_like';
 
-	const { data, count, error } = await supabase
+	// Answered branch only (demo mode). Take text is service-role only.
+	const { data, count, error } = await getSupabaseAdminClient()
 		.from(table)
 		.select(
 			`${PUBLIC_COMMENT_FIELDS}, ${profiles}:public_${profiles} (external_id, enneagram), ${commentLike} (id, comment_id, user_id)`,
@@ -945,8 +1041,10 @@ async function getReplyFocusThread(
 	if (replyId === null || demo_time) return null;
 
 	const replySelect = `${PUBLIC_COMMENT_FIELDS}, profiles:public_profiles (external_id, enneagram)`;
+	// Only called once the viewer has answered; take text is service-role only.
+	const db = getSupabaseAdminClient();
 
-	const { data: reply, error: replyError } = await supabase
+	const { data: reply, error: replyError } = await db
 		.from('comments')
 		.select(replySelect)
 		.eq('id', replyId)
@@ -955,7 +1053,7 @@ async function getReplyFocusThread(
 		.maybeSingle();
 	if (replyError || !reply?.parent_id) return null;
 
-	const { data: parent, error: parentError } = await supabase
+	const { data: parent, error: parentError } = await db
 		.from('comments')
 		.select(
 			`${PUBLIC_COMMENT_FIELDS}, profiles:public_profiles (external_id, enneagram), comment_like (id, comment_id, user_id)`
@@ -967,7 +1065,7 @@ async function getReplyFocusThread(
 		.maybeSingle();
 	if (parentError || !parent) return null;
 
-	const { data: replies, error: repliesError } = await supabase
+	const { data: replies, error: repliesError } = await db
 		.from('comments')
 		.select(replySelect)
 		.eq('parent_type', 'comment')
@@ -990,7 +1088,8 @@ async function getReplyFocusThread(
 }
 
 async function getQuestionLinks(questionId: number) {
-	const { data, count, error } = await supabase
+	// Answered branch only; links (URLs lifted from takes) are service-role only.
+	const { data, count, error } = await getSupabaseAdminClient()
 		.from('links')
 		.select(
 			'id, url, domain_id, question_id, meta_title, meta_description, meta_image, clicks, created_at, updated_at',
@@ -1013,8 +1112,11 @@ async function getFlagReasons() {
 	return { data };
 }
 
+// comments_ai is admin-only under RLS (20260903 security migration), so the
+// anon client always got []. These are AI-written takes, not user content,
+// so the server reads them with the service-role client.
 async function getAIComments(questionId: number) {
-	const { data, error } = await supabase
+	const { data, error } = await getSupabaseAdminClient()
 		.from('comments_ai')
 		.select('id, question_id, enneagram_type, comment, created_at')
 		.eq('question_id', questionId);

@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "77a606b0cdd9f977ba00778706be75962db4fb7e82faa05d13f41637ab154618",
+  "evidence_sha256": "98f08e7c6e7a4ee2c46cada7c4a827fb0a3e4bd15e49c578e736b26fe3656381",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "For a Six, security is usually the goal. Johnson almost always describes it as the condition for something else.",
+      "problem": "This is the draft's main Four-versus-Six discriminator, and it tests a straw Six. Sixes typically treat security and support as the ground that lets them act, not as an end that rules out creativity. Read in context, the line the draft leans on is close to a Six's own wording. Vogue 2017 (S08, reopened 2026-10-07): \"I finally feel that I'm in the right place at the right time in my life, collaborating with artists who elevate me. A few years ago, I was fighting, waiting for someone to give me a chance. I'm a pretty sensitive person, and when I don't feel protected, I tend to close right up. But when I feel safe, I think I can do anything.\" That is safety supplied by trusted others, followed by the ability to act. A support-seeking Six predicts exactly that. The TeaTime creed (\"safe to explore their minds\") describes what she gives other people, not her own core motive. The FAQ \"Why isn't Dakota Johnson a Type 6?\" opens with the same test (\"she treats safety as what frees her to create\"), and the closing calls a \"safe container\" the plainest evidence of what she protects. All three point at safety as the thing she protects, which is the Six reading. The body later concedes the point only for the method/caution evidence (\"this tilts the case rather than closing it\"). It never concedes it for the safety framing.",
+      "acceptance_test": "The section no longer claims that safety-as-precondition separates Four from Six. Either it states that Six theory predicts this structure, or it names a different, sourced discriminator. The 2017 quote appears with its \"waiting for someone to give me a chance\" / collaborators context, or is labeled as evidence both readings explain. The intro question \"what is the safety for?\" and the Type 6 FAQ answer are revised to match. The FAQ's first reason for Four is no longer the safety framing. The closing's \"plainest evidence of what she protects\" either says this also fits a Six's attachment to a secure group, or ties it to Four-specific evidence (e.g., the 2017 \"a little bit heartbroken all the time\" line)."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "Even her oddest safety line points at enchantment.",
+      "problem": "The quote says the reverse of the draft's claim. In context (Vanity Fair 2022, S02, reopened 2026-10-07), the 10-year-old's \"world came crashing down\" when the Easter Bunny was debunked. She says she would still believe if she could: \"Maybe that's why I make movies and why I want to make movies forever and ever. It makes things feel a little bit more safe.\" Here enchantment and moviemaking serve safety. Safety is not the means to enchantment. The quote is counted as Four evidence in the discriminator section, but on its face it supports the Six reading the section is trying to beat. It also links to her own joke that she would join a cult that promised to make her \"a better person\": a wish for belief that makes the world feel safer.",
+      "acceptance_test": "The Easter Bunny quote is removed from the Four side of the discriminator. Or it stays with an accurate gloss: making movies, by her account, makes things feel safer, and the article says which reading that favors and why. No sentence says this line \"points at enchantment\" as the end that safety serves."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "What she resists, again and again, is faking a feeling, and having her work turned into something it isn't.",
+      "problem": "The title (\"Won't Fake a Feeling\"), meta_title (\"Why She Won't Fake It\") and this thesis sentence all build on \"It's hard for me to fake it.\" In context (Bustle 2024, S04, reopened), the \"it\" is going along with the silliness of a press tour. That is exactly what she says she did for Fifty Shades for years. She told Vogue in 2017 \"I'm truly proud of it… different is what I'm about.\" She told Flicks in 2018 it was \"an incredible experience.\" Marie Claire noted in 2020 that she \"has denied reports that she was displeased with the Fifty Shades films\" (S07, reopened). Then in 2022 she said: \"I haven't been able to talk about this truthfully ever, because you want to promote a movie the right way.\" The draft notes she \"can hold a public line for years.\" But it never reconciles that with the bit-versus-feeling line in \"The bit and the feeling,\" and \"What the Four reading leaves open\" omits it, though the evidence record's `unexplained` lists it. Years of on-message promotion are neither a visible bit nor a refusal to fake. This is the strongest evidence against the article's central claim, and it also fits a Three or a loyal, rule-following reading. The H2 \"Different is what I'm about\" uses a line from that promotional period as identity evidence and doesn't flag the irony.",
+      "acceptance_test": "The bit-versus-feeling analysis addresses the Fifty Shades promotional years directly. For example: she withheld rather than invented feeling (she still says she is \"proud of what we made ultimately\"), and she corrected the record once the release obligation ended. If the Four reading is kept, it explains why that pattern fits Four better than Three or Six. \"What the Four reading leaves open\" names the Fifty Shades years. The title, meta_title and description make no absolute \"won't fake it\" claim that the article's own evidence contradicts, or the body earns it explicitly. The \"Different is what I'm about\" section notes that the quote comes from the period she later said she couldn't speak truthfully about."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "She also splits on authority in one breath, the counterphobic Six's signature.",
+      "problem": "This misdescribes the exchange and then leaves it unanswered. In the Bustle Q&A (S04, reopened), the cult line and the defiance line are separate answers to separate questions. Between them she says she'd join a cult promising \"this will make you a better person for other people and it'll help the world.\" The authority contrast comes from the interviewer (\"your public persona is that you're a bit anti-authoritarian… which feels anti cultish\"). She answers, \"It does, doesn't it? Maybe I'd be a cult leader. But I don't think I would do that either. I am a very defiant person.\" So it isn't \"in one breath,\" and the \"split\" is not her self-description. Reactive defiance (\"I am shaking, even if I had no interest\") is also not specific to counterphobic Six: Fours resisting being defined, Eights and Sevens all predict it. Later in the same Q&A she remarks that her exaggeration doesn't survive being written down. Once the draft has called this the Six's \"signature\" and \"classic counterphobic Six,\" it owes the reader a Four account. \"What her safety is for\" never gives one, and the open section only asks whether the defiance is temperament or learned. A labeled Six signature that is never rebutted undercuts the claim that Four beats the alternative.",
+      "acceptance_test": "The cult/defiance exchange is described accurately: two answers, the interviewer supplying the authority contrast, delivered as a joke. Either the defiance is reclassified as non-discriminating (several types predict it), or the Four section gives a sourced Four account of it, for example her own follow-up that she hears everyone out \"and then I will do what feels really right to me.\" No sentence calls it a Six signature unless the Four argument then answers it."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "minor",
+      "passage": "The Six reading struggles more with someone whose fights are over whose vision reaches the screen rather than over risk, and who treats safety as permission to feel.",
+      "problem": "After enneagram-01 and enneagram-02, the vision-grievance pattern is the Four case's strongest discriminator. Here it is set against the wrong Six. A Six reading wouldn't frame Fifty Shades and Madame Web as fights about risk. It would frame them as broken trust: authorities who changed what she had signed up for (\"I signed up to do a very different version\"; \"it started out as something and turned into something else\"; \"I have no say about anything\"). The draft holds the evidence that actually separates the readings: her complaint is about expression, not betrayal. \"There's no room for being expressive or discovering what is present in that real moment… It's contrived\" and \"that's not what art is\" (Bustle 2024). But it uses these as background in other sections rather than as the test against Six-as-betrayal.",
+      "acceptance_test": "The Six comparison states the betrayal/trust version of the grievance and answers it with the expression-language evidence (\"no room for being expressive… It's contrived,\" \"that's not what art is,\" the High Note \"not apologizing\" note), with dates and sources. The sentence no longer contrasts vision with \"risk\" as if risk were the Six's axis."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "When she is low, she reaches for meaning rather than reassurance.",
+      "problem": "This draws a binary the record doesn't support. In the same Vanity Fair passage as the scarab line (S02, reopened), she says she is \"always trying to navigate that [depression] in an honest and safe way.\" Two sections earlier the draft documents her calling Gyllenhaal \"my shepherd\" through fear and feeling \"in such good hands\" on Materialists. Both are reassurance from trusted guides. Meaning-making as a way to \"make it\" through bleak news can also be a Six's belief-as-anchor. She jokes she'd join a cult that promised to make her better. The meaning evidence leans Four, but \"rather than reassurance\" overstates it.",
+      "acceptance_test": "The sentence drops \"rather than reassurance\" or acknowledges the reassurance-seeking evidence (the shepherd, \"good hands\", \"honest and safe way\"). The meaning-making evidence is presented as a tilt toward Four, not a separation."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "In 2017 she said early fame had made her \"shut off to strangers, even cold. That's not my nature. I prefer to be tender.\"",
+      "problem": "Several quote trims all cut fear, doubt or dependence language, which is the material relevant to the Six alternative. The full 2017 passage (S08, reopened) says: \"I think I went into this weird K-hole of feeling so scared of people. I noticed myself becoming shut off to strangers, even cold.\" Fear of people is the stated mechanism. The draft attributes it neutrally to \"early fame.\" The not-belonging quote earlier in the draft ends at \"I don't know all these people\" and drops \"I don't know what I'm talking about.\" That clause frames the outsider feeling as insecurity rather than distinctness. The \"when I feel safe\" quote drops \"waiting for someone to give me a chance\" (see enneagram-01). Each trim is small. Together they quietly shrink the Six evidence the article says it is weighing.",
+      "acceptance_test": "Where these quotes bear on the type comparison, the fear/doubt clauses are restored or paraphrased with attribution (\"feeling so scared of people\"; \"I don't know what I'm talking about\"). Or the quotes are clearly limited to a point that doesn't depend on the omitted material."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "That sits at least as close to a Three as to a Four.",
+      "problem": "The draft concedes a datum sits \"at least as close to a Three.\" It cites The Ringer on the persona's market value (\"Do you want press?… Then hire Johnson\") and documents years of on-message Fifty Shades promotion, which is image management. Yet Three, the Four's neighbor in the image triad, is missing from the 60-word answer and the type FAQ (\"Eight, Nine and Seven each explain pieces\"), and it is never tested. The record has a usable Three/Four discriminator. She publicly owns a flop as a misfit (\"I don't make sense in that world\"). She volunteers that \"most days I feel like the most useless piece of sh*t\" (Bustle 2024). She seeks parts that \"don't typically exist in huge, commercial box-office movies.\" All of these cut against a Three's protection of a successful image.",
+      "acceptance_test": "The article tests Three in at least one sourced sentence or short paragraph, naming the discriminator and its limits. The 60-word answer and type FAQ either include Three among the partial alternatives or are consistent with the body's handling of it."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "A childhood like that can produce privacy, vigilance and a sense of not belonging in almost anyone, so it can't settle her type.",
+      "reason": "Disciplined typing. It refuses to use a dramatic childhood as type proof, which the standard requires and most celebrity typings get wrong."
+    },
+    {
+      "passage": "A Seven's appetite usually runs from that sentence. Hers runs toward it.",
+      "reason": "A real, sourced discriminator against Seven, made in two short sentences from her own words. This is the kind of test the rest of the type argument should match."
+    },
+    {
+      "passage": "And a Nine's even keel is hard to square with this: \"I think I'm a little bit heartbroken all the time, even when I'm in a happy relationship.",
+      "reason": "It sets a specific, dated self-report against the Nine alternative instead of asserting type vocabulary. It is also the article's best evidence of standing longing, the Four's core texture."
+    },
+    {
+      "passage": "Anxiety, vigilance, loyalty, ambivalence toward authority, a trusted guide through fear: this is why the Four reading is held at medium confidence.",
+      "reason": "It gives the strongest alternative its full weight and ties the confidence level to it. Keep the honesty even as the discriminator is repaired."
+    },
+    {
+      "passage": "Foley's remark matters most because it predates the candid persona.",
+      "reason": "It weighs testimony by when it was given, which is the right way to separate a stable motive from a marketable persona. The insight is specific to this subject."
+    }
+  ],
+  "assessment": "Type 4 at medium confidence is defensible, and the draft is unusually fair to its rivals. It gives no convenient wing or arrow, leaves the wing and subtype open, puts the childhood out of play as type proof, and makes sourced discriminators against Seven (appetite that runs toward pain), Nine (standing heartbreak) and Eight (volunteered tenderness, ceding control to trusted directors). The weak point is the Four-versus-Six argument, which is the one that matters. Its chosen test, what safety is for, doesn't discriminate. In context, the 2017 \"when I feel safe\" line is about protection from collaborators who \"give me a chance,\" and the Easter Bunny line says movies serve safety. Those are the opposite of the draft's reading (enneagram-01, enneagram-02). The defiance datum is misframed as a one-breath Six signature and then left unanswered (enneagram-04). The draft does hold a stronger discriminator: grievances framed as expression and contrivance rather than betrayal. It should promote that to the test (enneagram-05). The title thesis \"won't fake a feeling\" collides with years of on-message Fifty Shades promotion she later said wasn't truthful, and the open section omits this (enneagram-03). Three is conceded on one datum but never tested (enneagram-08). None of these requires changing the type, but the discriminator section and the Type 6 FAQ need rewriting before Four can be said to beat Six. I reopened Bustle 2024, Vanity Fair 2022, Vogue 2017 and Marie Claire 2020 on 2026-10-07 to check the quotes behind the type argument. I did not reopen Vanity Fair 2021, L'Officiel or the 2026 Vogue pieces, so those rely on the evidence-record excerpts. The similarity advisory did not trip (max 0.016 against a 0.04 threshold, inside the 562-pair noise floor). The top pairs share only ordinary type vocabulary (\"Nine and Seven each explain pieces\") over different arguments, so I found no meaningful reuse."
+}

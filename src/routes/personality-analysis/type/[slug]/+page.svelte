@@ -492,6 +492,13 @@
 					{/if}
 				{/each}
 			</ul>
+			<p class="sibling-all">
+				<a href="/personality-analysis#enneagram-celebrities"
+					>See all nine side by side: Enneagram celebrities by type <span aria-hidden="true"
+						>&rarr;</span
+					></a
+				>
+			</p>
 		</nav>
 
 		{#if corpusInsight || !data?.user}
@@ -861,6 +868,23 @@
 			white-space: nowrap;
 			overflow: hidden;
 			text-overflow: ellipsis;
+		}
+
+		.sibling-all {
+			margin: 1rem 0 0;
+			font-size: 0.9375rem;
+
+			a {
+				color: var(--lamp-glow);
+				font-weight: 600;
+				text-decoration: none;
+
+				&:hover,
+				&:focus-visible {
+					text-decoration: underline;
+					text-underline-offset: 3px;
+				}
+			}
 		}
 	}
 

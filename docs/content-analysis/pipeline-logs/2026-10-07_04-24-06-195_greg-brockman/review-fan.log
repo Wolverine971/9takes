@@ -1,0 +1,27 @@
+I wrote the fan review to `docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/review-fan.json`. It passes `reviewSchema`, and every quoted passage matches the frozen draft word for word. I didn't touch any other file in the repo, didn't open the subject review, and published nothing. My working files are in `/tmp`.
+
+**Verdict:** the draft is well sourced and doesn't flatter him. But in the places that carry the type argument, it reads Brockman's own words selectively. Both risk flags stand (sensitive allegations and contested typing), so the full six-reviewer panel still applies.
+
+I reopened his 2014, 2016, 2017 and 2019 essays, the full Knowledge Project captions for the November 2023 section, and the trial outcome. That produced eight findings: six major, two minor.
+
+**Major**
+- **The opening quote is cut short (fan-01).** The full sentence ends "...and this probably said more about my abilities than the problem." Colleagues offered him the excuse that the problem was hard, and he turned it down. That cuts against the draft's reading that he was managing his image.
+- **The case against Type 5 contradicts the essay it cites (fan-02).** In that essay he spent three months studying "until I fully absorbed it" before he "felt ready." That is exactly what the draft says a Five does. His stated motive, "see the whole picture clearly," is also left out.
+- **November 2023 is missing key context (fan-03):**
+  - He was board chairman, and the board's own statement says he'd stay on "reporting to the CEO."
+  - He asked twice for reasons and was refused, just before saying "It just wasn't right." That undercuts the draft's later claim that he's never the one defending procedure.
+  - The same day, he started planning a new company with Altman.
+- **The best-known origin story is missing (fan-04).** In his gap year he read Turing's paper, built a chatbot and shelved it because he couldn't make it "really work." He calls AI his "life goal." His 2018 comeback was also a chatbot, built on GPT-1.
+- **The 2014 vacation is misread (fan-05).** The draft says "His first vacation became a build." In his essay, the vacation and the later CTF3 build were both ways to make himself unavailable, so problems went to his new VP of Engineering, Marc Hedlund. The draft's "career-long loop" of rest turning into work leans on this misreading.
+- **"Runs light on glamour" leaves out facts that cut the other way (fan-06):**
+  - Before 2019 he was effectively OpenAI's CEO.
+  - The 2019 step back followed a reported loss of staff confidence in his leadership.
+  - On March 14, 2023 he personally unveiled GPT-4 in a live demo, arguably his most famous public moment.
+
+**Minor**
+- **fan-07:** The Musk trial outcome is missing. The jury dismissed the claims on May 18, 2026 as filed too late, without ruling on the merits, and Musk says he'll appeal. The draft also leaves out his admission at trial that he told early donors to give $100,000 personally but never did himself.
+- **fan-08:** The draft treats "I volunteered myself as tribute" as evidence against status-seeking. In the essay's context, he already planned to start an AI company and was taking the founder's central job.
+
+**Similarity check:** the only flagged match is a one-sentence Type 3 definition worded like the one in the Tiger Woods draft. The two arguments are different, so I didn't count it as reuse.
+
+Some of these fixes help the Type 3 reading and others help the Type 1 or Type 5 alternatives. The editor should re-test which type the evidence actually favors, not just patch sentences one by one.

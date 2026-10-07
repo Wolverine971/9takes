@@ -313,3 +313,85 @@ describe('loadSharedTypePeople portraits', () => {
 		expect(existsSync(`static${people[0].imagePath}`)).toBe(true);
 	});
 });
+
+// Give-first: take text is service-role only, so the reader's own takes come
+// through the service client, scoped by the verified session user id.
+describe('loadYourTakes', () => {
+	type Call = { method: string; args: unknown[] };
+	function recordingClient(name: string, rows: Record<string, unknown[]>) {
+		const reads: { client: string; table: string; calls: Call[] }[] = [];
+		const client = {
+			reads,
+			from(table: string) {
+				const calls: Call[] = [];
+				reads.push({ client: name, table, calls });
+				const query: any = new Proxy(
+					{},
+					{
+						get(_, prop) {
+							if (prop === 'then') {
+								const result = { data: rows[table] ?? [], error: null };
+								return (resolve: (value: unknown) => void) => resolve(result);
+							}
+							return (...args: unknown[]) => {
+								calls.push({ method: String(prop), args });
+								return query;
+							};
+						}
+					}
+				);
+				return query;
+			}
+		};
+		return client;
+	}
+
+	it('reads own take text through the service client, scoped to the session user', async () => {
+		const { loadYourTakes, resolveAccountTables } = await import('./accountDashboard');
+		const service = recordingClient('service', {
+			comments: [
+				{
+					id: 7,
+					comment: 'synthetic own take',
+					parent_id: 3,
+					created_at: '2026-09-01T00:00:00Z',
+					like_count: 1
+				}
+			]
+		});
+		const session = recordingClient('session', {
+			questions: [{ id: 3, question: 'q', question_formatted: 'Q?', url: 'q' }],
+			comments: [{ parent_id: 7 }]
+		});
+
+		const takes = await loadYourTakes(
+			session as any,
+			service as any,
+			resolveAccountTables(false),
+			'session-user'
+		);
+
+		expect(takes).toEqual([expect.objectContaining({ id: 7, excerpt: 'synthetic own take' })]);
+		const textReads = [...service.reads, ...session.reads].filter((read) =>
+			read.calls.some(
+				(call) => call.method === 'select' && /\bcomment\b/.test(String(call.args[0]))
+			)
+		);
+		expect(textReads.map((read) => read.client)).toEqual(['service']);
+		expect(textReads[0].calls).toContainEqual({
+			method: 'eq',
+			args: ['author_id', 'session-user']
+		});
+		expect(textReads[0].calls).toContainEqual({ method: 'eq', args: ['removed', false] });
+	});
+
+	it('reads nothing without a session user id', async () => {
+		const { loadYourTakes, resolveAccountTables } = await import('./accountDashboard');
+		const service = recordingClient('service', {});
+
+		expect(await loadYourTakes({} as any, service as any, resolveAccountTables(false), '')).toEqual(
+			[]
+		);
+		expect(service.reads).toEqual([]);
+	});
+});

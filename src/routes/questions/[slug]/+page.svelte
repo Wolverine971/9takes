@@ -46,6 +46,7 @@
 		toQuestionPublicImageUrl,
 		toQuestionSocialCardRoute
 	} from '$lib/socialCards/questionSocialCard';
+	import { buildGatedContentFlags } from '$lib/components/questions/answerGist';
 
 	let { data }: { data: PageData } = $props();
 
@@ -288,7 +289,8 @@
 		flagReasons: data.flagReasons || [],
 		user: data.user,
 		replyNotificationReturn: data.replyNotificationReturn ?? null,
-		replyNotificationThread: data.replyNotificationThread ?? null
+		replyNotificationThread: data.replyNotificationThread ?? null,
+		answerSummary: data.answerSummary ?? null
 	});
 
 	let formattedQuestionText = $derived(
@@ -617,19 +619,30 @@
 	// `DiscussionForumPosting` matches Google's guidance for forum-style
 	// pages where the post (question + context) is publicly visible.
 	//
-	// IMPORTANT — give-first guarantee:
-	// We deliberately do NOT include nested `comment` items in the schema.
-	// Real community comments are gated behind the give-first mechanic, and
-	// the public AI preview is a "Sample perspectives" pattern preview,
-	// NOT user discussion. Per Google's discussion-forum docs, schema
-	// markup must reflect content that's visible on the page, and per the
-	// 2026-04-07 audit guardrail: never put answer markup around gated
-	// comments and never use AI-only summaries as a substitute for visible
-	// public discussion.
+	// IMPORTANT — give-first guarantee (T-43, DJ's decision 2026-10-07):
+	// Humans see zero answers before posting their own, and the takes are
+	// never in this page's HTML, JSON or JSON-LD until they do. What Google
+	// indexes instead is "The gist so far": an AI paraphrase of how people
+	// answered, never anyone's exact words. It is gated content, handled with
+	// Google's paywall / content-gating pattern:
+	//   * the server sends the gist only to a viewer who has answered or to
+	//     IP-verified Googlebot (reverse + forward DNS), with
+	//     `Cache-Control: private, no-store` on the crawler response;
+	//   * the block (.answer-gist, AnswerGist.svelte) carries data-nosnippet
+	//     so it can rank but never be quoted in snippets or AI Overviews;
+	//   * both nodes below carry `isAccessibleForFree: false` plus a
+	//     `hasPart` WebPageElement pointing at `.answer-gist` whenever a gist
+	//     exists, on every version of the page (humans included), as Google
+	//     asks for paywalled pages.
+	// Never put the gist text, take text or `comment`/`Answer` nodes in this
+	// JSON-LD: structured data ignores data-nosnippet, so anything here could
+	// surface in search results. QAPage stays off for the same reason (it
+	// requires the full answer text in markup).
 	//
 	// `commentCount` advertises forum activity without exposing private
 	// content; users still have to participate to see the thread.
 	// =====================================================================
+	let gatedContentFlags = $derived(buildGatedContentFlags(data.answerSummaryAvailable === true));
 	let datePublished = $derived(toIsoDate(data.question?.created_at));
 	let dateModified = $derived(toIsoDate(data.question?.updated_at) || datePublished);
 	let postBodyText = $derived(
@@ -663,7 +676,8 @@
 				name: 'Anonymous 9takes member'
 			},
 			image: imgUrl,
-			commentCount: Math.max(data.comment_count || 0, 0)
+			commentCount: Math.max(data.comment_count || 0, 0),
+			...gatedContentFlags
 		};
 		if (datePublished) node.datePublished = datePublished;
 		if (dateModified) node.dateModified = dateModified;
@@ -694,7 +708,8 @@
 					'@type': 'ImageObject',
 					url: imgUrl
 				},
-				mainEntity: { '@id': `${url}#post` }
+				mainEntity: { '@id': `${url}#post` },
+				...gatedContentFlags
 			},
 			{
 				'@id': `${url}#breadcrumb`,

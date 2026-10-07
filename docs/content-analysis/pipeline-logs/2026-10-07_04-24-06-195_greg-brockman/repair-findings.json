@@ -1,0 +1,30 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:This misstates the source, and it leads the Three-over-One discriminator. In Stratechery (S28, reopened 2026-10-07, Background section), \"best in the world\" was the bar he set for doubling down on any field. The choice between acting and science turned on impact: \"I ended up picking the hard sciences one, because I felt like maybe that was an area where I could most make a difference in the world.\" The article says this correctly earlier (\"his bar for committing to a field was being best in the world, though the choice itself turned on impact\"). This sentence contradicts that and brings back the misreading that critic-05 had fixed, now in the most load-bearing paragraph. C04's claim text has the same blend.",
+    "unresolved:verify-02:The discriminator sets aside the One reading's strongest private evidence by misfiling it. Two of the moral items the article itself quotes do not judge other people. The 2017 diary rule \"cannot say that we are committed to the non-profit . . . if three months later we're doing b-corp then it was a lie\" (New Yorker, S23, reopened) and the November 2017 entry \"it'd be wrong to steal the nonprofit from him. to convert to a b-corp without him. that'd be pretty morally bankrupt\" (MIT Technology Review, S27, reopened) both judge what he and his co-founders were considering doing. Both sit in a private diary with no audience. They are first-person rightness-scoring of his own conduct, the very kind of self-report the next sentence calls \"the better test.\" The evidence record's discriminator lists \"Musk\" among the others judged, which misdescribes the entry. As written, the reader cannot see that the Three lead holds only for how he scores his work, not his conduct.",
+    "unresolved:verify-03:The 2016 essay (S03, reopened) says he \"managed to build something that could talk about the weather very convincingly\" before finding that \"no one had any techniques that could make my bot really work.\" He then shelved it and \"decided to focus on creating systems that can have a real impact.\" The 2026 telling (S28), quoted in this same paragraph, describes a chatbot game with 1,500 users in a day and \"the most glorious feeling.\" \"Nothing to show\" contradicts both. It also stretches the thesis phrase from the Dota essay into a recurrence the sources do not support (C143 is unsupported as worded). The \"real impact\" pivot that fan-04's acceptance test required is still missing.",
+    "unverified_claim:C143",
+    "unresolved_review:fan-04",
+    "overall_below_8.5:8.1",
+    "evidence_below_8:7.8",
+    "enneagram_below_8:7.5"
+  ],
+  "quality": {
+    "evidence": 7.8,
+    "enneagram": 7.5,
+    "originality": 8.7,
+    "writing": 7.9,
+    "durability": 8.6,
+    "hook": 9,
+    "discoverability": 8.4,
+    "overall": 8.1,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-07",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "de950db0e680c580495ef60b1d68a1d4b2f8c67636285b57dffaa62530f721ea"
+  }
+}

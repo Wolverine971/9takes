@@ -593,6 +593,8 @@ note="If six or more of these resonate, you likely have strong Type 6 patterns. 
 
 ## Famous Enneagram 6s
 
+On the fictional side, Dwight Schrute is a textbook Six: loyal to Michael, suspicious of everyone else, prepared for every disaster. [The Office Enneagram breakdown](/pop-culture/the-office-enneagram-types) walks through the typing, beets included.
+
 <FamousTypes type={6} />
 
 </section>

@@ -1,0 +1,20 @@
+I wrote the subject (fairness) review for the Dakota Johnson draft to `docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-subject.json`. It matches the review schema, the hashes are copied from the request, and every quoted passage matches the draft exactly. Nothing else was modified or published.
+
+**Verdict:** The draft is fair overall and careful about separating what Johnson said from what the article infers. Three problems are worth fixing before it can pass:
+
+1. **A fan is presented as a skeptic (major).** "Not everyone buys the candor" introduces The Ringer's Jodi Walker. I reopened her piece and it's admiring: she calls Johnson "the Calm Queen of Chaos" and never questions whether the candor is real.
+2. **Her depression is used as type evidence (major).** The line "she reaches for meaning rather than reassurance" leaves out that in all three sources where she discusses depression, she credits therapy, and in the 2026 Vogue piece also friends and chosen family. The Carl Jung quote appears in Vogue as part of "therapy has helped," but the draft uses it as an example of seeking meaning.
+3. **The headline goes further than the article (major).** The title and SEO title say she "won't fake a feeling." Her actual words were "It's hard for me to fake it," said about press tours. The article itself admits she defended *Fifty Shades* publicly for years before saying she couldn't talk about it "truthfully." It also leaves out Marie Claire's 2020 note that she had denied being unhappy with those films.
+
+**Minor findings:**
+- She said in the same Bustle interview that she had exaggerated in it. The draft's opening hook and its strongest Type 6 evidence come from that interview, and readers aren't told.
+- "Grip" is harsher than her actual word for E.L. James, which was "precious."
+- "It will haunt me" was her answer to an interviewer praising the Ellen moment, which the draft doesn't say.
+- The closing line "for most actors, wrap is the end of a job" is unsupported; the evidence file itself notes actors commonly grieve wrap.
+- The breakup and her wish for children sit right before a quote about "heartbreak," which implies a link she never made.
+
+**Protected passages:** five, including the opening Vogue "feathers ruffle" scene and the line that limits the *Fifty Shades* corroboration to the first film.
+
+**Risk flags:** sensitive allegations and contested typing are both set to true, so the six-role jury should run. A search found no public response from E.L. James, which matches the draft's statement. The similarity check didn't flag any reused writing.
+
+The Supabase connection failed this session. Several plugin connectors (Ahrefs, Notion, Slack and others) need authorizing in claude.ai or via `/mcp`. Neither was needed for this stage.

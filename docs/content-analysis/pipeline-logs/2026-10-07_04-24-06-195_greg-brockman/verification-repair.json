@@ -1,0 +1,1581 @@
+{
+  "schema_version": 3,
+  "content_sha256": "7abfc59c666b51bf85c6a81b7f9360f4bc7e133ba828d5d72952e749e7343929",
+  "evidence_sha256": "443053df8587d22eae2d61989acb4eaddc0ec8d54cebc86a9af09632b2c97520",
+  "status": "pass",
+  "findings": [
+    {
+      "id": "verify-r-01",
+      "severity": "minor",
+      "passage": "That same year OpenAI's founders fought [Elon Musk](/personality-analysis/elon-musk), a co-founder and the lab's main early funder, over a for-profit arm and who would control it",
+      "problem": "The previous section ends in 2018–2019 (the November 2018 restart, the November 2019 wedding, the 2019 essay), so 'That same year' reads as 2019. The fight over the for-profit arm and control was in 2017 (S35: 'by 2017 ... Musk wanted control'; S12: September 2017). Two sentences later, 'Brockman's diary from that year' inherits the ambiguity.",
+      "acceptance_test": "The section opens with an absolute date ('In 2017, OpenAI's founders fought ...'), and 'from that year' unambiguously means 2017."
+    },
+    {
+      "id": "verify-r-02",
+      "severity": "minor",
+      "passage": "His moral vocabulary is the strongest evidence, and it applies to his own conduct: a private 2017 diary entry calling an option he and his co-founders were weighing \"pretty morally bankrupt,\" and his verdict on the day he quit OpenAI, \"It just wasn't right.\"",
+      "problem": "In the Type 1 FAQ, the list after 'applies to his own conduct' includes 'It just wasn't right', which judged the board's action on November 17, 2023 (S24), not his own conduct. The body states this accurately ('when he judges conduct, his own included'). The FAQ, which surfaces out of context, blurs it.",
+      "acceptance_test": "The FAQ either says the vocabulary judges conduct, 'his own included', or presents the diary entry as the self-directed example and the November 17 verdict as a judgment of others."
+    },
+    {
+      "id": "verify-r-03",
+      "severity": "minor",
+      "passage": "Whether these were one chatbot or two, AI was \"definitely my life goal,\" as he told Altman in 2015.",
+      "problem": "S03 reads: 'I replied that AI was top of my list (and it was definitely my life goal).' The parenthetical may be his aside to blog readers rather than words said to Altman, so 'as he told Altman' is a plausible but uncertain reading (C142).",
+      "acceptance_test": "The attribution matches the source's form, e.g. 'AI was, he wrote in 2016, \"definitely my life goal\"', or the full sentence is quoted so the reader can see the parenthetical."
+    },
+    {
+      "id": "verify-r-04",
+      "severity": "minor",
+      "passage": "Musk said he would appeal",
+      "problem": "In the cited NPR report (S35), the appeal announcement comes from Musk's lawyer, Marc Toberoff ('I can sum it up in one word: appeal'). Musk's own quoted post says the merits were not reached. C165 carries the same attribution.",
+      "acceptance_test": "The sentence reads 'Musk's lawyer said they would appeal' (or equivalent), or cites a source in which Musk himself announces the appeal. C165 matches."
+    },
+    {
+      "id": "verify-r-05",
+      "severity": "minor",
+      "passage": "Brockman, born in 1987 and raised in North Dakota",
+      "problem": "The article text is correct, but claim C01's text says 'Forbes listed him as 38 in September 2026'. The Forbes list (S30) gives 'Greg Brockman, 37'. This is an evidence-record inaccuracy.",
+      "acceptance_test": "C01's claim text matches S30 (37), or drops the Forbes age."
+    },
+    {
+      "id": "verify-r-06",
+      "severity": "minor",
+      "passage": "At Stripe he found \"a repeatable pattern for creating software systems from nothing: focus single-mindedly on the software, shutting out all distractions and working from wake until sleep.\"",
+      "problem": "The quotation closes with a period where S04's sentence continues ', which would inspire others to contribute their best work (importantly, measured by output quality rather than hours).' The meaning is not reversed, but the omitted clause (inspiring others; measuring by output quality) bears on the article's own Three-versus-One test.",
+      "acceptance_test": "The trim is marked (closing the quotation without a terminal period inside, or with an ellipsis), or the clause is quoted and weighed in the type argument."
+    },
+    {
+      "id": "verify-r-07",
+      "severity": "minor",
+      "passage": "So the Three reading leads on how he scores his work and the One on how he judges conduct: a medium-confidence call that would flip if new first-person evidence showed him scoring his own work mainly on whether it was right.",
+      "problem": "The type case is honest but split by domain. The costliest choice in the record (November 17, 2023) is conceded to One or Six. The Three side of the work-scoring test rests on small self-presentational asides (the Kaggle parenthetical, Goodfellow being impressed, 'validating') that the article concedes a One could share, while the 2019 essay's correctness frustrations show a rightness standard applied to his own work. The One alternative is weakened, not failed. This is why the Enneagram dimension scores below the release floor. It is not a wording defect, and manufacturing certainty would be worse.",
+      "acceptance_test": "On refresh, either (a) a sourced first-person or named-colleague observation is added that the One reading fails, such as a dated case where he narrates or chooses the visible result over correctness in his own work at a real cost, with confidence language adjusted only as far as that evidence supports; or (b) the call stays at medium confidence and the page holds until such evidence exists."
+    }
+  ],
+  "research_tasks": [
+    "Non-blocking: re-check the audio of The Knowledge Project at about 0:22:11–0:22:29. This verifier's audio download returned HTTP 403, so the quote rests on the re-downloaded captions plus the repair stage's Whisper runs. The edit only removes words, so no change is needed unless restoring fillers.",
+    "To lift the Enneagram case (verify-r-07): mine the opened-but-unused first-person sources (Lex Fridman Podcast #17, 2019 [S11]; 'The OpenAI Mission', 2019 [S05]; 'It's time to become an ML engineer', 2022 [S07]) and any named Stripe or OpenAI colleague (Collison, Hedlund, Elhage) for how he evaluates his own work: rightness versus recognition and results.",
+    "Non-blocking: open The New York Times report of September 30, 2026 behind Gizmodo (S31) to confirm the June 2026 Slack wording.",
+    "Before publishing: re-check his title and remit (C130, C58), the status of Musk's appeal (C165), Leading the Future giving after the November 3, 2026 midterms (C41, C106, C107, C210), and the December 25, 2026 release of Artificial (C59, C48)."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "S06 reopened (Wayback 2025-01-05 capture, Dota section): the full sentence appears verbatim after 'People would mention how how hard behavioral cloning from human data is.' The hook now quotes it whole, and the claim text no longer calls it praise."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "S06 Dota section: 'To make things worse, I kept discovering small bugs that had been corrupting my results the whole time.' Verbatim, about the July 2017 project."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "S06: 'But soon Jie figured out how to get better results without using my code, and I had nothing to show for my efforts.' Verbatim; Jie Tang is named in the preceding sentence."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "S06: the sentence stands alone as its own paragraph in the reopened capture, as the article says."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "S06 'Early days': 'my software skills were always in demand, and I kept procrastinating on picking up the machine learning skills I wanted.'"
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "S06 intro: 'my biggest blocker was a mental barrier — getting ok with being a beginner again.' The article moves the dash outside the quotation, with the quoted words intact."
+    },
+    {
+      "claim_id": "C01",
+      "verdict": "qualified",
+      "reason": "The article passage is accurate: 1987 (S09 infobox, Nov 29, 1987) and North Dakota (S08: family lives in Thompson, N.D.). The claim text says Forbes listed him as 38, but S30 lists 'Greg Brockman, 37'. Evidence-record slip only."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "S19: 'Stripe's fourth employee, serving as its first CTO'; S34: 'Stripe's fourth employee, CTO'; OpenAI co-founded 2015 (S19, S30)."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "S30 (Sept 15, 2026): 'oversees the infrastructure behind OpenAI's models and, since July, its product business as well—making him the company's second-in-command ahead of a possible IPO.' Dated, time_sensitive, with a trigger."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "S19 verbatim: 'prior to Microsoft's first $1 billion investment into OpenAI, Brockman essentially served as the AI lab's CEO'."
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "supported",
+      "reason": "S13: 'Greg Brockman will be stepping down as chairman of the board'; S15 dates it November 17, 2023."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "President (S30, S19) and co-founder (S17 'since co-founding OpenAI'). time_sensitive with a title-change trigger."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "S19: 'took on a less public-facing role at the company after Altman became CEO in 2019'. S22: 'In early 2018 Musk exited... together they agreed that the lab's employees didn't have faith in Brockman and Sutskever's leadership'. The sequence the article gives is accurate."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "S28 intro: Brockman 'is the face of yesterday's announcement of Astra'; S29 has him leading the September 3, 2026 briefing."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "S32 raw wikitext: Cooper Hoffman as Brockman and Andrew Garfield as Altman, world premiere at the 2026 NYFF on October 5."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "S32 release field: United States, Dec 25, 2026, Neon. Phrased as an 'As of October 2026' fact, with a trigger."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "A labeled reading of S01 (1:1s and recruiting handed to Hedlund), S04 (non-research tasks) and S06/S04 ('validating'). Reasonable."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "S06: the stalled years were the Gym, Universe and Dota environment years, praised as 'deeply validating'. 'Nothing to show' is limited to the 2017 project, matching the essay."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "qualified",
+      "reason": "A labeled medium-confidence reading. The rank, notice and results items exist (S28 'best in the world'; S03 Kaggle; S04 Goodfellow; S06/S04 'validating'; S06 'nothing to show'). But S06 also shows correctness-centered frustrations about his own work. The article concedes them in 'Nothing to show for my efforts', so 'more than by doing it right' is a weighting, not a clean finding."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "An interpretation consistent with the body's discriminator and the type answer."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "S08 (Feb 3, 2007): 'the first North Dakota finalist in the competition since 1973'; 'His parents, Drs. Ron Brockman and Ellen Feldman, are Altru Health System physicians.'"
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "S10: 'grew up on a hobby farm in North Dakota and had what he describes as a \"focused, quiet childhood.\"' The update note says changes followed OpenAI's request and includes 'Brockman considers this distinction important.'"
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "S28 Background: 'I actually thought that I was going to potentially be an actor all the way through ninth grade'."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "S28 verbatim: 'I wanted to double down on something, I felt like I could be best in the world and really try to move the needle in a field... I ended up picking the hard sciences one, because I felt like maybe that was an area where I could most make a difference in the world.' The claim now separates the bar from the impact-based choice."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "S28 verbatim."
+    },
+    {
+      "claim_id": "C137",
+      "verdict": "supported",
+      "reason": "S28 verbatim, with the context of college students chatting during downtime."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "S28: Mannheim Steamroller concert in Grand Forks; 'scrawny ninth grader'; stood at attention during downtime; not picked; made a gingerbread man. First paid job."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "S28 verbatim."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "S28: 'it was possible for me to really excel and be the best in the state at different areas that I put my mind to.'"
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "This interpretation matches S28's order: the bar ('best in the world... move the needle') came first, then a choice made on impact."
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "A labeled reading of S28 ('What I noticed... this job has one requirement'). Fair."
+    },
+    {
+      "claim_id": "C139",
+      "verdict": "supported",
+      "reason": "S28 verbatim: 'a little bit of trying to be out of the box in order to try to get the job done'."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "S28: 'one of the things I loved about acting was actually the group aspect of it.'"
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "supported",
+      "reason": "S03 opening (r.jina.ai copy of the live page, cross-checked with the Wayback 2024-12-26 capture): read Turing, 'started writing a chatbot', 'I soon shelved my chatbot pursuits.'"
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "S28: 'the very first thing I built that had users, it was actually a competitive chatbot game, and I got 1,500 hits from StumbleUpon one day. It was the most glorious feeling'. Gap-year context confirmed."
+    },
+    {
+      "claim_id": "C141",
+      "verdict": "supported",
+      "reason": "S28: 'This is what I want, I want to help people, I want to benefit people and build for them'."
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "qualified",
+      "reason": "S03: 'I replied that AI was top of my list (and it was definitely my life goal).' The parenthetical may be an aside to blog readers rather than words said to Altman. 'As he told Altman in 2015' is plausible but not certain."
+    },
+    {
+      "claim_id": "C143",
+      "verdict": "supported",
+      "reason": "A labeled interpretation. Both episodes are confirmed: S03 (no technique could make the bot 'really work', so he shelved it) and S06 (Jie got better results without his code, and he never tried ML on Dota again). The 'nothing to show' overreach is gone."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "S28 intro: 'Brockman dropped out of college in 2010 to join Stripe'; S34: left MIT to join Stripe; S30: left both Harvard and MIT."
+    },
+    {
+      "claim_id": "C144",
+      "verdict": "qualified",
+      "reason": "The S04 wording is verbatim, but the quotation ends with a period at 'sleep', while the source sentence continues ', which would inspire others to contribute their best work (importantly, measured by output quality rather than hours).' Not misleading, but the trimmed clause bears on the type question."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "S04 verbatim."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "S01: 'I would stack them all on a Tuesday, and be completely burned out by the end of the day'; the 1:1s went to Marc Hedlund once he started."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "S01 verbatim, including the purpose: 'making sure people would take their problems to Marc rather me. The best thing I did on this front was take a vacation...'"
+    },
+    {
+      "claim_id": "C145",
+      "verdict": "supported",
+      "reason": "Matches S01's order and purpose."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "S01 verbatim; double quotes become single inside the quotation."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "S01: '\"sparse micromanagement\" (the best term I've heard for jumping in to some random issue, overturning all the decisions, and then disappearing) is the worst.'"
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "S02 (May 6, 2015): 'About six months ago... I'd successfully removed myself as a critical lynchpin', which puts it in late 2014."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "S02 verbatim; S34 dates the departure to May 2015."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "A labeled typological expectation; the facts come from S02."
+    },
+    {
+      "claim_id": "C146",
+      "verdict": "supported",
+      "reason": "S03 'Initial spark': 'In June, Sam pinged me... I told him my current plan was to start an AI company within the next year.'"
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "S03: 'About a month later, Sam set up a dinner in Menlo Park... I volunteered myself as tribute.'"
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "S04 Spinup: 'our first office (my apartment)... I quickly got them a whiteboard and any other office supplies they needed.'"
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "S04 verbatim."
+    },
+    {
+      "claim_id": "C147",
+      "verdict": "supported",
+      "reason": "A labeled interpretation based on S04's service details."
+    },
+    {
+      "claim_id": "C148",
+      "verdict": "supported",
+      "reason": "S02 opening sentence, verbatim."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "S02 second sentence, verbatim."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "S04 Universe section: Dario Amodei and Rafał Józefowicz led the research; 'There's something extremely validating about your work allowing researchers to ask questions that no human ever has before.'"
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "S06 Dota section, verbatim."
+    },
+    {
+      "claim_id": "C149",
+      "verdict": "supported",
+      "reason": "Interpretation, set beside the intrinsic motives restored from S02/S04."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "S06 verbatim."
+    },
+    {
+      "claim_id": "C150",
+      "verdict": "supported",
+      "reason": "S06: 'But I felt half blind... In Dota, I was constrained to looking at all problems through a software lens'."
+    },
+    {
+      "claim_id": "C151",
+      "verdict": "supported",
+      "reason": "S06: 'I wanted to be able to make critical contributions like that which combined software and machine learning skills.'"
+    },
+    {
+      "claim_id": "C152",
+      "verdict": "supported",
+      "reason": "Interpretation that follows S06's timeline (July 2017 project; November 2018 restart; skills 'always in demand')."
+    },
+    {
+      "claim_id": "C153",
+      "verdict": "supported",
+      "reason": "S06 'Time out': after The International 2018, 'the demands on my time had relented, and in November 2018...'"
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "S06 verbatim."
+    },
+    {
+      "claim_id": "C154",
+      "verdict": "supported",
+      "reason": "S06 verbatim."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "S06 verbatim."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "S10: 'In November, Brockman married his girlfriend of one year, Anna, in the office'. S21 names 'Anna Brockman'. Hedged in the article as 'appears to be'."
+    },
+    {
+      "claim_id": "C155",
+      "verdict": "supported",
+      "reason": "S06 verbatim."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "S06: 'my frustration overwhelmed my fear, and I implemented GPU caching — a change which touched the entire model.'"
+    },
+    {
+      "claim_id": "C156",
+      "verdict": "supported",
+      "reason": "S06 'Retooled', verbatim."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "S06: Jakub and Ilya advised; 'Jakub and Szymon joined the project full-time. I feel proud every time I see a commit from them...'"
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "S06 verbatim."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "Labeled 'This suggests'; the One and Five counter-readings follow in the next paragraph."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "Interpretation of S06's wording ('unwilling to become a beginner again')."
+    },
+    {
+      "claim_id": "C157",
+      "verdict": "supported",
+      "reason": "Interpretation; the two-way weighing is fair to S06."
+    },
+    {
+      "claim_id": "C158",
+      "verdict": "supported",
+      "reason": "S06: 'not being certain which code a given experiment had used or realizing I needed to compare against a result from last week that I hadn't properly archived.'"
+    },
+    {
+      "claim_id": "C159",
+      "verdict": "supported",
+      "reason": "Interpretation backed by first-person performing and recruiting (S28, S03, S04)."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "S06 final line: 'apply to OpenAI!'"
+    },
+    {
+      "claim_id": "C160",
+      "verdict": "supported",
+      "reason": "S22: 'Musk, OpenAI's then principal financial supporter'; S35: co-founder and early source of funds ($38 million)."
+    },
+    {
+      "claim_id": "C161",
+      "verdict": "supported",
+      "reason": "S35: 'Musk wanted control, but the others disagreed, and he left the board in 2018.'"
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "S12: the 'Honest Thoughts' email, Sutskever to Musk and Altman (cc Brockman), Sep 20, 2017, signed 'Greg & Ilya'. Quoted line verbatim."
+    },
+    {
+      "claim_id": "C162",
+      "verdict": "supported",
+      "reason": "S35: suit filed in 2024. S27: the journal was shown at the May 2026 trial. S23: 'Internal records'."
+    },
+    {
+      "claim_id": "C163",
+      "verdict": "supported",
+      "reason": "S23 verbatim: 'That year, after Musk tried to take control, Brockman wrote in a diary entry...'. The New Yorker frames it as founders' private doubts about the nonprofit, consistent with 'a b-corp move he and his co-founders were weighing'."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "S23 verbatim; S27 corroborates the $1B entry."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "S23 verbatim ('Financially what will take me to $1B.'). S27 renders it 'Financially, what will take me to $1B?'"
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "S27 verbatim: 'Molo then pulled up a journal entry Brockman had written in November 2017... \"it'd be wrong to steal the nonprofit from him. to convert to a b-corp without him. that'd be pretty morally bankrupt.\"'"
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "S25 (May 4, 2026, reopened via r.jina.ai): 'That'd be pretty morally bankrupt and he's really not an idiot.'"
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "S27 verbatim. Trigger present."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "Interpretation over verified diary entries."
+    },
+    {
+      "claim_id": "C164",
+      "verdict": "qualified",
+      "reason": "S35: the for-profit subsidiary dates to 2019, and Musk's case accused Altman and Brockman of 'breach of charitable trust' for allegedly abandoning the mission and profiting. 'Which his suit called a breach' compresses that claim onto the subsidiary. Acceptable."
+    },
+    {
+      "claim_id": "C165",
+      "verdict": "qualified",
+      "reason": "S35: a unanimous nine-member advisory jury found the claims time-barred, and Judge Gonzalez Rogers agreed and tossed the case; the merits were sidestepped. In NPR, the appeal was announced by Musk's lawyer Marc Toberoff ('appeal'), so 'Musk said he would appeal' slightly over-attributes. unresolved, with a trigger."
+    },
+    {
+      "claim_id": "C166",
+      "verdict": "supported",
+      "reason": "Interpretation; S27 shows Musk's counsel Molo choosing and presenting the entries."
+    },
+    {
+      "claim_id": "C167",
+      "verdict": "supported",
+      "reason": "S22 verbatim ('a classically Muskian precursor to staff cuts'), 2017."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "S22 'Conflicting promises', verbatim."
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "S22 verbatim; Daniela was co-leading the language project with Radford."
+    },
+    {
+      "claim_id": "C168",
+      "verdict": "supported",
+      "reason": "S22: 'Brockman and Altman reluctantly agreed to keep Brockman off the language project.'"
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "S22 'Fight after fight': March 2020 peer reviews requested by Altman; the quoted clause is verbatim."
+    },
+    {
+      "claim_id": "C169",
+      "verdict": "supported",
+      "reason": "S22: 'He showed it to Altman beforehand, who declared it \"tough but fair.\"'"
+    },
+    {
+      "claim_id": "C170",
+      "verdict": "supported",
+      "reason": "S22: 'Brockman at one point offered to withdraw his from Daniela's packet.'"
+    },
+    {
+      "claim_id": "C171",
+      "verdict": "supported",
+      "reason": "S22: the group around Dario left at the end of 2020 to form their own company (Anthropic)."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "S23: 'Brockman, whom some considered an abrasive operator'."
+    },
+    {
+      "claim_id": "C172",
+      "verdict": "supported",
+      "reason": "S19: Su on 'his just maniacal focus on ensuring there's enough compute'."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "S19: from an unnamed former engineer ('the colleague said'). The article correctly calls it anonymous."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "S19: two consecutive quotes from 'another former OpenAI employee'. The article joins them across the attribution, with wording intact."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "S20 (Oct 1, 2025 deposition): 'You drafted a similar memo that was critical of Greg Brockman; correct? Yes. You sent that to the board too? Yes.' Disputed status kept."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "S19: Hagey's book 'suggested' the memo laid out concerns about Brockman's 'alleged bullying'. Attributed as secondhand and disputed, carrying no type weight."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "S19 verbatim OpenAI statement."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "S20: 'What was the basis for that allegation? Mira told me.' / 'Did you seek to verify it with Greg? No.' S02 describes a voluntary departure."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "Labeled interpretation with an explicit source-weighting caveat."
+    },
+    {
+      "claim_id": "C173",
+      "verdict": "supported",
+      "reason": "The author's comparison, explicitly resting on one unnamed source and noting the difference (working around slow work versus overturning decisions)."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "S15 verbatim, including 'At 12:19pm, Greg got a text from Ilya asking for a quick call.'"
+    },
+    {
+      "claim_id": "C174",
+      "verdict": "supported",
+      "reason": "S24 captions about 0:15:52: 'it was the board minus Sam who were on there.'"
+    },
+    {
+      "claim_id": "C175",
+      "verdict": "supported",
+      "reason": "S13 verbatim: 'not consistently candid'; 'stepping down as chairman of the board and will remain in his role at the company, reporting to the CEO.'"
+    },
+    {
+      "claim_id": "C176",
+      "verdict": "supported",
+      "reason": "S24 about 0:16:40: 'I asked like any reasons, any feedback. Was told no.'"
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "S24: 'What went through your mind? It just wasn't right. Was it anger? No. I felt like I understood what had happened.'"
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "S24 verbatim; the article nests his quoted speech in single quotes."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "S14: the attached image read directly. 'but based on today's news, i quit.' It closes with belief in 'the mission of creating safe AGI'."
+    },
+    {
+      "claim_id": "C178",
+      "verdict": "supported",
+      "reason": "S24 about 0:18:10: 'we started to chart out what a new company could look like... there's a 10% chance that we actually get the company back'."
+    },
+    {
+      "claim_id": "C179",
+      "verdict": "supported",
+      "reason": "S24 about 0:20:10: 'it actually crashed Google Docs'. He says he saw Ilya had signed; S19 has OpenAI saying Ilya signed."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "S16: 'the Board expressed its full confidence in Mr. Sam Altman and Mr. Greg Brockman's ongoing leadership' after the WilmerHale review. S09 has his return days later."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "Interpretation; the concession is consistent with S24."
+    },
+    {
+      "claim_id": "C180",
+      "verdict": "supported",
+      "reason": "Interpretation; the facts come from S24."
+    },
+    {
+      "claim_id": "C181",
+      "verdict": "supported",
+      "reason": "S24: said of the messages that arrived after he quit, which supports 'he quit before he knew who would follow'."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "An alternative-case interpretation built on quotes verified in S27, S24, S10 and S01."
+    },
+    {
+      "claim_id": "C182",
+      "verdict": "supported",
+      "reason": "S01 opening: 'I had a very strong vision of the environment I wanted to be a part of, and I was willing to go out of my way to make it exist.'"
+    },
+    {
+      "claim_id": "C183",
+      "verdict": "supported",
+      "reason": "S24 about 0:27:48, verbatim."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "S10: 'Brockman recites it like scripture...(\"By the way,\" he clarifies halfway through one recitation, \"I guess I know all these lines...\")'. A 2019 visit (Brockman, 31; published Feb 2020)."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "Interpretation."
+    },
+    {
+      "claim_id": "C184",
+      "verdict": "supported",
+      "reason": "The discriminator now matches the sources. The diary entries judge his own planned conduct (S23, S27), conceded to One. The work-scoring items are verified in S03, S04, S28 and S06."
+    },
+    {
+      "claim_id": "C185",
+      "verdict": "supported",
+      "reason": "S03: after Nielsen's book 'I practiced my newfound skills on Kaggle. (I was even number 1 for a while on my first contest!)'. 2015."
+    },
+    {
+      "claim_id": "C186",
+      "verdict": "supported",
+      "reason": "S04: rest of January 2016, verbatim."
+    },
+    {
+      "claim_id": "C187",
+      "verdict": "supported",
+      "reason": "S28 Background, verbatim."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "Interpretation; the description of the source mix is accurate."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "S19 (one unnamed former employee), S22 (a fairness charge), S27 ('would actually serve the mission')."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "S21 (Feb 12, 2026): 'Greg and his wife, Anna Brockman, gave $25 million to MAGA Inc... in September of last year.'"
+    },
+    {
+      "claim_id": "C188",
+      "verdict": "supported",
+      "reason": "S21 verbatim."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "S31 verbatim apart from a leading trim ('I also want to say that'). Attributed in the body to the NYT via Gizmodo, June 2026."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "S31 verbatim."
+    },
+    {
+      "claim_id": "C189",
+      "verdict": "supported",
+      "reason": "Interpretation; the incentive explanation is stated before any inference."
+    },
+    {
+      "claim_id": "C190",
+      "verdict": "supported",
+      "reason": "Interpretation; the flip condition is explicit."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "S24 about 0:26:12 ('approaching OpenAI through a lens of uncertainty') and about 0:26:50 ('have a stronger sense of self')."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "S24 about 0:30:57, answering 'What's a lesson you've had to learn more than once?'"
+    },
+    {
+      "claim_id": "C191",
+      "verdict": "supported",
+      "reason": "Interpretation backed by first-person S28 and S03 items."
+    },
+    {
+      "claim_id": "C192",
+      "verdict": "supported",
+      "reason": "S19 (unnamed former engineer) versus S24 (his own reason)."
+    },
+    {
+      "claim_id": "C193",
+      "verdict": "supported",
+      "reason": "S36 (May 14, 2024)."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "S24 about 0:23:40, verbatim."
+    },
+    {
+      "claim_id": "C194",
+      "verdict": "supported",
+      "reason": "S24 about 0:23:50, verbatim."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "S17 (Aug 6 02:14 UTC = Aug 5 Pacific), verbatim."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "S19: media outlets reported concerns 'that his demanding leadership style had created tension within teams'; an OpenAI spokesperson said it was his decision."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "S24 about 0:24:18, answering 'What did you do during the time off?': 'I trained language models on DNA sequences... For Arc Institute'."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "S18 (Nov 12, 2024), verbatim."
+    },
+    {
+      "claim_id": "C195",
+      "verdict": "supported",
+      "reason": "S04 verbatim."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "Labeled interpretation."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "Labeled interpretation."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "S03 'Initial spark', verbatim."
+    },
+    {
+      "claim_id": "C196",
+      "verdict": "supported",
+      "reason": "S37 captions about 0:18:29–0:18:36. yt-dlp upload date 20230314, OpenAI channel."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "S29: 'Brockman says he personally believes OpenAI has reached AGI'; 'He ended the briefing by saying: \"Welcome to the AGI era.\"'"
+    },
+    {
+      "claim_id": "C197",
+      "verdict": "supported",
+      "reason": "S28 verbatim. The intro confirms the interview was 'recorded before the Astra announcement'."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "S24 captions 0:22:00–0:22:24. The question is about the loyalty he inspired, after the November 2023 account. I could not re-check the audio (stream returned 403); every word kept appears in the captions, and the edit only removes words."
+    },
+    {
+      "claim_id": "C198",
+      "verdict": "supported",
+      "reason": "The captions read 'Like I just like run right in'. The article keeps 'just like run right in' after a marked ellipsis, adding no words."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "S24 about 0:22:50: 'No one accepted a competing offer.'"
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "Sequence, not causation, limited to Dota. Matches S06."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "A question-form title that does not overstate the medium-confidence reading."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "S15 (Ilya texted and sent a Google Meet link), S24 (the board minus Sam), S13 (chairman)."
+    },
+    {
+      "claim_id": "C199",
+      "verdict": "supported",
+      "reason": "S24."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "S24 (Arc Institute DNA work during the time off); S18 (November 2024 return)."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "S19."
+    },
+    {
+      "claim_id": "C200",
+      "verdict": "supported",
+      "reason": "S36."
+    },
+    {
+      "claim_id": "C201",
+      "verdict": "supported",
+      "reason": "Interpretation consistent with the body and the type answer."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "An interpretive persona title echoing S19's 'the engine and the metronome of OpenAI'."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "S14/S17 fxtwitter author: gdb."
+    },
+    {
+      "claim_id": "C202",
+      "verdict": "supported",
+      "reason": "S06 verbatim."
+    },
+    {
+      "claim_id": "C203",
+      "verdict": "supported",
+      "reason": "S24 about 0:22:45: 'all the competitors were circling'."
+    },
+    {
+      "claim_id": "C204",
+      "verdict": "supported",
+      "reason": "S03 verbatim."
+    },
+    {
+      "claim_id": "C205",
+      "verdict": "supported",
+      "reason": "S03 verbatim."
+    },
+    {
+      "claim_id": "C206",
+      "verdict": "supported",
+      "reason": "S23 (2017 entry 'after Musk tried to take control'), S27 (November 2017, 'torn over whether to turn OpenAI into a for-profit without Musk'), S25. Both entries judge his own side's contemplated conduct."
+    },
+    {
+      "claim_id": "C207",
+      "verdict": "supported",
+      "reason": "A labeled interpretation; the concession is honest."
+    },
+    {
+      "claim_id": "C208",
+      "verdict": "supported",
+      "reason": "S28 verbatim. It matches the Stratechery section's own account of the bar and the impact-based choice."
+    },
+    {
+      "claim_id": "C209",
+      "verdict": "supported",
+      "reason": "A labeled typological premise. The 2019 essay shows some correctness-scoring of his own work, which the article concedes in 'Nothing to show for my efforts'."
+    },
+    {
+      "claim_id": "C210",
+      "verdict": "supported",
+      "reason": "S31: 'Brockman and his wife initially promised to donate a total of $50 million, according to the super PAC'. S21: $25 million given plus $25 million pledged for 2026. unresolved, with a midterms trigger."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback 2024-12-23 id_ capture (live origin and r.jina.ai both failed 2026-10-07): opening paragraphs, 'Hiring a VP Engineering', 'Once we had a VP Engineering'"
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback 2025-01-02 id_ capture: full post (opening, Startups, Departing, What comes next)"
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "r.jina.ai copy of the live page plus Wayback 2024-12-26 capture: opening, 'Leaving Stripe', 'Initial exploration' (Kaggle), 'Initial spark', 'The dinner'"
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback 2025-01-30 id_ capture: Spinup (whiteboard, Goodfellow), Gym (wake until sleep, 2010 vault), Universe (extremely validating)"
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback 2025-01-05 id_ capture: full essay (intro, Early days, Dota, Time out, Retooled)"
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch: Feb 3, 2007 item (finalist since 1973; parents physicians; Thompson, N.D.)"
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Raw wikitext fetched 2026-10-07: infobox (born 1987), Career, Musk lawsuit, Political activities"
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch: lunch scene (hobby farm, focused quiet childhood), charter recitation aside, wedding parenthetical, end-of-article update note"
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch: 'Honest Thoughts' email, Sutskever to Musk and Altman, Sep 20, 2017, signed 'Greg & Ilya'"
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "r.jina.ai (direct fetch 403): paragraphs on Altman's departure ('not consistently candid') and Brockman stepping down as chairman"
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "fxtwitter JSON (created Nov 18 00:09 UTC) plus the attached image, read directly: 'but based on today's news, i quit.'"
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "fxtwitter JSON: full post text (12:19pm text; Meet link; 'Greg was told...')"
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "r.jina.ai (direct fetch 403): announcement paragraph (WilmerHale review; board expressed its full confidence)"
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "fxtwitter JSON: sabbatical post text (Aug 6 02:14 UTC)"
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "fxtwitter JSON: return post text (Nov 12, 2024)"
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch: Su paragraphs, early-years CEO, sabbatical and leadership-style paragraph, Slack/bear paragraph (unnamed former engineer), heartbeat and ends-over-means quotes, Hagey memo paragraph and OpenAI statement"
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch (greaterwrong): Molo questions on the memo critical of Brockman (pp. ~128–131); Eddy questions on the Stripe line (p. ~305); closing colloquy on the Brockman memo"
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch and r.jina.ai: dek and paragraphs 1–4 (MAGA Inc. Sept 2025; LTF $25M given plus $25M pledged), 'team humanity' rationale paragraph"
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch (To Vima syndication): byline Hagey and Jin; 'Early traumas', 'Conflicting promises', 'Fight after fight', 'The final split'"
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch: Musk-exit paragraph (abrasive operator), handshake-pact paragraph, diary paragraph ('it was a lie'; 'Happy to not become rich'; '$1B')"
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto-captions re-downloaded 2026-10-07 (yt-dlp; upload 20260422; 1:11:42): 0:00–0:01, 0:15:40–0:24:50, 0:26:00–0:28:30, 0:30:57. Audio not re-checked (the stream returned 403)."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "r.jina.ai (direct fetch 403; published 2026-05-04): journal-entry paragraph ('he's really not an idiot')"
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch: 'What was Brockman thinking?' section (November 2017 entry; mirror explanation; $1B entry)"
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch: intro ('recorded before the Astra announcement'), Background (acting, ninth grade, Mannheim Steamroller, best in the state, W3Schools, chatbot game), Productivity and AGI hedge"
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "r.jina.ai (direct fetch 403): full text (personally believes AGI reached; ended the briefing with 'Welcome to the AGI era')"
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch: entry no. 5, 'Greg Brockman, 37' (remit since July; second-in-command)"
+    },
+    {
+      "source_id": "S31",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch and r.jina.ai (published 2026-10-01): paragraphs 1–2 ($50M promise), 6–8 (June statement; NYT report; Slack quote)"
+    },
+    {
+      "source_id": "S32",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Raw wikitext: infobox release field, lead paragraph, cast list"
+    },
+    {
+      "source_id": "S34",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch and r.jina.ai: lead paragraph (fourth employee, CTO; left MIT) and quoted blog lines"
+    },
+    {
+      "source_id": "S35",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch and r.jina.ai: article paragraphs 1–12 (unanimous advisory jury, time-barred, Toberoff 'appeal', 2018 board exit, 2019 subsidiary)"
+    },
+    {
+      "source_id": "S36",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch: dateline May 14, 2024, and opening paragraphs"
+    },
+    {
+      "source_id": "S37",
+      "opened": true,
+      "context_matches": true,
+      "locator": "yt-dlp metadata (upload 20230314, OpenAI, 24:28) and captions 0:16:13–0:18:36"
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "All four parts are met. The full newbie sentence opens the article. 'In demand ... procrastinating', 'demands on my time had relented' and 'see the whole picture clearly' appear in his words. The visibility reading is labeled 'This suggests'. The Five and One counter-readings follow, and the essay is said to 'cannot carry it alone'. C85 and C86 match."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "The WSJ paragraph now includes 'reluctantly agreed', Altman's request and 'tough but fair', the point-by-point rebuttal and the Musk spreadsheet request. All were checked against S22. The Nine paragraph treats accepting exclusion and the withdrawal offer as Nine-compatible."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "'Like a bear' labels the bear as an anonymous image and quotes his own reason from S24, beside Fortune's media framing and OpenAI's response. The FAQ carries the same reason. The 'appears in his own account' sentence is gone."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "The WIRED rationale is quoted, and I confirmed it against S21. 'His latest reversal fits' is gone; the Slack message is labeled non-discriminating because any executive would write it after a backlash. The Type 1 FAQ drops the PAC, which goes beyond the test."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "A dated sentence gives the May 18, 2026 outcome without implying exoneration (checked against S35). C165 is unresolved with a trigger. Minor: NPR attributes the appeal announcement to Musk's lawyer (see verify-r-04)."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Lisa Su is labeled and quoted. OpenAI's full denial is quoted (S19). The 'the worst' comparison is framed as the author's, on one unnamed source. The 'high standards' quote was cut rather than restored, which removes the truncated-tribute problem the test targeted."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "The quit FAQ now says the board, minus Altman, told him on a call Sutskever set up, which matches S15 and S24. The Type 1 FAQ no longer uses the unnamed quote."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "The description limits the episode to Dota, uses sequence rather than cause, and is 166 characters. The title and meta_title are questions. checkDraft passes."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "The full sentence, with the 'colleagues said the problem was hard' context, is in the hook. The refuse-the-excuse reading is weighed for both Three and One."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Three months of study before he 'felt ready', 'see the whole picture clearly', and 'half blind' tied to the software lens are all present and match S06. The Five test now rests on the first-person record of performing and recruiting."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "The chairmanship, the refused reasons, same-day planning of a new company and the 10% odds are reported, dated and sourced (S13, S24). A new paragraph argues why the concession stands. The procedure discriminator was removed. Staying on as an employee is given as 'stay' and 'keep his job' rather than 'reporting to the CEO'; the substance is met."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Turing, the gap-year chatbot ('talk about the weather very convincingly'), the shelving and the pivot to 'real impact' are dated and linked to S03; I verified them. AI is established as a life goal before OpenAI. The field-choice sentence is qualified. The 2016 and 2026 chatbots are presented as possibly one or two."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "'His first vacation was a delegation tactic, and a build followed it' matches S01. The loop now rests on the 2010 vault (S04) and the 2018 holiday study (S06)."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "De facto CEO (S19), the chairmanship, the 2019 step back tied to the WSJ's reported doubts, the GPT-4 livestream (S37) and the Astra launch are all present. 'Runs light on glamour' is gone."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "The verdict is stated and dated. The $100,000 admission is excluded with a stated reason: one source, ambiguous wording, and Courthouse News blocked a re-fetch. That is allowed by the test."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "The June 2015 plan is quoted (S03). He is called the founder who recruited the team. 'Strongest evidence against a status-hungry reading' now rests on the errands."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "The framing sentence matches S06: the stall coincided with praised work, and 'nothing to show' is tied to the 2017 project. 'Always in demand ... procrastinating' is quoted and weighed. The description no longer overreaches."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "All four points are addressed: the full sentence, the timing and persistence reasons, commits credited to Pachocki and Sidor with hours removed, and correctness frustrations conceded. The verdict is labeled. The discriminator was rebuilt."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "The mirror item counts for One. The peer review appears with 'tough but fair', two-sided. The test's fallback concerned a speed-over-process discriminator that no longer exists; the rebuilt case rests on first-person work-scoring and keeps medium confidence with the One case called close."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "'If he is a One' includes the 'it was a lie' rule (S23) and both environment self-descriptions (S01 2014, S24 2026), dated. 'Where the One reading strains' concedes the diary to One and gives the 'deliver great results' reason (S28)."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "'His bar for committing to a field was being best in the world, though the choice itself turned on impact' matches S28. 'Favorite' is gone. His own gloss sits beside the reading."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "The 2019 'less public-facing role' now follows the reported loss of confidence and is not used as title humility. The Nine paragraph says he accepted exclusion. Both match S19 and S22."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "The motive clauses are restored ('loved the act of creating something from nothing', 'magic made real', 'I want to help people'). 'Most consistently' is gone. Rank and impression items (Kaggle, Goodfellow, the audition) are named as what a pure craft or impact builder would not stress."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "The backlash is mentioned, the omitted Slack sentence restored, the incentive explanation stated and the item labeled non-discriminating. The pledge is attributed to him and his wife. Employee dissent is not named explicitly, but the test's substantive outcome is met."
+    },
+    {
+      "finding_id": "critic-09",
+      "accepted": true,
+      "reason": "The governments episode is excluded with a documented reason in type_hypothesis.unexplained, and the discriminator no longer relies on anonymous or same-camp items. The $100,000 admission is excluded with a reason."
+    },
+    {
+      "finding_id": "critic-10",
+      "accepted": true,
+      "reason": "The Stripe sentence keeps the order and the purpose. The sabbatical paragraph includes his reason (S24). The loop is re-tested against a Nine or Six reading."
+    },
+    {
+      "finding_id": "critic-11",
+      "accepted": true,
+      "reason": "The closing labels the Astra line launch messaging and quotes his hedge. I confirmed S28 was 'recorded before the Astra announcement'. The bookend rests on the act of pronouncing, so it survives a disputed AGI claim."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "The opening gives the context and the full sentence. 'More than his own doubt' and 'talking their estimate down' are gone. The refuse-the-excuse reading is weighed. C53 no longer says praise."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "The type answer rests on how he scores his work in his own accounts, which the body supports. The 'costliest choice' passage concedes One and Six and does not contradict it. The answer and FAQ are identical and under 60 words (checkDraft passes)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "The mirror item is out of the Three list and counted as 'a One's answer'."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Covered: Musk's role and 2018 exit (S35, S22); the b-corp gloss (S27); the suit's charge; the 2019 subsidiary; and the May 18, 2026 outcome with the appeal. 'A line he would not cross' is replaced. Minor: 'That same year' at the section's start misdates the fight (see verify-r-01)."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Sutskever is identified as a board member. The chairmanship, 'not consistently candid', the petition, Sutskever's signature and 'competitors circling' are all present and sourced (S13, S15, S24)."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "'Dario Amodei, then research director', 'Daniela Amodei, Dario's sister' and co-lead, the 2017 layoffs explained, and Anthropic named before the caveat. All match S22."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "The orientation gives the de facto CEO role (S19) and the July 2026 remit (S30), dated, with C130 time_sensitive."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Dota, CTF3 and AGI are glossed. Sutskever's departure is dated May 2024 (S36). The undated coding line is cut. 'The young extra' replaces 'teenager'. Stratechery is linked at the gingerbread passage."
+    },
+    {
+      "finding_id": "unfamiliar-09",
+      "accepted": true,
+      "reason": "The self-interruption is rendered with a dash and 'He broke off:'. Unconfirmed words are dropped with a marked ellipsis, and no words are added. I confirmed every kept word in the re-downloaded captions but could not re-check the audio (403)."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "His persistence reason and the three-month study are in the text. The false 'Five would withdraw' sentence is gone. The 3-versus-5 test rests on performing, recruiting and 'critical contributions'."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "The full clause is quoted and the correctness frustrations acknowledged. The essay is presented as contested, and a separate first-person discriminator (audition, best in the world, Kaggle, Goodfellow) carries the case at medium confidence."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "The mirror is counted for One. The peer review appears with the full 'abusing her power' clause and cuts both ways. The launch rule is removed. 'Where the One reading strains' now names first-person items under a new test and calls the One case close."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "The Type 1 FAQ opens 'He might be, and the case is close', drops the anonymous quote and the PAC, and rests on the 2019 essay and work-scoring. Minor: its 'applies to his own conduct' list includes a verdict on the board (see verify-r-02)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "The environment self-descriptions are confronted and conceded to One. Three's lead is argued from the 'deliver great results' framing. The researcher quote is reframed as impact. 'The currency in his writing' is removed."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "The time-demand constraint is quoted. The commits are credited to his teammates. Hours are removed from the argument."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Accepting exclusion and the withdrawal offer are acknowledged as Nine-compatible. The rebuttal rests on first-person items only (best-in-the-world bar, the audition, volunteering)."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "The definition is rewritten without the shared 'organized around ... valuable through' frame and immediately qualified with Brockman-specific evidence. I did not re-run the similarity diagnostic; the template frame is absent from the text."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "The Type 1 FAQ grounds the call in the 2019 essay and drops the PAC and the unnamed quote. No FAQ implies the giving ended permanently. The body keeps 'no plans to donate more at this time' with both reasons."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "A dated verdict sentence is present (S35), and C165 is unresolved with the specified appeal, retrial or merits trigger. C23 carries a matching trigger."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "The 2019 status is limited in time and qualified. The July 2026 remit expansion appears with its Forbes source (S30). C40 has an IPO, CEO and remit trigger."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "My scan of author prose finds no 'latest', 'now', 'recent', 'currently' or 'this year'. Nine evidence is dated April 2026, the premiere is dated, and Sutskever's departure is dated. One residual relative anchor, 'That same year', is logged separately as verify-r-01; it is a dating error, not a recency marker."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "The FAQ reads 'As of October 2026, Neon had scheduled a U.S. theatrical release for December 25, 2026', and C59 keeps its trigger."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "C23 and C109 are stable with re-weigh triggers. C32, C33 and the WSJ items are unresolved with on-record-response triggers. The discriminator no longer depends on them."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "No wealth figure appears in the body or metadata. Forbes is cited only for the dated remit."
+    },
+    {
+      "finding_id": "verify-01",
+      "accepted": true,
+      "reason": "'His ninth-grade bar for any field was being \"best in the world.\"' matches S28 (the bar for doubling down; impact decided the field) and the earlier Stratechery section. C04 and C208 separate the two clauses. No text now says he chose a field by where he could be best."
+    },
+    {
+      "finding_id": "verify-02",
+      "accepted": true,
+      "reason": "The discriminator paragraph files the 2017 diary entries correctly, as judgments of his own side's planned conduct (S23, S27), and concedes them as 'the One reading's best private evidence'. It narrows Three's lead to how he scores his work. The type answer, FAQ, C184 and type_hypothesis agree. The resulting split verdict is reflected in my Enneagram score, not treated as an unresolved defect."
+    },
+    {
+      "finding_id": "verify-03",
+      "accepted": true,
+      "reason": "The gap-year shelving is now told in S03's terms, dated and linked, including the 'real impact' pivot. 'Nothing to show' is gone. The recurrence sentence is supported by S03 and S06 as a labeled reading."
+    },
+    {
+      "finding_id": "verify-04",
+      "accepted": true,
+      "reason": "'Reports 2017 layoffs' matches S22, which does not open with the layoffs."
+    },
+    {
+      "finding_id": "verify-05",
+      "accepted": true,
+      "reason": "C202 (hook quote) and C203 ('circling') are added with correct sources. C60 names Hedlund. C152 is reclassified as interpretation. The C41 and C210 split fixes the date scope of the PAC sentence, matching S21 and S31."
+    },
+    {
+      "finding_id": "verify-06",
+      "accepted": true,
+      "reason": "The quote keeps only words present in the captions, which I re-downloaded. The break is described in author prose. The gap is marked with an ellipsis, and nothing is added. I could not re-check the audio myself (403), but the edit can only remove words, so fidelity holds under either transcription."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "Nothing in the record points to a formative wound, and this profile won't supply one.",
+      "preserved": true,
+      "reason": "Kept verbatim at the start of the childhood section."
+    },
+    {
+      "passage": "Sutskever also testified that his written claim that Brockman \"was essentially fired from Stripe\" rested on \"Mira told me,\" meaning [Mira Murati](/personality-analysis/mira-murati), and that he never checked it with Brockman, whose 2015 farewell post describes a voluntary exit.",
+      "preserved": true,
+      "reason": "Kept verbatim; I checked it against S20 ('Mira told me'; never verified with Greg) and S02."
+    },
+    {
+      "passage": "This was the costliest choice in his record, made in an afternoon, and it is the One reading's best day: a moral verdict, with anger set aside. A Six would read it as loyalty. Nothing in it favors a Three over a One.",
+      "preserved": true,
+      "reason": "Kept verbatim. A following paragraph adds the chairmanship, the refused reasons and the new-company planning, and argues why the concession stands."
+    },
+    {
+      "passage": "Some of Brockman doesn't fit the Three reading, and it shouldn't be trimmed to fit.",
+      "preserved": true,
+      "reason": "Kept verbatim at the start of the closing section."
+    },
+    {
+      "passage": "I think the way that I operate is I'm very much a in the trenches kind of leader. Try to lead from the front. And sometimes when I do that, I don't always Sorry, I'm getting a little emotional. Um, but I don't always look back to see if everyone's following. Like I just like run right in.",
+      "preserved": true,
+      "reason": "Changed only by removing words the captions or audio do not confirm ('Sorry,' becomes 'He broke off:'; 'Like I' becomes a marked ellipsis). No words are added. The in-the-trenches self-image, the emotional break and 'just like run right in' all survive. Its contribution is preserved."
+    },
+    {
+      "passage": "The next line sits alone as its own paragraph: \"I never tried machine learning on the Dota project again.\"",
+      "preserved": true,
+      "reason": "Kept verbatim; the line is a standalone paragraph in S06."
+    },
+    {
+      "passage": "He wasn't picked, but the organizers told him, \"We loved seeing how much you were dedicated to this, so we're going to actually make a new role for you.\" He became a gingerbread man.",
+      "preserved": true,
+      "reason": "Kept verbatim; the audition passage now also gives his own reasoning (S28)."
+    },
+    {
+      "passage": "which later noted, in a correction OpenAI requested, that he grew up \"on a hobby farm,\" not a farm: \"Brockman considers this distinction important.\"",
+      "preserved": true,
+      "reason": "Kept verbatim; it matches S10's update note."
+    },
+    {
+      "passage": "A former colleague's \"into his own hands\" also sits uncomfortably close to the habit Brockman himself called \"the worst\" in 2014.",
+      "preserved": true,
+      "reason": "Changed to frame the comparison as the author's, resting on one unnamed source, with the working-around versus overturning distinction. The contradiction survives in 'On one unnamed source, \"into his own hands\" sits uncomfortably close to the habit Brockman called \"the worst\" in 2014'. Preserved."
+    },
+    {
+      "passage": "Ten years after admiring the pronouncement, he was the one making it.",
+      "preserved": true,
+      "reason": "Kept verbatim. It now follows the launch-messaging label and his hedge."
+    },
+    {
+      "passage": "Even the charter aside cuts both ways: the care to get the lines \"exactly right\" belongs to a One, and the reflex to head off the impression that he had crammed belongs to a Three.",
+      "preserved": true,
+      "reason": "Kept verbatim at the end of 'If he is a One'."
+    },
+    {
+      "passage": "His first vacation became a build.",
+      "preserved": true,
+      "reason": "Changed because the original misread S01. The distinctive detail survives accurately as 'His first vacation was a delegation tactic, and a build followed it.' Correcting a false detail preserves its editorial value."
+    },
+    {
+      "passage": "Startup culture rewards the same sprints in any type, including a hard-driving [Eight](/enneagram-corner/enneagram-type-8) or [Seven](/enneagram-corner/enneagram-type-7), so the loop supports the reading without proving it.",
+      "preserved": true,
+      "reason": "Kept verbatim; it closes 'Like a bear'."
+    },
+    {
+      "passage": "Then a colleague, Jie Tang, \"figured out how to get better results without using my code, and I had nothing to show for my efforts.\" The next line sits alone as its own paragraph: \"I never tried machine learning on the Dota project again.\"",
+      "preserved": true,
+      "reason": "Kept verbatim in the hook."
+    },
+    {
+      "passage": "This essay carries more of the type argument than anything else in the record. Other people's confidence bothered him more than his own doubt, and he kept talking their estimate down. He quit when the visible result vanished. He came back in private, over a holiday, beside someone who made failure feel \"ok,\" and he scored the comeback in commits and hours. That is the Type 3 fear in plain form: failing where people can see it.",
+      "preserved": true,
+      "reason": "Changed because several statements in it did not survive the full S06 essay. The close reading of the load-bearing, no-legal-stakes essay remains, now labeled and qualified ('though it cannot carry it alone'; 'This suggests'). Preserved."
+    },
+    {
+      "passage": "He went once he was no longer the critical piece. A [Type 2](/enneagram-corner/enneagram-type-2), whose sense of worth rests on being needed, would be expected to stay where the need was.",
+      "preserved": true,
+      "reason": "Kept verbatim; it closes the Stripe section."
+    },
+    {
+      "passage": "The Three reading rests on their agreement with the 2019 essay, written with no legal stakes.",
+      "preserved": true,
+      "reason": "Changed because its referent was demoted. The contribution, resting the thesis on durable first-person accounts with no legal stakes, is kept in 'But the Three reading rests on these first-person accounts, most written with no legal stakes, more than on anonymous, rival-sourced or litigated items.' Preserved."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "open_case_eligible": false,
+  "scores": {
+    "evidence": {
+      "score": 8.5,
+      "passage": "Fortune reports that Keach Hagey's book _The Optimist_ suggested it laid out concerns about Brockman's \"alleged bullying.\" OpenAI told Fortune, \"These claims aren't true. Ilya signed the petition asking for Greg and Sam to be reinstated, and the board's independent review further concluded that he and Sam are the right leaders for OpenAI.\"",
+      "reason": "I reopened all 32 cited sources and matched all 165 quoted strings against them. 157 match exactly; the rest differ only by quote nesting, consecutive same-speaker quotes joined across an attribution, a leading trim, or a marked ellipsis. Attribution separates named, unnamed, rival-camp, litigated and relayed material (WSJ via To Vima, NYT via Gizmodo). Disputed allegations carry responses, as this passage shows. Inference is labeled throughout ('This suggests', 'Read as a Three'). Minor slips keep it below 9: 'That same year' misdates the 2017 Musk fight; 'as he told Altman' over-reads a parenthetical; the appeal is attributed to Musk rather than his lawyer; a trimmed 'wake until sleep' sentence; one evidence-record age error."
+    },
+    "enneagram": {
+      "score": 7.8,
+      "passage": "So the Three reading leads on how he scores his work and the One on how he judges conduct: a medium-confidence call that would flip if new first-person evidence showed him scoring his own work mainly on whether it was right.",
+      "reason": "Alternatives are tested at full strength. A dedicated 'If he is a One' section concedes the diary, the November 17 verdict and the environment self-descriptions. Nine, Five, Six, Two and Seven/Eight each get a specific sourced test, and the discriminator and flip condition are stated accurately after repair. But, as this passage admits, the verdict is split. The costliest choice favors One or Six, and the Three side rests on work-scoring asides (Kaggle number 1, Goodfellow 'impressed', 'validating', the audition) that the article itself says a One could share. The 2019 essay also shows correctness-scoring of his own work. The strongest alternative is weakened rather than failing a specific discriminator, so this sits below the 8 anchor and above the 6 anchor, since nothing here could describe any ambitious person."
+    },
+    "originality": {
+      "score": 8.8,
+      "passage": "While the casting team compared notes and other hopefuls chatted, he reasoned that \"this job has one requirement, which is you're going to be six hours at attention.\" So \"I was there standing at attention, just being in character.\"",
+      "reason": "The portrait is built from verified details specific to him: the gingerbread-man audition, the hobby-farm correction, Jie Tang and the standalone 'never tried' line, 'he's really not an idiot', the 'like scripture' charter aside, 'volunteered myself as tribute', and the 2016-to-2026 pronouncement callback. The unresolved moral-vocabulary contradiction survives the type argument. Type boilerplate is minimal; even the Type 3 definition is immediately qualified with Brockman-specific evidence."
+    },
+    "writing": {
+      "score": 7.8,
+      "passage": "Read as a One, the entries show a conscience, and the mirror answer refuses a step that would have served the goal. Read as a Three, they weigh an act against how it would look, to a rival who is \"not an idiot\" and to himself. The idiom fits either type.",
+      "reason": "The hook and closing are strong. Chronology is clear, section shapes vary, and author prose is precise and free of em dashes. But at 4,496 words the body sits at the 4,500 mechanical ceiling, far over the 2,000–3,500 target. Nearly every section re-runs the 'Read as a One / Read as a Three' weighing shown here (the diary, Nothing to show, November 17, Where the One reading strains, Like a bear), so the middle third reads as repeated adjudication more than progression. The WSJ and diary paragraphs are dense with attributions and qualifiers, and 'That same year' misleads at a section start."
+    },
+    "durability": {
+      "score": 8.8,
+      "passage": "This essay carries more of the type argument than anything else in the record, though it cannot carry it alone.",
+      "reason": "The argument rests on 2014–2019 essays and dated self-reports, not on current status. Every changing fact is dated: the July 2026 remit, the October 5, 2026 premiere, Neon's release 'As of October 2026', the June 2026 Slack message, the May 18, 2026 verdict and appeal. Each is tracked with an actionable trigger (midterms, appeal, IPO or remit change, release). Removing Astra, the film and the PAC leaves the thesis and the One-versus-Three analysis intact. The closing callback rests on the act of pronouncing, so it survives a disputed AGI claim. It passes the five-year test."
+    },
+    "hook": {
+      "score": 9.0,
+      "passage": "Then a colleague, Jie Tang, \"figured out how to get better results without using my code, and I had nothing to show for my efforts.\" The next line sits alone as its own paragraph: \"I never tried machine learning on the Dota project again.\"",
+      "reason": "A specific, dated, sourced moment from his own essay. It creates the question the article pursues, why a builder in demand would stall in one field, and the article rewards it. The restored 'said more about my abilities than the problem' context keeps the hook honest instead of rigged toward the thesis."
+    },
+    "discoverability": {
+      "score": 8.5,
+      "passage": "meta_title: 'Greg Brockman Personality Type: Does He Need Something to Show?'",
+      "reason": "The meta_title (63 characters) leads with the primary query. The description (166 characters) matches the body. The H2 type answer is plain-language and mirrored verbatim in the first FAQ. Five FAQs match real search intents (his type, why not Type 1, why he quit in November 2023, the 2024 sabbatical, who plays him in Artificial) and agree with the body. Internal links reach six related profiles (Altman, Amodei, Murati, Musk, Garfield) and eight type pages. Deductions: the question-form title is less direct than a stated type, and the Type 1 FAQ blurs a board verdict into self-judgment (verify-r-02)."
+    }
+  }
+}

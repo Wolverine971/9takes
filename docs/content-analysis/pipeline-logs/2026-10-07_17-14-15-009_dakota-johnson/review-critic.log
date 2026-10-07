@@ -1,0 +1,15 @@
+The critic review for the Dakota Johnson draft is done: 8 findings (6 major, 2 minor), 5 passages to protect, and both risk flags carried forward (sensitive allegations, contested typing). It passes the pipeline's review schema, and every quoted passage matches the draft exactly. I changed no other files and published nothing.
+
+**Main findings:**
+- **The title's claim skips its strongest counterexample.** "Won't fake a feeling" is never tested against what the draft itself reports: years of upbeat *Fifty Shades* promotion, later followed by "I haven't been able to talk about this truthfully ever." The research notes also record that she once denied being unhappy with those films, and the draft leaves that out.
+- **The Type 6 test is weaker than the draft claims.** The Easter Bunny quote, cited as support, says she makes movies to feel safer, which fits a Six better than a Four. The claim that she "almost always" treats safety as a means to something else is contradicted by several quotes where safety is the goal.
+- **The Ringer piece is described wrongly.** The draft introduces Jodi Walker with "Not everyone buys the candor," but I opened the piece: she admires Johnson and says her candor is genuine. The profile has no real skeptical source, and the reader isn't told that.
+- **A caveat in the Bustle interview goes undisclosed.** That interview supplies the title's paradox and about a dozen key quotes, and in it she says she exaggerated. The reader never learns this.
+- **The Type 3 explanation is admitted but never tested.** The draft concedes a Three reading fits some of her career moves, then never argues against it. Her complaints about films also line up with distancing herself from projects after they flopped, and the draft never addresses that. The quote it uses to dismiss control as her motive is about other people's control.
+- **Minor:** the ending's "for most actors, wrap is the end of a job" has no source, and the research notes say the opposite. The Ellen moment is filed with her pranks, but in it she was telling the truth.
+
+**What I could check myself:** I opened the Bustle and Ringer articles. Vogue 2017 showed only a consent wall and Marie Claire blocked the request, so the two points that depend on them rely on the research notes' excerpts. The review says so.
+
+The similarity check flagged no reused writing from other profiles.
+
+The output is at `docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-critic.json`.

@@ -1,0 +1,25 @@
+I wrote the unfamiliar-reader review for the Dakota Johnson draft. It passes the pipeline's review-format check, and every quoted passage matches the draft word for word. That file is the only thing I changed in the repo. I didn't touch the draft or evidence, didn't read the other reviewers' files, and didn't publish anything.
+
+**File:** `docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-unfamiliar.json`
+
+**Overall:** for someone who doesn't know her, the profile is engaging. The opening sets up a real puzzle (she jokes that lying to the press is "the most fun" but says she can't fake a feeling), and the "what is her safety for?" argument pays it off. The main problems are orientation and a few references that assume the reader already knows the story.
+
+**Two major findings:**
+- **Never says who she is up front.** Nothing before the type answer says she's an actress, and the reader only learns she's famous for Fifty Shades about 800 words in. Her parents are also named without saying they're actors.
+- **The Ellen moment is filed with her pranks, but she was telling the truth.** In the clip, DeGeneres admits she was invited. Read cold, it looks like another prank, which muddles the section about the line between a bit and a faked feeling. The draft also never says why the clip is famous, so her line "It will haunt me" falls flat.
+
+**Six minor findings:**
+- "Erika" appears in quotes without saying it's E.L. James's first name.
+- Madame Web is never described, so "I don't make sense in that world" doesn't land.
+- "A bleak political moment" is vague; the source shows she meant the 2022 news that Roe v. Wade would likely be overturned.
+- Type 3 is raised twice but never tested, and the type answer and FAQ don't list it as a rival.
+- The draft runs 3,918 words against a 3,500 target, and the closing "what's left open" section repeats caveats already made.
+- "The candid persona" is never defined or dated, so the argument that Foley's 2017 remark predates it can't be followed.
+
+**Five passages marked for the editor to keep:** the Fincher line ("That she did something different"), the "faking it, not lying" close reading, the safety comparison with Type 6, "Hers runs toward it," and the summer-camp ending.
+
+**Risk flags:** I kept two flags on. One is sensitive allegations: her account of fights with a named living author over creative control, her parents' addiction and her depression. The other is contested typing, since Type 6 is a live rival at medium confidence. Both support running the full six-reviewer panel.
+
+**Similarity check:** it didn't flag anything; the highest match was 0.016 against a 0.04 threshold. It only picked up 2 sections of this draft, though, so it barely covered it. Reading it myself, I found no recycled phrasing from other profiles, so there's no reuse finding.
+
+The Supabase connection failed to load this session; this review didn't need it.

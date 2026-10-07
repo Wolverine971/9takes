@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "bd573ad5041e3f445163428d11dfec6ed3f24cda50cd20c2b66659b3af0a0553",
+  "evidence_sha256": "27e44661f823f7e91e3239d325667bc051e10d2163b745d40b2df00bd0221123",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "Other people's confidence bothered him more than his own doubt, and he kept talking their estimate down.",
+      "problem": "The hook cuts the source sentence short and the analysis then reads it in one direction only. The 2019 essay (reopened) says: \"People would mention how how hard behavioral cloning from human data is. I always made sure to correct them by pointing out that I was a newbie, and this probably said more about my abilities than the problem.\" Colleagues offered him a face-saving explanation (the problem is hard). He refused it and blamed his own ability. The draft closes the quote at \"newbie.\" with no ellipsis and treats the line as image management. Refusing an available excuse fits scrupulous self-accountability (One) or plain accuracy at least as well as a Three protecting how he looks. This is the essay the draft says \"carries more of the type argument than anything else in the record.\"",
+      "acceptance_test": "The quotation appears in full or is visibly truncated, with the \"how hard behavioral cloning ... is\" context. The analysis says what refusing the excuse implies for the Three reading versus the One and Five readings (expectation-lowering versus self-accountability), instead of presenting it only as \"talking their estimate down.\""
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "facing a competence gap tends to withdraw and study until ready; Brockman says he learns by building.",
+      "problem": "The essay the draft cites contradicts this rebuttal. After \"I learn best when I have something specific in mind to build,\" Brockman describes three months of holiday self-study: the Fellows curriculum, LSTM and Transformer language models, information theory, \"many papers, poring over each line until I fully absorbed it,\" and then \"After three months of self-study, I felt ready to work on an actual project.\" That is close to the withdraw-and-study-until-ready pattern the draft gives the Five. The draft also omits his stated reason for pushing on: \"I didn't want to be constrained to only understanding one part of my projects. I wanted to see the whole picture clearly.\" In the source, \"felt half blind\" refers to being \"constrained to looking at all problems through a software lens,\" not to standing \"beside teammates.\"",
+      "acceptance_test": "The Five paragraph acknowledges the three months of self-study before he \"felt ready,\" includes his \"see the whole picture clearly\" motive, and attributes \"half blind\" to the software-lens constraint. It then either names a discriminator that survives these facts (for example his stated wish \"to be able to make critical contributions like that\") or stops treating Five as dismissed."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "This was the costliest choice in his record, made in an afternoon, and it is the One reading's best day: a moral verdict, with anger set aside. A Six would read it as loyalty. Nothing in it favors a Three over a One.",
+      "problem": "The section leaves out well-known context that bears on this verdict. Some of it is already in the evidence record. (1) He was board chairman. OpenAI's statement says he was \"stepping down as chairman of the board\" and would remain \"reporting to the CEO\" (S13), but the draft and FAQ say only \"removed from the board.\" (2) In the Knowledge Project captions (about 0:16 to 0:17) he says he asked twice for reasons or feedback and \"Was told no,\" just before \"It just wasn't right.\" That makes the verdict partly a due-process objection, which complicates the later claim that \"Ones are usually the people defending procedure, and Brockman keeps turning up on the other side.\" (3) In the same interview (about 0:18 to 0:19), he says that day he, Pachocki, Sidor and others \"started to chart out what a new company could look like.\" He put the odds of getting OpenAI back at \"10%,\" they presented \"the vision\" at Altman's house the next day, and Altman asked Satya Nadella about funding. That gives the Three, achiever-builder reading something to use and weakens \"costliest.\" The alternative field of C35 already records the new-company detail, but the draft leaves it out.",
+      "acceptance_test": "The section and the November FAQ say he was board chairman and would have stayed on as an employee \"reporting to the CEO.\" The section reports that his requests for reasons were refused and that he began planning a new company with Altman and colleagues that same day, dated and sourced to the April 22, 2026 interview. \"Nothing in it favors a Three over a One\" and the procedure discriminator in \"Where the One reading strains\" are revised to account for these facts, or the draft argues explicitly why they leave the verdict unchanged."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "His first project with users, a chatbot game, drew 1,500 hits from StumbleUpon in a day: \"It was the most glorious feeling.\"",
+      "problem": "The draft misses Brockman's best-known origin story. \"My path to OpenAI\" (May 3, 2016, reopened) opens with it. In his gap year he read Turing's \"Computing Machinery and Intelligence,\" \"started writing a chatbot,\" found no techniques \"that could make my bot really **work**,\" \"shelved my chatbot pursuits\" and \"decided to focus on creating systems that can have a real impact.\" He told Altman in 2015 that AI \"was definitely my life goal.\" In April 2026 he said Stripe's problem \"was not my problem ... It wasn't the problem I'd grown up thinking about.\" His late-2018 comeback was also a chatbot, built by fine-tuning GPT-1 (2019 essay). Without this thread, \"He picked a field by where he could be best\" misdescribes his path. The draft also misses the profile's most distinctive recurrence: twice he shelved AI when he had no working result, then came back. That recurrence could strengthen the thesis, and a cause held since adolescence also feeds the One case. The Stratechery \"chatbot game\" and the 2016 chatbot need reconciling, as one project or two.",
+      "acceptance_test": "The article includes the Turing paper, the shelved chatbot and the pivot from making the bot \"work\" to \"real impact,\" linked to the 2016 essay and dated. It establishes AI as his long-held goal before Stripe and qualifies \"He picked a field by where he could be best\" accordingly. The gap-year chatbot is reconciled with the Stratechery chatbot game or presented as two separate tellings."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "His first vacation became a build.",
+      "problem": "This misreads the 2014 essay (reopened). The full passage reads: \"one important shift was making sure people would take their problems to Marc rather me. The best thing I did on this front was take a vacation (my first ever) to Hawaii, and then holed myself up with a few engineers building CTF3.\" Both the vacation and the build that came \"then\" were a deliberate tactic to make himself unavailable so that problems went to Hedlund. The source does not say the vacation turned into a build. This matters because \"Like a bear\" rests on \"a career-long loop: ... rest that turns into more building.\"",
+      "acceptance_test": "The sentence states the delegation purpose and the vacation-then-build order, and the 2014 episode is no longer cited as rest turning into work. If the career-long loop stays, it rests on accurately described instances, such as the Stripe credit-card vault that the 2017 essay says was \"built in my two weeks home for the holidays in 2010.\""
+    },
+    {
+      "id": "fan-06",
+      "severity": "major",
+      "passage": "Brockman's version runs light on glamour. He rarely fights for titles, and after Altman became CEO in 2019 he took \"a less public-facing role,\" as Fortune put it.",
+      "problem": "Informed readers will dispute this framing. Fortune's sentence continues: \"to many inside the company, Brockman is both the engine and the metronome of OpenAI.\" The same profile says that before Microsoft's 2019 investment \"Brockman essentially served as the AI lab's CEO\" (S19). The WSJ, cited later in the draft, says Altman \"stepped into the leadership void\" in 2018 after he and Dario Amodei agreed that staff \"didn't have faith in Brockman and Sutskever's leadership\" (S22). Brockman also chaired the board until November 17, 2023 (S13). On March 14, 2023 he personally unveiled GPT-4 in a live developer demo, turning a hand-drawn sketch into a working website. That is arguably his most famous public moment and a literal case of having something to show. The step back after 2019 followed a reported loss of staff confidence, not simple indifference to titles, and \"runs light on glamour\" ignores his role presenting launches (GPT-4 in 2023, Astra in 2026).",
+      "acceptance_test": "The orientation or type section mentions his de facto CEO role before 2019 and his board chairmanship, and connects the 2019 step back to the WSJ's reported loss of staff confidence. The GPT-4 livestream (March 14, 2023) appears with a source. \"Runs light on glamour\" and \"gives up titles with unusual ease\" are qualified, or argued against these facts."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "Musk's lawyers chose the excerpts, and a defendant facing claims of greed has every reason to frame his answers carefully.",
+      "problem": "The trial thread is left hanging. On May 18, 2026, after about two hours of deliberation, the jury dismissed Musk's claims against Altman and Brockman because they were filed too late. It did not reach the merits, and Musk's lawyer announced an appeal (NPR via WUNC, opened). Readers who followed the case will notice the outcome is missing, and without it the framing can imply a verdict on greed either way. The draft also omits an adverse admission already in the evidence (S25, S26). He told early donors, including Musk, Reid Hoffman and Marissa Mayer, to give $100,000 personally but never did so himself, and he did not personally invest in OpenAI. That sits revealingly beside \"Happy to not become rich on this, so long as no one else is.\"",
+      "acceptance_test": "The diary section, or a sentence near it, states the May 18, 2026 outcome (time-barred, merits not reached, appeal announced) with a dated source. The outcome is logged as a time_sensitive claim with an appeal review trigger. The $100,000 admission is either included with attribution or rejected with a stated reason in the resolution."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "This is the strongest evidence against a status-hungry reading.",
+      "problem": "In context, \"I volunteered myself as tribute\" is a founder taking the central job, not an act of self-effacement. In the same essay he says he had already told Altman in June 2015 that \"my current plan was to start an AI company within the next year,\" that AI \"was definitely my life goal,\" and that on the June call (before the dinner) he knew Altman \"was the right partner to build my next company with.\" Volunteering made him the full-time founder who, by his 2026 account, organized the Napa offsite, made the T-shirts and \"sent offers to everyone.\" The whiteboard and \"Ilya's plate\" details are real evidence of service. But the paragraph uses the tribute line as part of its strongest anti-status case, and it dates the idea to the July dinner when his own account puts his commitment at the June call.",
+      "acceptance_test": "The section notes that he arrived with his own plan to start an AI company and became its full-time organizer and recruiter. \"The strongest evidence against a status-hungry reading\" rests on the service details (the whiteboard, the non-research tasks) rather than the tribute line, or is softened."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The next line sits alone as its own paragraph: \"I never tried machine learning on the Dota project again.\"",
+      "reason": "Verified against the essay: the sentence is a standalone paragraph. The detail shows the reader the cost instead of telling it, and it anchors the title."
+    },
+    {
+      "passage": "He wasn't picked, but the organizers told him, \"We loved seeing how much you were dedicated to this, so we're going to actually make a new role for you.\" He became a gingerbread man.",
+      "reason": "A fresh, specific childhood detail that informed readers won't have seen elsewhere, delivered with restraint. It earns the type argument without inventing a wound."
+    },
+    {
+      "passage": "which later noted, in a correction OpenAI requested, that he grew up \"on a hobby farm,\" not a farm: \"Brockman considers this distinction important.\"",
+      "reason": "A small verified detail about how precisely he manages his own story. The draft uses it as texture rather than proof, which is the right weight."
+    },
+    {
+      "passage": "A former colleague's \"into his own hands\" also sits uncomfortably close to the habit Brockman himself called \"the worst\" in 2014.",
+      "reason": "A revealing contradiction between his stated principle and later reported behavior. It is hedged correctly, after the anonymous and rival sourcing is disclosed."
+    },
+    {
+      "passage": "Ten years after admiring the pronouncement, he was the one making it.",
+      "reason": "Checked in context: the 2016 \"bold enough to pronounce a goal\" line really is his reaction to Altman's \"To build safe human-level AI.\" The callback is faithful and earns the ending."
+    }
+  ],
+  "assessment": "Informed-reader check. I reopened Brockman's 2014, 2016, 2017 and 2019 essays and \"Leaving Stripe,\" read the Knowledge Project captions from 0:00 to 0:24, and checked the trial outcome (NPR, May 18, 2026). Most quotations are faithful, including the standalone Dota paragraph and the context of \"bold enough to pronounce a goal.\" The draft is not flattering, and it handles the anonymous and rival-sourced friction fairly. Its weakness is selective reading at the points that carry the type argument. The hook quote stops before the clause that complicates it (fan-01). The Five rebuttal contradicts the essay it cites (fan-02). The 2014 vacation is misread as rest turned into work (fan-05). The November 2023 section omits the chairmanship, the refused reasons and the same-day new-company planning (fan-03). Formative context an informed reader expects is also missing: Turing and the shelved chatbot, which make AI his life goal (fan-04), his de facto CEO period and the GPT-4 unveiling (fan-06), and the trial verdict (fan-07). Some of these fixes help the Three thesis and others help the One and Five alternatives, so the editor should re-test the discriminator rather than patch sentences one by one. Similarity: the only tripped pair is a one-sentence type definition that shares the frame \"Type 3 is organized around ... valuable through\" with the Tiger Woods draft (2026-10-04). The arguments differ, and the \"public record\" match with Margaret Qualley is incidental, so I don't count either as meaningful reuse. Rewording that definition in Brockman-specific terms would still cost nothing. Risk flags: the sensitive allegations (the bullying memo, anonymous colleagues, political giving) and the contested medium-confidence typing stand. fan-01 to fan-03 bear directly on the Three-versus-One/Five discriminator."
+}

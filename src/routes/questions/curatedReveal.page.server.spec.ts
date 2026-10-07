@@ -12,11 +12,13 @@ const state = vi.hoisted(() => ({
 	resolver: null as
 		null | ((table: string, calls: { method: string; args: unknown[] }[]) => unknown),
 	rpcMock: vi.fn(),
-	checkDemoTimeMock: vi.fn()
+	checkDemoTimeMock: vi.fn(),
+	reads: [] as { client: string; table: string; calls: { method: string; args: unknown[] }[] }[]
 }));
 
-function chain(table: string): any {
+function chain(table: string, client = 'anon'): any {
 	const calls: Call[] = [];
+	state.reads.push({ client, table, calls });
 	const proxy: any = new Proxy(
 		{},
 		{
@@ -46,7 +48,10 @@ vi.mock('$lib/supabase', () => ({
 }));
 
 vi.mock('$lib/server/supabaseAdmin', () => ({
-	getSupabaseAdminClient: () => ({ rpc: state.rpcMock, from: (table: string) => chain(table) })
+	getSupabaseAdminClient: () => ({
+		rpc: state.rpcMock,
+		from: (table: string) => chain(table, 'admin')
+	})
 }));
 
 vi.mock('$lib/server/giveFirstFunnel', () => ({ recordGiveFirstEvent: vi.fn() }));
@@ -157,15 +162,44 @@ function buildEvent(answered: boolean) {
 		cookies: { get: vi.fn(() => 'visitor-1'), delete: vi.fn() },
 		locals: {
 			session: null,
-			supabase: { rpc: state.rpcMock, from: (table: string) => chain(table) }
+			supabase: { rpc: state.rpcMock, from: (table: string) => chain(table, 'locals') }
 		}
 	};
 }
 
+const isTakeTextRead = (read: (typeof state.reads)[number]) =>
+	/^comments(_demo)?$/.test(read.table) &&
+	read.calls.some((call) => call.method === 'select' && /\bcomment\b/.test(String(call.args[0])));
+
 describe('/questions/[slug] load: curated reveal', () => {
 	beforeEach(() => {
 		vi.clearAllMocks();
+		state.reads = [];
 		state.checkDemoTimeMock.mockResolvedValue(false);
+	});
+
+	it('reads take text and links only through the service role once answered', async () => {
+		state.resolver = buildResolver({ newest: [comment(1)] });
+
+		const result = (await load(buildEvent(true) as any)) as any;
+
+		expect(result.flags.userHasAnswered).toBe(true);
+		expect(state.reads.some((read) => read.table === 'links')).toBe(true);
+		expect(
+			state.reads.filter(
+				(read) => read.client !== 'admin' && (read.table === 'links' || isTakeTextRead(read))
+			)
+		).toEqual([]);
+	});
+
+	it('reads no take text or links at all for a visitor who has not answered', async () => {
+		state.resolver = buildResolver({ newest: [comment(1)] });
+
+		await load(buildEvent(false) as any);
+
+		expect(state.reads.filter((read) => read.table === 'links' || isTakeTextRead(read))).toEqual(
+			[]
+		);
 	});
 
 	it.each([true, false])(

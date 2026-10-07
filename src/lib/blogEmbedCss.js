@@ -13,6 +13,7 @@ export const BLOG_EMBED_CSS_PATHS = [
 	'src/lib/components/blog/callouts/',
 	'src/lib/components/blog/stress/',
 	'src/lib/components/blog/blackpill/',
+	'src/lib/components/blog/compatibility/',
 	'src/lib/components/blog/BehaviorDecoder.svelte',
 	'src/lib/components/blog/HornevianMatrix.svelte',
 	'src/lib/components/blog/PodcasterPersonalityMapTable.svelte',

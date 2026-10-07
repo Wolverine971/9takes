@@ -180,6 +180,13 @@ export const POP_CULTURE_BRIDGES: Record<string, PopCultureBridges> = {
 		corpusAnchor: 'tech-business',
 		category: 'tech-business'
 	},
+	// The Office: Michael (Type 2) + Jim/Pam (Type 9)
+	'the-office-enneagram-types': {
+		type: 2,
+		secondaryType: 9,
+		corpusAnchor: 'film-tv',
+		category: 'film-tv'
+	},
 	// Trump vs Biden
 	'trump-type-3-vs-biden-type-2': {
 		type: 3,

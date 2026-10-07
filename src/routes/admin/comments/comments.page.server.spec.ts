@@ -1,15 +1,42 @@
 // src/routes/admin/comments/comments.page.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { checkDemoTimeMock } = vi.hoisted(() => ({
-	checkDemoTimeMock: vi.fn()
+const { checkDemoTimeMock, serviceReads } = vi.hoisted(() => ({
+	checkDemoTimeMock: vi.fn(),
+	serviceReads: [] as string[]
 }));
 
 vi.mock('../../../utils/api', () => ({
 	checkDemoTime: checkDemoTimeMock
 }));
+vi.mock('$lib/server/demoTime', () => ({ loadRouteDemoTime: vi.fn().mockResolvedValue(false) }));
 
-import { actions } from './+page.server';
+/** Any-shape query chain that resolves to `result` when awaited. */
+function resolvingChain(result: unknown): any {
+	const proxy: any = new Proxy(
+		{},
+		{
+			get(_, prop) {
+				if (prop === 'then') {
+					return (resolve: (value: unknown) => void) => resolve(result);
+				}
+				return () => proxy;
+			}
+		}
+	);
+	return proxy;
+}
+
+vi.mock('$lib/server/supabaseAdmin', () => ({
+	getSupabaseAdminClient: () => ({
+		from: (table: string) => {
+			serviceReads.push(table);
+			return resolvingChain({ data: [], count: 0, error: null });
+		}
+	})
+}));
+
+import { actions, load } from './+page.server';
 
 function buildRequest(commentId = '42') {
 	const formData = new FormData();
@@ -145,5 +172,52 @@ describe('/admin/comments moderation actions', () => {
 
 		expect(result).toMatchObject({ status: 400, data: { success: false } });
 		expect(event._supabase.from).not.toHaveBeenCalledWith('flagged_comments');
+	});
+});
+
+describe('/admin/comments load (give-first: take text is service-role only)', () => {
+	function loadEvent(isAdmin: boolean) {
+		const sessionTables: string[] = [];
+		return {
+			sessionTables,
+			event: {
+				url: new URL('http://localhost/admin/comments'),
+				parent: async () => ({}),
+				locals: {
+					session: { user: { id: 'user-1' } },
+					supabase: {
+						from: (table: string) => {
+							sessionTables.push(table);
+							return resolvingChain(
+								table === 'profiles'
+									? { data: { id: 'user-1', admin: isAdmin, external_id: 'u' }, error: null }
+									: { data: [], count: 0, error: null }
+							);
+						}
+					}
+				}
+			}
+		};
+	}
+
+	beforeEach(() => {
+		serviceReads.length = 0;
+	});
+
+	it('loads comments, flags and blog comments through the service client for an admin', async () => {
+		const { event, sessionTables } = loadEvent(true);
+
+		const result = (await load(event as any)) as any;
+
+		expect(result.comments).toEqual([]);
+		expect(serviceReads.sort()).toEqual(['blog_comments', 'comments', 'flagged_comments']);
+		expect(sessionTables).toEqual(['profiles']);
+	});
+
+	it('never runs a service-role read for a non-admin', async () => {
+		const { event } = loadEvent(false);
+
+		await expect(load(event as any)).rejects.toMatchObject({ status: 307 });
+		expect(serviceReads).toEqual([]);
 	});
 });

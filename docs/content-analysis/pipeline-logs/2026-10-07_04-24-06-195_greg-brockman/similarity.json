@@ -1,0 +1,230 @@
+{
+  "target": {
+    "person": "greg-brockman",
+    "type": "3",
+    "units": 12,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "tiger-woods",
+      "date": "2026-10-04",
+      "units": 10
+    },
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9
+    },
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33
+    },
+    {
+      "person": "Tate-McRae",
+      "date": "2026-08-27",
+      "units": 31
+    },
+    {
+      "person": "margaret-qualley",
+      "date": "2026-08-20",
+      "units": 28
+    },
+    {
+      "person": "alexandr-wang",
+      "date": "2026-08-18",
+      "units": 30
+    },
+    {
+      "person": "adela",
+      "date": "2026-08-14",
+      "units": 17
+    },
+    {
+      "person": "michael-jordan",
+      "date": "2026-08-14",
+      "units": 45
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 2436,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.01,
+    "max": 0.144
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.144,
+      "other_person": "tiger-woods",
+      "shared_phrases": [
+        "organiz around",
+        "valuable through",
+        "is organiz around"
+      ],
+      "target": "[diagnosis] Type 3 is organized around feeling valuable through accomplishment other people can see.",
+      "other": "[diagnosis] Type 3 is organized around being valuable through achievement and the image it earns."
+    },
+    {
+      "score": 0.099,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [
+        "public record",
+        "the public record"
+      ],
+      "target": "[diagnosis] This is a reading of the public record.",
+      "other": "[counter-typing] She declines to correct the public record about herself at all"
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "tiger-woods",
+      "date": "2026-10-04",
+      "units": 10,
+      "maxScore": 0.144
+    },
+    {
+      "person": "margaret-qualley",
+      "date": "2026-08-20",
+      "units": 28,
+      "maxScore": 0.099
+    },
+    {
+      "person": "michael-jordan",
+      "date": "2026-08-14",
+      "units": 45,
+      "maxScore": 0.078
+    },
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33,
+      "maxScore": 0.023
+    },
+    {
+      "person": "Tate-McRae",
+      "date": "2026-08-27",
+      "units": 31,
+      "maxScore": 0.017
+    },
+    {
+      "person": "adela",
+      "date": "2026-08-14",
+      "units": 17,
+      "maxScore": 0.015
+    },
+    {
+      "person": "alexandr-wang",
+      "date": "2026-08-18",
+      "units": 30,
+      "maxScore": 0.011
+    },
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9,
+      "maxScore": 0.011
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.144,
+      "other_person": "tiger-woods",
+      "shared_phrases": [
+        "organiz around",
+        "valuable through",
+        "is organiz around"
+      ],
+      "target": "[diagnosis] Type 3 is organized around feeling valuable through accomplishment other people can see.",
+      "other": "[diagnosis] Type 3 is organized around being valuable through achievement and the image it earns."
+    },
+    {
+      "score": 0.099,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [
+        "public record",
+        "the public record"
+      ],
+      "target": "[diagnosis] This is a reading of the public record.",
+      "other": "[counter-typing] She declines to correct the public record about herself at all"
+    },
+    {
+      "score": 0.078,
+      "other_person": "michael-jordan",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 1 reading explains much of the same record through his moral vocabulary and exacting standards",
+      "other": "[counter-typing] A Type 1 read (the punishing practice standards) fails faster"
+    },
+    {
+      "score": 0.035,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 1 reading explains much of the same record through his moral vocabulary and exacting standards",
+      "other": "[diagnosis] and so much of the best work comes from a lack of control.\" — Margaret Qualley on Collider Ladies Night"
+    },
+    {
+      "score": 0.031,
+      "other_person": "tiger-woods",
+      "shared_phrases": [
+        "organiz around"
+      ],
+      "target": "[diagnosis] Type 3 is organized around feeling valuable through accomplishment other people can see.",
+      "other": "[diagnosis] because an Eight (organized around strength and control)"
+    },
+    {
+      "score": 0.028,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] The question that separates the Three from the One is practical",
+      "other": "[diagnosis] and they tend to settle the question through work."
+    },
+    {
+      "score": 0.026,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [
+        "right way"
+      ],
+      "target": "[diagnosis] when the right way and the fast way collide",
+      "other": "[diagnosis] is that there really isn't a right way to do something"
+    },
+    {
+      "score": 0.023,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] The question that separates the Three from the One is practical",
+      "other": "[diagnosis] Two of the three happened while he was hiding"
+    },
+    {
+      "score": 0.021,
+      "other_person": "tiger-woods",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a reading of the public record.",
+      "other": "[diagnosis] This is an interpretation of what Woods and people around him have said publicly"
+    },
+    {
+      "score": 0.018,
+      "other_person": "Jonathan-Bailey",
+      "shared_phrases": [],
+      "target": "[diagnosis] and after Altman became CEO in 2019 he took \"a less public-facing role",
+      "other": "[diagnosis] He took one glance as data and turned it on himself."
+    },
+    {
+      "score": 0.017,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] Type 3 is organized around feeling valuable through accomplishment other people can see.",
+      "other": "[diagnosis] \"I have this vision that I'm not supposed to be there.\" She can see the room."
+    },
+    {
+      "score": 0.016,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] his costliest choices protect visible",
+      "other": "[diagnosis] worth gets earned in visible output"
+    }
+  ]
+}

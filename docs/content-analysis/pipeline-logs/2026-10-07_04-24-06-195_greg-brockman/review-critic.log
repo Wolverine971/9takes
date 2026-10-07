@@ -1,0 +1,26 @@
+I wrote the critic review to `docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/review-critic.json`. It passes the contract's `reviewSchema`, and its role and both hashes match the request. I changed no other repo files and published nothing.
+
+**Verdict:** the draft handles adverse evidence well in places, but the Type 3 vs. Type 1 argument at its center is much weaker than the article says. The review has 11 findings (9 major, 2 minor) and flags two risks: `sensitive_allegations` and `contested_typing`.
+
+I checked the draft against the sources the thesis rests on. Brockman's blog was down, so I used archived copies of his 2014–2019 essays. I also read Fortune, Gizmodo, the WSJ piece (via a syndicated copy), the New Yorker, MIT Technology Review's trial report, the Stratechery interview, the Knowledge Project transcript and the Sutskever deposition.
+
+What the sources show:
+- **The 2019 essay is cut where it hurts the Type 3 reading.** The quote about correcting colleagues stops before "this probably said more about my abilities than the problem." People were offering him an excuse and he publicly turned it down. The essay's own reasons for the stall and the comeback (he was busy, and he wanted to "see the whole picture") are missing. The line "the one stretch he was stuck is the one where he had nothing to point to" is false: those were his most-praised infrastructure years.
+- **The key Type 1 vs. Type 3 test counts one item backwards.** In his diary he called an act wrong even though it "would serve the mission." That puts means over ends, which is the Type 1 pattern, yet the draft counts it for Type 3.
+- **The case for Type 1 is missing its strongest evidence,** all already in the research file:
+  - a 2017 diary line saying a commitment would become "a lie"
+  - his 2014 description of having "a very strong vision of the environment" he wanted to build
+  - his 2026 remark that he cares about "the environment in which these things are done"
+- **Some sources are misread or trimmed:**
+  - The draft says he chose science "where he could be best"; he said "where I could most make a difference."
+  - It treats his smaller post-2019 role as modesty, but the WSJ and New Yorker report it was imposed after colleagues lost confidence in him.
+  - Several "validating" quotes are cut just before he states an intrinsic or helping-people motive.
+- **The super PAC Slack message doesn't distinguish the types.** It went to staff after a public backlash and employee dissent, so any executive would frame it around the company. The type FAQ also turns the report into a "because."
+- **Named adverse evidence is left out while anonymous quotes carry the argument.** This covers the reported plan to sell AGI access to governments (on the record from Page Hedley, with Brockman's denial) and his sworn admission that he never made the $100,000 personal donation he urged others to make.
+
+The five protected passages include the hook and the honest "the One reading's best day" section on November 17, 2023. The similarity flags are type-definition boilerplate, not reused argument, so I raised no reuse finding.
+
+**Things to know:**
+- **Possible hold:** if the editor can't find a sourced, non-anonymous way to separate Type 3 from Type 1, the honest result is lower confidence or `insufficient_evidence`. If the lead type changes, the run needs `--refresh --expanded-review`.
+- **Not checked directly:** Courthouse News blocked automated access and Axios returned 403, so I relied on the research file's excerpts for those two. WIRED and the New York Times original behind the Gizmodo report remain unopened.
+- **Possible pipeline bug:** `evidence-draft.json` has `"open_case": null`, and the schema's optional field may not accept null. That belongs to an earlier stage, so I didn't touch it.

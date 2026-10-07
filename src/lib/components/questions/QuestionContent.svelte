@@ -11,6 +11,7 @@
 	import { createCommentViewTracker } from '$lib/browser/commentViews';
 	import { getExistingVisitorId } from '$lib/analytics/visitorIdentity';
 	import AIComments from '$lib/components/molecules/AIComments.svelte';
+	import AnswerGist from './AnswerGist.svelte';
 	import ArticleLinks from '$lib/components/molecules/Links.svelte';
 	import ReplyNotificationReturn from './ReplyNotificationReturn.svelte';
 	import ReplyFocusThread from './ReplyFocusThread.svelte';
@@ -180,6 +181,12 @@
 	</nav>
 {/snippet}
 
+{#snippet answerGist()}
+	{#if data.answerSummary}
+		<AnswerGist gist={data.answerSummary} />
+	{/if}
+{/snippet}
+
 {#key data.question.id}
 	<div class="question-content-shell">
 		<!-- Tabs Navigation -->
@@ -250,10 +257,12 @@
 											<div class="locked-preview-stage">
 												<!-- Give-first integrity: only the already-public AI sample cards
 												     are blurred here. Real community takes never reach the DOM
-												     before the user answers. -->
+												     before the user answers. data-nosnippet keeps the blurred
+												     sample text out of search snippets. -->
 												<div
 													class="public-perspective-preview__grid blurred-perspectives"
 													aria-hidden="true"
+													data-nosnippet
 												>
 													{#each publicAiPreviewComments as comment (comment.id)}
 														<article
@@ -315,6 +324,9 @@
 											<p class="state-copy">Anonymous · no account required</p>
 										</div>
 									{/if}
+									<!-- Present only for IP-verified Googlebot: the server never sends
+									     the gist to a human who has not answered (T-43). -->
+									{@render answerGist()}
 								</div>
 							{:else}
 								<!-- Local transition: plays when the gate opens on this page,
@@ -343,6 +355,7 @@
 										active={selectedTab === 'Comments'}
 										oncommentAdded={handleCommentAdded}
 										{afterOwnTakes}
+										gist={data.answerSummary ? answerGist : undefined}
 										{interstitial}
 										{revealFailed}
 										{onretryReveal}

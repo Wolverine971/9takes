@@ -1,0 +1,30 @@
+I wrote the unfamiliar-reader review to `review-unfamiliar.json`. It passes the review schema in `blogEditorial.js`, its hashes and role match the request, and all 14 quoted passages appear word for word in the draft. Nothing else was changed and nothing was published.
+
+**Verdict:** a newcomer gets a strong hook and a clear question to follow ("when the right way and the fast way collide, which does he protect?"). The piece loses them wherever it assumes they already know the OpenAI saga. There are 5 major and 4 minor findings.
+
+**Major:**
+1. **The opening quote is cut in a way that changes its meaning.** I reopened the 2019 essay from an archived copy. Colleagues weren't praising him; they were saying the problem was hard. He rejected that excuse and blamed his own ability. The thesis line "Other people's confidence bothered him more than his own doubt" rests on the cut version. Evidence claim C53 makes the same mistake.
+2. **The type answer contradicts the body.** The 60-word answer rests Type 3 on his "costliest choices." The body later calls November 17 "the costliest choice in his record" and says "Nothing in it favors a Three over a One."
+3. **The key Three-vs-One paragraph uses an example that points the other way.** The "mirror" testimony shows him declining an act on conscience, which reads as Type 1 evidence.
+4. **The Musk lawsuit is never explained.** The draft never says what Musk was to OpenAI, what the suit alleges, how the May 2026 trial ended, or whether OpenAI later converted to a for-profit structure without him. That last point decides whether "a line he would not cross alone" is even accurate.
+5. **November 2023 is missing its context.** The draft omits that:
+   - Sutskever, the co-founder whose workload Brockman took on, sat on the board that voted to fire Altman and later signed the petition to reinstate him.
+   - Brockman was chairman of the board.
+   - The board's stated reason was that Altman was "not consistently candid."
+   - A staff revolt preceded their return, so the closing line about no one leaving "for a rival that weekend" lands without context.
+
+**Minor:**
+- "Altman and Amodei" doesn't say which Amodei, the "layoffs" are never explained, and the article never says plainly that the Amodeis are siblings who founded Anthropic.
+- It never says what Brockman runs today (the Scaling group and the compute buildout, with the Stargate team reporting to him).
+- Dota, CTF3 and AGI are never explained. Sutskever's departure isn't dated. "Teenager" is a guess the source doesn't support.
+- The closing quote reads like a typo ("I don't always Sorry") and hasn't been checked against the audio.
+
+**Protected passages (5):** the "sits alone as its own paragraph" hook, the gingerbread-man story, "His first vacation became a build.", the charter line that "cuts both ways", and the "Ten years after… he was the one making it" callback.
+
+**Similarity check:** it was flagged for a one-line Type 3 definition shared with the Tiger Woods draft. That's ordinary type wording and the actual arguments differ, so it isn't a finding. Risk flags stay up for sensitive allegations and contested typing.
+
+**Limits:** I only reopened the 2019 essay. The other sources and the podcast audio are unchecked.
+
+The draft is about 3,900 words, above the 2,000–3,500 target. Any context the editor adds should be balanced by cuts elsewhere.
+
+Separately, the Supabase server failed to connect this session, and several plugin servers (Slack, Notion, Linear, Ahrefs, Figma and others) need authorizing via `/mcp`. None of them were needed here.

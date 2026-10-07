@@ -6,7 +6,9 @@
   Visual ground truth: src/routes/+page.svelte (production homepage, Phase 4).
   Spec: docs/design-system.md §4–§6, /design-preview/v5.
 
-  Server load (untouched): returns { people, featured, recentlyUpdated, totalPeople }.
+  Server load returns { people, featured, recentlyUpdated, totalPeople, typeCounts,
+  celebrityHub, publicFigureCount }. celebrityHub feeds §02 "Enneagram celebrities by
+  type" (see ./celebrityHub.ts); publicFigureCount is the rounded "450+" corpus count.
   V5 tokens (--lamp-*, --night-*, --stone-*, --ink-*, --data-*, --pool-*, --type-N-color)
   live in src/scss/index.scss bridge blocks; this file references them via var(--…).
 -->
@@ -94,11 +96,31 @@
 		typeData.map((t) => [t.num, `The ${t.name}`])
 	);
 
-	const totalPeople = $derived(data.totalPeople);
 	const typeCounts = $derived(data.typeCounts ?? {});
 
+	// "450+" (rounded down from corpus-stats.json); null only if the corpus is tiny.
+	const publicFigureCount = $derived(data.publicFigureCount);
+	const celebrityHub = $derived(data.celebrityHub ?? []);
+
+	// Head term: "enneagram celebrities". The old title's terms ("famous people",
+	// "personality analysis") stay in the title and description.
+	const seoTitle = $derived(
+		publicFigureCount
+			? `Enneagram Celebrities: ${publicFigureCount} Famous People Typed | 9takes`
+			: 'Enneagram Celebrities: Famous People Typed | 9takes'
+	);
+	const seoDescription = $derived(
+		`${publicFigureCount ?? 'Hundreds of'} celebrities, leaders, and historical figures sorted by Enneagram type, each with a full personality analysis. See who shares your type.`
+	);
+	const heroTitle = $derived(
+		publicFigureCount
+			? `Enneagram celebrities: ${publicFigureCount} famous people, typed.`
+			: 'Enneagram celebrities, typed.'
+	);
+
 	// ------------------------------------------------------------------
-	// SEO + structured data — preserved verbatim from the legacy file.
+	// SEO + structured data. The ItemList mirrors the "Enneagram celebrities
+	// by type" section exactly: nine type groups, each with the names shown.
 	// ------------------------------------------------------------------
 	const structuredData = $derived({
 		'@context': 'https://schema.org',
@@ -121,8 +143,8 @@
 			},
 			{
 				'@type': 'CollectionPage',
-				name: 'Famous People Personality Analysis',
-				description: `Browse ${totalPeople} in-depth Enneagram personality analyses of celebrities, historical figures, and public personalities across music, film, politics, tech, and more.`,
+				name: 'Enneagram Celebrities',
+				description: seoDescription,
 				url: 'https://9takes.com/personality-analysis',
 				inLanguage: 'en-US',
 				about: {
@@ -142,14 +164,26 @@
 				},
 				mainEntity: {
 					'@type': 'ItemList',
-					numberOfItems: 9,
+					name: 'Enneagram celebrities by type',
+					numberOfItems: celebrityHub.length,
 					itemListOrder: 'https://schema.org/ItemListOrderAscending',
-					itemListElement: Array.from({ length: 9 }, (_, i) => ({
+					itemListElement: celebrityHub.map((group, i) => ({
 						'@type': 'ListItem',
 						position: i + 1,
-						name: `Enneagram Type ${i + 1} (${typeNameByNum[i + 1]}) Personalities`,
-						url: `https://9takes.com/personality-analysis/type/${i + 1}`,
-						description: typeData[i].tagline
+						item: {
+							'@type': 'ItemList',
+							name: `Enneagram Type ${group.type} (${typeNameByNum[Number(group.type)]}) celebrities`,
+							url: `https://9takes.com/personality-analysis/type/${group.type}`,
+							description: `${group.count} profiles, ${group.sharePct} of the 9takes corpus.`,
+							numberOfItems: group.people.length,
+							itemListOrder: 'https://schema.org/ItemListOrderDescending',
+							itemListElement: group.people.map((person, j) => ({
+								'@type': 'ListItem',
+								position: j + 1,
+								name: person.name,
+								url: `https://9takes.com${buildPersonalityAnalysisPath(person.slug)}`
+							}))
+						}
 					}))
 				}
 			}
@@ -177,8 +211,8 @@
 </script>
 
 <SEOHead
-	title="Famous People Personality Analysis: Enneagram Types | 9takes"
-	description={`${totalPeople} Enneagram personality analyses of celebrities, leaders, and historical figures. Browse by type or category to decode what drives each one.`}
+	title={seoTitle}
+	description={seoDescription}
 	canonical="https://9takes.com/personality-analysis"
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/brand/9takes-nine-mask-social-card.png"
@@ -191,7 +225,7 @@
 	  §01 OBSERVATION — hero + statue + tagline + subtext (no CTA row here)
 	  ===================================================================== -->
 	<IndexHero
-		title="See the emotions that drive public figures."
+		title={heroTitle}
 		line1="Every analysis starts with the human contradiction — the feud, the reinvention, the decision nobody understood — and finds the emotional logic underneath."
 		line2="The Enneagram is the map: core fear, core desire, stress line, growth line, and the moments where those patterns showed up."
 		imageSrc="/greek_pantheon.webp"
@@ -200,12 +234,76 @@
 	/>
 
 	<!-- =====================================================================
-	  §02 FEATURED — two large case-file cards
+	  §02 ENNEAGRAM CELEBRITIES BY TYPE — all nine types: count, share of the
+	  corpus, best-known names (same fame order as the type hubs), hub link.
+	  ===================================================================== -->
+	{#if celebrityHub.length > 0}
+		<section
+			class="celebrities"
+			id="enneagram-celebrities"
+			aria-labelledby="enneagram-celebrities-heading"
+		>
+			<header class="section-head">
+				<SectionKicker class="section-tag" num="02" label="ALL NINE TYPES" />
+				<h2 class="display-md" id="enneagram-celebrities-heading">
+					Enneagram celebrities by type.
+				</h2>
+				<p class="section-sub">
+					The best-known names in each of the nine types. Every name opens a full analysis of what
+					drives them.
+				</p>
+				<p class="celebrities-total">
+					{#if publicFigureCount}<strong>{publicFigureCount} public figures typed.</strong>{/if}
+					Each typing is 9takes' editorial read of the public record: interviews, decisions, how they
+					act under pressure. None of them took a test.
+					<a href="/corpus-stats#enneagram-distribution">See the full type distribution &rarr;</a>
+				</p>
+			</header>
+
+			<ol class="celebrity-grid">
+				{#each celebrityHub as group (group.type)}
+					{@const meta = typeData[Number(group.type) - 1]}
+					<li class="celebrity-type" style="--type-stripe: var(--type-{group.type}-color);">
+						<div class="celebrity-type-head">
+							<span class="celebrity-type-num" aria-hidden="true">{group.type}</span>
+							<div class="celebrity-type-title">
+								<h3>Type {group.type}: The {meta.name}</h3>
+								<p class="celebrity-type-stats">
+									{group.count} people &middot; {group.sharePct} of the corpus
+								</p>
+							</div>
+						</div>
+						<p class="celebrity-type-read">Leads with <em>{meta.read}</em>.</p>
+						{#if group.people.length > 0}
+							<ul class="celebrity-names" aria-label={`Best-known Type ${group.type}s`}>
+								{#each group.people as person (person.slug)}
+									<li>
+										<a href={buildPersonalityAnalysisPath(person.slug)}>{person.name}</a>
+									</li>
+								{/each}
+							</ul>
+						{/if}
+						<a class="celebrity-type-link" href={`/personality-analysis/type/${group.type}`}>
+							All {group.count} Type {group.type} celebrities <span aria-hidden="true">&rarr;</span>
+						</a>
+					</li>
+				{/each}
+			</ol>
+
+			<p class="celebrities-footnote">
+				Best-known first, ranked by Wikipedia pageviews over the past year. Shares describe who
+				9takes has profiled, not how common each type is in the general population.
+			</p>
+		</section>
+	{/if}
+
+	<!-- =====================================================================
+	  §03 FEATURED — two large case-file cards
 	  ===================================================================== -->
 	{#if data.featured.length > 0}
 		<section class="featured">
 			<header class="section-head">
-				<SectionKicker class="section-tag" num="02" label="FEATURED" />
+				<SectionKicker class="section-tag" num="03" label="FEATURED" />
 				<h2 class="display-md">Featured.</h2>
 				<p class="section-sub">Most recently updated. Worth your full attention.</p>
 			</header>
@@ -239,12 +337,12 @@
 	{/if}
 
 	<!-- =====================================================================
-	  §03 RECENTLY UPDATED — 4 case-file cards
+	  §04 RECENTLY UPDATED — 6 case-file cards
 	  ===================================================================== -->
 	{#if data.recentlyUpdated.length > 0}
 		<section class="recent">
 			<header class="section-head">
-				<SectionKicker class="section-tag" num="03" label="RECENTLY UPDATED" />
+				<SectionKicker class="section-tag" num="04" label="RECENTLY UPDATED" />
 				<h2 class="display-md">Recently updated.</h2>
 				<p class="section-sub">Fresh insights, latest revisions.</p>
 			</header>
@@ -275,14 +373,15 @@
 	{/if}
 
 	<!-- =====================================================================
-		  §04 BY TYPE — 9 sub-sections, one per Enneagram type
+		  §05 NEWEST BY TYPE — 9 sub-sections, the six latest reads per type
 		  ===================================================================== -->
 	<section class="by-type">
 		<header class="section-head">
-			<SectionKicker class="section-tag" num="04" label="BY TYPE" />
-			<h2 class="display-md">By type.</h2>
+			<SectionKicker class="section-tag" num="05" label="NEWEST BY TYPE" />
+			<h2 class="display-md">Newest by type.</h2>
 			<p class="section-sub">
-				Each type leads with a different emotional read of the same situation.
+				Each type leads with a different emotional read of the same situation. Here are the six
+				latest reads for each.
 			</p>
 		</header>
 
@@ -472,7 +571,8 @@
 		}
 	}
 
-	.recent {
+	.recent,
+	.celebrities {
 		padding: 96px 48px;
 		background: var(--night-mid);
 		border-top: 1px solid var(--stone-edge);
@@ -480,6 +580,188 @@
 		@media (max-width: 768px) {
 			padding: 64px 20px;
 		}
+	}
+
+	/* =========================================================
+	  §02 ENNEAGRAM CELEBRITIES BY TYPE — nine type panels
+	  (`.library-index :global(p)` zeroes paragraph margins, so spacing here
+	  comes from flex/grid gaps or selectors nested under .celebrities.)
+	  ========================================================= */
+	.celebrities-total {
+		max-width: 640px;
+		font-family: var(--font-display);
+		font-size: 15px;
+		line-height: 1.6;
+		color: var(--ink-mid);
+
+		strong {
+			color: var(--ink-bright);
+			font-weight: 700;
+		}
+
+		a {
+			color: var(--lamp-glow);
+			font-weight: 600;
+			white-space: nowrap;
+
+			&:hover,
+			&:focus-visible {
+				text-decoration: underline;
+				text-underline-offset: 3px;
+			}
+		}
+	}
+
+	.celebrity-grid {
+		list-style: none;
+		margin: 0 auto;
+		padding: 0;
+		max-width: 1200px;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+		gap: 20px;
+	}
+
+	.celebrity-type {
+		--type-stripe: var(--lamp-glow);
+		min-width: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+		padding: 22px 22px 18px;
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-radius: 16px;
+		box-shadow: inset 0 3px 0 var(--type-stripe);
+
+		@media (max-width: 768px) {
+			padding: 20px 18px 16px;
+		}
+	}
+
+	.celebrity-type-head {
+		display: flex;
+		align-items: center;
+		gap: 14px;
+	}
+
+	.celebrity-type-num {
+		flex: none;
+		display: grid;
+		place-items: center;
+		width: 44px;
+		height: 44px;
+		border: 1.5px solid var(--type-stripe);
+		border-radius: 50%;
+		color: var(--type-stripe);
+		font-family: var(--font-display);
+		font-size: 22px;
+		font-weight: 700;
+		line-height: 1;
+	}
+
+	.celebrity-type-title {
+		min-width: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+
+		h3 {
+			font-family: var(--font-display);
+			font-size: 19px;
+			font-weight: 700;
+			line-height: 1.25;
+			letter-spacing: -0.01em;
+			color: var(--ink-bright);
+		}
+	}
+
+	.celebrity-type-stats {
+		font-family: var(--font-mono);
+		font-size: 12px;
+		font-weight: 500;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		color: var(--ink-dim);
+	}
+
+	.celebrity-type-read {
+		font-family: var(--font-display);
+		font-size: 14px;
+		line-height: 1.5;
+		color: var(--ink-mid);
+
+		em {
+			color: var(--ink-bright);
+			font-style: italic;
+			font-weight: 500;
+		}
+	}
+
+	.celebrity-names {
+		list-style: none;
+		margin: 0;
+		padding: 12px 0 0;
+		border-top: 1px solid var(--stone-edge);
+		columns: 2;
+		column-gap: 16px;
+
+		li {
+			break-inside: avoid;
+		}
+
+		a {
+			display: inline-block;
+			padding: 4px 0;
+			font-family: var(--font-display);
+			font-size: 15px;
+			line-height: 1.35;
+			color: var(--ink-bright);
+			text-decoration: underline;
+			text-decoration-color: transparent;
+			text-underline-offset: 3px;
+			transition:
+				color 0.15s ease,
+				text-decoration-color 0.15s ease;
+
+			&:hover,
+			&:focus-visible {
+				color: var(--lamp-glow);
+				text-decoration-color: currentColor;
+			}
+		}
+	}
+
+	.celebrity-type-link {
+		margin-top: auto;
+		align-self: flex-start;
+		padding: 6px 0 2px;
+		font-family: var(--font-display);
+		font-size: 15px;
+		font-weight: 600;
+		color: var(--ink-bright);
+
+		span {
+			margin-left: 4px;
+			color: var(--type-stripe);
+		}
+
+		&:hover,
+		&:focus-visible {
+			text-decoration: underline;
+			text-decoration-color: var(--type-stripe);
+			text-underline-offset: 3px;
+		}
+	}
+
+	.celebrities .celebrities-footnote {
+		max-width: 720px;
+		margin: 28px auto 0;
+		text-align: center;
+		font-family: var(--font-display);
+		font-size: 13px;
+		line-height: 1.55;
+		color: var(--ink-dim);
 	}
 
 	/* Case-file card + grid styles live in marketing/CaseCard.svelte and

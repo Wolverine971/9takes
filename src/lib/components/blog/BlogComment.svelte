@@ -1,50 +1,19 @@
 <!-- src/lib/components/blog/BlogComment.svelte -->
 <script lang="ts">
-	import BlogComments from '$lib/components/blog/BlogComments.svelte';
-	import DownIcon from '$lib/components/icons/downIcon.svelte';
-	import { notifications } from '$lib/components/molecules/notifications';
-	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
-
+	// blog_comments rows are flat: the table has no parent column and no reply
+	// count, so a blog comment has no replies to load. (This used to call
+	// /comments?type=comment with the blog comment id, which returned replies
+	// to whichever unrelated question take happened to share that id.)
 	let {
-		comment,
-		slug,
-		user,
-		userHasAnswered
+		comment
 	}: {
 		comment: any;
-		slug: string;
-		user: any;
-		userHasAnswered: any;
+		slug?: string;
+		user?: any;
+		userHasAnswered?: any;
 	} = $props();
 
-	let extraComments = $state<any[]>([]);
-	let loading = $state(false);
 	let innerWidth = $state(0);
-
-	let allComments = $derived([...(comment?.comments || []), ...extraComments]);
-
-	let lastDate = $derived(
-		allComments.length ? allComments[allComments.length - 1]?.created_at || null : null
-	);
-
-	const loadMore = async () => {
-		if (!user?.id) {
-			notifications.info('Must register or login to see nested comments', 3000);
-			return;
-		}
-		loading = true;
-		try {
-			const response = await fetch(
-				`/comments?type=comment&parentId=${comment.id}&lastDate=${lastDate}`
-			);
-			const newcommentData = await response.json();
-			extraComments = [...extraComments, ...newcommentData];
-		} catch (error) {
-			console.error('Error loading comments:', error);
-		} finally {
-			loading = false;
-		}
-	};
 </script>
 
 <svelte:window bind:innerWidth />
@@ -83,29 +52,6 @@
 			</div>
 		</div>
 	</div>
-
-	{#if allComments.length}
-		<div class="nested-comments">
-			<BlogComments {slug} comments={allComments} {user} parentType={'comment'} {userHasAnswered} />
-		</div>
-	{/if}
-	{#if comment.comment_count && !allComments.length}
-		<button
-			type="button"
-			class="load-more-btn"
-			onclick={loadMore}
-			aria-label="Show {comment.comment_count} {comment.comment_count === 1 ? 'reply' : 'replies'}"
-			aria-busy={loading}
-		>
-			{comment.comment_count}
-			{#if loading}
-				<div class="loader"></div>
-			{:else}
-				<MasterCommentIcon className="icon" type={'multiple'} />
-				<DownIcon className="icon" />
-			{/if}
-		</button>
-	{/if}
 </section>
 
 <style lang="scss">
@@ -208,63 +154,5 @@
 		margin: 0.5rem auto;
 		border: none;
 		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
-	}
-
-	.nested-comments {
-		margin-left: 1.5rem;
-		padding-left: 1rem;
-		padding-bottom: 0.5rem;
-		border-left: 2px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
-
-		@media (max-width: 576px) {
-			margin-left: 0.75rem;
-			padding-left: 0.5rem;
-		}
-	}
-
-	.load-more-btn {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 0.5rem;
-		width: 100%;
-		padding: 0.75rem;
-		background: var(--stone-warm);
-		border: none;
-		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
-		color: var(--ink-mid);
-		font-size: 0.9rem;
-		cursor: pointer;
-		transition: all 0.2s ease;
-		border-radius: 0 0 1rem 1rem;
-
-		&:hover {
-			background: var(--lamp-soft);
-			color: var(--ink-bright);
-		}
-
-		:global(.icon) {
-			width: 1.25rem;
-			height: 1.25rem;
-			fill: var(--ink-mid);
-		}
-	}
-
-	.loader {
-		width: 1.25rem;
-		height: 1.25rem;
-		border: 3px solid color-mix(in srgb, var(--lamp-glow) 30%, transparent);
-		border-radius: 50%;
-		border-top: 3px solid var(--lamp-glow);
-		animation: spin 0.8s linear infinite;
-	}
-
-	@keyframes spin {
-		0% {
-			transform: rotate(0deg);
-		}
-		100% {
-			transform: rotate(360deg);
-		}
 	}
 </style>

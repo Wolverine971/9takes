@@ -47,7 +47,8 @@ export const GET: RequestHandler = async (event) => {
 		return json({ userHasAnswered: false, comments: [] });
 	}
 
-	const { data: blogComments, error: commentsError } = await supabase
+	// Comment text is service-role only (give-first wall); the gate above passed.
+	const { data: blogComments, error: commentsError } = await getSupabaseAdminClient()
 		.from('blog_comments')
 		.select('id, blog_link, blog_type, comment, created_at, author_id')
 		.in('blog_link', commentSlugCandidates)
@@ -94,7 +95,10 @@ async function hasAnswered({
 					.in('blog_link', commentSlugCandidates)
 					.eq('fingerprint', fingerprint as string);
 
+		// limit(1): a reader with two comments on the page still counts as answered
+		// (maybeSingle alone errors on more than one row, which read as "locked").
 		const { data, error } = await query
+			.limit(1)
 			.abortSignal(AbortSignal.timeout(COMMENT_LOOKUP_TIMEOUT_MS))
 			.maybeSingle();
 

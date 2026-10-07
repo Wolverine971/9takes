@@ -3153,6 +3153,44 @@ export type Database = {
         }
         Relationships: []
       }
+      question_answer_summaries: {
+        Row: {
+          failed_at: string | null
+          failed_comment_count: number | null
+          generated_at: string
+          model: string | null
+          question_id: number
+          source_comment_count: number
+          summary: string | null
+        }
+        Insert: {
+          failed_at?: string | null
+          failed_comment_count?: number | null
+          generated_at?: string
+          model?: string | null
+          question_id: number
+          source_comment_count?: number
+          summary?: string | null
+        }
+        Update: {
+          failed_at?: string | null
+          failed_comment_count?: number | null
+          generated_at?: string
+          model?: string | null
+          question_id?: number
+          source_comment_count?: number
+          summary?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "question_answer_summaries_question_id_fkey"
+            columns: ["question_id"]
+            isOneToOne: true
+            referencedRelation: "questions"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       question_categories: {
         Row: {
           category_name: string

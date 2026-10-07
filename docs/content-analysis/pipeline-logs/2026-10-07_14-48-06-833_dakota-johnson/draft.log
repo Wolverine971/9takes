@@ -1,0 +1,32 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 69bc753f-9aa8-48c7-b367-2395d0216e04 to write outputs
+I've written the draft and its evidence file for Dakota Johnson. Both pass the pipeline's own checks: no draft blockers, 3,887 words, 12 sections, and every claim's quoted passage matches the article word for word. I changed no other files and published nothing.
+
+**The article**
+- **Opening:** In a 2020 Architectural Digest home tour she said "I love limes." Vogue's October 2026 cover story says that was a pointless lie and that she's allergic. Later in the same interview, the writer suggested passion clashed with her "cool" image, and she pushed back for the only time: "I wouldn't say that I'm cool… I just want to be authentic." The article's idea is that she'll joke freely about things that don't define her, but pushes back when she or her work gets turned into something else.
+- **Strongest find:** in 2020, 2022, 2024 and 2025 she made the same complaint in nearly the same words: a project "comes out as a totally different thing" from what she signed up for. That covers Fifty Shades and Madame Web, and it's why she started her production company, TeaTime. By contrast, she welcomes changes she chooses herself, like her line after The Lost Daughter: "There was a new woman in me."
+- **Type read:** Type 4, medium confidence. Type 6 is argued in full as the strongest rival, and the article admits it explains her anxiety better. What separates them: she talks about safety as what lets her express herself ("when I feel safe, I think I can do anything"), not as the goal. Types 8, 9 and 7 each get addressed.
+- **What the Type 4 read doesn't explain:** how much she enjoys lying to the press ("The most fun"), her Madame Web reversal, and years of on-message Fifty Shades promotion.
+
+**Sourcing**
+- I checked every quote I added against the research stage's saved copies of the full articles. This caught three framing problems, now fixed:
+  - Vogue said "first time," not "only time."
+  - The Associated Press, not Johnson, reported that she knocked on Sean Penn's door to recruit him.
+  - She now owns a house in Colorado, not a ranch, so the closing line about her 2015 ranch dream was corrected.
+- Her Fifty Shades account is presented as hers, along with her praise of E.L. James.
+- The lime allergy is credited to Vogue, since she never said it herself.
+- The rehab claim is left out because no source the research opened supports it.
+- Rumored romances since her breakup aren't mentioned.
+- Three of her quotes contain em dashes. I quoted around them without changing any words, so the article has none.
+
+**Evidence file:** 114 claims and all 32 sources. Risk flags are unchanged, so the six-reviewer panel comes next.
+
+**Still open before publishing:**
+- The original 2015 Vogue story is still unopened; that quote comes through a trade-site relay.
+- Recheck whether E.L. James has ever responded publicly.
+- No critical outside witness exists in the record; the testimony is all friends and costars.
+- Recheck Verity's release details and the 2027 date for her next film, Three Incestuous Sisters.
+
+**Lint:** `blog-lint.sh` still fails on the old required sections (TL;DR, Rabbit Hole, ledgers), which the new standard makes optional. It also misreads the description's length.
+
+The Supabase connector failed to connect this session. Ahrefs, Figma, Slack, Notion and other plugin connectors need authorizing via `/mcp` or your claude.ai connector settings. This stage needed none of them.

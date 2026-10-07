@@ -79,9 +79,9 @@
 	const noteError = $derived(localError || formState.noteMessage || '');
 	const replyExpected = $derived(localStage === 'done' ? false : !!formState.replyExpected);
 
-	const title = 'Talk It Through: Leave a Note or a Voice Note | 9takes';
+	const title = 'Experimental Enneagram Therapy: Free Beta 1-on-1 | 9takes';
 	const metaDescription =
-		'Stuck on someone you can’t read, a fight you keep having, or a pattern you can’t break? Type it or record a voice note. Free, private, and you can stay anonymous.';
+		'Experimental therapy, 9takes style, free while it’s in beta. Stuck on someone you can’t read or a pattern you can’t break? Leave a note or book a free 1-on-1.';
 
 	const faqs = [
 		{
@@ -221,7 +221,7 @@
 	<div class="talk-container">
 		<header class="talk-intro">
 			<!-- Echoes both ways in: the mobile menu's "Free 1-on-1" and the footer's "Talk it through". -->
-			<p class="talk-eyebrow">Free 1-on-1 · Talk it through</p>
+			<p class="talk-eyebrow">Experimental therapy · Free beta</p>
 			<h1 class="talk-title">What are you trying to figure out?</h1>
 			<p class="talk-lede">
 				Pick the closest one, then type it or say it out loud. It’s free and private, and you can

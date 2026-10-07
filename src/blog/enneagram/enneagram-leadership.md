@@ -44,7 +44,7 @@ After interviewing 500+ world-class performers, Tim Ferriss noticed a pattern: t
 
 The Enneagram maps nine distinct leadership operating systems. What makes one type inspiring makes another seem fake. What motivates one type's team demoralizes another's. (New to the Enneagram? Start with our [quick overview](/enneagram-corner/enneagram-tldr).)
 
-For a political version of the same pattern, the [US presidents Enneagram analysis](/pop-culture/us-presidents-enneagram-analysis) shows how national crises pull different leadership types into the Oval Office.
+For a political version of the same pattern, the [US presidents Enneagram analysis](/pop-culture/us-presidents-enneagram-analysis) shows how national crises pull different leadership types into the Oval Office. For the business version, our [data on which Enneagram type most CEOs are](/enneagram-corner/what-enneagram-type-are-most-ceos) counts 46 famous company builders by type.
 
 Here is the uncomfortable truth: you have probably been trying to lead like someone you admire rather than like yourself. And your greatest strength, overplayed, becomes your biggest liability.
 

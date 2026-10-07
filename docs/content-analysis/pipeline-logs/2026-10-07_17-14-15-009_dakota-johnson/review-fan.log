@@ -1,0 +1,19 @@
+I wrote the fan review for the Dakota Johnson draft to `review-fan.json` in the run folder. It passes the review schema, and every quoted draft passage matches the draft exactly. I didn't change any other file or publish anything. The role and both hashes are copied from the request.
+
+**What it found (8 issues: 3 major, 5 minor)**
+
+- **Major: the Ellen moment is filed wrong.** The draft lists it among her pranks and put-ons. But in that clip DeGeneres made the false claim, and Johnson corrected her ("That's not the truth, Ellen"). So the moment actually supports the article's "won't fake it" argument. The draft also drops her explanation from the same clip: Ellen had teased her about this the year before, and "you didn't come."
+- **Major: Juilliard is missing.** The draft's own 2017 Vogue source says she applied to only one college, Juilliard, and it didn't take her. Her line was "Juilliard and I mutually agreed that it wouldn't work out." Without that, "She chose independence" reads as a principled choice rather than what came after a rejection.
+- **Major: family and early Hollywood access are missing.** Antonio Banderas was her stepfather for about two decades, and she has six half-siblings. Her first screen role was as a child in *Crazy in Alabama* (1999), which Banderas directed. In 2006 she was named Miss Golden Globe and signed with IMG Models. Leaving all this out makes her start look self-made.
+- **Minor:**
+  - **Childhood:** in 2024 she described moving schools in a matter-of-fact way ("normal to me"), which contradicts the darker versions the draft uses.
+  - **Her own rule:** right after "The most fun," she said "Sometimes when you're in a ridiculous situation, you just have to be ridiculous." So the draft is wrong to say she has never stated the line between a joke and a faked feeling herself.
+  - **Exaggeration caveat:** in the same Bustle interview the Type 6 case leans on, she said she was exaggerating. The draft doesn't mention this.
+  - **Fifty Shades quote:** her famous "Oh, this is psychotic" line is cut, and only the "no regret" half that followed it is kept.
+  - **Michele's quote:** he is described only as a friend, though she has been an ambassador for Gucci, where he was the designer.
+
+I also flagged five passages the editor should keep, including "A Seven's appetite usually runs from that sentence. Hers runs toward it." The similarity check found no meaningful reuse from other profiles.
+
+I checked quotes against the excerpts already saved in the research file and reopened Wikipedia for the family and early-career facts. I did not reopen the magazine articles or videos themselves.
+
+Two connections weren't usable this session. The Supabase tool failed to connect, though nothing here needed it. Several marketing and engineering connectors, such as Ahrefs, Slack and Notion, need to be authorized in your claude.ai connector settings or through `/mcp`.

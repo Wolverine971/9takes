@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "bd573ad5041e3f445163428d11dfec6ed3f24cda50cd20c2b66659b3af0a0553",
+  "evidence_sha256": "27e44661f823f7e91e3239d325667bc051e10d2163b745d40b2df00bd0221123",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "Other people's confidence bothered him more than his own doubt, and he kept talking their estimate down.",
+      "problem": "The hook and the thesis paragraph drop the sentences around 'I always made sure to correct them by pointing out that I was a newbie.' I reopened the 2019 essay (Wayback capture). It reads: 'People would mention how how hard behavioral cloning from human data is. I always made sure to correct them by pointing out that I was a newbie, and this probably said more about my abilities than the problem.' Colleagues were not praising him. They offered the problem's difficulty as an excuse, and he refused it and blamed his own ability. A newcomer reads the draft as a man deflecting praise to manage expectations. The source shows someone rejecting a face-saving explanation, which a One reading could claim as easily as a Three. The ranking 'more than his own doubt' is also not in the essay: 'to make it worse' adds a burden but does not rank the two. Claim C53 repeats the error ('corrected their praise').",
+      "acceptance_test": "The opening quotes or accurately paraphrases the intervening sentence: others said behavioral cloning is hard, and he answered that his struggle said more about his abilities than the problem. The 'Nothing to show' interpretation no longer says others' confidence bothered him 'more than his own doubt' or that he talked down 'their estimate' unless the essay supports it. It names the refuse-the-excuse reading and says which type it favors, if either. C53's claim text no longer says 'praise'."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "Across two decades, his costliest choices protect visible, shipped results and how his competence registers with others, more than titles or procedure.",
+      "problem": "The 60-word type answer, repeated in the first FAQ, rests the Type 3 call on his 'costliest choices'. The body later names his single costliest choice: 'This was the costliest choice in his record, made in an afternoon, and it is the One reading's best day ... Nothing in it favors a Three over a One.' A reader who knows nothing about him hits a contradiction in the headline claim. That is the text most likely to be quoted or surfaced in search.",
+      "acceptance_test": "The type answer and the type FAQ make an evidence claim the body supports, such as repeated or most revealing choices, or the one stall he describes. Alternatively, the November 17 section reconciles its 'costliest choice' label with the answer. No body sentence contradicts the evidence basis stated in the 60-word answer. Answer and FAQ stay identical and at or under 60 words."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "major",
+      "passage": "On the stand, he described the line he would not cross in 2017 as one that would \"serve the mission\" but be hard to face in the mirror.",
+      "problem": "This sentence is offered as proof that 'Brockman keeps turning up on the other side' of procedure. What it describes is a man declining an act that would serve the mission because of conscience, which is the One reading. The earlier diary section already says 'The idiom fits either type.' A newcomer following the discriminator cannot see why this example sits on the speed-over-process side. It weakens the paragraph that carries the article's central test. 'The line he would not cross' also implies a settled outcome the reader is never given (see unfamiliar-04).",
+      "acceptance_test": "Either the mirror item is removed from the 'other side' list, or one sentence explains why it belongs there. For example: he described the refusal as a cost to self-image rather than a wrong, while the diary itself said 'wrong' and 'morally bankrupt'. That explanation must sit alongside the conceded One reading. Every item in the paragraph shows him choosing speed or results over procedure on its face, or is labeled as ambiguous."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "major",
+      "passage": "Brockman's private diary from that year, produced in Musk's lawsuit, is his alone, and its entries pull in different directions.",
+      "problem": "The section assumes the reader already knows Musk v. Altman. The draft never says what Musk was to OpenAI (co-founder and early funder who left in 2018), what the suit alleges (that the founders abandoned the nonprofit mission for profit), or how or whether the May 2026 trial ended. 'Steal the nonprofit' and 'convert to a b-corp' go unexplained. The reader cannot judge the diary's stakes or the closing caveat about 'a defendant facing claims of greed'. They also cannot tell whether OpenAI later did restructure without Musk, which decides whether 'a line he would not cross alone' is accurate or misleading.",
+      "acceptance_test": "One or two sourced sentences, before or at the diary excerpts, cover four things: Musk's role and 2018 exit, what the suit alleges, what 'b-corp'/nonprofit conversion means here, and what OpenAI's structure later became. The trial's outcome or status is stated with an absolute date, or the article says it is unresolved as of the check date. That item is recorded as a time_sensitive/unresolved claim with a review_trigger. 'A line he would not cross' is kept only if the later record supports it; otherwise it is qualified."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "major",
+      "passage": "At 12:19 p.m., Brockman got a text from Sutskever asking for a quick call.",
+      "problem": "The article's dramatic center leaves out the context a newcomer needs. It never says that Sutskever, the co-founder whose 'plate' Brockman cleared in 2015, was a board member who joined the vote that removed Altman. Nor does it say Sutskever then signed the petition to reinstate them (OpenAI's statement quoted by Fortune, S19). That irony is the most story-rich fact in the piece, and it is left implicit. The board's stated reason for firing Altman ('not consistently candid', S13) is missing. So is the fact that Brockman was chairman of the board (S13 'stepping down as chairman'), which is a larger loss than 'removed from the board' suggests. Also missing is the staff revolt that brought them back. Without it, the closing line ('No one, he added, left for a rival that weekend') lands on an unexplained 'rival' and 'weekend'.",
+      "acceptance_test": "Before or within the November 17 section, sourced clauses cover four facts: Sutskever's board seat and role in the vote, Brockman's chairmanship, the board's stated reason, and the staff petition or threatened departures that preceded the return. 'A rival that weekend' is explained before the closing paragraph relies on it, or that clause is cut. Each added fact maps to a claim with source IDs."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "reports that after Musk left, Altman and Amodei \"agreed that the lab's employees didn't have faith in Brockman and Sutskever's leadership, given the layoffs.\"",
+      "problem": "This 'Amodei' is ambiguous: Dario was linked earlier and Daniela appears in the next sentence. The WSJ source (S22) says Dario, then research director. 'The layoffs' are never explained or dated. The reader learns only in passing ('the Amodeis' side of the split that produced Anthropic') that the Amodeis are siblings who left to found a rival lab. Yet the article asks the reader to discount these accounts for exactly that reason.",
+      "acceptance_test": "First mention reads 'Dario Amodei, then research director' or equivalent. Daniela is identified as his sister and co-lead. 'The layoffs' is glossed with a date from the source or cut. One clause, before the source-weighting caveat, states that the Amodeis later left to found Anthropic, a direct competitor."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "He is its president.",
+      "problem": "A newcomer never learns what the president of OpenAI actually runs, or why his psychology has consequences beyond curiosity. The evidence record holds the answer (C40/S19): after returning in November 2024 he led a new Scaling group and the infrastructure build-out, with the Stargate team reporting to him. Fortune also says he 'essentially served as the AI lab's CEO' before Microsoft's first $1 billion investment. Without this, the stakes rest on net worth and a movie role.",
+      "acceptance_test": "Within the orientation paragraph, a sourced clause gives his current remit (for example, OpenAI's compute and data-center build-out, per Fortune, November 2025) and, optionally, his early de facto CEO role. It is dated and tracked as a time_sensitive claim with a review_trigger."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "using \"behavioral cloning to teach a neural network from human training data\" for the lab's Dota bot",
+      "problem": "Several first mentions assume insider knowledge or add precision the record lacks. 'Dota bot' is never glossed: Dota 2 is a multiplayer video game, and OpenAI built bots to play it. 'CTF3' is unexplained. 'AGI' is never expanded, though it carries the last section. 'When Sutskever left' and 'Giving up hands-on coding' are undated. 'A teenager standing at attention to win a part' asserts an age the Stratechery source (S28) does not give. The gingerbread and StumbleUpon/Harvard paragraphs carry no inline link, so 'a 2026 podcast story' leaves the reader guessing which source.",
+      "acceptance_test": "Dota, CTF3 and AGI get a few-word gloss at first use. Sutskever's departure gets a date (month and year) from a source. The coding hand-off is dated or framed as undated. 'Teenager' is dropped unless a source gives his age. The Stratechery interview is linked at the gingerbread passage and named where 'a 2026 podcast story' appears."
+    },
+    {
+      "id": "unfamiliar-09",
+      "severity": "minor",
+      "passage": "And sometimes when I do that, I don't always Sorry, I'm getting a little emotional.",
+      "problem": "The closing quote is the emotional payoff, but it reads like a typo: an auto-caption run-on with no break marked. The evidence record carries two versions of the last line ('Like I just run right in' in research, 'Like I just like run right in' on re-download), and the research tasks still list the audio as unchecked. An ending this dependent on exact spoken words should match the audio.",
+      "acceptance_test": "The audio at about 0:22:05–0:22:30 of The Knowledge Project is checked. The quote matches it word for word, with the self-interruption rendered by a standard transcript break (a dash or ellipsis) and no added words. The C36 record notes the audio check."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The next line sits alone as its own paragraph: \"I never tried machine learning on the Dota project again.\"",
+      "reason": "A specific, sourced, against-interest moment that makes a newcomer want to know why an OpenAI co-founder quit trying ML. The formatting observation adds weight without adding interpretation."
+    },
+    {
+      "passage": "He wasn't picked, but the organizers told him, \"We loved seeing how much you were dedicated to this, so we're going to actually make a new role for you.\" He became a gingerbread man.",
+      "reason": "A memorable, verified childhood detail found nowhere else. It shows the logic of the type argument (dedication noticed and rewarded) without inventing a wound."
+    },
+    {
+      "passage": "His first vacation became a build.",
+      "reason": "A six-word observation earned by the source. It sets up the later sabbatical-as-DNA-modeling echo and gives the piece a pattern the reader can carry."
+    },
+    {
+      "passage": "Even the charter aside cuts both ways: the care to get the lines \"exactly right\" belongs to a One, and the reflex to head off the impression that he had crammed belongs to a Three.",
+      "reason": "Exceptional fair-minded reasoning. One detail is read honestly for both rivals, which teaches an unfamiliar reader how the typing argument works."
+    },
+    {
+      "passage": "Ten years after admiring the pronouncement, he was the one making it.",
+      "reason": "A clean structural callback from the 2016 essay to the 2026 AGI claim. It shows a pattern across a decade, so the ending does not depend on the latest event alone."
+    }
+  ],
+  "assessment": "Orientation and momentum are mostly strong. A newcomer gets a concrete, surprising hook, a who-is-he paragraph by the third paragraph, and a clear question to carry ('when the right way and the fast way collide, which does he protect?'). The opening anecdote pays off in 'Nothing to show for my efforts.' Concessions to Type 1 and Type 9 are honest and placed near the main argument. The reader leaves with a real arc: prodigy, Stripe builder, a two-year stall, the diary, the November 2023 quit, burnout and return, the PAC reversal. The weak spots come where the piece assumes insider knowledge of the OpenAI saga: what Musk's lawsuit is and how it ended, Sutskever's board role and later reversal, the staff revolt, the Amodeis and Anthropic, and what Brockman runs today. The type answer's 'costliest choices' claim is contradicted by the body's own 'costliest choice' passage. The discriminator paragraph includes an item (the mirror testimony) that reads as One evidence. One context problem is material: I reopened the 2019 essay (Wayback capture) and found that the 'newbie' correction answered colleagues who said the problem was hard, not praise. The thesis paragraph built on it needs repair. I did not reopen other sources or check the Knowledge Project audio. At roughly 3,900 words the draft sits above the 2,000–3,500 target. The early disclaimer paragraph and the 'this profile won't supply one' line slow the run-in slightly; the added orientation should be offset by trims elsewhere. Similarity check: the diagnostic tripped on the one-line Type 3 definition ('Type 3 is organized around...'), shared with the Tiger Woods draft, and on the phrase 'the public record'. I compared the arguments: Brockman's case rests on the 'nothing to show' stall and the ends-over-means test, which are specific to him. This is ordinary type vocabulary, not meaningful reuse, so it is not reported as a finding. Risk flags stay elevated: sensitive allegations (the bullying memo, 'abrasive operator', anonymous friction accounts) and contested typing (medium confidence, Type 1 and Type 9 live)."
+}

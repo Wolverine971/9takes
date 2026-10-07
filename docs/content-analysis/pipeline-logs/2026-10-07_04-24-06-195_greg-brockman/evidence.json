@@ -1,0 +1,1194 @@
+{
+  "schema_version": 3,
+  "subject": "greg-brockman",
+  "status": "ready",
+  "research_tasks": [
+    "Non-blocking, before drafting: open The New York Times report (late September 2026) behind Gizmodo’s relay (S31) to confirm the exact Slack wording and date before presenting it as his words; until then attribute it to the Times via Gizmodo.",
+    "Non-blocking: open the WIRED interview (S21, 2026-02-12) for Brockman’s own rationale for the MAGA Inc. and Leading the Future gifts. It is the best first-person test of the discriminator (does he justify the bet and the reversal in terms of effectiveness and standing, or right and wrong?). Quote nothing beyond the dek until read.",
+    "Non-blocking: reconcile the 2017 diary wording across S23, S25 and S27 (and the trial exhibit if a transcript or exhibit list is reachable); quote a single outlet’s version with attribution.",
+    "Non-blocking: if accessible, read Keach Hagey, The Optimist, pp. 286–287 and Karen Hao, Empire of AI, on the Brockman memo and Mira Murati’s complaints. Until opened, the bullying allegation stays \"disputed\" and secondhand (C34) and cannot carry the type argument.",
+    "Non-blocking: the scout cited a mid-September 2026 Bloomberg Odd Lots appearance; it was not located. Confirm it exists before citing.",
+    "Non-blocking: seek one named Stripe-era colleague (Patrick Collison, Marc Hedlund, Nelson Elhage) on his working style to balance the anonymous OpenAI testimony in C33.",
+    "Accuracy before publishing: re-check his title and scope (president; product since July 2026), net worth with an as-of date, Leading the Future status after the Nov. 3, 2026 midterms, the Astra/AGI framing, and the Dec. 25, 2026 U.S. release of Artificial plus any response to his portrayal."
+  ],
+  "accuracy_checked_at": "2026-10-07",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://blog.gregbrockman.com/figuring-out-the-cto-role-at-stripe",
+      "title": "#define CTO",
+      "speaker": "Greg Brockman",
+      "date": "2014-10-27",
+      "locator": "Full post read end to end on 2026-10-07 from a 2024 Wayback Machine capture (live blog origin returned Cloudflare 522). Sections: opening paragraphs; \"Hiring a VP Engineering\"; \"Once we had a VP Engineering\"; \"My role\" (vision quest, four feedback mechanisms, closing paragraphs).",
+      "excerpt": "I wasn’t doing these things particularly because I preferred them to coding: instead, I had a very strong vision of the environment I wanted to be a part of, and I was willing to go out of my way to make it exist. / I would stack them all on a Tuesday, and be completely burned out by the end of the day. / The best thing I did on this front was take a vacation (my first ever) to Hawaii, and then holed myself up with a few engineers building CTF3. / I suffered from something I think a lot of engineers do, which is having trouble distinguishing “not the way I’d do it” from “bad”. / But universally, “sparse micromanagement” (the best term I’ve heard for jumping in to some random issue, overturning all the decisions, and then disappearing) is the worst. / it’s not about time management, it’s about energy management. / What my role will look like from here, I have yet to define fully. I’m too busy coding.",
+      "context": "Brockman’s own essay, written about 18 months into his Stripe CTO title, about hiring VP Engineering Marc Hedlund and returning to code. Self-report written for a public (and recruiting) audience; it predates any OpenAI controversy, which makes it a useful baseline. The “sparse micromanagement” line is his stated principle, not evidence of his later behavior either way.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://blog.gregbrockman.com/leaving-stripe",
+      "title": "Leaving Stripe",
+      "speaker": "Greg Brockman",
+      "date": "2015-05-06",
+      "locator": "Full post read on 2026-10-07 from a 2024 Wayback capture. Paragraphs: opening; \"Startups\"; \"Departing\"; \"What comes next\".",
+      "excerpt": "I originally got hooked on programming because I loved the act of creating something from nothing. I soon discovered the deep satisfaction of having others actually use my creations. / About six months ago, I found myself in a strangely luxurious place: I’d successfully removed myself as a critical lynchpin for the company and could craft literally any role I wanted. / But the more that I explored, the more I realized: I was yearning to create something of my own. / I felt I’d topped out the S-curve for what I could learn here about starting a company. / If I don’t take advantage of this opportunity, I’ll always wonder what could have been. Sam Altman put it well: life is not a dress rehearsal.",
+      "context": "Departure announcement; Business Insider (S34) quoted it the same day. Public-facing, so it presents the exit in its best light. It directly contradicts the unverified hearsay that he was \"essentially fired from Stripe\" (see S20).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://blog.gregbrockman.com/my-path-to-openai",
+      "title": "My path to OpenAI",
+      "speaker": "Greg Brockman",
+      "date": "2016-05-03",
+      "locator": "Full post read on 2026-10-07 via the r.jina.ai reader copy of the live page (origin intermittently down). Sections: opening; \"College\"; \"Stripe\"; \"Leaving Stripe\"; \"Initial spark\"; \"The dinner\".",
+      "excerpt": "I decided to focus on creating systems that can have a real impact, and have been doing that ever since. / I’d started out at Harvard and transferred to MIT, trying to constantly surround myself by people who I could learn from and build something useful with. / I cared most about working with great people to make something amazing happen — but developer infrastructure wasn’t the problem that I wanted to work on for the rest of my life. / I realized that sometimes an effort needs only someone bold enough to pronounce a goal, and then the right people will join them. / I volunteered myself as tribute. / And so the next day, I had something impactful to build once again.",
+      "context": "Founding narrative written five months after OpenAI launched. Doubles as recruiting copy; treat as self-presentation.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://blog.gregbrockman.com/define-cto-openai",
+      "title": "#define CTO OpenAI",
+      "speaker": "Greg Brockman",
+      "date": "2017-01-09",
+      "locator": "Full post (about 3,900 words incl. footnotes) read on 2026-10-07 from a 2024 Wayback capture. Sections: intro; \"Formation\"; \"Founding team\"; \"Spinup\"; \"Gym\"; \"Universe\"; \"What comes next\".",
+      "excerpt": "I’ve finally found that role, though not by seeking it — instead, I sought out a problem more important to me than my role within it, brought together the right people, and found that I can best make them effective by writing code. / I didn’t know when my engineering skills would be needed, and in the meanwhile I resolved to do whatever was needed to remove all non-research tasks from Ilya’s plate. / At Stripe, I’d found a repeatable pattern for creating software systems from nothing: focus single-mindedly on the software, shutting out all distractions and working from wake until sleep, which would inspire others to contribute their best work (importantly, measured by output quality rather than hours). These are the times I feel most alive / I’ve never hit a soft launch date, but have never missed a hard one. / a single meeting will kill productivity for the entire morning or afternoon. / There’s something extremely validating about your work allowing researchers to ask questions that no human ever has before. / OpenAI is an organization where the CTO role is naturally the activity I love most in the world: coding. But even so, people remain my focus",
+      "context": "Sequel to S01, written at OpenAI’s first anniversary. Self-report and recruiting piece (ends with a hiring pitch).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://blog.gregbrockman.com/the-openai-mission",
+      "title": "The OpenAI Mission",
+      "speaker": "Greg Brockman and Ilya Sutskever (co-written; personal statements labeled by name)",
+      "date": "2019-03-11",
+      "locator": "Read in full on 2026-10-07 from a 2024 Wayback capture; quoted line is from the \"About us\" section under \"Greg:\".",
+      "excerpt": "Technology causes change, both positive and negative. AGI is the most extreme kind of technology that humans will ever create, with extreme upside and downside. I work on OpenAI because making AGI go well is the most important problem I can imagine contributing towards.",
+      "context": "Published the day OpenAI LP (capped profit) was announced; a mission statement written to justify a structural change. Only the labeled \"Greg:\" paragraph is his alone.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://blog.gregbrockman.com/how-i-became-a-machine-learning-practitioner",
+      "title": "How I became a machine learning practitioner",
+      "speaker": "Greg Brockman",
+      "date": "2019-07-30",
+      "locator": "Full post (about 1,600 words) read on 2026-10-07 from a 2024 Wayback capture. Sections: intro; \"Early days\"; \"Dota\"; \"Time out\"; \"Retooled\".",
+      "excerpt": "what turned out to be my biggest blocker was a mental barrier — getting ok with being a beginner again. / the team’s excitement every time I overcame a new obstacle was deeply validating. / I didn’t feel confident in my work, but to make it worse, other people did. People would mention how how hard behavioral cloning from human data is. I always made sure to correct them by pointing out that I was a newbie / But soon Jie figured out how to get better results without using my code, and I had nothing to show for my efforts. I never tried machine learning on the Dota project again. / I wanted to see the whole picture clearly. / I’d begun a relationship with someone who made me feel it was ok if I failed. / But I was wrong — even embedded in the middle of OpenAI, I couldn’t make the transition because I was unwilling to become a beginner again. / I feel proud every time I see a commit from them in the machine learning codebase I’d started.",
+      "context": "His most self-revealing essay: a two-year stall followed by holiday self-study (late 2018) during his first months with Anna. Published as encouragement (and a hiring pitch), so the arc is shaped toward a lesson; the specifics (abandoning ML on Dota after his code was superseded) are concrete and against interest.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://blog.gregbrockman.com/its-time-to-become-an-ml-engineer",
+      "title": "It’s time to become an ML engineer",
+      "speaker": "Greg Brockman",
+      "date": "2022-04-11",
+      "locator": "Full post read on 2026-10-07 from a 2024 Wayback capture; paragraphs 2 and 6.",
+      "excerpt": "I first got into software engineering because I wanted to build large-scale systems that could have a direct impact on people’s lives. / The most important determiner is a specific flavor of technical humility. Many dearly-held intuitions from other domains will not apply to ML. The engineers who make the leap successfully are happy to be wrong (since it means they learned something), aren’t afraid not to know something",
+      "context": "Recruiting post. Shows the lesson he drew from S06 three years later.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.grandforksherald.com/newsmd/greg-brockman-intel-science-talent-search-finalist-grand-forks",
+      "title": "Greg Brockman, Intel Science Talent Search finalist, Grand Forks",
+      "speaker": "Grand Forks Herald (interview by staff writer Dorreen Yellow Bird)",
+      "date": "2007-02-03",
+      "locator": "Article page opened 2026-10-07; full visible text (short item).",
+      "excerpt": "Brockman, a Red River High School senior, last week was chosen as one of 40 finalists for the Intel Science Talent Search, America's most prestigious pre-college science contest. / Brockman is the first North Dakota finalist in the competition since 1973. He completed every math course at Red River High School and attends classes at UND. / His parents, Drs. Ron Brockman and Ellen Feldman, are Altru Health System physicians. The family lives in Thompson, N.D.",
+      "context": "Contemporaneous local news, the only independent pre-fame source found. The Q&A portion referenced on the page was not visible in the capture.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://en.wikipedia.org/wiki/Greg_Brockman",
+      "title": "Greg Brockman (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "unknown (revision fetched 2026-10-07)",
+      "locator": "Raw wikitext fetched 2026-10-07: infobox; Early life; Career (OpenAI; Elon Musk lawsuit); Personal life; Political activities.",
+      "excerpt": "birth_date = {{birth date and age|1987|11|29}} / He won a silver medal in the 2006 International Chemistry Olympiad / In November 2019 after a year of dating, Brockman married Anna at OpenAI's offices on a workday. / Sutskever supplied the board with a document of alleged bullying by Brockman. Mira Murati said Brockman's relationship with Altman made it impossible for her to do her job, and Altman had already \"fielded many requests from OpenAI employees to rein in Brockman\". / Brockman and his wife were the biggest donors to Donald Trump's Super PAC, MAGA Inc., in 2025 with each of them donating US$12.5 million.",
+      "context": "Reference only. The full birth date is uncited in the infobox. The bullying/Murati sentences summarize Keach Hagey, The Optimist (2025), pp. 286–287, which was NOT opened; treat as a lead. The MAGA Inc. line cites NYT 2026-01-02 and an FEC filing (not opened).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.technologyreview.com/2020/02/17/844721/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/",
+      "title": "The messy, secretive reality behind OpenAI’s bid to save the world",
+      "speaker": "Karen Hao (MIT Technology Review), quoting Greg Brockman",
+      "date": "2020-02-17",
+      "locator": "Full article (about 6,700 words) opened 2026-10-07 by direct fetch. Brockman passages: lunch scene paragraphs (nervous and guarded; childhood; moon janitor, railroad, Edison stories); charter-recitation paragraphs; wedding parenthetical; ethics quote; correction note at end.",
+      "excerpt": "On the beautiful blue-sky day that I arrive to meet Brockman, he looks nervous and guarded. “We’ve never given someone so much access before,” he says with a tentative smile. / Brockman, 31, grew up on a hobby farm in North Dakota and had what he describes as a “focused, quiet childhood.” He milked cows, gathered eggs, and fell in love with math while studying on his own. / Throughout our lunch, Brockman recites the charter like scripture / (“By the way,” he clarifies halfway through one recitation, “I guess I know all these lines because I spent a lot of time really poring over them to get them exactly right. It’s not like I was reading this before the meeting.”) / People can be skeptical all they want. It’s the price of daring greatly. / In November, Brockman married his girlfriend of one year, Anna, in the office against a backdrop of flowers arranged in an OpenAI logo. Sutskever acted as the officiant; a robot hand was the ring bearer. / Also, that he was raised not “on a farm,” but \"on a hobby farm.\" Brockman considers this distinction important.",
+      "context": "Independent reporter’s embedded observation over three days in 2019, plus an editor’s correction note that OpenAI requested. \"People can be skeptical all they want. It’s the price of daring greatly.\" is Hao’s paraphrase of his message, not a Brockman quote.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.youtube.com/watch?v=bIrEM2FbOLU",
+      "title": "Greg Brockman: OpenAI and AGI | Lex Fridman Podcast #17",
+      "speaker": "Greg Brockman, interviewed by Lex Fridman",
+      "date": "2019-04-03",
+      "locator": "YouTube auto-caption transcript (1:25:07) downloaded 2026-10-07 and read via keyword sweep plus opening and 0:22–0:34 sections. Quotes at about 0:01:03, 0:02:13 and 0:23:03. Auto-captions are unpunctuated and do not label speakers; check audio before quoting.",
+      "excerpt": "a lot of what really motivates me is is building things / you can have this this this insane leverage right a single individual with an idea is able to affect the entire planet / if you can really build the most transformative technology that will ever exist you stop thinking about yourself so much right and you start thinking about just like how do you have a world where this goes well",
+      "context": "Long-form 2019 interview, recorded just before OpenAI Five beat OG. Useful as a mid-period check that the build/leverage/mission language predates 2023.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.lesswrong.com/posts/5jjk4CDnj9tA7ugxr/openai-email-archives-from-musk-v-altman-and-openai-blog",
+      "title": "OpenAI Email Archives (from Musk v. Altman and OpenAI blog)",
+      "speaker": "Third-party compilation of court-exhibit emails; authors Greg Brockman, Ilya Sutskever, Elon Musk, Sam Altman, Shivon Zilis",
+      "date": "2015-11-22 to 2018-01-31 (emails); compilation posted 2024",
+      "locator": "Page opened 2026-10-07 (about 22,000 words). Emails read: Brockman to Musk 2015-11-22 (\"follow up from call\"); Brockman to Musk 2016-02-21 (\"compensation framework\") and 2016-02-22 reply; Brockman to Zilis 2017-07-13; Brockman to Musk 2017-07-21; \"Honest Thoughts\" 2017-09-20 (sent by Sutskever, signed \"Greg & Ilya\"); Zilis to Musk 2017-09-22; Brockman to Musk 2018-01-31.",
+      "excerpt": "I don't want to pull any punches, and would feel comfortable broadcasting a stronger message if it feels right. ... shift the dialog towards being about humanity winning rather than any particular group or company. / I don't yet feel comfortable making decisions here on my own, and would love any guidance. / Read you loud and clear. Sounds like a plan. / We have several important concerns that we haven't raised with either of you. We didn't raise them because we were afraid to: we were afraid of harming the relationship, having you think less of us, or losing you as partners. / Greg and I, at least so far, are much worse at being a counterbalance to you. / During this negotiation, we realized that we have allowed the idea of financial return 2-3 years down the line to drive our decisions. / We did not speak our full truth during the negotiation. / - Greg & Ilya / Quick FYI that Greg and Ilya said they would like to continue with the non-profit structure. / Ilya and I are able to convince reputable people that AGI can really happen in the next ≤10 years",
+      "context": "Contemporaneous private correspondence later made public in litigation, compiled by a third party; court PDFs not checked. \"Honest Thoughts\" is jointly signed and sent from Sutskever’s account, so its first-person plural cannot be assigned to Brockman alone. The New Yorker (S23) quotes the same email identically.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://openai.com/index/openai-announces-leadership-transition/",
+      "title": "OpenAI announces leadership transition",
+      "speaker": "OpenAI (board statement)",
+      "date": "2023-11-17",
+      "locator": "Opened 2026-10-07 via r.jina.ai reader; paragraphs 2 and 4.",
+      "excerpt": "Mr. Altman’s departure follows a deliberative review process by the board, which concluded that he was not consistently candid in his communications with the board / As a part of this transition,Greg Brockman will be stepping down as chairman of the board and will remain in his role at the company, reporting to the CEO.",
+      "context": "Official board statement; the missing space in \"transition,Greg\" is in the source.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://x.com/gdb/status/1725667410387378559",
+      "title": "X post: \"After learning today’s news, this is the message I sent to the OpenAI team:\" (with image)",
+      "speaker": "Greg Brockman",
+      "date": "2023-11-17 (Pacific; 2023-11-18 00:09 UTC)",
+      "locator": "Post text via api.fxtwitter.com on 2026-10-07; attached image (pbs.twimg.com/media/F_LNXSVbIAAe8QP.jpg) downloaded and read in full.",
+      "excerpt": "i’m super proud of what we’ve all built together since starting in my apartment 8 years ago. we’ve been through tough & great times together, accomplishing so much despite all the reasons it should have been impossible. / but based on today’s news, i quit. / genuinely wishing you all nothing but the best. i continue to believe in the mission of creating safe AGI that benefits all of humanity.",
+      "context": "His own resignation note, all lowercase in the image. Quote it lowercase or mark capitalization changes; it begins \"but based on today’s news\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://x.com/gdb/status/1725736242137182594",
+      "title": "X post: \"Sam and I are shocked and saddened by what the board did today.\"",
+      "speaker": "Greg Brockman (on behalf of himself and Sam Altman)",
+      "date": "2023-11-17 (Pacific; 2023-11-18 04:42 UTC)",
+      "locator": "Full post text via api.fxtwitter.com on 2026-10-07.",
+      "excerpt": "Sam and I are shocked and saddened by what the board did today. / At 12:19pm, Greg got a text from Ilya asking for a quick call. At 12:23pm, Ilya sent a Google Meet link. Greg was told that he was being removed from the board (but was vital to the company and would retain his role) and that Sam had been fired. / The outpouring of support has been really nice; thank you, but please don’t spend any time being concerned. We will be fine. Greater things coming soon.",
+      "context": "Joint account written in the third person about both men; timeline is theirs, contemporaneous.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://openai.com/index/review-completed-altman-brockman-to-continue-to-lead-openai/",
+      "title": "Review completed & Altman, Brockman to continue to lead OpenAI",
+      "speaker": "OpenAI Special Committee / Bret Taylor",
+      "date": "2024-03-08",
+      "locator": "Opened 2026-10-07 via r.jina.ai reader; announcement and summary-of-findings paragraphs.",
+      "excerpt": "Based on the record developed by WilmerHale and following the recommendation of the Special Committee, the Board expressed its full confidence in Mr. Sam Altman and Mr. Greg Brockman’s ongoing leadership of OpenAI. / “We have unanimously concluded that Sam and Greg are the right leaders for OpenAI,” stated Bret Taylor, Chair of the OpenAI Board.",
+      "context": "Company statement after an outside review; the review itself was not published.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://x.com/gdb/status/1820644694264791459",
+      "title": "X post announcing sabbatical",
+      "speaker": "Greg Brockman",
+      "date": "2024-08-05 (Pacific; 2024-08-06 02:14 UTC)",
+      "locator": "Full post text via api.fxtwitter.com on 2026-10-07.",
+      "excerpt": "I’m taking a sabbatical through end of year. First time to relax since co-founding OpenAI 9 years ago. The mission is far from complete; we still have a safe AGI to build.",
+      "context": "Own announcement; Fortune (S19) reports outlets linked the sabbatical to concerns about his leadership style, which OpenAI disputes.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://x.com/gdb/status/1856441156281753908",
+      "title": "X post announcing return",
+      "speaker": "Greg Brockman",
+      "date": "2024-11-12",
+      "locator": "Full post text via api.fxtwitter.com on 2026-10-07.",
+      "excerpt": "longest vacation of my life complete. back to building @OpenAI.",
+      "context": "Own announcement.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://fortune.com/2025/11/05/openai-greg-brockman-ai-infrastructure-data-center-master-builder/",
+      "title": "Meet the power broker of the AI age: OpenAI’s ‘builder-in-chief’ helping to turn Sam Altman’s trillion-dollar data center dreams into reality",
+      "speaker": "Sharon Goldman (Fortune), quoting Greg Brockman, Lisa Su, Peter Hoeschele, Robert Nishihara, unnamed former OpenAI employees, an OpenAI spokesperson",
+      "date": "2025-11-05",
+      "locator": "Full article (about 4,100 words) opened 2026-10-07 by direct fetch. Paragraphs used: Su quotes; sabbatical and leadership-style paragraph; Nishihara/Mathcamp; \"hacked together the first API\"; Slack notifications; \"like a bear\"; \"heartbeat\"; \"ends-over-means\"; Hagey/\"Brockman memo\" paragraph and OpenAI response; Scaling memo; LTF X post quote; Washington consultant quote.",
+      "excerpt": "“What I love the most about working with Greg is he’s just so clear in his vision that compute is the currency of intelligence, and his just maniacal focus on ensuring there’s enough compute in this world,” Su said. / “I think Greg was like, ‘Failure is not an option,’” she said. / Media outlets reported that he and Altman had agreed to the sabbatical amid ongoing concerns that his demanding leadership style had created tension within teams. / “So when I was assigning people to work with Greg, I chose very carefully—because you weren’t going to be sleeping.” / “He’d go super hard, then go off like a bear and hibernate for a few weeks, and then come back,” the colleague said. / “He’s the heartbeat of OpenAI—the one who sets the pace,” said another former researcher at the company. “He has incredibly high standards and expects results.” / “If something’s not moving fast enough, Greg will take it into his own hands and work around people if necessary,” said another former OpenAI employee. “He’s very much an ends-over-means kind of person.” / In response to Sutskever’s allegations, an OpenAI spokesperson told Fortune: “These claims aren’t true. Ilya signed the petition asking for Greg and Sam to be reinstated, and the board’s independent review further concluded that he and Sam are the right leaders for OpenAI.” / “That means taking a balanced view, which we think of as optimistic realism,” he wrote. / “Greg is not super-independent from Sam—even as he makes his own commitments and puts his money in places that Sam might not,”",
+      "context": "Business profile with named partners (Su, Hoeschele, a direct report, are interested parties) and several anonymous former employees. The friction descriptions are unnamed; the bullying allegation is relayed from Hagey’s book and Sutskever’s memo, with OpenAI’s denial.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.greaterwrong.com/posts/9mp6vBwxitoZcvDmG/ilya-sutskever-deposition-transcript",
+      "title": "Ilya Sutskever Deposition Transcript (Musk v. Altman)",
+      "speaker": "Ilya Sutskever, questioned by Steven Molo and Sarah Eddy; transcript posted by a third party",
+      "date": "2025-10-01 (deposition); posted November 2025",
+      "locator": "Transcript page (about 8,200 words) opened 2026-10-07. Passages: Molo questions on the memo about Brockman (pp. ~130–131); Eddy questions on the Stripe line and \"Dario versus Greg, Ilya\" section (pp. ~300–308); closing colloquy on \"the Brockman memo\".",
+      "excerpt": "ATTORNEY MOLO: Okay. You drafted a similar memo that was acritical of Greg Brockman; correct? WITNESS SUTSKEVER: Yes. ATTORNEY MOLO: You sent that to the board too? WITNESS SUTSKEVER: Yes. / ATTORNEY EDDY: You also write here at the bottom: [As Read] “Interestingly, it is my understanding that Greg has—was essentially fired from Stripe as well.” What was the basis for that allegation? WITNESS SUTSKEVER: Mira told me. ATTORNEY EDDY: Did you seek to verify it with Greg? WITNESS SUTSKEVER: No.",
+      "context": "Sworn testimony transcribed and posted by a third party; the memo’s contents about Brockman are not in the transcript. \"acritical\" is the transcript’s own typo. The Stripe line is unverified hearsay that Sutskever did not check and that Brockman’s own account (S02) and Business Insider (S34) contradict; it must not be presented as fact.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.wired.com/story/openai-president-greg-brockman-political-donations-trump-humanity/",
+      "title": "OpenAI’s President Gave Millions to Trump. He Says It’s for Humanity",
+      "speaker": "Maxwell Zeff (WIRED), interviewing Greg Brockman",
+      "date": "2026-02-12",
+      "locator": "Only headline, dek and first sentence visible through the reader proxy on 2026-10-07; body is paywalled.",
+      "excerpt": "In an interview with WIRED, Greg Brockman says his political donations support OpenAI's mission—even if some employees at the company disagree. / OpenAI’s president and cofounder Greg Brockman doesn’t consider himself political, which is surprising, because he was one of President Trump’s biggest individual donors of 2025.",
+      "context": "The fullest first-person account of his political giving, but the body was not read. Do not quote anything beyond the dek/lede until opened.",
+      "kind": "testimony",
+      "access": "unavailable"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.tovima.com/wsj/the-decadelong-feud-shaping-the-future-of-ai/",
+      "title": "The Decadelong Feud Shaping the Future of AI (WSJ, syndicated by To Vima)",
+      "speaker": "Sam Schechner (The Wall Street Journal)",
+      "date": "2026-03-28",
+      "locator": "Syndicated full text (about 3,100 words) opened 2026-10-07 by direct fetch. Brockman paragraphs: group-house debate (2016); \"Early traumas\" (nocturnal; Universe layoffs spreadsheet; government-sale idea); \"Conflicting promises\" (Dario’s condition; language project); \"Fight after fight\" (podcast credit; Obama slides; 2020 peer reviews); \"The final split\".",
+      "excerpt": "Brockman, who came from the world of Silicon Valley startups, argued that if the technology was indeed going to change everyone’s life as much as they all thought it might, its makers needed to inform all 300 million Americans about what was coming. / staying up late into the night with the famously nocturnal Brockman training AI agents to solve videogames. / Brockman saw within the presentation the seed of a fundraising idea: OpenAI could sell artificial general intelligence to governments. / He met with Dario, and together they agreed that the lab’s employees didn’t have faith in Brockman and Sutskever’s leadership, given the layoffs. / she offered to step down as head of the project rather than allow Brockman on it. / Brockman and Altman reluctantly agreed to keep Brockman off the language project. / Brockman wrote a lengthy piece of feedback for Daniela accusing her of abusing her power to create bureaucratic processes to get her way. He showed it to Altman beforehand, who declared it “tough but fair.” / The fight over the warring feedbacks got so intense that Brockman at one point offered to withdraw his from Daniela’s packet. / He also said he couldn’t work with Brockman.",
+      "context": "Investigative reporting largely from unnamed sources on both sides of the OpenAI–Anthropic rivalry; several scenes come from the Amodeis’ camp, which has an adversarial stake. No on-record Brockman response is given for most episodes.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted",
+      "title": "Sam Altman May Control Our Future—Can He Be Trusted?",
+      "speaker": "Ronan Farrow and Andrew Marantz (The New Yorker), quoting Brockman, Dario Amodei’s notes, Page Hedley, Jack Clark, an OpenAI representative",
+      "date": "2026-04-06 (print issue 2026-04-13)",
+      "locator": "Full text (about 16,700 words) opened 2026-10-07 by direct fetch. Brockman paragraphs (capture numbering): 30 (wedding); 44 (Anna and Sutskever); 85 (\"Honest Thoughts\"); 87 (abrasive operator; handshake pact; \"purely altruistic\"); 88 (diary entries; \"money and power\", disputed); 130 (stake ~$20B per deposition); 144 (LTF $50M commitment; MAGA Inc.); 151–153 (\"countries plan\", Hedley, Clark, OpenAI denial).",
+      "excerpt": "After Musk’s departure, Amodei and other researchers chafed against the leadership of Brockman, whom some considered an abrasive operator / “He unilaterally told us that he’d step down if we ever both asked him to,” he told us. “We objected to this idea, but he said it was important to him. It was purely altruistic.” / That year, after Musk tried to take control, Brockman wrote in a diary entry, “cannot say that we are committed to the non-profit . . . if three months later we’re doing b-corp then it was a lie.” Amodei, in one of his early notes, recalled pressing Brockman on his priorities and Brockman replying that he wanted “money and power.” Brockman disputes this. His diary entries from this time suggest conflicting instincts. One reads, “Happy to not become rich on this, so long as no one else is.” In another, he asks, “So what do I *really* want?” Among his answers is “Financially what will take me to $1B.” / Brockman’s wife, Anna, approached him at the office and pleaded with him to reconsider. “You’re a good person—you can fix this,” she said. / “No matter what I said,” Hedley told us, “Greg kept going back to ‘So how do we raise more money? How do we win?’ ” / (Brockman maintains that he never seriously entertained auctioning A.I. models to governments. ... “Attempting to characterize it as anything more than that is utterly ridiculous.”) / OpenAI’s official stance is that it will not contribute to such super PACs. ... And yet one of the major donors to Leading the Future is Greg Brockman, who has committed fifty million dollars.",
+      "context": "Long investigation into Altman built on internal documents (Amodei’s private notes, diary excerpts produced in litigation) and named testimony. Amodei’s notes are a rival’s contemporaneous record; the \"money and power\" line is his recollection and Brockman disputes it.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.youtube.com/watch?v=6JoUcQ1qmAc",
+      "title": "OpenAI Co-Founder: “I just had to Quit” (The Knowledge Project; fs.blog title \"Greg Brockman: Inside the 72 Hours That Almost Killed OpenAI\")",
+      "speaker": "Greg Brockman, interviewed by Shane Parrish",
+      "date": "2026-04-22",
+      "locator": "Full YouTube auto-caption transcript (1:11:42) downloaded and read end to end on 2026-10-07. Key timestamps: 0:00:00 (Stripe \"not my problem\"); 0:12:03 (credit takes on existential weight); 0:15:43–0:18:36 (firing call; \"It just wasn't right\"; \"Got to quit\"); 0:21:13 (Sutskever relationship); 0:21:58–0:22:30 (\"in the trenches\"; emotional); 0:23:33–0:24:38 (Ilya leaving; sabbatical; Arc Institute; wife's health); 0:25:05–0:28:36 (lessons; uncertainty; sense of self; type-two fun); 0:30:53–0:32:00 (rapid-fire answers); 0:54:06 (iterative deployment); 1:11:16 (success). Auto-captions garble names (\"Neale\" = Ilya; \"Yacob, Shimon\" = Jakub, Szymon; \"You'd been the officiant\" likely \"He'd been\").",
+      "excerpt": "It just wasn't right. >> Was it anger? >> No. I felt like I understood what had happened. / Right after I hung up the call, I talked to my wife and I said, \"Got to quit.\" And she said, \"I agree.\" / I think the way that I operate is I'm very much a in the trenches kind of leader. Try to lead from the front. And sometimes when I do that, I don't always Sorry, I'm getting a little emotional. Um, but I don't always look back to see if everyone's following. Like I just run right in. / one of the hardest moments for me at OpenAI was when Ilya left. And it was maybe the only moment in OpenAI's history where I felt like I didn't want to do it anymore. / I think I've been very much approaching OpenAI through a lens of uncertainty, of feeling like I don't know what the right answer is. / And I think that a lot of what I've tried to do is have a stronger sense of self and a stronger sense of when there is conviction that we need to act on it. / we just waited too long. / I also really care about the environment in which these things are done. And I actually am willing to give up on that, you know, type one fun of just the quick hit ... for something that's more like type two fun of it's painful in the moment, but it's worthwhile. / >> What's a lesson you've had to learn more than once? >> Make the hard decision. Have the hard conversation. / I think people don't understand how focused I am on this mission in a way that I think has been very personally painful at many turns. / I think I was probably the person who articulated those two words. / >> Achieving the open AI mission of ensuring that artificial general intelligence benefits all humanity.",
+      "context": "His longest recent personal interview, recorded during the Musk trial run-up. A friendly format that rewards reflective lessons; quotes are from auto-captions and should be checked against audio for punctuation and names.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.courthousenews.com/openai-president-testifies-in-musk-altman-feud/",
+      "title": "OpenAI president testifies in Musk-Altman feud",
+      "speaker": "Courthouse News Service (byline not captured)",
+      "date": "2026-05-04",
+      "locator": "Full text opened 2026-10-07 via r.jina.ai reader (direct fetch returned 403).",
+      "excerpt": "Brockman admitted that while he initially told other potential OpenAI donors in its early days as a nonprofit — such as Musk, venture capitalist Reid Hoffman and former Yahoo CEO Marissa Mayer — to donate $100,000 personally, he never did. / “Another realization from this is that it’d be wrong to steal the nonprofit from him to convert to a b-corp without him,” Brockman wrote in his journal about Musk. “That’d be pretty morally bankrupt and he’s really not an idiot.” / “I don’t think about it like that,” said Brockman. He said OpenAI’s for-profit entity was “built through blood, sweat and tears,”",
+      "context": "Courtroom reporting of day-one testimony. Its rendering of the November 2017 journal entry differs in punctuation and length from MIT Technology Review’s (S27).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.scrippsnews.com/business/company-news/openai-president-discloses-his-stake-in-the-company-is-worth-30b",
+      "title": "OpenAI president discloses his stake in the company is worth $30B",
+      "speaker": "The Associated Press (via Scripps News)",
+      "date": "2026-05-04",
+      "locator": "Full text opened 2026-10-07 by direct fetch.",
+      "excerpt": "Greg Brockman, OpenAI's president and CEO Sam Altman's top lieutenant, disclosed in court Monday that his stake in the artificial intelligence company is worth nearly $30 billion. / Brockman, who also said he did not personally invest any money in OpenAI",
+      "context": "Wire report independent of S25 and S27.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+      "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
+      "speaker": "Michelle Kim (MIT Technology Review)",
+      "date": "2026-05-08",
+      "locator": "Full article opened 2026-10-07 by direct fetch; Brockman section (\"What was Brockman thinking?\" and preceding testimony paragraphs).",
+      "excerpt": "On the stand, he was serene, even chipper, as he recalled OpenAI’s early days. But he grew agitated under impassioned questioning from Elon Musk’s lawyer, Steven Molo. / “I actually thought he was going to hit me.” / “The one thing we could not accept was to hand him unilateral, absolute control, potentially, over the AGI,” Brockman told the jury. / “Solving for the mission has always been my primary motivation,” Brockman said, pushing back on Molo’s characterization of him. “It remains so today.” / “Financially, what will take me to $1B?” / “it’d be wrong to steal the nonprofit from him. to convert to a b-corp without him. that’d be pretty morally bankrupt.” / Brockman explained, “I meant it would actually serve the mission, but it’d be hard to look at yourself in the mirror.”",
+      "context": "Weekly trial roundup by a reporter in the courtroom. Testimony is adversarial and self-interested (he was a defendant facing claims of greed).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/",
+      "title": "An Interview with OpenAI President Greg Brockman About Astra and Alignment",
+      "speaker": "Greg Brockman, interviewed by Ben Thompson (Stratechery)",
+      "date": "2026-09-04",
+      "locator": "Full interview (about 13,000 words, \"lightly edited for clarity\") opened 2026-10-07 by direct fetch; read end to end. Sections: Background (acting, North Dakota, gingerbread man, textbook, coding, Harvard/MIT); Stripe; OpenAI; ChatGPT and OpenAI Drama; Productivity and AGI; Astra; The AI Value Chain; Cybersecurity (Hugging Face incident).",
+      "excerpt": "I actually thought that I was going to potentially be an actor all the way through ninth grade — I was very into acting and performing as well / I was thinking about, I wanted to double down on something, I felt like I could be best in the world and really try to move the needle in a field / So during that downtime, I was there standing at attention, just being in character. / “Actually, we thought you were amazing. We loved seeing how much you were dedicated to this, so we’re going to actually make a new role for you”. And so I got to be a gingerbread man / it was possible for me to really excel and be the best in the state at different areas that I put my mind to. / It was the most glorious feeling ... I was just like, “This is what I want, I want to help people, I want to benefit people and build for them”. / I was like, “I’m not ready. I have so much to learn. I need to be around people who are so much better than me”. / And by the way, dropping out of school twice is something that I do not wish on anyone’s parents. / First of all, for me, it’s always been about the people. / I think that shift, it’s been something for me that was difficult, because you had to let go of something that I was used to and valued and really loved. But I’ve actually replaced it with something I love even more. / To me, that’s one of the most important lessons of OpenAI, the fact that we’re building technology, but it’s always about the people, in good and bad ways. ... if we don’t have the hard conversation, then that is actually where things can become much rougher. / GB: I hope so. I think there may be a day where that happens, but I will say that I have found so much joy and value in helping the team in the way that I do now. / in some ways I would say we’re into the AGI era now. ... maybe it was the previous model, maybe it’s Astra, maybe it’s the next model",
+      "context": "Recorded before the Astra announcement and published the day after it. Long, mostly friendly format with some adversarial questioning on security; Brockman is promoting a launch, so the business sections are positioning. The childhood material is new and appears nowhere else.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman",
+      "title": "\"Welcome to the AGI era,\" OpenAI says as GPT-6 Astra debuts",
+      "speaker": "Axios (byline not captured)",
+      "date": "2026-09-03",
+      "locator": "Full text opened 2026-10-07 via r.jina.ai reader (direct fetch 403).",
+      "excerpt": "Brockman says he personally believes OpenAI has reached AGI, while leaving users to decide whether Astra meets that definition. / \"I think it might be about this model,\" Brockman said in a briefing with reporters about whether Astra could mark the arrival of AGI. / He ended the briefing by saying: \"Welcome to the AGI era.\"",
+      "context": "Launch-day reporting of a press briefing; Brockman was the launch’s spokesperson, so the line is also marketing.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.forbes.com.au/?p=206622",
+      "title": "The 10 youngest billionaires on the 2026 Forbes 400 list",
+      "speaker": "Forbes (Forbes Australia syndication)",
+      "date": "2026-09-15",
+      "locator": "Full article opened 2026-10-07; intro paragraphs and Brockman entry.",
+      "excerpt": "Cofounder and president Greg Brockman, age 38, is the richest new member of The Forbes 400, joining the ranks after he admitted under oath during a court trial in May—as part of the ChatGPT-maker’s legal battle with Elon Musk—that his stake in OpenAI is worth more than $20 billion. / followed by Brockman, who is worth an estimated $25.5 billion. / Net worths are as of September 4, 2026 / As the company’s president, Brockman oversees the infrastructure behind OpenAI’s models and, since July, its product business as well—making him the company’s second-in-command ahead of a possible IPO.",
+      "context": "Wealth estimate is Forbes’s; changes with valuation. Note the \"more than $20 billion\" sworn figure differs from AP’s \"nearly $30 billion\" (S26); both are reported.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://gizmodo.com/openai-president-reportedly-pulls-support-from-controversial-ai-super-pac-2000820292",
+      "title": "OpenAI President Reportedly Pulls Support From Controversial AI Super PAC",
+      "speaker": "Ece Yildirim (Gizmodo), relaying a New York Times report",
+      "date": "2026-10-01",
+      "locator": "Full article opened 2026-10-07 by direct fetch; paragraphs 4–11.",
+      "excerpt": "Brockman and his wife initially promised to donate a total of $50 million, according to the super PAC. / In June, the AI giant released a statement saying that Brockman’s engagement with Leading the Future has solely “been in a personal capacity, not on behalf of the company.” / “I also want to say that I feel terrible about the fact that LTF keeps reflecting on the company and become so much of a distraction for people here,” Brockman reportedly wrote in a Slack message back in June. “I’ve been thinking hard about how to turn the ship on it. We’ve donated $25m so far, and have no plans to donate more at this time.”",
+      "context": "Secondhand: the Slack quote originates with The New York Times (not opened, paywalled). Attribute as \"according to The New York Times\".",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S32",
+      "url": "https://en.wikipedia.org/wiki/Artificial_(2026_film)",
+      "title": "Artificial (2026 film) (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "unknown (revision fetched 2026-10-07)",
+      "locator": "Raw wikitext fetched 2026-10-07: lead, cast, release, reception.",
+      "excerpt": "The film had its world premiere at the 2026 New York Film Festival on October 5, and is expected to be theatrically released in the United States by Neon on December 25. / Cooper Hoffman as Greg Brockman, the board chairman of OpenAI",
+      "context": "Reference for the search catalyst only; trade sources sit behind Tollbit.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S34",
+      "url": "https://www.businessinsider.com/stripes-cto-greg-brockman-is-leaving-the-company-2015-5",
+      "title": "Stripe's CTO Greg Brockman Is Leaving the Company",
+      "speaker": "Biz Carson (Business Insider)",
+      "date": "2015-05-06",
+      "locator": "Full article opened 2026-10-07 by direct fetch.",
+      "excerpt": "Stripe's fourth employee, CTO Greg Brockman, announced today that he will be leaving the payments processor Friday. / While at Stripe, Brockman officially took on the role of CTO in early 2013, but it took him about a year and a half to define what that role was.",
+      "context": "Same-day news item; largely relays S02, so not fully independent on motive, but independent on title/timing.",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Greg Brockman was born in 1987 and grew up in Thompson, North Dakota, the son of two physicians, Drs. Ron Brockman and Ellen Feldman of Altru Health System. Forbes listed him as 38 in September 2026.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S08",
+        "S09",
+        "S30"
+      ],
+      "inference": "Stable biographical frame. Use the birth year; the full date (November 29) appears only in Wikipedia’s uncited infobox.",
+      "alternative": "Parents’ professions are from a 2007 local item and may have changed; describe them as of 2007 or omit.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "He grew up on what he insists is a \"hobby farm,\" not a farm, describing a \"focused, quiet childhood\" in which he milked cows, gathered eggs and fell in love with math studying on his own; OpenAI asked MIT Technology Review to correct the wording, and Hao noted that \"Brockman considers this distinction important.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S10",
+        "S19"
+      ],
+      "inference": "The correction request is a small, verified instance of attention to precise self-presentation.",
+      "alternative": "It may simply be accuracy (his parents were physicians, not farmers). Do not overread one correction; use it as a texture detail, not proof.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "As a teenager he completed every math course at Red River High School, took classes at the University of North Dakota, won a silver medal at the 2006 International Chemistry Olympiad, attended Canada/USA Mathcamp, and in 2007 became the first North Dakota finalist in the Intel Science Talent Search since 1973.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S08",
+        "S09",
+        "S19",
+        "S28"
+      ],
+      "inference": "Early, repeated competitive excellence across fields.",
+      "alternative": "Achievement alone is common to gifted teenagers of every type; it is not evidence of a Type 3 motive by itself.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "Brockman says he planned to be an actor through ninth grade, had been the male lead in a play or two, and chose hard sciences over the arts because he wanted to \"double down on something\" where \"I felt like I could be best in the world and really try to move the needle,\" judging it the area \"where I could most make a difference.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "He frames his formative life choice in terms of where he could be best and have the most impact, and he has a performer’s history. Supports an achievement/image reading of how he chose a path.",
+      "alternative": "A 2026 retrospective told on a podcast; \"make a difference\" also fits a mission-driven 1 or a 2. He also says he loved acting for \"the group aspect of it.\"",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "His first paid job, at about 14, came from standing at attention \"in character\" while older applicants chatted during an extras audition for a Mannheim Steamroller concert; he was not picked, but the organizers said they loved \"how much you were dedicated\" and created a gingerbread-man role for him. He draws the lesson of \"not always defaulting into the role, but trying to find creative ways to get it.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "An early story of visible dedication that gets noticed and rewarded with a role made for him; he tells it as formative.",
+      "alternative": "Possibly polished in retelling and chosen for an entertaining interview; one anecdote, unverified by others.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "He says North Dakota let him \"really excel and be the best in the state at different areas that I put my mind to,\" chart his own course and \"march to my own tune,\" where a high-powered school would have kept him on the standard track.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "Self-understanding organized around standing out and being best.",
+      "alternative": "Also reads as a plain account of a gifted kid in a small state; no motive is proven.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "After high school he took a gap year to write a chemistry textbook; told he could not publish without a PhD, he learned to code to put it online, and he describes his first game reaching 1,500 users in a day as \"the most glorious feeling\" and \"This is what I want, I want to help people, I want to benefit people and build for them.\" He told Lex Fridman in 2019 that \"a lot of what really motivates me is is building things\" and prized the leverage by which \"a single individual with an idea is able to affect the entire planet.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S28",
+        "S11",
+        "S02"
+      ],
+      "inference": "Building is tied, from the start, to others using and registering the work (users, hits, reach). Consistent across 2015, 2019 and 2026 tellings.",
+      "alternative": "Equally consistent with a service motive (Type 2) or simple builder satisfaction; the \"help people\" language is genuine-sounding and recurrent.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "He left Harvard for MIT because, running the computer club as a sophomore, he felt \"I’m not ready. I have so much to learn. I need to be around people who are so much better than me\"; in 2016 he wrote he was \"trying to constantly surround myself by people who I could learn from and build something useful with.\" He then left MIT in 2010 to join Stripe, and says dropping out twice \"is something that I do not wish on anyone’s parents.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S28",
+        "S03",
+        "S09"
+      ],
+      "inference": "Repeated moves toward stronger peers and away from a role (club leader) where he felt he could not yet perform at the level the role implied.",
+      "alternative": "Could reflect a learning drive (Type 5) or a desire for belonging among the best (Type 6/2). The parents line shows the choice had a cost.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "At Stripe he built systems in sprints \"working from wake until sleep\" and wrote in 2017: \"These are the times I feel most alive\"; he cites the credit-card vault built in his two weeks home for the 2010 holidays, an authorization flow in three weeks instead of 6–12 months, a 24-hour sprint to get onto the card networks, and a rule of \"soft\" and \"hard\" launch dates (\"I’ve never hit a soft launch date, but have never missed a hard one\").",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S28",
+        "S19"
+      ],
+      "inference": "Aliveness located in high-output delivery against deadlines; speed and shipping over process.",
+      "alternative": "Startup norms reward exactly this; many engineers of different types describe flow this way. Fortune independently reports he often coded through the night.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "By 2013–14, stacking every engineer’s 1:1 on Tuesdays left him \"completely burned out by the end of the day\"; his first-ever vacation came only after hiring a VP Engineering, and he chose to return to coding on the principle that \"it’s not about time management, it’s about energy management,\" ending: \"I’m too busy coding.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "He chooses the activity where he is most effective and energized over the people-management role; the \"first ever\" vacation at about 26 fits a pattern repeated in 2024.",
+      "alternative": "Energy conservation and meeting fatigue (\"a single meeting will kill productivity,\" S04) are also classic Type 5 markers. Introversion, not type, may explain them.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "In 2014 he admitted \"having trouble distinguishing “not the way I’d do it” from “bad”\" when a new executive ran things differently, and called \"sparse micromanagement\"—\"jumping in to some random issue, overturning all the decisions, and then disappearing\"—\"the worst.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Candid self-criticism about judging others’ methods; the principle is notable because later colleagues describe him jumping into others’ projects and working around people (C33, C31).",
+      "alternative": "The judging habit is a Type 1 marker (the strongest alternative). The irony with later reports is interpretation; the later reports are anonymous and contested.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "Across twelve years he describes caring about shaping the environment around the work: in 2014, \"I had a very strong vision of the environment I wanted to be a part of, and I was willing to go out of my way to make it exist\"; in 2026 he says he will trade \"type one fun\" for \"type two fun\" to build an environment where others do great work, and that his career has been about \"really helping to build and shape environments and culture.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S24",
+        "S28"
+      ],
+      "inference": "Stable self-concept as culture builder; complicates a pure individual-achiever reading.",
+      "alternative": "Supports a 3w2 shading or a 2/6 alternative; also standard founder self-description.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "He left Stripe in May 2015, as its CTO and fourth employee, having \"successfully removed myself as a critical lynchpin,\" because he was \"yearning to create something of my own,\" had \"topped out the S-curve\" of learning, and feared he would \"always wonder what could have been.\" In 2016 he added that developer infrastructure \"wasn’t the problem that I wanted to work on for the rest of my life,\" and in 2026 that Stripe’s problem \"was not my problem.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S24",
+        "S34"
+      ],
+      "inference": "A costly exit from a secure, prestigious role toward something \"of my own\" and bigger. Fits an achievement/significance drive; argues against a Type 2 need to be needed (he celebrated being unneeded).",
+      "alternative": "Also fits Type 7 (topped-out novelty) or simple ambition. The 2026 \"not my problem\" framing is retrospective.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "After a July 2015 dinner, he \"volunteered myself as tribute\" to go full time on the unformed lab, recruited the founding team, hosted the first office in his apartment, fetched the whiteboard the researchers lacked, and \"resolved to do whatever was needed to remove all non-research tasks from Ilya’s plate.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S04",
+        "S24",
+        "S14"
+      ],
+      "inference": "Willingness to take any role in service of the project; shows role flexibility toward a goal.",
+      "alternative": "Self-effacing service also fits Type 2 or 9. The same posts present him as the indispensable organizer, so humility and centrality coexist.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "In January 2017 he wrote that he found his role \"not by seeking it — instead, I sought out a problem more important to me than my role within it,\" and that although coding is \"the activity I love most in the world... people remain my focus.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "His stated hierarchy: mission over role, people over code.",
+      "alternative": "Public self-presentation written as a recruiting post; it can be read as a 9-like self-forgetting or a 3’s identification with the goal.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "He repeatedly describes others’ response to his work as what makes it matter: \"the deep satisfaction of having others actually use my creations\" (2015); \"something extremely validating about your work allowing researchers to ask questions\" (2017); \"the team’s excitement every time I overcame a new obstacle was deeply validating\" (2019); \"the most glorious feeling\" when 1,500 people played his game (2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S04",
+        "S06",
+        "S28"
+      ],
+      "inference": "A recurring, spontaneous vocabulary of validation tied to accomplishment registered by others: a core Type 3 marker when combined with C17.",
+      "alternative": "A Type 2 would also prize others’ appreciation; a healthy builder of any type enjoys users. Weight comes from the recurrence across 11 years, not any single line.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "His own account of learning machine learning: for three years he \"procrastinat[ed]\" while his software skills were in demand; on Dota, when colleagues treated his work as impressive, \"I always made sure to correct them by pointing out that I was a newbie\"; when a colleague got better results without his code, \"I had nothing to show for my efforts. I never tried machine learning on the Dota project again.\" He returned in private holiday self-study in late 2018, sustained by a new relationship with \"someone who made me feel it was ok if I failed,\" and concluded he had been \"unwilling to become a beginner again.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "The clearest discriminating evidence: a sustained block organized around visible competence (\"nothing to show,\" managing others’ estimate of him) and resolved only where failure was safe and unobserved. This is the Type 3 fear of failing in view, more than a Type 1 fear of doing it wrong or a Type 5 retreat to master knowledge for its own sake (he says \"I learn best when I have something specific in mind to build\").",
+      "alternative": "Type 5 (fear of incompetence) and Type 6 (needing safety to risk) both partly explain it. The essay is also shaped as an inspirational lesson for recruits.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "In 2022 he named the key trait for engineers moving into ML as \"a specific flavor of technical humility\": being \"happy to be wrong\" and not \"afraid not to know something.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "The lesson he drew from his own block (C17), suggesting the image cost of not-knowing was real to him.",
+      "alternative": "Generic advice; weak alone.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "He has described the mission in consistent terms for a decade: 2019, \"making AGI go well is the most important problem I can imagine contributing towards\"; 2019 to Lex Fridman, building it means \"you stop thinking about yourself so much\"; April 2026, \"people don’t understand how focused I am on this mission in a way that I think has been very personally painful at many turns,\" and success is \"Achieving the open AI mission\"; May 2026 under oath, \"Solving for the mission has always been my primary motivation... It remains so today.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S11",
+        "S24",
+        "S27"
+      ],
+      "inference": "Total identification with the mission. For the Type 3 reading, the mission is the goal his worth is fused with; for Type 1, it is a moral cause.",
+      "alternative": "Strong incentives: recruiting, PR and, at trial, a legal defense against greed claims. Consistency over time is real, but self-report cannot establish motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "Karen Hao, embedded at OpenAI in 2019, found him \"nervous and guarded\" (\"We’ve never given someone so much access before\"); he \"recites the charter like scripture,\" then volunteered that he knew the lines because he had pored over them \"to get them exactly right. It’s not like I was reading this before the meeting.\" He drew heavily on heroic stories (the moon-shot janitor, the transcontinental railroad, Edison).",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "Close attention to how he comes across (pre-empting the impression of reading a script) alongside exacting precision about the mission text.",
+      "alternative": "The precision and scripture-like devotion are the strongest single support for the Type 1 alternative; nervousness with a reporter is situational.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "He married Anna in November 2019 at OpenAI’s offices on a workday, after about a year of dating; Ilya Sutskever officiated and a robotic hand served as ring bearer.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S10",
+        "S23",
+        "S09"
+      ],
+      "inference": "Work and personal life fused; a vivid detail of identification with the company.",
+      "alternative": "A deliberate, joyful choice, possibly Anna’s too; do not psychologize beyond the facts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "Brockman’s private 2017 diary, produced in the Musk litigation, includes \"Happy to not become rich on this, so long as no one else is\"; the question \"So what do I *really* want?\" with an answer including \"Financially what will take me to $1B\"; \"cannot say that we are committed to the non-profit . . . if three months later we’re doing b-corp then it was a lie\"; and, in November 2017, that converting to a b-corp without Musk would be \"pretty morally bankrupt.\"",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S23",
+        "S27",
+        "S25"
+      ],
+      "inference": "Contemporaneous private evidence of conflicting instincts: wealth as a personal target, fairness/relative-wealth language, and a moral and reputational check on how the for-profit move would look.",
+      "alternative": "Outlets render the wording differently (\"Financially, what will take me to $1B?\" in S27; a longer November entry with \"he’s really not an idiot\" in S25). Quote one outlet’s version with attribution. Musk’s lawyers chose the excerpts; Brockman says the writings were for himself.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "Testifying on May 4–5, 2026, Brockman was \"serene, even chipper\" recalling early days but \"grew agitated\" under cross-examination; he said \"Solving for the mission has always been my primary motivation,\" explained the diary line as \"I meant it would actually serve the mission, but it’d be hard to look at yourself in the mirror,\" and, asked why he had not donated his roughly $29 billion stake, said \"I don’t think about it like that,\" calling the for-profit \"built through blood, sweat and tears.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S27",
+        "S25"
+      ],
+      "inference": "His own gloss locates the 2017 obstacle in how the act would reflect on him (\"look at yourself in the mirror\") while conceding it would have served the goal. That fits an image-and-effectiveness frame better than a pure rule frame.",
+      "alternative": "A Type 1 also uses \"mirror\" language for conscience. Trial testimony is adversarial and lawyered.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "He disclosed in court that his OpenAI stake is worth nearly $30 billion though he invested no money, and conceded that a $100,000 personal donation he had discussed with early nonprofit donors such as Musk, Reid Hoffman and Marissa Mayer was never made; Forbes named him the richest newcomer on the 2026 Forbes 400, at an estimated $25.5 billion as of September 4, 2026.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S26",
+        "S25",
+        "S30"
+      ],
+      "inference": "Establishes the scale of the wealth question in C22 and C41.",
+      "alternative": "Courthouse News’s wording on the $100,000 is ambiguous about whether it was a pledge; one secondary summary calls it an unpaid pledge (not used). Figures differ (Forbes says he swore to \"more than $20 billion\"); valuations move. Date any figure.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check net worth and stake value at any OpenAI IPO filing, tender offer or the next Forbes/Bloomberg update; always print the as-of date."
+    },
+    {
+      "id": "C25",
+      "claim": "In September 2017 Sutskever sent Musk and Altman an email signed \"Greg & Ilya\" admitting they had withheld concerns because \"we were afraid of harming the relationship, having you think less of us, or losing you as partners,\" that they were \"much worse at being a counterbalance\" to Musk than Altman, that they had \"allowed the idea of financial return 2-3 years down the line to drive our decisions,\" and \"did not speak our full truth.\" Two days later they told Zilis they would continue as a nonprofit.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S12",
+        "S23"
+      ],
+      "inference": "Jointly authored evidence of reluctance to confront a powerful partner and concern with how they were seen, then a costly confession.",
+      "alternative": "Cannot be assigned to Brockman alone. The fear of \"harming the relationship\" fits Types 9/6/2 as well as 3. Use cautiously and attribute to both.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "His own early emails to Musk show deference and ambition together: in November 2015 he did not want to \"pull any punches\" and hoped to \"shift the dialog towards being about humanity winning rather than any particular group or company\"; in February 2016, \"I don't yet feel comfortable making decisions here on my own, and would love any guidance,\" answering Musk’s \"whatever it takes\" with \"Read you loud and clear. Sounds like a plan.\"",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "A capable operator seeking the principal’s approval on high-stakes calls early in a new role.",
+      "alternative": "Guidance-seeking is a Type 6 marker; it is also ordinary for a 28-year-old running a donor-funded lab. Weak alone.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "He testified that in August 2017 Musk demanded majority equity, board control and the CEO title, that when Brockman and Sutskever proposed equal shares Musk said \"I decline\" and \"stormed around the table\"—\"I actually thought he was going to hit me\"—and that \"The one thing we could not accept was to hand him unilateral, absolute control, potentially, over the AGI.\" His July 2017 email had laid out a path from nonprofit to \"AI research + hardware for-profit (starting 2018).\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S27",
+        "S12"
+      ],
+      "inference": "He backed a for-profit path early while resisting one person’s control; useful context for C22.",
+      "alternative": "Adversarial testimony in his own defense; Musk disputes the account. Not personality evidence on its own.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "Several accounts say Brockman floated raising money by selling AGI access to governments around 2017–18: policy adviser Page Hedley recalls \"Greg kept going back to ‘So how do we raise more money? How do we win?’\", Jack Clark described a \"prisoner’s dilemma\" for nations, and the WSJ reports he named the UN Security Council’s nuclear powers. Brockman maintains he \"never seriously entertained\" auctioning models; an OpenAI representative called the characterization \"utterly ridiculous.\"",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S23",
+        "S22"
+      ],
+      "inference": "If accurate, a strong ends-over-means and winning orientation in fundraising, consistent with C33.",
+      "alternative": "Contested, from people in the rival Amodei camp and a policy adviser; Brockman denies it. It cannot carry the type argument. Present both sides.",
+      "durability": "unresolved",
+      "review_trigger": "Update if Brockman, Hedley or Clark give new on-record accounts or if court exhibits on the \"countries plan\" become public."
+    },
+    {
+      "id": "C29",
+      "claim": "Dario Amodei’s private notes record that, pressed on his priorities, Brockman said he wanted \"money and power\"; Brockman disputes this.",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "If true, a candid wealth-and-status motive consistent with the $1B diary line.",
+      "alternative": "A rival’s private recollection, released without Brockman’s context; he denies it. Sensitive. Do not present as fact; it should not be load-bearing.",
+      "durability": "unresolved",
+      "review_trigger": "Update only if a second contemporaneous source or Brockman’s own account surfaces."
+    },
+    {
+      "id": "C30",
+      "claim": "After Musk left in 2018, according to the WSJ, employees lacked faith in Brockman and Sutskever’s leadership after layoffs; Dario Amodei stayed on condition that they not be in charge, and the New Yorker reports that \"some considered\" Brockman \"an abrasive operator\" and that Altman assured researchers his managerial authority would be diminished.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S22",
+        "S23"
+      ],
+      "inference": "Independent outlets converge on friction over his management by 2018.",
+      "alternative": "Sources are largely unnamed and include the Amodeis’ allies. The layoffs were requested by Musk (S22). Present as reported friction, not a finding.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "The WSJ reports that in 2018–19 Brockman sought a role on the language-model project; Daniela Amodei, its co-lead, offered to step down rather than allow it, Alec Radford reportedly did not want to work with him, and \"Brockman and Altman reluctantly agreed to keep Brockman off the language project.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "He pushed to be where the frontier work was and appealed over a peer’s head; others resisted his involvement.",
+      "alternative": "Unnamed sourcing; Radford reportedly felt used in a proxy war. Brockman’s side is not given.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "In March 2020, asked by Altman to write peer reviews, Brockman wrote \"a lengthy piece of feedback\" accusing Daniela Amodei of \"abusing her power to create bureaucratic processes to get her way\"; Altman called it \"tough but fair,\" she rebutted it point by point, and Brockman at one point offered to withdraw it.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "He attacked process as an obstacle (anti-bureaucracy), engaged conflict directly, then offered to retract when it escalated. Useful for the 1-versus-3 discriminator: he opposed procedure rather than defending it.",
+      "alternative": "The fairness charge (\"abusing her power\") is also Type 1 moral language. Unnamed sourcing; Daniela disputes his critique.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "Colleagues describe extreme pace and impatience: he once set Slack to notify him of every message company-wide; a former engineer chose carefully whom to assign to him \"because you weren’t going to be sleeping\"; \"He’d go super hard, then go off like a bear and hibernate for a few weeks\"; \"He has incredibly high standards and expects results\"; \"If something’s not moving fast enough, Greg will take it into his own hands and work around people if necessary... He’s very much an ends-over-means kind of person.\" AMD CEO Lisa Su praised his \"maniacal focus\" and recalled his stance as \"Failure is not an option.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S19"
+      ],
+      "inference": "Third-party convergence on results-first intensity and boom-bust work cycles. \"Ends-over-means\" directly discriminates against Type 1.",
+      "alternative": "Most quotes are anonymous; Su is a deal partner. Hard-driving pace also fits Types 8 and 7. Use as reported description with attribution.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "Before the November 2023 ouster, Sutskever sent the board a memo critical of Brockman, as he confirmed under oath in October 2025; Fortune, citing Keach Hagey’s book, reports it concerned \"alleged bullying.\" OpenAI says \"These claims aren’t true,\" noting Sutskever signed the petition for Brockman’s return. In the same deposition Sutskever said his note that Brockman was \"essentially fired from Stripe\" came only from Mira Murati and that he never verified it.",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S20",
+        "S19",
+        "S09",
+        "S02",
+        "S34"
+      ],
+      "inference": "Documents that serious internal complaints existed; their content is not public.",
+      "alternative": "Sensitive and unproven. The memo’s text is not public; the Hagey/Murati details (S09) come from an unopened book. The Stripe-firing hearsay is contradicted by his own account and contemporaneous reporting and should not appear except, if at all, as an unverified claim Sutskever admitted he never checked.",
+      "durability": "unresolved",
+      "review_trigger": "Update if the Brockman memo is released, Hagey’s or Hao’s book passages are opened, or Murati/Sutskever speak on record."
+    },
+    {
+      "id": "C35",
+      "claim": "On November 17, 2023, Sutskever told him on a Google Meet that he was removed from the board but \"vital to the company\" and would keep his role; within hours he posted the note he sent staff: \"but based on today’s news, i quit... i continue to believe in the mission of creating safe AGI that benefits all of humanity.\" He recalls thinking \"It just wasn't right\"; asked if it was anger, \"No. I felt like I understood what had happened\"; he told his wife \"Got to quit,\" and she said \"I agree.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S14",
+        "S15",
+        "S24"
+      ],
+      "inference": "His most consequential costly choice: giving up position and equity security in hours, in solidarity with Altman. Loyalty and a moral verdict (\"wasn’t right\"), with anger denied.",
+      "alternative": "Denying anger while judging something \"not right\" is a classic Type 1 pattern (also 9). Loyalty to the winning partner also fits pragmatic 3; he estimated a 10% chance of getting the company back and began planning a new company with Altman the same day.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C36",
+      "claim": "Asked in 2026 about the loyalty he inspired in November 2023, he became emotional: \"I'm very much a in the trenches kind of leader. Try to lead from the front. And sometimes when I do that, I don't always Sorry, I'm getting a little emotional. Um, but I don't always look back to see if everyone's following. Like I just run right in.\" He said no one accepted a competing offer that weekend.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Self-image as the leader who charges ahead; strong feeling at being followed and validated by his people.",
+      "alternative": "Lead-from-the-front language fits Type 8; the emotion about loyalty fits 2 and 6. A live audio moment, but in a friendly, edited interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C37",
+      "claim": "He returned with Altman on November 21–22, 2023; after the WilmerHale review the board said on March 8, 2024 that it had \"full confidence\" in both men.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S16",
+        "S09"
+      ],
+      "inference": "Outcome of the crisis; official vindication.",
+      "alternative": "The review was not published; the statement is the company’s.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C38",
+      "claim": "He calls Sutskever’s departure \"maybe the only moment in OpenAI's history where I felt like I didn't want to do it anymore.\" In August 2024 he announced a sabbatical—\"First time to relax since co-founding OpenAI 9 years ago\"—during which he trained DNA language models for the Arc Institute, a field meaningful to him and his wife, who \"has a lot of health conditions\"; he returned in November: \"longest vacation of my life complete. back to building.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S24",
+        "S17",
+        "S18"
+      ],
+      "inference": "Nine years without a break, a collapse of motivation when a key partner left, then rest that was itself more building. Matches the \"bear\" cycle in C33.",
+      "alternative": "Fortune reports outlets tied the sabbatical to concerns about his leadership style; OpenAI says it was his decision (S19). Both may be true.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "He frames his recent growth as overcoming indecision and conflict-avoidance: he has approached OpenAI \"through a lens of uncertainty,\" trying to reconcile everyone’s strong opinions; he has worked to \"have a stronger sense of self\"; his regrets are when \"we just waited too long\"; and his lesson learned more than once is \"Make the hard decision. Have the hard conversation.\" He told Stratechery that 2023 showed \"interpersonal tensions... that we had not sufficiently gotten ahead of.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S24",
+        "S28"
+      ],
+      "inference": "The strongest material for a Type 9 (or 6) reading: merging opinions, weak sense of self, avoided hard conversations.",
+      "alternative": "Leadership-lesson clichés suited to the podcast format and post-2023 narrative; they sit oddly with third-party accounts of him writing a harsh critique and working around people (C32, C33).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "After returning he led a new Scaling group and OpenAI’s infrastructure build-out, including Stargate and chip deals; a direct report calls him \"some of the secret sauce\" behind the deals, and Forbes says that since July 2026 he also oversees OpenAI’s product business, making him second-in-command. A Washington consultant told Fortune he \"is not super-independent from Sam.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S19",
+        "S30"
+      ],
+      "inference": "Executor of Altman’s vision with growing scope.",
+      "alternative": "Titles and scope change; the \"not independent\" view is a single anonymous outsider.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check title, reporting line and scope at drafting and on any OpenAI leadership announcement or IPO filing."
+    },
+    {
+      "id": "C41",
+      "claim": "He and his wife gave $25 million to the pro-Trump super PAC MAGA Inc. in 2025 and pledged $50 million to Leading the Future, a pro-AI super PAC he helped launch, while OpenAI’s official stance is that the company will not contribute to such PACs; OpenAI said his involvement was \"in a personal capacity.\" In June 2026, according to The New York Times, he told colleagues on Slack \"I feel terrible about the fact that LTF keeps reflecting on the company and become so much of a distraction for people here,\" that they had given $25 million and had \"no plans to donate more at this time.\"",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S23",
+        "S31",
+        "S19",
+        "S09"
+      ],
+      "inference": "A bold, costly public bet followed by a reversal justified by the reputational cost to the company and colleagues, not by calling the giving wrong. Fits the effectiveness/image frame of the discriminator.",
+      "alternative": "Inner motive for the donations is unknown; WIRED’s interview (S21, unopened) gives his own rationale. The New Yorker’s \"this year\" wording on the MAGA gift conflicts with 2025 dating elsewhere; date it as reported in 2025. Political material is sensitive; keep it factual.",
+      "durability": "unresolved",
+      "review_trigger": "Re-check after the Nov. 3, 2026 midterms and any FEC filings or new statements from Brockman about either PAC; open the NYT report and the WIRED interview before quoting."
+    },
+    {
+      "id": "C42",
+      "claim": "In 2016 he wrote that Altman’s answer \"To build safe human-level AI\" convinced him because \"sometimes an effort needs only someone bold enough to pronounce a goal, and then the right people will join them.\" Ten years later he closed the GPT-6 Astra briefing on September 3, 2026 with \"Welcome to the AGI era,\" saying of AGI \"I think it might be about this model\"; in his pre-launch Stratechery interview he hedged: \"maybe it was the previous model, maybe it’s Astra, maybe it’s the next model.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S29",
+        "S28"
+      ],
+      "inference": "A durable belief in the power of bold public pronouncement, which he now enacts as OpenAI’s launch spokesman.",
+      "alternative": "Launch-day statements are marketing; the claim is contested by critics. Keep the dated quotes; avoid treating the AGI claim as settled.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update if OpenAI or Brockman formally declares or retracts an AGI determination, or if the Astra claim is materially revised."
+    },
+    {
+      "id": "C43",
+      "claim": "In early 2016 he argued at the Amodei group house that AI’s makers needed to inform \"all 300 million Americans about what was coming,\" while Dario Amodei and Holden Karnofsky favored telling the government first; he says he was probably the one who named OpenAI’s \"iterative deployment\" approach.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S22",
+        "S24"
+      ],
+      "inference": "Long-standing preference for public release and broadcast over quiet caution.",
+      "alternative": "The WSJ notes this is Brockman’s takeaway from the exchange; also a business-strategy disagreement, not just temperament.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "He says that at OpenAI, \"the question of who gets credit for a particular thing... suddenly takes on this existential weight,\" and agrees that wanting to be \"front and center\" is \"the overwhelming dynamic that I have observed in this field\"; the WSJ reports Dario Amodei resented Brockman discussing the charter on a podcast and being left out of an Obama meeting Brockman attended with Altman.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S24",
+        "S22"
+      ],
+      "inference": "Credit and visibility were live issues around him; he names them in others.",
+      "alternative": "He attributes the dynamic to the field, not himself; the WSJ episodes reflect Amodei’s grievances, not Brockman’s motives.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "He says moving from hands-on coding to leading \"has been something for me that was difficult, because you had to let go of something that I was used to and valued and really loved. But I’ve actually replaced it with something I love even more,\" and, asked if he will ever have a 24-hour coding session again: \"I hope so... but I will say that I have found so much joy and value in helping the team in the way that I do now.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "Shift of identity from maker to leader; joy relocated to the team’s output.",
+      "alternative": "Also consistent with Type 2 shading; it is a 2026 reflection during a launch promotion.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "He repeatedly says the work is about people: \"I cared most about working with great people to make something amazing happen\" (2016); \"for me, it’s always been about the people\" and \"it’s always about the people, in good and bad ways\" (2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S28"
+      ],
+      "inference": "Relational emphasis that a pure achiever reading must account for (wing or alternative).",
+      "alternative": "Common founder rhetoric; supports 2/6/9 alternatives or a 3w2.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "Under Ben Thompson’s pressing about OpenAI’s security lapse before the July 2026 Hugging Face breach, he conceded \"there’s time that defenders lost\" while reframing that \"time is not all made equally\" and that acting earlier would have produced \"much less progress.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S28",
+        "S29"
+      ],
+      "inference": "Defends the team’s record while partly conceding: image-of-competence management under critique.",
+      "alternative": "Ordinary corporate communications posture; executives of any type do this. Low weight.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update if investigations or OpenAI disclosures change the Hugging Face incident account."
+    },
+    {
+      "id": "C48",
+      "claim": "Guadagnino’s film Artificial, in which Cooper Hoffman plays Brockman (listed as OpenAI’s board chairman), premiered at the New York Film Festival on October 5, 2026, with a U.S. release by Neon set for December 25, 2026.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S32"
+      ],
+      "inference": "Explains current search interest; not personality evidence.",
+      "alternative": "Release plans can change; the film is a dramatization, not a source.",
+      "durability": "time_sensitive",
+      "review_trigger": "Re-check after the Dec. 25, 2026 release for reviews of the Brockman portrayal and any Brockman or OpenAI response."
+    },
+    {
+      "id": "C49",
+      "claim": "In January 2018 he told Musk that \"Ilya and I are able to convince reputable people that AGI can really happen in the next ≤10 years\" and proposed building custom AI hardware and a \"Massive AI data center\" within three years, the compute thesis he later executed through Stargate.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S12",
+        "S19"
+      ],
+      "inference": "Long-horizon consistency of his strategic bet on compute; context for \"builder-in-chief.\"",
+      "alternative": "Business strategy, not motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "In his 2016 account of the founding dinner he says he admired Musk as inquisitive and someone who \"sought others opinions and really listened,\" and that Sutskever was \"a source of grounding.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Minor; shows admiration for partners he would later testify against (Musk).",
+      "alternative": "Diplomatic writing about a then-funder.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "Interpretation for the thesis: across 2014–2026 his costliest choices cluster around staying at the point of visible, high-output building and around how his competence and commitment register with others—choosing the field where he could be \"best in the world,\" leaving roles once he was no longer the engine, abandoning ML when he had \"nothing to show,\" working nine years without rest then crashing, and reversing a public political bet when it cost the company’s standing.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S28",
+        "S02",
+        "S06",
+        "S17",
+        "S19",
+        "S31"
+      ],
+      "inference": "This is the Type 3 argument in compressed form; each link must be shown with the dated evidence above.",
+      "alternative": "A Type 1 reading reorganizes the same choices around doing the right thing well (see type_hypothesis.alternative_case). Mission identification and startup incentives explain some of the intensity regardless of type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C52",
+      "claim": "Interpretation for the alternative: his moral vocabulary recurs—\"pretty morally bankrupt\" (2017 diary), \"It just wasn't right\" with anger denied (2023), the charter learned \"exactly right\" and recited \"like scripture\" (2019), his self-confessed habit of treating \"not the way I’d do it\" as \"bad\" (2014), and \"encounter the hard truth\" (2026)—which is the strongest case for Type 1.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S27",
+        "S24",
+        "S10",
+        "S01"
+      ],
+      "inference": "Must be presented near the main type argument as the strongest alternative.",
+      "alternative": "Each item has a non-1 reading: the mirror gloss (C23) frames morality as self-image; ends-over-means and anti-bureaucracy (C32, C33) cut against 1.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 3,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C09",
+      "C10",
+      "C13",
+      "C16",
+      "C17",
+      "C18",
+      "C20",
+      "C23",
+      "C32",
+      "C33",
+      "C38",
+      "C41",
+      "C42",
+      "C51"
+    ],
+    "against": "Real evidence resists Type 3. (1) Moral vocabulary recurs across a decade: \"pretty morally bankrupt\" in the 2017 diary (C22), \"It just wasn't right\" with anger explicitly denied on the day he quit (C35), learning the charter \"exactly right\" and reciting it \"like scripture\" (C20), his 2014 admission that he treats \"not the way I’d do it\" as \"bad\" (C11), the \"abusing her power\" charge in his 2020 peer review (C32), and \"incredibly high standards\" (C33). That is the Type 1 case (C52). (2) He repeatedly steps out of status roles: choosing to code rather than manage at Stripe (C10), celebrating that he was no longer a \"lynchpin\" (C13), fetching whiteboards and taking non-research work off Sutskever’s plate (C14), and saying people, not his role, are his focus (C15, C46). A classic image-driven 3 would be expected to hold the visible executive seat. (3) His 2026 self-account stresses indecision, a weak \"sense of self,\" avoided \"hard conversations\" and synthesizing others’ opinions (C39), and the jointly signed 2017 email admits withholding concerns for fear of \"harming the relationship\" (C25); his early emails ask Musk for \"guidance\" (C26). That supports Type 9 or 6. (4) His loyalty on November 17, 2023 cost him position immediately and he wept over the loyalty others showed him (C35, C36), which fits 2/6 as well as 3. (5) Incentives explain much: startup and lab cultures reward all-night sprints; mission talk is recruiting, PR and, in May 2026, a legal defense against greed claims (C19, C23). (6) Much of the friction evidence is anonymous or comes from his rivals, the Amodeis (C28–C34), and some is disputed outright.",
+    "alternative_type": 1,
+    "alternative_case": "Type 1 is the strongest rival. It explains the moral and correctness language above, the devotion to a written charter he worked to get \"exactly right\" (C20), a reformer’s conviction that the mission is the most important problem (C19), the judging habit he admits (C11), fairness language (\"Happy to not become rich on this, so long as no one else is,\" C22; \"abusing her power,\" C32), high standards and impatience (C33), the moral verdict and denied anger on November 17 (C35), and the self-control of working nine years without rest (C38). Type 9 is a credible third: role-flexible self-effacement (C14, C15), his 2026 account of uncertainty, a weak sense of self and avoided hard conversations (C39), the fear of harming relationships in the 2017 email (C25), and a pattern of executing Altman’s vision (C40). It fails to explain his pushing into others’ projects, a harsh written critique, working around people, and his performer’s history (C31–C33, C04–C05). Type 6 (loyalty, guidance-seeking, team belonging, C26, C35, C46) is weaker because he shows little threat-scanning or doubt about authority and is publicly optimistic. Type 5 is undercut because he treats knowledge as instrumental (\"I learn best when I have something specific in mind to build,\" C17) and leads publicly. Type 8 is undercut by his self-reported reluctance to confront Musk and to have hard conversations (C25, C39). Type 2 is undercut by his celebrating being unneeded and leaving (C13). Wing and subtype are optional. A 3w2 or self-preservation 3 would account for the work-ethic, people-focus and low-flash style, but should not be used to explain away the Type 1 evidence.",
+    "discriminator": "When doing it the right way and winning or looking competent conflict, which does he protect, and how does he justify his own reversals? A Type 1 should hold process and principle at a cost to speed and should frame reversals as correcting a wrong. Brockman’s record leans the other way: he prizes shipping speed (soft vs hard launch dates, overnight integrations, an API hacked together over a holiday weekend; C09, C33), is described by a former colleague as \"ends-over-means\" and willing to \"work around people\" (C33), attacked a colleague’s process as \"bureaucratic\" rather than defending procedure (C32), explained his 2017 \"morally bankrupt\" diary entry under oath as \"it would actually serve the mission, but it’d be hard to look at yourself in the mirror\" (C23), and reversed his $50 million PAC pledge because it was \"reflecting on the company\" and becoming a \"distraction,\" not because the giving was wrong (C41). His one documented competence crisis was organized around visible results and others’ estimate of him (\"nothing to show,\" correcting people who rated him highly) and resolved only where failure was \"ok\" and unobserved (C17), which is the 3 fear of failing in view rather than the 1 fear of being wrong. Limits: several discriminating items are anonymous (C33), reported by rivals (C32), relayed through a second outlet (C41), or are testimony with legal incentives (C23). The discriminator rests on the convergence of self-report (C17, C23) with third-party description, not on any single item.",
+    "unexplained": "The moral vocabulary itself (C22, C35, C52) is not fully dissolved by the 3 reading; neither is the depth of his emotion about followers’ loyalty (C36) or the repeated willingness to drop status roles and do grunt work (C10, C13, C14). The jointly written 2017 confession of fearing to confront Musk (C25) and his own 2026 account of indecision (C39) fit 9 better than 3. The \"Happy to not become rich... so long as no one else is\" line (C22) mixes fairness and comparison and has no single reading. The inner motive for his 2025 political donations is unknown (C41; the WIRED interview, S21, was not opened). The content of the Sutskever memo (C34) and the truth of the \"money and power\" and \"countries plan\" accounts (C28, C29) are unresolved."
+  },
+  "profile_format": "standard"
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "77a606b0cdd9f977ba00778706be75962db4fb7e82faa05d13f41637ab154618",
+  "evidence_sha256": "98f08e7c6e7a4ee2c46cada7c4a827fb0a3e4bd15e49c578e736b26fe3656381",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "If authenticity is the creed, the put-ons need explaining, and they predate the current persona.",
+      "problem": "This distorts the best-known moment in her public record. The paragraph lists the Ellen exchange among her put-ons, and claim C54 calls it an 'Ellen bit' in which she 'plays with facts for a laugh'. But in that exchange DeGeneres made the false claim and Johnson corrected it: 'That's not the truth, Ellen. You were invited.' The draft also drops context from the same transcript (S09) that explains why she pushed back: 'Last time I was on the show, last year, you gave me a bunch of [BLEEP] about not inviting you. But I did invite you, and you didn't come.' Anyone who knows the clip will see the article misfile the moment that best fits its own thesis: on air, she would not go along with a host's false story about her. C54 also contradicts C09's own inference ('corrects a powerful host on air rather than absorb a false story about herself').",
+      "acceptance_test": "The Ellen exchange no longer appears as an example of Johnson playing with facts. It is presented as her declining a false premise, and the Eight reading of the same clip stays in its own section. The prior-year teasing and 'you didn't come' are quoted or summarized after speaker attribution is confirmed against the S09 video. C54 no longer cites Ellen as a bit, and the bit-and-feeling paragraph still explains at least one genuine put-on (Dornan, limes)."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "After high school, by Vanity Fair's account, her father told her to go to college or be cut off financially, and \"She chose independence.\"",
+      "problem": "The draft leaves out a formative fact that is in its own source and that fans know. Vogue 2017 (S08): 'She had applied to a single college, Juilliard, in New York', and Johnson's line: 'Juilliard and I mutually agreed that it wouldn't work out.' Wikipedia (S16) says she was not accepted. Without this, 'go to college or be cut off... She chose independence' reads as a principled rejection of college. The record shows that the one school she applied to, an acting conservatory, did not take her, and that she turned the rejection into a deadpan joke. That joke is also an early example of the article's central subject, a bit laid over a painful fact, years before the limes.",
+      "acceptance_test": "The origin paragraph names the single Juilliard application and its outcome, attributed to Vogue 2017 (S08), with her 'mutually agreed' line quoted verbatim and recorded as a claim. 'She chose independence' stays clearly attributed to Vanity Fair's framing and is not presented as the whole story."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "She is the only child Don Johnson and Melanie Griffith had together, and the actress Tippi Hedren is her grandmother.",
+      "problem": "The childhood and early-career sections omit family and industry context an informed reader expects, and the omission tilts the portrait toward a self-made story. Missing: Antonio Banderas, her stepfather from her mother's 1996 marriage until their divorce in the mid-2010s; her six half-siblings; her childhood screen debut in Crazy in Alabama (1999), playing her real mother's daughter alongside her half-sister Stella Banderas in a film Banderas directed; and in 2006, being named Miss Golden Globe (the first second-generation one) and signing with IMG Models. All of these are in Wikipedia (S16, reopened 2026-10-07). Without them, 'She modeled to pay rent while auditioning and landed a small part' reads as an outsider's break. The gap also leaves the chosen-family quote in the Six section without context: 'the connections with people you choose are more solid than the connections to the people you're actually born to' reads differently once the reader knows her own household was a blended, reassembled family.",
+      "acceptance_test": "In one or two sentences, the childhood section names Banderas as her longtime stepfather and mentions her half-siblings. The career paragraph acknowledges her childhood debut in Crazy in Alabama and her early industry access (Miss Golden Globe 2006 and/or IMG). Each fact is recorded as a claim with a source, or is clearly attributed if Wikipedia is the only source. No new causal claim about what this access did to her personality is added."
+    },
+    {
+      "id": "fan-04",
+      "severity": "minor",
+      "passage": "In 2026 she told Vogue that school \"just became such a dangerous place.\"",
+      "problem": "A revealing contradiction is left out. The section gives only the darkest accounts of her schooling (Vogue 2017: 'unmoored'; Vogue 2026: 'such a dangerous place'). Asked about moving schools in L'Officiel in 2024 (S05), she was matter-of-fact: 'I didn't find it weird because it was what was normal to me.' She added that otherwise she 'probably would've had different, stronger traits like time management or lifelong friendships.' Her accounts of the same childhood shift with the venue, which matters in an article about how she handles the press. The Vogue 2017 source (S08) also has her own link between school and the article's key word: 'I was a disaster, and I thought for so long that there was something wrong with my brain. Now I realize that it just works in a different way.'",
+      "acceptance_test": "The childhood section includes the 2024 L'Officiel account, quoted verbatim and dated, as a counterpoint to the darker ones, or the editor records why it was left out. If the 'works in a different way' line is used, its context is confirmed in S08 first and it is labeled as self-report, not a diagnosis."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "That is an inference from her words, not a rule she has stated, and the limes show it has fuzzy edges.",
+      "problem": "This understates what she has said on the record. The 'most fun' answer that opens the article continues in the same breath: 'Sometimes when you're in a ridiculous situation, you just have to be ridiculous' (Bustle, S04). That is her own rule for when she lies, and it pairs with 'publicly… all that stuff is ridiculous. It's hard for me to fake it.' Cutting the second half of the answer makes the article's central distinction look more like the author's construction than it is.",
+      "acceptance_test": "The 'ridiculous situation' sentence is quoted verbatim, either beside 'The most fun' or in the bit-and-feeling paragraph. The 'not a rule she has stated' sentence is revised to say she has stated a version of it, with the limes still serving as the fuzzy edge."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "Defiance that fires even when she doesn't want the forbidden thing is reactive, and reactive defiance is classic counterphobic Six.",
+      "problem": "The draft omits a caveat she gave in the same source. The Six case's sharpest line ('I am a very defiant person... I am shaking') and the joking cult line both come from the 2024 Bustle Q&A. In that interview she also said: 'Truly, but I know I've exaggerated in this interview, and you can tell that I'm exaggerating because you see my face. If it's written down, it's hard.' (S04). The draft builds a firm typing verdict on one of those lines and opens the article with another ('The most fun'), without telling the reader that she flagged her own exaggeration in that very interview.",
+      "acceptance_test": "Where the Bustle lines carry weight for the typing, the article notes once, with her quote, that she said she was exaggerating in that interview. The 'classic counterphobic Six' sentence becomes an attributed inference (e.g., 'reads like') rather than a verdict."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "She said she doesn't regret the films, and of James: \"Erika is a very nice woman, and she was always kind to me and I am grateful she wanted me to be in those movies.\"",
+      "problem": "The most-quoted line from the well-known 2022 Vanity Fair interview is cut in half. Her no-regret statement is the end of a single passage: 'If I had known at the time that's what it was going to be like, I don't think anyone would've done it. It would've been like, \"Oh, this is psychotic.\" But no, I don't regret it.' (S02). 'Psychotic' is in the story's headline. Paraphrasing only 'doesn't regret' softens her account, and anyone who remembers the coverage will read it as sanitized.",
+      "acceptance_test": "The 'psychotic' passage is quoted verbatim together with 'But no, I don't regret it', or the regret clause is paraphrased alongside it. Her praise of James stays, so the passage remains balanced."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "Alessandro Michele, a friend of more than a decade, calls her \"the most natural person I have met in this business.\"",
+      "problem": "An interested witness is presented only as a friend. Michele was Gucci's creative director, and Johnson has been a Gucci brand ambassador (Wikipedia, S16). The draft's own 2017 Vogue source (S08) places her at 'the Gucci show in Milan because Alessandro [Michele, the brand's designer] is a good friend', and the evidence record now lists him as Valentino's creative director. The general caveat ('friends and colleagues quoted in flattering profiles') doesn't tell the reader about this commercial tie, and this is exactly the kind of flattery a reader needs to weigh.",
+      "acceptance_test": "Michele is identified as the designer whose brand (Gucci) she has represented, with a source for the ambassador relationship, so the reader can discount the testimony; otherwise the quote is cut."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Not that she was good, or that she had arrived. That she did something different.",
+      "reason": "A small, verified detail (the compliment she ranks above all others) is turned into a precise insight without overclaiming. Keep it."
+    },
+    {
+      "passage": "A Seven's appetite usually runs from that sentence. Hers runs toward it.",
+      "reason": "This is the model discriminator: it quotes the full Bustle answer instead of the motto-sized half, and lets the omitted clause decide the comparison."
+    },
+    {
+      "passage": "That covers the first film only. Johnson's rewriting and the sequels rest on her word.",
+      "reason": "This is fair handling of the famous Fifty Shades dispute. It says exactly how far Sam Taylor-Johnson's corroboration reaches and keeps the missing E.L. James response visible."
+    },
+    {
+      "passage": "Even the confession is a bit, and it changes between tellings.",
+      "reason": "This is accurate to both Tonight Show tellings (S36, S37) and declines to state an allergy timeline as fact. Fans of the limes saga will trust the article for it."
+    },
+    {
+      "passage": "What separates the readings is what safety does for her. For a Six, security is usually the goal. Johnson almost always describes it as the condition for something else.",
+      "reason": "This states a sourced, testable discriminator between Type 4 and Type 6 in plain words. It is the article's most useful typology sentence."
+    }
+  ],
+  "assessment": "Read as an informed fan, the draft handles the famous material well. The Fifty Shades turn, the two limes tellings, Madame Web and the Lost Daughter remarks are quoted in context, dated and linked, and the Type 6 rival gets a serious case. The single real distortion is filing the Ellen exchange, in which Johnson corrected a false claim, among her put-ons (fan-01). The larger gap is formative context: Juilliard (in the draft's own S08), Banderas and her half-siblings, her childhood debut and her 2006 industry access are missing. Together these tilt the origin story toward a self-made arc (fan-02, fan-03). Several quotes are cut where the omitted half matters (fan-05 to fan-07). Leaving out Wikipedia's uncited rehabilitation claim is defensible without a first-person source. Persuasion, Maude and her music-video directing can stay out. The similarity advisory did not trip: the maximum score was 0.016 against a 0.04 trip threshold. The top pair with Cara-Delevingne shares only ordinary type vocabulary ('Nine and Seven'), and I found no meaningful reuse. Limits of this review: I checked quotes against the evidence-record excerpts and reopened Wikipedia (S16) on 2026-10-07 for the family and early-career facts. I did not independently reopen the magazine articles or videos."
+}

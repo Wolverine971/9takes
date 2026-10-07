@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "dakota-johnson",
+  "mode": "create",
+  "role": "subject",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_14-48-06-833_dakota-johnson/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_14-48-06-833_dakota-johnson/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_14-48-06-833_dakota-johnson/similarity.json"
+  },
+  "outputs": {
+    "review-subject.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_14-48-06-833_dakota-johnson/review-subject.json"
+  },
+  "content_sha256": "cd528bf56705109539fee91d0e161d7ccb248010156c2cc5ad4f0e25cbd85bb8",
+  "evidence_sha256": "a7529cb60e6f5c4cc3423082e39f481d0079c4d2113bbcf3ada3af0e16849993"
+}

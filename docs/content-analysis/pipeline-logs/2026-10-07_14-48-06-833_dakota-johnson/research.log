@@ -1,0 +1,32 @@
+I've finished the research stage and written `evidence.json` to the Dakota Johnson run folder. It passes the pipeline's own evidence check (status `ready`). No other files were changed and nothing was published.
+
+**Type read: 4, medium confidence. The strongest alternative is 6.**
+
+- **The case for 4:** for nine years and in every setting, she keeps coming back to wanting to be seen as she really is. A few examples:
+  - "different is what I'm about" (2017)
+  - "I just want to be authentic" (2026), said when the Vogue writer called her "cool"
+  - "heartbroken all the time, even when I'm in a happy relationship"
+  - "I don't know if I'm from anywhere or I belong anywhere"
+  - Fifty Shades director James Foley, in 2017, before she talked about authenticity publicly: she has "a very sensitive bullshit meter."
+- **The case for 6:** chronic anxiety ("all night, every night"), constant talk of feeling "safe" and "protected," and the line "I would be the first one to join a cult… I am a very defiant person."
+- **What separates them:** she describes safety as what lets her express herself freely ("when I feel safe, I think I can do anything"), not as the goal. She rejects having a method or rules. Her real complaints about Fifty Shades and Madame Web are that the films became contrived, not that she was left unprotected.
+- **The other readings:** 8 fits the Ellen moment and her "takes no prisoners" image. 9 fits her love of solitude and going "along for the ride" on Madame Web. 7 fits her mischief.
+- **What the 4 read doesn't explain:** she says lying to the press is "the most fun." She also contradicted herself between 2024 ("probably will never do anything like it again") and 2025 ("no part of me" says never again).
+
+**What's in the file**
+- 32 sources, all opened. They include her biggest interviews from 2017 to 2026 (Vogue October 2026, Vanity Fair 2021 and 2022, Marie Claire 2020, Bustle and L'Officiel 2024, LA Times 2025), the Ellen and Architectural Digest video transcripts, and quotes from 15 named people: Hathaway, Keough, Grant, Foley, Swinton, Sean Penn, Cooper Raiff, Dunham and others.
+- 45 claims. I checked every quoted excerpt word for word against the saved source text before writing the file.
+
+**Risk flags: sensitive allegations and contested typing are both on, so the draft will get the full six-reviewer panel.** Topics that need care:
+- Her account of the Fifty Shades fights with E.L. James. I found no public response from James.
+- Her parents' publicized addictions.
+- Hitchcock's abuse of her grandmother, Tippi Hedren.
+- Her depression.
+
+**Guardrails for the draft (listed as research tasks in the file)**
+- Wikipedia says she went to rehab. Its sources for that are a tabloid item and a talk-show clip I couldn't verify, so it's flagged "do not use."
+- The rumored relationships with Role Model and Machine Gun Kelly are unconfirmed and flagged "do not state as fact."
+- I only saw the 2015 Vogue cover story through a news write-up, not the original.
+- The lime-allergy detail comes from Vogue's narration, not her own words.
+
+Separately, the Supabase connection failed this session and several plugin connectors (Slack, Notion, Ahrefs and others) need authorizing. None of them were needed for this stage.

@@ -1,0 +1,30 @@
+I finished the research stage for Greg Brockman and wrote `evidence.json` to the run directory. It passes the contract's validator, and I didn't change any other file or publish anything.
+
+**Outcome: ready, not a hold.** His record is deep and covers 2007 to 2026, so it gets a standard profile, not an open case.
+
+- **Leading read: Type 3, medium confidence.** He chose science over acting at 14 because he felt he "could be best in the world." He describes the times he feels most alive as coding "from wake until sleep." He worked nine years without rest, then took a sabbatical, and a colleague describes him going "super hard" and then hibernating "like a bear." The strongest single piece of evidence is his 2019 essay on learning machine learning. When his code was replaced he had "nothing to show for my efforts," and he quit trying. He only learned it later in private, with someone who made him feel "it was ok if I failed."
+- **Strongest alternative: Type 1.** He uses moral language for a decade: "pretty morally bankrupt" in his 2017 diary, "It just wasn't right" (anger explicitly denied) the day he quit, and a charter he learned "exactly right" and recited "like scripture." Type 9 is a credible third. In April 2026 he talked about uncertainty, wanting "a stronger sense of self," and avoiding hard conversations.
+- **What separates 3 from 1:** when doing it right and winning conflict, which does he protect? Three things point to 3:
+  - A former colleague calls him "ends-over-means."
+  - Under oath he explained the diary line as "hard to look at yourself in the mirror."
+  - He walked back half of a $50M super PAC pledge, saying the PAC was "a distraction" for OpenAI, not that the giving was wrong.
+
+  Several of these come from anonymous sources, his rivals, or his trial testimony, and the file records those limits.
+- **Risks flagged:** sensitive allegations (a critical memo Sutskever sent the board, which a book reportedly describes as alleging bullying; a rival's note that he wanted "money and power"; a plan to sell AI access to governments; his political donations) and contested typing. That automatically sends the draft to the six-reviewer jury. A claim that he was "essentially fired from Stripe" came secondhand, Sutskever admitted under oath he never checked it, and the file says not to use it as fact.
+
+**The record:** 33 sources, 32 of them read in full. The main ones:
+- six of his own blog essays (2014–2022) and his 2017 emails with Musk;
+- two long 2026 interviews: The Knowledge Project, read in full, and Stratechery, which has new childhood material;
+- his 2019 Lex Fridman interview;
+- trial coverage, Sutskever's deposition, and the WSJ, New Yorker and Fortune reporting.
+
+The 52 claims are each tagged as observed, self-report, reported or disputed. The current hook is checked: the film *Artificial*, with Cooper Hoffman as Brockman, premiered October 5, 2026.
+
+The file also lists follow-ups, none of which block drafting:
+- Open the paywalled NYT report the PAC Slack quote comes from, and the WIRED interview on his donations.
+- Reconcile the diary wording, which differs between outlets.
+- Read the book passages on the Sutskever memo.
+- Find the Odd Lots episode the scout mentioned; I couldn't locate it.
+- Re-check his title, net worth, PAC status and the film's response close to publishing.
+
+Unrelated to this stage: the Supabase connector failed to connect this session, and several plugin connectors (Ahrefs, Figma, Notion, Slack and others) need authorizing through `/mcp` or claude.ai connector settings.

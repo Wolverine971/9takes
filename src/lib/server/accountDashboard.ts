@@ -487,16 +487,24 @@ export function buildYourTakes(
  * community counter. Questions are fetched by id rather than joined, because
  * comments.parent_id is polymorphic (parent_type 'question' | 'comment') and so
  * carries no foreign key for PostgREST to traverse.
+ *
+ * Take text is readable only by the service role (give-first wall), so the
+ * reader's own takes come through `serviceClient`. `sessionUserId` must be the
+ * verified session user's id, never a client-supplied value: it is the only
+ * thing scoping that service-role read to the reader's own rows.
  */
 export async function loadYourTakes(
 	supabase: SupabaseClient,
+	serviceClient: SupabaseClient,
 	tables: AccountTables,
-	userId: string,
+	sessionUserId: string,
 	limit = 5
 ): Promise<YourTake[]> {
 	const db = supabase as DynamicClient;
+	const userId = sessionUserId;
+	if (!userId) return [];
 
-	const { data: own } = await db
+	const { data: own } = await (serviceClient as DynamicClient)
 		.from(tables.comments)
 		.select('id, comment, parent_id, created_at, like_count')
 		.eq('author_id', userId)

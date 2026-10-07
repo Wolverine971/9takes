@@ -1,0 +1,1133 @@
+{
+  "date": "2026-10-07",
+  "scope": "11 missing pairs across completed, held, and failed backlog entries, following the 17 active queue portraits",
+  "status": "11 masters and 22 WebP exports complete; seven pairs installed for unpublished drafts, four staged pending types",
+  "template": {
+    "path": "face-line-template.png",
+    "sha256": "74b6538bbdbf61cb61ce29a7c8e7a97041108f7fdc20851291c1cd388da09344",
+    "modified": false,
+    "fixedEyeTarget": {
+      "x": 540,
+      "y": 490
+    }
+  },
+  "treatment": "Grayscale real-photo subject, contrast/brightness correction, transparent canvas, exact purple eye template. Site CSS supplies the theme background and final muted tint.",
+  "generation": "All final portraits use sourced photographs; no generative reconstruction or synthetic upscaling.",
+  "portraits": [
+    {
+      "slug": "ben-shelton",
+      "name": "Ben Shelton",
+      "filename": "Ben-Shelton",
+      "type": "3",
+      "status": "installed_for_unpublished_draft",
+      "source": {
+        "page": "https://www.tennis.com/news/articles/dialing-it-down-shelton-won-t-be-drawn-on-comments-attributed-to-djokovic-at-australian-open",
+        "imageUrl": "https://www.tennis.com/images/articles/2d58ea34-f758-44d4-b020-b43e3400f786/web.png",
+        "photographerOrCredit": "Tennis.com; photographer not identified",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue-rest/ben-shelton-smile.png",
+        "width": 700,
+        "height": 621,
+        "sha256": "75ebe25918f339327e29e63715767fdbfdf084b58941cbf96f62e210487dbdf7",
+        "rights": "No open reuse license or publication permission established. Local editorial review asset; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "ben-shelton",
+          "name": "Ben Shelton",
+          "filename": "Ben-Shelton",
+          "type": "3",
+          "file": "ben-shelton-smile.png",
+          "input": "output/portrait-processed/2026-10-07-queue-rest/ben-shelton-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue-rest/ben-shelton-crop.png",
+          "bottom": 621,
+          "height": 955,
+          "anchorX": 352.82687544822693,
+          "anchorY": 246.64418517208998,
+          "erode": 4,
+          "brightness": 1,
+          "contrast": 1.04,
+          "rotation": 0,
+          "targetX": 540,
+          "targetY": 490,
+          "sourceLandmarks": "output/portrait-processed/2026-10-07-queue-rest/ben-shelton-landmarks.json",
+          "estimatedHairTop": 129.7724174809864,
+          "estimatedBottom": 1085,
+          "master": "output/portrait-processed/2026-10-07-queue-rest/Ben-Shelton-master.png"
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "modifications": "Background removal, crop, resize, grayscale and contrast correction, alpha-edge cleanup, and purple eye-mark overlay.",
+        "hairRefinement": {
+          "date": "2026-10-07",
+          "script": "output/portrait-processed/2026-10-07-hair-fixes/refine-hair.mjs",
+          "finalizer": "output/portrait-processed/2026-10-07-hair-fixes/finalize-masters.mjs",
+          "settings": {
+            "config": {
+              "inner": 18,
+              "outer": 25,
+              "seed": 6,
+              "cutoff": 310,
+              "fade": 20,
+              "bgWhite": true,
+              "minContrast": 60
+            },
+            "changed": 11364,
+            "recovered": 8481,
+            "cleared": 2883,
+            "method": "Source-photo local foreground/background color matting in the hair fringe, no shape or face generation",
+            "finalFrameTreatment": {
+              "preserveOpaqueInteriorPixels": true,
+              "hairEditCutoff": 560,
+              "fade": 25,
+              "crownMask": null
+            }
+          },
+          "matteInput": "output/portrait-processed/2026-10-07-hair-fixes/ben-shelton-refined-cutout.png",
+          "matteCrop": "output/portrait-processed/2026-10-07-hair-fixes/ben-shelton-refined-crop.png",
+          "intermediateMaster": "output/portrait-processed/2026-10-07-hair-fixes/Ben-Shelton-refined-master.png",
+          "faceGeneration": false,
+          "sourcePixels": "Hair fringe alpha and background contamination refined from the existing original photograph. Opaque interior pixels and the original central face region are preserved from the previous master."
+        }
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Ben-Shelton-final-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "22604d6b242e6674265643b4b4d1b9573d29b06dba3a1fc6a295c2b74181e89f"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Ben-Shelton.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 42168,
+          "sha256": "d8ea78257d6b76cef9c66b1e6a36a584c887d4ee0c7612300ce215c903194e4a",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Ben-Shelton.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 14206,
+          "sha256": "2aa672f91bf9b0eef8b39ef30994d6a6b9b91f7be20475aacecd42ac930d9975",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "installedPortraitCheck": "pass",
+        "hairEdges": "Revised and visually compared on light and dark backgrounds",
+        "centralFacePixelPreservation": {
+          "x": 450,
+          "y": 550,
+          "width": 190,
+          "height": 200,
+          "result": "identical to previous master"
+        }
+      },
+      "qualityNote": "Forward-facing smiling photograph; 700px source limits fine detail. Full hair preserved. Hair edges revised on 7 October 2026: removed the blanket contraction around hair, recovered photographed fringe detail, and reduced background between curls.",
+      "installedPaths": [
+        "static/types/3s/Ben-Shelton.webp",
+        "static/types/3s/s-Ben-Shelton.webp"
+      ]
+    },
+    {
+      "slug": "rod-wave",
+      "name": "Rod Wave",
+      "filename": "Rod-Wave",
+      "type": "9",
+      "status": "installed_for_unpublished_draft",
+      "source": {
+        "page": "https://tidal.com/artist/8978060",
+        "imageUrl": "https://resources.tidal.com/images/ea1dbf15/8f2e/44ea/b87c/58341cd9781f/750x750.jpg",
+        "photographerOrCredit": "TIDAL artist portrait; photographer not identified",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue-rest/rod-wave-tidal.jpg",
+        "width": 750,
+        "height": 750,
+        "sha256": "00d31f4ee7b04a945ffc3079fe92263631e7f5f63ef428f580883cf889a2a368",
+        "rights": "No open reuse license or publication permission established. Local editorial review asset; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "rod-wave",
+          "name": "Rod Wave",
+          "filename": "Rod-Wave",
+          "type": "9",
+          "file": "rod-wave-tidal.jpg",
+          "input": "output/portrait-processed/2026-10-07-queue-rest/rod-wave-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue-rest/rod-wave-crop.png",
+          "bottom": 750,
+          "height": 968,
+          "anchorX": 367.0170083642006,
+          "anchorY": 288.45396895557184,
+          "erode": 3,
+          "brightness": 1,
+          "contrast": 1.04,
+          "rotation": 0,
+          "targetX": 540,
+          "targetY": 490,
+          "sourceLandmarks": "output/portrait-processed/2026-10-07-queue-rest/rod-wave-landmarks.json",
+          "estimatedHairTop": 120.73044613539167,
+          "estimatedBottom": 1089.165121856241,
+          "master": "output/portrait-processed/2026-10-07-queue-rest/Rod-Wave-master.png"
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "modifications": "Background removal, crop, resize, grayscale and contrast correction, alpha-edge cleanup, and purple eye-mark overlay."
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue-rest/Rod-Wave-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "cbc351d027454eab439e9617014f2856c71ddcf3bdfc68fbefbe81e69a49d829"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Rod-Wave.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 58850,
+          "sha256": "f1f5c2e07e134ccb2bdeaed6a1c2db0e5b9e6779c1243380fa4b09107cdbd78a",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Rod-Wave.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 17566,
+          "sha256": "920670395c4f4e3fa2077311bd5358b9f5addd3a73aafe5bfe2a7dedc4a3b05a",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "installedPortraitCheck": "pass"
+      },
+      "qualityNote": "750px promotional portrait. Natural slight head tilt retained; both eyes are covered.",
+      "installedPaths": [
+        "static/types/9s/Rod-Wave.webp",
+        "static/types/9s/s-Rod-Wave.webp"
+      ]
+    },
+    {
+      "slug": "arthur-mensch",
+      "name": "Arthur Mensch",
+      "filename": "Arthur-Mensch",
+      "type": "6",
+      "status": "installed_for_unpublished_draft",
+      "source": {
+        "page": "https://www.mwcbarcelona.com/agenda/iconic-thinkers",
+        "imageUrl": "https://event-assets.gsma.com/Barcelona/Keynote-Speakers-2025/ArthurMensch_KeynoteSpeakers25_500x500.webp",
+        "photographerOrCredit": "GSMA / MWC Barcelona speaker portrait; photographer not identified",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue-rest/arthur-mensch-mwc.webp",
+        "width": 500,
+        "height": 500,
+        "sha256": "157c7454ea0077a9d1f0386677264bfb82673ac22743a8b8f51d4f3abf85d4f4",
+        "rights": "No open reuse license or publication permission established. Local editorial review asset; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "arthur-mensch",
+          "name": "Arthur Mensch",
+          "filename": "Arthur-Mensch",
+          "type": "6",
+          "file": "arthur-mensch-mwc.webp",
+          "input": "output/portrait-processed/2026-10-07-queue-rest/arthur-mensch-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue-rest/arthur-mensch-crop.png",
+          "bottom": 500,
+          "height": 1036,
+          "anchorX": 204.49159294366837,
+          "anchorY": 213.4197567888473,
+          "erode": 3,
+          "brightness": 1,
+          "contrast": 1.04,
+          "rotation": 0,
+          "targetX": 540,
+          "targetY": 490,
+          "sourceLandmarks": "output/portrait-processed/2026-10-07-queue-rest/arthur-mensch-landmarks.json",
+          "estimatedHairTop": 48.9725450953714,
+          "estimatedBottom": 1085,
+          "master": "output/portrait-processed/2026-10-07-queue-rest/Arthur-Mensch-master.png"
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "modifications": "Background removal, crop, resize, grayscale and contrast correction, alpha-edge cleanup, and purple eye-mark overlay.",
+        "hairRefinement": {
+          "date": "2026-10-07",
+          "script": "output/portrait-processed/2026-10-07-hair-fixes/refine-hair.mjs",
+          "finalizer": "output/portrait-processed/2026-10-07-hair-fixes/finalize-masters.mjs",
+          "settings": {
+            "config": {
+              "inner": 23,
+              "outer": 18,
+              "seed": 5,
+              "cutoff": 210,
+              "fade": 20,
+              "minContrast": 55
+            },
+            "changed": 6440,
+            "recovered": 3181,
+            "cleared": 3259,
+            "method": "Source-photo local foreground/background color matting in the hair fringe, no shape or face generation",
+            "finalFrameTreatment": {
+              "preserveOpaqueInteriorPixels": true,
+              "hairEditCutoff": 555,
+              "fade": 25,
+              "crownMask": null
+            }
+          },
+          "matteInput": "output/portrait-processed/2026-10-07-hair-fixes/arthur-mensch-refined-cutout.png",
+          "matteCrop": "output/portrait-processed/2026-10-07-hair-fixes/arthur-mensch-refined-crop.png",
+          "intermediateMaster": "output/portrait-processed/2026-10-07-hair-fixes/Arthur-Mensch-refined-master.png",
+          "faceGeneration": false,
+          "sourcePixels": "Hair fringe alpha and background contamination refined from the existing original photograph. Opaque interior pixels and the original central face region are preserved from the previous master."
+        }
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Arthur-Mensch-final-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "1a17572c509db4928981422c1bcdc1993819a2854f2ef29bc9dfbbbb113340de"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Arthur-Mensch.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 66514,
+          "sha256": "a9371fd9f77968fcf5f7c0bd49108c6437202ecec54afce8ef166c6d17bc2440",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Arthur-Mensch.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 19132,
+          "sha256": "79d23c8483c3e34ab80dd28480db6cb652d0169b323909f02e1e2ada95a73724",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "installedPortraitCheck": "pass",
+        "hairEdges": "Revised and visually compared on light and dark backgrounds",
+        "centralFacePixelPreservation": {
+          "x": 450,
+          "y": 550,
+          "width": 190,
+          "height": 200,
+          "result": "identical to previous master"
+        }
+      },
+      "qualityNote": "500px official speaker headshot selected for frontal gaze and complete shoulders. Limited source detail; no synthetic upscaling. Hair edges revised on 7 October 2026: removed the blanket contraction around hair, recovered photographed fringe detail, and reduced background between curls.",
+      "installedPaths": [
+        "static/types/6s/Arthur-Mensch.webp",
+        "static/types/6s/s-Arthur-Mensch.webp"
+      ]
+    },
+    {
+      "slug": "naval-ravikant",
+      "name": "Naval Ravikant",
+      "filename": "Naval-Ravikant",
+      "type": "5",
+      "status": "installed_for_unpublished_draft",
+      "source": {
+        "page": "https://podcastnotes.org/tim-ferris-show/peter-attia-tim-ferriss-meditation-fasting-sleep-metformin-podcasting-centenarian-olympics-exercise/",
+        "imageUrl": "https://podcast-notes-uploads.imgix.net/2020/05/naval-ravikant.jpg",
+        "photographerOrCredit": "Podcast Notes distribution; photographer not identified",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue-rest/naval-ravikant-gray.jpg",
+        "width": 960,
+        "height": 960,
+        "sha256": "0a1f6d36072b8a53e70baf0c1a20b50c12b42ba5b181ef82465d8435e2787cb4",
+        "rights": "No open reuse license or publication permission established. Local editorial review asset; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "naval-ravikant",
+          "name": "Naval Ravikant",
+          "filename": "Naval-Ravikant",
+          "type": "5",
+          "file": "naval-ravikant-gray.jpg",
+          "input": "output/portrait-processed/2026-10-07-queue-rest/naval-ravikant-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue-rest/naval-ravikant-crop.png",
+          "bottom": 872,
+          "height": 1054,
+          "anchorX": 424.06479835510254,
+          "anchorY": 331.6279412831054,
+          "erode": 4,
+          "brightness": 1,
+          "contrast": 1.04,
+          "rotation": 0,
+          "targetX": 540,
+          "targetY": 490,
+          "sourceLandmarks": "output/portrait-processed/2026-10-07-queue-rest/naval-ravikant-landmarks.json",
+          "estimatedHairTop": 146.05593117388776,
+          "estimatedBottom": 1200.3895847038616,
+          "master": "output/portrait-processed/2026-10-07-queue-rest/Naval-Ravikant-master.png"
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "modifications": "Background removal, crop, resize, grayscale and contrast correction, alpha-edge cleanup, and purple eye-mark overlay.",
+        "hairRefinement": {
+          "date": "2026-10-07",
+          "script": "output/portrait-processed/2026-10-07-hair-fixes/refine-hair.mjs",
+          "finalizer": "output/portrait-processed/2026-10-07-hair-fixes/finalize-masters.mjs",
+          "settings": {
+            "config": {
+              "inner": 42,
+              "outer": 28,
+              "seed": 10,
+              "cutoff": 370,
+              "fade": 30,
+              "bgWhite": true,
+              "minContrast": 45
+            },
+            "changed": 16950,
+            "recovered": 4022,
+            "cleared": 12928,
+            "method": "Source-photo local foreground/background color matting in the hair fringe, no shape or face generation",
+            "finalFrameTreatment": {
+              "preserveOpaqueInteriorPixels": true,
+              "hairEditCutoff": 560,
+              "fade": 25,
+              "crownMask": null
+            }
+          },
+          "matteInput": "output/portrait-processed/2026-10-07-hair-fixes/naval-ravikant-refined-cutout.png",
+          "matteCrop": "output/portrait-processed/2026-10-07-hair-fixes/naval-ravikant-refined-crop.png",
+          "intermediateMaster": "output/portrait-processed/2026-10-07-hair-fixes/Naval-Ravikant-refined-master.png",
+          "faceGeneration": false,
+          "sourcePixels": "Hair fringe alpha and background contamination refined from the existing original photograph. Opaque interior pixels and the original central face region are preserved from the previous master."
+        }
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Naval-Ravikant-final-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "c0c59a06baa4ec19ac81b57547061d3d6e130f27643e692d47bfe0603ed85013"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Naval-Ravikant.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 92852,
+          "sha256": "9700e270171ab0d4e10608873b44d72b551e7f1ac2292e0487953631511792d5",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Naval-Ravikant.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 21358,
+          "sha256": "0f05250097d42eeb04927f9f52f70941958218f5f4afc54bec257748a9e0d657",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "installedPortraitCheck": "pass",
+        "hairEdges": "Revised and visually compared on light and dark backgrounds",
+        "centralFacePixelPreservation": {
+          "x": 450,
+          "y": 550,
+          "width": 190,
+          "height": 200,
+          "result": "identical to previous master"
+        }
+      },
+      "qualityNote": "960px frontal portrait in gray cardigan; lower torso cropped. Hair edges revised on 7 October 2026: removed the blanket contraction around hair, recovered photographed fringe detail, and reduced background between curls.",
+      "installedPaths": [
+        "static/types/5s/Naval-Ravikant.webp",
+        "static/types/5s/s-Naval-Ravikant.webp"
+      ]
+    },
+    {
+      "slug": "rebecca-yarros",
+      "name": "Rebecca Yarros",
+      "filename": "Rebecca-Yarros",
+      "type": "6",
+      "status": "installed_for_unpublished_draft",
+      "source": {
+        "page": "https://www.argon-verlag.de/autor/rebecca-yarros-2009890",
+        "imageUrl": "https://pondus-hpg.s3.eu-central-1.amazonaws.com/argon/public/rtKViSc1XuCCzBX28bQWDTITHorHKX8NTWtJADWUPlH/AF_Rebecca%20Yarros_Website.png",
+        "photographerOrCredit": "GypsyThorn Photography; matching AF_Rebecca Yarros_Website portrait credited by Rowohlt",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue-rest/rebecca-yarros-blue.png",
+        "width": 1600,
+        "height": 2400,
+        "sha256": "9027e7f87a931188a73ab2bf6e25d76c7a0551d4b3d36949a5fdb30b92067f84",
+        "rights": "No open reuse license or publication permission established. Local editorial review asset; rights clearance remains necessary before publication.",
+        "creditPage": "https://www.rowohlt.de/autorin/rebecca-yarros-23685"
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": -14.043185183716883,
+        "composition": {
+          "slug": "rebecca-yarros",
+          "name": "Rebecca Yarros",
+          "filename": "Rebecca-Yarros",
+          "type": "6",
+          "file": "rebecca-yarros-blue.png",
+          "input": "output/portrait-processed/2026-10-07-queue-rest/rebecca-yarros-aligned.png",
+          "crop": "output/portrait-processed/2026-10-07-queue-rest/rebecca-yarros-crop.png",
+          "bottom": 2304,
+          "height": 1059,
+          "anchorX": 916.0342497378588,
+          "anchorY": 985.0895482087578,
+          "erode": 4,
+          "brightness": 0.98,
+          "contrast": 1.03,
+          "rotation": -14.043185183716883,
+          "targetX": 540,
+          "targetY": 490,
+          "sourceLandmarks": "output/portrait-processed/2026-10-07-queue-rest/rebecca-yarros-aligned-landmarks.json",
+          "estimatedHairTop": 140.76596195794417,
+          "estimatedBottom": 1199.6223073781316,
+          "master": "output/portrait-processed/2026-10-07-queue-rest/Rebecca-Yarros-master.png"
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "modifications": "Background removal, crop, resize, grayscale and contrast correction, alpha-edge cleanup, and purple eye-mark overlay.",
+        "hairRefinement": {
+          "date": "2026-10-07",
+          "script": "output/portrait-processed/2026-10-07-hair-fixes/refine-hair.mjs",
+          "finalizer": "output/portrait-processed/2026-10-07-hair-fixes/finalize-masters.mjs",
+          "settings": {
+            "config": {
+              "inner": 40,
+              "outer": 15,
+              "seed": 8,
+              "cutoff": 1740,
+              "fade": 100,
+              "minContrast": 25,
+              "recoveryMinY": 350
+            },
+            "changed": 106088,
+            "recovered": 11012,
+            "cleared": 95076,
+            "method": "Source-photo local foreground/background color matting in the hair fringe, no shape or face generation",
+            "finalFrameTreatment": {
+              "preserveOpaqueInteriorPixels": true,
+              "hairEditCutoff": 1080,
+              "fade": 25,
+              "crownMask": "Original uncontracted alpha above y290, blended to refined matte by y360"
+            }
+          },
+          "matteInput": "output/portrait-processed/2026-10-07-hair-fixes/rebecca-yarros-refined-aligned.png",
+          "matteCrop": "output/portrait-processed/2026-10-07-hair-fixes/rebecca-yarros-refined-crop.png",
+          "intermediateMaster": "output/portrait-processed/2026-10-07-hair-fixes/Rebecca-Yarros-refined-master.png",
+          "faceGeneration": false,
+          "sourcePixels": "Hair fringe alpha and background contamination refined from the existing original photograph. Opaque interior pixels and the original central face region are preserved from the previous master."
+        }
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Rebecca-Yarros-final-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "451fc1c76535454b007e90dd82b5e25443c4dce4e7df3527ed469c8b7f2ece20"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Rebecca-Yarros.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 79650,
+          "sha256": "6dc19d050dbbd62318db0b6bf721bbb73b0f9e9d99a6def49783f74c06a86b58",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Rebecca-Yarros.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 17570,
+          "sha256": "7a8bd935f36e317ce7dde424f28a59bc6ad11000b62ad0e5f29a592a1b82f072",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "installedPortraitCheck": "pass",
+        "hairEdges": "Revised and visually compared on light and dark backgrounds",
+        "centralFacePixelPreservation": {
+          "x": 450,
+          "y": 550,
+          "width": 190,
+          "height": 200,
+          "result": "identical to previous master"
+        }
+      },
+      "qualityNote": "1600 × 2400 publisher portrait. Rotated approximately 14 degrees counterclockwise to align the eyes; lower body and hands outside final crop. Hair edges revised on 7 October 2026: removed the blanket contraction around hair, recovered photographed fringe detail, and reduced background between curls. Rebecca’s bright crown retains its original uncontracted mask because the source has low hair/background contrast.",
+      "installedPaths": [
+        "static/types/6s/Rebecca-Yarros.webp",
+        "static/types/6s/s-Rebecca-Yarros.webp"
+      ]
+    },
+    {
+      "slug": "austin-abrams",
+      "name": "Austin Abrams",
+      "filename": "Austin-Abrams",
+      "type": "9",
+      "status": "installed_for_unpublished_draft",
+      "source": {
+        "page": "https://commons.wikimedia.org/wiki/File:Austin_Abrams-60123.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Austin_Abrams-60123.jpg",
+        "photographerOrCredit": "Harald Krichel",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue-rest/austin-abrams.jpg",
+        "width": 2071,
+        "height": 2761,
+        "sha256": "ff4141b320e160ee19877041c562156d738366d018dd974c1eed31d31387abf4",
+        "rights": "CC BY-SA 4.0. Credit Harald Krichel, link the source and license, indicate modifications, and distribute adaptations under the same license.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "austin-abrams",
+          "name": "Austin Abrams",
+          "filename": "Austin-Abrams",
+          "type": "9",
+          "file": "austin-abrams.jpg",
+          "input": "output/portrait-processed/2026-10-07-queue-rest/austin-abrams-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue-rest/austin-abrams-crop.png",
+          "bottom": 2403,
+          "height": 1070,
+          "anchorX": 1056.6557573527098,
+          "anchorY": 918.07065619773,
+          "erode": 3,
+          "brightness": 1,
+          "contrast": 1.04,
+          "rotation": 0,
+          "targetX": 540,
+          "targetY": 490,
+          "sourceLandmarks": "output/portrait-processed/2026-10-07-queue-rest/austin-abrams-landmarks.json",
+          "estimatedHairTop": 130.09744031747312,
+          "estimatedBottom": 1199.6676352793775,
+          "master": "output/portrait-processed/2026-10-07-queue-rest/Austin-Abrams-master.png"
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "modifications": "Background removal, crop, resize, grayscale and contrast correction, alpha-edge cleanup, and purple eye-mark overlay."
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue-rest/Austin-Abrams-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "e24bf884c06447fccf3d1cc3fbe92cea0b3ef633c082f915faa131f45d5a784e"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Austin-Abrams.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 74322,
+          "sha256": "e7184927dcb1e9232010b1dc1e08a740f8fdf2f4cf38973949750470bfc2f594",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Austin-Abrams.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 14550,
+          "sha256": "922471a4f4b49ec9ad22203d3aec0eb793bed99ddef289d7955c40e632f11230",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "installedPortraitCheck": "pass"
+      },
+      "qualityNote": "High-resolution Venice Film Festival photograph, September 1, 2024. Natural head tilt retained and eyes fully covered.",
+      "installedPaths": [
+        "static/types/9s/Austin-Abrams.webp",
+        "static/types/9s/s-Austin-Abrams.webp"
+      ]
+    },
+    {
+      "slug": "joseph-zada",
+      "name": "Joseph Zada",
+      "filename": "Joseph-Zada",
+      "type": "6",
+      "status": "installed_for_unpublished_draft",
+      "source": {
+        "page": "https://www.flaunt.com/post/joseph-zada",
+        "imageUrl": "https://cdn.prod.website-files.com/62ee0bbe0c783a903ecc0ddb/685dee4c7d4378fb1e583fd5_FLAUNT_MAGAZINE_JOSEPH%20ZADA%20_FLAUNT_.COM12.jpg",
+        "photographerOrCredit": "Brendan Wixted / FLAUNT",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue-rest/joseph-zada-3.jpg",
+        "width": 2812,
+        "height": 3645,
+        "sha256": "2ecf4b9a447effcef70dbaccfba488f3805e3cf8fab2db39b776d53a60f94f48",
+        "rights": "No open reuse license or publication permission established. Local editorial review asset; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "joseph-zada",
+          "name": "Joseph Zada",
+          "filename": "Joseph-Zada",
+          "type": "6",
+          "file": "joseph-zada-3.jpg",
+          "input": "output/portrait-processed/2026-10-07-queue-rest/joseph-zada-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue-rest/joseph-zada-crop.png",
+          "bottom": 2707,
+          "height": 1062,
+          "anchorX": 1388.0506218075752,
+          "anchorY": 898.7578128696787,
+          "erode": 3,
+          "brightness": 1,
+          "contrast": 1.04,
+          "rotation": 0,
+          "targetX": 540,
+          "targetY": 490,
+          "sourceLandmarks": "output/portrait-processed/2026-10-07-queue-rest/joseph-zada-landmarks.json",
+          "estimatedHairTop": 137.33896367647964,
+          "estimatedBottom": 1199.5310377343615,
+          "master": "output/portrait-processed/2026-10-07-queue-rest/Joseph-Zada-master.png"
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "modifications": "Background removal, crop, resize, grayscale and contrast correction, alpha-edge cleanup, and purple eye-mark overlay.",
+        "hairRefinement": {
+          "date": "2026-10-07",
+          "script": "output/portrait-processed/2026-10-07-hair-fixes/refine-hair.mjs",
+          "finalizer": "output/portrait-processed/2026-10-07-hair-fixes/finalize-masters.mjs",
+          "settings": {
+            "config": {
+              "inner": 115,
+              "outer": 85,
+              "seed": 24,
+              "cutoff": 1210,
+              "fade": 100,
+              "minContrast": 65
+            },
+            "changed": 215507,
+            "recovered": 51174,
+            "cleared": 164333,
+            "method": "Source-photo local foreground/background color matting in the hair fringe, no shape or face generation",
+            "finalFrameTreatment": {
+              "preserveOpaqueInteriorPixels": true,
+              "hairEditCutoff": 650,
+              "fade": 25,
+              "crownMask": null
+            }
+          },
+          "matteInput": "output/portrait-processed/2026-10-07-hair-fixes/joseph-zada-refined-cutout.png",
+          "matteCrop": "output/portrait-processed/2026-10-07-hair-fixes/joseph-zada-refined-crop.png",
+          "intermediateMaster": "output/portrait-processed/2026-10-07-hair-fixes/Joseph-Zada-refined-master.png",
+          "faceGeneration": false,
+          "sourcePixels": "Hair fringe alpha and background contamination refined from the existing original photograph. Opaque interior pixels and the original central face region are preserved from the previous master."
+        }
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Joseph-Zada-final-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "9294e54a73e6a7601b45023b1f53e4561e1a8f19ac16f96f05207122e8fc1ffb"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Joseph-Zada.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 182120,
+          "sha256": "12db516984918e800cd276c33a8183523dd49a8ad9fc3c49f08b160e26670f0d",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Joseph-Zada.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 33072,
+          "sha256": "4b8fd308aed326e5aaaf4d564bd8d2051407c125c486067416c553bfb5ae13fd",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false,
+        "installedPortraitCheck": "pass",
+        "hairEdges": "Revised and visually compared on light and dark backgrounds",
+        "centralFacePixelPreservation": {
+          "x": 450,
+          "y": 550,
+          "width": 190,
+          "height": 200,
+          "result": "identical to previous master"
+        }
+      },
+      "qualityNote": "High-resolution editorial photograph. Full curly hair retained and lower body cropped; no hands. Hair edges revised on 7 October 2026: removed the blanket contraction around hair, recovered photographed fringe detail, and reduced background between curls.",
+      "installedPaths": [
+        "static/types/6s/Joseph-Zada.webp",
+        "static/types/6s/s-Joseph-Zada.webp"
+      ]
+    },
+    {
+      "slug": "daniela-amodei",
+      "name": "Daniela Amodei",
+      "filename": "Daniela-Amodei",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.businessinsider.com/anthropic-cofounder-daniela-amodei-trust-safety-generative-artificial-intelligence-2023-4",
+        "imageUrl": "https://i.insider.com/6442d13086be000018e50c51",
+        "photographerOrCredit": "Anthropic, credited by Business Insider",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue-rest/daniela-amodei-full.jpg",
+        "width": 2000,
+        "height": 1500,
+        "sha256": "76f8696b8849340d197f6fe0950f9de72612b4ddc04ce83b35518f4126801b59",
+        "rights": "No open reuse license or publication permission established. Local editorial review asset; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "daniela-amodei",
+          "name": "Daniela Amodei",
+          "filename": "Daniela-Amodei",
+          "type": null,
+          "file": "daniela-amodei-full.jpg",
+          "input": "output/portrait-processed/2026-10-07-queue-rest/daniela-amodei-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue-rest/daniela-amodei-crop.png",
+          "bottom": 1500,
+          "height": 933,
+          "anchorX": 986.1656725406647,
+          "anchorY": 570.2630178614584,
+          "erode": 3,
+          "brightness": 1,
+          "contrast": 1.04,
+          "rotation": 0,
+          "targetX": 540,
+          "targetY": 490,
+          "sourceLandmarks": "output/portrait-processed/2026-10-07-queue-rest/daniela-amodei-landmarks.json",
+          "estimatedHairTop": 151.9296621883425,
+          "estimatedBottom": 1085,
+          "master": "output/portrait-processed/2026-10-07-queue-rest/Daniela-Amodei-master.png"
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "modifications": "Background removal, crop, resize, grayscale and contrast correction, alpha-edge cleanup, and purple eye-mark overlay."
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue-rest/Daniela-Amodei-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "d68cb48cc098bcd13a005db02194a7c6dd1f70bff217033ad9c36ab2605f8178"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Daniela-Amodei.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 93844,
+          "sha256": "b1c7fb65f60b80c035abddcbcc183f54a53147a204475a6935893eb0c4ecbfe6",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Daniela-Amodei.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16028,
+          "sha256": "a723d1e8a2d80554f98e9b179d4369cc5ea254e21dcf3d5189056a352d267812",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "2000 × 1500 supplied portrait; forward-facing smiling expression and full hair retained.",
+      "installedPaths": []
+    },
+    {
+      "slug": "kate-middleton",
+      "name": "Kate Middleton",
+      "filename": "Kate-Middleton",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.vogue.fr/mariage/article/kate-middleton-reinvente-style-nouvelle-princesse-pays-galles-lady-diana",
+        "imageUrl": "https://media.vogue.fr/photos/634fc434cb2f2977043506f8/2%3A3/w_2560%2Cc_limit/1433182559",
+        "photographerOrCredit": "Vogue France distribution; photographer not identified",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue-rest/kate-middleton.jpg",
+        "width": 1318,
+        "height": 1977,
+        "sha256": "42e5f7a43039402f0d8a5ca0d85c6d996d308efaf846b72c49fed00684b30537",
+        "rights": "No open reuse license or publication permission established. Local editorial review asset; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "kate-middleton",
+          "name": "Kate Middleton",
+          "filename": "Kate-Middleton",
+          "type": null,
+          "file": "kate-middleton.jpg",
+          "input": "output/portrait-processed/2026-10-07-queue-rest/kate-middleton-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue-rest/kate-middleton-crop.png",
+          "bottom": 1633,
+          "height": 1067,
+          "anchorX": 752.8758101165295,
+          "anchorY": 591.0844641307447,
+          "erode": 3,
+          "brightness": 1,
+          "contrast": 1.04,
+          "rotation": 0,
+          "targetX": 540,
+          "targetY": 490,
+          "sourceLandmarks": "output/portrait-processed/2026-10-07-queue-rest/kate-middleton-landmarks.json",
+          "estimatedHairTop": 133.47154312757948,
+          "estimatedBottom": 1200.1578495782228,
+          "master": "output/portrait-processed/2026-10-07-queue-rest/Kate-Middleton-master.png"
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "modifications": "Background removal, crop, resize, grayscale and contrast correction, alpha-edge cleanup, and purple eye-mark overlay."
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue-rest/Kate-Middleton-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "79680da8c051cae96796c63f7c19578e75109b18e2d10858b709949ee34faa82"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Kate-Middleton.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 73078,
+          "sha256": "bb97e645c4c018af72932a22602fcff4765b351304f9e5bf4025a4985834b180",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Kate-Middleton.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 12438,
+          "sha256": "55f5158a6a1450ce88e1e896a314217e17109e3aedb13effbedb0332f55a38f4",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "1318 × 1977 photograph with frontal smile and full hair.",
+      "installedPaths": []
+    },
+    {
+      "slug": "lebron-james",
+      "name": "LeBron James",
+      "filename": "LeBron-James",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.nba.com/player/2544/lebron-james",
+        "imageUrl": "https://cdn.nba.com/headshots/nba/latest/1040x760/2544.png",
+        "photographerOrCredit": "NBA official headshot; photographer not identified",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue-rest/lebron-james.png",
+        "width": 1040,
+        "height": 760,
+        "sha256": "1462f7b731596d3ba879097861023e1148ee942ff6d9bcbc94358390eb82d746",
+        "rights": "No open reuse license or publication permission established. Local editorial review asset; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Original NBA image alpha retained",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "lebron-james",
+          "name": "LeBron James",
+          "filename": "LeBron-James",
+          "type": null,
+          "file": "lebron-james.png",
+          "nativeAlpha": true,
+          "input": "output/portrait-processed/2026-10-07-queue-rest/lebron-james-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue-rest/lebron-james-crop.png",
+          "bottom": 760,
+          "height": 992,
+          "anchorX": 526.1182200908661,
+          "anchorY": 215.3071138568781,
+          "erode": 3,
+          "brightness": 1,
+          "contrast": 1.04,
+          "rotation": 0,
+          "targetX": 540,
+          "targetY": 490,
+          "sourceLandmarks": "output/portrait-processed/2026-10-07-queue-rest/lebron-james-landmarks.json",
+          "estimatedHairTop": 238.19709084468553,
+          "estimatedBottom": 1230.1510415459516,
+          "master": "output/portrait-processed/2026-10-07-queue-rest/LeBron-James-master.png"
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "modifications": "Background removal, crop, resize, grayscale and contrast correction, alpha-edge cleanup, and purple eye-mark overlay."
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue-rest/LeBron-James-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "9cfa3fd6735e56f2f2caa3f96ac3b3063fae399f609859c3925ecf0048bff04e"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/LeBron-James.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 58884,
+          "sha256": "3bdc12714b38239c0bd7b6df065b658092326983db6ac787c0a9cbb97e7fcfd2",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-LeBron-James.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13560,
+          "sha256": "f0668a458c3575d912a7f0dbfc83eba93272d91f45c5a911bf1ef2aeb9766008",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "1040 × 760 official transparent headshot. Existing alpha retained; enlarged slightly for eye-mark coverage.",
+      "installedPaths": []
+    },
+    {
+      "slug": "tom-rhys-harries",
+      "name": "Tom Rhys Harries",
+      "filename": "Tom-Rhys-Harries",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://24smi.org/celebrity/378260-tom-ris-kharris.html",
+        "imageUrl": "https://24smi.org/public/media/celebrity/2024/12/04/11bhpawbikei-tom-ris-kharris.jpg",
+        "photographerOrCredit": "24SMI distribution; photographer not identified",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue-rest/tom-rhys-harries-front.jpg",
+        "width": 1080,
+        "height": 1042,
+        "sha256": "96997f6ea54930519d1f0d7bd04b341e1cc65099b9c1b4f25348af339ec538be",
+        "rights": "No open reuse license or publication permission established. Local editorial review asset; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "tom-rhys-harries",
+          "name": "Tom Rhys Harries",
+          "filename": "Tom-Rhys-Harries",
+          "type": null,
+          "file": "tom-rhys-harries-front.jpg",
+          "input": "output/portrait-processed/2026-10-07-queue-rest/tom-rhys-harries-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue-rest/tom-rhys-harries-crop.png",
+          "bottom": 1042,
+          "height": 991,
+          "anchorX": 510.87129056453705,
+          "anchorY": 372.18492760719215,
+          "erode": 3,
+          "brightness": 1,
+          "contrast": 1.04,
+          "rotation": 0,
+          "targetX": 540,
+          "targetY": 490,
+          "sourceLandmarks": "output/portrait-processed/2026-10-07-queue-rest/tom-rhys-harries-landmarks.json",
+          "estimatedHairTop": 150.26138720905107,
+          "estimatedBottom": 1141.6949201690413,
+          "master": "output/portrait-processed/2026-10-07-queue-rest/Tom-Rhys-Harries-master.png"
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png",
+        "modifications": "Background removal, crop, resize, grayscale and contrast correction, alpha-edge cleanup, and purple eye-mark overlay."
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue-rest/Tom-Rhys-Harries-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "c7bee83b589a41b2c154ecf462aa2f931a863e4d592ca939ad5e90870477d8dc"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Tom-Rhys-Harries.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 51328,
+          "sha256": "b10214f6c90495fb361278393357bd26c58bb7ae5bc96cb50118b5bd569f19cb",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Tom-Rhys-Harries.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 11784,
+          "sha256": "2b1055f36de9ae8d1132b6c32da39c9e3b0bf69ba2974050e84f52f267cd317a",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "1080 × 1042 frontal photograph; full hair and shoulders retained.",
+      "installedPaths": []
+    }
+  ]
+}

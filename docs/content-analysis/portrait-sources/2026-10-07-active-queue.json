@@ -1,0 +1,1244 @@
+{
+  "date": "2026-10-07",
+  "scope": "17 active entries from docs/blog-automation/backlog-queue.json at task start; Greg Brockman processed first",
+  "status": "17 masters and 34 WebP exports complete; Greg installed locally, 16 await assigned types",
+  "template": {
+    "path": "face-line-template.png",
+    "sha256": "74b6538bbdbf61cb61ce29a7c8e7a97041108f7fdc20851291c1cd388da09344",
+    "modified": false,
+    "fixedEyeTarget": {
+      "x": 540,
+      "y": 490
+    }
+  },
+  "treatment": "Grayscale real-photo subject, contrast/brightness correction, transparent canvas, exact purple eye template. Site CSS supplies the theme background and final muted tint.",
+  "generationExperiment": {
+    "subject": "Greg Brockman",
+    "result": "rejected",
+    "reason": "Changed skin texture and introduced a silhouette halo. Not used in any final master or export.",
+    "promptFile": "output/portrait-processed/2026-10-07-queue/greg-rejected-imagegen-prompt.txt",
+    "finalProcess": "Native source-photo segmentation and deterministic compositing preserve the photographed likeness."
+  },
+  "portraits": [
+    {
+      "slug": "greg-brockman",
+      "name": "Greg Brockman",
+      "filename": "Greg-Brockman",
+      "type": "3",
+      "status": "installed_for_unpublished_draft",
+      "source": {
+        "page": "https://www.grandforksherald.com/news/local/co-creator-of-chatgpt-greg-brockman-to-speak-at-und",
+        "imageUrl": "https://forum-communications-production-web.s3.us-west-2.amazonaws.com/brightspot/27/2b/7f3fb92d43c8a26aaf2c851ca5ee/greg-brockman.jpg",
+        "photographerOrCredit": "Brigitte Lacombe / contributed",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/greg-brockman-original.jpg",
+        "width": 6720,
+        "height": 4480,
+        "sha256": "d8093dbc6d9e3323eb8dd566888efefa6b41ca73c8f6b21fbc72b27dcd2bd2bc",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "greg-brockman",
+          "name": "Greg-Brockman",
+          "input": "output/portrait-processed/2026-10-07-queue/greg-brockman-refined-cutout.png",
+          "height": 965,
+          "anchorX": 3482.312,
+          "anchorY": 1734.058,
+          "erode": 5,
+          "contrast": 1.04,
+          "brightness": 1.02,
+          "targetX": 540,
+          "targetY": 490,
+          "alphaRefinement": {
+            "input": "output/portrait-processed/2026-10-07-queue/greg-brockman-cutout.png",
+            "gaussianSigmaInSourcePixels": 15,
+            "alphaFormula": "min(originalAlpha, clamp(round(blurredAlpha * 1.5 - 85), 0, 255))",
+            "rgbPixels": "unchanged"
+          }
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Greg-Brockman-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "ce98d7c4c61e751712bee65b9caa298a2487c464ae62945b8f7b42e04f4914fe"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Greg-Brockman.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 61924,
+          "sha256": "d63ccb1392553762dd4ffb5a1b3e21583237fb593d2fb34feee7d34b6eb1ac08",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Greg-Brockman.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 11458,
+          "sha256": "6e5e4c51d093ca01c17b00dad531ac555cb0705a58252edcce3e37a1826f4351",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "High-resolution forward-facing portrait. Native original pixels retained; a generative background-removal experiment was rejected.",
+      "installedPaths": [
+        "static/types/3s/Greg-Brockman.webp",
+        "static/types/3s/s-Greg-Brockman.webp"
+      ]
+    },
+    {
+      "slug": "codie-sanchez",
+      "name": "Codie Sanchez",
+      "filename": "Codie-Sanchez",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.inkl.com/news/codie-sanchez-17-income-streams-i-use-and-you-can-too-to-build-wealth",
+        "imageUrl": "https://images.inkl.com/s3/article/lead_image/22697368/Codie-Sanchez-Headshot-2.png",
+        "photographerOrCredit": "Photographer not identified; image distributed by Inkl",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/codie-sanchez-hires.png",
+        "width": 1920,
+        "height": 1080,
+        "sha256": "7fbbcd20d9bfd963e477c6c3f7058cd09d563b350fb3e05000cdcc1de6e87284",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "codie-sanchez",
+          "name": "Codie-Sanchez",
+          "input": "output/portrait-processed/2026-10-07-queue/codie-sanchez-hires-cutout.png",
+          "height": 979,
+          "anchorX": 911.3115549087524,
+          "anchorY": 444.6973987167141,
+          "erode": 4,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Codie-Sanchez-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "1e87a12d3b35a511c0dae4bdc0fcd12e32a249579c4c23418c5648795d4c480d"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Codie-Sanchez.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 68802,
+          "sha256": "eedd0b27113f6bf98817a25e193dda74b28d0fa2b1f367ff63265ca64b7f49ba",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Codie-Sanchez.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 19664,
+          "sha256": "396229952291e046a786e181a48a2cdec2744a3480ab535a0fbfa49023f3ddd6",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "Outdoor headshot; full hair retained. Replaces an earlier cutout with residual background.",
+      "installedPaths": []
+    },
+    {
+      "slug": "shyam-sankar",
+      "name": "Shyam Sankar",
+      "filename": "Shyam-Sankar",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.hudson.org/events/mobilize-how-reboot-american-industrial-base-stop-world-war-iii",
+        "imageUrl": "https://www.hudson.org/sites/default/files/2026-02/ShyamPic.jpg",
+        "photographerOrCredit": "Photographer not identified; Hudson Institute event portrait",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/shyam-sankar-hudson.jpg",
+        "width": 4000,
+        "height": 2667,
+        "sha256": "28c6757fee77838f9efdf7f5156e12e2ee60253f5d6a8dd8868cda0e163177d3",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "shyam-sankar",
+          "name": "Shyam-Sankar",
+          "input": "output/portrait-processed/2026-10-07-queue/shyam-sankar-hudson-cutout.png",
+          "height": 1150,
+          "anchorX": 2040.09,
+          "anchorY": 923.17,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Shyam-Sankar-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "d7d787297b3a59fadfde2aaa4c604b13a93a03724beba06b66efa0e5559c4794"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Shyam-Sankar.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 70756,
+          "sha256": "4f38848cdc1679fea2ba61f2091a14b8cda11d7ed0e714c0c04d45146a8b74b5",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Shyam-Sankar.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13012,
+          "sha256": "5addb815fbb5255c79ccaa48596bb90ab097ae209c1458d47ee717b0ada64db4",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "High-resolution forward-facing portrait.",
+      "installedPaths": []
+    },
+    {
+      "slug": "dylan-patel",
+      "name": "Dylan Patel",
+      "filename": "Dylan-Patel",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://hiddenforces.io/podcasts/us-semiconductor-export-controls-china-failing-dylan-patel/",
+        "imageUrl": "https://hiddenforces.io/wp-content/uploads/2023/09/HF-Dylan-Patel-768x768.png",
+        "photographerOrCredit": "Photographer not identified; Hidden Forces guest portrait",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/dylan-patel-source.png",
+        "width": 768,
+        "height": 768,
+        "sha256": "fb9e0c04910f8a1562a77bfbd2111f55d4bc319d697227e613503d748d8804a6",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "dylan-patel",
+          "name": "Dylan-Patel",
+          "input": "output/portrait-processed/2026-10-07-queue/dylan-patel-cutout.png",
+          "height": 950,
+          "anchorX": 300,
+          "anchorY": 274.33,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Dylan-Patel-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "4acadf7e9ac02b1ca76e28abb74f746970ce527bbe92a0a4b57b33b10ca1e236"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Dylan-Patel.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 37490,
+          "sha256": "6f1b02bd6f40ba7b93503836ae1d0111efc635967201af0043e64b792a98cab2",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Dylan-Patel.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 10952,
+          "sha256": "dac12e1331d6b265010e391d2b4992e4a3dd8f93d188f4a141ab2c823d38c6a9",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "Slight three-quarter pose; moderate source resolution. Black source background removed with native segmentation.",
+      "installedPaths": []
+    },
+    {
+      "slug": "dan-ives",
+      "name": "Dan Ives",
+      "filename": "Dan-Ives",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://globaleconomicsummit.ie/speakers/daniel-ives/",
+        "imageUrl": "https://globaleconomicsummit.ie/wp-content/uploads/2023/11/Daniel-Ives-Managing-Director-Equity-Research-at-Wedbush-Securities-768x1024.jpeg",
+        "photographerOrCredit": "Photographer not identified; Global Economic Summit speaker portrait",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/dan-ives-source.jpeg",
+        "width": 768,
+        "height": 1024,
+        "sha256": "c0b1b3ef50fae20a06c3b6be96ad27a4925f4d86684784dc8b32f8658b5f9290",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "dan-ives",
+          "name": "Dan-Ives",
+          "input": "output/portrait-processed/2026-10-07-queue/dan-ives-cutout.png",
+          "height": 1050,
+          "anchorX": 430,
+          "anchorY": 357.43,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Dan-Ives-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "b38c0bf3b9e8c8ed8277e9dde9377b5da729c9543a9a1efe3cd34efa17f741c0"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Dan-Ives.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 61774,
+          "sha256": "db5c44eb15279e74c44ec8b140115d99258daebf3fe640168a546fa528778126",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Dan-Ives.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 12906,
+          "sha256": "29833272cef35bb02aec463041c2da6f130737d842701caf9abb23169052adf6",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "Smiling slight three-quarter pose; original source crops the shoulders at its sides.",
+      "installedPaths": []
+    },
+    {
+      "slug": "ilya-sutskever",
+      "name": "Ilya Sutskever",
+      "filename": "Ilya-Sutskever",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.ted.com/talks/ilya_sutskever_the_exciting_perilous_journey_toward_agi",
+        "imageUrl": "https://ted-conferences-speaker-photos-production.s3.amazonaws.com/a5m5rmrz0ns0168iyzptv89rjhqc",
+        "photographerOrCredit": "Photographer not identified; TED speaker portrait",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/ilya-sutskever-source.jpg",
+        "width": 800,
+        "height": 600,
+        "sha256": "de53c2bb77c0d1a2d067d31cdecd888f6940e101957d155b1bf1a5d48b1d1e57",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "ilya-sutskever",
+          "name": "Ilya-Sutskever",
+          "input": "output/portrait-processed/2026-10-07-queue/ilya-sutskever-cutout.png",
+          "height": 1000,
+          "anchorX": 390,
+          "anchorY": 233.08,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Ilya-Sutskever-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "f7eb4713500e22f69185acf368e991ce4131aff838372df027e7fcafe70193fe"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Ilya-Sutskever.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 38934,
+          "sha256": "c23b7b917952079ddd85a9e11a46b4e396c8b4b776a5f582807f5f27f8eb0829",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Ilya-Sutskever.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 12464,
+          "sha256": "031cc91eaa61f6bfb4765d005e233d4c84f3c1d0dcf4b62727ca56a8497cfec0",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "Black-and-white source with moderate resolution and softer detail; no generative upscaling.",
+      "installedPaths": []
+    },
+    {
+      "slug": "stella-lefty",
+      "name": "Stella Lefty",
+      "filename": "Stella-Lefty",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://holler.country/news/breaking/kelsea-ballerini-defends-stella-lefty-after-online-backlash-over-opry-debut/",
+        "imageUrl": "https://cdn.sanity.io/images/o6uq28nb/production/129aeeff2a2e88ef85d97180430e9cce5f51ae42-2900x2900.jpg",
+        "photographerOrCredit": "Photographer not identified; portrait distributed by Holler",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/stella-lefty-source.jpg",
+        "width": 2900,
+        "height": 2900,
+        "sha256": "ede9c7fd36949fb731f666642aa8618f3a0f5da8fa1bf601f490580cb7274c3a",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 26.8379615,
+        "composition": {
+          "slug": "stella-lefty",
+          "name": "Stella-Lefty",
+          "input": "output/portrait-processed/2026-10-07-queue/stella-lefty-aligned.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/stella-lefty-crop.png",
+          "bottom": 1921,
+          "height": 1040,
+          "anchorX": 2343.488657064736,
+          "anchorY": 1078.943891850134,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Stella-Lefty-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "c96da10f3aa220935d011912ff59a97aabe78c9252f9a14b2fa7b9afd81ced34"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Stella-Lefty.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 54824,
+          "sha256": "27e59371d20b37fc9d9e2900e6ce335c47060097fd90d95bf59bf7abfed208fd",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Stella-Lefty.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 15000,
+          "sha256": "ca9d79bfe668211b520aa594c1b90d4f0e3127d9c0619c531caed5414817585b",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "Head tilt corrected using only rotation; hair naturally covers part of one eye. Lower crop excludes the source's hands.",
+      "installedPaths": []
+    },
+    {
+      "slug": "maleah-joi-moon",
+      "name": "Maleah Joi Moon",
+      "filename": "Maleah-Joi-Moon",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.independent.co.uk/news/ap-moon-alicia-keys-new-york-broadway-b2662627.html",
+        "imageUrl": "https://static.independent.co.uk/2024/12/11/14/Maleah_Joi_Moon_Portrait_Session_23143.jpg",
+        "photographerOrCredit": "Associated Press; individual photographer not confirmed",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/maleah-joi-moon-ap.jpg",
+        "width": 3000,
+        "height": 2000,
+        "sha256": "6b11c3111b01cf88d7f99aeb9fecdf5333fd1c244917e8a00514a29111337838",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 19.1984097,
+        "composition": {
+          "slug": "maleah-joi-moon",
+          "name": "Maleah-Joi-Moon",
+          "input": "output/portrait-processed/2026-10-07-queue/maleah-joi-moon-aligned.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/maleah-joi-moon-crop.png",
+          "bottom": 2111,
+          "height": 1143,
+          "anchorX": 1739.8190829232335,
+          "anchorY": 1131.1685812811565,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "offsetX": -40,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Maleah-Joi-Moon-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "8e58c94925923c7cdd61da097a0846fb45f1107f53722a5c4a484dc155396331"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Maleah-Joi-Moon.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 71586,
+          "sha256": "fb14acc8cc3b66dd98c623350eb571b4a023c27d535190a0ad3ffe0404c73df0",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Maleah-Joi-Moon.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 16496,
+          "sha256": "b1a48178e6ef239e6ed8504e4f5dd16f007b742e7a1e595e46f423a64144a8f3",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "Three-quarter portrait; head tilt corrected by rotation. Optical horizontal adjustment centers the photographed eyes behind the mark.",
+      "installedPaths": []
+    },
+    {
+      "slug": "sienna-spiro",
+      "name": "Sienna Spiro",
+      "filename": "Sienna-Spiro",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.shazam.com/artist/sienna-spiro/1745678083",
+        "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/a4/ef/21a4ef8f-52c0-33ca-7abe-e0bf146e0711/198704048272_Cover.jpg/1400x1400bb.jpg",
+        "photographerOrCredit": "Photographer not identified; recording artwork distributed through Apple Music / Shazam",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/sienna-spiro-cover.jpg",
+        "width": 1400,
+        "height": 1400,
+        "sha256": "84d192ab860db75961b64b804c4459a997e260ee6a1e7a11c6f0847a0a966473",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "sienna-spiro",
+          "name": "Sienna-Spiro",
+          "input": "output/portrait-processed/2026-10-07-queue/sienna-spiro-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/sienna-spiro-crop.png",
+          "bottom": 1400,
+          "height": 1019,
+          "anchorX": 683.7578266859055,
+          "anchorY": 521.343849303127,
+          "erode": 4,
+          "contrast": 1.13,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Sienna-Spiro-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "790e9ee7971ec4cd1fe0e25f4f50a514a8d349e9a4b65320546bc8008ce4d1c8"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Sienna-Spiro.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 36000,
+          "sha256": "b62a2e161cc9cc8d5041cee49048e69de8d7a069bc3fb1370df0dab9f235e51b",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Sienna-Spiro.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 10164,
+          "sha256": "4f81e815a1562e7cfbb49acb4428096c1c869f7b5ae51f3213fa33a3f5492824",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "Forward-facing portrait with intentionally soft source detail; modest contrast increase. No hands in final crop.",
+      "installedPaths": []
+    },
+    {
+      "slug": "mike-faist",
+      "name": "Mike Faist",
+      "filename": "Mike-Faist",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.hiamag.com/موضة/مجوهرات-وساعات/1753176-جائزة-شوبارد-trophée-chopard-2024-للممثلة-صوفي-وايلد-والممثل-مايك-فيست",
+        "imageUrl": "https://static.hiamag.com/inline-images/Mike%20Faist.jpg",
+        "photographerOrCredit": "Photographer not identified; Chopard award portrait distributed by Hia Magazine",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/mike-faist-hires.jpg",
+        "width": 8735,
+        "height": 11647,
+        "sha256": "721158f084dc8c2abff700bf58b8f897e7ff1c2efcd451e0aee943a6581bb241",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "mike-faist",
+          "name": "Mike-Faist",
+          "input": "output/portrait-processed/2026-10-07-queue/mike-faist-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/mike-faist-crop.png",
+          "bottom": 8282,
+          "height": 1115,
+          "anchorX": 4467.235317677259,
+          "anchorY": 3220.2999820462583,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Mike-Faist-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "1f255d4bf828709dae794f6b9f2ae237d29c37610e1f3242b0fff3a5e7e9be09"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Mike-Faist.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 53020,
+          "sha256": "119503885445c0cea96ffaf1fc1392038ac0ecfd1e269b3f16b4f89e01007058",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Mike-Faist.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13938,
+          "sha256": "039abbad85258297ebbc2c8eee45974a8f6270074922d18fdd4f160a4c78845c",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "High-resolution forward-facing press portrait; hands excluded by upper-body crop.",
+      "installedPaths": []
+    },
+    {
+      "slug": "ella-beatty",
+      "name": "Ella Beatty",
+      "filename": "Ella-Beatty",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.imdb.com/name/nm13701799/mediaviewer/rm879166465/",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BYWY4ZWJhZmUtOTE2YS00ODgzLWFmMzAtMWQ3MmU3M2Q5MTg3XkEyXkFqcGc%40._V1_.jpg",
+        "photographerOrCredit": "Photographer not identified; IMDb portrait",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/ella-beatty-source.jpg",
+        "width": 1260,
+        "height": 1896,
+        "sha256": "3c9dba3a42abd45642815de5be18bdb330db2ca90b0efaf9bbf710bfd882e700",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "ella-beatty",
+          "name": "Ella-Beatty",
+          "input": "output/portrait-processed/2026-10-07-queue/ella-beatty-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/ella-beatty-crop.png",
+          "bottom": 1323,
+          "height": 1021,
+          "anchorX": 659.3261843919754,
+          "anchorY": 556.2966658845812,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Ella-Beatty-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "2f62d83ef6efe016f2f6439ae58db01d3163d112fa18e1d762aa879205422baa"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Ella-Beatty.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 48320,
+          "sha256": "10a697a7ed991bcf8cb5840a28e6cc1e27ed99fed6a2d2c255f9a864f2ba99ce",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Ella-Beatty.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 11858,
+          "sha256": "5a4f9fb3f9ae59dc83e6077b753951a70d772b84d2a03fa066d3c3244dfbfa7c",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "Forward-facing headshot with full hair retained.",
+      "installedPaths": []
+    },
+    {
+      "slug": "christopher-abbott",
+      "name": "Christopher Abbott",
+      "filename": "Christopher-Abbott",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.rottentomatoes.com/celebrity/christopher_abbott/pictures",
+        "imageUrl": "https://flxt.tmsimg.com/assets/641237_v9_bb.jpg",
+        "photographerOrCredit": "Photographer not identified; portrait distributed by Rotten Tomatoes / TMS",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/christopher-abbott-source.jpg",
+        "width": 1080,
+        "height": 1440,
+        "sha256": "d1e06af5a8a06d237794e061afa64c4039fdcb0dda89c6688622e0bda190e83e",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "christopher-abbott",
+          "name": "Christopher-Abbott",
+          "input": "output/portrait-processed/2026-10-07-queue/christopher-abbott-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/christopher-abbott-crop.png",
+          "bottom": 1440,
+          "height": 1067,
+          "anchorX": 526.9578981399536,
+          "anchorY": 650.5778758082206,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Christopher-Abbott-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "81b8690c2c05cc2101c2c1b5a2bf34d5d378f21ace60d0a4679e9b850ea86141"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Christopher-Abbott.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 84352,
+          "sha256": "a561592b06d3459cf11b9fbf128daaf532e87cf3b18096d7c17a0cc1f7e00a6a",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Christopher-Abbott.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 15936,
+          "sha256": "988791a1c0d918137ac836f1c40b41031b4245a4e730f2741c1f3517d7313848",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "Forward-facing headshot with close but intact top framing.",
+      "installedPaths": []
+    },
+    {
+      "slug": "paapa-essiedu",
+      "name": "Paapa Essiedu",
+      "filename": "Paapa-Essiedu",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.shelfordheadshots.com/copy-of-portfolio",
+        "imageUrl": "https://static.wixstatic.com/media/a7ef0f_ebb8242908e741d3b500b4549d2b674c.jpg",
+        "photographerOrCredit": "Michael Shelford",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/paapa-essiedu-shelford.jpg",
+        "width": 1440,
+        "height": 1800,
+        "sha256": "dae13af41bd903fb4b276ff7e4bb43b89225d8c7588debfe818d8f663451489f",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "paapa-essiedu",
+          "name": "Paapa-Essiedu",
+          "input": "output/portrait-processed/2026-10-07-queue/paapa-essiedu-shelford-cutout.png",
+          "height": 965,
+          "anchorX": 819.079,
+          "anchorY": 673.347,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Paapa-Essiedu-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "af200db7ddad63a789586a57285535efa1bc8a9ada75e2c987b7ec17d12e2371"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Paapa-Essiedu.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 49410,
+          "sha256": "f6cf5695818602c3383c1dec3463024daf33ca2957dd9e359c578ef398ec32b3",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Paapa-Essiedu.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 9866,
+          "sha256": "04ec6ccd3be0f956709a930a6a255264043131a6ecb066f28b2aeb65fe2e752e",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "Sharp forward-facing portrait. The original photograph slightly clips the top of the hair; no hair was reconstructed.",
+      "installedPaths": []
+    },
+    {
+      "slug": "sombr",
+      "name": "sombr",
+      "filename": "Sombr",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.iheart.com/content/2025-05-27-sombr-lands-iheartradio-on-the-verge-status-with-undressed/",
+        "imageUrl": "https://i.iheart.com/v3/re/new_assets/68361c93e023dc14afee816a",
+        "photographerOrCredit": "Photographer not identified; portrait distributed by iHeartRadio",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/sombr-source.jpg",
+        "width": 1200,
+        "height": 678,
+        "sha256": "54fd54a0ace30f99a8600b336782518b3c3aee5b88937e47cb7cba45a55865dd",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 17.675470857,
+        "composition": {
+          "slug": "sombr",
+          "name": "Sombr",
+          "input": "output/portrait-processed/2026-10-07-queue/sombr-aligned.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/sombr-crop.png",
+          "bottom": 834,
+          "height": 1075,
+          "anchorX": 647.1417927742004,
+          "anchorY": 388.3898262007259,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Sombr-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "cf8b221f76f04e91f5c6b31d5eb91b30c0c31a565e6c714026567d430bd23ff7"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Sombr.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 40504,
+          "sha256": "62d7eb52aa79bbb19131a55b184baba1b19b0f57c6593f66d5b46ae5d0ecb002",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Sombr.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 13466,
+          "sha256": "8978076e3076b435a07b10f5aa68702681e778752e8e7bfccc50a333e993e970",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "Black-and-white portrait with dark lighting. Head tilt corrected using rotation.",
+      "installedPaths": []
+    },
+    {
+      "slug": "dakota-johnson",
+      "name": "Dakota Johnson",
+      "filename": "Dakota-Johnson",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.themoviedb.org/person/118545-dakota-johnson/images/profiles",
+        "imageUrl": "https://image.tmdb.org/t/p/original/jI8GITDOV0xatWvkDNHjXYwNkxw.jpg",
+        "photographerOrCredit": "Photographer not identified; TMDB profile portrait",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/dakota-johnson-source.jpg",
+        "width": 1100,
+        "height": 1650,
+        "sha256": "2adc1571e3790e712d8529a1c8c3182a9c4fd4b24bad2c4d889734440948193f",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "dakota-johnson",
+          "name": "Dakota-Johnson",
+          "input": "output/portrait-processed/2026-10-07-queue/dakota-johnson-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/dakota-johnson-crop.png",
+          "bottom": 1650,
+          "height": 1032,
+          "anchorX": 576.6390547156334,
+          "anchorY": 569.5856718753962,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Dakota-Johnson-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "28163eb6cce85d570bf3e65d1ad0b5551c7d2116cc8e075914b732b39307aabc"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Dakota-Johnson.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 55370,
+          "sha256": "8ee24bacfd425b2112fce7112a5c19c2d83f2366719935e1e4f2fc1199c41635",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Dakota-Johnson.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 11140,
+          "sha256": "babb9c0c7da0e1a6a98dbd7297c882d32e8d7e62933795cc065f6b1fb51fbf35",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "Forward-facing event portrait with bangs; no glasses or hands.",
+      "installedPaths": []
+    },
+    {
+      "slug": "josh-hartnett",
+      "name": "Josh Hartnett",
+      "filename": "Josh-Hartnett",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.themoviedb.org/person/2299-josh-hartnett/images/profiles",
+        "imageUrl": "https://image.tmdb.org/t/p/original/8nTEioiir92fGHcASarPxkjF6kG.jpg",
+        "photographerOrCredit": "Photographer not identified; TMDB profile portrait",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/josh-hartnett-source.jpg",
+        "width": 1000,
+        "height": 1500,
+        "sha256": "84a83f1cc232560d8824eb4fdf7168550cab9eef11ace9cc799d1b5e4b6e4bbc",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "josh-hartnett",
+          "name": "Josh-Hartnett",
+          "input": "output/portrait-processed/2026-10-07-queue/josh-hartnett-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/josh-hartnett-crop.png",
+          "bottom": 1500,
+          "height": 973,
+          "anchorX": 504.1968673467636,
+          "anchorY": 588.7698276452645,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Josh-Hartnett-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "cb08dc677f34cafbc88898cb14c039c767c3d013f7489076294640fc2efd94ce"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Josh-Hartnett.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 44780,
+          "sha256": "27e56d7d111fa02d895ddd2a86ef7dc437d233569757a4206f40bc08d54b8827",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Josh-Hartnett.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 10444,
+          "sha256": "e0abda501f99534be2b0d407ac36a59e9ce38ce1c2cdd5d4afe6f0499e8d54d8",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "Older forward-facing portrait. Original source crops the jacket at its sides.",
+      "installedPaths": []
+    },
+    {
+      "slug": "olivia-dean",
+      "name": "Olivia Dean",
+      "filename": "Olivia-Dean",
+      "type": null,
+      "status": "exported_awaiting_type",
+      "source": {
+        "page": "https://www.independent.co.uk/news/uk/home-news/international-womens-day-independent-influence-list-2026-b2930360.html",
+        "imageUrl": "https://static.independent.co.uk/2026/02/26/12/44/GettyImages-2060312323.jpeg",
+        "photographerOrCredit": "Getty Images; individual photographer not confirmed",
+        "localOriginal": "output/portrait-sources/2026-10-07-queue/olivia-dean-alternate.jpeg",
+        "width": 3395,
+        "height": 2262,
+        "sha256": "7772161ed96551723dbf092eeadadfdaeafd3884e41c84c23b5ba521a3e3275c",
+        "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+      },
+      "transformations": {
+        "segmentation": "Apple Vision foreground mask; no face reconstruction",
+        "clockwiseRotationDegrees": 0,
+        "composition": {
+          "slug": "olivia-dean",
+          "name": "Olivia-Dean",
+          "input": "output/portrait-processed/2026-10-07-queue/olivia-dean-cutout.png",
+          "crop": "output/portrait-processed/2026-10-07-queue/olivia-dean-crop.png",
+          "bottom": 2262,
+          "height": 1029,
+          "anchorX": 1819.3035424500704,
+          "anchorY": 969.6519373091472,
+          "erode": 3,
+          "contrast": 1.04,
+          "brightness": 1,
+          "targetX": 540,
+          "targetY": 490
+        },
+        "grayscale": true,
+        "transparentBackground": true,
+        "template": "face-line-template.png"
+      },
+      "master": {
+        "path": "output/portrait-processed/2026-10-07-queue/Olivia-Dean-master.png",
+        "width": 1080,
+        "height": 1080,
+        "sha256": "399dbfd6be803f47ea0928fb58482c9d32e661d2e007aa4077953ce7e1146dfc"
+      },
+      "assets": {
+        "full": {
+          "path": "output/portrait-preflight/2026-10-07-queue/Olivia-Dean.webp",
+          "width": 1080,
+          "height": 1080,
+          "bytes": 75258,
+          "sha256": "cab4542a95fb92e68e72498e640587301e99e53d4ae0c65deeca5092c6aaad22",
+          "alpha": true
+        },
+        "thumbnail": {
+          "path": "output/portrait-preflight/2026-10-07-queue/s-Olivia-Dean.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 15088,
+          "sha256": "2c14ffb5f7f491bd0207c475773eba096e8e7a9e4612b2d11420fce57795a1b3",
+          "alpha": true
+        }
+      },
+      "validation": {
+        "dimensionsAndAlpha": "pass",
+        "unchangedOpaqueTemplatePixels": 22457,
+        "visualReview": "completed",
+        "handsInFinalCrop": false,
+        "glassesInFinalCrop": false
+      },
+      "qualityNote": "High-resolution forward-facing black-and-white event portrait; hair tied back.",
+      "installedPaths": []
+    }
+  ]
+}

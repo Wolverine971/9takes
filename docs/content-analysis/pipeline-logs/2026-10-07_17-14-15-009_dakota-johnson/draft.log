@@ -1,0 +1,30 @@
+I've written the draft and its evidence file for the Dakota Johnson run. They pass the pipeline's draft and evidence checks with no blockers. Only those two files were written, and nothing was published or graded.
+
+**The angle.** She's famous for lying to the press: the limes, and calling lying to the press "the most fun." Yet in the 2026 Vogue interview, the one thing that ruffled her was being called cool: "I just want to be authentic." When I reopened the 2024 Bustle interview, I found her line "It's hard for me to fake it" is about press tours, in the same interview as "the most fun." That became the hinge. She'll play with facts for a laugh, but she won't fake a feeling or let her work become something it isn't. The article labels that as an inference, not something she has said.
+
+**The type call.** Type 4, medium confidence. Type 6 is argued at full strength next to it: her anxiety, stage fright, "safe/protected" language, the cult-then-"defiant" exchange, and her calling Maggie Gyllenhaal her "shepherd." What tips it to 4 is how she uses safety. For her it's what frees her to create ("when I feel safe, I think I can do anything"). She also rejects having a method and calls "the safe thing" boring. Eight, Nine and Seven each get a paragraph, and a closing section lists what the Type 4 reading doesn't explain.
+
+**Two calls you can veto:**
+- **Length:** it's 3,918 words. That's under the 4,500 hard limit but above the 2,000–3,500 target, so reviewers may ask for cuts.
+- **Hitchcock cut:** I dropped her grandmother's account of Hitchcock and her "How could you not have warned us?" line. It was sensitive and only lightly supported the type 6 case. Easy to restore if you want it.
+
+**Accuracy fixes from reopening the sources:**
+- "I don't belong here" is about fashion shows in general, not the Gucci show specifically.
+- The Fifty Shades "we" who shot two versions of each scene isn't only her and costar Jamie Dornan.
+- I found a 2017 put-on worth using. On rumors that she and Dornan hated each other and were having an affair, she said: "We hate each other and we're having an affair, so everybody's right."
+
+**Rules followed:**
+- The unconfirmed Ellen line isn't quoted.
+- The limes story is told as two different versions of her own account.
+- No rehab claim and no rumored romances; she's quoted only declining to discuss her love life.
+- The Fifty Shades conflict is presented as her account beside the 2017 director's, and her praise of E.L. James is kept.
+
+**Before publishing:**
+- Recheck for any public response from E.L. James.
+- Recheck Verity's opening numbers and reception.
+
+Supabase failed to connect this session, and several plugin connectors need authorizing in your settings. Neither was needed for this stage.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/`:
+- `draft.md`
+- `evidence-draft.json`

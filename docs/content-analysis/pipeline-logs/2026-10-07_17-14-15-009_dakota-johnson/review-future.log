@@ -1,0 +1,19 @@
+I wrote the future-role review to `docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-future.json` and changed no other files. It passes the contract's `reviewSchema`, and every quoted passage matches the draft exactly. The role and both hashes are copied from the request.
+
+**Five-year verdict:** the type argument holds up over time. If you remove every 2026 Vogue source, the Type 4 case still stands on her 2017–2025 record: Fincher's compliment, the Fifty Shades and Madame Web complaints, "I don't have a method," the Lost Daughter remarks about being seen, and the 2017 Foley quote. The opening still works too, because the limes and Bustle material is from 2020–2024. Every date and time span I checked is correct, including "Ten months later," "Twelve years later," "At 36" and the June 2025 breakup.
+
+**Findings (4, all minor; none would hold up release):**
+- **future-01:** The ending ages worst. The last section is built entirely from the July 2026 Vogue interview: age 36, the breakup, wanting children, Verity. It closes on her 2026 plan to slow down. The fix is to end on the pattern she says repeats, the heartbreak she feels when a shoot wraps, and cut the status details to one dated clause.
+- **future-02:** A few sentences present old statements as current facts: "Her home life now," "Tender is her favorite word," the undated Jennifer Lawrence joke (the quote also drops its "if we had the time" condition), and "due in 2027." Each needs a year and source in the sentence.
+- **future-03:** The FAQ "What is Dakota Johnson's production company?" has no review trigger, even though FAQ answers get lifted straight into search results.
+- **future-04:** The typing is medium-confidence with a live Type 6 rival, but the evidence record never says what future evidence would reopen it. The review suggests specific signals and when to recheck.
+
+**Protected:** five passages, including the line separating a harmless bit from a faked feeling, the dated note that E.L. James hasn't responded, and the line about losing a set when a film wraps.
+
+**Risk flags:** contested typing and sensitive allegations (the parents' addiction reporting and the creative-control dispute with E.L. James). Both match the evidence record, so this review doesn't add new escalation.
+
+**Limits:**
+- I relied on the source excerpts in the evidence record and didn't reopen any URLs. Reopening sources is the evidence reviewer's job.
+- The similarity check read only two sentences of this draft, so I judged originality by reading it myself. It reads as specific to her.
+
+Several connectors need authorization before they can be used: Notion, Slack, Linear, Ahrefs, Amplitude and others. Connect them in your claude.ai connector settings, or with `/mcp` in an interactive session. The Supabase server also failed to connect. This stage didn't need any of them.

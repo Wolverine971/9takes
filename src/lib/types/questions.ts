@@ -142,6 +142,17 @@ export interface ReplyNotificationThread {
 	reply: Comment | null;
 }
 
+/**
+ * "The gist so far" (T-43): AI paraphrase of how people answered. Gated: the
+ * page load sends it only to a viewer who has answered or to verified
+ * Googlebot.
+ */
+export interface AnswerSummary {
+	summary: string;
+	sourceCommentCount: number;
+	generatedAt: string;
+}
+
 export interface QuestionPageData {
 	question: Question;
 	comments: Comment[];
@@ -162,6 +173,7 @@ export interface QuestionPageData {
 	flagReasons: FlagReason[];
 	replyNotificationReturn?: ReplyNotificationReturnContext | null;
 	replyNotificationThread?: ReplyNotificationThread | null;
+	answerSummary?: AnswerSummary | null;
 }
 
 export interface QuestionsListData {

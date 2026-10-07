@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "bd573ad5041e3f445163428d11dfec6ed3f24cda50cd20c2b66659b3af0a0553",
+  "evidence_sha256": "27e44661f823f7e91e3239d325667bc051e10d2163b745d40b2df00bd0221123",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "in 2026 he reportedly stopped giving to a super PAC halfway through a $50 million pledge because it kept \"reflecting on the company.\"",
+      "problem": "The FAQ is the text most likely to be excerpted by search and AI answers for years, and it rests its Three-over-One case on the least verified, most time-bound item in the record. The only opened source (S31, Gizmodo, October 1, 2026, relaying an unopened New York Times report) quotes a June 2026 Slack message saying \"We've donated $25m so far, and have no plans to donate more at this time.\" The FAQ turns \"no plans ... at this time\" into a settled \"stopped giving.\" It also drops his second stated reason (\"so much of a distraction for people here\"), which the body keeps. C106, C107 and C122 are all `unresolved`, with triggers pointing at post-midterm FEC filings after November 3, 2026. If those filings show new giving, the FAQ becomes false while the body stays true. The same answer also says \"A former colleague calls him\" without the body's label that the source is unnamed.",
+      "acceptance_test": "The Type 1 FAQ grounds its Three-over-One answer in the durable 2019-essay evidence (for example \"nothing to show\" and correcting colleagues who rated him highly). If the PAC item stays, it is dated and keeps the hedge: in a June 2026 Slack message reported by The New York Times, he said he had \"no plans to donate more at this time.\" It also gives both stated reasons. The \"ends-over-means\" source is labeled as an unnamed former employee. No sentence in the FAQs says or implies that his giving ended permanently."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "Musk's lawyers chose the excerpts, and a defendant facing claims of greed has every reason to frame his answers carefully.",
+      "problem": "The diary, the \"mirror\" gloss (C23, a discriminator item) and the \"Solving for the mission\" testimony all come from Musk v. Altman, where Brockman was a named defendant accused of breach of charitable trust. The draft never says how the case ended, and the evidence record has no claim, source or review trigger for the outcome. NPR (May 18, 2026, opened via reader copy) reports that the nine-member advisory jury unanimously found Musk's claims barred by the statute of limitations, and that Judge Yvonne Gonzalez Rogers agreed and dismissed the case. NPR also reports that the verdict 'sidestepped' the merits, and that Musk's side signaled an appeal. A reader in 2031 is left with a pending-sounding \"defendant facing claims of greed\" and no resolution. Readers could fill that gap either way (claims still live, or claims upheld), and the appeal is an open legal matter with no trigger to reopen the page.",
+      "acceptance_test": "One dated, sourced sentence near the trial material states that on May 18, 2026 an advisory jury found Musk's claims time-barred and the judge dismissed the case without reaching the merits, and that Musk's side said it would appeal. The wording does not imply exoneration on the merits. The evidence record adds the source and an `unresolved` claim with review_trigger \"Re-check on any appellate ruling or settlement in Musk v. Altman; revise trial-testimony framing if the merits are reached.\""
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "Brockman's version runs light on glamour. He rarely fights for titles, and after Altman became CEO in 2019 he took \"a less public-facing role,\" as Fortune put it.",
+      "problem": "This sentence presents a status from 2019 to 2025 as an open-ended trait, and it carries type weight: the evidence record uses C40 as counterevidence to a status-seeking Three. The draft's own opened sources show the status changed in 2026. Forbes (S30, September 15, 2026) reports that \"since July\" he oversees OpenAI's product business as well as infrastructure, \"making him the company's second-in-command ahead of a possible IPO.\" He was the spokesperson for the September 3, 2026 Astra launch (S29) and sat for long-form Stratechery and Knowledge Project interviews. C40's own trigger (\"any OpenAI leadership announcement\") had already fired before drafting. Five years out, \"less public-facing\" will read as wrong or as an unlabeled period detail. The draft also misses that the 2019 to 2026 shift is itself relevant evidence: does he step into the visible seat once the work is landing?",
+      "acceptance_test": "The claim is limited in time (for example \"from 2019 through at least 2025, Fortune reported\"). The July 2026 expansion to the product business appears with its date and Forbes source, either as a dated orientation fact or weighed in the type argument. The \"runs light on glamour\" sentence stays accurate when read against the 2026 record. C40 is updated to the 2026 scope, and its trigger names an IPO filing, any CEO change, or a further change in his remit."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "His latest reversal fits.",
+      "problem": "Several pieces of author prose use relative time that will go false or lose meaning: \"His latest reversal fits.\"; \"a [Type 9](/enneagram-corner/enneagram-type-9) reading fits how he now describes his own indecision\"; \"A [Nine](/enneagram-corner/enneagram-type-9) reading comes from his own recent words.\"; and \"Interest spiked again after Luca Guadagnino's _Artificial_ premiered\". No claim covers the last one, and no source shows a spike. Separately, \"One of his hardest moments at OpenAI, he says, came when Sutskever left\" gives no date for Sutskever's departure, so a future reader cannot place it against the August 2024 sabbatical it introduces.",
+      "acceptance_test": "Each relative marker is replaced with an absolute date (\"In June 2026\", \"in April 2026\"). \"Interest spiked again\" is either removed or replaced with the dated premiere fact alone. Sutskever's departure carries a sourced month and year. A search of author prose (quotes excluded) for latest|now|recent|currently|again|this year finds no undated relative-time claim."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "Neon plans a U.S. theatrical release on December 25, 2026.",
+      "problem": "This FAQ sentence becomes false-tense about eleven weeks after drafting, and the body never mentions the release, so the FAQ is its only home. Its only source is a Wikipedia revision (S32), which will be rewritten after release. C59 has a trigger, but publication timing is separate from this run, so the page could go live on either side of the date.",
+      "acceptance_test": "The sentence is written as an as-of statement (\"As of October 2026, Neon had scheduled a U.S. theatrical release for December 25, 2026\"). If the page publishes after that date, the sentence is past tense and backed by a non-Wikipedia release source. C59's trigger is kept."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "He's very much an ends-over-means kind of person.",
+      "problem": "type_hypothesis.discriminator says the Three-over-One call rests on the convergence of C32 (WSJ, unnamed sources from the Amodeis' side), C33 (anonymous Fortune quotes), C23 (a defendant's trial gloss) and C109 (the convergence claim). All four are marked `stable` with empty review_trigger, and Brockman's own account of the 2020 feedback episode and the process complaints is not on record. The next five years hold obvious catalysts that could confirm or undercut these items: Artificial's December 25, 2026 release and any responses to it, a possible IPO prospectus, the Musk appeal, the Hagey and Hao book passages still unopened, release of the Sutskever memo, and the named Stripe-era colleague the research tasks already ask for. Without triggers, a refresh has no prompt to re-weigh the discriminator.",
+      "acceptance_test": "C23, C32, C33 and C109 each carry a review_trigger naming the events that should prompt re-weighting (for example \"Re-weigh if Brockman, Daniela Amodei or a named colleague addresses the 2020 feedback episode on record\" and \"Re-weigh if a named former colleague describes his process habits\"). Where his response is absent, durability is `unresolved`."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "Forbes named him the richest newcomer to its 2026 Forbes 400, worth an estimated $25.5 billion as of September 4, 2026",
+      "problem": "This is correctly dated, but it is a valuation snapshot in the orientation paragraph that does no work in the argument. It will be out of date at the next Forbes list, any tender offer or the possible IPO. The sources also disagree: his sworn testimony put it at \"more than $20 billion\" and AP said \"nearly $30B\" (S30, S26). The only place wealth matters to the portrait is the 2017 diary line \"Financially what will take me to $1B,\" which the draft does not connect to this figure.",
+      "acceptance_test": "The figure either links briefly to the diary's $1B target, so it earns its place, or stays as orientation framed as a dated Forbes estimate. C24's trigger is kept. No undated wealth figure appears anywhere in the body or metadata."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Then a colleague, Jie Tang, \"figured out how to get better results without using my code, and I had nothing to show for my efforts.\" The next line sits alone as its own paragraph: \"I never tried machine learning on the Dota project again.\"",
+      "reason": "A sourced hook from a 2019 essay written without legal stakes. It still works if every 2025–2026 event is removed, and it sets up the title's thesis."
+    },
+    {
+      "passage": "This essay carries more of the type argument than anything else in the record. Other people's confidence bothered him more than his own doubt, and he kept talking their estimate down. He quit when the visible result vanished. He came back in private, over a holiday, beside someone who made failure feel \"ok,\" and he scored the comeback in commits and hours. That is the Type 3 fear in plain form: failing where people can see it.",
+      "reason": "This is the part of the thesis that passes the five-year test. It names the load-bearing evidence, reads it closely, and depends on no time-sensitive status."
+    },
+    {
+      "passage": "He went once he was no longer the critical piece. A [Type 2](/enneagram-corner/enneagram-type-2), whose sense of worth rests on being needed, would be expected to stay where the need was.",
+      "reason": "A durable, behavior-based discriminator drawn from a 2015 decision. It is specific to Brockman, not reusable type boilerplate."
+    },
+    {
+      "passage": "This was the costliest choice in his record, made in an afternoon, and it is the One reading's best day: a moral verdict, with anger set aside. A Six would read it as loyalty. Nothing in it favors a Three over a One.",
+      "reason": "It concedes the alternative on the most famous dated event instead of bending it to fit. That honesty keeps the argument sound however the November 2023 story is later retold, including by the film."
+    },
+    {
+      "passage": "The Three reading rests on their agreement with the 2019 essay, written with no legal stakes.",
+      "reason": "It ties the argument to the durable primary source rather than to the anonymous, rival-sourced or litigated 2025–2026 items, which is why the thesis survives as those items change."
+    }
+  ],
+  "assessment": "Five-year test: passes for the thesis, with repairs needed in metadata and maintenance. The core insight rests on Brockman's own 2014–2019 essays, above all the 2019 machine-learning essay. Removing every 2025–2026 item (trial, PAC, Astra, Forbes, the film) leaves the central argument intact. Most dates are absolute, and most changing facts (title, net worth, film, PAC, AGI framing, memo) have triggers. Weak spots: (1) the FAQ, the most durable-facing text, hardens a June 2026 'no plans ... at this time' into 'stopped giving' and uses it as a discriminator; (2) the May 18, 2026 limitations dismissal of Musk v. Altman, and the appeal Musk's side signaled, are missing from the text and the record even though trial testimony carries a discriminator (outcome checked via the NPR report, opened through a reader copy); (3) the 'less public-facing role' counterweight was already stale before drafting, per the record's own Forbes source on his July 2026 product remit; (4) relative-time wording and an unsourced 'interest spiked'; (5) the discriminator's anonymous, rival-sourced and litigated items have no review triggers. The Astra 'Welcome to the AGI era' bookend closes on the newest event, but it is dated, framed as a launch briefing, tracked by C118, and the section's claim stands without it, so it is not flagged. Similarity advisory tripped on a one-sentence Type 3 definition shared with the Tiger Woods draft ('Type 3 is organized around ... valuable through ...') and on the stock phrase 'public record'. The surrounding arguments differ, so this is ordinary type vocabulary, not argument reuse, and there is no finding. The house definition pattern is worth varying across Type 3 drafts."
+}

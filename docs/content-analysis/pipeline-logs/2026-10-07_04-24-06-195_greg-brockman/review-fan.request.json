@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "greg-brockman",
+  "mode": "create",
+  "role": "fan",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/similarity.json"
+  },
+  "outputs": {
+    "review-fan.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/review-fan.json"
+  },
+  "content_sha256": "bd573ad5041e3f445163428d11dfec6ed3f24cda50cd20c2b66659b3af0a0553",
+  "evidence_sha256": "27e44661f823f7e91e3239d325667bc051e10d2163b745d40b2df00bd0221123"
+}

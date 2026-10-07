@@ -458,6 +458,9 @@ export const actions: Actions = guardAdminActions({
 
 			const { userId } = parsed.data;
 			const db = supabase as any;
+			// Take text is service-role only (give-first wall); guardAdminActions
+			// has already verified the caller is an admin.
+			const contentDb = getSupabaseAdminClient() as any;
 			const profileTable = isDemo ? 'profiles_demo' : 'profiles';
 			const questionTable = isDemo ? 'questions_demo' : 'questions';
 			const commentTable = isDemo ? 'comments_demo' : 'comments';
@@ -485,13 +488,13 @@ export const actions: Actions = guardAdminActions({
 					.eq('author_id', userId)
 					.order('created_at', { ascending: false })
 					.limit(USER_DETAIL_LIMIT),
-				db
+				contentDb
 					.from(commentTable)
 					.select(commentFields, { count: 'exact' })
 					.eq('author_id', userId)
 					.order('created_at', { ascending: false })
 					.limit(USER_DETAIL_LIMIT),
-				db
+				contentDb
 					.from('blog_comments')
 					.select('id, comment, created_at, blog_link, blog_type', { count: 'exact' })
 					.eq('author_id', userId)

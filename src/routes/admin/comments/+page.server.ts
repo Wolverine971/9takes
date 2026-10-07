@@ -9,6 +9,7 @@ import type { Database } from '../../../../database.types';
 import type { PageServerLoad } from './$types';
 import { checkDemoTime } from '../../../utils/api';
 import { loadRouteDemoTime } from '$lib/server/demoTime';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 type CommentRow = Database['public']['Tables']['comments']['Row'];
 type CommentDemoRow = Database['public']['Tables']['comments_demo']['Row'];
@@ -305,62 +306,73 @@ export const load: PageServerLoad = async (event) => {
 		const commentsTable: CommentsQueryTable = isDemo ? 'comments_demo' : 'comments';
 		const profilesTable = isDemo ? 'profiles_demo' : 'profiles';
 		const profileSelection = `profiles:${profilesTable} (email, external_id)`;
+		// Take text is service-role only (give-first wall), so the content reads
+		// below use the service client and start only once the admin check passes.
+		const contentDb = getSupabaseAdminClient();
+		const adminCheck = validateAdmin(session, isDemo, locals.supabase);
+		const afterAdmin = <T>(read: () => Promise<T>) => adminCheck.then(read);
 
-		// The layout guard (parent), the admin check, and all comment loading run
-		// in parallel. Results unwrap in the old sequential order, so a non-admin
-		// still gets the same redirect and the fetched rows are discarded.
+		// The layout guard (parent) and the admin check run in parallel; the
+		// comment loads chain off the admin check. Results unwrap in the old
+		// sequential order, so a non-admin still gets the same redirect.
 		const [parentResult, adminResult, commentsResult, flaggedResult, blogResult] =
 			await Promise.allSettled([
 				event.parent(),
-				validateAdmin(session, isDemo, locals.supabase),
+				adminCheck,
 				// Load regular comments, then their parent questions/comments
-				getPaginatedComments(
-					commentsTable,
-					page,
-					{
-						selectionFields: `id, comment, created_at, parent_id, parent_type, removed, ${profileSelection}`,
-						limit: PAGE_SIZE,
-						orderField: 'created_at',
-						orderDirection: { ascending: false }
-					},
-					locals.supabase
+				afterAdmin(() =>
+					getPaginatedComments(
+						commentsTable,
+						page,
+						{
+							selectionFields: `id, comment, created_at, parent_id, parent_type, removed, ${profileSelection}`,
+							limit: PAGE_SIZE,
+							orderField: 'created_at',
+							orderDirection: { ascending: false }
+						},
+						contentDb
+					)
 				).then(async ({ data, count }) => {
 					const recentComments = (data ?? []) as unknown as AdminComment[];
 					return {
 						data,
 						count,
 						processed: recentComments.length
-							? await attachCommentParents(recentComments, isDemo, locals.supabase)
+							? await attachCommentParents(recentComments, isDemo, contentDb)
 							: []
 					};
 				}),
 				// Load flagged comments
 				isDemo
 					? Promise.resolve({ data: [], count: 0 })
-					: getPaginatedComments(
-							'flagged_comments',
-							page,
-							{
-								selectionFields: `id, comment_id, flagged_by, reason_id, description, created_at, removed_at, cleared_at, comments (id, comment), profiles (email, external_id), flag_reasons (reason)`,
-								limit: PAGE_SIZE,
-								filters: {
-									removed_at: null,
-									cleared_at: null
-								}
-							},
-							locals.supabase
+					: afterAdmin(() =>
+							getPaginatedComments(
+								'flagged_comments',
+								page,
+								{
+									selectionFields: `id, comment_id, flagged_by, reason_id, description, created_at, removed_at, cleared_at, comments (id, comment), profiles (email, external_id), flag_reasons (reason)`,
+									limit: PAGE_SIZE,
+									filters: {
+										removed_at: null,
+										cleared_at: null
+									}
+								},
+								contentDb
+							)
 						),
 				// Load blog comments
 				isDemo
 					? Promise.resolve({ data: [], count: 0 })
-					: getPaginatedComments(
-							'blog_comments',
-							page,
-							{
-								selectionFields: `id, comment, created_at, blog_link, blog_type, profiles (email, external_id)`,
-								limit: PAGE_SIZE
-							},
-							locals.supabase
+					: afterAdmin(() =>
+							getPaginatedComments(
+								'blog_comments',
+								page,
+								{
+									selectionFields: `id, comment, created_at, blog_link, blog_type, profiles (email, external_id)`,
+									limit: PAGE_SIZE
+								},
+								contentDb
+							)
 						)
 			]);
 		unwrapSettled(parentResult);

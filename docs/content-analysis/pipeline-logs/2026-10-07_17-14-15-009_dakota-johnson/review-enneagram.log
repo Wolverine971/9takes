@@ -1,0 +1,15 @@
+I wrote the Enneagram review for the Dakota Johnson draft to `review-enneagram.json` in the run folder. It passes the review schema, and every quoted passage matches the draft exactly. Nothing else was changed and nothing was published.
+
+**Verdict:** Type 4 at medium confidence holds up. The draft fairly rules out Seven, Nine and Eight with real evidence. The weak spot is the argument for Four over Six, which is the comparison that matters most. There are 8 findings: 4 major, 4 minor.
+
+**Major:**
+- **Bad test for Four vs Six.** The draft separates them by "what her safety is for." Six theory predicts that pattern too. In full context, her 2017 Vogue line ("when I feel safe, I can do anything") is about waiting for someone to give her a chance, which reads more like a Six. The Type 6 FAQ and the closing paragraph repeat the same weak test.
+- **Easter Bunny quote misread.** She says making movies "makes things feel a little bit more safe." That's moviemaking in service of safety, the opposite of how the draft uses it.
+- **The title's thesis has a hole.** "Won't fake a feeling" runs into her years promoting Fifty Shades. In 2022 she said "I haven't been able to talk about this truthfully ever, because you want to promote a movie the right way." The article's "what's still open" section never mentions this.
+- **Defiance quote misframed.** The draft calls the cult/defiance exchange a Six "signature" said "in one breath." In the Bustle interview they're two separate answers, the authority contrast came from the interviewer, and the tone is joking. The Four argument never answers it.
+
+**Minor:** the Six alternative is argued as "risk" when the real Six angle is broken trust; "meaning rather than reassurance" is overstated; quote trims drop fear and doubt clauses; and Type 3 is conceded once but never tested.
+
+I marked five passages to keep, including "A Seven's appetite usually runs from that sentence. Hers runs toward it." The similarity check against other recent profiles found no meaningful reuse. I reopened the Bustle, Vanity Fair 2022, Vogue 2017 and Marie Claire articles to check context. I didn't reopen Vanity Fair 2021, L'Officiel or the 2026 Vogue pieces, so for those I relied on the excerpts in the evidence file.
+
+The Supabase connection failed this session, and several plugin connectors (Ahrefs, Slack, Notion and others) need authorizing. This stage didn't need any of them.

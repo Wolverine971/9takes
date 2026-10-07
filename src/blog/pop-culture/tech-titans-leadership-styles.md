@@ -162,7 +162,7 @@ This rarity matters. When a 4 leads a technology company, the company develops a
 
 ### Musk, Zuckerberg, Nadella, Gates, Dorsey
 
-Five of the leaders profiled here are Type 5s, the largest single-type cluster in this analysis, and that's before counting [Larry Page](/personality-analysis/larry-page) and [Sergey Brin](/personality-analysis/sergey-brin) (both 5s, the founders Pichai inherited Google from) or [Dario Amodei](/personality-analysis/dario-amodei), who left OpenAI to quietly build Anthropic without a press cycle. The most withdrawn, cerebral type on the Enneagram dominates an industry that shapes how billions of humans connect, shop, and communicate.
+Five of the leaders profiled here are Type 5s, the largest single-type cluster in this analysis, and that's before counting [Larry Page](/personality-analysis/larry-page) and [Sergey Brin](/personality-analysis/sergey-brin) (both 5s, the founders Pichai inherited Google from) or [Dario Amodei](/personality-analysis/dario-amodei), who left OpenAI to quietly build Anthropic without a press cycle. The most withdrawn, cerebral type on the Enneagram dominates an industry that shapes how billions of humans connect, shop, and communicate. Across every company builder 9takes has profiled, Fives are [the most over-represented type among CEOs](/enneagram-corner/what-enneagram-type-are-most-ceos).
 
 This isn't coincidence. The industry was BUILT by people whose core drive is understanding and mastering systems. The entire culture of Silicon Valley reflects 5 values: intellectual rigor, systems-thinking, emotional detachment, first-principles reasoning. If you're a 5, tech is the one industry where your personality type IS the culture.
 

@@ -276,8 +276,8 @@
 </script>
 
 <SEOHead
-	title="One Question, Nine Perspectives — Anonymous Q&A | 9takes"
-	description="Answer before the crowd. Other answers stay hidden until you post yours — then see nine perspectives on the same question and the emotions behind every take."
+	title="Enneagram Community Q&A: One Question, Nine Perspectives | 9takes"
+	description="An anonymous Enneagram community Q&A. Answer before the crowd: other answers stay hidden until you post yours, then see how all nine types read the same question."
 	canonical="https://9takes.com/questions"
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/questions-default.webp"
@@ -286,7 +286,7 @@
 		{
 			name: 'keywords',
 			content:
-				'anonymous questions, nine perspectives, enneagram, Q&A platform, answer before the crowd'
+				'enneagram community, enneagram forum, anonymous questions, nine perspectives, answer before the crowd'
 		},
 		{ name: 'twitter:label1', content: 'Active Questions' },
 		{ name: 'twitter:data1', content: `${data.questionsAndTags?.length || 0}+` }

@@ -5,7 +5,7 @@
 **For:** the agent who makes `/questions/[slug]` answers indexable by Google while human visitors still can't see any answer until they post their own.
 **Owner:** DJ
 **Created:** 2026-10-06
-**Status:** Ready once DJ answers fork 1 (Section "Forks for DJ"). DJ's direction on 2026-10-06: "I don't want it to be public. I'm okay with doing it for SEO... but I don't want to have that be displayed and bias people's answers." So fork 2 is settled: **keep today's zero-answer wall for humans.**
+**Status:** BUILT 2026-10-07 (uncommitted) on DJ's revised decision: Google sees an AI **summary** of how people answered, never the verbatim takes. Ship order: apply migration, deploy, backfill. See "What was actually done". Fork 1 is moot (no one's words are exposed); fork 2 stays settled (zero-answer wall for humans).
 **Related:** `docs/seo/2026-10-06-keyword-and-outreach-map.md` (Decision 1); `docs/question-page-seo-recommendations-2026-04-07.md`; `src/lib/server/personalityIsrContract.spec.ts` (contract-test pattern); `src/lib/server/contentAccessGuard.ts`.
 
 ---
@@ -369,4 +369,75 @@ That satisfies flexible sampling's lead-in advice and gives searchers a reason t
 
 ## What was actually done
 
-_(Fill in on completion: commit, GSC URL Inspection result, and the 2–4 week readout against the 144-impression baseline.)_
+### DJ's decision (2026-10-07), replacing Part 3's "serve the verbatim takes to Googlebot"
+
+Google sees a **general summation of how people answered** each question, never anyone's exact words. Humans still see **zero answers** before posting their own. Humans see the same summary **after** they answer ("The gist so far"), which makes the Googlebot-visible block the genuinely gated content. That keeps it inside Google's paywall / content-gating guidance (Part 1.3) instead of cloaking. Because no one's words are exposed, fork 1 (index existing takes or only new ones) is moot.
+
+### What was built (2026-10-07, not yet committed or deployed)
+
+| Piece                                                                                                                                                                                                                                                                                                                                                     | File                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Table `question_answer_summaries` (question_id PK → questions ON DELETE CASCADE; `summary` NULL until a draft passes the guards; `source_comment_count`; `model`; `generated_at`; `failed_comment_count`/`failed_at`). RLS on, no policies, anon/authenticated revoked. **Not applied to prod.**                                                          | `supabase/migrations/20261007120000_question_answer_summaries.sql`, hand-added to `database.types.ts`                |
+| Summary pipeline: human-take loader, prompt, guards, OpenRouter caller, refresh run. Transport-agnostic so the script shares it.                                                                                                                                                                                                                          | `src/lib/server/questionAnswerSummary.ts`                                                                            |
+| Googlebot verification: UA (`Googlebot` / `Google-InspectionTool`) **and** reverse DNS → `*.googlebot.com` / `*.google.com` → forward-confirm. Per-IP memo (6 h verified, 1 h miss, 5 min DNS error), 1.5 s timeout, fails closed.                                                                                                                        | `src/lib/server/verifiedGooglebot.ts`                                                                                |
+| Loader: locked branch sends the gist only to verified Googlebot, plus `Cache-Control: private, no-store`. Humans get only `answerSummaryAvailable` (existence, never text). The answered branch gets the gist. Demo mode skips all of it. The dead `getComments(removed=true)` read was dropped from the reveal batch.                                    | `src/routes/questions/[slug]/+page.server.ts`                                                                        |
+| Block: `<section class="answer-gist" data-nosnippet>`, visible (no CSS hiding), "AI summary of N takes. Paraphrased, never quoted." Renders under "Your take" in the revealed thread (`gist` slot in RankedComments), and in the locked shell only when the server sent it (= verified Googlebot). The blurred AI sample cards also got `data-nosnippet`. | `src/lib/components/questions/AnswerGist.svelte`, `answerGist.ts`, `QuestionContent.svelte`, `RankedComments.svelte` |
+| JSON-LD: `isAccessibleForFree: false` + `hasPart` WebPageElement `cssSelector: ".answer-gist"` on both the DiscussionForumPosting and WebPage nodes whenever a gist exists, on every version of the page. Gist text never in JSON-LD. Guardrail comment rewritten.                                                                                        | `src/routes/questions/[slug]/+page.svelte`                                                                           |
+| Hourly cron (`20 * * * *`), `CRON_SECRET`, at most 10 questions per run, 120 s budget, `maxDuration` 300.                                                                                                                                                                                                                                                 | `src/routes/api/cron/question-summaries/+server.ts`, `vercel.json`                                                   |
+| Backfill script `pnpm gen:question-summaries` (`--dry`, `--id=1,2`, `--limit=N`, `--force`). Dry runs print to stdout only and tolerate the missing table.                                                                                                                                                                                                | `scripts/gen-question-summaries.ts`, `package.json`                                                                  |
+
+**What counts as a human take:** a top-level take (`parent_type = 'question'`) in the real `comments` table on a live question, not removed, with non-empty text, and no uncleared `flagged_comments` report. Replies, demo tables and `comments_ai` don't count. Host (admin) takes do count, since they show in the revealed thread, but **all admin accounts count as one person**. DJ has two Type 8 admin accounts, which would otherwise pass the two-people bar for naming a type on their own.
+
+**Guards (code, not just prompt):**
+
+- Rejects any 6+ word run shared with a take (case and punctuation normalized). Runs that also appear in the question text are exempt.
+- Rejects proper nouns copied from a take (mid-sentence capitalized words, common words allowlisted).
+- Rejects quotes, links, emails, handles, lists, a banned-word list (AI tells, etiology, prompt plumbing like "reference take"), and lengths outside 50–230 words.
+- On threads of 3+ takes, rejects "singling out" phrasings ("the outlier", "one person", "only one answer…", "another wants…").
+- Up to 3 attempts, each retry fed the specific reason.
+- A failure is recorded at that take count and **not retried until the count changes**, so a stubborn thread can't bill every hour.
+- If a take was removed and regeneration fails, the old summary is deleted so it can't keep paraphrasing removed content.
+- Logged reasons never contain user text.
+
+**Prompt:** 9takes voice per `9takes-editorial-standards`.
+
+- Lead with the sharpest pattern.
+- No etiology.
+- Name a type's cluster only when 2+ different people of that type answered.
+- The nine `comments_ai` takes are context for missing or present lenses only, never counted as answers.
+- Thin threads (1–2 takes) get one abstract clause plus the lenses still missing.
+
+**Model:** `anthropic/claude-sonnet-5.5` → fallback `anthropic/claude-haiku-4.5`, `reasoning: { effort: 'low' }`. Sonnet 5.5 rejects `reasoning: { enabled: false }`, the hostDigest setting.
+
+**Tests:** `verifiedGooglebot.spec.ts`, `questionAnswerSummary.spec.ts`, `questions/answerGist.page.server.spec.ts` (loader contract), `questions/answerGistContract.spec.ts` (static: no ISR/s-maxage, no gist in JSON-LD, class + `data-nosnippet`, RLS), `api/cron/question-summaries/question-summaries.server.spec.ts`. `pnpm vitest run src/routes/questions src/lib/server src/lib/components/questions src/routes/api/cron/question-summaries`: 95 files / 734 tests pass. `pnpm check`: 0 errors.
+
+**Dry runs (2026-10-07, read-only, stdout only):**
+
+- 13 questions summarized, 1–43 takes each, after three prompt iterations.
+- The iterations fixed: a type example the model kept copying, meta-language ("reference takes"), and retelling single answers.
+- Guards fired as intended: one verbatim copy, two singling-out drafts. All passed by attempt 2.
+- Cost: about $0.008–0.012 per question. Total dry-run spend about $0.30.
+
+### Ship order
+
+1. Apply `20261007120000_question_answer_summaries.sql` to prod. Until then, the loader reads fail closed to "no gist" and the cron's real run refuses to start (it errors, it doesn't regenerate blindly).
+2. Deploy. Check `vercel ls 9takes --prod` (no build-budget trip expected: no new static assets).
+3. `pnpm gen:question-summaries`: the real backfill, about 47 questions, **about $0.45–0.60** (ceiling about $1.50 if every question needed all 3 attempts). Then the hourly cron keeps it current. At today's take volume that's well under $2 a month.
+
+### Verify after deploy
+
+1. **Spoof check:** `curl -s -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" https://9takes.com/questions/what-were-you-like-as-a-kid-in-3-words | grep -c 'class="answer-gist'` → `0`. A laptop IP fails reverse DNS, so it gets the human page. `curl -sI` with the same UA should **not** show `private, no-store` (that header is only for verified Googlebot).
+2. **Paywall markup on the human page:** the same curl → `grep -o '"cssSelector":"[^"]*"'` → `".answer-gist"`, and no summary text anywhere in the page source or `__data`.
+3. **GSC URL Inspection** → Test live URL on the same page → View tested page → HTML: find `<section class="answer-gist…" data-nosnippet` with the summary inside. This works because Google-InspectionTool resolves to `*.googlebot.com`. Then Request indexing. Repeat for 2–3 more questions.
+4. **Rich Results Test:** JSON-LD parses, with `isAccessibleForFree: false` and `hasPart` present, and no summary text in the structured data.
+5. **Human flow:** answer a question in a private window. "The gist so far" appears under "Your take".
+6. **Readout in 2–4 weeks:** GSC Performance filtered to `/questions/` against the 144-impressions-in-90-days baseline.
+
+### Open / for DJ
+
+- **Veto points:**
+  - Host takes count toward summaries (as one person).
+  - Summaries are labelled "AI summary of N takes. Paraphrased, never quoted."
+  - The block sits under your own take, above the sort bar.
+- **Accepted edge case:** if one take is removed and another added in the same hour, the count doesn't change, so the summary isn't regenerated until the next take.
+- Not done: Bingbot (same pattern later), committing, deploying, applying the migration, the backfill.

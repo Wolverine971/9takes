@@ -1,0 +1,19 @@
+I've finished the verify stage for the Greg Brockman profile, and the verdict is **revise**. The draft isn't release-ready yet, but all three blocking problems are small wording fixes, not new research. I wrote only `verification-edit.json` in the run folder. Nothing else in the repo changed and nothing was published.
+
+**Scores:** overall 8.1, below the 8.5 bar. Evidence is 7.8 and Enneagram 7.5, both below their 8 floor. Durability 8.6, originality 8.7, hook 9.0, writing 7.9, discoverability 8.4.
+
+**What I checked:** I reopened all 32 cited sources and checked about 150 quotations against the original text. Almost all match word for word. The editor accepted the reviewers' requests, and 50 of the 51 fixes hold up. All 17 passages the reviewers asked to keep are still there in some form; five were reworded to fix an error or meet a reviewer's request. The editor never checked the closing quote against the audio, so I transcribed the podcast audio twice with Whisper. Every real word matches; only filler words ("Sorry," "Um," "Like") vary.
+
+**The three blocking problems:**
+1. **"He chose a field by asking where he 'could be best in the world.'"** That isn't what he said. In the Stratechery interview, being best was his bar for committing to any field, but he picked science over acting because it was where he could "most make a difference." The article says this correctly earlier, then gets it wrong again as the first item in its Type 3 vs Type 1 argument.
+2. **"His moral vocabulary turns up most when he judges others."** Two of the article's own examples contradict this. The 2017 diary lines ("it was a lie," "pretty morally bankrupt") judge what he and his co-founders were thinking of doing, written privately. That's exactly the kind of self-assessment the article says should decide the case. The honest version is still arguable: he judges his *work* by rank and results, but his *conduct* by right and wrong. As written, the strongest evidence for Type 1 gets misfiled.
+3. **The gap-year chatbot "with nothing to show."** His 2016 essay says the bot could "talk about the weather very convincingly." His 2026 telling, quoted in the same paragraph, describes 1,500 users in a day and "the most glorious feeling." The phrase stretches the article's "nothing to show" theme into a pattern the sources don't support. The fix the fan reviewer asked for, his own line about turning to "systems that can have a real impact," is also still missing.
+
+**Minor issues (not blocking):**
+- The article says the Wall Street Journal's account "begins with" the 2017 layoffs; it actually begins in 2016.
+- Two verified quotes are missing from the evidence record.
+- Someone should listen to the closing quote at about 22:11 on YouTube before publishing to confirm the filler words.
+
+One constraint for the repair pass: the article is 4,464 words against a hard limit of 4,500, so fixing item 2 will mean trimming elsewhere.
+
+Separately, the Supabase connector failed to connect this session, and several plugin connectors (Ahrefs, Figma, Slack and others) need to be authorized. None of them were needed for this stage.

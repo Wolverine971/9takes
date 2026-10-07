@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "subject",
+	"content_sha256": "bd573ad5041e3f445163428d11dfec6ed3f24cda50cd20c2b66659b3af0a0553",
+	"evidence_sha256": "27e44661f823f7e91e3239d325667bc051e10d2163b745d40b2df00bd0221123",
+	"risks": {
+		"sensitive_allegations": true,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "subject-01",
+			"severity": "major",
+			"passage": "That is the Type 3 fear in plain form: failing where people can see it.",
+			"problem": "The profile's central motive claim is the author's inference presented as fact, and it omits the subject's own explanation in the same essay (S06, opened directly 2026-10-07). Brockman writes that his software skills \"were always in demand\" and he \"kept procrastinating\" on machine learning; that he resumed in November 2018 because \"the demands on my time had relented\"; and that he kept pushing \"because I didn't want to be constrained to only understanding one part of my projects. I wanted to see the whole picture clearly.\" The fear he actually names is being \"too timid\" to \"make substantive changes to someone else's machine learning code.\" The hook also cuts the newbie sentence before its ending: \", and this probably said more about my abilities than the problem.\" That ending shows him correcting a flattering misattribution. The body then upgrades \"to make it worse, other people did\" into \"Other people's confidence bothered him more than his own doubt.\" Those words don't say that. The reading may still be right, but as written it substitutes an imagined motive for his stated one.",
+			"acceptance_test": "In the \"Nothing to show for my efforts\" section: (1) the visibility-fear reading is framed as inference (\"this suggests…\"), not \"That is the Type 3 fear in plain form\"; (2) his stated persistence reason (\"see the whole picture clearly\") and the time-demands/procrastination context appear in his words or close paraphrase; (3) the hook quotes the full newbie sentence or the body drops \"bothered him more than his own doubt\"; (4) one sentence explains why the Three reading still beats his own competence/understanding account, or the discriminator leans less on this essay. Evidence claims C85/C86 (inference and alternative) match the revised wording."
+		},
+		{
+			"id": "subject-02",
+			"severity": "major",
+			"passage": "pushing onto a project over its leaders' objections",
+			"problem": "The WSJ account (S22, To Vima syndication, opened) includes outcomes the draft drops, and they cut against the ends-over-means story. After Brockman appealed to Altman, \"Brockman and Altman reluctantly agreed to keep Brockman off the language project.\" He accepted the exclusion; the draft's phrase reads as if he got on. On the March 2020 feedback, the Journal says Altman had asked executives \"to write peer reviews for each other,\" that Brockman \"showed it to Altman beforehand, who declared it 'tough but fair,'\" and that Daniela \"delivered a long response, rebutting him point by point\" in \"the fight over the warring feedbacks.\" The draft's \"a peer review that set off a fight\" makes a two-sided exchange that Altman requested look like his alone. The \"didn't have faith in Brockman and Sutskever's leadership, given the layoffs\" line also omits that the cuts followed Musk asking the two to make \"a spreadsheet listing every employee and what important contribution they had made.\" Each omission makes him look more aggressive than the source does. The WSJ includes no response from Brockman, which makes its own context the main fairness check available.",
+			"acceptance_test": "The WSJ paragraph in \"An ends-over-means kind of person\" reports (a) that he and Altman agreed to keep him off the language project, (b) that Altman requested the peer reviews and called Brockman's \"tough but fair\" beforehand, (c) that Daniela rebutted point by point (a two-sided fight), and (d) that the layoffs followed Musk's spreadsheet request. The Nine paragraph no longer says or implies he joined the project over objections, and the type argument acknowledges that the outcome (accepting exclusion, offering to withdraw his review) is also consistent with deference."
+		},
+		{
+			"id": "subject-03",
+			"severity": "major",
+			"passage": "The cycle colleagues describe, super hard and then gone, appears in his own account.",
+			"problem": "This sentence pins an anonymous characterization on the subject's \"own account,\" which says something else. Asked by Shane Parrish what was going on internally during his time off (The Knowledge Project, about 0:23:28–0:24:05; auto-captions checked 2026-10-07), he described the November 2023 crisis as \"an intense experience to go through, an intense experience to come back to.\" He named Sutskever's departure as the low point and said: \"I think I needed some time to kind of find my way back to remembering like why I was doing this, and why it was so important, and why it was worth the pain.\" The draft quotes the sentence before that and skips his stated reason. His own announcement calls the break his \"First time to relax since co-founding OpenAI 9 years ago\": a one-off break, not a recurring sprint-then-hibernate cycle. Both the body and the sabbatical FAQ give Fortune's relayed media link to his \"demanding leadership style\" but not his own explanation. A sensitive framing gets the space and his response is missing.",
+			"acceptance_test": "\"Like a bear\" and the sabbatical FAQ include his stated reason (needing time to find his way back to why the work was worth it, after the November 2023 crisis and Sutskever's departure) alongside the media framing and OpenAI's response. The body no longer says the anonymous \"bear\" cycle \"appears in his own account\". Any parallel is labeled as the author's comparison, and the \"first time to relax in 9 years\" tension is acknowledged. Claim C38's inference is revised to match."
+		},
+		{
+			"id": "subject-04",
+			"severity": "major",
+			"passage": "His latest reversal fits.",
+			"problem": "The draft treats his political giving and its pullback as type evidence while saying his rationale \"was not available for this profile.\" His on-record reasoning from WIRED's February 2026 interview is widely relayed. Examples: \"This mission, in my mind, is bigger than companies, bigger than corporate structures\"; \"maybe supporting the team is bigger than the people that I happen to be employed with. It's really team humanity\"; \"AI is a uniting technology, and can be so much bigger than what divides us today.\" I could not open WIRED directly and checked this wording against a syndicated copy and several news summaries, so confirm it against WIRED before quoting. Gizmodo (S31, opened) gives the Slack quote more fully: it continues, \"I've been thinking hard about how to turn the ship on it.\" Gizmodo also points to a broad public turn against AI and data centers that made association with the PAC \"almost poisonous\" to candidates. A concern about colleagues' distraction and a changed climate are live alternatives to an image reading. The Type 1 FAQ says he \"stopped giving ... because it kept 'reflecting on the company.'\" That is firmer on finality and motive than his \"no plans to donate more at this time.\" On a politically charged topic, his own explanation is the most important missing response.",
+			"acceptance_test": "The body includes at least one sentence of his own stated rationale for the MAGA Inc. and Leading the Future gifts, attributed to WIRED (February 2026), with the wording confirmed against WIRED or a named outlet quoting it. \"His latest reversal fits\" is rewritten as a labeled inference that names the alternative readings (distraction for colleagues, political climate). The Type 1 FAQ mirrors \"no plans to donate more at this time\" and attributes the reason as his reported Slack wording via the NYT/Gizmodo, not as an established cause. Claim C108 is updated to reflect the rationale found."
+		},
+		{
+			"id": "subject-05",
+			"severity": "major",
+			"passage": "Musk's lawyers chose the excerpts, and a defendant facing claims of greed has every reason to frame his answers carefully.",
+			"problem": "The diary section uses trial exhibits to probe his money motives and calls him \"a defendant facing claims of greed,\" but never says how the case ended. On May 18, 2026, the federal jury in Oakland found Musk's claims against Altman, Brockman, OpenAI and Microsoft barred by the statute of limitations, without reaching the merits. Musk said he would appeal and repeated that \"Altman & Brockman did in fact enrich themselves by stealing a charity\" (Al Jazeera, May 18, 2026, opened; ABC7 and Engadget agree). Leaving a greed accusation open without the outcome or the pending appeal is unfair to the subject and will date the section.",
+			"acceptance_test": "One dated, sourced sentence in \"The diary and the mirror\" states the May 18, 2026 verdict accurately (claims time-barred; merits not decided) and notes Musk's announced appeal, without presenting the verdict as exoneration on the merits. The evidence record adds the claim as time_sensitive/unresolved with a review trigger (appeal ruling or new trial)."
+		},
+		{
+			"id": "subject-06",
+			"severity": "major",
+			"passage": "Fortune's 2025 profile, quoting unnamed former employees, describes the pace.",
+			"problem": "The friction section takes Fortune's anonymous material (S19, opened) and leaves out its on-record and positive context. (1) \"He has incredibly high standards and expects results\" is the second sentence of a quote that begins \"He's the heartbeat of OpenAI—the one who sets the pace.\" Cutting it turns a mixed tribute into a complaint. (2) Fortune's named sources go unmentioned: AMD's Lisa Su on his \"maniacal focus\" and \"Failure is not an option,\" and Stargate head Peter Hoeschele's \"Greg is some of the secret sauce\". The draft itself concedes that its friction evidence is anonymous or rival-sourced. (3) OpenAI's response to the bullying allegation is cut to \"These claims aren't true.\" Fortune's full statement goes on: \"Ilya signed the petition asking for Greg and Sam to be reinstated, and the board's independent review further concluded that he and Sam are the right leaders for OpenAI.\" (4) \"A former colleague's 'into his own hands' also sits uncomfortably close to the habit Brockman himself called 'the worst' in 2014\" implies hypocrisy from one unnamed quote. That quote describes working around slow processes, not \"overturning all the decisions, and then disappearing.\"",
+			"acceptance_test": "The \"high standards\" quote appears with its \"heartbeat\" first sentence, or is paraphrased so the praise survives. At least one named, on-record Fortune characterization (Su or Hoeschele, labeled as a business partner or direct report) sits beside the anonymous ones. OpenAI's denial includes the petition and independent-review rebuttal. The \"the worst\" comparison is either cut or explicitly framed as the author's comparison resting on a single unnamed source."
+		},
+		{
+			"id": "subject-07",
+			"severity": "minor",
+			"passage": "On November 17, 2023, Ilya Sutskever told him on a video call that he was being removed from OpenAI's board but would keep his role, and that Sam Altman had been fired.",
+			"problem": "Factual over-attribution in metadata. The cited joint post (S15) says Sutskever texted and sent a Google Meet link, then \"Greg was told...\". It does not say Sutskever was the one who told him. On The Knowledge Project (about 0:15:52), Brockman says the call was \"the board minus Sam.\" The body gets this right, but the FAQ puts the act on one named person. Separately, the Type 1 FAQ says \"A former colleague calls him 'an ends-over-means kind of person'\" without saying the source is unnamed. FAQ answers are surfaced out of context, so the body's sourcing caveats need to travel with them.",
+			"acceptance_test": "The quit FAQ says the board (minus Altman) told him on a video call Sutskever arranged, or uses the post's passive \"he was told\". The Type 1 FAQ says \"an unnamed former colleague told Fortune\". Claim C123's passage and inference match the corrected FAQ."
+		},
+		{
+			"id": "subject-08",
+			"severity": "minor",
+			"passage": "OpenAI co-founder Greg Brockman once stopped trying machine learning when his code left him \"nothing to show.\" Why Type 3 fits, and where Type 1 pushes back.",
+			"problem": "The metadata states inference more firmly than the body. He wrote \"I never tried machine learning on the Dota project again\", not that he stopped trying machine learning, and he resumed in November 2018 for reasons he gives (time freed up; wanting \"the whole picture\"). \"When his code left him\" implies a cause he never states. The title and meta_title (\"Why Greg Brockman Needs Something to Show\") likewise present an inferred psychological need as settled fact on a medium-confidence typing. The hook echoes his own phrase and is worth keeping, but it shouldn't claim more than the body does.",
+			"acceptance_test": "The description limits the episode to the Dota project and uses sequence, not causation (e.g., \"...gave up machine learning on OpenAI's Dota project after his code was replaced...\"). The title and meta_title keep the \"something to show\" hook but frame it as the profile's reading or a question, not a diagnosed need. All three still fit the length limits and match the revised body."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Nothing in the record points to a formative wound, and this profile won't supply one.",
+			"reason": "A fairness commitment stated in plain language. It declines the invented-childhood shortcut the standard forbids, and it sets up the Herald and Technology Review facts as observation rather than causation."
+		},
+		{
+			"passage": "Sutskever also testified that his written claim that Brockman \"was essentially fired from Stripe\" rested on \"Mira told me,\" meaning [Mira Murati](/personality-analysis/mira-murati), and that he never checked it with Brockman, whose 2015 farewell post describes a voluntary exit.",
+			"reason": "Verified against the deposition transcript (\"Mira told me.\" / \"Did you seek to verify it with Greg?\" / \"No.\"). It puts the subject's documented account next to a damaging hearsay claim, which is exactly the response-giving this role looks for."
+		},
+		{
+			"passage": "This was the costliest choice in his record, made in an afternoon, and it is the One reading's best day: a moral verdict, with anger set aside. A Six would read it as loyalty. Nothing in it favors a Three over a One.",
+			"reason": "It concedes adverse evidence honestly at the moment of highest stakes, rather than bending November 17 to fit the thesis. The \"It just wasn't right\" / \"No\" exchange it rests on matches the Knowledge Project captions (about 0:17:08–0:17:14)."
+		},
+		{
+			"passage": "Some of Brockman doesn't fit the Three reading, and it shouldn't be trimmed to fit.",
+			"reason": "It explicitly leaves the person larger than the type. Keep it even if the surrounding section is reworked."
+		},
+		{
+			"passage": "I think the way that I operate is I'm very much a in the trenches kind of leader. Try to lead from the front. And sometimes when I do that, I don't always Sorry, I'm getting a little emotional. Um, but I don't always look back to see if everyone's following. Like I just like run right in.",
+			"reason": "A humanizing, self-critical ending in his own words. Checked against the YouTube auto-captions (about 0:22:11–0:22:25), which match this wording, including \"Like I just like run right in\". Preserve it verbatim. If it is trimmed, keep the self-criticism (\"I don't always look back to see if everyone's following\")."
+		}
+	],
+	"assessment": "Fairness-proxy review; I do not speak for Brockman. The draft is unusually disciplined. It labels anonymous and rival sourcing, refuses an invented childhood wound, keeps disputed items (\"money and power,\" the \"countries plan\") out of the prose, gives the One reading its best day, and puts Sutskever's hearsay Stripe claim next to Brockman's own account. Its fairness problems are omissions, and they cluster where the motive argument is built. The draft leaves out Brockman's own on-record explanations: the 2019 essay's stated reasons, his account of the sabbatical, and his WIRED rationale for the donations. It also drops WSJ outcomes in which he backed down, the May 2026 verdict, and the fuller OpenAI denial. In each case the record ends up looking more \"ends-over-means\" than the sources do. None of this requires changing the type, but several items carry weight in the 3-vs-1 discriminator, so the editor should re-check the discriminator after the repairs. Sources opened for this review on 2026-10-07: S06 (direct), S19 Fortune, S22 WSJ via To Vima, S28 Stratechery, S31 Gizmodo, S20 deposition, Knowledge Project auto-captions (yt-dlp), and Al Jazeera on the verdict. The New Yorker and WIRED could not be fetched. For the New Yorker I relied on the research excerpt; for WIRED, on a syndicated copy and search summaries, so that wording needs confirming. Similarity advisory: the two tripped pairs (the Type 3 definition sentence vs. Tiger Woods; \"public record\" disclaimer vs. Margaret Qualley) are ordinary type vocabulary and an identity sentence. The arguments are distinct, so there is no reuse finding. Risks confirmed: sensitive allegations (bullying memo, \"abrasive operator,\" greed claims at trial, political donations) and contested typing (medium confidence, live 1 and 9 alternatives)."
+}

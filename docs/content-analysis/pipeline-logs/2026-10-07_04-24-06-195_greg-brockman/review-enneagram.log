@@ -1,0 +1,32 @@
+I wrote the Enneagram review for the Greg Brockman draft. It passes the pipeline's review schema, and every quoted passage matches the draft exactly. I didn't change or publish anything else; my scratch files are all in `/tmp`.
+
+**Verdict:** the type argument is honest but thinner than it claims. Type 3 is still defensible, but the case for 3 over Type 1 is close to a tie as written.
+
+**What the draft does well (5 passages flagged to keep):**
+- It doesn't invent a childhood wound.
+- It doesn't explain away contradictions with wings or arrows.
+- It admits the November 2023 resignation favors the Type 1 and Type 6 readings.
+- It labels anonymous and rival-sourced testimony.
+
+**4 major findings:**
+1. **The draft wrongly rules out Type 5.** It says a Type 5 would withdraw and study until ready, and Brockman doesn't. His 2019 essay describes exactly that: three months of self-study, then "I felt ready." His stated reason for pushing through was to "see the whole picture clearly." The draft leaves that out.
+2. **The key 2019 quote is cut short.** The full sentence adds "and this probably said more about my abilities than the problem." Colleagues offered him an excuse and he refused it, which fits Type 1 or 5 at least as well as Type 3. This matters because the draft says the Type 3 reading rests mainly on that essay.
+3. **The list of reasons for 3 over 1 mostly fails the draft's own test** (right way versus fast way):
+   - In the 2017 "mirror" testimony, he called an effective move morally wrong. That is the Type 1 answer.
+   - The peer-review quote drops "abusing her power," which makes it a moral charge, not a case against process.
+   - The launch-date rule doesn't distinguish the types.
+   - That leaves one anonymous quote from Fortune.
+4. **The FAQ says "the record shows" Type 3.** That claim rests on that anonymous quote and on the super PAC pullback. The pullback is explained by company pressure as much as by personality.
+
+**4 minor findings:**
+- He describes caring about "the environment" others work in, in both 2014 and 2026, and the draft never addresses it.
+- "He quit when the visible result vanished" ignores the time pressure the essay itself names.
+- The "commits and hours" line misdescribes the source: the commits were his teammates'.
+- The Type 9 rebuttal leans on anonymous and rival-sourced items.
+- One sentence defining Type 3 nearly copies the Tiger Woods profile.
+
+The editor should either rebuild the 3-versus-1 argument on evidence that holds up against the full sources, or soften the confidence wording in the body and FAQ. If the edit switches the leading type (to 1 or 5), the standard requires a re-run with `--refresh --expanded-review`.
+
+On sources: Brockman's blog was down, so I read the 2019 essay from an archived copy. I opened the Stratechery interview directly. For the podcast transcript and the Wall Street Journal text I used the research stage's cached copies. I didn't reopen Fortune, MIT Technology Review, Gizmodo or the NYT; their excerpts in the evidence file match the draft.
+
+The review is in `review-enneagram.json` in the run's log folder.

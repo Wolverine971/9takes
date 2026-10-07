@@ -2,6 +2,7 @@
 import { error, json } from '@sveltejs/kit';
 import { logger, withApiLogging } from '$lib/utils/logger';
 import { z } from 'zod';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 const getLinksSchema = z.object({
 	parentId: z.string().transform(Number),
@@ -33,7 +34,8 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 		const { data: userHasAnswered, error: canSeeLinksError } = await supabase.rpc(
 			'can_see_comments_3',
 			{
-				userfingerprint: cookie,
+				// PostgREST needs every named argument, including a null fingerprint.
+				userfingerprint: cookie ?? null,
 				questionid: parentId,
 				userid: user?.id || null
 			}
@@ -49,7 +51,9 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 			return json([]);
 		}
 
-		const { data: links, error: linksError } = await supabase
+		// links holds URLs lifted from takes, so it is service-role only; the
+		// gate above has already passed.
+		const { data: links, error: linksError } = await getSupabaseAdminClient()
 			.from('links')
 			.select('*')
 			.eq('question_id', parentId)

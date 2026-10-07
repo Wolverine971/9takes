@@ -321,7 +321,7 @@ Type 8s are wired for control, impact, and real consequences. The dream job is o
 
 #### Best jobs for Type 8
 
-- **Founder or CEO**: control plus impact plus freedom
+- **Founder or CEO**: control plus impact plus freedom (though in [our count of famous CEOs](/enneagram-corner/what-enneagram-type-are-most-ceos), Fives outnumber Eights)
 - **Trial lawyer or litigation attorney**: confrontation as a feature
 - **Crisis manager, ER physician, or military officer**: high stakes, fast decisions
 - **Construction or operations director**: command big teams and real-world outcomes

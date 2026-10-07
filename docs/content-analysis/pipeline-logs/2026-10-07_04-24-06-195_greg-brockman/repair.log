@@ -1,0 +1,23 @@
+I've finished the repair stage for the Greg Brockman profile. The three output files are in the run folder: `repair.md`, `evidence-repair.json` and `resolution-repair.json`. I changed nothing else: the live draft is untouched and nothing was published. The new verification run is what decides whether the article passes.
+
+**The three blocking problems, fixed:**
+1. **"Best in the world."** The Type 3 argument now leads with "His ninth-grade bar for any field was being 'best in the world.'" That matches the Stratechery interview, where being best was his bar for committing to a field but he picked science for impact. The evidence record says the same.
+2. **The diary.** The article now says his moral vocabulary judges conduct, including his own. The private 2017 diary entries ("a lie," "morally bankrupt") are conceded as the strongest private evidence for Type 1. It then says why they don't settle the case: most people would condemn those acts. What would mark a Type 1 is applying a right-or-wrong standard to his work too, and his accounts of his work score it by rank and results instead. The type answer and both type FAQs now say he "scores his work," not "himself." Confidence stays medium.
+3. **The gap-year chatbot.** "Nothing to show" is gone. The sentence now uses his own words: the bot could "talk about the weather very convincingly," couldn't be made to "really work," and he "decided to focus on creating systems that can have a real impact." The fan reviewer had asked for that last line.
+
+**The closing quote:** instead of leaving this for a pre-publication listen, I ran the podcast audio through Whisper (speech-to-text) with two models, set to keep filler words.
+- **Confirmed:** "Um," "just like run right in," and probably "I'm getting a little emotional." The YouTube captions and one model hear "getting"; the other model hears "kind of" or "gonna get."
+- **Not confirmed:** "Sorry" and "Like I." No audio run picks them up.
+- **What changed:** the quote now uses only confirmed words. The break is narrated ("He broke off:") and an ellipsis marks the gap. A short human listen at about 22:11 on YouTube could settle "getting" and the two dropped fillers; that's logged as a non-blocking task.
+
+**Minor fixes:**
+- "Begins with" is now "reports" in the Wall Street Journal paragraph.
+- The evidence record now covers two quotes it was missing: the opening Dota quote and "circling."
+- "Hedley" is corrected to Hedlund in the evidence record.
+- The September 2025 date now applies only to the MAGA Inc. gift.
+
+**Word count:** the article is 4,496 words against the 4,500 limit. Fitting the new text meant cutting a few restatements and filler lines.
+
+The structural check passes: all 51 review findings plus the 6 verification findings have decisions, and all 17 protected passages are accounted for. The remaining blockers clear only when the new verification runs.
+
+The Supabase connector failed to connect this session, and several plugin connectors (Ahrefs, Figma, Slack and others) need authorizing. None were needed for this stage.

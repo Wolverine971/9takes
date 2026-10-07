@@ -1,7 +1,7 @@
 ---
 title: 'The Complete Enneagram Compatibility Matrix: All 45 Type Pairings Decoded'
 meta_title: 'Enneagram Compatibility Chart: All 45 Type Pairings'
-description: 'A 9x9 Enneagram compatibility chart covering all 45 type pairings: what pulls each pair together, where it tends to crack, and what keeps it working.'
+description: 'A 9x9 Enneagram compatibility chart and calculator for all 45 type pairings: what pulls each pair together, where it cracks, and what keeps it working.'
 author: 'DJ Wayne'
 date: '2025-08-24'
 loc: 'https://9takes.com/enneagram-corner/enneagram-compatibility-matrix'
@@ -32,212 +32,34 @@ mentions:
     description: 'Areas where relationship challenges promote personal development'
   - name: 'Core Wounds'
     description: 'Painful early experiences that many people connect to their adult relationship patterns'
+  - name: 'Tritype'
+    description: 'A model that adds a second and third type, one from each of the other two Enneagram centers, to the core type'
 ---
 
 <script>
   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+  import CompatibilityCalculator from "$lib/components/blog/compatibility/CompatibilityCalculator.svelte";
+  import CompatibilityChart from "$lib/components/blog/compatibility/CompatibilityChart.svelte";
+  import CompatibilityReads from "$lib/components/blog/compatibility/CompatibilityReads.svelte";
 </script>
-
-<style>
-  .compat-chart {
-    --blog-link-color: var(--ink-bright);
-    overflow-x: auto;
-    margin: 1.5rem 0;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .compat-chart table {
-    display: table;
-    width: 100%;
-    min-width: 50rem;
-    margin: 0;
-    table-layout: fixed;
-    overflow: visible;
-    font-size: 0.8125rem;
-    line-height: 1.3;
-  }
-
-  .compat-chart caption {
-    caption-side: bottom;
-    padding-top: 0.5rem;
-    text-align: left;
-    font-size: 0.875rem;
-    color: var(--ink-dim);
-  }
-
-  .compat-chart th,
-  .compat-chart td {
-    min-width: 0;
-    padding: 0.45rem 0.35rem;
-    text-align: center;
-    vertical-align: middle;
-    white-space: normal;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    overflow-wrap: break-word;
-  }
-
-  .compat-chart thead th:first-child {
-    width: 6.5rem;
-  }
-
-  .compat-chart tbody th {
-    position: sticky;
-    left: 0;
-    z-index: 1;
-    text-align: left;
-  }
-
-  .compat-chart .tname {
-    display: block;
-    font-size: 0.6875rem;
-    font-weight: 400;
-    color: var(--ink-mid);
-    hyphens: none;
-  }
-
-  .compat-chart td.same {
-    background-color: color-mix(in srgb, var(--lamp-glow) 14%, transparent);
-  }
-</style>
 
 <QuickAnswer question="Which Enneagram types are most compatible?">
 There is no universally best Enneagram pairing. Compatibility depends more on health level than type. Commonly strong pairings include 2 + 8, 4 + 5, 1 + 7, and 3 + 9, but any pairing can work when both people are self-aware, emotionally regulated, and willing to grow.
 </QuickAnswer>
 
+## Enneagram compatibility calculator
+
+Pick your type and theirs. You'll see that pairing's fault line, what pulls you together, where it cracks, and what keeps it working. The page link updates as you pick, so you can send the exact pairing to the other person.
+
+<CompatibilityCalculator />
+
+The calculator reads core types only. If you both know your tritypes, [the tritype section](#tritype-compatibility) shows how to layer a second, quieter read on top.
+
 ## Enneagram Compatibility Chart: All 45 Pairings
 
 Find your type down the left side and your partner's type across the top. The cell where they meet names that pairing's fault line, the place it tends to crack. Tap or click it for the full breakdown: what pulls you together, how the crack shows up, and what makes it work.
 
-<div class="compat-chart">
-<table>
-<caption>Enneagram compatibility chart: the fault line for each of the 45 type pairings. Same-type pairings sit on the shaded diagonal.</caption>
-<thead>
-<tr>
-<th scope="col">Type</th>
-<th scope="col">1<span class="tname">Perfectionist</span></th>
-<th scope="col">2<span class="tname">Helper</span></th>
-<th scope="col">3<span class="tname">Achiever</span></th>
-<th scope="col">4<span class="tname">Individualist</span></th>
-<th scope="col">5<span class="tname">Investigator</span></th>
-<th scope="col">6<span class="tname">Loyalist</span></th>
-<th scope="col">7<span class="tname">Enthusiast</span></th>
-<th scope="col">8<span class="tname">Challenger</span></th>
-<th scope="col">9<span class="tname">Peacemaker</span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th scope="row">1<span class="tname">Perfectionist</span></th>
-<td class="same"><a href="#1--1-the-perfectionist-mirror">Rigidity spirals</a></td>
-<td><a href="#1--2-the-reformer-and-helper-dance">Criticism vs. unappreciated care</a></td>
-<td><a href="#1--3-the-achievement-partnership">Right way vs. winning</a></td>
-<td><a href="#1--4-the-idealist-connection">Criticism vs. sensitivity</a></td>
-<td><a href="#1--5-the-analytical-alliance">Both retreat, hearts unfed</a></td>
-<td><a href="#1--6-the-security-system">Anxiety feeding anxiety</a></td>
-<td><a href="#1--7-the-paradox-pairing">Rules vs. freedom</a></td>
-<td><a href="#1--8-the-power-struggle">Righteousness wars</a></td>
-<td><a href="#1--9-the-peaceful-reform">More criticism, more retreat</a></td>
-</tr>
-<tr>
-<th scope="row">2<span class="tname">Helper</span></th>
-<td><a href="#1--2-the-reformer-and-helper-dance">Criticism vs. unappreciated care</a></td>
-<td class="same"><a href="#2--2-the-giving-competition">Secret scorekeeping</a></td>
-<td><a href="#2--3-the-power-couple">Used vs. smothered</a></td>
-<td><a href="#2--4-the-emotional-intensity">Escalation, no resolution</a></td>
-<td><a href="#2--5-the-unlikely-connection">Connection vs. space</a></td>
-<td><a href="#2--6-the-support-system">Anxiety and dependency</a></td>
-<td><a href="#2--7-the-joy-and-care">Depth vs. skimming</a></td>
-<td><a href="#2--8-the-intense-bond">Boundary violations</a></td>
-<td><a href="#2--9-the-gentle-connection">Problems go underground</a></td>
-</tr>
-<tr>
-<th scope="row">3<span class="tname">Achiever</span></th>
-<td><a href="#1--3-the-achievement-partnership">Right way vs. winning</a></td>
-<td><a href="#2--3-the-power-couple">Used vs. smothered</a></td>
-<td class="same"><a href="#3--3-the-success-partnership">Competition, workaholism</a></td>
-<td><a href="#3--4-the-success-and-depth">Image vs. authenticity</a></td>
-<td><a href="#3--5-the-strategic-alliance">Feelings performed or analyzed</a></td>
-<td><a href="#3--6-the-achievement-and-security">Risk vs. caution</a></td>
-<td><a href="#3--7-the-dynamic-duo">Stays surface-level</a></td>
-<td><a href="#3--8-the-power-alliance">Power struggles</a></td>
-<td><a href="#3--9-the-achievement-and-peace">Different paces</a></td>
-</tr>
-<tr>
-<th scope="row">4<span class="tname">Individualist</span></th>
-<td><a href="#1--4-the-idealist-connection">Criticism vs. sensitivity</a></td>
-<td><a href="#2--4-the-emotional-intensity">Escalation, no resolution</a></td>
-<td><a href="#3--4-the-success-and-depth">Image vs. authenticity</a></td>
-<td class="same"><a href="#4--4-the-emotional-depths">Who feels more</a></td>
-<td><a href="#4--5-the-depth-and-detachment">Abandoned vs. smothered</a></td>
-<td><a href="#4--6-the-intensity-and-anxiety">Activated fears</a></td>
-<td><a href="#4--7-the-depth-and-light">Melancholy vs. forced positivity</a></td>
-<td><a href="#4--8-the-intense-power">Escalating eruptions</a></td>
-<td><a href="#4--9-the-depth-and-peace">Unseen vs. overwhelmed</a></td>
-</tr>
-<tr>
-<th scope="row">5<span class="tname">Investigator</span></th>
-<td><a href="#1--5-the-analytical-alliance">Both retreat, hearts unfed</a></td>
-<td><a href="#2--5-the-unlikely-connection">Connection vs. space</a></td>
-<td><a href="#3--5-the-strategic-alliance">Feelings performed or analyzed</a></td>
-<td><a href="#4--5-the-depth-and-detachment">Abandoned vs. smothered</a></td>
-<td class="same"><a href="#5--5-the-mind-meld">Silent disconnection</a></td>
-<td><a href="#5--6-the-research-partnership">Analysis paralysis</a></td>
-<td><a href="#5--7-the-mind-and-adventure">Exhausted vs. bored</a></td>
-<td><a href="#5--8-the-strategy-and-power">Push and retreat</a></td>
-<td><a href="#5--9-the-quiet-understanding">Drift no one notices</a></td>
-</tr>
-<tr>
-<th scope="row">6<span class="tname">Loyalist</span></th>
-<td><a href="#1--6-the-security-system">Anxiety feeding anxiety</a></td>
-<td><a href="#2--6-the-support-system">Anxiety and dependency</a></td>
-<td><a href="#3--6-the-achievement-and-security">Risk vs. caution</a></td>
-<td><a href="#4--6-the-intensity-and-anxiety">Activated fears</a></td>
-<td><a href="#5--6-the-research-partnership">Analysis paralysis</a></td>
-<td class="same"><a href="#6--6-the-security-fortress">Fear echoes</a></td>
-<td><a href="#6--7-the-security-and-adventure">Prepare vs. pretend</a></td>
-<td><a href="#6--8-the-loyalty-and-power">Questioning vs. certainty</a></td>
-<td><a href="#6--9-the-loyal-peace">Avoided decisions</a></td>
-</tr>
-<tr>
-<th scope="row">7<span class="tname">Enthusiast</span></th>
-<td><a href="#1--7-the-paradox-pairing">Rules vs. freedom</a></td>
-<td><a href="#2--7-the-joy-and-care">Depth vs. skimming</a></td>
-<td><a href="#3--7-the-dynamic-duo">Stays surface-level</a></td>
-<td><a href="#4--7-the-depth-and-light">Melancholy vs. forced positivity</a></td>
-<td><a href="#5--7-the-mind-and-adventure">Exhausted vs. bored</a></td>
-<td><a href="#6--7-the-security-and-adventure">Prepare vs. pretend</a></td>
-<td class="same"><a href="#7--7-the-adventure-explosion">Neither processes pain</a></td>
-<td><a href="#7--8-the-intensity-and-joy">Control vs. freedom</a></td>
-<td><a href="#7--9-the-joy-and-peace">Activity vs. peace</a></td>
-</tr>
-<tr>
-<th scope="row">8<span class="tname">Challenger</span></th>
-<td><a href="#1--8-the-power-struggle">Righteousness wars</a></td>
-<td><a href="#2--8-the-intense-bond">Boundary violations</a></td>
-<td><a href="#3--8-the-power-alliance">Power struggles</a></td>
-<td><a href="#4--8-the-intense-power">Escalating eruptions</a></td>
-<td><a href="#5--8-the-strategy-and-power">Push and retreat</a></td>
-<td><a href="#6--8-the-loyalty-and-power">Questioning vs. certainty</a></td>
-<td><a href="#7--8-the-intensity-and-joy">Control vs. freedom</a></td>
-<td class="same"><a href="#8--8-the-power-coupling">Control battles</a></td>
-<td><a href="#8--9-the-power-and-peace">Overwhelm, then passive aggression</a></td>
-</tr>
-<tr>
-<th scope="row">9<span class="tname">Peacemaker</span></th>
-<td><a href="#1--9-the-peaceful-reform">More criticism, more retreat</a></td>
-<td><a href="#2--9-the-gentle-connection">Problems go underground</a></td>
-<td><a href="#3--9-the-achievement-and-peace">Different paces</a></td>
-<td><a href="#4--9-the-depth-and-peace">Unseen vs. overwhelmed</a></td>
-<td><a href="#5--9-the-quiet-understanding">Drift no one notices</a></td>
-<td><a href="#6--9-the-loyal-peace">Avoided decisions</a></td>
-<td><a href="#7--9-the-joy-and-peace">Activity vs. peace</a></td>
-<td><a href="#8--9-the-power-and-peace">Overwhelm, then passive aggression</a></td>
-<td class="same"><a href="#9--9-the-double-peace">Mutual inaction</a></td>
-</tr>
-</tbody>
-</table>
-</div>
+<CompatibilityChart />
 
 Why 45 and not 81? A 2 with a 7 is the same pairing as a 7 with a 2, so the chart mirrors itself across the diagonal, and the diagonal holds the nine same-type pairings.
 
@@ -316,383 +138,25 @@ Two Type 2s often compete to be the one giving, leaving both feeling unappreciat
 
 The [chart at the top](#enneagram-compatibility-chart-all-45-pairings) gives each pairing's fault line in a few words. This is the full read. Each pairing appears once, under the lower type number: a 7 dating a 2 is listed as 2 + 7, under Type 2.
 
-### Type 1 Compatibility: The Perfectionist's Relationships
+<CompatibilityReads />
 
-#### 1 + 1: The Perfectionist Mirror
+## Tritype compatibility
 
-Two Ones create a relationship built on shared standards and mutual understanding of the constant inner critic. They instinctively know why the other needs things done "right."
+Your core type is one number. Katherine Chernick Fauvre's tritype model adds two more: your strongest type in each of the other two centers. A tritype always holds one body number (8, 9, or 1), one heart number (2, 3, or 4), and one head number (5, 6, or 7), listed from strongest to weakest. Two Fours can be a 4-8-5 and a 4-9-6: same core type, different secondary habits.
 
-The danger zone: their inner critics can team up against the relationship itself. When stressed, they may compete over who has the correct moral position. Rigidity spirals become common.
+Tritype is separate from your [wing](/enneagram-corner/enneagram-wings-complete-guide). A wing is a neighbor on the circle. Tritype numbers come from the other two centers.
 
-**What makes it work:** Deliberately practicing imperfection together. Scheduling play. Agreeing that "good enough" is sometimes the goal.
+### How tritype changes a pairing read
 
-#### 1 + 2: The Reformer and Helper Dance
+Start with the core pairing from the calculator or the full reads above. That's where the main fault line sits. Then compare your secondary numbers.
 
-The Two softens the One's sharp edges with warmth and emotional attunement. The One provides structure and principled direction the Two secretly craves.
+When you share a number, each of you carries a working copy of the other's habit. A 2-6-9 and an 8-2-6 are still a 2 + 8 couple, but both run some Two-style caretaking and some Six-style caution, which can make the other person's moves easier to read.
 
-Watch for this pattern: the One criticizes the Two's "emotional" approach to problems. The Two starts feeling their care goes unappreciated. Resentment builds on both sides.
+When one person's secondary number clashes with the other's core type, check that pairing on the chart too. A Four with an 8-7-3 partner may meet a quieter version of the 4 + 7 fault line, melancholy vs. forced positivity, layered under the 4 + 8 one.
 
-**What makes it work:** The One must express appreciation out loud instead of assuming it's understood. The Two must develop boundaries instead of martyring themselves.
+### Where tritype runs out
 
-#### 1 + 3: The Achievement Partnership
-
-Both types share a drive for excellence and improvement. They can build impressive things together when aligned.
-
-The friction point: they define success differently. Ones care about doing things the right way. Threes care about winning. These goals overlap until they don't.
-
-**What makes it work:** Aligning on shared values that transcend external achievement. Finding projects where moral integrity and success converge.
-
-#### 1 + 4: The Idealist Connection
-
-Both types care deeply about authenticity and meaning. They connect through shared appreciation for what matters.
-
-The collision: One's criticism hits the Four's sensitivity like a precision strike. Four's emotional intensity overwhelms the One's need for order. Both feel misunderstood.
-
-**What makes it work:** Creating beauty together through disciplined practice. The One learns that feelings have their own logic. The Four learns that structure can support depth.
-
-#### 1 + 5: The Analytical Alliance
-
-Mutual respect for competence and precision creates immediate rapport. Both value doing things correctly and appreciate expertise.
-
-The gap: both types retreat under stress, and emotional connection starves. Conversations stay in the head while hearts go unfed.
-
-**What makes it work:** Using intellectual intimacy as a gateway to emotional connection. Scheduling dedicated time for non-analytical relating.
-
-#### 1 + 6: The Security System
-
-Shared need for certainty and doing things "right" creates a stable foundation. Both understand why you need to think things through.
-
-The trap: anxiety feeding anxiety. Analysis paralysis when decisions need to be made. Neither trusting themselves or each other enough to act.
-
-**What makes it work:** Being each other's voice of reason when fear takes over. Taking imperfect action together and surviving the consequences.
-
-#### 1 + 7: The Paradox Pairing
-
-Intense attraction of opposites. The One is drawn to the Seven's spontaneity and self-acceptance. The Seven is drawn to the One's focus and conviction.
-
-The clash is predictable: One's rules versus Seven's freedom. One sees Seven as irresponsible. Seven sees One as uptight. Both are partially right.
-
-**What makes it work:** The One learns that joy is not irresponsible. The Seven learns that depth requires staying with discomfort. Scheduled spontaneity and structured adventure satisfy both.
-
-#### 1 + 8: The Power Struggle
-
-Mutual respect for strength and conviction. Both types have strong opinions and are willing to fight for them.
-
-The battle: control competitions and righteousness wars. Each believes they have the correct position and neither backs down easily.
-
-**What makes it work:** Finding causes bigger than both egos. Learning when to yield. Channeling combined intensity toward shared missions.
-
-#### 1 + 9: The Peaceful Reform
-
-The Nine calms the One's relentless intensity. The One motivates the Nine to take action on things that matter. This can be a deeply complementary pairing.
-
-The problem: One's criticism shuts down the conflict-avoidant Nine. The Nine goes passive. The One gets more critical trying to provoke a response. The Nine retreats further.
-
-**What makes it work:** Gentle accountability instead of sharp criticism. Patient progress over demands for immediate change. The One learns that slowness is not laziness. The Nine learns that tension is not catastrophe.
-
-### Type 2 Compatibility: The Helper's Relationships
-
-#### 2 + 2: The Giving Competition
-
-Deep empathy creates instant connection. Both understand the impulse to care for others first.
-
-The trap: neither admits their own needs. Both keep giving while secretly keeping score. Resentment builds as each waits for the other to finally give back without being asked.
-
-**What makes it work:** Consciously taking turns being the supported one. Learning to receive without immediately reciprocating.
-
-#### 2 + 3: The Power Couple
-
-The Two supports the Three's ambitions with warmth and encouragement. The Three appreciates the Two's care and brings excitement and success to the relationship.
-
-The fracture: the Two starts feeling used for support without getting emotional depth back. The Three feels smothered by the Two's need for closeness.
-
-**What makes it work:** Scheduled [quality time](/enneagram-corner/love-languages-and-enneagram-types) disconnected from achievements. The Three learns to be present. The Two learns that the Three's drive is not rejection.
-
-#### 2 + 4: The Emotional Intensity
-
-Both types live in the heart center. Deep emotional connection and understanding come naturally.
-
-The storm: emotional escalation without resolution. The Two's people-pleasing conflicts with the Four's need for authenticity. Identity confusion about where one person ends and the other begins.
-
-**What makes it work:** The Two learns to be honest about their own feelings instead of always attending to the Four's. The Four learns to offer care instead of only receiving it.
-
-#### 2 + 5: The Unlikely Connection
-
-The Two draws the Five out of their cave with warmth. The Five gives the Two something rare: space and independence.
-
-The tension: the Two wants more connection. The Five wants more space. Each feels the other is withholding.
-
-**What makes it work:** Respecting different intimacy needs without taking it personally. The Two learns that solitude is not abandonment. The Five learns that closeness is not intrusion.
-
-#### 2 + 6: The Support System
-
-Mutual loyalty and care create a foundation of trust. Both prioritize relationship and show up for each other.
-
-The spiral: anxiety feeding anxiety. Dependency that stunts both people's growth. Neither developing the independent strength they need.
-
-**What makes it work:** Encouraging each other's autonomy even when it feels scary. Building individual strength alongside the relationship.
-
-#### 2 + 7: The Joy and Care
-
-The Two grounds the Seven with emotional depth. The Seven lightens the Two with playfulness and optimism.
-
-The gap: the Two wants to go deep. The Seven skims the surface of emotions to avoid pain. Both feel unfulfilled.
-
-**What makes it work:** The Two learns that playfulness is a valid form of connection. The Seven learns to stay present when emotions get heavy.
-
-#### 2 + 8: The Intense Bond
-
-Powerful protector-nurturer dynamic. The Eight provides strength and protection. The Two provides care and softness. Each gives the other something missing.
-
-The clash: power struggles over who leads. Boundary violations in both directions. The Two manipulates through helpfulness. The Eight dominates through force.
-
-**What makes it work:** The Two develops their own strength instead of operating through the Eight. The Eight learns that vulnerability is not weakness.
-
-#### 2 + 9: The Gentle Connection
-
-Peaceful, supportive energy flows naturally. Both prioritize harmony and care for others.
-
-The danger: both avoid conflict. Problems go underground and fester. Neither addresses issues directly until they become crises.
-
-**What makes it work:** Scheduled honest check-ins. Learning that addressing small issues prevents big explosions. Direct communication as an act of love.
-
-### Type 3 Compatibility: The Achiever's Relationships
-
-#### 3 + 3: The Success Partnership
-
-Shared ambition and mutual understanding of the drive to achieve. Both know why performance matters.
-
-The problem: competition infiltrates the relationship. Workaholism becomes normalized. Neither slows down long enough to actually connect.
-
-**What makes it work:** Celebrating time together for its own sake. Learning that presence matters more than productivity.
-
-#### 3 + 4: The Success and Depth
-
-The Three's confidence attracts the Four. The Four's emotional depth intrigues the Three. Initial chemistry can be intense.
-
-The friction: Three's image management collides with Four's need for authenticity. The Three feels the Four is being dramatic. The Four feels the Three is being fake.
-
-**What makes it work:** The Three learns that vulnerability is not weakness. The Four learns that action is not inauthenticity.
-
-#### 3 + 5: The Strategic Alliance
-
-Competence attraction and mutual respect for expertise. Both value doing things well.
-
-The gap: both avoid emotions in different ways. The Three performs feelings. The Five analyzes them. Neither fully experiences them. Connection suffers.
-
-**What makes it work:** Using intellectual connection as a gateway to emotional intimacy. Developing heart language together.
-
-#### 3 + 6: The Achievement and Security
-
-The Three provides confidence and forward momentum. The Six provides loyalty and careful thinking. These can balance well.
-
-The tension: Three's risk-taking triggers Six's anxiety. Six's caution frustrates Three's ambition.
-
-**What makes it work:** The Three learns prudence. The Six learns confidence. Together they build secure success.
-
-#### 3 + 7: The Dynamic Duo
-
-High energy and optimism create an exciting dynamic. Both move fast and think positively.
-
-The blind spot: avoiding negative emotions becomes a shared habit. Neither goes deep when things get hard. The relationship stays surface-level.
-
-**What makes it work:** Slowing down together. Staying present with discomfort. Having adventures that mean something.
-
-#### 3 + 8: The Power Alliance
-
-Mutual respect for strength and capability. Both understand ambition and drive.
-
-The clash: power struggles over who leads. Control issues on both sides. Neither comfortable being vulnerable.
-
-**What makes it work:** Learning vulnerability together. Sharing leadership rather than fighting for it.
-
-#### 3 + 9: The Achievement and Peace
-
-The Three motivates the Nine toward action. The Nine calms the Three's relentless drive. Good complementary energy.
-
-The frustration: different paces and priorities. The Three feels slowed down. The Nine feels pushed.
-
-**What makes it work:** The Three learns that being matters. The Nine learns that doing matters. Balance emerges through mutual respect.
-
-### Type 4 Compatibility: The Individualist's Relationships
-
-#### 4 + 4: The Emotional Depths
-
-Deep understanding and connection come naturally. Both know what it feels like to be different and to need authentic expression.
-
-The storm: emotional escalation without anchor. Identity competition over who feels more deeply. Taking turns spiraling while the other tries to help.
-
-**What makes it work:** Learning emotional regulation as a shared practice. Taking turns being the supported one instead of both drowning simultaneously.
-
-#### 4 + 5: The Depth and Detachment
-
-Intellectual and creative connection creates initial rapport. Both appreciate complexity and nuance.
-
-The divide: Four's emotional needs collide with Five's space needs. The Four feels abandoned. The Five feels smothered. Neither understands the other's rhythm.
-
-**What makes it work:** The Four learns that solitude is not rejection. The Five learns that emotions are not threats. Respecting different processing styles keeps the relationship workable.
-
-#### 4 + 6: The Intensity and Anxiety
-
-Deep loyalty and understanding create a strong bond. Both know what it means to feel uncertain about their place in the world.
-
-The trigger zone: they activate each other's fears. The Four's intensity alarms the Six. The Six's doubt undermines the Four.
-
-**What makes it work:** Building security together. Becoming each other's safe space rather than each other's threat.
-
-#### 4 + 7: The Depth and Light
-
-The Seven brings joy and lightness. The Four brings meaning and depth. Together they can access the full emotional spectrum.
-
-The collision: Four's melancholy versus Seven's forced positivity. The Four feels dismissed. The Seven feels dragged down.
-
-**What makes it work:** Honoring the full emotional spectrum without judgment. The Four learns lightness is not shallow. The Seven learns depth is not depression.
-
-#### 4 + 8: The Intense Power
-
-Raw intensity and passion create magnetic attraction. Both types operate at high emotional voltage.
-
-The explosion risk: power struggles and emotional eruptions. Neither backs down. Conflicts escalate quickly.
-
-**What makes it work:** Channeling intensity into creative expression. Learning emotional mastery together. Using the fire to build rather than destroy.
-
-#### 4 + 9: The Depth and Peace
-
-The Nine's calm balances the Four's emotional storms. Complementary energy that can feel stabilizing.
-
-The frustration: the Four feels unseen by the merging Nine. The Nine feels overwhelmed by the Four's intensity.
-
-**What makes it work:** The Four learns that calm is not indifference. The Nine learns that intensity is not attack. Creating space for all emotions without drowning.
-
-### Type 5 Compatibility: The Investigator's Relationships
-
-#### 5 + 5: The Mind Meld
-
-Intellectual paradise. Two minds exploring ideas together without judgment or pressure.
-
-The gap: emotional disconnection can grow silently. Both prefer thinking to feeling. Hearts go unfed while minds flourish.
-
-**What makes it work:** Sharing inner worlds gradually. Developing heart connection alongside intellectual connection. Scheduling emotional intimacy.
-
-#### 5 + 6: The Research Partnership
-
-Shared love of understanding creates solid common ground. Both appreciate preparation and careful thinking.
-
-The trap: analysis paralysis. Neither trusts enough to act. Both overthink decisions until opportunities pass.
-
-**What makes it work:** Balancing thinking with doing. Learning to trust themselves and each other. Taking action before certainty arrives.
-
-#### 5 + 7: The Mind and Adventure
-
-The Seven energizes the Five with enthusiasm and new experiences. The Five grounds the Seven with depth and focus.
-
-The friction: drastically different energy levels and social needs. The Five gets exhausted. The Seven gets bored.
-
-**What makes it work:** Respecting different rhythms. The Five learns engagement. The Seven learns focus. Neither tries to change the other's fundamental nature.
-
-#### 5 + 8: The Strategy and Power
-
-Respect for each other's competence creates mutual admiration. The Eight values the Five's intelligence. The Five values the Eight's decisiveness.
-
-The tension: Five's withdrawal versus Eight's intensity. The Eight pushes. The Five retreats. Neither understands the other's response.
-
-**What makes it work:** Intellectual respect as foundation. The Five learns assertion. The Eight learns reflection. Meeting in the middle takes conscious effort.
-
-#### 5 + 9: The Quiet Understanding
-
-Peaceful, low-demand connection feels easy initially. Neither pressures the other.
-
-The drift: both withdraw when stressed. Distance grows without anyone noticing. The relationship can slowly starve.
-
-**What makes it work:** Gentle invitations to connect. Active engagement rather than passive coexistence. Noticing when distance grows and addressing it.
-
-### Type 6 Compatibility: The Loyalist's Relationships
-
-#### 6 + 6: The Security Fortress
-
-Deep understanding and loyalty create a strong foundation. Both know what it feels like to need reassurance and certainty.
-
-The spiral: anxiety amplification. When one worries, the other joins. Fear echoes instead of being soothed.
-
-**What makes it work:** Building courage together. Being each other's voice of faith when fear takes over.
-
-#### 6 + 7: The Security and Adventure
-
-The Seven brings optimism and forward energy. The Six brings grounding and careful thinking. These can complement well.
-
-The clash: Six's anxiety versus Seven's avoidance. The Six wants to prepare for problems. The Seven wants to pretend problems do not exist.
-
-**What makes it work:** Safe adventures together. The Six learns to trust. The Seven learns to acknowledge difficulty.
-
-#### 6 + 8: The Loyalty and Power
-
-The Eight's strength calms the Six's anxiety. The Six feels protected. The Eight feels trusted.
-
-The friction: Six's questioning versus Eight's certainty. The Six needs to verify. The Eight hates being doubted.
-
-**What makes it work:** Building trust through consistent behavior over time. The Six learns confidence. The Eight learns patience with questions.
-
-#### 6 + 9: The Loyal Peace
-
-Mutual support and stability create a comfortable dynamic. Both value harmony and predictability.
-
-The stagnation: both avoid difficult decisions. Problems accumulate while both wait for the other to act.
-
-**What makes it work:** Learning decisive action together. Patient, steady progress on hard things.
-
-### Type 7 Compatibility: The Enthusiast's Relationships
-
-#### 7 + 7: The Adventure Explosion
-
-Maximum fun and energy. Life becomes an endless series of exciting possibilities.
-
-The void: avoiding difficulties and depth. Neither processes pain. The relationship stays surface-level even during crises.
-
-**What makes it work:** Learning to stay present with discomfort together. Having adventures that mean something beyond entertainment.
-
-#### 7 + 8: The Intensity and Joy
-
-High energy and passion create dynamic chemistry. Both types move fast and think big.
-
-The conflict: different approaches to control. The Eight wants to dominate. The Seven wants freedom.
-
-**What makes it work:** The Seven learns commitment. The Eight learns lightness. Channeling combined energy toward shared goals.
-
-#### 7 + 9: The Joy and Peace
-
-The Nine grounds the Seven with acceptance. The Seven energizes the Nine with enthusiasm.
-
-The imbalance: Seven's constant activity versus Nine's need for peace. The Seven feels slowed down. The Nine feels exhausted.
-
-**What makes it work:** Finding balanced rhythm. Active relaxation that satisfies both.
-
-### Type 8 Compatibility: The Challenger's Relationships
-
-#### 8 + 8: The Power Coupling
-
-Intense passion and mutual respect. Both understand strength and admire it in the other.
-
-The war: control battles with no winner. Neither yields. Arguments become wars of attrition.
-
-**What makes it work:** Dividing territories clearly. Learning that surrender is not weakness. Finding causes bigger than either ego.
-
-#### 8 + 9: The Power and Peace
-
-The Nine softens the Eight's intensity. The Eight activates the Nine's hidden fire. This pairing is common and can work beautifully.
-
-The override: Eight's intensity overwhelms the Nine. The Nine goes passive-aggressive. The Eight escalates.
-
-**What makes it work:** The Eight learns gentleness. The Nine learns assertion. Respecting that strength looks different in each person.
-
-### Type 9 Compatibility: The Peacemaker's Relationships
-
-#### 9 + 9: The Double Peace
-
-Harmony and understanding come easily. Both prioritize peace and naturally merge with each other's preferences.
-
-The paralysis: mutual inaction and avoidance. Neither takes initiative. Both wait for the other to decide. Life happens to them instead of being shaped by them.
-
-**What makes it work:** Learning activation together. Gentle mutual encouragement to engage with life. Taking turns being the one who initiates.
+We haven't found peer-reviewed research that tests tritype compatibility. On 9takes, core type is already a working hypothesis, and picking three numbers gives you three chances to mistype instead of one. Use the tritype read as a second opinion, never a verdict. If the core read doesn't match your relationship, recheck both core types before reaching for a fix to explain it.
 
 ## What Makes Any Enneagram Pairing Work?
 

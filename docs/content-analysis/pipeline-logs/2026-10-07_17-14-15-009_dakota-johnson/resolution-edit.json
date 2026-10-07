@@ -1,0 +1,313 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Reopened The Ringer (S38) on 2026-10-07: Walker is admiring (“I love her wholeheartedly and fearfully,” “Calm Queen of Chaos”) and says Johnson lacks the usual concern “about telling the exact truth.” “Not everyone buys the candor” and “named the persona’s market value” are gone. The paragraph now reads “Her admirers see no calculation in it,” quotes Walker’s admiring lines, and labels the incentive point “this profile’s caveat, not Walker’s: unguarded candor sells.” C85 and C144 and the S38 context are rewritten to match."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "The “meaning rather than reassurance” sentence is gone. The depression paragraph now carries the help she credits in all three sources: “I am in a lot of therapy” (Marie Claire 2020), “always trying to navigate that in an honest and safe way” (VF 2022), and Vogue 2026’s “Various modalities of therapy have helped,” as has “a solid network of friends and chosen family” (reopened S01). It says outright that this is care for a medical condition, “much of it reassurance, and not type evidence” (C154). The Jung line is dropped as meaning-making evidence. The scarab and Roe lines are presented as a lean, not a separation. “Almost always” is gone with the safety discriminator."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Title is now “The Prankster Who Says It’s Hard to Fake It,” which uses her own words. The meta_title (“Why 4 Edges Out 6”) no longer states a trait. A new paragraph in “The bit and the feeling” tests the thesis against the Fifty Shades promotion years. It cites the 2017 and 2018 praise, Marie Claire’s 2020 note that she “has denied reports that she was displeased,” and the 2022 “truthfully” line. It narrows the claim: she withheld the fight rather than faking the pride, “though the 2020 denial comes close,” and “faking it is hard for her, she can manage a version of it when a release depends on it, and eventually she stops.” The thesis sentence, description, persona title and FAQs all match the narrowed claim."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "The hook now quotes her full answer, “The most fun,” followed by “Sometimes when you’re in a ridiculous situation, you just have to be ridiculous.” The third paragraph discloses that she warned she had “exaggerated in this interview,” and that the Bustle lines below carry that caveat (C129). The defiance line is now framed as a joke-register self-description from that interview and is classed as non-discriminating (C93)."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Reopened Bustle: the 2024 line is now quoted verbatim (“was extremely precious about words, clothing, anything, everything”), and “grip” is gone. Taylor-Johnson’s framing is added: “Her vision versus mine, and they were polar opposite.” The James-response recheck stays in research_tasks and on C70."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Reopened L’Officiel via reader text. The body and the Ellen FAQ now say she answered an interviewer who called the moment “a really winning moment” (C10, C163). No motive interpretation is added."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The “most actors” contrast is removed. The closing now opens “Plenty of actors grieve a wrap, and a Six could mourn the loss of a secure group,” then locates what is specific in her telling: the count (“I don’t even know how many times”) and what ends each time, the set Vogue says she joined the industry for."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "The June 2025 breakup, the refusal to discuss romance and the wish for children are cut (claims C40, C41 and C114 removed). The heartbreak quote keeps its explicit wrap framing."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "The Ellen exchange is out of the put-ons. A new paragraph opens “The 2019 clip was not a put-on,” quotes the correction, adds her reminder that DeGeneres had given her grief about it the year before (“But I did invite you, and you didn’t come,” attributed by caption sequence), and cites The Ringer’s “with legitimate truth.” The Eight reading of the clip stays in its own section. C54 (“Ellen bit”) is removed. The put-ons paragraph still explains the Dornan line and the limes."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Added from Vogue 2017 (S08, reopened) and Wikipedia (S16): “She applied to one college, Juilliard, and didn’t get in. Her version, to Vogue in 2017: ‘Juilliard and I mutually agreed that it wouldn’t work out.’” Recorded as C134. “She chose independence” stays attributed to Vanity Fair and now sits beside the rejection and her early industry access."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "The childhood section now says she is “one of seven half-siblings in a large blended family” and lived in high school with her mother and her stepfather, Antonio Banderas (VF 2022 reopened; C59, C131). The career paragraph adds, attributed to Wikipedia, her 1999 debut beside her mother and half-sister in Crazy in Alabama, which Banderas directed, and her 2006 selection as the first second-generation Miss Golden Globe (C133). No causal personality claim is added. The chosen-family quote now follows this context."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Added the 2024 L’Officiel counterpoint, verbatim and dated: “In 2024 she sounded breezier: ‘I didn’t find it weird because it was what was normal to me’” (C132, S05 reopened). The “works in a different way” line is not used."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "The “ridiculous situation” sentence is quoted verbatim in the hook. The bit-and-feeling paragraph now says “The first half of that line is her own rule about ridiculous situations. The second half is this profile’s inference” (C145), replacing “not a rule she has stated.” The limes and the Fifty Shades years remain the fuzzy edges."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Her exaggeration caveat is disclosed once, near the top, where Bustle lines first carry weight (C129), and again where the defiance line is weighed. “Classic counterphobic Six” is replaced with “Read literally, that reflex looks counterphobic,” followed by the caveat and the other types that predict it (C93)."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "The regret passage is now quoted with its “psychotic” clause: “It would’ve been like, ‘Oh, this is psychotic.’ But no, I don’t regret it” (C136, VF reopened). Her full praise of James stays."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Michele is now identified as “a friend of more than a decade who designed for Gucci, a brand she has represented as an ambassador.” Sources: Vogue 2017 names him Gucci’s designer, and Wikipedia (raw wikitext re-retrieved) records the ambassadorship (C86). The general caveat about flattering profiles stays."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Same repair as subject-03. The bit-and-feeling section now names the Fifty Shades promotion years as the thesis’s hardest test: the 2017 and 2018 praise, Marie Claire’s reported denial, and the 2022 “truthfully” line. It shows why they are mostly withholding rather than a faked feeling (“still ‘proud of what we made ultimately’”) and concedes that the 2020 denial comes close. It narrows the claim to “faking it is hard for her, she can manage a version of it when a release depends on it, and eventually she stops.” Title, meta_title, description, thesis sentence and FAQs match. None states the inference as fact."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "The Easter Bunny quote moved into the Six case and is now glossed accurately: “Even moviemaking serves safety… ‘It makes things feel a little bit more safe’” (C98, with restored “But if I could, I would still believe in it now”). It no longer supports the discriminator."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Each part is addressed. (1) “Almost always” and the safety-as-precondition discriminator are removed. (2) The article now says the 2017 line, with its “waiting for someone to give me a chance” context, is Six-shaped (“Six theory predicts exactly that shape”), and that “On her talk of safety alone, the Six reading would win” (C150, C151). (3) The reactive defiance is answered: it is a riff from an interview she flagged as exaggerated, and a Four, Eight or Seven could say the same (C93). (4) “Meaning rather than reassurance” is dropped, and the therapy and support context is included. As the test asks, the Four lead now rests on what her fights are about (expression, not broken trust) and on the being-seen evidence (C95, C16, C100). The type section question and the Type 6 FAQ are rewritten to match."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Her own caveat (“exaggerated in this interview”) is disclosed where Bustle lines first carry weight, and her “ridiculous situation” reconciliation is quoted in the hook. The L’Officiel sarcasm line was reopened and judged not to need quoting, since it concerns the 14-hour-sleep coverage; the Bustle caveat is the equivalent. The “shaking” line is labeled as from that interview and as non-discriminating. No discriminator now rests on a single Bustle line. The expression grievance is corroborated by Marie Claire 2020, AP 2024 (C153), LA Times 2025 and THR 2017. The rules line is corroborated by Vogue 2026 (C13). The Seven test’s appetite for pain is corroborated by Vogue 2017’s “feelings… get so intense that they hurt” (C18) in the adjacent paragraph and by the 2026 wrap grief (C116). Not-belonging now rests on Vogue 2017."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "The grievance section now says the control quote “was about an author’s control, not her own” (C79), and that her remedy, “That’s why I have my own company,” is a say of her own (C139). It names reputational distancing and weighs it: Fifty Shades grossed more than $1 billion (Wikipedia) and she shrugs at flops (“I’ve done even tiny movies that didn’t do well. Who cares?”), “though neither rules it out” (C140). Three gets its own sourced test with a stated discriminator in the alternatives section (C39, C155), and Three is added to the type answer and the type FAQ."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Same repair as subject-01. Walker is described as an admirer who treats Johnson’s candor as genuine. The incentive point is labeled as the profile’s own. The open section states plainly that “no skeptical account of them turned up” (C113)."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Same repair as subject-07. The unsourced contrast is removed, the ending concedes that wrap grief is common, and it names what is specific: recurrence and the set she joined the industry for."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Same repair as fan-01. Ellen is now explicitly the contrast to the put-ons (“The 2019 clip was not a put-on”), and “put-ons” covers only the Dornan line and the limes. The timing claim is corrected: the put-ons “predate the candid persona that went viral in late 2019,” and the clip itself is named as that start."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The first sentence now orients a cold reader: “Dakota Johnson, the American actress and producer best known for the Fifty Shades of Grey films” (C159). The limes hook stays first in the scene. Don Johnson and Melanie Griffith are introduced as “the actors.”"
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Same repair as fan-01. The clip is now a truthful correction with DeGeneres’s concession quoted. Its fame is sourced: L’Officiel says it “set the internet on fire” in 2019 (C141). “It will haunt me” now carries the interviewer’s praise."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "At the first “Erika” quote the text reads “The author, E.L. James, whose real name is Erika Mitchell,” sourced to The Hollywood Reporter (S35; C07)."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "First mention reads “the superhero film Madame Web opened; Wikipedia sums it up as ‘critically and commercially unsuccessful’” (C138; S16, with The Ringer as a second source for the genre). No unsourced box-office figures are added."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "The vague framing is replaced with VF 2022’s context: “Reading that spring that Roe v. Wade was likely to be overturned” (C19)."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Three now has a short sourced test (C39, C155). Its support is commercial frankness and years on message. Against it, she punctures her image in public (“doesn’t ‘make sense’ in the superhero world,” shrugs at flops, would accept Three Incestuous Sisters as her last film). The 60-word answer, the type FAQ, the H2 (“Three, Eight, Nine and Seven”) and the body now name the same alternatives."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "rejected",
+      "reason": "The restatement problems are fixed. The second statement of the bit/feeling caveat is gone from the open section, the duplicate “Six reading struggles” paraphrase is removed, and the open section adds only new limits (the denial’s unknown wording, the reopen signal) beside items other reviewers asked it to name. No protected passage is cut. The ≤3,500-word cap is rejected. Other accepted findings required roughly 30 additions: the Fifty Shades test, Juilliard, family and early access, Ellen context, the Three test, therapy context, the exaggeration caveat, Erika, the Madame Web descriptor, the psychotic passage and others. This finding’s own condition also bars losing any Type 6 or discriminator evidence. Even after compressing every section and cutting the personal-life cluster, the body is about 4,200 words, inside the standard’s 4,500 limit; its 3,500 figure is a rough target “when the evidence warrants it.” Cutting about 700 more words would mean dropping evidence that other findings required."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "The persona is now defined and dated in a sourced sentence: the put-ons “predate the candid persona that went viral in late 2019, after a talk-show clip that, in L’Officiel’s words, ‘set the internet on fire’” (C141). Readers can now check that the Dornan line and Foley’s remark (both Vogue 2017) come before it."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The section no longer claims that safety-as-precondition separates Four from Six. The 2017 quote now appears with its “waiting for someone to give me a chance” context, followed by “Six theory predicts exactly that shape” (C20, C150). A new, sourced discriminator replaces it: what her fights are about (C95). The type-section question now asks what she defends. The Type 6 FAQ’s first reason is the grievance framing, and it concedes that her talk of safety “fits a Six on its own.” The closing no longer calls the safe container the plainest evidence of what she protects. It concedes that a Six could mourn a lost secure group and ties the loss to the connection to the material inside it."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Same repair as critic-02. The quote is now in the Six case with an accurate gloss (“Even moviemaking serves safety”), and the “points at enchantment” sentence is gone."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The bit-versus-feeling analysis now addresses the Fifty Shades years directly (see critic-01). It explains why the pattern reads as withholding rather than faking (she is still “proud of what we made ultimately”) and leaves the 2020 denial as the closest case. “What the Four reading leaves open” leads with the Fifty Shades years and says how they bear on Four versus Three or Six (C156). Title, meta_title and description no longer make the absolute claim. The “Different is what I’m about” section notes that both lines “date from the years she later said she couldn’t talk about truthfully” (C135)."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Reopened Bustle. The cult line and the defiance line are now two separate answers, delivered as jokes, with the authority contrast supplied by the interviewer (“after the interviewer called her persona anti-authoritarian”). “In one breath” and “the counterphobic Six’s signature” are gone. The defiance is reclassified as non-discriminating: “a Four resisting being defined, an Eight or a Seven could say the same” (C22, C93)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The new discriminator states the broken-trust version of the Six grievance and answers it with the expression-language evidence. It cites “no room for being expressive,” “It’s contrived” and “that’s not what art is” (Bustle 2024), the High Note note (2020) and the AP 2024 line on executives, all dated and sourced (C95, C152, C153). The “rather than over risk” contrast is removed."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Same repair as subject-02. “Rather than reassurance” is dropped, the reassurance and help she credits are stated, and the meaning-making evidence is “a lean, not a verdict,” with the note that a Six can anchor in belief too. The shepherd and “good hands” evidence stays in the Six case."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Restored the fear and doubt clauses: “I don’t know what I’m talking about” in the not-belonging quote (C17), “feeling so scared of people” in the tenderness passage (C35), and “waiting for someone to give me a chance” in the safety quote (C20). All were rechecked against Vogue 2017."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "Same repair as unfamiliar-06. Three is tested in a sourced paragraph with a stated discriminator and its limits, and it appears in the 60-word answer, the type FAQ and the alternatives H2."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "The article’s last sentence now states the recurring pattern: “Each time a film wraps, by her own count, she loses it again.” The slowing-down quote moved earlier and is framed as July 2026. The breakup and children material is cut. Verity is reduced to one dated clause (“timed to the thriller Verity, released that October”). Nothing in the last two paragraphs depends on her 2026 plans."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "All four narrator sentences now carry a year and source. “In 2026 she called her home life ‘Just low-key’” replaces “now.” “Vogue reported that year [2017] that tender was her favorite word” replaces the present-tense fact. “On a 2026 Vogue podcast, she joked… ‘if we, A, had the time and, B, the interest’” restores the conditional. “Vogue said in 2026 that it was due in 2027” replaces the narrator’s release claim. No narrator sentence uses “now” for a state of her life."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "C127 and C128 are now time_sensitive with concrete triggers: recheck TeaTime’s status, cofounder and slate at each refresh and whenever a TeaTime production is announced or released. The FAQ now reads “Its early productions included Cha Cha Real Smooth (2022) and Daddio (2024),” which stays true as the slate grows."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "research_tasks now names three observable reopen signals and when to check them (each refresh, the release of Three Incestuous Sisters, any non-promotional long-form account). The signals: a production conflict framed as being misled or unprotected (toward Six) or as the work made false (toward Four); steadiness credited to preparation and trusted authority versus freedom to feel; and the post-2026 slowdown framed as security versus meaning. The discriminator claim C95 and new claims C156 and C157 carry these as unresolved review triggers, and the open section names the main signal in reader language."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "So the one moment that ruffled her in that Vogue interview is worth slowing down for.",
+      "action": "kept",
+      "reason": "Unchanged. The Vogue scene order (feathers ruffle, the “cool” exchange, “I just want to be authentic”) was rechecked against the reopened S01 text."
+    },
+    {
+      "passage": "That covers the first film only. Johnson's rewriting and the sequels rest on her word.",
+      "action": "kept",
+      "reason": "Unchanged. The preceding sentence now adds Taylor-Johnson’s “Her vision versus mine,” which strengthens the fairness this passage models."
+    },
+    {
+      "passage": "A childhood like that can produce privacy, vigilance and a sense of not belonging in almost anyone, so it can't settle her type.",
+      "action": "kept",
+      "reason": "Unchanged. The childhood paragraph above it gains the L’Officiel counterpoint and the blended-family context, with no causal claim."
+    },
+    {
+      "passage": "These are friends and colleagues quoted in flattering profiles. Foley's remark matters most because it predates the candid persona.",
+      "action": "kept",
+      "reason": "Unchanged. The candid persona is now defined and dated earlier in the section (C141), so the dating argument can be checked, and Michele’s Gucci tie is disclosed."
+    },
+    {
+      "passage": "A Seven's appetite usually runs from that sentence. Hers runs toward it.",
+      "action": "kept",
+      "reason": "Unchanged, with the full Bustle motherhood answer quoted before it."
+    },
+    {
+      "passage": "Not that she was good, or that she had arrived. That she did something different.",
+      "action": "kept",
+      "reason": "Unchanged."
+    },
+    {
+      "passage": "Even the confession is a bit, and it changes between tellings.",
+      "action": "kept",
+      "reason": "Unchanged. The two Tonight Show tellings are condensed but still differ as before (C50, C51)."
+    },
+    {
+      "passage": "What separates the readings is what safety does for her. For a Six, security is usually the goal. Johnson almost always describes it as the condition for something else.",
+      "action": "changed",
+      "reason": "Its contribution was a plain-language, testable discriminator that pays off the type section’s question, and that is retained. The new sentence opens the same way, “What separates the readings is what her fights are about,” and answers the rewritten type-section question (“what she defends when she pushes back”). The old content had to change because critic-03 and enneagram-01 showed it was unsupported: “almost always” miscounts the record, the 2017 line is Six-shaped in context, and the Easter Bunny line inverts it. The article now concedes that point explicitly (C150, C151)."
+    },
+    {
+      "passage": "Counterphobic Sixes also scorn caution, so this tilts the case rather than closing it.",
+      "action": "kept",
+      "reason": "Unchanged. Critic-03 asked that this honesty be extended, and it now is: “On her talk of safety alone, the Six reading would win.”"
+    },
+    {
+      "passage": "She didn't say lying was hard. She said faking it was, in the same breath as finding it hard \"to go along with the silliness of doing a press tour.\"",
+      "action": "kept",
+      "reason": "Unchanged. The sentences after it now say she stated half the rule herself, and the Fifty Shades test follows."
+    },
+    {
+      "passage": "For most actors, wrap is the end of a job. For Johnson it means losing, again, the kind of set Vogue says she joined the industry for: \"a safe container full of artists feeling free.\"",
+      "action": "changed",
+      "reason": "The ending still lands on the same concrete, sourced, recurring detail: losing, each time, “the kind of set Vogue says she joined the industry for, ‘a safe container full of artists feeling free.’” It still ties safety, feeling and the work together, and it still closes the article. The unsupported opening contrast (“For most actors, wrap is the end of a job”) was removed because three reviewers (subject-07, critic-07, enneagram-01) showed it was unsourced and contradicted by the evidence record. It is replaced by a concession that wrap grief is common and a statement of what is specific to her telling."
+    },
+    {
+      "passage": "And a Nine's even keel is hard to square with this: \"I think I'm a little bit heartbroken all the time, even when I'm in a happy relationship.",
+      "action": "kept",
+      "reason": "Unchanged, with the full 2017 Vogue quote."
+    },
+    {
+      "passage": "Anxiety, vigilance, loyalty, ambivalence toward authority, a trusted guide through fear: this is why the Four reading is held at medium confidence.",
+      "action": "kept",
+      "reason": "Unchanged. It is followed by a new sentence that makes the Six case’s weight explicit."
+    },
+    {
+      "passage": "Foley's remark matters most because it predates the candid persona.",
+      "action": "kept",
+      "reason": "Unchanged. “Candid persona” is now dated earlier in the section (late 2019; C141), so the claim that Foley’s 2017 remark predates it can be checked."
+    },
+    {
+      "passage": "Across a decade, one grievance: what reached the screen stopped being what she signed up to make.",
+      "action": "kept",
+      "reason": "Unchanged. It now feeds the article’s main discriminator (C95)."
+    },
+    {
+      "passage": "So the line, as far as her record shows, runs between a bit, which everyone can see is a game, and a faked feeling.",
+      "action": "kept",
+      "reason": "Unchanged. It is now tested against the Fifty Shades years and narrowed in the following paragraph, as critic-01 and enneagram-03 asked."
+    },
+    {
+      "passage": "That covers the first film only. Johnson's rewriting and the sequels rest on her word. As of October 2026 no public response from James to either account had been found.",
+      "action": "kept",
+      "reason": "Unchanged. C70 keeps its unresolved status and its recheck trigger."
+    }
+  ],
+  "prior_blockers": []
+}

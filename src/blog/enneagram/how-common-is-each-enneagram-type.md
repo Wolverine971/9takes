@@ -319,7 +319,7 @@ What the corpus can show is which types each kind of fame puts in front of an au
 
 - **Comedians:** 15 of 35 read as Sevens (43%). The patterns behind that are in our [comedy Enneagram breakdown](/pop-culture/comedy-kings-enneagram-analysis).
 - **Musicians and artists:** 31 of 83 read as Fours (37%). Here's [why so many musicians type as Fours](/pop-culture/what-enneagram-type-are-most-musicians).
-- **Tech, founders and business:** 19 of 80 read as Fives (24%).
+- **Tech, founders and business:** 19 of 80 read as Fives (24%). Here's [which type most CEOs turn out to be](/enneagram-corner/what-enneagram-type-are-most-ceos) once you separate company builders from creators.
 - **Film and TV:** 5 of 175 read as Fives (3%). Music is thinner still, with 1 Five in 83.
 
 The most interesting contrast sits at the bottom of the table. Ones and Twos are our rarest types, 29 profiles each. Cloverleaf's workplace sample, meanwhile, puts them at 15% and 14%, above both big quiz-site samples.

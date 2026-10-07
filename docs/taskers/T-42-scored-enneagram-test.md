@@ -100,7 +100,14 @@ Record DJ's answers here before building:
 
 ## 6. What was actually done
 
-**2026-10-06: built and verified locally, not yet deployed.**
+**2026-10-06: built, verified locally, and deployed by DJ the same day.** The production migration was re-checked right before the deploy: both tables exist, RLS is on, and the migration is recorded.
+
+**After the deploy, check:**
+
+1. `/enneagram-test` loads, and Start runs through to a result. A row appears in `enneagram_test_results` (`./scripts/db-query.sh "select id, types, created_at from enneagram_test_results order by id desc limit 5"`).
+2. The friend link from that result opens, and a read shows up on the result page.
+3. The comparison post shows section 6, and the footer box under posts has the new copy.
+4. Delete any test rows you made, so the 28/56-day readout counts only real people.
 
 - `/enneagram-test` is now the test (DJ's flow, `docs/taskers/T-42-assets/user-flow.md`). The title and H1 name the intent. The intro, how-it-works section, honest limits, nine-type list and FAQ (with FAQPage JSON-LD) are server-rendered.
 - Private result page at `/enneagram-test/result/[token]` and friend link at `/enneagram-test/read/[token]`. Both are noindex and no-store. The friend sees the test-taker's picks only after answering.

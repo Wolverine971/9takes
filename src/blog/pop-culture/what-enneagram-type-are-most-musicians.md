@@ -172,7 +172,7 @@ At the soft end sit the **Type 9 Peacemakers (9.0%)**. The Nine examples skew to
 
 The pattern is real, but it has hard limits worth naming plainly.
 
-Start with the sample. This is a hand-picked editorial set of public figures we found worth writing about, and that selection carries its own bias. If we lean toward emotionally expressive artists, we will keep finding emotionally expressive types. Sixty-seven people make a corpus, while the industry runs to millions.
+Start with the sample. This is a hand-picked editorial set of public figures we found worth writing about, and that selection carries its own bias. If we lean toward emotionally expressive artists, we will keep finding emotionally expressive types. Sixty-seven people make a corpus, while the industry runs to millions. The same limits apply to [our count of which Enneagram type most CEOs are](/enneagram-corner/what-enneagram-type-are-most-ceos), where Type 5 leads instead.
 
 Then the method. Typing a public figure is an interpretive call. We read biographies, interviews, and behavior, then decide. Reasonable people type the same artist differently, and no one here has sat these musicians down for a clinical assessment.
 

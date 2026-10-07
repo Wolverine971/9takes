@@ -487,6 +487,8 @@ In this panel moderated by Beatrice Chestnut, Type 2s share their inner experien
 
 ## Famous Enneagram 2s
 
+On the fictional side, Michael Scott may be television's clearest Two. [The Office Enneagram types](/pop-culture/the-office-enneagram-types) breaks down how he runs an entire paper branch on the need to be loved.
+
 <FamousTypes type={2} />
 
 </section>

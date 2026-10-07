@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "bd573ad5041e3f445163428d11dfec6ed3f24cda50cd20c2b66659b3af0a0553",
+  "evidence_sha256": "27e44661f823f7e91e3239d325667bc051e10d2163b745d40b2df00bd0221123",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "A [Type 5](/enneagram-corner/enneagram-type-5) facing a competence gap tends to withdraw and study until ready; Brockman says he learns by building.",
+      "problem": "The 2019 essay itself contradicts this dismissal of Type 5. I opened the full text (2024 Wayback capture; the live blog returned Cloudflare 522). He describes exactly a withdraw-and-study-until-ready arc: \"I started self-studying the curriculum we developed for our Fellows program... read many papers, poring over each line until I fully absorbed it,\" then \"After three months of self-study, I felt ready to work on an actual project.\" His own stated reason for persisting is also 5-coded and missing from the draft: \"honestly because I didn't want to be constrained to only understanding one part of my projects. I wanted to see the whole picture clearly,\" following \"I felt half blind.\" The essay the article calls its least compromised evidence carries a self-stated understanding motive that the type argument never confronts. \"I learn best when I have something specific in mind to build\" is a method, not a motive, and does not exclude a Five.",
+      "acceptance_test": "The article states his self-declared reason for persisting (\"see the whole picture clearly\" or an accurate paraphrase) and the three-month self-study, and either (a) gives a 3-versus-5 discriminator that survives those lines, such as his long record of public leadership, his early performing, and choosing a field where he \"could be best in the world\", or (b) names Type 5 as a live alternative near the type answer. The sentence claiming a Five would withdraw and study, while Brockman does not, is removed or corrected."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "A One's block tends to center on doing it wrong; his centered on others' estimate of him and on having a result to point to.",
+      "problem": "Both this line and the earlier \"Other people's confidence bothered him more than his own doubt, and he kept talking their estimate down\" rest on a truncated quotation. The full sentence reads: \"People would mention how how hard behavioral cloning from human data is. I always made sure to correct them by pointing out that I was a newbie, and this probably said more about my abilities than the problem.\" Colleagues offered him a face-saving explanation (the problem is hard). He rejected it and blamed his own ability. A Three would be expected to accept the flattering frame. Insisting on the accurate, self-critical version is at least as consistent with a One's inner critic or a Five's competence standard. The essay also describes the block in correctness terms the draft says were absent: \"small bugs that had been corrupting my results the whole time,\" \"uncertain if I was making progress,\" \"not being certain which code a given experiment had used.\" Because the article says the Three reading \"rests on their agreement with the 2019 essay,\" this misreading weakens the convergence argument itself.",
+      "acceptance_test": "The article quotes or accurately describes the clause \"this probably said more about my abilities than the problem\" and acknowledges the correctness frustrations in the essay. The 1-versus-3 reading of the essay is presented as contested, or rebuilt so it explains why he refused the flattering excuse. If the essay no longer discriminates, the article finds another first-person discriminator (candidates in the evidence record: the Mannheim audition reasoning \"this job has one requirement\", the private 2017 target \"Financially what will take me to $1B\", choosing a field where he \"could be best in the world\") or lowers its confidence language."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "On the stand, he described the line he would not cross in 2017 as one that would \"serve the mission\" but be hard to face in the mirror.",
+      "problem": "The discriminator paragraph counts items for Three that fail the article's own test (\"when the right way and the fast way collide, which does he protect?\"). (a) The mirror gloss: the diary section already concedes \"The idiom fits either type,\" and here it is counted again for Three. On the stated test, this is the one documented case where he named an act that \"would actually serve the mission\" and called it wrong (\"pretty morally bankrupt\"). That is protecting the right way over the effective one, which is the One answer. (b) \"attacked a colleague's 'bureaucratic processes'\" trims the Journal's actual wording, \"accusing her of abusing her power to create bureaucratic processes to get her way.\" The charge is a fairness and abuse-of-power indictment, the kind of moral charge a reformer makes, not a defense of speed over process. \"Ones are usually the people defending procedure\" is a stereotype; Ones attack procedure they judge illegitimate. (c) The soft/hard launch rule is a self-imposed commitment-keeping procedure (\"never missed a hard one\"). It does not show him choosing fast over right, and the same essay says output is \"measured by output quality rather than hours.\" Once these are set aside, the paragraph's Three-over-One case rests on one anonymous Fortune quote.",
+      "acceptance_test": "The mirror testimony is removed from the Three side or explicitly counted as One-compatible. The peer review appears with the \"abusing her power... to get her way\" clause in the discriminator paragraph, or is dropped from it. The launch rule is described as neutral or removed. After those changes, the paragraph either still names at least two sourced items that favor Three over One under the stated test, or the article softens its claim that the One reading \"strains.\""
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "Type 3 leads because, when the right way and the fast way collide, the record shows him choosing results.",
+      "problem": "The FAQ claims more than the evidence supports. \"The record shows\" rests on two items. The first is one unnamed former employee in Fortune, presented here as \"A former colleague\" without the anonymity the body discloses. The second is the super PAC pause, which is confounded by institutional pressure: OpenAI's official stance is not to contribute to such PACs, the giving drew press coverage and staff distraction, and almost any executive in his position would cite the effect on the company. His reported wording (\"I feel terrible about... so much of a distraction for people here\") fits Two, Six and Nine readings as easily as an image motive. Meanwhile the body's best first-person item on the same test, the 2017 \"morally bankrupt\" entry, points the other way. The FAQ is reader-facing typing that overstates confidence relative to the body's own \"medium confidence\" hedge.",
+      "acceptance_test": "The FAQ answer uses hedged language (for example, \"the clearest evidence suggests\" or \"anonymous former colleagues describe\") and identifies the ends-over-means quote as anonymous. The PAC item is either dropped from the FAQ or framed as consistent-but-confounded, naming the company pressure. The reasons given for Three over One in the FAQ match whichever items survive enneagram-03 in the body."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "minor",
+      "passage": "The currency in his writing is output, and other people's reaction to it.",
+      "problem": "A recurring first-person counter-pattern goes unaddressed. In 2014: \"I wasn't doing these things particularly because I preferred them to coding: instead, I had a very strong vision of the environment I wanted to be a part of, and I was willing to go out of my way to make it exist.\" In April 2026 on The Knowledge Project (about 27:45–28:16): \"I also really care about the environment in which these things are done. And I actually am willing to give up on that, you know, type one fun of just the quick hit, like you get to build the thing... for something that's more like type two fun.\" Across a decade, he describes giving up the quick, visible build to shape the conditions others work in. That is a concern with means and environment, which bears on the ends-over-means discriminator and on the claim that output is his currency. Relatedly, \"something extremely validating about your work allowing researchers to ask questions that no human ever has before\" is about enabling research, not about \"someone else registering it\".",
+      "acceptance_test": "The article confronts the environment-building self-description at least once, whether as a One's ideal, a Two's enabling, or a Three's team-performance framing, and says why Three still leads. Or it softens the \"currency\" claim. The researcher quote is either reframed as impact or removed from the \"someone else registering it\" list."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "He quit when the visible result vanished.",
+      "problem": "This states a causal motive while omitting the competing constraint the same essay gives. \"From day one of OpenAI, my software skills were always in demand, and I kept procrastinating on picking up the machine learning skills I wanted.\" He resumed only when, after The International 2018, \"the demands on my time had relented.\" Separately, \"he scored the comeback in commits and hours\" misdescribes the source. The commits are Pachocki's and Sidor's (\"a commit from them in the machine learning codebase I'd started\"). The hours measure how long he could \"motivate myself to spend focused on doing machine learning work,\" which is a private gauge, not a visible one. Both details are pressed into the \"failing where people can see it\" conclusion.",
+      "acceptance_test": "The sentence is either hedged (\"stopped after...\" with the time-demand constraint named) or followed by the competing explanation. The commits are described as teammates' commits in the codebase he started. \"Hours\" is dropped from the visibility argument or described as a measure of his own motivation."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "That reading struggles with the rest of the record: pushing onto a project over its leaders' objections, a peer review that set off a fight intense enough that he offered to withdraw it, working \"around people,\" and a teenager standing at attention to win a part.",
+      "problem": "The rebuttal of Type 9 includes an item a Nine reading would claim (offering to withdraw a critique once the fight escalated is de-escalation). It also counters first-person Nine evidence with rival-sourced (WSJ, the Amodeis' side) and anonymous (Fortune) items, which reverses the article's stated preference for first-person evidence. First-person Nine-compatible lines go unused: \"I've really tried to understand all those opinions and figure out how to put them together\" (Knowledge Project, about 26:27) and the 2019 essay's \"a barrier I'd been too timid to do with Dota: make substantive changes to someone else's machine learning code.\" The Mannheim item is fair, and stronger than the draft makes it: by his account he reasoned that \"this job has one requirement\" and displayed it to the casting team.",
+      "acceptance_test": "The withdrawal offer is removed from the anti-Nine list or acknowledged as Nine-compatible. The rebuttal names which of its items are anonymous or rival-sourced. At least one first-person item, such as the Mannheim reasoning, carries the rebuttal."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "[Type 3](/enneagram-corner/enneagram-type-3) is organized around feeling valuable through accomplishment other people can see.",
+      "problem": "The similarity diagnostic tripped (0.144 against a 0.04 threshold). This sentence closely mirrors the Tiger Woods profile's \"Type 3 is organized around being valuable through achievement and the image it earns.\" The shared \"Type N is organized around... valuable through\" frame is a reusable definitional template, not an argument specific to Brockman. The Margaret Qualley \"public record\" match is incidental and needs no change.",
+      "acceptance_test": "The definitional sentence is rewritten so it does not use the \"is organized around... valuable through\" frame, ideally by defining the type through the Brockman evidence it introduces. A similarity re-run no longer trips on this unit."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Nothing in the record points to a formative wound, and this profile won't supply one.",
+      "reason": "It refuses an invented childhood etiology, which is exactly the stereotyped-typing failure this role guards against."
+    },
+    {
+      "passage": "This was the costliest choice in his record, made in an afternoon, and it is the One reading's best day: a moral verdict, with anger set aside. A Six would read it as loyalty. Nothing in it favors a Three over a One.",
+      "reason": "It concedes the most consequential episode to the rival types instead of bending it toward the thesis. This is the honest alternative-testing the standard asks for."
+    },
+    {
+      "passage": "Even the charter aside cuts both ways: the care to get the lines \"exactly right\" belongs to a One, and the reflex to head off the impression that he had crammed belongs to a Three.",
+      "reason": "It reads one sourced moment two ways, with a precise behavioral split between the types instead of type vocabulary."
+    },
+    {
+      "passage": "Startup culture rewards the same sprints in any type, including a hard-driving [Eight](/enneagram-corner/enneagram-type-8) or [Seven](/enneagram-corner/enneagram-type-7), so the loop supports the reading without proving it.",
+      "reason": "It names the incentive confound and does not explain the depletion/rest cycle with a convenient stress arrow (3 to 9). That restraint should survive editing."
+    },
+    {
+      "passage": "Some of Brockman doesn't fit the Three reading, and it shouldn't be trimmed to fit.",
+      "reason": "It explicitly preserves the unexplained remainder (moral vocabulary, loyalty, grunt work) instead of absorbing it with a wing or subtype."
+    }
+  ],
+  "assessment": "This is one of the more honest type arguments in the pipeline. It invents no wound, uses no wings or arrows to explain away contradictions, concedes November 17, 2023 to the One and Six readings, and labels anonymous and rival-sourced testimony. The weakness is the Three-over-One discriminator, which is thinner than the prose claims. Of the five items in \"Where the One reading strains\", the mirror gloss and the peer review read at least as One-compatible under the article's own right-way-versus-fast-way test, the launch rule is neutral, and the PAC pause is institutionally confounded. That leaves one anonymous Fortune quote. The article says the Three reading rests on convergence with the 2019 essay. I opened the full essay (2024 Wayback capture; the live blog returned 522). It contains material the draft omits that favors Five and One: a self-stated understanding motive (\"see the whole picture clearly\"), a three-month self-study retreat, a rejected face-saving excuse (\"said more about my abilities than the problem\"), and correctness frustrations. Three is still defensible, and the record holds underused pro-Three evidence: the Mannheim audition reasoning (\"this job has one requirement\", per the Stratechery interview, which I opened directly), choosing a field where he \"could be best in the world\", the private 2017 target \"Financially what will take me to $1B\", and recurring \"validating\" language. As drafted, though, the case for Three over One is closer to a tie than \"the record shows\", and Type 5 is dismissed on a premise the source contradicts. The editor should rebuild the discriminator on items that survive the full texts, or lower the confidence wording in the body and the FAQ. If the edit changes the leading type, the standard requires --refresh --expanded-review. Sources checked for this review: the 2019 essay (full text); Stratechery (direct fetch) for the Mannheim, \"glorious\" and \"best in the world\" passages; Knowledge Project auto-captions (research-stage transcript cache) for the \"environment\" and \"uncertainty\" passages; syndicated WSJ text for the peer-review wording and context. I did not reopen Fortune, MIT Technology Review (2026), Gizmodo or the NYT; for those I relied on the recorded excerpts, which match the draft's quotations."
+}

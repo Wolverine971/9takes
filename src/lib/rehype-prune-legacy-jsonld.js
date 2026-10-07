@@ -5,15 +5,19 @@ import matter from 'gray-matter';
  * Removes legacy inline JSON-LD from markdown articles when the route-level
  * head already emits canonical Article/Breadcrumb schema. Standalone HowTo
  * nodes are preserved unless the page has frontmatter-driven HowTo schema.
+ * FAQPage nodes are preserved too (no route-level head emits them for MDsvex
+ * posts), but only the questions whose text appears in the visible post body:
+ * Google requires FAQ markup to match what's on screen.
  */
 
 const LD_JSON_PATTERN = /\btype\s*=\s*["']application\/ld\+json["']/i;
 const SCRIPT_PATTERN = /<script\b([^>]*)>([\s\S]*?)<\/script>/gi;
 const STANDALONE_TYPES_TO_KEEP = new Set(['HowTo']);
+const FAQ_TYPE = 'FAQPage';
 
 /**
  * @typedef {{ type: string, tagName?: string, properties?: Record<string, any>, children?: HastNode[], value?: string }} HastNode
- * @typedef {{ data?: { fm?: Record<string, any> } }} VFile
+ * @typedef {{ data?: { fm?: Record<string, any>, visibleText?: string } }} VFile
  * @typedef {Record<string, any>} JsonLdNode
  */
 
@@ -24,6 +28,35 @@ function getTypeList(node) {
 	if (Array.isArray(type)) return type.filter((item) => typeof item === 'string');
 	if (typeof type === 'string') return [type];
 	return [];
+}
+
+/** @param {string} value @returns {string} */
+export function normalizeVisibleText(value) {
+	return value
+		.toLowerCase()
+		.replace(/&[a-z0-9#]+;/g, ' ')
+		.replace(/[\u2018\u2019]/g, "'")
+		.replace(/[^a-z0-9]+/g, ' ')
+		.trim();
+}
+
+/**
+ * Keeps only the FAQ questions that appear in the visible body. Returns null
+ * when none do, or when the visible text is unknown (the rehype path).
+ * @param {JsonLdNode} node @param {VFile} vfile @returns {JsonLdNode | null}
+ */
+function keepVisibleFaqQuestions(node, vfile) {
+	const visibleText = vfile?.data?.visibleText;
+	if (typeof visibleText !== 'string' || !visibleText) return null;
+	const entities = Array.isArray(node.mainEntity) ? node.mainEntity : [node.mainEntity];
+	const visibleQuestions = entities.filter((question) => {
+		if (!question || typeof question !== 'object' || typeof question.name !== 'string') {
+			return false;
+		}
+		const name = normalizeVisibleText(question.name);
+		return name.length > 0 && visibleText.includes(name);
+	});
+	return visibleQuestions.length ? { ...node, mainEntity: visibleQuestions } : null;
 }
 
 /** @param {VFile} vfile @returns {boolean} */
@@ -67,7 +100,12 @@ function pruneJsonLd(rawJson, vfile) {
 			getCandidateNodes(parsed).filter(
 				(node) => node && typeof node === 'object' && !Array.isArray(node)
 			)
-		).filter((node) => shouldKeepNode(node, vfile));
+		)
+			.map((node) => {
+				if (getTypeList(node).includes(FAQ_TYPE)) return keepVisibleFaqQuestions(node, vfile);
+				return shouldKeepNode(node, vfile) ? node : null;
+			})
+			.filter((node) => node !== null);
 
 		if (!keptNodes.length) return null;
 
@@ -113,7 +151,8 @@ function transformRawHtml(value, vfile) {
 /** @param {string} content @returns {string} */
 export function pruneLegacyJsonLdFromMarkdown(content) {
 	const parsed = matter(content);
-	return transformRawHtml(content, { data: { fm: parsed.data } });
+	const visibleText = normalizeVisibleText(parsed.content.replace(SCRIPT_PATTERN, ' '));
+	return transformRawHtml(content, { data: { fm: parsed.data, visibleText } });
 }
 
 /** @param {HastNode} node @returns {boolean} */

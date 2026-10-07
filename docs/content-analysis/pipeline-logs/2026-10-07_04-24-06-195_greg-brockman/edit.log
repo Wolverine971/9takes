@@ -1,0 +1,39 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 6bf0de0a-1bb1-42df-bea2-73e48ee522e9 to write outputs
+I've finished the edit stage and written all three outputs. The article and both JSON files pass the pipeline's own checks: no draft blockers, 4,464 words, and every claim's passage matches the final text. Nothing was published and no other files were touched.
+
+**What changed in the argument.** The reviewers agreed the draft's Type 3-over-Type 1 case was thinner than it claimed. Three of the five items it rested on actually leaned Type 1 or proved nothing, which left one anonymous Fortune quote. I kept Type 3 at medium confidence but rebuilt the case. The test is now how he scores himself in his own accounts, with no lawyer or rival choosing the words:
+- He chose a field by asking where he "could be best in the world."
+- At an audition for his first paid job, he worked out what the casting team wanted and showed it to them.
+- He noted being "number 1 for a while" on his first Kaggle contest.
+- Reading Ian Goodfellow's deep learning textbook "doubled as a recruiting strategy" because Goodfellow was impressed by his comments.
+- His 2019 essay says a project left him "nothing to show for my efforts."
+
+The anonymous quote, the trial testimony and the political-donation reversal are now explicitly labeled as not settling it. The article and the Type 1 FAQ both say the One case is close.
+
+**Factual errors fixed:**
+- The Wall Street Journal piece is by Keach Hagey and Berber Jin, not Sam Schechner.
+- "His first vacation became a build" misread his 2014 essay. The vacation was a tactic to send problems to his new VP of Engineering.
+- The hook cut off a sentence that changes its meaning ("...this probably said more about my abilities than the problem").
+- The FAQ that said Sutskever told him he'd been removed now credits the board (minus Altman), and says he was board chairman.
+- The FAQ no longer says he "stopped giving" to the AI super PAC. It quotes "no plans to donate more at this time."
+
+**Sources opened this session:** the full WIRED interview (blocked during research), so his own reasons for the donations are now quoted. Also NPR on the May 18, 2026 verdict (claims filed too late, merits not decided, Musk appealing), TechCrunch dating Sutskever's departure, and the GPT-4 launch livestream.
+
+**Left out on purpose:**
+- **Selling AI to governments (2017).** The New Yorker and WSJ report a short-lived idea, from his rivals' side, of selling AI to governments. Brockman denies seriously considering it. Adding it would bring in a sensitive allegation without changing the typing.
+- **His $100,000 trial admission.** The only source, Courthouse News, blocked a re-check, and its sentence is unclear about who was supposed to donate.
+
+The reasons for both are recorded in the JSON. Say so if you want either back in.
+
+**Still unchecked, logged as research tasks:**
+- The audio of the closing Knowledge Project quote. The words match the auto-captions, downloaded twice.
+- The original New York Times report behind Gizmodo's version of his Slack message.
+- Keach Hagey's book on the Sutskever memo.
+
+The article is 36 words under the 4,500-word ceiling, so anything added at verify time will need a matching cut.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-07_04-24-06-195_greg-brockman/`:
+- `edit.md`
+- `evidence-edit.json`
+- `resolution-edit.json`

@@ -1,0 +1,19 @@
+I finished the Dakota Johnson edit stage and wrote the three output files: `edit.md`, `evidence-edit.json` and `resolution-edit.json`. Nothing else was changed and nothing was published. The input files still match the hashes in `run.json`. The edited article passes the project's own draft checks with no blockers, and the evidence record checks out against the article.
+
+**What changed**
+- **The headline claim was too strong.** "The Prankster Who Won't Fake a Feeling" didn't survive her own record: she promoted Fifty Shades warmly for years and in 2022 said she couldn't talk about it "truthfully." The article now tests that directly. The narrower claim it can support is that faking it is hard for her, she can do a version of it when a film needs selling, and eventually she stops. The new title uses her own words: "The Prankster Who Says It's Hard to Fake It."
+- **The main argument against Type 6 was rebuilt.** Reviewers showed the old test ("what her safety is for") actually fits a Six, and one quote supported the opposite conclusion. The article now admits that on her safety talk alone, Six would win. Type 4 now rests on what her fights are about: she describes troubled films as the work being made false, not as being betrayed or left exposed.
+- **Ellen is no longer filed as a prank.** In that clip she told the truth and DeGeneres conceded. It's now the contrast to her put-ons.
+- **The Ringer was misquoted as a skeptic.** I reopened the piece; its writer loves her. The point that her candor sells is now labeled as this article's own caveat.
+- **Depression is no longer used as type evidence.** The therapy and chosen-family support she credits is now included.
+- **Type 3 is now tested**, and it's named in the type answer and FAQ.
+- **Context added:** she applied only to Juilliard and didn't get in, her stepfather Antonio Banderas, her childhood film debut, a first line saying who she is, and a note that she said she exaggerated in the Bustle interview.
+- **Cut:** the Chris Martin breakup and children lines, which aged fastest and did nothing for the type argument. The article now ends on a pattern that repeats ("Each time a film wraps… she loses it again") instead of her 2026 plans.
+
+I reopened Bustle, The Ringer, L'Officiel, both Vogue covers, Vanity Fair 2022 and Wikipedia to check every new or corrected quote. The type stays 4 at medium confidence, so the reviews remain valid and no re-review is needed.
+
+**Two calls you can veto**
+1. **Length.** The article is 4,202 words, under the 4,500 hard limit but over the reviewer's 3,500 target. I rejected that one finding: the other reviews required about 30 additions, and the same finding said not to drop any Type 6 evidence. The verifier may push back on this. If you want it shorter, the easiest cut is the "What she builds" section.
+2. **The title**, as above. I kept the "Tender Prankster" persona title.
+
+Unrelated to this stage: several MCP servers (Ahrefs, Slack, Notion and others) need authorizing in your connector settings or via `/mcp`, and the Supabase server failed to connect this session.

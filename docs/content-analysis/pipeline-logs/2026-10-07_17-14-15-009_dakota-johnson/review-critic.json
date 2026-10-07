@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "77a606b0cdd9f977ba00778706be75962db4fb7e82faa05d13f41637ab154618",
+  "evidence_sha256": "98f08e7c6e7a4ee2c46cada7c4a827fb0a3e4bd15e49c578e736b26fe3656381",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "So the line, as far as her record shows, runs between a bit, which everyone can see is a game, and a faked feeling.",
+      "problem": "The title (\"The Prankster Who Won't Fake a Feeling\"), the description and this reconciliation skip the thesis's strongest counterexample, which is already in the draft. For years she promoted Fifty Shades with enthusiasm (\"I'm truly proud of it,\" 2017; \"such an incredible platform for me and an incredible experience,\" 2018). Then in 2022 she said \"It was always a battle. Always\" and \"I haven't been able to talk about this truthfully ever, because you want to promote a movie the right way.\" The evidence record (S07) also carries Marie Claire's note that \"Johnson has denied reports that she was displeased with the Fifty Shades films.\" The draft omits that note. By her own later account, she spent years presenting a feeling about the shoot that was not the whole truth, for promotional reasons. That is the case most likely to falsify \"won't fake a feeling.\" Yet the bit-versus-feeling section tests only the limes, the Dornan joke and Ellen. \"She can hold a public line for years when a release depends on it\" is noted in passing and never weighed against the title. A fair counterpoint exists: the full VF sentence goes on \"and I'm proud of what we made ultimately,\" and she says she has no regrets, so the 2018 praise and the 2022 grievance may both be sincere. The article has to make that argument; it currently does not. The title also states as settled character fact what the body calls \"an inference from her words.\"",
+      "acceptance_test": "The bit-and-feeling section names the Fifty Shades promotional years as a test of the thesis: the 2017 and 2018 praise, Marie Claire's reported denial of displeasure, and the 2022 \"talk about this truthfully\" line. It then either shows why they are not a faked feeling (e.g., quoting \"I'm proud of what we made ultimately\") or narrows the claim (e.g., faking is hard for her and she eventually stops doing it). The title, meta_title, description and persona framing match whichever claim survives, and none of them presents as fact what the body labels an inference."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "Even her oddest safety line points at enchantment.",
+      "problem": "The quote points the other way. In the Easter Bunny quote (VF 2022, S02), belief and moviemaking are the means and safety is the end: \"Maybe that's why I make movies and why I want to make movies forever and ever. It makes things feel a little bit more safe.\" She is saying she makes movies to feel safer. That is the Six-shaped form of the sentence. The draft counts it as support for the discriminator (\"Johnson almost always describes it as the condition for something else\"), when it is a counterexample to it.",
+      "acceptance_test": "The Easter Bunny quote is either moved into the Six case or presented as cutting against the safety discriminator. Its framing correctly reports that in this line moviemaking serves safety, and the discriminator paragraph no longer counts it as support."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "For a Six, security is usually the goal. Johnson almost always describes it as the condition for something else.",
+      "problem": "This is the article's main discriminator, and it is an appealing story the record does not support as stated. (1) \"Almost always\" is a count the record contradicts. Besides the three instrumental lines, the draft and evidence contain safety or protection as an end in itself: \"when I don't feel protected, I tend to close right up\" (2017); \"We had to really trust each other and protect each other\" (VF 2022, on Fifty Shades); navigating depression \"in an honest and safe way\" (VF 2022); school as \"such a dangerous place\" (2026); \"I'm far too porous and sensitive and present. I don't—I can't deal\" (2026, on privacy); and the Easter Bunny line (critic-02). (2) The contrast flattens the rival. A Six who feels capable once security is in place (\"when I feel safe, I think I can do anything\") is a typical Six statement, not a counter-sign, because security as a platform for action is the usual description of Six motivation. The draft concedes only the narrower point that Sixes also scorn caution. (3) The draft calls the reactive defiance (\"I am shaking, even if I had no interest in doing that thing\") \"classic counterphobic Six,\" and the Four case never answers it. (4) \"When she is low, she reaches for meaning rather than reassurance\" ignores reassurance-seeking the draft itself reports: therapy since age three (\"I am in a lot of therapy,\" 2020), Gyllenhaal as \"my shepherd\" through fear, and \"in such good hands, I could just relax.\"",
+      "acceptance_test": "The safety section replaces \"almost always\" with a claim the record supports, or tallies the instrumental lines against the end-in-itself lines. It explains concretely why \"when I feel safe, I think I can do anything\" separates a Four from a Six rather than fitting both. It answers the reactive-defiance point. It squares \"meaning rather than reassurance\" with the therapy, shepherd and good-hands evidence, or drops the contrast. If the safety test no longer discriminates after these changes, the article says the Four lead rests on the being-seen and meaning-making evidence instead, and the type answer and FAQ (\"Why isn't Dakota Johnson a Type 6?\") are revised to match."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "In the Bustle interview where she called lying to the press the most fun, she also said, \"It's hard for me to fake it. It's hard for me sometimes to go along with the silliness of doing a press tour.\"",
+      "problem": "Bustle (S04) supplies the title's paradox, the description and about a dozen load-bearing lines across every type section. These include \"The most fun,\" \"hard for me to fake it,\" \"I am a very defiant person... I am shaking,\" \"first one to join a cult,\" rules \"ridiculous, silly and stupid,\" control as \"not what art is,\" \"experience everything,\" \"belong anywhere\" and days alone. In the same interview, in the answer right after the lying question, she says: \"I know I've exaggerated in this interview, and you can tell that I'm exaggerating because you see my face.\" (This reviewer opened Bustle on 2026-10-07; the line also appears in the S04 excerpt and context.) L'Officiel (S05) has a parallel caveat: \"sarcasm doesn't translate to journalists these days, or embellishment.\" The reader is never told. The draft treats deadpan lines from an interview she says she exaggerated as literal self-report, from someone it portrays as lying to the press for fun. \"I am shaking\" is the clearest case, since it becomes evidence of reactive defiance. Her full \"most fun\" answer also goes on: \"Sometimes when you're in a ridiculous situation, you just have to be ridiculous.\" That is her own reconciliation of the put-ons, and the draft does not use it.",
+      "acceptance_test": "The article discloses her own exaggeration caveat (and the L'Officiel sarcasm caveat, or an equivalent) where Bustle lines first carry argumentative weight. No type discriminator rests on a single Bustle line without corroboration from another outlet or year. The \"shaking\" defiance line is either corroborated or labeled as possibly hyperbolic."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "But she has dismissed control as the point. Of authors who clamp down on adaptations, she said in 2024, \"It's also about control and feeling powerful, and that's not what art is.\" (Bustle)",
+      "problem": "This is the only rebuttal offered when the draft raises the Eight and Three readings of TeaTime, and it does not hold. (1) The quote criticizes someone else's control. This reviewer opened Bustle and confirmed it answers a question about authors and too many cooks. In the same interview her stated remedy is \"That's why I have my own company. In a movie like that, I have no say about anything,\" which means getting control for herself. The evidence record flags this limit (C79: \"Said about someone else's control; she may want control for herself\"), and the draft drops it. (2) The timing of her grievances fits a reputational-distancing story the article never names. Before Madame Web opened she told L'Officiel \"I'm always open to anything. I don't discriminate against movie genres\" (S05, conducted pre-release). Days after it flopped she said she \"probably will never do anything like it again\" (Bustle). By 2025 it was \"no part of me that's like, 'Oh, I'll never do that again.'\" On Fifty Shades she praised the films while they were being promoted, reportedly denied displeasure, and voiced the grievance only in 2022, after the trilogy ended. Distancing from poorly received work after release is ordinary career and image management, whether Three or no type at all. \"Across a decade, one grievance\" presents the pattern as proof of a Four motive without testing this alternative. (3) The draft concedes that her commercial calculation \"sits at least as close to a Three as to a Four.\" Yet the type answer and the FAQ name only Six, Eight, Nine and Seven, and no discriminator against Three appears anywhere, although Three and Four are both image types and the \"feathers ruffle\" moment is a correction of her image.",
+      "acceptance_test": "The TeaTime/grievance section states that the control quote concerns other people's control and does not settle her own motive. The article names the reputational-distancing alternative and cites evidence that separates it from the Four reading, for example a grievance voiced while she was still promoting the film or about a well-received project. Some evidence also cuts the other way and should be weighed, such as her readiness to make Three Sisters her last film. Three gets an explicit test with a stated discriminator, or it is added to the live alternatives in the type answer and the type FAQ."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "Not everyone buys the candor.",
+      "problem": "This sentence misrepresents The Ringer piece (S38), which this reviewer opened on 2026-10-07. Jodi Walker is openly admiring (\"I love her wholeheartedly and fearfully—like how you love a god\"). She argues the opposite of skepticism: Johnson has no awareness, \"or at least none of the concern that other public figures seem to carry, about telling the exact truth,\" and \"doesn't seem to know she's creating\" these moments. \"Then hire Johnson\" goes on: \"She's gonna get out there and say some shit, and it'll probably all turn out fine.\" That is a joke about her unpredictability, not a claim that her candor is a calculated product. Calling this \"not everyone buys the candor\" and saying Walker \"named the persona's market value\" turns the profile's one non-promotional commentator into a skeptic she isn't. The result is adverse balance the record does not contain, which hides the open research gap (research task: no critical or non-promotional account of her motives has been found).",
+      "acceptance_test": "Walker is described accurately: an admiring critic who notes that Johnson lies at unexpected moments and treats her candor as genuine. If the commercial-incentive point stays, it is labeled as the author's own inference rather than Walker's position. The article states plainly that no skeptical or non-promotional account of her motives was found, or it adds a real one that has been opened and quoted in context."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "For most actors, wrap is the end of a job.",
+      "problem": "This unsourced generalization sets up the closing claim that her wrap grief \"may be the plainest evidence in her public life of what she protects.\" The evidence record's own alternatives say the opposite (C116: \"Common among actors\"; C118: \"Actors commonly grieve wrap; not type-specific\"). The contrast that makes the ending land is invented.",
+      "acceptance_test": "The \"most actors\" contrast is removed or sourced. The ending either shows what is specific about her wrap grief, for example that she ties it to the \"safe container\" she builds and describes it as recurring (\"I don't even know how many times now\"), or it states that wrap grief is common and explains why her account still bears on her type."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "If authenticity is the creed, the put-ons need explaining, and they predate the current persona.",
+      "problem": "The paragraph files the 2019 Ellen exchange among her put-ons next to the Dornan joke. In that exchange, though, Johnson told the truth and DeGeneres conceded (\"No, I think I do remember I was invited\"); the bit was DeGeneres's. The evidence record repeats the error (C54: \"Ellen bit\"). Calling it a put-on misdescribes a famous moment and blurs the thesis. It is evidence of her refusing to let a false story about herself stand, not of her playing with facts. It is also where the current persona began, so it cannot \"predate\" that persona.",
+      "acceptance_test": "The Ellen exchange is described as a truthful correction rather than a put-on. It either moves to the evidence that she refuses a false account of herself or is explicitly contrasted with the put-ons, and \"put-ons\" refers only to deliberate fabrications such as the Dornan line and the limes."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "A childhood like that can produce privacy, vigilance and a sense of not belonging in almost anyone, so it can't settle her type.",
+      "reason": "It refuses the most tempting causal story in the record, a childhood wound behind a Four, and says why. Keep it as the model for how the rest of the draft should handle attractive explanations."
+    },
+    {
+      "passage": "That covers the first film only. Johnson's rewriting and the sequels rest on her word.",
+      "reason": "It states exactly how far the independent corroboration reaches on an account involving a named living person. This is fair to E.L. James and honest about the evidence."
+    },
+    {
+      "passage": "Counterphobic Sixes also scorn caution, so this tilts the case rather than closing it.",
+      "reason": "The draft limits its own evidence at the point where overclaiming would be easy. The repair for critic-03 should extend this honesty, not remove it."
+    },
+    {
+      "passage": "A Seven's appetite usually runs from that sentence. Hers runs toward it.",
+      "reason": "This discriminator is sourced, specific and compact. It uses the second half of the same answer that makes the Seven case, so the alternative is tested on its own best evidence."
+    },
+    {
+      "passage": "Not that she was good, or that she had arrived. That she did something different.",
+      "reason": "A precise, original reading of her own wording that the reader would not have noticed alone. It is the kind of detail that makes the portrait specific to her."
+    }
+  ],
+  "assessment": "A careful draft that is unusually honest about its limits. It gives the Six case its strongest form, refuses childhood causation, discloses that most of the record is promotional, and limits the Fifty Shades corroboration fairly. Its two signature moves are weaker than presented. The title thesis (\"won't fake a feeling\") skips its strongest counterexample, which the draft itself contains: years of Fifty Shades enthusiasm that she later said was not the truthful account (critic-01). The Six discriminator (\"what her safety is for\") miscounts the record and, in the Easter Bunny line, inverts it (critic-02, critic-03). Two source-handling problems tilt the balance. Walker's admiring Ringer piece is recast as skepticism (critic-06), and Bustle's self-declared exaggeration goes undisclosed while that interview supplies the paradox and a dozen load-bearing quotes (critic-04). The reputational-distancing/Three alternative to the \"one grievance\" story is conceded but never tested (critic-05). Medium confidence in Four remains defensible if these are repaired. If the safety test stops discriminating, the Four lead must rest on the being-seen and meaning-making evidence, and the article should say so. Verification note: on 2026-10-07 this reviewer opened Bustle (S04) and The Ringer (S38). Vogue 2017 (S08) returned only a consent wall and Marie Claire (S07) a Cloudflare challenge, so points relying on them (the Marie Claire denial note, the 2017 safety sentence) use the evidence record's excerpts and are not independently confirmed. The similarity diagnostic did not trip (max 0.016 against a 0.04 threshold). Its top pairs share only generic type vocabulary, and reading the passages found no meaningful argument reuse."
+}
