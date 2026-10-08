@@ -13,12 +13,12 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 440,
+		"candidates": 441,
 		"gateDebt": 0,
 		"topBlog": 40,
 		"peopleBridge": 30,
 		"peopleToPeople": 4,
-		"skipped": 168
+		"skipped": 167
 	},
 	"gateDebt": [],
 	"topBlog": [
@@ -1240,6 +1240,33 @@
 			"excerpt": "- **Portnoy**: Big Cat, KFC, Alex Cooper. Barstool was never a one-man show."
 		},
 		{
+			"id": "/enneagram-corner/enneagram-leadership -> /personality-analysis/steve-jobs",
+			"score": 4.52,
+			"target": {
+				"url": "/personality-analysis/steve-jobs",
+				"title": "Steve Jobs",
+				"kind": "person",
+				"section": "people",
+				"impressions": 690,
+				"clicks": 6,
+				"position": 14.8,
+				"inbound": 6
+			},
+			"source": {
+				"url": "/enneagram-corner/enneagram-leadership",
+				"file": "src/blog/enneagram/enneagram-leadership.md",
+				"section": "enneagram-corner",
+				"impressions": 394,
+				"outCount": 11
+			},
+			"line": 170,
+			"anchor": "Steve Jobs",
+			"phrase": "Steve Jobs",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "**Reality Check:** Has your mood determined a meeting's outcome this week? Steve Jobs built Apple into a trillion-dollar company, but his emotional volatility drove away talent who could have contributed even more. Your …"
+		},
+		{
 			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/bernie-sanders",
 			"score": 4.32,
 			"target": {
@@ -1886,33 +1913,6 @@
 			"phraseKind": "name",
 			"mentionScore": 3,
 			"excerpt": "…ity-analysis/jack-black) chose to play the straight man in _Anaconda_ alongside Paul Rudd. The guy whose entire career was built on being the loudest person in the room deliberately played against type. Self-awareness. R…"
-		},
-		{
-			"id": "/pop-culture/tech-titans-leadership-styles -> /personality-analysis/andrew-garfield",
-			"score": 0.85,
-			"target": {
-				"url": "/personality-analysis/andrew-garfield",
-				"title": "Andrew Garfield",
-				"kind": "person",
-				"section": "people",
-				"impressions": 0,
-				"clicks": 0,
-				"position": null,
-				"inbound": 1
-			},
-			"source": {
-				"url": "/pop-culture/tech-titans-leadership-styles",
-				"file": "src/blog/pop-culture/tech-titans-leadership-styles.md",
-				"section": "pop-culture",
-				"impressions": 484,
-				"outCount": 33
-			},
-			"line": 129,
-			"anchor": "Andrew Garfield",
-			"phrase": "Andrew Garfield",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "…o long to sue, so the Type 5 vs Type 4 collision never got a verdict on the merits. The 2023 boardroom fight is now a movie, too: [_Artificial_](/pop-culture/artificial-movie-real-people), with Andrew Garfield as Altman."
 		}
 	],
 	"peopleToPeople": [
@@ -1968,9 +1968,9 @@
 				"impressions": 86,
 				"position": 8.8
 			},
-			"line": 153,
+			"line": 171,
 			"anchor": "Ryan Holiday",
-			"excerpt": "The strongest alternate case is **Type 3**. \"A compulsion to please people\" (Young and Profiting, 2019) and a lifelong sense of being \"never smart enough\" (Jay Shetty, 2026) sound like a Three chasing worth through output. The difference is the audience. Threes work the room; Greene withdraws from it. Ryan Holiday, his longtime research assistant, says he won't answer the phone during working hours; he takes years between books, and told Sari Azout of the new one, \"I don't care if anybody reads this book.\" A Three would struggle to say that and mean it.",
+			"excerpt": "The strongest alternate case is **Type 3**. \"A compulsion to please people\" (Young and Profiting, 2019) and a lifelong sense of being \"never smart enough\" (Jay Shetty, 2026) sound like a Three chasing worth through output. The difference is the audience. Threes work the room; Greene withdraws from it. Ryan Holiday, his former research assistant, says he won't answer the phone during working hours; he takes years between books, and told Sari Azout of the new one, \"I don't care if anybody reads this book.\" A Three would struggle to say that and mean it.",
 			"typeClaim": null
 		},
 		{

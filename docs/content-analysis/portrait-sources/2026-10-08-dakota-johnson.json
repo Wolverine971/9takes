@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-08",
+  "template": {
+    "path": "face-line-template.png",
+    "sha256": "74b6538bbdbf61cb61ce29a7c8e7a97041108f7fdc20851291c1cd388da09344",
+    "modified": false,
+    "fixedEyeTarget": {
+      "x": 540,
+      "y": 490
+    }
+  },
+  "portrait": {
+    "slug": "dakota-johnson",
+    "name": "Dakota Johnson",
+    "filename": "Dakota-Johnson",
+    "type": "4",
+    "status": "installed_for_unpublished_draft",
+    "source": {
+      "page": "https://www.themoviedb.org/person/118545-dakota-johnson/images/profiles",
+      "imageUrl": "https://image.tmdb.org/t/p/original/jI8GITDOV0xatWvkDNHjXYwNkxw.jpg",
+      "photographerOrCredit": "Photographer not identified; TMDB profile portrait",
+      "localOriginal": "output/portrait-sources/2026-10-07-queue/dakota-johnson-source.jpg",
+      "width": 1100,
+      "height": 1650,
+      "sha256": "2adc1571e3790e712d8529a1c8c3182a9c4fd4b24bad2c4d889734440948193f",
+      "rights": "No open reuse license or publication permission established. Retained for review; rights clearance remains necessary before publication."
+    },
+    "transformations": {
+      "segmentation": "Apple Vision foreground mask; no face reconstruction",
+      "clockwiseRotationDegrees": 0,
+      "composition": {
+        "slug": "dakota-johnson",
+        "name": "Dakota-Johnson",
+        "input": "output/portrait-processed/2026-10-07-queue/dakota-johnson-cutout.png",
+        "crop": "output/portrait-processed/2026-10-07-queue/dakota-johnson-crop.png",
+        "bottom": 1650,
+        "height": 1032,
+        "anchorX": 576.6390547156334,
+        "anchorY": 569.5856718753962,
+        "erode": 3,
+        "contrast": 1.04,
+        "brightness": 1,
+        "targetX": 540,
+        "targetY": 490
+      },
+      "grayscale": true,
+      "transparentBackground": true,
+      "template": "face-line-template.png",
+      "hairRefinement": {
+        "date": "2026-10-08",
+        "method": "Local source-photo foreground/background color matting; dark/brown hair confidence rejects blue/purple and white event-backdrop contamination at the fringe.",
+        "settings": {
+          "config": {
+            "inner": 35,
+            "outer": 10,
+            "seed": 8,
+            "cutoff": 1650,
+            "fade": 30,
+            "minContrast": 45
+          },
+          "changed": 64650,
+          "recovered": 4672,
+          "cleared": 59978,
+          "method": "Source-photo local foreground/background color matting in the hair fringe, no shape or face generation",
+          "finalFrameTreatment": {
+            "preserveOpaqueInteriorPixels": true,
+            "hairEditCutoff": 1080,
+            "fade": 25,
+            "crownMask": null
+          }
+        },
+        "script": "output/portrait-processed/2026-10-08-dakota-johnson/refine-dakota.mjs",
+        "finalizer": "output/portrait-processed/2026-10-08-dakota-johnson/finalize-dakota.mjs",
+        "generatedLikeness": false,
+        "previousMaster": {
+          "path": "output/portrait-processed/2026-10-08-dakota-johnson/Dakota-Johnson-before.png",
+          "width": 1080,
+          "height": 1080,
+          "sha256": "28163eb6cce85d570bf3e65d1ad0b5551c7d2116cc8e075914b732b39307aabc"
+        }
+      }
+    },
+    "master": {
+      "path": "output/portrait-processed/2026-10-08-dakota-johnson/Dakota-Johnson-final-master.png",
+      "width": 1080,
+      "height": 1080,
+      "sha256": "a3e491cafae0d43c52aca6bae0c1a46f99d769335c79acad143bc3e05c4abf2c"
+    },
+    "assets": {
+      "full": {
+        "path": "output/portrait-preflight/2026-10-07-queue/Dakota-Johnson.webp",
+        "width": 1080,
+        "height": 1080,
+        "bytes": 78730,
+        "sha256": "df4e141e362cf67f93236ba25b7b03cdd943c7afc87459c1fd95983edd07c55a",
+        "alpha": true
+      },
+      "thumbnail": {
+        "path": "output/portrait-preflight/2026-10-07-queue/s-Dakota-Johnson.webp",
+        "width": 480,
+        "height": 480,
+        "bytes": 14946,
+        "sha256": "04d15755e397f3d51939438d0249520e3284811ab56d0fcde8b6c678e44c3885",
+        "alpha": true
+      }
+    },
+    "validation": {
+      "dimensionsAndAlpha": "pass",
+      "unchangedOpaqueTemplatePixels": 22457,
+      "visualReview": "completed",
+      "handsInFinalCrop": false,
+      "glassesInFinalCrop": false,
+      "hairEdges": "Reviewed in light and dark previews",
+      "centralFacePixelPreservation": {
+        "x": 450,
+        "y": 550,
+        "width": 190,
+        "height": 200,
+        "result": "identical to previous master"
+      },
+      "installedPortraitCheck": "pass"
+    },
+    "qualityNote": "Forward-facing 1100 × 1650 real photograph with bangs, no glasses, and no hands. Hair fringe and backdrop remnant beside the right edge cleaned on 8 October 2026. Grayscale portrait with unchanged purple template; original face interior preserved.",
+    "installedPaths": [
+      "static/types/4s/Dakota-Johnson.webp",
+      "static/types/4s/s-Dakota-Johnson.webp"
+    ]
+  }
+}

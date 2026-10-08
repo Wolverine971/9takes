@@ -1,4 +1,3 @@
-<!-- docs/content-analysis/grades/Troye-Sivan.review.md -->
 # Grade feedback: Troye Sivan
 
 Grade: B+ (8.6), rubric v2
@@ -84,8 +83,3 @@ Verification limits: the directly linked April 2024 Seth Meyers video failed web
 - Interior check: the exact photograph sentence above briefly inhabits his discomfort. His own recurring-situation question in the songwriting section adds felt longing, but much of the subsequent analysis reports the feeling from outside. This supports an above-good score, not the exceptional emotional-interior band.
 - Empathy check: the exact public-confidence/dread sentence explains why shyness can coexist with enjoying attention. The Rush section’s sentence, “His discomfort with the insult is understandable,” is weaker because it announces the verdict. Its following sentence keeps the inclusion question separate. No armor/protection/scar-tissue contrast grammar; `house_empathy_turn` does not apply.
 - Critic pressure is faced: narrow body representation receives a substantive paragraph and is not excused by his hurt. The article has a clear 2026 anchor. The final image depends on Charli, his own song and the beret, so the ending passes the swap test.
-
-
-## Refresh grade history
-
-The first independent assessment of the refreshed candidate was 8.3; the independent stability assessment was 8.2. After the first bounded revision the stability reviewer assigned 8.4. A separate fresh grader assessed the revised copy at 8.6, then reread the final copyedit and retained 8.6. The supervised first-to-final difference is 0.3; this records actual assessments across revisions, not repeated blind scores of an identical file. Intermediate reports remain in the refresh review directory. The final score is not an average or a replacement for the documented lower assessments.

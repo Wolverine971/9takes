@@ -62,3 +62,7 @@ The exact source URLs, local files, per-person composition settings, source/mast
 - Final portraits were visually reviewed for eye coverage, face position, background removal, and absence of hands/glasses. Source limitations are recorded above.
 - Greg's installed pair passed `pnpm portrait:check -- 3 Greg-Brockman`; the generated slug map includes his filename and the portrait asset budget baseline was updated by the existing preparation script.
 - The contact sheet previews all 17 together. The local HTML gallery offers both site theme treatments and full-size/thumbnail crops; no article was published or deployed.
+
+## Dakota Johnson — 8 October 2026
+
+Dakota’s original sourced photograph was refined to preserve hair fringe and remove event-backdrop contamination. Her face interior and the exact purple template are preserved. The full 1080px and thumbnail 480px transparent WebPs are now installed under `static/types/4s/` for her existing unpublished Type 4 draft. This brings the original active batch to two installed pairs and 15 staged pairs. The dedicated revision record contains the updated source, processing settings, checks, and hashes.

@@ -26,8 +26,16 @@ Link ideas to act on: [`docs/crosslinks/link-opportunities.md`](crosslinks/link-
 | Below gate (<3 in or <3 out) | 0 (0 not grandfathered) |
 | Broken internal links (live post → non-live page) | 0 |
 | Links that go through a 301 | 0 |
-| Broken/redirected links on people pages (draft mirror) | 0 |
+| Broken/redirected links on people pages (draft mirror) | 1 |
 | Body links: blog → blog / blog → people | 1,623 / 371 |
+
+### Broken or redirected links on people pages
+
+Fix in the draft, then sync with `pnpm push:people -- <Person> --sync`.
+
+| Draft | Linked |
+|---|---|
+| `src/blog/people/drafts/Troye-Sivan.md` | `/personality-analysis/madonna` |
 
 ---
 

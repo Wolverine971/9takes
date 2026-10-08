@@ -1,7 +1,7 @@
 # Link Opportunities
 
 _Generated: 2026-10-08 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
-_Search data: GSC 2026-07-04 → 2026-10-02. 315 candidate links found (+125 weaker ones offered only for gate debt); 168 suppressed in `docs/crosslinks/skipped.json`._
+_Search data: GSC 2026-07-04 → 2026-10-02. 316 candidate links found (+125 weaker ones offered only for gate debt); 167 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
 Score = target's search demand × link deficit × mention strength × source visibility (cross-section links get a bonus).
@@ -65,6 +65,7 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 5.5 | `/pop-culture/podcaster-personality-map` (L80) | `/personality-analysis/dave-portnoy` | "Dave Portnoy" | **Joe Rogan. Dave Portnoy. [Sam Parr](/personality-analysis/sam-parr).** |
 | 5.07 | `/pop-culture/podcaster-personality-map` (L128) | `/personality-analysis/theo-von` | "Theo Von" | **Alex Cooper. Theo Von. Dax Shepard. [Brittany Broski](/personality-analysis/brittany-broski). Shaan Puri.** |
 | 4.81 | `/enneagram-corner/how-type-8-challengers-actually-succeed` (L124) | `/personality-analysis/alex-cooper` | "Alex Cooper" | - **Portnoy**: Big Cat, KFC, Alex Cooper. Barstool was never a one-man show. |
+| 4.52 | `/enneagram-corner/enneagram-leadership` (L170) | `/personality-analysis/steve-jobs` | "Steve Jobs" | **Reality Check:** Has your mood determined a meeting's outcome this week? Steve Jobs built Apple into a trillion-dollar company, but his e… |
 | 4.32 | `/pop-culture/podcast-bros-enneagram-analysis` (L164) | `/personality-analysis/bernie-sanders` | "Bernie Sanders" | … push back on him. His most memorable episodes feature genuine disagreement—Elon Musk calmly explaining AI risk while Rogan challenges him… |
 | 4.26 | `/enneagram-corner/what-enneagram-type-are-most-ceos` (L339) | `/personality-analysis/david-beckham` | "David Beckham" | - Type 3: David Beckham, Jared Kushner, Kris Jenner, Taylor Swift, Tony Robbins, Tyler Perry, Vivek Ramaswamy |
 | 4.23 | `/community/societal-ticking-time-bombs` (L379) | `/personality-analysis/sam-parr` | "Sam Parr" | The numbers bear this out. Sam Parr and Shaan Puri discussed this on [My First Million (Episode 797)](https://www.youtube.com/watch?v=Jd3he… |
@@ -89,7 +90,6 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 1.71 | `/pop-culture/kardashian-family-enneagram-analysis` (L411) | `/personality-analysis/travis-scott` | "Travis Scott" | - **Merging into partners:** Joined Travis Scott's tour within days of meeting him; wore Chalamet's movie colors to his premiere |
 | 1.11 | `/pop-culture/tech-titans-ai-wars` (L256) | `/personality-analysis/alexandr-wang` | "Alexandr Wang" | …ed $14.3 billion for a 49% stake in Scale AI and installed its 28-year-old CEO, Alexandr Wang, as Meta's new Chief AI Officer, leading the… |
 | 1.1 | `/enneagram-corner/why-the-next-thing-wont-fix-it-type-7` (L175) | `/personality-analysis/paul-rudd` | "Paul Rudd" | …ity-analysis/jack-black) chose to play the straight man in _Anaconda_ alongside Paul Rudd. The guy whose entire career was built on being … |
-| 0.85 | `/pop-culture/tech-titans-leadership-styles` (L129) | `/personality-analysis/andrew-garfield` | "Andrew Garfield" | …o long to sue, so the Type 5 vs Type 4 collision never got a verdict on the merits. The 2023 boardroom fight is now a movie, too: [_Artifi… |
 
 ## 4. People → people (personality-analysis → personality-analysis)
 
@@ -102,5 +102,5 @@ These pages live in the database: edit the draft, then sync (see `/crosslink-que
 |---|---|---|---|
 | `/personality-analysis/andrew-garfield` (1, 0) | `src/blog/people/drafts/Emma-Stone.md` (L136) | "Andrew Garfield" | Around the same time, she fell in love with Andrew Garfield. They met in 2010 when he screen-tested opposite her for _The Amazing Spider-Ma… |
 | `/personality-analysis/andrew-garfield` (1, 0) | `src/blog/people/drafts/Tom-Holland.md` (L211) | "Andrew Garfield" | Holland's specific flavor is 7w6, the Entertainer wing. The 6 wing adds a layer of loyalty, anxiety about security, and a deep need to belo… |
-| `/personality-analysis/ryan-holiday` (2, 86) | `src/blog/people/drafts/Robert-Greene.md` (L153) | "Ryan Holiday" | The strongest alternate case is **Type 3**. "A compulsion to please people" (Young and Profiting, 2019) and a lifelong sense of being "neve… |
+| `/personality-analysis/ryan-holiday` (2, 86) | `src/blog/people/drafts/Robert-Greene.md` (L171) | "Ryan Holiday" | The strongest alternate case is **Type 3**. "A compulsion to please people" (Young and Profiting, 2019) and a lifelong sense of being "neve… |
 | `/personality-analysis/emma-stone` (2, 0) | `src/blog/people/drafts/Jimmy-Fallon.md` (L195) | "Emma Stone" | Lip Sync Battle, Box of Lies, Wheel of Musical Impressions, Egg Russian Roulette. The genius was never the games themselves. It was that he… |

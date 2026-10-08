@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
   "scope": "17 active entries from docs/blog-automation/backlog-queue.json at task start; Greg Brockman processed first",
-  "status": "17 masters and 34 WebP exports complete; Greg installed locally, 16 await assigned types",
+  "status": "17 masters and 34 WebP exports complete; Greg Brockman and Dakota Johnson installed locally, 15 await assigned types",
   "template": {
     "path": "face-line-template.png",
     "sha256": "74b6538bbdbf61cb61ce29a7c8e7a97041108f7fdc20851291c1cd388da09344",
@@ -1028,8 +1028,8 @@
       "slug": "dakota-johnson",
       "name": "Dakota Johnson",
       "filename": "Dakota-Johnson",
-      "type": null,
-      "status": "exported_awaiting_type",
+      "type": "4",
+      "status": "installed_for_unpublished_draft",
       "source": {
         "page": "https://www.themoviedb.org/person/118545-dakota-johnson/images/profiles",
         "imageUrl": "https://image.tmdb.org/t/p/original/jI8GITDOV0xatWvkDNHjXYwNkxw.jpg",
@@ -1060,29 +1060,62 @@
         },
         "grayscale": true,
         "transparentBackground": true,
-        "template": "face-line-template.png"
+        "template": "face-line-template.png",
+        "hairRefinement": {
+          "date": "2026-10-08",
+          "method": "Local source-photo foreground/background color matting; dark/brown hair confidence rejects blue/purple and white event-backdrop contamination at the fringe.",
+          "settings": {
+            "config": {
+              "inner": 35,
+              "outer": 10,
+              "seed": 8,
+              "cutoff": 1650,
+              "fade": 30,
+              "minContrast": 45
+            },
+            "changed": 64650,
+            "recovered": 4672,
+            "cleared": 59978,
+            "method": "Source-photo local foreground/background color matting in the hair fringe, no shape or face generation",
+            "finalFrameTreatment": {
+              "preserveOpaqueInteriorPixels": true,
+              "hairEditCutoff": 1080,
+              "fade": 25,
+              "crownMask": null
+            }
+          },
+          "script": "output/portrait-processed/2026-10-08-dakota-johnson/refine-dakota.mjs",
+          "finalizer": "output/portrait-processed/2026-10-08-dakota-johnson/finalize-dakota.mjs",
+          "generatedLikeness": false,
+          "previousMaster": {
+            "path": "output/portrait-processed/2026-10-08-dakota-johnson/Dakota-Johnson-before.png",
+            "width": 1080,
+            "height": 1080,
+            "sha256": "28163eb6cce85d570bf3e65d1ad0b5551c7d2116cc8e075914b732b39307aabc"
+          }
+        }
       },
       "master": {
-        "path": "output/portrait-processed/2026-10-07-queue/Dakota-Johnson-master.png",
+        "path": "output/portrait-processed/2026-10-08-dakota-johnson/Dakota-Johnson-final-master.png",
         "width": 1080,
         "height": 1080,
-        "sha256": "28163eb6cce85d570bf3e65d1ad0b5551c7d2116cc8e075914b732b39307aabc"
+        "sha256": "a3e491cafae0d43c52aca6bae0c1a46f99d769335c79acad143bc3e05c4abf2c"
       },
       "assets": {
         "full": {
           "path": "output/portrait-preflight/2026-10-07-queue/Dakota-Johnson.webp",
           "width": 1080,
           "height": 1080,
-          "bytes": 55370,
-          "sha256": "8ee24bacfd425b2112fce7112a5c19c2d83f2366719935e1e4f2fc1199c41635",
+          "bytes": 78730,
+          "sha256": "df4e141e362cf67f93236ba25b7b03cdd943c7afc87459c1fd95983edd07c55a",
           "alpha": true
         },
         "thumbnail": {
           "path": "output/portrait-preflight/2026-10-07-queue/s-Dakota-Johnson.webp",
           "width": 480,
           "height": 480,
-          "bytes": 11140,
-          "sha256": "babb9c0c7da0e1a6a98dbd7297c882d32e8d7e62933795cc065f6b1fb51fbf35",
+          "bytes": 14946,
+          "sha256": "04d15755e397f3d51939438d0249520e3284811ab56d0fcde8b6c678e44c3885",
           "alpha": true
         }
       },
@@ -1091,10 +1124,22 @@
         "unchangedOpaqueTemplatePixels": 22457,
         "visualReview": "completed",
         "handsInFinalCrop": false,
-        "glassesInFinalCrop": false
+        "glassesInFinalCrop": false,
+        "hairEdges": "Reviewed in light and dark previews",
+        "centralFacePixelPreservation": {
+          "x": 450,
+          "y": 550,
+          "width": 190,
+          "height": 200,
+          "result": "identical to previous master"
+        },
+        "installedPortraitCheck": "pass"
       },
-      "qualityNote": "Forward-facing event portrait with bangs; no glasses or hands.",
-      "installedPaths": []
+      "qualityNote": "Forward-facing 1100 × 1650 real photograph with bangs, no glasses, and no hands. Hair fringe and backdrop remnant beside the right edge cleaned on 8 October 2026. Grayscale portrait with unchanged purple template; original face interior preserved.",
+      "installedPaths": [
+        "static/types/4s/Dakota-Johnson.webp",
+        "static/types/4s/s-Dakota-Johnson.webp"
+      ]
     },
     {
       "slug": "josh-hartnett",
