@@ -267,7 +267,7 @@
 	const contentStore = writable('');
 	let contentObserver: MutationObserver | null = null;
 
-	const commentAdded = (detail: any) => {
+	const commentAdded = (detail: PublicBlogCommentRow[]) => {
 		comments = [...detail, ...comments];
 		userHasAnswered = true;
 	};
@@ -790,12 +790,7 @@
 					parentType={'personality-analysis'}
 					{userHasAnswered}
 				/>
-				<BlogInteract
-					data={data as any}
-					parentType={'personality-analysis'}
-					on:commentAdded={({ detail }) => commentAdded(detail)}
-					user={$authShellUser}
-				/>
+				<BlogInteract data={data as any} onCommentAdded={commentAdded} user={$authShellUser} />
 			</div>
 		{:else if commentsVisible}
 			<div class="loading-placeholder">

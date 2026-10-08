@@ -13,6 +13,15 @@ Agent-directed work orders. One file per unit of work. A tasker is written so th
 - `enneagram-and-mental-illness` (287 clicks) is frozen: it may absorb other pages, never be absorbed, retitled, or reslugged.
 - Other agents and DJ edit this repo in parallel. Never `git stash`, never bulk-reset, never a wide operation that could clobber uncommitted work.
 
+## New workstream: Actionable Vercel errors (2026-10-08)
+
+Grouped follow-ups from the past-day production audit. Scraper blocks, expected invalid credentials and probes remain protected failures; they are not remediation targets.
+
+| ID       | Tasker                                                                       | What it is                                                                                                                                              | Status                                                                |
+| -------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **T-44** | [CTA experiment admin read access](T-44-cta-experiment-admin-read-access.md) | P1: missing grants prevent nine admin exact counts; read-only admin migration, explicit page authorization, sanitized diagnostics and permission tests. | Local fix verified; production migration and deployment need approval |
+| **T-45** | [Olivia portrait compatibility](T-45-olivia-portrait-compatibility.md)       | P2: one observed legacy PNG thumbnail URL redirects to its existing WebP asset; unrelated missing assets still fail.                                    | Local fix verified; deployment remains                                |
+
 ## New workstream: Search follow-ups from the keyword map (2026-10-06)
 
 Out of the 2026-10-06 keyword and outreach map (`docs/seo/2026-10-06-keyword-and-outreach-map.md`, Decisions 1 and 2). DJ decided to build a scored test later, from his own design (T-42), and to make question answers indexable for Google only, never shown to visitors before they answer (T-43).

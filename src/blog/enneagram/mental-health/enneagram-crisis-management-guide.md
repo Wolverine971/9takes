@@ -329,7 +329,7 @@ Somewhere early, they learned that love followed achievement. A's got attention.
 
 **Early Warning Signs** (often invisible to outsiders):
 
-Productivity goes manic. They're not just working: they're fleeing. Sleep drops to four hours. Stimulants increase. Image becomes obsession: appearance, perception, reputation. Relationships are sacrificed on the altar of the next milestone. Emotions flatten. Not depression yet, but a growing numbness. They can't remember the last time they felt anything that wasn't related to winning or losing.
+Productivity goes manic. They're not just working: they're fleeing. Sleep drops to four hours. Stimulants increase. Image becomes obsession: appearance, perception, reputation. Relationships are sacrificed on the altar of the next milestone. Emotions flatten. Not [depression](/enneagram-corner/depression-patterns-by-enneagram-type) yet, but a growing numbness. They can't remember the last time they felt anything that wasn't related to winning or losing.
 
 💡 **The Moment of Recognition:** Type 3s in early crisis often look like they're thriving. The collapse happens behind closed doors.
 

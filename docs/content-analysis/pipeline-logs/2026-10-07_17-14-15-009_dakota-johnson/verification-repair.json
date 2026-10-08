@@ -1,0 +1,1501 @@
+{
+  "schema_version": 3,
+  "content_sha256": "465ebee4d5a2b537966c10e55cd486daa858ea3b4f07e54791109d57bb51500f",
+  "evidence_sha256": "97293f35ebf7690479f0ffa9370dd498b6f26a832bca880fc5919d6d2160d9dc",
+  "status": "pass",
+  "findings": [
+    {
+      "id": "verify-08",
+      "severity": "minor",
+      "passage": "On the small feature she said in July 2025 she was preparing to direct, written with Vanessa Burghardt, who played her daughter in _Cha Cha Real Smooth_:",
+      "problem": "\"Written with\" credits Johnson as co-writer of the screenplay. None of C180's sources says that: Variety (S45) says the film is one she is \"working on alongside\" Burghardt, Wikipedia (S16) says it was \"written by Vanessa Burghardt,\" and October 2025 trade reports describe the screenplay as Burghardt's feature writing debut. The typing argument does not depend on authorship, but the sentence misstates a creative credit for a named third party.",
+      "acceptance_test": "The clause reads \"written by Vanessa Burghardt\" (or drops the authorship, e.g. \"a project with Vanessa Burghardt\"), and C180's claim text and passage are updated to match; no other change."
+    },
+    {
+      "id": "verify-09",
+      "severity": "minor",
+      "passage": "her 2022 account came four years after the franchise ended and a year after _The Lost Daughter_, when distancing cost least.",
+      "problem": "The Lost Daughter premiered in September 2021 and was released in December 2021; the Vanity Fair account was reported in spring 2022 and published June 28, 2022, six to nine months later. \"A year after\" overstates the gap. The point (distancing cost least) stands either way.",
+      "acceptance_test": "The clause reads \"months after _The Lost Daughter_\" (or \"half a year after\"), and C140's claim text is updated to match."
+    }
+  ],
+  "research_tasks": [
+    "Next refresh, not blocking: a February 2024 Late Night with Seth Meyers anecdote (reported by The Independent via Yahoo, 2024-02-09) has her calling The Office finale cameo \"the worst time of my life\" because of \"weird dynamics\" and \"no one wanted to talk to me.\" It concerns castmates ignoring her, not an authority who misled or left her unprotected, so it does not trip C95; it is an unused first-person set grievance that could sit beside the \"not seen on set\" line.",
+    "Originals still unopened behind relays used in the body: The Telegraph (February 2015, S54), Vogue UK (February 2016, S47), Glamour UK (March 2017, S43). The relayed sentences were verified against the relays and the article attributes them as relays."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S01); \"a certain cool-girl deadpan opacity, a kind of mischievous remove during press appearances\" is the writer's characterization, as the article attributes it."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S10 caption track); \"i love limes i love them they're great i love them so much and i like to present them like this in my house\"; the article paraphrases without quoting."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S36 caption track); \"it was set dressing. I'm actually -- I'm allergic to limes\" and \"so I just lied. Just lied.\" in the limes exchange."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S04); \"Is it ever fun to lie to the press though?\" is followed by \"The most fun. The most fun. Sometimes when you're in a ridiculous situation, you just have to be ridiculous.\""
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S01); the writer wonders whether passion goes against \"that image of her cool remove, and it's the first time I see her feathers ruffle,\" then the quoted reply."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S01); \"I just want to be authentic,\" she says plainly, after the writer says being cool is not necessarily bad."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S04); \"But also, publicly… all that stuff is ridiculous. It's hard for me to fake it.\" follows the accommodate-then-decide answer."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S53, S07, S04, S06, S02 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. The sentence is scoped to \"the interviews reviewed for this profile, from 2015 to 2026\" and the next sentence names the misled objection."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "Type hypothesis: frontmatter enneagram 4 matches type_hypothesis.type 4 at medium confidence; the 60-word answer, FAQ 1 and the meta title say the same."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S08, S03, S04, S06, S01, S07, S02, S29, S35 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. Scoped \"in the interviews reviewed here.\""
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S07, S36, S13, S04, S03, S23, S18, S06, S21 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. Each alternative gets its own sourced paragraph in the body."
+    },
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02 and S16); Vanity Fair: parents \"were in Austin in the fall of 1989… Dakota was born on October 4\"; Wikipedia lead: \"(born October 4, 1989)\"."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02, S04, S08, S16); Vanity Fair: \"Johnson is the only child the couple share\" and \"She is one of seven half siblings\"; Bustle: \"I have four brothers and two sisters, and my two sisters are not blood-related to each other… my two older brothers are not blood-related to each other\"; Vogue 2017: \"her grandmother is Tippi Hedren.\" \"All half-siblings\" follows from the two accounts together."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "Birth metadata 1989-10-04 matches S02 (October 4, fall of 1989, Austin) and S16; occupation actress and producer matches S12 and S01."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S08); \"Johnson, born in Texas and raised nowhere in particular… Dakota tagged along… She started therapy at age three.\" Vogue narration, attributed as such."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S08); \"She had to contend with her parents' divorce and their well-publicized struggles with drugs and alcohol.\" Vogue narration."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S08); verbatim."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S08, S01 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. Explicitly refuses childhood causation."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02); \"After high school, Johnson's father told her that she had to go to college or get cut off financially. She chose independence.\" followed by \"Almost immediately, Johnson booked that role in David Fincher's The Social Network.\""
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02); both sentences verbatim in the Social Network paragraph."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S02 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S16, S08, S11); Wikipedia: \"grossed over $1 billion worldwide\"; Vogue 2017 and Flicks 2018 carry her defenses."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S08); \"She has heard it said that she despises Fifty Shades. Not so.\" is Vogue's narration, followed by the quotation; the article attributes \"Not so\" to the magazine."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02 and S35); Vanity Fair: \"That would be E.L. James, who goes by Erika. 'She had a lot of creative control, all day, every day… It was always a battle. Always.'\" THR independently reports the control fight; the article does not assert a legal name. Disputed class is right: James has not answered."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02); the two-takes sentence and \"The night before, I would rewrite scenes with the old dialogue so I could add a line here and there\" verbatim."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02); the full sentence runs on to \"I'm proud of what we made ultimately… but it was tricky\"; the article quotes the first clause and the evidence records the rest."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02); verbatim, in the same paragraph as \"treated really well.\""
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S35); THR, 2017-06-16: \"author James (real name Erika Mitchell), who had negotiated creative control with Universal\" and the quoted \"Her vision versus mine… Every scene was fought over.\""
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S35, S02 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. THR concerns the first film only; the rewriting and sequels appear only in Johnson's account."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "Unresolved claim, checked 2026-10-08: a web search for a response by E.L. James to the 2022 Vanity Fair account found only coverage that approached her representative without a reported reply; no statement by James was found. Trigger names the three places to update."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S04); \"There's no room for being expressive or discovering what is present in that real moment that you're capturing. It's contrived.\" in the author answer; the local exaggeration reminder precedes it in the article."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S07 and S16); Marie Claire (interview \"late February\" 2020 at the TeaTime office, company \"launched last fall\") and Wikipedia's Deadline citation dated 2019-10; \"For a long time, I'd do a movie and have no say\" verbatim."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S07); verbatim, same paragraph."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S04); the answer follows \"Does it bother you when people write nasty reviews?\"; both quoted sentences verbatim."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S06); verbatim in the Madame Web exchange."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S02, S07, S04, S06 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S01); \"womb-like\" and \"a protective maternal space,\" then the \"not taken care of or not seen on set\" sentence, verbatim."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S01); \"spent the spring on the Italian island of Stromboli and in Rome, producing and starring in Three Incestuous Sisters with director Alice Rohrwacher and costars Saoirse Ronan…\" and \"(the film is due in 2027)\". Time-sensitive trigger covers title, date and reception."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S01); both sentences verbatim."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S09 caption track and S17); sequence: \"And how was the party? / I wasn't invited. / Actually, no. / That's not the truth, Ellen. / You were invited.\"; Wikipedia gives the air date November 27, 2019. Speaker assignment is unambiguous by sequence and by S02/S07 paraphrases."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S05 page JSON); \"MM: There's a special place in heaven for you being on the Ellen show and talking about your birthday. It was a really winning moment. DJ: It will haunt me.\""
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S37 caption track); \"they put this big bowl of limes, which I saw while we were filming… I love them… And then I did an allergy test a few weeks later, and it turns out that I'm allergic to limes.\""
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S36, S37 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. The two tellings differ as the article says."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S01); \"her posture toward the press is less a 'bit' than a survival tactic\" is Vogue's report; \"because the other side is fucking with me\" is her quoted phrase."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S08); Foley quotation verbatim in the Vancouver paragraph; Vogue identifies him as director of the \"forthcoming installments.\""
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S29, S01 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. Foley's remark is dated January 2017, before the 2019 viral clip."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S36 caption track); \"When I come on your show, I get really nervous, and I laugh and then cry most of the time\" and \"they hit playback of my voice… and called 'action,' and… it was like I had a panic attack.\" \"When the cameras rolled\" is a fair gloss of \"called action.\""
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S13); verbatim on the podcast page, dated 2026-09-18."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S08); verbatim, the closing quotation of the article."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S04); the defiance line answers the interviewer's \"your public persona is that you're a bit anti-authoritarian\"; the cult line is a separate, joking answer."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S04 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S03); \"She kind of was my shepherd in that way. It's almost like we both unshackled ourselves from something… It's this fear of when you have the potential to do things, but you're just like, is that going to be okay?\" in source order; the Q&A is about The Lost Daughter, which Gyllenhaal directed."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S06); verbatim."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S07, S36, S13, S04, S03, S06 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S02, S07, S04, S06, S05, S45, S03, S01, S47, S54, S36, S13 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. The passage opens \"stated as a reading, not a fact about her\" and scopes \"in this record\"; each listed fear was verified in its source. Unresolved with a concrete trigger."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02); the Easter Bunny paragraph: a family member told her at 10; \"But if I could, I would still believe in it now…\" verbatim."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S07); verbatim, said \"of picking projects.\""
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "qualified",
+      "reason": "Reopened 2026-10-08 (S04 and S01); both quotations verbatim. Caveat: Vogue's \"Rules are really tough for me\" is said while explaining her schooling (\"Anyway—she wanted to be an actress… Besides, 'it just became such a dangerous place, going to school'\"); it is a general self-description delivered in that context, and the article uses it as a general refusal of structure."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S05 page JSON); verbatim at the end of the industry answer."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S07, S02, S01, S50); \"since I was 15 or 14\" and \"I am in a lot of therapy\" (Marie Claire); \"I have struggled with depression for my whole life\" (Vanity Fair); the HOPE Award page confirms the 2023 award."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S03); verbatim with the em dash, followed by \"I feel like that in my career a lot.\""
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S03); both clauses verbatim: \"…to not be seen. She knows what it feels like to not be handled with grace and with care….\""
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02); Grant quotation verbatim; he is identified as her Persuasion costar."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S08); verbatim; Vogue reports \"Tender is actually Johnson's favorite word\" and the forearm tattoo."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S41 via the Wayback id_ capture of the EW original (live page returns 403)); \"I'm a very porous person and I absorb a lot of people's feelings,\" dated 2018-09-01."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S04); her words in the intro (\"she says of her personal life\"), verbatim."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S06); verbatim."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S08); verbatim in the Glass House paragraph."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S01); Bernstein, \"a friend of Johnson's,\" quoted verbatim."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S04); the answer to \"How do you feel about motherhood?\" contains both quotations, three sentences apart."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S08); verbatim."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S04 and S06); March 2024 \"probably will never do anything like it again\" and June 2025 \"There's no part of me that's like, 'Oh, I'll never do that again'…\" both verbatim."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S07, S36, S02 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "Unresolved observation; the source list confirms the only outside voices are S35, S44, S38, S51, S52, none a collaborator's critical account. Trigger is concrete."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S46, S01, S42); AFP: \"took in $32.6-million in its first weekend… in spite of weak reviews\"; Tribune: Thursday previews October 2, 2026; Vogue: \"very hot July day\" and \"Verity, out this month.\""
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S01); \"It's shattering, she says, it's the very worst part\" (reported speech) and the summer-camp quotation verbatim; the article conservatively calls \"shattering\" Vogue's word."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S01); \"the kind of thing she joined this industry to be part of: a safe container full of artists feeling free\" is the writer's phrase, attributed to Vogue."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S01 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S04); the line answers the 14-hour-sleep question; verbatim."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S08, S11, S02 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02); the full conditional is restored and matches: \"If I had known at the time that's what it was going to be like, I don't think anyone would've done it. It would've been like, 'Oh, this is psychotic.' But no, I don't regret it.\""
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S04, S06, S16, S38); Bustle's \"nasty reviews\" question; LA Times \"a box-office bomb\"; Wikipedia \"critically and commercially unsuccessful\"; The Ringer dated 2024-02-14 release day."
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "qualified",
+      "reason": "Interpretation about timing. Fifty Shades Freed was 2018 and the Vanity Fair account is June 2022 (four years, correct). The Lost Daughter premiered September 2021 and was released December 2021, so the account came six to nine months after it, not \"a year after\"; the substance (distancing cost least) stands. See finding verify-09."
+    },
+    {
+      "claim_id": "C141",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S05 page JSON and S01); L'Officiel: \"which set the internet on fire in 2019\"; Vogue lists the Ellen clip and the AD tour as the sources of the reputation."
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S09 caption track); \"But I did invite you, / and you didn't come.\" and \"No, I think I do / remember I was invited.\" in sequence."
+    },
+    {
+      "claim_id": "C148",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S02, S08, S43, S47, S11 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C150",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S08 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C151",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S08, S02, S01 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C154",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S07, S02, S01 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. After the repair the rule is true of every passage: the 2023 low-day anecdote is gone."
+    },
+    {
+      "claim_id": "C155",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S04, S06, S01, S08 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C156",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S47, S08, S43, S02 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. The 2016 and 2017 statements are relays whose wording matches other relays; none denies the fight."
+    },
+    {
+      "claim_id": "C157",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S04, S07, S06 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. A forward-looking settle signal with a trigger."
+    },
+    {
+      "claim_id": "C158",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S01 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C159",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S16, S01, S12); Wikipedia: breakthrough as Anastasia Steele; AP and Vogue describe her as a producer through TeaTime."
+    },
+    {
+      "claim_id": "C165",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02); \"I was young. I was 23. So it was scary,\" she says of the contract she signed, directly after \"James was so enraged, Johnson says, that she scrapped the script.\""
+    },
+    {
+      "claim_id": "C166",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02); the Dornan paragraph answers feud rumors; \"We had to really trust each other and protect each other.\" verbatim."
+    },
+    {
+      "claim_id": "C167",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S02 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. The \"treated really well\" and \"always kind to me\" lines sit in the same paragraph, as the article says."
+    },
+    {
+      "claim_id": "C168",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02); verbatim."
+    },
+    {
+      "claim_id": "C169",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S07, S04, S05, S06, S53 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C170",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S02, S04, S06, S07, S08, S45, S47, S03, S01 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. Unresolved with a concrete trigger."
+    },
+    {
+      "claim_id": "C171",
+      "verdict": "qualified",
+      "reason": "Reopened 2026-10-08 (S43 via its Wayback capture (live page returns 403)); \"It comes in waves. But this project is not going to be my swan song… but I do feel proud of it.\" dated February 12, 2017, relaying Glamour UK. The Glamour original was not opened; the article attributes the relay."
+    },
+    {
+      "claim_id": "C172",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S44); AP via Fox News, 2015-02-11: \"I had to fight for a lot of things really hard. And I did.\" and \"I was thinking about the readers.\""
+    },
+    {
+      "claim_id": "C175",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S02, S08 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C177",
+      "verdict": "qualified",
+      "reason": "Reopened 2026-10-08 (S47); Music Times, 2016-01-05, relaying Vogue UK: \"Whenever I have downtime, I'm unsure that I will ever work again.\" The Vogue UK original was not opened; a search confirms the February 2016 issue was her British Vogue debut, which supports \"her first British Vogue interview.\""
+    },
+    {
+      "claim_id": "C179",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S05 page JSON); all three quotations verbatim in the industry answer; \"don't trust creative people or artists\" precedes \"All of the stuff I'm interested in making\" in the same answer."
+    },
+    {
+      "claim_id": "C180",
+      "verdict": "qualified",
+      "reason": "Reopened 2026-10-08 (S45, S16, S55); both quotations verbatim (Variety Australia page dated 2025-07-06); Burghardt played Lola, Domino's daughter (S55). Caveat: no source supports \"written with\": Variety says the film is one she is \"working on alongside\" Burghardt, Wikipedia says it was \"written by Vanessa Burghardt,\" and October 2025 trade coverage calls the screenplay Burghardt's feature writing debut. See finding verify-08."
+    },
+    {
+      "claim_id": "C182",
+      "verdict": "qualified",
+      "reason": "Reopened 2026-10-08 (S49 and S50); HOLA's transcription carries \"Covering my pain or anxiety with comedy has become a lifelong tool\"; the foundation page confirms the award and venue. No primary recording was opened, so the wording rests on one outlet's transcription."
+    },
+    {
+      "claim_id": "C184",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S02, S04 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. Each tipping observation was verified: \"Combo,\" \"grateful she wanted me to be in those movies,\" \"It's contrived,\" \"that's not what art is.\""
+    },
+    {
+      "claim_id": "C186",
+      "verdict": "qualified",
+      "reason": "Reopened 2026-10-08 (S54); PTI via Business Standard, 2015-02-10: \"it can be glorious but it can completely destroy a human too\"; the Telegraph original was not opened and the article attributes the relay."
+    },
+    {
+      "claim_id": "C190",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S45, S03, S02 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. Burghardt and \"I can see this world\" are one continuous quotation in S45."
+    },
+    {
+      "claim_id": "C191",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02); verbatim; the \"big naked movies\" line is no longer in the article."
+    },
+    {
+      "claim_id": "C192",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S03); verbatim."
+    },
+    {
+      "claim_id": "C193",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S01, S45, S41, S04 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C187",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S53); \"different or risky or scary or dangerous or raw and real and human and messy\" verbatim; \"we are fighters. We hustle\" in the same report."
+    },
+    {
+      "claim_id": "C188",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S53); the two quoted fragments are one continuous sentence in the Yahoo/Variety text: \"…showing up to the premiere of a movie to see it the first time and saying, 'Woah. That is not what I thought we were making.'\" The hook's \"verdict\" framing is therefore supported by the source itself, not only by Variety's headline."
+    },
+    {
+      "claim_id": "C200",
+      "verdict": "supported",
+      "reason": "Title and persona title: \"Tender\" is Vogue 2017's reported favorite word (S08); \"fighters\" is her Cannes word (S53). The title asserts no type."
+    },
+    {
+      "claim_id": "C201",
+      "verdict": "supported",
+      "reason": "Meta title is 63 characters and matches the body's type and alternative."
+    },
+    {
+      "claim_id": "C202",
+      "verdict": "supported",
+      "reason": "Description is 158 characters; each named fear (fame, contract at 23, stage fright) is a verified quotation (S54/S08, S02, S36)."
+    },
+    {
+      "claim_id": "C203",
+      "verdict": "supported",
+      "reason": "FAQ 1 is identical to the 59-word answer under the type heading."
+    },
+    {
+      "claim_id": "C204",
+      "verdict": "supported",
+      "reason": "FAQ 2: each dated quotation verified (S47, S08, S36, S02, S04, S06, S03); scoped \"in the interviews reviewed here\"; unresolved with the C95 trigger."
+    },
+    {
+      "claim_id": "C205",
+      "verdict": "supported",
+      "reason": "FAQ 3: every quotation verified in S02 and S35; balanced with \"treated really well\" and \"always kind to me\"; disputed class with the James trigger."
+    },
+    {
+      "claim_id": "C206",
+      "verdict": "supported",
+      "reason": "FAQ 4 matches the S09 caption sequence, the S17 air date and the S05 \"It will haunt me\" exchange."
+    },
+    {
+      "claim_id": "C207",
+      "verdict": "supported",
+      "reason": "FAQ 5 matches both Tonight Show tellings (S36, S37) and no longer implies the allergy claim changed."
+    },
+    {
+      "claim_id": "C208",
+      "verdict": "supported",
+      "reason": "Birth place, nationality and occupation match S02, S16, S12 and S01."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S04); \"It's also about control and feeling powerful, and that's not what art is.\" two sentences after \"It's contrived.\" in the same answer; \"In the same answer\" is accurate."
+    },
+    {
+      "claim_id": "C210",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S04, S02 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C181",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S45); \"I can't waste time on toxic sets anymore,\" \"anybody who's mean or condescending or unkind,\" \"not willing to collaborate\" and \"It's not a fight. It's not a race. It's a collaboration.\" all verbatim."
+    },
+    {
+      "claim_id": "C209",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02); \"Johnson scored a three-picture role… the playwright Patrick Marber (Closer) revised the script. But Hunnam ultimately dropped out… James was so enraged, Johnson says, that she scrapped the script.\" Attributed to Johnson's account, as Vanity Fair does."
+    },
+    {
+      "claim_id": "C211",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S02); \"I ask if the studio or the directors were the problem, or if it was a combo platter. 'Combo,' she says. She leans in. 'It was also the author of the books.'\""
+    },
+    {
+      "claim_id": "C212",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S02 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. Rests on the daily two-takes and overnight-rewrite account verified above."
+    },
+    {
+      "claim_id": "C213",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S06 JSON-LD body); \"Go on,\" with \"a feigned seriousness,\" then the reporter's indie-films question, then \"'It wasn't my fault,' Johnson says, laughing slightly while maintaining her focus\" and the committee sentence; \"first answer on the film\" is accurate."
+    },
+    {
+      "claim_id": "C214",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S38, S06, S04 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. The Ringer headline and date confirmed."
+    },
+    {
+      "claim_id": "C215",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S04); \"'I don't know if I'm from anywhere or I belong anywhere,' Johnson says when I ask her later. 'So, yes, I do relate to the alien.'\""
+    },
+    {
+      "claim_id": "C216",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S08); verbatim in the schooling paragraph."
+    },
+    {
+      "claim_id": "C217",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S07); verbatim, directly after the depression sentence."
+    },
+    {
+      "claim_id": "C218",
+      "verdict": "supported",
+      "reason": "Reopened 2026-10-08 (S04 raw HTML); the restored quotation matches byte for byte, em dashes included: \"…But as long as I'm not hurting another human being in some way — even with my work, with agents or managers or whomever — I'll listen to everyone…\". It answers \"Do your friends and family know how to accommodate that?\", two questions after the defiance line. Note for the reader of \"softened\": the sentence immediately before the quoted span is \"But I've always been the kind of person who's going to do what I want to do,\" which the article does not quote; the quoted span is continuous and verbatim."
+    },
+    {
+      "claim_id": "C219",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S04 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C220",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S02 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. \"demanded that certain things happen\" and \"all day, every day\" verified."
+    },
+    {
+      "claim_id": "C221",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S35, S44 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. Neither account describes Johnson's experience."
+    },
+    {
+      "claim_id": "C222",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S03, S01, S45, S05 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. All four protection-shaped lines verified verbatim."
+    },
+    {
+      "claim_id": "C223",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S45, S03, S02 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C224",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S07, S04, S01 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C226",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S02 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C227",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S09, S01, S02, S08 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    },
+    {
+      "claim_id": "C228",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S02, S04, S06 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind. Unresolved with a trigger shared with C157."
+    },
+    {
+      "claim_id": "C229",
+      "verdict": "supported",
+      "reason": "Interpretation. The quotations and reports it rests on were reopened in S04, S06, S08, S02 and match in context; the passage reads as the profile's summary of that material, not as a fact about her mind."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl (Chrome UA), JSON-LD articleBody and body text, 2026-10-08: TeaTime \"womb-like\"/\"protective maternal space\"; \"not taken care of or not seen\"; \"magic happens\"/\"last movie I make\"; \"feathers ruffle\"/\"authentic\"; \"survival tactic\"/\"fucking with me\"; \"Rules are really tough for me\" (schooling paragraph); Bernstein; summer-camp close; \"safe container\"; \"cool-girl deadpan opacity\"; \"very hot July day\"; Stromboli/Rome/Rohrwacher/Ronan; \"(the film is due in 2027)\"; \"Verity, out this month\"; datePublished 2026-09-18."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl (Chrome UA), 2026-10-08: birth paragraph (Austin, fall 1989, October 4); \"only child the couple share\"; \"one of seven half siblings\"; \"She chose independence\"; Fincher quotation; Easter Bunny paragraph with setup; \"letting go of how I allowed others to look at me\"; the whole Fifty Shades section in order (unburdening, \"signed up to do a very different version,\" \"Combo,\" \"who goes by Erika,\" \"all day, every day,\" \"demanded that certain things happen,\" \"always a battle,\" Marber/Hunnam/scrapped script, \"I was 23. So it was scary,\" two sets of takes, overnight rewrites, full regret conditional, Dornan \"protect each other,\" \"treated really well,\" \"Erika is a very nice woman\"); Grant \"takes no prisoners.\""
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, 2026-10-08: \"Definitely with me and Maggie… She kind of was my shepherd in that way… It's this fear of…\" in source order; Nina \"hot girl on the beach\" and \"I feel like that in my career a lot\"; \"deeper and darker\"; the two-clause trust sentence ending \"grace and with care….\"; datePublished 2021-09-07."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl (raw HTML), 2026-10-08, \"Interview by Charlotte Owen March 5, 2024\": \"days on end\" (her words); alien line; cult answer; anti-authoritarian prompt then the defiance line; \"rules and some structure\"; \"Do your friends and family know how to accommodate that?\" then the full accommodate-then-decide answer with em dashes; \"fake it\"; \"exaggerated in this interview\" (14-hour-sleep question); the author answer (\"contrived,\" two cooks sentences, \"control and feeling powerful\"); Madame Web answer to the nasty-reviews question; motherhood answer; \"four brothers and two sisters\"; \"The most fun.\""
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Page JSON decoded from the Next.js payload (the rendered HTML carries only the teaser), 2026-10-08: industry answer (\"don't trust creative people or artists,\" \"All of the stuff I'm interested in making,\" \"do something brave,\" \"safe thing is really boring\"); \"It will haunt me\" answering \"It was a really winning moment\"; \"set the internet on fire in 2019\"; the \"Terrified of what happens to me\" joke with \"[Laughs.]\"; JSON-LD datePublished 2024-03-26, author Marisa Meltzer."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, JSON-LD articleBody, 2026-10-08: \"box-office bomb\" (writer); \"Go on\" with feigned seriousness; indie-films question; \"It wasn't my fault,\" laughing slightly; committee sentence; \"along for the ride\"; \"no part of me… Who cares?\"; \"such good hands\"; Johnson, 35; datePublished 2025-06-04."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, 2026-10-08: late-February interview at the TeaTime office, company \"launched last fall\"; \"have no say\"/\"totally different thing\"; \"(Johnson has denied reports…)\" parenthetical; \"15 or 14\"; \"don't pour out of me\"; \"I really don't have a method\"; datePublished 2020-05-12."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, 2026-10-08: \"She has heard it said that she despises Fifty Shades. Not so. 'I'm truly proud of it'…\"; K-hole/tender paragraph; \"raised nowhere in particular,\" therapy at three, divorce and \"well-publicized struggles\"; \"unmoored\"; \"something wrong with my brain\"; \"this is a business\"; \"heartbroken all the time\"; \"when I don't feel protected\"; Foley paragraph (director of the \"forthcoming installments\"); datePublished 2017-01-13."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "English caption track pulled with yt-dlp 2026-10-08: \"And how was the party? / I wasn't invited. / Actually, no. / That's not the truth, Ellen. / You were invited.\" … \"But I did invite you, / and you didn't come.\" … \"No, I think I do / remember I was invited.\" Unlabeled captions; speakers unambiguous by sequence."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "English caption track pulled with yt-dlp 2026-10-08: \"i love limes i love them they're great i love them so much and i like to present them like this in my house.\""
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, 2026-10-08: \"Fifty Shades was such an incredible platform for me… it required a lot of bravery\"; datePublished 2018-11-01."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, 2026-10-08: AP byline Krysta Fauria, 2024-06-26; TeaTime/Daddio paragraph."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, 2026-10-08: \"Before I was going on this press tour… everything is watched, and now everyone is a spy, and everyone is the press\"; datePublished 2026-09-18."
+    },
+    {
+      "source_id": "S14",
+      "opened": false,
+      "context_matches": false,
+      "locator": "Not reopened at this verification; no final claim cites it. Its prior opening is recorded in the evidence locator and was not independently checked here."
+    },
+    {
+      "source_id": "S15",
+      "opened": false,
+      "context_matches": false,
+      "locator": "Not reopened at this verification; no final claim cites it. Its prior opening is recorded in the evidence locator and was not independently checked here."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Raw wikitext via action=raw, 2026-10-08: \"(born October 4, 1989)\"; TeaTime with Ro Donnelly (Deadline citation dated 2019-10); \"grossed over $1 billion\"; Madame Web; \"A Tree is Blue, written by Vanessa Burghardt.\""
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Raw wikitext via action=raw, 2026-10-08: air date November 27, 2019."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S01, reopened 2026-10-08: Hathaway \"one of the funniest people… She's really dry, but she does not miss.\""
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S01, reopened 2026-10-08; excerpt found: \"It was clear she was going to be something wildly specific and massive.\" Not cited by any final claim."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S01, reopened 2026-10-08; excerpt found: \"You grew up on set!\" Not cited by any final claim."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S01, reopened 2026-10-08: Bernstein \"She's sillier than most people know… putting on a dance or changing into a costume.\""
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S01, reopened 2026-10-08; excerpt found: \"She's the most natural person I have met in this business.\" Not cited by any final claim."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S02, reopened 2026-10-08: Grant \"having seen her on that infamous Ellen DeGeneres interview, you know that she takes no prisoners.\""
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S02, reopened 2026-10-08; excerpt found: \"Dakota has not changed.\" Not cited by any final claim."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S02, reopened 2026-10-08; excerpt found: \"gotten her through scary times.\" Not cited by any final claim."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S02, reopened 2026-10-08; excerpt found: \"faith in herself.\" Not cited by any final claim."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S02, reopened 2026-10-08; excerpt found: \"who you have to be nice to\" and \"deferred their fees.\" Not cited by any final claim."
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S12, reopened 2026-10-08; excerpt found: \"No reservations at all.\" Not cited by any final claim."
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S08, reopened 2026-10-08: Foley \"She has a very sensitive bullshit meter…\""
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S08, reopened 2026-10-08; excerpt found: \"rolling foolishness.\" Not cited by any final claim."
+    },
+    {
+      "source_id": "S31",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S07, reopened 2026-10-08; excerpt found: \"isn't afraid to speak up.\" Not cited by any final claim."
+    },
+    {
+      "source_id": "S32",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S07, reopened 2026-10-08; excerpt found: \"apologizing in every scene.\" Not cited by any final claim."
+    },
+    {
+      "source_id": "S33",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S01, reopened 2026-10-08; excerpt found: \"aura of mystery and enchantment.\" Not cited by any final claim."
+    },
+    {
+      "source_id": "S34",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S01, reopened 2026-10-08; excerpt found: \"The word that comes to mind in general with Dakota is intriguing.\" Not cited by any final claim."
+    },
+    {
+      "source_id": "S35",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, JSON-LD, 2026-10-08: datePublished 2017-06-16, byline Tatiana Siegel; \"author James (real name Erika Mitchell), who had negotiated creative control with Universal\"; \"Her vision versus mine… Every scene was fought over.\""
+    },
+    {
+      "source_id": "S36",
+      "opened": true,
+      "context_matches": true,
+      "locator": "English caption track pulled with yt-dlp 2026-10-08: limes exchange (\"set dressing… I'm allergic to limes… so I just lied. Just lied.\") and the Our Friend passage (\"stage fright… nervous, and I laugh and then cry… called 'action,' and… it was like I had a panic attack… extreme flight mode\")."
+    },
+    {
+      "source_id": "S37",
+      "opened": true,
+      "context_matches": true,
+      "locator": "English caption track pulled with yt-dlp 2026-10-08: \"I love them… big bowl of limes, which I saw while we were filming… allergy test a few weeks later, and it turns out that I'm allergic to limes.\""
+    },
+    {
+      "source_id": "S38",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, 2026-10-08: title \"No One Is Safe From a Dakota Johnson Press Tour\"; Ellen and limes sections present; dated 2024-02-14 in the URL and text."
+    },
+    {
+      "source_id": "S39",
+      "opened": false,
+      "context_matches": false,
+      "locator": "Not reopened at this verification; no final claim cites it. Its prior opening is recorded in the evidence locator and was not independently checked here."
+    },
+    {
+      "source_id": "S40",
+      "opened": false,
+      "context_matches": false,
+      "locator": "Not reopened at this verification; no final claim cites it. Its prior opening is recorded in the evidence locator and was not independently checked here."
+    },
+    {
+      "source_id": "S41",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback id_ capture of the EW original (20191119192301) via curl, 2026-10-08; live ew.com returns 403: \"I'm a very porous person and I absorb a lot of people's feelings\"; JSON-LD datePublished 2018-09-01."
+    },
+    {
+      "source_id": "S42",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, 2026-10-08: $4.5 million Thursday previews; datePublished 2026-10-02."
+    },
+    {
+      "source_id": "S43",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page returns 403 and the reader proxy 403; opened via the Wayback id_ capture (web.archive.org/web/2018id_/…), 2026-10-08: datePublished 2017-02-12; \"The 27-year-old says this when asked about whether she has ever wished she hadn't done the films. 'It comes in waves… but I do feel proud of it…'\""
+    },
+    {
+      "source_id": "S44",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, JSON-LD, 2026-10-08: datePublished 2015-02-11; \"I had to fight for a lot of things really hard. And I did.\"; \"I was thinking about the readers.\""
+    },
+    {
+      "source_id": "S45",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl (au.variety.com), 2026-10-08: datePublished 2025-07-06; Burghardt paragraph (\"working on alongside… co-star Vanessa Burghardt\"; \"I don't have the confidence, but, with her, I feel very protective… I can see this world, so I just won't let anybody else do it\"); toxic-sets definition; \"It's not a fight. It's not a race. It's a collaboration.\""
+    },
+    {
+      "source_id": "S46",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, 2026-10-08: \"$32.6-million in its first weekend… in spite of weak reviews\"; datePublished 2026-10-05."
+    },
+    {
+      "source_id": "S47",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, 2026-10-08: datePublished 2016-01-05; \"Johnson told Vogue UK… Whenever I have downtime, I'm unsure that I will ever work again\"; issue \"hits newsstands on Thursday (Jan. 7).\""
+    },
+    {
+      "source_id": "S48",
+      "opened": false,
+      "context_matches": false,
+      "locator": "Not reopened at this verification; no final claim cites it. Its prior opening is recorded in the evidence locator and was not independently checked here."
+    },
+    {
+      "source_id": "S49",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, 2026-10-08: \"Covering my pain or anxiety with comedy has become a lifelong tool, and I don't think it's a bad thing…\"; datePublished 2023-12-01T01:31Z (November 30 US time)."
+    },
+    {
+      "source_id": "S50",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, 2026-10-08: \"Dakota Johnson accepted the 2023 HOPE Award for Depression Advocacy\"; datePublished 2023-11-16."
+    },
+    {
+      "source_id": "S51",
+      "opened": false,
+      "context_matches": false,
+      "locator": "Not reopened at this verification; no final claim cites it. Its prior opening is recorded in the evidence locator and was not independently checked here."
+    },
+    {
+      "source_id": "S52",
+      "opened": false,
+      "context_matches": false,
+      "locator": "Not reopened at this verification; no final claim cites it. Its prior opening is recorded in the evidence locator and was not independently checked here."
+    },
+    {
+      "source_id": "S54",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl, 2026-10-08: PTI datePublished 2015-02-10; \"said in an interview to Telegraph\"; \"it can be glorious but it can completely destroy a human too\"; film \"releases this Friday, February 13.\""
+    },
+    {
+      "source_id": "S53",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Full page via curl (Yahoo News Canada syndication of Variety), 2026-10-08: datePublished 2025-05-19, byline Zack Sharf; \"I found myself as an actor, a few times, showing up to the premiere of a movie to see it the first time and saying, 'Woah. That is not what I thought we were making.'\" (one continuous sentence); \"different or risky or scary or dangerous or raw and real and human and messy\"; \"It's a constant fight. But we are fighters. We hustle.\""
+    },
+    {
+      "source_id": "S55",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Raw wikitext via action=raw, 2026-10-08: \"Vanessa Burghardt as Lola, Domino's daughter.\""
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Verified in the candidate: the intro scopes the claim to \"the interviews reviewed for this profile, from 2015 to 2026\" and names \"That can sound like being misled\"; the test section opens \"stated as a reading, not a fact about her\"; \"control and feeling powerful\" is quoted \"In the same answer\" (two sentences separate it from \"It's contrived\" in S04) with a weighing sentence; James's 2015 line is used only as her side and C221 limits the two outside accounts; FAQ 2 is scoped; C95 keeps its trigger."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "The 2023 low-day anecdote is absent from the candidate (\"low day\" and \"her partner\" do not occur); the depression rule now holds for every passage, and the new Four-core lines are introduced \"apart from her depression, which is not counted.\""
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "The chosen-family sentence is gone (\"chosen family\" does not occur); the family paragraph carries her own sibling count. Bustle context reopened confirms the line was a proverb gloss."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "The Bustle James material is introduced \"in the Bustle interview she flagged as exaggerated\"; \"extremely precious\" is not quoted; the rewriting claim carries \"with the old dialogue so I could add a line here and there\" (verbatim in S02)."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Rejection accepted. Each of the three sentences directly follows the quoted words it summarizes (the two Tonight Show tellings; \"I haven't been able to talk about this truthfully ever\"; Vogue's wrap-grief report and \"I don't even know how many times\"), so the standard's local-phrasing requirement is met by adjacent evidence; two of the three are passages other reviewers protect. The concern was about voice, not a factual error, so no evidence was needed to reject it."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "The hook paraphrase now stays inside her words (\"about seeing finished films of hers for the first time at their premieres\"). On reopening S53 the two quoted fragments are one continuous sentence (\"…to see it the first time and saying, 'Woah. That is not what I thought we were making.'\"), so \"Her verdict on those nights\" is supported by the source itself; the editor's headline justification is no longer needed."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "The conditional is restored verbatim and matches S02."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "\"who goes by Erika\" matches Vanity Fair; \"Erika Mitchell\" does not occur in the candidate."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Same verification as subject-01; the added weighing sentence says the line \"cuts toward a Six or an Eight\" and names what keeps it inside Four. The Hitchcock line was reasonably left out: it concerns her grandmother, not her own work."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "The scrapped-script context appears as Johnson's account and matches S02 (\"Johnson says, that she scrapped the script\"); the contract fear is tied to \"a production that had changed after she committed\" in the Fifty Shades section and to \"a contract on a production that had already changed under her\" in the test; the two-accounts sentence is replaced by C221."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Both clauses are quoted verbatim (S03) followed by \"one ground about being seen, one about care,\" and C222 weighs the care clause."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Same as subject-02; verified absent."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Same as subject-03; verified absent, and the family paragraph now gives \"four brothers and two sisters, all half-siblings\" (S04, S02)."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "The gloss is quoted in full a few lines after the defiance line (\"Lines later she softened it\"), with \"accommodate first, then act on feeling, less a charge at authority than a route around it\"; the Nine paragraph uses it (C219). Byte-identical to S04 including em dashes."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Same as subject-07."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "FAQ 5 now opens \"She has said so twice, and the allergy claim itself has not changed\" and gives both tellings; matches S36 and S37."
+    },
+    {
+      "finding_id": "fan-09",
+      "accepted": true,
+      "reason": "Same as subject-06; adjacency confirmed in S53."
+    },
+    {
+      "finding_id": "fan-10",
+      "accepted": true,
+      "reason": "Same as subject-08."
+    },
+    {
+      "finding_id": "fan-11",
+      "accepted": true,
+      "reason": "The sentence now reads \"the only child… had together; by her own 2024 count she has four brothers and two sisters, all half-siblings\"; coherent and supported by S04 and S02."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "All four sub-tests verified: Marber context beside \"I was 23. So it was scary\"; the conditional restored; C181 inventoried and the toxic-sets line in the TeaTime paragraph and the test section with its unkindness definition (verbatim in S45); \"I have no say about anything\" quoted. The absolute is replaced by bounded claims in the intro, FAQ 2 and the description; body is 4,484 words (checkDraft)."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Same as fan-03."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "The dichotomy is replaced by \"the override is mixed, and the mix is the point\" with Burghardt and Gyllenhaal examples, and \"The ally is there each time, as Six theory predicts, so the tilt toward Four cannot rest on its absence, only on what she adds.\""
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Replaced by C221 (\"establish only that the first film's creative-control fight was real and two-sided; neither describes how Johnson experienced it\"); \"neither speaks to her motives\" remains in the open-items section."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "\"It wasn't my fault\" (said laughing) and the committee line are quoted from the reopened LA Times text; the timing of the 2022 account is stated; the Three paragraph names the surviving discriminator and concedes that Four-leaning-Three and Three-leaning-Four are not cleanly separable. One wording caveat is logged separately as verify-09 (\"a year after The Lost Daughter\")."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "\"don't trust creative people or artists\" now follows \"the safe thing is really boring\" with \"That is distrust, a Six's word; the remedy beside it is nerve… not reassurance.\" Both lines verbatim in S05."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "The protected two sentences stand and \"Any type would treasure Fincher's praise; what this profile reads is the word she kept\" follows them; Fincher is named in the preceding sentences."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Same as subject-03."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Directly after the 60-word answer: \"A Type 6 is organized around security… Most Sixes seek cover; the counterphobic kind meets fear by charging at it.\" The answer and FAQ 1 define counterphobic inline; \"image types\" does not occur."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Where \"signed up to do a very different version\" first appears: \"That can sound like being misled, so what she described next matters,\" then the Combo answer, the control lines, the scrapped script, the two sets of takes and the praise of James, ending \"That is a fight she was inside daily, over what the film would be, not a deception discovered later.\""
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "The Easter Bunny quotation now carries \"Recalling the morning at 10 when she learned the Easter Bunny was not real\"; matches S02."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Gyllenhaal is \"its director, Maggie Gyllenhaal\"; Burghardt is \"who played her daughter in Cha Cha Real Smooth\" (S55); Rohrwacher is named as director and later \"the Rohrwacher film.\""
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "The misled-or-unprotected versus work-made-false formulation appears twice in the body (the test section and the protected open-items sentence); the intro now only names the objection and the second restatement at the top of the test is gone."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Meta title \"Dakota Johnson Enneagram Type: Type 4, With Type 6 Close Behind\" (63 characters) and the 158-character description state the result in plain words."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Same as fan-11."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "No \"never\" claim remains about being misled or unprotected (the four occurrences of \"never\" in the body are inside quotations or about other matters). The test section quotes \"not be handled with grace and with care,\" names \"not taken care of or not seen,\" \"toxic sets\" and \"don't trust creative people or artists,\" calls each \"a Six's vocabulary of safety and distrust,\" and states why Four still outweighs them; \"That can sound like being misled\" acknowledges the both-ways reading. Confidence stays medium."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "The rule and method refusals are labeled as fitting \"a counterphobic Six as well as a Four\"; the test is restated in the counterphobic variant's terms (defiance at the authority or the fear versus expression at the work and the self); \"I just won't let anybody else do it\" is weighed inside it (\"reads either way\"); the Bustle defiance line is called \"defiance with no expression in it\"; the overrides are called mixed."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "The counterphobic reading of the Vanity Fair passage is set beside the Four reading (C220) and the tipping observations are named in her wording (C184; each verified in S02 and S04); \"usually fuses\" is rewritten as \"The test for a Six is…\"; the settle signal is widened by C228."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "The alien line (S04) and the \"something wrong with my brain\" line (S08) appear in the self-definition paragraph with the depression caveat."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "\"big naked movies\" does not occur in the candidate."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "The Nine paragraph quotes \"they don't pour out of me\" (S07) and the accommodate-then-decide gloss (S04) and names the on-air correction, the ruffled feathers, the fight over which film got made and the 2017 intensity line."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "The Three paragraph concedes self-deprecation as image management and the bankable persona, names the surviving discriminator, and states that the two readings are not cleanly separable."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "The thesis, the \"Every fear she names in this record\" sentence and FAQ 2 are scoped to the reviewed record; C181 is inventoried and addressed in the body as unkindness rather than betrayal; C95, C204 and C56 carry the reopen trigger. A web search on 2026-10-08 found no later interview in which she describes being misled or unprotected on a set."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "C70's trigger now names the dated sentence, the limits paragraph and the FAQ; verified in the evidence record."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "The sentence now dates the statement (\"said in July 2025 she was preparing to direct\"); C180's trigger records the later Wikipedia report without using it."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "The live-wiki quotation is replaced by \"opened to poor reviews and weak box office,\" sourced to Bustle, the LA Times (\"box-office bomb,\" verified) and Wikipedia; C138 updated."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "C43's trigger includes the release title; the italic title stays, which the finding allowed."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "The anecdote is gone, so the undated \"her partner\" no longer appears."
+    },
+    {
+      "finding_id": "verify-01",
+      "accepted": true,
+      "reason": "Reopened Bustle's raw HTML: the restored quotation is byte-identical to the source, em dashes included, and C218/S04 now carry the full sentence. The body stays at 4,484 words."
+    },
+    {
+      "finding_id": "verify-02",
+      "accepted": true,
+      "reason": "\"In the same answer:\" is accurate: \"Having too many cooks in the kitchen is an eternal problem… It's a big f*cking problem.\" sits between \"It's contrived.\" and the control line (S04)."
+    },
+    {
+      "finding_id": "verify-03",
+      "accepted": true,
+      "reason": "The LA Times sequence (\"Go on,\" the indie-films question, \"It wasn't my fault\") is as C213 records; both body sentences now say her first answer on the film began with the line."
+    },
+    {
+      "finding_id": "verify-04",
+      "accepted": true,
+      "reason": "Caption track re-pulled: \"called 'action,' and… it was like I had a panic attack\"; \"when the cameras rolled\" is a fair gloss."
+    },
+    {
+      "finding_id": "verify-05",
+      "accepted": true,
+      "reason": "S55 (Cha Cha Real Smooth cast list) and S16 both establish Burghardt as the daughter; no prose change was needed."
+    },
+    {
+      "finding_id": "verify-06",
+      "accepted": true,
+      "reason": "The EW original was opened through the same Wayback capture here; wording matches; the body citation and frontmatter now point at EW."
+    },
+    {
+      "finding_id": "verify-07",
+      "accepted": true,
+      "reason": "checkDraft reports 4,484 words with no blockers; the cuts were restatement and the protected limits paragraph is intact."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "In the same passage she added, \"There are things that I still cannot say because I don't want to hurt anyone's career and I don't want to damage anybody's reputation, but both Jamie and I were treated really well.\"",
+      "preserved": true,
+      "reason": "Present verbatim, still directly after the contract and Dornan lines, so her concessions sit beside the complaint."
+    },
+    {
+      "passage": "Her depression, which she dates to \"15 or 14,\" and the therapy she credits are a medical matter and are not counted for any type.",
+      "preserved": true,
+      "reason": "Present verbatim and now true of every passage: the low-day anecdote is gone and the new Four-core lines are counted apart from her depression."
+    },
+    {
+      "passage": "A childhood like that can produce privacy, vigilance and a sense of not belonging in almost anyone, so it can't settle her type.",
+      "preserved": true,
+      "reason": "Present verbatim at the end of the family paragraph, which attributes its material to Vogue."
+    },
+    {
+      "passage": "The limits are real. Nearly all of this is self-report in promotional settings, \"authentic\" and \"different\" are industry vocabulary, the other party to her central dispute has not answered, and \"I don't want to hurt anyone's career\" could be covering a trust grievance she has chosen not to voice. The Six reading is not refuted, only outweighed on content. Hence medium confidence.",
+      "preserved": true,
+      "reason": "Present verbatim; after the verify-07 trim it is the test section's one concession and still names the missing response and the incentive problem."
+    },
+    {
+      "passage": "She also warned that she had \"exaggerated in this interview,\" so every Bustle line here carries that caveat.",
+      "preserved": true,
+      "reason": "Present verbatim after the full gloss; a local reminder also precedes the Bustle James material."
+    },
+    {
+      "passage": "Not that she was good, or that she had arrived. That she did something different.",
+      "preserved": true,
+      "reason": "Present verbatim; the added Fincher sentence after it acknowledges other readings without altering it."
+    },
+    {
+      "passage": "Asked by Glamour UK that year whether she ever wished she hadn't made them: \"It comes in waves,\" and, in the same answer, \"I do feel proud of it.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the promotional-years paragraph; the quotation matches the Wayback capture of S43."
+    },
+    {
+      "passage": "A Seven's appetite usually runs from that sentence. Hers runs toward it.",
+      "preserved": true,
+      "reason": "Present verbatim; the motherhood quotation it depends on is intact and verified in S04."
+    },
+    {
+      "passage": "Plenty of actors grieve a wrap, and a Six could mourn the loss of a secure group. What is hers is the count, more times than she can number by her own account, and what ends.",
+      "preserved": true,
+      "reason": "Present verbatim as the close; it rests on \"I don't even know how many times,\" verified in S01."
+    },
+    {
+      "passage": "\"I found myself as an actor, a few times, showing up to the premiere of a movie to see it the first time,\" she said. Her verdict on those nights: \"That is not what I thought we were making.\"",
+      "preserved": true,
+      "reason": "Present verbatim; on reopening S53 the two fragments are one continuous sentence, so the hook is faithful."
+    },
+    {
+      "passage": "Still, on her talk of fear and safety alone, the Six reading would win.",
+      "preserved": true,
+      "reason": "Present verbatim at the end of the Six case."
+    },
+    {
+      "passage": "She held a promotional line that was not the whole truth, but the feeling she stated then, pride in something \"different,\" is the one she repeated in 2022. What she withheld was the fight.",
+      "preserved": true,
+      "reason": "Present verbatim, closing the Fifty Shades section."
+    },
+    {
+      "passage": "Even the confession is a bit, and it changes between tellings.",
+      "preserved": true,
+      "reason": "Present verbatim after both Tonight Show tellings (subject-05 rejection accepted)."
+    },
+    {
+      "passage": "Her fullest telling also has fear in it, and where the fear sits matters.",
+      "preserved": true,
+      "reason": "Present verbatim; the paragraph it opens now also says the fear is of a production that had changed."
+    },
+    {
+      "passage": "What she keeps losing, and keeps going back to build, is the connection inside it.",
+      "preserved": true,
+      "reason": "Present verbatim as the final sentence; it works without the Verity detail."
+    },
+    {
+      "passage": "The Easter Bunny line puts safety at the end of the sentence and moviemaking in its service.",
+      "preserved": true,
+      "reason": "Present verbatim; the Easter Bunny quotation now carries its setup so the callback lands."
+    },
+    {
+      "passage": "If one does, its shape will matter: a fight framed as being misled or left unprotected would point toward Six, one framed as the work made false toward Four.",
+      "preserved": true,
+      "reason": "Present verbatim, followed by the widening sentence (C228) rather than reworded."
+    },
+    {
+      "passage": "As of October 8, 2026, no public response from James to either later account had been found.",
+      "preserved": true,
+      "reason": "Present verbatim; a search on 2026-10-08 found no response, so the dated statement is current."
+    },
+    {
+      "passage": "and the vow was gone: \"There's no part of me that's like, 'Oh, I'll never do that again' to anything. I've done even tiny movies that didn't do well. Who cares?\"",
+      "preserved": true,
+      "reason": "Present verbatim; the 2024-to-2025 reversal is intact and both tellings are dated."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.7,
+      "reason": "Every quotation in the body and FAQs was matched verbatim, in context, against 35 reopened sources (full pages by curl, four caption tracks by yt-dlp, two Wayback captures); the central Vanity Fair passage is reproduced in order with the conditional, the \"Combo\" spread of blame, her praise of James and \"treated really well\" all present, and Taylor-Johnson's 2017 account and James's 2015 remark are limited to what they show. Inference limits are stated where they bite (\"stated as a reading, not a fact about her\"; the limits paragraph). Held below 9 because the 2015–2017 lines rest on relays whose originals were not opened, nearly all testimony is promotional self-report (acknowledged), and two small descriptors overreach their sources (\"written with Vanessa Burghardt\"; \"a year after The Lost Daughter\").",
+      "passage": "Asked whether the studio or the directors were the problem: \"Combo,\" then, \"It was also the author of the books.\" The author, E.L. James, who goes by Erika, \"had a lot of creative control, all day, every day,\" and \"It was always a battle. Always.\""
+    },
+    "enneagram": {
+      "score": 8.3,
+      "reason": "The Four motive (be seen as she is; keep the work from being made false) is tied to repeated, dated, costly choices: nightly rewrites and two sets of takes, founding TeaTime to have a say, refusing \"toxic sets,\" correcting DeGeneres on air at a cost she still names. The counterphobic Six is tested seriously rather than around: the article constructs the Six reading of the same Vanity Fair passage, carries the protection-shaped lines (\"grace and with care,\" \"not taken care of,\" \"toxic sets,\" \"don't trust\"), labels the rule refusals as fitting both, and names a specific, sourced tipping observation. Three, Two, Eight, Nine and Seven each get an evidence-based close. It stops short of the standard's 8 anchor's \"fails a specific discriminator\": by the article's own account the Six reading is \"not refuted, only outweighed on content,\" the discriminator is \"narrow,\" the Four core rests partly on industry vocabulary, and Three is conceded as not cleanly separable. Medium confidence is the right label for that, and the score reflects an honest, well-argued medium rather than a settled call.",
+      "passage": "What tips it toward Four, in her wording, is narrow: she never disputes James's right to the control she held and is \"grateful she wanted me to be in those movies\"; she spreads the blame, \"Combo,\" across studio, directors and author rather than onto one figure; and the wrong she names, in 2022 and again in 2024, is what the control did to the work, not what it did to her."
+    },
+    "originality": {
+      "score": 8.7,
+      "reason": "The insight is specific to her: fear named freely versus a grievance that keeps the shape of lost expression. The verified details that change a reader's picture are hers alone: the Fincher compliment kept twelve years for the word \"different\"; the limes confession that changes between two dated tellings; the Easter Bunny line placed on the Six side; the wrap-grief count that closes the piece. Type definitions are two sentences each and the alternative paragraphs end on discriminators built from her own quotations, not reusable boilerplate. Not higher because the \"different / authentic / to be seen\" spine is conceded to be industry vocabulary and the Four core is argued more briefly than the Six case.",
+      "passage": "Asked about motherhood in 2024, she said, \"I really want to experience everything that life has to offer,\" close to a Seven's motto. A few sentences later: \"That includes all the pain and the suffering and feeling so helpless about the world.\" A Seven's appetite usually runs from that sentence. Hers runs toward it."
+    },
+    "writing": {
+      "score": 8.2,
+      "reason": "The piece moves well from the Cannes hook through the Six case to the Fifty Shades section and the test, with short turns (\"What she withheld was the fight.\") that land. After \"Hence medium confidence\" it becomes a tour (persona, five alternatives, open items) for about 1,300 words before the strong close, and the test section asks a lot of the reader: three framings of the same test (misled versus work-made-false; defiance versus expression; object of each protection line) in dense, list-shaped sentences like the one quoted. At 4,484 words it sits near the mechanical ceiling and well over the 3,500 target; the clarity of the argument survives, the pacing does not always.",
+      "passage": "What keeps the Four reading ahead is the object of each: care for people's freedom to express themselves, a toxic set defined by unkindness rather than betrayal, distrust of artists."
+    },
+    "durability": {
+      "score": 8.8,
+      "reason": "Dated events from 2015 to 2026 reveal the repeated pattern; removing the latest material (the Vogue 2026 cover and Verity) costs the close its final quotation and a few supporting lines but leaves the argument intact. Changing facts are dated and tracked with actionable triggers (C43 title and release, C70 James response in three places, C115 gross, C180 directing project), the discriminator is scoped to the reviewed record so a later interview degrades it gracefully, and the open-items section names what evidence would move the read. Short of 9 only because the close leans on a July 2026 quotation and an unreleased film is named by a pre-release title.",
+      "passage": "Every fear she names in this record is circumstantial: fame (2015, 2017), not working (2016), a contract at 23 (2022), singing (2021), directing (2025), press scrutiny (2026)."
+    },
+    "hook": {
+      "score": 9,
+      "reason": "Specific, dated (Cannes, May 2025), sourced, describing a repeated pattern rather than a news peg; reopening S53 shows the two quotations are one continuous sentence, so the framing is faithful. The second paragraph stacks three dated fear quotations and the third names the question the article then answers.",
+      "passage": "\"I found myself as an actor, a few times, showing up to the premiere of a movie to see it the first time,\" she said. Her verdict on those nights: \"That is not what I thought we were making.\""
+    },
+    "discoverability": {
+      "score": 8.6,
+      "reason": "The meta title (63 characters) states the type and that a second type is in play; the description (158 characters) is accurate to the body; the type H2 is followed by a 59-word answer that FAQ 1 mirrors exactly; five FAQs carry anchors that match real H2 slugs; seven enneagram-corner links and two people links (Saoirse Ronan, Ellen DeGeneres) resolve to live pages, as do all five suggestions. The page title itself carries no type keyword, which the meta title covers.",
+      "passage": "Dakota Johnson Enneagram Type: Type 4, With Type 6 Close Behind"
+    }
+  }
+}

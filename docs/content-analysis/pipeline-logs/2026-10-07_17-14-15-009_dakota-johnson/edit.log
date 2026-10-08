@@ -17,3 +17,19 @@ I reopened Bustle, The Ringer, L'Officiel, both Vogue covers, Vanity Fair 2022 a
 2. **The title**, as above. I kept the "Tender Prankster" persona title.
 
 Unrelated to this stage: several MCP servers (Ahrefs, Slack, Notion and others) need authorizing in your connector settings or via `/mcp`, and the Supabase server failed to connect this session.
+The edit stage is complete. All three requested outputs are written and validate against the contract; no input files or the live draft were touched, and nothing was published.
+
+**Outputs written** (in the run directory):
+- `edit.md`: the edited article, 4,484 words, zero machine-check blockers, type thesis unchanged (Type 4, medium confidence, counterphobic Type 6 as the live alternative).
+- `evidence-edit.json`: 146 claims on the same 54 sources, every passage matched verbatim against the edited text, including after simulating the runner's materialization.
+- `resolution-edit.json`: 47 decisions (46 fixed, 1 rejected), 19 protected passages all kept verbatim, no inherited blockers.
+
+**What changed in the article.** The six reviews converged on one structural fault: the thesis was written as an absolute ("never," "every time," "she separates them herself") while the record held protection-shaped lines the draft had trimmed or omitted. The lede, the test section, the Type 6 FAQ and the meta description are now scoped to the interviews reviewed and marked as the profile's reading. The omitted lines are on the page and weighed: the second half of the Gyllenhaal trust sentence, the "control and feeling powerful" line, "toxic sets," the streaming-bosses distrust line, and the scrapped-script context behind "I was 23. So it was scary." The Vanity Fair passage is now read both ways, with the counterphobic-Six structure set beside the Four reading and a narrow tipping observation stated as such. The Three case carries "It wasn't my fault," the timing of the 2022 account, and a concession that Four-leaning-Three is not cleanly separable here. Type 6 and "counterphobic" are defined for a newcomer right after the 60-word answer.
+
+**Reopened sources.** I confirmed three passages the reviewers cited from outside the evidence excerpts by fetching the originals: Vanity Fair 2022 (Marber/Hunnam, "Combo," "who goes by Erika"), the LA Times 2025 ("It wasn't my fault," committee line), and Variety July 2025 (toxic-set definition, "It's not a fight. It's a collaboration"). The source records carry the new lines.
+
+**Cuts to stay under the ceiling.** The additions pushed the body to 5,400 words, so I removed material no finding depended on: the 2023 low-day anecdote (two reviewers found it violated the article's own depression rule), the misread chosen-family line, the "big naked movies" line, the Juilliard and debut asides, the fee-deferral and AP executive lines, the Hathaway quote, and the Marie Claire COVID line.
+
+**One rejection to note.** The subject reviewer asked that three sentences be hedged as the profile's reading. Each is tied to her own words and each is a passage another reviewer protected verbatim, so I kept them and recorded the reason.
+
+**Next step** is the independent verify stage, which the runner materializes from these outputs.

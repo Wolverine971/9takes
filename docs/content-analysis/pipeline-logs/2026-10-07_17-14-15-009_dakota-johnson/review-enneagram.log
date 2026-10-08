@@ -13,3 +13,20 @@ I wrote the Enneagram review for the Dakota Johnson draft to `review-enneagram.j
 I marked five passages to keep, including "A Seven's appetite usually runs from that sentence. Hers runs toward it." The similarity check against other recent profiles found no meaningful reuse. I reopened the Bustle, Vanity Fair 2022, Vogue 2017 and Marie Claire articles to check context. I didn't reopen Vanity Fair 2021, L'Officiel or the 2026 Vogue pieces, so for those I relied on the excerpts in the evidence file.
 
 The Supabase connection failed this session, and several plugin connectors (Ahrefs, Slack, Notion and others) need authorizing. This stage didn't need any of them.
+The enneagram review stage is complete. The output file passes the schema in the editorial contract, every finding and protected passage is an exact substring of the frozen draft, and the hashes are copied from the request. No other files were touched.
+
+**What the review found**
+
+The Dakota Johnson draft argues Type 4 at medium confidence with a counterphobic Type 6 as the live alternative. The Six case is presented honestly and in full, no wings or arrows are used to absorb contradictions, and the 60-word answer matches the call. The weakness is the discriminator itself. I wrote seven findings, four major and three minor.
+
+- **"Never misled or unprotected" is contradicted by opened sources** (major). The lede and the Type 6 FAQ claim she has never described a set that way. The evidence record holds four lines that cut against that: "not taken care of" on set (Vogue 2026, quoted in the draft itself), "toxic sets" (Variety 2025, unused), "not handled with grace and with care" (Vanity Fair 2021, trimmed out of the quotation), and bosses who "don't trust creative people" (L'Officiel 2024, unused). The claim must become a weighting, not an absence.
+- **The draft names the counterphobic Six, then argues against the phobic Six** (major). Rule refusal, defiance, and charging at fear are counterphobic Six signatures, yet the draft counts them against Six. Her own "I am a very defiant person" line contradicts the draft's "never as defiance."
+- **The Vanity Fair passage is read only for content, never for structure** (major). An author with total creative control, resisted through covert double takes and overnight rewrites, then called "psychotic," is a textbook authority-resistance story. The draft must test that reading beside the Four one and name what tips it, or drop to low confidence.
+- **The Four case leans on brand vocabulary** (major). "Different," "authentic," and "seen" are conceded as industry-speak. Dated lines about not belonging, "something wrong with my brain," meaning-making, and self-reproach sit unused in the record and should carry the Four core.
+- **Three minor findings** cover the "big naked movies" line filed as a Four override, a thin Nine dismissal that ignores two Nine-shaped lines in the record, and a Three test that never names self-deprecation as image strategy.
+
+Five passages are protected, including the Fincher reading, the "on fear and safety alone, the Six reading would win" concession, and the Seven discriminator.
+
+The similarity diagnostic tripped only on self-matches against the earlier same-subject draft. Cross-subject reuse was negligible, so no formulaic-writing finding was raised. Risks were copied from the evidence record without escalation.
+
+**Next step** belongs to the pipeline: the edit stage adjudicates these findings alongside the other five jury reviews.

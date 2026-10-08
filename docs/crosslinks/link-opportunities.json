@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-10-07",
+	"generatedAt": "2026-10-08",
 	"gsc": {
 		"runDate": "2026-10-04",
 		"window": {
@@ -13,42 +13,15 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 488,
+		"candidates": 440,
 		"gateDebt": 0,
 		"topBlog": 40,
 		"peopleBridge": 30,
-		"peopleToPeople": 6,
-		"skipped": 130
+		"peopleToPeople": 4,
+		"skipped": 168
 	},
 	"gateDebt": [],
 	"topBlog": [
-		{
-			"id": "/community/enneagram-community -> /enneagram-corner/astrology-and-the-enneagram",
-			"score": 6.05,
-			"target": {
-				"url": "/enneagram-corner/astrology-and-the-enneagram",
-				"title": "What Enneagram Type Is Your Zodiac Sign? The Complete Correlation Chart",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 10859,
-				"clicks": 146,
-				"position": 8.2,
-				"inbound": 8
-			},
-			"source": {
-				"url": "/community/enneagram-community",
-				"file": "src/blog/community/enneagram-community.md",
-				"section": "community",
-				"impressions": 0,
-				"outCount": 7
-			},
-			"line": 272,
-			"anchor": "astrology",
-			"phrase": "astrology",
-			"phraseKind": "curated",
-			"mentionScore": 4.5,
-			"excerpt": "…6, the first page listed two dozen servers bumped within the previous four hours. Only a handful are Enneagram-only. Most are general typology servers that mix the Enneagram with MBTI, Socionics, and sometimes astrology."
-		},
 		{
 			"id": "/community/be-gentle-when-youre-right -> /enneagram-corner/how-to-apologize-like-a-pro",
 			"score": 5.79,
@@ -77,35 +50,8 @@
 			"excerpt": "…t Cohn's \"fundamental tenet\" was \"to attack and to never back down and to never apologize and to never admit wrongdoing.\" Trump's own version came on Jimmy Fallon's show in 2015. \"I fully think apologizing is a great thi…"
 		},
 		{
-			"id": "/enneagram-corner/enneagram-compatibility-matrix -> /enneagram-corner/mental-health/enneagram-science-mental-health",
-			"score": 3.67,
-			"target": {
-				"url": "/enneagram-corner/mental-health/enneagram-science-mental-health",
-				"title": "Is the Enneagram Scientifically Valid? What Research Says",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 4400,
-				"clicks": 5,
-				"position": 9.6,
-				"inbound": 16
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-compatibility-matrix",
-				"file": "src/blog/enneagram/enneagram-compatibility-matrix.md",
-				"section": "enneagram-corner",
-				"impressions": 8180,
-				"outCount": 7
-			},
-			"line": 159,
-			"anchor": "peer-reviewed research",
-			"phrase": "peer-reviewed research",
-			"phraseKind": "curated",
-			"mentionScore": 3,
-			"excerpt": "We haven't found peer-reviewed research that tests tritype compatibility. On 9takes, core type is already a working hypothesis, and picking three numbers gives you three chances to mistype instead of one. Use the tritype…"
-		},
-		{
-			"id": "/enneagram-corner/enneagram-types-and-career-choices -> /enneagram-corner/how-to-apologize-like-a-pro",
-			"score": 3.63,
+			"id": "/pop-culture/podcaster-personality-map -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"score": 3.5,
 			"target": {
 				"url": "/enneagram-corner/how-to-apologize-like-a-pro",
 				"title": "How to Apologize by Enneagram Type: The Nine Scripts Each Type Skips",
@@ -117,22 +63,22 @@
 				"inbound": 9
 			},
 			"source": {
-				"url": "/enneagram-corner/enneagram-types-and-career-choices",
-				"file": "src/blog/enneagram/enneagram-types-and-career-choices.md",
-				"section": "enneagram-corner",
-				"impressions": 1889,
-				"outCount": 13
+				"url": "/pop-culture/podcaster-personality-map",
+				"file": "src/blog/pop-culture/podcaster-personality-map.md",
+				"section": "pop-culture",
+				"impressions": 60,
+				"outCount": 14
 			},
-			"line": 210,
-			"anchor": "apologize",
-			"phrase": "apologize",
+			"line": 195,
+			"anchor": "apologies",
+			"phrase": "apologies",
 			"phraseKind": "curated",
 			"mentionScore": 3,
-			"excerpt": "**Interview hack**: Do not apologize for the unconventional path on your resume. The career hop into pottery between consulting gigs is your strength, not your scar. Frame it as a deliberate choice and the room will foll…"
+			"excerpt": "…ent. In a [2019 CBS interview](https://www.cbsnews.com/news/extended-transcript-howard-stern-cbs-sunday-morning/), he discussed psychoanalysis, insecurity, apologies for past interviews, and his approach to interviewing."
 		},
 		{
-			"id": "/enneagram-corner/enneagram-strengths-and-weaknesses -> /enneagram-corner/how-to-apologize-like-a-pro",
-			"score": 3.55,
+			"id": "/enneagram-corner/enneagram-type-8 -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"score": 3.49,
 			"target": {
 				"url": "/enneagram-corner/how-to-apologize-like-a-pro",
 				"title": "How to Apologize by Enneagram Type: The Nine Scripts Each Type Skips",
@@ -144,18 +90,18 @@
 				"inbound": 9
 			},
 			"source": {
-				"url": "/enneagram-corner/enneagram-strengths-and-weaknesses",
-				"file": "src/blog/enneagram/enneagram-strengths-and-weaknesses.md",
+				"url": "/enneagram-corner/enneagram-type-8",
+				"file": "src/blog/enneagram/enneagram-type-8.md",
 				"section": "enneagram-corner",
-				"impressions": 1362,
-				"outCount": 15
+				"impressions": 1050,
+				"outCount": 14
 			},
-			"line": 207,
-			"anchor": "apology",
-			"phrase": "apology",
+			"line": 165,
+			"anchor": "apologizing",
+			"phrase": "apologizing",
 			"phraseKind": "curated",
 			"mentionScore": 3,
-			"excerpt": "Choose one low-stakes decision and voice your preference before asking the group. For a harder conflict, write the sentence you are avoiding and say it without adding an apology for having a position."
+			"excerpt": "You walk into a room and the conversation recalibrates. Your handshake is firm, your eye contact is direct, and your stance says you're here and not apologizing for it."
 		},
 		{
 			"id": "/pop-culture/tech-titans-platform-emperors -> /pop-culture/tech-titans-disruptors",
@@ -185,197 +131,8 @@
 			"excerpt": "…r builders' types. Mark Zuckerberg and Jack Dorsey show Type 5 system-building; Elon Musk shows the same systems instinct turned toward control; Jeff Bezos shows Type 8 conquest. Facebook, Twitter/X, and Amazon feel diff…"
 		},
 		{
-			"id": "/pop-culture/fallen-founders-enneagram-analysis -> /pop-culture/tech-titans-disruptors",
-			"score": 3.42,
-			"target": {
-				"url": "/pop-culture/tech-titans-disruptors",
-				"title": "The Disruptors: Why Type 8s Break Industries and Type 5s Decode Them",
-				"kind": "blog",
-				"section": "pop-culture",
-				"impressions": 42,
-				"clicks": 0,
-				"position": 7.4,
-				"inbound": 3
-			},
-			"source": {
-				"url": "/pop-culture/fallen-founders-enneagram-analysis",
-				"file": "src/blog/pop-culture/fallen-founders-enneagram-analysis.md",
-				"section": "pop-culture",
-				"impressions": 87,
-				"outCount": 24
-			},
-			"line": 85,
-			"anchor": "Travis Kalanick",
-			"phrase": "travis kalanick",
-			"phraseKind": "title",
-			"mentionScore": 4,
-			"excerpt": "He is not even the only ousted founder of the era who walked. Travis Kalanick was forced out of Uber in 2017 by Benchmark, the same firm whose Bruce Dunlevie shows up in Frame 5, and was never criminally charged either. …"
-		},
-		{
-			"id": "/community/why-im-selective-sharing-enneagram -> /enneagram-corner/mental-health/enneagram-science-mental-health",
-			"score": 3.27,
-			"target": {
-				"url": "/enneagram-corner/mental-health/enneagram-science-mental-health",
-				"title": "Is the Enneagram Scientifically Valid? What Research Says",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 4400,
-				"clicks": 5,
-				"position": 9.6,
-				"inbound": 16
-			},
-			"source": {
-				"url": "/community/why-im-selective-sharing-enneagram",
-				"file": "src/blog/community/why-im-selective-sharing-enneagram.md",
-				"section": "community",
-				"impressions": 75,
-				"outCount": 5
-			},
-			"line": 33,
-			"anchor": "peer-reviewed research",
-			"phrase": "peer-reviewed research",
-			"phraseKind": "curated",
-			"mentionScore": 3,
-			"excerpt": "\"Are there peer-reviewed research papers on this?\" he asked. \"Sounds like horoscopes.\""
-		},
-		{
-			"id": "/enneagram-corner/enneagram-and-mental-illness -> /enneagram-corner/toxic-traits-relationships-warning-signs",
-			"score": 3.1,
-			"target": {
-				"url": "/enneagram-corner/toxic-traits-relationships-warning-signs",
-				"title": "Red Flags You're Dating a Toxic Version of Each Enneagram Type",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 1839,
-				"clicks": 33,
-				"position": 10.2,
-				"inbound": 4
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-and-mental-illness",
-				"file": "src/blog/enneagram/enneagram-and-mental-illness.md",
-				"section": "enneagram-corner",
-				"impressions": 11948,
-				"outCount": 22
-			},
-			"line": 280,
-			"anchor": "Cheats",
-			"phrase": "cheat",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "- Cheats on tests to maintain top grades"
-		},
-		{
-			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /pop-culture/tech-titans-ai-wars",
-			"score": 3,
-			"target": {
-				"url": "/pop-culture/tech-titans-ai-wars",
-				"title": "The AI Wars: Why Personality Types Determine Who Gets to Build God",
-				"kind": "blog",
-				"section": "pop-culture",
-				"impressions": 983,
-				"clicks": 6,
-				"position": 9,
-				"inbound": 8
-			},
-			"source": {
-				"url": "/enneagram-corner/what-enneagram-type-are-most-ceos",
-				"file": "src/blog/enneagram/what-enneagram-type-are-most-ceos.md",
-				"section": "enneagram-corner",
-				"impressions": 0,
-				"outCount": 73
-			},
-			"line": 307,
-			"anchor": "Dario Amodei",
-			"phrase": "dario amodei",
-			"phraseKind": "title",
-			"mentionScore": 6,
-			"excerpt": "- Type 5: Bill Gates, Dario Amodei, David Friedberg, Demis Hassabis, Elon Musk, Jack Dorsey, John D. Rockefeller, Larry Page, Liang Wenfeng, Mark Zuckerberg, Sam Bankman-Fried, Sergey Brin, Yang Zhilin"
-		},
-		{
-			"id": "/enneagram-corner/enneagram-self-development -> /enneagram-corner/enneagram-vs-personality-frameworks-comparison",
-			"score": 2.96,
-			"target": {
-				"url": "/enneagram-corner/enneagram-vs-personality-frameworks-comparison",
-				"title": "The Enneagram's Place in Personality Science: An Honest Audit",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 3354,
-				"clicks": 3,
-				"position": 8.4,
-				"inbound": 12
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-self-development",
-				"file": "src/blog/enneagram/enneagram-self-development.md",
-				"section": "enneagram-corner",
-				"impressions": 100,
-				"outCount": 14
-			},
-			"line": 76,
-			"anchor": "personality systems",
-			"phrase": "personality systems",
-			"phraseKind": "curated",
-			"mentionScore": 3,
-			"excerpt": "What separates the Enneagram from other personality systems is its recognition that your \"type\" isn't just a collection of traits – it's an adaptive strategy developed in childhood to meet your core emotional needs and p…"
-		},
-		{
-			"id": "/enneagram-corner/enneagram-type-4 -> /enneagram-corner/depression-patterns-by-enneagram-type",
-			"score": 2.95,
-			"target": {
-				"url": "/enneagram-corner/depression-patterns-by-enneagram-type",
-				"title": "Depression Patterns by Enneagram Type",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 5353,
-				"clicks": 125,
-				"position": 7.8,
-				"inbound": 22
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-type-4",
-				"file": "src/blog/enneagram/enneagram-type-4.md",
-				"section": "enneagram-corner",
-				"impressions": 2057,
-				"outCount": 14
-			},
-			"line": 378,
-			"anchor": "depression",
-			"phrase": "depression",
-			"phraseKind": "curated",
-			"mentionScore": 3,
-			"excerpt": "The danger: you internalize everything until it becomes depression or physical illness."
-		},
-		{
-			"id": "/enneagram-corner/enneagram-types-on-a-first-date -> /enneagram-corner/enneagram-compatibility-matrix",
-			"score": 2.93,
-			"target": {
-				"url": "/enneagram-corner/enneagram-compatibility-matrix",
-				"title": "The Complete Enneagram Compatibility Matrix: All 45 Type Pairings Decoded",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 8180,
-				"clicks": 89,
-				"position": 13.4,
-				"inbound": 20
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-types-on-a-first-date",
-				"file": "src/blog/enneagram/enneagram-types-on-a-first-date.md",
-				"section": "enneagram-corner",
-				"impressions": 503,
-				"outCount": 18
-			},
-			"line": 303,
-			"anchor": "compatibility",
-			"phrase": "compatibility",
-			"phraseKind": "curated",
-			"mentionScore": 3,
-			"excerpt": "Investigators approach dates with analytical curiosity. They're evaluating compatibility through careful observation, forming hypotheses about you, testing them through conversation."
-		},
-		{
 			"id": "/community/software-and-hardware-of-the-mind -> /enneagram-corner/enneagram-vs-personality-frameworks-comparison",
-			"score": 2.93,
+			"score": 2.83,
 			"target": {
 				"url": "/enneagram-corner/enneagram-vs-personality-frameworks-comparison",
 				"title": "The Enneagram's Place in Personality Science: An Honest Audit",
@@ -384,7 +141,7 @@
 				"impressions": 3354,
 				"clicks": 3,
 				"position": 8.4,
-				"inbound": 12
+				"inbound": 13
 			},
 			"source": {
 				"url": "/community/software-and-hardware-of-the-mind",
@@ -401,116 +158,8 @@
 			"excerpt": "All personality systems attempt to explain the dimensions by which we are similar and different. The most popular scientific model—the <a class=\"external-link\" target=\"_blank\" rel=\"noopener\" href=\"https://en.wikipedia.or…"
 		},
 		{
-			"id": "/pop-culture/parasocial-relationships-enneagram-type -> /enneagram-corner/enneagram-vs-personality-frameworks-comparison",
-			"score": 2.93,
-			"target": {
-				"url": "/enneagram-corner/enneagram-vs-personality-frameworks-comparison",
-				"title": "The Enneagram's Place in Personality Science: An Honest Audit",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 3354,
-				"clicks": 3,
-				"position": 8.4,
-				"inbound": 12
-			},
-			"source": {
-				"url": "/pop-culture/parasocial-relationships-enneagram-type",
-				"file": "src/blog/pop-culture/parasocial-relationships-enneagram-type.md",
-				"section": "pop-culture",
-				"impressions": 0,
-				"outCount": 6
-			},
-			"line": 118,
-			"anchor": "personality framework",
-			"phrase": "personality framework",
-			"phraseKind": "curated",
-			"mentionScore": 3,
-			"excerpt": "…vitable endpoint of parasocial attachment. If a bond is disrupting daily life, driving unsafe behavior, or creating a belief that a public figure secretly reciprocates, it deserves support beyond a personality framework."
-		},
-		{
-			"id": "/pop-culture/the-office-enneagram-types -> /enneagram-corner/love-languages-and-enneagram-types",
-			"score": 2.9,
-			"target": {
-				"url": "/enneagram-corner/love-languages-and-enneagram-types",
-				"title": "Love Languages & Enneagram Types: The 45-Combination Compatibility Guide (2026)",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 3017,
-				"clicks": 8,
-				"position": 8.7,
-				"inbound": 12
-			},
-			"source": {
-				"url": "/pop-culture/the-office-enneagram-types",
-				"file": "src/blog/pop-culture/the-office-enneagram-types.md",
-				"section": "pop-culture",
-				"impressions": 0,
-				"outCount": 15
-			},
-			"line": 227,
-			"anchor": "love language",
-			"phrase": "love language",
-			"phraseKind": "curated",
-			"mentionScore": 3,
-			"excerpt": "- **Stanley:** Almost always a 5 or a 4. The \"did I stutter\" energy is a withdrawn-type love language."
-		},
-		{
-			"id": "/enneagram-corner/enneagram-harmonic-approaches -> /enneagram-corner/love-languages-and-enneagram-types",
-			"score": 2.79,
-			"target": {
-				"url": "/enneagram-corner/love-languages-and-enneagram-types",
-				"title": "Love Languages & Enneagram Types: The 45-Combination Compatibility Guide (2026)",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 3017,
-				"clicks": 8,
-				"position": 8.7,
-				"inbound": 12
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-harmonic-approaches",
-				"file": "src/blog/enneagram/enneagram-harmonic-approaches.md",
-				"section": "enneagram-corner",
-				"impressions": 55,
-				"outCount": 14
-			},
-			"line": 218,
-			"anchor": "love language",
-			"phrase": "love language",
-			"phraseKind": "curated",
-			"mentionScore": 3,
-			"excerpt": "…tency types need to spend thirty seconds explicitly _acknowledging the feeling_ before moving to solutions. Reactive types need to recognize that solution-mode is the Competency type's love language, not their dismissal."
-		},
-		{
-			"id": "/enneagram-corner/mental-health/enneagram-crisis-management-guide -> /enneagram-corner/depression-patterns-by-enneagram-type",
-			"score": 2.76,
-			"target": {
-				"url": "/enneagram-corner/depression-patterns-by-enneagram-type",
-				"title": "Depression Patterns by Enneagram Type",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 5353,
-				"clicks": 125,
-				"position": 7.8,
-				"inbound": 22
-			},
-			"source": {
-				"url": "/enneagram-corner/mental-health/enneagram-crisis-management-guide",
-				"file": "src/blog/enneagram/mental-health/enneagram-crisis-management-guide.md",
-				"section": "enneagram-corner",
-				"impressions": 801,
-				"outCount": 7
-			},
-			"line": 332,
-			"anchor": "depression",
-			"phrase": "depression",
-			"phraseKind": "curated",
-			"mentionScore": 3,
-			"excerpt": "…elationships are sacrificed on the altar of the next milestone. Emotions flatten. Not depression yet, but a growing numbness. They can't remember the last time they felt anything that wasn't related to winning or losing."
-		},
-		{
 			"id": "/enneagram-corner/why-you-cant-stop-overthinking-enneagram -> /enneagram-corner/depression-patterns-by-enneagram-type",
-			"score": 2.76,
+			"score": 2.64,
 			"target": {
 				"url": "/enneagram-corner/depression-patterns-by-enneagram-type",
 				"title": "Depression Patterns by Enneagram Type",
@@ -519,7 +168,7 @@
 				"impressions": 5353,
 				"clicks": 125,
 				"position": 7.8,
-				"inbound": 22
+				"inbound": 24
 			},
 			"source": {
 				"url": "/enneagram-corner/why-you-cant-stop-overthinking-enneagram",
@@ -536,43 +185,70 @@
 			"excerpt": "**The paradox:** More thinking doesn't lead to better outcomes. Research shows overthinking actually reduces problem-solving ability, increases anxiety and depression risk, impairs decision-making, and disrupts sleep."
 		},
 		{
-			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
-			"score": 2.67,
-			"target": {
-				"url": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
-				"title": "John Coogan and Jordi Hays Built TBPN by Wanting Different Things",
-				"kind": "blog",
-				"section": "pop-culture",
-				"impressions": 225,
-				"clicks": 1,
-				"position": 9.3,
-				"inbound": 3
-			},
-			"source": {
-				"url": "/enneagram-corner/what-enneagram-type-are-most-ceos",
-				"file": "src/blog/enneagram/what-enneagram-type-are-most-ceos.md",
-				"section": "enneagram-corner",
-				"impressions": 0,
-				"outCount": 73
-			},
-			"line": 324,
-			"anchor": "John Coogan",
-			"phrase": "john coogan",
-			"phraseKind": "title",
-			"mentionScore": 4.5,
-			"excerpt": "- Type 7: Alex Lieberman, John Coogan, Shaan Puri"
-		},
-		{
-			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /pop-culture/kardashian-family-enneagram-analysis",
+			"id": "/enneagram-corner/how-each-enneagram-type-self-sabotages-success -> /enneagram-corner/depression-patterns-by-enneagram-type",
 			"score": 2.63,
 			"target": {
-				"url": "/pop-culture/kardashian-family-enneagram-analysis",
-				"title": "The Kardashian Family Enneagram: How Each Type Built a Billion Dollar Dynasty",
+				"url": "/enneagram-corner/depression-patterns-by-enneagram-type",
+				"title": "Depression Patterns by Enneagram Type",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 5353,
+				"clicks": 125,
+				"position": 7.8,
+				"inbound": 24
+			},
+			"source": {
+				"url": "/enneagram-corner/how-each-enneagram-type-self-sabotages-success",
+				"file": "src/blog/enneagram/how-each-enneagram-type-self-sabotages-success.md",
+				"section": "enneagram-corner",
+				"impressions": 728,
+				"outCount": 24
+			},
+			"line": 154,
+			"anchor": "depression",
+			"phrase": "depression",
+			"phraseKind": "curated",
+			"mentionScore": 3,
+			"excerpt": "- Burnout, then depression, then a new goal to outrun both"
+		},
+		{
+			"id": "/pop-culture/us-presidents-enneagram-analysis -> /enneagram-corner/depression-patterns-by-enneagram-type",
+			"score": 2.62,
+			"target": {
+				"url": "/enneagram-corner/depression-patterns-by-enneagram-type",
+				"title": "Depression Patterns by Enneagram Type",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 5353,
+				"clicks": 125,
+				"position": 7.8,
+				"inbound": 24
+			},
+			"source": {
+				"url": "/pop-culture/us-presidents-enneagram-analysis",
+				"file": "src/blog/pop-culture/us-presidents-enneagram-analysis.md",
+				"section": "pop-culture",
+				"impressions": 38,
+				"outCount": 16
+			},
+			"line": 91,
+			"anchor": "depression",
+			"phrase": "depression",
+			"phraseKind": "curated",
+			"mentionScore": 3,
+			"excerpt": "… kept him from ever giving up. He didn't burn with righteous fury like a 1. He didn't charge forward like an 8. He sat with the full weight of the war's horror, absorbed it into his own depression, and refused to let go."
+		},
+		{
+			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /pop-culture/tech-titans-disruptors",
+			"score": 2.57,
+			"target": {
+				"url": "/pop-culture/tech-titans-disruptors",
+				"title": "The Disruptors: Why Type 8s Break Industries and Type 5s Decode Them",
 				"kind": "blog",
 				"section": "pop-culture",
-				"impressions": 3228,
-				"clicks": 43,
-				"position": 8.2,
+				"impressions": 42,
+				"clicks": 0,
+				"position": 7.4,
 				"inbound": 3
 			},
 			"source": {
@@ -580,18 +256,18 @@
 				"file": "src/blog/enneagram/what-enneagram-type-are-most-ceos.md",
 				"section": "enneagram-corner",
 				"impressions": 0,
-				"outCount": 73
+				"outCount": 75
 			},
-			"line": 339,
-			"anchor": "Jenner",
-			"phrase": "jenner",
-			"phraseKind": "gsc",
-			"mentionScore": 3,
-			"excerpt": "- Type 3: David Beckham, Jared Kushner, Kris Jenner, Taylor Swift, Tony Robbins, Tyler Perry, Vivek Ramaswamy"
+			"line": 310,
+			"anchor": "Jeff Bezos",
+			"phrase": "jeff bezo",
+			"phraseKind": "title",
+			"mentionScore": 6,
+			"excerpt": "- Type 8: Jeff Bezos, Reed Hastings, Rupert Murdoch, Travis Kalanick"
 		},
 		{
 			"id": "/pop-culture/breaking-points-enneagram-analysis -> /enneagram-corner/enneagram-compatibility-matrix",
-			"score": 2.56,
+			"score": 2.5,
 			"target": {
 				"url": "/enneagram-corner/enneagram-compatibility-matrix",
 				"title": "The Complete Enneagram Compatibility Matrix: All 45 Type Pairings Decoded",
@@ -600,7 +276,7 @@
 				"impressions": 8180,
 				"clicks": 89,
 				"position": 13.4,
-				"inbound": 20
+				"inbound": 21
 			},
 			"source": {
 				"url": "/pop-culture/breaking-points-enneagram-analysis",
@@ -618,7 +294,7 @@
 		},
 		{
 			"id": "/pop-culture/the-office-enneagram-types -> /enneagram-corner/enneagram-compatibility-matrix",
-			"score": 2.56,
+			"score": 2.5,
 			"target": {
 				"url": "/enneagram-corner/enneagram-compatibility-matrix",
 				"title": "The Complete Enneagram Compatibility Matrix: All 45 Type Pairings Decoded",
@@ -627,7 +303,7 @@
 				"impressions": 8180,
 				"clicks": 89,
 				"position": 13.4,
-				"inbound": 20
+				"inbound": 21
 			},
 			"source": {
 				"url": "/pop-culture/the-office-enneagram-types",
@@ -642,33 +318,6 @@
 			"phraseKind": "curated",
 			"mentionScore": 3,
 			"excerpt": "… Jim and Pam would drift toward calmer environments. Dwight would join a militia. Some type pairings [click and some implode](/enneagram-corner/enneagram-team-dynamics), and Dunder Mifflin stocked mostly the second kind."
-		},
-		{
-			"id": "/enneagram-corner/attachment-styles-and-enneagram-types -> /enneagram-corner/enneagram-social-styles",
-			"score": 2.52,
-			"target": {
-				"url": "/enneagram-corner/enneagram-social-styles",
-				"title": "Enneagram Social Styles: The Hornevian Triads, Decoded",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 316,
-				"clicks": 0,
-				"position": 9.6,
-				"inbound": 3
-			},
-			"source": {
-				"url": "/enneagram-corner/attachment-styles-and-enneagram-types",
-				"file": "src/blog/enneagram/attachment-styles-and-enneagram-types.md",
-				"section": "enneagram-corner",
-				"impressions": 4817,
-				"outCount": 16
-			},
-			"line": 67,
-			"anchor": "triads",
-			"phrase": "triads",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "The nine types also sort into three centers, or triads, each with a default way of handling the anxiety of closeness:"
 		},
 		{
 			"id": "/enneagram-corner/shadow-work-by-enneagram-type -> /enneagram-corner/enneagram-types-and-career-choices",
@@ -698,139 +347,58 @@
 			"excerpt": "… colleague finally landed her dream job after years of anxiety about making the wrong career move. Within two months, she was already interviewing elsewhere. \"Just in case.\" She couldn't explain why. The job was great. H…"
 		},
 		{
-			"id": "/enneagram-corner/enneagram-social-styles -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
-			"score": 2.45,
+			"id": "/enneagram-corner/enneagram-workplace-team-building -> /enneagram-corner/enneagram-vs-personality-frameworks-comparison",
+			"score": 2.26,
 			"target": {
-				"url": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
-				"title": "John Coogan and Jordi Hays Built TBPN by Wanting Different Things",
-				"kind": "blog",
-				"section": "pop-culture",
-				"impressions": 225,
-				"clicks": 1,
-				"position": 9.3,
-				"inbound": 3
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-social-styles",
-				"file": "src/blog/enneagram/enneagram-social-styles.md",
-				"section": "enneagram-corner",
-				"impressions": 316,
-				"outCount": 3
-			},
-			"line": 268,
-			"anchor": "host",
-			"phrase": "host",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "- (C) You find the host and help with whatever needs helping."
-		},
-		{
-			"id": "/enneagram-corner/enneagram-instinctual-subtypes -> /enneagram-corner/enneagram-test-comparison-2026",
-			"score": 2.41,
-			"target": {
-				"url": "/enneagram-corner/enneagram-test-comparison-2026",
-				"title": "Best Free Enneagram Tests (2026): An Honest Comparison",
+				"url": "/enneagram-corner/enneagram-vs-personality-frameworks-comparison",
+				"title": "The Enneagram's Place in Personality Science: An Honest Audit",
 				"kind": "blog",
 				"section": "enneagram-corner",
-				"impressions": 2112,
-				"clicks": 14,
-				"position": 9.8,
-				"inbound": 7
+				"impressions": 3354,
+				"clicks": 3,
+				"position": 8.4,
+				"inbound": 13
 			},
 			"source": {
-				"url": "/enneagram-corner/enneagram-instinctual-subtypes",
-				"file": "src/blog/enneagram/enneagram-instinctual-subtypes.md",
-				"section": "enneagram-corner",
-				"impressions": 6880,
-				"outCount": 16
-			},
-			"line": 31,
-			"anchor": "variants",
-			"phrase": "variant",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "Instinctual variants (also called subtypes or instincts) are the reason two people with the same Enneagram type can seem like different people. There are three: <strong>Self-Preservation (SP)</strong>, focused on safety,…"
-		},
-		{
-			"id": "/enneagram-corner/how-each-enneagram-flexes -> /enneagram-corner/toxic-traits-relationships-warning-signs",
-			"score": 2.41,
-			"target": {
-				"url": "/enneagram-corner/toxic-traits-relationships-warning-signs",
-				"title": "Red Flags You're Dating a Toxic Version of Each Enneagram Type",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 1839,
-				"clicks": 33,
-				"position": 10.2,
-				"inbound": 4
-			},
-			"source": {
-				"url": "/enneagram-corner/how-each-enneagram-flexes",
-				"file": "src/blog/enneagram/how-each-enneagram-flexes.md",
-				"section": "enneagram-corner",
-				"impressions": 302,
-				"outCount": 17
-			},
-			"line": 309,
-			"anchor": "cheat",
-			"phrase": "cheat",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "If you want the compliment-version of this cheat sheet, see [How to Compliment Each Enneagram Type](/enneagram-corner/biggest-compliments-to-give-each-enneagram-type)."
-		},
-		{
-			"id": "/enneagram-corner/enneagram-test-comparison-2026 -> /enneagram-corner/enneagram-social-styles",
-			"score": 2.39,
-			"target": {
-				"url": "/enneagram-corner/enneagram-social-styles",
-				"title": "Enneagram Social Styles: The Hornevian Triads, Decoded",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 316,
-				"clicks": 0,
-				"position": 9.6,
-				"inbound": 3
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-test-comparison-2026",
-				"file": "src/blog/enneagram/enneagram-test-comparison-2026.md",
-				"section": "enneagram-corner",
-				"impressions": 2112,
-				"outCount": 4
-			},
-			"line": 100,
-			"anchor": "triads",
-			"phrase": "triads",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "Cloverleaf's current assessment page says the individual test is 100% free, takes about 12 minutes, and provides instant results covering type, wings, triads, growth and stress arrows, and workplace guidance."
-		},
-		{
-			"id": "/enneagram-corner/mental-health/enneagram-parenting-mental-health -> /enneagram-corner/love-languages-and-enneagram-types",
-			"score": 2.32,
-			"target": {
-				"url": "/enneagram-corner/love-languages-and-enneagram-types",
-				"title": "Love Languages & Enneagram Types: The 45-Combination Compatibility Guide (2026)",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 3017,
-				"clicks": 8,
-				"position": 8.7,
-				"inbound": 12
-			},
-			"source": {
-				"url": "/enneagram-corner/mental-health/enneagram-parenting-mental-health",
-				"file": "src/blog/enneagram/mental-health/enneagram-parenting-mental-health.md",
+				"url": "/enneagram-corner/enneagram-workplace-team-building",
+				"file": "src/blog/enneagram/enneagram-workplace-team-building.md",
 				"section": "enneagram-corner",
 				"impressions": 0,
-				"outCount": 11
+				"outCount": 16
 			},
-			"line": 273,
-			"anchor": "love language",
-			"phrase": "love language",
+			"line": 59,
+			"anchor": "personality frameworks",
+			"phrase": "personality frameworks",
 			"phraseKind": "curated",
 			"mentionScore": 3,
-			"excerpt": "- **Information as love language**: \"Did you know octopi have three hearts?\" connects better than \"How are you feeling?\""
+			"excerpt": "This system has ancient roots but has been modernized through psychological research. Unlike other personality frameworks, the Enneagram:"
+		},
+		{
+			"id": "/enneagram-corner/oversharing-psychology-shame-boundaries -> /enneagram-corner/enneagram-vs-personality-frameworks-comparison",
+			"score": 2.26,
+			"target": {
+				"url": "/enneagram-corner/enneagram-vs-personality-frameworks-comparison",
+				"title": "The Enneagram's Place in Personality Science: An Honest Audit",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 3354,
+				"clicks": 3,
+				"position": 8.4,
+				"inbound": 13
+			},
+			"source": {
+				"url": "/enneagram-corner/oversharing-psychology-shame-boundaries",
+				"file": "src/blog/enneagram/oversharing-psychology-shame-boundaries.md",
+				"section": "enneagram-corner",
+				"impressions": 0,
+				"outCount": 16
+			},
+			"line": 335,
+			"anchor": "personality frameworks",
+			"phrase": "personality frameworks",
+			"phraseKind": "curated",
+			"mentionScore": 3,
+			"excerpt": "This is also why personality frameworks can backfire socially: if you feel the urge to psychoanalyze people the moment you meet them, read [The Enneagram Changed My Life, But I Learned to Shut Up About It](/community/why…"
 		},
 		{
 			"id": "/enneagram-corner/how-each-enneagram-type-self-sabotages-success -> /enneagram-corner/how-to-navigate-early-relationship-stages",
@@ -860,8 +428,8 @@
 			"excerpt": "… mind runs constant threat-detection. New opportunity? Here are 17 things that could go wrong. New relationship? Let me test them to make sure they won't leave. New project? Better have backup plans for the backup plans."
 		},
 		{
-			"id": "/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten -> /enneagram-corner/toxic-traits-relationships-warning-signs",
-			"score": 2.21,
+			"id": "/how-to-guides/how-to-psychoanalyze-people -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"score": 2.19,
 			"target": {
 				"url": "/enneagram-corner/toxic-traits-relationships-warning-signs",
 				"title": "Red Flags You're Dating a Toxic Version of Each Enneagram Type",
@@ -873,18 +441,18 @@
 				"inbound": 4
 			},
 			"source": {
-				"url": "/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten",
-				"file": "src/blog/guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md",
+				"url": "/how-to-guides/how-to-psychoanalyze-people",
+				"file": "src/blog/guides/how-to-psychoanalyze-people.md",
 				"section": "how-to-guides",
-				"impressions": 1,
-				"outCount": 11
+				"impressions": 0,
+				"outCount": 5
 			},
-			"line": 182,
+			"line": 480,
 			"anchor": "cheat",
 			"phrase": "cheat",
 			"phraseKind": "gsc",
 			"mentionScore": 1.5,
-			"excerpt": "Why does this matter? Because many people who struggle to name emotions _can_ notice physical sensations. Your body is the cheat sheet your brain never got."
+			"excerpt": "Use this as a cheat sheet once you've gathered observations. **Want to go deeper?** Master [the first impression playbook for each Enneagram type](/enneagram-corner/first-impression-enneagram-playbook) to identify patter…"
 		},
 		{
 			"id": "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide -> /enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
@@ -914,87 +482,6 @@
 			"excerpt": "**The hidden patterns:** ADHD medication abuse, gambling for the excitement, and sex addiction for novelty. Type 7s often have three or four addictions running simultaneously."
 		},
 		{
-			"id": "/enneagram-corner/enneagram-concepts -> /enneagram-corner/enneagram-social-styles",
-			"score": 2.14,
-			"target": {
-				"url": "/enneagram-corner/enneagram-social-styles",
-				"title": "Enneagram Social Styles: The Hornevian Triads, Decoded",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 316,
-				"clicks": 0,
-				"position": 9.6,
-				"inbound": 3
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-concepts",
-				"file": "src/blog/enneagram/enneagram-concepts.md",
-				"section": "enneagram-corner",
-				"impressions": 479,
-				"outCount": 23
-			},
-			"line": 121,
-			"anchor": "Triads",
-			"phrase": "triads",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "Triads are ways of categorizing the nine Enneagram types into groups of three, each offering a different perspective on how personalities operate:"
-		},
-		{
-			"id": "/enneagram-corner/enneagram-party-planner -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
-			"score": 2.13,
-			"target": {
-				"url": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
-				"title": "John Coogan and Jordi Hays Built TBPN by Wanting Different Things",
-				"kind": "blog",
-				"section": "pop-culture",
-				"impressions": 225,
-				"clicks": 1,
-				"position": 9.3,
-				"inbound": 3
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-party-planner",
-				"file": "src/blog/enneagram/enneagram-party-planner.md",
-				"section": "enneagram-corner",
-				"impressions": 53,
-				"outCount": 8
-			},
-			"line": 76,
-			"anchor": "host",
-			"phrase": "host",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "**The invite that works:** \"I really need your help pulling this off. You're the only person I trust to make sure guests feel welcome. Can you help me co-host?\""
-		},
-		{
-			"id": "/enneagram-corner/what-is-a-love-language -> /enneagram-corner/mental-health/enneagram-science-mental-health",
-			"score": 2.12,
-			"target": {
-				"url": "/enneagram-corner/mental-health/enneagram-science-mental-health",
-				"title": "Is the Enneagram Scientifically Valid? What Research Says",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 4400,
-				"clicks": 5,
-				"position": 9.6,
-				"inbound": 16
-			},
-			"source": {
-				"url": "/enneagram-corner/what-is-a-love-language",
-				"file": "src/blog/enneagram/what-is-a-love-language.md",
-				"section": "enneagram-corner",
-				"impressions": 0,
-				"outCount": 7
-			},
-			"line": 205,
-			"anchor": "Peer-reviewed research",
-			"phrase": "peer-reviewed research",
-			"phraseKind": "curated",
-			"mentionScore": 3,
-			"excerpt": "**Peer-reviewed research.** In 2025, psychologist Sharon Flicker and colleagues rebuilt a love-language questionnaire from the bottom up across three U.S. samples of people in long-term relationships (696, 500, and 499 p…"
-		},
-		{
 			"id": "/enneagram-corner/enneagram-and-adhd-which-types-struggle-most -> /enneagram-corner/mental-health/enneagram-neurodivergence-guide",
 			"score": 2.1,
 			"target": {
@@ -1022,62 +509,89 @@
 			"excerpt": "Type 7 (The Enthusiast) shows the highest correlation with ADHD symptoms, but every Enneagram type can have ADHD. And each experiences it differently. Your personality type shapes how ADHD manifests and which coping stra…"
 		},
 		{
-			"id": "/pop-culture/google-leadership-evolution -> /enneagram-corner/enneagram-and-religion",
-			"score": 2.09,
-			"target": {
-				"url": "/enneagram-corner/enneagram-and-religion",
-				"title": "Is the Enneagram Religious? (The Truth About Its Spiritual Origins)",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 1382,
-				"clicks": 10,
-				"position": 27,
-				"inbound": 3
-			},
-			"source": {
-				"url": "/pop-culture/google-leadership-evolution",
-				"file": "src/blog/pop-culture/google-leadership-evolution.md",
-				"section": "pop-culture",
-				"impressions": 804,
-				"outCount": 15
-			},
-			"line": 193,
-			"anchor": "Christopher",
-			"phrase": "christian",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "The pressure leading up to it complicates the read. In November 2022, Christopher Hohn — head of activist hedge fund TCI Fund Management — sent Pichai a public letter demanding Google cut headcount and \"aggressive action…"
-		},
-		{
-			"id": "/pop-culture/epstein-psychology-part-1 -> /enneagram-corner/enneagram-and-religion",
+			"id": "/enneagram-corner/first-impression-enneagram-playbook -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
 			"score": 2.02,
 			"target": {
-				"url": "/enneagram-corner/enneagram-and-religion",
-				"title": "Is the Enneagram Religious? (The Truth About Its Spiritual Origins)",
+				"url": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+				"title": "John Coogan and Jordi Hays Built TBPN by Wanting Different Things",
 				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 1382,
-				"clicks": 10,
-				"position": 27,
+				"section": "pop-culture",
+				"impressions": 225,
+				"clicks": 1,
+				"position": 9.3,
 				"inbound": 3
 			},
 			"source": {
-				"url": "/pop-culture/epstein-psychology-part-1",
-				"file": "src/blog/pop-culture/epstein-psychology-part-1.md",
-				"section": "pop-culture",
-				"impressions": 489,
-				"outCount": 10
+				"url": "/enneagram-corner/first-impression-enneagram-playbook",
+				"file": "src/blog/enneagram/first-impression-enneagram-playbook.md",
+				"section": "enneagram-corner",
+				"impressions": 25,
+				"outCount": 16
 			},
-			"line": 455,
-			"anchor": "religious",
-			"phrase": "religion",
+			"line": 161,
+			"anchor": "host",
+			"phrase": "host",
 			"phraseKind": "gsc",
 			"mentionScore": 1.5,
-			"excerpt": "This wasn't religious identity. Epstein showed no evidence of Jewish observance or community. As the University of Maryland's _Mitzpeh_ noted, he was \"deeply untethered from traditional Jewish values.\" ([UMD Mitzpeh](htt…"
+			"excerpt": "- Retire the script early. \"How do you know the host?\" is a wall. \"You look like you're having a complicated relationship with this party\" is a door."
 		},
 		{
-			"id": "/how-to-guides/using-the-enneagram-for-self-development -> /enneagram-corner/enneagram-test-comparison-2026",
+			"id": "/enneagram-corner/enneagram-online-dating-guide -> /enneagram-corner/enneagram-compatibility-matrix",
+			"score": 2,
+			"target": {
+				"url": "/enneagram-corner/enneagram-compatibility-matrix",
+				"title": "The Complete Enneagram Compatibility Matrix: All 45 Type Pairings Decoded",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 8180,
+				"clicks": 89,
+				"position": 13.4,
+				"inbound": 21
+			},
+			"source": {
+				"url": "/enneagram-corner/enneagram-online-dating-guide",
+				"file": "src/blog/enneagram/enneagram-online-dating-guide.md",
+				"section": "enneagram-corner",
+				"impressions": 0,
+				"outCount": 6
+			},
+			"line": 451,
+			"anchor": "Compatibility",
+			"phrase": "compatibility",
+			"phraseKind": "curated",
+			"mentionScore": 3,
+			"excerpt": "…ize for the _right_ matches. A profile that gets 30 swipes from compatible women is infinitely better than one that gets 300 from women who'll ghost after one date. Volume is a vanity metric. Compatibility is a real one."
+		},
+		{
+			"id": "/enneagram-corner/astrology-and-the-enneagram -> /enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
 			"score": 1.99,
+			"target": {
+				"url": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+				"title": "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 160,
+				"clicks": 2,
+				"position": 16.6,
+				"inbound": 9
+			},
+			"source": {
+				"url": "/enneagram-corner/astrology-and-the-enneagram",
+				"file": "src/blog/enneagram/astrology-and-the-enneagram.md",
+				"section": "enneagram-corner",
+				"impressions": 10859,
+				"outCount": 15
+			},
+			"line": 90,
+			"anchor": "next thing",
+			"phrase": "next thing",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "…ou're a [Type 7](/enneagram-corner/enneagram-type-7). If freedom means nobody tells you what to do, look at [Type 8](/enneagram-corner/enneagram-type-8). The tell: 7s run toward the next thing. 8s refuse to be held back."
+		},
+		{
+			"id": "/enneagram-corner/enneagram-social-styles -> /enneagram-corner/enneagram-test-comparison-2026",
+			"score": 1.95,
 			"target": {
 				"url": "/enneagram-corner/enneagram-test-comparison-2026",
 				"title": "Best Free Enneagram Tests (2026): An Honest Comparison",
@@ -1089,48 +603,507 @@
 				"inbound": 7
 			},
 			"source": {
-				"url": "/how-to-guides/using-the-enneagram-for-self-development",
-				"file": "src/blog/guides/using-the-enneagram-for-self-development.md",
-				"section": "how-to-guides",
-				"impressions": 22,
-				"outCount": 11
+				"url": "/enneagram-corner/enneagram-social-styles",
+				"file": "src/blog/enneagram/enneagram-social-styles.md",
+				"section": "enneagram-corner",
+				"impressions": 316,
+				"outCount": 3
 			},
-			"line": 247,
-			"anchor": "eclectic",
-			"phrase": "eclectic",
+			"line": 239,
+			"anchor": "variants",
+			"phrase": "variant",
 			"phraseKind": "gsc",
 			"mentionScore": 1.5,
-			"excerpt": "…ous wisdom traditions. Whether you're following a specific faith path or a more eclectic spiritual journey, the Enneagram can deepen your understanding of both yourself and your spiritual practice. Check out our explorat…"
+			"excerpt": "…rticle — the Hornevian groups. \"Social Subtype\" is one of the three instinctual variants (the one that focuses on group, status, and belonging). A Self-preservation 4 is still socially **Withdrawn**. Same person, differe…"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-and-adhd-which-types-struggle-most -> /enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types",
+			"score": 1.95,
+			"target": {
+				"url": "/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types",
+				"title": "Why Dating Apps Are Harder for Certain Personality Types",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 868,
+				"clicks": 11,
+				"position": 10.9,
+				"inbound": 8
+			},
+			"source": {
+				"url": "/enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
+				"file": "src/blog/enneagram/enneagram-and-adhd-which-types-struggle-most.md",
+				"section": "enneagram-corner",
+				"impressions": 4121,
+				"outCount": 22
+			},
+			"line": 176,
+			"anchor": "apps",
+			"phrase": "apps",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "- External organization systems (apps, planners, timers) that compensate for internal chaos"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-science-mental-health -> /pop-culture/dark-triad-meets-enneagram",
+			"score": 1.95,
+			"target": {
+				"url": "/pop-culture/dark-triad-meets-enneagram",
+				"title": "Dark Triad Celebrities and the Enneagram: What We Can Actually Say",
+				"kind": "blog",
+				"section": "pop-culture",
+				"impressions": 154,
+				"clicks": 1,
+				"position": 6.1,
+				"inbound": 7
+			},
+			"source": {
+				"url": "/enneagram-corner/mental-health/enneagram-science-mental-health",
+				"file": "src/blog/enneagram/mental-health/enneagram-science-mental-health.md",
+				"section": "enneagram-corner",
+				"impressions": 4400,
+				"outCount": 6
+			},
+			"line": 60,
+			"anchor": "literature",
+			"phrase": "literature",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "That table is less exciting than a brain-scan headline. It is also much closer to what the literature says."
+		},
+		{
+			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /pop-culture/google-leadership-evolution",
+			"score": 1.95,
+			"target": {
+				"url": "/pop-culture/google-leadership-evolution",
+				"title": "Google's Three Personality Eras: Why the Founders Had to Come Back",
+				"kind": "blog",
+				"section": "pop-culture",
+				"impressions": 804,
+				"clicks": 3,
+				"position": 11.6,
+				"inbound": 4
+			},
+			"source": {
+				"url": "/enneagram-corner/what-enneagram-type-are-most-ceos",
+				"file": "src/blog/enneagram/what-enneagram-type-are-most-ceos.md",
+				"section": "enneagram-corner",
+				"impressions": 0,
+				"outCount": 75
+			},
+			"line": 145,
+			"anchor": "Sergey",
+			"phrase": "sergey",
+			"phraseKind": "gsc",
+			"mentionScore": 3,
+			"excerpt": "A few founder-CEOs never held the CEO title itself. Sergey Brin led Google as co-founder and president, James Dyson runs his company as owner, chairman and chief engineer, and Palmer Luckey founded Oculus and co-founded …"
+		},
+		{
+			"id": "/pop-culture/fallen-founders-enneagram-analysis -> /pop-culture/tech-titans-enneagram-analysis",
+			"score": 1.95,
+			"target": {
+				"url": "/pop-culture/tech-titans-enneagram-analysis",
+				"title": "Tech Titans Through the Enneagram: A Series on the Personality Types Shaping the Future",
+				"kind": "blog",
+				"section": "pop-culture",
+				"impressions": 240,
+				"clicks": 6,
+				"position": 9.1,
+				"inbound": 5
+			},
+			"source": {
+				"url": "/pop-culture/fallen-founders-enneagram-analysis",
+				"file": "src/blog/pop-culture/fallen-founders-enneagram-analysis.md",
+				"section": "pop-culture",
+				"impressions": 87,
+				"outCount": 24
+			},
+			"line": 226,
+			"anchor": "Tech Titans",
+			"phrase": "tech titan",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": ">This post is part of the Tech Titans Through the Enneagram series. See also"
+		},
+		{
+			"id": "/enneagram-corner/astrology-and-the-enneagram -> /enneagram-corner/first-impression-enneagram-playbook",
+			"score": 1.94,
+			"target": {
+				"url": "/enneagram-corner/first-impression-enneagram-playbook",
+				"title": "Enneagram First Impressions: What Each Type Is Scanning For",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 25,
+				"clicks": 0,
+				"position": 11.9,
+				"inbound": 4
+			},
+			"source": {
+				"url": "/enneagram-corner/astrology-and-the-enneagram",
+				"file": "src/blog/enneagram/astrology-and-the-enneagram.md",
+				"section": "enneagram-corner",
+				"impressions": 10859,
+				"outCount": 15
+			},
+			"line": 201,
+			"anchor": "first impression",
+			"phrase": "first impression",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "Your rising sign is the first impression of your type. A Type 5 with Leo rising appears warm and charismatic in social situations, which surprises people who later discover the 5's deep need for solitude. A Type 2 with C…"
+		},
+		{
+			"id": "/pop-culture/incel-blackpill-radicalization-enneagram -> /enneagram-corner/first-impression-enneagram-playbook",
+			"score": 1.93,
+			"target": {
+				"url": "/enneagram-corner/first-impression-enneagram-playbook",
+				"title": "Enneagram First Impressions: What Each Type Is Scanning For",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 25,
+				"clicks": 0,
+				"position": 11.9,
+				"inbound": 4
+			},
+			"source": {
+				"url": "/pop-culture/incel-blackpill-radicalization-enneagram",
+				"file": "src/blog/pop-culture/incel-blackpill-radicalization-enneagram.md",
+				"section": "pop-culture",
+				"impressions": 382,
+				"outCount": 4
+			},
+			"line": 57,
+			"anchor": "first impressions",
+			"phrase": "first impression",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "Some pieces of that story touch real problems. Looks can affect first impressions. Family wealth"
+		},
+		{
+			"id": "/pop-culture/google-leadership-evolution -> /enneagram-corner/toxic-traits-of-each-enneagram-type",
+			"score": 1.91,
+			"target": {
+				"url": "/enneagram-corner/toxic-traits-of-each-enneagram-type",
+				"title": "Toxic Traits of Each Enneagram Type (and Which One Is the Worst)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 5702,
+				"clicks": 75,
+				"position": 10.5,
+				"inbound": 18
+			},
+			"source": {
+				"url": "/pop-culture/google-leadership-evolution",
+				"file": "src/blog/pop-culture/google-leadership-evolution.md",
+				"section": "pop-culture",
+				"impressions": 804,
+				"outCount": 15
+			},
+			"line": 118,
+			"anchor": "Evil",
+			"phrase": "evil",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "The founder lab also produced the company's most-quoted three words: \"Don't Be Evil.\" It got told later as Silicon Valley sloganeering. In Brin's mouth it was specific autobiography — a Soviet-Jewish refugee whose father…"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-faqs -> /pop-culture/tech-titans-leadership-styles",
+			"score": 1.9,
+			"target": {
+				"url": "/pop-culture/tech-titans-leadership-styles",
+				"title": "Tech Leadership by Personality Type: How Each Enneagram Type Runs a Company",
+				"kind": "blog",
+				"section": "pop-culture",
+				"impressions": 484,
+				"clicks": 7,
+				"position": 10.5,
+				"inbound": 7
+			},
+			"source": {
+				"url": "/enneagram-corner/enneagram-faqs",
+				"file": "src/blog/enneagram/enneagram-faqs.md",
+				"section": "enneagram-corner",
+				"impressions": 0,
+				"outCount": 17
+			},
+			"line": 306,
+			"anchor": "leadership style",
+			"phrase": "leadership style",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "- Improve leadership style"
+		},
+		{
+			"id": "/pop-culture/podcaster-personality-map -> /enneagram-corner/enneagram-types-and-career-choices",
+			"score": 1.88,
+			"target": {
+				"url": "/enneagram-corner/enneagram-types-and-career-choices",
+				"title": "Why You Hate Your Job (It's Not the Boss, It's Your Enneagram Type)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 1889,
+				"clicks": 18,
+				"position": 14.8,
+				"inbound": 9
+			},
+			"source": {
+				"url": "/pop-culture/podcaster-personality-map",
+				"file": "src/blog/pop-culture/podcaster-personality-map.md",
+				"section": "pop-culture",
+				"impressions": 60,
+				"outCount": 14
+			},
+			"line": 69,
+			"anchor": "careers",
+			"phrase": "careers",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "…are editorial interpretations of public work and behavior rather than clinical assessments. Claims about shows, careers, and deals require a first-party source or reputable reporting; none of those facts proves a typing."
+		},
+		{
+			"id": "/pop-culture/tech-titans-disruptors -> /pop-culture/tech-titans-ai-wars",
+			"score": 1.88,
+			"target": {
+				"url": "/pop-culture/tech-titans-ai-wars",
+				"title": "The AI Wars: Why Personality Types Determine Who Gets to Build God",
+				"kind": "blog",
+				"section": "pop-culture",
+				"impressions": 983,
+				"clicks": 6,
+				"position": 9,
+				"inbound": 8
+			},
+			"source": {
+				"url": "/pop-culture/tech-titans-disruptors",
+				"file": "src/blog/pop-culture/tech-titans-disruptors.md",
+				"section": "pop-culture",
+				"impressions": 42,
+				"outCount": 10
+			},
+			"line": 42,
+			"anchor": "Elon Musk",
+			"phrase": "elon musk",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "…Type 8) broke the taxi industry through raw aggression, and got broken himself. Elon Musk (Type 5) decoded automotive, aerospace, and social media as systems to master. Three 8s and a 5. The 8s broke industries through f…"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-medication-mental-health -> /enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
+			"score": 1.87,
+			"target": {
+				"url": "/enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
+				"title": "Enneagram and ADHD: Which Types Struggle Most (And Why)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 4121,
+				"clicks": 244,
+				"position": 5.2,
+				"inbound": 9
+			},
+			"source": {
+				"url": "/enneagram-corner/mental-health/enneagram-medication-mental-health",
+				"file": "src/blog/enneagram/mental-health/enneagram-medication-mental-health.md",
+				"section": "enneagram-corner",
+				"impressions": 282,
+				"outCount": 10
+			},
+			"line": 535,
+			"anchor": "ADHD",
+			"phrase": "adhd",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "_\"I avoided medication because I thought it would cage me. ADHD meds changed everything. I still have enthusiasm, but I can actually FINISH things. Mood stabilizers helped me realize: true joy comes from depth, not just …"
+		},
+		{
+			"id": "/enneagram-corner/relationship-communication-guide -> /pop-culture/dark-triad-meets-enneagram",
+			"score": 1.86,
+			"target": {
+				"url": "/pop-culture/dark-triad-meets-enneagram",
+				"title": "Dark Triad Celebrities and the Enneagram: What We Can Actually Say",
+				"kind": "blog",
+				"section": "pop-culture",
+				"impressions": 154,
+				"clicks": 1,
+				"position": 6.1,
+				"inbound": 7
+			},
+			"source": {
+				"url": "/enneagram-corner/relationship-communication-guide",
+				"file": "src/blog/enneagram/relationship-communication-guide.md",
+				"section": "enneagram-corner",
+				"impressions": 2122,
+				"outCount": 24
+			},
+			"line": 244,
+			"anchor": "literature",
+			"phrase": "literature",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "Identity, meaningful experiences, art, music, literature, and the deeper significance behind everyday occurrences. They treasure conversations that reveal the beauty in melancholy or complexity in simple moments."
+		},
+		{
+			"id": "/pop-culture/ghislaine-maxwell-psychology -> /enneagram-corner/enneagram-and-mental-illness",
+			"score": 1.84,
+			"target": {
+				"url": "/enneagram-corner/enneagram-and-mental-illness",
+				"title": "The Enneagram and Mental Illness: Understand Each Type's Predispositions",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 11948,
+				"clicks": 305,
+				"position": 9.7,
+				"inbound": 24
+			},
+			"source": {
+				"url": "/pop-culture/ghislaine-maxwell-psychology",
+				"file": "src/blog/pop-culture/ghislaine-maxwell-psychology.md",
+				"section": "pop-culture",
+				"impressions": 1051,
+				"outCount": 6
+			},
+			"line": 96,
+			"anchor": "narcissistic",
+			"phrase": "narcissist",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "…ia tycoon, served in Parliament, and built a publishing empire worth billions. He was also, according to biographer Tom Bower, \"untamable, dangerous, unpredictable... physically huge, brutal, narcissistic, and sadistic.\""
+		},
+		{
+			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /pop-culture/tech-titans-disruptors",
+			"score": 1.84,
+			"target": {
+				"url": "/pop-culture/tech-titans-disruptors",
+				"title": "The Disruptors: Why Type 8s Break Industries and Type 5s Decode Them",
+				"kind": "blog",
+				"section": "pop-culture",
+				"impressions": 42,
+				"clicks": 0,
+				"position": 7.4,
+				"inbound": 3
+			},
+			"source": {
+				"url": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+				"file": "src/blog/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md",
+				"section": "pop-culture",
+				"impressions": 225,
+				"outCount": 9
+			},
+			"line": 235,
+			"anchor": "Elon Musk",
+			"phrase": "elon musk",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "…ne of the strongest lineups they had ever booked. It was also the day Trump and Elon Musk publicly fell out, and the live chat could talk about nothing else. Mid-show, the hosts canceled the interviews and followed the f…"
+		},
+		{
+			"id": "/community/societal-ticking-time-bombs -> /enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
+			"score": 1.81,
+			"target": {
+				"url": "/enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
+				"title": "Enneagram and ADHD: Which Types Struggle Most (And Why)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 4121,
+				"clicks": 244,
+				"position": 5.2,
+				"inbound": 9
+			},
+			"source": {
+				"url": "/community/societal-ticking-time-bombs",
+				"file": "src/blog/community/societal-ticking-time-bombs.md",
+				"section": "community",
+				"impressions": 7,
+				"outCount": 6
+			},
+			"line": 365,
+			"anchor": "ADHD",
+			"phrase": "adhd",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "And look what's happening with ADHD. Diagnoses among US children rose sharply -- [from 6.1% in 1997 to 10.2% in 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6324288/). Everyone treats this as a crisis. But a [2024 pape…"
+		},
+		{
+			"id": "/pop-culture/google-leadership-evolution -> /enneagram-corner/enneagram-and-mental-illness",
+			"score": 1.81,
+			"target": {
+				"url": "/enneagram-corner/enneagram-and-mental-illness",
+				"title": "The Enneagram and Mental Illness: Understand Each Type's Predispositions",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 11948,
+				"clicks": 305,
+				"position": 9.7,
+				"inbound": 24
+			},
+			"source": {
+				"url": "/pop-culture/google-leadership-evolution",
+				"file": "src/blog/pop-culture/google-leadership-evolution.md",
+				"section": "pop-culture",
+				"impressions": 804,
+				"outCount": 15
+			},
+			"line": 112,
+			"anchor": "disorder",
+			"phrase": "disorders",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "Brin's contribution to the founder lab was the disorder. Eric Schmidt, telling the AdSense origin story years later:"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-2 -> /enneagram-corner/enneagram-and-religion",
+			"score": 1.81,
+			"target": {
+				"url": "/enneagram-corner/enneagram-and-religion",
+				"title": "Is the Enneagram Religious? (The Truth About Its Spiritual Origins)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 1382,
+				"clicks": 10,
+				"position": 27,
+				"inbound": 3
+			},
+			"source": {
+				"url": "/pop-culture/epstein-psychology-part-2",
+				"file": "src/blog/pop-culture/epstein-psychology-part-2.md",
+				"section": "pop-culture",
+				"impressions": 122,
+				"outCount": 3
+			},
+			"line": 235,
+			"anchor": "Christmas",
+			"phrase": "christian",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "…n: \"What day/night will be the wildest party on your island?\" A month later, on Christmas morning: \"I've been working to the edge of sanity this year... I really want to hit the party scene... and let loose.\" When Epstei…"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-books-websites-podcasts -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"score": 1.8,
+			"target": {
+				"url": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+				"title": "John Coogan and Jordi Hays Built TBPN by Wanting Different Things",
+				"kind": "blog",
+				"section": "pop-culture",
+				"impressions": 225,
+				"clicks": 1,
+				"position": 9.3,
+				"inbound": 3
+			},
+			"source": {
+				"url": "/enneagram-corner/enneagram-books-websites-podcasts",
+				"file": "src/blog/enneagram/enneagram-books-websites-podcasts.md",
+				"section": "enneagram-corner",
+				"impressions": 102,
+				"outCount": 37
+			},
+			"line": 161,
+			"anchor": "Hosts",
+			"phrase": "host",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "…tionalenneagram.org/\">International Enneagram Association</a> (IEA): The professional body for Enneagram practitioners. Hosts global conferences, maintains accreditation standards, and publishes the Nine Points magazine."
 		}
 	],
 	"peopleBridge": [
-		{
-			"id": "/community/be-gentle-when-youre-right -> /personality-analysis/jimmy-fallon",
-			"score": 8.43,
-			"target": {
-				"url": "/personality-analysis/jimmy-fallon",
-				"title": "Jimmy Fallon",
-				"kind": "person",
-				"section": "people",
-				"impressions": 636,
-				"clicks": 2,
-				"position": 8,
-				"inbound": 0
-			},
-			"source": {
-				"url": "/community/be-gentle-when-youre-right",
-				"file": "src/blog/community/be-gentle-when-youre-right.md",
-				"section": "community",
-				"impressions": 0,
-				"outCount": 8
-			},
-			"line": 232,
-			"anchor": "Jimmy Fallon",
-			"phrase": "Jimmy Fallon",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "… to never apologize and to never admit wrongdoing.\" Trump's own version came on Jimmy Fallon's show in 2015. \"I fully think apologizing is a great thing,\" he said, and the studio audience applauded when he added, \"But yo…"
-		},
 		{
 			"id": "/community/societal-ticking-time-bombs -> /personality-analysis/greta-thunberg",
 			"score": 5.91,
@@ -1176,7 +1149,7 @@
 				"file": "src/blog/pop-culture/podcaster-personality-map.md",
 				"section": "pop-culture",
 				"impressions": 60,
-				"outCount": 13
+				"outCount": 14
 			},
 			"line": 62,
 			"anchor": "Alex Cooper",
@@ -1203,7 +1176,7 @@
 				"file": "src/blog/pop-culture/podcaster-personality-map.md",
 				"section": "pop-culture",
 				"impressions": 60,
-				"outCount": 13
+				"outCount": 14
 			},
 			"line": 80,
 			"anchor": "Dave Portnoy",
@@ -1213,278 +1186,8 @@
 			"excerpt": "**Joe Rogan. Dave Portnoy. [Sam Parr](/personality-analysis/sam-parr).**"
 		},
 		{
-			"id": "/pop-culture/artificial-movie-real-people -> /personality-analysis/lex-fridman",
-			"score": 5.41,
-			"target": {
-				"url": "/personality-analysis/lex-fridman",
-				"title": "Lex Fridman",
-				"kind": "person",
-				"section": "people",
-				"impressions": 1317,
-				"clicks": 17,
-				"position": 12.1,
-				"inbound": 2
-			},
-			"source": {
-				"url": "/pop-culture/artificial-movie-real-people",
-				"file": "src/blog/pop-culture/artificial-movie-real-people.md",
-				"section": "pop-culture",
-				"impressions": 0,
-				"outCount": 10
-			},
-			"line": 174,
-			"anchor": "Lex Fridman",
-			"phrase": "Lex Fridman",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "…ted that it felt \"sorta like reading your own eulogy while you're still alive.\" Months later, he told Lex Fridman it had been \"the most painful professional experience of my life, and chaotic and shameful and upsetting.\""
-		},
-		{
-			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /personality-analysis/kara-swisher",
-			"score": 5.3,
-			"target": {
-				"url": "/personality-analysis/kara-swisher",
-				"title": "Kara Swisher",
-				"kind": "person",
-				"section": "people",
-				"impressions": 3391,
-				"clicks": 30,
-				"position": 8.1,
-				"inbound": 0
-			},
-			"source": {
-				"url": "/enneagram-corner/what-enneagram-type-are-most-ceos",
-				"file": "src/blog/enneagram/what-enneagram-type-are-most-ceos.md",
-				"section": "enneagram-corner",
-				"impressions": 0,
-				"outCount": 73
-			},
-			"line": 343,
-			"anchor": "Kara Swisher",
-			"phrase": "Kara Swisher",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "- Type 8: Kara Swisher, Scott Galloway"
-		},
-		{
-			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /personality-analysis/mark-zuckerberg",
-			"score": 5.23,
-			"target": {
-				"url": "/personality-analysis/mark-zuckerberg",
-				"title": "Mark Zuckerberg",
-				"kind": "person",
-				"section": "people",
-				"impressions": 1512,
-				"clicks": 4,
-				"position": 12,
-				"inbound": 5
-			},
-			"source": {
-				"url": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
-				"file": "src/blog/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md",
-				"section": "pop-culture",
-				"impressions": 225,
-				"outCount": 8
-			},
-			"line": 187,
-			"anchor": "Mark Zuckerberg",
-			"phrase": "Mark Zuckerberg",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "Less than a year later, they sat at Meta's campus interviewing Mark Zuckerberg about the next Ray-Bans. The tiny room had become a set. The speculative friendship had become an institution."
-		},
-		{
-			"id": "/pop-culture/podcaster-personality-map -> /personality-analysis/krystal-ball",
-			"score": 5.16,
-			"target": {
-				"url": "/personality-analysis/krystal-ball",
-				"title": "Krystal Ball",
-				"kind": "person",
-				"section": "people",
-				"impressions": 92,
-				"clicks": 3,
-				"position": 16.4,
-				"inbound": 1
-			},
-			"source": {
-				"url": "/pop-culture/podcaster-personality-map",
-				"file": "src/blog/pop-culture/podcaster-personality-map.md",
-				"section": "pop-culture",
-				"impressions": 60,
-				"outCount": 13
-			},
-			"line": 213,
-			"anchor": "Krystal Ball",
-			"phrase": "Krystal Ball",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "…ars on [Breaking Points](/pop-culture/breaking-points-enneagram-analysis), with Krystal Ball typed as a 1 and Saagar Enjeti as a 7. The 7 opens the aperture; the grounding type pressure-tests what comes through. Their te…"
-		},
-		{
-			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/alex-cooper",
-			"score": 5.02,
-			"target": {
-				"url": "/personality-analysis/alex-cooper",
-				"title": "Alex Cooper",
-				"kind": "person",
-				"section": "people",
-				"impressions": 589,
-				"clicks": 1,
-				"position": 11.5,
-				"inbound": 2
-			},
-			"source": {
-				"url": "/pop-culture/podcast-bros-enneagram-analysis",
-				"file": "src/blog/pop-culture/podcast-bros-enneagram-analysis.md",
-				"section": "pop-culture",
-				"impressions": 5,
-				"outCount": 11
-			},
-			"line": 63,
-			"anchor": "Alex Cooper",
-			"phrase": "Alex Cooper",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "…der landscape of how personality type maps across the entire podcasting ecosystem—including Alex Cooper, Theo Von, Howard Stern, and more—check out [The Podcaster Personality Map](/pop-culture/podcaster-personality-map)."
-		},
-		{
-			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /personality-analysis/emma-chamberlain",
-			"score": 4.91,
-			"target": {
-				"url": "/personality-analysis/emma-chamberlain",
-				"title": "Emma Chamberlain",
-				"kind": "person",
-				"section": "people",
-				"impressions": 1875,
-				"clicks": 10,
-				"position": 13,
-				"inbound": 0
-			},
-			"source": {
-				"url": "/enneagram-corner/what-enneagram-type-are-most-ceos",
-				"file": "src/blog/enneagram/what-enneagram-type-are-most-ceos.md",
-				"section": "enneagram-corner",
-				"impressions": 0,
-				"outCount": 73
-			},
-			"line": 340,
-			"anchor": "Emma Chamberlain",
-			"phrase": "Emma Chamberlain",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "- Type 4: Emma Chamberlain"
-		},
-		{
-			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /personality-analysis/paul-graham",
-			"score": 4.75,
-			"target": {
-				"url": "/personality-analysis/paul-graham",
-				"title": "Paul Graham",
-				"kind": "person",
-				"section": "people",
-				"impressions": 219,
-				"clicks": 0,
-				"position": 8.6,
-				"inbound": 3
-			},
-			"source": {
-				"url": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
-				"file": "src/blog/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md",
-				"section": "pop-culture",
-				"impressions": 225,
-				"outCount": 8
-			},
-			"line": 227,
-			"anchor": "Paul Graham",
-			"phrase": "Paul Graham",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "…. He studied economics, graduated into the post-crisis finance track, then read Paul Graham's essays and Hacker News and redirected toward startups. His stated reason for not joining a large technology company is a Seven…"
-		},
-		{
-			"id": "/community/societal-ticking-time-bombs -> /personality-analysis/george-w-bush",
-			"score": 4.73,
-			"target": {
-				"url": "/personality-analysis/george-w-bush",
-				"title": "George W. Bush",
-				"kind": "person",
-				"section": "people",
-				"impressions": 373,
-				"clicks": 0,
-				"position": 10.2,
-				"inbound": 2
-			},
-			"source": {
-				"url": "/community/societal-ticking-time-bombs",
-				"file": "src/blog/community/societal-ticking-time-bombs.md",
-				"section": "community",
-				"impressions": 7,
-				"outCount": 6
-			},
-			"line": 610,
-			"anchor": "George W. Bush",
-			"phrase": "George W. Bush",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "- George W. Bush Presidential Center. [Mississippi's Reading Revolution](https://www.bushcenter.org/catalyst/the-fix/mississippis-reading-revolution)."
-		},
-		{
-			"id": "/enneagram-corner/enneagram-leadership -> /personality-analysis/steve-jobs",
-			"score": 4.52,
-			"target": {
-				"url": "/personality-analysis/steve-jobs",
-				"title": "Steve Jobs",
-				"kind": "person",
-				"section": "people",
-				"impressions": 690,
-				"clicks": 6,
-				"position": 14.8,
-				"inbound": 6
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-leadership",
-				"file": "src/blog/enneagram/enneagram-leadership.md",
-				"section": "enneagram-corner",
-				"impressions": 394,
-				"outCount": 10
-			},
-			"line": 170,
-			"anchor": "Steve Jobs",
-			"phrase": "Steve Jobs",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "**Reality Check:** Has your mood determined a meeting's outcome this week? Steve Jobs built Apple into a trillion-dollar company, but his emotional volatility drove away talent who could have contributed even more. Your …"
-		},
-		{
-			"id": "/enneagram-corner/enneagram-leadership -> /personality-analysis/bill-gates",
-			"score": 4.39,
-			"target": {
-				"url": "/personality-analysis/bill-gates",
-				"title": "Bill Gates",
-				"kind": "person",
-				"section": "people",
-				"impressions": 882,
-				"clicks": 5,
-				"position": 9,
-				"inbound": 7
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-leadership",
-				"file": "src/blog/enneagram/enneagram-leadership.md",
-				"section": "enneagram-corner",
-				"impressions": 394,
-				"outCount": 10
-			},
-			"line": 191,
-			"anchor": "Bill Gates",
-			"phrase": "Bill Gates",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "**Reality Check:** When did you last have lunch with your team? Bill Gates evolved his [leadership style](/pop-culture/tech-titans-leadership-styles) over decades. Microsoft's culture shifted when he learned to pair tech…"
-		},
-		{
-			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/theo-von",
-			"score": 4.37,
+			"id": "/pop-culture/podcaster-personality-map -> /personality-analysis/theo-von",
+			"score": 5.07,
 			"target": {
 				"url": "/personality-analysis/theo-von",
 				"title": "Theo Von",
@@ -1496,18 +1199,45 @@
 				"inbound": 2
 			},
 			"source": {
-				"url": "/pop-culture/podcast-bros-enneagram-analysis",
-				"file": "src/blog/pop-culture/podcast-bros-enneagram-analysis.md",
+				"url": "/pop-culture/podcaster-personality-map",
+				"file": "src/blog/pop-culture/podcaster-personality-map.md",
 				"section": "pop-culture",
-				"impressions": 5,
-				"outCount": 11
+				"impressions": 60,
+				"outCount": 14
 			},
-			"line": 63,
+			"line": 128,
 			"anchor": "Theo Von",
 			"phrase": "Theo Von",
 			"phraseKind": "name",
 			"mentionScore": 3,
-			"excerpt": "…der landscape of how personality type maps across the entire podcasting ecosystem—including Alex Cooper, Theo Von, Howard Stern, and more—check out [The Podcaster Personality Map](/pop-culture/podcaster-personality-map)."
+			"excerpt": "**Alex Cooper. Theo Von. Dax Shepard. [Brittany Broski](/personality-analysis/brittany-broski). Shaan Puri.**"
+		},
+		{
+			"id": "/enneagram-corner/how-type-8-challengers-actually-succeed -> /personality-analysis/alex-cooper",
+			"score": 4.81,
+			"target": {
+				"url": "/personality-analysis/alex-cooper",
+				"title": "Alex Cooper",
+				"kind": "person",
+				"section": "people",
+				"impressions": 589,
+				"clicks": 1,
+				"position": 11.5,
+				"inbound": 2
+			},
+			"source": {
+				"url": "/enneagram-corner/how-type-8-challengers-actually-succeed",
+				"file": "src/blog/enneagram/how-type-8-challengers-actually-succeed.md",
+				"section": "enneagram-corner",
+				"impressions": 0,
+				"outCount": 22
+			},
+			"line": 124,
+			"anchor": "Alex Cooper",
+			"phrase": "Alex Cooper",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "- **Portnoy**: Big Cat, KFC, Alex Cooper. Barstool was never a one-man show."
 		},
 		{
 			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/bernie-sanders",
@@ -1554,7 +1284,7 @@
 				"file": "src/blog/enneagram/what-enneagram-type-are-most-ceos.md",
 				"section": "enneagram-corner",
 				"impressions": 0,
-				"outCount": 73
+				"outCount": 75
 			},
 			"line": 339,
 			"anchor": "David Beckham",
@@ -1562,33 +1292,6 @@
 			"phraseKind": "name",
 			"mentionScore": 3,
 			"excerpt": "- Type 3: David Beckham, Jared Kushner, Kris Jenner, Taylor Swift, Tony Robbins, Tyler Perry, Vivek Ramaswamy"
-		},
-		{
-			"id": "/pop-culture/hollywood-heartthrobs-enneagram-analysis -> /personality-analysis/greta-gerwig",
-			"score": 4.23,
-			"target": {
-				"url": "/personality-analysis/greta-gerwig",
-				"title": "Greta Gerwig",
-				"kind": "person",
-				"section": "people",
-				"impressions": 26,
-				"clicks": 0,
-				"position": 6.5,
-				"inbound": 1
-			},
-			"source": {
-				"url": "/pop-culture/hollywood-heartthrobs-enneagram-analysis",
-				"file": "src/blog/pop-culture/hollywood-heartthrobs-enneagram-analysis.md",
-				"section": "pop-culture",
-				"impressions": 123,
-				"outCount": 12
-			},
-			"line": 391,
-			"anchor": "Greta Gerwig",
-			"phrase": "Greta Gerwig",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "When Gosling took the role of Ken in Greta Gerwig's _Barbie_ (2023), it was a Type 9 doing something rare: stepping fully into the joke. His performance of \"I'm Just Ken\" at the Oscars—an anthem about a man whose entire …"
 		},
 		{
 			"id": "/community/societal-ticking-time-bombs -> /personality-analysis/sam-parr",
@@ -1618,58 +1321,31 @@
 			"excerpt": "The numbers bear this out. Sam Parr and Shaan Puri discussed this on [My First Million (Episode 797)](https://www.youtube.com/watch?v=Jd3he1cOFB8), framing focus as \"attention capital\" -- the scarcest strategic resource …"
 		},
 		{
-			"id": "/enneagram-corner/how-type-8-challengers-actually-succeed -> /personality-analysis/bert-kreischer",
-			"score": 4.19,
+			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /personality-analysis/anna-wintour",
+			"score": 4.08,
 			"target": {
-				"url": "/personality-analysis/bert-kreischer",
-				"title": "Bert Kreischer",
+				"url": "/personality-analysis/anna-wintour",
+				"title": "Anna Wintour",
 				"kind": "person",
 				"section": "people",
-				"impressions": 15,
-				"clicks": 0,
-				"position": 7.5,
+				"impressions": 514,
+				"clicks": 2,
+				"position": 9.6,
 				"inbound": 0
 			},
 			"source": {
-				"url": "/enneagram-corner/how-type-8-challengers-actually-succeed",
-				"file": "src/blog/enneagram/how-type-8-challengers-actually-succeed.md",
+				"url": "/enneagram-corner/what-enneagram-type-are-most-ceos",
+				"file": "src/blog/enneagram/what-enneagram-type-are-most-ceos.md",
 				"section": "enneagram-corner",
 				"impressions": 0,
-				"outCount": 22
+				"outCount": 75
 			},
-			"line": 122,
-			"anchor": "Bert Kreischer",
-			"phrase": "Bert Kreischer",
+			"line": 337,
+			"anchor": "Anna Wintour",
+			"phrase": "Anna Wintour",
 			"phraseKind": "name",
 			"mentionScore": 3,
-			"excerpt": "- **Rogan**: Brian Redban co-launched the podcast. His comedian circle — Tom Segura, Bert Kreischer, Joey Diaz — formed a content ecosystem that fed the show."
-		},
-		{
-			"id": "/pop-culture/breaking-points-enneagram-analysis -> /personality-analysis/bernie-sanders",
-			"score": 4.14,
-			"target": {
-				"url": "/personality-analysis/bernie-sanders",
-				"title": "Bernie Sanders",
-				"kind": "person",
-				"section": "people",
-				"impressions": 14,
-				"clicks": 0,
-				"position": 5.1,
-				"inbound": 0
-			},
-			"source": {
-				"url": "/pop-culture/breaking-points-enneagram-analysis",
-				"file": "src/blog/pop-culture/breaking-points-enneagram-analysis.md",
-				"section": "pop-culture",
-				"impressions": 0,
-				"outCount": 9
-			},
-			"line": 41,
-			"anchor": "Bernie Sanders",
-			"phrase": "Bernie Sanders",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "Krystal Ball calls herself a \"left populist.\" She was shaped by the Bernie Sanders movement, fights for guaranteed economic rights, and stays furious at a Democratic establishment she sees as captured by corporate intere…"
+			"excerpt": "- Type 1: Anna Wintour, Ryan Holiday"
 		},
 		{
 			"id": "/enneagram-corner/enneagram-leadership -> /personality-analysis/jeff-bezos",
@@ -1689,7 +1365,7 @@
 				"file": "src/blog/enneagram/enneagram-leadership.md",
 				"section": "enneagram-corner",
 				"impressions": 394,
-				"outCount": 10
+				"outCount": 11
 			},
 			"line": 638,
 			"anchor": "Jeff Bezos",
@@ -1697,60 +1373,6 @@
 			"phraseKind": "name",
 			"mentionScore": 3,
 			"excerpt": "**Example:** Jeff Bezos (Amazon)"
-		},
-		{
-			"id": "/pop-culture/fallen-founders-enneagram-analysis -> /personality-analysis/steve-jobs",
-			"score": 4.02,
-			"target": {
-				"url": "/personality-analysis/steve-jobs",
-				"title": "Steve Jobs",
-				"kind": "person",
-				"section": "people",
-				"impressions": 690,
-				"clicks": 6,
-				"position": 14.8,
-				"inbound": 6
-			},
-			"source": {
-				"url": "/pop-culture/fallen-founders-enneagram-analysis",
-				"file": "src/blog/pop-culture/fallen-founders-enneagram-analysis.md",
-				"section": "pop-culture",
-				"impressions": 87,
-				"outCount": 24
-			},
-			"line": 89,
-			"anchor": "Steve Jobs",
-			"phrase": "Steve Jobs",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "Holmes is sometimes typed as a 3w4, the Steve Jobs cosplayer in the black turtleneck. The stronger read is [Type 3](/enneagram-corner/enneagram-type-3) with a **[2 wing](/enneagram-corner/enneagram-type-2)**: the achieve…"
-		},
-		{
-			"id": "/pop-culture/epstein-psychology-part-2 -> /personality-analysis/bill-gates",
-			"score": 4.01,
-			"target": {
-				"url": "/personality-analysis/bill-gates",
-				"title": "Bill Gates",
-				"kind": "person",
-				"section": "people",
-				"impressions": 882,
-				"clicks": 5,
-				"position": 9,
-				"inbound": 7
-			},
-			"source": {
-				"url": "/pop-culture/epstein-psychology-part-2",
-				"file": "src/blog/pop-culture/epstein-psychology-part-2.md",
-				"section": "pop-culture",
-				"impressions": 122,
-				"outCount": 3
-			},
-			"line": 34,
-			"anchor": "Bill Gates",
-			"phrase": "Bill Gates",
-			"phraseKind": "name",
-			"mentionScore": 3,
-			"excerpt": "> — Bill Gates, explaining why he met with Jeffrey Epstein ([CNBC](https://www.cnbc.com/2019/09/10/bill-gates-met-with-jeffrey-epstein-to-connect-with-rich-people.html))"
 		},
 		{
 			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /personality-analysis/elon-musk",
@@ -1770,7 +1392,7 @@
 				"file": "src/blog/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md",
 				"section": "pop-culture",
 				"impressions": 225,
-				"outCount": 8
+				"outCount": 9
 			},
 			"line": 235,
 			"anchor": "Elon Musk",
@@ -1778,6 +1400,33 @@
 			"phraseKind": "name",
 			"mentionScore": 3,
 			"excerpt": "…ne of the strongest lineups they had ever booked. It was also the day Trump and Elon Musk publicly fell out, and the live chat could talk about nothing else. Mid-show, the hosts canceled the interviews and followed the f…"
+		},
+		{
+			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /personality-analysis/kyle-forgeard",
+			"score": 3.97,
+			"target": {
+				"url": "/personality-analysis/kyle-forgeard",
+				"title": "Kyle Forgeard",
+				"kind": "person",
+				"section": "people",
+				"impressions": 435,
+				"clicks": 1,
+				"position": 7.5,
+				"inbound": 0
+			},
+			"source": {
+				"url": "/enneagram-corner/what-enneagram-type-are-most-ceos",
+				"file": "src/blog/enneagram/what-enneagram-type-are-most-ceos.md",
+				"section": "enneagram-corner",
+				"impressions": 0,
+				"outCount": 75
+			},
+			"line": 342,
+			"anchor": "Kyle Forgeard",
+			"phrase": "Kyle Forgeard",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "- Type 7: Kate Hudson, Kyle Forgeard, Ryan Reynolds"
 		},
 		{
 			"id": "/community/software-and-hardware-of-the-mind -> /personality-analysis/carl-jung",
@@ -1834,6 +1483,33 @@
 			"excerpt": "Carl Jung's concept of the \"shadow\" refers to the parts of yourself you've rejected, denied, or hidden, often the very parts that hold your greatest untapped potential."
 		},
 		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/mark-zuckerberg",
+			"score": 3.77,
+			"target": {
+				"url": "/personality-analysis/mark-zuckerberg",
+				"title": "Mark Zuckerberg",
+				"kind": "person",
+				"section": "people",
+				"impressions": 1512,
+				"clicks": 4,
+				"position": 12,
+				"inbound": 6
+			},
+			"source": {
+				"url": "/pop-culture/podcast-bros-enneagram-analysis",
+				"file": "src/blog/pop-culture/podcast-bros-enneagram-analysis.md",
+				"section": "pop-culture",
+				"impressions": 5,
+				"outCount": 11
+			},
+			"line": 206,
+			"anchor": "Mark Zuckerberg",
+			"phrase": "Mark Zuckerberg",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "…rviews with powerful figures—including Volodymyr Zelenskyy, Benjamin Netanyahu, Mark Zuckerberg, and Elon Musk—show a consistent Type 5-style preference for patient inquiry over confrontation. His [official episode catal…"
+		},
+		{
 			"id": "/pop-culture/fallen-founders-enneagram-analysis -> /personality-analysis/travis-kalanick",
 			"score": 3.67,
 			"target": {
@@ -1861,8 +1537,116 @@
 			"excerpt": "He is not even the only ousted founder of the era who walked. Travis Kalanick was forced out of Uber in 2017 by Benchmark, the same firm whose Bruce Dunlevie shows up in Frame 5, and was never criminally charged either. …"
 		},
 		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/jocko-willink",
+			"score": 3.62,
+			"target": {
+				"url": "/personality-analysis/jocko-willink",
+				"title": "Jocko Willink",
+				"kind": "person",
+				"section": "people",
+				"impressions": 33,
+				"clicks": 2,
+				"position": 9,
+				"inbound": 1
+			},
+			"source": {
+				"url": "/pop-culture/podcast-bros-enneagram-analysis",
+				"file": "src/blog/pop-culture/podcast-bros-enneagram-analysis.md",
+				"section": "pop-culture",
+				"impressions": 5,
+				"outCount": 11
+			},
+			"line": 116,
+			"anchor": "Jocko Willink",
+			"phrase": "Jocko Willink",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "…Huberman, and so on. The shared guest pool—Elon Musk, [David Goggins](/personality-analysis/david-goggins), Naval Ravikant, Matthew Walker, Jocko Willink—created recurring characters that listeners followed across shows."
+		},
+		{
+			"id": "/community/societal-ticking-time-bombs -> /personality-analysis/shaan-puri",
+			"score": 3.43,
+			"target": {
+				"url": "/personality-analysis/shaan-puri",
+				"title": "Shaan Puri",
+				"kind": "person",
+				"section": "people",
+				"impressions": 65,
+				"clicks": 0,
+				"position": 12.2,
+				"inbound": 2
+			},
+			"source": {
+				"url": "/community/societal-ticking-time-bombs",
+				"file": "src/blog/community/societal-ticking-time-bombs.md",
+				"section": "community",
+				"impressions": 7,
+				"outCount": 6
+			},
+			"line": 379,
+			"anchor": "Shaan Puri",
+			"phrase": "Shaan Puri",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "The numbers bear this out. Sam Parr and Shaan Puri discussed this on [My First Million (Episode 797)](https://www.youtube.com/watch?v=Jd3he1cOFB8), framing focus as \"attention capital\" -- the scarcest strategic resource …"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-leadership -> /personality-analysis/satya-nadella",
+			"score": 3.12,
+			"target": {
+				"url": "/personality-analysis/satya-nadella",
+				"title": "Satya Nadella",
+				"kind": "person",
+				"section": "people",
+				"impressions": 116,
+				"clicks": 0,
+				"position": 15.8,
+				"inbound": 7
+			},
+			"source": {
+				"url": "/enneagram-corner/enneagram-leadership",
+				"file": "src/blog/enneagram/enneagram-leadership.md",
+				"section": "enneagram-corner",
+				"impressions": 394,
+				"outCount": 11
+			},
+			"line": 275,
+			"anchor": "Satya Nadella",
+			"phrase": "Satya Nadella",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "…itting on a decision right now? One you have been sitting on for days or weeks? Satya Nadella transformed Microsoft with a consensus-building approach, but he also learned when to stop gathering input and decide. Harmony…"
+		},
+		{
+			"id": "/pop-culture/psychology-of-public-shame -> /personality-analysis/grimes",
+			"score": 3.11,
+			"target": {
+				"url": "/personality-analysis/grimes",
+				"title": "Grimes",
+				"kind": "person",
+				"section": "people",
+				"impressions": 1194,
+				"clicks": 5,
+				"position": 11.8,
+				"inbound": 3
+			},
+			"source": {
+				"url": "/pop-culture/psychology-of-public-shame",
+				"file": "src/blog/pop-culture/psychology-of-public-shame.md",
+				"section": "pop-culture",
+				"impressions": 1,
+				"outCount": 11
+			},
+			"line": 203,
+			"anchor": "Grimes",
+			"phrase": "Grimes",
+			"phraseKind": "name",
+			"mentionScore": 2,
+			"excerpt": "- **Being weird on Twitter** (Grimes)"
+		},
+		{
 			"id": "/enneagram-corner/enneagram-wings-complete-guide -> /personality-analysis/mark-zuckerberg",
-			"score": 3.33,
+			"score": 3.08,
 			"target": {
 				"url": "/personality-analysis/mark-zuckerberg",
 				"title": "Mark Zuckerberg",
@@ -1871,7 +1655,7 @@
 				"impressions": 1512,
 				"clicks": 4,
 				"position": 12,
-				"inbound": 5
+				"inbound": 6
 			},
 			"source": {
 				"url": "/enneagram-corner/enneagram-wings-complete-guide",
@@ -1888,53 +1672,250 @@
 			"excerpt": "**Famous Examples:** Bill Gates, [Stephen Hawking](/personality-analysis/stephen-hawking), Mark Zuckerberg"
 		},
 		{
-			"id": "/pop-culture/epstein-psychology-part-1 -> /personality-analysis/sergey-brin",
-			"score": 3.12,
+			"id": "/pop-culture/google-leadership-evolution -> /personality-analysis/tim-cook",
+			"score": 3.01,
 			"target": {
-				"url": "/personality-analysis/sergey-brin",
-				"title": "Sergey Brin",
+				"url": "/personality-analysis/tim-cook",
+				"title": "Tim Cook",
 				"kind": "person",
 				"section": "people",
-				"impressions": 943,
-				"clicks": 8,
-				"position": 23.5,
+				"impressions": 36,
+				"clicks": 0,
+				"position": 7.8,
 				"inbound": 5
 			},
 			"source": {
-				"url": "/pop-culture/epstein-psychology-part-1",
-				"file": "src/blog/pop-culture/epstein-psychology-part-1.md",
+				"url": "/pop-culture/google-leadership-evolution",
+				"file": "src/blog/pop-culture/google-leadership-evolution.md",
 				"section": "pop-culture",
-				"impressions": 489,
-				"outCount": 10
+				"impressions": 804,
+				"outCount": 15
 			},
-			"line": 407,
-			"anchor": "Sergey Brin",
-			"phrase": "Sergey Brin",
+			"line": 50,
+			"anchor": "Tim Cook",
+			"phrase": "Tim Cook",
 			"phraseKind": "name",
 			"mentionScore": 3,
-			"excerpt": "…ia. He appeared in the background of a photo alongside **Jeff Bezos, Elon Musk, Sergey Brin, and Bill Gates**. ([BuzzFeed News](https://www.buzzfeednews.com/article/peteraldhous/jeffrey-epstein-bezos-musk-billionaires-di…"
+			"excerpt": "Tim Cook, Satya Nadella, Andy Jassy. None of them needed the founder back when the world changed. Each successor was the founder's psychological twin — or close enough that the company never had to renegotiate what it wa…"
+		},
+		{
+			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /personality-analysis/satya-nadella",
+			"score": 2.99,
+			"target": {
+				"url": "/personality-analysis/satya-nadella",
+				"title": "Satya Nadella",
+				"kind": "person",
+				"section": "people",
+				"impressions": 116,
+				"clicks": 0,
+				"position": 15.8,
+				"inbound": 7
+			},
+			"source": {
+				"url": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+				"file": "src/blog/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md",
+				"section": "pop-culture",
+				"impressions": 225,
+				"outCount": 9
+			},
+			"line": 339,
+			"anchor": "Satya Nadella",
+			"phrase": "Satya Nadella",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "…ersonality-analysis/alex-karp) about kettlebells and celebrated Microsoft chief Satya Nadella's OpenAI news with a gong. That friendliness helps executives relax and reveal how they think. It can also leave the audience …"
+		},
+		{
+			"id": "/pop-culture/twitter-x-personality-types-toxic -> /personality-analysis/elon-musk",
+			"score": 2.96,
+			"target": {
+				"url": "/personality-analysis/elon-musk",
+				"title": "Elon Musk",
+				"kind": "person",
+				"section": "people",
+				"impressions": 1297,
+				"clicks": 2,
+				"position": 17.4,
+				"inbound": 9
+			},
+			"source": {
+				"url": "/pop-culture/twitter-x-personality-types-toxic",
+				"file": "src/blog/pop-culture/twitter-x-personality-types-toxic.md",
+				"section": "pop-culture",
+				"impressions": 0,
+				"outCount": 14
+			},
+			"line": 225,
+			"anchor": "Elon Musk",
+			"phrase": "Elon Musk",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "**Did X become more toxic after Elon Musk bought Twitter?**"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-wings-complete-guide -> /personality-analysis/bill-gates",
+			"score": 2.52,
+			"target": {
+				"url": "/personality-analysis/bill-gates",
+				"title": "Bill Gates",
+				"kind": "person",
+				"section": "people",
+				"impressions": 882,
+				"clicks": 5,
+				"position": 9,
+				"inbound": 8
+			},
+			"source": {
+				"url": "/enneagram-corner/enneagram-wings-complete-guide",
+				"file": "src/blog/enneagram/enneagram-wings-complete-guide.md",
+				"section": "enneagram-corner",
+				"impressions": 6730,
+				"outCount": 40
+			},
+			"line": 362,
+			"anchor": "Bill Gates",
+			"phrase": "Bill Gates",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "**Famous Examples:** Bill Gates, [Stephen Hawking](/personality-analysis/stephen-hawking), Mark Zuckerberg"
+		},
+		{
+			"id": "/pop-culture/psychology-of-public-shame -> /personality-analysis/will-smith",
+			"score": 2.46,
+			"target": {
+				"url": "/personality-analysis/will-smith",
+				"title": "Will Smith",
+				"kind": "person",
+				"section": "people",
+				"impressions": 4,
+				"clicks": 0,
+				"position": 4.8,
+				"inbound": 1
+			},
+			"source": {
+				"url": "/pop-culture/psychology-of-public-shame",
+				"file": "src/blog/pop-culture/psychology-of-public-shame.md",
+				"section": "pop-culture",
+				"impressions": 1,
+				"outCount": 11
+			},
+			"line": 138,
+			"anchor": "Will Smith",
+			"phrase": "Will Smith",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "…e construct._ \"I just see him as a sad, broken human being\" is a sentence about Will Smith only on the surface. Underneath, it is the sound of a parasocial bond breaking and the speaker trying to keep their self-concept …"
+		},
+		{
+			"id": "/pop-culture/kardashian-family-enneagram-analysis -> /personality-analysis/travis-scott",
+			"score": 1.71,
+			"target": {
+				"url": "/personality-analysis/travis-scott",
+				"title": "Travis Scott",
+				"kind": "person",
+				"section": "people",
+				"impressions": 0,
+				"clicks": 0,
+				"position": null,
+				"inbound": 0
+			},
+			"source": {
+				"url": "/pop-culture/kardashian-family-enneagram-analysis",
+				"file": "src/blog/pop-culture/kardashian-family-enneagram-analysis.md",
+				"section": "pop-culture",
+				"impressions": 3228,
+				"outCount": 17
+			},
+			"line": 411,
+			"anchor": "Travis Scott",
+			"phrase": "Travis Scott",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "- **Merging into partners:** Joined Travis Scott's tour within days of meeting him; wore Chalamet's movie colors to his premiere"
+		},
+		{
+			"id": "/pop-culture/tech-titans-ai-wars -> /personality-analysis/alexandr-wang",
+			"score": 1.11,
+			"target": {
+				"url": "/personality-analysis/alexandr-wang",
+				"title": "Alexandr Wang",
+				"kind": "person",
+				"section": "people",
+				"impressions": 0,
+				"clicks": 0,
+				"position": null,
+				"inbound": 1
+			},
+			"source": {
+				"url": "/pop-culture/tech-titans-ai-wars",
+				"file": "src/blog/pop-culture/tech-titans-ai-wars.md",
+				"section": "pop-culture",
+				"impressions": 983,
+				"outCount": 14
+			},
+			"line": 256,
+			"anchor": "Alexandr Wang",
+			"phrase": "Alexandr Wang",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "…ed $14.3 billion for a 49% stake in Scale AI and installed its 28-year-old CEO, Alexandr Wang, as Meta's new Chief AI Officer, leading the newly formed Meta Superintelligence Labs. Members of the core research team were …"
+		},
+		{
+			"id": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7 -> /personality-analysis/paul-rudd",
+			"score": 1.1,
+			"target": {
+				"url": "/personality-analysis/paul-rudd",
+				"title": "Paul Rudd",
+				"kind": "person",
+				"section": "people",
+				"impressions": 0,
+				"clicks": 0,
+				"position": null,
+				"inbound": 0
+			},
+			"source": {
+				"url": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7",
+				"file": "src/blog/enneagram/why-the-next-thing-wont-fix-it-type-7.md",
+				"section": "enneagram-corner",
+				"impressions": 160,
+				"outCount": 26
+			},
+			"line": 175,
+			"anchor": "Paul Rudd",
+			"phrase": "Paul Rudd",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "…ity-analysis/jack-black) chose to play the straight man in _Anaconda_ alongside Paul Rudd. The guy whose entire career was built on being the loudest person in the room deliberately played against type. Self-awareness. R…"
+		},
+		{
+			"id": "/pop-culture/tech-titans-leadership-styles -> /personality-analysis/andrew-garfield",
+			"score": 0.85,
+			"target": {
+				"url": "/personality-analysis/andrew-garfield",
+				"title": "Andrew Garfield",
+				"kind": "person",
+				"section": "people",
+				"impressions": 0,
+				"clicks": 0,
+				"position": null,
+				"inbound": 1
+			},
+			"source": {
+				"url": "/pop-culture/tech-titans-leadership-styles",
+				"file": "src/blog/pop-culture/tech-titans-leadership-styles.md",
+				"section": "pop-culture",
+				"impressions": 484,
+				"outCount": 33
+			},
+			"line": 129,
+			"anchor": "Andrew Garfield",
+			"phrase": "Andrew Garfield",
+			"phraseKind": "name",
+			"mentionScore": 3,
+			"excerpt": "…o long to sue, so the Type 5 vs Type 4 collision never got a verdict on the merits. The 2023 boardroom fight is now a movie, too: [_Artificial_](/pop-culture/artificial-movie-real-people), with Andrew Garfield as Altman."
 		}
 	],
 	"peopleToPeople": [
-		{
-			"id": "/personality-analysis/hugh-jackman -> /personality-analysis/kate-hudson",
-			"source": {
-				"url": "/personality-analysis/hugh-jackman",
-				"file": "src/blog/people/drafts/Hugh-Jackman.md",
-				"outCount": 3
-			},
-			"target": {
-				"url": "/personality-analysis/kate-hudson",
-				"name": "Kate Hudson",
-				"inCount": 1,
-				"impressions": 85,
-				"position": 7.4
-			},
-			"line": 222,
-			"anchor": "Kate Hudson",
-			"excerpt": "But the roles that reveal the most about him aren't the Wolverine films. They're the musicals. _The Boy from Oz_ (Tony Award, 2004) — playing openly gay entertainer Peter Allen. _Les Miserables_ (Golden Globe, 2013) — playing a man who redeems himself through sacrifice for a child who isn't his. _The Greatest Showman_ (2017) — playing a man who builds a family out of misfits and gives them a stage. _Song Sung Blue_ (December 2025): playing Mike Sardina, a real Neil Diamond tribute singer who performed with his wife, played by an Oscar-nominated Kate Hudson. Even the family hit _The Sheep Detectives_ (May 2026) casts him as a shepherd so loved that his flock sets out to solve his murder.",
-			"typeClaim": null
-		},
 		{
 			"id": "/personality-analysis/emma-stone -> /personality-analysis/andrew-garfield",
 			"source": {
@@ -1971,25 +1952,6 @@
 			"line": 211,
 			"anchor": "Andrew Garfield",
 			"excerpt": "Holland's specific flavor is 7w6, the Entertainer wing. The 6 wing adds a layer of loyalty, anxiety about security, and a deep need to belong that the core Seven doesn't always show. It's why Holland is so family-oriented. Why he created The Brothers Trust charity with his parents and brothers. Why he keeps a \"Spider-Boys\" group chat with Andrew Garfield and [Tobey Maguire](/personality-analysis/tobey-maguire), three people who've been through something \"so unique that we really are like brothers.\"",
-			"typeClaim": null
-		},
-		{
-			"id": "/personality-analysis/lex-fridman -> /personality-analysis/khabib-nurmagomedov",
-			"source": {
-				"url": "/personality-analysis/lex-fridman",
-				"file": "src/blog/people/drafts/Lex-Fridman.md",
-				"outCount": 7
-			},
-			"target": {
-				"url": "/personality-analysis/khabib-nurmagomedov",
-				"name": "Khabib Nurmagomedov",
-				"inCount": 2,
-				"impressions": 96,
-				"position": 8.3
-			},
-			"line": 281,
-			"anchor": "Khabib Nurmagomedov",
-			"excerpt": "The cycle plays out in real time. After wading into the Trump-Zelenskyy fallout in February 2025, he regretted it publicly. Then the guest list changed. Since the Modi episode in March 2025, no head of state has appeared on the show. In their place: Telegram's Pavel Durov (October 2025), Nvidia's Jensen Huang (March 2026), historians of Rome and the Vikings, physicists, game designers, and, for episode #500 in August 2026, Khabib Nurmagomedov. The pattern is there in the episode list: fewer heads of state, more builders, scholars, and fighters.",
 			"typeClaim": null
 		},
 		{

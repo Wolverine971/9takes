@@ -1,0 +1,55 @@
+The verification is written, and the verdict is **revise**. The article isn't release-eligible yet, but both blocking problems can be fixed in the one targeted repair the pipeline allows.
+
+**What I checked**
+- I reopened 31 of the 42 sources, plus 9 unused ones whose excerpts I could confirm. The 2 not opened (IBTimes and W magazine) back none of the article's claims.
+- About 140 quotes match their sources word for word.
+- All 144 claims, 44 review decisions and 17 protected passages are checked. I agree with every edit decision, including the editor's refusal to cut the article to 3,500 words.
+- The content and evidence hashes match the request, and the JSON passes the contract schema.
+
+**Two major findings (these block release)**
+1. **A misdated Fifty Shades denial (verify-01).** The article builds its "largest loose end" on "a 2020 denial whose wording was never printed." Marie Claire's 2020 note gives no date and no wording. And a printed denial already sits in a source the article uses: Vogue 2017, "She has heard it said that she despises Fifty Shades. Not so. 'I'm truly proud of it.'" That actually helps the Type 4 argument, because it's the same pride she repeated in 2022.
+2. **The 4-vs-6 test leaves out counterevidence (verify-02).** The new test says she frames her film fights as lost expression, not danger. But the 2022 Vanity Fair account the article quotes six times also says "I was 23. So it was scary" and "We had to really trust each other and protect each other." Neither the article nor the evidence record mentions those lines.
+
+**Two minor findings**
+- verify-03: "Johnson, laughing" in the Ellen passage and its FAQ has no source. Vogue says she corrected Ellen "flatly" and Marie Claire says "firmly."
+- verify-04: The closing says "each time a film wraps," but Vogue limits the grief to films she's deeply connected to.
+
+**Scores**
+
+| Dimension | Score |
+|---|---|
+| Evidence | 7.5 |
+| Enneagram | 7.5 |
+| Originality | 8.5 |
+| Writing | 8.0 |
+| Durability | 8.5 |
+| Hook | 8.5 |
+| Discoverability | 8.0 |
+
+That works out to 7.9 overall. The gates require 8.5 overall and at least 8 on evidence and Enneagram, so these three miss. If both major findings are fixed, evidence and Enneagram should clear 8.
+
+**Verification limits**
+- YouTube blocked fresh caption downloads from this machine, so for the four video clips I read the official caption files an earlier pipeline stage downloaded today. I didn't watch the videos, which is why "laughing" stays unconfirmed.
+- No public response from E.L. James to either account turned up in my search. Her own 2015 account of fighting over the adaptation exists, and I listed it as an optional fairness addition.
+
+I wrote only `verification-edit.json` in the run directory. Scratch files are in `/tmp`, and nothing was published.
+
+Separately, a few connectors (Notion, Slack, Ahrefs and others) need authorizing in your connector settings, and Supabase failed to connect this session. None of them were needed here.
+Verification is complete and the output file validates. Nothing else depends on another result, so here is the recap.
+
+**Outcome: `revise`, not `pass`.** The candidate is strong and would clear every quality gate, but I found one quotation-fidelity defect that must be repaired before release.
+
+**What I did**
+- Reopened all 54 sources myself on 2026-10-08: 49 web pages fetched fresh (Condé Nast and LA Times via JSON-LD, L'Officiel via its embedded page JSON, two bot-blocked relays via Wayback and a secondary fetcher) plus five YouTube caption tracks pulled with yt-dlp.
+- Matched roughly 150 quoted phrases against those sources in context, checked publication dates, confirmed the linked type pages exist, and confirmed in the database that both linked people pages and all five suggestions are published.
+- Checked all 47 review decisions against their acceptance tests, all 19 protected passages by exact string match, and the claim inventory for gaps. Hashes in the request match the candidate and evidence.
+- Ran an independent search for any E.L. James response to Johnson's account and found none, consistent with the dated sentence in the article ([Variety AU](https://au.variety.com/2022/film/news/dakota-johnson-fifty-shades-battle-el-james-3913), [Yahoo AU](https://au.news.yahoo.com/dakota-johnson-says-fifty-shades-172433759.html), [Today](https://www.today.com/today/amp/rcna35768)).
+
+**The blocking finding (verify-01, major)**
+The Bustle quotation in the Six case silently splices two sentences. Her actual words have a conditional clause between them: "...feelings and ideas and thoughts. But as long as I'm not hurting another human being in some way — even with my work, with agents or managers or whomever — I'll listen to everyone..." The evidence excerpt was truncated at exactly that point, so no reviewer could see it. The fix is an ellipsis or two separate quotes plus a C218 update, with no net word growth (the body sits at 4,484 of 4,500).
+
+**Six minor findings**: "Then:" overstates adjacency before the "control and feeling powerful" line; "her first words on the film" should be "her first answer" (she said "Go on" first); the panic attack hit at "action," not before the scene; the Burghardt "played her daughter" descriptor needs S16 added as a source; the JoBlo citation is bot-blocked and the EW original should be linked; the length leaves no room for additive repairs.
+
+**Scores**: evidence 8.6, Enneagram 8.4, originality 8.7, writing 8.2, durability 8.8, hook 9.0, discoverability 8.5, overall 8.6. Coverage, metadata consistency, alternative-type treatment and the five-year test all pass. The contract's release decision reproduces as not eligible solely on `verification:revise` and `unresolved:verify-01`.
+
+Only `verification-edit.json` was written; the other untracked files in that run directory predate this stage.

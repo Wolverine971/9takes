@@ -222,6 +222,11 @@
 			"permanent": true
 		},
 		{
+			"source": "/types/2s/s-Olivia-Rodrigo.png",
+			"destination": "/types/2s/s-Olivia-Rodrigo.webp",
+			"permanent": true
+		},
+		{
 			"source": "/types/3s/John-Coogan.webp",
 			"destination": "/types/7s/John-Coogan.webp",
 			"permanent": true

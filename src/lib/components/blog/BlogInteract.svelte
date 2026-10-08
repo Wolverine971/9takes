@@ -1,95 +1,73 @@
 <!-- src/lib/components/blog/BlogInteract.svelte -->
 <script lang="ts">
-	import { deserialize } from '$app/forms';
 	import { Button } from '$lib/components/atoms';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { formatPersonalityDisplayName } from '$lib/utils/personalityAnalysis';
-
 	import { notifications } from '$lib/components/molecules/notifications';
-	// import { page } from '$app/stores';
+	import type { PublicBlogCommentRow } from '../../../routes/api/personality-analysis/[slug]/discussion/+server';
 
-	import { createEventDispatcher } from 'svelte';
-
-	const dispatch = createEventDispatcher();
-
-	export let parentType: string;
-
-	export let data: {
-		component: any;
-		comments: any[];
-		metadata: App.BlogPost;
-		slug: string;
-		suggestions: {
-			niche: {
-				type: string;
-				posts: App.BlogPost[];
+	let {
+		data,
+		user,
+		onCommentAdded
+	}: {
+		data: {
+			slug: string;
+			flags?: {
+				userHasAnswered: boolean;
+				userSignedIn: boolean;
 			};
-			sameEnneagram: any;
 		};
-		flags: {
-			userHasAnswered: boolean;
-			userSignedIn: boolean;
-		};
-	};
-	export let user: any;
+		user: any;
+		onCommentAdded?: (comments: PublicBlogCommentRow[]) => void;
+	} = $props();
 
-	$: (data, watchData());
-
-	let anonymousComment = false;
-
-	function watchData() {
-		if (!data?.flags?.userHasAnswered) {
-			commenting = true;
-		}
-	}
-
-	let comment: string = '';
-	let commenting: boolean = false;
+	let anonymousComment = $state(false);
+	let comment = $state('');
+	let submitting = $state(false);
 
 	const createComment = async () => {
-		if (!data?.flags?.userSignedIn && !user?.id) {
-			if (data?.flags?.userHasAnswered || anonymousComment) {
-				notifications.info('Must register or login to comment multiple times', 3000);
-				return;
-			} else if (parentType === 'comment') {
-				notifications.info('Must register or login to comment on other comments', 3000);
-				return;
-			}
+		const signedIn = Boolean(data?.flags?.userSignedIn || user?.id);
+		if (!signedIn && (data?.flags?.userHasAnswered || anonymousComment)) {
+			notifications.info('Must register or login to comment multiple times', 3000);
+			return;
 		}
+		if (submitting) return;
+		submitting = true;
 
-		let body = new FormData();
+		try {
+			// author_id comes from the session on the server, never from here.
+			const resp = await fetch(
+				`/api/personality-analysis/${encodeURIComponent(data.slug)}/discussion`,
+				{
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ comment, fingerprint: getOrCreateVisitorId() })
+				}
+			);
+			const payload = (await resp.json().catch(() => null)) as {
+				comments?: PublicBlogCommentRow[];
+				error?: string;
+			} | null;
 
-		body.append('comment', comment);
-		body.append('author_id', user?.id);
-		body.append('parent_type', parentType);
-		body.append('blog_link', data.slug);
-		body.append('fingerprint', getOrCreateVisitorId());
-
-		const resp = await fetch(`/${parentType}?/createComment`, {
-			method: 'POST',
-			body
-		});
-
-		const result: any = deserialize(await resp.text());
-
-		if (result.error) {
-			notifications.danger('Error adding comment', 3000);
-			console.log(result.error);
-		} else {
-			notifications.success('Comment Added', 3000);
-			if (!data?.flags?.userSignedIn && !user?.id && parentType === 'question') {
-				anonymousComment = true;
+			if (!resp.ok || !payload?.comments) {
+				notifications.danger(payload?.error || 'Error adding comment', 3000);
+				return;
 			}
-			dispatch('commentAdded', result?.data);
+
+			notifications.success('Comment Added', 3000);
+			if (!signedIn) anonymousComment = true;
+			onCommentAdded?.(payload.comments);
 			comment = '';
+		} catch (error) {
+			console.error('Failed to post personality comment', error);
+			notifications.danger('Error adding comment', 3000);
+		} finally {
+			submitting = false;
 		}
 	};
-
-	let innerWidth: number = 0;
 </script>
-
-<svelte:window bind:innerWidth />
 
 <div class="interact-text-container">
 	<textarea
@@ -114,7 +92,7 @@
 			: ''}
 		title="You only YOLO once"
 		onclick={createComment}
-		disabled={comment?.length < 1}
+		disabled={comment?.length < 1 || submitting}
 		iconRight={comment?.length >= 1 ? submitIcon : undefined}
 	>
 		Submit Comment

@@ -35,3 +35,19 @@ The file has 42 sources, all opened, and 47 claims. A script confirmed every sou
 Two things I couldn't open: the original 2015 Vogue story (vogue.com has removed it and the Wayback Machine was rate-limiting), so only its one relayed quote is used, and Verity's opening weekend and reviews.
 
 Separately, I added a note to my memory file about pulling YouTube captions when the usual transcript tool won't load. Supabase failed to connect this session and several plugin connectors need authorizing in your settings; none were needed for this stage.
+Research stage complete. `evidence.json` is written to the run directory and passes the contract's `validateEvidence` check (the same function the runner calls). Nothing else was modified and nothing was published.
+
+**Outcome: status `ready`, Type 4 at medium confidence, Type 6 the live alternative.** The record keeps all prior source and claim IDs, clears draft passages, drops the 16 claims that only described the superseded draft's title and FAQs, and adds 10 sources and 18 claims.
+
+**What changed versus the held run**
+
+- **The discriminator is rebuilt around the verifier's objection.** The 2022 Vanity Fair "scary" and "protect each other" lines are now quoted in context: the fear is about the three-picture contract at 23 and the protection is about explicit scenes, and in the same passage she says she and Dornan "were treated really well." Her grievance survives that concession, and it is consistently about which movie got made, not broken trust. The separation is fear versus grievance, tested on her strongest Six-shaped source rather than around it.
+- **The misdated "2020 denial" is resolved.** The dated printed statements are Vogue UK, reported January 5, 2016 ("I'm proud of Fifty Shades of Grey. I don't need to distance myself from that") and Vogue, January 2017. Neither denies the fight.
+- **New first-person material across 2015 to 2026** fills the gaps the reviewers named: the 2016 "unsure that I will ever work again" insecurity (kept as counterevidence), the 2023 HOPE Award speech on comedy as "a lifelong tool," the Cannes 2025 "that is not what I thought we were making" line, the Karlovy Vary 2025 "I don't have the confidence, but... I can see this world" directing line, and the Hot Ones 2025 risk-aversion answer pulled from captions.
+- **Current accuracy checked October 8, 2026.** Verity opened to a reported $32.6 million first weekend. Three Incestuous Sisters still has no announced date. No E.L. James response exists.
+
+**Verification.** Every quoted string in claims citing the eight magazine sources and the Hot Ones captions was matched by script against text fetched today. Six quotes from relay sources (Bustle, Music Times, Variety AU) rest on WebFetch extractions and are flagged as such in the source contexts.
+
+**Still open, recorded in the research tasks:** no critical first-hand account of her as a producer exists; the Good Hang podcast episode was not opened; the Vogue UK, Glamour UK and Telegraph originals remain unopened behind their relays.
+
+Two notes. The other modified files in git status (BlogInteract, apiRateLimit, personality-analysis routes) predate this stage and are not mine. I saved a memory on the fetch workaround that unblocked the Condé Nast pages, since WebFetch and the jina proxy both fail on them.

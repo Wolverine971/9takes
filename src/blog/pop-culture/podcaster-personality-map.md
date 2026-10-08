@@ -210,7 +210,7 @@ When Shaan pitches a business idea, it arrives with enthusiasm, lateral connecti
 
 The dynamic also produces conflict. In the episode ["Is This The End Of The Pod?"](https://www.youtube.com/watch?v=-9RVriDcAgc), they aired a post-mortem of a fight from the previous day, discussed Sam's irritability, and used relationship frameworks to examine what happened. Turning the rupture into an episode captured the pairing in miniature: intensity creates the break, then reframing creates forward motion.
 
-The pattern of a Type 7 paired with a grounding type also appears on [Breaking Points](/pop-culture/breaking-points-enneagram-analysis), with Krystal Ball typed as a 1 and Saagar Enjeti as a 7. The 7 opens the aperture; the grounding type pressure-tests what comes through. Their tension helps the show avoid both heaviness and drift.
+The pattern of a Type 7 paired with a grounding type also appears on [Breaking Points](/pop-culture/breaking-points-enneagram-analysis), with [Krystal Ball](/personality-analysis/krystal-ball) typed as a 1 and Saagar Enjeti as a 7. The 7 opens the aperture; the grounding type pressure-tests what comes through. Their tension helps the show avoid both heaviness and drift.
 
 A more accelerator-heavy pairing appears on [TBPN](/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic), where [John Coogan](/personality-analysis/john-coogan)'s Type 7 possibility-seeking runs beside [Jordi Hays](/personality-analysis/jordi-hays)'s Type 3 focus on stakes, presentation, and visible value.
 

@@ -2,10 +2,15 @@
   "target": {
     "person": "dakota-johnson",
     "type": "4",
-    "units": 2,
+    "units": 5,
     "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/draft.md"
   },
   "comparison_set": [
+    {
+      "person": "dakota-johnson",
+      "date": "2026-10-07",
+      "units": 3
+    },
     {
       "person": "Andrew-Garfield",
       "date": "2026-10-05",
@@ -40,30 +45,73 @@
       "person": "Bryan-Johnson",
       "date": "2026-08-13",
       "units": 34
-    },
-    {
-      "person": "Hunter-Biden",
-      "date": "2026-07-25",
-      "units": 30
     }
   ],
   "n_requested": 8,
   "noise_floor": {
-    "pairs_compared": 562,
+    "pairs_compared": 1270,
     "median": 0,
     "p90": 0,
     "p99": 0.005,
-    "max": 0.016
+    "max": 0.531
   },
   "trip_threshold": 0.04,
-  "tripped": false,
-  "trip_pairs": [],
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.531,
+      "other_person": "dakota-johnson",
+      "shared_phrases": [
+        "pushe back",
+        "she pushe back"
+      ],
+      "target": "[diagnosis] The better test is what she defends when she pushes back.",
+      "other": "[diagnosis] The better question is what she defends when she pushes back"
+    },
+    {
+      "score": 0.216,
+      "other_person": "dakota-johnson",
+      "shared_phrases": [
+        "explain piece",
+        "nine and seven"
+      ],
+      "target": "[diagnosis] Nine and Seven explain pieces.",
+      "other": "[diagnosis] Nine and Seven each explain pieces of her persona."
+    },
+    {
+      "score": 0.186,
+      "other_person": "dakota-johnson",
+      "shared_phrases": [
+        "made into someth"
+      ],
+      "target": "[diagnosis] is her work being made into something it isn't",
+      "other": "[diagnosis] and keeping her work from being made into something false."
+    }
+  ],
   "per_draft_max": [
+    {
+      "person": "dakota-johnson",
+      "date": "2026-10-07",
+      "units": 3,
+      "maxScore": 0.531
+    },
+    {
+      "person": "jeremy-allen-white",
+      "date": "2026-08-26",
+      "units": 50,
+      "maxScore": 0.053
+    },
+    {
+      "person": "Bryan-Johnson",
+      "date": "2026-08-13",
+      "units": 34,
+      "maxScore": 0.012
+    },
     {
       "person": "Cara-Delevingne",
       "date": "2026-09-01",
       "units": 33,
-      "maxScore": 0.016
+      "maxScore": 0.008
     },
     {
       "person": "machine-gun-kelly",
@@ -72,126 +120,116 @@
       "maxScore": 0.007
     },
     {
-      "person": "Phoebe-Bridgers",
-      "date": "2026-08-15",
-      "units": 36,
-      "maxScore": 0.006
-    },
-    {
-      "person": "jeremy-allen-white",
-      "date": "2026-08-26",
-      "units": 50,
-      "maxScore": 0.005
-    },
-    {
       "person": "Freddie-Mercury",
       "date": "2026-08-29",
       "units": 39,
       "maxScore": 0.005
     },
     {
-      "person": "Hunter-Biden",
-      "date": "2026-07-25",
-      "units": 30,
-      "maxScore": 0.002
-    },
-    {
       "person": "Andrew-Garfield",
       "date": "2026-10-05",
       "units": 12,
-      "maxScore": 0.002
+      "maxScore": 0.003
     },
     {
-      "person": "Bryan-Johnson",
-      "date": "2026-08-13",
-      "units": 34,
-      "maxScore": 0.001
+      "person": "Phoebe-Bridgers",
+      "date": "2026-08-15",
+      "units": 36,
+      "maxScore": 0.002
     }
   ],
   "top_pairs": [
     {
-      "score": 0.016,
+      "score": 0.531,
+      "other_person": "dakota-johnson",
+      "shared_phrases": [
+        "pushe back",
+        "she pushe back"
+      ],
+      "target": "[diagnosis] The better test is what she defends when she pushes back.",
+      "other": "[diagnosis] The better question is what she defends when she pushes back"
+    },
+    {
+      "score": 0.216,
+      "other_person": "dakota-johnson",
+      "shared_phrases": [
+        "explain piece",
+        "nine and seven"
+      ],
+      "target": "[diagnosis] Nine and Seven explain pieces.",
+      "other": "[diagnosis] Nine and Seven each explain pieces of her persona."
+    },
+    {
+      "score": 0.186,
+      "other_person": "dakota-johnson",
+      "shared_phrases": [
+        "made into someth"
+      ],
+      "target": "[diagnosis] is her work being made into something it isn't",
+      "other": "[diagnosis] and keeping her work from being made into something false."
+    },
+    {
+      "score": 0.053,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [],
+      "target": "[diagnosis] Fear alone cannot settle the question",
+      "other": "[diagnosis] Public interviews cannot reliably settle the stacking"
+    },
+    {
+      "score": 0.012,
+      "other_person": "dakota-johnson",
+      "shared_phrases": [],
+      "target": "[diagnosis] Fear alone cannot settle the question",
+      "other": "[diagnosis] The better question is what she defends when she pushes back"
+    },
+    {
+      "score": 0.012,
+      "other_person": "Bryan-Johnson",
+      "shared_phrases": [],
+      "target": "[diagnosis] The better test is what she defends when she pushes back.",
+      "other": "[counter-typing] The unresolved hinge is what he believes the role is for."
+    },
+    {
+      "score": 0.01,
+      "other_person": "Bryan-Johnson",
+      "shared_phrases": [],
+      "target": "[diagnosis] The better test is what she defends when she pushes back.",
+      "other": "[diagnosis] The stronger discriminator is what Johnson does with meanings that could damage his image."
+    },
+    {
+      "score": 0.008,
       "other_person": "Cara-Delevingne",
       "shared_phrases": [],
-      "target": "[diagnosis] Nine and Seven each explain pieces of her persona.",
-      "other": "[counter-typing] sustained on-record framing of her own motive as escape from pain or reality full stop"
+      "target": "[diagnosis] The better test is what she defends when she pushes back.",
+      "other": "[counter-typing] It falls short only because every account she gives of what she was running from is worded as an identity complaint."
     },
     {
       "score": 0.007,
       "other_person": "machine-gun-kelly",
       "shared_phrases": [],
-      "target": "[diagnosis] Nine and Seven each explain pieces of her persona.",
-      "other": "[counter-typing] The Type 3 case is strong and this piece already made it"
-    },
-    {
-      "score": 0.007,
-      "other_person": "machine-gun-kelly",
-      "shared_phrases": [],
-      "target": "[diagnosis] and keeping her work from being made into something false.",
+      "target": "[diagnosis] Nine and Seven explain pieces.",
       "other": "[counter-typing] The Type 3 case is strong and this piece already made it"
     },
     {
       "score": 0.006,
-      "other_person": "Phoebe-Bridgers",
-      "shared_phrases": [],
-      "target": "[diagnosis] and keeping her work from being made into something false.",
-      "other": "[counter-typing] Type 4 stays ahead because Bridgers repeatedly limits strategies that require a false or simplified self."
-    },
-    {
-      "score": 0.005,
-      "other_person": "machine-gun-kelly",
-      "shared_phrases": [],
-      "target": "[diagnosis] and keeping her work from being made into something false.",
-      "other": "[diagnosis] \"for spiritual purposes only.\" Fifteen years of the visual identity that made him famous went under the block."
-    },
-    {
-      "score": 0.005,
       "other_person": "jeremy-allen-white",
       "shared_phrases": [],
-      "target": "[diagnosis] Nine and Seven each explain pieces of her persona.",
-      "other": "[diagnosis] which could describe a Nine finding presence."
-    },
-    {
-      "score": 0.005,
-      "other_person": "machine-gun-kelly",
-      "shared_phrases": [],
-      "target": "[diagnosis] and keeping her work from being made into something false.",
-      "other": "[diagnosis] the evidence that something real is happening underneath."
+      "target": "[diagnosis] Fear alone cannot settle the question",
+      "other": "[diagnosis] He told GQ in July 2022 that he had become \"too concerned with what other people might think.\" The fear was larger than typecasting."
     },
     {
       "score": 0.005,
       "other_person": "Freddie-Mercury",
       "shared_phrases": [],
-      "target": "[diagnosis] Nine and Seven each explain pieces of her persona.",
-      "other": "[diagnosis] On the Enneagram's nine-type map of motivation"
+      "target": "[diagnosis] Fear alone cannot settle the question",
+      "other": "[counter-typing] and cannot account for a man whose catalog marinates in loss."
     },
     {
-      "score": 0.004,
-      "other_person": "Phoebe-Bridgers",
-      "shared_phrases": [],
-      "target": "[diagnosis] and keeping her work from being made into something false.",
-      "other": "[diagnosis] “I was telling the truth.” The work had located something her conscious account had missed."
-    },
-    {
-      "score": 0.003,
-      "other_person": "Cara-Delevingne",
-      "shared_phrases": [],
-      "target": "[diagnosis] Nine and Seven each explain pieces of her persona.",
-      "other": "[diagnosis] A Seven's relationship to pain is exit."
-    },
-    {
-      "score": 0.003,
-      "other_person": "machine-gun-kelly",
-      "shared_phrases": [],
-      "target": "[diagnosis] Nine and Seven each explain pieces of her persona.",
-      "other": "[counter-typing] A Seven sprints away from the dark room"
-    },
-    {
-      "score": 0.003,
+      "score": 0.005,
       "other_person": "jeremy-allen-white",
       "shared_phrases": [],
-      "target": "[diagnosis] Nine and Seven each explain pieces of her persona.",
-      "other": "[diagnosis] White describes a public persona that feels unfamiliar"
+      "target": "[diagnosis] Nine and Seven explain pieces.",
+      "other": "[diagnosis] which could describe a Nine finding presence."
     }
   ]
 }

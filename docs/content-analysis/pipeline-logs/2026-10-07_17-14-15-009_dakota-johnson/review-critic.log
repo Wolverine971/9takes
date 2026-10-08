@@ -13,3 +13,21 @@ The critic review for the Dakota Johnson draft is done: 8 findings (6 major, 2 m
 The similarity check flagged no reused writing from other profiles.
 
 The output is at `docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-critic.json`.
+The critic stage is complete. I wrote the one requested output, `review-critic.json`, and touched nothing else.
+
+**What I verified first.** The request's content hash matches the frozen draft via the contract's editorial hash, and the evidence hash matches the parsed evidence record. The output validates against the review schema in the editorial contract. Every finding and protected passage is an exact substring of the draft.
+
+**Verdict.** The draft confronts the Six case more honestly than most profiles, with a real Six section and the concession that on fear and safety alone Six would win. The problem is where the discriminator is built. The thesis section repeatedly keeps the Four-shaped half of a quote and drops the Six-shaped half from the same sentence, and it omits lines from opened sources that bear directly on the lede's absolute claim that she has "never" described a set as a place where she was misled or left unprotected.
+
+**Findings (5 major, 3 minor):**
+
+- **Lede and FAQ absolute "never misled or left unprotected."** The record's own claim context says the Fifty Shades script was scrapped after she signed. The draft also trims "If I had known at the time that's what it was going to be like" from the regret quote. I opened the Variety interview and confirmed "I can't waste time on toxic sets anymore," which is not in the inventory or the draft.
+- **Gyllenhaal trust quote truncated.** The source continues "She knows what it feels like to not be handled with grace and with care." The draft cuts the care half, then asserts the trust rested on being seen.
+- **"Her stated overrides fit the second" overclaims.** Every override she states runs through a trusted person first, in the same breath as the vision claim.
+- **Taylor-Johnson and James used as corroboration of her injury's shape.** They describe their own dispute, and the draft later admits neither speaks to her motives.
+- **Three rebuttal omits "It wasn't my fault."** I opened the LA Times piece and confirmed it is her first answer on Madame Web, directly before the "Who cares?" shrug the draft uses.
+- Minor: the industry critique omits the "don't trust creative people or artists" line the research record flagged as Six-shaped. The Fincher gloss ignores the authority-praise reading. "She prizes chosen family" states a proverb definition as a personal value.
+
+**Similarity diagnostic.** Every tripped pair is this subject's own earlier draft, not another profile. The highest cross-subject score is a sentence shape, not a reused argument.
+
+**For the editor.** The draft sits at 4,297 words against a 4,500 ceiling, so every added quote must displace something. The Four reading may still lead once these lines are on the page, but the absolutes in the lede, FAQ 2 and meta description cannot stand as written.

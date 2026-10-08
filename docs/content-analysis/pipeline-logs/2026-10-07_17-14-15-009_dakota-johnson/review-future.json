@@ -1,65 +1,79 @@
 {
-	"schema_version": 3,
-	"role": "future",
-	"content_sha256": "77a606b0cdd9f977ba00778706be75962db4fb7e82faa05d13f41637ab154618",
-	"evidence_sha256": "98f08e7c6e7a4ee2c46cada7c4a827fb0a3e4bd15e49c578e736b26fe3656381",
-	"risks": {
-		"sensitive_allegations": true,
-		"contested_typing": true,
-		"historical_source_uncertainty": false,
-		"major_thesis_change": false
-	},
-	"findings": [
-		{
-			"id": "future-01",
-			"severity": "minor",
-			"passage": "\"Maybe spending a little bit more time just existing as a human is what I'll be doing,\" she said.",
-			"problem": "The article's last sentence is its most perishable claim: a 2026 forward plan (C119, time_sensitive). The closing section is built entirely from one July 2026 promotional encounter (the Vogue cover story timed to Verity). Its first paragraph stacks four facts that do nothing for the type argument and will age fastest: age 36, the June 2025 breakup, wanting children, and promoting Verity. Remove that Vogue piece and the whole ending disappears, even though the body's thesis survives. Nothing here becomes false, because each line is dated or attributed. But the first time she announces a slate, a child or a new relationship, a reader meets an ending about a 2026 crossroads that has already resolved, and a line about slowing down that may read as ironic. The durable insight is the recurring one: wrap grief she has felt \"I don't even know how many times.\"",
-			"acceptance_test": "The final sentence of the article states or illustrates the recurring pattern (wrap heartbreak, the set as what she protects) rather than a 2026 plan. If the slowing-down quote stays, it appears earlier in the section and is explicitly framed as something she said in 2026. The breakup, children and Verity material is cut to at most one dated clause or removed. Nothing in the last two paragraphs would need editing if she announced three new films, a child or a new relationship next year."
-		},
-		{
-			"id": "future-02",
-			"severity": "minor",
-			"passage": "Her home life now: \"Just low-key.\"",
-			"problem": "Several narrator sentences present dated statements as present facts, so they will drift silently. They are: \"Her home life now\" (C105, a 2026 remark, marked stable); \"Tender is her favorite word, tattooed on her forearm\" (a 2017 Vogue report, C35, stated as a current fact); \"Johnson jokes that she and Jennifer Lawrence 'could be the ultimate internet trolls'\" (C109, which has no year or source in the prose and drops the source's conditional, \"if we, A, had the time and, B, the interest\"); and \"with Saoirse Ronan in the cast and due in 2027\" (a future release stated in the narrator's voice rather than as Vogue's 2026 report; C43 has a trigger, but the wording expires first). A parenthetical that cites a source does not date a present-tense \"now\" sentence for a reader five years out.",
-			"acceptance_test": "Each of the four passages carries an absolute year and source inside the sentence. For example: \"In 2026 she called her home life 'Just low-key'\"; \"Vogue reported in 2017 that tender was her favorite word\"; \"On a 2026 Vogue podcast she joked that she and Lawrence 'could be the ultimate internet trolls if we, A, had the time and, B, the interest'\"; \"which Vogue said in 2026 was due in 2027.\" No narrator sentence uses \"now\" for a state of her life. C105 and C35 are either reworded so they stay true or marked time_sensitive with a review_trigger."
-		},
-		{
-			"id": "future-03",
-			"severity": "minor",
-			"passage": "TeaTime Pictures, which she founded in 2019 with former Netflix development executive Ro Donnelly.",
-			"problem": "\"What is Dakota Johnson's production company?\" is a present-tense status FAQ, but its claims (C127, C128) are marked stable with no review_trigger. Partners, ownership and slate change over five years. FAQ answers are lifted verbatim into search snippets and FAQ structured data, so this is the sentence most likely to be served stale without anyone rereading the body. The two-title list (\"TeaTime produced Cha Cha Real Smooth and Daddio\") will also read as complete when it is not.",
-			"acceptance_test": "C127 and C128 are marked time_sensitive with a concrete trigger, such as: recheck TeaTime's status, cofounder and slate at each refresh and whenever a TeaTime production is announced or released. The FAQ answer stays true as the slate grows, for example \"its early productions included Cha Cha Real Smooth (2022) and Daddio (2024).\""
-		},
-		{
-			"id": "future-04",
-			"severity": "minor",
-			"passage": "Dakota Johnson most likely fits Enneagram Type 4, the Individualist, at medium confidence.",
-			"problem": "This is a medium-confidence, contested typing with a live counterphobic Six rival, and the discriminator (\"what her safety is for\") rests mostly on promotional self-report from 2017, 2022 and 2026. The evidence record never names what future evidence would reopen the call. The discriminator and interpretation claims (C97, C98, C101) are stable with empty triggers, and the only related research task is generic (\"find a critical or non-promotional account\"). Over five years the likeliest new evidence is non-promotional: a collaborator's account of a TeaTime production that went wrong, a long-form podcast or memoir, or her own account of the 2026 pause. Without named observables, a refresh cannot tell whether new material moves the read toward Six or confirms Four.",
-			"acceptance_test": "The evidence record names at least two concrete, observable reopen signals, either in research_tasks or as a review_trigger on the discriminator or interpretation claims. Examples: whether she describes a future production conflict as being misled or left unprotected (toward Six) or as the work being made false (Four); whether she credits steadiness to preparation and trusted authority (Six) or to feeling free to feel (Four); and whether she frames the post-2026 pause as seeking security or seeking meaning. It also says when to check: at each refresh, on the release of Three Incestuous Sisters, and whenever a non-promotional long-form account appears."
-		}
-	],
-	"protected_passages": [
-		{
-			"passage": "Across a decade, one grievance: what reached the screen stopped being what she signed up to make.",
-			"reason": "The thesis spine is built from dated events spanning 2015 to 2025 (Fifty Shades, the 2020 Marie Claire remarks, Madame Web). It is the main reason the argument survives removal of the 2026 Vogue cycle."
-		},
-		{
-			"passage": "Not that she was good, or that she had arrived. That she did something different.",
-			"reason": "A specific, durable detail (a 2010 compliment she still treasured in 2022) that carries the identity motive without relying on anything current."
-		},
-		{
-			"passage": "So the line, as far as her record shows, runs between a bit, which everyone can see is a game, and a faked feeling.",
-			"reason": "The article's original insight. It rests on 2017 to 2024 material, is labeled as inference, and holds up whatever she does next."
-		},
-		{
-			"passage": "That covers the first film only. Johnson's rewriting and the sequels rest on her word. As of October 2026 no public response from James to either account had been found.",
-			"reason": "A model of durable handling for an unresolved dispute. The scope of the corroboration is stated, the absence of a response is dated, and claim C70 carries an actionable trigger."
-		},
-		{
-			"passage": "For most actors, wrap is the end of a job. For Johnson it means losing, again, the kind of set Vogue says she joined the industry for: \"a safe container full of artists feeling free.\"",
-			"reason": "The one part of the 2026 ending that describes a recurring pattern rather than a status. It is the right closing beat if the surrounding status material is trimmed under future-01."
-		}
-	],
-	"assessment": "Five-year test: the thesis passes. With the whole 2026 Vogue cycle removed (S01, S13, S18 to S22, S33, S34, S42), the Four case still stands on 2017 to 2025 evidence: Fincher's compliment, the Fifty Shades and Madame Web grievances, \"I don't have a method,\" the Lost Daughter remarks about being seen, Foley's 2017 bullshit-meter quote, and the 2017 and 2022 safety-as-precondition lines. The hook also passes. Its contradiction rests on the 2020 and 2021 limes episodes and the 2024 Bustle remarks, and the 2026 Vogue lines are dated. Absolute dates are used almost everywhere. The relative spans check out against the stated dates and the October 4, 1989 birth date: \"Ten months later\" (March 2020 to January 2021), \"five years before\" (June 2017 to 2022), \"Twelve years later\" (2010 to 2022), and \"At 36\" (for a July 2026 interview). The relationship date matches S01 and S16 (reported June 2025). Changing positions such as the Madame Web reversal and the James non-response are dated and handled honestly. Of the seven non-stable claims, all have workable triggers. The weaknesses are about how the piece ages, not about errors: the ending is a 2026 status snapshot that closes on a plan (future-01); a few present-tense and \"now\" sentences will drift (future-02); the production-company FAQ has no trigger (future-03); and the contested typing has no named reopen signals (future-04). I raised no major findings. Risk flags: contested_typing (medium confidence, live Six rival) and sensitive_allegations (parents' addiction reporting; the creative-control dispute with E.L. James). Limitations: as the future reviewer I relied on the evidence record's source excerpts and did not reopen URLs. The similarity advisory extracted only two units from this draft, both type-answer sentences, and did not trip (max 0.016 against a 0.04 threshold). Assessed directly, the article is distinctive. The limes, Ellen, Fincher, Easter Bunny and wrap-grief details are specific to her. The \"Seven runs from pain\" move recurs across the corpus, but here it is tied to her own quote and is ordinary type vocabulary, not reuse."
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "272a5965f4c044ec97197ae12a7730c04a84a4e63af43ad632dd8e9a8c79ab4c",
+  "evidence_sha256": "0f6635502cab9751fdaff1a624d423374cce5d9e9451dfa386d483eb19d6714e",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "Yet in a decade of interviews about the films that went wrong, she has never described a set as a place where she was misled or left unprotected. Her complaint, every time, is the one she gave at Cannes: the movie that reached the screen was not the movie she signed up to make.",
+      "problem": "The thesis is written as an absolute over her entire public record (\"never,\" \"every time\"), and the record was not exhausted: research lists the Good Hang with Amy Poehler episode (June 10, 2025) as unopened, along with the Telegraph 2015, Vogue UK 2016 and Glamour UK 2017 originals. The opened Variety interview of July 7, 2025 (S45) also has her saying \"I can't waste time on toxic sets anymore,\" a line that is not inventoried in the claims and that a reader could take as describing a set where she was not protected. One future interview framing a set as unsafe falsifies the sentence outright, and because it is the test the profile rests on, the only repair would be rewriting the thesis. The same absolute recurs in \"Every fear she names is circumstantial\" and in the Type 6 FAQ (\"never that she was misled or left unprotected\"). C95's reopen trigger is right; the prose should be written so it stays true as the record grows.",
+      "acceptance_test": "The thesis sentence, the \"Every fear she names is circumstantial\" sentence and the Type 6 FAQ are scoped to the reviewed record (for example, \"In none of the interviews reviewed here, from 2015 to 2026, has she described a set as a place where she was misled or left unprotected\" and \"Every fear she names in this record is circumstantial\"); the July 2025 \"toxic sets\" line is inventoried as a claim and either addressed in the body (as a statement about collaborators rather than about being misled) or recorded in the evidence as considered and why it does not change the read; C95 and C204 keep their reopen triggers and their claim text records the scope."
+    },
+    {
+      "id": "future-02",
+      "severity": "minor",
+      "passage": "the other party to her central dispute has not answered",
+      "problem": "This sentence in the limits paragraph depends on the same unresolved fact as \"As of October 8, 2026, no public response from James to either later account had been found\" (C70) and the Fifty Shades FAQ (C205), but it is not covered by either claim's passage or trigger. If E.L. James responds, a refresh guided by C70 would update the dated sentence and the FAQ and leave this one stale and false.",
+      "acceptance_test": "C70's review_trigger (or a new claim) names this sentence as a third place to update, so that one trigger covers the dated body sentence, the limits paragraph and the FAQ; no prose change is required otherwise."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "On the small feature she planned to direct in 2025, written with Vanessa Burghardt:",
+      "problem": "\"planned to direct in 2025\" reads as a 2025 shoot. The source (Variety, July 7, 2025) says she was getting ready to shoot, and the research notes an unused \"July 2026 plan\" claim, which suggests the film was still a plan a year later. A reader in 2029 cannot tell whether the film was ever made, and the Four argument built on \"I can see this world\" does not need the production status at all. C180 is time_sensitive with the right trigger, but the prose pins the year to the wrong verb.",
+      "acceptance_test": "The sentence dates the statement rather than the production (for example, \"On the small feature she said in July 2025 she was preparing to direct, written with Vanessa Burghardt\"), says nothing about whether it was shot unless the accuracy check established that, and C180's passage is updated to match."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "In February 2024 the superhero film _Madame Web_ opened; Wikipedia calls it \"critically and commercially unsuccessful.\"",
+      "problem": "A verbatim quotation of a live wiki page's current wording, linked without a retrieval date. The phrasing will change, so a later reader following the link may not find the quoted words, and a mutable tertiary page is the weakest kind of citation for a characterization. The fact is uncontested and the Bustle context already carries it (\"Asked about its reviews\"). The two other Wikipedia attributions (the 1999 debut, the trilogy gross) are stable facts and age fine.",
+      "acceptance_test": "The Wikipedia quotation is replaced by a dated contemporaneous report of the film's reception or box office (February to March 2024) or by neutral prose that needs no quotation (for example, \"opened to poor reviews and weak box office\"), and C138's source_ids and passage are updated accordingly."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "In spring 2026 she produced and starred in Alice Rohrwacher's _Three Incestuous Sisters_, shot on Stromboli and in Rome",
+      "problem": "An unreleased film with no distributor date is named with a final-looking italic title, while Johnson's own quote in the same paragraph calls it \"Three Sisters.\" Pre-release titles change often, and C43's trigger covers the release date and reception but not the title. The Stromboli shoot is the durable evidence; the title is the fragile part.",
+      "acceptance_test": "C43's review_trigger adds \"confirm the release title,\" and the prose either attributes the title to its source (\"the film Vogue reported as Three Incestuous Sisters\") or keeps the italic title with that trigger recorded; the editor may reject the prose change if the trigger alone is judged sufficient."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "Accepting a depression-advocacy award in November 2023, she described a low day her partner caught before she did:",
+      "problem": "\"her partner\" is undated relative to the reader's present. The linked ¡HOLA! headline names Chris Martin, and the evidence record (S16) notes the couple split in June 2025. The draft rightly leaves the name out, but a reader in 2029 will take \"her partner\" as current unless the sentence says otherwise. C183 is marked stable with no trigger, which is fine for a historical anecdote once the prose is time-fixed.",
+      "acceptance_test": "The phrase reads \"her partner at the time\" (or equivalent), no name is added, and C183's passage is updated to match."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"I found myself as an actor, a few times, showing up to the premiere of a movie to see it the first time,\" she said. Her verdict on those nights: \"That is not what I thought we were making.\"",
+      "reason": "A dated, sourced hook (Cannes, May 2025) that describes a repeated pattern (\"a few times\") rather than a current event. It will still be the right opening in 2031 and it is the Durability 9 anchor in practice."
+    },
+    {
+      "passage": "As of October 8, 2026, no public response from James to either later account had been found.",
+      "reason": "The model of a dated unresolved statement with a matching trigger (C70). It keeps the Fifty Shades section fair to a named living person and makes the maintenance step obvious."
+    },
+    {
+      "passage": "If one does, its shape will matter: a fight framed as being misled or left unprotected would point toward Six, one framed as the work made false toward Four.",
+      "reason": "A built-in settle signal that tells a future editor exactly what evidence would move the read. This sentence is what makes the page reopenable instead of merely dated."
+    },
+    {
+      "passage": "Plenty of actors grieve a wrap, and a Six could mourn the loss of a secure group. What is hers is the count, more times than she can number by her own account, and what ends.",
+      "reason": "The close uses the latest interview (July 2026) but rests on a self-reported recurring pattern, so removing the Verity context leaves it intact, and it keeps the Six alternative live to the last paragraph."
+    },
+    {
+      "passage": "and the vow was gone: \"There's no part of me that's like, 'Oh, I'll never do that again' to anything. I've done even tiny movies that didn't do well. Who cares?\"",
+      "reason": "A dated 2024-to-2025 reversal that survives the type argument and ages well because both tellings are dated. It is the kind of contradiction the standard asks to preserve rather than smooth over."
+    }
+  ],
+  "assessment": "Five-year test: passes on substance. The central discriminator (fear named freely, grievance about the work made false) rests on Vanity Fair 2022, Vogue 2017, Marie Claire 2020, Bustle and L'Officiel 2024 and LA Times/Cannes 2025; removing the latest event (the Vogue October 2026 cover and Verity) costs the close its final quote and a few supporting lines (\"I just want to be authentic,\" the womb-like set, \"everyone is a spy\") but not the argument. Verity and Three Incestuous Sisters appear for orientation only, as the research asked. Dates are absolute throughout; the only relative words (\"now,\" \"still\") sit inside quotations. The Type 6 alternative is argued from dated evidence rather than from her current mood, so a later run that settles on Six would find the record it needs here. The hook and the close both describe repeated patterns rather than a comeback or a current title. The one consequential durability defect is that the thesis sentence is written as an absolute over an unexhausted record (future-01); scoped to the reviewed interviews it degrades gracefully, as written it can be falsified by a single new interview. The evidence record's time_sensitive and unresolved claims (C43, C70, C95, C113, C115, C156, C157, C170, C180, C205) carry actionable triggers; the gaps are small (future-02 through future-06): one untracked echo of the James non-response, an ambiguous year on the directing project, a live-wiki quotation, an unreleased title, and an undated \"her partner.\" \"Best known for the Fifty Shades of Grey films\" is a status claim but a safe one over five years. Similarity diagnostic: every tripped pair is a self-match against the previous dakota-johnson draft in the same run; the highest cross-subject score (0.053, jeremy-allen-white) is a generic \"cannot settle\" phrase, not reused argument. Risk flags unchanged from the evidence record; nothing from the future seat warrants escalation."
 }

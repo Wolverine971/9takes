@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "dakota-johnson",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/candidate-repair.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/evidence-repair.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/resolution-repair.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/checks-repair.json"
+  },
+  "outputs": {
+    "verification-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/verification-repair.json"
+  },
+  "content_sha256": "465ebee4d5a2b537966c10e55cd486daa858ea3b4f07e54791109d57bb51500f",
+  "evidence_sha256": "97293f35ebf7690479f0ffa9370dd498b6f26a832bca880fc5919d6d2160d9dc"
+}

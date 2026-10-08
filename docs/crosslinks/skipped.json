@@ -650,6 +650,191 @@
 			"id": "/personality-analysis/pete-davidson -> /personality-analysis/machine-gun-kelly",
 			"reason": "mental-health crisis scene (2018 welfare check)",
 			"date": "2026-10-01"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-types-and-career-choices -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "'do not apologize for your resume path' is not about apologizing",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-strengths-and-weaknesses -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "sentence is about stating a position without an apology, not about apologizing",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/pop-culture/fallen-founders-enneagram-analysis -> /pop-culture/tech-titans-disruptors",
+			"reason": "Kalanick mention; his own personality page is the right target",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/community/why-im-selective-sharing-enneagram -> /enneagram-corner/mental-health/enneagram-science-mental-health",
+			"reason": "only mention is inside a quoted conversation",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-and-mental-illness -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"reason": "'cheats on tests' word match on the top-traffic page",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /pop-culture/tech-titans-ai-wars",
+			"reason": "Dario Amodei roster mention; his own page is the target, and roster says 5 vs page 6",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/pop-culture/parasocial-relationships-enneagram-type -> /enneagram-corner/enneagram-vs-personality-frameworks-comparison",
+			"reason": "'support beyond a personality framework' is a caution, not a topic",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/pop-culture/the-office-enneagram-types -> /enneagram-corner/love-languages-and-enneagram-types",
+			"reason": "'love language' used as metaphor",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-harmonic-approaches -> /enneagram-corner/love-languages-and-enneagram-types",
+			"reason": "'love language' used as metaphor",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "John Coogan roster mention; his own page is the right target",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /pop-culture/kardashian-family-enneagram-analysis",
+			"reason": "Kris Jenner roster mention; her own page is the right target",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/attachment-styles-and-enneagram-types -> /enneagram-corner/enneagram-social-styles",
+			"reason": "'triads' there means centers of intelligence, not Hornevian groups",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-social-styles -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "'host' word match",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-instinctual-subtypes -> /enneagram-corner/enneagram-test-comparison-2026",
+			"reason": "'variants' word match",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/how-each-enneagram-flexes -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"reason": "'cheat sheet' word match",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-test-comparison-2026 -> /enneagram-corner/enneagram-social-styles",
+			"reason": "'triads' inside a Cloverleaf feature list",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-parenting-mental-health -> /enneagram-corner/love-languages-and-enneagram-types",
+			"reason": "'information as love language' is a metaphor",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"reason": "'cheat sheet' word match",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-party-planner -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "'co-host' word match",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/what-is-a-love-language -> /enneagram-corner/mental-health/enneagram-science-mental-health",
+			"reason": "peer-reviewed research there is about love languages, not the Enneagram",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/pop-culture/google-leadership-evolution -> /enneagram-corner/enneagram-and-religion",
+			"reason": "'Christopher' (Hohn) word match",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /enneagram-corner/enneagram-and-religion",
+			"reason": "sentence is about Epstein lacking religious identity",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/how-to-guides/using-the-enneagram-for-self-development -> /enneagram-corner/enneagram-test-comparison-2026",
+			"reason": "'eclectic' word match",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/community/be-gentle-when-youre-right -> /personality-analysis/jimmy-fallon",
+			"reason": "Fallon is the venue; sentence is about Trump",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/pop-culture/artificial-movie-real-people -> /personality-analysis/lex-fridman",
+			"reason": "'told Lex Fridman'; sentence is about Altman",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/alex-cooper",
+			"reason": "see-also sentence listing names",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/theo-von",
+			"reason": "see-also sentence listing names",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/community/societal-ticking-time-bombs -> /personality-analysis/george-w-bush",
+			"reason": "citation list item (Bush Center)",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/pop-culture/hollywood-heartthrobs-enneagram-analysis -> /personality-analysis/greta-gerwig",
+			"reason": "director credit in a sentence about Gosling",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/how-type-8-challengers-actually-succeed -> /personality-analysis/bert-kreischer",
+			"reason": "name in a list about Rogan's circle",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/pop-culture/breaking-points-enneagram-analysis -> /personality-analysis/bernie-sanders",
+			"reason": "'Bernie Sanders movement' modifier in a sentence about Krystal Ball",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/pop-culture/fallen-founders-enneagram-analysis -> /personality-analysis/steve-jobs",
+			"reason": "'Steve Jobs cosplayer' comparison in a sentence about Holmes",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-2 -> /personality-analysis/bill-gates",
+			"reason": "quote attribution in Epstein context",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /personality-analysis/sergey-brin",
+			"reason": "photo name list in Epstein context",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /personality-analysis/paul-graham",
+			"reason": "'read Paul Graham's essays'; sentence is about Jordi",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/personality-analysis/hugh-jackman -> /personality-analysis/kate-hudson",
+			"reason": "co-star credit in a sentence about Jackman's roles",
+			"date": "2026-10-08"
+		},
+		{
+			"id": "/personality-analysis/lex-fridman -> /personality-analysis/khabib-nurmagomedov",
+			"reason": "guest-list mention",
+			"date": "2026-10-08"
 		}
 	]
 }

@@ -28,3 +28,28 @@ Supabase failed to connect this session, and several plugin connectors need auth
 Files are in `docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/`:
 - `draft.md`
 - `evidence-draft.json`
+Draft stage complete. Both requested outputs are written and pass the contract's own checks; nothing else in the repo was modified and nothing was published.
+
+**What I wrote**
+
+- `draft.md` in the run directory. Type 4 at medium confidence, with counterphobic Type 6 argued at full strength as the live alternative. The hook is her May 2025 Cannes line about showing up to premieres and thinking "That is not what I thought we were making," set against her own decade-long ledger of named fears.
+- `evidence-draft.json`, a continuation of the research record. All 54 sources retained; 139 claims, every one with an exact passage from the article or its metadata.
+
+**The argument, as the research record prescribed**
+
+- The discriminator is fear versus grievance, tested on her strongest Six-shaped source rather than around it. The 2022 Vanity Fair lines ("I was 23. So it was scary," "protect each other") are quoted in context beside "both Jamie and I were treated really well," and the grievance that survives is which movie got made.
+- Every piece of counterevidence the research flagged as mandatory is in the draft: 2016 "unsure that I will ever work again," 2017 "when I don't feel protected, I tend to close right up," 2021 "shepherd" and "is that going to be okay?", the 2023 low-day anecdote, 2026 "everyone is a spy." The Easter Bunny line sits on the Six side.
+- The Ellen exchange is presented as a truthful correction, the limes as two shifting first-person versions, the Fifty Shades fight as Johnson's and Taylor-Johnson's accounts beside James's 2015 words and her praise of James. No rehab claim, no romance, no unconfirmed Ellen line, no joke used as fear evidence.
+
+**Verification I did**
+
+- Reopened Vanity Fair 2022 and L'Officiel 2024 by curl to confirm quotes that were in claims but not in the stored excerpts; both confirmed and the source records now note the reopen.
+- Script-matched 137 quotations in the body against the source excerpts; all match verbatim.
+- Ran the contract's `checkDraft` and `validateEvidence`: no blockers, 4,297 words, meta title 51 characters, description 153, type answer 59 words.
+
+**Two things for reviewers to weigh**
+
+- **Length.** The draft is under the 4,500 hard limit but above the 2,000 to 3,500 target. A first pass quoting the record claim by claim ran 5,160 words. Three condensing passes cut it; further cuts would start removing counterevidence the research marked as required.
+- **Dropped claims.** 24 research claims are not used (the Ringer commentary, Michele, the 2018 Flicks defense, the troll and cult jokes, the two 2024 critics, among others). They are listed in the last research task with their sources retained, so a reviewer can ask for any back. The hypothesis texts were edited to reference only retained claims, and `for_claim_ids` drops C19 and C152.
+
+The similarity scanner trips only against the superseded live Dakota draft from the prior run, not against any other subject. Other subjects' overlap scores are negligible.

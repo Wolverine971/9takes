@@ -15,6 +15,6 @@
   "outputs": {
     "review-subject.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-subject.json"
   },
-  "content_sha256": "77a606b0cdd9f977ba00778706be75962db4fb7e82faa05d13f41637ab154618",
-  "evidence_sha256": "98f08e7c6e7a4ee2c46cada7c4a827fb0a3e4bd15e49c578e736b26fe3656381"
+  "content_sha256": "272a5965f4c044ec97197ae12a7730c04a84a4e63af43ad632dd8e9a8c79ab4c",
+  "evidence_sha256": "0f6635502cab9751fdaff1a624d423374cce5d9e9451dfa386d483eb19d6714e"
 }

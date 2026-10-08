@@ -269,7 +269,7 @@ The guidelines add that the system works best when people find their own type, a
 
 ## Discord servers: friends fast, typing faster
 
-When I checked [Disboard's Enneagram tag](https://disboard.org/servers/tag/enneagram) on October 3, 2026, the first page listed two dozen servers bumped within the previous four hours. Only a handful are Enneagram-only. Most are general typology servers that mix the Enneagram with MBTI, Socionics, and sometimes astrology.
+When I checked [Disboard's Enneagram tag](https://disboard.org/servers/tag/enneagram) on October 3, 2026, the first page listed two dozen servers bumped within the previous four hours. Only a handful are Enneagram-only. Most are general typology servers that mix the Enneagram with MBTI, Socionics, and sometimes [astrology](/enneagram-corner/astrology-and-the-enneagram).
 
 Read the listings and a pattern jumps out. **Typing is the headline feature.** Servers advertise typing-help channels, "typist" roles, free typing sessions, and type-themed hangouts built around a single number. The tone varies a lot. Some promise a non-toxic, SFW space, a few describe themselves as "semi-toxic" or lightly moderated, and the age gates run from 13+ to 18+.
 

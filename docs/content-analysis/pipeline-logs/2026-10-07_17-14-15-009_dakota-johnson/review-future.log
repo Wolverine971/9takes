@@ -17,3 +17,21 @@ I wrote the future-role review to `docs/content-analysis/pipeline-logs/2026-10-0
 - The similarity check read only two sentences of this draft, so I judged originality by reading it myself. It reads as specific to her.
 
 Several connectors need authorization before they can be used: Notion, Slack, Linear, Ahrefs, Amplitude and others. Connect them in your claude.ai connector settings, or with `/mcp` in an interactive session. The Supabase server also failed to connect. This stage didn't need any of them.
+The hash discrepancy was a convention difference, not stale inputs. Both request hashes match the frozen draft and evidence I reviewed. The stage is complete.
+
+**Wrote** `docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-future.json`. It parses against the contract's review schema, copies the request's role and both hashes, and every quoted passage appears verbatim in the frozen draft. No other file was touched.
+
+**Five-year verdict:** the thesis passes. The fear-versus-grievance discriminator rests on dated interviews from 2017 through 2025, so removing the October 2026 Vogue cover and Verity costs the closing quote and a few supporting lines but not the argument. Dates are absolute throughout. The hook (Cannes, May 2025) and the close both describe repeated patterns rather than a current title or comeback.
+
+**Findings** (one major, five minor):
+
+- **future-01, major.** The thesis sentence is an absolute over an unexhausted record ("she has never described a set as a place where she was misled or left unprotected... every time"). Research left the Good Hang podcast and several originals unopened, and the opened July 2025 Variety interview has an uninventoried "I can't waste time on toxic sets anymore" line. One new interview falsifies the sentence outright. Fix: scope the negative to the reviewed record, in the body and the Type 6 FAQ, and inventory the toxic-sets line.
+- **future-02.** "The other party to her central dispute has not answered" is a third copy of the James non-response fact that no claim trigger covers.
+- **future-03.** "Planned to direct in 2025" reads as a 2025 shoot the record does not support.
+- **future-04.** A live Wikipedia page is quoted verbatim ("critically and commercially unsuccessful") with no retrieval date.
+- **future-05.** The unreleased Rohrwacher film's title has no title-check in its review trigger.
+- **future-06.** "Her partner" in the November 2023 anecdote needs "at the time"; the source names Chris Martin and the split is on record.
+
+**Protected:** the Cannes hook, the dated "as of October 8, 2026" James line, the built-in settle signal in the open-questions section, the summer-camp close, and the 2024-to-2025 Madame Web reversal.
+
+**Risk flags** are unchanged from the evidence record (sensitive allegations and contested typing true). Similarity trips were all self-matches against the earlier same-subject draft; nothing cross-subject rose above noise.

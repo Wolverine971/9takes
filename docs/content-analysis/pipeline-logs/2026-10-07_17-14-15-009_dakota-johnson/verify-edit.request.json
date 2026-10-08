@@ -22,6 +22,6 @@
   "outputs": {
     "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/verification-edit.json"
   },
-  "content_sha256": "e26af1ab172f62fb6650acbdd8f2f89bd482d3872afbf79bd61344130ee32e9f",
-  "evidence_sha256": "b4a0a7e604ebf73a8af083f245711674b6784a9848aede79c4be050ffadf8a35"
+  "content_sha256": "b4a5f0079a523de7ae8d4207e62761178266ace8e28f92e3e8fd62f73ac6654b",
+  "evidence_sha256": "883aca2c796022f8f7bb587eea4c89fed2ae71dd0ca2c8f08dbc16a363614ede"
 }

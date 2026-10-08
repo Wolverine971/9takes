@@ -1,5 +1,4 @@
 // src/routes/personality-analysis/type/[slug]/+page.server.ts
-import type { Actions } from './$types';
 
 import type { PageServerLoad } from './$types';
 import { error } from '@sveltejs/kit';
@@ -44,51 +43,4 @@ export const load: PageServerLoad = async ({
 	const corpusInsight = getTypeCorpusInsight(slug);
 
 	return { people: publishedPosts as unknown as App.BlogPost[], slug, corpusInsight };
-};
-
-export const actions: Actions = {
-	createComment: async ({ request, getClientAddress, locals }) => {
-		try {
-			const supabase = locals.supabase as any;
-			const body = Object.fromEntries(await request.formData());
-
-			const comment = String(body.comment ?? '');
-			const rawAuthorId = String(body.author_id ?? '');
-			const author_id = rawAuthorId && rawAuthorId !== 'undefined' ? rawAuthorId : null;
-			const blog_link = String(body.blog_link ?? '');
-			const blog_type = 'personality-analysis';
-			const ip = getClientAddress();
-			const fingerprint = String(body.fingerprint ?? '');
-
-			if (fingerprint) {
-				await supabase.from('visitors').upsert(
-					{
-						fingerprint,
-						updated_at: new Date().toISOString()
-					},
-					{ onConflict: 'fingerprint' }
-				);
-			}
-
-			const { data: insertedComment, error: insertedCommentError } = await supabase
-				.from('blog_comments')
-				.insert({
-					comment,
-					blog_link,
-					blog_type,
-					author_id,
-					ip,
-					fingerprint
-				})
-				.select('id, blog_link, blog_type, comment, created_at, author_id');
-
-			if (insertedCommentError) {
-				console.log(insertedCommentError);
-			}
-			return insertedComment;
-		} catch (e) {
-			console.log(e);
-			return null;
-		}
-	}
 };

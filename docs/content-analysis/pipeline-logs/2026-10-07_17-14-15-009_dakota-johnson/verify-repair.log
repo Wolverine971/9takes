@@ -1,0 +1,19 @@
+Stage complete. I wrote the single requested output, `verification-repair.json`, and touched nothing else.
+
+**Outcome: pass.** The runner's deterministic check on the file reports eligible with zero blockers. Scores: evidence 8.7, Enneagram 8.3, originality 8.7, writing 8.2, durability 8.8, hook 9.0, discoverability 8.6, overall 8.6 (B+). All three ≥8 floors and the 8.5 overall gate clear.
+
+**What I actually verified**
+
+- Reopened all 35 sources cited by final claims, plus 13 same-page testimony sources, by curl with a Chrome user agent, yt-dlp caption pulls for the four YouTube clips, and Wayback captures for the two pages that now 403 (Entertainment Weekly, the Glamour relay). Seven unused sources were not reopened and are marked as such.
+- Ran every quoted string in the body and FAQs against the fetched texts by script. All matched verbatim in the cited source. The L'Officiel lines only surfaced after decoding the page's JSON payload.
+- Checked context on the load-bearing passages: the Vanity Fair Fifty Shades section in order (Combo, scrapped script, two sets of takes, the full regret conditional, "treated really well"), the Bustle defiance line and its gloss (byte-identical, em dashes included), the LA Times "It wasn't my fault" sequence, the Fallon stage-fright exchange.
+- One pleasant surprise: the Cannes hook's two quotations are one continuous sentence in the Variety text, so the "Her verdict on those nights" framing is supported by the source itself, not just by Variety's headline as the editor argued.
+- Web searches found no E.L. James response as of today and no later interview where Johnson describes being misled or unprotected on a set, so the dated non-response line and the scoped discriminator hold.
+- All 47 review decisions and the 7 prior verify repairs checked against their acceptance tests and accepted, including the one rejection (subject-05). All 19 protected passages are present verbatim. Metadata is consistent, every body link and all five suggestions resolve to live pages.
+
+**Two minor findings, neither blocking**
+
+- "written with Vanessa Burghardt" overstates: Variety says "working on alongside," Wikipedia and the October 2025 trade reports say Burghardt wrote the screenplay. Should read "written by."
+- "a year after The Lost Daughter" is six to nine months. Should read "months after."
+
+Both are one-word hand edits with a matching claim-text update (C180, C140). The pipeline's single repair pass is spent, so they fall to you before publish. Publishing remains the separate existing step.

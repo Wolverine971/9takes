@@ -1,0 +1,373 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "The intro no longer says “never” or “every time.” It now reads: in the interviews reviewed for this profile, 2015–2026, she locates the damage in the work, and “That can sound like being misled” is named at once. The test section opens “stated as a reading, not a fact about her”; “she separates them herself” is gone and the tipping observations are given as the profile’s reading (C184). “It’s also about control and feeling powerful, and that’s not what art is” is quoted from the same Bustle answer as “It’s contrived,” introduced “In the same answer” because two sentences about too many cooks sit between them (verify-02), with a sentence on what it does to the test (C79, C210). James’s 2015 line is kept only as her side of the fight; the sentence using it to characterize the fight as “rather than a betrayal” is replaced by C221. FAQ 2 is scoped (“in the interviews reviewed here… she has not named anyone who misled her”). C95 keeps its reopen trigger and C56/C204 now share it."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "The 2023 low-day anecdote is removed from the Six case (C183 dropped). Only the HOPE speech line about comedy as a “lifelong tool” (C182) remains, in the persona section, where it is not weighed for any type. The sentence “are a medical matter and are not counted for any type” is now true of every passage; the new Four-core lines (C215, C216) are introduced “apart from her depression, which is not counted.”"
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "The chosen-family sentence is cut and C23 removed; no Six loyalty point rests on it. Reopened Bustle context confirms the line was her gloss on a proverb while celebrating her blended siblings."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "The Bustle passage now opens “in the Bustle interview she flagged as exaggerated,” a local reminder beside the James material; the harshest characterization (“extremely precious about words, clothing…”) is no longer quoted. The rewriting claim carries her qualifier: she would rewrite scenes “with the old dialogue so I could add a line here and there” (C69)."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "rejected",
+      "reason": "Each of the three sentences is tied to her own words that establish it, which the acceptance test allows, and each is a protected passage another reviewer asked to keep verbatim. “Even the confession is a bit, and it changes between tellings” (protected by critic) follows the two differing Tonight Show tellings and sits in the section where she says lying to the press is “The most fun” and the posture is “a survival tactic.” “What she withheld was the fight” (protected by critic) follows her own “I haven’t been able to talk about this truthfully ever, because you want to promote a movie the right way,” which is what the sentence states. “What she keeps losing…” (protected by unfamiliar, whose reason is that it is the five-year sentence) paraphrases Vogue’s report of “this really intense connection to the material” and her “I don’t even know how many times.” Adding “reads as” hedges would blunt distinctive writing without adding accuracy."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "The paraphrase before the quote now stays inside her words: “about seeing finished films of hers for the first time at their premieres.” The two quoted sentences and “Her verdict on those nights:” are kept verbatim because three reviewers (critic, unfamiliar, future) protect that exact passage; Variety’s own headline presents the second quote as her reaction to those premieres (“Recalls Being Shocked at Her Movie Premieres: ‘That Is Not What I Thought We Were Making’”), so the framing follows the reporter rather than asserting adjacency, which S53 records as not asserted."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The conditional is restored: “If I had known at the time that’s what it was going to be like, I don’t think anyone would’ve done it. It would’ve been like, ‘Oh, this is psychotic.’ But no, I don’t regret it.” Confirmed against the reopened Vanity Fair text (C136)."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Now “The author, E.L. James, who goes by Erika,” Vanity Fair’s own phrasing (confirmed on reopen). No legal name is asserted; C07 records that THR’s “Erika Mitchell” is not used."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "See subject-01: the “control and feeling powerful” sentence is quoted from the same answer as “It’s contrived,” introduced “In the same answer” since two sentences about too many cooks sit between them (C79, verify-02) with a sentence on how a power grievance is weighed between Four, Six and Eight (C210: it cuts toward a Six or an Eight; its object, what art is rather than what was done to her, keeps it inside Four). “Her complaint, every time” and the “never” sentence are gone; the intro, the test section and FAQ 2 are scoped to the interviews reviewed and marked as the profile’s reading. C95’s trigger stays. The Hitchcock “power can poison people” line was not added: Vanity Fair’s context notes it is Johnson’s view of her grandmother’s experience, and the word ceiling left no room for a second power line that does not concern her own work."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Reopened Vanity Fair 2022 (plain curl) confirms: “Johnson scored a three-picture role… the playwright Patrick Marber (Closer) revised the script. But Hunnam ultimately dropped out… James was so enraged, Johnson says, that she scrapped the script.” The article now gives this as Johnson’s account (C209) and states that the contract fear “is of a production that had changed after she committed” (C165, C167), and the test section says the fear attaches to “a contract on a production that had already changed under her.” The “two independent accounts” sentence is replaced by C221, which limits the two accounts to the first film’s two-sided fight and no longer characterizes her grievance."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Both clauses are quoted in the test section: “because I knew that she knows what it feels like to not be seen. She knows what it feels like to not be handled with grace and with care” (2021), followed by “one ground about being seen, one about care.” The “rested on being seen” conclusion is gone; C100’s passage and inference are updated and C222 says how the care clause is weighed."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Same resolution as subject-02: the anecdote is removed from the Six case and C183 is dropped, so the article’s rule holds throughout."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Same resolution as subject-03: the sentence is cut and C23 removed; nothing in the article implies distance from her parents or siblings, and the family paragraph now carries her own count of “four brothers and two sisters” (C59)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "The accommodate-then-decide gloss is quoted in full, including the conditional clause about not hurting anyone that an earlier excerpt dropped (verify-01), a few lines after the defiance line (“Lines later she softened it…”, C218) with a sentence on what it does to the counterphobic reading (“less a charge at authority than a route around it”), and the Nine section uses it (C219)."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Same as subject-07: the conditional clause is restored (C136)."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "FAQ 5 now opens “She has said so twice, and the allergy claim itself has not changed. What changed is the story around it,” then gives both tellings: set dressing she didn’t know about and praising them was a lie (January 2021) versus seeing the bowl while filming, “I love them,” and the allergy from a later test (December 2021). C207 updated."
+    },
+    {
+      "finding_id": "fan-09",
+      "action": "fixed",
+      "reason": "Same as subject-06: the hook paraphrase now stays within her quoted words; the protected two-sentence passage is kept verbatim with the Variety-headline justification recorded there."
+    },
+    {
+      "finding_id": "fan-10",
+      "action": "fixed",
+      "reason": "Same as subject-08: “who goes by Erika,” per Vanity Fair."
+    },
+    {
+      "finding_id": "fan-11",
+      "action": "fixed",
+      "reason": "Now: “the only child the actors Don Johnson and Melanie Griffith had together; by her own 2024 count she has four brothers and two sisters, all half-siblings.” Vanity Fair’s “one of seven half siblings” and Bustle’s “I have four brothers and two sisters” (both reopened) support it; C59 reworded with S04 added."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "(a) The Marber-script context is quoted beside “I was 23. So it was scary” (C209, C165). (b) “If I had known at the time… I don’t think anyone would’ve done it” is restored (C136). (c) The toxic-sets line is inventoried (C181, reinstated with its research ID) with her definition of a toxic set (“anybody who’s mean or condescending or unkind,” “not willing to collaborate”; confirmed on reopening au.variety.com) and appears in the TeaTime paragraph and the test section, where it is weighed as a Six’s vocabulary whose object is unkindness rather than betrayal (C222). (d) “I have no say about anything” remains quoted. The absolute is replaced with bounded claims: the intro says where she locates the damage; FAQ 2 says she has not named anyone who misled her and that the Fifty Shades fear is of a production that changed after she signed; the description now reads “What she fights over is the work itself. Why Type 4 leads and Type 6 stays close.” Body is 4,484 words."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Same as fan-03: both halves quoted, the conclusion rewritten, C100 updated."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The dichotomy is replaced: “When she overrides fear, the override is mixed, and the mix is the point: a trusted person and a claim of vision usually arrive in the same answer” (C190), then Burghardt “with her, I feel very protective” beside “I can see this world,” Gyllenhaal as shepherd beside “letting go of how I allowed others to look at me,” and “The ally is there each time, as Six theory predicts, so the tilt toward Four cannot rest on its absence, only on what she adds” (C223). The 2023 low-day example is gone from the article (subject-02); the Materialists “good hands” line stays in the Eight paragraph as ceded control."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "The sentence is replaced by C221: “Taylor-Johnson’s and James’s accounts establish only that the first film’s creative-control fight was real and two-sided; neither describes how Johnson experienced it.” The characterization of her grievance is attributed only to her words (C184, C210), and “neither speaks to her motives” stays in the open-items section (C113)."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Reopened the LA Times (JSON-LD body): “‘It wasn’t my fault,’ Johnson says, laughing slightly while maintaining her focus. ‘There’s this thing that happens now where a lot of creative decisions are made by committee…’” The line and the committee sentence are inventoried (C213) and quoted in the Madame Web paragraph; the Three paragraph quotes “It wasn’t my fault” again (on repair both places say her first answer on the film began with it, since her first words at its mention were “Go on,” verify-03), states the timing of the 2022 account (four years after the franchise ended, a year after The Lost Daughter, “when distancing cost least,” C140), concedes self-deprecation as image management and the bankable persona (C214), and then names the discriminator that survives (shrugs at flops, doesn’t “make sense” in the superhero world, would accept the Rohrwacher film as her last, grievances aimed at contrivance rather than reception, C155) before conceding that Four-leaning-Three and Three-leaning-Four are not cleanly separable here (C229). The “creative bone” clause was cut for length; the claim text records it."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "“The people who run streaming platforms don’t trust creative people or artists to know what’s going to work” now appears directly after the “safe thing is really boring” line, with: “That is distrust, a Six’s word; the remedy beside it is nerve, ‘What’s going to happen if you do something brave?’, not reassurance.” C179’s passage is updated. The Cannes “we are fighters” line was not added for length; “fighters” remains the persona title’s source (C200)."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "The protected two sentences are kept verbatim (three reviewers protect them) and a sentence is added after them: “Any type would treasure Fincher’s praise; what this profile reads is the word she kept” (C226), which acknowledges that an authority’s approval would be prized by other types and states that the repeated word is what tilts the remark."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Same as subject-03/fan-05: the sentence is cut and C23 removed rather than attributing a definition as her personal ranking."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Directly after the Type 4 sentence: “A Type 6 is organized around security: certainty and support in a world that feels unsafe. Most Sixes seek cover; the counterphobic kind meets fear by charging at it.” The 60-word answer and FAQ 1 now define the term inline (“A counterphobic Type 6, which charges at fear”). “The Four’s neighbor among the image types” is gone; the Three paragraph ends in plain language: “The two types sit side by side on the Enneagram, and a Four leaning toward Three and a Three leaning toward Four are not cleanly separable on this record.”"
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Where “signed up to do a very different version” first appears: “That can sound like being misled, so what she described next matters,” followed by the “Combo” answer, the creative-control lines, the scrapped-script context, the two sets of takes and overnight rewrites, her praise of James, and the answer: “That is a fight she was inside daily, over what the film would be, not a deception discovered later” (C212). The intro no longer asserts a “never”; it states where she locates the damage and names the objection in the same paragraph."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The Easter Bunny line now carries its setup from C98: “Recalling the morning at 10 when she learned the Easter Bunny was not real, she said in 2022, ‘But if I could, I would still believe in it now. Maybe that’s why I make movies…’”"
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Gyllenhaal is “its director, Maggie Gyllenhaal” at first mention (C45 updated; S03 locator notes she wrote and directed The Lost Daughter). Burghardt is “Vanessa Burghardt, who played her daughter in Cha Cha Real Smooth” (C180; S45 context, and on repair the Wikipedia sentences in S16 and the Cha Cha Real Smooth cast list, S55, verify-05). Rohrwacher: “Three Incestuous Sisters, directed by Alice Rohrwacher and shot on Stromboli and in Rome,” and the Three paragraph says “the Rohrwacher film” rather than asking the reader to infer “Italian.”"
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "The full misled-or-unprotected versus work-made-false formulation now appears twice in the body: once in the test section (as the test) and once in the open-items sentence, which two other reviewers protect verbatim and which is therefore kept with a forward-pointing sentence added after it (C228) rather than reworded. The intro restatement and the second restatement at the top of the old test section are gone; the trim was taken from restatement, and the body dropped from 4,297 to 4,484 words after the additions the other findings required."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Meta title: “Dakota Johnson Enneagram Type: Type 4, With Type 6 Close Behind” (63 characters). Description: “Dakota Johnson names her fears freely: fame, a contract at 23, stage fright. What she fights over is the work itself. Why Type 4 leads and Type 6 stays close.” (158 characters). C201, C202 updated."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Same as fan-11: the sentence gives her own count (four brothers, two sisters, all half-siblings) instead of the ambiguous “one of seven half-siblings.”"
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The lede and FAQ 2 no longer claim she “never” describes being misled or unprotected. The test section now quotes “not be handled with grace and with care” (2021), names the 2026 “not taken care of or not seen” line, the 2025 “toxic sets” and the 2024 “don’t trust creative people or artists,” calls each “a Six’s vocabulary of safety and distrust,” and states why Four still outweighs them: the object of each is care for people’s freedom to express themselves, a toxic set defined by unkindness rather than betrayal, and distrust of artists; (C222). The concession sentence that followed, “These lines narrow the Four lead without erasing it,” was cut on repair for length (verify-07); the protected limits paragraph still concedes that the Six reading is only outweighed on content. “Signed up to do a very different version” is acknowledged as readable both ways (“That can sound like being misled”) in the intro and where it appears. Confidence stays medium; the limits paragraph (protected) still says the Six reading is only outweighed on content."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "The rule and method refusals are explicitly labeled as fitting “a counterphobic Six as well as a Four” (C224) and are no longer in an anti-Six column. The paragraph restates the discriminator in the counterphobic variant’s terms: “a counterphobic Six aims defiance at the authority or the fear; a Four aims expression at the work and the self,” weighs “I just won’t let anybody else do it” inside the test (“reads either way”) and the Bustle defiance line (“defiance with no expression in it”), drops “never,” and says the overrides are mixed (C170, C190, C223). The non-standard “Four theory predicts fear tolerated for the sake of feeling” sentence is gone."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The test section sets the counterphobic-Six reading of the Vanity Fair passage beside the Four reading: “an author with control ‘all day, every day’ who ‘demanded that certain things happen,’ resisted covertly with two sets of takes and overnight rewrites, and judged in hindsight as ‘psychotic’” (C220). It then names the tipping observations in her wording (C184): she never disputes James’s right to the control she held and is grateful James wanted her; she answers “Combo” and spreads the blame across studio, directors and author (C211, confirmed on reopen); and the wrong she names in 2022 and 2024 is what the control did to the work, “contrived,” “that’s not what art is,” not what it did to her (C79, C210). The “usually fuses” sentence is rewritten as the profile’s own test (“The test for a Six is whether fear and grievance fuse in one figure: an authority who misled her, left her exposed, or imposed its will on her without the right to”). The settle signal is widened by a sentence after the protected one (C228). Because a tipping observation exists, confidence stays medium; the limits paragraph names the narrowness."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Two dated lines now carry the Four’s core in the self-definition paragraph, introduced “apart from her depression, which is not counted”: “I don’t know if I’m from anywhere or I belong anywhere… So, yes, I do relate to the alien” (Bustle, 2024, C215) and “I was a disaster, and I thought for so long that there was something wrong with my brain. Now I realize that it just works in a different way” (Vogue, 2017, C216). The “apply great meaning” and “useless piece of sh*t” lines were not added for length and because the second sits inside her depression talk. The paragraph also now concedes that “authentic” and “different” are industry words before offering the plainer ones."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The “big naked movies” line is dropped from the override list and from the article; C191 records it as curiosity that does not discriminate between Four, Seven and counterphobic Six. The override paragraph keeps only the Lost Daughter gaze line and the Burghardt vision line."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "The Nine paragraph now quotes “I guess I have a lot of complexities, but they don’t pour out of me. I don’t make it anyone else’s problem” (2020, C217) and the accommodate-then-decide gloss (C219), and names what still separates her with evidence already in the draft: the on-air correction of Ellen, the feathers that ruffled at “cool,” the fight she picked over which film got made, and the 2017 intensity line (C227)."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The Three paragraph now says “Self-deprecation on a press tour can be image management, and her candor became a bankable persona” (C214, S38 retained as the source), then names what still separates her from Three (grievances aimed at contrivance rather than reception, “Who cares?” about flops, a small film as her last; C155) and states plainly that Four-leaning-Three and Three-leaning-Four are not cleanly separable on this record (C229)."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "The thesis is scoped in prose that stays true as the record grows: the intro reads “in the interviews reviewed for this profile, from 2015 to 2026,” the test section reads “Every fear she names in this record is circumstantial” and opens “stated as a reading, not a fact about her,” and FAQ 2 reads “in the interviews reviewed here… she has not named anyone who misled her.” The July 2025 toxic-sets line is inventoried (C181) and addressed in the body as a statement about unkind or uncollaborative collaborators rather than about being misled (C222). C95 keeps its reopen trigger and its claim text records the scope; C204 is now unresolved with the same trigger; C56 carries it too."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "C70’s review_trigger now names all three places to update if James responds: the dated body sentence, the limits paragraph’s “the other party to her central dispute has not answered,” and the Fifty Shades FAQ (C205). No prose change."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Now “On the small feature she said in July 2025 she was preparing to direct, written with Vanessa Burghardt…”; the sentence dates the statement, says nothing about whether it was shot, and C180’s passage and trigger are updated."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The live-wiki quotation is replaced by neutral prose: “In February 2024 the superhero film Madame Web opened to poor reviews and weak box office,” sourced to Bustle’s March 2024 “nasty reviews” question, the LA Times’s June 2025 “box-office bomb” (confirmed on reopen) and Wikipedia; C138’s source_ids and passage are updated."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "C43’s review_trigger now includes “confirm the release title (pre-release titles change; Johnson’s own quote calls it ‘Three Sisters’).” The italic title stays in the prose, as the finding allows when the trigger is recorded."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "The anecdote was removed on subject-02/fan-04, so the undated “her partner” no longer appears; C183 is dropped. No name was added anywhere."
+    },
+    {
+      "finding_id": "verify-01",
+      "action": "fixed",
+      "reason": "Reopened Bustle’s page on 2026-10-08 (plain curl, raw HTML) and confirmed the verifier’s text. The omitted conditional clause is restored verbatim inside the quotation: “I will accept and accommodate everyone's feelings and ideas and thoughts. But as long as I'm not hurting another human being in some way — even with my work, with agents or managers or whomever — I'll listen to everyone and take everything very seriously and then I will do what feels really right to me.” (em dashes preserved as the source punctuates them). C218’s claim and passage now match the source; S04’s excerpt carries the full sentence and its locator records the reopening. The gloss that follows (“accommodate first, then act on feeling, less a charge at authority than a route around it”) is unchanged, since the restored limit is harm to others, including agents and managers, not anyone’s authority. The Nine paragraph’s fragment (C219) stays. The 25 added words are offset by cuts (verify-07): the body stays at 4,484 words."
+    },
+    {
+      "finding_id": "verify-02",
+      "action": "fixed",
+      "reason": "“Then:” becomes “In the same answer:” before “It's also about control and feeling powerful, and that's not what art is.” C79’s passage is updated and its inference records that two sentences (“Having too many cooks in the kitchen is an eternal problem, especially with creatives. It’s a big f*cking problem.”) sit between “It’s contrived.” and the line, so its “It” answers the general too-many-cooks problem with the Fifty Shades author as her instance; S04’s excerpt now carries those sentences. The weighing sentence (C210) is unchanged. The subject-01 and fan-01 reasons that said “directly after” and “beside” are corrected above."
+    },
+    {
+      "finding_id": "verify-03",
+      "action": "fixed",
+      "reason": "The Madame Web paragraph now reads “her first answer on the film, to the Los Angeles Times, began ‘It wasn't my fault,’” and the Three paragraph “Her first answer on _Madame Web_ in 2025 began ‘It wasn't my fault.’” C213’s claim records the exact sequence from the reopened LA Times text (“Go on,” with feigned seriousness, then the reporter’s question about sticking to independent films, then “It wasn’t my fault”); C213 and C214 passages match the new wording. The quoted words are unchanged."
+    },
+    {
+      "finding_id": "verify-04",
+      "action": "fixed",
+      "reason": "Re-pulled the January 2021 Tonight Show caption track with yt-dlp on 2026-10-08: “they hit playback of my voice -- my vocal recording and called ‘action,’ and my -- it was like I had a panic attack… so, like, I just took off running.” The article now says she “described a panic attack when the cameras rolled on a singing scene in _Our Friend_”; C90’s claim, passage and inference match, S36’s excerpt carries the fuller passage, and the type hypothesis’s against text uses the same timing. The nervous-laugh-then-cry quotation is unchanged."
+    },
+    {
+      "finding_id": "verify-05",
+      "action": "fixed",
+      "reason": "No prose change. C180 now cites S45, S16 and a new source S55. S16 (Wikipedia, Dakota Johnson) was re-retrieved on 2026-10-08 and its locator and excerpt record the two sentences: “She played a young mother with an autistic child in Cha Cha Real Smooth, in which she starred opposite Cooper Raiff” and the directorial-debut sentence naming Burghardt as “her co-star in Cha Cha Real Smooth.” S55 (Wikipedia, Cha Cha Real Smooth, raw wikitext retrieved 2026-10-08) states the role directly in its cast list: “Vanessa Burghardt as Lola, Domino's daughter.” C180’s review trigger also records that Wikipedia now names the project A Tree Is Blue, in production from late 2025 with no confirmed release date; that is not used in the article, whose sentence dates her July 2025 statement."
+    },
+    {
+      "finding_id": "verify-06",
+      "action": "fixed",
+      "reason": "Opened the Entertainment Weekly original on 2026-10-08 through its Wayback Machine capture of 2019-11-19 (the live ew.com page returns HTTP 403 to automated fetches; the reader proxy is blocked at the publisher’s request). Its wording matches the relay: “I’m a very porous person and I absorb a lot of people’s feelings.” The body citation now reads “Entertainment Weekly, September 1, 2018” and links the EW original; the frontmatter citations list swaps the JoBlo URL for the EW URL; S41’s url, title, speaker, excerpt and context now describe the EW original as the primary, with the archive capture and the JoBlo relay recorded in its locator; C103’s claim and alternative are updated. The quoted words are unchanged."
+    },
+    {
+      "finding_id": "verify-07",
+      "action": "fixed",
+      "reason": "Net zero: the body is 4,484 words before and after the repair (checkDraft). The 32 words added for verify-01, verify-02 and verify-04 are offset by two cuts of restatement, not evidence: the second concession in the test section, “These lines narrow the Four lead without erasing it” (C222’s passage trimmed to the sentence that states the discriminator; the protected limits paragraph remains the section’s one concession), and the clause in the open-items section that restated the content-versus-temperature test (“a Four with a Six's cover and a Six with a Four's cover can be told apart only by content, never by temperature”; C112’s passage updated). The “neither speaks to her motives” sentence that critic-04 asked to keep intact is untouched."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "In the same passage she added, \"There are things that I still cannot say because I don't want to hurt anyone's career and I don't want to damage anybody's reputation, but both Jamie and I were treated really well.\"",
+      "action": "kept",
+      "reason": "Unchanged, still placed directly after the contract and Dornan lines and before the Bustle material, so her concessions stay beside the complaint."
+    },
+    {
+      "passage": "Her depression, which she dates to \"15 or 14,\" and the therapy she credits are a medical matter and are not counted for any type.",
+      "action": "kept",
+      "reason": "Unchanged, and now true of every passage: the 2023 low-day anecdote is gone (subject-02/fan-04) and the new Four-core lines are introduced as counted apart from her depression."
+    },
+    {
+      "passage": "A childhood like that can produce privacy, vigilance and a sense of not belonging in almost anyone, so it can't settle her type.",
+      "action": "kept",
+      "reason": "Unchanged; the family paragraph still attributes its material to Vogue. The 2026 tabloid-in-class anecdote was cut for the word ceiling, which removes rather than adds sensitive family material."
+    },
+    {
+      "passage": "The limits are real. Nearly all of this is self-report in promotional settings, \"authentic\" and \"different\" are industry vocabulary, the other party to her central dispute has not answered, and \"I don't want to hurt anyone's career\" could be covering a trust grievance she has chosen not to voice. The Six reading is not refuted, only outweighed on content. Hence medium confidence.",
+      "action": "kept",
+      "reason": "Unchanged, verbatim, and after the verify-07 trim it is the test section’s one concession; C70’s trigger covers its “has not answered” clause (future-02)."
+    },
+    {
+      "passage": "She also warned that she had \"exaggerated in this interview,\" so every Bustle line here carries that caveat.",
+      "action": "kept",
+      "reason": "Unchanged at its first Bustle use, now directly after the gloss quoted in full (verify-01); a local reminder (“in the Bustle interview she flagged as exaggerated”) remains where the James material from Bustle appears (subject-04)."
+    },
+    {
+      "passage": "Not that she was good, or that she had arrived. That she did something different.",
+      "action": "kept",
+      "reason": "Unchanged; a following sentence (C226) acknowledges that any type would treasure Fincher’s praise (critic-07) without altering the reading."
+    },
+    {
+      "passage": "Asked by Glamour UK that year whether she ever wished she hadn't made them: \"It comes in waves,\" and, in the same answer, \"I do feel proud of it.\"",
+      "action": "kept",
+      "reason": "Unchanged in the promotional-years paragraph."
+    },
+    {
+      "passage": "A Seven's appetite usually runs from that sentence. Hers runs toward it.",
+      "action": "kept",
+      "reason": "Unchanged; the Bernstein quotation before it was shortened for length but the motherhood quotation the discriminator depends on is intact."
+    },
+    {
+      "passage": "Plenty of actors grieve a wrap, and a Six could mourn the loss of a secure group. What is hers is the count, more times than she can number by her own account, and what ends.",
+      "action": "kept",
+      "reason": "Unchanged; the close is intact."
+    },
+    {
+      "passage": "\"I found myself as an actor, a few times, showing up to the premiere of a movie to see it the first time,\" she said. Her verdict on those nights: \"That is not what I thought we were making.\"",
+      "action": "kept",
+      "reason": "Kept verbatim. Only the paraphrase in the sentence before it changed (subject-06/fan-09); the “verdict” framing follows Variety’s own headline linking the two remarks."
+    },
+    {
+      "passage": "Still, on her talk of fear and safety alone, the Six reading would win.",
+      "action": "kept",
+      "reason": "Unchanged at the end of the Six case."
+    },
+    {
+      "passage": "She held a promotional line that was not the whole truth, but the feeling she stated then, pride in something \"different,\" is the one she repeated in 2022. What she withheld was the fight.",
+      "action": "kept",
+      "reason": "Unchanged; it still closes the Fifty Shades section after the Bustle material."
+    },
+    {
+      "passage": "Even the confession is a bit, and it changes between tellings.",
+      "action": "kept",
+      "reason": "Unchanged (subject-05 rejected for this sentence); the two tellings it refers to are still both quoted before it."
+    },
+    {
+      "passage": "Her fullest telling also has fear in it, and where the fear sits matters.",
+      "action": "kept",
+      "reason": "Unchanged; the paragraph it opens now also states that the fear is of a production that had changed after she committed, which strengthens rather than replaces its move."
+    },
+    {
+      "passage": "What she keeps losing, and keeps going back to build, is the connection inside it.",
+      "action": "kept",
+      "reason": "Unchanged; the ending is intact and still works without the Verity detail."
+    },
+    {
+      "passage": "The Easter Bunny line puts safety at the end of the sentence and moviemaking in its service.",
+      "action": "kept",
+      "reason": "Unchanged; the Easter Bunny line itself now carries its setup (unfamiliar-03) so the callback lands."
+    },
+    {
+      "passage": "If one does, its shape will matter: a fight framed as being misled or left unprotected would point toward Six, one framed as the work made false toward Four.",
+      "action": "kept",
+      "reason": "Kept verbatim; the widening enneagram-03 asked for is a new sentence after it (C228: “So would its target…”), so the settle-signal function and the exact wording both survive."
+    },
+    {
+      "passage": "As of October 8, 2026, no public response from James to either later account had been found.",
+      "action": "kept",
+      "reason": "Unchanged; C70’s trigger now also names the limits paragraph and the FAQ (future-02)."
+    },
+    {
+      "passage": "and the vow was gone: \"There's no part of me that's like, 'Oh, I'll never do that again' to anything. I've done even tiny movies that didn't do well. Who cares?\"",
+      "action": "kept",
+      "reason": "Unchanged; the 2024-to-2025 reversal is intact, now preceded by “It wasn’t my fault” (introduced as the start of her first answer on the film, verify-03) and the committee line from the same exchange."
+    }
+  ],
+  "prior_blockers": []
+}

@@ -375,7 +375,7 @@ You're the Four who suffers in silence. While other Fours may express their pain
 
 You may not look like a typical Four at all. People might miss your depth because you've learned to contain it. Your envy often manifests as working harder than everyone else, trying to earn what others seem to receive freely.
 
-The danger: you internalize everything until it becomes depression or physical illness.
+The danger: you internalize everything until it becomes [depression](/enneagram-corner/depression-patterns-by-enneagram-type) or physical illness.
 
 **Social Four: "Shame"**
 

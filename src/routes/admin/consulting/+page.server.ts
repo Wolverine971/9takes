@@ -1,7 +1,7 @@
 // src/routes/admin/consulting/+page.server.ts
 import type { PageServerLoad, Actions } from './$types';
 import { fail } from '@sveltejs/kit';
-import { guardAdminActions } from '$lib/server/adminAuth';
+import { guardAdminActions, requireAdmin } from '$lib/server/adminAuth';
 import { betaBookingUrl } from '$lib/server/betaSignups';
 import { loadCtaExperimentResults } from '$lib/server/ctaExperiments';
 import {
@@ -185,7 +185,8 @@ async function loadClientIdentitiesForWaitlist(
 }
 
 export const load: PageServerLoad = async ({ locals }) => {
-	const supabase = locals.supabase;
+	// Page loads can run independently of layout loads, including __data.json requests.
+	const { supabase } = await requireAdmin(locals);
 
 	const now = new Date();
 	const nextWeek = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000);

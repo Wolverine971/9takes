@@ -1,8 +1,8 @@
 {
   "schema_version": 3,
   "role": "unfamiliar",
-  "content_sha256": "77a606b0cdd9f977ba00778706be75962db4fb7e82faa05d13f41637ab154618",
-  "evidence_sha256": "98f08e7c6e7a4ee2c46cada7c4a827fb0a3e4bd15e49c578e736b26fe3656381",
+  "content_sha256": "272a5965f4c044ec97197ae12a7730c04a84a4e63af43ad632dd8e9a8c79ab4c",
+  "evidence_sha256": "0f6635502cab9751fdaff1a624d423374cce5d9e9451dfa386d483eb19d6714e",
   "risks": {
     "sensitive_allegations": true,
     "contested_typing": true,
@@ -13,81 +13,74 @@
     {
       "id": "unfamiliar-01",
       "severity": "major",
-      "passage": "Dakota Johnson has a reputation, as Vogue put it in its October 2026 cover story, for \"a certain cool-girl deadpan opacity, a kind of mischievous remove during press appearances.\" She earned it.",
-      "problem": "Orientation. The opening three paragraphs and the 60-word type answer never say who Johnson is. A reader without prior knowledge only infers she is an actress from \"a bold actress\" in the type section. They learn why she is famous (Fifty Shades) in the fourth section, about 800 words in. Her parents, Don Johnson and Melanie Griffith, are named without a descriptor, while Tippi Hedren gets one. The reason people are searching now (the Vogue cover and Verity) appears only in the last section.",
-      "acceptance_test": "Before the type H2, one sourced clause or sentence tells a cold reader that Johnson is an American actress and producer best known for the Fifty Shades of Grey films. The limes hook stays first. Don Johnson and Melanie Griffith get a one- or two-word descriptor (e.g., actors) on first mention."
+      "passage": "A counterphobic Type 6 is the live alternative; Three, Two, Eight, Nine and Seven explain pieces.",
+      "problem": "The alternative that the title, description, 60-word answer and FAQ 2 all hinge on is labeled with a technical term the article never defines. Type 4 gets a plain-language sentence (\"Type 4 is organized around identity...\"); Type 6 never does. Its traits arrive piecemeal (\"the shape Six theory predicts\", \"A Six's injury usually fuses fear and grievance\", \"Six theory predicts fear managed through preparation, allies and authority\"), and the nearest gloss of \"counterphobic\" (\"Counterphobic Sixes also charge at fear\") lands roughly 2,500 words in, after the word has been used three times. No published 9takes people page uses \"counterphobic\", so a reader cannot lean on site familiarity either. \"the Four's neighbor among the image types\" is the same problem on a smaller scale.",
+      "acceptance_test": "By the end of the \"What is Dakota Johnson's personality type?\" section, a reader who has never heard of the Enneagram can say in one sentence what a Type 6 wants (certainty and support against a world that feels unsafe) and what \"counterphobic\" means (a Six who meets fear by charging at it instead of seeking cover), without following a link. Either add that sentence directly after the 60-word answer alongside the Type 4 sentence, or drop \"counterphobic\" from the 60-word answer and FAQ 1 and define it at \"Read literally, that reflex is counterphobic.\" Gloss or cut \"image types.\""
     },
     {
       "id": "unfamiliar-02",
       "severity": "major",
-      "passage": "If authenticity is the creed, the put-ons need explaining, and they predate the current persona.",
-      "problem": "The Ellen exchange is filed as one of the \"put-ons,\" but the clip (S09) shows Johnson telling the truth: DeGeneres concedes, \"I think I do remember I was invited.\" The evidence record's own inference (C09) is that she refused to absorb a false story about herself. A reader new to the clip will think the correction was another prank. That muddles the section's bit-versus-faked-feeling argument and risks misrepresenting a widely known moment. Nothing tells the reader why the clip is famous, so \"It will haunt me\" has no stakes.",
-      "acceptance_test": "The Ellen exchange is no longer presented as an example of a put-on. The prose makes plain that Johnson's line was true and that DeGeneres conceded. If it stays in this section, it is used explicitly as the contrast: she refused to go along with a false story even when it was played as a joke. One sourced clause (e.g., S17) says why the clip became famous, so \"It will haunt me\" lands."
+      "passage": "Yet in a decade of interviews about the films that went wrong, she has never described a set as a place where she was misled or left unprotected.",
+      "problem": "This is the sentence the whole profile rests on, and an unfamiliar reader meets two quotes that sound like exactly what it denies: the hook's \"That is not what I thought we were making\" two paragraphs earlier, and \"I signed up to do a very different version of the film we ended up making\" leading the Fifty Shades section. To someone with no prior knowledge, both read as complaints about being misled about what she agreed to. The article's answer exists (she was in the fight every day rather than discovering a betrayal, she assigns the gap to James's creative control, she says \"both Jamie and I were treated really well\" and James \"was always kind to me\"), but it is spread across the \"Fear on one side\" section and the limits paragraph some 1,500 words later and is never attached to those two quotes where they appear. The reader is asked to accept the thesis-defining distinction on trust at the exact moment the evidence seems to cut against it.",
+      "acceptance_test": "Where \"signed up to do a very different version\" first appears, one or two sentences name the objection (\"that can sound like being misled\") and answer it from the record: she describes being inside the fight daily (\"It was always a battle\", rewriting scenes the night before) rather than discovering a deception, locates the cause in creative control, and praises how she was treated. The intro's \"never\" either keeps that support within the same paragraph or is rewritten to state what she does say (where she locates the cause) rather than what she has never said. A first-time reader should be able to restate why \"not the movie she signed up to make\" differs from \"misled\" before reaching the \"Fear on one side\" section."
     },
     {
       "id": "unfamiliar-03",
       "severity": "minor",
-      "passage": "On set, she said, \"We'd do the takes of the movie that Erika wanted to make, and then we would do the takes of the movie that we wanted to make,\" and she rewrote scenes the night before.",
-      "problem": "Two quotations refer to \"Erika,\" but the article only ever calls the author E.L. James and never says that Erika is her first name. A reader new to the story meets an apparently new person at the paragraph's most important quote.",
-      "acceptance_test": "Before or at the first \"Erika\" quotation, the text says that Erika is E.L. James's first name (or a bracketed [James] is used where the quote allows it). The two later \"Erika\" quotes then read without ambiguity."
+      "passage": "Of the Easter Bunny, she said in 2022, \"Maybe that's why I make movies and why I want to make movies forever and ever. It makes things feel a little bit more safe.\"",
+      "problem": "The reader is never told the setup: she was recalling learning at 10 that the Easter Bunny was not real and said she would still believe in it if she could. Without it, \"Of the Easter Bunny, she said\" reads as a non sequitur, and the later callback (\"The Easter Bunny line puts safety at the end of the sentence and moviemaking in its service\") depends on a line the reader did not understand the first time. The evidence record (C98) already holds the setup wording.",
+      "acceptance_test": "One clause before the quote supplies the context from C98 (learning at 10 that the Easter Bunny did not exist; \"if I could, I would still believe in it now\") so that a reader who has not seen the Vanity Fair piece understands why movies and safety follow from the Easter Bunny."
     },
     {
       "id": "unfamiliar-04",
       "severity": "minor",
-      "passage": "Shortly after _Madame Web_ opened in February 2024, she told Bustle she \"probably will never do anything like it again because I don't make sense in that world.\"",
-      "problem": "Madame Web is never identified. A reader who doesn't know it was a superhero franchise film can't tell what \"that world\" means or why the contrast with her own company matters. The same gap affects The Ringer's opening-day piece and the Nine paragraph's \"along for the ride.\" Madame Web is also a meta keyword, so searchers will arrive expecting context.",
-      "acceptance_test": "On first mention, a sourced descriptor identifies Madame Web's genre (and its reception, if a source supports it), so \"that world\" is legible without outside knowledge. No unsourced box-office or review claims are added."
+      "passage": "On _The Lost Daughter_, she said in 2021, Maggie Gyllenhaal \"kind of was my shepherd in that way.",
+      "problem": "Three names carry evidentiary weight through a relationship the article never states. Gyllenhaal is not identified as the film's director, so \"shepherd\" and \"she knows what it feels like to not be seen\" lose their meaning (an actress turned first-time director guiding her). Vanessa Burghardt is introduced only as a co-writer, not as the young actress who played her daughter in Cha Cha Real Smooth, so \"with her, I feel very protective\" has no referent. Alice Rohrwacher gets no descriptor, and the later \"small Italian film\" asks the reader to infer it from \"Stromboli and Rome.\" The article already does this well elsewhere (\"the former Netflix development executive Ro Donnelly\", \"the writer-director Cooper Raiff\").",
+      "acceptance_test": "Each of Gyllenhaal, Burghardt and Rohrwacher carries a role descriptor at first mention, sourced to the existing evidence record (S03, S45, S01), so a reader can follow why the relationship matters without outside knowledge."
     },
     {
       "id": "unfamiliar-05",
       "severity": "minor",
-      "passage": "In a bleak political moment, \"if I didn't try and apply great meaning to little things, I honestly don't think I'd make it.\"",
-      "problem": "\"A bleak political moment\" is vague enough to puzzle any reader. The Vanity Fair source (S02) shows she was speaking about reading that Roe v. Wade was likely to be overturned, in 2022. Hiding the context makes the quote float and weakens the meaning-over-reassurance point it supports.",
-      "acceptance_test": "The sentence either names the context the Vanity Fair source gives, with its 2022 date, or drops the framing and attributes the quote plainly. No unexplained \"political moment\" remains."
+      "passage": "If one does, its shape will matter: a fight framed as being misled or left unprotected would point toward Six, one framed as the work made false toward Four.",
+      "problem": "The misled-or-unprotected versus work-made-false formulation appears in the intro, in the 60-word answer (paraphrased), at the top of \"Fear on one side\" (\"the authority who misled her or left her exposed\"), here, and again in FAQ 2. By this fourth body occurrence the reader is being told the test rather than shown anything new, and the body sits at 4,297 words against a 3,500-word target. One restatement helps an unfamiliar reader; four reads as a loop.",
+      "acceptance_test": "The full misled/unprotected versus work-made-false formulation appears at most twice in the body (once in the orientation, once in the \"Fear on one side\" test). This passage points forward in different words, for example by naming what a critical producer account would have to contain, and the trim is taken from restatement rather than from evidence."
     },
     {
       "id": "unfamiliar-06",
       "severity": "minor",
-      "passage": "That sits at least as close to a Three as to a Four.",
-      "problem": "Type Three is raised twice as a fit for her behavior: here, and in \"a control-minded Eight or a strategic Three\". But the type answer, the FAQ and the section headings list only Six, Eight, Nine and Seven as rivals. A reader can't tell whether Three is a live hypothesis the article forgot to test or just a passing comparison. The metadata and body disagree.",
-      "acceptance_test": "Either Three gets a short test in the alternatives (why \"this is a business\" and her press savvy don't make image or success her core motive) and appears consistently in the answer/FAQ list of rivals, or both mentions are reworded so they don't read as an untested fifth hypothesis. Body, the 60-word answer and the FAQ name the same set of alternatives."
+      "passage": "Dakota Johnson Enneagram Type: Why 4 Leads a Live 6",
+      "problem": "The meta title is the first thing a searcher reads, and \"Why 4 Leads a Live 6\" is insider shorthand that reads like a score line to anyone who has not yet read the article. The description's closing \"with Type 6 live\" has the same problem. Both surfaces should orient a stranger, not reward someone who already knows the argument.",
+      "acceptance_test": "The meta title (35 to 65 characters) and the description (120 to 170 characters) state the result in words a first-time searcher can parse, for example \"Dakota Johnson Enneagram Type: Type 4, With Type 6 Close Behind\" and \"...Why Type 4 leads and Type 6 stays close.\" A reader shown only the meta title can say which type the article argues for and that a second type is seriously in play."
     },
     {
       "id": "unfamiliar-07",
       "severity": "minor",
-      "passage": "The put-ons are the biggest loose end. The line between a bit and a faked feeling is this profile's inference, and her limes confession changed within a single year.",
-      "problem": "Momentum. The body is 3,918 words, above the 2,000–3,500 target. Four consecutive typology sections (Type 6, safety, Eight/Nine/Seven, what's left open; about 1,400 words) let the person recede. Some of that is restatement: this sentence repeats the end of \"The bit and the feeling\" (\"That is an inference from her words, not a rule she has stated, and the limes show it has fuzzy edges\"). The source-limit caveat about Taylor-Johnson and The Ringer partly repeats the earlier \"flattering profiles\" caveat.",
-      "acceptance_test": "The \"leaves open\" section adds only items not already stated as limits earlier, with no second statement of the bit/feeling inference caveat. The body is at most 3,500 words. No protected passage is cut, and no evidence from the Type 6 case or the safety discriminator is lost."
-    },
-    {
-      "id": "unfamiliar-08",
-      "severity": "minor",
-      "passage": "Foley's remark matters most because it predates the candid persona.",
-      "problem": "\"The candid persona\" (and \"the current persona\" earlier in the section) is never defined or dated. A cold reader can't tell whether it means the press-prankster reputation or the later \"authentic\" vocabulary, or when either began. The Foley remark and the Dornan put-on both come from the same 2017 Vogue piece, so the dating argument can't be followed as written.",
-      "acceptance_test": "One dated, sourced sentence says which persona is meant and roughly when it became her public reputation, so a reader can check that Foley's 2017 remark comes before it. Otherwise the sentence is reworded to make a claim the dates support."
+      "passage": "the only child the actors Don Johnson and Melanie Griffith had together and one of seven half-siblings",
+      "problem": "A reader cannot tell whether she has seven half-siblings or is one of seven children. The phrasing follows Vanity Fair's own ambiguous line (\"She is one of seven half siblings\", S02), so the draft is faithful to its source but inherits the confusion, and the article asserts it in its own voice.",
+      "acceptance_test": "Rephrase to what the source supports without asserting a count it leaves ambiguous (for example, \"with half-siblings on both sides of a large blended family\"), or attribute the count to Vanity Fair in its own words. A reader should not be left computing family size."
     }
   ],
   "protected_passages": [
     {
+      "passage": "\"I found myself as an actor, a few times, showing up to the premiere of a movie to see it the first time,\" she said. Her verdict on those nights: \"That is not what I thought we were making.\"",
+      "reason": "A sourced, dated, specific opening that a stranger understands instantly and that poses the exact question the article answers. Do not replace it with a fear quote or a biographical lead."
+    },
+    {
       "passage": "Not that she was good, or that she had arrived. That she did something different.",
-      "reason": "Turns a career anecdote into the article's first real insight in two short sentences. A cold reader learns what she values before any typology appears."
+      "reason": "Turns a biographical detail (the Fincher compliment) into the first piece of the argument in two short sentences, teaching the reader how to read the rest of the quotes."
     },
     {
-      "passage": "She didn't say lying was hard. She said faking it was, in the same breath as finding it hard \"to go along with the silliness of doing a press tour.\"",
-      "reason": "This close reading resolves the title's paradox from her own words, and it is honest about being an inference. It is the hinge that makes the prankster and the authenticity claims readable as one person."
-    },
-    {
-      "passage": "What separates the readings is what safety does for her. For a Six, security is usually the goal. Johnson almost always describes it as the condition for something else.",
-      "reason": "States the discriminator in plain language that needs no Enneagram background, and it pays off the 'what is the safety for?' question set up in the type section."
+      "passage": "Her fullest telling also has fear in it, and where the fear sits matters.",
+      "reason": "The move that makes the Four-versus-Six case honest for a newcomer: the strongest Six evidence is quoted inside the thesis-bearing passage rather than parked in a caveat section, and the sentence tells the reader what to watch for."
     },
     {
       "passage": "A Seven's appetite usually runs from that sentence. Hers runs toward it.",
-      "reason": "Tests a rival type against her own quote in eight words. Distinctive, memorable, and specific to her."
+      "reason": "The alternatives section could have been a checklist; this is a verified quote turned into a discriminating observation in nine words. Keep the rhythm of the other type paragraphs that end on a turn like this."
     },
     {
-      "passage": "For most actors, wrap is the end of a job. For Johnson it means losing, again, the kind of set Vogue says she joined the industry for: \"a safe container full of artists feeling free.\"",
-      "reason": "The ending lands on a concrete, sourced, unusual detail rather than a thesis restatement, and it ties safety, feeling and the work together."
+      "passage": "What she keeps losing, and keeps going back to build, is the connection inside it.",
+      "reason": "The ending lands on the 2026 wrap-grief quote without a CTA or a thesis recap, and it still works if the Verity release detail is removed. It is the five-year sentence."
     }
   ],
-  "assessment": "For a cold reader, this is an engaging, well-paced profile. The limes-and-Vogue opening creates a real puzzle: a prankster who says she can't fake it. The two questions in the type section give the reader a map, and the safety discriminator pays it off clearly. Vivid, specific details carry the middle: the teacher reading a tabloid, Fincher's 'something different', the Erika takes, the deferred fees, the Easter Bunny, summer camp. The reader learns who she is through choices, not adjectives. The article is also unusually honest about self-report, promotional settings and the strength of the Six case. The main gaps are orientation and clarity. The reader isn't told she is an actress or why she is famous until about 800 words in. The Ellen correction is misfiled as a put-on when it was true. Several references assume prior knowledge: Erika, Madame Web, the 'bleak political moment', the 'candid persona'. Three is raised but never tested, and the piece runs about 400 words over target, with some repeated caveats in the typology run. Similarity advisory: not tripped. The maximum is 0.016 against a 0.04 threshold, inside the noise floor. Only 2 target units were parsed, so the advisory's coverage is thin. Its matches are generic type vocabulary with no shared phrases. Read directly, the arguments and details are specific to Johnson, so there is no reuse finding. Risk flags: sensitive allegations (her account of creative-control fights with a named living author, her parents' addiction, her depression) and contested typing (a live counterphobic Six rival at medium confidence) both remain true and warrant the expanded jury."
+  "assessment": "Read cold, this orients fast: the first sentence says who she is and the hook poses the question in her own words. A stranger leaves knowing the Fifty Shades creative-control fight (with the 2017 director corroboration and the author's 2015 side), why TeaTime exists, what the Ellen clip and the limes were, and how fear and grievance are being distinguished. Momentum is strong through \"Fear on one side, grievance on the other,\" which pays off the setup; after \"Hence medium confidence\" the piece becomes a tour (persona, five other types, open items) for about 1,300 words before the strong ending, which is acceptable because each section does required work, but it is where the 4,297-word body could lose 400 to 600 words. The two majors are clarity problems at the spine: Type 6 and \"counterphobic\" are never defined for a reader who does not already know the system, and the thesis-defining distinction between \"the work was made into something else\" and \"I was misled\" is asserted in the intro and only defended 1,500 words later, while an unfamiliar reader hears \"signed up to do a very different version\" as the very thing being denied. Fix those two and the profile is readable by someone who has never opened an Enneagram page. Similarity: all three tripped pairs (0.531, 0.216, 0.186) are self-matches against the earlier 2026-10-07 Dakota Johnson draft of the same subject; the highest cross-subject score is 0.053 (jeremy-allen-white) with no shared phrases and a different argument, so there is no meaningful reuse to report. Not an open case (profile_format standard); eligibility rules do not apply. Risks carried forward: the Fifty Shades account concerns a named living person who has not responded, and the typing is contested at medium confidence."
 }

@@ -622,7 +622,7 @@ An unhealthy Nine keeps agreeing with everything, building a quiet resentment th
 
 What matters more than type matching: **health levels.**
 
-Ask couples who've lasted decades what types they are and you'll find every combination on the board. No pairing is disqualifying, and no pairing is a guarantee.
+Ask couples who've lasted decades what types they are and you'll find [every combination on the board](/enneagram-corner/enneagram-compatibility-matrix). No pairing is disqualifying, and no pairing is a guarantee.
 
 Two healthy "incompatible" types will outperform two struggling "perfect matches" every time.
 

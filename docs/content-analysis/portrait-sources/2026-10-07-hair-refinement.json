@@ -6,10 +6,11 @@
       "slug": "ben-shelton",
       "name": "Ben Shelton",
       "beforeMaster": {
-        "path": "output/portrait-processed/2026-10-07-queue-rest/Ben-Shelton-master.png",
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Ben-Shelton-before.png",
         "width": 1080,
         "height": 1080,
-        "sha256": "cfa44c683f06b2f83c594adb39d238118633d8b44d288c8d07e85de33595c3b2"
+        "sha256": "cfa44c683f06b2f83c594adb39d238118633d8b44d288c8d07e85de33595c3b2",
+        "originalPath": "output/portrait-processed/2026-10-07-queue-rest/Ben-Shelton-master.png"
       },
       "afterMaster": {
         "path": "output/portrait-processed/2026-10-07-hair-fixes/Ben-Shelton-final-master.png",
@@ -69,10 +70,11 @@
       "slug": "arthur-mensch",
       "name": "Arthur Mensch",
       "beforeMaster": {
-        "path": "output/portrait-processed/2026-10-07-queue-rest/Arthur-Mensch-master.png",
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Arthur-Mensch-before.png",
         "width": 1080,
         "height": 1080,
-        "sha256": "28a1f072b6d137f50fdc69e0a1003d69bdb80e8d7569575e9d90261a05f93436"
+        "sha256": "28a1f072b6d137f50fdc69e0a1003d69bdb80e8d7569575e9d90261a05f93436",
+        "originalPath": "output/portrait-processed/2026-10-07-queue-rest/Arthur-Mensch-master.png"
       },
       "afterMaster": {
         "path": "output/portrait-processed/2026-10-07-hair-fixes/Arthur-Mensch-final-master.png",
@@ -131,10 +133,11 @@
       "slug": "naval-ravikant",
       "name": "Naval Ravikant",
       "beforeMaster": {
-        "path": "output/portrait-processed/2026-10-07-queue-rest/Naval-Ravikant-master.png",
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Naval-Ravikant-before.png",
         "width": 1080,
         "height": 1080,
-        "sha256": "7b2574f0ed56fda1302b81dbdf43a14b3b7907f4a0af1d874f67b580f7846f5f"
+        "sha256": "7b2574f0ed56fda1302b81dbdf43a14b3b7907f4a0af1d874f67b580f7846f5f",
+        "originalPath": "output/portrait-processed/2026-10-07-queue-rest/Naval-Ravikant-master.png"
       },
       "afterMaster": {
         "path": "output/portrait-processed/2026-10-07-hair-fixes/Naval-Ravikant-final-master.png",
@@ -194,10 +197,11 @@
       "slug": "rebecca-yarros",
       "name": "Rebecca Yarros",
       "beforeMaster": {
-        "path": "output/portrait-processed/2026-10-07-queue-rest/Rebecca-Yarros-master.png",
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Rebecca-Yarros-before.png",
         "width": 1080,
         "height": 1080,
-        "sha256": "10f2fa38e1f8a82ceb6f880e235f52ed996efb43929bb18e036367530af1d702"
+        "sha256": "10f2fa38e1f8a82ceb6f880e235f52ed996efb43929bb18e036367530af1d702",
+        "originalPath": "output/portrait-processed/2026-10-07-queue-rest/Rebecca-Yarros-master.png"
       },
       "afterMaster": {
         "path": "output/portrait-processed/2026-10-07-hair-fixes/Rebecca-Yarros-final-master.png",
@@ -257,10 +261,11 @@
       "slug": "joseph-zada",
       "name": "Joseph Zada",
       "beforeMaster": {
-        "path": "output/portrait-processed/2026-10-07-queue-rest/Joseph-Zada-master.png",
+        "path": "output/portrait-processed/2026-10-07-hair-fixes/Joseph-Zada-before.png",
         "width": 1080,
         "height": 1080,
-        "sha256": "9a21b744c3fc06017154ba90b31d0f5ccd587c2a0882baee7672219c522d841b"
+        "sha256": "9a21b744c3fc06017154ba90b31d0f5ccd587c2a0882baee7672219c522d841b",
+        "originalPath": "output/portrait-processed/2026-10-07-queue-rest/Joseph-Zada-master.png"
       },
       "afterMaster": {
         "path": "output/portrait-processed/2026-10-07-hair-fixes/Joseph-Zada-final-master.png",

@@ -1,0 +1,49 @@
+I finished the repair stage for Dakota Johnson. The three outputs are written to the run directory: `repair.md`, `evidence-repair.json` and `resolution-repair.json`. I didn't change any inputs or the live draft, and nothing was published. The new draft passes the pipeline's own validators: no draft blockers, 4,450 words (limit 4,500), all 153 evidence claims match the text, and all 48 review findings and 17 protected passages are accounted for. The scores themselves are the independent verifier's call, which comes next.
+
+**The four verifier findings:**
+- **The "2020 denial" (major):** I reopened Vogue 2017, and the verifier was right. Her printed answer to reports that she despised Fifty Shades was "Not so. 'I'm truly proud of it.'" The article now says that, and treats Marie Claire's 2020 note as an undated, unquoted report of a denial. I also found a 2017 Glamour UK answer: asked whether she ever wished she hadn't made the films, she said "It comes in waves" and also "I do feel proud of it." The Fifty Shades test now concludes she "withheld the fight, not the ambivalence." The open question is stated plainly: if that denial turns up and flatly denies the fight itself, it would favor Three or Six.
+- **The Four-vs-Six test (major):** I reopened Vanity Fair 2022 and added the fear and protection lines: the contract at 23 "was scary," she and Dornan had to "protect each other," and they refused shots as "a team." The article now admits that, read alone, this is a Six's story. It then adds a line from the same passage, "both Jamie and I were treated really well," and the expression-focused way she summed up her troubled films in 2020, 2024 and 2025. The result is now a lean toward Four, not a clean separation. The Type 6 FAQ now says Four leads "narrowly." Confidence stays medium.
+- **"Laughing" (minor):** removed from the Ellen passage and its FAQ, since no source supports it.
+- **Wrap grief (minor):** the ending now keeps Vogue's condition (films where she felt "this really intense connection to the material") and says she has lost it "more times than she can count."
+
+**Beyond the findings:**
+- **E.L. James's side:** I added her own February 2015 AP quote, "I had to fight for a lot of things really hard. And I did." The article had none of her words before, which matters on a sensitive allegation.
+- **Lost Daughter quote:** the two lines were in reverse order, so I put them back in source order.
+- **Cuts to fit under 4,500:** I cut a weakly sourced 2015 secondhand quote and one sentence that restated the thesis.
+
+**For you to know:**
+- **Glamour UK quote:** I took it from Fashion Gone Rogue's relay of the interview. Other outlets print the same wording, but I couldn't open the original.
+- **Ellen clip:** still not rewatched, because YouTube is blocking downloads from this machine.
+- **Length:** 4,450 words is close to the limit. If the next verification asks for more additions, something else will have to be cut.
+The repair stage for Dakota Johnson is complete. The three outputs are written to the run directory and pass the pipeline's own checks. Nothing else was modified and nothing was published. The live draft's modification predates this stage: it is the runner's materialization of the edit and matches candidate-edit.md byte for byte.
+
+**Files written**
+
+- `repair.md`
+- `evidence-repair.json`
+- `resolution-repair.json`
+
+**The blocker, verify-01.** I reopened Bustle's page and confirmed the splice. The quotation now carries the omitted clause verbatim, em dashes included: "But as long as I'm not hurting another human being in some way — even with my work, with agents or managers or whomever —". The claim and the source excerpt match the page. The gloss after it is unchanged, because the limit she names is harm to others, not anyone's authority, so the accommodate-then-decide reading stands.
+
+**The six minor findings, all fixed.**
+
+- verify-02: "Then:" is now "In the same answer:", and the claim records that the too-many-cooks sentences sit between the two lines. The subject-01 and fan-01 reasons that overstated adjacency are corrected.
+- verify-03: both places now say her first answer on the film "began" with "It wasn't my fault," and the claim records the "Go on" sequence from the LA Times.
+- verify-04: I re-pulled the Tonight Show captions. The panic attack hit when playback started and "action" was called, so the text now says "when the cameras rolled on a singing scene."
+- verify-05: the Burghardt daughter role is traceable. C180 cites the Wikipedia sentences in S16 plus a new source, the Cha Cha Real Smooth cast list, which reads "Vanessa Burghardt as Lola, Domino's daughter."
+- verify-06: I opened the Entertainment Weekly original through a 2019 Wayback capture and confirmed the wording. The citation and frontmatter now link the EW original; S41 records the capture and the old JoBlo relay.
+- verify-07: net zero words. The 32 added words were offset by cutting two restatements, the second concession in the test section and the content-versus-temperature clause in the open-items section. The sentence critic-04 asked to keep intact is untouched.
+
+**Validation results**
+
+| Check | Result |
+| --- | --- |
+| Draft blockers | none |
+| Word count | 4,484 before and after |
+| Claim passages matching the draft | 146 of 146 |
+| Review findings with decisions | 47 of 47, plus 7 verify decisions |
+| Protected passages verbatim | 19 of 19 |
+
+**One thing worth knowing.** Wikipedia now reports the Burghardt project as A Tree Is Blue, in production since late 2025. I recorded that only in C180's review trigger, since the article's sentence dates her July 2025 statement and a primary source would be needed before adding it.
+
+Next step is the runner's reverification of the repaired candidate. I also updated the Wayback memory: plain curl to the raw capture path works from this machine even though WebFetch does not.

@@ -122,7 +122,7 @@ Triads are ways of categorizing the nine Enneagram types into groups of three, e
 
 #### Hornevian Groups (Karen Horney)
 
-These groups, named after psychoanalyst Karen Horney, describe how types interact with others and the world:
+These groups, named after psychoanalyst Karen Horney, describe [how types interact with others](/enneagram-corner/enneagram-social-styles) and the world:
 
 - Assertive types actively shape their environment (3, 7, 8).
 - Compliant types adapt to meet perceived expectations (1, 2, 6).

@@ -1,0 +1,23 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:Bustle's page (reopened 2026-10-08, raw article JSON) reads: \"I will accept and accommodate everyone's feelings and ideas and thoughts. But as long as I'm not hurting another human being in some way — even with my work, with agents or managers or whomever — I'll listen to everyone and take everything very seriously and then I will do what feels really right to me.\" The article presents two non-adjacent sentences as one continuous quotation and silently drops the conditional clause between them. C218's claim text and passage carry the same splice, and the S04 excerpt in the inventory was already truncated at \"feelings an\", so no reviewer could see it; fan-06 quoted the spliced form from the excerpt. The omitted clause does not reverse the accommodate-then-decide reading, but a silent omission inside quotation marks fails the quotation-fidelity rule in a passage the Six case and the Nine case both use."
+  ],
+  "quality": {
+    "evidence": 8.6,
+    "enneagram": 8.4,
+    "originality": 8.7,
+    "writing": 8.2,
+    "durability": 8.8,
+    "hook": 9,
+    "discoverability": 8.5,
+    "overall": 8.6,
+    "letter": "B+",
+    "rubric_version": 3,
+    "graded_at": "2026-10-08",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "b4a5f0079a523de7ae8d4207e62761178266ace8e28f92e3e8fd62f73ac6654b"
+  }
+}

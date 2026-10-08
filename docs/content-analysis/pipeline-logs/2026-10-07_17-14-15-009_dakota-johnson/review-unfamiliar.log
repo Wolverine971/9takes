@@ -23,3 +23,23 @@ I wrote the unfamiliar-reader review for the Dakota Johnson draft. It passes the
 **Similarity check:** it didn't flag anything; the highest match was 0.016 against a 0.04 threshold. It only picked up 2 sections of this draft, though, so it barely covered it. Reading it myself, I found no recycled phrasing from other profiles, so there's no reuse finding.
 
 The Supabase connection failed to load this session; this review didn't need it.
+The unfamiliar-reader review for Dakota Johnson is written and validated. Only the one requested output file was created.
+
+**Output:** `docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-unfamiliar.json`
+
+It parses against `reviewSchema`, copies the role and both hashes from the request, and every finding and protected passage is verbatim text from the frozen draft. I recomputed both hashes against the frozen draft and evidence record and they match the request, so the review is bound to the right inputs.
+
+**Verdict as a cold reader.** The profile orients quickly and a stranger learns a lot: the Fifty Shades creative-control fight, why TeaTime exists, the Ellen clip, the limes. Momentum holds through the discriminator section, then the piece becomes a tour for about 1,300 words before a strong ending. Two clarity problems sit at the spine of the argument.
+
+**Findings (7, two major):**
+- **Major: Type 6 and "counterphobic" are never defined.** Type 4 gets a plain sentence; the alternative the title, description, 60-word answer and FAQ hinge on does not. No published 9takes people page uses "counterphobic," so readers cannot lean on site familiarity.
+- **Major: the thesis sentence is asserted before it is defended.** The intro says she has "never described a set as a place where she was misled," while the hook's "not what I thought we were making" and "signed up to do a very different version" sound like exactly that to a newcomer. The answer exists but arrives 1,500 words later and is never attached to those quotes.
+- **Minor:** Easter Bunny line lacks its setup. Gyllenhaal, Burghardt and Rohrwacher lack role descriptors that carry the evidence. The misled-versus-work-made-false formulation repeats four times. Meta title "Why 4 Leads a Live 6" is insider shorthand. "One of seven half-siblings" inherits Vanity Fair's ambiguous count.
+
+**Protected (5):** the Cannes hook, the Fincher "did something different" close, "where the fear sits matters," the Seven paragraph's turn, and the summer-camp ending.
+
+**Risks carried forward:** sensitive allegations (the Fifty Shades account about a named living person with no response) and contested typing, both true. Historical source uncertainty and major thesis change are false.
+
+**Similarity:** all three tripped pairs are self-matches against the earlier Dakota Johnson draft of the same subject. The highest cross-subject score has no shared phrases and a different argument, so no reuse finding.
+
+Nothing else in the run directory was modified, and nothing was published.

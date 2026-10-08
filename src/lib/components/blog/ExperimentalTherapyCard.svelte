@@ -7,8 +7,9 @@
   ($lib/utils/betaCardCopy); /book-session gets fixed details copy.
 
   The email goes to /api/beta-signup and DJ writes back personally, so the card
-  promises a reply, not an automatic email. Views, first focus, and submits
-  are counted per variant (cta_experiment_events and PostHog).
+  promises a reply, not an automatic email. Views, opens (first focus on the
+  field or first tap on the button), and submits are counted per variant
+  (cta_experiment_events and PostHog).
 
   The card can be dropped into article prose, whose global typography would
   bleed in, so every rule is nested under .etc and sets its own type and spacing.
@@ -110,6 +111,9 @@
 
 	async function submit(event: SubmitEvent) {
 		event.preventDefault();
+		// A tap on the button before touching the field is interest too; without
+		// this it only showed the validation error and was never counted.
+		report('opened');
 		if (sending) return;
 
 		const email = betaCard.email.trim();

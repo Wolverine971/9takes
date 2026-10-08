@@ -18,3 +18,43 @@ I wrote the subject (fairness) review for the Dakota Johnson draft to `docs/cont
 **Risk flags:** sensitive allegations and contested typing are both set to true, so the six-role jury should run. A search found no public response from E.L. James, which matches the draft's statement. The similarity check didn't flag any reused writing.
 
 The Supabase connection failed this session. Several plugin connectors (Ahrefs, Notion, Slack and others) need authorizing in claude.ai or via `/mcp`. Neither was needed for this stage.
+The subject-role review is written and validated. Nothing else remains for this stage.
+
+**Output written:** `docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-subject.json`. It parses against the contract's reviewSchema, both hashes match the request (I recomputed them from the draft and evidence), and every quoted passage was confirmed verbatim in the frozen draft. No other files were modified and nothing was published. The request file itself shows as modified in git, but that was the runner's write before this stage started.
+
+**Verdict as fairness proxy:** the draft handles the sensitive material well. Family history is attributed to Vogue, the Fifty Shades conflict carries Johnson's praise of E.L. James plus James's own 2015 position, the Ellen exchange is quoted only where the speaker is unambiguous, and the depression principle is stated. The problems are overclaims, not harms.
+
+Three major findings:
+
+- **subject-01: the discriminator is written as biography.** "She has never described a set as a place where she was misled or left unprotected" and "every time" are the author's weighing stated as fact. Her own quoted line about sets where people were "not taken care of," the camera-angle refusals, a July 2025 "toxic sets" line sitting in the evidence record, and the Cannes quote itself all leave room for the reading the draft rules out. Fix is scoping, not a thesis change.
+- **subject-02: a depression-speech anecdote is used as Type 6 evidence** three paragraphs before the draft promises depression is "not counted for any type." The evidence record's own note on that claim says it is not type evidence.
+- **subject-03: the harshest line about E.L. James** ("extremely precious about words, clothing, anything, everything") arrives with a bare "(Bustle)" tag and no local caveat, though it comes from the interview Johnson flagged as exaggerated.
+
+Four minor findings cover an unattributed "real name is Erika Mitchell" claim (publicly Erika Leonard, born Mitchell), a regret quote cut from its conditional so "psychotic" floats free, three intent statements in the author's voice, and hook paraphrases that outrun their quotes.
+
+Five passages are protected, including the praise of James, the depression principle, the childhood-causation refusal, and the inference-limits paragraph.
+
+**Similarity:** all tripped pairs match this subject's own prior draft, so they record continuity across runs, not formulaic writing. Cross-subject maximum was negligible.
+
+**Risks** carried over unchanged from the evidence record: sensitive allegations and contested typing remain true, so the six-role jury already applies. No new risk raised.
+Both request hashes are confirmed against the frozen inputs, the review parses against the contract schema, and every quoted passage is verbatim in the draft. The stage is complete.
+
+**Written:** `docs/content-analysis/pipeline-logs/2026-10-07_17-14-15-009_dakota-johnson/review-subject.json` (role `subject`, hashes copied from the request, risks carried unchanged from the evidence record). No other file was modified and nothing was published.
+
+**Verdict as fairness proxy:** the draft handles the sensitive material well. Family history is attributed to Vogue rather than to her, the Fifty Shades dispute travels with her praise of E.L. James and a dated note that no response was found, and the depression principle is stated. The problems are overclaims of confidence, not harms.
+
+Three major findings:
+
+- **subject-01: the discriminator is written as biography.** "She has never described a set as a place where she was misled or left unprotected" and "every time" present the author's weighing as fact. I reopened the Bustle interview: in the same answer the draft quotes for "It's contrived," she said the author's involvement was "also about control and feeling powerful," which the draft omits. Her "toxic sets" and "not taken care of on set" lines also cut against the absolute. Fix is scoping and quoting, not a thesis change.
+- **subject-02: a depression-speech anecdote is weighed as Type 6 evidence** three paragraphs before the article promises depression is "not counted for any type." The evidence record's own note on that claim agrees it is not type evidence.
+- **subject-03: the chosen-family line is lifted out of context.** In Bustle she was celebrating her blended family's non-blood siblings. The draft's sentence reads as ranking chosen people above her birth family, right after her parents' divorce and addiction struggles.
+
+Five minor findings cover the harshest James line arriving without the local exaggeration caveat, a regret quote cut from its conditional so "psychotic" floats free, three intent statements in the author's voice, a hook paraphrase sharper than her words, and an unattributed "real name is Erika Mitchell" claim.
+
+Five passages are protected, including her "treated really well" concession, the depression principle, the childhood-causation refusal, and the inference-limits paragraph.
+
+**Similarity:** every tripped pair matches this subject's own prior draft from the earlier run, so it records continuity, not formulaic writing. The highest cross-subject score shares no phrases. No reuse finding.
+
+**Risks:** sensitive allegations and contested typing remain true, so the six-role jury already applies. No new risk raised.
+
+One note on the environment: the Supabase connector failed to connect this session and several plugin connectors need authorization. Neither was needed for this stage.

@@ -184,7 +184,7 @@ John has been direct about how unusual that click was. Before TBPN he tried solo
 
 John later brought conviction around an in-person, two-person reaction show. Jordi texted the name _Technology Brothers_. Within weeks they recorded an episode. By October 2024, they were publishing from a dark conference room at the Jonathan Club in downtown Los Angeles. The second episode covered an energy drink and Meta's Ray-Ban smart glasses.
 
-Less than a year later, they sat at Meta's campus interviewing Mark Zuckerberg about the next Ray-Bans. The tiny room had become a set. The speculative friendship had become an institution.
+Less than a year later, they sat at Meta's campus interviewing [Mark Zuckerberg](/personality-analysis/mark-zuckerberg) about the next Ray-Bans. The tiny room had become a set. The speculative friendship had become an institution.
 
 ## How fifty people a day found out they existed
 

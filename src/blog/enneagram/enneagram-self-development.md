@@ -73,7 +73,7 @@ The Enneagram addresses this by going beyond behavioral patterns to reveal the u
 
 ## How Does the Enneagram Accelerate Personal Growth?
 
-What separates the Enneagram from other personality systems is its recognition that your "type" isn't just a collection of traits – it's an adaptive strategy developed in childhood to meet your core emotional needs and protect you from psychological harm.
+What separates the Enneagram from [other personality systems](/enneagram-corner/enneagram-vs-personality-frameworks-comparison) is its recognition that your "type" isn't just a collection of traits – it's an adaptive strategy developed in childhood to meet your core emotional needs and protect you from psychological harm.
 
 Each Enneagram type represents a specific way your psyche organized itself around a particular core wound. Understanding these patterns helps explain [how each type self-sabotages](/enneagram-corner/how-each-enneagram-type-self-sabotages-success):
 

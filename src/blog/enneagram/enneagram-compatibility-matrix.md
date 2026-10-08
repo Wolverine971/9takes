@@ -156,7 +156,7 @@ When one person's secondary number clashes with the other's core type, check tha
 
 ### Where tritype runs out
 
-We haven't found peer-reviewed research that tests tritype compatibility. On 9takes, core type is already a working hypothesis, and picking three numbers gives you three chances to mistype instead of one. Use the tritype read as a second opinion, never a verdict. If the core read doesn't match your relationship, recheck both core types before reaching for a fix to explain it.
+We haven't found [peer-reviewed research](/enneagram-corner/mental-health/enneagram-science-mental-health) that tests tritype compatibility. On 9takes, core type is already a working hypothesis, and picking three numbers gives you three chances to mistype instead of one. Use the tritype read as a second opinion, never a verdict. If the core read doesn't match your relationship, recheck both core types before reaching for a fix to explain it.
 
 ## What Makes Any Enneagram Pairing Work?
 

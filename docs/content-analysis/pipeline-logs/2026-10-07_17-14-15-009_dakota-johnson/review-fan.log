@@ -17,3 +17,19 @@ I also flagged five passages the editor should keep, including "A Seven's appeti
 I checked quotes against the excerpts already saved in the research file and reopened Wikipedia for the family and early-career facts. I did not reopen the magazine articles or videos themselves.
 
 Two connections weren't usable this session. The Supabase tool failed to connect, though nothing here needed it. Several marketing and engineering connectors, such as Ahrefs, Slack and Notion, need to be authorized in your claude.ai connector settings or through `/mcp`.
+The fan review stage is complete. The only output file written was `review-fan.json` in the Dakota Johnson run directory. No other files were touched and nothing was published.
+
+**What I did.** I read the stage request, the review command, the people-profile standard and the review schema, then the frozen draft, the evidence record and the similarity diagnostic. I wrote the fan-role review and validated it against the runner's own code. It parses under `reviewSchema`, the copied content and evidence hashes match the runner's `editorialHash` and evidence hash for the current inputs, every finding and protected passage is an exact string in the draft, and all IDs are unique and `fan-` prefixed.
+
+**Findings written (11, five major).** The pattern is that the record gets clipped where it would strengthen the Six case or complicate the fear-versus-grievance split.
+
+- Major: Bustle's "It's also about control and feeling powerful" sits right after "It's contrived" and is omitted. It is the one place she frames a grievance as power and control, which the draft's "never" and "every time" claims deny.
+- Major: "a very different version of the film" is never explained. The record's own claim C165 carries the scrapped Patrick Marber script and the Charlie Hunnam exit. The "two independent accounts" sentence also uses the director's and author's dispute to characterize hers.
+- Major: the Gyllenhaal trust sentence is cut after "not be seen." It continues "not be handled with grace and with care," which is protection language.
+- Major: the HOPE luncheon low-day anecdote is weighed for Six despite the article's own rule that her depression is not counted for any type.
+- Major: "She prizes chosen family over the people you're actually born to" turns a proverb gloss from her blended-family answers into a ranking against her birth family. The next line in the source is "I love those kids like my life depends on it."
+- Minor: the defiance line's own accommodate-then-decide gloss is omitted. The "psychotic" quote loses its conditional. The limes FAQ implies the allergy claim changed when both tellings affirm it. The hook sharpens her Cannes words. "Erika Mitchell" is asserted unattributed. "One of seven half-siblings" is incoherent.
+
+**Protected (5).** The Fincher reading, the Glamour UK "waves" pairing, the "treated really well" concession, the Seven appetite line, and the close.
+
+**Two things for the editor.** Similarity trips are all against this subject's own prior draft, so no reuse finding. Part of the sibling subject review was displayed while I was loading inputs. My findings were checked directly against the draft and evidence, but I noted in the assessment that any overlap with that review should not count as independent corroboration.
