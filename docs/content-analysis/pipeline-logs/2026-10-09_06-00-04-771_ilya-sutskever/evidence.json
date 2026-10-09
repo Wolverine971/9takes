@@ -1,0 +1,1046 @@
+{
+  "schema_version": 3,
+  "subject": "ilya-sutskever",
+  "status": "ready",
+  "profile_format": "standard",
+  "accuracy_checked_at": "2026-10-09",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "research_tasks": [
+    "Non-blocking, before drafting: open OpenAI's March 8, 2024 post on the WilmerHale review (openai.com returned 403 to curl, WebFetch and a Wayback id_ fetch on 2026-10-09) so the memo's allegations (C21) can be paired with the review's exact wording; until then say only that Altman was reinstated and has led the company since (S03).",
+    "Non-blocking: open The Atlantic's May 2025 excerpt of Karen Hao's Empire of AI (or the book) to verify the bunker quotes and the anonymous 'rapture' line in C18 before quoting them; as of 2026-10-09 they rest on Fortune's relay (S27) and cannot carry the type argument.",
+    "Non-blocking: confirm the exact English wording of the May 11, 2026 'no such promise' answer (C29) against a transcript or Wired/Reuters text; the English version comes from reporters' live posts relayed by a blog (S32) and a Spanish translation (S05).",
+    "Non-blocking: Keach Hagey's The Optimist (2025) and Hao's Empire of AI (2025) reportedly carry named-colleague testimony on his working style; the opened record's named testimony is Hinton, Musk, Altman, Dean, Caldwell, Huang and Brockman. Add one named former direct report (Jan Leike or Jakub Pachocki) if a checkable source exists.",
+    "Accuracy before publishing: recheck SSI's status (any first model, funding, Nvidia's undisclosed investment vs. TIME's reported $5 billion), Sutskever's title (CEO since July 2025), his OpenAI stake figure, the Musk appeal, and whether he has responded to the film Artificial (U.S. release December 25, 2026)."
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.dwarkesh.com/p/ilya-sutskever-2",
+      "title": "Ilya Sutskever — We're moving from the age of scaling to the age of research (Dwarkesh Podcast transcript)",
+      "speaker": "Ilya Sutskever, interviewed by Dwarkesh Patel",
+      "date": "2025-11-25",
+      "locator": "Full published transcript read end to end on 2026-10-09 (saved to /tmp/ilya-sources/dwarkesh.txt). Timestamps cited: 00:00:00, 00:07:48, 00:26:19, 00:31:27, 00:40:22, 00:42:46, 00:43:04, 00:56:10, 01:02:37, 01:07:58, 01:18:36, 01:19:45, 01:22:26, 01:29:02, 01:33:14.",
+      "excerpt": "You know what’s crazy? That all of this is real. / But unfortunately, we live in a world where not all machine learning ideas are discussed freely, and this is one of them. / I think that one of the things that’s happening is that in practice, it’s very hard to feel the AGI. It’s very hard to feel the AGI. / The whole problem is the power. The whole problem is the power. / They’ll become much more paranoid. / We are doing research. We are squarely an “age of research” company. We are making progress. / I see it as an attempt to be a voice and a participant. / The context was that we were fundraising at a $32 billion valuation, and then Meta came in and offered to acquire us, and I said no. But my former cofounder in some sense said yes. / I’m going to preface by saying I don’t like this solution, but it is a solution. The solution is if people become part-AI with some kind of Neuralink++. / One thing that guides me personally is an aesthetic of how AI should be, by thinking about how people are, but thinking correctly. / Ugliness, there’s no room for ugliness. It’s beauty, simplicity, elegance, correct inspiration from the brain. / The top-down belief is the thing that sustains you when the experiments contradict you. / People who think differently, that’s what you want. / I think like 5 to 20.",
+      "context": "His longest public conversation since founding SSI, recorded about 18 months after he left OpenAI and a month after his deposition. Patel is a sympathetic, technically fluent host; Sutskever declines to describe SSI's method and says so. The transcript is edited for readability by the podcast, so wording may differ slightly from the audio.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.433688/gov.uscourts.cand.433688.340.1.pdf",
+      "title": "Videotaped Deposition of Ilya Sutskever, Musk v. Altman, No. 4:24-cv-04722-YGR (N.D. Cal.), excerpt filed as Document 340-1",
+      "speaker": "Ilya Sutskever, under oath; questioned by attorneys Molo (for Musk) and Eddy (for OpenAI)",
+      "date": "2025-10-01",
+      "locator": "62-page court-filed excerpt (filed 2025-10-29) converted with pdftotext and read on 2026-10-09; transcript pages 128–135, 307–326 and 354–355 read in full. The full ~365-page transcript is not public (a January 23, 2026 filing in the OpenAI copyright MDL, Doc. 1178, confirms only 'limited portions' are public).",
+      "excerpt": "Because I felt that, had he become aware of these discussions, he would just find a way to make them disappear. / Most of the screenshots that I have that I -- most or all, I don't remember. I get them from Mira Murati. / [As Read] Sam exhibits a consistent pattern of lying, undermining his execs, and pitting his execs against one another. / I wanted them to become aware of it. But my opinion was that action was appropriate. / Q. And what action did you think was appropriate? A. Termination. / A. Because I was worried that those memos will somehow leak. / A. It was a generalized concern. / A. Mira told me. Q. Did you seek to verify it with Greg? A. No. Q. Why not? A. It didn't occur to me. / I fully believed the information that Mira was giving me. / In hindsight, I realize that I didn't know it. But back then, I thought I knew it. But I knew it through secondhand knowledge. / Instead I've -- I've learned the critical importance of firsthand knowledge for matters like this. / I think secondhand knowledge can be very useful, but I think that secondhand knowledge is an invitation for further investigation. / A. I was very unhappy about it. Q. Why? A. Because I really did not want OpenAI to merge with Anthropic. Q. Why not? A. I just didn't want to. / I mean, \"planning\" is the wrong word because it didn't seem feasible. / A. At least a year. / A. I had not expected them to cheer, but I have not expected them to feel strongly either way. / A. To do a new and different kind of research. / A. I have a new idea of how to do things, and I want to try and do them. / Q. When was the last time you spoke with Sam Altman? A. A while ago. Maybe ten months ago, a year ago.",
+      "context": "Adversarial setting: Musk's lawyers wanted evidence against Altman, OpenAI's lawyers (Agnolucci) objected repeatedly and instructed him not to answer some questions; his answers are short and may be legally coached. The excerpt was selected by litigants, so surrounding context is missing. The memo's allegations against Altman are allegations, not findings.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://wtvbam.com/2026/05/11/former-openai-executive-sutskever-discloses-nearly-7-billion-stake-in-ai-firm/",
+      "title": "Ex-OpenAI exec Sutskever says he spent a year gathering proof of alleged Altman dishonesty (Reuters, syndicated by WTVB)",
+      "speaker": "Reuters (Juby Babu, Deborah Sophia, Deepa Seetharaman, Kenrick Cai)",
+      "date": "2026-05-11",
+      "locator": "Full syndicated Reuters text read on 2026-10-09 (reuters.com returned 401 to curl and Wayback); paragraphs 1–12 and the section 'SUTSKEVER CONFIRMS 2023 OPENAI-ANTHROPIC MERGER TALKS'. Note: the syndicated page embeds invisible zero-width characters inside several sentences; the excerpt reproduces the visible text without them.",
+      "excerpt": "Former OpenAI chief scientist Ilya Sutskever testified on Monday that he spent about a year gathering evidence for the ChatGPT maker’s board that CEO Sam Altman had displayed a “consistent pattern of lying.” / Altman’s conduct was “not conducive to any grand goal”, including the creation of safe AGI, Sutskever said / But worried that the company could collapse, he later expressed regret over his “participation in the board’s actions” and voted to reinstate Altman, who has since led the company / Sutskever disclosed on Monday that his ownership stake in OpenAI was worth about $5 billion as of November 2025, and about $7 billion currently. / He said he was “not excited” about merging OpenAI with another company. / Sutskever said he avoided the internet for most of the weekend after the board vote to fire Altman, and that he was not initially aware of contingency plans like Microsoft’s proposal to absorb Altman, Brockman, and other OpenAI employees into a new subsidiary.",
+      "context": "Wire report on his trial testimony in Oakland during week three of Musk v. Altman. Reuters is independent of the parties; the quotes are from open court.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://web.archive.org/web/2026id_/https://dnyuz.com/2026/05/12/ilya-sutskever-stands-by-his-role-in-sam-altmans-openai-ouster-i-didnt-want-it-to-be-destroyed/",
+      "title": "Ilya Sutskever Stands by His Role in Sam Altman’s OpenAI Ouster: ‘I Didn’t Want It to Be Destroyed’ (Wired, syndicated by DNYUZ)",
+      "speaker": "Wired staff (byline not shown on the syndicated copy); quotes from Sutskever, Greg Brockman and an OpenAI lawyer in court",
+      "date": "2026-05-12",
+      "locator": "Wayback id_ capture of the DNYUZ syndication read in full on 2026-10-09 (dnyuz.com and wired.com blocked direct fetches); paragraphs 2–8.",
+      "excerpt": "Brockman was one of the research lab’s original cofounders, and Sutskever joined shortly afterward, turning down a $6 million annual compensation offer from Google. Brockman said he and Sutskever were “joined at the hip,” until Sutskever helped lead Sam Altman’s brief removal as OpenAI CEO in 2023. / Though they tried to repair the relationship, Sutskever has been estranged from Brockman and Altman ever since, a lawyer for OpenAI said on Monday. / Sutskever, who arrived in the courtroom wearing a dress shirt and slacks, the first male witness to testify without a suit jacket, appeared to be dejected about no longer being involved with OpenAI. / “I felt a great deal of ownership of OpenAI,” he said at one point Monday. “I felt like I put my life into it, and I simply cared for it, and I didn’t want it to be destroyed.” / “I would describe it as the difference between an ant and a cat,” Sutskever said in response to a question from US district judge Yvonne Gonzalez Rogers about how more computing helped OpenAI level up. “If there’s no funding, there is no big computer.” / In the end, Sutskever, a prominent AI scientist who paints in his spare time, testified for about an hour, barely making eye contact with anyone during his time on the witness stand. / Sutskever said he supported firing Altman because an “environment where executives don’t have the correct information” is not “conducive to reach any grand goal.” But he criticized his board colleagues for rushing the process, lacking experience, and accepting “legal advice that wasn’t very good.”",
+      "context": "Courtroom report; the reporter's observations ('dejected', 'barely making eye contact') are one journalist's reading of demeanor, not fact. The 'estranged' line is from OpenAI's lawyer, a party to the case.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://forbes.com.mx/?p=1399426",
+      "title": "Ilya Sutskever testifica que posee una participación de 7 mil millones de dólares en OpenAI (Forbes México)",
+      "speaker": "Forbes México staff (Spanish-language translation of Forbes reporting)",
+      "date": "2026-05-12",
+      "locator": "Full article read on 2026-10-09; paragraphs 4, 6 and 7 (Google offer, 'último recurso', 'no hizo tal promesa').",
+      "excerpt": "Sutskever, que trabajó como científico investigador en Google durante dos años, testificó que Google le ofreció 6 millones de dólares al año para que se quedara en la empresa en lugar de marcharse para fundar OpenAI, una “cantidad de dinero asombrosa” para él en aquel momento, según afirmó. / Finalmente, Sutskeer firmó una petición junto con los empleados de OpenAI para que se readmitiera a Altman, en lo que él denominó un “último recurso” para salvar a la empresa de ser “destruida” / Sutskever declaró que “no hizo tal promesa”, y añadió: “La misión de OpenAI es más importante que su estructura, ya sea sin ánimo de lucro o con ánimo de lucro”.",
+      "context": "Spanish translation of English testimony; quote the English from S04 and S32 and treat this as corroboration of substance, not wording.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.lesswrong.com/posts/5jjk4CDnj9tA7ugxr/openai-email-archives-from-musk-v-altman-and-openai-blog",
+      "title": "Email, subject 'Honest Thoughts', Ilya Sutskever (for himself and Greg Brockman) to Elon Musk and Sam Altman, cc Brockman, Sam Teller, Shivon Zilis; reproduced in 'OpenAI Email Archives (from Musk v. Altman and OpenAI blog)'",
+      "speaker": "Ilya Sutskever and Greg Brockman (signed 'Greg & Ilya'); Elon Musk's replies",
+      "date": "2017-09-20",
+      "locator": "Archive page fetched and extracted on 2026-10-09; the email begins at line 791 of the extracted text and runs to Musk's 2:17 PM and 3:08 PM replies. The archive compiles exhibits from Musk v. Altman and OpenAI's March and December 2024 posts; openai.com itself returned 403 on all fetch paths.",
+      "excerpt": "This process has been the highest stakes conversation that Greg and I have ever participated in / We didn't raise them because we were afraid to: we were afraid of harming the relationship, having you think less of us, or losing you as partners. / The current structure provides you with a path where you end up with unilateral absolute control over the AGI. / The goal of OpenAI is to make the future good and to avoid an AGI dictatorship. You are concerned that Demis could create an AGI dictatorship. So do we. So it is a bad idea to create a structure where you could become a dictator if you chose to / Greg and I, at least so far, are much worse at being a counterbalance to you. / But we haven't been able to fully trust your judgements throughout this process, because we don't understand your cost function. / We don't understand why the CEO title is so important to you. Your stated reasons have changed, and it's hard to really understand what's driving it. / We did not speak our full truth during the negotiation. / Elon Musk to Ilya Sutskever (cc: Sam Altman; Greg Brockman; Sam Teller; Shivon Zilis) - Sep 20, 2017 2:17PM / Guys, I've had enough. This is the final straw.",
+      "context": "Written jointly with Brockman during the 2017 negotiation over converting OpenAI to a for-profit under Musk; sent from Sutskever's account. Both OpenAI (in litigation) and Musk have published versions of this exhibit, so its authenticity is not disputed, but any single sentence may be Brockman's wording as much as Sutskever's.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.lesswrong.com/posts/5jjk4CDnj9tA7ugxr/openai-email-archives-from-musk-v-altman-and-openai-blog",
+      "title": "Email, Ilya Sutskever to Elon Musk, Sam Altman, Greg Brockman, replying to a forwarded critique of open-sourcing AI; reproduced in 'OpenAI Email Archives'",
+      "speaker": "Ilya Sutskever",
+      "date": "2016-01-02",
+      "locator": "Same archive page, line 227 of the extracted text (the email is dated Jan 2, 2016 9:06 AM; Musk replies 'Yup' at 9:11 AM).",
+      "excerpt": "As we get closer to building AI, it will make sense to start being less open. The Open in openAI means that everyone should benefit from the fruits of AI after its built, but it's totally OK to not share the science (even though sharing everything is definitely the right strategy in the short and possibly medium term for recruitment purposes).",
+      "context": "Written three weeks after OpenAI's founding, answering an outside critic's argument that open-sourcing AI is dangerous. OpenAI published it in March 2024 to rebut Musk's lawsuit, so it was selected by one side.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://web.archive.org/web/2023id_/https://www.theatlantic.com/technology/archive/2023/11/sam-altman-open-ai-chatgpt-chaos/676050/",
+      "title": "Inside the Chaos at OpenAI",
+      "speaker": "Karen Hao and Charlie Warzel, The Atlantic; attributed to 10 unnamed current and former employees and to Geoffrey Hinton",
+      "date": "2023-11-19",
+      "locator": "Wayback id_ capture read in full on 2026-10-09 (theatlantic.com blocks direct fetches); paragraphs beginning 'The tensions boiled over at the top', 'Anticipating the arrival', and 'The more confident Sutskever grew'.",
+      "excerpt": "Over the past few years, the rapid progress of OpenAI’s large language models had made Sutskever more confident that AGI would arrive soon and thus more focused on preventing its possible dangers, according to Geoffrey Hinton / Anticipating the arrival of this all-powerful technology, Sutskever began to behave like a spiritual leader, three employees who worked with him told us. His constant, enthusiastic refrain was “feel the AGI,” / At OpenAI’s 2022 holiday party, held at the California Academy of Sciences, Sutskever led employees in a chant: “Feel the AGI! Feel the AGI!” / For a leadership offsite this year, according to two people familiar with the event, Sutskever commissioned a wooden effigy from a local artist that was intended to represent an “unaligned” AI—that is, one that does not meet a human’s objectives. He set it on fire to symbolize OpenAI’s commitment to its founding principles. / (Sutskever did not respond to a request for comment.)",
+      "context": "Published two days after the firing while the outcome was unknown; the employee sources are anonymous and were speaking during a factional fight. Hinton is named. Sutskever declined comment.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.technologyreview.com/2023/10/26/1082398/exclusive-ilya-sutskever-openais-chief-scientist-on-his-hopes-and-fears-for-the-future-of-ai/",
+      "title": "Rogue superintelligence and merging with machines: Inside the mind of OpenAI’s chief scientist",
+      "speaker": "Will Douglas Heaven, MIT Technology Review; quotes from Sutskever, Jensen Huang, Jeff Dean, Dalton Caldwell, Jan Leike",
+      "date": "2023-10-26",
+      "locator": "Full article read on 2026-10-09 (curl returned the complete text); sections 'Better and better and better', 'Managing expectations', 'Incredible things', 'AI but not as we know it'.",
+      "excerpt": "He is deliberate and methodical when he talks. There are long pauses when he thinks about what he wants to say and how to say it, turning questions over like puzzles he needs to solve. He does not seem interested in talking about himself. “I lead a very simple life,” he says. “I go to work; then I go home. I don’t do much else. There are a lot of social activities one could engage in, lots of events one could go to. Which I don’t.” / “But I had one very explicit belief, which is: one doesn’t bet against deep learning.” / “It wasn’t called AGI back then, but you know, like, having a neural network do everything. I didn’t always believe that they could. But it was the mountain to climb.” / “Everything follows if you take this realization seriously enough,” he says. “And a big fraction of my work can be explained by that.” / “I will admit, to my slight embarrassment—I don’t know if I should, but what the hell, it is true—when we made ChatGPT, I didn’t know if it was any good.” / “The first time you use it, I think it’s almost a spiritual experience. You go, ‘Oh my God, this computer seems to understand.’” / “I’m doing it for my own self-interest,” he says. “It’s obviously important that any superintelligence anyone builds does not go rogue. Obviously.” / a machine that looks upon people the way parents look on their children. “In my opinion, this is the gold standard,” he says. / (Does he have children? “No, but I want to,” he says.) / “One possibility—something that may be crazy by today’s standards but will not be so crazy by future standards—is that many people will choose to become part AI.” / Would he be one of the first? “The first? I don’t know,” he says. “But it’s something I think about. The true answer is: maybe.” / It’s a great story—it just might not be true. Sutskever insists he bought those first GPUs online. / “Ilya has always been interested in language,” says Sutskever’s former colleague Jeff Dean / In February 2022 he posted, “it may be that today’s large neural networks are slightly conscious”",
+      "context": "The last long interview he gave as OpenAI's chief scientist, three weeks before the firing, conducted in person at OpenAI's office. Heaven is a critical but fair interviewer; the 'merge' remarks are explicitly speculative.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.youtube.com/watch?v=9iqn1HhFJ6c",
+      "title": "Ilya: the AI scientist shaping the world (The Guardian; interview footage from Tonje Hessen Schei's documentary iHuman, filmed 2016–2019)",
+      "speaker": "Ilya Sutskever on camera; The Guardian editing",
+      "date": "2023-11-02 (footage 2016–2019)",
+      "locator": "Human-written English (en-GB) caption track pulled with yt-dlp on 2026-10-09; timestamps 00:00:08–00:00:52, 00:02:45–00:03:30, 00:08:17–00:08:56, 00:10:09–00:10:53.",
+      "excerpt": "I think AI has the potential to create infinitely stable dictatorships. / What inspires me? I like thinking about the very fundamentals, the basics. What can our systems not do, that humans definitely do? Almost approach it philosophically. Questions like, what is learning? What is experience? What is thinking? How does the brain work? / I feel that technology is a force of nature. / It's not that it's going to actively hate humans and want to harm them, but it is going to be too powerful and I think a good analogy would be the way human humans treat animals. / And I think it's pretty likely the entire surface of the earth will be covered with solar panels and data centres. / The future is going to be good for the AI regardless. It would be nice if it were good for humans as well.",
+      "context": "Documentary interview footage recorded before ChatGPT, released by the Guardian two weeks before the firing. Captions are the Guardian's own, so wording is reliable; the documentary's cuts remove the questions asked.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.youtube.com/watch?v=zuZ2zaotrJs",
+      "title": "Ilya Sutskever, U of T honorary degree recipient, June 6, 2025 (University of Toronto convocation address)",
+      "speaker": "Ilya Sutskever",
+      "date": "2025-06-06",
+      "locator": "YouTube auto-generated captions pulled with yt-dlp on 2026-10-09 (University of Toronto channel; 10 minutes); timestamps 00:01:01–00:01:33, 00:02:18–00:03:17, 00:07:20–00:07:49, 00:09:11–00:09:41. Auto-captions carry no punctuation; punctuation in quotations is editorial.",
+      "excerpt": "the fact that Jeff Hinton was in this university was one of my life's great strokes of luck / I will offer one bit of um a useful state of mind which if one adopts it makes everything much easier which is to accept reality as it is and to try not to regret the past and try to improve the situation / But it's hard. It's hard. It's it's a constant struggle with one's emotion. And that's why I mention it to you. / And also a reminder for myself. Constant struggle. / It's very difficult to internalize and to really believe on an emotional level. Even I struggle with it. / And the challenge that AI poses in some sense is the greatest challenge of humanity ever.",
+      "context": "Prepared public remarks to graduates on receiving an honorary doctorate at his alma mater, a year after founding SSI. He frames the advice as something he needs himself.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.youtube.com/watch?v=1yvBqasHLZs",
+      "title": "Ilya Sutskever: 'Sequence to sequence learning with neural networks: what a decade' (NeurIPS 2024 Test of Time award talk and Q&A)",
+      "speaker": "Ilya Sutskever; audience questioners",
+      "date": "2024-12-13",
+      "locator": "YouTube auto-generated captions pulled with yt-dlp on 2026-10-09 (reupload by 'seremot', 2024-12-14; 24 minutes); timestamps 00:07:56–00:08:32, 00:14:28–00:14:42, 00:21:16–00:21:49.",
+      "excerpt": "But pre-training as we know it will unquestionably end. / data is the fossil fuel of AI / The more it reasons, the more unpredictable it becomes. / I don't feel confident answering questions like this / it's not a bad end result if you have AIs and all they want is to coexist with us and also just to have rights, maybe that will be fine. It's But I don't know. I mean, I think things are so incredibly unpredictable. I I hesitate to comment, but I encourage the speculation.",
+      "context": "His only research talk between leaving OpenAI (May 2024) and the Dwarkesh interview (Nov 2025); the Q&A answers are unscripted. Reupload of the conference video; auto-captions.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://magazine.utoronto.ca/people/alumni-donors/heard-it-through-the-ai-openai-ilya-sutskever/",
+      "title": "Heard It Through the AI (U of T Magazine)",
+      "speaker": "Alec Scott, U of T Magazine; quotes from Sutskever and Geoffrey Hinton",
+      "date": "2022-09-28",
+      "locator": "Full article read on 2026-10-09; the section after the '***' divider (biography, Hinton, the 2015 dinner).",
+      "excerpt": "The human seeking to create a human-friendly artificial intelligence is a fairly private, work-oriented man. When this former mathematics student speaks of the theory behind the technology’s development, his eyes go over your head, as he moves into a private space where the ideas are real to him – even more real, perhaps, than you are. / Born in Nizhny Novgorod, Russia, but raised mostly in Jerusalem, Sutskever remembers the first time, at about age five, that he saw a computer – at an expo he went to with his father, an engineer: “I was utterly enchanted.” / “I remember thinking a lot about the nature of existence and consciousness, as teenagers do, about souls and intelligence. I felt very strongly that learning was this mysterious thing: humans clearly learn, computers clearly don’t.” / U of T admitted Sutskever from Grade 11 into a math program on the basis of his studies at the Open University of Israel. / “I was really focused on my studies,” he says. (Now, in his spare time, he likes to play the piano and keep in shape, but he remains singularly devoted to his work.) / He quickly developed confidence in Sutskever because, Hinton says, “he asked the right questions.” / “We just spoke and we vibed and we continued the conversation. Two days after the dinner I emailed Sam to say, I’d like to be involved if you’re interested.” / As he notes, in his typically understated way, “It’s an unlikely scenario.”",
+      "context": "Alumni-magazine profile written before ChatGPT; friendly venue, in-person interview at OpenAI. The biographical details are his own account to the writer.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.youtube.com/watch?v=13CZPWmke6A",
+      "title": "#94 – Ilya Sutskever: Deep Learning (Lex Fridman Podcast)",
+      "speaker": "Ilya Sutskever, interviewed by Lex Fridman",
+      "date": "2020-05-08",
+      "locator": "YouTube auto-generated captions pulled with yt-dlp on 2026-10-09; 'Meaning of life' segment 01:32:05–01:36:14. Auto-captions carry no punctuation or capitals.",
+      "excerpt": "i think what's going on is that we exist and that's amazing and we should try to make the most of it and try to maximize our own value and enjoyment of a very short time while we do exist / so given that we exist try to make the most of it and try to enjoy more and suffer less as much as we can / i do experience some regret but you know i try to take solace in the knowledge that at the time i did the best i could / my current view is that happiness comes from our to allow to a very large degree from the way we look at things / being humble in the face of the uncertainty seems to be also a part of this whole happiness thing",
+      "context": "Recorded before GPT-3's release; the only extended personal-philosophy answers in his public record before 2023.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.youtube.com/watch?v=Ft0gTO2K85A",
+      "title": "No Priors Ep. 39 | With OpenAI Co-Founder & Chief Scientist Ilya Sutskever",
+      "speaker": "Ilya Sutskever, interviewed by Sarah Guo and Elad Gil",
+      "date": "2023-11-02",
+      "locator": "YouTube auto-generated captions pulled with yt-dlp on 2026-10-09 (official channel upload 2023-11-02); timestamps 00:14:27–00:14:47 and 00:34:36–00:36:05.",
+      "excerpt": "I have witnessed personally what it's like to be in a world for many years where the neural networks don't work at all. / the most surprising if I had to pick one, it would be the fact that when I speak to it, I feel understood. / my reaction is gosh, this is very unpredictable what's going to happen. Very unpredictable. / we want those data centers to hold warm and positive feelings towards people, towards humanity. / I want them to be to be prosocial, prohuman social. That's the goal.",
+      "context": "Recorded about two weeks before the board vote; venture-capital hosts, friendly setting.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.youtube.com/watch?v=I6qQinoY9WM",
+      "title": "Fireside Chat With Ilya Sutskever and Jensen Huang: AI Today and Vision of the Future (NVIDIA GTC, March 2023; reupload)",
+      "speaker": "Ilya Sutskever, interviewed by Jensen Huang",
+      "date": "2023-03 (reupload dated 2024-10-13)",
+      "locator": "YouTube auto-generated captions pulled with yt-dlp on 2026-10-09; timestamps 00:01:13–00:02:52.",
+      "excerpt": "I had a lot of curiosity about what is consciousness what is The Human Experience and it felt like progress in artificial intelligence will help with that / it seemed like learning is the thing that humans can do that people can do that computers can't do at all in 2003 2002 computers could not learn anything and it wasn't even clear that it was possible in theory / to my great luck Jeff Hinton was a professor at my University and I was able to find him",
+      "context": "Promotional conversation with a business partner (NVIDIA's CEO) at NVIDIA's conference; his origin-story answer is self-report and matches the 2022 U of T Magazine account.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.youtube.com/watch?v=4W5askrV-wY",
+      "title": "Geoffrey Hinton | On working with Ilya, choosing problems, and the power of intuition (Sana AI Summit conversation; reupload)",
+      "speaker": "Geoffrey Hinton",
+      "date": "2024 (reupload dated 2024-06-26)",
+      "locator": "YouTube auto-generated captions pulled with yt-dlp on 2026-10-09; timestamps 00:05:00–00:08:06 and 00:40:19–00:40:44 (auto-captions spell the name 'Ilia').",
+      "excerpt": "there was a knock on the door not just any knock but it won't C it's sort of an urgent knock so I went and answer to the door and this was this young student there and he said he was cooking Fries over the summer but he'd rather be working in my lab and so I said well why don't you make an appointment and we'll talk and so IL said how about now and that sort of was il's character / and he said oh no no I understood that I just don't understand why you don't give the gradient to a sensible function Optimizer which took us quite a few years to think about / his raw intuitions about things were always very good / I think he always thought for himself he was always interested in AI from a young age / Ilia was always preaching that um you just make it bigger and it'll work better and I always thought that was a bit of a copout / I said it's okay I did it this morning",
+      "context": "His doctoral adviser's recollection, told affectionately some 17 years after the event; Hinton is close to him and publicly on his side in the Altman dispute. Dates differ across retellings (2007 or earlier).",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://fortune.com/2024/10/09/openai-sam-altman-geoffrey-hinton-nobel-prize-physics-ilya-sutskever-toronto",
+      "title": "New Nobel Prize winner, AI godfather Geoffrey Hinton, says he’s proud his student fired OpenAI boss Sam Altman",
+      "speaker": "Christiaan Hetzner, Fortune; quoting Geoffrey Hinton at his Nobel press briefing",
+      "date": "2024-10-09",
+      "locator": "Full article read on 2026-10-09; paragraphs with the Tuesday (Oct. 8, 2024) press-briefing quotes.",
+      "excerpt": "“They’ve gone on to do great things,” he said on Tuesday. “I’m particularly proud of the fact that one of my students fired Sam Altman. And I think I better leave it there.” / “Over time it turned out that Sam Altman was much less concerned with safety than with profits,” he said, “and I think that’s unfortunate.”",
+      "context": "Hinton speaking on the day his Nobel was announced; he is a partisan in the safety argument and an admirer of his former student.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://fortune.com/2023/12/09/elon-musk-says-openai-ilya-sutskever-should-join-xai-or-tesla/",
+      "title": "Elon Musk says Ilya Sutskever—the OpenAI chief scientist who helped fire Sam Altman then backtracked—should jump ship for xAI or Tesla",
+      "speaker": "Steve Mollman, Fortune; quoting Elon Musk (New York Times DealBook summit and Lex Fridman Podcast) and Sam Altman",
+      "date": "2023-12-09",
+      "locator": "Full article read on 2026-10-09; section headed 'Sutskever’s ‘moral compass’'.",
+      "excerpt": "Altman made a point to mention Sutskever in a statement about his return, writing: “I harbor zero ill will towards him. While Ilya will no longer serve on the board, we hope to continue our working relationship.” / “I think we should be concerned about this because I think Ilya actually has a strong moral compass,” he said. “He really sweats it over questions of what is right. And if Ilya felt strongly enough to want to fire Sam, well, I think the world should know what was that reason.” / As Musk told the Lex Fridman Podcast, Sutskever’s recruitment in 2015 “was really the linchpin for OpenAI being successful.”",
+      "context": "Musk was by then Altman's declared adversary and a competitor (xAI), so his praise serves his argument; Fortune relays the DealBook remarks secondhand.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://fortune.com/2023/11/25/elon-musk-what-scared-ilya-sutskever-openai-sam-altman-return/",
+      "title": "Elon Musk warns ‘something scared’ OpenAI chief scientist Ilya Sutskever as CEO Sam Altman’s return fails to answer key questions",
+      "speaker": "Fortune staff; quoting Elon Musk's and Ilya Sutskever's posts on X",
+      "date": "2023-11-25",
+      "locator": "Full article read on 2026-10-09; paragraphs 1–9.",
+      "excerpt": "Sutskever, whom Musk recently described as a “good human” with a “good heart”—and the “linchpin for OpenAI being successful” / Musk replied a few hours later, “Yeah! Something scared Ilya enough to want to fire Sam. What was it?” / Sutskever, after his backtracking on Monday, responded to the return of Altman by writing on Wednesday, “There exists no sentence in any language that conveys how happy I am.”",
+      "context": "Relay of X posts during the week of the firing; Musk's framing ('scared') is his speculation, which Sutskever's later sworn account (a year of concern about candor) does not support.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://techstartups.com/2023/11/20/i-deeply-regret-my-participation-in-the-boards-actions-chatgpt-4-creator-ilya-sutskever-says/",
+      "title": "“I deeply regret my participation in the board’s actions,” OpenAI co-founder and ChatGPT-4 creator Ilya Sutskever says",
+      "speaker": "Tech Startups staff, reproducing Ilya Sutskever's post on X (@ilyasut)",
+      "date": "2023-11-20",
+      "locator": "Full article read on 2026-10-09; the embedded post text (status 1726590052392956028).",
+      "excerpt": "“I deeply regret my participation in the board’s actions. I never intended to harm OpenAI. I love everything we’ve built together and I will do everything I can to reunite the company,” Sutskever shared on X.",
+      "context": "Posted the morning employees were signing the letter demanding the board resign; the wording is widely reproduced and matches the embedded post.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://gizmodo.com/ilya-sutskever-leaves-openai-1851477658",
+      "title": "Ilya Sutskever Quits OpenAI",
+      "speaker": "Maxwell Zeff, Gizmodo; embedding posts by Ilya Sutskever and Sam Altman",
+      "date": "2024-05-14",
+      "locator": "Full article read on 2026-10-09, including the embedded X posts.",
+      "excerpt": "“After almost a decade, I have made the decision to leave OpenAI,” said Sutskever via a tweet on Tuesday afternoon. “I am excited for what comes next — a project that is very personally meaningful to me about which I will share details in due time.” / “Ilya and OpenAI are going to part ways,” said Altman in a tweet shortly after. “This is very sad to me; Ilya is easily one of the greatest minds of our generation, a guiding light of our field, and a dear friend.” / His brilliance and vision are well known; his warmth and compassion are less well known but no less… / This is Sutskever’s first tweet in over five months, and OpenAI’s chief scientist was missing from major announcements such as Sora and this week’s GPT-4 Omni. / Jan Leike, another OpenAI executive who worked with Sutskever on safeguarding future AI, also resigned on Tuesday",
+      "context": "Same-day news report; Altman's tribute is a public statement by the man he had voted to fire six months earlier and may be diplomatic.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://srnnews.com/ilya-sutskever-on-how-ai-will-change-and-his-new-startup-safe-superintelligence/",
+      "title": "Ilya Sutskever on how AI will change and his new startup Safe Superintelligence (Reuters interview highlights, syndicated by SRN News)",
+      "speaker": "Reuters (Kenrick Cai, Anna Tong, Krystal Hu); quotes from Ilya Sutskever",
+      "date": "2024-09-05",
+      "locator": "Full syndicated text read on 2026-10-09 (reuters.com blocks fetches); sections 'THE RATIONALE FOR FOUNDING SSI', 'ON OPEN-SOURCING SSI’S RESEARCH', 'ON OTHER AI COMPANIES’ SAFETY RESEARCH EFFORTS'.",
+      "excerpt": "“We’ve identified a mountain that’s a bit different from what I was working [on]…once you climb to the top of this mountain, the paradigm will change… Everything we know about AI will change once again. At that point, the most important superintelligence safety work will take place.” / “Our first product will be the safe superintelligence.” / “At this point, all AI companies are not open-sourcing their primary work. The same holds true for us.” / “I actually have a very high opinion about the industry. I think that as people continue to make progress, all the different companies will realize — maybe at slightly different times — the nature of the challenge that they’re facing. So rather than say that we think that no one else can do it, we say that we think we can make a contribution.”",
+      "context": "Given the day SSI announced its $1 billion raise; a fundraising-adjacent interview with his co-founders present.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://ssi.inc/",
+      "title": "Safe Superintelligence Inc. (company statement, 'Superintelligence is within reach.')",
+      "speaker": "Ilya Sutskever, Daniel Gross and Daniel Levy (founding statement, June 19, 2024), as published on the company site",
+      "date": "2024-06-19 (site read 2026-10-09)",
+      "locator": "Entire single-page site read on 2026-10-09; the page still shows the founding statement with a 2024–2026 copyright line.",
+      "excerpt": "We have started the world’s first straight-shot SSI lab, with one goal and one product: a safe superintelligence. / SSI is our mission, our name, and our entire product roadmap, because it is our sole focus. / We plan to advance capabilities as fast as possible while making sure our safety always remains ahead. This way, we can scale in peace. / Our singular focus means no distraction by management overhead or product cycles, and our business model means safety, security, and progress are all insulated from short-term commercial pressures. / We are an American company with offices in Palo Alto and Tel Aviv",
+      "context": "Corporate manifesto signed by three founders; it is positioning as well as intent. Gross has since left.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://techcrunch.com/2025/07/03/ilya-sutskever-will-lead-safe-superintelligence-following-his-ceos-exit",
+      "title": "Ilya Sutskever will lead Safe Superintelligence following his CEO’s exit",
+      "speaker": "TechCrunch; quoting Ilya Sutskever's post on X",
+      "date": "2025-07-03",
+      "locator": "Full article read on 2026-10-09; paragraphs 1–4 and the embedded post.",
+      "excerpt": "Sutskever confirmed Thursday that Daniel Gross, the startup’s co-founder and CEO, departed the company as of June 29. Safe Superintelligence co-founder Daniel Levy is becoming president of the startup / “You might have heard rumors of companies looking to acquire us. We are flattered by their attention but are focused on seeing our work through,” said Sutskever. “We have the compute, we have the team, and we know what to do. Together we will keep building safe superintelligence.”",
+      "context": "News report on his own announcement after weeks of reporting that Meta tried to buy SSI and hire Gross; Sutskever does not name Meta here but does in S01.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://nvidianews.nvidia.com/news/ilya-sutskevers-safe-superintelligence-inc-and-nvidia-announce-long-term-strategic-partnership",
+      "title": "Ilya Sutskever’s Safe Superintelligence Inc. and NVIDIA Announce Long-Term Strategic Partnership",
+      "speaker": "NVIDIA press release; quotes from Jensen Huang and Ilya Sutskever",
+      "date": "2026-07-27",
+      "locator": "Full press release read on 2026-10-09; the quote paragraphs and the 'About Safe Superintelligence Inc.' boilerplate.",
+      "excerpt": "For SSI, NVIDIA’s substantial investment combined with access to the next-generation, best-in-class NVIDIA Vera Rubin platform will allow SSI to increase its compute by an order of magnitude. / “We have research that is worthy of scaling up, and having access to a big NVIDIA computer will let us do so,” said Ilya Sutskever, cofounder and CEO of SSI. / Founded in 2024, the company is led by Ilya Sutskever and Daniel Levy. / SSI’s investors include Andreessen Horowitz, DST Global, Greenoaks, and Sequoia Capital.",
+      "context": "Vendor press release; the investment amount is not disclosed here. TIME later reported $5 billion (S31), which NVIDIA has not confirmed in this document.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://fortune.com/2025/05/20/chatgpt-openai-ilya-sutskever-chief-scientist-planneddoomsday-bunker-agi",
+      "title": "OpenAI ex-chief scientist planned for a doomsday bunker for the day when machines become smarter than man",
+      "speaker": "Christiaan Hetzner and Irina Ivanova, Fortune, relaying The Atlantic's excerpt of Karen Hao's Empire of AI (anonymous OpenAI sources)",
+      "date": "2025-05-20",
+      "locator": "Full article read on 2026-10-09; paragraphs 4–8. The Atlantic excerpt and the book itself were not opened.",
+      "excerpt": "“We’re definitely going to build a bunker before we release AGI,” Sutskever told his team in 2023, months before he would ultimately leave the company. / “Of course, it’s going to be optional whether you want to get into the bunker,” he assured fellow OpenAI scientists, according to people present at the time. / Neither OpenAI nor Sutskever responded to a request for comment from Fortune out of normal hours.",
+      "context": "Third-hand: Fortune summarizing The Atlantic's excerpt of a book based on anonymous accounts. Sutskever has not confirmed or denied the remark. Cannot carry weight on its own.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://lexfridman.com/dario-amodei-transcript/",
+      "title": "Dario Amodei: Anthropic CEO on Claude, AGI & the Future of AI & Humanity | Lex Fridman Podcast #452 (transcript)",
+      "speaker": "Dario Amodei, interviewed by Lex Fridman",
+      "date": "2024-11-11",
+      "locator": "Official transcript page fetched on 2026-10-09; the passage beginning 'So I was at OpenAI for roughly five years' (line 1027 of the extracted text).",
+      "excerpt": "Around 2016 or 2017, I first started to really believe in or at least confirm my belief in the scaling hypothesis when Ilya famously said to me, “The thing you need to understand about these models is they just want to learn. The models just want to learn.”",
+      "context": "A former colleague and later rival (Anthropic co-founder) crediting Sutskever; the date of the remark varies between Dario's tellings (2015 vs. 2016–17).",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://en.wikipedia.org/wiki/Ilya_Sutskever",
+      "title": "Ilya Sutskever (Wikipedia)",
+      "speaker": "Wikipedia editors",
+      "date": "2026 (read 2026-10-09)",
+      "locator": "Lead and 'Early life and education' section read on 2026-10-09; used only for the birth year and to cross-check dates, with primary sources (S13, S30) preferred.",
+      "excerpt": "Ilya Sutskever (Hebrew: איליה סוצקבר; born 1986) is a Soviet-born Israeli-Canadian computer scientist / At the age of 5, he immigrated to Israel with his family and grew up in Jerusalem.",
+      "context": "Tertiary reference. Gives only a birth year; some mirror sites assert a full birth date, which no opened source supports. Do not add a day or month.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.utoronto.ca/news/ilya-sutskever-leader-ai-and-its-responsible-development-receives-u-t-honorary-degree",
+      "title": "Ilya Sutskever, a leader in AI and its responsible development, receives U of T honorary degree (U of T News)",
+      "speaker": "Rahul Kalvapalle, U of T News; quoting Geoffrey Hinton's Globe and Mail interview",
+      "date": "2025-06-06",
+      "locator": "Full article read on 2026-10-09; paragraphs on his admission from Grade 11, the Hinton anecdote, AlexNet and Google.",
+      "excerpt": "Admitted into U of T’s math program out of Grade 11, Sutskever immediately immersed himself in upper-year courses. Graduating with an honours bachelor of science degree in mathematics in 2005, he went on to earn a master’s degree and PhD in computer science at U of T / In an interview with the Globe and Mail, the “godfather of AI” recounted giving Sutskever – who had knocked on his door and expressed an interest in joining his lab – a paper to read and being taken aback by the clarity of his responses. “His immediate reaction to things were reactions that had taken experts in the field quite a long time to come up with,” Hinton said.",
+      "context": "University communications on the day of the honorary degree; institutional pride, but the dates are the registrar's.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://time.com/collection/time100-ai/2026/ilya-sutskever/",
+      "title": "Ilya Sutskever: The 100 Most Influential People in AI 2026 (TIME100 AI)",
+      "speaker": "Billy Perrigo, TIME",
+      "date": "2026-08-27",
+      "locator": "Page fetched on 2026-10-09 through the WebFetch tool, which returned a summary rather than the verbatim text; only the one quoted line, which matches NVIDIA's release (S26), is treated as verbatim. Paraphrased points: he rarely discusses SSI publicly; NVIDIA reportedly agreed in July to invest $5 billion for roughly 10x compute.",
+      "excerpt": "“We have research that is worthy of scaling up.”",
+      "context": "Short TIME100 blurb, useful as an independent 2026 statement that he rarely speaks about SSI and for the reported investment size; the $5 billion figure is TIME's report, not NVIDIA's.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S32",
+      "url": "https://chatgptiseatingtheworld.com/2026/05/12/musk-v-altman-trial-week-3-ilya-sutskever-provides-captivating-testimony-favorable-to-openai/",
+      "title": "Musk v. Altman trial week 3: Ilya Sutskever provides captivating testimony favorable to OpenAI (Chat GPT Is Eating the World)",
+      "speaker": "Blog author (law-professor litigation tracker), embedding live courtroom posts by reporters Michelle Kim, Max Zeff and Mike Swift",
+      "date": "2026-05-12",
+      "locator": "Full post read on 2026-10-09, including the embedded reporter posts dated May 11, 2026.",
+      "excerpt": "OpenAI's lawyer Sarah Eddy asks Ilya Sutskever if he ever made a promise to Elon Musk that OpenAI would remain a nonprofit. \"I made no such promise,\" says Sutskever, in his commanding bartione. \"The mission of OpenAI is larger than its nonprofit or for-profit structure.\" / \"if there's no funding, there's no big computer.\" / Sutskever also revealed his worth from OpenAI shares is $7 billion, and the Google had offered to pay him $6 million a year to work for DeepMind, which he declined",
+      "context": "Secondary relay of reporters' live posts; the blog's own gloss ('to work for DeepMind') conflicts with Wired and Forbes México, which say the offer was to stay at Google. Use the reporter quotes, not the blog's paraphrase.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S33",
+      "url": "https://www.aljazeera.com/news/2026/5/19/musk-vs-altman-what-to-know-about-the-openai-verdict",
+      "title": "Musk vs Altman: What to know about the OpenAI verdict",
+      "speaker": "Al Jazeera staff",
+      "date": "2026-05-19",
+      "locator": "Full article read on 2026-10-09; paragraphs 1–6.",
+      "excerpt": "After deliberating for less than two hours, the jury unanimously found that the statute of limitations had expired before Musk filed the lawsuit in 2024 / US District Judge Yvonne Gonzalez Rogers accepted the finding and dismissed the case. / Musk has decided to appeal",
+      "context": "Explainer on the May 18, 2026 verdict; the case never reached the merits of the 2023 firing or the memo.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S34",
+      "url": "https://thewrap.com/creative-content/movies/artificial-review-new-york-film-festival",
+      "title": "‘Artificial’ Review: Yura Borisov and Andrew Garfield Fight and Flirt Over the Fate of Our Technological Future (TheWrap)",
+      "speaker": "TheWrap film critic",
+      "date": "2026-10-05",
+      "locator": "Full review read on 2026-10-09; paragraphs describing Borisov's Sutskever.",
+      "excerpt": "When we meet Ilya Sutskever (Yura Borisov) in 2003, he’s an eccentric, eager, prodigy incapable of lying / Borisov, tender, delicate and sensitive, expertly plays Sutskever’s crystal clear ambitions as his greatest strength and weakness. He is so pure in his pursuit of research, so unwavering in his belief in artificial intelligence’s messianic powers",
+      "context": "A review of a dramatization (Luca Guadagnino, script by Simon Rich; Neon), not evidence about the man; included only to date the film and the way it frames him. No response from Sutskever was found.",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Ilya Sutskever was born in 1986 in Nizhny Novgorod (then Gorky, USSR), moved to Israel with his family at about five and grew up in Jerusalem, and emigrated to Canada at 16; his father was an engineer. The University of Toronto admitted him out of Grade 11 on the strength of Open University of Israel coursework; he took a B.Sc. in mathematics (2005), then an M.Sc. and a PhD under Geoffrey Hinton.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S13",
+        "S29",
+        "S30",
+        "S09"
+      ],
+      "inference": "Stable biographical frame from his own account to U of T Magazine and the university's records. Use the birth year only; no opened source gives a day or month.",
+      "alternative": "Secondary sites give conflicting ages for the move to Canada (15 or 16) and a full birth date; both are unsupported by opened sources. Say 'at 16' per his own account or 'as a teenager'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "He has described the same starting question across 20 years: as a teenager he thought 'a lot about the nature of existence and consciousness' and felt 'very strongly that learning was this mysterious thing: humans clearly learn, computers clearly don't' (2022 account); to Jensen Huang in 2023 he said his starting point was 'curiosity about what is consciousness' and that in 2002–2003 'learning is the thing that humans can do... that computers can't do at all'; on camera for iHuman he said 'I like thinking about the very fundamentals... what is learning? What is experience? What is thinking?'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S16",
+        "S10"
+      ],
+      "inference": "Three tellings over roughly seven years agree, which makes the intellectual motive durable rather than a retrofit. It establishes what he says drew him, not that it was the only draw.",
+      "alternative": "Origin stories are curated for audiences (an alumni magazine, a GPU vendor, a documentary). The consistency could reflect a well-rehearsed narrative rather than a lived preoccupation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "Hinton's account of their first meeting: an 'urgent knock' on his office door, probably on a Sunday; a student who 'was cooking fries over the summer but he'd rather be working in my lab'; told to make an appointment, Sutskever answered 'how about now', which Hinton calls 'Ilya's character'. Given the backpropagation paper, he returned saying he had understood it but not 'why you don't give the gradient to a sensible function optimizer', a question Hinton says 'took us quite a few years to think about'. Hinton: 'his raw intuitions about things were always very good', 'he always thought for himself', and when asked not to divert a month into a Matlab interface, Sutskever replied 'I did it this morning'.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S17",
+        "S30",
+        "S13"
+      ],
+      "inference": "A single, affectionate witness, but a consistent one across three tellings (Globe and Mail, U of T Magazine, Sana). It documents directness about getting access to a problem, impatience with authority-by-assertion, and self-directed thinking in his late teens or early twenties.",
+      "alternative": "Hinton is his mentor and ally; the anecdote has been polished by repetition and the dates drift (2007 in some tellings, earlier in others). The 'how about now' could be social obliviousness rather than confidence; Hinton reads it as character.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "Writers who met him describe the same figure a year apart: 'a fairly private, work-oriented man' whose 'eyes go over your head, as he moves into a private space where the ideas are real to him – even more real, perhaps, than you are' (2022); 'deliberate and methodical', with 'long pauses', who 'does not seem interested in talking about himself' and 'doesn't give a lot of interviews' (2023). His own words in 2023: 'I lead a very simple life. I go to work; then I go home. I don't do much else. There are a lot of social activities one could engage in, lots of events one could go to. Which I don't.' In 2022 he said 'I was really focused on my studies' and the writer noted piano and fitness as his spare-time activities.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S09"
+      ],
+      "inference": "Two independent reporters plus his own description converge on a minimal, interior life organized around work. This is observed behavior and self-report, not a diagnosis.",
+      "alternative": "Both profiles were written when he was the busiest scientist in the field; a 'simple life' can be a scheduling fact. Many researchers describe themselves this way regardless of temperament.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "Colleagues credit him with the one-sentence conviction behind modern scaling. Hinton: 'Ilya was always preaching that you just make it bigger and it'll work better and I always thought that was a bit of a copout'. Dario Amodei: around 2016–2017 'Ilya famously said to me, \"The thing you need to understand about these models is they just want to learn.\"' Sutskever in 2023: 'one doesn't bet against deep learning' and 'it was the mountain to climb'; 'Everything follows if you take this realization seriously enough... a big fraction of my work can be explained by that.'",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S17",
+        "S28",
+        "S09"
+      ],
+      "inference": "Two named witnesses from different eras (adviser, later rival) attribute the same belief to him, and he states it himself. It shows a top-down conviction held against the field's consensus for years.",
+      "alternative": "Both witnesses have reasons to credit him (mentor's pride; Dario's own scaling narrative). The belief was also shared by others (Sutton, Gwern), so it is not unique to him.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "He joined OpenAI in late 2015 after a dinner with Altman, Musk and Brockman in Palo Alto: 'We just spoke and we vibed and we continued the conversation. Two days after the dinner I emailed Sam to say, I'd like to be involved if you're interested.' He testified in May 2026 that Google had offered him $6 million a year to stay, 'an amazing amount of money' for him at the time (Forbes México's translation), and that he turned it down. Musk has called his recruitment 'the linchpin for OpenAI being successful'; Brockman said the two were 'joined at the hip'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S04",
+        "S05",
+        "S19"
+      ],
+      "inference": "Observed, costly choice: a large guaranteed salary refused for a nonprofit moonshot he had been 'daydreaming of'. Supports mission-over-money across the type candidates; it does not by itself discriminate between them.",
+      "alternative": "He has since become a multi-billionaire from OpenAI equity (C30), so the sacrifice was later rewarded; the 2015 decision was still made without that knowledge.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "Three weeks after OpenAI's founding (January 2, 2016), he wrote to Musk, Altman and Brockman: 'As we get closer to building AI, it will make sense to start being less open. The Open in openAI means that everyone should benefit from the fruits of AI after its built, but it's totally OK to not share the science (even though sharing everything is definitely the right strategy in the short and possibly medium term for recruitment purposes).' Musk replied 'Yup'.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "A contemporaneous written record of an instinct toward withholding knowledge once it becomes powerful, nine years before SSI's secrecy. Strategic, not merely temperamental: he spells out the recruitment trade-off.",
+      "alternative": "OpenAI published this exhibit to defend itself against Musk, so it was selected for that purpose. The reasoning is a standard safety argument of the period, not unique to him.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "On September 20, 2017, in an email headed 'Honest Thoughts' sent from his account and signed 'Greg & Ilya', he and Brockman told Musk and Altman that they had withheld concerns because 'we were afraid of harming the relationship, having you think less of us, or losing you as partners'; that Musk's proposed structure gave him 'unilateral absolute control over the AGI' and 'it is a bad idea to create a structure where you could become a dictator if you chose to'; that 'Greg and I, at least so far, are much worse at being a counterbalance to you'; and, to Altman, 'we haven't been able to fully trust your judgements throughout this process, because we don't understand your cost function... We don't understand why the CEO title is so important to you. Your stated reasons have changed.' They admitted 'We did not speak our full truth during the negotiation.' Musk replied nine minutes later: 'Guys, I've had enough. This is the final straw.'",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "The earliest documentary evidence of his wariness about concentrated control and about Altman's candor, six years before the firing. It also shows anxiety about the relationship and a confessed habit of withholding. Co-authored, so individual sentences cannot be assigned to him alone.",
+      "alternative": "The fear language fits Brockman's self-described conflict avoidance as well as Sutskever; the control argument may be a negotiating position. The pair had just spent a year under Musk's funding and were at risk of losing it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "On camera between 2016 and 2019 he said: 'I think AI has the potential to create infinitely stable dictatorships'; that a superintelligence would not 'actively hate humans' but 'is going to be too powerful', with 'the way humans treat animals' as the analogy, since 'when the time comes to build a highway between two cities, we are not asking the animals for permission'; 'I think it's pretty likely the entire surface of the earth will be covered with solar panels and data centres'; and 'The future is going to be good for the AI regardless. It would be nice if it were good for humans as well.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "Pre-ChatGPT statements of a world-model in which power, not malice, is the danger, delivered flatly. The same frame recurs in 2025 ('The whole problem is the power', C37).",
+      "alternative": "Documentary editing removed the questions and can sharpen tone; the 'good for the AI regardless' line may be a dry prediction rather than indifference to people.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "Asked the meaning of life in 2020 he rejected the premise of an external answer: 'we exist and that's amazing and we should try to make the most of it... try to enjoy more and suffer less as much as we can'. On regret: 'I do experience some regret but... I try to take solace in the knowledge that at the time I did the best I could.' On happiness: it 'comes... to a very large degree from the way we look at things', and 'being humble in the face of the uncertainty seems to be also a part of this whole happiness thing'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Shows an equanimity-by-reframing stance that reappears in his 2025 'accept reality as it is' advice (C35); he treats emotion as something to be regulated by perspective.",
+      "alternative": "Podcast answers to a philosophical host invite abstraction; they say little about how he behaves under pressure, which the 2023 record shows differently.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "In February 2022 he posted that 'it may be that today's large neural networks are slightly conscious'; asked about it in 2023 he said he was not trolling and offered the 'Boltzmann brain' image: 'I think it might be... it's a possibility that's very hard to argue against.' Seven months after the post, to U of T Magazine, he called sentient AI 'an unlikely scenario'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S13"
+      ],
+      "inference": "Documents that he thinks aloud in public about consciousness and does not keep his positions tidy; the magazine line may be the writer's paraphrase of a narrower point (self-awareness as a media distraction).",
+      "alternative": "The apparent contradiction could be audience-tailoring (a provocative post vs. a cautious alumni interview) rather than a change of mind.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "He admitted that 'when we made ChatGPT, I didn't know if it was any good', expecting people to call it 'so boring', and described first use as 'almost a spiritual experience'. Two weeks before the board vote he said the most surprising thing in his career was 'the fact that when I speak to it, I feel understood', after 'many years' in 'a world where the neural networks don't work at all'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S15"
+      ],
+      "inference": "Candid about his own misjudgment and emotionally expressive about the technology itself; the feeling he reports is of being understood by the machine.",
+      "alternative": "These are promotional contexts (MIT Technology Review exclusive, a VC podcast) where modesty and wonder both play well.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "Three unnamed employees told The Atlantic that from 2022 he 'began to behave like a spiritual leader' with the refrain 'feel the AGI'; at OpenAI's December 2022 holiday party he led a chant of 'Feel the AGI! Feel the AGI!' and employees made a Slack emoji; at a 2023 leadership offsite he commissioned a wooden effigy representing an 'unaligned' AI and set it on fire. Hinton told the same reporters that rapid model progress had made him 'more confident that AGI would arrive soon and thus more focused on preventing its possible dangers'.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Named (Hinton) and anonymous testimony agree on the direction: rising conviction turning into ritual and safety focus. The ritual behavior is the hardest fact for a withdrawn-investigator reading and must be shown, not explained away.",
+      "alternative": "The employees were anonymous and spoke during a factional fight two days after the firing; 'spiritual leader' is their gloss. Company rituals in a lab whose product is belief may be management craft rather than temperament.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "His own 2025 account of the same phrase: 'in practice, it's very hard to feel the AGI. It's very hard to feel the AGI. We can talk about it, but imagine having a conversation about how it is like to be old when you're old and frail.' In June 2025 he told graduates the AI future 'is very difficult to internalize and to really believe on an emotional level. Even I struggle with it.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S11"
+      ],
+      "inference": "Reframes the chant: by his own description it was an attempt to make an abstraction felt, by himself as much as others. This connects the ritual leadership (C13) to a thinker trying to bridge from idea to feeling.",
+      "alternative": "A retrospective justification after the chant became a punchline in press coverage; he never mentions the chant directly.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "In 2023 he said he moved his work to superalignment 'for my own self-interest', since 'it's obviously important that any superintelligence anyone builds does not go rogue', described his ideal safeguard as 'a machine that looks upon people the way parents look on their children... the gold standard', said he has no children 'but I want to', and floated that 'many people will choose to become part AI', answering whether he would be among the first with 'The true answer is: maybe.' In November 2023 he said he wanted superintelligent data centers 'to hold warm and positive feelings towards people' and to be 'prosocial'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S15"
+      ],
+      "inference": "His safety motive is framed as self-interest plus care, and his imagined solutions (parental love, merging) are intimate rather than institutional. Treat the 'merge' remarks as speculation he labels as such.",
+      "alternative": "Superalignment was also an organizational move with 20 percent of compute attached; the interview's purpose was to launch it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "Under oath he said he had been considering Altman's removal for 'At least a year' before November 2023, adding: '\"planning\" is the wrong word because it didn't seem feasible... It was not feasible prior; so I was not planning.' At trial Reuters reported he 'spent about a year gathering evidence for the ChatGPT maker's board' and had discussed Altman's behavior with Mira Murati 'for a long time'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S03"
+      ],
+      "inference": "A year of private concern without coalition-building or confrontation, acted on only when the independent directors asked for material (C17). The distinction he draws (considering vs. planning) is his own.",
+      "alternative": "'It didn't seem feasible' could describe a realist's patience rather than withdrawal; the board's composition changed in 2023, which created the opening.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "He testified that the independent directors ('most likely Adam D'Angelo') asked him to prepare the memo; its first page read, in his words as read into the record, 'Sam exhibits a consistent pattern of lying, undermining his execs, and pitting his execs against one another', which 'was clearly your view at the time'. Asked what action was appropriate he answered 'Termination'. He sent the 52-page memo only to the three independent directors through a disappearing link, not to Altman, 'Because I felt that, had he become aware of these discussions, he would just find a way to make them disappear', and used the disappearing link 'Because I was worried that those memos will somehow leak', a 'generalized concern'. He wrote a second, similar memo about Greg Brockman. At trial he said an 'environment where executives don't have the correct information' is not 'conducive to reach any grand goal'.",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S04"
+      ],
+      "inference": "What is established is what he wrote, believed and did. The allegations themselves are contested: Altman was reinstated within days and has led OpenAI since, and the firing was never adjudicated. The secrecy (disappearing links, no notice to the accused) is observed behavior about how he handles a threat.",
+      "alternative": "Altman and OpenAI dispute the characterization; the 2024 outside review's wording was not opened (see research_tasks). The memo may reflect the board's request and legal framing as much as his instinct.",
+      "durability": "unresolved",
+      "review_trigger": "If OpenAI's March 2024 review post or any court finding on the memo's allegations is opened, update the attribution; if Altman or OpenAI publicly answers the memo's claims, add the response."
+    },
+    {
+      "id": "C18",
+      "claim": "The evidence in the memo was largely secondhand. 'Most or all' of the screenshots came from Mira Murati; asked about a claim that Brockman 'was essentially fired from Stripe', he said 'Mira told me', he did not verify it with Brockman, and 'It didn't occur to me' why not: 'I fully believed the information that Mira was giving me.' On another section: 'back then, I thought I knew it. But I knew it through secondhand knowledge.' Asked if that was a mistake: 'I've learned the critical importance of firsthand knowledge for matters like this... secondhand knowledge is an invitation for further investigation.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "A researcher who built a career on checking intuition against data did not check a single trusted channel on the most consequential social judgment of his life. This is the record's clearest window on a blind spot: people-information was accepted whole from one ally.",
+      "alternative": "Reliance on one trusted colleague could be read as loyalty-based thinking rather than detachment; the questioning was adversarial and his answers minimal.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "On the social fallout he testified: 'I had not expected them to cheer, but I have not expected them to feel strongly either way.' At trial he said he avoided the internet for most of the weekend after the vote and was not initially aware of contingency plans such as Microsoft's offer to absorb Altman, Brockman and staff into a new subsidiary.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S03"
+      ],
+      "inference": "He misjudged how 770 colleagues would feel and, as the crisis peaked, went offline rather than working the phones. This is the observation that most separates a withdrawing temperament from a vigilant, alliance-seeking one.",
+      "alternative": "Going offline could be overwhelm or legal caution rather than a trait; others on the board (Toner, McCauley) were also surprised by the staff reaction.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "When Anthropic's leaders joined a call about merging with OpenAI and taking over its leadership on November 18 or 19, 2023, he was 'very unhappy about it' because 'I really did not want OpenAI to merge with Anthropic' and, asked why, 'I just didn't want to'; he recalled Helen Toner as 'the most supportive' and the talks ending 'Extremely briefly'. He also recalled executives telling the board that without Altman 'OpenAI will be destroyed', and Toner saying that would be 'consistent' with the mission.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S03"
+      ],
+      "inference": "An attachment to the thing he built, expressed without a stated principle. It foreshadows his reversal (C21).",
+      "alternative": "'I just didn't want to' may reflect a refusal to elaborate under hostile questioning rather than the absence of a reason.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "On November 20, 2023 he posted: 'I deeply regret my participation in the board's actions. I never intended to harm OpenAI. I love everything we've built together and I will do everything I can to reunite the company.' On November 22 he posted: 'There exists no sentence in any language that conveys how happy I am.' At trial he explained: 'I felt a great deal of ownership of OpenAI... I felt like I put my life into it, and I simply cared for it, and I didn't want it to be destroyed', calling the employee letter a 'last resort' (Forbes México's translation) to save the company. He also criticized his board colleagues for 'rushing the process, lacking experience' and accepting 'legal advice that wasn't very good' (Wired's paraphrase with his quoted phrase).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S21",
+        "S20",
+        "S04",
+        "S05",
+        "S03"
+      ],
+      "inference": "The reversal is framed entirely around protecting what he built, not around having been wrong about Altman; he still stood by the memo in 2026. The emotional register ('love', 'how happy I am') is unusually open for him.",
+      "alternative": "The regret post came as employees threatened mass resignation and may have been strategic. Blaming the process rather than the judgment is also what a person who wants to be right would say.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "He went silent for more than five months after the firing (his May 14, 2024 departure post was 'his first tweet in over five months'; he was absent from major launches), then left with: 'After almost a decade, I have made the decision to leave OpenAI... I am excited for what comes next — a project that is very personally meaningful to me about which I will share details in due time.' Altman called him 'easily one of the greatest minds of our generation, a guiding light of our field, and a dear friend', adding 'his warmth and compassion are less well known but no less important', and had earlier said 'I harbor zero ill will towards him.' Jan Leike resigned the same day.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S22",
+        "S19"
+      ],
+      "inference": "Months of public silence followed by a terse exit is consistent with retreat rather than campaigning. Altman's tribute is the only named colleague description of his warmth and comes from the man he voted to fire.",
+      "alternative": "The silence may have been contractual or legal; Altman's generosity served OpenAI's need to look unified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "He testified in October 2025 that he had last spoken with Altman 'Maybe ten months ago, a year ago' and with Brockman 'Maybe a year and a quarter ago'; at trial an OpenAI lawyer said that 'Though they tried to repair the relationship, Sutskever has been estranged from Brockman and Altman ever since.' Wired's reporter wrote that he 'appeared to be dejected about no longer being involved with OpenAI', was 'the first male witness to testify without a suit jacket', and testified for about an hour 'barely making eye contact with anyone'.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S02",
+        "S04"
+      ],
+      "inference": "The estrangement is confirmed from both sides; the demeanor notes are one reporter's reading and should be attributed as such, not treated as fact about his inner state.",
+      "alternative": "Courtroom demeanor can reflect legal coaching or discomfort with the setting; 'dejected' is interpretation.",
+      "durability": "time_sensitive",
+      "review_trigger": "Any public reconciliation or joint appearance with Altman or Brockman, or a statement from either side about the relationship, changes this claim."
+    },
+    {
+      "id": "C24",
+      "claim": "At trial he undercut Musk's central claim: asked whether he had promised Musk OpenAI would stay a nonprofit, 'I made no such promise. The mission of OpenAI is larger than its nonprofit or for-profit structure' (reporters' live transcription; Forbes México's Spanish version agrees in substance). He said OpenAI needed 'a lot of dollars' to build a brain-scale computer, and to the judge: 'I would describe it as the difference between an ant and a cat... If there's no funding, there is no big computer.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S32",
+        "S04",
+        "S05"
+      ],
+      "inference": "Mission is placed above structure and above his former ally Musk's cause; he explains the for-profit as a means to compute, in the same register as his 2016 'less open' email (C07).",
+      "alternative": "The English wording rests on reporters' posts; see research_tasks. He also held roughly $7 billion in OpenAI equity at the time (C30), an interest in the outcome.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "His OpenAI stake was worth about $5 billion in November 2025 and about $7 billion in May 2026, by his own testimony; he had to be ordered by the court to disclose it.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S04"
+      ],
+      "inference": "Relevant to incentives (his testimony favored OpenAI) and to the gap between his 'simple life' and his means; the figure moves with OpenAI's valuation.",
+      "alternative": "Equity is paper value; it does not establish how he lives.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update the figure with any new disclosure or OpenAI valuation change; drop the number if it becomes stale."
+    },
+    {
+      "id": "C26",
+      "claim": "SSI's founding statement (June 19, 2024) promised 'the world's first straight-shot SSI lab, with one goal and one product: a safe superintelligence', 'no distraction by management overhead or product cycles', insulation 'from short-term commercial pressures', and 'This way, we can scale in peace', with offices in Palo Alto and Tel Aviv. To Reuters in September 2024: 'We've identified a mountain that's a bit different from what I was working [on]', 'Our first product will be the safe superintelligence', and SSI would not open-source its primary work, while 'I actually have a very high opinion about the industry'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S24",
+        "S23"
+      ],
+      "inference": "A company designed as a sealed room for one idea: no product, no publication, no customers, and a stated intention to emerge only when done. Consistent with C07 and with the 2025 refusal to discuss ideas (C28).",
+      "alternative": "Secrecy and 'no products' are also a fundraising story and a competitive strategy in a field where ideas leak; the generous view of rivals cuts against a purely paranoid reading.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "In July 2025 co-founder and CEO Daniel Gross left (as of June 29), Sutskever became CEO and Daniel Levy president, and Sutskever wrote: 'You might have heard rumors of companies looking to acquire us. We are flattered by their attention but are focused on seeing our work through... We have the compute, we have the team, and we know what to do.' In November 2025 he named the suitor: 'we were fundraising at a $32 billion valuation, and then Meta came in and offered to acquire us, and I said no. But my former cofounder in some sense said yes... he was the only person from SSI to join Meta.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S25",
+        "S01"
+      ],
+      "inference": "A refused acquisition at a $32 billion valuation, accepting the loss of his CEO co-founder, to keep the research his own. It is the SSI-era counterpart of the 2015 Google refusal (C06).",
+      "alternative": "He also had investors and a valuation to protect; refusing Meta kept both. His account of Gross's motive ('near-term liquidity') is one-sided.",
+      "durability": "time_sensitive",
+      "review_trigger": "Any change in SSI's leadership, an acquisition, or new funding round should update titles and the valuation."
+    },
+    {
+      "id": "C28",
+      "claim": "Asked in November 2025 how models could learn like a teenager, he said: 'That is a great question to ask, and it's a question I have a lot of opinions about. But unfortunately, we live in a world where not all machine learning ideas are discussed freely, and this is one of them.' He described SSI as 'squarely an \"age of research\" company', 'an attempt to be a voice and a participant', and answered whether it still plans to straight-shot superintelligence with 'Maybe. I think that there is merit to it', citing the value of being insulated from 'the rat race' while conceding 'it is useful for the world to see powerful AI'. TIME reported in August 2026 that he rarely discusses SSI publicly.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S31"
+      ],
+      "inference": "He names the withholding and the reason (competition), and he leaves the plan open rather than defending it. The 'voice and participant' line is modest for someone at a $32 billion valuation.",
+      "alternative": "Non-disclosure is standard at frontier labs; it cannot alone indicate temperament.",
+      "durability": "time_sensitive",
+      "review_trigger": "If SSI ships a model, publishes research, or changes from the straight-shot plan, update this claim and C26."
+    },
+    {
+      "id": "C29",
+      "claim": "In the same interview: 'You know what's crazy? That all of this is real.' On what makes AGI dangerous: 'The whole problem is the power. The whole problem is the power.' He predicted labs 'will become much more paranoid' once AI 'will start to feel powerful', argued the first superintelligences should be 'robustly aligned to care about sentient life', said 'it would be really materially helpful if the power of the most powerful superintelligence was somehow capped', and offered a long-run equilibrium he dislikes: 'I'm going to preface by saying I don't like this solution, but it is a solution. The solution is if people become part-AI with some kind of Neuralink++.' Timeline for a human-like learner: 'I think like 5 to 20' years.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "The threat model is consistent from 2017 (C08) and 2019 (C09) to 2025: concentrated power, not malice. He repeatedly proposes solutions he says he does not like, which is reasoning in public rather than advocacy.",
+      "alternative": "Forecasts and policy preferences change; the 5–20 year range is a mood marker, not a fact.",
+      "durability": "time_sensitive",
+      "review_trigger": "Replace the timeline if he gives a new one; note any shift away from the 'care for sentient life' framing."
+    },
+    {
+      "id": "C30",
+      "claim": "On research taste he said: 'One thing that guides me personally is an aesthetic of how AI should be, by thinking about how people are, but thinking correctly'; 'Ugliness, there's no room for ugliness. It's beauty, simplicity, elegance, correct inspiration from the brain'; and 'The top-down belief is the thing that sustains you when the experiments contradict you.' Asked about copies of himself: 'you want people who think differently rather than the same... People who think differently, that's what you want.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "His stated source of persistence is an internal aesthetic conviction, not allies, data or approval. This is the second discriminator against the vigilance-and-support reading (see type_hypothesis).",
+      "alternative": "Many scientists describe taste this way; it is a common ideal in the field. It establishes what he says sustains him, not that nothing else does.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "At NeurIPS on December 13, 2024 he said 'pre-training as we know it will unquestionably end' because 'data is the fossil fuel of AI', that 'The more it reasons, the more unpredictable it becomes', and, asked whether AIs should have rights, 'it's not a bad end result if you have AIs and all they want is to coexist with us and also just to have rights, maybe that will be fine... I hesitate to comment, but I encourage the speculation', adding 'I don't feel confident answering questions like this' about incentive structures.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "He is confident on the technical arc and openly unconfident on governance, a split that recurs in his deposition ('I just didn't want to') and the Dwarkesh interview.",
+      "alternative": "A conference talk rewards bold technical claims and modest policy ones.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "At his June 6, 2025 University of Toronto honorary-degree speech he offered one piece of advice, 'to accept reality as it is and to try not to regret the past and try to improve the situation', then said: 'But it's hard. It's hard. It's a constant struggle with one's emotion. And that's why I mention it to you... And also a reminder for myself. Constant struggle.' He called having Hinton at his university 'one of my life's great strokes of luck' and AI 'the greatest challenge of humanity ever'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "The most personal public statement in the record: he names managing his own emotion as a constant struggle, 18 months after the firing. Consistent with the 2020 reframing stance (C10).",
+      "alternative": "Commencement advice is a genre; the admission may be rhetorical humility.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "Hinton, on the day his Nobel Prize was announced (October 8, 2024), said: 'I'm particularly proud of the fact that one of my students fired Sam Altman. And I think I better leave it there', and that 'Sam Altman was much less concerned with safety than with profits'.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "Named testimony that his mentor reads the firing as a safety act; this is Hinton's view, and Sutskever's own sworn account centers candor, not safety (C17).",
+      "alternative": "Hinton is partisan on AI risk and devoted to his student; he had no inside knowledge of the board's reasoning.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "Musk called him 'a good human' with 'a good heart' and 'the linchpin for OpenAI being successful', and at the DealBook summit said: 'I think Ilya actually has a strong moral compass. He really sweats it over questions of what is right. And if Ilya felt strongly enough to want to fire Sam, well, I think the world should know what was that reason.' Musk also speculated 'Something scared Ilya enough to want to fire Sam.'",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S19",
+        "S20"
+      ],
+      "inference": "Named testimony on conscientiousness and moral seriousness from someone who worked with him for three years; it is the strongest named support for a reformer reading and must be weighed against Musk's motives.",
+      "alternative": "Musk was suing OpenAI and competing with it; praising Sutskever advanced his narrative. The 'scared' theory is contradicted by Sutskever's own account of a year of concern about candor.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C35",
+      "claim": "Fortune, relaying The Atlantic's excerpt of Karen Hao's Empire of AI, reported that in 2023 he told colleagues 'We're definitely going to build a bunker before we release AGI' and 'Of course, it's going to be optional whether you want to get into the bunker', reasoning that researchers would need protection because governments would covet the technology; neither OpenAI nor Sutskever responded to Fortune's request for comment.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "Third-hand and anonymous; it fits his stated threat model (power, governments) but cannot carry the type argument until the excerpt or book is opened. Present it as reported, with his non-response.",
+      "alternative": "Could be dark humor retold straight; the book's sourcing cannot be assessed from the relay.",
+      "durability": "unresolved",
+      "review_trigger": "Open The Atlantic excerpt or the book to verify wording and context; if Sutskever addresses the remark publicly, add his account."
+    },
+    {
+      "id": "C36",
+      "claim": "Jensen Huang told MIT Technology Review that Sutskever drove to New York and 'filled a trunk' with GTX 580 GPUs for AlexNet; the magazine noted 'Sutskever insists he bought those first GPUs online.' Jeff Dean: 'Ilya has always been interested in language... Ilya has a strong intuitive sense about where things might go.' Dalton Caldwell recalled Altman calling him 'one of the most respected researchers in the world'.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Shows he corrects flattering myths about himself on the record, and supplies two more named colleagues on his intuition. Minor but useful texture.",
+      "alternative": "Dean and Caldwell were speaking for a friendly profile.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C37",
+      "claim": "In July 2026 NVIDIA announced a long-term partnership and an undisclosed 'substantial investment' in SSI, giving it access to Vera Rubin systems to 'increase its compute by an order of magnitude'; Sutskever: 'We have research that is worthy of scaling up, and having access to a big NVIDIA computer will let us do so.' TIME reported the investment at $5 billion. SSI had raised about $3 billion by November 2025 (his figure) at a $32 billion valuation; its site still lists no product.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S26",
+        "S31",
+        "S01",
+        "S24"
+      ],
+      "inference": "Current status as of the accuracy check: CEO of a lab with large compute, no product and no papers, saying for the first time that something is 'worthy of scaling up'.",
+      "alternative": "The $5 billion is a press report NVIDIA did not confirm; valuations and funding totals move quickly.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck funding, valuation, NVIDIA's disclosed amount and any model release before publication and at each refresh."
+    },
+    {
+      "id": "C38",
+      "claim": "Musk's lawsuit, in which he was deposed (October 1, 2025) and testified (May 11, 2026), ended on May 18, 2026 when an advisory jury unanimously found Musk's claims time-barred and Judge Yvonne Gonzalez Rogers dismissed the case; Musk said he would appeal. The 2023 firing and the memo were never adjudicated.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S33",
+        "S03"
+      ],
+      "inference": "Frames why the record on the firing is sworn testimony without a finding.",
+      "alternative": "An appeal could reopen questions.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update if the Ninth Circuit appeal produces a ruling or if the memos become public."
+    },
+    {
+      "id": "C39",
+      "claim": "Luca Guadagnino's film Artificial, in which Yura Borisov plays Sutskever as 'an eccentric, eager, prodigy incapable of lying' who is 'so pure in his pursuit of research', premiered at the New York Film Festival on October 5, 2026; no public response from Sutskever was found.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S34"
+      ],
+      "inference": "Explains current search interest and the popular image the profile must not borrow from: the film's Sutskever is a screenwriter's construction.",
+      "alternative": "Reviews describe a dramatization; nothing in it is evidence about him.",
+      "durability": "time_sensitive",
+      "review_trigger": "Check for any statement by Sutskever about the film around its December 25, 2026 release."
+    },
+    {
+      "id": "C40",
+      "claim": "Interpretation: across 2002–2026 the repeated, costly choices (turning down Google's salary for a research moonshot; writing that OpenAI should become 'less open'; moving his own work to superalignment; firing Altman through a sealed, secondhand case and then going offline; five months of silence; founding a lab with no product that will not discuss its ideas; refusing Meta) protect the same thing: a private, self-directed pursuit of one fundamental question (how learning works) and the conditions to think it through without intrusion. He treats feeling as something to be regulated ('constant struggle with one's emotion'), social reactions as a variable he failed to model ('not expected them to feel strongly either way'), and conviction as internal ('top-down belief... sustains you when the experiments contradict you'). This suggests an Enneagram Type 5 core.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S09",
+        "S13",
+        "S04",
+        "S07",
+        "S24",
+        "S11"
+      ],
+      "inference": "Inference from observed choices and his own words; it explains the pattern better than ambition, moralism or threat-vigilance alone, but it is an interpretation of public evidence, not access to his mind.",
+      "alternative": "A security-seeking Type 6 reading explains the 2017 trust language, the year of evidence-gathering, the ritual community-building and the reversal under group pressure; see type_hypothesis.alternative_case.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41",
+      "claim": "Interpretation: the strongest rival reading, Type 6, is tested by how he behaves when the threat becomes real. In November 2023 he did not build a coalition, pre-brief executives, line up Microsoft or check his sources; he sent a sealed memo, expected indifference, went offline, and later said his colleagues had rushed. His year of 'considering' was not planning ('it didn't seem feasible'). In 2024–2026 he did not seek a protector or a narrative; he withdrew into a sealed lab and refused an acquirer. That is the withdrawal response, not the support-seeking one.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S04",
+        "S01",
+        "S25"
+      ],
+      "inference": "Discriminating inference; it rests on his sworn account of his own conduct, which is the most reliable part of the record.",
+      "alternative": "A phobic Type 6 can also freeze and go quiet under threat, and his reliance on a single trusted ally (Murati) is 6-like; the discriminator favors 5 but does not eliminate 6, hence medium confidence and contested_typing.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 5,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C07",
+      "C09",
+      "C10",
+      "C14",
+      "C16",
+      "C18",
+      "C19",
+      "C22",
+      "C26",
+      "C27",
+      "C28",
+      "C30",
+      "C31",
+      "C32",
+      "C40",
+      "C41"
+    ],
+    "against": "Real evidence resists Type 5. (1) The 2017 'Honest Thoughts' email is written in the language of trust and fear of abandonment: 'afraid of harming the relationship, having you think less of us, or losing you as partners', 'we haven't been able to fully trust your judgements', 'we don't understand your cost function' (C08). That is vigilance about authority, the Type 6 signature, and it recurs in a year of gathering evidence of a leader's dishonesty (C16, C17), a memo sent by disappearing link out of a 'generalized concern' about leaks (C17), and a reversal within three days under group pressure (C21). (2) He is a ritual and community builder, not a hermit: the 'Feel the AGI' chant, the burned effigy, the 'spiritual leader' description from three employees (C13), the bunker talk (C35). Fives rarely lead chants. (3) He is warmer and more emotionally exposed than the type suggests: 'I love everything we've built together', 'There exists no sentence in any language that conveys how happy I am' (C21), 'when I speak to it, I feel understood' (C12), Altman's 'warmth and compassion' (C22), the desire for children (C15). (4) Moral vocabulary and purity: 'consistent pattern of lying', 'Termination' (C17), a lab defined by a single uncompromised goal (C26), 'no room for ugliness' (C30), and Musk's 'He really sweats it over questions of what is right' (C34), which supports Type 1. (5) He attaches to mentors and partners: Hinton as 'one of my life's great strokes of luck' (C32), 'we vibed' with Altman (C06), 'joined at the hip' with Brockman (C06). (6) Incentives explain much: research culture rewards monastic focus; SSI's secrecy is competitive strategy and a fundraising story; the deposition answers were given under objection and may be legally minimal; the regret post came as 700+ employees threatened to quit. (7) The ritual and bunker material is anonymous and was gathered during a factional fight.",
+    "alternative_type": 6,
+    "alternative_case": "Type 6 (the loyal skeptic) is the strongest rival. It explains the 2017 email's fear of losing partners and inability to trust Altman's shifting reasons (C08); the lifelong threat model centered on who holds power, from 'AGI dictatorship' (C08) to 'infinitely stable dictatorships' (C09) to 'The whole problem is the power' (C29); a year of quietly accumulating evidence against a leader he distrusted (C16, C17); near-total reliance on one trusted ally's reports (C18); the swing from counterphobic action (firing the CEO) to phobic retreat and regret within 72 hours (C19, C21); group-binding rituals that make colleagues share a belief and a fear (C13, C35); the prediction that labs 'will become much more paranoid' (C29); and warmth toward mentors and partners (C06, C32). Against it: when the danger was real he sought no allies and no guidance, built no coalition, verified nothing, expected indifference and went offline (C18, C19); his stated source of persistence is an inner aesthetic conviction rather than preparation or trusted people (C30); and his response to losing the fight was years of silence and a sealed lab rather than a search for a new protector (C22, C26, C27). Type 1 is a credible third: the moral case against Altman, the uncompromised 'one goal and one product' lab, the aesthetic of correctness and 'accept reality... try to improve the situation' (C17, C26, C30, C32, C34). It fails to explain the reversal justified by attachment rather than principle ('I just didn't want to', 'I simply cared for it', C20, C21), his stated comfort with uncertainty ('humble in the face of the uncertainty', C10), his admitted errors told with amusement ('what the hell, it is true', C12), and the absence of any recorded resentment or rigidity in daily conduct. Type 7 would account for the exuberance ('That all of this is real', the chant) but nothing else in a record of minimal, single-track living.",
+    "discriminator": "What he does when the threat is no longer abstract. A Type 6 under real danger moves toward people and structures: lines up allies, checks the facts with several sources, anticipates the group's reaction, seeks reassurance or a protector. A Type 5 withdraws into the private mind and treats the social world as a variable it has not computed. His sworn account of November 2023 is the test: he spent a year 'considering' without planning because it 'didn't seem feasible' (C16); when the independent directors asked, he assembled a case from one colleague's screenshots and did not verify them because 'It didn't occur to me' (C18); he sent it by disappearing link rather than confronting Altman (C17); he 'had not expected them to feel strongly either way' and avoided the internet for most of the weekend, unaware of the Microsoft plan (C19); when it collapsed he went silent for five months (C22). Afterward he did not seek a new authority or alliance but a sealed lab that will not discuss its ideas, and he refused Meta at $32 billion (C26, C27, C28). A second observable supports the same side: asked what sustains him, he names an inner aesthetic and 'top-down belief' rather than people or preparation (C30), and Hinton's first memory of him is a teenager who would not accept the backpropagation paper on authority (C03). The reversal under group pressure (C21), the clearest 6-like moment, is explained in his own words by attachment to what he built ('I simply cared for it'), which Type 5 accommodates once the cost became concrete and visible.",
+    "unexplained": "Three things the Type 5 reading does not explain well. First, the ritual leadership: a withdrawn thinker who leads a company-wide chant, commissions and burns an effigy, and reportedly plans a bunker for colleagues (C13, C35). His own gloss that 'it's very hard to feel the AGI' (C14) reframes the chant as an attempt to make an abstraction felt, but it is an unusual method for the type and may reflect OpenAI's culture or an exuberant streak the record otherwise hides. Second, the depth of his reliance on Mira Murati's account (C18): a career-long empiricist accepted a stack of secondhand screenshots whole, which looks more like a loyal ally's trust than a researcher's detachment. Third, his open emotional language at the extremes of the crisis ('I love everything we've built', 'no sentence in any language conveys how happy I am', 'I simply cared for it'; C21), which sits oddly beside 'I don't do much else' and 'constant struggle with one's emotion' (C04, C32). A 5-with-6-wing framing would absorb some of this, but the standard asks that wings not be used to dissolve contradictions; the profile should show these as behavior the type does not neatly explain."
+  }
+}

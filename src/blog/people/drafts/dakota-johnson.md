@@ -7,12 +7,12 @@ description: >-
   What she fights over is the work itself. Why Type 4 leads and Type 6 stays
   close.
 author: DJ Wayne
-date: '2026-10-07'
+date: '2026-10-09'
 loc: 'https://9takes.com/personality-analysis/dakota-johnson'
-lastmod: '2026-10-07'
+lastmod: '2026-10-09'
 changefreq: monthly
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type:
   - movieStar

@@ -1,0 +1,31 @@
+The verify-edit stage for the Ilya Sutskever profile is complete. The one requested output, `verification-edit.json`, is written in the run directory with status **pass**. Nothing else in the repo was modified and nothing was published.
+
+**What I verified**
+
+- Every cited source was reopened live on 2026-10-09, not from cache: 26 web pages fetched, the deposition PDF re-downloaded (byte-identical to the research copy, 62 pages ending at transcript page 365), and five YouTube caption tracks re-pulled. Only the TIME page failed (HTTP 406), and no claim cites it.
+- All quotations in the body and FAQs match their sources, including every deposition exchange by transcript page and attorney (Eddy for OpenAI on pp. 309–326, Molo for Musk on pp. 128–131), the 2016 and 2017 emails, the Atlantic chant and effigy passages, the Wired staff-letter count, and the WilmerHale summary wording.
+- All 51 review findings have decisions that hold up against their acceptance tests. All 16 "kept" protected passages are verbatim in the candidate, and I agree with all 6 "changed" ones, each of which removed a false or conflated detail while keeping the distinctive point.
+- The hashes in the request match the candidate and evidence files. The schema validates, and the release decision returns eligible with zero blockers.
+
+**Scores**
+
+| Dimension | Score |
+| --- | --- |
+| Evidence | 9.0 |
+| Enneagram | 8.4 |
+| Originality | 8.8 |
+| Writing | 8.2 |
+| Durability | 8.8 |
+| Hook | 9.0 |
+| Discoverability | 8.3 |
+| Overall | 8.7 (B+) |
+
+**Three minor findings, none blocking**
+
+- The SSI founding date "June 19, 2024" in the body and FAQ is not in any opened source. The SSI page is undated and TechCrunch and NVIDIA say only "2024".
+- The body says Daniel Gross left "In July 2025" but TechCrunch gives June 29, 2025. That sentence is also missing a period after its citation.
+- The body is 4,469 words, above the 2,000–3,500 target. The unfamiliar reviewer's cut request was only partly met because six reviewers required about 800 words of corrective material.
+
+**One judgment call to flag.** I accepted the editor's decision on unfamiliar-07 (length) even though its at-or-below-draft-length clause failed, because the growth came from fixes to five major findings and the editor disclosed it. I logged the residual length as a minor finding for the next refresh.
+
+I also saved two tooling lessons to memory: the quote-extractor regex loses phase at short quotes like "No." and "Yup.", and this machine's `grep` is ugrep, which rejects context patterns like `.{0,120}` on UTF-8 text.

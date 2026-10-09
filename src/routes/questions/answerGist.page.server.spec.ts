@@ -4,7 +4,8 @@
 //   * humans see zero answers AND no gist before they answer;
 //   * IP-verified Googlebot gets the gist (never the takes) with
 //     Cache-Control: private, no-store;
-//   * humans who answered get the gist at the top of the revealed thread;
+//   * humans who answered get the takes and still no gist text (DJ
+//     2026-10-09: readers see the takes, never an AI summary of them);
 //   * no stored gist (or no table yet) breaks nothing.
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
@@ -227,7 +228,7 @@ describe('/questions/[slug] load: the gist so far (T-43)', () => {
 		expect(setHeaders).not.toHaveBeenCalled();
 	});
 
-	it('a human who answered gets the gist with the revealed takes', async () => {
+	it('a human who answered gets the revealed takes and still no gist text', async () => {
 		const { event, setHeaders } = buildEvent({
 			answered: true,
 			userAgent: CHROME_UA,
@@ -236,9 +237,14 @@ describe('/questions/[slug] load: the gist so far (T-43)', () => {
 		const result = (await load(event)) as any;
 
 		expect(result.flags.userHasAnswered).toBe(true);
-		expect(result.answerSummary?.summary).toBe(GIST_TEXT);
-		expect(result.answerSummaryAvailable).toBe(true);
 		expect(result.comments.map((row: { id: number }) => row.id)).toEqual([501]);
+		// The gist is for Googlebot. Readers get the takes, not a summary of
+		// them, so the text never leaves the server; only existence travels,
+		// for the paywall JSON-LD.
+		expect(result.answerSummary).toBeNull();
+		expect(result.answerSummaryAvailable).toBe(true);
+		expect(state.summarySelects).toEqual(['question_id']);
+		expect(JSON.stringify(result)).not.toContain(GIST_TEXT);
 		expect(setHeaders).not.toHaveBeenCalled();
 	});
 

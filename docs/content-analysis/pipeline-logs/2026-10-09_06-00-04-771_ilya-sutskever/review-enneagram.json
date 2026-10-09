@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "0a485d04a745c22f4162e7fcf2f3f343d56c6f7f337bbf41e18d34dd1af39a9e",
+  "evidence_sha256": "ee13270c6207faff91d4621ca927977c687012ae8a283512f96c0870a553d0eb",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "A Six under real danger moves toward people and structures: lines up allies, checks the facts with several sources, anticipates how the group will react, looks for a protector. A Five withdraws into the private mind and treats the social world as a variable not yet computed.",
+      "problem": "The Six half of the discriminator is a stereotype that points the wrong way. Under threat, Sixes characteristically fixate on one trusted channel rather than survey many, act secretly out of suspicion, freeze or go quiet when phobic, and spend long stretches in ambivalence before moving against an authority. Four of the five items the next paragraph puts in the Five column (a year of 'considering' without planning, one ally's unverified screenshots, the disappearing link sent out of a 'generalized concern' about leaks, the offline weekend) are therefore Six-compatible or Six-typical, and the draft already lists two of them under 'If he is a Six', so the same facts sit in both columns and the 'limits' paragraph has to walk them back. The one observation that genuinely cuts against Six, expecting 770 colleagues not to 'feel strongly either way' (anticipating adverse group reaction is the Six signature), is buried mid-list and never explained as the discriminator, and the two independent writers' detachment observations ('eyes go over your head', 'I don't do much else') are not used in the test at all.",
+      "acceptance_test": "Rewrite the Six description so it matches how Sixes actually behave under threat (trusted-channel reliance, suspicion-driven secrecy, phobic freeze, pre-action ambivalence). Then rebuild the Five column so it contains only observations a Six would be unlikely to produce, with one sentence each on why: at minimum the failure to anticipate the group's reaction, the detachment observed independently by the 2022 and 2023 writers, and the self-described minimal life. Items that fit both types either move to the limits paragraph or are explicitly marked as non-discriminating where they appear. No fact should appear as evidence in both the Six section and the Five column without that label."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "He did not seek a new protector or a new alliance. He built a sealed lab and turned down a buyer.",
+      "problem": "Contradicted by the draft's own 'Scale in peace' section and the evidence record: SSI raised about $3 billion from Andreessen Horowitz, DST Global, Greenoaks and Sequoia (S26, C37), then took a 'substantial investment' and a long-term partnership from NVIDIA, the industry's most powerful supplier. Those are alliances and a patron by any ordinary meaning, so the sentence fails as a discriminating fact. The Meta refusal is also read only as autonomy-protection, when his own stated lifelong threat is concentrated power ('The whole problem is the power'), which makes refusing absorption into Meta at least as consistent with Six vigilance about who holds power as with Five withdrawal.",
+      "acceptance_test": "Delete the sentence or rewrite it so it is true on the draft's facts (for example: he took capital and compute partners, which any lab needs, but no new institutional home and no personal protector, and chose the structure that kept decisions his). Add one clause testing the Meta refusal against his own power frame before claiming it for Five."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "That is attachment to the thing he built, once the cost became concrete and visible, which a Five accommodates.",
+      "problem": "Asserted rather than argued, and it skips the strongest Six reading of the reversal. 'I didn't want it to be destroyed' is a preservation-and-security motive, and the reversal came within about 72 hours as employees signed a mass-resignation letter; strike-then-retreat under group pressure to keep the institution intact is the Six's home behavior. The body never states the letter's scale, though the evidence record's own against-case does ('the regret post came as 700+ employees threatened to quit'). The observation that he 'did not say he had been wrong about Altman' does not rescue Five: a Six who still distrusts the authority but yields to the group looks exactly like this.",
+      "acceptance_test": "State the employee-letter pressure in the reversal paragraph. Then either give a sourced reason why attachment to his creation beats security under group pressure (evidence he would have reversed without the letter, or that the reversal protected the research rather than his standing), or downgrade the sentence to 'consistent with either reading' and let the stated medium confidence carry it."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "His costliest choices protect a private, self-directed pursuit of one question, how learning works, and the conditions to think it through without intrusion.",
+      "problem": "The costliest choice in the article, the firing, did not protect his private pursuit; it nearly destroyed the place where he pursued it, and his sworn motive was a leader's candor and executives lacking 'the correct information', which is shared ground with Six (authority distrust) and One (integrity). What the body's Five reading actually explains is the method of the firing (alone, sealed, unverified, offline) and the aftermath (silence, sealed lab), not its motive. The 60-word answer and FAQ 1 therefore claim more than the body argues. The motive formula is also close to the ones the similarity report shows in the Hassabis and Liang Wenfeng profiles ('uninterrupted time to think', 'the one question he cares about'); the scores are below the trip threshold and the body is distinctive, but the answer sentence reads as a reusable AI-founder Five template.",
+      "acceptance_test": "Revise the answer and FAQ 1 (still under 60 words) so the Five claim rests on how he acts under pressure and what he withdraws to, names the firing's stated motive as shared ground with Six, and carries one Sutskever-specific detail (he checked the machine for twenty years and did not check the room). No sentence in the answer should be transferable unchanged to another AI-lab founder."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "minor",
+      "passage": "Nothing in the record shows the resentment or daily rigidity a One usually leaves behind.",
+      "problem": "An absence-of-evidence claim from a record the research tasks admit lacks any named direct-report testimony (Leike, Pachocki), which is exactly where daily rigidity would show. 'A reformer reverses on principle; he reversed on care' is a rule of thumb rather than a discriminator. The positive anti-One observation is available and stronger: Ones hold the principled line against group disapproval, and he abandoned the action within three days while still believing the charge; he also reports his own errors with amusement ('what the hell, it is true'). The burned 'unaligned' effigy, a purification ritual, is One-flavored evidence the section never weighs.",
+      "acceptance_test": "Replace the absence claim with the positive discriminator (kept the belief, dropped the action under group pressure) and add a clause that named direct-report testimony on his working style has not been opened. Mention the effigy on the One side or say why it does not count."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "Not allies, not preparation, not approval: an inner conviction. Hinton's first memory of him is a student who would not accept backpropagation on authority.",
+      "problem": "Questioning a professor's method is the Six's defining habit (the Skeptic, the Questioner) as much as a Five's independence, so the anecdote cannot close the Six case. What might distinguish is the register: Hinton's account reads as untroubled curiosity, and the student came back a week later with a better question rather than a doubt, but the draft does not make that argument. 'Inner conviction' also does not separate the types; Sixes are often fiercely loyal to a belief system against the consensus, and fifteen years of 'preaching' scaling fits that as well.",
+      "acceptance_test": "Either argue the register in one sentence (curiosity, not anxious testing; a better question, not a doubt) or stop using the anecdote as anti-Six evidence and keep it as the hook and independence detail it already is."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "Then quiet: his May 14, 2024 departure post was \"his first tweet in over five months,\" and he had been absent from the company's major launches.",
+      "problem": "The five-month silence is counted as Five withdrawal in the discriminator, but the evidence record's own alternative for C22 (contractual or legal silence during a negotiated exit while still employed as chief scientist) is never shown to the reader. A departing executive after a board fight is quiet whatever his type.",
+      "acceptance_test": "Add the alternative inside the sentence ('whether by temperament or by the terms of a negotiated exit') or drop the silence from the discriminator list and keep it as narrative."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "What was the basis for that? \"Mira told me.\" Did you seek to verify it with Greg? \"No.\" Why not? \"It didn't occur to me.\"",
+      "reason": "The hook carries the entire type question in four sworn words and is sourced to the deposition page; it is the single best Five-specific observation in the record (a people-fact accepted whole, not even flagged for checking)."
+    },
+    {
+      "passage": "The teenager who would not take backpropagation on authority grew into the man who built the most consequential case of his life from someone else's screenshots and did not think to check them. That gap is the subject of this profile.",
+      "reason": "The organizing insight is specific to this person and survives any repair of the discriminator; keep it even if enneagram-06 trims how the anecdote is used later."
+    },
+    {
+      "passage": "It was the people in the room he did not model.",
+      "reason": "The sharpest anti-Six observation in the piece, earned by the 'feel understood' quote just before it; the rebuilt discriminator should be organized around this rather than the shared-column facts."
+    },
+    {
+      "passage": "The limits are real. A phobic Six can also freeze and go quiet. Accepting a stack of secondhand screenshots whole from one trusted colleague looks like loyalty as much as detachment. The deposition answers were given under objection and may be legally minimal. The record favors Five. It does not eliminate Six, which is why this profile holds the type at medium confidence.",
+      "reason": "Model concession writing: the contradictions are shown, not dissolved, and no wing, arrow or subtype is invoked anywhere in the draft to explain them away. Preserve the restraint when the discriminator is rebuilt."
+    },
+    {
+      "passage": "Altman is the only named colleague on record describing his warmth, and he is the man Sutskever voted to fire.",
+      "reason": "A precise, evidence-aware line that tells the reader how thin the warmth testimony is without overclaiming coldness."
+    }
+  ],
+  "assessment": "Type 5 at medium confidence is defensible and the draft deserves credit for refusing wings, arrows and subtypes, for giving Six its strongest form, and for presenting the chant, the effigy and the open emotional language as behavior the type does not neatly explain. The weakness is the discriminator itself. 'What he did when it was real' builds the Six side on a stereotype (Sixes verify widely and seek protectors) that inverts how Sixes typically behave under threat (one trusted channel, suspicion-driven secrecy, phobic freeze, long ambivalence), then stacks the Five column with facts the draft has already conceded to Six, and closes with a claim ('no new protector or alliance') that its own SSI section contradicts. The reversal, the Six reading's best moment, is handed to Five by assertion while the employee-letter pressure goes unstated, and the 60-word answer attributes the firing's motive to the Five pattern when the body only shows the Five pattern in its method. The genuinely discriminating observations are all present (expected indifference from 770 colleagues, two independent writers watching him leave the room while still in it, 'I don't do much else', the sealed-lab withdrawal after loss) but underweighted; rebuilt around them, the argument supports medium confidence honestly. Type 1 is dismissed with an absence-of-evidence claim the record cannot bear. The similarity advisory did not trip; the matches are ordinary type vocabulary except the motive formula in the answer, which is close to the Hassabis and Liang Wenfeng profiles and should be made Sutskever-specific. No finding changes the leading type or the risk flags; sensitive_allegations and contested_typing remain true. This review read only the frozen draft, the evidence record and the similarity report."
+}

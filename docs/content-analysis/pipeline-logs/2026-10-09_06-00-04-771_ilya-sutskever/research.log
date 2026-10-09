@@ -1,0 +1,14 @@
+The research stage is complete. The only file written is the requested output, `docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/evidence.json`, and it parses cleanly through the contract's `validateEvidence`.
+
+**Outcome: `status: ready`, standard profile, Type 5 leading at medium confidence, Type 6 the strongest alternative.** The record is deep enough that an open case would have been a shortcut, so I did not use one.
+
+What the evidence record contains:
+
+- **34 opened sources, 41 claims.** Primary material includes the full November 2025 Dwarkesh transcript, the court-filed excerpt of his October 2025 deposition, the September 2017 "Honest Thoughts" email and the January 2016 "less open" email, the MIT Technology Review profile, the Guardian's iHuman footage, his 2025 U of T speech, the NeurIPS 2024 talk, No Priors, the Nvidia fireside, Lex Fridman 2020, and the SSI founding statement. Named testimony comes from Hinton (his own telling of the fries-and-door story), Musk, Altman, Dario Amodei, Jeff Dean, Brockman and Jensen Huang. Trial testimony from May 11, 2026 is covered through Reuters and Wired.
+- **The discriminator** is what he did when the threat became real. By his own sworn account he spent a year "considering" without planning, built the case from one colleague's unverified screenshots ("It didn't occur to me"), sent it by disappearing link, expected staff not to "feel strongly either way," went offline for the weekend, then stayed silent for five months and built a sealed lab. That is withdrawal, not alliance-seeking. His stated source of persistence is an inner aesthetic ("top-down belief... when the experiments contradict you"), not people or preparation.
+- **Honest counterevidence is recorded:** the 2017 email's fear-of-abandonment language, the "Feel the AGI" chant and burned effigy, the regret post's open emotion, and the moral vocabulary that supports a Type 1 reading. The `unexplained` field names the ritual leadership and the total trust in Murati's account as things Type 5 does not neatly explain.
+- **Risks:** `sensitive_allegations` and `contested_typing` are both true, so this routes to the six-role jury.
+
+Five non-blocking research tasks are listed, chiefly: open OpenAI's March 2024 review post for the exact WilmerHale wording, verify the bunker quotes against the Atlantic excerpt rather than Fortune's relay, confirm the English wording of the "no such promise" trial line, and recheck SSI's status before publication.
+
+One verification note: every source excerpt was checked verbatim against the saved page or caption text by script. The single flagged item was a line-number artifact in the deposition PDF; the quote itself is on page 131 as recorded.

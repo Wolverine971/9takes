@@ -1,0 +1,16 @@
+The future-role review is complete and written to `review-future.json` in the Ilya Sutskever run directory. It validates against the review schema, copies the role and both hashes from the request, and every finding and protected passage is an exact substring of the frozen draft. I recomputed both hashes with the runner's own functions and confirmed I reviewed the frozen inputs. No other files were touched.
+
+**Verdict on the five-year test:** the thesis passes. Strip out every 2026 event (the May trial testimony and $7 billion stake, the July NVIDIA deal, the TIME list, the October film review) and the Type 5 argument stands unchanged on the 2016 and 2017 emails, the Hinton anecdote, the October 2025 deposition, the 2024 founding statement and the 2025 Meta refusal, all with absolute dates. The weaknesses are undated status claims and one overgeneralized description.
+
+**Findings (7, three major):**
+- **future-01 (major)** The description says he "never checked the evidence behind his memo." The excerpt supports only a one-line admission about the Brockman/Stripe claim. Only 62 of roughly 365 deposition pages are public, so this is the sentence most exposed to sealed documents surfacing.
+- **future-03 (major)** "Altman is the only named colleague on record describing his warmth" is an absolute the research itself admits it did not check. Two 2025 books with named-colleague testimony were never opened.
+- **future-04 (major)** The "doing now" FAQ stacks three undated present-tense status claims about SSI and his CEO title in the page's most-surfaced text.
+- **future-02 (minor)** The four deposition claims carrying the discriminator have no review trigger for the full transcript, the memos, Murati's account, or Sutskever revising his story.
+- **future-05 (minor)** "Has led OpenAI since" appears in body and FAQ with no date and no trigger for Altman leaving.
+- **future-06 (minor)** "People are searching for him now," "longest public conversation since founding SSI," and "NVIDIA has not confirmed" all need date anchors.
+- **future-07 (minor)** The closing lets one pre-release festival review speak for the film itself.
+
+**Protected (5):** the deposition hook exchange, the backpropagation-to-screenshots frame sentence, the 2016 "once knowledge becomes powerful, hold it" line, the Six-versus-Five discriminator paragraph, and the closing "checked the machine for twenty years and did not think to check the room" sentence. All are built from dated evidence and survive without any 2026 material.
+
+Similarity advisory was not tripped. I compared the one pair above threshold against the Demis Hassabis profile and the Type 6 counter-cases are different arguments, so no reuse finding. Risk flags are copied from the evidence record with no escalation.

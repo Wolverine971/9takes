@@ -1,0 +1,373 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Description now says he 'never checked a memo claim with the colleague it named' rather than 'the evidence behind his memo'. 'A year of considering' quotes 'And I was pretty careful' and 'to paint a picture from a large number of small pieces of evidence or items' (C43, pp. 128–129) in the same paragraph as the memo, and the next paragraph cites the p. 318 'why not speak to any of these individuals who are named?' / 'It didn't occur to me' exchange (C44) so the pattern rests on two documented answers. The thesis sentence now says 'asked twice under oath... answered both times that it did not occur to him'. C18 carries the page locators and his mitigating account in its alternative."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "The hook's last sentence states that the testimony comes from the 62 pages the parties filed in court, of a transcript of roughly 365. The first sentence of 'A year of considering' now calls the account 'the most revealing part of the record and a partial one: the litigants chose the public excerpt, OpenAI's lawyer objected throughout, and the memos are not public.' The limits paragraph is unchanged."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "The reversal paragraph now gives both stated reasons: attachment ('I simply cared for it...') and process (he faulted his board colleagues for rushing, inexperience and 'legal advice that wasn't very good', Wired S04, C46). 'What he did when it was real' says he 'still defended the firing and blamed the process' and no longer argues 'he reversed on care' as a One discriminator."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "The sentence is replaced: 'Among the named colleagues quoted in this profile, that is the fullest description of his warmth, and it comes from the man he voted to fire. Musk, by then Altman's adversary, had called him a \"good human\" with a \"good heart\"' (S20, new C53). C22's inference drops 'only named colleague on record' and gains a review trigger for new named testimony."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "TechCrunch's March 8, 2024 report of OpenAI's WilmerHale summary was opened at the edit stage (S36, C48). The allegations paragraph now reports the review's dated conclusion ('consequence of a breakdown in the relationship and loss of trust', not safety or finances, conduct did not require removal in TechCrunch's account) and the 'Why did he vote to fire' FAQ carries the same. C17's review trigger names court findings, OpenAI/Altman responses and any revision by Sutskever."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "The sentence is gone. The discriminator now states the observable facts: he took capital and compute partners and founded SSI with Gross as CEO and Levy as president, 'so he did not seek no alliance', then argues why the structure still favors withdrawal (no new institutional home or protector; decisions kept his; refused Meta; took the CEO title). C41 and the type_hypothesis discriminator are rewritten to match."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The hook quotes the memo's own hedge ('it is my understanding that' Brockman 'was essentially fired from Stripe as well', p. 310) and adds that the Stripe claim is unverified in any source opened here and that neither Brockman nor Murati has publicly addressed the memos in those sources. C18's claim and alternative record the hedge and the absence of their responses."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Now reads: 'He has never addressed the chant, the party or the effigy himself, but something he said later offers one way to read it.' The protected 'Read that way...' sentence is kept as the author's reading. C14's inference says the linkage is the profile's own."
+    },
+    {
+      "finding_id": "subject-09",
+      "action": "fixed",
+      "reason": "The type-section sentence is grounded in sourced observables: 'on the sworn record, unusually unguarded about people: he accepted one colleague's account of others whole, and did not foresee how the company would react.' The nine-word line 'It was the people in the room he did not model' is kept verbatim because three reviewers protected it against padding; it is the earned conclusion of the sourced 'I feel understood' quote, and the next section opens 'What that looked like in practice is in his sworn account', which supplies the observables (unverified items, misjudged staff reaction)."
+    },
+    {
+      "finding_id": "subject-10",
+      "action": "fixed",
+      "reason": "'A week later' and 'the Nature paper' were verified against the Sana captions at 00:05:38–00:05:47 ('the nature paper on back propagation... another meeting for a week later and he came back'), so they stay; S17's locator records the check. 'Teenager' is now 'student'. The gloss 'would not take backpropagation on authority' is replaced everywhere: the thesis sentence uses a neutral paraphrase of Hinton's account ('understood backpropagation in a week and wanted to know why the gradient was not handed to a better optimizer'), and the discriminator no longer uses the anecdote at all. C03's inference quotes Hinton's own 'he always thought for himself'."
+    },
+    {
+      "finding_id": "subject-11",
+      "action": "fixed",
+      "reason": "Now 'at what he describes as the cost of a co-founder'; C27's inference attributes the link to his account and notes Gross's version is not in the record."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Rewritten with Sutskever as subject and no quotation marks: 'According to Hinton, the magazine reported, the rapid progress of OpenAI's models had made Sutskever more confident that AGI would arrive soon and more focused on preventing its dangers.' Confirmed against S08's sentence. C13's claim text is corrected."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Wired's November 20, 2023 report of the letter was opened (S35, new C45). 'A year of considering' now gives the letter, its demand, the 738-of-about-770 count at 5:10 pm ET, his signature as a sitting board member, the timing of his regret post, and his trial description of signing as a last resort (S05). 'What he did when it was real' argues the Five reading with the letter on the table and counts the reversal for neither side."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "'Rather than confrontation' is removed. The weekend paragraph adds, sourced to S20 (new C57), that it was Sutskever who told Altman he was out, and the Reuters 'for a long time' discussion with Murati is in the first paragraph (C16, C49). The discriminator narrows the Five claim to anticipating the group's reaction, independently observed detachment and where he went afterward, and marks the coalition facts non-discriminating."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "'Feel the AGI' now has one dated sentence on the July 2023 superalignment team and its '20 percent of the company's existing computer chips' (S08), and 'Scale in peace' states that Jan Leike, his co-lead, resigned the same day (S22) (new C50). The sealed-lab paragraph says the record cannot separate temperament from a reaction to the safety-versus-product fight and notes the design repeats the 2016 instinct that predates it."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Same repair as subject-08: the author's inference is marked ('something he said later offers one way to read it'), 'Read that way' is kept as the hedge, and nothing implies he explained the chant."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Description now says he never checked 'a memo claim with the colleague it named'; the Type 6 FAQ says 'without checking them with the people they named'; the body cites the p. 318 exchange alongside the Stripe one; C18 and C44 carry both locators."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Replaced with a claim true on the record: Altman's tribute is the fullest named description of his warmth among those quoted here, and Musk called him a 'good human' with a 'good heart' with his motive labeled (C53)."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "'How about now' now places AlexNet in 2012 with Hinton and Krizhevsky as the observable payoff, sourced to S09 and S30, quoting MIT Technology Review's 'deep learning's Big Bang moment' (new C51)."
+    },
+    {
+      "finding_id": "fan-09",
+      "action": "fixed",
+      "reason": "The reversal paragraph reports the rushed-process, inexperience and 'legal advice that wasn't very good' criticism (S04, C46), and the method sentence now reads 'Part of what had changed, he said, was method'. The Type 1 passage no longer makes the 'nothing in the record shows resentment' claim."
+    },
+    {
+      "finding_id": "fan-10",
+      "action": "fixed",
+      "reason": "The second quote ('a big fraction of my work can be explained by that') is dropped; only 'one doesn't bet against deep learning' remains, with its own referent. C05's claim text no longer joins them."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The section now states, with citations, that he discussed Altman's behavior with Murati 'for a long time' (S03), that the memo was prepared at the independent directors' request after prior discussions ('either Adam or the three of them together', pp. 129–131), that he was waiting for a board majority 'not obviously friendly with Sam' (p. 324), and that he sat on a board call with Toner and then the Anthropic call that weekend (pp. 319–321) (new C49). 'What he did when it was real' is rebuilt: the coalition facts and the shared-column facts are marked non-discriminating, and the Five case rests on three observations a Six is unlikely to produce (failure to anticipate the group, independently observed detachment, the post-loss structure), at medium confidence."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Description, hook thesis sentence and the firing FAQ restrict the claim to what he testified: the Stripe item with Brockman and the named individuals in the retaliation section, with 'It didn't occur to me' verbatim and its referent each time. 'Never checked the evidence behind his memo' and the unscoped 'did not think to check them' are gone; 'most or all' screenshots from Murati is stated. The title's 'What He Didn't Think to Check' now rests on two documented answers (C18, C44)."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Wired (S35) establishes that he signed the November 20, 2023 letter and that his regret post came shortly before its release (C45); the article states it in sequence. The reversal paragraph in the discriminator now says 'this profile does not claim it': caring for the company and wanting to reunite it is presented as consistent with both readings, and 'The reversal is the point the Five reading does not settle.' C21's inference is rewritten accordingly."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "The 'no protector or alliance' sentence is replaced with the observable facts (co-founders, investors, NVIDIA acknowledged as alliances) and a narrower argument about structure. Both $32 billion sentences are reworded: 'Refusing Meta's approach while raising money at a $32 billion valuation' and 'Meta's offer to buy a lab that was raising money at a $32 billion valuation'; C27's inference states that no offer price is public."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Taylor's 'He's been forthright with me and the other board members' and Nadella's 'never got clarity' are now in the allegations paragraph with the Wired citation (new C47), the firing FAQ carries Taylor's response and the 2024 review finding, and the WilmerHale summary is reported via TechCrunch (S36, C48)."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "The 60-word answer and FAQ 1 now say the case 'rests less on why he fired Sam Altman, a candor motive Type 6 shares, than on how', and name the Sutskever-specific behavior (screenshots unchecked with those named; 770 colleagues expected to feel nothing). The old private-pursuit motive formula is gone from the answer; C40 is rewritten to match."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Same repair as subject-04 and fan-07."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Reuters' narrative sentence about collapse is removed; the reversal is explained in his own trial words ('I didn't want it to be destroyed') and his trial description of the letter as a last resort."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The first paragraph now identifies the memos as the case he put to OpenAI's board for firing its chief executive Sam Altman on November 17, 2023 and a second about co-founder and president Greg Brockman; names Mira Murati as then chief technology officer; quotes the memo's hedge; marks the Stripe claim unverified in the same paragraph; and the deposition excerpt does not fix which memo held the line, so the article attaches it to 'the memos' and the later 'second memo about Brockman' reference is consistent (C54, C18). The description ties 'It didn't occur to me' to not checking a claim with the colleague it named."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The orientation paragraph adds one sourced sentence (Al Jazeera S33, new C52): Musk cofounded OpenAI as a nonprofit in 2015, says he put roughly $38 million in, left the board in 2018 and sued in 2024 accusing Altman and Brockman of turning it into a for-profit for their own enrichment. The closing now says 'He undercut the man suing, and the premise of the suit.'"
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "'A year of considering' now runs November 17 to 22 in order: the vote (he told Altman himself), the weekend calls, the letter with its demand and count (S35), his regret post shortly before the letter's release, Altman's return, and the November 22 'how happy I am' post (S20). The first mention of screenshots explains they were screenshots of messages supplied by Murati before 'the screenshots' is used."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "First occurrence now reads 'feel the AGI\": artificial general intelligence, AI that can do most of what people can.' No other change to the section."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Anthropic is introduced as 'the rival lab whose chief executive, Dario Amodei, had spent about five years at OpenAI' (S28, S02, new C55); Adam D'Angelo, Helen Toner and Tasha McCauley are named as OpenAI's three independent directors; Microsoft is described as the company 'which funded OpenAI and supplied its computing' (S04, C54)."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "'The busiest research scientist in the world' is replaced with 'while he was OpenAI's chief scientist'; the caveat about researchers describing their lives this way is kept."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The funding detail is cut: TIME's $5 billion figure, 'rarely discusses SSI', Vera Rubin and 'order of magnitude' are gone from the body; the NVIDIA partnership survives only as one clause in the FAQ. The body is 4,468 words, below the draft's 4,129 plus the roughly 800 words of facts six reviewers required (letter sequence, review, responses, coalition facts, orientation, superalignment, AlexNet); it is under the 4,500 ceiling but not under 3,800. Further cuts would remove material other findings asked for, so the length is reported rather than hidden."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "'What he did when it was real' no longer restates the November quotations; the facts appear there only as a labeled non-discriminating list and as paraphrase (roughly 770 colleagues expected to feel nothing; 738 signed), and the type section previews the question without the five facts. The Type 6 FAQ keeps its summary."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The Six description is rewritten to how Sixes behave under threat (one trusted channel, suspicion-driven secrecy, freeze, long ambivalence), the shared-column facts are named and marked non-discriminating, and the Five column is rebuilt from three observations a Six is unlikely to produce: failure to anticipate the group (770 expected to feel nothing, 738 signed), the two writers' independent detachment observations plus 'work, home and little else', and the post-loss structure. No fact now sits in both columns without that label. The protected 'limits' paragraph is kept verbatim."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Rewritten to be true on the facts (capital and compute partners, co-founders, no new institutional home or protector, decisions kept his) and a clause tests the Meta refusal against his own power frame: 'A Six vigilant about concentrated power might also refuse absorption into Meta; the refusal counts for Five only together with what the company was built to be.'"
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The employee-letter pressure (738 of about 770) is stated in the reversal paragraph of 'A year of considering', and the discriminator's reversal paragraph downgrades the claim: consistent with either reading, 'The reversal is the point the Five reading does not settle.' Medium confidence carries it."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "The answer (59 words) and FAQ 1 now rest on how he acted under pressure, name the firing's motive as shared ground with Six, and carry Sutskever-specific details (screenshots unchecked with those named; 770 colleagues expected to feel nothing). The private-pursuit formula that resembled the Hassabis and Liang Wenfeng answers is gone."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The absence claim is replaced with the positive discriminator ('A One holds the principled line against group disapproval; he kept the belief and dropped the action within three days'), his amused error-reporting is kept, the effigy is weighed on the One side in both 'If he is a Six' and the discriminator, and the article states that named direct-report testimony has not been opened."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "The anecdote is no longer used as anti-Six evidence; the sentence is removed from the discriminator, as is 'Not allies, not preparation, not approval: an inner conviction'. 'Top-down belief' is no longer quoted; C30's inference records that inner conviction does not separate the types."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The silence sentence in 'Scale in peace' now carries the alternative inside it ('whether by temperament or by the terms of a negotiated exit') and the silence is listed among the non-discriminating facts rather than counted for Five."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Description, thesis sentence and FAQ are scoped to what pp. 309–318 show (the Stripe claim not checked with Brockman; the named individuals not spoken to; 'most or all' screenshots from Murati); the opening frame says 'asked twice under oath... answered both times that it did not occur to him'. No sentence on the page says he checked nothing. The title is supported by the scoped text."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "C18 is now 'unresolved' with a trigger naming release of the full transcript, publication of the memos, Murati's account, Brockman's response, any revision by Sutskever and a Ninth Circuit ruling; C17's trigger adds revision or withdrawal and Altman leaving OpenAI; the body ties his position to the testimony ('Sutskever, as of that testimony, had not retreated')."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Scoped to 'Among the named colleagues quoted in this profile', with Musk's 'good heart' added (C53); C22 drops the 'only named colleague on record' inference, is time_sensitive, and carries a trigger for new named testimony."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The FAQ now opens 'As of October 2026 he was co-founder and CEO' and ends 'As of October 2026, SSI had released no product and did not discuss its methods'; the body dates the CEO status the same way. That FAQ sentence is C37's passage so its trigger reaches it."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Body and FAQ now read 'still led OpenAI as of October 2026' (new C56, time_sensitive, trigger: if Altman leaves OpenAI update body and FAQ); C17's trigger also names it."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "'In 2026 two events put him back in the news'; the closing reads 'the longest public conversation he had given since founding SSI, in November 2025'; the TIME '$5 billion' / 'has not confirmed' sentence is cut."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "The closing now attributes the phrases to the review ('The film, in one early review, gives audiences...'); C39's trigger adds the post-release recheck."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Make an appointment, Hinton said. \"How about now.\"",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (subject review protection)."
+    },
+    {
+      "passage": "Two authors share these sentences, so none can be assigned to Sutskever alone. But the fear of losing partners and the distrust of a leader's shifting reasons are the language of a [Type 6](/enneagram-corner/enneagram-type-6), and six years later the same two concerns, control and candor, drove the firing.",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (subject review protection)."
+    },
+    {
+      "passage": "Here is the behavior the type does not neatly explain.",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (subject review protection)."
+    },
+    {
+      "passage": "Feeling, in his telling, is managed by perspective, and the managing is work.",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (subject review protection)."
+    },
+    {
+      "passage": "Wired's reporter read him as \"dejected about no longer being involved with OpenAI\"; that is one journalist's reading of a face.",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (subject review protection)."
+    },
+    {
+      "passage": "What was the basis for that? \"Mira told me.\" Did you seek to verify it with Greg? \"No.\" Why not? \"It didn't occur to me.\"",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (fan review protection)."
+    },
+    {
+      "passage": "It was the people in the room he did not model.",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (fan review protection)."
+    },
+    {
+      "passage": "Secrecy is standard at frontier labs and doubles as a fundraising story. A refused exit at a $32 billion valuation, at the cost of a co-founder, is not standard.",
+      "action": "changed",
+      "reason": "Changed for critic-04 and subject-11: no offer price is public, so 'refused exit at a $32 billion valuation' conflated Meta's approach with the fundraising valuation, and 'at the cost of a co-founder' stated his one-sided account as fact. Now: 'Secrecy is standard at frontier labs and doubles as a fundraising story. Refusing Meta's approach while raising money at a $32 billion valuation, at what he describes as the cost of a co-founder, is not standard.' The industry-incentive-versus-costly-choice contrast is retained."
+    },
+    {
+      "passage": "Hinton handed him the Nature paper on backpropagation. A week later the student came back and said he hadn't understood it, and Hinton was disappointed: \"it's only the chain rule.\" \"Oh no, no, I understood that,\" the student said. \"I just don't understand why you don't give the gradient to a sensible function optimizer,\" a question Hinton says \"took us quite a few years to think about.\"",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (critic review protection)."
+    },
+    {
+      "passage": "Three audiences, one question. Origin stories get polished. What these establish is what he says drew him, held steady across a career.",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (critic review protection)."
+    },
+    {
+      "passage": "Read that way, the man leading the chant was trying to drag an abstraction into feeling, starting with himself.",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (critic review protection)."
+    },
+    {
+      "passage": "The limits are real. A phobic Six can also freeze and go quiet. Accepting a stack of secondhand screenshots whole from one trusted colleague looks like loyalty as much as detachment. The deposition answers were given under objection and may be legally minimal.",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (critic review protection)."
+    },
+    {
+      "passage": "The first words of his longest public conversation since founding SSI were not about any of it. \"You know what's crazy? That all of this is real.\"",
+      "action": "changed",
+      "reason": "Changed for future-06: 'longest public conversation since founding SSI' expires with his next long interview. Now 'the longest public conversation he had given since founding SSI, in November 2025'; the quotation and the close are retained verbatim."
+    },
+    {
+      "passage": "The teenager who would not take backpropagation on authority grew into the man who built the most consequential case of his life from someone else's screenshots and did not think to check them. That gap is the subject of this profile.",
+      "action": "changed",
+      "reason": "Changed for subject-10, critic-02, future-01 and unfamiliar-01: 'teenager' added precision the record does not fix, 'would not take backpropagation on authority' was the author's gloss rather than Hinton's account, and 'did not think to check them' generalized two deposition answers to the whole memo. The frame (student scene to 2023 act) and 'That gap is the subject of this profile' are retained; the new sentence paraphrases Hinton's own anecdote and scopes the lapse to 'asked twice under oath... answered both times that it did not occur to him'."
+    },
+    {
+      "passage": "[Type 5](/enneagram-corner/enneagram-type-5) would rather have the answer than the room.",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (unfamiliar review protection)."
+    },
+    {
+      "passage": "He has never been cold about the machine. Two weeks before the board vote, asked for the most surprising thing in his career: \"the fact that when I speak to it, I feel understood.\" ([No Priors, November 2, 2023](https://www.youtube.com/watch?v=Ft0gTO2K85A)) It was the people in the room he did not model.",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (unfamiliar review protection)."
+    },
+    {
+      "passage": "It is the 2016 email built into a company: a sealed room for one idea, with no product, no papers and no customers until it is done.",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (unfamiliar review protection)."
+    },
+    {
+      "passage": "The record gives something more exact: a man who checked the machine for twenty years and did not think to check the room, who turned down $6 million a year and then an acquisition at a $32 billion valuation to keep one question his own, and who says the hardest work he does is emotional.",
+      "action": "changed",
+      "reason": "Changed for critic-04: 'an acquisition at a $32 billion valuation' conflated Meta's offer with the fundraising valuation. Now 'then Meta's offer to buy a lab that was raising money at a $32 billion valuation'; the three sourced costs and 'did not think to check the room' are retained."
+    },
+    {
+      "passage": "The limits are real. A phobic Six can also freeze and go quiet. Accepting a stack of secondhand screenshots whole from one trusted colleague looks like loyalty as much as detachment. The deposition answers were given under objection and may be legally minimal. The record favors Five. It does not eliminate Six, which is why this profile holds the type at medium confidence.",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (enneagram review protection)."
+    },
+    {
+      "passage": "Altman is the only named colleague on record describing his warmth, and he is the man Sutskever voted to fire.",
+      "action": "changed",
+      "reason": "Changed because the sentence is false on the opened record (subject-04, fan-07, critic-07, future-03): Musk called him a 'good human' with a 'good heart' (S20) and the Hagey and Hao books were not opened. The distinctive point, that the fullest warmth testimony comes from the man he voted to fire, is retained in scoped form: 'Among the named colleagues quoted in this profile, that is the fullest description of his warmth, and it comes from the man he voted to fire.'"
+    },
+    {
+      "passage": "It still records an instinct, nine years before his sealed lab: once knowledge becomes powerful, hold it.",
+      "action": "kept",
+      "reason": "Kept verbatim in the edited article (future review protection)."
+    },
+    {
+      "passage": "The test is what a person does when the threat stops being abstract. A Six under real danger moves toward people and structures: lines up allies, checks the facts with several sources, anticipates how the group will react, looks for a protector. A Five withdraws into the private mind and treats the social world as a variable not yet computed.",
+      "action": "changed",
+      "reason": "Changed for enneagram-01 and critic-01: the Six half misdescribed how Sixes behave under threat and the record contradicted the 'lines up allies' premise (Murati, the independent directors, board calls, the staff letter). The first and last sentences are retained verbatim; the Six description is rewritten to trusted-channel reliance, secrecy, freeze and ambivalence, and the test is still an observable one applied to dated 2023 conduct, which is what the future reviewer protected."
+    }
+  ],
+  "prior_blockers": []
+}

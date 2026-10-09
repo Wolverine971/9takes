@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "0a485d04a745c22f4162e7fcf2f3f343d56c6f7f337bbf41e18d34dd1af39a9e",
+  "evidence_sha256": "ee13270c6207faff91d4621ca927977c687012ae8a283512f96c0870a553d0eb",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "What was the basis for that? \"Mira told me.\" Did you seek to verify it with Greg? \"No.\" Why not? \"It didn't occur to me.\"",
+      "problem": "The hook has no stakes and two unintroduced people for a reader who does not already know the story. The memo is not identified as the board's case for removing OpenAI's CEO Sam Altman until the fourth paragraph; \"Mira\" has no surname or role until the sixth section; Brockman's role (OpenAI co-founder and president) is never stated anywhere. The reader also cannot tell whether the Stripe line sat in the Altman memo or in the \"second memo about Brockman\" mentioned later, and the frontmatter description attaches \"It didn't occur to me\" to \"his memo on Sam Altman\" and generalizes it to \"never checked the evidence behind his memo\", which is broader than the quoted exchange (one claim about Brockman, not checked with Brockman). A first-time reader can leave the opening believing \"essentially fired from Stripe\" is established fact about a named living person rather than an unverified line in a memo.",
+      "acceptance_test": "Within the first three paragraphs the reader is told, in one clause each, that the memo was the board's case for firing OpenAI's CEO Sam Altman on November 17, 2023; that \"Mira\" is Mira Murati, then OpenAI's chief technology officer; and that Greg Brockman is OpenAI's co-founder and president. The Stripe line is attached to whichever memo the deposition page (S02 locator, p. 131) places it in, and the later \"He wrote a second memo about Brockman\" sentence agrees with that. The description ties \"It didn't occur to me\" to what he said it about (not checking a claim about Brockman with Brockman) or to his broader sworn admission (\"I knew it through secondhand knowledge\"), not to \"the evidence behind his memo on Sam Altman\". The Stripe claim is marked as unverified in the same sentence it is quoted."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "OpenAI published the exchange in 2024 to defend itself against Musk.",
+      "problem": "The whole article is framed by Elon Musk's lawsuit (the hook deposition, the May 2026 trial, \"He undercut the man suing\", \"I made no such promise\", \"the fight over whether Musk would control a for-profit OpenAI\"), but the reader is never told who Musk was to OpenAI or what the suit alleged: that he helped found and fund OpenAI as a nonprofit in 2015, left, and sued in 2024 claiming it abandoned that mission. Without that sentence the 2017 \"dictator\" email reads as a fight with a random investor, \"to defend itself against Musk\" has no referent, and the closing testimony (\"The mission of OpenAI is larger than its nonprofit or for-profit structure\") carries no stakes, even though it is the article's last substantive beat before the ending.",
+      "acceptance_test": "One sourced sentence (an already opened source such as S33 Al Jazeera or S32, or one opened report if neither carries it) in the orientation paragraph or at the first mention of the lawsuit states Musk's role in founding and funding OpenAI as a nonprofit and what his 2024 suit claimed. A reader who has never heard of Musk v. Altman can then explain in their own words why Sutskever saying \"I made no such promise\" hurt the man who called him as a witness."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "major",
+      "passage": "Colleagues he expected not to \"feel strongly either way,\" and a weekend off the internet while they decided otherwise.",
+      "problem": "The discriminator rests on how badly he misjudged the people around him, but the article never says what those people did. The employee letter demanding the board resign is absent (S21's context note already records that his regret post went out the morning employees were signing it), and the article does not say that \"how happy I am\" was his response to Altman's return (S20 excerpt). \"Decided otherwise\" is a wink to readers who already know the week; a first-time reader has no measure of the misjudgment and reads two posts two days apart, regret then joy, with no event between them. In the same section \"The screenshots\" arrives with a definite article before the reader has been told the memos were built on screenshots of messages supplied by Murati.",
+      "acceptance_test": "In \"A year of considering\" the sequence of November 17 to 22, 2023 reads in order with one dated clause each: the vote; the staff letter demanding the board resign (with a count only if an opened source gives one); his regret post; Altman's return; his \"how happy I am\" post. Each added clause cites an opened source (S21 or S20 where their excerpts cover it, otherwise one opened report of the letter). The first mention of screenshots explains that the memos rested on screenshots of messages supplied by Murati before any later sentence uses \"the screenshots\"."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "His refrain was \"feel the AGI.\"",
+      "problem": "AGI is never expanded or glossed. It appears in a section heading, the chant, the bunker quote, \"AGI dictatorship\" and Hinton's line about progress, and it is the keyword the frontmatter targets. A reader who does not know the acronym cannot tell what the room was chanting about or what the bunker was for, so the section's central scene is opaque exactly where the article admits the type does not explain the behavior.",
+      "acceptance_test": "The first occurrence expands the acronym to artificial general intelligence with a plain gloss of ten words or fewer (for example, AI that can do most of what humans can). No other change to the section."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "When Anthropic's leaders joined a call about merging with OpenAI, he was \"very unhappy about it.\"",
+      "problem": "Anthropic is never introduced, so the merger exchange and the bare \"I just didn't want to\" lose their weight (a rival lab started by former OpenAI researchers taking over the company he built). Dario Amodei is linked earlier for the \"they just want to learn\" line but never placed as Anthropic's CEO, so the two mentions do not connect. Adam D'Angelo appears only as \"most likely Adam D'Angelo\", and Microsoft's \"plan\" is not explained as coming from OpenAI's largest investor. Each is one clause.",
+      "acceptance_test": "At first mention, Anthropic is described as a rival AI lab founded by former OpenAI researchers, Dario Amodei as its CEO, Adam D'Angelo as one of OpenAI's independent directors, and Microsoft as OpenAI's largest investor. A reader who knows none of these names can follow the merger call and the Microsoft contingency without leaving the page."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "Both profiles were written when he was the busiest research scientist in the world, and plenty of researchers describe their lives this way whatever their temperament.",
+      "problem": "An unsupported superlative stated as fact in author prose, in the same sentence as a careful caveat. The piece is teaching the reader to distrust unchecked claims, and this is one. It also reads as hype to a reader with no way to evaluate it.",
+      "acceptance_test": "The superlative is replaced with a checkable description (for example, chief scientist of the lab that had just released ChatGPT) or dropped; the caveat about researchers describing their lives this way is kept."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "TIME, naming him to its 2026 list, noted that he rarely discusses SSI in public and reported the investment at $5 billion, a figure NVIDIA has not confirmed",
+      "problem": "At about 4,100 words the body is well above the 2,000 to 3,500 target, and the drag for a first-time reader is concentrated here. The NVIDIA investment size, Vera Rubin systems, \"order of magnitude\" compute, and the TIME versus NVIDIA figure are business-press detail that does not move the personality argument and will age within months. The point the section needs (he keeps the room sealed under pressure) is already made by the Meta refusal, the cost of a co-founder, and \"not all machine learning ideas are discussed freely\".",
+      "acceptance_test": "The funding detail in \"Scale in peace\" is cut to the Meta refusal, the no-discussion line and at most one sentence on the NVIDIA partnership with its date. The orientation clauses added for the other findings are offset by cuts so the body ends at or below its current length, preferably under 3,800 words."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "A year of \"considering\" without planning. A case built from one colleague's screenshots, unverified because \"It didn't occur to me,\" and sent by disappearing link rather than confrontation.",
+      "problem": "The November facts are told in full in \"A year of considering\", retold in compressed form here, previewed as a question in the type section, and repeated again in the Type 6 FAQ. The compressed retelling works as a verdict, but a reader meeting the story once sees the same five facts (\"didn't occur to me\", disappearing link, \"feel strongly either way\", the weekend offline, five months of silence) four times, and the second half starts to circle rather than advance.",
+      "acceptance_test": "The retelling in \"What he did when it was real\" is reduced to the verdict and one pointer back to the evidence section, so the five facts appear in full prose once in the body (the FAQ may keep its summary). Reading the two sections back to back, no sentence in the second restates a quotation already given in the first."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The teenager who would not take backpropagation on authority grew into the man who built the most consequential case of his life from someone else's screenshots and did not think to check them. That gap is the subject of this profile.",
+      "reason": "The whole thesis in one concrete image, built from two sourced scenes the reader has just watched. It tells a first-time reader exactly what the article will test and why it matters."
+    },
+    {
+      "passage": "[Type 5](/enneagram-corner/enneagram-type-5) would rather have the answer than the room.",
+      "reason": "A subject-specific, plain-language definition that a reader with no Enneagram background can use immediately, and the similarity scan confirms it is not shared boilerplate."
+    },
+    {
+      "passage": "He has never been cold about the machine. Two weeks before the board vote, asked for the most surprising thing in his career: \"the fact that when I speak to it, I feel understood.\" ([No Priors, November 2, 2023](https://www.youtube.com/watch?v=Ft0gTO2K85A)) It was the people in the room he did not model.",
+      "reason": "The turn from the chant section into the deposition section. It converts the hardest counterevidence into the thesis with one dated quotation and one sentence, and it is the line a reader will remember."
+    },
+    {
+      "passage": "It is the 2016 email built into a company: a sealed room for one idea, with no product, no papers and no customers until it is done.",
+      "reason": "A callback that makes the article's chronology pay off: the reader recognizes the nine-year-old email in the company statement without being told the thesis again."
+    },
+    {
+      "passage": "The record gives something more exact: a man who checked the machine for twenty years and did not think to check the room, who turned down $6 million a year and then an acquisition at a $32 billion valuation to keep one question his own, and who says the hardest work he does is emotional.",
+      "reason": "The ending gathers the three sourced costs into a single portable sentence a reader can carry away, and it answers the film's version with evidence rather than opinion."
+    }
+  ],
+  "assessment": "Read cold, this profile works: the reader meets a person before a type, learns one specific thing (he verifies machines, not people, and pays real money to keep one question his own), and gets a clear test to track (toward people or away from them when the threat became real). Momentum is strong through the chant section and the deposition; the Type 6 case is given in its honest form and the medium-confidence verdict is earned rather than asserted. The problems are orientation, not argument. The hook assumes the reader already knows what the memo did, who Mira and Brockman are, and why Musk is suing; the staff revolt that measures his misjudgment is missing; and AGI, Anthropic and several names are never placed. Each is a one-clause fix, and together they would raise what an unfamiliar reader actually learns more than any rewrite. The body is about 4,100 words against a 2,000 to 3,500 target; the funding detail and the second telling of the November facts are where it circles, so the added orientation should be paid for with cuts there. Similarity diagnostic: not tripped; the top pair (0.05, Hassabis) is a counter-typing sentence sharing only ordinary Type 6 vocabulary, and the arguments differ (power vigilance here, alliance-building there). The recurring disclaimer sentence (\"This is a reading of the public record...\") matches several earlier drafts at low scores; it is boilerplate rather than reused argument and is acceptable, though a subject-specific version would read better. Both research risks (sensitive allegations, contested typing) are carried forward unchanged; this review adds no new risk. Not checked here: source fidelity of the Stripe line and the 'no such promise' wording, which belong to the evidence role."
+}

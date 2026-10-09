@@ -1,0 +1,197 @@
+{
+  "target": {
+    "person": "ilya-sutskever",
+    "type": "5",
+    "units": 14,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "Demis-Hassabis",
+      "date": "2026-09-02",
+      "units": 41
+    },
+    {
+      "person": "Naval-Ravikant",
+      "date": "2026-09-01",
+      "units": 55
+    },
+    {
+      "person": "Liang-Wenfeng",
+      "date": "2026-08-24",
+      "units": 52
+    },
+    {
+      "person": "Yang-Zhilin",
+      "date": "2026-08-22",
+      "units": 41
+    },
+    {
+      "person": "Carl-Jung",
+      "date": "2026-08-13",
+      "units": 51
+    },
+    {
+      "person": "Christopher-Nolan",
+      "date": "2026-08-12",
+      "units": 37
+    },
+    {
+      "person": "pinkpantheress",
+      "date": "2026-07-19",
+      "units": 21
+    },
+    {
+      "person": "warren-buffett",
+      "date": "2026-07-08",
+      "units": 28
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 4564,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.005,
+    "max": 0.05
+  },
+  "trip_threshold": 0.04,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "Demis-Hassabis",
+      "date": "2026-09-02",
+      "units": 41,
+      "maxScore": 0.05
+    },
+    {
+      "person": "Christopher-Nolan",
+      "date": "2026-08-12",
+      "units": 37,
+      "maxScore": 0.035
+    },
+    {
+      "person": "Liang-Wenfeng",
+      "date": "2026-08-24",
+      "units": 52,
+      "maxScore": 0.03
+    },
+    {
+      "person": "Carl-Jung",
+      "date": "2026-08-13",
+      "units": 51,
+      "maxScore": 0.02
+    },
+    {
+      "person": "pinkpantheress",
+      "date": "2026-07-19",
+      "units": 21,
+      "maxScore": 0.019
+    },
+    {
+      "person": "warren-buffett",
+      "date": "2026-07-08",
+      "units": 28,
+      "maxScore": 0.015
+    },
+    {
+      "person": "Naval-Ravikant",
+      "date": "2026-09-01",
+      "units": 55,
+      "maxScore": 0.014
+    },
+    {
+      "person": "Yang-Zhilin",
+      "date": "2026-08-22",
+      "units": 41,
+      "maxScore": 0.009
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.05,
+      "other_person": "Demis-Hassabis",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 6 reading explains much of the same record through vigilance about who holds power and a need for trusted allies.",
+      "other": "[counter-typing] A Type 6 reading can point to \"cautious optimism\" and his alliance-building"
+    },
+    {
+      "score": 0.035,
+      "other_person": "Christopher-Nolan",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a reading of the public record.",
+      "other": "[counter-typing] the public war with Warner Bros."
+    },
+    {
+      "score": 0.03,
+      "other_person": "Liang-Wenfeng",
+      "shared_phrases": [],
+      "target": "[diagnosis] self-directed pursuit of one question",
+      "other": "[diagnosis] more attention pulled off the one question he cares about."
+    },
+    {
+      "score": 0.021,
+      "other_person": "Liang-Wenfeng",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a reading of the public record.",
+      "other": "[diagnosis] This is also a culture of ours.\" That is half of the quant puzzle."
+    },
+    {
+      "score": 0.021,
+      "other_person": "Christopher-Nolan",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a reading of the public record.",
+      "other": "[diagnosis] The public gets the finished machine and none of the scaffolding. 4 of 153 Film &amp"
+    },
+    {
+      "score": 0.02,
+      "other_person": "Carl-Jung",
+      "shared_phrases": [],
+      "target": "[diagnosis] The most damaging material here consists of allegations he made against Altman",
+      "other": "[diagnosis] This page reads it as the move he made all his life"
+    },
+    {
+      "score": 0.019,
+      "other_person": "Demis-Hassabis",
+      "shared_phrases": [],
+      "target": "[diagnosis] The question that separates the Five from the Six is practical",
+      "other": "[counter-typing] and Hassabis keeps exiting authority structures once they stop serving the question."
+    },
+    {
+      "score": 0.019,
+      "other_person": "pinkpantheress",
+      "shared_phrases": [],
+      "target": "[diagnosis] It claims no access to his mind and makes no clinical judgment.",
+      "other": "[diagnosis] competence-seeking type that protects its energy and controls access to the self."
+    },
+    {
+      "score": 0.018,
+      "other_person": "pinkpantheress",
+      "shared_phrases": [],
+      "target": "[diagnosis] It claims no access to his mind and makes no clinical judgment.",
+      "other": "[diagnosis] The mystique bought her enough distance to release vulnerable songs without handing public judgment equal access to the person making them."
+    },
+    {
+      "score": 0.016,
+      "other_person": "Christopher-Nolan",
+      "shared_phrases": [],
+      "target": "[diagnosis] Sutskever's version is unusually pure about the machine and unusually thin about people.",
+      "other": "[diagnosis] his film about the man who built the atomic bomb"
+    },
+    {
+      "score": 0.016,
+      "other_person": "Demis-Hassabis",
+      "shared_phrases": [],
+      "target": "[diagnosis] and the conditions to think it through without intrusion.",
+      "other": "[diagnosis] and winnings into uninterrupted time to think."
+    },
+    {
+      "score": 0.015,
+      "other_person": "warren-buffett",
+      "shared_phrases": [],
+      "target": "[diagnosis] It claims no access to his mind and makes no clinical judgment.",
+      "other": "[diagnosis] it goes down the drain.\" His mind deletes pain the way a Type 9 avoids conflict"
+    }
+  ]
+}

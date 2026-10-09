@@ -18,8 +18,6 @@
 		oncommentAdded?: () => void;
 		/** Rendered directly under "Your take" (post-answer handoff: host line, reply tray). */
 		afterOwnTakes?: Snippet;
-		/** "The gist so far": how everyone else answered, above the community list. */
-		gist?: Snippet;
 		/** Rendered once, after the first few community takes (share invite). */
 		interstitial?: Snippet;
 		/** The optimistic unlock's server confirmation failed; offer a retry. */
@@ -34,7 +32,6 @@
 		active = true,
 		oncommentAdded,
 		afterOwnTakes,
-		gist,
 		interstitial,
 		revealFailed = false,
 		onretryReveal
@@ -317,9 +314,6 @@
 	{/if}
 	{#if afterOwnTakes}
 		<div class="after-own-takes">{@render afterOwnTakes()}</div>
-	{/if}
-	{#if gist}
-		{@render gist()}
 	{/if}
 	<!-- Rendered in both states so the list does not shift when the takes land. -->
 	<div class="content-toolbar">

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T06:21:23Z",
+  "lastUpdated": "2026-10-09T06:00:00Z",
   "stats": {
     "totalUnpublished": 132,
     "totalPublished": 391,
@@ -66,32 +66,6 @@
       "strategicValue": "entity-gap-tech-analyst-cluster",
       "entityGapScore": 70,
       "entityGapPacket": "docs/content-analysis/entity-gaps/Dan-Ives.md"
-    },
-    {
-      "name": "greg-brockman",
-      "displayName": "Greg Brockman",
-      "type": null,
-      "priority": 94,
-      "priorityReason": "Played by Cooper Hoffman in Guadagnino's Artificial (NYFF Oct 5, wide Dec 25); 'Astra is AGI' claim Sept 3; Forbes 400 Sept 14; super-PAC reversal Sept 30. Wikipedia 819 -> 3.2K/day. Stratechery + Odd Lots Sept interviews.",
-      "estimatedTraffic": "high",
-      "searchVolume": "medium",
-      "personaTitle": null,
-      "addedToQueue": "2026-10-04",
-      "retryCount": 0,
-      "strategicValue": "artificial-openai-film-cluster"
-    },
-    {
-      "name": "ilya-sutskever",
-      "displayName": "Ilya Sutskever",
-      "type": null,
-      "priority": 93,
-      "priorityReason": "Played by Yura Borisov in Artificial (NYFF Oct 5, wide Dec 25); SSI-Nvidia deal; TIME100 AI 2026. Deep first-person record (Dwarkesh 2025). Frontier-builder niche.",
-      "estimatedTraffic": "high",
-      "searchVolume": "medium",
-      "personaTitle": null,
-      "addedToQueue": "2026-10-04",
-      "retryCount": 0,
-      "strategicValue": "artificial-openai-film-cluster"
     },
     {
       "name": "stella-lefty",
@@ -2003,8 +1977,36 @@
       "reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
     }
   ],
-  "inProgress": null,
+  "inProgress": {
+    "name": "ilya-sutskever",
+    "displayName": "Ilya Sutskever",
+    "type": null,
+    "priority": 93,
+    "priorityReason": "Played by Yura Borisov in Artificial (NYFF Oct 5, wide Dec 25); SSI-Nvidia deal; TIME100 AI 2026. Deep first-person record (Dwarkesh 2025). Frontier-builder niche.",
+    "estimatedTraffic": "high",
+    "searchVolume": "medium",
+    "personaTitle": null,
+    "addedToQueue": "2026-10-04",
+    "retryCount": 0,
+    "strategicValue": "artificial-openai-film-cluster",
+    "startedAt": "2026-10-09T06:00:00Z"
+  },
   "skipped": [
+    {
+      "name": "greg-brockman",
+      "displayName": "Greg Brockman",
+      "type": null,
+      "priority": 94,
+      "priorityReason": "Played by Cooper Hoffman in Guadagnino's Artificial (NYFF Oct 5, wide Dec 25); 'Astra is AGI' claim Sept 3; Forbes 400 Sept 14; super-PAC reversal Sept 30. Wikipedia 819 -> 3.2K/day. Stratechery + Odd Lots Sept interviews.",
+      "estimatedTraffic": "high",
+      "searchVolume": "medium",
+      "personaTitle": null,
+      "addedToQueue": "2026-10-04",
+      "retryCount": 0,
+      "strategicValue": "artificial-openai-film-cluster",
+      "skippedAt": "2026-10-09T06:00:00Z",
+      "skipReason": "draft already exists"
+    },
     {
       "name": "nara-smith",
       "displayName": "Nara Smith",

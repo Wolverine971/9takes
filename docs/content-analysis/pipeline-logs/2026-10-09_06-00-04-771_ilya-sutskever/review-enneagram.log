@@ -1,0 +1,19 @@
+The review-enneagram stage is complete. I wrote the one requested output file and touched nothing else.
+
+**Output:** `docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-enneagram.json`
+
+It parses under `reviewSchema`, the content and evidence hashes match the runner's own hash functions, all finding and protected passages exist verbatim in the frozen draft, and the risk flags are unchanged (sensitive_allegations and contested_typing stay true). I did not open the other role reviews.
+
+**Verdict in brief.** Type 5 at medium confidence is defensible, and the draft earns credit for using no wings, arrows or subtypes and for giving Type 6 its strongest form. The problem is the discriminator section, which does not yet separate the two types the way the thesis claims.
+
+Findings, most severe first:
+
+- **Stereotyped Six under threat (major).** The draft says a Six "checks the facts with several sources" and "looks for a protector." Sixes under threat typically fixate on one trusted channel, act secretly from suspicion, freeze when phobic, and stall in ambivalence. Four of the five Five-column facts are therefore Six-compatible, and two already appear in the Six section. The genuinely discriminating observation, expecting 770 colleagues not to "feel strongly either way," is buried.
+- **"No new protector or alliance" is contradicted by the draft's own SSI section (major).** Four venture backers plus the NVIDIA investment and partnership are alliances. The Meta refusal also fits his power-vigilance frame as well as Five withdrawal.
+- **The reversal is handed to Five by assertion (major).** "I didn't want it to be destroyed" is a security motive, and the body never states the 700-plus employee letter that preceded the reversal.
+- **The 60-word answer overclaims motive (major).** The firing's sworn motive was a leader's candor and information integrity, shared ground with Six and One. The Five reading explains the firing's method, not its motive. The motive sentence also resembles the Hassabis and Liang Wenfeng formulas flagged in the similarity report.
+- **Three minors.** The Type 1 dismissal rests on absence of evidence from a record with no direct-report testimony. Hinton's backprop anecdote is used as anti-Six evidence when questioning authority is the Six's defining habit. The five-month silence omits the evidence record's own contractual-exit alternative.
+
+Five passages are protected, including the deposition hook, "It was the people in the room he did not model," and the limits paragraph.
+
+**Next step belongs to the pipeline:** the remaining role review (future) and then the edit stage, which should rebuild the discriminator around the observations that actually separate Five from Six.

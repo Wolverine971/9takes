@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "0a485d04a745c22f4162e7fcf2f3f343d56c6f7f337bbf41e18d34dd1af39a9e",
+  "evidence_sha256": "ee13270c6207faff91d4621ca927977c687012ae8a283512f96c0870a553d0eb",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "Under oath, Ilya Sutskever said he never checked the evidence behind his memo on Sam Altman: 'It didn't occur to me.'",
+      "problem": "The description generalizes past what the opened record shows, and it is the sentence most likely to be falsified by documents that are still sealed. The deposition excerpt (S02, pp. 128-135) supports a narrower fact: asked about the one line saying Brockman 'was essentially fired from Stripe', he answered 'Mira told me', did not verify it with Brockman, and said 'It didn't occur to me'; he said 'most or all' screenshots came from Murati and he 'fully believed' her; on one allegation he 'knew it through secondhand knowledge'. Reuters (S03) has him spending 'about a year gathering evidence'. 'Never checked the evidence behind his memo' turns a one-line admission into a claim about the whole memo. The research locator records that only a 62-page, party-filed excerpt of a roughly 365-page transcript is public and the memos themselves are not. If the full transcript or the memos surface and show checking on other items, the page's search snippet is wrong. The body is careful ('On one allegation'), but the line 'did not think to check them' in the opening frame makes a softer version of the same leap.",
+      "acceptance_test": "The description claims only what pp. 128-135 show, e.g. 'built his memo on a colleague's screenshots he did not verify' or 'never verified the memo's claim about Greg Brockman: It didn't occur to me'; 'did not think to check them' in the opening frame is scoped the same way or retained only with the one-allegation context beside it; the title's 'What He Didn't Think to Check' is then supported by the scoped text; a reader of the full transcript would find no sentence on the page saying he checked nothing."
+    },
+    {
+      "id": "future-02",
+      "severity": "minor",
+      "passage": "I fully believed the information that Mira was giving me.",
+      "problem": "The discriminator between Type 5 and Type 6 rests on four deposition claims (C16, C18, C19, C42) that are all marked stable with empty review triggers, yet the underlying document is a partial excerpt chosen by a litigant, the memos are unpublished, Murati has not given her account, and Musk has said he will appeal. C38's trigger covers the memos becoming public but nothing covers release of the full transcript, Murati's version of the screenshots, or Sutskever revising or withdrawing his account (the body also states 'Sutskever has not retreated from them' as an open-ended present perfect). Five years is long enough for all of these to happen, and the record would not tell a future run where to look.",
+      "acceptance_test": "At least one of C16/C18/C19/C42 carries a concrete review_trigger naming: release of the full deposition transcript, publication of the memos, Murati's public account of the screenshots, any later Sutskever statement revising the firing account, and any Ninth Circuit ruling that reopens the record; C17's trigger adds 'if Sutskever revises or withdraws the allegations'; the body's 'has not retreated from them' is tied to the May 2026 trial ('as of his May 2026 testimony')."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "Altman is the only named colleague on record describing his warmth, and he is the man Sutskever voted to fire.",
+      "problem": "This is an absolute claim about the entire public record, and the evidence record itself says the record was not fully checked: research_tasks notes that Keach Hagey's The Optimist (2025) and Karen Hao's Empire of AI (2025) reportedly carry named-colleague testimony on his working style and were not opened, and the opened named testimony is limited to Hinton, Musk, Altman, Dean, Caldwell, Huang and Brockman. So 'on record' may already be false, and within five years former OpenAI and SSI colleagues will almost certainly speak on the record. C22 carries this inference ('the only named colleague description of his warmth') but is marked stable with no trigger. The sentence supports the 'thin about people' theme, so a wrong absolute here damages the thesis, not just a detail.",
+      "acceptance_test": "The sentence is scoped to the opened record ('Among the named colleagues quoted here, only Altman describes his warmth, and he is the man Sutskever voted to fire') or the two 2025 books are opened and the claim re-sourced; C22's inference drops 'only named colleague ... on record' or gains a review trigger for new named testimony about his warmth."
+    },
+    {
+      "id": "future-04",
+      "severity": "major",
+      "passage": "SSI has released no product and does not discuss its methods.",
+      "problem": "The 'What is Ilya Sutskever doing now?' FAQ is the page's most-surfaced text and it stacks three undated present-tense status claims: he 'is co-founder and CEO', SSI 'has released no product', SSI 'does not discuss its methods'. C28 and C37 carry triggers for a model release, but this FAQ sentence is not an inventoried passage and a reader in 2028 has no way to see its vintage. The body's 'which he has run as CEO since July 2025' has the same open-ended shape. This is the Durability 6 anchor pattern (a current title and a current status with no date) sitting in the FAQ rather than the hook.",
+      "acceptance_test": "The FAQ answer carries an as-of anchor ('As of October 2026, SSI had released no product and did not discuss its methods') and the CEO status is dated the same way in the FAQ and body, or the FAQ question is rephrased to a durable form ('What is Safe Superintelligence Inc.?') with dated facts; the sentence is added as a passage under C37 or C28 so its trigger reaches it."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "Altman was reinstated within days and has led OpenAI since, the memo's claims were never tested in court",
+      "problem": "'has led OpenAI since' is an open-ended status claim with no date and no review trigger; it appears here and again in the 'Why did Ilya Sutskever vote to fire Sam Altman?' FAQ. C17's trigger covers the WilmerHale review post and responses to the memo, not Altman's tenure. If Altman leaves OpenAI during the page's life, both the body and the high-traffic FAQ become false, and nothing in the record points a refresh at it.",
+      "acceptance_test": "Both instances are dated ('and was still leading OpenAI as of October 2026') or the clause is cut to the stable fact ('Altman was reinstated within days'); C17 or a new claim gains a trigger 'if Altman leaves OpenAI, update body and FAQ'; the body and FAQ wording agree."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "People are searching for him now for two reasons.",
+      "problem": "'now' pins the orientation paragraph to October 2026 without saying so, even though both reasons that follow (the May 11, 2026 testimony and the October 5, 2026 festival review) are properly dated. Two other sentences have the same shape: the closing 'The first words of his longest public conversation since founding SSI' is a superlative that expires with his next long interview, and 'a figure NVIDIA has not confirmed' is true as of the research date only (C37's trigger covers the amount, but the prose is undated).",
+      "acceptance_test": "The orientation sentence is dated ('In 2026 two events put him back in the news' or 'As of October 2026, people are searching for him for two reasons'); the closing sentence is scoped in the pluperfect ('the longest public conversation he had given since founding SSI') or dated to November 2025; 'has not confirmed' becomes 'had not confirmed as of October 2026'."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "The film gives audiences a prodigy \"incapable of lying,\" \"so pure in his pursuit of research.\"",
+      "problem": "The closing presents one critic's description of Borisov's performance in a pre-release festival review (TheWrap, S34) as what 'the film gives audiences'. The film's U.S. release is December 25, 2026; after release, other critics and audiences may read the character differently, and the page would then attribute one reviewer's phrasing to the film itself. The intro handles this correctly ('has Yura Borisov playing him as', attributed to TheWrap). C39's trigger checks only for a Sutskever statement at release, not for re-checking this characterization.",
+      "acceptance_test": "The closing attributes the phrases to the review ('The film, in one early review, gives audiences...' or 'TheWrap's critic saw a prodigy...') and keeps the citation; C39's review_trigger adds 'after the December 25, 2026 release, confirm the characterization against release reviews'."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "What was the basis for that? \"Mira told me.\" Did you seek to verify it with Greg? \"No.\" Why not? \"It didn't occur to me.\"",
+      "reason": "A dated, sworn exchange with the page locator in the citation. The hook depends on nothing from 2026 and will read identically in 2031; it is the specific, sourced opening the standard asks for."
+    },
+    {
+      "passage": "The teenager who would not take backpropagation on authority grew into the man who built the most consequential case of his life from someone else's screenshots and did not think to check them. That gap is the subject of this profile.",
+      "reason": "The twenty-year frame is what makes the thesis durable: it joins a 2000s anecdote to a 2023 act and names the question the whole article answers. If future-01 scopes 'did not think to check them', keep the frame and the gap sentence."
+    },
+    {
+      "passage": "It still records an instinct, nine years before his sealed lab: once knowledge becomes powerful, hold it.",
+      "reason": "A contemporaneous 2016 document tied to the 2024 founding statement: a dated pattern across a decade, which is the Durability 9 anchor in the standard. It also honestly notes why OpenAI published the exhibit."
+    },
+    {
+      "passage": "The test is what a person does when the threat stops being abstract. A Six under real danger moves toward people and structures: lines up allies, checks the facts with several sources, anticipates how the group will react, looks for a protector. A Five withdraws into the private mind and treats the social world as a variable not yet computed.",
+      "reason": "The discriminator is stated as an observable test and then applied to dated 2023 conduct from sworn testimony, not to current status. Removing every 2026 event leaves this argument intact."
+    },
+    {
+      "passage": "The record gives something more exact: a man who checked the machine for twenty years and did not think to check the room, who turned down $6 million a year and then an acquisition at a $32 billion valuation to keep one question his own, and who says the hardest work he does is emotional.",
+      "reason": "The thesis in one sentence, built entirely from dated, sourced choices (2015, 2025, June 2025). It will still be true whether or not SSI ships, Altman stays, or the film is remembered."
+    }
+  ],
+  "assessment": "Five-year test: pass for the thesis, with dated-status repairs needed. Remove every 2026 event (the May 11 testimony and $7 billion stake, the July NVIDIA deal, the TIME list, the October film review) and the argument stands unchanged on the 2016 and 2017 emails, the Hinton anecdote, the October 2025 deposition, the June 2024 founding statement and the 2025 Meta refusal, all with absolute dates. The hook and conclusion do not depend on a current title. Durability weaknesses are concentrated in undated present-tense status claims: the SSI 'doing now' FAQ (future-04), Altman's tenure in body and FAQ (future-05), the 'only named colleague on record' absolute that the research admits it did not fully check (future-03), 'now', 'longest conversation since', 'has not confirmed' (future-06), and a closing that lets one pre-release review speak for the film (future-07). The description overgeneralizes a one-line admission into 'never checked the evidence behind his memo' (future-01), which is the sentence most exposed to the sealed transcript and memos, and the deposition claims that carry the discriminator have no trigger for those documents surfacing (future-02). The evidence record's existing triggers (C17, C23, C25, C27, C28, C35, C37, C38, C39) are concrete and actionable; C29 is labeled time_sensitive for a 5-to-20-year timeline the draft does not use, which is harmless. Similarity advisory: tripped=false with no trip pairs; the single top pair (0.05, Demis Hassabis) sits above the 0.04 threshold on raw score, so I compared the arguments directly: the Type 6 counter-cases are different arguments (cautious optimism and alliance-building there; 2017 trust language, a power-centered threat model and reliance on one ally here), so no reuse finding. Body is about 4,100 whitespace tokens including link markup, under the 4,500 ceiling but above the 2,000-3,500 target; not a durability matter, noted for the editor. Risk flags are copied from the evidence record; nothing here warrants escalation beyond the jury already running."
+}

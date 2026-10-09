@@ -1,0 +1,107 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "0a485d04a745c22f4162e7fcf2f3f343d56c6f7f337bbf41e18d34dd1af39a9e",
+  "evidence_sha256": "ee13270c6207faff91d4621ca927977c687012ae8a283512f96c0870a553d0eb",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "Hinton, named, told the same reporters that rapid progress had made him \"more confident that AGI would arrive soon and thus more focused on preventing its possible dangers.\"",
+      "problem": "The Atlantic's sentence (S08) is: \"the rapid progress of OpenAI's large language models had made Sutskever more confident that AGI would arrive soon and thus more focused on preventing its possible dangers, according to Geoffrey Hinton.\" The quoted words are the magazine's paraphrase of Hinton, not Hinton's speech, and the draft's \"him\" grammatically points at Hinton, so the sentence reads as Hinton describing his own change of mind. Readers who know the piece will spot it; it is the only named source behind the \"spiritual leader\" paragraph.",
+      "acceptance_test": "Rewrite so Sutskever is the subject and the words are attributed as The Atlantic's paraphrase of Hinton (for example: According to Hinton, The Atlantic reported, rapid progress had made Sutskever more confident that AGI would arrive soon and more focused on its dangers), with no quotation marks around words Hinton is not recorded saying. Editor confirms against S08."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "He did not seek a new protector or a new alliance. He built a sealed lab and turned down a buyer.",
+      "problem": "The best-known thing he did that weekend is missing: he signed the employee letter (roughly 700 of 770 staff) demanding the board resign and Altman return, and at trial he called signing it a \"last resort\" to keep the company from being \"destroyed\" (S05 excerpt, already in the packet; also the Implicator deposition summary saved in the research record). Joining a 700-person petition against the board he sat on is the most group-joining act in the record, and the discriminator passage asserts the opposite. The regret post is quoted; the letter is not.",
+      "acceptance_test": "\"A year of considering\" states, with a date and source (S05 or the trial record), that he signed the staff letter demanding the board's resignation and gives his \"last resort\" framing. \"What he did when it was real\" then argues the Five reading with the letter on the table, or revises the \"no new alliance\" sentence to what the record supports."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "sent by disappearing link rather than confrontation",
+      "problem": "The memo went to the directors by disappearing link, but the firing itself was delivered by Sutskever in person: he was the board member who told Altman on the November 17, 2023 video call and told Brockman he was off the board. The draft's own source S20 says \"indeed, Sutskever informed Altman of his dismissal,\" and Brockman's public account of that day says the same. Reuters (S03) also records that he had discussed removing Altman with Murati \"for a long time,\" so the year was not solitary. \"Rather than confrontation\" misleads by omission on the exact point the Five/Six test rests on.",
+      "acceptance_test": "Either drop \"rather than confrontation\" or follow it with the sourced fact that he personally told Altman and Brockman. The Five/Six passage then either explains why a man who delivered the firing face to face still counts as moving away from people, or narrows the claim to verification and coalition-building."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "It is the 2016 email built into a company: a sealed room for one idea, with no product, no papers and no customers until it is done.",
+      "problem": "The profile never mentions the superalignment team he co-led from July 2023 with a pledged 20 percent of compute (in S08), or that his co-lead Jan Leike resigned the same day in May 2024 (in S22) amid a public safety-versus-product rupture. An informed reader knows SSI's \"safe\" continues that agenda and that his exit had an institutional cause. Leaving it out lets the sealed-lab design read as temperament when the draft's own sources supply a competing explanation; it also strengthens the Type 1 case (leaving on principle) that the draft says \"strains.\"",
+      "acceptance_test": "\"Scale in peace\" or \"Feel the AGI\" carries one to three dated sentences on the superalignment team, the compute pledge and Leike's same-day departure, sourced to S08 and S22, and the Five argument states whether the sealed lab is explained by that conflict, by temperament, or both."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "But the chant also had a private meaning he later supplied himself.",
+      "problem": "In the Dwarkesh transcript (S01, 00:40:22) \"it's very hard to feel the AGI\" answers a question about incremental deployment and why people, including AI workers, cannot imagine future AI. He never mentions the 2022 chant, the party, or leading anything; the packet's own alternative for C14 says so. Presenting the 2025 remark as a meaning \"he supplied\" for the chant turns the author's bridge into Sutskever's testimony, on the hardest piece of counter-evidence for Type 5.",
+      "acceptance_test": "Rewrite as the author's inference (for example: His 2025 remark about how hard it is to \"feel the AGI\" suggests one reading of the chant), keep \"Read that way\" as the hedge, and remove any wording implying he explained the chant."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "Under oath, Ilya Sutskever said he never checked the evidence behind his memo on Sam Altman: 'It didn't occur to me.'",
+      "problem": "In the deposition (S02) he said \"I was pretty careful\" about the memo and that \"secondhand knowledge can be very useful.\" \"It didn't occur to me\" answered whether he verified the Stripe line with Brockman (p. 310) and, separately, whether he spoke to any of the named individuals (p. 318). \"Never checked the evidence\" overstates; what the record supports is that he never verified its secondhand claims with the people named. The p. 318 exchange is also the stronger support for the body's generalization \"did not think to check them,\" which currently rests on the single Stripe line.",
+      "acceptance_test": "Description and FAQ say \"never verified\" or \"did not check with the people named\"; the body cites the p. 318 exchange (\"why not speak to any of these individuals who are named?\" \"It didn't occur to me.\") alongside the Stripe one, and C18 is updated to carry both locators."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "Altman is the only named colleague on record describing his warmth, and he is the man Sutskever voted to fire.",
+      "problem": "Musk, the co-founder who recruited him, called him a \"good human\" with a \"good heart\" in November 2023 (S20, in the packet), and Brockman's \"joined at the hip\" (S04) is a named colleague describing closeness. The sentence is false on the draft's own sources, and it is the kind of absolute an informed reader tests first.",
+      "acceptance_test": "Replace with a claim that is true on the record (for example: Altman's tribute is the fullest named description of his warmth, and it comes from the man he voted to fire), or add Musk's \"good heart\" with its date and his motive."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "Years before the field agreed, \"Ilya was always preaching that you just make it bigger and it'll work better, and I always thought that was a bit of a copout.\"",
+      "problem": "The profile never names AlexNet (2012, with Krizhevsky and Hinton), the result that made the \"make it bigger\" bet pay and made him famous; Fortune (S18, S27) and NVIDIA (S26) in the packet call it the field's \"Big Bang.\" Without it the twenty-year conviction rests on testimony and self-report instead of the one observed, dated outcome, and any reader who knows him will ask where it went.",
+      "acceptance_test": "One dated sentence in \"How about now\" places AlexNet (and optionally sequence-to-sequence or GPT) as the observable payoff of the conviction, sourced to an opened source already in the packet."
+    },
+    {
+      "id": "fan-09",
+      "severity": "minor",
+      "passage": "What had changed, he said, was method: \"I've learned the critical importance of firsthand knowledge for matters like this.\"",
+      "problem": "At trial he also blamed the board's handling: Wired (S04) reports he \"criticized his board colleagues for rushing the process, lacking experience, and accepting 'legal advice that wasn't very good,'\" and the saved Decrypt relay has \"the process was rushed... because the board was inexperienced.\" His own account of the failure assigns part of it outward, which the \"method\" framing here and the Type 1 section's \"Nothing in the record shows the resentment\" both leave out.",
+      "acceptance_test": "This paragraph or the Type 1 passage notes, sourced to S04, that he also faulted the board's rushed process and legal advice, and the \"method\" sentence is qualified to \"part of what had changed.\""
+    },
+    {
+      "id": "fan-10",
+      "severity": "minor",
+      "passage": "Sutskever's version, in October 2023: \"I had one very explicit belief, which is: one doesn't bet against deep learning,\" and \"a big fraction of my work can be explained by that.\"",
+      "problem": "The two quotes sit about forty paragraphs apart in S09. \"A big fraction of my work can be explained by that\" follows \"Everything follows if you take this realization seriously enough,\" where the realization is that a very big artificial neural network should be able to do what the brain can. Joined with \"and,\" the \"that\" reads as the deep-learning belief. Same theme, different referent; it is the joined-quote pattern this pipeline has tripped on before.",
+      "acceptance_test": "Separate the quotes and give the second its own referent (the brain-to-network parallel), or drop it."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "What was the basis for that? \"Mira told me.\" Did you seek to verify it with Greg? \"No.\" Why not? \"It didn't occur to me.\"",
+      "reason": "Verified word for word against the deposition (S02, p. 310, Eddy examining for OpenAI). The compressed question-and-answer form is the best hook in the record and it rewards the reader by the end."
+    },
+    {
+      "passage": "Two authors share these sentences, so none can be assigned to Sutskever alone. But the fear of losing partners and the distrust of a leader's shifting reasons are the language of a [Type 6](/enneagram-corner/enneagram-type-6), and six years later the same two concerns, control and candor, drove the firing.",
+      "reason": "Gives the rival type its best document and keeps the co-authorship caveat intact. The 2017 email is the piece informed readers will test the profile on, and this handles it honestly."
+    },
+    {
+      "passage": "It was the people in the room he did not model.",
+      "reason": "The profile's insight in nine words, earned by the \"I feel understood\" quote just before it. Do not pad or restate."
+    },
+    {
+      "passage": "Secrecy is standard at frontier labs and doubles as a fundraising story. A refused exit at a $32 billion valuation, at the cost of a co-founder, is not standard.",
+      "reason": "Separates industry incentive from temperament with one specific, sourced, costly choice. This is the discriminating move the SSI section needs."
+    },
+    {
+      "passage": "Wired's reporter read him as \"dejected about no longer being involved with OpenAI\"; that is one journalist's reading of a face.",
+      "reason": "Models the observation versus interpretation separation the standard asks for, at the point where a lesser profile would have borrowed the reporter's reading."
+    }
+  ],
+  "assessment": "Read as an informed follower of Sutskever's record, with the deposition transcript, the Musk v. Altman email archive, The Atlantic piece, the Dwarkesh transcript, the Wired and Reuters trial reports and the Fortune pieces reopened from the research cache; video sources (Hinton at Sana, the convocation, iHuman, No Priors, GTC, NeurIPS, Lex 2020) were checked only against the packet's caption excerpts. Quotation fidelity is high: the deposition exchanges, the 2016 and 2017 emails (including the nine-minute reply gap and the \"Greg & Ilya\" signature), the Atlantic chant and effigy details, the SSI statement, the NVIDIA release and the trial-day quotes all match, and the attorney attributions are right (Eddy for OpenAI on the Stripe and \"cheer\" exchanges, Molo for Musk on the memo's origin). The portrait is distinctive and does not flatter him. The consequential problems are omissions of well-known episodes that cut against the thesis and sit in the draft's own sources: he signed the staff letter against the board, he delivered the firing to Altman and Brockman himself, and he left OpenAI the day his superalignment co-lead quit. The Five/Six discriminator is argued as if none of that happened, so the Six case is weaker on the page than it is in the record; the editor should put those facts in and let the argument survive them or soften confidence. Two attribution slips need fixing (the Atlantic paraphrase quoted as Hinton's words; the Dwarkesh remark presented as his explanation of the chant), and one absolute is false on the packet (\"only named colleague\"). Nit not raised as a finding: the 2015 dinner was at the Rosewood Sand Hill in Menlo Park, so \"in Palo Alto\" (the magazine's loose phrasing) should be dropped. The similarity diagnostic did not trip; the top pair with the Hassabis page compares different arguments about a Type 6 reading and is not reuse. Metadata is within limits (meta_title 62 characters, description 163, answer 54 words, 10 H2s, about 4,100 words)."
+}

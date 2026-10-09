@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "ilya-sutskever",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/verification-edit.json"
+  },
+  "content_sha256": "6db9a35efb17e92224e8a6fc9f560b68ec5fb32324c4d546b8cd421261e199a7",
+  "evidence_sha256": "59e7b777050343c3836a3d58e04a26e60c7801d91ea7de898a499c4dc1c5f136"
+}

@@ -1,0 +1,19 @@
+Both hashes match the frozen draft and evidence the runner's way, the review parses against the schema, every cited passage exists verbatim, and nothing else in the tree was touched.
+
+**Stage complete.** Wrote `docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-fan.json` as the fan-role review of the Ilya Sutskever draft. No other files were modified and nothing was published.
+
+**How I reviewed it.** I reopened the research cache for the deposition transcript, the Musk v. Altman email archive, The Atlantic piece, the Dwarkesh transcript, the Wired and Reuters trial reports, and the Fortune pieces, and checked the draft's quotes and episodes against them. Video sources were checked only against the packet's caption excerpts. Quote fidelity is high and the attorney attributions are correct.
+
+**Findings reported (5 major, 5 minor).** The consequential ones are omissions of well-known episodes that cut against the Type 5 thesis and already sit in the draft's own sources:
+
+- He signed the 700-person staff letter demanding the board resign, which he called a "last resort" at trial. The discriminator section says he "did not seek a new alliance."
+- He personally told Altman and Brockman they were out, so "rather than confrontation" misleads on the exact point the Five/Six test rests on.
+- The superalignment team and Jan Leike's same-day resignation are absent, so SSI reads as pure temperament when an institutional safety conflict is a competing explanation.
+- The Atlantic's paraphrase of Hinton is quoted as Hinton's own words about himself.
+- A 2025 Dwarkesh remark is presented as his explanation of the 2022 chant, which he never addressed.
+
+Minor findings cover the description's "never checked the evidence" overclaim, the false "only named colleague" absolute, AlexNet missing from the formative record, his trial-day criticism of the board's process, and a joined-quote splice from the MIT Technology Review piece.
+
+**Protected passages (5).** The deposition Q&A hook, the co-authorship caveat on the 2017 email, "It was the people in the room he did not model," the $32 billion refusal line, and the "one journalist's reading of a face" sentence.
+
+**Risk flags** were carried over unchanged from the evidence record (sensitive allegations and contested typing both true), so the expanded jury already applies.

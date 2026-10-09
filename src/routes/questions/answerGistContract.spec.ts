@@ -67,7 +67,7 @@ describe('answer gist contract (T-43)', () => {
 		expect(gistComponent).toMatch(
 			new RegExp(`<section class="${ANSWER_GIST_CLASS}" data-nosnippet[\\s>]`)
 		);
-		// No CSS hiding: Googlebot must see what an unlocked reader sees.
+		// No CSS hiding (Google's hidden-text policy): plain, visible markup.
 		expect(gistComponent).not.toMatch(/display:\s*none|visibility:\s*hidden|opacity:\s*0[;\s]/);
 	});
 

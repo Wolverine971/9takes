@@ -1,0 +1,20 @@
+The review-subject stage is complete. I wrote the one requested output file and touched nothing else.
+
+**Output:** `docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-subject.json`. It parses against the contract's review schema, every finding and protected passage is an exact substring of the draft surface, and the content hash I copied from the request matches the frozen draft.
+
+**What I found, as the fairness proxy.** The draft labels its sensitive material well in most places. The central problem is asymmetry around the deposition. The title, description and closing rest on one answer, "It didn't occur to me," while the subject's own mitigating testimony is left out.
+
+Six major findings:
+
+- **The description's "never checked the evidence" overstates the record.** I opened the saved deposition text. The excerpt does show a repeated pattern of non-verification, which the draft never cites, but it also contains his sworn "I was pretty careful" and his rationale for the memo, both omitted.
+- **Readers are never told the deposition is a partial, litigant-selected excerpt.** The draft calls it the most reliable part of the record and builds the thesis on it.
+- **His account of the reversal is given in half.** At trial he also criticized the board's process and legal advice. The draft keeps only "I simply cared for it," then uses that as the Five-versus-Six discriminator.
+- **"Altman is the only named colleague on record describing his warmth" is wrong against the draft's own sources.** Musk called him a "good human" with a "good heart."
+- **OpenAI's 2024 outside review of the firing is absent** as a response to the "pattern of lying" allegation, which appears three times.
+- **"He did not seek a new protector or a new alliance" is a motive claim contradicted by the record.** He co-founded SSI with Gross and Levy, raised from four institutional investors, and partnered with NVIDIA.
+
+Five minor findings cover the dropped hedge on the Brockman-Stripe line, the claim that he "supplied" the chant's meaning when he never addressed the chant, two flat psychological assertions, the author's "would not accept backpropagation on authority" gloss on Hinton's anecdote, and the one-sided account of Gross's exit stated as fact.
+
+**Protected passages:** five, including the "How about now" moment, the co-authorship caveat on the 2017 email, and the labeling of Wired's "dejected" as one journalist's reading.
+
+**Limits.** The Hinton caption track was not saved locally, so "a week later" and "the Nature paper" are unverified rather than wrong. The similarity diagnostic did not trip. The top pairs are shared Type 5 vocabulary with the Hassabis and Liang Wenfeng profiles, not argument reuse, so I noted it in the assessment without a finding. Risks stay as research set them, with no further escalation.

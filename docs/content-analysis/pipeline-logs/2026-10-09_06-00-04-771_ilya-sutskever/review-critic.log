@@ -1,0 +1,19 @@
+The critic review is written and validated. Only the requested output file was created; nothing else in the tree changed.
+
+**Output**
+`docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-critic.json` (role, content and evidence hashes copied from the request; passes the contract's review schema; every quoted passage is an exact substring of the frozen draft).
+
+**Verdict in one line.** The draft is accurately quoted but its Five-over-Six discriminator is built by omitting the facts in its own sources that point the other way.
+
+**Findings (6 major, 2 minor)**
+- **critic-01** The "what he did when it was real" discriminator omits that he co-planned with Murati "for a long time" (Reuters), wrote the memo at the independent directors' request after prior discussions, testified he was waiting for a board majority "not obviously friendly with Sam," and sat on board and Anthropic calls that weekend. That is coalition behavior, not withdrawal.
+- **critic-02** The description and hook say he "never checked the evidence behind his memo." The two "It didn't occur to me" answers cover one Stripe claim and one retaliation section; he also said "I was pretty careful."
+- **critic-03** The reversal paragraph claims his "I simply cared for it" explanation undercuts the Six reading. It fits both types, and the draft never mentions that he signed the November 20 staff letter against his own board. That letter is in two pages research fetched but never entered as a source.
+- **critic-04** "He did not seek a new protector or a new alliance" is contradicted by SSI's co-founders, investors and the NVIDIA partnership in the next section. The $32 billion is a fundraising valuation, not Meta's offer price.
+- **critic-05** The allegations against Altman carry no response, though the opened Wired piece has Bret Taylor's and Nadella's same-day testimony.
+- **critic-06** The 60-word answer's motive (protecting a private pursuit from intrusion) does not explain the firing, the 2017 email or the reversal.
+- **critic-07, critic-08** (minor) Musk called him a "good human" with a "good heart," so Altman is not the only named colleague on record describing warmth. The "worried the company could collapse" line is Reuters' gloss, not testimony.
+
+**Protected** The Hinton "chain rule" anecdote, the "Three audiences, one question" inference limit, the Feel the AGI reconciliation, the "limits are real" paragraph, and the Dwarkesh closing line.
+
+**Risks** Both research-stage flags (sensitive allegations, contested typing) are carried forward unchanged. One item I could not verify from cache: the TIME100 "$5 billion" and "rarely discusses SSI" lines, noted in the assessment for the evidence and verify roles.

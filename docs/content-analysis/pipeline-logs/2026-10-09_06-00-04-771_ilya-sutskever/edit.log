@@ -1,0 +1,20 @@
+The edit stage is complete. All three outputs are written and pass the pipeline's own checks. Nothing else in the repo changed and nothing was published.
+
+**Outputs** (in `docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/`)
+
+- `edit.md`: no draft blockers, 4,469 words, 59-word type answer matching FAQ 1, description 168 characters, no em dashes in author prose.
+- `evidence-edit.json`: validates against the article. 36 sources (two new), 50 claims (15 new, 4 removed), every passage matches the text.
+- `resolution-edit.json`: all 51 findings adjudicated, every one fixed; 22 unique protected passages recorded (16 kept verbatim, 6 changed with reasons); no inherited blockers.
+
+**What changed in the argument.** Type 5 stays at medium confidence, Type 6 the alternative, but the case now rests on narrower ground the reviewers could not knock down. The firing's motive is conceded as shared with Six. The discriminator was rebuilt around three things a Six is unlikely to produce: expecting 770 colleagues to feel nothing when 738 signed against him in three days, two writers independently watching him leave the room while in it, and the sealed-room structure he chose after losing. The year of considering, the one-ally screenshots, the disappearing link, the offline weekend and the silence are now labeled as fitting both readings. The reversal is stated plainly as the point the Five reading does not settle.
+
+**Fairness repairs.** The description and thesis no longer say he "never checked the evidence." They are scoped to the two sworn "It didn't occur to me" answers, with his "I was pretty careful" account beside them. New in the body: the staff letter he signed (Wired, opened this session), OpenAI's 2024 WilmerHale summary (TechCrunch, opened this session), Bret Taylor's and Satya Nadella's responses, his criticism of the board's process, the coalition facts (Murati, the independent directors, the weekend board calls), and that he told Altman himself. The false "only named colleague" line is gone.
+
+**Two things to flag for the verifier.**
+
+- Length is 4,469 words, under the ceiling but not under the 3,800 the unfamiliar reviewer preferred. Six reviewers required roughly 800 words of additions. I cut the bunker account, Hinton's Nobel remark, the Lex and NeurIPS quotes, the TIME funding figure and the retelling; cutting further would remove material other findings asked for. The resolution says so.
+- The TIME100 page could not be re-decoded, so its source is no longer cited by any claim.
+
+Unopened and logged as research tasks: OpenAI's own review post (still 403), the Hao excerpt behind the bunker quotes, the English wording of "last resort," and any named direct-report testimony.
+
+I also saved a memory note on the edit-stage length trap so future runs budget cuts before adding.

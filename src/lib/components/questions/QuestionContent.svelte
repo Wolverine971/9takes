@@ -325,7 +325,8 @@
 										</div>
 									{/if}
 									<!-- Present only for IP-verified Googlebot: the server never sends
-									     the gist to a human who has not answered (T-43). -->
+									     the gist to a human. Readers get the takes themselves, never an
+									     AI summary of them (T-43, DJ 2026-10-09). -->
 									{@render answerGist()}
 								</div>
 							{:else}
@@ -355,7 +356,6 @@
 										active={selectedTab === 'Comments'}
 										oncommentAdded={handleCommentAdded}
 										{afterOwnTakes}
-										gist={data.answerSummary ? answerGist : undefined}
 										{interstitial}
 										{revealFailed}
 										{onretryReveal}

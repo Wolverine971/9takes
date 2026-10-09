@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "ilya-sutskever",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_edit_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/similarity.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/draft-checks.json"
+  },
+  "outputs": {
+    "edit.md": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/edit.md",
+    "evidence-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/evidence-edit.json",
+    "resolution-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/resolution-edit.json"
+  }
+}

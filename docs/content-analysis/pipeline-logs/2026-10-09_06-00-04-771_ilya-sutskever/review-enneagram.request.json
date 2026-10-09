@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "ilya-sutskever",
+  "mode": "create",
+  "role": "enneagram",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/similarity.json"
+  },
+  "outputs": {
+    "review-enneagram.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-enneagram.json"
+  },
+  "content_sha256": "0a485d04a745c22f4162e7fcf2f3f343d56c6f7f337bbf41e18d34dd1af39a9e",
+  "evidence_sha256": "ee13270c6207faff91d4621ca927977c687012ae8a283512f96c0870a553d0eb"
+}

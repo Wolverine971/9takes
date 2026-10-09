@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "0a485d04a745c22f4162e7fcf2f3f343d56c6f7f337bbf41e18d34dd1af39a9e",
+  "evidence_sha256": "ee13270c6207faff91d4621ca927977c687012ae8a283512f96c0870a553d0eb",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "His sworn account sits on the second side. A year of \"considering\" without planning. A case built from one colleague's screenshots, unverified because \"It didn't occur to me,\" and sent by disappearing link rather than confrontation. Colleagues he expected not to \"feel strongly either way,\" and a weekend off the internet while they decided otherwise.",
+      "problem": "The discriminator rests on the premise that when the threat became real he sought no allies and did not read the room. The draft's own opened sources say otherwise and the section keeps only the facts that fit withdrawal. Reuters (S03) reports his trial testimony that he 'had discussed removing Altman with then chief technology officer Mira Murati after the two discussed Altman's behavior \"for a long time\"'; the draft quotes the same article for 'spent about a year gathering evidence' but drops this sentence. Deposition (S02) pp.129-130: he 'had discussions with the independent board members' first, and 'either Adam or the three of them together' (D'Angelo, Toner, McCauley) asked him to collect screenshots; the memo was prepared at their request after he had already expressed the view to them. P.324: asked to confirm he 'had been waiting for a moment when the board dynamics would allow for Altman to be replaced,' he said yes, and the dynamic was 'That the majority of the board is not obviously friendly with Sam.' Pp.319-321: on Saturday/Sunday he was on a board call with Toner and the other directors and then on the call with Anthropic's leadership. Waiting for a board majority, working through the independent directors, and co-planning with the CTO for a long time is coalition behaviour; avoiding the internet while sitting on weekend board calls is not withdrawal from people. 'A year of considering without planning' selects the deposition framing over the trial framing ('a year gathering evidence') the draft itself cites.",
+      "acceptance_test": "The section states, with citations, that he discussed removal with Murati 'for a long time', that the memo was prepared at the independent directors' request after prior discussions, that he was waiting for a board majority 'not obviously friendly with Sam', and that he sat on board and Anthropic calls that weekend. It then either re-argues what still separates Five from Six with those facts in view, or drops the November 2023 discriminator and says the type is held at medium confidence because that episode does not settle it."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "Under oath, Ilya Sutskever said he never checked the evidence behind his memo",
+      "problem": "The description, the hook ('did not think to check them') and the FAQ generalise two specific deposition answers into a claim he never checked the evidence behind a memo Reuters reports ran 52 pages. In S02 the first 'It didn't occur to me' (p.310) answers why he did not verify the Stripe claim with Brockman; the second (p.318) answers why he did not speak to the people named in the 'Subtle Retaliation' section. On the same record he said 'I was pretty careful' (p.129), that the memo was built 'to paint a picture from a large number of small pieces of evidence or items', and (p.312) that secondhand knowledge 'is an invitation for further investigation.' The screenshots were documentary items, not unverified hearsay. The draft's own 'may be legally minimal' caveat does not reach the metadata, where the overclaim is stated as fact and will be the only thing most searchers read.",
+      "acceptance_test": "Description, hook sentence and the 'Why did he vote to fire' FAQ restrict the claim to what he testified: that he did not verify specific secondhand items (the Stripe claim; the retaliation section) with the people involved, and that 'most or all' screenshots came from Murati. 'Never checked the evidence behind his memo' and 'did not think to check them' are removed or rewritten to name the specific items. 'It didn't occur to me' stays verbatim with its referent."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "The reversal is the Six reading's best moment, and his own explanation undercuts it. He did not say he had been wrong about Altman; at trial he still defended the firing. He said \"I simply cared for it\" and, about the merger, \"I just didn't want to.\" That is attachment to the thing he built, once the cost became concrete and visible, which a Five accommodates.",
+      "problem": "Two problems. (a) The explanation does not discriminate. Fear that the thing you belong to will be destroyed, and a public pledge to 'do everything I can to reunite the company', are at least as native to a security-seeking Six as to Five attachment; the paragraph asserts a Five 'accommodates' it without any sourced observation a Six would not. 'Undercuts' is therefore unsupported. (b) Omission of adverse evidence. The regret post of November 20, 2023 came as hundreds of employees signed a letter demanding the board resign, and he signed that letter himself, against the board he sat on. The evidence record's 'against' field names the 700+ threat; the draft never mentions the letter or his signature. Two deposition-coverage pages the research stage fetched (implicator, decrypt) state he signed it, but neither is in the opened source list or the claim inventory. Joining the staff revolt within 72 hours is the single most Six-shaped act in the record and the reader never sees it.",
+      "acceptance_test": "An opened, cited source is added to the evidence record establishing that on November 20, 2023 he signed the employee letter calling for the board's resignation, with its timing relative to the regret post; the draft states it. The paragraph is rewritten so 'cared for it' and 'reunite the company' are presented as compatible with both readings, and either names a sourced observation that still tips the reversal toward Five or says plainly that the reversal is the point the Five reading does not settle."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "He did not seek a new protector or a new alliance. He built a sealed lab and turned down a buyer.",
+      "problem": "The next section documents the opposite: a company with co-founders (Gross as CEO, Levy as president, S25), fundraising 'at a $32 billion valuation' (S01), and in July 2026 a long-term NVIDIA partnership with a 'substantial investment' granted after NVIDIA obtained 'rare access into the company's closely guarded research' (S26). Founding a venture-backed lab with partners is what nearly any departing executive does; it does not discriminate between types, and 'no alliance' is false on the draft's own sources. Precision error in the same strand: 'turned down ... an acquisition at a $32 billion valuation' and 'A refused exit at a $32 billion valuation' conflate the fundraising valuation with Meta's offer. S01 says only 'we were fundraising at a $32 billion valuation, and then Meta came in and offered to acquire us, and I said no.' No offer price is public.",
+      "acceptance_test": "The 'no protector or alliance' sentence is cut or replaced with what the record shows (he started a lab with co-founders and investors and later a strategic partner) and is no longer offered as Five evidence, unless the draft names a specific sourced feature of SSI's structure that a Six would not choose. Both $32 billion sentences are reworded to 'refused Meta's acquisition approach while fundraising at a $32 billion valuation' or equivalent."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "These are allegations. Altman was reinstated within days and has led OpenAI since, the memo's claims were never tested in court, and Musk's case was dismissed on May 18, 2026 as time-barred, with Musk saying he would appeal",
+      "problem": "With sensitive_allegations flagged, the profile repeats 'consistent pattern of lying' in the body and in a FAQ with no response from the accused side, although the opened Wired piece (S04) carries two from the same day of testimony: Nadella said he 'never got clarity' about the lack of candor and called the firing 'amateur city'; chairman Bret Taylor testified Altman 'has been forthright with me and the other board members.' The draft also says the claims 'were never tested in court' without noting that OpenAI's March 2024 review (unopened; already a research task) concluded the firing did not stem from safety or financial concerns. Evidence adverse to the allegation that exists in the opened record is left out, which makes the fairness label ('These are allegations') decorative.",
+      "acceptance_test": "One or two cited, dated sentences near the allegations carry Taylor's and Nadella's responses from S04, and the 'Why did Ilya Sutskever vote to fire Sam Altman?' FAQ gains a clause to the same effect. If the OpenAI March 8, 2024 post is opened, its finding is added in a sentence."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "His costliest choices protect a private, self-directed pursuit of one question, how learning works, and the conditions to think it through without intrusion.",
+      "problem": "The stated motive fits refusing Google and founding SSI, but not the events the article spends most of its words on. By his own words the firing was about candor and power ('environment where executives don't have the correct information', 'The whole problem is the power'), the 2017 email's costly candor was about control, and the reversal was about care for the company. None of those protects a private pursuit from intrusion. The 60-word answer and the type FAQ therefore name a motive that does not explain the profile's central costly choice, which is the Enneagram 6 anchor in the standard ('could describe any' focused researcher).",
+      "acceptance_test": "The answer and the type FAQ either state a motive that covers the firing and the reversal as well as SSI, with the sourced behaviour that shows it, or say explicitly that the November 2023 firing is the behaviour the Five reading explains least well."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "Altman is the only named colleague on record describing his warmth, and he is the man Sutskever voted to fire.",
+      "problem": "S20 (Fortune, November 25, 2023) quotes Musk, the co-founder who recruited him, calling him a 'good human' with a 'good heart'; S04 has Brockman's 'joined at the hip'. The sentence is a flourish that is wrong on the opened record.",
+      "acceptance_test": "The sentence is cut or restated accurately, e.g. Altman is the only colleague to use the words 'warmth and compassion', and Musk, by then Altman's adversary, called him a 'good human' with a 'good heart'."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "Within days, by the same account, he was worried the company could collapse",
+      "problem": "In S03 this is Reuters' narrative sentence ('But worried that the company could collapse, he later expressed regret...'), not quoted testimony, yet it sits inside a run of sworn statements and reads as one.",
+      "acceptance_test": "Attribute it as Reuters' characterisation of his reversal, or replace it with his own words from S04 ('I didn't want it to be destroyed')."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Hinton handed him the Nature paper on backpropagation. A week later the student came back and said he hadn't understood it, and Hinton was disappointed: \"it's only the chain rule.\" \"Oh no, no, I understood that,\" the student said. \"I just don't understand why you don't give the gradient to a sensible function optimizer,\" a question Hinton says \"took us quite a few years to think about.\"",
+      "reason": "Verified against the Sana Summit captions; a specific, sourced anecdote that does real work for the thesis and is the best thing in the opening."
+    },
+    {
+      "passage": "Three audiences, one question. Origin stories get polished. What these establish is what he says drew him, held steady across a career.",
+      "reason": "Honest inference limit stated in the prose, exactly as the standard asks; keep as a model for the sections that overreach."
+    },
+    {
+      "passage": "Read that way, the man leading the chant was trying to drag an abstraction into feeling, starting with himself.",
+      "reason": "The one place the draft reconciles the strongest counter-evidence (ritual leadership) with his own later words rather than explaining it away; distinctive and sourced to S01 and the convocation address."
+    },
+    {
+      "passage": "The limits are real. A phobic Six can also freeze and go quiet. Accepting a stack of secondhand screenshots whole from one trusted colleague looks like loyalty as much as detachment. The deposition answers were given under objection and may be legally minimal.",
+      "reason": "Genuine confrontation of adverse evidence. The fixes in critic-01 through critic-04 should extend this paragraph's honesty upward into the discriminator, not remove it."
+    },
+    {
+      "passage": "The first words of his longest public conversation since founding SSI were not about any of it. \"You know what's crazy? That all of this is real.\"",
+      "reason": "Verified in S01; an earned, specific close that ends at the story's natural point. The preceding sentence's $32 billion wording (critic-04) can change without losing this."
+    }
+  ],
+  "assessment": "The draft is well sourced and the quotations I reopened (deposition, Reuters, Wired, Dwarkesh, Atlantic, Fortune, LessWrong emails, captions) match their sources. The problem is the causal story. The Five-over-Six case rests on one claim: that when the threat became real he withdrew rather than moved toward people. The opened record says he co-planned with Murati for a long time, worked through the independent directors at their request, waited for a board majority, sat on weekend board calls, signed the staff letter against his own board within three days, and then built a lab with co-founders, investors and NVIDIA. The draft omits every one of those facts and keeps the ones that fit. Adverse evidence is confronted honestly in the 'limits' paragraph and the Feel the AGI section, but not in the discriminator, the hook, the description or the FAQ, which state as fact a generalisation of two deposition answers. The allegations against Altman are labelled but not balanced with the responses that sit in the opened Wired piece. Type 1 is handled fairly. Similarity advisory: no meaningful reuse; the top pair with the Hassabis profile is shared Five-vs-Six vocabulary with different arguments. Unverified from cache: the TIME100 '$5 billion' and 'rarely discusses SSI' lines (S31 cache was undecodable here; the evidence/verify roles should confirm). Length is 4,129 words against a 2,000-3,500 target, and much of the overage is the deposition walk-through that the findings above would tighten. Risks: I keep both research-stage risks; the findings do not add a new risk category, but critic-01 and critic-03 go to whether the leading type beats its alternative, so the editor should expect the Enneagram reviewer to press the same point."
+}

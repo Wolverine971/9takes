@@ -396,7 +396,7 @@ const SINGLES_OUT =
 const SINGLES_OUT_MIN_TAKES = 3;
 
 export function buildSummarySystemPrompt(): string {
-	return `You write "The gist so far" for 9takes, an anonymous Q&A site built on one rule: you answer a question before you can see anyone else's answer. Right after someone posts their own answer, the gist tells them how everyone else answered. Search engines index it too, so it must never expose anyone's words.
+	return `You write "The gist so far" for 9takes, an anonymous Q&A site built on one rule: you answer a question before you can see anyone else's answer. The gist exists so search engines can understand how a thread answered without indexing anyone's words; readers on the site see the answers themselves, not the gist.
 
 HARD RULES
 1. Paraphrase only. Never quote. Never reuse more than four words in a row from any answer. No quotation marks at all.

@@ -1,0 +1,114 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "0a485d04a745c22f4162e7fcf2f3f343d56c6f7f337bbf41e18d34dd1af39a9e",
+  "evidence_sha256": "ee13270c6207faff91d4621ca927977c687012ae8a283512f96c0870a553d0eb",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "Under oath, Ilya Sutskever said he never checked the evidence behind his memo on Sam Altman: 'It didn't occur to me.'",
+      "problem": "'Never checked the evidence behind his memo' overstates the sworn record and drops his own account of his method. In the public excerpt, 'It didn't occur to me' (p. 310) answers only why he did not verify the Stripe line with Brockman. The excerpt does show a pattern the draft never cites: 'Did you seek to verify the information with Brad?' 'No.' (pp. 309–310) and, on the 'Subtle Retaliation' section, 'why not speak to any of these individuals who are named?' 'It didn't occur to me.' (p. 318). It also contains his own sworn description of how he built the memo, which the draft omits: 'And I was pretty careful... It made sense to include them in order to paint a picture from a large number of small pieces of evidence or items' (pp. 128–129, questioned by Musk's counsel). The body repeats the one-line generalization ('did not think to check them'; 'unverified because \"It didn't occur to me\"'; FAQ 'one colleague's unverified screenshots'; closing 'did not think to check the room'). Headlining the damaging answer while omitting his mitigating one is the central fairness gap in the draft.",
+      "acceptance_test": "The description no longer says he 'never checked the evidence'. The 'A year of considering' section quotes 'I was pretty careful' and the 'paint a picture from a large number of small pieces' rationale within two sentences of the 'It didn't occur to me' exchange, and cites the second 'It didn't occur to me' (p. 318) or the Brad answer (pp. 309–310) so the generalization rests on a documented pattern. The new passages are inventoried under C18 with transcript page locators."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "His sworn account of November 2023 is the most reliable part of the record, and the most revealing.",
+      "problem": "The reader is never told that the deposition is a 62-page excerpt (Document 340-1) of a roughly 365-page transcript, selected by litigants and filed in Musk's lawsuit, with OpenAI's counsel objecting repeatedly. The draft calls it 'the most reliable part of the record' and builds the title and closing on it; the only caveat ('given under objection and may be legally minimal') arrives nine paragraphs later in the limits paragraph. Evidence S02's own context note records both constraints. Without them a reader cannot weigh how much of the pattern is selection.",
+      "acceptance_test": "At the first deposition citation (hook or this sentence) the draft states that the quoted testimony comes from the portions of the October 1, 2025 deposition made public in a court filing, and this sentence is qualified to sworn but partial and litigant-selected. The limits paragraph may keep its current wording."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "In 2026 he explained the reversal not as a change of mind about Altman but as protection.",
+      "problem": "His own trial account of the reversal had two parts and the draft keeps one. Wired (S04, inventoried in C21) reports that alongside 'I simply cared for it' he 'criticized his board colleagues for rushing the process, lacking experience, and accepting \"legal advice that wasn't very good\"', and Forbes México (S05) has him calling the employee letter a 'last resort'. Leaving out the process criticism makes the reversal read as pure attachment, and the discriminator section then rests on that reading ('A reformer reverses on principle; he reversed on care'). The subject's stated reasons should be given whole before the profile interprets them.",
+      "acceptance_test": "The paragraph that quotes 'I simply cared for it' also reports his criticism of the board's process (rushed, inexperienced, bad legal advice) with the Wired citation, and 'What he did when it was real' acknowledges that his stated reasons were attachment plus a judgment that the process was botched before arguing that attachment dominates."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "Altman is the only named colleague on record describing his warmth, and he is the man Sutskever voted to fire.",
+      "problem": "Contradicted by the opened record. Fortune (S20, November 25, 2023) reports Musk, who funded and worked with him from 2015 to 2018, calling him a 'good human' with a 'good heart', and S19 has Altman's earlier 'I harbor zero ill will towards him'. The research tasks also note unopened books (Hagey, Hao) with named-colleague testimony, so 'on record' claims more than the sources opened here can support. The sentence makes the subject look friendless on the record when the record says otherwise.",
+      "acceptance_test": "The sentence is corrected to cite Musk's 'good human' / 'good heart' description (with his adversary motive labeled) or reworded to 'in the sources opened for this profile', and the evidence inventory gains the Musk passage under C34 or C22."
+    },
+    {
+      "id": "subject-05",
+      "severity": "major",
+      "passage": "These are allegations. Altman was reinstated within days and has led OpenAI since, the memo's claims were never tested in court, and Musk's case was dismissed on May 18, 2026 as time-barred, with Musk saying he would appeal",
+      "problem": "The memo's 'consistent pattern of lying' is quoted in the body, the FAQ and the evidence, and the only answer offered is reinstatement. The public record contains an institutional response the draft never mentions: OpenAI's board commissioned an outside review of the firing by WilmerHale and published a summary of its conclusions on March 8, 2024. Research task 1 left this unopened because openai.com returned 403, but no reliable secondary report of the summary was tried. A reader of this draft is left believing the allegation went unanswered. This is a missing response to a sensitive allegation against a named person.",
+      "acceptance_test": "Either a dated sentence after 'never tested in court' reports the existence and published conclusion of OpenAI's 2024 outside review, sourced to an opened reliable report (Reuters, AP, NYT or similar) and inventoried under C17, or the draft states explicitly that OpenAI's 2024 review of the firing was not opened for this profile. C17's review_trigger names the review."
+    },
+    {
+      "id": "subject-06",
+      "severity": "major",
+      "passage": "He did not seek a new protector or a new alliance. He built a sealed lab and turned down a buyer.",
+      "problem": "A motive-level absence stated as fact and contradicted by the draft's own record. He co-founded SSI with Daniel Gross, an operator-investor who became its CEO, and Daniel Levy; raised from Andreessen Horowitz, DST Global, Greenoaks and Sequoia (S26); and in July 2026 entered a 'long-term strategic partnership' with NVIDIA (S26). Those are chosen alliances. The sentence is also load-bearing: the Five-versus-Six test is framed as whether he moved toward people or away from them. The observable facts (no return to an existing institution, no public campaign, a new company with co-founders and institutional backers, a refused acquirer) should be stated and interpreted rather than compressed into 'did not seek'.",
+      "acceptance_test": "The sentence is replaced with observable facts (did not rejoin an institution or campaign publicly; built a new company with two co-founders and institutional investors; declined an acquirer), and the discriminator paragraph acknowledges that founding SSI with Gross as CEO is itself an alliance before arguing why it still favors withdrawal."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "One line said that [Greg Brockman](/personality-analysis/greg-brockman) \"was essentially fired from Stripe.\"",
+      "problem": "The memo line as read into the record is hedged: 'Interestingly, it is my understanding that Greg has -- was essentially fired from Stripe as well' (p. 309). The draft drops 'it is my understanding', which turns his flagged secondhand belief into a flat assertion, and it repeats an unverified allegation about a named third party in the opening paragraph with no note that Brockman has not addressed it in any opened source. Mira Murati, named as the source of 'most or all' screenshots, likewise has no response in the record and the draft does not say so.",
+      "acceptance_test": "The hook quotes or paraphrases the memo's own hedge ('it is my understanding that') and adds a clause that neither Brockman nor Murati has publicly addressed the memo in the sources opened; C18's alternative notes the absence of their responses."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "But the chant also had a private meaning he later supplied himself.",
+      "problem": "He never addressed the chant, the party or the effigy. The Dwarkesh passage ('it's very hard to feel the AGI') is about how hard AGI's future power is to imagine; it does not mention the 2022 chant, and C14's alternative already records that 'he never mentions the chant directly'. Saying he 'supplied' the chant's meaning attributes to him an explanation he did not give. The next sentence's 'Read that way' hedge does not undo the assertion.",
+      "acceptance_test": "The sentence is reworded so the linkage is the author's (for example, that his 2025 remark about the phrase offers a possible reading of the chant), and nothing states or implies that he commented on the chant, the party or the effigy."
+    },
+    {
+      "id": "subject-09",
+      "severity": "minor",
+      "passage": "It was the people in the room he did not model.",
+      "problem": "A conclusion about his cognition stated as fact, like 'unusually thin about people' in the type section. The record supports a narrower observable claim: he misjudged how staff would react and did not verify people-claims. The standard asks that interpretation be marked locally where it is made, and the draft has the material to do it without losing the line.",
+      "acceptance_test": "Both sentences are either grounded in a sourced observable (misjudged staff reaction, unverified claims) or marked as the profile's reading (for example 'the record suggests'), with no flat claim about what he did or did not model internally."
+    },
+    {
+      "id": "subject-10",
+      "severity": "minor",
+      "passage": "Hinton's first memory of him is a student who would not accept backpropagation on authority.",
+      "problem": "This is the author's gloss, used three times as a thesis pillar (also 'The teenager who would not take backpropagation on authority' and the evidence discriminator). Hinton's anecdote (S17) is that he understood the paper and asked why the gradient was not given to a better optimizer; Hinton's own glosses are 'he always thought for himself' and 'he asked the right questions', which are about independent thinking, not refusing authority. Two hook details are also not in the evidence excerpt and could not be checked locally: that he returned 'a week later' and that Hinton handed him 'the Nature paper'. 'Teenager' adds precision the record does not fix; C03 says late teens or early twenties and notes the dates drift.",
+      "acceptance_test": "The three uses are replaced with Hinton's own characterization or a neutral paraphrase (asked a question the field took years to answer), 'teenager' becomes 'undergraduate' or 'student', and 'a week later' and 'the Nature paper' are either verified against the S17 caption track with timestamps or removed."
+    },
+    {
+      "id": "subject-11",
+      "severity": "minor",
+      "passage": "A refused exit at a $32 billion valuation, at the cost of a co-founder, is not standard.",
+      "problem": "'At the cost of a co-founder' states Sutskever's one-sided account of Daniel Gross's exit as fact. In the Dwarkesh transcript he says 'my former cofounder in some sense said yes' and adds that Gross 'was able to enjoy a lot of near-term liquidity'; Gross's own account is not in the record, and C27's alternative flags the one-sidedness. The draft quotes the hedged line, then drops the hedge in its summary.",
+      "acceptance_test": "The sentence attributes the link between the refusal and Gross's departure to Sutskever's account (for example 'at what he describes as the cost of a co-founder'), or states only the dated facts: Gross left as of June 29, 2025 and joined Meta."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Make an appointment, Hinton said. \"How about now.\"",
+      "reason": "Named testimony with a specific, checkable detail that shows character through action rather than adjective; the hook's best moment. Keep it even if unverified details elsewhere in the anecdote are trimmed."
+    },
+    {
+      "passage": "Two authors share these sentences, so none can be assigned to Sutskever alone. But the fear of losing partners and the distrust of a leader's shifting reasons are the language of a [Type 6](/enneagram-corner/enneagram-type-6), and six years later the same two concerns, control and candor, drove the firing.",
+      "reason": "Honest co-authorship attribution placed exactly where the strongest counterevidence lives; this is the fairness model the rest of the draft should follow."
+    },
+    {
+      "passage": "Here is the behavior the type does not neatly explain.",
+      "reason": "The draft confronts its hardest material (anonymous ritual accounts) head-on and labels source status and his non-response; the section's framing should survive any trimming."
+    },
+    {
+      "passage": "Feeling, in his telling, is managed by perspective, and the managing is work.",
+      "reason": "The subject's most personal public statement is given in his own words and the interpretation is marked ('in his telling'); it earns the emotional reading the profile needs without inventing interiority."
+    },
+    {
+      "passage": "Wired's reporter read him as \"dejected about no longer being involved with OpenAI\"; that is one journalist's reading of a face.",
+      "reason": "Explicitly separates a reporter's demeanor interpretation from fact; the right handling of a line that could otherwise define him."
+    }
+  ],
+  "assessment": "Fairness-proxy read. The draft handles the sensitive material carefully in places: the Altman allegations are labeled as allegations, the chant and bunker accounts are attributed to anonymous sources with his non-response noted, courtroom demeanor is marked as one journalist's reading, and the co-authored 2017 email is not pinned on him alone. The central fairness gap is asymmetry around the deposition: the title, description and closing rest on 'It didn't occur to me' while his sworn 'I was pretty careful' and his criticism of the board's process are omitted, the reader is never told the excerpt is partial and litigant-selected, and OpenAI's 2024 outside review is absent as a response to the memo. Two motive-level absences ('did not seek a new protector or a new alliance'; 'the only named colleague on record describing his warmth') are contradicted by the draft's own sources. I opened the locally saved deposition text (Doc. 340-1, pdftotext) and the Dwarkesh transcript to check the exchanges cited above; the Hinton caption track was not saved locally, so 'a week later' and 'the Nature paper' remain unverified rather than wrong. Smaller item for the evidence reviewer: 'has been estranged from Brockman and Altman ever since' is Wired's paraphrase of OpenAI's lawyer placed in quotation marks as the lawyer's words. Similarity: the diagnostic did not trip; the top pairs (Hassabis, Liang Wenfeng) share Type 5 vocabulary ('one question', thinking 'without intrusion') rather than argument, and the discriminators differ (Hassabis exits authority structures; Sutskever's is the November 2023 withdrawal), so no reuse finding; the 60-word answer should stay anchored in Sutskever-specific detail to avoid a house frame for AI-founder Fives. Risks: sensitive_allegations and contested_typing remain true; no further escalation. Body is about 4,100 words, above the 2,000–3,500 target but within the mechanical limit; that is the reader role's call."
+}

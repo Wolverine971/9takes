@@ -619,15 +619,16 @@
 	// `DiscussionForumPosting` matches Google's guidance for forum-style
 	// pages where the post (question + context) is publicly visible.
 	//
-	// IMPORTANT — give-first guarantee (T-43, DJ's decision 2026-10-07):
-	// Humans see zero answers before posting their own, and the takes are
-	// never in this page's HTML, JSON or JSON-LD until they do. What Google
-	// indexes instead is "The gist so far": an AI paraphrase of how people
-	// answered, never anyone's exact words. It is gated content, handled with
-	// Google's paywall / content-gating pattern:
-	//   * the server sends the gist only to a viewer who has answered or to
-	//     IP-verified Googlebot (reverse + forward DNS), with
-	//     `Cache-Control: private, no-store` on the crawler response;
+	// IMPORTANT — give-first guarantee (T-43, DJ's decisions 2026-10-07 and
+	// 2026-10-09): Humans see zero answers before posting their own, and the
+	// takes are never in this page's HTML, JSON or JSON-LD until they do. What
+	// Google indexes instead is "The gist so far": an AI paraphrase of how
+	// people answered, never anyone's exact words. Humans never see the gist,
+	// before or after answering: they read the takes themselves. It is gated
+	// content, handled with Google's paywall / content-gating pattern:
+	//   * the server sends the gist only to IP-verified Googlebot (reverse +
+	//     forward DNS), with `Cache-Control: private, no-store` on the
+	//     crawler response;
 	//   * the block (.answer-gist, AnswerGist.svelte) carries data-nosnippet
 	//     so it can rank but never be quoted in snippets or AI Overviews;
 	//   * both nodes below carry `isAccessibleForFree: false` plus a

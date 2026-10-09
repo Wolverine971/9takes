@@ -5,7 +5,7 @@
 **For:** the agent who makes `/questions/[slug]` answers indexable by Google while human visitors still can't see any answer until they post their own.
 **Owner:** DJ
 **Created:** 2026-10-06
-**Status:** BUILT 2026-10-07 (uncommitted) on DJ's revised decision: Google sees an AI **summary** of how people answered, never the verbatim takes. Ship order: apply migration, deploy, backfill. See "What was actually done". Fork 1 is moot (no one's words are exposed); fork 2 stays settled (zero-answer wall for humans).
+**Status:** BUILT 2026-10-07 (uncommitted) on DJ's revised decision: Google sees an AI **summary** of how people answered, never the verbatim takes. Ship order: apply migration, deploy, backfill. See "What was actually done". Fork 1 is moot (no one's words are exposed); fork 2 stays settled (zero-answer wall for humans). **Revised 2026-10-09:** humans never see the gist, before or after answering; it is Googlebot-only. See "Update 2026-10-09".
 **Related:** `docs/seo/2026-10-06-keyword-and-outreach-map.md` (Decision 1); `docs/question-page-seo-recommendations-2026-04-07.md`; `src/lib/server/personalityIsrContract.spec.ts` (contract-test pattern); `src/lib/server/contentAccessGuard.ts`.
 
 ---
@@ -430,7 +430,7 @@ Google sees a **general summation of how people answered** each question, never 
 2. **Paywall markup on the human page:** the same curl → `grep -o '"cssSelector":"[^"]*"'` → `".answer-gist"`, and no summary text anywhere in the page source or `__data`.
 3. **GSC URL Inspection** → Test live URL on the same page → View tested page → HTML: find `<section class="answer-gist…" data-nosnippet` with the summary inside. This works because Google-InspectionTool resolves to `*.googlebot.com`. Then Request indexing. Repeat for 2–3 more questions.
 4. **Rich Results Test:** JSON-LD parses, with `isAccessibleForFree: false` and `hasPart` present, and no summary text in the structured data.
-5. **Human flow:** answer a question in a private window. "The gist so far" appears under "Your take".
+5. **Human flow:** answer a question in a private window. "The gist so far" must **not** appear anywhere on the page (2026-10-09; before that it rendered under "Your take").
 6. **Readout in 2–4 weeks:** GSC Performance filtered to `/questions/` against the 144-impressions-in-90-days baseline.
 
 ### Open / for DJ
@@ -441,3 +441,14 @@ Google sees a **general summation of how people answered** each question, never 
   - The block sits under your own take, above the sort bar.
 - **Accepted edge case:** if one take is removed and another added in the same hour, the count doesn't change, so the summary isn't regenerated until the next take.
 - Not done: Bingbot (same pattern later), committing, deploying, applying the migration, the backfill.
+
+### Update 2026-10-09: the gist is Googlebot-only
+
+DJ's call on 2026-10-09, after seeing the block on a question page: readers should see the takes, never an AI summary of them. Changes:
+
+- `QuestionContent.svelte` no longer hands the gist to the revealed thread; `RankedComments.svelte` lost its `gist` slot. The locked-shell render stays, because the server only populates it for the crawler.
+- The loader's answered branch sends `answerSummary: null` and `answerSummaryAvailable` (existence, for the paywall JSON-LD). The text now leaves the server for IP-verified Googlebot only.
+- The summary prompt's framing sentence no longer claims a human reads it after answering. Hard rules and voice are unchanged.
+- Loader spec: "a human who answered gets the revealed takes and still no gist text".
+
+**Policy caveat, flagged to DJ:** Part 1.3's content-gating exception rests on Google seeing "the full content of what's behind the paywall just like any person who has access". With the gist hidden from every human, Googlebot sees a block no reader ever sees, which sits closer to the cloaking definition than the 10-07 design did. Practical exposure is low (a short paraphrase, `data-nosnippet`, no one's words, modest traffic at stake). The lean mitigation, if it ever matters, is a collapsed accordion under the revealed thread, which Google explicitly allows. Not built; DJ decides.

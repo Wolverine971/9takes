@@ -1,0 +1,13 @@
+The review-unfamiliar stage is complete. I wrote `docs/content-analysis/pipeline-logs/2026-10-09_06-00-04-771_ilya-sutskever/review-unfamiliar.json`, parsed it against the project's review schema, and confirmed every quoted passage is an exact substring of the frozen draft. No other files were touched and nothing was published.
+
+**Verdict as an unfamiliar reader:** the argument works. A cold reader meets a person before a type, gets one portable insight (he verifies machines, not people, and pays real money to keep one question his own), and is handed a clear test to track. The problems are orientation, not reasoning.
+
+**Findings (3 major, 5 minor):**
+- **Hook assumes prior knowledge.** The memo isn't identified as the board's case for firing OpenAI's CEO until paragraph four, "Mira" has no surname or role until section six, and Brockman's role is never stated. The description also attaches "It didn't occur to me" to the Altman memo and generalizes it past what the exchange supports.
+- **Musk's lawsuit is never explained.** The article is framed by the deposition and trial, but the reader is never told Musk helped found OpenAI as a nonprofit and sued claiming it abandoned that mission. The closing "no such promise" beat has no stakes without it.
+- **The staff revolt is missing.** The discriminator rests on how badly he misjudged the room, but the article never says the employees demanded the board resign or that "how happy I am" responded to Altman's return. The evidence record's own context notes already carry both.
+- **Minor:** AGI never expanded; Anthropic, Amodei, D'Angelo and Microsoft unplaced; an unsupported "busiest research scientist in the world"; length near 4,100 words with drag in the funding paragraph; the November facts told four times.
+
+**Protected:** the backpropagation-to-screenshots thesis line, "would rather have the answer than the room," the "I feel understood / people in the room" turn, the "2016 email built into a company" callback, and the closing sentence.
+
+Similarity diagnostic was not tripped. The top pair shares only ordinary Type 6 vocabulary. Both research risks carry forward unchanged, so the remaining jury roles (enneagram, future) still run next.

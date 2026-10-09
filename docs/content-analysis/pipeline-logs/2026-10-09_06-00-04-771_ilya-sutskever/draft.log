@@ -1,0 +1,34 @@
+Both stage outputs are written and pass the contract checks. Nothing else in the repo changed, nothing was published, and the profile is set to unpublished.
+
+**What was produced**
+
+- **Draft:** "What Ilya Sutskever Didn't Think to Check." It passes `checkDraft` with no blockers at about 4,100 words, 10 sections, no em dashes in author prose, and five FAQs. The 60-word type answer and the type FAQ match.
+- **Evidence continuation:** `evidence-draft.json` validates against the contract with the draft. All 34 sources are kept. The 41 research claims became 39: three unused claims were removed and noted in the research tasks, and one new deposition claim was added. Every retained claim carries an exact passage from the article or metadata.
+
+**The argument**
+
+- **Cold open:** under oath on October 1, 2025, OpenAI's lawyer asked whether he verified the memo's claim that Brockman was "essentially fired from Stripe." "Mira told me." Did he check? "It didn't occur to me." Set against Hinton's story of the teenager who refused to accept backpropagation on authority.
+- **Type read:** Type 5 at medium confidence, Type 6 argued in full as the strongest rival, Type 1 as a third.
+- **Discriminator:** what he did when the threat became real. A year of "considering" without planning, an unverified secondhand case, a disappearing link, "not expected them to feel strongly either way," offline for the weekend, five months of silence, then a sealed lab and a refused buyer at a $32 billion valuation.
+- **Honest counterevidence** stays in the body: the 2017 "afraid of losing you as partners" email, the "Feel the AGI" chant and effigy, the reversal explained by attachment rather than principle.
+
+**Accuracy work**
+
+- I re-pulled caption tracks for all seven YouTube sources and checked every quoted string in the finished draft against the saved source texts by script. That caught four problems my pre-write check missed, all fixed: three quotes I had joined across the source's "he said" break, and the "cheer" question, which came from OpenAI's lawyer, not Musk's.
+- Caption stutters dropped from two Hinton lines and one convocation line are now disclosed in the source locators, and the research excerpt for the convocation line was corrected to "very very difficult."
+- The same-type similarity scanner tripped twice on generic Type 5 phrasing (shared with the Yang Zhilin and Naval Ravikant profiles). The type definition was reworded in subject-specific terms and the scanner now passes clean.
+
+**Editorial calls**
+
+- The Altman allegations are labeled as allegations, with his reinstatement, the May 18, 2026 dismissal of Musk's case, and the pending appeal stated. The WilmerHale review post was not opened in research, so it is not cited.
+- The bunker remark is included once, attributed as a third-hand anonymous account with his non-response.
+- Dropped for length: the Matlab anecdote, the "slightly conscious" post, the superalignment self-interest and children remarks, and the GPU-trunk myth. They remain in the sources for the editor to reinstate.
+- Both risk flags (sensitive allegations, contested typing) are carried forward, so the six-role jury is required next.
+
+**Left for later stages**
+
+- Confirm the English wording of "I made no such promise" against a transcript; it rests on reporters' live posts.
+- Open The Atlantic excerpt of Hao's book before the bunker quotes carry any weight.
+- Before publication, recheck SSI's funding and NVIDIA's undisclosed amount, his OpenAI stake figure, the Musk appeal, and any response to the film's December release.
+
+I also saved a memory note on the quote-fidelity traps so future draft stages run the post-write verbatim check by default.

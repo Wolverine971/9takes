@@ -1,8 +1,9 @@
 <!-- src/lib/components/questions/AnswerGist.svelte -->
 <!--
-  "The gist so far" (T-43): an AI paraphrase of how people answered. Gated
-  content. The server only sends it to a viewer who has already answered or
-  to IP-verified Googlebot, so this component never decides who sees it.
+  "The gist so far" (T-43): an AI paraphrase of how people answered, written
+  for search engines. The server sends it only to IP-verified Googlebot, never
+  to a human (DJ 2026-10-09: readers see the takes, not a summary of them), so
+  this component never decides who sees it.
 
   Markup contract (answerGist.ts + answerGistContract.spec.ts):
   * the root keeps the static class "answer-gist", which the page's paywall

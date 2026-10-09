@@ -224,25 +224,32 @@ export const load: PageServerLoad = async (event) => {
 		};
 	}
 
-	// The gist joins the reveal batch below without changing its shape.
-	const answerSummaryRead = isDemoTime ? Promise.resolve(null) : readAnswerSummary(question.id);
-
 	// One parallel batch: this is the payload the post-answer reveal waits on.
-	const [comments, links, aiComments, flagReasons, { curation, nextStarter }, replyFocus] =
-		await Promise.all([
+	const [
+		comments,
+		links,
+		aiComments,
+		flagReasons,
+		{ curation, nextStarter },
+		replyFocus,
+		answerSummaryAvailable
+	] = await Promise.all([
+		isDemoTime
+			? getComments(question.id, true, false)
+			: getQuestionTakes(question.id, { viewerId: session?.user?.id, fingerprint: cookie }),
+		getQuestionLinks(question.id),
+		isDemoTime ? null : getAIComments(question.id),
+		getFlagReasons(),
+		getCurationWithNextStarter(question.id, isDemoTime),
+		getReplyFocusThread(
+			question.id,
+			parseReplyFocusParam(event.url.searchParams.get('reply')),
 			isDemoTime
-				? getComments(question.id, true, false)
-				: getQuestionTakes(question.id, { viewerId: session?.user?.id, fingerprint: cookie }),
-			getQuestionLinks(question.id),
-			isDemoTime ? null : getAIComments(question.id),
-			getFlagReasons(),
-			getCurationWithNextStarter(question.id, isDemoTime),
-			getReplyFocusThread(
-				question.id,
-				parseReplyFocusParam(event.url.searchParams.get('reply')),
-				isDemoTime
-			)
-		]);
+		),
+		// Existence only, for the paywall JSON-LD. The gist text is for
+		// IP-verified Googlebot; a reader who answered gets the takes.
+		isDemoTime ? Promise.resolve(false) : answerSummaryExists(question.id)
+	]);
 
 	return {
 		...createFullResponse(
@@ -273,12 +280,16 @@ export const load: PageServerLoad = async (event) => {
 		ownComments: 'ownComments' in comments ? comments.ownComments : [],
 		commentViewsEnabled: !isDemoTime,
 		commentRankingEnabled: !isDemoTime && isCommentRankingEnabled(),
-		...(await answeredGist(answerSummaryRead))
+		// T-43 (DJ 2026-10-09): the gist is never shown to a human, even after
+		// answering. Only its existence travels, for the paywall JSON-LD.
+		answerSummary: null,
+		answerSummaryAvailable
 	};
 };
 
 // =============================================================================
-// "The gist so far" (T-43): gated AI paraphrase of how people answered
+// "The gist so far" (T-43): gated AI paraphrase of how people answered. Served
+// only to IP-verified Googlebot; no human ever gets the text (DJ 2026-10-09).
 // =============================================================================
 type GistPayload = {
 	answerSummary: AnswerSummary | null;
@@ -300,11 +311,6 @@ async function readAnswerSummary(questionId: number): Promise<AnswerSummary | nu
 	} catch {
 		return null;
 	}
-}
-
-async function answeredGist(read: Promise<AnswerSummary | null>): Promise<GistPayload> {
-	const answerSummary = await read;
-	return { answerSummary, answerSummaryAvailable: Boolean(answerSummary) };
 }
 
 /**
