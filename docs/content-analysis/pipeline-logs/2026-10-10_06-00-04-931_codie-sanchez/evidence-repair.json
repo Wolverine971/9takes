@@ -1,0 +1,2229 @@
+{
+  "schema_version": 3,
+  "subject": "codie-sanchez",
+  "status": "ready",
+  "research_tasks": [
+    "Re-listen to every caption-sourced quotation used in the draft at the timestamps in the source locators (S07-S16 and S27) and correct wording, punctuation and speaker; the draft reproduces caption wording exactly as retrieved and none of it has been confirmed by ear. Resolve by ear who says 'I'm addicted to achieving ... I wish I could slow down sometimes' in the 2023 Diary of a CEO episode (S07, about 1:13:20-1:13:51); the line is excluded from the draft. The phrase captioned as 'daughter of immigrants' (S07, 06:37) is also excluded and stays excluded unless confirmed. The edit stage added caption-sourced quotations that also need confirming by ear: S11 at 45:51, 46:40-46:55, 1:09:22-1:09:53 and 1:10:51-1:11:10; S07 at 08:38-09:50, 1:30:15 and 1:33:19; S12 at 35:10 and 35:41-35:52; S13 at 56:38-56:50; S27 at 00:00-00:32 and 08:40-08:55. The repair stage added caption-sourced quotations that also need confirming by ear: S07 at 22:38-24:03 (the role-play and the laundromat answer), S08 at 42:21 ('because I want to own my name forever') and S12 at 32:24-32:44 ('we own').",
+    "Find independent named testimony about how she behaves when crossed, which this record lacks: current or former Contrarian Thinking employees, operators or partners in her portfolio companies, former colleagues at First Trust or Entourage Effect Capital, paying members of her programs, and her ASU instructors Kristin Gilger and Robert Sherwood. Record whether they describe open confrontation and indifference to image (which would favor Type 8) or image management, persuasion and outperformance (Type 3).",
+    "Obtain the two Inc. articles that returned HTTP 403 (S32, S33) through a subscription, library database or browser session; record any named investor or employee testimony and the source of the $31 million revenue figure that HOLA! attributes to Inc.",
+    "Transcribe the Money Rehab episode of 2026-08-31 (S31), especially 31:03-43:16, where the show notes promise her account of years spent chasing a revenue number and her fear of telling her team she was pregnant; compare with her account on The Mother Daze (S12) that she simply chose not to hide it.",
+    "Check whether First Trust, Entourage Effect Capital or any named former boss has given an account of her departures (C09, C11, C12), and check Bill Perkins's public record (podcasts, his own interviews) for his version of the exchange she describes in S09 (not used in the draft).",
+    "Confirm from non-promotional records: the week and category of Main Street Millionaire's New York Times list appearance; her Forbes Top Creators 2026 rank from the list page itself; the Georgetown M.B.A.; and the Contrarian Thinking founding year (her site says 2020; her 2026 release and Entrepreneur say 2019).",
+    "Recheck the docket in August Image, LLC v. Sanchez, No. 1:26-cv-01655 (W.D. Tex.) before release, and open the complaint itself if the case is to be mentioned (S25; the draft omits it).",
+    "Both clips of Sanchez inside the Hard Hat Economics video (S27) are now traced: the 2023 remark is in The Diary of a CEO, June 22, 2023 (S07) at about 23:35-24:01 (C140, C151, C152), and 'I want to own my name forever' is in The Diary of a CEO, August 12, 2024 (S08) at about 42:21 (C150). Still open: trace his later clips of her ('from last year', '10 months ago', 'last month') to establish whether and how her laundromat message changed after June 2023; read the second critic video (S30) in full; search again for any response from her (C142) and for any reported complaint or investigation concerning her paid programs (C36, C104); and look for an independent record of what she owns, since her 2023 sale and her 2026 statement that her company owns laundromats are both hers alone (C35, C155, C156).",
+    "After the birth (due December 2026 by her June announcement) and her return to work, revisit C22, C33, C101 and C143: update the family facts in her own words, record whether she took a leave, and record what happened to Contrarian Thinking's output while she was away.",
+    "Establish whether the unnamed firm in the 2017 dead-bodies story is Vanguard (C120): look for any telling in which she names it, and for former colleagues from her Vanguard or Goldman Sachs years.",
+    "Open a non-promotional record of her role and dates at Entourage Effect Capital (C124), and check the Hispanic Executive 2017 byline against the reviewer's Wayback capture (S04).",
+    "Read the unread stretches of S08, S09, S10, S11 and S13 end to end. Both critic clips, a 2024 retelling of the First Trust exit (S08, 1:41:25-1:42:59) and a 2026 statement of her holdings (S12, 32:24-32:44) sat in passages that earlier stages had read by keyword or passed over, so other statements about her exits, her staff or her businesses may remain. S07 has now been read end to end across stages. The repair stage read S08 only at 34:40-36:40, 40:30-44:30, 1:09:10-1:10:10, 1:14:30-1:15:30 and 1:39:20-1:44:00, and swept S03, S05, S06, S09-S13, S15, S17, S19 and S21 for 'laundromat' by keyword."
+  ],
+  "accuracy_checked_at": "2026-10-10",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.aol.com/articles/entrepreneur-codie-sanchez-pregnant-expecting-140000000.html",
+      "title": "Entrepreneur Codie Sanchez Is Pregnant, Expecting First Baby with Husband Chris Petkas (Exclusive) (PEOPLE, syndicated on AOL)",
+      "speaker": "Codie Sanchez, quoted by Kayla Grant (PEOPLE)",
+      "date": "2026-06-22",
+      "locator": "AOL syndication of the PEOPLE exclusive, opened by direct fetch (HTTP 200) on 2026-10-10 and read in full. Lede gives ages (she 39, Chris Petkas 39) and due month (December); paragraphs 3-4 (IVF, 'brute-force', 'Navy SEAL'); paragraph on symptoms ('outwork anything'); closing paragraphs on Petkas. The PEOPLE original was not opened separately.",
+      "excerpt": "My whole life, I've been the one who handles it, who doesn't need help. Getting pregnant was the thing I could not brute-force. I had to learn how to ask, and how to want something I might not get. / You don't see the part where I have to ask a Navy SEAL to please just hold me because I cannot do it by myself / I've built a career on being able to outwork anything, and my own body just looked at me and said, not today, lady. / It took three years, and most of it happened where nobody could see it.",
+      "context": "A planned pregnancy announcement placed with PEOPLE; photos are credited to Contrarian Thinking, so the framing is hers. She speaks of IVF, a family history of loss, telling her team in advance that she might be cranky or fall asleep, and her husband (a former Navy SEAL). The couple say they will learn the sex at birth. PEOPLE spells her late sister's name 'Kristen'; her own post (S02) spells it 'Kristin'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://x.com/Codie_Sanchez/status/2070213306883920099",
+      "title": "X post by @Codie_Sanchez announcing her pregnancy and describing years of infertility and family loss",
+      "speaker": "Codie Sanchez",
+      "date": "2026-06-25",
+      "locator": "Post text retrieved on 2026-10-10 through the api.fxtwitter.com JSON mirror of the x.com status (x.com itself was not opened in a browser); author screen name Codie_Sanchez, created 2026-06-25 18:31 UTC. Draft-stage correction: the saved JSON carries the full post through the sign-off 'Xoxo - Codie', and the draft quotes from it. Opening lines; the 'Kristin was my sister' passage; the '16 weeks' line; the kitchen-floor paragraph ('5 years into not getting pregnant', 'blaming myself every seven seconds').",
+      "excerpt": "I'm pregnant and thrilled. AND YET I've been failing at it for years. / Kristin was my sister. / It is the question I am still asking, at 16 weeks / This is for every woman who has struggled with or been shamed trying to get pregnant. / I was 5 years into not getting pregnant and blaming myself every seven seconds.",
+      "context": "Her own long post three days after the PEOPLE piece. She says her mother had several miscarriages, that she has had one, and that a sister, Kristin, was carried to term and lived 'a month. Maybe two.' She mentions a brother. She frames the post as written for women struggling to conceive. The post quotes song lyrics; do not reproduce them. Edit-stage note: the post opens 'This is for every woman who has struggled with or been shamed trying to get pregnant', answers commenters she paraphrases ('you never prioritized family'), tells readers 'You are not lazy. You are not late. You are not failing.', and contains both the five-year and the three-year figure.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.hola.com/us/lifestyle/20260901920847/codie-sanchez-money-wealth-entrepreneurship/",
+      "title": "Codie Sanchez on money and Latino ownership: 'We already have the entrepreneurial instinct' (HOLA! US, Entrepreneur Chats)",
+      "speaker": "Codie Sanchez, Q&A with Andrea Pérez (HOLA! US)",
+      "date": "2026-09-01",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-10 and read in full. Answer 1 (journalism to finance; 'jaded'; 'ownership = freedom'); answer 2 (the hallway; the marina); answer 3 (first laundromat funding); answer on scaling ('bought myself a job'; 'I had built the opposite'); answer on Contrarian Thinking ('unemployable'; her father's saying); final answers ('more brave at twenty-one').",
+      "excerpt": "I got jaded. So I went where money was understood. / It decided who had protection, who had options, and who could end up dead in the desert and no one cared. / I think ownership = freedom. / I mean that literally, because I had built the opposite and I didn't have a name for it at the time. / I got told I was unemployable. / I might have been more brave at twenty-one than I was at thirty. / I started smaller than my ego wanted. / I was the only Latina in my group so many times, I can barely count. / Money wasn't just about houses or vacations. / That's all actually fair. / I got told that if I wasn't going to row in their direction, I needed to get a new boat. That's all actually fair. They did me a giant favor, and that giant favor led to contrarian thinking reaching millions of people because I got kicked out of the corporate club. / She would also be surprised that I owned laundromats",
+      "context": "A written-style Q&A published during the book campaign; answers read as edited copy and repeatedly steer to the book and ownerscore.com. The introduction cites Inc. for '$31 million in revenue over a recent 12-month period' and Fortune for a 2025 net-worth estimate of about $17 million; neither figure is hers in this piece.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://hispanicexecutive.com/codie-sanchez/",
+      "title": "Codie Sanchez's Pursuit of Purpose (Hispanic Executive)",
+      "speaker": "Codie Sanchez, Q&A with Frannie Sprouls (Hispanic Executive)",
+      "date": "2017-06-15 (page modified 2022-11-30)",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-10 and read in full. Questions 1-4 (the border story; 'centers of power'); 'How have you done it' answer (the proposal, 'dead bodies'); 'big takeaway' answer (personal brand); 'overcoming a no' answer; 'What else has contributed' (rules); 'How do you decide' (the journal). Edit stage (2026-10-10): saved page text reread in full. 'I just never accept the word no' is the first sentence of the 'How have you done it' answer that contains the dead-bodies story; 'That's what he said?' answer ('got the green light somewhere else', 'refused to let up'); 'big takeaway' answer ('especially as Latinos', 'Don't hide it, but be aware'); 'overcoming a no' answer (the Goldman boss, 'don't ask for permission'); photo caption ('CEO, Keynote Speaker, & Investor, CS Inc.'); closing answer (newsletter).",
+      "excerpt": "I was told that everyone thought I would leave dead bodies behind me to get whatever I wanted. / I became more aware of how people perceive me. I adapted. / I think it's about personal brand. / There's not a faster way to the top than to be known and wanted. / I just never accept the word 'no.' I hate that word. / A mentor told me that you find the centers of power. And that's money. / Right, but I thought we were going to change the world. / I have a journal I've kept for fifteen years. / Hours later, he told me he had to offer the job to someone else. / Yep. And maybe he was right. It was a big realization for me. I thought that I was driven, but I was putting a different message out. / And now, the woman they gave the job to instead of me is a member of my team. / in about fifteen minutes, nobody remembered what we wrote about. / But when they told me 'you can't,' I went and got the green light somewhere else. / And then I just worked hard. I refused to let up. / We all have to be aware of these issues, especially as Latinos, because we stand out. / Don't hide it, but be aware. / my boss wouldn't allow me to travel for a job interview. So I paid my own way. / I still want to change the world.",
+      "context": "The earliest long first-person record found, from before she was an online figure: she was then running a team at First Trust and describes herself as CEO of 'CS Inc.' and a keynote speaker. The 'dead bodies' story concerns an unnamed earlier employer's accelerated program; she adds that the woman who got the job 'is a member of my team'. She says the border article ran in 2008 when she was twenty. The introduction calls her 'a sought-after speaker' with 'more than 15,000 Instagram followers'. The live page gives the byline Frannie Sprouls; a reviewer who read a 2024 Wayback capture reports a different byline there, which was not checked.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://hispanicexecutive.com/codie-sanchez-own-or-be-owned/",
+      "title": "Codie Sanchez Invests in Small Business Owners (Hispanic Executive)",
+      "speaker": "Billy Yost (Hispanic Executive), quoting Codie Sanchez",
+      "date": "2026-09-28",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-10 and read from the top to partway through the 'Everything to Lose' section; the end of the article was not read. Opening paragraphs (parents; 'what every Hispanic mother and father wants'); 'OWN or Be Owned' section ('I am a workhorse'); 'Everything to Lose' (Juárez; the Vanguard recruiter).",
+      "excerpt": "I think I was probably what every Hispanic mother and father wants for their kid / The problem was it felt empty. / I am a workhorse. I will keep going until I find the problem and I solve it / Sanchez and her husband, a former Navy SEAL",
+      "context": "A book-campaign profile; the photo is credited to her publicists (JONESWORKS). Yost describes her as the daughter of a small business owner and a special education teacher of thirty years, from Phoenix. He places her reporting on the El Paso-Juárez border.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.entrepreneur.com/entrepreneurs/she-taught-people-to-become-millionaires-then-she-started-giving-the-advice-no-business-book-dares-to-admit",
+      "title": "She Taught People to Become Millionaires. Then She Started Giving the Advice No Business Book Dares to Admit. (Entrepreneur, September 2026 issue cover story)",
+      "speaker": "Stephanie Schomer (Entrepreneur deputy editor), quoting Codie Sanchez",
+      "date": "2026-09-16",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-10 and read in full. Opening (early videos); biography section (Phoenix, parents, Vanguard, the happy-hours story, the hallway); the 2019 launch paragraph; the 'reluctant influencer' quote; closing paragraphs (first child 'this winter').",
+      "excerpt": "If you don't have it, the world really asserts its will on you. / I was instead sat down and told that I wasn't a team player because I never joined the happy hours. / I am never going to let somebody hold me back because of my bank account. / But like any new business owner, you get talked into things that aren't you. / Do I really want to be on social media every day? No. But it serves my goal / My parents didn't understand how I could leave a job like finance / She is direct, honest, and supportive, with a cut-through-the-bullshit energy. / Sanchez deems you a Workhorse.",
+      "context": "The most substantial staff-written profile found. It rests on an interview with Sanchez and quotes no one else. Schomer reports that her father owned a company selling granite, that her mother was a special-education teacher, that she managed $160 million at Entourage Effect Capital, and that Contrarian Thinking launched in 2019. Schomer writes that Sanchez 'admits that she spent too much time trying to follow other people's paths to success'. Edit-stage note: Schomer dates her first laundromat to 'more than 10 years' before the profile, lists Entourage Effect Capital after First Trust, and writes that she 'finally got comfortable enough to close the door on the finance world' before the parents quotation. The Vanguard passage includes 'People weren't that kind to people who were broke and didn't come from anything.'",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.youtube.com/watch?v=XkxZCJ2pYqs",
+      "title": "The Money Expert: From $0 to Millions In 2 Years Without Any Hard Work!: Codie Sanchez | E258 (The Diary Of A CEO)",
+      "speaker": "Codie Sanchez, interviewed by Steven Bartlett",
+      "date": "2023-06-22",
+      "locator": "English caption track downloaded with yt-dlp on 2026-10-10; research read 00:00-10:30 and 44:00-1:38:37 in full and the rest by keyword; the repair stage (2026-10-10) read 10:30-44:10 end to end from the saved caption text, so the whole track has now been read across stages. 05:06 ('scaredy-cat', soft landing); 06:37 (loved ones); 08:38-09:38 (the First Trust dispute); 54:00 ('scoreboard'); 1:06:45-1:07:45 (the club); 1:14:21-1:19:28 (divorce, 'exit tax', the townhouse, the calendar date); 1:21:00 ('no master'); 1:30:45-1:34:21 (Mount Baker). Captions are YouTube auto-generated (the subject's name appears as 'Cody'); re-listen at the timestamps to confirm exact wording, punctuation and speaker before quoting. The lines at 1:13:20-1:13:51 ('I'm addicted to achieving') cannot be attributed from the captions; do not use them until the speaker is confirmed. Draft-stage note: quotations taken from this track reproduce the caption wording as retrieved, with spans chosen to avoid spoken false starts; they have not been confirmed by ear. Edit stage (2026-10-10): saved caption text reread at 04:36-10:09 (the First Trust dispute: 'fighting a little bit with the CEO', 'So no, I'm going to run the business this way', 'we were kind of arguing', 'work for somebody ever again'), 1:06:15-1:07:45, 1:13:20-1:19:59 and 1:29:45-1:34:52 (the closing tradition and question at 1:30:15; friends 'let's talk about this' and 'I'm like, no' at 1:33:19). Repair stage (2026-10-10): 11:15-14:16 (her first laundromat: a $100K transaction run by an operator she knew, 'That business made $67,000 in profit', 'I call them gateway drug businesses', a first business that 'probably isn't the greatest business for you to own long-term'); 22:38-24:03 (Bartlett plays a 25-year-old with about $7,000 in the bank who does content for a living and asks for a first step; her answer at 23:35-24:01 is quoted in the article and is the clip that opens S27); 36:02-36:20 ('I have laundromats and car washes behind me all the time' in her content, which describes her videos and is not a statement of ownership). No other statement about selling, exiting or currently owning laundromats appears in 10:30-44:10.",
+      "excerpt": "I'm like a little bit of a scaredy-cat. / I saw the writing on the wall that it wasn't my casino. They weren't my chips. / I don't ever want to be the person standing in line at the club. I want to own the club. / it feels thirsty. I don't want to be thirsty. / there's always an exit tax to freedom / I was such a wuss I couldn't do it unless I put it on a calendar / having no master. That's what rich looks like for me. / am I like a failure by not doing this tough thing that everybody else is going to do? / most of my life I've been trying to like please a bunch of people to goals I don't care about / they were writing the rules, as is fair. It was their business. / I needed something where I could have like a soft landing. / I like kind of thought I was tougher than them / what am I trying to prove? / it wasn't even the heights that was so scary or the cold. / I felt like it took more courage for me to not do the thing than do the thing. / It was my decision. / So no, I'm going to run the business this way. / I wasn't sure I wanted to work for somebody ever again. / When was the moment you were most afraid? / And I'm like, no. Totally fine. / So, if you do content for a living, what I'd say is don't buy a laundromat. I talk about laundromats. I actually need to change that. I need to like tell somebody I bought a different first business because it's a terrible business to buy. It just was my first one and it's very easy to understand. So, I'm like, if you can't understand quarter, machine, clothes, clean, don't buy a business, any business. Just forget you heard me talk about anything. And so, that's why I talk about laundromats. / I knew that at some point I was either going to get pushed out or leave.",
+      "context": "Her first long interview on a mass-audience show. The personal material arrives late and she remarks 'I don't ever talk about this stuff'. The Mount Baker story answers the previous guest's question, 'When was the moment you were most afraid?'. At the close Bartlett calls her an 'incredibly powerful, honest, willing to be vulnerable woman in business'. The laundromat remark at 23:35-24:01 answers a role-play: Bartlett is a 25-year-old content creator with about $7,000, and she goes on to advise him to buy into a business he already pays for (24:03-25:36).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.youtube.com/watch?v=IYu_PDPqKFc",
+      "title": "Codie Sanchez: They're Lying To You About How To Get Rich! How To Turn $0 Into $1M! (The Diary Of A CEO)",
+      "speaker": "Codie Sanchez, interviewed by Steven Bartlett",
+      "date": "2024-08-12",
+      "locator": "English caption track downloaded with yt-dlp on 2026-10-10; read 07:30-13:10, 18:40-24:10 and 1:55:30-2:03:30, the rest by keyword. 11:43 ('I'm 37'); 33:44 (job tenures; First Trust for five years 'because I had ownership'); 2:00:03 ('really intense'). Captions are YouTube auto-generated (the subject's name appears as 'Cody'); re-listen at the timestamps to confirm exact wording, punctuation and speaker before quoting. This track has no punctuation or speaker labels. Draft-stage note: quotations taken from this track reproduce the caption wording as retrieved, with spans chosen to avoid spoken false starts; they have not been confirmed by ear. Repair stage (2026-10-10): saved caption text read at 34:40-36:40, 40:30-44:30, 1:09:10-1:10:10, 1:14:30-1:15:30 and 1:39:20-1:44:00, with keyword sweeps of the whole track for 'laundromat', 'First Trust', 'Latin America' and 'victim'; the remainder is still unread. 35:11 (leaving First Trust: her CEO 'wanted me out of the firm', 'you need do it my way not your way', they left on good terms by her account and he offered to be her first investor); 42:21-42:36 ('I don't give equity and contrarian thinking my media company because I want to own my name forever I don't ever think I'm going to sell this thing but if we have cash flowing and laundromats and car washes yeah you guys can invest in that'; this is the second clip inside S27); 45:41 ('I don't think everybody should own a laundromat or a car wash'); 1:09:10-1:10:10 (gateway-drug businesses; she talks about laundromats and car washes 'because if you can't understand cleaning clothes and if you can't understand cleaning cars probably don't do any business'); 1:14:55 (people conclude 'she tells me that everybody should own laundromats I'm like no take a minute'); 1:41:25-1:42:59 (a retelling of her exit from the investment firm where she built the Latin America business, which she names as First Trust at 33:48 and 35:11: the CEO said 'if you want to row left and I want to roll right you need a new boat', 'he gave me his Blessing', 'I was total victim mindset about it', 'I was mad so I left and he did me a huge favor by pushing me out').",
+      "excerpt": "I'm human I'm flawed I'm really intense I'm kind of hard to work for sometimes / I stayed at most jobs for like a year and a half two years Max until I was at one called First Trust where I was there for five years because I had ownership / I don't give equity and contrarian thinking my media company because I want to own my name forever I don't ever think I'm going to sell this thing but if we have cash flowing and laundromats and car washes yeah you guys can invest in that / I was mad so I left and he did me a huge favor by pushing me out / I don't think everybody should own a laundromat or a car wash",
+      "context": "A promotional interview before her first book. Mostly tactics. She says she would not hire someone who raises work-life balance in an interview (Bartlett's summary of an earlier remark, which she accepts).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.youtube.com/watch?v=cG8ih5DwOlM",
+      "title": "The Weird Mental Frameworks Of The Super Rich - Codie Sanchez (Modern Wisdom)",
+      "speaker": "Codie Sanchez, interviewed by Chris Williamson",
+      "date": "2023-10-19",
+      "locator": "English caption track downloaded with yt-dlp on 2026-10-10; read 49:30-1:13:45 in full, the rest by keyword. 50:10 (feedback from her husband); 52:11-53:14 (Bill Perkins); 55:48-56:19 ('not that nice'); 1:03:57-1:04:57 (marriage). Captions are YouTube auto-generated (the subject's name appears as 'Cody'); re-listen at the timestamps to confirm exact wording, punctuation and speaker before quoting. This track has no punctuation or speaker labels; Williamson's long turns are interleaved, so attribute by content. Draft-stage note: quotations taken from this track reproduce the caption wording as retrieved, with spans chosen to avoid spoken false starts; they have not been confirmed by ear.",
+      "excerpt": "he gave me some feedback that I didn't really like I was like who's whose side are you on / do you think that you have been investing in small businesses for so long small has it infected your thinking / not because I'm nice I'm really not that nice / our thing is it's us against the world",
+      "context": "A long conversation with a friend of hers. She describes a practice with her husband of asking what they can learn from an annoyance instead of taking each other's side, and her first meeting with the hedge-fund manager Bill Perkins.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.youtube.com/watch?v=2d4u80LmRQ8",
+      "title": "Why Working Harder Won't Make You Rich - Codie Sanchez (Modern Wisdom)",
+      "speaker": "Codie Sanchez, interviewed by Chris Williamson",
+      "date": "2026-09-03",
+      "locator": "English caption track (with speaker-change markers) downloaded with yt-dlp on 2026-10-10; read 00:00-15:45, 19:30-28:40, 55:30-1:08:30 and 1:27:30-1:33:00. 05:37-07:34 (the Branson invitation); 07:34-08:35 (identity and failure); 22:21-23:24 ('heroin'; 'self-employed'); 1:02:43-1:05:16 (persuading staff). Captions are YouTube auto-generated (the subject's name appears as 'Cody'); re-listen at the timestamps to confirm exact wording, punctuation and speaker before quoting. Draft-stage note: quotations taken from this track reproduce the caption wording as retrieved, with spans chosen to avoid spoken false starts; they have not been confirmed by ear.",
+      "excerpt": "I had what was I call the hero complex in business. / I told myself that I didn't have time. If I left the business, it would fail. / It was just a lie I told myself. / sit alone in the dark with no idea of what to do next / I never want to be self-employed again. It was miserable. / I try in my conversations with my team to almost say nothing about what my highest value is. / we try to be a dictator to our employees / we try to be a doormat / I think we don't sell enough inside of our companies / so persuasive to the people around you in business that you can get them to do the things they want to do without them even realizing that it was your idea, not theirs.",
+      "context": "Book-campaign interview, recorded while pregnant (Williamson congratulates her). She links 'the last 5 years' of worrying the business could not go on without her to her difficulty conceiving; that is her own speculation. She says the business at the time of the Branson invitation was doing about $5 million a year.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.youtube.com/watch?v=a_5-iAEMRpE",
+      "title": "What RICH People Know About Money That Nobody Taught You | Codie Sanchez (The School of Greatness)",
+      "speaker": "Codie Sanchez, interviewed by Lewis Howes",
+      "date": "2026-09-21",
+      "locator": "English caption track (with speaker-change markers) downloaded with yt-dlp on 2026-10-10; read 40:00-52:10 and 1:08:30-1:14:00, the rest by keyword. 45:21-48:25 (the empty bank account and the call to her father); 1:09:20-1:10:20 (control and anger); 1:12:23-1:13:24 ('I don't optimize for fun'). Captions are YouTube auto-generated (the subject's name appears as 'Cody'); re-listen at the timestamps to confirm exact wording, punctuation and speaker before quoting. Draft-stage note: quotations taken from this track reproduce the caption wording as retrieved, with spans chosen to avoid spoken false starts; they have not been confirmed by ear. The bank-account story begins at 45:21 and the control answer at 1:09:20, which is the basis for the draft's 'About twenty minutes later'. 1:12:53 (the motto she attributes to a writer whose name the captions render as 'Emma Bombeck'; the draft calls it a borrowed line and does not name the writer). Edit stage (2026-10-10): saved caption text reread at 43:50-48:55 and 1:08:19-1:13:24. 45:00 (Howes's question about the book); 45:51 ('track performance consistently', 'expect this to happen to you'); 46:22-46:53 (going to the head of operations and his reported reply); 1:09:22-1:09:53 ('at first, early on for me'; 'work for somebody I don't like'); 1:10:51-1:11:45 ('this current stage'; 'own a little piece of something'; 'she believed in human capability'). The bank answer reaches the empty account at about 46:22 and the control line comes at about 1:09:25, roughly 23 minutes later, hence 'A little over twenty minutes later'.",
+      "excerpt": "my identity and that I was a failure because I had let an entire business fail / it was my fault for not tracking him / I don't ever want anybody to have control over me or my life again. / I'll become every single thing that you said I wouldn't / You were trying to prove yourself. / I don't optimize for fun. / Excuse me, can you please turn that thing around so I can see what's on that screen? / the account that I thought had a million dollars in it was basically to zero. / If you haven't sat in the dark in the middle of the night with no idea of what to do next, you're not really in the game. / I was angry. / I used everything you gave me. I have not one drop left. / I did tell you this one time that it might be tight this summer / I don't ever want to have to work for somebody I don't like or to spend a moment of my day in somebody else's life architecting their dream instead of mine. / I think the world is better when more of us own a little piece of something.",
+      "context": "Howes asks what her 'real dream' is. She answers in stages: first control and anger, then, once money was no longer the question, wanting more people to have 'sovereignty over your life'. 'You were trying to prove yourself' is Howes's phrase; she answers 'Oh, yeah.' The bank-account story concerns an unnamed, undated business.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.youtube.com/watch?v=3A4m9q9fkcQ",
+      "title": "Own or Be Owned: Motherhood, Money & Making Yourself Less Needed with Codie Sanchez (The Mother Daze)",
+      "speaker": "Codie Sanchez, interviewed by Teresa Palmer and Sarah Wright Olsen",
+      "date": "2026-08-20",
+      "locator": "English caption track (with speaker-change markers) downloaded with yt-dlp on 2026-10-10 and read end to end (50:53). 11:18-12:20 (five years, IVF, her sister); 15:21 (the PEOPLE announcement); 21:00 (telling her team); 23:59-24:30 (Myers-Briggs); 26:00 ('workhorse'); 35:41 (fans); 37:14 ('business bully'); 44:25 (being needed); 46:00-48:02 (turning 40; advice to her child). Captions are YouTube auto-generated (the subject's name appears as 'Cody'); re-listen at the timestamps to confirm exact wording, punctuation and speaker before quoting. Draft-stage note: quotations taken from this track reproduce the caption wording as retrieved, with spans chosen to avoid spoken false starts; they have not been confirmed by ear. Edit stage (2026-10-10): saved caption text reread at 23:59-26:30 and 34:08-37:45. 35:10 (the tombstone reading 'managing director'; 'That doesn't interest me at all'); 35:41-35:52 (the fan contrast: 'I bought one because of something that you said', 'That means you did something'). Repair stage (2026-10-10): saved caption text reread at 02:06-02:50, 04:40-06:20 and 31:20-33:40. 05:21 ('I bought that one and then we bought a bunch more'); 32:24-32:44 (what Contrarian Thinking sells: 'One is we like to invest in businesses. So we own a ton. We own roofing and um exteriors and uh laundromats and car washes and uh painting companies').",
+      "excerpt": "We couldn't get pregnant for 5 years / I'm like, who cares if I'm pregnant? / I just wasn't going to hide it. / I think mine was like something close to a dictator sounding and I thought well that sounds right. / I'm a workhorse. Like I get off on working all the time. I used to think that was my identity. / I feel like the book kind of came around cuz I needed it. / I always jokingly call myself the business bully / I'm turning 40 this month / it's the people who love you the most who will hold you back the most / That's totally uninteresting to me. / That doesn't interest me at all. / That's totally uninteresting to me. But if they're like I built a business, I bought one because of something that you said. I'm like that's cool. That means you did something / One is we like to invest in businesses. So we own a ton. We own roofing and um exteriors and uh laundromats and car washes and uh painting companies",
+      "context": "A motherhood podcast hosted by two fans; she says she is 24 weeks pregnant. The hosts' names are caption-garbled and are given here as the show lists them. The Myers-Briggs letters are garbled in the captions ('EF ENF'); she asks whether that is 'the commander'. At 47:30 she addresses 'my little girl' and at 48:32 says 'He's going to be in the laundromat'; neither states the baby's sex.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.youtube.com/watch?v=h1vf7vhGrQ0",
+      "title": "The Woman Who Built a Nine-Figure Empire Says Most of What You See Online Is Fake | Codie Sanchez (Valeria Lipovetsky)",
+      "speaker": "Codie Sanchez, interviewed by Valeria Lipovetsky",
+      "date": "2026-08-26",
+      "locator": "English caption track (with speaker-change markers) downloaded with yt-dlp on 2026-10-10; read 12:30-21:00, 27:30-33:10, 43:50-53:00, 54:50-1:08:10 and 1:10:50-1:14:10. 14:44 ('the crazy one'); 27:57 (scale business); 45:22-47:57 (working with her husband); 55:35-56:38 (motherhood and identity). Captions are YouTube auto-generated (the subject's name appears as 'Cody'); re-listen at the timestamps to confirm exact wording, punctuation and speaker before quoting. Draft-stage note: quotations taken from this track reproduce the caption wording as retrieved, with spans chosen to avoid spoken false starts; they have not been confirmed by ear. Edit stage (2026-10-10): saved caption text reread at 44:51-48:28 and 54:35-57:38. 55:35 (the host frames motherhood as 'the test of all test' of the book's principles); 56:38-57:08 (the plan: 'how do I set myself up so options are always on the table'; 'a slave to while I'm pregnant'). No announcement of a leave appears in the windows read.",
+      "excerpt": "I choose the crazy one, but it's not I don't choose it because it's more fun. / I'm not building it to exit and I'm not building it a lifestyle business. / When I come home, Chris is actually kind of the alpha. / When we're in the office, I'm a crazy person. I have all the opinions non-stop. / He runs our investment and holdco. / I am not a hero. I am a character in a play. / I have always kind of gone after exactly what I wanted. / what will I want afterwards / And that I have no idea. / But the scary part is what if you want something totally different? / 33 companies / how do I set myself up so options are always on the table?",
+      "context": "Her second appearance on this show. Lipovetsky asks which parts of her identity she fears motherhood might change; she says she is not scared about the business, and that the scary part is 'what will I want afterwards'. She says she has '15 million followers' and '33 companies', most of which she does not work in. Lipovetsky tells her 'You've gone through an evolution' and 'I'm really proud of you'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.youtube.com/watch?v=2_8oqoirNHM",
+      "title": "Codie Sanchez - Origin Story (her own YouTube channel)",
+      "speaker": "Codie Sanchez (scripted voice-over)",
+      "date": "2016-12-30",
+      "locator": "English caption track downloaded with yt-dlp on 2026-10-10 and read in full (3:05). 00:02-01:33 (the border old folks' home and the resident's question); 01:33-02:04 (finance). Captions are YouTube auto-generated (the subject's name appears as 'Cody'); re-listen at the timestamps to confirm exact wording, punctuation and speaker before quoting. Place names and the resident's name are garbled in the captions. Draft-stage note: quotations taken from this track reproduce the caption wording as retrieved, with spans chosen to avoid spoken false starts; they have not been confirmed by ear.",
+      "excerpt": "so we won awards and graduated with honors / it was in that moment that I knew it was not enough for me to tell the stories I wanted to write them / you go to where the power is that lets these things happen money / these old folks homes pop up all along the border and we spent weeks at one",
+      "context": "A scripted brand video from her 'CS Inc.' period, three years before Contrarian Thinking. It is the earliest version of the origin story found. She says 'we' won awards. Edit-stage note: the video opens on a year in Mexico 'writing about the brutal mutilation of women' (the rest of that sentence is caption-garbled) before the old folks' home, and turns on a bedridden resident who asks whether the awards mean help is coming.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.youtube.com/watch?v=1PeQ_dXKy80",
+      "title": "I Quit My $500,000 Job After I Learned THIS (her own YouTube channel)",
+      "speaker": "Codie Sanchez",
+      "date": "2023-08-26",
+      "locator": "English caption track downloaded with yt-dlp on 2026-10-10 and read in full (15:46). 00:31-01:31 (nerves before a speech); 02:02-03:35 (the stair-step; salaries); 03:35-06:06 (deal timeline 2012-2017); 08:07-11:41 (overdrafts, 'golden handcuffs', mimetic desire, the Latin America business). Captions are YouTube auto-generated (the subject's name appears as 'Cody'); re-listen at the timestamps to confirm exact wording, punctuation and speaker before quoting. Draft-stage note: quotations taken from this track reproduce the caption wording as retrieved, with spans chosen to avoid spoken false starts; they have not been confirmed by ear.",
+      "excerpt": "It gives me anxiety thinking about how do I make this good enough for everybody? / I think it's the hardest thing a human could do to leave the safety zone. So I tried to figure out a way to derisk my life. / they were chasing somebody else the whole time. And that's what happened to me. / We don't like the way you're building it.",
+      "context": "A produced vlog around a speech at a Tony Robbins event in Arizona, which she calls her hometown; her father appears with flowers. She gives her salary ladder (Vanguard about $36k; First Trust '500 600K a year') and says the Latin America business was 'close to a billion dollars in assets under management', a smaller figure than the 'couple billion' she gave two months earlier (S07). Edit-stage note: the video's title frames the exit as quitting; inside it she says the owners told her to do it their way 'or you can pound sand'. She dates her first business purchase (a small website) to 2012.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.youtube.com/watch?v=4bJSVDGpV0k",
+      "title": "LIFE AFTER DIVORCE - Rediscovering your identity and purpose with Codie Sanchez (The Brave Table Podcast, clip)",
+      "speaker": "Codie Sanchez, interviewed by Dr. Neeta Bhushan",
+      "date": "2022-03-22",
+      "locator": "English caption track downloaded with yt-dlp on 2026-10-10 and read in full (3:33). 01:00-01:31 (identity, failing, shame); 01:31-02:31 (losing friends; working at the same firm). Captions are YouTube auto-generated (the subject's name appears as 'Cody'); re-listen at the timestamps to confirm exact wording, punctuation and speaker before quoting. The track is unpunctuated and unlabeled; the host's turns are interleaved. Draft-stage note: quotations taken from this track reproduce the caption wording as retrieved, with spans chosen to avoid spoken false starts; they have not been confirmed by ear. The draft capitalizes the pronoun 'I' in the quoted sentence; the captions are all lowercase. No other change was made.",
+      "excerpt": "being in the marriage was part of my identity and i didn't know how to let go of it and i felt like i was failing and there was massive shame and guilt around it",
+      "context": "A short clip about leaving her first marriage in Dallas. She says she and her then-husband worked at the same firm and that most of their friends 'chose the husbands'. She also characterizes part of that marriage in terms that amount to an allegation about a private person (see C15); that sentence is deliberately not excerpted here.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.youtube.com/watch?v=eo3-af1gYkM",
+      "title": "How to Burn Fat, Build Muscle, and Live Longer | Dr. Gabrielle Lyon & Navy Seal Chris Petkas (BigDeal by Codie Sanchez)",
+      "speaker": "Chris Petkas (her husband) and Codie Sanchez; later Dr. Gabrielle Lyon",
+      "date": "2024-07-23",
+      "locator": "English caption track downloaded with yt-dlp on 2026-10-10; read 02:00-03:30 and 33:30-38:00, the rest by keyword. 02:01-03:02 (her introduction of him); 34:43-35:43 (his description of their days). Captions are YouTube auto-generated (the subject's name appears as 'Cody'); re-listen at the timestamps to confirm exact wording, punctuation and speaker before quoting. The track is unpunctuated and unlabeled.",
+      "excerpt": "we're up early we're up at 5:30 6:00 a.m. most mornings and then we're charging until 8:00 to 10: at night",
+      "context": "Her own podcast, so this is not independent testimony. She introduces 'my husband' and says he does AI work for the Department of Defense. The segment is about fitness; he says little about her character. The episode description names him as 'Codie's husband and former Navy Seal, Chris Petkas'.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://cronkite.asu.edu/news/2009/cronkite-students-win-international-rfk-award",
+      "title": "Cronkite Students Win International RFK Award (Walter Cronkite School of Journalism and Mass Communication, Arizona State University)",
+      "speaker": "Arizona State University, Cronkite School news release",
+      "date": "2009",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-10 and read in full; the matching ASU News release (news.asu.edu/content/students-net-prestigious-rfk-journalism-award) was also opened and carries the same text. Paragraphs 1-2 (the award and category); the paragraph listing the 17 students; the grant sentence.",
+      "excerpt": "won in the college print journalism category / The Divided Families project was the work of 17 students in the Cronkite School's In-Depth Reporting class. / Their work was supported by a generous grant from the Howard G. Buffett Foundation",
+      "context": "The contemporaneous institutional record of the award. 'Codie Sanchez' is one of 17 named students; the class was taught by Kristin Gilger and Robert Sherwood. The award went to the project, not to an individual.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://codiesanchez.com/own-or-be-owned-press-release/",
+      "title": "Codie Sanchez Publishes Own or Be Owned; Gives Away More Than $1 Million to Business Owners in a Free Livestream (press release)",
+      "speaker": "Contrarian Thinking / JONESWORKS press release, quoting Codie Sanchez",
+      "date": "2026-09-18",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-10 and read in full. Paragraph 1 (book, imprint, ISBN, registrants); her quotation in paragraph 4; 'About The Author'; 'About Contrarian Thinking'.",
+      "excerpt": "releases her second book, Own or Be Owned: Build a Business So Good It Doesn't Need You / More than 140,000 owners and operators have registered at ownerbook.com. / This isn't hustle culture repackaged, it's the antidote to it / Before founding Contrarian Thinking in 2019 / Sanchez built the approach across her own portfolio of laundromats, car washes, roofing companies, and service businesses",
+      "context": "Promotional and self-published (imprint: Contrarian Thinking Press). It states the Forbes 2026 Top Creators rank (No. 10), the Entrepreneur September/October 2026 cover, a Georgetown M.B.A. and an Arizona State B.A., an audience 'of more than 13 million', and that her journalism 'earned her' the RFK award. The page carries two differently worded 'About Contrarian Thinking' paragraphs.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://codiesanchez.com/about/",
+      "title": "About | Codie Sanchez (her own site)",
+      "speaker": "Codie Sanchez (promotional biography)",
+      "date": "unknown (footer copyright 2024; opened 2026-10-10)",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-10 and read in full. Paragraph 2 (parents); the father quotation; paragraphs 3-6 (Juárez, Vanguard 2008, the 2020 launch).",
+      "excerpt": "a special education teacher and a self-made blue-collar builder / Her coverage earned her the Robert F. Kennedy Award for print journalism. / In 2020, when a global pandemic brought the world to a standstill, Sanchez launched Contrarian Thinking / They inspired her to take risks and build her own future.",
+      "context": "Promotional self-description. It dates the Contrarian Thinking launch to 2020, where the 2026 press release and Entrepreneur say 2019, and it presents the team award as hers. It quotes her father on sitting 'in the dark' not knowing what to do next, the same line she attributes to him in S11.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.contrarianthinking.co/about",
+      "title": "About | Contrarian Thinking (manifesto and 'pledge of the contrarians')",
+      "speaker": "Codie Sanchez / Contrarian Thinking (promotional copy)",
+      "date": "unknown (opened 2026-10-10)",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-10 and read from the top through the pledge; the remainder of the page was not read. 'Manifesto' paragraphs 1-3; 'The pledge of the contrarians'.",
+      "excerpt": "That small first business led to a portfolio that does 9 figures in revenue / I ask for no one's money. I expect no one's praise. / I will not do what I am told, I will do what is required.",
+      "context": "Sales copy for paid membership cohorts, signed 'Codie Sanchez, The Original Contrarian'. The pledge is brand language written to recruit members; it shows the image she sells, not private motive.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.forbes.com/profile/codie-sanchez/",
+      "title": "Codie Sanchez (Forbes profile, Top Creators 2026)",
+      "speaker": "Forbes editors, quoting Codie Sanchez",
+      "date": "2026-06-23",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-10. Profile header ('$31M', '2026 Top Creators Earnings', 'as of 6/23/26') and the 'From the Editor' paragraph. The list rank is not shown in the retrieved profile text; No. 10 comes from her press release (S19).",
+      "excerpt": "2026 Top Creators Earnings / more than 7 million followers / Do I want to be a bad guy owning all the businesses or do I want to help other people do it?",
+      "context": "Forbes's own estimate of creator earnings ($31M) and a follower count (more than 7 million) far below the 13-15 million she and other outlets cite, which probably reflects different counting rules.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.fortune.com/2025/10/30/uncomfortable-secret-of-successful-people-forget-work-life-balance",
+      "title": "The uncomfortable secret of successful people: Forget work-life balance, you have to be 'obsessed,' ex-Wall Streeter and business coach says (Fortune)",
+      "speaker": "Sydney Lake (Fortune), quoting a Codie Sanchez TikTok video",
+      "date": "2025-10-30",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-10 and read in full. Paragraphs 2-4 (the 'obsessed' quotes and the biography paragraph with the net-worth sentence).",
+      "excerpt": "Her estimated net worth is about $17 million. / They're obsessed.",
+      "context": "A short aggregation piece built on one of her TikTok videos. The net-worth sentence gives no source or method. It repeats the Vanguard, Goldman Sachs, State Street, Georgetown M.B.A. and RFK-award biography without attribution.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.success.com/why-codie-sanchez-thinks-the-future-of-entrepreneurship-isnt-sexy-its-smart",
+      "title": "Codie Sanchez on Why 'Boring Businesses' Make You Rich (SUCCESS)",
+      "speaker": "Kerrie Lee Brown (SUCCESS), quoting Codie Sanchez",
+      "date": "2026-07-23 (modified 2026-09-04)",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-10 and read in full. 'Is Entrepreneurship Right for Everyone?'; 'Why Do Businesses Need Systems'; 'What Business Advice Do Female Founders Need?'.",
+      "excerpt": "Not everyone should be a CEO. It's often a very miserable place to be inside of most businesses / When I was growing up, I didn't know any women who owned businesses",
+      "context": "An interview-based feature by a contributor who runs a media consultancy. It states, without attribution, that she 'has quietly built a portfolio of more than $100 million'.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.courtlistener.com/docket/73503924/august-image-llc-v-sanchez/",
+      "title": "August Image, LLC v. Sanchez, No. 1:26-cv-01655 (W.D. Tex.), docket as indexed by CourtListener",
+      "speaker": "U.S. District Court for the Western District of Texas (docket); filings by August Image, LLC",
+      "date": "2026-06-18 (filed); last indexed filing 2026-09-09",
+      "locator": "Docket page opened by direct fetch (HTTP 200) on 2026-10-10; case found through the CourtListener search API. Header (cause 17:101 Copyright Infringement; jury demand by plaintiff); entries 1-11. The complaint PDF and exhibits were not opened.",
+      "excerpt": "COMPLAINT ( Filing fee $ 405 receipt number ATXWDC-22158087), filed by August Image, LLC. / Waiver of Service Executed",
+      "context": "Summons requests name Codie Sanchez and Contrarian Thinking LLC. The last indexed entry is a waiver of service on 2026-09-09; no answer, ruling or settlement appears. CourtListener warns that its docket 'may not be up to date'. A complaint states allegations only.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.youtube.com/watch?v=CfdvC-wbn0o",
+      "title": "Codie Sanchez Surprisingly Sued for this One Video (Spencer Cornelia)",
+      "speaker": "Spencer Cornelia (YouTube commentator, not a lawyer)",
+      "date": "2026-06-26",
+      "locator": "English caption track downloaded with yt-dlp on 2026-10-10 and read in full (14:34). 00:00-00:31 (the filing); 04:35-05:05 (the two Instagram posts); 08:08-08:38 (the alleged ignored emails). Captions are YouTube auto-generated (the subject's name appears as 'Cody'); re-listen at the timestamps to confirm exact wording, punctuation and speaker before quoting.",
+      "excerpt": "Cody Sanchez was sued for copyright infringement. Sued June 18th by August Image LLC in Austin, Texas.",
+      "context": "A walk-through of the complaint by a commentator who says at the outset that this is not one of his fraud videos. He reports that the complaint concerns two photographs (of Jeff Bezos and Elon Musk) used in Instagram posts and alleges that two January 2026 emails went unanswered. He is reading the plaintiff's pleading; none of it is adjudicated.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.youtube.com/watch?v=OuL0KNJijz0",
+      "title": "Codie Sanchez Sold Her Laundromats... Why Does She Want YOU to Buy One? (Hard Hat Economics)",
+      "speaker": "Hard Hat Economics (YouTube commentator; name not given in the video text read)",
+      "date": "2026-07-17",
+      "locator": "English caption track downloaded with yt-dlp on 2026-10-10. Research read 00:00-05:40; the edit stage (2026-10-10) read the saved caption text end to end (00:00-09:51). 00:00-00:32 (the clip he dates to 2023: 'a terrible business to buy. It just was my first one'); 01:34-03:07 (the sale, 'she confirms it herself', innocent explanations, 'still selling that laundromat story'); 07:38-08:40 (paid-program prices and a clip about never selling her media company); 08:40-09:10 (his conclusion: not 'a scammer, a charlatan, a villain'; 'There's no shade being thrown'). Captions are YouTube auto-generated and spell the subject's name 'Cody'; the article spells it Codie inside his quotation. Quotations have not been confirmed by ear. Repair stage (2026-10-10): both clips of Sanchez inside this video are traced. The opening clip (00:20-00:32) is S07 at about 23:41-23:50; it runs from 'I talk about laundromats' to 'It just was my first one' and leaves out the advice before it ('what I'd say is don't buy a laundromat') and the reason after it ('and it's very easy to understand ... that's why I talk about laundromats'). At 01:03 he says 'in that clip, Cody admits the message needs to change. So, did it?' and at 01:31 'So no, she hasn't stopped talking about laundromats.' At 02:55-03:07 he says 'I can't tell you whether Cody owns a single laundromat today. I looked. I couldn't confirm it anywhere.' The second clip (08:25-08:40) is S08 at about 42:21-42:36.",
+      "excerpt": "She's never stopped selling that laundromat story. As far as I can tell, she just stopped owning them. / I need to like tell somebody I bought a different first business because it's a terrible business to buy. It just was my first one. / Do I think Cody Sanchez is some kind of scammer, a charlatan, a villain? I don't think so. / she confirms it herself / And in that clip, Cody admits the message needs to change. So, did it? / I can't tell you whether Cody owns a single laundromat today. I looked. I couldn't confirm it anywhere.",
+      "context": "A critic's video. Its factual core, that she sold her three laundromats, matches her own 2023 statement (S28), and he says she confirmed it herself. His argument is that she kept promoting laundromats afterwards, has published no account of the exit, and earns mainly from paid programs; he offers innocent explanations for the sale and concludes he does not think she is a scammer. His further claims about the people her videos feature, and his program prices, were not checked.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://youngandprofiting.com/codie-sanchez-7-boring-businesses-you-can-buy-right-now-to-replace-your-income-e231/",
+      "title": "Codie Sanchez: 7 Boring Businesses You Can Buy Right Now To Replace Your Income | E231 (Young and Profiting, episode page with transcript)",
+      "speaker": "Codie Sanchez, interviewed by Hala Taha",
+      "date": "2023-07-03",
+      "locator": "Episode page with full transcript opened by direct fetch (HTTP 200) on 2026-10-10; read only around the 'laundromat' passages in the cold open and at 45:04 (the laundromat numbers and sale), not end to end.",
+      "excerpt": "I bought my first laundromat for a hundred K. It made me 67 K a year. Then ended up buying two more laundromats, rolling those up, and we sold that for close to a million bucks. / For you, I'd say don't buy a laundromat. / They're what I call the gateway drug",
+      "context": "The show's own published transcript. She calls laundromats 'the gateway drug', a good business to learn on, and tells the host she could get a higher return elsewhere.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://learningleader.com/codiesanchez/",
+      "title": "Episode #611: Codie Sanchez - How To Build Extraordinary Wealth Through Ordinary Businesses (The Learning Leader Show, host's notes)",
+      "speaker": "Ryan Hawk (host's written notes on the conversation)",
+      "date": "2024-11-30",
+      "locator": "Show-notes page opened by direct fetch (HTTP 200) on 2026-10-10 and read in full. First bullet (her father); 'Codie's Anti-Goals'; time stamps. The audio was not transcribed.",
+      "excerpt": "You're not going to be a princess, you're going to be the president / Codie was glowing while talking about her dad. / Being an employee/work for others, Selling other people's products, Speaking for free, Coffee meetings.",
+      "context": "The host's summary, so the father's line is third-hand (her father, as she told it, as Hawk wrote it down). Hawk's observation that she was 'glowing' is his own.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.youtube.com/watch?v=Sz7DVzmunGc",
+      "title": "The Dark Secret of Codie Sanchez: Unraveling Her Web of Lies [and ACTUALLY How to Make Money Online] (Brendan Dell)",
+      "speaker": "Brendan Dell (YouTube commentator)",
+      "date": "2023-07-24",
+      "locator": "English caption track downloaded with yt-dlp on 2026-10-10; read only in keyword windows (00:00, 05:05, 12:41), not end to end. Used solely to record that the criticism exists. Captions are YouTube auto-generated (the subject's name appears as 'Cody'); re-listen at the timestamps to confirm exact wording, punctuation and speaker before quoting.",
+      "excerpt": "I don't know Cody personally she seems like a lovely person from the little I can tell",
+      "context": "A reaction video to one of her 'recession-proof businesses' videos. In the passages read, Dell disputes the valuation multiples and rosy margins she presents; the accusatory title is stronger than the passages read. Not relied on for any factual claim about her.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://nicolelapin.com/podcast/the-best-and-worst-businesses-to-buy-in-2026",
+      "title": "The Best (and Worst) Businesses to Buy in 2026 (Money Rehab with Nicole Lapin, episode page)",
+      "speaker": "Nicole Lapin's show notes describing an interview with Codie Sanchez",
+      "date": "2026-08-31",
+      "locator": "Episode page opened by direct fetch (HTTP 200) on 2026-10-10; notes and chapter list read. The 56-minute audio was not transcribed. Chapters 20:40 ('The Hero' and heroin), 31:03 (stepping away), 39:12 (pregnancy and business).",
+      "excerpt": "the years she put her personal life on hold chasing a revenue number, the fear of telling her team she was pregnant",
+      "context": "Show notes only. They indicate first-person material on a fear of telling her team about the pregnancy that this run did not hear; see research_tasks.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S32",
+      "url": "https://www.inc.com/lucia-auerbach/she-built-a-multi-million-dollar-empire-on-outworking-anything-major-life-event-forced-step-back/91364145",
+      "title": "She Built a Multi-Million Dollar Empire on Outworking Anything. A Major Life Event Forced Her to Step Back (Inc.; title inferred from the URL slug)",
+      "speaker": "Lucia Auerbach (Inc.), per the URL",
+      "date": "unknown (2026)",
+      "locator": "Not opened. Direct fetch, a reader proxy, WebFetch and the Wayback Machine all returned HTTP 403 on 2026-10-10.",
+      "excerpt": "No text retrieved.",
+      "context": "A lead from the research notes. Its framing ('outworking anything', then a forced slowdown) appears to draw on the PEOPLE quotation in S01, but that is an inference from the headline alone. Nothing in this record relies on it.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S33",
+      "url": "https://www.inc.com/victoria-salves/codie-sanchez-just-raised-5m-from-the-founders-of-tinder-and-coinbase-to-disrupt-how-we-buy-businesses/91330300",
+      "title": "Codie Sanchez Just Raised $5M From the Founders of Tinder and Coinbase to Disrupt How We Buy Businesses (Inc.; title inferred from the URL slug)",
+      "speaker": "Victoria Salves (Inc.), per the URL",
+      "date": "unknown (2026)",
+      "locator": "Not opened. Direct fetch, a reader proxy, WebFetch and the Wayback Machine all returned HTTP 403 on 2026-10-10.",
+      "excerpt": "No text retrieved.",
+      "context": "A lead from the research notes, probably about BizScout. It may contain named investor testimony. HOLA! (S03) cites Inc. for a $31 million revenue figure, which could come from this article or another; unverified.",
+      "kind": "secondary",
+      "access": "unavailable"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "As of October 10, 2026, Codie Sanchez is the founder and CEO of Contrarian Thinking, which her press release describes as a media, advisory and investment company, and the author of Main Street Millionaire and Own or Be Owned.",
+      "passage": "Sanchez is the founder and CEO of Contrarian Thinking, a media, advisory and investment company",
+      "class": "third_party",
+      "source_ids": [
+        "S19",
+        "S06",
+        "S05"
+      ],
+      "inference": "Identity and current role for the opening and metadata. The second book is self-published through her company's imprint, which matters when weighing launch claims.",
+      "alternative": "Titles and company descriptions come from her own release and from profiles built on interviews with her. A Penguin Australia listing seen in search results gives a later date for another edition; it was not opened.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck her title, company description and book list before each release and after any sale, merger or new book."
+    },
+    {
+      "id": "C44",
+      "claim": "Own or Be Owned: Build a Business So Good It Doesn't Need You was released on September 18, 2026 under the imprint Contrarian Thinking Press, which carries her company's name.",
+      "passage": "released on September 18, 2026",
+      "class": "observed",
+      "source_ids": [
+        "S19"
+      ],
+      "inference": "Release date is stated in her own press release, which also names the imprint (Contrarian Thinking Press). The edited article gives the date only and no longer mentions the imprint.",
+      "alternative": "A promotional release. A Penguin Australia listing seen in search results during research gives a later date for another edition; it was not opened.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck the book list and any new edition or publisher before each release."
+    },
+    {
+      "id": "C45",
+      "claim": "The book's argument, as her press release states it, is that owner dependency is a trap: a business that cannot run without its owner cannot be scaled, sold or left.",
+      "passage": "_Own or Be Owned_ argues that a business which cannot run without its owner is a trap.",
+      "class": "observed",
+      "source_ids": [
+        "S19",
+        "S06"
+      ],
+      "inference": "Summary of the book's stated thesis from the release, needed to set up her claim that she had built the opposite.",
+      "alternative": "Taken from promotional copy and a magazine summary; the book itself was not read.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "Her own statements place her birth in August 1986. In an episode published August 20, 2026 she said “I'm turning 40 this month”; PEOPLE gave her age as 39 on June 22, 2026. No source opened in this run supports a day of the month.",
+      "passage": "In an interview published on August 20, 2026 she said, \"I'm turning 40 this month,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S12",
+        "S01",
+        "S08"
+      ],
+      "inference": "Supports a month and year only. The edited article states her age in the FAQ, not the body. Her statement in a mid-2024 recording that she was 37 is consistent with it.",
+      "alternative": "The research notes record conflicting days (August 23 and 24) on bio sites; none was verified. The recording date of the August 2026 episode is inferred from her saying she was 24 weeks pregnant, eight weeks after a 16-week post dated June 25.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "The page's age FAQ states that she turned 40 in August 2026 and infers an August 1986 birth from her own statement plus PEOPLE's report that she was 39 on June 22, 2026; no day is given.",
+      "passage": "with PEOPLE giving her age as 39 that June, places her birth in August 1986",
+      "class": "interpretation",
+      "source_ids": [
+        "S12",
+        "S01",
+        "S08"
+      ],
+      "inference": "Arithmetic from two dated statements. A mid-2024 recording in which she says she is 37 is consistent.",
+      "alternative": "The August 2026 episode's recording date is inferred from her saying she was 24 weeks pregnant, eight weeks after 16 weeks in late June. Bio sites give conflicting days (August 23 and 24); none was verified, so no day is published.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "She grew up in Phoenix, Arizona, and studied journalism at Arizona State University.",
+      "passage": "She grew up in Phoenix, studied journalism at Arizona State",
+      "class": "third_party",
+      "source_ids": [
+        "S06",
+        "S05",
+        "S20",
+        "S03",
+        "S15"
+      ],
+      "inference": "Stable background. Three 2026 profiles and her own site agree on the parents' occupations; she calls Arizona her hometown on camera.",
+      "alternative": "Traces to her own telling through Entrepreneur and Hispanic Executive; she calls Arizona her hometown on camera. Her parents' occupations are now stated in the article with attribution to Entrepreneur (C123).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "Her finance career ran from Vanguard (she says 2008) through Goldman Sachs and State Street to First Trust, where she says she built a Latin America business.",
+      "passage": "worked in finance at Vanguard, Goldman Sachs, State Street and First Trust",
+      "class": "self_report",
+      "source_ids": [
+        "S15",
+        "S08",
+        "S06",
+        "S19",
+        "S20",
+        "S23",
+        "S07"
+      ],
+      "inference": "Career frame. The pattern of short tenures until she had a stake is her own description and bears on both type readings.",
+      "alternative": "Employers and dates are hers and those of profiles built on interviews with her; no employer record was opened. Entrepreneur adds Entourage Effect Capital, now named in the article (C124). Her figures for the Latin America business vary, so the article gives none.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "On June 22, 2026 she announced through PEOPLE that she and her husband, Chris Petkas, are expecting their first child in December 2026.",
+      "passage": "In June 2026 she and her husband, Chris Petkas, a former Navy SEAL, announced that they expect their first child in December 2026",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S12",
+        "S10"
+      ],
+      "inference": "Current, dated fact for orientation and the husband FAQ.",
+      "alternative": "PEOPLE was read through its AOL syndication. No medical detail beyond her own statements is added.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update after the birth (due December 2026) or any public statement about the pregnancy."
+    },
+    {
+      "id": "C47",
+      "claim": "She announced the pregnancy as following IVF.",
+      "passage": "On June 22, 2026 she announced through PEOPLE that she was pregnant after IVF.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S12"
+      ],
+      "inference": "Her own disclosure in a planned announcement; repeated on The Mother Daze.",
+      "alternative": "Only what she chose to publish is used.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update after the birth (due December 2026) or any further public statement about the pregnancy."
+    },
+    {
+      "id": "C26",
+      "claim": "Her husband is Chris Petkas, a former Navy SEAL.",
+      "passage": "her husband, Chris Petkas, a former Navy SEAL,",
+      "class": "third_party",
+      "source_ids": [
+        "S01",
+        "S05",
+        "S17",
+        "S13"
+      ],
+      "inference": "Answers the 'husband' search question narrowly, as the research notes direct.",
+      "alternative": "PEOPLE names him and quotes her calling him a Navy SEAL; Hispanic Executive (2026) says 'her husband, a former Navy SEAL'; her own podcast's episode description says 'former Navy Seal, Chris Petkas'. Nothing beyond name, service background and role is added.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck his role and the couple's status before each release."
+    },
+    {
+      "id": "C49",
+      "claim": "She says they keep separate lanes at work: he runs the couple's investment and holding company and she runs the media and advisory business.",
+      "passage": "he runs the couple's investment and holding company while she runs the media and advisory business",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Her description of his role (S13, about 46:26: 'He runs our investment and holdco'). The edited article states it in the husband FAQ only; the body paragraph about home and office roles was cut as off the question.",
+      "alternative": "No company filing was opened. PEOPLE-era research notes describe him as a partner at Contrarian Thinking Capital; that wording was not verified and is not used.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck his role and the couple's status before each release."
+    },
+    {
+      "id": "C108",
+      "claim": "Her own site says her parents 'inspired her to take risks and build her own future'.",
+      "passage": "Her site says her parents \"inspired her to take risks\"",
+      "class": "self_report",
+      "source_ids": [
+        "S20",
+        "S06",
+        "S05"
+      ],
+      "inference": "Her promotional account of her parents, set beside her statement to Entrepreneur that they did not understand her leaving finance (C39). The two are placed together without a causal claim.",
+      "alternative": "Promotional copy. Entrepreneur reports her father owned a company selling granite and her mother taught special education (C123).",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck the wording on codiesanchez.com/about before each release; the page is live marketing copy and can change."
+    },
+    {
+      "id": "C04",
+      "claim": "She identifies herself as Latina and speaks of Latinos in the first person plural. In 2026 she said “I was the only Latina in my group so many times, I can barely count.”",
+      "passage": "I was the only Latina in my group so many times, I can barely count,",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S04",
+        "S05",
+        "S07"
+      ],
+      "inference": "Supports stating her heritage only in her own words. In the edited article it stands in its own sentence as the circumstance that could explain why a junior employee would manage how she is read, whatever her type.",
+      "alternative": "The 2023 Diary of a CEO captions have her say she is a “daughter of immigrants” (06:37). That is an auto-caption of one phrase and conflicts with nothing else, but it is unconfirmed by ear and no other source repeats it; do not use it. Nothing here supports a statement about national origin.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "The pledge on Contrarian Thinking's site ends with the line 'I will not do what I am told, I will do what is required.'",
+      "passage": "I will not do what I am told, I will do what is required.",
+      "class": "observed",
+      "source_ids": [
+        "S21"
+      ],
+      "inference": "Shows the image the company sells. It is brand copy written to recruit members, and the draft presents it as the company pledge, not as private motive.",
+      "alternative": "The page was read through the pledge only. Marketing copy can change.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck the pledge wording on contrarianthinking.co/about before each release."
+    },
+    {
+      "id": "C05",
+      "claim": "As an Arizona State journalism student she was one of 17 students whose class project on families separated by the U.S.-Mexico border, “Divided Families”, won a 2009 Robert F. Kennedy Journalism Award in the college print category. The project was funded by a Howard G. Buffett Foundation grant.",
+      "passage": "Sanchez was one of 17 students whose class project on families separated by the U.S.-Mexico border",
+      "class": "observed",
+      "source_ids": [
+        "S18",
+        "S19",
+        "S20",
+        "S04",
+        "S14"
+      ],
+      "inference": "The award is real and documented by the university. It was a team award for a class project.",
+      "alternative": "Her own site says her coverage “earned her” the award, and her press release uses the same construction; a 2017 interviewer told her “you won” it. In her 2016 video she said “we won awards”. The accurate wording is that she shared in a team award.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "Her own site presents the team award as hers, saying her coverage 'earned her the Robert F. Kennedy Award'.",
+      "passage": "Her own site, as read in October 2026, says the coverage \"earned her\" the award",
+      "class": "observed",
+      "source_ids": [
+        "S20",
+        "S19",
+        "S18"
+      ],
+      "inference": "A documented gap between her marketing and the university's record, stated without characterizing intent.",
+      "alternative": "Her press release uses the same construction, and a 2017 interviewer told her 'you won' it. In her own tellings she says 'we': 'we won awards' in the 2016 video and 'We wrote the story' and 'I thought we were going to change the world' in 2017 (C145).",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck the award wording on codiesanchez.com/about before each release; if she edits the page, update or drop the sentence."
+    },
+    {
+      "id": "C06",
+      "claim": "Her account of why she left journalism has been stable since 2016: the reporting changed nothing, so she went to where power sits. In 2017: 'Right, but I thought we were going to change the world.'",
+      "passage": "Right, but I thought we were going to change the world",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S04",
+        "S03",
+        "S05"
+      ],
+      "inference": "A ten-year-old, repeated origin story in which money is first of all power and protection, not comfort or status. It supports reading her drive as partly about leverage over outcomes.",
+      "alternative": "It is a polished brand narrative and its emphasis shifts between tellings (C55). The team project is documented; her individual scenes are not independently verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C52",
+      "claim": "In the 2017 interview she said she was twenty and 'a bit naive', that the story was forgotten 'in about fifteen minutes', and that a mentor told her to 'find the centers of power. And that's money.'",
+      "passage": "you find the centers of power. And that's money.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Money appears first as leverage over outcomes, eight to nine years before the 2026 campaign versions.",
+      "alternative": "An advice-interview answer; the mentor is unnamed and the conversation is uncorroborated.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "She describes money as protection. In 2026 she said of her border reporting that money 'decided who had protection, who had options, and who could end up dead in the desert and no one cared'.",
+      "passage": "decided who had protection, who had options, and who could end up dead in the desert and no one cared.",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S06"
+      ],
+      "inference": "First-person motive language that points at exposure to other people's will, which is the strongest thread for the Type 8 alternative.",
+      "alternative": "A line from the 2026 book campaign, whose product is ownership as freedom, so it is also on-message marketing. The same idea appears in her 2017 interview ('centers of power'), before Contrarian Thinking, which is why it is not dismissed. Her line to Entrepreneur that month ('the world really asserts its will on you') says the same and was cut for length.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "The emphasis of her border story has shifted between tellings. The scripted 2016 video opens on a year in Mexico writing about brutality against women and turns on a bedridden resident of a border old folks' home asking whether the coverage meant help was coming; the 2017 interview names trafficking, drug smuggling and elderly people left at the border in one answer; the 2026 versions lead with cartel violence. Only the class project is independently documented.",
+      "passage": "It is also a story she tells for a living, and its emphasis has moved.",
+      "class": "interpretation",
+      "source_ids": [
+        "S14",
+        "S03",
+        "S05",
+        "S18"
+      ],
+      "inference": "A comparison of her own tellings across ten years. What moved is which scene she presents as the turning point; violence is not a late addition, and the article says the versions are compatible.",
+      "alternative": "A year of reporting could include every element. The 2016 wording is from unpunctuated auto-captions with garbled place names, so the resident's question is paraphrased, not quoted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C56",
+      "claim": "Neither the Type 3 nor the Type 8 reading accounts well for the moral motive of her first career.",
+      "passage": "Neither type explains the first career well.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S14",
+        "S18"
+      ],
+      "inference": "Recorded as something the type argument leaves unexplained, so the portrait is not reduced to the type.",
+      "alternative": "The motive is known only from her retrospective telling, which is itself a brand story.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "She says that at Vanguard she expected a promotion and was 'told that I wasn't a team player because I never joined the happy hours'.",
+      "passage": "told that I wasn't a team player because I never joined the happy hours.",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "A rejection story, told in 2026, in which the injury is being held back for lack of money and the vow is about never being subject to that again. It carries a control moral where the 2017 story carries an image moral.",
+      "alternative": "Told eighteen years later to a magazine during a book launch; uncorroborated. The 2017 interview's unnamed firm resembles Vanguard, so the two may be one episode (C120).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "Her vow after that episode, as told to Entrepreneur in 2026: 'I am never going to let somebody hold me back because of my bank account.'",
+      "passage": "I am never going to let somebody hold me back because of my bank account.",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "A vow about never being subject to gatekeepers, which favors the control reading.",
+      "alternative": "Told eighteen years later during a book launch; uncorroborated.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "In 2017 she told this story about an unnamed early employer: she proposed an international arm, was told she might run it, and hours later lost the job to someone else because, in her words, 'everyone thought I would leave dead bodies behind me to get whatever I wanted.'",
+      "passage": "I was told that everyone thought I would leave dead bodies behind me to get whatever I wanted.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "The clearest early test between the two readings, and a mixed one. She refused the decision (C116) and accepted the perception (C58, C59), then generalized it into managing how she is read (C60, C62).",
+      "alternative": "One telling, eight years old, of an unnamed employer and an unnamed boss; no other party has spoken. The firm's details resemble her accounts of Vanguard (C120). She had situational reasons to adapt as a junior employee who was often the only Latina in the group (C04, C117).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "Asked whether the boss had really said that, she answered: 'Yep. And maybe he was right. It was a big realization for me. I thought that I was driven, but I was putting a different message out.'",
+      "passage": "Yep. And maybe he was right. It was a big realization for me. I thought that I was driven, but I was putting a different message out.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Years later and unprompted she grants the judgment about how she came across. That is the part of the episode circumstance does not explain, and the center of the Type 3 argument.",
+      "alternative": "One answer in an advice interview, where presenting a lesson learned is the expected register, given while she was already promoting a personal brand (C119).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "Her response, in her words: 'I became more aware of how people perceive me. I adapted. And then I just worked hard. I refused to let up.' She adds that the woman who got the job later joined her team.",
+      "passage": "I became more aware of how people perceive me. I adapted. And then I just worked hard. I refused to let up. And now, the woman they gave the job to instead of me is a member of my team.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "She changed how she came across and also did not let up. The edited article quotes the whole answer and no longer reads the last sentence as keeping a tally.",
+      "alternative": "Hiring the woman who got the job can show scorekeeping or the absence of a grudge; the article takes no position. The same answer says she 'got the green light somewhere else' (C116).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "The lesson she drew: 'I think it's about personal brand.'",
+      "passage": "I think it's about personal brand,",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "She generalized the episode into managing perception.",
+      "alternative": "In the same answer she ties it to standing out as Latinos and says 'Don't hide it, but be aware' (C117), so the lesson is partly about bias she faced. The article now reports that.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "Told that colleagues saw her as ruthless, she refused the decision and accepted the perception; years later she still granted the verdict and had made a method of it, which suggests she treats a bad reputation as a fault in her own presentation.",
+      "passage": "That suggests a person who treats a bad reputation as a fault in her own presentation.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "The article's reading of C09, C58, C59 and C116, marked with 'suggests' and said to lean toward Three without settling it.",
+      "alternative": "One telling from 2017 of an unnamed boss; no other party has spoken. A pragmatic Eight could adapt tactically, and a junior Latina employee had career reasons to adapt whatever her type; the article states both.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "In the 2017 interview, 'I just never accept the word 'no.' I hate that word.' is the first sentence of the answer that contains the dead-bodies story; she tells that story as an example of refusing a no.",
+      "passage": "I just never accept the word 'no.' I hate that word.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "The frame of the thesis-bearing anecdote is refusal. The episode therefore shows defiance of the decision and adaptation to the perception together, and the article says so.",
+      "alternative": "Advice-interview register; she is presenting herself as a model.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C62",
+      "claim": "In the same interview: 'There's not a faster way to the top than to be known and wanted.'",
+      "passage": "There's not a faster way to the top than to be known and wanted,",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "An explicit theory, stated before Contrarian Thinking existed, that being known and wanted is the route up.",
+      "alternative": "Said in answer to a question about personal brand in an interview that was itself brand promotion (C119); standard advice in her field.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "She keeps score. In 2017: 'I have a journal I've kept for fifteen years', in which she writes down each year's accomplishments.",
+      "passage": "a journal \"I've kept for fifteen years\" in which she lists each year's accomplishments",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "A habit of tallying accomplishment that she dated, in 2017, to fifteen years earlier. Neutral between Three and Eight.",
+      "alternative": "Goal journals are standard advice in her field, and 'fifteen years' may be a round number.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "Her account of leaving First Trust is a dispute over control. In June 2023: 'I think I saw the writing on the wall that it wasn't my casino. They weren't my chips.'",
+      "passage": "I think I saw the writing on the wall that it wasn't my casino. They weren't my chips.",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "A costly exit from a job she says paid $500,000 to $600,000, framed consistently as refusing to build under other people's rules.",
+      "alternative": "Entirely her account; First Trust has said nothing that this run found. In the same passage she says she argued with the people running the firm (C115) and then concedes the rules were theirs to set (C64). She did not walk out: she bought businesses on the side first (C13, C114).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C64",
+      "claim": "In the same breath she granted the other side's right: 'they were writing the rules, as is fair. It was their business.'",
+      "passage": "they were writing the rules, as is fair. It was their business.",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "She concedes the owners' right to set the rules in the same passage in which she describes telling them no (C115). The article reports both.",
+      "alternative": "A courteous aside in a long interview; it concedes their authority, not that they were right about the business.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C67",
+      "claim": "No account from First Trust of her departure was found.",
+      "passage": "First Trust has given no account in any source found here.",
+      "class": "observed",
+      "source_ids": [
+        "S07",
+        "S15",
+        "S03"
+      ],
+      "inference": "States the limit of a one-sided account.",
+      "alternative": "Absence of a found statement is not proof that none exists. By her own 2024 account the CEO wanted her out of the firm, they parted on good terms and he offered to be her first investor (S08, 35:11); that too is hers alone.",
+      "durability": "unresolved",
+      "review_trigger": "Search for any statement by First Trust or a named former colleague about her departure before each release."
+    },
+    {
+      "id": "C13",
+      "claim": "She describes herself as fearful and incremental about leaving safety. In 2023: 'I'm like a little bit of a scaredy-cat', wanting 'a soft landing', and she bought small businesses on the side for years before leaving.",
+      "passage": "I'm like a little bit of a scaredy-cat,",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S15"
+      ],
+      "inference": "Counts against Type 8: she volunteers fear, delay and hedging as her own pattern, and her exits were staged over years. The same behavior would fit Type 6, which the article now names (C129).",
+      "alternative": "Relatable fear is useful to someone whose audience is employees afraid to leave jobs, so this is partly teaching rhetoric.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C70",
+      "claim": "She told The Diary of a CEO in 2024 that she stayed at most jobs under two years until First Trust, where she stayed five 'because I had ownership'.",
+      "passage": "because I had ownership",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Her own description of short tenures until she had a stake; evidence for the autonomy reading.",
+      "alternative": "Unpunctuated captions; she goes on to say she left whenever she could not earn or learn more, which is also an achievement motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C71",
+      "claim": "She told Hispanic Executive in 2026 that she was 'probably what every Hispanic mother and father wants for their kid'.",
+      "passage": "I think I was probably what every Hispanic mother and father wants for their kid,",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Success by a borrowed measure, in her own words.",
+      "alternative": "A campaign profile; the photo is credited to her publicists. Her further line that the career 'felt empty' was cut for length.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "She says she spent years chasing goals that were not hers. Of her finance career in 2023: people who imitate others' wants 'realize they were chasing somebody else the whole time. And that's what happened to me.'",
+      "passage": "realize they were chasing somebody else the whole time. And that's what happened to me.",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "With C72, the strongest pre-campaign evidence for Type 3: she names shaping herself to what others reward as her error and treats noticing it as the turning point.",
+      "alternative": "Disowning borrowed ambitions is itself a popular creator narrative and she teaches 'mimetic desire' as a concept. Each statement is retrospective. Entrepreneur's paraphrase that she “spent too much time trying to follow other people's paths to success” is the reporter's wording.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "Entrepreneur quotes her saying her parents did not understand how she could leave finance.",
+      "passage": "My parents didn't understand how I could leave a job like finance.",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Entrepreneur places the quotation at the point where her small businesses paid enough for her to leave finance altogether, which the article now attaches to the final exit and not to First Trust.",
+      "alternative": "Her own characterization of her parents, told during a book launch. She has also said twice that the people who love you hold you back; the draft does not use those lines.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "On a three-day glacier climb of Mount Baker with a group of women, by her own account, she thought of herself as tougher than the others and turned back below the final ice wall. She says the real fear was 'am I like a failure by not doing this tough thing that everybody else is going to do?'",
+      "passage": "It was like, am I like a failure by not doing this tough thing that everybody else is going to do?",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Asked when she had been most afraid, she names fear of being the one who fails in front of peers. That is failure and image, not danger: she says she was scared of falling and then that the heights were not the scary part.",
+      "alternative": "A single anecdote told as a lesson in answer to a question left by the previous guest; she introduces it as 'sort of silly'. She also refused her friends' attempt to talk her back up (C131), which an Eight could claim.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C72",
+      "claim": "On the mountain she says she realized 'most of my life I've been trying to like please a bunch of people to goals I don't care about'.",
+      "passage": "I just realized up here that most of my life I've been trying to like please a bunch of people to goals I don't care about.",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "With C14, the strongest line of evidence for Type 3: she names shaping herself to what others reward as her lifelong error.",
+      "alternative": "Disowning borrowed ambitions is a popular creator narrative and she teaches 'mimetic desire' as a concept. Retrospective.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C74",
+      "claim": "Asked when she had been most afraid, she described failing in front of peers and a lifetime of pleasing people. The article treats the first as compatible with Type 3 and Type 8 and rests the distinction on the second.",
+      "passage": "a life spent pleasing people is not how someone centered on power usually accounts for herself",
+      "class": "interpretation",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "The article's reading of C15 and C72, labeled in the text as this profile's judgment.",
+      "alternative": "One anecdote chosen for a show's closing question; the generalization about how Eights talk is a typological judgment, and fear of looking weak fits an Eight too.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C75",
+      "claim": "She says she could only end her first marriage, a decision she calls her own, by setting a date: 'I was such a wuss I couldn't do it unless I put it on a calendar.'",
+      "passage": "I was such a wuss I couldn't do it unless I put it on a calendar.",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Another self-label of fear and delay, counting against Type 8.",
+      "alternative": "Said while recommending deadlines as a goal-setting tool.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "She has said publicly that ending her first marriage was her decision and describes what she called 'the ramp up to it' as a collapse of identity: 'being in the marriage was part of my identity and i didn't know how to let go of it and i felt like i was failing and there was massive shame and guilt around it'.",
+      "passage": "being in the marriage was part of my identity and I didn't know how to let go of it and I felt like I was failing and there was massive shame and guilt around it",
+      "class": "self_report",
+      "source_ids": [
+        "S16",
+        "S07"
+      ],
+      "inference": "A costly choice she narrates through identity, failure and shame. The article treats 'failing' as an ordinary word for a divorce and leans on the identity language; it does not describe the marriage as having an adversary.",
+      "alternative": "Her former husband is a private person who has not spoken; the draft confines itself to her statements about her own experience, names no one and adds no detail. The quotation is from unpunctuated lowercase captions of a 2022 clip; the draft capitalizes 'I' and changes nothing else. A further characterization of that marriage in the same clip is deliberately not used.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C76",
+      "claim": "In an interview published September 21, 2026 she said she went to a bank to borrow against a business and was told the account she believed held about a million dollars was nearly empty; she quotes herself asking to see the screen.",
+      "passage": "\"Excuse me, can you please turn that thing around so I can see what's on that screen?\"",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "The draft's opening scene. Every detail is from her telling; her quotation of herself is reported speech.",
+      "alternative": "The business is unnamed and undated and no one else has told the story. Howes's question was about her book, and she tells the story as the lesson behind tracking performance (C109).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C77",
+      "claim": "She quotes her father's answer when she called him that night: 'If you haven't sat in the dark in the middle of the night with no idea of what to do next, you're not really in the game.'",
+      "passage": "If you haven't sat in the dark in the middle of the night with no idea of what to do next, you're not really in the game.",
+      "class": "third_party",
+      "source_ids": [
+        "S11",
+        "S20"
+      ],
+      "inference": "The father as the person she calls in a crisis. Her site attributes a differently worded version of the line to him, which the article now says.",
+      "alternative": "His words reach us only through her.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "She describes the pain of that episode as 'my identity and that I was a failure because I had let an entire business fail'.",
+      "passage": "Like just my identity and that I was a failure because I had let an entire business fail.",
+      "class": "self_report",
+      "source_ids": [
+        "S11",
+        "S20"
+      ],
+      "inference": "The wound she names is failure and identity. She says she went to the head of operations (C110), blamed herself (C78) and built a tracking system. This is the 2026, on-message instance of a pattern with earlier instances (C15, C16).",
+      "alternative": "The business is unnamed and undated and the story is uncorroborated. It was told three days after the book's release in answer to a question about the book, so it serves the campaign. Owners are trained to say 'it was my fault'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C78",
+      "claim": "Of the manager who she says hid the shortfall: 'it was my fault for not tracking him, obviously.'",
+      "passage": "it was my fault for not tracking him, obviously.",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Let down by a subordinate, she says she went to him (C110) and then blamed herself. The article counts this as granting the judgment, not as never confronting anyone.",
+      "alternative": "Owners are trained to say 'it was my fault', and in the same telling her father's advice is not to hunt for the culprit. The manager is unnamed and has not given an account.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "A little over twenty minutes after the bank story in the same interview, asked for her real dream, she said her vision changes over a career and that 'at first, early on for me' it was: 'I don't ever want anybody to have control over me or my life again.'",
+      "passage": "I don't ever want anybody to have control over me or my life again.",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "The best evidence for the Type 8 alternative: a first-person statement that the early motive was never being controlled, with anger as fuel. It is her account of a past motive; her present-tense answer is in C111.",
+      "alternative": "One answer in one interview, reconstructed years later. 'Prove yourself' is the host's phrase. The sentence serves the book's title. Her next sentence ties 'again' to employers (C80).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C79",
+      "claim": "She added 'I'll become every single thing that you said I wouldn't' and 'I was angry'; when Lewis Howes said 'You were trying to prove yourself', she answered 'Oh, yeah.'",
+      "passage": "\"I'll become every single thing that you said I wouldn't,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Anger as fuel favors Type 8; becoming what doubters said she could not, and proving herself, is achievement as vindication.",
+      "alternative": "'Prove yourself' is the host's phrase. The quoted sentences are separated by others in the source and the draft presents them separately.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C80",
+      "claim": "Immediately after 'again' she says what she means: 'I don't ever want to have to work for somebody I don't like or to spend a moment of my day in somebody else's life architecting their dream instead of mine.'",
+      "passage": "I don't ever want to have to work for somebody I don't like or to spend a moment of my day in somebody else's life architecting their dream instead of mine.",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Her own continuation explains the word 'again': the control she means is working for employers. The draft's statement that she had not said who controlled her was wrong and is corrected.",
+      "alternative": "One answer in a campaign interview, from auto-captions (S11, about 1:09:22-1:09:53) not confirmed by ear.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "In 2023 she defined being rich as 'having no master. That's what rich looks like for me.'",
+      "passage": "having no master. That's what rich looks like for me.",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Autonomy language three years before the 2026 statement in C28, so the theme is not new to the book. The second half is about standing and being sought out, and about not being seen to want it.",
+      "alternative": "The 'club' lines are an argument for content marketing. 'Thirsty' is a concern about how one appears, which fits Three better than Eight.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C83",
+      "claim": "In 2024 she called herself 'really intense' and 'kind of hard to work for sometimes'.",
+      "passage": "\"really intense\" and \"kind of hard to work for sometimes\"",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Self-labels of intensity that support the Type 8 alternative.",
+      "alternative": "Unpunctuated captions; said while arguing that admitting flaws protects against being cancelled, which is itself image management.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42",
+      "claim": "No statement by her of an Enneagram type was found, and no credible published typing of her.",
+      "passage": "As of October 2026, no statement by her of her own type has been found.",
+      "class": "observed",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "The type on the page is this site's interpretation and should be presented as such. Her remark is a joke about a different system and settles nothing.",
+      "alternative": "A self-typing may exist in an interview this run did not read; absence of a found statement is not proof there is none.",
+      "durability": "unresolved",
+      "review_trigger": "Before each release, search for any statement by her about her Enneagram type; if one exists, report it and weigh it."
+    },
+    {
+      "id": "C85",
+      "claim": "She said in 2026 that a fan telling her she is cool is 'totally uninteresting to me', whereas someone who bought a business because of her 'did something'.",
+      "passage": "totally uninteresting to me,",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "The contrast she draws is flattery against results she caused. The edited article moves the line out of the Type 8 case and uses it, with its contrast, where the Three reading is tested.",
+      "alternative": "It cuts both ways: it disclaims admiration, and it measures her effect by other people's visible results.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "She describes her marriage as a mutual defense pact: 'our thing is it's us against the world'.",
+      "passage": "our thing is it's us against the world",
+      "class": "self_report",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Her account of how she behaves with the person closest to her: dominant at work, yielding at home, and accepting correction from him. The us-against-the-world frame favors the Eight alternative; taking feedback as a practice favors neither strongly.",
+      "alternative": "Public descriptions of a marriage by one spouse, three years apart. Petkas's only on-record remarks found are on her podcast and are about fitness (S17).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "She told Entrepreneur she does not want to be on social media every day, 'But it serves my goal'.",
+      "passage": "Do I really want to be on social media every day? No. But it serves my goal,",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "She presents visibility and scale as instruments chosen for a goal, at a cost she says she does not enjoy. Fits a goal-driven reading and complicates any claim that she seeks attention for its own sake.",
+      "alternative": "A person with an audience in the millions calling herself a reluctant influencer should be read skeptically.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C87",
+      "claim": "Her statements of anger, autonomy, toughness and marriage-as-alliance make a genuine case for Type 8.",
+      "passage": "that is a real Eight case",
+      "class": "interpretation",
+      "source_ids": [
+        "S11",
+        "S07",
+        "S08",
+        "S09",
+        "S12"
+      ],
+      "inference": "The article's statement of the strongest alternative, built from C28, C80, C79, C29, C70, C83 and C27, with her responses to being told no (C135) added.",
+      "alternative": "Every element is self-described and several coincide with her brand.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C88",
+      "claim": "Applying the test to every setback the article narrates: where a gatekeeper held her back (Vanguard in the 2026 telling, First Trust) she names control; where the judgment was on her or nobody stood in the way (the dead-bodies verdict, the marriage, Mount Baker, the emptied account) she names how she came across or failing. Infertility is not counted.",
+      "passage": "What she says was damaged depends on the setback.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S16",
+        "S07",
+        "S11",
+        "S02",
+        "S01"
+      ],
+      "inference": "The corrected first half of the discriminator. It replaces the draft's claim that five tellings uniformly named failure and that she never confronted anyone.",
+      "alternative": "Every episode is self-told. The split may reflect the kind of story as much as the person: a gatekeeper story invites control language and a solo failure invites failure language.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C89",
+      "claim": "In 2023 she said 'I don't ever want to be the person standing in line at the club. I want to own the club.'",
+      "passage": "I don't ever want to be the person standing in line at the club. I want to own the club.",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Standing and being sought out, said three years before the 2026 control statement.",
+      "alternative": "An argument for content marketing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C90",
+      "claim": "She said that trying to get into parties uninvited 'feels gross, and it feels thirsty. I don't want to be thirsty.'",
+      "passage": "feels gross, and it feels thirsty. I don't want to be thirsty.",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "A concern about how wanting appears, or about being in the asking position; the article gives both readings.",
+      "alternative": "A passing remark about parties in Cannes.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C91",
+      "claim": "The draft reads 'thirsty' as concern with how wanting appears to others.",
+      "passage": "Worrying about looking thirsty is a concern with how wanting appears to other people.",
+      "class": "interpretation",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "The article's inference from C90, now paired with the other reading.",
+      "alternative": "A single colloquial word carries the inference, and 'thirsty' also reads as distaste for being the one who has to ask, which fits an Eight. The article says the remark does not discriminate on its own.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C92",
+      "claim": "Her control statements coincide with the product she sells (the pledge on her company's site ends 'I will not do what I am told'; she told HOLA! 'I think ownership = freedom'), and her 2026 failure statements coincide with the 2026 book, which is about having built the wrong thing. One discount applies to both.",
+      "passage": "Her control statements match the product she sells",
+      "class": "interpretation",
+      "source_ids": [
+        "S03",
+        "S21",
+        "S19"
+      ],
+      "inference": "The corrected weighting rule. The draft discounted control statements as marketing and credited failure statements as against interest; the edited article treats the 2026 tellings on either side as on-message and gives more weight to what predates the campaign (C137).",
+      "alternative": "The control theme and the failure theme both predate the brand. Whether the confessional register of 2026 is hers or her market's is stated in the article as an open question. The HOLA! line was cut from the article for length in the repair; the pledge quoted in the opening carries the point.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C93",
+      "claim": "The draft's typing: Type 3 at medium confidence, Type 8 as a close alternative, to be reversed if people who have worked for or against her describe habitual open confrontation and indifference to how she is seen.",
+      "passage": "Codie Sanchez most likely fits Enneagram Type 3, the Achiever, at medium confidence.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S07",
+        "S11",
+        "S16",
+        "S01",
+        "S02",
+        "S10"
+      ],
+      "inference": "The site's interpretation of public evidence, not a self-report or a diagnosis. After editing, the lead rests on pre-campaign material (C58, C60, C62, C119, C14, C72, C13) and no longer on a claim that she never confronts anyone.",
+      "alternative": "Type 8 explains the control statements, the anger, the exits and her refusal of every 'no' the record describes. Type 6 fits her caution. No independent testimony exists to test any reading.",
+      "durability": "unresolved",
+      "review_trigger": "Reopen the typing if independent testimony about how she behaves when crossed is found, or if she states a type."
+    },
+    {
+      "id": "C94",
+      "claim": "Of the book's subtitle she said: 'I mean that literally, because I had built the opposite and I didn't have a name for it at the time.'",
+      "passage": "I mean that literally, because I had built the opposite and I didn't have a name for it at the time,",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Her own answer to whether the book contradicts her practice: it is a correction of her own habit.",
+      "alternative": "Authors routinely say they wrote the book they needed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "She calls herself a workhorse and says work was her identity: 'I'm a workhorse. Like I get off on working all the time. I used to think that was my identity.' To Hispanic Executive: 'I am a workhorse.'",
+      "passage": "I'm a workhorse. Like I get off on working all the time. I used to think that was my identity.",
+      "class": "self_report",
+      "source_ids": [
+        "S12",
+        "S05"
+      ],
+      "inference": "Three 2026 statements in three outlets that her sense of self ran through output. 'Workhorse' is also one of her book's twelve owner archetypes, so she is typing herself in her own system.",
+      "alternative": "The line is a campaign talking point. Identification with work is common to several types.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "She says the new book 'kind of came around cuz I needed it'.",
+      "passage": "I feel like the book kind of came around cuz I needed it.",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Her own answer to the research notes' question: the book's argument is, on her account, a correction of her own habit, not a description of where she started.",
+      "alternative": "Authors routinely say they wrote the book they needed. Whether Contrarian Thinking can run without her has not been tested in public (see C33).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "She describes infertility as the first thing effort could not solve: 'My whole life, I've been the one who handles it, who doesn't need help. Getting pregnant was the thing I could not brute-force. I had to learn how to ask, and how to want something I might not get.'",
+      "passage": "Getting pregnant was the thing I could not brute-force. I had to learn how to ask, and how to want something I might not get.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Self-sufficiency ('doesn't need help', 'brute-force') fits either reading and is how an Eight also talks. The article quotes it as portrait and does not count it toward a type.",
+      "alternative": "Composed statements for a magazine exclusive and a public post, written to comfort other women. 'Brute-force' and 'handles it' are also how an Eight talks.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C97",
+      "claim": "In her own post three days later, written for women who have struggled with or been shamed trying to conceive: 'I'm pregnant and thrilled. AND YET I've been failing at it for years.'",
+      "passage": "I'm pregnant and thrilled. AND YET I've been failing at it for years,",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "She uses the vocabulary of failing about infertility and, later in the same post, lifts it from her readers (C139). The article does not count the post as evidence for a type.",
+      "alternative": "A composed public post. 'Failing' is an ordinary word for infertility. Sensitive health material: only her published words are used, and no detail about pregnancy loss or her sister is added.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C98",
+      "claim": "In the same post she wrote that when a stranger's critical comment arrived she was 'blaming myself every seven seconds'.",
+      "passage": "blaming myself every seven seconds.",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Self-blame, placed by her inside her answer to a commenter who said she never prioritized family.",
+      "alternative": "Same composed post.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C99",
+      "claim": "The article declines to count the infertility post as evidence for a type and describes it as a verdict she passed on herself and would not let anyone pass on other women.",
+      "passage": "this profile does not count the post as evidence for a type",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S11",
+        "S07",
+        "S16"
+      ],
+      "inference": "Replaces the draft's use of the post as a fifth instance of the failure pattern.",
+      "alternative": "The reversal ('You are not failing') is addressed to readers, not to herself, so it does not show she rejects the verdict in her own case.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C100",
+      "claim": "When Lipovetsky suggested motherhood would test whether she owns her business or is owned by it, she said most of what she calls her '33 companies' run without her: 'I am not a hero. I am a character in a play.'",
+      "passage": "I am not a hero. I am a character in a play.",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "She says the test of the book has been passed in her other companies.",
+      "alternative": "The count of companies and their independence from her are her own figures.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck her stated number of companies and her role in them before each release."
+    },
+    {
+      "id": "C33",
+      "claim": "The book argues an owner should build a business that does not need them, while she says she gives no equity in Contrarian Thinking because she wants to own her name forever (C150). As of October 2026 no announcement of a leave or its dates was found, and whether the company can run without her had not been publicly tested.",
+      "passage": "As of October 2026 no announcement of a leave had been found, and whether that company can run without her had not been tested in public.",
+      "class": "interpretation",
+      "source_ids": [
+        "S13",
+        "S19",
+        "S06",
+        "S21",
+        "S08"
+      ],
+      "inference": "A dated statement that stays true after the birth. The 'test' framing is the host's question (S13, about 55:35), which the article attributes to Lipovetsky.",
+      "alternative": "That Contrarian Thinking depends on her is now carried by her own 2024 statement (S08, about 42:21) in place of the article's reading of its marketing. She said on The Mother Daze that being a workhorse is 'really problematic when you're pregnant and need maternity leave', which is not an announcement of one.",
+      "durability": "time_sensitive",
+      "review_trigger": "After the birth (due December 2026 by her June announcement) and her return to work, check whether Contrarian Thinking's output, launches and leadership continued without her, and what she says about it."
+    },
+    {
+      "id": "C101",
+      "claim": "In an interview published August 26, 2026, asked which part of her identity motherhood might change, she said the scary part 'is what will I want afterwards', that she has 'no idea', and: 'I have always kind of gone after exactly what I wanted. But the scary part is what if you want something totally different?' She then described a plan to keep her options open (C143).",
+      "passage": "\"I have always kind of gone after exactly what I wanted,\" she said. \"But the scary part is what if you want something totally different?\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "The article's closing. It dates the exchange to August 2026, reports the plan she gave next, and says in the text that the open question came first.",
+      "alternative": "A campaign interview with a friendly host.",
+      "durability": "time_sensitive",
+      "review_trigger": "After the birth and her return to work, revisit what she says she wants and update the ending."
+    },
+    {
+      "id": "C43",
+      "claim": "The only named outside characterizations of her as a person come from hosts and writers producing favorable coverage, such as Entrepreneur's Stephanie Schomer ('direct, honest, and supportive, with a cut-through-the-bullshit energy') and Steven Bartlett.",
+      "passage": "The outside descriptions of her as a person come from writers and hosts producing friendly coverage.",
+      "class": "observed",
+      "source_ids": [
+        "S06",
+        "S07",
+        "S13"
+      ],
+      "inference": "States the quality of the third-party record. The Schomer quotation was cut for length.",
+      "alternative": "All three are hosts or writers producing favorable coverage, two of them friends. None worked for her, competed with her or bought from her. They cannot carry the type argument. The critics' videos (S27, S30) are outside descriptions too, but of her business conduct, which the article takes up in the next paragraphs; the sentence is narrowed to descriptions of her as a person.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C102",
+      "claim": "No one who has worked for her, competed with her or paid for her programs was found on record describing how she behaves when crossed.",
+      "passage": "Nobody who has worked for her, competed with her or paid for her programs has been found on record describing how she behaves when crossed.",
+      "class": "observed",
+      "source_ids": [
+        "S06",
+        "S07",
+        "S13"
+      ],
+      "inference": "The main limit on the type argument, stated in the article.",
+      "alternative": "Absence of a found statement is not proof that none exists; research task 2 lists where to look.",
+      "durability": "unresolved",
+      "review_trigger": "Search for named testimony from employees, partners, former colleagues or program members before each release; reweigh the typing if any is found."
+    },
+    {
+      "id": "C35",
+      "claim": "By her own account in July 2023 she bought her first laundromat for about $100,000, bought two more, rolled them up and sold the group for close to a million dollars.",
+      "passage": "and we sold that for close to a million bucks.",
+      "class": "self_report",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "A checkable fact behind the most specific criticism of her: she no longer owns the business her story is built on. It bears on image management, which is relevant to the type argument.",
+      "alternative": "She disclosed the sale herself on a podcast, which the critic acknowledges. Purchase and sale figures are hers alone; no deed, filing or buyer was found. Her own 2023 channel video says the first business she bought was a small website in 2012, so 'first laundromat' is used, not 'first business'. The article no longer quotes her advice to that host ('For you, I'd say don't buy a laundromat'); the fuller June 2023 statement (C140) carries it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C36",
+      "claim": "A YouTube commentator (Hard Hat Economics, July 17, 2026) argues that her laundromat message did not change after her 2023 remark that it needed to: she kept telling the laundromat story after selling her laundromats, has published no account of the exit, and now earns from paid programs, for which he lists prices.",
+      "passage": "argued that the message never changed: she kept telling the laundromat story after the sale, has published no account of the exit, and now earns from paid programs",
+      "class": "disputed",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "The critic's argument at its real strength, from a full read of the saved caption text. He confirms she disclosed the sale ('she confirms it herself'); his complaint is continued promotion and the missing account of the exit. He frames it with her own 2023 words: 'in that clip, Cody admits the message needs to change. So, did it?' (01:03).",
+      "alternative": "A commentator's opinion. His program prices and membership figures cite a third-party newsletter and were not checked, and his later clips of her ('from last year', '10 months ago', 'last month') were not traced. Her own interviews bear out that she kept using laundromats as an example: on The Diary of a CEO in 2024 laundromats and car washes are still her examples, for the same stated reason, with the caveat 'I don't think everybody should own a laundromat or a car wash' (S08, 45:41 and 1:09:10-1:10:10). He offers innocent explanations for the sale and says he does not think she is a scammer (C141).",
+      "durability": "unresolved",
+      "review_trigger": "Before release, search for any public response from her to this video and for any reported complaint or investigation concerning her paid programs; add it with attribution if found."
+    },
+    {
+      "id": "C104",
+      "claim": "As of October 10, 2026 no regulator action or news investigation alleging that she misled customers was found. The critic does not allege one.",
+      "passage": "no regulator action or news investigation alleging that she misled customers was found as of October 10, 2026",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S30",
+        "S28"
+      ],
+      "inference": "A dated negative finding from this run's searches, worded narrowly and introduced by 'He alleges no official finding', so it reads as a separate search and not as the critic's charge. It does not address the unrelated copyright suit (S25), which the article omits as irrelevant to the portrait.",
+      "alternative": "A search can miss complaints. The critic also says he could not confirm whether she owns a laundromat today.",
+      "durability": "unresolved",
+      "review_trigger": "Before each release, search for any reported investigation, customer complaint about her paid programs, or public response from her to critics; recheck the docket in S25."
+    },
+    {
+      "id": "C106",
+      "claim": "She said her life's motto is a borrowed line about being able to say at the end, 'I used everything you gave me. I have not one drop left.'",
+      "passage": "I used everything you gave me. I have not one drop left.",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Her stated motto, set against a book that tells owners to make themselves unnecessary.",
+      "alternative": "She attributes the line to a writer whose name the captions garble; the draft does not name the writer.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C107",
+      "claim": "The article sets her motto about using herself up beside a book about becoming unnecessary, which she says she wrote because she needed it.",
+      "passage": "The owner of that motto has now written a book telling owners to make themselves unnecessary, and says she wrote it because she needed it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S11",
+        "S12",
+        "S19"
+      ],
+      "inference": "The article's statement of the portrait's central tension, built from C106, C21 and C45.",
+      "alternative": "She presents the two as a past habit and a present correction, not a contradiction.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C109",
+      "claim": "Howes quoted her book's claim that most owners are owned by what they build and asked when that had been true of her; she tells the bank story as a lesson: track performance consistently or 'expect this to happen to you'.",
+      "passage": "track performance consistently, or \"expect this to happen to you.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "The hook is the campaign's teaching case, not a spontaneous disclosure, and the article says so in the opening.",
+      "alternative": "From auto-captions (about 45:00-46:00), not confirmed by ear. Whether the story appears in the book is unknown; the book was not read.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C110",
+      "claim": "In her telling she went to the head of operations, who said, 'I did tell you this one time that it might be tight this summer'.",
+      "passage": "I did tell you this one time that it might be tight this summer,",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "She did go to the person who failed her and reports his reply; the draft omitted both.",
+      "alternative": "Her report of an unnamed employee's words in an uncorroborated story; captions at about 46:40-46:55, not confirmed by ear.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C111",
+      "claim": "Her answer for 'this current stage' is that 'the world is better when more of us own a little piece of something', and she hopes people will say 'she believed in human capability'.",
+      "passage": "the world is better when more of us own a little piece of something",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Her present-tense statement of purpose, which the draft left out. The article reports it in the opening with a timestamped link.",
+      "alternative": "A campaign interview; the purpose is also her company's stated mission. Captions at about 1:10:51-1:11:45, not confirmed by ear.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C112",
+      "claim": "She frames the control line as an early motive: 'at first, early on for me'.",
+      "passage": "\"At first, early on for me,\" it was this:",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Marks the control statement as her account of a past motive, as the source does.",
+      "alternative": "Captions at about 1:09:22; the article capitalizes the first word of the fragment.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C113",
+      "claim": "The word 'again' in her control statement refers to employers, by her own next sentence and by her 2023 First Trust account.",
+      "passage": "The word \"again\" points at employers, as her First Trust account does, and this profile reads no more into it than that.",
+      "class": "interpretation",
+      "source_ids": [
+        "S11",
+        "S07"
+      ],
+      "inference": "Replaces the draft's claim that she had not said who controlled her. The article declines to read anything further into the word.",
+      "alternative": "She names working for someone she does not like, not a specific employer.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C114",
+      "claim": "She said in 2023 that she began buying businesses on the side 'because I wasn't sure I wanted to work for somebody ever again.'",
+      "passage": "because I wasn't sure I wanted to work for somebody ever again.",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Ties 'again' to employment three years before the 2026 statement.",
+      "alternative": "Auto-captions at about 09:38-09:50, not confirmed by ear.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C115",
+      "claim": "In her 2023 account of First Trust she says she was 'fighting a little bit with the CEO', that managing directors told her to do it their way, and that her answer was 'So no, I'm going to run the business this way.'",
+      "passage": "So no, I'm going to run the business this way.",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Her own account has her arguing with the people who overruled her before conceding their right to set the rules (C64).",
+      "alternative": "She is reporting her own stance; whether she said it in those words to them is not established. First Trust has not spoken. Auto-captions at about 08:38-09:20.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C116",
+      "claim": "In the dead-bodies answer she says, 'But when they told me 'you can't,' I went and got the green light somewhere else.'",
+      "passage": "But when they told me 'you can't,' I went and got the green light somewhere else.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "She refused the decision. The draft reduced this to a paraphrase and concluded she did not dispute the judges.",
+      "alternative": "She does not say where 'somewhere else' was.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C117",
+      "claim": "She tied the personal-brand takeaway to standing out as Latinos and advised, 'Don't hide it, but be aware.'",
+      "passage": "Don't hide it, but be aware.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "A situational explanation for adapting how she came across, in her own words. The article names it beside the type reading.",
+      "alternative": "The full sentence before it is 'We all have to be aware of these issues, especially as Latinos, because we stand out.'",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C118",
+      "claim": "In the next answer of the 2017 interview she says a Goldman Sachs boss 'wouldn't allow me to travel for a job interview. So I paid my own way', under the rule 'don't ask for permission'.",
+      "passage": "wouldn't allow me to travel for a job interview,",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "A third telling in which a superior blocks her and she goes around him, counted on the control side of the tally.",
+      "alternative": "Uncorroborated; the boss is unnamed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C119",
+      "claim": "By June 2017 she was already presenting a personal brand: Hispanic Executive captioned her 'CEO, Keynote Speaker, & Investor, CS Inc.', called her a sought-after speaker with more than 15,000 Instagram followers, and printed her invitation to sign up for her newsletter; her scripted origin video is dated December 30, 2016.",
+      "passage": "Hispanic Executive captioned her \"CEO, Keynote Speaker, & Investor, CS Inc.,\" and she had posted the scripted origin video six months earlier.",
+      "class": "observed",
+      "source_ids": [
+        "S04",
+        "S14"
+      ],
+      "inference": "The 2017 interview is not a pre-brand baseline. A finance employee building a public persona is observable behavior that a Type 3 reading expects.",
+      "alternative": "Speaking and a personal site are common among ambitious professionals of any type. 'Six months' is five and a half.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C120",
+      "claim": "The unnamed firm in the 2017 story resembles her descriptions of Vanguard (an entry program among Ivy League graduates, her first exposure to mutual funds), so the 2017 and 2026 stories may describe one employer or one episode with a different stated reason and moral.",
+      "passage": "The 2017 one names no firm, but its details resemble her accounts of Vanguard, so the two may be one episode.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S06",
+        "S05"
+      ],
+      "inference": "Labeled in the article as this profile's inference. If right, the earlier telling carries an image moral and the campaign telling a control moral.",
+      "alternative": "She has not identified the firm. In 2017 she calls herself 'an asset manager' in 'a competitive accelerated program'; Entrepreneur calls her Vanguard job 'ETF consultant'.",
+      "durability": "unresolved",
+      "review_trigger": "If she or a former colleague identifies the firm in the 2017 story, state it and revise the comparison of the two tellings."
+    },
+    {
+      "id": "C121",
+      "claim": "Of Vanguard she told Entrepreneur, 'People weren't that kind to people who were broke and didn't come from anything.'",
+      "passage": "People weren't that kind to people who were broke and didn't come from anything,",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Connects the bank-account vow to the happy-hours episode in her own words.",
+      "alternative": "A book-launch interview; uncorroborated.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C122",
+      "claim": "In 2017 she said her goal was unchanged: 'I still want to change the world', by 'helping put Latinos, women, and other minorities in positions of power.'",
+      "passage": "I still want to change the world,",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "A stated purpose that predates the brand and recurs in 2026 (C111).",
+      "alternative": "Advice-interview register; a mission statement is also promotion.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C123",
+      "claim": "Entrepreneur reports that her father owned a company selling granite and that her mother was a special-education teacher.",
+      "passage": "her father owned a company selling granite and her mother taught special education",
+      "class": "third_party",
+      "source_ids": [
+        "S06",
+        "S05"
+      ],
+      "inference": "The leading advocate of buying small businesses is the daughter of a small-business owner, the person she calls in two crises.",
+      "alternative": "Entrepreneur's reporting rests on its interview with her. Hispanic Executive (2026) says 'a small business owner and a special education teacher of thirty years'. No causal claim is made.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C124",
+      "claim": "Entrepreneur lists Entourage Effect Capital, where it says she helped manage $160 million in assets, after First Trust.",
+      "passage": "Entrepreneur adds Entourage Effect Capital.",
+      "class": "third_party",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Her finance career did not end with First Trust; her own shortened lists omit this firm.",
+      "alternative": "One profile's account, built on an interview with her; the firm's record was not opened and the asset figure is not repeated in the article.",
+      "durability": "time_sensitive",
+      "review_trigger": "Before release, look for a firm record or filing confirming her role and dates at Entourage Effect Capital."
+    },
+    {
+      "id": "C125",
+      "claim": "She told HOLA! she used income from her W-2 job for the down payment on her first laundromat; Entrepreneur, in September 2026, dated that purchase to more than ten years earlier.",
+      "passage": "She told HOLA! that her paycheck funded the down payment on her first laundromat.",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S06"
+      ],
+      "inference": "Tells a reader with no prior knowledge what she bought first and roughly when.",
+      "alternative": "Her own account. Her 2023 channel video says the first business she bought was a small website in 2012; no purchase record was found.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C126",
+      "claim": "Sources disagree on when Contrarian Thinking began: 2019 in her 2026 press release and in Entrepreneur, 2020 on her own site.",
+      "passage": "Contrarian Thinking followed, in 2019 by her press release and in 2020 by her own site.",
+      "class": "observed",
+      "source_ids": [
+        "S19",
+        "S06",
+        "S20"
+      ],
+      "inference": "States the discrepancy instead of choosing a year.",
+      "alternative": "All three are her own or interview-based accounts; no incorporation record was opened.",
+      "durability": "time_sensitive",
+      "review_trigger": "Confirm the founding year from a non-promotional record before release (research task 6)."
+    },
+    {
+      "id": "C127",
+      "claim": "Entrepreneur writes that she left finance when the small businesses paid enough for her to 'close the door on the finance world'.",
+      "passage": "says she left finance only when the small businesses let her \"close the door.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Distinguishes the First Trust exit from the later exit from finance.",
+      "alternative": "The phrase is the reporter's, not hers.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C128",
+      "claim": "She has told her corporate departure both as quitting and as being pushed: her August 2023 video is titled 'I Quit My $500,000 Job After I Learned THIS', and in 2026 she told HOLA! she 'got kicked out of the corporate club'.",
+      "passage": "a video on her channel two months later is titled \"I Quit My $500,000 Job After I Learned THIS\"",
+      "class": "self_report",
+      "source_ids": [
+        "S15",
+        "S03",
+        "S08",
+        "S07"
+      ],
+      "inference": "The framing of the same exit changes with the telling.",
+      "alternative": "The HOLA! answer names no employer, but it uses the same story she told on The Diary of a CEO in 2024 about the investment firm where she built the Latin America business, which she names in that interview as First Trust: told to 'get a new boat', and 'he did me a huge favor by pushing me out' beside 'I was mad so I left' (S08, 35:11 and 1:41:25-1:42:59; S03 has 'I needed to get a new boat ... They did me a giant favor'). Her 2023 account already holds both framings: 'I was either going to get pushed out or leave' (S07, 09:38). Inside the 2023 channel video she says the owners told her to do it their way 'or you can pound sand' (S15). In 2024 she also says they parted on good terms and that the CEO offered to be her first investor, which no one else has confirmed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C129",
+      "claim": "Her fear, hedging and reliance on her father would also fit Type 6. The article prefers Type 3 because on Mount Baker she says the danger was not the frightening part and names failing in front of others, and because what she says finance cost her was a borrowed measure of success, not safety.",
+      "passage": "The story also weakens a Six reading.",
+      "class": "interpretation",
+      "source_ids": [
+        "S07",
+        "S15",
+        "S11"
+      ],
+      "inference": "Names the alternative the draft left out and gives a sourced reason without a wing or an arrow. It does not claim she seeks no support.",
+      "alternative": "She calls her father in two crises, took her move into finance from a mentor and staged every exit, all of which a Six would do. Without outside testimony Six is not excluded as firmly as it could be.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C130",
+      "claim": "The Mount Baker story answered the show's closing ritual, a question left by the previous guest: 'When was the moment you were most afraid?'",
+      "passage": "a question left by the previous guest: \"When was the moment you were most afraid?\"",
+      "class": "observed",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "The question was about one moment, not her worst fear.",
+      "alternative": "Auto-captions at about 1:30:15; she introduces her answer as 'sort of silly'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C131",
+      "claim": "When her friends tried to talk her into continuing, she says she answered 'no'.",
+      "passage": "\"I'm like, no,\" she said",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "She refused group pressure, which is compatible with either reading.",
+      "alternative": "Auto-captions at about 1:33:19, not confirmed by ear.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C132",
+      "claim": "On The Mother Daze she said that in private equity she pictured a tombstone reading 'managing director' and that 'That doesn't interest me at all.'",
+      "passage": "That doesn't interest me at all.",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "She describes walking away from a prestige title, which the Type 3 reading has to explain.",
+      "alternative": "Sentences separate the two quoted spans in the source and the article presents them separately. Disowning status is itself a creator narrative. Auto-captions at about 35:10.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C133",
+      "claim": "She contrasted a fan's flattery with a result she caused: 'That means you did something.'",
+      "passage": "That means you did something.",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Supports the Three answer that she measures herself by results she caused in place of titles.",
+      "alternative": "Auto-captions at about 35:41-35:52, not confirmed by ear.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C134",
+      "claim": "The Type 3 reading does not readily explain her move from a prestige finance track to laundromats and car washes or her stated dislike of daily visibility; calling 'boring' a differentiated brand is a convenient answer.",
+      "passage": "The Three reading strains on behavior.",
+      "class": "interpretation",
+      "source_ids": [
+        "S12",
+        "S06",
+        "S07"
+      ],
+      "inference": "States where the lead type fails, beside the main argument, without a wing, arrow or subtype.",
+      "alternative": "Money and other people's results can serve as a scoreboard as well as titles do, so the behavior does not exclude Three.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C135",
+      "claim": "When a person stood in her way she mostly describes refusing: getting the vetoed idea approved elsewhere, paying her own way past a Goldman boss, arguing and then leaving at First Trust, going to the manager over the emptied account.",
+      "passage": "What she did next, when a person stood in her way, was mostly refuse.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S07",
+        "S11",
+        "S06"
+      ],
+      "inference": "The second half of the test, scored separately. It does not separate the types and leans toward Type 8.",
+      "alternative": "An ambitious Three also goes around obstacles. At Vanguard, in the 2026 telling, her response was a vow and friendships with other outsiders.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C136",
+      "claim": "Five of the tellings the article narrates involve a person who judged, blocked or failed her. In two (the Vanguard promotion in the 2026 telling and the Goldman trip) she concedes nothing. In three she contested the outcome and still conceded something, a different thing each time: to the 2017 boss a verdict on how she came across ('maybe he was right'); to First Trust's owners in 2023 the right to set the rules ('as is fair'); in the 2026 telling her own blame for not tracking the manager ('it was my fault').",
+      "passage": "Five of the tellings above involve a person who judged, blocked or failed her.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S07",
+        "S11",
+        "S06"
+      ],
+      "inference": "The corrected tally (verify-02). It no longer reads as three of three: the two tellings in which she concedes nothing are named, and each concession is described as what it is. Only the 2017 one is a judgment on her that she accepted. The mountain and the marriage are excluded as having no adversary.",
+      "alternative": "'As is fair' concedes the owners' authority in a passage where she says their way had not built the business (S07, 09:11-09:38), and 'my fault' is self-blame in a story told as a lesson; the manager passed no judgment on her. If the 2017 and 2026 passed-over stories are one episode (C120), the same event is told once with a concession and once without. Later tellings of the First Trust exit repeat the concession and are not used in the article: 'I was total victim mindset about it' and 'he did me a huge favor by pushing me out' in 2024 (S08, 1:41:25-1:42:59), and 'That's all actually fair. They did me a giant favor' in 2026 (S03).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C137",
+      "claim": "The article gives more weight to statements that predate the 2026 campaign: on the control side 'I just never accept the word no' (2017) and 'having no master' (2023); on the other 'maybe he was right' (2017), the marriage as 'part of my identity' (2022) and the Mount Baker story (told in 2023). Type 3 leads on a verdict on her image accepted and made into a method, a self-description as fearful, and the statement that she spent most of her life pleasing people.",
+      "passage": "What predates the campaign is thinner and counts for more, and both strands are in it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S07",
+        "S15",
+        "S16",
+        "S11"
+      ],
+      "inference": "The restated discriminator, now written as prose with each statement dated by when she said it. Both strands are old; the lead rests on what the second holds that an Eight seldom volunteers, which the article labels a judgment about how the types tend to talk.",
+      "alternative": "The 2017 and 2023 statements were also made by someone promoting herself, so 'pre-campaign' is not 'pre-incentive'. No outside testimony tests either strand.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C138",
+      "claim": "Her post is addressed to 'every woman who has struggled with or been shamed trying to get pregnant' and answers strangers who she says wrote that 'you never prioritized family'.",
+      "passage": "every woman who has struggled with or been shamed trying to get pregnant",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "The post has a second purpose the draft omitted: a reply to people who shamed her.",
+      "alternative": "The commenters' words reach us only as she paraphrases them.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C139",
+      "claim": "In the same post she tells readers: 'You are not lazy. You are not late. You are not failing.'",
+      "passage": "You are not lazy. You are not late. You are not failing.",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "She uses 'failing' of herself and rejects it for women in her position.",
+      "alternative": "Addressed to readers.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C140",
+      "claim": "On The Diary of a CEO (published June 22, 2023, at about 23:35-24:01) Sanchez, advising a hypothetical content creator, said: 'I talk about laundromats. I actually need to change that. I need to like tell somebody I bought a different first business because it's a terrible business to buy. It just was my first one and it's very easy to understand.' The critic's video (S27, 00:20-00:32) opens on part of this passage and dates it to 2023.",
+      "passage": "a terrible business to buy. It just was my first one and it's very easy to understand,",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S27"
+      ],
+      "inference": "Her own statement, traced to its original and quoted in context (verify-01). It cuts both ways and the article gives both: she calls a laundromat a terrible business to buy and says she needs to change her message, which is the critic's complaint; and she gives her reason for teaching with it, that it is easy to understand. The article assigns no motive to the remark.",
+      "alternative": "Auto-captions, not confirmed by ear; the part the critic plays is worded identically in two caption tracks (S07 and the clip inside S27). The article quotes two exact spans and omits the clause between them ('I need to like tell somebody I bought a different first business because it's'). She says it while advising a specific hypothetical buyer, so it may be advice for him more than a general verdict: the next month she told another host 'For you, I'd say don't buy a laundromat. You can do a higher ROI' while calling laundromats 'the gateway drug', a 'good business to start with and learn with' (S28, 45:04), and in 2024 she said 'I don't think everybody should own a laundromat or a car wash' (S08, 45:41).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C141",
+      "claim": "The critic concludes that he does not think she is a scammer: 'Do I think Cody Sanchez is some kind of scammer, a charlatan, a villain? I don't think so.'",
+      "passage": "Do I think Codie Sanchez is some kind of scammer, a charlatan, a villain? I don't think so.",
+      "class": "third_party",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "His own limiting conclusion, set beside his criticism. He also says 'There's no shade being thrown' and offers innocent explanations for the sale.",
+      "alternative": "The auto-captions spell her name 'Cody'; the article uses the correct spelling of a spoken name. Not confirmed by ear.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C142",
+      "claim": "As of October 10, 2026 no public response from her to the Hard Hat Economics video was found.",
+      "passage": "A search for one, and for any reply from her, came up empty: no public response to the video",
+      "class": "observed",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "A dated negative finding. The sentence carries one date, October 10, 2026, for both this finding and the search for an official finding (C104).",
+      "alternative": "A search can miss a reply in a comment thread, a podcast or a deleted post.",
+      "durability": "unresolved",
+      "review_trigger": "Before each release, search for any response from her to this video and report it with attribution."
+    },
+    {
+      "id": "C143",
+      "claim": "Immediately after naming the open question she described a plan: to set herself up 'so options are always on the table' and not build a business 'that I have to be a slave to while I'm pregnant'.",
+      "passage": "so options are always on the table.",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "She answered her own question at once, in control language. The article reports the plan and says the question came first.",
+      "alternative": "Auto-captions at about 56:38-57:08, not confirmed by ear.",
+      "durability": "time_sensitive",
+      "review_trigger": "After the birth and her return to work, revisit what she says she wants and update the ending."
+    },
+    {
+      "id": "C145",
+      "claim": "In her own tellings she describes the award as shared: 'we won awards' in the 2016 video, 'We wrote the story' and 'I thought we were going to change the world' in 2017.",
+      "passage": "In her own tellings from 2016 and 2017 she says \"we.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S04"
+      ],
+      "inference": "The gap is between her promotional copy and the record, not between her spoken account and the record.",
+      "alternative": "The 2016 line is from a scripted video's auto-captions.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C147",
+      "claim": "Her stated purpose (changing the world in 2017, ownership for more people in 2026) fits either type reading, so the article does not use it to separate them.",
+      "passage": "that purpose fits either reading, as autonomy for others or as impact others can see",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S11"
+      ],
+      "inference": "Says plainly why the purpose is set aside as a discriminator.",
+      "alternative": "A purpose held for nine years is evidence about her values that neither type label captures.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C148",
+      "claim": "Her own site carries a differently worded version of the line she attributes to her father.",
+      "passage": "Her site carries a differently worded version of her father's line.",
+      "class": "observed",
+      "source_ids": [
+        "S20",
+        "S11"
+      ],
+      "inference": "The line is a set piece of her public story, not unique to this telling.",
+      "alternative": "Promotional copy that can change.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck the father quotation on codiesanchez.com/about before each release."
+    },
+    {
+      "id": "C149",
+      "claim": "The page description says she wants no master and that her setback stories often name failure.",
+      "passage": "She says she wants no master, yet her setback stories often name failure.",
+      "class": "interpretation",
+      "source_ids": [
+        "S07",
+        "S11",
+        "S16",
+        "S04"
+      ],
+      "inference": "Metadata summary of C29 and C88. 'Often' reflects four of the seven setbacks the article counts.",
+      "alternative": "Her setback stories about gatekeepers name control (C88).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C150",
+      "claim": "On The Diary of a CEO (August 12, 2024, about 42:21) she said she does not give equity in Contrarian Thinking, her media company, 'because I want to own my name forever', adding 'I don't ever think I'm going to sell this thing'.",
+      "passage": "she gives no equity in the media company \"because I want to own my name forever.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S27"
+      ],
+      "inference": "Her own statement that the media company is her name and is not for sale, which is why the article treats it as a different case from the companies she says run without her (verify-04). It replaces the article's own reading of the company's marketing.",
+      "alternative": "Unpunctuated auto-captions, not confirmed by ear; the S08 track has 'and contrarian thinking' where the clip inside S27 is captioned 'in Contrarian Thinking', and the quoted span is identical in both. She says it as advice about asking an employer for equity, not as a statement about whether the company can run without her.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C151",
+      "claim": "The June 2023 remark answered a role-play: Bartlett played a 25-year-old with about $7,000 in the bank who does content for a living and asked what his first step should be. Her answer began 'if you do content for a living, what I'd say is don't buy a laundromat', and continued 'I talk about laundromats. I actually need to change that.'",
+      "passage": "In June 2023 Bartlett played a 25-year-old who makes content for a living and asked for a first step. Not a laundromat, she said: \"I talk about laundromats. I actually need to change that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Gives the audience and the question so the reader can judge the scope of the remark, and reports in her words that she said her message needed to change.",
+      "alternative": "The track has no speaker labels; the turns are read from context ('I do content' is Bartlett answering in role). 'Not a laundromat' paraphrases 'what I'd say is don't buy a laundromat'. Not confirmed by ear.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C152",
+      "claim": "Her stated reason for teaching with laundromats is that the business is easy to understand: 'if you can't understand quarter, machine, clothes, clean, don't buy a business, any business. Just forget you heard me talk about anything. And so, that's why I talk about laundromats.'",
+      "passage": "and said that ease is why she talks about them",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S08"
+      ],
+      "inference": "An accurate paraphrase of her stated reason, given in June 2023 and repeated on the same show in 2024 ('because if you can't understand cleaning clothes and if you can't understand cleaning cars probably don't do any business', S08, 1:09:40).",
+      "alternative": "A stated reason is not a complete account of why a business figure features a topic. The critic's reading is that the laundromat story sells paid programs (C36). The article reports her reason as stated and assigns no motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C153",
+      "claim": "The critic's video opens on part of that answer, from 'I talk about laundromats' to 'It just was my first one', without the advice before it or the reason after it.",
+      "passage": "opened a video with part of that answer, cut off before her reason",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S07"
+      ],
+      "inference": "A comparison of two caption tracks. It reports what his clip contains and omits and assigns him no motive.",
+      "alternative": "Trimming a clip is ordinary practice, and he reports the half of the context that helps his case honestly: he says that in the clip she 'admits the message needs to change' (01:03), which the article reflects in 'argued that the message never changed'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C154",
+      "claim": "The critic says he could not confirm that she owns a laundromat today: 'I can't tell you whether Cody owns a single laundromat today. I looked. I couldn't confirm it anywhere.'",
+      "passage": "He says he could not confirm that she owns a laundromat today.",
+      "class": "third_party",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "His statement of what he could not establish, as of July 2026; he goes on, 'As far as I can tell, she just stopped owning them.'",
+      "alternative": "A statement about his own search, made a month before her Mother Daze interview (C155). Auto-captions at 02:55-03:07, not confirmed by ear.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C155",
+      "claim": "On The Mother Daze (August 20, 2026, about 32:24-32:44), describing what Contrarian Thinking does, she said 'we like to invest in businesses. So we own a ton. We own roofing and um exteriors and uh laundromats and car washes and uh painting companies'.",
+      "passage": "she listed laundromats among the businesses \"we own.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S12",
+        "S19"
+      ],
+      "inference": "Her own present-tense statement, a month after the critic's video, that her company owns laundromats. It bears on his statement that he could not confirm she owns one. The article reports it as hers alone and does not present it as a reply to him.",
+      "alternative": "Unverified. 'We' may mean Contrarian Thinking, the couple's holding company or minority stakes; she does not say how many, where, or how they relate to the three she says she sold. Her September 18, 2026 press release also refers to 'her own portfolio of laundromats, car washes, roofing companies, and service businesses' (S19), which is promotional copy, and in HOLA! she uses the past tense, 'I owned laundromats' (S03). Auto-captions, not confirmed by ear; the article quotes only 'we own'.",
+      "durability": "time_sensitive",
+      "review_trigger": "Before each release, recheck what she says she owns and search for an independent record of her holdings (business filings, reporting, any follow-up by the critic)."
+    },
+    {
+      "id": "C156",
+      "claim": "As of October 2026 the only statements found about whether she owns laundromats are her own: the sale of her first three, disclosed in July 2023 (S28), and the 2026 statements that her company owns laundromats (S12, S19). No independent record of her holdings was found. The critic says he could not confirm that she owns one (S27, 02:55-03:07), and her 2024 remark that staff may invest 'if we have cash flowing and laundromats and car washes' is conditional (S08, about 42:32).",
+      "passage": "As of October 2026, no independent record of her holdings was found.",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S08",
+        "S12",
+        "S19",
+        "S28"
+      ],
+      "inference": "The dated negative finding in the laundromat FAQ (verify-03), corrected in the repair. The earlier wording, 'no source found says whether she still owns any laundromat', was wrong on this record: S12 has her say in August 2026 that her company owns them.",
+      "alternative": "A search can miss filings or local reporting. Her statements may be accurate; they are simply unconfirmed.",
+      "durability": "unresolved",
+      "review_trigger": "Before each release, recheck her stated holdings and search for an independent record; update the FAQ if a source states what she owns or has sold."
+    }
+  ],
+  "type_hypothesis": {
+    "type": 3,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C09",
+      "C58",
+      "C59",
+      "C60",
+      "C62",
+      "C119",
+      "C13",
+      "C14",
+      "C72",
+      "C15",
+      "C16",
+      "C75",
+      "C18",
+      "C90",
+      "C30",
+      "C136",
+      "C137"
+    ],
+    "against": "Her most direct statement of motive is about control, not admiration: 'I don't ever want anybody to have control over me or my life again', with anger as the fuel (C28, C79), explained in her next sentence as never working for someone she does not like (C80). It has precedents in 2017 ('I just never accept the word no', C10), 2023 ('having no master', C29; 'it wasn't my casino', C12) and 2024 ('because I had ownership', C70). In every telling where a superior blocks her she refuses, goes around or leaves (C116, C118, C115, C135), which is what an Eight does. In the Vanguard telling the injury she names is being held back (C11, C57). She describes money as protection from other people's will (C07). She walked away from a prestige track into laundromats and car washes, says a 'managing director' tombstone does not interest her (C132), calls daily visibility a chore (C32) and a fan's praise uninteresting (C85). A Three is expected to move toward what earns admiration; she describes moving away from it (C134). Most of the Three evidence is retrospective storytelling by a professional communicator, her 2026 failure confessions serve the 2026 book as much as her control statements serve the brand (C92), and no one who has worked for or against her has been found on record (C102, C43).",
+    "alternative_type": 8,
+    "alternative_case": "Type 8 fits a real pattern. Across a decade she frames her life as a refusal to be controlled: she left journalism for 'the centers of power' (C06, C52), treats money as what decides 'who had protection' (C07), argued with the people who ran the business she built at First Trust and left when it 'wasn't my casino' (C12, C115), stayed under two years at most jobs until she had a stake (C70), and sells a pledge that reads 'I will not do what I am told' (C50). Told 'you can't', she got the idea approved elsewhere (C116); denied travel by a boss, she paid her own way (C118). She was told colleagues thought she would 'leave dead bodies behind' her (C09), calls herself 'really intense' and 'kind of hard to work for sometimes' (C83) and describes her marriage as 'us against the world' (C27). Her self-sufficiency ('the one who handles it, who doesn't need help', C24) is how Eights describe vulnerability. Type 6 was also considered: she names fear, de-risks carefully, calls her father in two crises and took her move into finance from a mentor (C13, C77, C52). It is set aside, less firmly than Eight is tested, because on Mount Baker she says the danger was not the frightening part and names failing in front of others (C15), and because what she says finance cost her was a borrowed measure of success, not safety (C14, C71); the article names Six and gives that reason (C129). Type 7 is unlikely given her stated indifference to fun in S11.",
+    "discriminator": "What she says was injured when a setback or a hostile judgment landed, and what she did next, scored separately. The second half does not separate the types: when a person stood in her way she mostly refused, went around or left (C135), which leans Eight. The first half splits by the kind of setback. Held back by a gatekeeper (Vanguard in the 2026 telling, First Trust) she names control (C57, C12). When the judgment was on her, or nobody stood in the way, she names how she came across or failing: 'I was putting a different message out' (C58), 'I felt like I was failing' (C16), 'am I like a failure' (C15), 'I was a failure' (C18). Five of the tellings the article narrates involve a person who judged, blocked or failed her. In two (the Vanguard promotion in the 2026 telling, the Goldman trip) she concedes nothing (C11, C57, C118). In three she contested the outcome and still conceded something, a different thing each time: a verdict on how she came across ('maybe he was right', the 2017 boss), the owners' right to set the rules ('as is fair', First Trust in 2023), and her own blame for not tracking a manager ('it was my fault', the 2026 telling) (C136). Only the first is a judgment on her that she accepted. The mountain and the marriage have no adversary and cannot test confrontation; infertility is not counted. One discount applies to both sides: control statements match the product and 2026 failure statements match the 2026 book (C92), so weight goes to what predates the campaign (C137). There, Type 3 leads on three things an Eight seldom volunteers: a verdict on her image that she accepted, still endorsed years later and turned into a theory of advancement ('personal brand', 'known and wanted'; C58, C60, C62), while already building a public persona as a finance employee (C119); a self-description as fearful and hedging ('scaredy-cat', 'wuss'; C13, C75); and the statement that she spent most of her life pleasing people toward goals she did not care about and 'chasing somebody else' (C72, C14). This is a judgment about how the types tend to talk, which is why confidence stays at medium. Limit: every episode is self-told. The reading should be reversed if people who have worked for or against her describe habitual open confrontation and indifference to how she is seen (research task 2).",
+    "unexplained": "Why a person organized around achievement and image chose a deliberately unglamorous field, disowns the 'managing director' title and says the visible part of her work is a chore (C132, C32); the Three reading can call 'boring' a differentiated brand and results-caused a new scoreboard, but that is convenient (C134). The moral motive of her first career and the purpose she has stated since 2017, which fit either type and are not used to separate them (C56, C122, C111, C147). How she actually treats subordinates: her own accounts alternate between persuasion and being 'hard to work for' (C83), and no one else has spoken. Whether the confessional register of 2026 (infertility, fear, the empty bank account) is a change in her or in what her market rewards. Whether the 2017 and 2026 passed-over stories are one episode (C120). And her own open question: she says she does not know what she will want after the baby arrives (C101), and answered it with a plan to keep her options open (C143)."
+  },
+  "profile_format": "standard"
+}

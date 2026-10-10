@@ -1,0 +1,20 @@
+The subject-role review is written to `review-subject.json` and validates against the pipeline's `reviewSchema`; both hashes match the frozen draft and evidence record. No other repo files were touched and nothing was published.
+
+The review raises 10 findings (1 blocker, 7 major, 2 minor) and sets `sensitive_allegations` and `contested_typing` to true. I opened nine of the cited sources to check context; the video ones were read from auto-captions, not by ear.
+
+The draft is careful in form, but in every thesis-bearing passage I checked, the context that was cut favours her own account or the Type 8 reading:
+
+- **Blocker — the "never confronts" claim is contradicted by the cited sources.** The body and FAQ say she never describes confronting the person who crossed her and "grants the verdicts" instead. But "as is fair" comes from her First Trust account, where she says just before it that she was arguing with the managing directors and told them "So no, I'm going to run the business this way." The 2017 and bank stories likewise have her going around a no and going to the manager.
+- **The "again" mystery is not a mystery.** The draft says she has not said who controlled her. Her next sentence in the same answer says it: working for people she didn't like.
+- **Her answer to "what's your real dream" is missing.** She framed the control line as "at first, early on", then gave a present-day answer about more people owning something. The article omits it.
+- **The "dead bodies" anecdote loses her own context.** Her "personal brand" takeaway goes on to tie the perception to how Latinos are read, and ends "Don't hide it, but be aware."
+- **The critic is quoted without his own conclusion.** He says he does not think she is a scammer; the evidence record shows his video was only read to 05:40 of 9:51 before drafting.
+- **The journalism section hints at embellishment three times**, each without a mitigating fact the sources hold (for example, the 2017 telling already contains both border scenes).
+- **Title and meta title state the contested inference as fact** ("Why Failing Scares Her More Than Any Boss").
+- **The infertility post is used as type evidence** without noting it is also a reply to people who shamed her, in which she tells readers "You are not failing."
+
+The two minor findings cover an unannounced maternity leave stated as fact, and five small context cuts (for example, the FAQ drops "jokingly" from "business bully").
+
+Five passages are protected, including the line that keeps her former spouse out of the article and the sentence naming the missing testimony.
+
+If fixing the blocker changes the leading type, the standard requires `--refresh --expanded-review`. I did not open the other 24 sources, so passages resting on those are unchecked by this review. The similarity advisory was not tripped and I raised no reuse finding.

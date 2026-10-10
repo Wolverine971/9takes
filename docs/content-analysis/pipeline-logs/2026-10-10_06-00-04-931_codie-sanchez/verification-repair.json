@@ -1,0 +1,1277 @@
+{
+  "schema_version": 3,
+  "content_sha256": "d82a07ff999d4f1c2dbde28cb064b84ae4095def7c571f8a0b7425e32200c09e",
+  "evidence_sha256": "2eb72eda9d3bb24f11a00e73ed237daedf6ca35588b889c239e0e1795141323d",
+  "status": "pass",
+  "findings": [
+    {
+      "id": "verify2-01",
+      "severity": "minor",
+      "passage": "walked into a bank to borrow against one of her businesses",
+      "problem": "She says 'I went to go get a loan for the business' (S11, about 45:55). 'Borrow against' adds a collateral detail she does not give, in the first sentence of the article.",
+      "acceptance_test": "The sentence says she went to get a loan for one of her businesses, or otherwise matches her wording."
+    },
+    {
+      "id": "verify2-02",
+      "severity": "minor",
+      "passage": "In two, at Vanguard and at Goldman, she concedes nothing.",
+      "problem": "True of her quoted words. Entrepreneur's own paraphrase of the Vanguard telling adds that she 'realized that money wasn't her only barrier. She also lacked the social awareness, the social language, and the familiarity with the political games'. That is the reporter's wording, but it is the nearest thing to a concession in that telling, it bears on 'the stated reason and the moral both changed between tellings', and the article does not mention it. Leaving it out cuts against the article's own lead, not for it.",
+      "acceptance_test": "The sentence is limited to her quoted words, or one attributed clause reports Entrepreneur's paraphrase. C136 and C88 record it."
+    },
+    {
+      "id": "verify2-03",
+      "severity": "minor",
+      "passage": "It was like, am I like a failure by not doing this tough thing that everybody else is going to do?",
+      "problem": "About fifty quotations, including most of the type-bearing ones, come from YouTube auto-captions. I re-downloaded every track and all match, and the two clips replayed inside the critic's video are captioned identically, but none has been confirmed by ear (the evidence record's first research task).",
+      "acceptance_test": "Before publication someone listens at the timestamps in the source locators for S07, S08, S09, S11, S12, S13, S15 and S16 and corrects any wording or speaker."
+    },
+    {
+      "id": "verify2-04",
+      "severity": "minor",
+      "passage": "an interviewer from Hispanic Executive raised the award",
+      "problem": "The article rightly names no interviewer. The evidence record credits Frannie Sprouls, as the live page does; the 2019-09-22 Wayback capture of the same page credits Zach Baliva. The 'CS Inc.' caption and all quoted text are identical in both.",
+      "acceptance_test": "S04 records both bylines and the capture date. The article keeps the interviewer unnamed unless the byline is settled."
+    },
+    {
+      "id": "verify2-05",
+      "severity": "minor",
+      "passage": "In the 2026 telling, her own blame for not tracking the manager: \"it was my fault.\"",
+      "problem": "C78's inference still says the article 'counts this as granting the judgment', wording the repair removed from the article.",
+      "acceptance_test": "C78's inference matches the article: her own blame, in a story told as a lesson; the manager passed no judgment on her."
+    },
+    {
+      "id": "verify2-06",
+      "severity": "minor",
+      "passage": "Five of the tellings above involve a person who judged, blocked or failed her.",
+      "problem": "At 4,392 words the body is well above the standard's 2,000-3,500 target. The tally paragraph and the laundromat sequence read as an audit, and 'this profile' appears nine times as a hedge.",
+      "acceptance_test": "A later pass brings the body near 3,900 words or below without removing a load-bearing claim, for example by compressing the two-stories preamble, the founding-year sentence and the laundromat chain."
+    }
+  ],
+  "research_tasks": [
+    "Listen to the audio at the timestamps in the source locators for every caption-sourced quotation (S07, S08, S09, S11, S12, S13, S15, S16, S27) and correct wording or speaker; no quotation in this record has been confirmed by ear.",
+    "Find independent named testimony about how she behaves when crossed (current or former Contrarian Thinking staff, portfolio operators, First Trust or Entourage Effect Capital colleagues, programme members, her ASU instructors). Nothing type-bearing in the record has an independent account, which is what holds the evidence and Enneagram scores near 8.",
+    "Open the independent records of her First Trust role that surfaced in search on 2026-10-10 (LAVCA, Fundpro, Magma Partners, The Alumni Society) to corroborate her title and dates there and to look for named colleagues.",
+    "Settle the byline of the 2017 Hispanic Executive interview: Zach Baliva in the 2019-09-22 Wayback capture, Frannie Sprouls on the live page.",
+    "After the birth (due December 2026 by her June announcement), update the family facts and the ending in her own words and record whether she stepped back from Contrarian Thinking."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "S19 'About The Author' reads 'founder and CEO of Contrarian Thinking, a media, advisory and investment company'; S06 and S05 agree on the role and both books. Fresh fetch 2026-10-10."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "S19 dateline 'AUSTIN, Texas - September 18, 2026' and first paragraph give the release date and full title."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "qualified",
+      "reason": "Matches S19's subhead ('owner dependency, the trap she argues makes a small business impossible to scale, sell, or step away from'). The book itself was not opened, so this is the release's summary of the argument."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "S12 at 46:22: 'I'm turning 40 this month'. yt-dlp metadata gives the upload date as 2026-08-20 on The Mother Daze channel."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "qualified",
+      "reason": "Arithmetic holds: PEOPLE gives 39 on June 22, 2026 (S01) and 'I'm 37' appears in a recording published Aug 12, 2024 (S08, 11:59). The month rests on the episode having been recorded in August, inferred from '24 weeks' (S12, 12:44) against 16 weeks on June 22; the inference is sound and no day is published."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "S06: 'grew up in Phoenix, Arizona'; S05: 'public-school kid from Phoenix'; S20 and S18 confirm Arizona State journalism."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Self-reported list confirmed in S19 ('Vanguard, State Street, Goldman Sachs, and First Trust'), S03, S20 and S06. No employer record was opened; the article presents it as her career, with Entrepreneur's addition attributed."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "S01 (published Mon, June 22, 2026): 'expecting her first baby in December with her husband, Chris Petkas'."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "S01 quotes her: 'IVF, multiple windows' and refers to a failed IVF transfer; the article's date matches."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "S01 names Chris Petkas and quotes her calling him 'a Navy SEAL'; S05 says 'her husband, a former Navy SEAL'; S17's description says 'former Navy Seal, Chris Petkas'."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "S13 at 46:28: 'He runs our investment and holdco. I'm going to be over here running the media and the advisory business'. Upload date 2026-08-26."
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "S20, fetched 2026-10-10: 'They inspired her to take risks and build her own future.'"
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "S03 verbatim: 'I was the only Latina in my group so many times, I can barely count.'"
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "S21: the pledge closes 'I will not do what I am told, I will do what is required.' Presented as company copy."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "S18 (Apr. 12, 2009): 'Divided Families' won 'in the college print journalism category'; 'the work of 17 students'; Codie Sanchez is in the list of names."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "S20, fetched 2026-10-10: 'Her coverage earned her the Robert F. Kennedy Award for print journalism.' The article dates its reading of the page."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "S04 verbatim, in answer to the interviewer raising the award."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "S04: 'I was twenty years old and a bit naive'; 'A mentor told me that you find the centers of power. And that's money.'"
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "S03: 'It decided who had protection, who had options, and who could end up dead in the desert and no one cared.'"
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "Compared S14 (2016: 'brutal mutilation of women', then the bedridden resident's question), S04 (2017: trafficking, smuggling and elderly people left at the border in one answer) and S03/S05 (2026: cartel wars, bodies on overpasses). The article's description of what moved is accurate."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Interpretation, stated as residue outside both readings and hedged in the next sentence ('known only from her later telling')."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "S06 verbatim: 'told that I wasn't a team player because I never joined the happy hours.'"
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "S06 verbatim, introduced there by 'That was the point at which I said'."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "S04 verbatim; the same text is in the 2019-09-22 Wayback capture, so it predates the 2022 page modification."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "S04 verbatim, as the reply to 'That's what he said?'."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "S04 verbatim; the article quotes the whole answer and assigns no motive to the last sentence."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "S04: 'I think it's about personal brand.' The article carries the rest of the takeaway."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "qualified",
+      "reason": "Interpretation marked with 'suggests' and 'leans toward Three without settling it'. It rests on one 2017 telling; the article states the situational and tactical alternatives and the limit."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "S04: first sentence of the answer to 'How have you done it, though?', which contains the dead-bodies story."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "S04 verbatim, in answer to 'You mentioned personal brand. Why is that so important?'."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "S04: 'I have a journal I've kept for fifteen years. Every year, I write down what I accomplished'."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "S07 at 09:30 verbatim. The passage does not name the firm; S08 (35:16) and S15 tie the same dispute and the Latin America business to First Trust."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "S07 at 09:38, directly after the casino line: 'they were writing the rules, as is fair. It was their business.'"
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "qualified",
+      "reason": "Negative finding. My own search on 2026-10-10 found only older profiles naming her First Trust role and no account of her departure from the firm. The article limits it to 'any source found here'."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "S07 at 05:24: 'I'm like a little bit of a scaredy-cat'; 'I needed something where I could have like a soft landing'."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "S08 at 33:42-33:55: 'most jobs for like a year and a half two years Max until ... First Trust where I was there for five years because I had ownership'."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "S05 (Sept. 28, 2026) verbatim."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "S15 at 10:54 verbatim, after her explanation of mimetic desire; upload date 2023-08-26."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "S06 verbatim, placed after 'close the door on the finance world', which the article respects ('that last exit')."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "S07 at 1:33:05 verbatim; the question, the group of women, the three days and the ice wall are all in 1:30:15-1:33:05."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "S07 at 1:33:35 verbatim, following 'I'm like, no. Totally fine.' The quotation stops before 'with things I don't really want', which does not change its sense."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "qualified",
+      "reason": "A typological judgment, labelled 'in this profile's judgment'. The underlying statements are verified; the generalisation about how Eights account for themselves is opinion."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "S07 at 1:20:05 verbatim; 'when I left' at 1:16:51 supports that the decision was hers."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "S16 at 01:00-01:31 verbatim apart from capitalising 'I'; 'the ramp up to it' is her phrase. Her characterisation of her former husband in the same clip is correctly left out."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "S11 at 46:21 verbatim; the account 'was basically to zero' follows. Upload date 2026-09-21."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "S11 at 47:23 verbatim as her report of his words; S20 carries a differently worded version."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "S11 at 47:54 verbatim."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "S11 at 46:53-47:10 verbatim. The sidecar inference still says the article 'counts this as granting the judgment'; the article now says 'her own blame' (see verify2-05)."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "S11 at 1:09:35-1:09:44, with her preface 'at first, early on for me'. The question came at about 1:09:13, a little over twenty minutes after the bank story."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "S11 at 1:09:50-1:10:17: 'I'll become every single thing that you said I wouldn't', 'I was angry', then Howes's 'You were trying to prove yourself' and her 'Oh, yeah'."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "S11: the sentence follows 'again' without a break."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "S07 at 1:21:19: 'and having no master. That's what rich looks like for me.'"
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "qualified",
+      "reason": "S08 at 2:00:36 has the words, but she offers them as what an honest leader should say ('the better thing to do is be like I'm human I'm flawed I'm really intense I'm kind of hard to work for sometimes'). It reads as self-description; the article does not give that framing."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "qualified",
+      "reason": "Negative finding. My search on 2026-10-10 and a search of all thirteen caption tracks and twelve pages for 'enneagram' found nothing; the Myers-Briggs exchange at S12 23:59 is a different system. Dated in body and FAQ."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "S12 at 35:46-35:52, with the contrast the article now carries."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "S09 at 1:04:30: 'our thing is it's us against the world'. Upload date 2023-10-19."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "S06 verbatim: 'Do I really want to be on social media every day? No. But it serves my goal'."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "Interpretation assembled from statements verified in S11, S07, S08 and S09."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "qualified",
+      "reason": "The sorting holds on the passages I reopened. Two caveats: Entrepreneur's own paraphrase of the Vanguard telling adds that she realised she 'lacked the social awareness' to get ahead (verify2-02), and the split may follow the kind of story told, which the sidecar notes and the article does not."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "S07 at 1:07:02 verbatim."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "S07 at 1:07:28-1:07:32 verbatim, about getting into parties in Cannes."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "qualified",
+      "reason": "One colloquial word carries the reading; the article now gives the second reading and says the remark does not answer the question."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "qualified",
+      "reason": "The symmetry is supported (S21 pledge, S19 thesis, S03). 'She tells the empty-account story as its cautionary tale' is fair for the Howes interview, where it answers a question quoting the book; whether the story is in the book is unknown."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "qualified",
+      "reason": "Interpretation at medium confidence, with Type 8 close and every episode self-told. The article says so and names the evidence that would reverse it."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "S03 verbatim, about the subtitle."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "S12 at 26:00 verbatim; S05 has 'I am a workhorse'."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "S12 at 26:10; one sentence separates it from the workhorse line and the article marks the gap with 'And then'."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "S01 verbatim."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "S02 (fxtwitter mirror, created 2026-06-25 18:31 UTC), second paragraph."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "S02: 'I was 5 years into not getting pregnant and blaming myself every seven seconds', in her account of what she was doing when a stranger's comment arrived."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "An editorial choice the article states; the post's wording is verified in S02."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "S13 at 56:05-56:22: 'most of them I don't work in', 'I am not a hero. I am a character in a play', '33 companies now'. Upload date 2026-08-26."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "qualified",
+      "reason": "Negative finding. My search on 2026-10-10 found no leave announcement, and none appears in S10-S13. Worded in the past tense with an as-of month."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "S13 at 56:25-56:46. Source order is 'what will I want afterwards', 'And that I have no idea', then the two quoted sentences, then the plan; the article says which came first."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "qualified",
+      "reason": "A characterisation of the record as found; S06's 'direct, honest, and supportive' is a profile writer's description. It cannot be exhaustive."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "qualified",
+      "reason": "Negative finding. My search on 2026-10-10 for named former employees or colleagues describing her found none. Dated in the article."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "S28 (datePublished 2023-07-03) at 45:04: 'bought my first laundromat for a hundred k ... buying two more laundromats, rolling those up, and we sold that for close to a million bucks'."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "S27 read in full: 'So no, she hasn't stopped talking about laundromats', 'I can't find one video breaking down her exit', and the paid-programme section at 07:38-08:20. Attributed to him throughout."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "qualified",
+      "reason": "Negative finding. My search on 2026-10-10 found no regulator action or investigation; S27 alleges none. Dated to the day."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "S11 at 1:12:47-1:13:05, which she calls 'sort of my life's motto' and attributes to another writer."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "Juxtaposes verified statements (C106, C21, C45)."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "S11 at 45:00-45:55: Howes quotes 'most owners are being owned by the thing they built'; she says 'you track performance consistently' and 'expect this to happen to you'."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "S11 at 46:45-46:55; the quotation stops before 'if we didn't do this'."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "S11 at 1:10:50-1:11:05: 'at this current stage ... the world is better when more of us own a little piece of something'. The timestamped link (4250s) lands there."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "S11 at 1:09:35: 'And at first, early on for me, it was'."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "Her next sentence in S11 and 'work for somebody ever again' in S07 (09:49) both point at employers; the article reads no further."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "S07 at 09:45-09:49 verbatim."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "S07 at 08:38-09:20: 'fighting a little bit with the CEO', 'you need to do it our way', 'So no, I'm going to run the business this way'."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "S04 verbatim."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "S04: 'especially as Latinos, because we stand out ... Don't hide it, but be aware.'"
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "S04: 'When I knew I was leaving Goldman, my boss wouldn't allow me to travel for a job interview. So I paid my own way.'"
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "S04 carries the caption 'Codie Sanchez, CEO, Keynote Speaker, & Investor, CS Inc.'; it is also in the 2019-09-22 Wayback capture. S14's upload date is 2016-12-30, five and a half months before the interview."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "qualified",
+      "reason": "A labelled inference. The resemblance is real (S04: accelerated programme, Ivy League peers, 'no idea what a mutual fund was'; S05/S06: Vanguard, peers from 'fancy schools'); identity is not established."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "S06 verbatim."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "S04: 'I still want to change the world ... helping put Latinos, women, and other minorities in positions of power.'"
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "S06: 'Her father owned a company selling granite and her mother was a special-education teacher.' Attributed in the article."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "S06 lists 'Entourage Effect Capital, where she helped manage $160 million in assets' after First Trust; attributed to Entrepreneur in body and FAQ."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "S03: 'I used income from my W-2 job for the down payment'; S06: 'more than 10 years since she purchased her first laundromat'."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "S19: 'Before founding Contrarian Thinking in 2019'; S06: 'In 2019, Sanchez launched Contrarian Thinking'; S20: 'In 2020 ... Sanchez launched Contrarian Thinking'."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "S06: 'finally got comfortable enough to close the door on the finance world'. The phrase is the reporter's and the article attributes it to the profile."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "Title confirmed from yt-dlp metadata (upload 2023-08-26); S03: 'I got kicked out of the corporate club'; S08 at 1:42:43: 'he did me a huge favor by pushing me out'."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "qualified",
+      "reason": "The reason given is sourced (S07 1:31:33 and 1:33:05), but one remark does not exclude Six, as the sidecar itself says. 'Weakens' is the right strength."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "S07 at 1:30:15-1:30:31: the closing-tradition question, quoted as asked."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "S07 at 1:33:20: 'they were like, let's talk about this. Let's get motivational. And I'm like, no.'"
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "supported",
+      "reason": "S12 at 35:20-35:30: 'on my tombstone, you know, managing director ... That doesn't interest me at all.'"
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "S12 at 35:52 verbatim."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "Interpretation against the article's own lead, built from verified statements (S12, S06)."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "Each instance is in the sources (S04 twice, S07, S11). 'Mostly refuse' is a fair summary."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "qualified",
+      "reason": "The count and the three concessions are accurate on her quoted words. Entrepreneur's paraphrase of the Vanguard telling (she realised she lacked 'the social awareness, the social language') is the reporter's wording and sits beside 'concedes nothing' unmentioned (verify2-02)."
+    },
+    {
+      "claim_id": "C137",
+      "verdict": "qualified",
+      "reason": "The dated statements on both sides are verified. The weighting is a typological judgment, labelled as such; pre-campaign is not pre-incentive, which the article acknowledges by saying she already had a brand in 2017."
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "S02 opening line and the 'you never prioritized family' passage, which is her paraphrase of commenters."
+    },
+    {
+      "claim_id": "C139",
+      "verdict": "supported",
+      "reason": "S02 verbatim."
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "supported",
+      "reason": "S07 at 23:41-23:52 verbatim; S27 at 00:20-00:32 plays the same words up to 'It just was my first one'."
+    },
+    {
+      "claim_id": "C141",
+      "verdict": "supported",
+      "reason": "S27 at 08:40; captions spell the name 'Cody'."
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "qualified",
+      "reason": "Negative finding. My search on 2026-10-10 found no reply from her to the video. Dated to the day."
+    },
+    {
+      "claim_id": "C143",
+      "verdict": "supported",
+      "reason": "S13 at 56:46-56:55: 'how do I set myself up so options are always on the table? I don't want to create myself a business that I have to be a slave to while I'm pregnant.'"
+    },
+    {
+      "claim_id": "C145",
+      "verdict": "supported",
+      "reason": "S14 at 01:03: 'so we won awards'; S04: 'We wrote the story' and 'I thought we were going to change the world'."
+    },
+    {
+      "claim_id": "C147",
+      "verdict": "supported",
+      "reason": "An editorial choice the article states plainly."
+    },
+    {
+      "claim_id": "C148",
+      "verdict": "supported",
+      "reason": "S20's version ('You're not really in the game until you find yourself in the dead of night, sitting in the dark, head held in hands') differs in wording from S11's."
+    },
+    {
+      "claim_id": "C149",
+      "verdict": "qualified",
+      "reason": "'Wants no master' is her 2023 phrase (S07); 'often' stands for four of the seven setbacks the article counts. Fair as a summary, with the gatekeeper stories naming control."
+    },
+    {
+      "claim_id": "C150",
+      "verdict": "supported",
+      "reason": "S08 at 42:18-42:24: 'I don't give equity and contrarian thinking my media company because I want to own my name forever'; the clip inside S27 (08:20) is captioned 'in Contrarian Thinking'."
+    },
+    {
+      "claim_id": "C151",
+      "verdict": "supported",
+      "reason": "S07 at 22:38-23:41: Bartlett sets the role-play ('a 25-year-old', '$7,000 in the bank'), answers 'I do content', and she says 'don't buy a laundromat. I talk about laundromats. I actually need to change that.' Turns are read from context."
+    },
+    {
+      "claim_id": "C152",
+      "verdict": "supported",
+      "reason": "S07 at 23:52-24:01: 'if you can't understand quarter, machine, clothes, clean, don't buy a business ... And so, that's why I talk about laundromats.'"
+    },
+    {
+      "claim_id": "C153",
+      "verdict": "supported",
+      "reason": "S27's clip ends at 'It just was my first one'; S07 continues 'and it's very easy to understand'. The article reports the difference and assigns no motive."
+    },
+    {
+      "claim_id": "C154",
+      "verdict": "supported",
+      "reason": "S27 at 02:55-03:07: 'I can't tell you whether Cody owns a single laundromat today. I looked. I couldn't confirm it anywhere.'"
+    },
+    {
+      "claim_id": "C155",
+      "verdict": "supported",
+      "reason": "S12 at 32:29-32:36: 'So we own a ton. We own roofing and um exteriors and uh laundromats and car washes'; the link (1944s) lands there. S19 refers to 'her own portfolio of laundromats'."
+    },
+    {
+      "claim_id": "C156",
+      "verdict": "qualified",
+      "reason": "Both of her statements are verified (S28, S12, S19) and no independent record turned up in my search. S03 has her say in September 2026 that her younger self 'would also be surprised that I owned laundromats', a past tense that does not settle it either way."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "AOL syndication fetched fresh (HTTP 200) and read from headline through the symptoms paragraphs: dateline 'Mon, June 22, 2026', ages, December due month, the 'brute-force' and 'Navy SEAL' quotations."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "api.fxtwitter.com JSON for status 2070213306883920099 fetched fresh (HTTP 200) and read in full: author Codie_Sanchez, created Thu Jun 25 18:31:29 +0000 2026. A second mirror (api.vxtwitter.com) returned 403; x.com itself was not opened. S01 quotes overlapping sentences."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "HOLA! US page fetched fresh (HTTP 200) and read in full; datePublished 2026-09-01. Answer 1 (border, money, 'only Latina'), answer 3 (first laundromat), the scaling answer ('built the opposite'), the Contrarian Thinking answer ('kicked out of the corporate club')."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Live page fetched fresh (HTTP 200) and read in full, question by question; also the 2019-09-22 Wayback capture (id_ path), which carries the same text, date and 'CS Inc.' caption. The 2019 capture's byline is Zach Baliva; the live page says Frannie Sprouls (verify2-04)."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Page fetched fresh (HTTP 200) and read to the end, including 'Everything to Lose': dated September 28, 2026, by Billy Yost; opening paragraphs, 'a former Navy SEAL', 'I am a workhorse', the Vanguard paragraph."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Entrepreneur page fetched fresh (HTTP 200) and read in full: Sep 16, 2026, Stephanie Schomer; biography section (Phoenix, parents, Vanguard, the vow, firms), the 2019 launch paragraph, the social-media quotation, closing paragraphs."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en-orig caption track downloaded with yt-dlp (upload 2023-06-22); read 04:40-10:20, 22:20-24:40, 1:06:30-1:08:10, 1:15:20-1:21:50 and 1:30:00-1:34:40. Auto-captions without speaker labels; turns read from context; not confirmed by ear."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en-orig caption track downloaded with yt-dlp (upload 2024-08-12); read 11:40-12:15, 33:10-36:10, 41:40-43:20, 1:41:10-1:43:10 and 1:59:40-2:01:20. Unpunctuated auto-captions; not confirmed by ear."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en-orig caption track downloaded with yt-dlp (upload 2023-10-19); read 1:03:30-1:05:10 ('us against the world'). Auto-captions; not confirmed by ear."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en-orig caption track downloaded with yt-dlp (upload 2026-09-03); read 07:20-08:45 and keyword hits for the pregnancy and due month. Cited only as corroboration."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en-orig caption track with speaker-change markers downloaded with yt-dlp (upload 2026-09-21, Lewis Howes channel); read 44:20-49:10 and 1:07:40-1:13:40. Auto-captions; not confirmed by ear."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en-orig caption track downloaded with yt-dlp (upload 2026-08-20, The Mother Daze); read 05:00-06:15, 12:30-13:00, 23:45-24:40, 25:30-26:40, 32:00-33:30, 34:40-36:10 and 46:00-46:45. Auto-captions; not confirmed by ear."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en-orig caption track downloaded with yt-dlp (upload 2026-08-26, Valeria Lipovetsky); read 46:00-47:10 and 53:40-57:30, with the raw cues at 56:21-56:40 checked for the speaker marker before 'And that I have no idea'. Auto-captions; not confirmed by ear."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en-orig caption track downloaded with yt-dlp (upload 2016-12-30, her channel); read in full, 00:02-03:05. Place names are garbled in captions; the article paraphrases the resident's question."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en-orig caption track downloaded with yt-dlp (upload 2023-08-26, her channel; title confirmed); read 09:30-11:50 plus keyword hits for First Trust and Arizona. Auto-captions; not confirmed by ear."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en-orig caption track downloaded with yt-dlp (upload 2022-03-22, The Brave Table Podcast by Dr. Neeta Bhushan); read in full, 00:00-03:33. Lowercase unpunctuated captions."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en-orig caption track and video description downloaded with yt-dlp (upload 2024-07-23, BigDeal by Codie Sanchez); read 01:55-03:10 and the description ('Codie's husband and former Navy Seal, Chris Petkas')."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Cronkite School page fetched fresh (HTTP 200) and read in full: 'Sunday, Apr. 12, 2009'; college print category; 17 students named, Codie Sanchez among them."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Press release fetched fresh (HTTP 200) and read in full: dateline September 18, 2026; first paragraph; 'About The Author' (2019 founding year); 'her own portfolio of laundromats, car washes, roofing companies'."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "About page fetched fresh (HTTP 200) on 2026-10-10 and read in full: parents paragraph, the father quotation, 'earned her the Robert F. Kennedy Award', 'In 2008 ... first job at Vanguard', the 2020 launch."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Page fetched fresh (HTTP 200); read 'The pledge of the contrarians' and the paragraphs on either side."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fortune page fetched fresh (HTTP 200); read the biography paragraph (Vanguard, Goldman Sachs, State Street). Cited only as corroboration of the career list."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en-orig caption track downloaded with yt-dlp (upload 2026-07-17, Hard Hat Economics); read in full, 00:00-09:51. Both embedded clips compared with S07 (23:41-23:52) and S08 (42:18-42:24)."
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Episode page fetched fresh (HTTP 200); datePublished 2023-07-03; read the cold open and the transcript at 45:04-46:35 (laundromat numbers, sale, 'For you, I'd say don't buy a laundromat')."
+    },
+    {
+      "source_id": "S30",
+      "opened": true,
+      "context_matches": true,
+      "locator": "en-orig caption track downloaded with yt-dlp (upload 2023-07-24, Brendan Dell); read 00:00-01:30 and keyword-searched. Cited only to record that criticism exists; it alleges no official action."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Body and both type FAQs no longer say she never confronts anyone or simply grants verdicts. Each concession sits in a section that reports what she did (S07 08:38-09:38, S04, S11 46:40-47:10), the mountain and the marriage are excluded from the confrontation count, and C64, C88, C136 and the discriminator match the article. C78's inference keeps one stale phrase (verify2-05), which does not affect the article."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Confirmed in S11 at 1:09:44 and S07 at 09:49. The three sentences are replaced by her own continuation, quoted and linked; nothing hints at an undisclosed person; C80 and the unexplained note are corrected."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "The control line carries her preface 'At first, early on for me'; the present-tense answer is quoted with a timestamped link that lands on it; the 2017 purpose is reported and set aside with a reason; the promotional discount is applied to both sides."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "The whole answer is quoted as S04 has it, 'Don't hide it, but be aware' and the Latino framing are in, the 'no' line introduces the story, the situational explanation is named, and 'kept a tally' is gone."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "The general unattributed lead is gone. The section states the complaint in one sentence, names the YouTube commentator in the paragraph after her 2023 statements, quotes his limiting conclusion, dates the no-response finding and separates the official-finding search from his charge. The 'who' arrives one paragraph after the 'what', which meets the purpose of the test and also satisfies unfamiliar-01. I read S27 in full."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "The shift in emphasis is described accurately against S14, S04 and S03; 'we' is noted for 2016 and 2017; the rejection accounts are called two stories. The added may-be-one-episode sentence is labelled as the profile's inference and asserts nothing, which reconciles this test with fan-03."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "Title and meta_title are questions; the description says 'often' and 'Type 3 leads, Type 8 close'; meta_title is 54 characters."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "Checked against S02. Audience and the commenters are both reported, 'You are not failing' is quoted, the durations sentences are gone, no loss or sibling detail is added, and the post is explicitly not counted for type."
+    },
+    {
+      "finding_id": "subject-09",
+      "accepted": true,
+      "reason": "No leave is asserted; the 'test' framing is attributed to Lipovetsky, which S13 at 55:35 supports; C33 keeps its trigger."
+    },
+    {
+      "finding_id": "subject-10",
+      "accepted": true,
+      "reason": "All five corrected: the fan line carries its contrast (S12 35:46), the 'business bully' line is removed from body and FAQ, 'most afraid' matches the question (S07 1:30:15), 'the ramp up to it' is her phrase (S16), and 'in the middle of the night' matches S11."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Replaced with 'predates Contrarian Thinking but not her brand', supported by the caption in S04 and the December 2016 video. Nothing in the body, FAQs or claims calls the material pre-brand."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "The 'no' line opens the story, the full sequence is quoted, and the weighing paragraph says she refused the decision and accepted the perception. 'Cleaner test' is gone. The section is longer than the test asked; the length condition is a preference and the content could not be met otherwise."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Option (a): the resemblance to Vanguard, the possibility of one episode, the label 'this profile's inference' and what changed between tellings are all stated; the tally counts the 2026 Vanguard telling on the control side."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Accurate to S14 and S04: both elements are in the early tellings and the article says the versions are compatible. The resident's question is paraphrased, which suits unconfirmed captions."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "The opening says Howes quoted the book and that she tells the story as a lesson, and notes the site's version of her father's line; the weighting separates pre-campaign from 2026 tellings; FAQ and description agree. The word cap was exceeded for stated reasons."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Entourage Effect Capital is named with attribution in body and FAQ; the First Trust exit is distinguished from the later exit from finance; the parents quotation is attached to the later one, as S06 places it; both framings of the departure are noted."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "The objection has its own paragraph with the tombstone quotation (S12 35:24), gives the Three answer and calls it convenient. No claim of indifference to status. Longer than 80 words because it carries enneagram-03 and fan-08."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "The quotation carries its contrast and sits where the Three reading is tested; C85 matches."
+    },
+    {
+      "finding_id": "fan-09",
+      "accepted": true,
+      "reason": "Parents' occupations are stated with attribution to Entrepreneur; the site's line and the Entrepreneur quotation share one sentence; no causal childhood claim."
+    },
+    {
+      "finding_id": "fan-10",
+      "accepted": true,
+      "reason": "The question is quoted as asked and credited to the show's ritual; 'worst fear' is gone from the body and C74."
+    },
+    {
+      "finding_id": "fan-11",
+      "accepted": true,
+      "reason": "The reversal and the commenter context are both reported from S02; the inference is restated narrowly and excluded from the type argument."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "No 'never' or 'in none'. The tally names five tellings with a person in them, reports going to the head of operations and going around two bosses, counts Vanguard, First Trust and Goldman on the control side, scores the two halves separately, and C118 covers Goldman."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Frame, full answer and Latino framing are in; the weighing paragraph names the workplace explanation and says what it leaves unexplained; it concludes 'leans toward Three without settling it'."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "The sentence is accurate and the weighting rests on 'what predates the campaign', not on an absence of image incentives."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Confirmed against S11 45:00-48:25. The opening gives the book frame, the weighting says the 2026 failure statements match the product, the against-interest rationale is gone, and ordinary uses of 'failing' and 'my fault' are explicitly weighted less."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "I compared S27 0:20-0:32 with S07 23:41-24:01: the original is quoted in context with date and timestamp, the critic's argument and his not-a-scammer conclusion are attributed, 'She disclosed the sale herself' is followed at once by his own acknowledgment, and the 'own my name forever' clip is traced to S08 42:18 and used."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Fixed by removal; persuasion is no longer offered as a strain on the Eight reading, and 'kind of hard to work for sometimes' stays in the Eight case."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "The comparison covers all three tellings; the twenty-year-old sentence is followed by 'That motive is known only from her later telling'."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "No leave is stated; the sentence is a dated negative finding."
+    },
+    {
+      "finding_id": "critic-09",
+      "accepted": true,
+      "reason": "The plan is quoted from S13 56:46 and the article says it came second; the order it reports matches the source."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "The leaving section says what she bought first, roughly when, and when the company began (2019 or 2020 by source); 'origin' is used only for the 2016 video; the criticism is one plain sentence before her own statements."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "The two claims have separate paragraphs; the five tellings are named and counted after the reader has met them; each quoted concession sits with its episode; the article says the mountain and the marriage cannot test confrontation. The test's wording assumed she describes no confrontation, which the sources do not support, so the edit rightly reports what she did."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "The sentence claims only that the interview predates Contrarian Thinking, and the same paragraph says she already had a brand."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "No ordinals; the two motives are named by content."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "They are called two stories with the unknown stated; the Latina quotation has its own sentence; the vow is tied to Vanguard in her words."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Each telling is paraphrased so the difference is visible, with the note that they are compatible."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Petkas's background is given at first mention; the home-and-office paragraph is cut; Lipovetsky is introduced in prose as a YouTube host."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Fixed by removal of the opaque paragraph."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Every narrated setback is accounted for and sorted; the tally gives the number with a person in it and names the two with no concession; infertility is not counted; the 60-word answer, FAQs, description and meta_title claim no more than 'several' and 'often'."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "One rule covers both sides, the pre-campaign statements are dated on each side, and the open question about the 2026 register is stated in plain words."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "A paragraph beside the main argument states what the Three reading does not explain and calls its answer convenient; no wing, arrow or subtype."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Type 6 is named and linked where the evidence sits and answered from Mount Baker (S07 1:31:33, 1:33:05) without claiming she seeks no support. The treatment is brief and the article says only that the story 'weakens' a Six reading, which is the strength the record allows."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "(a), (b) and (c) are all in the paragraph, the unsupported sentence is dropped, and a pragmatic Eight is acknowledged."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Accurate to S04 and S14; persona-building in 2017 is stated and treated as behaviour."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "The fear of tapping out is said to fit either reading and the distinction rests on the pleasing-people line, labelled as judgment."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "The second reading of 'thirsty' is added and the remark is said to show the question without answering it."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "No leave or leave date is asserted; the open question is dated and in the past tense."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "The extra weight rests on 2017, 2022 and 2023; the 2026 tellings are presented as on-message."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Replaced with a supported claim that has an entry (C119), which I confirmed against the live page and the 2019 Wayback capture."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "The counts are separate, the dated set is five with each concession beside its episode, and nothing implies five passed-up chances to confront."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "The closing paragraph dates the exchange in prose ('August 2026', 'about four months before her due date'); upload date confirmed as 2026-08-26."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Negative findings on self-typing, testimony, holdings, the critic's video and official action all carry an absolute date; the laundromat FAQ was corrected against S12 32:29."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "Three of the six are cut and the fan line and channel video now name their source. The club line is 'One 2023 remark to Bartlett': it names the host and year but not the outlet in that sentence. The outlet is given with the same interview earlier in the article, so the quotation can be traced."
+    },
+    {
+      "finding_id": "future-08",
+      "accepted": true,
+      "reason": "The reading of her site is dated in prose and C51, C108 and C148 carry triggers; the Forbes sentence and URL are removed."
+    },
+    {
+      "finding_id": "verify-01",
+      "accepted": true,
+      "reason": "The acceptance test for this finding was not among my inputs; I checked the repair on its merits. S07 at 22:38-24:01 contains the role-play and the full answer, and the article now names the original with date and timestamp, quotes it in context and reports her stated reason. The link lands at 23:39."
+    },
+    {
+      "finding_id": "verify-02",
+      "accepted": true,
+      "reason": "Checked on its merits. The rewritten sentence is accurate to S04, S07 and S11: five tellings with a person in them, two without a concession, three concessions each described as what it is. One residual nuance is recorded as verify2-02."
+    },
+    {
+      "finding_id": "verify-03",
+      "accepted": true,
+      "reason": "Checked on its merits. The FAQ sentence was wrong on the record and is corrected: S12 at 32:29 has 'We own roofing and um exteriors and uh laundromats'. C156 covers it with a trigger."
+    },
+    {
+      "finding_id": "verify-04",
+      "accepted": true,
+      "reason": "Checked on its merits. S08 at 42:18-42:24 has the statement; the article cites it with host and year in place of its own reading of the marketing."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "That is her account of her own experience, and this profile goes no further into the marriage than that.",
+      "preserved": true,
+      "reason": "Verbatim at the end of the marriage paragraph. The clip's characterisation of her former husband (S16 01:00) stays out."
+    },
+    {
+      "passage": "Every answer in this record is her own telling, and that limit applies to everything below.",
+      "preserved": true,
+      "reason": "Verbatim, closing the type section before any evidence."
+    },
+    {
+      "passage": "She does not name or date the business, and nobody else has told the story.",
+      "preserved": true,
+      "reason": "Verbatim, in the third paragraph of the opening."
+    },
+    {
+      "passage": "Nobody who has worked for her, competed with her or paid for her programs has been found on record describing how she behaves when crossed. That is the observation most likely to change the type.",
+      "preserved": true,
+      "reason": "Verbatim; the paragraph now opens with the as-of month."
+    },
+    {
+      "passage": "She disclosed the sale herself.",
+      "preserved": true,
+      "reason": "Verbatim, opening its paragraph and followed at once by the critic's own acknowledgment."
+    },
+    {
+      "passage": "The university's record shows a team award for a class project.",
+      "preserved": true,
+      "reason": "Verbatim, closing the award paragraph."
+    },
+    {
+      "passage": "Owning the club is an Eight's sentence. Worrying about looking thirsty is a concern with how wanting appears to other people.",
+      "preserved": true,
+      "reason": "Verbatim, with one added sentence giving the second reading of 'thirsty'."
+    },
+    {
+      "passage": "She disclosed the sale herself. The figures are hers alone, and no regulator action or news investigation alleging that she misled customers was found as of October 10, 2026.",
+      "preserved": true,
+      "reason": "The three parts are no longer adjacent but all remain in one paragraph in the same order, with the critic's acknowledgment and her 2026 statement of holdings between them. Her disclosure beside a dated negative finding, with no flattery and no smear, is intact."
+    },
+    {
+      "passage": "One word in it stays unexplained. She says nobody will control her \"again,\" and she has not said who did. Nothing in this record supports a guess.",
+      "preserved": true,
+      "reason": "Changed because it was false: her next sentence (S11 1:09:44) says what she means, and S07 at 09:49 ties 'again' to employers. The replacement still notices the word and still declines to invent a wound ('this profile reads no more into it than that'), which is what the four reviewers valued."
+    },
+    {
+      "passage": "The scary part, she said, \"is what will I want afterwards.\" Then: \"And that I have no idea.\"",
+      "preserved": true,
+      "reason": "Verbatim as the last two sentences; wording and order match S13 at 56:31-56:37."
+    },
+    {
+      "passage": "The reading should flip if people who have worked for or against her describe habitual open confrontation and indifference to how she is seen.",
+      "preserved": true,
+      "reason": "Verbatim, as its own paragraph."
+    },
+    {
+      "passage": "Nothing in this record supports a guess.",
+      "preserved": true,
+      "reason": "Removed with the false premise it closed. The restraint survives in 'this profile reads no more into it than that'."
+    },
+    {
+      "passage": "When a setback or a hostile judgment landed, what does she say it damaged, and what did she do next?",
+      "preserved": true,
+      "reason": "Verbatim; the strain section now scores its two halves separately."
+    },
+    {
+      "passage": "A twenty-year-old who expected a story about separated families to change the world was after something other than a score or a shield.",
+      "preserved": true,
+      "reason": "Verbatim, with the hedge in the following sentence."
+    },
+    {
+      "passage": "The test used here is narrower. When a setback or a hostile judgment landed, what does she say it damaged, and what did she do next? Every answer in this record is her own telling, and that limit applies to everything below.",
+      "preserved": true,
+      "reason": "Verbatim as the last paragraph of the type section."
+    },
+    {
+      "passage": "Neither type explains the first career well. A twenty-year-old who expected a story about separated families to change the world was after something other than a score or a shield.",
+      "preserved": true,
+      "reason": "Verbatim; the residue is left outside both readings with no wing or arrow."
+    },
+    {
+      "passage": "The Eight reading deserves its strongest form, because her most direct statement of motive belongs to it.",
+      "preserved": true,
+      "reason": "Verbatim as the first sentence of the Type 8 section."
+    },
+    {
+      "passage": "The limit is plain: this is one telling, from 2017, of an unnamed boss, and no one else in the room has spoken.",
+      "preserved": true,
+      "reason": "Verbatim as the last sentence of the weighing paragraph."
+    },
+    {
+      "passage": "no regulator action or news investigation alleging that she misled customers was found as of October 10, 2026",
+      "preserved": true,
+      "reason": "Verbatim; it now shares a sentence and a date with the no-response finding."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.2,
+      "passage": "Every answer in this record is her own telling, and that limit applies to everything below.",
+      "reason": "I re-fetched all 25 cited sources (12 pages, 13 caption tracks) and found all 118 quoted spans in them; every date and link target checks out, and the load-bearing passages are faithful to their context. The one outside document that exists is used against her own marketing (the team award), the critic's clip is traced to its original, and limits are stated where the argument leans hardest. It stays near 8 because no type-bearing episode has an independent account (the unnamed boss, the bank, Mount Baker are each one self-telling), roughly fifty quotations rest on auto-captions not confirmed by ear, and two small precision gaps remain (verify2-01, verify2-02)."
+    },
+    "enneagram": {
+      "score": 8.1,
+      "passage": "What she says was damaged depends on the setback.",
+      "reason": "The argument tests motive under setback, scores the two halves of its test separately, concedes the behavioural half to Type 8, applies one promotional discount to both sides, states what the Three reading cannot explain and names a falsifier. No wing or arrow absorbs anything. It is held near 8 because the discriminator leans without separating, as the article says ('a judgment about how the types tend to talk'); the Three evidence is verbal self-description more than costly choice, while her most costly choice, leaving a prestige track, strains the lead; and Type 6 is answered in two sentences from one remark."
+    },
+    "originality": {
+      "score": 8.7,
+      "passage": "Yep. And maybe he was right. It was a big realization for me. I thought that I was driven, but I was putting a different message out.",
+      "reason": "The central observation is specific to her: gatekeeper stories name control, while stories in which the judgment falls on her name failure or how she came across. It is built from details a standard profile would not have, all verified: the 2017 dead-bodies answer, the Mount Baker retreat, the team award set against her site, the 'CS Inc.' caption, the club remark split into its two halves. Almost no reusable type description."
+    },
+    "writing": {
+      "score": 8.3,
+      "passage": "Five of the tellings above involve a person who judged, blocked or failed her.",
+      "reason": "The opening scene, the plainly stated test, the mountain section and the close are precise and well paced, and sections develop the question instead of restating it. The cost of two rounds of fairness repairs shows in the back half: the tally paragraph quoted here and the laundromat sequence read as an audit, 'this profile' recurs nine times as a hedge, and at 4,392 words the piece runs about 900 over the standard's target band."
+    },
+    "durability": {
+      "score": 8.4,
+      "passage": "What predates the campaign is thinner and counts for more, and both strands are in it.",
+      "reason": "The lead rests on dated statements from 2017, 2022 and 2023, so removing the 2026 book campaign and the pregnancy leaves the argument standing. Every negative finding carries an absolute date and changing facts have review triggers. It is not higher because the hook, the book section and the ending are 2026 material that will want a refresh after December 2026, and several live facts (her site's wording, her stated holdings, any reply to the critic) need rechecking before each release."
+    },
+    "hook": {
+      "score": 8.6,
+      "passage": "\"Excuse me, can you please turn that thing around so I can see what's on that screen?\"",
+      "reason": "A specific scene in her own verified words (S11, 46:21) that sets up the question the article goes on to answer, with its limits stated inside the opening: the interview's date, the book frame, and that nobody else has told the story. 'Borrow against' in the first sentence is slightly off her wording (verify2-01)."
+    },
+    "discoverability": {
+      "score": 8.4,
+      "passage": "Codie Sanchez most likely fits Enneagram Type 3, the Achiever, at medium confidence.",
+      "reason": "A 58-word type answer under the required heading; question-form title and a 54-character meta_title that match the body's confidence; a 170-character description; six FAQs covering type, why not Type 8, who she is, husband, age and laundromats, each consistent with the body and dated where negative; anchors that resolve to real headings; five internal links whose targets exist and five published suggestions."
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "codie-sanchez",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/candidate-repair.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/evidence-repair.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/resolution-repair.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/checks-repair.json"
+  },
+  "outputs": {
+    "verification-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/verification-repair.json"
+  },
+  "content_sha256": "d82a07ff999d4f1c2dbde28cb064b84ae4095def7c571f8a0b7425e32200c09e",
+  "evidence_sha256": "2eb72eda9d3bb24f11a00e73ed237daedf6ca35588b889c239e0e1795141323d"
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "9c397448da403cd6d2702a02e98683d093077eed276a89e7d6091d8f0da4c84f",
+  "evidence_sha256": "9b1fe60dbd565be36ef46b9b08bc0175a6e10cd42dd394c1cc1b5cc361d2b835",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "Both strands were present before she had a brand to protect.",
+      "problem": "False on the draft's own sources. The 2017 Hispanic Executive page captions her \"CEO, Keynote Speaker, & Investor, CS Inc.\"; the scripted \"Origin Story\" video the draft links is from December 2016; and in that interview her stated takeaway is \"personal brand\" and being \"known and wanted\". She was already marketing herself. What did not exist yet was Contrarian Thinking. The pre-brand premise is what lets the paragraph call the 2017 telling \"the cleaner test\".",
+      "acceptance_test": "The sentence is replaced with an accurate one (before Contrarian Thinking, while she was already selling herself as a speaker under CS Inc.). The paragraph's inference says the 2017 interview was itself brand-building advice copy. No passage, FAQ or claim record describes the 2016-2017 material as pre-brand."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "The same interview holds the opposite note. \"I just never accept the word 'no.' I hate that word,\" she said.",
+      "problem": "It is not a separate note. Checked against the interview text: that line opens the same answer that contains the dead-bodies story (the question was how she got to Goldman Sachs), so she tells the story as an example of refusing a no. Inside it she says, \"But when they told me 'you can't,' I went and got the green light somewhere else,\" then \"I adapted. And then I just worked hard. I refused to let up.\" The draft keeps \"adapted\", reduces the end run to a paraphrase, drops \"refused to let up\", and concludes \"she did not dispute the judges.\" She went around the veto and adjusted her image. The thesis-bearing anecdote is mixed evidence presented as clean.",
+      "acceptance_test": "The \"no\" line is placed as the opening of the dead-bodies answer. The \"you can't\" / \"green light somewhere else\" / \"refused to let up\" sequence is quoted or accurately paraphrased. The interpretive paragraph says the episode shows both defiance of the veto and adaptation to the verdict, and argues for Type 3 from the second without denying the first. \"The cleaner test\" is dropped or justified against that. Net-neutral in length."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "At a firm she does not name, she noticed there was no international arm",
+      "problem": "Literally true, but a reader who knows her story will recognize the firm. The 2017 details (\"a company with a competitive accelerated program\", \"Everyone else went to an Ivy League school, and I went to Arizona State\", \"I had no idea what a mutual fund was\") match how she and the draft's own 2026 sources describe Vanguard, her first finance job. So the \"two stories\" are plausibly one employer and possibly one passed-over promotion told nine years apart with a different stated reason (ruthless in 2017, \"wasn't a team player\" over happy hours in 2026) and a different moral (\"personal brand\" in 2017, a bank-account vow in 2026). The evidence record already notes they \"may be the same employer or different ones\"; the draft dropped that hedge and its \"2026 version / 2017 version\" wording leaves the reader unsure whether these are two events or one. This is my inference from matching details, not a sourced identification.",
+      "acceptance_test": "The article either (a) tells the reader that the 2017 details match her descriptions of Vanguard, that the two tellings may describe the same employer or the same episode, labels that as the profile's inference, and names what changed between tellings (the stated reason and the moral), or (b) gives a sourced reason to treat them as separate events. The weight placed on the 2017 telling accounts for a 2026 telling of a Vanguard rebuff that carries a control moral instead of an image moral."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "Its central scene has changed with retelling",
+      "problem": "Misdescribes the 2016 video. Checked against its caption text: the first lines are about a year in Mexico \"writing about the brutal mutilation of women\" (the rest of that sentence is caption-garbled) before it reaches the old folks' home, and the 2017 interview names \"human trafficking and drug smuggling\" and elderly people \"left at the border\" in one answer. Violence did not arrive in 2026. What moved is the turning point: in 2016 a bedridden resident asking whether the coverage meant help was coming, in 2026 bodies and missing posters. As written, the sentence implies an escalation the record does not show, and the evidence record's own note on this claim says the versions are not contradictory.",
+      "acceptance_test": "The sentence says both elements are present in the 2016-2017 tellings and that what changed is which scene she presents as the turning point. Any implication that cartel violence is a late addition is gone, and claim C55 is reworded to match. If the 2016 resident's question is added (it is the most specific detail in the story and supports the section's last sentence), it stays under 35 words and its caption wording is confirmed by ear first."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "Her failure statements cut against the image of a self-made operator, which is why this profile gives them more weight.",
+      "problem": "Not true of the 2026 tellings. Confessed owner failure is the 2026 campaign. On Howes the bank-account story is introduced as the cautionary tale for her weekly-tracking method (\"expect this to happen to you\"). On Modern Wisdom, published eighteen days earlier, she gave the same dark / identity / failure formulation as general advice in the second person (\"you'll sit alone in the dark with no idea of what to do next ... Then you're a failure\"). Her father's line is on her own About page in different wording with no bank story attached. So the hook, presented as a revealing disclosure (\"Then she named what had hurt\"), is a rehearsed set piece, and the against-image premise holds only for the 2017, 2022 and 2023 tellings. The evidence record says as much (\"confessed failure also sells in her market\"); the draft does not.",
+      "acceptance_test": "(a) The opening tells the reader in a clause that she tells this story as the lesson behind her book's tracking method and that her father's line also appears on her site. (b) The weighting paragraph separates pre-campaign tellings from 2026 campaign tellings and rests the discriminator on the former, or argues why the latter still count. (c) The \"five setbacks\" FAQ answer and the description stay consistent with the revised body. Net addition under 60 words."
+    },
+    {
+      "id": "fan-06",
+      "severity": "major",
+      "passage": "worked in finance at Vanguard, Goldman Sachs, State Street and First Trust",
+      "problem": "The list (body and \"Who is\" FAQ) matches her own shortened list in HOLA! and omits the chapter that followed First Trust. Entrepreneur, an opened source, adds \"Entourage Effect Capital, where she helped manage $160 million in assets.\" In sources the draft already uses she reports being mocked as a \"big, successful private equity person\" when she began making content, and twice names \"managing director\" at a private equity firm as the legacy she did not want (Diary of a CEO 2023; The Mother Daze 2026). Consequences: the \"scaredy-cat\" section treats the First Trust exit as the exit from finance; the \"soft landing\" is never identified; Entrepreneur's parents quote is about closing the door on finance after the small businesses paid, which is the later exit; and her 2023 \"I Quit\" framing sits unremarked beside the 2026 \"I got kicked out of the corporate club\" (HOLA!, the same answer the draft quotes).",
+      "acceptance_test": "The body and the \"Who is Codie Sanchez?\" FAQ name Entourage Effect Capital with attribution to Entrepreneur. The leaving section distinguishes the First Trust exit from the later exit from finance and attaches the parents quote to the right one. One sentence notes she has told the departures both as quitting and as being pushed. If the firm's cannabis focus is mentioned (commonly reported, not in this evidence record), it is sourced to an opened page first. Under 90 added words."
+    },
+    {
+      "id": "fan-07",
+      "severity": "major",
+      "passage": "Both fit a person who quit jobs in order to own things.",
+      "problem": "The first objection an informed reader raises to Type 3 never appears. She left the prestige track (Goldman Sachs, a managing-director title) to build her name on laundromats and car washes, and says so: a tombstone reading \"managing director\" and a Ferrari, \"That doesn't interest me at all\" (The Mother Daze, about 35:10); \"a legacy that is not ... managing director at a private equity firm\" (Diary of a CEO 2023). The evidence record lists this under both `against` and `unexplained` (\"chose a deliberately unglamorous field\"), and notes the Three answer, that \"boring\" is a differentiated brand, is \"convenient\". The draft's Eight case has anger, autonomy and toughness but not the choice that most separates her from a stock achiever.",
+      "acceptance_test": "The Type 8 section or the strain section states the objection in plain words with one sourced quotation, says what each reading does with it, and admits the Type 3 answer is convenient. Under 80 words. It makes no new claim that she is indifferent to status."
+    },
+    {
+      "id": "fan-08",
+      "severity": "major",
+      "passage": "A fan's praise, she said in 2026, is \"totally uninteresting to me.\"",
+      "problem": "Truncated so that it argues the wrong side. Checked against the caption text (The Mother Daze, about 35:41): she tells the hosts there is \"something so cool\" about someone saying the thing you created \"changed my life somehow\", then: \"I don't want a fan like you're so cool Cody. That's totally uninteresting to me. But if they're like I built a business, I bought one because of something that you said. I'm like that's cool. That means you did something\". The contrast is admiration versus results she caused, which is the draft's own definition of the Type 3 reading (\"results other people can see\"). It is filed in the Eight case as disclaiming the need to be liked.",
+      "acceptance_test": "The quotation carries its contrast (praise is uninteresting; a business bought because of her \"did something\"). It is either moved out of the Type 8 case or the text says it cuts both ways. It is not offered as evidence that recognition does not matter to her, and claim C85 matches."
+    },
+    {
+      "id": "fan-09",
+      "severity": "minor",
+      "passage": "Her site describes her parents as \"a special education teacher and a self-made blue-collar builder.\"",
+      "problem": "A profile of the best-known advocate of buying small businesses never says her father owned one, though he is the person she calls in both crisis scenes. Entrepreneur: \"Her father owned a company selling granite\"; Hispanic Executive (2026): \"the daughter of a small business owner\". The draft also holds two statements about her parents without setting them together: her site says they \"inspired her to take risks and build her own future\", and she told Entrepreneur they \"didn't understand how I could leave a job like finance\".",
+      "acceptance_test": "The father's business is stated with attribution to Entrepreneur or Hispanic Executive, and the site's claim is set beside the Entrepreneur quotation in one or two sentences. No causal childhood claim is added. Under 50 words."
+    },
+    {
+      "id": "fan-10",
+      "severity": "minor",
+      "passage": "Asked for her worst fear, a person who says she comes off as tough described being the one who taps out in front of her peers, and the lesson she drew was about pleasing people.",
+      "problem": "The question was not about her worst fear. It was the show's closing ritual, a question left by the previous guest: \"When was the moment you were most afraid?\" She prefaced the answer \"This is sort of silly\" and first described fear of falling to her death before saying the heights were not the scary part. \"Worst fear\" turns one remembered moment into a standing fear and overstates what the anecdote can carry.",
+      "acceptance_test": "The sentence matches the question as asked (\"asked when she had been most afraid\"). \"Worst fear\" is removed from the body and from claim C74. The section's opening credits the question to the show's format or stays neutral about who wrote it."
+    },
+    {
+      "id": "fan-11",
+      "severity": "minor",
+      "passage": "Even so, she reached for the word she used for the bank account, the mountain and the marriage: failing.",
+      "problem": "Readers who know the post will see half of it. After \"I've been failing at it for years\" she turns the word around for her readers: \"You are not lazy. You are not late. You are not failing.\" The \"blaming myself every seven seconds\" line sits inside her answer to a stranger's comment, which she quotes as \"you never prioritized family\". The draft quotes the setup and leaves out both the reversal and the provocation. It also means the infertility telling does contain a critic, whom she answers in the post, so it is not simply a setback with nobody to confront.",
+      "acceptance_test": "The paragraph says the post goes on to tell readers \"You are not failing\" and that the self-blame line comes in her answer to a critical comment. The inference is then restated accurately (a verdict she passes on herself and lifts from others) or dropped. No lyrics and no medical detail beyond her published words are added."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The university's record shows a team award for a class project.",
+      "reason": "Sets the contemporaneous record beside her marketing without commenting on intent. An informed reader trusts the rest of the page more because of it."
+    },
+    {
+      "passage": "Owning the club is an Eight's sentence. Worrying about looking thirsty is a concern with how wanting appears to other people.",
+      "reason": "A specific, fair reading of a line her audience knows, and the clearest place where both types are heard in one breath."
+    },
+    {
+      "passage": "She disclosed the sale herself. The figures are hers alone, and no regulator action or news investigation alleging that she misled customers was found as of October 10, 2026.",
+      "reason": "Handles the laundromat criticism the way a fair fan would want: her own disclosure, the critic's point, and a dated negative finding, with no flattery and no smear."
+    },
+    {
+      "passage": "One word in it stays unexplained. She says nobody will control her \"again,\" and she has not said who did. Nothing in this record supports a guess.",
+      "reason": "Names the gap every close listener notices and refuses to fill it with an invented wound."
+    },
+    {
+      "passage": "The scary part, she said, \"is what will I want afterwards.\" Then: \"And that I have no idea.\"",
+      "reason": "Ends on her own open question in her own order of words. It will still read true after the birth and the book cycle."
+    }
+  ],
+  "assessment": "Read as a reader who knows her interviews. The draft refuses flattery where it counts: it corrects the RFK award to a team award, reports the laundromat sale, and says every setback is self-told. Keep that. Its weakness is the handling of her most familiar material, and the slips lean one way, toward the Type 3 discriminator: the 2017 interview is called pre-brand when she was already selling herself as CS Inc.; the defiance inside the dead-bodies answer is trimmed; the fan-praise quote is cut in half; \"most afraid\" becomes \"worst fear\"; the border story is said to have escalated although violence opens the 2016 video; and 2026 campaign confessions are weighted as if they cut against her image. Missing context an informed reader expects: the private-equity chapter after First Trust, a father who owned a small business, and the plain objection that an image-driven achiever does not usually build her name on laundromats. Type 3 can still lead, but medium confidence has to rest on the corrected passages, and Type 8 probably ends up closer than the draft allows. Limits: I checked the flagged passages against the research stage's cached page and caption text for S02-S07, S10-S12, S14 and S20. I did not listen to audio, so caption wording is still unconfirmed by ear, and the Vanguard identification in fan-03 is my inference. Eleven findings exceed the target of eight because five are source-context errors. Similarity: not tripped. The nearest pairs share only ordinary Type 3 vocabulary; I saw the advisory's snippets, not the comparison drafts. The injury-and-response test and its details are specific to her. This is correctly a standard profile, not an open case. The draft is 3,672 words; most fixes are replacements, and the additions (under 300 words) should be paid for with cuts."
+}

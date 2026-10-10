@@ -1,0 +1,24 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "unresolved:verify-01:The clip is traceable, and to a source this article already cites and draws on in four sections. It is in The Diary of a CEO, June 22, 2023 (S07), at about 23:41-24:00 by the auto-captions, word for word. Bartlett plays a 25-year-old with about 7,000 in the bank who makes content for a living and asks for a first step. She answers: \"if you do content for a living, what I'd say is don't buy a laundromat. I talk about laundromats. I actually need to change that. I need to like tell somebody I bought a different first business because it's a terrible business to buy. It just was my first one and it's very easy to understand ... And so, that's why I talk about laundromats.\" So 'not traced here to its original' is wrong, and the reader is told that the context of the most adverse quotation in the article is unknown when it is in hand. The context cuts both ways and the article gives neither side: her stated reason for teaching with laundromats, and her own 2023 remark that she needed to change that message, which is the critic's complaint. S07's locator shows why it was missed: 10:30-44:00 was read by keyword only. C140's review trigger (trace the clip, quote it in context, remove 'not traced') has fired. This is the one passage that carries the sensitive-allegations risk.",
+    "overall_below_8.5:8.3"
+  ],
+  "quality": {
+    "evidence": 8.2,
+    "enneagram": 8.3,
+    "originality": 8.8,
+    "writing": 8.2,
+    "durability": 8.3,
+    "hook": 8.3,
+    "discoverability": 8.5,
+    "overall": 8.3,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-10",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "d9e164edb7193d966868ae6d5f0482760fe65fbf6408701241923607ea3299fe"
+  }
+}

@@ -1,0 +1,24 @@
+The future-role review is written to `review-future.json` in the run directory. It parses against `reviewSchema`, both hashes match the request, and every finding and protected passage is an exact string from the draft. No other file was touched and nothing was published.
+
+**Five-year verdict:** the central insight survives. Take away the 2026 book campaign and the pregnancy and both sides of the Type 3 vs Type 8 argument still have dated support from 2017–2024. The weak spot is the frame: the hook, the stated question, the last two sections and the ending all come from one six-week promotional window (8 of 23 citations).
+
+**Four major findings:**
+- **future-01:** The draft says her leave is "expected from December 2026." The evidence record says the leave is inferred and she has announced no dates, and the future-tense sentence goes stale in about ten weeks.
+- **future-02:** The draft gives her failure stories extra weight because they "cut against the image of a self-made operator." That holds for 2017–2023, but in the 2026 campaign confessed failure is the book's pitch. The evidence record notes this limit and the draft drops it.
+- **future-03:** "Both strands were present before she had a brand to protect" is contradicted by the record. In 2017 she was already selling a personal brand and named "personal brand" as her takeaway.
+- **future-04:** The "five tellings, never confronts" count only tests two episodes, because the marriage, the mountain and infertility have no one to confront. One of the three quoted concessions ("as is fair") comes from First Trust, which is not among the five. The Type 8 FAQ repeats the count.
+
+**Four minor findings:**
+- **future-05:** The closing paragraph carries no date.
+- **future-06:** The laundromat FAQ uses "now," and several negative findings are undated.
+- **future-07:** Six quotations are placed by a bare year with no outlet named.
+- **future-08:** Claims about what her live site and the Forbes page say lack review triggers.
+
+**Risk flags:** sensitive allegations and contested typing stay true, matching the research record; the other two are false.
+
+**Similarity:** the advisory says it did not trip, although its top pair (0.065) sits above the stated 0.048 threshold. I compared all twelve pairs and found only a shared connective and ordinary Type 3 vocabulary, so there is no finding.
+
+Three things outside the findings:
+- The birth-related claims all fall due in December 2026, so this page needs a reopen in early 2027 whatever else happens.
+- I did not open sources in this role; judgments about source content rest on the evidence record.
+- No caption-sourced quotation has been confirmed by ear yet (research task 1). That is outside this role, but it is still open.

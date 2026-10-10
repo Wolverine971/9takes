@@ -161,6 +161,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'casey-neistat', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'Vlogging\'s Restless Artist', contentGrade: 8.6, types: ['creator', 'viral-entertainer'] },
 		{ name: 'charlie-puth', link: true, hasImage: true, lastmod: '2026-07-01', personaTitle: 'Pop\'s Perfect-Pitch Romantic', contentGrade: 8.7, types: ['musician'] },
 		{ name: 'clavicular', link: true, hasImage: true, lastmod: '2026-05-13', personaTitle: 'Looksmaxxing\'s Beautiful Wound', contentGrade: 9.3, types: ['influencer', 'creator', 'streamer'] },
+		{ name: 'dakota-johnson', link: true, hasImage: true, lastmod: '2026-10-09', personaTitle: 'The Tender Fighter', contentGrade: 8.6, types: ['movieStar', 'celebrity'] },
 		{ name: 'demi-lovato', link: true, hasImage: true, lastmod: '2025-06-25', personaTitle: 'Pop\'s Rebuilt Original', contentGrade: 8.8, types: ['musician'] },
 		{ name: 'dixie-damelio', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'TikTok\'s Shadow Sister', contentGrade: 8.1, types: ['tiktoker', 'lifestyle-builder'] },
 		{ name: 'elton-john', link: true, hasImage: true, lastmod: '2026-07-01', personaTitle: 'Rock\'s Sequined Loner', contentGrade: 8.6, types: ['musician'] },

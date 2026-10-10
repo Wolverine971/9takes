@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "9c397448da403cd6d2702a02e98683d093077eed276a89e7d6091d8f0da4c84f",
+  "evidence_sha256": "9b1fe60dbd565be36ef46b9b08bc0175a6e10cd42dd394c1cc1b5cc361d2b835",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "Her business claims are contested, and the most specific criticism concerns the laundromats at the center of her origin story.",
+      "problem": "This is the first time the reader is told she owned laundromats. Until here they appear once, as an example of what her company teaches, and \"origin story\" has meant the border reporting (\"It is also a brand story\"). The move she is known for, from finance to buying small businesses, is one undated clause (\"She bought small businesses on the side for years first\"), and no start date for Contrarian Thinking is given. A reader without prior knowledge cannot tell which claims are contested or why it matters that she sold, and the critic's point is left for them to infer.",
+      "acceptance_test": "By the 'Leaving finance' section at the latest, the article says in attributed sentences what she bought first and roughly when the company began, using facts already in the record (C35; the 2019 versus 2020 launch discrepancy stated, or the date given as approximate). 'Origin story' names one thing. The laundromat criticism is stated in one plain sentence before her own disclosure is set against it. A reader who has never heard of her can answer 'what did she build, and what is the complaint?' from the text alone."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "In none of them does she describe confronting the person who crossed her.",
+      "problem": "The sentence applies a confrontation test to five episodes, but on the article's own telling only two have anyone to confront: the boss in the dead-bodies story and the head of operations. Nobody crossed her on Mount Baker, in the marriage as described, or in infertility; the record's own note on C88 concedes this for two of them. One of the three quoted concessions, \"as is fair,\" comes from the First Trust exit, which is not among the five. The fifth exhibit is \"described below,\" so the tally is counted before the reader has seen it. The FAQ 'Why isn't Codie Sanchez a Type 8?' repeats the claim. A careful newcomer will see the count doing two jobs and discount the argument it is meant to settle.",
+      "acceptance_test": "Body and FAQ separate the two claims: in all five she names failure or how she was seen; in the episodes that have an antagonist, which are named and counted, she describes conceding and does not describe a confrontation. Each quoted concession belongs to a listed episode. No episode is tallied before the reader has read it. The article states that the episodes without an adversary cannot test confrontation."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "major",
+      "passage": "Both strands were present before she had a brand to protect.",
+      "problem": "The article contradicts this itself. Two sections earlier her border story is called \"a brand story\" and traced to a 2016 video, and in this same section her 2017 takeaway is \"I think it's about personal brand.\" The record agrees: in 2017 she described herself as CEO of 'CS Inc.' and a keynote speaker, and the 2016 video is a scripted brand piece (S04, S14). The sentence makes the 2017 interview look like an unperformed baseline, and the 'cleaner test' that follows leans on that.",
+      "acceptance_test": "The sentence claims only what the record supports, for example that both strands predate Contrarian Thinking and its audience, and the article acknowledges that she was already building a personal brand in 2016 and 2017 where it weighs the dead-bodies answer."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "Those two answers are the question of this profile. The second is the one her company is built on.",
+      "problem": "The sentence before calls the control line \"Her first answer.\" This paragraph then calls control 'the second' and failing 'The first,' so one ordinal points at opposite motives within four sentences, and the failure line was not an answer to any question shown. This paragraph sets up the whole piece and takes a reread to map.",
+      "acceptance_test": "The paragraph names the two motives by content (failing; being controlled) with no ordinals, and after one reading a newcomer can say which is the slogan and which is the setback story."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "Sanchez tells two stories about being turned down early in finance",
+      "problem": "The next sentences call them \"the 2026 version\" and \"The 2017 version,\" which reads as one incident told twice. The record does not know whether they are the same employer or event (C11). The Latina quotation is spliced into the same sentence and implies a link to the rejections that she is not shown making. The vow about \"my bank account\" does not follow from a happy-hours story as told.",
+      "acceptance_test": "The paragraph states plainly that these are two accounts and that it is not known whether they describe the same employer, and uses 'story' or 'version' consistently. The Latina quotation stands in its own sentence or is cut. The bank-account vow is connected to the Vanguard episode in her own words or removed from this spot."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "Its central scene has changed with retelling",
+      "problem": "The reader is told the scene changed but is shown neither version: nothing from the 2016 video is quoted, and \"cartel violence\" appears nowhere else in the article. The implied embellishment cannot be judged, and the record's own caveat that the versions need not conflict, since the 2017 interview mentions both (C55), is missing.",
+      "acceptance_test": "Either a short attributed line or neutral paraphrase from each telling lets the reader see the difference, with a note that the two are compatible, or the sentence is reduced to what is documented: only the class project is independently confirmed."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "You don't see the part where I have to ask a Navy SEAL to please just hold me because I cannot do it by myself.",
+      "problem": "The quotation lands before the reader knows her husband was a Navy SEAL; that fact arrives two paragraphs later. That later paragraph (home \"alpha,\" office \"crazy person,\" who runs the holdco) has no stated bearing on the control-or-failing question and stalls the section. Its interviewer, Lipovetsky, is named only inside a citation link and then by surname alone in the final paragraph.",
+      "acceptance_test": "Petkas's SEAL background is stated where he is first introduced or before the PEOPLE quotation. The home-and-office paragraph says in one sentence what it does or does not show about the question, with the limit that it is one spouse's description, or is cut to identifying facts. Lipovetsky is identified in prose on first mention."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "That is a seller's method, described by the person using it.",
+      "problem": "The paragraph offered as the first strain on the Eight reading leaves the typology to the reader. \"say nothing about what my highest value is\" is opaque without a gloss, the long quotation is hard to parse as captioned, and the text never says why selling instead of ordering counts against Type 8. Steering people without their noticing can read as control.",
+      "acceptance_test": "One plain sentence glosses what she means (she frames requests around what the other person wants, per C31) and one says why that separates the two readings for a reader new to the Enneagram, with the limit that this is her own description of her method."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "When a setback or a hostile judgment landed, what does she say it damaged, and what did she do next?",
+      "reason": "Gives a reader with no Enneagram background one plain test to carry through every later section. It is what makes the type argument followable."
+    },
+    {
+      "passage": "A twenty-year-old who expected a story about separated families to change the world was after something other than a score or a shield.",
+      "reason": "Names both types in two concrete nouns and admits what neither explains. The portrait stays larger than the typing."
+    },
+    {
+      "passage": "One word in it stays unexplained. She says nobody will control her \"again,\" and she has not said who did. Nothing in this record supports a guess.",
+      "reason": "Raises the question a new reader most wants answered and declines to invent the answer. Curiosity and restraint in three sentences."
+    },
+    {
+      "passage": "Owning the club is an Eight's sentence. Worrying about looking thirsty is a concern with how wanting appears to other people.",
+      "reason": "The clearest single demonstration of the two readings: one remark of hers split into its control half and its image half. A newcomer understands the distinction here."
+    },
+    {
+      "passage": "The scary part, she said, \"is what will I want afterwards.\" Then: \"And that I have no idea.\"",
+      "reason": "The piece ends on her own unanswered question instead of a verdict or a moral, and it will still read true after the dated events pass."
+    }
+  ],
+  "assessment": "Read cold, the profile orients quickly and holds attention. The empty bank account and the 'real dream' answer twenty minutes later set a question a newcomer can carry, and the type section turns it into a test stated in plain language. Dead bodies, Mount Baker, the club line and the closing answer are specific to her, and limits are stated where they apply. A reader with no prior knowledge still finishes without knowing how she became known: the move from finance to buying laundromats is one undated clause, and the final section assumes it. The decisive tally in 'Where the Eight reading strains' claims more than its five episodes can show, and the 2017 interview is called pre-brand against the article's own evidence. Five smaller reference and clarity problems are listed. Similarity advisory: not tripped. The top lead (0.065, Tate McRae) shares only 'in order to', and the Type 3 leads are ordinary type vocabulary; the discriminator is specific to this subject. I compared the excerpts in the diagnostic, not the other drafts. The body runs about 3,650 words. These repairs need roughly 120 added words, recoverable from the stacked quotations in 'Leaving finance' and the husband paragraph. Risk flags are carried from the record: sensitive allegations (a critic's claim about her marketing, an unnamed manager said to have hidden losses, infertility, a divorce) and contested typing, which the article itself concedes."
+}

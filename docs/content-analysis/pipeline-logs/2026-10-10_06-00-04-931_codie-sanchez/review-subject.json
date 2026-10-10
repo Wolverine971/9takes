@@ -1,0 +1,107 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "9c397448da403cd6d2702a02e98683d093077eed276a89e7d6091d8f0da4c84f",
+  "evidence_sha256": "9b1fe60dbd565be36ef46b9b08bc0175a6e10cd42dd394c1cc1b5cc361d2b835",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "blocker",
+      "passage": "In none of them does she describe confronting the person who crossed her. She grants the verdicts instead: \"maybe he was right,\" \"as is fair,\" \"it was my fault.\"",
+      "problem": "The behavioral half of the discriminator misdescribes the cited record, and the FAQ repeats it as fact (\"never describes confronting the person who crossed her\"). (1) \"as is fair\" comes from the First Trust account (S07, about 08:20-09:50), which is not one of the five tellings. In the sentences just before it she says she was \"fighting a little bit with the CEO\", told the managing directors \"So no, I'm going to run the business this way\", and \"we were kind of arguing\". (2) In the bank story (S11, about 46:22-46:53) she says \"I go to the guy who's the head of operations\" and reports his reply: \"I did tell you this one time that it might be tight this summer\". The draft drops his reply and the fact that she went to him. (3) The 2017 dead-bodies answer (S04) continues \"when they told me 'you can't,' I went and got the green light somewhere else\" and \"I refused to let up\"; her next answer describes a Goldman boss who \"wouldn't allow me to travel for a job interview. So I paid my own way.\" (4) Her infertility post (S02) answers people who shamed her and rejects their verdict: \"You are not failing.\" (5) Mount Baker and infertility involve no one who crossed her, and listing the marriage beside \"the person who crossed her\" implies something about a private former spouse that the draft elsewhere rightly declines to say. Readers are told she yields to her judges. In most of the cited episodes her own account has her arguing with them, going around them or rebuking them. S07 and S11 were read from auto-captions, not by ear.",
+      "acceptance_test": "Body and FAQ no longer say she never confronts or that she grants the verdicts. Each quotation used as a concession carries what she says she did in the same passage (First Trust: argued and said no; 2017: took the idea elsewhere and did not let up; bank: went to the head of operations, with his reported reply). Episodes with no adversary are not counted toward any claim about confrontation, and the marriage is not described in terms of a person who crossed her. If Type 3 still leads, the discriminator is restated on evidence that survives those passages, and C88, C64, C78 and type_hypothesis.discriminator say the same thing as the article. If the leading type changes, the run goes to --refresh --expanded-review."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "One word in it stays unexplained. She says nobody will control her \"again,\" and she has not said who did. Nothing in this record supports a guess.",
+      "problem": "She does say, in the next sentence of the same answer (S11, about 1:09:22-1:09:53): \"I don't ever want to have to work for somebody I don't like or to spend a moment of my day in somebody else's life architecting their dream instead of mine.\" Her 2023 First Trust account ends \"I wasn't sure I wanted to work for somebody ever again\" (S07, about 09:20-09:50). \"Again\" refers to employers. Presenting it as an unexplained gap is inaccurate, and it invites readers to guess at an unnamed person, including the private former spouse whose characterization in S16 this profile deliberately leaves out. Evidence claim C80 records the same error as an observation.",
+      "acceptance_test": "The three sentences are removed or replaced with her own continuation, quoted and sourced. No passage hints at an undisclosed person who controlled her. C80 and the \"again\" note in type_hypothesis.unexplained are corrected against the transcript."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "About twenty minutes later, Howes asked what her real dream is. Her first answer was about a different injury: \"I don't ever want anybody to have control over me or my life again.\"",
+      "problem": "The quotation is her description of a past motive, and the article never gives her answer to the question. She prefaces it: \"I think your vision changes at different points in your career. And at first, early on for me, it was\". After the anger passage she answers for \"this current stage\": \"the world is better when more of us own a little piece of something\", people should have \"sovereignty over your life\", and she hopes people will say \"she believed in human capability\" (S11, about 1:10:54-1:11:57). In 2017 she gave the same kind of purpose: \"I still want to change the world\", by \"helping put Latinos, women, and other minorities in positions of power\" (S04). The article frames her motive as control against fear of failing, confines the purpose motive to \"A twenty-year-old\", and leaves out what she has said for nine years she is trying to do. The weighting paragraph then discounts only her control statements as product-serving, although the evidence record's own \"against\" note says confessed failure is also what her audience rewards.",
+      "acceptance_test": "The control line is marked where it appears as her account of an early motive, and the article reports her present-tense answer in her own words with source and timestamp. The article says how that stated purpose bears on the Type 3 and Type 8 readings, or says plainly that it sets the purpose aside and why. The promotional-context discount is applied to both the control and the failure statements, or the article gives evidence for treating them differently."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "Told that colleagues saw her as ruthless, she did not dispute the judges. She decided she had been sending the wrong signal, changed how she came across, and kept a tally that ends with the woman who got the job on her team.",
+      "problem": "Three context losses in the anecdote the typing leans on (S04, opened). (1) Her \"personal brand\" takeaway continues: \"We all have to be aware of these issues, especially as Latinos, because we stand out. We're a bit louder. We wear bright colors. We're touchy-feely. Don't hide it, but be aware.\" She ties the perception partly to how Latinos are read in that setting and says not to hide it. The draft reads the line as her treating the reputation as her own fault. She also says \"Everyone else went to an Ivy League school, and I went to Arizona State.\" A junior employee in that position has situational reasons to adapt that are not personality. (2) \"I just never accept the word 'no.'\" is presented as \"the opposite note\" elsewhere in the interview. It is the first line of the same answer, which she tells as a story about refusing a no. (3) \"kept a tally\" assigns a motive to one sentence. Hiring the woman who got the job can as easily show no grudge.",
+      "acceptance_test": "The passage quotes or accurately paraphrases the rest of her takeaway, including \"Don't hide it, but be aware\", and names the situational explanation beside the type reading. \"I just never accept the word 'no.'\" is placed as the opening of the dead-bodies answer. \"kept a tally\" is replaced with what she said, or the scorekeeping reading is marked as the author's and the no-grudge reading is stated."
+    },
+    {
+      "id": "subject-05",
+      "severity": "major",
+      "passage": "Her business claims are contested, and the most specific criticism concerns the laundromats at the center of her origin story.",
+      "problem": "The criticism is not reported at its real strength. The lead sentence is general and unattributed, while the only critic cited is one YouTube channel. The evidence record says that video was read to 05:40 of 9:51. Read in full (transcript), the critic offers innocent explanations for the sale (\"That's a real strategy\", \"Maybe her time just got too valuable\") and concludes: \"Do I think Cody Sanchez is some kind of scammer, a charlatan, a villain? I don't think so\" and \"There's no shade being thrown\". The draft quotes only his sharpest line and then introduces \"misled customers\", a charge he does not make. The article does not say whether she has answered him; the record (C36) says no response was found.",
+      "acceptance_test": "The lead sentence says who contests what. The critic is identified as a YouTube commentator and his own limiting conclusion is reported beside his criticism, or the quotation is cut. The article states, with a date, that no public response from her to the video was found, or reports one. The \"misled customers\" sentence describes what was searched for and does not read as the critic's charge. S27's locator records a full read."
+    },
+    {
+      "id": "subject-06",
+      "severity": "major",
+      "passage": "Its central scene has changed with retelling",
+      "problem": "The journalism section suggests three times that she embellishes, each time without a mitigating fact that the cited sources hold. (1) In the 2017 interview both scenes appear in one answer: \"an important story about human trafficking and drug smuggling. Elderly people were getting left at the border\" (S04). The evidence record (C55) notes the versions are not contradictory; the prose drops that limit. (2) \"Her own site says the coverage \"earned her\" the award\" is accurate for promotional copy, but in her own voice she says \"we\": \"we won awards\" in 2016 (S14, per the record) and \"We wrote the story\" and \"I thought we were going to change the world\" in 2017 (S04). (3) \"In the 2026 version\" and \"The 2017 version\" label the Vanguard and dead-bodies accounts as versions of one event; the record (C11) says they may concern different employers.",
+      "acceptance_test": "The article says the emphasis shifted between tellings, states that the 2017 telling already contains both elements, and keeps \"only the class project is independently documented\". The award passage notes that her spoken accounts say \"we\" while her site and press release say \"earned her\". The two rejection accounts are called separate stories unless a source shows they are the same event."
+    },
+    {
+      "id": "subject-07",
+      "severity": "major",
+      "passage": "Codie Sanchez: Why Failing Scares Her More Than Any Boss",
+      "problem": "The meta title, and the title \"Codie Sanchez: The Contrarian Who Is Afraid of Failing\", state the article's contested inference as a fact about her inner life and rank it above the motive she states herself. The body holds the reading at medium confidence, answers the Type 8 question with \"She might be\", and rests the ranking on the discriminator challenged in subject-01. These are the lines most readers will see, and they carry none of the body's limits.",
+      "acceptance_test": "Title and meta title pose the contrast as a question or a reading, or use her own words, and no metadata line states a ranking of her fears as fact. They agree with the confidence stated in the edited body and FAQ, and the meta title stays within 35-65 characters."
+    },
+    {
+      "id": "subject-08",
+      "severity": "major",
+      "passage": "Three days later she posted her own account, addressed to women who have struggled to conceive: \"I'm pregnant and thrilled. AND YET I've been failing at it for years.\"",
+      "problem": "Sensitive health material is used as the fifth data point for the typing, with two omissions that change its meaning and one needless audit (S02, opened through the mirror the record cites). (1) The post is also a reply to people who shamed her: \"she is just too busy or some heartless wench who only likes to work\" and \"you never prioritized family\". In it she tells readers \"You are not lazy. You are not late. You are not failing.\" The line that she \"reached for the word\" failing omits that she uses the word in order to reject it for women in her position. (2) \"She has given two durations\" sets PEOPLE against her post, but the post contains both figures: \"5 years into not getting pregnant\" and \"until these three years\". Checking her count of infertility years adds nothing to the portrait and suggests an inconsistency her own text resolves.",
+      "acceptance_test": "The post is described as written both for women who struggled to conceive and in answer to commenters who shamed her. If her use of \"failing\" is offered as evidence, her \"You are not failing\" line is reported with it. The two-durations sentences are cut, or rewritten to say both figures appear in her own post. No detail about pregnancy loss or her late sister is added. C48 and C99 are updated to match."
+    },
+    {
+      "id": "subject-09",
+      "severity": "minor",
+      "passage": "Whether its output holds during her leave, expected from December 2026, will be the first public test of her book's claim.",
+      "problem": "She has not announced a leave or its timing; the evidence record (C33) says both are inferred from the due date. In the cited interview she says only that she is arranging things so \"options are always on the table\" and does not want a business \"that I have to be a slave to while I'm pregnant\" (S13, about 56:38-57:08). The \"test\" framing was the host's question, not her claim.",
+      "acceptance_test": "The sentence refers to the birth, due in December 2026 by her announcement, and does not assert a leave. The \"test\" idea is attributed to Lipovetsky's question or marked as the author's. The C33 review trigger is kept."
+    },
+    {
+      "id": "subject-10",
+      "severity": "minor",
+      "passage": "A fan's praise, she said in 2026, is \"totally uninteresting to me.\"",
+      "problem": "Five small cuts that each tilt against her. (1) In the source she first says it is \"so cool\" when someone tells her the thing she created \"changed my life\", then contrasts flattery (\"you're so cool Cody\") with \"I bought one because of something that you said\", adding \"That means you did something\" (S12, about 35:21-35:52). Alone, the fragment reads as contempt for her audience. (2) The FAQ says she calls herself \"the business bully\" without \"jokingly\", which the body keeps. FAQ answers are read on their own. (3) \"Asked for her worst fear\" restates a question the article quotes correctly two paragraphs earlier (\"when had she been most afraid?\"); she introduces the story as \"sort of silly\" (S07). (4) \"the months before it\": she says \"the ramp up to it\" (S16) and gives no duration. (5) \"That night she sat on her couch\": she says she called her father \"in the middle of the night\" and does not place the call on the day of the bank visit (S11).",
+      "acceptance_test": "The fan line carries the contrast she drew. The FAQ restores \"jokingly\". \"worst fear\" becomes the moment she was most afraid. \"the months before it\" and \"That night\" are replaced with wording the sources support."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "That is her account of her own experience, and this profile goes no further into the marriage than that.",
+      "reason": "Keeps a private former spouse out of the article. The cited clip contains her characterization of him, which should stay out however subject-01 and subject-02 are resolved."
+    },
+    {
+      "passage": "Every answer in this record is her own telling, and that limit applies to everything below.",
+      "reason": "States the main limit of the evidence before the argument begins, where the reader can use it."
+    },
+    {
+      "passage": "She does not name or date the business, and nobody else has told the story.",
+      "reason": "Marks the opening scene as an uncorroborated account that includes an accusation against an unnamed employee."
+    },
+    {
+      "passage": "Nobody who has worked for her, competed with her or paid for her programs has been found on record describing how she behaves when crossed. That is the observation most likely to change the type.",
+      "reason": "Names the missing testimony plainly and tells the reader what would overturn the reading."
+    },
+    {
+      "passage": "She disclosed the sale herself.",
+      "reason": "Puts her own disclosure directly beside the critic's charge. The critic's video confirms it (\"she confirms it herself\")."
+    }
+  ],
+  "assessment": "Fairness review of a standard-format profile; open-case rules do not apply. In form the draft is careful: quotations are attributed, self-report is labeled, and it leaves out net-worth figures, the unadjudicated copyright suit, pregnancy-loss details and her characterization of a private former spouse. Those choices should survive editing. The problem is direction. I opened nine cited sources: S02 through the fxtwitter mirror, S03 and S04 by direct fetch, and S07, S11, S12, S13, S16 and S27 from auto-caption transcripts that were not confirmed by ear. In each thesis-bearing passage I checked, the context that was cut favors Type 8 or her own stated account, and the cut favors the article's Type 3 reading. The largest case is the claim that she never describes confronting people who cross her: her First Trust, 2017 and bank accounts describe arguing, going around a no, and going to the manager. Two more follow from one answer to Lewis Howes: the control line is her description of an early motive, her present-tense answer is omitted, and the word \"again\", presented as unexplained, is explained in her next sentence. The critic is quoted without his own conclusion that she is not a scammer, and the record shows his video was only partly read before drafting. The infertility post is used as type evidence without its second purpose, a reply to people who shamed her. I do not judge which type is right. If repairing subject-01 through subject-04 changes the leading type, the standard requires --refresh --expanded-review. Not opened by me: S01, S05, S06, S08, S09, S10, S14, S15, S28 and the remaining sources, so passages resting on them are unchecked here. Similarity advisory: not tripped (highest pair 0.065). The overlaps are ordinary Type 3 vocabulary and the arguments differ, so no reuse finding."
+}

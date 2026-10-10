@@ -1,0 +1,42 @@
+The verify-repair stage is done and `verification-repair.json` is written. Verification itself passes, but my scores come to 8.3 overall, below the 8.5 release gate, so the runner will hold the Codie Sanchez profile as `needs_revision`.
+
+I ran the file through the contract's own check (read-only): it parses, both hashes match, and the only blocker is `overall_below_8.5:8.3`.
+
+## What I verified
+
+- **Sources:** I re-fetched all 25 cited sources myself (12 pages, 13 YouTube caption tracks) rather than reusing the research cache. All were opened and match their context.
+- **Quotations:** All 118 quoted spans in the body and FAQs appear in those sources, and every publication date and timestamped link checks out.
+- **Claims:** Of 127 claims, 105 are supported and 22 are qualified; none is unsupported. The qualified ones are mostly dated negative findings and labelled interpretations.
+- **Review decisions:** All 54 jury findings and the 4 repair findings are accepted. I did not have the acceptance tests for the 4 repair findings, so I checked those on their merits against the sources.
+- **Protected passages:** All 19 are preserved. 16 are verbatim; 3 were changed, two of them because the original was false (she does say what "again" refers to, in her next sentence).
+- **Negative findings:** My own searches found no self-typing, no reply to the critic, no leave announcement, and no regulator action.
+
+## Why it scores 8.3
+
+| Dimension | Score |
+| --- | --- |
+| Evidence | 8.2 |
+| Enneagram | 8.1 |
+| Originality | 8.7 |
+| Writing | 8.3 |
+| Durability | 8.4 |
+| Hook | 8.6 |
+| Discoverability | 8.4 |
+
+Two things hold it down, and neither is a wording fix:
+
+- **Evidence and Enneagram sit near 8.** Every type-bearing episode (the unnamed boss, the bank, Mount Baker) is a single self-telling, and Type 3 leads Type 8 by a judgment the article itself calls a lean.
+- **Writing carries the cost of two repair rounds.** The body is 4,392 words against a 2,000–3,500 target, and the tally and laundromat passages read like an audit.
+
+Independent testimony about how she behaves when crossed is what would move it; that is in the research tasks.
+
+## Remaining findings (all minor)
+
+- **Opening sentence:** "borrow against one of her businesses" should be "get a loan for"; she never mentions collateral.
+- **Vanguard tally:** "she concedes nothing" is true of her quoted words, but Entrepreneur's paraphrase says she realised she lacked social awareness, and the article omits it.
+- **Captions:** about fifty quotations rest on YouTube auto-captions that match on re-download but have not been confirmed by ear.
+- **2017 interview byline:** the 2019 Wayback capture credits Zach Baliva, the live page Frannie Sprouls. The article names no interviewer, so only the evidence record is affected.
+- **Stale sidecar wording:** one claim's inference (C78) still uses phrasing the repair removed from the article.
+- **Length:** as above.
+
+I wrote only the requested output file in the run directory; working files are under `/tmp/cs-vr-scripts` and `/tmp/cs-vr-data`. Nothing was published.

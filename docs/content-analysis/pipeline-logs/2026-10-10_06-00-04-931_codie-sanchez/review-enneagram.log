@@ -1,0 +1,19 @@
+The enneagram review is written to `review-enneagram.json` in the run directory. It parses against `reviewSchema`, and both hashes match the request and the frozen draft and evidence. No other file was touched and nothing was published.
+
+**Verdict:** Type 3 over Type 8 is a defensible lead at medium confidence, but the article presents its discriminator as cleaner than the record supports. There are no blockers; the review has six major and two minor findings.
+
+Major findings:
+- **Selected tally (`enneagram-01`):** the "five tellings" count leaves out the article's own Vanguard and First Trust stories, where the injury she names is being held back. A person actually crossed her in only two of the five, and "adjust and outperform" is shown once. The fix has to carry through to the type answer, both type FAQs, the description and the `meta_title`.
+- **One-sided weighting (`enneagram-02`):** control statements are discounted as marketing while failure statements are credited as against interest. Confessed failure is the 2026 book's premise, and the control theme predates the brand.
+- **Three never strains (`enneagram-03`):** leaving a prestige career for laundromats and calling visibility a chore are filed under the Eight case, not confronted as things Type 3 has to explain.
+- **Type 6 never named (`enneagram-04`):** the article spends a full section on self-described fear and de-risking, plus the father, mentor and husband material, without naming Six. The evidence record's reason for dismissing it is contradicted by that same material.
+- **Confound in the "dead bodies" test (`enneagram-05`):** her own takeaway was partly about being the only Latina in the room, and she refused the decision while accepting the perception. The article weighs neither.
+- **Factual slip (`enneagram-06`):** "before she had a brand to protect" is wrong on the record. In 2017 she already had CS Inc., keynote speaking and a 2016 scripted origin video.
+
+The two minor findings are over-reads of Eight language: the Mount Baker "Neither" sentence and the "thirsty" detail.
+
+Five passages are protected, including the discriminator question, the "a score or a shield" line, the refusal to guess at "again", the Eight steelman and the named falsifier.
+
+Risk flags stay at `contested_typing: true` and `sensitive_allegations: true`. No thesis change is required, but if the re-tally moves the lead off Type 3, that needs a refreshed expanded review.
+
+Two limits on this review: I worked only from the frozen draft and evidence record and did not reopen sources, as the stage instructions require. For similarity (not tripped), I compared only the snippets in the diagnostic, which show ordinary Type 3 vocabulary and no reused argument.

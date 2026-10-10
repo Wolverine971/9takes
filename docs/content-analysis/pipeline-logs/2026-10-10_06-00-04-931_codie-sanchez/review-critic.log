@@ -1,0 +1,25 @@
+The critic review is written to `review-critic.json` in the run directory. It parses against `reviewSchema`, both hashes match the request and the frozen inputs, and every finding and protected passage is an exact substring of the draft. I wrote no other file in the repo, did not read the other reviews, and published nothing.
+
+The review raises five major and four minor findings and keeps `sensitive_allegations` and `contested_typing` flagged. The quotations I checked against the sources match; the problems are selection and context, and the Type 3 lead claims more separation from Type 8 than the record gives.
+
+**Major**
+- **critic-01, the five-episode tally:** "In none of them does she describe confronting the person who crossed her" does not hold up.
+  - Three of the five episodes have no adversary.
+  - In the Howes interview she says she went to the head of operations; in 2017 she "got the green light somewhere else" and "refused to let up".
+  - The count leaves out Vanguard, First Trust and a Goldman-boss episode where she names control and defies or leaves.
+  - FAQ 2 and the meta title repeat the overclaim.
+- **critic-02, the dead-bodies story:** "I just never accept the word 'no'" is the opening line of that same answer, not an "opposite note". The draft also drops her tying the lesson to Latinos standing out, and never tests the workplace-bias explanation.
+- **critic-03, "before she had a brand to protect":** the 2017 piece captions her as CEO and keynote speaker of CS Inc., cites 15,000 Instagram followers and plugs her newsletter.
+- **critic-04, the weighting rule:** failure statements are treated as against her interest, but the bank-account hook answered a question about her book and was told as its lesson. "Failing" for infertility or divorce and an owner's "my fault" are also ordinary language.
+- **critic-05, the laundromat critic:** the video's lead exhibit is a clip of her calling a laundromat "a terrible business to buy... It just was my first one". The draft swaps in a milder quote from a different interview. Research read only the first 5:40 of 9:51, and the unread part holds the critic's main argument about paid programmes.
+
+**Minor**
+- **critic-06:** the staff-persuasion passage is a coaching hypothetical, and it is never set beside her "all the opinions non-stop" self-description.
+- **critic-07:** the origin-story "changed with retelling" claim skips the 2017 version, which already has both elements.
+- **critic-08:** "her leave, expected from December 2026" states a leave she has not announced.
+- **critic-09:** the closing quote stops one sentence before her answer about keeping "options always on the table".
+
+**Limits of the checks**
+- The live Hispanic Executive URL returned 503, so I read a 2024 Wayback capture. Its byline reads Zach Baliva, while the evidence record names Frannie Sprouls.
+- All video checks used auto-generated captions, not audio, and the clips inside the critic's video are untraced to their originals.
+- The similarity advisory did not trip. One pair scores 0.065 against the stated 0.048 threshold; I compared it and found no reused argument.

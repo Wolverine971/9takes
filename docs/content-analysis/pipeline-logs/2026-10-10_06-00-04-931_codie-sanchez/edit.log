@@ -1,0 +1,33 @@
+The edit stage is done: `edit.md`, `evidence-edit.json` and `resolution-edit.json` are written and pass the pipeline's own draft check, evidence validator and resolution schema with no blockers. No other file was touched and nothing was published.
+
+## What changed in the profile
+
+The six reviewers were right on the main point, and I confirmed it against the saved sources. The draft said that across five setbacks she "never" confronts whoever crossed her. Her own accounts say otherwise: she argued at First Trust, took a vetoed idea elsewhere, and went to the manager over the empty account.
+
+- **Type:** still Type 3 at medium confidence with Type 8 close, so no refresh is triggered. The argument is rebuilt and now concedes that her responses to being told no lean Eight. The Type 3 lead rests on statements from 2017, 2022 and 2023, before the book campaign.
+- **Title:** now a question, "Codie Sanchez: Never Controlled Again, or Never a Failure?" The meta title is "Codie Sanchez: Is She Driven by Control or by Failing?" The old ones stated the contested reading as fact.
+- **Corrected fact:** the draft said she never explained who controlled her "again". Her next sentence does: employers. Five reviewers had protected that passage, so I recorded it as changed with the reason.
+- **Added:**
+  - **Her stated purpose:** her present-day answer about ownership for more people, alongside the early control motive.
+  - **Type 6:** named, with the reason it does not lead.
+  - **Where Type 3 strains:** she left a prestige track for laundromats and calls visibility a chore.
+  - **The critic:** his full argument and his own "not a scammer" conclusion.
+  - **Background:** Entourage Effect Capital and her father's granite business.
+- **Cut for length or fairness:**
+  - **Family and health:** the infertility-duration audit, the husband "alpha" paragraph and the Navy SEAL quote.
+  - **Type 8 colour:** the "business bully" line and the Myers-Briggs joke.
+  - **Other:** the Forbes earnings line and the staff-persuasion paragraph.
+
+## Things to know
+
+- **Length is 4,315 words.** That is under the 4,500 ceiling but over the roughly 3,500 target; the first pass came in at 5,182 and took four cutting passes. A repair pass has about 185 words of room.
+- **All 54 findings are marked fixed, none rejected.** Four fixes exceed the word limits the fan reviewer set, and two minor ones are resolved by removing the passage; the resolution file says so in each case.
+- **Two reviewers pulled opposite ways** on the two passed-over stories. I call them two stories and flag, as the profile's inference, that they may be one Vanguard episode.
+- **Caption quotes are still unconfirmed by ear.** Every quotation matches the saved source text except two expected mismatches: a video title, and the critic's quote where I corrected the caption spelling "Cody" to "Codie". The new caption timestamps are added to the research tasks.
+- **One clip is untraced.** The critic's 2023 clip of her calling a laundromat "a terrible business to buy" is reported as his and marked untraced in the article. A second clip about never selling her media company is left out and logged as a research task.
+- **Evidence record:** 122 claims (20 dropped, 39 added) across the same 33 sources, with 16 of 19 protected passages kept verbatim.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/`:
+- edit.md
+- evidence-edit.json
+- resolution-edit.json

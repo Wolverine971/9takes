@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "9c397448da403cd6d2702a02e98683d093077eed276a89e7d6091d8f0da4c84f",
+  "evidence_sha256": "9b1fe60dbd565be36ef46b9b08bc0175a6e10cd42dd394c1cc1b5cc361d2b835",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "Whether its output holds during her leave, expected from December 2026, will be the first public test of her book's claim.",
+      "problem": "The sentence states a leave and its start as expected. The evidence record says otherwise: C33 notes that the leave and its timing are inferred from the due date and that she has announced no dates. It is also a future-tense prediction that expires about ten weeks after the check date, so a later reader meets a cliffhanger with no answer. 'First public test' is the author's ranking, made in the same paragraph where she says most of her 33 companies already run without her.",
+      "acceptance_test": "No sentence asserts a leave or a leave date unless a source in which she announces one is added to the record. The due month stays attributed to the June 2026 announcement. The open question is dated to October 2026 and worded so it remains true after the birth (no 'will be', no 'first'). C33 keeps its post-birth review trigger."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "Her failure statements cut against the image of a self-made operator, which is why this profile gives them more weight.",
+      "problem": "This holds for the 2017, 2022 and 2023 tellings. It does not hold for the 2026 ones. The empty account was told three days after the book's release, the infertility account was a placed PEOPLE exclusive, and the Branson and 'workhorse' material is the pitch of Own or Be Owned; the draft itself says 'Sanchez says she is the case study.' In that campaign, confessed owner-failure serves the product just as the control statements do. The evidence record states this limit (C92 alternative: 'confessed failure also sells in her market') and the draft drops it. A reader with hindsight will see the 2026 confessions as book marketing and discount the whole weighting.",
+      "acceptance_test": "The weighting paragraph says that in the August to September 2026 campaign confessed failure was on-message, and rests the extra weight on the dated tellings that predate it (2017, 2022, 2023). The 2026 tellings are presented as consistent with the pattern, not as against-interest evidence. No new facts are required."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "Both strands were present before she had a brand to protect.",
+      "problem": "The record contradicts this. In the same 2017 interview she says the takeaway is 'personal brand' and that the fastest way up is 'to be known and wanted'; source S04 records that she then described herself as CEO of 'CS Inc.' and a keynote speaker; and the draft cites her own scripted 2016 origin-story video. She had a personal brand in 2016 and 2017. What the record supports is narrower: the interview predates Contrarian Thinking and her online audience. The sentence carries the claim that the early evidence is free of image incentives, which is what the thesis leans on once the 2026 material is discounted. It is also absent from the claim inventory.",
+      "acceptance_test": "The sentence is replaced with a claim the record supports (for example, that both strands predate Contrarian Thinking) and no longer says or implies that she had no brand or image incentive in 2017. If a replacement makes a factual claim, it has a claim entry with sources."
+    },
+    {
+      "id": "future-04",
+      "severity": "major",
+      "passage": "In none of them does she describe confronting the person who crossed her.",
+      "problem": "The five tellings are the dead-bodies verdict, the marriage, the mountain, the empty account and infertility. The evidence record notes (C88) that the marriage and infertility have no adversary to confront, and nobody crossed her on Mount Baker either. So the sentence is true of five but tests only two: the 2017 boss and the manager in the 2026 telling. The three verdicts she 'grants' in the next sentence include 'as is fair', which is First Trust and not one of the five. The Type 8 FAQ repeats the five-setback count. Remove the 2026 telling and the no-confrontation half of the discriminator rests on one 2017 anecdote plus First Trust, which the draft should say.",
+      "acceptance_test": "The body and the 'Why isn't Codie Sanchez a Type 8?' FAQ separate two counts: the tellings in which she names failure or how she was seen, and the smaller dated set in which a person judged or crossed her and she granted the verdict (the 2017 boss, First Trust in 2023, the manager in the 2026 telling). No sentence implies five passed-up chances to confront. Each quoted 'grant' belongs to an episode named in the same passage."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "When Lipovetsky asked which part of her identity she feared motherhood might change, Sanchez did not pick the company.",
+      "problem": "The article ends on a question about an event due within three months of the check date, and the closing paragraph carries no date; the interview is dated only in a link four paragraphs earlier, in another section. Read after the birth, it looks like a live open question that the world has since answered.",
+      "acceptance_test": "The closing paragraph dates the exchange in prose (August 2026, before the birth). The quotation is kept. C101 keeps its trigger to revisit the ending after she returns to work."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "whether she owns any laundromat now is unknown",
+      "problem": "'Now' is a relative time word in an FAQ answer that is lifted out of the page and read alone. More broadly, the draft dates one negative finding (the regulator search, October 10, 2026) and leaves the others undated: 'No statement of her own type has been found', 'Nobody who has worked for her, competed with her or paid for her programs has been found on record', and 'nobody else has told the story'. These are the statements most likely to be overturned, and two of them set the type's confidence.",
+      "acceptance_test": "The laundromat FAQ uses an absolute date in place of 'now'. The self-typing and testimony-gap statements each carry an as-of month and year at least once in the body and in any FAQ answer where they appear. The 60-word type answer may stay undated if the cap requires it (it is at 58 words)."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "A fan's praise, she said in 2026, is \"totally uninteresting to me.\"",
+      "problem": "Six quotations are placed by a bare year with no outlet named and no link at the passage: this one, 'the business bully', the Myers-Briggs joke, 'I got told I was unemployable', 'I don't ever want to be the person standing in line at the club', and the line introduced by 'In the 2023 video', which is ambiguous because two 2023 sources are cited in the preceding paragraphs. Most of the record is YouTube. When a link dies, a bare year leaves the reader unable to find the source, and the standard asks for the source to be named at the passage.",
+      "acceptance_test": "Each of the six quotations names its outlet and year (or date) in the sentence or an adjacent citation, so it can be traced without a working hyperlink. 'In the 2023 video' names which one."
+    },
+    {
+      "id": "future-08",
+      "severity": "minor",
+      "passage": "Her own site says the coverage \"earned her\" the award",
+      "problem": "This is a present-tense claim about live marketing copy, and it is mildly adverse to her. C51 and C108 (her site's description of her parents) are marked stable with no review trigger, while the pledge on the company site (C50) is correctly tracked as time-sensitive. If she edits the page, the article keeps saying her site says it. The Forbes profile URL (C34) has the same exposure: it is a living page that a later list will overwrite, and 'her 2026 creator earnings' can read as calendar-year income when the record shows only Forbes's header label, '2026 Top Creators Earnings', as of June 23, 2026.",
+      "acceptance_test": "The prose dates the reading of her site (as of October 2026), or C51 and C108 become time_sensitive with a trigger to recheck codiesanchez.com/about before each release. The Forbes sentence uses the list's own label and does not imply calendar-year 2026 income; C34's trigger notes that the live profile will change."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The reading should flip if people who have worked for or against her describe habitual open confrontation and indifference to how she is seen.",
+      "reason": "Names a concrete, observable falsifier. It tells a later editor exactly what evidence reopens the typing, and it stays true whichever way that evidence falls."
+    },
+    {
+      "passage": "The university's record shows a team award for a class project.",
+      "reason": "The one independently documented, permanent fact in the origin story, set beside her marketing without characterizing intent. It will read the same in five years."
+    },
+    {
+      "passage": "The limit is plain: this is one telling, from 2017, of an unnamed boss, and no one else in the room has spoken.",
+      "reason": "States the inference limit with its date at the point where the argument leans hardest. Keep the date and the scope."
+    },
+    {
+      "passage": "One word in it stays unexplained. She says nobody will control her \"again,\" and she has not said who did. Nothing in this record supports a guess.",
+      "reason": "Declines to invent a wound and leaves a tracked open question (C80) that a later statement from her can close. A distinctive detail specific to this subject."
+    },
+    {
+      "passage": "no regulator action or news investigation alleging that she misled customers was found as of October 10, 2026",
+      "reason": "The model for a negative finding: narrow, attributed to a search, and absolutely dated. The other negative findings should match it, not the reverse."
+    }
+  ],
+  "assessment": "Five-year test: the central insight survives removal of the 2026 book campaign and the pregnancy. Both sides of the argument have dated earlier support: for Type 3, the 2017 dead-bodies answer, 'I adapted' and the journal, the 2022 marriage clip, and the 2023 'scaredy-cat', Mount Baker and 'thirsty' passages; for Type 8, 'I just never accept the word no' (2017), 'having no master' and 'it wasn't my casino' (2023), and 'because I had ownership' (2024). Title, description and persona title carry no event peg, and the prose is disciplined about absolute dates and attributed figures. The exposure is in the frame. The hook, the stated question, the last two sections and the ending all come from a six-week promotional window (8 of 23 citations, August 20 to September 28, 2026), and the draft weighs that material as if confession cut against her interest there. Four findings bear on the thesis: an unannounced leave stated as expected, the weighting rationale, a 'no brand to protect' claim the record contradicts, and a five-telling count that tests only two. Four are dating, attribution and trigger repairs. Every non-stable claim has a review trigger; C22, C33, C47 and C101 all fall due at the December 2026 birth, so this page needs a scheduled reopen in early 2027 regardless of what else changes. Similarity: the advisory reports tripped=false although its top pair (0.065, Tate McRae) is above the stated 0.048 threshold. I compared all twelve pairs and found only a shared connective ('in order to') and ordinary Type 3 vocabulary ('being seen to'), with no shared argument or structure; the control-slogan versus failure-injury discriminator is specific to this subject. Limits: this role did not open sources, so judgments about source content rely on the evidence record. Research task 1 (no caption-sourced quotation has been confirmed by ear) is outside this role but decides how long the direct quotations stay defensible."
+}

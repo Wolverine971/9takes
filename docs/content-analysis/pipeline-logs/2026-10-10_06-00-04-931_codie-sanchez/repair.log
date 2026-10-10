@@ -1,0 +1,30 @@
+The repair stage is done: `repair.md`, `evidence-repair.json` and `resolution-repair.json` are written in the run directory and pass the pipeline's own checks. Eligibility still depends on the re-verification the runner does next. The edit scored 8.3 against the 8.5 gate, and I can't promise this clears it.
+
+**What changed**
+
+- **Laundromat clip (the major finding):** The "terrible business to buy" clip is now traced to The Diary of a CEO, June 22, 2023, at about 23:40, and quoted in context. That covers who she was advising, "I actually need to change that," and her stated reason for teaching with laundromats. "Not traced" is gone, and the critic's use of the clip stays attributed to him.
+- **Tally sentence:** It now counts five tellings with a person in them, names the two where she concedes nothing (Vanguard, Goldman), and describes the other three concessions as different things. Type 3 at medium confidence is unchanged.
+- **Media-company sentence:** It now cites her own 2024 statement ("because I want to own my name forever") instead of the profile's reading of her marketing.
+- **Readability:** The opening now starts on the bank scene, and the "what predates the campaign" paragraph is prose rather than a list of years.
+
+**One thing the verifier got wrong**
+
+The verifier called the laundromat FAQ sentence "accurate as written" and only asked for a claim entry. It was not accurate. On The Mother Daze in August 2026 she lists laundromats among the businesses "we own," and her press release mentions "her own portfolio of laundromats." I corrected the FAQ and the body to report the 2023 sale and the 2026 statement as hers alone, with no independent record found as of October 2026. If you want a story for the agentic-engineering narrative, a keyword sweep of cached sources caught what an independent verifier had certified.
+
+**Length**
+
+The body is 4,392 words, 77 more than the edit and under the 4,500 ceiling. To pay for the added context I cut:
+
+- the Richard Branson island sentence;
+- the second "don't buy a laundromat" quote;
+- the "ownership = freedom" line.
+
+The verifier had already marked the piece as long, so this may hold the writing score flat.
+
+**Still open in the evidence record**
+
+- Large stretches of five long interviews are still unread end to end. Both critic clips and the 2026 holdings statement were sitting in passages earlier stages had skimmed.
+- No caption-sourced quotation has been confirmed by ear.
+- No outside testimony about how she behaves when crossed has been found.
+
+I did not touch the inputs, the live draft, or anything else in the repo; scratch scripts are in `/tmp/codie-repair`. I also skipped saving a memory note because of the "no other files" instruction.

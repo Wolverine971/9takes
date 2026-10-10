@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "9c397448da403cd6d2702a02e98683d093077eed276a89e7d6091d8f0da4c84f",
+  "evidence_sha256": "9b1fe60dbd565be36ef46b9b08bc0175a6e10cd42dd394c1cc1b5cc361d2b835",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Across five tellings from 2017 to 2026, she names failure or how she was seen: the dead-bodies verdict, the marriage, the mountain, the empty account, and the infertility described below.",
+      "problem": "The tally is selected, and it is stated more uniformly than the article's own episodes allow. By the stated test (what does she say it damaged, and what did she do next?) the article narrates at least seven setback or hostile-judgment tellings. In two of them she names being held back or overruled, not failing: Vanguard (\"I am never going to let somebody hold me back because of my bank account\", C57, which the evidence record itself logs as favoring the control reading) and First Trust (\"it wasn't my casino\", C12). Both are left out of the count, yet the same paragraph borrows \"as is fair\" from the First Trust story as one of the verdicts she grants. \"In none of them does she describe confronting the person who crossed her\" can only be tested in two of the five as told here (the boss, the head of operations); the mountain, the marriage as this article presents it, and infertility have nobody to confront, which goes further than C88's own caveat. The response claimed in the type answer, \"adjust and outperform\", is shown once (the dead-bodies story); elsewhere she turns back, leaves, blames herself or asks for help. The test also narrows the evidence record's \"confront or refuse\" to \"confront\", although leaving to own the thing is her most repeated answer to being overruled. Infertility is the weakest instance (no adversary, an ordinary idiom, a composed statement), and the evidence record notes that its \"the one who handles it, who doesn't need help\" and \"brute-force\" are also how an Eight talks (C24, C96).",
+      "acceptance_test": "The tally paragraph accounts for every setback or hostile-judgment telling the article itself narrates, including Vanguard and First Trust, and says in which she names failure or image and in which she names being held back. The no-confrontation claim is limited to the episodes in which a person crossed her and gives that number. Every quotation offered as a granted verdict comes from an episode that is in the count. Infertility is not counted as a discriminating instance (it can stay as portrait). The 60-word type answer, both type FAQs, the description and the meta_title claim no more than the corrected count: no \"five setbacks ... never\", no unqualified \"her setback stories are about failing\", no \"failing scares her more than any boss\" stated as fact, and \"adjust and outperform\" is either shown in more than one episode or reworded to what the episodes show."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "Her failure statements cut against the image of a self-made operator, which is why this profile gives them more weight.",
+      "problem": "The weighting rule is applied to one side only. Control statements are discounted because they match the product. Confessed failure is the 2026 product as well: the article says the book's argument is that she built the opposite and that she \"is the case study\"; the empty-account story doubles as the origin story for the book's method (C18); the evidence record notes that \"confessed failure also sells in her market\" (C92) and lists as unexplained whether the 2026 confessional register is a change in her or in what the market rewards. The control theme, by contrast, predates the brand (2017 \"I just never accept the word 'no'\", 2023 \"having no master\"), as the Eight section concedes. As written, a failure statement counts for Three when it cuts against her image and would count for Three just as well if it served her image, so the weighting cannot lose.",
+      "acceptance_test": "The paragraph applies one rule to both sets of statements. It says which failure tellings predate the 2026 campaign (2017, 2022, 2023) and rests the against-interest weight on those; it states that the 2026 tellings (the empty account, infertility, the hero complex) are on-message for a book about having built the wrong thing; and it no longer implies that control statements are marketing while failure statements are candid. The open question of whether the confessional register is hers or her market's appears in the article in plain words."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "She even calls the visible part of her job a chore: \"Do I really want to be on social media every day? No. But it serves my goal,\" she told Entrepreneur.",
+      "problem": "The Three reading is tested against the Eight but never against her behavior. The evidence record's own case against Three (type_hypothesis.against and unexplained) is that a Three is expected to move toward what earns admiration and she repeatedly describes moving away from it: out of a prestige finance career into laundromats and car washes, into daily visibility she calls a chore, past a fan's praise she calls uninteresting. In the article these appear only as items in \"The case for Type 8\". They are not evidence for Eight; they are things the Three reading has to explain. There is a section on where the Eight reading strains and none on where the Three reading does, so the lead type is never shown failing at anything. The record itself warns that calling \"boring\" a differentiated brand \"is convenient\".",
+      "acceptance_test": "Next to the main type argument, the article states plainly what the Three reading does not explain: at minimum the move from a prestige career into unglamorous businesses and her stated dislike of the visibility her work requires. If it offers an answer (boring as a differentiated brand, money as the scoreboard), it marks the answer as convenient or supports it with a sourced, dated observation. No wing, arrow or subtype is used to absorb it."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "The exit was not a walkout. She told Bartlett, \"I'm like a little bit of a scaredy-cat,\" and said she \"needed something where I could have like a soft landing.\"",
+      "problem": "Type 6 is never named, and the article gives it a full section of evidence. One H2 is built on self-described fear, hedging and de-risking (\"scaredy-cat\", \"soft landing\", \"derisk my life\", \"such a wuss\"). Elsewhere she calls her father in two crises, takes her next move from a mentor, calls her husband \"the alpha\" at home and her marriage \"us against the world\", describes money as what decided \"who had protection\", and sells a pledge of defiance. Much of what the article sets against Eight (fear, staged exits, conceding to the people in charge) points to Six at least as readily as to Three, so ruling out Eight does not bring the reader to Three. The evidence record sets Six aside on the ground that she \"shows no search for authority, allies or reassurance\", which the article's own father, mentor and husband material contradicts.",
+      "acceptance_test": "Type 6 is named where this evidence sits, or beside the type answer, with a sourced reason Three is preferred over it and not only over Eight. The record offers one: on Mount Baker she rules out danger as the fear (\"it wasn't even the heights that was so scary or the cold\") and names failing in front of peers, and in the empty-account story she names her identity as a failure and not a breach of trust. The reason given does not claim that she seeks no support or reassurance, and it is not delivered through a wing or an arrow. If no sourced reason survives editing, Six is listed as a live alternative in the type answer and the type FAQ."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "Someone organized mainly around not being controlled would have more reason to reject the verdict than to study it.",
+      "problem": "The \"cleaner test\" has an unweighed confound and a misdescribed response. Circumstance: the section opens with her as \"the only Latina in my group\", and the evidence record notes that in the same 2017 answer she ties the personal-brand takeaway to standing out as a Latina (\"Don't hide it, but be aware\", C60). A junior woman told that \"everyone\" finds her ruthless has career reasons to change how she comes across whatever her type. The article quotes the takeaway without that context and does not weigh the explanation. Response: she did reject the outcome. She took the idea elsewhere, got it approved and, per the evidence record, \"refused to let up\" (C59); in the same interview she says she never accepts the word \"no\". What she accepted was the perception. \"She did not dispute the judges\" blurs the two, and the record's caveat that a pragmatic Eight could also adapt tactically (C61) does not reach the article.",
+      "acceptance_test": "The paragraph (a) says she refused the decision and accepted the perception; (b) names the circumstance explanation, including that her own takeaway was partly about being a Latina in that room; and (c) states what is left for type after that, for example that years later and unprompted she still endorses the verdict (\"maybe he was right\") and turns it into a theory of advancement (\"known and wanted\"). The sentence about what a person organized around not being controlled would do stays only if it survives (a) and (b)."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "major",
+      "passage": "Both strands were present before she had a brand to protect.",
+      "problem": "Not accurate on this record, and it props up the 2017 interview as an uncontaminated baseline for the type test. In 2017 she already described herself as CEO of \"CS Inc.\" and a keynote speaker (S04 context) and had published a scripted origin-story video on her own channel on December 30, 2016 (S14), which the article itself calls \"a brand story\" two sections earlier. In that same interview the lesson she draws is \"I think it's about personal brand.\" What she lacked in 2017 was Contrarian Thinking, not a brand. The 2017 answers are advice-interview self-presentation by someone already building a public persona while employed in finance. That is also observable, non-confessional behavior that bears on the Three reading, and the article leaves it out.",
+      "acceptance_test": "The sentence claims only what the record shows (before Contrarian Thinking, or before the ownership product). The article says, with a source, that in 2017 she was already presenting a personal brand (CS Inc., keynote speaking, the 2016 origin video). The 2017 interview is no longer described or implied to be free of image incentives."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "Neither is the usual language of someone whose central concern is power.",
+      "problem": "\"Neither\" overreaches. Being the one who stops short of a \"tough thing\" in front of women she \"thought I was tougher than\" is close to the Eight's own avoided state, looking weak, and the article lists \"toughness as a self-image\" in the Eight case two sections later. Only the second item, a life spent pleasing people toward goals she does not care about, separates the readings. The sentence also rests on a generalization about how Eights talk, which the evidence record flags as a typological judgment (C74).",
+      "acceptance_test": "The sentence treats the fear of tapping out as compatible with both readings and rests the distinction on the pleasing-people line alone."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "Worrying about looking thirsty is a concern with how wanting appears to other people.",
+      "problem": "One colloquial word carries the third of the three strains on the Eight reading (the evidence record says as much at C91). \"Feels gross\" and \"thirsty\" also read as distaste for being the supplicant, the person who has to ask, which fits the Eight reading and matches what she later says about infertility (\"I had to learn how to ask\"). The article gives only the image reading.",
+      "acceptance_test": "The detail is either marked as open to both readings (how wanting looks, or being in the asking position) or removed from the list of strains. It is not presented as discriminating on its own."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The test used here is narrower. When a setback or a hostile judgment landed, what does she say it damaged, and what did she do next? Every answer in this record is her own telling, and that limit applies to everything below.",
+      "reason": "A behavioral discriminator stated as a question the reader can apply, with its limit given before the evidence. It tests motive under pressure, not traits. Keep the test; enneagram-01 asks only that it be applied to every episode."
+    },
+    {
+      "passage": "Neither type explains the first career well. A twenty-year-old who expected a story about separated families to change the world was after something other than a score or a shield.",
+      "reason": "Leaves real residue outside both readings without reaching for a wing, arrow or subtype to absorb it. \"A score or a shield\" is the article's most compact statement of the Three-versus-Eight question."
+    },
+    {
+      "passage": "One word in it stays unexplained. She says nobody will control her \"again,\" and she has not said who did. Nothing in this record supports a guess.",
+      "reason": "Notices the one word that invites an invented wound and declines to invent it. This is the restraint the standard asks for, and it keeps the Eight case honest."
+    },
+    {
+      "passage": "The Eight reading deserves its strongest form, because her most direct statement of motive belongs to it.",
+      "reason": "The alternative is steelmanned from her own first-person motive statement before it is tested, so it is not a token rival."
+    },
+    {
+      "passage": "The reading should flip if people who have worked for or against her describe habitual open confrontation and indifference to how she is seen.",
+      "reason": "A concrete, observable falsifier tied to the largest hole in the record. Keep a falsifier of this kind even if its wording tightens after enneagram-01."
+    }
+  ],
+  "assessment": "Type 3 over Type 8 is a defensible lead, and the article goes about it the right way: motive under setback, no wing, arrow or subtype used to absorb contradictions, a steelmanned Eight case, a named falsifier and a stated limit that every episode is her own telling. Three still leads in my reading after the findings below, because the Three-specific material is not what an Eight or a Six produces: the 2017 theory of advancement (\"personal brand\", \"known and wanted\"), \"chasing somebody else\", \"please a bunch of people to goals I don't care about\", and identity-as-failure language in 2022, 2023 and 2026. Medium is the ceiling for confidence, and nothing here supports raising it. The problem is that the discriminator is presented as cleaner than the record makes it. The five-episode tally leaves out the article's own Vanguard and First Trust tellings, where the injury she names is being held back; a person crossed her in only two of the five; \"adjust and outperform\" is shown once. Control statements are discounted as marketing while failure statements are credited as against interest, though confessed failure is the 2026 book's premise and the control theme predates the brand. The Three reading is never made to strain on behavior (the move to unglamorous businesses, visibility as a chore). Type 6 is never named despite a full section of its evidence. The 2017 \"cleaner test\" carries an unweighed circumstance confound and one factual misstatement about her brand at the time. Risk flags: contested_typing stays true, since Three versus Eight is closer on the article's own evidence than the tally says and Six is unaddressed. sensitive_allegations stays true: infertility and a first marriage are used as typing evidence, and her business claims are contested. No thesis change is required by these findings. If the editor's honest re-tally moves the lead off Type 3, that is a major thesis change and needs a refreshed expanded review. Similarity: not tripped. The leads are ordinary Type 3 definitional vocabulary (\"results other people can see\", \"being seen to fail\") shared with other Type 3 profiles; the injury-and-response test against Eight is this profile's own. I compared only the snippets in the diagnostic and did not open the other profiles. I worked from the frozen draft and evidence record and did not reopen sources; where a finding depends on a source's content it cites the record's claim or source ID."
+}

@@ -1,0 +1,30 @@
+Research stage is complete: `evidence.json` is written to the run directory with status `ready`, and it passes the pipeline's `validateEvidence` check.
+
+**The read:** leading Type 3 at medium confidence, with Type 8 as the strongest alternative.
+
+- **Why 3 over 8:** in five separately told setbacks from 2017 to 2026, she names failure and image as the injury and never describes confronting anyone. The episodes are the "dead bodies" feedback, her divorce, Mount Baker, an emptied business account and infertility.
+- **Why 8 stays live:** her most direct motive statement is "I don't ever want anybody to have control over me or my life again," with anger as fuel, and the autonomy theme goes back to 2017.
+- **On the seed thesis:** she already frames the book as correcting her own habit ("the book kind of came around cuz I needed it"). The real test is whether Contrarian Thinking runs during her leave from December 2026.
+
+**Review routing:** I set `sensitive_allegations` and `contested_typing` to true, so this goes to the six-role jury. The triggers:
+
+- **Ex-husband:** a 2022 clip where she characterizes her first marriage in terms that amount to an allegation about a private person. It is logged as do-not-use.
+- **Lawsuit:** a pending federal copyright suit, August Image v. Sanchez, filed 2026-06-18, confirmed on the docket.
+- **Critics:** YouTube commentators disputing her marketing.
+- **Typing:** 3 versus 8 is a close call.
+
+**Facts that differ from the seed brief or her own marketing:**
+
+- **Age:** her own words ("I'm turning 40 this month," August 2026) support August 1986, but no day.
+- **RFK award:** it went to a 17-student class project, not to her individually.
+- **Fertility timeline:** she has said both "three years" and "5 years."
+- **Laundromats:** by her own 2023 account she sold her three laundromats.
+- **Net worth:** Fortune's $17 million figure is unsourced, so the no-figure rule stands.
+
+**Gaps:**
+
+- **No independent testimony:** nobody who has worked for or against her is on record; every outside voice is a friendly host or profile writer. This is the main risk to the type argument and is the second research task.
+- **Inc. articles:** both returned 403 by every route and are marked unavailable; nothing relies on them.
+- **Caption quotes:** every quoted fragment was script-checked against the saved source text, but quotes from YouTube auto-captions still need a by-ear check before drafting. One line ("I'm addicted to achieving") is excluded because the speaker is unclear.
+
+The record has 33 sources (31 opened), 43 claims and 9 follow-up research tasks. No other repo files were touched; scratch material is in `/tmp/codie-research`.

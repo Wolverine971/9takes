@@ -1,0 +1,28 @@
+The fan review is written to `review-fan.json` in the run directory. It parses against `reviewSchema`, and both hashes match the frozen draft and evidence. Nothing else was modified or published.
+
+**Verdict:** Type 3 can still lead, but the draft's handling of her best-known material has errors that all lean toward the Type 3 argument, so Type 8 probably ends up closer than the draft allows.
+
+There are 11 findings (8 major, 3 minor). That is over the target of eight because five are source-context errors.
+
+**Major**
+- **fan-01:** "Before she had a brand to protect" is false. The 2017 interview captions her as CEO and keynote speaker of CS Inc., and the draft itself links her scripted 2016 origin video.
+- **fan-02:** "I just never accept the word 'no'" is not a separate note; it opens the dead-bodies answer. The draft also drops "I refused to let up", so a mixed anecdote reads as a clean Type 3 test.
+- **fan-03:** The unnamed 2017 firm matches her descriptions of Vanguard. The two rejection stories may be one employer or one episode told with opposite morals. This is my inference, flagged as such.
+- **fan-04:** The border story is said to have escalated to cartel violence by 2026, but violence against women opens the 2016 video. What changed is which scene she presents as the turning point.
+- **fan-05:** The claim that her failure statements "cut against the image" does not hold for 2026. The opening bank-account story is a book-tour set piece, and her father's line is already on her About page.
+- **fan-06:** The career list omits Entourage Effect Capital, the private-equity job after First Trust. The "leaving finance" section therefore conflates two exits and attaches the parents quote to the wrong one.
+- **fan-07:** The obvious objection to Type 3 never appears: she left the prestige track to build her name on laundromats.
+- **fan-08:** The "totally uninteresting to me" quote is cut in half. The full line contrasts praise with results she caused, which supports Type 3, yet it sits in the Type 8 case.
+
+**Minor**
+- **fan-09:** The draft never says her father owned a small business.
+- **fan-10:** "Worst fear" misstates the question, which was "when was the moment you were most afraid?"
+- **fan-11:** The infertility post goes on to tell readers "You are not failing"; the draft quotes only the setup.
+
+Five passages are protected, including the RFK team-award correction, the "thirsty" reading, the laundromat paragraph and the ending.
+
+Risk flags are set to sensitive allegations and contested typing, matching the evidence record. The similarity advisory is not tripped; the nearest overlaps are ordinary Type 3 vocabulary.
+
+Two things about method:
+- **Source checks:** I checked the flagged passages against the research stage's cached page and caption text in `/tmp/codie-research/txt`, which goes slightly beyond the draft and evidence files alone. I did not listen to audio, so caption wording is still unconfirmed by ear.
+- **Other reviews:** I did not open `review-subject.json`.

@@ -1,0 +1,197 @@
+{
+  "target": {
+    "person": "codie-sanchez",
+    "type": "3",
+    "units": 7,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "greg-brockman",
+      "date": "2026-10-07",
+      "units": 12
+    },
+    {
+      "person": "tiger-woods",
+      "date": "2026-10-04",
+      "units": 10
+    },
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9
+    },
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33
+    },
+    {
+      "person": "Tate-McRae",
+      "date": "2026-08-27",
+      "units": 31
+    },
+    {
+      "person": "margaret-qualley",
+      "date": "2026-08-20",
+      "units": 28
+    },
+    {
+      "person": "alexandr-wang",
+      "date": "2026-08-18",
+      "units": 30
+    },
+    {
+      "person": "adela",
+      "date": "2026-08-14",
+      "units": 17
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 1190,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.012,
+    "max": 0.065
+  },
+  "trip_threshold": 0.048,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "Tate-McRae",
+      "date": "2026-08-27",
+      "units": 31,
+      "maxScore": 0.065
+    },
+    {
+      "person": "greg-brockman",
+      "date": "2026-10-07",
+      "units": 12,
+      "maxScore": 0.045
+    },
+    {
+      "person": "alexandr-wang",
+      "date": "2026-08-18",
+      "units": 30,
+      "maxScore": 0.041
+    },
+    {
+      "person": "ben-shelton",
+      "date": "2026-09-20",
+      "units": 9,
+      "maxScore": 0.031
+    },
+    {
+      "person": "margaret-qualley",
+      "date": "2026-08-20",
+      "units": 28,
+      "maxScore": 0.024
+    },
+    {
+      "person": "tiger-woods",
+      "date": "2026-10-04",
+      "units": 10,
+      "maxScore": 0.017
+    },
+    {
+      "person": "adela",
+      "date": "2026-08-14",
+      "units": 17,
+      "maxScore": 0.016
+    },
+    {
+      "person": "Jonathan-Bailey",
+      "date": "2026-09-01",
+      "units": 33,
+      "maxScore": 0.011
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.065,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] Both fit a person who quit jobs in order to own things.",
+      "other": "[counter-typing] Tate turning down a room in order to stay unlike the people inside it."
+    },
+    {
+      "score": 0.045,
+      "other_person": "greg-brockman",
+      "shared_phrases": [],
+      "target": "[diagnosis] she steers by results other people can see",
+      "other": "[diagnosis] A Type 3 tends to measure worth by results that register with other people."
+    },
+    {
+      "score": 0.041,
+      "other_person": "alexandr-wang",
+      "shared_phrases": [],
+      "target": "[diagnosis] the injury is failing or being seen to fail",
+      "other": "[counter-typing] a decision where he chose knowing something over being seen to have delivered it."
+    },
+    {
+      "score": 0.034,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] and that limit applies to everything below.",
+      "other": "[counter-typing] \" language a Four rarely applies to their own melancholy."
+    },
+    {
+      "score": 0.031,
+      "other_person": "ben-shelton",
+      "shared_phrases": [],
+      "target": "[diagnosis] the injury is failing or being seen to fail",
+      "other": "[diagnosis] Type 3 is usually summarized as \"the achiever.\" A more useful description is someone whose sense of worth runs through being seen to deliver"
+    },
+    {
+      "score": 0.024,
+      "other_person": "Tate-McRae",
+      "shared_phrases": [],
+      "target": "[diagnosis] she steers by results other people can see",
+      "other": "[diagnosis] \"I have this vision that I'm not supposed to be there.\" She can see the room."
+    },
+    {
+      "score": 0.024,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] Both fit a person who quit jobs in order to own things.",
+      "other": "[diagnosis] She goes after the hardest job in the room"
+    },
+    {
+      "score": 0.018,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] and what she most wants to avoid is living under someone else's power.",
+      "other": "[diagnosis] \"I think I just so desperately want to like be good"
+    },
+    {
+      "score": 0.017,
+      "other_person": "tiger-woods",
+      "shared_phrases": [],
+      "target": "[diagnosis] When a setback or a hostile judgment landed",
+      "other": "[diagnosis] a Five (privacy and competence) or a One (being right) could produce Woods' drive too."
+    },
+    {
+      "score": 0.016,
+      "other_person": "adela",
+      "shared_phrases": [],
+      "target": "[diagnosis] Every answer in this record is her own telling",
+      "other": "[diagnosis] The strongest evidence is her stated emotional investment in doing good work and moving forward."
+    },
+    {
+      "score": 0.015,
+      "other_person": "margaret-qualley",
+      "shared_phrases": [],
+      "target": "[diagnosis] and what she most wants to avoid is living under someone else's power.",
+      "other": "[diagnosis] The 4 wing governs what she volunteers to be graded on."
+    },
+    {
+      "score": 0.013,
+      "other_person": "alexandr-wang",
+      "shared_phrases": [],
+      "target": "[diagnosis] and what she most wants to avoid is living under someone else's power.",
+      "other": "[diagnosis] and what settles it is the direction Wang moved every time he reached it."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+The unfamiliar-reader review is written to `docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/review-unfamiliar.json`. It parses against `reviewSchema`, both hashes match the frozen draft and evidence, and every quoted passage is an exact substring of the draft. No other file was touched and nothing was published.
+
+Read cold, the profile orients quickly and the opening pair of answers (the empty bank account, then "I don't ever want anybody to have control over me") gives a newcomer a question they can carry. I raised eight findings, three of them major:
+
+- **unfamiliar-01 (major):** The reader is never told how she became known. Laundromats first appear as something she owned in the final section, as "the laundromats at the center of her origin story", after "origin story" has meant the border reporting. The move from finance to buying businesses is one undated clause.
+- **unfamiliar-02 (major):** The deciding sentence says that in none of five episodes does she describe "confronting the person who crossed her". Only two of the five have anyone to confront. One quoted concession ("as is fair") comes from a sixth episode, and the fifth exhibit is counted before the reader has seen it. The FAQ repeats the claim.
+- **unfamiliar-03 (major):** "Both strands were present before she had a brand to protect" is contradicted by the article itself, which traces her "brand story" to a 2016 video and quotes her 2017 takeaway as "it's about personal brand".
+- **Five minor findings:**
+  - **04:** "first"/"second" point at opposite motives in the thesis paragraph.
+  - **05:** the two finance rejection stories read as one incident told twice.
+  - **06:** the origin scene is said to have changed, but neither version is shown.
+  - **07:** the Navy SEAL quote lands before the reader knows her husband was one.
+  - **08:** the "seller's method" paragraph never says why persuasion counts against Type 8.
+
+I protected five passages, including the plain-language test in the type section, the unexplained "again", and the closing answer.
+
+Risk flags are sensitive allegations and contested typing, both carried from the evidence record. The similarity diagnostic did not trip, and the leads it lists are ordinary type vocabulary; I compared its excerpts, not the other drafts.
+
+The body is about 3,650 words. The assessment notes that these repairs need roughly 120 added words, which can be recovered from the stacked quotations in "Leaving finance" and the husband paragraph.

@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "9c397448da403cd6d2702a02e98683d093077eed276a89e7d6091d8f0da4c84f",
+  "evidence_sha256": "9b1fe60dbd565be36ef46b9b08bc0175a6e10cd42dd394c1cc1b5cc361d2b835",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "In none of them does she describe confronting the person who crossed her.",
+      "problem": "The five-episode tally does not survive a check against its own sources. (a) Only two of the five episodes involve anyone who crossed her. The marriage, the mountain and infertility have no adversary, so \"never confronts\" is empty there. (b) Where there was someone, she describes more pushback than the draft reports. In the Howes interview (about 46:40) she says \"I go to the guy who's the head of operations of the business there\" and recounts his excuses. In the 2017 interview the dead-bodies answer continues \"But when they told me 'you can't,' I went and got the green light somewhere else\" and \"I refused to let up.\" On Mount Baker (about 1:33:25) her friends try to talk her back up and she answers \"no.\" (c) The count leaves out the setbacks in which she names control and responds by defying or leaving: the Vanguard vow and First Trust, both in the draft, and a third in the 2017 interview that is absent from the draft and the claim inventory: \"my boss wouldn't allow me to travel for a job interview. So I paid my own way,\" followed by \"don't ask for permission.\" The draft's test has two halves, what she says was damaged and what she did next. On the second half the record is mostly refuse, go around or leave. FAQ 2 repeats the claim (\"never describes confronting the person who crossed her\") and meta_title states the result as settled (\"Why Failing Scares Her More Than Any Boss\").",
+      "acceptance_test": "Neither the body nor FAQ 2 says she \"never\" or \"in none\" describes confronting anyone. The tally says how many episodes had an adversary, reports her going to the head of operations and going around the boss, and either counts the Vanguard, First Trust and Goldman-travel episodes on the control side or explains in the text why they are excluded. The two halves of the test (injury named, next action) are scored separately. meta_title and title claim no more than the revised tally supports. If the Goldman-travel episode is used, it is added to the claim inventory."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "The same interview holds the opposite note.",
+      "problem": "In the source, \"I just never accept the word 'no.' I hate that word.\" is not a separate note. It is the first sentence of the same answer that tells the dead-bodies story (the question was \"How have you done it, though?\"), and the story is her example of refusing a no. The draft separates the frame from the story, calls the story \"the cleaner test\" of accepting a verdict, and omits \"when they told me 'you can't'\" and \"I refused to let up.\" It also omits how she finished the personal-brand takeaway: \"We all have to be aware of these issues, especially as Latinos, because we stand out... Don't hide it, but be aware.\" She also says of that programme, \"Everyone else went to an Ivy League school, and I went to Arizona State.\" A young Latina told she was too aggressive, who then manages how she is read, is following a common workplace survival practice. The draft quotes \"the only Latina in my group\" at the top of the section and never tests that explanation against the type reading, which the standard requires for circumstances and learned practices.",
+      "acceptance_test": "The section presents \"never accept the word 'no'\" as the frame of the dead-bodies answer, quotes or accurately paraphrases \"when they told me 'you can't,' I went and got the green light somewhere else\" and \"I refused to let up,\" and includes her Latino framing of the takeaway. The paragraph weighing the episode names the workplace-bias explanation and says why the Type 3 reading does or does not beat it. \"Cleaner test\" is dropped or defended against that explanation."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "Both strands were present before she had a brand to protect.",
+      "problem": "The source this sentence rests on contradicts it. The June 2017 Hispanic Executive piece captions her \"CEO, Keynote Speaker, & Investor, CS Inc.,\" calls her \"a sought-after speaker\" with \"more than 15,000 Instagram followers,\" and ends with her telling readers to \"sign up for my weekly newsletter.\" Its stated lesson is \"personal brand.\" The evidence record also holds a scripted \"Origin Story\" brand video from December 2016 (S14). She had a personal brand to protect in 2017. What did not yet exist was Contrarian Thinking. The draft treats the 2017 answers as uncontaminated by brand, and its weighting of the evidence leans on that.",
+      "acceptance_test": "The sentence is replaced by an accurate one: the interview predates Contrarian Thinking and the ownership product, and was itself personal-brand promotion for CS Inc. No passage calls the 2017 interview pre-brand, and the weighting paragraph is consistent with the correction."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "Her failure statements cut against the image of a self-made operator, which is why this profile gives them more weight.",
+      "problem": "The asymmetry is not supported. Control statements are discounted as marketing while failure statements are credited as against interest. But confessed failure is the premise of the 2026 campaign (\"I had built the opposite\"), and the hook is its teaching case. Howes's question was \"in your book you said that most owners are being owned by the thing they built. When was the time that you realized part of your business was owning you\". She opens the bank story with the method (\"you track performance consistently\"; skip it and \"expect this to happen to you\"), so \"it was my fault for not tracking him, obviously\" is the lesson's punchline, not a spontaneous concession. In the same telling her father's rule is \"you don't complain about it, ask what happened, try to figure out the culprit, you pull the thing out,\" a learned practice that would also explain why she does not dwell on the manager. The evidence record says the story \"serves as the origin story for the book's method\" and that \"confessed failure also sells in her market\" (C76, C92). The article says neither. Separately, \"failing\" is ordinary language for infertility and for divorce, and \"my fault\" is standard owner talk, so three of the five instances discriminate weakly before any type is considered.",
+      "acceptance_test": "The opening or the weighting paragraph tells the reader that the bank story answered a question about the book and was told as its lesson. The weighting paragraph states that failure confessions also serve the 2026 campaign, and either drops the against-interest rationale or limits it, with the reason given, to statements that predate that campaign (2017, 2022, 2023). The article says plainly that \"failing\" for infertility or divorce and an owner's self-blame are common across people and carry less weight than the mountain and dead-bodies episodes."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "She disclosed the sale herself.",
+      "problem": "The strongest adverse evidence appears in weakened form. The critic's video (Hard Hat Economics, read in full for this review through its caption transcript) opens on a clip he dates to 2023 in which Sanchez says: \"I talk about laundromats. I actually need to change that. I need to like tell somebody I bought a different first business because it's a terrible business to buy. It just was my first one.\" The draft omits this and substitutes a milder line from a different interview (\"For you, I'd say don't buy a laundromat\") with softening context. \"She disclosed the sale herself\" answers nothing, because the critic says the same (\"she confirms it herself\"). His complaint is that she kept promoting laundromats afterwards and has published no account of the exit. Research read only 00:00-05:40 of 9:51 (S27 locator). The unread part carries his main argument, that her income comes from paid programmes (he lists prices up to $8,800 a year), and a clip of her saying \"I don't give equity in Contrarian Thinking, my media company, because I want to own my name forever. I don't ever think I'm going to sell this thing.\" That clip bears directly on the section about whether the company can run without her, where the draft says it has only its own reading of the marketing. He also says he does not think she is a scammer. The clips inside his video are not traced to their originals, so their context is unverified.",
+      "acceptance_test": "The article reports the \"terrible business to buy... It just was my first one\" clip, attributed to the critic's video and marked as untraced, or the original is opened and quoted in context. \"She disclosed the sale herself\" is removed or rewritten so it does not read as a rebuttal. The critic's actual argument (continued promotion after the sale; income from paid programmes) is stated in one or two attributed sentences, with his own statement that he does not call her a scammer. S27 is read to the end and its locator updated. The \"own my name forever\" clip is traced and used in the book-thesis section, or recorded as a research task."
+    },
+    {
+      "id": "critic-06",
+      "severity": "minor",
+      "passage": "That is a seller's method, described by the person using it.",
+      "problem": "The source is a coaching riff, not an account of an incident. She is telling Williamson how to handle a hypothetical nightclub doorman (\"my conversation with your door man would probably go something like this\"), and the stated aim is still to prevail (\"that's when you get them\"; \"That is when you really win in business\"). Preferring persuasion to command separates methods, not motives. Her other self-descriptions in the draft point the other way (\"I have all the opinions non-stop,\" said eight days earlier; \"kind of hard to work for sometimes\"; \"the business bully\") and are never set beside this one.",
+      "acceptance_test": "The paragraph says the passage is advice delivered through a hypothetical, sets it beside her \"all the opinions non-stop\" and \"hard to work for\" self-descriptions, and claims only that her stated method is persuasion. It is not counted as a strain on the Eight reading without that qualification."
+    },
+    {
+      "id": "critic-07",
+      "severity": "minor",
+      "passage": "Its central scene has changed with retelling",
+      "problem": "The comparison skips the middle version. The 2017 interview, quoted in the same section, already describes \"an important story about human trafficking and drug smuggling\" together with \"Elderly people were getting left at the border.\" The 2016-to-2026 contrast therefore implies an escalation the record does not show. Two sentences later, \"A twenty-year-old who expected a story about separated families to change the world was after something other than a score or a shield\" states her motive at twenty as fact on the strength of one retrospective answer in a promotional interview.",
+      "acceptance_test": "The sentence about the changing scene includes the 2017 version, or is cut, and claims only what the three tellings show. The twenty-year-old sentence is attributed to her account or hedged."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "Whether its output holds during her leave, expected from December 2026, will be the first public test of her book's claim.",
+      "problem": "No source has her announcing a leave or its timing. The evidence record says the leave is inferred from the due date (C33), and a keyword search of the Lipovetsky captions finds no mention of one. The sentence states a plan she has not stated.",
+      "acceptance_test": "The sentence refers to the birth, due December 2026, and to any period in which she steps back, without asserting a leave. Alternatively it cites a source in which she says she will take one."
+    },
+    {
+      "id": "critic-09",
+      "severity": "minor",
+      "passage": "But the scary part is what if you want something totally different?",
+      "problem": "The ending stops one sentence short of her answer. She continues (Lipovetsky, about 56:40): \"my entire goal has been, okay, if I might want something different, how do I set myself up so options are always on the table? I don't want to create myself a business that I have to be a slave to while I'm pregnant.\" The close presents an open question. In the source she answers it at once, in the control language the profile ranks second.",
+      "acceptance_test": "The ending quotes or accurately paraphrases her next sentence, or notes that she answered with a plan to keep her options open. The final image can stay."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The university's record shows a team award for a class project.",
+      "reason": "Sets her marketing beside the institutional record and lets the gap stand without characterizing intent. It is the one place the article checks her telling against an outside document."
+    },
+    {
+      "passage": "She does not name or date the business, and nobody else has told the story.",
+      "reason": "States the limit of the hook inside the hook. Keep it even if the opening gains context about the book."
+    },
+    {
+      "passage": "The reading should flip if people who have worked for or against her describe habitual open confrontation and indifference to how she is seen.",
+      "reason": "A concrete reversal condition that a later run can test. It keeps the medium confidence honest."
+    },
+    {
+      "passage": "Nothing in this record supports a guess.",
+      "reason": "Declines to invent who controlled her. The restraint on the word \"again\" is the right call and should survive editing."
+    },
+    {
+      "passage": "That is her account of her own experience, and this profile goes no further into the marriage than that.",
+      "reason": "Uses her words about herself and stops short of a private third party who has not spoken."
+    }
+  ],
+  "assessment": "The draft is candid about its limits (a self-told record, no independent testimony, a stated flip condition) and gives Type 8 a real hearing in its own section. Read skeptically, the Type 3 lead still claims more separation than the record gives. I opened the thesis-bearing sources: the 2017 Hispanic Executive interview, the Howes, Bartlett (2023), Williamson (2026) and Lipovetsky captions, the Young and Profiting transcript and the Hard Hat Economics video. The quotations I checked match. The problems are selection and context. The five-episode tally omits the control-side episodes and her own acts of refusal. The dead-bodies story is detached from the \"never accept the word 'no'\" sentence that frames it. The 2017 interview is called pre-brand when it is personal-brand promotion. The hook is the book's teaching case, and the article does not say so. The adverse business evidence is reported in a softer form than the critic gives it. None of this shows Type 8 is correct. It shows the discriminator needs to be restated at the strength the sources support. Limits of this review: the live Hispanic Executive URL returned 503, so I read a 2024 Wayback capture; that page's byline reads Zach Baliva, while the evidence record names Frannie Sprouls. All video checks used auto-generated captions, not audio, and the clips inside the critic's video are untraced. \"About twenty minutes later\" is nearer twenty-four minutes by the caption timestamps. Similarity: the advisory did not trip. I compared the listed pairs, including the 0.065 Tate McRae pair that sits above the stated 0.048 threshold, and found shared function words and ordinary Type 3 vocabulary, with no reused argument."
+}

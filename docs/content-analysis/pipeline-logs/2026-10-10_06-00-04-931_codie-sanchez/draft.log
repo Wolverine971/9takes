@@ -1,0 +1,36 @@
+The draft stage is done: `draft.md` and `evidence-draft.json` are written, both pass the pipeline's own draft check and evidence validator with no blockers, and nothing else in the repo was touched or published.
+
+## The profile
+
+- **Hook:** she walks into a bank for a loan and learns the account she thought held about a million dollars is near zero. She calls her father in the dark and says what hurt was "my identity and that I was a failure."
+- **Tension:** about twenty minutes later in the same interview she says her dream began as "I don't ever want anybody to have control over me or my life again." Her brand is about control; her own setback stories are about failing.
+- **Type:** Type 3 at medium confidence, with Type 8 argued at full strength as the close alternative. The page says the read should flip if people who have worked for or against her describe open confrontation.
+- **Search questions answered:**
+  - **Who she is:** covered in the opening and a FAQ.
+  - **Husband:** Chris Petkas, kept narrow.
+  - **Age:** August 1986, no day given.
+  - **Heritage:** in her own words only.
+  - **Laundromats:** by her own account she sold them.
+
+## Calls you can veto
+
+- **Title:** identity-first per the seed brief. The meta title is "Codie Sanchez: Why Failing Scares Her More Than Any Boss", using the same head-term exception as Leila Hormozi's page.
+- **Left out:**
+  - **Copyright suit:** the pending case is omitted as irrelevant to the portrait.
+  - **First marriage:** her characterization of it is not used. The divorce appears only as her statements about her own experience.
+  - **Net worth:** no figure is given.
+  - **Family loss:** the details she posted about are not used.
+- **Ending:** it closes on her own open question about what she will want after the baby, which is tied to December 2026 and tracked with a review trigger.
+
+## What to know before it moves on
+
+- **Caption quotes are unconfirmed by ear.** All 110 quotations match the saved source text, but roughly half come from YouTube auto-captions. That research task stays open in the evidence file.
+- **No independent testimony exists.** Every account is hers or a friendly host's; the article says so plainly.
+- **Length is slightly over target.** It is 3,672 words by the pipeline's counter against a target of about 3,500 and a ceiling of 4,500. The edit stage usually adds words.
+- **Evidence record:** 103 claims mapped to exact passages, with all 33 sources kept. Five research claims that the draft does not use were dropped, and the type hypothesis was updated to match.
+
+Separately, I added one drafting lesson to memory, and a hook then required compacting the memory index; it is now under the limit with all 95 entries kept.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez/`:
+- draft.md
+- evidence-draft.json

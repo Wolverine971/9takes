@@ -1,0 +1,39 @@
+Verification is written: **status `revise`**, so the Codie Sanchez candidate is not release-eligible yet. One major finding blocks it, and my scores put the overall at 8.3 against the 8.5 bar.
+
+**The blocker (verify-01).** The laundromat paragraph says the critic's clip of her calling a laundromat "a terrible business to buy. It just was my first one" was "not traced here to its original." It is in The Diary of a CEO, June 22, 2023, at about 23:41, a source the article already cites. That stretch of the video had only been keyword-read. The context cuts both ways and the article gives neither:
+- **Her reason:** she was advising a content creator not to buy one, and said she talks about laundromats because "it's very easy to understand."
+- **The critic's point:** in the same breath she said "I talk about laundromats. I actually need to change that."
+
+The fix is one sentence plus a claim-record update.
+
+**Minor findings (non-blocking):**
+- **verify-02:** "Three tellings… in each she… granted the judgment" reads as three of three. The article itself narrates two more tellings (Vanguard, the Goldman boss) where she concedes nothing, and only the 2017 line actually grants a judgment.
+- **verify-03:** The laundromat FAQ's "no source found says whether she still owns any" has no claim entry of its own.
+- **verify-04:** The critic's second clip ("I want to own my name forever") is also traceable, to the August 2024 Diary of a CEO at about 42:21; the record calls it untraced.
+
+**What held up:**
+- **Quotations:** all 116 distinct quoted spans match sources I re-fetched myself, with the right speaker and date.
+- **Claims:** 117 supported, 5 qualified, none unsupported.
+- **Editor's decisions:** all 54 accepted.
+- **Protected passages:** all 19 preserved.
+- **Negative findings:** fresh searches turned up no self-typing, regulator action, response to the critic, leave announcement, or insider testimony.
+
+**Scores:**
+
+| Dimension | Score |
+| --- | --- |
+| Evidence | 8.2 |
+| Enneagram | 8.3 |
+| Originality | 8.8 |
+| Writing | 8.2 |
+| Durability | 8.3 |
+| Hook | 8.3 |
+| Discoverability | 8.5 |
+
+Fixing verify-01 alone will not clear the 8.5 gate. The drags are a record that is entirely her own telling, a ledger-like "Where each reading strains" section, and length (4,315 words).
+
+**Limits of this check:**
+- Quotes were matched to auto-captions and page text, not audio.
+- Several long sources were read at the cited passages only, not end to end; the source checks say which.
+
+Only `verification-edit.json` was written in the repo; scratch work is in `/tmp/codie-verify`. I did not save a memory because of the no-other-files instruction. The reusable lesson is to grep every cached transcript for a third-party clip's wording before calling it untraced.
