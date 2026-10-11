@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "d84f3588771e062e43e6daadb43d2a2b4a12833268f413005adabe2fd636e8e1",
+  "evidence_sha256": "c449879c8f33ba401d03284330187d8d5280a127b306cb70e57be5e3493d9908",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "Nothing but the premise required the deletion.",
+      "problem": "The hook and one leg of the discriminator read the deletion as a cost paid to keep a rule (\"deleted a channel because he had said he would\"). The record's own alternatives say the deletion was the product: scarcity was the marketing and the final stream was the event (C18, C51), and the channel gained 1 million subscribers in its first five days on that premise (S23). His stated reasons are about endings, not promise-keeping: the 2020 line the article quotes, and in 2026 \"an exercise in letting go\" (S15, about 25:35). None of this reaches the reader, and the deletion is then used again against Type 3.",
+      "acceptance_test": "Where the deletion serves as type evidence, the article says the ending was the channel's announced selling point and biggest event, and gives his own account of its purpose as his. \"Because he had said he would\" is cut or marked as the article's inference."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "What neither business nor optimism explains is the voice he describes. Something in him scored a break taken for a death as time he should have been working.",
+      "problem": "The quotation stops one clause early. The captions (S04, about 01:32) run on: \"you should really probably be recording something right now people are probably losing their mind\", then into the fear that viewers had \"abandoned me\". The voice is about the audience leaving, which is the explanation the article says cannot account for it (C58 says the same). The pattern repeats: the 2014 quotation leaves out \"so many people are judging what I do\" (S02, about 02:03), and the 2017 fear is \"disappointing you guys\". The later claims \"Strangers do not reach this judge\" and \"The circle whose approval counts is small\" rest on one 2026 answer against all three.",
+      "acceptance_test": "The 2015 passage reports the words after \"recording something right now\" and no longer says business cannot explain the voice. The omitted 2014 clause is quoted or acknowledged. The judge section squares \"Strangers do not reach this judge\" with his 2014, 2015 and 2017 statements, for example by dating the inner-judge account to 2022 onward."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "What he did next is the part a Seven does not do.",
+      "problem": "A categorical claim resting on a choice with plainer explanations the article withholds. The game is set inside the submarine, so staying there is the adaptation's default, and he told Slate (S10, about 11:44) the single room was part of the appeal: \"I was naive and thought, 'Oh, one room will be an easier movie.'\" The record lists this against C29 and C54; the draft omits it. The three years also have a non-type reading: he says he did far too little pre-production (S13). Better support for the article's reading goes unused: he \"would have loved\" to cut away to the ship above, \"but that's not the game\" (S11, about 15:11).",
+      "acceptance_test": "The Iron Lung section reports that he expected one room to be easier. \"The part a Seven does not do\" is replaced by a claim limited to what he did and said. If the one-room rule stays in the discriminator, it rests on a quotation showing he wanted to break the rule and did not."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "He called that his \"guiding star.\"",
+      "problem": "The thesis quotation is cut before its conclusion. On the panel (S15, about 09:11) he introduces it as something \"all of us feel\" about going on camera, and the sentence ends: \"my guiding star going forward is just you know, I believe in myself enough to make up for the shortcomings that I know are there.\" The guiding star he names is self-belief; the article presents it as harsh self-judgment. The Slate self-hatred line answers a question about critics not loving the film (S10, about 21:55). The BBC piece already cited reports a 61% Rotten Tomatoes score and two-star reviews from Empire and The Guardian (S18); the article never mentions reviews, though the record flags the convenience (C26, C53). Title, meta_title and persona_title then state the self-description as fact, the last as a superlative.",
+      "acceptance_test": "The article reports the end of the \"guiding star\" sentence or drops that attribution. The body says the reviews were mixed, with the BBC's figures, and that the 2026 inner-judge statements answered questions about outside judgment. Title, meta_title and persona_title attribute the claim to him or pose it as a question, with no unsupported superlative."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "\"I'm not afraid of failure,\" he says. \"I'm afraid of disappointing you guys.\"",
+      "problem": "The section billed as the strongest case for Type 7 leaves out the vlog's two strongest lines for it. Just before this quotation (S05, about 06:08 to 07:12) he describes missing the feeling of \"raw unexplored territory\" and says he fears he has \"lost like even the possibility of feeling that again like that's my biggest fear that's always been my biggest fear\". A minute earlier he says that when the channel began he did not care \"about the rules\". A first-person biggest fear about lost novelty, and a disavowal of rules, bear directly on a profile that asks why he stays inside rules.",
+      "acceptance_test": "The 2017 section reports, in his words, the fear he calls his biggest in that video, and either reports the remark about rules or explicitly distinguishes outside conventions from self-set rules. \"Two details pull the other way\" is weighed against both."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "The stance was not invented after the hit.",
+      "problem": "The support does not show this. The IGN line answers a question about lessons for other filmmakers: cheaper tools would let \"people of all kinds of audience sizes\" make a project \"and maybe not make a profit\" (S16, about 11:17). It is not about what he wanted from Iron Lung, and the film was already booked widely (1,578 theaters by December 11, 2025, S29). \"I'd be okay with that\" is a February 2026 recollection. The stream quoted for \"the win condition\" opens with a long, joking celebration of being number one twice (S09; C22). The \"half-ass\" pledge is framed as audience trust he must \"cultivate\", then \"God, I sound good in these answers\", and later \"it's selfish a lot of it. I want to succeed\" (S11). The Type 3 case is thinner on the page than in the record.",
+      "acceptance_test": "The sentence is cut, or supported by a statement about his own film made before its prospects were known. The article says the same stream celebrates the ranking. The Type 3 section weighs at least one of his own statements about wanting to succeed or cultivating audience belief."
+    },
+    {
+      "id": "critic-07",
+      "severity": "major",
+      "passage": "and of his finished work: \"it's also never good enough.\"",
+      "problem": "The research record lists his ease with flaws in released work as evidence against Type 1 (type_hypothesis.against, unexplained). The article omits it and trims two quotations that show it. The Padilla sentence continues \"i don't look back critically on my past projects\" and explains why he has \"to make more\" (S08, about 22:30). \"This isn't the best I can do\" follows \"I'm proud of what I made\" and \"I think this one's pretty well done\", and ends on each project being \"a stepping stone to getting better\" (S09, about 14:05). The discriminator turns that into \"the judgment that it was not his best.\" Read whole, both sound like appetite for the next climb as much as a critic's verdict.",
+      "acceptance_test": "The article reports \"I don't look back critically on my past projects\" with \"never good enough\", and that \"this isn't the best I can do\" came with \"I'm proud of what I made\". His ease with a released work's flaws is named as counterevidence or as unexplained. \"Release more than satisfaction\" is revised to fit."
+    },
+    {
+      "id": "critic-08",
+      "severity": "major",
+      "passage": "This rests on his own descriptions plus four things that happened in public: the streak, the deletion, the film and the giving.",
+      "problem": "Two overstatements in the paragraph the type argument rests on. The streak is his own claim, as the article says one paragraph earlier (\"by his account\"); the record marks it as not independently audited (C43). And \"When he reframes pain, it is to justify staying\" is contradicted by the article's own sections: the 2015 \"very beautiful\" it calls \"a quick turn toward the good that fits Type 7\", and the 2017 overnight swing to \"I love failing\". The one example offered is a medical biopsy he could not walk out of.",
+      "acceptance_test": "The summary of the evidence base lists the streak as his claim and corrects the count. The sentence about reframing pain is limited to the cases that support it and acknowledges the 2015 and 2017 reframes the article already assigns to Type 7."
+    },
+    {
+      "id": "critic-09",
+      "severity": "major",
+      "passage": "a former head moderator wrote that he was disappointed \"that you didn't care enough to reach out.\"",
+      "problem": "The one adverse voice is printed without the reply the same article reports. Deltia's Gaming (S25) says Fischbach answered that he never saw the moderators try to contact him and saw only an inactive marker beside their names. The standard requires relevant responses to disputed claims, and \"noted here and not interpreted\" does not cover quoting one side.",
+      "acceptance_test": "The paragraph gives his reported reply, attributed to the same report, or drops the moderator's quotation and describes the dispute neutrally."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "These are a son's words about a dead parent, drawn out by a leading question, and \"half-ass\" is a common phrase. They show the standard he claims and where he says he got it. They do not show that his father's death produced it.",
+      "reason": "Names the attractive causal story and refuses it, with the specific reasons the evidence is weak."
+    },
+    {
+      "passage": "A One usually knows what ought to be done and suffers over not doing it. On this night Fischbach did not know.",
+      "reason": "Concedes the 2017 vlog to the rival reading in plain terms instead of absorbing it into the thesis."
+    },
+    {
+      "passage": "The record cannot fully separate \"better\" from \"next.\" If they are the same hunger, the Seven reading is stronger than this profile allows.",
+      "reason": "States the exact condition under which the article's own argument fails."
+    },
+    {
+      "passage": "All of that is self-report, told after the film had succeeded, when hardship reads as heroism. No account from Nelson was found.",
+      "reason": "Discounts the most dramatic material where a reader is most likely to take it at face value, and names the missing witness."
+    },
+    {
+      "passage": "He also said that \"no one was really bashing down my door,\" so the independence was partly forced.",
+      "reason": "Sets his own adverse statement against the flattering control story in the same paragraph."
+    }
+  ],
+  "assessment": "The draft is candid about its limits in general terms (self-report, friendly interviewers, a full section for Type 7, an unexplained remainder), and those passages should survive. The defect is narrower. At each of the three choices the discriminator rests on, and at the quotation the thesis rests on, the article stops quoting or stops explaining just before the adverse part: the 2015 \"voice\" runs on into fear of the audience leaving, the \"guiding star\" sentence ends on self-belief, the one-room film was partly expected to be easier, the deletion was the thing being sold, the 2017 vlog names lost novelty as his biggest fear, and the film's mixed reviews are never mentioned. With those restored, Type 1 over Type 7 and Type 3 is closer than the page implies. The claim the record supports may be narrower: an inner-standard account he has given since 2022, over an earlier record that points to the audience and to motion. Most fixes are substitutions or cuts. Source check: I read the research stage's saved captions and pages for S02, S04, S05, S08, S09, S10, S11, S15, S16, S18 and S25. These are machine captions and earlier fetches, not a human listen or a fresh fetch; S30, S31 and S33 remain unopened. Similarity: the one tripped pair is the stem \"organized around\" in a type definition, matched against a Type 6 profile at the noise-floor maximum. The arguments differ; no meaningful reuse found. The inherited duplicate_subject blocker (a live Markiplier page typed as 7) is untouched by this review and still needs DJ's decision, so contested_typing and major_thesis_change stay raised."
+}

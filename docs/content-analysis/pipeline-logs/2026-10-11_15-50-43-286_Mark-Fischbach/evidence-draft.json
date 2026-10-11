@@ -1,0 +1,1320 @@
+{
+  "schema_version": 3,
+  "subject": "Mark-Fischbach",
+  "status": "ready",
+  "research_tasks": [
+    "DECISION FOR DJ BEFORE DRAFTING: Mark Fischbach is Markiplier, and the site already has a live profile at src/blog/people/drafts/Markiplier.md (person: 'markiplier', published: true, enneagram: 7, rubric v2, graded 2026-06-20). This run is create-mode under the subject 'Mark-Fischbach' with an empty baseline, so continuing will produce a second page for the same person that leads with a different type (1). Either rerun this as `Markiplier --refresh --expanded-review` so the existing page is retyped under one URL, or confirm that a separate legal-name page is intended. Do not publish two pages that disagree on his type.",
+    "The live Markiplier page contains statements this research could not support and at least one it contradicts. Its opening says Iron Lung 'made $52 million' on 'opening weekend' on '4,164 screens'; NBC/Comscore report an $18.19 million domestic opening in 3,015 theaters (S17), and about $51.2 million is the worldwide total as of 2026-05-02 (S24). It says his father's last words were to 'his sons'; in Draw My Life he says 'the last words that he said to me' (S01). The quotation 'They leapt at an opportunity to help me, and that's what I'll never forget' was not found in any transcript opened here. The claims about 'two heart attacks' from 'three beers', a '$38M empire', '$11 million raised' and the Nadeshot remark were not checked. Verify or remove each before any refresh.",
+    "Every quotation from a YouTube source in this record was read from YouTube auto-captions, not heard by a person. During drafting each quotation in the article was re-matched by script against the saved caption text (/tmp/mark-fischbach-research/txt/<videoId>.txt) and the re-fetched web pages; the only departures are added punctuation, dropped filler, one doubled 'as' (S11) and a music cue (S01). Quotations from S08 (Padilla), S10 (Slate), S09 (weekend-results stream) and S14 (Cannes video) were also checked against a second machine transcription of the audio (Whisper small.en; output in /tmp/mark-fischbach-draftcheck/result.txt). It matched the captions except in three places, where the article now quotes only the shared words: 'I'd like' versus 'I like to think I embody that' (S08), 'jump' versus 'jumped from idea to idea' (S10), and 'could possibly imagine' versus 'could possibly have managed' (S10). The other YouTube sources (S01-S07, S11, S15, S16, S21, S22) have had no audio check, and none of this is a human listen. Known trouble spot: S08 intercuts host and guest without speaker labels; the draft attributes to Fischbach only lines that answer a question, and excludes 'I'm only as good as how much I positively impact the world' and 'I am going to put all of my energy into something because I know it is finite', which read as Padilla's in both transcriptions.",
+    "Find named, on-record testimony about how he behaves when crossed or when work falls short, which this record lacks: Wade Barnes and Bob Muyskens (Distractible episodes from February 2026), Amy Nelson, Tyler Scheid, Sean McLoughlin, Lixian, director of photography Philip Roy, makeup head Anna (surname not captured), co-star Caroline Rose Kaplan, and the removed r/Markiplier moderators. Record whether they describe correcting, redoing and irritation at a missed standard (favors Type 1), deflecting and moving on to the next idea (favors Type 7), or managing how it looks (favors Type 3).",
+    "Open the primary record of the r/Markiplier moderator removals of 2024-12-25 and his post 'Happy New Year. Prepare to be Purged.' (S31), including his replies to the former head moderator. Reddit and Sportskeeda blocked retrieval here; only one secondary article was opened (S25). Establish how much of the post was a joke, what the 'most important rule' was, and whether any moderator was contacted first.",
+    "Open the interviews that were blocked: IndieWire (S30, HTTP 402), Bloomberg on the GoPro stake (S33), and the Variety and Hollywood Reporter Iron Lung interviews referenced by other outlets. Record any passage where he describes giving up control on a future film, since Gizmodo relays him saying he 'did too much myself' (S19).",
+    "Corroborate two self-reported choices from someone other than him: that he bought majority ownership of Cloak to fix quality and sourcing and sold almost nothing for about a year and a half (C24), and that he doubled the Iron Lung crew's production pay as a bonus (C25). A search on 2026-10-11 found no independent report of the Cloak change.",
+    "Date the Ethan Nestor remarks in S21. The clip is a fan re-upload of an Unus Annus segment; the original was deleted on 2020-11-14 and was recorded between 2019-11-15 and that date.",
+    "Transcribe 'YouTube has a huge problem...' (2019-11-09, youtube.com/watch?v=pWaz7ofl5wQ), which has no captions, to see how he confronts an institution on behalf of banned fans, and read the unread middle of S11 (25:00-1:05:00), the rest of S13, and S32 for anything that cuts against the leading read.",
+    "Before release, recheck the changing facts: Iron Lung's worldwide gross and budget wording (C02), subscriber count (C01), the GoPro holding and the reported merger (C39), marital status (C38), and whether a next film has been announced (C43).",
+    "Sensitive material: Daniel Kyre's death by suicide in September 2015 (C10) and Fischbach's health disclosures (C06, C19, C31). Use only his own on-record statements, do not infer diagnoses, and follow the site's handling for suicide references.",
+    "Resolve his age at his father's death: he says 18 (S08), but July 4, 2008 (S20) is six days after a nineteenth birthday if he was born June 28, 1989 (S23). Confirm the birth date or the death date from a primary record before any page states his age then.",
+    "Polygon's 2020 report (S34) was added during drafting for the opening. Its quotations are the reporter's transcription from fan re-uploads; if the Unus Annus post-mortem video can be located on his channel, check 'I firmly believe that the entirety of what something is cannot be truly appreciated until it ends' against it.",
+    "Dropped from the draft inventory because the article does not use them: C16 (costs of overwork), C19 (mortality as stated motive), C23 (motion rig and render farm), C33 (framing the film as a win for other creators), C34 (how the theatrical release grew), C39 (GoPro stake). Their sources are retained. Restore them from evidence.json if an edit brings the material back."
+  ],
+  "accuracy_checked_at": "2026-10-11",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.youtube.com/watch?v=6Sl-1X58ObY",
+      "title": "Draw My Life - Markiplier",
+      "speaker": "Mark Fischbach (Markiplier), own channel",
+      "date": "2013-05-04",
+      "locator": "YouTube auto-captions read in full on 2026-10-11 (13:37 runtime). 00:31-01:33 birth and father; 03:06-04:38 divorce and school change; 06:11-08:21 father's cancer and death (a music cue falls between 'as he' and 'died' at 08:21); 08:21-11:55 the 2012 collapse and decision; 12:25-13:25 thanks. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed. The article's 'as he died' omits the music cue the captions print between 'as he' and 'died'.",
+      "excerpt": "the last words that he said to me were I love you so much and I held my dad's hand as he died / it seemed like everything in my life was completely out of my control and I had no choice in the matter so finally I decided that enough was enough and I was going to do what I wanted but I was still stuck in the hospital so I got angrier every day / which made me more mad but I didn't yell at my boss professionalism and all that / I was lost before I I had no purpose before",
+      "context": "A thousandth-video special in which he narrates his life over his own drawings, about a year into the channel. It is a self-authored origin story told to fans, so it shows how he frames his past, not an outside account. He twice says of bad periods that he 'didn't have an escape'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.youtube.com/watch?v=YG-vC3i0_Dw",
+      "title": "An Important Message",
+      "speaker": "Mark Fischbach (Markiplier), own channel",
+      "date": "2014-11-23",
+      "locator": "YouTube auto-captions read in full on 2026-10-11 (7:12 runtime). 02:03-03:07 responsibility and selling possessions; 05:11-05:43 expecting a lot; 06:13-06:44 two and a half years. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed.",
+      "excerpt": "I recognize that I have this weird responsibility to you guys where I'm in this position where so many people are looking at me and so many people are judging what I do and so many people are looking to me for guidance and I have an obligation to fulfill that / it would be wrong of me not to push you in the right direction / I'll never be able to repay what you've done for me / 2 and 1/2 years I've been doing this all day every day it's the only thing I've cared about",
+      "context": "An unscripted vlog he says he recorded at 2:42 a.m. after writing a Facebook post. He thanks viewers, says he started with 'crushing debt' and medical bills and sold his Xbox, couch and laptop to keep going.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.youtube.com/watch?v=J_cxoZLPyR0",
+      "title": "Lost a Friend",
+      "speaker": "Mark Fischbach (Markiplier), own channel",
+      "date": "2015-09-21",
+      "locator": "YouTube auto-captions read in full on 2026-10-11 (7:56 runtime). 00:00-00:31 announcement; 03:35-04:06 on Daniel Kyre's standards. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed.",
+      "excerpt": "I haven't missed a day's uploads since I started the YouTube channel / he inspired us to expect better from ourselves you know he was always the one to like take up the time to put in extra effort into editing videos like little tiny [minute] details that we would have just overlooked he always took the time to make sure they were perfect / that just means that we have to try harder when we come back from this",
+      "context": "His announcement that housemate and collaborator Daniel Kyre of Cyndago had died after an apparent suicide attempt. He asks viewers to leave the family alone and says the channel will continue. The bracketed word is a caption correction ('my new' in the captions).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.youtube.com/watch?v=iWQ34ixgx-k",
+      "title": "Markiplier Returns",
+      "speaker": "Mark Fischbach (Markiplier), own channel",
+      "date": "2015-10-05",
+      "locator": "YouTube auto-captions read in full on 2026-10-11 (13:35 runtime). 01:01-02:03 confronting grief and the fear of being abandoned; 02:35 therapist; 05:08-06:42 returning to and cleaning the house; 12:19-12:51 GoFundMe. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed.",
+      "excerpt": "I wanted to make sure that I confronted it directly you know I I wanted to make sure that I didn't shy away from it or bottle it up or do anything like that and that's why I needed to take a break and I've never taken a break from YouTube before / it's been eating away at the back of my mind just like you should really probably be recording something right now / if I don't upload videos somehow I think that everything's going to come collapsing down / cleaning the house and being there and facing it and addressing it was very important for me / these past two weeks have been very stressful but these past two weeks have also been very beautiful / I will be seeing a therapist about it",
+      "context": "His first video after about two weeks away following Kyre's death. He says he will see a therapist, returns at one video a day, and announces a fundraiser for the family. The caption renders his own donation as '$110,000'; the figure is not used here.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.youtube.com/watch?v=fd-VFBOOL5c",
+      "title": "I Feel Lost",
+      "speaker": "Mark Fischbach (Markiplier), own channel",
+      "date": "2017-03-24",
+      "locator": "YouTube auto-captions read in full on 2026-10-11 (13:54 runtime). 01:30-02:30 the top of the hill; 03:01-04:36 choice and turning down offers; 05:06-05:36 limbo; 07:12-08:20 fear and 'saved me'; 08:55-09:26 right steps; 13:01-13:31 promise. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed.",
+      "excerpt": "you spend so so much time looking at the top of the hill you don't think what you're going to do when you get there / I'm actively turning down movies and TV roles and book deals and like I'm saying no to all these things just cuz like I didn't come for that you know I I don't know I feel like I don't know I feel like I don't deserve it you know in a way like I haven't earned it yet / I'm not afraid of failure I'm afraid of disappointing you guys / I have to take the right steps and I have to make the right choices and I have to make a conscious effort every day to be better / I'm not making empty promises I won't do that I'll never do that again but I will be better I will",
+      "context": "A late-night vlog recorded as the channel neared 17 million subscribers. He says three times that he is not depressed and is happier than he has been, calls himself 'a goddamn disgusting mess' while crying, and describes 'the conundrum of choice': so many options that he ends up 'drifting' and 'in limbo'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.youtube.com/watch?v=QiJCBFArQcg",
+      "title": "I Feel Lost pt. 2",
+      "speaker": "Mark Fischbach (Markiplier), own channel",
+      "date": "2017-03-24",
+      "locator": "YouTube auto-captions read in full on 2026-10-11 (7:31 runtime). 02:39-03:40 on failing; 05:12-05:43 never stop moving; 06:46-07:16 charity stream. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed.",
+      "excerpt": "I just can't wait to fail like I just can't wait to fall flat on my face I just can't wait to like see how far I go and then immediately fall down and then get back up and just prove people wrong like God I love that I love failing because it just gives me an idea of how much farther I need to go / the end of the road isn't important where I end up isn't important because I'm never going to stop moving not until the day I die",
+      "context": "Posted the morning after S05, once he had read the response. He reassures viewers he is not quitting, turns the previous night's fear into anticipation, and ends by scheduling a charity livestream for the next day.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.youtube.com/watch?v=X7D5v1tGG1c",
+      "title": "YouTube Influencer Markiplier Discusses His Rise To Stardom | TODAY",
+      "speaker": "Mark Fischbach, interviewed on NBC's TODAY",
+      "date": "2019-11-19",
+      "locator": "YouTube auto-captions read in full on 2026-10-11 (4:04 runtime). 01:01-01:32 the quiet kid; 02:03-02:35 money; 02:35-03:05 advice. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed.",
+      "excerpt": "I was completely obsessed with this new thing I'd never experienced having people pay any sort of attention to me I was the quiet kid in school I never spoke / the numbers don't mean anything at past a certain point I feel like I'm very content with what I have I feel like I have enough I don't live in a lavish mansion like my car is nice but that's about the only thing that I've ever bought for myself everything else you know I feel like it's just weird to have too much",
+      "context": "A short morning-show segment promoting A Heist with Markiplier. The interviewer cites a reported $17.5 million in annual earnings; he says he does not think he made that much and gives a lot to charity.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.youtube.com/watch?v=pIF9p2aZdeo",
+      "title": "I spent a day with MARKIPLIER \"The KING of YouTube\"",
+      "speaker": "Mark Fischbach, interviewed by Anthony Padilla",
+      "date": "2022-05-20",
+      "locator": "YouTube auto-captions read in full on 2026-10-11 (29:15 runtime; the channel is listed as 'Smosh Alike' on this date). 01:01-01:31 strangers' opinions; 02:02-03:36 pain; 04:38-06:09 bullying and anger; 09:13-09:43 father; 09:43-10:13 lack of control; 12:14-13:45 first success and the crying meme; 13:45-14:49 Unus Annus and mortality; 17:54-18:24 money; 18:55-19:56 starting over; 20:26-21:58 overwork; 22:00-23:00 self-worth. The edit intercuts host and guest without labels; speaker attribution was inferred from context and needs a listen. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed.",
+      "excerpt": "my dad was very much the kind of guy that never did anything half-ass always do the right thing admit if you're wrong own your mistakes / that was one of the first things that i really started to try to take control of myself is like my anger because i really did not like where that led me / yes i have a standard i hold myself to and yes my self-worth is pretty much nailed to my ability to put my ideas into the world / it's also never good enough i don't look back critically on my past projects and being like that was terrible but it wasn't good enough / this pain is necessary this pain is actually essential to me getting better / people don't understand just how much money falls out of the youtube bucket like it's unfair / just complete lack of control in my life / this pain is necessary this pain is actually essential to me getting better / i've wrestled with this a lot over the years ... so what do you do i donate to charity / you'll make millions and i say no thank you",
+      "context": "A long sit-down released around In Space with Markiplier. Padilla's questions are leading in places ('is that a sense of purpose or is it a sense of value that you place on yourself'). Fischbach also says he was 'in a hole for four years' and unreachable, that overwork 'has already tried' to kill him, and that he has had a heart attack. 'You said that you were a very angry teenager' is Padilla's wording, to which Fischbach answers 'oh yeah'. The sentence about putting all his energy into something 'because I know it is finite' reads in the captions as Padilla's and is not attributed to Fischbach in the article.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.youtube.com/watch?v=eFaihZ0f58w",
+      "title": "Iron Lung Weekend Results (Number... 1?)",
+      "speaker": "Mark Fischbach (Markiplier), own channel livestream",
+      "date": "2026-02-03",
+      "locator": "YouTube auto-captions read from 09:59 to the end on 2026-10-11 (21:38 runtime). 09:59-10:30 win condition; 13:03-14:35 process and climbing; 15:06-15:38 self-respect; 17:10 accolades. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed.",
+      "excerpt": "the win condition isn't being number one. That's not the win condition. That's a fun little haha achievement. The win condition is that this actually came out at all / I want a direction to climb. I want a direction to swim like one way to paddle because that's that's what makes me happy is so long as I'm moving in a direction / this isn't the best I can do. I got I got years before I'm going to show you the best that I can do because every single project that I'm doing is going to be something a stepping stone to getting better / I have something that I can respect about myself and and how much I pushed",
+      "context": "A stream to fans four days after Iron Lung opened, taking live chat. He relays his wife Amy's remark that it is good to feel like 'a little fish in a big pond again', and says he will claim 'a little bit of ego' from the number-one ranking and then let it go. The first ten minutes were not read.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.youtube.com/watch?v=k29YAAX5u3w",
+      "title": "Markiplier Shares the Big Life Moment That Led to His Viral Horror Hit (Slate, What Next: TBD)",
+      "speaker": "Mark Fischbach, interviewed by Lizzie O'Leary",
+      "date": "2026-02-10",
+      "locator": "YouTube auto-captions read in full on 2026-10-11 (26:10 runtime). 02:33-04:04 tearing up; 05:36-08:41 the 2012 start and ADHD remark; 08:41-09:42 why horror; 13:46-15:19 studios and control; 17:51-18:52 normalizing; 21:55-23:25 critics and self-hatred; 23:25-24:26 what drives him; 24:26-25:58 doing it all. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed.",
+      "excerpt": "I don't really quit, but I kind of jump from idea to idea all the time. It's part of having ADHD / why would I take a deal that really cuts me out of my own thing that I made um and gives up all this control / If there was a critic that I knew personally ... And if it was like a family member or someone that I knew personally, it would devastate me, you know. Um, and I would do everything to be like, \"I got to be better so I can make them proud of me again.\" / I already hated myself more and this movie more than anyone could possibly imagine / I am horribly addicted to the cycle of making things and pushing myself / Oh, people wanted to see it. I actually didn't really like playing horror games. I was scared / it was the fact that people believed in me / \"Well, you don't know me, so it doesn't matter.\" / I was like, \"Okay, I don't hate it anymore. Go.\" ... \"All right, cool. Can't wait for the next one.",
+      "context": "A podcast interview recorded the week after Iron Lung opened. The host, who says she has had cancer, asks how he sustained a change after his tumor. He says twice that his earlier project 'lost the Emmy', and that Hollywood publications on a red carpet did not want to talk to him.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.youtube.com/watch?v=cB4dtw8xwMI",
+      "title": "The Markiplier Episode | Lemonade Stand",
+      "speaker": "Mark Fischbach, interviewed by the three Lemonade Stand hosts",
+      "date": "2026-02-25",
+      "locator": "YouTube auto-captions read on 2026-10-11 for 00:00-25:00 and 1:05:00-1:37:57 of a 1:37:57 runtime; 25:00-1:05:00 was not read. 03:02 budget; 05:05 cold DM; 09:07-09:38 prestige; 14:09-15:43 accepting a loss and the rules of adaptation; 17:44-19:47 crew; 20:18-22:19 motion rig; 23:20-24:54 render farm; 1:08:07-1:10:08 improving; 1:14:14-1:17:19 bonuses; 1:17:49-1:19:22 control; 1:21:26-1:23:28 sacrifices; 1:24:30-1:26:02 Cloak; 1:27:03-1:28:04 duty; 1:29:07-1:30:07 hard on himself; 1:35:45 selfishness; 1:36:47 sixteen-hour days. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed. At 15:13 the captions read 'bend the rules as as much as necessary'; the article prints one 'as'.",
+      "excerpt": "They wouldn't give me control ... I'm a bit of a control freak in that regard and I don't like being beholden to anybody else's opinion besides the creative team / I'm not going to half-ass anything and I'm going to try it to the very end. If it fails, it fails and I'll crash and burn with it / I have a duty to myself and my audience to do everything I can / I won't release a project until I'm happy with it and until I know that it was the best I could do at the time and I will be very hard on myself if I know that it could be better and I have not put in all the effort that I possibly could / And if I'm not getting better, then I'm not happy, right? ... Like if I'm not improving, I'm not happy / I had to postpone even my wedding to work on these things / I have to bend the rules as as much as necessary to be able to tell the story as well as I can, but I cannot break the rules / It's it's actually a little over four is what it was / So, no one was really bashing down my door to say like, \"We want to make your movie.\" / So, to win and to gain some respect, I knew that I had to do a project / I already had decided that if I didn't make my money back I'd be okay with that / it was 16-hour days for about 3 years / I lost time with some people that were very important to me that I will never get back again",
+      "context": "The longest interview found, with three creator-hosts who know the business and press him on money. He corrects the widely reported $3 million budget to 'a little over four', explains the box-office split, and jokes throughout. He also says 'I'm an [expletive] most of the time ... It's selfish a lot of it. I want to succeed and they know that.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://blog.youtube/creator-and-artist-stories/markiplier-iron-lung-interview/",
+      "title": "'No one has seen the secrets I've hidden': Markiplier on his hit film Iron Lung",
+      "speaker": "Mark Fischbach, interviewed by Julia Lee Harter (YouTube Official Blog)",
+      "date": "2026-02-23",
+      "locator": "Web page opened by fetch on 2026-10-11; quotations were returned question by question by the fetch tool, some split mid-sentence, so sentence boundaries need checking against the page. Answers on permission, on the submarine rule, and on what a studio would have fixed. Re-fetched with curl on 2026-10-11 during drafting; the three quotations used in the article were checked against the page text and are whole sentences there.",
+      "excerpt": "I knew from the start I wasn't going to get permission. / That doesn't mean I didn't ask, but when the industry responded, it never felt like they met me as a peer. / You can't know things you can't see, and our first rule was staying in the submarine. / It's a restrictive box, but creativity lives in those restrictions. / The point is the monotony, the loneliness, the boredom. / Traditional deals often require you to surrender creative control, / My mom saw the movie yesterday with my cousin from Korea, and while she loved it, her main feedback was: \"Don't do that again. No sequels.\"",
+      "context": "A promotional Q&A published by YouTube, the platform his career is built on and the later digital home of the film, so the framing favors both. It gives a $37 million global gross as of publication and says his mother's feedback on the film was 'Don't do that again. No sequels.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.youtube.com/watch?v=_MwyO9ZBYpw",
+      "title": "The Making Of Iron Lung with Director Markiplier | The Making Of Podcast",
+      "speaker": "Mark Fischbach, interviewed on The Making Of Podcast",
+      "date": "2026-03-23",
+      "locator": "YouTube auto-captions read on 2026-10-11 for 12:47-15:00, 34:57-38:30 and 43:37-45:20 of a 45:20 runtime; the rest was not read. 13:18 creative risk; 34:57-38:30 pre-production and compromise; 43:37-44:39 iteration.",
+      "excerpt": "infinitely more pre-production than I did / if your vision is established on false premises where you think you know things that you don't know, you have to be able to adapt them into the way that the expert is able to do it / I like to make iterations changing. I'm tweaking all the way until the end. And I'm always trying to make it better if I can / make more things before I die",
+      "context": "A craft podcast for film professionals. He describes directing the same crew as on his YouTube projects, says 'tolerance for mistakes shrinks' on a feature and that he had to bring 'even more calm and even more goodwill', and says he relies on his editors to tell him 'when I'm being insane'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.youtube.com/watch?v=U5Xpd8ja9bk",
+      "title": "Where the hell is Iron Lung...?",
+      "speaker": "Mark Fischbach (Markiplier), own channel",
+      "date": "2026-05-17",
+      "locator": "YouTube auto-captions read in full on 2026-10-11 (9:18 runtime). 00:00-00:31 impatience; 03:03-05:37 the night the film was finished; 06:07-07:42 release date and aggregator. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed.",
+      "excerpt": "I'm an impatient guy, sometimes. Uh and I want to do things very quickly. I want to do a lot of things myself / And then I just break down. I break down for 30 minutes straight. I cried. Just curled up in a ball and cried. Not out of sadness ... It's just this immense pressure falling off / I don't think until then I realized just how much I had pushed myself to make this movie / I go to Amy and I I say I think it's done. And she goes, \"Really?\" And I go, \"Yeah.\" And then I just break down ... It's just this immense pressure falling off",
+      "context": "Recorded at the Cannes Film Festival, where YouTube had invited him to a panel, on what he says was two hours of sleep in forty-eight. He announces a May 31, 2026 digital release on YouTube Movies and says he scrapped an earlier, angrier version of the video.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.youtube.com/watch?v=W5Irjxu1FVI",
+      "title": "How Markiplier Made a Movie Hollywood Couldn't Ignore (Colin and Samir)",
+      "speaker": "Mark Fischbach, on a live panel with Colin and Samir and a YouTube executive addressed as Tim",
+      "date": "2026-06-11",
+      "locator": "YouTube auto-captions read on 2026-10-11 for 07:37-10:30 and 22:29-27:00 of a 29:55 runtime; the rest was not read. 08:40-09:41 ego and doubt; 22:29-23:30 results; 25:02-26:37 Unus Annus. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed.",
+      "excerpt": "I think I'm egotistical enough to think I can do it and then also I am self-aware enough to be like, \"Uh I don't want to suck at it.\" / no one's going to judge me harsher than I judge myself. So if I can do that and overcome my own doubt then nothing else would really matter to me. And that's been my you know, my guiding star going forward / I'm addicted to the cycle of making, not necessarily the cycle of getting results / The Unus Annus was in a way uh an exercise in letting go",
+      "context": "A panel before an audience of creators (applause is audible in the captions), so he is speaking as an example to peers. He says none of his earlier short films or YouTube Originals made money and that it 'didn't matter'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.youtube.com/watch?v=1eNORrwTFBo",
+      "title": "How Markiplier Is Trying To Break The Video Game Movie Mold with Iron Lung (IGN)",
+      "speaker": "Mark Fischbach, interviewed by IGN",
+      "date": "2026-01-29",
+      "locator": "YouTube auto-captions read in full on 2026-10-11 (14:02 runtime). 02:34-03:05 respecting the game; 11:17-13:18 inefficiencies and profit. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed.",
+      "excerpt": "I just wanted to respect what his universe was and where he wanted to take it / I feel like there is a lot of inefficiencies in the system / maybe not make a profit. But hey, not everything's about making a profit. If you can break even on something and you made something cool, that adds value to the world",
+      "context": "A release-eve promotional interview. He calls game creator David Szymanski 'a very good guard rails' on the story and notes that his 38 million subscribers are a starting advantage most filmmakers lack.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.nbcnews.com/pop-culture/viral/markiplier-youtuber-iron-lung-film-box-office-hit-rcna257110",
+      "title": "How a YouTuber's self-financed horror film became a surprise hit",
+      "speaker": "Angela Yang (NBC News), quoting Mark Fischbach, Paul Dergarabedian of Comscore and others",
+      "date": "2026-02-02",
+      "locator": "Web article opened by fetch on 2026-10-11. Opening paragraphs for the figures; Fischbach's quotations mid-article; Dergarabedian's and Neal Mohan's near the end. Re-fetched with curl on 2026-10-11 during drafting; the opening-weekend figure, theater count and ranking were read in the page text.",
+      "excerpt": "\"Iron Lung\" ... pulled in $18.19 million at the domestic box office on opening weekend, according to final figures from Comscore. / played in 3,015 theaters across the U.S. and Canada / Fischbach: \"kind of a hero moment to showcase indie filmmaking is possible.\" / Dergarabedian: \"But this is breaking all the rules.\" / It came in a close second to the Sam Raimi-directed horror-thriller \"Send Help,\" which took the top slot at the box office by amassing $19.1 million domestically.",
+      "context": "Independent news reporting three days after release. It describes the film as self-financed and self-distributed on a reported $3 million budget with little marketing, and quotes YouTube's chief executive calling it 'the new era of Hollywood'.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.bbc.co.uk/news/articles/c2lg5r414wpo",
+      "title": "YouTube star Markiplier says film's success is 'win' for independent creators",
+      "speaker": "BBC Newsbeat (byline not captured), quoting Mark Fischbach and fan Craig Fitzpatrick",
+      "date": "2026-02-16",
+      "locator": "Web article fetched with curl on 2026-10-11 and read as text. Paragraphs 3-4 for the figures; the passage beginning 'It was initially suggested' for the rollout.",
+      "excerpt": "It hauled in $17.8m (£13m) at the US domestic box office on its opening weekend / has gone on to make $43.5m (£31.8m) worldwide so far / It was initially suggested that Iron Lung would screen in three theatres, but when Fischbach announced that tickets were on sale, his fan base began contacting cinemas across the US. / \"It was his universe that I was playing in, so I wanted to make sure that it was going to respect that,\"",
+      "context": "Independent reporting two weeks after release, citing Box Office Mojo. It notes a 61% Rotten Tomatoes score and two-star reviews from Empire and The Guardian, and gives his age as 36.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://gizmodo.com/iron-lung-creator-markiplier-on-how-his-place-in-hollywood-has-evolved-2000779184",
+      "title": "'Iron Lung' Director Markiplier on How His Place in Hollywood Has Evolved",
+      "speaker": "Cheryl Eddy (Gizmodo), relaying Mark Fischbach's interview with IndieWire",
+      "date": "2026-06-29",
+      "locator": "Web article opened by fetch on 2026-10-11. Quotations are IndieWire's, reproduced by Gizmodo; the IndieWire original (S30) could not be opened. Re-fetched with curl on 2026-10-11 during drafting; 'did too much myself' appears as Gizmodo's partial quotation of IndieWire.",
+      "excerpt": "\"I've had a lot of conversations with a lot of studios that have been both fruitful and not fruitful,\" he said. / He says he \"did too much myself\" on Iron Lung. / \"I still think there are some ideas that are bigger than what I could tackle myself.\"",
+      "context": "A summary of another outlet's interview five months after release. It puts the film's gross at about $50 million and says he would be willing to give up some creative control on a next feature he has not yet chosen.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.cancerresearch.org/stories/supporters/mark-fischbach-markiplier",
+      "title": "YouTuber Fights Cancer with Video Games",
+      "speaker": "Mark Fischbach, interviewed by the Cancer Research Institute (author not shown)",
+      "date": "2013-02 (original interview; page updated 2019-01-31 and 2020-11-18)",
+      "locator": "Web page opened by fetch on 2026-10-11. The answer to 'The majority of your fundraising has been for cancer charities. Why is that?'; the update notes at the end for the totals. Re-fetched with curl on 2026-10-11 during drafting; the quoted answer and the January 31, 2019 update were read in the page text.",
+      "excerpt": "My dad died of cancer on July 4 of 2008, so it [the disease has] affected me personally. / He [my dad] was the guy who raised me. / He died of lung cancer. He also had some bone cancer. / It just proves that everyone wants to help, they just need an avenue to do it. / he created a \"Tasteful Nudes\" calendar and donated $500,000 in proceeds to the Cancer Research Institute",
+      "context": "A supporter profile on the charity's own site, so it is promotional for both. The updates record $500,000 donated from his 2018 calendar sale and the charity's 2020 Oliver R. Grace Award.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.youtube.com/watch?v=yEOda4EI8lA",
+      "title": "Ethan Talking About How Mark Inspires Him",
+      "speaker": "Ethan Nestor, speaking to Mark Fischbach on camera",
+      "date": "unknown (fan re-upload dated 2021-11-14 of an Unus Annus segment recorded between 2019-11-15 and 2020-11-14)",
+      "locator": "YouTube auto-captions read in full on 2026-10-11 (1:31 runtime), on the fan channel 'Multiplier'. 00:00-01:01. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed.",
+      "excerpt": "seeing how hard you work and seeing how passionate you are about what you're doing and like seeing how much you're willing to give up is extremely inspiring / i genuinely think that you work as hard as you possibly can every day",
+      "context": "A short excerpt from the deleted Unus Annus channel, preserved by a fan account. Nestor was Fischbach's younger co-host and former editor and says this to his face in a show they made together, so it is warm testimony from a dependent collaborator, not an arm's-length account.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.youtube.com/watch?v=MtKke2Pli9E",
+      "title": "David Szymanski: Dusk, Iron Lung - and working with Markiplier (Quad Damage Podcast)",
+      "speaker": "David Szymanski, creator of the Iron Lung game",
+      "date": "2025-09-02",
+      "locator": "YouTube auto-captions read on 2026-10-11 for 48:12-58:30 of a 1:21:49 runtime. 49:44-51:16 the cold message; 52:19-53:21 whose universe it is; 53:21-53:52 a host relaying composer Andrew's impression. Quotations in the article add punctuation and capitals to the caption text and drop filler words and repeated false starts ('um', 'I I'); no other words are changed.",
+      "excerpt": "it was literally just him DMing me on Twitter out of the blue / he has spent you know like he spent so long in this universe and helping to flesh out this universe and like bring it to life that it's like it's definitely as much his as it is mine now. Probably even a little more his / I am the least unbiased source you could hear from",
+      "context": "Recorded five months before the film's release. Szymanski says he is 'the least unbiased source', and Fischbach says elsewhere that Szymanski has profit points in the film (S11). Szymanski adds that Amy Nelson told Fischbach he could not open with the movie pitch. The line that Fischbach was 'very cordial, very serious about what he was doing' is a host's second-hand report of the composer's view.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://en.wikipedia.org/wiki/Markiplier",
+      "title": "Markiplier (Wikipedia)",
+      "speaker": "Wikipedia editors",
+      "date": "unknown (raw wikitext retrieved 2026-10-11; cites a subscriber figure 'as of August 7th, 2026')",
+      "locator": "Raw wikitext fetched on 2026-10-11. Lead; 'Early life and education'; 'YouTube'; 'Film, television and podcasts'; 'Activism and philanthropy'; 'Business'; 'OnlyFans'; 'Personal life'.",
+      "excerpt": "Mark Edward Fischbach ... born June 28, 1989 / his channel has over 38.8 million subscribers / the channel was deleted by Fischbach and Nestor on November 14, 2020, at 12:00 a.m. PST / In September 2015, Kyre was found in critical condition after attempting suicide in his room / On September 20, 2025, Fischbach married his longtime girlfriend Amy Nelson / gaining 1 million subscribers in its first five days and 4.56 million in its last few minutes / an account on OnlyFans, whose proceeds would be split evenly between the Cincinnati Children's Hospital and the World Food Programme / as of August 7th, 2026, his channel has over 38.8 million subscribers",
+      "context": "A tertiary summary used for dates, names and the public record of events, each of which should be traced to its cited source before publication. It gives the Unus Annus figures (4.56 million subscribers; a final stream peaking above 1.5 million concurrent viewers) and the 2018 death of his step-niece Miranda Cracraft.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://en.wikipedia.org/wiki/Iron_Lung_(film)",
+      "title": "Iron Lung (film) (Wikipedia)",
+      "speaker": "Wikipedia editors",
+      "date": "unknown (raw wikitext retrieved 2026-10-11; box-office paragraph dated 'As of May 2, 2026')",
+      "locator": "Raw wikitext fetched on 2026-10-11. Infobox (budget, gross, distributor) and the 'Box office' section.",
+      "excerpt": "As of May 2, 2026, Iron Lung grossed $41.1 million in the United States and Canada and $10.1 million in other territories, for a worldwide total of $51.2 million. / Though the film's budget was widely reported as $3 million or less, Fischbach has denied this, describing it instead as \"a little over\" $4 million",
+      "context": "Tertiary summary citing Box Office Mojo, The Numbers, Deadline and Variety for the box office and the Lemonade Stand interview (S11) for the budget correction. The trade sources themselves were not opened.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://web.archive.org/web/2025/https://deltiasgaming.com/the-entire-controversy-surrounding-markipliers-official-subreddit-explained/",
+      "title": "The Entire Controversy Surrounding Markiplier's Official Subreddit Explained",
+      "speaker": "Adhiraj Yadav (Deltia's Gaming), quoting Reddit posts by u/markiplier and u/bravelittletoaster87",
+      "date": "2025-01-02",
+      "locator": "Wayback Machine capture fetched with curl on 2026-10-11 (the live site returned a Cloudflare challenge; the raw capture is at web.archive.org/web/2025id_/ followed by the original URL). Article body, first four paragraphs and the section 'Markiplier Responds to the Drama'. The head moderator's sentence quoted in the article was found verbatim in the saved Wayback capture during drafting.",
+      "excerpt": "On December 25, 2024, Mark removed the moderator status for several members from his subreddit r/markiplier. / \"I will be bringing on new moderators to help enforce these rules as well as reinforcing the most important rule on the list of rules. You know which one I mean. And if you don't, you will suffer the consequences of your ignorance.\" / u/bravelittletoaster87: \"Mark, I spent multiple years as a moderator. In particular as the head mod. I can't express how disappointed it makes me that you didn't care enough to reach out\"",
+      "context": "A gaming-news aggregator's summary; the embedded Reddit posts were not retrievable. It reports that he said he never saw the moderators try to contact him and saw only an inactive symbol by their names, and that he tied the rule on members-only content to memberships funding his larger projects. The tone of his post, which includes a 'purity test' and an 'IRL permanent ban', may be partly comic.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.cined.com/markiplier-just-became-gopros-largest-shareholder-and-the-stock-jumped-46/",
+      "title": "Markiplier Just Became GoPro's Largest Shareholder and the Stock Jumped 46%",
+      "speaker": "Johnnie Behiri (CineD)",
+      "date": "2026-09-01",
+      "locator": "Web article opened by fetch on 2026-10-11; the first 100,000 characters of the page were read, which covers the article body.",
+      "excerpt": "13.5 million GoPro Class A shares / 8.5%, as of July 13 / Schedule 13G, filed with the SEC on August 20 / somewhere in the region of $8 to $9.3 million",
+      "context": "Trade coverage of a Bloomberg report. It paraphrases his reasons (he uses the cameras, wants the company to survive, thought the shares undervalued) without quoting him, and notes that founder Nicholas Woodman keeps roughly 63% of voting power through Class B shares, so the stake is the largest in the traded class and carries no control.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.dexerto.com/youtube/markiplier-marries-amy-nelson-after-viral-engagement-rumors-3263392/",
+      "title": "Markiplier marries Amy Nelson after viral engagement rumors",
+      "speaker": "Virginia Glaze (Dexerto), quoting Instagram captions by Mark Fischbach and Amy Nelson",
+      "date": "2025-10-07",
+      "locator": "Web article opened by fetch on 2026-10-11. Opening paragraphs for the dates; the two captions.",
+      "excerpt": "Markiplier: \"10 years and counting. Going to go for the world record or die trying,\" / Amy Nelson: \"The whole point is never clearer than when I'm with you.\"",
+      "context": "Entertainment news on the day of the announcement. It gives the wedding date as September 20, 2025, says the couple went public at VidCon in June 2016, and notes neither had commented on engagement rumors from February 2025. The Instagram posts were not opened.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.fangoria.com/how-markiplier-made-iron-lung-movie/",
+      "title": "How Markiplier's Video Game Movie IRON LUNG Became An Indie Horror Sensation",
+      "speaker": "Ryan Scott (Fangoria), quoting a statement by Mark Fischbach",
+      "date": "2026-01-30",
+      "locator": "Web article opened by fetch on 2026-10-11; quotations were returned in fragments by the fetch tool and are joined here in the order given. The statement appears mid-article.",
+      "excerpt": "\"They said it shouldn't be done. Not that it couldn't be done, people have made movies before just that it would be 'woefully unwise' to tackle writing, directing, acting and editing a movie myself. Showed them. My bathroom might be a render farm now but I can't wait for people to see the blood, sweat, blood, tears, blood and blood that went into this movie from everyone involved.\"",
+      "context": "A release-day feature. The quotation is a prepared publicity statement, and its punctuation should be checked against the page because the tool split it. No cast or crew are quoted.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.youtube.com/watch?v=WcJWymZ1x9o",
+      "title": "I didn't think this was possible",
+      "speaker": "Mark Fischbach (Markiplier), own channel",
+      "date": "2025-12-11",
+      "locator": "YouTube auto-captions, first four blocks read on 2026-10-11 (00:00-01:32 of a 9:20 runtime); the rest was not read.",
+      "excerpt": "We started with around 60 theaters, I think, actually. Um, and that rose fairly quickly. Uh, but 60 was the start. And now we're up to 1,578 / I am going to bring it to theaters because I believe it deserves to be in theaters. And I didn't think that it was going to be a lot of theaters, but I was going to bring it to theaters no matter what.",
+      "context": "A pre-release update to fans, seven weeks before opening, showing behind-the-scenes footage of the motion rig. He names Regal, Cinemark (rendered 'Cinear' in the captions; the BBC confirms the chain) and AMC as having picked the film up.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.indiewire.com/features/interviews/markiplier-hollywood-indie-film-youtube-loyalty-1235202783/",
+      "title": "IndieWire interview with Markiplier on Hollywood, independent film and loyalty (title not retrieved)",
+      "speaker": "Mark Fischbach, interviewed by IndieWire (author not retrieved)",
+      "date": "unknown (before 2026-06-29)",
+      "locator": "Not opened. The URL redirects to tollbit.indiewire.com, which returned HTTP 402 on 2026-10-11.",
+      "excerpt": "Not retrieved. Its content is known here only through Gizmodo's summary (S19).",
+      "context": "The original of the quotations relayed in S19, including his remark that he did too much himself on Iron Lung. Needs a subscription or library copy.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S31",
+      "url": "https://www.reddit.com/r/Markiplier/",
+      "title": "Happy New Year. Prepare to be Purged. (post by u/markiplier on r/Markiplier)",
+      "speaker": "Mark Fischbach, posting as u/markiplier",
+      "date": "unknown (about 2025-01-01, per secondary reports)",
+      "locator": "Not opened. Reddit's search JSON returned a block page on 2026-10-11 and two mirror sites returned empty pages; the post's own URL was not captured.",
+      "excerpt": "Not retrieved. One sentence of the post is quoted second-hand in S25.",
+      "context": "The primary record of his rules for the subreddit after he removed its moderators on 2024-12-25, and of his replies to the former head moderator.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S32",
+      "url": "https://www.youtube.com/watch?v=-i6izWTD60w",
+      "title": "The TRUE Story Behind Iron Lung | Dev Dive Interview with David Szymanski (Back Log Banter)",
+      "speaker": "David Szymanski, creator of the Iron Lung game",
+      "date": "2025-12-05",
+      "locator": "YouTube auto-captions read on 2026-10-11 for 22:02-25:30 and 36:18-39:00 of a 50:16 runtime. 23:03-23:33 what Mark wanted to know.",
+      "excerpt": "people really wanted to know a lot more about the world than I'd thought of uh and what's more then when the movie started to be a Thing Mark wanted to know a lot more about the world than what I'd thought of",
+      "context": "A developer interview about the game, two months before the film opened. Szymanski says he had treated the game as 'a fever dream' and had not worked out its world; the passage about raising the game's price is his own decision and does not concern Fischbach.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S33",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-08-30/youtube-star-markiplier-is-now-gopro-s-largest-shareholder",
+      "title": "YouTube Star Markiplier Is Now GoPro's Largest Shareholder (Bloomberg newsletter; title inferred from the URL)",
+      "speaker": "Bloomberg (author not retrieved), reporting Mark Fischbach's stated reasons",
+      "date": "2026-08-30",
+      "locator": "Not opened (paywalled). Cited by Wikipedia (S23) and summarized by CineD (S26).",
+      "excerpt": "Not retrieved. His reasons for the purchase are known here only in CineD's paraphrase (S26).",
+      "context": "The original report of his GoPro holding and the only place he is said to explain it in his own words.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S34",
+      "url": "https://www.polygon.com/2020/11/16/21569701/unus-annus-markiplier-crankgameplays-channel-delete-reuploads-youtube-mark-fischbach-ethan-nestor",
+      "title": "Unus Annus is no more: Over a million people watched YouTubers delete a popular channel",
+      "speaker": "Patricia Hernandez (Polygon), quoting Mark Fischbach and Ethan Nestor",
+      "date": "2020-11-16",
+      "locator": "Web article fetched with curl on 2026-10-11 during drafting and read as text. First paragraph for the premise and the re-upload warning; fourth and fifth paragraphs for the audience figure, the post-mortem quotation and the description of the final stream.",
+      "excerpt": "would upload a video every single day for a year. And then, at the end of said year, the YouTubers were going to delete the channel from existence / \"We're not joking around when it comes to that sort of thing,\" Fischbach said in a livestream where he warns viewers not to host their own videos, lest they risk getting a takedown notice / in mid-November, over 1.5 million people came together to watch Fischbach and Nestor delete the channel live / \"I firmly believe that the entirety of what something is cannot be truly appreciated until it ends,\" Fischbach said in a post-mortem on the project / the pair got together in black and white suits while a timer played on a television in the background ... as the two looked on a computer screen confirming that they wanted to permanently delete the channel / While Fischbach made a name for himself with exuberant gaming videos, the YouTube personality was quiet and contemplative during the livestream.",
+      "context": "Independent gaming-press report two days after the deletion. The writer says she transcribed the remarks from fan re-uploads of the final stream, so the quotations are her transcription. The article gives no exact date ('mid-November'); the date of November 14, 2020 is Wikipedia's (S23). It reports that Fischbach and Nestor were 'reportedly' working to keep re-uploads offline.",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "As of October 11, 2026, Mark Edward Fischbach (born June 28, 1989, in Honolulu), known as Markiplier, is a YouTuber whose channel had more than 38 million subscribers as of August 7, 2026, and who financed, wrote, directed and starred in the film Iron Lung, which he released himself on January 30, 2026.",
+      "passage": "Fischbach, known online as Markiplier, was born on June 28, 1989, in Honolulu, and his channel had more than 38 million subscribers as of August 7, 2026 ([Wikipedia](https://en.wikipedia.org/wiki/Markiplier)). He financed, wrote, directed and starred in _Iron Lung_ ([BBC Newsbeat, February 16, 2026](https://www.bbc.co.uk/news/articles/c2lg5r414wpo)), which he released himself on January 30, 2026.",
+      "class": "third_party",
+      "source_ids": [
+        "S23",
+        "S17",
+        "S18",
+        "S24"
+      ],
+      "inference": "Identity and current role for the opening and metadata. NBC and the BBC independently describe the film as self-financed and self-distributed.",
+      "alternative": "The birth date and place come from Wikipedia, which cites his own Draw My Life video; S01 confirms a military-base birth in Honolulu but not the date. Subscriber counts move.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck subscriber count, age and any new film or company before each release."
+    },
+    {
+      "id": "C02",
+      "claim": "Iron Lung opened to $18.19 million in the United States and Canada in 3,015 theaters, a close second to Send Help for the weekend, according to Comscore figures reported by NBC, and had grossed about $51.2 million worldwide as of May 2, 2026. The budget was widely reported as $3 million; Fischbach says it was 'a little over four'.",
+      "passage": "It took in $18.19 million in the United States and Canada on its opening weekend in 3,015 theaters, a close second to Sam Raimi's _Send Help_, according to Comscore figures reported by [NBC News on February 2, 2026](https://www.nbcnews.com/pop-culture/viral/markiplier-youtuber-iron-lung-film-box-office-hit-rcna257110). Its worldwide total was about $51.2 million as of May 2, 2026 ([Wikipedia's box-office summary](https://en.wikipedia.org/wiki/Iron_Lung_%28film%29)). The budget was widely reported as $3 million; he says, \"It's actually a little over four.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S17",
+        "S18",
+        "S24",
+        "S11"
+      ],
+      "inference": "The scale of the result against the cost. The opening figure and the lifetime total are different numbers and must not be merged.",
+      "alternative": "The lifetime total is from Wikipedia's summary of Box Office Mojo and The Numbers, not opened directly. YouTube's blog gave $37 million on 2026-02-23 and Gizmodo 'about $50 million' on 2026-06-29. Home-release revenue is not included. The BBC, citing Box Office Mojo, gives $17.8 million for the opening. On his February 3 stream Fischbach celebrated the film as number one on a later daily count, which the article does not repeat.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck the worldwide gross at Box Office Mojo or The Numbers before release and whenever a re-release or new territory is announced."
+    },
+    {
+      "id": "C03",
+      "claim": "By his own account in a 2013 video he was born on a military base in Honolulu to a career Army father, and his parents later divorced.",
+      "passage": "By that account he was born on a military base in Honolulu to a career Army father, and his parents later divorced.",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Establishes the instability he describes and his own words for it ('I didn't have an escape'). It does not establish what the instability caused.",
+      "alternative": "A fan-facing origin story told by an entertainer. No relative has been found on record. His description of his mother's unhappiness is one side of a family dispute.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "He told the Cancer Research Institute in 2013 that his father died of cancer on July 4, 2008. In his 2013 Draw My Life video he says 'the last words that he said to me were I love you so much and I held my dad's hand as he died'.",
+      "passage": "His father died of cancer on July 4, 2008, he told the [Cancer Research Institute](https://www.cancerresearch.org/stories/supporters/mark-fischbach-markiplier) in 2013. In the video he says, \"the last words that he said to me were I love you so much, and I held my dad's hand as he died.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S20"
+      ],
+      "inference": "A dated loss at eighteen and a stated reason for the fundraising that follows. He also says his father opposed his wish to make video games.",
+      "alternative": "The record is his alone. The quotation is from captions and says the words were spoken 'to me', not to both sons. No causal claim about later behavior follows from the death itself. The article gives the date and not his age: he has said he was 18, but a June 28, 1989 birth date would make him 19 on July 4, 2008, and the discrepancy is unresolved.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "In 2022 he described his father as someone who 'never did anything half-ass' and would 'always do the right thing, admit if you're wrong, own your mistakes', said he learned this by watching him, and, when Anthony Padilla said it sounded like a self-description, answered that he would 'like to think I embody that'.",
+      "passage": "\"My dad was very much the kind of guy that never did anything half-ass,\" Fischbach said. \"Always do the right thing, admit if you're wrong, own your mistakes.\" He said his father never sat him down to teach any of it; he watched him live that way. When Padilla said it sounded like a self-description, he answered that he would \"like to think I embody that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "He names a code of conduct, attributes it to his father and claims it as his own, four years apart. This is the clearest statement of an inherited standard in the record.",
+      "alternative": "An idealized portrait of a dead parent, prompted by the interviewer ('that sounds like you're describing yourself'). The repeated phrase is a common idiom and may be coincidence. The captions read 'I'd like to think' and a second machine transcription reads 'I like to think'; the article quotes only the shared words.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "In 2013 he said that around 2012, after losing a job and a relationship and while recovering from surgery in a hospital, 'it seemed like everything in my life was completely out of my control and I had no choice in the matter so finally I decided that enough was enough and I was going to do what I wanted'. Asked in 2022 what drove him to start on YouTube, he answered 'just complete lack of control in my life'.",
+      "passage": "In 2013 he described a stretch around 2012 in which, by his telling, he lost a job and a relationship and ended up in a hospital recovering from surgery: \"it seemed like everything in my life was completely out of my control and I had no choice in the matter, so finally I decided that enough was enough and I was going to do what I wanted.\" Asked in 2022 what drove him to start, he said, \"Just complete lack of control in my life.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S08"
+      ],
+      "inference": "Across 2013, 2022 and 2026 he gives the same cause for starting: loss of control over his own life, felt as anger, answered by deciding to work at what he chose. Control and anger are the terms he reaches for, not boredom or a wish to be seen.",
+      "alternative": "A polished founding story. In 2026 he told Slate YouTube was 'the fifth thing' he tried and that his brother suggested it, which is less decisive than the 2013 version; he also places the tumor in 2011 there, where Wikipedia says 2012.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "In 2022 he agreed with Padilla that he had been a very angry teenager and said 'that was one of the first things that I really started to try to take control of myself is like my anger because I really did not like where that led me'. In 2013, describing a layoff, he said it 'made me more mad but I didn't yell at my boss, professionalism and all that'. The article reads both as anger judged and managed.",
+      "passage": "He agreed that he had been a very angry teenager and said: \"That was one of the first things that I really started to try to take control of myself, is like my anger, because I really did not like where that led me.\" In the 2013 video, describing a layoff, he says it \"made me more mad but I didn't yell at my boss, professionalism and all that.\" In both tellings anger is something he judged and set out to manage.",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S01"
+      ],
+      "inference": "He describes anger as something he judged and brought under control, not something he expresses or enjoys. That stance toward anger is characteristic of Type 1 and unlike Type 8.",
+      "alternative": "Adolescent anger is ordinary and the 2022 account is retrospective. No one who knew him then is on record.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "During the roughly two-week break after Daniel Kyre's death he said the absence was 'eating away at the back of my mind', with a thought telling him 'you should really probably be recording something right now', and named what he called an irrational fear that 'if I don't upload videos somehow I think that everything's going to come collapsing down'.",
+      "passage": "He also reported what the break had felt like: \"it's been eating away at the back of my mind, just like, you should really probably be recording something right now.\" And he named a fear he called irrational: \"if I don't upload videos somehow I think that everything's going to come collapsing down.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "An unbroken daily output for three and a half years, and an inner voice that calls a bereavement break a lapse. Wikipedia confirms the hiatus and its dates.",
+      "alternative": "Daily uploads were also the commercial norm for gaming channels of that period, and he names a fear that viewers would abandon him, so the pressure was partly economic.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "In a 2014 vlog he told viewers 'I have this weird responsibility to you guys', that 'so many people are looking to me for guidance and I have an obligation to fulfill that', that 'it would be wrong of me not to push you in the right direction', and that 'I'll never be able to repay what you've done for me'.",
+      "passage": "\"I recognize that I have this weird responsibility to you guys,\" he said, describing a position in which \"so many people are looking to me for guidance and I have an obligation to fulfill that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "At twenty-five, with a young audience, he frames popularity as an obligation and uses the vocabulary of duty, debt and right direction. The same framing returns in 2026 (C28).",
+      "alternative": "Gratitude videos are a genre and serve the channel. The language could equally be read as a Type 2's or a Type 6's bond with a community.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "Announcing Daniel Kyre's death on September 21, 2015, he praised Kyre for having 'inspired us to expect better from ourselves' and said of the details of his editing that 'he always took the time to make sure they were perfect', and said the loss 'just means that we have to try harder when we come back from this'.",
+      "passage": "Kyre \"inspired us to expect better from ourselves,\" he said, and with the small details of editing \"he always took the time to make sure they were perfect.\" The loss, he said, \"just means that we have to try harder when we come back from this.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "What he chooses to praise in a dead friend is the friend's exacting standard, and his stated response to the loss is more effort.",
+      "alternative": "In the same video he calls the two weeks 'very beautiful', insists the memories are 'all happy' and looks forward to 'a big happy fun celebration', which is the quick turn to the positive that a Seven makes. A public statement about grief is not the grief.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "In the March 2017 vlog 'I Feel Lost' he said he was turning down 'movies and TV roles and book deals' because 'I feel like I don't deserve it ... like I haven't earned it yet', described having so many options that 'you end up just kind of drifting', said 'I'm not afraid of failure, I'm afraid of disappointing you guys', and resolved: 'I have to take the right steps and I have to make the right choices and I have to make a conscious effort every day to be better.'",
+      "passage": "\"I'm actively turning down movies and TV roles and book deals,\" he says, and then: \"I feel like I don't deserve it, you know, in a way, like I haven't earned it yet.\" The trouble is choice: \"there's so many things that I could focus my time on that you end up focusing on nothing and you end up just kind of drifting.\" \"I'm not afraid of failure,\" he says. \"I'm afraid of disappointing you guys.\" His answer to the crisis is a resolution: \"I have to take the right steps and I have to make the right choices and I have to make a conscious effort every day to be better.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "At a peak of success his complaint is not about results. He refuses rewards he thinks unearned, names disappointing others as the fear, and answers the crisis with a vow to improve. The 'conundrum of choice' is the strongest single passage for Type 7.",
+      "alternative": "An emotional late-night video is also content, and it drew 5.7 million views. He says three times that he is not depressed. The paralysis among options and the dread of limbo fit a Seven who has run out of horizon at least as well as a One.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "The next morning he told viewers 'I just can't wait to fail', a few sentences later 'I love failing because it just gives me an idea of how much farther I need to go', and 'I'm never going to stop moving, not until the day I die'.",
+      "passage": "He said, \"I just can't wait to fail,\" and a few sentences later, \"I love failing because it just gives me an idea of how much farther I need to go.\" He closed on a rule for his life: \"I'm never going to stop moving, not until the day I die.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Within hours the fear is recast as appetite. The recasting is toward a measuring stick (how much farther he needs to go), and forward motion is stated as a lifelong rule.",
+      "alternative": "A twelve-hour swing from tears to 'that excites me' is a Seven's signature reframe. 'Prove people wrong' is a Three's phrase.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "On NBC's TODAY in 2019 he said he became 'completely obsessed' with YouTube because 'I'd never experienced having people pay any sort of attention to me. I was the quiet kid in school'.",
+      "passage": "On NBC's TODAY he named the first hook plainly: \"I was completely obsessed with this new thing I'd never experienced, having people pay any sort of attention to me. I was the quiet kid in school.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Evidence for the Type 3 alternative: attention and success were the first hook. He specifies that it was having made something worthwhile, not the comments, that drove him.",
+      "alternative": "Two short answers to prompts about his rise. Almost any new creator would describe a first audience this way.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "Asked by Padilla whether his devotion to work was purpose or self-valuation, he said 'yes I have a standard I hold myself to and yes my self-worth is pretty much nailed to my ability to put my ideas into the world' and 'it's also never good enough'.",
+      "passage": "\"Yes, I have a standard I hold myself to, and yes, my self-worth is pretty much nailed to my ability to put my ideas into the world,\" he told Padilla, whose question had supplied the frame, and of his finished work: \"it's also never good enough.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "He ties his worth to a self-set standard and reports that nothing meets it. The measure is internal ('a standard I hold myself to'), which fits Type 1; worth through output also fits Type 3.",
+      "alternative": "The interviewer supplied the frame, and the captions do not mark where his question ends, so the exact boundaries need a listen. A Three could say all of this.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "He told Padilla that the amount of money YouTube pays is 'unfair', that 'I've wrestled with this a lot over the years', and that his answer is to donate; he says he refuses offers to put his name on products: 'I say no thank you.' The Cancer Research Institute records $500,000 in proceeds from his 2018 calendar, and Wikipedia records that proceeds of the OnlyFans account he opened in 2022 were to be split between Cincinnati Children's Hospital and the World Food Programme.",
+      "passage": "He told Padilla in 2022, \"people don't understand just how much money falls out of the YouTube bucket. Like, it's unfair.\" He said, \"I've wrestled with this a lot over the years,\" and that his answer is, \"I donate to charity.\" Of offers to put his name on products he said, \"I say no thank you.\" The Cancer Research Institute says he donated $500,000 in proceeds from a 2018 calendar, and the proceeds of the OnlyFans account he opened in 2022 were to be split between Cincinnati Children's Hospital and the World Food Programme",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S20",
+        "S23"
+      ],
+      "inference": "He treats his income as a fairness problem and gives up money to settle it, over at least a decade of documented fundraising. Refusing endorsement income is a cost a Three would be slow to pay.",
+      "alternative": "Charity is good for a creator's standing and the stunts drove audience growth; the OnlyFans launch was tied to getting his podcasts to number one. No total for his personal giving has been verified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "Describing an awake biopsy of his tumor, he told Padilla he realized 'this pain is necessary, this pain is actually essential to me getting better'.",
+      "passage": "Describing a biopsy he was awake for, he told Padilla, \"this pain is necessary, this pain is actually essential to me getting better.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "He reframes pain in order to stay in it: it is the price of getting better. A Seven reframes pain in order to leave it. This is half of the discriminator.",
+      "alternative": "It is still a positive reframe, and he tells the story of learning he had spent most of his possible time with his father as 'the most comforting thing I've ever heard', which is how a Seven metabolizes loss.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "Unus Annus, the channel he made with Ethan Nestor, posted a video every day for a year on the stated premise that it would then be deleted, and the two deleted it live on November 14, 2020, sitting in black and white suits and confirming the permanent deletion on screen.",
+      "passage": "On November 14, 2020, Mark Fischbach and his friend Ethan Nestor sat in front of a computer in black and white suits, confirmed that they wanted to permanently delete a YouTube channel, and deleted it. The channel was called Unus Annus. It had posted a video every day for a year, and its premise from the first upload was that it would be destroyed on the last.",
+      "class": "observed",
+      "source_ids": [
+        "S34",
+        "S23"
+      ],
+      "inference": "An observed, costly choice: he destroyed a large, monetizable channel because the premise required it. That is hard to square with Type 3 and shows a commitment to keeping the stated rule.",
+      "alternative": "Scarcity was also the marketing, and the deletion was the event. A Seven would enjoy the novelty of the conceit; a Four would enjoy the elegy. Polygon says only 'mid-November'; the exact date is Wikipedia's.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "He says Iron Lung took '16-hour days for about 3 years', that 'I lost time with some people that were very important to me that I will never get back again. And I had to postpone even my wedding to work on these things', that while making it 'I already hated myself more and this movie more than anyone' else could, and that on the night he judged it finished he told Amy Nelson 'I think it's done' and then 'I break down for 30 minutes straight. I cried', 'not out of sadness' but from 'this immense pressure falling off'.",
+      "passage": "The price, by his account: \"it was 16-hour days for about 3 years.\" He said, \"I lost time with some people that were very important to me that I will never get back again. And I had to postpone even my wedding to work on these things.\" ([Lemonade Stand](https://www.youtube.com/watch?v=cB4dtw8xwMI&t=4915s)) Of the years spent making it, he told Slate, \"I already hated myself more and this movie more than anyone\" else could. On the night he judged it finished he drove home, told Nelson, \"I think it's done,\" and then: \"I break down for 30 minutes straight. I cried. Just curled up in a ball and cried. Not out of sadness.\" He called it \"this immense pressure falling off.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S11",
+        "S10",
+        "S14"
+      ],
+      "inference": "The most expensive choice in the record, paid in health, time and his marriage date, for a film he had already decided might earn nothing (C22). The self-hatred during the work and the collapse of pressure at its end are what a harsh internal judge looks like from inside.",
+      "alternative": "All self-reported and told after the film succeeded, when hardship reads as heroism. He kept posting YouTube videos through much of the period. Nelson's account of the postponed wedding is not on record. The Slate sentence ends 'could possibly imagine' in the captions and 'could possibly have managed' in a second machine transcription, so the article stops the quotation before those words.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "He says he paid for Iron Lung himself to keep the final say: 'I'm a bit of a control freak in that regard and I don't like being beholden to anybody else's opinion besides the creative team'. He also says 'no one was really bashing down my door' to make the film, so the independence was partly forced.",
+      "passage": "On Lemonade Stand he said, \"I'm a bit of a control freak in that regard and I don't like being beholden to anybody else's opinion besides the creative team.\" He also said that \"no one was really bashing down my door,\" so the independence was partly forced.",
+      "class": "self_report",
+      "source_ids": [
+        "S11",
+        "S10"
+      ],
+      "inference": "Control over the finished work is what he protects, at the price of other people's money and distribution. It is control of the product and its timetable, not of people: he describes deferring to department heads (C36, S13).",
+      "alternative": "He also says no studio was 'bashing down my door' and that calls 'didn't really go anywhere', so independence was partly forced. A Seven's wish not to be fenced in, or an Eight's refusal to be controlled, would produce the same sentence. Gizmodo reports he may give up some control next time (S19).",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck when his next film's financing and distribution are announced; a studio deal with outside final cut would weaken this claim."
+    },
+    {
+      "id": "C22",
+      "claim": "Four days after the opening he told fans 'the win condition isn't being number one', 'The win condition is that this actually came out at all', and 'this isn't the best I can do'. The day before release he told IGN 'not everything's about making a profit', and he says he had decided before shooting that 'if I didn't make my money back I'd be okay with that'.",
+      "passage": "On a stream four days after the opening he told fans, \"the win condition isn't being number one,\" and, \"The win condition is that this actually came out at all.\" Minutes later: \"this isn't the best I can do.\" ([Iron Lung Weekend Results, February 3, 2026](https://www.youtube.com/watch?v=eFaihZ0f58w&t=600s)) The stance was not invented after the hit. On the eve of release he told IGN, \"not everything's about making a profit\" ([IGN, January 29, 2026](https://www.youtube.com/watch?v=1eNORrwTFBo)), and he says he had decided before shooting that \"if I didn't make my money back I'd be okay with that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S16",
+        "S11"
+      ],
+      "inference": "He repeatedly places the result below the making, before and after the result was known. The pre-release IGN interview ('not everything's about making a profit') shows the stance was not invented after the hit. This is the main evidence against Type 3.",
+      "alternative": "Indifference to results is easy to claim from wealth and after a success. In the same stream he celebrates being 'two time number one' at length, and on Lemonade Stand he says 'I want to succeed'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "He says he bought majority ownership of his clothing company Cloak because 'the quality wasn't where I wanted' and 'I had to become majority owner if I wanted to make a decision', then rebuilt it while 'not selling anything basically for a year and a half', so that the clothes would be better and 'more ethically sourced', 'doing things right, we're doing things honestly'.",
+      "passage": "he bought majority control of his clothing company to fix its quality and sold almost nothing for a year and a half while he rebuilt it",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "If accurate, a second costly choice with the same shape as the film: take control, accept a loss, to meet a standard of quality and honesty he set. The words 'right' and 'honestly' are his.",
+      "alternative": "Uncorroborated. A search on 2026-10-11 found no independent report of the ownership change, and co-founders Sean McLoughlin and Imane Anys have not been heard. Brand owners describe relaunches this way.",
+      "durability": "unresolved",
+      "review_trigger": "Find Cloak's own announcement or a partner's account before using this as fact; recheck ownership before release."
+    },
+    {
+      "id": "C25",
+      "claim": "He says that once Iron Lung's costs were repaid he paid the crew a bonus equal to their production pay ('whatever your salary was, it's now doubled'), gave bonuses to the actors and editors, and gave Szymanski profit points, adding 'I wish the industry actually would do that'.",
+      "passage": "He says he doubled the film crew's pay as a bonus once costs were repaid",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "He presents sharing the windfall as what ought to be done and criticizes the industry for not doing it, which matches the fairness reasoning in C15.",
+      "alternative": "No crew member has confirmed the bonus on record, and it was volunteered in response to a host who had 'heard' of a profit-sharing model.",
+      "durability": "unresolved",
+      "review_trigger": "Seek confirmation from a named crew or cast member before stating this as fact."
+    },
+    {
+      "id": "C26",
+      "claim": "At a June 2026 panel he said 'no one's going to judge me harsher than I judge myself. So if I can do that and overcome my own doubt then nothing else would really matter to me', and called that his 'guiding star'.",
+      "passage": "Speaking to an audience of creators in June 2026 he said, \"no one's going to judge me harsher than I judge myself. So if I can do that and overcome my own doubt then nothing else would really matter to me.\" He called that his \"guiding star.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "The central evidence for Type 1: an internal standard, harsher than any outside one, that he calls his guiding star, stated in four interviews across four years. It also explains why applause does not settle him.",
+      "alternative": "Performers often claim indifference to critics. 'Make them proud of me again' shows that some approval matters a great deal, which leaves room for Type 3 or Type 6. The 2026 statements follow mixed reviews, when discounting critics is convenient.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "He ties happiness to motion and improvement: 'I want a direction to climb' and what makes him happy is 'so long as I'm moving in a direction' (February 3, 2026 stream); 'if I'm not getting better, then I'm not happy' (Lemonade Stand).",
+      "passage": "\"I want a direction to climb,\" he told fans in 2026, because what makes him happy is \"so long as I'm moving in a direction.\" On Lemonade Stand he put it as, \"if I'm not getting better, then I'm not happy.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S11"
+      ],
+      "inference": "Improvement itself is the reward, and arrival is a problem, the same shape as 2017 (C11, C12). Getting better against his own previous work is a One's measure; needing a fresh horizon is also a Seven's.",
+      "alternative": "A Seven loses interest on arrival and needs the next climb for the same stated reason. The record cannot fully separate 'better' from 'next'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "In 2026 he described what his audience can expect of him in the phrase he had used of his father: 'I'm not going to half-ass anything and I'm going to try it to the very end. If it fails, it fails and I'll crash and burn with it.'",
+      "passage": "In 2026 he reached for his father's phrase to describe what his audience can count on: \"I'm not going to half-ass anything and I'm going to try it to the very end. If it fails, it fails and I'll crash and burn with it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Twelve years after the 2014 vlog (C09) he uses the same moral vocabulary of duty and obligation toward the audience, now with a theory of why.",
+      "alternative": "Said on a business podcast, where audience trust is the asset under discussion; he undercuts it at once ('God, I sound good in these answers') and later adds that 'it can't be too pure' and that he is selfish and wants to succeed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "He told YouTube's blog that 'our first rule was staying in the submarine. It's a restrictive box, but creativity lives in those restrictions', and, asked what a studio would have tried to fix, named the slow opening and defended it: 'The point is the monotony, the loneliness, the boredom.'",
+      "passage": "He told YouTube's blog, \"our first rule was staying in the submarine. It's a restrictive box, but creativity lives in those restrictions.\" Asked what a studio would have tried to fix, he named the slow opening and defended it: \"The point is the monotony, the loneliness, the boredom.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "Given freedom and money, he picked a rule-bound, monotonous, single-room film and defended the rule against the obvious commercial fix. With Unus Annus (C18) this is a pattern of binding himself to a premise and keeping it. It is the other half of the discriminator.",
+      "alternative": "He says he was 'naive' and thought one room would be easier and cheaper. Constraint is also a practical way to make a first feature, and the rule came from Szymanski's game, not from him.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "He gives a status reason for making a feature: his YouTube work lacked 'prestige', and 'to win and to gain some respect, I knew that I had to do a project'.",
+      "passage": "He told Lemonade Stand that he made a feature because his online work lacked prestige: \"to win and to gain some respect, I knew that I had to do a project.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "Real evidence for Type 3: recognition and standing are stated motives, and the slights are remembered. He frames some of it as legitimacy for YouTubers as a class.",
+      "alternative": "Wanting respect from an industry that dismissed him is compatible with a One's sense of what is deserved. The Emmy line is also a running joke his co-hosts made.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "He says of himself that he doesn't 'really quit' but moves 'from idea to idea all the time. It's part of having ADHD.'",
+      "passage": "\"I don't really quit,\" but that he goes \"from idea to idea all the time. It's part of having ADHD.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "The strongest counterevidence to Type 1 and the basis of the site's existing Type 7 reading: impulsive starts, restless anticipation, optimism and light planning are not how Ones usually work.",
+      "alternative": "He attributes the idea-jumping to ADHD himself, which is a description of attention and not of motive. He finished a three-year film and has kept one channel, one partner and the same friends for more than a decade. The captions read 'jump from idea to idea' and a second machine transcription reads 'jumped'; the article quotes only the words both share.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "Asked on Slate about tearing up after the opening weekend, he said what moved him 'was the fact that people believed in me'.",
+      "passage": "Asked on Slate about tearing up after the opening weekend, he said, \"it was the fact that people believed in me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "The tears come when people show up for him or when the bond thins, in 2017 and 2026 alike. The type argument has to account for a warmth and gratitude that the bare Type 1 picture lacks.",
+      "alternative": "This is the best evidence for a heart-type or Type 6 reading, in which being backed is the need. Crying on camera has also been part of his public identity since the early channel.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C35",
+      "claim": "Ethan Nestor, his Unus Annus co-host, told him on camera that 'seeing how much you're willing to give up is extremely inspiring'.",
+      "passage": "Besides Szymanski there is Nestor, who told him on camera, in a show they made together, that \"seeing how much you're willing to give up is extremely inspiring.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S21"
+      ],
+      "inference": "The one account from someone who worked beside him daily. It corroborates the effort and the sacrifice he describes and says nothing about motive.",
+      "alternative": "A warm tribute from a junior collaborator, said to his face in their shared show, preserved only in a fan re-upload with no date. It is not independent and not critical.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C36",
+      "claim": "David Szymanski, who made the Iron Lung game, said that after Fischbach's years of work on it the universe is 'definitely as much his as it is mine now. Probably even a little more his'. Fischbach says Szymanski shares in the film's profits, and Szymanski called himself 'the least unbiased source you could hear from'.",
+      "passage": "He said Fischbach had spent so long building out the game's world that it was \"definitely as much his as it is mine now. Probably even a little more his.\" Fischbach says Szymanski shares in the film's profits, and Szymanski called himself \"the least unbiased source you could hear from.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S22",
+        "S11"
+      ],
+      "inference": "Named testimony from outside his circle that he was thorough beyond what the source required and deferred to the originator's rules, which supports C29.",
+      "alternative": "Szymanski has profit points in the film and calls himself 'the least unbiased source'. Both interviews predate the release. He does not describe any disagreement.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C37",
+      "claim": "According to a January 2, 2025 report, he removed several moderators of his official subreddit on December 25, 2024, and a former head moderator replied that he was disappointed 'that you didn't care enough to reach out'.",
+      "passage": "he removed several moderators of his official subreddit on December 25, 2024, and a former head moderator wrote that he was disappointed \"that you didn't care enough to reach out.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S25"
+      ],
+      "inference": "The only episode found in which someone who served him says he treated them badly. The article reports it with attribution and does not interpret it.",
+      "alternative": "Known from one aggregator article; the post and his replies were not opened, and its language may be a joke. His stated reason (inactive moderators, protecting paid members-only content) is plausible and commercial.",
+      "durability": "unresolved",
+      "review_trigger": "Open the Reddit post and replies (S31) and at least one more report before saying more about this episode than the article now does."
+    },
+    {
+      "id": "C38",
+      "claim": "He married Amy Nelson on September 20, 2025, according to Dexerto's report of his October 7, 2025 Instagram announcement.",
+      "passage": "He married Amy Nelson on September 20, 2025",
+      "class": "third_party",
+      "source_ids": [
+        "S27",
+        "S23"
+      ],
+      "inference": "A relationship of about ten years and a current family fact for metadata. Its length counts against a restless reading of him.",
+      "alternative": "The Instagram posts were not opened; the date and captions are from Dexerto and Wikipedia.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck marital status and any family news before each release."
+    },
+    {
+      "id": "C40",
+      "claim": "Asked on Slate why he chose horror games, he said 'people wanted to see it. I actually didn't really like playing horror games. I was scared'.",
+      "passage": "he picked horror games because \"people wanted to see it. I actually didn't really like playing horror games. I was scared.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "He began by supplying what the audience rewarded, which is closer to a Three's adaptability than to a One's standard.",
+      "alternative": "One answer in an interview given after a hit; hindsight tidies the arc. He still plays horror games on the channel.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41",
+      "claim": "As relayed by Gizmodo from an IndieWire interview, he said he 'did too much myself' on Iron Lung and would be willing to give up some control on a next feature.",
+      "passage": "By June 2026 he had told IndieWire, as relayed by Gizmodo, that he \"did too much myself\" and would give up some control on a next feature",
+      "class": "self_report",
+      "source_ids": [
+        "S19"
+      ],
+      "inference": "A dated statement that the control he kept on Iron Lung may not be repeated, which is the main future test of the type argument.",
+      "alternative": "Second-hand: the IndieWire original (S30) could not be opened. Plans change.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck when his next film's financing, distribution and final-cut terms are announced."
+    },
+    {
+      "id": "C42",
+      "claim": "Taken together, his most costly repeated choices are explained better by an internal standard he feels bound to meet (Type 1) than by a search for stimulation and escape from limits (Type 7): he binds himself to rules and premises and keeps them, treats pain and monotony as the price of doing a thing properly, judges himself more harshly than any audience does, frames money and popularity as fairness and duty, and describes anger as something to be mastered.",
+      "passage": "Mark Fischbach, known as Markiplier, most likely fits Enneagram Type 1, the Reformer, at medium confidence.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S04",
+        "S05",
+        "S08",
+        "S10",
+        "S11",
+        "S12",
+        "S15",
+        "S23",
+        "S34"
+      ],
+      "inference": "This is the type reading, an interpretation of public statements and observed choices from 2013 to 2026, held at medium confidence. It is not a claim about his inner life or a diagnosis.",
+      "alternative": "Type 7 explains his impulsive starts, idea-jumping, optimism and comic style, and Type 3 explains his wish for respect and his worth-through-output; see the type hypothesis. Almost all of the evidence is his own account, given to friendly interviewers.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "Announcing Kyre's death on September 21, 2015, he apologized for his silence 'considering I haven't missed a day's uploads since I started the YouTube channel'.",
+      "passage": "Fischbach opened the video announcing the death by apologizing for his silence, \"considering I haven't missed a day's uploads since I started the YouTube channel.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "His own claim of an unbroken daily upload record from 2012 to September 2015, the basis for the article's 'more than three years'.",
+      "alternative": "Not independently audited. Wikipedia records that AdSense problems forced him onto a new channel in April 2012, so 'not a day missed' is his own summary, and daily uploads were also good business.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "His housemate and collaborator Daniel Kyre died in September 2015 after a suicide attempt, about ten months after the November 2014 vlog.",
+      "passage": "Ten months later his housemate and collaborator Daniel Kyre died after a suicide attempt",
+      "class": "third_party",
+      "source_ids": [
+        "S23",
+        "S03"
+      ],
+      "inference": "A dated loss, stated once and without detail, that frames the two videos quoted after it.",
+      "alternative": "The cause is Wikipedia's summary of contemporaneous reports; in his own video Fischbach says only that Kyre had passed away. Sensitive: no method or speculation is given.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "He was away from the channel about two weeks by his own count; on returning he said 'I wanted to make sure that I confronted it directly' and that he would see a therapist.",
+      "passage": "He was away about two weeks, by his count. In the video marking his return he said, \"I wanted to make sure that I confronted it directly,\" and that he would see a therapist.",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Faced with grief he reports moving toward it, which runs against the Type 7 expectation of steering away from pain.",
+      "alternative": "A public statement about grief is not the grief. Wikipedia describes the hiatus as a month ending October 5; 'two weeks' is his phrase in the October 5 video.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C46",
+      "claim": "In the same return video he called the two weeks 'very stressful' and also 'very beautiful'.",
+      "passage": "In the same video he calls those two weeks \"very stressful\" and also \"very beautiful,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Counterevidence kept in view: a quick turn to the positive is how a Seven handles loss.",
+      "alternative": "He is describing the love shown to Kyre by family and friends, so the remark may be gratitude more than reframing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "He posted the vlog 'I Feel Lost' on March 24, 2017, when his channel was close to 17 million subscribers.",
+      "passage": "On March 24, 2017, with his channel close to 17 million subscribers, he posted a tearful late-night vlog titled \"I Feel Lost.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Dates the crisis to a peak of success. The subscriber figure is his own ('almost 17 million people about to subscribe').",
+      "alternative": "The upload date is from YouTube metadata; 'tearful' and 'late-night' describe the video as captioned and as he describes it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "Polygon reported that more than 1.5 million people watched the deletion live and that Fischbach, known for 'exuberant gaming videos', was 'quiet and contemplative' during the final stream.",
+      "passage": "More than 1.5 million people watched it go, Polygon reported two days later, and the man who \"made a name for himself with exuberant gaming videos\" was \"quiet and contemplative\" while it happened.",
+      "class": "third_party",
+      "source_ids": [
+        "S34"
+      ],
+      "inference": "An independent observer's description of the opening scene and its scale.",
+      "alternative": "One reporter's characterization, drawn from fan re-uploads of the stream. Wikipedia gives the same audience figure.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C49",
+      "claim": "Polygon quoted him warning viewers against hosting copies of the videos ('We're not joking around when it comes to that sort of thing') and saying in a post-mortem 'I firmly believe that the entirety of what something is cannot be truly appreciated until it ends'.",
+      "passage": "Polygon quoted him warning viewers on a livestream against hosting copies of the videos: \"We're not joking around when it comes to that sort of thing.\" Looking back on the project, he said, \"I firmly believe that the entirety of what something is cannot be truly appreciated until it ends.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S34"
+      ],
+      "inference": "He enforced the premise after the fact and stated the reason for it, which supports reading the deletion as a rule kept.",
+      "alternative": "The quotations are Polygon's transcription. Protecting the scarcity of a project is also brand management, and Polygon reports the takedown effort as 'reportedly'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "Wikipedia records that Unus Annus had gained 4.56 million subscribers by its last minutes.",
+      "passage": "The channel had gained 4.56 million subscribers by its last minutes",
+      "class": "third_party",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "The size of what was deleted.",
+      "alternative": "A tertiary figure; the underlying count was not opened.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "The article's premise: nothing but the stated premise required the deletion.",
+      "passage": "Nothing but the premise required the deletion.",
+      "class": "interpretation",
+      "source_ids": [
+        "S34",
+        "S23"
+      ],
+      "inference": "An inference that no outside party forced the deletion; Polygon describes it as the channel's announced design.",
+      "alternative": "Deleting was also the event that drew the audience, so the premise had commercial value of its own.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C52",
+      "claim": "On Lemonade Stand he said 'I won't release a project until I'm happy with it and until I know that it was the best I could do at the time and I will be very hard on myself if I know that it could be better and I have not put in all the effort that I possibly could'.",
+      "passage": "On Lemonade Stand: \"I won't release a project until I'm happy with it and until I know that it was the best I could do at the time, and I will be very hard on myself if I know that it could be better and I have not put in all the effort that I possibly could.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "A second, 2026 statement of a self-set standard and self-directed harshness when it is missed.",
+      "alternative": "Said while describing his goals as 'selfish' and wanting 'a reputation of quality', so reputation is also in view.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C53",
+      "claim": "He told Slate that strangers' praise does not reach him ('Well, you don't know me, so it doesn't matter') but that criticism from someone he knew 'would devastate me' and his response would be 'I got to be better so I can make them proud of me again'.",
+      "passage": "Of online praise he told Slate, \"Well, you don't know me, so it doesn't matter.\" A critic he knew would be different: \"it would devastate me,\" he said, and his response would be, \"I got to be better so I can make them proud of me again.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "Shows the judge is not purely internal: a small circle's approval matters, expressed as needing to be better.",
+      "alternative": "Leaves room for Type 3 or Type 6. Said after mixed reviews, when discounting critics is convenient.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C54",
+      "claim": "He financed a feature set inside a submarine the story never leaves and explained it as fidelity to the game: 'I have to bend the rules as much as necessary to be able to tell the story as well as I can, but I cannot break the rules.'",
+      "passage": "He financed a feature film, set it inside a submarine that the story never leaves, and explained the confinement as fidelity to the short horror game it adapts: \"I have to bend the rules as much as necessary to be able to tell the story as well as I can, but I cannot break the rules.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S11",
+        "S17"
+      ],
+      "inference": "Given money and freedom, he bound himself to the source's rule; with the deletion this is the pattern the article opens on.",
+      "alternative": "He says elsewhere he was 'naive' and thought one room would be easier and cheaper, and the rule came from Szymanski's game. A host confirms the film stays inside; the article's 'never leaves' follows that description.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "In a May 17, 2026 video he called himself 'an impatient guy, sometimes'.",
+      "passage": "he calls himself \"an impatient guy\"",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "Part of the Seven-like working style the article keeps in view.",
+      "alternative": "A passing self-description while complaining about a slow release process; the article drops his 'sometimes'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C56",
+      "claim": "David Szymanski said the film began with Fischbach 'DMing me on Twitter out of the blue'.",
+      "passage": "David Szymanski, who made the game, said the project began with \"him DMing me on Twitter out of the blue.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S22"
+      ],
+      "inference": "Named outside confirmation of an impulsive start.",
+      "alternative": "Szymanski adds that Amy Nelson had told Fischbach not to open with the pitch, so the message was less impulsive than it sounds.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "The article's discriminator: a Seven treats rules, monotony and long discomfort as things to escape and reframes pain to leave it, while Fischbach repeatedly chooses a limit and stays in it (the daily streak, the deletion, the one-room film).",
+      "passage": "A Seven treats rules, monotony and long discomfort as things to get out of, and reframes pain in order to leave it. Fischbach keeps choosing the limit and staying in it. He kept a daily streak for more than three years by his account, deleted a channel because he had said he would, and held a film to one room.",
+      "class": "interpretation",
+      "source_ids": [
+        "S03",
+        "S34",
+        "S11",
+        "S12",
+        "S08"
+      ],
+      "inference": "The interpretive core of the type argument, built on three observable choices and his own account of them.",
+      "alternative": "A Seven learning depth under pressure could produce the same record, and 'better' may be 'next' in other words (C27). The streak length rests on his own statement.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "The article reads his description of the 2015 break as an inner voice that scored a bereavement break as time he should have been working.",
+      "passage": "Something in him scored a break taken for a death as time he should have been working.",
+      "class": "interpretation",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "An inference from his words 'you should really probably be recording something right now'.",
+      "alternative": "He names a commercial fear of being forgotten in the same breath, which may be all the 'voice' is.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "The article treats the 2017 vlog as the strongest evidence for Type 7: paralysis among options, an overnight swing from tears to appetite, and life described as motion.",
+      "passage": "Paralysis among too many options, a swing from tears to appetite within hours, and a life described as motion: this is what a Seven sounds like when the horizon runs out.",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S06"
+      ],
+      "inference": "Counterevidence to the leading read, stated as such.",
+      "alternative": "A One at a peak with no clear 'ought' could also describe drift; the vlog includes 'right steps' and 'right choices'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "The article leaves unexplained that his tears come from being backed, which reads more like Type 2 or Type 6 than Type 1.",
+      "passage": "That reads more like a need for support and belonging, the territory of Type 2 or Type 6, than like a One's standard.",
+      "class": "interpretation",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "An acknowledged remainder the type argument does not absorb.",
+      "alternative": "Crying on camera has been part of his public identity since the early channel, so it may be temperament or persona and no type signal at all.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "Metadata: birth date June 28, 1989, in Honolulu, Hawaii.",
+      "passage": "1989-06-28",
+      "class": "third_party",
+      "source_ids": [
+        "S23",
+        "S01"
+      ],
+      "inference": "Structured-data birth date. Wikipedia gives the date; his own video confirms a military-base birth in Honolulu.",
+      "alternative": "The full date rests on Wikipedia, which cites his own video; remove the day if a better source disagrees.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C62",
+      "claim": "FAQ: Unus Annus posted daily for a year and was deleted live on November 14, 2020 with more than 1.5 million watching, per Polygon.",
+      "passage": "Unus Annus, the channel he made with Ethan Nestor, posted a video every day for a year and was deleted live on November 14, 2020, with more than 1.5 million people watching, according to Polygon.",
+      "class": "third_party",
+      "source_ids": [
+        "S34",
+        "S23"
+      ],
+      "inference": "FAQ restatement of C18 and C48.",
+      "alternative": "The exact date is Wikipedia's; Polygon says mid-November.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C63",
+      "claim": "FAQ: he says his daily upload streak lasted more than three years.",
+      "passage": "a daily upload streak he says lasted more than three years",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S02"
+      ],
+      "inference": "Derived from his September 2015 statement that he had not missed a day since starting and his November 2014 statement that he had been at it two and a half years.",
+      "alternative": "Not independently audited; see C43.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C64",
+      "claim": "FAQ: he married Amy Nelson on September 20, 2025, announced it on Instagram on October 7, 2025, and says he postponed the wedding while making Iron Lung.",
+      "passage": "He married Amy Nelson on September 20, 2025, and announced it on Instagram on October 7, 2025, according to Dexerto. He says he postponed the wedding while he was making Iron Lung.",
+      "class": "third_party",
+      "source_ids": [
+        "S27",
+        "S11"
+      ],
+      "inference": "Current family fact for search intent; the postponement is his own statement.",
+      "alternative": "The Instagram posts were not opened; Nelson has not been found describing the postponement.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck marital status and any family news before each release."
+    },
+    {
+      "id": "C65",
+      "claim": "FAQ: Iron Lung's opening weekend, worldwide total as of May 2, 2026, and budget.",
+      "passage": "Iron Lung took in $18.19 million in the United States and Canada on its opening weekend in 3,015 theaters, according to Comscore figures reported by NBC News. Its worldwide total was about $51.2 million as of May 2, 2026.",
+      "class": "third_party",
+      "source_ids": [
+        "S17",
+        "S24"
+      ],
+      "inference": "FAQ restatement of C02.",
+      "alternative": "The worldwide total is Wikipedia's summary of box-office trackers that were not opened directly.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck the worldwide gross at Box Office Mojo or The Numbers before release and whenever a re-release or new territory is announced."
+    },
+    {
+      "id": "C66",
+      "claim": "FAQ: his channel had more than 38 million subscribers as of August 7, 2026.",
+      "passage": "His channel had more than 38 million subscribers as of August 7, 2026.",
+      "class": "third_party",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Dated audience size for the identity FAQ.",
+      "alternative": "Wikipedia's figure; subscriber counts move.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck the subscriber count before each release."
+    },
+    {
+      "id": "C67",
+      "claim": "The article's test for the control claim: a next film made with studio money and outside final say would show whether the control was motive or circumstance.",
+      "passage": "If his next film is made with a studio's money and someone else's final say, and he is at ease with it, the control described here was about circumstance.",
+      "class": "interpretation",
+      "source_ids": [
+        "S19",
+        "S11"
+      ],
+      "inference": "States in reader language what future evidence would weaken the reading.",
+      "alternative": "A single future project cannot settle a type; it would only test this one strand.",
+      "durability": "unresolved",
+      "review_trigger": "Recheck when his next film's financing, distribution and final-cut terms are announced."
+    },
+    {
+      "id": "C68",
+      "claim": "When he released the film he recalls thinking 'Okay, I don't hate it anymore. Go' and 'Can't wait for the next one'; he told YouTube's blog his mother saw it with his cousin from Korea, loved it, and said 'Don't do that again. No sequels.'",
+      "passage": "\"Okay, I don't hate it anymore. Go,\" he recalled on Slate. His mother, he told YouTube's blog, saw it with his cousin from Korea, loved it, and had one note: \"Don't do that again. No sequels.\" He had already told Slate what came next: \"Can't wait for the next one.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S10",
+        "S12"
+      ],
+      "inference": "The ending: his own verdict on the finished work is the absence of hatred, and his next thought is the next project.",
+      "alternative": "'Can't wait for the next one' is as much a Seven's line as a One's. The mother's remark is reported by him, not by her.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 1,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C05",
+      "C07",
+      "C08",
+      "C09",
+      "C11",
+      "C14",
+      "C15",
+      "C17",
+      "C18",
+      "C20",
+      "C26",
+      "C27",
+      "C28",
+      "C29",
+      "C43",
+      "C52",
+      "C54"
+    ],
+    "against": "His working style is not a One's. He starts on impulse (a cold message asking for the film rights, writing 'pretty much immediate'), says he jumps 'from idea to idea all the time' and is 'an impatient guy', admits he did far too little pre-production and set no budget, is already thinking about the next thing while making the current one, and says he would 'love' to lose everything and start over (C31). His public manner is loud, absurd and playful, and he calls the work 'fun' constantly. He is easy on imperfection in a way Ones often are not: he says he sees Iron Lung's flaws but does not regret them, that his taste in films is 'terrible', that 'it can't be too pure', and that he is selfish and wants to succeed (C28, C30). He rarely criticizes other people and hedges when he does. The 2017 crisis is about too many options and the dread of limbo (C11), which is a Seven's dilemma, where a One usually knows what ought to be done. He names status motives outright: prestige, respect, being taken seriously, and a remembered Emmy loss (C30), and says attention was the first hook (C13). Finally, nearly all of the evidence for an inner standard is his own description of himself to friendly interviewers after a success; the two collaborators on record (C35, C36) confirm effort and thoroughness and say nothing about motive, and no critic or former employee has been found.",
+    "alternative_type": 7,
+    "alternative_case": "Type 7 is the reading on the site's existing Markiplier page and it has real support. He describes his life as forward motion ('I'm never going to stop moving, not until the day I die', C12; 'so long as I'm moving in a direction', C27), finds arrival empty and the climb rewarding (C11, C27), reframes pain and loss quickly and positively (C10, C12, C17), multiplies ventures (interactive specials, podcasts, a tour, clothing, a deleted channel, a film), and prizes freedom from other people's control (C21). His origin story twice uses the words 'I didn't have an escape' (C03), and his 2017 distress is the paralysis of unlimited choice. On this reading the grind and the self-criticism are a Seven under pressure, and Iron Lung is a Seven learning depth. Type 3 is the other serious rival and is closer in motive: his worth is 'nailed to' what he produces (C14), he wants respect and prestige and to make people ask how he did it (C30), attention hooked him (C13), he adapted to what audiences rewarded (C40), and he is cheerfully competitive about being number one. Type 3 fails mainly on what he gives up: he deleted a 4.5-million-subscriber channel (C18), refuses endorsement income (C15), entered his biggest project having accepted a total loss (C22), and says the accolades that matter are the ones he gives himself (C26). Type 6 was considered because of his language of loyalty, trust, duty and being supported (C09, C28, C32), but he shows little search for reassurance or authority and reports settled confidence in his own judgment. Type 8 was considered because control and anger run through his origin story (C06), but he restrains anger and describes mastering it (C07), defers to his crew, and cries easily. Type 4 was considered for the mortality themes and emotional openness (C32) but he does not describe himself as different or lacking.",
+    "discriminator": "What he does with a limit, and what his reframing of pain is for. A Seven experiences rules, monotony, long discomfort and outside judgment as things to get away from, and recasts pain so as to leave it behind and reach the next good thing. A One imposes limits on himself, treats arduousness as the price of doing something properly, and answers to an inner judge that applause does not satisfy. Across the record Fischbach chooses the limit and pays for it. By his account he uploaded every day for more than three years and heard a voice calling a bereavement break a lapse (C43, C08). He built a channel on a rule that it be destroyed, kept the rule and warned fans off re-uploads (C18, C49). Given money and freedom, he chose a one-room film about a prisoner, held to 'I cannot break the rules' of the source, and defended its boredom as the point (C54, C29). He worked what he calls sixteen-hour days for three years, postponed his wedding, and hated himself and the film until it met his standard (C20). When he reframes pain, in 2015, 2022 and 2026, it is to justify staying in it: 'this pain is necessary', it is how you 'grow', he 'confronted it directly' (C10, C17). And he says in four interviews across four years that the judge is internal: 'no one's going to judge me harsher than I judge myself', a rule he calls his 'guiding star' (C26, C14, C52). A Seven's restlessness explains how he begins things; it does not explain why he finishes them at this cost or why finishing brings a collapse of pressure and no lasting satisfaction. This is self-report plus four observed choices (the daily uploads, the deletion, the film, the charity record), so the confidence is medium.",
+    "unexplained": "The type does not explain how he starts: on impulse, without a plan or a budget, by his own account because of ADHD (C31). It does not explain the manic comic persona that made him famous, or why a man with this standard is so relaxed about flaws once a thing is released. The 2017 vlog fits a Seven better than a One and the record cannot settle which it was (C11, C12). It is unclear whether 'better' and 'next' are the same hunger for him (C27). His tears come from being supported and from losing closeness with viewers (C32), a need that reads more like Type 2 or Type 6 than Type 1. The December 2024 moderator removals are known from one secondary report and could show a One's abrupt correction, ordinary housekeeping, or a joke that landed badly (C37). His stated wish for prestige (C30) sits beside his stated indifference to accolades (C22, C26) and he has not reconciled them. No account exists from anyone who has disagreed with him at work, and Amy Nelson, Wade Barnes and Bob Muyskens, who know him best, were not found describing him in their own words. He says he was 18 when his father died on July 4, 2008, which does not match a June 28, 1989 birth date; the draft gives the date and no age."
+  },
+  "profile_format": "standard"
+}

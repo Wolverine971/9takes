@@ -1,0 +1,23 @@
+The draft stage is complete: `draft.md` and `evidence-draft.json` are written in the run directory, and the evidence passes the runner's own `validateEvidence` against the draft.
+
+**Decision for you: this is still a duplicate of the live Markiplier page.** Mark Fischbach is Markiplier, and `Markiplier.md` is published as a Type 7; this draft reads him as Type 1. I added a `duplicate_subject` blocker to the draft's `production_pretext`, so this run will end in a hold instead of "ready" until you decide. That blocker is my addition (nothing was inherited from the empty baseline); delete the line if you do want a separate legal-name page. My recommendation is to rerun as `Markiplier --refresh --expanded-review` and treat this draft as the source material for it.
+
+**What the draft is**
+- **Read:** Type 1 at medium confidence, Type 7 as the strongest alternative, Type 3 also argued.
+- **Angle:** he starts things like a Seven (cold DM, idea-jumping, impatience) but keeps finishing them inside rules he set — the daily upload streak, deleting Unus Annus on schedule, a one-room film that took three years.
+- **Shape:** 3,556 words, eight sections, six FAQs, unpublished. The only check failure is the duplicate blocker.
+- **Evidence record:** 62 claims with exact passages and 34 sources. Six unused research claims were dropped and their sources kept. The six-role jury is still triggered.
+
+**What checking turned up**
+- **Opening source added:** Polygon's November 16, 2020 report on the Unus Annus deletion, opened and added as S34.
+- **Box office:** NBC says Iron Lung finished a close second to *Send Help* on opening weekend. The draft says so.
+- **Misattributed line:** the research credited "because I know it is finite" to him; in the Padilla interview it reads as Padilla's, so it is excluded.
+- **Father's death:** he says he was 18, but his birth date and the July 4, 2008 date imply 19. The draft gives the date and no age.
+- **Quotes:** all 87 quotations were script-matched to the saved captions and re-fetched pages. A Whisper pass on the audio of four sources (Padilla, Slate, the results stream, the Cannes video) found three one-word disagreements; the draft now quotes only the shared words.
+
+**Still open**
+- The other YouTube sources (including Lemonade Stand, the most-quoted one) have had no audio check, and nothing has had a human listen.
+- The December 2024 subreddit moderator removals appear only as an attributed gap, from one secondary report, against the research note to open the Reddit post first. It is the only critical testimony on record, so I kept it in and did not interpret it.
+- The Cloak takeover and the doubled crew pay are presented as his unconfirmed claims.
+
+I wrote no repo files beyond the two outputs, and added one item to the existing quote-fidelity memory note.

@@ -1,0 +1,1066 @@
+{
+  "schema_version": 3,
+  "content_sha256": "bd263b4c16d64e30ca37be653ec491129e757962d6133f28537663fc02876b36",
+  "evidence_sha256": "62282bc3582eb2c5b893ce0704360b7f9eddbb85e809da6d7787db983469ae5e",
+  "status": "insufficient_evidence",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "blocker",
+      "passage": "loc: 'https://9takes.com/personality-analysis/Mark-Fischbach'",
+      "problem": "Still open. The site publishes this person at /personality-analysis/markiplier as Type 7 (published: true, enneagram: 7, confirmed in the repo on 2026-10-11). This candidate would add a second URL under his legal name that leads with Type 1 and never mentions the other page. No input records a decision from DJ. The editor kept the blocker word for word, which is right, but nothing here can clear it.",
+      "acceptance_test": "A dated decision from DJ is recorded: either this argument is rerun as `Markiplier --refresh --expanded-review` on the existing URL, or a separate legal-name page is confirmed with a plan under which the two pages do not state different types. Until then ready_for_production stays false and nothing is published at this URL."
+    },
+    {
+      "id": "verify-02",
+      "severity": "blocker",
+      "passage": "At a few points the easier or more rewarding option was open and he reports taking the other, for a reason he states as right or owed.",
+      "problem": "The edit replaced the type argument after the frozen review. The draft's discriminator (limits chosen and kept, pain reframed in order to stay, a judge located inside) was withdrawn; this narrower one was written in its place; Type 3 was promoted to a co-alternative in the answer, the FAQ and the description; and confidence went from medium to low. None of the six reviewers saw any of it. The standard requires a hold for --refresh --expanded-review when editing changes the type thesis after the frozen review, and the enneagram reviewer said the same of promoting Type 3.",
+      "acceptance_test": "The run is repeated with --refresh --expanded-review so all six roles review the rebuilt argument, the Type 3 comparison and the new title against a frozen copy. No release is built from this run's reviews."
+    },
+    {
+      "id": "verify-03",
+      "severity": "major",
+      "passage": "That is this profile's inference from four moments in twelve years, and the reasons are all his own telling. It is enough to put Type 1 first. It is not enough to settle the question.",
+      "problem": "The article is right about itself, and under the standard that means it cannot release as a standard profile. No discriminator survives: the candidate rests on four self-reported moments, each with a rival reading the article gives, two of them from the 2026 press window; the article says the Seven reading explains more of what he says drives him and that it found no clean test against Type 3. The evidence record agrees (confidence low, status insufficient_evidence). The open-case format does not apply to someone with fourteen years of public record.",
+      "acceptance_test": "Either research produces a defensible discriminator at medium confidence or better (named on-record testimony about how he responds when work falls short, or a documented choice where doing it his way cost him reception) and the evidence status returns to ready, or the page stays held or is folded into the Markiplier refresh with whatever type that evidence supports."
+    },
+    {
+      "id": "verify-04",
+      "severity": "major",
+      "passage": "And: \"I cannot break the rules.\"",
+      "problem": "The edit cut this quotation in the way the jury faulted six others. The sentence in S11 (15:28-15:39) is 'I have to bend the rules as as much as necessary to be able to tell the story as well as I can, but I cannot break the rules', said about adapting one game, and the frozen draft quoted it whole. The candidate keeps only the absolute half, then builds the title, the meta_title ('The Rules He Says He Cannot Break') and the thesis question ('rules he says he cannot break') on it as a general statement about him. He said it of the game's rules, with a qualifier, and said nothing like it about the channel deletion.",
+      "acceptance_test": "The sentence is quoted whole or the 'bend the rules as much as necessary' half is reported beside it, and the article says he was speaking about the game's rules. The title, meta_title and thesis question either name that one rule or stop attributing a general claim to him. C54 records the full sentence."
+    },
+    {
+      "id": "verify-05",
+      "severity": "major",
+      "passage": "he drove home, told Nelson, \"I think it's done,\" and then: \"I break down for 30 minutes straight. I cried. Just curled up in a ball and cried. Not out of sadness.\"",
+      "problem": "This anecdote and its two direct quotations have no claim in the evidence inventory, and no claim cites S14, the video it comes from. The standard requires every direct quotation and thesis-supporting anecdote to be inventoried. The words themselves check out (S14 captions 04:16-04:50), and he dates the night 'a week before or maybe 2 weeks before' the January 30 release. Two smaller gaps: 'was like the fifth thing that I tried to do' appears in C84's claim text but not its passage, and the sentence 'one channel, one partner and the same friends for more than a decade', used against the Seven reading, has no passage of its own.",
+      "acceptance_test": "The inventory has a self_report claim citing S14 whose passage contains both quotations, with its limits (retold four months later, after the film succeeded; Nelson's account not on record). C84's passage includes the 'fifth thing' quotation, and the 'one channel, one partner' sentence is covered by a claim or reworded to what C38 and C83 support."
+    },
+    {
+      "id": "verify-06",
+      "severity": "minor",
+      "passage": "a former head moderator complained that he had not reached out, and he replied that he had seen no attempt to contact him, only an inactive marker beside their names.",
+      "problem": "Two small things in the one adverse episode. The report says his statement came in replies to other users who criticized him, one of whom called him 'hubristic'; 'he replied' reads as a reply to the head moderator. And the reader's link is an unpinned Wayback URL (web/2025/...) that on 2026-10-11 resolved to capture 20260125045054, which returned HTTP 500 twice.",
+      "acceptance_test": "The sentence says he made the statement in replies to other users, per the same report. The link and the frontmatter citation point to a specific working capture, for example 20250803103929 or 20260205010007."
+    },
+    {
+      "id": "verify-07",
+      "severity": "minor",
+      "passage": "On a live panel of creators hosted by Colin and Samir in June 2026",
+      "problem": "Upload dates are given as the dates things were said, and one is wrong. The video's intro says the conversation took place at Press Publish LA on the Fox lot; the organizers' page dates that event May 28, 2026, and in the conversation the film is still 'coming out on YouTube' (it did on May 31). June 11, 2026 is when the video was posted. The article says 'in June 2026' twice. 'On May 20, 2022, Anthony Padilla ... asked' has the same form: that is the upload date, and the recording date is not in the record.",
+      "acceptance_test": "The panel is dated May 28, 2026 with the video's June 11 publication date kept in the citation, in both places and in C26 and C69. The Padilla sentence says the interview was published on May 20, 2022."
+    },
+    {
+      "id": "verify-08",
+      "severity": "minor",
+      "passage": "In 2017 he had offers in hand and turned them down as unearned. In 2022 he called his income unfair and said his answer was to give it away.",
+      "problem": "Two of the four moments are stated more firmly than the sources. The 2017 offers are known only from his own sentence, his first reason there is 'I didn't come for that', and the evidence record notes that no offer is documented. In 2022 he says 'I donate to charity'; 'so you give a lot of it away' is Padilla's line, and he adds that he has a nice house and car and will be comfortable for life. The FAQ goes further and says he 'says he wanted the open option' in all three examples; he says that only about the film.",
+      "acceptance_test": "The paragraph says he said he was turning offers down and gives his own words for what he does with the money. The FAQ answer attributes the stated wish only to the film, or is reworded to match the body ('the easier or more rewarding option was open')."
+    },
+    {
+      "id": "verify-09",
+      "severity": "minor",
+      "passage": "Against them stand the fear he calls his biggest, which is lost novelty",
+      "problem": "The gloss is narrower than the source and tilts the night toward Type 7. In S05 (06:22-07:15) 'that feeling' is 'knowing that what you say influences people', that 'each and every one of those people matter', 'raw creation' and 'raw unexplored territory', and he restates the fear as 'losing my way on YouTube'. Connection to the audience is half of it, which bears on the Type 2 and Type 6 thread the article raises later.",
+      "acceptance_test": "The fear is described in his terms (the feeling of the early channel, including its closeness to viewers, and 'losing my way on YouTube'), or the sentence says novelty is one part of what he names."
+    },
+    {
+      "id": "verify-10",
+      "severity": "minor",
+      "passage": "Where the judge sits cannot carry the type. What the judge measures might.",
+      "problem": "The body is 4,328 words, 772 more than the frozen draft and well above the standard's 2,000-3,500 target, and three acceptance tests asked for no net growth. The last three sections run about 1,480 words of analysis, and the caution that the evidence is his own account is restated in at least six places.",
+      "acceptance_test": "The body is under about 3,900 words with no sourced context removed, mainly by stating the self-report caution once per section at most and tightening 'Where the judge sits' and 'What the record cannot show'."
+    }
+  ],
+  "research_tasks": [
+    "Decision for DJ before anything else: rerun this subject as `Markiplier --refresh --expanded-review` on the live URL, or confirm a separate legal-name page with a plan that keeps the two pages from stating different types. The live page is Type 7.",
+    "Testimony: open the February 2026 Distractible episodes with Wade Barnes and Bob Muyskens about the film, and look for on-record accounts from Amy Nelson, Tyler Scheid, Seán McLoughlin, Philip Roy, Caroline Rose Kaplan, the makeup head named Anna on Lemonade Stand, and Lixian and Sam, whom he names in S14 as helping finish the film. Record whether they describe him redoing work that misses a standard, moving on to the next idea, or managing how it looks.",
+    "Type 1 against Type 3: find a dated choice where doing it the way he thought right cost him reception or standing. Read the Empire and Guardian two-star reviews to see whether they fault the slow opening he says a studio would have fixed, and read S11 25:00-1:05:00 and the rest of S13 for notes he refused before release.",
+    "Type 1 against Type 7: read the unread parts of S11, S13 and S32 and obtain the IndieWire interview (S30) for any account of what he does when a rule he set and his own wish diverge, beyond the single 'that's not the game' statement.",
+    "Audio check before release. YouTube refused caption and audio downloads from this machine on 2026-10-11, so I could run a second transcription only on recordings the draft stage had saved. Confirmed that way: every quotation from S08, S09, S10 and S15, and S05 up to 06:15. Still resting on machine captions alone: all quotations from S04, S11, S01, S02, S03, S06, S07, S21 and S22, and from S05 'my biggest fear', 'disappointing you guys', 'right steps', 'happier than I've ever been' and 'not quitting'. S08 also needs a listen for speaker attribution.",
+    "Moderator dispute: open the r/Markiplier posts and his replies (S31) and one more report; establish to whom he was replying and how much of his post was a joke.",
+    "Dates: settle his age at his father's death from a primary record (he says 18; July 4, 2008 is six days after a nineteenth birthday on a June 28, 1989 birth date). Correct the panel date to May 28, 2026.",
+    "Changing facts before any release: the final theatrical total from Box Office Mojo or The Numbers; whether a next feature has been announced since June 29, 2026 (a standard search on 2026-10-11 found none named, which is not conclusive); subscriber count; the Rotten Tomatoes score; whether the Nestor clip is still retrievable (it was on 2026-10-11).",
+    "After the above, rerun with --refresh --expanded-review so the six roles see the rebuilt argument."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "BBC Newsbeat (fresh fetch, 2026-10-11) says he 'financed, wrote, directed and starred in the indie-horror'; NBC calls the film self-financed and self-distributed; the pinned Iron Lung revision gives the January 30, 2026 release, which he also states in S14 at 03:15."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "qualified",
+      "reason": "NBC text confirmed on fresh fetch: $18.19 million, 3,015 theaters, 'a close second' to Send Help, 'final figures from Comscore', dated Feb. 2, 2026. Budget line confirmed in S11 captions at 03:14. The $51.2 million figure is in the pinned Wikipedia revision (oldid 1377060554) as of May 2, 2026, but no box-office tracker was opened, so the lifetime total is a tertiary snapshot."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "S01 captions 00:45-01:35 (military base in Honolulu, 'career army man') and 03:00-03:20 ('the divorce finally came'). Self-report, presented as such."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "qualified",
+      "reason": "Both statements are in the sources: CRI page, original interview dated February 2013 ('My dad died of cancer on July 4 of 2008'); S01 captions 08:03-08:21, where a music cue falls between 'as he' and 'died'. The date conflicts with his statement in S08 at 03:00 that his father died when he was 18 if he was born June 28, 1989; the article states no age and the conflict is still open."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "S08 captions 09:13-09:36, read in context: Padilla asks how his father established his morality, he answers with the quoted words, Padilla says 'that sounds like you're describing yourself', he answers 'i'd like to think i embody that'. No speaker labels; attribution follows the question-answer order."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "S01 captions 10:40-11:30 (appendix, 'a tumor the size of a fist in my adrenal gland ... needed to come out too but at a later date', the 'out of my control' sentence) and 09:25-09:50 (job and relationship). S08 at 09:57 has 'just complete lack of control in my life' as the answer to Padilla's question. 'Around 2012' is hedged; he tells Slate the tumor was found in 2011."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "S08 captions 04:50-06:10. 'You said that you were a very angry teenager' is Padilla's wording and the answer is 'oh yeah'; the quoted sentence follows. No speaker labels. The gloss that he judged and set out to manage his anger is a fair reading of 'i really did not like where that led me'."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "S04 captions 01:20-02:00 read in order: 'eating away at the back of my mind ... people are probably losing their mind', then 'you guys haven't like abandoned me like was one fear in my mind', 'i know it's an irrational fear', and the 'collapsing down' sentence. The article's ordering and its reading (the thought is about the audience) match. Caption text only; no audio was available for a second transcription."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "S02 captions 02:15-02:40, verbatim including 'so many people are judging what I do'. He says at 00:00 that he is recording at 2:42 a.m., which supports 'late-night'."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "S03 captions 02:45-04:05: 'such a positive influence on a lot of people', wanting to 'celebrate the life that he lived', then 'he inspired us to expect better from ourselves' and 'he always took the time to make sure they were perfect'. The edit's scaling ('among the things he praised') matches the video."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "qualified",
+      "reason": "Quotations confirmed in S05 captions 03:41-04:40 and in my own second transcription of the saved recording. Two limits: his first stated reason is 'I didn't come for that', before 'I don't deserve it ... I haven't earned it yet', and the sentence runs straight on into 'the whole choice thing'; and the offers are known only from this statement. The later sentence 'In 2017 he had offers in hand' states them as fact (see verify-08)."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "S06 captions 02:50-03:10 and 05:43-05:55. S06 opens 'I woke up this morning' after 'that late night Vlog', which supports 'the next morning'."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "S07 captions 01:11-01:25, answering the interviewer's question about how quickly the following grew."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "S08 captions 22:15-23:02 and my second transcription of the saved recording: Padilla's question ('a sense of purpose or ... a sense of value that you place on yourself'), then the quoted answer in the order the article gives it. The article says the question supplied the frame."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "qualified",
+      "reason": "Quotations confirmed in S08 captions 17:57-18:25 and 20:20-20:40 and in my second transcription. 'So you give a lot of it away' is Padilla's line, and Fischbach follows 'I donate to charity' with 'I have a nice house i have a nice car i'm going to be comfortable the rest of my life', so the later paraphrase 'said his answer was to give it away' is stronger than his words (see verify-08). The clothing line (Cloak, October 2018) is in the pinned Wikipedia revision."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "qualified",
+      "reason": "Polygon (fresh fetch) confirms the premise, the black and white suits, the on-screen confirmation of permanent deletion and the audience of over 1.5 million. The date is Wikipedia's ('November 14, 2020, at 12:00 a.m. PST'); Polygon says mid-November. 'Sat' is not in either source: Polygon says the pair 'got together' and 'looked on a computer screen'."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "S08 captions 14:30-14:52 and my second transcription: 'one thing that i also learned from the moment that i was on that table getting stabbed in the back is that my life was finite'. It answers Padilla's question about whether the idea of Unus Annus translates to how he thinks about life. No speaker labels; the preceding 'because i know it is finite' sentence reads as Padilla's and is not used."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "S11 captions 96:56-97:02 ('it was 16-hour days for about 3 years') and 82:05-82:12 ('I had to postpone even my wedding to work on these things'). Self-report, labelled as such in the article."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "S11 captions 78:20-78:35 (the 'control freak' sentence, said about studios having final say) and 09:48-09:53 ('no one was really bashing down my door')."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "S09 captions and my second transcription: 00:45-01:30 (the mock-solemn 'two time number one' opening, 'based on Monday'), 10:20-10:32 (win condition), 14:14 and 14:27 ('I'm proud of what I made'; 'this isn't the best I can do'). Title confirmed live through YouTube oEmbed on 2026-10-11. The date is the upload date in the saved metadata."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "qualified",
+      "reason": "Words confirmed in S15 captions 09:21-09:58 and in my second transcription, including the end of the sentence. The date is wrong in the article: the video's intro says the conversation took place at Press Publish LA on the Fox lot, and the organizers' page (opened 2026-10-11) dates that event May 28, 2026. June 11, 2026 is the upload date (see verify-07)."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "S09 captions 14:00-14:12 and S11 captions 69:08-69:15."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "S11 captions 87:35-88:12: the 'half-ass' vow, then about thirty seconds later 'God, I sound good in these answers.' The 2022 use of the phrase about his father is in S08 at 09:17."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "YouTube Official Blog, fresh fetch: question 'Are there parts of the film that you think a traditional studio would have tried to \"fix\"?', answer 'Probably the whole movie, but especially the beginning ... The point is the monotony, the loneliness, the boredom.' Dated Feb 23, 2026."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "S11 captions 09:28-09:50: 'it just didn't have the same prestige, which is why I wanted to do a feature ... So, to win and to gain some respect, I knew that I had to do a project.'"
+    },
+    {
+      "claim_id": "C31",
+      "verdict": "supported",
+      "reason": "S10 captions 07:48-07:58, in an answer about how he kept going after the tumor."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "S10 captions 03:08-03:40: the interviewer's 'tearing up about being number one' and his 'it was the fact that people believed in me'."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "qualified",
+      "reason": "The words are in the S21 captions at 00:20-00:35, and the clip was still live on 2026-10-11 (oEmbed: 'Ethan Talking About How Mark Inspires Him', channel Multiplier). It is an undated fan re-upload of a deleted video, said to his face by a junior collaborator; the article says so and does not link it."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "S22 captions 52:55-53:25 ('definitely as much his as it is mine now. Probably even a little more his') and 54:45 ('I am the least unbiased source you could hear from', said while praising the film). S11 captions confirm 'David Szymanski ... he gets points in the movie'."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "qualified",
+      "reason": "Confirmed in two Wayback captures of the Deltia's Gaming report (20250803103929 and 20260205010007), dated January 2, 2025: removals on December 25, 2024, the head moderator's complaint, and 'Mark mentioned that he never saw the moderators trying to contact him and that he simply saw the inactive symbol next to their name.' Per the report that statement came in replies to other users who criticized him, not as a reply to the head moderator, so 'he replied' is slightly loose. The Reddit posts remain unopened, and the article's unpinned archive link resolved on 2026-10-11 to a capture returning HTTP 500 (see verify-06)."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "Dexerto, fresh fetch: wedding photos posted on Instagram on October 7, 2025, the wedding 'a couple of weeks earlier on September 20'. The pinned Wikipedia revision agrees."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "S10 captions 08:47-08:55, answering 'Why horror?'."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "qualified",
+      "reason": "Gizmodo, fresh fetch, published June 29, 2026: he would 'be willing to give up some control on his next feature, once he figures out what it might be'. Second-hand from IndieWire, which stays unopened. The status is 104 days old at the accuracy date; a standard web search on 2026-10-11 found no named follow-up film but was not conclusive."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "qualified",
+      "reason": "An interpretation the article labels as held loosely, and the evidence record itself rates low confidence with status insufficient_evidence. 'He reports following the rule' where 'what he wants and what he thinks is right come apart' fits the film statement; in the 2017 and 2022 moments he does not say he wanted the other option."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "S03 captions 00:00-00:10, the opening words of the announcement. Presented as his own claim."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "Pinned Wikipedia revision: he 'began living with fellow YouTubers Daniel Kyre and Ryan Magee'; 'In September 2015, Kyre was found in critical condition after attempting suicide'. His own announcement (S03, 00:21) says 'has passed away as of last week after an apparent suicide attempt'. November 23, 2014 to September 2015 is ten months."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "S04 captions 01:05-01:15 (quotation) and 02:40 ('after just a couple weeks'). Wikipedia calls it a month; the article says 'by his count'."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "Saved metadata gives upload date 2017-03-24; S05 captions 00:00-00:15 ('late night Vlogs') and 01:58 ('almost 17 million people about to subscribe'). 'Tearful' rests on his own 'disgusting mess' and 'blubber' remarks and long pauses in the captions."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "Polygon, fresh fetch, published Nov 16, 2020: 'over 1.5 million people came together to watch' and the 'exuberant gaming videos' / 'quiet and contemplative' sentence."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "Polygon: 'Fischbach said in a livestream where he warns viewers not to host their own videos, lest they risk getting a takedown notice'."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "Pinned Wikipedia revision (oldid 1379210842): launched November 15, 2019 with Ethan Nestor; '4.56 million in its last few minutes'."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "qualified",
+      "reason": "A labelled inference. Wikipedia's figures (1 million subscribers in five days; a final stream peaking above 1.5 million concurrent viewers) and Polygon's 'It was such an event' support it; 'its biggest event' is not stated by either source in those words."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "S10 captions 21:55-22:35, answering 'Does it matter to you if critics don't necessarily love it?'. In the same answer he says criticism from someone he knew 'would devastate me', which the article does not use."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "qualified",
+      "reason": "Words confirmed in S11 captions 15:05-15:42. The third fragment is the tail of a sentence whose first half the edit removed: 'I have to bend the rules as as much as necessary to be able to tell the story as well as I can, but I cannot break the rules.' The frozen draft quoted the whole sentence. The trimmed half now carries the title, meta_title and the thesis question (see verify-04). No audio was available for a second transcription of S11."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "S22 captions 50:10-51:20: 'him DMing me on Twitter out of the blue', a few earlier messages, 'Amy had been like, You can't just cold open with that', and the timing of his wanting to do a feature 'just happened to coincide'."
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "qualified",
+      "reason": "Each of the four moments is said in the sources (S05 03:41-04:05; S08 17:57-18:25; S11 15:05-15:42; S12). As an argument it is what the article says it is: four self-reported moments, each with a rival reading, written after the frozen review. Two are paraphrased more strongly than the sources ('had offers in hand'; 'said his answer was to give it away'). No reviewer has seen it (see verify-02, verify-03, verify-08)."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "The article labels this its own weak inference and says fear of being dropped may explain all of it, which matches S04 01:20-02:00."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "Interpretation of S05 and S06, whose quoted lines I confirmed (S05 04:20-04:40 drifting and limbo; S06 02:50 and 05:43). Stated as counterevidence to the leading read."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "The thread is in the sources: S04 02:25 ('thank you guys so much for continuing to believe in me in this crisis'), S05 07:38-08:20 ('you guys saved me'), S10 03:34. Left unexplained, as the article says."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "qualified",
+      "reason": "The pinned Wikipedia revision gives June 28, 1989, Honolulu, citing his own WIRED video; BBC Newsbeat's 'the 36-year-old' on February 16, 2026 is consistent with it; S01 confirms the Honolulu military base. No primary record was opened, and the date conflicts with his own 'my dad died when i was 18' (S08, 03:00) against the July 4, 2008 date."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "Polygon for the premise and audience; pinned Wikipedia revision for November 14, 2020."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Dexerto (fresh fetch) for both dates; S11 at 82:08 for the postponement."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "qualified",
+      "reason": "Opening figures confirmed in NBC. The worldwide total is the pinned Wikipedia revision's summary of The Numbers; no tracker was opened."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "Pinned Wikipedia revision: 'as of August 7th, 2026, his channel has over 38.8 million subscribers'. Gizmodo's 'nearly 39 million' on June 29, 2026 is consistent."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "An interpretation about what would test the reading; it claims nothing about the record beyond C41."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "S10 captions 23:12-23:25 and my second transcription ('Okay, I don't hate it anymore. Go.' ... 'All right, cool. Can't wait for the next one.'); YouTube blog, fresh fetch ('My mom saw the movie yesterday with my cousin from Korea, and while she loved it, her main feedback was: \"Don't do that again. No sequels.\"'). Slate (February 10) precedes the blog (February 23), so 'had already told' holds."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "qualified",
+      "reason": "Words confirmed in S15 captions 25:25-25:55 and my second transcription, after 'in my past I've lost friends, I've lost family members'. 'On a panel in June 2026' is wrong: the event was May 28, 2026 and the upload June 11 (see verify-07)."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "CRI page, fresh fetch, update dated January 31, 2019: 'he created a \"Tasteful Nudes\" calendar and donated $500,000 in proceeds to the Cancer Research Institute'. Wikipedia says 'over $490,000'; the article follows the recipient."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "Pinned Wikipedia revision: 'became popular on the platform with Let's Plays of Amnesia: The Dark Descent and the Five Nights at Freddy's series; as of August 7th, 2026, his channel has over 38.8 million subscribers'."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "S01 captions 00:45-01:35 (met his mother while stationed in Korea; Cincinnati), 02:40 ('my brother ... his name is Tom') and 07:05 ('I wanted to do it my dad didn't agree with me'), then engineering."
+    },
+    {
+      "claim_id": "C73",
+      "verdict": "supported",
+      "reason": "S01 captions 08:26-08:50: 'stuck in these mind-numbing Co-op jobs' and 'I didn't have time for games I didn't have an escape'."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "S10 captions 11:58-12:08 and my second transcription: 'I was naive and thought, oh, one room will be an easier movie, much harder'."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "A labelled reading of S01 and S08; the quoted material is confirmed under C06 and C73."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "S09 captions 14:43-15:00 and my second transcription: 'continue to do YouTube the entire time because just doing this is such a freeing being able to stream like this ... it's just so [ __ ] fun'. A fair paraphrase."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "BBC Newsbeat, fresh fetch, dated 16 February 2026: 'a 61% score on review site Rotten Tomatoes ... two-star ratings from Empire and The Guardian'."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "S11 captions 68:48-69:08. He adds that the decisions 'were the best that I make at the time'."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "S10 captions 21:55-23:12 and my second transcription. The quotation stops before the words on which the two transcriptions differ ('imagine' in captions, 'have managed' in mine)."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "qualified",
+      "reason": "Words confirmed in S05 captions 05:36-07:15; my second transcription of the partial recording covers the 'rules' sentence but stops at 06:15, so 'my biggest fear' rests on captions. The gloss 'lost novelty' narrows what he says: 'that feeling' is also 'knowing that what you say influences people' and that 'each and every one of those people matter', and he restates the fear as 'losing my way on YouTube' (see verify-09)."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "S05 captions 07:33-07:42 and 09:06-09:20. The raw caption file prints 'guys' as its own cue after 'disappointing you'. Caption text only for this passage."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "S05 captions 00:13 ('honestly I'm not I'm not depressed', also in my second transcription), 09:29 ('I'm not quitting YouTube') and 09:50 ('I'm happier than I've ever been'). 'Near the end' is loose: these fall about two thirds of the way through a 13:54 video."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "Pinned Wikipedia revision for each item (tour, the 2019 and 2022 YouTube Originals he wrote and directed, Distractible 'launched in May 2021', Barnes in sixth grade, Muyskens in freshman year). The tour's dates were unchecked at edit. A web search on 2026-10-11 returned a Tubefilter report at a URL dated 2017/04/26 headlined 'Markiplier To Kick Off Inaugural Improv And Sketch Tour In June', which puts the tour after the March 24 vlog; the page itself returned HTTP 403, so that rests on the search result."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "S10 captions 05:37 ('this was like the fifth thing that I tried to do') and 07:02-07:10, plus my second transcription. He says at 06:47 the channel 'was supposed to be an entry into doing the bigger things', which supports 'an aim he says never changed'."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "S11 captions 96:00-96:10 ('it's selfish a lot of it. I want to succeed and they know that', in a joking exchange) and 89:21-89:30 ('I do want to have a reputation of quality', followed in earnest by 'my goals are sometimes very selfish'); S06 at 03:03 ('prove people wrong')."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "S11 captions 68:45-69:15: 'there's suddenly a new mountain to climb with movies' precedes 'if I'm not getting better, then I'm not happy' in the same answer."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "S10 captions 23:25-23:40 and my second transcription, directly after the host's 'So, what does drive you?'. S15 at 23:22 repeats 'I'm addicted to the cycle of making'."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "An honest negative conclusion; I found nothing in the opened sources that supplies a clean test between Type 1 and Type 3."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "S04 captions 02:22-02:30. The article drops the final words 'in this crisis', which does not change the sense."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "Each of the three items has an outside source: Polygon for the deletion, NBC and the BBC for the self-financed film, the CRI page for the donation. The single setting is confirmed by his own account and the YouTube blog; I did not open a review to confirm it independently."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "qualified",
+      "reason": "A dated statement about what this run's search found, which I cannot verify as a negative. None of the 24 sources I reopened contains such an account. The February 2026 Distractible episodes and the unread parts of S11, S13 and S32 were not opened by any stage."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "The dating holds in the sources: audience as judge in S02 (2014), S04 (2015) and S05 (2017); self as judge in S08 (2022), S10 and S15 (2026)."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "S08 captions 02:40-03:10 and my second transcription: 'when i heard that that was the most comforting thing i've ever heard in my life because it meant i got 90 of the time that i would have with my dad'."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read 00:25-04:45, 06:05-09:10, 09:05-12:00 of 13:37. Upload date 2013-05-04. Captions only."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read 00:00-00:40 and 01:55-03:10 of 7:12. Upload date 2014-11-23. Captions only."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read 00:00-00:45 and 02:30-04:40 of 7:56. Upload date 2015-09-21. Captions only."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read 00:00-02:45 of 13:35. Upload date 2015-10-05. Captions only; every quotation from this video was added at edit and has had no second transcription."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read 00:00-01:00, 03:20-05:00, 05:20-10:10 and 12:55-13:54 of 13:54; checked the raw cue file for 'disappointing you guys'. Upload date 2017-03-24. I also transcribed 00:00-00:30, 03:35-04:45 and 05:18-06:15 from the draft stage's partial recording with a second model; it agrees. The rest is captions only. One gloss narrows the source (verify-09)."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read 00:00-01:10, 02:30-03:30 and 05:20-06:05 of 7:31. Upload date 2017-03-24. Captions only."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read 00:50-01:40 of 4:04. Channel TODAY, upload date 2019-11-19. Captions only."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read 00:50-01:35, 02:00-03:45, 04:30-06:20, 08:55-10:20, 13:30-15:00, 17:45-18:35 and 20:10-23:15 of 29:15. Channel now 'Smosh Alike', upload date 2022-05-20. No speaker labels; I attributed lines from question-answer order. I transcribed five segments (02:50, 14:25, 17:55, 20:25, 22:28) from the draft stage's recording with a second model; they agree."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read 00:00-02:40, 09:30-10:50, 12:50-15:50 and 16:50-17:50 of 21:38. Upload date 2026-02-03. I transcribed 00:35-01:35 and 14:05-14:55 from the draft stage's recording with a second model; they agree."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read 02:50-04:00, 05:25-09:10, 11:25-12:15 and 21:40-24:40 of 26:10. Channel Slate, upload date 2026-02-10. I transcribed 05:30-06:00, 07:00-07:12, 11:40-12:10 and 22:55-24:10 from the draft stage's recording with a second model; they agree except 'could possibly imagine' (captions) against 'could possibly have managed', which the article does not quote."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read 02:55-03:30, 08:50-10:15, 14:05-15:50, 68:00-70:20, 78:05-79:00, 81:40-82:30, 87:00-89:40 and 95:35-97:15 of 1:37:57, and searched the full text for the profit-points statement. 25:00-1:05:00 has still not been read by any stage. Upload date 2026-02-25. Captions only. Every passage matches its use except one: the article quotes 'I cannot break the rules' without the first half of the sentence at 15:28-15:39 (verify-04)."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh with curl on 2026-10-11 (HTTP 200) and read as text. Dated Feb 23, 2026. Read the answers on his mother ('No sequels'), on permission, on the submarine rule, and on what a studio would have tried to fix."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read 02:55-05:45 of 9:18. Upload date 2026-05-17. He dates the night 'a week before or maybe 2 weeks before' the January 30 release. This source is quoted in the article but no claim cites it (verify-05)."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read 00:00-01:30, 08:20-11:40, 22:20-23:35 and 24:50-26:40 of 29:55. Channel Colin and Samir, upload date 2026-06-11. I transcribed 09:05-10:05 and 25:20-26:10 from the draft stage's recording with a second model; they agree. The words match their use. The date does not: the intro says this is Press Publish LA on the Fox lot, which the organizers' page dates May 28, 2026 (verify-07)."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh with curl on 2026-10-11 (HTTP 200). Dated Feb. 2, 2026, 7:14 PM EST. Read the headline, deck and first three paragraphs for the figures, theater count and ranking."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh with curl on 2026-10-11 (HTTP 200). Dated 16 February 2026. Read paragraphs 3-6 (figures; 'financed, wrote, directed and starred'; 'the 36-year-old') and the paragraph on the 61% score and two-star reviews."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh with curl on 2026-10-11 (HTTP 200). Published June 29, 2026, 6:00 pm ET. Read the whole article. It relays IndieWire, which remains unopened."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh with curl on 2026-10-11 (HTTP 200). Read the November 18, 2020 and January 31, 2019 updates and the original February 2013 interview answer on his father."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read all 1:31. Channel Multiplier (a fan channel), upload date 2021-11-14. Still live on 2026-10-11. Captions only."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fresh caption and audio downloads were refused by YouTube on 2026-10-11 ('Sign in to confirm you're not a bot', seven client types and the transcript API). I confirmed the video is live with this title and channel through YouTube oEmbed, then read the raw yt-dlp caption track and info.json saved by the research stage on 2026-10-11 with my own parser. Read 49:30-51:25 and 52:15-55:00 of 1:21:49. Channel Quad Damage Podcast, upload date 2025-09-02. Captions only."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched the pinned revision fresh as raw wikitext on 2026-10-11 (oldid 1379210842, HTTP 200). Read the lead, 'Early life and education', the 2015-2019 career paragraphs, Unus Annus, Distractible, Cloak, the Tasteful Nudes paragraph and 'Personal life'."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched the pinned revision fresh as raw wikitext on 2026-10-11 (oldid 1377060554, HTTP 200). Read the lead, the infobox and the 'Box office' section."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "The article's link (web.archive.org/web/2025/...) resolved on 2026-10-11 to capture 20260125045054, which returned HTTP 500 on two attempts. I read captures 20250803103929 and 20260205010007 instead (both HTTP 200, same text): byline Adhiraj Yadav, January 2, 2025; first paragraphs and 'Markiplier Responds to the Drama'. Secondary only; the Reddit posts were not opened by any stage."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh with curl on 2026-10-11 (HTTP 200). Published Oct 07, 2025. Read the opening paragraphs and both captions. The Instagram posts themselves were not opened."
+    },
+    {
+      "source_id": "S34",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched fresh with curl on 2026-10-11 (HTTP 200). Published Nov 16, 2020. Read the first paragraph, the re-upload warning, the audience figure and the description of the final ten minutes."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "The acceptance test's hold branch is met and I checked each part: the blocker text in the candidate is identical to the draft's, ready_for_production is false, published is false, and loc and person are unchanged. I confirmed src/blog/people/drafts/Markiplier.md is published as Type 7 at /personality-analysis/markiplier. The conflict itself is not resolved; I carry it as blocker verify-01."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Both sides now come from the same report, with no gendered pronoun for the moderator, and the paragraph says the Reddit posts were not retrieved. I read the reply in two Wayback captures. The 'no one has disagreed' sentence is scoped to the search. One looseness remains: per the report his statement answered other users, not the head moderator (verify-06)."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Checked against S04 01:20-02:00 and S03 02:45-04:05. The quotation runs through 'people are probably losing their mind', the fear of being dropped is allowed to explain all of it, the inner-standard reading is labelled a weak inference, and the announcement is described as mostly about a friend. 'Very beautiful' was cut, which removes the misuse."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "The biopsy quotation and the 'reframes pain' sentence are gone from the article, and C17 is out of the inventory. The biopsy appears only as the moment he says he learned 'my life was finite' (S08, 14:36)."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "The paragraph gives the end of the sentence and says he was talking about the judgment that comes with going on camera. Confirmed in captions and in my second transcription of S15 at 09:21-09:58."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "The 'hated myself' line is introduced by Slate's question about critics, and the 'what does drive you' answer follows with 'I'm not a masochist. I just like seeing how far I can go.' Confirmed in captions and second transcription (S10, 21:55-23:40). C79 and C87 cover both."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "The section opens with 'not depressed', 'happier than I've ever been' and 'not quitting', all in S05, and 'crisis' no longer appears in the author's prose. 'Near the end' is loose for lines at 09:29-09:53 of 13:54, which I note under C82."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "'He used the phrase he had used about his father' attributes nothing to his father and implies no deliberate echo."
+    },
+    {
+      "finding_id": "subject-09",
+      "accepted": true,
+      "reason": "No superlative remains, the title attributes its claim with 'He Says', and meta_title is 62 characters, so the test as written is met. The replacement title rests on a quotation the edit trimmed and generalizes it; that is a new problem and I raise it as verify-04."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Same repair as subject-03, confirmed against S04 01:20-02:00. C58 is reworded."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "I read the first ten minutes of S09: it opens with a mock-solemn 'two time number one' bit 'based on Monday'. The paragraph reports that, gives the full title, then the win-condition lines and 'I'm proud of what I made' beside 'this isn't the best I can do'. The Type 3 section says he enjoyed being number one, and the Slate sentence keeps 'about being number one'."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "S01 confirms each added detail: 'my dad didn't agree with me' (07:07), 'mind-numbing Co-op jobs' and 'I didn't have an escape' (08:35-08:50), the appendix and adrenal tumor (10:45-10:55). The new section says the origin story favors the Seven reading, and 'that tumor' gives the biopsy an antecedent."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "One sourced sentence covers the tour, the 2019 and 2022 Originals, Unus Annus and the podcast, with his 'slowly building my skills there over the past 14 years' from Slate. The Szymanski passage has the earlier messages, Nelson's advice and the feature he was already considering (S22, 50:10-51:20). 'The way a Seven starts things' is gone and the Type 7 section counts the spread of formats."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "The 2014 quotation includes 'so many people are judging what I do'; the judge section separates strangers' comments from the audience as a body with his 2014, 2015 and 2017 words; and the remainder paragraph says the thread 'limits the answer to who is checking: partly, the audience', naming Type 2 and Type 6."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "The opening quotes his stated purpose (S15, 25:44-25:55) and the judge section restores 'my life was finite' (S08) and says urgency about limited time 'would explain his pace with no inner critic at all'. Health detail stays within his own words."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "The article now says what he is known for (horror playthroughs such as Five Nights at Freddy's), lists the tour, Originals and podcast, shows the comic register three times, and says of the performer that it 'cannot assign' him 'to temperament or to craft'. The long friendships are used against restlessness. It is briefer than the two or three sentences requested, but the reader can now answer the question the finding posed."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Same repair as subject-02; both halves come from the same report with the same caution."
+    },
+    {
+      "finding_id": "fan-09",
+      "accepted": true,
+      "reason": "The OnlyFans example is out of the case against Type 3, 'I say no thank you' carries his reason (S08, 20:30-20:38), and the clothing line is noted (Cloak, in the pinned Wikipedia revision)."
+    },
+    {
+      "finding_id": "fan-10",
+      "accepted": true,
+      "reason": "Mother, brother Tom and Cincinnati are introduced from S01 (00:45-01:35, 02:40). The test permits deliberately omitting the 2012 break with his mother, and the reason given is sound."
+    },
+    {
+      "finding_id": "fan-11",
+      "accepted": true,
+      "reason": "Same repair as subject-08."
+    },
+    {
+      "finding_id": "fan-12",
+      "accepted": true,
+      "reason": "'Most of the video is about a friend ... Among the things he praised was a standard' matches S03."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "The article says the ending 'was also what the channel sold, and the final stream was its biggest event', gives his own account of the purpose as his, and calls the one-year expiry 'a commitment with the exit built in'. 'Because he had said he would' is gone."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "The 2015 passage reports the words after 'recording something right now', the 2014 clause is quoted, and the judge section dates the inward-judge account to 2022 onward against the 2014, 2015 and 2017 statements. The two sentences the finding named are removed."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "The section reports 'I was naive and thought, Oh, one room will be an easier movie. Much harder' (S10, 11:58, confirmed by second transcription) and says the rule came with the game. 'The part a Seven does not do' is gone, and the rule stays in the argument only through the statement that he wanted to cut away and did not. See verify-04 for what the edit dropped from that same passage."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "The end of the 'guiding star' sentence is reported, the BBC's 61% and two-star figures are in the body, and the article says the 2026 statements answered questions about outside judgment after mixed reviews. Title fields attribute the claim."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "The section reports the fear he calls 'my biggest fear' and the remark about 'the rules', distinguishes other people's conventions from rules he set, and weighs both against the two details that pull the other way. The gloss 'lost novelty' is narrower than what he says; I raise that as verify-09, a wording issue that does not undo the repair."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "'The stance was not invented after the hit' is cut with the IGN line, the stream paragraph says it opens by celebrating the ranking, and the Type 3 section weighs 'I want to succeed', 'a reputation of quality' and 'prove people wrong', all confirmed in S11 and S06."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "'Never good enough' is followed by 'I don't look back critically on my past projects' (S08, 22:54-23:02), 'this isn't the best I can do' sits beside 'I'm proud of what I made' (S09, 14:14-14:30), and his ease with the film's flaws is named as counting against Type 1."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "The summary lists three things that rest on more than his word, the streak is called 'his own claim', and the sentence about reframing pain is withdrawn with the father reframe reported as counterevidence (S08, 03:04)."
+    },
+    {
+      "finding_id": "critic-09",
+      "accepted": true,
+      "reason": "Same repair as subject-02."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "By the end of the second paragraph a newcomer has who he is, what he is known for, the size of the main channel and that Unus Annus was a second channel. The box-office and wedding facts now sit under 'Three years in one room', where both FAQ anchors land. The test's no-growth clause is not met, as the editor says: the body went from 3,556 to 4,328 words. I carry that as verify-10."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Three sourced instances of the playful register are on the page ('Tasteful Nudes', 'God, I sound good in these answers' directly after the vow, 'a fun little haha achievement'), and the Type 7 section points to a performer the reader has seen. The test's no-growth clause is not met, as the editor says: the body went from 3,556 to 4,328 words. I carry that as verify-10."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "The paragraph says he opened the stream by celebrating a number-one daily ranking and then named a different win condition. The opening-weekend placement (NBC, February 2) and the Monday daily ranking (stream, February 3) are distinct and dated."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "The paragraph says fear of being dropped 'may explain all of it', names the only two signs of something more in words that are on the page, and calls the further reading weak."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Same repair as subject-02. A newcomer can say what each side claimed and that neither was checked."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "The summing sentence lists three items, each shown and sourced earlier, and the count matches."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Both intervals are replaced by absolute dates, and the 2017 vlog, Unus Annus (November 15, 2019) and the film can be ordered from the article. The replacement date 'On May 20, 2022' is the interview's upload date presented as the day of the question; I note that under verify-07."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Padilla, Lemonade Stand, the Slate podcast, the Colin and Samir panel and YouTube's blog each carry a short gloss, and the closing section says which sources are fellow creators, which is platform-owned and which are outside press."
+    },
+    {
+      "finding_id": "unfamiliar-09",
+      "accepted": true,
+      "reason": "The OnlyFans clause is cut, the calendar is explained, the surgery and tumor are given in his own words with no diagnosis inferred, and the self-hatred line is introduced by its question and stops before the words the two transcriptions disagree on. The test's no-growth clause is not met, as the editor says: the body went from 3,556 to 4,328 words. I carry that as verify-10."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "The acceptance test's hold branch is met and I checked each part: the blocker text in the candidate is identical to the draft's, ready_for_production is false, published is false, and loc and person are unchanged. I confirmed src/blog/people/drafts/Markiplier.md is published as Type 7 at /personality-analysis/markiplier. The conflict itself is not resolved; I carry it as blocker verify-01."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Judge location is no longer the reason Type 1 leads ('Where the judge sits cannot carry the type. What the judge measures might'). The section gives the full 'guiding star' sentence, the 2014 clause, the 2022 dating, the Slate question and the mixed reviews, and argues what the standard measures from dated statements about desert and fairness (2017, 2022, 2026). Whether that argument is strong enough is a separate matter (verify-03)."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "The heading is 'The streak and the audience', the quotation runs through 'people are probably losing their mind', and the streak is no longer counted toward an inner standard."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "The article states that 'The three limits this profile opened with do not separate a One from a Seven' and gives each limit its non-One explanation, including letting go, the easier movie and the parallel YouTube work."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "The reframing claim and biopsy line are withdrawn, the father reframe is counterevidence, the satisfaction sentence is replaced by pride and no regret, and 'within days' is gone. The forward promise ('years before I'm going to show you the best') was left out for length; the same forward lean is on the page in 'a new mountain to climb with movies' and the last line."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "The 'what does drive you' answer is quoted with its question and is in the inventory (C87), the origin story has its own section as Seven evidence, the 'better' line carries its context, and the article says plainly that the Seven reading explains more of what he says drives him while the One reading explains the refusals."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Resolved on the fallback branch, correctly: no clean test was found, so Type 3 is named beside Type 7 in the type answer, the type FAQ, the description and the evidence record's alternative case, and confidence is lowered to low. As the reviewer warned, promoting Type 3 to a co-alternative after the frozen review requires --refresh --expanded-review; I raise that as verify-02."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "The closing test says final cut 'tests only the control strand' and names three signals tied to the Type 1 versus Type 7 question."
+    },
+    {
+      "finding_id": "enneagram-09",
+      "accepted": true,
+      "reason": "Both absolute sentences are gone; the remaining type comparisons are hedged ('would more likely', 'usually')."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "The acceptance test's hold branch is met and I checked each part: the blocker text in the candidate is identical to the draft's, ready_for_production is false, published is false, and loc and person are unchanged. I confirmed src/blog/people/drafts/Markiplier.md is published as Type 7 at /personality-analysis/markiplier. The conflict itself is not resolved; I carry it as blocker verify-01."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "The paragraph gives an as-of date from an opened source (Gizmodo, June 29, 2026, which I re-read), says final cut tests only the control strand, and names observable signals. The status is 104 days old at the accuracy date and was not rechecked; a standard search I ran on 2026-10-11 found no named follow-up film. A recheck stays in the research tasks."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Each statement about missing testimony is scoped to this profile's search, with one as-of date, and the absence is tracked as C91 with a trigger."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "The summing sentence separates what rests on more than his word from his own account, the streak is 'his own claim', the three-year figure is gone from body and FAQ, and the sentence is in the inventory as C90."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "All three intervals are gone."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Fallback branch: I fetched both permanent revisions and each contains the figure the article cites. The triggers name events. Opening a tracker stays a research task."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "A deliberate choice is recorded: the quotation is kept, the source described and not linked, the sentence dated, C35 retagged with a trigger. The clip was still live on 2026-10-11."
+    },
+    {
+      "finding_id": "future-08",
+      "accepted": true,
+      "reason": "C04 and C61 are tagged unresolved with a trigger naming the record that would settle the conflict, and no passage or FAQ states his age at the death."
+    }
+  ],
+  "prior_blocker_checks": [
+    {
+      "blocker": "duplicate_subject: Mark Fischbach is Markiplier, and src/blog/people/drafts/Markiplier.md is already published as Type 7. This draft reads him as Type 1. DJ must either rerun as Markiplier --refresh --expanded-review or confirm a separate legal-name page before this draft is treated as production-ready.",
+      "accepted": false,
+      "reason": "Not resolved, and the editor says so. The handling is correct: the blocker is kept word for word, ready_for_production is false, and loc and person are unchanged. But a blocker is accepted only when it has a concrete resolution, and this one needs a decision from DJ that no input records. The live Markiplier page is published as Type 7."
+    }
+  ],
+  "protected_checks": [
+    {
+      "passage": "These are a son's words about a dead parent, drawn out by a leading question, and \"half-ass\" is a common phrase. They show the standard he claims and where he says he got it. They do not show that his father's death produced it.",
+      "preserved": true,
+      "reason": "Present verbatim, directly after the father material and the 2026 'half-ass' line it limits."
+    },
+    {
+      "passage": "All of that is self-report, told after the film had succeeded, when hardship reads as heroism. No account from Nelson was found.",
+      "preserved": true,
+      "reason": "Present verbatim as its own paragraph after the price he describes."
+    },
+    {
+      "passage": "He attributes the idea-jumping to ADHD, which describes attention and says nothing about motive either way.",
+      "preserved": true,
+      "reason": "Present verbatim at the end of the Type 7 paragraph."
+    },
+    {
+      "passage": "Fischbach says Szymanski shares in the film's profits, and Szymanski called himself \"the least unbiased source you could hear from.\"",
+      "preserved": true,
+      "reason": "Present verbatim. Both halves check out in S11 (profit points) and S22 (54:45)."
+    },
+    {
+      "passage": "Nearly everything above is Fischbach describing himself, usually to friendly interviewers and mostly after a success. The outside voices are few and warm.",
+      "preserved": true,
+      "reason": "Present verbatim; the sentence after it scopes it to this profile's search as of October 11, 2026."
+    },
+    {
+      "passage": "Fischbach opened the video announcing the death by apologizing for his silence, \"considering I haven't missed a day's uploads since I started the YouTube channel.\"",
+      "preserved": true,
+      "reason": "Present verbatim and matches the opening words of S03."
+    },
+    {
+      "passage": "Paralysis among too many options, a swing from tears to appetite within hours, and a life described as motion: this is what a Seven sounds like when the horizon runs out.",
+      "preserved": true,
+      "reason": "Present verbatim; the second vlog it summarizes is still quoted."
+    },
+    {
+      "passage": "The record cannot fully separate \"better\" from \"next.\" If they are the same hunger, the Seven reading is stronger than this profile allows.",
+      "preserved": true,
+      "reason": "Present verbatim, with its context sentence added before it."
+    },
+    {
+      "passage": "\"Okay, I don't hate it anymore. Go,\" he recalled on Slate. His mother, he told YouTube's blog, saw it with his cousin from Korea, loved it, and had one note: \"Don't do that again. No sequels.\" He had already told Slate what came next: \"Can't wait for the next one.\"",
+      "preserved": true,
+      "reason": "Present verbatim as the ending; both quotations confirmed (S10, 23:15-23:23; S12). The mother and the Korean side of the family are now set up in the early-life section."
+    },
+    {
+      "passage": "A One usually knows what ought to be done and suffers over not doing it. On this night Fischbach did not know.",
+      "preserved": true,
+      "reason": "Present verbatim; the concession around it is stronger than in the draft."
+    },
+    {
+      "passage": "He also said that \"no one was really bashing down my door,\" so the independence was partly forced.",
+      "preserved": true,
+      "reason": "Present verbatim beside the 'control freak' quotation; confirmed at S11 09:50."
+    },
+    {
+      "passage": "On November 14, 2020, Mark Fischbach and his friend Ethan Nestor sat in front of a computer in black and white suits, confirmed that they wanted to permanently delete a YouTube channel, and deleted it.",
+      "preserved": true,
+      "reason": "Present verbatim as the opening sentence. Identity was added in the next paragraph, not inside it."
+    },
+    {
+      "passage": "Paralysis among too many options, a swing from tears to appetite within hours, and a life described as motion: this is what a Seven sounds like when the horizon runs out. A One usually knows what ought to be done and suffers over not doing it. On this night Fischbach did not know.",
+      "preserved": true,
+      "reason": "Present verbatim as three consecutive sentences."
+    },
+    {
+      "passage": "[Type 3](/enneagram-corner/enneagram-type-3), a motive built on success and image, is closer than it first looks: his worth is tied to what he produces.",
+      "preserved": true,
+      "reason": "Present verbatim, with the Type 3 case built out after it."
+    },
+    {
+      "passage": "He had said it four years earlier in different words.",
+      "preserved": true,
+      "reason": "Present verbatim. It still holds with the corrected panel date (May 28, 2026 against the May 2022 interview)."
+    },
+    {
+      "passage": "All of that is self-report, told after the film had succeeded, when hardship reads as heroism.",
+      "preserved": true,
+      "reason": "Present verbatim (first sentence of the kept two-sentence passage)."
+    },
+    {
+      "passage": "It is the strongest evidence for the other reading of him, so it gets its own section.",
+      "preserved": true,
+      "reason": "Present verbatim; the 2017 vlog keeps its own section."
+    }
+  ],
+  "coverage_complete": false,
+  "metadata_consistent": false,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": false,
+  "open_case_eligible": false,
+  "scores": {
+    "evidence": {
+      "score": 7.3,
+      "passage": "Only three things here rest on more than his word: the deletion, the self-financed one-room film, and one $500,000 donation confirmed by its recipient.",
+      "reason": "Traceable and candid: I located all 110 quoted strings in the sources and read each load-bearing one in context, and the inference limits are stated where they apply. It falls short of the standard's 8 anchor on independence, as this sentence admits. No second account exists for any motive; the two outside witnesses have a profit share and a junior role; the one adverse episode is a single unchecked secondary report. Also against it: a title-bearing quotation trimmed at edit, an event dated by its upload, a quoted anecdote missing from the inventory, and many quotations resting on machine captions alone."
+    },
+    "enneagram": {
+      "score": 6.5,
+      "passage": "The Seven reading explains more of what he says drives him. The One reading explains those refusals. That is a narrow lead.",
+      "reason": "The alternatives are tested seriously: Type 7 gets the origin story, the 2017 night and his own answer to what drives him, and Type 3 gets his statements about winning and respect. But the standard asks that the leading motive beat a tested alternative on a specific sourced discriminator, and the article says it does not. The lead rests on four self-reported moments with rival readings, there is no clean test against Type 3, and the frontmatter still asserts Type 1."
+    },
+    "originality": {
+      "score": 8.5,
+      "passage": "Fischbach opened the video announcing the death by apologizing for his silence, \"considering I haven't missed a day's uploads since I started the YouTube channel.\"",
+      "reason": "The details belong to this person and are verified: the apology that opens a death announcement, a channel built to be deleted, 'God, I sound good in these answers' after a solemn vow, his mother's 'No sequels'. The distinction between where the judge sits and what the judge measures, and between 'better' and 'next', is the article's own. There is almost no reusable type boilerplate."
+    },
+    "writing": {
+      "score": 7.5,
+      "passage": "Where the judge sits cannot carry the type. What the judge measures might.",
+      "reason": "Plain, exact sentences, a strong opening and an ending on evidence. The narrative sections move. From this section on, the portrait gives way to an audit of its own argument: about 1,480 words of weighing across the last three sections, with the self-report caution restated at least six times. At 4,328 words it is well past the target length, and the reader meets more qualification than person in the final third."
+    },
+    "durability": {
+      "score": 7.0,
+      "passage": "he had not chosen one, and a Seven, a Three or an Eight would want the final say too, so that outcome tests only the control strand.",
+      "reason": "Changing facts carry as-of dates, the Wikipedia figures are pinned to revisions I confirmed, and the hook is a 2020 act. But the page describes itself as waiting on future tests; half of its candidate discriminator comes from the January-June 2026 press window, so removing the film leaves two self-reported moments; the next-film status is 104 days old; one event date is wrong; one archive link is unpinned and erroring; and a second URL that disagrees with the live page cannot age well."
+    },
+    "hook": {
+      "score": 8.0,
+      "passage": "On November 14, 2020, Mark Fischbach and his friend Ethan Nestor sat in front of a computer in black and white suits, confirmed that they wanted to permanently delete a YouTube channel, and deleted it.",
+      "reason": "A dated, sourced, observed act that makes a newcomer ask why, and the next two paragraphs say who he is and what the deletion cost. The article rewards the curiosity with an honest non-answer. It loses a little because the question that closes the opening ('rules he says he cannot break') generalizes one trimmed quotation, and 'sat' is not in the source."
+    },
+    "discoverability": {
+      "score": 6.5,
+      "passage": "title: 'Mark Fischbach (Markiplier): The Rules He Says He Cannot Break'",
+      "reason": "On its own the metadata is competent: a 62-character title carrying both names, a 158-character description that does not overstate, six useful FAQs with working anchors, a 56-word type answer, three type links and five published suggestions. It scores below 7 because this is a second URL competing with the live Markiplier page for the same queries with a different type, this title rests on a generalized quotation, the 'Why isn't Markiplier a Type 7?' FAQ says more than the body supports ('he says he wanted the open option' in all three examples), and the body links to no other profile."
+    }
+  }
+}

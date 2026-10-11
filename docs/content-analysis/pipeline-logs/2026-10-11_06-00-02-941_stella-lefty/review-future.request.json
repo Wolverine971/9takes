@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "stella-lefty",
+  "mode": "create",
+  "role": "future",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/similarity.json"
+  },
+  "outputs": {
+    "review-future.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/review-future.json"
+  },
+  "content_sha256": "c6130d84898b67d78dee56a586e9154c8f62980fa96bda919b01bf2fc8eadd49",
+  "evidence_sha256": "edb320228512c4d5ad71fef8f0583f393fb4cb360bfbfae4789f47c4acacbfcc"
+}

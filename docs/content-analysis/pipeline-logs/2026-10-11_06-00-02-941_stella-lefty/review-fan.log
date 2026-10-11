@@ -1,0 +1,20 @@
+The fan review is written to `review-fan.json` in the run directory and passes `reviewSchema`, with both hashes matching the frozen draft and evidence. Nothing else in the repo was touched and nothing was published.
+
+The review has nine findings (three major, six minor) and five protected passages. Open-case eligibility holds: she is 24, the breakout is from early 2026, and I found no deep record that research skipped.
+
+**Major**
+- **fan-01, hidden-singer frame:** the draft says she "hid her singing" and treats room-versus-phone as an unexplained puzzle. Rolling Stone reports she played in-person gigs in college as the duo Stella + Huck and had a viral original, "Kiss Me." None of that is in the draft or the claim inventory.
+- **fan-02, Type 6 counterargument:** "how little she questions or justifies herself under attack" is contradicted by her own words in sources the draft already quotes. Examples are "That really had me spiraling," "it really got in my head," and her defence of her originality over "Boston."
+- **fan-03, the Los Angeles year:** the Vanity Fair quote is cut just before she says she believed success required a distinct brand. That leaves Type 3 argued with no quotation and overstates "her record cannot yet say what the going along is for." The draft also omits that J Kash and Disruptor urged the move to Los Angeles.
+
+**Minor**
+- **fan-04:** settle signal 3 (how she copes with stage fright) is already answered several ways in the record.
+- **fan-05:** "first headline run" should be "first North American headline tour"; she headlined in London in July.
+- **fan-06:** evidence that her country lean predates the pop year is missing beside the "adopted" charge.
+- **fan-07:** the publisher story has three versions in the sources, not two.
+- **fan-08:** her stated Noah Kahan fandom and what she says "Boston" is about are both missing.
+- **fan-09:** her stated reason for studying public health (her mother's illness, a friend's death) was dropped without a recorded reason; the acceptance test allows either a restrained mention or a documented omission.
+
+Risk flags stay at sensitive allegations and contested typing. The similarity advisory did not trip, and I report no reuse.
+
+To check the draft against its sources I read the research run's cached source texts in `/tmp/stella-lefty-research/txt`, including two items outside the evidence record for the eligibility check. I did not re-fetch live pages or listen to audio, so caption-track wording I cite is flagged as unverified on audio.

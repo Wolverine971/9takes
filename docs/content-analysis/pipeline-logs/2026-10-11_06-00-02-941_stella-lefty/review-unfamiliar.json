@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "c6130d84898b67d78dee56a586e9154c8f62980fa96bda919b01bf2fc8eadd49",
+  "evidence_sha256": "edb320228512c4d5ad71fef8f0583f393fb4cb360bfbfae4789f47c4acacbfcc",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "So one sequence appears twice in about eighteen months. Someone tells her what she is or what to make. She bristles or complies. The firm answer arrives late.",
+      "problem": "The pattern the whole case rests on is defined and counted differently each time it returns, so a first-time reader cannot say what it is or how often it has happened. The intro says she \"keeps describing moments when she went along with someone else's direction\"; the 60-word answer and FAQ say she \"repeatedly\" goes along \"then reasserting herself later\"; this passage counts the publisher and Los Angeles as the same sequence \"twice\", although with the publisher she refused and the late answer was agreement, while in Los Angeles she complied and the late answer was refusal (\"bristles or complies\" covers opposite behaviors); the tour apology then \"repeats the Los Angeles sequence in miniature\"; the Kahan credit is conceding with no reversal; and the close says \"at least twice\" she \"went along anyway and reversed herself later\", which now seems to mean Los Angeles and the tour. Two, three or four instances are all defensible readings, and the opening anecdote could be an example or the counterexample.",
+      "acceptance_test": "The pattern is stated once in a single sentence that every counted episode satisfies. Each later mention uses the same count and names the episodes it counts. The publisher episode and the Kahan credit are each explicitly labeled as an instance, a mirror image, or not counted. The frequency word in the 60-word answer and the matching FAQ agrees with that count (two dated instances do not support \"repeatedly\" without qualification)."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "when a Nashville publisher she had been writing for said she seemed like an artist.",
+      "problem": "The hook's stakes are withheld. Read cold, \"publisher\" suggests books and \"you seem like an artist\" sounds like a compliment, so the anger in the first line does not land. The two facts that make the scene work (she had gone to Nashville to write songs for other singers, and \"artist\" in the trade means the performer out front) arrive about 1,100 words later, in \"The first career she wanted was a hidden one.\"",
+      "acceptance_test": "Within the first two paragraphs a reader with no music-business knowledge can say what job she wanted (writing songs for other people to sing), what kind of company the publisher was, and why being called an artist was unwelcome. The addition is one sentence or less, and the opening quotation and the line \"They were right, even though it was annoying to hear.\" are unchanged."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "major",
+      "passage": "In the same video she dates the turn to \"right after Christmas.\" Vanity Fair puts it in December 2025.",
+      "problem": "The story's hinge is never stated as an event. \"The turn\" has no antecedent: the reader must infer that she decided to stop making pop and go country. The two datings are set against each other as if they differ, and they agree. The article then jumps from a manager's quote to \"By May she was refusing outright\" without saying what happened in between, so the reader never learns how a singer with \"very low views\" became the voice of a No. 2 single three months later. The evidence record has the missing step (\"Thinking 'bout You\" went viral at the start of 2026: open_case.reason, C46). The body also never says where she was posting; TikTok first appears inside a quotation in the next section. And \"the song that later broke her\" can be read as \"damaged her.\"",
+      "acceptance_test": "One plain sentence says what she decided and roughly when before any sourcing detail. One sentence says what followed, using only dates the evidence record supports (the early-2026 viral response to \"Thinking 'bout You\", then \"Boston\" on March 27, 2026), and names TikTok as where she posted. The December and Christmas datings are no longer framed as two versions. \"broke her\" is replaced with an unambiguous phrase. Net addition is about 40 words or fewer."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "major",
+      "passage": "A Six also defers to advisers and regrets it later, so the main pattern does not separate Six from Nine.",
+      "problem": "The section promises four reads side by side, but their order is asserted, not shown. The text concedes that the main pattern fits Six as well as Nine and gives Six four supports, yet Seven is called the \"strongest alternative\" and nothing says why Seven outranks Six. Type 3 gets two sentences, although the article's most vivid evidence (the smiling and unsmiling takes, \"TikTok decides,\" \"I just pay attention,\" \"I wanted it all so badly,\" a country turn that \"ends where the audience was\") is what \"says yes to whatever is working\" predicts. Both counters offered against Three are ones the article has already qualified: the wish to work unseen by her own superhero remark, and the surrendered credit by the note that it was legally prudent. A newcomer cannot reconstruct why the order is Nine, Seven, then Six and Three, and Three reads as a token alternative.",
+      "acceptance_test": "The section says in one or two sentences what puts Seven ahead of Six, or says the record cannot rank them. The Type 3 paragraph weighs the metric-watching evidence against at least one counter the article has not already qualified, or says plainly that the record does not place Three below the others. No read gains confidence language in the process, and the 60-word answer and FAQs still agree with the section."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "major",
+      "passage": "Asked on Smooth Country whether she is good at leaving, she said, \"I was in the past for sure,\" because \"I used to be so afraid of love,\" and that instead of examining why, \"I just write about it normally.\"",
+      "problem": "The question is a play on the title of the single she was promoting, \"Good at Leaving,\" and the draft never mentions the song. Without it the question is baffling to a new reader and the answer reads as an interviewer probing her character. The evidence record flags the limit three times (S08 context: the answers \"double as song talk\"; C19 and C72 alternatives), and the draft, careful about this kind of caveat elsewhere (\"a remark made about songwriting\"), drops it for the main evidence behind the strongest alternative. The answer is then restated as biography in the Six paragraph (\"a leave-first history in relationships\") and in the Type 7 FAQ (\"a past habit of leaving relationships early\"; \"early\" appears nowhere in the body or the quoted answer).",
+      "acceptance_test": "The sentence names the single and says the answer was given while promoting it. The Six paragraph and the Type 7 FAQ present it as her account in that setting and keep her past tense. The FAQ wording matches the body; \"early\" is removed unless a cited passage supports it."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "Commenters heard [Noah Kahan](/personality-analysis/noah-kahan)'s \"Stick Season\" in it.",
+      "problem": "People, places and terms are used before they are introduced. (1) The body never says she grew up in Chicago's North Shore suburbs (only FAQ 5 does), although the Nine case (\"Of Chicago she told MuchMusic\"), the Seven counter (\"the same city\") and the \"not Southern\" worry all lean on it. (2) Noah Kahan and \"Stick Season\" get no identifying clause, in the section and FAQ that turn on them. (3) Tucker Wetmore: the reader is not told she was booked as his opening act. (4) \"Veronika\" is unexplained (the performer who played her in the sketch, per S19). (5) Disruptor Management is not identified as Alpert's firm. (6) \"industry plant,\" \"interpolates,\" \"clearance\" and \"EP\" are unglossed. (7) \"Type 9\" appears in the title, the description and the H2 answer, and \"a leading read held loosely, three alternatives\" in the intro, before the Enneagram is named; it is first named in the paragraph after the 60-word answer.",
+      "acceptance_test": "Each item in (1) to (6) gets an identifying clause of about ten words or fewer at first mention, drawn from the evidence record. The intro paragraph names the Enneagram before the H2, leaving the 60-word answer directly under its heading. The title or description says what \"Type 9\" is a type of while keeping identity-first, open-case wording and the frontmatter length limits. Total addition is under about 80 words."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "Does she follow the numbers, follow her advisers, keep making what she likes in the car, or move on to something new?",
+      "problem": "Signals 1 to 3 tell the reader which answer points to which read. Signals 4 and 5 do not, so a reader cannot use them as tests. Signal 4 lists four behaviors with no types attached; the evidence record's own mapping assigns \"follow her advisers\" to both Six and Nine, the two reads the article says are hardest to separate. Signal 5 names a kind of witness and no outcome that would favor any read.",
+      "acceptance_test": "Signals 4 and 5 each state which observable outcome favors which read, in the same form as signals 1 to 3, or say explicitly which reads that signal cannot separate."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Quotations from those videos follow their caption tracks.",
+      "problem": "Audit-trail prose sits where a new reader needs momentum, and the draft is long for the format. The intro stops twice for provenance: which two stations confirmed her birthday, and this caption note, whose meaning is unclear (nothing has yet been called a video, and the sentence does not say what the reader should take from it). \"Whatever accommodates him\" is the longest section (about 670 words) and becomes a ledger: the Chicks clearance, a list of uncredited comparisons the article says it will not use, the Rodrigo clip and the SNL sketch all stand between the Kahan concession and the tour apology, the two items that bear on the question. The body runs about 3,000 words against the open-case target of roughly 1,200 to 2,500.",
+      "acceptance_test": "The caption note says in plain words what it means for the reader, or moves to the first video quotation. The birthday provenance shrinks to a clause or a link. In \"Whatever accommodates him\" the items not used as evidence are compressed, with every allegation still attributed, dated and marked uncredited and unanswered, so the Kahan concession and the tour apology read as one thread. The edited body is shorter than the frozen draft after the additions requested in unfamiliar-02, -03 and -06."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "saying yes can come from four different places. A [Type 9](/enneagram-corner/enneagram-type-9) says yes to keep things calm and finds out what she wanted afterward. A [Type 7](/enneagram-corner/enneagram-type-7) says yes while it is fun and leaves when it stops. A [Type 6](/enneagram-corner/enneagram-type-6) says yes to people she trusts, then wonders whether she should have. A [Type 3](/enneagram-corner/enneagram-type-3) says yes to whatever is working.",
+      "reason": "The best orientation device in the piece. It turns four type labels into one question a newcomer can hold for the rest of the article, in the subject's own terms, with no type boilerplate."
+    },
+    {
+      "passage": "The record also cannot explain why a room frightened her for years when a phone, hundreds of times over, did not. She says only that one listener is harder than thousands.",
+      "reason": "A real contradiction left open instead of explained away. It is the detail a first-time reader will remember, and it survives whichever read wins."
+    },
+    {
+      "passage": "she put two takes of the unfinished \"Boston\" chorus, one smiling and one less so, on a side account \"where I post things that I'm like not so sure about,\" guessing that \"the smiling one will do better.\" It did.",
+      "reason": "Specific, surprising and self-reported. It shows how she works better than any summary could, and the two-word ending carries the point."
+    },
+    {
+      "passage": "\"Everyone seems a little panicked that we won't make it where we need to go in time, except for Lefty herself.\" Told afterward about her capacity crowd, Lefty said, \"I just need to go home and write more songs!\"",
+      "reason": "The only outside observation of her under pressure, and the one scene in the piece. Gives the reader a person, not a pattern."
+    },
+    {
+      "passage": "Whichever read wins, what the record already shows should stand. She hid her singing from rooms for years and showed it to a phone almost daily.",
+      "reason": "Tells a newcomer plainly what they can take away regardless of the typing, which is the open-case promise kept in two sentences."
+    }
+  ],
+  "assessment": "Read cold, this works. The opening contradiction (a graduate who bristles at being told what she is, then spends a year making what others asked for) is clear by the third paragraph, the paragraph on the four places a yes can come from makes the type question usable by someone who has never met the Enneagram, and the room-versus-phone puzzle is a real unresolved detail. A newcomer finishes knowing who she is, why she is being argued about, what is documented versus alleged, and what would change the read. Where a newcomer gets lost: the central pattern is defined and counted differently each time it returns (01); the hook's stakes and the story's hinge are withheld or only implied (02, 03); the order of the four reads is asserted, with Three thin against the article's own most vivid evidence (04); and the Seven case leans on a song-promotion answer shown without its context (05). Momentum sags in the allegation ledger, and at about 3,000 words the draft is over the open-case target, so the small additions requested here should be paid for with cuts (08). Open-case eligibility holds on the supplied record: adult, breakout in January to March 2026, 33 sources opened, four types tested, no defensible discriminator. The unopened interviews listed in the research log fall inside the same campaign and do not amount to a skipped deep record. Confidence language is restrained in the title, description, FAQs and body; the exceptions are \"repeatedly\" (01) and the unexplained ranking (04). Settle signals 1 to 3 are concrete and dated; 4 and 5 need outcomes (07). Similarity: the advisory was available and did not trip. The two top scores (0.046 and 0.045) sit at the noise-floor maximum with no shared phrases, and the one shared phrase (\"going along\", 0.025) is ordinary Nine vocabulary. I compared the diagnostic's excerpts only, not the other drafts. On those, the dated go-along-then-reverse argument and the four-way comparison are not reused, so there is no reuse finding. I did not reopen sources; factual points above are checked against the supplied evidence record only."
+}

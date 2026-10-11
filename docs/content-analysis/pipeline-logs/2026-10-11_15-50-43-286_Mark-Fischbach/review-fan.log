@@ -1,0 +1,20 @@
+The fan review is written to `review-fan.json` and passes the runner's checks: it parses against `reviewSchema`, role and both hashes match the request, and every finding and protected passage is an exact substring of the frozen draft. No other file was touched and nothing was published.
+
+**Verdict:** the draft is candid and unflattering, but its Type 1 argument currently wins partly by omission. It quotes the well-known videos accurately and stops short of the parts that favour the rival readings. I filed 12 findings (8 major, 4 minor) and 5 protected passages, with `contested_typing` and `major_thesis_change` kept flagged.
+
+The major findings:
+
+- **fan-01 — truncated 2015 quote.** The "voice" telling him to record continues into "people are probably losing their mind… you guys haven't abandoned me". That is the audience fear the paragraph had just set aside, not a separate inner scorekeeper.
+- **fan-02 — results stream.** "He ranked it below the making" leaves out that the stream is titled "(Number... 1?)" and opens by celebrating number one. Research never read its first ten minutes.
+- **fan-03 — Draw My Life.** The origin story omits that his father disagreed with his wish to make games, that he felt trapped in engineering ("I didn't have an escape"), and the tumor. The later "biopsy" quote has no antecedent.
+- **fan-04 — Iron Lung as impulse.** "Started the way a Seven starts things" ignores his stated 14-year build, the scripted projects from 2017 to 2022, and Szymanski's fuller account of the first messages.
+- **fan-05 — who is judging.** "The circle whose approval counts is small" is contradicted by his own words in 2014, 2015, 2017 and 2026 naming the audience. The 2014 quote drops "so many people are judging what I do".
+- **fan-06 — Unus Annus.** The draft reads the deletion as a rule kept and omits his own explanation: mortality and "an exercise in letting go".
+- **fan-07 — the channel itself.** Fourteen years of videos get one clause, and the comic persona is missing from the article's own list of what Type 1 leaves unexplained.
+- **fan-08 — moderator dispute.** The former moderator's complaint is quoted without Fischbach's reported reply from the same article.
+
+The minor findings cover the OnlyFans example in the case against Type 3, the missing setup for his mother and Cincinnati, "his father's phrase", and the Kyre tribute being overstated.
+
+- **How I checked:** I verified these against the run's cached caption text and Wikipedia wikitext in `/tmp/mark-fischbach-research/txt`. Those are auto-captions, not a human listen. I did not reopen the subreddit report, so fan-08 rests on the evidence record's context note.
+- **Similarity:** the trip is the definitional phrase "organized around" against the Aaron Pierre draft; the arguments share nothing else, so I reported no reuse finding.
+- **Duplicate subject:** the inherited blocker still stands. Readers know him as Markiplier, and the evidence record says the live page under that name reads Type 7.

@@ -1,0 +1,199 @@
+{
+  "target": {
+    "person": "stella-lefty",
+    "type": "9",
+    "units": 11,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "rod-wave",
+      "date": "2026-09-17",
+      "units": 7
+    },
+    {
+      "person": "austin-abrams",
+      "date": "2026-09-11",
+      "units": 9
+    },
+    {
+      "person": "Nate-Bargatze",
+      "date": "2026-09-06",
+      "units": 52
+    },
+    {
+      "person": "Victoria-Justice",
+      "date": "2026-08-19",
+      "units": 34
+    },
+    {
+      "person": "Ibai-Llanos",
+      "date": "2026-08-15",
+      "units": 39
+    },
+    {
+      "person": "caseoh",
+      "date": "2026-08-15",
+      "units": 32
+    },
+    {
+      "person": "penguinz0",
+      "date": "2026-08-01",
+      "units": 21
+    },
+    {
+      "person": "Jason-Sudeikis",
+      "date": "2026-07-30",
+      "units": 24
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 2398,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.011,
+    "max": 0.046
+  },
+  "trip_threshold": 0.044,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "Victoria-Justice",
+      "date": "2026-08-19",
+      "units": 34,
+      "maxScore": 0.046
+    },
+    {
+      "person": "Jason-Sudeikis",
+      "date": "2026-07-30",
+      "units": 24,
+      "maxScore": 0.045
+    },
+    {
+      "person": "Nate-Bargatze",
+      "date": "2026-09-06",
+      "units": 52,
+      "maxScore": 0.037
+    },
+    {
+      "person": "penguinz0",
+      "date": "2026-08-01",
+      "units": 21,
+      "maxScore": 0.027
+    },
+    {
+      "person": "Ibai-Llanos",
+      "date": "2026-08-15",
+      "units": 39,
+      "maxScore": 0.014
+    },
+    {
+      "person": "caseoh",
+      "date": "2026-08-15",
+      "units": 32,
+      "maxScore": 0.011
+    },
+    {
+      "person": "austin-abrams",
+      "date": "2026-09-11",
+      "units": 9,
+      "maxScore": 0.005
+    },
+    {
+      "person": "rod-wave",
+      "date": "2026-09-17",
+      "units": 7,
+      "maxScore": 0.003
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.046,
+      "other_person": "Victoria-Justice",
+      "shared_phrases": [],
+      "target": "[diagnosis] She repeatedly describes going along with other people's direction",
+      "other": "[diagnosis] her own preferences go quiet inside other people's agendas."
+    },
+    {
+      "score": 0.045,
+      "other_person": "Jason-Sudeikis",
+      "shared_phrases": [],
+      "target": "[diagnosis] She repeatedly describes going along with other people's direction",
+      "other": "[counter-typing] Nine seasons setting up other people's laughs on SNL"
+    },
+    {
+      "score": 0.037,
+      "other_person": "Nate-Bargatze",
+      "shared_phrases": [],
+      "target": "[diagnosis] a nine-type model of core motivation",
+      "other": "[diagnosis] A Nine is a gut-center type"
+    },
+    {
+      "score": 0.034,
+      "other_person": "Nate-Bargatze",
+      "shared_phrases": [],
+      "target": "[diagnosis] 9takes reads Post Malone as a Nine",
+      "other": "[diagnosis] A Nine is a gut-center type"
+    },
+    {
+      "score": 0.028,
+      "other_person": "Nate-Bargatze",
+      "shared_phrases": [],
+      "target": "[diagnosis] 9takes reads Post Malone as a Nine",
+      "other": "[counter-typing] A Nine going numb does not sound like that."
+    },
+    {
+      "score": 0.027,
+      "other_person": "Nate-Bargatze",
+      "shared_phrases": [],
+      "target": "[diagnosis] a nine-type model of core motivation",
+      "other": "[counter-typing] A Nine going numb does not sound like that."
+    },
+    {
+      "score": 0.027,
+      "other_person": "penguinz0",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 6 says yes to people she trusts",
+      "other": "[counter-typing] A Type 6 case fits the debunking instinct and team loyalty"
+    },
+    {
+      "score": 0.026,
+      "other_person": "Nate-Bargatze",
+      "shared_phrases": [],
+      "target": "[diagnosis] Morgan Wallen as a Six and Taylor Swift as a Three.",
+      "other": "[counter-typing] Under real public failure a Three defends the image and a Six looks for who to blame."
+    },
+    {
+      "score": 0.026,
+      "other_person": "Nate-Bargatze",
+      "shared_phrases": [],
+      "target": "[diagnosis] 9takes reads Post Malone as a Nine",
+      "other": "[diagnosis] A Nine solves that by standing one step off center"
+    },
+    {
+      "score": 0.025,
+      "other_person": "Victoria-Justice",
+      "shared_phrases": [
+        "going along"
+      ],
+      "target": "[diagnosis] She repeatedly describes going along with other people's direction",
+      "other": "[diagnosis] and the going-along is so frictionless that nobody thinks to ask what she actually wanted."
+    },
+    {
+      "score": 0.025,
+      "other_person": "Nate-Bargatze",
+      "shared_phrases": [],
+      "target": "[diagnosis] a nine-type model of core motivation",
+      "other": "[diagnosis] A Nine solves that by standing one step off center"
+    },
+    {
+      "score": 0.025,
+      "other_person": "Jason-Sudeikis",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 7 says yes while it is fun and leaves when it stops.",
+      "other": "[counter-typing] Sudeikis hands the line over and leaves the room."
+    }
+  ]
+}

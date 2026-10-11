@@ -1,0 +1,211 @@
+{
+  "target": {
+    "person": "doja-cat",
+    "type": "9",
+    "units": 10,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_18-12-25-028_Doja-Cat/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "stella-lefty",
+      "date": "2026-10-11",
+      "units": 9
+    },
+    {
+      "person": "rod-wave",
+      "date": "2026-09-17",
+      "units": 7
+    },
+    {
+      "person": "austin-abrams",
+      "date": "2026-09-11",
+      "units": 9
+    },
+    {
+      "person": "Nate-Bargatze",
+      "date": "2026-09-06",
+      "units": 52
+    },
+    {
+      "person": "Victoria-Justice",
+      "date": "2026-08-19",
+      "units": 34
+    },
+    {
+      "person": "Ibai-Llanos",
+      "date": "2026-08-15",
+      "units": 39
+    },
+    {
+      "person": "caseoh",
+      "date": "2026-08-15",
+      "units": 32
+    },
+    {
+      "person": "penguinz0",
+      "date": "2026-08-01",
+      "units": 21
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 2030,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.006,
+    "max": 0.045
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.045,
+      "other_person": "austin-abrams",
+      "shared_phrases": [
+        "keep the peace"
+      ],
+      "target": "[diagnosis] because her own words for her motive are \"safe\" and \"threatened.\" A Type 9 keeps the peace by setting herself aside",
+      "other": "[diagnosis] no source shows him giving up something he wanted to keep the peace."
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "austin-abrams",
+      "date": "2026-09-11",
+      "units": 9,
+      "maxScore": 0.045
+    },
+    {
+      "person": "Nate-Bargatze",
+      "date": "2026-09-06",
+      "units": 52,
+      "maxScore": 0.029
+    },
+    {
+      "person": "stella-lefty",
+      "date": "2026-10-11",
+      "units": 9,
+      "maxScore": 0.02
+    },
+    {
+      "person": "penguinz0",
+      "date": "2026-08-01",
+      "units": 21,
+      "maxScore": 0.02
+    },
+    {
+      "person": "rod-wave",
+      "date": "2026-09-17",
+      "units": 7,
+      "maxScore": 0.016
+    },
+    {
+      "person": "Victoria-Justice",
+      "date": "2026-08-19",
+      "units": 34,
+      "maxScore": 0.014
+    },
+    {
+      "person": "caseoh",
+      "date": "2026-08-15",
+      "units": 32,
+      "maxScore": 0.013
+    },
+    {
+      "person": "Ibai-Llanos",
+      "date": "2026-08-15",
+      "units": 39,
+      "maxScore": 0.007
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.045,
+      "other_person": "austin-abrams",
+      "shared_phrases": [
+        "keep the peace"
+      ],
+      "target": "[diagnosis] because her own words for her motive are \"safe\" and \"threatened.\" A Type 9 keeps the peace by setting herself aside",
+      "other": "[diagnosis] no source shows him giving up something he wanted to keep the peace."
+    },
+    {
+      "score": 0.029,
+      "other_person": "Nate-Bargatze",
+      "shared_phrases": [],
+      "target": "[diagnosis] An earlier version of this profile typed her as a Type 7.",
+      "other": "[counter-typing] The Guinness record is the sharpest version of it"
+    },
+    {
+      "score": 0.02,
+      "other_person": "stella-lefty",
+      "shared_phrases": [],
+      "target": "[diagnosis] An earlier version of this profile typed her as a Type 7.",
+      "other": "[diagnosis] A Type 7 says yes while it is fun and leaves when it stops."
+    },
+    {
+      "score": 0.02,
+      "other_person": "penguinz0",
+      "shared_phrases": [
+        "thi profile"
+      ],
+      "target": "[diagnosis] An earlier version of this profile typed her as a Type 7.",
+      "other": "[diagnosis] His summary of the biggest voluntary earnings reveal in streaming history is the quote this profile opened on"
+    },
+    {
+      "score": 0.017,
+      "other_person": "austin-abrams",
+      "shared_phrases": [],
+      "target": "[diagnosis] An earlier version of this profile typed her as a Type 7.",
+      "other": "[diagnosis] Nearly all of this evidence is his own account or a director's praise"
+    },
+    {
+      "score": 0.016,
+      "other_person": "rod-wave",
+      "shared_phrases": [],
+      "target": "[diagnosis] because her own words for her motive are \"safe\" and \"threatened.\" A Type 9 keeps the peace by setting herself aside",
+      "other": "[diagnosis] he rejects \"pain\" as the word for his music"
+    },
+    {
+      "score": 0.014,
+      "other_person": "Victoria-Justice",
+      "shared_phrases": [],
+      "target": "[diagnosis] because her own words for her motive are \"safe\" and \"threatened.\" A Type 9 keeps the peace by setting herself aside",
+      "other": "[diagnosis] her own preferences go quiet inside other people's agendas."
+    },
+    {
+      "score": 0.013,
+      "other_person": "caseoh",
+      "shared_phrases": [],
+      "target": "[diagnosis] That reading and the Six each get a hearing below. (Other Nines on this site include Post Malone and Selena Gomez.)",
+      "other": "[diagnosis] the collapsed section further down pressure-tests that reading properly."
+    },
+    {
+      "score": 0.012,
+      "other_person": "Victoria-Justice",
+      "shared_phrases": [],
+      "target": "[diagnosis] because her own words for her motive are \"safe\" and \"threatened.\" A Type 9 keeps the peace by setting herself aside",
+      "other": "[diagnosis] Even the decision to release her own material required someone else's permission."
+    },
+    {
+      "score": 0.011,
+      "other_person": "Victoria-Justice",
+      "shared_phrases": [],
+      "target": "[diagnosis] because her own words for her motive are \"safe\" and \"threatened.\" A Type 9 keeps the peace by setting herself aside",
+      "other": "[diagnosis] until her own preferences fade to background noise for years at a stretch."
+    },
+    {
+      "score": 0.011,
+      "other_person": "Nate-Bargatze",
+      "shared_phrases": [],
+      "target": "[diagnosis] The tradition calls the cost sloth",
+      "other": "[diagnosis] The Enneagram files the resulting stall under sloth"
+    },
+    {
+      "score": 0.01,
+      "other_person": "Nate-Bargatze",
+      "shared_phrases": [],
+      "target": "[diagnosis] two hit albums and a fan's hug.",
+      "other": "[counter-typing] and he held one target for two decades and hit it."
+    }
+  ]
+}

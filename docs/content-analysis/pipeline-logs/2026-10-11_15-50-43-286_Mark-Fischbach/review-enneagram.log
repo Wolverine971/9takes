@@ -1,0 +1,15 @@
+The enneagram review is written to `review-enneagram.json` and passes the pipeline's review schema. Its verdict is that the Type 1 argument does not hold as drafted: 1 blocker, 6 major and 2 minor findings.
+
+- **Blocker (your decision):** this draft types Mark Fischbach as Type 1 while the live Markiplier page types the same person as Type 7. The finding asks that the existing duplicate-subject blocker stay open until you choose between one retyped Markiplier page and a deliberate separate legal-name page.
+- **Quotes that read differently in context:** I checked the thesis-bearing quotes against the research run's cached captions. Four of them change meaning:
+  - The 2015 "voice" telling him to record continues "people are probably losing their mind", so it is about the audience, not an inner critic.
+  - The "guiding star" line finishes as self-belief over doubt, not harsh self-judgment.
+  - "Getting better" in the biopsy quote is medical.
+  - The "this isn't the best I can do" stream is a proud, happy one.
+- **The three "limits" don't separate One from Seven:** he calls Unus Annus "an exercise in letting go", says he thought one room would be "an easier movie", and kept making YouTube videos throughout the film.
+- **Evidence for the rival types left out:** asked "what does drive you?" he said he is "horribly addicted to the cycle of making things", which the article never quotes. Type 3 gets no real test, though the evidence record calls it closer in motive than Type 7.
+- **Two minor points:** the article's "real test" (keeping final cut) would fit several types, and two sentences say what a Seven always or never does.
+
+Type 1 is still defensible if the argument is rebuilt on the rightness and fairness material (his father's code, calling his income "unfair", refusing unearned rewards). As it stands I would not call the confidence medium; One, Three and Seven are all live. The review says that if the discriminator can't be rebuilt, the honest outcome is a hold for more testimony, not an open case, since his record is over a decade deep.
+
+The captions are machine transcripts, not a human listen, and the Padilla interview has no speaker labels. I set the contested-typing and major-thesis-change risk flags, protected five passages, and found no meaningful reuse in the similarity diagnostic. I did not open the other reviews or modify any other repo file.

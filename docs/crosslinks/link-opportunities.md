@@ -1,6 +1,6 @@
 # Link Opportunities
 
-_Generated: 2026-10-10 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
+_Generated: 2026-10-11 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
 _Search data: GSC 2026-07-04 → 2026-10-02. 316 candidate links found (+125 weaker ones offered only for gate debt); 167 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
@@ -89,7 +89,7 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 2.46 | `/pop-culture/psychology-of-public-shame` (L138) | `/personality-analysis/will-smith` | "Will Smith" | …e construct._ "I just see him as a sad, broken human being" is a sentence about Will Smith only on the surface. Underneath, it is the soun… |
 | 1.71 | `/pop-culture/kardashian-family-enneagram-analysis` (L411) | `/personality-analysis/travis-scott` | "Travis Scott" | - **Merging into partners:** Joined Travis Scott's tour within days of meeting him; wore Chalamet's movie colors to his premiere |
 | 1.11 | `/pop-culture/tech-titans-ai-wars` (L256) | `/personality-analysis/alexandr-wang` | "Alexandr Wang" | …ed $14.3 billion for a 49% stake in Scale AI and installed its 28-year-old CEO, Alexandr Wang, as Meta's new Chief AI Officer, leading the… |
-| 1.1 | `/enneagram-corner/why-the-next-thing-wont-fix-it-type-7` (L175) | `/personality-analysis/paul-rudd` | "Paul Rudd" | …ity-analysis/jack-black) chose to play the straight man in _Anaconda_ alongside Paul Rudd. The guy whose entire career was built on being … |
+| 1.1 | `/enneagram-corner/why-the-next-thing-wont-fix-it-type-7` (L170) | `/personality-analysis/paul-rudd` | "Paul Rudd" | …ity-analysis/jack-black) chose to play the straight man in _Anaconda_ alongside Paul Rudd. The guy whose entire career was built on being … |
 
 ## 4. People → people (personality-analysis → personality-analysis)
 

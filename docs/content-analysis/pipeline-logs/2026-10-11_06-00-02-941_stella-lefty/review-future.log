@@ -1,0 +1,21 @@
+The future-role review is written to `docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/review-future.json`. It parses against `reviewSchema`, both hashes match the request, and every finding and protected passage is an exact substring of the frozen draft. No other file was touched and nothing was published.
+
+**Verdict:** the draft passes the five-year test on its thesis. The go-along-then-reverse pattern rests on the 2024 publisher episode and the 2024–25 Los Angeles year, so it stands without the September and October 2026 events. Open-case eligibility is met on the supplied record, with no blocker.
+
+**Risk flags:** `sensitive_allegations` and `contested_typing` are true; the other two are false.
+
+**Findings (1 major, 6 minor):**
+
+- **future-01 (major):** the settle section and FAQ 3 call the tour exit and the management split "her decisions". The split rests on one anonymously sourced Billboard report, and the evidence record itself says who initiated it is unknown.
+- **future-02:** "a single seven-month press run" in the type answer and FAQ 1 contradicts the draft's own dating (interviews run March 27 to about August 21, 2026, under five months) and has no as-of date.
+- **future-03:** "her boyfriend" appears in settle signal 5, but the relationship claim (C30) was removed on the premise that the article doesn't use it, so it has no trigger.
+- **future-04:** the sentence giving 9takes' typings of Post Malone, Benson Boone, Morgan Wallen and Taylor Swift has no claim or trigger in the evidence record.
+- **future-05:** the allegations paragraph has two undated statuses, and its triggers omit the release of "Badly" and any scheduled recheck.
+- **future-06:** "Lefty is 24", "runs Tempus AI", "are now listed" and the `rising-star` tag are statuses that expire; C01 and C62 are labeled stable.
+- **future-07:** "The next tests are dated" expires quickly, and `next_review` (2026-12-01) falls before the 2027 tour that signal 3 depends on, with no follow-on date recorded.
+
+**Protected passages (4):** the type-neutral close, the sentence fencing allegations off from typing, the dated statement of the record's limits, and the 2024 hook quote.
+
+**Limits:** I stayed within the frozen draft, evidence record and similarity diagnostic. That means I did not reopen external sources, did not check the four comparison pages' live typings, and compared similarity on the diagnostic's excerpts only.
+
+The similarity advisory did not trip and I raised no reuse finding. Its top scores (0.046 and 0.045) sit above its stated 0.044 threshold while `tripped` is false, which may be worth a look in the tool.

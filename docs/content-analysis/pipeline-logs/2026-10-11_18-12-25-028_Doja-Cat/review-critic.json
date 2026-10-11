@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "59aedac8724bf4199f220b5a2ba56c8b203a218d772f448e46d4e33aa21cb1bd",
+  "evidence_sha256": "7d48e212c47ec76e8a214fdf4594e35f2396c06ffcf6b2b39ece52a6b0a388be",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "That is her own explanation of this cycle. This profile cannot evaluate it and does not try: nothing here is a diagnosis, and a personality type is no substitute for her account.",
+      "problem": "She gives her own account of the outburst-then-'I'm fine' cycle, and the article then keeps that same cycle as its title, description, type answer and first discriminator. Her March 2026 statement also covers the going-along half ('I've learned from a very young age to pretend that I like stuff ... to appear like everything is okay,' S-CXBPD26; the research record's C14, removed at the draft stage). So both halves of the thesis pattern have an explanation from her that the profile says it cannot evaluate. Declining to evaluate it is not the same as saying what it does to the inference. The limits paragraph names therapy vocabulary, employee witnesses and rumination, but not this, the largest confound.",
+      "acceptance_test": "The limits paragraph (or this one) says plainly that, because she explains the blowup-and-smoothing cycle another way, that cycle cannot be credited to type with confidence, and names the evidence the Type 9 read stands on outside those episodes (for example the 2019-2021 pace and homebody self-descriptions and the contemporaneous October 2021 statements). No clinical gloss, the condition is still named only once, and her disclosure is not used as evidence for or against any type. Type answer, FAQ and description claim no more than that limited version."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "The first is order. A Six's doubt usually comes before the commitment: wary, testing, then loyal. Hers comes after. The hug and the nickname preceded the alarm by days. The tweets say \"agreeing\" first and \"I'm done saying yes\" second. Two albums in the lane that sold preceded \"cash-grabs.\" The stage name stayed after she tried to change it.",
+      "problem": "Four weaknesses, none stated. (1) An objection to an arrangement always postdates the arrangement, so 'after' is true of anyone who burns out or changes her mind; it separates types only where the objection existed at the time and was withheld. (2) On her own account the June 2025 alarm had a new cause, the clip going viral, and she called the reaction 'all irrational fear' (S-AM25, 28:40, not printed); she says she is usually a yes to hugs. A sincere yes followed by fear of a new threat is the Six reading of the episode (C11, C12, C91 alternatives). (3) The stage name is a teenager's choice outgrown and kept as a commercial asset; the attempts are undated and there is no doubt-then-commitment sequence to compare. (4) 'A Six's doubt usually comes before the commitment' is unsourced (C91 concedes it), and comply-then-push-back ambivalence is itself a commonly described Six pattern, which Paraguay's 'I'm sorry' / 'I'm not sorry' fits.",
+      "acceptance_test": "The order argument rests only on episodes where a withheld, contemporaneous objection is on record (the October 2021 tweets; the name attempts, labelled as Rolling Stone's undated paraphrase), or it is downgraded from discriminator to observation. The hug is not used as order evidence unless the viral-clip trigger and 'all irrational fear' sit in the same passage. The Six generalisation is marked as this profile's reading, and the text concedes that going along and then pushing back also fits a Six."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "Someone that sure of her ear is not deferring out of doubt. Her stated reason in 2021 was friction: \"I'm not really trying to fight them.\"",
+      "problem": "(1) Certainty about craft is not certainty about commercial calls, and the work deferences the article cites are all commercial: a TikTok song, the single, the name. In its own example she kept 'Paint the Town Red' because the team's judgment beat hers ('Yeah, they've been right'), which is the borrowed certainty this section assigns to a Six (C09 alternative). (2) Her own self-doubt is in the record and not weighed: 'I'm very self-critical' (S-APPLE23); 'the majority of my rap verses are mid and corny. I know they are' (S-UPX23); the self-critical loop she voiced to Vogue ('I can't sing,' 'I am ugly,' S-VOG26); 'either insecure or just not in the headspace' (S-RT26); and the Paraguay 'fool' line printed earlier. 'Nobody who works with her describes a shortage' holds only because the witnesses are employees speaking in promotional pieces. (3) The clause carrying 'her stated reason' continues 'and I get it, so I try to be open-minded' and follows '98 percent of the time': she is describing a rare request she found reasonable.",
+      "acceptance_test": "The paragraph separates craft confidence from commercial or career confidence, prints at least two of her own self-doubt statements beside the collaborator testimony, and treats 'I'm not really trying to fight them' as one data point with 'I get it' acknowledged, not as her reason for a seven-year pattern. If the reason argument then no longer separates Nine from Six, the text says so and the confidence wording follows."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "Two cautions. She defended that call as her own (\"I can be strategic\"), and every statement here was made while selling the next album as the real one. What the dated record adds is sequence. The agreement comes first. The objection comes later, usually at volume, and usually gets taken back.",
+      "problem": "The article asks 'whose plan the work was serving' and never tests the answer 'hers.' Contemporaneous evidence says the pop albums were her own project: the April 2021 Billboard quote printed in the name section continues 'as I move on into this Planet Her era, I want to introduce things to people'; 'I really wanted it'; Asrat's 'mastermind behind everything' describes the same albums (S-BB21). Asrat also recalls her announcing 'Mooo!' in advance, against 'Her breakthroughs, as she tells them, mostly happened to her.' The disowning did not last: the 'cash-grabs' thread came during an album announcement and says she would rap because 'yall say that i can't so I will' (S-UPX23), and in September 2025 she called Vie 'a continuation of Planet Her and Hot Pink' and wanted 'to return back to what I know' (S-RVNYT25, a relay). A lane she objected to for years is hard to square with choosing it again. The ordinary explanation (signed as a teenager, overbooked album cycles, disowning the last era to sell the next) gets two sentences.",
+      "acceptance_test": "The section prints her 2021 ownership of Planet Her and the 2025 re-embrace beside 'cash-grabs,' supports or cuts 'mostly happened to her,' and says what in the record the career-incentive explanation cannot account for. 'She stayed for years inside a name and a lane she objected to' (Type 7 section) is narrowed to what contemporaneous evidence shows (the 2021 obligations she said she did not want) or labelled as her later account."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "Appeasement, a flip when it is refused, collapse, repair. The sequence repeats with different casts:",
+      "problem": "Only Paraguay shows all four beats, and the record roughens it: on March 31, 2022 she was still saying she would quit after her commitments (S-CXQUIT22, off the page). Both bulleted episodes open with her attack and end without repair ('I feel free'; deleting X). Her March 2026 criticism of Timothée Chalamet, cut from the draft, is an outburst with no prior yes that she explained the next day as something she could 'leverage' for 'clicks, likes, approval' (S-CXCHAL26). Her public jabs at her father (S-CXDISS24, S-CXTROLL26) have no accommodation beat either. So the title's 'Every Blowup,' the FAQ's 'accommodation, then an outburst' and the description generalise from two cases; the evidence record concedes this (C96, C104 alternatives). The type answer and first FAQ also list a stage name among things she 'erupts later' over, and no eruption over the name is on record. She returned to each platform she left (C87).",
+      "acceptance_test": "The text says which episodes show the full sequence and which begin with her attack. The Chalamet admission appears in her words as a counterexample, or the profile says why it is excluded. Paraguay includes the March 31 reaffirmation or stops presenting 'repair' as a clean beat. Title, meta_title, description, type answer and FAQ no longer imply that every blowup follows a yes or that she erupted over the stage name."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "The venue is the internet. In person she goes still.",
+      "problem": "The claim rests on one observed moment and her own rule. Contrary first-hand observation in the record is left out: Paper's writer found her 'just as ostentatious and provocative IRL as she is online' (S-PAPER19, the article quoted two paragraphs later); her manager Gordan Dillard says 'It's a performance everywhere we are ... That's her personality' (S-VAR23); the Los Angeles Times writer heard her voice rise 'sharply' as she shut down a question by phone (S-LAT19). Before fame she spent hours on Periscope 'yelling at and roasting people' and says 'I love going in on people' (S-INT21), which sits badly with 'learned by matching a room.' That Paper account was given in 2019 partly to explain resurfaced offensive posts (C67); the conduct it explains is in an FAQ (the 2015 song) or nowhere (the 2018 slur tweet, S-FADER19), so the body carries her explanation without what it explained.",
+      "acceptance_test": "The paragraph prints the Paper and Dillard observations and narrows the claim to what survives them (for example, that she avoids confronting strangers face to face), or drops 'In person she goes still.' The Periscope line appears with the troll evidence. Where the chat-room origin story is used, the text says it is her explanation and that it was offered after criticism of old posts."
+    },
+    {
+      "id": "critic-07",
+      "severity": "major",
+      "passage": "She doodles, she does nothing on purpose, and of politics, the Six's home ground of sides and loyalties, she told Rolling Stone: \"My brain just doesn't attach to that.\"",
+      "problem": "Both Rolling Stone lines are answers that duck a politics question (the article says 'ducking' two sections earlier), given about 18 months after the May 2020 chat-room controversy that the page confines to an FAQ. Rolling Stone itself reads the stance as protective armour, and she does take sides in practice (C75 alternative). A guarded non-answer is evidence of self-protection at least as much as of a mind at rest, so it cannot count against the Six. The 'does nothing' evidence comes from album-cycle and tour exhaustion (C20, C21 alternatives), and her 2022 home-idling line continues 'There's only so much of that that you can do' (S-BB22).",
+      "acceptance_test": "The politics line is removed as a Six discriminator, or printed with Rolling Stone's protective reading and its timing. The rest-state claim cites at least one statement not made mid-tour or mid-album-cycle, or states that limit in the sentence."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "In 2026 she told Elle UK, \"my dad left me when I was little.\" He disputes that: in videos he later removed, reported by [Complex](https://www.complex.com/music/a/tracewilliamcowen/doja-cat-father-disputes-deadbeat-label) on March 23, 2026, he said, \"I never left my kid.\"",
+      "problem": "The order implies he was answering the Elle UK interview, which was published on May 14, 2026, about seven weeks after his videos. What he was replying to is left out: her March 20, 2026 'Deadbeat Chronicles' TikTok (S-CXTROLL26, S-CXDAD26) and her 2024 'deadbeat' posts, recanted as 'JK Love You I Was Mad' (S-CXDISS24). The page shows her two calmest statements and his reply to neither. The father FAQ has the same construction.",
+      "acceptance_test": "Body and FAQ give the statements in date order and say in a clause what his March 2026 videos responded to (her public 'deadbeat' posts, per Complex), without quoting his accusations against her mother. Nothing implies he answered the Elle UK interview."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The best witness against a conflict-averse reading is Doja Cat.",
+      "reason": "Opens the counter-case with her own words instead of a strawman. Keep the candor even as more adverse evidence is added to the section."
+    },
+    {
+      "passage": "That last admission does not rescue the Nine reading. A show of size put on when you feel exposed is exactly what the next type predicts.",
+      "reason": "Concedes that the article's most quotable evidence serves the rival type. Rare and credible."
+    },
+    {
+      "passage": "Weigh her latest first-person testimony most heavily and you land on Six.",
+      "reason": "States the alternative at full strength and tells the reader how a reasonable person reaches it."
+    },
+    {
+      "passage": "This is a judgment from pattern, not a proof. It treats fear as what breaks through when the smoothing fails rather than as the engine, and the record cannot confirm that.",
+      "reason": "Names the exact unverifiable step in the argument. The limits paragraph should grow, not lose this."
+    },
+    {
+      "passage": "A life arranged for quiet, and a person who is lonely inside it: the type argument does not tidy that up.",
+      "reason": "Leaves a real contradiction standing instead of absorbing it into the type."
+    }
+  ],
+  "assessment": "An unusually candid draft: it leads the counter-case with her own words, gives Type 6 a full-strength section, concedes that her 'mask' admission serves the rival, and prints its limits. The skeptical problem sits underneath that candor. The Nine-over-Six margin rests on order, reason and a rest-state claim, and each leans on a selective reading: objections that necessarily follow commitments, a hug whose alarm had a new cause on her own account, craft certainty standing in for commercial certainty, a politics deflection read as baseline. The 'long yes' on the music is retrospective, promo-timed and was reversed in 2025; contemporaneous evidence that the pop albums were her own project is in the record and off the page. 'Every blowup' generalises from two episodes and omits one she herself called a play for 'clicks, likes, approval.' Most serious, she has given her own account of both the pretending and the blowups, and the article declines to evaluate it without saying what that does to its inference. A narrower thesis (she agrees to obligations, resents them late, then minimises) is well supported for 2021 and may be what survives. If the repairs leave no discriminator standing, hold per the owner note; do not assert Nine. Type 3 (image, approval, fear of failing) gets one sentence against real evidence. FAQ-only placement of TinyChat and Dr. Luke is acceptable for the type argument, subject to critic-06. Similarity: the single trip (0.045, 'keep the peace,' austin-abrams) is ordinary type vocabulary used in opposite arguments, judged from the diagnostic's snippets only; no finding. I did not reopen sources; citations of omitted material rely on the evidence record's excerpts and context and should be confirmed at source."
+}

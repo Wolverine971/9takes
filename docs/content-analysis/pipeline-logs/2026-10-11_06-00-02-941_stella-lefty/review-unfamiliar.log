@@ -1,0 +1,23 @@
+The unfamiliar-reader review is written to `docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/review-unfamiliar.json`. It validates against `reviewSchema`, both hashes match the frozen draft and evidence, and every finding and protected passage is an exact substring of the draft. No other files were touched and nothing was published.
+
+**Verdict:** the draft works for a cold reader, but five places lose a newcomer (all major), plus three minor friction points.
+
+**Major findings**
+- **01 – Pattern is counted inconsistently.** "Went along, then reversed" is defined differently each time it returns, so a reader can't tell whether it happened two, three or four times, or whether the opening anecdote is an example or the counterexample.
+- **02 – Hook stakes withheld.** "A publisher said she seemed like an artist" reads as a compliment until about 1,100 words later, when the draft explains she wanted to write songs for other singers.
+- **03 – The hinge is never stated.** "The turn" to country has no antecedent, and the step from "very low views" to a No. 2 single is skipped. "The song that later broke her" is also ambiguous.
+- **04 – Order of the four reads is asserted, not shown.** The draft concedes the main pattern fits Six as well as Nine, yet calls Seven the strongest alternative without saying why. Type 3 gets two sentences against the article's most vivid evidence.
+- **05 – "Good at leaving" lacks its context.** The question was a play on the single she was promoting. The draft drops that, then restates the answer as biography in the Six paragraph and the Type 7 FAQ.
+
+**Minor findings**
+- **06 – Names and terms used before they are introduced.** Her hometown appears only in an FAQ. Noah Kahan, Tucker Wetmore, "Veronika" and several industry terms get no gloss, and "Type 9" appears before the Enneagram is named.
+- **07 – Settle signals 4 and 5 don't say which outcome favours which read.**
+- **08 – Momentum and length.** Sourcing notes interrupt the intro, and the allegations section is the longest at about 670 words. The body is about 3,000 words against the 1,200–2,500 open-case target, so the requested additions should be paid for with cuts.
+
+**Other checks**
+- **Risk flags:** `sensitive_allegations` and `contested_typing` are true; the other two are false.
+- **Open-case eligibility:** holds on the supplied record. Confidence language is restrained apart from "repeatedly" (01) and the unexplained ranking (04).
+- **Similarity:** the advisory did not trip and I raised no reuse finding. I compared only the excerpts in the diagnostic, not the other drafts.
+- **Sources:** I did not reopen any; factual points are checked against the evidence record only.
+
+Five passages are protected: the "four places a yes can come from" paragraph, the room-versus-phone puzzle, the smiling/unsmiling chorus test, the Rolling Stone festival scene, and the first two sentences of the close.

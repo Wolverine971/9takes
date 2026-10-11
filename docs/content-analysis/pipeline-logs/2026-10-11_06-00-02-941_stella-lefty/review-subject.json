@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "c6130d84898b67d78dee56a586e9154c8f62980fa96bda919b01bf2fc8eadd49",
+  "evidence_sha256": "edb320228512c4d5ad71fef8f0583f393fb4cb360bfbfae4789f47c4acacbfcc",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "Quiet credit without argument points to Nine, a long explanation that leans on allies to Six, a joke and a change of subject to Seven. A defense of her originality points to Three",
+      "problem": "Two sections earlier the article promises, of the song-similarity allegations, \"This profile does not use them as evidence of her character or her type.\" Signal 2 does that in advance. Every possible answer is scored as temperament. None allows that a reply to named artists is normally shaped by counsel and a label, or that she might deny a claim because it is wrong: a truthful denial would be filed as image defense (Three), and \"quiet credit\" presumes the claim has merit. The same signal sits in the third FAQ answer and in open_case.settle_signals.",
+      "acceptance_test": "Signal 2 is removed, or rewritten so that what she answers (deny, credit, stay silent) is explicitly not scored as type evidence and a legally advised reply is said to settle nothing. The body, the 'What would settle' FAQ and open_case.settle_signals agree, and the pledge sentence is true of the whole page."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "Two of her most consequential decisions of 2026, leaving Wetmore's tour and leaving her managers, have no first-person account.",
+      "problem": "Reopened Billboard, September 27, 2026: she \"has left Disruptor Management, according to sources,\" and every party declined or did not respond. It does not say who ended the relationship or why. Country Now says only that she \"did not provide a reason\" for the tour change. This section states the split as fact without the unnamed-sources hedge used earlier, calls both events her \"decisions\" (FAQ 3: \"two unexplained decisions\"), and signal 1 then offers only four personal motives. A logistical, medical or contractual explanation, or one that was the other party's call, has no place in the menu, so whatever she eventually says gets read as type.",
+      "acceptance_test": "Every mention of the management split (settle section, FAQ 3, evidence) carries the reported, unnamed-sources, unconfirmed attribution. 'Decisions' becomes agency-neutral wording unless a source shows she chose. Signal 1 says that an explanation which is logistical, medical, contractual or not hers to give settles nothing about type."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "The New Yorker read the same manner less kindly: \"Lefty has mostly avoided addressing these questions, though she certainly seems confused by the criticism.\"",
+      "problem": "Reopened the essay. It ran on August 5, 2026. \"These questions\" are the debates over how far her father financed her career, and its only evidence of her manner is her June Rolling Stone quote. The draft places the line after three responses dated August 24 to October 1 and after the plagiarism section, so \"the same manner\" and \"these questions\" read as The New Yorker judging how she handled the plagiarism allegations and those posts. The critic had seen none of them.",
+      "acceptance_test": "The quote is dated at the passage and its referent is named (the nepotism and financing criticism as of early August 2026). It sits beside her June answer to scrutiny, or is no longer introduced as a reading of the later responses."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "says those videos are no longer public.",
+      "problem": "Reopened the explainer: \"Those videos are no longer available to the general public; the earliest post on Lefty's page is from August 2025.\" Her whole archive before August 2025 is gone, not the Kahan covers in particular, and no source says why. Set directly after \"critics doubt her statement,\" the narrow wording invites the reading that she removed evidence. Her own answer to that doubt is on record and missing: in The Line of Best Fit (reopened) she says \"I'm such a Noah Kahan fan,\" \"I'm not out here trying to interpolate other people's songs,\" and that when writing alone \"no one is there to tell you, this might sound like something familiar.\" Rolling Stone's June feature embeds one of the covers with Kahan tagged. The doubting \"critics\" are unnamed; in the evidence the doubt is Paste's (S33).",
+      "acceptance_test": "The sentence gives the scope (earliest public post is from August 2025, reason unknown) or is cut. Her stated position, that she is a longtime Kahan fan and did not set out to interpolate, appears beside the doubt. The doubter is named."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "said on TikTok that her unreleased song \"Badly\" copies their 2024 single \"WATCH THIS,\"",
+      "problem": "Reopened Whiskey Riff, October 6, 2026. TAELA's own words are narrower and expressly not hostile: \"we're talking about the vocal melody, phrasing and cadence being essentially identical\" and \"we are not in any way shape or form trying to tear down another artist.\" \"Copies\" (also in the intro: \"two artists said one copies theirs\") is the draft's verb, nearer the outlet's \"ripping off\" than the accusers' claim. The next sentence, \"None of those comparisons carries a credit,\" then faults an unreleased song, performed once on October 1, for lacking a credit it cannot yet have. The Kahan FAQ repeats \"uncredited.\"",
+      "acceptance_test": "Both mentions give the artists' own description (melody, phrasing and cadence \"essentially identical\") with attribution. The credit sentence and the FAQ separate the released songs, which list no such credit, from \"Badly,\" which has no published credits."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "Asked on Smooth Country whether she is good at leaving, she said, \"I was in the past for sure,\" because \"I used to be so afraid of love,\"",
+      "problem": "The question plays on \"Good at Leaving,\" the single she was promoting (S08 context note). The draft does not name it, so banter about a song title reads as a volunteered relationship history. Downstream it hardens into \"a leave-first history in relationships\" (Six section) and, in FAQ 2, \"a past habit of leaving relationships early.\" \"Habit,\" \"early\" and \"leave-first\" are the author's words about her private life. She used the past tense and said no more than the quote.",
+      "acceptance_test": "The single is named where the quote appears. The Six section and FAQ 2 keep to her words (in the past she was good at leaving; she was afraid of love) and drop \"early,\" \"habit\" and \"leave-first history,\" or label them as inference."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "\"TikTok decides,\" she told Vanity Fair.",
+      "problem": "Reopened Vanity Fair. Her full line is \"Nobody has the answer anymore for how to make something work. TikTok decides.\" The paragraph before it reports that \"Lefty, Kasher, and Enger all swear they don't think about the algorithm when they're writing,\" and the profile describes daily testing as what \"anyone trying to make it in music today\" must do. Cut to two words as the capper of \"And she watched what worked,\" it reads as her creed. Her denial is omitted from a paragraph that feeds both the Three read and the manufactured-hit charge.",
+      "acceptance_test": "The paragraph quotes the full sentence or gives its sense, and adds her statement that she does not think about the algorithm while writing, with the industry-norm context or its equivalent."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "She was 19 or 20 in 2022.",
+      "problem": "Placed straight after her \"stupid teenager\" apology, the aside works as a correction of her. Nineteen is a teenager, and Holler (reopened) dates the clip only to 2022. Holler also describes it as a joke made during a fan rivalry, \"clearly not meant to be taken seriously\"; the draft keeps \"disparaging\" and drops that context. In the same paragraph the tour apology is cut to the one sentence that serves the pattern. Reopened Country Now: she also wrote \"I'm so sorry to anyone that bought tickets to see me please send me a DM and we can figure something out.\"",
+      "acceptance_test": "The age aside is cut or reworded so it does not read as a rebuttal (the clip's date within 2022 is not given). The clip is described with Holler's context and Holler's sympathy is noted. The tour apology includes her offer to ticket buyers."
+    },
+    {
+      "id": "subject-09",
+      "severity": "minor",
+      "passage": "She hid her singing from rooms for years and showed it to a phone almost daily. She bristles when told what she is.",
+      "problem": "Introduced as \"what the record already shows,\" but both sentences rest on her own retellings, and the first runs past the Rolling Stone feature in the evidence (reopened): she \"played some real, in-person gigs, often as a duo called Stella + Huck,\" and her mother recalls telling her to keep the singing down at home. \"Hid\" assigns intent where she reports fear. \"Bristles\" turns one 2024 episode, told two ways, and one \"I will not pick a lane\" into a standing trait. The same slide appears in \"The first career she wanted was a hidden one.\"",
+      "acceptance_test": "The closing sentences carry 'by her own account' or equivalent and are consistent with the duo gigs. \"Hid\" and \"hidden\" give way to what she reports (fear of singing in front of people; wanting to write for others). The bristling is tied to the dated episodes it comes from."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "This profile does not use them as evidence of her character or her type.",
+      "reason": "The fairness commitment that governs every uncredited allegation. Keep it, and make the settle signals honor it (subject-01)."
+    },
+    {
+      "passage": "The limits are plain. Each instance is her own retelling, given during a campaign whose storyline is that she found her real sound.",
+      "reason": "States at the point of use that the central pattern is self-report from one press cycle, so the reader can tell her account from the author's inference."
+    },
+    {
+      "passage": "But these are a few short posts from a managed autumn, and declining to fight critics is ordinary media advice.",
+      "reason": "Stops three outlet-quoted posts from being read as temperament and gives the ordinary non-psychological explanation."
+    },
+    {
+      "passage": "The publisher story has two versions. In The Line of Best Fit, the publisher declined to sign her.",
+      "reason": "Reports the conflict between her two tellings instead of choosing the more flattering or more dramatic one."
+    },
+    {
+      "passage": "that it had reviewed materials showing clearance from Sony Publishing in June.",
+      "reason": "The one similarity dispute with documents reviewed by a reporter, and they favor her. It must survive any trim of the allegations section."
+    }
+  ],
+  "assessment": "Fairness proxy only; I do not speak for Stella Lefty. I reopened ten sources behind the sensitive passages (S01, S02, S03, S16, S17, S18, S19, S20, S21, S23); every quotation I checked matches its source. One search each on October 11, 2026 found no reply from her to the song-similarity allegations and no stated reason for the tour exit, which agrees with the draft, within the limits of a single search. The handling of allegations is mostly careful: each is attributed and dated, credited interpolations are separated from uncredited claims, USA Today's \"unsubstantiated\" is printed, and the draft leaves out her mother's illness, a friend's death, a net-worth figure, the critics' nickname and Paste's lawsuit wording. Those omissions should hold through the edit. The problems are where the author's inference crosses into the disputes: a settle signal that turns her eventual answer to the allegations into a type test, two unexplained exits called her decisions, a New Yorker line moved onto events its writer had not seen, and four places where her on-record response or the fuller context is missing. None changes the typing argument. Open-case eligibility holds on what I can see: adult, breakout in early 2026, 33 sources opened, alternatives argued and not token; title, description and FAQs keep to leading-read language. Similarity advisory available and not tripped; I compared only the paired lines it supplies, and the overlaps are ordinary Nine vocabulary, not a reused argument. One caution carried from research: the \"sweating profusely\" line is a verbatim quote from machine captions with no human listen."
+}

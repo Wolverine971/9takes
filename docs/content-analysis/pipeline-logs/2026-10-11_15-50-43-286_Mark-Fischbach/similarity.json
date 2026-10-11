@@ -1,0 +1,211 @@
+{
+  "target": {
+    "person": "Mark-Fischbach",
+    "type": "1",
+    "units": 8,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_15-50-43-286_Mark-Fischbach/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "aaron-pierre",
+      "date": "2026-08-31",
+      "units": 14
+    },
+    {
+      "person": "Marcus-Aurelius",
+      "date": "2026-08-30",
+      "units": 40
+    },
+    {
+      "person": "Ryan-Holiday",
+      "date": "2026-08-28",
+      "units": 37
+    },
+    {
+      "person": "james-clear",
+      "date": "2026-08-19",
+      "units": 24
+    },
+    {
+      "person": "ben-shapiro",
+      "date": "2026-08-15",
+      "units": 35
+    },
+    {
+      "person": "caitlin-clark",
+      "date": "2026-08-12",
+      "units": 49
+    },
+    {
+      "person": "Judge-Judy",
+      "date": "2026-05-25",
+      "units": 20
+    },
+    {
+      "person": "hayao-miyazaki",
+      "date": "2026-05-21",
+      "units": 28
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 1976,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.008,
+    "max": 0.05
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.05,
+      "other_person": "aaron-pierre",
+      "shared_phrases": [
+        "organiz around"
+      ],
+      "target": "[diagnosis] a Type 1 is organized around an inner standard",
+      "other": "[diagnosis] the type organized around being responsible"
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "aaron-pierre",
+      "date": "2026-08-31",
+      "units": 14,
+      "maxScore": 0.05
+    },
+    {
+      "person": "Marcus-Aurelius",
+      "date": "2026-08-30",
+      "units": 40,
+      "maxScore": 0.03
+    },
+    {
+      "person": "ben-shapiro",
+      "date": "2026-08-15",
+      "units": 35,
+      "maxScore": 0.029
+    },
+    {
+      "person": "hayao-miyazaki",
+      "date": "2026-05-21",
+      "units": 28,
+      "maxScore": 0.028
+    },
+    {
+      "person": "caitlin-clark",
+      "date": "2026-08-12",
+      "units": 49,
+      "maxScore": 0.019
+    },
+    {
+      "person": "Ryan-Holiday",
+      "date": "2026-08-28",
+      "units": 37,
+      "maxScore": 0.013
+    },
+    {
+      "person": "james-clear",
+      "date": "2026-08-19",
+      "units": 24,
+      "maxScore": 0.012
+    },
+    {
+      "person": "Judge-Judy",
+      "date": "2026-05-25",
+      "units": 20,
+      "maxScore": 0.008
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.05,
+      "other_person": "aaron-pierre",
+      "shared_phrases": [
+        "organiz around"
+      ],
+      "target": "[diagnosis] a Type 1 is organized around an inner standard",
+      "other": "[diagnosis] the type organized around being responsible"
+    },
+    {
+      "score": 0.034,
+      "other_person": "aaron-pierre",
+      "shared_phrases": [
+        "organiz around"
+      ],
+      "target": "[diagnosis] A Type 7 is organized around keeping options open and moving toward what is next",
+      "other": "[diagnosis] the type organized around being responsible"
+    },
+    {
+      "score": 0.03,
+      "other_person": "Marcus-Aurelius",
+      "shared_phrases": [],
+      "target": "[diagnosis] and anger that gets converted into effort instead of being shown.",
+      "other": "[counter-typing] That narrows the type instead of breaking it"
+    },
+    {
+      "score": 0.029,
+      "other_person": "ben-shapiro",
+      "shared_phrases": [],
+      "target": "[diagnosis] The question is which one explains the choices that cost him the most.",
+      "other": "[counter-typing] even when correction costs him an alliance."
+    },
+    {
+      "score": 0.028,
+      "other_person": "hayao-miyazaki",
+      "shared_phrases": [],
+      "target": "[diagnosis] and he says nobody judges him more harshly than he does.",
+      "other": "[diagnosis] He does not say a film \"didn't work.\" He says it would be \"dishonest.\" He does not say AI animation is bad."
+    },
+    {
+      "score": 0.026,
+      "other_person": "hayao-miyazaki",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a reading of public statements and observable choices",
+      "other": "[diagnosis] This is the textbook One stress pattern"
+    },
+    {
+      "score": 0.022,
+      "other_person": "hayao-miyazaki",
+      "shared_phrases": [],
+      "target": "[diagnosis] and he says nobody judges him more harshly than he does.",
+      "other": "[diagnosis] He says it is \"an insult to life itself.\" For Miyazaki"
+    },
+    {
+      "score": 0.022,
+      "other_person": "ben-shapiro",
+      "shared_phrases": [],
+      "target": "[diagnosis] The question is which one explains the choices that cost him the most.",
+      "other": "[counter-typing] Type Eight explains the confrontational delivery but less of the self-audit."
+    },
+    {
+      "score": 0.02,
+      "other_person": "hayao-miyazaki",
+      "shared_phrases": [],
+      "target": "[diagnosis] and anger that gets converted into effort instead of being shown.",
+      "other": "[diagnosis] It is an ethical one. - Anger that leaks as criticism."
+    },
+    {
+      "score": 0.02,
+      "other_person": "Marcus-Aurelius",
+      "shared_phrases": [],
+      "target": "[diagnosis] a Type 1 is organized around an inner standard",
+      "other": "[counter-typing] Type 1 is also among the rarest reads in the 9takes corpus (corpus stats)."
+    },
+    {
+      "score": 0.02,
+      "other_person": "ben-shapiro",
+      "shared_phrases": [],
+      "target": "[diagnosis] This is a reading of public statements and observable choices",
+      "other": "[counter-typing] but the typing remains an interpretation of public evidence rather than a clinical fact."
+    },
+    {
+      "score": 0.019,
+      "other_person": "caitlin-clark",
+      "shared_phrases": [],
+      "target": "[diagnosis] is the strongest alternative and explains how he starts things.",
+      "other": "[counter-typing] The strongest case against is Type Three"
+    }
+  ]
+}

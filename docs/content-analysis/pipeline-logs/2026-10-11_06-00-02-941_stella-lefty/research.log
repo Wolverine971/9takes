@@ -1,0 +1,17 @@
+The research stage is complete: `evidence.json` is written to the run folder and passes the pipeline's own `validateEvidence` check. It comes out as an **open case**, with Type 9 as the leading read at low confidence.
+
+- **Why an open case:** she is 24, her breakout was January–March 2026, and every interview on record comes from one seven-month promo cycle. Nothing yet separates the leading read from its rivals, so the profile is built around that open question.
+- **Leading read (Type 9):** the most repeated pattern is going along with other people's direction, then reasserting herself later. Examples are the year of pop music her LA advisers wanted, the immediate Noah Kahan credit, and staying silent on a tour exit, which she later called a mistake.
+- **Alternatives:** Type 7 is the strongest rival (fun as the stated goal, "good at leaving", refusing to pick a lane). Types 6 and 3 stay live.
+- **Risks flagged:** contested typing (required for an open case) and sensitive allegations, so the six-role jury applies. Per your queue note, the plagiarism and "bought career" claims are recorded as attributed allegations and are not used as type evidence.
+- **Current as of today:** Billboard reported on September 27 that she left Disruptor Management. On October 6, two named artists alleged that her unreleased song "Badly" copies theirs. She has not responded to any of the song-similarity allegations.
+- **Reopen date:** December 1, 2026, after Grammy nominations (November 16) and the announced end of her first headline tour (November 23).
+
+The record holds 35 sources and 31 claims; 33 sources were opened. Every excerpt was machine-checked against the saved source text.
+
+Gaps the next stages should know about:
+- **Unopened sources:** the Washington Post and People pieces were blocked or paywalled. They are listed as unavailable and no claim rests on them.
+- **Caption transcripts:** the nine video interviews were read from caption tracks with no speaker labels. Three lines that can't be reliably attributed to her are named in the file as do-not-quote; any printed quote needs an audio check first.
+- **Missing interviews:** the Big D and Bubba interview (captions rate-limited) and the original Variety interview (not located) are logged as follow-ups.
+
+Only `evidence.json` was written; nothing else in the repo was touched and nothing was published.

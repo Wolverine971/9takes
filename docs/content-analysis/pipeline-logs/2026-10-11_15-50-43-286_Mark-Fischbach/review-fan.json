@@ -1,0 +1,121 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "d84f3588771e062e43e6daadb43d2a2b4a12833268f413005adabe2fd636e8e1",
+  "evidence_sha256": "c449879c8f33ba401d03284330187d8d5280a127b306cb70e57be5e3493d9908",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "What neither business nor optimism explains is the voice he describes. Something in him scored a break taken for a death as time he should have been working.",
+      "problem": "The quotation this rests on is cut mid-thought. In \"Markiplier Returns\" (S04, about 01:30-02:03) the captions continue: \"you should really probably be recording something right now people are probably losing their mind you know but it's been astonishing to see because you guys haven't like abandoned me like was one fear in my mind.\" The voice is talking about how the audience is reacting. That is the same fear of being forgotten the paragraph has just set aside as economics, so the source does not show a separate inner scorekeeper. C58's own alternative says as much.",
+      "acceptance_test": "The quotation runs through \"people are probably losing their mind\", or the article says the thought continues that way. The paragraph no longer says the voice is unexplained by the fear of losing the audience unless it argues that from words in S04. C58 is reworded or removed to match."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "Then the result came in, and he ranked it below the making.",
+      "problem": "This is a selective account of a stream whose first ten minutes research did not read (S09 context note). The full title is \"Iron Lung Weekend Results (Number... 1?)\", which the citation shortens. The stream opens with a long bit, partly played for laughs, declaring the film number one twice over. At about 17:10 he says he will \"claim just a little bit of ego off of that\" and then let it go because he does not base his value on \"those kind of accolades\". Slate's question (S10, about 03:00) was about him \"tearing up about being number one\"; the article renders that as tearing up \"after the opening weekend\". Anyone who watched the stream would not recognize \"ranked it below the making\" as the whole of it, and the omission tilts the Type 3 comparison.",
+      "acceptance_test": "The first ten minutes of S09 are read. The paragraph reports that the stream opens by celebrating a number-one ranking and how he frames it, then gives the \"win condition\" lines, with the full title in the citation. The Type 3 section weighs the celebration against the \"win condition\" statement. The Slate sentence keeps the interviewer's \"about being number one\"."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "The channel's origin story uses the same vocabulary.",
+      "problem": "The article takes one sentence from \"Draw My Life\" (S01) and leaves out the story around it, which is the best-known account of his early life and leans toward the rival reading. He says he wanted to make video games and \"my dad didn't agree with me\". He went into engineering (civil, then biomedical) and after his father's death was \"so far into engineering that I didn't think that I could get out anymore\". He calls the co-op jobs \"mind-numbing\", says \"I didn't have time for games I didn't have an escape\", and says he \"drifted for a few years\". The section presents a standard inherited from his father; the same video shows him leaving the path his father preferred in order to \"do what I wanted\". The surgery was for a tumor in his adrenal gland (S01, S10). The article never names it, so the later \"biopsy he was awake for\" has no antecedent. The evidence record already flags \"didn't have an escape\" in S01's context note and in the alternative case.",
+      "acceptance_test": "The section reports, from S01, his father's disagreement about games, the engineering years in his own words including \"I didn't have an escape\", and the tumor. It says which reading that material favors, or why the control reading survives it. The biopsy quotation has a stated antecedent. Any detail taken only from S23 is attributed to it."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "_Iron Lung_ started the way a Seven starts things.",
+      "problem": "The sources the article cites describe a long build with a fast final step. In S01 (2013) he says his first plan was sketch comedy and that he bought a camera for it. In S10 he says the channel \"was supposed to be an entry into doing the bigger things\" and that he has been \"slowly building my skills there over the past 14 years\"; he describes In Space with Markiplier as a 45-day shoot that was nominated for an Emmy. In S22 Szymanski says friendly messages came first, that Amy Nelson told him \"You can't just cold open with that\", and that \"the timing of when he was starting to think about wanting to do a feature film and him playing Iron Lung just happened to coincide\". The speed is real (S11: he began writing \"right after\"), but the direction was set years earlier. The article jumps from the 2017 vlog to 2020 and 2026 and never mentions the tour, A Heist with Markiplier (2019), In Space (2022) or the podcasts (all in S23). The reader does not learn what he did after saying he felt lost, and the Seven case is argued from its weakest example. C56's alternative already notes Nelson's advice.",
+      "acceptance_test": "The article gives one or two dated, sourced sentences on the scripted projects between 2017 and 2022 and on his stated long-term aim (S10, S11, S23). The Szymanski passage includes the earlier messages, Nelson's advice and the feature he was already considering. \"The way a Seven starts things\" is withdrawn or qualified. The Type 7 section says whether the spread of formats after 2017 counts for that reading."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "The circle whose approval counts is small, and its verdict arrives in the language of being better.",
+      "problem": "His own statements over twelve years name the audience as a judge. The 2014 vlog (S02) reads \"so many people are looking at me and so many people are judging what I do and so many people are looking to me for guidance\"; the article quotes that sentence without the judging clause. In 2015 (S04): \"you guys haven't like abandoned me like was one fear in my mind\". In 2017 (S05), directly after the line the article quotes: \"you are the most important thing that's ever happened in my life\" and \"you guys saved me\". In 2026 (S10) the tears came because \"people believed in me\" and rallied. The Slate remark concerns individual comments from strangers, praise or criticism. It does not show that the audience as a body does not count. The article opens by asking who he thinks is checking, answers with himself and a small circle, and leaves the audience bond as a one-paragraph remainder.",
+      "acceptance_test": "The claim separates strangers' comments from the audience as a body, using his words from S02, S04, S05 and S10. The 2014 quotation includes or acknowledges \"so many people are judging what I do\". The article says how much of the judge may be the audience and tests Type 6 or Type 2 against those passages, or states plainly that this limits its answer to the opening question."
+    },
+    {
+      "id": "fan-06",
+      "severity": "major",
+      "passage": "Nothing but the premise required the deletion.",
+      "problem": "The article reads Unus Annus as a rule kept and leaves out what he says it was for. On the Colin and Samir panel (S15, about 25:35) he says \"in my past I've lost friends, I've lost family members\" and that the channel \"was in a way\" \"an exercise in letting go\", about \"knowing that something was going to go and there's nothing you could do about it, but making the most of the time that you had\". To Padilla (S08, 13:45-14:49; speakers unlabeled) he says it \"might be the most profound thing i ever make in my life\" and that he learned \"my life was finite\": \"the greatest purpose of my life is to make stuff\" and \"see what i can do before i die\". Viewers know that channel as a project about death. C19 (mortality as stated motive) was dropped from the inventory. Urgency about limited time is a rival explanation for the deletion, the pace and \"the next one\", and it is the explanation he gives.",
+      "acceptance_test": "The article quotes his stated purpose for Unus Annus from S15 or S08 and restores the mortality motive with its sources. It says whether urgency about finite time competes with the inner-standard reading or sits inside it. \"Deleted a channel because he had said he would\" is qualified to match. Health details stay within his own on-record statements."
+    },
+    {
+      "id": "fan-07",
+      "severity": "major",
+      "passage": "His channel is loud and absurd, he calls himself \"an impatient guy\"",
+      "problem": "This clause is the article's only description of fourteen years of videos. It never says what he is known for: Amnesia and Five Nights at Freddy's (S23; he names the latter in S08 as \"the moment that like things just really took off\"), the sketches, the tour, and the podcast with Wade Barnes and Bob Muyskens, friends since sixth grade and freshman year of college (S23). The on-camera persona is the first thing a viewer would cite for Type 7, the reading on the site's live Markiplier page. The evidence record lists \"the manic comic persona that made him famous\" as unexplained; the article's own account of what Type 1 leaves unexplained omits it. The type is argued almost entirely from interviews and vlogs.",
+      "acceptance_test": "The article says in two or three sourced sentences what the channel's content is and what made it popular. The comic persona appears in the Type 7 section or among the unexplained items, with a stated reason the reading treats it as craft or performance, or an admission that it cannot tell. The long friendships are either used in the restlessness argument or left out deliberately."
+    },
+    {
+      "id": "fan-08",
+      "severity": "major",
+      "passage": "a former head moderator wrote that he was disappointed \"that you didn't care enough to reach out.\"",
+      "problem": "The article prints the complaint without the reply that the same report carries. Per the S25 context note in the evidence record, Deltia's Gaming reports that Fischbach said he never saw the moderators try to contact him and saw only an inactive symbol by their names, and that he tied the rule on members-only content to memberships funding his projects. People who followed the dispute know both halves. One side's quotation alone is not \"noted and not interpreted\". I did not reopen S25.",
+      "acceptance_test": "The paragraph gives his reported response from S25 alongside the moderator's sentence, attributed to the same report, or it drops the quotation and reports only that the removals happened and were disputed."
+    },
+    {
+      "id": "fan-09",
+      "severity": "minor",
+      "passage": "the proceeds of the OnlyFans account he opened in 2022 were to be split between Cincinnati Children's Hospital and the World Food Programme",
+      "problem": "The account was the promised reward for getting his podcasts to number one, as C15's alternative records. It is a poor example of giving something up in a paragraph arguing against a motive built on winning. In the same paragraph, the reason he gives in S08 for \"I say no thank you\" is \"if i'm making something it's because i really love it\", which is a statement about what he likes making. The article elsewhere mentions his clothing company.",
+      "acceptance_test": "The sentence states the chart condition with attribution, or the example leaves the case against Type 3. The \"no thank you\" quotation carries his stated reason, and the paragraph notes that he sells his own clothing line."
+    },
+    {
+      "id": "fan-10",
+      "severity": "minor",
+      "passage": "By that account he was born on a military base in Honolulu to a career Army father, and his parents later divorced.",
+      "problem": "The early-life section covers only his father. His mother first appears in the final paragraph, with \"his cousin from Korea\" unexplained. S01 says his father met her while stationed in Korea, that the family settled in Cincinnati (which is why Cincinnati Children's Hospital is one of his charities), that he has an older brother, Tom, whom he credits (\"I don't think I'd be who I am today without him\"), and that his mother put him out shortly before the 2012 hospital stay and they reconciled during it.",
+      "acceptance_test": "The section introduces his mother, his brother and Cincinnati in a sentence or two sourced to S01, so the ending and the charity reference have context. The 2012 account includes or deliberately omits the break with his mother."
+    },
+    {
+      "id": "fan-11",
+      "severity": "minor",
+      "passage": "In 2026 he reached for his father's phrase to describe what his audience can count on",
+      "problem": "\"Half-ass\" is Fischbach's word for his father in 2022. Nothing in the record shows his father used it. C28 words it correctly as \"the phrase he had used of his father\".",
+      "acceptance_test": "The sentence says he reused the phrase he had applied to his father, with no implication that his father said it."
+    },
+    {
+      "id": "fan-12",
+      "severity": "minor",
+      "passage": "What he chose to praise in his friend was a standard.",
+      "problem": "In \"Lost a Friend\" (S03) he first calls Kyre \"such a good friend to us\", \"such a positive influence\" and \"such an inspiration\", and says he wants to celebrate his life. The editing standard is one of several things he praises, in about thirty seconds of an eight-minute video.",
+      "acceptance_test": "The sentence says the standard was among the things he praised, or the claim is otherwise scaled to the video."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Fischbach opened the video announcing the death by apologizing for his silence, \"considering I haven't missed a day's uploads since I started the YouTube channel.\"",
+      "reason": "A small, checked detail that shows the pattern without commentary. It matches the opening words of S03."
+    },
+    {
+      "passage": "Paralysis among too many options, a swing from tears to appetite within hours, and a life described as motion: this is what a Seven sounds like when the horizon runs out.",
+      "reason": "The alternative gets its best evidence stated at full strength in its own section. Viewers who remember that vlog will recognize it."
+    },
+    {
+      "passage": "The record cannot fully separate \"better\" from \"next.\" If they are the same hunger, the Seven reading is stronger than this profile allows.",
+      "reason": "Names the exact point the typing turns on and concedes it. This is the article's most honest sentence."
+    },
+    {
+      "passage": "These are a son's words about a dead parent, drawn out by a leading question, and \"half-ass\" is a common phrase. They show the standard he claims and where he says he got it. They do not show that his father's death produced it.",
+      "reason": "Keeps the father material from becoming a childhood-wound story, which is how fan accounts usually tell it."
+    },
+    {
+      "passage": "\"Okay, I don't hate it anymore. Go,\" he recalled on Slate. His mother, he told YouTube's blog, saw it with his cousin from Korea, loved it, and had one note: \"Don't do that again. No sequels.\" He had already told Slate what came next: \"Can't wait for the next one.\"",
+      "reason": "A specific ending in his own words that leaves the One and Seven readings both standing. It needs setup earlier (fan-10), not rewriting."
+    }
+  ],
+  "assessment": "The draft does not flatter him and is candid that nearly everything is self-report. Its weakness, read by someone who knows the videos, is selection. It quotes the well-known sources accurately but stops short of the parts that favor the rival readings: the 2015 \"voice\" continues into fear of the audience leaving (fan-01), the results stream opens by celebrating number one (fan-02), Draw My Life is a story of leaving the path his father preferred (fan-03), and his own account of Unus Annus is mortality and letting go (fan-06). The Seven case is argued from a direct message while the format-hopping after 2017 and the comic persona are absent (fan-04, fan-07), and the audience, the judge he names most often, is treated as a remainder (fan-05). None of this overturns Type 1 at medium confidence on its own, but the discriminator currently wins partly by omission, so contested_typing stays flagged. I checked these points against the run's cached caption text for S01-S05, S08-S11, S14, S15, S22 and the S23 wikitext; those are auto-captions, not a human listen, and S25 was not reopened. Similarity: the trip is the definitional phrase \"organized around\" against the Aaron Pierre draft at the noise-floor maximum. The two sentences define different types and the arguments share nothing else, so I report no reuse finding. The inherited duplicate_subject blocker matters more from this seat: readers know him as Markiplier, and the live page under that name says Type 7."
+}

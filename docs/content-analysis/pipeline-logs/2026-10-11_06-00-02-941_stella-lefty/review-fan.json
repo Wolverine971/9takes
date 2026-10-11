@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "c6130d84898b67d78dee56a586e9154c8f62980fa96bda919b01bf2fc8eadd49",
+  "evidence_sha256": "edb320228512c4d5ad71fef8f0583f393fb4cb360bfbfae4789f47c4acacbfcc",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "The record also cannot explain why a room frightened her for years when a phone, hundreds of times over, did not.",
+      "problem": "The hidden-singer frame leaves out what the article's most-cited source says she was doing before her breakout. Rolling Stone (June 29, 2026) reports that in her college posting years she 'played some real, in-person gigs, often as a duo called Stella + Huck', that her first original, 'Kiss Me', went viral, and that her mother had to tell her to keep the singing down at home. The Line of Best Fit adds that labels were already contacting her. None of this is in the draft or the claim inventory, although the evidence record's own settle signals mention a 'former duo partner'. With it, the room-versus-phone puzzle, 'The first career she wanted was a hidden one', 'the long hiding', the closing 'She hid her singing from rooms for years' and the Type 7 FAQ's 'she hid her singing for years' all claim more than the record shows.",
+      "acceptance_test": "The article states, attributed to Rolling Stone, that she played in-person gigs in college (often as Stella + Huck) and had a viral original, 'Kiss Me', by 2024. Every 'hid', 'hidden' or 'hiding' sentence in the body, the closing paragraph and the Type 7 FAQ is rescoped to what is sourced: childhood recital dread and bedroom singing, then public singing online and live gigs before her breakout. No sentence says rooms frightened her while a phone did not without acknowledging those gigs."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "What weighs against Six is how little she questions or justifies herself under attack.",
+      "problem": "Her own words, in sources the draft already quotes, say otherwise. The hook answer continues 'That really had me spiraling' (The Line of Best Fit), which the draft trims. The SongwriterUniverse sentence it prints includes 'it really got in my head'. She told Smooth Country she asked Marcus Mumford whether he still gets nervous, and in the Rolling Stone scene used to show her calm she says 'I'm a little worried about my voice.' Challenged over 'Boston', she did explain herself: 'as a songwriter I pride myself so much on being original. I'm not out here trying to interpolate other people's songs.' The draft uses that line only as a future Type 3 baseline. The sentence understates the Six evidence in a format that depends on fair alternatives.",
+      "acceptance_test": "The Six paragraph no longer claims she shows little self-questioning or self-justification. It cites at least two dated first-person statements of doubt or reassurance-seeking (for example 'That really had me spiraling' and the Mumford question) and acknowledges the Line of Best Fit originality answer as an existing self-defence. Any remaining point against Six is limited to something sourced, such as her short, non-argumentative public replies, and keeps the media-advice caveat."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "\"I got really lost in the scene,\" she told [Vanity Fair](https://www.vanityfair.com/story/stella-lefty-boston-new-album) in a profile published August 21, 2026.",
+      "problem": "The quotation stops just before she says what the going along was for. Vanity Fair continues: 'I was being pulled in so many different directions. I was under the impression that in order to be successful, you have to have a very distinct brand'. On MuchMusic she says that in the same period 'nothing was working' and videos got 'a thousand views max'. The record therefore holds three first-person motives for the pop year (success, 'that's what they all wanted me to do', 'because I wasn't from the South'), and the draft prints the two that suit Nine and Six. That weakens 'her record cannot yet say what the going along is for' and leaves Type 3 argued in two sentences with no quotation. The section also omits who sent her to Los Angeles: Rolling Stone says J Kash and Disruptor 'urged her to move', and Vanity Fair says Kasher 'convinced her to move to LA instead of Nashville'.",
+      "acceptance_test": "The Los Angeles section quotes or accurately paraphrases the 'in order to be successful' continuation as her stated reason, beside the two already printed. The Type 3 paragraph argues from at least one first-person statement (that one, or the MuchMusic 'nothing was working' answer after an audio check). One attributed sentence says Kasher and Disruptor urged the Los Angeles move when her plan had been Nashville, without asserting that they were the people who told her to avoid country."
+    },
+    {
+      "id": "fan-04",
+      "severity": "minor",
+      "passage": "What she credits for getting through stage fright night after night on those tours: routine (Nine), preparation and trusted people (Six), the fun of the crowd (Seven), or proving she could carry a show (Three).",
+      "problem": "She has already answered this several ways, and the answers span the options. Snapchat, March 27, 2026: big crowds are easier because 'there's energy there' (speaker by caption turn order, unverified on audio). Smooth Country, posted July 14, 2026, the day after a London show: 'I just decided one day', nerves as adrenaline you need, and asking Marcus Mumford if he still gets nervous. MuchMusic, August 19, 2026: tequila 'helps me push through it'. The article reports none of them and says she 'says only that one listener is harder than thousands', so the signal is presented as untested when the record suggests it may not discriminate.",
+      "acceptance_test": "The article reports, or at least acknowledges, her existing dated answers about coping with stage fright, and signal 3 names what a post-tour answer would add that these do not (for example which account survives a full headline run, or her first description of a night that went badly). The matching entry in open_case.settle_signals and the settle FAQ agree with the rewritten signal."
+    },
+    {
+      "id": "fan-05",
+      "severity": "minor",
+      "passage": "Her first headline run was announced in May 2026 for October 30 to November 23, 2026",
+      "problem": "Factual precision. The Country Now headline in the evidence record says 'First North American Headline Tour'. She had headlined before October: The Line of Best Fit (July 3, 2026) lists 'two sold-out shows at Hoxton Hall in London next week', and Rolling Stone's June feature says many of her European dates sold out in minutes. The settle FAQ repeats the error as 'her first headline tours'.",
+      "acceptance_test": "Body and FAQ say 'first North American headline tour' or an equivalent, and nothing implies she had not headlined a show before October 30, 2026."
+    },
+    {
+      "id": "fan-06",
+      "severity": "minor",
+      "passage": "Critics hear the turn as adopted.",
+      "problem": "The adoption charge gets a named critic; the other side gets only her retrospective account, and the article then says the record cannot tell recovery from a move toward the audience. It omits the checkable evidence that the country lean came first: her first release, which she describes as a pop-country blend made before the pop pivot (Snapchat, March 27, 2026) and which Rolling Stone identifies as the 2024 single 'Kiss Me'; Rolling Stone's description of college-era posts covering Tyler Childers and the Band Perry and a song pitched at Miranda Lambert; and her repeated account, in The Line of Best Fit, Billboard and Vanity Fair, that country radio in her father's car was her first music. This is also the strongest point against the Type 3 reading, and it is not used there.",
+      "acceptance_test": "Beside the New Yorker quotation the article states, with attribution, that her 2024 debut single and Rolling Stone's description of her college-era posts predate the pop EP, and gives her father-and-country-radio account in a clause. It keeps the limits: the old posts are no longer public, and the description of the first release is hers unless someone listens to it."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "The publisher story has two versions.",
+      "problem": "The opened sources hold three. Vanity Fair names Pulse Music Group, says the offer came 'Midway through college' and that the deal 'fell through', after which she 'decided maybe she wanted to be a singer after all'. In Rolling Stone, 'turned down' and 'didn't see eye-to-eye with the team' are the writer's words; her quotation says only what the publishers told her. The claim inventory (C38) records that the draft omits the third version.",
+      "acceptance_test": "The sentence no longer says there are two versions. It either adds Vanity Fair's account in a clause or says the accounts differ on who ended the deal and when it was offered, and it attributes 'turned the deal down' to Rolling Stone's writer."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "And critics doubt her statement that \"When I was writing the song, I wasn't thinking about Noah Kahan,\" because, as Rolling Stone reported in June, she had posted covers of \"Stick Season.\"",
+      "problem": "Two things a reader who knows the song would expect are missing. In the same Line of Best Fit answer the draft quotes, she volunteers 'I'm such a Noah Kahan fan. I've been listening to Noah Kahan since the fucking beginning', so what she denies is awareness while writing, not the influence. Leaving that out makes the critics' point read as an exposure. And a profile titled for the 'Boston' singer never says what she says the song is about. On Genius (June 26, 2026) she calls the chorus 'the part where I would normally like run away from this', her own account of the leave-first habit that the Type 7 and Type 6 paragraphs rely on.",
+      "acceptance_test": "The Kahan paragraph includes her stated long-standing fandom from The Line of Best Fit beside her denial. One attributed sentence gives her account of what 'Boston' is about and ties it to the 'good at leaving' evidence, flagged as song promotion, or the resolution explains why the song's content is left out."
+    },
+    {
+      "id": "fan-09",
+      "severity": "minor",
+      "passage": "At Tulane, where she studied public health, she learned that professional songwriters exist.",
+      "problem": "The main formative episode in the only long feature is absent. In Rolling Stone she gives her reason for studying public health: her mother's cancer diagnosis when she was 13, which she says turned her father toward biotech, and later the death of a high-school friend, after which she wrote a song to process it and posted it. That is the earliest dated instance of the writing-to-find-out-what-she-feels habit the Type 9 case cites. The research record allowed a restrained use, and the draft dropped it without recording why.",
+      "acceptance_test": "Either the sentence gives her stated reason in one attributed clause (Rolling Stone, June 29, 2026) with no causal personality claim, no name for the friend and no update on her mother's health, or the resolution records the sensitivity reason for leaving it out."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The limits are plain. Each instance is her own retelling, given during a campaign whose storyline is that she found her real sound.",
+      "reason": "States the central weakness of the main evidence at the point where the pattern is claimed. An informed reader trusts the rest because of it."
+    },
+    {
+      "passage": "she put two takes of the unfinished \"Boston\" chorus, one smiling and one less so, on a side account \"where I post things that I'm like not so sure about,\" guessing that \"the smiling one will do better.\"",
+      "reason": "A specific, little-quoted detail that matches the Whiskey Riff caption text and shows how she works better than any summary of her posting does."
+    },
+    {
+      "passage": "The tour apology repeats the Los Angeles sequence in miniature: she set aside her own inclination on advice, then called it a mistake.",
+      "reason": "The one place a 2026 event is tied back to the earlier pattern, and the following sentence limits it. Keep both."
+    },
+    {
+      "passage": "This profile does not use them as evidence of her character or her type.",
+      "reason": "The allegation paragraphs separate the two credited interpolations from the uncredited comparisons accurately and decline to build on them. Do not soften or drop this under length pressure."
+    },
+    {
+      "passage": "She was 19 or 20 in 2022.",
+      "reason": "A quiet check on her own 'stupid teenager' wording. It shows the article testing her account instead of repeating it."
+    }
+  ],
+  "assessment": "Open-case eligibility holds from this seat: she is 24, the breakout dates from January to March 2026, and the first-person record is one promotional cycle. I read the research run's cached copies of the main sources (Rolling Stone feature, Vanity Fair, The Line of Best Fit, Billboard's May interview, SongwriterUniverse, Genius and five caption transcripts) and two cached items outside the evidence record (a Tulane Hullabaloo piece and a commentary podcast). Neither is an interview or pre-fame testimony, so I found no skipped deep record. I did not re-fetch live pages or listen to audio. Title, description, FAQs and the 60-word answer stay at 'leading read, held loosely'. What an informed reader will respect: the quotations I checked match their sources, interested witnesses are flagged, credited interpolations are kept apart from allegations, and nothing flatters her. What that reader will miss is in the findings: her pre-fame performing record (Stella + Huck, 'Kiss Me'), her own stated doubts and success motive, and who moved her to Los Angeles. Most of these gaps favor the alternatives, so closing them supports the open case and does not strengthen the Nine. Each fix is about a sentence; the draft is already over the open-case length target, so pay for additions with cuts. Two leads not raised as findings: the friends' objections (Virgin Radio) and 'my only relationship was like, me and my phone' (The Line of Best Fit) describe the same study-abroad falling-out, the one peer conflict she narrates herself; and Billboard's September 27 wording is that 'Boston' was No. 1 on Country Airplay 'for a second consecutive week', so 'spent two weeks' may be out of date at publication. Similarity: the advisory did not trip. Its top matches are the phrase 'going along', shared with a Victoria Justice profile, and ordinary type vocabulary. I compared only the diagnostic's snippets, not the other drafts; this argument rests on dated episodes specific to her, so I report no reuse."
+}

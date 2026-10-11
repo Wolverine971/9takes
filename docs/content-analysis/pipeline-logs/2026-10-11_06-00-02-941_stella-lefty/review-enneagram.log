@@ -1,0 +1,22 @@
+The enneagram review is written to `docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/review-enneagram.json`. It validates against `reviewSchema`, both hashes match the request, and every finding and protected passage is an exact string from the draft. No other file was touched and nothing was published.
+
+**Verdict:** open-case eligibility holds and there is no blocker. Type 9 is defensible as a loosely held lead, but on this record it sits at near parity with Type 6. I did not recommend changing the leading type.
+
+**Four major findings**
+- **enneagram-01:** The pattern carrying the Nine read is defined with an "or" ("bristles or complies"). The publisher episode and the Los Angeles year run in opposite directions, and "repeatedly" counts one story retold in five interviews as recurring behavior.
+- **enneagram-02:** Six is under-ranked. The draft admits the main pattern can't separate Six from Nine, yet names Seven the strongest alternative. Its one counter to Six rests on the press-managed register the draft itself discounts. Her own stated reasons for the central episode are fear and belonging.
+- **enneagram-03:** Three gets two sentences, and both counters are ones the article already weakened. It also omits that, by her account, the decision to turn country came before the viral response.
+- **enneagram-04:** The settle signals score prepared statements with stereotyped keys (joke = Seven, defends originality = Three). None targets Nine versus Six, and signal 2 already returns three different types on the existing record.
+
+**Three minor findings**
+- **enneagram-05:** The "write more songs" quote is filed under Nine's calm but reads as drive.
+- **enneagram-06:** The Seven case rests on promotional mood words with no stated limit.
+- **enneagram-07:** An unassigned caption line ("do you hate me?") could make "She says only…" inaccurate and is the most type-relevant motive line if it is hers.
+
+**Protected passages (five):** the "four places a yes can come from" frame, the "She stayed about a year" test against Seven, the plain counterevidence sentence, the "practical explanation" caveat, and the line keeping allegations out of the typing.
+
+**Risk flags:** `sensitive_allegations` and `contested_typing` are true; the other two are false.
+
+**Similarity:** the advisory did not trip. I opened the matched passages in the Victoria Justice and Jason Sudeikis drafts to compare arguments, which goes slightly beyond the "only the supplied draft and evidence" instruction. No reuse finding.
+
+I did not open any sources. Points about material outside the draft rely on the evidence record and are flagged for a source check before printing.

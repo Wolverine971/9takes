@@ -1,0 +1,19 @@
+The critic review is written to `review-critic.json` in the run directory. It passes `reviewSchema`, carries the request's hashes, and is the only file I touched.
+
+**Verdict:** nine major findings, no blockers, five protected passages. The draft is honest about its limits in general terms, but at each load-bearing point it stops quoting just before the part that cuts against Type 1. I checked this against the transcripts and pages the research stage saved (machine captions, not a human listen or a fresh fetch).
+
+- **The 2015 "voice"**: the quote continues "people are probably losing their mind" and runs into fear of viewers abandoning him. The draft says business can't explain that voice; his own words say it can.
+- **The "guiding star" quote**: the sentence ends on self-belief ("I believe in myself enough to make up for the shortcomings"), not harsh self-judgment. The title and persona title then state the self-judgment claim as fact.
+- **Mixed reviews**: never mentioned, though the BBC piece the draft cites reports 61% on Rotten Tomatoes and two-star reviews. The Slate self-hatred line was his answer to a question about critics.
+- **Unus Annus deletion**: it was the channel's selling point and biggest event, and he calls it "an exercise in letting go". The draft reads it as a rule kept at a cost.
+- **One-room film**: he told Slate he thought one room "will be an easier movie". That is omitted, and "the part a Seven does not do" is asserted flat.
+- **2017 vlog**: his named "biggest fear" (losing the feeling of unexplored territory) and "I didn't give a … about the rules" are both left out of the section billed as the best case for Type 7.
+- **Smaller fixes**:
+  - The IGN profit quote is about other creators, not his own film.
+  - His ease with flaws in released work is in the research record but not the article.
+  - The upload streak is counted as something that "happened in public" when it is his own claim.
+  - The moderator's complaint is printed without his reported reply.
+
+With those restored, Type 1 over 7 and 3 is closer than the page implies. Most fixes are substitutions or cuts, which matters given the edit-stage length ceiling.
+
+Risk flags stay raised for contested typing and major thesis change. The inherited duplicate-subject blocker (the live Markiplier page is typed as 7) is untouched and still needs your decision. The similarity trip was only the stem "organized around" in a type definition, so I raised no reuse finding.

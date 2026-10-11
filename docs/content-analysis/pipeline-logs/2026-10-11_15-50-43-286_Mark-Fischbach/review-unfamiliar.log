@@ -1,0 +1,26 @@
+The unfamiliar-reader review is written to `review-unfamiliar.json` in the run directory and passes the review schema, with both hashes copied from the request. No other file was touched and nothing was published.
+
+**Verdict:** the draft orients a newcomer to the argument better than to the person. A first-time reader finishes able to state the Type 1 thesis, the Type 7 rival and the limits, but never meets the Markiplier the audience knows.
+
+**Major findings (5):**
+- **Late orientation:** who he is arrives about 350 words in as an infobox paragraph. The body never says in its own words what he does, and never says Unus Annus was a side channel, so the cost of deleting it can't be read.
+- **The entertainer never appears:** "loud and absurd" is asserted in six words while every quote is solemn or tearful. The evidence record holds the playful material and the draft leaves it out, which also makes the Type 1 reading look tidier than the record.
+- **A quote cut from its setting:** "the win condition isn't being number one" reads as consolation for opening second. The evidence record says he was celebrating a number-one daily ranking on that same stream.
+- **An unshown inference:** the draft says business can't explain the "voice" during the bereavement break. Its own evidence record concedes the commercial fear may be all the voice is.
+- **One-sided dispute:** the moderator's complaint is printed without Fischbach's reported reply, which the evidence record says is in the same article.
+
+**Minor findings (4):**
+- "The giving" is counted in the confidence sum before charity has been introduced.
+- "Five years later" contradicts the draft's own three-year timeline, and the 2017-to-film gap is unexplained.
+- Lemonade Stand, Slate and Padilla are never identified, so the "friendly interviewers" caveat can't be weighed.
+- The OnlyFans account, the surgery and the biopsy arrive with no explaining clause.
+
+That is nine findings against a target of eight; I kept the ninth because the stream-context one is a material distortion.
+
+**Protected passages (5):** the opening deletion scene, the apology-for-silence detail, the "a son's words about a dead parent" limit, the 2017 Seven-versus-One paragraph, and the closing lines.
+
+**Risk flags:** `contested_typing` and `major_thesis_change` are true; the other two are false. The similarity trip was only the phrase "organized around" in a type definition, so I raised no finding on it.
+
+Decision for you: the inherited duplicate-subject blocker still stands. The live Markiplier page reads him as Type 7 and this draft reads Type 1, and no text edit resolves that.
+
+The draft is already 3,556 words, so I framed the fixes as moves and trades rather than additions. I did not open sources or read the other reviews; claims about what the record contains come from the supplied evidence file.

@@ -1,0 +1,23 @@
+The edit stage is done: all three outputs are written and pass the contract's own checks (`checkDraft`, `validateEvidence`, `resolutionSchema`). Verification has not run; that is the next stage.
+
+**What changed in the article**
+- **Closest rival is now Type 6, not Type 7.** The leading read stays Type 9 at low confidence. Three reviewers showed the draft's one argument against Six was contradicted by her own quotes, so Six is the closest rival and Seven and Three are live but unranked.
+- **The central pattern is counted honestly.** It is now "complies first, reverses later," counted once at length (the Los Angeles year) and once briefly (the tour announcement). The publisher story is its mirror image and the Kahan credit is a concession with no reversal; "repeatedly" is gone.
+- **The pop year is told three ways.** Her March, May and August accounts differ, and the article now says so instead of stating "music other people wanted" as fact.
+- **"Hid her singing" is gone.** Rolling Stone's report of in-person gigs as Stella + Huck is in.
+- **Disputes have their own section.** The allegations and the wealth charge are attributed and dated there, and her eventual answer to the allegations is explicitly not scored as type evidence.
+
+**Decisions on the 48 findings:** 47 fixed, 1 rejected (fan-09, her mother's illness and a friend's death, left out on sensitivity grounds). All 23 protected passages are recorded: 17 kept verbatim, 6 changed with the contribution retained.
+
+**Things the verifier may push back on**
+- **Length is tight.** The body is 3,006 words against the frozen draft's 3,014, and reviewers required it not to grow. To get there I cut the SNL item, the tour dates, the stage-fright settle signal and about ten quotations.
+- **Some fixes are by removal.** fan-04, fan-05, enneagram-05 and future-07 were resolved by cutting the passage, not by the reviewer's literal remedy. Each reason says so.
+- **The 7→6 re-rank.** I kept `major_thesis_change: false` because the leading type is unchanged and the Enneagram reviewer offered this path. The evidence log asks the verifier to confirm no refreshed jury is needed.
+- **No live refetch, no human audio listen.** Every quotation was rechecked against the research cache only. Three audio checks are logged as open tasks.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/`:
+- `edit.md`
+- `evidence-edit.json`
+- `resolution-edit.json`
+
+Nothing else in the repo was touched and nothing was published; scratch scripts are in `/tmp/stella-lefty-edit/`.

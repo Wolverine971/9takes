@@ -1,0 +1,31 @@
+The verify stage is complete and the verdict is a hold: `status: insufficient_evidence`, overall 7.3. I wrote only `verification-edit.json` in the run directory; it parses against `verificationSchema`, both hashes match the request, and nothing was published.
+
+## Why it holds
+
+- **Duplicate page (blocker, needs your decision).** `src/blog/people/drafts/Markiplier.md` is live as Type 7 at `/personality-analysis/markiplier`. This candidate would add a second URL for the same person leading with Type 1. The editor kept the blocker word for word; nothing in the run can clear it.
+- **Type argument rebuilt after the jury (blocker).** The edit withdrew the draft's discriminator, wrote a narrower one, promoted Type 3 to a co-alternative and dropped confidence to low. No reviewer saw any of that, so it needs `--refresh --expanded-review`.
+- **No discriminator survives (major).** The Type 1 lead rests on four self-reported moments, each with a rival reading the article itself gives. The article says so honestly, which is why it can't release as a standard profile.
+- **A trimmed quote now carries the title (major).** The draft quoted "I have to bend the rules as much as necessary… but I cannot break the rules." The edit kept only the last five words and built the title, meta title and thesis question on them.
+- **Coverage gap (major).** The "I think it's done" / "I break down for 30 minutes straight" anecdote has no claim in the evidence inventory.
+
+Five minor findings are also recorded:
+
+- The panel is dated June 2026; it took place May 28, 2026 and was uploaded June 11.
+- The archive link for the moderator dispute is unpinned and currently returns a server error.
+- Two of the four discriminator moments, and one FAQ, are worded more firmly than the sources.
+- "Lost novelty" is a narrower gloss than the fear he actually describes.
+- The body is 4,328 words, well past the 2,000–3,500 target.
+
+## What was checked
+
+- **Quotations:** all 110 quoted strings located in the sources and the load-bearing ones read in context. No claim is unsupported; 18 of 81 are marked qualified.
+- **Review decisions:** all 56 accepted against their acceptance tests, including the three duplicate-page findings on their hold branch.
+- **Protected passages:** all 17 present verbatim.
+- **Web sources:** all ten re-fetched fresh today.
+- **Scores:** evidence 7.3, Enneagram 6.5, originality 8.5, writing 7.5, durability 7.0, hook 8.0, discoverability 6.5.
+
+## What I could not check
+
+YouTube refused every fresh caption and audio download from this machine today. I confirmed each video is live by title and channel, then read the caption files the research stage saved this morning. I ran a second transcription only on recordings the draft stage had kept: the Padilla, Slate, results-stream and panel videos, plus the first six minutes of the 2017 vlog. Quotations from the other videos, including Lemonade Stand and the 2015 return video, still rest on machine captions alone; that is listed as a research task before release.
+
+The decision that unblocks everything is yours: rerun this as a refresh of the existing Markiplier page, or confirm a separate legal-name page with a plan that keeps the two from disagreeing on type. I'd rerun as the Markiplier refresh, since readers search that name and one URL should carry one reading.

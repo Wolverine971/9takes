@@ -1,0 +1,363 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "The allegation signal is removed. The settle section now says: 'Her answer to the song-similarity allegations, whether denial, credit or silence, is not scored at all: such replies are shaped by lawyers and a label, and a denial may simply be true.' Three signals remain and none depends on the allegations. The settle FAQ ends 'her replies to song-similarity allegations are not scored as type evidence', and open_case.settle_signals has the same three signals. The pledge sentence is kept verbatim and is now true of the whole page."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Reread S17 and S16. 'Decisions' is gone. The settle paragraph reads 'two changes have no first-person account: the end of her opening slot on Wetmore's tour, and a split from her managers that Billboard reported on September 27, 2026, citing unnamed sources, and that no party has confirmed. No source says who made either call.' The earlier mention keeps 'Billboard's September 27 report, citing unnamed sources', signal 1 says 'the reported management change', and the tour paragraph says she 'stopped being an opening act... a change made without an announcement or a stated reason'. The settle section adds: 'An explanation of either change that is logistical, medical, contractual or not hers to give settles nothing about type.' The settle FAQ no longer calls either event her decision. C18, C82 and C103 match."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Reread S23. The essay is dated August 5, 2026 and 'these questions' are the financing questions. The quotation moved out of the replies paragraph into the paragraph on the wealth charge, with its date and referent: 'The New Yorker's Brickner-Wood wrote on August 5, 2026, that the debate about her father had turned to \"how lavishly he has financed her career,\" and that \"Lefty has mostly avoided addressing these questions...\"'. It is no longer introduced as a reading of the later posts, and the phrase 'read the same manner less kindly' is gone. C68 is corrected."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Reread S21, S03, S27 and S01. Scope: 'Her posts from before August 2025 are no longer public, for reasons no source gives, per Rolling Stone's September 2026 explainer, so the covers cannot be checked.' Her position now sits beside the doubt: '\"I'm such a Noah Kahan fan,\" and \"I'm not out here trying to interpolate other people's songs.\"' The doubt is attributed: 'USA Today reported on September 2, 2026, that critics, among them the TikTok creator Holden Smith, cite her old covers of \"Stick Season\" against it.' Paste (S33) makes the same objection but is not linked or quoted, because its headline asserts a lawsuit that no interview reports; that is recorded in C95. C61, C81, C95 and C96 carry the changes."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Reread S20. 'Copies' is gone from both places. The intro now says only 'Song-similarity disputes followed, set out below as disputes.' The body says the two artists 'compared their 2024 single \"WATCH THIS\" with \"Badly\"' and quotes TAELA's own description, 'the vocal melody, phrasing and cadence being essentially identical.' The credit statuses are separated: the three released songs 'none credited those writers' as of Rolling Stone's September explainer, and 'Badly' was 'unreleased, and so without published credits' as of the October 6 report. The Kahan FAQ makes the same split and no longer calls 'Badly' uncredited. Her line about not tearing another artist down is not printed for length; it is recorded in C64."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "The single is named where the quote appears: 'Promoting her single \"Good at Leaving\" on Smooth Country, she was asked whether she is good at leaving'. The article adds 'The past tense is hers and the reason is fear'. 'Habit', 'early' and 'leave-first history' are gone: the Six paragraph no longer uses the leaving answer, and the Type 7 FAQ that carried 'a past habit of leaving relationships early' is replaced by a Type 6 FAQ that does not mention leaving. C19 and C107 record the promotional setting."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Reread S02. The full sentence is quoted, 'Nobody has the answer anymore for how to make something work. TikTok decides', followed in the same sentence by Vanity Fair's report that she and her co-writers 'all swear they don't think about the algorithm when they're writing' and that the profile 'calls such testing the norm for new artists'. C56 and C94."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Reread S18 and S16. The standalone sentence after her apology is gone; the same fact is a neutral clause where the clip is introduced ('a 2022 clip, posted when she was 19 or 20'), so it no longer reads as a rebuttal. The clip is described as 'her swearing at Olivia Rodrigo during a fan rivalry' and Holler's judgment is quoted ('clearly not meant to be taken seriously'). The tour apology now includes that she 'offered to work something out with ticket buyers'. Two other reviewers protected the age sentence; its factual contribution is kept (see protected passages). C80, C102, C104."
+    },
+    {
+      "finding_id": "subject-09",
+      "action": "fixed",
+      "reason": "The closing sentences now carry attribution and match Rolling Stone: 'By her own account she dreaded singing in front of people as a child, yet she posted her singing almost daily. In her telling of 2024 she bristled when a publisher said what she was, then agreed.' 'Hid' and 'hidden' are gone from the body, the FAQs and the close; the section says 'The first music career she says she wanted was writing' and reports the duo gigs. The bristling is tied to the dated 2024 episode. C06, C57, C93."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Reread S01. The article now quotes Rolling Stone's sentence that she 'played some real, in-person gigs, often as a duo called Stella + Huck', adds 'The gigs are undated', and states with attribution that Rolling Stone describes 'a viral 2024 debut single, \"Kiss Me,\"' before the pop EP. Every 'hid', 'hidden' and 'hiding' sentence is gone or rescoped: the Type 7 FAQ is replaced, 'the long hiding' and 'her first wish to work unseen' are cut, and the close says she 'dreaded singing in front of people as a child, yet she posted her singing almost daily'. The puzzle now reads 'She says one listener is harder than thousands, yet she sang to a phone almost daily and, by Rolling Stone's account, to rooms as half of a duo.' C91 and C93 are new."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Reread S03, S05, S08 and S01. The sentence is withdrawn. The Type 6 paragraph cites her own dated statements of doubt ('I always worried, Do I have to be?', Rolling Stone, June 29, 2026; 'really had me spiraling', The Line of Best Fit, July 3, 2026) and treats the originality answer as a self-defence she has already given: 'Challenged over \"Boston,\" she explained herself'. In place of a counter it says 'Nothing firm yet favors Nine over Six.' The Mumford question is confirmed in the S08 captions but was not in the second transcription and is not printed; it is recorded in alternative_case, C126 and the audio task list."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Reread S02 and S01. The third reason is quoted: she told Vanity Fair she had been 'under the impression that in order to be successful, you have to have a very distinct brand.' The section now sets out three tellings by date. The Type 3 paragraph argues from first-person statements ('a pop year entered partly for what she thought success required', 'I wanted it all so badly', 'TikTok decides'). One attributed sentence gives the move: 'Rolling Stone reported on June 29, 2026, that her plan had been Nashville and that the producer J Kash and her managers at Disruptor urged the move to Los Angeles.' The article does not say they told her to avoid country. 'I got really lost in the scene' was cut for length. C84, C86."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "The reviewer is right that she has already answered this in several ways (reread S08, S07 and S13), which means the signal would not separate the reads. It is therefore cut, not reshaped: the settle section now has three signals and none concerns stage fright. The sentence 'She says only that one listener is harder than thousands' is replaced by 'Nothing firmly attributable to her explains why, and her accounts of coping vary', which acknowledges the existing answers. They are not quoted because only one fragment was confirmed by the second transcription and it is interrupted by the host in the captions; C126 records each answer with its source, and open_case.settle_signals and the settle FAQ match the three remaining signals."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "The error is removed with the sentence. The tour dates were cut from the article because they expire (see future-07), and the settle FAQ no longer says 'her first headline tours'. Nothing in the body or FAQs now implies she had not headlined before October 30, 2026. The evidence record's review calendar uses the correct label, 'first North American headline tour' (S30)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Reread S01, S03 and S21. Beside the New Yorker quotation the article now says: 'On her side, Rolling Stone describes college-era covers of Tyler Childers and the Band Perry and a viral 2024 debut single, \"Kiss Me,\" before the pop EP, and she told The Line of Best Fit that country radio in her father's car came first.' The limit follows: 'Her posts from before August 2025 are no longer public... so the covers cannot be checked.' Her own description of her first release as a pop-country blend is not printed, so it needs no caveat; C91 records it. C91, C92."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Reread S02. The paragraph now says 'The publisher story has three versions, which differ on who ended the deal', keeps The Line of Best Fit's version, attributes the second to the writer ('Rolling Stone's writer says she turned it down') and adds 'Vanity Fair says it \"fell through.\"' Vanity Fair's different timing (midway through college) is recorded in C87 and not printed. C38, C87, C88."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Her fandom is now beside the denial: 'Her answer, in The Line of Best Fit: \"I'm such a Noah Kahan fan,\" and \"I'm not out here trying to interpolate other people's songs.\"' The song's content is left out, for three reasons. The leaving evidence it would support is now flagged as song promotion and shared between Seven and Six, so a second promotional statement adds nothing that separates the reads. The caption and the second transcription of the Genius line differ ('would normally like run away' against 'would normally run away'), so it could only be paraphrased. And the article had to end shorter than the frozen draft. It is listed in research_tasks as unprinted material for the next refresh."
+    },
+    {
+      "finding_id": "fan-09",
+      "action": "rejected",
+      "reason": "Left out on sensitivity grounds, under the acceptance test's second branch. Her stated reason concerns two other people's health (her mother's cancer and a friend's death) and rests on one source; the research record limited it to a bare reason with no causal claim, and the subject reviewer asked that the omission hold through the edit. It would also have needed a clause the length budget did not have. The sentence that mentioned public health was trimmed at the same time, so the article no longer raises the question of why she studied it. The episode is listed in research_tasks for the next refresh, including its bearing on the writing-to-process habit."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The two episodes are no longer summed. The pattern is defined in one direction: 'So the pattern this profile counts runs one way: she complies first and reverses later. The Los Angeles year fits it, at length. A tour announcement in August 2026, below, may fit it briefly. Her credit to Noah Kahan, also below, is a concession with no reversal, and the publisher episode is its mirror image.' 'Repeatedly' is gone: the type answer and first FAQ say 'once at length and once briefly', and the close names both ('once at length, in Los Angeles, and once briefly, over a tour announcement'). The publisher paragraph reports all three opened tellings. C45, C37, C89."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Reread S13, S05, S07 and S02; the reviewer is right and C10's 'same way in five interviews' was wrong. The section is retitled 'The Los Angeles year, told three ways' and sets the accounts out by date: in March 'nobody directs her: she \"pivoted for a whole year\"' and held the country song back because 'I was afraid'; 'By May there were advisers'; in August she thought success required a distinct brand. It then says: 'The low views are both the cost she names and the plainest commercial reason for what came next.' The intro attributes the framing ('in most of her later tellings, other people told her to make'), the description says only 'then spent a year making pop', and the Type 7 FAQ is gone. The test against Seven is now conditional: 'if the pop year was direction she did not want, as her later tellings have it... In her earliest telling the pivot was her own, and the test does not apply.' The MuchMusic 'nothing was working' line is confirmed in both transcriptions but not printed for length; it is in C90. C10 and C34 are corrected."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Three now has its own for-and-against paragraph with its evidence gathered: 'the viral covers, the smiling take, \"TikTok decides,\" \"I wanted it all so badly,\" and a pop year entered partly for what she thought success required', and the statement that 'A Three says yes to whatever is working, and that fits both turns'. Both discounted counters are dropped. What stands against it is her ordering of decision and viral response, with its limit, and the article names the gap: 'no episode yet shows her taste and the numbers pulling apart.' Ranking: Six is the closest rival for a stated reason (the main pattern cannot separate it from Nine), and Seven and Three share a heading that says 'unranked'. The type answer, FAQs, alternative_type and alternative_case agree. The Nine column states the limits of the CMA Fest observation: 'one afternoon in a managed setting, where watching the clock is her handlers' job, and the reply is appetite as much as calm.' Two points are not taken up in the text: the New Yorker's 'chasing the success of' line is recorded in C29 and not printed for length, and the 'saying yes' frame is kept because two reviewers protected it; the Nine paragraph's against-list (her appetite, the instant anger at the publisher) is where the article tests that frame."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "The sentence is removed. The paragraph now ends 'Nothing firm yet favors Nine over Six. Nine leads on thin grounds, the ease of her concessions and a reporter's glimpse of composure, and each has an ordinary explanation.' C110."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Reread S01. The section now reads 'The first music career she says she wanted was writing' and adds Rolling Stone's caveat that she 'played some real, in-person gigs, often as a duo called Stella + Huck', with 'The gigs are undated.' The earlier single is given, attributed to Rolling Stone, in the Los Angeles section ('a viral 2024 debut single, \"Kiss Me\"'). 'Hidden' and 'unseen' appear nowhere: the Type 7 FAQ is replaced, the Type 3 paragraph no longer uses the wish to work unseen, and the closing list is worded as her account ('By her own account...', 'In her telling of 2024...', 'she says...'). C93 is the new claim for the duo, and C06 records that the origin story doubles as an answer to the industry-plant charge and cannot be checked against her pre-August 2025 posts."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Reread S27, S23, S02 and S17. 'What she concedes is a different advantage' is gone. The paragraph keeps 'unsubstantiated' for the narrow claim ('USA Today called the claim that the hit was manufactured \"a claim that remains unsubstantiated\"'), then states the broad one in the critics' terms with attribution and date ('the debate about her father had turned to \"how lavishly he has financed her career\"'), quotes 'mostly avoided addressing these questions' about those questions, and says 'That question has not been reported on or answered in the sources opened for this profile.' Her concession follows as time. The father FAQ matches: unsubstantiated for the manufactured claim, and 'How far family money financed her early career has not been reported on'. Vanity Fair's note about label-funded promotion and Horowitz's 'building Stella's fan base for years' are not printed for length; both are recorded in C14 and research_tasks. C65, C68, C100, C101, C118."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "The reading is now conditional and the rival is named: 'If she did want to announce it, the apology repeats the Los Angeles sequence in miniature... The wish also sits inside an apology, where a good intention is expected, and naming the advice shifts responsibility. The same reading fits her Los Angeles account.' The pattern paragraph says the announcement 'may fit it briefly', not that it does. The reason for the tour change stays unknown ('a change made without an announcement or a stated reason'). C17, C105."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "The allegation signal is cut, so no future answer of either kind is scored (see subject-01). Both existing answers are in the article where they belong: the accommodating line in the Kahan section and the originality line in the Type 6 paragraph, as a self-defence already given. The general rule is stated before the signals: 'Prepared statements will count for little here. What counts is an unscripted account, named testimony, or a choice that costs her something.' Signal 1 asks for 'Her unscripted account'."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The pattern is stated once, in one sentence every counted episode satisfies: 'she complies first and reverses later.' Each episode is labeled in the next three sentences: Los Angeles fits at length, the tour announcement may fit briefly, the Kahan credit is 'a concession with no reversal', and the publisher episode is 'its mirror image'. The count is the same everywhere: 'once at length and once briefly' in the type answer and first FAQ, and 'once at length, in Los Angeles, and once briefly, over a tour announcement' in the close. 'Repeatedly', 'keeps describing' and 'at least twice' are gone."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "One sentence is added in the second paragraph: 'She had gone there to write songs for other people to sing, and in the trade an artist is the performer out front.' 'Publisher' becomes 'music publisher'. The opening quotation and 'They were right, even though it was annoying to hear.' are unchanged."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The hinge is now an event: 'In December 2025, by Vanity Fair's dating and her own (\"right after Christmas\"), she decided to stop making pop and go back to country-leaning songs.' The two datings are one. What followed is stated with supported dates and TikTok is named: 'She posts her songs on TikTok, and \"Thinking 'bout You\" became her most viral video \"at the top of this year,\" she told SongwriterUniverse. \"Boston\" followed on March 27, 2026.' 'The song that later broke her' is now 'her later breakout'. C42, C46, C125."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The order is now argued. Six has its own heading, 'Closest rival', and the reason is given in its first sentence: 'The main pattern cannot separate Six from Nine: a Six also defers to advisers and regrets it later.' Seven and Three share the heading 'Also live, unranked'. The Three paragraph weighs the metric-watching evidence, drops both counters the article had already qualified, and says what the record lacks. No read gains confidence language: the type answer stays 'held loosely, at low confidence' and the Six section says 'Nothing firm yet favors Nine over Six.' The 60-word answer and FAQs agree with the section."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "The sentence names the single and the setting: 'Promoting her single \"Good at Leaving\" on Smooth Country, she was asked whether she is good at leaving and said, \"I was in the past for sure,\" because \"I used to be so afraid of love.\" The past tense is hers and the reason is fear, which is why Six claims the same answer.' The Six paragraph no longer restates it as biography, and the Type 7 FAQ with 'early' is replaced."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Each item has its clause. (1) The intro says she 'grew up in Chicago's North Shore suburbs'. (2) '\"Stick Season,\" the hit by the singer-songwriter Noah Kahan'. (3) 'an opening act on Tucker Wetmore's tour'. (4) 'Veronika' is gone with the SNL item, which was cut. (5) 'Adam Alpert of Disruptor Management'. (6) 'an \"industry plant,\" an act whose rise was arranged by the music business'; 'interpolates his, meaning it reworks part of an existing melody'; 'Clearance is the rights holder's permission'; 'a 2025 EP, or short album'. (7) The intro names the system before the H2 ('So this Enneagram profile is an open case'), the 60-word answer still sits directly under its heading, and the title and description now say 'Enneagram Type 9' within the length limits (meta_title 61 characters, description 158)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The two signals that lacked outcomes are rewritten in the form of the others. The taste-against-numbers signal: 'Following the numbers points to Three, keeping to what she likes at a cost points away from it, and moving quickly to something new points to Seven. Following advisers cannot separate Six from Nine.' The witness signal: 'Going quiet and smoothing it over would favor Nine; pressing the point, then checking where she stands, would favor Six. It says less about Seven or Three.'"
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "The caption note moved to the first video quotation and says what it means: '(Video quotations follow software-checked captions, not a human listen.)' The birthday provenance is two links in a parenthesis. The accommodation section now runs as one thread (the Kahan concession, its rival explanations, then the two short written replies ending on the tour apology), and the items not used as evidence moved under their own heading, 'What is disputed, and what is documented', compressed: the Chicks item is two sentences and a gloss, the fan comparisons one sentence, the SNL item is cut. Every allegation is still attributed, dated, marked as lacking a credit and unanswered. The edited body is 3,006 words by checkDraft against 3,014 for the frozen draft, after the additions requested in unfamiliar-02, -03 and -06."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The 'or' is gone. The pattern is defined in one direction ('she complies first and reverses later') and the article says which episodes fit (Los Angeles, at length), may fit (the August 2026 tour announcement, briefly), only partly fit (the Kahan credit, 'a concession with no reversal') and do not (the publisher episode, 'its mirror image'). The same count appears in the body, the 60-word answer, the type FAQ and the close. The publisher episode is presented as immediate resistance followed by later agreement, with the note 'perhaps only in thought', and it is listed against Nine ('the instant anger at the publisher'). No sentence uses 'repeatedly'. C45, C89."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Six is now the closest rival, on the reviewer's first option; no sourced observation makes Seven outrank it. It has its own subsection, and the 60-word answer, the FAQs, the anchor (closest-rival-type-6), alternative_type (6) and alternative_case all agree. The anti-Six sentence is replaced by 'Nothing firm yet favors Nine over Six.' Her stated reason in each episode is set beside the read it favors: belonging and fear in Los Angeles ('are a Six's reasons'), what she thought success required (Three), accommodation with Kahan ('how readily she conceded the Kahan credit', under Nine), and advice on the tour (signal 1: 'fits both'). Shared evidence is marked ('which is why Six claims the same answer'). 'I was afraid' was checked before printing: both the caption track and the second transcription of S13 have it, in answer to why she sat on the country song (C41). Length did not grow: 3,006 words against 3,014. The leading type and its confidence are unchanged and no risk flag was added; the evidence log asks the verifier to confirm that re-ranking inside the reviewed live set needs no refreshed jury."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The Three paragraph, still one paragraph, weighs the take-testing and 'going viral' evidence with 'TikTok decides', 'I wanted it all so badly' and the success motive. Both undercut counters are dropped. It states the order as she gives it, with its limit: 'she places the decision before the viral response, though the two are weeks apart at most and both were told afterward.' It names the missing test in reader language: 'no episode yet shows her taste and the numbers pulling apart.' Settle signal 2 is that condition: 'A release where her taste and the numbers pull apart.' C109, C112."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "The section now says what kind of evidence counts ('an unscripted account, named testimony, or a choice that costs her something') and that prepared statements count for little. Signal 1 is aimed at Nine against Six, with both of the reviewer's questions: not registering what she wanted or not thinking it worth the friction (Nine) against doubting her own judgment and wanting backing (Six), and watchfulness about whom to trust after the reported management change; it says her existing statement fits both. The allegation signal is cut, so its key can no longer return three answers. The underperformance signal is rewritten with type labels and without the car phrase, and says following advisers cannot separate Six from Nine. The stage-fright signal is cut (see fan-04). Type labels match the type sections, and open_case.settle_signals matches the article's three signals."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The 'write more songs' line stays in the scene, which is protected, and its ambiguity is now stated: 'the reply is appetite as much as calm.' The familiar-tastes evidence (the replayed song, Chicago) is cut, so it is not offered as motive evidence for Nine or for anything else. The two statements about writing are both cut: neither read now uses the habit, which removes the double use the finding identified without spending words on evidence that, as the reviewer says, does not discriminate. C20, C22, C69 and C72 are removed from the inventory."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "The promotional-register limit is stated in the first sentence ('though fun is also the pitch for upbeat country-pop in every interview'). The mood quotations ('I want to have fun', 'a fun tired') are cut and the case rests on behavior: 'The more Seven-specific behavior is keeping options open', with the lane quotation, then the leaving answer and the conditional year test. Nothing was added that the evidence record does not hold."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "On the reviewer's second option. 'She says only' is replaced by 'Nothing firmly attributable to her explains why, and her accounts of coping vary.' The S13 line is not quoted. Resolving its speaker by a human listen or a speaker-labelled transcription is recorded as an open task in research_tasks, with a note that if the line is hers it belongs under both Nine and Six. The Mumford detail is recorded in alternative_case and C126 and is not printed pending an audio check."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Both events are now 'changes', not her decisions, and the sentence carries an as-of date: 'As of October 11, 2026, two changes have no first-person account: the end of her opening slot on Wetmore's tour, and a split from her managers that Billboard reported on September 27, 2026, citing unnamed sources, and that no party has confirmed. No source says who made either call.' Signal 1 reads the same whichever side initiated either ('after the reported management change'), and 'A Three would describe a step up' is gone. The settle FAQ no longer mentions 'decisions'. The C82 passage is that sentence exactly."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The type answer and FAQ 1 now give the span in absolute terms, 'In interviews from March to August 2026', consistent with C36. They are word for word the same, the answer is 55 words, and no 'seven-month' figure remains in the article. The research log's older 'seven-month' wording is marked superseded in the edit-stage entry."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "The sentence now reads 'As of October 11, 2026, the people quoted describing her firsthand all worked with her, toured with her or were dating her that year.' It is dated and asserts no current relationship or current management. C30 is restored under its original ID as a time_sensitive claim with that exact passage, sources S01, S02 and S17, and a review trigger."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The sentence is cut, with its four internal links. No claim or trigger is needed."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Each status has its own date. The released songs: 'As of Rolling Stone's September explainer... none credited those writers.' 'Badly': 'unreleased, and so without published credits, as of Whiskey Riff's report of October 6, 2026'. Her silence keeps 'as of October 11, 2026'. The triggers on C13, C63 and C64, and on the new C99, add the release of 'Badly' with or without a credit and a dated recheck of every named comparison at open_case.next_review and at each later refresh; research_tasks repeats that. The canonical permalink was resolved from the page's rel=canonical and is used in the body link, the frontmatter citation and S20."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "The body age is dropped in favor of the birth date; FAQ 5 keeps '24 as of October 2026' and C114 tracks it as time_sensitive with a trigger of each August 13 and each refresh. The father's role is given as two founding facts in the body and FAQ 4 ('co-founded Groupon and founded Tempus AI'), and C02 is relabeled accordingly. The 'are now listed' sentence is cut, so no undated credit status remains. 'rising-star' is an established site tag (25 people drafts use it) and research_tasks carries the note to remove it when the case closes."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "'The next tests are dated' and the tour-date sentence are cut. The paragraph is anchored to the October 11, 2026 check and has no 'next', so it reads true on 2026-12-01 and on 2027-03-01. The stage-fright signal that depended on the 2027 tour is also cut. C76 and C31 left the inventory with the sentence; the dates now live in the evidence record's review calendar, which says to reconfirm them at each review and record whether each run happened, and states that if the 2026-12-01 review finds no settle signal, next_review moves to a date after February 20, 2027. C37's trigger says the same."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "This profile does not use them as evidence of her character or her type.",
+      "action": "kept",
+      "reason": "Kept verbatim, closing the allegations paragraph. The settle section and the settle FAQ now honor it: her answer to the allegations 'is not scored at all'."
+    },
+    {
+      "passage": "The limits are plain. Each instance is her own retelling, given during a campaign whose storyline is that she found her real sound.",
+      "action": "kept",
+      "reason": "Kept verbatim, directly after the pattern and the publisher paragraphs."
+    },
+    {
+      "passage": "But these are a few short posts from a managed autumn, and declining to fight critics is ordinary media advice.",
+      "action": "kept",
+      "reason": "Kept verbatim, still directly after the sentence about the tour apology that it limits. The responsibility-shifting reading requested in critic-07 follows it."
+    },
+    {
+      "passage": "The publisher story has two versions. In The Line of Best Fit, the publisher declined to sign her.",
+      "action": "changed",
+      "reason": "'Two versions' was inaccurate: Vanity Fair gives a third (fan-07, critic-01). It now reads 'The publisher story has three versions, which differ on who ended the deal. In The Line of Best Fit, the publisher declined to sign her.' The second sentence is verbatim, and the contribution, reporting the conflict between her tellings instead of choosing one, is kept and extended."
+    },
+    {
+      "passage": "that it had reviewed materials showing clearance from Sony Publishing in June.",
+      "action": "kept",
+      "reason": "Kept verbatim. It survived the trim of the allegations section and is now the lead item under 'What is disputed, and what is documented'."
+    },
+    {
+      "passage": "she put two takes of the unfinished \"Boston\" chorus, one smiling and one less so, on a side account \"where I post things that I'm like not so sure about,\" guessing that \"the smiling one will do better.\"",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "The tour apology repeats the Los Angeles sequence in miniature: she set aside her own inclination on advice, then called it a mistake.",
+      "action": "changed",
+      "reason": "Now 'If she did want to announce it, the apology repeats the Los Angeles sequence in miniature: she set aside her own inclination on advice, then called it a mistake.' The conditional was required by critic-07, because her stated wish sits inside an apology. The tie back to the earlier pattern is kept, and the limiting sentence still follows it directly."
+    },
+    {
+      "passage": "She was 19 or 20 in 2022.",
+      "action": "changed",
+      "reason": "The fact is kept as a clause where the clip is introduced: 'a 2022 clip, posted when she was 19 or 20'. A reader can still test her 'stupid teenager' wording against her age, which is the check two reviewers valued. The standalone sentence placed after her apology is gone because, as subject-08 notes, it read as a correction of her although nineteen is a teenager and the clip's date within 2022 is not given."
+    },
+    {
+      "passage": "Each instance is her own retelling, given during a campaign whose storyline is that she found her real sound.",
+      "action": "kept",
+      "reason": "Kept verbatim. The same candor is extended to the origin story, which is now worded as her account and set beside the duo gigs."
+    },
+    {
+      "passage": "Taken alone, that is a person who meets a challenge by conceding. Two other explanations fit.",
+      "action": "kept",
+      "reason": "Kept verbatim, with both rival explanations after it."
+    },
+    {
+      "passage": "Appetite on that scale, and posting through her friends' objections, do not fit an easygoing, conflict-shy picture.",
+      "action": "kept",
+      "reason": "Kept verbatim. No wing, arrow or subtype is brought in to absorb it."
+    },
+    {
+      "passage": "And Alpert, who had a stake in a flattering story, may no longer manage her.",
+      "action": "kept",
+      "reason": "Kept verbatim, followed by the dated Billboard report with its unnamed-sources attribution."
+    },
+    {
+      "passage": "saying yes can come from four different places. A [Type 9](/enneagram-corner/enneagram-type-9) says yes to keep things calm and finds out what she wanted afterward. A [Type 7](/enneagram-corner/enneagram-type-7) says yes while it is fun and leaves when it stops. A [Type 6](/enneagram-corner/enneagram-type-6) says yes to people she trusts, then wonders whether she should have. A [Type 3](/enneagram-corner/enneagram-type-3) says yes to whatever is working.",
+      "action": "kept",
+      "reason": "Kept verbatim, including the four links and the order of the four sentences. The comparison sentence that followed it is cut (future-04)."
+    },
+    {
+      "passage": "The record also cannot explain why a room frightened her for years when a phone, hundreds of times over, did not. She says only that one listener is harder than thousands.",
+      "action": "changed",
+      "reason": "The frozen wording ran past Rolling Stone's report that she played in-person gigs (fan-01, critic-05), and 'says only' could not be supported while one caption line is unassigned (enneagram-07). It now reads 'A contradiction stays open. She says one listener is harder than thousands, yet she sang to a phone almost daily and, by Rolling Stone's account, to rooms as half of a duo. Nothing firmly attributable to her explains why, and her accounts of coping vary.' The contradiction is still left open and not explained away."
+    },
+    {
+      "passage": "she put two takes of the unfinished \"Boston\" chorus, one smiling and one less so, on a side account \"where I post things that I'm like not so sure about,\" guessing that \"the smiling one will do better.\" It did.",
+      "action": "kept",
+      "reason": "Kept verbatim, including 'It did.'"
+    },
+    {
+      "passage": "\"Everyone seems a little panicked that we won't make it where we need to go in time, except for Lefty herself.\" Told afterward about her capacity crowd, Lefty said, \"I just need to go home and write more songs!\"",
+      "action": "kept",
+      "reason": "Kept verbatim, both sentences together. The limits requested in critic-03 and enneagram-05 follow the scene and do not interrupt it."
+    },
+    {
+      "passage": "Whichever read wins, what the record already shows should stand. She hid her singing from rooms for years and showed it to a phone almost daily.",
+      "action": "changed",
+      "reason": "The first sentence is verbatim. The second said 'hid', which assigns intent where she reports fear, and ran past the duo gigs (subject-09, fan-01, critic-05). It now reads 'By her own account she dreaded singing in front of people as a child, yet she posted her singing almost daily.' The close still tells a newcomer what stands whichever read wins."
+    },
+    {
+      "passage": "In the Enneagram, a nine-type model of core motivation, saying yes can come from four different places.",
+      "action": "kept",
+      "reason": "Kept verbatim, with the four one-line motives after it."
+    },
+    {
+      "passage": "A Seven who felt boxed in by advisers would be expected to move on fast. She stayed about a year.",
+      "action": "changed",
+      "reason": "The test is kept and made conditional, as critic-02 required, because her earliest telling has no advisers: 'And if the pop year was direction she did not want, as her later tellings have it, a Seven would be expected to move on fast, and she stayed about a year. In her earliest telling the pivot was her own, and the test does not apply.' It is still the one place a rival read is tested against a costly, dated behavior."
+    },
+    {
+      "passage": "Nearly every accommodating act also has a practical explanation.",
+      "action": "kept",
+      "reason": "Kept verbatim, closing the case against Nine."
+    },
+    {
+      "passage": "Whichever read wins, what the record already shows should stand.",
+      "action": "kept",
+      "reason": "Kept verbatim. The three sentences after it are type-neutral and worded as her account."
+    },
+    {
+      "passage": "Every interview found for this profile dates from March to August 2026, inside one promotional campaign",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "\"You don't get to tell me what I am.\"",
+      "action": "kept",
+      "reason": "Kept verbatim as the opening line."
+    }
+  ],
+  "prior_blockers": []
+}

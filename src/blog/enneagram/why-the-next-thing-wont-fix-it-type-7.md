@@ -1,7 +1,7 @@
 ---
 title: "Why the Next Thing Won't Fix It (How Type 7s Actually Find What They're Looking For)"
 meta_title: 'The Type 7 Trap: Why Keeping Your Options Open Is Actually Your Cage'
-description: '17 famous Type 7s studied. Every one chased the next thing. None of them found fulfillment until they stopped. The 7 patterns that actually unlocked what they were searching for.'
+description: '16 famous Type 7s studied. Every one chased the next thing. None of them found fulfillment until they stopped. The 7 patterns that actually unlocked what they were searching for.'
 author: 'DJ Wayne'
 date: '2026-02-08'
 loc: 'https://9takes.com/enneagram-corner/why-the-next-thing-wont-fix-it-type-7'
@@ -11,7 +11,7 @@ priority: '0.6'
 published: true
 type: ['situational']
 blog: true
-previewHtml: 'Every famous Type 7 chased the next thing. None of them found fulfillment until they stopped. After studying 17 Enthusiasts from Kevin Hart to Palmer Luckey to Bad Bunny, here are the 7 patterns that actually unlocked what they were searching for.'
+previewHtml: 'Every famous Type 7 chased the next thing. None of them found fulfillment until they stopped. After studying 16 Enthusiasts from Kevin Hart to Palmer Luckey to Bad Bunny, here are the 7 patterns that actually unlocked what they were searching for.'
 pic: 'alone-with-thoughts'
 path: src/blog/enneagram/why-the-next-thing-wont-fix-it-type-7.md
 quality_grade: 'B'
@@ -50,7 +50,7 @@ You watch people with half your creativity and a tenth of your ideas build somet
 
 So what do they know that you don't?
 
-After studying 17 famous [Type 7 Enthusiasts](/enneagram-corner/enneagram-type-7), one pattern became undeniable: **every single one chased the next thing, and none found fulfillment until they stopped chasing and started staying.**
+After studying 16 famous [Type 7 Enthusiasts](/enneagram-corner/enneagram-type-7), one pattern became undeniable: **every single one chased the next thing, and none found fulfillment until they stopped chasing and started staying.**
 
 The next thing wasn't the answer. Going deeper was. The Enneagram calls this integrating toward [Type 5](/enneagram-corner/enneagram-type-5), the Investigator: trading scattered breadth for focused depth. Every pattern below shows what that looks like in practice.
 
@@ -58,9 +58,9 @@ The next thing wasn't the answer. Going deeper was. The Enneagram calls this int
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'self-sabotage 🔥', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'communication styles 🙊', link: '/enneagram-corner/relationship-communication-guide'} ]} />
 </div>
 
-## The 17 Type 7s Studied
+## The 16 Type 7s Studied
 
-This analysis draws from profiles of 17 Enthusiasts across eras and domains:
+This analysis draws from profiles of 16 Enthusiasts across eras and domains:
 
 - **[Kevin Hart](/personality-analysis/kevin-hart)** — turned a near-fatal car accident into his deepest growth
 - **[Theo Von](/personality-analysis/theo-von)** — lost his voice to cocaine until he stopped running from pain
@@ -71,7 +71,6 @@ This analysis draws from profiles of 17 Enthusiasts across eras and domains:
 - **[Paul Graham](/personality-analysis/paul-graham)** — felt empty after selling his company for $49M
 - **[Tim Dillon](/personality-analysis/tim-dillon)** — closeted addict who weaponized truth into a comedy empire
 - **[Alex Cooper](/personality-analysis/alex-cooper)** — built Call Her Daddy into a $125M franchise through constant reinvention
-- **[Doja Cat](/personality-analysis/doja-cat)** — shaved her head, alienated her fans, made her best album
 - **[Bad Bunny](/personality-analysis/bad-bunny)** — the world's most-streamed artist who stopped chasing genres and found his roots
 - **[Brittany Broski](/personality-analysis/brittany-broski)** — kombucha meme who turned getting fired into permission to be herself
 - **[Andrew Callaghan](/personality-analysis/andrew-callaghan)** — ran toward chaos to avoid sitting with himself
@@ -91,8 +90,6 @@ Every 7 in this study had a specific pain they were outrunning. Not general disc
 [Theo Von's](/personality-analysis/theo-von) was everything cocaine was hiding. His father was 68 when Theo was born and died when he was 16. Theo was emancipated at 14. The drugs stole his voice: "The main gift God had given me was my voice. And I couldn't use it." Recovery required the one thing a 7 resists most: **stopping**.
 
 [Tim Dillon's](/personality-analysis/tim-dillon) was his own identity. Twelve years as a closeted gay cocaine addict performing a version of himself that wasn't real. He woke up in a nest of egrets after being thrown from a boat blackout drunk. That surreal rock bottom pushed him to sobriety, coming out, and his first open mic.
-
-[Doja Cat's](/personality-analysis/doja-cat) was her absent father. Dumisani Dlamini left when she was young. "He abandoned us." That wound created a classic pattern: _you can't count on others for fulfillment, so manufacture your own joy._ Her breakthrough came when she started therapy twice a week and solo-wrote every song on _Vie_.
 
 The pattern isn't "face all your pain." It's sharper than that: **identify the ONE pain driving all the running. Then stop running from that one.**
 
@@ -167,8 +164,6 @@ Reframing says: "That wasn't so bad." Using says: "That was terrible. And it's t
 ## Pattern 6: You Went Deep When Everything Said Go Wide
 
 This is the growth path, integrating toward [Type 5](/enneagram-corner/enneagram-type-5), in action. Instead of chasing more experiences, you develop the ability to _go deeper into fewer_. Hardest move. Most profound breakthroughs.
-
-[Doja Cat](/personality-analysis/doja-cat) went from genre-hopping pop star to solo-writing every song on _Vie_, her highest-rated album. "I didn't used to write as myself. I used to write as what I thought was appropriate and what I thought was going to be eaten up." Therapy twice a week. One producer (Jack Antonoff). Full creative ownership. The scattered explorer became a focused artist.
 
 [Paul Graham](/personality-analysis/paul-graham) spends two weeks on a single essay, rereading drafts 50 times. From the man who jumped from philosophy to CS to art to startups, that sustained attention represents a different kind of freedom: not the freedom to do anything, but the freedom to do one thing _completely_.
 
@@ -250,7 +245,7 @@ It didn't trap them. It freed them.
           "name": "What is Type 7 integration toward Type 5?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "In Enneagram theory, Type 7s grow by integrating toward Type 5 (The Investigator). This means developing the ability to focus deeply on fewer things rather than scattering energy across many. Examples include Palmer Luckey focusing on defense tech at Anduril, Doja Cat solo-writing her album Vie, and Paul Graham spending weeks refining single essays."
+            "text": "In Enneagram theory, Type 7s grow by integrating toward Type 5 (The Investigator). This means developing the ability to focus deeply on fewer things rather than scattering energy across many. Examples include Palmer Luckey focusing on defense tech at Anduril and Paul Graham spending weeks refining single essays."
           }
         },
         {

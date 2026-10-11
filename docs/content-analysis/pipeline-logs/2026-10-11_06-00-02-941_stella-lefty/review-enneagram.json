@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "c6130d84898b67d78dee56a586e9154c8f62980fa96bda919b01bf2fc8eadd49",
+  "evidence_sha256": "edb320228512c4d5ad71fef8f0583f393fb4cb360bfbfae4789f47c4acacbfcc",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "So one sequence appears twice in about eighteen months. Someone tells her what she is or what to make. She bristles or complies. The firm answer arrives late.",
+      "problem": "The pattern that carries the leading read is built with an 'or'. With the publisher she resisted at once and later agreed with the outside voice. In Los Angeles she complied at once and later rejected it. Those are opposite moves, and the first is not 'going along'; immediate bristling is, if spoken aloud, mild evidence against a conflict-shy Nine (C07 notes it may only have been thought). Counted strictly, comply-then-reassert has one well-documented instance (the Los Angeles year, retold in five interviews) and one thin one (the tour silence, read through an outlet). The Kahan credit is a concession with no later reassertion. Yet the 60-word answer and the type FAQ say she 'repeatedly describes going along ... then reasserting herself later', which presents a retold story as a recurring behavior, and the closing 'at least twice ... she went along anyway' counts a different pair from this paragraph.",
+      "acceptance_test": "The pattern is defined in one direction (comply first, reassert later) and the article says which dated episodes fit it, which only partly fit (Kahan: concession, no reversal) and which do not (publisher). The same count appears in the body, the 60-word answer, the type FAQ and the closing paragraph. The publisher episode is presented as immediate resistance followed by later agreement, with a note on whether the record shows she said it aloud, and is offered as late self-knowledge or as counterevidence to conflict-avoidance, not as an instance of going along. No sentence uses 'repeatedly' for one episode told several times."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "What weighs against Six is how little she questions or justifies herself under attack.",
+      "problem": "The draft concedes the main pattern does not separate Six from Nine, then ranks Seven as the strongest alternative and gives Six half a subsection. On the quoted record Six explains more than Seven: lifelong terror of a live listener, the belonging worry, a side account for things she is 'not so sure about', reliance on a trusted few, leaving first, and naming the advice when it went wrong. Her own reasons for the central episode are fear and belonging ('because I wasn't from the South', 'it really got in my head', and, per C41, 'I was afraid' about holding back the country song, which the draft leaves out), so 'cannot yet show what that accommodation protects' understates what she has said. The one counter to Six fails on the draft's own terms. It rests on the press-managed register the article calls 'ordinary media advice'. It is contradicted by quoted self-doubt and self-explanation ('Do I have to be?', 'i was a stupid teenager', 'I was advised not to', 'I wasn't thinking about Noah Kahan'). And it assumes a Six argues back, when quick appeasement of a perceived threat is equally Six. Seven's leave-first evidence comes with a fear reason ('so afraid of love'), not the 'leaves when it stops being fun' reason the article's own Seven definition requires, and it is counted again under Six.",
+      "acceptance_test": "Either Six is presented as the strongest or co-strongest alternative, with evidence for and against at the same depth as Seven, and the 60-word answer, FAQs, anchors and the evidence record's alternative_type and alternative_case agree with the article; or the article states a sourced observation that makes Seven outrank Six. In both cases: the anti-Six sentence is replaced by a counter that survives the article's own press-cycle caveat, or by a plain statement that nothing firm yet favors Nine over Six. Her stated reason for going along in each episode (belonging and fear in Los Angeles, 'step on anybody's toes' with Kahan, advice on the tour) is set beside the read it favors. Evidence used under two reads is acknowledged as shared. 'I was afraid' is printed only after checking the S13 wording and what it refers to. Net length does not grow."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "Three rests on the metric-watching and on a turn toward country that ended where the numbers were. Against it stand her first wish to work unseen and how readily she gave up credit on her biggest song.",
+      "problem": "Two sentences for a read the article calls live, and both counters are ones the article has already weakened. It calls the Kahan credit prudent in the previous section, and an image-minded Three would also credit early to avoid a public dispute. The wish to work unseen sits beside Rolling Stone's superhero caveat, years of posting herself and 'I wanted it all so badly.' The best Three evidence is in the article but is not weighed here: guessing 'the smiling one will do better', 'TikTok decides', singing whatever was 'going viral', and becoming what advisers wanted, then what the audience wanted. The one ordering fact that bears on Three versus Nine is missing: per C42 and C46 she places the decision ('right after Christmas') before 'Thinking 'bout You' went viral 'at the top of this year'. The pop year had also already failed ('very low views'), so her reassertion has never been observed against a direction that was working.",
+      "acceptance_test": "The Three paragraph, still brief, weighs the take-testing and 'going viral' evidence, drops or qualifies the two counters the article itself undercuts, and states the order of decision and viral response as she gives it, labeled as her account with its limit (weeks apart, told afterwards). It names the missing test in reader language: no episode yet shows her taste and the numbers pulling apart. Settle signal 4 is tied to that condition."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "A Nine would describe going along with something she disagreed with until she could not. A Six would describe lost trust in her advisers. A Seven would describe feeling boxed in. A Three would describe a step up.",
+      "problem": "The settle keys score surface statements, and these statements will be prepared ones. 'A step up' is the stock line for any management change, and a reply to copying claims will be shaped by lawyers; the article itself says declining to fight critics is ordinary media advice. In signal 1 the Nine and Six answers are one event described twice (going along with advice she disagreed with is lost trust in advisers), and her existing tour statement, 'I was advised not to which was a mistake', already satisfies both. Signal 2's key, applied to the record in hand, already returns three answers (quiet Kahan credit: Nine; calling the SNL sketch funny: Seven; 'pride myself so much on being original': Three) and only the last is acknowledged. 'A joke' as Seven and 'a defense of her originality' as Three are behavior stereotypes; any accused songwriter defends originality. Signal 4 drops its type labels and reuses 'what she likes in the car', a phrase the article has attached to both Seven (happy in the car) and Nine (the same song for hours). No signal is aimed at the closest pair, Nine and Six.",
+      "acceptance_test": "Each signal says what kind of evidence would count (an unscripted long-form account, named third-party testimony, or a choice that costs her something) and that prepared statements will not be scored as type evidence. One signal is added or reshaped to separate Nine from Six: when she explains going along, does she describe not registering what she wanted or not thinking it worth the friction (Nine), or doubting her own judgment and wanting backing (Six); and after the management change, does she settle into her own course or stay watchful about whom to trust. Signals 2 and 4 either state what the existing record already returns under their own key or are rewritten so the key is not already triggered three ways. Type labels match the type sections. The evidence record's open_case.settle_signals matches the article."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "minor",
+      "passage": "Told afterward about her capacity crowd, Lefty said, \"I just need to go home and write more songs!\"",
+      "problem": "Parts of the Nine case are trait resemblance or point the other way. This reply is filed under 'supports the calm', but its content is more output after a peak, which is the appetite the same section lists against Nine. Replaying one song and feeling most herself at home are at least as much security-seeking (Six) as comfort (Nine). And one habit is used for two reads without comment: finding out what she feels by writing (Nine section) and writing instead of examining why (Seven section).",
+      "acceptance_test": "The 'write more songs' line is moved to the appetite side or its ambiguity is stated. Familiar tastes are offered, at most, as weak evidence against Seven and not as motive evidence for Nine. The two statements about writing appear together as one habit with two self-explanations, and the article says it does not discriminate."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "Seven fits how she describes herself.",
+      "problem": "The Seven case rests on mood vocabulary (fun, happy, 'a fun tired') that is also the pitch for upbeat country-pop in every interview. The evidence record says so (C21), but the draft gives Nine's evidence a limits paragraph and Seven's none. The record's more Seven-specific behavior, keeping options open ('I will not pick a lane'), is in the article but is not weighed under Seven.",
+      "acceptance_test": "The Seven section states the promotional-register limit in a clause and rests its case on option-keeping behavior more than on mood words, or is shortened to fit the ordering decided under enneagram-02. Nothing is added that the evidence record does not hold."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "She says only that one listener is harder than thousands.",
+      "problem": "The record may hold more than this states. In the same Snapchat video (S13, about 03:33) the next line, 'With one person, you're like, oh my god, do you hate me?', cannot be assigned to her or the host from captions. If it is hers, it is her own account of what the fear is about, the most type-relevant motive statement on the Nine versus Six question, and 'says only' is inaccurate. S08 also records her asking Marcus Mumford whether he still gets nervous, a reassurance-seeking detail on the Six side that goes unused.",
+      "acceptance_test": "Either the speaker of the S13 line is resolved (a human listen or a speaker-labelled transcription) and the article reflects the result, using the line with attribution and weighing it under Nine and Six if it is hers; or 'says only' is narrowed to what can be firmly attributed to her and the audio check is recorded as an open research task. No caption line is quoted as hers without that check."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "In the Enneagram, a nine-type model of core motivation, saying yes can come from four different places.",
+      "reason": "This sentence and the four one-line motives after it turn one behavior into a motive question. That is the right test for this record, it is specific to her, and it lets a reader with no Enneagram background follow the whole comparison."
+    },
+    {
+      "passage": "A Seven who felt boxed in by advisers would be expected to move on fast. She stayed about a year.",
+      "reason": "The one place a rival read is tested against a costly, dated behavior instead of a trait. Keep it whatever happens to the ordering of alternatives."
+    },
+    {
+      "passage": "Appetite on that scale, and posting through her friends' objections, do not fit an easygoing, conflict-shy picture.",
+      "reason": "Counterevidence to the leading read stated plainly and left standing. No wing, arrow or subtype is brought in to absorb it."
+    },
+    {
+      "passage": "Nearly every accommodating act also has a practical explanation.",
+      "reason": "Names the non-type explanation (prudence, age, media advice) beside the type one. This is what keeps low confidence honest."
+    },
+    {
+      "passage": "This profile does not use them as evidence of her character or her type.",
+      "reason": "Keeps unproven allegations out of the typing. Any edit to the settle signals should respect it."
+    }
+  ],
+  "assessment": "Open-case eligibility holds: an adult (24), first viral single in January 2026, 33 opened sources including nine interview transcripts, four types tested, and no observation that separates the leading read from its rivals. No blocker. At least two known long-form interviews from the same campaign were not transcribed; that is a limitation, not a skipped deep record.\n\nThe typing is honest in register. Confidence is low in the title, description, answer and FAQs. No wings, arrows or subtypes are used to patch contradictions. Counterevidence and practical explanations sit beside each accommodating act. The weaknesses are in the comparison. The pattern that carries Nine is defined with an 'or' and counts a retold story as recurrence (01). Six, which the draft admits the pattern cannot separate from Nine, is ranked below Seven and dismissed with a counter the draft's own caveats undo, while her stated reasons for the central episode are fear and belonging (02). Three is token and omits the order of decision and viral response (03). The settle signals score prepared statements with stereotyped keys and none targets Nine versus Six (04). Nine remains defensible as a loosely held lead, at near parity with Six. I do not recommend changing the leading type, so major_thesis_change is false. Two (accommodating to stay liked) is the only outside type with a foothold, and it depends on the unassigned S13 line; worth a sentence at the next refresh, not now.\n\nSimilarity: the advisory did not trip (top score 0.046, at the corpus noise ceiling). I compared the closest lead, Victoria Justice. Both rest a Nine read on a young singer making music the industry asked for, but this draft adds the later refusal, declines to name the motive and tests three rivals. 'Going along' is ordinary type vocabulary. No reuse finding; the overlap is one more reason not to let compliance default to Nine.\n\nLimits: I did not open sources. Points about material outside the draft (C41 'I was afraid', the C42 and C46 ordering, the S13 and S08 details) rely on the evidence record and need a source check before anything is printed."
+}

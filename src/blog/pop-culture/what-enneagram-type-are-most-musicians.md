@@ -162,7 +162,7 @@ Type 4 owns the category, but it does not run it alone. Four other types show up
 
 **Type 3, the Achiever (20.9%).** The second most common type, and the only other one that over-indexes in music. Where a Four asks "who am I," a [Type 3](/personality-analysis/type/3) asks "am I winning." Their art doubles as career architecture. [Taylor Swift](/personality-analysis/taylor-swift), [Drake](/personality-analysis/drake), and [Dua Lipa](/personality-analysis/dua-lipa) run a discography like a portfolio to be optimized, and they are extraordinarily good at it.
 
-Then come the **Type 7 Enthusiasts (11.9%)**, the reinventors. Sevens fear being pinned down, so they mutate. [Doja Cat](/personality-analysis/doja-cat) and [Kanye West](/personality-analysis/kanye) treat a fixed identity as a cage and keep breaking out of it, sometimes gloriously, sometimes in public wreckage.
+Then come the **Type 7 Enthusiasts (11.9%)**, the reinventors. Sevens fear being pinned down, so they mutate. [Katy Perry](/personality-analysis/katy-perry) and [Kanye West](/personality-analysis/kanye) treat a fixed identity as a cage and keep breaking out of it, sometimes gloriously, sometimes in public wreckage.
 
 **Type 8, the Challenger (10.4%).** The force-of-nature performers. Eights turn the stage into a seat of power, and the corpus's Eights read like a roster of women who took the room instead of asking for it: [Beyoncé](/personality-analysis/beyonce-knowles), [Rihanna](/personality-analysis/rihanna), [Nicki Minaj](/personality-analysis/nicki-minaj), and [Chappell Roan](/personality-analysis/chappell-roan).
 

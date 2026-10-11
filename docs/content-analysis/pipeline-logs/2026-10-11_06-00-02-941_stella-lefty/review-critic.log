@@ -1,0 +1,15 @@
+The critic review is written to `review-critic.json` and passes the pipeline's `reviewSchema`, with both hashes matching the frozen draft and evidence. It has eight findings (five major, three minor), five protected passages and no blocker; no other file in the repo was touched.
+
+Open-case eligibility holds, and the type language in the title, description and type answer is suitably low. The problem is which facts the draft treats as settled. The five major findings:
+
+- **critic-01, the central pattern:** "one sequence appears twice" joins two episodes that run in opposite directions (she resisted the publisher and later agreed; she complied in Los Angeles and later reversed). The draft also says the publisher story has two versions when Vanity Fair gives a third.
+- **critic-02, the pop year:** the heading, description and Type 7 FAQ state "music other people wanted" as fact. Her earliest telling has her pivoting on her own, and Vanity Fair treats the low views as the reason for the turn, not its cost.
+- **critic-03, Type 3:** the reading closest to what her critics say gets two sentences, and both points against it are ones the draft has already discounted. The page does not show why it ranks below Type 7.
+- **critic-05, the "hidden songwriter" story:** Rolling Stone, the draft's main source, reports she played in-person gigs as a duo called Stella + Huck. The draft omits this and lists "she hid her singing from rooms for years" among what "should stand".
+- **critic-06, the wealth criticism:** it is answered in its weakest form. The New Yorker's line about unanswered financing questions, from August 5, is reused as a comment on posts written weeks later.
+
+The three minor findings cover the Type 6 rebuttal (contradicted by the draft's own quotes), the tour apology taken at face value, and a settle signal that has already fired in both directions.
+
+Risk flags are sensitive allegations and contested typing, both true; the other two are false. The similarity advisory did not trip and I report no reuse.
+
+To test these I reread the research-stage text copies of eleven sources in `/tmp/stella-lefty-research`. I did not open live pages or listen to audio, so the two caption quotes I cite (Snapchat and MuchMusic) are unverified by ear. I did not read the other reviews. My scratch scripts are in `/tmp/stella-lefty-critic`.

@@ -1,0 +1,17 @@
+The subject review is written to `review-subject.json` and passes the schema; both hashes match the request and every quoted passage matches the frozen draft exactly. It raises three major and five minor findings, so the edit stage has to resolve the three majors before release.
+
+**Major findings**
+- **BPD link:** "That is her own explanation of this cycle" states as her position a connection she is not on record making. She called the cycle "my condition" without naming it in October 2025; identifying that with her March 2026 "struggling with BPD" statement is the profile's inference. The research notes also barred explaining her outbursts with it.
+- **Tinychat FAQ:** the answer names two allegations (the chat room and the 2015 song) but gives her response only to the first. Her denial of taking part in racist conversations and her account of the song are missing, and no source excerpt in the evidence record carries them.
+- **"The sequence repeats":** the Threads and Auckland episodes show no appeasement or repair on the cited sources, and the Instagram exit shows no outburst. The title ("Every Blowup") and the fan-fight FAQ generalise the same way.
+
+**Minor findings**
+- The Dr. Luke FAQ makes her follow-up email read as a retreat from "I don't think I need to work with him again"; it actually clarified a different remark about credits.
+- The "I'm lonely" quote comes from auto-captions only, is missing from the pre-release listen list, and the record does not say what "It" refers to.
+- "Her breakthroughs … mostly happened to her" rests on one breakthrough story and a remark about travel.
+- "Struggles to refuse a hug" asserts the hug was unwanted; her own account puts the trigger at the clip going viral.
+- The fever-scene goodbye is counted as an instance of the pattern when it may just be politeness while ill.
+
+Risk flags are set to sensitive allegations, contested typing and major thesis change. Five passages are protected, including the father-dispute sentence and the "nothing here is a diagnosis" disclaimer. The similarity trip is just the stock phrase "keeps the peace", so there is no reuse finding.
+
+I reviewed against the evidence record only and opened no sources, as this role requires. To run the validation I briefly created a temp script under `scripts/` and deleted it; no other files were changed and nothing was published.

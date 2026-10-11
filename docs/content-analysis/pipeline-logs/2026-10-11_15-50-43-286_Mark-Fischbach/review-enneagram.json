@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "d84f3588771e062e43e6daadb43d2a2b4a12833268f413005adabe2fd636e8e1",
+  "evidence_sha256": "c449879c8f33ba401d03284330187d8d5280a127b306cb70e57be5e3493d9908",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "blocker",
+      "passage": "enneagram: 1",
+      "problem": "This page types Mark Fischbach as Type 1 while, per the draft's own production blocker and the first research task, the site already has a live Markiplier profile typing the same person as Type 7. Two pages for one person with different core types is a typing contradiction that no edit to this draft can settle.",
+      "acceptance_test": "The duplicate_subject blocker stays in production_pretext and is recorded as unresolved in resolution-edit.json until DJ chooses between one retyped Markiplier page (rerun as Markiplier --refresh --expanded-review) and a confirmed separate legal-name page. No edit clears it, and no release leaves two live pages with different types for this person."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "Type 1 is the read here because of where he places the judge.",
+      "problem": "Judging oneself hardest is said by driven Threes, Fours and Sixes as readily as by Ones, so where the judge sits cannot carry the type unless the article says what the judge measures. In context (S15, 09:11-09:41) the line answers the exposure of being on camera. He frames it as 'ego' and 'doubt' and 'I don't want to suck at it', says 'all of us feel that', and finishes the 'guiding star' as 'I believe in myself enough to make up for the shortcomings that I know are there.' That is a statement about competence and confidence, and the draft's quotation stops before it. The inward-judge statements all date from 2022 and 2026, and the Slate one answers 'Does it matter to you if critics don't necessarily love it?' after mixed reviews (S18) that the article never mentions. Earlier he placed the verdict outside himself: 2014 ('so many people are judging what I do', a clause the draft's quotation of that sentence drops), 2015 (fear that viewers would abandon him) and 2017 ('I'm afraid of disappointing you guys'), which also contradicts 'Strangers do not reach this judge.' With the 2015 thanks for 'continuing to believe in me' and the 2026 tears, being backed by the audience is a twelve-year thread, not the single leftover the Type 2 or Type 6 paragraph calls it.",
+      "acceptance_test": "The section says what the standard measures (right, fair, honest versus good enough or impressive) and supports it with at least two sourced, dated statements or choices about rightness, not effort. It quotes or accurately summarizes the full 'guiding star' sentence, restores or accounts for the dropped 2014 clause, says the inward-judge statements begin in 2022 while the 2014-2017 statements point at the audience, and gives the Slate question and the film's mixed reception as context. 'Strangers do not reach this judge' is reconciled with 2017 or removed. If the record cannot support this, judge location is no longer given as the reason Type 1 leads, and title, meta_title and persona_title follow."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "What neither business nor optimism explains is the voice he describes. Something in him scored a break taken for a death as time he should have been working.",
+      "problem": "The quotation is cut before its object. In the cached captions of S04 (01:32-02:03) the thought runs 'you should really probably be recording something right now people are probably losing their mind', then straight into 'you guys haven't like abandoned me like was one fear in my mind' and the 'collapsing down' line. The voice is about how the audience is reacting, which is the fear the paragraph has just assigned to business. It is not a second, unexplained datum, and nothing quoted shows him judging the break itself as wrong. Fear of being dropped and of collapse is security or approval evidence (Type 6 or Type 3), not a One's verdict, yet the section heading and C58 treat it as the inner critic.",
+      "acceptance_test": "The quotation runs through 'people are probably losing their mind' or the sentence is paraphrased with that content. The paragraph no longer says the voice is unexplained by audience fear. The streak counts toward an inner standard only if a sourced statement shows him judging the missed uploads as a lapse in itself. The heading and C58 are revised to match."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "Fischbach keeps choosing the limit and staying in it. He kept a daily streak for more than three years by his account, deleted a channel because he had said he would, and held a film to one room.",
+      "problem": "None of the three limits separates a One from a Seven as written. The deletion: a side channel announced with a one-year expiry is a commitment with the exit built in, which suits a Seven, and his main channel was never at risk. His own stated purpose, in the record but not the article, is not rule-keeping: 'an exercise in letting go ... making the most of the time that you had' (S15, 25:35), tied to losing friends and family. It still counts against Type 3. The film: he told Slate 'I was naive and thought, Oh, one room will be an easier movie' (S10, 11:44), the rule came from the game, and he says he kept making YouTube videos 'the entire time' because streaming is 'freeing' and fun (S09, 14:35). 'The point is the monotony' describes what the film depicts, not conditions he chose for himself. The streak: see enneagram-03. The evidence record's own alternative for C57 says a Seven learning depth could produce this record.",
+      "acceptance_test": "Each limit kept in the discriminator carries its strongest non-One explanation beside it, including his 'letting go' account of Unus Annus, the 'easier movie' admission and the parallel YouTube work. The deletion is used against Type 3 only, or the text argues why a pre-announced one-year project counts against Seven. The paragraph names a behavior the Seven reading predicts would not occur and shows it occurring, or it states that these limits do not separate the two types."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "When he reframes pain, it is to justify staying. Describing a biopsy he was awake for, he told Padilla, \"this pain is necessary, this pain is actually essential to me getting better.\" And finishing brings him release more than satisfaction, followed within days by the judgment that it was not his best.",
+      "problem": "Both closing proofs misread their sources. The biopsy line is about a medical procedure he could not leave, and 'getting better' there means recovering. In the same answer (S08, 02:33-03:36) he gives the consoling kind of reframe the article assigns to Sevens: learning he had already had most of his possible time with his father was 'the most comforting thing I've ever heard'. The record flags this under C17 and the article omits it. On satisfaction: in the stream where he says 'this isn't the best I can do' (S09, 14:05-15:38) he also says 'I'm proud of what I made' and 'I have something that I can respect about myself', says he has smiled more that weekend than in a long time, and continues 'I got years before I'm going to show you the best that I can do'. On Lemonade Stand (S11, about 1:08:40) he says he is 'happy where it is and I'm not regretful of any of the decisions'. That is ease with a flawed result, which the record's own 'against' field lists as unlike a One and the article leaves out. 'Within days' also joins the undated night he finished the film to a stream four days after the opening.",
+      "acceptance_test": "The reframing claim rests on at least two non-medical instances or is withdrawn, and the father reframe appears as counterevidence. The satisfaction sentence is replaced with what the stream and Lemonade Stand show: pride, no regret and a forward promise. The article says his ease with the film's flaws cuts against Type 1. 'Within days' is dated from a source or removed."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "major",
+      "passage": "The Seven reading explains things the One reading does not. By his own account he starts on impulse, jumps between ideas, plans lightly and is impatient.",
+      "problem": "The Seven case is built from working-style traits, while the record holds motive-level evidence for it that the article omits or files under Type 1. Asked directly 'So, what does drive you?' he answered: 'I am horribly addicted to the cycle of making things and pushing myself ... I just like seeing how far I can go. I love the feedback loop of I did a thing. I accomplished this' (S10, 23:25), and he repeats 'addicted to the cycle of making' in S15. That is appetite language answering the article's own question, and it is not in the claim inventory. The origin story is a story of confinement: 'I didn't have an escape' twice, 'mind-numbing' jobs, a hospital bed, then 'I was going to do what I wanted' (S01). The article defines a Seven as moving 'away from confinement and pain', yet 'The channel's origin story uses the same vocabulary' files that story beside mastering anger because both use the word control. Self-restraint and freedom to do what one wants are different motives. And 'if I'm not getting better, then I'm not happy' sits between 'a new mountain to climb' and needing a project so big it scares him (S11, about 1:08:40), so the record does bear on whether 'better' means 'next'.",
+      "acceptance_test": "The 'what does drive you' answer is quoted with its question and added to the claim inventory. The origin story is presented as evidence for the Seven reading, or its placement under the inherited standard is argued, and 'the same vocabulary' is removed. The 'better' quotation carries its context. The article then says plainly whether the One reading still explains the costly choices better, and why."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "major",
+      "passage": "a motive built on winning explains less than it should.",
+      "problem": "The evidence record calls Type 3 'closer in motive' than Type 7, but only Seven gets a discriminator. Three is answered with a list of things given up, and each has a Three reading: the deleted channel was the event and left the main channel intact; the film was made, in his words, 'to win and to gain some respect' at 'the pinnacle of an art form'; refusing endorsements protects what he calls 'a reputation of quality' (C52); charity builds standing. The record holds more for Three than the article shows: 'I see my own self-worth in what I make and that's why I always have to push myself to make more' (S08, 22:30), 'prove people wrong' (S06), 'I want to succeed' (S11), the twice-mentioned Emmy loss (S10) and 'I did a thing. I accomplished this' (S10). The 2017 'top of the hill' problem is also a Three's arrival problem, and the article tests that night against Seven only.",
+      "acceptance_test": "The article states one sourced discriminator between One and Three: a dated choice where doing it the way he thought right knowingly cost him reception or standing (defending the slow opening against the commercial fix is a candidate), weighed against the evidence listed here. If none holds, Type 3 is named as a live alternative beside Seven in the type answer, the type FAQ and the evidence record, and confidence is lowered."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "If he keeps the final cut and the long hours, the pattern holds.",
+      "problem": "The stated test measures autonomy and effort, which a Seven (no fences), an Eight (control), a Three (owning the win) and a Four (the vision) would keep as well. It cannot fail for the rivals, so a later refresh would confirm Type 1 on evidence that does not discriminate.",
+      "acceptance_test": "The test is tied to the discriminator: for example, whether collaborators describe him correcting and redoing work that misses a standard versus moving on to the next idea, or what he does when the right way and the well-received way diverge. The final-cut test stays only as a test of the control strand and is labeled as that."
+    },
+    {
+      "id": "enneagram-09",
+      "severity": "minor",
+      "passage": "What he did next is the part a Seven does not do.",
+      "problem": "Absolute, stereotyped typing. Sevens finish long, constrained projects, and the record's alternative for C57 says so. '_Iron Lung_ started the way a Seven starts things' has the same problem in reverse: a cold message to a rights holder is how anyone acquires rights, and Szymanski says Amy Nelson had advised on the approach (C56).",
+      "acceptance_test": "Both sentences are rewritten as claims about this record, without saying what a type always or never does. The cold message is offered as Seven evidence only if the Nelson detail is given with it."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "These are a son's words about a dead parent, drawn out by a leading question, and \"half-ass\" is a common phrase. They show the standard he claims and where he says he got it. They do not show that his father's death produced it.",
+      "reason": "States the inference limit at the exact point where a childhood-wound story would be easiest to write. It keeps the father material as a claimed standard, not a cause."
+    },
+    {
+      "passage": "A One usually knows what ought to be done and suffers over not doing it. On this night Fischbach did not know.",
+      "reason": "The article names a night its leading type does not explain and says so in two plain sentences. This is what a seriously tested alternative looks like."
+    },
+    {
+      "passage": "He attributes the idea-jumping to ADHD, which describes attention and says nothing about motive either way.",
+      "reason": "Refuses to turn a self-reported condition into type evidence for either side. Precise about the difference between attention and motive."
+    },
+    {
+      "passage": "All of that is self-report, told after the film had succeeded, when hardship reads as heroism. No account from Nelson was found.",
+      "reason": "Marks the costliest evidence as retrospective self-report and names the missing witness, right beside the claim it limits."
+    },
+    {
+      "passage": "[Type 3](/enneagram-corner/enneagram-type-3), a motive built on success and image, is closer than it first looks: his worth is tied to what he produces.",
+      "reason": "Concedes the rival's real strength in motive terms. Keep it and build the Three test on it (see enneagram-07)."
+    }
+  ],
+  "assessment": "The draft does the hard parts of honest typing. It gives the alternative its own section, states inference limits where they apply, holds its confidence to medium in words, and uses no wing, arrow or subtype to absorb contradictions. Keep all of that, and do not bring in the line connecting One and Seven during editing to reconcile the Seven evidence.\n\nThe type argument itself does not yet hold. I checked the thesis-bearing quotations against the cached caption text from the research run (S01, S02, S04, S08, S09, S10, S11, S15). These are machine captions, not a human listen, and S08 has no speaker labels. Four passages the discriminator rests on read differently in context: the 2015 'voice' is about the audience, the 'guiding star' is self-belief over doubt, 'getting better' in the biopsy line is medical, and the 'not the best I can do' stream is a happy one. Each of the three limits has a non-One explanation in his own words that the article omits. What is left is a core that does not discriminate (he works hard and judges himself hard) and a loose test against Type 3, which the evidence record itself calls closer in motive than Type 7.\n\nType 1 remains a defensible hypothesis. Its One-specific evidence is the rightness and fairness material: his father's code, anger he judged and restrained, 'right steps' and 'right choices', calling his income 'unfair' and giving it away, refusing rewards he had not 'earned', and holding to the game's rules against the commercial fix. A rebuilt argument should lead with that, not with endurance. On the record as it stands I would not call the confidence medium: One, Three and Seven are all live. He has more than a decade of public record, so the open-case format does not apply. If the discriminator cannot be rebuilt, the honest outcome is insufficient_evidence with the testimony tasks already listed. An edit that changes the leading type or promotes Type 3 to a co-alternative needs --refresh --expanded-review.\n\nSimilarity: the one tripped pair (aaron-pierre, 0.05, 'organized around') is ordinary definitional vocabulary inside different arguments, so there is no reuse finding. I compared only the snippets in the diagnostic, not the other drafts."
+}

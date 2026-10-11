@@ -1,0 +1,378 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Held, not cleared. The acceptance test's hold branch is met and nothing more: the duplicate_subject blocker is kept word for word in production_pretext.blockers, ready_for_production stays false, loc and person are unchanged, and the evidence status is now insufficient_evidence. I confirmed at edit that src/blog/people/drafts/Markiplier.md is live (published: true, enneagram: 7). No decision from DJ exists in the inputs, so the conflict itself is unresolved; it is the first research task and is recorded under prior_blockers."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "The paragraph now gives both sides from the same Deltia's Gaming report (the former head moderator's complaint that he had not reached out; his reply that he saw no attempt to contact him, only an inactive marker), uses no gendered pronoun, drops the one-sided direct quotation, and says the Reddit posts were not retrieved so neither account was checked. I reread the reply in the saved Wayback capture. 'No one who has disagreed with him at work is on record' became 'The search found no on-record account from ... anyone who has disagreed with him at work.' C37 is updated and reclassed disputed."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Checked against the saved captions for S04 and S03. The quotation now runs through 'people are probably losing their mind' and goes on to 'abandoned me' and 'an irrational fear'. The article says fear of being dropped 'may explain all of it' and labels the inner-standard reading 'this profile's inference, and a weak one'. The announcement is described as mostly about a friend, 'such a positive influence on a lot of people', with the editing standard 'among the things he praised'. 'Very beautiful' and the 'try harder' line were cut. C08, C10 and C58 are updated; C46 is removed."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "The biopsy quotation and the sentence 'When he reframes pain, it is to justify staying' are removed, and C17 is dropped. The biopsy is now mentioned only as the moment he says he learned 'my life was finite', which is his own statement about mortality and not type evidence about pain. The discriminator (C57) is rebuilt without it."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Confirmed in the S15 captions at 09:11-09:41. The paragraph now says he was talking about the judgment that comes with going on camera and gives the end of the sentence: what he called his 'guiding star' was 'I believe in myself enough to make up for the shortcomings that I know are there.' C26 is updated."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Confirmed in the S10 captions at 21:55-23:56. The 'hated myself' line is introduced as part of his answer to Slate's question about critics, and the next lines are quoted where the host asks what does drive him: 'I am horribly addicted to the cycle of making things and pushing myself' and 'I'm not a masochist. I just like seeing how far I can go.' New claims C79 and C87 cover both."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Confirmed in the S05 captions. The section now opens with his own statements that he is 'not depressed', 'happier than I've ever been' and 'not quitting', and the word 'crisis' is gone ('What he resolves to do'). New claim C82."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Reworded to 'he used the phrase he had used about his father'. Nothing attributes the phrase to his father or implies a deliberate echo. C28 is updated."
+    },
+    {
+      "finding_id": "subject-09",
+      "action": "fixed",
+      "reason": "persona_title is now 'The Showman With a Rulebook' (no superlative; the rulebook is the Unus Annus premise and the submarine rule). Title and meta_title are 'Mark Fischbach (Markiplier): The Rules He Says He Cannot Break', which attributes the claim to him ('I cannot break the rules', S11) and is 62 characters. The description says Type 1 'leads narrowly'."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Same repair as subject-03: the quotation runs through 'people are probably losing their mind', the article no longer says the voice is unexplained by audience fear, and C58 is reworded to call the inner-standard reading a weak inference."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "I read the first ten minutes of S09 in the saved captions. The paragraph gives the full title, reports that the stream opens by mock-solemnly celebrating a number-one daily ranking for that Monday, then gives the 'win condition' lines with 'That's a fun little haha achievement', and 'I'm proud of what I made' beside 'this isn't the best I can do'. 'He ranked it below the making' is removed. The Type 3 section says he enjoyed being number one, and the Slate sentence keeps the interviewer's 'tearing up about being number one'. S09's locator and context are updated."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "From S01 the section now reports his father's disagreement about games, the 'mind-numbing' engineering jobs and 'I didn't have time for games, I didn't have an escape', and the appendix and adrenal tumor in his own words. A new section, 'An escape story', says the origin story favors the Seven reading and why it is not the same as restraining anger. The biopsy reference now has an antecedent ('that tumor'). Claims C72, C73 and C75 are added and C06 is updated."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "The article now gives one sourced sentence on what followed the 2017 vlog (the tour, the 2019 and 2022 YouTube Originals, Unus Annus, the 2021 podcast with friends since sixth grade and college; S23) and his stated long-term aim ('slowly building my skills there over the past 14 years', S10). The Szymanski passage includes the earlier messages, Nelson's advice and the feature he was already considering. 'The way a Seven starts things' is withdrawn ('began quickly, though not on a whim'). The Type 7 section counts the spread of formats for that reading. C56 is updated; C83 and C84 are added."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "The 2014 quotation now includes 'so many people are judging what I do'. The judge section separates strangers' comments from the audience as a body ('The audience as a body has, for twelve years'), cites his 2014, 2015 and 2017 statements, and the remainder paragraph adds the 2015 thanks 'for continuing to believe in me' and says the thread 'limits the answer to who is checking: partly, the audience', with Type 2 and Type 6 named. 'The circle whose approval counts is small' is removed. For length I did not add 'you are the most important thing' or 'you guys saved me'."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "The opening quotes his stated purpose from S15 ('an exercise in letting go ... making the most of the time that you had'), and the judge section restores the mortality motive from S08 ('my life was finite'; C19 restored) and says urgency about limited time 'would explain his pace with no inner critic at all', so it competes with the inner-standard reading. 'Deleted a channel because he had said he would' is removed. Health details stay within his own statements; the heart-attack remark is not repeated."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "The second paragraph says in the article's own words that he became popular with playthroughs of horror games such as Five Nights at Freddy's, and the 2017 section lists the tour, the scripted YouTube Originals and the podcast. The comic persona now appears in the Type 7 section as something 'this profile cannot assign to temperament or to craft', and three on-page instances show it. The long friendships are used in the restlessness argument. This is shorter than the two or three sentences asked for, for length."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Same repair as subject-02: both the complaint and his reported reply are given from the same report, with the note that neither was checked at the source."
+    },
+    {
+      "finding_id": "fan-09",
+      "action": "fixed",
+      "reason": "The OnlyFans example is removed from the case against Type 3. 'I say no thank you' now carries his stated reason ('if I'm making something it's because I really love it'), and the paragraph notes that he sells his own clothing line. C15 is updated."
+    },
+    {
+      "finding_id": "fan-10",
+      "action": "fixed",
+      "reason": "The early-life paragraph now introduces his mother (met while his father was stationed in Korea), his brother Tom and Cincinnati, from S01, so the ending has context. The 2012 break with his mother is deliberately omitted: it is one side of a family dispute and the argument does not need it."
+    },
+    {
+      "finding_id": "fan-11",
+      "action": "fixed",
+      "reason": "Same repair as subject-08: 'the phrase he had used about his father'."
+    },
+    {
+      "finding_id": "fan-12",
+      "action": "fixed",
+      "reason": "Reworded to 'Most of the video is about a friend ... Among the things he praised was a standard.'"
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The opening now says 'The ending was also what the channel sold, and the final stream was its biggest event', gives his own account of the purpose as his (C69), and 'Nothing but the premise required the deletion' and 'because he had said he would' are removed. The judge section says a one-year expiry 'is a commitment with the exit built in'. C51 is rewritten."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "The 2015 passage reports the words after 'recording something right now' and says fear of being dropped may explain all of it. The 2014 clause is quoted. 'Strangers do not reach this judge' and 'The circle whose approval counts is small' are removed; the judge section dates the inward-judge account to 2022 onward and sets it against the 2014, 2015 and 2017 statements."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The Iron Lung section now reports 'I was naive and thought, Oh, one room will be an easier movie. Much harder' (C74) and that the rule came with the game. 'The part a Seven does not do' is removed. The one-room rule is no longer a leg of the discriminator as a limit; what remains rests on the quotation showing he wanted to break the rule and did not ('I would have loved to be able to cut away ... but that's not the game', C54)."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "The end of the 'guiding star' sentence is reported. The body gives the BBC's figures (61% on Rotten Tomatoes, two stars from Empire and The Guardian; C77) and says 'The 2026 statements answer questions about outside judgment, after mixed reviews.' Title and meta_title attribute the claim to him, and persona_title carries no superlative."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Confirmed in the S05 captions at 05:36-07:12. The section now reports the fear he calls 'my biggest fear' (losing 'even the possibility of feeling that again') and the remark about 'the rules', and distinguishes other people's conventions from rules he set himself. The paragraph weighs both against the two details that pull the other way and concludes the night 'belongs more to the Seven reading'. New claim C80."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "'The stance was not invented after the hit' is cut, along with the IGN line (which was about other filmmakers) and the 'I'd be okay with that' recollection; the IGN citation is removed from frontmatter. The stream paragraph says it opens by celebrating the ranking. The Type 3 section now weighs 'it's selfish a lot of it. I want to succeed', 'a reputation of quality' and 'prove people wrong' (C85)."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Confirmed in S08 at 22:30 and S09 at 14:05. 'It's also never good enough' is now followed by 'I don't look back critically on my past projects ... but it wasn't good enough'; 'this isn't the best I can do' sits beside 'I'm proud of what I made'; and his ease with the film's flaws ('happy where it is and I'm not regretful', C78) is named as counting against Type 1. 'Release more than satisfaction' is removed."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "The summary now lists three things that rest on more than his word (the deletion, the film, one confirmed donation) and the judge section calls the streak 'his own claim'. The sentence about reframing pain is withdrawn, and the consoling reframe about his father is reported as counterevidence (C93). C90 is added."
+    },
+    {
+      "finding_id": "critic-09",
+      "action": "fixed",
+      "reason": "Same repair as subject-02: his reported reply is given beside the complaint, attributed to the same report."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "By the end of the second paragraph the article says he is the YouTuber known as Markiplier, known for horror-game playthroughs, how large the main channel is, and that Unus Annus was a second channel whose deletion cost a year of daily work and 4.56 million subscribers while the main channel carried on. The infobox paragraph is gone: box office, budget and reviews now sit in 'Three years in one room' beside the result, and the wedding date sits with the postponed wedding, so both FAQ anchors land on their facts. Not met: the 'no net growth' condition. The move itself added nothing, but the article as a whole grew to 4,328 words because other findings required restored context."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Three sourced instances of the playful register are now on the page: the 'Tasteful Nudes' fundraising calendar, 'God, I sound good in these answers' placed directly after the solemn vow it undercuts, and the mock-solemn stream opening with 'That's a fun little haha achievement'. The Type 7 section points to the performer the reader has now seen. Not met: the request to stay near 3,556 words (see unfamiliar-01)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The paragraph now says he opened the stream by celebrating a number-one daily ranking for that Monday and then named a different win condition. The opening-weekend placement (a close second, NBC, February 2) and the Monday daily ranking (his stream, February 3) are kept distinct and dated."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The paragraph now says plainly that fear of being dropped 'may explain all of it', names the only signs of something more in words on the page (his own 'irrational' and the apology for silence that opens a death announcement), and calls the further reading a weak inference. The fear is glossed in his terms ('abandoned me', 'collapsing down')."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Same repair as subject-02. A newcomer can now say what each side claimed and that neither was checked at the source."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "The summing sentence now lists only what the preceding sections showed (the deletion, the self-financed one-room film, one $500,000 donation confirmed by its recipient, introduced in the opening), the count is three and matches, and the streak is given as his own claim elsewhere and not counted."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "'Five years later' is replaced by the film's release date and 'Nine years later' by 'On May 20, 2022'. A newcomer can now order the 2017 vlog, Unus Annus (started November 15, 2019) and the film from the article, with one sourced sentence on what followed the vlog and no claim that the vlog caused it."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "First mentions now carry short glosses consistent with the source records: 'the creator-hosted podcast Lemonade Stand', 'Anthony Padilla, a fellow YouTuber who hosts an interview series', 'the Slate podcast', 'a live panel of creators hosted by Colin and Samir', 'YouTube's blog'. IGN is no longer cited. The closing section says which sources are fellow creators, which is platform-owned and which are outside press. Quad Damage is identified only by its title as a podcast."
+    },
+    {
+      "finding_id": "unfamiliar-09",
+      "action": "fixed",
+      "reason": "The OnlyFans clause is cut. The calendar is explained as a fundraiser he called 'Tasteful Nudes'. The surgery and biopsy are explained in his own words (his appendix and 'a tumor the size of a fist in my adrenal gland') with no diagnosis inferred. The self-hatred line is introduced by Slate's question so the fragment parses, and it still stops before the words on which the two transcriptions differ. Not met: 'no net growth in length' (see unfamiliar-01)."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Held, not cleared. The acceptance test's hold branch is met and nothing more: the duplicate_subject blocker is kept word for word in production_pretext.blockers, ready_for_production stays false, loc and person are unchanged, and the evidence status is now insufficient_evidence. I confirmed at edit that src/blog/people/drafts/Markiplier.md is live (published: true, enneagram: 7). No decision from DJ exists in the inputs, so the conflict itself is unresolved; it is the first research task and is recorded under prior_blockers."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Judge location is no longer given as the reason Type 1 leads: the section says 'Where the judge sits cannot carry the type. What the judge measures might' (C92). It gives the full 'guiding star' sentence, restores the 2014 clause, says the inward-judge statements begin in 2022 while 2014-2017 point at the audience, gives the Slate question and the mixed reviews, and removes 'Strangers do not reach this judge'. What the standard measures is then argued from dated statements about rightness and desert, not effort: 'I haven't earned it yet' (2017), income he calls 'unfair' (2022), 'that's not the game. So, it can't be the movie' (2026). Title, meta_title and persona_title follow."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The heading is now 'The streak and the audience'. The quotation runs through 'people are probably losing their mind', the paragraph says the thought is about the audience and that fear of being dropped may explain all of it, and the streak is no longer counted toward an inner standard. C08 and C58 are revised."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "The article now states that 'The three limits this profile opened with do not separate a One from a Seven' and gives each its strongest non-One explanation: the streak answers to the audience, the channel's one-year expiry is a commitment with the exit built in and his stated purpose was letting go, and the film followed the game's rule, looked easier to him and left him streaming throughout. The deletion is no longer used against Seven. C57 is rewritten."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The reframing claim is withdrawn and the biopsy line removed; the father reframe ('the most comforting thing I've ever heard in my life', C93) appears as counterevidence. The satisfaction sentence is replaced by what the sources show: 'I'm proud of what I made' beside 'this isn't the best I can do', and 'happy where it is and I'm not regretful'. The forward promise ('years before I show you the best') was cut for length and is noted in C22. The article says a One's critic 'does not usually let a flawed film go as easily as he let this one go'. 'Within days' is removed; the night he finished is dated only as retold on May 17, 2026."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "The 'what does drive you' answer is quoted with its question and added as C87. The origin story has its own section, is presented as evidence for the Seven reading (C75), and 'the same vocabulary' is removed. The 'better' quotation now carries its context ('a new mountain to climb with movies', C86). The article then says plainly: 'The Seven reading explains more of what he says drives him. The One reading explains those refusals. That is a narrow lead.'"
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Resolved on the finding's fallback branch. I tested the candidate (keeping the slow opening he says a studio would have fixed) and it does not hold cleanly: the defense is retrospective, and nothing opened shows the mixed reviews turned on it. The article therefore says 'This profile found no clean test between One and Three, so Type 3 stays live', and Type 3 is named beside Type 7 in the type answer, the type FAQ, the description and the evidence record (C88). Confidence is lowered to low and the evidence status is insufficient_evidence with research tasks. The Three evidence listed in the finding is weighed on the page (C85). Naming Type 3 as a co-alternative needs --refresh --expanded-review, which the hold already requires."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The closing test now says final cut 'tests only the control strand' and names signals tied to the discriminator: collaborators describing him redoing work that misses a standard versus moving on, what he does when the right way and the well-received way diverge, and how he describes finishing. C67 and its trigger are rewritten."
+    },
+    {
+      "finding_id": "enneagram-09",
+      "action": "fixed",
+      "reason": "Both absolute sentences are gone. The film 'began quickly, though not on a whim', with Nelson's advice and the feature he was already considering given beside the cold message, and the article no longer says what a Seven does or does not do; the remaining comparison is worded as 'would more likely'."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Held, not cleared. The acceptance test's hold branch is met and nothing more: the duplicate_subject blocker is kept word for word in production_pretext.blockers, ready_for_production stays false, loc and person are unchanged, and the evidence status is now insufficient_evidence. I confirmed at edit that src/blog/people/drafts/Markiplier.md is live (published: true, enneagram: 7). No decision from DJ exists in the inputs, so the conflict itself is unresolved; it is the first research task and is recorded under prior_blockers."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The closing paragraph gives an as-of date from an opened source (Gizmodo, June 29, 2026: he had not chosen a next feature), says the final-cut outcome 'tests only the control strand', and names three observable signals tied to the Type 1 versus Type 7 question. C67's review_trigger names them; C41 is repurposed as the dated status with a recheck trigger. Whether a film has been announced since June 29 was not rechecked and is a research task."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Every statement about missing testimony is now scoped to this profile's search ('This profile found no one who knew him then on record'; 'the one outside witness to the work that this profile found'; 'The search found no on-record account from ...'), and the closing section gives one as-of date, October 11, 2026. The protected sentence 'The outside voices are few and warm' is kept and immediately scoped by 'That is what this profile's search had found as of October 11, 2026.' The absence is tracked as C91, unresolved, with a trigger naming whose account would reopen the confidence level."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The summing sentence now separates what rests on more than his word (the deletion; the self-financed one-room film; one donation confirmed by its recipient) from his own account. The streak is called 'his own claim' and the three-year figure is removed from both the body and the FAQ; C63 is dropped. The sentence is in the inventory as C90."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "All three intervals are gone: 'within days' is removed with the sentence it sat in, 'Five years later' is replaced by the January 30, 2026 release date, and 'Nine years later' by 'On May 20, 2022'."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Fixed on the finding's fallback branch: the box-office trackers were not opened at edit, so the as-of date is kept and the body and citations now link the permanent Wikipedia revisions that the 2026-10-11 retrieval returned (Iron Lung (film) oldid 1377060554; Markiplier oldid 1379210842, confirmed through the Wikipedia API). The subscriber and Unus Annus figures use the same permanent link. The C02 and C65 triggers now name events (re-release, new territory, home-release figures), and opening a tracker is a research task."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "Deliberate choice recorded: the quotation is kept and its source is described but not linked, because the article itself reports that he warned viewers against hosting copies. The URL is removed from frontmatter citations. The sentence carries an as-of date ('As of the same date that clip survived only as a fan re-upload'). C35 is retagged time_sensitive with a trigger to confirm retrieval at each refresh and cut or re-source the quotation if it fails."
+    },
+    {
+      "finding_id": "future-08",
+      "action": "fixed",
+      "reason": "No primary record was opened, so the claims are retagged: C61 (birth date) and C04 (date of his father's death) are now unresolved with a trigger naming the record that would settle the conflict with his statement that he was 18. No passage or FAQ states his age at the death, and the trigger warns a later edit against adding it."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "These are a son's words about a dead parent, drawn out by a leading question, and \"half-ass\" is a common phrase. They show the standard he claims and where he says he got it. They do not show that his father's death produced it.",
+      "action": "kept",
+      "reason": "Kept verbatim, directly after the father material and the 2026 'half-ass' line it limits. Protected by: subject, fan, critic, unfamiliar, enneagram."
+    },
+    {
+      "passage": "All of that is self-report, told after the film had succeeded, when hardship reads as heroism. No account from Nelson was found.",
+      "action": "kept",
+      "reason": "Kept verbatim as its own paragraph after the price he describes. Protected by: subject, critic, enneagram."
+    },
+    {
+      "passage": "He attributes the idea-jumping to ADHD, which describes attention and says nothing about motive either way.",
+      "action": "kept",
+      "reason": "Kept verbatim at the end of the Type 7 paragraph. Protected by: subject, enneagram."
+    },
+    {
+      "passage": "Fischbach says Szymanski shares in the film's profits, and Szymanski called himself \"the least unbiased source you could hear from.\"",
+      "action": "kept",
+      "reason": "Kept verbatim. The sentence introducing Szymanski was scoped to 'the one outside witness to the work that this profile found'. Protected by: subject."
+    },
+    {
+      "passage": "Nearly everything above is Fischbach describing himself, usually to friendly interviewers and mostly after a success. The outside voices are few and warm.",
+      "action": "kept",
+      "reason": "Kept verbatim. The next sentence scopes it to what this profile's search had found as of October 11, 2026, as future-03 required. Protected by: subject."
+    },
+    {
+      "passage": "Fischbach opened the video announcing the death by apologizing for his silence, \"considering I haven't missed a day's uploads since I started the YouTube channel.\"",
+      "action": "kept",
+      "reason": "Kept verbatim. The gloss that followed it in the draft ('What he chose to praise in his friend was a standard') was corrected; the detail itself is untouched. Protected by: fan, unfamiliar."
+    },
+    {
+      "passage": "Paralysis among too many options, a swing from tears to appetite within hours, and a life described as motion: this is what a Seven sounds like when the horizon runs out.",
+      "action": "kept",
+      "reason": "Kept verbatim. The second 2017 vlog it summarizes is still quoted ('I just can't wait to fail'; 'I'm never going to stop moving'). Protected by: fan."
+    },
+    {
+      "passage": "The record cannot fully separate \"better\" from \"next.\" If they are the same hunger, the Seven reading is stronger than this profile allows.",
+      "action": "kept",
+      "reason": "Kept verbatim. Its context sentence ('a new mountain to climb with movies') was added before it. Protected by: fan, critic, future."
+    },
+    {
+      "passage": "\"Okay, I don't hate it anymore. Go,\" he recalled on Slate. His mother, he told YouTube's blog, saw it with his cousin from Korea, loved it, and had one note: \"Don't do that again. No sequels.\" He had already told Slate what came next: \"Can't wait for the next one.\"",
+      "action": "kept",
+      "reason": "Kept verbatim as the ending. His mother and the Korean side of the family are now introduced in the early-life section, which is the setup fan-10 asked for. Protected by: fan, unfamiliar."
+    },
+    {
+      "passage": "A One usually knows what ought to be done and suffers over not doing it. On this night Fischbach did not know.",
+      "action": "kept",
+      "reason": "Kept verbatim. The concession to the Seven reading is now stronger, not weaker. Protected by: critic, enneagram."
+    },
+    {
+      "passage": "He also said that \"no one was really bashing down my door,\" so the independence was partly forced.",
+      "action": "kept",
+      "reason": "Kept verbatim beside the 'control freak' quotation. Protected by: critic."
+    },
+    {
+      "passage": "On November 14, 2020, Mark Fischbach and his friend Ethan Nestor sat in front of a computer in black and white suits, confirmed that they wanted to permanently delete a YouTube channel, and deleted it.",
+      "action": "kept",
+      "reason": "Kept verbatim as the opening sentence. Identity and the fact that Unus Annus was a second channel were added in the paragraph after it, not inside it. Protected by: unfamiliar, future."
+    },
+    {
+      "passage": "Paralysis among too many options, a swing from tears to appetite within hours, and a life described as motion: this is what a Seven sounds like when the horizon runs out. A One usually knows what ought to be done and suffers over not doing it. On this night Fischbach did not know.",
+      "action": "kept",
+      "reason": "Kept verbatim as three consecutive sentences. The sentences after them were rebalanced to weigh his 'biggest fear' and the remark about rules. Protected by: unfamiliar."
+    },
+    {
+      "passage": "[Type 3](/enneagram-corner/enneagram-type-3), a motive built on success and image, is closer than it first looks: his worth is tied to what he produces.",
+      "action": "kept",
+      "reason": "Kept verbatim, and the Three case after it was built out with his own statements as the enneagram review asked. Protected by: enneagram."
+    },
+    {
+      "passage": "He had said it four years earlier in different words.",
+      "action": "kept",
+      "reason": "Kept verbatim, still tying the June 2026 line to the 2022 Padilla statement. The 2022 quotation now runs on to 'I don't look back critically on my past projects'. Protected by: future."
+    },
+    {
+      "passage": "All of that is self-report, told after the film had succeeded, when hardship reads as heroism.",
+      "action": "kept",
+      "reason": "Kept verbatim (it is the first sentence of the kept two-sentence passage). Protected by: future."
+    },
+    {
+      "passage": "It is the strongest evidence for the other reading of him, so it gets its own section.",
+      "action": "kept",
+      "reason": "Kept verbatim; the 2017 vlog keeps its own section. Protected by: future."
+    }
+  ],
+  "prior_blockers": [
+    {
+      "blocker": "duplicate_subject: Mark Fischbach is Markiplier, and src/blog/people/drafts/Markiplier.md is already published as Type 7. This draft reads him as Type 1. DJ must either rerun as Markiplier --refresh --expanded-review or confirm a separate legal-name page before this draft is treated as production-ready.",
+      "resolution": "NOT RESOLVED and not cleared. This blocker was raised by the draft stage (the baseline is empty, so it is not inherited from an earlier published version) and is carried by three blocker findings (subject-01, enneagram-01, future-01). It needs DJ's decision, which no input records: either rerun as `Markiplier --refresh --expanded-review` so one URL carries one reading, or confirm a separate legal-name page with a plan that stops the two pages disagreeing on type. I verified at edit that src/blog/people/drafts/Markiplier.md is live with enneagram: 7. The blocker text is unchanged in edit.md, ready_for_production stays false, loc and person are unchanged, and this edit also lowers the evidence to insufficient_evidence, so the run should end as a hold. Nothing at this URL is publishable."
+    }
+  ]
+}

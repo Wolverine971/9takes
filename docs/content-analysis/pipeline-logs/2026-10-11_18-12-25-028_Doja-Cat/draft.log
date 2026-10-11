@@ -1,0 +1,27 @@
+The draft stage is complete: both output files are written and pass the pipeline's own checks (`checkDraft` reports no blockers, `validateEvidence` passes). Nothing else was modified and nothing was published.
+
+**What the draft is:** a rebuilt Doja Cat profile at Type 9, medium confidence, titled "Doja Cat: The Long Yes Behind Every Blowup." It runs 3,698 words with ten H2 sections, seven FAQs and all four recommended clips embedded.
+
+- **The argument:** she goes along first and erupts later, shown through the stage name she tried to change, the "cash-grabs" tweets, Paraguay and the June 2025 fan hug.
+- **Type 6:** gets its own section in her words, including where it wins.
+- **Type 7:** gets its own section on why the old read loses.
+- **Confidence:** written as medium, with the limits of the argument printed on the page.
+
+**Calls I made that you may want to veto:**
+- **TinyChat and Dr. Luke are in FAQ answers only, not the body.** The first draft ran 4,869 words against the 4,500 ceiling, and the argument doesn't need them. Both FAQ answers are attributed, and the TinyChat one carries Rolling Stone's "no evidence" finding and her denial.
+- **Kesha's lawsuit is not mentioned anywhere.** No opened source in the record states Dr. Luke's denial, so I left it out and flagged it for the editor.
+- **The BPD disclosure appears once**, dated and in her words, next to her "that's my condition" line, with a sentence saying the profile doesn't evaluate it or use it as evidence.
+- **Her father appears once, with his denial beside her account.** I cut the babysitter's household testimony, her 2024 and 2026 posts about him, and the Chalamet episode.
+- **I removed "the most common read of her online"** about Type 7; nothing in the record supports it. The page now says only that an earlier version of this profile typed her as a Seven.
+
+**Evidence record:** 83 claims (21 unused ones removed, 17 added for split quotes, interpretive steps and metadata) and all 63 sources retained. Four claims came out of the type hypothesis's supporting list, and its prose was adjusted to match.
+
+**Still open for later stages:**
+- All 118 quotations in the body were machine-matched against the saved source texts and caption tracks with no misses, but that is a text match. Nobody has listened to the audio, and eight lines rest on auto-captions alone; they are listed in the record.
+- The embeds still need a playback check, as research already noted.
+- The body is about 200 words over the 3,500 target, so the edit stage should cut before it adds.
+- The rebuilt suggestions (Nicki Minaj, Post Malone, Britney Spears, Jack Antonoff) exist as drafts; I didn't confirm each is live.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-11_18-12-25-028_Doja-Cat/`:
+- `draft.md`
+- `evidence-draft.json`

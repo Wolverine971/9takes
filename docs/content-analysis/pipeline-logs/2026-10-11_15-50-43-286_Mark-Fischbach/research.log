@@ -1,0 +1,22 @@
+The research stage is complete: `evidence.json` is written and passes `validateEvidence` as `status: "ready"`. One thing needs your decision before the draft stage runs.
+
+**Decision for you: this subject duplicates a live page.** Mark Fischbach is Markiplier, and `src/blog/people/drafts/Markiplier.md` is already published as a Type 7. This run is create-mode with an empty baseline, so continuing produces a second page for the same person, and the research leads with a different type. I'd rerun it as `Markiplier --refresh --expanded-review` so the existing URL gets retyped; the alternative is to confirm you want a separate legal-name page. This is the first item in `research_tasks`.
+
+**What the evidence says**
+- **Leading read:** Type 1, medium confidence. Type 7 is the strongest alternative; Type 3 is also argued in the record.
+- **Why not 7:** his costliest choices run toward limits, not away from them. By his account he uploaded daily for about three and a half years. He deleted Unus Annus on schedule at about 4.5M subscribers. Iron Lung meant 16-hour days for three years and a postponed wedding. He says "no one's going to judge me harsher than I judge myself."
+- **What still fits 7:** impulsive starts, idea-jumping (which he attributes to ADHD), light planning and the 2017 "I Feel Lost" vlog. These are recorded as counterevidence, not explained away.
+- **Risk flags:** `contested_typing` and `major_thesis_change` are both true, so the run gets the six-role jury.
+
+**The live Markiplier page has errors to fix regardless**
+- Its hook says Iron Lung made "$52 million" on "opening weekend" on "4,164 screens". NBC/Comscore report an $18.19M domestic opening in 3,015 theaters; about $51.2M is the worldwide total as of May 2, 2026.
+- It says his father's last words were to "his sons"; in Draw My Life he says "to me".
+- The "They leapt at an opportunity to help me" quote was not in any transcript I opened.
+
+**Limits of the record**
+- 30 of 33 sources were opened; the IndieWire interview, Bloomberg's GoPro report and the original Reddit "purge" post were blocked, and no claim cites them.
+- Every YouTube quote was read from auto-captions, not heard. I checked all of them against the caption text, but they need a listen before drafting; the transcripts are in `/tmp/mark-fischbach-research/txt/`.
+- Almost all the evidence is his own account. The only outside voices are Ethan Nestor and David Szymanski, both friendly, and nobody who has disagreed with him at work is on record.
+- Two of his claims are uncorroborated and marked `unresolved`: the Cloak majority-ownership takeover and the doubled crew pay.
+
+The only repo file I wrote is `evidence.json`. I also saved a memory note about create-mode runs not detecting an existing page under an alias.

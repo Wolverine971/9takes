@@ -1,0 +1,1120 @@
+{
+  "schema_version": 3,
+  "content_sha256": "2ab02a42716de9b2d34062456b0da406d16af40012e894150a4e2f67c4ad6b15",
+  "evidence_sha256": "c55acd3bc8ddc40785198b3e5ffaa1a4599408615f02a69694ac4ca48a7796f9",
+  "status": "pass",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "minor",
+      "passage": "\"if I was singing to one person, I would like be sweating profusely. But like thousands of people, it's easier.\"",
+      "problem": "One word of this direct quotation rests on the caption track alone. The draft stage's second machine transcription rendered it \"sweating for music\"; my third, a larger model on freshly downloaded audio, has \"I would like be sweating.\" with no adverb. The sense is confirmed by all three and the caption reading is probably right, but no person has listened. The article does disclose that video quotations were not checked by ear.",
+      "acceptance_test": "Before publication, a person listens at about 03:13 of the Snapchat video and confirms \"profusely\", or the quotation is cut back to words all three transcriptions share (for example, she said she would be sweating in front of one person, \"But like thousands of people, it's easier.\"). C48 records which was done."
+    },
+    {
+      "id": "verify-02",
+      "severity": "minor",
+      "passage": "Her answer, in The Line of Best Fit: \"I'm such a Noah Kahan fan,\" and \"I'm not out here trying to interpolate other people's songs.\"",
+      "problem": "The interview ran on July 3, 2026. The sentence before it reports criticism dated September 2, 2026, so \"Her answer\" reads as a reply to critics who cite her old covers. She said this two months earlier, about commenters who heard the likeness. Both quotations are exact; only the implied order is off.",
+      "acceptance_test": "The sentence shows the order, for example \"She had already told The Line of Best Fit in July:\", and nothing implies she has replied to the cover-video criticism."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "By May there were advisers, who told her to avoid country \"because I wasn't from the South,\"",
+      "problem": "In SongwriterUniverse, Virgin Radio and Vanity Fair her word is \"people\" (\"a lot of voices in my head of people telling me\"). \"Advisers\" suggests identified professionals, and no source says who they were; the evidence record itself lists that as unexplained.",
+      "acceptance_test": "The first mention uses her word (\"By May there were people telling her to avoid country\"), or says that she does not identify them. \"Advised\" stays for the tour post, where it is her word."
+    },
+    {
+      "id": "verify-04",
+      "severity": "minor",
+      "passage": "As of October 11, 2026, the people quoted describing her firsthand all worked with her, toured with her or were dating her that year.",
+      "problem": "This is true of the sources opened, but the sentence is written as a statement about all coverage, and two relevant pieces (The Washington Post, People) were not opened. Elsewhere the article limits such statements to \"the sources opened for this profile\".",
+      "acceptance_test": "The sentence carries the same limit (\"in the sources opened for this profile\"), and C30 matches it exactly."
+    }
+  ],
+  "research_tasks": [
+    "Before publication: a human listen at about 03:13 of the Snapchat video (youtube.com/watch?v=DGQynAKTfWU) to confirm \"sweating profusely\" (verify-01) and to settle who says \"With one person, you're like, oh my god, do you hate me?\". Three machine transcriptions now exist and none labels speakers.",
+    "Before publication: look at her TikTok account directly to confirm that the earliest public post is still from August 2025 (C81), and recheck that she has made no statement on the song comparisons and that \"Badly\" is still unreleased (C13, C99). My searches on 2026-10-11 found no change.",
+    "Verify-stage method, for the record: 25 of the 27 used sources were refetched live on 2026-10-11; Country Now and USA Today were read in Internet Archive captures because the live pages returned 403 and 402. Video quotations were checked against refetched caption tracks and a third machine transcription of nine segments. No person listened to any audio. The eight sources no claim uses (S15, S19, S25, S29, S30, S32, S34, S35) were not reopened.",
+    "At the 2026-12-01 review: open The Washington Post (S34) and People (S35) pieces, which bear on the financing question (C101) and on who has described her firsthand (C30)."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Day: B96 captions at about 01:30, \"my birthday's August 13th. I was born on the day\", confirmed by my re-transcription. Year: on MuchMusic at about 02:07 the host asks \"you were born 2002?\" and she answers \"Yeah\"; a one-word assent, also heard in my re-transcription. Rolling Stone calls her 23 on June 29, 2026 and Vanity Fair 24 on August 21, 2026, which brackets an August 2002 birthday. \"Born Stella Lefkofsky\" is in Rolling Stone, Vanity Fair and Billboard. North Shore: B96, \"Winnetka area, like North Shore suburbs\"; Glencoe in Vanity Fair and Elite Daily."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Billboard, May 13, 2026: \"her father, Groupon co-founder and Tempus AI founder/CEO Eric Lefkofsky\". Vanity Fair: \"the cofounder of Groupon\". The article prints the two founding facts only, with no title or net-worth figure."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "Elite Daily, May 5, 2026: \"before moving to Los Angeles in September 2024\", and \"Boston,\" \"which Lefty released March 27\". Vanity Fair: the 2025 EP Tragic, Really and \"In December of 2025, she decided to go all in on country music.\" The move date is attributed in-line to Elite Daily. One loose inconsistency, not printed: on the June 12, 2026 Whiskey Riff video she says she moved \"2 years ago 2 and 1/2 years ago\"."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "Billboard, September 27, 2026, second paragraph: \"The song also peaked at No. 2 on the Billboard Hot 100.\" The article ties the peak to that dated report."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "The Line of Best Fit, July 3, 2026, exact: \"I just was so afraid of singing in front of anybody. Terrified. My worst nightmare when I was younger.\" The same account recurs on Smooth Country (\"I've always had stage fright my whole life\") and MuchMusic (\"I do have really bad stage fright\")."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "The Line of Best Fit, exact: \"When I figured out what a songwriter was my junior year, I became set on being a songwriter. I wanted to write for other people.\" Tulane is from Billboard and Rolling Stone. The article words it as the career she \"says she wanted\" and sets Rolling Stone's gig report beside it."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "The Line of Best Fit, exact quotation, inside her retelling: she graduated on a Saturday, flew to Nashville on the Sunday, and \"After a week of writing the deal fell through\". Rolling Stone has the publishers saying \"You seem more like an artist\". 2024 graduation is from Billboard. The article marks it as her account (\"says she reacted\")."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Rolling Stone, exact: \"I love to post,\" then \"I could do it 700 times a day. People were like, 'Chill.'\" (the source italicises Chill). Context is her Tulane friends giving her a hard time about posting."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "MuchMusic at about 09:11: \"I really wanted to like do the the thing that was like going viral at the time. So like whatever cover was doing really well, I wanted to sing that.\" YouTube caption track, the draft stage's second machine transcription and my own third one (a larger speech model on freshly downloaded audio) agree on \"going viral at the time\". She places it \"back all the way to like 2020\", which supports \"early posts\"."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "qualified",
+      "reason": "The long quotation is exact (SongwriterUniverse, May 15, 2026, third answer) and \"because I wasn't from the South\" is from the sentence before it. The variation across tellings is real: no adviser in the March Snapchat video; people telling her in SongwriterUniverse, Virgin Radio (August 5) and Vanity Fair (August 21). Qualification: her word in every telling is \"people\" (\"a lot of voices in my head of people telling me\"); \"advisers\" in \"By May there were advisers\" is the author's label. See verify-03."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "Rolling Stone, exact: \"Almost in a way to say, 'I don't even want feedback.' That's the best thing a manager can hear.\" The source ties it to finishing \"Thinkin' Bout You\". Rolling Stone says \"Adam Alpert of Disruptor Records\"; Billboard calls him Disruptor's chief executive. The article flags his stake two paragraphs later."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "The Line of Best Fit, exact, including \"I was just like, I want to do whatever accommodates him.\" Chorus written alone at a piano in Nashville and posted: same answer. \"Shortly before a date\": Elite Daily, \"I had 15 minutes before he was picking me up\". Credit: Billboard."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "A dated negative, scoped to the opened sources. Rolling Stone's explainer ends \"Lefty has not addressed the new wave of song comparisons and plagiarism allegations\"; Whiskey Riff, October 6, ends \"As of now, Lefty has not responded\". No opened source reports a legal claim or finding. Two searches of my own on October 11, 2026 found no statement from her and no legal step."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "Vanity Fair (\"Critics have jumped to call Lefty a 'nepo baby'\"; \"an equally despised 'industry plant'\"), USA Today, Rolling Stone, The New Yorker and Business Insider all report the labels as other people's."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "Holler, August 29, 2026, exact and in lower case as printed there. The clip is dated 2022 and placed in the Rodrigo and Carpenter fan rivalry. Read through the outlet, as the article says; her original comment was not seen."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "Country Now, August 24, 2026, exact, in both the pull quote and the full post (\"she wrote\"). The live page returns 403; I read the Internet Archive capture of August 26, 2026. Her original post was not seen, and the article says the replies are read through outlets."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Billboard, September 27, 2026: she \"has left Disruptor Management, according to sources\"; the last paragraph says representatives \"either did not respond to a request for comment or declined to comment\". My October 11 search found only a rewrite of the Billboard report and no confirmation."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "Smooth Country at about 09:34: \"I was in the past for sure ... But because I just I used to be so afraid of love.\" YouTube caption track, the draft stage's second machine transcription and my own third one (a larger speech model on freshly downloaded audio) agree."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "B96 at about 02:16: \"I just want to be able to get into my car and listen to whatever song that I'm making and make me feel happy ... That's the goal for me.\" A paraphrase, not a quotation; caption track and the draft stage's second transcription agree."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "Rolling Stone, exact, in the opening CMA Fest scene under Marissa R. Moss's byline; \"the three appearances she is making at CMA Fest in under two hours\" supports \"three CMA Fest appearances\"."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "Smooth Country at about 01:02: \"I think it was more stressful because I was so like I I wanted it all so badly.\" YouTube caption track, the draft stage's second machine transcription and my own third one (a larger speech model on freshly downloaded audio) agree. The host's question is about her of two years earlier."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "Rolling Stone, exact: \"But I'm not Southern. I always worried, 'Do I have to be?'\""
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "The New Yorker, August 5, 2026, fourth paragraph, exact, in a parenthesis; byline Brady Brickner-Wood confirmed. The Guardian's review hears a \"fake southern accent\"."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "qualified",
+      "reason": "True of the opened record: the people quoted from contact are Alpert and Horowitz (then-managers), Kasher and Enger (collaborators), Flores and Smyers (acts she performed with) and Mason (called her boyfriend in June and August 2026). Qualification: the sentence is not limited to the sources opened, and two relevant pieces (The Washington Post, People) were not opened. See verify-04."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "The Line of Best Fit, exact, a few sentences after the opening line in the same recalled reaction."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "The Line of Best Fit, exact; it is the last sentence of that answer. Rolling Stone's writer says the same in her own voice."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "Snapchat, March 27, 2026: \"I like pivoted for a whole year and was making more like pop\". Other people's direction appears in three of her four later tellings that I read (SongwriterUniverse, Virgin Radio, Vanity Fair) and not on MuchMusic, so \"most of her later tellings\" holds."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "Elite Daily: \"which Lefty released March 27\". The Snapchat interview was uploaded the same day."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "supported",
+      "reason": "The dated interviews run from March 27, 2026 (Snapchat upload) to August 21, 2026 (Vanity Fair); I confirmed each date from the page or the upload metadata. Three searches of my own on October 11 found no interview after August and none from before 2026. The sentence is limited to what was found."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "qualified",
+      "reason": "A low-confidence reading by design. Its factual premises check out (C10, C17), the count \"once at length and once briefly\" matches the pattern paragraph, the first FAQ and the close, and the answer is 55 words. It is an interpretation and the article presents it as one."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "Rolling Stone: \"Not long after she turned down a Nashville publishing deal\". These are the writer's words, and the article attributes them to the writer."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "Vanity Fair, exact. The preceding sentence is \"her pop experiments were not successful. The proof was in the like count.\""
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "Snapchat at about 01:20, in answer to \"Why did you sit on it for 6 months?\": \"So I was like, oh, this is too country. This is too that, you know, I was like I was afraid.\" YouTube caption track, the draft stage's second machine transcription and my own third one (a larger speech model on freshly downloaded audio) agree on both printed fragments. No adviser is named in this telling."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "Snapchat at about 00:45: \"I had this realization like right after Christmas\" (all three transcriptions). Vanity Fair: \"In December of 2025, she decided to go all in on country music.\""
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "Billboard, May 13, 2026, final paragraph, exact; the source ends the inner quotation with a period where the article has a comma."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "An interpretation, labeled as the pattern \"this profile counts\". Each episode is described as its sources have it: Los Angeles (comply, then reverse), the tour post (may fit), the Kahan credit (concession only), the publisher (resist, then agree)."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "SongwriterUniverse, exact: \"'Thinking 'bout You' was the most viral video that I had, which was at the top of this year.\""
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "qualified",
+      "reason": "The caption track at about 03:13 reads exactly as printed, and the speaker is clear from \"if I was singing\". All three transcriptions agree on the sense and on every word except one: the draft stage's second transcription has \"sweating for music\" and my third has \"I would like be sweating.\" with no adverb. \"Profusely\" therefore rests on the caption track alone. The article discloses that video quotations were not checked by ear. See verify-01."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "Virgin Radio Toronto at about 03:05: \"And I was like well it's the truth so.\" YouTube caption track, the draft stage's second machine transcription and my own third one (a larger speech model on freshly downloaded audio) agree. The objection came from friends, some of whom had befriended the ex she was writing about."
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "Whiskey Riff video at about 01:32 to 02:33: \"my like covers account, which is where I post things that I'm like not so sure about\" and \"maybe like the smiling one will do better and it and it did\". YouTube caption track, the draft stage's second machine transcription and my own third one (a larger speech model on freshly downloaded audio) agree on both fragments. Z100 also mentions the covers account."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Vanity Fair, exact and complete: \"Nobody has the answer anymore for how to make something work. TikTok decides.\""
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "An open question, built from verified premises: the Snapchat line (C48), \"Senior year like almost every day\" (Virgin Radio) and \"posting it every single day\" (The Line of Best Fit), and Rolling Stone's duo gigs (C93)."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "Billboard, May 13, 2026: \"('Stick Season' writer Kahan is credited on 'Boston')\"; repeated September 27, 2026."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "Vanity Fair, exact; it is the writer's sentence (\"She and her team decided to give Kahan a writing credit before the song officially came out, preventing any risk of legal action\") and the article attributes it to the writer."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "Vanity Fair, exact. The dispute is attributed to named reporting (C95)."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "Rolling Stone, August 28, 2026: \"'Summer You Were Mine' interpolates the Chicks' Grammy-winning song 'There's Your Trouble,' Rolling Stone has confirmed.\""
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "Rolling Stone's explainer (published September 10, 2026 UTC, September 11 in Australia) names the three songs and says of each that the earlier song's writers \"are not credited\". The article dates the status to that explainer."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Whiskey Riff, October 6, 2026: Shaylen and TAELA \"took to TikTok to directly call out Stella for copying their 2024 single, 'WATCH THIS'\". The article reports a comparison and keeps the outlet's verbs out."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "USA Today, September 2, 2026, exact: \"Despite the online claims that the success of 'Boston' was manufactured, a claim that remains unsubstantiated\". The live page returns 402; I read the Internet Archive capture of September 4, 2026."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "Vanity Fair, exact; the source sentence begins \"I had the ability to really explore, and\". Vanity Fair introduces it as \"the greatest upshot of her cushy upbringing is time\"."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "The New Yorker, exact. \"These questions\" are the financing debate in the sentence before it, and the essay is dated August 5, 2026; the article now gives both."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "Rolling Stone, final paragraph, exact, after a team member \"brings up the capacity crowd from earlier\"."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "The Line of Best Fit, exact; the source sentence begins \"Obviously as a songwriter\". Said while explaining the likeness to \"Stick Season\"."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "Same support as C01: the day from her own statement, the year from her assent to the MuchMusic host, and ages in dated coverage that bracket an August 2002 birthday."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "Billboard, exact sense: \"My uncle, my Dad, my brothers, have gone by Lefty\". Vanity Fair says both brothers use it."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "B96 (\"North Shore suburbs\"); Billboard (\"After graduating in 2024\"); Business Insider (\"graduated from Tulane University in 2024\")."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "Arithmetic from the August 13, 2002 birth date and Holler's dating of the clip to 2022."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "qualified",
+      "reason": "Rolling Stone's explainer, exact sense: \"Those videos are no longer available to the general public; the earliest post on Lefty's page is from August 2025.\" The article attributes and dates it. Qualification: I did not check her account, so the present tense rests on a report from September 10 to 11, 2026. The claim carries a recheck trigger."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "Country Now: she \"did not provide a reason for the change\". Billboard: unnamed sources and no comment from any party. My October 11 searches found no first-person account of either change."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "Rolling Stone: \"After graduation, she had plans to move to Nashville\" and \"Both J Kash and her new management team at Disruptor Records urged her to move to Los Angeles\". Vanity Fair: Kasher \"convinced her to move to LA instead of Nashville\"."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "Snapchat at about 00:40: \"then I like pivoted for a whole year\". YouTube caption track, the draft stage's second machine transcription and my own third one (a larger speech model on freshly downloaded audio) agree. No adviser is named anywhere in this interview."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "Vanity Fair, exact up to the cut; the sentence continues \"in the way that Sabrina has a very distinct brand\"."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "Vanity Fair: \"When the deal fell through, she decided maybe she wanted to be a singer after all.\" For the record, the writers of The Line of Best Fit and Rolling Stone pieces also use \"fell through\"; the three accounts still differ as the article says."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "The Line of Best Fit, in her quotation of the publishers: \"We don't want to sign you as a writer because we think that you want to be an artist.\""
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "An interpretation of her two quoted tellings; \"perhaps only in thought\" correctly reflects that \"I was like\" may report a thought."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "Vanity Fair frames the low views as the reason (\"The proof was in the like count\"); on MuchMusic she says \"nothing was working. Like truly, videos would get like a thousand views max\"."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "Rolling Stone: covers \"of Childers, the Band Perry, and Noah Kahan's 'Stick Season'\"; \"her 2024 debut single, 'Kiss Me'\"; \"Her first original, 'Kiss Me,' went viral\". Posting her singing began in 2022, while she was at Tulane."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "The Line of Best Fit: \"My dad in particular was the first intro to music that I ever had because country radio was blasting in the car no matter where we were going.\""
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "Rolling Stone, exact: \"She played some real, in-person gigs, often as a duo called Stella + Huck.\" No date or venue is given, as the article says."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "Vanity Fair, exact: \"Lefty, Kasher, and Enger all swear they don't think about the algorithm when they're writing\", and \"Like anyone trying to make it in music today, she has to submit to the tyranny of the algorithm\"."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "USA Today (archive capture): \"A second TikTok posted by creator Holden Smith highlighted several older videos in which Lefty covered 'Stick Season.' Critics have cited those clips to challenge the suggestion that Kahan's song was not on her mind\". The article compresses the two sentences fairly."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "qualified",
+      "reason": "Both quotations are exact and come from one answer in The Line of Best Fit. Qualification: that interview ran on July 3, 2026, two months before the USA Today report the article sets it against, so \"Her answer\" can read as a reply to critics she had not yet heard. See verify-02."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "Rolling Stone, exact sense: \"Rolling Stone has reviewed materials that show Lefty's team received proper clearance for the track from Sony Publishing in June\"."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "Whiskey Riff quoting TAELA's Instagram caption, exact: \"we're talking about the vocal melody, phrasing and cadence being essentially identical.\""
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "Whiskey Riff: \"Back on October 1st, the Chicago native debuted a brand new, unreleased song at the legendary Bluebird Cafe in Nashville titled 'Badly.'\""
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "The New Yorker, exact; the source marks the advantage \"if true\", and the article follows with the statement that the question is unreported."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "qualified",
+      "reason": "A statement about the limits of the opened record, and correctly scoped to it. Vanity Fair, USA Today, Business Insider and The New Yorker discuss the financing question and none reports a payment or an answer from her or her father. It cannot be stronger than that: two relevant pieces were not opened."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "Holler, exact: \"an old clip of Lefty's that was clearly not meant to be taken seriously\"."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "Country Now: \"after previously being announced as an opening act for Wetmore's tour\" and \"she did not provide a reason for the change\". Billboard had her \"opening tours for Myles Smith and Tucker Wetmore\" in May."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "Country Now, in the full post: \"I'm so sorry to anyone that bought tickets to see me please send me a DM and we can figure something out.\""
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "An interpretation, stated conditionally, with the rival reading beside it."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "The Line of Best Fit, exact: \"That really had me spiraling\"."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "Smooth Country at about 09:18: the host says \"Talk to me about this song, Good at Leaving. Are you actually good at leaving\", and she answers \"I was in the past for sure.\" YouTube caption track, the draft stage's second machine transcription and my own third one (a larger speech model on freshly downloaded audio) agree. The Line of Best Fit confirms the single came out that month."
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "A conditional interpretation; \"about a year\" is her figure (\"a whole year\"), and the article says the test does not apply to her earliest telling."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "Premises verified: \"right after Christmas\" (Snapchat) and \"at the top of this year\" (SongwriterUniverse). The limit is stated in the same sentence."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "An interpretation, and a candid one: the article gives no ground for Nine over Six beyond two thin observations and says each has an ordinary explanation."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "An interpretation resting on verified statements: \"because I wasn't from the South\", \"it really got in my head\", \"I was afraid\", \"I always worried, 'Do I have to be?'\""
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "An interpretation that gathers verified items (C09, C55, C56, C27, C86); the counterpoint and its limit follow in the next sentences."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "The FAQ mirrors the settle section and the three signals in the evidence record."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "Arithmetic from the birth date; the FAQ gives the age with an as-of date."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "B96 upload date August 7, 2026 and MuchMusic August 19, 2026, both confirmed from refetched metadata."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "supported",
+      "reason": "Mirrors the Type 6 section and the evidence record's alternative type."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "Same support as C02."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "qualified",
+      "reason": "Mirrors C101 and carries the same limit: true of the opened sources, with two relevant pieces unopened."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "A fair paraphrase of the Vanity Fair quotation in C66."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "The Line of Best Fit: \"because of all these comments, his team ended up reaching out\". Credit per Billboard."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "Mirrors C97."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "Mirrors C63, C64 and C99, each with its own date."
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "Mirrors C07 and C34; \"bristled\" is tied to the one 2024 episode."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "Vanity Fair: \"Her debut album, Long Way Home, is out today, August 21.\""
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "Vanity Fair: \"Her career began on Tik Tok, where she's been posting videos of herself singing since her freshman year at Tulane in 2021.\""
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "Caption tracks show different answers: Smooth Country (\"I just decided one day\"; nerves as adrenaline; asking \"Marcus\" whether he still gets nervous (Marcus Mumford, from the context of the Hyde Park show)), MuchMusic (tequila \"helps me push through it\"), Snapchat (crowds are easier because of the energy). The article does not quote them."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated June 29, 2026, byline Marissa R. Moss. CMA Fest opening scene; \"I love to post\" paragraph; covers and Stella + Huck paragraph; publishing-deal paragraph; J Kash and Disruptor paragraph; Alpert quotation; \"not Southern\" quotation; closing paragraph."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated August 21, 2026, byline Abigail Sylvor Greenberg. Tik Tok origin and Pulse deal paragraph; Los Angeles paragraph (\"distinct brand\"); Tragic, Really and \"very low views\"; algorithm and \"TikTok decides\"; December 2025 sentence; Kahan paragraph; \"stopwatch\" and \"cushion\" paragraph."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated 03 July 2026, words by Jen Long. Stage-fright paragraph; songwriter paragraph; publishing-deal paragraph; \"Boston\" paragraph."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated May 13, 2026, byline Jessica Nicholson. Tulane and 2024 graduation paragraphs; Kahan credit parenthesis; \"Lefty\" nickname and father paragraph; final \"pick a lane\" paragraph."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated May 15, 2026, by Dale Kawashima. Second answer (\"at the top of this year\"); third answer (Tragic, Really, \"people telling me\"); fourth and fifth answers."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated May 5, 2026, by Marilyn La Jeunesse. Second paragraph (15 minutes before the date); third (Glencoe); fourth (March 27 release); fifth (Tulane, Los Angeles in September 2024)."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Caption track and upload metadata refetched live on 2026-10-11 and read; the quoted segments were also re-transcribed from freshly downloaded audio. Uploaded 2026-08-19 by MUCH, 19:02. 02:07 (born 2002); 05:03 (stage fright, tequila); 09:11 (going viral at the time); 11:34 (nothing was working)."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Caption track and upload metadata refetched live on 2026-10-11 and read; the quoted segments were also re-transcribed from freshly downloaded audio. Uploaded 2026-07-14 by Smooth Country, 19:08. 00:47 to 01:18 (two years ago, \"wanted it all so badly\"); 02:35 to 03:21 (nerves, Marcus, \"decided one day\"); 09:18 to 10:07 (\"Good at Leaving\")."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Caption track and upload metadata refetched live on 2026-10-11 and read; the quoted segments were also re-transcribed from freshly downloaded audio. Uploaded 2026-08-05 by Virgin Radio Toronto, 16:29. 01:18 to 01:49 (publisher, \"that fell through\"); 02:49 to 03:54 (songs about boys, friends' objections); 05:41 to 05:56 (people saying \"this sounds too country\")."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Caption track and upload metadata refetched live on 2026-10-11 and read. Uploaded 2026-04-15 by Z100 New York, 17:59. 11:16 to 11:47 (writing the chorus, \"covers account\"); 13:36 (publisher as sounding board). Used only as supporting context."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Caption track and upload metadata refetched live on 2026-10-11 and read. Uploaded 2026-06-26 by Genius, 5:22, read in full. 00:48 to 01:03 and 02:23 to 02:39 (the song's push and pull). Used only as supporting context for C19; nothing from it is quoted."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Caption track and upload metadata refetched live on 2026-10-11 and read; the quoted segments were also re-transcribed from freshly downloaded audio. Uploaded 2026-06-12 by Whiskey Riff, 8:03. 01:32 to 02:33 (covers account, smiling and less-smiling takes)."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Caption track and upload metadata refetched live on 2026-10-11 and read; the quoted segments were also re-transcribed from freshly downloaded audio. Uploaded 2026-03-27 by Snapchat, 7:13, read in full. 00:34 to 00:49 (pivot, \"right after Christmas\"); 01:20 to 01:36 (\"too country\", \"I was afraid\"); 03:13 to 03:28 (one listener versus thousands; the \"do you hate me\" line stays unassigned)."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Caption track and upload metadata refetched live on 2026-10-11 and read; the quoted segments were also re-transcribed from freshly downloaded audio. Uploaded 2026-08-07 by B96 Chicago, 4:39, read in full. 00:15 to 00:30 (North Shore suburbs); 01:30 (birthday); 02:16 (happy in the car)."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "The live page returned 403 on 2026-10-11. Read in full in the Internet Archive capture of 2026-08-26 04:23 UTC. Dated August 24, 2026, byline Lauren Jo Black. Pull quote and the paragraphs beginning \"Over the weekend\" through the full post."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated September 27, 2026, byline Melinda Newman. First paragraph (split, \"according to sources\"); second (No. 2 peak); Horowitz quotation; credits paragraph; final no-comment paragraph."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated August 29, 2026, by Maxim Mower. First three paragraphs and the \"clearly not meant to be taken seriously\" paragraph."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated October 6, 2026, byline Brennen Kelly. Paragraphs on the October 1 Bluebird Cafe performance, the TikTok comparison, TAELA's caption and the closing non-response line."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Published 2026-09-10 21:30 UTC (September 11 in Australia), byline Maya Georgi. \"Stick Season\" section (videos no longer public); Chicks section; later-accusations section and its last line."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated August 28, 2026, byline Cheyenne Roundtree. First four paragraphs (interpolation confirmed; label statement; materials reviewed) and the interpolation definition."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated August 5, 2026, byline Brady Brickner-Wood. Fourth paragraph (twang parenthesis; \"how lavishly he has financed her career\"; \"mostly avoided addressing these questions\") and the final paragraph."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated August 21, 2026, byline Laura Snapes. Third paragraph (\"fake southern accent\"; the \"Cali-raised\" error noted in the evidence record). Supporting context only."
+    },
+    {
+      "source_id": "S26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated September 3, 2026, byline Callie Ahlgrim. Opening section; \"bought with her dad's credit card\" paragraph; Tulane 2024 paragraph. It reports no financing facts."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "The live page returned 402 on 2026-10-11. Read in full in the Internet Archive capture of 2026-09-04 14:06 UTC. Dated September 2, 2026, byline Sameen Chaudhry. \"centers on the significant advantages\" paragraph; \"a claim that remains unsubstantiated\" paragraph; Holden Smith paragraph."
+    },
+    {
+      "source_id": "S28",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Lead; Early life and education; Career; controversy sections. Used only as a secondary cross-check (birth date, EP year, management report)."
+    },
+    {
+      "source_id": "S31",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated September 1, 2026, by Evelyn Frick. Item 3 (parents; father co-founded Groupon and Tempus AI). Supporting context only."
+    },
+    {
+      "source_id": "S33",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Refetched live on 2026-10-11 (HTTP 200) and read in full. Dated August 24, 2026, byline Miranda Wollen. First paragraphs and the \"belied by numerous TikToks\" paragraph. Its lawsuit wording is not adopted by the article."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "The allegation signal is gone. The settle section says her answer \"is not scored at all: such replies are shaped by lawyers and a label, and a denial may simply be true\", the settle FAQ says the same, and the evidence record's three signals do not touch the allegations. The pledge sentence is now true of the whole page."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Checked against Billboard and Country Now. Every mention of the split carries \"citing unnamed sources\" or \"reported\", both events are \"changes\", \"No source says who made either call\", and the section says a logistical, medical or contractual explanation settles nothing."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Checked against the essay. The quotation now sits in the financing paragraph with its date and its referent, and no longer comments on posts written after it."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Checked against Rolling Stone's explainer, The Line of Best Fit and USA Today. The scope is the whole archive before August 2025 \"for reasons no source gives\", her position sits beside the doubt and the doubt is attributed to named reporting. One wording point remains about the order of events; see verify-02."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Checked against Whiskey Riff. \"Copies\" is gone, TAELA's own description is quoted, and the released songs are separated from the unreleased \"Badly\" in the body and the FAQ."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "The single is named, the past tense and the fear reason are marked as hers, and \"habit\", \"early\" and \"leave-first\" are gone from body and FAQs."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "Checked against Vanity Fair. The full sentence is quoted and her denial and the industry-norm context follow in the same sentence."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "The age is now a neutral clause where the clip is introduced, Holler's judgment is quoted, and the offer to ticket buyers is included."
+    },
+    {
+      "finding_id": "subject-09",
+      "accepted": true,
+      "reason": "The closing sentences carry \"By her own account\" and \"In her telling of 2024\", \"hid\" and \"hidden\" are gone, and the duo gigs are reported."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Checked against Rolling Stone. The duo sentence is quoted exactly with \"The gigs are undated\", \"Kiss Me\" is attributed, and no sentence now says rooms frightened her while a phone did not."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "The sentence is withdrawn. The Type 6 paragraph cites \"I always worried, 'Do I have to be?'\" and \"really had me spiraling\", treats the originality line as a defence already given, and says nothing firm favors Nine over Six. Both quotations match their sources."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Checked against Vanity Fair and Rolling Stone. The success motive is quoted, the Type 3 paragraph argues from her own statements, and the Los Angeles move is attributed without saying who told her to avoid country."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Captions confirm she has already answered several ways, so cutting the signal is the right repair. The article acknowledges the answers (\"her accounts of coping vary\") without quoting caption lines that were not checked."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "The sentence and the FAQ phrase are gone; nothing implies she had not headlined before October 30, 2026."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "Checked against Rolling Stone and The Line of Best Fit. The pre-pop-year evidence sits beside the New Yorker line, followed by the limit that the old posts cannot be checked."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Checked against Vanity Fair. The paragraph gives three versions and attributes \"turned it down\" to Rolling Stone's writer."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Her fandom is beside the denial, quoted exactly. Leaving out the song's content is allowed by the acceptance test and the reasons are recorded."
+    },
+    {
+      "finding_id": "fan-09",
+      "accepted": true,
+      "reason": "I agree with the rejection. This was a request to include material, not a factual error; the acceptance test offers a recorded sensitivity reason as an alternative, and the reason holds: the episode concerns two other people's health and rests on one source. The article no longer mentions public health, so no question is left hanging."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "The two episodes are no longer summed. The pattern is defined one way and each episode is labeled; the count is the same in the answer, the first FAQ, the pattern paragraph and the close; \"repeatedly\" is gone."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "I reread the Snapchat, SongwriterUniverse, MuchMusic and Vanity Fair passages and the reviewer was right. The section now sets the tellings out by date, states that low views are both the cost and the commercial reason, attributes the framing in the intro, and makes the test against Seven conditional."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Type 3 has a for-and-against paragraph with its evidence gathered and a named missing test; Seven and Three are headed \"unranked\"; the limits of the CMA Fest observation are stated. Keeping the \"saying yes\" frame is defensible because the against-Nine list tests it."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "The sentence is removed and replaced by \"Nothing firm yet favors Nine over Six.\""
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Checked against Rolling Stone. The section says what she \"says she wanted\", reports the gigs and that they are undated, and the closing list is worded as her account. The duo has its own claim (C93)."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Checked against USA Today and The New Yorker. \"Unsubstantiated\" is kept for the narrow claim, the broad one is stated in the critics' terms with date and attribution, and the article says the financing question is unreported in the opened sources. The father FAQ matches."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "The reading is conditional (\"If she did want to announce it\"), the responsibility-shifting reading is named and extended to the Los Angeles account, and the pattern paragraph says \"may fit\"."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "The allegation signal is cut, both existing answers appear where they belong, and the section says prepared statements count for little."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "One sentence defines the pattern, every episode is labeled, and the count is identical wherever it appears."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "One sentence in the second paragraph supplies the job she wanted and what \"artist\" means in the trade; the opening quotation and its closing line are unchanged."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "The decision is stated as an event with one dating, the next step uses supported dates and names TikTok, and \"broke her\" is replaced."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Six is headed \"Closest rival\" with the reason in its first sentence, Seven and Three are \"unranked\", and no read gained confidence language."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "The sentence names the single and the setting and keeps her past tense; the Type 7 FAQ with \"early\" is replaced."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Each of the listed people, places and terms has a short gloss at first mention, the Enneagram is named before the H2, and the title and description say \"Enneagram Type 9\" within the length limits (61 and 158 characters)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Signals 2 and 3 now say which outcome favors which read and which reads they cannot separate."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "The caption note says what it means and sits at the first video quotation, the birthday provenance is two links, and the items not used as evidence moved under their own heading. The body is 3,006 words against 3,014 for the frozen draft, which meets the test, though it is still above the open-case target."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "The \"or\" is gone. The pattern runs one way, the publisher episode is presented as resistance followed by agreement, \"perhaps only in thought\", and is listed against Nine."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Six is now the closest rival, argued from her own stated reasons, and the answer, FAQs, anchor and evidence record agree. \"I was afraid\" is confirmed by three transcriptions. On the scope question the editor raised: this does not need a refreshed jury. The leading type and its confidence are unchanged, Six was already in the live set the six roles reviewed, the re-ranking is the first option in this finding's own acceptance test and was asked for by three other roles, and no risk flag changed."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "The Type 3 paragraph weighs the take-testing and viral-cover evidence, drops the two undercut counters, gives her ordering with its limit and names the missing test, which is settle signal 2."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "The section says what kind of evidence counts, signal 1 is aimed at Nine against Six and notes that her existing statement fits both, and the evidence record's signals match the article."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "The ambiguity of the \"write more songs\" reply is stated, and the familiar-tastes and writing-habit evidence is cut, which removes the double use."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "The promotional-register limit is in the first sentence and the Seven case rests on option-keeping, with the lane quotation exact."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Taken on the second option: \"says only\" is replaced and the speaker question is recorded as an open task. My own re-transcription of that passage also has no speaker labels, so leaving the line out is right."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Both events are \"changes\", the split is attributed to Billboard's dated, unnamed-source report, the sentence has an as-of date, and it reads correctly whoever made either call. The C82 passage matches exactly."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "The span is given as \"March to August 2026\" in the answer and the first FAQ, which are word for word the same at 55 words; no \"seven-month\" remains."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "The sentence is dated and asserts no current relationship or management; C30 is restored with a trigger. A scoping point remains; see verify-04."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "The sentence and its four links are cut."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Each status carries its own date, the triggers add the release of \"Badly\" and a dated recheck, and the canonical Whiskey Riff permalink is used in the body, the citation and the source record; it resolved for me."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "The body age is dropped for the birth date, the FAQ age is dated and tracked, the father is described by two founding facts, and \"now listed\" is cut. \"rising-star\" is an established site tag."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "\"Next\" and the tour dates are cut, the paragraph is anchored to October 11, 2026, and the review calendar and fallback date are in the evidence record."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "This profile does not use them as evidence of her character or her type.",
+      "preserved": true,
+      "reason": "Present verbatim, closing the allegations paragraph, and the settle section now honors it."
+    },
+    {
+      "passage": "The limits are plain. Each instance is her own retelling, given during a campaign whose storyline is that she found her real sound.",
+      "preserved": true,
+      "reason": "Present verbatim, directly after the pattern and publisher paragraphs."
+    },
+    {
+      "passage": "But these are a few short posts from a managed autumn, and declining to fight critics is ordinary media advice.",
+      "preserved": true,
+      "reason": "Present verbatim, directly after the tour-apology reading it limits."
+    },
+    {
+      "passage": "The publisher story has two versions. In The Line of Best Fit, the publisher declined to sign her.",
+      "preserved": true,
+      "reason": "Changed for accuracy: Vanity Fair gives a third account. It now reads \"three versions, which differ on who ended the deal\", and the second sentence is verbatim. The contribution, reporting the conflict instead of choosing a telling, is kept."
+    },
+    {
+      "passage": "that it had reviewed materials showing clearance from Sony Publishing in June.",
+      "preserved": true,
+      "reason": "Present verbatim, as the first item under the disputed-and-documented heading."
+    },
+    {
+      "passage": "she put two takes of the unfinished \"Boston\" chorus, one smiling and one less so, on a side account \"where I post things that I'm like not so sure about,\" guessing that \"the smiling one will do better.\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "The tour apology repeats the Los Angeles sequence in miniature: she set aside her own inclination on advice, then called it a mistake.",
+      "preserved": true,
+      "reason": "Kept with a conditional in front (\"If she did want to announce it\"), which critic-07 required because the wish is stated inside an apology. The tie back to the earlier pattern and the limiting sentence after it both survive."
+    },
+    {
+      "passage": "She was 19 or 20 in 2022.",
+      "preserved": true,
+      "reason": "The fact survives as a clause where the clip is introduced (\"posted when she was 19 or 20\"), one sentence before her \"stupid teenager\" reply, so a reader can still test her wording against her age. Removing the standalone sentence is fair: nineteen is a teenager and the clip is dated only to 2022."
+    },
+    {
+      "passage": "Each instance is her own retelling, given during a campaign whose storyline is that she found her real sound.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "Taken alone, that is a person who meets a challenge by conceding. Two other explanations fit.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "Appetite on that scale, and posting through her friends' objections, do not fit an easygoing, conflict-shy picture.",
+      "preserved": true,
+      "reason": "Present verbatim; no wing, arrow or subtype is brought in to absorb it."
+    },
+    {
+      "passage": "And Alpert, who had a stake in a flattering story, may no longer manage her.",
+      "preserved": true,
+      "reason": "Present verbatim, followed by the dated Billboard attribution."
+    },
+    {
+      "passage": "saying yes can come from four different places. A [Type 9](/enneagram-corner/enneagram-type-9) says yes to keep things calm and finds out what she wanted afterward. A [Type 7](/enneagram-corner/enneagram-type-7) says yes while it is fun and leaves when it stops. A [Type 6](/enneagram-corner/enneagram-type-6) says yes to people she trusts, then wonders whether she should have. A [Type 3](/enneagram-corner/enneagram-type-3) says yes to whatever is working.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "The record also cannot explain why a room frightened her for years when a phone, hundreds of times over, did not. She says only that one listener is harder than thousands.",
+      "preserved": true,
+      "reason": "Changed because the original ran past Rolling Stone's report of in-person gigs and \"says only\" could not be supported. The contradiction is still left open: \"A contradiction stays open. She says one listener is harder than thousands, yet she sang to a phone almost daily and, by Rolling Stone's account, to rooms as half of a duo.\""
+    },
+    {
+      "passage": "she put two takes of the unfinished \"Boston\" chorus, one smiling and one less so, on a side account \"where I post things that I'm like not so sure about,\" guessing that \"the smiling one will do better.\" It did.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "\"Everyone seems a little panicked that we won't make it where we need to go in time, except for Lefty herself.\" Told afterward about her capacity crowd, Lefty said, \"I just need to go home and write more songs!\"",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "Whichever read wins, what the record already shows should stand. She hid her singing from rooms for years and showed it to a phone almost daily.",
+      "preserved": true,
+      "reason": "First sentence verbatim. The second lost \"hid\", which assigned intent and contradicted the duo gigs, and now reads \"By her own account she dreaded singing in front of people as a child, yet she posted her singing almost daily.\" \"Dreaded\" is her own word in The Line of Best Fit. The type-neutral takeaway is kept."
+    },
+    {
+      "passage": "In the Enneagram, a nine-type model of core motivation, saying yes can come from four different places.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "A Seven who felt boxed in by advisers would be expected to move on fast. She stayed about a year.",
+      "preserved": true,
+      "reason": "The test is kept and made conditional on her later tellings, with a note that it does not apply to her earliest one. It is still the one place a rival read meets a dated, costly behavior."
+    },
+    {
+      "passage": "Nearly every accommodating act also has a practical explanation.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "Whichever read wins, what the record already shows should stand.",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "Every interview found for this profile dates from March to August 2026, inside one promotional campaign",
+      "preserved": true,
+      "reason": "Present verbatim in the candidate."
+    },
+    {
+      "passage": "\"You don't get to tell me what I am.\"",
+      "preserved": true,
+      "reason": "Present verbatim as the opening line."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": false,
+  "open_case_eligible": true,
+  "scores": {
+    "evidence": {
+      "score": 8.4,
+      "passage": "The limits are plain. Each instance is her own retelling, given during a campaign whose storyline is that she found her real sound.",
+      "reason": "I reopened all 27 sources behind the final claims (25 live, two in archive captures) and traced all 75 quoted strings; every print quotation matches in wording, speaker and context, and writers' words are kept apart from hers (\"Rolling Stone's writer says she turned it down\"). Interested witnesses are flagged, disputes carry both sides, and limits sit at the point of use. Held below 9 by caption-sourced quotations that no person has heard (one adverb is unconfirmed), two outlet-relayed posts, and three small wording slips (verify-02 to verify-04). The record is thin and the article says so; I found no overreach."
+    },
+    "enneagram": {
+      "score": 8.3,
+      "passage": "Nothing firm yet favors Nine over Six. Nine leads on thin grounds, the ease of her concessions and a reporter's glimpse of composure, and each has an ordinary explanation.",
+      "reason": "Scored against the open-case anchor. Each read is argued from her own dated statements: Nine from the Los Angeles year and the Kahan concession, Six from \"I always worried\" and \"really had me spiraling\", Seven from \"I will not pick a lane\", Three from the smiling take and \"TikTok decides\". The article names what does not discriminate and what would, and claims no more confidence than the record holds. Short of higher because the lead over Six is admitted to be near a coin toss, the comply-then-reverse pattern has one long instance and one doubtful one, and the \"saying yes\" frame starts from the Nine description of her behavior."
+    },
+    "originality": {
+      "score": 8.6,
+      "passage": "she put two takes of the unfinished \"Boston\" chorus, one smiling and one less so, on a side account \"where I post things that I'm like not so sure about,\" guessing that \"the smiling one will do better.\" It did.",
+      "reason": "The insight is specific to her and comes from reading the interviews by date: her account of the Los Angeles year changes from her own pivot in March to other people's direction by May. The smiling-take test, the one-listener fear beside daily posting, and the three versions of the publisher story are details no other profile could reuse. Type boilerplate is limited to four one-line motives."
+    },
+    "writing": {
+      "score": 8.1,
+      "passage": "So the pattern this profile counts runs one way: she complies first and reverses later. The Los Angeles year fits it, at length.",
+      "reason": "Plain, exact sentences, sections that each add something, and a close that says what stands whichever read wins. The cost of the care is density: the allegations section reads as a ledger, attributions and hedges slow the Type sections, and at about 3,000 words the piece runs past the open-case target of roughly 1,200 to 2,500. Nothing is padding, but the middle sags."
+    },
+    "durability": {
+      "score": 8.6,
+      "passage": "As of October 11, 2026, two changes have no first-person account: the end of her opening slot on Wetmore's tour, and a split from her managers that Billboard reported on September 27, 2026, citing unnamed sources, and that no party has confirmed.",
+      "reason": "Scored against the open-case anchor. Every changing fact carries an absolute date or an as-of date, each time-sensitive claim has a trigger, and the three settle signals plus the 2026-12-01 review date (with a stated fallback) make the page easy to reopen. The hook and the pattern rest on 2024 and 2025 episodes, and the closing paragraph would stay true if a later run settled on Six, Seven or Three. I set the five-year flag to false because an open case is provisional by design and schedules its own reopening; that does not block release in this format. One present-tense status (her older posts being offline) rests on a September report."
+    },
+    "hook": {
+      "score": 8.7,
+      "passage": "\"You don't get to tell me what I am.\"",
+      "reason": "A sourced, exact line from a 2024 episode, followed at once by the turn that makes it interesting: she spent the next year making what, in most of her later tellings, others told her to make. The article pays it off twice, as the mirror image of the pattern and in the close. The qualifiers arrive early, which is honest and takes a little force off the opening."
+    },
+    "discoverability": {
+      "score": 8.4,
+      "passage": "Leading read: Type 9, held loosely, at low confidence. Type 6 is the closest rival, and Types 7 and 3 are still live.",
+      "reason": "Title, meta title (61 characters) and description (158) use open-case language and match the body. The type heading is followed by a 55-word answer that the first FAQ repeats word for word. Six FAQs answer real searches (type, rival type, father, age, the Kahan credit) and their anchors resolve to headings. Internal links go to four type guides and the Noah Kahan profile, and all five suggestions are published pages. The body has only one link to another person, and the title is long."
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "d84f3588771e062e43e6daadb43d2a2b4a12833268f413005adabe2fd636e8e1",
+  "evidence_sha256": "c449879c8f33ba401d03284330187d8d5280a127b306cb70e57be5e3493d9908",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "blocker",
+      "passage": "loc: 'https://9takes.com/personality-analysis/Mark-Fischbach'",
+      "problem": "This would be a second page about one living person. The site's published profile at /personality-analysis/markiplier (src/blog/people/drafts/Markiplier.md, published: true, enneagram: 7) reads him as Type 7. This draft reads him as Type 1 under his legal name, and neither page mentions the other. Publishing both has 9takes asserting two incompatible readings of the same man at once, which is unfair to him and discredits both. The draft's own production_pretext blocker says so, and because the run is create-mode with an empty baseline nothing else forces that blocker to be adjudicated. The research notes also list statements on the live page that this record contradicts (a $52 million 'opening weekend', last words spoken to 'his sons').",
+      "acceptance_test": "Passes only if one of these is recorded in resolution-edit.json. (a) DJ's explicit decision: this reading replaces the live page under one URL (Markiplier --refresh --expanded-review), or a separate legal-name page is confirmed together with a plan that stops the two pages disagreeing on his type. (b) The run is held: the duplicate_subject blocker stays word for word in production_pretext.blockers, ready_for_production stays false, and nothing is treated as publishable at this URL. The editor does not clear or reword the blocker on their own authority."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "a former head moderator wrote that he was disappointed \"that you didn't care enough to reach out.\"",
+      "problem": "The paragraph quotes the accuser and omits the reply. The same Deltia's Gaming article (opened here from the saved Wayback capture) reports that Fischbach answered: he said he never saw the moderators try to contact him and saw only the inactive marker beside their names, cited the holidays for the delay in replacing them, and tied the members-only rule to memberships funding his larger projects. 'Noted here and not interpreted' does not hold when the episode is introduced as 'the nearest thing' to someone disagreeing with him 'at work' and only one side is heard. The article also calls the moderator 'he'; the source gives no gender. 'No one who has disagreed with him at work is on record' states the limit of this search as a fact about the world.",
+      "acceptance_test": "Either the episode is cut, or the same paragraph reports Fischbach's reply as relayed by that article (he said he saw no attempt to contact him, only an inactive marker by the moderators' names) next to the moderator's complaint, refers to the moderator without a gendered pronoun, and still says the Reddit posts were not opened. 'No one who has disagreed with him at work is on record' becomes a statement about what this profile found. C37 is updated to match."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "Something in him scored a break taken for a death as time he should have been working.",
+      "problem": "Two grief videos are trimmed to fit the thesis. (1) The quotation stops at 'recording something right now'. His next words in the captions are 'people are probably losing their mind', and he goes straight on to the fear that viewers would forget him. His own account ties the nagging thought to the audience, yet the draft says 'neither business nor optimism explains' it and supplies an inner scorekeeper. That is an imagined motive attached to a bereavement. (2) 'What he chose to praise in his friend was a standard' misdescribes the announcement. He mostly calls Kyre a good friend, an inspiration and a positive influence, says he will take time and reach out for help, and asks viewers to leave the family alone. 'Try harder' follows a remark about losing Kyre's editing methods. (3) 'Very beautiful' describes the love Kyre's family and friends showed in South Carolina; the draft files it as a Type 7 reframe without saying so.",
+      "acceptance_test": "The section no longer says business or audience fear cannot explain the thought. The quotation includes 'people are probably losing their mind', or the prose says he linked the thought to viewers in the same breath. Any inner-critic reading is marked as the author's inference, with the audience explanation left standing as possibly sufficient. The announcement is described as praising Kyre's friendship and influence as well as his care over editing, and 'very beautiful' is given with what he was describing. C10, C46 and C58 are updated to match."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "When he reframes pain, it is to justify staying. Describing a biopsy he was awake for, he told Padilla, \"this pain is necessary, this pain is actually essential to me getting better.\"",
+      "problem": "The discriminator's only example of reframing pain 'to justify staying' is a patient describing a tumor biopsy. In the interview 'getting better' means recovering, and he says he is not sure he had to be awake ('they're like, yeah, well, let's have him be awake for this'). Nothing was chosen and nothing was stayed in. Reading a medical procedure as a motive, and letting this 'better' blur into the self-improvement 'better' the article leans on elsewhere, turns a health disclosure into character evidence it cannot carry. The general sentence is then stated as fact about his motives on that one example.",
+      "acceptance_test": "The biopsy remark is removed from the discriminator, or it is presented with a clause saying he was describing a medical procedure and his recovery. 'When he reframes pain, it is to justify staying' is cut, or hedged as the author's reading and supported by a non-medical example quoted in context. C17 and C57 are updated to match."
+    },
+    {
+      "id": "subject-05",
+      "severity": "major",
+      "passage": "He called that his \"guiding star.\"",
+      "problem": "The source sentence continues: 'that's been my, you know, my guiding star going forward is just, you know, I believe in myself enough to make up for the shortcomings that I know are there.' The guiding star he names is self-belief. The line about judging himself comes as reassurance about going on camera, which he has just said 'opens yourself up to a lot of judgment'. Cutting the second half makes the article's central quotation, and the reading built on it, harsher than what he said.",
+      "acceptance_test": "The paragraph gives the rest of the sentence ('I believe in myself enough to make up for the shortcomings that I know are there') or says accurately what he called his guiding star, and notes he was talking about facing judgment on camera. C26 is updated to match."
+    },
+    {
+      "id": "subject-06",
+      "severity": "major",
+      "passage": "Of the years spent making it, he told Slate, \"I already hated myself more and this movie more than anyone\" else could.",
+      "problem": "The article builds toward a man who punishes himself and never gives his own answer to that reading, which sits in the Slate passage it quotes repeatedly. He said the 'hated myself' line while explaining why critics do not bother him. Moments later he said: 'I am horribly addicted to the cycle of making things and pushing myself. Some people call me a masochist on that one. And I'm not a masochist. I just like seeing how far I can go,' and then 'I love the feedback loop.' That is his direct response to the interpretation on offer, and it is also evidence for the Type 7 and Type 3 alternatives. Using the lines on either side and leaving this out is selective.",
+      "acceptance_test": "The article quotes or closely paraphrases, attributed to the Slate interview, his statement that he is not a masochist and likes seeing how far he can go, placed where the self-hatred line or the discriminator is discussed. The 'hated myself' line is introduced as part of his answer about critics. The evidence record has a claim covering the added quotation."
+    },
+    {
+      "id": "subject-07",
+      "severity": "major",
+      "passage": "His answer to the crisis is a resolution:",
+      "problem": "The section presents a tearful 'crisis' and omits what he said about his own state in the same video, three times: at the start ('honestly I'm not depressed'), midway ('I actually am happier than I have been making videos') and near the end ('I said I'm not depressed and that's 100% true. I'm happier than I've ever been'), along with 'I'm not quitting.' Without that, readers are left to infer a mental-health episode he explicitly ruled out.",
+      "acceptance_test": "The section states, attributed to the vlog, that he said he was not depressed and was happier than he had been. 'Crisis' is replaced with his own framing or sits beside that statement. The evidence record has a claim covering the added quotation."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "In 2026 he reached for his father's phrase to describe what his audience can count on:",
+      "problem": "'Half-ass' is Fischbach's word about his father in 2022. The record does not show his father using it, and the 2026 answer does not mention his father. 'Reached for his father's phrase' invents a deliberate echo and a link to a dead parent. The next paragraph concedes the phrase is common, but this sentence still asserts the link.",
+      "acceptance_test": "The sentence says he used the same phrase he had used about his father in 2022, without attributing the phrase to his father or implying a conscious echo. C28 is updated to match."
+    },
+    {
+      "id": "subject-09",
+      "severity": "minor",
+      "passage": "persona_title: YouTube's Strictest Self-Critic",
+      "problem": "'Strictest' ranks him against every other YouTuber and no source supports it. The title ('Nobody Judges Him Harder Than He Does') and meta_title ('His Harshest Judge Is Himself') restate his own sentence as fact in the site's voice, while the body attributes it to him and holds the reading at medium confidence on self-report. The source sentence is also about self-belief (see subject-05).",
+      "acceptance_test": "No metadata field carries an unsupported superlative about him. The title and meta_title either attribute the self-judgment claim to him or describe the pattern without asserting it as settled fact, and meta_title stays within 35 to 65 characters."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "These are a son's words about a dead parent, drawn out by a leading question, and \"half-ass\" is a common phrase. They show the standard he claims and where he says he got it. They do not show that his father's death produced it.",
+      "reason": "States the limit of a childhood-origin claim at the point the claim is made, and refuses the wound story the material invites."
+    },
+    {
+      "passage": "All of that is self-report, told after the film had succeeded, when hardship reads as heroism. No account from Nelson was found.",
+      "reason": "Marks his costliest claims as his own telling and names the witness who has not spoken."
+    },
+    {
+      "passage": "He attributes the idea-jumping to ADHD, which describes attention and says nothing about motive either way.",
+      "reason": "Reports a health disclosure in his terms and declines to use it as type evidence."
+    },
+    {
+      "passage": "Fischbach says Szymanski shares in the film's profits, and Szymanski called himself \"the least unbiased source you could hear from.\"",
+      "reason": "Discloses the financial interest of the one outside witness to the work, in the witness's own words."
+    },
+    {
+      "passage": "Nearly everything above is Fischbach describing himself, usually to friendly interviewers and mostly after a success. The outside voices are few and warm.",
+      "reason": "Tells the reader plainly what kind of record the whole reading rests on."
+    }
+  ],
+  "assessment": "On its surface the body is fairer than most profiles: self-report is labelled, witnesses' interests are disclosed, ADHD and the tumor are not turned into diagnoses, and the father material stops short of a wound story. The problems sit where the thesis needed a quotation to say more than it does. I checked the passages below against the saved captions and page captures for S03, S04, S05, S08, S10, S11, S15, S22 and S25. These are machine captions, not a human listen, and S08 has no speaker labels. In six places the source's next sentence changes the meaning: the moderator's complaint has a reported reply, he ties the 2015 'voice' to viewers, the eulogy praises a friend more than a standard, the biopsy line is a medical remark, the 'guiding star' is self-belief, and 'I'm not a masochist' and 'I'm not depressed' are his own answers to readings the article leaves standing. Each fix is a clause or a sentence, and none of them breaks the Type 1 case, but together they decide whether the portrait is of a man with a standard or a man who punishes himself. The largest fairness risk is outside the prose: 9takes already publishes him as Type 7 at /personality-analysis/markiplier, and this draft would add a second page that disagrees. Risk flags: contested_typing and major_thesis_change carry over from research. I add sensitive_allegations because the draft relays a single-sourced complaint about how he treated volunteers without his reply, and uses a friend's suicide and his own medical history as type evidence. The complaint itself is mild. Kyre's death is kept to one clause with no detail, consistent with Fischbach's own announcement ('an apparent suicide attempt'), which could be cited in place of Wikipedia. Similarity: the one tripped pair (aaron-pierre, 0.05) is the phrase 'organized around' in a type definition; the arguments differ and I found no meaningful reuse. This review is a fairness proxy and does not speak for Fischbach."
+}

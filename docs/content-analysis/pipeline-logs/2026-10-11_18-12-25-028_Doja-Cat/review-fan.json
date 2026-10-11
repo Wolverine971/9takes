@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "59aedac8724bf4199f220b5a2ba56c8b203a218d772f448e46d4e33aa21cb1bd",
+  "evidence_sha256": "7d48e212c47ec76e8a214fdf4594e35f2396c06ffcf6b2b39ece52a6b0a388be",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "Appeasement, a flip when it is refused, collapse, repair. The sequence repeats with different casts:",
+      "problem": "Neither episode listed under this sentence shows the sequence, and both are well known. Threads 2023: the cited W Magazine piece says the fight began when fans pressed her to address allegations against her then-boyfriend; she refused at once (\"I don't give a fuck what you think about my personal life\"), answered a fan who asked her to say she loved them with \"I don't though cuz I don't even know ya'll,\" and about three weeks later called the unfollows freedom. No appeasement, no repair. Auckland 2025: the first reply the cited Complex piece quotes is \"I won't and I don't need you.\" The evidence record concedes the point (C96 and C104 alternatives: Threads \"began with an insult, not an accommodation\"), but the page and the title's \"Every Blowup\" do not. Even Paraguay's repair is tidier than the record: days after \"I owe a lot\" she answered a radio station's doubt with \"Yes the fuck I am\" retiring (S-CXQUIT22; in claim C38, not on the page).",
+      "acceptance_test": "The bridge sentence, title and meta_title claim only what the dated episodes show. Each listed episode either shows its accommodation and repair steps from a cited source or is presented as a blowup that does not follow the order. The Threads bullet states its trigger neutrally and with attribution (pressure over her relationship, with no detail of the third-party allegations beyond the source's own framing). One or two sentences say what separates the blowups that follow a long yes from the ones that open with a flat no. The Paraguay account includes or accounts for the renewed retirement claim."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "Her record shows a repeated order: she goes along first and erupts later, over a stage name, two hit albums and a fan's hug.",
+      "problem": "The record contains no eruption over the stage name. Rolling Stone's parenthetical says she tried a few times to change it and was persuaded otherwise by a former manager; her only quoted feeling about it is mild (\"it didn't hurt my feelings, but it definitely hurt my feelings\"). That is yielding, not erupting. The 60-word answer and the first FAQ both list it as a case of erupting later, so the page's headline answer overstates one of its three exhibits.",
+      "acceptance_test": "In the type answer and its matching FAQ, \"erupts later\" is attached only to episodes with a documented outburst; the stage name is described as the source shows it (she objected, was talked out of it, and kept it). The answer stays within 60 words and the FAQ mirrors it."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "Her breakthroughs, as she tells them, mostly happened to her.",
+      "problem": "This bends her best-known origin story. Sources already in the record describe \"Mooo!\" as self-started from end to end: she phoned her manager to announce \"I'm going to make a song about cows\" and by the end of the day had written, produced, recorded and filmed it in her bedroom (S-BB21); Rolling Stone places it at a point when \"her label had little idea what to do with her\"; Vogue calls it \"self-released.\" Of her bedroom years she told Billboard, \"I saw potential in myself even though I was still aware it wasn't good. And I really wanted it.\" What \"was definitely not supposed to happen\" was the virality, not the making. The second quotation (\"I rely on my career to just throw me out to places\") answers a question about travel. The sentence also hides the more telling fact for a whose-plan argument: the breakthrough came from the one project that was wholly her own.",
+      "acceptance_test": "The paragraph separates making the work from its going viral, does not offer the travel quotation as evidence about breakthroughs, and includes or squarely answers \"And I really wanted it\" (or equivalent sourced evidence of self-started drive). Any remaining claim of passivity is no wider than the quotations support, and the revised wording is in the claim inventory."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "And her latest reinvention is a return. _Vie_, released on September 26, 2025 with [Jack Antonoff](/personality-analysis/jack-antonoff) as lead producer, is in her words to Elle UK \"a reminder that I can go back.\"",
+      "problem": "Two problems. (1) The quotation is cut mid-sentence. Elle UK prints: \"Vie is a reminder that I can go back, or I can do what I want without having to remain in the state of Scarlet.\" The dropped half is about not staying put, which helps the Seven reading this paragraph argues against; the Type 7 FAQ repeats the cut. (2) The page never says that she also brushed off Scarlet, the album she made \"for me\" (\"a massive fart\"; \"it didn't get me all the way there\"), called Vie \"a continuation of Planet Her and Hot Pink\" (S-RVNYT25, a relay of an unopened New York Times piece), and in 2026 spoke warmly of Planet Her (S-ELLEUK26). She disowns each era in turn, including the one that was her own plan, and went back to the \"cash-grab\" lane by choice. That weakens \"Two albums in the lane that sold preceded 'cash-grabs'\" as evidence of accommodation followed by objection. The record knows this (C07 alternative, C56); the reader is not told.",
+      "acceptance_test": "The Elle UK sentence is quoted in full or paraphrased without implying it only describes a return, and the Type 7 FAQ matches. The body states, dated and attributed, that she later dismissed Scarlet and returned to the Hot Pink and Planet Her lane, marking the New York Times lines as relayed by Revolt or using the first-hand CBS line \"I'm just in a place where I want to do what I know.\" The order argument either drops the two-albums exhibit or explains why serial disowning does not weaken it."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "She has called herself the opposite. Asked in 2021 about a Nas lyric aimed at her, she told Rolling Stone: \"I'm also very nonconfrontational, and I don't like the vibe of trying to prove myself to somebody that I don't need to.\"",
+      "problem": "The quotation stops one sentence early. Her next words in Rolling Stone are \"I don't think I really need to respond to that without humor,\" and the magazine continues, \"And indeed, she did\": she had teased the song \"Ain't Shit\" under the title \"N.A.S.\" The same passage says she first claimed the lyric \"didn't hurt me\" and that \"it's clear that it has wounded her.\" In the source, then, \"nonconfrontational\" describes answering sideways with a joke at the other person's expense. That is the trolling this section is trying to complicate, not its opposite. The reader is also never told what the lyric said (Nas called himself \"unapologetically Black\" and \"the opposite of Doja Cat\"), so cannot judge what she was declining to fight about.",
+      "acceptance_test": "The passage carries the \"without humor\" sentence and Rolling Stone's report that she did answer with a joke, or it no longer presents the quotation as evidence that she is the opposite of a fighter. One clause, attributed to Rolling Stone, says what the lyric was about."
+    },
+    {
+      "id": "fan-06",
+      "severity": "major",
+      "passage": "The style was learned by matching a room.",
+      "problem": "The origin is offered as mitigation with the appetite and the cost left out. The same Paper passage describes a \"near-'religious' obsession\" with a chatroom that \"she still frequents to this day\" (2019, as an adult), and its next paragraph ties the habit to the 2018 backlash over a resurfaced tweet containing a homophobic slur. In Interview (2021) she says of her Periscope streams, \"I would just be yelling at and roasting people,\" and \"I love going in on people.\" The May 2020 chat-room videos and song title, which the record calls the most serious allegation of her career (C42), appear only in an FAQ, and the 2018 episode appears nowhere. So the section headed \"The troll problem\" never meets its hardest cases, and the body reads as sympathetic by omission.",
+      "acceptance_test": "The troll section includes, dated and attributed, (a) at least one of her own statements that she sought this out and enjoyed it (the Periscope line or Paper's \"still frequents\"), and (b) one sentence stating that the habit led to the 2018 and May 2020 backlashes, carrying her denial and Rolling Stone's \"no evidence\" sentence wherever the chat room is characterised, consistent with the FAQ. Alternatively the mitigating sentence is removed. Nothing is characterised beyond what the opened sources state."
+    },
+    {
+      "id": "fan-07",
+      "severity": "major",
+      "passage": "she stayed for years inside a name and a lane she objected to",
+      "problem": "The list of long arrangements skips the longest one. She signed as a teenager to Dr. Luke's Kemosabe imprint and, per Vogue in March 2026, is still associated with it. Rolling Stone, the draft's most-used source, calls that association \"perhaps the most notable\" of the controversies around her, reports a post-signing limbo in which \"the label wasn't paying much attention to her,\" and records a hesitation, a candid burst (\"I don't think I need to work with him again\") and an emailed walk-back, which is this article's own cycle. Vogue adds that she later dismissed her debut album as rushed under label pressure. A profile titled \"The Long Yes\" that keeps all of this in one FAQ will look evasive to anyone who knows her career. The stated reason for the omission is also mistaken: the record says no opened source gives Dr. Luke's denial (C43 alternative, research task 15a), but S-RS21 states, \"Dr. Luke has denied Kesha's allegations and sued her for defamation.\"",
+      "acceptance_test": "Either the body carries a short attributed passage on the signing and the 2021 exchange (her words, the follow-up statement, the denial as Rolling Stone reports it, no claim about why she stays, and the litigation's current status sourced before it is described), or one sentence says plainly that the profile leaves the label relationship unread and why. In both cases the evidence record's note that no opened source gives the denial is corrected."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "Across seven years the person inside the costume keeps asking for less: a week to chill, to be home, to do nothing for a while.",
+      "problem": "One-sided against sources in the record. A month before Paraguay she told Billboard that performing \"has blossomed into something that makes me just as happy\" as making music, and \"I feel most powerful when I am fully in character onstage\"; of idling at home she said, \"There's only so much of that that you can do\" (S-BB22). Elle UK's writer reads her \"three years off\" as \"something that isn't too quiet\" (she lists a mural and furnishing a floor of her house). The research note says to quote both halves of the Billboard answer or neither; the draft used neither, so the limit on the homebody reading is missing. Anyone who has watched her perform will notice that the stage is absent from the portrait.",
+      "acceptance_test": "The hermit section or the close includes one sourced line on what she gets from performing or on the limit she puts on staying home, and the closing generalisation is reworded to fit it."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "When the no finally arrived, it arrived like this: \"instead of closing the door, I kicked it and the knob fell off. And so now the door is fully open.\"",
+      "reason": "Her own image for the whole pattern, set up in one plain clause and paid off by the last line. It is the detail a reader who knows the episode only as a deleted tweet will not have seen."
+    },
+    {
+      "passage": "That last admission does not rescue the Nine reading. A show of size put on when you feel exposed is exactly what the next type predicts.",
+      "reason": "The article hands its best counter-evidence to the rival type instead of absorbing it. This is the opposite of flattery toward its own thesis and should survive the edit."
+    },
+    {
+      "passage": "A life arranged for quiet, and a person who is lonely inside it: the type argument does not tidy that up.",
+      "reason": "States a real contradiction in her own testimony and leaves it standing. Keep it unresolved."
+    },
+    {
+      "passage": "Neither account can be checked from outside, and this profile builds nothing on either.",
+      "reason": "The father dispute is given with his denial and no childhood wound is built on it. Any edit to this section should keep that restraint."
+    },
+    {
+      "passage": "Notice where the fantasy goes: somewhere quiet, with her people.",
+      "reason": "A specific reading of the cash-grabs tweet that most coverage missed: the insult is the headline, the wish to disappear with loved ones is the content. It holds even if the tweet's weight in the order argument is reduced."
+    }
+  ],
+  "assessment": "Read as someone who knows her career, the central observation is real and specific to her: the October 2021 tweets, the June 2025 hug, \"I'm not really trying to fight them\" and the kept \"Paint the Town Red\" show a person who agrees in the room and objects later. The father dispute, her March 2026 statement and the Type 6 case are handled with care, and the page is unflattering to its own thesis where it should be. The weakness is over-extension. The page claims the order for every blowup, but her best-known fights (Threads 2023, Auckland 2025) open with a flat no; one exhibit has no eruption at all (the stage name) and another is undercut by her later return to the lane she disowned. The \"Mooo!\" and Nas passages bend well-known source material toward passivity and peaceableness, and the body leaves its two career-level controversies (the 2020 chat-room episode and the Dr. Luke label) to FAQs. The order discriminator therefore rests on fewer clean cases than the page implies, and the typing stays contested. Lesser notes, not raised as findings: the Type 4 dismissal leans on a 2021 quotation that Scarlet and Vie have outdated, and the fever scene omits that she had just called out \"My throat and nose are really fucked up\" before saying everything was great. Method: each passage named in a finding was checked against the saved text of the cited public source. I did not replay video, and 2025-26 material rests on the record. Two leads from general knowledge, unverified here and worth a research look because they pull in opposite directions: the July 2022 Noah Schnapp direct-message episode (an immediate public no) and the 2022 Taco Bell TikTok in which she called the jingle contractual (going along while saying so). Similarity: the advisory tripped on a single pair sharing \"keep the peace\" with the Austin Abrams draft. From the excerpts supplied, that is ordinary type vocabulary inside different arguments; I found no meaningful reuse, with the limit that I saw only the diagnostic's excerpts."
+}

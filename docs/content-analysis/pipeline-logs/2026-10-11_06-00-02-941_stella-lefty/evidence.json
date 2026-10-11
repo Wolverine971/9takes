@@ -1,0 +1,978 @@
+{
+  "schema_version": 3,
+  "subject": "stella-lefty",
+  "status": "ready",
+  "research_tasks": [
+    "Research log (2026-10-11, first run, mode create, empty baseline). Opened 33 sources and failed to open 2 (S34, S35). Read in full: the Rolling Stone feature (S01), the Vanity Fair profile (S02), The Line of Best Fit, Billboard, SongwriterUniverse and Elite Daily interviews (S03-S06), and caption transcripts of nine video interviews dated March 27 to August 19, 2026 (S07-S15, about 23,000 words). Read the controversy coverage, two album reviews, The New Yorker essay and the trade reports through October 6, 2026. Evidence was gathered before a type was chosen. Outcome: no defensible discriminator; subject meets open-case eligibility (adult, breakout in January to March 2026, the entire interview record is one seven-month promotional cycle). Status ready, profile_format open_case, leading read Type 9 at low confidence, Type 7 as the alternative, Types 6 and 3 live. Risks set: contested_typing (required) and sensitive_allegations (plagiarism and bought-career allegations, C13 and C14), so the six-role jury applies.",
+    "Accuracy check (2026-10-11). Latest developments found: Billboard's September 27 report that she left Disruptor Management (C18); the October 1 cut-for-time SNL sketch and her response (C16); the October 6 report that Shaylen and TAELA allege her unreleased song 'Badly' copies 'WATCH THIS', with no response from her (C13). No statement from her on the song-similarity allegations was found. Grammy nominations are due November 16, 2026 (C31). open_case.next_review is set to 2026-12-01, after those nominations and the announced end of her first headline tour on November 23, 2026.",
+    "Drafting guidance (open case). Follow the standard's 'Open case profiles' section: open with who she is and why people are searching (No. 2 Hot 100 single, debut album, backlash), then name the open question. Show what the record does show, dated and sourced, with limits. Set Type 9 beside Types 7, 6 and 3 with the best evidence for and against each. Include an H2 beginning '## What would settle it' built from open_case.settle_signals. Keep '## What is Stella Lefty's personality type?' with an answer of at most 60 words in 'leading read, held loosely' language. Target 1,200 to 2,500 words. Titles, description and FAQs must say 'leading read' or 'open case', never 'is a Type 9'. Set enneagram: 9 and published: false.",
+    "Allegations rule (from the queue entry and the standard). Plagiarism and bought-career claims are allegations: attribute each to its accuser with a date, state which comparisons carry credits (Kahan; Sillers and Selby) and which do not, note that no legal claim or finding has been reported, and never use them as evidence of character or type. Do not adopt Paste's 'impending lawsuit' wording (S33) or the nickname coined by her critics in the article's own voice.",
+    "Quotation cautions. S07-S15 are caption transcripts without speaker labels: check each printed quote against the video's audio and timestamp. Do not quote as hers: 'It lowers my cortisol' (S07, about 06:10), 'With one person... do you hate me?' (S13, about 03:33) or 'Why change... If you loved it at 15' (S15, about 07:37) unless audio confirms the speaker. 'Addicted to the virality' is the host's paraphrase (S07). The Variety quote reproduced in S31 has no opened original. Vanity Fair's 'preventing any risk of legal action' is the writer's phrase, not hers.",
+    "Sensitivity. Her mother's cancer and her friend's death (C25) are single-source and concern other people's health: use only as her stated reason for studying public health, with no causal personality claim, no name for the friend and no update on her mother. Do not print a net-worth figure without a dated attribution (C02). Use the full birth date only as supported in C01.",
+    "Follow-up worth doing before or at the next refresh: (1) transcribe the Big D and Bubba interview (YouTube NXhU_I6LBZM, July 27, 2026; captions were rate-limited) and the Jamie and Faye podcast episode of July 10, 2026; (2) locate and open the original Variety interview and the Taste of Country Nights interview; (3) open the Washington Post (S34) and People (S35) pieces through a subscription; (4) look for any long-form interview given after September 27, 2026, and for testimony from anyone who knew her before 2024; (5) view her own posts for the tour apology, the Rodrigo reply and the SNL response instead of relying on outlets' quotations."
+  ],
+  "accuracy_checked_at": "2026-10-11",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.rollingstone.com/music/music-features/stella-lefty-boston-history-father-tiktok-1235585127/",
+      "title": "Stella Lefty Was Covering Noah Kahan on TikTok. Now She Has One of the Year's Biggest Songs",
+      "speaker": "Stella Lefty, interviewed in person by Marissa R. Moss (Rolling Stone); also quotes Adam Alpert, Wyatt Flores and Dan Smyers",
+      "date": "2026-06-29",
+      "locator": "Feature body. CMA Fest scene (opening four paragraphs); 'I love to post' paragraph; mother's diagnosis and best friend's death paragraphs; publishing-deal paragraph ('You seem more like an artist'); Alpert quote ('I don't even want feedback'); 'unnatural' / 'Double-edged sword' paragraph; closing paragraph ('go home and write more songs').",
+      "excerpt": "“They said to me, ‘You seem more like an artist,’ which really pissed me off at the time because I was like, a bunch of dudes don’t get to tell me what to do,” [...] “It’s just so unnatural to see so many people having opinions about me,” [...] “At the end of the day, I just focus on the people that do. This is what I decided to do. Double-edged sword.”",
+      "context": "The only long in-person feature so far. Reported at CMA Fest in Nashville in June 2026, with her parents and boyfriend present. The reporter's own observation: 'Everyone seems a little panicked that we won't make it where we need to go in time, except for Lefty herself.' Source for her mother's cancer diagnosis when she was 13 and her high-school best friend's death (her account, partly paraphrased by the writer). Alpert was her manager at the time and is an interested party; Flores and Smyers are performers she has shared stages with.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.vanityfair.com/story/stella-lefty-boston-new-album",
+      "title": "“Boston” Singer Stella Lefty May Be a Billionaire. But She’s Not a Nepo Baby",
+      "speaker": "Stella Lefty, interviewed in person by Abigail Sylvor Greenberg (Vanity Fair); also quotes Jacob Kasher (by email), Grace Enger and Vincent Mason",
+      "date": "2026-08-21",
+      "locator": "Profile body. 'Who is this girl?' and 'The only thing they know is about my dad' (opening section); LA paragraph ('I got really lost in the scene'); Tragic, Really paragraphs ('very low views'); 'TikTok decides'; Kahan paragraph ('thinking about nothing at all', 'step on anybody's toes'); 'The truth will set you free'; 'I didn't have a stopwatch'; Enger's closing quote.",
+      "excerpt": "“I got really lost in the scene,” [...] “I was getting very low views on songs that I felt like I was pouring so much of myself into,” [...] “I don’t want to step on anybody’s toes, so I’m like, if this sounds like that, whatever, all good.” [...] “I had the ability to really explore, and I didn’t have a stopwatch. I felt like I had this cushion.”",
+      "context": "Interview at a coffee shop near Bryant Park, New York, about a week after Lollapalooza (early to mid August 2026), published on album release day. The writer states the Kahan credit was added 'before the song officially came out, preventing any risk of legal action'; that framing is the writer's, not a quotation. Kasher, Enger and Mason are her publisher/producer, co-writer and boyfriend. The profile predates the later song-similarity allegations, the tour exit apology and the management split.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.thelineofbestfit.com/features/interviews/stella-lefty-on-the-rise",
+      "title": "Stella Lefty is on the rise",
+      "speaker": "Stella Lefty, interviewed by video call by Jen Long (The Line of Best Fit)",
+      "date": "2026-07-03",
+      "locator": "Whole piece (about 1,100 words). Opening recital quote; father paragraphs; 'Terrified. My worst nightmare'; Amsterdam paragraph ('me and my phone'); publishing-deal paragraphs ('You don't get to tell me what I am'); 'Boston' paragraph ('whatever accommodates him'); closing 'This is all I ever wanted.'",
+      "excerpt": "“I just was so afraid of singing in front of anybody. Terrified. My worst nightmare when I was younger.” [...] “I was writing every single day about everything and posting it every single day because my only relationship was like, me and my phone.” [...] ‘What?! That's so annoying. You don't get to tell me what I am. [...] I want to do whatever accommodates him.",
+      "context": "Remote interview published the week of her first UK shows. Gives the fullest version of the study-abroad period and of the publisher's verdict. Here the publisher declines to sign her ('We don't want to sign you as a writer because we think that you want to be an artist'); Rolling Stone (S01) frames the same episode as her turning the deal down. Guitar from age seven here; 'since I was 5 or 6' in S05.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.billboard.com/music/country/stella-lefty-boston-ep-vincent-mason-1236246900/",
+      "title": "Stella Lefty on Her Hot 100 Hit 'Boston' and Blending Musical Genres on New EP: 'I Don't Want to Put Myself Into a Box'",
+      "speaker": "Stella Lefty, interviewed by Jessica Nicholson (Billboard)",
+      "date": "2026-05-13",
+      "locator": "Article body. 'so embraced in a genre' paragraph; 'I had no plan of doing anything in music'; 'It was just for fun' paragraph; family paragraph ('Keep your head down'); final paragraph ('I will not pick a lane').",
+      "excerpt": "“I had no plan of doing anything in music. I always loved to sing and I was always writing, but I didn’t know anybody that did that.” [...] ‘Keep your head down and just keep going…’ [...] ‘No, I will not pick a lane.’ I won’t, because it wouldn’t be authentic for me.",
+      "context": "Published two days before the Is This Heaven? EP, when 'Boston' was at No. 27 on the Hot 100. Earliest trade interview. Source for the family nickname ('My uncle, my Dad, my brothers, have gone by Lefty') and the graduation year (2024).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.songwriteruniverse.com/stella-lefty-boston-ep-songs/",
+      "title": "Stella Lefty Talks About Her Breakthrough Country & Pop Hit “Boston,” And Her Excellent New EP, Is This Heaven?",
+      "speaker": "Stella Lefty, Q&A with Dale Kawashima (SongwriterUniverse)",
+      "date": "2026-05-15",
+      "locator": "Q&A. Third answer (Tragic, Really / 'voices in my head'); fifth answer ('Boston' at the piano); sixth answer (EP title, Field of Dreams).",
+      "excerpt": "When I moved out here (to Los Angeles) I had a lot of noises, a lot of voices in my head of people telling me that I should stick to a certain lane and steer away from country because I wasn’t from the South. I had so many people telling me what to make and it really got in my head, so I went for more of a pop-alternative direction because that’s what they all wanted me to do.",
+      "context": "Edited Q&A transcript on a songwriting trade site; the clearest first-person statement of why the 2025 EP sounds different. Also: 'I don't know if this is even good' about the first 'Boston' clip.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.elitedaily.com/entertainment/stella-lefty-boston-lollapalooza-musical-influences-interview",
+      "title": "Stella Lefty On “Boston,” Playing At Lollapalooza, & Her Musical Icons",
+      "speaker": "Stella Lefty, interviewed by Marilyn La Jeunesse (Elite Daily)",
+      "date": "2026-05-05",
+      "locator": "Article body. Second paragraph ('15 minutes before he was picking me up'); fourth paragraph (Tulane, Amsterdam, move to Los Angeles in September 2024); Hannah Montana section.",
+      "excerpt": "“I started posting when I was abroad [in Amsterdam], and I was posting all the time because I was depressed. That was my form of getting out of my head,”",
+      "context": "Short influences-led interview. States 'Boston' was released March 27, 2026 and that she moved to Los Angeles in September 2024. 'Depressed' is her own word in a light interview, not a clinical statement. The bracketed '[in Amsterdam]' is the outlet's insertion.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.youtube.com/watch?v=L-40KkPaLdY",
+      "title": "Stella Lefty on TikTok: I Was Addicted To The Virality Of It | Interview With MuchMusic",
+      "speaker": "Stella Lefty, interviewed on camera by Darian (MuchMusic)",
+      "date": "2026-08-19",
+      "locator": "Video, 19:02. About 05:00-05:15 (stage fright, tequila); 07:12-08:30 (deciding on songwriting); 08:42-09:40 (virality); 11:19-12:25 (Los Angeles period, 'be yourself'); 15:23-15:55 (Chicago, Nashville, Los Angeles); 16:54 (comments).",
+      "excerpt": "I just was doing like I really wanted to like do the the thing that was like going viral at the time. So like whatever cover was doing really well, I wanted to sing that. [...] I was always trying to like catch whatever wave was [...] I feel the most myself when I'm there.",
+      "context": "Wording taken from the YouTube caption track (no speaker labels, no reliable punctuation); speaker assigned from the question-and-answer sequence. Check against audio before printing a direct quote. 'Addicted to the virality' is the host's paraphrase of something she said on stage the night before; she answers 'Yes, yeah' and elaborates. She confirms a 2002 birth year at about 02:05. At about 06:10 the lines 'It's comforting. It lowers my cortisol' cannot be assigned to her or the host from captions alone and must not be quoted as hers.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.youtube.com/watch?v=Os05D5TaYBQ",
+      "title": "Stella Lefty almost had a VERY different career! Plus 'Boston' inspiration and handling stage fright",
+      "speaker": "Stella Lefty, interviewed in studio by a Smooth Country presenter (UK radio; presenter not named in the upload)",
+      "date": "2026-07-14",
+      "locator": "Video, 19:08. About 00:32-01:30 (what she would tell herself two years ago); 02:33-03:35 (nerves); 04:34-05:05 (public health); 06:36-07:37 (writing 'Boston'); 09:11-10:40 ('Good at Leaving', being left versus leaving).",
+      "excerpt": "She was stressed all the time, posting all the time. [...] I wanted it all so badly [...] I've always had stage fright my whole life. [...] I used to be so afraid of love. [...] Probably need to like delve into why, but I just write about it normally so I don't have to think about",
+      "context": "Wording taken from the YouTube caption track (no speaker labels, no reliable punctuation); speaker assigned from the question-and-answer sequence. Check against audio before printing a direct quote. Recorded in a UK studio shortly after her BST Hyde Park appearance in early July 2026. The 'Good at Leaving' answers are given while promoting a single of that name, so they double as song talk. She also reports asking Marcus Mumford whether he still gets nervous.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.youtube.com/watch?v=g4Rq5yYpEhw",
+      "title": "Stella Lefty chats about her upcoming tour, singing with her boyfriend, songwriting, and more!",
+      "speaker": "Stella Lefty, interviewed in studio by a 99.9 Virgin Radio Toronto host (not named in the upload)",
+      "date": "2026-08-05",
+      "locator": "Video, 16:29. About 00:30-01:30 (deleted accounts, publisher); 02:01-04:05 (growing up posting; friends' objections; study abroad); 05:05-06:10 (genre worry); 13:45-14:45 (what she would tell her student self).",
+      "excerpt": "there were so many accounts that I created and then deleted cuz I was like this is embarrassing and people were like clowning me [...] this person's going to see it and like this is embarrassing for you. And I was like well it's the truth so. [...] they didn't support the posting because they became friends with him.",
+      "context": "Wording taken from the YouTube caption track (no speaker labels, no reliable punctuation); speaker assigned from the question-and-answer sequence. Check against audio before printing a direct quote. Recorded before her Osheaga set in Montreal. Fullest account of peers objecting to her posts: the objection was that she wrote about identifiable boys, including an ex who was also abroad and whom her friends had befriended.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.youtube.com/watch?v=OOydi-to-iY",
+      "title": "Stella Lefty Performs “Thinking 'bout You” LIVE + Talks Lollapalooza, Chicago Origins & More!",
+      "speaker": "Stella Lefty, interviewed on stage by Josh Martinez (Z100 New York, iHeartRadio)",
+      "date": "2026-04-15",
+      "locator": "Video, 17:59; interview from about 08:25. 08:56-09:26 (Lollapalooza booking, first call to her father); 11:00-12:00 (writing 'Boston', 'covers account'); 12:00-12:55 (unreleased song about a friend); 13:00-13:40 (writer's block, friends, publisher as sounding board); 14:30-15:00 (Hannah Montana).",
+      "excerpt": "Who was the first person you contacted when that happened? My dad. [...] posted it on my covers account, which is like my alternative account that I like post stuff on. And people liked it and I was like, Oh, [...] Do I like this? And I didn't know that I really loved the song until I wrote the verses.",
+      "context": "Wording taken from the YouTube caption track (no speaker labels, no reliable punctuation); speaker assigned from the question-and-answer sequence. Check against audio before printing a direct quote. Earliest long interview in the record, recorded about a week after 'Boston' came out (she says 'It came out 7 days ago'), before the song charted high and before any backlash. Useful as a pre-scrutiny baseline: the same cheerful, deferential register is already present.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.youtube.com/watch?v=xtvwgkWlxRE",
+      "title": "“Boston” Lyrics & Meaning VERIFIED by Stella Lefty | @genius",
+      "speaker": "Stella Lefty, speaking to camera (Genius, Verified series)",
+      "date": "2026-06-26",
+      "locator": "Video, 5:22. About 00:32-01:05 ('I want to be alone'); 02:04-02:35 (chorus meaning); 03:04-04:20 (lockout story); 04:35-05:10 (how the song changed her writing).",
+      "excerpt": "I was like I don't want to be in a relationship. I want to be alone. [...] I have no control over how I feel [...] this is the part where I would normally like run away from this [...] I think way less when I'm writing now and I just go with like my gut.",
+      "context": "Wording taken from the YouTube caption track (no speaker labels, no reliable punctuation); speaker assigned from the question-and-answer sequence. Check against audio before printing a direct quote. Single-speaker format, so attribution is not in doubt. She is explaining a song lyric, so first-person statements here describe the song's narrator as well as herself; she presents them as autobiographical.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.youtube.com/watch?v=GKO9APfntRc",
+      "title": "Stella Lefty at Carolina Country Music Fest",
+      "speaker": "Stella Lefty, interviewed on site by a Whiskey Riff host (not named in the upload)",
+      "date": "2026-06-12",
+      "locator": "Video, 8:03. About 00:31-01:35 (self-introduction; Nashville as 'happy place'); 01:32-02:35 (covers account; smiling and non-smiling versions); 03:34-04:05 (accents phase); 04:05-04:35 (Grace Enger); 04:35-05:05 (dream beach day); 06:38-07:10 (what people assume); 07:39 (a year from now).",
+      "excerpt": "I posted on my like covers account, which is where I post things that I'm like not so sure about. [...] one was me smiling and one was me not smiling as much. [...] maybe like the smiling one will do better [...] now she's like the only person that I trust in my life. [...] I'm a really unserious person generally",
+      "context": "Wording taken from the YouTube caption track (no speaker labels, no reliable punctuation); speaker assigned from the question-and-answer sequence. Check against audio before printing a direct quote. Festival interview. 'The only person that I trust in my life' is said about co-writer Grace Enger in a songwriting answer and may be loose talk for 'the only co-writer I trust'. The 'unserious' answer is followed by 'but I have my days.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.youtube.com/watch?v=DGQynAKTfWU",
+      "title": "We interviewed Stella Lefty at Under the Ghost",
+      "speaker": "Stella Lefty, interviewed on site by a Snapchat host (not named in the upload)",
+      "date": "2026-03-27",
+      "locator": "Video, 7:13. About 00:32-01:02 (pop year, 'right after Christmas' realization); 01:02-01:45 (sitting on 'Thinking 'bout You'); 03:03-03:35 (small versus large audiences); 04:35-05:35 (fun; finding out what she feels by writing).",
+      "excerpt": "at the time I wasn't making that kind of music. So I was like, oh, this is too country. [...] if I was singing to one person, I would like be sweating profusely. But like thousands of people, it's easier. [...] I don't know how I feel until I'm like writing actively",
+      "context": "Wording taken from the YouTube caption track (no speaker labels, no reliable punctuation); speaker assigned from the question-and-answer sequence. Check against audio before printing a direct quote. Uploaded the day 'Boston' was released; earliest dated interview in the record. At about 03:33 the line 'With one person, you're like, oh my god, do you hate me?' follows a host interjection and cannot be assigned with certainty from captions; verify on audio before quoting it as hers.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.youtube.com/watch?v=aQClM45c9I0",
+      "title": "Stella Lefty Full Interview Backstage at Lollapalooza with B96",
+      "speaker": "Stella Lefty, interviewed backstage by Carla (B96 Chicago)",
+      "date": "2026-08-07",
+      "locator": "Video, 4:39. About 00:00-00:30 (hometown); 01:30 (birthday); 02:01-02:30 (sound and goal); 03:33 (brothers); 04:04 (three words for her set).",
+      "excerpt": "Cuz my birthday's August 13th. [...] I just want to be able to get into my car and listen to whatever song that I'm making and make me feel happy. Like truly that's what it is. That's the goal for me. [...] I want them to feel my gratitude.",
+      "context": "Wording taken from the YouTube caption track (no speaker labels, no reliable punctuation); speaker assigned from the question-and-answer sequence. Check against audio before printing a direct quote. Recorded on August 2, 2026, before her Lollapalooza set (uploaded August 7). She says she grew up in the 'Winnetka area, like North Shore suburbs'; print sources say Glencoe, which adjoins Winnetka and feeds New Trier High School.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.youtube.com/watch?v=RAKZ9EjA8K4",
+      "title": "Stella Lefty Shuffles Her Music Library: Justin Bieber, SZA, Elvis Presley and more | Song Shuffle",
+      "speaker": "Stella Lefty, interviewed backstage at Lollapalooza by Leah (Rolling Stone)",
+      "date": "2026-08-18",
+      "locator": "Video, 8:58 (publisher captions with turn dashes). About 03:57-04:25 (same song for hours); 05:34-06:05 (Chicago summers); 06:05-06:55 (festival advice, crying under a tree); 07:37-08:07 (current listening, 'Early Taylor, always').",
+      "excerpt": "I'm the type of person where like I want to get in my car and drive for hours and listen to the same song, honestly, over and over again.",
+      "context": "Publisher-supplied captions, better than auto-captions but still unlabeled. Light format. The exchange at about 07:37 ('Why change... If you loved it at 15, you'll love it at 23') alternates between her and the host and cannot be cleanly assigned; do not quote it as hers.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://countrynow.com/stella-lefty-speaks-out-after-quietly-dropping-off-tucker-wetmores-tour/",
+      "title": "Stella Lefty Speaks Out After Quietly Dropping Off Tucker Wetmore's Tour",
+      "speaker": "Lauren Jo Black (Country Now), quoting Stella Lefty's social-media statement",
+      "date": "2026-08-24",
+      "locator": "Article body, paragraphs 2-4 (the statement). Read in the Internet Archive capture of 2026-08-26 (web.archive.org/web/20260826042308/...); the live page returns 403 to scripted requests.",
+      "excerpt": "“I wanted to announce that earlier but I was advised not to which was a mistake,”",
+      "context": "Reports her apology, posted 'over the weekend' (about August 22-23, 2026), for not announcing sooner that she would not open Tucker Wetmore's dates. No reason for the withdrawal is given by her or the outlet. Her original post (Wikipedia describes Instagram stories) was not seen. Also confirms two MTV VMA nominations and the 14-track album.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.billboard.com/pro/stella-lefty-leaves-disruptor-management",
+      "title": "Stella Lefty Parts Ways With Disruptor Management",
+      "speaker": "Melinda Newman (Billboard), citing unnamed sources; quotes Zach Horowitz (June 2026), Randy Travis and Kelsea Ballerini",
+      "date": "2026-09-27",
+      "locator": "Article body. First paragraph (the split, 'according to sources'); second paragraph (chart facts); Horowitz quote; PR change; backlash summary; Travis and Ballerini quotes; final paragraph (no comment).",
+      "excerpt": "has left Disruptor Management, according to sources. [...] The song also peaked at No. 2 on the Billboard Hot 100. [...] Reps for Disruptor and Lefty, as well as her attorney and her label Atlantic Outpost, either did not respond to a request for comment or declined to comment.",
+      "context": "Most recent trade report. The split and the PR change (Align to Sweet Talk PR) rest on unnamed sources and no party confirmed or explained them. States 'Boston' was No. 1 on Country Airplay for a second week, peaked at No. 2 on the Hot 100, and that Long Way Home reached No. 11 on the Billboard 200. The 'In August' attribution of her 'so embraced' quote appears to be a slip; the quote ran in Billboard on May 13 (S04).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.holler.country/news/breaking/stella-lefty-clears-up-olivia-rodrigo-controversy/",
+      "title": "“I Was a Stupid Teenager”: Stella Lefty Clears Up Olivia Rodrigo Controversy",
+      "speaker": "Maxim Mower (Holler), quoting Stella Lefty's TikTok comment",
+      "date": "2026-08-29",
+      "locator": "Article body, first three paragraphs.",
+      "excerpt": "“i was a stupid teenager posting random things on social media. i love olivia and never meant anything harmful by that”",
+      "context": "Reports her reply to a fan who posted a screenshot of a 2022 video in which she disparaged Olivia Rodrigo. The outlet is openly sympathetic to her. Her original comment was not seen. She was 19 or 20 in 2022 (born August 13, 2002), so 'teenager' is at best approximate.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.whiskeyriff.com/2026/10/01/saturday-night-live-roasts-stella-lefty-in-new-weekend-update-spot-that-didnt-make-it-to-air/",
+      "title": "'Saturday Night Live' Roasts Stella Lefty In New Weekend Update Spot That Didn't Make It To Air",
+      "speaker": "Quinn Eaton (Whiskey Riff), quoting Stella Lefty's Instagram story",
+      "date": "2026-10-01",
+      "locator": "Article body, final section (her response).",
+      "excerpt": "“Funny as f***. Veronika, your voice is amazing.”",
+      "context": "Reports a cut-for-time Weekend Update sketch in which Veronika Slowikowska played Lefty answering plagiarism accusations, and Lefty's response sharing the clip. Stereogum's report the same week says she 'commented on the SNL Instagram post and posted the sketch on her Instagram story.' The story itself is ephemeral and was not seen; the asterisks are the outlet's. The outlet is generally hostile to her music.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.whiskeyriff.com/?p=654405",
+      "title": "Stella Lefty Accused Of Ripping Off Another Song… & This Time The Artist Called Her Out",
+      "speaker": "Brennen Kelly (Whiskey Riff); quotes TAELA",
+      "date": "2026-10-06",
+      "locator": "Article body. Paragraphs on the October 1 Bluebird Cafe performance of the unreleased song 'Badly'; TAELA's caption; closing line on Lefty's non-response.",
+      "excerpt": "Lefty has not responded to Shaylen and TAELA’s accusations.",
+      "context": "Most recent development found (five days before this check). Artists Shaylen and TAELA said on TikTok that the chorus of Lefty's unreleased 'Badly' matches their 2024 single 'WATCH THIS.' This is an allegation by named artists; no claim, credit change or response had been reported. The outlet is opinionated and uses 'ripoff' freely; treat its characterizations as its own.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://au.rollingstone.com/music/music-features/stella-lefty-controversy-song-credit-100910/",
+      "title": "Why Is the Entire Internet Talking About Stella Lefty?",
+      "speaker": "Maya Georgi (Rolling Stone, republished by Rolling Stone Australia)",
+      "date": "2026-09-11",
+      "locator": "Explainer. Sections on the industry-plant charge, 'Boston' and 'Stick Season', 'Summer You Were Mine', and the later accusations; last line of the accusations section.",
+      "excerpt": "Lefty has not addressed the new wave of song comparisons and plagiarism allegations.",
+      "context": "Neutral timeline of the backlash as of about September 10, 2026 (page metadata 2026-09-10 UTC; Wikipedia cites September 11). Notes that her older 'Stick Season' covers 'are no longer available to the general public; the earliest post on Lefty's page is from August 2025.' Lists which comparisons carry credits (Kahan; Sillers and Selby) and which do not.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.rollingstone.com/music/music-news/stella-lefty-credit-the-chicks-summer-you-were-mine-1235616587/",
+      "title": "Stella Lefty Interpolates the Chicks' 'There's Your Trouble' on New Album",
+      "speaker": "Cheyenne Roundtree (Rolling Stone); quotes an Atlantic Records representative and songwriter Tia Sillers",
+      "date": "2026-08-28",
+      "locator": "News article, first five paragraphs.",
+      "excerpt": "Rolling Stone has reviewed materials that show Lefty’s team received proper clearance for the track from Sony Publishing in June, and that Sillers and Selby were noted on the track’s credits in internal label documents in late July before the album’s release.",
+      "context": "Establishes that the 'Summer You Were Mine' interpolation was cleared before release and that the missing credit was attributed by the label to a streaming platform error. Sillers speaks warmly of the use. This is the one similarity dispute with documentary evidence reviewed by a reporter.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.newyorker.com/culture/infinite-scroll/stella-lefty-and-the-rise-of-nepo-baby-musicians-and-industry-plants",
+      "title": "Stella Lefty and the Rise of Nepo-Baby Musicians and “Industry Plants”",
+      "speaker": "Brady Brickner-Wood (The New Yorker, Infinite Scroll column)",
+      "date": "2026-08-05",
+      "locator": "Essay, fourth paragraph (the only one about Lefty directly) and final paragraph.",
+      "excerpt": "Lefty has mostly avoided addressing these questions, though she certainly seems confused by the criticism.",
+      "context": "Cultural criticism, not an interview; quotes her only via Rolling Stone. Describes her as having 'adopted a raspy Southern twang' and her songs as 'projecting the uncomplicated joy of a wide-eyed college graduate.' An outside critic's reading of her public manner, useful as a check on the promotional self-account.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.theguardian.com/music/2026/aug/21/stella-lefty-long-way-home-review",
+      "title": "Stella Lefty: Long Way Home review – Boston singer’s debut is bland, boilerplate and beyond banal",
+      "speaker": "Laura Snapes (The Guardian)",
+      "date": "2026-08-21",
+      "locator": "Album review, standfirst and second and third paragraphs.",
+      "excerpt": "stunningly unremarkable",
+      "context": "Two-star review. Calls her accent a 'fake southern accent' and describes her as 'Cali-raised', which is an error: she was raised in Illinois and moved to Los Angeles in 2024. Critical reception only; no access to her.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.pastemagazine.com/music/stella-lefty/stella-lefty-long-way-home-review",
+      "title": "On Long Way Home, Stella Lefty has no clue where she’s going",
+      "speaker": "Abby Jones (Paste)",
+      "date": "2026-09-07",
+      "locator": "Album review, opening five paragraphs and closing paragraph.",
+      "excerpt": "I’ve listened to fourteen Stella Lefty songs and have yet to glean any new information about Stella Lefty as a person",
+      "context": "Strongly negative review. Its central complaint is that the songs disclose little about their writer, which is relevant to how thin the record is beyond interviews. Suggests the stage name creates distance from her father; she says the nickname is a family one (S04).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.businessinsider.com/who-is-stella-lefty-nepo-baby-billionaire-dad-groupon-music-career-2026-9",
+      "title": "Stella Lefty's billionaire dad is helping her music career — just not in the way you think",
+      "speaker": "Callie Ahlgrim (Business Insider); quotes publicist Olivia Bennett",
+      "date": "2026-09-03",
+      "locator": "Analysis piece. Opening section (net worth 'per Forbes'); 'The association is usually framed negatively' paragraph; 'much of Lefty's music tends toward the derivative' paragraph.",
+      "excerpt": "But what Lefty lacks in creativity or artistic identity, she makes up for in juicy conversation starters",
+      "context": "Argues the backlash functions as a narrative hook. Gives her father's net worth as an estimated $5.4 billion per Forbes; other outlets the same fortnight print $4.8 billion (S27) and about $5 billion (S02). No interview with her.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.usatoday.com/story/entertainment/music/2026/09/02/stella-lefty-nepo-baby-noah-kahan-backlash/91583336007/",
+      "title": "Stella Lefty's success collides with 'nepo baby' backlash",
+      "speaker": "Sameen Chaudhry (USA Today)",
+      "date": "2026-09-02",
+      "locator": "News article, paragraphs 4-7. Read in the Internet Archive capture of 2026-09-04 (web.archive.org/web/20260904140621/...); the live page is paywalled to scripted requests.",
+      "excerpt": "Despite the online claims that the success of \"Boston\" was manufactured, a claim that remains unsubstantiated",
+      "context": "Straight news summary of the backlash. Its key value is the explicit statement that the 'manufactured' claim is unsubstantiated, and the note that her father is 'a businessman, not a recording artist or music executive.'",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://en.wikipedia.org/wiki/Stella_Lefty",
+      "title": "Stella Lefty",
+      "speaker": "Wikipedia contributors",
+      "date": "Revision of 2026-10-10 22:39 UTC (read 2026-10-11)",
+      "locator": "Lead; 'Early life and education'; 'Career'; discography tables; 'Awards and nominations'.",
+      "excerpt": "Her 2026 country-pop single \" Boston \" peaked at number two on the US Billboard Hot 100",
+      "context": "Tertiary cross-check only. The page carries an 'articles lacking reliable references' maintenance tag (September 2026). Used to locate primary sources and to cross-check release dates (Tragic, Really, July 15, 2025; Is This Heaven?, May 15, 2026; Long Way Home, August 21, 2026) and the two 2026 VMA nominations, both listed as 'Nominated' with no win. Do not rest any claim on it alone.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://news.livenationentertainment.com/news/stella-lefty-announces-2027-headline-long-way-home-tour",
+      "title": "Stella Lefty Announces 2027 Headline ‘Long Way Home Tour’",
+      "speaker": "Live Nation Entertainment (press release)",
+      "date": "2026-08-24",
+      "locator": "Second paragraph and date list.",
+      "excerpt": "the tour kicks off on Saturday, January 9 at The Fillmore in Detroit, MI",
+      "context": "Promoter announcement. The North American run ends 'with a hometown show at Chicago's Aragon Ballroom on Saturday, February 20' (2027).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://countrynow.com/stella-lefty-sells-out-first-north-american-headline-tour-within-minutes-adds-new-dates-amid-massive-demand/",
+      "title": "Stella Lefty Sells Out First North American Headline Tour Within Minutes, Adds New Dates Amid Massive Demand",
+      "speaker": "Madeleine O'Connell (Country Now)",
+      "date": "2026-05-22",
+      "locator": "Second paragraph and date list. Read in the Internet Archive capture of 2026-05-26 (web.archive.org/web/20260526135220/...).",
+      "excerpt": "She is slated to kick things off in San Francisco, CA on October 30",
+      "context": "Lists the fall 2026 headline dates as announced in May: October 30 (San Francisco) through November 23 (Chicago, Lincoln Hall), including Boston's Royale on November 17. Dates were announced five months ago and were not re-verified against a current ticketing page.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://www.heyalma.com/?p=51529",
+      "title": "18 Things To Know About Jewish Singer Stella Lefty",
+      "speaker": "Evelyn Frick (Hey Alma)",
+      "date": "2026-09-01",
+      "locator": "Items 3, 4, 6 and 10.",
+      "excerpt": "Her parents are businessman Eric Lefkofsky and philanthropist Elizabeth Kramer Lefkofsky",
+      "context": "Aggregated background list with outbound links. Source for her mother's name and role (president of the Lefkofsky Family Foundation). Item 10 reproduces a Variety quote ('I was grinding, and nothing was happening') whose original article could not be located or opened; do not cite Variety on the strength of this page.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S32",
+      "url": "https://www.grammy.com/news/2027-grammys-show-air-date-nominations-announced/",
+      "title": "The Grammy Awards Set To Take Place Sunday, Feb. 7, 2027",
+      "speaker": "Recording Academy (press release)",
+      "date": "2026-05-12",
+      "locator": "First two paragraphs.",
+      "excerpt": "Nominations for the 2027 Grammys will be announced Monday, Nov. 16, 2026.",
+      "context": "Used only to date the next catalysts. Vanity Fair (S02) says 'the Grammy buzz has already begun'; no opened source says she has been nominated or shortlisted, and nominations had not been announced at the time of this check.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S33",
+      "url": "https://www.pastemagazine.com/music/stella-lefty/stella-lefty-noah-kahan",
+      "title": "Stella Lefty only credited Noah Kahan because of a lawsuit",
+      "speaker": "Miranda Wollen (Paste)",
+      "date": "2026-08-24",
+      "locator": "News item, first, fifth and sixth paragraphs.",
+      "excerpt": "this statement is belied by numerous TikToks on the singer’s account where she performs, and performs, and re-performs, a “Stick Season” cover.",
+      "context": "Hostile gloss on the Vanity Fair interview. Its headline and first sentence say the credit resulted from 'an impending lawsuit'; neither Vanity Fair (S02) nor The Line of Best Fit (S03) reports a lawsuit or a threat of one, only that Kahan's team made contact and a credit was agreed before release. The factual point it adds is that she had repeatedly covered 'Stick Season' on TikTok, which Rolling Stone (S01) also reports.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S34",
+      "url": "https://www.washingtonpost.com/style/2026/09/05/stella-leftys-song-blew-up-tiktok-sparked-an-internet-pile-on/",
+      "title": "Stella Lefty's song blew up on TikTok — and sparked an internet pile-on",
+      "speaker": "Emily Yahr (The Washington Post), per the Wikipedia citation",
+      "date": "2026-09-05",
+      "locator": "Not read beyond the first paragraph.",
+      "excerpt": "Unavailable: paywalled. Only the headline, standfirst and opening paragraph (the Grand Ole Opry backstage video with two St. Jude patients) were visible in the Internet Archive capture of 2026-09-08.",
+      "context": "Listed so later stages know it exists and was tried (direct fetch, reader proxy and archive capture). No claim rests on it. It may contain reporting on the Opry backlash and on whether her team responded.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S35",
+      "url": "https://people.com/kelsea-ballerini-defends-stella-lefty-from-criticism-grand-ole-opry-debut-12107630",
+      "title": "Kelsea Ballerini Defends Stella Lefty from Criticism as the 'Boston' Singer Makes Her Grand Ole Opry Debut",
+      "speaker": "Daniela Avila (People), per the Wikipedia citation",
+      "date": "2026-09-04",
+      "locator": "Not read.",
+      "excerpt": "Unavailable: the page blocks scripted requests (403/451) and no archive capture was retrievable.",
+      "context": "Listed so later stages know it exists and was tried. No claim rests on it. Ballerini's comment is instead taken from Billboard's quotation (S17).",
+      "kind": "secondary",
+      "access": "unavailable"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Stella Lefty was born Stella Lefkofsky on August 13, 2002, grew up in Chicago's North Shore suburbs (Glencoe, by New Trier High School), and graduated from Tulane University in 2024 with a public health degree.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S07",
+        "S02",
+        "S04",
+        "S06"
+      ],
+      "inference": "She gives the day and month herself ('my birthday's August 13th', S14) and confirms the year when a host asks 'you were born 2002?' (S07). Glencoe, two brothers and New Trier are from Vanity Fair (S02) and Elite Daily (S06); Tulane, public health and the 2024 graduation from Billboard (S04). The full date is therefore supported by her own words, not by Wikipedia alone.",
+      "alternative": "She describes home as the 'Winnetka area' on Chicago radio (S14); Glencoe and Winnetka adjoin, so write 'North Shore suburbs' or 'Glencoe' but do not present them as a contradiction. Ages printed in 2026 coverage (23 before August 13, 24 after) are consistent with the date.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "Her father is Eric Lefkofsky, co-founder of Groupon and founder and chief executive of Tempus AI; 'Lefty' is a family nickname that her uncle, father and brothers also use.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S02",
+        "S31",
+        "S26",
+        "S27"
+      ],
+      "inference": "The nickname explanation is hers (S04) and Vanity Fair independently notes her two brothers use it (S02). Her mother, Elizabeth Kramer Lefkofsky, leads the family foundation (S31). Net-worth figures differ by outlet and date (about $5 billion in S02, $5.4 billion 'per Forbes' in S26, $4.8 billion in S27), so no single figure should be printed without a dated attribution.",
+      "alternative": "Paste suggests the stage name puts distance between her and her father (S25); her account and the brothers' use of the name cut against that, but the name does make the connection less visible. Prefer 'billionaire' with a dated Forbes attribution over a precise number.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck his title at Tempus AI and any net-worth figure before each publish or refresh; drop the figure if no dated estimate is cited."
+    },
+    {
+      "id": "C03",
+      "claim": "Career sequence: she posted covers and originals on TikTok through college, released the debut single 'Kiss Me' in 2024, moved to Los Angeles in September 2024, released the pop-leaning EP Tragic, Really in July 2025, broke through with 'Thinking 'bout You' in January 2026, signed to Atlantic Outpost, released 'Boston' on March 27, 2026, the EP Is This Heaven? on May 15, 2026, and the debut album Long Way Home on August 21, 2026.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S01",
+        "S06",
+        "S04",
+        "S05",
+        "S02",
+        "S28"
+      ],
+      "inference": "Each step is dated by at least one opened interview or profile: 'her 2024 debut single' (S01); Los Angeles in September 2024 and the March 27 release (S06); January singles and the Atlantic Outpost signing (S04); the May 15 EP (S04, S05); the August 21 album (S02). Wikipedia supplies the July 15, 2025 EP date (S28).",
+      "alternative": "Sources disagree on small points: when she began posting (2020 in S09 and S12, 2021 in S02 and S05, 2022 for singing in S01), and one explainer misdates 'Boston' to February 2026. Say 'since about 2020' for posting and use March 27, 2026 for 'Boston'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "As of late September 2026, 'Boston' had peaked at No. 2 on the Billboard Hot 100 and spent two weeks at No. 1 on Country Airplay, and Long Way Home had reached No. 11 on the Billboard 200; she received two 2026 MTV VMA nominations (Best New Artist and Best Country).",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S17",
+        "S16",
+        "S02",
+        "S28"
+      ],
+      "inference": "Chart facts are from Billboard's own September 27 report (S17), which adds that she was the first solo-billed woman since Gretchen Wilson in 2004 whose debut single spent multiple weeks atop Country Airplay. The VMA nominations are in Country Now (S16) and Vanity Fair (S02); Wikipedia lists both as nominations without a win (S28).",
+      "alternative": "These are peaks at a date and can change. The VMA outcome was not confirmed in an opened primary source. Nothing here bears on personality; it explains why readers are searching.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck chart peaks and awards at the Grammy nominations (November 16, 2026) and ceremony (February 7, 2027); confirm the VMA result against MTV or Billboard before printing 'nominated'."
+    },
+    {
+      "id": "C05",
+      "claim": "She describes lifelong stage fright: dreading a yearly childhood guitar recital, being 'terrified' of singing in front of anyone, still getting nervous in 2026, taking a shot of tequila before shows, and finding one listener harder than thousands.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S08",
+        "S07",
+        "S13"
+      ],
+      "inference": "Repeated in four interviews across five months and two countries, with consistent detail, so it is at least a stable part of how she understands herself. It suggests the fear attaches to being judged at close range by a person in the room, which a phone camera avoided. That reading is an inference; she says only that small audiences are scarier (S13).",
+      "alternative": "Performance anxiety is common among performers and is also a likeable origin-story beat that interviewers keep requesting. Her mother remembers a child who had to be told to keep the singing down at home (S01), so the fear was specific to audiences, not to singing. Rolling Stone and the Smooth Country host both describe an at-ease performer in 2026. Not type-diagnostic alone.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "She says she never treated music as a career, learned in her junior or senior year at Tulane that professional songwriters exist, and set out to write for other artists, not to perform.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S04",
+        "S07",
+        "S09",
+        "S08",
+        "S01"
+      ],
+      "inference": "Told the same way in at least five interviews. Taken with C05, the first ambition she names is a hidden role. That fits a person who wants the work without the exposure, which argues against a simple wish for the spotlight.",
+      "alternative": "It is a retrospective account given after stardom, and it flatters the 'accidental star' story that counters the industry-plant charge. Rolling Stone records that she 'dreamed about' being an artist the way small boys dream of being superheroes (S01), and she had been posting herself singing for years, so wanting to be heard predates the songwriter plan.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "Right after graduating in 2024 she spent a week in Nashville writing for a publisher; the deal did not happen, the publishers told her she seemed like an artist, she was angry at being told what she was, and within months she concluded they were right.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S01",
+        "S02",
+        "S09"
+      ],
+      "inference": "Her quoted reaction is consistent across two interviews ('You don't get to tell me what I am', S03; 'a bunch of dudes don't get to tell me what to do', S01), as is the reversal. The sequence, flat refusal of someone else's definition followed by arriving at the same conclusion on her own schedule, recurs in C10 and C11.",
+      "alternative": "Accounts differ on who ended it: The Line of Best Fit has the publisher declining to sign her as a writer (S03), Rolling Stone has her turning the deal down after not seeing eye to eye (S01), and Vanity Fair names Pulse Music Group and says the deal 'fell through' (S02). Write 'the deal fell through' and attribute the rest. Anger at being redefined by strangers is ordinary and not type-specific.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "She has posted compulsively since her early teens and kept posting through ridicule: she created and deleted accounts out of embarrassment, friends told her to delete videos, and during a study-abroad term near Amsterdam, after a breakup and feeling shut out by friends, she wrote and posted daily, calling it 'my form of getting out of my head.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S09",
+        "S03",
+        "S06",
+        "S12",
+        "S21"
+      ],
+      "inference": "Four interviews agree on the volume ('I could do it 700 times a day', S01) and on the low period abroad (S03, S06, S09). In her telling, posting did two jobs: it was company when she had none ('my only relationship was like, me and my phone') and it was a way out of her own head. She kept writing about an ex whose friends were her friends, and dismisses their objection with 'well it's the truth so' (S09).",
+      "alternative": "She also frames posting as a generational default (Snapchat at 12, musical.ly at 13 or 14, S09) and as pandemic-era behavior everyone shared (S12). The pre-2025 posts are no longer public (S21), so none of this can be checked against the videos themselves. Persisting despite friends' objections cuts against a conflict-avoidant reading.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "She tracked what performed and adjusted to it: in her early posting she sang whichever cover was trending, she posted smiling and unsmiling takes of the 'Boston' chorus to see which did better, she tests uncertain material on a secondary 'covers account', and she says 'TikTok decides.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S12",
+        "S10",
+        "S02"
+      ],
+      "inference": "The details are specific and volunteered ('I just pay attention', S07; the two takes, S12). They show close attention to audience response, and a habit of trying things at low stakes before committing. Which motive that serves is not settled by the record: winning the audience, checking she is on safe ground, or simply the working method of her generation of songwriters.",
+      "alternative": "'Addicted to the virality' is the interviewer's paraphrase, which she accepts (S07). She, Kasher and Enger all say they do not think about the algorithm while writing (S02). Vanity Fair calls the daily testing a requirement for 'anyone trying to make it in music today.'",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "After moving to Los Angeles she followed advice to stay away from country for about a year, made the pop EP Tragic, Really (2025), felt 'lost in the scene', and sat for months on 'Thinking 'bout You' because it sounded 'too country.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S02",
+        "S13",
+        "S09",
+        "S07"
+      ],
+      "inference": "Stated the same way in five interviews from March to August 2026: other people's voices 'really got in my head' and she made what 'they all wanted me to do' (S05). The cost she names is a year of work she no longer recognizes as hers and songs that drew 'very low views' (S02). Going along with other people's direction against her own taste, at real cost, is the single most repeated pattern in the record.",
+      "alternative": "A 22-year-old newly signed to managers following their direction is ordinary. The story is also a tidy 'return to my true self' narrative that happens to end exactly where the audience response was strongest, and critics hear the country turn as adopted, not native (S23, S24). Her own explanation of the fear is belonging: 'because I wasn't from the South' (S05).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "Around Christmas 2025 she reversed course to country-pop, told her managers she had 'unlocked something' and did not want feedback, and has since refused her team's suggestions to pick a single genre lane.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S13",
+        "S09"
+      ],
+      "inference": "The 'I don't even want feedback' detail is manager Adam Alpert's account (S01); the timing ('right after Christmas', S13) and the refusal ('No, I will not pick a lane', S04) are hers. After a year of deferring, the assertion arrives late and is then held firmly, the same shape as C07.",
+      "alternative": "Alpert was her manager and had every reason to tell a flattering story; they parted ways three months later (C18). 'I won't pick a lane' is also a commercially sound crossover position that her label shares in practice. Refusing a lane can equally be read as keeping options open.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "She says she wrote the 'Boston' chorus alone at a piano in the minutes before a date and posted it without a second thought; when commenters and then Noah Kahan's team pointed out its likeness to 'Stick Season', Kahan was credited before release. Her stated reasons: 'I want to do whatever accommodates him' and 'I don't want to step on anybody's toes.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S02",
+        "S04",
+        "S01",
+        "S33"
+      ],
+      "inference": "Two separate interviews seven weeks apart give the same accommodating formula (S03, S02), and she adds that being alone meant 'no one is there to tell you, this might sound like something familiar' (S03). On her account she met a challenge by conceding at once and without argument.",
+      "alternative": "The credit was agreed with her team and, per Vanity Fair's framing, prevented 'any risk of legal action' (S02), so prudence explains it as well as temperament does. Critics dispute 'I wasn't thinking about Noah Kahan' because she had covered 'Stick Season' repeatedly (S01, S33); she calls herself a longtime Kahan fan in the same breath (S03). Paste's 'impending lawsuit' wording goes beyond anything the interviews report (S33).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "Beyond the two credited interpolations ('Boston' and 'Stick Season'; 'Summer You Were Mine' and the Chicks' 'There's Your Trouble'), listeners, some critics and, in October 2026, two named artists have alleged that other Lefty songs closely resemble earlier songs. None of those comparisons carries a credit, no legal claim has been reported, and she has not publicly addressed them.",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S21",
+        "S22",
+        "S20",
+        "S17",
+        "S19"
+      ],
+      "inference": "What is established: Kahan is credited on 'Boston' (S17); the Chicks interpolation was cleared with Sony in June 2026 and the missing credit was blamed by the label on a streaming platform error, with documents reviewed by Rolling Stone (S22). What is alleged only: resemblances involving 'Why Wouldn't We', 'Misery', 'Seven Eleven' (S21) and the unreleased 'Badly', which Shaylen and TAELA compared to their song 'WATCH THIS' (S20). These are allegations and are not used here as evidence about her character or type.",
+      "alternative": "Melodic overlap is common in pop and country, interpolation is routine and often label-driven (S22), and no court, publisher or rights body has made a finding. Her only reported reaction is good-humored praise of an SNL sketch about the accusations (S19). Present every comparison with its accuser and date, and state plainly which carry credits.",
+      "durability": "unresolved",
+      "review_trigger": "Any statement from Lefty, Atlantic Outpost, Shaylen, TAELA or the named songwriters; any credit change, takedown, settlement or lawsuit involving the listed songs."
+    },
+    {
+      "id": "C14",
+      "claim": "Since mid-2026 she has been widely called a 'nepo baby' and an 'industry plant' on the theory that her father's money bought her success. No reporting substantiates that her rise was purchased; she acknowledges a different advantage, time and a financial cushion.",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S27",
+        "S02",
+        "S23",
+        "S26",
+        "S01"
+      ],
+      "inference": "USA Today calls the manufactured-success claim 'unsubstantiated' and notes her father is not in the music business (S27). Her own account concedes the cushion ('I didn't have a stopwatch', S02) and reports her father's advice, 'The truth will set you free' (S02). Vanity Fair notes it is 'highly possible' her label paid for social promotion, a tool available to any signed artist.",
+      "alternative": "Absence of evidence is not proof that family money played no role in early recording, travel or promotion; the critics' fairness argument does not depend on a direct purchase (S23). Her former manager's blanket denial that industry plants exist is an interested statement (S01).",
+      "durability": "unresolved",
+      "review_trigger": "New reporting on how her early career and marketing were financed, or a fuller first-person account from her or her father."
+    },
+    {
+      "id": "C15",
+      "claim": "When asked about the scrutiny she neither argues nor counterattacks: she calls it 'unnatural', says she understands it, says she focuses on the people who do like her, and calls fame a 'double-edged sword' she chose.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S07"
+      ],
+      "inference": "The same low-temperature answer appears in June (S01), July (S03) and August (S02), and she says she has not read her comments 'in kind of a minute' (S07). She does not dispute critics' right to their view in any opened interview.",
+      "alternative": "Every one of these answers was given with a publicist nearby during a release campaign, and declining to fight online critics is standard media advice. The New Yorker reads the same behavior as avoidance and confusion (S23). She changed publicists in September 2026 (C18).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "Three smaller public responses in August to October 2026 follow the same de-escalating line: a quick apology for a resurfaced 2022 clip about Olivia Rodrigo, an apology for staying silent about leaving Tucker Wetmore's tour, and praise for an SNL sketch that mocked her.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S18",
+        "S16",
+        "S19"
+      ],
+      "inference": "Each is a short written response reported by an outlet within days: 'i was a stupid teenager... never meant anything harmful' (S18), 'I was advised not to which was a mistake' (S16), and a compliment to the performer who played her (S19). Across three different provocations she concedes, apologizes or laughs.",
+      "alternative": "All three were read through outlets' quotations; the original comment and stories were not seen and two are ephemeral. Three short posts in a crisis-managed autumn are thin evidence of temperament. She was 19 or 20 in 2022, so 'teenager' is loose.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "She withdrew from her announced opening dates on Tucker Wetmore's Brunette World Tour without an announcement or a stated reason, then apologized around August 22-23, 2026, saying she had wanted to announce it earlier but 'was advised not to which was a mistake.'",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S16",
+        "S28"
+      ],
+      "inference": "By her own account she set aside her inclination on someone else's advice and then publicly called that a mistake, and offered to sort things out with ticket buyers by direct message. It is a second dated instance of the defer-then-regret sequence in C10.",
+      "alternative": "The reason for leaving the tour is unknown, and so is who advised silence. Naming the advice also shifts responsibility away from her. One episode, read through a secondary report.",
+      "durability": "unresolved",
+      "review_trigger": "Any explanation of the withdrawal from Lefty, Wetmore or either team."
+    },
+    {
+      "id": "C18",
+      "claim": "Billboard reported on September 27, 2026, citing unnamed sources, that she had left Disruptor Management (Adam Alpert and Zach Horowitz), and that she had moved her publicity from Align to Sweet Talk PR. No party commented.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S17",
+        "S28"
+      ],
+      "inference": "This is the first consequential break in her professional circle and it has no first-person account. How she eventually describes it is one of the few upcoming observations that could separate the type hypotheses (see open_case.settle_signals).",
+      "alternative": "Sourced anonymously and unconfirmed by either side. Wikipedia quotes the report as saying she had been with Disruptor 'since the beginning of her career.' Reasons, and who initiated the split, are unknown; do not speculate about them.",
+      "durability": "unresolved",
+      "review_trigger": "Announcement of new management, or any on-record explanation from Lefty, Alpert or Horowitz."
+    },
+    {
+      "id": "C19",
+      "claim": "She describes a past pattern of leaving relationships before she could be hurt: she was 'good at leaving', 'so afraid of love', finds it hard to let a partner in, and says of the reasons, 'I just write about it normally so I don't have to think about' it. She says 'Boston' is about the first time she stayed.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S11"
+      ],
+      "inference": "Two independent settings (a UK radio studio and a lyric-annotation video) give the same account, including discomfort at feelings she could not control ('I have no control over how I feel', S11) and the view that being left is worse because 'you have no control over it' (S08). She presents writing as a substitute for examining the pattern.",
+      "alternative": "Both statements were made while promoting songs titled 'Good at Leaving' and 'Boston', so they are also the songs' sales pitch. Wariness after a breakup at 22 or 23 is ordinary. The past tense is hers: she says the pattern has ended.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "She says she finds out what she feels by writing, not beforehand, and that 'Boston' taught her to think less while writing and go with her gut.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S11",
+        "S08"
+      ],
+      "inference": "In March 2026 she says she can be 'stumped' about what to say until the song is written and 'I'm like, oh, I'm in love' (S13); in June she says she now thinks 'way less' and is 'surrendering' to whatever comes (S11). Self-knowledge arriving after the act matches the late reversals in C07 and C10.",
+      "alternative": "Many songwriters describe writing this way. It is also a convenient frame for a song whose likeness to another song she says she did not notice (C12).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "Fun and feeling happy are her stated aims for the music: the goal is a song that makes her happy in the car, she wants shows to feel like the state-fair scene in the Hannah Montana film, and she calls herself 'a really unserious person generally' who also has 'my days.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S13",
+        "S12",
+        "S07",
+        "S04"
+      ],
+      "inference": "The same aim is stated in March, June and August 2026 in nearly the same words ('generally, I want to have fun, so I want the music to feel like that', S13). This is the main evidence for the Type 7 alternative, together with C19.",
+      "alternative": "It is also brand positioning: upbeat, easy country-pop is the product she is selling in every one of these interviews. 'Unserious' is followed directly by an admission that she is not always happy.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "Her stated tastes run to repetition, familiarity and home: the same song for hours in the car, the same Taylor Swift album 'on repeat always', Chicago as the place she feels most herself, and Nashville as a 'happy place' she will not move to in case living there spoils it.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S15",
+        "S07",
+        "S12",
+        "S01"
+      ],
+      "inference": "Stated in three interviews (S15, S07, S12), and Rolling Stone independently observes that she 'doesn't mind repeating herself' in her posting, down to the same hoodie and snippet (S01). A preference for the known over the new is a point against the Type 7 reading.",
+      "alternative": "Declining to live in Nashville can also be read as avoiding commitment. Two caption passages that would strengthen this claim ('It lowers my cortisol', S07; 'Why change', S15) cannot be reliably attributed to her and are excluded.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "A reporter who followed her through three CMA Fest appearances in under two hours in June 2026 observed that everyone around her seemed panicked about time 'except for Lefty herself', and that her reaction to a capacity crowd was that she needed to go home and write more songs.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "This is the only extended third-party observation of her under time pressure. It shows composure while her team is agitated and a turn back to routine work after a peak moment.",
+      "alternative": "One afternoon, one reporter, a managed setting with her parents present, written up in a sympathetic feature. She herself says she was 'stressed all the time' two years earlier (C27).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "She describes an unusually close family and a small trusted circle: her father is 'my favorite person on the planet' and the first person she called about Lollapalooza, her parents travel to her shows, she credits her family with a 'keep your head down and just keep going' work ethic, she lives with two best friends, and she calls co-writer Grace Enger 'the only person that I trust in my life.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S10",
+        "S04",
+        "S12",
+        "S01",
+        "S02"
+      ],
+      "inference": "Consistent from April (S10) to July (S03), with Rolling Stone and Vanity Fair both observing parents and boyfriend physically present at her appearances (S01, S02). She says of a hypothetical day alone, 'I haven't done anything alone in a really long time' (S12). Belonging and a few trusted people are a visible anchor.",
+      "alternative": "Speaking warmly of a billionaire father is also the best available answer to the nepotism charge, though she says she would bring him up 'even if he was not in business at all' (S03). The 'only person that I trust' remark is made about songwriting and may mean no more than that.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "By her account in Rolling Stone, her mother was diagnosed with cancer when Lefty was 13, a close high-school friend later died of cancer, she wrote a song to process the loss, and she chose public health because 'I wanted to understand it better.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "This is her own explanation of why she studied public health, and of her father's move into biotech. It is recorded as what she said about that choice and nothing more.",
+      "alternative": "Single source, partly in the writer's paraphrase, about other people's health; not corroborated elsewhere in the opened record. Do not build a formative-wound or causal personality claim on it, do not name the friend, and do not describe her mother's current health.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "People who work with her describe volume and steadiness: co-writer Grace Enger points to 'how many songs she's writing, how many times she's posting a day', publisher Jacob Kasher calls her one of the best songwriters he has worked with, and Wyatt Flores says success has not changed her.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S02",
+        "S01",
+        "S17"
+      ],
+      "inference": "Named testimony from three people with direct contact, plus Zach Horowitz's statement that her team had been 'building Stella's fan base for years' (S17). It supports a picture of sustained output more than sudden luck.",
+      "alternative": "Every witness is a collaborator, business partner, tourmate or boyfriend with a stake in her success; none knew her before 2024 in a non-professional capacity. No teacher, college friend, former bandmate or sibling has spoken at length. This is the main gap in the record.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "She says that two years before her breakthrough she was 'stressed all the time, posting all the time' and 'wanted it all so badly', and that in Los Angeles she posted constantly while videos drew about a thousand views at most.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S07"
+      ],
+      "inference": "Her own words establish strong appetite and strain before the success, and that the wanting was more stressful than the current workload (S08). This is the principal evidence against a low-drive, easygoing reading and for the Type 3 and Type 7 alternatives.",
+      "alternative": "Said lightly, as advice to her younger self to 'chill'. Wanting a career badly at 22 is not type-specific.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "She has repeatedly voiced worry about whether she belongs in country music as a Midwesterner ('I'm not Southern. I always worried, Do I have to be?') and calls being accepted by the genre 'the greatest honor.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S05",
+        "S09"
+      ],
+      "inference": "The worry predates the backlash (S04 in May; S05 on why she avoided country in 2024-25) and is framed as fear of exclusion, not as ambition. By August she says she no longer thinks about genre (S09).",
+      "alternative": "Country's gatekeeping is real, so the worry is realistic, and public humility toward the genre is also good strategy for a pop-adjacent newcomer. Critics hear the accent itself as put on (S23, S24).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "Critical reception of the debut album has been harsh in several major outlets, which describe the songwriting as generic and question her country persona; The Guardian gave Long Way Home two stars and Paste a D-minus.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S24",
+        "S25",
+        "S23",
+        "S26",
+        "S17"
+      ],
+      "inference": "These are critics' judgments of the work and persona, recorded as the strongest outside challenge to her 'this is the most me' account of the country turn (C10, C11). Paste's complaint that fourteen songs reveal nothing about their author (S25) also marks a limit of the record: the songs add little first-person evidence.",
+      "alternative": "Reviews assess records, not motives, and some carry errors (The Guardian calls her 'Cali-raised', S24). The D-minus appears on Paste's review page (S25). Commercial reception was the opposite (C04), and country artists including Randy Travis and Kelsea Ballerini have publicly backed her (S17).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "She has been in a relationship with country singer Vincent Mason since early 2026; she says 'Boston' and their duet 'Something to Lose' are about him.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S05",
+        "S11",
+        "S09"
+      ],
+      "inference": "Consistent across interviews from May to August 2026; Mason is quoted directly in Vanity Fair (S02). Relevant mainly because he is one of the few people speaking about her on the record.",
+      "alternative": "Relationship status can change, and a shared promotional interest exists (a charting duet). Keep to what both have said publicly.",
+      "durability": "time_sensitive",
+      "review_trigger": "Any public change in the relationship, or new on-record comments from Mason about her."
+    },
+    {
+      "id": "C31",
+      "claim": "Next dated events: her first North American headline tour, announced for October 30 to November 23, 2026; Grammy nominations on November 16, 2026 and the ceremony on February 7, 2027; and the Long Way Home Tour, January 9 to February 20, 2027.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S30",
+        "S32",
+        "S29"
+      ],
+      "inference": "Dates are from the promoter, the Recording Academy and a May 2026 tour announcement. They matter here because they are when new first-person material is most likely to appear.",
+      "alternative": "The fall dates were announced five months ago and were not re-verified against current listings. No opened source says she is a Grammy nominee or on any shortlist; do not describe her as a contender in the article without a dated source.",
+      "durability": "time_sensitive",
+      "review_trigger": "Reconfirm tour dates before publishing; after November 16, 2026, record whether she was nominated and for what."
+    }
+  ],
+  "type_hypothesis": {
+    "type": 9,
+    "confidence": "low",
+    "for_claim_ids": [
+      "C10",
+      "C12",
+      "C17",
+      "C07",
+      "C11",
+      "C15",
+      "C16",
+      "C20",
+      "C22",
+      "C23",
+      "C06"
+    ],
+    "against": "(1) Drive. She 'wanted it all so badly', was 'stressed all the time, posting all the time' (C27), says she could post '700 times a day' (C08) and chased whatever was going viral (C09); collaborators describe relentless output (C26). That is more appetite than the easygoing Nine picture allows. (2) She kept posting songs about identifiable exes over her friends' objections, shrugging 'well it's the truth so' (C08), which is not conflict-avoidant. (3) Lifelong stage fright and a wary, leave-first history in relationships (C05, C19) read as anxiety more than as calm. (4) Nearly every accommodating act has a prudential explanation: the Kahan credit avoided legal risk (C12), following managers at 22 is ordinary (C10), and not fighting critics is standard media advice (C15, C16). (5) The whole first-person record was produced inside one promotional campaign with publicists present, where agreeable and upbeat is the expected register.",
+    "alternative_type": 7,
+    "alternative_case": "Type 7 fits how she describes herself. Fun and happiness are the stated goal of the music (C21); she was 'good at leaving' and writes about painful things 'so I don't have to think about' them (C19); posting was 'my form of getting out of my head' in a low period (C08); she refuses to 'pick a lane' and will not move to the city she loves in case it spoils (C11, C22); she reframes exhaustion as 'a fun tired' and 'a really good exhausted' (S01, S03); and the volume of output and posting is high (C08, C26, C27). What strains the Seven reading: fifteen years of hiding her singing and a first ambition to work behind the scenes (C05, C06); a full year spent making music other people wanted (C10); an attachment to repetition, old favorites and home in place of novelty (C22); and a habit of conceding when challenged (C12, C16, C17). Type 6 is also live: the stage fright, the worry about belonging in country (C28), reliance on a few trusted people (C24), testing uncertain songs on a side account (C09), bristling at authority and then complying (C07, C17) and leaving before she can be left (C19) all fit, and nothing in the record rules it out; against it, she shows little of the questioning, scenario-running or self-justification under attack that usually accompanies it, and describes her mind while working as 'thinking about nothing at all.' Type 3 is live on the evidence of metric-watching and the shift toward what performed (C09, C10, C27); against it, the wish to stay hidden (C06), the ready surrender of credit (C12) and the unguarded, unpolished self-disclosure across interviews.",
+    "discriminator": "None that is defensible yet. The best candidate is what she does when someone else's direction collides with her own preference. In four dated episodes (the publisher's verdict in 2024, C07; Los Angeles advisers in 2024-25, C10; Kahan's team in early 2026, C12; the advice to stay silent about leaving a tour in August 2026, C17) she either refused flatly or went along first and reasserted herself later, at a cost she names. That go-along-then-dig-in sequence fits Nine better than Seven, who would be expected to reframe and move on, and better than Three, who would be expected to follow whatever was working. It does not separate Nine from Six, who also defers to trusted advisers and later regrets it, and every instance is her own retrospective telling, or a short post read through an outlet, during a press cycle. The two events that would test it properly, leaving the tour and leaving her managers, have no first-person account. On this record the leading read cannot be held above low confidence, so the profile is an open case.",
+    "unexplained": "Why performing for a room terrified her for years while performing for a phone, hundreds of times, did not. Why someone who says she wanted to stay behind the scenes posted herself daily for five years. Whether the pop-to-country turn was a recovery of her own taste or a move toward the audience that responded; her account and the numbers point the same way, so the record cannot tell them apart. Why she left the Wetmore tour and Disruptor Management. Why she has said nothing about the later song-similarity allegations while answering smaller provocations within days. How she behaves in a direct conflict with someone close to her: no one has described one."
+  },
+  "profile_format": "open_case",
+  "open_case": {
+    "reason": "Stella Lefty is 24 and less than a year into public life: her first viral single came in January 2026, 'Boston' was released on March 27, 2026 and her debut album on August 21, 2026. Every interview in the record dates from March to August 2026 and belongs to one promotional campaign, mostly 5-to-20-minute radio and festival spots plus two magazine profiles, in which the same handful of stories recurs. The only people who have spoken about her are collaborators, her boyfriend and her then-managers. Her pre-2025 TikTok archive is no longer public. The three most consequential decisions of her first year (leaving a tour, leaving her managers, staying silent on the song-similarity allegations) have no first-person account. Thirty-three sources were opened and four types tested; the leading read (Nine) and the alternatives disagree mainly about what her accommodation and her drive are for, and nothing yet shows her in a conflict she could not smooth over or walk away from.",
+    "live_alternatives": [
+      7,
+      6,
+      3
+    ],
+    "settle_signals": [
+      "When she first explains leaving Disruptor Management and the Tucker Wetmore tour (both unexplained as of October 11, 2026): does she describe going along with something she disagreed with until she could not any longer, and regret not speaking sooner (Nine); a loss of trust in the people advising her (Six); feeling boxed in and wanting room to move (Seven); or a step up to a bigger operation for the next stage (Three)?",
+      "If she addresses the song-similarity allegations, or if a named artist's complaint such as Shaylen and TAELA's is pressed: does she concede and credit quietly without argument (Nine), explain herself at length and lean on allies and authorities for cover (Six), joke and change the subject (Seven), or defend her record and originality as a songwriter (Three)?",
+      "After her first headline tours (October 30 to November 23, 2026, and January 9 to February 20, 2027): when she says what got her through the stage fright night after night, does she credit routine and simply getting used to it (Nine), preparation and the trusted people around her (Six), the fun and energy of the crowd (Seven), or proving she could carry a show (Three)?",
+      "The first time a release clearly underperforms: does she follow the numbers toward whatever is working (Three), follow her advisers (Six or Nine), keep making what she likes in the car regardless (Nine), or move quickly to something new (Seven)? Her account of the 2025 EP's low views is the baseline to compare against.",
+      "The first on-record testimony from someone who knew her before 2024 (a sibling, college friend, teacher or former duo partner) describing her in a disagreement: does she smooth it over, withdraw, argue, or leave?"
+    ],
+    "next_review": "2026-12-01"
+  }
+}

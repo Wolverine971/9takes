@@ -220,7 +220,7 @@ She started in Colombian pop-rock as a teenager. Switched to Latin alternative w
 
 She speaks Spanish, English, Portuguese, some Italian, some French, and a few phrases of Arabic. She belly dances because of her Lebanese father. She learned to belly dance, she has said, by trying to flip a coin with her stomach. At the 2020 Super Bowl she stuck out her tongue and did a zaghrouta — a Middle Eastern celebratory ululation — on national television because she wanted Lebanese kids watching to see themselves.
 
-That is not a person trying to maximize one career. That is a Seven's possibility engine running at full throttle, refusing to leave any door unopened. The pattern echoes other Type 7 musicians who refuse to be confined to a single sound — <a href="/personality-analysis/bad-bunny">Bad Bunny</a> bouncing between trap, reggaeton, and pop until he made a love letter to Puerto Rico, or <a href="/personality-analysis/doja-cat">Doja Cat</a> shaving her head and writing a solo album to break her own pattern. Sevens collect containers. Sometimes a country becomes one. Sometimes a wound does.
+That is not a person trying to maximize one career. That is a Seven's possibility engine running at full throttle, refusing to leave any door unopened. The pattern echoes other Type 7 musicians who refuse to be confined to a single sound, like <a href="/personality-analysis/bad-bunny">Bad Bunny</a> bouncing between trap, reggaeton, and pop until he made a love letter to Puerto Rico. Sevens collect containers. Sometimes a country becomes one. Sometimes a wound does.
 
 The Type 7 weakness is that all this breadth can flatten into shallowness — knowing a little about everything, mastering nothing. Shakira's exception is that she actually goes deep on every container she enters. She has writing credits on almost every track she has released, which is unusual for a pop star at her commercial volume; her peers at that level are mostly faces for other people's songs. She produces. She co-directs videos. Gabriel García Márquez, her countryman and friend since 1999, wrote that her music "doesn't sound like anybody else's, and she has invented her own brand of innocent sensuality." When Márquez asked her to write songs for the film of _Love in the Time of Cholera_, she gave him "Despedida" and "Hay Amores" — Spanish-language ballads dense enough that Latin American critics put her songwriting in conversation with the literary tradition she came from. The breadth is real, and the obsession inside each project is real too.
 
@@ -411,7 +411,6 @@ Headings: passed — mix of signature ("The Eight-Year-Old Who Wrote Her Father'
 - Type 7 explainer → /enneagram-corner/enneagram-type-7
 - Type 7 stress patterns → /enneagram-corner/enneagram-types-in-stress
 - Bad Bunny (Type 7 musician peer) → /personality-analysis/bad-bunny
-- Doja Cat (Type 7 musician peer) → /personality-analysis/doja-cat
 -->
 
 

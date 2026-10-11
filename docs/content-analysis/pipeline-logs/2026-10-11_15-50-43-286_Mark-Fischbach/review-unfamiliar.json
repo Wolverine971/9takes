@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "d84f3588771e062e43e6daadb43d2a2b4a12833268f413005adabe2fd636e8e1",
+  "evidence_sha256": "c449879c8f33ba401d03284330187d8d5280a127b306cb70e57be5e3493d9908",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "Fischbach, known online as Markiplier, was born on June 28, 1989, in Honolulu, and his channel had more than 38 million subscribers as of August 7, 2026",
+      "problem": "A newcomer reads two scenes and the thesis question (about 350 words) before learning who he is, and the body never says in its own words what he does: 'YouTuber' appears only in the FAQ and 'gaming' first arrives inside a Polygon quotation. The opening never says Unus Annus was a second, year-long channel beside his main one, so the cost of deleting it cannot be read; a newcomer can take it for his career and then meet a 38-million-subscriber channel four paragraphs later. Identity finally arrives as one infobox paragraph (credits, opening gross, theater count, rival film, worldwide total, budget dispute, wedding date) about 1,860 words before 'Then the result came in', where those numbers carry stakes. Two FAQ anchors (box office, marriage) point to 'three-years-in-one-room', where neither fact appears.",
+      "acceptance_test": "By the end of paragraph 2 a newcomer can say, from sourced sentences, that he is a YouTuber known as Markiplier who made his name with gaming videos, horror games especially; how large his main channel is; and that Unus Annus was a separate channel, so deleting it cost a year of daily work and a 4.56-million audience while the main channel continued. The box-office and budget figures sit in 'Three years in one room' beside the paragraph on the result and the wedding date sits with the postponed wedding, so both FAQ anchors land on their facts. The change is a move, with no net growth in length."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "His channel is loud and absurd, he calls himself \"an impatient guy\"",
+      "problem": "The question the profile follows depends on a contrast between a loud comic entertainer and a severe inner judge, but the entertainer is asserted in six words and never shown. Every quotation in the article is solemn, tearful or self-critical, so a newcomer never meets the performer the audience subscribed to and cannot feel what the judge is being set against. The evidence record holds the missing register and the draft filters it out: it notes that he undercuts the 'half-ass' vow at once with 'God, I sound good in these answers' (C28), that he calls first place 'a fun little haha achievement' (S09), and that the 2018 calendar was a 'Tasteful Nudes' calendar (S20). Leaving all of it out also makes the Type 1 reading look tidier than the record, whose case against Type 1 begins with his playful public manner.",
+      "acceptance_test": "At least two short, sourced instances of the playful register appear in the body, one of them placed directly beside a solemn statement it undercuts, and the Type 7 section points to something the reader has seen instead of an assertion. A newcomer asked what he is like on camera can answer from the article. Words added are offset by cuts so the body stays near its current 3,556 words."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "major",
+      "passage": "On a stream four days after the opening he told fans, \"the win condition isn't being number one,\"",
+      "problem": "A newcomer was told about 1,860 words earlier that the film opened 'a close second', so this line reads as consolation for missing first place. The evidence record gives the opposite setting: on that stream he celebrated the film as number one on a later daily count, 'at length' (limits on C02 and C22), said he would take 'a little bit of ego' from the ranking (S09 context), and the stream's own title asks 'Number... 1?'. Without that the reader mislearns the moment, and 'he ranked it below the making' is shown only from the half of the stream that supports it.",
+      "acceptance_test": "The paragraph says, with its source, that he was celebrating a number-one daily ranking on the same stream when he named a different win condition, so the reader sees both his pleasure in the result and where he ranked it. The opening-weekend placement and the later daily ranking are kept distinct and each is dated."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "major",
+      "passage": "What neither business nor optimism explains is the voice he describes.",
+      "problem": "The sentence before concedes that part of the pressure is economics, and a newcomer's next thought is that fear of losing an audience would produce exactly this voice. The article asserts that it does not, without showing the step, and the evidence record's own limit on the inference says the commercial fear 'may be all the voice is' (C58). The gloss 'the fear he names is of being forgotten' also does not match the fear the reader was shown ('everything's going to come collapsing down'). The one detail that could carry the inference, that he himself calls the fear irrational, is quoted and then left unused.",
+      "acceptance_test": "A newcomer can restate in one sentence why the article thinks the pressure went beyond a business worry, using words of his that are on the page (for example his own label 'irrational', or the apology for silence that opens a death announcement); or the paragraph says plainly that economics may explain all of it and stops claiming otherwise. The fear is glossed only in terms the quoted words support."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "major",
+      "passage": "a former head moderator wrote that he was disappointed \"that you didn't care enough to reach out.\"",
+      "problem": "This is the article's only adverse testimony and the reader gets one side of it. According to the evidence record, the same report (S25, whose section 'Markiplier Responds to the Drama' was read) carries his answer: that he never saw the moderators try to contact him, saw only an inactive marker by their names, and tied the rule to memberships that fund his projects. The article leaves that out and then says the episode is 'not interpreted', but printing the complaint alone, with the December 25 date, is a framing. The standard requires relevant responses to disputed claims.",
+      "acceptance_test": "The passage gives his reported response from the same report with the same attribution and the same caution (one secondary source, original posts not retrieved), or it drops the quoted complaint and describes the episode neutrally. A newcomer finishing the paragraph can say what each side claimed and that neither was checked at the source."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "This rests on his own descriptions plus four things that happened in public: the streak, the deletion, the film and the giving.",
+      "problem": "'The giving' has not been introduced. Charity first appears about 270 words later, in the next section, where it is argued against Type 3, called unverified in total and described as something that 'also builds a creator's standing'; it is never tied to the Type 1 versus Type 7 question this sentence sums up. The paragraph above counts three choices, not four, and gives the streak 'by his account', which sits oddly under 'happened in public'. A reader tallying the basis for medium confidence cannot make the count come out.",
+      "acceptance_test": "Every item in the summing sentence has already been shown, sourced and qualified in the same terms, and each is tied to the Type 1 versus Type 7 distinction; or the sentence lists only what the preceding sections established and the charity record is weighed where it is argued. The count in the sum matches the count in the paragraph before it."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "Five years later he made the same kind of choice with his own money on the table.",
+      "problem": "By the article's own figures the film came out on January 30, 2026 after 'about 3 years' of work, so the choice to finance and confine it fell roughly two to three years after the November 2020 deletion, not five; the evidence record carries no date for when the film began. 'Nine years later' in the father section is ambiguous between the 2008 death and the 2013 video. The timeline also has a hole: 'The night he felt lost' ends in March 2017 on refused offers and a vow, the next section opens on the film, and Unus Annus, the project the article opens on, is never placed in that gap.",
+      "acceptance_test": "Both relative intervals are replaced by absolute dates a cited source supports, or by wording that asserts no interval. A newcomer can put the 2017 vlog, Unus Annus (begun in November 2019) and the film in order from the article alone, with one sourced sentence on what followed the vlog and no claim that the vlog caused the later projects."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "On Lemonade Stand he said, \"I'm a bit of a control freak in that regard",
+      "problem": "The recurring interview venues are never identified. Lemonade Stand is named eight times, Slate seven and Padilla six, and Colin and Samir, IGN and Quad Damage appear without a gloss; none is described as a creator-hosted podcast, a fellow creator's interview show or a live industry panel. This matters to the argument: the article's main caution is that he speaks 'usually to friendly interviewers', and a newcomer cannot weigh that without knowing which sources are peers, which is platform-owned and which is outside press.",
+      "acceptance_test": "Each recurring venue or interviewer carries an identifying phrase of eight words or fewer at first mention, consistent with the evidence record's source descriptions, and the 'friendly interviewers' caution in the closing section says which sources are peers or platform-owned."
+    },
+    {
+      "id": "unfamiliar-09",
+      "severity": "minor",
+      "passage": "the proceeds of the OnlyFans account he opened in 2022 were to be split between Cincinnati Children's Hospital and the World Food Programme",
+      "problem": "Several facts arrive without the clause a newcomer needs. A gaming YouTuber's OnlyFans account sits in a subordinate clause with no word on what it was or why he opened it, and the '2018 calendar' is equally bare. The health story is two fragments about 1,700 words apart ('ended up in a hospital recovering from surgery'; 'a biopsy he was awake for') with no statement of what either was for, in an article where his father dies of cancer. The Slate line beginning 'I already hated myself more' is cut so that it does not parse on first read.",
+      "acceptance_test": "Each fact either gains a short sourced clause that explains it (what the account and the calendar were; what the surgery and the biopsy were for, in his own words and without inferring a diagnosis) or is cut. The self-hatred line is paraphrased or quoted in a fragment that reads cleanly and still matches both transcriptions. No net growth in length."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "On November 14, 2020, Mark Fischbach and his friend Ethan Nestor sat in front of a computer in black and white suits, confirmed that they wanted to permanently delete a YouTube channel, and deleted it.",
+      "reason": "A reader who has never heard of him can see the scene and wants to know why. Plain, dated, sourced. Identity can be added around it without touching it."
+    },
+    {
+      "passage": "Fischbach opened the video announcing the death by apologizing for his silence, \"considering I haven't missed a day's uploads since I started the YouTube channel.\"",
+      "reason": "The most revealing detail in the profile, and it needs no gloss. A newcomer grasps the pressure he lived under from one reported act."
+    },
+    {
+      "passage": "These are a son's words about a dead parent, drawn out by a leading question, and \"half-ass\" is a common phrase. They show the standard he claims and where he says he got it. They do not show that his father's death produced it.",
+      "reason": "States the limit of the inference at the point the reader would otherwise over-read it, in three plain sentences. It teaches the reader how to weigh everything after it."
+    },
+    {
+      "passage": "Paralysis among too many options, a swing from tears to appetite within hours, and a life described as motion: this is what a Seven sounds like when the horizon runs out. A One usually knows what ought to be done and suffers over not doing it. On this night Fischbach did not know.",
+      "reason": "Explains both types to a newcomer through one night and gives real ground to the rival reading. The reader can test the distinction against what was just quoted."
+    },
+    {
+      "passage": "\"Okay, I don't hate it anymore. Go,\" he recalled on Slate. His mother, he told YouTube's blog, saw it with his cousin from Korea, loved it, and had one note: \"Don't do that again. No sequels.\" He had already told Slate what came next: \"Can't wait for the next one.\"",
+      "reason": "Ends on evidence instead of summary. The last line reopens the Type 7 question without comment, which is the honest place to leave a medium-confidence reading."
+    }
+  ],
+  "assessment": "Read cold, the draft orients a newcomer to the argument better than to the person. The delete-on-schedule opening, the apology for silence, the 2017 night and the closing lines are concrete, sourced and need no background; the Type 1 versus Type 7 contest is explained in plain terms and fought fairly, with the discriminator stated as a test the reader can apply. A first-time reader finishes able to state the thesis, its rival and its limits. What that reader does not get is the man the audience knows: who he is arrives about 350 words in as an infobox, the body never says in its own words what he does, the deleted channel is never identified as a side project, and the comic performer the thesis is set against never appears on the page. Two steps are asserted where a newcomer needs them shown (the voice beyond economics; an evidence sum whose fourth item has not been introduced), one load-bearing quotation is cut from a setting that changes how it reads (the number-one stream), and the one adverse episode is printed without his reported reply. Momentum holds through the film section. The last three sections are about 1,170 words of analysis, and the closing section restates caveats each paragraph has already made and adds two unconfirmed claims the argument never uses; it could carry only what is new. The body is 3,556 words, at the top of the target band, so the fixes should be moves and trades, not additions. Similarity advisory: it tripped once (0.05 against a 0.04 threshold) on the stem 'organized around' in a one-line type definition also found in aaron-pierre. I compared the quoted units; this is ordinary type vocabulary with no shared argument, so no finding, and the profile's case rests on details specific to this subject. Risks: contested_typing and major_thesis_change stand. The article itself says the Type 7 reading may be stronger than it allows, and the frontmatter blocker records that the site's live Markiplier page reads the same person as Type 7, which no text edit resolves. I did not flag sensitive_allegations: the moderator dispute is a mild attributed complaint, and Daniel Kyre's death is reported once without detail. I did not open sources; statements about what the record contains come from the supplied evidence file."
+}

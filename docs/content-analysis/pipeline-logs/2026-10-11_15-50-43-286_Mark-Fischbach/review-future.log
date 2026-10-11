@@ -1,0 +1,20 @@
+The future-role review is written to `docs/content-analysis/pipeline-logs/2026-10-11_15-50-43-286_Mark-Fischbach/review-future.json` and parses against `reviewSchema`. No other file was touched and nothing was published.
+
+**Verdict:** the Type 1 argument survives the five-year test with Iron Lung removed, but more narrowly than the draft claims. The page itself should hold until you decide what to do about the existing Markiplier page.
+
+**Decision for you (the blocker):** this is a second page for someone the site already publishes as Markiplier at Type 7, now reading him as Type 1 under a legal-name URL. I raised it as `future-01` so the editor cannot clear the frontmatter blocker without your call. Your options:
+- **Rerun on the existing URL:** `Markiplier --refresh --expanded-review`, so one page carries the retype.
+- **Keep a separate legal-name page:** confirm it, and reconcile the two types before either is published.
+
+I did not open the Markiplier page; the duplicate is taken from the draft's own blocker and the evidence record.
+
+The other seven findings:
+- **`future-02` (major):** "The real test is ahead" is undated, and it tests control over the next film, which fits Type 7 as well as Type 1.
+- **`future-03` (major):** statements like "No one who has disagreed with him at work is on record" are undated universal negatives. The research only shows this search found none, and none of them has a review trigger.
+- **`future-04` (major):** "four things that happened in public" overstates the observed base. The streak is his own claim and the giving is only partly documented, so without the film one observed act remains: the 2020 deletion.
+- **`future-05` (minor):** three loose intervals. "Within days" and "Five years later" conflict with the article's own dates, and "Nine years later" has an unclear anchor.
+- **`future-06` (minor):** the gross, subscriber count and Unus Annus figure link to live Wikipedia pages, and the gross is a May 2 snapshot that was never rechecked at a tracker.
+- **`future-07` (minor):** the Nestor quote links a fan re-upload of content he publicly asked fans not to host; it is tagged stable with no trigger.
+- **`future-08` (minor):** the birth date and his father's death date conflict with his own "18", yet both are tagged stable.
+
+Risk flags mirror the evidence record: contested typing and major thesis change are true, the other two false. The similarity trip is a single pair on the phrase "organized around" in a type definition, so I raised no finding on it. Five passages are protected, including the 2020 deletion opening.

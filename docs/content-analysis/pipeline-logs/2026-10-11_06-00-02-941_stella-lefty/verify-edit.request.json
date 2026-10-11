@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "stella-lefty",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/verification-edit.json"
+  },
+  "content_sha256": "2ab02a42716de9b2d34062456b0da406d16af40012e894150a4e2f67c4ad6b15",
+  "evidence_sha256": "c55acd3bc8ddc40785198b3e5ffaa1a4599408615f02a69694ac4ca48a7796f9"
+}

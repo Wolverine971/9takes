@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-10-10T06:00:00Z",
+	"lastUpdated": "2026-10-11T16:00:21Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
@@ -50,19 +50,6 @@
 			"strategicValue": "entity-gap-tech-analyst-cluster",
 			"entityGapScore": 70,
 			"entityGapPacket": "docs/content-analysis/entity-gaps/Dan-Ives.md"
-		},
-		{
-			"name": "stella-lefty",
-			"displayName": "Stella Lefty",
-			"type": null,
-			"priority": 92,
-			"priorityReason": "'Boston' #2 Hot 100; Wikipedia ~950/day Jun -> ~14.5K/day sustained 10 weeks; tour Oct 30-Nov 23; Grammy BNA contender (noms Nov 16). Plagiarism claims are allegations - attribute, never use as personality evidence.",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-10-04",
-			"retryCount": 0,
-			"strategicValue": "grammy-bna-2027-cluster"
 		},
 		{
 			"name": "maleah-joi-moon",
@@ -193,6 +180,71 @@
 			"addedToQueue": "2026-10-04",
 			"retryCount": 0,
 			"strategicValue": "grammy-bna-2027-cluster"
+		},
+		{
+			"name": "grace-reiter",
+			"displayName": "Grace Reiter",
+			"type": null,
+			"priority": 89,
+			"priorityReason": "Joined SNL Season 52 as a featured player (announced Sept 16, premiere Sept 26); Wikipedia 116/day in June -> 4.5K/day last 30, re-spiking after each episode (16.6K on Sept 27). Netflix is adapting her web series Minimum Wage. Rolling Stone Most Influential Creators 2026 #20. First-person record is mostly her own podcast (That's Enough with Grace Reiter) plus short press quotes; use Open Case if evidence caps. Hometown sources conflict (Madison vs Chippewa Falls, WI) - verify. Identity-first meta_title.",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-11",
+			"retryCount": 0,
+			"strategicValue": "snl-season-52-cluster"
+		},
+		{
+			"name": "kareem-rahma",
+			"displayName": "Kareem Rahma",
+			"type": null,
+			"priority": 72,
+			"priorityReason": "Rolling Stone Most Influential Creators 2026 #11. SubwayTakes host ('So what's your take?', 7.5M followers) plus long-form series Keep the Meter Running; closest format analog to 9takes, so the profile doubles as an outreach asset. Wikipedia ~500/day last 30 (867 in June): steady, not surging. Evergreen, no dated catalyst - runs after the surge picks.",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-11",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster"
+		},
+		{
+			"name": "dhar-mann",
+			"displayName": "Dhar Mann",
+			"type": null,
+			"priority": 70,
+			"priorityReason": "Rolling Stone Most Influential Creators 2026 #6; 171M followers, largest uncovered audience on the list. Wikipedia ~570/day last 30, down from ~1,040 in June. Evergreen bio demand, no dated catalyst - runs after the surge picks.",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-11",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster"
+		},
+		{
+			"name": "drew-afualo",
+			"displayName": "Drew Afualo",
+			"type": null,
+			"priority": 68,
+			"priorityReason": "Rolling Stone Most Influential Creators 2026 #14; NYT-bestselling author and podcast host with a deep first-person record. Wikipedia ~340/day last 30; averaged ~1,430/day Aug 1-26 (cause not verified - check before drafting). Public pivot away from the 'attack dog' persona is the arc. Evergreen - runs after the surge picks.",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-11",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster"
+		},
+		{
+			"name": "quenlin-blackwell",
+			"displayName": "Quenlin Blackwell",
+			"type": null,
+			"priority": 66,
+			"priorityReason": "Rolling Stone Most Influential Creators 2026 #8; 23M followers, on camera since Vine at 12. Wikipedia ~300/day, flat June through October. Completes the Gen Z creator cluster beside the live Brittany Broski, Jake Shane and Alix Earle pages. Evergreen - runs after the surge picks.",
+			"estimatedTraffic": "medium",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-11",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster"
 		}
 	],
 	"completed": [
@@ -1964,21 +2016,18 @@
 		}
 	],
 	"inProgress": {
-		"name": "codie-sanchez",
-		"displayName": "Codie Sanchez",
+		"name": "stella-lefty",
+		"displayName": "Stella Lefty",
 		"type": null,
 		"priority": 92,
-		"priorityReason": "DJ approved 2026-10-04. Entity-gap DIAMOND 85/100: no personal Wikipedia (HTTP 404), exact-name SERP is own sites + speaker/author pages + bio farms. Own or Be Owned released 2026-09-18; baby due Dec 2026 (second catalyst). Business-creator lane = Leila Hormozi analog (2.34% CTR post-retrofit). Seed brief: docs/content-analysis/research/codie-sanchez.md (identity-first meta_title required).",
+		"priorityReason": "'Boston' #2 Hot 100; Wikipedia ~950/day Jun -> ~14.5K/day sustained 10 weeks; tour Oct 30-Nov 23; Grammy BNA contender (noms Nov 16). Plagiarism claims are allegations - attribute, never use as personality evidence.",
 		"estimatedTraffic": "high",
 		"searchVolume": "high",
 		"personaTitle": null,
 		"addedToQueue": "2026-10-04",
 		"retryCount": 0,
-		"strategicValue": "entity-gap-business-creator-cluster",
-		"entityGapScore": 85,
-		"entityGapPacket": "docs/content-analysis/entity-gaps/Codie-Sanchez.md",
-		"recoveryNote": "Retry reset 2026-10-04: the 02:00 launch failed only because a manual Florence-Pugh run held the pipeline lock.",
-		"startedAt": "2026-10-10T06:00:00Z"
+		"strategicValue": "grammy-bna-2027-cluster",
+		"startedAt": "2026-10-11T06:00:00Z"
 	},
 	"skipped": [
 		{
@@ -2429,6 +2478,32 @@
 					"Current accuracy before drafting: re-check IPO status after the reported Oct. 14, 2026 investor event and any public S-1 (her titles, board-chair role, equity, any super-voting shares), and update Forbes figures with a date."
 				],
 				"run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-06_06-00-02-626_daniela-amodei"
+			}
+		},
+		{
+			"name": "codie-sanchez",
+			"displayName": "Codie Sanchez",
+			"type": null,
+			"priority": 92,
+			"priorityReason": "DJ approved 2026-10-04. Entity-gap DIAMOND 85/100: no personal Wikipedia (HTTP 404), exact-name SERP is own sites + speaker/author pages + bio farms. Own or Be Owned released 2026-09-18; baby due Dec 2026 (second catalyst). Business-creator lane = Leila Hormozi analog (2.34% CTR post-retrofit). Seed brief: docs/content-analysis/research/codie-sanchez.md (identity-first meta_title required).",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-04",
+			"retryCount": 0,
+			"strategicValue": "entity-gap-business-creator-cluster",
+			"entityGapScore": 85,
+			"entityGapPacket": "docs/content-analysis/entity-gaps/Codie-Sanchez.md",
+			"recoveryNote": "Retry reset 2026-10-04: the 02:00 launch failed only because a manual Florence-Pugh run held the pipeline lock.",
+			"startedAt": "2026-10-10T06:00:00Z",
+			"heldAt": "2026-10-11T06:00:00Z",
+			"needsReview": true,
+			"pipelineResult": {
+				"subject": "codie-sanchez",
+				"run_status": "held",
+				"editorial_status": "needs_revision",
+				"blockers": ["overall_below_8.5:8.3"],
+				"run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez"
 			}
 		}
 	]

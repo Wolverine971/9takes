@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "59aedac8724bf4199f220b5a2ba56c8b203a218d772f448e46d4e33aa21cb1bd",
+  "evidence_sha256": "7d48e212c47ec76e8a214fdf4594e35f2396c06ffcf6b2b39ece52a6b0a388be",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "That is her own explanation of this cycle.",
+      "problem": "This states as her position a link she is not on record making. In October 2025 she called the swing to \"Everything's fine\" \"my condition\" and said \"There's a word for it\" without naming it. The March 2026 statement is known only through Complex's report of a TikTok that was not opened, and it was made in a different setting. That the withheld word was BPD, and that she explains her outbursts at fans with it, is the profile's inference. Placed in the fan-fight section, the sentence attaches a mental-health label to specific hostile episodes, which the binding research guardrail (task 8a: \"do not explain her outbursts with it\") ruled out.",
+      "acceptance_test": "The paragraph reports the two statements as separately dated, each in her words, with the Complex attribution kept. No sentence says or implies that she named BPD as the explanation for her outbursts or that the unnamed \"word\" was BPD. If the connection is kept, it is marked as the profile's inference and says she has not confirmed it. The mention stays single and the \"cannot evaluate\" disclaimer stays."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "along with a 2015 song titled after a racist slur.",
+      "problem": "This FAQ answer names two allegations (the chat room and the song) and gives her response to only one. The record's own note on C42 says she \"denied taking part in racist conversations and said the song tried to reclaim a slur used against her.\" Neither response is in the answer, so the more damaging item stands unanswered in text that feeds FAQ search results. No source excerpt in the evidence record carries those words either, so the response cannot currently be traced.",
+      "acceptance_test": "The answer pairs each allegation it names with her on-record response (her denial of taking part in racist conversations, and her account of the song), attributed and dated, and C42 cites an excerpt from an opened source that contains those words. If no opened source carries her response on the song, the song clause is not left standing alone."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "Appeasement, a flip when it is refused, collapse, repair. The sequence repeats with different casts:",
+      "problem": "The episodes listed as repeats do not show the sequence. On the cited sources, Threads (July 2023) begins with her insult and ends with \"I feel free\": no appeasement and no repair. Auckland begins with fan complaints and her replies. The next line counts the March 2024 Instagram exit as an ending, though its source shows no outburst, only her saying how she was being spoken to. The title (\"Every Blowup\") and FAQ 3, which files the \"kittenz\" post under \"accommodation, then an outburst,\" generalize further. The record's own notes on C96 and C104 concede this. The effect is to assign her an unspoken prior yes in episodes where none is documented.",
+      "acceptance_test": "Each episode offered as an instance shows every step claimed for it from a cited source, or the lead-in and FAQ 3 are narrowed to what Threads, Auckland and Instagram actually show (an outburst, an exit, or both). The Instagram exit carries her stated reason or leaves the list. The editor narrows \"Every\" in title and meta_title or records why the headline stands."
+    },
+    {
+      "id": "subject-04",
+      "severity": "minor",
+      "passage": "then sent a follow-up statement saying the credits on her music are accurate.",
+      "problem": "Per C43, the emailed follow-up clarified a different remark from that interview, about his songwriting credits, not \"I don't think I need to work with him again.\" Joined by \"then,\" the follow-up reads as her retreating from distancing herself from Dr. Luke. That misstates the scope of what she clarified.",
+      "acceptance_test": "The answer either says the follow-up addressed a separate remark about credits, without reprinting the insinuation she withdrew, or drops the clause. Nothing implies she took back \"I don't think I need to work with him again.\""
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "\"It's incredibly lonely. I'm lonely. I want people to embrace me,\" she said in that same March 2026 video.",
+      "problem": "A vulnerable first-person admission is printed from auto-captions alone. The stretch at 32:14-33:16 is not among the second-transcribed segments of S-RT26, C53 notes the passage is interrupted, and the pre-release listen list in task 17 omits it. The record also does not say what \"It\" refers to (home, touring or fame), yet the draft uses the line to describe her quiet home life.",
+      "acceptance_test": "The line is confirmed at 32:14 by a human listen or a second transcription, C53 records what \"It's\" refers to, and the framing sentence matches that referent. Otherwise the quotation is trimmed to the confirmed words."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "Her breakthroughs, as she tells them, mostly happened to her.",
+      "problem": "A general claim about her agency rests on one breakthrough story (\"Mooo!\") and a remark about travel to South Africa, which is not a breakthrough. The same article shows her teaching herself, muting a star's verse and being called \"the mastermind.\" \"Mostly happened to her\" understates her authorship of her own career further than the two quotations allow.",
+      "acceptance_test": "The sentence is narrowed to what is quoted (she tells the \"Mooo!\" story as an accident), or more sourced first-person statements from C29 are added so that \"mostly\" is earned. The travel line is not presented as a breakthrough."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "how the woman who mutes Pharrell struggles to refuse a hug",
+      "problem": "This states as fact that the hug was unwanted and that she could not say no. Her own account (S-AM25, C11, C12) is that she is usually a yes to hugs and that the alarm came when the clip spread, which the opening reports correctly. The close and the \"order\" paragraph drop that and treat the days of silence as suppressed discomfort about the hug itself. That is a motive the record does not establish.",
+      "acceptance_test": "The close uses her framing (an issue with setting boundaries, days before she said anything), and no sentence asserts that she did not want the hug at the time. The \"order\" paragraph notes that her stated trigger was the clip going viral."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "The same reporter caught a smaller version in person.",
+      "problem": "A feverish person's polite goodbye to a journalist is presented as an instance of the resentment-then-denial pattern. The record's own note on C18 reads \"Politeness while sick. One moment proves nothing alone.\" Reading ordinary courtesy as a symptom is imagined interiority.",
+      "acceptance_test": "The scene is kept only as texture with the ordinary explanation stated (she was ill and being polite), or it is cut. It is not counted as an instance of the pattern."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Neither account can be checked from outside, and this profile builds nothing on either.",
+      "reason": "The father dispute is given in her words, with his denial, and the profile refuses to build a childhood wound on it. This is the fair handling of a live family dispute."
+    },
+    {
+      "passage": "This profile cannot evaluate it and does not try: nothing here is a diagnosis, and a personality type is no substitute for her account.",
+      "reason": "It keeps her mental-health disclosure hers and stops the type reading from overwriting it. Keep it even when the sentence before it is repaired (subject-01)."
+    },
+    {
+      "passage": "Two cautions. She defended that call as her own (\"I can be strategic\"), and every statement here was made while selling the next album as the real one.",
+      "reason": "It prints her own counter-framing of the compliance evidence and names the promotional context, so the reader can see where her account and the profile's inference part."
+    },
+    {
+      "passage": "The best witness against a conflict-averse reading is Doja Cat.",
+      "reason": "The profile hands the strongest objection to her, in her own words, before arguing with it. That is fairer than explaining her enjoyment of the fight away."
+    },
+    {
+      "passage": "\"I don't know if I was agoraphobic, but I definitely thought that I was at the time.\" (The word is hers, not a diagnosis.)",
+      "reason": "A clinical-sounding word is kept as her lay description with its own hedge intact, and the article says so on the spot."
+    }
+  ],
+  "assessment": "This is a fairness proxy's reading, not her voice. The draft handles the hardest material with care: the father dispute carries his denial and builds nothing on it, \"agoraphobic\" and ADHD are marked as her words, the brother, the unverified half-sister, the Chalamet episode and Kesha's lawsuit stay off the page, her pleasure in trolling is quoted against the thesis, and the earlier Type 7 reading is disclosed. Three repairs are needed before release. The BPD sentence asserts a link she is not on record making. The Tinychat FAQ leaves the song allegation without her response. The \"sequence repeats\" claim, echoed in the title and FAQ 3, assigns a prior yes to episodes that show none. The other five findings are wording-level, mostly places where an ordinary explanation (politeness while ill, a clip going viral, a clarification about credits) is displaced by the pattern. One further point, not raised as a finding: Yeti Beats prefaced \"she was a shut-in\" with \"I don't know if she would want me saying this,\" and the draft drops that hedge. Limits: I read the frozen draft against the evidence record and opened no sources, so her 2020 response on the song and the referent of the loneliness line could not be checked. Similarity: the single tripped pair (0.045, equal to the noise-floor maximum) is the stock phrase \"keeps the peace\" in a differently argued profile, so there is no reuse finding."
+}

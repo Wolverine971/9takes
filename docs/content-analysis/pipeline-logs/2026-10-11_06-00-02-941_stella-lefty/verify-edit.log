@@ -1,0 +1,40 @@
+The Stella Lefty verification is written and the verdict is **pass**: the contract's own release check returns eligible with no blockers.
+
+Output: `docs/content-analysis/pipeline-logs/2026-10-11_06-00-02-941_stella-lefty/verification-edit.json` — the only file I wrote in the repo; nothing was published.
+
+## What I checked
+
+- **Sources:** I reopened all 27 sources behind the final claims. 25 were refetched live; Country Now and USA Today block scripted requests, so I read those in Internet Archive captures. Every quoted string in the body traces to its source with the right speaker, date and context.
+- **Video quotes:** I refetched the caption tracks and ran a third machine transcription on nine segments. Everything agrees except one word (see finding 1). No person has listened to any audio.
+- **Currency:** searches today found no reply from her on the song comparisons, no management statement and no interview after August, so the "as of October 11" statements hold.
+- **Jury decisions:** all 48 are accepted, including the one rejection (the public-health backstory, left out on sensitivity grounds). All 23 protected passages are preserved, six of them reworded to remove unsupported detail.
+- **Re-ranked rival:** the edit moved the closest rival from Type 7 to Type 6. That does not need a fresh jury. The leading type is unchanged, Six was already in the reviewed live set, and four of the six jurors asked for the change.
+- **Open-case eligibility:** confirmed. She is 24, her breakout was January to March 2026, and my own searches found no pre-2026 interviews or pre-fame testimony.
+
+## Scores
+
+| Dimension | Score |
+| --- | --- |
+| Evidence | 8.4 |
+| Enneagram | 8.3 |
+| Originality | 8.6 |
+| Writing | 8.1 |
+| Durability | 8.6 |
+| Hook | 8.7 |
+| Discoverability | 8.4 |
+| **Overall** | **8.4** (open-case floor is 8.0) |
+
+I set the five-year flag to false: an open case is provisional by design and schedules its own reopening on 2026-12-01. That does not block release in this format.
+
+## Four minor findings (none blocking)
+
+1. **"sweating profusely":** the adverb rests on the YouTube captions alone. One re-transcription garbled it and mine dropped it. It needs a human listen at about 03:13 of the Snapchat video before publication, or the quote should be trimmed.
+2. **"Her answer, in The Line of Best Fit":** that interview ran July 3, two months before the September criticism it appears to answer.
+3. **"By May there were advisers":** her word in every telling is "people"; no source says who they were.
+4. **"The people quoted describing her firsthand…":** true of the sources opened, but the sentence isn't limited to them, and the Washington Post and People pieces were never opened.
+
+Before publishing, someone should also look at her TikTok directly: the claim that her pre-August 2025 posts are offline rests on a September Rolling Stone report.
+
+## One housekeeping note
+
+A scratch script of mine in `/tmp` had a loop bug and grew a 1.2 GB output file before I killed it and deleted it. Nothing in the repo was affected. The disk is at 99% (17 GB free), and it was nearly full before I started.

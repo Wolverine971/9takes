@@ -1,0 +1,20 @@
+The draft stage is done: `draft.md` and `evidence-draft.json` are written to the run folder and pass the pipeline's own `checkDraft` and `validateEvidence` checks with no blockers.
+
+It is written as an open case, with Type 9 as the leading read at low confidence, Type 7 as the strongest alternative, and Types 6 and 3 still live.
+
+- **The hook:** she says her reaction to a Nashville publisher in 2024 was "You don't get to tell me what I am," then, by her own account, she spent about a year in Los Angeles making the music other people told her to make.
+- **Shape:** who she is and why people are searching, the 60-word type answer, three evidence sections, the four reads side by side, and the required "What would settle it" section with five signals.
+- **Allegations:** the song-similarity and bought-career claims are each attributed and dated, with credited and uncredited comparisons separated. The draft says no legal claim has been reported and that it does not use them as type evidence.
+- **Left out on purpose:** her mother's illness and her friend's death, any net-worth figure, and the critics' nickname.
+- **Evidence file:** 81 claims and all 35 sources. Two research claims the article doesn't use were dropped, and 52 were added so every quote, dated fact and metadata fact has its own passage.
+
+Things the next stages should know:
+
+- **Length:** the draft is 3,014 words against the open-case target of roughly 1,200–2,500. I left it because the remaining cuts would remove evidence; the likeliest cuts are listed in the evidence file for the editor.
+- **Caption quotes:** every quotation matches the saved source text. For the video interviews I also re-transcribed the quoted audio with a second speech-to-text model, which is not a human listen. That check changed two lines:
+  - The "only person that I trust in my life" line about Grace Enger came back as "trust with my life", so it is now paraphrased.
+  - One MuchMusic sentence was unclear at its end, so I quote a different part of the same answer.
+  - "Sweating profusely" rests on the caption track alone and is flagged for a human listen.
+- **Title:** I went identity-first ("Who Is the 'Boston' Singer? An Open Case, Leading Read Type 9") rather than typology-first, because the typology-first title hurt click-through on an earlier emerging-name page. Say if you want the Zada-style title instead.
+
+Outside the two requested files, I added a short note to my memory file about the audio-check method, and left scratch scripts and transcripts in `/tmp/stella-lefty-draftcheck`. Nothing else in the repo was touched and nothing was published.

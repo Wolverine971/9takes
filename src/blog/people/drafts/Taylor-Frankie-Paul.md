@@ -171,7 +171,7 @@ Then ABC saw a 2023 video of her attacking her ex-boyfriend with a metal barstoo
 
 ### Taylor Frankie Paul is an Enneagram Type 7w8
 
-[Type 7s](/enneagram-corner/enneagram-type-7) are the Enthusiasts. They keep options open. They stay ahead of feelings. They move before pain can catch them. Most celebrity Sevens channel this through comedy, content, or constant reinvention: [Kevin Hart](/personality-analysis/kevin-hart), [Doja Cat](/personality-analysis/doja-cat), [Alex Cooper](/personality-analysis/alex-cooper), [Brittany Broski](/personality-analysis/brittany-broski). Taylor Frankie Paul channels it through confession.
+[Type 7s](/enneagram-corner/enneagram-type-7) are the Enthusiasts. They keep options open. They stay ahead of feelings. They move before pain can catch them. Most celebrity Sevens channel this through comedy, content, or constant reinvention: [Kevin Hart](/personality-analysis/kevin-hart), [Katy Perry](/personality-analysis/katy-perry), [Alex Cooper](/personality-analysis/alex-cooper), [Brittany Broski](/personality-analysis/brittany-broski). Taylor Frankie Paul channels it through confession.
 
 When the pressure builds, she doesn't run from the story. She tells it, loudly, on livestream, in a voice that sometimes shakes and sometimes doesn't. The confession itself becomes the exit.
 

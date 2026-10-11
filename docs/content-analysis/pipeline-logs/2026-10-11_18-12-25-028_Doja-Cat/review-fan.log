@@ -1,0 +1,16 @@
+The fan review is written to `review-fan.json` in the run directory; it parses against `reviewSchema` and both hashes match the frozen draft and evidence. Nothing else was modified and nothing was published.
+
+The review has eight findings (seven major, one minor) and five protected passages. The draft's central observation holds up, but it over-extends it:
+
+- **"Every blowup" overclaims.** Threads 2023 and Auckland 2025 are listed as examples of the appease-then-erupt sequence, but both open with a flat no. The evidence record's own notes concede this; the page and title do not.
+- **No eruption over the stage name.** The 60-word type answer and first FAQ list it as a case of "erupts later"; Rolling Stone only shows her being talked out of changing it.
+- **"Her breakthroughs … mostly happened to her" bends the "Mooo!" story.** Billboard, Rolling Stone and Vogue all describe it as self-started and self-released. The record also has her saying "And I really wanted it."
+- **The *Vie* quote is cut mid-sentence.** The dropped half ("or I can do what I want without having to remain in the state of Scarlet") helps the Type 7 reading. The page also never says she later brushed off *Scarlet* and went back to the "cash-grab" lane.
+- **The Nas "nonconfrontational" quote stops one sentence early.** Her next words are that she'd respond with humor, and Rolling Stone reports she did.
+- **The chat-room origin is offered as mitigation.** Her stated enjoyment of it and the 2018 and 2020 backlashes it produced are left out of the body.
+- **Dr. Luke and the label appear only in an FAQ.** The record says no opened source gives his denial, but the Rolling Stone piece states it outright, so that reason for the omission is wrong.
+- **The close ignores the stage (minor).** "Keeps asking for less" leaves out her own statements about performing.
+
+Risk flags are set to sensitive allegations, contested typing and major thesis change. The similarity trip was a single shared "keep the peace" phrase, which I judged ordinary type vocabulary.
+
+I checked each finding against the saved source texts in `/tmp/Doja-Cat-research/txt`, not live URLs or video. The assessment also names two leads from memory that are not in the record and are unverified: the 2022 Noah Schnapp DM episode and the Taco Bell "contractual" TikTok.

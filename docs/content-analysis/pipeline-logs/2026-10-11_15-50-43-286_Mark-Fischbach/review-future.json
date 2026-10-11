@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "d84f3588771e062e43e6daadb43d2a2b4a12833268f413005adabe2fd636e8e1",
+  "evidence_sha256": "c449879c8f33ba401d03284330187d8d5280a127b306cb70e57be5e3493d9908",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "blocker",
+      "passage": "loc: 'https://9takes.com/personality-analysis/Mark-Fischbach'",
+      "problem": "By the draft's own production_pretext blocker and the first research task in the evidence record, this is a second page for a person the site already publishes as Markiplier at Type 7, and it leads with Type 1 under a legal-name URL. (This reviewer did not open the Markiplier page; the fact is taken from the two supplied inputs.) Two URLs for one person that disagree on type fail a five-year test whatever the prose quality: they split the name people search for, which is why most keywords here are 'Markiplier ...', and every later refresh of either page contradicts the other. Because this is a create-mode run with an empty baseline, the frontmatter line is the only thing carrying the conflict forward, and an edit could clear it without DJ's decision.",
+      "acceptance_test": "The duplicate_subject blocker stays in production_pretext and the run ends as a hold unless the resolution quotes a dated decision from DJ. That decision is either (a) rerun this argument as `Markiplier --refresh --expanded-review` on the existing URL, or (b) confirm a separate legal-name page, in which case the two pages no longer state different types before either is published. The editor does not change `loc` or `person` and does not clear the blocker on its own authority."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "The real test is ahead. If his next film is made with a studio's money and someone else's final say, and he is at ease with it, the control described here was about circumstance. If he keeps the final cut and the long hours, the pattern holds.",
+      "problem": "This is the page's own reopen condition and the first paragraph that will go stale. First, 'is ahead' is an undated status claim. The latest dated status in the record is Gizmodo's June 29, 2026 note that he had not chosen a next feature (S19), and rechecking whether one has been announced is still an open research task. Second, it tests control, which the record says does not separate the readings: C21's alternative notes that a Seven or an Eight would say the same thing about final say, and C67's alternative says one project 'would only test this one strand'. The article's stated discriminator is what a limit is for, and its stated open question is whether 'better' and 'next' are the same hunger. The forward test addresses neither, so 'the pattern holds' would be claimed on an outcome that fits Type 7 equally well.",
+      "acceptance_test": "The paragraph gives an absolute as-of date and says what had or had not been announced about a next feature on that date, from an opened source. It says plainly that the studio and final-cut outcome tests the control strand only. It names at least one observable signal tied to the Type 1 versus Type 7 discriminator, for example whether the next project again binds itself to a self-set rule he keeps at cost, or whether he describes finishing it as a verdict on the work or as clearing the way for the next thing. The C67 review_trigger names that signal."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "No one who has disagreed with him at work is on record.",
+      "problem": "The draft states, undated, what the world's record lacks: this sentence, 'No one who knew him then is on record.', 'Szymanski is the one outside witness to the work itself.' and 'The outside voices are few and warm.' The evidence supports only that this search found none by 2026-10-11. Its research task on testimony names people whose accounts were not found (Wade Barnes and Bob Muyskens, Amy Nelson, director of photography Philip Roy, co-star Caroline Rose Kaplan, the removed moderators) and points to February 2026 Distractible episodes that are not among the 34 recorded sources. Another task lists unread stretches of S11, S13 and S32. These sentences are the stated reason for medium confidence and the claims most likely to be overtaken by new testimony, yet none is in the claim inventory, so none has a review trigger. 'No account from Nelson was found.' shows the correct scope.",
+      "acceptance_test": "Every statement about missing testimony is worded as what this profile's search found, and the section 'What the record cannot show' gives one absolute as-of date for that search. 'the one outside witness' is either supported or reworded to the same scope. The evidence record tracks the absence as an `unresolved` item with a review trigger naming whose on-record account would reopen the confidence level."
+    },
+    {
+      "id": "future-04",
+      "severity": "major",
+      "passage": "This rests on his own descriptions plus four things that happened in public: the streak, the deletion, the film and the giving. That is why the confidence is medium.",
+      "problem": "Applying the five-year test with the latest event removed: take out Iron Lung and the independently observed base is one act, the 2020 deletion. The streak is his own claim. C43 and C63 are classed self_report and marked not independently audited, and C43 notes a forced move to a new channel in April 2012. 'More than three years' is the author's arithmetic from two statements, though the FAQ says 'he says lasted more than three years'. The giving is one donation confirmed by its recipient ($500,000, S20), one announced split of proceeds, and his own account of refusing endorsements; the draft itself says no total is verified. So the sentence that justifies the confidence level counts a self-reported item and a partly documented one as public events, and the sentence is not in the claim inventory.",
+      "acceptance_test": "The sentence separates what was independently observed (the deletion; the film's existence, self-financing and single setting) from what is his account (the unbroken streak) and what is partly documented (the giving). Alternatively the streak is audited against the channel's public upload dates and that check is cited. The three-year figure is presented as a calculation, not as his statement, in both body and FAQ. The sentence is added to the claim inventory as interpretation."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "And finishing brings him release more than satisfaction, followed within days by the judgment that it was not his best.",
+      "problem": "Three relative intervals do not hold up against the article's own dates. In this sentence, the record does not date the night he judged the film finished (S14 is a May 17, 2026 retelling). The dated verdict 'this isn't the best I can do' came four days after the opening, not after finishing, so 'within days' is unsupported inside the discriminator paragraph. 'Five years later he made the same kind of choice with his own money on the table.' conflicts with '16-hour days for about 3 years' before a January 30, 2026 release, which puts the decision to finance and confine the film around 2023; the evidence record holds no date for that decision. 'Nine years later' follows one sentence dated 2008 and one dated 2013, so its anchor is unclear until the citation.",
+      "acceptance_test": "Each of the three intervals is replaced by an absolute date, or by an interval between two dated events that are both in the evidence record. The discriminator sentence says the verdict followed the opening, or cites a dated source for when the film was finished. The bridge sentence in the third paragraph dates the film by its release or by a sourced start of production."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "Its worldwide total was about $51.2 million as of May 2, 2026 ([Wikipedia's box-office summary](https://en.wikipedia.org/wiki/Iron_Lung_%28film%29)).",
+      "problem": "The changing figures on this page (the worldwide gross, 'more than 38 million subscribers as of August 7, 2026', the 4.56 million Unus Annus count) are correctly dated but link to live Wikipedia articles. Those pages will change, so a later reader following the link cannot see the number cited. The gross is also a five-month-old snapshot on a page whose accuracy check is dated 2026-10-11: S24 says the box-office trackers were not opened, and the C02 and C65 trigger to recheck at Box Office Mojo or The Numbers is still listed as a research task.",
+      "acceptance_test": "The worldwide gross in body and FAQ comes from a box-office tracker opened on a stated date, given as the final theatrical total if the run has closed. Failing that, the as-of date is kept with a permanent Wikipedia revision link matching the retrieved text. Other dated figures sourced to Wikipedia use a permanent revision link or the underlying source. The C02 and C65 triggers name events (re-release, new territory, home-release figures), not only 'before release'."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "The clip survives only as an undated fan re-upload ([YouTube](https://www.youtube.com/watch?v=yEOda4EI8lA)).",
+      "problem": "The second paragraph quotes Fischbach warning viewers against hosting copies of Unus Annus videos, and S34's context says he and Nestor were reportedly working to keep re-uploads offline. This link is one of those copies. That makes it the citation most likely to disappear, and linking it is a choice the subject has publicly objected to. It carries one of the profile's two outside voices, yet C35 is tagged `stable` with no review trigger, and 'survives only as' is an undated status claim. The same URL is in the frontmatter citations.",
+      "acceptance_test": "The resolution records a deliberate choice: keep the quotation with a described but unlinked source, or keep the link knowingly. In either case C35 is retagged `time_sensitive` with a trigger to confirm at each refresh that the clip can still be retrieved and to cut or re-source the quotation if it cannot. The sentence about the clip's status carries an as-of date."
+    },
+    {
+      "id": "future-08",
+      "severity": "minor",
+      "passage": "His father died of cancer on July 4, 2008, he told the [Cancer Research Institute](https://www.cancerresearch.org/stories/supporters/mark-fischbach-markiplier) in 2013.",
+      "problem": "The evidence record says he gives his age at his father's death as 18 (S08). That does not fit this date together with the printed birth date of June 28, 1989, which would make him 19. The draft rightly omits the age, but it prints both full dates (body, FAQ and `birth_date`), and C04 and C61 are tagged `stable` with empty triggers even though a research task marks the conflict unresolved and C01 notes that the birth date rests on Wikipedia. Nothing in the inventory warns a later edit against adding his age.",
+      "acceptance_test": "Either an independent or primary record for one of the two dates is opened and cited in the resolution, or the less-supported claim (C61, and the birth date in C01) is retagged `unresolved` with a trigger naming the record that would settle it. No passage or FAQ states his age at the death while the conflict is open."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "On November 14, 2020, Mark Fischbach and his friend Ethan Nestor sat in front of a computer in black and white suits, confirmed that they wanted to permanently delete a YouTube channel, and deleted it.",
+      "reason": "The hook is a dated, completed, observed act from 2020, not the 2026 film. Opening here is what lets the central insight stand if the latest event is removed."
+    },
+    {
+      "passage": "He had said it four years earlier in different words.",
+      "reason": "Ties the title-bearing June 2026 line to a 2022 statement made before the film existed, so the thesis does not hang on one press tour."
+    },
+    {
+      "passage": "All of that is self-report, told after the film had succeeded, when hardship reads as heroism.",
+      "reason": "A plainly stated limit on the 2026 material that stays true however the typing is later revised."
+    },
+    {
+      "passage": "The record cannot fully separate \"better\" from \"next.\" If they are the same hunger, the Seven reading is stronger than this profile allows.",
+      "reason": "Names exactly what does not yet discriminate between the two readings. It is the natural hook for a refresh and would survive a later retype."
+    },
+    {
+      "passage": "It is the strongest evidence for the other reading of him, so it gets its own section.",
+      "reason": "Gives the alternative a full section built on a 2017 source. What the page reports there remains accurate even if a later run settles on Type 7."
+    }
+  ],
+  "assessment": "Five-year verdict: the central insight survives removal of Iron Lung. The hook is the 2020 deletion, thesis-bearing statements exist from 2014, 2015, 2017 and 2022, and the 2026 'harsher than I judge myself' line is tied to a 2022 equivalent. The margin is thinner than the draft says: eight of the seventeen supporting claims come from one post-success press window (January to June 2026), and without the film the independently observed base is a single act (future-04). The largest durability liability is structural: a second URL for a person the site already publishes at a different type (future-01). Changing facts are mostly given absolute dates and tracked. The gaps are undated statements about what the record lacks, a forward test that is undated and does not test the Type 1 versus Type 7 discriminator, three loose intervals, figures pinned to live Wikipedia pages, and a takedown-prone fan re-upload. Leaving out the August 2026 GoPro stake is the right call: S26 describes a non-controlling holding known only in paraphrase, and it does not test the argument. Similarity: the one trip (0.05, equal to the noise-floor maximum) is the stem 'organized around' in a type definition. The two sentences define different types and make different arguments, so it is ordinary type vocabulary and not reuse. Assessed directly, the discriminator is built from this subject's own acts. Limits: this role did not reopen sources and did not open the existing Markiplier page. Risk flags mirror the evidence record (contested typing, major thesis change). The moderator dispute and the references to Daniel Kyre's death are handled with attribution and restraint, so sensitive_allegations is left false. YouTube quotations rest on auto-captions saved under /tmp, which will not persist for a later refresh."
+}

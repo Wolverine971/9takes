@@ -1,0 +1,19 @@
+The critic review is written to `docs/content-analysis/pipeline-logs/2026-10-11_18-12-25-028_Doja-Cat/review-critic.json`. It parses against `reviewSchema`, the hashes match the request, and every finding and protected passage is an exact substring of the frozen draft. I touched no other file and published nothing.
+
+**Verdict:** the draft is unusually candid about its rival type, but the Nine-over-Six margin rests on selective readings. There are 7 major findings and 1 minor. If the repairs leave no discriminator standing, the review says to hold per your owner note and not assert Nine.
+
+| ID | Severity | Problem |
+| --- | --- | --- |
+| critic-01 | major | She has given her own account of both the pretending and the blowups. The article declines to evaluate it but never says what that does to its inference. |
+| critic-02 | major | The "order" discriminator is weak: objections always follow commitments, and the hug's alarm had a new cause (the clip going viral, "all irrational fear"). The claim about how a Six behaves is unsourced. |
+| critic-03 | major | The "reason" discriminator treats craft certainty as commercial certainty and leaves out her own self-doubt statements. Its key clause continues "and I get it." |
+| critic-04 | major | The "long yes" on the music is retrospective and was reversed in 2025. Evidence that the pop albums were her own project is in the record but not on the page. |
+| critic-05 | major | "Every Blowup" generalises from two episodes. It omits the Chalamet outburst she herself called a play for "clicks, likes, approval," and the type answer claims an eruption over the stage name that isn't on record. |
+| critic-06 | major | "In person she goes still" omits contrary first-hand observation (Paper's writer, her manager Dillard, the Periscope line). |
+| critic-07 | major | The politics quote used against Type 6 is a deflection that Rolling Stone itself read as protective. |
+| critic-08 | minor | The father paragraph implies he was answering the Elle UK interview, which was published about seven weeks after his videos. It omits what he was actually replying to. |
+
+- **Risk flags:** sensitive allegations, contested typing and major thesis change are all set true, carried from the evidence record.
+- **Protected passages:** five, all places where the draft concedes ground to the rival type or leaves a contradiction standing.
+- **Similarity:** the one trip (0.045, "keep the peace", against austin-abrams) is ordinary type vocabulary used in opposite arguments, so no finding. I judged it from the diagnostic's snippets only.
+- **Sources:** I did not reopen any. Citations of omitted material rely on the evidence record's excerpts and context, and should be confirmed at source by the evidence reviewer or verifier.

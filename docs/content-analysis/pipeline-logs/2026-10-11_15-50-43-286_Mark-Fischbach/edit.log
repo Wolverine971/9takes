@@ -1,0 +1,36 @@
+The edit stage is complete and the three outputs are written, but this run should end as a hold, not a publishable page.
+
+**Why it holds**
+
+- **Duplicate page:** Mark Fischbach is Markiplier, and `src/blog/people/drafts/Markiplier.md` is live as Type 7 (I confirmed `published: true`, `enneagram: 7`). The `duplicate_subject` blocker is kept word for word and recorded as unresolved. It needs your call: rerun as `Markiplier --refresh --expanded-review`, or confirm a separate legal-name page.
+- **Evidence downgraded:** I set the evidence to `insufficient_evidence` with confidence `low`, keeping Type 1 as the leading read. The reviewers were right that the draft's four load-bearing quotations change meaning in context, which I confirmed against the saved captions:
+  - the 2015 "voice" is about the audience leaving;
+  - the "guiding star" he names is self-belief;
+  - the biopsy line is a medical remark;
+  - "this isn't the best I can do" came on a happy stream beside "I'm proud of what I made".
+
+**What the edited article now says**
+
+- Type 1 leads narrowly, with Types 7 and 3 both live. The type answer, FAQ, description and title all say so; the title is now "The Rules He Says He Cannot Break".
+- The argument is rebuilt around four moments where he reports taking the harder option for a reason he calls right or owed. The article labels this as inference and not enough to settle the type.
+- Restored context includes his "I'm not a masochist" answer, the escape-shaped origin story, his "biggest fear" from 2017, the mixed reviews, and his reported reply in the moderator dispute.
+
+**Checks**
+
+- All 56 findings are adjudicated, and all 17 protected passages are kept verbatim.
+- The evidence and resolution files pass the schema checks; the only machine blocker on the article is the intentional duplicate one.
+- Every quotation matches the cached sources.
+
+**Things to know**
+
+- **Length:** the article is 4,328 words, under the 4,500 limit but above the 3,500 target, because the reviews required restored context.
+- **Unreviewed argument:** the rebuilt type argument was written after the jury saw the draft, so no reviewer has challenged it.
+- **Quote fidelity:** quotations added at this stage were matched to auto-captions only, with no audio check.
+- **Network call:** I made one call to the Wikipedia API to pin permanent revision links for the dated figures.
+
+The research tasks in the evidence file list what could settle the type, starting with on-record accounts from Wade Barnes, Bob Muyskens, Amy Nelson or the film crew.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-11_15-50-43-286_Mark-Fischbach/`:
+- `edit.md`
+- `evidence-edit.json`
+- `resolution-edit.json`

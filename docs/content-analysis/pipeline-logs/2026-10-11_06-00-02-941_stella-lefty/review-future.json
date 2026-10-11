@@ -1,0 +1,82 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "c6130d84898b67d78dee56a586e9154c8f62980fa96bda919b01bf2fc8eadd49",
+  "evidence_sha256": "edb320228512c4d5ad71fef8f0583f393fb4cb360bfbfae4789f47c4acacbfcc",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "Two of her most consequential decisions of 2026, leaving Wetmore's tour and leaving her managers, have no first-person account.",
+      "problem": "The settle section leans on the latest event and states it as her decision. The record does not support that. The management split rests on one Billboard report of September 27, 2026, citing unnamed sources; no party confirmed it, and the evidence record says who initiated it is unknown and should not be guessed at (C18, C82). The tour exit also has no stated reason, and who decided is not stated (C17, S16). The hedge used earlier in the body (\"may no longer manage her\") is dropped here, FAQ 3 repeats \"two unexplained decisions from 2026\", and signal 1's readings (\"A Three would describe a step up\") assume she chose. If the report is corrected, or the split proves to be the managers' call or mutual, the section, the FAQ and signal 1 go wrong together. The sentence also has no as-of date.",
+      "acceptance_test": "The settle paragraph and FAQ 3 call both events exits or changes, not her decisions. The management split is attributed as reported by Billboard on September 27, 2026, citing unnamed sources, and the absence of a first-person account carries an as-of date. Signal 1 reads correctly whichever side initiated each exit. The C82 passage in the evidence record matches the revised sentence exactly."
+    },
+    {
+      "id": "future-02",
+      "severity": "minor",
+      "passage": "Her record, a single seven-month press run, cannot yet show what that accommodation protects.",
+      "problem": "A relative duration with no as-of date, and it does not match the draft's own dating. The intro says every interview found dates from March to August 2026, and C36 puts the earliest at March 27 and the latest at August 19 to 21, 2026, which is under five months. The sentence sits in the 60-word type answer and is repeated word for word in FAQ 1, the two passages most likely to be quoted on their own years from now.",
+      "acceptance_test": "The type answer and FAQ 1 give the span in absolute terms consistent with C36 (for example, interviews from March to August 2026). The two stay the same in substance, the answer stays at or under 60 words, and no \"seven-month\" figure remains unless the evidence record supports it."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "So far the only people on record are collaborators, managers, tourmates and her boyfriend.",
+      "problem": "This asserts a current relationship with no tracking behind it. The draft-stage log says C30 (her relationship with Vincent Mason) was removed because the article does not use it. This sentence does use it, so a relationship claim now has no inventory entry and no review trigger, which the standard requires for relationships. \"So far\" has no date, and \"managers\" is present tense for people the article says she has reportedly left.",
+      "acceptance_test": "Either the sentence no longer asserts a current relationship or current management (for example, then-managers, and a partner dated to 2026), or a time_sensitive claim with this exact passage, its sources (S01, S02) and a review trigger is restored to the evidence record. The sentence carries an as-of date."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "For comparison, as of October 2026, 9takes reads [Post Malone](/personality-analysis/post-malone) as a Nine, [Benson Boone](/personality-analysis/benson-boone) as a Seven, [Morgan Wallen](/personality-analysis/morgan-wallen) as a Six and [Taylor Swift](/personality-analysis/taylor-swift) as a Three.",
+      "problem": "Four site typings that can change, plus four internal links, with no claim, source or trigger anywhere in the evidence record (none of the four names appears in it). The as-of date helps the reader, but nothing will prompt an update when one of those pages is retyped or unpublished. Not verified in this review, which was confined to the frozen draft and evidence. The drafter's own length note lists this sentence as the first cut, and the body runs about 3,000 words against the 1,200 to 2,500 open-case target.",
+      "acceptance_test": "The sentence is cut, or a time_sensitive claim is added with this exact passage, each typing confirmed against the live page on the check date, each link confirmed to resolve, and a trigger naming a retype or unpublish of any of the four pages."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "None of those comparisons carries a credit.",
+      "problem": "This is the paragraph where a stale page does the most harm, to her or to the people accusing her. Two statuses are not dated in their own sentences: the credit status (the as-of date in the next sentence attaches only to her silence) and \"unreleased\" for \"Badly\". The triggers on C13, C63 and C64 fire only on a known event and leave out the most predictable one, the release of \"Badly\" and its writer credits. Nothing prompts a recheck if no one happens to see news. The named artists' allegation also rests on one outlet the record calls opinionated, linked by a post-ID URL (whiskeyriff.com/?p=654405) instead of a permalink.",
+      "acceptance_test": "The credit status and the \"unreleased\" status each carry an explicit as-of date. The C13, C63 and C64 triggers add the release of \"Badly\" (with or without a credit) and a dated recheck of every named comparison at open_case.next_review and at each later refresh. If the canonical Whiskey Riff permalink can be resolved, the body link, the frontmatter citation and S20 use it."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "Lefty is 24.",
+      "problem": "Present-tense statuses that expire. The age is wrong from August 13, 2027; C01 carries \"24 as of October 2026\" but is labeled stable with no trigger. \"runs Tempus AI\" in the intro and \"the founder and chief executive of Tempus AI\" in FAQ 4 are undated, although C02 marks the title as time-sensitive. \"are now listed\" (the Chicks credit) uses \"now\" while C62 is labeled stable. The rising-star type tag is also a status with an expiry.",
+      "acceptance_test": "The body age is dated, as FAQ 5 already is, or dropped in favor of the birth date. The father's role is given as a stable fact (co-founded Groupon, founded Tempus AI) or dated in both the body and FAQ 4. \"now listed\" becomes a dated statement tied to Rolling Stone's August 28, 2026 report. The age has a time_sensitive claim, or C01 is relabeled, with a trigger of each August 13 and each refresh. rising-star stays only if it is an established site tag, with a note to remove it when the case closes."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "The next tests are dated.",
+      "problem": "\"Next\" expires fast. The first headline run starts October 30, 2026, 19 days after the draft date and possibly before publication. open_case.next_review (2026-12-01) falls eight days after that run ends and before the Long Way Home Tour of January 9 to February 20, 2027, which signal 3 depends on (\"on those tours\"). The scheduled review can therefore test at most half of that signal, and the record names no follow-on date. C76's trigger has no after-the-date action; C31's does.",
+      "acceptance_test": "The paragraph reads true without edits on 2026-12-01 and on 2027-03-01: it is anchored to the October 11, 2026 check and has no bare \"next\". C76's trigger adds an after-February 20, 2027 action matching C31's. The evidence record states that if the 2026-12-01 review finds no settle signal, next_review moves to a date after February 20, 2027."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Whichever read wins, what the record already shows should stand.",
+      "reason": "The close and the three sentences after it are type-neutral. They stay true if a later run settles on Seven, Six or Three, which is the open-case durability test."
+    },
+    {
+      "passage": "This profile does not use them as evidence of her character or her type.",
+      "reason": "Fences the allegations off from the argument, so the portrait does not move however the disputes resolve."
+    },
+    {
+      "passage": "Every interview found for this profile dates from March to August 2026, inside one promotional campaign",
+      "reason": "States the limit of the record with absolute dates and scopes it to what was found. It remains accurate as a dated statement after new interviews appear."
+    },
+    {
+      "passage": "\"You don't get to tell me what I am.\"",
+      "reason": "The hook rests on a 2024 episode, so the opening survives the removal of every 2026 event."
+    }
+  ],
+  "assessment": "Five-year test: the thesis holds without the latest events. The go-along-then-reverse pattern is built on the 2024 publisher episode and the 2024 to 2025 Los Angeles year. The September 27 management report, the October 1 sketch and the October 6 allegation are used as limits, as fenced-off disputes or as settle signals, not as proof. Dating is strong: nearly every fact has an absolute date, chart peaks are tied to a dated report, the tours are described as announced, not under way, and each quotation names its outlet and date in prose, so attribution survives dead links. The one serious weakness is future-01, where an unconfirmed, anonymously sourced report is written as her decision in the settle section and FAQ. The rest are small: undated statuses (age, father's title, a relationship, \"now\", \"next\", \"unreleased\"), a duration in the type answer that contradicts the draft's own dates, and gaps in the evidence record (no claim for the site-typing sentence or the relationship, two claims labeled stable that are not, event-only triggers on the allegations, and no review date after the 2027 tour). Open-case eligibility: met on the record supplied (adult, 24; breakout January to March 2026; 33 sources opened and four types tested). Title, description and FAQs keep to leading-read language, alternatives are argued with evidence for and against, and the five settle signals are concrete and dated. No eligibility blocker. Similarity: the advisory did not trip. Its leads are shared Nine vocabulary (\"going along\") and one-line type descriptions; on the excerpts given, the argument here, a dated sequence held as an open question, is its own. No reuse finding. The top scores (0.046, 0.045) equal the corpus noise-floor maximum and sit just above the stated 0.044 threshold while tripped is false, which is worth a look in the tool. Limits of this review: I compared against the diagnostic's excerpts only, did not reopen external sources, and did not check the four internal comparison pages."
+}

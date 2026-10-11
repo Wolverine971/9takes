@@ -1,0 +1,18 @@
+The subject review is written to `review-subject.json` in the run directory; it validates against `reviewSchema` and both hashes match the request. I wrote no other file and published nothing.
+
+**Decision for you:** the site already publishes him as Type 7 at `/personality-analysis/markiplier`, and this draft would add a second page calling him Type 1. I raised that as the one blocker (`subject-01`), so the run should hold until you pick: retype the existing page under one URL, or confirm a separate legal-name page with a plan so the two don't disagree.
+
+The body is mostly fair: self-report is labelled, witnesses' interests are disclosed, and ADHD and the tumor aren't turned into diagnoses. The six major findings are places where the source's next sentence changes the meaning. I checked each against the saved captions and page captures from the research run, which are machine captions, not a human listen.
+
+- **Moderator dispute (`subject-02`):** the draft quotes the former head moderator's complaint and omits his reply, which the same article reports.
+- **Grief videos (`subject-03`):** the 2015 "voice" quote is cut just before he ties the thought to viewers, and the eulogy is described as praising "a standard" when it mostly praises a friend.
+- **Biopsy line (`subject-04`):** the type argument's only example of "reframing pain to stay in it" is a patient describing a medical procedure.
+- **"Guiding star" (`subject-05`):** in the source, the guiding star he names is self-belief, not harsh self-judgment.
+- **"I'm not a masochist" (`subject-06`):** his own answer to the self-punishment reading sits in the Slate passage the draft quotes repeatedly and is left out.
+- **"I Feel Lost" (`subject-07`):** he says three times in that video that he is not depressed; the draft calls it a "crisis" and omits this.
+
+Two minor findings cover "his father's phrase" (it is his own phrase about his father) and the unsupported superlative in `persona_title` plus the titles asserting his self-description as fact.
+
+**Risk flags:** contested typing and major thesis change carry over from research. I added `sensitive_allegations` because the draft relays a single-sourced complaint without his reply and uses a friend's suicide and his medical history as type evidence; the complaint itself is mild.
+
+I protected five passages that state the limits of the record well. The similarity trip (0.05 against aaron-pierre) is just the phrase "organized around" in a type definition, not reuse.
