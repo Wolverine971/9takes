@@ -1,0 +1,1029 @@
+{
+  "schema_version": 3,
+  "subject": "maleah-joi-moon",
+  "status": "ready",
+  "research_tasks": [
+    "Research log (2026-10-12, first run, mode create, empty baseline, no prior evidence or research notes). No existing draft or page was found under this or another name in src/blog/people. Opened 33 sources (S01-S32, S37) and failed to open 4 (S33-S36). Read in full: the Marie Claire Q&A (S01), the Her Campus digital cover (S02), both Out features and the Out100 entry (S03, S07, S08), the ELLE as-told-to column (S04), New Jersey Monthly (S05), the AP profile (S06), Playbill's 2023 joint profile (S09), and caption transcripts of fifteen videos dated March 2024 to October 2026 (S10-S21, S31, S32, S37; about 31,000 words). Evidence was gathered before a type was chosen. Outcome: no defensible discriminator; subject meets open-case eligibility (adult, professional debut in November 2023, first screen lead in September 2026). Status ready, profile_format open_case, leading read Type 6 at low confidence, Type 4 the strongest rival, Type 9 also live.",
+    "Unopened long-form profiles. The New York Times profile by Michael Paulson, 'For Her Broadway Debut, She Sings Alicia Keys's Story' (May 8, 2024, S33), is probably the best independent reporting on her and could not be opened (403 on direct fetch, reader proxy and Wayback). Ebony's 'Hell's Kitchen Star Maleah Joi Moon Has Found The Light' (April 21, 2024, S34), Hemispheres (April 23, 2024, S35) and the Courier News hometown piece (June 17, 2024, S36) also failed. Any of these could supply the missing two years between Pace and the audition, or testimony from her parents. Do not cite them unless a later stage opens them.",
+    "Quote fidelity for video sources. S10-S21, S31, S32 and S37 are YouTube caption transcripts. S13 uses the uploader's own caption track; the rest are auto-captions with no punctuation and misspelled names ('Malia Joy Moon'). A second, independent transcription from the audio (local Whisper, medium.en) was completed for S10, S11, S12 and S14-S21, and every excerpt quoted from those eleven matched in wording apart from the small variants noted in each source's context. S13, S31, S32 and S37 were not second-transcribed: re-listen at the timestamp before printing a verbatim quote from S37. Saved audio transcripts are in /tmp/maleah-joi-moon-research/whisper/, raw captions in /tmp/maleah-joi-moon-research/vtt and cleaned text in /tmp/maleah-joi-moon-research/txt; these are scratch files and may not survive to a later stage, so the excerpts and timestamps in this file are the durable record.",
+    "Speaker attribution in group videos. S17 (six cast members), S19 (three actors), S31, S32 and S37 have no speaker labels in captions. Lines attributed to Moon in this file were assigned from context (the host names her, or she refers to Hell's Kitchen, Debbie Allen seeing her show, or playing Deborah). The S21 teacher soundbites are attributed by the order of the reporter's narration, not by on-screen names: confirm visually which teacher says 'she had grace and poise beyond her years' before naming anyone, and check the reporter's name (captions give 'Nick Callaway'). S31 and S32 were read but support no claim because attribution is too loose. Three further short clips were read and not listed because they add nothing: an AAFCA TV Honors red-carpet clip, an NBC4 Washington segment with Felicia Pride, and a Playbill cast video from March 2024.",
+    "Sources opened only through the WebFetch reader, which relays text through a summarizing model: S22 (TheWrap review) and S25 (Broadway.com). Direct fetch of both was blocked. Treat their quotations as needing a direct check before verbatim use. S25's printed version of the Tony speech drops two words ('each of' and 'that'); the speech audio (S10) is the authority.",
+    "Do-not-use list. (1) Birth date: Wikipedia gives September 22, 2002; Behind the Name and the Carnegie Hall Data Lab give September 23, 2002 (seen in search results only); an Out quotation has her saying 'I was born in 2000' (S03), which conflicts with every printed age. Publish the year 2002 at most, never a full date. (2) Do not state that she has ADHD or any diagnosis: she says only 'I have my own relationship with psychiatry' and speaks of 'my own experience' (S01). (3) A radio-station gossip item about an off-screen romance with co-star Cornell Young IV is unsourced speculation: exclude it. (4) Her agent's surname appears only in captions ('Talkovsky', S13): do not print it. (5) The 'third-youngest winner' statistic is visible only inside a Wikipedia footnote quoting the unopened Courier News piece: do not use it. (6) theGrio's headline 'Netflix's No. 1 Show' (S24) names no chart; What's on Netflix reports a No. 4 debut on the global English TV list (S23). Do not print a chart rank without naming the chart and week.",
+    "Pronouns and identity. New Jersey Monthly (April 2024), Out100 (October 2024) and Out (August 2026) state she uses she/they pronouns; most 2026 coverage uses 'she'. She described herself publicly as a 'young, Black, queer woman artist' on June 2, 2025 (S08) and mentions 'my partner' with 'she' in a March 2025 video (S11). Use only what she has said herself; no speculation about relationships.",
+    "For the next refresh: open S33-S36; look for a first-person account of why she left Hell's Kitchen in March 2025 and of the 2022-2023 period; look for long-form testimony from Michael Greif, Alicia Keys, Shoshana Bean, Kecia Lewis, Debbie Allen or Felicia Pride given outside a launch week; watch for her own music release (she says she is writing original music, S02) and for Season 2 press."
+  ],
+  "accuracy_checked_at": "2026-10-12",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.marieclaire.com/culture/tv-shows/maleah-joi-moon-a-different-world-interview/",
+      "title": "The Lessons Maleah Joi Moon Learned From 'A Different World'",
+      "speaker": "Maleah Joi Moon, interviewed over Zoom by Quinci LeGardye (Marie Claire)",
+      "date": "2026-10-01",
+      "locator": "Introduction, paragraphs 2 to 8 (mother in Belize; 'Hold yourself'; Jasmine Guy's social media advice; 'put my health first'). Q&A answer 1 (Atlanta University Center, Pace, 'I was supposed to go to Tisch'). Answer 2 (writers' room, December 2025). Answer 3, beginning 'I have my own relationship with psychiatry'. Answer 4, beginning 'I pray that she is'.",
+      "excerpt": "I have my own relationship with psychiatry. As I started navigating the industry, it became more and more important for me to have resources. As my job needs more from me, I need more of myself, and I'm still kind of in that moment. [...] It's so wonderful and healing for me that I'll get to be part of that safe example for young Black women of This is hard, but you deserve support. [...] So often, especially as a young Black artist, I constantly feel the need to push forward. What's next? What's the next audition? Am I going to go back to Broadway? Am I making an album? [...] “It's my responsibility to put my health first so that I can be there for the people who really end up loving it, and I can experience the joy just like they do,”",
+      "context": "The longest print interview in the record: an edited and condensed Q&A ('This interview has been edited and condensed for clarity') published one week after the Netflix premiere and one day before the renewal, so it still speaks of 'a possible season 2'. The reporter describes her as appearing 'centered' and joking that fan expectations and social media frenzy are 'not [her] business'. The psychiatry passage answers a question about her character's ADHD storyline; she speaks of 'my own experience' and names no diagnosis of her own. Also the source for: her mother grew up in Belize watching the original show; 'I'm a very spiritual person, not even just in the biblical sense, but in the energetic sense'; 'still feeling like I had to choose to go to a predominantly white university in order to be successful'; Franklin Township as 'a very urban, multicultural, hood-adjacent suburban community'; 'self-indulgent and mix a lot of your own experiences with your character'; Guy's advice, as Moon recalls it, 'You deserve your own joy and safety within your space.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.hercampus.com/culture/maleah-joi-moon-different-world-interview-september-2026/",
+      "title": "Maleah Joi Moon Is In A Class Of Her Own",
+      "speaker": "Maleah Joi Moon, interviewed by Nia Berkeley (Her Campus digital cover); one quotation from co-star Cornell Young IV",
+      "date": "2026-09-23",
+      "locator": "Digital cover story. The article text loads from an embedded Ceros page (https://view.ceros.com/her-campus/maleah-joi-moon), not from the page HTML. Opening section (sketching; 'I had my Deborah phase'); 'Class of Her Own' section (Dorothy at 10; 'written in my diary'; Debbie Allen backstage; chemistry read; Young's quote); closing section ('pressure at first'; 'God has it in your plan'; dog and cat; 'exactly where I'm standing'); sidebar on Pace and HBCUs.",
+      "excerpt": "“I definitely felt pressure at first, because this show is such a statement piece in Black culture and media,” she says. [...] “It became stepping into purpose, knowing I'm lucky to be connected to something bigger than me. Something with the opportunity to change people and bring them together.” [...] “If you're lucky and work hard, and God has it in your plan, you're presented with an opportunity to show up for your dreams.” [...] “Subconsciously, I think I'm trying to alchemize all this incoming energy and put it somewhere that feels good, just for me.” [...] “She's a mess, and I love that, because I was a mess at one point, and sometimes still am.” [...] “It’s not always about the next step, but exactly where I'm standing.”",
+      "context": "Published the day before the premiere as a promotional cover story for a college-women's outlet. States she entered Pace University in 2020 'and dropped out during her sophomore year', that Hell's Kitchen taught her a deep 'understanding of belonging' (the two quoted words are hers, the framing is the writer's), that she sketches, writes original music and calls herself 'a geek who loved reading, poetry, art class, and dance'. Of Debbie Allen: 'She later told me she knew [Deborah] was me' and, separately, 'My brain still can’t comprehend that.' Cornell Young IV: 'Maleah's an amazing person and an amazing actress. She’s very serious about her work.' This is the origin of two quotations that theGrio (S24) repeats.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.out.com/gay-tv-shows/maleah-joi-moon-different-world",
+      "title": "How Maleah Joi Moon went from Broadway to leading Netflix's A Different World",
+      "speaker": "Maleah Joi Moon, interviewed by Lamont Baldwin (Out, Sept-Oct 2026 print issue)",
+      "date": "2026-08-24",
+      "locator": "Paragraphs 2 to 6 (final Broadway performance March 27, 2025; Out cover; Debbie Allen; NDA and self-tape 'around the end of March'; the call during a Jake Landau workshop); paragraph beginning 'Like many millennials' (the 'I was born in 2000' quotation; 'My mom is an immigrant').",
+      "excerpt": "“Debbie Allen came to see the show somewhere in my time on Broadway as Ali after the Tony, and she pushed me to some folks when she saw me. Then around the end of March, I got an NDA and a self-tape appointment for an ‘Untitled HBCU Project’ that we now know as the sequel of A Different World.” [...] “It felt like symbolic transition. That day that I was doing something musical theater, I got the call for the next biggest thing of my life, which was my first transitional role in film and TV, which was such a lovely experience.”",
+      "context": "Pre-release feature. The writer calls her 'the queer performer, who uses she/they pronouns' and gives March 27, 2025 as her last Hell's Kitchen performance. It prints the quotation 'I was born in 2000', which conflicts with the ages printed everywhere else (21 in June 2024, 24 in late September 2026) and is probably a transcription slip for 'the 2000s'; do not use it as a birth year. Her account of Allen's visit here ('after the Tony') differs from S17 and S18 ('during previews'); the two are reconciled in S17, where she describes a previews visit and a later contact the week she left the show.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.aol.com/maleah-joi-moon-counted-her-144100143.html",
+      "title": "How Maleah Joi Moon Counted on Her 'Hell’s Kitchen' Family During a Mid-Performance Injury",
+      "speaker": "Maleah Joi Moon, as told to Samuel Maude (ELLE 'Showstoppers' column; opened in the AOL syndicated copy)",
+      "date": "2024-06-28",
+      "locator": "First-person column. Injury account (first four paragraphs); 'Talkback' sections: 'On her journey to Broadway', 'On winning a Tony Award', 'On her relationship with Alicia Keys', 'On her costar and fellow Tony winner, Kecia Lewis', 'On her parents' support'.",
+      "excerpt": "I left school in 2022. I started working on some film and TV stuff. I did a couple little workshops and stuff here and there, and then the audition for Hell's Kitchen came about. I said no to it at first. My self-esteem at the time was just so different, and this project felt too big for me. Why would I get cast into something like this? [...] She, from the beginning, established herself as this very kind, grounded spirit that I could always look to if I needed help or I needed to feel advocated for. [...] She is one of the most grounded and kind and secure individuals, and she brings me so much peace when I'm going through things on this project, and I'm learning how to navigate new situations. I'm lucky to have been able to attach myself to her, especially when I really need support.",
+      "context": "An ELLE column in her own words, 'edited and condensed for clarity', published twelve days after the Tony win; the ELLE original was not located, so the Hearst-credited AOL copy is cited. Covers the ankle injury she re-aggravated stepping off the piano during 'Kaleidoscope' ('The show went on. That's live theater, which is the gig.'), the cast as 'very family-oriented', Alicia Keys as a 'big sister, mama-bear type of teacher, mentor, guru person' who is 'very protective', and her parents: 'I didn't have a performing arts adolescence'; 'My dad grew up in the Bronx and didn't have the most glamorous upbringing, and my mom is an immigrant from Belize.' On the Tony: 'It was the best surprise ever. I so totally wasn't expecting it.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://njmonthly.com/articles/arts-entertainment/hells-kitchen-broadway-alicia-keys-musical-maleah-joi-moon/",
+      "title": "Broadway Star Maleah Joi Moon Got Her Start in NJ Public Schools",
+      "speaker": "Maleah Joi Moon, interviewed by Leigh Scheps (New Jersey Monthly); one quotation from director Michael Greif",
+      "date": "2024-04-30",
+      "locator": "Opening three paragraphs (turned the audition down; left Pace; Timothy Walton); Greif paragraph; paragraph on sixth-grade Dorothy and Terri Seggio; 'imposter syndrome' paragraph; closing paragraphs on Alicia Keys.",
+      "excerpt": "“I felt like I wasn’t enough to fulfill something of that quality,” Moon says. She had also recently left Pace University, where she’d been studying musical theater, to pursue television acting. “I didn’t want to bare my soul anymore,” she says. [...] “He’s the reason all this is happening,” Moon says. [...] “Sometimes, imposter syndrome can catch up with me and go, Why are you here?”",
+      "context": "Published the day of her Tony nomination, when she was 21. The earliest print account of declining the audition, and the only place the line 'I didn’t want to bare my soul anymore' appears; the article gives no further explanation of it. States she uses she/they pronouns. The writer, not Moon, says her youth and sudden success 'can make it hard for her to trust herself', and reports that during rehearsal Alicia Keys 'checked that Moon was doing okay, drinking water and keeping a journal'. Michael Greif: 'She had great instincts, great flexibility, and interpreted the musical and textual material so smartly, bravely and uniquely.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.news4jax.com/entertainment/2024/12/11/ap-breakthrough-entertainer-broadway-star-maleah-joi-moon-enjoys-a-cupcake-of-a-year/",
+      "title": "AP Breakthrough Entertainer: Broadway star Maleah Joi Moon enjoys a 'cupcake' of a year",
+      "speaker": "Maleah Joi Moon, interviewed by Mark Kennedy (Associated Press; opened in the News4JAX syndicated copy)",
+      "date": "2024-12-11",
+      "locator": "Full wire story. Paragraph 2 ('very vivid dream'); 'cupcake' paragraph; paragraph beginning 'A few frustrating years followed'; final two paragraphs.",
+      "excerpt": "“I did lose sight, honestly, of what made me sparkle or what made me feel like I sparkled. But this process has been such a gift in the way that it has brought me back to what made me want to do theater to begin with,” she says. [...] “I want to continue to see where my heart leads me,” she says. “I think that’s what got me here in the first place. And I hope that it carries me far in the future.”",
+      "context": "Year-end AP profile; the direct apnews.com and ABC News copies were blocked or gone, so a syndicated copy is cited (syndicated copies are one source, not corroboration). The reporter, not Moon, writes 'A few frustrating years followed' between school shows and the Hell's Kitchen audition, and dates that audition to 'three years ago', which fits her own 2022 date only loosely. Also: 'If I could give anybody the advice that I needed then: Just trust your heart and just go do it.' Source for the New York Times calling her 'sensational' and the AP review calling her 'a jaw-dropping vocalist who is funny, giggly, passionate and strident, a star turn', and for her age at the Tony win (21).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.out.com/maleah-joi-moon",
+      "title": "The 2024 Out100: Maleah Joi Moon",
+      "speaker": "Maleah Joi Moon, quoted by Trudy Ring (Out)",
+      "date": "2024-10-17",
+      "locator": "Entire three-paragraph entry.",
+      "excerpt": "“Impostor syndrome” is the biggest obstacle she’s faced, says Moon, who uses she/they pronouns. “I am my own worst enemy,” they say. “But honestly, my truth is that it doesn’t really go away — which is OK! With every new day and every show, I’m given the opportunity to overcome my doubts and insecurities as a performer by staying grounded in the truth.”",
+      "context": "A short honoree entry built from what read as written questionnaire answers, six months after S05 and four months after the Tony. She also says: 'I’m a storyteller! I go onstage every night with the goal of getting a message across to the audience in hopes that they’ll leave the theater having felt something.' The page alternates 'she' and 'they' for her.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.out.com/events/maleah-joi-moon-pride-of-broadway-emotional-speech-video-watch",
+      "title": "Maleah Joi Moon tears up at Pride of Broadway: 'Thank you for seeing me'",
+      "speaker": "Maleah Joi Moon, speech at Out and The Advocate's Pride of Broadway event, New York, June 2, 2025 (reported by Out staff)",
+      "date": "2025-06-03",
+      "locator": "Quoted speech passages in the body of the article (three block quotations).",
+      "excerpt": "It's not that it hasn't dawned on me that there are Black and brown kids that look up to me, and that is such a privilege and a responsibility. I hope that I do them right every day that I choose to exist as the fullest version of myself. [...] Pride Month is one of the most colorful and beautiful months of the year, and I'm so happy to be openly a part of it for the first time. Thank you for seeing me as the young, Black, queer woman artist that I am, and for honoring me. I honor you in return.",
+      "context": "Her own public statement of identity, made while accepting an honor from an LGBTQ+ publisher that had put her on its Pride of Broadway cover alongside Lea Salonga, Kristin Chenoweth, Idina Menzel and Megan Hilty, two months after she left Hell's Kitchen. The article says she spoke 'with tears in her eyes'. This, not a third party, is the basis for describing her as queer.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.playbill.com/article/women-on-fire-shoshana-bean-and-maleah-joi-moon-are-bringing-alicia-keys-songs-to-the-stage",
+      "title": "Women on Fire: Shoshana Bean and Maleah Joi Moon Fearlessly Lead the Alicia Keys Musical",
+      "speaker": "Maleah Joi Moon and Shoshana Bean, interviewed together by Jeffrey Vizcaíno (Playbill)",
+      "date": "2023-11-03",
+      "locator": "Paragraphs 1 to 2 (stage-dooring Bean; 'She don't need me'); paragraph beginning 'Moon echoes Bean’s statement'; the three closing paragraphs (rehearsal anecdote; 'take up more space').",
+      "excerpt": "While appreciative, Bean says that Moon is a pro. “She don't need me,” Bean says smiling and looking over to Moon. “She doesn't need anything. She's good!” [...] “One day, she was running some song. And she was having a really hard time getting through it,” she recalls. “[Maleah] was really emotional, and I just wanted to run out there and hold her.” [...] The feeling is mutual for Moon: “She inspires me to take up more space in my own realm.”",
+      "context": "The earliest interview found, from the Off-Broadway run at The Public Theater, before any awards. Moon is described as making her professional debut. Her own words on the job: 'I get to just express myself and my voice in the truest possible way and pay homage to Alicia’s stylistic talents.' The writer notes she 'gets choked up' and tells Bean 'They say not to meet your heroes and well… shit. But she's fabulous!' Bean's two remarks pull in different directions (she needs nothing; she needed holding) and both were made with Moon sitting beside her in a promotional interview.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.youtube.com/watch?v=b321JUtnyfY",
+      "title": "Maleah Joi Moon | 2024 Tony Awards Acceptance Speeches",
+      "speaker": "Maleah Joi Moon, acceptance speech, 77th Tony Awards, June 16, 2024 (The Tony Awards channel)",
+      "date": "2024-06-16",
+      "locator": "Whole video, 00:00 to 01:27 (uploaded August 19, 2024). Dedication to her parents begins at 00:45.",
+      "excerpt": "I can't even read my handwriting, okay. Thank you God, for this blessing. There is no gift, there is no me without you. [...] my family, my best friends from Franklin, my teachers from Franklin for believing in my potential, thank you for taking care of me. [...] I'd like to dedicate this award to my parents, Fabia and Steve. Dad, you've been working all your life. Mom, you came to America at 17 and you've been surviving ever since, and Hell's Kitchen is about a 17-year-old on the cusp of a dream. I can't imagine how many dreams deferred, how many sacrifices each of you made to give me the life that I have today.",
+      "context": "The speech she read from a handwritten page. Wording confirmed two ways: YouTube auto-captions and a local Whisper transcription of the audio agree word for word on the excerpt (punctuation added here). She also thanks the American Theatre Wing, 'my village, my team', the Hell's Kitchen company, 'Alicia' and 'my family down at the Public Theater', and ends 'this is for you and we did this together. I love you more than words.' Print versions of the speech (S25) trim words.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.youtube.com/watch?v=lDfh6bbBtW4",
+      "title": "Maleah Joi Moon Breaks Down Her Journey in Broadway's HELL'S KITCHEN | Time Machine",
+      "speaker": "Maleah Joi Moon, alone on camera, reacting to clips of her own run (official Hell's Kitchen Broadway channel)",
+      "date": "2025-03-26",
+      "locator": "19:19 video. 03:13 to 04:05 (postponing the marquee visit); 04:16 to 05:10 (asking Alicia Keys to wear her own dress on Fallon); 09:11 to 09:50 (Met Gala); 12:36 to 13:00 ('everything just gets better'); 13:43 to 15:10 (writing the Tony speech); 15:07 to 15:50 (parents); 18:22 to 19:05 (closing).",
+      "excerpt": "And I was so nervous to go see it. So I like kept postponing it and my parents were like, why don't you wanna go see the thing? I was like, I can't do it, I can't do it, I'm not ready yet, I'm not ready yet. [...] I wrote this speech the night before because it clicked to me that because I was nominated, there was a possibility that I might win. But I was like, that's crazy talk. And then, God, I was talking to my partner and she was like, just write something. And so I tore a piece out of my notebook that I had been journaling like all the last couple years in [...] you can see where I like X'd out things and moved it around and like moved one thank you to the top of the page 'cause I'm insane and a little obsessive. [...] not even to win the award, but to give the love back, I wanted that so badly for them",
+      "context": "The longest solo recording of her: a farewell video made by the show's own marketing channel and posted the day before her last performance, so the tone is celebratory and nothing critical is asked. Its value is the unprompted detail. Wording of the excerpt is from a local Whisper transcription of the audio and matches the auto-captions. Also here: 'she was so gracious enough to let me wear something that made me feel like me for my first time on TV'; the Met Gala was special 'because it was like people wanted to get to know who Maleah was for a day'; 'the theme of all of this is that as soon as you think it couldn't get better, everything just gets better'; 'I love feeling like I'm always gonna have a home here.' She reads aloud two emails from Anna Wintour. She says both parents keep copies of her Vogue feature 'in their houses'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.youtube.com/watch?v=LE4khXJGpiQ",
+      "title": "Maleah Joi Moon: Why I almost didn't audition for ‘Hell’s Kitchen’",
+      "speaker": "Maleah Joi Moon and Shoshana Bean, interviewed on NBC's TODAY fourth hour",
+      "date": "2024-05-14",
+      "locator": "4:41 video. 00:22 to 00:43 (asleep for the nominations); 02:05 to 02:47 (almost did not audition).",
+      "excerpt": "Well, this is embarrassing, but I was definitely asleep. I wasn't expecting it at all. And my whole plan was to sleep through the noms and then congratulate everyone. [...] I just was like, this wouldn't be for me. It just, I didn't feel like enough at the time. I didn't feel full enough to fulfill something like this. But luckily my village and the people around me were like, just go in there and let them know your name. And I'm so glad that they did because I would have missed out on this.",
+      "context": "Morning-television segment two weeks after the Tony nominations; the host raises the audition story, so by May 2024 it was already an established talking point. Wording from a local Whisper transcription with false starts removed ('this is this this wouldn't be for me', 'It just it I didn't feel'); the auto-captions differ by one word ('something like that'). The channel now carries the name 'TODAY with Jenna & Sheinelle'; the hosts are not identified in the captions, so do not name them.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.youtube.com/watch?v=pNmydcLKUF0",
+      "title": "Maleah Joi Moon Listened to Alicia Keys in the Womb and Now She’s Starring in her Broadway Show",
+      "speaker": "Maleah Joi Moon with Alicia Keys, interviewed by Jimmy Fallon (The Tonight Show Starring Jimmy Fallon)",
+      "date": "2024-03-22",
+      "locator": "5:55 video, aired March 22, 2024. 00:28 to 01:50 (why she almost skipped the audition; who pushed her); 02:09 to 02:55 (Keys on casting her); 04:11 to 04:35 (stage-dooring Shoshana Bean).",
+      "excerpt": "I -- it came around, and I just kind of felt like I wasn't ready. I felt like I wasn't big enough yet, or I wasn't full enough to pursue something like this. -Wow. Who pushed you? Who believed in you? [...] And my parents and my, uh -- my director from high school. His name is Timothy Walton. [...] -He was like, “Go do that. Shut up.” [...] [Keys:] Absolutely. We all knew that she was the one. You know, it's a long journey. It takes a very special person. [...] So, she really captures all of it, and she's captivating. She really takes you, and you're with her.",
+      "context": "Her talk-show debut, six days before Broadway previews began; she says on air 'I'm nervous right now.' Captions are the uploader's own track with speaker dashes, not auto-captions. The air date comes from S05's photo caption and S26; the YouTube upload date was not captured. She also names her agent 'Sheri' (surname unverified). Keys's praise is delivered while promoting her own show with her lead beside her. Moon recalls being 'too shy to ask' Shoshana Bean for a photo at a stage door and sending her director instead.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.youtube.com/watch?v=wONVnMcNoUg",
+      "title": "Tony Winner Maleah Joi Moon Chats with Playbill after Winning Best Leading Actress in a Musical",
+      "speaker": "Maleah Joi Moon, interviewed by Playbill in the Tony Awards press room",
+      "date": "2024-06-17",
+      "locator": "2:04 video. 00:20 to 00:40 ('It feels like a prank'); 01:01 to 01:40 (kids who look like me); 01:40 to 02:02 ('what's the reward?').",
+      "excerpt": "The people, the people that I get to go to work with every day, they're my reward. I've built so many beautiful relationships with the cast and the company, the production team. And I mean, I just hope I'm honoring them, I hope I'm making them proud. [...] And it means a lot to me that kids that look like me can look up on stage and see themselves reflected in art and know that they can make this happen, too.",
+      "context": "Recorded minutes after the win, Tony in hand. Wording from a local Whisper transcription, matching the auto-captions. Asked what she is feeling: 'It feels like a dream come true. It feels like I'm still dreaming. It feels like a prank. It feels fake, it feels real, it feels awesome, it feels unnerving.' Playbill's write-up of the same clip (opened) adds nothing further.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.youtube.com/watch?v=pOAKJxxr4nk",
+      "title": "2024 Tony Award nominee interview with Maleah Joi Moon of HELL'S KITCHEN",
+      "speaker": "Maleah Joi Moon, interviewed by Broadway.com at a Tony nominees event",
+      "date": "2024-06-15",
+      "locator": "3:43 video (upload date; recorded during the spring 2024 nominee press cycle). 00:23 to 01:00 (angel cards); 01:46 to 02:50 (Dorothy; every show at Franklin); 03:09 to 03:30 (creating an image).",
+      "excerpt": "we do angel cards every day before the show and the card I got yesterday was presence and I'm trying to lean into that [...] as overwhelming and wonderful as it is, it's also, we're here to tell a story, we're here to hopefully leave people with something [...] it's an exciting time, it's a really exciting time, creating an image for myself, which is nerve-wracking but awesome",
+      "context": "Auto-caption transcript, punctuation added; wording confirmed by a local Whisper transcription of the audio (both read 'presents'; 'presence' is the evident word from context and from S25's paraphrase of Keys reminding her about 'the present'). The interviewer remarks that she seems 'very cool and sort of relaxed'; she answers 'we're taking everything one breath and one step at a time.' On playing Dorothy at about 10: 'I just caught the bug and ever since then I was like I'm going to do every single show that I can at Franklin Township.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.youtube.com/watch?v=NqVOXsnliNw",
+      "title": "Talking Tonys: Maleah Joi Moon",
+      "speaker": "Maleah Joi Moon, interviewed by BroadwayWorld at a Tony nominees press event",
+      "date": "2024-05-31",
+      "locator": "2:43 video. 00:00 to 00:30 (first workshop in 2022); 00:30 to 01:05 (what the nomination means).",
+      "excerpt": "I did my first introduction to Hell's Kitchen in 2022 down at the, during a development at the Public Theater, and within the first like 3 days I was like, I need to be a part of this for as long as they'll have me [...] I mean all anybody wants is to be recognized, I think, for their work, and you know I've tried my best to imbue as much of myself and my real life experiences into Ali, so to know that it's being received in such a beautiful way is like, is insane",
+      "context": "Auto-caption transcript, punctuation added; wording confirmed by a local Whisper transcription of the audio. Short press-line interview. She says the show matters because audiences 'get to see themselves reflected in art' and calls that 'the gift that you give as an artist'. Dates her first contact with the project to a 2022 development session.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.youtube.com/watch?v=vgcd7_5v8-4",
+      "title": "'A Different World' Cast on Returning to Hillman, Debbie Allen, Passing the Torch",
+      "speaker": "Maleah Joi Moon with Jasmine Guy, Darryl M. Bell, Cree Summer, Cornell Young IV and Alijah Kai, interviewed by Bevy Smith (SiriusXM)",
+      "date": "2026-10-07",
+      "locator": "45:53 video (upload date; the cast still speak of needing a second season, so it was recorded before the October 2 renewal). 02:08 to 03:40 (Moon on being scared; 'held'); 13:39 to 14:00 (Cree Summer on the 'little cousin'); 14:39 to 15:05 (Darryl M. Bell); 20:00 to 20:45 (Moon on trepidation); 22:20 to 23:35 (neurodivergence storyline); 32:42 to 34:45 (what Broadway taught her; Debbie Allen timeline); 42:00 to 43:25 (favorite scene).",
+      "excerpt": "I was scared shitless. [...] it felt like pressure at first [...] that pressure became responsibility, I should say. And I mean, it takes courage to step into your purpose, but you don't have to be fearful when you're doing it around excellence and around people who hold you. And I definitely was held through this entire process by every single person sitting next to me. [...] I wasn't carried. I was held the entire time. [...] radical self-acceptance. When you are on stage, there is no cut. [...] I had to figure out at one point that it wasn't about judging the moment before. It's about accepting where I was at so that I could move forward.",
+      "context": "The longest recent recording, but a six-person panel with no speaker labels in the auto-captions (wording of the excerpt confirmed by a local Whisper transcription of the audio): lines are attributed to Moon where the host names her or the content is hers alone. She says of the fear line 'I say this a lot', marking it as a press-tour formulation. On the storyline: 'we as a community, it's very hard for us to take help because we think it weakens us, but that's not true', and Black women are 'in my opinion most unprotected minority in America'. On Broadway: 'discipline', then a joke that she did not do every show ('there's a lot of places I wasn't in when I was supposed to be there'). On Debbie Allen: 'I'm not going to say I was picked'; Allen came 'to the previews of Hell's Kitchen', then 'called me when I got the NDA the week I was leaving Hell's Kitchen'. She calls the show 'a sleeper agent for policy for Black people'. Testimony: asked who is the fun, loud 'little cousin' on set, Cree Summer answers 'I would say Maleah, of course'; Darryl M. Bell, responding to her fear, says 'Whatever it is that scares you and makes you a little fearful, run toward it.'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.youtube.com/watch?v=ZWVNGVZLQuo",
+      "title": "Maleah Joi Moon Moved to Tears Over Gift From Sheinelle Jones",
+      "speaker": "Maleah Joi Moon, interviewed one-on-one by Sheinelle Jones (TODAY with Jenna & Sheinelle, NBC)",
+      "date": "2026-09-25",
+      "locator": "7:23 video. 02:22 to 03:02 (why she dedicated the Tony to her parents); 03:23 to 04:15 (Debbie Allen); 05:06 to 05:30 (birthday); 06:10 to 06:35 (Allen phoning at 2 a.m.).",
+      "excerpt": "my parents specifically, we don't really come from a lineage of people who do this type of thing, right? My dad is from Harlem [and/in] the Bronx and my mom is an immigrant from Belize, and the things that they did to make sure that they were good people, to be good parents, always mattered so much to me [...] it really is like you stand on the shoulders and on the legacy of the people who care about you [...] she has such a presence about her that is so warm and direct and comforting",
+      "context": "Aired the day after the premiere; auto-caption transcript, punctuation added; wording confirmed by a local Whisper transcription of the audio, except that the captions read 'Harlem and the Bronx' and the audio transcription 'Harlem in the Bronx', so rely on 'the Bronx' only. The host says Moon is 'celebrating birthday' and she agrees, which supports a late-September birthday without fixing the day. On Debbie Allen: 'she came to see the show during previews', touched her face while Moon was 'blubbering', and now 'She'll call me at like 2:00 in the morning, be like, Honey, send me your background information on Deborah.' She weeps when given a vintage Jet cover of Allen. The interviewer notes she did not at first connect the Broadway performer with the Netflix lead.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.youtube.com/watch?v=MS6oFifD23s",
+      "title": "Meet the Ladies of 'A Different World' Now Streaming on Netflix!",
+      "speaker": "Maleah Joi Moon with Alijah Kai and Kennedi Reece, interviewed by Black Girl Nerds",
+      "date": "2026-09-24",
+      "locator": "16:57 video (date is that of the Black Girl Nerds page embedding it). 04:08 to 06:14 (legacy pressure; PWI and HBCU); 06:55 to 07:50 (writers' room; 'A lot of Deborah is Maleah'); 13:11 to 16:00 (what the character lets the show discuss).",
+      "excerpt": "knowing that kind of navigating places where I didn't see myself gave me an extra level of, of maybe fear or responsibility that I feel like I didn't have to shoulder had I went to maybe an HBCU [...] A lot of Deborah is Maleah, to be honest, which is honestly very expressive to me and very cathartic. [...] sisterhood, even in that, is not about assimilating to each other. It's about embracing differences to grow.",
+      "context": "Three-person junket interview; auto-caption transcript, punctuation added; wording confirmed by a local Whisper transcription of the audio; Moon's answers are identifiable because the host addresses her by name before each. The longest uninterrupted answer in the record (13:11 to 16:00) is about pressure on young people and 'finding themselves and being messy and stumbling in the process'. She says that in her own college years she found herself 'wanting to rise to the circumstance or rise to the expectations around me meant assimilating with the sister next to me.' S30 is the outlet's written version.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.youtube.com/watch?v=VXjzuEyE1lk",
+      "title": "#ADifferentWorld Star Maleah Joi Moon Shares Her Best College Advice",
+      "speaker": "Maleah Joi Moon, alone on camera answering quiz cards (Her Campus)",
+      "date": "2026-09 (exact upload date not captured; companion to the September 23, 2026 cover story)",
+      "locator": "4:37 video. 00:10 to 00:41 (three books); 01:43 to 02:04 ('actual advice'); 04:20 to 04:35 (closing advice).",
+      "excerpt": "Actual advice: you don't need advice from everybody. A lot of the answers that you need you already have. Sometimes you need the support in order to look inwards and know that you can trust that you have the information. [...] Trust yourself, and trusting yourself is not about having all the answers. It's actually the opposite. All the answers that you need to find are so specific to your experience. So, trust you before you look outward.",
+      "context": "Light promotional video; auto-caption transcript, punctuation added; wording confirmed by a local Whisper transcription of the audio. The books she would assign: The Four Agreements, bell hooks's All About Love and Slaughterhouse-Five. She jokes 'some of us didn't finish all the classes', says she did not have a dormitory experience, recommends 'self-care 101' over algebra, and calls Keke Palmer 'my Virgo queen'. Asked for advice she would give students, she tells them to stop 'stressing' over parties and outfits and stay focused on 'people who love you'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.youtube.com/watch?v=J-KXHfwGM5Q",
+      "title": "Maleah Joi Moon inspires her former teachers from N.J.",
+      "speaker": "Timothy Walton and a second, unnamed Franklin Township teacher, in a CBS New York news report (reporter captioned as 'Nick Callaway', spelling unverified)",
+      "date": "2024-06-17",
+      "locator": "2:05 news segment. 00:35 to 00:50 (first teacher soundbite); 01:15 to 01:25 (second soundbite); 01:35 to 01:55 (third and fourth soundbites).",
+      "excerpt": "yeah we all knew she was destined for something, we just didn't know when it was going to happen, and it happened really quickly [...] she's just that humble person, just to see, and to see that grow into this beam of light, she's just an amazing person [...] she had grace and poise beyond her years then, she had an innate ability to tell a story",
+      "context": "The only testimony from people who knew her before fame: teachers filmed at a Tony watch party in Franklin Township the night she won. Auto-captions, punctuation added; wording confirmed by a local Whisper transcription of the audio, but neither transcript says which teacher speaks each line; the narration introduces Timothy Walton, who taught at Franklin High School for more than 20 years, between the first and second soundbites. The segment also reports that her senior-year production of Dreamgirls was cancelled by the pandemic. Proud teachers on the night of a Tony win are not a neutral source.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.thewrap.com/creative-content/reviews/a-different-world-review-netflix/",
+      "title": "‘A Different World’ Review: Netflix Sequel Honors the Original While Finding Its Own Voice",
+      "speaker": "Diedre Johnson (TheWrap), critic",
+      "date": "2026-09-24",
+      "locator": "Review body, the two sentences assessing Moon's performance.",
+      "excerpt": "Moon nails Deborah's assertive but insecure nature with no look-at-me acting within the 30-minute show space.",
+      "context": "The only review found that judges her screen performance. Opened through the WebFetch reader only (direct fetch not attempted successfully), so the wording was relayed by a summarizing model and must be checked on the page before verbatim use. The review is positive overall and its one complaint, about message-heavy dialogue, is not aimed at her. It describes the character as played 'with willfulness on steroids'.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.whats-on-netflix.com/news/a-different-world-season-2-netflix-renewal/",
+      "title": "Netflix Quickly Renews ‘A Different World’ for Season 2",
+      "speaker": "Kasey Moore (What's on Netflix); statements from Felicia Pride, Debbie Allen and Netflix's Tracey Pakosta",
+      "date": "2026-10-02",
+      "locator": "Opening two paragraphs (renewal; viewing figures); 'Cast and Creators React' section; Season 2 logline.",
+      "excerpt": "Premiering on September 24th, the series instantly debuted at #4 on the Global Top 10 English TV list, racking up an impressive 4.2 million views and hitting the Top 10 in 15 different countries.",
+      "context": "Trade-site report of the October 2, 2026 renewal, quoting Netflix's released statements; theGrio's same-day report (opened) attributes the news to Variety. Pakosta's statement refers to 'what unfolds next year at Hillman College', the only timing hint for Season 2. No statement from Moon is included. The Season 2 logline has Deborah returning 'for sophomore year'.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://thegrio.com/2026/09/28/at-24-maleah-joi-moon-has-a-tony-a-grammy-and-netflixs-no-1-show/",
+      "title": "At 24, Maleah Joi Moon has a Tony, a Grammy, and Netflix’s No. 1 Show",
+      "speaker": "Haniyah P. (theGrio), summarizing other outlets",
+      "date": "2026-09-28",
+      "locator": "Whole article (seven short paragraphs).",
+      "excerpt": "And now, she’s celebrating being the lead in Netflix’s #1 TV Show.",
+      "context": "An aggregation piece with no original interview: both Moon quotations in it are credited to and taken from Her Campus (S02). Useful only as evidence of her printed age (24 on September 28, 2026) and of how the moment was framed. The 'No. 1' claim names no chart, country or week.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.broadway.com/buzz/204347/hells-kitchens-maleah-joi-moon-on-the-matriarchs-that-guided-her-to-tony-victory/",
+      "title": "Hell's Kitchen's Maleah Joi Moon on the Matriarchs That Guided Her to Tony Victory",
+      "speaker": "Hayley Levitt (Broadway.com), quoting Maleah Joi Moon's remarks to The Broadway Show in the Tony press room",
+      "date": "2024-06-20",
+      "locator": "Article body: paragraphs on her mother, Fabia Jeffries; on Shoshana Bean, Kecia Lewis and Alicia Keys; closing 'It truly takes a village' paragraph.",
+      "excerpt": "“It truly takes a village,”",
+      "context": "Opened through the WebFetch reader only; direct fetch hit a bot wall, and the reader would not reproduce the text in full, so only the short quotation above and the reported facts are used: her mother is named as Fabia Jeffries and came from Belize at 17, Bean taught her how to manage an eight-show week, Kecia Lewis is the cast's backstage 'Mama', and Keys took her under her wing early. The reader also relayed 'My mom is my biggest influence. She's my glue. She's my best friend'; confirm on the page before quoting.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://en.wikipedia.org/wiki/Maleah_Joi_Moon",
+      "title": "Maleah Joi Moon",
+      "speaker": "Wikipedia contributors",
+      "date": "2026-10-12 (version read)",
+      "locator": "Infobox; 'Life and career'; 'Awards and nominations' table; references 1 to 20.",
+      "excerpt": "Moon was born and raised in Franklin Township, Somerset County, New Jersey, where she graduated from Franklin High School in 2020.",
+      "context": "Used as a finding aid and for uncontested career dates only. Its birth date (September 22, 2002) carries no inline citation and conflicts by a day with two databases. Lists the Lucille Lortel nomination, Drama Desk and Theatre World wins, the Tony, the Grammy for Best Musical Theater Album, a 2022 Disney talent showcase, the 2023 television film Mystic Christmas and the May 6, 2024 Met Gala. Led to S33, S34, S35 and S36.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://v.playbill.com/article/hells-kitchen-star-maleah-joi-moon-wins-2024-tony-for-leading-actress-in-a-musical",
+      "title": "Hell's Kitchen Star Maleah Joi Moon Wins 2024 Tony for Leading Actress in a Musical",
+      "speaker": "Andrew Gans (Playbill)",
+      "date": "2024-06-16",
+      "locator": "Opening three paragraphs.",
+      "excerpt": "The new musical, which features a book by Kristoffer Diaz, marks Moon's Broadway debut.",
+      "context": "News report filed the night of the 77th Tony Awards at the David H. Koch Theater. Confirms the category, the ceremony date and that this was her Broadway debut.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://playbill.com/article/maleah-joi-moon-shoshana-bean-will-reunite-at-final-encore-sessions-alicia-keys-concert-at-hells-kitchen",
+      "title": "Maleah Joi Moon, Shoshana Bean Will Reunite at Final Encore Sessions Alicia Keys Concert at Hell's Kitchen",
+      "speaker": "Playbill staff",
+      "date": "2026-02-12",
+      "locator": "Paragraphs 1 to 2 (reunion concert February 21, 2026) and the paragraph beginning 'The hit show recently announced its imminent closing'.",
+      "excerpt": "The hit show recently announced its imminent closing, with a closing night set for February 22. Hell's Kitchen officially opened April 20, 2024, and won two Tonys and a Grammy, following a 2023 engagement at Off-Broadway's Public Theater.",
+      "context": "Confirms the Broadway production's dates (previews March 28, 2024; opening April 20, 2024; closing set for February 22, 2026) and that Moon was announced to return for a one-night post-show concert with Alicia Keys and Shoshana Bean on February 21, 2026. Whether she appeared was not checked.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.netflix.com/tudum/articles/new-article-2dlnr8ug7pvtvcvpwmdt7v",
+      "title": "What Is A Different World Sequel Series? Plot, Filming Location, Cast, Release Date, and More",
+      "speaker": "Netflix Tudum (studio publication)",
+      "date": "2026-09 (undated page, read October 12, 2026)",
+      "locator": "Opening two paragraphs and the official logline.",
+      "excerpt": "When Deborah, Dwayne Wayne, and Whitley Gilbert's free-spirited, well-intentioned, yet rebellious youngest child, enters her freshman year at Hillman College, she finds the shadow of her parents difficult to escape as she sets out to build her own legacy",
+      "context": "The studio's own description of the series and the character: ten episodes, Moon as Deborah Wayne opposite Kadeem Hardison and Jasmine Guy, with Alijah Kai, Chibuikem Uche, Cornell Young IV, Jordan Aaron Hall and Kennedi Reece. Matters for typing because 'free-spirited' and 'rebellious' are the character brief, and Moon uses 'free-spirited' of herself in S02.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://blackgirlnerds.com/a-different-world-cast-talks-neurodivergence-sisterhood-and-letting-black-girls-be-complex/",
+      "title": "‘A Different World’ Cast Talks Neurodivergence, Sisterhood, and Letting Black Girls Be Complex",
+      "speaker": "Jamie Broadnax (Black Girl Nerds), quoting Maleah Joi Moon from the S19 interview",
+      "date": "2026-10-02",
+      "locator": "Section 'Maleah Joi Moon on Deborah’s Neurodivergence and Layered Identity'.",
+      "excerpt": "“Being able to represent this young girl who has learning needs and is also still somehow like prestigious and comes from legacy but is finding herself but is also privileged,” she said, means navigating “many different parts of a layered experience.”",
+      "context": "The outlet's written account of the video interview in S19, so not independent of it; it confirms in print the wording of two caption passages, including her description of the ADHD storyline as 'a super stigmatized conversation for Black women in particular'. The article title is as shown on the page header read on October 12, 2026.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://www.youtube.com/watch?v=1UjlF_c1IXg",
+      "title": "A Different World Is Back: The New Cast on Chemistry, HBCUs & Honoring the Original",
+      "speaker": "Maleah Joi Moon, Alijah Kai and Cornell Young IV, interviewed on HOT 97",
+      "date": "2026-09-24 (recording date by the hosts' account; upload date not captured)",
+      "locator": "30:23 video, recorded on premiere day by the hosts' account. 04:05 to 04:50 and 10:58 to 12:25 are the passages most likely Moon's.",
+      "excerpt": "it's very beautiful and rare when you find a room that feels warm and reciprocative",
+      "context": "Read in full but supports no claim: three guests, two hosts, constant cross-talk and no speaker labels in the auto-captions. Recorded here so a later refresh does not rediscover it. The recurring phrase 'promote hope' appears, as in S02 and S17.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S32",
+      "url": "https://www.youtube.com/watch?v=FKzFRWrkLMo",
+      "title": "A Different World 's New Leading Ladies! Maleah Joi Moon, Alijah Kai & Kennedi Reece Talk New Series",
+      "speaker": "Maleah Joi Moon, Alijah Kai and Kennedi Reece, interviewed by BlackTree TV",
+      "date": "2026-09 (upload date not captured)",
+      "locator": "15:15 video. 01:23 to 03:45 (the chemistry-read story, told mostly by Alijah Kai); 04:47 to 06:30 (Moon on building the character).",
+      "excerpt": "She came in slaying.",
+      "context": "Read in full but supports no claim because of loose attribution. A castmate, apparently Alijah Kai, describes meeting Moon at the chemistry read and the six future leads crowding into Moon's small holding room until the casting director asked them to be quiet; S02 tells the same story in print with names.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S33",
+      "url": "https://www.nytimes.com/2024/05/08/theater/maleah-joi-moon-hells-kitchen-alicia-keys.html",
+      "title": "For Her Broadway Debut, She Sings Alicia Keys's Story",
+      "speaker": "Michael Paulson (The New York Times)",
+      "date": "2024-05-08",
+      "locator": "Not opened.",
+      "excerpt": "Not opened: paywall and bot wall (403 on direct fetch, reader proxy and Wayback Machine).",
+      "context": "Known only from the Wikipedia reference list; the URL is inferred from that citation and may differ. Likely the most substantial independent profile of her. No claim in this file depends on it.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S34",
+      "url": "https://www.ebony.com/hells-kitchen-star-maleah-joi-moon-has-found-the-light/",
+      "title": "'Hell's Kitchen' Star Maleah Joi Moon Has Found The Light",
+      "speaker": "Delaina Dixon (Ebony)",
+      "date": "2024-04-21",
+      "locator": "Not opened.",
+      "excerpt": "Not opened: 403 on direct fetch, reader proxy and Wayback Machine.",
+      "context": "Known only from the Wikipedia reference list; the URL is inferred from the title. No claim depends on it.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S35",
+      "url": "https://www.hemispheresmag.com/inspiration/art-culture/maleah-joi-moon-hells-kitchen-broadway-alicia-keys-musical/",
+      "title": "Maleah Joi Moon Takes the Broadway Stage in the Alicia Keys Musical 'Hell's Kitchen'",
+      "speaker": "Tom Smyth (Hemispheres)",
+      "date": "2024-04-23",
+      "locator": "Not opened.",
+      "excerpt": "Not opened: connection error on direct fetch and no Wayback capture found.",
+      "context": "Known only from the Wikipedia reference list; the URL is inferred. No claim depends on it.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S36",
+      "url": "https://www.mycentraljersey.com/story/entertainment/2024/06/17/maleah-joi-moon-tony-awards-2024-franklin-nj/74122977007/",
+      "title": "Maleah Joi Moon shouts out hometown Franklin in winning Tony speech",
+      "speaker": "Cheryl Makin (Courier News / MyCentralJersey)",
+      "date": "2024-06-17",
+      "locator": "Not opened.",
+      "excerpt": "Not opened: paywall (HTTP 402).",
+      "context": "Known only from the Wikipedia reference list; the URL is inferred. Wikipedia quotes it for the 2020 Franklin High School graduation and a 'third-youngest winner' statistic, neither verified here. No claim depends on it.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S37",
+      "url": "https://www.youtube.com/watch?v=Ya3Lsq6KsRs",
+      "title": "New ‘A Different World’ Cast Talks Rebooting the Iconic Series",
+      "speaker": "The six new cast members, including Maleah Joi Moon and Jordan Aaron Hall, interviewed on TODAY with Jenna & Sheinelle (NBC)",
+      "date": "2026-09-23 (the hosts say the series premieres 'tomorrow'; upload date not captured)",
+      "locator": "6:53 video. 03:23 to 04:05 (Jordan Aaron Hall's answer about representation).",
+      "excerpt": "It's something that actually Maleah said in an interview, and it's not pressure, it's responsibility, right? I feel a responsibility to this character, to the community",
+      "context": "Group segment recorded the day before the premiere; auto-captions, punctuation added, not second-transcribed. The speaker is identified from the host's question to the actor who plays Amir, which is Jordan Aaron Hall (S03, S29). Used only to show that Moon's pressure-into-responsibility formulation was circulating among the cast as hers before the SiriusXM panel (S17). Moon's own contributions to this segment were not separately attributable.",
+      "kind": "testimony",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Maleah Joi Moon was born in 2002 and raised in Franklin Township, Somerset County, New Jersey, the daughter of Fabia, who came to the United States from Belize at 17, and Steve, who grew up in the Bronx; she graduated from Franklin High School in 2020.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S10",
+        "S04",
+        "S18",
+        "S01",
+        "S06",
+        "S26",
+        "S25",
+        "S11",
+        "S02",
+        "S21"
+      ],
+      "inference": "Parents' first names and her mother's age on arrival are in her Tony speech (S10). Belize and the Bronx are in her own words in S04, S11 ('in the projects') and S18; S18 also mentions Harlem, but the two transcripts of that clip disagree on the wording, so use the Bronx only. Franklin Township is in S01 and S06. The birth year follows from printed ages: 21 at the Tony win on June 16, 2024 (S06) and 24 on October 1, 2026 (S01). The 2020 graduation is from Wikipedia (S26), consistent with S02's statement that she entered Pace in 2020 and with a senior-year show cancelled by the pandemic (S21). Her mother's surname, Jeffries, rests on S25 alone.",
+      "alternative": "Do not print a full birth date: Wikipedia says September 22, two databases say September 23, and an Out quotation says 'I was born in 2000' (S03), which no printed age supports. A late-September birthday is consistent with S18. She describes the town as 'hood-adjacent suburban' (S01), so avoid both 'inner city' and plain 'suburb' as a characterization of her upbringing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "She uses she/they pronouns, and on June 2, 2025 described herself publicly as a 'young, Black, queer woman artist', saying it was her first Pride Month being 'openly a part of it'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S05",
+        "S07",
+        "S03"
+      ],
+      "inference": "The identity statement is her own, in a speech (S08). The pronouns are stated by three outlets across 2024 to 2026 (S05, S07, S03). This establishes what she has said publicly and nothing about her private life beyond it.",
+      "alternative": "Most 2026 television coverage uses 'she' only, and she has not been quoted on pronouns in 2026; the article can use 'she' while noting she/they once. Her mention of 'my partner' as 'she' (S11) is a passing remark from March 2025 and should not be built into a claim about a current relationship.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "Her training was public-school theater: Dorothy in a sixth-grade Wizard of Oz at about 10, then every show Franklin Township offered until graduation, with no regional or professional work as a child.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S04",
+        "S15",
+        "S06",
+        "S02",
+        "S21",
+        "S10"
+      ],
+      "inference": "She tells the Dorothy story the same way in 2024 and 2026 (S05, S15, S06, S02) and says 'I didn't have a performing arts adolescence' (S04). She names two teachers, Terri Seggio and Timothy Walton (S05), and thanks 'my teachers from Franklin' in the Tony speech (S10 excerpt). The teachers' own account (S21) confirms the school and the role.",
+      "alternative": "The humble-origins frame also serves the publicity for a show about a teenager with a dream. S06 says she auditioned for The Lion King and Six on Broadway, so she was pursuing professional work before Hell's Kitchen even if she had not booked it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "She entered Pace University's musical theater program in 2020, left in 2022 without a degree to pursue television work, and has said of that decision 'I didn’t want to bare my soul anymore'; she later said she had lost sight of 'what made me sparkle'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S04",
+        "S02",
+        "S06",
+        "S01"
+      ],
+      "inference": "Dates are consistent across S04 ('I left school in 2022') and S02 (entered 2020, left in sophomore year). The 'bare my soul' line (S05) is the only stated reason and suggests she experienced musical theater as exposure she wanted to stop; the 'sparkle' line (S06) describes the same period as a loss of confidence or direction. Together they point to a low stretch immediately before the audition.",
+      "alternative": "Neither quotation explains what happened at Pace. She later framed the choice of a predominantly white school as something she felt she 'had to' do to succeed and as a place she did not feel 'seen' (S01), which may be part of the story, or may be a 2026 reading shaped by a show about HBCUs. The two years are the largest gap in the record and should be written as unexplained.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "In 2022 she at first said no to auditioning for Hell's Kitchen because she did not feel adequate to it: 'I felt like I wasn’t enough', 'this project felt too big for me', 'I didn't feel full enough'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S04",
+        "S12",
+        "S13"
+      ],
+      "inference": "Told four times between March and June 2024 in near-identical terms, in print and on camera. The reason given is always personal insufficiency or unreadiness, never dislike of the project, a competing plan or fear of a specific outcome. It is the clearest dated instance of her doubting herself at a threshold.",
+      "alternative": "By May 2024 the story was a set piece that hosts prompted her for (S12, S13), and a modest origin story flatters a newcomer and the production that took 'a chance' on her. It is also the only account of the episode: nobody else has said she refused. The feeling of not being 'enough' fits a Six's self-doubt, a Four's sense of deficiency and a Three's fear of failing publicly about equally well.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "By her account she auditioned only because people she trusted pushed her: her agent, her parents and her high school director Timothy Walton, who told her 'Go do that. Shut up.' and coached her through it.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S05",
+        "S12"
+      ],
+      "inference": "She names the three sources of the push on television (S13), credits Walton alone in print with 'He’s the reason all this is happening' (S05) and calls them 'my village' (S12). In her own telling the decisive act was other people's confidence, not a change in her own.",
+      "alternative": "Crediting others is expected good manners for a 21-year-old on a press tour and is the natural way to thank a teacher publicly. Walton has not been quoted on the coaching itself (S21 does not mention it). Do not print the agent's surname.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "Hell's Kitchen was her professional stage debut: she joined a 2022 development session at The Public Theater, opened Off-Broadway in November 2023, moved to Broadway's Shubert Theatre (previews March 28, 2024; opening April 20, 2024), won the Tony Award for Best Leading Actress in a Musical on June 16, 2024 at 21, shared the Grammy for Best Musical Theater Album in 2025, and gave her last performance on March 27, 2025.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S28",
+        "S09",
+        "S16",
+        "S06",
+        "S03",
+        "S26",
+        "S02"
+      ],
+      "inference": "Each date has a contemporaneous or trade source: the debut and Off-Broadway run (S09, S26), the 2022 start in her own words (S16), Broadway dates (S28), the Tony (S27, S06), the Grammy (S02, S26), the departure date (S03). She also won Drama Desk and Theatre World awards (S26).",
+      "alternative": "The final-performance date rests on Out (S03) alone; in S17 she says she was 'leaving that Monday', which does not match a Thursday, so write 'late March 2025' if precision is not needed. No first-person reason for leaving after one year was found. The Broadway production itself was set to close on February 22, 2026 (S28).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "She has named impostor syndrome as her main obstacle more than once, before and after the Tony: 'Why are you here?' in April 2024, and in October 2024 'I am my own worst enemy' and 'it doesn’t really go away'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S07"
+      ],
+      "inference": "The two statements are six months apart and straddle the award, which suggests the doubt did not lift with external proof. Her stated remedy is 'staying grounded in the truth' and treating each show as a chance 'to overcome my doubts and insecurities' (S07).",
+      "alternative": "'Impostor syndrome' is close to a stock phrase for young award winners and was offered in answer to a direct questionnaire prompt about obstacles (S07). It names a feeling without showing what she does about it, and it does not separate types.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "At three milestones in spring 2024 she held off from the moment itself: she kept postponing going to see her own Broadway marquee until her father took her, planned to sleep through the Tony nominations, and wrote an acceptance speech only the night before, at her partner's urging, after dismissing the idea of winning as 'crazy talk'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S11",
+        "S12",
+        "S04"
+      ],
+      "inference": "Three separate episodes, told in two unrelated settings a year apart (S12 in May 2024, S11 in March 2025), show the same move: stepping back from an approaching high point and being brought to it by someone close. Her words for the marquee are 'I can't do it, I can't do it, I'm not ready yet, I'm not ready yet'. She says of the Tony 'I so totally wasn't expecting it' (S04).",
+      "alternative": "This is the most behavioral evidence in the record and it is still ambiguous. Bracing against disappointment and waiting for a trusted person's push reads as Six; not feeling she deserved to look reads as Four; simply not engaging with a big event until it arrives reads as Nine. Sleeping through an early-morning announcement is also what many nominees with eight shows a week do. All three stories are hers alone and are told for charm.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "Her Tony speech was read from a page torn out of the notebook she had journaled in for years, with thank-yous crossed out and reordered ('I'm insane and a little obsessive'); it thanked God, her 'village' and her teachers and was dedicated to her parents' 'dreams deferred' and 'sacrifices'.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S10",
+        "S11"
+      ],
+      "inference": "The speech is on video (S10) and its wording is confirmed from the audio. The account of how it was written is hers (S11). The care over the order of the thank-yous suggests that getting other people's due right mattered more to her than polish, which fits the people-first pattern in C12.",
+      "alternative": "Thanking God, family, team and teachers is the standard architecture of an acceptance speech, and 'a little obsessive' is a self-deprecating aside, not a trait description. The dedication to immigrant and working parents is sincere on its face and also the most resonant story available to her that night.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "She has said the point of the dedication was reciprocity: 'not even to win the award, but to give the love back, I wanted that so badly for them', and, in 2026, that 'you stand on the shoulders and on the legacy of the people who care about you'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S11",
+        "S18",
+        "S04"
+      ],
+      "inference": "Stated in March 2025 and again in September 2026 in different words, with the same content: achievement as repayment to the people who made it possible. In S04 she says her parents encouraged 'passion' as well as success despite hard upbringings of their own.",
+      "alternative": "Gratitude to parents is nearly universal in this genre and is especially expected of a child of an immigrant mother. S18's 'shoulders' line was immediately turned into a point about the new series standing on the original, which shows how readily her personal story is fitted to the promotional one.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "Asked minutes after winning what the reward was, she answered 'The people' she works with, adding 'I just hope I'm honoring them, I hope I'm making them proud.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S25"
+      ],
+      "inference": "An unscripted answer at the moment of greatest personal validation, and it turns outward and toward duty: the hope is to be worthy of the group. S25 reports the same sentiment from the same night ('It truly takes a village').",
+      "alternative": "It is also the gracious answer any press-room winner is expected to give, and one data point. A Two's wish to be valued by those she loves and a Six's wish not to let her people down would produce the same sentence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "Across both jobs she describes the people around her in the language of protection and steadiness: Alicia Keys as a 'mama-bear' figure she could look to if she 'needed to feel advocated for', Kecia Lewis as 'grounded', 'secure' and someone she 'attach[ed]' herself to 'when I really need support', the Broadway company as a 'home', and the Netflix cast as people who 'held' her ('I wasn't carried. I was held the entire time').",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S17",
+        "S11",
+        "S01",
+        "S05",
+        "S18"
+      ],
+      "inference": "The vocabulary is consistent from June 2024 (S04) to October 2026 (S17) and across two different companies: grounded, secure, protective, peace, support, home, held, safe. She seeks out older, steady figures quickly and describes what they give her as security, not glamour or instruction: Keys checks that she is sleeping and drinking water (S04, S05), Debbie Allen is 'warm and direct and comforting' (S18), Jasmine Guy's advice as she recalls it is about 'joy and safety within your space' (S01). This is the strongest support for a security-seeking reading.",
+      "alternative": "A 21-year-old newcomer among Broadway veterans, then a first-time television lead among the original cast, is structurally the junior person being looked after; anyone in that position would be mentored. 'Family', 'village' and 'held' are also the house idiom of both productions' publicity and of contemporary wellness language. And a Four or a Two can prize being held and seen as much as a Six prizes being backed. What the record lacks is any sign of the Six's other face: doubt about whether an authority can be trusted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "She has described taking the Netflix lead as fear converted into duty: 'I was scared', 'that pressure became responsibility', 'it takes courage to step into your purpose', and in print 'I definitely felt pressure at first' and 'It became stepping into purpose'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S17",
+        "S02",
+        "S19",
+        "S37"
+      ],
+      "inference": "The same sequence (fear or pressure, then responsibility, then purpose) appears in two outlets two weeks apart (S02, S17), and a castmate quotes it back as hers the day before the premiere ('it's not pressure, it's responsibility', Jordan Aaron Hall, S37), and she adds that fear is manageable 'around people who hold you'. In S19 she uses 'fear or responsibility' again for what she carried at a predominantly white college. Naming fear plainly and answering it with courage and duty is the characteristic Six frame.",
+      "alternative": "She flags it herself as a line she repeats ('I say this a lot', S17), so it is a prepared answer to the question every interviewer asked about inheriting a beloved show. 'Stepping into purpose' is common in faith-inflected and motivational speech and does not require a fear-based character.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "She frames her career as part of a divine plan and uses spiritual practices to steady herself: 'there is no me without you' to God in the Tony speech, 'God has it in your plan', daily 'angel cards' before shows, and 'I'm a very spiritual person, not even just in the biblical sense, but in the energetic sense.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S10",
+        "S02",
+        "S15",
+        "S01"
+      ],
+      "inference": "Faith language is constant from 2024 to 2026 and does practical work for her: the plan explains why she is where she is ('exactly where she's supposed to be' is the writer's paraphrase in S02), and the card she drew before the Tonys, 'presence', became an instruction to herself (S15).",
+      "alternative": "Religious and spiritual vocabulary may reflect upbringing and community more than temperament, and thanking God is conventional at award shows. A belief that things are meant to be can calm an anxious mind (Six), give meaning to a singular path (Four) or support going with the flow (Nine).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "She consistently describes her work as self-expression and puts her own life into her roles: 'express myself and my voice in the truest possible way' (2023), 'imbue as much of myself and my real life experiences into Ali' (2024), 'self-indulgent' in mixing her experiences with Deborah's and 'A lot of Deborah is Maleah, to be honest, which is honestly very expressive to me and very cathartic' (2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S16",
+        "S01",
+        "S19",
+        "S11",
+        "S08",
+        "S06",
+        "S13"
+      ],
+      "inference": "The emphasis holds across three years and two characters. It extends offstage: she asked Alicia Keys to let her wear her own dress, not her costume, for her first television appearance so she could 'feel like me', and valued the Met Gala because 'people wanted to get to know who Maleah was for a day' (S11). At Pride of Broadway she thanked the room 'for seeing me' and spoke of existing 'as the fullest version of myself' (S08). This is the core of the Four reading: identity, authenticity and being seen as herself.",
+      "alternative": "Both roles were built to absorb her biography: Keys was 'generous about how much of my own individuality I was able to channel into Ali' (S06) and the Netflix writers interviewed her about her childhood before finishing the character (S01, S19). 'Authenticity' and 'truth' are also the working vocabulary of actors and of both shows' marketing. Wanting to look like herself on her first talk show is equally a wish for comfort when nervous; she said on that broadcast 'I'm nervous right now' (S13).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "Away from work she processes privately through making things: years of journaling, sketching to 'alchemize all this incoming energy and put it somewhere that feels good, just for me', and writing her own music; she calls her younger self 'a geek who loved reading, poetry, art class, and dance'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S11",
+        "S20",
+        "S05"
+      ],
+      "inference": "The journal is corroborated incidentally: the Tony speech was written on a page from it (S11) and Keys asked whether she was keeping one (S05). The books she names (bell hooks, The Four Agreements, Slaughterhouse-Five, S20) and the word 'alchemize' suggest an inward, reflective habit of turning feeling into something made.",
+      "alternative": "Sketching, pets and journaling are also standard 'off-duty' colour in a cover story, and the writer chose to open with it. A private creative outlet is compatible with almost any type; it weighs toward Four only alongside C16.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "She speaks openly of being imperfect and of learning to stop judging herself: 'I was a mess at one point, and sometimes still am', and from eight shows a week 'radical self-acceptance... it wasn't about judging the moment before. It's about accepting where I was at so that I could move forward.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S17",
+        "S19"
+      ],
+      "inference": "The self-acceptance lesson implies its opposite as the starting point: a habit of judging her last moment harshly, which matches 'I am my own worst enemy' (C08). She presents mess as something to be allowed, especially for young Black women under pressure to do things 'the excellent way' (S02).",
+      "alternative": "'She's a mess, and I love that' is a description of the character first, and candour about messiness is the show's selling point. Her castmates and a co-star describe someone 'very serious about her work' (S02), and she reorders thank-yous on a speech (C10), so 'mess' may be more self-image than behaviour.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "In October 2026 she said 'I have my own relationship with psychiatry', that resources became more important as her career grew, and that accepting a diagnosis is 'very hard, from my own experience'; she has made 'you deserve support' the message she most wants her character to carry.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S17",
+        "S30"
+      ],
+      "inference": "This is a deliberate disclosure in her longest interview, tied to a theme she returns to in three outlets: that help does not weaken a person ('we think it weakens us, but that's not true', S17) and that the storyline is 'a super stigmatized conversation for Black women in particular' (S30). It shows she treats seeking support as legitimate and necessary, and it frames her present as unfinished ('I'm still kind of in that moment').",
+      "alternative": "She names no condition and no treatment; do not infer ADHD or anything else for her from her character's diagnosis. The disclosure was made in service of a storyline she was promoting, which does not make it untrue but does mean it was chosen for the occasion. It describes circumstances and care, not type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "Safety and protection are the terms in which she describes what her work is for: a 'safe place for conversation about stigmatized topics', a 'safe example for young Black women', HBCUs as somewhere to 'feel safe in your community', Black women as the country's 'most unprotected' group, and the hope that 'kids that look like me' see themselves on stage.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S17",
+        "S14",
+        "S19",
+        "S08"
+      ],
+      "inference": "The representation theme dates from the night of the Tony (S14) and from Pride of Broadway, where she called being looked up to 'a privilege and a responsibility' (S08); by 2026 it is expressed almost entirely as safety, protection and support. She says even HBCU campuses are 'still not safe' (S01). The mission she claims is to make a protected space for a group she sees as exposed.",
+      "alternative": "Representation and safe space are the stated purpose of A Different World and were the agreed message of its press tour; every cast member says versions of this in S17. Her comments are also accurate social observation that needs no personality explanation. It is the framing in terms of safety specifically, across topics, that leans Six, and that is a matter of word choice in a promotional month.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "She says she chose a predominantly white university because she felt she 'had to' in order to succeed in musical theater, did not feel 'seen' there, and carried 'an extra level of maybe fear or responsibility' in places where she did not see herself.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S19",
+        "S02"
+      ],
+      "inference": "Two interviews a week apart give the same account. It adds a specific circumstance to the low period in C04: she left a mostly Black high school for a setting where she felt both unseen and on guard, and she describes trying to assimilate to 'the sister next to me' (S19).",
+      "alternative": "The account was given while promoting a series set at an HBCU and after she had spent months filming on HBCU campuses, which she says made her daydream about 'who would I have been' (S02). It may be a later interpretation of why Pace did not work more than a contemporaneous one. She also says she would not change it (S01).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "She describes a pull to keep moving ('I constantly feel the need to push forward. What's next?') and a practice of stopping to register where she is ('It’s not always about the next step, but exactly where I'm standing').",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S15",
+        "S06",
+        "S25"
+      ],
+      "inference": "The same pairing appears in 2024 ('one breath and one step at a time'; the 'presence' card, S15) and in 2026 (S01, S02). She attributes the forward push partly to being 'a young Black artist' and treats presence as something she has to remind herself of, with help: Keys 'always reminds me about what really matters, which is the present' is reported in S25.",
+      "alternative": "Almost every newly successful performer says this. The restless questions she lists (next audition, Broadway, an album) are real career decisions at 24. It does not discriminate between types: scanning ahead is Six, striving is Three, and needing reminders to be present is common to all.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "The advice she now gives is about trusting oneself over outside voices: 'you don't need advice from everybody. A lot of the answers that you need you already have', 'trust you before you look outward', and in 2024 'the advice that I needed then: Just trust your heart and just go do it.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S20",
+        "S06",
+        "S05"
+      ],
+      "inference": "She presents self-trust as a lesson learned, not a starting trait: it is 'the advice that I needed then' (S06), and even in 2026 she says 'Sometimes you need the support in order to look inwards and know that you can trust that you have the information' (S20). A person whose habit was to look outward for confirmation would give exactly this advice. A reporter drew the same conclusion in April 2024, writing that her sudden success 'can make it hard for her to trust herself' (S05).",
+      "alternative": "'Trust yourself' is generic counsel to students, delivered in a light quiz video. It could as easily be a Four's insistence on inner truth ('so specific to your experience') or a Nine's hard-won attention to her own voice. The S05 sentence is the writer's inference, not a quotation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "Her move to television began with Debbie Allen, who saw Hell's Kitchen in previews, returned after the Tony with producers, and phoned her the week she left the show in late March 2025 as an NDA and self-tape request arrived; after a chemistry read she was cast as Deborah Wayne, and in December 2025 the writers' room interviewed her about her own life to shape the character.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S17",
+        "S18",
+        "S02",
+        "S01",
+        "S19"
+      ],
+      "inference": "Her accounts differ in emphasis (previews in S17 and S18, 'after the Tony' in S03) and are reconciled in S17 as two contacts. She resists the word 'picked' ('I'm not going to say I was picked', S17) while saying of Allen 'She later told me she knew [Deborah] was me' and 'My brain still can’t comprehend that' (S02). She learned of the casting during a workshop of a new musical (S03).",
+      "alternative": "All of this is her account; neither Allen nor Felicia Pride has been found on record describing the casting. Dates beyond 'late March 2025' and 'December 2025' are not given. The sequence means there was 'no transition' (S17) between jobs, so the record contains no period in which she chose what to do next unprompted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "A Different World, a ten-episode sequel in which she plays Deborah Wayne, premiered on Netflix on September 24, 2026 and was renewed for a second season on October 2, 2026; no Season 2 date has been announced.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S29",
+        "S23",
+        "S24",
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "inference": "Premiere date, episode count and role are from Netflix (S29); the renewal and first-week figures (a No. 4 debut on Netflix's global English TV list with 4.2 million views) are from What's on Netflix quoting Netflix statements (S23). It is her first major screen role (S02, S03).",
+      "alternative": "theGrio's 'Netflix's No. 1 Show' (S24) names no chart and conflicts with S23's No. 4 global figure unless it refers to a daily or United States list; do not print a rank without its chart. Interviews recorded before October 2 (S01, S17) speak of a 'possible' second season and should not be quoted as if the renewal were unknown.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck when Netflix announces a Season 2 premiere date, when Season 2 is released, or if her role or the series' status changes."
+    },
+    {
+      "id": "C26",
+      "claim": "Teachers who knew her before fame described her on the night of the Tony as 'that humble person' who had 'grace and poise beyond her years' and 'an innate ability to tell a story'.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S21"
+      ],
+      "inference": "The only testimony from before her career. 'Humble' and 'poise beyond her years' describe a contained, well-liked student, which sits a little apart from her own 'mess' and 'free-spirited' self-description (C18) and nearer to Cornell Young IV's 'very serious about her work' (C27).",
+      "alternative": "Two soundbites of a few seconds each from proud teachers at a celebration, with captions that do not identify the speaker of each line. They establish affection and early talent, not motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "Colleagues' public descriptions of her are uniformly warm and point in two directions: self-sufficient and serious (Shoshana Bean: 'She doesn't need anything. She's good!'; Michael Greif: 'smartly, bravely and uniquely'; Cornell Young IV: 'very serious about her work') and emotionally open and playful (Bean wanting 'to run out there and hold her' in rehearsal; Cree Summer naming her the set's fun, loud 'little cousin').",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S09",
+        "S05",
+        "S02",
+        "S17",
+        "S13",
+        "S11",
+        "S18"
+      ],
+      "inference": "Five named colleagues across 2023 to 2026. Alicia Keys adds 'We all knew that she was the one' and 'she's captivating' (S13). The split between composed professional and visibly emotional young person is the one consistent feature and matches her own account of crying easily (S11, S18) while being exacting about work.",
+      "alternative": "Every statement was made in a promotional setting, most with her in the room, by people with a stake in the production. None describes a disagreement, a bad day or how she behaves when challenged. This is the thinnest part of the record.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "Critics praised both performances: the New York Times called her 'sensational' and the AP 'a star turn' in Hell's Kitchen, and TheWrap wrote that she 'nails Deborah's assertive but insecure nature' on screen.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S06",
+        "S22"
+      ],
+      "inference": "Reception establishes the stakes and the speed of the rise. TheWrap's pairing of 'assertive but insecure' for the character echoes what the record shows of the actor, though that is a coincidence of casting, not evidence about her.",
+      "alternative": "The Times and AP phrases are quoted second-hand from the AP profile (S06); the reviews themselves were not opened. TheWrap's sentence was relayed by a reader tool and needs a direct check. No negative review of her was found, which may reflect search limits.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "She has described performing through an ankle injury in spring 2024, finishing the number and being tended by the company offstage, and has said Broadway taught her 'discipline', while joking that she did not make every performance.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S17"
+      ],
+      "inference": "The injury account centres on the cast's response ('you could always count on people to be by your side') more than on her own toughness, consistent with C13. Her later summary of the job is two lessons: showing up 'even though it was hard' and accepting herself mid-performance (S17).",
+      "alternative": "The ELLE column exists to elicit a show-must-go-on story. The joke about absences ('a lot of places I wasn't in when I was supposed to be there', S17) hints at missed shows that the record does not document; do not characterize her attendance.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "She has spoken of recognition and image in plain terms: 'all anybody wants is to be recognized, I think, for their work', 'creating an image for myself, which is nerve-wracking but awesome', and of her Tony and Grammy as the 'first two letters of an EGOT'.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S16",
+        "S15",
+        "S11"
+      ],
+      "inference": "These are the main support for considering Type 3: she is aware of image-making and enjoys the trappings. But each remark is brief, the recognition line is immediately tied to having put 'myself' into the role, and the image line pairs excitement with nerves.",
+      "alternative": "A person organized around success would be unlikely to refuse the audition (C05), avoid her own marquee (C09) or volunteer that she is 'a mess' and under psychiatric care in her biggest interview (C18, C19). Three is considered and set aside for now, not excluded.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "As of October 2026 she says she is keeping the show's reception at arm's length: fan expectations and social media are 'not [her] business', and 'It's my responsibility to put my health first so that I can be there for the people who really end up loving it.'",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "The boundary is credited to advice from Jasmine Guy and Kadeem Hardison ('Hold yourself'), again a steadying rule taken from trusted elders, and it is justified by duty to others ('so that I can be there for the people').",
+      "alternative": "One interview, one week after a premiere, before any sustained criticism. Whether she keeps the boundary, and what she does when reception turns, is exactly what the record cannot yet show.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck after her first sustained wave of criticism or controversy, and during Season 2 press, for how she describes handling attention."
+    },
+    {
+      "id": "C32",
+      "claim": "Leading read: Type 6, held loosely. The record is too young to separate it from Type 4, and Type 9 also remains possible.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S05",
+        "S04",
+        "S11",
+        "S17",
+        "S01",
+        "S02",
+        "S09",
+        "S20"
+      ],
+      "inference": "The Six reading rests on a pattern repeated from 2024 to 2026: doubt at the threshold (C05, C08, C09), movement only after trusted people push or accompany her (C06, C09), a vocabulary of safety, support and being held for what she values in others (C13, C20), fear answered with responsibility and courage (C14), and self-trust described as a lesson still being learned (C23). The Four reading rests on an equally repeated emphasis on self-expression, being seen and putting her own truth into roles (C16, C17, C18), and on 'I didn’t want to bare my soul anymore' (C04). Nothing observed forces a choice.",
+      "alternative": "Circumstance explains much of both: she was a 21-year-old with no professional credits surrounded by protective veterans, in two productions whose publicity is about community, authenticity and safe spaces, and she is by her own account using psychiatric care and its vocabulary. Her whole interview record consists of two promotional cycles. The profile should present this as an open case and say so.",
+      "durability": "unresolved",
+      "review_trigger": "Reopen by April 1, 2027, or sooner on Season 2 press, a music release, a first-person account of leaving Hell's Kitchen, or the first long independent profile with testimony from collaborators."
+    }
+  ],
+  "type_hypothesis": {
+    "type": 6,
+    "confidence": "low",
+    "for_claim_ids": [
+      "C05",
+      "C06",
+      "C08",
+      "C09",
+      "C12",
+      "C13",
+      "C14",
+      "C20",
+      "C23",
+      "C31"
+    ],
+    "against": "(1) The vigilant half of Type 6 is missing. Nothing in the record shows her questioning an authority, testing someone's loyalty, running worst-case scenarios or hedging; she attaches to mentors fast and without reservation ('within the first like 3 days I was like, I need to be a part of this', S16) and describes Keys, Lewis, Bean, Allen, Guy and Hardison in uniformly trusting terms (C13). (2) Her most insistent theme is not safety but self-expression and being seen as herself (C16), backed by private creative habits (C17) and by 'I didn’t want to bare my soul anymore' (C04); that is Four territory. (3) She calls herself 'free-spirited' and 'a mess' (C18), and a castmate calls her the fun, loud 'little cousin' (C27), which is lighter and looser than the careful Six picture. (4) The three hold-back episodes (C09) are the best behavioral evidence and fit Four or Nine as well as Six. (5) Being looked after is what happens to any 21-year-old debutante among veterans, and 'village', 'held', 'safe' and 'support' are the shared language of both shows' press campaigns and of the wellness vocabulary she uses (C13, C19, C20). (6) Every first-person statement comes from one of two promotional cycles, and the fear-to-responsibility line is one she says she repeats (C14).",
+    "alternative_type": 4,
+    "alternative_case": "Type 4 fits what she says about why she works. From her first interview she defines the job as expressing 'myself and my voice in the truest possible way' (C16); she pours her biography into both roles and calls the result 'cathartic' and 'healing' (C16, S01); she asked to appear on television as herself, not in costume, and prized an evening where 'people wanted to get to know who Maleah was' (C16); she thanked an audience 'for seeing me' (S08). The feeling of not being 'enough' or 'full enough' (C05) and 'I am my own worst enemy' (C08) read naturally as a Four's sense of something lacking. She left a musical theater program saying she 'didn’t want to bare my soul anymore' (C04), journals, sketches to 'alchemize' feeling, writes songs and reads bell hooks and Vonnegut (C17), cries readily in public (S11, S18) and embraces being 'a mess' (C18). What strains the Four reading: she does not present herself as different, misunderstood or apart. Her stated longing runs the other way, toward belonging and being held (C13), she resists being singled out ('I'm not going to say I was picked', C24), her remedy for doubt is other people's backing, not self-definition (C06, C09), and the purpose she claims for her work is other people's safety and reflection ('kids that look like me'), not her own singularity (C20). Type 9 is also live: avoiding the marquee and sleeping through the nominations (C09), 'I did lose sight, honestly, of what made me sparkle' (C04), going where her 'heart leads' and 'flying by the seat of my pants' (S06, S11), the pull toward 'calm, peaceful energy' (S03) and reminders to be present (C22) fit a Nine who is carried by others' momentum; against it, she names fear and doubt directly and at length, holds sharp public opinions (S17, S01) and is described as talkative and intense about work (C27). Type 2 was considered for the people-first answers (C11, C12) and set aside because she speaks far more about needing and receiving support than about giving it (C13, C19). Type 3 was considered for image and recognition (C30) and set aside for the reasons given there.",
+    "discriminator": "None that is defensible yet. The best candidate is what gets her across a threshold she doubts. In four dated episodes (the 2022 audition, the marquee, the Tony speech, the Netflix lead; C05, C06, C09, C14) her own account is that she held back until a trusted person pushed or stood with her, and she describes the resolution as being backed, held and made responsible, not as finding her own voice. If that is the real mechanism it favors Six over Four, since a Four's turning point would more likely be claiming an identity than borrowing someone's confidence. But every instance is her own retelling in a promotional setting, each has an ordinary explanation (inexperience, good manners, a rehearsed anecdote), no one else has described these moments, and the record contains no case where support was absent or an authority let her down, which is where Six and Four would visibly part: a Six grows wary and looks for firmer ground, a Four withdraws and insists on her own truth. The opposite test is equally unmet: no instance shows her choosing self-expression at a cost to belonging. Until one of those appears, the two readings explain the same facts.",
+    "unexplained": "Why she left Hell's Kitchen after one year at the height of its success: no first-person reason was found, and the Netflix approach arrived only the week she was leaving (C24). What happened between leaving Pace in 2022 and the audition, the period the AP calls 'frustrating' and she describes only as losing her 'sparkle' and not wanting to 'bare my soul' (C04). The gap between her self-image ('free-spirited', 'a mess') and others' descriptions ('poise beyond her years', 'very serious about her work') and her own 'a little obsessive' speech editing (C10, C18, C26, C27). Her joke about missed performances (C29). How she behaves in conflict or under criticism, of which there is no account at all. And a point no type explains: the speed and warmth with which much older, established figures (Keys, Bean, Lewis, Allen, Guy) take a protective role toward her may say as much about them and her age as about what she seeks."
+  },
+  "profile_format": "open_case",
+  "open_case": {
+    "reason": "Maleah Joi Moon is 24 and about three years into professional life: her first professional role opened Off-Broadway in November 2023, she won the Tony in June 2024, and her first screen lead premiered on September 24, 2026. Her interview record consists of two promotional cycles, the spring 2024 Tony campaign and the autumn 2026 Netflix press tour, made up mostly of press-line clips of two to seven minutes, group junket panels and a handful of features in which the same stories recur. The only people who have spoken about her are collaborators promoting the same projects and two former teachers in a two-minute local news segment on the night she won. The most substantial independent profile (The New York Times, May 2024) and three other 2024 features could not be opened. Thirty-three sources were opened and five types tested. The leading read (Six) and its strongest rival (Four) differ on what her self-doubt is about and what she reaches for to answer it, and the record contains no documented conflict, setback or unprompted career choice that would show which. Her two largest decisions so far, leaving Pace in 2022 and leaving Hell's Kitchen in March 2025, have almost no first-person explanation.",
+    "live_alternatives": [
+      4,
+      9
+    ],
+    "settle_signals": [
+      "When she first explains why she left Hell's Kitchen in March 2025, or why she left Pace in 2022: does she describe losing trust in a situation or needing firmer footing (Six), feeling that the work no longer expressed who she was or that she was being exposed in the wrong way (Four), or drifting until something else carried her along (Nine)?",
+      "During Season 2 press, expected in 2027, when she says what steadied her through the first year of screen fame: does she credit the people who backed her and the boundaries they taught her (Six), private creative work and staying true to herself against expectations (Four), or tuning it out and keeping the peace (Nine)?",
+      "If she releases the original music she says she is writing: is it presented as a singular, confessional statement of who she is that she fought to make her own way (Four), or does she lean on collaborators and mentors, test it cautiously and frame it as something for her community (Six)?",
+      "The first time she faces sustained public criticism or a visible disagreement with a production: does she grow guarded, seek allies and explain herself (Six), withdraw and answer through her work (Four), or play it down and move on (Nine)?",
+      "When collaborators such as Michael Greif, Alicia Keys, Shoshana Bean, Debbie Allen or Felicia Pride describe her at length outside a launch week: do they recall someone who prepared anxiously and asked many questions (Six), someone moody, intense and insistent on doing it her way (Four), or someone easy and agreeable who needed drawing out (Nine)?"
+    ],
+    "next_review": "2027-04-01"
+  }
+}

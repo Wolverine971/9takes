@@ -1,0 +1,1156 @@
+<!-- scripts/lib/blogGenericPage.html -->
+<!doctype html>
+<!-- scripts/lib/blogGenericPage.html: the picker page served by `pnpm audit:generic -- --serve` -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Generic Audit</title>
+		<style>
+			/* Streetlamp V5 tokens (docs/design-system.md), dark only. The three family
+			   colors were checked with the dataviz validator against --stone-warm:
+			   all pairs clear the colorblind and normal-vision floors. */
+			:root {
+				color-scheme: dark;
+				--night-deep: #0a0807;
+				--night-mid: #16110d;
+				--stone-warm: #241d17;
+				--stone-mid: #3a302a;
+				--stone-edge: #5c4f47;
+				--ink-bright: #faf8f4;
+				--ink-mid: #a8a095;
+				--lamp-glow: #f59e0b;
+				--fam-wording: #d97706;
+				--fam-type: #d55181;
+				--fam-claims: #3987e5;
+				--rest: #5c4f47;
+				--radius: 6px;
+				--mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+			}
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				margin: 0;
+				background: var(--night-deep);
+				color: var(--ink-bright);
+				font:
+					15px/1.5 Inter,
+					ui-sans-serif,
+					system-ui,
+					-apple-system,
+					'Segoe UI',
+					sans-serif;
+			}
+			button,
+			input,
+			select {
+				font: inherit;
+				color: inherit;
+			}
+			a {
+				color: var(--lamp-glow);
+				text-decoration: none;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			:focus-visible {
+				outline: 2px solid var(--lamp-glow);
+				outline-offset: 2px;
+			}
+
+			.shell {
+				max-width: 1500px;
+				margin: 0 auto;
+				padding: 24px 20px 48px;
+			}
+			.kicker {
+				font: 600 11px/1 var(--mono);
+				letter-spacing: 0.14em;
+				text-transform: uppercase;
+				color: var(--lamp-glow);
+			}
+			h1 {
+				margin: 10px 0 6px;
+				font-size: 26px;
+				line-height: 1.2;
+				text-wrap: balance;
+			}
+			.lede {
+				margin: 0;
+				max-width: 70ch;
+				color: var(--ink-mid);
+			}
+
+			.tiles {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+				gap: 12px;
+				margin: 20px 0 16px;
+			}
+			.tile {
+				background: var(--stone-warm);
+				border: 1px solid var(--stone-mid);
+				border-radius: var(--radius);
+				padding: 12px 14px;
+			}
+			.tile .label {
+				font-size: 12px;
+				color: var(--ink-mid);
+			}
+			.tile .value {
+				font-size: 24px;
+				font-weight: 600;
+				line-height: 1.25;
+			}
+			.tile .note {
+				font-size: 12px;
+				color: var(--ink-mid);
+			}
+
+			.legend {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 6px 18px;
+				font-size: 13px;
+				color: var(--ink-mid);
+			}
+			.legend span {
+				display: inline-flex;
+				align-items: center;
+				gap: 7px;
+			}
+			.swatch {
+				width: 12px;
+				height: 12px;
+				border-radius: 3px;
+				flex: none;
+			}
+			.fam-wording {
+				--fam: var(--fam-wording);
+			}
+			.fam-type {
+				--fam: var(--fam-type);
+			}
+			.fam-claims {
+				--fam: var(--fam-claims);
+			}
+			.fam-rest {
+				--fam: var(--rest);
+			}
+			.swatch,
+			.seg {
+				background: var(--fam);
+			}
+
+			.filters {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				gap: 10px;
+				margin: 18px 0 14px;
+			}
+			.filters input[type='search'],
+			.filters select,
+			.btn {
+				background: var(--stone-warm);
+				border: 1px solid var(--stone-edge);
+				border-radius: var(--radius);
+				padding: 7px 10px;
+			}
+			.filters input[type='search'] {
+				width: 240px;
+			}
+			.btn {
+				cursor: pointer;
+			}
+			.btn:hover {
+				background: var(--stone-mid);
+			}
+			.segmented {
+				display: inline-flex;
+				border: 1px solid var(--stone-edge);
+				border-radius: var(--radius);
+				overflow: hidden;
+			}
+			.segmented button {
+				background: var(--stone-warm);
+				border: 0;
+				padding: 7px 12px;
+				cursor: pointer;
+			}
+			.segmented button + button {
+				border-left: 1px solid var(--stone-edge);
+			}
+			.segmented button[aria-pressed='true'] {
+				background: var(--lamp-glow);
+				color: #1c1917;
+				font-weight: 600;
+			}
+			.filters label {
+				display: inline-flex;
+				align-items: center;
+				gap: 6px;
+				color: var(--ink-mid);
+				font-size: 13px;
+			}
+			.count {
+				margin-left: auto;
+				color: var(--ink-mid);
+				font-size: 13px;
+			}
+
+			.panes {
+				display: grid;
+				grid-template-columns: minmax(320px, 400px) minmax(0, 1fr);
+				gap: 16px;
+				align-items: start;
+			}
+			@media (max-width: 900px) {
+				.panes {
+					grid-template-columns: 1fr;
+				}
+				.list {
+					max-height: 320px;
+				}
+			}
+			.list {
+				position: sticky;
+				top: 12px;
+				max-height: calc(100vh - 24px);
+				overflow: auto;
+				background: var(--night-mid);
+				border: 1px solid var(--stone-mid);
+				border-radius: var(--radius);
+			}
+			.row {
+				display: block;
+				width: 100%;
+				text-align: left;
+				background: none;
+				border: 0;
+				border-bottom: 1px solid var(--stone-mid);
+				padding: 10px 12px;
+				cursor: pointer;
+			}
+			.row:hover {
+				background: var(--stone-warm);
+			}
+			.row[aria-current='true'] {
+				background: var(--stone-warm);
+				box-shadow: inset 3px 0 0 var(--lamp-glow);
+			}
+			.row .name {
+				font-weight: 600;
+				overflow-wrap: anywhere;
+			}
+			.row .meta {
+				font-size: 12px;
+				color: var(--ink-mid);
+			}
+
+			/* One bar form everywhere: thin, square at the baseline, rounded at the
+			   data end, 2px surface gap between segments, value at the tip. */
+			.barline {
+				display: flex;
+				align-items: center;
+				gap: 8px;
+				margin-top: 6px;
+				min-width: 0;
+			}
+			.bar {
+				display: flex;
+				gap: 2px;
+				height: 8px;
+				flex: none;
+			}
+			.seg {
+				min-width: 2px;
+				height: 100%;
+			}
+			.seg:last-child {
+				border-radius: 0 4px 4px 0;
+			}
+			.barvalue {
+				font-size: 12px;
+				font-variant-numeric: tabular-nums;
+				white-space: nowrap;
+			}
+
+			.detail {
+				min-width: 0;
+				background: var(--stone-warm);
+				border: 1px solid var(--stone-mid);
+				border-radius: var(--radius);
+				padding: 20px 22px 28px;
+				transition: opacity 0.12s;
+			}
+			.detail.loading {
+				opacity: 0.55;
+			}
+			.detail h2 {
+				margin: 0 0 4px;
+				font-size: 21px;
+				line-height: 1.25;
+				text-wrap: balance;
+			}
+			.path {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				gap: 8px 12px;
+				font-size: 13px;
+				color: var(--ink-mid);
+			}
+			.path code {
+				font: 12px var(--mono);
+				overflow-wrap: anywhere;
+			}
+			.path .btn {
+				padding: 3px 8px;
+				font-size: 12px;
+				background: var(--night-mid);
+			}
+			.detail .tiles .tile {
+				background: var(--night-mid);
+			}
+			.whole .bar {
+				height: 12px;
+			}
+			.whole .seg:last-child {
+				border-radius: 0;
+			}
+			h3.block-title {
+				margin: 22px 0 8px;
+				font: 600 11px/1 var(--mono);
+				letter-spacing: 0.14em;
+				text-transform: uppercase;
+				color: var(--ink-mid);
+			}
+
+			table {
+				width: 100%;
+				border-collapse: collapse;
+				font-size: 13px;
+			}
+			th,
+			td {
+				text-align: left;
+				padding: 6px 10px 6px 0;
+				border-bottom: 1px solid var(--stone-mid);
+				vertical-align: top;
+			}
+			th {
+				font-weight: 500;
+				color: var(--ink-mid);
+			}
+			td.num,
+			th.num {
+				text-align: right;
+				font-variant-numeric: tabular-nums;
+				white-space: nowrap;
+			}
+			td .swatch {
+				display: inline-block;
+				margin-right: 7px;
+				vertical-align: -1px;
+			}
+			.muted {
+				color: var(--ink-mid);
+			}
+
+			.sections {
+				display: grid;
+				gap: 2px;
+			}
+			.section-row {
+				display: grid;
+				grid-template-columns: minmax(120px, 260px) minmax(0, 1fr);
+				gap: 12px;
+				align-items: center;
+				padding: 4px 6px;
+				background: none;
+				border: 0;
+				border-radius: 4px;
+				text-align: left;
+				cursor: pointer;
+			}
+			.section-row:hover {
+				background: var(--stone-mid);
+			}
+			.section-row .sname {
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				font-size: 13px;
+			}
+			.section-row .barline {
+				margin: 0;
+			}
+
+			.tabs {
+				display: flex;
+				gap: 4px;
+				margin: 26px 0 0;
+				border-bottom: 1px solid var(--stone-edge);
+			}
+			.tabs button {
+				background: none;
+				border: 0;
+				border-bottom: 2px solid transparent;
+				padding: 8px 12px;
+				cursor: pointer;
+				color: var(--ink-mid);
+			}
+			.tabs button[aria-selected='true'] {
+				color: var(--ink-bright);
+				border-bottom-color: var(--lamp-glow);
+				font-weight: 600;
+			}
+
+			.prose {
+				max-width: 74ch;
+				font-size: 16px;
+				line-height: 1.65;
+			}
+			.prose h4 {
+				margin: 28px 0 6px;
+				font-size: 17px;
+				scroll-margin-top: 12px;
+			}
+			.prose h4 .share {
+				margin-left: 8px;
+				font: 500 12px var(--mono);
+				color: var(--ink-mid);
+			}
+			.prose p,
+			.prose ul,
+			.prose blockquote {
+				margin: 0 0 14px;
+			}
+			.prose blockquote {
+				padding-left: 14px;
+				border-left: 2px solid var(--stone-edge);
+				color: var(--ink-mid);
+			}
+			.flag {
+				background: color-mix(in srgb, var(--fam) 24%, transparent);
+				box-shadow: inset 0 -2px 0 var(--fam);
+				border-radius: 2px;
+				cursor: help;
+			}
+			.flag.off {
+				background: none;
+				box-shadow: none;
+				cursor: auto;
+			}
+			.tag {
+				margin: 0 4px 0 3px;
+				font: 500 10.5px var(--mono);
+				letter-spacing: 0.02em;
+				color: var(--ink-mid);
+				white-space: nowrap;
+			}
+			.flag.off + .tag,
+			.no-tags .tag {
+				display: none;
+			}
+
+			.items {
+				display: grid;
+				gap: 10px;
+				max-width: 80ch;
+			}
+			.item {
+				padding: 10px 12px;
+				background: var(--night-mid);
+				border-radius: var(--radius);
+				box-shadow: inset 3px 0 0 var(--fam, var(--stone-edge));
+			}
+			.item .why {
+				margin-top: 4px;
+				font-size: 12.5px;
+				color: var(--ink-mid);
+			}
+			.group-title {
+				margin: 18px 0 2px;
+				font-weight: 600;
+			}
+
+			#tip {
+				position: fixed;
+				z-index: 10;
+				max-width: 340px;
+				padding: 10px 12px;
+				background: #0a0807;
+				border: 1px solid var(--stone-edge);
+				border-radius: var(--radius);
+				font-size: 13px;
+				line-height: 1.45;
+				pointer-events: none;
+				display: none;
+			}
+			#tip b {
+				display: block;
+			}
+			#tip .fix {
+				margin-top: 6px;
+				color: var(--ink-mid);
+			}
+			.empty {
+				padding: 40px 12px;
+				color: var(--ink-mid);
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="shell">
+			<div class="kicker">9takes · Generic audit</div>
+			<h1>What could sit in any other post</h1>
+			<p class="lede">
+				A highlighted sentence would read the same with a different person, type or topic swapped
+				in. Pick a post, see what to replace, then choose its new direction. Nothing here calls an
+				AI detector; the rules are in <code>scripts/lib/blogGeneric.mjs</code>.
+			</p>
+
+			<div class="tiles" id="tiles"></div>
+			<div class="legend" id="legend"></div>
+
+			<div class="filters">
+				<input type="search" id="q" placeholder="Find a post" aria-label="Find a post" />
+				<div class="segmented" id="kind" role="group" aria-label="Kind of post">
+					<button data-kind="all" aria-pressed="true">All</button>
+					<button data-kind="blog" aria-pressed="false">Blogs</button>
+					<button data-kind="person" aria-pressed="false">People</button>
+				</div>
+				<select id="sort" aria-label="Sort">
+					<option value="generic">Most generic first</option>
+					<option value="words">Most generic words first</option>
+					<option value="clicks">Most search clicks first</option>
+				</select>
+				<label><input type="checkbox" id="floor" /> 15% or more only</label>
+				<label><input type="checkbox" id="drafts" /> Include drafts</label>
+				<button class="btn" id="refresh" title="Re-read every post from disk">
+					Re-read all posts
+				</button>
+				<span class="count" id="count"></span>
+			</div>
+
+			<div class="panes">
+				<nav class="list" id="list" aria-label="Posts"></nav>
+				<main class="detail" id="detail">
+					<div class="empty">Loading posts…</div>
+				</main>
+			</div>
+		</div>
+		<div id="tip" role="tooltip"></div>
+
+		<script>
+			const state = {
+				posts: [],
+				reasons: {},
+				families: {},
+				searchWindow: null,
+				kind: 'all',
+				sort: 'generic',
+				query: '',
+				floor: false,
+				drafts: false,
+				selected: null,
+				post: null,
+				tab: 'context',
+				off: new Set(),
+				tags: true
+			};
+			const $ = (selector) => document.querySelector(selector);
+
+			// Everything on this page comes from files on disk: build nodes, never HTML strings.
+			function el(tag, props = {}, children = []) {
+				const node = document.createElement(tag);
+				for (const [key, value] of Object.entries(props)) {
+					if (value === undefined || value === null || value === false) continue;
+					if (key === 'class') node.className = value;
+					else if (key === 'text') node.textContent = value;
+					else if (key.startsWith('on')) node.addEventListener(key.slice(2), value);
+					else node.setAttribute(key, value === true ? '' : value);
+				}
+				for (const child of [].concat(children)) if (child) node.append(child);
+				return node;
+			}
+			const number = (value) => Number(value).toLocaleString('en-US');
+			const compact = (value) =>
+				value >= 1000 ? `${(value / 1000).toFixed(value >= 10000 ? 0 : 1)}K` : String(value);
+			const nameOf = (post) => post.title || post.file.split('/').pop().replace(/\.md$/, '');
+			const familyKeys = () => Object.keys(state.families);
+			const median = (values) =>
+				[...values].sort((a, b) => a - b)[Math.floor(values.length / 2)] ?? 0;
+
+			/** A thin stacked bar: one segment per family, value at the tip. */
+			function bar(families, words, scale, label) {
+				const keys = familyKeys().filter((key) => families[key] > 0);
+				const total = keys.reduce((sum, key) => sum + families[key], 0);
+				const mark = el(
+					'span',
+					{ class: 'bar' },
+					keys.map((key) => {
+						const segment = el('span', { class: `seg fam-${key}` });
+						segment.style.flex = families[key];
+						return segment;
+					})
+				);
+				const share = Math.min(1, (100 * total) / words / scale);
+				// The label sits at the tip, so the bar never takes the room the label needs.
+				mark.style.width = `calc((100% - 8.5em) * ${share.toFixed(4)})`;
+				return el('span', { class: 'barline' }, [
+					total ? mark : null,
+					el('span', { class: 'barvalue', text: label })
+				]);
+			}
+
+			// ---------- tooltip: the same content on hover and on keyboard focus ----------
+			const tip = $('#tip');
+			function showTip(target, build) {
+				tip.replaceChildren(...build());
+				tip.style.display = 'block';
+				const box = target.getBoundingClientRect();
+				const width = tip.offsetWidth;
+				const height = tip.offsetHeight;
+				const left = Math.max(8, Math.min(box.left, window.innerWidth - width - 8));
+				const above = box.top - height - 8;
+				tip.style.left = `${left}px`;
+				tip.style.top = `${above > 8 ? above : Math.min(box.bottom + 8, window.innerHeight - height - 8)}px`;
+			}
+			const hideTip = () => (tip.style.display = 'none');
+			function withTip(node, build) {
+				node.addEventListener('pointerenter', () => showTip(node, build));
+				node.addEventListener('pointerleave', hideTip);
+				node.addEventListener('focus', () => showTip(node, build));
+				node.addEventListener('blur', hideTip);
+				return node;
+			}
+			const reasonTip = (reasons) => () =>
+				reasons.flatMap((key) => {
+					const [label, meaning, fix] = state.reasons[key];
+					return [
+						el('b', { text: label }),
+						el('div', { text: meaning }),
+						el('div', { class: 'fix', text: fix })
+					];
+				});
+
+			// ---------- list ----------
+			function visiblePosts() {
+				const query = state.query.trim().toLowerCase();
+				const sorts = {
+					generic: (a, b) => b.genericPct - a.genericPct,
+					words: (a, b) => b.genericWords - a.genericWords,
+					clicks: (a, b) => b.clicks - a.clicks || b.genericPct - a.genericPct
+				};
+				return state.posts
+					.filter((post) => state.kind === 'all' || post.kind === state.kind)
+					.filter((post) => !state.floor || post.genericPct >= 15)
+					.filter((post) => !query || `${post.title} ${post.file}`.toLowerCase().includes(query))
+					.sort(sorts[state.sort]);
+			}
+
+			function renderSummary() {
+				const pool = state.posts.filter((post) => state.kind === 'all' || post.kind === state.kind);
+				const words = pool.reduce((sum, post) => sum + post.genericWords, 0);
+				const tile = (label, value, note) =>
+					el('div', { class: 'tile' }, [
+						el('div', { class: 'label', text: label }),
+						el('div', { class: 'value', text: value }),
+						note ? el('div', { class: 'note', text: note }) : null
+					]);
+				$('#tiles').replaceChildren(
+					tile('Posts checked', number(pool.length)),
+					tile(
+						'Typical post',
+						`${median(pool.map((post) => post.genericPct))}%`,
+						'of its words flagged'
+					),
+					tile('Posts at 15% or more', number(pool.filter((post) => post.genericPct >= 15).length)),
+					tile('Flagged words', compact(words), 'across all posts')
+				);
+				$('#legend').replaceChildren(
+					...familyKeys().map((key) =>
+						el('span', {}, [el('i', { class: `swatch fam-${key}` }), state.families[key][0]])
+					)
+				);
+			}
+
+			function renderList() {
+				const posts = visiblePosts();
+				const scale = Math.max(
+					10,
+					Math.ceil(Math.max(0, ...posts.map((post) => post.genericPct)) / 10) * 10
+				);
+				$('#count').textContent = `${number(posts.length)} posts`;
+				$('#list').replaceChildren(
+					...(posts.length
+						? posts.map((post) => {
+								const meta = [
+									post.kind === 'person' ? 'Person' : 'Blog',
+									`${number(post.words)} words`,
+									post.clicks ? `${number(post.clicks)} clicks` : null,
+									post.live ? null : 'draft'
+								].filter(Boolean);
+								return el(
+									'button',
+									{
+										class: 'row',
+										'aria-current': post.file === state.selected ? 'true' : null,
+										onclick: () => select(post.file)
+									},
+									[
+										el('div', { class: 'name', text: nameOf(post) }),
+										el('div', { class: 'meta', text: meta.join(' · ') }),
+										bar(post.families, post.words, scale, `${post.genericPct}%`)
+									]
+								);
+							})
+						: [el('div', { class: 'empty', text: 'No posts match.' })])
+				);
+			}
+
+			// ---------- detail ----------
+			function renderDetail() {
+				const post = state.post;
+				const detail = $('#detail');
+				if (!post)
+					return detail.replaceChildren(
+						el('div', { class: 'empty', text: 'Pick a post on the left.' })
+					);
+
+				const sentences = sentencesOf(post);
+				const flagged = sentences.filter((s) => s.family);
+				const specific = sentences.filter(isSpecific);
+
+				const copy = el('button', { class: 'btn', text: 'Copy path' });
+				copy.addEventListener('click', async () => {
+					await navigator.clipboard.writeText(post.path);
+					copy.textContent = 'Copied';
+					setTimeout(() => (copy.textContent = 'Copy path'), 1200);
+				});
+				const search =
+					post.clicks || post.impressions
+						? `${number(post.clicks)} clicks, ${number(post.impressions)} impressions${
+								state.searchWindow
+									? ` (${state.searchWindow.startDate} to ${state.searchWindow.endDate})`
+									: ''
+							}`
+						: 'No search clicks recorded';
+				const tile = (label, value, note) =>
+					el('div', { class: 'tile' }, [
+						el('div', { class: 'label', text: label }),
+						el('div', { class: 'value', text: value }),
+						note ? el('div', { class: 'note', text: note }) : null
+					]);
+
+				// part-to-whole: where this post's words go
+				const rest = post.words - post.genericWords;
+				const whole = el('div', { class: 'whole' }, [
+					el('span', { class: 'bar' }, [
+						...familyKeys()
+							.filter((key) => post.families[key] > 0)
+							.map((key) => {
+								const segment = el('span', { class: `seg fam-${key}`, tabindex: '0' });
+								segment.style.flex = post.families[key];
+								return withTip(segment, () => [
+									el('b', { text: `${number(post.families[key])} words` }),
+									el('div', { text: state.families[key][0] })
+								]);
+							}),
+						(() => {
+							const segment = el('span', { class: 'seg fam-rest', tabindex: '0' });
+							segment.style.flex = rest;
+							return withTip(segment, () => [
+								el('b', { text: `${number(rest)} words` }),
+								el('div', { text: 'Not flagged' })
+							]);
+						})()
+					])
+				]);
+
+				const reasonRows = Object.keys(state.reasons)
+					.filter((key) => post.reasons[key].sentences)
+					.map((key) => {
+						const family = familyKeys().find((name) => state.families[name][1].includes(key));
+						const box = el('input', {
+							type: 'checkbox',
+							checked: !state.off.has(key),
+							'aria-label': `Show ${state.reasons[key][0]}`
+						});
+						box.addEventListener('change', () => {
+							if (box.checked) state.off.delete(key);
+							else state.off.add(key);
+							renderBody();
+						});
+						return el('tr', {}, [
+							el('td', {}, box),
+							el('td', {}, [el('i', { class: `swatch fam-${family}` }), state.reasons[key][0]]),
+							el('td', { class: 'num', text: number(post.reasons[key].sentences) }),
+							el('td', { class: 'num', text: number(post.reasons[key].words) }),
+							el('td', { class: 'muted', text: state.reasons[key][2] })
+						]);
+					});
+
+				const sections = post.sections
+					.filter((section) => section.words > 0)
+					.map((section, index) =>
+						withTip(
+							el(
+								'button',
+								{
+									class: 'section-row',
+									onclick: () => {
+										state.tab = 'context';
+										renderBody();
+										document
+											.getElementById(`section-${index}`)
+											?.scrollIntoView({ behavior: 'smooth' });
+									}
+								},
+								[
+									el('span', { class: 'sname', text: section.name }),
+									bar(
+										section.families,
+										section.words,
+										100,
+										`${Math.round(section.genericPct)}% · ${number(section.words)} words`
+									)
+								]
+							),
+							() => [
+								el('b', { text: section.name }),
+								el('div', {
+									text: `${number(section.genericWords)} of ${number(section.words)} words flagged, in ${section.flagged} sentences.`
+								}),
+								...familyKeys()
+									.filter((key) => section.families[key])
+									.map((key) =>
+										el('div', {
+											class: 'fix',
+											text: `${state.families[key][0]}: ${number(section.families[key])} words`
+										})
+									)
+							]
+						)
+					);
+
+				detail.replaceChildren(
+					el('h2', { text: nameOf(post) }),
+					el('div', { class: 'path' }, [
+						el('code', { text: post.file }),
+						copy,
+						post.url
+							? el('a', {
+									href: `https://9takes.com${post.url}`,
+									target: '_blank',
+									rel: 'noreferrer',
+									text: 'Live page'
+								})
+							: null,
+						el('span', { text: search })
+					]),
+					el('div', { class: 'tiles' }, [
+						tile(
+							'Reads as generic',
+							`${post.genericPct}%`,
+							`${number(post.genericWords)} of ${number(post.words)} words`
+						),
+						tile('Flagged sentences', number(post.flagged)),
+						tile('With a quotation', number(post.specifics.quote)),
+						tile('With a number or date', number(post.specifics.number)),
+						tile('Naming someone', number(post.specifics.name)),
+						tile('In first person', number(post.specifics['first-person']))
+					]),
+					whole,
+					reasonRows.length
+						? el('h3', { class: 'block-title', text: 'Why sentences were flagged' })
+						: null,
+					reasonRows.length
+						? el('table', {}, [
+								el(
+									'thead',
+									{},
+									el('tr', {}, [
+										el('th', { text: 'Show' }),
+										el('th', { text: 'Reason' }),
+										el('th', { class: 'num', text: 'Sentences' }),
+										el('th', { class: 'num', text: 'Words' }),
+										el('th', { text: 'What to do' })
+									])
+								),
+								el('tbody', {}, reasonRows)
+							])
+						: null,
+					el('h3', { class: 'block-title', text: 'Section by section, in page order' }),
+					el('div', { class: 'sections' }, sections),
+					el('div', { class: 'tabs', role: 'tablist' }, [
+						tab('context', 'In context'),
+						tab('flagged', `Flagged (${flagged.length})`),
+						tab('specific', `Specific material (${specific.length})`)
+					]),
+					el('div', { id: 'body' })
+				);
+				renderBody();
+			}
+
+			function tab(key, label) {
+				return el('button', {
+					role: 'tab',
+					'aria-selected': state.tab === key ? 'true' : 'false',
+					'data-tab': key,
+					text: label,
+					onclick: () => {
+						state.tab = key;
+						renderBody();
+					}
+				});
+			}
+
+			const shown = (sentence) => sentence.reasons.some((key) => !state.off.has(key));
+			const sentencesOf = (post) =>
+				post.blocks.flatMap((block) =>
+					(block.sentences ?? []).map((sentence) => ({
+						...sentence,
+						section: block.section,
+						quoteBlock: block.kind === 'quote'
+					}))
+				);
+			const isSpecific = (sentence) => sentence.anchors.length > 0 || sentence.quoteBlock;
+
+			function sentenceNodes(sentence) {
+				if (!sentence.family) return [document.createTextNode(`${sentence.text} `)];
+				const on = shown(sentence);
+				const span = el('span', {
+					class: `flag fam-${sentence.family}${on ? '' : ' off'}`,
+					tabindex: on ? '0' : null,
+					text: sentence.text
+				});
+				if (on) withTip(span, reasonTip(sentence.reasons));
+				const tag = sentence.reasons.map((key) => state.reasons[key][3]).join(', ');
+				return [span, el('span', { class: 'tag', text: tag }), document.createTextNode(' ')];
+			}
+
+			function contextView(post) {
+				const sections = post.sections.filter((section) => section.words > 0);
+				const indexOf = new Map(sections.map((section, index) => [section.name, index]));
+				const placed = new Set();
+				// Each section gets one anchor: its heading, or its first block when it has none.
+				const anchor = (name) => {
+					if (placed.has(name) || !indexOf.has(name)) return null;
+					placed.add(name);
+					return `section-${indexOf.get(name)}`;
+				};
+				const box = el('input', { type: 'checkbox', checked: state.tags });
+				box.addEventListener('change', () => {
+					state.tags = box.checked;
+					renderBody();
+				});
+				const prose = el('div', { class: `prose${state.tags ? '' : ' no-tags'}` });
+				for (const block of post.blocks) {
+					if (block.kind === 'heading') {
+						const id = block.level <= 3 ? anchor(block.section) : null;
+						const section = id ? sections[indexOf.get(block.section)] : null;
+						const share = section ? `${Math.round(section.genericPct)}% generic` : null;
+						prose.append(
+							el('h4', { id }, [
+								block.title,
+								share ? el('span', { class: 'share', text: share }) : null
+							])
+						);
+						continue;
+					}
+					const id = anchor(block.section);
+					const nodes = block.sentences.map(sentenceNodes);
+					if (block.kind === 'list') {
+						prose.append(
+							el(
+								'ul',
+								{ id },
+								nodes.map((item) => el('li', {}, item))
+							)
+						);
+					} else {
+						prose.append(el(block.kind === 'quote' ? 'blockquote' : 'p', { id }, nodes.flat()));
+					}
+				}
+				return [
+					el(
+						'p',
+						{},
+						el('label', { class: 'muted' }, [box, ' Show the reason after each flagged sentence'])
+					),
+					prose
+				];
+			}
+
+			function flaggedView(post) {
+				const visible = sentencesOf(post).filter((sentence) => sentence.family && shown(sentence));
+				if (!visible.length) return [el('div', { class: 'empty', text: 'Nothing flagged here.' })];
+				const out = [];
+				let section = null;
+				for (const sentence of visible) {
+					if (sentence.section !== section) {
+						section = sentence.section;
+						out.push(el('div', { class: 'group-title', text: section }));
+					}
+					const why = sentence.reasons
+						.map((key) => `${state.reasons[key][0]}. ${state.reasons[key][2]}`)
+						.join(' ');
+					out.push(
+						el('div', { class: `item fam-${sentence.family}` }, [
+							el('div', { text: sentence.text }),
+							el('div', { class: 'why', text: why })
+						])
+					);
+				}
+				return [el('div', { class: 'items' }, out)];
+			}
+
+			const SPECIFIC_GROUPS = {
+				quote: 'Quotations',
+				number: 'Numbers and dates',
+				name: 'Named people and places',
+				'first-person': 'First person'
+			};
+			function specificView(post) {
+				const specific = sentencesOf(post).filter(isSpecific);
+				if (!specific.length) {
+					return [
+						el('div', {
+							class: 'empty',
+							text: 'No quotations, numbers, names or first person found.'
+						})
+					];
+				}
+				const out = [
+					el('p', {
+						class: 'muted',
+						text: 'What this post has that no other post does. A new direction usually starts from one of these.'
+					})
+				];
+				for (const [key, label] of Object.entries(SPECIFIC_GROUPS)) {
+					const group = specific.filter(
+						(sentence) => sentence.anchors.includes(key) || (key === 'quote' && sentence.quoteBlock)
+					);
+					if (!group.length) continue;
+					out.push(el('div', { class: 'group-title', text: `${label} (${group.length})` }));
+					for (const sentence of group.slice(0, 40)) {
+						out.push(
+							el('div', { class: 'item' }, [
+								el('div', { text: sentence.text }),
+								el('div', { class: 'why', text: sentence.section })
+							])
+						);
+					}
+					if (group.length > 40)
+						out.push(el('div', { class: 'muted', text: `…and ${group.length - 40} more.` }));
+				}
+				return [el('div', { class: 'items' }, out)];
+			}
+
+			function renderBody() {
+				const post = state.post;
+				const body = $('#body');
+				if (!post || !body) return;
+				for (const button of document.querySelectorAll('.tabs button')) {
+					button.setAttribute('aria-selected', button.dataset.tab === state.tab ? 'true' : 'false');
+				}
+				const views = { context: contextView, flagged: flaggedView, specific: specificView };
+				body.replaceChildren(...views[state.tab](post));
+			}
+
+			// ---------- data ----------
+			async function getJson(url) {
+				const response = await fetch(url);
+				const data = await response.json();
+				if (!response.ok) throw new Error(data.error ?? response.statusText);
+				return data;
+			}
+
+			async function loadPosts(refresh = false) {
+				$('#list').style.opacity = 0.55; // hold the previous frame while reloading
+				const params = new URLSearchParams();
+				if (refresh) params.set('refresh', '1');
+				if (state.drafts) params.set('drafts', '1');
+				try {
+					const data = await getJson(`/api/posts?${params}`);
+					Object.assign(state, {
+						posts: data.posts,
+						reasons: data.reasons,
+						families: data.families,
+						searchWindow: data.searchWindow
+					});
+					renderSummary();
+					renderList();
+				} catch (error) {
+					$('#list').replaceChildren(
+						el('div', { class: 'empty', text: `Could not load posts: ${error.message}` })
+					);
+				}
+				$('#list').style.opacity = 1;
+			}
+
+			async function select(file) {
+				state.selected = file;
+				history.replaceState(null, '', `#${encodeURIComponent(file)}`);
+				renderList();
+				const detail = $('#detail');
+				detail.classList.add('loading');
+				try {
+					state.post = await getJson(`/api/post?file=${encodeURIComponent(file)}`);
+					renderDetail();
+					if (window.matchMedia('(max-width: 900px)').matches) detail.scrollIntoView();
+				} catch (error) {
+					detail.replaceChildren(
+						el('div', { class: 'empty', text: `Could not read that post: ${error.message}` })
+					);
+				}
+				detail.classList.remove('loading');
+			}
+
+			$('#q').addEventListener('input', (event) => {
+				state.query = event.target.value;
+				renderList();
+			});
+			$('#sort').addEventListener('change', (event) => {
+				state.sort = event.target.value;
+				renderList();
+			});
+			$('#floor').addEventListener('change', (event) => {
+				state.floor = event.target.checked;
+				renderList();
+			});
+			$('#drafts').addEventListener('change', (event) => {
+				state.drafts = event.target.checked;
+				loadPosts();
+			});
+			$('#refresh').addEventListener('click', async () => {
+				await loadPosts(true);
+				if (state.selected) select(state.selected);
+			});
+			$('#kind').addEventListener('click', (event) => {
+				const kind = event.target.dataset.kind;
+				if (!kind) return;
+				state.kind = kind;
+				for (const button of $('#kind').children) {
+					button.setAttribute('aria-pressed', button.dataset.kind === kind ? 'true' : 'false');
+				}
+				renderSummary();
+				renderList();
+			});
+			window.addEventListener('scroll', hideTip, { passive: true });
+
+			loadPosts().then(() => {
+				const fromHash = decodeURIComponent(location.hash.slice(1));
+				if (fromHash) select(fromHash);
+				else renderDetail();
+			});
+		</script>
+	</body>
+</html>

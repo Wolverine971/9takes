@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "maleah-joi-moon",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/verification-edit.json"
+  },
+  "content_sha256": "30bb8d765510d10d4186b8fc1f40b7a506883b90d82ad51bd0745166c9e64945",
+  "evidence_sha256": "e0de438aef1d7d9a5636e3c42dc20c9debf25c43b59246373875d254243cc0d8"
+}

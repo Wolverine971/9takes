@@ -1,0 +1,27 @@
+Research stage is complete: `evidence.json` is written and passes the pipeline's own `validateEvidence` check. Maleah Joi Moon comes out as an **open case**, with a leading read of Type 6 at low confidence, Type 4 as the strongest rival and Type 9 still possible.
+
+**Why open case and not a standard profile**
+- She is 24 and under three years into professional life (Off-Broadway debut November 2023, Tony June 2024, Netflix lead September 2026).
+- Her whole interview record is two promotional cycles, and the only people who have spoken about her are collaborators promoting the same projects plus two former teachers.
+- The Six and Four readings explain the same facts. Nothing in the record shows her in a conflict, a setback, or a career choice she made unprompted.
+- Because it is flagged as contested typing, the draft will go to the six-role jury.
+
+**What the record does show**
+- **Doubt at the threshold:** she first said no to the *Hell's Kitchen* audition ("I felt like I wasn't enough"), kept postponing seeing her own marquee, and wrote her Tony speech only the night before.
+- **Other people get her across:** each time, by her own account, a trusted person pushed her or stood with her, and she describes what they give her as being "held," safe and supported.
+- **The Four case is just as repeated:** self-expression, being seen as herself, and leaving Pace saying "I didn't want to bare my soul anymore."
+
+**What's in the file**
+- 37 sources, 33 opened, and 32 claims.
+- Five settle signals and a next review date of 2027-04-01. Season 2 was renewed October 2 with no premiere date, so that date is my six-month placeholder rather than a fixed event.
+- Quotes from 11 of the 15 videos were confirmed against a second transcription made from the audio.
+
+**Gaps and cautions recorded for later stages**
+- **Not opened:** the New York Times profile (May 2024), Ebony, Hemispheres and the Courier News piece. The Times piece is likely the best independent reporting on her.
+- **Needs a direct check before verbatim use:** TheWrap review and one Broadway.com article, which I could only read through the reader tool.
+- **Birth date:** sources conflict (September 22 vs 23, and one misquote saying 2000), so the file says to publish the year 2002 only.
+- **Health:** she says "I have my own relationship with psychiatry" and names no diagnosis; the file says not to attribute her character's ADHD to her.
+- **Excluded:** a gossip item about an off-screen romance with a co-star.
+- **Chart claim:** theGrio's "Netflix's No. 1 Show" names no chart, while the renewal coverage reports a No. 4 global debut.
+
+No other repo files were touched, and nothing was published. Scratch transcripts are in `/tmp/maleah-joi-moon-research/` and may not survive to the verify stage, so the excerpts and timestamps in the file are the durable record.

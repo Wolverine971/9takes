@@ -166,7 +166,7 @@ Then come the **Type 7 Enthusiasts (11.9%)**, the reinventors. Sevens fear being
 
 **Type 8, the Challenger (10.4%).** The force-of-nature performers. Eights turn the stage into a seat of power, and the corpus's Eights read like a roster of women who took the room instead of asking for it: [Beyoncé](/personality-analysis/beyonce-knowles), [Rihanna](/personality-analysis/rihanna), [Nicki Minaj](/personality-analysis/nicki-minaj), and [Chappell Roan](/personality-analysis/chappell-roan).
 
-At the soft end sit the **Type 9 Peacemakers (9.0%)**. The Nine examples skew toward accessible, low-friction warmth. [Ed Sheeran](/personality-analysis/ed-sheeran), [Post Malone](/personality-analysis/post-malone), and [Selena Gomez](/personality-analysis/selena-gomez) build careers on being welcome in every room they enter. The outlier is [Doja Cat](/personality-analysis/doja-cat), a narrow Nine call whose long stretches of going along end in very public blowups.
+At the soft end sit the **Type 9 Peacemakers (9.0%)**. The Nine examples skew toward accessible, low-friction warmth. [Ed Sheeran](/personality-analysis/ed-sheeran), [Post Malone](/personality-analysis/post-malone), and [Selena Gomez](/personality-analysis/selena-gomez) build careers on being welcome in every room they enter. The outlier is [Doja Cat](/personality-analysis/doja-cat), a Nine whose long stretches of going along end in very public blowups.
 
 ## What this doesn't prove
 

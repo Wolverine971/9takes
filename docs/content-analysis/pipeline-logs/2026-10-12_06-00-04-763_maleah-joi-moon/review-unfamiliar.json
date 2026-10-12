@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "4965fc67bb6779a9b1655915747f8c26a879b52ba223c32e378383cde87d18b6",
+  "evidence_sha256": "a1ad59c3c43fd9fffcdd79c14c67a980fa5288c4d8c83103c237cba83a6dd647",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "\"I was so nervous to go see it,\" she recalled in [a farewell video](https://www.youtube.com/watch?v=lDfh6bbBtW4) the production posted on March 26, 2025.",
+      "problem": "\"Farewell\" is unexplained here, and the article never tells, as story, that she left Hell's Kitchen. The intro timeline jumps from the June 2024 Tony to the September 2026 Netflix premiere. The exit is first stated, with a date, about 2,300 words in, in the last section, which calls it one of \"her two largest decisions\". Until then a new reader has to assemble it from \"farewell video\" and a passing \"her last Broadway performance\". The marquee scene is also undated, so it cannot be placed before the Tony, and nothing says the show has since closed.",
+      "acceptance_test": "Before the type sections, one dated sentence says she left the Broadway run in March 2025, so \"farewell video\" is legible at first use and the final section refers back to an exit the reader already knows. The marquee scene is placed before the Broadway opening with a sourced date (S28: previews March 28, opening April 20, 2024). \"Her last Broadway performance\" becomes her final performance in the role, since S28 has her announced for a February 2026 concert at the show. No date is added that the evidence file does not hold."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "Both roles were built to absorb her life, which limits what the theme can show.",
+      "problem": "The reader has not been told what either role is. Hell's Kitchen is only \"the Alicia Keys musical\". \"Ali\" appears once, in the next sentence, with no sign that it is Moon's character or that the show draws on Keys's own youth, which is also why Keys is the mentor in every anecdote. A Different World is \"the original sitcom\" with no premise, and \"Hillman College\" turns up in the settle section unexplained. Without this the limits paragraph cannot be weighed, and \"I was scared shitless\" has no stakes, because the reader does not know what she was stepping into.",
+      "acceptance_test": "Each show gets one sourced clause at first substantive mention. Hell's Kitchen: loosely based on Keys's life, with Moon as its teenage lead, Ali (New Jersey Monthly, S05; her Tony speech calls it a story \"about a 17-year-old on the cusp of a dream\", S10). A Different World: a college-set sequel to a series she called \"a statement piece in Black culture and media\" (Her Campus, S02; Netflix logline, S29). \"Ali\" and \"Hillman College\" are identified where first used. Spell the character \"Ali\" as in the AP quotation; New Jersey Monthly prints \"Allie\"."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "major",
+      "passage": "Then there is the one sentence she has offered about leaving Pace: \"I didn't want to bare my soul anymore.\" New Jersey Monthly printed it without further explanation.",
+      "problem": "Context fidelity, checked against the source (New Jersey Monthly, reopened 2026-10-12). The magazine prints the line directly after \"She had also recently left Pace University, where she'd been studying musical theater, to pursue television acting\", inside its paragraph on why she first turned the audition down. The draft puts the television-acting half in the first section and the quotation two sections later as a standalone mystery. A new reader gets two unconnected explanations for one exit, and \"without further explanation\" contradicts what the article already reported from the same paragraph. The split also hides the sharpest contradiction on record: by this account she left musical theater to stop baring her soul, then made her name doing exactly that in a musical. \"Has offered\" and \"most of what she has said\" are unscoped, though four 2024 profiles were not opened and the ELLE column carries her own words on the same period.",
+      "acceptance_test": "The line and its adjoining sentence appear together, once, as the magazine's sequence, with the referent marked as inferred from position. \"Without further explanation\" is removed or narrowed. Statements about how little she has said are scoped to the sources opened. \"She gave the same reason in every 2024 telling\" is squared with the fact that the magazine sets this line beside the refusal. The Type 4 section treats the line as a statement about turning away from musical theater and acknowledges that she then returned to a musical."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "So the record shows no stretch in which she chose a next step unprompted.",
+      "problem": "This does not follow for a first-time reader. The sentence before says the Netflix paperwork arrived the week she was already leaving. By her own account, then, she had decided to leave a Tony-winning lead before the next job existed. That reads as an unprompted choice, and the most consequential one in the record. What is missing is her reason, which the paragraph's opening already says. The \"So\" turns an unexplained decision into no decision.",
+      "acceptance_test": "The paragraph states what her account shows (she was leaving when the Netflix approach came), what it does not show (why she left and what she planned next), and no longer concludes that she never chose a step unprompted, or else defines \"unprompted\" so that it squares with the exit. A reader can see why signal 1 follows from it."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "A [Type 6](/enneagram-corner/enneagram-type-6) doubts her own footing and looks for people she can trust to stand on.",
+      "problem": "For a reader new to the Enneagram this is the only definition of the leading type. Its image is garbled (it reads as standing on people), and it leaves out the wary, testing side that the article later calls \"the other half of a Six\" and \"the missing wariness\". The main evidence against the leading read is therefore a trait the reader was never told to expect. In the Type 6 case, the AP sentence is printed as two reversed fragments (\"She described ... as 'the advice that I needed then'\"), so it is unclear whose advice this is and to whom.",
+      "acceptance_test": "The definition names both halves in plain words, relying on trusted people and doubting or testing them, before the \"held\" section says one half is absent. The AP line is quoted as printed (\"If I could give anybody the advice that I needed then: Just trust your heart and just go do it\") or paraphrased so it is clear she is describing advice she would give others."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "(Video quotations were checked against two machine transcriptions, with false starts trimmed. The Tonight Show lines follow its own captions. Speakers on the unlabeled SiriusXM panel quoted below are identified from context.)",
+      "problem": "A methods note interrupts the section's strongest run, between the Tony speech and the turn to doubt that outlasted it, and it refers to a panel the reader has not met yet. The next paragraph then claims \"the award did not end the doubt\" and offers as its first proof an April 2024 line from two months before the award. The following paragraph's TODAY-host sentence is left without its point (that the story had become a press set piece).",
+      "acceptance_test": "The note moves to the end of the article or to the first SiriusXM quotation, keeping its content. The paragraph on persisting doubt leads with the October 2024 statement, and the April 2024 line is cut or placed before the award. The TODAY sentence says what it shows or is cut."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "No read predicts this split better than the others. It stays unexplained.",
+      "problem": "By this point the section has offered at least three contrasts: Bean's two remarks, observers' poise against her own \"a mess\", and \"a mess\" against her own \"a little obsessive\" and self-judging. \"This split\" does not say which. The \"Yet\" evidence sides with the observers, so the heading's opposition (poised to others, a mess to herself) dissolves without the article saying so. \"They still do not describe one person\" rests on Bean alone; Young and the teacher agree with each other. The reader leaves unsure what stayed unexplained.",
+      "acceptance_test": "One plain sentence names the contradiction that survives (for example, that she calls herself a mess while both observers and her own habits describe someone exacting). The claim about observers matches the three testimonies actually quoted."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "almost every interview opened for this profile was given while promoting one of those two projects",
+      "problem": "The article puts the thin record down to youth alone (\"Her record is too young to separate those\") and never tells the reader that four 2024 features could not be opened, including the New York Times profile the evidence file calls probably the most substantial independent one. A new reader will take \"nothing found about leaving Hell's Kitchen\", \"nobody else describes her refusing the audition\" and signal 1's \"Her first account of either exit\" as statements about the public record. My own direct and Wayback attempts on S33 to S36 on 2026-10-12 also failed, so I cannot say what they hold.",
+      "acceptance_test": "The article says once, in plain words, that some longer 2024 profiles could not be read. Signal 1 no longer presupposes that no account of either exit exists (for example, \"a fuller account\"). If any of S33 to S36 is opened at edit or verify, the sentences that depend on its absence are rechecked."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "And when her father finally got her to the Shubert, she says, she clicked her heels, \"because it was just that momentous of an occasion.\"",
+      "reason": "The opening scene stops at her father's \"let's just go see it\" and this line pays it off 2,600 words later with a withheld, sourced detail. It is why the frame works for a reader who has never heard of her. Keep the marquee scene as the opener so the payoff holds."
+    },
+    {
+      "passage": "What the holding back is about, and what gets her past it, is the open question.",
+      "reason": "States the stakes in one plain sentence before any type vocabulary. A newcomer knows what the article is trying to find out and can judge whether it does."
+    },
+    {
+      "passage": "A modest origin story also flatters a newcomer and the production that cast her.",
+      "reason": "The point where the article stops taking a charming anecdote at face value. It earns the reader's trust for every limits paragraph that follows."
+    },
+    {
+      "passage": "That is where the reads would part: a Six would be expected to grow wary and look for firmer ground, a Four to withdraw and insist on her own truth.",
+      "reason": "The clearest sentence in the type argument for someone new to the Enneagram. It says what observation would separate the two reads and that the record does not hold it yet."
+    },
+    {
+      "passage": "She named no diagnosis of her own, and this profile infers none.",
+      "reason": "Closes off the inference the preceding quotation invites. A new reader would otherwise fill the gap."
+    }
+  ],
+  "assessment": "Read cold, this works. The frame is strong: a sourced opening scene, a stake stated before any jargon, three evidence sections that each end by limiting themselves, and a last line that pays off the first. A newcomer learns who she is, the hesitation story she repeats, whom she credits, the self-expression theme, three reads set side by side with real evidence against each, and five named signals. Nothing in the body, title, description or FAQs claims more than low confidence. The failures are orientation, not honesty. The reader is never told what the two shows are or who \"Ali\" is, learns of her March 2025 exit only in the final section, and meets the Pace quotation cut away from the sentence that explains it. Momentum dips at the methods note and in the list-like second paragraph of the Deborah section. Body length is about 2,680 words against an open-case target near 2,500; findings 01 and 02 add words, so cut first: the Type 3 paragraph (orphaned under the Type 9 heading, unmotivated for a newcomer), the April 2024 impostor line, the TODAY-host sentence. Eligibility looks sound: adult, professional debut November 2023, two promotional cycles; the verifier should retry S33 to S36 before confirming. Signals 1 and 3 are hers; signal 2 tracks the standard's worked example and 4 and 5 would fit any early-career performer, though each names observable outcomes, so I raise no finding. Similarity advisory: not tripped. The top pair (0.074, no shared phrases) sets a one-line Type 4 gloss against an unrelated Patrick Mahomes clause; I saw snippets only, not the other drafts. Sources: I reopened S05 only; S33 to S36 were unavailable to me. contested_typing stays true. The psychiatry line and identity statements are her own words, with no inference drawn."
+}

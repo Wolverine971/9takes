@@ -1,0 +1,20 @@
+The critic review is written to `review-critic.json`: one blocker, six majors and two minors. It validates against `reviewSchema`, and both hashes match the frozen draft and evidence.
+
+**The blocker:** the New York Times profile that research logged as unavailable (S33) opens from a Wayback snapshot, and it contradicts the draft. In it she explains leaving Pace herself (a five-year depression, inpatient and outpatient treatment) and gives a different reason for refusing the audition ("I didn't want to do theater anymore"). The draft says she has offered "one sentence about leaving Pace" and lists that account as a future settle signal, in both the body and the FAQs.
+
+The other findings:
+- **Illness as the untested explanation (major):** the doubt-and-support pattern behind the Type 6 read coincides with illness and recovery, which the draft never weighs.
+- **Heading quote (major):** "I wasn't carried. I was held" is cut from "So it's never like I wasn't carried," which likely means the reverse. This rests on caption timings; it needs a human listen.
+- **Pattern overstated (major):** "most of the arrivals" holds for two episodes out of about fifteen she narrates.
+- **Type 3 (major):** it is dismissed on the same anecdotes the draft calls possibly flattering, with the evidence for it left out.
+- **Refusal reasons (major):** "the same reason in every telling" is wrong; each telling pairs unreadiness with having left theater for screen work.
+- **Type 4 (major):** "she does not present herself as different" is contradicted by her own quotes, two of which the draft prints.
+- **Minors:** the teacher soundbite is placed at the watch party without support, and the "trusted people settle her" argument repeats the Zada and Navarrette profiles.
+
+I could not open the other three unopened profiles (S34–S36); archive.org rate-limited me and direct fetches were blocked.
+
+I left `sensitive_allegations` and `major_thesis_change` false on purpose, so that an edit adding her health history or reworking the thesis is forced onto the refresh path. Say if you would rather I flag them.
+
+The research stage missed the Times piece because the year-wildcard Wayback URL returns 403, while the exact-timestamp snapshot from the availability API returns 200. That is worth fixing in the fetch script. I did not save it to memory because you said to touch no other files.
+
+No inputs or other repo files were changed; scratch files are in `/tmp/mjm-critic-check` and `/tmp/mjm-critic-build`.

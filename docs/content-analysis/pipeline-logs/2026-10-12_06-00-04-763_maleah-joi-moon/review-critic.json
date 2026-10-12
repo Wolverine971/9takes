@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "4965fc67bb6779a9b1655915747f8c26a879b52ba223c32e378383cde87d18b6",
+  "evidence_sha256": "a1ad59c3c43fd9fffcdd79c14c67a980fa5288c4d8c83103c237cba83a6dd647",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "blocker",
+      "passage": "Her two largest decisions have almost no first-person explanation: one sentence about leaving Pace, and nothing found about leaving _Hell's Kitchen_.",
+      "problem": "S33, the New York Times profile logged as unavailable, is readable today at web.archive.org/web/20250930214126id_/https://www.nytimes.com/2024/05/08/theater/maleah-joi-moon-hells-kitchen-alicia-keys.html (Michael Paulson, May 8, 2024; I read all of it on 2026-10-12). In it she explains leaving Pace herself: \"I wasn't getting out of bed. I was missing class,\" \"I had been dealing with depression for five years, and it got really bad,\" \"I did inpatient. I did outpatient and cognitive behavioral therapy,\" then \"I left school, I started working, and fell in love with working.\" That makes these statements false as descriptions of the public record: this passage; \"Then there is the one sentence she has offered about leaving Pace\"; \"Those two lines are most of what she has said about how the stretch between school and the audition felt\"; settle signal 1 and the settle FAQ, which wait for an account of the Pace exit that already exists; and \"left to pursue television acting,\" which S33 shows is New Jersey Monthly's compression (the decision to focus on screen work came later, after a Disney showcase). The same article quotes her mother, her father and Timothy Walton, gives her own explanation of she/they pronouns, and describes a tech-week \"huge breakdown,\" so \"The few people who have described her were promoting a project with her or celebrating her\" and \"Out says she uses she/they pronouns\" also need checking against it. Open-case eligibility: the age and career-stage criteria are met; \"research genuinely tried\" is not until this source is in the record.",
+      "acceptance_test": "S33 is in the evidence record as opened, with the snapshot URL, and each sentence listed above (body and FAQs) is corrected against it. S34 to S36 are retried, and nothing an opened source answers is described as unknown. Her health history is self-disclosed and on the record but sensitive: the editor either reports it in her own attributed, dated words or omits the detail, and in neither case does the article say the Pace exit is unexplained. The type hypothesis and settle signals are re-tested with S33 in evidence; if the leading read, the hook or the list of open questions changes, hold for --refresh --expanded-review instead of patching at edit."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "Circumstance explains much of this.",
+      "problem": "The rival explanation the draft tests is career stage. The stronger one is illness and recovery. The vocabulary that carries the Six case (\"I wasn't enough,\" impostor syndrome, \"people who hold you,\" \"you deserve support\") and two Four exhibits (\"I didn't want to bare my soul anymore,\" \"I did lose sight, honestly, of what made me sparkle\") all come from the years after what she told the Times was a five-year depression that took her out of Pace and into inpatient and outpatient care; in May 2024 she said \"this is the healthiest I've ever been in my life\" (S33). Someone describing recovery and someone describing temperament use the same words. The draft never raises this, and it places \"I have my own relationship with psychiatry\" inside the Six evidence as one more sign that she values support.",
+      "acceptance_test": "The limits paragraph names recovery from illness, alongside career stage, as an explanation the record cannot separate from type (with or without clinical detail, per critic-01). The psychiatry line is not offered as evidence for any type. The Six and Four cases say which of their exhibits fall inside that period. No sentence infers a type from a health condition, or a condition from a type."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "She ended it: \"I wasn't carried. I was held the entire time.\"",
+      "problem": "The quotation, which is also an H2, is cut from \"So it's never like I wasn't carried. I was held the entire time\" (S17, 03:37 to 03:41; the captions and the saved audio transcription agree on those words). Whole, the sentence reads most naturally as \"it was never the case that I wasn't carried,\" the reverse of the antithesis the draft prints. YouTube's word timings run \"like I wasn't carried\" without a break (about 0.16 seconds between \"like\" and \"I\") and put the pause after \"carried,\" and the host replies \"speaking of being carried.\" I worked from timings and transcripts, not from listening. \"So it's never like\" is a main clause, not a false start, so the draft's trimming note does not cover the cut.",
+      "acceptance_test": "A person listens to S17 from 03:36 to 03:41. Unless there is an audible restart between \"like\" and \"I wasn't carried,\" the article prints the full sentence or only \"I was held the entire time,\" the H2 no longer uses \"I wasn't carried,\" and no sentence credits her with distinguishing carried from held. The evidence record (C55) logs the listen and its result."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "By her own account she hesitates before big moments and steps into them once people she trusts back her.",
+      "problem": "The type answer, the type FAQ, \"most of the arrivals\" and \"The other arrivals follow the same outline\" state as a habit what her own tellings support in two episodes. In the farewell video (S11) she narrates about fifteen clips of her run (Vogue, the Broadway transfer, Fallon, opening night, the Met Gala, the Tony performance, the Grammy); in one, the marquee, she holds back until someone takes her. The nominations story has nobody behind her and she tells it as a joke. The speech story is low expectation against \"veterans like Kelli O'Hara\" (S04). Only the audition and the marquee have a person moving her, as the evidence record concedes (C36, C90). Her tellings also credit herself: \"I want to continue to see where my heart leads me. I think that's what got me here in the first place\" (S06; the draft uses the first sentence for Type 9 and drops the second), and \"My spirit felt like I was in the right place\" (S33). Two inferences lean the same way without support. \"Self-trust offered as a lesson learned suggests that looking outward for confirmation was the habit\" does not follow from advice the AP frames as meant for her stage-door years. \"So the record shows no stretch in which she chose a next step unprompted\" runs against its own premise: by her S17 account the NDA arrived days before an exit already set, so the decision to leave a Tony-winning lead came first.",
+      "acceptance_test": "The type answer, FAQ and hook scope the pattern to the episodes it rests on, say that two involve another person moving her, and name arrivals she tells without hesitation; \"most\" is gone. The second S06 sentence is printed where the discriminator says \"in her tellings it is borrowed confidence.\" The two inferences are cut or rewritten to what the sources state, and the Hell's Kitchen exit is described as a decision made before the Netflix paperwork, reason unknown."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "Type 3 was considered and set aside for now: a person organized around success is an odd fit for someone who, by her own account, refused the audition and put off looking at her own marquee.",
+      "problem": "The dismissal rests on the two anecdotes the article has already said may be a flattering origin story, and the evidence for Three is withheld. In her words: \"all anybody wants is to be recognized, I think, for their work\" (S16); \"creating an image for myself\" (S15); \"I constantly feel the need to push forward. What's next? What's the next audition?\" (S01); \"I want to do everything\" (S33). The Times also reports that she wants to be a movie star and \"thinks carefully about how to present herself in the world.\" The evidence record says the not-enough feeling fits a Three's fear of failing publicly \"about equally well\" (C05), and S33 gives the refusal causes that say nothing about ambition (critic-06). Type 2 is never mentioned, although the article prints its best lines (\"they're my reward,\" \"I hope I'm making them proud\") and the record says a Two would produce the same sentence (C12).",
+      "acceptance_test": "The article prints the strongest sourced evidence for Three and either gives a reason for setting it aside that does not depend on the audition and marquee stories or lists Three as live, with the body, type answer, FAQ and open_case.live_alternatives in agreement. One sentence says why Two was set aside."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "She gave the same reason in every 2024 telling found for this profile.",
+      "problem": "Each telling pairs unreadiness with a second reason that the draft moves elsewhere. On The Tonight Show her answer begins \"I had left school, and I was starting to pursue, like, film and TV\"; ELLE begins with leaving school and starting \"film and TV stuff.\" New Jersey Monthly prints \"I didn't want to bare my soul anymore\" inside the paragraph that explains the refusal, directly after \"I felt like I wasn't enough,\" joined by \"She had also recently left Pace.\" The draft splits those adjacent sentences: the first becomes Six evidence about the audition, the second becomes \"the one sentence she has offered about leaving Pace\" and the center of the Four case. S33 states the second reason outright. The audition was nerve-racking \"because I didn't want to do theater anymore and because I had quit school and because I felt so unequipped,\" and afterward she told her father, \"I'm tired, and I don't want to do theater anymore.\" The \"no\" the profile is built on was at least as much aversion and a changed plan as self-doubt.",
+      "acceptance_test": "The audition section reports every reason she has given, including S33's, and drops \"the same reason.\" \"I didn't want to bare my soul anymore\" is presented where the magazine printed it, with its referent described as the magazine's placement, in the body and in both FAQs (\"of leaving Pace University's musical theater program she said\" is reworded). The Six case no longer counts the refusal as plain doubt at a threshold."
+    },
+    {
+      "id": "critic-07",
+      "severity": "major",
+      "passage": "Against it, she does not present herself as different or misunderstood",
+      "problem": "This absence claim is the main argument against the closest rival. It is missing from the claim inventory, and the record contradicts it. The draft's own Four section quotes \"Thank you for seeing me as the young, Black, queer woman artist that I am\" and \"something that made me feel like me.\" Unprinted: \"navigating places where I didn't see myself\" (S19); \"college experiences that will make me feel more seen\" (S01); sisterhood \"is not about assimilating to each other\" (S19); and, of the septum piercing she hides onstage, \"It's a small little piece of me that distinguishes me from Ali... This is my statement to the world that Maleah Moon is also a person\" (S33). Several of these are about race and institutions, which is a fair alternative reading, but that is an argument the article has to make, not an absence it can assert.",
+      "acceptance_test": "The sentence is cut or replaced with what she has said about being seen and set apart, printing at least the S33 and S19 lines and stating the structural reading. The claim is mapped in the evidence with sources and a review trigger. The article either justifies ranking Six above Four without it or says the two are level."
+    },
+    {
+      "id": "critic-08",
+      "severity": "minor",
+      "passage": "at a hometown watch party on Tony night, said,",
+      "problem": "S21 says her mentors \"gathered for a joyous Tonys watch party Sunday night\" and that the reporter \"spoke to her former teachers\"; his own stand-up is \"right here on this stage\" at the school. Neither transcript places the soundbite at the party.",
+      "acceptance_test": "The sentence says the teacher spoke to CBS New York after the win, unless a visual check of the segment shows the interview at the watch party."
+    },
+    {
+      "id": "critic-09",
+      "severity": "minor",
+      "passage": "The best candidate is what gets her across a threshold, and in her tellings it is borrowed confidence.",
+      "problem": "The similarity advisory did not trip (maximum 0.074, a generic type definition against an unrelated line), and I found no copied prose. Comparing the arguments directly shows reuse the tool cannot see. The two nearest profiles, joseph-zada and Inde-Navarrette, are also young actors on launch tours read as Type 6 because trusted people settle them, and Navarrette's has an H2 titled \"Borrowed certainty.\" Settle signal 2 (\"what she credits for steadying her\") follows the standard's own example signal. A nervous newcomer thanking the people around her is the default shape of launch-week press, so a third Six on that basis says more about the genre than the person.",
+      "acceptance_test": "The discriminator and settle signal 2 rest on something specific to Moon, the article says in one sentence that nervous-then-backed is the standard arc of newcomer press and carries little weight alone, and \"borrowed confidence\" is reworded."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "By May 2024 a TODAY host was asking her to confirm the audition story. A modest origin story also flatters a newcomer and the production that cast her.",
+      "reason": "The article turns its own best anecdote into a question about how anecdotes get made. Checked against S12, where the host asks \"Is it true that you almost did not try out.\""
+    },
+    {
+      "passage": "And the record lacks the other half of a Six: there is no instance of her doubting an authority, testing whether someone can be trusted, or hedging.",
+      "reason": "States the strongest evidence against the leading read in the body, beside the evidence for it. Keep the move even if new sources change the wording."
+    },
+    {
+      "passage": "No read predicts this split better than the others. It stays unexplained.",
+      "reason": "Leaves a real contradiction standing instead of assigning it a wing or an arrow."
+    },
+    {
+      "passage": "And when her father finally got her to the Shubert, she says, she clicked her heels, \"because it was just that momentous of an occasion.\"",
+      "reason": "A specific, verified detail (S11) that ends the piece on the person and holds whichever read wins."
+    },
+    {
+      "passage": "She wrote it on a page torn from her journal.",
+      "reason": "Small, verified and hers alone (S11); it does more for the portrait than any type sentence around it."
+    }
+  ],
+  "assessment": "As the skeptical proxy I tested whether the draft confronts adverse evidence and whether its causal stories hold. It does the first better than most profiles: it argues against its own lead in the body, keeps confidence low in the title, description and FAQs, and leaves a contradiction unexplained. The problem is the record underneath. I opened S33, the New York Times profile logged as unavailable, from a Wayback snapshot. It supplies what the draft says does not exist: her own account of leaving Pace (a five-year depression, inpatient and outpatient treatment) and a different stated cause for refusing the audition (\"I didn't want to do theater anymore\"). Several statements are therefore false as descriptions of the public record, and the hook loses its footing: the doubt-and-support pattern coincides with illness and recovery, a likelier explanation than any type and one the article does not test. Separately, the pattern is stretched past her own tellings, the heading quotation \"I wasn't carried. I was held\" appears to be cut from a sentence that means the reverse, and Types 3 and 4 are argued against with evidence withheld. Open-case eligibility: the adult and early-career criteria are met; \"research genuinely tried\" is not until S33 is in. I could not open S34 to S36 (archive.org rate-limited me; direct fetches returned 403 and 402). What I checked: the research stage's saved text for S01 to S06, S11 to S14, S16, S17, S19 and S21, S33 through Wayback, and caption word timings for S17. I did not listen to any audio. The similarity advisory was available and did not trip; critic-09 reports what a direct comparison of arguments found. Risk flags describe the frozen draft only. I left sensitive_allegations and major_thesis_change false on purpose: adding her health history or reworking the thesis should register as a new risk and take the refresh path, not ride through on this review."
+}

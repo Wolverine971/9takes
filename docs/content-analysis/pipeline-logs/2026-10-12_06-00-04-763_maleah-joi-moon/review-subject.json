@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "4965fc67bb6779a9b1655915747f8c26a879b52ba223c32e378383cde87d18b6",
+  "evidence_sha256": "a1ad59c3c43fd9fffcdd79c14c67a980fa5288c4d8c83103c237cba83a6dd647",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "Support is also what she says the Netflix role is about. Discussing her character's ADHD storyline with Marie Claire, she said, \"I have my own relationship with psychiatry.\"",
+      "problem": "In the Marie Claire answer and on the SiriusXM panel she gives a stated public reason for the safety-and-support language: stigma around mental-health care in the Black community, pressure \"to be 10 steps ahead\", \"we're still not safe\", and Black women as \"in my opinion most unprotected minority in America\". The draft removes that reasoning and files \"safe example ... you deserve support\" under her personal pattern, inside the section that builds the Type 6 case, so a statement about her community reads as temperament. Her own explanation is the missing response here. The evidence record agrees the material is not type evidence: the disclosure \"describes circumstances and care, not type\" (C19) and the comments are \"accurate social observation that needs no personality explanation\" (C20). The psychiatry line also sits beside \"ADHD\" and \"put my health first\" (which in the source is about fan attention while awaiting renewal news), an adjacency that invites the inference the next sentence disclaims.",
+      "acceptance_test": "The paragraph gives, in her sourced words or close paraphrase, why she says support matters (stigma and pressure on Black women). The article names that, alongside the newcomer explanation, as a reason needing no type. No sentence counts the psychiatry line or the 2026 safe/support statements toward Type 6. If the psychiatry quotation stays, the no-diagnosis sentence stays with it and the \"health first\" quotation is separated and given its own context."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "Then there is the one sentence she has offered about leaving Pace: \"I didn't want to bare my soul anymore.\"",
+      "problem": "Moon does not say what the line refers to. New Jersey Monthly prints it after its own sentence that she \"had also recently left Pace University, where she'd been studying musical theater, to pursue television acting\", inside the paragraph about why she turned the audition down. It could concern Pace, musical theater as a form, or the audition. The evidence record concedes \"the line's referent is inferred from its position in the article\" (C62). The draft states the referent as fact three times (this passage; \"one sentence about leaving Pace\" in the settle section; the Type 4 FAQ, \"of leaving Pace University's musical theater program she said\") and builds the Four case on it. The same applies to \"Those two lines are most of what she has said about how the stretch between school and the audition felt\": the AP reporter, not Moon, supplies the period (\"A few frustrating years followed\"), and her sentence goes on to say the process \"brought me back to what made me want to do theater\".",
+      "acceptance_test": "Every use (body, settle section, Type 4 FAQ) says the magazine printed the line directly after reporting that she left Pace's musical theater program for television acting, and that the placement, not Moon, ties it to that decision. The \"sparkle\" line identifies the time frame as the AP reporter's. No sentence says she said anything \"of leaving Pace\"."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "So the record shows no stretch in which she chose a next step unprompted.",
+      "problem": "Contradicted by the draft's own sources. She left a musical theater program \"to pursue television acting\" (New Jersey Monthly) and \"started working on some film and TV stuff\" (ELLE). She was already leaving Hell's Kitchen when the Netflix project reached her: by her SiriusXM account the NDA came \"the couple of days before\" she left and a chemistry read followed, and Out reports she learned she had the role later, during a workshop for a new Jake Landau musical. These are self-directed steps whose reasons are unrecorded, which is different from not choosing. The sentence turns a missing explanation into missing agency and supports the Nine option (\"Drifting until something else carried her\") against her own \"I wasn't carried.\" The same compression is in \"She gave the same reason in every 2024 telling found for this profile\": New Jersey Monthly's telling adds that she had \"also\" turned toward television.",
+      "acceptance_test": "The sentence is cut or claims only that her reasons for both exits are not on record in the sources opened. The article says plainly that she left Pace for screen work and left Hell's Kitchen before she was cast in the Netflix series. Nothing states or implies she has made no unprompted choice. The \"same reason\" sentence acknowledges New Jersey Monthly's second factor or is narrowed to her quoted words."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "Moon tells a version of this story about most of the arrivals in her short career.",
+      "problem": "\"Most\" is the author's count, and the evidence record disputes it: \"other arrivals (the Met Gala, the Grammy, the casting call) are told without hesitation\" and \"only two of the four involve someone else moving her\" (C36). The nominations item is bent to fit: on TODAY she said \"this is embarrassing, but I was definitely asleep. I wasn't expecting it at all\" before the quoted plan; the draft drops her stated reason and later reads the episode as \"keeping big moments at arm's length\". Opened sources that show her acting without a push are left out: she finished a number on a re-injured ankle (\"The show went on. That's live theater, which is the gig\", in the ELLE column the draft already quotes), the AP's \"grueling audition process\", and earlier Broadway auditions for The Lion King and Six. A Tony winner is defined mainly by hesitation and rescue. The persona title ('I'm Not Ready Yet', said about visiting a marquee) and the description (\"first said no\", stated as fact, not as her account) carry that frame into metadata.",
+      "acceptance_test": "\"Most\" is replaced by a claim the inventory supports (the named episodes). The nominations line includes \"I wasn't expecting it at all\" or its ordinary explanation. At least one sourced instance of her acting under pressure without being pushed appears and is weighed in the type comparison or named as outside the pattern. Persona title and description attribute the account to her or stop presenting one remark about a marquee as her defining statement."
+    },
+    {
+      "id": "subject-05",
+      "severity": "major",
+      "passage": "The few people who have described her were promoting a project with her or celebrating her, and they still do not describe one person.",
+      "problem": "This sentence and several others speak for the whole public record when the research supports them only for the sources it opened: \"Those two lines are most of what she has said\", \"the record lacks the other half of a Six\", \"the record holds no case where support was missing\", \"Her two largest decisions have almost no first-person explanation\", and the FAQ's \"Nothing on record yet separates the two.\" The evidence file lists four 2024 features it identified and could not open (S33 to S36), including The New York Times profile it calls \"probably the best independent reporting on her\" and an Ebony piece titled \"Has Found The Light\", and says any of them \"could supply the missing two years between Pace and the audition, or testimony from her parents.\" The reader is not told they exist. Saying she has barely explained herself, or that only promoters have described her, when unread profiles may hold exactly that is unfair to her and bears on open-case eligibility. I do not judge it a skipped deep record: the four come from the same 2024 cycle and retrieval was attempted for each.",
+      "acceptance_test": "Each absence claim, in body and FAQ, is bounded to the sources opened for this profile (the wording the draft already uses for the audition story). The article states that several 2024 profiles, including one in The New York Times, could not be read. If a later stage opens any of S33 to S36, the Pace, pre-audition and third-party-testimony claims are rechecked against it; otherwise the disclosure stands in the article."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "She attaches fast.",
+      "problem": "An unhedged trait claim in the author's voice, resting on one press-line remark about wanting to stay in a 2022 workshop and on her phrase \"attach myself to her\". The evidence record says of that remark: \"Enthusiasm for a job at a nominees' press line is not evidence of temperament by itself\" (C57). Two similar word choices: \"a rehearsed answer\" (she said only \"I say this a lot\"; repeated is not rehearsed) and, in settle signal 5, \"moody insistence on her own way\" as the behaviour that would mark her a Four.",
+      "acceptance_test": "The sentence is attributed and limited to what she said (that within about three days she wanted to stay). \"Rehearsed\" becomes \"repeated\" or equivalent. Signal 5 describes what collaborators might report without a pejorative trait word."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "## Poised to others, \"a mess\" to herself",
+      "problem": "The heading makes \"a mess\" her standing view of herself. In Her Campus she says it of the character first, smiling, and of herself in the past with a qualifier (\"I was a mess at one point, and sometimes still am\"), directly after arguing that the show lets \"a young Black woman stumble through finding herself, instead of doing it the 'excellent' way society pressures us toward.\" The section also prints \"'cause I'm insane and a little obsessive\" as evidence without marking it as a joke (C67: \"a self-deprecating aside, not a trait description\"); in an article that also reports her psychiatry remark, \"insane\" printed straight is easy to misread. \"It stays unexplained\" presents as a puzzle what has an ordinary answer: a person can be serious about work and call her younger self messy.",
+      "acceptance_test": "The heading no longer states \"a mess\" as how she sees herself, or carries her qualifier. The quotation appears with the point she was making about permission to stumble. The speech-editing aside is marked as a joke or trimmed to the behaviour (she crossed out and reordered thank-yous). The section gives the ordinary explanation before calling the split unexplained."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "\"Thank you for seeing me as the young, Black, queer woman artist that I am,\"",
+      "problem": "The statement is hers, accurately quoted, and the draft rightly adds nothing about her private life. But it is placed under \"By her own account it shapes choices too\" as evidence for the Four theme of wanting to be seen. In Out's report she is thanking a publisher that had just honored her and put her on its Pride cover; naming one's identity and thanking the hosts is what that occasion calls for. Used this way, a public statement of queer identity becomes a personality signal, and the limits paragraph that follows covers only her two roles.",
+      "acceptance_test": "The statement is reported as biography outside the type argument, or kept with an explicit limit that the occasion explains the wording and that her identity is not evidence for any type. The Type 4 case and FAQ do not rely on it."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "She named no diagnosis of her own, and this profile infers none.",
+      "reason": "States the boundary of a health disclosure in the article itself. Keep it wherever the psychiatry quotation appears."
+    },
+    {
+      "passage": "Circumstance explains much of this. She was a newcomer among Broadway veterans, then a first-time television lead beside the original cast, and anyone in that seat gets looked after.",
+      "reason": "Gives the situational explanation equal standing with the type reading, next to the evidence it qualifies."
+    },
+    {
+      "passage": "This profile could not confirm an exact date, so none is given.",
+      "reason": "Declines false precision on her birth date despite a conflicting record. Do not add a day or month."
+    },
+    {
+      "passage": "In the sources opened for this profile, nobody else describes her refusing the audition, and Walton is not quoted on the coaching.",
+      "reason": "Marks her account as uncorroborated without calling it untrue, and bounds the claim to what was read. This is the model for the unbounded absence claims in subject-05."
+    },
+    {
+      "passage": "Both roles were built to absorb her life, which limits what the theme can show.",
+      "reason": "An honest limit on the Type 4 evidence placed where the reader needs it."
+    }
+  ],
+  "assessment": "Fairness-proxy read; I do not speak for Moon. Open-case eligibility holds on the record supplied: she is an adult (24 as of October 1, 2026), her professional debut was November 2023 and her first screen lead September 2026, 33 sources were opened, and confidence stays low and consistent across title, description, the 60-word answer and FAQs. The alternatives are argued, not token, and the settle signals are concrete. No blocker. There is no allegation against her or anyone else, so sensitive_allegations stays false; the sensitive material is her own health and identity statements, handled in her words with an explicit no-diagnosis sentence, a birth year without a date and no relationship speculation. The problems are of one kind: the author's reading slipping into the record. Five are major: her community-level account of why support matters is used as temperament evidence with her reasoning removed; a quotation is assigned a referent she did not give, in body and FAQ; one sentence denies her any unprompted choice against facts in the same paragraph; the hold-back frame counts \"most\" arrivals and omits contrary episodes; and absence claims speak for a record that includes four identified but unread profiles. I checked saved source text for the passages behind subject-01 to subject-04, subject-07 and subject-08 (New Jersey Monthly, Marie Claire, AP, Out, Her Campus, ELLE, and the TODAY and SiriusXM transcripts). I did not re-listen to audio or open S33 to S36. Similarity diagnostic: not tripped. The two scores above 0.04 both pair the one-sentence Type 4 definition with unrelated Patrick Mahomes fragments and share no phrases, which is ordinary type vocabulary and no reuse of argument."
+}

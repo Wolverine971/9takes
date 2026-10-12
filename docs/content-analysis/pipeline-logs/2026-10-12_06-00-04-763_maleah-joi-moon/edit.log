@@ -1,0 +1,32 @@
+The edit stage is done and all three files are written, but I set this run up to end as a **hold** on purpose: the article needs `--refresh --expanded-review` before release.
+
+**Why the hold**
+
+The critic's blocker was real. The research stage had logged the May 2024 New York Times profile as unavailable, but it opens through a Wayback snapshot, and I read all of it. It contains things the draft said did not exist:
+
+- **Her own account of leaving Pace:** a five-year depression that "got really bad", treatment, then work.
+- **A different reason for refusing the audition:** "I didn't want to do theater anymore."
+- **New testimony and evidence:** on-record quotes from her parents, teacher and director, plus material that strengthens the Type 4 and Type 3 reads.
+
+I rebuilt the article against it. The leading read is still Type 6 at low confidence, but the argument the six-role jury reviewed is no longer the one on the page, so I set the `major_thesis_change` risk flag. The runner will still run verify and then stop with a `review_scope_changed` blocker.
+
+**What changed in the article**
+
+- **Recovery is now a rival explanation.** The piece says plainly that her "not enough" and "held" language dates from the years after the illness she described, and that no type is read from her health.
+- **Type 4 is "nearly level" and Type 3 is promoted to live.** Live alternatives are now 4, 3 and 9. A fresh research pass could reasonably lead with Four.
+- **Quotes and claims corrected.** "I wasn't carried. I was held" was probably cut from a sentence meaning the reverse, so only "I was held the entire time" is printed. The "bare my soul" line is no longer assigned to Pace, and "most of the arrivals" is now three named moments.
+- **Settle signals rewritten** so none can be answered from quotes already on the record.
+
+All 49 review findings are marked fixed in `resolution-edit.json`, and 16 of the 20 protected passages are kept word for word. The four changed ones each needed a correction the new source or a finding forced.
+
+**Decisions for you**
+
+- **Health history in print.** I report the depression and "treatment and therapy" in her own dated words and left out the inpatient and clinical detail the Times prints. The type answer and FAQ say only "a recovery from illness". The next jury should rule on that line, but you may want it tighter or looser.
+- **Length.** It is 3,806 words against an open-case target of about 2,500. It passes the mechanical limit, and the refresh draft should rebudget.
+
+**Still owed**
+
+- **Audio checks.** Nobody has listened to the "carried/held" line (SiriusXM, 03:36), the opening marquee quote, or her joke about missed performances, which I left out.
+- **Unopened sources.** Ebony, Hemispheres and the Courier News piece failed again on retry. The Out Pride of Broadway cover story and a 2023 Vogue feature were never located. The Out piece is the likeliest place for her reason for leaving Hell's Kitchen.
+
+`edit.md`, `evidence-edit.json` (125 claims, 34 sources opened) and `resolution-edit.json` pass the pipeline's draft, evidence and resolution checks. Nothing else in the repo was touched and nothing was published; my scratch files are in `/tmp/mjm-edit`.

@@ -3,8 +3,8 @@ title: 'Doja Cat: The Long Yes Before the Loud No'
 meta_title: 'Doja Cat Enneagram Type 9: The Long Yes Before the Loud No'
 persona_title: The Homebody Behind the Blowups
 description: >-
-  Doja Cat looks like pop's most combative star. Her record shows someone who
-  agrees first and objects late. A narrow lean to Type 9, with Type 6 close.
+  Doja Cat looks like pop's most combative star. Her pattern is a Type 9's: she
+  goes along, sits on her anger, then blows up all at once.
 author: DJ Wayne
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/doja-cat'
@@ -70,6 +70,10 @@ citations:
     https://www.interviewmagazine.com/music/doja-cat-tells-missy-elliott-how-she-charted-her-own-path-to-pop-stardom
   - 'https://www.thefader.com/2019/09/19/doja-cat-amala-hot-pink-interview'
   - >-
+    https://www.harpersbazaar.com/culture/art-books-music/a44651756/doja-cat-icons-interview-2023/
+  - 'https://vmagazine.com/article/v143-a-game-of-cat-and-mouse-with-doja-cat/'
+  - 'https://www.tiktok.com/@thisisntpablo/video/7512933603999763743'
+  - >-
     https://www.dazeddigital.com/music/article/41139/1/bitch-i-m-a-creator-there-s-more-to-doja-cat-than-mooo
   - >-
     https://www.revolt.tv/article/2023-10-05/328924/how-rian-lewis-realized-doja-cat-is-one-of-the-ballsiest-artists
@@ -109,12 +113,12 @@ citations:
 faqs:
   - question: What is Doja Cat's personality type?
     answer: >-
-      Doja Cat's record leans Enneagram Type 9, the Peacemaker, but narrowly:
-      medium confidence, with Type 6 a live rival. On the dated record she
-      agrees to things she does not want, objects late, and asks for rest when
-      she does. In October 2021 she tweeted 'I'm done saying yes' and that she
-      could not get 'a week to just chill.' Type 6 stays close because her own
-      words for her motive are 'safe' and 'threatened.'
+      Doja Cat's personality type is Enneagram Type 9, the Peacemaker. Nines are
+      in the instinctual triad, where the core emotion is anger. Their habit is
+      to go along, push the anger down and numb out until it comes out all at
+      once, and that is her pattern. In October 2021 she tweeted 'I'm done
+      saying yes' and that she could not get 'a week to just chill.' In 2023 she
+      told V Magazine, 'I have thrown fits my whole career.'
     anchor: what-is-doja-cats-personality-type
   - question: Is Doja Cat an Enneagram Type 7?
     answer: >-
@@ -124,8 +128,8 @@ faqs:
       with those claims: by her own account she keeps agreeing and objects
       afterward, and her escape is home and stillness, not the next plan. She
       described her 2025 album Vie as 'a reminder that I can go back, or I can
-      do what I want without having to remain in the state of Scarlet.' The
-      record leans Type 9, with Type 6 close.
+      do what I want without having to remain in the state of Scarlet.' Her
+      pattern fits Type 9.
     anchor: why-not-type-7
   - question: Why does Doja Cat fight with her fans?
     answer: >-
@@ -205,94 +209,173 @@ content_quality:
   content_sha256: 45801801ab49eae8fbe7ce1371b9579b506d4f6442f270a6c6cfc0fa6fe41c28
 ---
 
-In June 2025 a TikToker met Doja Cat, gave her the shirt he was wearing and filmed the exchange. [Complex](https://www.complex.com/music/a/jaelaniturnerwilliams/doja-cat-fan-spat-manhandled-dont-touch-me) described the clip: the two "hugged twice before giving each other a kiss on the cheek," and she told him he could call her "Ami." Days later, on June 13, she posted about the same video: "don't touch me and man handle me when you don't even fuckin know me." Then she deleted the posts.
+In June 2025 a TikToker met Doja Cat, gave her the shirt he was wearing and [filmed the exchange](https://www.tiktok.com/@thisisntpablo/video/7512933603999763743). [Complex](https://www.complex.com/music/a/jaelaniturnerwilliams/doja-cat-fan-spat-manhandled-dont-touch-me) described the clip: the two "hugged twice before giving each other a kiss on the cheek," and she told him he could call her "Ami."
 
-In an interview published that October she walked the host, [Angie Martinez](https://www.youtube.com/watch?v=ArKooB3Ej3A), through it. Watching the clip spread, she said, felt like handing everyone a pass, and the picture in her head was "people tearing at my skin." She had not said so at the time: "I had waited so many days because I have such an issue with setting boundaries for myself." When the no finally arrived, it arrived like this: "instead of closing the door, I kicked it and the knob fell off. And so now the door is fully open." Her own verdict was "an overreaction, but a valid overreaction, but still not excusable."
+<!-- FAN VIDEO: held back until the TikTok frame-src change in svelte.config.js is deployed. To turn it on, delete this line and the closing arrow line, then sync.
+<div class="iframe-container iframe-container--vertical">
+<iframe loading="lazy" src="https://www.tiktok.com/player/v1/7512933603999763743?description=0&amp;music_info=0&amp;rel=0" title="The fan's TikTok of meeting Doja Cat, posted June 6, 2025" allow="fullscreen; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+-->
+
+A week later, on June 13, she posted about the same video: "don't touch me and man handle me when you don't even fuckin know me."
+
+Then she deleted the posts.
+
+In an interview published that October she walked the host, [Angie Martinez](https://www.youtube.com/watch?v=ArKooB3Ej3A), through it. Watching the clip spread, she said, felt like handing everyone a pass, and the picture in her head was "people tearing at my skin." She had not said so at the time: "I had waited so many days because I have such an issue with setting boundaries for myself."
+
+When the no finally arrived, it arrived like this:
+
+> "instead of closing the door, I kicked it and the knob fell off. And so now the door is fully open."
+
+Her own verdict was "an overreaction, but a valid overreaction, but still not excusable."
 
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/ArKooB3Ej3A?start=1655&amp;end=1795" title="Doja Cat on Angie Martinez IRL: the boundary she set by kicking the door (27:35)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-The outburst is the half the internet keeps: the fans told to get a job, the retirement announced by tweet, the tour critics sworn at. The half that gets lost is the one she keeps describing: the hug, the nickname, the days of saying nothing. This profile is about that half, the long yes before the blowup. Not every blowup has one, and those are here too.
+The outburst is what most people remember. She told fans to get off their phones and get a job. She announced her retirement in a tweet. She cussed out the people complaining about her tour.
+
+What gets lost is everything that came first: the hug, the nickname, and the week she spent saying nothing.
+
+This analysis is about that part: the long buildup before the blowup. It is not there every time, and the exceptions are here too.
 
 ## What is Doja Cat's personality type?
 
-Doja Cat's record leans Enneagram Type 9, the Peacemaker, but narrowly: medium confidence, with Type 6 a live rival. She agrees to things she does not want, objects late, and when she objects she asks for rest and home. Type 6 stays close because her own words for her motive are "safe" and "threatened."
+Doja Cat's personality type is [Enneagram Type 9](/enneagram-corner/enneagram-type-9), known as the Peacemaker. Peacemakers are in the instinctual triad, and their core emotion is anger, which should already sound familiar.
 
-A [Type 9](/enneagram-corner/enneagram-type-9) keeps the peace by setting herself aside: going along with the room, shrinking her own objections, settling into comfort. The tradition calls the cost sloth, and it does not mean lazy. It means self-forgetting: losing momentum toward your own agenda. A [Type 6](/enneagram-corner/enneagram-type-6) is organized around security instead: watching for threat, testing who can be trusted, sometimes charging at the thing she fears.
+Instinctual means she leads with her gut and her body, as opposed to her feelings or her head. You can see it in how she moves and how she flows. She took ballet, tap and jazz as a kid and took up breakdancing at around eleven. "I danced in a crew and competed around Los Angeles in organised underground cypher/battles," she told [Dazed](https://www.dazeddigital.com/music/article/41139/1/bitch-i-m-a-creator-there-s-more-to-doja-cat-than-mooo) in 2018. That was before she made music. Her line to Rolling Stone in 2021: "I like to doodle and dance and just get through my day."
 
-A 2025 version of this profile typed her as a [Type 7](/enneagram-corner/enneagram-type-7); that reading gets a hearing too.
+You can see it in how she works, too. Her engineer Rian Lewis told [Revolt](https://www.revolt.tv/article/2023-10-05/328924/how-rian-lewis-realized-doja-cat-is-one-of-the-ballsiest-artists) in 2023 that she once asked to mute a Pharrell Williams verse and try her own, and that when she writes, "she just comes in, and she's so relaxed."
+
+Yes, the blowups are emotional. But she does not lead with her feelings. She acts first and explains later, sometimes months later.
+
+The other thing you can see is the anger. Each triad has a core emotion: shame for the heart types, fear for the head types, anger for the instinctual ones. What you can watch her do, over and over, is get angry. She gets angry, stays quiet for a while, and then lashes out.
+
+That is typical Type 9 behavior. Nines go with the flow. They push the anger down and numb out so they do not have to feel it. Then it builds to a point, and it comes out all at once.
+
+She has described the anger herself. "I have a lot of pent-up feelings and anger, and I want to express it with beauty," she told Angie Martinez for [Harper's Bazaar](https://www.harpersbazaar.com/culture/art-books-music/a44651756/doja-cat-icons-interview-2023/) in August 2023, explaining the darker turn in her visuals. A month earlier she told [V Magazine](https://vmagazine.com/article/v143-a-game-of-cat-and-mouse-with-doja-cat/):
+
+> "I have thrown fits my whole career because I have been making music that didn't allow me to have a mental release."
+
+The going along has a name too. The tradition calls the Nine's cost sloth, and it does not mean lazy. It means self-forgetting: losing momentum toward your own agenda.
+
+An earlier version of this page typed her as a [Type 7](/enneagram-corner/enneagram-type-7). Why that was wrong is further down.
 
 ## The name she tried to change
 
-She was born Amala Ratna Zandile Dlamini in Los Angeles on October 21, 1995, and the people close to her call her Amala. She raps, sings and produces, and four albums carry the argument here: _Hot Pink_ (2019), whose "Say So" became her first No. 1 in a remix with [Nicki Minaj](/personality-analysis/nicki-minaj); _Planet Her_ (2021), which brought eight Grammy nominations; _Scarlet_ (2023), her turn to rap; and _Vie_ (2025), a return to pop with [Jack Antonoff](/personality-analysis/jack-antonoff) as lead producer.
+She was born Amala Ratna Zandile Dlamini in Los Angeles on October 21, 1995, and the people close to her call her Amala. She raps, sings and produces, and four albums carry the argument here:
+
+- _Hot Pink_ (2019), whose "Say So" became her first No. 1 in a remix with [Nicki Minaj](/personality-analysis/nicki-minaj)
+- _Planet Her_ (2021), which brought eight Grammy nominations
+- _Scarlet_ (2023), her turn to rap
+- _Vie_ (2025), a return to pop with [Jack Antonoff](/personality-analysis/jack-antonoff) as lead producer
 
 "Doja Cat" dates from her teens, when she was, as she told [Dazed](https://www.dazeddigital.com/music/article/41139/1/bitch-i-m-a-creator-there-s-more-to-doja-cat-than-mooo) in 2018, "heavily addicted to weed and weed culture." By 2021 [Rolling Stone](https://www.rollingstone.com/music/music-features/doja-cat-planet-her-tour-mooo-dr-luke-say-so-1269896/) reported that she "has tried a few times over the years to change it and was persuaded otherwise by a former manager." Her explanation: "My image was the pothead hippie girl, and I'm not that." As of 2026 the name is still on the marquee.
 
-She described the habit herself in 2021. That August the rapper Missy Elliott, interviewing her for [Interview](https://www.interviewmagazine.com/music/doja-cat-tells-missy-elliott-how-she-charted-her-own-path-to-pop-stardom), asked whether she thinks about the charts when she writes. "About 98 percent of the time I'm just trying to have fun," she said. "But sometimes there's people in the studio who are like, 'This would be a great TikTok song.' I'm not really trying to fight them and I get it, so I try to be open-minded." A small answer, about a request she found fair.
+She described that kind of going along herself in 2021. That August the rapper Missy Elliott, talking with her for [Interview](https://www.interviewmagazine.com/music/doja-cat-tells-missy-elliott-how-she-charted-her-own-path-to-pop-stardom) magazine, asked whether she thinks about the charts when she writes.
 
-None of this makes her a passenger. "Mooo!", the 2018 joke song that made her name, was her own idea: [Billboard](https://www.billboard.com/music/pop/doja-cat-billboard-cover-story-interview-2021-9560274/) reported that she phoned her manager to announce, "Hey, I'm going to make a song about cows," and finished the song and its video that day. Of the bedroom years before it she said: "I saw potential in myself even though I was still aware it wasn't good. And I really wanted it."
+"About 98 percent of the time I'm just trying to have fun," she said. "But sometimes there's people in the studio who are like, 'This would be a great TikTok song.' I'm not really trying to fight them and I get it, so I try to be open-minded." A small answer, about a request she found fair.
+
+None of this makes her a passenger. "Mooo!", the 2018 joke song that made her name, was her own idea: [Billboard](https://www.billboard.com/music/pop/doja-cat-billboard-cover-story-interview-2021-9560274/) reported that she phoned her manager to announce, "Hey, I'm going to make a song about cows," and finished the song and its video that day.
+
+Of the bedroom years before it she said: "I saw potential in myself even though I was still aware it wasn't good. And I really wanted it."
 
 One long arrangement goes unread here: her tie to the producer Dr. Luke's Kemosabe label, which signed her as a teenager and which [Vogue](https://www.vogue.com/article/doja-cat-april-cover-2026-interview) reported in March 2026 was still active. Why she stays is not on the record.
 
 ## "I'm done saying yes"
 
-October 2021 was the top of the _Planet Her_ year. Rolling Stone's profile preserves two tweets from that month: "I'm done saying yes to motherfuckers cuz I cant even have a week to just chill," and "[I] just keep agreeing to shit I dont wanna do in the future. its my own dumb ass fault." She deleted them at once. Asked about them, she backed away: "I don't really need people feeling bad for me and shit 'cause I'm really fine." She would not post like that again, she said: "I don't want people to feel worried or anything like that."
+October 2021 was the top of the _Planet Her_ year. Rolling Stone's profile preserves two tweets from that month:
 
-Three things are in that exchange: the agreeing, the resentment arriving late and loud, and the reflex to tell everyone it's nothing. That November, on an Instagram Live quoted by [Capital FM](https://www.capitalfm.com/news/music/doja-cat-instagram-live/), she said what she wanted: "I want to be home. I want to make music. I want to play video games."
+> "I'm done saying yes to motherfuckers cuz I cant even have a week to just chill"
 
-One scene from that profile is texture, not evidence. An hour into their first sitting Doja, who turned out to have a fever, got up to leave. "Is everything OK?" the writer asked. "Yeah, everything's great," she said. "I appreciate it. Really, I do." She was sick and being polite.
+> "[I] just keep agreeing to shit I dont wanna do in the future. its my own dumb ass fault."
+
+She deleted them at once. Asked about them, she backed away: "I don't really need people feeling bad for me and shit 'cause I'm really fine." She would not post like that again, she said: "I don't want people to feel worried or anything like that."
+
+Three things are in that exchange: the agreeing, the resentment arriving late and loud, and the reflex to tell everyone it's nothing. That is the Type 9 cycle, start to finish.
+
+That November, on an Instagram Live quoted by [Capital FM](https://www.capitalfm.com/news/music/doja-cat-instagram-live/), she said what she wanted:
+
+> "I want to be home. I want to make music. I want to play video games."
+
+One scene from the Rolling Stone profile is texture, not evidence. An hour into their first sitting Doja, who turned out to have a fever, got up to leave. "Is everything OK?" the writer asked. "Yeah, everything's great," she said. "I appreciate it. Really, I do." She was sick and being polite.
 
 In May 2023 she tweeted, per [Uproxx](https://uproxx.com/music/doja-cat-cash-grabs/), "planet her and hot pink were cash-grabs and yall fell for it," and then: "now i can go disappear somewhere and touch grass with my loved ones on an island while yall weep for mediocre pop." Notice where the fantasy goes: somewhere quiet, with her people.
 
-The albums are not a clean case of going along. She presented _Planet Her_ to Billboard in April 2021 as her own break from the pop template ("I want to introduce things to people as opposed to just re-create and rehash"), called it a cash grab two years later, and by September 2025, in a New York Times interview relayed by [Revolt](https://www.revolt.tv/article/doja-cat-calls-scarlet-massive-fart), said _Scarlet_ "didn't get me all the way there. So, I want to return back to what I know." This profile does not count the pop years as a yes.
+The albums are not a clean case of going along, so the pop years are not counted as a yes.
+
+She presented _Planet Her_ to Billboard in April 2021 as her own break from the pop template ("I want to introduce things to people as opposed to just re-create and rehash"). Two years later she called it a cash grab. By September 2025, in a New York Times interview relayed by [Revolt](https://www.revolt.tv/article/doja-cat-calls-scarlet-massive-fart), she said _Scarlet_ "didn't get me all the way there. So, I want to return back to what I know."
 
 One choice inside _Scarlet_ is better evidence. In an Apple Music interview posted in December 2023 she said her team makes her keep songs she has cooled on. Had they been right? "Yeah, they've been right." She named "Paint the Town Red," the album's No. 1 single, and said its success "was what I was kind of running from a little bit."
 
-Two cautions. She defended that call as her own ("I can be strategic"), and every statement here was made while selling the next album as the real one. What the dated record adds is sequence. In October 2021 the agreement came first, the objection came late and loud, and she took it back within days. An overbooked star explains most of that, but not why she blamed her own agreeing instead of the schedule, or a hug in 2025 that sold nothing.
+Two cautions. She defended that call as her own ("I can be strategic"), and every statement here was made while selling the next album as the real one.
+
+What the dates add is sequence. In October 2021 the agreement came first, the objection came late and loud, and she took it back within days. An overbooked star explains most of that, but not why she blamed her own agreeing instead of the schedule, or a hug in 2025 that sold nothing.
 
 ## Sorry, not sorry, sorry again
 
-Her fights with fans do not all run the same way. Paraguay shows every step. In March 2022 a storm cancelled her festival date there, and a fan complained that she had posted nothing from the country. According to the [Los Angeles Times](https://www.latimes.com/entertainment-arts/music/story/2022-03-25/doja-cat-i-quit-fighting-with-fans-paraguay-concert), she replied, "I'm sorry." Told "it's too late to apologize," she replied, "I'm not sorry," then tweeted "Everything is dead to me, music is dead," called herself a fool "for ever thinking I was made for this," and changed her display name to "i quit." Two days later, [Billboard](https://www.billboard.com/music/music-news/doja-cat-returns-1235049682/) reported, she was back: "I owe a lot." The repair was not tidy: days later, per [Complex](https://www.complex.com/music/a/brad-callas/doja-cat-the-weeknd-after-hours-tour-quitting-music), she told a radio station that doubted her retirement, "Yes the fuck I am." She did not quit.
+Her fights with fans do not all run the same way. Paraguay shows every step.
+
+In March 2022 a storm cancelled her festival date there, and a fan complained that she had posted nothing from the country. According to the [Los Angeles Times](https://www.latimes.com/entertainment-arts/music/story/2022-03-25/doja-cat-i-quit-fighting-with-fans-paraguay-concert), she replied, "I'm sorry." Told "it's too late to apologize," she replied, "I'm not sorry," then tweeted "Everything is dead to me, music is dead," called herself a fool "for ever thinking I was made for this," and changed her display name to "i quit."
+
+Two days later, [Billboard](https://www.billboard.com/music/music-news/doja-cat-returns-1235049682/) reported, she was back: "I owe a lot." The repair was not tidy: days later, per [Complex](https://www.complex.com/music/a/brad-callas/doja-cat-the-weeknd-after-hours-tour-quitting-music), she told a radio station that doubted her retirement, "Yes the fuck I am."
+
+She did not quit.
 
 The 2021 tweets and the 2025 hug share that outline: something given, a late objection, a retraction. Her best-known fights do not.
 
 - **Threads, July 2023.** Fans were demanding a statement about her relationship, [W Magazine](https://www.wmagazine.com/culture/doja-cat-j-cyrus-threads-fans-drama-explained) reported. She refused, wrote that fans who call themselves "kittenz" should "get off your phone and get a job and help your parents with the house," and deactivated the account. On August 16, after unfollows that outlets put at 180,000 to about 500,000, she [posted](https://www.etonline.com/doja-cat-responds-to-fans-who-unfollowed-her-ive-defeated-a-large-beast-209848), "I feel free."
 - **Auckland, November 18, 2025.** After her tour's first night, fans complained about the lack of costume changes. [Complex](https://www.complex.com/music/a/alex-ocho/doja-cat-responds-to-fans-criticizing-her-new-tour) collected the replies: "I won't and I don't need you," then a post reading "I'm not your fucking costume monkey, I move at my own pace and break my fucking back out there every night so you can keep your bullshit opinion to yourself." She told Vogue she then deleted X from her phone; she was back within months.
 
-No yes comes before either. Where she had first given something (her time, an apology, a hug), the objection came late and was taken back. Where a crowd demanded what she had never given, she refused at once and left the platform. And one outburst had no demand behind it: in March 2026 she criticized the actor [Timothée Chalamet](/personality-analysis/timothee-chalamet)'s remarks on ballet and opera, then told fans the next day, per [Complex](https://www.complex.com/music/a/tracewilliamcowen/doja-cat-timothee-chalamet-ballet-opera), that it was "a modern way to garner clicks, likes, approval."
+No yes comes before either. Where she had first given something (her time, an apology, a hug), the objection came late and was taken back. Where a crowd demanded what she had never given, she refused at once and left the platform.
 
-She has described the swing herself. In the Angie Martinez interview, asked what follows a badly handled moment, she quoted her own next move: "I'm fine. Everything's fine." Then: "Like that's my condition," she said, and "There's a word for it," which she did not give.
+And one outburst had no demand behind it: in March 2026 she criticized the actor [Timothée Chalamet](/personality-analysis/timothee-chalamet)'s remarks on ballet and opera, then told fans the next day, per [Complex](https://www.complex.com/music/a/tracewilliamcowen/doja-cat-timothee-chalamet-ballet-opera), that it was "a modern way to garner clicks, likes, approval."
 
 ## Before anyone was watching
 
-The withdrawn version of her is older than the famous one. She dropped out of high school at 16. "I definitely didn't like to leave my room," she told Rolling Stone in 2021. "I don't know if I was agoraphobic, but I definitely thought that I was at the time." (The word is hers, not a diagnosis.) Her mother, Deborah Sawyer, remembered the same years for Vogue: "She was in the room, door closed, constantly creating." Yeti Beats, the producer who found her music online, told Rolling Stone, "I don't know if she would want me saying this, but she was a shut-in," and, "The studio was a safe place for her."
+The withdrawn version of her is older than the famous one. She dropped out of high school at 16. "I definitely didn't like to leave my room," she told Rolling Stone in 2021. "I don't know if I was agoraphobic, but I definitely thought that I was at the time." (The word is hers, not a diagnosis.)
 
-Her father is the South African actor Dumisani Dlamini, and their accounts conflict. In March 2026, after a TikTok of hers that [Complex](https://www.complex.com/music/a/tracewilliamcowen/doja-cat-father-disputes-deadbeat-label) reported under the label "deadbeat," he said in videos he later removed, "I never left my kid." In an Elle UK interview published that May she said, "my dad left me when I was little." Neither account can be checked from outside, and this profile builds nothing on either.
+Her mother, Deborah Sawyer, remembered the same years for Vogue: "She was in the room, door closed, constantly creating." Yeti Beats, the producer who found her music online, told Rolling Stone, "I don't know if she would want me saying this, but she was a shut-in," and, "The studio was a safe place for her."
+
+Her father is the South African actor Dumisani Dlamini, and their accounts conflict. In March 2026, after a TikTok of hers that [Complex](https://www.complex.com/music/a/tracewilliamcowen/doja-cat-father-disputes-deadbeat-label) reported under the label "deadbeat," he said in videos he later removed, "I never left my kid." In an Elle UK interview published that May she said, "my dad left me when I was little." Neither account can be checked from outside, and the typing does not lean on either.
 
 ## What she does when nobody is asking
 
-In a Vogue video published in March 2026, recorded between tour legs, she was asked how she felt. "I'm burnt out. I'm tired," she said on [The Run-Through](https://www.youtube.com/watch?v=XJJ9dX3v2Og). The run-up to a tour, she said, is "just anxiety in a nutshell," which she glossed as "thinking about the future, overthinking the future." Her downtime: "I kind of just put on a heating blanket and play Fortnite or I watch Judy Justice."
+"I'm burnt out. I'm tired," she said when asked how she felt on [The Run-Through](https://www.youtube.com/watch?v=XJJ9dX3v2Og), a Vogue video published in March 2026 and recorded between tour legs. The run-up to a tour, she said, is "just anxiety in a nutshell," which she glossed as "thinking about the future, overthinking the future." Her downtime: "I kind of just put on a heating blanket and play Fortnite or I watch Judy Justice."
 
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/XJJ9dX3v2Og?start=312&amp;end=386" title="Doja Cat on The Run-Through with Vogue: burnout, the future, and a heating blanket (5:12)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-The heating blanket has a long paper trail. "I'm a huge hermit. I don't want to leave my house," she told Missy Elliott in 2021. Lydia Asrat, one of her managers, drew the line between the person and the act for Rolling Stone in 2021: "If Amala could stay at home and cook for a month, she would. That's her in her element. But Doja can't."
+This is the other half of the pattern: the numbing out. The heating blanket has a long paper trail. "I'm a huge hermit. I don't want to leave my house," she told Missy Elliott in 2021. Lydia Asrat, one of her managers, drew the line between the person and the act for Rolling Stone in 2021:
+
+> "If Amala could stay at home and cook for a month, she would. That's her in her element. But Doja can't."
 
 The homebody has a limit, and she named it to [Billboard](https://www.billboard.com/music/features/doja-cat-powerhouse-women-in-music-2022-interview-1235034023/) in February 2022. Of cooking and gaming at home: "There's only so much of that that you can do." Of performing: "I feel most powerful when I am fully in character onstage."
 
-Nor is the quiet contentment. In the Vogue video, describing how hard friendship is when the people around her work for her and she lives far from everyone, she said: "It's incredibly lonely. I'm lonely. I want people to embrace me." [SZA](/personality-analysis/sza), a friend and collaborator, told Vogue: "She's actually a very solitary star." A life arranged for quiet, and a person who is lonely inside it: the type argument does not tidy that up.
+And the quiet is not contentment. In the Vogue video, describing how hard friendship is when the people around her work for her and she lives far from everyone, she said:
+
+> "It's incredibly lonely. I'm lonely. I want people to embrace me."
+
+[SZA](/personality-analysis/sza), a friend and collaborator, told Vogue: "She's actually a very solitary star." A life arranged for quiet, and a person who is lonely inside it: the type argument does not tidy that up.
 
 ## Why not Type 7?
 
 The Seven case is real, and this profile used to make it. "I get bored very easily," she told Variety in 2023, about switching voices inside a song. Its strongest version is freedom: nearly every blowup answers a claim on her ("I'm not your fucking costume monkey"), and her word for the payoff is "I feel free."
 
-It loses on what she does with the claim. As this site reads the type, a Seven reframes an obligation or leaves it. By her own account she keeps meeting it and objects afterward: "[I] just keep agreeing to shit I dont wanna do." And her escape runs home, to a heating blanket, not forward into the next plan. Even her 2025 album she described to Elle UK as partly a return: "Vie is a reminder that I can go back, or I can do what I want without having to remain in the state of Scarlet." The second half of that sentence is the Seven's.
+It loses on what she does with the claim. As this site reads the type, a Seven reframes an obligation or leaves it. By her own account she keeps meeting it and objects afterward: "[I] just keep agreeing to shit I dont wanna do."
+
+And her escape runs home, to a heating blanket, not forward into the next plan. Even her 2025 album she described to Elle UK as partly a return: "Vie is a reminder that I can go back, or I can do what I want without having to remain in the state of Scarlet."
+
+The second half of that sentence is the Seven's.
 
 ## The troll problem
 
-The best witness against a conflict-averse reading is Doja Cat. "I love to go to fucking war with trolls," she told [Variety](https://variety.com/2023/music/features/doja-cat-new-era-rapping-fashion-1235506581/) in February 2023. A moment later: "If somebody wants to fight me on the internet," she continued, "I will gladly join in, balls to the wall. It's fun for me." Asked on [CBS Sunday Morning](https://www.youtube.com/watch?v=7e_s7K_k46o), in a segment aired in September 2025, why she needs to answer her critics, she gave both halves: "you can choose to be like, ah, crazy person, I'm scared, and choose flight over fight," but "I just enjoy a good debate. But I also like to troll." Then: "That's like my favorite thing to do."
+The best witness against a conflict-averse reading is Doja Cat.
+
+"I love to go to fucking war with trolls," she told [Variety](https://variety.com/2023/music/features/doja-cat-new-era-rapping-fashion-1235506581/) in February 2023. A moment later: "If somebody wants to fight me on the internet," she continued, "I will gladly join in, balls to the wall. It's fun for me."
+
+Asked on [CBS Sunday Morning](https://www.youtube.com/watch?v=7e_s7K_k46o), in a segment aired in September 2025, why she needs to answer her critics, she gave both halves: "you can choose to be like, ah, crazy person, I'm scared, and choose flight over fight," but "I just enjoy a good debate. But I also like to troll." Then: "That's like my favorite thing to do."
 
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/7e_s7K_k46o?start=305&amp;end=345" title="Doja Cat on CBS Sunday Morning: flight, fight, and why she trolls (5:05)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -302,36 +385,80 @@ The appetite is old, and it has cost her. Before fame she streamed on Periscope 
 
 Her rule for strangers is restraint. Vogue's reporter watched her notice someone photographing her in a Sydney shop in December 2025 and wrote that she "visibly seizes up." Her own rule: "Will I go up to somebody and be like, 'Stop fucking filming me,' and cuss them out? No, I'm not going to do that."
 
-And she has disowned the big performances herself. Of the fan episode she told Angie Martinez: "What I was doing when I reacted in the way that I reacted was performative. It was me being like, look how big I am. Look how strong I am." To [Elle UK](https://www.elle.com/uk/life-and-culture/a71279884/doja-cat/) in 2026: "I do those things on purpose to feel tough. And I am tough. But I'm not that tough. It is a mask."
+And she has disowned the big performances herself. Of the fan episode she told Angie Martinez: "What I was doing when I reacted in the way that I reacted was performative. It was me being like, look how big I am. Look how strong I am."
 
-That last admission does not rescue the Nine reading. A show of size put on when you feel exposed is exactly what the next type predicts.
+In the same interview, asked for the hardest lesson she has learned, she named the part of her that does it: "There's a bratty teenager who lashes out and does things." A moment later: "This is my protector. So this is my defense system."
 
-## The case for Type 6, in her own words
+<div class="iframe-container">
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/ArKooB3Ej3A?start=1178&amp;end=1269" title="Doja Cat on Angie Martinez IRL: the bratty teenager who lashes out (19:38)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-Read her interviews from 2025 and 2026 and the Six is everywhere. In an Apple Music interview published in August 2025 she told the host [Zane Lowe](https://www.youtube.com/watch?v=FdfYsllQSdo) that therapy taught her to "recognize those things before they happen," and that this "just has made me feel a lot safer, and I'm big on feeling safe."
+To [Elle UK](https://www.elle.com/uk/life-and-culture/a71279884/doja-cat/) in 2026:
+
+> "There are little things I do to make people think I don't care, or that I don't feel anything. I do those things on purpose to feel tough. And I am tough. But I'm not that tough. It is a mask."
+
+None of this is a problem for the Nine reading. A Peacemaker is not a person without anger. Anger is the core emotion of the type. What makes a Nine is what she does with it: she holds it in face to face, and it comes out later, at a distance, or all at once.
+
+## Why not Type 6?
+
+The strongest objection is in her own words. Read her interviews from 2025 and 2026 and fear is everywhere. In an Apple Music interview published in August 2025 she told the host [Zane Lowe](https://www.youtube.com/watch?v=FdfYsllQSdo) that therapy taught her to "recognize those things before they happen," and that this "just has made me feel a lot safer, and I'm big on feeling safe."
 
 <div class="iframe-container">
 <iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/FdfYsllQSdo?start=1424&amp;end=1494" title="Doja Cat with Zane Lowe: what therapy changed, and feeling safe (23:44)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-In the Vogue video: "in the moment, like knee-jerk, I just, I want to be safe. And the way I've learned to be safe is to not be honest and not be forthcoming." To Vogue, about the Auckland posts: "When I feel that I'm threatened, even though it may not be a threat at all, it rhymes with: You are failing." Of the June 2025 clip going viral: "I thought that if I stepped out of my house, something would happen to me, all irrational fear." She asks her team to correct her: "I have to check them to check me." And in January 2021 she tweeted, per [Complex](https://www.complex.com/music/2021/01/doja-cat-says-shes-not-comfortable-posting-on-tiktok-gaslighting-comments), "i have a lot of fear in me."
+In the Vogue video:
 
-The Six reading takes her at her word, and that is its strength: her terms for her own motive are "safe" and "threatened," not peace or ease. It explains the dread before a tour and the wish to be checked, and it reads the online combat as a frightened person making herself large. Weigh her 2025 and 2026 first-person testimony most heavily and you land on Six.
+> "in the moment, like knee-jerk, I just, I want to be safe. And the way I've learned to be safe is to not be honest and not be forthcoming."
 
-It also explains the pattern this profile opened on: a Six can say yes to stay safe with the people she depends on and turn on them later. Going along first and objecting late does not separate the two types. Neither does her certainty in the studio, where her engineer Rian Lewis told [Revolt](https://www.revolt.tv/article/2023-10-05/328924/how-rian-lewis-realized-doja-cat-is-one-of-the-ballsiest-artists) in 2023 that she once asked to mute a Pharrell Williams verse and try her own. That is an employee describing craft. On a commercial call she took the room's word ("Yeah, they've been right"), and her own doubt is on the record: the "fool" of Paraguay, and in 2023, of her rap verses, "mid and corny. I know they are." Nor does the reason for her yes. In October 2021 she knew what she did not want and agreed anyway, which is not borrowed certainty, but avoiding a fight is also a way of staying safe.
+- To Vogue, about the Auckland posts: "When I feel that I'm threatened, even though it may not be a threat at all, it rhymes with: You are failing."
+- Of the June 2025 clip going viral: "I thought that if I stepped out of my house, something would happen to me, all irrational fear."
+- She asks her team to correct her: "I have to check them to check me."
+- In January 2021 she tweeted, per [Complex](https://www.complex.com/music/2021/01/doja-cat-says-shes-not-comfortable-posting-on-tiktok-gaslighting-comments), "i have a lot of fear in me."
 
-What keeps the Nine ahead is narrower, and it is a lean, not a separator: what she asks for. When she pushed back on her workload, in October and November 2021, and when she dismissed her pop albums in May 2023, she did not name a danger or a person she could not trust. She named rest and home: "a week to just chill"; "I want to be home. I want to make music. I want to play video games"; an island with "my loved ones." Two people who work for her describe something near it: Asrat's month at home cooking, and Lewis on how she writes, "she just comes in, and she's so relaxed." Against that stand the January 2021 tweet, where the reason she gave for stepping back was fear, and the fear words for her teens: her own "agoraphobic," her producer's "safe place." An exhausted Six asks for rest too. This profile's reading is that someone organized around security, pushed past her limit, asks for reassurance or firmer ground. She does ask for that. On the dated record the request comes later, in 2025, though she told Vogue in 2026 that therapy lets her "be away and be at peace without being like, 'I need tarot cards. I need an answer. Text me,'" an older habit she did not date.
+A [Type 6](/enneagram-corner/enneagram-type-6) is organized around security: watching for threat, testing who can be trusted, sometimes charging at the thing she fears. That reading takes her at her word, and that is its strength: her terms for her own motive are "safe" and "threatened," not peace or ease. It explains the dread before a tour, the wish to be checked, and the self-doubt: the "fool" of Paraguay, and in 2023, of her rap verses, "mid and corny. I know they are."
 
-The limits belong on the page. This is a judgment from pattern, not a proof. It treats fear as what breaks through when the smoothing fails rather than as the engine, and the record cannot confirm that. Put plainly: the Nine reading says she smooths things over first, with the yes and the "I'm fine," and that fear shows only when the smoothing fails. The Six reading says fear drives both the going along and the blowups.
+A Six can also say yes to stay safe with the people she depends on and turn on them later, so the long yes alone does not settle it.
 
-She has also given her own account, in two statements she has not publicly joined. One is the "condition" remark. The other came in a TikTok on March 13, 2026, reported by [Complex](https://www.complex.com/music/a/markelibert/doja-cat-bpd-reveal-tiktok-chappell-roan): she said she was "struggling with BPD," borderline personality disorder, and had learned "from a very young age to pretend that I like stuff" in order "to appear like everything is okay." This profile cannot evaluate it and does not try: nothing here is a diagnosis, and a personality type is no substitute for her account. So the swing from blowup to "I'm fine" is not credited to type here. Her account reaches the going along too, since pretending to like things is part of what she described, so the yes cannot be counted cleanly either. The lean rests on what is left: what she asked for, and what others saw.
+Three things point to Nine.
 
-Her 2025 and 2026 interviews share a therapy vocabulary, and most of the calm was described mid-album or mid-tour, by her or by people who work for her. And asked whether she wants to correct misconceptions about her, she said, "I think about it almost every day," which is not what self-forgetting sounds like.
+**When the fear shows up.** In the moment, what comes out of her is anger: the tweet, the "i quit," the kicked door. Fear is how she explains it afterward, in interviews from 2025 and 2026 and in the vocabulary of therapy. The exceptions on the record are the January 2021 tweet and the fear words for her teens: her own "agoraphobic," her producer's "safe place."
+
+**Where a Nine goes under stress.** In Enneagram theory a Nine under pressure [starts to look like an anxious Six](/enneagram-corner/enneagram-types-in-stress#type-9-stress-point): worried, braced, sure something is about to go wrong. Much of her fear talk sits right there. "I'm burnt out. I'm tired." The run-up to a tour as "just anxiety in a nutshell." A clip going viral, and the thought that "if I stepped out of my house, something would happen to me."
+
+**What she asks for.** When she pushed back on her workload, in October and November 2021, and when she dismissed her pop albums in May 2023, she did not name a danger or a person she could not trust. She named rest and home: "a week to just chill"; "I want to be home. I want to make music. I want to play video games"; an island with "my loved ones."
+
+Two people who work for her describe something near it: Asrat's month at home cooking, and the unhurried writer Lewis described.
+
+As this site reads the type, a Six pushed past her limit asks for reassurance or firmer ground. She does ask for that, but on the dated record the request comes later, in 2025. Even that timing is soft: she told Vogue in 2026 that therapy lets her "be away and be at peace without being like, 'I need tarot cards. I need an answer. Text me,'" an older habit she did not date.
+
+An exhausted Six asks for rest too, and no outsider can see which emotion is underneath. This is a read of the pattern, which is all a profile can be. But the pattern is a Nine's: quiet first, anger second, fear last.
+
+## Her own account
+
+She has described the swing herself. In the Angie Martinez interview, asked what follows a badly handled moment, she quoted her own next move: "I'm fine. Everything's fine." Then: "Like that's my condition," she said, and "There's a word for it," which she did not give.
+
+That is one of two statements she has made about it, and she has not publicly joined them. The other came in a TikTok on March 13, 2026, reported by [Complex](https://www.complex.com/music/a/markelibert/doja-cat-bpd-reveal-tiktok-chappell-roan): she said she was "struggling with BPD," borderline personality disorder, and had learned "from a very young age to pretend that I like stuff" in order "to appear like everything is okay."
+
+This profile cannot evaluate it and does not try: nothing here is a diagnosis, and a personality type is no substitute for her account. A type describes a pattern. It does not say where the pattern comes from, and her account is about where.
+
+Her account reaches the going along too, since pretending to like things is part of what she described. So read the type here as a description of the pattern and nothing more. Why the pattern is there is hers to say.
 
 ## What the type leaves open
 
-A Nine reading does not explain the fun she has in a fight, or how the woman who mutes Pharrell has, in her words, "such an issue with setting boundaries." It cannot say how much of the early stillness was temperament and how much was weed. Other types are not disproved. A Three can point to "You are failing" and to the approval she admitted chasing in March 2026; a Four to "I want people to embrace me." An Eight is what a combative star looks like from outside, and her own answer is "It is a mask."
+A Nine reading explains the anger. It does not explain how much fun she has in a fight, or how the woman who mutes Pharrell has, in her words, "such an issue with setting boundaries." It cannot say how much of the early stillness was temperament and how much was weed.
 
-What would move the read to Six is specific: asked for something she does not want, she names a danger instead of asking for rest, or with no pressure on her she prepares and seeks reassurance instead of doing nothing. A second test, of Nine against Seven, is dated. In an Elle UK interview published in May 2026 she said, "I think I want to take three years off." As of October 2026 her last announced tour date was Madison Square Garden on December 1, 2026. Whether a break followed, and whether it was quiet, is the first thing to check at the next revision.
+Her 2025 and 2026 interviews share a therapy vocabulary, and most of the calm was described mid-album or mid-tour, by her or by people who work for her. And asked whether she wants to correct misconceptions about her, she said, "I think about it almost every day," which is not what self-forgetting sounds like.
 
-The argument does not depend on it. From 2021 to 2026 the person inside the costume keeps asking for room: a week to chill, to be home, three years off. She says the stage is where she feels most powerful, too. In the Vogue video, explaining why she dresses plainly offstage, she made the same point without heat. "I'm boring and I need to be boring," she said, because "my job can't be my life." That is what closing the door, instead of kicking it, sounds like.
+From outside she looks like an Eight, the anger type that fights in the open. Her own answer to that is "It is a mask."
+
+What would move the read to Six is specific:
+
+- Asked for something she does not want, she names a danger instead of asking for rest.
+- With no pressure on her, she prepares and seeks reassurance instead of doing nothing.
+
+A second test, Nine against Seven, has a date on it. In an Elle UK interview published in May 2026 she said, "I think I want to take three years off." As of October 2026 her last announced tour date was Madison Square Garden on December 1, 2026. Whether a break follows, and whether it is quiet, is the next thing to watch.
+
+From 2021 to 2026 the person inside the costume, who says the stage is where she feels most powerful, keeps asking for room: a week to chill, to be home, three years off. In the Vogue video, explaining why she dresses plainly offstage, she made the same point without heat. "I'm boring and I need to be boring," she said, because "my job can't be my life."
+
+That is what closing the door, instead of kicking it, sounds like.

@@ -10,6 +10,94 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-10-12
+
+**Weekly growth audit: comments came back to 6, from six different people, after two weeks at 0 and 2. Half arrived through the new homepage answer box. None of the six got a reply, the desk now holds 15 unposted drafts, and one contributor came back 30 hours later to look at their take and left. Celebrity pages showed the gate to 103 readers and got 1 take, which says "i dont understand this question". Mail is on again after 34 days, and the week's one registrant unsubscribed after the third welcome email.**
+
+- Area: give-first activation (celebrity mid-article question, live-take homepage) / host-reply loop / email lifecycle / coaching beta
+- Status: audit complete, live prod DB via `scripts/db-query.sh` (Supabase MCP did not connect). Headlines come from **`admin_engagement_trends_weekly_v2(26)`**. "This week" = **2026-10-05..10-11** (Monday start, America/New_York). `visitor_day_activity` refreshed at 10-12 04:35 UTC, after the week closed, so there is no visitor lag. No series break falls inside this week. The comparison week (09-28) contains the 10-02 breaks (crawlers out of `gate_shown`, `contribution.path` set) and the 10-03 launch of both new surfaces, so gate counts are shown for this week and since launch, not week on week.
+
+| Week (v2 RPC)        |                      Human visitors (returning) |                                          Human comments |            Contributors (returning) |     Real signups | Registrations |                        Bookings |
+| -------------------- | ----------------------------------------------: | ------------------------------------------------------: | ----------------------------------: | ---------------: | ------------: | ------------------------------: |
+| 08-17                |                                        586 (35) |                                                       3 |                               3 (0) |                0 |             0 |                               0 |
+| 08-24                |                                        590 (27) |                                                       7 |                               5 (1) |                1 |             3 |                               0 |
+| 08-31                |                                        582 (38) |                                                       4 |                               3 (0) |                0 |             2 |                               0 |
+| 09-07                |                                        643 (28) |                                                       6 |                               6 (0) |                0 |             0 |                               0 |
+| 09-14                |                                        658 (35) |                                                       9 |                               6 (1) |                1 |             1 |                               0 |
+| 09-21                |                                        669 (43) |                                                       0 |                               0 (0) |                1 |             0 |                               0 |
+| 09-28                |                                        586 (35) |                                                       2 |                               2 (0) | 1 (inferred bot) |             1 |                               1 |
+| **10-05**            |                                    **676 (22)** |                                                   **6** |                           **6 (0)** |            **2** |         **1** |                           **1** |
+| 10-12 (partial, 6 h) |                                           2 (0) |                                                       0 |                               0 (0) |                0 |             0 |                               0 |
+| 26-week context      | 200-818, median 551; returning 18-43, median 30 | 12 in 12 wks to 07-06; 82 in 07-13..09-14; then 0, 2, 6 | 4 returning of 69 contributor-weeks |         11 total |      27 total | 2 total, both in the last 2 wks |
+
+| Secondary diagnostic                                                      | Value                                                                                                                                                               |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Gate by surface, 10-05 week (human-only, all after the 10-02 break)       | celebrity **103 -> 1**; home 14 -> 3; question pages 9 -> 2; blog embeds 13 -> 0; all surfaces 131 -> 6                                                             |
+| Same, since the 10-03 launch (10-03..10-11)                               | celebrity 124 -> 1; home 20 -> 3; question pages 10 -> 2; blog embeds 15 -> 0                                                                                       |
+| Celebrity gate viewers, 10-05 week                                        | 91 of 103 engaged >=30 s; median 4.7 min on the page; 58 scrolled >=75%. All were asked q567                                                                        |
+| Homepage `/`, 10-05 week                                                  | 26 fingerprints engaged >=10 s -> 3 takes. Home gate counts are low: 2 of the 3 contributors have no `gate_shown` row                                               |
+| Gate to take                                                              | 1.3, 2.1, 6.0 and 16.5 min (4 of 6 measurable; the 16.5 includes registering)                                                                                       |
+| Contributor 7-day return                                                  | 09-28 cohort, matured: 2 -> 0. 10-05 cohort: 6 -> 1 visit-return, 0 second takes (1.5-6.9 days observed, right-censored)                                            |
+| Takes with a DJ reply within 24 h                                         | **0 of 6** (last week 1 of 2). Last host reply: 10-03                                                                                                               |
+| Host digest runs (`app_error_events`, `host_digest`)                      | 7 of 7 days: 5 sent, 2 `no_takes`; 6 of 6 takes drafted. `host_reply_drafts`: **15 pending, 1 posted** lifetime                                                     |
+| Reply opt-ins                                                             | 0 new from 6 takes; 3 lifetime, all `notification_count = 0`                                                                                                        |
+| Email                                                                     | Sending resumed 10-05 19:30 UTC. 13 sent, 1 failed (signup 211's confirmation, 11 h before the fix, not resent). 12 welcome steps: 5 opened, 1 click, 1 unsubscribe |
+| Beta offer CTAs (`cta_experiment_events`, all 3 experiments, client-side) | 621 viewer fingerprints -> 14 opened -> 1 submitted (from `/book-session`; beta card on content pages: 13 opens, 0 submits)                                         |
+| Registration failures                                                     | 0 `AuthWeakPasswordError` this week (4 lifetime). The message fix is not shipped                                                                                    |
+| Where engaged visitors entered (my stitch: 677, RPC: 676)                 | celebrity pages 318, blog 317, home 14, other 28. Search 499 (74%)                                                                                                  |
+| Raw visitors (bot-inclusive, diagnostic only)                             | 3,338 (09-28: 3,209)                                                                                                                                                |
+
+- Direction changes:
+  - **Comments went 2 -> 6 and contributors 2 -> 6, the most since 09-14. All six were first-timers.** Three takes came from the homepage answer box (`path = '/'`), a surface that only went live on 10-03. Question pages gave 2, the same as last week, and celebrity pages gave 1. Returning contributors stayed at 0 for a third week. This is one week against about 8 comments a week from mid-July to mid-September, so it is a partial recovery, not a trend.
+  - **New visitors rose and returning visitors fell.** 676 is the second-highest of 26 weeks (new humans 551 -> 654). Returning fell 35 -> 22, the third-lowest of 26 (3.3% of visitors, from 6.0%). No visitor-identity code changed this week, so read it as noise inside the 18-43 band until next week (inferred).
+  - **The celebrity question has enough data to call: 124 readers since launch, 1 take.**
+    - A 95% upper bound on 1 of 124 is about 4.5%. Question pages took 2 of 9 this week and the homepage 3 of 26 engaged visitors. The same question, q567, took 24 of 140 (17%) on the old homepage (`src/lib/server/provenChorusQuestions.ts:15-17`).
+    - The one answer came from a Google reader who spent 16 minutes on the Asmongold page, then tried `/login` and `/register`. Inside blog posts q567 is 15 -> 0 since 10-03.
+    - Rotation never started. `nine_takes` still holds only q567, and the q118 and q203 seeds are waiting on DJ (`docs/taskers/T-41-assets/G-nine-takes/`).
+  - **The reply loop ran every day and nobody used it.** The digest drafted all six takes and none was posted. Fingerprint `2e19451b` (Google -> a harmonic-approaches post on 10-04, back on 10-05, 2 minutes on `/book-session`, take 753 on q203, then `/about`, `/manifesto` and eight more posts) reopened q203 on 10-06, 30 hours after the take, stayed 28 s, went to `/login` and left. That is the second contributor seen returning to an unanswered take (the first was `c4e88b00` on 09-21). Takes 749 and 743, the two email opt-ins, are unanswered at 11 and 23 days.
+  - **Mail is back, and its first readout is one unsubscribe.** The week's one registrant (`c511237e`: Google -> instinctual-subtypes post -> q118 gate -> registered 3 minutes later -> back from the Gmail app within a minute -> a 457-char take, the longest of the week) opened welcome emails 1, 2 and 3, got no reply to the take, never returned, and unsubscribed on 10-11 (`tracking_unsubscribe`), 18 hours after email 3. n = 1, so this is not a verdict on the sequence. The 09-19 and 09-29 registrants also reached step 3, with 1 open between them.
+  - **Signups and the booking.** Both real signups came from Google to a people page (211 on 10-05, 212 on 10-10), which ties the 26-week high. The booking is the first beta signup: a direct landing on `/book-session` with no referrer, the card opened after 4 s and submitted 25 s later, from a non-consumer email domain. Inferred: one of DJ's invites, not a reader converted by the card (unverified).
+
+- **Biggest leak this week: the celebrity gate.** It showed q567 to 103 human readers, 91 of them after at least 30 s of reading, and 1 answered, to say the question made no sense. That is 103 of the 131 recorded gate fingerprints for the week. The standing leak under it has not moved: 0 of 6 takes got a reply and 0 contributors returned. Anti-pattern: a local maximum. q567 was chosen for its 17% on the old homepage and reused mid-article, where it converts 1%.
+
+- Recommended bets (ranked):
+  1. **Change what celebrity readers are asked.**
+     - Hypothesis: we believe seeding the q118 and q203 nine-take sets, so celebrity pages rotate three questions, will move celebrity takes from 1 in 9 days to at least 3 a week. The reasons: these readers stay a median 4.7 minutes, the only answer q567 got says it is not understood, and q118 costs three words.
+     - **Success over 2 weeks after seeding: >=3 celebrity contributors a week, and q118 or q203 above q567 on gate -> take.** Guardrail: median engaged time for gate viewers stays >=4 min.
+     - Cost: about 10 minutes of DJ's time, no code. At about 35 gate fingerprints per question per week, only a jump to roughly 10% is readable, so read it per question, not as an A/B.
+     - Ambitious version, for DJ to pick: ask about the person. "Add your read on {person}" already sits at the bottom of each page (0 comments since 08-24) and its comments already count as human comments. Moving it to the mid-article slot puts an on-topic prompt in front of 318 engaged readers a week; 5% of them is 16 takes.
+  2. **Reply from the digest, starting with the four who can notice.**
+     - Hypothesis: we believe DJ using the one-tap links for 753 (came back to look), 754 (the registrant), and 749 and 743 (the email opt-ins) will serve the first opt-in and bring one contributor back. The reason: the only return on record followed a DJ reply, and two contributors have now been seen coming back to an unanswered take.
+     - **Success over 2 weeks: >=80% of new takes replied within 24 h (now 0 of 6), >=1 `notification_count > 0`, and `returning_contributors` >=1 in the v2 RPC.** Guardrail: no fallback text.
+     - Check first: six digests have gone out since 10-03 and no link was used. The digest is not in `email_sends`, so whether it reaches an inbox DJ reads is unverified.
+  3. **Count the homepage gate before the 10-17 readout, and finish the mail recovery.**
+     - Hypothesis: we believe recording the homepage `gate_shown` in the browser will give the readout a real denominator. The reason: `src/lib/server/homepageLiveTake.ts:132` only records it when a fingerprint cookie already exists, and both contributors whose first page was `/` have no gate row.
+     - **Success: 100% of homepage contributors have an earlier `gate_shown` row.** Until then read the homepage against engaged visitors (3 of 26), not gate fingerprints (3 of 14).
+     - Same pass: resend 211's confirmation (4 "You are in" sends have failed since 09-14 and 1 has gone out), and ship the weak-password message (`src/routes/register/+page.server.ts:156` is unchanged).
+
+- Running experiment status:
+  - Live-take homepage (q203, 10-03): **running**, first takes (3 this week). Readout 10-17.
+  - Celebrity mid-article question (q567 only, 10-03): **running**, 124 -> 1 since launch, rotation not started. Readout 10-17.
+  - Host digest: **running**, 7 of 7 days; 0 of 14 drafts acted since 10-03.
+  - Welcome and confirmation mail: **restored 10-05** after 34 days.
+  - Reply opt-in: 3 lifetime, 0 served, 0 new. Logged-in reply email: 0 sent, because there were no replies.
+  - Beta card: **running**, 1 signup against the goal of 10 by 11-15 (inferred invite).
+  - Talk to DJ: 0 notes this week, 1 lifetime.
+  - Crawler-free gate + `contribution.path`: **working**, 6 of 6 contributions carry `path`.
+  - Weak-password message: **not shipped**, 0 hits this week.
+  - The Nine, Reddit, founding circle and type prompt: **held**.
+  - Last week's bets: #1 **not done**. #2 **half done** (mail is on; the password message and the resends are not). #3 **not done** (seeds unapproved).
+- Repro:
+  - Headline: `select * from admin_engagement_trends_weekly_v2(26)`.
+  - Gate by surface: the standard query plus `question_id`; since launch = `created_at >= '2026-10-03 04:00+00'`.
+  - Gate depth: the first celebrity `gate_shown` per (fingerprint, path) in the week, joined to `page_analytics_visits` on the same fingerprint and path within [-30 min, +2 h].
+  - Return: per take fingerprint, `page_analytics_visits` between +24 h and +7 d.
+  - Desk: `host_reply_drafts` by status. Mail: `email_sends` since 10-04, `email_sequence_enrollments` since 09-15, `email_unsubscribes` since 10-01 (emails hashed, none written here).
+  - Beta: `cta_experiment_events` by experiment, variant, event and surface; `coaching_waitlist_metadata.source = 'beta_card'`.
+  - Entry source: the first visit of the week per fingerprint with >=10 s engaged on one day.
+  - Unverified: who the beta signup is; whether the digest is read; opens may include mail-client prefetch; PostHog homepage events were not queried; the cause of the returning-visitor dip; T-41 A (due 10-10) was not checked.
+  - Everything else is observed unless marked inferred.
+
 ### 2026-10-05
 
 **Weekly growth audit: comments stayed at their pre-July floor for a second week (0, then 2, against about 8 a week from mid-July to mid-September). The two surfaces built to bring them back have shown the gate to 32 humans since 10-03 and received 0 takes. Celebrity pages are sending the deepest readers on the site to the gate: 26 viewers, a median of about 6 minutes on the page, and none answered q567. The host digest works again (10-03: 8 drafts), but none of the drafts was posted. The week's best visitor answered, opted in to replies, got "Server error" twice when registering, and left.**

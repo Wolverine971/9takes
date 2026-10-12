@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "4965fc67bb6779a9b1655915747f8c26a879b52ba223c32e378383cde87d18b6",
+  "evidence_sha256": "a1ad59c3c43fd9fffcdd79c14c67a980fa5288c4d8c83103c237cba83a6dd647",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "Then there is the one sentence she has offered about leaving Pace: \"I didn't want to bare my soul anymore.\" New Jersey Monthly printed it without further explanation.",
+      "problem": "In New Jersey Monthly (S05) the line sits inside the paragraph explaining why she turned the audition down: 'She had also recently left Pace University, where she'd been studying musical theater, to pursue television acting. \"I didn't want to bare my soul anymore,\" she says.' Whether she meant Pace, musical theater as a form, or the audition is not stated, and C62 concedes the referent is inferred from position. The draft asserts it as her reason for leaving Pace here, in the settle section ('one sentence about leaving Pace') and in the Type 4 FAQ ('of leaving Pace University's musical theater program she said'), then puts it at the center of the Four case.",
+      "acceptance_test": "Body, settle section and Type 4 FAQ no longer state that she said this about leaving Pace. Each use reports the placement instead (printed directly after the magazine's sentence about leaving Pace's musical theater program for television, within its account of the refused audition) and says the referent is unstated. The Four section weighs the reading in which she meant musical theater itself."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "She gave the same reason in every 2024 telling found for this profile.",
+      "problem": "True of the self-doubt, but all four tellings also open with the same circumstance, which the draft drops. Tonight Show (S13): 'At the time, I had left school, and I was starting to pursue, like, film and TV. So by the time' the audition came around. TODAY (S12): she had left school 'a couple months beforehand'. ELLE (S04): 'I left school in 2022. I started working on some film and TV stuff', then 'I said no to it at first.' New Jersey Monthly (S05) pairs the refusal with the move to television. She also dates the feeling each time ('at the time', 'yet'). A performer who had just quit a musical theater degree for screen work passing on a musical workshop is an ordinary explanation the reader never gets, and C05's 'never ... a competing plan' is contradicted by three of its four sources.",
+      "acceptance_test": "The paragraph and the audition FAQ say that in all four tellings she had just left school and in three had turned to film and television, quote or closely paraphrase one of them, and name the change of direction as a plain alternative to self-doubt. The TODAY wording is checked against audio before any verbatim use."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "Moon grew up in Franklin Township, New Jersey, and got her start in its public-school theater programs.",
+      "problem": "This sentence is the whole account of her life before 2022, so the hesitation arrives as a standing trait. The cited sources hold a confident before: Dorothy in sixth grade and 'every show until graduating' (S05); the AP's 'burning ambition to be on stage', Broadway auditions for The Lion King and Six, then 'A few frustrating years' (S06, the reporter's words, auditions undated); 'the industry that I've been wanting to work in since I was a kid' (S09); a senior-year Dreamgirls cancelled by the pandemic (S21); college begun in 2020 with no dormitory experience (S20). Read with that, the 2022 refusal is a dip with a datable onset, a circumstantial rival to all three reads. Its absence also leaves the Type 3 dismissal resting on the refusal alone.",
+      "acceptance_test": "Two to four sourced sentences give the before (school shows, the ambition and auditions attributed to the AP, the pandemic-cancelled senior show) without asserting that any of it caused her to leave Pace. The open-question framing or a limits paragraph names the dip reading. The Type 3 sentence either engages the ambition evidence or is cut."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "Against it, she does not present herself as different or misunderstood, and in her own tellings the answer to doubt is other people's confidence, where a Four's turning point would more likely be claiming an identity.",
+      "problem": "Her most repeated 2026 account of college says otherwise about the Pace years, and the draft prints none of it (C21 was dropped). Marie Claire (S01): 'there might be college experiences that will make me feel more seen, and still feeling like I had to choose to go to a predominantly white university in order to be successful', and the series is 'so healing for that high school person in me'. Black Girl Nerds (S19): at a PWI, 'navigating places where I didn't see myself' added fear and responsibility, and rising to expectations meant 'assimilating'. The Her Campus sentence the draft cites for the Pace dates calls Pace 'a predominantly white institution'. This is first-person formative context on the school she left. It describes being unseen and set apart, and it cuts toward Four (seen, find herself) and Six (fear, responsibility, safety) at once.",
+      "acceptance_test": "The Pace paragraph prints her Marie Claire account with its date and the caveat that she gave it while promoting an HBCU-set series, without claiming it explains why she left. This sentence and 'the usual Four feels set apart from other people' are rewritten to be consistent with it. Any S19 wording is re-listened first (the transcripts differ on 'fear or responsibility')."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "said on the SiriusXM panel that Broadway taught her \"it wasn't about judging the moment before. It's about accepting where I was at so that I could move forward.\"",
+      "problem": "The answer is cut in half. It opens with 'discipline' and an admission that she did not do every show: 'there's a lot of places I wasn't in when I was supposed to be there and they came and they was mad' (S17, about 33:03; the two transcripts differ on the clause before it). It is the only place in the record where she addresses a complaint about her, and it sits beside the lines quoted here. The draft meanwhile asserts 'then full commitment', lets 'very serious about her work' stand unopposed, and treats criticism as wholly future in signal 4. The ELLE column cited five times is about an ankle injury she aggravated mid-show and played through, context any mention of absences needs. By the draft's own rubric, joking a complaint away is the Nine response, and the Nine case runs three sentences.",
+      "acceptance_test": "Either the first half of the answer is printed after a re-listen, in her words only, with the injury context from ELLE and no characterization of her attendance, and 'full commitment', signal 4 and the Type 9 section are adjusted to account for it; or 'then full commitment' is cut and the resolution records the reason for leaving the admission out."
+    },
+    {
+      "id": "fan-06",
+      "severity": "major",
+      "passage": "Moon tells a version of this story about most of the arrivals in her short career.",
+      "problem": "'Most' is not what the record shows, and C36's own note says so. Arrivals she tells with no holding back: the 2022 workshop ('within the first like 3 days'), the Met Gala, the Grammy, the Netflix casting call ('through the roof', S03), and the talk-show debut, where by her account she took the costume plan to Alicia Keys and got it changed. Two of the four instances listed are also unremarkable on their face: she slept through a morning announcement expecting to 'congratulate everyone', and she wrote a speech the night before. The nominations episode has nobody moving her at all, as C90 concedes.",
+      "acceptance_test": "'Most' is replaced by a count the record supports, at least one arrival she tells without hesitation is named, and the nominations and speech episodes carry their ordinary explanation where they are listed or in the limits paragraph."
+    },
+    {
+      "id": "fan-07",
+      "severity": "major",
+      "passage": "So the record shows no stretch in which she chose a next step unprompted.",
+      "problem": "The inference skips what the paragraph has just shown. By her own sequence she was already leaving when the NDA arrived, so the decision to go came before the next job existed. That is the one unprompted move in view, and it sits awkwardly with a need for firm footing. Out (S03), linked in this paragraph, also has her in a workshop for a new Jake Landau musical when the casting call came, a between-jobs step the draft omits. Her last performance (March 27, 2025) fell one day short of a year after the first Broadway preview (March 28, 2024, S28); whether that was a contract ending is not in the record, but it bears on calling the exit one of 'her two largest decisions'. The Pace half of the claim is an absence stated flatly with four 2024 profiles unread (S33 to S36).",
+      "acceptance_test": "The paragraph states that her account puts the decision to leave before the Netflix approach and says what that does and does not show, mentions the workshop, notes the one-year mark without asserting a contract, and scopes both absence claims to the sources opened. Signal 1 allows that the exit may have an ordinary answer."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "Crediting the people who backed her for steadying her points to Six. Private creative work and holding to herself against expectations points to Four. Tuning it out points to Nine.",
+      "problem": "Signal 2 is the standard's worked example with the nouns changed (what steadied him through the release: trusted people, or tuning it all out), and the similarity file shows the same Nine wording in the Joseph Zada open case ('settles by tuning the pressure out'). It would fit any actor's second season. Her record sets up sharper tests: in Marie Claire she lists the pulls on her ('Am I going to go back to Broadway? Am I making an album?'), credits the 'Hold yourself' advice passed on by Kadeem Hardison and Jasmine Guy, and calls fan expectations 'not [her] business'.",
+      "acceptance_test": "Signal 2 names something only her record sets up, for example which of the pulls she listed in October 2026 she follows first and how she explains it, or whether she still credits 'Hold yourself' a year on. The template phrasing is gone here and in the evidence record's matching settle signal."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"I can't do it, I can't do it, I'm not ready yet, I'm not ready yet.\"",
+      "reason": "A specific, sourced opening that a follower of her run would recognize and that sets the question the piece is about. Keep it as the lede; the wording follows the audio if the re-listen the record asks for changes it."
+    },
+    {
+      "passage": "Every one of these stories is hers alone. In the sources opened for this profile, nobody else describes her refusing the audition, and Walton is not quoted on the coaching. By May 2024 a TODAY host was asking her to confirm the audition story. A modest origin story also flatters a newcomer and the production that cast her.",
+      "reason": "The paragraph that keeps the profile from repeating the press-tour legend. It treats the humble origin story as single-source and promotional, which is what an informed reader wants said."
+    },
+    {
+      "passage": "She named no diagnosis of her own, and this profile infers none.",
+      "reason": "Exact restraint on the one disclosure most likely to be over-read. It should survive any edit to the paragraph around it."
+    },
+    {
+      "passage": "Both roles were built to absorb her life, which limits what the theme can show.",
+      "reason": "An observation specific to her and not obvious: both breakout roles were written around her biography, so 'the character is me' cannot count as temperament."
+    },
+    {
+      "passage": "And when her father finally got her to the Shubert, she says, she clicked her heels, \"because it was just that momentous of an occasion.\"",
+      "reason": "Closes the opening scene on a sourced detail with no moral attached, and shows the joy on the far side of the postponing."
+    }
+  ],
+  "assessment": "Open-case eligibility holds: an adult (24), professional debut in November 2023, first screen lead in September 2026, 33 sources opened. No blocker. Title, description and FAQs keep to leading-read language. The limit on 'research genuinely tried' is four unread 2024 features (S33 to S36), the Times profile above all; the saved captures are bot walls, so I could not read them either. As an informed reader I find the draft unflattering in the right way: it treats the modest origin story as single-source and promotional, marks rehearsed lines, and infers nothing from the psychiatry remark. Its weakness is that the portrait begins in 2022. The confident school-theater kid, the Broadway auditions, the pandemic-era end of high school and her own 2026 account of Pace are in the cited sources and absent from the page, and three quotations are trimmed in ways that favor a trait reading over a circumstantial one (the audition tellings, the 'bare my soul' line, the SiriusXM Broadway answer). None of this changes the leading read or the open-case verdict. It changes how much weight the hesitation can carry, and it gives Four and Nine a fairer hearing; the Type 9 case is thinner than the record allows (S01 'not [her] business', S03 'calm, peaceful energy', and S15 'one breath and one step at a time' per the evidence record are unprinted). Checks and limits: I compared the draft with the saved research captures of S01 to S06 and S09 and with caption and Whisper transcripts of S11, S12, S13, S17, S19, S20 and S21. I did not re-fetch live pages or listen to audio, so transcript wording quoted in my findings needs the same re-listen the record already asks for. Similarity: the advisory was available and not tripped (maximum 0.074, no shared phrases). The listed pairs set generic type definitions against unrelated sentences and I found no reused argument apart from the settle-signal template in fan-08. I did not read the comparison drafts or any other review."
+}

@@ -1,0 +1,21 @@
+The unfamiliar-reader review is written to `review-unfamiliar.json` in the run directory. It parses against `reviewSchema`, both hashes match the request, and every finding and protected passage is an exact string from the frozen draft. No other file was touched and nothing was published.
+
+**Verdict:** read cold, the draft works and nothing in it claims more than low confidence. The failures are orientation, not honesty. Open-case eligibility looks sound (adult, professional debut November 2023, two promotional cycles), so no blocker.
+
+**Major findings (3)**
+- **Her exit is told too late.** "Farewell video" is unexplained in the second paragraph, and her March 2025 departure from *Hell's Kitchen* is first stated in the last section, which calls it one of "her two largest decisions".
+- **The two shows are never described.** "Ali" appears once with no sign it is her character, the original *A Different World* gets no premise, and "Hillman College" is unexplained. That leaves "Both roles were built to absorb her life" impossible to weigh.
+- **The Pace quotation is cut from its context.** I reopened New Jersey Monthly: "I didn't want to bare my soul anymore" directly follows the sentence about leaving musical theater for television acting, inside the paragraph on why she refused the audition. The draft splits the two across sections and says the line was printed "without further explanation". That also hides the best contradiction on record: she left musical theater to stop baring her soul, then made her name doing it in a musical.
+
+**Minor findings (5)**
+- "So the record shows no stretch in which she chose a next step unprompted" does not follow from the sentence before it.
+- The one-line Type 6 definition omits the wary side that the article later says is missing.
+- The methods note interrupts the strongest narrative run.
+- The "Poised" section never says which split stays unexplained.
+- The reader is never told that four 2024 profiles, including the New York Times one, went unread.
+
+**Protected passages (5):** the heel-click closing line, the stake sentence, the "modest origin story also flatters" sentence, the "where the reads would part" sentence, and the no-diagnosis sentence.
+
+**Limits:** I reopened only the New Jersey Monthly source. My own direct and Wayback attempts on the four unread profiles also failed, so the verifier should retry them before confirming eligibility. The similarity advisory was not tripped; I saw only its snippets, not the other drafts.
+
+Risk flags: `contested_typing` stays true; the other three are false.

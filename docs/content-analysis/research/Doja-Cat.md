@@ -6,6 +6,24 @@ Created: 2026-10-11 for a full rebuild and retype (`scripts/run-blog-pipeline.sh
 Draft: `src/blog/people/drafts/Doja-Cat.md` (published; live row is Type 7; legacy page with no v3 run; `lastmod` 2026-01-23).
 Evidence below was collected 2026-10-10 by a research pass that opened every source tagged **V**. Treat all of it as leads and re-open before use.
 
+## Owner's thesis (DJ, 2026-10-12): build every future draft on this
+
+DJ read the published page and rejected the "narrow lean, Type 6 close" framing. His direction, in his words where quoted:
+
+- The type answer commits: "Doja Cat's personality type is the Enneagram type 9, known as the peacemaker." No Type 6 and no "close behind" in the answer.
+- Lead with the triad: "Peacemakers are in the instinctual triad and have the core emotion of anger." Instinctual as opposed to emotional or intellectual. "She's instinctual in the way she moves her body, flows, and vibes."
+- The pattern is anger, "as opposed to her being fearful or feeling shame. She gets angry at things, stays quiet for a while, and then lashes out." Nines "go with the flow, subdue their anger, and numb themselves so they don't feel anger for a while. At a point where it builds up, they lash out."
+- "We kind of need to be making a case for her." The page argues for Nine; Type 6 is handled as an objection in a "Why not Type 6?" section, the same way Type 7 is.
+- Voice: conversational, not compressed. "If you're going to begin with that description of the video, show the video."
+
+Sourced support used for the thesis (all re-opened 2026-10-12): the dance history (DAZED18: ballet, tap, jazz; breakdancing from about eleven; "I danced in a crew and competed around Los Angeles in organised underground cypher/battles"); RS21 "I like to doodle and dance and just get through my day"; BAZ23 "I have a lot of pent-up feelings and anger, and I want to express it with beauty"; V23 "I have thrown fits my whole career because I have been making music that didn't allow me to have a mental release"; AM25 at 19:38 to 21:09, "There's a bratty teenager who lashes out and does things" and "This is my protector. So this is my defense system" (captions and whisper agree).
+
+The answer to Six on the page: fear is how she explains a blowup afterward (2025 and 2026 interviews), anger is what comes out in the moment; a Nine under stress moves toward Six; what she asks for is rest and home. The page still prints her fear statements, the January 2021 tweet, and "an exhausted Six asks for rest too." Keep those. Her March 2026 account stays in its own section, with the type presented as a description of the pattern and not its cause.
+
+Still true from the evidence pass, and not to be written around: her own words about her body are about disconnection (Q10), so the body argument rests on the dance history and how she works, not on her being at ease in her body. The Interview magazine page blocked a re-fetch on 2026-10-12, so "Damn, why are you so mad?" was not added.
+
+The original fan video is https://www.tiktok.com/@thisisntpablo/video/7512933603999763743 (posted 2025-06-06 UTC, "Love you @Doja Cat"). The one Complex links (7515667826154179870) is his June 14 follow-up.
+
 ## Run status (2026-10-11): held, then published as Type 9 by owner override
 
 The rebuild run `2026-10-11_18-12-25-028_Doja-Cat` held at verify with `insufficient_evidence` (Enneagram 7.2, overall 8.1). The jury and the verifier agreed Type 7 is the weakest read. They found no sourced discriminator between Type 9 and Type 6, and a second research pass the same day found none either (see "Second pass" below). The live row is still Type 7; its misquotes were corrected in place (`pipeline-logs/2026-10-11_Doja-Cat-quote-corrections/`).

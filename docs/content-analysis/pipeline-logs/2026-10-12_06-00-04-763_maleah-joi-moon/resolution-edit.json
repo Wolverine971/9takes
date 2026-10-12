@@ -1,0 +1,353 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "The paragraph now gives her stated reason in her own words: psychiatry is 'a scary word for the Black community, because there is so much sociopolitical, economic pressure on us to be 10 steps ahead of everything' (S01), introduced as being 'about her community more than her temperament'. The 'safe example ... you deserve support' and 'health first' quotations were cut (C20, C31 removed) and C20 was dropped from type_hypothesis.for_claim_ids. The limits paragraph says 'Nothing here reads a type from her health, or her health from a type.' The no-diagnosis sentence stays beside the psychiatry quotation, narrowed to 'In that interview' because she named depression herself in the Times (S33)."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "The line is printed once, directly after the magazine sentence it follows, with 'The placement ties the line to that decision. Moon does not say what it refers to.' The settle section no longer mentions it, the Type 4 FAQ no longer quotes it, and the Type 4 case calls it ambiguous. The 'sparkle' line and the 'stretch between school and the audition' sentence were cut (C63 removed). No sentence says she said anything 'of leaving Pace'."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Sentence cut. The settle section now says 'by her own account the decision to leave came before the next job existed' and that the reason is not on record. Section one reports that she left Pace during a depression and then started working (S33), with New Jersey Monthly's 'to pursue television acting' quoted as the magazine's wording. 'The same reason in every 2024 telling' became 'She has given three reasons, usually together', the first being the change of direction."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "'Most of the arrivals' is now three named moments followed by 'Other arrivals she tells with no holding back.' The nominations line includes 'I wasn't expecting it at all' and its plain explanation. Two instances of acting without a push are printed: the 2020 commencement petition (S33), weighed in the Type 9 case, and finishing a number on a re-injured ankle (S04). persona_title is now 'The Newcomer Who Won a Tony First Time Out' and the description no longer mentions the refused audition."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "S33 was opened at edit through a Wayback snapshot and every dependent claim was rechecked and rewritten against it. S34 to S36 were retried and remain unavailable. The introduction now dates the research (October 12, 2026), defines 'the record' as the sources opened by that date, and names the three unread features, so each absence claim in the body is bounded; the Type 4 FAQ says 'Nothing in the sources opened by October 12, 2026 separates the two.'"
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "'She attaches fast' is now 'By her own telling she wanted in on the show within days', and the dated quotation it rests on is printed in section one. 'A rehearsed answer' became 'one she repeats'. Signal 5 asks collaborators for 'a specific situation ... and what she did', with no trait words."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The heading is now 'What other people describe'. The 'mess' quotation is followed by her point about permission to stumble, in her words. The 'insane and a little obsessive' aside was cut (C67 removed). 'The ordinary explanation is that a person can be exacting about her work and still call her younger self a mess' now comes before 'The split stays unexplained.'"
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "The statement now sits in a paragraph that opens 'Some of what she has said about being seen is biography and belongs outside the type argument' and closes 'The occasion called for those words, and her identity is not evidence for any type.' The Type 4 case and FAQ do not rely on it."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Body, settle section and Type 4 FAQ no longer say she said this about leaving Pace. The one remaining use reports the magazine's placement and says the referent is unstated. The Four section weighs the reading in which she wanted no more exposure and notes that 'she then made her name baring it in a musical.'"
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "The reasons paragraph leads with the change of direction, quoting The Tonight Show ('I had left school, and I was starting to pursue, like, film and TV'), and ends 'A performer who had just left a musical theater program for screen work had ordinary reasons to pass on a musical.' The audition FAQ leads with the same reason. The TODAY telling is not quoted on this point because its saved transcription garbles 'left school'. C05's note that she never mentioned a competing plan was corrected."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "A sourced 'before' paragraph was added: Dorothy and every school show (New Jersey Monthly), 'a burning ambition to be on stage' (attributed to the AP), the 2020 commencement petition and an online first semester at Pace (the Times). None of it is said to have caused her to leave. The dip reading is now carried by her own account of illness and recovery and named in the limits paragraph ('Recovery explains more'). The Type 3 dismissal was replaced by a live Type 3 subsection that uses the ambition evidence. The Lion King callback and the cancelled Dreamgirls were left out for length; both are in S33's context note."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Her Marie Claire account is printed with its date and the caveat that she said it 'while promoting a series set at Hillman College, a fictional historically Black college', followed by 'She has not offered it as the reason she left.' The S19 quotation is limited to the words on which the captions and the second transcription agree. 'She does not present herself as different or misunderstood' and 'the usual Four feels set apart' were cut; the case against Four now says what she says about being unseen 'is about race and institutions'."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Took the second option. 'Then full commitment' was cut and the Six case now rests on 'what she reports doing with fear'. The 'judging the moment before' quotation and its inference were also cut (C68, C69 removed), so the answer is no longer printed in half. The missed-performances admission is left out because the two transcripts differ on the clause before it and nobody has listened to it; it is logged as an owed audio check with the ELLE injury context in research_tasks and type_hypothesis.unexplained. Signal 4 now covers 'a visible disagreement with a production or a mentor' as well as criticism."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "'Most' is replaced by three named moments. The 2022 workshop is named as an arrival she tells without hesitation. The nominations and speech carry their plain explanation in the paragraph where they appear ('a 21-year-old nominated beside what she called \"veterans like Kelli O'Hara\" did not expect to win')."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "The paragraph now states that by her account the decision to leave came before the Netflix approach, mentions the workshop (Out), notes that the final performance fell one day short of a year after the first preview without asserting a contract ('it may be as ordinary as a contract ending'), and bounds the absence to 'the record'. Signal 1 says 'A contract ending settles nothing.' The Pace half was removed because her account exists (S33)."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Signal 2 is now 'Which pull she follows first', built on the paths she listed to Marie Claire in October 2026, and the lead-in says another 'held' or 'responsibility' answer would not move the case. The template phrasing is gone from the article and from open_case.settle_signals."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Confirmed and acted on. The editor fetched the Wayback snapshot, read the whole profile and verified each quotation cited. S33 is now an opened source with the snapshot URL. Each listed sentence was corrected: the Pace exit is reported in her attributed, dated words (depression that 'got really bad', treatment and therapy, then work; the inpatient and clinical detail is omitted); 'one sentence about leaving Pace' and 'most of what she has said' are gone; signal 1 and the settle FAQ now wait only for the Hell's Kitchen account; 'to pursue television acting' is quoted as the magazine's wording; the testimony sentence now counts parents, a teacher and a director; pronouns are given in her own explanation. S34 to S36 were retried and are still unavailable, which the article states. The hypothesis and signals were re-tested with S33 in evidence. The leading read and the opening scene stand, but the open questions, the live alternatives and the central argument changed, so the editor set risks.major_thesis_change and recommends --refresh --expanded-review, as this finding asks. This edit is the corrected baseline for that run, not a release candidate."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "The limits paragraph now names recovery beside career stage: 'Recovery explains more. Her \"wasn't enough\" and \"people who hold you\" both date from the years after the illness she described to the Times, and a person describing recovery uses the same words as a person describing temperament.' The psychiatry line is presented as her community-level reasoning, not type evidence. The Six case says 'career stage and recovery each cover the same ground without a type'; the Four exhibits that fall in the period are marked in C123. 'Nothing here reads a type from her health, or her health from a type.'"
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "No listen was possible at the edit stage, so the conservative branch of the test was applied. The article prints only 'I was held the entire time.', the H2 is now '\"I was held the entire time\"', and no sentence credits her with distinguishing carried from held. C55 records that captions and the saved transcription both read 'So it's never like I wasn't carried' and that no listen was done; research_tasks lists it as an owed audio check."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "The type answer and FAQ now read 'In two stories she tells, a trusted person gets her past a refusal.' The hook names three moments and adds 'Other arrivals she tells with no holding back'; section one names them. 'Most' and 'The other arrivals follow the same outline' are gone. Both AP sentences are printed where the discriminator is discussed ('I think that's what got me here in the first place'). The 'self-trust offered as a lesson learned' inference was cut (C23, C70 removed). The Hell's Kitchen exit is described as a decision that 'came before the next job existed', reason not on record."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Type 3 is now a live alternative with its own subsection printing her Times, BroadwayWorld and Marie Claire lines and the reporter's 'thinks carefully about how to present herself in the world'. The reasons against it (she credits God, luck and other people; she disclosed a breakdown and a depression mid-campaign) do not use the audition or marquee stories. Body, type answer, type FAQ and open_case.live_alternatives ([4, 3, 9]) agree. One sentence says why Two was set aside."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "'The same reason' is gone. The audition section reports all three reasons, including S33's 'because I didn't want to do theater anymore and because I had quit school and because I felt so unequipped'. The bare-soul line is printed where the magazine put it, with its referent described as the magazine's placement; neither FAQ uses it. The Six case counts the audition as a story in which someone moves her past a refusal, and the section says a performer who had left a musical theater program for screen work 'had ordinary reasons to pass on a musical'."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "The sentence was cut. The article now prints the S33 septum line in full and the S19 line, states the structural reading ('What she says about being unseen is about race and institutions'), and maps the material (C83, C106, C111, C112, with triggers on the interpretive claims). The ranking is re-argued without it: 'Six stays ahead by a thin margin, and only because of what she reports doing when afraid. If those stories are discounted as press, the two are level.'"
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "The teacher soundbite was cut for length, which removes the unsupported watch-party placement (C26 removed). The testimony paragraph still counts 'a teacher' among those quoted, which S21 and S33 support."
+    },
+    {
+      "finding_id": "critic-09",
+      "action": "fixed",
+      "reason": "'Borrowed confidence' was reworded to 'In her tellings it is other people.' Section one now says 'Nervous-then-backed is also the standard arc of a newcomer's press, and a story a host already knows to ask for is a set piece.' Signal 2 rests on the paths she named to Marie Claire. The discriminator paragraph adds her own self-credit and says the two reads are level if the fear stories are discounted as press."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The second paragraph now says the look-back video was posted 'the day before her final performance in the role', so the March 2025 exit is known from the start and 'farewell' is gone. 'Her last Broadway performance' became 'her final performance as Ali'. The first Broadway preview date (March 28, 2024, Playbill) is printed beside the marquee story. No source dates the marquee visit itself, so the article does not say it came before the opening; the reviewer's own test bars adding a date the evidence does not hold (C146)."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Hell's Kitchen is introduced as 'loosely based on Alicia Keys's adolescence, and its lead is Ali, a 17-year-old in 1990s Manhattan'. A Different World is 'a sequel to the college sitcom of the late 1980s and early 1990s', and Hillman College is identified as 'a fictional historically Black college' at first use. 'Ali' follows the AP and Times spelling."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The line and the magazine sentence before it now appear together, once, with the referent marked as the magazine's placement. 'Without further explanation' is gone. Statements about how little she has said were removed or bounded to the record. 'The same reason' was replaced by three reasons. The Type 4 section reads the line as possibly 'wanting no more of it' and says 'she then made her name baring it in a musical.'"
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "The paragraph now states what her account shows (she was leaving when the Netflix paperwork came, so 'the decision to leave came before the next job existed') and what it does not ('Why is not on record'). The 'no stretch in which she chose a next step unprompted' conclusion is gone, and signal 1 follows directly."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "The Type 6 definition now names both halves: 'doubts her own footing, leans on people she trusts, and keeps testing whether they will hold.' The AP advice line was cut with its inference, so the reversed-fragment problem no longer arises (C23, C70 removed)."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "The methods note moved to the paragraph after the first SiriusXM quotation, with its content kept and one sentence added about the archived Times copy. The persisting-doubt paragraph, including the April 2024 line, was cut for length (C08, C49 removed). The TODAY sentence is kept word for word because two reviewers protect it; the sentence after it now says what it shows: 'a story a host already knows to ask for is a set piece.'"
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The section now says 'Most describe composure' and 'Only Bean caught the other side', which matches the testimonies quoted. One plain sentence names the surviving contradiction: 'a person can be exacting about her work and still call her younger self a mess', followed by 'The split stays unexplained.'"
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "The introduction says three 2024 features 'could not be opened, so every statement about what the record lacks is a statement about what was read.' Signal 1 asks for 'A fuller account'. S33 was opened at edit and the sentences that depended on its absence were rewritten."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Took option (b). Type 3 is a live alternative with a for-and-against drawn from the record, a branch in signals 1, 3 and 4, and matching type answer, FAQ and open_case.live_alternatives. The dismissal that rested on hesitation is gone. The split sentence now reads 'Of the four reads, Three has the readiest account of a composed surface over private doubt, but one contrast is not a case.'"
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "The Type 9 subsection states the motive ('wants peace and tends to be moved by other people's momentum more than her own'), says 'Being pushed across a threshold fits that as well as it fits Six', and names the separating observation as unsettled: 'whether she seeks the push out or goes along when it arrives.' The counter now cites the record: 'I was angry,' 'I need to be a part of this,' 'I want to do everything.'"
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The case against Type 6 now names both points in plain language: 'Her stated doubt is about adequacy, about being enough or big enough or equipped, and never about a threat or whether someone can be trusted' and 'Before the nominations and the Tony she did not prepare, and an anxious planner would have.' It then says what the read still explains: 'the direction she turns when she is afraid, which is toward people.' No wing, arrow or subtype is used."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "The Four subsection says the line 'can be read as wanting exposure on her own terms or as wanting no more of it. She has not said which', and section one says its link to Pace is the magazine's placement. The Type 4 FAQ no longer uses the line. The Pride speech is reported as biography with the occasion named, and the talk-show outfit was cut (C59 removed). The Four case now rests on 'her steadiest subject from 2023 to 2026' and the septum statement."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Signal 2 now asks what she chooses, turns down and decides alone after Season 1, and the lead-in says another 'held' or 'responsibility' answer 'would not move the case'. Signal 5 asks collaborators about 'a note she disagreed with, a decision she made alone, a stretch without her mentors nearby, and what she did.' The settle FAQ and open_case.settle_signals match."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "The Six case names the episodes that carry it ('In the audition and marquee stories, someone she trusts moves her past a refusal') and counts the 2022 attachment line once, against the read. 'Then full commitment', 'most of the arrivals' and 'The other arrivals follow the same outline' are gone. The 59-word answer and the type FAQ attribute the pattern to 'two stories she tells'."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The inference was cut along with the AP advice line (C23, C70 removed). The S20 advice was not quoted because it has not been re-listened to and is advice to students, not self-description."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "Both pieces are logged in research_tasks as not located (the 2023 Vogue feature; Out's 2025 Pride of Broadway cover story), with an instruction to open the Out piece before the next release. The article's statement is bounded: 'Nothing in the record says why she left Hell's Kitchen', where 'the record' is defined as the sources opened by October 12, 2026. The Out speech report (S08) was re-read through Wayback and carries no account of the exit."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Signals 2 and 3 now name observations not on the record: which path she takes and what she turns down after Season 1, and concrete choices about the music (alone or with mentors, held back or timed to the series). The lead-in states that none of the five 'can be answered from quotations already printed here'. The body, settle FAQ and open_case.settle_signals agree."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The introduction states 'Research for this profile closed on October 12, 2026. \"The record\" below means the sources opened by that date.' The settle FAQ opens 'As of October 12, 2026' and the Type 4 FAQ says 'in the sources opened by October 12, 2026'. C128 tracks the date as time_sensitive."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "The description now reads 'led Netflix's A Different World in 2026' (155 characters). C94 is time_sensitive with a trigger naming both the title and the description."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The first Her Campus mention carries its date (September 23, 2026), as do the music claims in signal 3 and the settle FAQ. The Tonight Show date includes 2024. The pronoun sentence is now sourced to her own explanation in the Times (May 2024), a dated primary statement, in place of Out's usage; C61 is time_sensitive with a trigger."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The sentence was replaced by 'Nothing in the record says why she left Hell's Kitchen', with her account of the Pace exit reported in section one. It has its own claim (C72), marked unresolved, with a trigger tied to settle signal 1."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "The premiere sentence now links What's on Netflix, which states the date; Tudum is linked only on 'Deborah Wayne'. research_tasks carries a task to capture original-publisher or archive URLs for the ELLE column (S04) and the AP profile (S06) at the next refresh."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "C32's trigger and research_tasks now label April 1, 2027 a backstop six months after research closed, explain that Netflix has given no Season 2 date, and say what a no-news review does: retry S34 to S36 and the two unlocated pieces, then move next_review to the Season 2 press window once it is dated."
+    },
+    {
+      "finding_id": "future-08",
+      "action": "fixed",
+      "reason": "C88 is now unresolved with a trigger. The age FAQ adds 'One 2026 Out interview quotes her saying she was born in 2000, which conflicts with every printed age' (C130)."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "She named no diagnosis of her own, and this profile infers none.",
+      "action": "changed",
+      "reason": "A false detail had to be corrected: in the Times (S33) she named depression herself, so 'named no diagnosis of her own' is no longer true of the record. The restraint is kept in two sentences: 'In that interview she named no diagnosis, and this profile does not attribute her character's to her', beside the psychiatry quotation, and 'Nothing here reads a type from her health, or her health from a type.'"
+    },
+    {
+      "passage": "Circumstance explains much of this. She was a newcomer among Broadway veterans, then a first-time television lead beside the original cast, and anyone in that seat gets looked after.",
+      "action": "kept",
+      "reason": "Kept word for word. 'Recovery explains more' now follows it."
+    },
+    {
+      "passage": "This profile could not confirm an exact date, so none is given.",
+      "action": "kept",
+      "reason": "Kept word for word. No day or month was added."
+    },
+    {
+      "passage": "In the sources opened for this profile, nobody else describes her refusing the audition, and Walton is not quoted on the coaching.",
+      "action": "kept",
+      "reason": "Kept word for word. Rechecked against S33: the Times quotes Walton only on her promise and says her agent suggested the audition."
+    },
+    {
+      "passage": "Both roles were built to absorb her life, which limits what the theme can show.",
+      "action": "kept",
+      "reason": "Kept word for word."
+    },
+    {
+      "passage": "\"I can't do it, I can't do it, I'm not ready yet, I'm not ready yet.\"",
+      "action": "kept",
+      "reason": "Kept word for word. Still the lede; the audio check flagged at draft remains owed."
+    },
+    {
+      "passage": "Every one of these stories is hers alone. In the sources opened for this profile, nobody else describes her refusing the audition, and Walton is not quoted on the coaching. By May 2024 a TODAY host was asking her to confirm the audition story. A modest origin story also flatters a newcomer and the production that cast her.",
+      "action": "kept",
+      "reason": "Kept word for word. One sentence about press convention was added after it."
+    },
+    {
+      "passage": "And when her father finally got her to the Shubert, she says, she clicked her heels, \"because it was just that momentous of an occasion.\"",
+      "action": "kept",
+      "reason": "Kept word for word. Still the last line."
+    },
+    {
+      "passage": "By May 2024 a TODAY host was asking her to confirm the audition story. A modest origin story also flatters a newcomer and the production that cast her.",
+      "action": "kept",
+      "reason": "Kept word for word."
+    },
+    {
+      "passage": "And the record lacks the other half of a Six: there is no instance of her doubting an authority, testing whether someone can be trusted, or hedging.",
+      "action": "kept",
+      "reason": "Kept word for word. 'The record' is now defined in the introduction as the sources opened by October 12, 2026, and the sentence was rechecked against S33."
+    },
+    {
+      "passage": "No read predicts this split better than the others. It stays unexplained.",
+      "action": "changed",
+      "reason": "With Type 3 live, the first sentence was no longer true: a Three read has a ready account of composure over private doubt (enneagram-01). It now reads 'Of the four reads, Three has the readiest account of a composed surface over private doubt, but one contrast is not a case. The split stays unexplained.' The contradiction is still left standing, with no wing or arrow."
+    },
+    {
+      "passage": "She wrote it on a page torn from her journal.",
+      "action": "kept",
+      "reason": "Kept word for word."
+    },
+    {
+      "passage": "What the holding back is about, and what gets her past it, is the open question.",
+      "action": "kept",
+      "reason": "Kept word for word. The next sentences add that she has answered part of it herself."
+    },
+    {
+      "passage": "A modest origin story also flatters a newcomer and the production that cast her.",
+      "action": "kept",
+      "reason": "Kept word for word."
+    },
+    {
+      "passage": "That is where the reads would part: a Six would be expected to grow wary and look for firmer ground, a Four to withdraw and insist on her own truth.",
+      "action": "kept",
+      "reason": "Kept word for word."
+    },
+    {
+      "passage": "The best candidate is what gets her across a threshold, and in her tellings it is borrowed confidence. But each telling is hers, and the record holds no case where support was missing or an authority let her down.",
+      "action": "changed",
+      "reason": "The move is kept: a named candidate discriminator, why it does not yet hold, and the event that would test it. Wording changed in two places. 'Borrowed confidence' became 'In her tellings it is other people', because a nearby profile uses 'Borrowed certainty' as a heading (critic-09). Her own self-credit from the AP was inserted between the two sentences (critic-04)."
+    },
+    {
+      "passage": "The few people who have described her were promoting a project with her or celebrating her, and they still do not describe one person.",
+      "action": "changed",
+      "reason": "A false detail had to be corrected: S33 quotes her parents, a teacher and her director, who were not promoting a project, and the quoted observers mostly agree with each other (unfamiliar-07). It now reads 'Everyone quoted about her in the record is a parent, a teacher or a collaborator, speaking during a Tony campaign or a launch. Most describe composure.' The limit on the testimony and the unresolved contradiction are both kept."
+    },
+    {
+      "passage": "That is what Maleah Joi Moon says she told her parents when the marquee for _Hell's Kitchen_, the Broadway musical she led, went up outside the Shubert Theatre.",
+      "action": "kept",
+      "reason": "Kept word for word."
+    },
+    {
+      "passage": "Whichever read wins, some of this should stand.",
+      "action": "kept",
+      "reason": "Kept word for word. The closing paragraph keeps its design and ends on the heel click."
+    },
+    {
+      "passage": "Netflix renewed the series for a second season on October 2, 2026, and had announced no premiere date as of October 12, 2026.",
+      "action": "kept",
+      "reason": "Kept word for word. It remains in the series FAQ."
+    }
+  ],
+  "prior_blockers": []
+}

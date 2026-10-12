@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "4965fc67bb6779a9b1655915747f8c26a879b52ba223c32e378383cde87d18b6",
+  "evidence_sha256": "a1ad59c3c43fd9fffcdd79c14c67a980fa5288c4d8c83103c237cba83a6dd647",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "Crediting the people who backed her for steadying her points to Six. Private creative work and holding to herself against expectations points to Four. Tuning it out points to Nine.",
+      "problem": "Signal 2 asks Season 2 press a question the Season 1 press has already answered three ways. She credits the people who 'hold' her (SiriusXM, October 7, 2026), she sketches to put the incoming attention 'somewhere that feels good, just for me' (Her Campus), and the evidence record has her calling fan expectations 'not [her] business' (S01 context). The article's own argument is that self-report inside a promotional cycle cannot separate the reads, so a third cycle of the same vocabulary would let a later run close the case on evidence no different in kind. Signal 3 shares the weakness: album publicity routinely says both 'confessional, my own way' and 'for my community'.",
+      "acceptance_test": "In the body, the settle FAQ and open_case.settle_signals, signals 2 and 3 each name an observation that is not already on the record and cannot be read off campaign vocabulary, for example what she did at a specific moment when backing was missing or she disagreed with a mentor or production, or a concrete choice about the music (who she makes it with, what she turns down). Alternatively they are ranked explicitly below signals 1, 4 and 5 as weak. Test: no signal can be answered from quotations already printed in the article."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "almost every interview opened for this profile was given while promoting one of those two projects",
+      "problem": "The open case rests on statements about what the record lacked when it was surveyed ('nobody else describes her refusing the audition', 'there is no instance of her doubting an authority', 'nothing found about leaving Hell's Kitchen', 'Nothing firm separates the two yet', 'Her record is too young'), and none carries an as-of date in the body. The only as-of dates on the page are her age (October 1, 2026) and, in one FAQ, the Season 2 date (October 12, 2026). The evidence record tracks these (C42, C51, C72, C80, C84), but a reader in 2028 cannot tell when the record was read, and lastmod can change without new research. Undated, they read as standing fact and will look wrong the day she gives one long interview.",
+      "acceptance_test": "The body states once, with an absolute date, when the record was surveyed (research closed October 12, 2026), placed where the open question is introduced so every later 'nothing found', 'no instance' and 'not yet' statement inherits it. The type FAQ or the settle FAQ repeats that date. No absence claim is left that a reader could mistake for a standing fact."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "Now she leads Netflix's A Different World.",
+      "problem": "A present-tense status claim in the search-facing description, mapped as stable with an empty review_trigger (C94). It goes stale when the series ends, she leaves it, or a later credit eclipses it. C25's trigger watches the series, but nothing points back to the description or to the title's 'of A Different World' framing, so a refresh could update the body and leave the metadata behind.",
+      "acceptance_test": "The description gives the role with its year instead of 'Now' (for example 'In 2026 she took the lead in Netflix's A Different World') and stays within 120 to 170 characters. C94 is marked time_sensitive with a trigger that names both title and description for recheck when the series' status or her best-known credit changes."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "the original songs Her Campus says she is writing",
+      "problem": "Her Campus is cited six times across the body and FAQs and never dated for the reader, yet it carries the page's most perishable present-tense statements ('she is writing', 'she sketches'). 'Out says she uses she/they pronouns' is also undated, and C61 is stable with no trigger even though its own note says she has not been quoted on pronouns and most 2026 coverage uses 'she'. 'On The Tonight Show on March 22' has no year at the point of use.",
+      "acceptance_test": "The first Her Campus mention carries its date (September 23, 2026), and the music claim in signal 3 and the settle FAQ reads as of that date. The pronoun sentence gives the Out dates (October 2024 and August 2026). The Tonight Show date includes 2024. C61 is time_sensitive with a trigger to recheck if she states her pronouns herself or Out changes its usage."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "So the record shows no stretch in which she chose a next step unprompted.",
+      "problem": "A universal negative that the article contradicts two sections earlier: by New Jersey Monthly's account she left Pace's musical theater program to pursue television acting, and the ELLE column (S04) has her doing film, TV and workshops in 2022 before the audition arrived. That is a self-chosen next step. What the record lacks is her explanation of it, not the stretch. The sentence also has no claim of its own (it rides on C24 and C72), so no trigger will bring it back for review, and it is the sort of sweeping line a single new interview falsifies.",
+      "acceptance_test": "The sentence is narrowed to what the record supports: the one unprompted move on record (leaving Pace for television work in 2022) has a single sentence of explanation, and the Broadway-to-Netflix handover left no gap. The revised passage is mapped to its own claim, marked unresolved, with a trigger tied to settle signal 1."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "On September 24, 2026, Netflix premiered [_A Different World_](https://www.netflix.com/tudum/articles/new-article-2dlnr8ug7pvtvcvpwmdt7v)",
+      "problem": "The link on a dated event points to an undated studio page that, by the evidence record's own note (C40), was written before release and does not carry the premiere date; the date rests on S23 and S02. The page is a living explainer with a placeholder slug that Netflix is likely to rewrite for Season 2. Separately, the two print sources that carry much of the thesis, the ELLE column and the AP profile, are linked only through AOL and news4jax syndication copies, the kind of URL least likely to last five years, and the record holds no archived copy.",
+      "acceptance_test": "The premiere sentence links a dated source already opened that states the date (What's on Netflix, October 2, 2026, or Her Campus, September 23, 2026); Tudum is kept only for the character description. For S04 and S06 the evidence record gains an opened original-publisher URL or an archive snapshot URL, or a research task to capture one at the next refresh."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "Reopen by April 1, 2027, or sooner on Season 2 press, a music release, a first-person account of leaving Hell's Kitchen, or the first long independent profile with testimony from collaborators.",
+      "problem": "Evidence record (C32 review_trigger and open_case.next_review). The standard asks for a next_review date tied to the next dated catalyst. April 1, 2027 is a bare calendar date: nothing in open_case, C32 or the research tasks says what it is tied to, and the only timing hint on record is Netflix's undated 'next year at Hillman College'. If Season 2 lands late in 2027, an April run finds nothing new and the following date is undefined. The four unopened 2024 profiles (S33 to S36) are the one check that needs no new event, and they are not attached to this date.",
+      "acceptance_test": "open_case.next_review is either tied in writing to a named, dated event or labelled a backstop with its reason, and C32's trigger says what a no-news review does (retry S33 to S36, then move next_review to the Season 2 press window once Netflix dates it)."
+    },
+    {
+      "id": "future-08",
+      "severity": "minor",
+      "passage": "which puts her birth in 2002",
+      "problem": "C88 is stable with no trigger, but its own note records an open conflict: Out's August 2026 feature, linked in the article and listed in citations, prints her saying 'I was born in 2000', and the day differs between Wikipedia and two databases. The arithmetic from the two printed ages is sound (it allows only June 17 to October 1, 2002), but a reader who follows the Out link finds a first-person statement the FAQ never mentions.",
+      "acceptance_test": "C88 is marked unresolved with a trigger (recheck when a primary source states her birth date or Out corrects the quotation). The age FAQ either notes in a clause that one published quotation gives 2000 and why the printed ages are preferred, or the resolution records why the conflict stays off the page."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "That is what Maleah Joi Moon says she told her parents when the marquee for _Hell's Kitchen_, the Broadway musical she led, went up outside the Shubert Theatre.",
+      "reason": "The hook rests on a 2024 episode she retold in March 2025, not on the 2026 premiere. Take the Netflix series away and the opening still works."
+    },
+    {
+      "passage": "Whichever read wins, some of this should stand.",
+      "reason": "The close separates what is known from what is read into it, which is the open-case durability test. Keep the paragraph's design: sourced facts that survive either outcome, ending on the heel click."
+    },
+    {
+      "passage": "A modest origin story also flatters a newcomer and the production that cast her.",
+      "reason": "A plain statement of the incentive behind the central anecdote. It will be as true and as useful in five years as it is now."
+    },
+    {
+      "passage": "That is where the reads would part: a Six would be expected to grow wary and look for firmer ground, a Four to withdraw and insist on her own truth.",
+      "reason": "Names the one observation that would actually discriminate. It is the yardstick the settle signals should be held to (see future-01)."
+    },
+    {
+      "passage": "Netflix renewed the series for a second season on October 2, 2026, and had announced no premiere date as of October 12, 2026.",
+      "reason": "The model for a changing fact: event date plus as-of date. The body's other perishable statements should be dated the same way."
+    }
+  ],
+  "assessment": "Open-case eligibility holds: she is 24, her first professional role opened in November 2023, the Tony came in June 2024 and her first screen lead in September 2026; 33 sources were opened and five types tested. Four 2024 features, including the New York Times profile, could not be opened; they are logged as research tasks and are not a skipped deep record. Title, description and FAQs keep to 'leading read' and 'open case' language. Five-year test: the hook, the close and both readings rest on episodes from 2022 to 2025, so removing the Netflix series costs one cross-context check and not the insight. Dates in the body are absolute and consistent with each other and with the evidence record; I checked the arithmetic, not the sources, which is the evidence role's job. The durability weaknesses sit in the reopen machinery: two settle signals can already be answered from the current record, the record's cut-off is undated for the reader, a few status claims and attributions are present-tense and untracked, and next_review is not tied to a catalyst. The similarity advisory was available and did not trip (max 0.074, no shared phrases; the matched lines are one-sentence type definitions attached to different arguments), so there is no reuse finding."
+}

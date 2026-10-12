@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "maleah-joi-moon",
+  "mode": "create",
+  "role": "enneagram",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/similarity.json"
+  },
+  "outputs": {
+    "review-enneagram.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/review-enneagram.json"
+  },
+  "content_sha256": "4965fc67bb6779a9b1655915747f8c26a879b52ba223c32e378383cde87d18b6",
+  "evidence_sha256": "a1ad59c3c43fd9fffcdd79c14c67a980fa5288c4d8c83103c237cba83a6dd647"
+}

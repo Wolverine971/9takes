@@ -1,0 +1,19 @@
+The future-role review is written to `review-future.json` in the run directory. It validates against `reviewSchema`, its hashes match the frozen draft and evidence, and no other file was touched or published.
+
+The draft passes the five-year test on its thesis and is eligible as an open case. I raised two major and six minor findings, all about how the page ages and gets reopened.
+
+**Major**
+- **Settle signal 2 is already answered.** It asks what she credits for steadying her during Season 2 press, but the Season 1 press already contains all three answers (people who "hold" her, sketching "just for me", fan expectations "not [her] business"). A later run could close the case on more of the same promotional vocabulary. Signal 3 (her music) has the same weakness.
+- **The record's cut-off is undated for the reader.** The open case rests on "nothing found" and "no instance" statements, and none carries an as-of date in the body.
+
+**Minor**
+- The description says "Now she leads Netflix's A Different World", a present-tense status with no review trigger.
+- Her Campus is cited six times and never dated, though it carries the "is writing" music claim; the Out pronoun line and the Tonight Show "March 22" also lack dates.
+- "The record shows no stretch in which she chose a next step unprompted" contradicts the draft's own account of her leaving Pace for television work.
+- The premiere sentence links an undated, pre-release Tudum page, and the ELLE and AP sources are linked only through syndicated copies.
+- `next_review` (April 1, 2027) is not tied to any named catalyst.
+- The birth-year claim has no trigger, although the cited Out feature prints her saying "I was born in 2000".
+
+I protected five passages, including the marquee hook and the "Whichever read wins" close. The similarity check did not trip, so there is no reuse finding. Risk flags are unchanged: contested typing only.
+
+I did not reopen sources; I checked dates and arithmetic against the evidence record only.

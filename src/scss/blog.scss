@@ -140,6 +140,15 @@ blockquote {
 	}
 }
 
+/* Vertical clips (TikTok player): a phone-shaped frame, centered in the column.
+   Two classes so it outranks the responsive .iframe-container rules below. */
+.iframe-container.iframe-container--vertical {
+	width: min(100%, 340px);
+	min-height: 0;
+	aspect-ratio: 9 / 16;
+	margin-inline: auto;
+}
+
 /* Blog layout container */
 @include tablet-up {
 	.blog {

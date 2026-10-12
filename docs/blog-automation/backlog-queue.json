@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-10-11T16:00:21Z",
+	"lastUpdated": "2026-10-12T06:00:00Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
@@ -50,19 +50,6 @@
 			"strategicValue": "entity-gap-tech-analyst-cluster",
 			"entityGapScore": 70,
 			"entityGapPacket": "docs/content-analysis/entity-gaps/Dan-Ives.md"
-		},
-		{
-			"name": "maleah-joi-moon",
-			"displayName": "Maleah Joi Moon",
-			"type": null,
-			"priority": 91,
-			"priorityReason": "A Different World sequel (Netflix Sept 24, No. 1, reported renewed); Wikipedia 149/day Jun -> 17.7K/day last 7 and still climbing; Tony + Grammy winner at 24.",
-			"estimatedTraffic": "high",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-10-04",
-			"retryCount": 0,
-			"strategicValue": "netflix-fall-breakout-cluster"
 		},
 		{
 			"name": "sienna-spiro",
@@ -248,6 +235,23 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "stella-lefty",
+			"displayName": "Stella Lefty",
+			"type": null,
+			"priority": 92,
+			"priorityReason": "'Boston' #2 Hot 100; Wikipedia ~950/day Jun -> ~14.5K/day sustained 10 weeks; tour Oct 30-Nov 23; Grammy BNA contender (noms Nov 16). Plagiarism claims are allegations - attribute, never use as personality evidence.",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-04",
+			"retryCount": 0,
+			"strategicValue": "grammy-bna-2027-cluster",
+			"startedAt": "2026-10-11T06:00:00Z",
+			"completedAt": "2026-10-12T06:00:00Z",
+			"needsReview": true,
+			"recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated."
+		},
 		{
 			"name": "ilya-sutskever",
 			"displayName": "Ilya Sutskever",
@@ -2016,18 +2020,18 @@
 		}
 	],
 	"inProgress": {
-		"name": "stella-lefty",
-		"displayName": "Stella Lefty",
+		"name": "maleah-joi-moon",
+		"displayName": "Maleah Joi Moon",
 		"type": null,
-		"priority": 92,
-		"priorityReason": "'Boston' #2 Hot 100; Wikipedia ~950/day Jun -> ~14.5K/day sustained 10 weeks; tour Oct 30-Nov 23; Grammy BNA contender (noms Nov 16). Plagiarism claims are allegations - attribute, never use as personality evidence.",
+		"priority": 91,
+		"priorityReason": "A Different World sequel (Netflix Sept 24, No. 1, reported renewed); Wikipedia 149/day Jun -> 17.7K/day last 7 and still climbing; Tony + Grammy winner at 24.",
 		"estimatedTraffic": "high",
-		"searchVolume": "high",
+		"searchVolume": "medium",
 		"personaTitle": null,
 		"addedToQueue": "2026-10-04",
 		"retryCount": 0,
-		"strategicValue": "grammy-bna-2027-cluster",
-		"startedAt": "2026-10-11T06:00:00Z"
+		"strategicValue": "netflix-fall-breakout-cluster",
+		"startedAt": "2026-10-12T06:00:00Z"
 	},
 	"skipped": [
 		{

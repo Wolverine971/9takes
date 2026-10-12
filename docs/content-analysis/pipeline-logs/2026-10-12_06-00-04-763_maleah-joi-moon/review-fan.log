@@ -1,0 +1,22 @@
+The fan review is written to `review-fan.json` in the run directory. It parses against `reviewSchema`, both hashes match the request, and every finding and protected passage matches the draft text exactly. No other file was touched and nothing was published.
+
+**Verdict:** open-case eligibility holds and there is no blocker. The leading read (Type 6, low confidence) stands. The draft's weakness is that the portrait starts in 2022 and trims her own accounts in ways that favour a trait reading of the hesitation over a circumstantial one.
+
+Seven major findings and one minor:
+
+- **fan-01 — "bare my soul" referent.** New Jersey Monthly prints the line inside its account of why she turned the audition down. The draft asserts it as her reason for leaving Pace in the body, the settle section and the Type 4 FAQ.
+- **fan-02 — "the same reason in every 2024 telling".** All four tellings also say she had just left school, and three say she had turned to film and TV. The draft drops that ordinary explanation.
+- **fan-03 — no "before".** The cited sources hold a confident school-theater kid, Broadway auditions for The Lion King and Six, a pandemic-cancelled senior show and a 2020 college start. Without them the 2022 refusal reads as a standing trait instead of a dip.
+- **fan-04 — her own account of Pace is missing.** In 2026 she repeatedly described a predominantly white school where she "didn't see myself". That contradicts the draft's line that she "does not present herself as different or misunderstood".
+- **fan-05 — SiriusXM answer cut in half.** The unquoted first half has her admitting she missed shows and that people "was mad". The draft meanwhile asserts "then full commitment" and treats criticism as wholly in the future.
+- **fan-06 — "most of the arrivals" overstates.** She tells the workshop, Met Gala, Grammy, Netflix casting and talk-show debut without hesitation.
+- **fan-07 — "no stretch in which she chose a next step unprompted".** By her own sequence she was already leaving Hell's Kitchen when the Netflix NDA arrived.
+- **fan-08 (minor) — settle signal 2 is the standard's template example with the nouns changed.**
+
+Five passages are protected: the opening quote, the "hers alone" paragraph, the no-diagnosis sentence, "Both roles were built to absorb her life", and the heel-click ending.
+
+Limits on my checking:
+
+- **Sources:** I compared the draft against the saved research captures and transcripts in `/tmp/maleah-joi-moon-research`. I did not re-fetch live pages or listen to audio, so transcript wording quoted in the findings needs the re-listen the evidence record already asks for.
+- **Unread profiles:** the four unopened 2024 features (the New York Times profile above all) remain unread; the saved captures are bot walls.
+- **Similarity:** the advisory was not tripped (max 0.074, no shared phrases). I did not read the comparison drafts or any other review.

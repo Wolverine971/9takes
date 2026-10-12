@@ -1,6 +1,6 @@
 # Blog Cross-Link Index
 
-_Generated: 2026-10-11 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
+_Generated: 2026-10-12 by `pnpm gen:crosslinks` (scripts/generate-crosslink-report.js)_
 _Search data: GSC 2026-07-04 → 2026-10-02 (pulled 2026-10-04)_
 
 **Scope.** Link counts cover **live posts only**: files a route actually serves with `published: true`
@@ -179,7 +179,7 @@ Unlinked mentions on other people pages are queued in `link-opportunities.md` §
 
 | In | Out | Impressions | Page |
 |---|---|---|---|
-| 211 | 17 | 1,284 | `/enneagram-corner/enneagram-types-in-stress` |
+| 212 | 17 | 1,284 | `/enneagram-corner/enneagram-types-in-stress` |
 | 190 | 40 | 6,730 | `/enneagram-corner/enneagram-wings-complete-guide` |
 | 155 | 16 | 6,880 | `/enneagram-corner/enneagram-instinctual-subtypes` |
 | 147 | 14 | 3,674 | `/enneagram-corner/enneagram-type-3` |
@@ -301,7 +301,7 @@ Sorted by impressions. In = blog + people pages linking in. Out = links to live 
 | 1,382 | 27.0 | 3 (3/0) | 3 (3/0) | Is the Enneagram Religious? (The Truth About Its Spiritual Origins) | `/enneagram-corner/enneagram-and-religion` |
 | 1,362 | 9.1 | 24 (22/2) | 15 (15/0) | Your Type's Fatal Flaw (And Secret Superpower) Based on Enneagram | `/enneagram-corner/enneagram-strengths-and-weaknesses` |
 | 1,329 | 56.6 | 131 (51/80) | 25 (15/10) | Enneagram Type 6: Loyalist - Search for Solid Ground | `/enneagram-corner/enneagram-type-6` |
-| 1,284 | 26.0 | 211 (70/141) | 17 (17/0) | Enneagram Types in Stress: Stress Points, Arrows, and the Loop Undern… | `/enneagram-corner/enneagram-types-in-stress` |
+| 1,284 | 26.0 | 212 (70/142) | 17 (17/0) | Enneagram Types in Stress: Stress Points, Arrows, and the Loop Undern… | `/enneagram-corner/enneagram-types-in-stress` |
 | 1,110 | 7.8 | 9 (9/0) | 5 (5/0) | How to Apologize by Enneagram Type: The Nine Scripts Each Type Skips | `/enneagram-corner/how-to-apologize-like-a-pro` |
 | 1,051 | 8.0 | 3 (3/0) | 6 (5/1) | Ghislaine Maxwell: The Hostage Princess Who Became the Enabler-in-Chi… | `/pop-culture/ghislaine-maxwell-psychology` |
 | 1,050 | 11.0 | 123 (50/73) | 14 (14/0) | Enneagram Type 8: Challenger - Behind the Armor | `/enneagram-corner/enneagram-type-8` |

@@ -123,7 +123,8 @@ const config = {
 					'https://www.youtube.com',
 					'https://www.youtube-nocookie.com',
 					'https://open.spotify.com',
-					'https://player.vimeo.com'
+					'https://player.vimeo.com',
+					'https://www.tiktok.com'
 				],
 				'media-src': ['self', 'blob:', 'https:'],
 				'worker-src': ['self', 'blob:'],

@@ -13,6 +13,8 @@ _Purpose: Complete workflows for creating and editing content_
 
 **Need a checklist to follow?** Use the [`Content Creation Checklist`](../templates/content-creation-checklist.md) ⭐
 
+**Checking whether a post is good?** Run `pnpm audit:readability`, then follow [`05-blog-quality-check.md`](./05-blog-quality-check.md)
+
 **Improving existing content?** Follow the [Case Study](#case-study-communication-tips-rewrite) below for a practical example of the full optimization process.
 
 ---
@@ -25,6 +27,7 @@ _Purpose: Complete workflows for creating and editing content_
 | [`02-blog-optimization-framework.md`](./02-blog-optimization-framework.md) | Transform underperforming posts                        | Improving existing content |
 | [`03-mcphee-editing-method.md`](./03-mcphee-editing-method.md)             | Professional editing technique                         | Editing pass on drafts     |
 | [`04-content-patterns-library.md`](./04-content-patterns-library.md)       | Example patterns and structures                        | Finding inspiration        |
+| [`05-blog-quality-check.md`](./05-blog-quality-check.md)                   | Four-pass check: shape, skim, read, facts              | Checking any post          |
 
 ---
 

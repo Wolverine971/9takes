@@ -1,0 +1,21 @@
+The subject-role review is written to `review-subject.json` and parses against `reviewSchema`. Hashes are copied from the request, and every finding and protected passage is an exact match in the frozen draft. No other file was modified and nothing was published.
+
+**Verdict:** no blocker, five major and three minor findings. Open-case eligibility holds: she is an adult, about three years into a professional career, 33 sources were opened, and confidence stays low across title, description and FAQs.
+
+**Risk flags:** `contested_typing` stays true (open case). `sensitive_allegations` stays false, because the sensitive material is her own health and identity statements, not allegations.
+
+The findings are all one kind of problem: the author's reading presented as the record.
+
+- **subject-01 (major):** Her "you deserve support" language is used as Type 6 evidence with her stated reason removed. In Marie Claire and on SiriusXM she ties it to mental-health stigma and pressure on Black women. Her psychiatry remark sits in the same type-evidence paragraph.
+- **subject-02 (major):** "I didn't want to bare my soul anymore" is stated three times, including in the Type 4 FAQ, as her explanation for leaving Pace. The magazine's placement, not Moon, makes that link.
+- **subject-03 (major):** "So the record shows no stretch in which she chose a next step unprompted" contradicts the draft's own sources. She left Pace for screen work and was leaving Hell's Kitchen before she was cast in the Netflix series.
+- **subject-04 (major):** "Most of the arrivals" overstates the hold-back pattern. The draft drops her "I wasn't expecting it at all" and leaves out episodes where she acted without a push, such as finishing a number on a re-injured ankle. The persona title and description carry the same frame.
+- **subject-05 (major):** Several absence claims speak for the whole public record, while four identified 2024 profiles, including The New York Times one, were never opened and the reader is not told.
+- **subject-06 to subject-08 (minor):**
+  - "She attaches fast" is an unhedged trait claim.
+  - The H2 `"a mess" to herself` overstates a qualified, smiling remark, and "I'm insane" is quoted without marking it as a joke.
+  - Her Pride of Broadway identity statement is used as Type 4 evidence.
+
+Five passages are protected, including the no-diagnosis sentence, the undated birth year, and the "circumstance explains much of this" paragraph.
+
+I checked the fairness-critical quotations against the saved source text in `/tmp/maleah-joi-moon-research`. I did not re-listen to audio or try to open the four unread profiles. The similarity diagnostic was not tripped, and its top matches are ordinary type vocabulary.

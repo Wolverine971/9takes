@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "4965fc67bb6779a9b1655915747f8c26a879b52ba223c32e378383cde87d18b6",
+  "evidence_sha256": "a1ad59c3c43fd9fffcdd79c14c67a980fa5288c4d8c83103c237cba83a6dd647",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Type 3 was considered and set aside for now: a person organized around success is an odd fit for someone who, by her own account, refused the audition and put off looking at her own marquee.",
+      "problem": "The dismissal argues from a type caricature, and the evidence record contradicts it: C30 says 'A Three can also fear public failure enough to avoid a big audition', and C05 says 'not enough' fits a Three's fear of failing publicly as well as a Six's doubt. The record also holds Three support the reader never sees: 'all anybody wants is to be recognized, I think, for their work' (S16), 'creating an image for myself, which is nerve-wracking but awesome' (S15), 'I constantly feel the need to push forward. What's next?' (S01), and impostor syndrome named as her biggest obstacle (S07). The split the article calls unexplained (poised to colleagues and teachers, 'a mess' and 'my own worst enemy' to herself) is one a Three read has a ready account of, so 'No read predicts this split better than the others' is true only of the three live reads.",
+      "acceptance_test": "The Type 3 sentence no longer rests on hesitation. It either (a) gives Three a short for-and-against drawn from the record, for example the recognition and image lines against her habit of crediting luck, God and other people and of volunteering doubt and mess, and says why it ranks below Nine, or (b) promotes Three to a live alternative with a branch in the Season 2 and criticism signals, with the type answer, FAQ and open_case.live_alternatives changed to match. The 'No read predicts this split' sentence is limited to the live reads or revised."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "Against it, she names fear and doubt directly and at length, which Nines tend to mute.",
+      "problem": "Type 9 is listed as live but argued in three sentences, defined by her two anecdotes ('keeps big moments at a distance') instead of by a motive, and answered with a generalization. Saying 'this wouldn't be for me' and planning to 'sleep through the noms and then congratulate everyone' is self-effacement at least as much as named fear, and Nines mute anger and their own wants more reliably than self-doubt. More important, the article's one discriminator is framed as Six against Four. Being moved across a threshold by someone else's push (agent, parents and teacher; her father; her partner) is what a Nine read predicts too, and the article's own observation that 'the record shows no stretch in which she chose a next step unprompted' is offered as a gap, not weighed as Nine evidence. Nothing in the article separates Six from Nine.",
+      "acceptance_test": "Within roughly the current length, the Type 9 subsection states the Nine motive in its own terms, says plainly that borrowed momentum fits Nine as well as Six, and either names an observation that would separate those two (for example whether she seeks the push and the reassurance out or goes along when it arrives) or says none exists yet. The counter to Nine cites record evidence, such as the speed of her attachment in 2022 (S16), her pointed public opinions (S17) or 'I wasn't carried. I was held', in place of 'which Nines tend to mute'."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "Against it stand the missing wariness, a rehearsed answer, and the chance that a newcomer's reliance on mentors is a career stage more than a trait.",
+      "problem": "The list leaves out two counters that test motive against behavior. First, the Six motive is inferred from the remedy (who gets her across) and never from what she says she feared. Her stated doubt is about being enough: 'wasn't enough', 'big enough', 'full enough', 'My self-esteem at the time', 'Why would I get cast into something like this?' (S04), 'Why are you here?'. Nowhere in the record does she describe expecting something to go wrong, distrusting a situation or needing certainty. The article credits that wording to the Four case without debiting the Six case. Second, what she did before the 2024 high points was not prepare: she planned to sleep through the nominations and wrote the speech the night before only when told to. Signal 5 names 'Anxious preparation and many questions' as the Six marker, so by the article's own criterion this behavior sits uneasily with the lead.",
+      "acceptance_test": "The case against Type 6 names both points in plain language: that her stated doubt is about adequacy, not about threat or trust, and that her documented behavior before the nominations and the Tony was to avoid preparing. The Six case then says what it still explains. No wing, arrow, subtype or 'phobic Six' label is brought in to absorb either point."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "A Four reading would put \"I didn't want to bare my soul anymore\" at the center: a person for whom expression is the point, and exposure on the wrong terms is unbearable.",
+      "problem": "'On the wrong terms' is the author's addition. The record has a bare sentence, printed without explanation and tied to Pace only by its position in the magazine (C62). Read literally it is a wish to stop exposing herself, which a self-protecting Six or a withdrawing Nine predicts as readily as a Four. The two 'choices' offered earlier as Four behavior are also soft: the record notes the talk-show outfit is 'equally a wish for comfort when nervous' (C59), and the Pride of Broadway line is an identity statement made while accepting an LGBTQ+ honor, in a speech that also calls her visibility 'such a privilege and a responsibility' (S08), the duty language the Six case leans on. Stating who she is at that event is not evidence of temperament, and treating it as Four evidence risks typing by identity.",
+      "acceptance_test": "The Four subsection and the Type 4 FAQ say the bare-soul line can be read as ending exposure or as exposure on the wrong terms, that she has not said which, and that its link to Pace comes from the magazine's placement. The Pride speech is either dropped as type evidence or quoted with its responsibility line and the occasion named as the ordinary explanation. The Four case is then shown to rest on her self-expression statements from 2023 to 2026."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "Crediting the people who backed her for steadying her points to Six.",
+      "problem": "This is the answer she already gives, and the article has already discounted it as rehearsed and promotional ('I say this a lot', 'held the entire time', 'they're my reward'). A repeat in Season 2 press would register as a Six signal while adding nothing the record lacks. A first-week version already exists in Marie Claire (S01) and lands on two branches at once: she follows Jasmine Guy's and Kadeem Hardison's advice (Six) and, in the reporter's rendering, jokes that fan expectations are 'not [her] business' (Nine). Signal 5 has a related weakness. 'Moody insistence on her own way' and 'easy agreeableness that needed drawing out' are caricatures, and the testimony on record ('very serious about her work', 'She doesn't need anything', 'really emotional') already fits none of the three boxes.",
+      "acceptance_test": "Signal 2 says what would count as new against the October 2026 record, for example a specific account of a hard stretch, a turn in reception or a period without the mentors beside her, and what she did, and states that another 'held' or 'responsibility' answer would not move the case. Signal 5 describes what a collaborator would have to report about a concrete situation (a note she disagreed with, a decision she made alone) instead of mood labels. The settle FAQ and open_case.settle_signals match the revised wording."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "The case is the sequence she has now told about 2022, 2024 and 2026: doubt at the door, trusted people behind her, then full commitment.",
+      "problem": "The sequence is stated more uniformly than the record's own limits allow. The nominations episode has no one behind her, and the 2026 telling has fear named afterward with no refusal and no single person pushing (C90). The Met Gala, the Grammy and the Netflix casting call are told without hesitation (C36), so 'most of the arrivals' and 'The other arrivals follow the same outline' overreach. The type answer and FAQ turn the pattern into her own generalization ('By her own account she hesitates before big moments and steps into them once people she trusts back her'), which she has not made. And 'then full commitment' rests on the same 2022 line ('for as long as they'll have me') that the article counts against Six two sections earlier as 'She attaches fast'.",
+      "acceptance_test": "The Six case says which episodes carry the whole sequence (the audition, the marquee, the speech) and names at least one arrival she tells without hesitation. The 60-word answer and the type FAQ attribute the pattern to the stories she tells, not to her own account of a habit, and stay within 60 words. The 2022 attachment line is counted on one side of the Six case, or the passage says why it cuts both ways."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "Self-trust offered as a lesson learned suggests that looking outward for confirmation was the habit.",
+      "problem": "The printed AP line shows only that she was not acting on her own judgment at the time, which a hesitant person of any type could say. The outward-looking half, the one element specific to a Six's distrust of inner guidance, comes from the Her Campus video the draft does not quote (S20: 'you don't need advice from everybody. A lot of the answers that you need you already have'; 'trust you before you look outward'). The article prints its weakest support for its most type-specific inference, and both lines are advice to others, not self-description.",
+      "acceptance_test": "Either the paragraph quotes the part of the S20 answer on which both transcripts agree, after a re-listen, dated and labeled as advice to students in a promotional video and added to the claim inventory, or the inference is cut back to what the AP line supports. The sentence makes clear this is advice she gives, read as a clue, not a description she has offered of herself."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "one sentence about leaving Pace, and nothing found about leaving _Hell's Kitchen_",
+      "problem": "Eligibility check. On the record supplied she qualifies: an adult of 24, professional debut in November 2023, first screen lead in September 2026, 33 sources opened and five types tested, with four 2024 features honestly logged as unopened. But the record points to two further pieces that sit in neither the opened nor the unavailable list: the Vogue feature her parents keep copies of (S11) and Out's Pride of Broadway cover (S08), which dates from about two months after she left the show. That is the one window outside both press cycles and the likeliest place for the first-person account of the exit that signal 1 is waiting for. I opened no sources in this role and cannot say whether either contains an interview.",
+      "acceptance_test": "Both pieces are opened or logged as unavailable with a research task in the evidence record before the article says nothing was found about the exit. If either carries her account of leaving, it is treated as signal 1 arriving and the three cases are reweighed before release."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "And the record lacks the other half of a Six: there is no instance of her doubting an authority, testing whether someone can be trusted, or hedging.",
+      "reason": "States the strongest counter to the leading read in the same section as its best evidence, and does not reach for a wing or subtype to explain the absence away."
+    },
+    {
+      "passage": "The best candidate is what gets her across a threshold, and in her tellings it is borrowed confidence. But each telling is hers, and the record holds no case where support was missing or an authority let her down.",
+      "reason": "Names a real candidate discriminator, why it does not yet hold, and the kind of event that would test it. This is the open-case standard met in two sentences."
+    },
+    {
+      "passage": "Circumstance explains much of this. She was a newcomer among Broadway veterans, then a first-time television lead beside the original cast, and anyone in that seat gets looked after.",
+      "reason": "Tests the type explanation against career stage before the reader has to ask."
+    },
+    {
+      "passage": "Both roles were built to absorb her life, which limits what the theme can show.",
+      "reason": "Limits the Four evidence with a sourced fact about the roles instead of a type generalization."
+    },
+    {
+      "passage": "The few people who have described her were promoting a project with her or celebrating her, and they still do not describe one person.",
+      "reason": "Keeps a contradiction the type argument does not resolve and states the limit of the testimony in one line."
+    }
+  ],
+  "assessment": "An honest open case. The Six lead is defensible at low confidence, limits sit beside the evidence, and no wing, arrow or subtype is used to rescue the read. The weaknesses are in how the alternatives are tested. The Six motive is inferred from who gets her across thresholds, not from what she says she fears, and her stated doubt is about adequacy. The only discriminator separates Six from Four; nothing separates Six from Nine, though borrowed momentum fits both. Type 9 and Type 3 are answered with type generalizations that the evidence record itself qualifies, and the Four case leans on an ambiguous line and an identity statement. Signals 1, 3 and 4 are concrete; 2 and 5 would not discriminate as written. Confidence language in the title, description, type answer and FAQs is restrained; the overstatement is in the uniformity of the hold-back pattern. Type 2 was tested in the record and its omission from the article is reasonable. Eligibility: met on the supplied record, no blocker, with two unlogged leads noted in enneagram-08. The similarity advisory was available and not tripped; the top pair (0.074, Patrick-Mahomes) shares no phrases and no argument, so there is no reuse finding. Limits of this review: I read the frozen draft, the evidence record and the similarity file only, opened no sources and saw no other reviews. No finding asks for a new leading type; if the edit changes it, the standard's refresh with expanded review applies."
+}

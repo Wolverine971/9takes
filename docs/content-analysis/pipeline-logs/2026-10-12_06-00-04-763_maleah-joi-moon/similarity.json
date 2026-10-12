@@ -1,0 +1,197 @@
+{
+  "target": {
+    "person": "maleah-joi-moon",
+    "type": "6",
+    "units": 8,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27
+    },
+    {
+      "person": "Patrick-Mahomes",
+      "date": "2026-09-08",
+      "units": 43
+    },
+    {
+      "person": "Bill-Burr",
+      "date": "2026-09-07",
+      "units": 32
+    },
+    {
+      "person": "Rebecca-Yarros",
+      "date": "2026-08-31",
+      "units": 28
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 1880,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.009,
+    "max": 0.074
+  },
+  "trip_threshold": 0.04,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "Patrick-Mahomes",
+      "date": "2026-09-08",
+      "units": 43,
+      "maxScore": 0.074
+    },
+    {
+      "person": "Rebecca-Yarros",
+      "date": "2026-08-31",
+      "units": 28,
+      "maxScore": 0.029
+    },
+    {
+      "person": "Bill-Burr",
+      "date": "2026-09-07",
+      "units": 32,
+      "maxScore": 0.026
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13,
+      "maxScore": 0.025
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11,
+      "maxScore": 0.023
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39,
+      "maxScore": 0.017
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42,
+      "maxScore": 0.008
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27,
+      "maxScore": 0.007
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.074,
+      "other_person": "Patrick-Mahomes",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 feels something essential is missing in her and wants to be seen as she really is.",
+      "other": "[counter-typing] who achieves through grind and wants to be good rather than look good."
+    },
+    {
+      "score": 0.041,
+      "other_person": "Patrick-Mahomes",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 feels something essential is missing in her and wants to be seen as she really is.",
+      "other": "[counter-typing] the record-chasing (\"I want to be where Tom is\")"
+    },
+    {
+      "score": 0.029,
+      "other_person": "Patrick-Mahomes",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 feels something essential is missing in her and wants to be seen as she really is.",
+      "other": "[diagnosis] because I just loved Coach Reid and I thought that if I wanted to be who I wanted to be"
+    },
+    {
+      "score": 0.029,
+      "other_person": "Rebecca-Yarros",
+      "shared_phrases": [],
+      "target": "[diagnosis] She also describes her work as self-expression.",
+      "other": "[diagnosis] Yarros describes hers as a threat simulator that never shuts off"
+    },
+    {
+      "score": 0.026,
+      "other_person": "Bill-Burr",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 6 doubts her own footing and looks for people she can trust to stand on.",
+      "other": "[diagnosis] He described wanting the room to stand down."
+    },
+    {
+      "score": 0.026,
+      "other_person": "Bill-Burr",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 9 keeps big moments at a distance to stay settled.",
+      "other": "[counter-typing] the refusal to stay in a bad feeling."
+    },
+    {
+      "score": 0.025,
+      "other_person": "joseph-zada",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Enneagram is a nine-type model of core motivation",
+      "other": "[diagnosis] A Nine fears disruption and settles by tuning the pressure out."
+    },
+    {
+      "score": 0.023,
+      "other_person": "inde-navarrette",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 feels something essential is missing in her and wants to be seen as she really is.",
+      "other": "[diagnosis] she told Numero Netherlands she \"really wanted to transition into film"
+    },
+    {
+      "score": 0.021,
+      "other_person": "joseph-zada",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Enneagram is a nine-type model of core motivation",
+      "other": "[diagnosis] 9takes reads Timothée Chalamet and Jennifer Lawrence as Sixes and Austin Butler as a Nine."
+    },
+    {
+      "score": 0.019,
+      "other_person": "inde-navarrette",
+      "shared_phrases": [],
+      "target": "[diagnosis] By her own account she hesitates before big moments and steps into them once people she trusts back her.",
+      "other": "[diagnosis] \" and the film's financier already backed her."
+    },
+    {
+      "score": 0.019,
+      "other_person": "Bill-Burr",
+      "shared_phrases": [],
+      "target": "[diagnosis] The Enneagram is a nine-type model of core motivation",
+      "other": "[diagnosis] The databases that own his search results agree with us wherever they say anything about the Enneagram at all"
+    },
+    {
+      "score": 0.017,
+      "other_person": "zach-bryan",
+      "shared_phrases": [],
+      "target": "[diagnosis] and each of the three would explain the same hesitation differently.",
+      "other": "[counter-typing] Type 8 explains the feuds and the empire until you watch him the morning after"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+I wrote `verification-edit.json` with status **revise**: this profile should not release until it goes back through `--refresh --expanded-review`. The output parses against `verificationSchema`, both hashes match the request, and no other file was touched.
+
+**Why it holds**
+
+- **New risk at edit (blocker).** The editor rebuilt the argument after the six-role jury had already read the draft, and flagged `major_thesis_change` itself. The page now includes a recovery-from-illness explanation, Type 3 as a live alternative, a Six-over-Four ranking narrowed to "nearly level", five rewritten settle signals, and her self-disclosed depression in print for the first time. No reviewer has seen any of that, and the critic's own blocker required a hold if the open questions changed.
+- **Wrong date (major).** The article says the look-back video was posted "the day before her final performance" and that she left "one day short of a year" after the first preview. Both rest on Out's March 27, 2025 date. Playbill (February 14 and March 30, 2025), BroadwayWorld and TheaterMania all say March 30, 2025. I opened all four; none gives a reason for the exit.
+- **Coverage gap.** That "day before" sentence has no claim of its own in the evidence record, so `coverage_complete` is false.
+
+**What checked out**
+
+- **Sources:** I refetched all 29 cited sources, including the Times profile through the Wayback snapshot. Every printed quotation is exact or faithful to the captions.
+- **Audio spots:** For the three spots flagged for a listen, I ran my own transcriptions on two; a person still needs to listen.
+  - "I was held the entire time" holds, and the critic's reading of the full sentence is right.
+  - The lede quotation still varies slightly between machine readings; this is logged as a minor finding.
+  - "Go do that. Shut up." rests on the Tonight Show's own captions only.
+- **Decisions:** 46 of the 49 editor decisions are accepted. The three rejected are `critic-01` (it demands the hold), and `fan-07` and `unfamiliar-01` (their repairs carry the wrong date).
+- **Protected passages:** all 20 are preserved.
+- **Eligibility:** open-case eligibility is confirmed. Ebony, Hemispheres and the Courier News are still unreachable.
+
+**Scores**
+
+| Dimension | Score |
+| --- | --- |
+| Evidence | 7.8 |
+| Enneagram | 7.8 |
+| Originality | 8.5 |
+| Writing | 8.0 |
+| Durability | 7.8 |
+| Hook | 8.5 |
+| Discoverability | 8.3 |
+
+Overall comes to 8.0, which sits on the open-case floor, but the blockers hold it regardless.
+
+Five minor findings and six research tasks are in the file. The one that matters most for the refresh: decide the leading type again from scratch, because the page concedes Six and Four are level once the fear stories are discounted as press.
