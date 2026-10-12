@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "59aedac8724bf4199f220b5a2ba56c8b203a218d772f448e46d4e33aa21cb1bd",
+  "evidence_sha256": "7d48e212c47ec76e8a214fdf4594e35f2396c06ffcf6b2b39ece52a6b0a388be",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "The first is order. A Six's doubt usually comes before the commitment: wary, testing, then loyal. Hers comes after.",
+      "problem": "The generalisation describes how a Six comes to trust a person, not how she answers a request. A compliant Six says yes to stay safe with the people she depends on, then turns reactive and self-blaming: the same accommodate, erupt, retract order. The evidence record concedes this three times: the \"usually\" is unsourced (C91 note), Paraguay \"fits a Six in a spiral\" (C38 note), and in the Angie Martinez passage she explains the days of waiting by fear (\"all irrational fear,\" C11 note), a line the draft leaves out. Of the four exhibits, the stage name has no eruption at all, and by her own account the June 2025 alarm followed a new fact, the clip going viral. Only the October 2021 tweets show clean order. Order is the thesis pattern and both types explain it, so it cannot be what keeps the Nine ahead.",
+      "acceptance_test": "Either the paragraph states what a Six reading predicts for these same episodes and names a sourced observation that departs from it, or order is presented as the pattern both types explain and no sentence in the body, FAQ or description credits it with separating Nine from Six. The stage name is not listed as an order example. If a separator replaces it, test the one the evidence record holds and this section does not use: she hides her own distress so others will not worry (C05, C18), where a Six more often voices it and seeks reassurance, weighed against \"I need an answer. Text me\" (C49)."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "Someone that sure of her ear is not deferring out of doubt. Her stated reason in 2021 was friction: \"I'm not really trying to fight them.\"",
+      "problem": "The certainty testimony (muting Pharrell, the half-millisecond vocal) is about craft and comes from people on her payroll. The going-along is about people, schedule and exposure, and a Six can be exacting in her craft while doubtful everywhere else. Her own first-person doubt is in the record and absent from this test: \"a fool for ever thinking I was made for this\" (2022, already on the page), \"I'm very self-critical\" (2023, S-APPLE23), \"insecure\" and \"who's perceiving me?\" (2026, S-RT26). Two lines the draft files elsewhere are borrowed certainty in her own words: \"Yeah, they've been right\" and \"I have to check them to check me.\" The 2021 quote concerns a low-stakes studio suggestion and ends \"and I get it\"; her other stated reason for withholding is \"to be safe,\" which avoiding a fight also serves. Neither \"sure of her ear\" nor \"friction\" rules out the Six.",
+      "acceptance_test": "The reason test is rebuilt on evidence from the domain where she defers, for example the October 2021 tweets, in which she knows she does not want the thing and agrees anyway. The paragraph confronts \"they've been right,\" \"check them to check me\" and at least one of her own self-doubt lines, and no longer infers absence of doubt from studio precision or from employees' praise."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "When nothing is pressing on her she does not scan or prepare. She doodles, she does nothing on purpose, and of politics, the Six's home ground of sides and loyalties, she told Rolling Stone: \"My brain just doesn't attach to that.\"",
+      "problem": "Nine and Six sit on one stress and security line, so the unpressured baseline is the one place they can be told apart, and it gets two sentences. Each support has a recorded alternative: \"doodling\" ducked a politics question (the draft says so), \"do nothing\" comes from one tour-tired season (C21 note), and Rolling Stone read the political disengagement as a protective pose (C75 note). \"The Six's home ground\" is a stereotype; plenty of Sixes are apolitical. The same page has her \"overthinking the future\" and thinking about slights \"almost every day,\" and it describes the pre-fame years with her word \"agoraphobic\" and her producer's \"safe place,\" filed as withdrawal though the evidence note reads them as Six (C66). The qualifier \"when nothing is pressing\" lets any Six datum be reassigned to pressure. That is the Nine-to-Six stress arrow without the name, which research guardrail (e) and the standard bar as the only answer to the fear evidence.",
+      "acceptance_test": "The baseline claim rests on dated third-party observation of her unpressured state (Lewis, Asrat, her mother) and is weighed in the same paragraph against the fear wording of the shut-in years. The politics-as-Six sentence is cut or replaced with a sourced observation. \"Does not scan or prepare\" is removed or qualified so the page's own \"overthinking the future\" does not contradict it."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "Appeasement, a flip when it is refused, collapse, repair. The sequence repeats with different casts:",
+      "problem": "The two bullets that follow show no appeasement and no repair. Threads opens with her insult and Auckland with her retorts; both end in exit. The evidence record says the same (C96 and C104 notes) and holds a third case cut from the draft: the March 2026 Chalamet posts, retracted the next day as a bid for \"clicks, likes, approval\" (S-CXCHAL26). First strikes with no documented yes in front of them are the behaviour a Nine reading explains worst, and here they are counted as instances of the Nine sequence. The title's \"Every Blowup\" and the FAQ's \"accommodation, then an outburst\" inherit the overreach.",
+      "acceptance_test": "The four-beat sequence is claimed only for episodes that show all four beats (Paraguay, June 2025). Threads and Auckland are labelled outburst and exit, or an accommodation is sourced for each. The article says plainly that some blowups have no yes in front of them, and the title's \"Every\" and the fan-conflict FAQ claim no more than the body shows."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "It fails on direction. A Seven escapes forward, into the next plan",
+      "problem": "The section tests the Seven on novelty and escape direction, not on the Seven's core avoidance: being limited or obligated. That theme runs through the page unassigned to any type. Nearly every blowup answers a claim on her (posts owed in Paraguay, fans' claim on her on Threads, costume changes in Auckland, \"I'm not your fucking costume monkey\"), her payoff word is \"I feel free,\" and she says of the ashram \"I wanted to do whatever I wanted\" and of her break \"I want to just do whatever.\" The evidence note on C39 calls the freedom reading \"not unreasonable.\" This is a retype from Seven, and readers arriving from the old page will find their strongest argument unanswered.",
+      "acceptance_test": "The Seven section names the freedom-from-obligation reading using at least two of these quotes and gives a sourced reason it loses (for example, she resents the demand yet stays and complies for years, where a Seven reframes or leaves), or \"What the type leaves open\" concedes it as unexplained."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "major",
+      "passage": "That is her own explanation of this cycle. This profile cannot evaluate it and does not try: nothing here is a diagnosis, and a personality type is no substitute for her account.",
+      "problem": "The type answer defines the Nine by the cycle (\"goes along first and erupts later\"), and section two counts \"the reflex to tell everyone it's nothing\" as one of three markers. That reflex (\"I'm fine. Everything's fine.\") is the exact behaviour she calls \"my condition.\" Having said it cannot weigh her explanation, the article keeps typing her from the same swing, and the limits paragraph in the Six section does not list this among its limits. The reader is never told what the Nine case stands on if the swing is set aside.",
+      "acceptance_test": "With no clinical gloss added and the single attributed mention kept, the limits paragraph (or this one) states that the outburst-to-\"I'm fine\" swing has an explanation of her own that the profile does not weigh, and names the Nine evidence that does not depend on it: the yes itself, the unpressured baseline, and what others observed. The 60-word answer and the type FAQ still read as accurate with that sentence in place."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "A Four puts herself at the center of the work; she told Rolling Stone, \"I try not to think about myself too much. I more just think about the tonalities and my voice.\"",
+      "problem": "Three and Four are dismissed by caricature and one quote each. The Four quote has a guarded reason in its own passage (people \"think they fucking know me,\" C17 note), while the page's Four material goes untested: music with no \"mental release,\" \"mediocre pop,\" \"I'm lonely. I want people to embrace me,\" daily thought about being misread. \"You are failing,\" the Three's word, is filed under Six only, beside \"palatable, marketable, and sellable\" and \"I can be strategic.\" Type 8, the read a \"combative star\" invites, is never named although the troll section already holds its rebuttal.",
+      "acceptance_test": "Three and Four each get their strongest sourced exhibit and one specific reason they lose, or the paragraph is cut to a single sentence that claims no proof. One sentence names Type 8 and the sourced reason it fails (\"It is a mask\"; going still in person)."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "Doja Cat most likely fits Enneagram Type 9, the Peacemaker, at medium confidence.",
+      "problem": "The body says the Nine is ahead \"narrowly,\" that this is \"a judgment from pattern, not a proof,\" and that \"the record cannot confirm\" the step that separates it from Six. If enneagram-01 to 03 are answered by conceding ground and not by a stronger separator, \"most likely\" at \"medium confidence\" in the answer and the type FAQ outruns the argument.",
+      "acceptance_test": "After the edit, the confidence wording in the 60-word answer, the type FAQ and the description matches the separator that survives. If none survives, the evidence status moves to insufficient_evidence with research tasks and the run holds, as the standard and the owner note in the evidence record require; the wording is not simply left at medium."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Three things are in that exchange: the agreeing, the resentment arriving late and loud, and the reflex to tell everyone it's nothing.",
+      "reason": "Reads a motive off one observed, contemporaneous, pre-2023 exchange (the deleted tweets and her answer about them). It is the strongest behavioural exhibit for the Nine and uses no type jargon."
+    },
+    {
+      "passage": "That last admission does not rescue the Nine reading. A show of size put on when you feel exposed is exactly what the next type predicts.",
+      "reason": "Hands its own best quote to the rival type. This is what testing an alternative looks like, and it earns the Six section that follows."
+    },
+    {
+      "passage": "The Six reading takes her at her word, and that is its strength: her terms for her own motive are \"safe\" and \"threatened,\" not peace or ease.",
+      "reason": "States the alternative at full strength in her vocabulary and names why it is strong. Keep even if the verdict around it changes."
+    },
+    {
+      "passage": "This is a judgment from pattern, not a proof. It treats fear as what breaks through when the smoothing fails rather than as the engine, and the record cannot confirm that.",
+      "reason": "Names the exact unverifiable step in the typing where a reader can see it. Limits can be added around it; this admission should stay."
+    },
+    {
+      "passage": "A Nine reading does not explain the fun she has in a fight, or how the woman who mutes Pharrell struggles to refuse a hug.",
+      "reason": "Leaves a real contradiction standing and does not reach for a wing or an arrow to absorb it."
+    }
+  ],
+  "assessment": "Type 9 is argued honestly, with no wings or arrows and a real hearing for Type 6 in her own words. The weak step is from \"Six is close\" to \"Nine is ahead.\" Neither named discriminator separates the two: accommodate-then-erupt is also how a compliant Six behaves (enneagram-01), and studio certainty reported by paid collaborators does not show an absence of doubt where she actually defers (enneagram-02). The baseline claim that could separate them is two sentences resting on a deflection, a tired season and a stereotype (enneagram-03). The motive the page asserts, keeping the peace by setting herself aside, is best shown by contemporaneous items it underuses: in October 2021 she knew what she did not want and agreed anyway, and she hid her distress so others would not worry. Against it stand first strikes with no yes before them (enneagram-04), an unanswered freedom-from-obligation case for the old Seven read (enneagram-05), and a central cycle she explains another way (enneagram-06). The sloth passage is accurate and avoids the lazy stereotype. Medium confidence is the ceiling and currently outruns the argument. She has a deep record, so open case is not available; if no separator survives the edit, the standard calls for insufficient_evidence and a hold. Similarity: the trip (0.045, austin-abrams) is the stock phrase \"keep the peace\" inside opposite arguments, and the Seven line \"leaves when the fun stops\" echoes a same-day draft only as a house definition; neither is meaningful reuse. Limitation: I judged the typing from the frozen draft and the evidence record's excerpts and context notes and did not reopen sources."
+}

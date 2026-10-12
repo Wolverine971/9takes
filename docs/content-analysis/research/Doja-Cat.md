@@ -6,6 +6,14 @@ Created: 2026-10-11 for a full rebuild and retype (`scripts/run-blog-pipeline.sh
 Draft: `src/blog/people/drafts/Doja-Cat.md` (published; live row is Type 7; legacy page with no v3 run; `lastmod` 2026-01-23).
 Evidence below was collected 2026-10-10 by a research pass that opened every source tagged **V**. Treat all of it as leads and re-open before use.
 
+## Run status (2026-10-11): held, then published as Type 9 by owner override
+
+The rebuild run `2026-10-11_18-12-25-028_Doja-Cat` held at verify with `insufficient_evidence` (Enneagram 7.2, overall 8.1). The jury and the verifier agreed Type 7 is the weakest read. They found no sourced discriminator between Type 9 and Type 6, and a second research pass the same day found none either (see "Second pass" below). The live row is still Type 7; its misquotes were corrected in place (`pipeline-logs/2026-10-11_Doja-Cat-quote-corrections/`).
+
+**DJ's call, 2026-10-11 (evening): publish the Type 9 page by owner override.** He was shown the hold, the second-pass verdict (tied, tilting Six) and a recommendation to test Type 6, and chose Type 9. The live row is now Type 9 and carries the held article (`candidate-edit.md` in that run directory) plus five accuracy edits from the verifier's findings. It went out with `--skip-perspective-gate`; there is no `release.json`. The page says the lean is narrow and that Type 6 is a live rival.
+
+**For the next run:** Type 9 stays the owner's type. A refresh should not reopen 9 versus 7. It should either find the unpressured-baseline evidence named under "What would settle it" or keep the narrow-lean framing. Do not retype to 6 without DJ.
+
 ## Owner type decision (DJ, 2026-10-11): read first
 
 **Doja Cat is Enneagram Type 9.** DJ reread her and decided the published Type 7 is wrong, then approved a retype and a full rebuild after the 2026-10-10 evidence pass agreed. Treat Type 9 as the type under test.
@@ -361,6 +369,67 @@ Always combative:
 - "I would just be yelling at and roasting people, and they would be like, 'Damn, why are you so mad?'… I love going in on people, but I stopped because with a big platform, you don't want to hurt anybody." (INT21) V.
 - "I can be really mean too" (APPLE23) V-cap.
 - "It's me being a punk. I love being a punk to people who take things way too seriously" (PAPER19) V.
+
+## Second pass (2026-10-11, after the hold): the Nine-versus-Six question
+
+Done by a research subagent against the verifier's tasks 1, 2, 3 and 6. Quotes are as the outlet printed them. Re-open before use. Verdict: no separator; the record is tied and the newly dated material tilts toward Six.
+
+### Dated objection table, 2021 to 2026
+
+| Date | Where | Reason she gave | What she asked for | Asked of her first? | Source |
+| --- | --- | --- | --- | --- | --- |
+| 2021-01-19 | Twitter | "i feel like something is wrong w me. y'all got me. :/" · "i'm deadass not fit to just take the joke cuz i've actually struggled w sh\*t before and i have a lot of fear in me" · "It's really my dumbass fault cuz i put myself out there to be made fun of" | "Y'all can make fun of my music n my performances cuz those not meant to be a joke and ill feel better about that." | No. Comments on her joke TikToks. | https://www.hotnewhiphop.com/338179-doja-cat-is-not-comfortable-with-making-tiktok-vids-yall-got-me-news ; CXTT21 |
+| 2021-10 | Twitter, deleted | "I'm just tired and i don't want to do anything. im not happy." · "im never not working" · "[I] just keep agreeing to shit I dont wanna do in the future. its my own dumb ass fault." | "a week to just chill" (Capital FM alone adds "i wanna be alone.") | Yes, commitments she had agreed to. | RS21, CAPFM21 |
+| 2021-11-24 | Instagram Live | "I feel pressured to do that shit." · "all those days that were taken from me that I could have been making shit or doing something productive." | "I want to be home. I want to make music. I want to play video games. I want to be doing this like complaining on Live." | Yes, photo shoots and interviews. | CAPFM21 |
+| 2022-03-24 | Twitter | "I'm sorry", then "I'm not sorry" · "i'm a f— fool for ever thinking I was made for this this is a f— nightmare" | "unfollow me" · "I can't wait to f— disappear" | Yes. A fan demanded a post for Paraguay; she apologized first. | LAT22 |
+| 2022-03-26 | Twitter (retraction) | "I owe myself the death of my fears that don't allow me to expand my heart." · "My suffering comes from myself. Not everybody else. It's my problem but you guys always help me solve it when you support me" | "Please don't hesitate to ask me for s— because I love you" | n/a | BBRET22 |
+| 2022-07-07 | Live (Instagram or TikTok; outlets disagree) | "socially unaware and wack" · "borderline snake shit" · "he went and shared information that I didn't feel comfortable with him sharing." | "To be fair…let's try to be chill about it." | No. Noah Schnapp published her DM. | https://www.complex.com/music/a/backwoodsaltar/doja-cat-says-stranger-things-noah-schnapp-posting-dms-joseph-quinn-snake-shit |
+| 2022-08-05 | Instagram Live | "I'm rich, I'm fine" · "Just the whole 'Are you okay, queen?' shit makes me want to rip my..." | Not stated. | No. Unsolicited concern after she shaved her head. | STG22 |
+| 2023-05-09 | Twitter | "planet her and hot pink were cash-grabs and yall fell for it" | "now i can go disappear somewhere and touch grass with my loved ones on an island" | No. Inside an album-title announcement. | UPX23 |
+| 2023-07-20 to 23 | Instagram comment, Threads | "I don't give a fuck what you think about my personal life" · "I don't though cuz I don't even know ya'll" | "get off your phone and get a job" · "Just delete the entire account and rethink everything" | Yes. Fans demanded a statement on her boyfriend; one asked her to say she loved them. | WTHR23 |
+| 2023-08-16 | Instagram Story | "I've defeated a large beast that's been holding me down for so long" | "reconnect with the people who really matter and love me for who I am and not for who I was" · "I feel free." | No | ET23 |
+| 2024-03-09 | Instagram | "this is getting ot [sic] be too much. The way I'm spoken to on here and treated makes me have f—ed up thoughts." | "Please watch how you talk to and about people on the internet. Bye." | No. Between tour legs. | https://www.hollywoodreporter.com/music/music-news/doja-cat-deactivates-instagram-account-28m-followers-1235849274/ |
+| 2025-06-13 | X, deleted | "he didn't even know my fuckin name to be touching me and kissing me on my face like that is crazy" | "don't touch me and man handle me when you don't even fuckin know me." | Yes. She had hugged him twice and offered "Ami" the week before. | CXTAM25 |
+| 2025-08-29 | Instagram Stories | "When I made the commitment I didn't know exactly when Vie would be released" · "I cannot give you guys the show you deserve within this time frame." | "I hope to see you all again soon when the time is right." | Yes, an ACL headline slot. Calm withdrawal, no blowup. | https://www.complex.com/music/a/markelibert/doja-cat-drops-out-acl-2025-focus-on-new-album |
+| 2025-11-18/19 | X | "I'm not a broadway act." · "I move at my own pace and break my fucking back out there every night" | "keep your bullshit opinion to yourself" | Yes, fans asked for costume changes; refusal was her first reply. | CXTOUR25 |
+| 2026-03-08/09 | Video posts | Next day: "what I was doing yesterday was virtue-signaling because I wanted to connect" | None | No | CXCHAL26 |
+
+What the whole table shows:
+
+- Fear is named twice before 2025: January 2021, with no demand on her, and her own retraction of 2022-03-26. So the fear wording is contemporaneous, not only a 2025-26 therapy overlay.
+- She never asks for reassurance in a dated objection. She does credit fan support with solving "my problem" in March 2022.
+- "Rest and home" is the ask in three rows only (October 2021, November 2021, May 2023), and November 2021 is mostly a request for time to make music. "She asks for rest, not reassurance" does not survive the full table.
+- About half the rows have no prior yes.
+- Self-blame appears in the same breath in January 2021, October 2021 and March 2022.
+
+### Off-cycle testimony from people not on her payroll
+
+No first-hand, dated, non-employee description of her adult unscheduled state was found. What exists:
+
+- SZA (friend, unpaid), Vogue 2026-03-18: "She's actually a very solitary star" · "I think by choice, she shields certain aspects of herself." Supports both readings.
+- SZA, V Magazine 2021-04-19 (https://vmagazine.com/article/doja-cats-new-dimension/): "I like that you're hyper-comfortable with yourself and it's kind of inspiring cause I am not." Said to her face in a promo conversation; neither.
+- Deborah Sawyer (mother), Vogue 2026, about the teen years: "She was in the room, door closed, constantly creating." Neither. Nothing from her about the adult.
+- Gabrielle Hames (childhood best friend), RS21: "She would always think her dad was coming, and he didn't come." Neither.
+- Journalists in person: RS21 "polite yet circumspect"; TIME 2023-04-13 (https://time.com/6269491/doja-cat-interview-time100/) "polite and cautious, and tends to look off to the side while formulating answers." Interview settings.
+- Nothing found from Jack Antonoff, Tyler the Creator, Saweetie, Megan Thee Stallion, J.I.D, SoundCloud-era collaborators or partners.
+- Her own at-rest reports show both things. Rest: "I do jack s–t" (BB22); "I am kind of a recluse" (TIME 2023); "In order to do things, I have to do nothing for an amount of time" (VOG26). Scanning: she looks for criticism that matches her insecurities, "that's a moment of, See, I was right" · "it's validating" · "You feel you're more in control" (VOG26).
+
+### The reassurance habit ("I need tarot cards. I need an answer. Text me," VOG26)
+
+- The line is about a partner being away, not decisions in general.
+- It cannot be dated. Vogue's writer says therapy "began during the Scarlet album cycle"; Elle UK's writer says "She has been in therapy for eight years."
+- No contemporaneous tarot or psychic statement before 2024 was found. What she said at the time points the other way (auto-captions, not checked by ear): "sometimes i am 50 50" on astrology (Big Boy, 2021-06-29); "astrology is stupid" (APPLE23).
+- Contemporaneous anxiety before the therapy vocabulary: "i've had anxiety here and there" (Big Boy 2021); "I have full on anxiety" (Audible "Origins", November 2022, single write-up at https://www.movin925.com/doja-cat-reveals-ariana-grande-and-megan-thee-stallion-helped-her-work-past-her-insecurities, audio not opened); Scarlet as "a kind of conquering of fear" (APPLE23).
+- One new line for the Nine side, APPLE23 at about 35:35: "Harmony is like my number one thing that I seek in life." It follows "I'm also a Libra," exists only in captions, and has no published write-up. Listen before use.
+
+### The two reviewer leads
+
+- Noah Schnapp, 2022-07-07: verified (table row). An immediate no, but to a privacy breach, not a request. On 2022-07-14 he told Variety she said "I'm sorry how I reacted" (Complex relay: https://www.complex.com/pop-culture/a/tracewilliamcowen/noah-schnapp-update-status-doja-cat-dm-controversy-stranger-things-star-joseph-quinn).
+- Taco Bell, about 2022-03-08: verified, not usable. "it's contractual. I know it's bad" (https://www.hola.com/us/celebrities/20220309310458/doja-cat-taco-bell-marketing-is-incredible) was a scripted bit; the agency told Muse by Clios the campaign cast her "as the hero and Taco Bell as the villain" (https://musebyclios.com/music/that-time-doja-cat-helped-taco-bell-bring-back-its-mexican-pizza/).
+
+### What would settle it
+
+A dated, first-hand account from someone unpaid who has spent ordinary unscheduled time with her as an adult (a partner, her mother, SZA), saying whether worry and requests for reassurance appear when nothing is wrong. The reachable proxy is full re-uploads of her off-cycle Lives from 2020, mid-2022 and early 2024, which YouTube blocked on 2026-10-11. Still unopened: the NYT interview of 2025-09-05, Variety's Schnapp interview, the Audible "Origins" audio, and her TikToks first-hand.
 
 ## Looked for and not found (2026-10-10)
 

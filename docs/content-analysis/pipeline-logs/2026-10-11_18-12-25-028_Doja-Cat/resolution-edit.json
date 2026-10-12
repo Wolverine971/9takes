@@ -1,0 +1,363 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "The sentence \"That is her own explanation of this cycle\" is gone. The two statements are now reported separately, each dated and in her words: the \"condition\" / \"There's a word for it\" remark stays in the fan-dispute section with no label attached, and the March 13, 2026 TikTok (Complex attribution kept) moved to the limits passage of the type argument, away from any specific hostile episode. The page says they are \"two statements she has not publicly joined\" and never says the withheld word was BPD or that she offered it as the reason for a post. The condition is named once and the \"cannot evaluate\" sentence is kept verbatim (C35, C77, C116)."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "The Tinychat FAQ now pairs each allegation with her on-record response from an opened print source: the chat room with Rolling Stone's \"no evidence\" sentence and her denial of being \"involved in any racist conversations,\" and the song with her account that it was an attempt to reclaim a term thrown at her in chat rooms. Those words were read in the saved copy of S-RS21 and added to its excerpt; C42 cites it. The captions-only quotation \"completely incorrect\" was dropped."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "The lead-in \"The sequence repeats with different casts\" was removed. Only Paraguay is offered as showing every step; Threads and Auckland are introduced as fights that do not share that outline, and the text says \"No yes comes before either.\" The March 2024 Instagram exit and the \"most common ending\" tally left the page. FAQ 3 now describes two kinds of dispute and files the \"kittenz\" post under refusing at once. Title and meta_title no longer contain \"Every\" (C104, C96, C117)."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "The Dr. Luke FAQ now says she \"later emailed the magazine about a different remark from that interview, on songwriting credits,\" and quotes only \"The credits on my music are accurate.\" Nothing implies she withdrew \"I don't think I need to work with him again,\" and the insinuation she clarified is not reprinted (C43)."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "The line was second-transcribed at this stage from the audio the research run saved (whisper, 31:30-33:20): \"So it's incredibly lonely. I'm lonely. I want people to embrace me.\" The surrounding speech gives the referent: the barrier between her and people she employs, living far from everyone, and the difficulty of making friends. C53 and the S-RT26 context record this, and the framing sentence now says she was \"describing how hard friendship is when the people around her work for her and she lives far from everyone.\" A human listen is still listed as a pre-release task."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "\"Her breakthroughs, as she tells them, mostly happened to her\" was cut, along with the travel quotation. The paragraph now says \"None of this makes her a passenger,\" reports from Billboard that she announced \"Mooo!\" herself and finished the song and video that day, and prints \"And I really wanted it.\" No claim of passivity remains (C108; C29 removed)."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The closing sentence now uses her framing: the woman who mutes Pharrell \"has, in her words, 'such an issue with setting boundaries.'\" No sentence says she did not want the hug. The \"order\" paragraph was withdrawn; the intro still reports that the alarm came when the clip spread, and the Type 6 section prints her own explanation of that moment (\"all irrational fear,\" C110). C11 records that she says she is usually a yes to hugs."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Kept only as texture with the ordinary explanation stated. \"The same reporter caught a smaller version in person\" was replaced by \"One scene from that profile is texture, not evidence,\" and the scene is followed by \"She was sick and being polite.\" It is not counted as an instance of any pattern (C18)."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "The bridge, title and meta_title now claim only what the dated episodes show. Paraguay is the one episode presented with every step, and it now includes the renewed retirement claim (\"Yes the fuck I am,\" per Complex) with \"The repair was not tidy.\" Threads and Auckland are presented as blowups that open with her refusal; the Threads trigger is stated neutrally and attributed (W Magazine: fans demanding a statement about her relationship), with no detail of the third-party allegations. Two sentences say what separates the kinds: where she had first given something the objection came late and was taken back; where a crowd demanded what she had never given she refused at once (C38, C39, C40, C117)."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "The type answer and its FAQ no longer say she \"erupts\" over a stage name. The answer reads \"She agrees to things she does not want, objects late, and when she objects she asks for rest and home\" (54 words by the contract's count), the FAQ mirrors it with the October 2021 tweets as its example, and the name section describes the stage name as the source shows it: she tried to change it, was persuaded otherwise, and kept it (C01, C90, C123)."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "The paragraph now separates making the work from its going viral by dropping the virality framing altogether: it reports from Billboard that she phoned her manager to announce the song and finished song and video that day, and it prints \"I saw potential in myself even though I was still aware it wasn't good. And I really wanted it.\" The travel quotation is gone and no claim of passivity remains. The new wording is inventoried as C108."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "The Elle UK sentence is quoted in full in the body and in the Type 7 FAQ, and the body assigns its second half to the Seven reading. The body now states, dated and attributed, that she presented Planet Her as her own break from the pop template (Billboard, April 2021), called it a cash grab two years later, and by September 2025 said Scarlet \"didn't get me all the way there. So, I want to return back to what I know,\" marked as a New York Times interview relayed by Revolt. The two-albums exhibit was dropped: \"This profile does not count the pop years as a yes\" (C56, C105)."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Resolved by the second branch of the acceptance test: the Nas quotation was removed and \"nonconfrontational\" is no longer offered as evidence that she is the opposite of a fighter. C31 was removed from the claim inventory and from the type hypothesis. With the passage gone, no clause describing the lyric is needed."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Resolved by the alternative the acceptance test allows, plus part of the first branch. The mitigating sentence (\"The style was learned by matching a room\") and the Paper origin story were removed, so the body no longer carries her explanation without what it explained. Her own statement that she sought the fight out and enjoyed it was added (Periscope: \"I would just be yelling at and roasting people ... I love going in on people, but I stopped because with a big platform, you don't want to hurt anybody\"). One neutral sentence states that old tweets resurfaced in 2018 and chat-room videos in May 2020 and that she apologized both times; it does not characterise the chat room and points to the FAQ, where every characterisation carries her denial and Rolling Stone's \"no evidence\" sentence (C112, C121, C42)."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Resolved by the second branch: the name section now says plainly that one long arrangement \"goes unread here,\" names the tie to Dr. Luke's Kemosabe label as dated by Vogue (still active, March 2026), and gives the reason: \"Why she stays is not on the record.\" The Type 7 sentence about staying \"for years inside a name and a lane\" was cut. The evidence note was corrected: S-RS21 does state \"Dr. Luke has denied Kesha's allegations and sued her for defamation,\" and C43 now records that, with the caveat that the litigation status is Rolling Stone's as of 2021 and was not rechecked, so the lawsuit is still not described on the page (C113)."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "The hermit section now names the limit in her words from Billboard, February 2022: \"There's only so much of that that you can do,\" and \"I feel most powerful when I am fully in character onstage.\" The closing generalisation was reworded from \"keeps asking for less\" to \"keeps asking for room,\" followed by \"She says the stage is where she feels most powerful, too\" (C111)."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The limits passage now says what her account does to the inference: \"So the swing from blowup to 'I'm fine' is not credited to type here. The lean rests on what is left: the yes itself, what she asked for, and what others saw.\" Her March 2026 statement is reported with the going-along half the draft left out (\"from a very young age to pretend that I like stuff ... to appear like everything is okay\"), once, attributed to Complex, and is not used as evidence for or against any type. The only gloss is the expansion of her acronym as Complex gives it. The type answer, first FAQ and description now claim the limited version (\"leans Type 9, narrowly\") (C77, C116)."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Order was downgraded from discriminator to shared pattern: \"Going along first and objecting late does not separate the two types,\" with the concession that a Six can say yes to stay safe and turn on people later. The stage name and the two albums were removed from the argument. The hug is no longer used as order evidence, and both the viral-clip trigger (intro) and \"all irrational fear\" (Type 6 section) are on the page. The remaining generalisation about a Six is marked \"This profile's reading\" (C91, C110, C114)."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The paragraph now separates craft from commercial calls: the Pharrell anecdote is labelled \"an employee describing craft,\" and the next sentence says that on a commercial call she took the room's word (\"Yeah, they've been right\"). Two of her own self-doubt statements are printed beside it (the \"fool\" of Paraguay; \"mid and corny. I know they are\"). \"I'm not really trying to fight them\" is presented once, as \"A small answer, about a request she found fair,\" with \"and I get it\" inside the quotation. The text says the reason for her yes does not separate Nine from Six, and the confidence wording follows: \"narrowly,\" \"a live rival\" (C59, C92, C115)."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "The section now prints her 2021 ownership of Planet Her (\"I want to introduce things to people as opposed to just re-create and rehash\") and her 2025 return (\"So, I want to return back to what I know\") beside \"cash-grabs,\" and concludes that the pop years are not counted as a yes. \"Mostly happened to her\" was cut and replaced with sourced evidence of self-started drive. The section says what the career explanation cannot account for: \"why she blamed her own agreeing instead of the schedule, or a hug in 2025 that sold nothing.\" The Type 7 sentence about a lane she objected to \"for years\" was replaced by her contemporaneous words, \"[I] just keep agreeing to shit I dont wanna do\" (C105, C108, C93)."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "The text says which episodes show the sequence and which begin with her attack: Paraguay shows every step, the 2021 tweets and 2025 hug share its outline, and Threads and Auckland do not (\"No yes comes before either\"). The Chalamet admission appears in her words as a counterexample (\"one outburst had no demand behind it ... 'a modern way to garner clicks, likes, approval'\"). Paraguay includes her reaffirmed retirement and \"The repair was not tidy.\" Title, meta_title, description, type answer and FAQs no longer imply that every blowup follows a yes or that she erupted over the stage name. The father jabs were not added, to keep the dispute to the two dated statements and his denial (C38, C117, C120)."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Resolved by the second branch: \"In person she goes still\" was dropped and the claim narrowed to \"Her rule for strangers is restraint,\" resting on the Vogue observation and her own stated rule. The Periscope line now sits with the troll evidence. The chat-room origin story was removed, so the body no longer uses her explanation at all. The Paper and Dillard observations were not printed, for length; they are recorded as counterevidence in C32 and C24."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "The politics line was removed and is no longer used against the Six (C75 removed), and the doodling and \"do nothing\" quotations were cut with it. \"Does not scan or prepare\" is gone. The rest-state claim now rests on dated third-party observation (Asrat 2021, Lewis 2023), is weighed in the same paragraph against the fear words for her teens, and its limit is stated in the limits passage: \"most of the calm was described mid-album or mid-tour, by her or by people who work for her.\""
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Body and FAQ now give the statements in date order: his March 2026 videos first, then her Elle UK line, dated \"published that May.\" A clause says what his videos responded to, sourced to Complex: \"a TikTok of hers that Complex reported under the label 'deadbeat.'\" His accusations against her mother are not quoted, and nothing implies he answered the Elle UK interview (C63, C64, C122)."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The 60-word answer, FAQ 1 and the type argument no longer claim an eruption over the stage name, and the \"order\" paragraph that counted it was withdrawn. The stage name is described as the body shows it. The answer is 54 words, FAQ 1 mirrors it, and C90 and C91 were rewritten to match the new text (C91 now records that order does not separate the types)."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The framing now claims only what the bullets show (\"Her best-known fights do not\" share Paraguay's outline; \"No yes comes before either\"). The Threads bullet says what the fans did (demanded a statement about her relationship, per W Magazine) and that unfollows followed, with the reported range attributed to outlets (180,000 to about 500,000). FAQ 3 and the title were narrowed. One departure from the test: the \"watcher\" quotation was not moved into the Auckland bullet. Its problem was an unsourced teaser in the intro, so the teaser was removed (\"the tour critics sworn at\") and the bullet quotes the same post up to \"every night\"; no unsourced quotation remains (C39, C40)."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The name section now opens with one orienting sentence drawn from the record: she raps, sings and produces, and the four albums are given in order with years (Hot Pink 2019, Planet Her 2021, Scarlet 2023, Vie 2025), with two sourced measures of scale (first No. 1 with \"Say So\"; eight Grammy nominations). No album title appears before that sentence: the earlier mention of Scarlet in the type section was cut. The addition is about 60 words and the body ends at 3,693 words by the contract's count against the draft's 3,698 (C79, C80)."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Body and FAQ 6 give the two statements in date order and no longer present the March 2026 denial as a reply to the Elle UK line; a clause says what it answered, sourced to Complex. Nothing from his accusations against her mother was added. The 2019 Fader quotation with the dangling \"it\" was removed from the body; the FAQ keeps a plain paraphrase. C63, C64 and C103 were updated and C122 added."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "The time claim was dropped. The sentence now reads \"She described the habit herself in 2021,\" and no body sentence implies she faced no public anger before then."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Roles were added at first mention: Angie Martinez and Zane Lowe as hosts, Missy Elliott as \"the rapper ... interviewing her for Interview,\" SZA as \"a friend and collaborator.\" The other dangling references were removed with their passages: Marc Jacobs, the Nas lyric, the ashram and the \"they\" of the \"Mooo!\" quotation. The \"strategic\" sentence now follows a paragraph that names the decision (keeping \"Paint the Town Red\") and the interview (Apple Music, December 2023), and the quotation has a claim passage (C107). FAQ 5 identifies Dr. Luke in a neutral sourced clause."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The Type 7 section was moved ahead of the troll and Type 6 sections and cut from 320 to about 170 words, so the type argument now ends on the Nine-versus-Six contest and its limits. The why-not-type-7 anchor still resolves for the Type 7 FAQ. The shaved-head example left the argument and stays in its FAQ, whose anchor was removed because the body no longer discusses it. The body ends shorter than it began (3,693 against 3,698)."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "The caveat is now followed by a plain restatement: \"Put plainly: the Nine reading says she smooths things over first, with the yes and the 'I'm fine,' and that fear shows only when the smoothing fails. The Six reading says fear drives both the going along and the blowups.\" \"Self-forgetting\" is introduced in the Type 9 definition, and Type 6 gets a one-sentence description in the type section. The protected sentences were kept verbatim, so the C102 passage is unchanged and its inference note records the added restatement."
+    },
+    {
+      "finding_id": "unfamiliar-09",
+      "action": "fixed",
+      "reason": "The page now reports only what she said and when: the October 2025 remark in the fan section and the March 13, 2026 statement (Complex) in the limits passage, with the sentence that they are \"two statements she has not publicly joined.\" It does not assert that the second explains the first. The acronym is expanded once as Complex gives it; no diagnosis language is added and the statement is not used as type evidence. C35 and C77 match the final text."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Order is now presented as the pattern both types explain (\"Going along first and objecting late does not separate the two types\"), and no sentence in the body, FAQs or description credits it with separating Nine from Six. The stage name is not listed. The proposed replacement (she hides her distress so others will not worry) was tested and not used as the separator: that reflex is the swing she calls \"my condition,\" which the article does not credit to type (enneagram-06). The separator that replaced it is what she asks for when she objects (C114), with \"I have to check them to check me\" printed against it as the reassurance-seeking a Six reading predicts."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "The reason test was rebuilt on the domain where she defers: \"In October 2021 she knew what she did not want and agreed anyway, which is not borrowed certainty, but avoiding a fight is also a way of staying safe.\" The paragraph confronts \"Yeah, they've been right\" and two of her own self-doubt lines, prints \"I have to check them to check me\" in the same section, and no longer infers an absence of doubt from studio precision or employees' praise; the Pharrell anecdote is labelled \"an employee describing craft\" (C92, C115)."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The baseline claim now rests on dated third-party observation (Asrat 2021, Lewis 2023) and is weighed in the same paragraph against the fear wording of the shut-in years: \"Against that stand the fear words for her teens: her own 'agoraphobic,' her producer's 'safe place.'\" The politics sentence and \"does not scan or prepare\" were cut. The article no longer answers the fear evidence by reassigning it to pressure; it says the record cannot tell the two readings apart."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "The full sequence is claimed only for Paraguay, with the 2021 tweets and 2025 hug said to share its outline. Threads and Auckland are labelled as fights that open with her refusal and end with her leaving the platform, the March 2026 episode is added as an outburst with no demand behind it, and the article says \"No yes comes before either.\" The title's \"Every\" and the fan-conflict FAQ were narrowed to match (C117, C120)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "The Type 7 section now names the freedom-from-obligation reading as \"Its strongest version,\" with two of her quotations (\"I'm not your fucking costume monkey\" and \"I feel free\"), and gives a sourced reason it loses: by her own account she keeps meeting the claim and objects afterward (\"[I] just keep agreeing to shit I dont wanna do\"), and her escape runs home. The second half of her Elle UK sentence is conceded to the Seven (C109, C93)."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "With no clinical gloss beyond the acronym's expansion and the single attributed mention kept, the limits passage now states that the blowup-to-\"I'm fine\" swing has an explanation of her own, that it \"is not credited to type here,\" and names the Nine evidence that does not depend on it: \"the yes itself, what she asked for, and what others saw.\" The 60-word answer and type FAQ were rewritten around the yes and what she asks for, so they read as accurate with that sentence in place (C116, C90)."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The Three and Four dismissals by single quotation were replaced with one passage that claims no proof (\"Other types are not disproved\"), giving each its exhibit (\"You are failing\" and the approval she admitted chasing for the Three; \"I want people to embrace me\" for the Four). One sentence names Type 8 and the sourced reason it fails: her own \"It is a mask\" (C119)."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The confidence wording now matches the separator that survives. The answer and type FAQ read \"leans Enneagram Type 9, the Peacemaker, but narrowly: medium confidence, with Type 6 a live rival,\" and the description says \"leans Type 9, narrowly.\" One separator is left after the concessions on order and reason (what she asks for when she objects, with third-party observation of her resting state, C114). The evidence stays at status ready and confidence medium on that basis; type_hypothesis records that this is the low end of medium and that the outcome is a hold if verification finds the separator below the release bar."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Body and FAQ give the Elle UK line its month (\"published that May\" / \"published in May 2026\") and present the statements in true order, with his March 2026 denial first and a clause saying it answered a TikTok of hers. Neither passage reads as his reply to the Elle UK quotation. The only added detail is the label Complex reported (\"deadbeat\"), which is what his denial was disputing; no allegation from his videos was added."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "title and meta_title no longer assert that every blowup follows a long yes: the title is \"Doja Cat: The Long Yes Before the Loud No\" and meta_title is 58 characters. The list lead-in claims only the steps the listed episodes show, and the FAQ sentence now reads \"The dated record shows two kinds of dispute\" (C104, C96)."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "The closing section now says the dated break is \"A second test, of Nine against Seven,\" and names what would favour Six over Nine: asked for something she does not want, she names a danger instead of asking for rest, or with no pressure on her she prepares and seeks reassurance instead of doing nothing. C90, C91, C92 and C114 carry review triggers pointing to that test (C118). The body did not grow."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The sentence is now written as of a stated date (\"As of October 2026 her last announced tour date was Madison Square Garden on December 1, 2026\"), and the sentence after it is an instruction for the next revision, not a pending prediction. C76's trigger adds the later checkpoints (a new album or tour announcement, and the end of 2029) and C82's trigger asks for the finale to be confirmed."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Video-sourced statements are now dated by publication or air date in wording that says so: \"an interview published that October,\" \"an Apple Music interview posted in December 2023,\" \"a Vogue video published in March 2026, recorded between tour legs,\" \"an Apple Music interview published in August 2025,\" \"a segment aired in September 2025,\" and in the FAQ \"an interview published in October 2025.\" The closing line says \"In the Vogue video\" and asserts no month."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Each flagged phrase now carries a year or was removed: \"her 2025 and 2026 first-person testimony,\" \"Her 2025 and 2026 interviews share a therapy vocabulary,\" \"her 2025 album,\" \"From 2021 to 2026,\" \"A 2025 version of this profile,\" \"As of 2026 the name is still on the marquee,\" \"Lydia Asrat, one of her managers ... in 2021,\" and \"her engineer Rian Lewis told Revolt in 2023.\" C56 and C01 gained review triggers (a new album or era statement; a name change)."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "The running tally (\"Leaving the room is her most common ending\") was removed. The remaining sentence is scoped to the two listed disputes, and the Auckland item says in a clause that she came back to X (\"she was back within months,\" supported by her own words in S-RT26). The article does not say she returned to Threads because no opened source establishes it. C87 gained a trigger to recount the endings at each refresh."
+    },
+    {
+      "finding_id": "future-08",
+      "action": "fixed",
+      "reason": "Both cross-profile type statements were removed, so no other profile's type is asserted and nothing needs tracking; the remaining profile links name people in her story. C83-C86 gained a trigger to confirm playback and offsets at each refresh, and every embedded line is still quoted in the body text."
+    },
+    {
+      "finding_id": "future-09",
+      "action": "fixed",
+      "reason": "Resolved by the second branch: the article's sentence is unchanged in substance, and the evidence record now carries an unresolved item (C23) with a review_trigger to open her 2026-08-31 posts and recheck her statements on drinking. Her first-hand CBS line about alcohol is recorded there; nothing is sourced to the relay and no clinical language was added."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Neither account can be checked from outside, and this profile builds nothing on either.",
+      "action": "kept",
+      "reason": "Kept verbatim. The father passage was shortened and put in date order, and it still builds nothing on either account."
+    },
+    {
+      "passage": "This profile cannot evaluate it and does not try: nothing here is a diagnosis, and a personality type is no substitute for her account.",
+      "action": "kept",
+      "reason": "Kept verbatim. It moved with her March 2026 statement to the limits passage of the type argument, where \"it\" refers to her own account; the sentence before it was repaired (subject-01) and a sentence after it now says what the account does to the inference."
+    },
+    {
+      "passage": "Two cautions. She defended that call as her own (\"I can be strategic\"), and every statement here was made while selling the next album as the real one.",
+      "action": "kept",
+      "reason": "Kept verbatim. The paragraph before it now names the decision (\"Paint the Town Red\") and the interview, so \"that call\" has a clear referent."
+    },
+    {
+      "passage": "The best witness against a conflict-averse reading is Doja Cat.",
+      "action": "kept",
+      "reason": "Kept verbatim as the opening of the troll section, with more adverse evidence added after it (the Periscope line and the dated backlashes)."
+    },
+    {
+      "passage": "\"I don't know if I was agoraphobic, but I definitely thought that I was at the time.\" (The word is hers, not a diagnosis.)",
+      "action": "kept",
+      "reason": "Kept verbatim, with the article's note that the word is hers."
+    },
+    {
+      "passage": "When the no finally arrived, it arrived like this: \"instead of closing the door, I kicked it and the knob fell off. And so now the door is fully open.\"",
+      "action": "kept",
+      "reason": "Kept verbatim; the closing line still returns to the door image."
+    },
+    {
+      "passage": "That last admission does not rescue the Nine reading. A show of size put on when you feel exposed is exactly what the next type predicts.",
+      "action": "kept",
+      "reason": "Kept verbatim. The Type 6 section still follows it directly, so \"the next type\" is accurate after the Type 7 section moved earlier."
+    },
+    {
+      "passage": "A life arranged for quiet, and a person who is lonely inside it: the type argument does not tidy that up.",
+      "action": "kept",
+      "reason": "Kept verbatim and still unresolved. The sentence before it now states what her loneliness line referred to (subject-05)."
+    },
+    {
+      "passage": "Notice where the fantasy goes: somewhere quiet, with her people.",
+      "action": "kept",
+      "reason": "Kept verbatim. The tweet's weight changed (it is evidence for what she asks for, not for the pop years being a yes) and the reading of the island fantasy holds."
+    },
+    {
+      "passage": "Weigh her latest first-person testimony most heavily and you land on Six.",
+      "action": "changed",
+      "reason": "Changed by one phrase: \"her latest\" became \"her 2025 and 2026\" (future-06), because \"latest\" will misread once newer interviews exist. The sentence still states the alternative at full strength and tells the reader how to reach it."
+    },
+    {
+      "passage": "This is a judgment from pattern, not a proof. It treats fear as what breaks through when the smoothing fails rather than as the engine, and the record cannot confirm that.",
+      "action": "kept",
+      "reason": "Kept verbatim. A plain-language restatement of the two readings was added after it (unfamiliar-08) and further limits follow."
+    },
+    {
+      "passage": "The half that gets lost is the one she keeps describing: the hug, the nickname, the days of saying nothing. This profile is about that half, the long yes before the blowup.",
+      "action": "kept",
+      "reason": "Kept verbatim. One sentence was added after it (\"Not every blowup has one, and those are here too\") so the premise is scoped from the start."
+    },
+    {
+      "passage": "An hour into their first sitting Doja, who turned out to have a fever, got up to leave. \"Is everything OK?\" the writer asked. \"Yeah, everything's great,\" she said. \"I appreciate it. Really, I do.\"",
+      "action": "kept",
+      "reason": "Kept verbatim, reframed as texture with the ordinary explanation stated (subject-08): it is introduced as \"texture, not evidence\" and followed by \"She was sick and being polite.\""
+    },
+    {
+      "passage": "A Nine reading does not explain the fun she has in a fight, or how the woman who mutes Pharrell struggles to refuse a hug.",
+      "action": "changed",
+      "reason": "Changed to remove an unsupported detail (subject-07): \"struggles to refuse a hug\" asserted that the hug was unwanted, which her own account does not say. The sentence now ends \"has, in her words, 'such an issue with setting boundaries.'\" The contrast with the woman who mutes Pharrell, and the admission that the type does not explain it, are retained."
+    },
+    {
+      "passage": "That is what closing the door, instead of kicking it, sounds like.",
+      "action": "kept",
+      "reason": "Kept verbatim as the last line."
+    },
+    {
+      "passage": "Three things are in that exchange: the agreeing, the resentment arriving late and loud, and the reflex to tell everyone it's nothing.",
+      "action": "kept",
+      "reason": "Kept verbatim. The third item (the reflex to say it is nothing) is no longer credited to type, which the limits passage states."
+    },
+    {
+      "passage": "The Six reading takes her at her word, and that is its strength: her terms for her own motive are \"safe\" and \"threatened,\" not peace or ease.",
+      "action": "kept",
+      "reason": "Kept verbatim; the verdict around it was narrowed, as the reviewer anticipated."
+    },
+    {
+      "passage": "The argument does not depend on it.",
+      "action": "kept",
+      "reason": "Kept verbatim. It now follows the dated Nine-against-Seven test, so \"it\" still refers to the outcome of the planned break."
+    },
+    {
+      "passage": "The limits belong on the page. This is a judgment from pattern, not a proof. It treats fear as what breaks through when the smoothing fails rather than as the engine, and the record cannot confirm that.",
+      "action": "kept",
+      "reason": "Kept verbatim and contiguous; the plain-language restatement and the further limits come after it."
+    },
+    {
+      "passage": "Two cautions. She defended that call as her own (\"I can be strategic\"), and every statement here was made while selling the next album as the real one. What the dated record adds is sequence.",
+      "action": "kept",
+      "reason": "Kept verbatim. The sentences after it now scope \"sequence\" to October 2021, where a withheld contemporaneous objection is on record, and the article no longer treats sequence as separating Type 9 from Type 6."
+    },
+    {
+      "passage": "Vogue reported in March 2026 that she had not worked with Dr. Luke since 2021, while her association with his Kemosabe imprint was still active.",
+      "action": "kept",
+      "reason": "Kept verbatim in the Dr. Luke FAQ; the tour sentence now copies the same as-of pattern (future-04)."
+    }
+  ],
+  "prior_blockers": []
+}

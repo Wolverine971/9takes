@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "59aedac8724bf4199f220b5a2ba56c8b203a218d772f448e46d4e33aa21cb1bd",
+  "evidence_sha256": "7d48e212c47ec76e8a214fdf4594e35f2396c06ffcf6b2b39ece52a6b0a388be",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "Her record shows a repeated order: she goes along first and erupts later, over a stage name, two hit albums and a fan's hug.",
+      "problem": "The answer block (and FAQ 1: \"over a stage name she tried to change\") promises an eruption over the stage name. The body shows none: she tried to change it, was talked out of it, and \"The name is still on the marquee.\" A reader checking the three exhibits finds the first has only the going-along half. The same episode is then counted under \"order\" in the Type 6 section (\"The stage name stayed after she tried to change it\"), where it shows deference, not an objection arriving after a commitment. The evidence record says the attempts are undated (C01), yet C91 counts \"four dated episodes.\"",
+      "acceptance_test": "The 60-word answer, FAQ 1 and the \"order\" paragraph claim an eruption only for episodes where the body quotes one (the October 2021 tweets, the May 2023 \"cash-grabs\" tweets, the June 2025 hug). The stage name is described as what the body shows (she objected, was persuaded, kept it), or a sourced, dated outburst about the name is added. The answer stays at or under 60 words, FAQ 1 mirrors it, and the C90 and C91 passages match the new text."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "Appeasement, a flip when it is refused, collapse, repair. The sequence repeats with different casts:",
+      "problem": "The two bullets offered as repeats show neither the first step nor the last. Threads opens on the insult with no stated trigger (what had the fans done?) and ends in deactivation and \"I feel free\"; \"the unfollows\" arrives with no antecedent and no scale. Auckland is complaint, hostile replies, then deleting X. A newcomer sees outburst-then-exit twice and the four-step sequence once (Paraguay), so \"repeats\" is unearned. So are FAQ 3's \"accommodation, then an outburst\" for July 2023 and the title's \"Every Blowup\": of the six blowups the body narrates, three show a preceding yes. The intro's teaser quote from Auckland (\"You are not the artist you are the watcher\") is not carried into this bullet and has no source link or claim passage.",
+      "acceptance_test": "Each bulleted episode either shows on the page, with a source, what she had gone along with beforehand and what set the post off, or the framing sentence claims only what the bullets show (outburst, then exit). The Threads bullet says what the fans did and states that a wave of unfollows followed, with any figure attributed and given as the range outlets reported (C39: 180,000 to about 500,000) or left out. The \"watcher\" quote sits in the Auckland bullet with its source and a claim passage. FAQ 3 and the title's \"Every\" claim no more than the body documents."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "major",
+      "passage": "October 2021 was the top of the _Planet Her_ year.",
+      "problem": "The body never says in a plain sentence who Doja Cat is or how large the career is. \"Scarlet\" appears in the type section two sections before it is identified as a record; \"Planet Her\" is never introduced as an album; \"Hot Pink\" appears only inside a lowercase tweet; \"Say So\", the No. 1 behind \"the lane that sold\", and any measure of scale are absent. A reader without prior knowledge cannot weigh the thesis exhibits \"two hit albums\" and \"a lane she objected to\", or feel what calling them \"cash-grabs\" cost. The spine is already in the record (C79).",
+      "acceptance_test": "By the end of \"The name she tried to change\", a reader with no prior knowledge can state from the body alone what she does, the order and years of the four albums the argument names (Hot Pink, Planet Her, Scarlet, Vie), and one sourced measure of how big the pop years were. No album title appears before it has been identified as an album. The added orientation is about 60 words or fewer, drawn from the existing record, and offset by cuts so the body does not grow."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "major",
+      "passage": "In 2026 she told Elle UK, \"my dad left me when I was little.\" He disputes that:",
+      "problem": "Sequence error in a disputed matter. The page dates the Elle UK interview to May 2026 (final section; the source is dated 2026-05-14) and the father's \"I never left my kid\" to March 23, 2026, yet \"He disputes that\" presents the March statement as his answer to the May remark. Per S-CXDAD26 his videos replied to a TikTok of hers that the page does not mention. FAQ 6 repeats the reversed order. Also, \"incompatible accounts\" is announced before the reader has been told her account, so \"it's a little weird\" in the 2019 quote has no referent.",
+      "acceptance_test": "Body and FAQ 6 give the two statements in date order and do not present the March 2026 denial as a response to the Elle UK quote: either say what it answered, sourced to the Complex report, or state neutrally that he has disputed her account, with the date. Her quote stays attributed to her, his denial stays beside it, nothing from his accusations against her mother is added, and a reader can tell what \"it\" refers to in the 2019 quote. The C63, C64 and C103 passages are updated to match."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "That is the smallest case of something she described before anyone was angry at her.",
+      "problem": "The statements that follow are from April and August 2021. The page's own FAQ 7 dates a public controversy and two apologies to May 2020, so \"before anyone was angry at her\" is wrong on the page's own facts, and a reader who reaches the FAQ sees it. That FAQ and the Dr. Luke FAQ are also the first a newcomer hears of either subject.",
+      "acceptance_test": "The sentence makes a time claim the dates support (for example, that she said these things before the fan disputes of 2022 to 2025 described in this article), or the time claim is dropped. No body sentence implies she faced no public anger before 2021."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "That October she walked [Angie Martinez](https://www.youtube.com/watch?v=ArKooB3Ej3A) through it.",
+      "problem": "People and places arrive without the half-clause a newcomer needs to weigh them. Angie Martinez and Zane Lowe are not identified as interviewers. Missy Elliott appears as a questioner with no note that she was interviewing her for Interview magazine. Marc Jacobs and SZA are quoted as witnesses with no stated relationship to her, so the caveat \"The collaborators quoted are employees and partners\" cannot be checked by the reader. \"a Nas lyric aimed at her\" is unexplained. \"the ashram where the family lived\" uses a definite article for something never introduced. \"they\" in the \"Mooo!\" quote has no referent. \"She defended that call as her own\" leaves the call and the interview unclear, and \"I can be strategic\" has no claim passage. FAQ 5 never says who Dr. Luke is.",
+      "acceptance_test": "Each named interviewer or witness carries a role or relationship in a few words at first mention. The ashram gets one sourced clause saying what and where it was, with no single age given (C62). The \"Mooo!\" quote says who \"they\" were. The Nas reference says in a clause what the lyric was, or is reduced so nothing is left dangling. The \"strategic\" sentence names the decision and the interview, and the quote has a claim passage. FAQ 5 identifies Dr. Luke in a neutral sourced clause (C43). Total added text stays under about 70 words."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "The Seven case is real, and this profile used to make it.",
+      "problem": "Momentum drops after the Six section. The closest contest and its honest limits are resolved, then the reader gets about 320 words on a type the answer block set aside at the top, and Three and Four in two sentences each; the stakes descend toward the ending. Inside the section, the shaved-head example gives her quote but not the inference: \"Even the reinventions look different up close\" never says different how, and \"I need to do something\" reads as impulse, which fits a Seven as easily (the record concedes this at C44).",
+      "acceptance_test": "The type-argument sections end on the Nine versus Six contest and its limits, with Seven handled before it or cut to roughly 180 words; the why-not-type-7 anchor used by two FAQs still resolves. The shaved-head example states in one clause what her explanation shows and concedes what it does not, or it leaves the argument and stays in the FAQ. The body ends shorter than it began."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "It treats fear as what breaks through when the smoothing fails rather than as the engine, and the record cannot confirm that.",
+      "problem": "The article's most important caveat is written in shorthand. \"The smoothing\" has no antecedent anywhere in the piece, \"the engine\" is a metaphor, and \"self-forgetting\" two sentences later was never introduced under that name. A reader new to the Enneagram cannot restate what the Nine reading assumes or what would make it wrong. Related: the answer block names Type 6 as the serious rival, but the body does not say what a Six is until the eighth section, about 2,100 words later, so six sections of evidence are read without the means to test them against the rival.",
+      "acceptance_test": "A reader new to the Enneagram can restate the caveat in one sentence after reading it: it names the two readings in plain words (going along comes first and fear shows only when that fails, versus fear driving both the going along and the blowups) and says the record cannot tell them apart. Type 6 gets a one-clause description at its first mention in the type section. The C102 passage is updated to the new wording."
+    },
+    {
+      "id": "unfamiliar-09",
+      "severity": "minor",
+      "passage": "That is her own explanation of this cycle.",
+      "problem": "The paragraph joins an October 2025 remark (a \"condition\" with \"a word for it\" she did not give) to a March 2026 TikTok and then states as fact that the second explains the cycle. On the page the connection is the article's, not hers; a reader cannot tell whether she ever linked them. The record holds words of hers that would carry it (Elle UK: \"I have an explanation, not an excuse, for the way that I act in certain situations\"), and the Complex report ties her statement to pretending everything is okay, not to the outbursts. \"BPD\" is also left unexpanded, which a newcomer may not be able to read; whether to expand it is the editor's call under the sensitive-handling rules.",
+      "acceptance_test": "The sentence either quotes or closely attributes her own words making the connection, with outlet and date, or it reports only what she said and when, without asserting that the March 2026 statement explains the October 2025 description. The mention stays single, dated and in her words, with no diagnosis language and no use as type evidence. The C35 and C77 passages match the final text."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The half that gets lost is the one she keeps describing: the hug, the nickname, the days of saying nothing. This profile is about that half, the long yes before the blowup.",
+      "reason": "States the whole premise in two sentences a newcomer can hold onto, and it grows directly out of the opening scene instead of out of type vocabulary."
+    },
+    {
+      "passage": "An hour into their first sitting Doja, who turned out to have a fever, got up to leave. \"Is everything OK?\" the writer asked. \"Yeah, everything's great,\" she said. \"I appreciate it. Really, I do.\"",
+      "reason": "A small observed scene that shows the \"I'm fine\" reflex without commentary. It is the detail an unfamiliar reader remembers afterwards."
+    },
+    {
+      "passage": "A life arranged for quiet, and a person who is lonely inside it: the type argument does not tidy that up.",
+      "reason": "Leaves a real contradiction standing and says so. It makes the reader trust the rest of the argument."
+    },
+    {
+      "passage": "A Nine reading does not explain the fun she has in a fight, or how the woman who mutes Pharrell struggles to refuse a hug.",
+      "reason": "Names what the typing cannot explain using two images the article has already earned. It is the most memorable sentence in the piece."
+    },
+    {
+      "passage": "That is what closing the door, instead of kicking it, sounds like.",
+      "reason": "Returns to the opening image and gives the ending a clear landing without a moral or a call to action."
+    }
+  ],
+  "assessment": "Read cold, the opening works: the hug, the delayed post and her \"kicked it and the knob fell off\" account set up a question the article goes on to answer, and the ending returns to the same image. The contest with Type 6 is the best stretch: it gives the rival her own words (\"Weigh her latest first-person testimony most heavily and you land on Six\") and prints its limits. What a newcomer does not get is basic orientation (who she is, which albums, how big), and the central pattern is claimed more widely than the episodes show: the stage name has no eruption, and two of the \"repeats\" have no going-along step. Two sequence errors need fixing on the page's own dates: the father's March 2026 denial is presented as a reply to a May 2026 interview, and \"before anyone was angry at her\" contradicts the 2020 item in the FAQ. The back third stacks three adjudication sections and the body is about 3,700 words, so fixes should trade length, not add it. Risk flags are carried from research and not downgraded: sensitive material (her March 2026 health statement, the disputed father account, Tinychat and Dr. Luke in the FAQs), contested typing (Nine over Six at medium confidence) and a major thesis change (the published Type 7 retyped to 9). Similarity: the one tripped pair shares only \"keep the peace\"; I read the matched passages in the Austin Abrams, Victoria Justice and Nate Bargatze drafts and found ordinary Type 9 vocabulary and a shared sloth-is-not-laziness gloss in different words, not reused argument. Limitation: this role did not reopen sources; dates and context come from the supplied evidence record."
+}

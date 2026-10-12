@@ -1,0 +1,42 @@
+The verify stage is done and the result is a hold: `verification-edit.json` is written with status `insufficient_evidence`. Nothing else in the repo was touched and nothing was published.
+
+**Why it holds:** the one reason left for putting Type 9 ahead of Type 6 does not survive a check against the page's own sources. The page says that when she objected in 2021 and 2023 she named rest, not a danger. Against that:
+
+- **A 2021 objection names fear.** On January 19, 2021 she wrote "I'm not comfortable making TikToks anymore" and gave as the reason "i have a lot of fear in me." The page prints that line two paragraphs earlier.
+- **"I want to be home" is cut short.** The full line is "I want to be home. I want to make music. I want to play video games," and both Capital FM and Rolling Stone report that Live as wanting time to make music.
+- **The October 2021 tweets are an exhaustion statement.** They include "im never not working. im fucking tired"; a tired Six would also ask for rest.
+- **The two outside witnesses show less than claimed.** Her manager's line is about cooking, and her engineer's "so relaxed" describes how easily she writes songs, not a resting state.
+
+This separator was also written after the jury closed, so no independent reviewer has tested it. Under your owner note that means hold, not a switch to 6 or a return to 7.
+
+**What held up**
+- **Sources:** I reopened all 48 cited sources. Of 115 quoted strings, 105 match exactly and the other ten differ only in caption punctuation or dropped false starts. I found no misquote, misattribution or wrong date.
+- **Editor decisions:** 49 of 50 accepted. The one rejected is `enneagram-08`, whose test turns on a separator surviving.
+- **Protected passages:** all 21 preserved (19 verbatim, 2 changed for good reason).
+- **Metadata:** FAQs, citations, birth facts, identifiers, internal links and the four suggestions all check out.
+
+**Scores**
+
+| Dimension | Score | Gate |
+| --- | --- | --- |
+| Evidence | 8.0 | 8 |
+| Enneagram | 7.2 | 8 |
+| Originality | 8.8 | |
+| Writing | 8.3 | |
+| Durability | 8.5 | 8 |
+| Hook | 9.0 | |
+| Discoverability | 8.2 | 7 |
+| **Overall** | **8.1** | 8.5 |
+
+**Smaller fixes logged (minor)**
+- The closing quote "I'm boring and I need to be boring" is her explaining why she dresses plainly offstage; the page frames it as asking for room.
+- Her March 2026 statement ("pretend that I like stuff") covers going along, yet the page still counts "the yes itself" as type evidence.
+- The description offers agree-first, object-late as the reason for the lean, which the body says is shared with Type 6.
+- One direct quote has no claim entry, and the Auckland post is printed as if the sentence ended at "every night."
+
+**Limits of this check**
+- Video quotes were checked against captions I downloaded today, not by ear, and the four embeds were not played in a browser (their pages report public and embeddable).
+- Interview magazine refused a direct fetch, so I read it through a proxy render of the live page.
+- The New York Times interview and her TikToks are still known only through outlet relays.
+
+The file lists eight research tasks. The two that matter most are a dated table of every on-record objection with what she asked for, and off-cycle testimony from people who do not work for her. If either yields a real separator, the next run should be `--refresh --expanded-review`.

@@ -30,9 +30,9 @@ picGroup:
   - image: '/types/3s/Sabrina-Carpenter.webp'
     text: 'Sabrina Carpenter'
     enneagramType: 3
-  - image: '/types/7s/Doja-Cat.webp'
+  - image: '/types/9s/Doja-Cat.webp'
     text: 'Doja Cat'
-    enneagramType: 7
+    enneagramType: 9
   - image: '/types/3s/Taylor-Swift.webp'
     text: 'Taylor Swift'
     enneagramType: 3
@@ -45,7 +45,7 @@ path: src/blog/pop-culture/pop-queens-enneagram-analysis.md
 </script>
 
 <QuickAnswer question="What Enneagram types are today's biggest pop stars?">
-Chappell Roan is a Type 8 (Challenger) who went from unknown to setting boundaries so fierce they became the brand. Charli xcx is a Type 3 (Achiever) who performs chaos while calculating every move. Billie Eilish is a Type 4 (Individualist) whose darkness is genuine, not aesthetic. Sabrina Carpenter is a Type 3 whose winking persona is pure image craft. Doja Cat is a Type 7 (Enthusiast) who shape-shifts because standing still terrifies her. Taylor Swift is a Type 3 whose strategic genius is her actual art form.
+Chappell Roan is a Type 8 (Challenger) who went from unknown to setting boundaries so fierce they became the brand. Charli xcx is a Type 3 (Achiever) who performs chaos while calculating every move. Billie Eilish is a Type 4 (Individualist) whose darkness is genuine, not aesthetic. Sabrina Carpenter is a Type 3 whose winking persona is pure image craft. Doja Cat leans Type 9 (Peacemaker): she goes along for years, then says no all at once. Taylor Swift is a Type 3 whose strategic genius is her actual art form.
 </QuickAnswer>
 
 <p class="firstLetter">2024-2026 has been the most personality-diverse era in pop music history. And the women running it couldn't be more psychologically different.</p>
@@ -58,7 +58,7 @@ Chappell Roan is a Type 8 (Challenger) who went from unknown to setting boundari
 - **Is Charli xcx actually messy or is "brat" the most calculated brand in pop?** She makes chaos look effortless. But Type 3s don't do anything accidentally. How much of "brat summer" was engineered?
 - **Why does Billie Eilish's sadness feel more real than other sad pop stars?** Lana Del Rey, Olivia Rodrigo, Billie—they all do sad. But Billie's hits different. Is it because she's a genuine Type 4 while others might be performing the aesthetic?
 - **Is Taylor Swift the most psychologically strategic person in entertainment?** The re-recordings. The Eras Tour. The boyfriend reveals. Every move feels calculated for maximum impact. Is that admirable Type 3 mastery or exhausting manipulation?
-- **Why did Doja Cat shave her head and then seemingly try to destroy her own career?** She alienated fans, quit rap, embraced a demon aesthetic. Is that a Type 7 running from expectations—or something deeper?
+- **Why did Doja Cat shave her head and then seemingly try to destroy her own career?** She alienated fans, quit rap, embraced a demon aesthetic. Is that someone running from expectations, or a long yes finally turning into a loud no?
 - **What does it mean that this era has a pop queen for every personality type?** Previous eras were dominated by one or two archetypes. Now there's a Chappell for the rebels, a Billie for the sensitive ones, a Sabrina for the romantics. Is pop music more psychologically diverse than ever?
 - **Why does Sabrina Carpenter's "nice girl" energy work when it feels like the culture wants edge?** In an era of Chappell Roan setting boundaries and Doja Cat going dark, Sabrina is... winking and making espresso jokes. How is that working?
 - **Is Olivia Rodrigo's heartbreak content sustainable?** SOUR was devastating. GUTS was growing up. What happens to a Type 2 pop star when the breakup well runs dry?
@@ -71,7 +71,7 @@ Chappell Roan is a Type 8 (Challenger) who went from unknown to setting boundari
 | [Charli xcx](/personality-analysis/charli-xcx)               | Type 3 - Achiever      | Calculated pop anarchy        | Achievement through subversion    | 9.6           |
 | [Billie Eilish](/personality-analysis/billie-eilish)         | Type 4 - Individualist | Whispered darkness            | Authentic emotional expression    | 9.1           |
 | [Sabrina Carpenter](/personality-analysis/sabrina-carpenter) | Type 3 - Achiever      | Winking pop perfection        | Likability through craft          | 8.0           |
-| [Doja Cat](/personality-analysis/doja-cat)                   | Type 7 - Enthusiast    | Unpredictable shapeshifting   | Freedom through reinvention       | 9.3           |
+| [Doja Cat](/personality-analysis/doja-cat)                   | Type 9 - Peacemaker    | The long yes, then the blowup | Room to be left alone             | 8.1           |
 | [Taylor Swift](/personality-analysis/taylor-swift)           | Type 3 - Achiever      | Strategic emotional narrative | Legacy through connection         | 8.8           |
 | [Olivia Rodrigo](/personality-analysis/olivia-rodrigo)       | Type 2 - Helper        | Tender confession             | Being loved through vulnerability | 8.9           |
 
@@ -91,9 +91,9 @@ Chappell Roan is a Type 8 (Challenger) who went from unknown to setting boundari
 
 <!-- TODO: Carpenter's Type 3 is the classic pop star 3—bubbly, polished, designed to be loved. But she's smart enough to add a wink. The "Espresso" / "Please Please Please" era as 3 mastery: songs about wanting to be desired, performed by someone who knows exactly how to manufacture desire. Why she reads as less "authentic" than Billie but is equally strategic as Charli—she just chose a different image. -->
 
-## Doja Cat: Pop's Unpredictable Shapeshifter
+## Doja Cat: The Homebody Behind the Blowups
 
-<!-- TODO: Doja's Type 7 manifests as constant reinvention that makes even her fans dizzy. The head-shaving. The demon aesthetic. The genre-hopping. 7s fear being trapped—Doja's trap is expectation. Every time the audience thinks they know her, she burns it down. Why her controversial moments (quitting rap, alienating fans) are actually 7 behavior: she'd rather lose everything than feel pinned down. -->
+<!-- TODO: Doja was retyped from 7 to 9 on 2026-10-11 (a narrow call, with Type 6 close; see her profile). Write this section from the profile: the stage name she tried to change, "I'm done saying yes" (October 2021), Paraguay's sorry / not sorry / "I owe a lot," the 2025 fan hug and the door she kicked, and the heating blanket and Fortnite at home. Do not reuse the old Type 7 framing or the old page's quotes; several were misattributed. -->
 
 ## Taylor Swift: The Strategic Alchemist
 
@@ -105,7 +105,7 @@ Chappell Roan is a Type 8 (Challenger) who went from unknown to setting boundari
 
 ## Why This Era Is Different
 
-<!-- TODO: Conclusion about how previous pop eras were dominated by one or two types (3s in the 2000s, 3s and 4s in the 2010s). The 2020s broke the mold: 8s (Chappell), 7s (Doja), 4s (Billie), 3s (Charli, Sabrina, Taylor), and 2s (Olivia) all coexist at the top. This diversity of personality types means there's a pop queen for every listener's psychology. Music has never been this psychologically inclusive. -->
+<!-- TODO: Conclusion about how previous pop eras were dominated by one or two types (3s in the 2000s, 3s and 4s in the 2010s). The 2020s broke the mold: 8s (Chappell), 9s (Doja), 4s (Billie), 3s (Charli, Sabrina, Taylor), and 2s (Olivia) all coexist at the top. This diversity of personality types means there's a pop queen for every listener's psychology. Music has never been this psychologically inclusive. -->
 
 ## Rabbit Holes Worth Exploring
 

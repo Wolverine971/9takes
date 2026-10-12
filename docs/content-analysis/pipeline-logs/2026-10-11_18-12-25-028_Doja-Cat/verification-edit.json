@@ -1,0 +1,1198 @@
+{
+  "schema_version": 3,
+  "content_sha256": "45801801ab49eae8fbe7ce1371b9579b506d4f6442f270a6c6cfc0fa6fe41c28",
+  "evidence_sha256": "59a4418cd4880b30787b38e065961f70638a2733ca68408ebe13bb84515f134a",
+  "status": "insufficient_evidence",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "blocker",
+      "passage": "What keeps the Nine ahead is narrower: what she asks for. When she objected at the time, in 2021 and 2023, she did not name a danger or a person she could not trust.",
+      "problem": "The one separator left between Type 9 and Type 6 does not hold against the page's own sources. (1) A dated 2021 objection names fear: on January 19, 2021 she wrote 'I'm not comfortable making TikToks anymore' and explained 'i have a lot of fear in me' (Complex), an exhibit the page prints two paragraphs earlier. (2) 'I want to be home' is cut from 'I want to be home. I want to make music. I want to play video games,' and Capital FM and Rolling Stone both report that Live as wanting time to make music, which is her own agenda and not rest. (3) The October 2021 tweets are an exhaustion statement ('im never not working. im fucking tired'); a tired Six would also ask for rest, which the evidence record concedes and the page does not say. (4) The island line is a taunt inside an album-title announcement. (5) Asrat's line is a counterfactual about cooking, and Lewis's 'she just comes in, and she's so relaxed' describes how easily she writes songs, not a resting state. (6) 'She does ask for that, but later' leaves out her own account of an earlier reassurance habit ('I need tarot cards. I need an answer. Text me,' Vogue 2026, held in the record). The warrant about what a Six asks for is unsourced. With order and reason already conceded on the page, no defensible discriminator remains.",
+      "acceptance_test": "Research produces a discriminator that Type 6 fails on dated, sourced evidence and that survives a full table of her on-record objections, including January 2021; or the evidence status moves to insufficient_evidence and the page stays held under the owner note, with no switch to Six and no return to Seven. Wherever the page says what she asked for, it prints the January 2021 statement and the full November 2021 quotation, describes the Asrat and Lewis lines as what they are, and weighs 'I need an answer. Text me' beside 'but later.'"
+    },
+    {
+      "id": "verify-02",
+      "severity": "major",
+      "passage": "This profile's reading is that someone organized around security, pushed past her limit, asks for reassurance or firmer ground.",
+      "problem": "The edit withdrew both discriminators the jury reviewed (order and reason) and replaced them with one that no independent reviewer has seen. A release would rest on a Nine-over-Six argument first written after the frozen review closed. The standard holds a profile for a refreshed expanded review when substantive editing changes the type argument after that review.",
+      "acceptance_test": "Whatever Nine-over-Six argument follows the research tasks goes before the six-role jury in a --refresh --expanded-review run before any release."
+    },
+    {
+      "id": "verify-03",
+      "severity": "minor",
+      "passage": "In the Vogue video she asked for room without heat. \"I'm boring and I need to be boring,\" she said, because \"my job can't be my life.\"",
+      "problem": "At 30:27 she is explaining why she dresses plainly offstage (a white T-shirt, black jeans, 'a nasty little leather black boot that's super boring'), and the thought ends 'I need a separation between the two. So I'm very like understated when I'm dressing every day.' The words are accurate, but she is not asking anyone for anything and the page does not say she was talking about clothes. The evidence record notes this under C89; the reader is not told.",
+      "acceptance_test": "The sentence says what she was talking about (her everyday clothes, and keeping work separate from life) and does not present the line as a request, or a different closing quotation is used. The last line can stay."
+    },
+    {
+      "id": "verify-04",
+      "severity": "minor",
+      "passage": "So the swing from blowup to \"I'm fine\" is not credited to type here. The lean rests on what is left: the yes itself, what she asked for, and what others saw.",
+      "problem": "The statement the page has just quoted ('to pretend that I like stuff ... to appear like everything is okay') is her account of going along, not only of the swing. Counting 'the yes itself' as type evidence draws the limit narrower than her own words.",
+      "acceptance_test": "The passage says that her account also bears on the going along and names what part of the yes it still relies on and why, or it drops 'the yes itself' from the list. No clinical gloss is added and the condition is still named once."
+    },
+    {
+      "id": "verify-05",
+      "severity": "minor",
+      "passage": "Her record shows someone who agrees first and objects late. Why it leans Type 9, narrowly, with Type 6 close.",
+      "problem": "The description offers agreeing first and objecting late as the reason for the lean, while the body says 'Going along first and objecting late does not separate the two types.'",
+      "acceptance_test": "The description gives the pattern as the portrait and does not present it as what separates Nine from Six, within 120 to 170 characters."
+    },
+    {
+      "id": "verify-06",
+      "severity": "minor",
+      "passage": "\"I'm burnt out. I'm tired,\" she said on",
+      "problem": "Two small quotation points. This direct quotation has no claim passage of its own; it appears only inside the claim text of C84 (I checked it against the captions at 5:13). And the Auckland post is printed as ending at 'every night.' when the sentence in Complex runs on: 'so you can keep your bullshit opinion to yourself.'",
+      "acceptance_test": "The burnt-out quotation has its own claim passage, and the Auckland quotation closes before the full stop or is marked as cut."
+    }
+  ],
+  "research_tasks": [
+    "Build a dated table of every on-record objection from 2019 to 2026 (the January 2021 TikTok withdrawal, October and November 2021, Paraguay in March 2022, May 2023, Threads in July 2023, the March 2024 Instagram exit, June 2025, Auckland in November 2025) with the reason she gave and what she asked for, each from an opened source. Test any Nine-over-Six separator against the whole table, including the statements that name fear.",
+    "Find first-hand, dated testimony about how she behaves off-cycle from people who do not work for her (SZA, Jack Antonoff, friends, family): with nothing scheduled, does she rest and drift, or prepare and seek reassurance? The only outside observations on the page are a manager's remark about cooking and an engineer's about songwriting.",
+    "Date the reassurance habit she describes as pre-therapy ('I need tarot cards. I need an answer. Text me,' Vogue, March 2026) and look for contemporaneous evidence of it, or of its absence, before 2024. The page's 'She does ask for that, but later' depends on it.",
+    "Open her TikTok of 2026-03-13 first-hand (and those of 2026-03-20 and 2026-08-31) for her full wording on 'pretend that I like stuff.' Whether she ties it to agreeing to obligations decides whether 'the yes itself' can be used as type evidence at all.",
+    "Open the New York Times interview published 2025-09-05 directly; the page relies on Revolt's relay for 'I want to return back to what I know.'",
+    "Verify and date the two leads the fan reviewer raised from general knowledge: the July 2022 Noah Schnapp direct-message episode (an immediate public no) and the 2022 Taco Bell TikTok in which she called the jingle contractual (going along while saying so).",
+    "If research yields a discriminator, or moves the read, run --refresh --expanded-review so the Enneagram argument that replaced the jury-reviewed one gets an independent challenge. If it does not, keep the hold under the owner note; do not switch to Type 6 or return to Type 7 unilaterally.",
+    "Before any release, have a person listen to each quoted video line and play the four embeds in a browser. Offsets and wording were checked against captions downloaded 2026-10-11 and the earlier machine transcriptions, not by ear."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Rolling Stone (2021-12-16) read in full: the parenthetical says she 'has tried a few times over the years to change it and was persuaded otherwise by a former manager' and quotes 'My image was the pothead hippie girl, and I'm not that.' The attempts are the writer's undated report; the page reports them as such."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "Interview (2021-08-24) read through a same-day proxy render because the site refused a direct fetch. Elliott's question is about charts and streaming; the answer matches word for word, including 'and I get it.'"
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "Both tweets, 'deleted the tweets' and both follow-up quotations match Rolling Stone. Context the page leaves out: the tweets open 'I'm just tired' and include 'im never not working. im fucking tired,' and she told the writer 'I just was, like, very fucking tired.' The page's 'An overbooked star explains most of that' covers it."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "Uproxx (2023-05-09) carries both tweets verbatim. They were posted while she announced an album title; the island line is a taunt at listeners, which the page presents as a fantasy and not as a plan."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Fresh captions of the Apple Music interview (uploaded 2023-12-14), 15:00-16:30: the interviewer puts the premise, she agrees ('they do that'), answers 'yeah they've been right,' names 'Paint the Town Red' and says its popularity 'was what I was kind of running from a little bit.'"
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "Fresh captions at 28:05: 'I had waited so many days because I have such an issue with setting boundaries for myself,' followed by 'I usually am very like, yes, like come, like hug, touch.' Speaker is Doja Cat."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "Complex (2025-06-14): the meeting 'last week,' 'hugged twice before giving each other a kiss on the cheek,' the 'Ami' line, the June 13 post and 'two since-deleted posts.' Complex hedges the post with 'purportedly'; she confirms the episode herself in the Angie Martinez interview."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "Fresh captions at 29:27-29:40. Captions punctuate 'instead of closing the door. I kicked it'; the words are the same."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "supported",
+      "reason": "Fresh captions of the Vogue video at 34:55-35:05; she is explaining why sincerity is hard for her."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Rolling Stone: about an hour in she leaves, the exchange is verbatim, and the writer learns later that she 'had been running a high fever.' The page labels the scene texture and gives the ordinary explanation."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "supported",
+      "reason": "Interview 2021: 'And also, I'm a huge hermit. I don't want to leave my house.' The same interview has 'I actually love to party,' which the page does not print; the Billboard 2022 limit on the homebody reading is printed."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "Fresh captions at 6:13-6:20, answering 'What does the downtime look like for you?'"
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "The limit is stated, not argued. Dazed ('heavily addicted to weed and weed culture') and Rolling Stone ('She smoked a lot of weed') support the overlap; the review trigger for her later statements on drinking is in place."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "Rolling Stone, verbatim, attributed to 'her manager Lydia Asrat.' It is a remark about her love of cooking and a counterfactual ('If Amala could ... she would'), which matters for how C114 uses it."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "Fresh captions at 5:25-5:45: 'the leading up to is one of the hardest ... that's just anxiety in a nutshell is sort of uh thinking about the future, overthinking the future.'"
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "Vogue: she 'spots someone taking a photo from afar, and visibly seizes up'; the quotation is verbatim. Vogue gives no month; December 2025 follows from the Sydney dates (December 1 and 2) in the Live Nation list."
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "Variety (2023-02-01): both quotations verbatim and adjacent, joined in the source by 'she continues.'"
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "Fresh captions at 5:13-5:40 of the CBS segment (uploaded 2025-09-21). The printed fragments drop one sentence between them and an 'Um'; the page prints them as separate fragments."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "Fresh captions at 30:25-30:55 plus the edit stage's saved transcription: 'I'm fine. Everything's fine ... Like that's my condition ... There's a word for it,' and she says naming it is her 'next challenge.'"
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "supported",
+      "reason": "Fresh captions at 32:57-33:15 (she is contrasting settling things privately with performing them online) and Elle UK (2026-05-14), verbatim."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "Los Angeles Times, Billboard (2022-03-27) and Complex (2022-03-31) agree with every step printed, including 'Yes the fuck I am' about two days before March 31. The censored words in the Los Angeles Times are handled by quoting around them."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "W Magazine (2023-07-24): fans' demand for a statement, her refusal, the 'kittenz' post and the Threads deactivation. ET and The Fader (2023-08-16): 'I feel free' on her Instagram Story, with 180,000 and 500,000 as the reported figures."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "Complex (2025-11-19) has both replies as separate posts; Vogue has 'She's since deleted X ... from her phone'; in the Vogue video she says 'I've been on Twitter in the last couple of weeks.' The second post is cut before 'so you can keep your bullshit opinion to yourself' and drops a leading 'And.'"
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "supported",
+      "reason": "Rolling Stone carries the Tinychat description, the 'no evidence' sentence, her denial of being 'involved in any racist conversations' and her account of the 2015 song. Captions of the Instagram Live re-upload have 'i put out an apology last night' and 'i'm very sorry to anybody who's taken offense.'"
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "Rolling Stone: 'I don't think I need to work with him again' and the later email about credits, 'The credits on my music are accurate.' Vogue (2026-03-18): the association 'is still active, but she hasn't worked with Dr. Luke ... since 2021.' Live Nation: Vie released through Kemosabe and RCA."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "Variety, verbatim."
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "supported",
+      "reason": "Scoped to the two listed disputes: she deactivated Threads (W Magazine) and deleted X from her phone (Vogue)."
+    },
+    {
+      "claim_id": "C48",
+      "verdict": "supported",
+      "reason": "Fresh captions at 23:55-24:50; Zane Lowe is named as host in the video description, and the lines about embracing 'security and safety' that follow are his and are not attributed to her."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "Complex (2021-01-20), verbatim. Context: she was withdrawing from TikTok ('I'm not comfortable making TikToks anymore') and gave this as the reason, which bears on C114."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "Fresh captions at 14:40-15:00, in an exchange about who can check her: 'My team's good at that sometimes. I have to check them to check me ... I need you to tell me that I'm doing this.'"
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Fresh captions at 36:00-37:30. The host asks whether she wants to clean up misconceptions; 'I think about it almost every day' is hers, followed by her decision not to argue it."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "Fresh captions at 31:08-33:15: the job is lonely, she employs the people around her ('there is a barrier'), lives far from everyone and finds friendship hard. The framing sentence matches. SZA's line is verbatim in Vogue, which calls her 'her friend.'"
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "Variety, verbatim, about vocal switching inside a song."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Elle UK, quoted from 'Vie is a reminder' to the end of the sentence; the source sentence begins 'Scarlet was something else compared to Vie, and I think.'"
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "Rolling Stone, verbatim, with the hedge kept. In the source the studio is 'an oasis ... to escape from the turmoil at home.'"
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "qualified",
+      "reason": "The words are verbatim in Revolt (2023-10-05), but Lewis is describing how easily she writes songs in a session ('you just put some music on loop ... you'll hear her start giggling to herself'). It is her working manner in the studio. The page offers it as 'the same resting state' as wanting time off, which the source does not say."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "Revolt: 'Can we mute his verse? I want to see if I can do something in that space.' The page labels it an employee describing craft."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "Elle UK (published 2026-05-14), verbatim, in her explanation of abandonment fears. Attributed to her and nothing is built on it."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Complex (2026-03-23): videos 'later removed,' 'I never left my kid.' Complex (2026-03-20): her TikTok billed as a 'Deadbeat Chronicles' entry. His accusations against her mother are not repeated on the page."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "Rolling Stone: 'When she was 16, Doja dropped out of high school,' and the quotation verbatim with her own hedge."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "Vogue, verbatim, about her 'reclusive teenage years.'"
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "The Angie Martinez video description says she 'goes to therapy twice a week'; the safety, protector and boundary vocabulary recurs in the 2025 and 2026 sources I read."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "supported",
+      "reason": "Elle UK, verbatim. The writer adds that 'whatever' means 'something that isn't too quiet'; the page leaves the outcome open."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "Complex (2026-03-13) carries both quotations. This is an outlet's report of a TikTok that was not opened, and the page says 'reported by Complex.' Named once, in her words."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "Rolling Stone (Amala; her circle calls her Amala), Variety ('Los Angeles-born'), Wikipedia and Wikidata (born 1995-10-21, Los Angeles)."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "Elle UK ('Say So' remix her first Hot 100 number one), Capital FM (eight Grammy nominations), Revolt ('rap-heavy fourth studio album'), Wikipedia (Vie a return to pop)."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "Elle UK: 'she enlisted Jack Antonoff as lead producer.' Live Nation: released 2025-09-26."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "Live Nation lists Madison Square Garden on Tuesday, December 1, 2026 as the last date, and Vogue says the tour wraps there. A web search on 2026-10-11 found no later dates; it could miss a very recent addition."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "Watch page fetched 2026-10-11: public, embeddable, Angie Martinez channel. Fresh caption stamps put the quoted lines at 27:43, 28:05 and 29:27-29:55, inside 1655-1795. The embed itself was not played in a browser."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "Watch page fetched 2026-10-11: public, embeddable, The Run-Through with Vogue channel. Fresh caption stamps: burnt out 5:13, anxiety 5:31, heating blanket 6:13, inside 312-386. Not played in a browser."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "Watch page fetched 2026-10-11: public, embeddable, Apple Music channel. Fresh caption stamps: 23:57 and 24:40-24:50, inside 1424-1494. Not played in a browser."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "Watch page fetched 2026-10-11: public, embeddable, CBS Sunday Morning channel. Fresh caption stamps: 5:13-5:40, inside 305-345. Not played in a browser."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "Vogue, verbatim, answering why she went on X after the Auckland show."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "qualified",
+      "reason": "The words are in the fresh captions at 30:27, but she is explaining why she dresses plainly offstage ('a nasty little leather black boot that's super boring ... I need a separation between the two. So I'm very like understated when I'm dressing every day'). The page presents the line as her asking for room and does not give the clothing context; the evidence record notes it."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "qualified",
+      "reason": "Accurate as a summary of what the page argues, and the confidence wording is honest. But 'when she objects she asks for rest and home' is wider than the sources: in January 2021 she objected and named fear, the November 2021 wish was to make music, and the 2022, 2023 Threads and 2025 objections ask for no rest. The lean depends on C114, which does not hold."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "A concession, and the sources bear it out: Paraguay's 'I'm sorry' then 'I'm not sorry' and her fear account of June 2025 fit a Six as well."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "The October 2021 tweets show she knew what she did not want; 'the way I've learned to be safe is to not be honest' (2026) supports the conceded half."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "Labelled as this site's reading of the type. The supports are verbatim (October 2021 tweet, heating blanket) and the second half of the Elle UK sentence is conceded to the Seven."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "States the rival at full strength from quotations I verified: safe, threatened, dread before a tour, wanting to be checked."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "Stereogum (2022-08-06): she shaved her head on Instagram Live and on a later Live said 'I'm rich, I'm fine' about 'are you okay queen' comments."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "Matches the dated record as the body gives it: Paraguay on one side, Threads on the other."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "qualified",
+      "reason": "True of the 2021, 2022 and June 2025 episodes. Three of the six blowups the body narrates have no yes in front of them, and the body says the pattern does not separate Nine from Six, so the description's 'Why it leans Type 9' sits on a pattern the page concedes is shared."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "Fresh captions at 27:20-27:48: 'If I feel like I've given everybody a pass to do that. That in my mind looks like people tearing at my skin,' and at 28:35 the virality meant 'everybody, it's your turn.'"
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "Fresh captions at 29:47-29:55, verbatim."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "Dazed (2018), by email: 'I was heavily addicted to weed and weed culture, so when I began rapping I thought of the word doja.' 'From her teens' is a fair reading of when she began rapping."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "Live Nation: 'released September 26, 2025 via Kemosabe Records / RCA Records.'"
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "The page's own statement of its limit; it describes the argument accurately."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "The two accounts do conflict on the sources (Elle UK; Complex) and no independent record was found."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "The title no longer makes a universal claim and the body scopes it in the fourth paragraph."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "Billboard (2021-04-22), verbatim, said as she moved 'into this Planet Her era.' The 2025 line is from Revolt's relay of a New York Times interview published September 5, 2025, which was not opened; the page says it is relayed."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "Capital FM (2021-11-25), verbatim, from an Instagram Live on November 24. The same passage has her wanting days back to be 'making shit or doing something productive,' and Rolling Stone summarises the Live as missing making music."
+    },
+    {
+      "claim_id": "C107",
+      "verdict": "supported",
+      "reason": "Fresh captions at 16:04: 'I think strategically because I I can be strategic I think it was a good ... addition to the album.'"
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "Billboard 2021: the phone call, and 'By the end of the day, she had written full lyrics ... produced a beat, recorded it all and filmed a music video.' The bedroom-years quotation is verbatim."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "Both quotations verified (Complex 2025; ET 2023). 'Nearly every blowup answers a claim on her' fits Paraguay, Threads and Auckland; the page gives the March 2026 exception itself."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "Fresh captions at 28:45-28:55: 'I thought that if I stepped out of my house, something would happen to me. All irrational fear.'"
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "Billboard (2022-02-23), both verbatim."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "Rolling Stone and Paper for the 2018 tweets and apology; Rolling Stone and the Live captions for May 2020. The sentence characterises nothing and points to the FAQ."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "Vogue: the deal followed 'So High' (2012) and the association 'is still active.' No opened source gives her reason for staying, as the page says."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "unsupported",
+      "reason": "The separator does not hold against the page's own sources. A dated 2021 objection names fear (January 19, 2021: 'I'm not comfortable making TikToks anymore ... i have a lot of fear in me'). 'I want to be home' is cut from a statement that wants time to make music. The October 2021 tweets are an exhaustion statement, and a tired Six would also ask for rest, as the evidence record concedes and the page does not. The island line is a taunt. Asrat's line is a counterfactual about cooking and Lewis's describes songwriting ease. 'But later' leaves out her own account of an earlier reassurance habit ('I need an answer. Text me,' Vogue 2026). The warrant about what a Six asks for is unsourced."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "Los Angeles Times (the 'fool' tweet) and Uproxx ('mid and corny. I know they are'), both verbatim."
+    },
+    {
+      "claim_id": "C116",
+      "verdict": "qualified",
+      "reason": "The page rightly declines to credit the swing to type. But the statement it quotes ('pretend that I like stuff ... to appear like everything is okay') is her account of going along, so keeping 'the yes itself' as type evidence draws the limit narrower than her own words."
+    },
+    {
+      "claim_id": "C117",
+      "verdict": "supported",
+      "reason": "Each listed episode claims only the steps its source shows; the page says Paraguay's repair 'was not tidy.'"
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "A stated test for a later refresh; it is concrete and aimed at the live rival."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "Each exhibit is verified ('You are failing,' Vogue; 'clicks, likes, approval,' Complex; 'I want people to embrace me,' Vogue video; 'It is a mask,' Elle UK) and the passage claims no proof."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "Complex (2026-03-09): her criticism 'over the weekend' and, on Monday, 'what I was doing yesterday was virtue-signaling ... a modern way to garner clicks, likes, approval.'"
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "Interview 2021, verbatim; she says she was live on Periscope '10 or 12 hours at a time' and 'That was me back then.'"
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "The Fader (2019-09-19): 'I don't hold grudges against him or anything in any way, but obviously it's a little weird.'"
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "qualified",
+      "reason": "Mirrors the 60-word answer and carries the same over-reach as C90: 'asks for rest when she does' is true of October 2021 and not of her other dated objections."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "Mirrors the body's Type 7 argument; the Elle UK sentence is quoted in full in the same answer."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S-RS21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. Full body read. Stage-name parenthetical; October tweets and her answers; the fever scene; Asrat on cooking; dropout and 'agoraphobic'; Yeti Beats ('shut-in,' 'safe place'); 2018 tweets; Tinychat, the 'no evidence' sentence and her denial; Dr. Luke exchange, follow-up email and his denial."
+    },
+    {
+      "source_id": "S-VOG26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2026-03-18; full body read. Sydney shop scene; 'Stop fucking filming me'; SZA; Sawyer on the teenage years; Kemosabe and Dr. Luke parenthetical; Auckland, deleting X and 'You are failing'; Madison Square Garden in December 2026."
+    },
+    {
+      "source_id": "S-ELLEUK26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2026-05-14; full body read. Eras paragraph ('Say So,' Vie, Antonoff); 'my dad left me when I was little'; 'It is a mask'; 'three years off.'"
+    },
+    {
+      "source_id": "S-VAR23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2023-02-01. Trolls passage (both quotations adjacent); 'I get bored very easily'; shaved-head explanation; 'Los Angeles-born.'"
+    },
+    {
+      "source_id": "S-BB21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2021-04-22. Asrat and the 'Mooo!' phone call; 'I saw potential in myself'; 'as I move on into this Planet Her era.'"
+    },
+    {
+      "source_id": "S-BB22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2022-02-23. Standfirst ('most powerful ... onstage') and the answer to what she looks forward to in 2022."
+    },
+    {
+      "source_id": "S-INT21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Direct fetch returned 403 on 2026-10-11; read the same day through an r.jina.ai render of the live page (published 2021-08-24). Q&A on charts, Periscope, the mall ('huge hermit'), partying and 'don't trust everybody.' An archive copy was fetched but not decoded."
+    },
+    {
+      "source_id": "S-BAZ23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. Q&A read; the recorded excerpts (not putting herself out there; fans) are present. Not quoted on the page."
+    },
+    {
+      "source_id": "S-V23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. Body read; the recorded excerpt is present. Not quoted on the page."
+    },
+    {
+      "source_id": "S-PAPER19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. URL redirects to the current Paper address. 2018 tweet and 'subsequent apology' paragraph. Not quoted on the page."
+    },
+    {
+      "source_id": "S-FADER19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2019-09-19. Family paragraph: 'I don't hold grudges against him.'"
+    },
+    {
+      "source_id": "S-DAZED18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. Body read; name-origin paragraph ('heavily addicted to weed and weed culture') and 'Mooo!' written in about five hours."
+    },
+    {
+      "source_id": "S-REVOLT23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. Q&A read. First-impressions answer ('she just comes in, and she's so relaxed,' about writing songs) and the Pharrell verse answer."
+    },
+    {
+      "source_id": "S-MW22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. Body read; Yeti Beats's account of first meeting her is present. Not quoted on the page."
+    },
+    {
+      "source_id": "S-AM25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Watch page fetched 2026-10-11 (public, embeddable) and auto-captions downloaded the same day with yt-dlp; machine captions, no human listen. Uploaded 2025-10-01, Angie Martinez channel. Check me 14:40; fan incident 27:20-29:55; 'my condition' 30:25; performative 32:57; 'almost every day' 36:25."
+    },
+    {
+      "source_id": "S-RT26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Watch page fetched 2026-10-11 (public, embeddable) and auto-captions downloaded the same day with yt-dlp; machine captions, no human listen. Uploaded 2026-03-23, The Run-Through with Vogue channel. Burnt out 5:13; anxiety 5:31; heating blanket 6:13; Twitter 20:45-21:30; 'need to be boring' 30:27 (said about her everyday clothes); lonely 31:08-33:15; 'want to be safe' 34:55."
+    },
+    {
+      "source_id": "S-ZANE25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Watch page fetched 2026-10-11 (public, embeddable) and auto-captions downloaded the same day with yt-dlp; machine captions, no human listen. Uploaded 2025-08-22, Apple Music channel; description names Zane Lowe. Therapy and 'big on feeling safe' 23:55-24:50; the security lines after 24:52 are Lowe's."
+    },
+    {
+      "source_id": "S-CBS25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Watch page fetched 2026-10-11 (public, embeddable) and auto-captions downloaded the same day with yt-dlp; machine captions, no human listen. Uploaded 2025-09-21, CBS Sunday Morning channel. Trolling exchange 5:13-5:40."
+    },
+    {
+      "source_id": "S-CBS25X",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Watch page fetched 2026-10-11 (public, embeddable) and auto-captions downloaded the same day with yt-dlp; machine captions, no human listen. Uploaded 2025-09-21, CBS Sunday Morning channel; description names Michelle Miller. Recorded excerpts present. Not quoted on the page."
+    },
+    {
+      "source_id": "S-APPLE23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Watch page fetched 2026-10-11 (public, embeddable) and auto-captions downloaded the same day with yt-dlp; machine captions, no human listen. Uploaded 2023-12-14, Apple Music channel; description names Ebro. Team and 'Paint the Town Red' 15:00-16:45."
+    },
+    {
+      "source_id": "S-APPLE21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Watch page fetched 2026-10-11 (public, embeddable) and auto-captions downloaded the same day with yt-dlp; machine captions, no human listen. Uploaded 2021-06-30, Apple Music channel. Dropout passage present. Not quoted on the page."
+    },
+    {
+      "source_id": "S-VLAD19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Watch page fetched 2026-10-11 (public, embeddable) and auto-captions downloaded the same day with yt-dlp; machine captions, no human listen. Uploaded 2019-08-19, djvlad channel. Recorded excerpts present. Not quoted on the page."
+    },
+    {
+      "source_id": "S-HOT97-19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Watch page fetched 2026-10-11 (public, embeddable) and auto-captions downloaded the same day with yt-dlp; machine captions, no human listen. Uploaded 2019-09-13, HOT 97 channel. Recorded excerpts present. Not quoted on the page."
+    },
+    {
+      "source_id": "S-H1009-19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Watch page fetched 2026-10-11 (public, embeddable). The original-language caption track downloaded on a second attempt; the plain English track returned 429. Recorded excerpts present. Not quoted on the page."
+    },
+    {
+      "source_id": "S-IGLIVE20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Watch page fetched 2026-10-11 (public, embeddable) and auto-captions downloaded the same day with yt-dlp; machine captions, no human listen. A third-party re-upload (HTag Media, 2020-05-26) of her Instagram Live, not her own channel. 'i put out an apology last night' 0:29; the 2015 song and 'i'm very sorry' 8:40-9:05. Used only for the fact that she apologized."
+    },
+    {
+      "source_id": "S-LAT22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2022-03-26. First seven paragraphs: storm, fan complaint, 'I'm sorry,' 'I'm not sorry,' the quitting tweet (censored in the source) and 'i quit.'"
+    },
+    {
+      "source_id": "S-BBRET22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2022-03-27. 'I do owe people s---. I owe a lot,' tweeted late Saturday, two days after."
+    },
+    {
+      "source_id": "S-CXQUIT22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2022-03-31. 'Yes the fuck I am' to a radio station two days earlier; quitting after her commitments."
+    },
+    {
+      "source_id": "S-CAPFM21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2021-11-25. Instagram Live of November 24 quoted at length; eight Grammy nominations; the October tweets."
+    },
+    {
+      "source_id": "S-CXTT21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. The cited URL redirects to the current Complex address; byline Sarah Jasmine Montgomery, 2021-01-20. 'I'm not comfortable making TikToks anymore' and 'i have a lot of fear in me.'"
+    },
+    {
+      "source_id": "S-STG22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2022-08-06. Headline and body: shaved head on Instagram Live; 'I'm rich, I'm fine' on a later Live."
+    },
+    {
+      "source_id": "S-UPX23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2023-05-09. Both 'cash-grabs' tweets, in an album-title announcement; 'mid and corny. I know they are.'"
+    },
+    {
+      "source_id": "S-WTHR23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2023-07-24. Fans' demand for a statement, her refusal, the 'kittenz' post, Threads deactivated."
+    },
+    {
+      "source_id": "S-ET23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. The cited URL redirects to the current ET address; dated 2023-08-16. Instagram Story with 'I feel free'; 'more than 180,000.'"
+    },
+    {
+      "source_id": "S-FADER23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2023-08-16. Headline figure of 500,000."
+    },
+    {
+      "source_id": "S-CXTAM25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2025-06-14. Meeting 'last week,' two hugs, 'Ami,' June 13 post, 'two since-deleted posts.'"
+    },
+    {
+      "source_id": "S-RVNYT25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. Revolt's relay of a New York Times interview published 2025-09-05; the Times piece itself was not opened. 'it didn't get me all the way there. So, I want to return back to what I know.'"
+    },
+    {
+      "source_id": "S-CXTOUR25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2025-11-19. Separate replies after the Auckland show on November 18, including the full 'costume monkey' post."
+    },
+    {
+      "source_id": "S-CXCHAL26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2026-03-09. Update block: 'what I was doing yesterday was virtue-signaling ... a modern way to garner clicks, likes, approval.'"
+    },
+    {
+      "source_id": "S-CXBPD26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2026-03-13. Complex's report of her TikTok; the TikTok itself was not opened. Both quotations present."
+    },
+    {
+      "source_id": "S-BA26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. Body read; an outlet's relay of her August 2026 TikToks. Recorded excerpts present. Nothing on the page rests on it."
+    },
+    {
+      "source_id": "S-CXTROLL26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. Dated 2026-03-20. Her TikTok billed as a 'Deadbeat Chronicles' entry."
+    },
+    {
+      "source_id": "S-CXDAD26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. JSON-LD dated 2026-03-23. Videos 'seemingly first shared to Instagram but later removed'; 'I never left my kid.'"
+    },
+    {
+      "source_id": "S-SWDAD26",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. Body read; recorded excerpts present. Not quoted on the page."
+    },
+    {
+      "source_id": "S-BRIEFLY20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. Body read; recorded excerpts present. Not quoted on the page."
+    },
+    {
+      "source_id": "S-WIKIVIE",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. Infobox, lead and track listing: released 2025-09-26, Kemosabe and RCA, Antonoff among producers."
+    },
+    {
+      "source_id": "S-LNTOUR",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. Release text and date list: Vie released 2025-09-26 via Kemosabe/RCA; Auckland November 18, 2025; Sydney December 1 and 2, 2025; Madison Square Garden December 1, 2026. A web search the same day found no later dates."
+    },
+    {
+      "source_id": "S-WIKIDOJA",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Fetched 2026-10-11 by the verifier. Infobox and lead: born October 21, 1995, Los Angeles; 'Say So' remix her first number one. Wikidata Q51120673 agrees on the date, birthplace and IMDb ID."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "The sentence is gone. The 'condition' remark and the March 13, 2026 statement are reported separately, dated and in her words, with Complex named, and the page says they are 'two statements she has not publicly joined.' Named once; the 'cannot evaluate' sentence is intact."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Checked in Rolling Stone: the 'no evidence' sentence, her denial of being 'involved in any racist conversations' and her account of the song are all there, and the FAQ pairs each allegation with her response."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Only Paraguay is offered as showing every step; Threads and Auckland are introduced as fights with no yes in front of them; the Instagram exit and the tally are gone; title and FAQ 3 are narrowed."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "The FAQ scopes the email to 'a different remark from that interview, on songwriting credits,' which matches Rolling Stone, and nothing implies she withdrew 'I don't think I need to work with him again.'"
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "The line is in my fresh captions at 32:35 and in the edit stage's second transcription. The surrounding speech (employing the people around her, living far away, friendship being hard) matches the new framing sentence. A human listen is still outstanding."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "The claim of passivity is cut and replaced with Billboard's account of her announcing and finishing 'Mooo!' in a day and 'And I really wanted it.'"
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "The close uses her words ('such an issue with setting boundaries'), no sentence says she did not want the hug, and the opening reports that the alarm came when the clip spread."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "Kept as texture with 'She was sick and being polite,' which matches Rolling Stone's later-learned fever."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Bridge, title and meta_title claim only what the episodes show; the Threads trigger is neutral and attributed to W Magazine; two sentences separate the kinds of dispute; Paraguay carries 'Yes the fuck I am' and 'The repair was not tidy.'"
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "No eruption is claimed over the stage name; the name section reports it as Rolling Stone does. The answer passes the 60-word check and the FAQ mirrors it."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "The paragraph reports the making of 'Mooo!' from Billboard, prints 'And I really wanted it,' drops the travel quotation and is inventoried as C108."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "The Elle UK sentence is quoted in full in body and FAQ with its second half given to the Seven. Planet Her's 2021 framing, the 2023 'cash-grabs' and the 2025 return are dated and attributed, the Times line is marked as relayed, and the pop years are not counted as a yes."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Met by the second branch: the Nas passage and 'nonconfrontational' are gone from the page."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "The mitigating sentence and the chat-room origin story are removed, the Periscope lines are added from Interview, and one neutral sentence dates the 2018 and 2020 backlashes and points to the FAQ, where the characterisation carries her denial."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Met by the second branch: the page says the label tie 'goes unread here' and why. I confirmed Rolling Stone does state Dr. Luke's denial, and the record now says so."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Both Billboard 2022 lines are printed and the close now says 'keeps asking for room' and that the stage is where she feels most powerful."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "The acceptance test is met as written: the swing is 'not credited to type here,' the remaining basis is named, the condition is named once with no gloss beyond the acronym, and answer, FAQ and description claim the narrow version. One residue is raised separately (verify-04): the quoted statement also covers going along, and 'the yes itself' is still counted."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Order is now stated as a pattern both types explain; the stage name and the albums are out of the argument; the viral-clip trigger is in the opening and 'all irrational fear' in the Type 6 section; the Six generalisation is marked as the profile's reading."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Craft and commercial calls are separated, two of her own self-doubt lines are printed, 'I'm not really trying to fight them' is one small answer with 'I get it' kept, and the text says the reason for her yes does not separate the types."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Her 2021 ownership of Planet Her and the 2025 return sit beside 'cash-grabs'; 'mostly happened to her' is cut; the page says what the career explanation leaves over; the Type 7 sentence now uses her October 2021 words."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "The page says which episodes show the sequence and which open with her refusal, prints the Chalamet admission as a counterexample, roughens Paraguay, and removes 'Every' and the stage-name eruption from the metadata."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Met by the second branch: 'In person she goes still' is dropped and the claim narrowed to her rule for strangers; the Periscope line sits with the troll evidence; the origin story is gone. The Paper and Dillard observations stay off the page, which the test allows."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "The politics line and 'does not scan or prepare' are cut. The limit on the rest-state claim is stated in the limits passage of the same section, two paragraphs after the claim and not in the same sentence; close enough to the test. How much the two witnesses actually show is taken up in verify-01."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Body and FAQ run in date order (March 2026 videos, then the May 2026 interview) and say what his videos answered, checked against both Complex reports. His accusations are not quoted."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "No eruption over the stage name is claimed in the answer, FAQ 1 or the argument, and the order paragraph that counted it is withdrawn."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Framing claims only what the bullets show; the Threads bullet says what the fans did and gives the unfollow range as outlets reported it. The 'watcher' teaser was removed instead of moved, which resolves the unsourced quotation the finding was about."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "The name section now gives what she does, the four albums with years and two sourced measures of scale; no album title appears earlier; the body is 3,693 words by the contract count."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Statements are in date order, the denial is not presented as a reply to Elle UK, and the dangling 2019 quotation is out of the body."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "The time claim is dropped ('She described the habit herself in 2021')."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Interviewers and witnesses carry a role at first mention, the dangling references were removed with their passages, the 'strategic' sentence has a named decision and a claim passage, and FAQ 5 identifies Dr. Luke."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Type 7 now precedes the troll and Type 6 sections at about 170 words, the anchor still resolves, and the shaved-head example lives only in its FAQ."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "A plain restatement of the two readings follows the caveat, self-forgetting is introduced in the Type 9 definition and Type 6 is described at first mention."
+    },
+    {
+      "finding_id": "unfamiliar-09",
+      "accepted": true,
+      "reason": "The page reports what she said and when and does not assert that one statement explains the other."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Order is presented as the pattern both types explain, and the stage name is not listed. The reviewer's suggested replacement was considered and declined with a reason. The separator the editor chose in its place is a separate matter (verify-01)."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "The reason test is rebuilt on the October 2021 obligations and confronts 'they've been right,' 'check them to check me' and two self-doubt lines; nothing is inferred from studio precision."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "The test is met as written: the baseline claim rests on Asrat and Lewis and is weighed in the same paragraph against 'agoraphobic' and 'safe place'; the politics sentence is cut. At source those two witnesses show less than the test assumed (a counterfactual about cooking; ease while writing songs), which I record under C58 and verify-01."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "The full sequence is claimed only for Paraguay, Threads and Auckland are labelled as opening with her refusal, the March 2026 episode is added, and the page says 'No yes comes before either.'"
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "The freedom reading is stated as the Seven's strongest version with two quotations and answered from her October 2021 words; the second half of the Elle UK sentence is conceded."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "The limits passage says the swing has an explanation of her own, is not credited to type, and names the evidence that does not depend on it, in the terms the test itself listed."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Three and Four each get an exhibit in a passage that claims no proof, and Type 8 is named with 'It is a mask.'"
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": false,
+      "reason": "The wording was matched to the separator the editor kept, but the test turns on whether a separator survives, and on my source check it does not: a dated 2021 objection names fear, the November 2021 wish was to make music, the October tweets are an exhaustion statement, and the two witnesses describe cooking and songwriting ease. The test's second branch applies: the evidence status should move to insufficient_evidence and the run should hold."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "The Elle UK line carries its month and the statements run in true order in body and FAQ."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Title and meta_title (58 characters) no longer say 'Every'; the list lead-in and the FAQ sentence are scoped."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "The close says the break tests Nine against Seven and names what would favour Six; C90, C91, C92 and C114 carry review triggers."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "The tour sentence is written as of October 2026, the next sentence is an instruction for the next revision, and C76 and C82 carry later checkpoints."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Every video-sourced statement is dated by publication or air date, which I checked against the upload dates, and the closing line asserts no month."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Each flagged phrase carries a year or is gone, and C56 and C01 have review triggers."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "The tally is removed; 'she was back within months' rests on her own words in the Vogue video ('I've been on Twitter in the last couple of weeks')."
+    },
+    {
+      "finding_id": "future-08",
+      "accepted": true,
+      "reason": "No other profile's type is asserted; the four profile links resolve to published profiles; the embed claims carry playback triggers."
+    },
+    {
+      "finding_id": "future-09",
+      "accepted": true,
+      "reason": "Met by the second branch: the sentence stands and C23 carries an unresolved item with a trigger to open her August 2026 posts."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "Neither account can be checked from outside, and this profile builds nothing on either.",
+      "preserved": true,
+      "reason": "Verbatim, and the passage still builds nothing on either account."
+    },
+    {
+      "passage": "This profile cannot evaluate it and does not try: nothing here is a diagnosis, and a personality type is no substitute for her account.",
+      "preserved": true,
+      "reason": "Verbatim, now in the limits passage beside her March 2026 statement."
+    },
+    {
+      "passage": "Two cautions. She defended that call as her own (\"I can be strategic\"), and every statement here was made while selling the next album as the real one.",
+      "preserved": true,
+      "reason": "Verbatim; the paragraph before it now names the call."
+    },
+    {
+      "passage": "The best witness against a conflict-averse reading is Doja Cat.",
+      "preserved": true,
+      "reason": "Verbatim, still opening the troll section."
+    },
+    {
+      "passage": "\"I don't know if I was agoraphobic, but I definitely thought that I was at the time.\" (The word is hers, not a diagnosis.)",
+      "preserved": true,
+      "reason": "Verbatim, with the note that the word is hers."
+    },
+    {
+      "passage": "When the no finally arrived, it arrived like this: \"instead of closing the door, I kicked it and the knob fell off. And so now the door is fully open.\"",
+      "preserved": true,
+      "reason": "Verbatim; the quotation matches the captions."
+    },
+    {
+      "passage": "That last admission does not rescue the Nine reading. A show of size put on when you feel exposed is exactly what the next type predicts.",
+      "preserved": true,
+      "reason": "Verbatim, and the Type 6 section still follows it."
+    },
+    {
+      "passage": "A life arranged for quiet, and a person who is lonely inside it: the type argument does not tidy that up.",
+      "preserved": true,
+      "reason": "Verbatim and still unresolved."
+    },
+    {
+      "passage": "Notice where the fantasy goes: somewhere quiet, with her people.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "Weigh her latest first-person testimony most heavily and you land on Six.",
+      "preserved": true,
+      "reason": "Changed by one phrase to 'her 2025 and 2026' for durability; it still states the rival at full strength."
+    },
+    {
+      "passage": "This is a judgment from pattern, not a proof. It treats fear as what breaks through when the smoothing fails rather than as the engine, and the record cannot confirm that.",
+      "preserved": true,
+      "reason": "Verbatim, with a plain restatement added after it."
+    },
+    {
+      "passage": "The half that gets lost is the one she keeps describing: the hug, the nickname, the days of saying nothing. This profile is about that half, the long yes before the blowup.",
+      "preserved": true,
+      "reason": "Verbatim, with one scoping sentence added after it."
+    },
+    {
+      "passage": "An hour into their first sitting Doja, who turned out to have a fever, got up to leave. \"Is everything OK?\" the writer asked. \"Yeah, everything's great,\" she said. \"I appreciate it. Really, I do.\"",
+      "preserved": true,
+      "reason": "Verbatim, now framed as texture with the ordinary explanation."
+    },
+    {
+      "passage": "A Nine reading does not explain the fun she has in a fight, or how the woman who mutes Pharrell struggles to refuse a hug.",
+      "preserved": true,
+      "reason": "Changed to end on her own words ('such an issue with setting boundaries') because 'struggles to refuse a hug' asserted something her account does not say. The contrast and the admission are kept."
+    },
+    {
+      "passage": "That is what closing the door, instead of kicking it, sounds like.",
+      "preserved": true,
+      "reason": "Verbatim as the last line. The quotation that sets it up needs its context (verify-03); the line itself can stay."
+    },
+    {
+      "passage": "Three things are in that exchange: the agreeing, the resentment arriving late and loud, and the reflex to tell everyone it's nothing.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "The Six reading takes her at her word, and that is its strength: her terms for her own motive are \"safe\" and \"threatened,\" not peace or ease.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "The argument does not depend on it.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "The limits belong on the page. This is a judgment from pattern, not a proof. It treats fear as what breaks through when the smoothing fails rather than as the engine, and the record cannot confirm that.",
+      "preserved": true,
+      "reason": "Verbatim and contiguous."
+    },
+    {
+      "passage": "Two cautions. She defended that call as her own (\"I can be strategic\"), and every statement here was made while selling the next album as the real one. What the dated record adds is sequence.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "Vogue reported in March 2026 that she had not worked with Dr. Luke since 2021, while her association with his Kemosabe imprint was still active.",
+      "preserved": true,
+      "reason": "Verbatim in the Dr. Luke FAQ, and it matches Vogue."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.0,
+      "reason": "I reopened all 48 cited sources. Of 115 quoted strings, 105 match the fresh text exactly and the other ten differ only in caption punctuation or dropped false starts; I found no misquotation, misattribution or wrong date. Relays are labelled as relays, allegations are paired with her responses, and the father dispute carries both sides. It stops at the bar because the load-bearing separator sentence is contradicted by an exhibit the page prints itself (January 2021), three quotations are used a step beyond their context (the 'boring' line, Lewis's 'so relaxed,' 'I want to be home'), and video lines rest on machine captions.",
+      "passage": "Two cautions. She defended that call as her own (\"I can be strategic\"), and every statement here was made while selling the next album as the real one."
+    },
+    "enneagram": {
+      "score": 7.2,
+      "reason": "Type 6 gets a full hearing in her own words, Type 7 is answered at its strongest, no wing or arrow absorbs the counterevidence, and the limits are printed. But the standard asks for a specific, sourced discriminator that the strongest alternative fails. The page concedes order and reason, and the one separator left does not survive a source check: a 2021 objection names fear, the November 2021 wish was to make music, the October tweets are exhaustion, and the two witnesses describe cooking and songwriting. The page itself says 'the record cannot confirm that.' That is an honest near-tie, not a typing at medium confidence.",
+      "passage": "What keeps the Nine ahead is narrower: what she asks for. When she objected at the time, in 2021 and 2023, she did not name a danger or a person she could not trust."
+    },
+    "originality": {
+      "score": 8.8,
+      "reason": "The observation is specific to her and changes how the familiar episodes read: the hug, the nickname and the days of silence before the post; the island wish inside the 'cash-grabs' insult; a quiet life she says is lonely. The only reusable block is the three-sentence type definition.",
+      "passage": "Notice where the fantasy goes: somewhere quiet, with her people."
+    },
+    "writing": {
+      "score": 8.3,
+      "reason": "Plain, exact sentences and a real arc from the door she kicked to the one she closes. Sections advance the portrait instead of restating it, and the counter-case is led by her own words. The Type 6 section is the weak stretch for a reader: five paragraphs of concession and qualification in a row, some in shorthand ('Nor does the reason for her yes'), where the argument is hardest to follow.",
+      "passage": "When the no finally arrived, it arrived like this: \"instead of closing the door, I kicked it and the knob fell off. And so now the door is fully open.\""
+    },
+    "durability": {
+      "score": 8.5,
+      "reason": "The portrait stands on dated 2021 to 2025 material and says outright that it does not depend on the December 2026 outcome. Status facts are written as of a date, video statements are dated by publication, and the moving claims carry review triggers with a named test for the rival type. It is held below 9 because the type call itself is the least durable thing on the page.",
+      "passage": "As of October 2026 her last announced tour date was Madison Square Garden on December 1, 2026."
+    },
+    "hook": {
+      "score": 9.0,
+      "reason": "A dated, sourced scene with a turn in it: two hugs and a nickname, then 'don't touch me' days later, then her own image for what went wrong. It raises the question the article goes on to answer and the last line returns to it.",
+      "passage": "Days later, on June 13, she posted about the same video: \"don't touch me and man handle me when you don't even fuckin know me.\" Then she deleted the posts."
+    },
+    "discoverability": {
+      "score": 8.2,
+      "reason": "Metadata is accurate against the sources (birth date and place, identifiers, citations, album facts). Seven FAQs answer real queries, including the old Type 7 read, and the five anchors they carry resolve to body headings. The 60-word answer orients the reader, and the three pillar links, four profile links and four suggestions all resolve to published pages. Two soft spots: meta_title and keywords assert 'Type 9' where the body argues a narrow lean, and the description offers as the reason a pattern the body says is shared with Type 6.",
+      "passage": "Doja Cat's record leans Enneagram Type 9, the Peacemaker, but narrowly: medium confidence, with Type 6 a live rival."
+    }
+  }
+}

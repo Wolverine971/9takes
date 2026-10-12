@@ -1,0 +1,22 @@
+The unfamiliar-reader review is written to `docs/content-analysis/pipeline-logs/2026-10-11_18-12-25-028_Doja-Cat/review-unfamiliar.json`. It passes `reviewSchema`, both hashes match the frozen draft and evidence, and every finding and protected passage is an exact substring of the draft. Nothing else was modified and nothing was published.
+
+The review has nine findings (four major, five minor) and five protected passages. That is one over the eight-finding target, because two are date errors on the page's own facts.
+
+**Major**
+- **unfamiliar-01:** The 60-word answer and FAQ 1 say she "erupts later, over a stage name", but the body shows no eruption over the name. She tried to change it, was talked out of it, and kept it.
+- **unfamiliar-02:** "The sequence repeats with different casts" is not shown by the Threads and Auckland bullets, which have no going-along step and no repair. Only three of the six blowups narrated show a preceding yes, so the title's "Every Blowup" and FAQ 3 overclaim.
+- **unfamiliar-03:** The body never says plainly who she is or how big the career was. "Say So" is absent, "Hot Pink" appears only inside a lowercase tweet, and "Scarlet" is used before it is introduced.
+- **unfamiliar-04:** Her father's March 2026 denial is presented as his answer to an Elle UK interview published in May 2026. The same reversed order is in FAQ 6.
+
+**Minor**
+- **unfamiliar-05:** "Before anyone was angry at her" (about 2021 statements) contradicts the May 2020 controversy in the page's own FAQ.
+- **unfamiliar-06:** Interviewers, witnesses and the ashram arrive without a gloss, and "I can be strategic" has no claim passage.
+- **unfamiliar-07:** The Type 7 section comes after the Nine-versus-Six contest is settled, so momentum drops; the shaved-head example gives her quote but not what it shows.
+- **unfamiliar-08:** The key caveat is written in shorthand ("the smoothing"), and Type 6 is not described until the eighth section.
+- **unfamiliar-09:** "That is her own explanation of this cycle" asserts a link between her October 2025 remark and her March 2026 statement that the page does not show her making.
+
+Risk flags are carried from research unchanged: sensitive allegations, contested typing and major thesis change are true; historical source uncertainty is false.
+
+Two things to know about how I worked:
+- **Similarity:** the one tripped pair shares only "keep the peace". I opened the Austin Abrams, Victoria Justice and Nate Bargatze drafts to compare the matched passages in context and found ordinary Type 9 vocabulary, so there is no reuse finding.
+- **Sources:** I did not reopen any; dates and context come from the supplied evidence record, and the review says so.

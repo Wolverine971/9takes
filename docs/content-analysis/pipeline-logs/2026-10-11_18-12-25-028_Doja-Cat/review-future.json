@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "59aedac8724bf4199f220b5a2ba56c8b203a218d772f448e46d4e33aa21cb1bd",
+  "evidence_sha256": "7d48e212c47ec76e8a214fdf4594e35f2396c06ffcf6b2b39ece52a6b0a388be",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "In 2026 she told Elle UK, \"my dad left me when I was little.\" He disputes that:",
+      "problem": "The order is reversed. The record dates his \"I never left my kid\" to videos reported on 2026-03-23, a reply to her 2026-03-20 TikTok (S-CXDAD26), and Complex noted that day that she had not answered him. The Elle UK interview was given after the South American tour leg and published 2026-05-14 (S-ELLEUK26), so her quoted line came after his denial, not before it. Dating Elle UK only as \"2026\" hides this, and the FAQ repeats it (\"in 2026 she told Elle UK ... He disputes that: in March 2026 he said\"). On a disputed claim about a named third party, the page shows him answering a statement he could not have seen and gives him the last word when the latest statement on the record is hers.",
+      "acceptance_test": "Body and FAQ give the Elle UK line its month (published May 2026) and present the two statements in true order, or state that his March 2026 denial answered an earlier post and predates the Elle UK interview. Neither passage reads as his reply to the Elle UK quote. No new allegation from either side is added."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "Doja Cat: The Long Yes Behind Every Blowup",
+      "problem": "\"Every\" is a universal that each new episode can falsify, and the record already holds exceptions: C104 and C96 note that the Threads episode (2023) and the Chalamet episode (March 2026, cut from the draft) began with an attack, not an accommodation. The same word is in meta_title. The body repeats the overreach: \"Appeasement, a flip when it is refused, collapse, repair. The sequence repeats with different casts:\" introduces Threads and Auckland, whose entries show an outburst and an exit only. The durable claim is the one the type section argues: four dated cases of agreement before objection.",
+      "acceptance_test": "title and meta_title no longer assert that every blowup follows a long yes (meta_title stays 35-65 characters). The list lead-in claims only the steps the listed episodes show, or says which steps each one shows. The FAQ sentence beginning \"The dated record shows a sequence\" is scoped the same way."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "Whether she stops, and what she does with the quiet, will say more than another interview.",
+      "problem": "The only forward test the profile names is aimed at the reading it has already set aside. The record's own trigger for C76 calls the break \"the best coming test of the rest-versus-novelty question\", which is Nine against Seven. The rival the article says is \"narrowly\" behind is Six, and a burnt-out Six would also stop and rest, so the break cannot separate them. Meanwhile C90, C91 and C92 (the type answer and both discriminators) are marked stable with empty review triggers, on a page just retyped from 7 to 9 at medium confidence. A refresh in 2028 has nothing telling it what evidence would move the read.",
+      "acceptance_test": "The section says which pair of readings the break bears on, and either it or the review_trigger on C90/C91 names at least one observable that would favour Six over Nine using the article's own order-and-reason test (for example: in the next dated dispute, does her objection come before she agrees or after; with no pressure on her, does she prepare and seek reassurance or do nothing). Net length does not grow."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "Her tour is scheduled to end at Madison Square Garden on December 1, 2026.",
+      "problem": "Present-tense schedule wording expires 51 days after the 2026-10-11 accuracy check, and the sentence after it is an open prediction. The date rests on an undated autumn 2025 promoter release and Vogue's March 2026 line; the October 2026 leg was seen only as search results (S-LNTOUR). The \"three years off\" window closes around December 2029, inside the five-year horizon, but C76's trigger has only the first checkpoint.",
+      "acceptance_test": "The sentence is written as of a stated date so it stays true after December 1, 2026 (for example \"As of October 2026 the last announced date was ...\"), the sentence after it does not read as a pending prediction once that date passes, and C76's review_trigger adds later checkpoints (a new album or tour announcement, and the end of 2029)."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "In March 2026, between tour legs, Vogue's video team asked how she was feeling.",
+      "problem": "Upload dates are used as the dates she spoke. S-RT26's 2026-03-23 is the publication date; the record says the video was recorded at her home in a break between legs, gives no recording date, and places her on the South African leg in the days before it went up (S-CXTROLL26, S-SWDAD26). The draft still dates the speech to March 2026 here, in \"On The Run-Through in March 2026\" and in the closing \"In March 2026 she put it without heat.\" The Angie Martinez lines (\"That October\", \"in October 2025\", and the FAQ) rest on the 2025-10-01 upload in the same way. Print sources are handled correctly (\"published in May 2026\", \"told Vogue in January 2026\"). I could not establish the recording dates; the point is that the record does not either.",
+      "acceptance_test": "Each video-sourced statement is dated by publication or air date in wording that says so (for example \"in a Vogue video published in March 2026\"), unless a recording date is sourced in the evidence record. The closing line does not assert the month she said it."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "Weigh her latest first-person testimony most heavily and you land on Six.",
+      "problem": "Relative and undated status wording will misread within the page's lifetime; by 2031 \"her latest testimony\" will mean interviews this page has not read. Others: \"the therapy vocabulary of her recent interviews\"; \"Her recent interviews share a therapy vocabulary\"; \"And her latest reinvention is a return.\" (C56 is stable with no trigger for her next album or her next verdict on Vie); \"Across seven years\"; \"An earlier version of this profile typed her as\" (no year); \"The name is still on the marquee.\" (C01, no trigger); and present-tense roles on old testimony: \"Her manager Lydia Asrat\" (2021 sources), \"Her engineer Rian Lewis\" and \"Lewis, her longtime engineer\" (2023 source).",
+      "acceptance_test": "Each phrase carries a year or range (\"her 2025-26 interviews\", \"her 2025 reinvention\", \"from 2019 to 2026\", the year of the retype, \"her manager in 2021\"), or the current role is confirmed in an opened source. C56 and C01 gain review triggers (a new album or era statement; a name change)."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "Leaving the room is her most common ending:",
+      "problem": "A running tally is stated as a standing fact and the reversals are left out. The record says \"She returned to each platform\" (C87), the frontmatter lists live handles, and she posted TikToks in March and August 2026. \"X in 2025\" was deleting the app from her phone. A later reader who finds her active will take the sentence as wrong, and each new episode changes the count. C87 is stable with no trigger. The earlier summary (\"usually gets taken back\") names a different most common ending.",
+      "acceptance_test": "The sentence is scoped to the dated episodes it lists and says in a clause that she came back each time (consistent with \"She did not quit.\"). C87 gains a review_trigger to recount the endings at each refresh."
+    },
+    {
+      "id": "future-08",
+      "severity": "minor",
+      "passage": "(Other Nines on this site include [Post Malone](/personality-analysis/post-malone) and [Selena Gomez](/personality-analysis/selena-gomez).)",
+      "problem": "References that decay have no tracking. This sentence and \"the pattern this site reads in [Katy Perry](/personality-analysis/katy-perry) and [Bad Bunny](/personality-analysis/bad-bunny)\" assert other profiles' types; this page's own retype from 7 to 9 shows those change, and neither sentence is in the claim inventory. The four embeds (C83-C86) are marked stable with empty triggers although playback could not be re-tested on 2026-10-11, and start/end offsets break if a video is re-cut or pulled. Deleted posts and her father's removed videos survive only through outlet relays.",
+      "acceptance_test": "The two cross-profile type statements are inventoried with a review_trigger to recheck the linked profiles' live types at each refresh, or reworded so the links stay and no type is asserted. C83-C86 gain a trigger to confirm playback and offsets at each refresh. Every embedded line stays quoted in the body text so the page survives a dead embed (true in this draft)."
+    },
+    {
+      "id": "future-09",
+      "severity": "minor",
+      "passage": "It cannot say how much of the early stillness was temperament and how much was weed",
+      "problem": "The open question is narrower than the record, and the moving fact behind it is no longer tracked. In opened sources she names alcohol as well: on CBS in September 2025 she called it a \"short-lived way of dealing with either anxiety or, you know, pain\" (S-CBS25, 6:46), and Vogue in March 2026 quotes \"I love to drink.\" A relay of her 2026-08-31 TikToks has \"alcohol is something that I definitely have had a problem with\" (S-BA26; the TikToks were not opened). Her account is changing and could bear on how both the calm and the outbursts are read, but C26 was dropped from the inventory, so no review trigger survives (research task 11 still lists it).",
+      "acceptance_test": "Either the sentence reflects, in her dated words from an opened source, that the confound is not only teenage weed, or the article is unchanged and the evidence record carries an unresolved item with a review_trigger to open the August 2026 posts and recheck her statements on drinking. Nothing is sourced to the relay alone, and no clinical language is added."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The argument does not depend on it.",
+      "reason": "States outright that the thesis is independent of the December 2026 outcome. Whatever happens to the paragraph around it, this decoupling is what lets the page survive the event."
+    },
+    {
+      "passage": "The limits belong on the page. This is a judgment from pattern, not a proof. It treats fear as what breaks through when the smoothing fails rather than as the engine, and the record cannot confirm that.",
+      "reason": "Names the exact assumption a later refresh would have to overturn. It stays true even if the read moves to Six, which is what makes the type argument durable."
+    },
+    {
+      "passage": "Two cautions. She defended that call as her own (\"I can be strategic\"), and every statement here was made while selling the next album as the real one. What the dated record adds is sequence.",
+      "reason": "Discounts promotional self-report and rests the case on dated sequence, a method that will not age with any single album cycle."
+    },
+    {
+      "passage": "This profile cannot evaluate it and does not try: nothing here is a diagnosis, and a personality type is no substitute for her account.",
+      "reason": "Her March 2026 statement is reported once, dated and in her words, with no interpretation layered on it. That handling holds if she later revises or refines how she describes it."
+    },
+    {
+      "passage": "Vogue reported in March 2026 that she had not worked with Dr. Luke since 2021, while her association with his Kemosabe imprint was still active.",
+      "reason": "A changing status written as of a named source and date, so it remains accurate after the status changes. This is the pattern the tour sentence should copy."
+    }
+  ],
+  "assessment": "Five-year test: the central insight passes. Remove every 2026 event and the thesis still stands on dated 2019-2025 material (the stage name, the October 2021 tweets, Paraguay in 2022, the 2023 cash-grabs and V Magazine lines, the June 2025 hug), and the draft says so itself. The ten moving claims carry review triggers and the FAQs date their status facts. Three things do not hold yet: the father passage reverses the order of the two statements; the title's \"Every\" is already contradicted by the record; and the one forward test the article names is aimed at Seven, while Six (the live rival) and the type claims themselves have no trigger. The rest is wording and tracking: a tour sentence that expires on 2026-12-01, upload dates used as speech dates, recent/latest phrasing, and untracked tallies, embeds, cross-profile types and drinking statements. Similarity: the one tripped pair (austin-abrams, \"keep the peace\") is ordinary Type 9 vocabulary used in opposite arguments, so no finding; I compared only the excerpts in the diagnostic, not the other drafts. The order-and-reason argument is specific to her record; the three-sentence Type 9 definition is the only reusable block. Standard format, so open-case eligibility does not apply. Risk flags are carried from research and I would not lower any of them."
+}

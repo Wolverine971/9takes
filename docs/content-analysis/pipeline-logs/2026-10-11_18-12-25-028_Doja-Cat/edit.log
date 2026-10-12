@@ -1,0 +1,24 @@
+The edit stage is complete: all three outputs are written and pass the contract's own checks (`checkDraft`, `validateEvidence`, `resolutionSchema`). Nothing else in the repo was touched and nothing was published.
+
+**The call you should know about:** the jury knocked out both of the draft's reasons for putting Type 9 ahead of Type 6, and I conceded them on the page rather than defending them. The page now says the record "leans Type 9, narrowly," at medium confidence, with Type 6 a live rival. The lean rests on one observation: when she objected in 2021 and 2023 she asked for rest and home, not safety. I kept the evidence at `ready` / `medium` on that basis. The verifier may still judge that one narrow separator falls short of the Enneagram ≥ 8 bar; if so, the outcome is a hold, as your owner note specifies, not a switch to 6 or back to 7.
+
+**What changed for the reader**
+- **Title:** now "Doja Cat: The Long Yes Before the Loud No". "Every Blowup" is gone, because Threads 2023, Auckland 2025 and the March 2026 Chalamet post all start with her refusal, and the page now says so.
+- **Pop albums:** no longer counted as a "yes". She presented Planet Her as her own plan in 2021 and returned to that lane in 2025.
+- **Her March 2026 BPD statement:** moved out of the fan-fight section into the limits of the type argument. It is reported once, with a line that she has not publicly linked it to her 2025 "condition" remark, and the blowup-to-"I'm fine" swing is no longer credited to type.
+- **Fixed for accuracy:** the father dispute is in true date order, the Tinychat FAQ pairs each allegation with her response, and "Mooo!" is described as her own project.
+- **Structure:** Type 7 now comes before the Nine-versus-Six contest, so the argument ends on its closest call.
+
+**By the numbers**
+- All 50 findings are recorded as fixed. Five were met through an alternative branch of their acceptance test or with a stated departure (`fan-05`, `fan-06`, `fan-07`, `critic-06`, `unfamiliar-02`); each reason says which.
+- Of 21 protected passages, 19 are verbatim and 2 are changed with reasons.
+- The body is 3,693 words against the draft's 3,698; my first pass was 5,067 and had to be cut hard.
+- Every quotation in the body was machine-matched to saved source text.
+- I second-transcribed seven audio segments from the research run's saved files, including the "I'm lonely" line a reviewer flagged, so no video quote on the page now rests on captions alone.
+
+**Still open before release:** nobody has listened to the quotes by ear, and the four embeds have not been replayed.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-11_18-12-25-028_Doja-Cat/`:
+- `edit.md`
+- `evidence-edit.json`
+- `resolution-edit.json`
