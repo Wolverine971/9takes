@@ -1,0 +1,199 @@
+{
+  "target": {
+    "person": "shyam-sankar",
+    "type": "6",
+    "units": 11,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27
+    },
+    {
+      "person": "Patrick-Mahomes",
+      "date": "2026-09-08",
+      "units": 43
+    },
+    {
+      "person": "Bill-Burr",
+      "date": "2026-09-07",
+      "units": 32
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 2387,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.006,
+    "max": 0.058
+  },
+  "trip_threshold": 0.04,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "Patrick-Mahomes",
+      "date": "2026-09-08",
+      "units": 43,
+      "maxScore": 0.058
+    },
+    {
+      "person": "zach-bryan",
+      "date": "2026-09-10",
+      "units": 39,
+      "maxScore": 0.021
+    },
+    {
+      "person": "Arthur-Mensch",
+      "date": "2026-09-10",
+      "units": 42,
+      "maxScore": 0.017
+    },
+    {
+      "person": "Nathan-Fielder",
+      "date": "2026-09-09",
+      "units": 27,
+      "maxScore": 0.017
+    },
+    {
+      "person": "joseph-zada",
+      "date": "2026-09-12",
+      "units": 13,
+      "maxScore": 0.015
+    },
+    {
+      "person": "Bill-Burr",
+      "date": "2026-09-07",
+      "units": 32,
+      "maxScore": 0.014
+    },
+    {
+      "person": "inde-navarrette",
+      "date": "2026-09-10",
+      "units": 11,
+      "maxScore": 0.014
+    },
+    {
+      "person": "maleah-joi-moon",
+      "date": "2026-10-12",
+      "units": 10,
+      "maxScore": 0.007
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.058,
+      "other_person": "Patrick-Mahomes",
+      "shared_phrases": [],
+      "target": "[diagnosis] Others walk straight at what worries them and come across as the boldest person in the room.",
+      "other": "[diagnosis] Its signature is that the most anxious person in the room becomes the steadiest one when the crisis is real"
+    },
+    {
+      "score": 0.021,
+      "other_person": "zach-bryan",
+      "shared_phrases": [],
+      "target": "[diagnosis] which is why most people who watch him for ten minutes would guess Type 8",
+      "other": "[counter-typing] Type 8 explains the feuds and the empire until you watch him the morning after"
+    },
+    {
+      "score": 0.018,
+      "other_person": "Patrick-Mahomes",
+      "shared_phrases": [],
+      "target": "[diagnosis] a group or a cause that feels solid.",
+      "other": "[diagnosis] The type runs on the fear of being caught without support or a plan."
+    },
+    {
+      "score": 0.017,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] because pushing on a thing is how you find out whether it holds.",
+      "other": "[diagnosis] Sixes interrogate every promise to find out which part of it is load-bearing."
+    },
+    {
+      "score": 0.017,
+      "other_person": "Nathan-Fielder",
+      "shared_phrases": [],
+      "target": "[diagnosis] attention goes to what could go wrong and to who can be counted on when it does.",
+      "other": "[diagnosis] The uncomfortable possibility is that his own judgment will not count when it matters."
+    },
+    {
+      "score": 0.017,
+      "other_person": "zach-bryan",
+      "shared_phrases": [
+        "someth worth"
+      ],
+      "target": "[diagnosis] They answer it by finding something worth trusting and working to keep their place beside it.",
+      "other": "[diagnosis] a man who wants something worth his devotion and can't stop testing whether it will hold."
+    },
+    {
+      "score": 0.016,
+      "other_person": "zach-bryan",
+      "shared_phrases": [],
+      "target": "[diagnosis] because pushing on a thing is how you find out whether it holds.",
+      "other": "[diagnosis] a man who wants something worth his devotion and can't stop testing whether it will hold."
+    },
+    {
+      "score": 0.015,
+      "other_person": "joseph-zada",
+      "shared_phrases": [],
+      "target": "[diagnosis] attention goes to what could go wrong and to who can be counted on when it does.",
+      "other": "[diagnosis] He does not visibly test whether people can be trusted"
+    },
+    {
+      "score": 0.015,
+      "other_person": "Patrick-Mahomes",
+      "shared_phrases": [],
+      "target": "[diagnosis] His biggest choices point back to who he owes.",
+      "other": "[diagnosis] When you've been put in those situations you go back to those fundamentals.\" The type has two modes and he runs both"
+    },
+    {
+      "score": 0.014,
+      "other_person": "Arthur-Mensch",
+      "shared_phrases": [],
+      "target": "[diagnosis] which is why most people who watch him for ten minutes would guess Type 8",
+      "other": "[diagnosis] and what it buys is a shorter list of people who can say no."
+    },
+    {
+      "score": 0.014,
+      "other_person": "Bill-Burr",
+      "shared_phrases": [],
+      "target": "[diagnosis] Others walk straight at what worries them and come across as the boldest person in the room.",
+      "other": "[diagnosis] the kind that runs at what scares it instead of hiding."
+    },
+    {
+      "score": 0.014,
+      "other_person": "inde-navarrette",
+      "shared_phrases": [],
+      "target": "[diagnosis] because pushing on a thing is how you find out whether it holds.",
+      "other": "[diagnosis] The key clue is how she handles bad outcomes that have not happened yet"
+    }
+  ]
+}

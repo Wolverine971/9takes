@@ -1,0 +1,44 @@
+## Grading Complete — Madonna
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Madonna | 9 | 8 | 8.5 | 8.5 | 8 | 8 | 8.4 | B |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7` = 58.75 / 7. No caps applied.)
+
+The grade block is in the draft's frontmatter and the full feedback is in `docs/content-analysis/grades/Madonna.review.md`. I added only the grade block to the draft; body, FAQ text and `lastmod` are untouched.
+
+**Bracket:** it beats the Alex-Warren draft (C) and loses to Peter Thiel (A). The closest anchor is the Matt-Smith draft (B): Madonna sits at the top of that band, clearly better sourced, with a less original central idea.
+
+### Same total as the first pass, different parts
+
+This is the post-revision regrade, and it landed on 8.4 again.
+
+- **Evidence rose 8.5 → 9.** The revision sourced both album claims to Billboard, and the quotes I traced all matched: six lines against the published Interview Q&A, and two against MTV's caption track of the VMA speech.
+- **Originality fell 8.5 → 8, on text the revision did not change.** That is grader variance, not a change in the draft. I scored it before opening the first-pass numbers.
+- **The letter sits on half-point calls.** Evidence, Originality and Discoverability are each a half-point judgment, and the overall runs 8.3 to 8.6 across them. I set `needs_review: true` and confidence medium for that reason.
+
+### Key observations
+
+- **FAQ 2 states something she took back on stage.** It says, in the page's voice, "the 1984 night her manager told her that her career was over." On the caption track her next words are "Not my manager now, no… What were you? You were the assistant to the manager." The body is safe because it quotes her; the FAQ is the block answer engines lift. The pipeline's own verifier flagged this and it is still open.
+- **The Type 8 rebuttal argues against its own exhibit.** The type section says "outrage alone rarely moves her" and rests on two albums that undersold. The next exhibit is her pulling the American Life video three weeks before release, before any sales existed. The page also never mentions that the Sex book sold out; that figure is from my memory, so verify it at source.
+- **The last third reads as a log.** "Why Is Madonna Still Performing?" runs 619 words in date order, and the family-deaths and Universal paragraphs read as inserts. The body is 4,391 words against a 3,200–3,900 band.
+- **Section endings are metronomic.** Six sections close on a one-line button, and there are three reader commands in the first third.
+- **The thesis is hers.** The frame is what she told Rolling Stone in 1991, printed as the epigraph. The freshest finding — she has told the 1984 "career was over" story in 2012, 2018 and 2026 — gets one sentence.
+- **Sameness check:** two house moves recur in shape against the four most recent graded drafts (a "Notice…" reader command and a cold-open callback ending), below the cap of three. The same-type scan is clear and the contrast-pair count is 0.
+
+### What would move it
+
+- **Discoverability to 9:** fix the FAQ 2 clause and name the type in the description. Both are frontmatter edits; the sidecar has wording for each.
+- **Writing and Enneagram:** settle the Type 8 argument one way, take about 400 words out of the last third, and vary three section endings.
+- **Originality above 8:** this needs structure, not polish. Promote the retold-insult pattern to a through-line, or give one section a cause that is not the mother.
+
+`lastmod` still reads 2026-07-18 on a page that now covers events through October; that field is yours.
+
+**Total graded this session: 1**
+
+Sources:
+- [Interview Magazine: The Madonna Interview](https://www.interviewmagazine.com/music/madonna-confessions-on-a-dancefloor-nadia-lee-cohen)
+- [Gulf News: Madonna at the 2026 VMAs](https://gulfnews.com/entertainment/madonna-shares-about-her-wardrobe-malfunction-at-the-vmas-2026-my-career-was-over-1.500690273)
+- [MEAWW: Madonna recalls being told her career was over](https://news.meaww.com/madonna-recalls-being-told-her-career-was-over-after-first-vm-as-as-she-wins-artist-of-the-year)
+- [WFTV: Madonna hits No. 1 with Confessions II](https://www.wftv.com/news/trending/madonna-hits-no-1-with-confessions-ii/556445YFSZGM3H2FOMYO5QQSGA/)

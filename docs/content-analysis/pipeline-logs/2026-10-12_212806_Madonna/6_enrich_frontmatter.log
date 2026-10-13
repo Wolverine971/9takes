@@ -1,0 +1,26 @@
+Frontmatter enrichment complete: Madonna
+
+The body is byte-identical (checksum matched before and after), `lastmod` is untouched, the YAML parses, and `blog-lint.sh` shows 0 fails. Its two warnings are not from this pass: the published/draft state mismatch and the 4,436-word length.
+
+**Fields filled:**
+- `wikidata_qid` (Q1744), `imdb_id` (nm0000187, confirmed via Wikidata P345), `birth_date` (1958-08-16), `birth_place` (Bay City, Michigan, United States), `nationality`, `occupation` (4), `knows_about` (7), `keywords` (10), `same_as` (6), `citations` (8), `faqs` (5)
+
+**Fields already present (preserved):**
+- `wikipedia` — verified it is the singer's page, not the disambiguation page.
+
+**FAQs generated (5):**
+1. What is Madonna's personality type? → `#what-is-madonnas-personality-type`
+2. Why is Madonna still performing? → `#why-is-madonna-still-performing`
+3. Is Madonna an Enneagram Type 8? → `#why-not-type-8-or-type-1`
+4. Why won't Madonna age gracefully? → `#why-madonna-wont-age-gracefully`
+5. Is Madonna her real name? → `#madonnas-childhood-the-house-that-never-cried`
+
+Every anchor matches a real heading, and every quoted fragment in the answers appears verbatim in the body. The first answer follows your 10-12 Doja Cat notes: it commits to the type and opens on the heart triad and shame.
+
+**Issues:**
+- **Citations are not body links.** The body has no external hyperlinks, only the two YouTube embeds. I used those two plus six sources the body cites by name, with URLs taken from this run's evidence packet: Vanity Fair 1991, Rolling Stone 1991, Time 1985, Interview 2026, the July 2023 statement, and Attitude 2026. All eight resolve; Time and Interview block plain requests but load through a reader proxy.
+- **Marriages and number of children are not in the FAQs.** The entity-gap brief asked for them, but the body never states the six children, and the five-FAQ cap went to the questions the page actually argues. The real-name FAQ covers name, birthday and mother's name. Say so if you want to trade the Type 8 FAQ for a marriages one.
+- **Birth date and Bay City are in FAQ 5 but not in the body.** They come from Wikipedia and Wikidata.
+- **The Charli XCX link was not added.** The second-pass notes left it for this stage, but it is a body edit and this stage is frontmatter-only. `Charli-xcx.md` exists if a later pass wants it.
+- **Britannica and IMDb pages were not loaded directly** (both bot-walled). The IDs come from Wikidata, not from viewing the pages.
+- **No task tracking.** The command asks for TaskCreate/TaskUpdate; those tools are not available in this session.

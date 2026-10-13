@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "4e0680b630d4558790dca8d78fc08be5499070962bf26a8947337384f93913fe",
+  "evidence_sha256": "420561ab0fd83763c0c750c32f8d9cba8a915685413daf721f9f20e99f186c6d",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "The record shows something else on each count.",
+      "problem": "The Type 8 test says twenty years show no break with authority after being overruled, and the best-known counterexample is missing. Sankar brings it up himself in three opened sources: \"In 2016, we sued the army because we were unable to compete\" (S05, 35:06, captions); Palantir \"had to sue the army not once but twice to get the right to compete\" (S06, 41:49, captions); and in the same answer the draft quotes for \"I'm going to piss off literally everyone along the way\" his next sentence is \"we have to sue the army to compete at some point\" (S08, 09:30, Whisper segment 00-08-40). He now holds a commission in that Army. A reader who follows Palantir reaches for this episode first, and the draft neither names it nor says which way it cuts.",
+      "acceptance_test": "The Type 8 section names the Army lawsuits with a date and his own words from an opened source, and says plainly how they bear on the break-with-authority test (for example: a company decision under Karp, pursued in court on a procurement statute, and told by him without blaming the Army). The sentence claiming the record shows something else on each count is qualified, or is still true with the lawsuits on the page. Caption-only wording is paraphrased or second-transcribed before it is quoted."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "Both times he forecast failure, carried it up to the one person he trusted, and came away steadier.",
+      "problem": "Both anchor stories are reshaped to fit. The 2008 call is introduced as one of \"his worst early moments\" under the heading \"What he does when it is going wrong\", but in Colossus the call comes after the analysts \"declared the product useful\", and in both tellings he gives his own cause: \"I was so sleep deprived, I got super fucking grumpy and humorless\" (S01) and \"incredibly grumpy. Humorless from sleep deprivation\" (S03). Neither source says he came away steadier; the gala version says \"And I was shocked.\" The second story is his answer to whether he discusses Jewish learning with Karp, offered as an example of Karp's \"ancient jokes\" (the rabbi and the talking monkey), and how he felt afterward is not reported. The evidence record calls this pattern the main discriminator against Type 8 (C71), so the embellishment carries weight.",
+      "acceptance_test": "The section reports the 2008 call with his stated cause (sleep deprivation, grumpiness) and the fact that the customer had just called the product useful. \"Worst early moments\" and \"came away steadier\" are removed or marked as the author's inference. The surviving claim is limited to what both sources show: he took the complaint to Karp, and he tells both stories with Karp proven right."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "So his heretic is a loyalist with a sponsor. The rule gets broken for the institution, by someone inside it, with cover from above.",
+      "problem": "This narrows his best-known idea to one caption-only line plus the Danhof anecdote. In the same Lonsdale answer, about thirty seconds earlier, he gives the cost: \"what it actually takes to be a heretic\" is how much you are willing to sacrifice \"at the expense of your career\" (S07, 27:05, captions), said of Col. Drew Cukor and his inspector-general investigations. His examples include outsiders who fought the institution: he names \"Higgins on the outside\" and Churchill's tank as \"a rogue renegade effort\" (S07, captions), and Colossus describes Higgins as the boatbuilder \"who spent years fighting the U.S. Navy for the right to compete\" (S01). So \"by someone inside it\" is wrong for his own canon, and the sharper contradiction goes unstated: the heretics he writes about paid with their careers, and no comparable cost to him is on record.",
+      "acceptance_test": "The section states his definition with its cost and with outside as well as inside examples, sourced to S07 and S01. \"Loyalist with a sponsor\" is presented as a reading of his own conduct, not of his heretic concept. The draft says whether any career cost to him appears in the record. If the editor wants the loyal-heretic framing in his own written words, the First Breakfast post of October 31, 2024 (https://www.firstbreakfast.com/p/reformation-day: \"I nail this treatise to the Pentagon Metro entrance not because I hate the DOD, but because I love America\") is added to the evidence record as an opened source before use."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "He has been one man's deputy since 2006.",
+      "problem": "Unsupported for most of the period, and it appears three times: in the description, in the Type 8 FAQ (\"He has been Alex Karp's deputy since 2006\") and in the bullet \"He has been another man's deputy since 2006, and he calls that man his parole officer.\" He joined as the 13th employee, \"originally hired to lead 'business development'\" (S01). The proxy says only that he \"has served in various positions with us since 2006\" (S17). The first senior title in the record is chief operating officer by February 2021 (S01). Claim C114 concedes that \"deputy\" is the article's word. Readers who know the company's history know other people stood between him and Karp for years, and the bullet uses the 2006 date as type evidence.",
+      "acceptance_test": "All three passages say only what the record supports (for example, that he has worked under the same chief executive since 2006) or date the deputy role to a sourced title. The description still runs 120 to 170 characters. The Type 8 bullet's argument does not depend on a 2006 start for the deputy role."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "So the two boldest moves of his twenties are told as obedience. Someone he trusted told him to take the risk, and he took it.",
+      "problem": "The profile jumps from prep school to Stanford and skips the years where the record has him taking risks nobody ordered. He says \"I was a college student during 9/11. I tried to drop out and join CIA\" (S10, published transcript). Colossus adds that the application went unacknowledged and that he took \"a stopout to build a company\" that failed (S01). To Shawn Ryan he says he \"dropped out of Cornell for a hot minute there to build a company\" and went to Stanford to get near people who build (S05, captions). The CIA attempt is also the earliest sign of the service motive, years before any Palantir pitch. Separately, \"After Stanford he had an offer from Boston Consulting Group and one from Xoom\" follows Colossus (\"By graduation day\"), while his own 2025 telling is that \"within two months of being at Stanford\" he had a full-time job as Xoom's fifth employee (S05, captions). The draft cites both sources and flags neither gap.",
+      "acceptance_test": "The profile includes the 9/11 CIA attempt and the failed college company, attributed and dated. The obedience generalization is limited to the two stories it rests on, or revised to account for the self-started risks. The Xoom fork is attributed to Colossus, with a clause noting his different 2025 timeline."
+    },
+    {
+      "id": "fan-06",
+      "severity": "major",
+      "passage": "Against it are two decades out of public view and a habit of volunteering unflattering details.",
+      "problem": "Overstated. The biography he gave Congress in September 2024, before \"The Defense Reformation\", calls him \"a thought leader, prolific author, and frequent speaker\" and \"A frequent guest on CNBC and Bloomberg\", lists earlier congressional appearances and says \"In 2023, he launched the First Breakfast initiative\" (S19). The record also holds a September 2023 investor interview (S15). He gave a TEDGlobal talk in June 2012 (https://www.ted.com/talks/shyam_sankar_the_rise_of_human_computer_cooperation, saved by the research stage with about 1.04 million plays, not yet a listed source). \"Hidden\" is Colossus's word, and \"behind the scenes\" is Katherine Boyle's, for his role inside the company. It is the first reason given to set Type 3 aside, and it is the premise of \"Then came an essay called \"The Defense Reformation\" in October 2024, and after it the long podcasts, the commission and the book.\"",
+      "acceptance_test": "The Type 3 paragraph and the opening of \"The alarm he chose\" describe a change of scale and subject (from product and investor appearances to a national argument, a commission and a book) and attribute \"hidden\" to Colossus. No sentence in the author's voice says he was out of public view for two decades. The Type 3 test rests on evidence that survives that correction."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "And he still describes his place as something he has to earn every day.",
+      "problem": "Two quotations are moved off their subject. In the embedded clip the \"earn your place every day\" sentence is about the company: it follows \"we tried to go through the front door\" and continues \"and you recognize your product has to be 10 times better than the alternatives\" (S07, Whisper segment 00-28-10; C48 notes this). Readers can check it in the video placed beside the claim. Likewise \"He told Stern that what he cares about is \"the primacy of winning.\"\" sits in a paragraph about how he runs people, but the source reads \"'American Greatness' is the thing I care about. It's the primacy of winning, defeating nihilism and cynicism. You can't achieve American Greatness through zero-sum divisiveness.\" (S01; C82 notes this).",
+      "acceptance_test": "The hook says he was describing Palantir's position, and his own within it (\"We, and I\"), when he spoke of earning a place. The \"primacy of winning\" quotation either carries its subject (American Greatness) and the zero-sum sentence, or is dropped from the management-style evidence."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "His father was spared, he says, because one of the robbers had been a regular at his mother's open kitchen",
+      "problem": "The draft cites the Shawn Ryan telling here but leaves out two things he says in the same Whisper-checked passage (S05, segment 00-05-40). First, the robbery was \"a little bit of an inside job of people who worked there\"; Colossus adds that the man who stopped it was likely the one who knew about the safe (S01). In a profile about who can be counted on, that is the most relevant detail in the founding story. Second, the Orlando he describes is happy: restocking theme-park shelves with his mother was \"fantastic\", and it was \"a privilege to grow up in the shadow of the space coast\". \"Orlando was not a rescue story.\" is the author's frame. The section shows only the bankruptcies and the process server, which thins out the \"bedrock\" answer the draft itself calls the strongest counterevidence.",
+      "acceptance_test": "The section reports the inside-job detail as his account, with no causal claim about him, and gives at least one concrete happy detail from his own telling beside the bankruptcies, so the reader sees the childhood he describes as well as the one the type argument needs."
+    },
+    {
+      "id": "fan-09",
+      "severity": "minor",
+      "passage": "he answered only for himself: the family came legally, and the rules should be followed.",
+      "problem": "The record holds a contrast the reader never sees. In December 2024 he said \"my family came to this country as refugees fleeing violence from Nigeria\" (S10, published transcript). In October 2025, asked about deportations, the emphasis became \"we came here legally\" (S06, captions). The parents FAQ says only that no source documents how the family was admitted. The two framings need not conflict, but which one he reaches for, and when, is the kind of evidence this profile runs on.",
+      "acceptance_test": "The body or the parents FAQ sets the two statements side by side with dates and sources, makes no claim about the family's immigration category, and paraphrases or second-transcribes the caption-only wording."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "That is the strongest evidence against a Six reading, and it deserves to be taken at face value before anyone argues with it.",
+      "reason": "States his own denial as counterevidence before interpreting it. This is what keeps the profile from explaining away what he says about himself."
+    },
+    {
+      "passage": "Loyalty and money point the same way here, so the tenure cannot settle the type alone.",
+      "reason": "Names the confound an informed reader raises at once about a twenty-year tenure, and does it in one plain sentence beside the proxy figures."
+    },
+    {
+      "passage": "In the same profile, the one moment of his own childhood that he calls frightening is a process server, not the robbery.",
+      "reason": "A specific, checked detail from Colossus that most tellings of his story skip. It changes how the reader weighs the famous robbery."
+    },
+    {
+      "passage": "The limits are real. Mabrey's line is his reading of Sankar's motive, and everyone describing this style thrived under it. An invitation to curse at the boss is still the boss's game.",
+      "reason": "Refuses the flattering reading of the best-loved Palantir anecdotes and says who is missing from the witness list."
+    },
+    {
+      "passage": "Leaving a party proves nothing. It does match the answer he gave Lonsdale the following spring. He is inside every room that matters to him, and by his own description he is still looking in.",
+      "reason": "The ending draws its image from a reported detail and declines to overread it. It returns to the opening question without repeating the thesis."
+    }
+  ],
+  "assessment": "Fan read: the draft knows the public Sankar well and states its limits honestly, but it reads his best-known material selectively at the points where the Type 6 case is decided. I checked it against the research stage's saved captures: the Colossus text, the Hudson and School of War transcripts, the caption files and Whisper segments for S05 to S08 and S12, the House biography, the TED page and the Reformation Day post. Those are the 2026-10-13 captures, not fresh fetches, and caption-only wording was not checked by ear. Six findings bear on the argument: the Army lawsuits he cites himself are missing from the Type 8 test; both Karp crisis stories are reshaped; his heretic canon is narrowed to fit the section; \"deputy since 2006\" is unsupported in three places; the father's-forks section skips the Cornell-era risks nobody ordered; and \"two decades out of public view\" is contradicted by his own September 2024 biography. Three smaller findings restore context he supplies himself. None of this overturns Type 6 over Type 8. Several items would strengthen the read if added honestly: the CIA attempt, the Reformation Day line, and the gala speech in which he credits Karp's French-restaurant idea as the origin of forward deployed engineering (S03), which the draft leaves out when it says he is credited with the model. The draft runs 3,757 words, so each added sentence needs a cut. Not verified here: his wife's identity (the record is right to withhold it), the unopened Pirate Wires and Free Press pieces, and the Bloomberg report. The similarity advisory was available and did not trip (maximum 0.058, against Patrick-Mahomes). The matches sit in the general Type 6 primer and the arguments differ, so there is no reuse finding. Risk flags carried from the evidence record: sensitive allegations (i2, Minab) and contested typing."
+}

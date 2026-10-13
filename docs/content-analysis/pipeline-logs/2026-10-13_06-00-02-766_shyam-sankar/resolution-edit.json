@@ -1,0 +1,353 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "The 'earn your place every day' quotation is gone. The hook now rests on the two first-person sentences, shows that Lonsdale supplied the word (\"do you still feel like an outsider?\"), and says 'The rest of the clip is about Palantir's early years.' The sentence 'he still describes his place as something he has to earn every day' was replaced with 'he called the outsider feeling constitutional', tied to the moment of the answer. Claim C48 was removed from the record and from for_claim_ids; C119 and C120 record the limit."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "The section is retitled 'His father and the two forks' and no longer says his father 'made the call' on or 'decided' Palantir. It quotes 'Dad had been kind of trying not to be directive of what I should do' and his own reason for joining ('I was kind of ruined ... there was no going back'), calls the Xoom push 'a father releasing his son from a duty', and says 'Nothing on record has his father telling him to join Palantir.' 'Obedience' is removed everywhere. The salary FAQ anchor is now his-father-and-the-two-forks and the type FAQ no longer says he credits his biggest choices to his father. C11, C63 and C64 were corrected."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "The passage now quotes 'part of the process we don't own' (Whisper-checked), paraphrases the added AI checks, and paraphrases the caption-only statements that he would like the truth out and that the report's timing and any briefing of Congress on what went wrong belong to the department. It gives the question that drew 'I'm just a technologist' (\"about the benefits along with the risks\") and says in plain words 'The reporting concerns a system and the people using it, not Sankar's own conduct.' The Bloomberg investigation was opened and read at the edit stage through a reader (new source S35), because bloomberg.com returned 403; the research task to reread it on bloomberg.com and to recheck the Pentagon review before release is carried forward to verification in research_tasks and in the triggers on C32 and C96."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Beside the Military.com no-recusal sentence the article now gives the Army's response from the same report (paraphrased as 'the Army says they make no acquisition decisions'; the spokesperson's words are in C167), what he says his assignment is (Army human resourcing), and his CBS answer through 'We're only allowed to work on projects where we don't have conflicts.' The type reading follows the full response: the next paragraph says the deferrals cost him nothing and are weak evidence of temperament. The Army Emergency Relief pledge and the Douthat 'no appearance of conflict' line are in C25 but were left out of the body for length."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "The docket page was opened at the edit stage (new source S31), and so were the complaint (S32) and the defendants' memorandum in support of their motion to dismiss (S33). The article now says the judge denied the motion on October 1, 2010, 'which let the case proceed and decided nothing about whether the allegations were true', that 'Sankar filed an answer that month, which was not read for this page', that 'No court ruled on the merits', and that no public comment from him has been found, next to the settlement's non-discussion term. The 'unclean hands' fragment was cut; in its place the article gives the defendants' own stated position from their filing (the claims were anticompetitive), which is a plainer and better-sourced statement of their side. The father's name was removed from the lawsuit passage: the article says 'his father' on the complaint's own statement (paragraph 17, 'Nochur Sankar is the father of Shyam Sankar'), so the link is no longer made by juxtaposition. The complaint also names his mother and brother and gives a home address; none of that is repeated."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "'Deputy since 2006' is removed from all three surfaces. The description now reads 'He has spent twenty years at one company', the Type 8 FAQ no longer mentions a deputy role, and the discriminator bullet that used it was deleted. No surface dates a number-two role to 2006. The 'parole officer' line appears only as a quotation from the Hudson dinner speech, followed by 'That is a toast, written for a laugh, and the laugh line admits offenses he does not name.' C114 was rewritten; C01 records the title limits."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "The gloss now reads 'His targets, on the page, are an argument and systems that do not work.' It no longer says his anger was aimed at people. Stern's observation is quoted and attributed to Stern ('as he reached for the same words he'd used to describe what nearly swallowed his family when he was a boy'), the ICE context is stated, and his next sentence is added (America has 'always been able to push back against that'). The blockquote is unchanged, attributed to Colossus and dated February 2026."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "The parents FAQ now states what he has said ('Sankar has called the family refugees and has also said they came legally') and no longer says no source documents how the family was admitted. The birth-city limit stays. The body sets the December 2024 and October 2025 statements side by side with the Colossus route and adds 'The versions do not have to conflict.'"
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "The Type 8 section now names the lawsuit with a date and his own Whisper-checked words ('we have to sue the army to compete at some point'), reports that Palantir sued the Army in 2016 and won (attributed to Colossus), says he tells it as a fight for the right to compete, and states that no opened source documents his own part in the decision. 'The record shows something else on each count' was deleted with the three-sign test it introduced. The next section returns to it: 'his company sued the same institution'. C147, C148 and C149 were added. Caption-only wording is paraphrased."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "The 2008 call now carries his stated cause ('incredibly grumpy. Humorless from sleep deprivation'), 'I was shocked', and the Colossus detail that the analysts had just declared the product useful. The heading 'What he does when it is going wrong', 'worst early moments' and 'came away steadier' are gone. The second story (the 'freaking out' complaint and Karp's parable) was cut entirely, since it was told as an example of Karp's jokes and its effect on him is not reported. The surviving claim is limited to what the sources show: he took the complaint to Karp, and 'What it does show is how he tells it: Karp proven right, and himself as the doubter.' C14 and C71 were scaled back and C70 removed."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "The section now states his definition with its cost (paraphrased from the caption-only Lonsdale answer: how much you will sacrifice, up to your career) and with an outside example (Andrew Higgins) beside the inside one (Danhof). 'Loyalist with a sponsor' is presented as a reading of his own conduct: 'So the heretic he has actually been is a loyalist with a sponsor ... That describes his conduct. It does not describe every hero in his book, and no career cost of the kind he praises appears in his own record.' The First Breakfast post of October 31, 2024 was opened at the edit stage and added as source S34, and its sentence 'I nail this treatise to the Pentagon Metro entrance not because I hate the DOD, but because I love America and want us to win again' is quoted and linked."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "All three passages were changed. Description: 'He has spent twenty years at one company' (156 characters). Type 8 FAQ: no deputy claim. Body: the deputy bullet was deleted, so the Type 8 argument no longer depends on a 2006 start for any role."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "The forks section opens with the self-started risks: 'I tried to drop out and join CIA' (School of War transcript) and the company he started as a student, which failed (Colossus). The obedience generalization is gone; the summary is limited to 'he wanted the risk both times, and both times he tells it as his father's judgment proving out.' The Xoom fork is attributed to Colossus with a clause noting that the account 'differs from his own 2025 timeline'; C61 records the Shawn Ryan version."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "No sentence in the author's voice says he was out of public view. 'The alarm he chose' now opens 'He was not unknown before 2024', cites the 2012 TED talk (page opened, new source S36) and his House biography's 'A frequent guest on CNBC and Bloomberg', and describes a change of scale. Colossus's 'hidden figure' line was cut, so there is nothing left to attribute. The Type 3 test now rests on his crediting Karp for his signature idea and narrating himself as the one who was wrong, and the article says Type 3 stays live."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "The 'earn your place' line is no longer quoted, and the hook says the rest of the clip is about Palantir's early years. The 'primacy of winning' fragment was dropped from the management-style evidence and from the record (C82 removed)."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "The robbery paragraph now reports 'a little bit of an inside job of people who worked there' as his account, with no causal claim about him. 'Orlando was not a rescue story' was cut, and the section gives a happy detail in his own words ('a privilege to grow up in the shadow of the space coast') beside the bankruptcies. The 'fantastic' SeaWorld detail was drafted and then cut for the word ceiling."
+    },
+    {
+      "finding_id": "fan-09",
+      "action": "fixed",
+      "reason": "The body sets the two statements side by side with dates and sources: 'In December 2024 he said they \"came to this country as refugees fleeing violence from Nigeria.\"' (published transcript, quoted) and 'In October 2025, asked about Palantir's deportation work, he stressed that they came legally' (caption-only, paraphrased). It makes no claim about the family's immigration category. The parents FAQ matches."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "The section says only the Xoom choice involved his father's ruling, that the ruling backed what he already wanted ('That is a father releasing his son from a duty. Sankar already wanted the startup'), and that the Palantir fork 'was his own call' after he 'had grown restless at Xoom'. It states 'Nothing on record has his father telling him to join Palantir.' The H2, the 'obedience' sentence and the type FAQ line were rewritten; C11 and C64 were corrected and C135 to C138 added."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "The section quotes his sleep-deprivation explanation and says the analysts had just declared the product useful. 'The one person he trusted' and 'came away steadier' are cut; the draft's 'because' between the laugh and Karp's understanding is removed and 'I was shocked' is quoted. The rank confound ('phoning the chief executive is what rank predicts for any type') and 'I was leading the deployment. It was all on me' are in the body. The second story was cut. The anecdote is no longer the deciding evidence: 'So the story shows less than it first seems to.' The Why-not-8 bullet and the FAQ line 'he describes taking alarm to Karp in a crisis' were removed, and C14 and C71 were scaled to match."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "The sentence is corrected to what the record shows: 'as of October 2026 the son has not left. He has not stood still: Colossus reports a film studio, and his September 2024 House biography lists First Breakfast, the essay site he launched in 2023, and the chairmanship of Ginkgo Bioworks.' 'Deputy since 2006' is removed from the description, the FAQ and the bullet. C20 and C114 were corrected and C140 and C141 added, time-sensitive, with a trigger to recheck the Ginkgo chairmanship."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "The passage now gives the toll with attribution: Brennan's on-air figure ('at least 123 school children', Whisper-checked) and Bloomberg's count of more than 150 dead, with 'Counts vary.' Bloomberg is cited directly because the investigation was opened at the edit stage (S35), which is better than the Gizmodo relay the finding assumed. The paragraph includes the post-strike fix and, paraphrased because caption-only, his answer that briefing Congress on what went wrong was the department's call. C92's inference was corrected and C160 to C166 added."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "The section gives the question each deferral answered (Stern's ICE question; the Minab strike; his own conflict of interest) and states the incentive explanation for all three: 'None of these deferrals cost him anything. Sending a hard question to the institution is the cheap answer for any contractor's executive, so they are weak evidence of temperament.' It adds the evidence against a deference pattern: 'his company sued the same institution, and his essay and book tell it how to change its rules.' The Why-not-8 claim that the record shows no break with authority was replaced by a loyal-Eight test and the statement that, on a personal break with Karp or the Army, 'the record is empty.' 'Loyalist with a sponsor' is kept as a reading of his conduct and squared with his career-cost definition in the sentence that follows it."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "The body reports the three versions with dates and sources (refugees, December 2024; Colossus's return to India and the friend's job offer, Orlando in 1985; came legally, October 2025). It says 'It is a creed, not a travel record: on the Colossus account the family left Lagos on its own and came to America for a job.' 'Owed for' is marked as 'this page's inference', with the Lonsdale line it is drawn from, and the father's 'We survived what happened in Nigeria, we can survive anything' is quoted in the restored bedrock answer in the paragraph that follows. The parents FAQ matches the body."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "A new paragraph states the face-value reading and the types it favours ('a secure kid with a resilient father, which suits a Type 8 or a Type 3 better than a Six'), with 'You're alone and not afraid' and the restored 'It never fazed Dad' sentences. The base-that-held line now reads 'an answer that fits either way is not evidence.' The article says what would count against fear at the core. The Type 3 paragraph drops 'two decades out of public view', adds the shame language and the tombstone quotation, and ends 'Type 3 stays live.' The 'embarrassing' grocery-bagging detail is in C174 but was cut from the body for length."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "The quotation was removed and the sentence rebuilt on the outsider lines alone. C48 was deleted from the record and from for_claim_ids."
+    },
+    {
+      "finding_id": "critic-09",
+      "action": "fixed",
+      "reason": "The limits section now states the relationships in one sentence: 'Colossus also runs the podcast that interviewed him, the Hudson Institute's page for the dinner calls him a trustee, and Lonsdale hired him.' Stern's business-development caveat is quoted in the public-turn section beside the alarm quotation ('an audience may not tell \"genuine warnings\" from \"a rhetorically sophisticated strategy for business development.\"'). His verdict ('he does actually believe it') was cut for the word ceiling together with the eagerness quotations, so it no longer appears without its caveat; C192 records the verdict in its alternative."
+    },
+    {
+      "finding_id": "critic-10",
+      "action": "fixed",
+      "reason": "The type argument now carries a conditional sentence: 'The 2010 lawsuit would count too, if its allegation were accurate' (toward Eight). The limits section says what it would mean for the loyalist reading and for his honesty: 'it would be a rule broken against an outsider, by a man whose creed is rule-breaking for the institution and whose stated habit is being \"completely honest.\" Nothing in the record tests it either way.' The alleged four-year span is stated, attributed to the complaint, which was read directly. The note sits at the allegation and not at the honesty anecdote, which now appears only as a clause in a bullet."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "The type section now shows how he ordinarily presents, with an attributed description (Kevin Hartz: 'this perfect boy scout', 'very enthusiastic and positive'), and says plainly 'A fear-type read has to account for that, and this one only partly does.' The later sentence now reads 'Stern recorded the one time the sunny manner slipped' and quotes Stern's own phrase, 'breaking the facade of childlike optimism for the only time during our interviews'. C124 and C118 carry the quotations."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "The paragraph says what Maven is ('the targeting and command software Palantir makes') and states the deaths with attribution: Brennan's on-air 'at least 123 school children' and Bloomberg's count of more than 150 dead, with 'Counts vary.' The limits stay: the review is unreleased, the officials are unnamed, Palantir's response is given, and the article says the deferral is 'the cheap answer for any contractor's executive'. No sentence assigns fault beyond what Bloomberg and his own answer say. The added facts are in the inventory as disputed and unresolved (C160 to C163, C166) with review triggers."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "The event is identified once, at first mention ('On November 11, 2025 the Hudson Institute gave him its Herman Kahn Award at a dinner in New York. Sankar introduced him, and Karp replied'), and every later reference is 'the Hudson dinner'. In 'Taking it to Karp' each story says where it was said and each source is linked at first use in the section (Hudson, Colossus, Invest Like the Best); the section ends by naming which items were said from the stage. 'Why not Type 8?' now links Colossus, Invest Like the Best and the Kukreja interview and names the venue for each quotation. The 'weeks of revolt' quotation was cut."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Resolved by narrowing. The second story was removed, so the summary covers one call and claims only what the page shows: 'What it does show is how he tells it: Karp proven right, and himself as the doubter.'"
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "The lead-in no longer promises a count-by-count rebuttal. It replaces the three-sign test with a loyal-Eight test and says 'Four things on record lean Six, and none of them settles it.' Each bullet is labelled as his words or a colleague's reading. Where the answer is an absence the text says so and ties it to the ally-only record: 'the record is empty. A record made only of allies cannot say no.' The Army lawsuit is addressed with a date, a source and a sentence on what it does not show about him personally."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "The blockquote is attributed with interviewer, date and link ('O'Shaughnessy asked about it in the interview posted March 10, 2026'). 'The next day' and 'the Six pattern in a single answer' are gone. The doubt now appears once, in a Type 8 bullet, dated and linked to the March 11, 2026 interview and flagged as 'a doubt he has voiced once'."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "The section gives one consistent account: he wanted Xoom and his father pushed him toward it; he chose Palantir himself and credits his father afterward. The summary word 'obedience' is replaced with 'he tells it as his father's judgment proving out', which matches the quotations."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Detachment 201 is glossed at first mention ('a new unit that swore in four technology executives as part-time senior advisers') and the conflict is stated ('he is an officer in a service that buys his employer's software'), with the Army's and his own answers kept. One sentence after the 60-word answer says how the Enneagram groups its types by core emotion. Colossus is identified at first mention ('Jeremy Stern, who profiled him for the magazine Colossus'); Trinity Prep is introduced before the Type 3 paragraph refers to prep school; First Breakfast is glossed as 'the essay site he launched in 2023' before 'his First Breakfast essays'; 'they' now follows 'Institutions have to work'; O'Shaughnessy is introduced with his show. No gloss adds an unsourced fact."
+    },
+    {
+      "finding_id": "unfamiliar-09",
+      "action": "fixed",
+      "reason": "The passage now says what the allegation would test if accurate, in conditional sentences, and keeps every limit (allegation only, no merits ruling, no public comment). It adds no new claim about his conduct beyond the complaint's own allegations, which are quoted as allegations."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "The section quotes his own descriptors (grumpy, sleep deprived) and says the product had just been declared useful. 'Worst early moments', the heading 'What he does when it is going wrong' and 'came away steadier' are removed. 'Forecast' survives only in a bullet that labels it as the article's reading ('the behavior this page reads as fear at work'). The FAQ line was rewritten. McGrew's pivot testimony is in the body as counterevidence. The anecdote is offered as showing how he narrates, not as a test that settles anything, and the sleep-deprivation limit is stated in the article ('an exhausted team lead venting after a win')."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "The heading and sentences were rewritten as the finding asks: the Xoom fork is the father's push toward what the son already wanted, with the 'not to be directive' clause quoted; the Palantir fork is 'his own call' that he credits to his father afterward. 'Obedience' is gone. The salary FAQ anchor was updated to the new heading. C11, C63 and C64 were corrected."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "The Eight case is now tested against a loyal Eight ('a fierce lieutenant to a leader he respects, would pass that test'). The discriminator is restated as the observations the finding lists: where he puts the final say, how he tells his own power (crediting Karp, 'I'm not sure they're all right', 'sheepishly'), what he forecasts, and Mabrey's observation that the critique arrived without anger. The 'parole officer' bullet was dropped and its double edge is stated where the line is quoted. Each bullet is marked '(his words)' or '(a colleague's reading)'. The weeks-of-revolt bullet was cut. type_hypothesis.discriminator was rewritten to match."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "'The hardest test' is gone. The lawsuit appears with date, outcome and his own framing in the Type 8 section, is referred to again in this section, and is in the inventory (C147 to C149). The article says his personal role is undocumented and treats the suit as cutting against a deference pattern. The section says the deferrals cost him nothing. The finding asked for the lawsuit in this section; it sits one section earlier, beside the Type 8 test it bears on, and this section points back to it."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Type 1 now has a real test, in a short section shared with Type 3. It sits after the heretic and public-turn sections and not beside the Type 8 argument, so that each test can use evidence the reader has already seen (the Danhof story, the Reformation essay, the flash of anger); Type 8, the strongest alternative, stays next to the main argument. The Type 1 test gives its best evidence (duty, honesty, legitimate process, anger at corruption, a 'Reformation' with 18 theses), a sourced separator (he tells his certainty as borrowed, praises a rule-breaker, volunteers 'My code was never the cleanest'), and what stays unexplained ('the one flash of anger on record is a One's kind of anger'). Type 3 is tested on something a Three would not do (handing credit to Karp, narrating himself as wrong) and the article says it stays live. 'The Six pattern in a single answer' was cut, and the caption-only engineer distinction (C87) was removed."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "The fuller answer is quoted, including 'As stressful as it all was for Dad and Mom' and 'It never fazed Dad ... we can survive anything.' The base-that-held sentence now says an answer that fits either way 'is not evidence'. The article names the behavior it treats as fear in action (his forecasts) separately from loyalty and gratitude, and says in the type section that the read only partly accounts for his sunny manner. 'Sankar is the second kind' is now conditional: 'If this read is right, Sankar is the second kind.'"
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "The sentence was removed from the Type 8 list and the article, and C82 was deleted."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "The lead rests the personal claim on the first-person sentences only and says the rest of the clip is about Palantir's early years. The sentence was reworded. C48 left for_claim_ids and the record."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "The description, the Type 8 FAQ and the bullet no longer use 'deputy' or date any role to 2006. The description's 'He has spent twenty years at one company' is in the inventory as time-sensitive (C114) with a trigger covering departure, a change of role and Karp stepping down; the FAQ's absence claim is C189 and the tenure sentence is C20, both time-sensitive."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "The lead-in no longer ranks the exchange: it reads 'The same answer came on Face the Nation'. The Bloomberg investigation was opened and is cited (S35), with the access route disclosed. The review status keeps its as-of date. The page says what the released review could show without predicting it: 'whether his account holds, and what he does if it does not.' The section's point stands without the Minab paragraphs, on the 'unelected engineers' quotation and the commission answer. C183's trigger connects the pending review to the settle test."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "The limits section dates the absence once: 'As of October 2026, nobody who fought him, quit because of him or negotiated against him is on record.' Each absence claim is now time-sensitive with a named trigger: C52 (independent record of the robbery), C85 and C153 (an account of him overruling or leaving Karp or the Army), C105 and C176 (a non-ally on record), C181 (a statement by Sankar on the i2 case), C183 (the settle test), C113, C138, C158 and C177."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "The sentence now reads 'Sankar has been repeating it since at least December 2024', and the limits section says 'No telling of the family story from before his public turn was found either; the earliest opened is from December 2024.' C177 carries a trigger."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "The 'reluctant' quotation is attributed in the text with interviewer and absolute date, the Kukreja line carries its own date, and no relative date remains. The lede says 'In an interview posted on May 8, 2026', and the ending says the answer was 'posted the following May'."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "The payoff is tied to the moment of the answer ('When he said them he had worked at one company since March 2006. He held a rank ...'), uses the sourced March 2006 start in place of a derived age, and is in the inventory as C121."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "C115 now carries the same trigger set as C20 and C114. The tenure paragraph carries one as-of date ('as of October 2026'). Mabrey's title is tied to the source that gave it ('whom Colossus identified as Palantir's head of commercial'). Karp's title is given once, in the identity paragraph sourced to the April 2026 proxy, and the shared trigger covers Karp stepping down; it has no separate date phrase in the prose."
+    },
+    {
+      "finding_id": "future-08",
+      "action": "fixed",
+      "reason": "The body link and the citations entry now point to the Wayback capture of February 25, 2011 (timestamp 20110225160649), which was opened at the edit stage; S22 records the capture used."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Everything in this section is the family's story as Sankar tells it. No police report, news account or outside witness has turned up, and he was about three years old.",
+      "action": "kept",
+      "reason": "Verbatim, still the first paragraph of the Lagos section."
+    },
+    {
+      "passage": "That is the strongest evidence against a Six reading, and it deserves to be taken at face value before anyone argues with it.",
+      "action": "kept",
+      "reason": "Verbatim. The paragraph after it now honors it: it states the face-value reading and says an answer that fits either way is not evidence."
+    },
+    {
+      "passage": "Loyalty and money point the same way here, so the tenure cannot settle the type alone.",
+      "action": "kept",
+      "reason": "Verbatim, directly after the proxy figures."
+    },
+    {
+      "passage": "The limits are real. Mabrey's line is his reading of Sankar's motive, and everyone describing this style thrived under it.",
+      "action": "kept",
+      "reason": "Verbatim, directly after the bullet that quotes Mabrey."
+    },
+    {
+      "passage": "In the interviews opened for this page he does not name his wife or say how many children he has, so the page does not either.",
+      "action": "kept",
+      "reason": "Verbatim in the 'Is Shyam Sankar married?' FAQ. The edit added no family names; the complaint's naming of his mother and brother was not repeated."
+    },
+    {
+      "passage": "In the same profile, the one moment of his own childhood that he calls frightening is a process server, not the robbery.",
+      "action": "kept",
+      "reason": "Verbatim. The quotation after it was shortened to 'It was profoundly humiliating and terrifying' with the scene paraphrased."
+    },
+    {
+      "passage": "The limits are real. Mabrey's line is his reading of Sankar's motive, and everyone describing this style thrived under it. An invitation to curse at the boss is still the boss's game.",
+      "action": "kept",
+      "reason": "Verbatim, all three sentences. The intern-ritual sentence it refers to was kept so the third sentence still has its antecedent."
+    },
+    {
+      "passage": "Leaving a party proves nothing. It does match the answer he gave Lonsdale the following spring. He is inside every room that matters to him, and by his own description he is still looking in.",
+      "action": "changed",
+      "reason": "One phrase changed: 'the following spring' became 'posted the following May', because the recording date of the Lonsdale interview is unknown (future-05). The image, the refusal to overread it and the return to the opening question are intact, and it is still the last paragraph."
+    },
+    {
+      "passage": "Almost all of this is Sankar's own retelling, polished across at least ten long interviews in 2025 and 2026 by an executive whose company benefits from a grateful-patriot story.",
+      "action": "kept",
+      "reason": "Verbatim, still the first sentence of the limits section. Its logic was also moved up into the Karp and Type 8 sections, as the critic asked."
+    },
+    {
+      "passage": "What would move the read toward Eight: accounts of him overriding or walking away from Karp or the Army at a cost to himself, or people outside his circle describing domination for its own sake.",
+      "action": "kept",
+      "reason": "Verbatim. The evidence record now mirrors it as a time-sensitive claim with a review trigger (C85), and a sentence was added after it on what would count against fear."
+    },
+    {
+      "passage": "Lonsdale had just described the early Palantir as outsiders beaten up by the bureaucracy, so part of that answer is a guest agreeing with his host.",
+      "action": "kept",
+      "reason": "Verbatim. Two sentences were added before it to show that Lonsdale also supplied the word 'outsider'."
+    },
+    {
+      "passage": "He holds a rank in the institution he says he is looking in on. And he still describes his place as something he has to earn every day.",
+      "action": "changed",
+      "reason": "The second sentence stated something the source does not support: four reviewers showed that 'earn your place every day' is about the early company. The contradiction is still stated in plain sentences in the first screen: 'He held a rank in the institution he said he was looking in on. And he called the outsider feeling constitutional.' The tense moved to the moment of the answer for durability (future-06)."
+    },
+    {
+      "passage": "The pattern runs in a few plain steps. A Six finds a person, a group or a cause that feels solid. They commit to it. They keep watching for whatever could break it. And they push on it, sometimes loudly, because pushing on a thing is how you find out whether it holds.",
+      "action": "kept",
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "So his heretic is a loyalist with a sponsor. The rule gets broken for the institution, by someone inside it, with cover from above.",
+      "action": "changed",
+      "reason": "The insight is kept and is still stated plainly: 'So the heretic he has actually been is a loyalist with a sponsor: rules bent for the institution, with cover from above.' Two details were corrected. 'By someone inside it' was false for his own canon, which includes outsiders such as Higgins, and the phrase described his heretic concept when the evidence supports it only for his own conduct (fan-03, critic-05). It is now grounded in his own written sentence from October 31, 2024 as well as the Danhof story and his two requirements."
+    },
+    {
+      "passage": "Lonsdale had just described the early Palantir as outsiders beaten up by the bureaucracy, so part of that answer is a guest agreeing with his host. The rest is harder to wave off.",
+      "action": "kept",
+      "reason": "Verbatim, both sentences, in the same position after the clip."
+    },
+    {
+      "passage": "So the two boldest moves of his twenties are told as obedience. Someone he trusted told him to take the risk, and he took it.",
+      "action": "changed",
+      "reason": "The passage was factually unsupported for one of the two moves: no opened source has his father telling him to join Palantir, and at the Xoom fork the father backed what he already wanted (subject-02, fan-05, critic-01, enneagram-02, unfamiliar-07). The durable part of the insight is kept in corrected form: 'he wanted the risk both times, and both times he tells it as his father's judgment proving out.' It still rests on settled past events and his own telling."
+    },
+    {
+      "passage": "The Pentagon's review had not been released as of October 13, 2026.",
+      "action": "kept",
+      "reason": "Verbatim. Its basis is now stronger: Bloomberg's own text (September 18), his October 11 answer, and a web search on October 13 that found no report of a release."
+    }
+  ],
+  "prior_blockers": []
+}

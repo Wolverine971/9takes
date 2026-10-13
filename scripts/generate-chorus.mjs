@@ -512,7 +512,7 @@ async function persist(person, questionText, takes, authorId) {
 				subject_slug: person.person,
 				situation: questionText,
 				takes,
-				model: MODEL,
+				model: TAKES_MODEL,
 				updated_at: new Date().toISOString()
 			},
 			{ onConflict: 'subject_type,subject_slug' }

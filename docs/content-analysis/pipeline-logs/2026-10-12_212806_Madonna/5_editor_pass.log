@@ -1,0 +1,33 @@
+The Madonna draft (`src/blog/people/drafts/Madonna.md`) is revised against the jury synthesis: all eight P0 items and all seven accepted P1 items are fixed. I think it is ready for `/blog_perspective_verify_people`; I have not claimed the gate passes.
+
+## What changed
+
+- **Origin scene:** the 1985 "take control" line is back in the moment she gave it, on the couch with her sick mother crying, before the death. The report-card money ("I made the most money off of every report card") now carries the Type 3 mechanism.
+- **Quotes matched to source:** "prove that I'm *Somebody*" is restored, the Stern quote keeps "I think he was devastated too," and the 2003 statement is quoted verbatim.
+- **The family silence:** it is now stated as her account and names her father. The aging section carries one sentence marking the mother link as the page's reading.
+- **Why not Type 8:** rebuilt on control in her own words, answered with her "all of my will… inadequacy" line. "Every backlash" is replaced by the narrower claim that her two product changes each followed her lowest-selling album to that point.
+- **Why is she still performing:** now gives her own answer ("I need to work, I need to create") beside the Enneagram's, her meaning of the "No," and the earlier tellings of the 1984 story (Leno 2012, VMAs 2018).
+- **Added for the fan:** her 2024 Mother's Day line, "I stood on stage for 81 shows staring up at the beautiful face of my mother."
+- **Cut:** the Malawi paragraph, the vogueing claim pinned on bell hooks, the wardrobe clause, the Dunkin' Donuts row, and Kabbalah dated to the Ritchie marriage. I also cut the Warner-return clause and a few flourishes to pay for the repairs.
+
+## Checks
+
+- **Length:** 4,436 words by `blog-lint.sh`, identical to the count before the pass (ceiling 4,500).
+- **Contrast pairs:** 0 strong, 0 comparative in `blog-quality-report`.
+- **Lint:** 0 fail; no em dashes in prose. The three warnings were there before (no FAQ frontmatter, `published` vs `production_pretext` mismatch, length above the 3,900 band).
+- **Protected hits:** all 12 confirmed present by exact-match search.
+- **Resolution artifact:** `docs/content-analysis/perspective-reviews/Madonna/2026-10-12_212806/editor-resolution.md` passes the resolution gate script.
+- **`lastmod` and `date`:** untouched.
+
+## Research
+
+- **Custody quotes (RQ-01), done:** I second-transcribed the Jay Shetty audio locally. "Abandoned as a child by my own mother" and "like life repeating itself" match the captions word for word, so both stay as quotations.
+- **Other strings checked against their pages:** the People Mother's Day lines, the AP rehearsal caption and the 1985 Time passage.
+- **Still open behind safe defaults:** nobody has viewed the Truth or Dare graveside scene (RQ-02), and the bell hooks essay has not been read in print (RQ-03). The draft no longer depends on either.
+
+## Your call
+
+- **"Good friends with my son":** in the same Shetty passage she says "I'm really good friends with my son" (audio-confirmed). I left it out because the synthesis says to add nothing about Rocco, so the custody paragraph still ends on her sobbing in the dressing room. One clause would add her own ending.
+- **"But it's not enough":** the one optional item worth doing (Rolling Stone 1991, beside "no win stays won") did not fit. It costs about 25 words and needs a matching cut.
+
+I also saved a memory note: time.com archive pages return nothing to plain curl, but `r.jina.ai` returns the full text.

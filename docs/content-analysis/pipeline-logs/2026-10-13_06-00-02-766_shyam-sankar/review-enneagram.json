@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "4e0680b630d4558790dca8d78fc08be5499070962bf26a8947337384f93913fe",
+  "evidence_sha256": "420561ab0fd83763c0c750c32f8d9cba8a915685413daf721f9f20e99f186c6d",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Both times he forecast failure, carried it up to the one person he trusted, and came away steadier.",
+      "problem": "This is the record's \"main discriminator\" against Type 8 (C14, C71), and the draft tells it harder than the sources do. In Colossus (S01) the 2008 call came after the COIC analysts had \"declared the product useful\"; he says \"I was so sleep deprived, I got super fucking grumpy and humorless.\" His gala version (S03) reads \"I called him incredibly grumpy. Humorless from sleep deprivation and I told him...\" The draft cuts those words and files the story under \"What he does when it is going wrong\" and \"his worst early moments.\" The second story is \"freaking out at him\" with an accusation (\"How did you sign us up for this work?\"), told as the setup for Karp's joke. Neither telling says he came away steadier; that is the author's inference. Irritated protest at a boss fits an Eight as well as an alarmed Six. The section also says \"He does not describe taking over\" while omitting Bob McGrew's testimony in the same profile that Sankar led bet-the-company pivots (\"we would put half or two-thirds of the company on some new problem, which is an extremely risky thing ... And that was Shyam's leadership\"), which the evidence record lists under `against`.",
+      "acceptance_test": "The section quotes his own descriptors for the 2008 call (grumpy, sleep deprived) and says the customer had just approved the product. \"worst early moments\", \"when it is going wrong\", \"forecast failure\" and \"came away steadier\" are removed or marked as the author's reading. The FAQ line \"he describes taking alarm to Karp in a crisis\" is brought into line. McGrew's pivot testimony appears as counterevidence. The two anecdotes are offered as consistent with the read, not as the test that settles it, and C71's own limit (sleep deprivation explains the first call) is stated in the article."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "Sankar tells both of his early career decisions the same way. He wanted the risky option, and his father made the call.",
+      "problem": "Only one fork supports this. For Xoom, Stern writes that he \"badly ... wanted to join Xoom,\" and Sankar opens the story with \"Dad had been kind of trying not to be directive of what I should do\" (omitted). The father released him from a duty to earn for his parents, in the direction he already wanted to go. For Palantir, no opened source has the father deciding anything. He narrates his own decision (\"there was no going back ... OK, I'm going to pour my soul into this\"), and \"Once again it was a fork in the road where Dad was right\" credits the father's earlier rule after the fact. The heading \"The two forks his father decided,\" \"told as obedience\" (C64) and \"Someone he trusted told him to take the risk, and he took it\" turn permission and retrospective credit into obedience. The record calls C11 \"the clearest evidence that his boldness runs through loyalty,\" so the overread carries type weight.",
+      "acceptance_test": "The heading and these sentences are rewritten so the Xoom fork is the father's push toward what the son already wanted (with the \"not to be directive\" clause quoted), and the Palantir fork is his own choice that he credits to his father's rule. \"Obedience\" is gone, or kept only as a labelled reading with that limit beside it. The salary FAQ's anchor is updated if the heading changes. C11, C63 and C64 are corrected to match."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "If that were Sankar, twenty years should show at least one of three things. A break with authority after being overruled. Resistance to being anyone's number two. Anger at being managed.",
+      "problem": "The test is aimed at a caricature. Eights are often fierce, loyal lieutenants to a leader they respect, especially one who hands them a domain to run \"almost as a dictator.\" That Eight would show none of the three signs, so their absence does not separate the types. The bullets beneath are not clean either. \"Parole officer,\" with \"I've given him cause—and I've given him cause,\" is an admission of repeated rule-breaking and cuts both ways. Mabrey's line is a third party's guess at motive. The \"weeks of revolt\" reading supplies a Six motive where his own stated reason is that the best idea should win, and Eights respect people who push back (C84's alternative says so). Tenure is already conceded as confounded by money.",
+      "acceptance_test": "The Eight case is tested against a loyal, healthy Eight instead of a rebel. The discriminator is restated as sourced observations that would differ between the two: where he places the right to decide (his father's rule, Karp, \"the job of democracy\"), how he narrates his own power and mistakes (a \"narrow sliver\", \"sheepishly\", \"I'm not sure they're all right\", handing the forward-deployed idea to Karp), and Mabrey's observation that the critique arrives cool (\"not angry at all\"). The \"parole officer\" bullet is dropped or its double edge is stated. Each bullet is marked as behavior or as someone's reading of motive."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "That was to Colossus. The hardest test of it came on Face the Nation, in an interview posted October 11, 2026.",
+      "problem": "Deferring on CBS was the convenient answer for a contractor's executive, as the draft admits two paragraphs later, so it is the easiest test of his deference. A choice discriminates only when it costs something. The section also leaves out the one costly confrontation with an institution in the record. Palantir sued the Army in 2016 and won (S01), and he retells it in the first person in three interviews: \"we sued the army\" (S05, captions), \"not once but twice\" (S06, captions), and \"The advice is to go along and get along ... They are knives out gonna try to kill you, you know, we have to sue the army to compete\" (S08, second-transcribed). The evidence record cites this against deference (C29 alternative, `alternative_case`), yet no claim carries it into the article. The draft's own falsifier is \"accounts of him overriding ... the Army.\" The reader is not told that one exists at company level.",
+      "acceptance_test": "The lawsuits appear in this section with date, outcome and his own framing, and are added to the claim inventory. The article says how they bear on both readings (he frames the suit as holding the Army to a 1994 procurement law, which fits dissent through a legitimate channel; it is also a contractor fighting its customer and winning) and whether his personal role is documented. \"The hardest test\" is reworded. The section says which of its deference examples cost him nothing."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "[Type 1](/enneagram-corner/enneagram-type-1) fits the reform language, but in the Lonsdale interview he places himself with the engineers who get the problem solved, not the ones whose reward is building it the right way.",
+      "problem": "What beats Type 8 in this draft is duty, debt, honesty, criticism as something owed, respect for legitimate process and indignation at corruption. All of that fits Type 1 equally and some fits Type 3, so beating Eight does not establish Six. Type 1 gets one sentence resting on a caption-only paraphrase the record itself calls \"a reading\" (C87); a One's standard is not tidy code. The record's Type 1 material is stronger than the draft shows: \"The Defense Reformation\" and its 18 theses, 10,000-word critiques, \"Fatwas\", \"my commitment to just always being honest\", his answer to Douthat that the rules should be followed, and the only observed anger aimed at corruption (C104's alternative concedes it). \"That is the Six pattern in a single answer\" is attached to an answer about duty and catalyzing \"a reformation,\" which is One vocabulary. The Type 3 dismissal is weakened by the record's note that confessed flaws can be image (C86).",
+      "acceptance_test": "Type 1 gets a real paragraph near the main argument: its best evidence from the record, then a sourced observation that separates it from Six (for example, that he tells his certainty as borrowed from his father and Karp and hedges it, celebrates breaking process, and is described as playful and profane), with what stays unexplained. Type 3 is tested on something a Three would not do (crediting Karp with the forward-deployed idea, \"I thought it probably wouldn't work\"), or the article says it survives. \"The Six pattern in a single answer\" is cut or qualified."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "major",
+      "passage": "One way to hear that is as a Six describing a base that held.",
+      "problem": "The draft promises to take his denial \"at face value\" and then turns it into support. This reading would fit any answer he gave, so it is not evidence (C60's alternative: \"The plain reading is that he was not fearful\"). The quotation is also trimmed against the denial. His answer begins \"As stressful as it all was for Dad and Mom,\" (dropped without a mark) and continues \"It never fazed Dad. He always felt like, 'We survived what happened in Nigeria, we can survive anything.'\" That is the family lesson told as resilience, and it is left out. Earlier, \"Sankar is the second kind\" assigns the bold-Six subtype by assertion before any evidence, which does the work a convenient wing would do. The record lists his \"childlike optimism\" (Stern), \"very enthusiastic and positive\" manner (Hartz) and positive-sum outlook as unexplained for a fear type; the reader is never told. Fear is the type's core claim, and the direct evidence for it is a process server and \"freaking out.\"",
+      "acceptance_test": "The fuller answer is quoted, including \"It never fazed Dad ... we can survive anything.\" The \"base that held\" sentence is cut, or kept with a plain statement that it cannot count as evidence. The article names the behavior it treats as fear in action (for example his threat forecasts: \"undeclared state of emergency,\" \"knives out,\" \"We're going to fail here\") separately from loyalty and gratitude, and lists the sunny disposition as unexplained. \"Sankar is the second kind\" moves after the evidence or is tied to a cited behavior."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "major",
+      "passage": "He told Stern that what he cares about is \"the primacy of winning.\"",
+      "problem": "Context. His words in Colossus are \"'American Greatness' is the thing I care about. It's the primacy of winning, defeating nihilism and cynicism. You can't achieve American Greatness through zero-sum divisiveness. ... There has to be something positive-sum.\" The draft lifts a fragment into the Type 8 case as a personal creed of dominance. The evidence record already says so (C82 alternative: \"He was describing 'American Greatness', not a personal management rule\"). The sentence misstates what a living person said he cares about, and it props up the alternative with a quote that does not say it.",
+      "acceptance_test": "The sentence is removed from the Type 8 list, or quoted with \"American Greatness\" as its subject and the positive-sum clause, somewhere it is not offered as evidence of a taste for dominance. C82 matches the article."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "major",
+      "passage": "And he still describes his place as something he has to earn every day.",
+      "problem": "In the source the earn-your-place line is about the company. He moves from \"I\" to \"in the beginning of Palantir really, like we tried to go through the front door,\" and the sentence runs \"you carry that chip on your shoulder to like earn your place every day and you recognize your product has to be 10 times better than the alternatives\" (S07, second-transcribed). The draft cuts the product clause and restates the line as his present-tense feeling about his own place. That restatement is the hook's link to the Six definition (\"working to keep their place\"). C48's alternative already notes the problem, and C48 is still listed in `for_claim_ids`.",
+      "acceptance_test": "The lead rests the personal claim on the first-person sentences only (\"Constitutionally, I'm going to always feel like an outsider\"; \"the heretic looking in\") and presents \"earn your place\" as his description of Palantir's outsider years, with the product clause restored or the cut acknowledged. \"he still describes his place as something he has to earn every day\" is reworded. C48 leaves `for_claim_ids`, or its limit is carried into the article."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "That is the strongest evidence against a Six reading, and it deserves to be taken at face value before anyone argues with it.",
+      "reason": "Names the best counterevidence to the type in the article's own voice. Keep the sentence; enneagram-06 asks the next paragraph to honor it."
+    },
+    {
+      "passage": "Loyalty and money point the same way here, so the tenure cannot settle the type alone.",
+      "reason": "States the confound on the draft's own strongest fact, using a filing. This is the standard of reasoning the rest of the type argument should meet."
+    },
+    {
+      "passage": "In the same profile, the one moment of his own childhood that he calls frightening is a process server, not the robbery.",
+      "reason": "A precise, sourced detail that avoids inventing a robbery wound for a three-year-old and finds the fear he actually reports."
+    },
+    {
+      "passage": "So his heretic is a loyalist with a sponsor. The rule gets broken for the institution, by someone inside it, with cover from above.",
+      "reason": "The article's most original type insight, built from his own definition of a heretic and the Danhof story instead of from type vocabulary."
+    },
+    {
+      "passage": "The limits are real. Mabrey's line is his reading of Sankar's motive, and everyone describing this style thrived under it. An invitation to curse at the boss is still the boss's game.",
+      "reason": "Separates observed behavior from a witness's reading of motive and names the survivorship problem in the testimony."
+    }
+  ],
+  "assessment": "Type 6 at medium confidence is still the best reading of this record, and the draft deserves credit for typing without a wing or an arrow and for stating its own falsifier. The weakness is the discriminator. I reopened the saved Colossus text, the Hudson excerpts and the second-transcribed segments, and four passages that carry the 6-over-8 case say less than the draft says. The 2008 call was a grumpy, sleep-deprived complaint made after the customer had approved the product. His father decided one fork, not two. \"Earn your place every day\" is about Palantir's product. \"The primacy of winning\" is his gloss on American Greatness. The Type 8 test describes a rebel, so a loyal Eight lieutenant would pass it too, and the deference section leaves out the Army lawsuits he retells in three interviews. Most of what beats Eight (duty, debt, legitimate process, anger at corruption) fits Type 1 equally, and Type 1 gets one sentence. None of this overturns the call. It means the article should make a cumulative, hedged case and hold at medium; nothing here supports raising confidence. Similarity: the diagnostic reports tripped: false (top score 0.058, no shared phrases). Every top pair sits in the four-paragraph Six primer under the type heading and is ordinary type vocabulary. I compared the Type 8 sections of the Mahomes, Burr, Mensch, Bryan and Fielder drafts: Burr and Mensch use the same Eight foil, with no shared argument or evidence, so I raise no reuse finding. Limits: I worked from the research stage's saved source texts and transcriptions, not fresh fetches. Caption-only passages have not been listened to by a person. I did not read the other reviews."
+}

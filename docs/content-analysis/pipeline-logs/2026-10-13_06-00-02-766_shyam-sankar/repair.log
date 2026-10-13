@@ -1,0 +1,31 @@
+The repair stage is done: all three outputs are written and pass the contract's checks, but whether the profile clears the Enneagram floor is still the verifier's call. Nothing outside the run directory was touched and nothing was published.
+
+## What changed
+
+- **"My wife" misattribution (verify-01):** the saved captions confirm the host said it, not Sankar. The marriage FAQ now rests on Lonsdale calling him a "husband and a father" on camera, plus his own references to his children.
+- **Misquote (verify-02):** now "we had to sue the army to compete at some point." Captions and the verifier's second transcription both read "had".
+- **2023 family telling (verify-03):** the false "no earlier telling was found" sentence is gone. The limits section now reports the September 2023 ARK Invest telling, paraphrased, and says what it lacks (the robbery and the ditch-in-Lagos sentence).
+- **Type 6 vs Type 8 (verify-04):** the test now leads with one observation a loyal Eight fits badly, using material already in the record. He says heretics need "protection from the top," calls himself the heretic, and describes Karp as rabbi, guru and parole officer. Type, rival and medium confidence are unchanged, and every stated limit is kept.
+- **Five minor findings (verify-05 to 09):** all fixed — the Hudson trustee wording, "next answer" not "same answer", the Type 8 FAQ drift, the unexplained 2010 lawsuit reference, and the birth-city sentence.
+
+## Checks
+
+| Check | Result |
+| --- | --- |
+| Words | 4,483 (ceiling 4,500) |
+| Contract draft check | no blockers |
+| Evidence validation | passes; 169 claims, 36 sources |
+| Decisions | 61: all 52 review findings carried forward, plus the 9 verifier findings |
+| Protected passages | 17 recorded; the 13 kept ones are still verbatim |
+
+## Things you should know
+
+- **It may still hold.** The record has no costly choice that separates the motives and no testimony from anyone outside his circle. The article says so. If the verifier decides the new observation is not a real discriminator, the honest outcome is a research hold on finding non-ally testimony.
+- **Length is still at the ceiling.** To make room I cut the Karp section's closing recap, Karp's "cup of tea" line, the once-voiced "I'm not sure they're all right" doubt, the "Heretics and Heroes" quotation and the Cornell/Stanford sentence in the body (the education FAQ still has it).
+- **No human has listened to any quotation.** The ARK passage and the son-and-daughter reference rest on auto-captions alone, so both are paraphrased. ark-invest.com returned 403, so no published transcript was read.
+- **One wording change beyond the findings:** the Minab sentence no longer says "the failed step," which was the article's gloss; the quote is now attached to what he actually said it about.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/`:
+- `repair.md`
+- `evidence-repair.json`
+- `resolution-repair.json`

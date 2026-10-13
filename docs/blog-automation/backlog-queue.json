@@ -1,26 +1,11 @@
 {
-	"lastUpdated": "2026-10-12T06:00:00Z",
+	"lastUpdated": "2026-10-13T06:00:00Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "shyam-sankar",
-			"displayName": "Shyam Sankar",
-			"type": null,
-			"priority": 90,
-			"priorityReason": "DJ approved 2026-10-04. Entity-gap DIAMOND 81/100: Palantir CTO with no personal Wikipedia (HTTP 404, no draft); no publisher biography in top ten. Mobilize (2026-03-17) NYT bestseller; coined Forward Deployed Engineering. Seed brief: docs/content-analysis/research/shyam-sankar.md (identity-first meta_title required).",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-10-04",
-			"retryCount": 0,
-			"strategicValue": "entity-gap-frontier-builder-cluster",
-			"entityGapScore": 81,
-			"entityGapPacket": "docs/content-analysis/entity-gaps/Shyam-Sankar.md"
-		},
 		{
 			"name": "dylan-patel",
 			"displayName": "Dylan Patel",
@@ -2020,18 +2005,20 @@
 		}
 	],
 	"inProgress": {
-		"name": "maleah-joi-moon",
-		"displayName": "Maleah Joi Moon",
+		"name": "shyam-sankar",
+		"displayName": "Shyam Sankar",
 		"type": null,
-		"priority": 91,
-		"priorityReason": "A Different World sequel (Netflix Sept 24, No. 1, reported renewed); Wikipedia 149/day Jun -> 17.7K/day last 7 and still climbing; Tony + Grammy winner at 24.",
-		"estimatedTraffic": "high",
+		"priority": 90,
+		"priorityReason": "DJ approved 2026-10-04. Entity-gap DIAMOND 81/100: Palantir CTO with no personal Wikipedia (HTTP 404, no draft); no publisher biography in top ten. Mobilize (2026-03-17) NYT bestseller; coined Forward Deployed Engineering. Seed brief: docs/content-analysis/research/shyam-sankar.md (identity-first meta_title required).",
+		"estimatedTraffic": "medium",
 		"searchVolume": "medium",
 		"personaTitle": null,
 		"addedToQueue": "2026-10-04",
 		"retryCount": 0,
-		"strategicValue": "netflix-fall-breakout-cluster",
-		"startedAt": "2026-10-12T06:00:00Z"
+		"strategicValue": "entity-gap-frontier-builder-cluster",
+		"entityGapScore": 81,
+		"entityGapPacket": "docs/content-analysis/entity-gaps/Shyam-Sankar.md",
+		"startedAt": "2026-10-13T06:00:00Z"
 	},
 	"skipped": [
 		{
@@ -2508,6 +2495,39 @@
 				"editorial_status": "needs_revision",
 				"blockers": ["overall_below_8.5:8.3"],
 				"run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-10_06-00-04-931_codie-sanchez"
+			}
+		},
+		{
+			"name": "maleah-joi-moon",
+			"displayName": "Maleah Joi Moon",
+			"type": null,
+			"priority": 91,
+			"priorityReason": "A Different World sequel (Netflix Sept 24, No. 1, reported renewed); Wikipedia 149/day Jun -> 17.7K/day last 7 and still climbing; Tony + Grammy winner at 24.",
+			"estimatedTraffic": "high",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-10-04",
+			"retryCount": 0,
+			"strategicValue": "netflix-fall-breakout-cluster",
+			"startedAt": "2026-10-12T06:00:00Z",
+			"heldAt": "2026-10-13T06:00:00Z",
+			"needsReview": true,
+			"pipelineResult": {
+				"subject": "maleah-joi-moon",
+				"run_status": "held",
+				"editorial_status": "needs_revision",
+				"blockers": [
+					"review_scope_changed:major_thesis_change:run --refresh --expanded-review",
+					"verification:revise",
+					"verification:coverage_complete",
+					"unresolved:verify-01:The editor introduced a new risk after the frozen review and says so (risks.major_thesis_change is true). The argument on the page is not the one the six roles read: a recovery-from-illness explanation now outranks the type reads, Type 3 was promoted to live, the Six-over-Four ranking was re-argued to 'nearly level', all five settle signals were rewritten, and her self-disclosed depression and treatment are printed for the first time, including a reference in the type answer and type FAQ. No reviewer has seen any of it. The critic's blocker (critic-01) also required a hold if the open questions changed, and they did.",
+					"unresolved:verify-02:Wrong date. Playbill's February 14, 2025 announcement ('will depart the production March 30'), Playbill's March 30, 2025 report ('says goodbye ... March 30 as she plays her final performance as Ali'), BroadwayWorld ('Sunday, March 30') and TheaterMania all date her final performance to March 30, 2025. The article takes March 27 from Out's 2026 feature, states it as fact here, and builds 'one day short of a year after that first preview' on it in the settle section. Her own SiriusXM account ('I was leaving that Monday ... She called me on Sunday') fits a Sunday final show, and the evidence note on C71 already records that mismatch. C35, C60, C71 and C121 are marked stable with no trigger, and this sentence has no claim of its own.",
+					"unverified_claim:C121",
+					"unresolved_review:fan-07",
+					"unresolved_review:critic-01",
+					"unresolved_review:unfamiliar-01"
+				],
+				"run_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-12_06-00-04-763_maleah-joi-moon"
 			}
 		}
 	]

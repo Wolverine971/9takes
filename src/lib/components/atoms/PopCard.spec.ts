@@ -44,6 +44,20 @@ describe('PopCard', () => {
 		expect(card(container).getAttribute('tabindex')).toBeNull();
 	});
 
+	it('steps the title size down as the title gets longer', async () => {
+		const sizeClasses = (displayText: string) => {
+			const { container } = render(PopCard, { ...base, displayText });
+			const title = container.querySelector('.image-card__title') as HTMLElement;
+			return [...title.classList].filter((name) => name.startsWith('image-card__title--'));
+		};
+
+		expect(sizeClasses('Test Person')).toEqual([]);
+		expect(sizeClasses('Personal Growth by Type')).toEqual(['image-card__title--medium']);
+		expect(sizeClasses('Mental Health Red Flags for Each Type')).toEqual([
+			'image-card__title--long'
+		]);
+	});
+
 	it('leaves keyboard control to the link when it sits inside one', async () => {
 		const link = document.createElement('a');
 		link.href = '/enneagram-corner/enneagram-type-4';

@@ -1,0 +1,1530 @@
+{
+  "schema_version": 3,
+  "content_sha256": "44174761491472073987a23a0f63f82cf65ba69d09efde1bd26653a96fe7b790",
+  "evidence_sha256": "3d801f6a64b9762e2fc0454629b86a616dd61d19a3f8d777b548fea58460d50f",
+  "status": "revise",
+  "findings": [
+    {
+      "id": "verify-r01",
+      "severity": "major",
+      "passage": "That reading strains to explain a man who builds a protector into his rule for heretics, puts himself on the protected side, and tells being reined in as something he had coming.",
+      "problem": "The repaired 6-versus-8 test rests on 'which way the cover runs' and the premise 'An Eight gives cover and asks for none.' In the sources the article already uses, the cover runs both ways in his own account, and the reader is shown one. (1) Lonsdale interview, 27:28 to 27:46: the rule answers Lonsdale's question about why bureaucracies keep trying to kill heretics. He begins 'that question you just asked is why I wrote the book. We have to remember that we need the heretics', so it is what he says institutions owe them, and Lonsdale takes it that way ('every company needs to do this for their most talented people ... your job as a leader is to keep them'). He does not say there that he needed protection. (2) Face the Nation, 18:04 to 18:21, in the same answer the article paraphrases as Army human resourcing: 'how do we identify who these exceptional people are? How do we protect them?' That is Sankar on the giving side. (3) Hudson transcript, Karp's reply at the same dinner: 'maybe I've saved Shyam and others many, many times—but Shyam saved me after COVID', followed by Sankar arriving in New Hampshire to tell him 'This isn't cutting it. You got to get back.' (4) a16z interview, 16:29 to 17:25: he credits the general 'who protected' John Boyd. The evidence record lists this reading as an alternative (C193: 'He may be speaking as a leader who gives protection, not as someone who needs it'; C194: 'a manager's advice to other managers'), but the prose leaves it out and instead uses the rule as the one element the dinner cannot explain. 'Puts himself on the protected side' is an inference from his calling himself a heretic forty seconds later, written as description. The type FAQ and the Type 8 FAQ ('Type 6 leads on one main ground') repeat it. What survives the check is narrower: he describes leaning on a guide ('confidant', 'guru'), tells his father and Karp as right, and tells being corrected as deserved.",
+      "acceptance_test": "The Type 8 section says in plain words that the rule was given as what institutions and leaders owe their heretics, and that he also describes giving cover himself (the CBS 'How do we protect them?' line, quoted or paraphrased), with Karp's 'Shyam saved me' set beside 'rabbi' and 'guru'. 'Puts himself on the protected side' is cut or marked as this page's inference. 'One thing on record is hard to fit to a loyal Eight' and the FAQ's 'Type 6 leads on one main ground' are scaled to what the sources carry, or the section returns to saying the observations lean Six and none settles it. Both FAQs match the body. C150, C193, C194, C198, C199, C200 and type_hypothesis.discriminator record the S12 and S04 passages. The body stays within 4,500 words."
+    },
+    {
+      "id": "verify-r02",
+      "severity": "blocker",
+      "passage": "The useful question is what differs between a loyal Eight and a bold Six. One thing on record is hard to fit to a loyal Eight: which way the cover runs.",
+      "problem": "The argument that now decides the type call was written at the repair stage, after the six reviews froze. The reviewers saw a three-sign test; the edit replaced it with four observations and 'none of them settles it'; the repair replaced that with the cover argument, the premise 'An Eight gives cover and asks for none' and the FAQ claim that Type 6 'leads on one main ground'. No independent role has tested any of it, and the first source check found it overstated (verify-r01). The standard holds a substantive change to the type argument after the frozen review for a refreshed expanded review.",
+      "acceptance_test": "After verify-r01 is resolved, the run is refreshed with the expanded review (--refresh --expanded-review) so that the enneagram and critic roles, at minimum, see the final wording of the Type 8 test and both type FAQs, and their findings on it are adjudicated and verified before release. Type 6, rival Type 8 and medium confidence are unchanged, or any change is recorded as a thesis change."
+    },
+    {
+      "id": "verify-r03",
+      "severity": "minor",
+      "passage": "we had to sue the army to compete at some point.",
+      "problem": "One word inside the quotation marks is unresolved. The caption track reads 'had'. Eight Whisper passes on the saved audio for this verification split: medium.en gives 'had' on two tight cuts and 'have' on a 30-second cut; large-v3-turbo and small.en give 'have' on both cuts. The repair changed 'have' to 'had' on the strength of one earlier pass. A second, smaller case is the opening question: captions read 'do you still feel like an outsider or are you an insider now cuz you're [garbled] and Palantir is winning', medium.en reads 'because you're Lieutenant Colonel', and the article prints 'Cause you're a Lieutenant Colonel'. Meaning is unaffected in both.",
+      "acceptance_test": "A person listens to Invest Like the Best at 09:30 and American Optimist at 28:14 to 28:20 and the quotations follow what is heard, or each quotation is trimmed to the words every transcription shares (for example: he said Palantir had to 'sue the army to compete at some point')."
+    },
+    {
+      "id": "verify-r04",
+      "severity": "minor",
+      "passage": "Ted Mabrey, a Palantir executive, got a Shyam Bomb written while the two of them sat together in an airport",
+      "problem": "The repair cut the clause that tied Mabrey to the Colossus profile, so the one third-party reading in the Six case now has no stated venue, date or link in its bullet. The bullet above it quotes 'undeclared state of emergency' four sections before the article says where he said it. The unfamiliar-03 test asked that each quotation in this section say where it was said.",
+      "acceptance_test": "The Mabrey bullet says he was speaking to Stern for the Colossus profile (February 2026), and the emergency phrase carries its source at first use (his October 31, 2024 post or the March 10, 2026 interview)."
+    },
+    {
+      "id": "verify-r05",
+      "severity": "minor",
+      "passage": "Then came the night he has described in interviews since December 2024.",
+      "problem": "The December 2024 transcript has one sentence on it ('My parents almost lost their lives to an armed robbery'). The account with the five men, the dog and the open kitchen is first found in the Shawn Ryan interview of April 10, 2025. The record's C196 says this; this sentence and C05 ('the same core details on at least six occasions between December 2024 and May 2026') do not.",
+      "acceptance_test": "The sentence says he has mentioned the robbery since December 2024 and told it in detail since April 2025 (or gives one accurate span), and C05 agrees with C196."
+    }
+  ],
+  "research_tasks": [
+    "Find first-hand accounts of Sankar from people who are not allies: former Palantir employees who clashed with him or left over his management, Army G1 and Detachment 201 counterparts, program officials on the other side of the 2016 lawsuit, anyone from i2. Ask the question that separates the types: when challenged or overruled, does he look for sanction and cover from above and check his read with others, or does he override, take control and punish dissent? Searches on 2026-10-13 found only general criticism of Palantir's leadership (Revolving Door Project; a June 5, 2025 Hard Reset post) and no first-hand account of him.",
+    "Look for a documented costly choice: what staying at Palantir from 2006 to the 2020 listing cost him (offers declined, pay against alternatives), his own part in the 2016 decision to sue the Army, and any occasion on which he acted against Karp's or the Army's wishes. Without one, the Six motive is not separated from pay and position.",
+    "Enter the passages this verification found unused into the evidence record and test them against both readings: Face the Nation 18:04 to 18:21 ('how do we identify who these exceptional people are? How do we protect them?'); Karp at the Hudson dinner ('maybe I've saved Shyam and others many, many times—but Shyam saved me after COVID', and the New Hampshire visit); a16z 16:29 to 17:25 (the general 'who protected' Boyd); Invest Like the Best 01:15:10 to 01:15:40 ('someone who's not a gatekeeper ... trying to find the insurgents and empower them'); and Colossus on benefactors ('All of us have this conspiracy of people who help us along the way'; 'But for the grace of Ethel Danhof ... it was like divine intervention'). The last pair repeats his father's formula about a person and may support a sturdier discriminator than the heretic rule.",
+    "Read the chapter of Mobilize that states the heretic rule and record whether he applies it to himself and to Karp anywhere in print.",
+    "A person should listen to: Invest Like the Best at 09:30 (had or have) and 20:10; American Optimist at 05:23, 27:28 to 27:46 and 28:14 to 28:30; ARK Invest at 01:57; Shawn Ryan Show #288 at 01:31:08. All other caption-derived quotations were confirmed by two machine transcriptions and none by ear.",
+    "Obtain Sankar's answer (docket entry 73) and Palantir's answer and counterclaim (entry 72) through PACER before any release that keeps the i2 passage.",
+    "Before any release that mentions the Minab strike, reread the Bloomberg investigation on bloomberg.com (it was read through a reader on 2026-10-13) and check again whether the Pentagon review has been published; officials told Bloomberg it was nearly complete.",
+    "Prefer published transcripts to captions where they exist: The New York Times (Interesting Times, October 30, 2025), Colossus (Invest Like the Best, March 10, 2026) and CBS News (Face the Nation, October 11, 2026)."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Proxy (read through r.jina.ai; sec.gov returned 403 to curl) lists 'Shyam Sankar 44 Chief Technology Officer and Executive Vice President' and says he 'has served in various positions with us since 2006'. CBS opens 'the chief technology officer of Palantir, Shyam Sankar' (live en-orig caption track re-downloaded 2026-10-13, 00:00). House biography gives the same title."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Proxy executive-officer table: age 44 'as of April 6, 2026'. Captions: 'at 43' (S06, 29:37), 'at 44' (S09 19:49; S07 06:10; S12 18:55). No opened source gives a birth date."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "Proxy: 'B.S. in Electrical and Computer Engineering from Cornell University and a M.S. in Management Science & Engineering from Stanford University'; House biography agrees. Colossus has St. John Vianney and Trinity 'on a full ride'."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "Self-report confirmed in S05 captions (05:46 to 07:10: father 'born in a single room mud hut in the south of India', went to Nigeria at 23; 'my first three or so years of my life I was in Nigeria') and Colossus (parents' names, Lagos). Stated in the article as his account."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "qualified",
+      "reason": "Details confirmed in S05 (live en-orig caption track re-downloaded 2026-10-13 and my own Whisper medium.en pass on the saved audio, 07:10 to 08:00: 'one of the five armed robbers ... was a regular at my mom ran an open kitchen', pistol-whipped, threatened to execute, decapitated the dog) and in Colossus, which dates it to 1984. Qualified on dating only: the December 2024 transcript (S10) has one sentence, 'My parents almost lost their lives to an armed robbery'; the detailed account is first found in April 2025, so 'the night he has described in interviews since December 2024' and 'the same core details ... between December 2024 and May 2026' overstate the earliest telling (verify-r05)."
+    },
+    {
+      "claim_id": "C06",
+      "verdict": "supported",
+      "reason": "Colossus: Orlando in 1985, dry cleaners and dollar store 'Both went bankrupt', process server, 'It was profoundly humiliating and terrifying.' Exact match."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "Colossus prints the sentence as quoted. Variants confirmed: S10 transcript ('but for the grace of this nation, he'd be dead in the ditch in Lagos'), S06 captions 29:28, C-SPAN text ('you'd be dead in a ditch in lagos'). The 2023 gratitude frame is in S15."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Colossus, exact, including 'The opposite,' the question ('ashamed or fearful') and 'It never fazed Dad ... we can survive anything.'"
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Colossus, exact; Danhof was head of admissions, test given 'even though admissions were closed', 'on a full ride'. He retells it in S08 at 01:25:30."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "Colossus, exact: 'It was like, 'Why can't I have all this? Why not me?''"
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "Colossus, exact, with 'Dad had been kind of trying not to be directive' and Stern's 'As badly as he wanted to join Xoom ... being able to help his parents'. Only this fork has the father ruling."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "supported",
+      "reason": "Colossus: 'In March 2006, at the age of 24, he became the company's 13th employee'; House biography 'employee #13'; Lonsdale on camera 'you were the 13th employee' (S07, 06:23) and 'I remember recruiting you'."
+    },
+    {
+      "claim_id": "C13",
+      "verdict": "supported",
+      "reason": "Colossus has early colleagues crediting him; Lonsdale on camera: 'I think you coined the term ... you kind of like branded and structured and like created the whole thing' (S07 captions). House biography says he 'envisaged the role'."
+    },
+    {
+      "claim_id": "C14",
+      "verdict": "supported",
+      "reason": "Hudson Institute event transcript re-fetched 2026-10-13 (HTTP 200): '2008 ... team of 10 ... 14 days straight, 19-hour days ... incredibly grumpy. Humorless from sleep deprivation and I told him, \"This is not going to work. It's unsustainable. We're going to fail here.\"' Colossus places it after 'the COIC analysts, improbably, declared the product useful'."
+    },
+    {
+      "claim_id": "C16",
+      "verdict": "supported",
+      "reason": "Colossus, exact for 'Shyam Bombs', 'Fatwas', the intern ritual and Mabrey's Toronto-airport account. The claim holds; the article's bullet no longer says where Mabrey said it (verify-r04)."
+    },
+    {
+      "claim_id": "C18",
+      "verdict": "supported",
+      "reason": "Hudson Institute event transcript re-fetched 2026-10-13 (HTTP 200), exact including both em dashes; preceded by 'Next to my late father, no person has a greater impact on my life than Alex.'"
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "Proxy (April 2026) and CBS (October 11, 2026) still give him as Palantir's CTO. Colossus: 'He'd started a movie studio'; he says 'I started a production company' himself (S14, 44:13). House biography: First Breakfast 2023, Chairman of Ginkgo Bioworks."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "my own Whisper medium.en pass on the saved audio (S08, 20:00 to 21:05): 'I sheepishly went into Alex and was just completely honest ... my commitment to just always being honest ... he valued the fact that I wouldn't try to hide it.' The caption track garbles the clause ('went and did Alex'); my pass gives the article's wording."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (28:23) and my own Whisper medium.en pass on the saved audio: 'Constitutionally, I'm going to always feel like an outsider.' One repeated 'I'm' is dropped."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "army.mil text (read through r.jina.ai; army.mil returned 403 to curl): four Lt. Cols. sworn in June 13, 2025, naming Sankar, Bosworth, Weil and McGrew. Brennan addresses him as a lieutenant colonel in the Army Reserves (S12, 17:25)."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 and my own Whisper medium.en pass on the saved audio (S07, 05:30): 'In part to honor dad's sacrifice. Like this country has given us more than we deserve to have ... this is the example I want to set for my children.' Service-academy line in S12 at 18:45."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "Military.com, exact for the no-recusal sentence, Steve Warren's 'They're not making acquisition decisions, they're not senior decision-makers', and the Army Emergency Relief pledge. His CBS answer confirmed by ear-check. S25 is a general critical dossier and does not mention the commission; the claim does not need it."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (S08, 01:17:43) and my own Whisper medium.en pass on the saved audio, exact. 'undeclared state of emergency' is also the opening line of his October 31, 2024 post."
+    },
+    {
+      "claim_id": "C27",
+      "verdict": "supported",
+      "reason": "First Breakfast 'Mobilization Day', by Shyam Sankar and Madeline Hart, dated Mar 17, 2026: 'Today is the release date of our book Mobilize: How to Reboot the American Industrial Base and Stop World War III.'"
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "supported",
+      "reason": "Colossus, exact, including Stern's framing sentence and the follow-on 'always been able to push back against that'."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "supported",
+      "reason": "Colossus, exact; the two preceding questions are about ICE's detention population and whether the tools should exist. CBS lines confirmed in captions and by ear-check."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "S06 captions at 33:44: 'assimilation is important like we came here legally ... immigration has made this country strong but legal immigration'. Paraphrased in the article, correctly."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (15:10 to 15:40) and my own Whisper medium.en pass on the saved audio, exact: 'Well, we should wait for the final report, but what I can say is that reporting's inaccurate ... the likely cause is human error.'"
+    },
+    {
+      "claim_id": "C33",
+      "verdict": "supported",
+      "reason": "Complaint PDF re-downloaded and read: 'Within a month after his start date with Palantir, Shyam Sankar contacted i2 ... purporting to act on behalf of an entity based in Florida which Shyam Sankar identified as SRS Enterprises.' Quoted as allegation. Docket confirms parties and dates."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (S07, 05:23): 'you're a husband and a father'; my own Whisper medium.en pass on the saved audio hears 'your husband and a father'. The only 'my wife' in the record (S14, 45:23) follows 'That's right. Yeah, I agree with you so strongly on that' and is the host's; confirmed in captions and my own pass."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "Proxy tables: salary 509,419, total 1,209,250, security about $418,296; option exercises 131,851,838 and vesting 210,585,000 in 2025; 7,500,000 options and 7,500,000 RSUs granted August 6, 2020."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "Colossus, exact: 'My code was never the cleanest; some people can just bang out code like poetry. I was more like brute-forcing my way through it.' Said of a high-school internship."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "qualified",
+      "reason": "The medium-confidence read and its rivals are stated honestly in most of the article, and the sourced elements check out (father and Karp told as right, forecasts of failure, Mabrey's reading). Qualified because the one ground the article now says carries Six over Eight, the direction of cover, is told one way while the same sources show it running both ways (verify-r01), and 'the final say keeps going to ... his father' rests on the Xoom story alone."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "qualified",
+      "reason": "'Loyalist with a sponsor' is labelled as a reading of his conduct and is grounded in his own October 31, 2024 sentence and the Danhof story, both verified. Qualified because 'with cover from above' leans on the same toast and rule as the Type 8 test, and the record also has him giving cover (S12 18:13) and Karp saying 'Shyam saved me' (S04)."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "qualified",
+      "reason": "Substance confirmed. Function words differ between transcriptions: captions read 'do you still feel like an outsider or are you an insider now cuz you're [garbled] and Palantir is winning'; my own Whisper medium.en pass on the saved audio reads 'Are you an insider now because you're Lieutenant Colonel and Palantir is winning?'; the article prints 'Cause you're a Lieutenant Colonel'. No human listen (verify-r03)."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "Lonsdale on camera: 'I remember recruiting you' (S07, 06:34). Colossus dates the hiring to March 2006."
+    },
+    {
+      "claim_id": "C47",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (28:24 to 28:30) and my own Whisper medium.en pass on the saved audio: 'I always feel like I'm the heretic looking in. Now, maybe I relish that role a little bit, which is why it appeals to me.' Disfluencies dropped."
+    },
+    {
+      "claim_id": "C49",
+      "verdict": "supported",
+      "reason": "S07 captions 28:00 to 28:16: Lonsdale says 'we were just like beaten by the bureaucracy forever as these outsiders' immediately before the question."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "Colossus, exact: 'As the story's been retold to me, I was just excited that there was company in the house in the middle of the night.'"
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "No opened source cites an independent record; Colossus, S05 and S06 all rest on his retelling. Stated with a trigger."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "S05 captions 05:58 to 06:50: 'born in a single room mud hut in the south of India', pharmacist, went to Nigeria at 23 'to build the first pharmaceutical manufacturing facility in all of Africa'."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "Colossus: 'Late one night in 1984, in Lagos, Nigeria, five armed men broke into the Sankar home.'"
+    },
+    {
+      "claim_id": "C55",
+      "verdict": "supported",
+      "reason": "Colossus: 'He started a dry cleaners, and then a dollar store. Both went bankrupt.'"
+    },
+    {
+      "claim_id": "C57",
+      "verdict": "supported",
+      "reason": "Confirmed in the S10 transcript (Dec 18, 2024), S06 captions (posted October 30, 2025) and the C-SPAN text (aired April 25, 2026)."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "Marked in the article as 'this page's inference', resting on 'more than we deserve to have' (S07) and 'finding some opportunity to give back' (S10), both verified."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "Colossus: 'we came home from school one night and someone was parked outside to serve him process papers'."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "Interpretation, stated as a limit: the article says the answer 'fits either way' and 'is not evidence'."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "Colossus: 'By graduation day in Palo Alto, he had two offers: one from Boston Consulting Group, and the other from Xoom ... meant being able to help his parents'. His own 2025 timeline differs (S05: 'within two months of being at Stanford, I had a full-time job as the fifth employee'), and the article says so."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "Colossus, exact; 'it had been around for three years and had 12 employees'."
+    },
+    {
+      "claim_id": "C63",
+      "verdict": "supported",
+      "reason": "Colossus, exact. No opened source has his father advising on Palantir."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Interpretation limited to what the two quotations show."
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "supported",
+      "reason": "Hudson Institute event transcript re-fetched 2026-10-13 (HTTP 200), exact. Karp is replying to Sankar's introduction."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "supported",
+      "reason": "Colossus: 'When Shan Sankar died in February 2021'. S05 captions 09:43: 'He passed away in 21.'"
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "Interpretation resting on the verified proxy figures."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "Hudson Institute event transcript re-fetched 2026-10-13 (HTTP 200): 'in 2008, our first Department of War deployment, I was leading a team of 10 people ... 14 days straight, 19-hour days'."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "Hudson Institute event transcript re-fetched 2026-10-13 (HTTP 200), exact for all three fragments; his stated reason for the long laugh ('in my humorless mood') is not misattributed."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "Interpretation scaled to a narration pattern; the article says the story 'shows less than it first seems to'."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "Colossus, exact; the source sentence continues after 'in the middle of the night'."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "supported",
+      "reason": "Colossus: '\"Fatwas\" were new Shyam-issued rules or ideas followed by an invitation to argue ... prompting junior hires to tell him, with his face inches away, to go fuck himself.'"
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "Colossus, exact; the sentence continues 'which is what made the FDE structure actually scalable'."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 and my own Whisper medium.en pass on the saved audio (S08, 20:54): 'the intersection of forward deployed engineering and product ... Like owning that almost as a dictator, that's my superpower.' Also S07 12:29 and S08 31:57. The article quotes the single word."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (S08, 09:26) and three Whisper models agree: 'I'm going to piss off literally everyone along the way.'"
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "Interpretation: a falsifier, protected by two reviewers and carried with a trigger."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "Interpretation; the evidence it cites (crediting Karp, the tombstone and 'Why not me?' lines) is verified, and Type 3 is left live."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "supported",
+      "reason": "S10 transcript: 'The series is called Heretics and Heroes, and the heretic coming first is very intentional.'"
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (27:28 to 27:46) and my own Whisper medium.en pass on the saved audio: the sacrifice remark ends, Lonsdale asks a follow-up, and the reply gives 'the space for their heresy to exist, and a little bit, a modicum of protection from the top'. 'Next answer' is right."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "Colossus: test given 'even though admissions were closed'; 'could enroll that fall on a full ride'."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "supported",
+      "reason": "Brennan's question confirmed in captions and by ear-check; the date and 'Shajarah Tayyebeh Elementary School' come from the Bloomberg text."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 and my own Whisper medium.en pass on the saved audio: 'the likely cause is human error'."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (17:15) and my own Whisper medium.en pass on the saved audio, exact, with the question that drew it."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "Bloomberg (September 18, 2026): 'Full details from the probe remain tightly held.' A web search on 2026-10-13 found reporting about the unreleased review and no report of its release."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "Bloomberg text read through r.jina.ai (bloomberg.com returned 403): 'flawed intelligence, outdated imagery and an overreliance on AI'; 'some personnel relied too much on the artificial intelligence embedded in Maven Smart System, the officials said'. Gizmodo relays the same."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "Interpretation; the article states the incentive for all three deferrals and the counter-pattern."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (18:33) and my own Whisper medium.en pass on the saved audio: 'Well, it's carefully managed by the lawyers in the department. We're only allowed to work on projects where we don't have conflicts.'"
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "supported",
+      "reason": "First Breakfast 'Reformation Day' is dated Oct 31, 2024 and launches 'The Defense Reformation'; the 2012 TED talk and the September 2024 House biography show an earlier profile."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "Interpretation stated with its incentive beside it."
+    },
+    {
+      "claim_id": "C104",
+      "verdict": "supported",
+      "reason": "Reading limited to the targets Colossus shows: the 'sand in the gears' argument and systems that do not work."
+    },
+    {
+      "claim_id": "C105",
+      "verdict": "supported",
+      "reason": "Every person the article quotes about him is a colleague, co-founder, former employer or the allied profile writer; no customer is actually named on the page. A search on 2026-10-13 found no first-hand account of him from a non-ally."
+    },
+    {
+      "claim_id": "C106",
+      "verdict": "supported",
+      "reason": "Docket entry 1: 'COMPLAINT against Palantir Technologies, Inc., SRS Enterprises, LLC, Nochur Sankar, Shyam Sankar, Asher Sinensky'. Complaint paragraph 17: 'Nochur Sankar is the father of Shyam Sankar and Ravi Sankar.'"
+    },
+    {
+      "claim_id": "C108",
+      "verdict": "supported",
+      "reason": "Docket: 'Date Terminated: Feb. 10, 2011'. VentureBeat (Wayback capture 20110225160649, re-fetched): both sides 'declined to comment ... citing an agreement in the settlement not to discuss the case further'."
+    },
+    {
+      "claim_id": "C109",
+      "verdict": "supported",
+      "reason": "Colossus prints 'Nochur \"Shan\" Sankar' and 'Girija'."
+    },
+    {
+      "claim_id": "C110",
+      "verdict": "supported",
+      "reason": "Colossus, exact."
+    },
+    {
+      "claim_id": "C111",
+      "verdict": "supported",
+      "reason": "Colossus: St. John Vianney, then Trinity on a full ride; stated as his account."
+    },
+    {
+      "claim_id": "C112",
+      "verdict": "supported",
+      "reason": "Proxy Summary Compensation Table: 2025 salary 509,419, total 1,209,250."
+    },
+    {
+      "claim_id": "C113",
+      "verdict": "supported",
+      "reason": "Colossus, S05, S06 and S10 give no birth city (Colossus says only that his mother was from Bombay). The unsourced newsletter (S29) says Mumbai; the page neither relies on it nor repeats it."
+    },
+    {
+      "claim_id": "C114",
+      "verdict": "supported",
+      "reason": "March 2006 to October 2026 is twenty years at one company; proxy and CBS confirm he is still there."
+    },
+    {
+      "claim_id": "C115",
+      "verdict": "supported",
+      "reason": "Title joins his own word (verified) to his tenure (verified); carried with the full trigger set."
+    },
+    {
+      "claim_id": "C118",
+      "verdict": "supported",
+      "reason": "Colossus, exact."
+    },
+    {
+      "claim_id": "C119",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 and my own Whisper medium.en pass on the saved audio: after the two first-person sentences he turns to 'in the beginning of Palantir' and 'your product has to be 10 times better than the alternatives'."
+    },
+    {
+      "claim_id": "C120",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (28:14 to 28:17) and my own Whisper medium.en pass on the saved audio: 'do you still feel like an outsider' precedes 'are you an insider now'. The embedded clip (28:10 to 29:05) contains the question."
+    },
+    {
+      "claim_id": "C121",
+      "verdict": "supported",
+      "reason": "Start date from Colossus and the House biography; commission from the Army announcement; interview upload date 2026-05-08 from the video metadata."
+    },
+    {
+      "claim_id": "C122",
+      "verdict": "supported",
+      "reason": "Hudson Institute event transcript re-fetched 2026-10-13 (HTTP 200): 'this was his inspiration for creating the conception of forward deployed engineering.' S07 captions 10:05: 'it really started with Karp's intuition.'"
+    },
+    {
+      "claim_id": "C123",
+      "verdict": "supported",
+      "reason": "army.mil: 'recruit senior tech executives to serve part-time in the Army Reserve as senior advisors'; four sworn in June 13, 2025."
+    },
+    {
+      "claim_id": "C124",
+      "verdict": "supported",
+      "reason": "Colossus, exact: 'He was just this perfect boy scout ... very enthusiastic and positive'. Hartz is describing the young Xoom hire; Stern later writes that he 'slipped off the chain of a boy scout personality'. The article's 'remembered' keeps it in the past."
+    },
+    {
+      "claim_id": "C125",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (S05, 07:21) and my own Whisper medium.en pass on the saved audio: 'it was a little bit of an inside job of people who worked there'."
+    },
+    {
+      "claim_id": "C126",
+      "verdict": "supported",
+      "reason": "S10 transcript, exact."
+    },
+    {
+      "claim_id": "C127",
+      "verdict": "supported",
+      "reason": "Colossus: 'returned to India to figure out what to do ... a call one day from a childhood friend'; 'arrived in Orlando in 1985'. He tells the friend's offer himself in S05 at 08:10."
+    },
+    {
+      "claim_id": "C128",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (S05, 09:15) and my own Whisper medium.en pass on the saved audio: 'it was also really a privilege to grow up in the shadow of the Space Coast'. Also S14 at 01:56."
+    },
+    {
+      "claim_id": "C129",
+      "verdict": "supported",
+      "reason": "Interpretation that follows from the Colossus route."
+    },
+    {
+      "claim_id": "C130",
+      "verdict": "supported",
+      "reason": "Colossus, exact."
+    },
+    {
+      "claim_id": "C131",
+      "verdict": "supported",
+      "reason": "Interpretation that gives the face-value reading before any counter-reading."
+    },
+    {
+      "claim_id": "C132",
+      "verdict": "supported",
+      "reason": "S10 transcript, exact: 'I was a college student during 9/11. I tried to drop out and join CIA'."
+    },
+    {
+      "claim_id": "C133",
+      "verdict": "supported",
+      "reason": "Colossus: 'a stopout to build a company that would provide finance, accounting, and IT services for small companies (it failed)'. S05 10:20: 'dropped out of Cornell for a hot minute there to build a company'."
+    },
+    {
+      "claim_id": "C134",
+      "verdict": "supported",
+      "reason": "Colossus, exact."
+    },
+    {
+      "claim_id": "C135",
+      "verdict": "supported",
+      "reason": "Interpretation supported by Stern's 'As badly as he wanted to join Xoom ... a wrenching decision'."
+    },
+    {
+      "claim_id": "C136",
+      "verdict": "supported",
+      "reason": "Colossus: 'Nearly two years had gone by at Xoom ... he felt he wasn't learning enough'; a friend's college roommate was starting the company. Lonsdale: 'our friend Gabe ... introduced us' (S07)."
+    },
+    {
+      "claim_id": "C137",
+      "verdict": "supported",
+      "reason": "Colossus, exact."
+    },
+    {
+      "claim_id": "C138",
+      "verdict": "supported",
+      "reason": "No opened source has his father advising on Palantir; Karp's 'you may never leave Palantir' is about staying."
+    },
+    {
+      "claim_id": "C139",
+      "verdict": "supported",
+      "reason": "Hudson event page: 'New York November 11, 2025'; Sankar's introduction and Karp's reply are both in the transcript."
+    },
+    {
+      "claim_id": "C140",
+      "verdict": "supported",
+      "reason": "Colossus: 'He'd started a movie studio.' He says the same in S14 (44:13)."
+    },
+    {
+      "claim_id": "C141",
+      "verdict": "supported",
+      "reason": "House biography: 'In 2023, he launched the First Breakfast initiative'; 'serves as the Chairman of Ginkgo Bioworks'. Tracked as time-sensitive."
+    },
+    {
+      "claim_id": "C142",
+      "verdict": "supported",
+      "reason": "Hudson Institute event transcript re-fetched 2026-10-13 (HTTP 200), exact."
+    },
+    {
+      "claim_id": "C143",
+      "verdict": "supported",
+      "reason": "Colossus: 'At the end of the two weeks, the COIC analysts, improbably, declared the product useful.'"
+    },
+    {
+      "claim_id": "C144",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (S08, 24:36) and my own Whisper medium.en pass on the saved audio: 'I was leading the deployment, it was all on me'."
+    },
+    {
+      "claim_id": "C145",
+      "verdict": "supported",
+      "reason": "Interpretation that states the double edge of the line."
+    },
+    {
+      "claim_id": "C146",
+      "verdict": "supported",
+      "reason": "Colossus, exact for both fragments; 'And that was Shyam's leadership.'"
+    },
+    {
+      "claim_id": "C147",
+      "verdict": "qualified",
+      "reason": "He does raise the lawsuit himself at S08 09:30, and the words around it are confirmed. One word is unresolved: the caption track reads 'had'; my passes on the saved audio split (medium.en 'had' on two tight cuts and 'have' on a 30-second cut; large-v3-turbo and small.en 'have' on both cuts). The article prints 'had' inside quotation marks (verify-r03)."
+    },
+    {
+      "claim_id": "C148",
+      "verdict": "supported",
+      "reason": "Colossus: 'In 2016, Palantir marked Shyam's first decade with the company by suing the U.S. Army ... The Court of Federal Claims eventually ruled in Palantir's favor, a decision the Federal Circuit later affirmed.'"
+    },
+    {
+      "claim_id": "C149",
+      "verdict": "supported",
+      "reason": "S05 35:08, S06 41:51 and S08 09:30 have him telling it as 'the right to compete'; none describes his own part in the decision."
+    },
+    {
+      "claim_id": "C150",
+      "verdict": "qualified",
+      "reason": "The loyal-Eight framing is sound and the guidance half holds: he calls Karp his 'guru' and 'confidant', tells his father and Karp as right, and tells a confession to Karp. The cover half is told one way while the sources show both: the rule answers a question about why bureaucracies kill heretics and is addressed to those at the top (S07 27:28); on CBS he describes his own Army job as finding exceptional people and asking 'How do we protect them?' (S12 18:13); and Karp said at the same dinner 'Shyam saved me' (S04). See verify-r01."
+    },
+    {
+      "claim_id": "C151",
+      "verdict": "supported",
+      "reason": "Interpretation; the three forecasts it names are verified quotations (Hudson, Colossus, S08/First Breakfast)."
+    },
+    {
+      "claim_id": "C153",
+      "verdict": "supported",
+      "reason": "No opened source has him breaking with Karp or the Army at a cost. Karp's New Hampshire story (S04) has Sankar telling Karp 'This isn't cutting it. You got to get back', which is a correction of the boss without a cost; the claim as worded still holds."
+    },
+    {
+      "claim_id": "C154",
+      "verdict": "supported",
+      "reason": "Interpretation: a falsifier for the head-triad claim, carried with a trigger."
+    },
+    {
+      "claim_id": "C155",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 and my own Whisper medium.en pass on the saved audio (27:05): 'what it actually takes to be a heretic, how much you have to be willing to sacrifice for the ultimate outcome at the expense of your career', said of the colonel behind Maven. Paraphrased fairly."
+    },
+    {
+      "claim_id": "C156",
+      "verdict": "supported",
+      "reason": "Colossus: 'Andrew Higgins, the Louisiana boatbuilder who spent years fighting the U.S. Navy for the right to compete'. S07 25:49: 'Higgins on the outside'."
+    },
+    {
+      "claim_id": "C157",
+      "verdict": "supported",
+      "reason": "First Breakfast post dated Oct 31, 2024, exact."
+    },
+    {
+      "claim_id": "C158",
+      "verdict": "supported",
+      "reason": "No career cost to him appears in any opened source; stated as of October 2026 with a trigger."
+    },
+    {
+      "claim_id": "C159",
+      "verdict": "supported",
+      "reason": "Colossus: Stern 'asked if he was thinking of ... ICE had reported a detention population of over 60,000 people ... the highest number in its history', then 'asked whether these tools should nevertheless not exist'."
+    },
+    {
+      "claim_id": "C160",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (15:00) and my own Whisper medium.en pass on the saved audio: 'this horrific one in Manab that killed at least 123 schoolchildren'."
+    },
+    {
+      "claim_id": "C161",
+      "verdict": "supported",
+      "reason": "Bloomberg: 'killing more than 150 people, including at least 123 children'; 'the deadliest American military targeting error of the 21st century'. Read through a reader; Gizmodo relays the same figures."
+    },
+    {
+      "claim_id": "C162",
+      "verdict": "supported",
+      "reason": "Bloomberg: 'A Palantir spokesperson said that the company \"is not responsible for the underlying data nor identifying intelligence deficiencies\" and that there's no evidence that its software was at fault in the Minab strike.'"
+    },
+    {
+      "claim_id": "C163",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 and my own Whisper medium.en pass on the saved audio: 'we actually built additional AI agents that did more checking. That's part of the process we don't own, but ... we built additional AI that actually double checks more of the work outside of the process that we own'."
+    },
+    {
+      "claim_id": "C164",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 and my own Whisper medium.en pass on the saved audio: 'I will defer to the department on the timing ... I would love the truth to get out there'; 'I would defer to the department on that. That's not our place.' Paraphrased fairly."
+    },
+    {
+      "claim_id": "C165",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (17:12) and my own Whisper medium.en pass on the saved audio: 'do you think more information should be briefed to Congress about the benefits along with the risks?'"
+    },
+    {
+      "claim_id": "C166",
+      "verdict": "supported",
+      "reason": "Bloomberg's text concerns Centcom personnel and the Maven system; it does not name Sankar or discuss his conduct."
+    },
+    {
+      "claim_id": "C167",
+      "verdict": "supported",
+      "reason": "Military.com, exact for Warren's sentence; the article's paraphrase is fair."
+    },
+    {
+      "claim_id": "C168",
+      "verdict": "supported",
+      "reason": "live en-orig caption track re-downloaded 2026-10-13 (17:40) and my own Whisper medium.en pass on the saved audio: 'My principal role is to help with Army human resourcing in the G1 department.' The same answer continues 'How do we protect them?', which the article does not use (verify-r01)."
+    },
+    {
+      "claim_id": "C169",
+      "verdict": "supported",
+      "reason": "TED page: 'TEDGlobal 2012 • June 2012'. ARK Invest video uploaded 2023-09-28."
+    },
+    {
+      "claim_id": "C170",
+      "verdict": "supported",
+      "reason": "House biography text: 'A frequent guest on CNBC and Bloomberg'."
+    },
+    {
+      "claim_id": "C171",
+      "verdict": "supported",
+      "reason": "Colossus, exact."
+    },
+    {
+      "claim_id": "C172",
+      "verdict": "supported",
+      "reason": "Interpretation; Type 1 is tested on sourced material and left open."
+    },
+    {
+      "claim_id": "C173",
+      "verdict": "supported",
+      "reason": "First Breakfast, Oct 31, 2024: 'Today is Reformation Day ... We're launching The Defense Reformation ... 18 Theses'."
+    },
+    {
+      "claim_id": "C174",
+      "verdict": "supported",
+      "reason": "Interpretation supported by Colossus: 'humiliating' precedes 'terrifying'; 'Why not me?'."
+    },
+    {
+      "claim_id": "C175",
+      "verdict": "supported",
+      "reason": "Colossus's own navigation lists Invest Like the Best among its podcasts; the Hudson event page calls him 'Hudson Trustee' in the summary and 'Former Trustee ... was a trustee' in the speaker block; Lonsdale says he recruited him."
+    },
+    {
+      "claim_id": "C176",
+      "verdict": "supported",
+      "reason": "No first-hand account from a non-ally was found in the opened sources or in searches run on 2026-10-13 (an advocacy dossier and an activist's opinion post criticize Palantir's leadership in general terms)."
+    },
+    {
+      "claim_id": "C177",
+      "verdict": "supported",
+      "reason": "S15 video metadata: uploaded 2023-09-28. The family passage is at 01:57 to 02:13 in the caption track and in my Whisper large-v3-turbo pass on freshly downloaded audio."
+    },
+    {
+      "claim_id": "C178",
+      "verdict": "supported",
+      "reason": "Complaint: 'this four year long conspiracy'; the Analyst's Notebook data importer and 'iBaseCrawl' described as importing customers' data into Palantir's products. Stated as allegation."
+    },
+    {
+      "claim_id": "C179",
+      "verdict": "supported",
+      "reason": "Memorandum (Document 43, filed 09/07/10): 'Plaintiff i2 Inc. is refreshingly candid about the anticompetitive nature of its claims'. Docket entry 59, Oct 1, 2010: 'ORDER denying 42 Motion to Dismiss; denying 45 Motion to Dismiss.' The article's one sentence is fair to a filing that accepts the complaint's facts for the motion only."
+    },
+    {
+      "claim_id": "C180",
+      "verdict": "supported",
+      "reason": "Docket entry 73, Oct 19, 2010: 'ANSWER to 1 Complaint, by Shyam Sankar.' Not freely available; not read by me either."
+    },
+    {
+      "claim_id": "C181",
+      "verdict": "supported",
+      "reason": "Docket shows termination after settlement and no merits ruling; a search on 2026-10-13 found no public comment from Sankar on the case."
+    },
+    {
+      "claim_id": "C182",
+      "verdict": "supported",
+      "reason": "Conditional interpretation; asserts nothing beyond the complaint."
+    },
+    {
+      "claim_id": "C183",
+      "verdict": "supported",
+      "reason": "No such account in any opened source; stated as the settle test with a trigger tied to the Pentagon review."
+    },
+    {
+      "claim_id": "C184",
+      "verdict": "supported",
+      "reason": "Mirrors C148; Colossus confirms the 2016 suit and the outcome."
+    },
+    {
+      "claim_id": "C185",
+      "verdict": "supported",
+      "reason": "Mirrors C05 and C127; Colossus confirms 1984, the return to India and Orlando in 1985."
+    },
+    {
+      "claim_id": "C186",
+      "verdict": "supported",
+      "reason": "S10 ('refugees fleeing violence from Nigeria') and S06 ('we came here legally'), both confirmed."
+    },
+    {
+      "claim_id": "C187",
+      "verdict": "supported",
+      "reason": "Proxy: 131,851,838 and 210,585,000; the outstanding-awards table shows his only option and RSU awards are the 08/06/2020 grants, so 'nearly all' is safe."
+    },
+    {
+      "claim_id": "C188",
+      "verdict": "supported",
+      "reason": "Mirrors C27 and C23, both confirmed."
+    },
+    {
+      "claim_id": "C189",
+      "verdict": "supported",
+      "reason": "Mirrors C153."
+    },
+    {
+      "claim_id": "C190",
+      "verdict": "supported",
+      "reason": "Stern's reception detail is from the November 11, 2025 dinner; the Lonsdale video was uploaded May 8, 2026. 'Posted the following May' is right."
+    },
+    {
+      "claim_id": "C191",
+      "verdict": "supported",
+      "reason": "Colossus, exact; the sentence that follows is about 'American Greatness'."
+    },
+    {
+      "claim_id": "C192",
+      "verdict": "supported",
+      "reason": "Colossus, exact for both fragments; Stern presents it as a trap Sankar seems aware of."
+    },
+    {
+      "claim_id": "C193",
+      "verdict": "qualified",
+      "reason": "Words and sequence confirmed (live en-orig caption track re-downloaded 2026-10-13, 27:28 to 27:46, and my own Whisper medium.en pass on the saved audio): 'heretics require two things, the space for their heresy to exist, and a little bit, a modicum of protection from the top'; the outsider answer follows about 40 seconds later. Qualified on context: the rule is his answer to why bureaucracies keep trying to kill heretics ('that question you just asked is why I wrote the book. We have to remember that we need the heretics'), so it is advice to those at the top, and Lonsdale hears it that way ('your job as a leader is to keep them'). The record's own alternative says this; the article does not (verify-r01)."
+    },
+    {
+      "claim_id": "C194",
+      "verdict": "qualified",
+      "reason": "The premise is fair type reasoning and two of the three legs are sourced (he calls himself the heretic; he tells Karp's supervision as deserved). The first leg, 'builds a protector into his rule for heretics, puts himself on the protected side', is an inference from adjacency, and the same sources have him on the giving side (S12 18:13 'How do we protect them?'; S09 16:29 to 17:25 praising the general 'who protected' Boyd) and have Karp saying 'Shyam saved me' (S04). Stated in the article as stronger than the record carries (verify-r01)."
+    },
+    {
+      "claim_id": "C195",
+      "verdict": "supported",
+      "reason": "S15 captions and my Whisper pass on fresh audio: 'I grew up as a child essentially of refugees. We fled violence in Nigeria, and I was raised with the immense gratitude of understanding the counterfactual every single day of how lucky I was to be in this country.' The paraphrase is faithful."
+    },
+    {
+      "claim_id": "C196",
+      "verdict": "supported",
+      "reason": "A keyword search of the full live S15 caption text for Lagos, robbery, ditch and grace found nothing beyond the 02:02 passage. S10 (December 18, 2024) has the ditch sentence and one sentence on the robbery; the detailed account is in S05 (April 10, 2025)."
+    },
+    {
+      "claim_id": "C197",
+      "verdict": "supported",
+      "reason": "S16 captions at 01:31:08 and my Whisper large-v3-turbo pass on freshly downloaded audio: 'I'd like my son to learn a thing or two from Isaiah. I'd like my daughter to learn a thing or two from Brandon.' 'my children' (S07) and 'my kids' (S08) confirmed."
+    },
+    {
+      "claim_id": "C198",
+      "verdict": "qualified",
+      "reason": "Each quoted fragment is accurate ('protection from the top', 'rabbi', 'guru', 'what I owe you all'). Qualified because the FAQ presents the cover observation as the 'one main ground' without the context in verify-r01."
+    },
+    {
+      "claim_id": "C199",
+      "verdict": "qualified",
+      "reason": "The stated limit is true as far as it goes. The sentence 'A dinner does not explain the rule about heretics, which is not about Karp' leaves out that the rule is not about Sankar either: it is what he says institutions owe their heretics (verify-r01)."
+    },
+    {
+      "claim_id": "C200",
+      "verdict": "qualified",
+      "reason": "Both halves are things he said. Set side by side in the type FAQ they imply he said he needs protection, which is the article's inference (verify-r01)."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-13 (HTTP 200, 85k characters of text), by Jeremy Stern, February 2026, Colossus Review Issue 06. Every Colossus quotation in the article matched by script, then read in context."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S01, re-fetched 2026-10-13. Testimony read in context: Karp ('culture of the brutality'), McGrew ('Shyam's leadership'), Mabrey (Toronto airport), Hartz ('perfect boy scout')."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-13 (HTTP 200). Event dated November 11, 2025, New York. Sankar's introduction read in full, including the French-restaurant story, the rabbi line and the 2008 deployment story."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Same page as S03. Karp's reply read in full, including 'you may never leave Palantir' and the passage the article does not use: 'maybe I've saved Shyam and others many, many times—but Shyam saved me after COVID'."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "oEmbed 200 and the en-orig caption track re-downloaded live with yt-dlp on 2026-10-13 (byte-identical to the research copy); read 05:40 to 10:20 and 35:00 to 35:20; 07:10 to 08:25 and 09:08 to 09:28 second-transcribed by me from the saved audio (Whisper medium.en). Uploaded 2025-04-10."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "oEmbed 200 and the en-orig caption track re-downloaded live with yt-dlp on 2026-10-13 (byte-identical to the research copy); read 29:20 to 29:45, 33:00 to 33:55 and 41:45 to 42:00. Caption-only; the article paraphrases it. Uploaded 2025-10-30."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "oEmbed 200 and the en-orig caption track re-downloaded live with yt-dlp on 2026-10-13 (byte-identical to the research copy); read 05:10 to 06:40, 09:40 to 12:40 and 24:50 to 29:20; 05:15 to 06:05 and 27:00 to 29:10 second-transcribed by me from the saved audio (Whisper medium.en). Uploaded 2026-05-08. The record's excerpt and context note are accurate, and its C193 alternative records the leader's-advice reading."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "oEmbed 200 and the en-orig caption track re-downloaded live with yt-dlp on 2026-10-13 (byte-identical to the research copy); read 09:10 to 09:45, 20:00 to 21:05, 24:30 to 24:50, 31:50 to 32:05, 01:14:20 to 01:16:10, 01:17:35 to 01:18:00 and 01:25:30 to 01:26:20; four of those second-transcribed by me. One word at 09:30 is unresolved between transcriptions (verify-r03). Uploaded 2026-03-10."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "oEmbed 200 and the en-orig caption track re-downloaded live with yt-dlp on 2026-10-13 (byte-identical to the research copy); read 16:20 to 17:30 and 19:40 to 19:55 ('at 44'). Caption-only; not quoted in the article. Uploaded 2026-03-20."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Published transcript re-fetched 2026-10-13 (HTTP 200), dated Dec 18, 2024. Read the passage with the CIA attempt, 'refugees fleeing violence from Nigeria', the armed-robbery sentence and the ditch-in-Lagos line, and the 'Heretics and Heroes' answer."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "archive.org details page re-fetched 2026-10-13 (HTTP 200): C-SPAN broadcast April 25, 2026, 8:59pm to 10:00pm EDT, a Hudson Institute event. Closed-caption text read around the ditch-in-Lagos line."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "oEmbed 200 and the en-orig caption track re-downloaded live with yt-dlp on 2026-10-13 (byte-identical to the research copy); read 00:00 to 00:20 and 14:50 to 19:05; 14:55 to 19:02 second-transcribed by me from the saved audio (Whisper medium.en). Every CBS quotation matches. Uploaded 2026-10-11; the description says a portion aired that day."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "oEmbed 200 and the en-orig caption track re-downloaded live with yt-dlp on 2026-10-13 (byte-identical to the research copy); read 01:50 to 02:05, 44:10 to 46:05 and 51:30; 45:05 to 45:40 second-transcribed by me. 'My wife' is the host's line, as the corrected record says. Uploaded 2026-07-02."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "oEmbed 200 and the en-orig caption track re-downloaded live with yt-dlp on 2026-10-13 (byte-identical to the research copy); read 01:45 to 02:25 and searched the whole track for Lagos, robbery, ditch and grace; 01:45 to 02:25 downloaded fresh as audio and transcribed by me (Whisper large-v3-turbo). Uploaded 2023-09-28. The corrected context note is accurate."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "oEmbed 200 and the en-orig caption track re-downloaded live with yt-dlp on 2026-10-13 (byte-identical to the research copy); read 01:29:40 to 01:31:15; 01:30:55 to 01:31:25 downloaded fresh as audio and transcribed by me (Whisper large-v3-turbo). Uploaded 2026-03-16."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "sec.gov returned HTTP 403 to curl; the filing was read on 2026-10-13 through the r.jina.ai reader of the same URL (published 24 Apr 2026). Executive-officer table, biography, Summary Compensation Table, Option Exercises and Stock Vested, Outstanding Equity Awards and the August 6, 2020 awards read."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "army.mil returned HTTP 403 to curl; the article was read on 2026-10-13 through the r.jina.ai reader of the same URL (published 2025-06-13). Full text read."
+    },
+    {
+      "source_id": "S19",
+      "opened": true,
+      "context_matches": true,
+      "locator": "PDF re-downloaded 2026-10-13 (HTTP 200) and converted with pdftotext. Disclosure letter, biography and Attachment A read. URL date 2024-09-16."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-13 (HTTP 200). 'Former Trustee ... Shyam Sankar was a trustee at Hudson Institute'. Undated page."
+    },
+    {
+      "source_id": "S21",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-13 (HTTP 200). No-recusal lead, Steve Warren's statement and the Army Emergency Relief pledge read in context. URL date 2025-06-27."
+    },
+    {
+      "source_id": "S22",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wayback capture 20110225160649 re-fetched 2026-10-13 (HTTP 200): VentureBeat, February 16, 2011, Owen Thomas. Settlement, non-discussion agreement and the summary of the complaint read."
+    },
+    {
+      "source_id": "S23",
+      "opened": true,
+      "context_matches": true,
+      "locator": "CourtListener search API re-queried 2026-10-13 (HTTP 200): i2, Inc. v. Palantir Technologies, Inc., 1:10-cv-00885, E.D. Va., filed 2010-08-09, terminated 2011-02-10. Metadata only, as the record says."
+    },
+    {
+      "source_id": "S24",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-13 (HTTP 200): Gizmodo, published September 20, 2026. A relay of the Bloomberg investigation; the article now cites Bloomberg directly."
+    },
+    {
+      "source_id": "S25",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-13 (HTTP 200): Revolving Door Project, July 28, 2026. A general critical dossier; it does not mention the Army commission, and the record does not say it does."
+    },
+    {
+      "source_id": "S27",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-13 (HTTP 200): 'Mobilization Day', Shyam Sankar and Madeline Hart, Mar 17, 2026."
+    },
+    {
+      "source_id": "S29",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-13 (HTTP 200): KBS Sidhu newsletter, Feb 23, 2026; says 'born in Mumbai' with no source. Used only to record that an unsourced claim exists."
+    },
+    {
+      "source_id": "S31",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Docket page re-fetched 2026-10-13 (HTTP 200). Entries 1, 25, 42, 45, 59, 71 to 74 read: complaint against five defendants; stipulation and order of Aug 24, 2010; order of Oct 1, 2010 denying both motions to dismiss; answer by Shyam Sankar, Oct 19, 2010."
+    },
+    {
+      "source_id": "S32",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Complaint PDF re-downloaded 2026-10-13 (HTTP 200, 46 pages) and converted with pdftotext. Paragraphs 4, 11, 16, 17, 22, 40 and 71 read."
+    },
+    {
+      "source_id": "S33",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Memorandum PDF re-downloaded 2026-10-13 (HTTP 200), Document 43, filed 09/07/10. Introduction and footnote 2 read ('For purposes of this motion only, defendants accept the well-pleaded factual allegations')."
+    },
+    {
+      "source_id": "S34",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-13 (HTTP 200): 'Reformation Day', Shyam Sankar, Oct 31, 2024. Full post read."
+    },
+    {
+      "source_id": "S35",
+      "opened": true,
+      "context_matches": true,
+      "locator": "bloomberg.com returned HTTP 403 to curl; the investigation was read in full on 2026-10-13 through the r.jina.ai reader of the same URL (published 2026-09-18). Not read on bloomberg.com itself; Gizmodo's relay (S24) agrees on every figure used."
+    },
+    {
+      "source_id": "S36",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Re-fetched 2026-10-13 (HTTP 200): 'TEDGlobal 2012 • June 2012'. The talk itself was not watched; the article uses only its existence and year."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "The 'earn your place' quotation is gone; the hook rests on the two first-person sentences, shows that Lonsdale supplied 'outsider', and says the rest of the clip is about Palantir's early years. Captions and my own transcription confirm the cut line is about the early company."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "The section is 'His father and the two forks'; it quotes 'trying not to be directive' and the 'no going back' passage, calls the Palantir fork 'his own call' and says nothing on record has his father telling him to join. 'Obedience' appears nowhere. The salary FAQ anchor matches the heading. Colossus supports each sentence."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "'Part of the process we don't own' is quoted and confirmed by ear-check; the truth, timing and Congress answers are paraphrased accurately; the question that drew 'just a technologist' is quoted; the conduct sentence is in. Bloomberg was read through a reader and the review is still unreleased as of a search on 2026-10-13."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "The Army's reply, his assignment and his answer through 'where we don't have conflicts' sit beside the no-recusal sentence, and the type reading follows the full response. All three check against Military.com and the CBS audio."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Docket, complaint and memorandum reopened: denial on Oct 1, 2010, 'decided nothing about whether the allegations were true', his answer filed that month and not read, no merits ruling, no public comment found. 'His father' rests on complaint paragraph 17. Replacing the 'unclean hands' fragment with the defendants' own stated position is a fair way to give their side."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "No surface says 'deputy' or dates a role to 2006. Where the 'parole officer' line is used in the Type 8 test it keeps the dinner label and 'a line that also admits offenses'. The Type 8 FAQ quotes only 'rabbi' and 'guru' and labels them a dinner tribute."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "The gloss names only an argument and systems that do not work; Stern's observation is quoted and attributed; the follow-on sentence is in. Exact against Colossus."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "The parents FAQ states what he has said and no longer implies a documentary gap; the birth-city limit is worded as 'No reliable source found for this page'."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "The lawsuit is named with date, outcome (attributed to Colossus), his own framing and the limit on his personal role. The quoted sentence was second-transcribed, but one word in it is unresolved between transcriptions (verify-r03)."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "The call carries his stated cause, 'I was shocked' and the analysts' approval; 'worst early moments' and 'came away steadier' are gone; the second story is cut. Matches both sources."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "The definition with its cost, Higgins as an outside example, 'loyalist with a sponsor' as a reading of his conduct, the absent career cost and the October 31, 2024 sentence are all present and sourced. The later reuse of the two requirements in the Type 8 test is a separate problem (verify-r01)."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "All three passages changed; description is 156 characters; the Type 8 argument no longer depends on any 2006 role."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "The CIA attempt and the failed student company open the section with sources; the generalization is limited to the two stories; the Xoom fork is attributed to Colossus with a clause on his different 2025 timeline, which S05 confirms."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": true,
+      "reason": "'He was not unknown before 2024', with the 2012 TED talk and the House biography line; no authorial sentence says he was out of view. Both sources confirmed."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Neither quotation appears off its subject any longer; the 'primacy of winning' fragment is gone."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "The inside-job detail is reported as his account and the space-coast line stands beside the bankruptcies. Both confirmed in captions and by my own transcription."
+    },
+    {
+      "finding_id": "fan-09",
+      "accepted": true,
+      "reason": "The December 2024 and October 2025 statements are set side by side with dates and links, with no claim about immigration category; the caption-only one is paraphrased."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Only the Xoom fork has the father ruling, the ruling backed what he wanted, and he chose Palantir himself after growing restless at Xoom; heading, FAQ and claims match."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Sleep-deprivation explanation, the product's approval, the rank confound and 'It was all on me' are in the body; the anecdote is offered as narration only. The FAQ no longer mentions alarm taken to Karp."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "The tenure sentence says he has not left and lists the film studio, First Breakfast and the Ginkgo chairmanship with sources and an as-of date. Colossus and the House biography confirm; he also says 'I started a production company' himself."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Toll given with attribution to Brennan and to Bloomberg, with 'Counts vary'; the post-strike fix and the 'department's call' answer are in. Figures match Bloomberg and the CBS audio."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Each deferral carries its question and the incentive explanation; the Army suit and his advocacy are set against a deference pattern; the personal-break claim is scoped to an empty record. The rebuilt lead observation that replaced the old test is addressed in verify-r01."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Three versions with dates and sources, 'a creed, not a travel record', 'owed for' marked as this page's inference, the father's 'we can survive anything' quoted; parents FAQ matches."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "The face-value reading and the types it favors are stated, with the 'alone and not afraid' and 'never fazed Dad' material; 'an answer that fits either way is not evidence'; a falsifier for fear is given; Type 3 carries the shame and tombstone evidence and stays live."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Quotation removed, sentence rebuilt on the outsider lines, C48 gone from the record."
+    },
+    {
+      "finding_id": "critic-09",
+      "accepted": true,
+      "reason": "Stern's business-development caveat is quoted beside the alarm; the venue relationships are one sentence in the limits section; 'he was a trustee' fits a page that shows both 'Hudson Trustee' and 'Former Trustee'."
+    },
+    {
+      "finding_id": "critic-10",
+      "accepted": true,
+      "reason": "A conditional sentence in the type argument identifies the 2010 lawsuit; the limits section says what it would mean for the loyalist reading and for 'completely honest'; the four-year span is attributed to the complaint. The note sits at the allegation, not beside the anecdote, which the repair promoted into the main Type 8 paragraph; the pointer three paragraphs later is enough for a minor finding."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Hartz's description and the plain sentence that a fear-type read only partly accounts for his manner come before 'the sunny manner slipped', which now quotes Stern's phrase."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Maven is glossed, the deaths are stated with attribution and 'Counts vary', the limits stay, and no sentence assigns fault beyond Bloomberg and his own answer."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "The event is identified once and called 'the Hudson dinner' after that; the Karp-section stories each say where they were told, with links. Residual gap: the repair removed the clause tying Mabrey to Colossus, and one bullet quotes 'undeclared state of emergency' before its source appears (verify-r04, minor)."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Resolved by narrowing to the one call the page shows."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "No count-by-count promise; bullets labelled as his words or a colleague's reading; the absence is stated and tied to the ally-only record; the lawsuit is addressed. The new lead-in claim is tested in verify-r01."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "The blockquote has interviewer, date and link; no relative date remains; the once-voiced doubt is gone."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "One consistent account of each fork; the summary matches the quotations."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Detachment 201 and the conflict are stated with both answers; the core-emotion sentence follows the 60-word answer; Colossus, Trinity Prep, First Breakfast and O'Shaughnessy's show are each glossed before they are relied on."
+    },
+    {
+      "finding_id": "unfamiliar-09",
+      "accepted": true,
+      "reason": "Conditional sentences say what the allegation would test; every limit is kept."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "His own descriptors and the product's approval are in; the dramatizing phrases are gone; McGrew's testimony appears as counterevidence; the anecdote is offered as narration."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Heading and sentences rewritten as asked; the anchor and claims match."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "The test is against a loyal Eight, the observations the finding listed are present (father and Karp told as right, 'sheepishly', Mabrey's cool critique), the double edge of 'parole officer' is stated, and bullets are labelled. What the repair added on top, the heretic rule read as his own need for cover, goes further than the sources (verify-r01)."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "'The hardest test' is gone; the lawsuit has its date, outcome and his framing and is in the inventory; his personal role is marked undocumented; the deferrals are said to cost nothing. Its placement one section earlier is reasonable."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Type 1 has a real test with its best evidence, a sourced separator and what stays unexplained; Type 3 is tested on something a Three would not do and left live. It sits two sections after the main argument, with a stated reason; Type 8 stays beside the main argument."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Fuller answer quoted; 'not evidence'; the behavior read as fear is named separately; the sunny manner is listed as only partly explained; 'the second kind' is conditional."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Sentence and claim removed."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "accepted": true,
+      "reason": "The lead rests on the first-person sentences; C48 is out of the record."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "No 'deputy'; C114, C20 and C189 are time-sensitive with the full trigger set."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "The exchange is no longer ranked above the others, Bloomberg is opened and cited with its access route disclosed in the record, the status has an as-of date, and the page says what the review could show without predicting it."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "'As of October 2026' dates the absence; each absence claim in the record is time-sensitive with a named trigger. My searches on 2026-10-13 found nothing that ends any of them."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "The limits section reports the September 2023 telling, what it contains and what it lacks; I confirmed the passage in captions and in my own transcription of freshly downloaded audio. A smaller dating slip remains in the Lagos section (verify-r05)."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Absolute dates throughout; the lede and ending use the posting date."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "The payoff is tied to the moment of the answer and uses the sourced March 2006 start."
+    },
+    {
+      "finding_id": "future-07",
+      "accepted": true,
+      "reason": "C115 carries the shared trigger set, the tenure paragraph has one as-of date, and no current title is asserted for Mabrey."
+    },
+    {
+      "finding_id": "future-08",
+      "accepted": true,
+      "reason": "Body link and citation use the 14-digit Wayback capture, which returned HTTP 200 today."
+    },
+    {
+      "finding_id": "verify-01",
+      "accepted": true,
+      "reason": "Captions and my own pass put 'my wife' in the host's reply. The FAQ now rests on Lonsdale's on-camera 'husband and a father' and on Sankar's own references to his children, and keeps the protected restraint sentence."
+    },
+    {
+      "finding_id": "verify-02",
+      "accepted": true,
+      "reason": "The article now matches the caption track. I could not confirm the word independently: eight Whisper passes on the saved audio split between 'had' and 'have'. The change is defensible but the word should not stand inside quotation marks without a listen (verify-r03)."
+    },
+    {
+      "finding_id": "verify-03",
+      "accepted": true,
+      "reason": "The false sentence is gone and the 2023 telling is reported accurately, paraphrased, with what it lacks."
+    },
+    {
+      "finding_id": "verify-04",
+      "accepted": false,
+      "reason": "The rebuilt test uses the material the finding pointed to, but tells it one way. In the same sources the rule is advice to those at the top, he describes his own Army job as protecting exceptional people, and Karp says 'Shyam saved me'. The page and both FAQs now claim more for the 6-over-8 case than the record carries, and no reviewer has seen the argument (verify-r01, verify-r02)."
+    },
+    {
+      "finding_id": "verify-05",
+      "accepted": true,
+      "reason": "'He was a trustee of the Hudson Institute' is what both labels on the live event page support."
+    },
+    {
+      "finding_id": "verify-06",
+      "accepted": true,
+      "reason": "Captions and my transcription confirm the sacrifice remark, Lonsdale's follow-up and the rule in the reply; 'His next answer' is right."
+    },
+    {
+      "finding_id": "verify-07",
+      "accepted": true,
+      "reason": "The FAQ uses the body's scope for 'dictator' and quotes Mabrey's words without 'harshest'."
+    },
+    {
+      "finding_id": "verify-08",
+      "accepted": true,
+      "reason": "The conditional sentence identifies the 2010 lawsuit and where it is covered."
+    },
+    {
+      "finding_id": "verify-09",
+      "accepted": true,
+      "reason": "'No reliable source found for this page' is accurate; the one unsourced claim is recorded and not repeated."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "Everything in this section is the family's story as Sankar tells it. No police report, news account or outside witness has turned up, and he was about three years old.",
+      "preserved": true,
+      "reason": "Verbatim, still the first paragraph of the Lagos section."
+    },
+    {
+      "passage": "That is the strongest evidence against a Six reading, and it deserves to be taken at face value before anyone argues with it.",
+      "preserved": true,
+      "reason": "Verbatim. The paragraph after it now states the face-value reading and says an answer that fits either way is not evidence."
+    },
+    {
+      "passage": "Loyalty and money point the same way here, so the tenure cannot settle the type alone.",
+      "preserved": true,
+      "reason": "Verbatim, directly after the proxy figures, which I rechecked."
+    },
+    {
+      "passage": "The limits are real. Mabrey's line is his reading of Sankar's motive, and everyone describing this style thrived under it.",
+      "preserved": true,
+      "reason": "Verbatim, directly after the Mabrey bullet."
+    },
+    {
+      "passage": "In the interviews opened for this page he does not name his wife or say how many children he has, so the page does not either.",
+      "preserved": true,
+      "reason": "Verbatim in the 'Is Shyam Sankar married?' FAQ. The sentence before it no longer attributes 'my wife' to him."
+    },
+    {
+      "passage": "In the same profile, the one moment of his own childhood that he calls frightening is a process server, not the robbery.",
+      "preserved": true,
+      "reason": "Verbatim; the quotation that follows is exact against Colossus."
+    },
+    {
+      "passage": "The limits are real. Mabrey's line is his reading of Sankar's motive, and everyone describing this style thrived under it. An invitation to curse at the boss is still the boss's game.",
+      "preserved": true,
+      "reason": "Verbatim, all three sentences; the intern-ritual sentence it refers to is still in the section."
+    },
+    {
+      "passage": "Leaving a party proves nothing. It does match the answer he gave Lonsdale the following spring. He is inside every room that matters to him, and by his own description he is still looking in.",
+      "preserved": true,
+      "reason": "One phrase changed for accuracy: 'the following spring' became 'posted the following May', because only the May 8, 2026 upload date is known. The image, the refusal to overread it and the return to the opening are intact, and it is still the last paragraph."
+    },
+    {
+      "passage": "Almost all of this is Sankar's own retelling, polished across at least ten long interviews in 2025 and 2026 by an executive whose company benefits from a grateful-patriot story.",
+      "preserved": true,
+      "reason": "Verbatim, first sentence of the limits section."
+    },
+    {
+      "passage": "What would move the read toward Eight: accounts of him overriding or walking away from Karp or the Army at a cost to himself, or people outside his circle describing domination for its own sake.",
+      "preserved": true,
+      "reason": "Verbatim; the next sentence now identifies the 2010 lawsuit."
+    },
+    {
+      "passage": "Lonsdale had just described the early Palantir as outsiders beaten up by the bureaucracy, so part of that answer is a guest agreeing with his host.",
+      "preserved": true,
+      "reason": "Verbatim; the captions confirm Lonsdale's 'beaten by the bureaucracy forever as these outsiders' immediately before the question."
+    },
+    {
+      "passage": "He holds a rank in the institution he says he is looking in on. And he still describes his place as something he has to earn every day.",
+      "preserved": true,
+      "reason": "Changed to remove an unsupported detail: 'earn your place every day' is about the early company, as the captions and my transcription show. The contradiction is still stated in plain sentences in the first screen: 'He held a rank in the institution he said he was looking in on. And he called the outsider feeling constitutional.'"
+    },
+    {
+      "passage": "The pattern runs in a few plain steps. A Six finds a person, a group or a cause that feels solid. They commit to it. They keep watching for whatever could break it. And they push on it, sometimes loudly, because pushing on a thing is how you find out whether it holds.",
+      "preserved": true,
+      "reason": "Verbatim."
+    },
+    {
+      "passage": "So his heretic is a loyalist with a sponsor. The rule gets broken for the institution, by someone inside it, with cover from above.",
+      "preserved": true,
+      "reason": "The insight is kept as 'So the heretic he has actually been is a loyalist with a sponsor: rules bent for the institution, with cover from above.' 'By someone inside it' was false for his own canon (Higgins fought from outside), and the claim now describes his conduct, not his concept. The correction preserves the contribution."
+    },
+    {
+      "passage": "Lonsdale had just described the early Palantir as outsiders beaten up by the bureaucracy, so part of that answer is a guest agreeing with his host. The rest is harder to wave off.",
+      "preserved": true,
+      "reason": "Verbatim, both sentences, directly after the clip."
+    },
+    {
+      "passage": "So the two boldest moves of his twenties are told as obedience. Someone he trusted told him to take the risk, and he took it.",
+      "preserved": true,
+      "reason": "Changed because it was unsupported for the Palantir fork: Colossus has him deciding after the interviews and crediting his father afterward. The durable part survives as 'he wanted the risk both times, and both times he tells it as his father's judgment proving out.'"
+    },
+    {
+      "passage": "The Pentagon's review had not been released as of October 13, 2026.",
+      "preserved": true,
+      "reason": "Verbatim. A search on 2026-10-13 still finds no report of a release."
+    }
+  ],
+  "coverage_complete": true,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 8.0,
+      "passage": "Sankar filed an answer that month, which was not read for this page.",
+      "reason": "Every quotation taken from a web source matched a fresh fetch word for word, and every caption-sourced quotation matched the live caption track and my own Whisper pass except one unresolved word. The article reads filings instead of summaries (the complaint, the docket, the motion to dismiss, the proxy), says what it did not read, and labels self-report, third-party reading and its own inference in the prose. It checks second accounts where they exist (the 2008 call in Hudson and Colossus; the family story across five tellings). What holds it at 8: almost nothing is independent of Sankar or his allies, which the page says; the quotations from video have machine checks only; and at the one point that decides the type the heretic rule is used without the context that it is advice to leaders (verify-r01)."
+    },
+    "enneagram": {
+      "score": 7.0,
+      "passage": "An Eight gives cover and asks for none.",
+      "reason": "The test is serious in design: it rejects the rebel caricature for a loyal Eight, gives Types 1 and 3 real trials, fronts his own denial of fear and names falsifiers. Against the standard's anchor it falls short on both counts. No costly choice is shown that the Six motive explains better than pay, position or rank; the page says so ('None of these deferrals cost him anything', 'Loyalty and money point the same way', 'the record is empty'). And the discriminator the repair put in the lead does not hold as written: in the same sources he speaks as the one who gives cover, Karp says 'Shyam saved me', and the rule is addressed to those at the top. What survives is a narrower pattern of self-narration (a guide he calls his guru, authorities told as right, forecasts of failure), mostly from one dinner and two friendly interviews, with three types still live by the article's own account. That is a reasoned leaning, not an alternative beaten on a sourced discriminator."
+    },
+    "originality": {
+      "score": 8.5,
+      "passage": "So the heretic he has actually been is a loyalist with a sponsor: rules bent for the institution, with cover from above.",
+      "reason": "The governing idea comes from his own vocabulary turned on his own record, not from type language, and the details are his alone: the process server as the one moment he calls terrifying, the father's sentence read as 'a creed, not a travel record', a reform treatise nailed up 'because I love America', the guest missing from the reception. Type explanation is brief and tied to cited behavior. The 'sponsor' half of the idea shares the weakness in verify-r01, which keeps this from higher."
+    },
+    "writing": {
+      "score": 8.0,
+      "passage": "Leaving a party proves nothing. It does match the answer he gave Lonsdale, posted the following May. He is inside every room that matters to him, and by his own description he is still looking in.",
+      "reason": "Plain, exact sentences, a clear order (question, origin, forks, Karp, the rival type, the limits of his heresy, the public turn, what cannot be known) and an ending that returns to the opening without a moral. Quotations are placed where they do work and the pacing varies. It loses ground on length and repetition: 4,483 words against a 2,000 to 3,500 target, with the same limit (self-told, friendly stage, cost-free) restated in five sections, and a Type 8 section that asks the reader to hold a premise, five pieces of evidence and four caveats at once."
+    },
+    "durability": {
+      "score": 8.5,
+      "passage": "When he said them he had worked at one company since March 2006. He held a rank in the institution he said he was looking in on.",
+      "reason": "The argument stands on settled past material (the family creed, the forks, the 2008 call, the 2010 suit, the 2024 essay), so removing the October 11, 2026 CBS exchange leaves it intact. Changing facts carry absolute dates and as-of phrasing (age and pay tied to the April 2026 proxy, the review 'as of October 13, 2026', absences 'as of October 2026'), the hook is fixed to the moment of the answer, and the record gives each time-sensitive claim a trigger. The title and several absence claims will need maintenance if he leaves or a non-ally speaks, which the triggers cover. The Minab passage is two days old and unresolved; it is framed so the page survives either outcome."
+    },
+    "hook": {
+      "score": 8.5,
+      "passage": "\"Constitutionally, I'm going to always feel like an outsider.\"",
+      "reason": "A dated, sourced exchange with the clip embedded beside it sets up a real contradiction: a twenty-year insider with an Army rank who calls the outsider feeling constitutional. The article discounts the answer at once (the word was the host's) and then pays the question off in every section and in the last line. Function words in the quoted question rest on machine transcription (verify-r03)."
+    },
+    "discoverability": {
+      "score": 8.0,
+      "passage": "Palantir's proxy statement gives his age as 44 as of April 6, 2026. No reliable source for his date of birth was found, so this page does not state one.",
+      "reason": "Title, meta title (49 characters) and description (156) are accurate and lead with identity, which suits exact-name search. Eight FAQs answer the queries in the keyword list (who, education, parents, age, wife, salary, type, why not 8) from filings and dated sources, and say what is unknown instead of guessing. The four FAQ anchors match the headings. The 60-word answer orients the type clearly, and the body links the four type pages and two related profiles. Deductions: both type FAQs carry the overstatement in verify-r01; one profile link uses a capitalized slug that resolves through a redirect; wikipedia and twitter are empty."
+    }
+  }
+}

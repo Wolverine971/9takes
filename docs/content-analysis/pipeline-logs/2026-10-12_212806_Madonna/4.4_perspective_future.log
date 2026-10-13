@@ -1,0 +1,13 @@
+The future-perspective review is saved at `docs/content-analysis/perspective-reviews/Madonna/2026-10-12_212806/future.md`, tied to the frozen draft (SHA confirmed against `context.json` and the supplied hash).
+
+- **Verdict:** revise. Trust intact, value high, delight a clear hit. The type argument will still hold in October 2027; about ten sentences will not.
+- **Blockers:** 0, with 9 concerns, each fixable in a sentence or less.
+- **Strongest hit:** the ending. "A year later the same sand held 2.1 million for Gaga" and "Audiences go home" are built on her record being overtaken, so every later crowd on that beach strengthens the close instead of dating it.
+- **Highest-priority concern (FUTURE-R1):** the answer to "Why Is Madonna Still Performing?" hangs on one awards night that was fifteen days old at review. The durable evidence is that she told the same 1984 story in 2012, 2018 and 2026, which the draft compresses to "at least the second time." The same sentence says "at 68," which goes wrong on August 16, 2027.
+
+Two other items worth knowing now:
+
+- **Already wrong on a plain reading:** "The album became the worst seller of her career" was true of American Life only to that point; four later albums sold less.
+- **Your call, not the editor's:** `date` and `lastmod` are both July 18, 2026, while the body narrates September 27 and October events. As frozen, the page would show a single July date. I could not check the live database row because the Supabase connection failed this session.
+
+The review also contains a dated twelve-month refresh list.

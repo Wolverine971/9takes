@@ -1,5 +1,5 @@
 {
-	"generatedAt": "2026-10-12",
+	"generatedAt": "2026-10-13",
 	"gsc": {
 		"runDate": "2026-10-04",
 		"window": {
@@ -13,11 +13,11 @@
 		"minOut": 3
 	},
 	"counts": {
-		"candidates": 441,
+		"candidates": 451,
 		"gateDebt": 0,
 		"topBlog": 40,
 		"peopleBridge": 30,
-		"peopleToPeople": 4,
+		"peopleToPeople": 6,
 		"skipped": 167
 	},
 	"gateDebt": [],
@@ -48,6 +48,60 @@
 			"phraseKind": "curated",
 			"mentionScore": 6,
 			"excerpt": "…t Cohn's \"fundamental tenet\" was \"to attack and to never back down and to never apologize and to never admit wrongdoing.\" Trump's own version came on Jimmy Fallon's show in 2015. \"I fully think apologizing is a great thi…"
+		},
+		{
+			"id": "/enneagram-corner/depression-patterns-by-enneagram-type -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"score": 3.93,
+			"target": {
+				"url": "/enneagram-corner/toxic-traits-relationships-warning-signs",
+				"title": "Your Enneagram Guide to Toxic Traits in a Relationship (and the Early Warning Signs)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 1839,
+				"clicks": 33,
+				"position": 10.2,
+				"inbound": 4
+			},
+			"source": {
+				"url": "/enneagram-corner/depression-patterns-by-enneagram-type",
+				"file": "src/blog/enneagram/depression-patterns-by-enneagram-type.md",
+				"section": "enneagram-corner",
+				"impressions": 5353,
+				"outCount": 4
+			},
+			"line": 584,
+			"anchor": "early warning",
+			"phrase": "early warning",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "…ement. Knowing your type helps you understand your specific triggers, recognize early warning signs, and choose coping strategies that work for your personality. A Type 5 might need to focus on small social connections, …"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-types-working-in-teams -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"score": 3.61,
+			"target": {
+				"url": "/enneagram-corner/toxic-traits-relationships-warning-signs",
+				"title": "Your Enneagram Guide to Toxic Traits in a Relationship (and the Early Warning Signs)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 1839,
+				"clicks": 33,
+				"position": 10.2,
+				"inbound": 4
+			},
+			"source": {
+				"url": "/enneagram-corner/enneagram-types-working-in-teams",
+				"file": "src/blog/enneagram/enneagram-types-working-in-teams.md",
+				"section": "enneagram-corner",
+				"impressions": 1499,
+				"outCount": 18
+			},
+			"line": 239,
+			"anchor": "early warning",
+			"phrase": "early warning",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "Risk awareness and contingency planning. The Loyalist spots what could go wrong before it does. They're the team's early warning system and the ones who'll still be there when things get hard."
 		},
 		{
 			"id": "/pop-culture/podcaster-personality-map -> /enneagram-corner/how-to-apologize-like-a-pro",
@@ -104,6 +158,33 @@
 			"excerpt": "You walk into a room and the conversation recalibrates. Your handshake is firm, your eye contact is direct, and your stance says you're here and not apologizing for it."
 		},
 		{
+			"id": "/enneagram-corner/mental-health/enneagram-crisis-management-guide -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"score": 3.45,
+			"target": {
+				"url": "/enneagram-corner/toxic-traits-relationships-warning-signs",
+				"title": "Your Enneagram Guide to Toxic Traits in a Relationship (and the Early Warning Signs)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 1839,
+				"clicks": 33,
+				"position": 10.2,
+				"inbound": 4
+			},
+			"source": {
+				"url": "/enneagram-corner/mental-health/enneagram-crisis-management-guide",
+				"file": "src/blog/enneagram/mental-health/enneagram-crisis-management-guide.md",
+				"section": "enneagram-corner",
+				"impressions": 801,
+				"outCount": 8
+			},
+			"line": 109,
+			"anchor": "Early Warning",
+			"phrase": "early warning",
+			"phraseKind": "title",
+			"mentionScore": 2,
+			"excerpt": "**Early Warning Signs** (weeks before crisis):"
+		},
+		{
 			"id": "/pop-culture/tech-titans-platform-emperors -> /pop-culture/tech-titans-disruptors",
 			"score": 3.43,
 			"target": {
@@ -156,6 +237,33 @@
 			"phraseKind": "curated",
 			"mentionScore": 3,
 			"excerpt": "All personality systems attempt to explain the dimensions by which we are similar and different. The most popular scientific model—the <a class=\"external-link\" target=\"_blank\" rel=\"noopener\" href=\"https://en.wikipedia.or…"
+		},
+		{
+			"id": "/enneagram-corner/toxic-traits-relationships-warning-signs -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"score": 2.79,
+			"target": {
+				"url": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+				"title": "John Coogan and Jordi Hays Built TBPN by Wanting Different Things",
+				"kind": "blog",
+				"section": "pop-culture",
+				"impressions": 225,
+				"clicks": 1,
+				"position": 9.3,
+				"inbound": 3
+			},
+			"source": {
+				"url": "/enneagram-corner/toxic-traits-relationships-warning-signs",
+				"file": "src/blog/enneagram/toxic-traits-relationships-warning-signs.md",
+				"section": "enneagram-corner",
+				"impressions": 1839,
+				"outCount": 19
+			},
+			"line": 99,
+			"anchor": "John",
+			"phrase": "john",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "…y](https://doi.org/10.1037/0022-3514.65.4.707), psychologists Sandra Murray and John Holmes got people to describe their dating partner as someone who rarely starts disagreements, then told them conflict avoidance was a …"
 		},
 		{
 			"id": "/enneagram-corner/why-you-cant-stop-overthinking-enneagram -> /enneagram-corner/depression-patterns-by-enneagram-type",
@@ -426,33 +534,6 @@
 			"phraseKind": "title",
 			"mentionScore": 2,
 			"excerpt": "… mind runs constant threat-detection. New opportunity? Here are 17 things that could go wrong. New relationship? Let me test them to make sure they won't leave. New project? Better have backup plans for the backup plans."
-		},
-		{
-			"id": "/how-to-guides/how-to-psychoanalyze-people -> /enneagram-corner/toxic-traits-relationships-warning-signs",
-			"score": 2.19,
-			"target": {
-				"url": "/enneagram-corner/toxic-traits-relationships-warning-signs",
-				"title": "Red Flags You're Dating a Toxic Version of Each Enneagram Type",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 1839,
-				"clicks": 33,
-				"position": 10.2,
-				"inbound": 4
-			},
-			"source": {
-				"url": "/how-to-guides/how-to-psychoanalyze-people",
-				"file": "src/blog/guides/how-to-psychoanalyze-people.md",
-				"section": "how-to-guides",
-				"impressions": 0,
-				"outCount": 5
-			},
-			"line": 480,
-			"anchor": "cheat",
-			"phrase": "cheat",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "Use this as a cheat sheet once you've gathered observations. **Want to go deeper?** Master [the first impression playbook for each Enneagram type](/enneagram-corner/first-impression-enneagram-playbook) to identify patter…"
 		},
 		{
 			"id": "/enneagram-corner/mental-health/enneagram-addiction-recovery-guide -> /enneagram-corner/enneagram-and-adhd-which-types-struggle-most",
@@ -779,33 +860,6 @@
 			"excerpt": "Some pieces of that story touch real problems. Looks can affect first impressions. Family wealth"
 		},
 		{
-			"id": "/pop-culture/google-leadership-evolution -> /enneagram-corner/toxic-traits-of-each-enneagram-type",
-			"score": 1.91,
-			"target": {
-				"url": "/enneagram-corner/toxic-traits-of-each-enneagram-type",
-				"title": "Toxic Traits of Each Enneagram Type (and Which One Is the Worst)",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 5702,
-				"clicks": 75,
-				"position": 10.5,
-				"inbound": 18
-			},
-			"source": {
-				"url": "/pop-culture/google-leadership-evolution",
-				"file": "src/blog/pop-culture/google-leadership-evolution.md",
-				"section": "pop-culture",
-				"impressions": 804,
-				"outCount": 15
-			},
-			"line": 118,
-			"anchor": "Evil",
-			"phrase": "evil",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "The founder lab also produced the company's most-quoted three words: \"Don't Be Evil.\" It got told later as Silicon Valley sloganeering. In Brin's mouth it was specific autobiography — a Soviet-Jewish refugee whose father…"
-		},
-		{
 			"id": "/enneagram-corner/enneagram-faqs -> /pop-culture/tech-titans-leadership-styles",
 			"score": 1.9,
 			"target": {
@@ -914,6 +968,33 @@
 			"excerpt": "_\"I avoided medication because I thought it would cage me. ADHD meds changed everything. I still have enthusiasm, but I can actually FINISH things. Mood stabilizers helped me realize: true joy comes from depth, not just …"
 		},
 		{
+			"id": "/pop-culture/google-leadership-evolution -> /enneagram-corner/toxic-traits-of-each-enneagram-type",
+			"score": 1.86,
+			"target": {
+				"url": "/enneagram-corner/toxic-traits-of-each-enneagram-type",
+				"title": "Toxic Traits of Each Enneagram Type (and Which One Is the Worst)",
+				"kind": "blog",
+				"section": "enneagram-corner",
+				"impressions": 5702,
+				"clicks": 75,
+				"position": 10.5,
+				"inbound": 19
+			},
+			"source": {
+				"url": "/pop-culture/google-leadership-evolution",
+				"file": "src/blog/pop-culture/google-leadership-evolution.md",
+				"section": "pop-culture",
+				"impressions": 804,
+				"outCount": 15
+			},
+			"line": 118,
+			"anchor": "Evil",
+			"phrase": "evil",
+			"phraseKind": "gsc",
+			"mentionScore": 1.5,
+			"excerpt": "The founder lab also produced the company's most-quoted three words: \"Don't Be Evil.\" It got told later as Silicon Valley sloganeering. In Brin's mouth it was specific autobiography — a Soviet-Jewish refugee whose father…"
+		},
+		{
 			"id": "/enneagram-corner/relationship-communication-guide -> /pop-culture/dark-triad-meets-enneagram",
 			"score": 1.86,
 			"target": {
@@ -1020,87 +1101,6 @@
 			"phraseKind": "gsc",
 			"mentionScore": 1.5,
 			"excerpt": "And look what's happening with ADHD. Diagnoses among US children rose sharply -- [from 6.1% in 1997 to 10.2% in 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC6324288/). Everyone treats this as a crisis. But a [2024 pape…"
-		},
-		{
-			"id": "/pop-culture/google-leadership-evolution -> /enneagram-corner/enneagram-and-mental-illness",
-			"score": 1.81,
-			"target": {
-				"url": "/enneagram-corner/enneagram-and-mental-illness",
-				"title": "The Enneagram and Mental Illness: Understand Each Type's Predispositions",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 11948,
-				"clicks": 305,
-				"position": 9.7,
-				"inbound": 24
-			},
-			"source": {
-				"url": "/pop-culture/google-leadership-evolution",
-				"file": "src/blog/pop-culture/google-leadership-evolution.md",
-				"section": "pop-culture",
-				"impressions": 804,
-				"outCount": 15
-			},
-			"line": 112,
-			"anchor": "disorder",
-			"phrase": "disorders",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "Brin's contribution to the founder lab was the disorder. Eric Schmidt, telling the AdSense origin story years later:"
-		},
-		{
-			"id": "/pop-culture/epstein-psychology-part-2 -> /enneagram-corner/enneagram-and-religion",
-			"score": 1.81,
-			"target": {
-				"url": "/enneagram-corner/enneagram-and-religion",
-				"title": "Is the Enneagram Religious? (The Truth About Its Spiritual Origins)",
-				"kind": "blog",
-				"section": "enneagram-corner",
-				"impressions": 1382,
-				"clicks": 10,
-				"position": 27,
-				"inbound": 3
-			},
-			"source": {
-				"url": "/pop-culture/epstein-psychology-part-2",
-				"file": "src/blog/pop-culture/epstein-psychology-part-2.md",
-				"section": "pop-culture",
-				"impressions": 122,
-				"outCount": 3
-			},
-			"line": 235,
-			"anchor": "Christmas",
-			"phrase": "christian",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "…n: \"What day/night will be the wildest party on your island?\" A month later, on Christmas morning: \"I've been working to the edge of sanity this year... I really want to hit the party scene... and let loose.\" When Epstei…"
-		},
-		{
-			"id": "/enneagram-corner/enneagram-books-websites-podcasts -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
-			"score": 1.8,
-			"target": {
-				"url": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
-				"title": "John Coogan and Jordi Hays Built TBPN by Wanting Different Things",
-				"kind": "blog",
-				"section": "pop-culture",
-				"impressions": 225,
-				"clicks": 1,
-				"position": 9.3,
-				"inbound": 3
-			},
-			"source": {
-				"url": "/enneagram-corner/enneagram-books-websites-podcasts",
-				"file": "src/blog/enneagram/enneagram-books-websites-podcasts.md",
-				"section": "enneagram-corner",
-				"impressions": 102,
-				"outCount": 37
-			},
-			"line": 161,
-			"anchor": "Hosts",
-			"phrase": "host",
-			"phraseKind": "gsc",
-			"mentionScore": 1.5,
-			"excerpt": "…tionalenneagram.org/\">International Enneagram Association</a> (IEA): The professional body for Enneagram practitioners. Hosts global conferences, maintains accreditation standards, and publishes the Nine Points magazine."
 		}
 	],
 	"peopleBridge": [
@@ -1917,6 +1917,25 @@
 	],
 	"peopleToPeople": [
 		{
+			"id": "/personality-analysis/emma-stone -> /personality-analysis/madonna",
+			"source": {
+				"url": "/personality-analysis/emma-stone",
+				"file": "src/blog/people/drafts/Emma-Stone.md",
+				"outCount": 4
+			},
+			"target": {
+				"url": "/personality-analysis/madonna",
+				"name": "Madonna",
+				"inCount": 1,
+				"impressions": 0,
+				"position": null
+			},
+			"line": 116,
+			"anchor": "Madonna",
+			"excerpt": "At fourteen, Emily Stone made a PowerPoint presentation. She called it \"Project Hollywood 2004,\" set it to Madonna's \"Hollywood,\" and invited her parents to sit in her room. She gave them popcorn. The presentation laid out her plan: move to California with her mother, be homeschooled, audition for television and movies.",
+			"typeClaim": null
+		},
+		{
 			"id": "/personality-analysis/emma-stone -> /personality-analysis/andrew-garfield",
 			"source": {
 				"url": "/personality-analysis/emma-stone",
@@ -1933,6 +1952,25 @@
 			"line": 136,
 			"anchor": "Andrew Garfield",
 			"excerpt": "Around the same time, she fell in love with Andrew Garfield. They met in 2010 when he screen-tested opposite her for _The Amazing Spider-Man_ — she'd already been cast as Gwen Stacy, and the chemistry was visible from the first read. \"She keeps you on your toes, and that wakes you up,\" Garfield said later. They dated for four years. At the _Amazing Spider-Man 2_ premiere in 2014, a reporter assumed the relationship out loud, and Garfield cut him off mid-question: \"My personal life is not public property.\" Stone stood next to him in silence. She never needed to say it herself. By the time they split in 2015, she had learned the rule she has followed ever since: talk about the work, never about the life.",
+			"typeClaim": null
+		},
+		{
+			"id": "/personality-analysis/neil-strauss -> /personality-analysis/madonna",
+			"source": {
+				"url": "/personality-analysis/neil-strauss",
+				"file": "src/blog/people/drafts/Neil-Strauss.md",
+				"outCount": 6
+			},
+			"target": {
+				"url": "/personality-analysis/madonna",
+				"name": "Madonna",
+				"inCount": 1,
+				"impressions": 0,
+				"position": null
+			},
+			"line": 273,
+			"anchor": "Madonna",
+			"excerpt": "In 2011, between _The Game_ and _Emergency_, Strauss published a book almost everyone forgets: _Everyone Loves You When You're Dead: Journeys Into Fame and Madness_. A compilation of his interview outtakes — the material that didn't make it into the published profiles of Kurt Cobain, Madonna, Springsteen, [Lady Gaga](/personality-analysis/lady-gaga), Johnny Cash. The leftover sentences. The asides. The fragments.",
 			"typeClaim": null
 		},
 		{

@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-13</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -947,7 +947,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-13</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/aaron-pierre</loc>
@@ -1497,7 +1497,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-13</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -2830,6 +2830,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/madonna</loc>
+    <lastmod>2026-10-13</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/3s/Madonna.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/malcolm-gladwell</loc>
     <lastmod>2026-02-19</lastmod>
     <image:image>
@@ -4043,7 +4050,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/3</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-13</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>

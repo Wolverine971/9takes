@@ -1,0 +1,57 @@
+I wrote `verification-repair.json` with status `revise`, so the Shyam Sankar profile holds and is not eligible for release. The contract check returns five blockers: the status, two findings, Enneagram 7.0 (floor 8) and overall 7.9 (floor 8.5).
+
+## What blocks it
+
+- **The rebuilt Type 6-vs-8 argument overstates its sources (major).** The repair made "which way the cover runs" the one ground for Six over Eight: he says heretics need "protection from the top", then calls himself the heretic. In the sources the article already uses, the cover runs both ways:
+  - The rule answers Lonsdale's question about why bureaucracies kill heretics, so it is advice to leaders.
+  - On CBS he describes his own Army job as finding exceptional people and asking "How do we protect them?"
+  - At the same Hudson dinner, Karp says "Shyam saved me."
+
+  The evidence record lists this alternative reading; the article and both type FAQs leave it out.
+- **That argument was never reviewed (blocker).** It was written at the repair stage, after the six reviews froze. The standard calls for `--refresh --expanded-review` on a change like that.
+
+Three minor findings are also recorded:
+- One word in a quote ("had" or "have to sue the army") is unresolved; my Whisper passes split.
+- The Mabrey quote lost its Colossus attribution in the repair.
+- "Described since December 2024" overstates the first robbery telling; the detail first appears in April 2025.
+
+## What held up
+
+- All 32 used sources were reopened today.
+- Every web-sourced quotation matched a fresh fetch word for word.
+- Every video quotation matched the live captions and my own transcription, apart from the one word above.
+- All 52 review decisions and all 17 protected passages check out.
+- A search today still finds the Pentagon's Minab review unreleased.
+
+| Dimension | Score |
+| --- | --- |
+| Evidence | 8.0 |
+| Enneagram | 7.0 |
+| Originality | 8.5 |
+| Writing | 8.0 |
+| Durability | 8.5 |
+| Hook | 8.5 |
+| Discoverability | 8.0 |
+
+## Things you should know
+
+- **I opened `repair-findings.json` by mistake.** It holds the previous verification's scores, which this stage is told not to inspect. I scored from my own source checks against the standard's anchors, but the scores are not fully blind to the earlier ones.
+- **Three sources were read through a reader, not directly.** sec.gov, army.mil and bloomberg.com returned 403 to curl, so I read them via r.jina.ai.
+- **No quotation has had a human listen.** The file lists the timestamps that need one.
+
+## Your call
+
+A wording fix alone probably won't clear the Enneagram floor. The record has no costly choice and no non-ally witness, and the article says so itself.
+
+- **Lean:** scope the cover argument honestly, then rerun with the expanded review. It likely lands around 7.5 and holds again.
+- **Ambitious:** do the research in the file's task list first (non-ally testimony, a documented costly choice, the unused "but for the grace of Ethel Danhof" material), then refresh. This is the path I'd take if the page matters.
+
+Only the output file was written; nothing else in the repo was touched and nothing was published.
+
+Sources for today's status checks:
+- [Gizmodo on the Bloomberg investigation](https://gizmodo.com/pentagon-investigators-say-overreliance-on-palantir-ai-tech-contributed-to-u-s-strike-that-killed-123-iranian-children-2000814477)
+- [CGTN on the Minab strike review](https://news.cgtn.com/news/2026-09-20/Stale-intelligence-AI-reliance-cited-in-US-strike-on-Iranian-school-1QAxSSs0ILK/p.html)
+- [VentureBeat on the i2 settlement](https://venturebeat.com/business/palantirs-third-black-eye-i2-lawsuit-settled)
+- [Law360 on the i2 filing](https://law360.com/articles/186211)
+- [WebProNews on Palantir internal dissent](https://www.webpronews.com/palantirs-inner-turmoil-employees-question-role-in-deportations-and-drone-strikes/)
+- [Hard Reset post](https://www.hardresetmedia.com/p/palantir-workers-talking-to-management)

@@ -1,0 +1,69 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Madonna.md`
+
+**Before score: 8/10**
+**After score: 9/10**
+
+This was a headless pipeline run, so I applied the fixes without asking. Lint is still 0 fail; the body went from 4,379 to 4,436 words (ceiling 4,500).
+
+### Central Thesis
+
+Madonna is a Type 3 whose mother's unmourned death taught her that being unseen means being erased, so she keeps auditioning for a job she already holds: no win stays won.
+
+### Thread Map
+
+| Section | What it contributes | Link to next (before) |
+| --- | --- | --- |
+| Intro | $35 cab to Copacabana; she never performs like the incumbent | Adequate (template puts the type verdict first) |
+| Type 3 + Why not 8 or 1 | Shame loop, "I still have to prove," her discipline answers to the audience | **Weak**: intro promised Pontiac, nothing handed back to it |
+| Childhood | Silence after the death; being seen keeps you out of the silence | **Weak**: ends in her 2026 kitchen, next opens in 1978 |
+| $35 Story | The zero the scoreboard counts from; the city took everything and she stayed | Adequate |
+| Discipline | Chaos agent in public, foreman in the room, always filming | **Weak**: ended on a 2026 pull-quote, next opens in 1992 |
+| 1992 | Sex backlash, hooks conceded, the radar named | Strong |
+| After a Backlash | Provoke, absorb, recalibrate, win | Strong |
+| Won't Age Gracefully | Fading is the invisibility she watched happen to her mother | **Weak**: close-up to coma with no bridge |
+| Still Performing | Coma, the second thought, 2026 wins, still answering 1984 | **Weak**: inner loop to legacy |
+| Center of Everything | The scoreboard is settled; audiences go home | n/a |
+
+| Check | Before | After |
+| --- | --- | --- |
+| Through-Line Clarity | 9 | 9 |
+| Promise-Delivery Match | 9 | 9 |
+| Reader Mental Model | 8 | 9 |
+| Section Transitions | 7 | 9 |
+| Internal Paragraph Flow | 8 | 9 |
+
+### Changes Made (12 total)
+
+**Transition Fixes (5, plus one from the reorder):**
+- **Type section → Childhood:** added "How an audience got that much authority over her goes back to the quiet house in Pontiac." It picks the intro's promise back up.
+- **Childhood → $35 Story:** the opener now starts "She left the Michigan scholarship at nineteen for New York, and she has told the arrival story…"
+- **$35 Story → Discipline:** the opener now starts "Two years after the deal," so the jump from 1982 to 1984 reads as deliberate.
+- **Won't Age Gracefully → Still Performing:** added "In 2023 she was handed a reason to stop." ahead of the coma, so the H2 question connects to the scene.
+- **Still Performing → Center of Everything:** added "The scoreboard was settled decades ago." It carries the intro's scoreboard into the legacy paragraph.
+- **Discipline → 1992:** fixed by the reorder below. The section now ends on "Madonna films things" and the next opens on the Sex book.
+
+**Internal Flow Fixes (4):**
+- **Discipline, reordered:** Stuart Price's "no off switch" quote moved up beside Patrick Leonard, so both producers back the "foreman" claim together. The old lead-in "Thirty-five years after Beatty said it" pointed back across two graveside paragraphs. It now reads "described the same woman to Attitude magazine in 2026."
+- **Childhood, last paragraph:** "The thread runs forward" became "The loss runs forward." Coming right after the Flynn paragraph, "the thread" read as Flynn.
+- **After a Backlash:** "Those years also held" became "Behind that cycle sit." The list includes a Sean Penn marriage that ended in 1989, before "those years."
+- **Still Performing:** "Her own near miss was one of several" became "came inside a string of family deaths." What follows are deaths, not near misses.
+
+**Reader-Context Fixes (3):**
+- **$35 Story:** the unnamed "ballroom of executives, in 2016" is now tied to the Billboard award named in the type section.
+- **1992:** Flynn returns as "the ballet teacher," about 1,200 words after his introduction and with a second Christopher now on the page.
+- **Won't Age Gracefully:** "a No. 1 album" is now dated July 2026, since the album is not introduced until the next section.
+
+**Orphaned Threads (0 removed):** one flagged below.
+
+### What Was Preserved
+- All frontmatter fields, all four ledgers, and the review and second-pass notes.
+- Both video embeds, the timeline, the inner-thought block, the Rabbit Hole, and the pull-quote (moved intact).
+- All 6 internal links, every heading, every quote and date.
+- Three transitions untouched: Intro → Type (template order), 1992 → After a Backlash, After a Backlash → Won't Age Gracefully.
+
+### Remaining Concerns
+- **Your call: how the Discipline section ends.** It used to close on Price's "no off switch" pull-quote; it now closes on Christopher's unresolved challenge to the mother story. I think that gives the skeptic's case its weight and sets up 1992 better, but it is a different closing note. Reverting means moving one block back.
+- **Length is 64 words under the lint ceiling.** The bridges cost 57 words. Any later stage that adds copy will fail lint unless something is cut first; the ledger's own cut candidates are still the place to look.
+- **Sean Penn appears once and never again.** That "chapters the highlight reel skips" paragraph reads like a coverage list, and only the Rocco custody fight pays off. Cutting the Penn clause would tighten it.
+- **Small overstatement in the closing argument.** "She spent the speech on the person who told her she was finished" comes right after a quote from the part of the speech where she "turned serious." I left the wording alone.
+- **Stale ledger pointer.** The fingerprint ledger's "Interior beat" line still names the old H2, "What Nearly Dying Changed About Madonna." I did not edit ledgers.

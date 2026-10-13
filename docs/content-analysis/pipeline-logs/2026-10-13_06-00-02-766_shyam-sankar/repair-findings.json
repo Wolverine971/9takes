@@ -1,0 +1,35 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "verification:metadata_consistent",
+    "unresolved:verify-01:The quotation \"my wife\" is not Sankar's. The only \"my wife\" in any opened source is in the Meta conversation (S14, 45:23), and the speaker is the host, Andrew Bosworth. Sankar's answer about his production company runs from 44:15 to 45:18 and ends \"for our children, like I want them to see movies with heroes that are real heroes\"; the host then replies \"That's right. Yeah, I agree with you so strongly on that. And I'm a huge movie buff. My wife and I kind of go every week to catch a film on date night\"; Sankar resumes at 46:00. A search of every saved caption track and every re-fetched text found no first-person reference by Sankar to a wife. The evidence record repeats the error (C34; S14 context: 'Source for \"my wife\" and \"my son\" in his own voice'). The underlying fact is supported another way: Joe Lonsdale introduces him on camera as \"a husband and a father\" (S07, 05:29) and he answers without correcting it, and \"my son\" and \"my daughter\" are his own words (S16, 01:31:08, caption-only).",
+    "unresolved:verify-02:Misquotation by one word that changes the tense. The YouTube original-language caption track (S08, 09:30) reads \"You know we had to sue the army to compete at some point\", and an independent Whisper medium.en transcription of the saved audio made for this verification reads \"You know, we had to sue the army to compete at some point.\" Only the research stage's small.en pass gives \"have\". \"Had\" is also the reading that fits the 2016 lawsuit the next paragraph describes. The article prints the disputed word inside quotation marks, in the Type 8 argument.",
+    "unresolved:verify-03:An opened source in the evidence record contradicts this. In the ARK Invest interview posted September 28, 2023 (S15, 01:57 to 02:13, original-language captions) he says he came to Palantir \"because of the mission\", that he grew up \"as a child essentially of refugees\", that \"we fled violence in Nigeria\", and that he was \"raised with the immense gratitude of understanding the counterfactual every single day of how lucky I was to be in this country\". That is the gratitude-and-counterfactual account thirteen months before \"The Defense Reformation\". The record's S15 context note (\"no family material\") and C177 are wrong, and the fix accepted for future-04 rests on them. The same error colours \"Sankar has been repeating it since at least December 2024\" and \"the night he has described in interviews since December 2024\": those dates hold for the \"dead in a ditch in Lagos\" sentence and the robbery details, but the frame is documented from 2023. The article names this absence as part of why confidence stays at medium, so the reader is given a weaker record than the one opened.",
+    "unresolved:verify-04:Scored against the standard's Enneagram anchors, the type argument is honest and seriously tested but stops short of the release floor for a standard profile. By the article's own account no observation separates a bold Six from a loyal Eight (\"none of them settles it\"; \"the record is empty\"), no costly choice is shown that the Six motive explains better than pay or position (\"None of these deferrals cost him anything\"; \"Loyalty and money point the same way\"), and Types 1 and 3 are both left live. The material in the record that a loyal-Eight reading predicts least is on the page but is not used in the 6-versus-8 test: his own rule that a heretic needs \"protection from the top\", the \"rabbi ... guru ... parole officer\" description of Karp, and a gratitude account that predates the public campaign (verify-03). This is a limit of the argument as built on this record, not a wording slip.",
+    "unverified_claim:C34",
+    "unverified_claim:C147",
+    "unverified_claim:C177",
+    "unverified_source:S14",
+    "unverified_source:S15",
+    "unresolved_review:future-04",
+    "overall_below_8.5:8.1",
+    "enneagram_below_8:7.5"
+  ],
+  "quality": {
+    "evidence": 8,
+    "enneagram": 7.5,
+    "originality": 8.5,
+    "writing": 8,
+    "durability": 8.5,
+    "hook": 8.5,
+    "discoverability": 8,
+    "overall": 8.1,
+    "letter": "B",
+    "rubric_version": 3,
+    "graded_at": "2026-10-13",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "8ef00897e7453bdce83eb4b9a15f1eece9fafee993525fba5b9c18852fa3cafd"
+  }
+}

@@ -1,0 +1,21 @@
+The critic review is written to `review-critic.json` and validates against `reviewSchema`; both hashes match the frozen draft and evidence, and every finding and protected passage is an exact match in the draft. No other file was modified and nothing was published.
+
+The draft discloses adverse evidence but then softens or sidelines it, and several supports for the Type 6 call do not hold up against the sources. I raised eight major and two minor findings, with five protected passages.
+
+**Major findings**
+- **critic-01 — father's role:** the draft says his father decided both early career moves. Colossus shows that only for Xoom, where the father backed what Sankar already wanted; Sankar chose Palantir himself.
+- **critic-02 — crisis call:** the "forecast failure, came away steadier" reading is the main argument against Type 8. In both tellings he blames sleep-deprived grumpiness, and the call came after the customer approved the product. "Came away steadier" and "the one person he trusted" are in no source.
+- **critic-03 — "never started a company":** Colossus says he started a movie studio, and his 2024 House biography has him chairing Ginkgo Bioworks' board. "Deputy since 2006" is also unsupported.
+- **critic-04 — Minab strike:** the draft describes a strike that "hit a school". The question as aired said it killed at least 123 schoolchildren, and the cited Gizmodo piece says more than 150 dead.
+- **critic-05 — deference:** each of his three deferrals came when accountability was the question, and the draft strips the ICE and surveillance context from two Colossus quotes. It also omits Palantir's 2016 suit against the Army.
+- **critic-06 — origin story:** he said "refugees fleeing violence" in 2024 and "we came here legally" in 2025, while Colossus has the family returning to India and coming to Orlando for a job offer. The body is silent on this.
+- **critic-07 — fear denial:** the draft says it will take his denial at face value and then doesn't. It leaves out his "alone and not afraid" material and the shame evidence that would favour Type 3.
+- **critic-08 — opening quote:** "earn your place every day" continues "…your product has to be 10 times better", said about early Palantir. The draft presents it as a present-day personal confession.
+
+**Minor findings**
+- **critic-09:** Stern's "he does actually believe it" is quoted without his caveat that sincerity and performance are hard to tell apart, and the draft doesn't disclose that several source venues are allied to him.
+- **critic-10:** the i2 allegation is reported carefully but never weighed against the "loyalist" thesis or the "completely honest" anecdote.
+
+Risk flags are `sensitive_allegations` and `contested_typing`. Once these are repaired, what remains for Six over Eight is long tenure, a gala tribute and one colleague's reading. The assessment says medium confidence has to be re-argued, and that the honest fallback is `insufficient_evidence`, since a twenty-year record rules out an open case.
+
+I fetched Colossus, the Hudson transcript, VentureBeat, Gizmodo, Military.com and the Revolving Door Project page fresh. For the interviews I relied on the run's saved captions and Whisper clips, so caption-only wording is not confirmed by ear. I did not open the Bloomberg investigation or the i2 complaint. Similarity was not tripped, and I raised no reuse finding.

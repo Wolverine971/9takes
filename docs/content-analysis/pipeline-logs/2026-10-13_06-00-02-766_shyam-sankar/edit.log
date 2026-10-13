@@ -1,0 +1,47 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 5c6be9c7-adda-45f9-8aec-5a87f8664d1e to write outputs
+The edit stage is complete: all three outputs are written and pass the contract's checks. The article still needs independent verification, and I only wrote files in the run directory.
+
+## What changed in the article
+
+- **Type call:** still Type 6 at medium confidence with Type 8 as the main rival, but the case is now cumulative and hedged, with a loyal-Eight test replacing the rebel test.
+- **Four supports withdrawn** after the reviewers' source checks held up:
+  - his father deciding both career forks (only Xoom, and it backed what he wanted);
+  - being "steadied" by Karp in two crises (one sleep-deprived call after a win; the second story is cut);
+  - "earn your place every day" as a personal statement (it is about early Palantir);
+  - "deputy since 2006" and "never started a company" (the record contradicts both).
+- **Added:** the 2016 Army lawsuit, McGrew's bet-the-company testimony, his sunny manner as counterevidence, a real Type 1 and Type 3 test, and his own "I nail this treatise…" line for the loyal-heretic idea.
+- **Minab strike:** kept, with the death toll attributed, his fuller answer, and a plain statement that the reporting is not about his own conduct.
+- **i2 lawsuit:** now sourced to the complaint itself and the defendants' motion to dismiss, with the denial of that motion and his unread answer stated.
+- **Metadata:** description, both type FAQs, the parents FAQ and the salary FAQ anchor are reconciled; date, lastmod, published, person and loc are untouched.
+
+## Checks
+
+| Check | Result |
+| --- | --- |
+| Words | 4,460 (ceiling 4,500) |
+| Contract draft check | no blockers |
+| Evidence validation | passes; 165 claims, 36 sources |
+| Findings adjudicated | 52 of 52, all marked fixed |
+| Protected passages | 13 kept verbatim, 4 changed with reasons |
+| Quotations | 86 matched by script to saved source text |
+
+## Things you should know
+
+- **Length is tight.** The first pass ran 5,883 words. To get under the ceiling I cut the second Karp story and parable, Karp's New Hampshire and brother remarks, "weeks of revolt", the Torah sentence and Stern's sincerity verdict. A repair pass has about 40 words of room.
+- **Some "fixed" findings are only partly met to the letter.** The resolution says so where it applies, for example the lawsuit sits in the Type 8 section rather than the deference section, and the Type 1 test sits later than the reviewer asked.
+- **I kept the record at ready/medium and did not flag a major thesis change.** The type and rival are unchanged and the rebuilt argument follows the reviewers' own prescriptions. The critic's position was that if no discriminator survives, the honest outcome is a research hold. The verifier may disagree with my call.
+- **Bloomberg was read through a third-party reader**, because the site returned 403. That access route is disclosed in the record, and rereading it on bloomberg.com before release is carried as a research task.
+- **The Pentagon review status rests on a thin check.** One web search found no report of a release, but its newest results were from July 2026; the stronger basis is his own October 11 "wait for the final report".
+- **Still unverified:** no human has listened to any quotation; "dictator", "my wife" and "my daughter" rest on auto-captions alone; Sankar's own answer in the i2 case sits behind PACER and was not read.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/`:
+- `edit.md`
+- `evidence-edit.json`
+- `resolution-edit.json`
+
+Sources for the review-status search:
+- [Senators demand Pentagon reveals outcome of Minab school strike probe](https://www.radiox.co.uk/news/uk-world/senators-demand-pentagon-reveals-outcome-of-m/)
+- [Gillibrand press release](https://www.gillibrand.senate.gov/?p=39676)
+- [Report: CENTCOM 'Locked Down' Investigation Into Strikes on Iranian School](https://libertarianinstitute.org/news/report-centcom-locked-down-investigation-into-strikes-on-iranian-school/)
+- [Hegseth announces Pentagon probe into deadly strike on Iranian school](https://www.foxnews.com/politics/hegseth-announces-pentagon-probe-deadly-strike-iranian-school)

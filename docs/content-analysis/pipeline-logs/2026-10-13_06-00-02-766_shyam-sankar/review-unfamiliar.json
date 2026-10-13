@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "4e0680b630d4558790dca8d78fc08be5499070962bf26a8947337384f93913fe",
+  "evidence_sha256": "420561ab0fd83763c0c750c32f8d9cba8a915685413daf721f9f20e99f186c6d",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "Stern also recorded the one time the good cheer cracked.",
+      "problem": "\"The good cheer\" has no antecedent. By this point the page has shown a self-described heretic and \"dictator\" who sends midnight critiques and was \"freaking out\" at his boss. It never says how he ordinarily comes across. The evidence record lists exactly that as evidence against the Type 6 read (observers describe \"childlike optimism\"; Kevin Hartz calls him a \"perfect boy scout ... very enthusiastic and positive; very good energy\"; a podcast host's premise is that he seems \"very likable\") and as unexplained (\"steady optimism, love of puns ... sit oddly with a threat-watching temperament\"). None of it is in the article. A first-time reader never meets the man in the room, and the type argument reads cleaner than the record behind it. Stern's own wording is that the indignation broke \"the facade of childlike optimism for the only time during our interviews\"; the draft paraphrases a trait it has not shown.",
+      "acceptance_test": "Before this sentence the article shows, with at least one attributed and sourced observer description, how Sankar ordinarily presents, and says in plain words that a sunny, unanxious manner is something a fear-type read has to account for. A reader who has only this page can say what he is like in a room, and \"the good cheer\" (or Stern's quoted phrase) points back to something already on the page. Any added quotation enters the claim inventory."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "Margaret Brennan asked about a February 2026 U.S. strike that hit a school in Minab, Iran, and a Bloomberg report that Pentagon personnel had relied too much on Palantir's Maven system.",
+      "problem": "The article calls this \"the hardest test\" but a reader with no background cannot see why. Maven is never explained (the record describes an AI tool built by Palantir whose role in identifying the site is the question). \"Hit a school\" leaves out that people died: the one published account opened for this passage says the missiles killed more than 150 people, at least 123 of them children. That figure reaches the reader only inside a citation URL. Without those two facts the weight of \"Sadly, I'm just a technologist\" is not legible, and the understatement reads as softening. This is also the only place the article shows what Palantir's work can cost, so the stakes of the whole \"heretic who defers\" argument sit here.",
+      "acceptance_test": "The paragraph says in one clause what Maven is and states, attributed to the published report and with the record's caveat that counts differ by outlet, that the strike killed civilians including children. The existing limits stay (review unreleased, unnamed officials via a summary, Palantir's response, \"any contractor's executive would defend the product\"). The added facts enter the claim inventory as disputed or unresolved with the existing review trigger. No sentence assigns fault to Sankar or Palantir beyond what the cited report and his own answer say."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "major",
+      "passage": "Every one of these stories comes from Sankar or Karp, and several were told at a dinner honoring Karp.",
+      "problem": "The section that carries the main discriminator has about a dozen quotations, no links, and for most no venue or date. The reader is told \"several\" came from a dinner but not which. In the record the 2008 deployment story as quoted, the rabbi and parole officer line, the New Hampshire visit and the brother remark all come from one event (the Hudson Institute's Herman Kahn Award dinner, November 11, 2025, where Sankar gave the introduction and Karp replied); the \"freaking out\" story is from Colossus; the \"sheepishly\" story is from a March 2026 podcast. The same event is called \"an award\", \"the gala\" and \"a dinner\" across three sections and is only explained in the article's last paragraph. Karp's joke about Sankar's father (\"he mentioned\") is introduced as \"with Sankar in the room\" when Sankar had just introduced him. \"Why not Type 8?\" also has no links, and its \"weeks of revolt\" and Mabrey quotations name no venue. The standard asks for quotations to be linked at the passage with source and date where context needs it. Context matters here: a prepared tribute speech is a different kind of evidence from an interview answer.",
+      "acceptance_test": "At its first mention the event is identified once (what it was, the date, that Sankar introduced Karp and Karp answered) and later references use one consistent label. Each story in \"What he does when it is going wrong\" and each quotation in \"Why not Type 8?\" says where it was said, with a link at the first use of each source in the section. A reader can tell from the page alone which stories were told from the gala stage."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "major",
+      "passage": "Both times he forecast failure, carried it up to the one person he trusted, and came away steadier.",
+      "problem": "The second story stops at Karp's \"Let me tell you a story.\" The page never says what the story was or how Sankar says it landed. For the first story the steadying is shown (the laugh, \"least of all, not me\"). For the second it is only asserted, one sentence after a cliffhanger. The evidence record calls this pairing the main discriminator against Type 8 and notes that Karp answered with a parable, so the material appears to exist. As written, half of the article's key inference is not on the page.",
+      "acceptance_test": "Either the article gives the point of Karp's story and Sankar's account of its effect, quoted or paraphrased from the Colossus text and added to the claim inventory, or the summary is narrowed to what the page shows: he took the alarm to Karp both times, and the outcome is shown only for the first."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "major",
+      "passage": "The record shows something else on each count.",
+      "problem": "Three tests are set (a break after being overruled, resistance to being number two, anger at being managed) and four bullets answer them without mapping onto them. Two bullets (the Mabrey reading and the weeks of revolt) address neither of the last two tests directly, and the first test is answered only by silence. The article itself later says nobody who fought him is on record and that what he does when Karp or the Army is wrong \"is the test that would settle this.\" So on the count that matters most the record shows nothing, which is different from showing \"something else.\" The evidence record's own counter-case also notes that his company sued its customer, the Army, twice (no source ID is attached there); the article does not mention it in a section arguing deference. A careful newcomer can see the mismatch from the page alone, at the hinge of the type argument.",
+      "acceptance_test": "Each bullet is tied to the test it answers, or the lead-in is reworded so it no longer promises a count-by-count rebuttal. Where the answer is the absence of a recorded break, the text says so and connects it to the ally-only record. The Army lawsuits are either addressed with a dated source and a sentence on what they do or do not show about him personally, or the resolution records why they are left out."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "In an interview posted the next day he said that after 19 years he \"had a duty to at least articulate\" his views.",
+      "problem": "The blockquote above this line (\"I'd say I'm a bit reluctant about the shift...\") has no venue, date or link, so \"the next day\" has nothing to count from. The record places the blockquote in an interview posted March 10, 2026 and this line in one posted March 11. Two sentences later, \"That is the Six pattern in a single answer\" joins the alarm from the first interview to the doubt from the second; as laid out they are two answers. The record also notes the admission of doubt appears only in this one interview and that the matching wording suggests a prepared line, which a reader weighing \"the Six pattern\" would want to know.",
+      "acceptance_test": "The blockquote is attributed with venue, date and link. \"The next day\" is replaced by or anchored to dates. \"In a single answer\" is made true by quoting the one answer that holds both the obligation and the doubt, or it is reworded. The text does not present a once-stated doubt as habitual."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "So the two boldest moves of his twenties are told as obedience.",
+      "problem": "The section opens with \"He wanted the risky option, and his father made the call\" and ends on \"obedience.\" Being told to do what you already wanted reads as permission or blessing, and a newcomer notices the switch. At the second fork the page shows no instruction from the father at all, only \"Dad was right,\" while the heading says the father \"decided\" both.",
+      "acceptance_test": "The section gives one consistent account of what Sankar says he wanted at each fork and what his father did, in sourced words. At the Palantir fork the father's part is shown from the source or the claim is narrowed to \"he credits his father.\" The summary word matches what the quotations show."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Asked about the conflict on CBS, Sankar pointed to the institution's process: \"it's carefully managed by the lawyers in the department.\"",
+      "problem": "\"The conflict\" has never been stated. The article does not say what Detachment 201 is (the Army describes a part-time senior-adviser program that commissioned four tech executives), who \"the four\" are, or that the concern is an officer whose employer sells to the Army. Other first mentions also assume knowledge. \"Head triad\" and the fragment \"Fear, as opposed to anger or shame.\" presume the reader knows the Enneagram groups nine types under three core emotions; \"gut triad\" arrives four sections later. \"Told Colossus\" appears before Colossus is identified as a magazine profile. \"The scholarship kid's memory of prep school\" comes one section before Trinity Prep is introduced. \"His essays\" and \"The series\" appear with no word on what he writes or where. \"They\" in \"the rules by which they work\" has no referent. Patrick O'Shaughnessy is named without his show. Each is small. Together they make a first-time reader stop and guess.",
+      "acceptance_test": "From the page alone a first-time reader can say what Detachment 201 is and what the conflict-of-interest question is, with the Army's or Sankar's answer kept. One or two plain sentences after the 60-word answer (not inside it) say what the Enneagram's three groups and core emotions are. Each other term listed is glossed in a clause at first mention or reordered so its explanation comes first. No gloss adds an unsourced fact."
+    },
+    {
+      "id": "unfamiliar-09",
+      "severity": "minor",
+      "passage": "One allegation in the record is aimed at his personal conduct.",
+      "problem": "The i2 lawsuit is recited (docket, complaint as relayed, settlement) and then dropped for \"Other things stay open.\" The reader is not told why it belongs in a personality profile or what it would bear on if accurate. It sits under a heading about what the record cannot show, beside his father's name. The evidence record says the episode is the kind of rule-bending for the mission that his heretic creed, and his \"completely honest\" self-description, would have to account for. As written it reads as an orphaned fact or as insinuation.",
+      "acceptance_test": "The passage says in one or two conditional sentences what the allegation would test in this portrait if it were accurate, keeping every existing limit (the plaintiff's account as relayed, no ruling, no statement from Sankar) and adding no new claim about his conduct. If the editor keeps it as a bare record item instead, the resolution gives the reason."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "He holds a rank in the institution he says he is looking in on. And he still describes his place as something he has to earn every day.",
+      "reason": "States the article's contradiction in two plain sentences within the first screen. A reader who knows nothing about Sankar knows what the profile is going to explain."
+    },
+    {
+      "passage": "The pattern runs in a few plain steps. A Six finds a person, a group or a cause that feels solid. They commit to it. They keep watching for whatever could break it. And they push on it, sometimes loudly, because pushing on a thing is how you find out whether it holds.",
+      "reason": "The clearest part of the type explanation for a newcomer. It gives a sequence the reader can test against every later section, with no jargon."
+    },
+    {
+      "passage": "Everything in this section is the family's story as Sankar tells it. No police report, news account or outside witness has turned up, and he was about three years old.",
+      "reason": "Tells the reader how much weight to put on the origin story before the story is told. It builds trust instead of hiding the limit in a footer."
+    },
+    {
+      "passage": "So his heretic is a loyalist with a sponsor. The rule gets broken for the institution, by someone inside it, with cover from above.",
+      "reason": "The profile's most original idea, stated plainly and earned by the Danhof story and his own two requirements. It is the thing a first-time reader will remember."
+    },
+    {
+      "passage": "Leaving a party proves nothing. It does match the answer he gave Lonsdale the following spring. He is inside every room that matters to him, and by his own description he is still looking in.",
+      "reason": "Closes the loop with the opening exchange through an observed detail and declines to overread it. The ending lands without a moral or a call to action."
+    }
+  ],
+  "assessment": "Read cold, this profile works. The Lonsdale exchange creates a real question in the first screen, the identity paragraph answers \"who is this\" fast, and the sections move in a sensible order: origin, the father's forks, behavior under strain, the Type 8 rival, the heretic idea, the public turn, the limits. A newcomer finishes knowing who Sankar is, why the page says Type 6 at medium confidence, why not Type 8, and one idea worth keeping (a heretic who needs a sponsor). The honesty about sourcing is a strength a first-time reader can feel. The gaps are of four kinds. The person is missing: the page never shows his ordinary manner, which the record lists as counterevidence, and then leans on \"the good cheer.\" The stakes are muted where they are highest: the Minab paragraph does not say what Maven is or that children died. The reader often cannot tell where a quotation was said, most seriously in the section carrying the main discriminator, where one tribute dinner goes by three names and one of the two crisis stories is cut off before the outcome the article claims for it. And the Type 8 rebuttal promises a count-by-count answer it does not deliver. Smaller orientation gaps (Detachment 201 and the unstated conflict, the triads, a dangling \"the next day\") are grouped in the minor findings. Similarity: the advisory did not trip. I compared the listed pairs using the diagnostic's own excerpts, since other drafts are outside this review's inputs. The overlaps are generic Type 6 explainer lines (testing whether something holds, walking toward the worry) confined to the type section; the argument specific to Sankar is not shared with any listed draft, so no reuse finding is raised. Risk flags: I agree with the record on sensitive allegations (the i2 claim touching his father, the Minab strike) and contested typing (the subject denies the fear premise, Type 8 is live, every witness is an ally). Limitation: this role did not reopen sources. Statements about what the record contains rely on the supplied evidence file's excerpts and notes, and the Army-lawsuit point in unfamiliar-05 rests on a note there with no source ID."
+}

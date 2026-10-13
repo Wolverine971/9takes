@@ -1,0 +1,22 @@
+The fan review is written to `review-fan.json` in the run directory. It validates against `reviewSchema`, the hashes match the request, and every finding and protected passage matches the draft text exactly. I wrote no other file and did not open the other review.
+
+The review has nine findings (six major, three minor) and five protected passages. None of them overturns Type 6 over Type 8; they are places where the draft reads his best-known material selectively.
+
+**Major**
+- **fan-01, Army lawsuits missing:** the Type 8 test says the record shows no break with authority, but he describes Palantir suing the Army in three opened sources. One is the sentence right after a quote the draft already uses.
+- **fan-02, Karp crisis stories reshaped:** "worst early moments" and "came away steadier" are not in the sources. The 2008 call came after the customer called the product useful, and he blames sleep deprivation both times he tells it.
+- **fan-03, heretic idea narrowed:** "a loyalist with a sponsor … by someone inside it" contradicts his own examples, which include outsiders who fought the institution and insiders who paid with their careers.
+- **fan-04, "deputy since 2006":** unsupported in three places (description, FAQ, Type 8 bullet). He was hired to lead business development, and the first senior title in the record is chief operating officer by 2021.
+- **fan-05, father's-forks section:** it skips the risks nobody ordered (the CIA attempt after 9/11, a failed college company). The Xoom timeline also conflicts with his own 2025 telling.
+- **fan-06, "two decades out of public view":** contradicted by the biography he gave Congress in September 2024, a 2023 investor interview and a 2012 TED talk.
+
+**Minor**
+- **fan-07:** two quotes are moved off their subject. "Earn your place every day" is about the company, and "the primacy of winning" is his gloss on American Greatness.
+- **fan-08:** the Lagos section omits his own "inside job" detail and his happy account of Orlando.
+- **fan-09:** he said "refugees" in 2024 and "we came here legally" in 2025; the draft never puts the two side by side.
+
+- **Sources:** I checked against the research stage's saved captures in `/tmp/shyam-sankar-research`, not fresh fetches, and caption-only wording was not checked by ear.
+- **Length:** the draft is at 3,757 words, so the additions these findings ask for need cuts to stay under the ceiling.
+- **Finding count:** nine is one over the "at most eight" target.
+- **Similarity:** the advisory did not trip (maximum 0.058), so there is no reuse finding.
+- **Risk flags:** sensitive allegations and contested typing are carried over from the evidence record.

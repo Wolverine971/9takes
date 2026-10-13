@@ -1,0 +1,34 @@
+## Grading Complete: Madonna (stability regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Madonna | 9 | 8.5 | 8.5 | 8.5 | 8 | 8 | 8.5 | B+ |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7` = 59.5 / 7. No caps applied.)
+
+**Treat this as on the line between B and B+.** The two earlier grades in this run were both 8.4, and I read them only after locking mine. The whole 0.1 gap is one half point on Originality, which I moved from 8 to 8.5 during bracket reconciliation. Confidence is medium.
+
+- **Bracket:** it beats the Matt-Smith anchor (8.0–8.4) clearly on Evidence and loses to Peter Thiel (9.0–9.4) on Originality.
+- **`needs_review`:** I left it `false`; the post-revision grader had set it `true` because the letter hangs on half-point calls. Flip it if you want a human look enforced.
+- **Stability fields:** I did not write `first_overall`, `regrade_overall` or `grade_stability_delta`; the runner's stage 9.2 records those.
+
+### Key observations
+
+- **Sourcing is the strength.** Every load-bearing quote names outlet and year (6 inline, 2 vague, 0 untagged). I traced six 2026 quotes to Interview and Attitude word for word, and both video embeds resolve to the official MTV and Billboard uploads.
+- **The page cross-examines its own thesis.** "Nearly everything known about her mother's death comes from Madonna, and Madonna films things" is the best move in the piece, alongside the hostile-witness sibling and bell hooks left without a rebuttal.
+- **The ceiling is the thesis.** The mother wound is her own 1991 self-diagnosis and the best-known reading in print. The two new ideas arrive late, as asides: aging as the invisibility she watched happen to her mother, and the wound story as something she authored and filmed.
+- **The last third reads as an itinerary.** "Why Is Madonna Still Performing?" packs nine dated beats into 619 words, and the page is 4,408 words against a 3,200–3,900 band.
+- **One contradiction in the type argument.** "Why not Type 8" says outrage alone rarely moves her, but the backlash section's example is her pulling the American Life video before release, on outrage she expected. One conceding clause fixes it.
+- **Smaller items:**
+  - The 2016 Billboard speech narrates four sections.
+  - hooks is paraphrased with no quoted words.
+  - Seven of ten sections close on a one-line aphorism.
+  - Nothing conveys what the music feels like.
+  - Neither `meta_title` nor `description` says "Type 3".
+- **Sameness and formula checks are clean.** Contrast pairs are 0 by script, same-type similarity peaks at 0.032 against a 0.04 threshold, and there is no near-verbatim reuse against the four most recently graded drafts.
+
+**Your call:** the biggest writing fix is cutting about 500 words from the last third, and the revision pass says those paragraphs are held by PROTECT-11 and PROTECT-12 from the perspective jury. Cutting them means overriding the jury.
+
+The grade block is in the frontmatter of `src/blog/people/drafts/Madonna.md`, and the full feedback is in `docs/content-analysis/grades/Madonna.review.md`.
+
+**Total graded this session: 1**

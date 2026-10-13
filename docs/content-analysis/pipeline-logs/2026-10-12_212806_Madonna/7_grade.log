@@ -1,0 +1,28 @@
+## Grading Complete — Madonna
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Madonna | 8.5 | 8.5 | 8.5 | 8.5 | 8 | 8 | 8.4 | B |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7` = 58.75 / 7. No caps applied.)
+
+The grade is in the draft's frontmatter and the full feedback is in `docs/content-analysis/grades/Madonna.review.md`. I only added the grade block to the draft; the FAQ text and `lastmod` are untouched.
+
+**Bracket:** it beats the Alex-Warren draft (C) and loses to Peter Thiel (A). The closest anchor is the Matt-Smith draft (B): Madonna sits at the top of that band, ahead on sourcing and formula cleanliness, behind on length and tonal range.
+
+### Key Observations
+
+- **Two FAQ answers say more than their sources.** The pipeline's verification gate failed on this same item, and it is still open.
+  - FAQ 1 presents the 2023 tour-postponement notice as a record of what she thought on waking. The body words it correctly.
+  - FAQ 2 says she accepted the VMA "by retelling" the 1984 night. The body says she opened her speech on it.
+  - This is the only thing holding Discoverability at 8.5 instead of 9, and it is a two-sentence frontmatter fix.
+- **The Type 8 tiebreaker has an unsourced leg.** "Each followed her lowest-selling album to that point" appears in the body and in FAQ 3 with no figure or publisher. The 1992 section never says Erotica undersold, and "album" needs to be "studio album" or a soundtrack is a counterexample. I docked Evidence for it but did not apply the cap at 6, because the other two legs of that rebuttal are sourced.
+- **Sourcing is the strongest part.** About forty attributed quotes across 41 years, six outside witnesses including a hostile one, and the page questions its own thesis ("Madonna films things").
+- **The last third reads as a dated digest.** "Why Is Madonna Still Performing?" runs through roughly ten events in order, and two paragraphs read as inserts. The body is 4,436 words against a 3,200–3,900 band.
+- **Originality stops at 8.5 because the thesis is hers.** The page's frame is what she told Rolling Stone in 1991. The new material is the aging-as-invisibility reading and the documented retelling of the 1984 story.
+- **Sameness check:** two house moves recur in shape against the three most recent drafts in this format (epigraph-to-reframe opening, cold-open callback ending), below the cap of three.
+- **Stale ledger:** the fingerprint ledger places the interior beat under a heading that no longer exists.
+
+Blog-lint also warns that `published: true` disagrees with `production_pretext.status: draft`, and `lastmod` still reads 2026-07-18 on a page that now covers events through October.
+
+**Total graded this session: 1**

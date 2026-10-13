@@ -1,11 +1,11 @@
 ---
-title: "Red Flags You're Dating a Toxic Version of Each Enneagram Type"
+title: 'Your Enneagram Guide to Toxic Traits in a Relationship (and the Early Warning Signs)'
 meta_title: 'Which Enneagram Is Most Likely to Cheat? Red Flags by Type'
-description: 'No Enneagram type is most likely to cheat by number. Here are the toxic red flags of each type, and the motives that often show up before a betrayal.'
+description: "No type cheats most by number. See each Enneagram type's toxic trait in a relationship, its early warning sign, and the anger, shame or fear under it."
 author: 'DJ Wayne'
 date: '2024-07-31'
 loc: 'https://9takes.com/enneagram-corner/toxic-traits-relationships-warning-signs'
-lastmod: '2025-12-03'
+lastmod: '2026-10-13'
 changefreq: 'monthly'
 priority: '0.7'
 published: true
@@ -25,169 +25,140 @@ quality_safety_gate: 'n/a'
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
     import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
     import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
+    import ToxicTraitEmotionMap from "$lib/components/blog/ToxicTraitEmotionMap.svelte";
 </script>
 
-<QuickAnswer question="What are the red flags for each Enneagram type in relationships?">
-Each Enneagram type has a relationship red flag: 1s criticize, 2s give with strings attached, 3s perform, 4s make every feeling urgent, 5s withdraw, 6s test loyalty, 7s avoid seriousness, 8s bulldoze boundaries, and 9s go silent. The attractive trait often becomes the toxic pattern under stress. No type is most likely to cheat by number, but <a href="#which-enneagram-type-is-most-likely-to-cheat">four motives often show up first</a>.
+<QuickAnswer question="What are the toxic traits and warning signs of each Enneagram type in a relationship?">
+Each type's toxic trait in a relationship is a defense against one of three emotions. <strong>Anger:</strong> 8s control, 1s nitpick, 9s numb out. <strong>Shame:</strong> 4s stir up drama, 2s smother and keep score, 3s put their image ahead of you. <strong>Fear:</strong> 6s test your loyalty, 7s dodge anything heavy, 5s go cold. The early warning sign is usually the trait you liked, showing up at the wrong moment. No type is most likely to cheat by number, but <a href="#which-enneagram-type-is-most-likely-to-cheat">four motives often show up first</a>.
 </QuickAnswer>
 
-## Relationship Red Flags by Type
+<p class="firstLetter">Every toxic trait in your relationship is doing a job.</p>
 
-| Type       | What Attracted You        | What It Becomes                           | Run When...                              |
-| ---------- | ------------------------- | ----------------------------------------- | ---------------------------------------- |
-| **Type 1** | High standards, integrity | Constant criticism, nothing's good enough | You're walking on eggshells daily        |
-| **Type 2** | Caring, attentive         | Guilt-tripping, emotional debt            | Help feels like hostage-taking           |
-| **Type 3** | Confident, successful     | Fake, uses you as a prop                  | You realize you don't know the real them |
-| **Type 4** | Deep, passionate          | Emotional vampire, endless drama          | Their crisis is always your emergency    |
-| **Type 5** | Smart, independent        | Emotionally unavailable, condescending    | Having needs makes you feel stupid       |
-| **Type 6** | Loyal, committed          | Paranoid, constant loyalty tests          | You're always proving yourself           |
-| **Type 7** | Fun, spontaneous          | Avoids all depth, commitment-phobic       | Serious conversations make them vanish   |
-| **Type 8** | Strong, protective        | Controlling, intimidating                 | Disagreement triggers aggression         |
-| **Type 9** | Easy-going, peaceful      | Passive-aggressive, disappears            | Your needs become invisible              |
+The nitpicking. The scorekeeping. The loyalty tests. The silence that lasts all weekend.
 
-<p class="firstLetter">That "quirky trait" you found endearing on your first date? Six months later, it's driving you insane.</p>
+Most of it was built long before you showed up, to keep one bad feeling quiet. Then the two of you got close, and the defense came along.
 
-We've all been there.
+I'm an Eight. Mine is further down, and my wife supplied the name for it.
 
-What starts as charming quickly morphs into toxic. But why does this happen? And more importantly, how can you spot the warning signs before you're in too deep?
+I already wrote about [what each Enneagram type looks like at its worst](/enneagram-corner/toxic-traits-of-each-enneagram-type). This is the relationship version: the toxic trait you'll see in a partner, the early warning sign, and where it comes from.
 
-## When Survival Strategies Become Toxic Patterns
+One question sorts all nine types. Is this coming from anger, shame, or fear?
 
-Most toxic behaviors start as survival strategies and become harmful.
+## Toxic traits and early warning signs at a glance
 
-Think about it. We all develop coping mechanisms to navigate life's challenges. To protect ourselves. To get our needs met.
+| Type                                | Early warning sign                                 | What it turns into                               | What's under it         |
+| ----------------------------------- | -------------------------------------------------- | ------------------------------------------------ | ----------------------- |
+| [Type 1](#type-1-the-nitpick)       | Small corrections that sound helpful               | Nitpicking, constant criticism                   | Anger, pushed down      |
+| [Type 2](#type-2-the-ledger)        | Help you never asked for, mentioned again later    | Suffocating, keeps a list of what you owe        | Shame, pushed down      |
+| [Type 3](#type-3-the-image)         | Barely listening, replies that miss what you said  | Self-absorbed, runs on status and appearances    | Shame they don't notice |
+| [Type 4](#type-4-the-push-and-pull) | Stirring something up when things are calm         | Push and pull, an emotional roller coaster       | Shame, used             |
+| [Type 5](#type-5-the-microscope)    | Detached while you're emotional, a flat "huh"      | Cold, studies you when you need them with you    | Fear they don't notice  |
+| [Type 6](#type-6-the-loyalty-test)  | Questions that go nowhere and circle back          | Paranoid, you're always proving yourself         | Fear, used              |
+| [Type 7](#type-7-the-dodge)         | Laughing off serious moments                       | Dodges every serious issue and every bad feeling | Fear, pushed down       |
+| [Type 8](#type-8-the-armor)         | A raised voice                                     | Controlling, intimidating, never wrong           | Anger, used             |
+| [Type 9](#type-9-the-numb-out)      | Ignoring a big problem while the pacifying goes up | Numb, checked out, avoids every confrontation    | Anger they don't notice |
 
-But in relationships? These mechanisms get tested. Hard.
+The early sign is usually the trait you liked, showing up at the wrong moment. Every row is that type at its unhealthy end. On a good stretch, all nine are easy to love.
 
-And here's the mind-bending part: **Many toxic traits initially seem attractive**. The confidence that later reveals itself as control. The helpfulness that becomes smothering. The passion that turns into volatility.
+## How survival strategies become toxic patterns
 
-The Enneagram labels the behavior and maps the fear that often drives it.
+A defense mechanism is anything a person does, without deciding to, that keeps a painful feeling out of view.
 
-## Why We're Drawn to Toxic Traits (Against Our Better Judgment)
+It starts as a survival strategy. It works, which is why they keep doing it. The bill goes to whoever is standing closest, and in a relationship that's you.
 
-Ever wondered why you keep dating the same "type" even when it ends badly?
+Three emotions do most of the damage: anger, shame, and fear. Each Enneagram type is built around one of them, and there are three ways to carry it.
 
-Psychology has an answer. We're often attracted to traits we lack in ourselves.
+- One type **uses** it. The emotion is fuel, and you'll see it coming.
+- One type **pushes it down**. They feel it, say "not right now," and it leaks out sideways.
+- One type **doesn't notice** it. It runs in the background and steers them without asking.
 
-The quiet, reserved person falls for the life of the party. The indecisive one admires someone commanding and sure. The emotionally guarded individual is drawn to intense passion.
+<ToxicTraitEmotionMap />
 
-But these attractions carry a shadow side.
+Those are the same three emotions the [9takes Enneagram test](/enneagram-test) opens with.
 
-That commanding presence? It might become controlling. That passionate intensity? It could turn into emotional volatility. That helpful nature? Watch for martyrdom and manipulation.
+The emotion matters because it decides the behavior. Because someone feels fear, they do one set of things. Because they feel anger, a different set. Because they feel shame, a third.
 
-Here's how these toxic traits manifest for each Enneagram type, and what they look like in real relationships.
+Take a partner who goes quiet in a fight. A Nine is angry and can't feel it yet. A Five is overloaded and saving what energy they have left. An Eight has hit their limit and walled you out. Say "talk to me, right now" to all three and you get three different bad nights.
 
-## Toxic Relationship Patterns by Enneagram Type
+So before you decide what a behavior means, work out which emotion is running it. The quickest way is to ask: "When a day goes badly, what shows up first: angry, anxious, or down on yourself?"
+
+A few rules before the types:
+
+- An explanation is only an explanation. You can understand exactly where a trait comes from and still call it unacceptable, or leave.
+- Look for the pattern over months. Nobody can be typed from one fight, and one bad week proves nothing.
+- If you're afraid of your partner, put the personality theory down. In the US, the [National Domestic Violence Hotline](https://www.thehotline.org/) answers at 1-800-799-7233.
+
+## Why you put up with it
+
+I don't think we're drawn to toxic traits. I think we accept them.
+
+We accept the ones that look like our own. If you go quiet when you're upset, a partner who goes quiet feels normal. One who yells feels like an emergency.
+
+We accept the ones we can understand. Every one of these traits started out as the thing you liked. "Protective" and "controlling" are one muscle. So are "attentive" and "suffocating." You met the good version first, so the bad version gets the benefit of the doubt.
+
+And we accept the ones we can excuse. In a [1993 study](https://doi.org/10.1037/0022-3514.65.4.707), psychologists Sandra Murray and John Holmes got people to describe their dating partner as someone who rarely starts disagreements, then told them conflict avoidance was a fault. Those same people turned around and described a partner who does speak up, with little evidence to back it.
+
+"He's just protective." "She cares too much." You can run a line like that for years.
+
+## Anger: the 8, the 1 and the 9
+
+These three run on instinct. They feel in their body how things should go, and anger is what shows up when something crosses it. Where the anger goes next is the difference between them.
 
  <article class="section-content">
 
-### Type 1: The Perfectionist's Relationship Critique
+### Type 8: the armor
 
-Behind a Type 1's toxic traits lies a desperate fear: the terror of being corrupt, wrong, or imperfect. In relationships, this fear manifests in ways that can suffocate their partners and poison connection.
+**Anger, used.** An Eight's anger sits right at the surface, and they put it to work.
 
-#### The Criticism That Never Ends
+**Early warning sign:** A raised voice.
 
-"You loaded the dishwasher wrong again."
+I'm an Eight, so I'll start with mine.
 
-"That's not how you should talk to my mother."
+My wife has told me that sometimes I think I'm so right it turns into a god complex: "I'm right about this, and you're super wrong." She's a Seven, and she says it leaves her feeling cornered. I know I come off as intimidating sometimes.
 
-"You really should have planned this better."
+In one fight she was crying, and I doubled down on being harsh. I had mistaken her crying for refusing to accept she was wrong. That was toxic, and it was mine.
 
-Type 1s hear moral imperatives in these comments. They truly believe they're helping. Improving. Perfecting.
+My other move is silence. When a fight gets intense, I go quiet and create distance. She wants me to engage and I withdraw. In Enneagram terms that's [an Eight under stress going to Five](/enneagram-corner/enneagram-types-in-stress). These days I can usually catch myself in it.
 
-Their partners experience it differently. As a drip, drip, drip of criticism that erodes self-confidence and creates walking-on-eggshells anxiety.
+With an Eight who isn't aware of any of this, it can get really ugly. The voice goes up, the anger follows, and then comes the push to dominate and control: the money, the plans, which of your friends are "a bad influence."
 
-#### Rigid Rules Nobody Asked For
+If you stay quiet because you're scared of what happens when you speak, type has stopped being the question. Call the hotline: 1-800-799-7233.
 
-A Type 1 might create an elaborate system for organizing the refrigerator, then silently seethe when their partner doesn't follow it.
-
-They might plan vacations with military precision, becoming visibly distressed when spontaneity disrupts their vision of the "right way" to enjoy leisure time.
-
-This inflexibility kills joy. Spontaneity becomes impossible. Simple decisions become moral tests.
-
-#### The Moral High Ground (Population: Just Them)
-
-"I can't believe you watch that trash."
-
-"I would never waste time the way you do."
-
-Type 1s often position themselves as the moral authority in relationships. They create hierarchies of virtue where they inevitably occupy the highest position.
-
-This creates a parent-child dynamic that's poison to romance. How can true partnership exist when one person constantly positions themselves as superior?
-
-[More on Type 1s](/enneagram-corner/enneagram-type-1)
+Under all of it is the armor. An Eight in full armor has never done anything wrong and refuses to be vulnerable, and one who hasn't learned to calm down turns cold and unapproachable. Anger is the one feeling they trust, because it makes them bigger. Hurt and need make them smaller, so both get turned into anger before anyone sees them. That's [where armor meets intimacy](/enneagram-corner/enneagram-type-8#where-armor-meets-intimacy).
 
 </article>
 
  <article class="section-content">
 
-### Type 2: The Helper's Suffocating "Love"
+### Type 1: the nitpick
 
-Type 2s fear being unlovable at their core. Their toxic relationship behaviors stem from a desperate attempt to earn love by becoming indispensable. But this strategy often backfires spectacularly.
+**Anger, pushed down.** A One feels the anger and decides that showing it would be wrong. So it comes out as correction. "I'm not mad, I'm frustrated."
 
-#### Love as a Transaction
+**Early warning sign:** Small corrections that sound helpful. "You loaded the dishwasher wrong." "We should have taken the other route." "That's not how I would have said it to my mother."
 
-"After everything I've done for you..."
+Each note sounds reasonable, and by Thursday you've collected thirty of them. I'd call it nitpicking, and a One can lose the plot doing it. You plan the whole anniversary dinner, and the review is about the reservation running twenty minutes late.
 
-This phrase (or some version of it) is the Type 2's toxic weapon of choice. Their [acts of service](/enneagram-corner/love-languages-and-enneagram-types) come with invisible strings attached.
+They can see what's wrong in fine detail. A lot of the time they can't see what's good, so you never hear about it.
 
-A Type 2 might spend hours cooking an elaborate meal, then use this "generosity" to manipulate their partner into canceling plans with friends. The message is clear: my kindness must be repaid.
-
-This creates a debtor's prison relationship where love becomes a transaction, not a gift.
-
-#### Your Boundaries? What Boundaries?
-
-"I was just trying to help!"
-
-Type 2s often violate relationship boundaries under the guise of love and concern. They might read private messages to "make sure everything's okay." They show up uninvited to events because "you might need me."
-
-This behavior stems from their need to be needed, but it creates an invasive, claustrophobic dynamic where privacy disappears.
-
-#### Martyrdom as Manipulation
-
-"Don't worry about me, I'll be fine alone..."
-
-Type 2s frequently neglect their own needs, then weaponize this self-neglect to control their partners. They might always defer to their partner's restaurant choice, never expressing their own preference, until they explode with accumulated resentment.
-
-This creates a minefield of unspoken expectations that their partner must navigate blindly.
-
-[More on Type 2s](/enneagram-corner/enneagram-type-2)
+The anger never left. A One renames it "frustrated" or "disappointed" or "just being honest" and aims it at whatever is out of place. They get the same treatment all day from [the critic in their own head](/enneagram-corner/enneagram-type-1#the-internal-courtroom). You're hearing the overflow.
 
 </article>
 
  <article class="section-content">
 
-### Type 3: The Achiever's Image-Obsessed "Connection"
+### Type 9: the numb-out
 
-Type 3s fear worthlessness above all else. Their toxic traits emerge from a desperate attempt to be valued for their accomplishments and appearance, often at the expense of authentic connection.
+**Anger they don't notice.** Ask a Nine if they're angry and they'll say no, and mean it.
 
-#### The Instagram Relationship vs. Reality
+**Early warning sign:** A big problem gets ignored while the pacifying goes up.
 
-"Wait, let me get a picture of us kissing in front of the sunset!"
+The classic unhealthy Nine move is numbing: drinking, drugs, a ton of video games, endless scrolling. It goes up exactly when something between you needs dealing with, and any of it can lead somewhere worse.
 
-Type 3s may invest more energy in how their relationship appears than how it actually feels. They curate perfect social media narratives while ignoring fundamental problems.
+Confrontation gets avoided at any price. "No, nothing's wrong." They agree to the plan and then don't do it, which is as close to a "no" as you'll get.
 
-A Type 3 might insist on professional couple photos to project success while avoiding difficult conversations about financial struggles or emotional distance.
+At the far end it becomes a lazy, slothful state where nothing gets started or decided, and the bills and every hard conversation land on you. You end up lonely with someone sitting right next to you.
 
-#### The Constant Competition
-
-"Did you see Mark and Sarah just bought that beach house? We need to step up our game."
-
-Type 3s often turn relationships into competitions, measuring success against external benchmarks. They treat the partnership as another achievement to polish and showcase.
-
-This creates exhausting pressure where the relationship becomes a performance, not a sanctuary.
-
-#### Absent While Present
-
-"Sorry, I need to take this call."
-
-Type 3s frequently prioritize work and achievement over emotional presence. They might physically attend date night but mentally remain at the office.
-
-A Type 3 might spend an entire anniversary dinner checking emails or networking with nearby diners, leaving their partner feeling invisible and unimportant.
-
-This creates a deep loneliness: the special pain of being alone while together.
-
-[More on Type 3s](/enneagram-corner/enneagram-type-3)
+The anger is real. A Nine puts it to sleep before it can start a fight, and the numbing keeps it asleep. Their preferences and their energy go under with it. That's [the anger Nines don't know they have](/enneagram-corner/enneagram-type-9#the-shadow-side-anger-you-dont-know-you-have).
 
 </article>
 
@@ -203,189 +174,156 @@ This creates a deep loneliness: the special pain of being alone while together.
     </a>
 </div>
 
+## Shame: the 4, the 2 and the 3
+
+These three read people. They can tell what someone feels, often before that person can. Shame comes with the radar: a running sense of being less than, or on the outside looking in.
+
+ <article class="section-content">
+
+### Type 4: the push and pull
+
+**Shame, used.** A Four feels "something is missing in me" at full volume and builds an identity around it.
+
+**Early warning sign:** Things are calm, and they stir something up.
+
+Emotional drama is the drug. A Four needs to feel something to know the relationship is real, and calm doesn't register as a feeling. It's hard for them to just be chill.
+
+Two quiet weeks, no fights, dinner on the couch. It feels nice for a while, and then it starts to eat at them. They need emotional stakes, so they go looking for somewhere to feel something and whip up an existential crisis. A text gets read as a slight, or "do you even still want this?" lands at 11 p.m. on a Tuesday.
+
+Run that on repeat and you get the push and pull, an emotional roller coaster with endless drama. "I've never felt this close to anyone," then a day later, "You don't understand me at all."
+
+They're also self-absorbed in their own way, even though they can empathize with you.
+
+All of it runs on the shame. If something is missing in them, a peaceful, ordinary relationship is one more piece of evidence, and intensity is the only proof that this one is different. A Four is always trying to solve that [impossible equation](/enneagram-corner/enneagram-type-4#relationships-the-impossible-equation).
+
+</article>
+
+ <article class="section-content">
+
+### Type 2: the ledger
+
+**Shame, pushed down.** A Two feels "I'm not enough" and gets away from it by focusing on you. Being needed keeps it quiet.
+
+**Early warning sign:** Help you never asked for, mentioned again later. Early on, their [acts of service](/enneagram-corner/love-languages-and-enneagram-types) just feel like love.
+
+Suffocating is the word I'd use for what it becomes. A Two gets so involved in your emotional life that there's no room left for your own reaction. You come home upset about work. Ten minutes later they're more upset than you are, and you're managing their feelings about your problem.
+
+They can't sit back and let your emotional truth be the thing. Theirs ends up mattering more. That's the pride in this type, and it's [hard to recognize](/enneagram-corner/enneagram-type-2#the-pride-nobody-recognizes) because they're doing so much for you.
+
+Then there's the list. A Two I know well is as kind and giving as anyone you'll meet, always the first to help. I've also heard her tell her own kids "I've done so much for you," right when she was the one in the wrong. The list works like currency, and then it works like blackmail: the complaint gets dismissed, and the person who raised it ends up doubting what they said.
+
+That's the martyr, and it's how an unhealthy Two sees themselves. The tally runs both ways, too. Do something for a Two and they feel guilty until they've made it up to you.
+
+The giving is how a Two keeps "I'm not enough" quiet, and [the ledger](/enneagram-corner/enneagram-type-2#the-invisible-ledger) is their proof that they are enough.
+
+</article>
+
+ <article class="section-content">
+
+### Type 3: the image
+
+**Shame they don't notice.** A Three doesn't feel insecure. They feel busy.
+
+**Early warning sign:** They're barely listening. The reply has nothing to do with what you just said.
+
+I'll say this one bluntly: an unhealthy Three is self-absorbed, and in a plainer way than the Four. They're wrapped up in what they've got going on, so it's hard for them to actually listen, or to give a damn about what's going on with you.
+
+They wear a mask, and sometimes you can watch it come off. You're in the middle of telling them something and they say a thing that's completely irrelevant, sometimes harsh or mean.
+
+Here's the strange part. A Three can be very good at reading the room. Then they get comfortable, the guard comes down, and it's "wow, you did not read the room at all." The person they're most comfortable with gets the least attention.
+
+They're also extremely concerned with status and appearances.
+
+The mask is for whoever is watching. The shame runs in the background and says they're only worth what they produce and how it looks, so the effort goes where the audience is. The Type 3 guide names the question they avoid: ["Would you love me if I wasn't impressive?"](/enneagram-corner/enneagram-type-3#relationships-the-real-test)
+
+</article>
+
 <div style="overflow: hidden;">
 <MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/relationship-communication-guide'} ]} />
 </div>
 
+## Fear: the 6, the 7 and the 5
+
+These three think their way through life. They plan, analyze, and spot problems early. Fear is what all that thinking is for, and each of them does something different with it.
+
  <article class="section-content">
 
-### Type 4: The Individualist's Dramatic Love Story
+### Type 6: the loyalty test
 
-For Type 4s, the core fear is having no identity or personal significance. Their toxic relationship behaviors emerge from a desperate need to feel unique, deep, and authentic, even when this pursuit creates chaos.
+**Fear, used.** A Six feels the fear and puts it to work: preparing, scanning for problems, checking who can be trusted.
 
-#### Emotional Whiplash
+**Early warning sign:** Questions that go nowhere. You answer the worry, and it circles back.
 
-"I've never felt so connected to anyone."
-(24 hours later)
-"You don't understand me at all. No one ever will."
+At the unhealthy end that turns into paranoia, and it's the main thing. The way I'd describe it, a Six sorts people into good guys and bad guys. There's a short list of people they trust, and those people can do no wrong and get defended in every argument. Everyone else is a possible threat, and people can swing from one list to the other.
 
-Type 4s often subject partners to extreme emotional volatility. One day, they're deeply in love; the next, they're questioning everything.
+I dated a Six. I had to constantly reassure her that I liked her, that we were together, that I was a safe person who wanted to be with her. She was still rough with me, and I kept thinking:
 
-They genuinely experience these emotional swings. Their partners still face a destabilizing environment where security feels impossible.
+> "Why are you being rough with me? We like each other."
 
-#### The Perpetual Search for "More"
+It felt like being tested.
 
-"This is nice, but something's missing."
+That's the part where you're always proving yourself. The tests are rarely announced. Usually it's just something weird.
 
-Type 4s can maintain a chronic dissatisfaction with their relationships, always sensing an elusive "something" that would make love perfect. They compare their real relationship to an idealized fantasy that no human connection could fulfill.
+She was also hyperdependent on me. She did everything I did.
 
-This creates a painful cycle where partners feel perpetually inadequate, trying to satisfy an unachievable standard.
-
-#### The Beauty in Brokenness
-
-"Our fights just show how passionate we are about each other."
-
-Type 4s sometimes romanticize relationship dysfunction, mistaking drama for depth. They might subconsciously create conflicts before important events, believing the emotional intensity makes experiences more meaningful.
-
-This pattern keeps relationships in perpetual turmoil, mistaking chaos for connection.
-
-[More on Type 4s](/enneagram-corner/enneagram-type-4)
+Nothing settles it, because the fear was never about one answer. A Six would rather find the betrayal early than be blindsided by it, so the checking continues and the reassurance wears off. The Type 6 guide shows [what the testing looks like](/enneagram-corner/enneagram-type-6#what-testing-actually-looks-like) from the inside.
 
 </article>
 
  <article class="section-content">
 
-### Type 5: The Investigator's Emotionally Detached Love
+### Type 7: the dodge
 
-Type 5s fear depletion: having inadequate resources or energy to engage with the world. Their toxic relationship patterns stem from attempts to conserve themselves in ways that often leave partners emotionally starved.
+**Fear, pushed down.** A Seven feels the fear and says "not now." They reframe it, plan the next good thing, and keep their options open.
 
-#### The Emotional Robot
+**Early warning sign:** Serious moments get laughed off. They can't stay serious.
 
-"I don't understand why you're crying about this."
+The toxic trait is avoidance, and it's hardcore.
 
-Type 5s may respond to emotional situations with detached analysis rather than empathy. When their partner shares feelings, they offer solutions instead of emotional connection.
+They avoid the real issue, or flat-out ignore it. You say "we need to talk about money" and get a subject change or "let's not ruin tonight."
 
-A Type 5 might intellectualize a grief experience or relationship conflict, leaving their partner feeling unseen and unvalidated.
+They procrastinate on anything serious. The taxes, the doctor's appointment, the lease renewal: all of it is "later," and later has now lasted six months.
 
-This creates a painful empathy gap where emotional needs go chronically unmet.
+And they avoid negative feelings, yours included. You say you're sad and there's a silver lining inside thirty seconds.
 
-#### The Secret Vault
+The other tell is the escape scenario. There's always a plan for somewhere else to be, and it tends to show up right when the conversation gets hard.
 
-"No, I don't want to talk about my day."
-
-Type 5s often maintain excessive privacy, even in intimate relationships. They compartmentalize their lives and guard information as if sharing it might drain them.
-
-A Type 5 might have entire areas of interest, concern, or activity they never share with their partner. They may need extreme amounts of alone time without explanation.
-
-This creates a one-sided intimacy where partners feel perpetually kept at arm's length.
-
-#### The Intellectual Superiority Complex
-
-"Actually, that's not correct. Let me explain how it really works..."
-
-Type 5s may weaponize knowledge in relationships, using intellectual superiority as a defense mechanism. They might correct their partner publicly or dismiss their ideas without consideration.
-
-This creates an intellectual hierarchy that undermines the equal partnership needed for relationship health.
-
-[More on Type 5s](/enneagram-corner/enneagram-type-5)
+The fear underneath is of getting stuck in something that hurts. A hard conversation, a boring form, and a sad evening all feel like the same locked room, so a Seven is out the door before it closes. Their partners end up asking the question from the Type 7 guide: ["Are you excited about this plan, or running from something?"](/enneagram-corner/enneagram-type-7#how-you-navigate-relationships)
 
 </article>
 
  <article class="section-content">
 
-### Type 6: The Loyalist's Fear-Based Love
+### Type 5: the microscope
 
-Type 6s are driven by fear of abandonment and a deep need for security. Their toxic relationship behaviors often stem from anticipating dangers that don't exist, creating the very instability they most fear.
+**Fear they don't notice.** A Five wouldn't call it fear. It runs in the background and pulls them up into their head.
 
-#### The Relationship Detective
+**Early warning sign:** You're having an emotional moment and they're detached from it. Zero reaction, maybe a flat "huh."
 
-"Who were you just texting? You smiled differently."
+An unhealthy Five can be extremely introverted and extremely uncaring. They do care. But at some level they can look at you like an insect.
 
-Type 6s may subject partners to constant surveillance and questioning, always looking for evidence of potential betrayal. This hypervigilance stems from anxiety, not control.
+You're crying about something that matters, and they're studying you through a microscope. "Wow, this person is emotional." You can tell they're having an out-of-body experience while you talk. It feels cold because, in that moment, it is. I do it myself sometimes, as an Eight.
 
-A Type 6 might regularly check their partner's phone or question innocent interactions with others, creating an atmosphere of suspicion rather than trust.
+The introverted half is plain distance: a closed door and hours alone.
 
-#### Disaster Preparedness as a Lifestyle
+Under it is a fear of engaging emotionally. People cost energy and feelings cost the most, so a Five watches when they could join, because watching is cheaper. Their whole life runs on that [scarcity economy](/enneagram-corner/enneagram-type-5#the-scarcity-economy).
 
-"What if you're just staying until something better comes along?"
+The fix starts with saying it plainly:
 
-Type 6s often anticipate worst-case scenarios in relationships. They mentally rehearse breakups, betrayals, and rejections, then react emotionally as if these imagined scenarios were actually happening.
-
-This creates a self-fulfilling prophecy: by preparing for abandonment, they create the emotional distance that leads to it.
-
-#### Love as a Continuous Test
-
-"I didn't answer your calls to see if you'd worry about me."
-
-Type 6s sometimes create loyalty tests, unconsciously setting up scenarios to measure their partner's commitment. They might deliberately act distant to see if their partner notices and pursues connection.
-
-These tests are rarely passed because the rules are unclear and constantly changing, rooted in anxiety rather than clear communication.
-
-[More on Type 6s](/enneagram-corner/enneagram-type-6)
+> "When I break down emotionally, I need you to engage with me. Don't look at me like I'm an insect."
 
 </article>
 
- <article class="section-content">
+## How to deal with a toxic trait
 
-### Type 7: The Enthusiast's Commitment-Phobic Love
+Start by understanding where it's coming from, then have a conversation about that. This is where it turns into therapy speak, so here's my simple version.
 
-Type 7s are driven by fear of pain, limitation, and deprivation. Their toxic relationship patterns stem from avoiding emotional discomfort in ways that prevent genuine intimacy.
+1. Name it. Be able to label the trait and call it out.
+2. Talk about what's underneath. Ask why it's happening and stay in that conversation. Bringing awareness to it is what gets you to the underlying pieces.
+3. Find the trigger. Work out what sets it off, and deal with it from there.
+4. Calm the emotion. Once you know which one it is, you can be more sensitive to it: calm the anger, calm the shame, calm the fear.
 
-#### The Escape Artist
-
-"Let's not put a label on this."
-
-Type 7s often avoid full commitment, keeping escape routes open even in seemingly serious relationships. They might refuse to define the relationship or make long-term plans, keeping partners in perpetual uncertainty.
-
-This creates a painful imbalance where one person is all-in while the other keeps one foot out the door.
-
-#### Shiny Object Syndrome
-
-"I met this amazing person at the coffee shop today!"
-
-Type 7s may struggle to maintain focus on their relationship, constantly seeking new stimulation. They might become visibly more energized by strangers or new acquaintances than their actual partner.
-
-A Type 7 might plan elaborate dates but struggle to engage in the mundane maintenance that sustains real intimacy.
-
-This creates a sugar-high relationship: exciting but ultimately unsustaining.
-
-#### The Emotional Surface Skater
-
-"Why focus on that? Let's have fun instead!"
-
-Type 7s often avoid emotional depth, deflecting serious conversations with humor or changing the subject. When partners bring up relationship concerns, they might redirect to more pleasant topics.
-
-This emotional avoidance prevents the vulnerability necessary for true connection, creating a relationship that feels fun but empty.
-
-[More on Type 7s](/enneagram-corner/enneagram-type-7)
-
-</article>
-
- <article class="section-content">
-
-### Type 8: The Challenger's Domineering Love
-
-Type 8s fear vulnerability and being controlled by others. Their toxic relationship patterns emerge from protection mechanisms that often hurt the very people they care about most.
-
-#### The Relationship Dictator
-
-"We're doing this my way. Trust me, it's better."
-
-Type 8s may control major aspects of the relationship without consultation, believing they know what's best. They might make unilateral decisions about finances, living situations, or social plans.
-
-A Type 8 might pressure their partner to change jobs or cut off friendships they deem "negative influences," all under the guise of protection.
-
-This creates a parent-child dynamic that suffocates equal partnership.
-
-#### Anger as the Go-To Emotion
-
-"How could you be so stupid?"
-
-Type 8s often express all emotional vulnerabilities (hurt, fear, insecurity) as anger instead. They might respond to minor disappointments with intimidating rage.
-
-This creates an environment where partners walk on eggshells, afraid to trigger unpredictable outbursts.
-
-#### The Emotional Fortress
-
-"I'm fine. Drop it."
-
-Type 8s frequently conceal tender emotions behind impenetrable walls. They might respond to expressions of love with jokes or deflection, rejecting vulnerability even with those closest to them.
-
-This emotional unavailability creates a deep disconnection, where partners feel they can never truly reach the Type 8's heart.
-
-[More on Type 8s](/enneagram-corner/enneagram-type-8)
-
-</article>
+Calming looks different for each. Anger wants it said out loud: "Are you angry with me?" Shame hears a complaint as a verdict on the whole person, so start with something they did right. Fear wants to know what's coming, so keep the ask small and specific: "Twenty minutes on the lease Thursday at four, then we're done."
 
 <div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
     <a href="/enneagram-corner/biggest-compliments-to-give-each-enneagram-type" class="blog-link" style="width: 100%;">
@@ -399,42 +337,6 @@ This emotional unavailability creates a deep disconnection, where partners feel 
     </a>
 </div>
 
- <article class="section-content">
-
-### Type 9: The Peacemaker's Passive-Aggressive Love
-
-Type 9s fear conflict and separation above all else. Their toxic relationship patterns emerge from peace-keeping strategies that ironically create deeper disconnection.
-
-#### The Silent Treatment Master
-
-"No, nothing's wrong." (Everything is wrong)
-
-Type 9s often avoid direct confrontation at all costs, expressing displeasure through withdrawal, silence, or passive aggression. They might agree to plans they resent, then "forget" to follow through.
-
-A Type 9 might outwardly agree with their partner while internally building a case against them, leading to confusing mixed messages and unexplained distance.
-
-This conflict-avoidance creates more damaging conflict than direct communication ever would.
-
-#### The Emotional Novocaine
-
-"It doesn't really matter to me."
-
-Type 9s frequently numb their emotions to maintain internal peace, creating an emotional flatline that leaves partners feeling disconnected. They might respond to both crises and joys with the same level detachment.
-
-This emotional unavailability creates a deep loneliness for partners, who feel neither positive nor negative emotions are truly shared.
-
-#### The Disappearing Self
-
-"Whatever you want is fine with me."
-
-Type 9s may completely surrender their preferences, opinions, and even identity to merge with their partner. They adapt to their partner's lifestyle, friends, and interests until their own self becomes nearly invisible.
-
-This self-erasure ultimately breeds resentment and prevents the authentic connection that comes from two whole individuals choosing each other.
-
-[More on Type 9s](/enneagram-corner/enneagram-type-9)
-
-</article>
-
 ## Which Enneagram type is most likely to cheat?
 
 None of them, at least not by number. There's no reliable data showing that one Enneagram type cheats more than another. Any type can cheat, and any type can stay faithful for fifty years.
@@ -445,7 +347,7 @@ A type number can't predict who strays. It can point to the fears that make some
 
 ### Novelty: the relationship starts to feel like a cage
 
-Sevens are the type most often linked to this one. Their core fear is being trapped in pain or limitation, and most long relationships have stretches that feel exactly like that. Fours can get here through a different door: the "something's missing" ache from their section above, where a stranger starts to look like the missing piece.
+Sevens are the type most often linked to this one. Their core fear is being trapped in pain or limitation, and most long relationships have stretches that feel exactly like that. Fours can get here through a different door: the calm that starts to eat at them, where a stranger starts to look like the missing piece.
 
 Watch the energy. They describe someone they just met the way they used to describe you, and the relationship starts getting talked about like a lease they're waiting out.
 
@@ -469,133 +371,52 @@ Watch the postponements. Every serious talk gets pushed to "later," and you star
 
 ### What to watch instead of the type number
 
-Don't type your partner from one suspicious text. A Seven who loves novelty can be fiercely faithful, and the easygoing Nine can be the one with the second phone. Any type can land in any of these four patterns.
+A Seven who loves novelty can be fiercely faithful, and the easygoing Nine can be the one with the second phone.
 
-The better question works for every type: what does this person do when the relationship stops giving them what they came for? Do they say so, or do they go get it somewhere else? Start with the [revealing questions below](#revealing-questions-the-window-to-true-character), and trust months of behavior over one bad week.
+The better question works for every type: what does this person do when the relationship stops giving them what they came for? Do they say so, or do they go get it somewhere else? Start with the [two questions at the end](#what-the-defense-is-telling-you).
 
 If you've already found evidence of an affair, a couples therapist who works with infidelity is a better next step than a personality chart.
 
-## Breaking Toxic Patterns: From Awareness to Action
+## What the defense is telling you
 
-Recognizing toxic traits is just the first step. Real change requires deeper work.
+Every trait on this page is an alarm going off in someone else's body. Anger that got used, swallowed, or slept through. Shame and fear, handled the same three ways.
 
-### The Path to Healthier Relationships
+Knowing that won't make the nitpicking pleasant or the silence shorter. What it gives you is a better question than "what's wrong with them?" Ask what they're protecting, and whether they'll look at it with you. A yes and a no both tell you what to do next.
 
-1. **Develop ruthless self-awareness.** Ask yourself: "What am I afraid of in relationships? How might this fear drive my behavior?"
+Two questions get you there faster. Both are live on 9takes, where you answer first and then see what everyone else said: ["How do you typically handle disagreements with close friends or family?"](/questions/typically-handle-disagreements-close-friends-family) and ["What are you afraid to tell your partner?"](/questions/what-are-you-afraid-to-tell-to-your-partner)
 
-2. **Create psychological safety.** Build an environment where honest communication is welcomed, not punished.
-
-3. **Establish clear, compassionate boundaries.** The healthiest love has fences, not walls.
-
-4. **View relationship struggles as growth opportunities.** Every conflict contains a lesson about yourself.
-
-5. **Know when to seek professional help.** Some patterns are too entrenched to break alone.
-
-Remember: look for progress, not perfection.
-
-## Revealing Questions: The Window to True Character
-
-Want to spot toxic traits early? Ask these revealing questions:
-
-1. "Tell me about a mistake that taught you something important about yourself."
-
-2. ["How do you typically handle disagreements with close friends or family?"](/questions/typically-handle-disagreements-close-friends-family)
-
-3. "What's something about yourself you're actively working to improve?"
-
-4. "Describe a time when you had to admit you were wrong about something important."
-
-5. "How do you balance your own needs with those of others in your life?"
-
-These questions reveal more than any dating profile ever could. They illuminate self-awareness, emotional intelligence, and relationship patterns.
-
-## Beyond Toxic Traits: The Possibility of Growth
-
-The Enneagram maps how each toxic pattern can develop into a healthier behavior.
-
-Every toxic trait has a healthy counterpart:
-
-- The Type 1's criticism can transform into discernment that helps others grow.
-- The Type 2's manipulation can evolve into genuine nurturing without strings attached.
-- The Type 3's image obsession can mature into authentic achievement that inspires others.
-
-Changing a toxic pattern takes repeated choices. You have to face your own shadow and choose a different response.
-
-But it's worth it. Because on the other side of this work is what we all truly want: the ability to love and be loved without fear getting in the way.
-
-What steps will you take today to bring more awareness to your relationship patterns?
-
-Learn more about [how to communicate effectively in relationships here.](/enneagram-corner/relationship-communication-guide)
-
-## Frequently asked questions
-
-### Which Enneagram is most likely to cheat?
-
-None by number. There's no reliable data showing that one Enneagram type cheats more than another. What differs is the motive that tends to build first: Sevens are often linked to novelty, Threes to image, Nines and Twos to swallowed resentment, and Fives to avoidance. Watch for the [warning signs of each pattern](#which-enneagram-type-is-most-likely-to-cheat) over months, not one suspicious moment.
-
-### What are toxic traits in relationships and what are some common examples?
-
-Toxic traits in relationships are harmful behaviors that damage connection and trust between partners. Examples include constant criticism, emotional manipulation, controlling behavior, avoidance of meaningful communication, and inability to respect boundaries.
-
-### What are some early warning signs of toxic relationship patterns?
-
-Early warning signs include constant criticism disguised as "help," boundary violations presented as "care," emotional manipulation through guilt, keeping score of favors, inability to take responsibility for mistakes, dramatic mood swings that leave you walking on eggshells, and a consistent pattern of making you feel diminished after interactions.
-
-### How can the Enneagram help improve toxic relationship dynamics?
-
-The Enneagram gives couples a shared map of the fears that often sit underneath toxic behavior. A Type 6's jealousy, for example, is often driven by fear of being abandoned, so steady reassurance tends to help more than a fight about control. Naming the fear gives both partners something specific to work on besides the surface argument.
-
-<svelte:head>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "None by number. There's no reliable data showing that one Enneagram type cheats more than another. What differs is the motive that tends to build first: Sevens are often linked to novelty, Threes to image, Nines and Twos to swallowed resentment, and Fives to avoidance. Watch for the warning signs of each pattern over months, not one suspicious moment."
-          },
-          "name": "Which Enneagram is most likely to cheat?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Toxic traits in relationships are harmful behaviors that damage connection and trust between partners. Examples include constant criticism, emotional manipulation, controlling behavior, avoidance of meaningful communication, and inability to respect boundaries."
-          },
-          "name": "What are toxic traits in relationships and what are some common examples?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Early warning signs include constant criticism disguised as \"help,\" boundary violations presented as \"care,\" emotional manipulation through guilt, keeping score of favors, inability to take responsibility for mistakes, dramatic mood swings that leave you walking on eggshells, and a consistent pattern of making you feel diminished after interactions."
-          },
-          "name": "What are some early warning signs of toxic relationship patterns?"
-        },
-        {
-          "@type": "Question",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Enneagram gives couples a shared map of the fears that often sit underneath toxic behavior. A Type 6's jealousy, for example, is often driven by fear of being abandoned, so steady reassurance tends to help more than a fight about control. Naming the fear gives both partners something specific to work on besides the surface argument."
-          },
-          "name": "How can the Enneagram help improve toxic relationship dynamics?"
-        }
-      ]
-    }
-  ]
-}
-</script>
-
-</svelte:head>
+If the pattern you recognized was your own, start with [what to do if you saw yourself in here](/enneagram-corner/toxic-traits-of-each-enneagram-type#what-to-do-if-you-saw-yourself-in-here). Early in dating, see [red flags by type](/enneagram-corner/red-flags-dating-each-enneagram-type). For the talk itself, see [how each type communicates](/enneagram-corner/relationship-communication-guide).
 
 <style lang="scss">
     .blog-link:after {
       content: none;
     }
 </style>
+
+<!-- Okay, I'm going to brain dump about this blog.
+
+
+First thing is that "Red Flags You're Dating a Toxic Version of Each Enneagram Type." No, that's a terrible title. I already have a blog called "The Toxic Traits of Each Enneagram Type." This could be a companion thing where it's talking to traits having to do with relationships. We need to orient the blog around relationships and different toxic relationship traits or toxic behavior, toxic traits in your partner that you can see in your relationships. It's going to be about understanding where these toxic traits come from. These toxic traits have been developed. They're sort of like defense mechanisms. That's the way to think about it.
+- For the Enneagram 1: high standards, integrity, constant criticism. I would say nitpicking is another thing. I feel like an Enneagram 1 can lose the plot because they're just nitpicking things. They can see what's negative, but they can't sometimes see what's good. Sometimes that's a part of it.
+- Enneagram 2: caring, attentive. They can be suffocating. That would be the way I would say it. They're too emotionally involved. They can't sit back and let your emotional truth be the thing. They kind of are like their emotional truth is more important than your emotional truth. They kind of have this thing where they're prideful: they think their emotions matter more, even though they're going to do more for you. They kind of become a martyr. That's kind of how they see themselves. That's part of it. They become a martyr in that they're always giving, and they keep a list of all the things they've done for you in the back of their head. They have a long list of things they've done for you. It's kind of like currency, and it's kind of like blackmail. It's like, "I've done all this for you, so you cannot levy any criticism on me." That's kind of one of the toxic things about them.
+Enneagram 3: they're just really self-absorbed. It's hard for them to actually give a shit about you because they're very focused on themselves. They're extremely concerned about status and appearances.
+Enneagram 4: they can also be very self-absorbed in their own way. Even though they can emotionally empathize with you, they do this push-and-pull thing where they create endless drama to keep this going because emotional drama is their drug. They need drama. They need something that makes them feel something in order for them to feel something. They're constantly trying to gen up an existential crisis, and it's hard for them to just be chill. When things are good, when things are calm, peaceful, relaxed, and chill, it might feel good for a little bit, but it's going to eat at them. They're going to need some kind of emotional stakes to keep things going and to feel something.
+Enneagram 5: they can be extremely introverted, and they can be extremely uncaring. They do care, but at some level, they can look at you like an insect. If you're emotionally talking about stuff, they can kind of look at you through a microscope, like, "Wow, this person's emotional," and not connect with you emotionally. They're just observing you in a very detached, out-of-body way, which can feel really cold.
+Enneagram 6: they can be paranoid. That's their main thing, and they kind of swing from people who are the enemy to people who can do no wrong. There's this group of people, or a few people, that they trust and that they are always defending, and there's a group of people that they just think are the enemy. It's kind of like they're bipolar with their loyalty, like there are only good guys and bad guys. That's sort of how they think of things. At least that's my description of it.
+This one needs some work. You're always proving yourself. That's kind of how to think about it, man: constant loyalty test. It might not be an overt loyalty test, but just something weird.
+Enneagram 7: their toxic trait would be avoidance of the real issues at play, or just ignoring issues, or just hardcore procrastination on stuff that's serious, and hardcore avoidance of anything that's negative, like negative feelings. That could also be a thing
+
+Enneagram 8: they're controlling and intimidating and just refusing to be vulnerable. They can sort of develop a god complex where they're just like, "I'm right, everyone else is wrong," that kind of thing. They have impenetrable armor where they've never done anything wrong or don't have any holes. It can make them unapproachable, and they can just be very cold if they haven't learned to calm down and they're not self-aware of how they're coming off.
+
+Enneagram 9: the classic thing is numbing themselves, avoiding confrontation, distracting themselves from stuff, and just getting in a really lazy, slothful state. That's kind of the rough part of the Enneagram 9.
+
+That's a high-level overview of each type. There's probably some more that you can expand upon.
+
+ but from here, I kind of want to talk about how survival strategies become toxic patterns. I kind of want to detail how this shows up in relationships. We need to sort of lay out that we need to dive into these toxic behaviors. These are toxic behaviors that are negative and produce negative stuff, but it's to protect themselves or to help deal with some kind of negative emotion that the person is feeling.
+
+One thing is: are they doing these negative behaviors because they fear something, because they're angry at something, or because they feel shame about something? You need to be aware of the underlying emotion that that's coming from, and then it plays out in different ways. Because they feel fear, they are going to do a bunch of things. Because someone feels anger, they're going to do a bunch of things. Because someone feels shame, they're going to do a bunch of things.
+
+That's kind of how these things develop, and then we'll get into what this actually looks like. I wouldn't say we're drawn to the toxic traits, but I think we will accept a person's toxic traits if it's similar to ours or something like that, or if it's something we can understand or something we can excuse. Then we get into the toxic relationship patterns by Enneagram type.
+
+Or maybe we don't frame it that way. We say versions of the toxic behavior. Maybe for each Enneagram type, for the meat of the article, we go into the different versions of the toxic behavior and where it comes from. That would kind of be the direction I want to go with it. It'd be cool if we could have visuals to go along with this
+ -->

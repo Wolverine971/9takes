@@ -1,0 +1,42 @@
+Research stage is complete. `evidence.json` is written to the run directory and passes the contract's `validateEvidence`; no other repo file was touched and nothing was published.
+
+## Outcome
+
+- **Status:** `ready`, standard format (not an open case).
+- **Leading type:** 6, medium confidence. **Strongest alternative:** 8.
+- **Risk flags:** `sensitive_allegations` and `contested_typing` are both true, so this run gets the six-role jury.
+- **Size:** 30 sources (28 opened, 2 marked unavailable), 43 claims, 12 research tasks.
+
+## The read
+
+His stated reason for nearly every major choice is debt and duty to whatever kept his family safe: his father, the country, Karp and Palantir. The line he repeats from 2024 through 2026 is his father's: "But for the grace of this country, we'd be dead in a ditch in Lagos."
+
+The discriminator against Type 8 is whether his force serves his own autonomy or a bond he puts above himself. Four things point to the bond:
+
+- **Tenure:** twenty years as deputy in another man's company, never founding his own, with both he and Karp crediting his father's instruction.
+- **Strain:** in the two crises he narrates, he took alarm up to Karp ("This is not going to work… We're going to fail here") and was steadied, rather than taking control.
+- **Obligation:** a colleague reads his harshest critiques as "what I owe you all," and he says his place must be earned "every day."
+- **Deference:** he licenses rule-breaking for the mission but says the rules themselves are "not the job of unelected engineers."
+
+The Type 8 case is real and recorded in full: Karp ties "the brutality with which we look at problems" to his personality, he calls his own authority a dictator's, and "the only thing that matters is winning."
+
+## What the draft stage needs to know
+
+- **A hook exists in his own words.** Asked in May 2026 whether he is now an insider, he said he will "always feel like an outsider… the heretic looking in. Now maybe I relish that role a little bit."
+- **Two sensitive matters need exact handling.**
+  - A 2010 lawsuit by i2 named him and his father personally; it settled in 2011 with no ruling.
+  - On Face the Nation two days ago he called Bloomberg's reporting on the Minab school strike "inaccurate"; the Pentagon review is unreleased.
+- **The evidence base is lopsided.** Almost everything is his own retrospective telling or testimony from allies. No one who clashed with him is on record. This is disclosed in the record and is the top research task after quote checks.
+- **Seed-brief leads that did not verify:**
+  - "Born in Mumbai" traces to an unsourced newsletter.
+  - His wife's name appears only in search summaries.
+  - The bestseller-list claim was not confirmed.
+  - No birth date exists in any opened source; the proxy gives age 44 as of April 6, 2026.
+
+  The FAQ answers should stay at the level the record supports.
+
+## Quote fidelity
+
+Seventeen key passages were second-transcribed from audio with local Whisper and the excerpts follow that. The rest of the interview quotes are YouTube auto-captions and are flagged for a listen before use. Transcripts, source video and Whisper output are saved under `/tmp/shyam-sankar-research/` for the later stages.
+
+One strong source turned up that the seed brief did not have: a 14,000-word Colossus profile ("The Patriot", February 2026) with on-record testimony from Karp, McGrew, Jain and Mabrey. It pairs with an official Hudson Institute transcript in which Karp describes why he promoted him.

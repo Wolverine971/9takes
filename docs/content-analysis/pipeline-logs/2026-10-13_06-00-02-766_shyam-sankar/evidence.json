@@ -1,0 +1,1079 @@
+{
+  "schema_version": 3,
+  "subject": "shyam-sankar",
+  "status": "ready",
+  "research_tasks": [
+    "Listen to every caption-sourced quotation before it enters the draft and correct wording, punctuation and speaker. Seventeen passages were second-transcribed for this record with a local Whisper model (files in /tmp/shyam-sankar-research/whisper, source video in /tmp/shyam-sankar-research/audio); the rest of S05 to S09 and S12 to S16 are YouTube auto-captions only (timestamped text in /tmp/shyam-sankar-research/txt). Known caption errors include names (Xoom as \"Zoom\", Roelof Botha, Keith Rabois, Bob McGrew as \"Bob Muglia\", Kevin Weil as \"Andrew Wheel\", Straits Cafe, Minab as \"Manab\", Hegseth) and the word before \"my lack of intelligence\" at S07 07:25. The first English caption track for S16 is a machine translation; use only the en-orig track.",
+    "Obtain official transcripts where they exist and prefer them to captions: The New York Times transcript of the October 30, 2025 \"Interesting Times\" episode (S06; nytimes.com returned HTTP 403), the Colossus transcript of \"Celebrating Heretics\" (S08; subscriber-only), and the CBS News transcript of the October 2026 Face the Nation interview (S12; not located).",
+    "Read the full Free Press essay of June 13, 2025 (S28) and both Pirate Wires pieces (S30: \"The Primacy of Winning\" and \"What the Tech Right Sees in Trump\") through a subscription or browser session. Record how he explains the commission in writing and whether his account of his political alignment adds a motive this record lacks.",
+    "Find testimony from people who are not allies: former Palantir employees who clashed with him or left over his management, Army officers and civilians who have worked with Detachment 201, government program managers on the other side of Palantir's lawsuits, and anyone from i2. Record whether they describe pressure applied for the group's result and open to challenge (Type 6) or domination and retaliation when challenged (Type 8). The record currently has no such voice.",
+    "Open the i2 complaint and Palantir's answer in i2, Inc. v. Palantir Technologies, Inc., No. 1:10-cv-00885 (E.D. Va.), through PACER or the CourtListener docket, and search for any statement by Sankar or Palantir about the allegations beyond \"unclean hands\". Confirm or drop the $10 million settlement figure, which rests on Colossus alone (C33).",
+    "Before any release that mentions the Minab strike, read the Bloomberg investigation of September 18, 2026 directly and check whether the Pentagon review has been published; update C32 from the primary documents and from any further statement by Sankar or Palantir.",
+    "Find a primary or named-outlet source for his wife's name and the number of his children before answering the \"wife\" query beyond \"he is married\" (C34). The Pooja Nath Sankar identification appeared only in search summaries and an author page that could not be retrieved.",
+    "Establish facts the record leaves open: his birth city and date (C02, C04); the family's immigration category and his citizenship, given \"refugees\" in 2024 and \"we came here legally\" in 2025; the dated sequence of his Palantir titles (C01); whether he is still chairman of Ginkgo Bioworks (stated September 2024, S19); and the dates of his Hudson Institute trusteeship (S20).",
+    "Verify book facts from non-promotional records: the publisher of Mobilize and each bestseller list and week claimed for it (C27). The seed brief's \"NYT, LA Times, and USA Today bestseller\" was not confirmed in any opened source.",
+    "Confirm the name, ownership and slate of his film production company from a primary source (C37), and whether the planned September 11 anniversary film was released.",
+    "Look for material from before 2023 to test whether the gratitude-and-duty account predates his public role: the 2012 TED talk, early Quora answers and Palantir blog posts, the 2019 St. Gallen essay \"Data is the new snake oil\", and any interview from his years running forward deployed engineering (C40).",
+    "Ask or search for his own account of the points listed under \"unexplained\": how he reconciles his family's story with Palantir's immigration-enforcement work, what the Torah study means to him, and whether he has ever seriously considered leaving Palantir."
+  ],
+  "accuracy_checked_at": "2026-10-13",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://colossus.com/article/the-patriot-shyam-sankar-palantir/",
+      "title": "The Patriot (Colossus Review, Issue 06): reported profile of Shyam Sankar",
+      "speaker": "Jeremy Stern (author, editor-in-chief of Colossus), quoting Shyam Sankar on the record",
+      "date": "2026-02-19",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-13 and read in full (about 14,000 words); text saved at /tmp/shyam-sankar-research/txt/colossus_the_patriot.txt. Page metadata gives datePublished 2026-02-19; the printed dateline is \"February 2026\". Sections, in order: Hudson gala opening (The Pierre, November 2025); \"Late one night in 1984, in Lagos\" (family history, Orlando, bankruptcies, Trinity Prep, Ethel Danhof); Cornell, Stanford, Xoom; joining Palantir in March 2006; the COIC deployment and the call to Karp; \"Shyam Bombs\" paragraph; father's illness and death (February 2020 to February 2021); the paragraph listing controversies including the i2 lawsuit; New York office interview (valuation, ICE, \"institutionalizing corruption\"); the author's assessment of the public turn; closing section (tombstone line, Schindler's List, Torah study, the monkey parable, film slate).",
+      "excerpt": "\"As the story's been retold to me, I was just excited that there was company in the house in the middle of the night ... But it was highly traumatic for them. ... It was a formative experience for Dad. He lost everything when that happened.\" / \"I remember during one of the bankruptcies, we came home from school one night and someone was parked outside to serve him process papers ... It was profoundly humiliating and terrifying.\" / \"The opposite,\" he said, when asked if the precariousness of their circumstances made him ashamed or fearful ... \"I always felt like our house was my bedrock. The stability there enabled me to go take risks and be ambitious and do things. It never fazed Dad. ... Grateful is the word. Gratitude's much more impactful than the facile happiness of making money.\" / \"He was never preachy, except for one thing ... He'd always look at us and say: 'But for the grace of this country, we'd be dead in a ditch in Lagos.'\" / \"That was the first instance I can remember ... where I saw someone who wanted to do something just being willing to break the rules and fuck the process to make it work.\" / \"I was one of the few kids with no means, surrounded at a school by people with enormous means ... It just puts fire in your belly. It was like, 'Why can't I have all this? Why not me?'\" / \"But when the time came, he put his foot down. He was like: 'I didn't make all these sacrifices so that you could take the easy way. Go take a risk at the startup with the people you like. What do you have to lose?'\" / \"If I'm honest, at the time I thought it probably wouldn't work ... But after those interviews I was kind of ruined. ... It's just all risk every day from here on out. Once again it was a fork in the road where Dad was right.\" / \"Before we left I called Karp and I was like, 'This is not gonna work. It's not sustainable. We're fucked.' ... And Karp just laughed, like really laughed ... 'It's not gonna work? Shyam, how else is it gonna work?'\" / \"It's a form of institutionalizing corruption. Like, why do you think nothing works in Nigeria or India? It's because the cultures are corrupt. The systems are bankrupt, and people just live with it or get overwhelmed by it. The entropy of the universe is towards that sort of corruption.\" / \"Now, you can and should change the rules by which they work. But that's not the job of unelected engineers in Silicon Valley. That's the job of democracy.\" / \"Please don't let my tombstone just read 'defense tech' ... 'American Greatness' is the thing I care about. It's the primacy of winning, defeating nihilism and cynicism.\" / \"I told myself, like, if the world came to this, I was going to be the Righteous Among the Nations. I was going to be Schindler. And I grew up with this sort of protective sensibility around Jews. So now I'm kind of double-fucked, right? I'm Indian, and I also study Torah every week.\" / \"There was this one time early on where I was freaking out at him, like, 'How did you sign us up for this work? I don't know how to fucking do it. This shit is not possible.' And he was just like, 'Let me tell you a story.'\" / \"You're alone and not afraid. Life is hard, it is what you make of it. Even when no one knows you and your life's at risk, it's still important to be a hero and not a coward.\" / Stern in his own voice: \"who'd slipped off the chain of a boy scout personality\"; \"Ten-thousand-word critiques of products or ideas, which came to be known as 'Shyam Bombs,' would get emailed to every person in the company in the middle of the night\"; \"breaking the facade of childlike optimism for the only time during our interviews, growing slightly indignant\"; \"a lawsuit against Palantir by i2 that, among other things, accused Shyam personally of conducting 'industrial espionage' (i2 later settled out of court for $10 million)\"; \"there was also, I felt, a distinct sense of unease in Shyam's public turn\"; \"his message is important, and he does actually believe it\"; \"I clocked the presence of nearly everyone else I'd seen that night, except for Shyam, who'd disappeared.\"",
+      "context": "The only long written profile found. Stern interviewed Sankar several times in Palantir's Georgetown and New York offices, sat through product demos and an intern AMA, and attended the Hudson gala. Access was friendly and Colossus hosted Sankar on its podcast three weeks later (S08), but the piece also lists the company's controversies, the i2 allegation against Sankar personally, the valuation skeptics, and the author's own doubts about a prophet who is also a public-company executive. Family history (the 1984 Lagos break-in, names Nochur \"Shan\" and Girija Sankar, Vitabiotics, the dry cleaner and dollar-store bankruptcies) comes from Sankar's retelling; he says he was too young to remember the break-in. Quotations above are from the article text as published; curly quotes were straightened and ellipses mark omissions. Stern gives Sankar's age as 43 at the November 2025 gala.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://colossus.com/article/the-patriot-shyam-sankar-palantir/",
+      "title": "The Patriot (Colossus Review, Issue 06): on-record testimony from colleagues and associates",
+      "speaker": "Alex Karp, Bob McGrew, Aki Jain, Ted Mabrey, Kevin Hartz, Katherine Boyle and H.R. McMaster, quoted by Jeremy Stern",
+      "date": "2026-02-19",
+      "locator": "Same article as S01 (not an independent source), opened and read in full on 2026-10-13. Karp \"but-for\" quote: gala section, paragraph beginning \"He's been one of the most impactful people\". Hartz: Xoom section. McGrew: paragraphs on the CIA demos and on AIP. Karp, Jain and Mabrey on his temperament: the three paragraphs after the \"Shyam Bombs\" paragraph. Karp on the taped phone: COIC section.",
+      "excerpt": "Karp: \"At every stage of this company he's had a but-for role ... But for Shyam it would have gone differently. But for Shyam, honestly, I'd still be sitting alone in New Hampshire as an introvert.\" / Karp: \"Shyam's personality is very much built into the culture of the brutality with which we look at problems, which is what made the FDE structure actually scalable ... His ability to understand what a product looks like, the way in which he intuits, and just as importantly anti-intuits what's working and what's not, and being very honest about it—I've seen people really struggle with that, but it's just not something Shyam struggles with.\" / Mabrey: \"If you don't know him, it seems like he's being a little brash or aggressive ... But the reason he can do it is because it's not personal at all. He completely depersonalizes it.\" and, of receiving a \"Shyam Bomb\" written while the two sat together in an airport: \"Oh, I can see he's not angry at all. He just thinks, 'This is what I owe you all in order for us to win together.'\" / Jain: \"Shyam invented the term Forward Deployed Engineer and all the nomenclature that goes with it, but also the principles that outlined what it meant to be one\" / McGrew: \"It was Shyam who quickly realized that there was an opportunity here.\" and \"The thing I most respect about Shyam is his willingness to pivot everything when he realizes it's needed\" / Hartz: \"He was just this perfect boy scout, very kind of prim and proper ... He was very well-spoken, very enthusiastic and positive; very good energy and intensity.\" / Stern, reporting Karp's memory of the COIC deployment: Sankar \"taped a phone to his head and secured it with an elastic band\" so he could code with both hands.",
+      "context": "Every witness is a colleague, former colleague, investor ally or satisfied customer: Karp (CEO), Mabrey (Palantir head of commercial), Jain and McGrew (early engineering partners; McGrew was commissioned alongside him in 2025), Hartz (hired him at Xoom), Boyle (a16z), McMaster (used the software in Afghanistan). No one who clashed with him, left unhappily, or sat across a table from him is quoted. Mabrey's \"what I owe you all\" line is his reading of Sankar's motive, not a quotation of Sankar.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.hudson.org/events/palantir-ceo-alex-karp-receives-hudson-institutes-2025-herman-kahn-award",
+      "title": "Palantir CEO Alex Karp Receives Hudson Institute's 2025 Herman Kahn Award: event transcript, Shyam Sankar's introduction",
+      "speaker": "Shyam Sankar",
+      "date": "2025-11-11",
+      "locator": "Hudson Institute event page with the institute's own transcript, opened by direct fetch (HTTP 200) on 2026-10-13. Event dated November 11, 2025, New York. Sankar's remarks run from \"Well, I'd like to introduce you to Alex Karp\" to \"Alex Karp.\" The page lists him as \"Former Trustee\" in the speaker block and \"Hudson Trustee\" in the summary line.",
+      "excerpt": "\"Next to my late father, no person has a greater impact on my life than Alex. And that's true in obvious ways, the success of Palantir, the faith that he's placed in me. But it's also true in other ways. He's been my rabbi, he's been my confidant, my guru. And at times when I've given him cause—and I've given him cause—he's been my parole officer. One of the first things Alex told me 20 years ago when we started working together is that he thought I had the constitution of a goat ... that it seemed like I could survive eating trash and plastic in a barren wasteland, and such a skill would come in handy in Washington DC.\" / \"Now, I didn't have the heart to tell my father that my Cornell and Stanford education was about to qualify me to be a waiter at Chez Karp, but that's what happened.\" / \"I remember in 2008, our first Department of War deployment, I was leading a team of 10 people. We were working for literally 14 days straight, 19-hour days. ... At the end of this, I called him incredibly grumpy. Humorless from sleep deprivation and I told him, 'This is not going to work. It's unsustainable. We're going to fail here.' Without skipping a beat, he broke out in deep and self-satisfied laughter ... he understood that this was the only way that it was going to work, even if no one else did. Not our customers, not our investors, and least of all, not me.\"",
+      "context": "A prepared, affectionate gala introduction of his boss before roughly 400 guests, written to honor and amuse. It establishes how he chooses to describe the relationship in public (rabbi, guru, parole officer; the goat line; the French-restaurant origin of forward deployed engineering, which he credits to Karp). It dates the two-week deployment to 2008; the Colossus profile places the same deployment at the COIC before the 2010 Iraq deployment. The Colossus version of the phone call has rougher wording (S01).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.hudson.org/events/palantir-ceo-alex-karp-receives-hudson-institutes-2025-herman-kahn-award",
+      "title": "Palantir CEO Alex Karp Receives Hudson Institute's 2025 Herman Kahn Award: event transcript, Alex Karp's remarks about Sankar",
+      "speaker": "Alex Karp",
+      "date": "2025-11-11",
+      "locator": "Same Hudson transcript as S03, opened 2026-10-13. Karp's opening paragraphs (immediately after Sankar's introduction) and the passage near the end beginning \"Meritocracy is the most underestimated\".",
+      "excerpt": "\"there is no greater award than getting a speech like that from Shyam, especially since Shyam can barely write. He must have spent a lot of time on that one. And we all know that the ups and downs we went through. Shyam's father, he mentioned, was one of the great figures in building Palantir and told Shyam, you may never leave Palantir. That's probably why he didn't leave.\" / \"maybe I've saved Shyam and others many, many times—but Shyam saved me after COVID. I'm basically an introvert, and every day I enjoyed being alone more than the day before. ... And then Shyam showed up one day and he's like, This isn't cutting it. You got to get back. You got to come back. This isn't going to work.\" / \"Shyam is a great example. Shyam was not everyone's cup of tea. And he advanced because he—for really two reasons—he advanced because I thought he was going to be an incredible human being. And second, and I'll leave you with this, because I saw him interacting with his brother. And I was like, 'If he could love Palantir half as much as he loves his brother, we are going to have the most important enterprise in the world.'\"",
+      "context": "Named testimony from the person who has worked with him longest, given in public, at a celebration, in reply to a flattering introduction; Stern (S01) reports that Karp began with \"tears audibly stuck in his throat.\" Karp is his boss and co-beneficiary, not a neutral witness. \"Not everyone's cup of tea\" and \"ups and downs\" are the only hints of friction and Karp gives no detail. The line about Sankar's father telling him he may never leave is Karp's joke-shaped explanation of a 20-year tenure; Sankar has not been found saying it himself. Karp does not name the brother; Stern's account calls him Sankar's \"little brother\".",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.youtube.com/watch?v=DTG393KqOGc",
+      "title": "Shyam Sankar - Chief Technology Officer of Palantir: The Future of Warfare | SRS #190 (Shawn Ryan Show)",
+      "speaker": "Shyam Sankar, interviewed by Shawn Ryan",
+      "date": "2025-04-10",
+      "locator": "YouTube auto-captions downloaded with yt-dlp on 2026-10-13 and read as timestamped text (/tmp/shyam-sankar-research/txt/DTG393KqOGc.txt). Passages marked \"checked\" were second-transcribed from the video's audio with a local Whisper model (small.en) on 2026-10-13 and the excerpt follows that transcription; other wording is auto-caption text and needs a listen before quotation. Upload date 2025-04-10; running time 2:20:40. Read: 00:03:30 to 00:24:00 in full, plus 01:16:30 to 01:20:00, 02:12:00 to 02:20:00 and keyword passages. Family history 00:05:40 to 00:09:45 (checked). Father \"is my hero\", died \"in 21\": 00:09:40. Xoom and meeting Lonsdale: 00:10:05 to 00:11:50. \"Skynet fear\": 02:12:23. \"The only thing that matters is winning\": 02:17:10.",
+      "excerpt": "Checked, 00:05:45 to 00:08:05: \"My father did ... he was born in a single room mud hut in the south of India. ... He was 23 at the time. ... He went to Nigeria as a pharmacist to build the first pharmaceutical manufacturing facility in all of Africa. ... My mom went back to India to have me. And then I came back to Nigeria as soon as I was old enough to travel. So I really, my first three or so years of my life, I was in Nigeria. ... we had a horrible armed robbery in the house ... it was a little bit of an inside job of people who worked there ... They decapitated the dog. They threatened, they pistol whipped dad. They threatened to execute him. They threatened my mom. I was a child and really I was just excited to have visitors ... Dad was only spared because one of the five armed robbers was a regular at, my mom ran an open kitchen. ... And so we left all of our earthly possessions behind and had to find a place to resettle.\" / Captions, 00:09:40: \"I mean your dad's your hero, correct? He is my hero. Yeah. Is he still with us today? He passed away in 21.\" / Captions, 00:10:05: he says he \"worked at his pharmacy in Orlando\" as a child / Captions, 02:12:23: \"the Skynet fear is wildly overblown and almost like a conspiracy just to slow everything down\" / Captions, 02:17:10: \"The only thing that matters is winning. ... Don't be so wedded to the playbook that you don't have the common sense God gave a goat. You know, when you need to bend the rule to do the right thing, you got to do that.\"",
+      "context": "His first long-form appearance for a mass audience, two months before the Army commission, with a former Navy SEAL host who opens by saying Sankar grew up in a mud hut; Sankar corrects him (\"My father did\"). The fullest first-person telling of the Lagos robbery. He says here that he was the fifth employee at Xoom, joined within two months of arriving at Stanford in 2003, and worked there \"almost 3 years\"; Colossus gives different timing (S01). Captions render Xoom as \"Zoom with an X\" and garble Roelof Botha and Keith Rabois. At 02:01:59 the line \"I don't want my kids going to war. I've been there\" is the host's, not Sankar's.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.youtube.com/watch?v=K4I7UsmX8HI",
+      "title": "What Palantir Sees | \"Interesting Times\" with Ross Douthat (The New York Times)",
+      "speaker": "Shyam Sankar, interviewed by Ross Douthat",
+      "date": "2025-10-30",
+      "locator": "YouTube auto-captions downloaded with yt-dlp on 2026-10-13 and read as timestamped text (/tmp/shyam-sankar-research/txt/K4I7UsmX8HI.txt). Passages marked \"checked\" were second-transcribed from the video's audio with a local Whisper model (small.en) on 2026-10-13 and the excerpt follows that transcription; other wording is auto-caption text and needs a listen before quotation. Upload date 2025-10-30; running time 58:36. Read: 00:00:40 to 00:06:40, 00:28:10 to 00:44:10, 00:52:00 to end. Why the commission: 00:28:15 to 00:29:50 (checked). Conflict question: 00:32:35 to 00:33:10 (checked). Immigration exchange: 00:33:10 to 00:35:40. Heretics and Billy Mitchell: 00:40:20 to 00:41:20. Film company and childhood films: 00:55:30 to 00:58:10. The Times publishes its own transcript, which returned HTTP 403 and was not read.",
+      "excerpt": "Checked, 00:28:25 to 00:29:50: \"For a lot of reasons. The primary one is personal. What example am I setting for my children? What did I learn from my father? ... My family fled violence in Nigeria when I was a child. Our dog was decapitated. They pistol whipped my father. They threatened my mother. And I was ... a young child, so I don't really have direct memories of this, but obviously it was very traumatic for my parents. ... And dad was, he was this person who was wildly successful in his 20s and never really successful again after that. After he came to the US, it wasn't the classic immigrant story. It was a guy who tried to start something, went bankrupt, like life was always kicking him in the teeth. But he was always so grateful to be here. ... He would remind us of the counterfactual, but for the grace of this nation, you'd be dead in a ditch in Lagos. ... I don't know how useful I really could have been to the military when I was 23. But I think at 43 ... I think I can be much more useful.\" / Checked, 00:32:50: \"There's a reason I'm focused on work that doesn't overlap with anything else that Palantir does, so there's no appearance of conflict.\" / Captions, 00:33:40: \"my own view is that assimilation is important like we came here legally ... immigration has made this country strong but legal immigration there are rules to follow ... the lack of enforcement breeds\" nihilism; 00:35:38: \"I'm just speaking from my individual perspective here\" / Captions, 00:55:50: \"I've started a film production company to make content that makes you proud to be an American, not Pravda, entertainment, but a lot of this was built on my own assimilation journey.\"",
+      "context": "The most adversarial long interview in the record: a conservative columnist who presses him on domestic surveillance, conflicts of interest and the tension between his family's story and Palantir's deportation work. He answers the last by appeal to legality and the legitimacy of institutions and declines to speak for the company. Captions render \"nihilism\" as \"nealism\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.youtube.com/watch?v=4oCDpbMyugU",
+      "title": "Palantir CTO: We Need More Heretics (Joe Lonsdale: American Optimist, Ep 153)",
+      "speaker": "Shyam Sankar, interviewed by Joe Lonsdale (Palantir co-founder, who hired him)",
+      "date": "2026-05-08",
+      "locator": "YouTube auto-captions downloaded with yt-dlp on 2026-10-13 and read as timestamped text (/tmp/shyam-sankar-research/txt/4oCDpbMyugU.txt). Passages marked \"checked\" were second-transcribed from the video's audio with a local Whisper model (small.en) on 2026-10-13 and the excerpt follows that transcription; other wording is auto-caption text and needs a listen before quotation. Upload date 2026-05-08; running time 44:16. Read: 00:02:00 to 00:13:40, 00:26:50 to 00:29:40, 00:35:40 to 00:37:00. Family and commission: 00:03:30 to 00:06:15 (checked). First impression of Palantir: 00:06:40 to 00:07:25 (checked). Forward deployed engineers: 00:09:50 to 00:12:40. Outsider and chip on the shoulder: 00:28:10 to 00:29:05 (checked). Theodore Hall: 00:36:10. Lonsdale's show notes at blog.joelonsdale.com/p/ep-153-palantir-cto-shyam-sankar were also opened.",
+      "excerpt": "Checked, 00:05:30: \"In part to honor dad's sacrifice, like this country has given us more than we deserve to have. And I think a sign of functioning society is that those who succeed in it are willing to invest their time, energy, money, resources, attention and give back. ... this is the example I want to set for my children. I want to make sure that they have the same gratitude as maybe a generation removed from the visceral violence that we escaped.\" / Checked, 00:06:45: \"given my family background ... that tugged at my heartstrings, I was I was kind of ruined. ... it wasn't actually clear that we're going to succeed at all. But I'd rather fail working on something this important than succeed on building something completely trivial and worthless\" / Checked, 00:28:20: Lonsdale: \"do you still feel like an outsider? Are you an insider now? Cause you're a Lieutenant Colonel and Palantir is winning.\" Sankar: \"Constitutionally, I'm going to always feel like an outsider. ... I always feel like I'm the heretic looking in. Now maybe I relish that role a little bit, which is why it appeals to me. ... there's a positive piece of that. You know, you carry that chip on your shoulder to like earn your place every day and you recognize your product has to be 10 times better than the alternatives. ... It's motivating to know, look, why should it be easy for us? It wasn't easy for any of these guys.\" / Captions, 00:10:05: \"I can't say it was founded with perfect foresight, but I think it really started with Karp's intuition.\" / Captions, 00:11:10: forward deployed engineers are \"kind of hackers ... duct tape and bubble gum. The point is you solve the problem\"; the product engineer's \"dopamine hit comes out of building the thing the right way.\" / Captions, 00:12:25: \"it would actually require a dictator to sit between these two organizations to manage that tension\" / Captions, 00:27:35: \"heretics require two two things, the space for their heresy to exist and a little bit a modicum of protection from the top\" / Lonsdale, 00:09:45: \"FDEs, forward deployed engineers, I think you coined the term. I do remember thinking and talking about how it was like really key to get engineers out in the field ... but you kind of like branded and structured and like created the whole thing.\"",
+      "context": "A conversation between old colleagues on a show hosted by the man who recruited him; Lonsdale's introduction says he has \"made infinite money\" and calls the book \"best-selling\" in the show notes. The outsider answer comes right after Lonsdale describes Palantir's founders as \"beaten by the bureaucracy forever\", so Sankar is partly agreeing with his host. Lonsdale confirms on camera that Sankar was the 13th employee and that they met at a Singaporean restaurant. Captions garble several names. At 00:07:25 captions read \"I was cowering my lack of intelligence in face of them\", which was not resolved by ear and is not used.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.youtube.com/watch?v=EB9V8d3ZYbc",
+      "title": "How AI Is Changing Warfare | Palantir CTO (Invest Like the Best with Patrick O'Shaughnessy; Colossus episode title \"Celebrating Heretics\")",
+      "speaker": "Shyam Sankar, interviewed by Patrick O'Shaughnessy",
+      "date": "2026-03-10",
+      "locator": "YouTube auto-captions downloaded with yt-dlp on 2026-10-13 and read as timestamped text (/tmp/shyam-sankar-research/txt/EB9V8d3ZYbc.txt). Passages marked \"checked\" were second-transcribed from the video's audio with a local Whisper model (small.en) on 2026-10-13 and the excerpt follows that transcription; other wording is auto-caption text and needs a listen before quotation. Upload date 2026-03-10; running time 1:29:09. Read: 00:08:15 to 00:25:10, 01:12:20 to 01:13:55, 01:17:20 to 01:18:20, 01:23:40 to 01:27:10. Disagreeableness: 00:08:40 to 00:09:35 (checked). Father's bankruptcies: 00:11:00 to 00:11:30 (checked). What his father was like: 00:13:30 to 00:14:15. Karp and his father: 00:16:10 to 00:17:30. The mistake he confessed: 00:19:55 to 00:20:30 (checked). Superpower: 00:20:35. Gamma radiation and pain: 00:22:20 to 00:25:00 (checked from 00:24:15). Weeks of revolt: 01:12:25 to 01:13:35 (checked from 01:13:10). Going public: 01:17:30 to 01:18:05 (checked). Boyd, fatherhood, kindest thing: 01:23:40 to 01:26:50 (checked from 01:24:25). The Colossus transcript is subscriber-only and was not read.",
+      "excerpt": "Checked, 00:08:45: \"as Karp would say I'm not everyone's cup of tea ... The advice is to go along and get along ... The problem is if I did what they want it wouldn't work and so that's where the disagreeableness comes in is being ornery about like No, I'm gonna deliver the thing that actually works for the operator. I'm going to piss off literally everyone along the way\" / Checked, 00:20:00: \"I remember doing something that I really screwed up once that had consequences for the company and I sheepishly went into Alex and was just completely honest ... There was no grand strategy behind this other than my commitment to just always being honest. He was very appreciative. He was also in pain as he internalized what this was going to mean. But you know, he valued the fact that I wouldn't try to hide it\" / Captions, 00:20:40: \"owning that almost as a dictator, that's my superpower\" / Checked, 00:24:25: \"The article talks about the deployment at the COIC. ... I was leading the deployment. It was all on me and it was never obvious until basically the last second, whether it was going to work or not. ... which is really where I internalize that like, oh, success looks like a lot of pain and that that instinct to figure out how to reduce the pain ... is exactly the wrong instinct.\" / Captions, 01:12:40: \"Every employee's first AMA with me I end it by telling them to tell me to\" go away \"to my face ... it's very uncomfortable for them actually ... how can you say you have a flat culture if you can't tell the boss to\" / Checked, 01:17:40: \"I'd say I'm a bit reluctant about the shift, but I can't look my kids in the eye and not say that I'm ringing the bell that we're in an undeclared state of emergency.\" / Checked, 01:24:30: \"it would be hard to overstate the impact that dad and his example had on me. You had such a selfless man who just gave everything to his family ... could weather any humiliation in service of his children and his wife\" / Checked, 01:25:25: \"Miss Ethel Danhoff was the head of admissions for this private school in Orlando ... she's like give this kid the admission test just do it ... let's admit a kid that we're gonna have to subsidize to come here and that opened the entire future\" / Captions, 00:16:10 to 00:17:30: \"the obvious one to me is ... Alex Karp ... you have to have a structural personality where you're not threatened by other people's successes. You actually relish in the other people's successes and that's the parallel between Alex and my father.\" / Captions, 01:23:45: Boyd's advice, \"you can either be somebody or you can do something.\"",
+      "context": "The most personal of the interviews, recorded for the podcast arm of the magazine that had just profiled him; the host has read that profile and asks about temperament, his father and failure. The host's premise is that Sankar seems \"very likable\", which Sankar complicates with the \"cup of tea\" answer. The mistake he confessed to Karp is not identified. The spelling \"Danhoff\" is the transcription's; Colossus prints \"Danhof\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.youtube.com/watch?v=1LcH4lP9XbA",
+      "title": "Palantir CTO on The SaaS Apocalypse & Preventing The Next World War (a16z)",
+      "speaker": "Shyam Sankar, interviewed on the a16z podcast",
+      "date": "2026-03-20",
+      "locator": "YouTube auto-captions downloaded with yt-dlp on 2026-10-13 and read as timestamped text (/tmp/shyam-sankar-research/txt/1LcH4lP9XbA.txt). Passages marked \"checked\" were second-transcribed from the video's audio with a local Whisper model (small.en) on 2026-10-13 and the excerpt follows that transcription; other wording is auto-caption text and needs a listen before quotation. Upload date 2026-03-20; running time 54:16. Read: 00:17:40 to 00:21:10 and 00:50:40 to end, plus keyword passages. Origin of the commission: 00:18:10 to 00:20:55. Rickover: 00:50:40 to 00:53:15. Closing answer: 00:53:20 to 00:54:00 (checked).",
+      "excerpt": "Captions, 00:19:25: \"All the dead ends that I've run into in my career, the mistakes I've made, if you're going to make mistakes, please make new ones. ... I'm not sure I really had a lot to give the Army at, you know, 24, but I think at 44 ... there's a lot I can do to accelerate certain things.\" / Captions, 00:51:35, on Rickover: \"it's not that he was immune to the humiliation. He felt every slight and insult. He documented them. But, somehow he was able to channel that into something he was going to push through and still succeed despite that.\" / Checked, 00:53:25: \"in some sense, maybe it's enough, but all of these things have a through line where it's really about American greatness and inspiring the next generation. It's driven home to me when I think about my kids and recognizing that the America I grew up in is something that every generation has had to fight for. And I'm in that phase now where I'm fighting for the prosperity that the next generation ought to have.\"",
+      "context": "A book-launch conversation with a venture firm that invests in defense startups; friendly throughout. Useful for the commission's stated origin (Israeli reservists after October 7, 2023) and for what he chooses to admire in Rickover: a man who registered every humiliation and kept going. Captions name one fellow officer as \"Andrew Wheel\"; the Army release gives Kevin Weil.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://schoolofwar.substack.com/p/ep-165-shyam-sankar-on-a-defense",
+      "title": "School of War, Ep 165: Shyam Sankar on a Defense Reformation (published transcript)",
+      "speaker": "Shyam Sankar, interviewed by Aaron MacLean",
+      "date": "2024-12-18",
+      "locator": "Substack page with a speaker-labelled transcript (about 7,900 words), opened by direct fetch (HTTP 200) on 2026-10-13. First answer, beginning \"Yeah, that's right. I was lucky number 13\"; later answer beginning \"The series is called Heretics and Heroes\".",
+      "excerpt": "\"I'm a technologist by trade, and I believe in the power of technology, but I didn't want to build another web calendar app that somehow made the world a worse place. And really, once I met these folks, once I saw what they were working on, I would much rather have failed working on something of national import, than have succeeded on working on exactly the wrong things. ... I was a college student during 9/11. I tried to drop out and join CIA, I think they had many people trying to do that, and so that didn't quite work out. But even before that, my family came to this country as refugees fleeing violence from Nigeria. My parents almost lost their lives to an armed robbery. And dad raised us with a deep understanding of the counterfactual, but for the grace of this nation, he'd be dead in the ditch in Lagos. And so finding some opportunity to give back was always something important to me.\" / \"The series is called Heretics and Heroes, and the heretic coming first is very intentional.\"",
+      "context": "Recorded six weeks after he published \"The Defense Reformation\" and six months before the Army commission, on a defense-policy podcast. It is the earliest opened telling of the family story and shows the same wording (\"counterfactual\", \"but for the grace of this nation\", \"give back\") that he uses through 2026. He calls the family \"refugees\" here; in October 2025 he told Ross Douthat \"we came here legally\" (S06). No opened source documents the family's immigration category.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://archive.org/details/CSPAN3_20260426_005900_Shyam_Sankar_Mobilize",
+      "title": "Shyam Sankar, \"Mobilize\" (C-SPAN3 broadcast of a Hudson Institute book conversation with Walter Russell Mead)",
+      "speaker": "Shyam Sankar, in conversation with Walter Russell Mead",
+      "date": "2026-04-25",
+      "locator": "Internet Archive TV News page, opened by direct fetch (HTTP 200) on 2026-10-13; the page carries the broadcast closed captions with clock times (aired April 25, 2026, 8:59 to 10:00 pm EDT). The date the Hudson event itself took place is not stated on the page. Captions at 9:01 to 9:02 pm (why he is \"moving the other way\"), 9:12 pm (heretics) and 9:26 to 9:27 pm (advice to young people). Text saved at /tmp/shyam-sankar-research/txt/cspan_hudson_mead_2026-04-25.txt.",
+      "excerpt": "9:01 pm, lower-case broadcast captions: \"a lot of it has to do with, i think, my own family story and journeys like this country has given us so much, you know, and my my father, when i was very young, we fled violence in nigeria. and dad really raised me with this ever present sense of the counterfactual. ... this is a man who had a tough life not not everything kind of worked out for him, but but for the grace of this nation, you'd be dead in a ditch in lagos ... and then as a consequence of that gratitude, like young children of my own, like how it's not going to sustain itself, you know, to pass it down to the next generation requires us to invest in it, to be proud of it, to hold it up as something we all cherish. so i can't think of a more important life mission than committing myself to that.\" / 9:12 pm: \"i wanted to motivate the heretics who are latent today. they're latent in the department.\" / 9:26 pm: \"what do i value my children learning? ... and that would be agency\".",
+      "context": "A friendly book-tour conversation at a think tank where he was a trustee. Mead's question was why he moves toward patriotism and the armed services when much of the corporate elite has moved away. Broadcast captions are unpunctuated and contain errors; wording should be checked against video before any phrase is quoted. Useful as a sixth, independent occasion on which the same family account and the same motive (\"as a consequence of that gratitude\") appear.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.youtube.com/watch?v=rXRDhZb-gcU",
+      "title": "Full interview: Palantir CTO Shyam Sankar (Face the Nation, CBS News)",
+      "speaker": "Shyam Sankar, interviewed by Margaret Brennan",
+      "date": "2026-10-11",
+      "locator": "YouTube auto-captions downloaded with yt-dlp on 2026-10-13 and read as timestamped text (/tmp/shyam-sankar-research/txt/rXRDhZb-gcU.txt). Passages marked \"checked\" were second-transcribed from the video's audio with a local Whisper model (small.en) on 2026-10-13 and the excerpt follows that transcription; other wording is auto-caption text and needs a listen before quotation. Upload date 2026-10-11; running time 19:05. Read: 00:00:00 to 00:03:40, 00:07:00 to 00:09:40, 00:11:50 to end. Effective altruism: 00:00:40 to 00:03:10. Evaluators: 00:08:30 to 00:08:55. Minab strike: 00:14:55 to 00:16:45 (checked from 00:15:05 to 00:15:50). Deferrals: 00:16:54 and 00:17:15 (checked). Army role and conflict question: 00:17:20 to 00:19:00 (checked). A CBS transcript was not located.",
+      "excerpt": "Captions, 00:01:00: \"there's an unseen force driving the narrative around AI safety. And it's it's really this millenarian doomsday cult that meets messianic complex called effective altruism.\" 00:02:10: \"if you understand that it's actually a theological critique\"; 00:02:20: \"every human has a god-shaped hole in their heart ... many of these folks in Silicon Valley ... have filled that hole with the machine god of AGI.\" 00:08:30: \"the so-called independent research organizations that are overseeing this are not really independent. They have conflicts with the labs.\" / Checked, 00:15:10: Brennan: \"Bloomberg reported some personnel relied too much on the AI in the Maven system made by Palantir ... Have you determined what happened there?\" Sankar: \"Well, we should wait for the final report, but what I can say is that reporting's inaccurate.\" Brennan: \"The reporting from Bloomberg, you're saying, is inaccurate?\" Sankar: \"Yeah, it's inaccurate. And actually, the likely cause is human error. And then quickly following that, we actually built additional AI agents that did more checking. That's part of the process we don't own.\" / Captions, 00:16:54: \"I would defer to the department on that. That's That's not our place.\" / Checked, 00:17:17: \"Sadly, I'm just a technologist. I mean, on these policy issues, I would defer to others.\" / Checked, 00:18:35: \"Well, it's carefully managed by the lawyers in the department. We're only allowed to work on projects where we don't have conflicts. ... it is the greatest honor to be able to serve in our US military. You know, as an immigrant to this country ... my father, my late father, would have loved to have seen me go to a service academy. Life worked out the way it worked out. Arguably, I hope I have more to give back to my country in this capacity at 44 than I did at 24.\"",
+      "context": "The most recent source and the current-accuracy check: a network news interview posted two days before this record, in which he is introduced as Palantir's chief technology officer and as a lieutenant colonel in the Army Reserve. The host presses on AI regulation, a White House pledge Palantir did not sign, the Pentagon's dispute with Anthropic and the Minab strike. Events referred to in the interview (the Iran war, the strike, the Bloomberg report) are taken from the broadcast and from S24 and were not otherwise verified. Captions misrender Minab and Hegseth.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.youtube.com/watch?v=bK4CfLlT9HM",
+      "title": "Shyam Sankar Is Trying To Mobilize A Country | Palantir CTO Interview (Amit Kukreja)",
+      "speaker": "Shyam Sankar, interviewed by Amit Kukreja",
+      "date": "2026-03-11",
+      "locator": "YouTube auto-captions downloaded with yt-dlp on 2026-10-13 and read as timestamped text (/tmp/shyam-sankar-research/txt/bK4CfLlT9HM.txt). Passages marked \"checked\" were second-transcribed from the video's audio with a local Whisper model (small.en) on 2026-10-13 and the excerpt follows that transcription; other wording is auto-caption text and needs a listen before quotation. Upload date 2026-03-11; running time 36:40. Read: 00:07:20 to 00:08:40 and keyword passages. Why he is \"ringing the alarm\": 00:07:45 to 00:08:30 (checked).",
+      "excerpt": "Checked, 00:07:55: \"at the end of the day it's like can I look my kids in the eye and say I did everything possible so that you guys would not be fighting a war and that you would be living in a free and prosperous world and I guess I not only was a shot clock running out but I felt like after 19 years of doing this I'd earned specific opinions of what is broken and what we should be fixing and had a duty to at least articulate them. I'm not sure they're all right but I think they're directionally right enough to catalyze a reformation.\"",
+      "context": "An interview with a retail-investor YouTube host who covers Palantir's stock admiringly, a week before the book's release. The answer matches what he told Invest Like the Best the day before (S08), which suggests a prepared line; the admission of doubt appears only here.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.youtube.com/watch?v=bOTy3Q5_trw",
+      "title": "Boz To The Future #27: The Future According to Shyam Sankar (Meta)",
+      "speaker": "Shyam Sankar, in conversation with Andrew Bosworth (Meta chief technology officer and fellow Detachment 201 officer)",
+      "date": "2026-07-02",
+      "locator": "YouTube auto-captions downloaded with yt-dlp on 2026-10-13 and read as timestamped text (/tmp/shyam-sankar-research/txt/bOTy3Q5_trw.txt). Passages marked \"checked\" were second-transcribed from the video's audio with a local Whisper model (small.en) on 2026-10-13 and the excerpt follows that transcription; other wording is auto-caption text and needs a listen before quotation. Upload date 2026-07-02; running time 52:52. Read: 00:00:40 to 00:02:25, 00:31:30 to 00:33:25, 00:45:10 to 00:45:45 and keyword passages. Bosworth on the commissions: 00:00:55 to 00:01:20. \"Most important thing to know about you\": 00:01:45 to 00:02:12 (checked).",
+      "excerpt": "Bosworth, captions, 00:00:55, says that he and Sankar \"accepted commissions into the US Army Reserves together into Detachment 201\" a year and a day earlier and that the previous night saw \"the second wave\" of lieutenant colonels commissioned into the detachment. / Checked, 00:01:48: \"the through line to, you know, Palantir, the army, the other things I kind of care about is, you know, my family ... we fled violence in Nigeria to settle in the US. I grew up in the shadow of the space coast with this amazing sense of the possibilities of science and technology ... So I'm profoundly grateful to be in America and I'm interested in dedicating my life to American greatness. That's one. Two,\" (captions) \"I love puns.\" / Captions, 00:45:23: \"My wife and I kind of go every week to ... catch a film on date night\"; 00:51:32: \"I saw it again recently with my son\".",
+      "context": "A peer conversation with a fellow executive commissioned on the same day. Asked for the single most important thing to know about him, he gives the family story and gratitude, then a joke. Bosworth's remark dates the recording to about June 14, 2026 and reports a second cohort of commissions. Source for \"my wife\" and \"my son\" in his own voice.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.youtube.com/watch?v=oeFjsv-B3_M",
+      "title": "Orchestrating Enterprises with Data and AI with Palantir CTO Shyam Sankar (ARK Invest)",
+      "speaker": "Shyam Sankar, interviewed by ARK Invest analysts",
+      "date": "2023-09-28",
+      "locator": "YouTube auto-captions downloaded with yt-dlp on 2026-10-13 and read as timestamped text (/tmp/shyam-sankar-research/txt/oeFjsv-B3_M.txt). Upload date 2023-09-28; running time 55:08. Read: 00:31:40 to 00:33:40 and keyword passages. Auto-caption text only; not checked by ear.",
+      "excerpt": "Captions, 00:32:25: \"the single most important tenet of Palantir that our culture is a symptom of is this idea that Palantir is an artist colony and that comes straight from Alex Karp himself ... most companies are factories ... really your job is based on who you are and we are going to go on a journey together to define what you're good at and not good at and build a role that's n of one.\"",
+      "context": "The earliest interview opened, from before the defense essays, the commission and the book. It is a product and culture discussion for investors with no family material. It shows that the \"artist colony\" language, and the habit of crediting it to Karp, were in place by 2023. Caption spellings were normalized in the excerpt (captions read \"paler\" and \"Alex car\").",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.youtube.com/watch?v=Itdv5IKN2P4",
+      "title": "Shyam Sankar - Are We Sleepwalking Into World War 3? | SRS #288 (Shawn Ryan Show)",
+      "speaker": "Shyam Sankar, interviewed by Shawn Ryan",
+      "date": "2026-03-16",
+      "locator": "YouTube auto-captions downloaded with yt-dlp on 2026-10-13 and read as timestamped text (/tmp/shyam-sankar-research/txt/Itdv5IKN2P4.txt). Upload date 2026-03-16; running time 1:32:19. The track labelled \"en\" is a machine translation and was discarded; the \"en-orig\" auto-captions were used. Read: 00:34:35 to 00:35:30, 01:26:20 to 01:27:50 and keyword passages only. Auto-caption text only; not checked by ear.",
+      "excerpt": "Captions, 00:34:46: \"I think a lot of people are worried that it is it is Patriot Act 2.0. They're they're really worried about the privacy stuff. I worry about it, too.\" Host: \"it would be insane not to worry about it.\" Sankar: \"it's not deep enough thought to think that ... we're actually the antidote to that. We're not the cause of it.\" / Captions, 01:26:31: \"I think about my father who came to America never having been here but had a fully formed concept of America in his head which was driven by media, by entertainment.\" 01:27:30: \"it came back to wanting to watch movies with my kids again\"; 01:31:08: \"I'd like my son to learn a thing or two from Isaiah. I'd like my daughter to learn a thing or two from Brandon.\"",
+      "context": "His second appearance on the show, the day before the book's release. Only short passages were read. The speaker turns in the privacy exchange are not marked in captions: \"it would be insane not to worry about it\" appears to be the host's interjection, repeated, and must be resolved by ear before use. Source for \"my son\" and \"my daughter\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000019/pltr-20260423.htm",
+      "title": "Palantir Technologies Inc. definitive proxy statement (DEF 14A), filed April 24, 2026",
+      "speaker": "Palantir Technologies Inc. (SEC filing)",
+      "date": "2026-04-24",
+      "locator": "SEC EDGAR, accession 0001321655-26-000019, opened by direct fetch (HTTP 200) on 2026-10-13. \"Executive Officers\" table (as of April 6, 2026) and biography; Summary Compensation Table and footnote 6; \"Option Exercises and Stock Vested\" table for 2025; \"2020 Executive Equity Awards\"; beneficial ownership table, footnote 3.",
+      "excerpt": "\"Shyam Sankar 44 Chief Technology Officer and Executive Vice President\" / \"Mr. Sankar has served in various positions with us since 2006, most recently as our Chief Technology Officer ('CTO') and Executive Vice President. Mr. Sankar holds a B.S. in Electrical and Computer Engineering from Cornell University and a M.S. in Management Science & Engineering from Stanford University.\" / Summary Compensation Table, 2025: salary 509,419; all other compensation 699,831; total 1,209,250 (2024 total 807,048; 2023 total 632,180). Footnote 6: the other compensation includes \"$165,000\" for personal tax services, \"$105,000\" HSR Act filing fee, and \"approximately $418,296 in costs related to personal security services\". / Option exercises and stock vested in 2025: 1,125,000 shares acquired on exercise, value realized 131,851,838; 1,500,000 shares acquired on vesting, value realized 210,585,000. / 2020 Executive Equity Awards: Shyam Sankar, stock option covering 7,500,000 Class B shares and RSU award covering 7,500,000 Class B shares, granted August 6, 2020.",
+      "context": "The company's own regulatory filing: the best available record for title, age band, degrees and pay. Age 44 \"as of April 6, 2026\" brackets his birth between April 1981 and April 1982 without giving a date. No new equity award is shown for him in 2023 to 2025; nearly all of his realized pay comes from the 2020 grant. The filing gives no title history beyond \"various positions\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.army.mil/article/286317/army_launches_detachment_201_executive_innovation_corps_to_drive_tech_transformation",
+      "title": "Army Launches Detachment 201: Executive Innovation Corps to Drive Tech Transformation",
+      "speaker": "U.S. Army Public Affairs",
+      "date": "2025-06-13",
+      "locator": "army.mil returned HTTP 403 to direct fetch; the full text was opened on 2026-10-13 through the r.jina.ai reader, which returned the article with its published time (2025-06-13T08:35:57-05:00). Paragraphs 1 to 3.",
+      "excerpt": "\"On June 13, 2025, the Army will officially swear in four tech leaders. Det. 201 is an effort to recruit senior tech executives to serve part-time in the Army Reserve as senior advisors. ... The four new Army Reserve Lt. Cols. are Shyam Sankar, Chief Technology Officer for Palantir; Andrew Bosworth, Chief Technology Officer of Meta; Kevin Weil, Chief Product Officer of OpenAI; and Bob McGrew, advisor at Thinking Machines Lab and former Chief Research Officer for OpenAI.\"",
+      "context": "Official announcement; establishes the date, rank, unit name and the three people commissioned with him. It describes the role as part-time senior advisor. It does not address conflicts of interest.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://docs.house.gov/meetings/AS/AS00/20240916/117651/HHRG-118-AS00-Bio-SankarS-20240916.pdf",
+      "title": "House Armed Services Committee witness disclosure letter and biography of Shyam Sankar (hearing of September 16, 2024)",
+      "speaker": "Shyam Sankar",
+      "date": "2024-09-16",
+      "locator": "PDF on docs.house.gov, downloaded (HTTP 200) and text-extracted with pdftotext on 2026-10-13. Page 1: signed disclosure letter. Page 2: \"Professional Biography\". Attachment A: Palantir Department of Defense awards.",
+      "excerpt": "\"In addition to my role at Palantir Technologies Inc., I serve as Chairman of the Board and serve on Board committees of Ginkgo Bioworks\" / \"Joining Palantir in 2006 as employee #13, Shyam envisaged the role of the Forward Deployed Engineer, pioneering the company's definitional engineering model.\" / \"In 2023, he launched the First Breakfast initiative\" / \"He holds a B.S. in Electrical and Computer Engineering from Cornell University and an M.S. in Management Science and Engineering from Stanford University.\"",
+      "context": "His own signed disclosure and the biography he supplied to Congress. It is self-description, so \"envisaged the role\" is his claim; Karp, Jain and McGrew support it in S02 and S04, and Sankar himself credits Karp's intuition in S03 and S07. The Ginkgo chairmanship is stated as of September 2024.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.hudson.org/experts/shyam-sankar",
+      "title": "Shyam Sankar (Hudson Institute expert page)",
+      "speaker": "Hudson Institute",
+      "date": "unknown",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-13. Biography block at the top of the page. No page date.",
+      "excerpt": "\"Shyam Sankar was a trustee at Hudson Institute and is chief technology officer and executive vice president of Palantir Technologies.\" / \"In addition to his work at Palantir, Mr. Sankar also serves as the chairman of Ginkgo Bioworks.\"",
+      "context": "Institutional biography, largely the same text as the House biography (S19). On 2026-10-13 it described the trusteeship in the past tense. Undated, so it cannot confirm that the Ginkgo chairmanship is current.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.military.com/daily-news/2025/06/27/tech-executives-commissioned-senior-army-officers-wont-recuse-themselves-dod-business-dealings.html",
+      "title": "Tech Executives Commissioned as Senior Army Officers Won't Recuse Themselves from DoD Business Dealings",
+      "speaker": "Steve Beynon (Military.com), quoting Army spokesperson Steve Warren and citing a Palantir spokesperson",
+      "date": "2025-06-27",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-13. Opening five paragraphs.",
+      "excerpt": "\"Four big tech executives the Army directly commissioned to be lieutenant colonels, with no military background, will not recuse themselves from business dealings with the Department of Defense\" / Warren: \"They're not making acquisition decisions, they're not senior decision-makers ... It's not in our interest to show any favoritism to a company\" / \"Sankar has pledged to donate all of the money he earns as a part-time officer to Army Emergency Relief ... according to a Palantir spokesperson.\" / \"Last year, Sankar sold Palantir stock amounting to $367.9 million and has made numerous other multimillion-dollar deals. None of the other executives, now Army Reserve officers, responded to requests for comment. None of them were made available for interviews.\"",
+      "context": "Independent trade-press reporting two weeks after the commissioning; the main critical account opened. The headline claim (no recusal) is Beynon's characterization of the Army's answers. The stock-sale figure is Military.com's and was not checked against Form 4 filings here.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://web.archive.org/web/2011id_/https://venturebeat.com/2011/02/16/palantirs-third-black-eye-i2-lawsuit-settled/",
+      "title": "Palantir's third black eye: i2 lawsuit settled",
+      "speaker": "Owen Thomas (VentureBeat)",
+      "date": "2011-02-16",
+      "locator": "venturebeat.com returned HTTP 429 to direct fetch; the Wayback Machine raw capture of the original 2011 URL was opened on 2026-10-13 and matched the text returned by the r.jina.ai reader for the live page. Paragraphs 2, 5 and 6. The embedded complaint and answer (Scribd, Docstoc) were not retrievable.",
+      "excerpt": "\"The most recent is the settlement of a lawsuit filed by rival i2 Group ... over accusations that Palantir employees fraudulently obtained i2 software and used it to design competing products.\" / \"Mitch Derman, an i2 spokesman, and Palantir general counsel Matt Long both declined to comment on the settlement of their companies' dispute, citing an agreement in the settlement not to discuss the case further.\" / \"According to i2, Palantir employee Shyam Sankar obtained i2 software representing himself as a principal of SRS Enterprises, a company registered under the names of his parents in Florida. Sankar then allegedly proceeded to analyze i2's software and use the results to develop tools to import data from i2's software for use in Palantir's analytical tools. (For its part, Palantir responded by alleging that i2 had 'unclean hands' because it purportedly used information about Palantir's products obtained through a company i2 acquired.)\"",
+      "context": "Contemporaneous report of the settlement. Everything about Sankar's conduct is i2's allegation in a complaint; the case settled without a ruling and both sides were bound not to discuss it. Thomas's piece is openly critical of Palantir. The complaint itself has not been read for this record, and no statement by Sankar about the case has been found.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.courtlistener.com/api/rest/v4/search/?q=%22i2%22+Palantir+Sankar&type=r",
+      "title": "CourtListener RECAP docket record: i2, Inc. v. Palantir Technologies, Inc., No. 1:10-cv-00885 (E.D. Va.)",
+      "speaker": "U.S. District Court for the Eastern District of Virginia (docket metadata via CourtListener)",
+      "date": "2010-08-09",
+      "locator": "CourtListener search API result, opened (HTTP 200) on 2026-10-13: first result, docket path /docket/14285795/i2-inc-v-palantir-technologies-inc/. Fields read: caseName, docketNumber, dateFiled, dateTerminated, cause, assignedTo, party. The docket page and the filings themselves were not opened.",
+      "excerpt": "caseName \"i2, Inc. v. Palantir Technologies, Inc.\"; docketNumber \"1:10-cv-00885\"; dateFiled 2010-08-09; dateTerminated 2011-02-10; cause \"17:501 Copyright Infringement\"; assignedTo \"Liam O'Grady\"; parties: \"Asher Sinensky\", \"Nochur Sankar\", \"Palantir Technologies, Inc.\", \"SRS Enterprises, LLC\", \"i2 Limited\", \"Shyam Sankar\", \"i2, Inc.\"",
+      "context": "Court metadata only. It confirms that the suit existed, when it opened and closed, and that Shyam Sankar, a Nochur Sankar (his father's name, per S01) and SRS Enterprises, LLC were parties. It does not show the claims, the answer, the settlement terms or any finding.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://gizmodo.com/pentagon-investigators-say-overreliance-on-palantir-ai-tech-contributed-to-u-s-strike-that-killed-123-iranian-children-2000814477",
+      "title": "Pentagon Investigators Say Overreliance on Palantir AI Tech Contributed to U.S. Strike That Killed 123 Iranian Children",
+      "speaker": "Kyle Torpey (Gizmodo), summarizing a Bloomberg investigation of September 18, 2026",
+      "date": "2026-09-20",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-13. Opening paragraphs and the sections \"Too Much Trust in AI\" and \"Outdated Imagery of a Military Site That Had Become a School\". The Bloomberg article it summarizes was not opened.",
+      "excerpt": "\"Back in February, two Tomahawk missiles hit Shajarah Tayyebeh Elementary School in the southern Iranian town of Minab on the opening day of the Iran war. The blasts killed more than 150 people, including at least 123 children.\" / \"a Bloomberg investigation published Friday ... citing officials involved in an unreleased internal Pentagon review ... described a cascade of preventable failures that included an overreliance on an AI tool built by Palantir.\" / \"A Palantir spokesperson told Bloomberg the company 'is not responsible for the underlying data nor identifying intelligence deficiencies' and that there is no evidence its software was at fault.\" / \"Overreliance on Maven was only one of three failures in the kill chain described to Bloomberg. The other pieces were bad intelligence and outdated satellite imagery.\" / \"More than 120 House Democrats wrote to Defense Secretary Pete Hegseth in March asking what role Maven and other AI tools played in identifying the site. The Pentagon has not answered publicly, citing the ongoing investigation.\"",
+      "context": "Secondhand: a summary of Bloomberg reporting that rests on unnamed officials describing an unreleased review. The matter concerns Palantir's Maven Smart System and Central Command personnel, not Sankar's personal conduct; it enters this record because he answered the report on national television on October 11, 2026 (S12). Casualty figures differ between outlets.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://therevolvingdoorproject.org/shyam-sankar-ai-trump-administration-villains/",
+      "title": "AI Villains and the Trump Administration: Shyam Sankar",
+      "speaker": "Revolving Door Project",
+      "date": "2026-07-28",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-13 and read in full. Sections \"Industry Affiliation\", \"Trump Admin Ties\", \"Government Affairs\".",
+      "excerpt": "\"Sankar is a long-time employee of defense contracting behemoth Palantir, serving as its Chief Technology Officer and Executive Vice President since 2023.\" / \"In February 2026, Sankar wrote an op-ed for Fox News, claiming that 'the American people are being lied to about AI,' calling it 'our birthright.'\" / \"Sankar also claimed, without any supporting evidence, that the 'benefits of AI belong to all Americans'\" / \"In January 2025, Sankar testified before the Senate Armed Services Committee. In his testimony, Sankar argued that attempts to 'put process' around innovation 'destroys' the ability for companies like Palantir to innovate.\"",
+      "context": "An advocacy group's critical dossier. Most of it concerns Palantir's contracts, lobbying spending and former employees in government rather than Sankar's conduct; what it says about him personally is that he promotes AI and large defense budgets while his company profits. It offers no testimony from people who have worked with him. Its figures were not verified here.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://nabeelqu.substack.com/p/reflections-on-palantir",
+      "title": "Reflections on Palantir",
+      "speaker": "Nabeel S. Qureshi (former Palantir employee)",
+      "date": "2024-10-15",
+      "locator": "Substack copy opened by direct fetch (HTTP 200) on 2026-10-13 (the author's own site returned HTTP 429). Section on Palantir's internal vocabulary, paragraph beginning \"When Palantir's name comes up, most people think of Peter Thiel.\"",
+      "excerpt": "\"'Ontology' is an old one, but then there is 'impl', 'artist's colony', 'compounding', 'the 36 chambers', 'dots', 'metabolizing pain', 'gamma radiation', and so on. ... When Palantir's name comes up, most people think of Peter Thiel. But many of these terms came from early employees, especially Shyam Sankar, who's now the President of the company.\"",
+      "context": "A former forward deployed engineer writing for a general tech audience after leaving the company; broadly admiring but not solicited by Palantir. It independently supports the claim that the company's internal language traces to Sankar. Qureshi calls him \"President\" in October 2024, when company filings list him as CTO and executive vice president; the title appears to be out of date in the essay.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.firstbreakfast.com/p/mobilization-day",
+      "title": "Mobilization Day (First Breakfast)",
+      "speaker": "Shyam Sankar and Madeline Hart",
+      "date": "2026-03-17",
+      "locator": "Substack post opened by direct fetch (HTTP 200) on 2026-10-13. Byline and first three paragraphs. The Substack archive API was also opened to list the 123 most recent posts (back to July 2024, newest dated October 8, 2026); most are policy essays and many carry other bylines. The archive lists \"Reformation Day\" (October 31, 2024), the post announcing \"The Defense Reformation\"; the essay site 18theses.com was opened only as far as its title and description.",
+      "excerpt": "\"Today is the release date of our book Mobilize: How to Reboot the American Industrial Base and Stop World War III. This book tells the stories of past American mobilizations ... More fundamentally, they are stories about people: visionary builders, courageous entrepreneurs and bureaucrats, heretical outsiders—above all, patriots.\" / \"Now we are fighting Iran.\"",
+      "context": "His own announcement, co-signed with his co-author. Confirms the title, the co-author and the release date. It says nothing about bestseller lists; Joe Lonsdale's show notes call the book \"best-selling\" (S07) but no list was checked for this record.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.thefp.com/p/im-the-cto-of-palantir-today-i-join",
+      "title": "I'm the CTO of Palantir. Today I Join the Army.",
+      "speaker": "Shyam Sankar (The Free Press)",
+      "date": "2025-06-13",
+      "locator": "Fetched 2026-10-13: the page returns the headline, subhead, byline, date and first paragraph, then a subscriber wall. The essay itself was not read, so this source is marked unavailable and no claim rests on it alone.",
+      "excerpt": "Subhead: \"My father grew up in a mud hut in India. America gave him—and me—a life. Now technologists like me need to give back.\" First paragraph: \"Later today, on the eve of the U.S. Army's 250th birthday, I will raise my right hand, take an oath to support and defend the Constitution, and commission as a lieutenant colonel in the Army Reserve's newly formed Detachment 201: Executive Innovation Corps.\"",
+      "context": "His own first-person account of why he took the commission, published the morning of the ceremony. Only the visible fragment is recorded. The full text is the best single written primary on the commission and is a research task.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S29",
+      "url": "https://kbssidhu.substack.com/p/introducing-lt-col-shyam-sankar-the",
+      "title": "Introducing Lt Col Shyam Sankar: The Indian-Born Technologist Inside America's Defence-AI Machine",
+      "speaker": "KBS Sidhu (The KBS Chronicle)",
+      "date": "2026-02-23",
+      "locator": "Opened by direct fetch (HTTP 200) on 2026-10-13 and read through the biographical sections (\"From Mumbai to America's Defence Frontier\").",
+      "excerpt": "\"Shyam Sankar was born in Mumbai in the early 1980s into a Tamil family ... His father rose from modest beginnings in Tamil Nadu to study pharmacy, eventually moving to Lagos, Nigeria, to help run a pharmaceutical plant. That chapter ended abruptly after a violent robbery forced the family to leave.\"",
+      "context": "A commentary newsletter that cites no sources and appeared four days after the Colossus profile, whose details it tracks. It is the origin of the \"born in Mumbai\" and \"Tamil family\" leads in the seed brief. In opened primaries Sankar says only that his mother \"went back to India to have me\" and that his father came from a village in \"the south of India\"; Colossus says his mother was \"from Bombay\". This source is recorded so later stages do not treat its details as independent; no claim cites it.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.piratewires.com/p/primacy-of-winning-shyam-sankar-palantir",
+      "title": "The Primacy of Winning (Pirate Wires)",
+      "speaker": "Pirate Wires, with Shyam Sankar",
+      "date": "unknown",
+      "locator": "Not opened: piratewires.com returned HTTP 429 (bot checkpoint) on 2026-10-13. The site's search listing, read through the r.jina.ai reader, shows the title, an \"Apr 8\" date with no year, and the summary line quoted here.",
+      "excerpt": "Listing summary only: \"palantir cto shyam sankar doesn't build high-performing engineering teams, he wins. here's how.\"",
+      "context": "A lead on how he describes management in his own words. Nothing from it is used. The same listing shows a second piece under his byline, \"What the Tech Right Sees in Trump\" (listed \"Jan 22\"), also unopened; the Colossus profile says he \"wrote for Pirate Wires on why he and his comrades aligned behind Donald Trump\".",
+      "kind": "primary",
+      "access": "unavailable"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "As of October 13, 2026, Shyam Sankar is chief technology officer and executive vice president of Palantir Technologies, where he has worked since 2006. Palantir's April 2026 proxy lists him among five executive officers, and CBS introduced him as Palantir's chief technology officer on Face the Nation in an interview posted October 11, 2026.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S17",
+        "S12",
+        "S19"
+      ],
+      "inference": "Identity and current role for the opening, metadata and the \"who is\" FAQ. The proxy says only that he has held \"various positions\" since 2006.",
+      "alternative": "Title history is thin in opened records. The Colossus profile says he \"had been named chief operating officer\" by February 2021; the Revolving Door Project says CTO and executive vice president \"since 2023\"; a former employee called him \"President\" in October 2024 (S26), which filings do not support for that date. Do not print a title chronology without a filing for each step.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck his title against Palantir's newest proxy or 8-K before each release and after any executive change at Palantir."
+    },
+    {
+      "id": "C02",
+      "claim": "Palantir's proxy gives his age as 44 as of April 6, 2026. He described himself as 43 in an interview posted October 30, 2025 and as 44 in interviews posted in March, May and October 2026. No opened source states his date of birth.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S17",
+        "S06",
+        "S09",
+        "S07",
+        "S12",
+        "S01"
+      ],
+      "inference": "Supports an \"age\" answer tied to a dated filing. Taken together the statements put his birth between late 1981 and early 1982, but that is arithmetic on round remarks (\"at 44 than I did at 24\"), not a record.",
+      "alternative": "He may be rounding for rhetorical symmetry with \"24\". Do not publish a birth year or date; give the proxy age with its as-of date.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update the stated age from the next proxy statement; add a birth date only if a primary source gives one."
+    },
+    {
+      "id": "C03",
+      "claim": "He holds a B.S. in electrical and computer engineering from Cornell University and an M.S. in management science and engineering from Stanford University. He attended Trinity Preparatory School near Orlando on full financial aid, according to his account in the Colossus profile, after earlier years at a Catholic school, St. John Vianney.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S17",
+        "S19",
+        "S01",
+        "S08"
+      ],
+      "inference": "Degrees are stated in an SEC filing and in the biography he gave Congress. The schools before college come from his own telling. Answers the \"education\" FAQ.",
+      "alternative": "The proxy gives no graduation years. Colossus says he finished Cornell in three years, tried to leave to join the CIA after 9/11 and paused to start a company that failed; those details are his account only. He has also said he joined Xoom within two months of arriving at Stanford in 2003 (S05), while Colossus dates the Xoom meeting to spring 2004.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "By his own account he was born in India to parents who were living in Lagos, Nigeria, and spent roughly his first three years in Nigeria. He says his father, the youngest of nine children raised in a one-room mud hut in southern India, trained as a pharmacist and went to Nigeria in his early twenties to help build a pharmaceutical factory. The Colossus profile names his parents as Nochur \"Shan\" Sankar and Girija and the company as Vitabiotics.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S01",
+        "S06"
+      ],
+      "inference": "Basis for the \"parents\" and \"nationality\" answers: Indian-born, raised in the United States from early childhood. The account is consistent across 2025 and 2026 tellings.",
+      "alternative": "All of it is family history as he tells it. Details shift between tellings: his father was 23 on arrival (S05), \"22, 23\" (S07), or 24 in 1975 (S01). His claim that the plant was \"the first pharmaceutical manufacturing facility in all of Africa\" is unverified and should be attributed or dropped. No opened primary names his birth city; \"Mumbai\" comes from an unsourced newsletter (S29), while Colossus says only that his mother was from Bombay. He called the family \"refugees\" in 2024 (S10) and said \"we came here legally\" in 2025 (S06); their immigration category and his citizenship are not documented in any opened source.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "He says that when he was about three, five armed men broke into the family's house in Lagos, pistol-whipped his father, threatened to execute him, threatened his mother and decapitated the family dog, and that the family was spared because one of the robbers had been a regular at his mother's open kitchen. Colossus dates the break-in to 1984. He says the family left their possessions behind, and he says he has no direct memory of the night.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S06",
+        "S07",
+        "S01",
+        "S10",
+        "S08"
+      ],
+      "inference": "The founding story of his public account of himself, told with the same core details on at least six occasions between December 2024 and May 2026. What can be said is that he tells it this way and treats it as formative for his father more than for himself: \"It was a formative experience for Dad.\"",
+      "alternative": "There is no independent record: no police report, news account or named witness outside the family, and he was a small child who knows it as \"retold to me\". It must be written as his family's account. It cannot support a claim that the event wounded him; he says he was \"just excited to have visitors\".",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "He says the family resettled in Orlando in the mid-1980s (1985, per Colossus), where his parents stocked souvenirs in theme-park gift shops; that his father later started a dry cleaner and a dollar store that both went bankrupt; that a process server waited outside their home one night, which he calls \"profoundly humiliating and terrifying\"; and that his father then worked as a pharmacy technician while his mother bagged groceries and trained as a nurse.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S05",
+        "S06",
+        "S08"
+      ],
+      "inference": "Establishes that the American chapter of the family story was repeated failure, by his telling, and that he says so plainly: \"It wasn't the classic immigrant story.\" The one place he uses the word \"terrifying\" about his own childhood is the process server, a moment of public exposure, and not the robbery.",
+      "alternative": "His account only. He told Shawn Ryan he worked at \"his pharmacy in Orlando\", which suggests the father's later work was more than a technician's job; the sequence of his father's jobs is not consistent across tellings.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "He says his father's one recurring lesson was a counterfactual: \"But for the grace of this country, we'd be dead in a ditch in Lagos.\" He has repeated the sentence, with small variations, in December 2024, October 2025, February 2026 and April 2026, and each time he ties his own choices to it as gratitude or giving back. He calls his father his hero; his father died in February 2021.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S10",
+        "S06",
+        "S01",
+        "S11",
+        "S07",
+        "S05",
+        "S08"
+      ],
+      "inference": "The most repeated sentence in the record, and the frame he gives for joining Palantir, the Army and public life. It describes safety as something granted by a larger protector and held as a debt: \"this country has given us more than we deserve to have.\" The pattern is stable across interviewers, years and audiences.",
+      "alternative": "It is also the most useful story a defense contractor's spokesman could tell, and it was already polished before the book tour. Repetition shows a settled narrative, not a proven motive. The gratitude may be inherited script (\"the gratitude ... that dad imparted in us\") more than temperament.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "Asked by the Colossus writer whether his family's precarious circumstances made him ashamed or fearful, he answered \"The opposite\", said \"I always felt like our house was my bedrock\" and that this stability let him \"take risks and be ambitious\", and chose \"Grateful\" over \"happy\" as the word for his father.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "His direct denial that fear shaped him, and the best single piece of counterevidence to a fear-centered reading. It also shows where he locates security: in a home base that makes risk possible.",
+      "alternative": "A denial of fear is weak evidence either way. The same article has him recalling a night that was \"terrifying\" and \"freaking out\" at Karp. A reader could fairly take the answer at face value and see a confident, appetite-driven temperament.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "He names the Trinity Prep admissions director, Ethel Danhof, who had him tested after the deadline and admitted him on aid, as the kindest act anyone has done for him, and describes it as the first time he saw someone \"willing to break the rules and fuck the process to make it work.\" He adds that \"there's nothing in it for her.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S08"
+      ],
+      "inference": "Told twice in almost the same shape (Colossus, February 2026; Invest Like the Best, March 2026). It links his later creed about rule-breaking \"heretics\" to an early benefactor, and shows him sorting helpers by whether they had a motive.",
+      "alternative": "A retrospective story chosen for a profile and a closing podcast question. Colossus says Danhof has died, so her account cannot be had. The connection to \"heretics\" is partly his own framing after the fact.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "He describes himself at Trinity Prep as \"one of the few kids with no means, surrounded ... by people with enormous means\", says it \"puts fire in your belly\" (\"Why can't I have all this? Why not me?\"), and recounts being pushed out of a friend group that mocked him \"for being Indian and an immigrant\".",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "An early instance of the outsider position he still claims at 44, with ambition as his stated response. It fits several readings: a striver's hunger, an Eight's refusal to be lesser, or a Six's work to earn a place.",
+      "alternative": "Single source, his recollection, decades later. He minimizes the ostracism (\"I don't think they were actually racist\").",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "At both early career forks he says his father decided the matter. Choosing between Boston Consulting Group and the startup Xoom, \"he put his foot down\": \"I didn't make all these sacrifices so that you could take the easy way.\" Of joining Palantir he says \"Once again it was a fork in the road where Dad was right.\" Alex Karp says the father \"told Shyam, you may never leave Palantir. That's probably why he didn't leave.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S04"
+      ],
+      "inference": "He presents his riskiest choices as acts of obedience to a trusted authority who told him to take the risk. Karp extends the same pattern to his 20-year tenure. This is the clearest evidence that his boldness runs through loyalty.",
+      "alternative": "Karp's line was delivered as a warm joke at a gala. Crediting a late, beloved father is also what a grieving son does. The Xoom account comes from one profile.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "He joined Palantir in March 2006 as its 13th employee after about two to three years at the remittance startup Xoom, hired through co-founder Joe Lonsdale. He says he thought the company \"probably wouldn't work\" and that he would \"rather fail working on something this important than succeed on building something completely trivial.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S07",
+        "S10",
+        "S05",
+        "S19"
+      ],
+      "inference": "Employee number and year are confirmed by Lonsdale on camera and by his congressional biography. The stated reason (mission over odds) is the same in December 2024 and May 2026, and he connects it to \"my family background\".",
+      "alternative": "He gives his Xoom tenure as \"almost 3 years\" (S05) and Colossus as \"nearly two years\"; he calls himself Xoom's fifth employee, which was not checked. A mission story told after the company succeeded cannot show what he weighed at 24.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "He is credited with naming and building Palantir's forward deployed engineer model, in which engineers work beside the customer and feed what they learn back into the product. Colleagues Aki Jain and Bob McGrew credit him; he credits the idea's origin to Alex Karp's remark about waiters in French restaurants.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S07",
+        "S19",
+        "S01"
+      ],
+      "inference": "His main professional achievement, supported by two early engineering leaders and by Lonsdale (\"you kind of like branded and structured and like created the whole thing\"). Notably he hands the founding insight to his boss in public and private tellings alike.",
+      "alternative": "Lonsdale also remembers \"thinking and talking about\" getting engineers into the field, so the idea had more than one parent. Critics quoted by Colossus call the role a renamed consultant. The witnesses are all Palantir insiders.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "Twice, by his own account, he took a crisis to Karp in alarm and was steadied by him. After a two-week, 19-hours-a-day deployment around 2008 he phoned Karp to say \"This is not going to work. It's unsustainable. We're going to fail here\", and Karp laughed and asked how else it could work. Early on he was \"freaking out at him\" over work he did not know how to do (\"This shit is not possible\"), and Karp answered with a parable.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S01",
+        "S08"
+      ],
+      "inference": "Under real strain he does not describe imposing his will; he describes forecasting failure to a trusted superior and borrowing that person's certainty. He tells the first story himself in three places, including from a gala stage, and names the deployment as where he learned that \"success looks like a lot of pain.\" This is the main discriminator against a Type 8 reading.",
+      "alternative": "Both stories are self-deprecating set pieces that flatter Karp, told at Karp's award dinner and to a friendly profiler. Sleep deprivation explains the first call on its own. Two anecdotes from the late 2000s are a small base.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "He treats endurance of pain as the method: forward deployed engineers \"metabolize pain and excrete product\"; \"the maximal rate of learning will be coincident with your maximum ability to tolerate pain\"; the instinct \"to reduce the pain ... is exactly the wrong instinct.\" He says Karp told him at the start that he had \"the constitution of a goat\".",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S08",
+        "S03",
+        "S26"
+      ],
+      "inference": "A creed stated in his own coinages, in use inside the company by 2024 according to a former employee. It explains the 19-hour days and the \"irradiating\" of junior staff as chosen hardship.",
+      "alternative": "Hard-work slogans are common currency among startup executives and are part of Palantir's recruiting image. They say little about why he endures.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "Colleagues and a reporter describe a confrontational working style: long critiques (\"Shyam Bombs\") emailed to the whole company at night, rules issued as \"fatwas\" with an invitation to argue, and a ritual of asking new hires and interns to tell him to go fuck himself. Karp ties \"the brutality with which we look at problems\" to his personality. Ted Mabrey says \"it's not personal at all\" and reads the motive as \"This is what I owe you all in order for us to win together.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S02",
+        "S01",
+        "S08"
+      ],
+      "inference": "The behavior is well attested (Stern watched the intern ritual; Sankar describes it himself). The contested part is motive. Mabrey's reading, criticism as an obligation to the group, and Sankar's own explanation, \"how can you say you have a flat culture if you can't tell the boss to\" go away, both point to testing trust and loyalty more than to dominance.",
+      "alternative": "This is the strongest material for Type 8: blunt force, public argument, a boss who sets the terms of dissent. An invitation to curse at the CTO is still the CTO's game. The only people describing how it feels are executives who thrived under it; Sankar concedes the ritual is \"very uncomfortable for them\".",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "Karp said publicly that \"Shyam was not everyone's cup of tea\", and Sankar repeats the line about himself, describing \"being ornery\" on behalf of the software's end users: \"I'm going to piss off literally everyone along the way.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S04",
+        "S08"
+      ],
+      "inference": "The only on-record acknowledgment, from him and from his boss, that he has made enemies inside and outside the company. He places the friction in loyalty to \"the operator\" against gatekeepers.",
+      "alternative": "No one who disliked working with him is on record, so the friction is known only through two friendly voices. Being disagreeable for the customer is also a sales posture.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "He describes Alex Karp as the second greatest influence on his life after his father: \"He's been my rabbi, he's been my confidant, my guru. And at times when I've given him cause—and I've given him cause—he's been my parole officer.\" He also names Karp as his example of greatness and compares Karp to his father.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S08"
+      ],
+      "inference": "He frames his career as an apprenticeship to a chosen authority who also corrects him. The comparison to his father (\"that's the parallel between Alex and my father\") is his own.",
+      "alternative": "A toast to one's boss at the boss's award dinner. \"Parole officer\" is a laugh line whose substance he does not explain.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "Karp credits him with a decisive role at each stage of the company, says he promoted him because he \"was going to be an incredible human being\" and because of how he treated his brother (\"If he could love Palantir half as much as he loves his brother\"), and says that after COVID it was Sankar who came to New Hampshire and told him he had to come back.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S04",
+        "S02"
+      ],
+      "inference": "Named testimony that the quality Karp bet on was attachment, not brilliance or force, and that Sankar is the one who could tell the chief executive he was failing the company. Loyalty here includes confronting the person he is loyal to.",
+      "alternative": "Karp is the least neutral witness available and was speaking at a celebration. The New Hampshire story is told only by Karp.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "In twenty years he has not left Palantir or founded a company of his own, though he describes Palantir as a factory for founders and many former subordinates have started defense companies. He describes his own gift narrowly, as owning the seam between forward deployed engineering and product \"almost as a dictator\".",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S17",
+        "S08",
+        "S07",
+        "S01"
+      ],
+      "inference": "A two-decade choice with a cost: he stayed the indispensable deputy inside someone else's company while peers left to run their own. His authority is fierce inside a bounded domain granted by Karp. This is the long-run behavior a Type 8 reading has to explain.",
+      "alternative": "Staying was also extremely lucrative (C35) and he has had wide latitude, so the choice may be rational rather than temperamental. \"Dictator\" is his word for how he runs his domain, twice (S07, S08).",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck if he leaves Palantir, takes a government post, or founds or runs another organization."
+    },
+    {
+      "id": "C21",
+      "claim": "He says that after a serious error that hurt the company he \"sheepishly\" went to Karp and told him everything, out of \"my commitment to just always being honest\", and that Karp \"valued the fact that I wouldn't try to hide it.\" He does not say what the error was.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "He reports confession to authority as his reflex after failure and builds a management rule on it (no firing for an honest mistake). The word \"sheepishly\" is his.",
+      "alternative": "Unspecified, undated and uncorroborated. It is unknown whether this refers to the i2 episode (C33) or anything like it. A self-description as \"always honest\" cannot be squared with i2's allegation if that allegation was accurate; neither can be tested from the record.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "In May 2026, as the chief technology officer of a company his host valued at more than $300 billion and a serving Army officer, he said: \"Constitutionally, I'm going to always feel like an outsider. ... I always feel like I'm the heretic looking in. Now maybe I relish that role a little bit\", and described carrying \"that chip on your shoulder to like earn your place every day.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "The contradiction the profile can open on: he was asked directly whether he is now an insider and answered that the outsider feeling is constitutional and that his place has to be earned daily. It is self-aware (\"maybe I relish that role\").",
+      "alternative": "Said to a Palantir co-founder who had just described the same feeling, so partly an echo. \"Outsider\" is also brand positioning for a company selling against incumbents. Wording is from auto-captions checked against a local Whisper transcription.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "On June 13, 2025 he was commissioned as a lieutenant colonel in the Army Reserve's new Detachment 201, the Executive Innovation Corps, with Andrew Bosworth of Meta, Kevin Weil of OpenAI and Bob McGrew. He said in October 2026 that his work is with the Army's G-1 on identifying and employing soldiers with technical talent.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S18",
+        "S12",
+        "S06",
+        "S14"
+      ],
+      "inference": "Date, rank, unit and cohort come from the Army's announcement; the assignment comes from his own description on CBS and to Ross Douthat. A second cohort was commissioned in June 2026, according to Bosworth.",
+      "alternative": "The Army describes the role as part-time senior advising. What he has actually done there is known only from him.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck his rank, status and assignment in Detachment 201 before each release and if the Army changes or ends the program."
+    },
+    {
+      "id": "C24",
+      "claim": "He gives the same reasons for the commission each time: \"to honor dad's sacrifice\", to set an example for his children, and because \"this country has given us more than we deserve to have.\" He says his father wished he had gone to a service academy, and that watching Israeli reservists return to the IDF after October 7, 2023 was the catalyst.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S06",
+        "S09",
+        "S12",
+        "S11"
+      ],
+      "inference": "Stated motive for the most visible choice of his recent life, consistent from October 2025 to October 2026. It is repayment to a father and a country, plus modeling duty for his children.",
+      "alternative": "The commission also deepens ties between Palantir and its largest customer and raised his public profile weeks before a book announcement. Stated reasons and useful effects coincide; the record cannot rank them.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "The commission drew conflict-of-interest criticism. Military.com reported that the four executives \"will not recuse themselves from business dealings with the Department of Defense\"; an Army spokesperson said they are \"not making acquisition decisions\". Sankar says his Army work \"doesn't overlap with anything else that\" Palantir does and is \"carefully managed by\" the department's lawyers. A Palantir spokesperson said he pledged his Army pay to Army Emergency Relief.",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S21",
+        "S06",
+        "S12",
+        "S25"
+      ],
+      "inference": "The criticism and his answer both belong in the profile. His answer is to point to the institution's process and chain of command rather than to his own judgment.",
+      "alternative": "Critics hold that no screening removes the conflict when an officer's employer holds billions in Army contracts. No inspector general or ethics finding on Detachment 201 was found, in either direction.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck for any inspector general, congressional or Army ethics action on Detachment 201 and for changes to his Palantir role."
+    },
+    {
+      "id": "C26",
+      "claim": "He says he became a public figure reluctantly and out of duty: \"I'm a bit reluctant about the shift, but I can't look my kids in the eye and not say that I'm ringing the bell that we're in an undeclared state of emergency.\" He says that after 19 years he \"had a duty to at least articulate\" his views and adds, \"I'm not sure they're all right.\" The Colossus writer observed both \"unexpected eagerness\" in his embrace of media and \"a distinct sense of unease\".",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S13",
+        "S01",
+        "S27"
+      ],
+      "inference": "His account of the public turn that began with \"The Defense Reformation\" in October 2024: an alarm he was obliged to raise, measured against his children, with a stated doubt about being right. An independent observer saw the eagerness and the unease together.",
+      "alternative": "The turn coincides with Palantir's rising valuation, a book, a Substack and a film company; a Type 3 reading (a hidden operator stepping into deserved recognition) fits the timing. \"Reluctant\" is self-report and the volume of appearances argues against it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "His book with Madeline Hart, Mobilize: How to Reboot the American Industrial Base and Stop World War III, was released on March 17, 2026. Its argument, and that of his \"Heretics and Heroes\" essays, is that American defense breakthroughs came from rule-breaking individuals who needed \"the space for their heresy to exist and ... a modicum of protection from the top.\"",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S27",
+        "S07",
+        "S10",
+        "S01",
+        "S11"
+      ],
+      "inference": "Release date and co-author are from his own announcement. The thesis matters for the portrait because his heretic is never alone: the stories he chooses turn on a protector above the rebel.",
+      "alternative": "Bestseller status is asserted in Lonsdale's show notes only and was not checked against any list. The publisher was not confirmed in an opened source. His reading of the historical figures is his own and is contested by historians in some cases.",
+      "durability": "time_sensitive",
+      "review_trigger": "Verify list placements and publisher before stating them; recheck if a new edition or second book appears."
+    },
+    {
+      "id": "C28",
+      "claim": "The Colossus writer reports that Sankar's composure broke once in their interviews, when asked whether powerful tools should exist given that people in power abuse them. He grew \"slightly indignant\" and said: \"It's a form of institutionalizing corruption. Like, why do you think nothing works in Nigeria or India? It's because the cultures are corrupt. The systems are bankrupt, and people just live with it or get overwhelmed by it. The entropy of the universe is towards that sort of corruption.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "An observed flash of anger, and its target: institutions that do not work and people who accept that. Stern connects the wording to how Sankar described what \"nearly swallowed his family\" (\"the bankruptcy of a corrupt system just overwhelms you\"). His recurring enemy is disorder, which he calls entropy, more than any person.",
+      "alternative": "One reporter's reading of one moment. The sentence about Nigeria and India is a sweeping judgment of two countries and must be quoted exactly, attributed and dated, never paraphrased into something broader. Anger at corruption is also what a Type 1 or Type 8 reading would predict.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "Alongside the heretic language he repeatedly defers on who decides. He told Colossus that changing the rules is \"not the job of unelected engineers in Silicon Valley. That's the job of democracy.\" On CBS in October 2026 he said \"I'm just a technologist ... on these policy issues, I would defer to others\" and \"I would defer to the department\". He often retells the story of Theodore Hall, the Manhattan Project physicist who assumed that genius in physics made him a judge of geopolitics.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S12",
+        "S07",
+        "S16"
+      ],
+      "inference": "The pairing is the pattern: he licenses rule-breaking in the service of the mission and the legitimate chain of authority, and warns against technologists substituting their judgment for it. That is closer to a loyal dissenter than to someone who resists being governed.",
+      "alternative": "Deferring to \"the department\" is also how a contractor's executive avoids answering a hard question on television; the CBS deferrals came when he was asked about a lethal strike (C32). His company sued the Army twice, which is not deference.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "Asked by Ross Douthat in October 2025 whether his history as an immigrant sits in tension with Palantir's work on deportations, he answered that \"assimilation is important\", \"we came here legally\", immigration \"has made this country strong but legal immigration\", and that \"the lack of enforcement breeds\" nihilism, and said he was speaking only for himself.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S01",
+        "S25"
+      ],
+      "inference": "His on-record answer to the most pointed personal challenge in the record. He resolves it through legitimacy and rules followed, the same value he applies to institutions generally.",
+      "alternative": "Critics see the answer as a beneficiary of immigration defending its restriction while his company profits (S25). The transcript is from auto-captions; the family's legal route is not documented (C04).",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck if he makes a fuller statement on immigration or on Palantir's immigration-enforcement contracts."
+    },
+    {
+      "id": "C31",
+      "claim": "He attacks AI-risk advocates in terms of hidden motive and false belief: effective altruism is a \"millenarian doomsday cult\", its safety warnings are \"a theological critique\", the evaluators \"are not really independent. They have conflicts\", and in 2025 he called the \"Skynet fear ... almost like a conspiracy just to slow everything down.\" On surveillance fears about Palantir he told Shawn Ryan in 2026, \"I worry about it, too.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S12",
+        "S05",
+        "S16"
+      ],
+      "inference": "Shows how he argues: he sorts warnings by who is behind them and what they stand to gain, dismisses the alarm of a group he distrusts, and raises his own alarm about war and industrial decline. Suspicion of motive is constant; fear itself is selective.",
+      "alternative": "These are also talking points that serve his employer's commercial interest in fast AI adoption, repeated across outlets in 2026. Calling opponents a cult is combative in a way that fits a Type 8 reading as well.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck his AI-safety statements against any change in federal AI policy or in Palantir's relationships with AI labs."
+    },
+    {
+      "id": "C32",
+      "claim": "On Face the Nation in an interview posted October 11, 2026, he was asked about a U.S. strike on a school in Minab, Iran, in February 2026 and a Bloomberg report that Pentagon personnel relied too heavily on Palantir's Maven system. He replied that \"we should wait for the final report\" but that the reporting is \"inaccurate\" and \"the likely cause is human error\", and said Palantir afterward built additional AI checks. Gizmodo's summary of the Bloomberg report says officials described overreliance on Maven as one of three failures, alongside bad intelligence and outdated imagery; a Palantir spokesperson told Bloomberg there is no evidence its software was at fault. The Pentagon review had not been released as of October 13, 2026.",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S12",
+        "S24"
+      ],
+      "inference": "A live, grave dispute about his company's product in which he is the public voice. It is relevant to the portrait only as behavior: he contests the account, declines to go beyond \"the department\", and points to a fix. It should be included only if the article can state it this carefully.",
+      "alternative": "The facts are unresolved and the sourcing is thin on both sides: unnamed officials through a secondhand summary, and an executive of the contractor. Casualty counts vary by outlet. The matter is about a system and its users, not his personal conduct, and it may date quickly.",
+      "durability": "unresolved",
+      "review_trigger": "Reopen when the Pentagon review of the Minab strike is released, when Congress acts on the House Democrats' letter, or when Palantir or Sankar issues a fuller statement; read the Bloomberg article itself before any release that mentions the strike."
+    },
+    {
+      "id": "C33",
+      "claim": "In August 2010 the software company i2 sued Palantir in federal court in Virginia; the docket lists Shyam Sankar, a Nochur Sankar, SRS Enterprises, LLC and Asher Sinensky among the parties. According to VentureBeat's account of the complaint, i2 alleged that Sankar obtained its software by presenting himself as a principal of SRS Enterprises, a Florida company registered in his parents' names, and used it to build import tools for Palantir. Palantir answered that i2 had \"unclean hands\". The case closed in February 2011 with a confidential settlement and no ruling; Colossus reports the amount as $10 million.",
+      "passage": "",
+      "class": "disputed",
+      "source_ids": [
+        "S22",
+        "S23",
+        "S01"
+      ],
+      "inference": "The one allegation in the record aimed at his personal conduct, and it touches his family. It is old, settled and unadjudicated, and it is the kind of rule-bending-for-the-mission episode that his own \"heretic\" creed would have to account for.",
+      "alternative": "Nothing was proven. The description of his conduct is the plaintiff's, relayed by a critical reporter; the complaint and Palantir's answer were not read here; the settlement amount rests on Colossus alone; and no statement from Sankar has been found. \"Industrial espionage\" is Colossus's summary phrase, not a quoted legal claim.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "He is married and has children; he has referred on the record to \"my wife\", \"my son\" and \"my daughter\". He did not name his wife or state how many children he has in any opened primary source.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S16",
+        "S07",
+        "S11"
+      ],
+      "inference": "Enough to say he is a husband and father, which he gives as a reason for his public work. The \"wife\" FAQ can be answered only at this level until a primary source names her.",
+      "alternative": "Search results and one author page (not retrievable in full) identify his wife as Pooja Nath Sankar, founder of Piazza, and say they have two children. That was not confirmed in any opened primary and must not be printed as fact from this record.",
+      "durability": "time_sensitive",
+      "review_trigger": "Add his wife's name only from a primary or named-outlet source; recheck family details before each release."
+    },
+    {
+      "id": "C35",
+      "claim": "Palantir reported his 2025 salary as $509,419 and total compensation as $1,209,250, including about $418,296 for personal security. The same proxy shows he realized about $131.9 million from option exercises and $210.6 million from vesting stock in 2025, almost all from a 2020 grant of 7.5 million options and 7.5 million restricted stock units.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S17",
+        "S21"
+      ],
+      "inference": "Answers the \"salary\" query from a filing and shows the scale of what staying at Palantir has paid. It also tempers any reading of his tenure as pure loyalty.",
+      "alternative": "Summary-table pay understates his earnings because the equity was granted in 2020. Military.com's figure of $367.9 million in 2024 stock sales was not checked against insider filings. No net-worth figure is supported.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update from the next proxy statement; do not estimate net worth."
+    },
+    {
+      "id": "C36",
+      "claim": "His parents were Hindu and his father was treasurer of the Hindu Society of Central Florida; he attended a Catholic elementary school, where he says he went to Mass weekly and did not take communion; and he told Colossus, in interviews conducted in late 2025, that he had begun studying the weekly Torah portion with an Orthodox rabbi, Adam Mintz, the previous year. He has not stated his own religious affiliation in any opened source.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S03",
+        "S12"
+      ],
+      "inference": "Answers the \"religion\" query without assigning him a faith. The pattern across his life is seeking instruction inside traditions that are not his by birth, and calling teachers by religious titles (\"my rabbi ... my guru\").",
+      "alternative": "All from one profile plus his speech. He jokes about it (\"I'm Indian, and I also study Torah every week\"). The practice may have changed since the interviews in late 2025.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck only if he states a religious affiliation or discusses his practice on the record again."
+    },
+    {
+      "id": "C37",
+      "claim": "He describes a protector's ideal formed in adolescence and through films watched with his father: after his ninth-grade class saw Schindler's List, \"I told myself ... I was going to be Schindler\"; of Westerns, \"it's still important to be a hero and not a coward.\" He says he has started a film production company \"to make content that makes you proud to be an American\".",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S06",
+        "S16",
+        "S14"
+      ],
+      "inference": "He measures himself against courage under threat and against cowardice, and he is investing in that ideal publicly. The hero he pictures protects a community from a danger others deny.",
+      "alternative": "Self-mythology told to a profiler. A protective, heroic self-image is central to Type 8 as well, and the film company is also a business and a branding project.",
+      "durability": "time_sensitive",
+      "review_trigger": "Confirm the film company's name, slate and status from a primary source before describing it."
+    },
+    {
+      "id": "C38",
+      "claim": "He tells his own shortcomings without polish. He says he was rejected by MIT and \"probably failed the likability test\", that \"My code was never the cleanest ... I was more like brute-forcing my way through it\", that a company he left Cornell to start failed, and that his CIA application went unanswered. Karp joked from a stage that \"Shyam can barely write.\" He draws a line between engineers whose reward is \"building the thing the right way\" and his own kind, for whom \"the point is you solve the problem\", and says of defense requirements that \"the only thing that matters is winning.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S07",
+        "S04",
+        "S05"
+      ],
+      "inference": "Tests two alternatives. A Type 3 would be expected to manage these details; he volunteers them. A Type 1 would be expected to side with the right way of building; he names that instinct as the other camp and ranks results above procedure.",
+      "alternative": "Confessed flaws can be their own kind of image, and \"winning\" as the only standard is exactly what a Type 3 or Type 8 might say. The MIT remark also carries a grievance about fairness that he does not develop.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "He describes his father as a man who \"could weather any humiliation in service of his children and his wife\", who spent \"every spare moment\" on the phone helping someone, and who turned what the family learned into a Sunday SAT school for other immigrant children. He says good leaders need \"a structural personality where you're not threatened by other people's successes\", and that this is \"the parallel between Alex and my father.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S01"
+      ],
+      "inference": "States the standard he holds himself to: service to a group, tolerance of humiliation for dependents, and pleasure in others' success. It also shows how he fuses his two authorities into one model.",
+      "alternative": "An idealized portrait of a father who died in 2021, given on a book tour. His mother appears in the record mostly as someone who does not want to revisit Lagos.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "Before the commission and the book he was already telling the same story in the same words. In September 2023 he described Palantir as \"an artist colony\", crediting Karp; in December 2024 he gave the family account, the \"counterfactual\" and \"give back\" as his reasons for joining Palantir.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S15",
+        "S10",
+        "S07",
+        "S08"
+      ],
+      "inference": "Checks the motive across time: the narrative predates the 2025 commission and the 2026 book tour by at least 18 months, so it was not invented for them.",
+      "alternative": "The record opened here starts in 2023. Nothing from his first 17 years at Palantir, when he was not a public figure, was opened, so it is unknown how he described his motives before the company's public rise.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41",
+      "claim": "A former Palantir engineer, Nabeel Qureshi, wrote in 2024 that many of the company's internal terms \"came from early employees, especially Shyam Sankar\", and Jeremy Stern, after several interviews and a year of watching his public turn, described him as \"the most important but hidden figure behind Palantir\", concluded that \"he does actually believe\" his message, and noted that after introducing Karp at the November 2025 gala he was the one notable guest who had \"disappeared\" from the reception.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S26",
+        "S01"
+      ],
+      "inference": "The two least interested voices in the record agree that his influence was large and exercised out of view, and Stern's judgment of sincerity is the only independent one available.",
+      "alternative": "Qureshi is admiring and Stern had generous access. Leaving a reception proves nothing by itself. Neither spoke to people with reason to dislike him.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42",
+      "claim": "Interpretation: the record is best explained by Type 6. His stated reasons for nearly every major choice are debt and duty to whatever kept his family safe (his father, the United States, Karp and Palantir); he attaches himself to chosen authorities and tests the ones he distrusts; he scans for what will fail and raises alarms; and his aggression is aimed at disorder and illegitimate gatekeepers on behalf of a group.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S03",
+        "S04",
+        "S06",
+        "S07",
+        "S08",
+        "S10",
+        "S12"
+      ],
+      "inference": "Rests on repetition across sources and years (C07, C11, C14, C18, C20, C22, C24, C26, C29) and on a two-decade choice with a cost (C20). It is a reading of public statements and reported behavior, not access to his mind.",
+      "alternative": "Type 8 explains the force, the taste for conflict and the protective ideal at least as well, and he denies being fearful (C08). Nearly all the evidence is his own retrospective telling or the testimony of allies. Confidence is medium.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "Interpretation: the tension worth building the profile on is that the self-described heretic is, by title, rank and access, an establishment figure, and that he explains this himself as a feeling of having to \"earn your place every day\". His heretics are loyalists: rule-breakers who serve the institution and need a protector above them.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S07",
+        "S27",
+        "S01",
+        "S12",
+        "S18"
+      ],
+      "inference": "Joins his own words (C22, C27) to documented status (C01, C23). It answers the seed brief's question of whether the forward-deployed instinct and the mobilization argument are one drive: on this record both are ways of standing next to the people in danger and proving useful to them.",
+      "alternative": "The outsider pose is commercially useful for a company that sells against incumbents, and he may simply enjoy it, as he says. The claim that the two projects share a drive is an inference he has not stated in these terms.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 6,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C07",
+      "C11",
+      "C14",
+      "C18",
+      "C19",
+      "C20",
+      "C21",
+      "C22",
+      "C24",
+      "C26",
+      "C29",
+      "C31",
+      "C39"
+    ],
+    "against": "He denies the premise. Asked whether a precarious childhood left him ashamed or fearful, he said \"The opposite\" and called home his \"bedrock\" (C08). He does not present as anxious: observers describe him as \"cherubic and guileless\", with \"childlike optimism\", \"very good energy\", and a \"boy scout\" manner in his twenties. He is decisive at scale, having twice moved most of the company onto a new bet (McGrew, S02), and he talks about risk with appetite (\"It's just all risk every day from here on out\"). His style is forceful in a way usually read as Type 8: critiques sent to the whole company, \"fatwas\", a ritual of being cursed at, \"dictator\" as his own word for how he runs his domain, \"the primacy of winning\", and open contempt for opponents he calls a \"doomsday cult\" (C16, C17, C31). He shows little public self-doubt beyond \"I'm not sure they're all right\". The evidence base is also weak in kind: almost all of it is his own retrospective storytelling, polished across at least ten long interviews in 2025 and 2026 by a spokesman whose company benefits from a grateful-patriot narrative, and every named witness is a colleague, investor ally or customer. No one who fought him, left because of him or negotiated against him is on record.",
+    "alternative_type": 8,
+    "alternative_case": "Type 8 fits a real pattern. Karp says his personality is \"built into the culture of the brutality with which we look at problems\" and that he was \"not everyone's cup of tea\"; Mabrey says he can seem \"brash or aggressive\"; he calls himself \"ornery\" and says \"I'm going to piss off literally everyone along the way\" (C16, C17). He prizes endurance (\"metabolize pain and excrete product\", \"the constitution of a goat\", C15), demands that subordinates confront him, describes his authority as a dictator's, and reduces standards to \"the only thing that matters is winning\" (C38). His company sued its own customer, the Army, twice. His ideal is the protector who is \"a hero and not a coward\" and who would have been \"Schindler\" (C37), his anger is reserved for corruption and weakness in institutions (C28), and the i2 allegation, if accurate, would be an Eight's ends-justify-means shortcut (C33). A childhood of watching a father \"kicked in the teeth over and over again\" and resolving \"Why not me?\" (C06, C10) is a familiar origin for an Eight's refusal to be made small. Type 1 was considered because of the reform language (\"The Defense Reformation\", 18 theses), the indignation at corruption and the \"prim and proper\" early impression; it is set aside because he sides with the hacker for whom \"the point is you solve the problem\" over the engineer who builds \"the right way\", tells people to bend rules, and is described, and describes himself, as rough rather than exacting (C38). Type 3 was considered because of the sudden public profile, the book, the film company and the scholarship boy's \"Why can't I have all this?\"; it is set aside because he spent two decades out of view, volunteers unflattering details, and gives Boyd's \"be somebody or do something\" as his rule, though the eagerness Stern noticed keeps it from being ruled out (C26).",
+    "discriminator": "Whether his force serves his own autonomy or a bond he places above himself. Four sourced observations point to the bond. First, tenure: he has spent twenty years as deputy inside another man's company, has never founded his own while his subordinates founded many, and both he and Karp attribute his largest choices to his father's instruction (\"he put his foot down\"; \"told Shyam, you may never leave Palantir\", C11, C20). Second, strain: in the two crises he narrates, he carried alarm upward (\"This is not going to work ... We're going to fail here\"; \"I was freaking out at him\") and was steadied by Karp's certainty, rather than taking control (C14). Third, the stated reason for his aggression is obligation: a colleague reads his harshest critiques as \"what I owe you all\", and he describes his own life as repayment, with a place that must be earned \"every day\" (C16, C22, C24). Fourth, deference on legitimacy: he licenses rule-breaking for the mission but says the rules themselves are \"not the job of unelected engineers\", calls Karp his \"rabbi\", \"guru\" and \"parole officer\", and joined the Army's chain of command at 43 (C18, C23, C29). An Eight's record would be expected to show a break with authority when overruled, resistance to being anyone's second, and anger at being controlled; none of that appears. The read would move toward Type 8 if credible accounts showed him overriding or leaving Karp or the Army at personal cost, or showed people outside his circle describing domination for its own sake rather than for the group.",
+    "unexplained": "Why a man who stayed out of view for nearly twenty years became, within about eighteen months, an author, Substack publisher, film producer, television regular and Army officer; duty is his explanation, but the reporter closest to him saw \"unexpected eagerness\" alongside unease. His steady optimism, love of puns and \"structural positive-sum view\" sit oddly with a threat-watching temperament. The weekly Torah study with an Orthodox rabbi, begun in his early forties, is unexplained beyond a joke. The i2 allegation is unresolved and cannot be reconciled with \"my commitment to just always being honest\" if it was accurate. He judges the countries of his birth and early childhood harshly (\"the cultures are corrupt\") and defends immigration enforcement by a company whose founder story is his own family's flight, and he has not said how that feels. There is no account of how he behaves when Karp, the Army or the administration he supports is wrong in a way he cannot fix from inside; the only confrontation with Karp on record is one Karp tells fondly. Finally, his mother and brother are nearly absent from his own telling, though Karp says the brother is the relationship that revealed him."
+  },
+  "profile_format": "standard"
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "shyam-sankar",
+  "mode": "create",
+  "role": "unfamiliar",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/similarity.json"
+  },
+  "outputs": {
+    "review-unfamiliar.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/review-unfamiliar.json"
+  },
+  "content_sha256": "4e0680b630d4558790dca8d78fc08be5499070962bf26a8947337384f93913fe",
+  "evidence_sha256": "420561ab0fd83763c0c750c32f8d9cba8a915685413daf721f9f20e99f186c6d"
+}

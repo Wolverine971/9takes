@@ -1,0 +1,46 @@
+The Shyam Sankar profile does not pass verification: I wrote `verification-edit.json` with status **revise**. It needs one repair pass for three factual errors, and the Type 6 argument scores below the release floor.
+
+## What blocks release
+
+- **A quote he didn't say.** The marriage FAQ says he has referred to "my wife." The only "my wife" in any source is the podcast host, Andrew Bosworth, replying to him. He is still shown to be married: Lonsdale calls him "a husband and a father" on camera, and "my son" and "my daughter" are his.
+- **A one-word misquote.** The article prints "we have to sue the army to compete at some point." The captions and my own re-transcription of the audio both give "we *had* to sue."
+- **A false statement about the record.** The article says no telling of the family story predates his late-2024 public turn. A September 2023 investor interview already in the evidence file has him saying he grew up "essentially" a child of refugees who "fled violence in Nigeria," raised with gratitude for "the counterfactual." Fixing this helps the page, since it shows the account wasn't invented for the book tour.
+- **The type argument.** The page itself says its four observations "lean Six, and none of them settles it," shows no costly choice the Six reading explains better than pay or position, and leaves Types 1 and 3 live. The testing is serious and honest, but that is short of the bar for a standard profile.
+
+## Scores
+
+| Dimension | Score | Floor |
+| --- | --- | --- |
+| Evidence | 8.0 | 8 |
+| Enneagram | 7.5 | 8 |
+| Originality | 8.5 | — |
+| Writing | 8.0 | — |
+| Durability | 8.5 | 8 |
+| Hook | 8.5 | — |
+| Discoverability | 8.0 | 7 |
+| **Overall** | **8.1** | 8.5 |
+
+## The fork that's yours
+
+The three factual errors are small edits. The type argument is not a wording problem. A repair can try to strengthen the Six-versus-Eight case from material already sourced: his own rule that a heretic needs "protection from the top," calling Karp his "rabbi… guru… parole officer," and the 2023 telling. If that still doesn't clear the bar on re-verification, the honest outcome is a hold until someone who isn't an ally goes on record about him. I'd let the repair run once and accept the hold if it comes.
+
+## What was checked
+
+- All 23 web sources were re-fetched live today; the SEC filing, court documents, Hudson transcript and Colossus profile match the article.
+- YouTube refused fresh caption downloads, so I checked the saved caption tracks and re-transcribed the quoted passages from the saved audio. Two videos had no saved audio and rest on captions alone, including the 2023 interview. None of this is a human listen.
+- Bloomberg was read through a third-party reader because the site returned 403.
+- A search today found the Pentagon's Minab review still unreleased.
+- 154 of 165 claims are supported, 8 are qualified and 3 are unsupported.
+- 51 of the editor's 52 fixes are accepted; the one rejected rests on the false "no earlier telling" statement.
+- All 17 protected passages are preserved.
+- Five minor wording findings are also in the file.
+
+Only `verification-edit.json` was written; nothing was published or edited elsewhere.
+
+Sources for the review-status search:
+- [Gillibrand, colleagues demand Pentagon release report](https://www.gillibrand.senate.gov/news/press/release/gillibrand-colleagues-demand-pentagon-release-long-awaited-report-on-u-s-bombing-of-iranian-elementary-school/)
+- [IBTimes: Pentagon review AI failures](https://www.ibtimes.co.uk/pentagon-review-ai-failures-iran-school-strike-1820787)
+- [Press TV: Pentagon probe finds "cascade of preventable failures"](https://www.presstv.co.uk/Detail/2026/09/19/776607/Pentagon-probe-finds-cascade--preventable-failures-behind-US-strike-Minab-school)
+- [Republic Desk roundup, October 12, 2026](https://republicdesk.substack.com/p/the-unspun-news-ads-ice-houthis-diesel)
+- [HRA Iran: deep-dive investigation](https://hra-iran.org/deep-dive-investigation-examines-minab-school-bombing-one-of-the-worst-u-s-war-crimes-since-vietnam)
+- [Wikipedia: 2026 Minab school attack](https://en.wikipedia.org/wiki/2026_Minab_school_attack)

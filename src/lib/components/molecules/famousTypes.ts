@@ -119,6 +119,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'lana-rhoades', link: true, hasImage: true, lastmod: '2026-04-10', personaTitle: 'The Industry\'s Vanishing Star', contentGrade: 8.7, types: ['influencer', 'creator', 'lifestyle-builder'] },
 		{ name: 'leila-hormozi', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Business\'s Worthiness Machine', contentGrade: 8.6, types: ['business', 'business-operator'] },
 		{ name: 'logan-paul', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'The Redemption Entrepreneur', contentGrade: 8, types: ['creator', 'viral-entertainer'] },
+		{ name: 'madonna', link: true, hasImage: true, lastmod: '2026-10-13', personaTitle: 'Pop\'s Permanent Audition', contentGrade: 8.5, types: ['musician'] },
 		{ name: 'margaret-qualley', link: true, hasImage: true, lastmod: '2026-08-20', personaTitle: 'Hollywood\'s Straight-A Wreck', contentGrade: 8.9, types: ['movieStar', 'newMovieStar'] },
 		{ name: 'matt-rife', link: true, hasImage: true, lastmod: '2026-04-27', personaTitle: 'Comedy\'s Grief-Powered Charmer', contentGrade: 9.1, types: ['comedian'] },
 		{ name: 'michael-b-jordan', link: true, hasImage: true, lastmod: '2026-02-15', personaTitle: 'Hollywood\'s Self-Erasing Leading Man', contentGrade: 9, types: ['newMovieStar', 'rising-star'] },

@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "shyam-sankar",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/verification-edit.json"
+  },
+  "content_sha256": "8ef00897e7453bdce83eb4b9a15f1eece9fafee993525fba5b9c18852fa3cafd",
+  "evidence_sha256": "c3d29569aa7b9be00493f0b53b49a47b1cf148148d4a0670e4887dc2052ec024"
+}

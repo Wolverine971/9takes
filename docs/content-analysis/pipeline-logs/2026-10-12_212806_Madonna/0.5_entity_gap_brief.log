@@ -1,0 +1,47 @@
+Madonna is a **PASS at 39/100** as an entity gap, and the packet is written to `docs/content-analysis/entity-gaps/Madonna.md` for the resumed pipeline. Nothing else in the repo was touched.
+
+The pass only rules out becoming her biography of record: Wikipedia, Britannica and Biography.com own every name and fact query. The personality page should still ship. The `madonna enneagram` results are thin enough that two 9takes pages that merely mention her already show at position 3.
+
+**What the packet tells the next stages to fix in the draft**
+
+- **Stale record claims (three places).** The draft calls her 1.6 million Copacabana crowd the largest ever. Lady Gaga drew 2.1 million on the same beach in May 2025, and Shakira drew about 2 million in May 2026.
+- **Stale biopic sentence.** The draft says she is still writing the film she will direct. Universal dropped it over budget; a Netflix series is in development instead.
+- **Missing the last three months.** The draft stops at the July 3 album release. Since then: a No. 1 debut, the World Cup final halftime show, and seven VMAs on September 27 including Artist of the Year.
+- **No room to add.** The body is 4,317 words against the 4,500 ceiling, so every addition needs a cut first.
+
+**New source worth using**
+
+Her June 2026 *Interview* cover story is not in the draft. In it she says of coming up in the clubs, "I'm going to be somebody", the same word as the draft's 1991 thesis quote, 35 years later. On the studio that dropped her film she says, "Maybe they just didn't believe in me." I saved the full text to `/tmp/Madonna-research/txt/` and string-matched all 14 packet quotes against it.
+
+**Traffic expectation**
+
+Comparable legacy-icon pages on 9takes earn a median of about 290 impressions and 1 click per 90 days. Expect tens to low hundreds of impressions and 0–3 clicks in the first 28 days. Those pages earn on a specific curiosity question, not the typology keyword; for Madonna that is `why is madonna still performing`, which is the draft's thesis.
+
+**One decision for you**
+
+The current title, "Madonna's Enneagram: Why She Still Has Something to Prove," is fine. An untested alternative that matches two live autocomplete queries is "Madonna's Personality Type: Why She's Still Performing." I left it as an option in the packet.
+
+**Not verified**
+
+- The VMA speech wording, the Vogue Italia quote and the Wikipedia-sourced facts (World Cup halftime, chart figures) came through a summarizing fetch. The packet marks each one to confirm at the source before it reaches the page.
+- Search results were checked through WebSearch, which approximates Google's first page.
+- No trend or volume numbers were available, so demand is labelled directional.
+
+I also saved a memory note: interviewmagazine.com blocks WebFetch and curl, but `r.jina.ai` returns the full text.
+
+Sources:
+- [Wikipedia: Madonna](https://en.wikipedia.org/wiki/Madonna)
+- [Wikipedia: Confessions II](https://en.wikipedia.org/wiki/Confessions_II)
+- [Wikipedia: 2026 MTV Video Music Awards](https://en.wikipedia.org/wiki/2026_MTV_Video_Music_Awards)
+- [Wikipedia: The Celebration Tour](https://en.wikipedia.org/wiki/The_Celebration_Tour)
+- [Interview: The Madonna Interview](https://www.interviewmagazine.com/music/madonna-confessions-on-a-dancefloor-nadia-lee-cohen)
+- [Rolling Stone AU: Madonna Wins Artist of the Year at 2026 VMAs](https://au.rollingstone.com/music/music-news/madonna-vmas-2026-artist-of-the-year-101593/)
+- [Salon: Madonna's irresistible contradictions](https://www.salon.com/2026/07/08/madonnas-irresistible-contradictions-make-up-confessions-ii-biopic/)
+- [Variety AU: Lady Gaga's Copacabana concert](https://au.variety.com/2025/music/news/lady-gaga-free-concert-rio-copacabana-beach-draws-record-breaking-2-5-million-people-22181)
+- [Digital Music News: Shakira Copacabana two million](https://www.digitalmusicnews.com/2026/05/03/shakira-copacabana-beach-two-million/)
+- [Osho News: Madonna & Lady Gaga, are they Threes?](https://www.oshonews.com/2017/04/19/madonna-lady-gaga-they-are-performers-sure-but-are-they-threes/)
+- [enneagramtest.com: Madonna](https://enneagramtest.com/celebrities/madonna-enneagram)
+- [HELLO!: Meet Madonna's boyfriend Akeem Morris](https://www.hellomagazine.com/celebrities/721594/meet-madonna-boyfriend-akeem-morris/)
+- [Billboard: Madonna to open 2026 VMAs](https://www.billboard.com/music/awards/madonna-2026-vmas-opening-performer-1236341723/)
+- [Scene: Madonna's podcast debut](https://www.scenemag.co.uk/madonna-opens-up-about-forgiving-her-gay-brother-in-emotional-podcast-debut/)
+- [The Pink News: Netflix Madonna series](https://www.thepinknews.com/2025/05/13/madonna-tv-series-netflix-julia-garner/)

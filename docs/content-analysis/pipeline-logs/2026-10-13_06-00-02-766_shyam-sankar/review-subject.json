@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "4e0680b630d4558790dca8d78fc08be5499070962bf26a8947337384f93913fe",
+  "evidence_sha256": "420561ab0fd83763c0c750c32f8d9cba8a915685413daf721f9f20e99f186c6d",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "And he still describes his place as something he has to earn every day.",
+      "problem": "The opening, and later the Type 6 case, treat \"earn your place every day\" as a present-tense statement about his personal standing. In S07 (28:16 to 29:00, caption track and the Whisper check) the line comes after the talk has turned to Palantir's early years. He says \"in the beginning of Palantir ... we tried to go through the front door\", Lonsdale adds that people \"just wanted us to die\", and Sankar replies: \"We, and I, there's a positive piece of that. You know, you carry that chip on your shoulder to like earn your place every day and you recognize your product has to be 10 times better than the alternatives.\" The upside he names is of being shut out early, and the sentence runs straight into the product. The evidence record flags this itself (C48: he \"was speaking partly about the company\"). The quoted question also drops Lonsdale's preceding sentence, \"do you still feel like an outsider?\", so the host supplied the word Sankar then used. Only \"Constitutionally, I'm going to always feel like an outsider\" and \"the heretic looking in\" are first-person and present tense.",
+      "acceptance_test": "The opening says the \"earn your place\" line came once the conversation had turned to Palantir's early years and that he was describing the company's posture as well as his own, or it quotes the sentence through \"10 times better than the alternatives\". No sentence says he \"still describes his place as something he has to earn every day\" as a personal, present-tense claim. The reader can see that Lonsdale offered \"outsider\" in the question. The hook may still rest on the two first-person sentences."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "So the two boldest moves of his twenties are told as obedience. Someone he trusted told him to take the risk, and he took it.",
+      "problem": "\"Obedience\" and \"his father made the call\" are the author's reading, presented as how Sankar tells it, and the source does not support it for Palantir. In Colossus (S01) the Palantir decision is his own conviction: \"But after those interviews I was kind of ruined. Once I found out these guys were working on this, there was no going back ... OK, I'm going to pour my soul into this.\" Those sentences sit between the two the draft quotes and were replaced with \"He went anyway.\" \"Dad was right\" credits his father's earlier advice; nothing opened has his father telling him to join Palantir. For Xoom, the blockquote begins after \"Dad had been kind of trying not to be directive of what I should do,\" and Stern writes that he badly wanted Xoom and hesitated over money for his parents. That is a father releasing him from a duty to them, which is not the same as an order. The overclaim carries into the H2 \"The two forks his father decided\" and the section's second sentence.",
+      "acceptance_test": "The section no longer says his father \"made the call\" on or \"decided\" the Palantir move. It includes his own stated reason for joining (the \"no going back\" passage, quoted or closely paraphrased) and the \"trying not to be directive\" sentence. If \"obedience\" stays, it is marked as the author's reading and the plainer one (permission to do what he already wanted) is stated beside it. The H2, its FAQ anchor and any FAQ wording match the corrected account."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "What it shows about him is narrow: he defended his own group's work before the review was in, and he handed the question of what happens next to the institution.",
+      "problem": "On the gravest matter in the article the draft keeps three short quotations and leaves out the parts of his answer that cut against the \"defers\" reading. In the same exchange (S12, 15:26 to 16:58) he said the step at issue is \"part of the process we don't own\" and that Palantir afterward built AI that \"double checks more of the work outside of the process that we own\" (Whisper-checked). Asked about releasing the report he said he had \"no control over that\" but \"would love the truth to get out there\", and he said Palantir has \"given briefings to Congress\" (both caption-only). \"Sadly, I'm just a technologist\" answered a broader question: whether more should be briefed to Congress \"about the benefits along with the risks\". The record's own note (S24 context, C32) that the reporting concerns the system and the personnel using it, not his personal conduct, is not in the article. The research task to read the Bloomberg report before any release that mentions the strike is still open.",
+      "acceptance_test": "The passage reports, quoted where Whisper-checked and paraphrased where caption-only, his claim that the failed step lies outside the part of the process Palantir owns and that it added checks, and his statement that release timing belongs to the department and that he wants the findings public. It gives the actual question that drew \"I'm just a technologist\". It says in plain words that the reporting is about the system and the people using it, not his own conduct. The Bloomberg and Pentagon-review task is carried to verification rather than treated as done."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "Asked about the conflict on CBS, Sankar pointed to the institution's process: \"it's carefully managed by the lawyers in the department.\"",
+      "problem": "The quotation stops one sentence before his substantive answer. He went on: \"We're only allowed to work on projects where we don't have conflicts\" (S12, Whisper-checked), having just described his role as Army human resourcing in G1. To Douthat he said \"There's a reason I'm focused on work that doesn't overlap with anything else that Palantir does, so there's no appearance of conflict\" (S06, Whisper-checked). The Military.com report the draft quotes for the criticism also carries the Army spokesperson's reply (\"They're not making acquisition decisions\") and a Palantir spokesperson's statement that he pledged his Army pay to Army Emergency Relief (S21, C25). The draft prints the criticism whole and the thinnest slice of the response, then uses that slice as evidence of deference.",
+      "acceptance_test": "Beside the Military.com sentence the article gives his CBS answer through \"We're only allowed to work on projects where we don't have conflicts\", says what he describes his assignment as, and includes the Army spokesperson's response from the same Military.com report. The no-recusal report stays. Any type reading of the answer follows the full response instead of replacing it."
+    },
+    {
+      "id": "subject-05",
+      "severity": "major",
+      "passage": "No court ruled on the claims, and no statement from Sankar about the case has been found.",
+      "problem": "The docket page the article links says more than the article does, in both directions, and the evidence record did not open it (S23: search API metadata only). Opened for this review on 2026-10-13 (HTTP 200), it shows the complaint filed \"against Palantir Technologies, Inc., SRS Enterprises, LLC, Nochur Sankar, Shyam Sankar, Asher Sinensky\"; motions to dismiss by Palantir, Sankar and Sinensky (entry 42) and by SRS Enterprises and Nochur Sankar (entry 45); \"ORDER denying 42 Motion to Dismiss; denying 45 Motion to Dismiss\" on Oct. 1, 2010 (entry 59); an \"ANSWER to 1 Complaint, by Shyam Sankar\" on Oct. 19, 2010 (entry 73); and Palantir's answer with a counterclaim against i2 (entry 72). So a court did rule that the case could proceed, though never on the merits, and Sankar did respond, in a pleading nobody here has read. \"No statement ... has been found\" reads as silence. Two smaller gaps: \"unclean hands\" is printed without its basis, which VentureBeat gives (i2 purportedly used information about Palantir's products obtained through a company it acquired), and the father's name is introduced by juxtaposition without saying what does and does not establish the link.",
+      "acceptance_test": "The article says no court ruled on the merits, that the motions to dismiss were denied in October 2010, and that a denial at that stage is not a finding that the allegations were true. It says Sankar filed an answer that was not read for this page, and that no public comment from him has been found, next to the settlement's non-discussion term. It gives the basis of \"unclean hands\" in plain words. It either states why Nochur Sankar is taken to be his father (VentureBeat's \"registered under the names of his parents\" plus the name Colossus prints) and that the docket does not state the relationship, or it leaves the name out. The evidence record marks the docket page as opened and cites these entries."
+    },
+    {
+      "id": "subject-06",
+      "severity": "major",
+      "passage": "He has been one man's deputy since 2006.",
+      "problem": "\"Deputy since 2006\" is stated as fact on three surfaces: the description, the Type 8 FAQ (\"He has been Alex Karp's deputy since 2006\") and the body (\"another man's deputy since 2006\"). He joined in March 2006 as the 13th employee. The record has no title history (the proxy says \"various positions\"), the earliest dated senior title in it is chief operating officer by February 2021 (Colossus), and C114 itself notes that \"deputy\" is the article's word. What the record supports is twenty years at a company run by the same chief executive. The label matters because the Type 8 test (\"resistance to being anyone's number two\") is built on it, and the same bullet adds \"he calls that man his parole officer\" without the tribute-speech context given earlier.",
+      "acceptance_test": "Description, FAQ and body say what the record shows (he has worked under the same chief executive since 2006), or \"deputy\" is marked once in the body as the author's shorthand with the title limits stated. No surface dates a number-two role to 2006. The \"parole officer\" bullet keeps its context as a line from a tribute speech."
+    },
+    {
+      "id": "subject-07",
+      "severity": "major",
+      "passage": "What matters here is the target. His anger was aimed at things that stop working and at people who accept that.",
+      "problem": "The gloss adds a target the quotation does not show. In Colossus his indignation is at an argument (that institutions are too powerful and should have sand thrown in their gears) and then at corrupt systems. The people in his sentence \"just live with it or get overwhelmed by it\", and Stern writes in the same sentence that he was reaching for \"the same words he'd used to describe what nearly swallowed his family when he was a boy.\" Saying his anger was aimed \"at people who accept that\" turns a remark about systems into contempt for the people living under them, on the most reputationally sensitive quotation in the piece. The evidence record's own rule for this quotation is that it is never paraphrased into something broader (C28). His next sentence, that America has \"always been able to push back against that\", is also left out.",
+      "acceptance_test": "The gloss names only the targets the source shows: the argument for slowing institutions down, and systems that do not work. It does not say his anger was aimed at people who live under those systems. Stern's observation that the wording echoes how he described what nearly swallowed his family is included and attributed to Stern. The quotation stays exact, attributed and dated."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "No source opened for this page names his birth city or documents how the family was admitted to the United States.",
+      "problem": "In a FAQ about his parents, the second half reads as an audit of a private family's immigration status and can be taken as doubt about his own statement, reported in the body, that the family came legally. No public document would be expected for a private family's admission in the 1980s, so the absence shows nothing. The only tension in the record is one of labels (\"refugees\" in December 2024, \"we came here legally\" in October 2025; S10, S06), which the article does not mention.",
+      "acceptance_test": "The FAQ states what he has said (that the family came legally and, if the page uses it, that he has also called them refugees) and that he has not described the route, without implying a documentary gap. The birth-city limit can stay."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Everything in this section is the family's story as Sankar tells it. No police report, news account or outside witness has turned up, and he was about three years old.",
+      "reason": "States the limit before the story is told. This is the attribution the robbery account needs, and it keeps the article from claiming a childhood wound he does not claim."
+    },
+    {
+      "passage": "That is the strongest evidence against a Six reading, and it deserves to be taken at face value before anyone argues with it.",
+      "reason": "Gives his own denial of fear full weight before the author reads against it. The interpretation that follows stays honest only while this sentence stands."
+    },
+    {
+      "passage": "Loyalty and money point the same way here, so the tenure cannot settle the type alone.",
+      "reason": "Names the plain rival explanation for a twenty-year tenure instead of reading it as pure temperament."
+    },
+    {
+      "passage": "The limits are real. Mabrey's line is his reading of Sankar's motive, and everyone describing this style thrived under it.",
+      "reason": "Separates a colleague's guess about motive from the record and says whose voices are missing, at the point where the type argument leans on that guess."
+    },
+    {
+      "passage": "In the interviews opened for this page he does not name his wife or say how many children he has, so the page does not either.",
+      "reason": "Restraint about private family members: the page goes exactly as far as he has gone on the record. Keep that rule even if the wording changes."
+    }
+  ],
+  "assessment": "Fairness proxy only; this review does not speak for Sankar. The draft is unusually careful about what it cannot know. The family story is labelled as retelling, his denial of fear is quoted and weighed, the i2 allegation is attributed with its outcome, money is set against loyalty, and his wife and children go unnamed. The recurring problem is narrower. Where his fuller answer or the source context cuts against the \"obeys and defers\" thesis, the draft ends the quotation early or states the author's reading as his own telling: the Palantir decision, the \"earn your place\" line, the CBS strike and conflict answers, and \"deputy since 2006\". Three of the four discriminator legs lean on those passages, so honest repairs may lower confidence. The fix is to say so, not to add new motive claims. Sources opened for this review: the saved Colossus text, the caption and Whisper files for S06, S07, S08 and S12, and the CourtListener docket page, which the evidence record had not opened and which shows denied motions to dismiss and an answer filed by Sankar. Not checked: the i2 complaint and answers, the Bloomberg report, and any caption-only wording by ear. The similarity advisory did not trip; its top matches are ordinary Type 6 vocabulary, not reused argument."
+}

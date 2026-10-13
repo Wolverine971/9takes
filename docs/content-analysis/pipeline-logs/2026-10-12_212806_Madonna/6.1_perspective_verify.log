@@ -1,0 +1,25 @@
+Verification written. The Madonna draft fails on one narrow item: the body passes every P0 test, but the FAQ block the enrich stage added after the editor pass does not.
+
+- **Output path:** `docs/content-analysis/perspective-reviews/Madonna/2026-10-12_212806/verification-initial.md`
+- **Verification status:** `fail`
+- **Open P0 count:** 1
+- **Protected-hit regressions:** 0
+
+**The open item (P0-03, `faqs` frontmatter only):**
+- **FAQ 1** says the pattern runs "to waking from a 2023 coma and thinking, right after her children, about the people who had bought tickets." That presents the tour-postponement notice as a record of her waking thought, with no occasion or audience. This is the defect P0-03 named, and the evidence packet says the source cannot support it.
+- **FAQ 2** says she "accepted Artist of the Year… by retelling the 1984 night." That is borderline against the "not spent on the anecdote" test; the body now says "opened her speech, again, on."
+
+The fix is two sentences of frontmatter, with suggested wording in the file. The reader-visible hash will change, so the page needs re-verification afterwards.
+
+**What passed:**
+- The other seven P0 items are resolved, and all seven accepted P1 items are completed.
+- All twelve protected hits are intact.
+- The snapshot, synthesis and resolution SHAs all match the supplied value. The live reader-visible hash is `245d18a7…6a71`.
+- The key repaired quotes are verbatim against the saved source copies: Time 1985, People's Mother's Day post, Stein's memoir excerpt, the Ciccone memoir snippets, the 2018 VMA transcript, and the second *On Purpose* audio transcription.
+
+**Non-blocking notes logged in the file:**
+- FAQ 4 clips her quote at "no explanation," dropping "except that she had gone to sleep."
+- FAQ 3 states her long-lens claim as fact.
+- The body's "the one sibling who has challenged her telling" asserts a uniqueness the packet never checked.
+
+I wrote only the verification file and modified nothing else.

@@ -38,6 +38,10 @@
 	// Create optimized image src path for responsive loading without producing s-s-* paths.
 	$: imageSrc = getSmallImagePath(image);
 
+	// A two-word name can take the display size; a seven-word link title can't. Step
+	// the title down by length so it stays a caption instead of covering the image.
+	$: titleSize = displayText.length > 30 ? 'long' : displayText.length > 18 ? 'medium' : 'short';
+
 	// Data for enneagram type descriptions
 	// Each type has a core emotion AND a stance toward that emotion
 	const enneagramTypes = [
@@ -277,6 +281,8 @@
 			{#if displayText && !showDescription}
 				<p
 					class={`name-pop-${namePopId} image-card__title`}
+					class:image-card__title--medium={titleSize === 'medium'}
+					class:image-card__title--long={titleSize === 'long'}
 					data-value={displayText}
 					in:fly={{ y: -200, duration: prefersReducedMotion.current ? 0 : 2000 }}
 				>
@@ -551,6 +557,9 @@
 		margin: 0;
 		padding: 0;
 		transition: backdrop-filter 0.3s ease;
+		// The title sizes itself against this box (cqi). It is absolutely positioned
+		// with a definite width, so containment here can't change the card's layout.
+		container-type: inline-size;
 	}
 
 	.image-card__text {
@@ -577,11 +586,32 @@
 		border-radius: 1rem;
 		color: white;
 		font-family: var(--font-family, sans-serif);
-		font-size: 2rem;
+		font-size: 1.5rem; // fallback where cqi is unsupported
+		font-size: clamp(1.25rem, 8.5cqi, 2rem);
 		font-weight: 400;
+		// Explicit: inside a post this otherwise inherits the article's 1.7 body leading.
+		line-height: 1.15;
 		letter-spacing: 0.05em;
 		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 		text-transform: uppercase;
+		text-wrap: balance;
+
+		&--medium,
+		&--long {
+			padding: 0.625rem 0.875rem;
+			font-weight: 500;
+		}
+
+		&--medium {
+			font-size: 1.25rem;
+			font-size: clamp(1.0625rem, 6.4cqi, 1.5rem);
+		}
+
+		&--long {
+			font-size: 1.0625rem;
+			font-size: clamp(0.9375rem, 5.2cqi, 1.25rem);
+			line-height: 1.2;
+		}
 	}
 
 	// Tech spec HUD panel
@@ -712,11 +742,6 @@
 			position: relative;
 			display: block;
 			height: auto;
-		}
-
-		.image-card__title {
-			font-size: 1.5rem;
-			font-weight: 200;
 		}
 	}
 

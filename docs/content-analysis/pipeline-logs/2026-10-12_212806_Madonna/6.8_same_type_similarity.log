@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — madonna (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Madonna.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 36
+Comparison set (last 8 other Type-3 drafts by date):
+  - codie-sanchez  (2026-10-10, 7 units)
+  - greg-brockman  (2026-10-07, 12 units)
+  - tiger-woods  (2026-10-04, 10 units)
+  - ben-shelton  (2026-09-20, 9 units)
+  - Jonathan-Bailey  (2026-09-01, 33 units)
+  - Tate-McRae  (2026-08-27, 31 units)
+  - margaret-qualley  (2026-08-20, 28 units)
+  - alexandr-wang  (2026-08-18, 30 units)
+
+Noise floor over 5760 unit pairs:  median=0  p90=0  p99=0.008  max=0.032
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.032 #                    Jonathan-Bailey
+  0.030 #                    tiger-woods
+  0.027 #                    greg-brockman
+  0.026 #                    codie-sanchez
+  0.025 #                    ben-shelton
+  0.024 #                    alexandr-wang
+  0.024 #                    margaret-qualley
+  0.016 #                    Tate-McRae
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.032   madonna  <->  Jonathan-Bailey
+   TARGET [diagnosis] and the Three needs another win.
+   OTHER  [diagnosis] Two of the three happened while he was hiding
+
+score 0.030   madonna  <->  tiger-woods
+   TARGET [diagnosis] An Eight would rather be respected than liked.
+   OTHER  [diagnosis] because an Eight (organized around strength and control)
+
+score 0.030   madonna  <->  tiger-woods
+   TARGET [diagnosis] An Eight would rather be respected than liked.
+   OTHER  [diagnosis] An Eight usually stops caring what strangers think
+
+score 0.029   madonna  <->  Jonathan-Bailey
+   TARGET [diagnosis] and the core emotion of that triad is shame.
+   OTHER  [diagnosis] make the core type a safe call.
+
+score 0.029   madonna  <->  Jonathan-Bailey
+   TARGET [diagnosis] and four decades of reinvention have run on a fear of ordinariness she has described herself
+   OTHER  [diagnosis] Three decades of behavioural evidence
+
+score 0.027   madonna  <->  greg-brockman
+   TARGET [counter-typing] One thing the type does not predict is the Sex book.
+   OTHER  [diagnosis] Brockman's version does not run on titles.
+
+score 0.027   madonna  <->  Jonathan-Bailey
+   TARGET [counter-typing] One thing the type does not predict is the Sex book.
+   OTHER  [diagnosis] The type carries one specific injury
+
+score 0.026   madonna  <->  codie-sanchez
+   TARGET [counter-typing] The best evidence against us is hers
+   OTHER  [diagnosis] Every answer in this record is her own telling
+
+score 0.026   madonna  <->  Jonathan-Bailey
+   TARGET [counter-typing] What the type explains least is the control she keeps naming
+   OTHER  [diagnosis] The type carries one specific injury
+
+score 0.026   madonna  <->  Jonathan-Bailey
+   TARGET [diagnosis] So the Three works out what gets applause
+   OTHER  [diagnosis] Two of the three happened while he was hiding
+
+score 0.025   madonna  <->  ben-shelton
+   TARGET [diagnosis] "I still have to prove." Present tense
+   OTHER  [diagnosis] support brings "this expectation that you have to deliver
+
+score 0.024   madonna  <->  alexandr-wang
+   TARGET [counter-typing] But a core 4 measures itself by authenticity.
+   OTHER  [diagnosis] Later he authored a core value for his own company
+
+------------------------------------------------------------------------------
+Top pair scores 0.032 vs median 0  (~∞x the noise floor).

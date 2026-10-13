@@ -1,0 +1,34 @@
+The draft stage is complete: `draft.md` and `evidence-draft.json` are written to the run directory and both pass the contract (`checkDraft` has no blockers, `validateEvidence` OK). No other repo file was touched and nothing was published.
+
+## What the draft argues
+
+- **Type call:** Type 6, committed in the 56-word answer, with the triad and core emotion up front and the rival handled in a "Why not Type 8?" section. Confidence is stated as medium in the body.
+- **Hook:** Joe Lonsdale's May 2026 question, "Are you an insider now?", and Sankar's answer that he will "always feel like an outsider." The clip is embedded at 28:10.
+- **Title:** "Shyam Sankar: The Heretic Who Never Left". The `meta_title` is identity-first, as the seed brief asked.
+- **Spine:** his father decided both early career forks, he takes alarm up to Karp in a crisis, and his "heretics" always have a sponsor above them.
+
+## Numbers
+
+| Check | Result |
+| --- | --- |
+| Words (`checkDraft`) | 3,757 |
+| H2 sections | 8 |
+| FAQs | 8 |
+| Claims with exact passages | 114 |
+| Sources retained | 30 |
+| Readability card | nothing flagged; typical paragraph 44 words, 8 set-off quotes |
+
+Every quotation in the body was matched by script against the saved source texts, captions and Whisper segments.
+
+## Things you should know
+
+- **Length is over target.** It sits about 250 words above the 3,500 target, and the edit stage has added around 800 words on past runs. The editor needs to cut before adding to stay under the 4,500 ceiling.
+- **The Minab strike is in the draft.** His "I'm just a technologist… I would defer to others" line was said in that exchange, so quoting it honestly needs the context. It is stated without casualty figures and marked unresolved. The research task to read the Bloomberg piece directly before any release still stands.
+- **The i2 lawsuit is in, without the $10 million figure.** That number rests on Colossus alone, so I left it out.
+- **Caption-only material is paraphrased, not quoted.** That covers the immigration answer to Douthat, the "heretics need protection from the top" line, and the engineer distinction. Only the single word "dictator" is quoted from captions, because it appears in two interviews.
+- **Cut for length:** the AI-safety "doomsday cult" material, the Schindler and film-company material, the portrait of his father as a helper, and the Qureshi testimony. The type hypothesis was revised to stop citing the removed claims, and a research task records what was dropped.
+- **FAQs stay at what the record supports.** No wife's name, no birth date, no birth city, no net worth, and no religion FAQ.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-13_06-00-02-766_shyam-sankar/`:
+- `draft.md`
+- `evidence-draft.json`

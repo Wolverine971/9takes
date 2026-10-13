@@ -1,0 +1,20 @@
+The enneagram review is written to `review-enneagram.json` in the run directory. It parses against `reviewSchema`, both hashes match the request, and every finding and protected passage is an exact string from the frozen draft. No other file was modified and nothing was published.
+
+**Verdict:** Type 6 at medium confidence is still the best read, but the case for 6 over 8 is told stronger than the sources support. I raised eight major findings, no blockers, and flagged `contested_typing` and `sensitive_allegations` as true.
+
+The eight findings, each with an acceptance test in the file:
+
+1. **Crisis stories:** the 2008 call to Karp came after the customer had approved the product, and Sankar calls himself "grumpy and humorless" from sleep deprivation. The draft cuts that and adds "came away steadier," which neither telling says. It also omits Bob McGrew's testimony that Sankar led bet-the-company pivots.
+2. **"The two forks his father decided":** only the Xoom fork fits, and there he already wanted the startup. No source has his father deciding the Palantir move.
+3. **The Type 8 test:** it describes a rebel, so a loyal Eight lieutenant would pass it too. The "parole officer" line cuts both ways.
+4. **Deference:** the CBS answer is called "the hardest test" though it was the convenient one. The section omits Palantir suing the Army, which he retells in three interviews.
+5. **Type 1 and Type 3:** most of what beats Eight (duty, debt, legitimate process, anger at corruption) fits Type 1 equally, and Type 1 gets one sentence.
+6. **The fear denial:** the draft promises to take it at face value, then reads it as a Six tell. The quote is trimmed, dropping "It never fazed Dad … we can survive anything."
+7. **"The primacy of winning":** in context it is his gloss on "American Greatness" and explicitly positive-sum, not a personal dominance creed.
+8. **"Earn your place every day":** in the source this is about Palantir's product in its outsider years, not his own standing.
+
+Five passages are protected, including the money-and-loyalty confound line and "his heretic is a loyalist with a sponsor."
+
+The similarity diagnostic did not trip, and I raised no reuse finding. The Burr and Mensch drafts use the same Type 8 foil but share no argument or evidence with this one.
+
+I worked from the research stage's saved source texts and transcriptions in `/tmp/shyam-sankar-research`, not fresh fetches, and caption-only passages have still not been listened to by a person. I did not read the other reviews.

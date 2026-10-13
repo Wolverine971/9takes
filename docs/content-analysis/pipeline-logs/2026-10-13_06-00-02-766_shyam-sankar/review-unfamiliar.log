@@ -1,0 +1,24 @@
+The `unfamiliar` review is written to `review-unfamiliar.json` in the run directory. It parses against `reviewSchema`, the hashes match the request, and every finding and protected passage is an exact string from the frozen draft. Nothing else was modified or published, and I did not open the other reviews.
+
+**Verdict:** the profile works for a cold reader (clear hook, fast identity answer, sensible section order), but I raised nine findings, five of them major.
+
+**Major**
+- **`unfamiliar-01` — the person is missing.** "The one time the good cheer cracked" has no antecedent. The evidence record lists his sunny, optimistic manner as evidence against Type 6, and none of it is in the article.
+- **`unfamiliar-02` — Minab stakes are muted.** Maven is never explained, and "hit a school" leaves out the deaths. The only casualty figure (more than 150 killed, at least 123 children, per the Gizmodo summary) appears solely inside a citation URL.
+- **`unfamiliar-03` — quotations without a venue.** The section carrying the main discriminator has about a dozen quotations and no links. One tribute dinner is called "an award", "the gala" and "a dinner", and is only explained in the last paragraph.
+- **`unfamiliar-04` — second crisis story is cut off.** It stops at "Let me tell you a story," then the article claims he "came away steadier" both times.
+- **`unfamiliar-05` — the Type 8 rebuttal overpromises.** "The record shows something else on each count" sets three tests and answers with four bullets that don't map onto them. The first test is answered only by silence in an ally-only record. The evidence file also notes Palantir sued the Army twice, which the article omits; that note has no source ID, and I flagged it as such.
+
+**Minor**
+- **`unfamiliar-06`:** a dangling "the next day" after an unattributed blockquote, and "in a single answer" joining two interviews.
+- **`unfamiliar-07`:** "He wanted the risky option" sits against "obedience", and the father's role at the Palantir fork is not shown.
+- **`unfamiliar-08`:** unglossed first mentions, including Detachment 201 and "the conflict", the triads, Colossus, and "the scholarship kid" before Trinity Prep.
+- **`unfamiliar-09`:** the i2 allegation is recited with no word on why it belongs in the portrait.
+
+**Protected passages (five):** the two-sentence statement of the contradiction, the "plain steps" Type 6 explainer, the up-front sourcing caveat on the Lagos story, "a loyalist with a sponsor", and the closing paragraph.
+
+**Risk flags:** sensitive allegations and contested typing are both true, matching the record; the other two are false.
+
+**Similarity:** the advisory did not trip. The overlaps are generic Type 6 explainer lines confined to the type section, so I raised no reuse finding. I compared only the diagnostic's excerpts, since other drafts are outside this stage's inputs.
+
+This role did not reopen sources; statements about the record rely on the excerpts and notes in the evidence file.

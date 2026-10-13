@@ -1,7 +1,7 @@
 # Link Opportunities
 
-_Generated: 2026-10-12 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
-_Search data: GSC 2026-07-04 → 2026-10-02. 316 candidate links found (+125 weaker ones offered only for gate debt); 167 suppressed in `docs/crosslinks/skipped.json`._
+_Generated: 2026-10-13 by `pnpm gen:crosslinks`. Worked by `/crosslink-queue`._
+_Search data: GSC 2026-07-04 → 2026-10-02. 325 candidate links found (+126 weaker ones offered only for gate debt); 167 suppressed in `docs/crosslinks/skipped.json`._
 
 Each row is a sentence in a live post that already talks about another page without linking to it.
 Score = target's search demand × link deficit × mention strength × source visibility (cross-section links get a bonus).
@@ -16,10 +16,14 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | Score | Source (line) | Target | Anchor | Sentence |
 |---|---|---|---|---|
 | 5.79 | `/community/be-gentle-when-youre-right` (L232) | `/enneagram-corner/how-to-apologize-like-a-pro` | "apologize" | …t Cohn's "fundamental tenet" was "to attack and to never back down and to never apologize and to never admit wrongdoing." Trump's own vers… |
+| 3.93 | `/enneagram-corner/depression-patterns-by-enneagram-type` (L584) | `/enneagram-corner/toxic-traits-relationships-warning-signs` | "early warning" | …ement. Knowing your type helps you understand your specific triggers, recognize early warning signs, and choose coping strategies that wor… |
+| 3.61 | `/enneagram-corner/enneagram-types-working-in-teams` (L239) | `/enneagram-corner/toxic-traits-relationships-warning-signs` | "early warning" | Risk awareness and contingency planning. The Loyalist spots what could go wrong before it does. They're the team's early warning system and… |
 | 3.5 | `/pop-culture/podcaster-personality-map` (L195) | `/enneagram-corner/how-to-apologize-like-a-pro` | "apologies" | …ent. In a [2019 CBS interview](https://www.cbsnews.com/news/extended-transcript-howard-stern-cbs-sunday-morning/), he discussed psychoanal… |
 | 3.49 | `/enneagram-corner/enneagram-type-8` (L165) | `/enneagram-corner/how-to-apologize-like-a-pro` | "apologizing" | You walk into a room and the conversation recalibrates. Your handshake is firm, your eye contact is direct, and your stance says you're her… |
+| 3.45 | `/enneagram-corner/mental-health/enneagram-crisis-management-guide` (L109) | `/enneagram-corner/toxic-traits-relationships-warning-signs` | "Early Warning" | **Early Warning Signs** (weeks before crisis): |
 | 3.43 | `/pop-culture/tech-titans-platform-emperors` (L42) | `/pop-culture/tech-titans-disruptors` | "Elon Musk" | …r builders' types. Mark Zuckerberg and Jack Dorsey show Type 5 system-building; Elon Musk shows the same systems instinct turned toward co… |
 | 2.83 | `/community/software-and-hardware-of-the-mind` (L114) | `/enneagram-corner/enneagram-vs-personality-frameworks-comparison` | "personality systems" | All personality systems attempt to explain the dimensions by which we are similar and different. The most popular scientific model—the <a c… |
+| 2.79 | `/enneagram-corner/toxic-traits-relationships-warning-signs` (L99) | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` | "John" | …y](https://doi.org/10.1037/0022-3514.65.4.707), psychologists Sandra Murray and John Holmes got people to describe their dating partner as… |
 | 2.64 | `/enneagram-corner/why-you-cant-stop-overthinking-enneagram` (L131) | `/enneagram-corner/depression-patterns-by-enneagram-type` | "depression" | **The paradox:** More thinking doesn't lead to better outcomes. Research shows overthinking actually reduces problem-solving ability, incre… |
 | 2.63 | `/enneagram-corner/how-each-enneagram-type-self-sabotages-success` (L154) | `/enneagram-corner/depression-patterns-by-enneagram-type` | "depression" | - Burnout, then depression, then a new goal to outrun both |
 | 2.62 | `/pop-culture/us-presidents-enneagram-analysis` (L91) | `/enneagram-corner/depression-patterns-by-enneagram-type` | "depression" | … kept him from ever giving up. He didn't burn with righteous fury like a 1. He didn't charge forward like an 8. He sat with the full weigh… |
@@ -30,7 +34,6 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 2.26 | `/enneagram-corner/enneagram-workplace-team-building` (L59) | `/enneagram-corner/enneagram-vs-personality-frameworks-comparison` | "personality frameworks" | This system has ancient roots but has been modernized through psychological research. Unlike other personality frameworks, the Enneagram: |
 | 2.26 | `/enneagram-corner/oversharing-psychology-shame-boundaries` (L335) | `/enneagram-corner/enneagram-vs-personality-frameworks-comparison` | "personality frameworks" | This is also why personality frameworks can backfire socially: if you feel the urge to psychoanalyze people the moment you meet them, read … |
 | 2.21 | `/enneagram-corner/how-each-enneagram-type-self-sabotages-success` (L254) | `/enneagram-corner/how-to-navigate-early-relationship-stages` | "New relationship" | … mind runs constant threat-detection. New opportunity? Here are 17 things that could go wrong. New relationship? Let me test them to make … |
-| 2.19 | `/how-to-guides/how-to-psychoanalyze-people` (L480) | `/enneagram-corner/toxic-traits-relationships-warning-signs` | "cheat" | Use this as a cheat sheet once you've gathered observations. **Want to go deeper?** Master [the first impression playbook for each Enneagra… |
 | 2.14 | `/enneagram-corner/mental-health/enneagram-addiction-recovery-guide` (L401) | `/enneagram-corner/enneagram-and-adhd-which-types-struggle-most` | "ADHD" | **The hidden patterns:** ADHD medication abuse, gambling for the excitement, and sex addiction for novelty. Type 7s often have three or fou… |
 | 2.1 | `/enneagram-corner/enneagram-and-adhd-which-types-struggle-most` (L89) | `/enneagram-corner/mental-health/enneagram-neurodivergence-guide` | "ADHD" | Type 7 (The Enthusiast) shows the highest correlation with ADHD symptoms, but every Enneagram type can have ADHD. And each experiences it d… |
 | 2.02 | `/enneagram-corner/first-impression-enneagram-playbook` (L161) | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` | "host" | - Retire the script early. "How do you know the host?" is a wall. "You look like you're having a complicated relationship with this party" … |
@@ -43,18 +46,15 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 | 1.95 | `/pop-culture/fallen-founders-enneagram-analysis` (L226) | `/pop-culture/tech-titans-enneagram-analysis` | "Tech Titans" | >This post is part of the Tech Titans Through the Enneagram series. See also |
 | 1.94 | `/enneagram-corner/astrology-and-the-enneagram` (L201) | `/enneagram-corner/first-impression-enneagram-playbook` | "first impression" | Your rising sign is the first impression of your type. A Type 5 with Leo rising appears warm and charismatic in social situations, which su… |
 | 1.93 | `/pop-culture/incel-blackpill-radicalization-enneagram` (L57) | `/enneagram-corner/first-impression-enneagram-playbook` | "first impressions" | Some pieces of that story touch real problems. Looks can affect first impressions. Family wealth |
-| 1.91 | `/pop-culture/google-leadership-evolution` (L118) | `/enneagram-corner/toxic-traits-of-each-enneagram-type` | "Evil" | The founder lab also produced the company's most-quoted three words: "Don't Be Evil." It got told later as Silicon Valley sloganeering. In … |
 | 1.9 | `/enneagram-corner/enneagram-faqs` (L306) | `/pop-culture/tech-titans-leadership-styles` | "leadership style" | - Improve leadership style |
 | 1.88 | `/pop-culture/podcaster-personality-map` (L69) | `/enneagram-corner/enneagram-types-and-career-choices` | "careers" | …are editorial interpretations of public work and behavior rather than clinical assessments. Claims about shows, careers, and deals require… |
 | 1.88 | `/pop-culture/tech-titans-disruptors` (L42) | `/pop-culture/tech-titans-ai-wars` | "Elon Musk" | …Type 8) broke the taxi industry through raw aggression, and got broken himself. Elon Musk (Type 5) decoded automotive, aerospace, and soci… |
 | 1.87 | `/enneagram-corner/mental-health/enneagram-medication-mental-health` (L535) | `/enneagram-corner/enneagram-and-adhd-which-types-struggle-most` | "ADHD" | _"I avoided medication because I thought it would cage me. ADHD meds changed everything. I still have enthusiasm, but I can actually FINISH… |
+| 1.86 | `/pop-culture/google-leadership-evolution` (L118) | `/enneagram-corner/toxic-traits-of-each-enneagram-type` | "Evil" | The founder lab also produced the company's most-quoted three words: "Don't Be Evil." It got told later as Silicon Valley sloganeering. In … |
 | 1.86 | `/enneagram-corner/relationship-communication-guide` (L244) | `/pop-culture/dark-triad-meets-enneagram` | "literature" | Identity, meaningful experiences, art, music, literature, and the deeper significance behind everyday occurrences. They treasure conversati… |
 | 1.84 | `/pop-culture/ghislaine-maxwell-psychology` (L96) | `/enneagram-corner/enneagram-and-mental-illness` | "narcissistic" | …ia tycoon, served in Parliament, and built a publishing empire worth billions. He was also, according to biographer Tom Bower, "untamable,… |
 | 1.84 | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` (L235) | `/pop-culture/tech-titans-disruptors` | "Elon Musk" | …ne of the strongest lineups they had ever booked. It was also the day Trump and Elon Musk publicly fell out, and the live chat could talk … |
 | 1.81 | `/community/societal-ticking-time-bombs` (L365) | `/enneagram-corner/enneagram-and-adhd-which-types-struggle-most` | "ADHD" | And look what's happening with ADHD. Diagnoses among US children rose sharply -- [from 6.1% in 1997 to 10.2% in 2016](https://pmc.ncbi.nlm.… |
-| 1.81 | `/pop-culture/google-leadership-evolution` (L112) | `/enneagram-corner/enneagram-and-mental-illness` | "disorder" | Brin's contribution to the founder lab was the disorder. Eric Schmidt, telling the AdSense origin story years later: |
-| 1.81 | `/pop-culture/epstein-psychology-part-2` (L235) | `/enneagram-corner/enneagram-and-religion` | "Christmas" | …n: "What day/night will be the wildest party on your island?" A month later, on Christmas morning: "I've been working to the edge of sanit… |
-| 1.8 | `/enneagram-corner/enneagram-books-websites-podcasts` (L161) | `/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic` | "Hosts" | …tionalenneagram.org/">International Enneagram Association</a> (IEA): The professional body for Enneagram practitioners. Hosts global confe… |
 
 ## 3. People bridge (blog → personality-analysis)
 
@@ -96,11 +96,13 @@ Sorted by impressions. 0 of these are NOT grandfathered and fail `pnpm crosslink
 A people page names another person who needs links (2 or fewer contextual links in) without linking them.
 Sources with 10+ internal links are skipped; at most 2 per source, and targets fill to 3.
 These pages live in the database: edit the draft, then sync (see `/crosslink-queue` step 4b).
-6 unlinked mentions found; top 4 after caps.
+11 unlinked mentions found; top 6 after caps.
 
 | Target (in, impressions) | Source (line) | Anchor | Sentence |
 |---|---|---|---|
+| `/personality-analysis/madonna` (1, 0) | `src/blog/people/drafts/Emma-Stone.md` (L116) | "Madonna" | At fourteen, Emily Stone made a PowerPoint presentation. She called it "Project Hollywood 2004," set it to Madonna's "Hollywood," and invit… |
 | `/personality-analysis/andrew-garfield` (1, 0) | `src/blog/people/drafts/Emma-Stone.md` (L136) | "Andrew Garfield" | Around the same time, she fell in love with Andrew Garfield. They met in 2010 when he screen-tested opposite her for _The Amazing Spider-Ma… |
+| `/personality-analysis/madonna` (1, 0) | `src/blog/people/drafts/Neil-Strauss.md` (L273) | "Madonna" | In 2011, between _The Game_ and _Emergency_, Strauss published a book almost everyone forgets: _Everyone Loves You When You're Dead: Journe… |
 | `/personality-analysis/andrew-garfield` (1, 0) | `src/blog/people/drafts/Tom-Holland.md` (L211) | "Andrew Garfield" | Holland's specific flavor is 7w6, the Entertainer wing. The 6 wing adds a layer of loyalty, anxiety about security, and a deep need to belo… |
 | `/personality-analysis/ryan-holiday` (2, 86) | `src/blog/people/drafts/Robert-Greene.md` (L171) | "Ryan Holiday" | The strongest alternate case is **Type 3**. "A compulsion to please people" (Young and Profiting, 2019) and a lifelong sense of being "neve… |
 | `/personality-analysis/emma-stone` (2, 0) | `src/blog/people/drafts/Jimmy-Fallon.md` (L195) | "Emma Stone" | Lip Sync Battle, Box of Lies, Wheel of Musical Impressions, Egg Russian Roulette. The genius was never the games themselves. It was that he… |

@@ -1,0 +1,14 @@
+The Madonna draft passes final perspective verification.
+
+- **Output:** `docs/content-analysis/perspective-reviews/Madonna/2026-10-12_212806/verification-final.md`
+- **Verification status:** `pass`
+- **Open P0:** 0
+- **Protected-hit regressions:** 0
+- **Final content hash:** `865ebb2b42ab3552411de792a66eea0932606e11be86125c68f8b104cb48c49d`, which still matched the live draft after the file was written.
+
+The one item that failed the initial verification (P0-03 in two FAQ answers) is fixed. All seven accepted P1 items are complete, and every new assertion from the revision pass traces to the evidence packet or a saved source. No file other than the verification output was modified.
+
+Two small accuracy notes are logged as non-blocking; fixing either changes the hash and means re-running this verification:
+
+1. **Order of the 2023 Instagram post.** The type section and FAQ 3 say she refused to apologize and "then" explained the long lens. In the post the lens sentence comes first. Swapping "then" for "and" fixes it.
+2. **"Her manager" in FAQ 2.** The answer states in the page's voice that her manager told her the career was over. In the 2026 speech she corrects herself to "the assistant to the manager," and the body avoids this by quoting her.

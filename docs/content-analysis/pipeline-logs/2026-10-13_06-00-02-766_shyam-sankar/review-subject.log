@@ -1,0 +1,22 @@
+The subject (fairness) review is written to `review-subject.json` in the run directory. It validates against `reviewSchema`, carries the request's two hashes, and no other file was touched.
+
+**Verdict:** seven major findings and one minor, no blockers. The draft is careful about what it can't know, but in several places it cuts a quote short or states its own reading as Sankar's telling, in ways that favour the "obeys and defers" thesis.
+
+| ID | Severity | Issue |
+|---|---|---|
+| `subject-01` | major | The hook's "earn your place every day" was said about Palantir's early years and its product, not his own standing today. The quoted question also drops Lonsdale's "do you still feel like an outsider?" |
+| `subject-02` | major | "Told as obedience" and "his father made the call" aren't supported for Palantir. Colossus has him deciding for himself ("there was no going back"), and for Xoom the draft cuts "Dad had been kind of trying not to be directive." |
+| `subject-03` | major | The Minab strike passage omits parts of his CBS answer: the step is "part of the process we don't own", Palantir added checks, and he "would love the truth to get out there." |
+| `subject-04` | major | The conflict-of-interest quote stops one sentence before "We're only allowed to work on projects where we don't have conflicts." The Army spokesperson's reply in the same Military.com article is also left out. |
+| `subject-05` | major | The i2 docket page the article links was never opened by research. It shows the motions to dismiss were denied on Oct. 1, 2010, and that Sankar filed an answer on Oct. 19, 2010. So "No court ruled on the claims" and "no statement from Sankar" both need correcting. |
+| `subject-06` | major | "Deputy since 2006" appears in the description, a FAQ and the body. He joined as employee 13, and the evidence record itself calls "deputy" the article's word. |
+| `subject-07` | major | The gloss on the Nigeria/India quote says his anger was aimed "at people who accept that." The source shows anger at an argument and at systems, and Stern ties the wording to his family's own experience. |
+| `subject-08` | minor | The parents FAQ says no source "documents how the family was admitted," which reads as doubt about his immigration status. |
+
+Three of the four legs of the Type 6 vs 8 discriminator lean on passages flagged here, so honest repairs may lower confidence in the type call. The assessment says so.
+
+**Risk flags:** `sensitive_allegations` and `contested_typing` are true; the other two are false.
+
+**Protected passages (5):** the Lagos-section caveat, the "taken at face value" line on his fear denial, "Loyalty and money point the same way," the Mabrey limits line, and the FAQ sentence declining to name his wife and children.
+
+**Not checked:** the i2 complaint and answers themselves, the Bloomberg report, and any caption-only wording by ear. The similarity advisory did not trip; its matches are ordinary Type 6 vocabulary.

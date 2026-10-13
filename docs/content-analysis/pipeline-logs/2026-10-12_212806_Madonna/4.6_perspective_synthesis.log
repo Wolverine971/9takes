@@ -1,0 +1,34 @@
+The synthesis is written to `docs/content-analysis/perspective-reviews/Madonna/2026-10-12_212806/synthesis.md`. The verdict is revise: the thesis and the Type 3 call survive all six reviews, and the frozen and live drafts were not touched.
+
+| Count | |
+| --- | --- |
+| P0 items | 8 |
+| Accepted P1 items | 7 |
+| Research required | 3 (each has a safe default, so none blocks the revision) |
+| Protected hits | 12 |
+
+**Most important protected hit:** PROTECT-01, the tense reading of "I still have to prove" paired with her 2026 "I'm going to be somebody" (lines 126–128). Four of the six perspectives named it.
+
+**The P0 list:**
+1. **"Take control" quote:** it is attached to the wrong moment. In the 1985 Time piece she places it while her mother is alive and sick, before the death and the silence. Four reviewers flagged it as a blocker.
+2. **Quotation mismatches:** the thesis blockquote drops "I'm", the Stern quote has an unmarked cut, a 2003 paraphrase sits inside quotation marks, and two phrases rest on auto-captions only.
+3. **"Why Is Madonna Still Performing?":** it is answered as fact from one postponement notice and one speech, with her own stated reasons left out.
+4. **Family silence:** it is stated in absolutes she did not use, and the mother-aging link is presented as her experience.
+5. **Malawi paragraph:** cut it. Three reviewers accept the cut.
+6. **bell hooks:** the vogueing argument attributed to her is not in the essay as read.
+7. **Type 8 tiebreaker:** it quotes only the explaining half of her 2023 post and claims "every backlash".
+8. **Three wrong or stale facts:** "worst seller of her career", "withheld for fifteen years", and the Kabbalah dating.
+
+All six blocker claims from the reviews are accepted as P0; none was dropped.
+
+Three things the editor should know:
+- **Length:** the brief is budgeted to land at or below the starting 4,379 words, with about 225 words of cuts before any add, a drop order if it runs over, and a hard stop at 4,500.
+- **Quote strings to re-check:** the People fragments, the AP rehearsal caption and the 2018 reply fragment reached me in pieces through the fetch tool. The brief tells the editor to check each against its page before printing.
+- **`lastmod`:** the page date predates the September and October 2026 events in the body. That is yours to set at sync; the brief tells the editor not to touch it.
+
+I used all three allowed source checks, and each is logged in the item it affected.
+
+Sources:
+- [AP via CBS News Chicago, Aug 22, 2018: Madonna on the Aretha Franklin remarks](https://www.cbsnews.com/amp/chicago/news/madonna-didnt-intend-aretha-franklin-tribute)
+- [People via Yahoo News, May 13, 2024: Madonna's Mother's Day post](https://malaysia.news.yahoo.com/madonna-remembers-loss-her-mom-234526561.html)
+- [AP via ClickOnDetroit, May 4, 2024: Copacabana concert and rehearsal](https://www.clickondetroit.com/entertainment/2024/05/04/rio-de-janeiro-set-for-madonnas-massive-copacabana-beach-concert-that-will-be-her-biggest-ever/)

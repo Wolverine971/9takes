@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "4e0680b630d4558790dca8d78fc08be5499070962bf26a8947337384f93913fe",
+  "evidence_sha256": "420561ab0fd83763c0c750c32f8d9cba8a915685413daf721f9f20e99f186c6d",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "He has been one man's deputy since 2006.",
+      "problem": "A dated status claim the record does not support. He joined in March 2006 as the 13th employee, recruited by Lonsdale. C01 says the title history is thin: the proxy gives only \"various positions\" since 2006 and Colossus places the chief operating officer title \"by February 2021\". C114 concedes that \"deputy\" is the article's word. The claim recurs in the Type 8 FAQ (\"He has been Alex Karp's deputy since 2006\") and as the first discriminator bullet (\"He has been another man's deputy since 2006\"), where it carries the argument, and neither repeat is in the claim inventory. It is also open-ended present-tense status in the search description.",
+      "acceptance_test": "The description, the Type 8 FAQ and the discriminator bullet each state only what the record holds (for example, that he has worked under the same chief executive since March 2006), with no start date attached to \"deputy\" unless a filing or named source dates the role. All three passages are in the claim inventory as time_sensitive, with a trigger covering his departure, a change of role, or Karp stepping down."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "The hardest test of it came on Face the Nation, in an interview posted October 11, 2026.",
+      "problem": "The section ranks a two-day-old exchange about an unreleased review as its strongest evidence. The strike facts reach the page through a secondhand summary (S24 locator: \"The Bloomberg article it summarizes was not opened\"), and the record's own trigger on C32 says to read the Bloomberg article itself before any release that mentions the strike. That gate is unmet. The reading that follows (\"he defended his own group's work before the review was in\") holds only until the review is published, and the result could reverse how the exchange reads. The limits section says the settling test is what he does when the Army is wrong in a way he cannot fix from inside; the pending review may be that test, and the draft does not connect the two.",
+      "acceptance_test": "With the two Minab paragraphs deleted, the section still makes its point from the \"unelected engineers\" quote and the Army commission answer, and the lead-in no longer ranks the exchange above them. If the passage stays: the Bloomberg investigation is opened and cited, or the text is limited to what the CBS broadcast itself shows; the review status keeps its as-of date; and the page says what the released review could show about the read without predicting the result."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "Nobody who fought him, quit because of him or negotiated against him is on record.",
+      "problem": "The confidence level and the stated settle test rest on absences that are true as of the October 2026 research and that one published account could end. The prose gives them no as-of date (\"has turned up\", \"has been found\", \"is on record\", \"there is no account\"). In the record, C52, C85, C105, C108 and C113 are marked stable with empty review triggers. This sentence, the i2 line \"no statement from Sankar about the case has been found\" and \"there is no account of what he does when Karp or the Army is wrong\" are not in the claim inventory at all. Nothing in the record reopens the page when the evidence it says would settle the type arrives.",
+      "acceptance_test": "The limits section dates the absence once (as of October 2026). The evidence record carries each absence claim as time_sensitive or unresolved with a trigger naming the event: an on-record account from a former employee, Army counterpart, i2 party or other non-ally; an account of him overruling or leaving Karp or the Army; a statement by Sankar on the i2 case; an independent record of the 1984 robbery."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "The gratitude came with one sentence attached, and Sankar has been repeating it for years.",
+      "problem": "The dated instances in the record (C07, C57) run from December 2024 to May 2026, all inside the essay, commission and book cycle. The earliest interview opened (S15, September 2023) has no family material, the research task to look for pre-2023 tellings is still open, and the pre-2025 consistency check was cut for length. \"For years\" implies a longer track record than the record holds, at the first claim supporting the type. Whether the account predates the public campaign is the question a reader in 2031 will ask.",
+      "acceptance_test": "The sentence states the documented span (since at least December 2024) or cites an earlier dated instance. The limits section says plainly whether any telling from before the October 2024 public turn was found."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "In an interview posted the next day he said that after 19 years he \"had a duty to at least articulate\" his views.",
+      "problem": "\"The next day\" has no anchor. The blockquote above it (\"I'd say I'm a bit reluctant about the shift\") carries no interviewer, source or date in the article; its Invest Like the Best link appears four sections earlier on a different quote. The lede has the reverse slip: \"In May 2026, Joe Lonsdale asked\" states an event month where the record has only the May 8 posting date (C45: recording date unknown).",
+      "acceptance_test": "The \"reluctant\" quote is attributed in the text with interviewer and absolute date, the following sentence carries its own date, and no relative date in the article depends on an undated passage. The lede says the interview was posted in May 2026 or otherwise avoids asserting a recording month."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "Sankar has worked at one company since he was 24. He holds a rank in the institution he says he is looking in on.",
+      "problem": "The hook's payoff is written as open-ended present status and uses an age the record does not establish. C02 calls the birth window \"arithmetic on round remarks\" and the age FAQ says the page states no birth date, so \"since he was 24\" is derived, and it is not in the claim inventory. If he leaves Palantir or the Reserve, both sentences turn false even though the contradiction they describe was true when he gave the answer.",
+      "acceptance_test": "The payoff is tied to the moment of the answer (true as of the May 2026 interview) so it survives a later change of job or rank. Tenure is given by the sourced March 2006 start unless a source states his age at joining. The passage is in the claim inventory."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "Shyam Sankar: The Heretic Who Never Left",
+      "problem": "Title, meta title, description and the body line \"The son is still there\" assert a status with no end date. That is acceptable only if tracked, and the tracking is uneven. C115's trigger covers only leaving Palantir, while C20 and C114 add a government post, founding or running another organization, and Karp stepping down. \"The son is still there\" is undated and outside the inventory. Third-party titles (Karp as chief executive, Mabrey as head of commercial) are also given as current with no date.",
+      "acceptance_test": "C115 carries the same trigger set as C20 and C114 (he leaves, takes a government post, runs another organization, succeeds Karp, or Karp steps down). The tenure paragraph carries one as-of date. Third-party titles are tied to the dated source that gave them."
+    },
+    {
+      "id": "future-08",
+      "severity": "minor",
+      "passage": "https://web.archive.org/web/2011id_/https://venturebeat.com/2011/02/16/palantirs-third-black-eye-i2-lawsuit-settled/",
+      "problem": "The reader-facing citation for the page's one personal-conduct allegation is a fetch-workaround URL: the raw \"id_\" form with a year-only timestamp. It resolves to whichever capture is nearest, shows no archive date or banner, and can change underneath the page. It appears in the body and in the citations list.",
+      "acceptance_test": "The body link and the citations entry point to the original VentureBeat URL or to a full 14-digit-timestamp Wayback snapshot, and the evidence source records the capture date used."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Lonsdale had just described the early Palantir as outsiders beaten up by the bureaucracy, so part of that answer is a guest agreeing with his host. The rest is harder to wave off.",
+      "reason": "Makes the hook durable. It is a dated self-description of temperament, not a news event, and the discount for the interview setting is stated up front."
+    },
+    {
+      "passage": "So the two boldest moves of his twenties are told as obedience. Someone he trusted told him to take the risk, and he took it.",
+      "reason": "The profile's most lasting insight. It rests on settled past events and his own telling, so no later development at Palantir or the Army can overtake it."
+    },
+    {
+      "passage": "Loyalty and money point the same way here, so the tenure cannot settle the type alone.",
+      "reason": "States the limit of the most time-sensitive evidence strand, right after pay figures tied to a dated filing. Keeps the tenure argument honest if his status changes."
+    },
+    {
+      "passage": "What would move the read toward Eight: accounts of him overriding or walking away from Karp or the Army at a cost to himself, or people outside his circle describing domination for its own sake.",
+      "reason": "A falsifier in reader language. It is the page's built-in review trigger and should be mirrored in the evidence record, not softened."
+    },
+    {
+      "passage": "The Pentagon's review had not been released as of October 13, 2026.",
+      "reason": "The right form for an unresolved matter: an absolute as-of date on a status that will change. Keep it if the Minab passage is retained."
+    }
+  ],
+  "assessment": "Five-year test: the central insight passes. The Type 6 read at medium confidence rests mainly on settled past material (the father's sentence and the two forks he decided, the crisis stories carried up to Karp, the \"unelected engineers\" line), so removing the October 11, 2026 CBS exchange, or even the May 2026 hook, leaves the argument standing. The draft also commits in advance to what would change the read and dates most changing facts (proxy age and pay, commission date, review status). Durability risk is concentrated in four places: an unsupported \"deputy since 2006\" repeated in the description, a FAQ and the discriminator; a Minab passage ranked as the hardest test while resting on a secondhand summary and an unmet gate in the record; confidence-bearing absence claims that are undated in prose and marked stable with no trigger; and status wording in the title and hook that is tracked unevenly. One caveat for the long view: every motive statement dates from December 2024 to October 2026, inside one press cycle, and the pre-2023 check is still an open research task. The page discloses the polish, but \"for years\" overstates the span. Similarity advisory read: not tripped. The highest pair (0.058, Patrick-Mahomes) shares counterphobic-Six vocabulary and an idiom with a different argument, so there is no reuse finding. Sources were not reopened in this role; findings rest on the frozen draft and the evidence record, and the 2026 events (the strike, the Bloomberg report, the CBS interview) are taken from the record as given. Risk flags stand: sensitive allegations (Minab, i2, conflict of interest) and contested typing (he denies the fear premise and Type 8 remains live)."
+}

@@ -1,0 +1,19 @@
+The future-role review for Shyam Sankar is written to `review-future.json`. It parses against `reviewSchema`, carries the request's two hashes, and every finding and protected passage is an exact match in the frozen draft. No other file was touched and nothing was published.
+
+**Verdict:** the central insight passes the five-year test. The Type 6 read rests mostly on settled past material, so removing the October 11, 2026 CBS exchange (or even the May 2026 hook) leaves the argument standing.
+
+**Major findings (3)**
+- **`future-01` — "deputy since 2006":** the record does not support the date. He joined as employee #13, and the evidence only places the COO title "by February 2021". The claim appears in the description, the Type 8 FAQ and the first discriminator bullet.
+- **`future-02` — Minab passage:** the draft calls a two-day-old exchange about an unreleased Pentagon review "the hardest test". It rests on a Gizmodo summary, and the evidence record's own rule to read the Bloomberg piece before any release mentioning the strike is unmet.
+- **`future-03` — absence claims:** the medium confidence rests on lines like "Nobody who fought him… is on record", which are undated in the prose. The matching claims are marked stable with no review trigger, so nothing reopens the page when the evidence it says would settle the type arrives.
+
+**Minor findings (5)**
+- **`future-04`:** "repeating it for years" overstates a documented span of December 2024 to May 2026, all inside one press cycle.
+- **`future-05`:** "posted the next day" hangs off a blockquote with no source or date; the lede gives a posting date as an event month.
+- **`future-06`:** the hook payoff uses a derived age ("since he was 24") and open-ended present tense.
+- **`future-07`:** the title "The Heretic Who Never Left" is tracked by a narrower review trigger than the related tenure claims.
+- **`future-08`:** the reader-facing VentureBeat citation is a raw Wayback `id_` URL with a year-only timestamp.
+
+Five passages are protected, including the "told as obedience" insight and the "What would move the read toward Eight" falsifier.
+
+Risk flags stay at sensitive allegations and contested typing, both true. The similarity advisory did not trip, so there is no reuse finding. I did not reopen sources in this role; the findings rest on the frozen draft and evidence record.

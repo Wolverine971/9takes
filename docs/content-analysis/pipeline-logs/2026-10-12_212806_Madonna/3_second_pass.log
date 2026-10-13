@@ -1,0 +1,31 @@
+Second pass on `src/blog/people/drafts/Madonna.md` is done. Lint is 0 fail, readability flags nothing, and the source audit is **4 inline, 1 vague, 0 untagged** (the vague one is her Instagram long-lens statement, attributed in prose).
+
+**What changed**
+- **Type section:** rebuilt on your 10-12 notes. It commits, opens on the heart triad and shame, and answers Type 8 and Type 1 once in a visible "Why not" block.
+- **2026 is in:** No. 1 album, seven VMAs, and the Artist of the Year speech where she retold the 1984 "your career is over" night. That section is now titled "Why Is Madonna Still Performing?" and answers it plainly. Both speeches (2016 Billboard, 2026 VMAs) are embedded from the official channels.
+- **Wrong facts fixed:**
+  - The Copacabana "largest ever" claim was never true (AP credits Rod Stewart's 1994 show with 4 million-plus), so it's gone in all three places; the ending now closes on Gaga's 2.1 million on the same sand.
+  - The Seymour Stein hospital story was backwards: he had her brought in.
+  - The coma "No" story was attributed to the wrong city. In 2025 she retold it with her mother asking, and that version is now in.
+- **The skeptic's case:** her brother Christopher objecting to the filmed graveside scene, plus two reviews from the week *Sex* came out, so 1992 is no longer told only through her 2016 speech.
+- **Cuts:** about fourteen paragraph-ending one-liners, the Paglia paragraph, the duplicate Type 8 argument, and a third of the Rabbit Hole.
+
+**Your call: length**
+It landed at 4,376 words (4,317 before), over the 3,900 target but under the 4,500 ceiling. I recommend leaving it, since everything added is sourced and the review asked for it. If you want it in the target range, the cut candidates are the Malawi paragraph, the Patrick Leonard quote, the film-of-her-life paragraph and the Rabbit Hole subtype.
+
+**Still open for the editor pass**
+- Two short quotes from the Jay Shetty podcast ("abandoned as a child by my own mother," "like life repeating itself") come from auto-captions only. They need a second transcription before publish.
+- The graveside description rests on Wikipedia's plot summary, not a viewing.
+- The Guinness "outsold every woman" line and the Malawi residency objection were not re-checked.
+- The third research agent had not reported when I finished; I checked its items myself against the source text it saved.
+
+Story worth keeping: the verification step caught three errors the review stage had passed along as facts.
+
+The third research report came in and confirmed what I'd checked by hand, with two small corrections now applied to `src/blog/people/drafts/Madonna.md`:
+
+- **Seymour Stein's deal:** his memoir says $15,000 per single for three singles, so the timeline now reads "three singles at $15,000 each." His 2016 interview words it more loosely; that's logged in the pass notes.
+- **Christopher Flynn:** his death from AIDS in 1990 is confirmed, so the year is back in the gay-icon paragraph.
+
+The graveside scene is now better supported: Christopher's own memoir describes her lying down next to the grave while he watched. That item in the open list is downgraded to "film itself not viewed."
+
+Final state: 4,379 words, lint 0 fail, source audit still 4 inline, 1 vague, 0 untagged. Everything else in my earlier summary stands, including the length call and the two caption-only Shetty quotes that need a second transcription before publish.

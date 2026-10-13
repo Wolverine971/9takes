@@ -1,0 +1,48 @@
+The Madonna revision pass is finished: the one open gate item (P0-03, in two FAQ answers) is fixed, lint is clean (0 fail), and the resolution artifact passes the pipeline's resolution gate. The page is still over the length band at 4,410 words (was 4,436), because most of the cuts the grader asked for are passages the perspective jury protected.
+
+**What triggered the loop:** perspective verification failed on P0-03, and the grade came back B (8.4).
+
+## Fixed
+
+- **Gate item (P0-03):** FAQ 1 now names the July 2023 postponement notice and its audience instead of reporting her waking thoughts as fact. FAQ 2 says she "opened" her VMA speech with the 1984 story, matching the body.
+- **Verifier's three non-blocking notes:**
+  - FAQ 4 quotes her through "gone to sleep."
+  - FAQ 3 attributes the long-lens claim to her.
+  - "The one sibling" is now "the sibling."
+- **FAQ 3 (grader):** it now opens with a direct "No, by our reading."
+- **Sales claim (grader):** "lowest-selling album to that point" traced only to Wikipedia for Erotica, so I retired it. Both albums now cite Billboard pages I fetched this pass: Erotica as her first studio album since her debut to miss No. 1, and American Life as her lowest-selling studio album to that point.
+- **Small untraced items (grader):**
+  - The Joan Lader quote is cut; its only trace was Wikipedia citing a biography I couldn't open.
+  - "Forty countries" and "seven awards" now carry source tags (Guinness World Records, Billboard). The Guinness tag rests on Wikipedia's citation, not a direct check.
+  - The 2024 "disappeared" line is placed on Mother's Day.
+  - The "inadequacy" quote now says which interview it's from.
+- **Last-third digest (grader):**
+  - The marriages paragraph is down to the custody lead-in.
+  - The film paragraph lost its Netflix status line and now leads into the album ("While the project sat, she made a record").
+  - A show-count sentence made redundant by the new hook is gone.
+- **Hook (grader):** the rehearsal beat is replaced by the coma: ten months before Rio she was in an induced coma, and Rio was show 81 of the tour it postponed.
+- **Craft (grader):**
+  - Two of the five reader commands are rewritten.
+  - "Achiever" is down to two uses.
+  - The orphan head-types sentence is cut.
+  - TL;DR bullets 1, 3 and 4 now state the word, the producer and the second thought.
+- **Ledgers:** the Formula Fingerprint heading reference and length line are updated.
+
+## Rejected
+
+- **Cutting the Leonard block and the film paragraph:** both are jury-protected hits, and cutting either would fail the perspective gate.
+- **About 500 words out of the last third:** nearly everything left there is protected or required by a gate test.
+- **Three reader commands** ("Notice the tense," "look at what she is afraid of," "Weigh that as a hostile account"): protected verbatim.
+- **A source tag on "2.1 million for Gaga":** the closing line is protected verbatim. The figure is the organizers', reported by AP.
+- **Graveside scene sourcing:** nobody in the pipeline has viewed the film, so the text stays on the existing safe default.
+
+## Your calls
+
+1. **English accent.** The grader called the "all Guy Ritchie's fault" parenthetical an insert, so I cut it. It was the page's only answer to the live query "why does madonna have an english accent." If you want that query, a sixth FAQ is a better home than the body.
+2. **Length.** Reaching the 3,900 band means overriding the jury on protected passages; the next candidates are the Leonard block and the family-deaths paragraph. I left them alone.
+
+Lint still warns that `published: true` disagrees with `production_pretext.status: draft`; I didn't touch that field, or `lastmod`, `date` or `content_quality`.
+
+## What happens next
+
+The pipeline clears the consumed review sidecar and re-grades. Targeted perspective verification must rerun, since the reader-visible text changed. `revision-resolution.md` is in the review directory, listing every changed line with its source; the short version is the `REVISION PASS NOTES` block at the bottom of the draft.
