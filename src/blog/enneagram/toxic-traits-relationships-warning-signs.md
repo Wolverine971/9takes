@@ -29,16 +29,16 @@ quality_safety_gate: 'n/a'
 </script>
 
 <QuickAnswer question="What are the toxic traits and warning signs of each Enneagram type in a relationship?">
-Each type's toxic trait in a relationship is a defense against one of three emotions. <strong>Anger:</strong> 8s control, 1s nitpick, 9s numb out. <strong>Shame:</strong> 4s stir up drama, 2s smother and keep score, 3s put their image ahead of you. <strong>Fear:</strong> 6s test your loyalty, 7s dodge anything heavy, 5s go cold. The early warning sign is usually the trait you liked, showing up at the wrong moment. No type is most likely to cheat by number, but <a href="#which-enneagram-type-is-most-likely-to-cheat">four motives often show up first</a>.
+Each type's toxic trait in a relationship is a defense against one of three emotions. <strong>Anger:</strong> 8s control, 1s nitpick, 9s numb out. <strong>Shame:</strong> 4s stir up drama, 2s smother and keep score, 3s wear a mask and stop listening. <strong>Fear:</strong> 6s test your loyalty, 7s dodge anything heavy, 5s go cold. No type is most likely to cheat by number, but <a href="#which-enneagram-type-is-most-likely-to-cheat">four motives often show up first</a>.
 </QuickAnswer>
 
 <p class="firstLetter">Every toxic trait in your relationship is doing a job.</p>
 
 The nitpicking. The scorekeeping. The loyalty tests. The silence that lasts all weekend.
 
-Most of it was built long before you showed up, to keep one bad feeling quiet. Then the two of you got close, and the defense came along.
+Most of it was built long before you showed up, to deal with one bad feeling. Then the two of you got close, and the defense came along.
 
-I'm an Eight. Mine is further down, and my wife supplied the name for it.
+I'm an Eight, so my own is the first one you'll hit when we get to the types.
 
 I already wrote about [what each Enneagram type looks like at its worst](/enneagram-corner/toxic-traits-of-each-enneagram-type). This is the relationship version: the toxic trait you'll see in a partner, the early warning sign, and where it comes from.
 
@@ -46,23 +46,23 @@ One question sorts all nine types. Is this coming from anger, shame, or fear?
 
 ## Toxic traits and early warning signs at a glance
 
-| Type                                | Early warning sign                                 | What it turns into                               | What's under it         |
-| ----------------------------------- | -------------------------------------------------- | ------------------------------------------------ | ----------------------- |
-| [Type 1](#type-1-the-nitpick)       | Small corrections that sound helpful               | Nitpicking, constant criticism                   | Anger, pushed down      |
-| [Type 2](#type-2-the-ledger)        | Help you never asked for, mentioned again later    | Suffocating, keeps a list of what you owe        | Shame, pushed down      |
-| [Type 3](#type-3-the-image)         | Barely listening, replies that miss what you said  | Self-absorbed, runs on status and appearances    | Shame they don't notice |
-| [Type 4](#type-4-the-push-and-pull) | Stirring something up when things are calm         | Push and pull, an emotional roller coaster       | Shame, used             |
-| [Type 5](#type-5-the-microscope)    | Detached while you're emotional, a flat "huh"      | Cold, studies you when you need them with you    | Fear they don't notice  |
-| [Type 6](#type-6-the-loyalty-test)  | Questions that go nowhere and circle back          | Paranoid, you're always proving yourself         | Fear, used              |
-| [Type 7](#type-7-the-dodge)         | Laughing off serious moments                       | Dodges every serious issue and every bad feeling | Fear, pushed down       |
-| [Type 8](#type-8-the-armor)         | A raised voice                                     | Controlling, intimidating, never wrong           | Anger, used             |
-| [Type 9](#type-9-the-numb-out)      | Ignoring a big problem while the pacifying goes up | Numb, checked out, avoids every confrontation    | Anger they don't notice |
+| Type                                | Early warning sign                                 | What it turns into                                 | What's under it         |
+| ----------------------------------- | -------------------------------------------------- | -------------------------------------------------- | ----------------------- |
+| [Type 1](#type-1-the-nitpick)       | Small corrections that sound helpful               | Nitpicking, constant criticism                     | Anger, pushed down      |
+| [Type 2](#type-2-the-ledger)        | Help you never asked for, mentioned again later    | Suffocating, keeps a list of what you owe          | Shame, pushed down      |
+| [Type 3](#type-3-the-mask)          | Barely listening, replies that miss what you said  | Self-absorbed, mask on, image first                | Shame they don't notice |
+| [Type 4](#type-4-the-push-and-pull) | Stirring something up when things are calm         | Push and pull, an emotional roller coaster         | Shame, used             |
+| [Type 5](#type-5-the-microscope)    | Detached while you're emotional, a flat "huh"      | Cold, studies you when you need them with you      | Fear they don't notice  |
+| [Type 6](#type-6-the-loyalty-test)  | Questions that go nowhere and circle back          | Paranoid, you're always proving yourself           | Fear, used              |
+| [Type 7](#type-7-the-dodge)         | Laughing off serious moments                       | Avoids anything serious, emotional procrastination | Fear, pushed down       |
+| [Type 8](#type-8-the-armor)         | A raised voice                                     | Controlling, intimidating, never wrong             | Anger, used             |
+| [Type 9](#type-9-the-numb-out)      | Ignoring a big problem while the pacifying goes up | Numb, checked out, avoids every confrontation      | Anger they don't notice |
 
-The early sign is usually the trait you liked, showing up at the wrong moment. Every row is that type at its unhealthy end. On a good stretch, all nine are easy to love.
+Every row is that type at its unhealthy end. On a good stretch, all nine are easy to love. And one bad night is only a bad night. It becomes a warning sign when it repeats and nobody owns it afterward.
 
 ## How survival strategies become toxic patterns
 
-A defense mechanism is anything a person does, without deciding to, that keeps a painful feeling out of view.
+A defense mechanism is anything a person does, without deciding to, to protect themselves from a painful feeling.
 
 It starts as a survival strategy. It works, which is why they keep doing it. The bill goes to whoever is standing closest, and in a relationship that's you.
 
@@ -81,6 +81,8 @@ The emotion matters because it decides the behavior. Because someone feels fear,
 Take a partner who goes quiet in a fight. A Nine is angry and can't feel it yet. A Five is overloaded and saving what energy they have left. An Eight has hit their limit and walled you out. Say "talk to me, right now" to all three and you get three different bad nights.
 
 So before you decide what a behavior means, work out which emotion is running it. The quickest way is to ask: "When a day goes badly, what shows up first: angry, anxious, or down on yourself?"
+
+Three types will get that question wrong, because they don't notice their own emotion. A Nine rarely gets angry. They go numb, go along, or quietly dig in. A Three doesn't seem insecure. They stay busy proving themselves. A Five wouldn't call it fear. They pull back into their head. With those three, go by the behavior.
 
 A few rules before the types:
 
@@ -114,15 +116,17 @@ These three run on instinct. They feel in their body how things should go, and a
 
 I'm an Eight, so I'll start with mine.
 
-My wife has told me that sometimes I think I'm so right it turns into a god complex: "I'm right about this, and you're super wrong." She's a Seven, and she says it leaves her feeling cornered. I know I come off as intimidating sometimes.
+My wife has told me that sometimes I just think I'm so right. I'd call it a god complex: "I'm right about this thing, and you're super wrong." She's a Seven, and she ends up feeling cornered. I know I come off as intimidating sometimes.
 
-In one fight she was crying, and I doubled down on being harsh. I had mistaken her crying for refusing to accept she was wrong. That was toxic, and it was mine.
+In one fight she was crying, and I didn't understand why. In my head it was simple. I'm making complete sense and I'm right. She'll cry, then she'll say "you're right," and we'll come together and move on.
 
-My other move is silence. When a fight gets intense, I go quiet and create distance. She wants me to engage and I withdraw. In Enneagram terms that's [an Eight under stress going to Five](/enneagram-corner/enneagram-types-in-stress). These days I can usually catch myself in it.
+So I doubled down. I had no meanness toward her. I was reasoning through the facts. She saw me as completely mean, and I kept thinking, "I'm not being mean." But I could be that cold because I was only looking at the facts and the logic, and to her that was extremely cold. It was very toxic.
 
-With an Eight who isn't aware of any of this, it can get really ugly. The voice goes up, the anger follows, and then comes the push to dominate and control: the money, the plans, which of your friends are "a bad influence."
+My other move is silence. When a fight gets intense, I go quiet and create distance. She wants me to engage and I withdraw. In Enneagram terms that's [an Eight under stress going to Five](/enneagram-corner/enneagram-types-in-stress). How we come back from it is [at the end](#the-olive-branch).
 
-If you stay quiet because you're scared of what happens when you speak, type has stopped being the question. Call the hotline: 1-800-799-7233.
+I know that in the past I would try to control the situation. I think I'm a little healthier now, because I can sort of catch myself in the pattern.
+
+With a really negative or unaware Eight, it can get ugly. The voice goes up, the anger follows, and then comes the push to dominate and control.
 
 Under all of it is the armor. An Eight in full armor has never done anything wrong and refuses to be vulnerable, and one who hasn't learned to calm down turns cold and unapproachable. Anger is the one feeling they trust, because it makes them bigger. Hurt and need make them smaller, so both get turned into anger before anyone sees them. That's [where armor meets intimacy](/enneagram-corner/enneagram-type-8#where-armor-meets-intimacy).
 
@@ -152,7 +156,7 @@ The anger never left. A One renames it "frustrated" or "disappointed" or "just b
 
 **Early warning sign:** A big problem gets ignored while the pacifying goes up.
 
-The classic unhealthy Nine move is numbing: drinking, drugs, a ton of video games, endless scrolling. It goes up exactly when something between you needs dealing with, and any of it can lead somewhere worse.
+The classic unhealthy Nine move is pacifying themselves: drinking a lot, getting high, a ton of video games, endless scrolling. They go inward and put distance between themselves and the world. They're trying to have a good time while the real stuff goes undealt with, and any of it can lead somewhere worse.
 
 Confrontation gets avoided at any price. "No, nothing's wrong." They agree to the plan and then don't do it, which is as close to a "no" as you'll get.
 
@@ -188,9 +192,9 @@ These three read people. They can tell what someone feels, often before that per
 
 Emotional drama is the drug. A Four needs to feel something to know the relationship is real, and calm doesn't register as a feeling. It's hard for them to just be chill.
 
-Two quiet weeks, no fights, dinner on the couch. It feels nice for a while, and then it starts to eat at them. They need emotional stakes, so they go looking for somewhere to feel something and whip up an existential crisis. A text gets read as a slight, or "do you even still want this?" lands at 11 p.m. on a Tuesday.
+The Fours I've been close to are continually restless. They're always getting into weird life situations where there's big emotional stuff happening. When things are calm and good, it feels nice for a while, and then it starts to eat at them. They need emotional stakes, so they go looking for somewhere to feel something and whip up an existential crisis.
 
-Run that on repeat and you get the push and pull, an emotional roller coaster with endless drama. "I've never felt this close to anyone," then a day later, "You don't understand me at all."
+In a relationship that becomes the push and pull, an emotional roller coaster with endless drama.
 
 They're also self-absorbed in their own way, even though they can empathize with you.
 
@@ -210,7 +214,7 @@ Suffocating is the word I'd use for what it becomes. A Two gets so involved in y
 
 They can't sit back and let your emotional truth be the thing. Theirs ends up mattering more. That's the pride in this type, and it's [hard to recognize](/enneagram-corner/enneagram-type-2#the-pride-nobody-recognizes) because they're doing so much for you.
 
-Then there's the list. A Two I know well is as kind and giving as anyone you'll meet, always the first to help. I've also heard her tell her own kids "I've done so much for you," right when she was the one in the wrong. The list works like currency, and then it works like blackmail: the complaint gets dismissed, and the person who raised it ends up doubting what they said.
+Then there's the list. A Two I know well is as kind and giving as anyone you'll meet, always the first to help. I've also heard her tell her own kids "I've done so much for you," right when she was the one in the wrong. The list works like currency, and then it works like blackmail: I've done all this for you, so you can't criticize me. The complaint gets dismissed, and the person who raised it ends up doubting what they said.
 
 That's the martyr, and it's how an unhealthy Two sees themselves. The tally runs both ways, too. Do something for a Two and they feel guilty until they've made it up to you.
 
@@ -220,7 +224,7 @@ The giving is how a Two keeps "I'm not enough" quiet, and [the ledger](/enneagra
 
  <article class="section-content">
 
-### Type 3: the image
+### Type 3: the mask
 
 **Shame they don't notice.** A Three doesn't feel insecure. They feel busy.
 
@@ -228,11 +232,13 @@ The giving is how a Two keeps "I'm not enough" quiet, and [the ledger](/enneagra
 
 I'll say this one bluntly: an unhealthy Three is self-absorbed, and in a plainer way than the Four. They're wrapped up in what they've got going on, so it's hard for them to actually listen, or to give a damn about what's going on with you.
 
-They wear a mask, and sometimes you can watch it come off. You're in the middle of telling them something and they say a thing that's completely irrelevant, sometimes harsh or mean.
+I've watched it happen mid-conversation. Their eyes glaze over. They nod like they understand, but they aren't digesting any of it. They want the conversation to end.
+
+They wear a mask, and sometimes it slips. They say something completely irrelevant to what you just told them, sometimes harsh or mean.
 
 Here's the strange part. A Three can be very good at reading the room. Then they get comfortable, the guard comes down, and it's "wow, you did not read the room at all." The person they're most comfortable with gets the least attention.
 
-They're also extremely concerned with status and appearances.
+They're also extremely concerned with status and appearances. You fight in the car and walk into the party as the perfect couple.
 
 The mask is for whoever is watching. The shame runs in the background and says they're only worth what they produce and how it looks, so the effort goes where the audience is. The Type 3 guide names the question they avoid: ["Would you love me if I wasn't impressive?"](/enneagram-corner/enneagram-type-3#relationships-the-real-test)
 
@@ -260,13 +266,11 @@ I dated a Six. I had to constantly reassure her that I liked her, that we were t
 
 > "Why are you being rough with me? We like each other."
 
-It felt like being tested.
+That's the part where you're always proving yourself. A spot on the good list is never final. The tests are rarely overt. Usually it's just something weird. A Six mentions something stressful and watches who checks in later. They pull back a little to see who follows. They push on you, or argue the other side, to find out whether you hold steady or leave.
 
-That's the part where you're always proving yourself. The tests are rarely announced. Usually it's just something weird.
+The same person can be hyperdependent. She did everything I did. A Six second-guesses their own decisions, so once you're trusted, they lean on yours.
 
-She was also hyperdependent on me. She did everything I did.
-
-Nothing settles it, because the fear was never about one answer. A Six would rather find the betrayal early than be blindsided by it, so the checking continues and the reassurance wears off. The Type 6 guide shows [what the testing looks like](/enneagram-corner/enneagram-type-6#what-testing-actually-looks-like) from the inside.
+Nothing settles it, because the fear was never about one answer. A Six would rather find the betrayal early than be blindsided by it, so the checking continues and the reassurance wears off. Pushed far enough, the testing drives off the person it was meant to keep. The Type 6 guide shows [what the testing looks like](/enneagram-corner/enneagram-type-6#what-testing-actually-looks-like) from the inside.
 
 </article>
 
@@ -280,15 +284,15 @@ Nothing settles it, because the fear was never about one answer. A Six would rat
 
 The toxic trait is avoidance, and it's hardcore.
 
-They avoid the real issue, or flat-out ignore it. You say "we need to talk about money" and get a subject change or "let's not ruin tonight."
+It's usually as simple as this: there's a serious or tense moment, and it gets brushed over. The seriousness doesn't leave, though. It goes on the back burner. I think of it as emotional procrastination.
 
-They procrastinate on anything serious. The taxes, the doctor's appointment, the lease renewal: all of it is "later," and later has now lasted six months.
+It runs alongside the regular kind. The real issue gets avoided or flat-out ignored, anything serious gets put off, and negative feelings aren't allowed, yours included.
 
-And they avoid negative feelings, yours included. You say you're sad and there's a silver lining inside thirty seconds.
+Sometimes it builds. The baggage and the negativity pile up on that back burner until they overflow, and it all comes crashing down. I see that in Sevens sometimes.
 
-The other tell is the escape scenario. There's always a plan for somewhere else to be, and it tends to show up right when the conversation gets hard.
+The other early tell is the escape scenario: an exit kept open so nothing can trap them.
 
-The fear underneath is of getting stuck in something that hurts. A hard conversation, a boring form, and a sad evening all feel like the same locked room, so a Seven is out the door before it closes. Their partners end up asking the question from the Type 7 guide: ["Are you excited about this plan, or running from something?"](/enneagram-corner/enneagram-type-7#how-you-navigate-relationships)
+The fear underneath is of getting stuck in something that hurts. A hard conversation and a sad evening feel like the same locked room, so a Seven is out the door before it closes. Their partners end up asking the question from the Type 7 guide: ["Are you excited about this plan, or running from something?"](/enneagram-corner/enneagram-type-7#how-you-navigate-relationships)
 
 </article>
 
@@ -300,15 +304,15 @@ The fear underneath is of getting stuck in something that hurts. A hard conversa
 
 **Early warning sign:** You're having an emotional moment and they're detached from it. Zero reaction, maybe a flat "huh."
 
-An unhealthy Five can be extremely introverted and extremely uncaring. They do care. But at some level they can look at you like an insect.
+An unhealthy Five can be extremely introverted and extremely uncaring. They do care, but at some level they can look at you like an insect.
 
-You're crying about something that matters, and they're studying you through a microscope. "Wow, this person is emotional." You can tell they're having an out-of-body experience while you talk. It feels cold because, in that moment, it is. I do it myself sometimes, as an Eight.
+You're crying about something that matters, and they're studying you through a microscope. "Wow, this person is emotional." The detachment is visible. You can watch them draw into themselves and go somewhere else. It feels cold because, in that moment, it is. I do it myself sometimes, as an Eight.
 
 The introverted half is plain distance: a closed door and hours alone.
 
-Under it is a fear of engaging emotionally. People cost energy and feelings cost the most, so a Five watches when they could join, because watching is cheaper. Their whole life runs on that [scarcity economy](/enneagram-corner/enneagram-type-5#the-scarcity-economy).
+I don't know for sure what's under it. My guess is a fear of engaging emotionally. People cost energy and feelings cost the most, so a Five watches when they could join, because watching is cheaper. Their whole life runs on that [scarcity economy](/enneagram-corner/enneagram-type-5#the-scarcity-economy).
 
-The fix starts with saying it plainly:
+The fix starts with saying it plainly, later, once things are calm:
 
 > "When I break down emotionally, I need you to engage with me. Don't look at me like I'm an insect."
 
@@ -323,7 +327,11 @@ Start by understanding where it's coming from, then have a conversation about th
 3. Find the trigger. Work out what sets it off, and deal with it from there.
 4. Calm the emotion. Once you know which one it is, you can be more sensitive to it: calm the anger, calm the shame, calm the fear.
 
-Calming looks different for each. Anger wants it said out loud: "Are you angry with me?" Shame hears a complaint as a verdict on the whole person, so start with something they did right. Fear wants to know what's coming, so keep the ask small and specific: "Twenty minutes on the lease Thursday at four, then we're done."
+Calming looks different for each. Anger wants it said out loud. An Eight will tell you. A One will call it "frustrated" and a Nine will say nothing's wrong and mean it, so with those two, name what you saw: "You went quiet when I brought up the weekend." Shame hears a complaint as a verdict on the whole person, so start with something they did right. Fear wants to know what's coming, so keep the ask small and specific: "Twenty minutes on the lease Thursday at four, then we're done."
+
+What if they deny it? That's okay. People may not be ready to wrestle with their demons, and they'll come to it on their own timing. Don't press. Say "this is something I'm noticing" and leave it there. They may have been told before, tried to deal with it, and fallen back into it. Be gentle, and listen for the blockers: what has kept them from coming out the other side.
+
+None of this makes their defense your job. It shows you what a fair try looks like, so you know when you've made one.
 
 <div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
     <a href="/enneagram-corner/biggest-compliments-to-give-each-enneagram-type" class="blog-link" style="width: 100%;">
@@ -343,47 +351,26 @@ None of them, at least not by number. There's no reliable data showing that one 
 
 What research does show is that people cheat for specific reasons. When psychologist Dylan Selterman and colleagues surveyed 495 people about why they had cheated ([_Journal of Sex Research_, 2019](https://pubmed.ncbi.nlm.nih.gov/29244527/)), the answers sorted into eight motives: anger at a partner, feeling neglected, falling out of love, low commitment, wanting a self-esteem boost, wanting variety, sexual desire, and plain circumstance, like a night of drinking.
 
-A type number can't predict who strays. It can point to the fears that make some of those motives more tempting for some people, and show you what each one looks like long before anything happens. Four patterns connect those motives to the toxic patterns above.
+A type number can't predict who strays. It can point to which motive is more tempting for whom, and four of them line up with the patterns above.
 
-### Novelty: the relationship starts to feel like a cage
+- **Novelty.** Most often linked to Sevens, whose fear is being trapped, and to Fours when calm starts to eat at them. Watch for someone new being described the way they used to describe you.
+- **Image.** Threes are commonly described as the most exposed, because a fresh audience can feel like proof. Twos can get there when a partner stops noticing what they do. Watch the split: magnetic at the party, flat in the kitchen.
+- **Resentment.** Often described in Nines, Twos, and Ones. A grievance that never gets said can get acted out. Watch for months of "whatever you want is fine," then a private life you can't see into.
+- **Avoidance.** Fives retreat, Nines go numb, Sevens change the subject, and Eights wall off anything tender. When every hard talk gets dodged, the distance gets filled. Watch for every serious conversation moving to "later."
 
-Sevens are the type most often linked to this one. Their core fear is being trapped in pain or limitation, and most long relationships have stretches that feel exactly like that. Fours can get here through a different door: the calm that starts to eat at them, where a stranger starts to look like the missing piece.
+Any type can land in any of the four. If you've already found evidence of an affair, a couples therapist who works with infidelity is a better next step than a personality chart.
 
-Watch the energy. They describe someone they just met the way they used to describe you, and the relationship starts getting talked about like a lease they're waiting out.
+## The olive branch
 
-### Image: someone else's admiration starts to feel like proof
+This is something special I've noticed about how my wife and I recover from a fight or a toxic outburst.
 
-Threes are commonly described as the most exposed here. When worth runs on being admired, a fresh audience can feel like oxygen, especially if home has gone quiet. Twos can arrive at the same place through appreciation. When a partner stops noticing everything they do, the coworker who notices becomes dangerous.
+When I've gone silent, I'm mentally completely closed off. To come back, I have to reevaluate and remember my feelings for her, and tell myself that this is something hard we're going through and it won't last forever. I have to create some hope for the relationship. Then I reach out, and it feels like extending grace while I'm still shut down.
 
-Watch the split between public and private. They're magnetic at the party and flat in the kitchen.
+We call it extending an olive branch. A lot of the time it doesn't get well received. The effort is what counts, so we try again, and usually it gets accepted.
 
-### Resentment: the affair becomes the complaint they never said out loud
+It works both ways. Sometimes I extend one when she needs it, and sometimes she extends one when I need it. In hindsight we realize the moments where one was extended, and that has taught us to notice them.
 
-This pattern is often described in Nines, Twos, and Ones. Nines swallow anger to keep the peace. Twos keep a quiet ledger of everything they've given. Ones hold resentment under tight control until it finds a trapdoor. When a grievance never gets voiced, it can get acted out instead.
-
-Watch for months of "Whatever you want is fine," followed by a private life you suddenly can't see into. Silence about small things is the early version.
-
-### Avoidance: they leave emotionally before anyone leaves physically
-
-Fives retreat to protect their energy. Nines go numb. Sevens change the subject. Eights wall off anything tender. None of that is cheating. But when every hard conversation gets dodged, the distance gets filled, and sometimes it gets filled by someone who feels easier to talk to.
-
-Watch the postponements. Every serious talk gets pushed to "later," and you start hearing about their week from other people.
-
-### What to watch instead of the type number
-
-A Seven who loves novelty can be fiercely faithful, and the easygoing Nine can be the one with the second phone.
-
-The better question works for every type: what does this person do when the relationship stops giving them what they came for? Do they say so, or do they go get it somewhere else? Start with the [two questions at the end](#what-the-defense-is-telling-you).
-
-If you've already found evidence of an affair, a couples therapist who works with infidelity is a better next step than a personality chart.
-
-## What the defense is telling you
-
-Every trait on this page is an alarm going off in someone else's body. Anger that got used, swallowed, or slept through. Shame and fear, handled the same three ways.
-
-Knowing that won't make the nitpicking pleasant or the silence shorter. What it gives you is a better question than "what's wrong with them?" Ask what they're protecting, and whether they'll look at it with you. A yes and a no both tell you what to do next.
-
-Two questions get you there faster. Both are live on 9takes, where you answer first and then see what everyone else said: ["How do you typically handle disagreements with close friends or family?"](/questions/typically-handle-disagreements-close-friends-family) and ["What are you afraid to tell your partner?"](/questions/what-are-you-afraid-to-tell-to-your-partner)
+Two questions to start that conversation, both live on 9takes, where you answer first and then see what everyone else said: ["How do you typically handle disagreements with close friends or family?"](/questions/typically-handle-disagreements-close-friends-family) and ["What are you afraid to tell your partner?"](/questions/what-are-you-afraid-to-tell-to-your-partner)
 
 If the pattern you recognized was your own, start with [what to do if you saw yourself in here](/enneagram-corner/toxic-traits-of-each-enneagram-type#what-to-do-if-you-saw-yourself-in-here). Early in dating, see [red flags by type](/enneagram-corner/red-flags-dating-each-enneagram-type). For the talk itself, see [how each type communicates](/enneagram-corner/relationship-communication-guide).
 

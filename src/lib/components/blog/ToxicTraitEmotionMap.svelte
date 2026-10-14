@@ -51,9 +51,9 @@
 			youGet: 'In debt for help you never asked for'
 		},
 		3: {
-			anchor: 'type-3-the-image',
-			trait: 'Image first',
-			youGet: 'Part of the picture, second to it'
+			anchor: 'type-3-the-mask',
+			trait: 'The mask',
+			youGet: 'The least of their attention'
 		},
 		6: {
 			anchor: 'type-6-the-loyalty-test',
