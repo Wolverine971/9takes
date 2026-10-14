@@ -12,7 +12,6 @@ export type TurnstileOptions = {
 };
 
 export type TurnstileApi = {
-	ready: (callback: () => void) => void;
 	render: (container: HTMLElement, options: TurnstileOptions) => string | undefined;
 	reset: (widgetId: string) => void;
 	remove: (widgetId: string) => void;
@@ -49,17 +48,13 @@ export function loadTurnstile(): Promise<TurnstileApi> {
 
 		function ready() {
 			const api = getApi();
-			if (!api) return fail();
-			try {
-				api.ready(() => {
-					if (settled) return;
-					settled = true;
-					cleanup();
-					resolve(api);
-				});
-			} catch {
-				fail();
-			}
+			if (!api || typeof api.render !== 'function') return fail();
+			if (settled) return;
+			// The script's load event guarantees that the explicit-rendering API is
+			// available. turnstile.ready() rejects async/defer script loading.
+			settled = true;
+			cleanup();
+			resolve(api);
 		}
 
 		if (getApi()) {

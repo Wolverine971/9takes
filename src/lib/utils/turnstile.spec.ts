@@ -13,7 +13,7 @@ describe('loadTurnstile', () => {
 		vi.useRealTimers();
 	});
 
-	it('shares one explicit-rendering script and waits for the API to be ready', async () => {
+	it('shares one async script and resolves after load without calling the sync-only ready API', async () => {
 		const { loadTurnstile } = await import('./turnstile');
 		const first = loadTurnstile();
 		expect(loadTurnstile()).toBe(first);
@@ -21,11 +21,16 @@ describe('loadTurnstile', () => {
 		expect(script.src).toBe(
 			'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'
 		);
-		const api = { ready: vi.fn((callback: () => void) => callback()) };
+		const api = {
+			render: vi.fn(),
+			ready: vi.fn(() => {
+				throw new Error('Remove async/defer before calling turnstile.ready()');
+			})
+		};
 		vi.stubGlobal('turnstile', api);
 		script.dispatchEvent(new Event('load'));
 		await expect(first).resolves.toBe(api);
-		expect(api.ready).toHaveBeenCalledOnce();
+		expect(api.ready).not.toHaveBeenCalled();
 		expect(vi.getTimerCount()).toBe(0);
 	});
 
@@ -39,7 +44,7 @@ describe('loadTurnstile', () => {
 		const retry = loadTurnstile();
 		const nextScript = document.getElementById('9takes-turnstile')!;
 		expect(nextScript).not.toBe(failedScript);
-		const api = { ready: (callback: () => void) => callback() };
+		const api = { render: vi.fn() };
 		vi.stubGlobal('turnstile', api);
 		nextScript.dispatchEvent(new Event('load'));
 		await expect(retry).resolves.toBe(api);
