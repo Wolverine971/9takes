@@ -5,34 +5,58 @@
 import type { RequestHandler } from './$types';
 import { json } from '@sveltejs/kit';
 import { z } from 'zod';
-import { personSuggestionEmail } from '../../../emails';
-import { sendEmail as sendManagedEmail } from '$lib/email/sender';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { consumeApiRateLimit } from '$lib/server/apiRateLimit';
+import { verifyPersonSuggestionToken } from '$lib/server/personSuggestionVerification';
 import { emailSubmissionSchema } from '$lib/validation/schemas';
 import { logger } from '$lib/utils/logger';
 
 async function readBody(request: Request): Promise<Record<string, unknown>> {
 	const contentType = request.headers.get('content-type') || '';
 	if (contentType.includes('application/json')) {
-		return ((await request.json().catch(() => ({}))) as Record<string, unknown>) || {};
+		const body: unknown = await request.json();
+		if (!body || typeof body !== 'object' || Array.isArray(body)) throw new Error('Invalid body');
+		return body as Record<string, unknown>;
 	}
 	const form = await request.formData();
 	return Object.fromEntries(form);
 }
 
 export const POST: RequestHandler = async ({ request, getClientAddress }) => {
-	const db = getSupabaseAdminClient() as any;
+	let body: Record<string, unknown>;
+	try {
+		body = await readBody(request);
+	} catch {
+		return json(
+			{ ok: false, code: 'invalid_input', message: 'Invalid input data' },
+			{ status: 400 }
+		);
+	}
+	if (typeof body.form_extra === 'string' && body.form_extra.trim()) {
+		return json({ ok: true });
+	}
+	// Old clients and direct bot posts must not reach the database or send email.
+	const token = body['cf-turnstile-response'];
+	if (typeof token !== 'string' || !token.trim() || token.length > 2048) {
+		return json(
+			{
+				ok: false,
+				code: 'verification_failed',
+				message: 'Please complete the verification and try again.'
+			},
+			{ status: 400 }
+		);
+	}
+	const clientAddress = getClientAddress();
 	const rate = await consumeApiRateLimit({
 		bucket: 'person_suggestion',
-		subject: `ip:${getClientAddress()}`
+		subject: `ip:${clientAddress}`
 	});
 	if (!rate.allowed)
 		return json(
 			{ ok: false, code: 'rate_limited', message: 'Please try again later.' },
 			{ status: 429, headers: { 'Retry-After': String(rate.retryAfterSeconds) } }
 		);
-	const body = await readBody(request);
 
 	let validatedData;
 	try {
@@ -50,6 +74,21 @@ export const POST: RequestHandler = async ({ request, getClientAddress }) => {
 
 	const { email, suggestedPerson } = validatedData;
 	const normalizedEmail = email.toLowerCase().trim();
+	const verification = await verifyPersonSuggestionToken(token, clientAddress);
+	if (verification !== 'verified') {
+		return json(
+			{
+				ok: false,
+				code: verification === 'unavailable' ? 'unavailable' : 'verification_failed',
+				message:
+					verification === 'unavailable'
+						? 'Verification is temporarily unavailable. Please try again.'
+						: 'Please complete the verification and try again.'
+			},
+			{ status: verification === 'unavailable' ? 503 : 400 }
+		);
+	}
+	const db = getSupabaseAdminClient() as any;
 
 	// Server-side rate limiting: max 3 suggestions per email per 24 hours
 	const twentyFourHoursAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
@@ -75,7 +114,7 @@ export const POST: RequestHandler = async ({ request, getClientAddress }) => {
 
 	const { error: insertError } = await db
 		.from('person_suggestions')
-		.insert([{ email: normalizedEmail, person_name: suggestedPerson }]);
+		.insert([{ email: normalizedEmail, person_name: suggestedPerson.trim() }]);
 
 	if (insertError) {
 		logger.error('Failed to insert person suggestion', insertError, {
@@ -88,21 +127,7 @@ export const POST: RequestHandler = async ({ request, getClientAddress }) => {
 		);
 	}
 
-	try {
-		const result = await sendManagedEmail({
-			to: email,
-			subject: `Thanks for suggesting ${suggestedPerson}`,
-			htmlContent: personSuggestionEmail(),
-			includeFooter: false
-		});
-		if (!result.success) {
-			throw new Error(result.error || 'Failed to send confirmation email');
-		}
-		logger.info('Person suggestion submitted', { email, suggestedPerson });
-	} catch (e) {
-		logger.error('Error sending confirmation email', e as Error, { email });
-		// Still report success - suggestion was saved
-	}
-
+	// The on-page receipt is enough. Never email an unverified, caller-supplied
+	// address: bots used this form to send unsolicited confirmations and bounces.
 	return json({ ok: true });
 };

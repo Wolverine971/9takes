@@ -94,6 +94,7 @@ const config = {
 					'https://www.googletagmanager.com',
 					'https://www.google.com/recaptcha/',
 					'https://www.gstatic.com/recaptcha/',
+					'https://challenges.cloudflare.com',
 					'https://us-assets.i.posthog.com',
 					'https://api.mapbox.com',
 					'https://cdn.ampproject.org',
@@ -119,6 +120,7 @@ const config = {
 				],
 				'frame-src': [
 					'self',
+					'https://challenges.cloudflare.com',
 					'https://www.google.com',
 					'https://www.youtube.com',
 					'https://www.youtube-nocookie.com',

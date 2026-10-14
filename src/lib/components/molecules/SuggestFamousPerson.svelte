@@ -2,7 +2,9 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
+	import { env } from '$env/dynamic/public';
 	import { Button } from '$lib/components/atoms';
+	import { loadTurnstile, type TurnstileApi } from '$lib/utils/turnstile';
 	import { notifications } from './notifications';
 
 	type SuggestionResponse = { ok: boolean; code?: string; message?: string };
@@ -11,13 +13,23 @@
 	const MAX_SUGGESTIONS = 3;
 	const TIME_WINDOW_MS = 24 * 60 * 60 * 1000; // 24 hours
 
-	let email = '';
-	let otherPerson = '';
-	let error = '';
-	let errorField: 'person' | 'email' | 'form' | null = null;
-	let status = '';
-	let loading = false;
-	let remainingSuggestions = MAX_SUGGESTIONS;
+	let email = $state('');
+	let otherPerson = $state('');
+	let error = $state('');
+	let errorField = $state<'person' | 'email' | 'form' | null>(null);
+	let status = $state('');
+	let loading = $state(false);
+	let remainingSuggestions = $state(MAX_SUGGESTIONS);
+	let form: HTMLFormElement;
+	let verificationContainer: HTMLDivElement;
+	let verificationToken = $state('');
+	let verificationError = $state('');
+	let verificationLoading = $state(false);
+	let verificationStarted = $state(false);
+	let formExtra = $state('');
+	let turnstile: TurnstileApi | undefined;
+	let widgetId: string | undefined;
+	let destroyed = false;
 	const personInputId = 'famous-person-suggestion';
 	const emailInputId = 'famous-person-suggestion-email';
 	const errorId = 'famous-person-suggestion-error';
@@ -25,20 +37,29 @@
 
 	// Stricter email validation - matches common email patterns
 	const EMAIL_REGEX = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-	$: isEmailValid = EMAIL_REGEX.test(email.trim());
+	const isEmailValid = $derived(EMAIL_REGEX.test(email.trim()));
 	// Person name validation - letters, spaces, hyphens, apostrophes only
-	$: isPersonValid = otherPerson.trim().length >= 2 && /^[a-zA-Z\s\-']+$/.test(otherPerson.trim());
-	$: canSubmit =
+	const isPersonValid = $derived(
+		otherPerson.trim().length >= 2 && /^[a-zA-Z\s\-']+$/.test(otherPerson.trim())
+	);
+	const canSubmit = $derived(
 		email.trim().length > 0 &&
-		otherPerson.trim().length > 0 &&
-		remainingSuggestions > 0 &&
-		!loading;
+			otherPerson.trim().length > 0 &&
+			verificationToken.length > 0 &&
+			remainingSuggestions > 0 &&
+			!loading
+	);
 
 	function getStoredSuggestions(): number[] {
 		if (!browser) return [];
 		try {
 			const stored = localStorage.getItem(STORAGE_KEY);
-			return stored ? JSON.parse(stored) : [];
+			const timestamps: unknown = stored ? JSON.parse(stored) : [];
+			return Array.isArray(timestamps)
+				? timestamps.filter(
+						(timestamp) => typeof timestamp === 'number' && Number.isFinite(timestamp)
+					)
+				: [];
 		} catch {
 			return [];
 		}
@@ -52,7 +73,6 @@
 	function updateRemainingSuggestions() {
 		if (!browser) return;
 		const timestamps = cleanExpiredSuggestions(getStoredSuggestions());
-		localStorage.setItem(STORAGE_KEY, JSON.stringify(timestamps));
 		remainingSuggestions = Math.max(0, MAX_SUGGESTIONS - timestamps.length);
 	}
 
@@ -60,15 +80,100 @@
 		if (!browser) return;
 		const timestamps = cleanExpiredSuggestions(getStoredSuggestions());
 		timestamps.push(Date.now());
-		localStorage.setItem(STORAGE_KEY, JSON.stringify(timestamps));
-		updateRemainingSuggestions();
+		remainingSuggestions = Math.max(0, MAX_SUGGESTIONS - timestamps.length);
+		try {
+			localStorage.setItem(STORAGE_KEY, JSON.stringify(timestamps));
+		} catch {
+			// The server enforces limits even when browser storage is unavailable.
+		}
+	}
+
+	async function startVerification() {
+		if (destroyed || verificationStarted) return;
+		verificationStarted = true;
+		verificationLoading = true;
+		verificationError = '';
+
+		try {
+			if (!env.PUBLIC_TURNSTILE_SITE_KEY) throw new Error('Verification is not configured.');
+			turnstile = await loadTurnstile();
+			if (destroyed) return;
+			widgetId = turnstile.render(verificationContainer, {
+				sitekey: env.PUBLIC_TURNSTILE_SITE_KEY,
+				action: 'person_suggestion',
+				theme: 'auto',
+				// Flexible widgets need 300px; narrow mobile cards use the compact layout.
+				size: verificationContainer.clientWidth < 300 ? 'compact' : 'flexible',
+				'response-field': false,
+				callback: (token) => {
+					if (destroyed) return;
+					verificationToken = token;
+					verificationError = '';
+				},
+				'expired-callback': () => {
+					if (destroyed) return;
+					verificationToken = '';
+					verificationError = 'Verification expired. Please verify again.';
+				},
+				'error-callback': () => {
+					if (destroyed) return;
+					verificationToken = '';
+					verificationError = 'Verification could not be completed. Please retry.';
+				},
+				'timeout-callback': () => {
+					if (destroyed) return;
+					verificationToken = '';
+					verificationError = 'Verification timed out. Please retry.';
+				}
+			});
+			if (widgetId === undefined) throw new Error('Verification could not start.');
+		} catch {
+			if (!destroyed) {
+				verificationError = 'Verification could not load. Check your connection and retry.';
+			}
+		} finally {
+			if (!destroyed) verificationLoading = false;
+		}
+	}
+
+	function resetVerification() {
+		verificationToken = '';
+		if (destroyed) return;
+		verificationError = '';
+		if (turnstile && widgetId !== undefined) {
+			try {
+				turnstile.reset(widgetId);
+			} catch {
+				verificationError = 'Verification could not restart. Please reload this page.';
+			}
+		} else {
+			verificationStarted = false;
+			void startVerification();
+		}
 	}
 
 	onMount(() => {
 		updateRemainingSuggestions();
+		const observer =
+			typeof IntersectionObserver === 'undefined'
+				? undefined
+				: new IntersectionObserver((entries) => {
+						if (entries.some((entry) => entry.isIntersecting)) {
+							observer?.disconnect();
+							void startVerification();
+						}
+					});
+		observer?.observe(form);
+
+		return () => {
+			destroyed = true;
+			observer?.disconnect();
+			if (widgetId !== undefined) turnstile?.remove(widgetId);
+		};
 	});
 
 	async function submit() {
+		if (loading) return;
 		// Client-side validation
 		if (!isEmailValid) {
 			error = 'Please enter a valid email address';
@@ -96,6 +201,12 @@
 			return;
 		}
 
+		if (!verificationToken) {
+			verificationError = 'Please complete the verification before submitting.';
+			void startVerification();
+			return;
+		}
+
 		error = '';
 		errorField = null;
 		status = '';
@@ -104,6 +215,9 @@
 		const body = new FormData();
 		body.append('email', email.trim().toLowerCase());
 		body.append('suggestedPerson', otherPerson.trim());
+		body.append('cf-turnstile-response', verificationToken);
+		body.append('form_extra', formExtra);
+		verificationToken = '';
 
 		try {
 			const resp = await fetch('/api/person-suggestions', { method: 'POST', body });
@@ -112,8 +226,8 @@
 			if (data.ok) {
 				const suggestedName = otherPerson.trim();
 				recordSuggestion();
-				status = `Thanks for suggesting ${suggestedName}.`;
-				notifications.success(`Thanks for suggesting ${suggestedName}! 🎉`, 4000);
+				status = `Your suggestion for ${suggestedName} has been saved.`;
+				notifications.success(status, 4000);
 				email = '';
 				otherPerson = '';
 			} else if (data.code === 'rate_limited') {
@@ -133,6 +247,7 @@
 			notifications.danger('An error occurred. Please try again.', 3000);
 		} finally {
 			loading = false;
+			resetVerification();
 		}
 	}
 </script>
@@ -141,8 +256,13 @@
 	<h2>Who else should 9takes write about?</h2>
 
 	<form
+		bind:this={form}
 		class="waitlist-form"
-		on:submit|preventDefault={submit}
+		onsubmit={(event) => {
+			event.preventDefault();
+			void submit();
+		}}
+		onfocusin={() => void startVerification()}
 		aria-label="Suggest a person for 9takes"
 		aria-busy={loading}
 		novalidate
@@ -155,7 +275,8 @@
 				name="person"
 				placeholder="Celebrity, musician, politician, YouTuber, etc."
 				bind:value={otherPerson}
-				on:input={() => {
+				maxlength="100"
+				oninput={() => {
 					if (errorField === 'person') {
 						error = '';
 						errorField = null;
@@ -177,7 +298,8 @@
 				name="email"
 				placeholder="you@example.com"
 				bind:value={email}
-				on:input={() => {
+				maxlength="254"
+				oninput={() => {
 					if (errorField === 'email') {
 						error = '';
 						errorField = null;
@@ -190,6 +312,32 @@
 				aria-invalid={errorField === 'email' ? 'true' : 'false'}
 				aria-describedby={errorField === 'email' ? errorId : undefined}
 			/>
+		</div>
+
+		<div class="form-extra" aria-hidden="true">
+			<label for="famous-person-suggestion-extra">Leave this field empty</label>
+			<input
+				id="famous-person-suggestion-extra"
+				name="form_extra"
+				type="text"
+				bind:value={formExtra}
+				tabindex="-1"
+				autocomplete="off"
+			/>
+		</div>
+
+		<div class="verification" hidden={!verificationStarted}>
+			<div bind:this={verificationContainer}></div>
+			{#if verificationError}
+				<p class="error" role="alert">{verificationError}</p>
+				<Button type="button" size="sm" onclick={resetVerification} disabled={loading}>
+					Retry verification
+				</Button>
+			{:else if verificationStarted && !verificationToken}
+				<p class="verification-status" role="status">
+					{verificationLoading ? 'Loading verification…' : 'Complete the verification to submit.'}
+				</p>
+			{/if}
 		</div>
 
 		<Button type="submit" size="lg" class="suggest-submit" disabled={!canSubmit} {loading}>
@@ -274,6 +422,24 @@
 
 	:global(.suggest-submit) {
 		width: 100%;
+	}
+
+	.form-extra {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		clip-path: inset(50%);
+	}
+
+	.verification {
+		width: 100%;
+		max-width: 400px;
+	}
+
+	.verification-status {
+		font-size: 0.875rem;
+		color: var(--ink-dim);
 	}
 
 	.error,
