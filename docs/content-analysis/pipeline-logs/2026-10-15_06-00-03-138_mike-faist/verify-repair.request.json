@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "mike-faist",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/candidate-repair.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/evidence-repair.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/resolution-repair.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/checks-repair.json"
+  },
+  "outputs": {
+    "verification-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/verification-repair.json"
+  },
+  "content_sha256": "5fe01757f3129c3ba0c2380b90ffbb649ddda0f24114425964d512405f85db8e",
+  "evidence_sha256": "7463f6e478187c8a28ba3c01c0511669f4f8d885f4de6ccc7da49335fa6e8481"
+}

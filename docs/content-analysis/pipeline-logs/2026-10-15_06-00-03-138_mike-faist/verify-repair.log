@@ -1,0 +1,35 @@
+The Mike Faist profile **doesn't clear the release bar**. It scored 8.4 overall against the 8.5 gate, so the pipeline will hold it. I wrote `verification-repair.json` and changed nothing else.
+
+**The facts are clean.**
+- I reopened all 33 sources the claims use.
+- All 103 quoted fragments match the live pages word for word, and the context holds.
+- For the videos, I re-transcribed the quoted clips from the audio myself with a different model, and they match.
+- All 95 claims are supported; two are only slightly stretched.
+- I agree with all 53 of the editor's decisions, including the one rejection.
+- All 19 passages the reviewers marked as strong are still there or were improved.
+- The earlier problems are fixed: the timeline, the two separate rounds of turned-down offers, and the reasons he gave for his break.
+
+**Why it falls short (scores out of 10):**
+
+| Area | Score |
+|---|---|
+| Evidence | 8.5 |
+| Enneagram case | 8 |
+| Originality | 8.5 |
+| Writing | 8 |
+| Durability | 9 |
+| Hook | 9 |
+| Search/metadata | 8.5 |
+
+- **Enneagram (8):** the case for Type 4 over Type 6 is honest and specific. But the piece itself admits Type 4 and Type 9 aren't separated yet. One of its two main arguments also rests on a single 2021 interview, given while his father was ill.
+- **Writing (8):** the "Two years out of view" section strings together about 11 short quotes in two paragraphs. The same few quotes then come back in the Type 6 and Type 9 sections. A phrase there, "Of these episodes," points to a list that never appears.
+
+**Four small fixes, none of them blocking:**
+1. "Since at least 2017 he has said…" overstates what he said in 2017. He said it outright only in 2026.
+2. The "doomed to do this" quote is him remembering what he thought as a teenager, but it's presented as a 2026 statement.
+3. One quote prints "'cause" where two of three transcripts hear "because."
+4. The quote-heavy pacing described above.
+
+I marked the verification "revise" rather than "pass" because the stage instructions say fixable wording problems mean revise. Either way it holds: this was the one allowed repair round. Fixing the pacing and the three wording points would likely lift the writing score. Whether that's enough to reach 8.5 would need a new run.
+
+One disclosure: when I first listed the run folder, I saw the previous verifier's scores (8.3) before I scored. I scored from the article and noted a specific passage for every score, but you should know I saw that number.

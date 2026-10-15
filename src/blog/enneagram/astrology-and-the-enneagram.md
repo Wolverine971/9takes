@@ -198,7 +198,7 @@ The real value comes from layering these systems. Your sun sign, moon sign, and 
 
 Your moon sign modifies your Enneagram type's emotional expression the way your wing modifies your core behavior. A Type 8 with a Cancer moon still leads with power, but they feel protective tenderness underneath that others rarely see. A Type 3 with a Scorpio moon wants admiration from people they respect and can see through flattery instantly.
 
-Your rising sign is the first impression of your type. A Type 5 with Leo rising appears warm and charismatic in social situations, which surprises people who later discover the 5's deep need for solitude. A Type 2 with Capricorn rising comes across as reserved and professional before the warmth emerges.
+Your rising sign is [the first impression of your type](/enneagram-corner/first-impression-enneagram-playbook). A Type 5 with Leo rising appears warm and charismatic in social situations, which surprises people who later discover the 5's deep need for solitude. A Type 2 with Capricorn rising comes across as reserved and professional before the warmth emerges.
 
 Here's how these layers play out in practice:
 

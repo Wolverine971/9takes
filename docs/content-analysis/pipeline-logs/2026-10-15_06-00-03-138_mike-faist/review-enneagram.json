@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "9edd7257f98ee24cc5af89db885caea2ac059392d31d42316edcb2b70614d346",
+  "evidence_sha256": "b5d6733f12f988e152896a829b71c5bd34a19acd276a3ef2c5a915bd77555546",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Those are fears of being found wanting and of being seen, the heart triad's shame. A Six's anxiety more often fixes on safety, backing, or whether people can be trusted.",
+      "problem": "The Four-over-Six argument turns doubt about his own skill into heart-triad shame. \"Why did they hire me?\", \"I'm not good enough. I had no business being in that room\", \"I keep fooling everyone\" (said about his singing) and \"Maybe I'll be good one day\" are all doubts about whether he can do the job. Self-doubt about ability is a core Six pattern, and Threes and Nines show it too. The evidence record says as much: C15 \"fits Four deficiency, Six self-doubt and Nine self-effacement alike.\" In the BAFTA transcript (S19, 04:27), the sentence the draft quotes begins: \"I'm always like, oh my God, what did I sign myself up for? I can't do this. Why did they hire me? What are we thinking? What are we doing here?\" That is a Six's worst-case worry about a commitment already made, so it counts for the Six, not against it. Defining the Six's anxiety as being about \"safety, backing, or whether people can be trusted\" shrinks the type so that the Four wins by default. The type answer (\"The fears he names most often are not being good enough and being seen as himself\") and the Type 6 FAQ (\"his fears are about being good enough and being seen\") make the same move.",
+      "acceptance_test": "The Why-not-6 section, the type answer and the Type 6 FAQ stop counting doubts about his skill (\"good enough\", \"Why did they hire me?\", \"fooling everyone\") as evidence for Four over Six, or they say plainly that a Six shows the same doubt. The shame argument rests on evidence about exposure and identity that the Six reading predicts less well: MTV 2017 \"meet who I actually am\"; Interview 2017 \"actually seen\"; the Ben Platt shame report; GQ 2026 \"It's the public gaze ... you could kind of be whoever you wanted to be\"; Anderson \"I'm embarrassed to do this interview\" (noting that Anderson says he gets embarrassed too). The article describes a Six that includes self-doubt and worst-case worry, and explains why the Four still leads against that fuller Six."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "In none of the decisions on record does he describe weighing security. He gives it away. Under overload he moves off, usually alone or with the dog, more than toward allies or structure.",
+      "problem": "The record contradicts both halves of the behavioural discriminator. (a) He does describe weighing safety before saying yes. Cultured, September 21, 2026 (S07; I reopened the live page on 2026-10-15): \"There's a feeling of dread, a real dread ... The other tiny voice inside of you goes, Oh, don't do that. Don't jump into the volcano. Stay up here where it's safe. But, that's the thrill of what we get to do.\" Overriding that voice fits a counterphobic Six as readily as a Four. (b) He did not move off alone. The 2021 step back was toward his family (NYT 2021: \"I'm going to hang out with my family in Ohio and then start to figure out where I'm going to go\"), toward a house he renovated with his father, and toward high-school friends (Another Man 2024: his roommate Dan, a friend since 16; Alex's restaurant; Garet and Kaine). Pulling back from the Hollywood machine to a trusted home base is exactly what a phobic Six would do, and the draft's own Six section lists \"the family he moved home to help.\" (c) The two years without a new production were partly not his choice. Sgt. Rock, a DC Comics studio film he was attached to, collapsed in prep (C35). Taking that film also sits awkwardly with his 2021 refusal to \"put on a cape and wear a mask.\" Line 246's \"a New York apartment\" has the same problem: he sold it and bought a house in Columbus near his family.",
+      "acceptance_test": "The absolute claim \"In none of the decisions on record ...\" is cut or replaced with a sourced, bounded claim. If the editor wants a moment where he chose meaning over security, the strongest one on record is the NYT 2021 answer \"Having gone from having no money, wanting to just be a working actor — I don't want to just be a working actor anymore.\" There he names the security goal and sets it aside. Quote it in context. The \"moves off ... alone\" claim is either dropped or squared with the move home to family and old friends, and the article admits a Six would also retreat there. The 2024-26 gap is not used as evidence that he chose to give something up unless the Sgt. Rock collapse is noted at that point. The \"Stay up here where it's safe\" line appears in the Six case, with an explanation of why the Four still leads."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "The reasons he gave sat inside him: \"coming from me,\" \"right for me,\" \"feel what is right for me.\" That is the Four's trade.",
+      "problem": "\"Feel what is right for me\" is clipped from an answer about being overwhelmed and tuning out, not about trading security for authenticity. The full Cultured answer (S07, confirmed on the live page) goes on: \"Yes, maybe there was an aspect of trying to tune everything out and, looking back, it was two years [without acting]. Maybe there was an aspect of me just trying to say, I'm going to pull back from all of this, and allow things to be quiet. The truth is that Challengers was a lot. It was very overwhelming ... the dust had to settle a little bit ... Oftentimes, I've said that I don't really know how much control I actually have over any of this.\" \"Tune everything out\" is the very Nine signal the standard uses in its own example (\"tuning it all out (9)\"). Line 278 then cites the same answer for the Nine, so one quote is counted for two rival types. The GQ version of his explanation (\"needing to recalibrate ... so much noise ... I'm not necessarily a marathon runner ... It's the public gaze\") points to fame and exposure. That fits Four, Five, Nine and phobic Six alike.",
+      "acceptance_test": "Line 246 stops citing \"feel what is right for me\" as distinctively Four, or it quotes enough of the answer to show the overwhelm and tuning out and says this fits the Nine at least as well. The 2024-26 episode is presented as neutral between Four and Nine, or as leaning Nine, unless a separate sourced Four signal is given. No quotation counts as evidence for two rival types unless the article says so."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "A Nine tends to turn strong feeling down. Faist moves toward it, and he refuses firmly instead of drifting, as Kushner's calls and _Anna Christie_ show.",
+      "problem": "The case against the Nine rests on a stereotype, and its evidence doesn't show what it is cited for. Nines numb their own priorities and anger, but many are sentimental and cry easily. The support offered is a joking tennis remark and tears over his parents weeks after his father died, which C31's own alternative says grief explains. \"Refuses firmly instead of drifting\" cites Kushner, who says \"he was very nice about it,\" and Anna Christie, whose reason the draft itself says is unknown, so neither can show firmness. A quiet withdrawal with no explanation is the classic Nine way of saying no. Meanwhile the Nine evidence is stronger than two paragraphs allow: the vessel (\"I'm not me right now\"), \"tune everything out,\" \"allow things to be quiet,\" \"I'm not necessarily a marathon runner,\" his modesty, and an almost complete absence of conflict in the record (C88), which the draft reads only as a missing Four/Six test. The draft says the vessel question \"is where the Four and Nine readings part, and he has never settled it.\" So it concedes it has no Four/Nine discriminator, yet the type answer calls the Nine merely \"also in play.\"",
+      "acceptance_test": "Anna Christie and Kushner's calls are no longer cited as evidence of firm refusal, or Kushner's \"he was very nice about it\" is quoted and the inference limited. The Nine section names one sourced Four-vs-Nine discriminator specific to Faist, or it says plainly that Four and Nine are not yet separated. One candidate is GQ 2026, where fame cost him the freedom to \"be whoever you wanted to be\" and to be \"even more honest\" with strangers: a loss of identity and image (heart triad), not of peace. The type answer and type FAQ then match: either the Nine is named as a close alternative, or the discriminator that demotes it is cited."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "The Six case still explains some things better: the anxiety before every job, the reliance on trusted leaders, the instinct to build a community.",
+      "problem": "The similarity advisory tripped only on a disclaimer sentence (\"public record\", \"at medium confidence\"). That is ordinary vocabulary and not a finding on its own. Comparing the arguments directly does show real reuse: the site's pages on anxious actors make the same Four-over-Six move. Jeremy Allen White: \"Type 6 explains his anxiety, preparation, and loyalty to ensembles. It is less convincing as the core pattern because his public language centers authenticity and self-recognition more than safety, trust, or certainty.\" Dakota Johnson: a Six is \"organized around security,\" and the test is \"what she defends.\" Faist: the Six explains \"the anxiety before every job, the reliance on trusted leaders, the instinct to build a community,\" and the Four leads because his reasons are \"coming from me,\" \"right for me.\" The evidence record itself warns that \"from love\", \"authentic\" and \"deeper than a job\" are \"the house vocabulary of prestige-indie actors and junkets.\" A discriminator built on how an actor talks about the work will type almost every anxious prestige actor as a Four. The decisive scene the draft proposes doesn't separate the types either: \"A Four would withdraw,\" but phobic Sixes and Nines withdraw too.",
+      "acceptance_test": "The Why-not-6 section rests on at least one dated behavioural contrast, specific to Faist, where a Four and a Six would act differently, and that contrast would not transfer word for word to the Jeremy Allen White or Dakota Johnson pages. Candidates: Kushner's independent account that Faist turned parts down for reasons that \"had nothing to do with size of the role\"; leaving Dear Evan Hansen once it had become \"the job of it,\" set against a Six's preference for a secure hit. The settle signal is rewritten so the two types predict visibly different behaviour, not withdrawal versus wariness. One option, from research task f: when a secure, prestigious offer also feels right, does he still test it and look for backing (Six), or commit at once (Four)?"
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "And the test he put to Kazan's offer was about himself. He needed \"to know that this is right for me.\"",
+      "problem": "The same decision is a source for the Six case. In PBS (S03), his own account of saying yes to Kazan credits her clarity: \"she had a really specific point of view ... That helps any sort of anxieties because it's like, well, someone's steering the ship.\" The draft quotes that line in the Six section, then cites the same decision in the Four section as a test \"about himself.\" Kazan's memory supports one reading and his own account supports the other, so the decision doesn't settle the question.",
+      "acceptance_test": "Wherever the Kazan test is used for the Four, the article notes that his own account of the same yes credits a leader's clear vision for easing his anxiety. Otherwise the passage stops presenting the decision as evidence for the Four."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "In 2021 he told the Times, \"I don't care enough.\"",
+      "problem": "In context, the 2021 line is not a swing in how he feels about acting. NYT 2021 (S04): \"Having gone from having no money, wanting to just be a working actor — I don't want to just be a working actor anymore ... what, I just want to be an actor? That's ridiculous. [Laughs.] I don't care enough.\" He means he doesn't care enough about being merely a working actor after West Side Story. That fits \"I'm doomed to do this\" rather than contradicting it. Filing it as an anomaly also wastes what may be the record's most Four-specific statement: after a transcendent experience, the ordinary version of the work became intolerable to him.",
+      "acceptance_test": "\"I don't care enough\" comes off the \"won't hold still\" list, or it is quoted with enough context to show what he didn't care enough about. The line \"I can't tell if I hate acting or if I love it too much\" can carry that paragraph instead. Optionally, the full answer moves into the Four case."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "The Four reading predicts one thing about Faist that his record keeps confirming. He shows himself most fully as someone else.",
+      "problem": "\"Predicts\" claims a power to tell the types apart that the argument hasn't earned. Feeling safer as a character than as oneself is predicted at least as well by the Five (privacy), the Nine (self-forgetting, the vessel) and the phobic Six (exposure as threat). A Four's core desire is to be seen as one's authentic self, so on its face the Four reading predicts tension with this habit, not the habit itself. The draft gives the Four-specific mechanism earlier (embarrassment at being himself in front of people, self-expression through a role) but never ties it to the conclusion.",
+      "acceptance_test": "The closing says the pattern is consistent with the Four reading and names the Four-specific mechanism (for example, being seen through a role while the plain self feels inadequate or exposed). Otherwise it drops \"predicts\" and \"keeps confirming.\""
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "In 2021 he could not decide whether that state was losing himself or finding himself. That question is where the Four and Nine readings part, and he has never settled it.",
+      "reason": "It leaves the record's real hinge open instead of forcing it. It is the most honest piece of type reasoning in the draft, and it should survive whatever the editor does to the Nine section."
+    },
+    {
+      "passage": "The motive is Kushner's reading. The scrubbing is something he watched.",
+      "reason": "A model of separating observation from inference about motive, done in two short sentences inside the story."
+    },
+    {
+      "passage": "That spring he described Evan and Connor to Interview, and the sentence drifted from the characters into the first person",
+      "reason": "A distinctive observation that can be checked in the text (the switch from \"they\" to \"we\"). It shows the theme of being seen without claiming a confession."
+    },
+    {
+      "passage": "The best argument against the Four reading is the feeling Faist reports more than any other.",
+      "reason": "It opens the rival case with the strongest counterevidence, in his own words on video, rather than a straw man. Keep this framing even if the rebuttal paragraphs change."
+    },
+    {
+      "passage": "Some of what is on record sits awkwardly with any Four reading, and it belongs in the portrait.",
+      "reason": "It keeps service, humour, conscience and changing accounts of the work visible, so the type doesn't swallow the person. No wing, arrow or subtype is used to explain any of this away."
+    }
+  ],
+  "assessment": "Type 4 at medium confidence is defensible, and the draft avoids the usual Enneagram shortcuts. No wing, arrow or subtype is used to explain away a contradiction. The Six case opens with video of his strongest counterevidence. The section on what the type doesn't explain keeps service, humour and conscience in view, and the vessel hinge is left honestly unresolved. The best Four evidence is real: a decade of discomfort with being seen as himself (MTV 2017, Interview 2017, GQ and Interview 2026); refusals that Kushner independently says had \"nothing to do with size of the role\"; and the 2021 NYT answer setting aside the \"working actor\" goal he had when he had \"no money.\" But the argument that Four beats Six leans on three weak legs. It relabels doubt about his own skill as heart-triad shame and sets it against a narrowed Six. It claims he never weighs security, which Cultured's \"Stay up here where it's safe\" contradicts. And it says he moves off alone, which his move home to family and high-school friends contradicts. The Nine is under-tested. His full explanation of the 2024-26 break reads as overwhelm and \"tune everything out\"; one quote is counted for both Four and Nine; and the case against the Nine rests on a stereotype plus an Anna Christie exit with no known motive. The similarity advisory tripped only on a confidence disclaimer, which is ordinary vocabulary. Comparing arguments directly shows the same Four-over-Six rebuttal used on the Jeremy Allen White and Dakota Johnson pages. contested_typing stays true; I found no new risk. If the editor can't supply a discriminator specific to Faist, the type answer and FAQs should present Six and Nine as close alternatives; changing the type isn't required. Method: I read the frozen draft, evidence-draft.json and similarity.json. I checked quote contexts in the research stage's saved texts (NYT 2021, Cultured, GQ, Another Man, Interview 2026, Forbes, PBS and the BAFTA transcript), and on 2026-10-15 I reopened the live Cultured page to confirm the \"volcano\", \"tune everything out\" and \"how much control\" passages. I did not reopen the other live URLs."
+}

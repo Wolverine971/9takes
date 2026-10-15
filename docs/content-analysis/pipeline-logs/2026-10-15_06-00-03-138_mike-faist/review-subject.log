@@ -1,0 +1,20 @@
+I wrote the subject-role (fairness) review for Mike Faist to `docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/review-subject.json`. It passes the review schema check. No other repo files were touched and nothing was published. My working files are in `/tmp/mf-subject-review`.
+
+**Verdict:** the draft handles personal material well. The adoption, his father's death, the food stamps and the "dark, depressed place" quote all come from his own interviews, are attributed, and none of it is turned into a diagnosis. The problems are in "Walking away at the top," where the "he gives up security for authenticity" argument is applied to events his record explains differently, or not at all.
+
+**5 major findings:**
+1. **Kushner quote next to Anna Christie:** Kushner's "what he's fought hard to get out of" sits right after "No reason has been made public," so it reads as being about Anna Christie. In GQ it's a general remark.
+2. **Anna Christie used as evidence:** the draft cites it as proof he "refuses firmly." The only public fact is that he withdrew. No reason is known, which the draft itself says.
+3. **Timeline error:** "What brought him back" says *East of Eden* ended his break. GQ says he shot it before the two-year gap, and the draft's own opening says the same.
+4. **His own explanations are missing:** in GQ he blamed the gap partly on "the industry and financing… There's no control in this industry" and on "the public gaze." In Cultured he said "Challengers was a lot. It was very overwhelming." I checked these quotes on the live GQ and Cultured pages. Only the inward-pointing reasons made it into the draft, and the break FAQ has the same gap.
+5. **The Brooklyn apartment:** selling it is counted as security he gave up for authenticity. Another Man and GQ both tie the 2021 move to Ohio to his father getting sick.
+
+**4 minor findings:**
+- **"Drifted into the first person":** the draft reads the "we" in a 2017 quote as Faist talking about himself. In context it's about his characters' generation.
+- **"I don't care enough":** quoted without its context. He was laughing off the idea of being *just* a working actor, not saying he doesn't care about acting.
+- **Pilot's license:** the draft calls it a "whim," but he said he got it to bond with newly met family.
+- **"His first Broadway years":** the claim that he spent them avoiding the stage door rests on one 2017 *Dear Evan Hansen* interview, and he said he signed about twice a week.
+
+I protected five passages for the editor to keep, including the line that the mural-scrubbing motive is Kushner's reading, and the honest admission that no account yet exists of him in open conflict.
+
+The review keeps the existing contested-typing flag and adds no new risks. The similarity check only matched shared hedging phrases ("the public record," "at medium confidence"), not reused argument. None of these fixes require dropping the Type 4 read. The "public gaze" quote actually supports the "afraid of being seen" argument.

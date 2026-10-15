@@ -1,0 +1,1301 @@
+{
+  "schema_version": 3,
+  "subject": "mike-faist",
+  "status": "ready",
+  "research_tasks": [
+    "Research log (2026-10-15, first run, mode create, empty baseline, no prior evidence, no research notes file). No existing draft, page or research brief for Mike Faist was found under any name in src/blog/people or docs/content-analysis/research. Not open-case eligible: his professional career began in 2011 (Newsies), he was Tony-nominated in 2017 and his film breakthrough was 2021, with a decade of interviews; the type question is hard, but the record is not thin. Opened 37 sources (S01-S37) and failed to open 3 (S38-S40). Read in full: Another Man 2024 (S01), GQ 2026 (S02), the PBS American Masters transcript (S03), the New York Times 2021 Q&A (S04), the Washington Post 2021 profile (S05), Esquire UK 2024 (S06), Cultured 2026 (S07), Interview 2026 and 2017 (S08, S09), Forbes 2026 (S10), and local-Whisper transcripts of eight videos from 2016-2026 (S16-S23, about 25,000 words). Evidence was gathered before a type was chosen. A Four reading formed from the 2021-2024 print record and was then tested against the 2017 BUILD and 2022 BAFTA transcripts, which strengthened the Six rival (anxiety before every project). Outcome: status ready, standard format, Type 4 at medium confidence, Type 6 the strongest rival, Type 9 live, contested_typing flagged so the six-role jury reviews it.",
+    "Transcript fidelity. YouTube caption downloads and the transcript API were blocked from this machine during the run (HTTP 429, then an IP block). Audio was downloaded with yt-dlp using the mweb player client and transcribed locally with whisper.cpp (ggml medium.en). Only the Spielberg featurette (S22) was second-transcribed (small.en); both versions garble the middle of his sentence, so quote only \"a deep feeler as a human being and as an actor\" and \"considering delaying the movie\" unless someone checks it by ear. Before printing any verbatim quote from S16-S23 or S37, re-listen at the timestamp or second-transcribe; punctuation and filler words are machine-made. Scratch files (may not survive to later stages): audio in /tmp/mike-faist-research/audio, transcripts in /tmp/mike-faist-research/tx and /tmp/mike-faist-research/whisper_cpp, print text in /tmp/mike-faist-research/txt. Every excerpt in this file was machine-checked against those saved texts before writing (0 mismatches).",
+    "Access workarounds. S04 (New York Times; the reader proxy was blocked) and S10 (Forbes; 403/CAPTCHA) were opened through Wayback raw captures (web.archive.org/web/<year>id_/<url>; the Forbes capture is gzip-encoded). S11, S12, S13, S14, S34 and S35 were also opened through Wayback. S24 and S36 (TV Insider) and S31 (IBDB) were opened through r.jina.ai after 403s. Not independent: Page Six and DNYUZ republish S02; People (S33) aggregates S01 and S09; Esquire Australia republishes S06.",
+    "Do-not-use list. (1) Do not name his 2016 girlfriend (S17), his birth mother or his half-brothers (S09); no speculation about his sexuality or relationships, which the Rodent Man and queer-role coverage invite. (2) Do not call the 2015 \"dark, depressed place\" depression or any diagnosis (C13). (3) The teenage pot-selling is his joke plus the writer’s paraphrase in one profile (S01, C05); if used at all, attribute it and keep it light. (4) Do not print a Challengers weight figure: sources give just under 15 lb (Little White Lies), 20 lb of muscle (S01) and 30 lb (Wikipedia, Cultured). (5) Family details conflict: grandmother (his mother, S01) vs great-grandmother (him, S03) for the relative with dementia; grandfather died \"a month later\" (S01) vs \"within three weeks\" (S02) of his father; his mother practised law for 40 years (S01) while the family ran a real-estate business (S09). Attribute; do not reconcile. (6) His mother is Julie in S01, where she speaks, and Julia in People and Wikipedia. (7) The \"two-year\" break means no new production between the East of Eden shoot and August 2026; he still did 2024 promotion and the 2024 Met Gala, so do not say he vanished from public view entirely. (8) \"Death has long weighed heavily on Mike’s mind,\" \"It was theatre that saved him\" and the invisibility motive are the Another Man writer’s interpretations. (9) No reason is known for the Anna Christie withdrawal; do not guess. (10) His 2026 \"dread\" answer is one rehearsed line repeated in four outlets (C17); present it once, not as four observations. (11) Page Six’s \"premieres Friday\" is wrong; East of Eden premiered Thursday, October 1, 2026.",
+    "Unopened or set aside. Could not open: the Scottish Daily Mail’s January 2022 interview (S38, paywalled; may give his parents’ professions), Jeff Nichols on the CinePie podcast (S39, German, cited by Wikipedia for the screenplay), the Columbus Dispatch’s December 2021 hometown profile (S40, 404), BAFTA Film Sessions 2022 (403). Read and not listed because they add nothing or attribution is too loose: a 48-minute 2017 Broadwaysted drinking podcast re-uploaded by a fan account (unlabelled crosstalk), the AwardsDaily 2022 video (character analysis only), Out and Little White Lies 2024 (short junket answers), the Boston Globe 2024 Challengers item, NPR’s Challengers review, L’Eclaireur (French aggregation), Netflix’s 3-minute \"Creating the Character\" featurette (background on Charles only). No Enneagram typing of Faist by himself or any credible outlet was found.",
+    "For the next refresh: (a) a first-person reason for leaving Anna Christie in 2025; (b) the project he began rehearsing in August 2026 and how he explains choosing it; (c) long-form testimony from Josh O’Connor, Luca Guadagnino, Jeff Nichols, Ben Platt, Lucas Hedges or Ansel Elgort given outside a launch week; (d) any account of him in conflict, under direct criticism, or when a director or production let him down, which is where Four and Six would visibly part (a Six grows wary and seeks firmer ground or allies; a Four withdraws and insists on what feels true); (e) whether the Ohio Artists Gathering ran again after 2018; (f) a case where a secure, prestigious offer also feels \"right\": does he still hesitate and test (Six), or commit at once (Four)?"
+  ],
+  "accuracy_checked_at": "2026-10-15",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.anothermag.com/another-man/15568/mike-faist-challengers-the-bikeriders-interview-profile",
+      "title": "Mike Faist Pulls Back the Curtain",
+      "speaker": "Mike Faist, profiled over two days in Ohio by Ted Stansfield (Another Man); also his mother Julie, his cousin John, his aunt Cheri and his roommate Dan",
+      "date": "2024-04-24",
+      "locator": "Online feature, Summer/Autumn 2024 issue (on sale April 25, 2024). Paragraphs on the drive to Woodville (father Kurt died December 12 of a blood clot after three years of pulmonary fibrosis); cousin John; the move to New York at 17; the Postmates encounter with Ben Platt; Dear Evan Hansen research; West Side Story as \"vessel\"; the Sufjan Stevens drive (\"I don’t want to do this as a job\"); the flight-or-invisibility debate; Waffle House breakfast on Challengers; his mother Julie on his childhood; the Massey’s dinner where he cries about his parents.",
+      "excerpt": "Since then, research has been my way to feel more secure, to feel like I am prepared. Even if you have to throw it all away in the end. [...] It felt like: I’m not me right now, I’m being used to tell the story in the best way possible. I don’t know how to explain it, it was like I had no control over the situation. It was like being used as a vessel, and that was the best feeling ever. [...] “I don’t want to do this as a job,” Mike says at one point, staring ahead at the road before him. “For me, it’s deeper than that.” [...] I have a strange relationship to acting: I really love it, but at the same time I get so exhausted by it. And I fall in and out of love with it on a pretty regular basis. [...] I only really want to do pieces that come from a place of love [...] it’s coming from that place of ‘I’m free, I’m liberated, I’m the most authentic I can be.’",
+      "context": "The richest single source: the writer spent two days with Faist, his family and his high-school friends shortly after his father and grandfather died, and before the Challengers press tour. Interpretive lines are the writer's (\"I suspect that the real reason is Mike’s discomfort with the public position\"; \"Death has long weighed heavily on Mike’s mind\"); keep them attributed or out. Also the source for: he was \"terrified\" moving to New York at 17 and his father drove him; food stamps and a peanut-butter diet; he \"remembers bumping into the actor (and Dear Evan Hansen co-star) Ben Platt when he was on a job for Postmates ... and feeling so ashamed that he pretended he was doing something else\" (writer's paraphrase); Dan calls teenage Mike \"A loose cannon\" and Mike corrects \"Eccentric ... Floaty and an idiot\"; a teacher barred him from school plays over his behaviour \"which is when he decided to make a change\"; \"selling a bit of pot\" as a teenager (writer's paraphrase; \"I think I sold them some pot though\" is his joke); his mother Julie: \"He was born an adult ... At six, he told me he wanted to start saving for college. At six!\"; his mother practised law for 40 years (conflicts with the family real-estate business in S09; both may be true); he chose invisibility over flight, for \"random acts of kindness, like watering an old lady’s garden\" (writer's paraphrase); he was \"dreading the Challengers press tour and admits he was even dreading this interview a bit\"; \"insecurities that sometimes flare up about his being a small-town boy from Ohio\" (writer's paraphrase); he pulls a bandana over his mouth \"when he is feeling shy\" (writer's interpretation); cousin John: \"He was a quiet young man. And he’s always been very committed to his family.\"; on his parents, \"his voice cracking and his eyes suddenly smarting with tears\": \"That’s something that physically hurts me\". His mother says the dementia-afflicted relative who watched old films was his grandmother; in S03 he says great-grandmother. Says his grandfather died \"A month later\" after his father; S02 says within three weeks.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.gq.com/story/mike-faist-gq-hype",
+      "title": "Mike Faist Returns to the Spotlight With ‘East of Eden’",
+      "speaker": "Mike Faist, interviewed walking his dog in Prospect Park by Raymond Ang (GQ); with Zoe Kazan, Tony Kushner, Florence Pugh and Justin Kuritzkes",
+      "date": "2026-09-30",
+      "locator": "GQ Hype cover story, interview in August 2026. Paragraphs on the two-year step back after Challengers; Kushner on roles he turned down; Kazan on his privacy and the \"hermit crab\"; \"This is the part that I don’t know how to do\"; Kazan on meeting twice before he agreed; Netflix paying for an extra episode; father and grandfather; \"living in the Matrix\"; Kushner on his screenplay; rehearsals for an unannounced project; Kushner on \"what he’s fought hard to get out of\"; closing line.",
+      "excerpt": "It became very apparent to me, there’s a moment of just needing to recalibrate probably for myself [...] I think a lot of people will do one thing and then they double down and they get onto the next thing. They want this momentum [...] I don’t think that I have that kind of stamina. I’m not necessarily a marathon runner. [...] Look, the truth is, it’s a lot easier for me to put on a character and be in front of the world than be me [...] There’s a privacy to Mike that I feel, even having worked with him and spent time with him, that I am very careful not to push on, because it feels so important to who he is [...] I just need to know that this is right for me, because when I jump in, I jump in 100%. If you have me, you’re going to have me 100%. [...] if you want to get to know me, just watch my movies.",
+      "context": "The fullest account of the 2024-2026 withdrawal and the most independent testimony in the record. Kazan (showrunner, East of Eden): \"There’s something about Mike that reads to me like a hermit crab or something. There’s this shell on the outside and you can’t tell what’s inside. And there’s a softness to him, but there’s also this kind of toughness ... Like, steely.\"; \"It’s really admirable to me that Mike is pursuing a life that feels authentic to him.\" Kushner (screenwriter, West Side Story) on roles friends offered after 2021: \"I think in both cases he turned them down ... the stuff that they were asking just didn’t feel right to him at the moment, and it had nothing to do with size of the role\"; \"I’m intrigued by what he’s decided to do and what he has decided not to do and what he’s fought hard to get out of\"; his screenplay \"a very, very interesting, beautifully written script\". Pugh on his supporting role. Facts: he dropped out of Anna Christie two months after it was announced; Sgt. Rock with Guadagnino fell through; moved to Ohio in 2021 to help care for his father, who had pulmonary fibrosis; father and grandfather \"passed within three weeks of each other\"; \"All the men have passed ... It’s my sister, my mom and my grandmother, and me.\"; in August 2026 he was \"about to enter rehearsals for the first production he’s worked on since East of Eden\", unnamed. On construction: a 2017 line, \"Once it’s all over, I’ll go back to construction work,\" which he now calls \"the narrative of my life\"; renovation is \"very grounding. It’s real. It’s tangible.\" Lighter lines: on the Rodent Man label, \"One hundo p!\"; on Oh, Mary!, \"I would rock Mary Todd.\" Page Six and DNYUZ republished excerpts (not independent).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.pbs.org/wnet/americanmasters/podcast/mike-faist-interview/",
+      "title": "Mike Faist Embraces the Unknown (American Masters: Creative Spark podcast)",
+      "speaker": "Mike Faist, interviewed by Joe Skinner (PBS American Masters)",
+      "date": "2026-10-02",
+      "locator": "Full published transcript (page dated October 2, 2026; also on YouTube as xjilKHdJkGk, uploaded the same day; one PBS listing gives an air date of October 1). Answers on: dread; moving to New York at 17 (\"Maybe I’ll be good one day\"); \"hell yes and oh shit\"; Zoe Kazan steering the ship; the older he gets \"the more embarrassed I get to be an actor\"; painful boots and solitary weekends on the set; Michael Shannon on The Bikeriders (\"all I had to do was just be the observer\"); \"No one has the answers\"; telling Pugh and Abbott \"I’m just going to be quiet\"; \"acting is just constantly giving\"; the closing answer on why he keeps going (\"I’m an addict\").",
+      "excerpt": "I remember really genuinely feeling that way. I still feel that way. Maybe I’ll be good one day. [...] It’s that feeling of hell yes and oh shit, you know? [...] That helps any sort of anxieties because it’s like, well, someone’s steering the ship. Someone knows what they’re doing . [...] And it’s funny, the older I get, the more embarrassed I get to be an actor. [...] And I just remember letting them both know, I was like, “Hey, just so you know, I’m just going to be quiet. I just want to be over here. I’m just going to be off in a corner.” I feel like I need that [...] No one has the answers. It really does require a community of people to build a thing because it’s just so hard [...] I don’t know why I keep going, ’cause I’m an addict.",
+      "context": "A 44-minute craft conversation published the day after the East of Eden premiere; the longest first-person source in the record and the least promotional in tone. He calls himself \"a nerd\" who likes talking about acting and apologises for it (\"Sorry, you know. I don’t know. Sorry. I know.\"). On Florence Pugh and Christopher Abbott switching on and off: \"I’m not good enough is the truth.\" On The Bikeriders: \"I chose that job because all I had to do was just be the observer.\" On why he became an actor: watching Singin’ in the Rain in the basement with his great-grandmother, who had dementia (\"Can you do this for a living?\"). On what keeps him going: \"part of me feels like ... ‘Oh, well, I don’t really have anything else to contribute.’ This is maybe the only thing that I’m kind of good at, maybe.\"; \"I don’t want to hold it so tightly because I think if you hold it too tightly, maybe it’ll die.\"",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.nytimes.com/2021/05/27/arts/television/mike-faist-panic-west-side-story.html",
+      "title": "Mike Faist Isn’t Sure About This Whole Acting Thing",
+      "speaker": "Mike Faist, interviewed in Park Slope by Elisabeth Vincentelli (The New York Times); with Lauren Oliver and Jessica Sula",
+      "date": "2021-05-27",
+      "locator": "Edited Q&A ahead of the Panic premiere. Opened through the Wayback Machine raw capture (web.archive.org/web/2021id_/...); the live page was not reachable. Intro paragraphs (driving the country with Austin, writing a screenplay, turning down offers, selling his Brooklyn apartment; \"protective self-deprecation\"); Jessica Sula on the trailer; answers to \"Why aren’t you in the upcoming ‘Dear Evan Hansen’ movie?\", \"what are you lining up?\" and \"Which is what?\".",
+      "excerpt": "I feel like I couldn’t do it. I started that when I was, like, 21, and was with it for five or six years. When you’re doing eight shows a week, it very much turns into relying on your technique and the job of it. And the show was such a zeitgeisty thing. It really took a lot out of me, and I didn’t really have it in me anymore. [...] It’s really crazy, but it was transcendental: either I didn’t feel like I was myself, or I was the most authentic version of myself. I can’t really tell which one. Having gone from having no money, wanting to just be a working actor — I don’t want to just be a working actor anymore. [...] I can’t tell if I hate acting or if I love it too much. It’s not like I don’t plan on doing it. I just don’t want to follow the trajectory of what the industry wants me to do. [...] Put on a cape and wear a mask. I need to take more agency because no one’s going to do it for me. [...] I would like to ultimately be of service and of use; that’s when I feel at my best.",
+      "context": "Written seven months before West Side Story opened, during the period he later describes as a pandemic-era road trip. The reporter: \"He spent some of the past year driving around the country with Austin and writing a screenplay. He has been turning down offers and is now selling his Brooklyn apartment and heading back to Ohio.\"; \"he laughed a lot in what seemed to be protective self-deprecation\". Jessica Sula (Panic co-star): when shooting resumed in Texas, \"Faist chose to live in a trailer on a plot of land with his rescue dog, Austin\"; \"He’s just so fabulously ridiculous and wonderful.\" Also: \"I don’t care enough.\" and \"It [expletive] me up.\" (about West Side Story, \"in the best of ways\"). A LiveJournal repost of the same text was also read and matches.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.stripes.com/living/entertainment/movies/2021-12-13/faist-actor-west-side-story-profile-entertainment-3955668.html",
+      "title": "Mike Faist was a ‘blue-collar working theater actor.’ Now, he’s a standout in Spielberg’s first musical.",
+      "speaker": "Thomas Floyd (The Washington Post, syndicated by Stars and Stripes); testimony from Tony Kushner and Michael Greif; Mike Faist",
+      "date": "2021-12-13",
+      "locator": "Paragraphs 2-3 (Kushner on the mural), the Greif quote, Kushner on research (\"gobbled all that stuff up\"), the gun scene, and the closing quotes on \"passion and love\".",
+      "excerpt": "It was something that he needed to do because he felt terribly about what his character had just done, and he needed to do something to make himself feel okay about it. [...] He always took extremely seriously his responsibility of representing this kid in that kind of emotional despair and that kind of crisis. [...] I wanted to morph. I wanted to change. I wanted to create an environment, not just for myself but for other people, where we didn’t have to ... [...] If it’s anything short of that, I don’t know if it’s worth it. I was just really wrestling with this idea of, ‘Do I love acting or do I hate it?’ And the truth is that I think I love it too much. I really do.",
+      "context": "Independent named testimony. Kushner's favourite memory of the shoot: after the Jets splashed paint on a Puerto Rican flag mural, \"One of the people washing it was Mike ... it really wasn’t in any way done for display.\" Greif directed Dear Evan Hansen. Kushner on the unscripted moment when Riff presses his temple to the gun barrel: \"What Mike came up with in that moment ... is the whole character in this one little gesture.\" Faist: \"I’m a blue-collar working theater actor and this is a big, buzzy Hollywood production.\"; on recognition: \"it’s not, at the end of the day, why I do what I do. For me, it has to come from a place of passion and love.\" Asked about the New York Times comments, he says \"There’s still so much more to say ... and there’s still so much more to do.\"",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.esquire.com/uk/culture/film/a61081999/mike-faist-the-bikeriders-interview/",
+      "title": "Mike Faist on The Bikeriders, Challengers and Hollywood Fatigue",
+      "speaker": "Mike Faist, interviewed at Claridge’s the day after the London Challengers premiere by Henry Wong (Esquire UK)",
+      "date": "2024-06-14",
+      "locator": "Opening paragraph (planned break after Challengers, \"allow myself to be bored\"); Bikeriders paragraph (\"opposite side of the camera\"); paragraph on adoptive parents; tennis paragraph (\"I’m far too emotional\"); pilot’s licence paragraph (\"I think I just get bored\"). Republished by Esquire Australia, also read.",
+      "excerpt": "I viewed myself to be on the opposite side of the camera almost, just sitting there and watching these actors [...] I didn’t have the mental fortitude it requires just to remain tough and keep calm [...] I’m far too emotional. [...] My younger brothers are both pilots [...] And I thought maybe I could do it, too. So I just did it. [...] I think I just get bored",
+      "context": "The meeting took place in April 2024, the day after the London Challengers premiere; published June 2024. The writer: Faist had planned to take a break after filming Challengers, to drive around the US with his dog, until Jeff Nichols called about The Bikeriders; Zendaya had got him into photography. Also: \"I was nervous about going into that process, because of the Spielberg of it all, and because of the Hollywood of it all\" and Spielberg \"never made me feel I needed to ask permission to do anything\"; \"Honestly, who cares about acting?\" (asked how he picks roles). States he was raised by adoptive parents.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://culturedmag.com/article/2026/09/21/film-mike-faist-east-of-eden-interview/",
+      "title": "It’s Been Two Years, but Mike Faist Is Back Onscreen in Another Love Triangle",
+      "speaker": "Mike Faist, interviewed over Zoom by Sophie Lee (Cultured)",
+      "date": "2026-09-21",
+      "locator": "Q&A answers: \"how this project came to you\" (dreadful), \"Is there something in a character ... that makes you think, I could do a really good job\" (dread, the volcano), \"Did you feel like you wanted to take a beat\" (noise, two years), \"Was it a little bit of a whiplash situation?\", \"Are you thinking of doing something in that Challengers-esque world again?\" (trusting he will know), \"Is that sensation ... what you expected\" (\"doomed to do this\").",
+      "excerpt": "I don’t think I ever feel like I can do a good job. But … there’s a fear that kicks in. There’s a feeling of dread, a real dread, and I think it is just because you start to feel that you actually care. The other tiny voice inside of you goes, Oh, don’t do that. Don’t jump into the volcano. Stay up here where it’s safe. But, that’s the thrill of what we get to do. [...] it’s very easy to get swept up in noise. It makes it difficult for me to really listen, just being able to hear myself think, and feel what is right for me. [...] The truth is that Challengers was a lot. It was very overwhelming [...] Oftentimes, I’ve said that I don’t really know how much control I actually have over any of this.",
+      "context": "Interview conducted in September 2026, during the East of Eden press cycle. Also: \"I love being an actor, I love telling stories, and I love investigating characters and excavating everything that I can out of myself in order to serve the role.\"; \"I’m kind of just allowing that when the opportunities come, I probably am trusting that I will know whether something is actually right for me or not. It’s kind of like dating\"; \"I think, unfortunately, I’m doomed to do this.\"; on Pugh, \"I really saw it as my job to make her feel as uncomfortable as possible\" and \"I really felt like I met my match.\" The writer notes he brushed off the hiatus question (\"You know, there really isn’t a lot of thought.\").",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://www.interviewmagazine.com/film/a-reluctant-interview-between-mike-faist-and-jonathan-anderson",
+      "title": "A Reluctant Interview Between Mike Faist and Jonathan Anderson",
+      "speaker": "Mike Faist in conversation with the designer Jonathan Anderson (Interview)",
+      "date": "2026-10-06",
+      "locator": "Conversation recorded September 17, 2026, in Paris. Faist’s turns beginning \"No, the reality is that I don’t like doing interviews\", \"Part of the reason I don’t like doing interviews\", \"I get embarrassed too\", and the closing exchange (\"I think I got away with it\").",
+      "excerpt": "Part of the reason I don’t like doing interviews is that I actually feel a lot more comfortable being a character than I do being myself in the public eye. I feel a lot braver, quite frankly, to be someone else. [...] I get embarrassed too. I’m embarrassed to do this interview. [...] After I read it, I felt extreme excitement, empathy, understanding to a degree, and dread. [...] Except I was able to actually pretty much interview you. I think I got away with it.",
+      "context": "A friend-to-friend conversation (they met on Challengers, where Anderson was costume designer), so it is less guarded but also playful. He opens by turning the questions back on Anderson (\"It’s much more interesting to hear things about you.\") and closes by claiming he interviewed Anderson instead. Anderson: \"he was such a friendly person\"; \"You’re just a modest person, Mike.\" Faist: \"I wanted to move to New York specifically because I wanted to follow in the lineage of James Dean, Brando, Newman, and De Niro.\"; joined East of Eden \"because I wanted it to be a part of my evolution as a human being, my personal growth\"; \"I’m doing the only thing I’ve ever wanted to do.\"",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.interviewmagazine.com/culture/discovery-mike-faist",
+      "title": "Discovery: Mike Faist",
+      "speaker": "Mike Faist, interviewed by Annie Powers (Interview)",
+      "date": "2017-03-31",
+      "locator": "Intro paragraphs (summers of construction work for his parents’ real estate business); sections \"GROWING UP ON OLD FILMS\", \"THE FIRST JOB\", \"SECRET TALENT\", \"THE EVOLUTION OF CONNOR MURPHY\", \"LEARNING TO FLY\".",
+      "excerpt": "I dropped out of the [American Musical and Dramatic Academy]. I was basically too nervous and scared to audition for anything afterwards, so a friend of mine at the time dragged me kicking and screaming to an audition for White Christmas in Springboro, Ohio at this dinner theater, and I ended up booking it. [...] that gave me enough confidence to finally go and say, “I can actually do this.” [...] I’m adopted, and I met my birth mom right when I was about to move to New York. [...] Christopher took me up on a flight, and I was thinking, “Hey, I can do this! That’s how we can bond!” It was really crazy and really impulsive. [...] And now we bond as a family in a way, there. [...] they don’t want people to see them because if we allow ourselves to be seen, actually seen, and allow [ourselves] to be vulnerable, then we lose the game.",
+      "context": "Published during the Dear Evan Hansen Broadway run, weeks before his Tony nomination. Also: \"I was always very imaginative as a kid; I was always playing pretend. I was always the hero in the story\"; writes short stories and was planning an Ohio playwrights’ festival; his research on suicide-attempt survivors through livethroughthis.org; \"Gene Kelly was definitely the guy, I think, that I wanted to emulate\". Names his half-brother; do not print the name.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.forbes.com/sites/oliviasingh/2026/10/01/how-fear-led-mike-faist-to-east-of-eden/",
+      "title": "Netflix’s ‘East Of Eden’ Pushed Mike Faist Past The Fear To Play Charles Trask",
+      "speaker": "Mike Faist, interviewed by Olivia Singh (Forbes contributor)",
+      "date": "2026-10-01",
+      "locator": "Direct fetch and the reader proxy were blocked (403/CAPTCHA); opened through the Wayback Machine raw capture (web.archive.org/web/2026id_/...). Paragraph after Zoe Kazan approached him; paragraph on \"see and be seen\"; final section \"What’s Next For Mike Faist After ‘East Of Eden’?\".",
+      "excerpt": "There’s two things that go through your mind [...] There’s the ‘Hell yeah, let’s do this and let’s get to work.’ And then the other one is fear, because you don’t want to mess up. That’s the reality. And honestly, that is kind of the only feeling that I’m really searching for within any of this. You want things that are exciting to you and that are going to push you, and also that terrify you. [...] I can’t believe that I’m excited about this and I can’t believe how terrified I am to do it.",
+      "context": "A premiere-day feature built around the same excitement-and-fear answer he gives in S03, S07 and S08, so it shows a repeated framing rather than independent behavior. Also on Charles and Cathy: \"this desire to see and be seen is a very real thing.\"; on what is next: \"I don’t have too much thought about it\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.dispatch.com/entertainmentlife/20171207/gahanna-native-faist-identified-emotionally-with-lead-characters-dilemma",
+      "title": "Gahanna native Faist identified emotionally with lead character's dilemma",
+      "speaker": "Mike Faist, phone interview with Terry Mikesell (The Columbus Dispatch)",
+      "date": "2017-12-07",
+      "locator": "Opened through the Wayback Machine raw capture (2021). Paragraphs on the 2015 script for I Can I Will I Did and the closing quotes on proving himself.",
+      "excerpt": "I was in this dark, depressed place for a little while, and (the play) was in between out-of-town tryouts and off-Broadway when this script came across my desk [...] It was something I needed to do — mostly for myself because it’s almost therapeutic, to liberate myself from those feelings, by lashing out in the film. [...] It’s a strange industry, where you’re constantly having to prove yourself. I’m auditioning all the time still, finding the next project — working, not working, getting a job, not getting a job — all while trying to persuade people that I’m worth it and figuring out what I want to do. [...] But the work is where I get my true satisfaction.",
+      "context": "Local hometown paper, ahead of a Bexley screening of a small 2017 film about a bullied foster teenager. The reporter writes that in 2015 Dear Evan Hansen \"was between a run in Washington, D.C., and opening off-Broadway\" and \"Faist was afraid that his character was going to be radically altered.\" On his audition: \"If they want me to do this, I’m going to take some liberties with this.\" \"Dark, depressed place\" is his everyday phrase, not a diagnosis.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "http://www.mtv.com/news/3002027/mike-faist-dear-evan-hansen-interview/",
+      "title": "Dear Evan Hansen Star Opens Up About Skipping Social Media — And The Autograph Line",
+      "speaker": "Mike Faist, interviewed at the MTV News office by Stacey Grant (MTV News)",
+      "date": "2017-04-26",
+      "locator": "Opened through the Wayback Machine raw capture (2017); the live URL now redirects. Answers on the autograph line, social media, and running offstage after the computer-lab scene.",
+      "excerpt": "I very rarely do the autograph line. I just try and keep my head down and show up to work and do my job [...] And, that’s really amazing and I don’t want to take that away from them, by having them meet who I actually am, so I just kind of distance myself a little bit from all of that. [...] I just would hate for that illusion to be broken by having interaction with me, that, maybe, [fans] were expecting something else [...] I’d just run upstairs to my dressing room and I would just be on the floor, on my knees, head in my chair just taking a knee, beyond a minute. Realized very quickly that I was a little unhealthy",
+      "context": "Interview from the first Broadway spring of Dear Evan Hansen. The writer's framing: \"Mike Faist is full of life. He’s charming, funny, and completely candid\". He signs \"maybe twice a week\" for repeat customers \"to thank them for all their support.\" Date from the archived page.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.columbusunderground.com/gahanna-native-and-tony-nominee-mike-faist-brings-inaugural-ohio-artists-gathering-to-short-north-stage-rs1/",
+      "title": "Gahanna Native and Tony Nominee Mike Faist Brings Inaugural Ohio Artists Gathering to Short North Stage",
+      "speaker": "Mike Faist, phone interview with Richard Sanford (Columbus Underground)",
+      "date": "2018-08-28",
+      "locator": "Opened through the Wayback Machine. Paragraphs on the festival’s origins, York Walker’s play, and Asa Somers’s Cubicle Farm.",
+      "excerpt": "I wanted to bring this work to a city I love and call home, and I also want to show Columbus what’s in their backyard. [...] Reaching diverse voices was very important to me. [...] We want to talk about where theatre can go here and how to get there. We started this thinking about the next five years; this is about building momentum.",
+      "context": "Describes the first (August 27/28-31, 2018) Ohio Artists Gathering at Short North Stage, which he organised: two new plays and a roundtable. He co-directed and starred in a one-man play by his Dear Evan Hansen castmate, joking \"cheapest option all around!\" No source found for a second year.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.columbusmonthly.com/lifestyle/20180807/mike-faist-brings-broadway-to-columbus",
+      "title": "Mike Faist Brings Broadway to Columbus",
+      "speaker": "Richard Ades (Columbus Monthly), with Mike Faist, investor Mike Schiff and Short North Stage director P. Tim Valentine",
+      "date": "2018-08-07",
+      "locator": "Opened through the Wayback Machine raw capture (2021). Final paragraphs on why Columbus.",
+      "excerpt": "It’s a one-week playwrights festival [...] where we all get together and create new works and kind of bridge some gaps that are existent within the Columbus community, and hopefully the New York community as well. [...] what Columbus has to offer—and what it’s offered me growing up in this safe, nurturing environment with people who are interested and who care.",
+      "context": "Same festival as S13 from a second outlet, with Schiff’s account (\"He wants to make Columbus more of a hub for theater\") and the note that \"after four years of playing Connor, Faist subsequently decided to end his run with the show.\"",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.screendaily.com/features/do-i-have-to-dance-mike-faist-on-moving-from-stage-to-screen-for-west-side-story/5168275.article",
+      "title": "“Do I have to dance?”: Mike Faist on moving from stage to screen for ‘West Side Story’",
+      "speaker": "Mike Faist, video interview from outside Columbus with Michael Rosser (Screen International)",
+      "date": "2022 (BAFTA-nomination period; page metadata 2022-03-03)",
+      "locator": "Paragraphs on the Riff dance call (\"Do I have to dance?\"), the Jets and Harrison Coll, and the closing paragraph on the past two years on the road.",
+      "excerpt": "I asked my agents, ‘Do I have to dance? Can I just do the scene work?’ To which I was told, ‘This is West Side Story.’ I’m not an ensemble dancer [...] I’m not good enough. I had no business being in that room, quite frankly. [...] We were a family. We were a tribe. [...] I definitely want to come back to theatre. I lived in New York for 13 years. It treated me so well, it shaped who I am. But right now, I’m kinda digging the open road.",
+      "context": "The writer: \"Having left New York at the outset of the pandemic and spent much of the past two years travelling around the US in his car, with his dog\". Also: \"I remember sitting down with Steven ... and telling him, ‘I was born to do this.’ This was meant to be.\"; quotes Spielberg secondhand: \"Mike Faist is one-of-a-kind ... He can do absolutely anything.\"",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.youtube.com/watch?v=1SyXL1F43Qg",
+      "title": "Mike Faist On \"Dear Evan Hansen\" (BUILD Series)",
+      "speaker": "Mike Faist, live studio interview with an audience Q&A (BUILD Series; host not named in the transcript)",
+      "date": "2017-03-30",
+      "locator": "27:10 video. Transcribed from the audio with local Whisper (medium.en); YouTube captions were blocked. 01:41-02:12 (\"I keep fooling everyone\"); 09:59-11:06 (dinner theatre, six to eight months without auditioning); 11:06-11:42 (graduated early, \"I kinda had to get out\"); 12:14-13:17 (parents trusted him); 19:44-20:17 (Evan and Connor and being seen).",
+      "excerpt": "I had dropped out of the conservatory program that I was going to and I went maybe six, eight months without auditioning for anything 'cause I felt too incapable. I didn't really want to put myself out there. I was too scared, too whatever. And when I booked that, it gave me enough confidence to be like, oh, well I can actually make this happen. [...] I graduated high school a year early to move to New York 'cause I kinda had to get out. [...] You know, I keep fooling everyone. I really have no idea, it works out. [...] They lose too much of themselves if they really allow themselves to be vulnerable and seen through the other person.",
+      "context": "Promotional but long-form, from the first Broadway year of Dear Evan Hansen. Also: the 2015 Washington rewrite of his role \"was daunting. It was scary\"; his parents \"have always trusted and supported me and believed in me 100%\" and \"trusted that I was making the right decision for me\"; as a child his parents found him \"too hyperactive\". The 2017 self-account here matches S09 (six to eight months frozen vs \"too nervous and scared\"). Machine transcript: punctuation and small words are approximate.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.youtube.com/watch?v=lFGPADR4r5k",
+      "title": "Broadway.com #LiveatFive with Mike Faist of DEAR EVAN HANSEN",
+      "speaker": "Mike Faist, interviewed by Paul Wontorek (Broadway.com)",
+      "date": "2016-12-08",
+      "locator": "21:36 video; Faist segment from 06:00. Transcribed from the audio with local Whisper (medium.en). 10:19-10:53 (singing); 14:43-15:20 (letter to his younger self); 15:20-15:53 (high school); 17:38-18:12 (Christmas).",
+      "excerpt": "- When did you realize that you were such a great singer? When did you start singing? - I still don't think I am. [...] just be okay with yourself. Like, stop looking, you know, and talking, self-talk, you know, it's just not helping whatsoever. [...] I was really unhappy in high school, and I was a bit of a Connor Murphy, Evan Hansen type, because I wasn't, if I wasn't performing, I wasn't happy",
+      "context": "A light fan-question show recorded the week Dear Evan Hansen opened on Broadway. He mentions a girlfriend by first name (private; do not use) and hosting Christmas \"with some other orphan friends\" (colloquial, friends away from family; do not read as anything else). Machine transcript.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.youtube.com/watch?v=R1377wu21GE",
+      "title": "'West Side Story' breakout Mike Faist on making Riff his own: 'Start fresh and go back to the text' (Gold Derby)",
+      "speaker": "Mike Faist, interviewed by Christopher Rosen (Gold Derby)",
+      "date": "2021-12-20",
+      "locator": "27:57 video. Transcribed from the audio with local Whisper (medium.en). 09:19-11:37 (stepping in with the Jets, \"Jetivities\"); 18:36-19:41 (the gun-barrel idea); 21:50-22:24 (fear Spielberg would make him \"a prop\"); 24:40-25:51 (staying away from reviews).",
+      "excerpt": "I have to step in here kind of and do something. [...] I wanted to actually create a family, a brotherhood, a tribe. [...] It wasn't ever my job to scold them or say, \"Don't do this, do that,\" kind of a thing. [...] I was in fear that he would be, you know, not, you know, a dictator. I thought the whole thing would be, you know, Hollywood overproduced. We're an actor. You're just a prop. [...] I stay away from it all because like my job is just for better or worse, like I just have to protect my head space and like stay away from the whole thing. [...] For me, I can't handle it. If you say something nice to me, I'm not gonna be able to handle it",
+      "context": "Awards-season interview. He also tells the Harrison Coll story (singing the Jet Song as a castmate released his father's ashes) and says the gun-to-the-temple moment was his own idea: \"I went over to Steven and Tony. I said, I think I have this idea. Just go with me on it. If you hate it, tell me.\" On friends who said no one else could have played Riff: \"they know me and they know kind of what my skillsets are and they know how I kind of operate in terms of what my particular brand of crazy is.\" Machine transcript.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.youtube.com/watch?v=jFWWg33Ohc0",
+      "title": "The time Mike Faist went LARPing with the cast of West Side Story | Tea with BAFTA",
+      "speaker": "Mike Faist, video call from Ohio with a BAFTA interviewer (first name Robert in the recording)",
+      "date": "2022-03-03",
+      "locator": "10:56 video. Transcribed from the audio with local Whisper (medium.en). 04:27-05:07 (anxiety before every project); 05:41-06:50 (expected to be \"the prop\"); 09:12-10:23 (Jetivities, LARPing).",
+      "excerpt": "I tend to get anxious or have a bit of anxiety before every project, no matter what it is. I'm always like, oh my God, what did I sign myself up for? I can't do this. Why did they hire me? What are we thinking? What are we doing here? I always like have this awful, awful thing in my whole body before like starting any sort of project. [...] I'm just gonna have to just wear the costume, stand on my mark and say the line and just be the prop. That's really how I felt going into it. I was nervous about that.",
+      "context": "BAFTA-nomination interview recorded in Ohio (\"that's where my family is\"). Credits Spielberg with providing \"a safe enough space for us to really take ownership\". Machine transcript.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.youtube.com/watch?v=y7ai9ysS884",
+      "title": "Mike Faist Interview: West Side Story (ScreenRant)",
+      "speaker": "Mike Faist, video interview from Ohio with a ScreenRant interviewer",
+      "date": "2021-12-16",
+      "locator": "13:55 video. Transcribed from the audio with local Whisper (medium.en). 00:00-00:32 (reception, \"self-preservation\"); 03:24-05:03 (Spielberg and the pilot); 12:44-13:18 (watching himself); 13:18 (\"I'd be screwed\").",
+      "excerpt": "I don't know specifics 'cause I tell people I can't really like, you know, read into that stuff more like self-preservation, you know, like good or bad. [...] You can't help but I think pick apart yourself. [...] I'd be screwed. (laughs) That's what I'd be doing. I'd be really screwed",
+      "context": "Junket interview the week of the West Side Story release. He recounts Spielberg asking about a pending TV pilot after his audition and \"searching in my eyes\"; the interviewer cites Spielberg saying he considered delaying the film for him. Machine transcript.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.youtube.com/watch?v=gMOhYHCmN9w",
+      "title": "Mike Faist on East of Eden, that Challengers churros scene and his favourite film line (BBC Radio 1)",
+      "speaker": "Mike Faist, interviewed by a BBC Radio 1 film presenter (not named in the transcript)",
+      "date": "2026-10-07",
+      "locator": "17:05 video. Transcribed from the audio with local Whisper (medium.en). 00:00 (interviewer reads Spielberg's description); 06:00-06:38 (press is \"the most embarrassing thing possible\"); 07:09-07:44 (\"surround yourself with people ... a lot smarter than you\"); 12:09-12:42 (making people laugh in auditions).",
+      "excerpt": "It's doing the press stuff. It's sitting here with three different pictures of yourself and having to talk about yourself. That's the most embarrassing thing possible. [...] The real hope is that you can surround yourself with people, quite frankly, who are a lot smarter than you. [...] I think any time that I could have made someone laugh in the audition, that made me feel good.",
+      "context": "A deliberately silly press-junket format. The interviewer opens by quoting Spielberg: \"a soulful deep thinker, a deep feeler, as a human and as an actor\", which corroborates S22. Faist on seeing strangers in a Challengers T-shirt who do not recognise him: \"No, I like that. I like that a lot.\" Machine transcript.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.youtube.com/watch?v=asZ5_hxcpDA",
+      "title": "Steven Spielberg's \"West Side Story\" | Steven On Mike | 20th Century Studios",
+      "speaker": "Steven Spielberg (studio promotional featurette)",
+      "date": "2021-12-11",
+      "locator": "59-second featurette. Transcribed twice from the audio (whisper.cpp medium.en and small.en); 00:13 (delaying the movie), 00:26 (description of Mike).",
+      "excerpt": "Was actually considering delaying the movie to get [Mike Faist] to be in it. [...] a deep feeler as a human being and as an actor",
+      "context": "Studio marketing, so praise is expected, but it is Spielberg on camera. Both transcriptions garble the words between \"Mike is a soulful\" and \"deep thinker\" and render \"Mike Faist\" as \"my fights\"; BBC Radio 1's interviewer quotes the line as \"a soulful deep thinker, a deep feeler, as a human and as an actor\" (S21). Quote only \"a deep feeler as a human being and as an actor\" unless the clip is re-checked by ear.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.youtube.com/watch?v=Zs5lOIJy-I4",
+      "title": "Mike Faist Spills Secrets on 'The Bikerider' In Depth Scoop Interview (Hollywood Insider)",
+      "speaker": "Mike Faist, on-set interview during The Bikeriders production (Hollywood Insider)",
+      "date": "2024-06-10 (upload; recorded during the late-2022 shoot)",
+      "locator": "6:22 video. Transcribed from the audio with local Whisper (medium.en). 00:00-00:33 (planned year off); 00:33-01:10 (\"too many signs\"); 02:25-03:41 (\"it's not about me at all\").",
+      "excerpt": "And I was actually going to take the rest of the year off. And I wasn't going to take any more work, and I was just going to travel and actually take photos and just write and hang out and enjoy my life. [...] One of my favorite parts about what I do is the kind of infiltration, the espionage of it all. [...] it's not about me at all. It's about these people and being able to truly observe them in a way and kind of be obsessed with those people.",
+      "context": "Recorded on set, so before Challengers was released. He says the shoot being in Ohio was one of \"too many signs that say I kind of have to do this thing.\" Machine transcript.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.tvinsider.com/1294095/east-of-eden-cathy-charles-florence-pugh-mike-faist-interview/",
+      "title": "Florence Pugh and Mike Faist on 'East of Eden's Surprise Cathy and Charles Reunion (Exclusive)",
+      "speaker": "Florence Pugh, Mike Faist and Zoe Kazan, interviewed by TV Insider",
+      "date": "2026-10-01",
+      "locator": "Direct fetch returned 403; opened through the r.jina.ai reader. Pugh's paragraph beginning \"Originally in the script\".",
+      "excerpt": "And Mike was crouched down by a chair, and he insisted on coming back early to be in the room and reading with me. Because usually, with things that small, the first AD would read it or the director would read it. You wouldn't necessarily need or require for the actor to come back just for a few lines, but he insisted on being back there and insisted on being in the room with me. And what that created was a whole relationship",
+      "context": "Pugh is a co-star and executive producer promoting the series, so this is friendly testimony, but it describes a specific, checkable behavior. Kazan adds: \"we just wanted to get lovely Mike back on screen.\"",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.newyorktheatreguide.com/theatre-news/news/interviews/interview-with-mike-faist-laura-dreyfuss-will-roland",
+      "title": "Interview with Mike Faist, Laura Dreyfuss & Will Roland",
+      "speaker": "Mike Faist, Laura Dreyfuss and Will Roland, interviewed by Tom Millward (New York Theatre Guide)",
+      "date": "2017 (Broadway.com Audience Choice Awards, May 2017; page metadata 2017-10-13)",
+      "locator": "Final two answers (on loneliness; on high school).",
+      "excerpt": "I was in the theatre group and I didn't really enjoy high school at all. So I actually graduated early just to get out and move to New York and do theatre! I didn't really see myself fitting in anywhere.",
+      "context": "Red-carpet Q&A at the Audience Choice Awards, where he won Favorite Breakthrough Performance (Male). Also: \"They need to be seen and they need to feel connected. I think we're living in a time where loneliness is growing\".",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.newyorktheatreguide.com/theatre-news/news/tom-sturridge-brian-darcy-james-join-michelle-williams-in-anna-christie-off-broadway",
+      "title": "Tom Sturridge, Brian d'Arcy James join Michelle Williams in 'Anna Christie' off Broadway",
+      "speaker": "New York Theatre Guide (news)",
+      "date": "2025-08-26",
+      "locator": "Standfirst and paragraph 2.",
+      "excerpt": "Sturridge replaces the previously announced Mike Faist, who has withdrawn from the production.",
+      "context": "No reason was given here, in S02 or anywhere else found. The production ran at St. Ann's Warehouse from November 25, 2025, to February 1, 2026.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://www.russh.com/anna-christie-mike-faist-michelle-williams",
+      "title": "Mike Faist Returns to the Stage in 'Anna Christie'",
+      "speaker": "RUSSH (news)",
+      "date": "2025-06-18",
+      "locator": "Paragraphs 1-2 and 4.",
+      "excerpt": "later this year, the Tony-nominated actor will return to the stage in a major Off-Broadway revival of Anna Christie, Eugene O’Neill’s classic American drama. [...] Michelle Williams takes on the title role, while Faist plays Mat Burke",
+      "context": "Establishes the announcement date for the role he later left (S26).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.news4jax.com/entertainment/2024/04/23/zendaya-josh-oconnor-and-mike-faist-on-the-steamy-love-triangle-of-challengers/",
+      "title": "Zendaya, Josh O'Connor and Mike Faist on the steamy love triangle of 'Challengers'",
+      "speaker": "Jake Coyle (Associated Press), with Mike Faist",
+      "date": "2024-04-23",
+      "locator": "AP story as syndicated by News4Jax; paragraph beginning \"Faist, O’Connor and Zendaya all connected\".",
+      "excerpt": "It is this constant navigation in what we do. Once a project is over then you’re kind of in limbo. You’re always trying to find that thing that sparks something inside of you, [...] It was something I really resonated with, that idea of falling in and out of love with your craft.",
+      "context": "Challengers junket; the same theme as S01 in a separate outlet the same week.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.clickondetroit.com/entertainment/2023/05/22/brokeback-mountain-brings-two-rising-acting-stars-to-the-london-stage/",
+      "title": "'Brokeback Mountain' brings two rising acting stars to the London stage",
+      "speaker": "Jill Lawless (Associated Press), with Mike Faist and Lucas Hedges",
+      "date": "2023-05-22",
+      "locator": "AP story as syndicated by ClickOnDetroit; paragraph after Hedges's quote.",
+      "excerpt": "“We’re always nervous,” added Faist. But he said the actors trusted that director Jonathan Butterell had cast them for a reason. “It’s because he sees those qualities in us,” he said.",
+      "context": "Opening-week story for the West End Brokeback Mountain (May-August 2023). The trust line is the reporter's paraphrase; the quoted words are his.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.showbizjunkies.com/movies/challengers-press-conference-highlights-zendaya-josh-oconnor-mike-faist/",
+      "title": "‘Challengers’ Press Conference Highlights: Zendaya, Josh O’Connor and Mike Faist",
+      "speaker": "Mike Faist, Josh O'Connor and Zendaya at an Amazon MGM press conference (transcribed by Rebecca Murray, Showbiz Junkies)",
+      "date": "2024-04-23",
+      "locator": "Answer to \"Mike, how did this project come to you and was it a quick yes?\"; the \"we hate each other\" exchange.",
+      "excerpt": "I was home in Ohio and I think, like Z, it’s really hard for me, for my team, to get me to read anything. [Laughing] Just period. Period, pretty much, yeah. [...] So, I read it and you know in those moments when you’re like, ‘F**k, I hate when other people are right…’",
+      "context": "Press conference. O'Connor on Faist's running joke: \"Mike does this joke sometimes ... we did an interview where he committed so much to this joke that it sounded like I bullied you.\"",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://www.ibdb.com/broadway-cast-staff/mike-faist-491590",
+      "title": "Mike Faist – Broadway Cast & Staff (IBDB)",
+      "speaker": "Internet Broadway Database",
+      "date": "unknown",
+      "locator": "Header block (Born). Direct fetch 403; opened through the r.jina.ai reader.",
+      "excerpt": "Born  Jan 05, 1992  Gahanna, Ohio, USA",
+      "context": "Reference database. Printed ages are consistent with a January 5, 1992 birth date: 29 in May 2021 (S04) and December 2021 (S05), 30 in early 2022 (S15), 32 in April 2024 (S01), 34 in September 2026 (S02).",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S32",
+      "url": "https://en.wikipedia.org/wiki/Mike_Faist",
+      "title": "Mike Faist",
+      "speaker": "Wikipedia contributors",
+      "date": "unknown (accessed 2026-10-15)",
+      "locator": "Lead, \"Early life and education\", \"Career\", \"Work as a writer\", credit tables.",
+      "excerpt": "Faist began his acting career in 2011 in Disney's Newsies, appearing in its Broadway production (2012–2013). [...] for which he was nominated for the Tony Award for Best Featured Actor in a Musical and won the Grammy Award for Best Musical Theater Album.",
+      "context": "Used only for credits and award facts, each traceable to cited sources (IBDB, Columbus Dispatch 2012, Interview 2017). Its family-business and \"30 pounds\" details conflict with other sources; do not use those. Cites a German podcast (CinePie, June 20, 2024) for Jeff Nichols saying Faist was writing a screenplay; not opened.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S33",
+      "url": "https://malaysia.news.yahoo.com/mike-faists-parents-julia-kurt-130000243.html",
+      "title": "All About Mike Faist's Parents, Julia and Kurt Faist",
+      "speaker": "People (syndicated by Yahoo)",
+      "date": "2024-04-30",
+      "locator": "Paragraphs on adoption and on February 2021 / December 12, 2023.",
+      "excerpt": "On Dec. 12, 2023, his father died of a blood clot, following a three-year battle with pulmonary fibrosis.",
+      "context": "An aggregation of S01 and S09, not independent; useful only because it supplies the year (2023) that S01 leaves implicit. Names his mother Julia; S01 calls her Julie.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S34",
+      "url": "https://www.teenvogue.com/story/hamiltons-jordan-fisher-and-dear-evan-hansens-mike-faist-interview-volume-2",
+      "title": "\"Hamilton's\" Jordan Fisher and \"Dear Evan Hansen's\" Mike Faist Talk Starting Out, Making Music, and Taking a Stance",
+      "speaker": "Mike Faist, as-told-to (Ariana Marsh, Teen Vogue)",
+      "date": "2017-05-24",
+      "locator": "Opened through the Wayback Machine. Faist's three paragraphs.",
+      "excerpt": "I graduated high school a year early and moved to New York when I was 17 to attend the American Musical and Dramatic [...] Academy. I dropped out after two semesters and started selling tickets in Times Square for off-Broadway plays while auditioning on the side. [...] I hope that when people see the show, they’ll say, ‘Oh, I am loved. I’m exactly who I am, and I am enough.",
+      "context": "First-person as-told-to piece; also mentions a month in India after Newsies.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S35",
+      "url": "http://www.dispatch.com/content/blogs/theatre-talk/2012/08/gahanna-native-in-broadways-newsies.html",
+      "title": "Newsies the Musical: Gahanna native Mike Faist is having fun in his Broadway debut in the Disney hit",
+      "speaker": "The Columbus Dispatch theatre blog, with Mike Faist",
+      "date": "2012-08-27",
+      "locator": "Opened through the Wayback Machine raw capture (2017). Opening paragraphs and the Gene Kelly paragraph.",
+      "excerpt": "Faist, who was born and grew up in Gahanna, understudies the lead role of Jack Kelly [...] It all started with Singing in the Rain with Gene Kelly. I saw that film when I was really young and I knew I just had to be like Gene Kelly – the pinnacle of awesomeness",
+      "context": "Earliest press interview found. His first stage role was a Lollipop Kid in Columbus Children's Theatre's The Wizard of Oz.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S36",
+      "url": "https://www.tvinsider.com/1285669/east-of-eden-netflix-series-fall-preview-mike-faist-interview/",
+      "title": "'East of Eden' Exclusive: Mike Faist Previews Netflix's Adaptation of John Steinbeck Classic",
+      "speaker": "Mike Faist and Jeb Stuart, interviewed by TV Insider",
+      "date": "2026-09-07",
+      "locator": "Direct fetch 403; opened through the r.jina.ai reader. Paragraph beginning \"What interested me most\".",
+      "excerpt": "What interested me most was how much love exists between them, even when neither of them really knows how to express it [...] underneath that, there’s this really profound desire to be seen by the other person.",
+      "context": "About his character and his brother, not himself; supports only what he says drew him to the role. Possibly an emailed answer (unusually polished).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S37",
+      "url": "https://www.youtube.com/watch?v=USHyAr-e_vo",
+      "title": "East of Eden - Florence Pugh, Mike Faist, Christopher Abbott, Zoe Kazan, Film Journals & Acting (Stepping Through Film)",
+      "speaker": "Florence Pugh, Mike Faist, Christopher Abbott and Zoe Kazan with a YouTube interviewer (no speaker labels)",
+      "date": "2026-10-09",
+      "locator": "12:49 video. Transcribed with local Whisper. 07:01-08:09: a male speaker who says \"I think I can speak for Chris as well\", so almost certainly Faist.",
+      "excerpt": "I guess you can only kind of be your own judge for that. You're always failing. That's how it feels, no matter what.",
+      "context": "Speaker attribution is by context only (he refers to \"Chris\"); later lines about not keeping journals or photos could be Abbott and are not attributed. Supports no claim on its own; listed so later stages do not rediscover it.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S38",
+      "url": "https://www.pressreader.com/uk/scottish-daily-mail/20220121/282321093379817",
+      "title": "Rusty dancer takes West Side glory",
+      "speaker": "Scottish Daily Mail",
+      "date": "2022-01-21",
+      "locator": "PressReader paywall; only the first lines were visible.",
+      "excerpt": "WHEN the call came to audition for Steven Spielberg’s West Side Story, actor, dancer, singer Mike Faist didn’t want to put a foot wrong.",
+      "context": "A search summary attributes to this piece that his mother is a probate lawyer and his father manages and fixes up investment properties, which would reconcile S01 and S09; not verified. Do not cite unless opened.",
+      "kind": "secondary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S39",
+      "url": "https://open.spotify.com/show/0vH5OxklI7wiUIo00aqn7X",
+      "title": "The Bikeriders: Regisseur Jeff Nichols im Interview (CinePie podcast)",
+      "speaker": "Jeff Nichols, interviewed by Eugen Burkhardt and Selina Sondermann",
+      "date": "2024-06-20",
+      "locator": "Wikipedia cites 37:32 for Nichols saying Faist was writing a screenplay and might become a filmmaker. Not opened.",
+      "excerpt": "Not opened; cited by Wikipedia (S32) only.",
+      "context": "The screenplay is independently confirmed by Kushner (S02) and the 2021 New York Times (S04); this source is not needed.",
+      "kind": "testimony",
+      "access": "unavailable"
+    },
+    {
+      "id": "S40",
+      "url": "https://www.aol.com/news/local-actor-garnering-rave-reviews-110424276.html",
+      "title": "Gahanna native Mike Faist garners rave reviews for breakthrough role in Spielberg's 'West Side Story'",
+      "speaker": "The Columbus Dispatch (syndicated by AOL)",
+      "date": "2021-12",
+      "locator": "AOL syndication returned 404; not opened.",
+      "excerpt": "Not opened.",
+      "context": "Hometown profile from the West Side Story release; might contain family or Gahanna testimony.",
+      "kind": "secondary",
+      "access": "unavailable"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Mike Faist was born on January 5, 1992, in Gahanna, Ohio, a suburb of Columbus, and was adopted and raised there by Kurt and Julie Faist; he has a sister, Krista.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S31",
+        "S09",
+        "S06",
+        "S01",
+        "S02",
+        "S33"
+      ],
+      "inference": "Birth date and place are from IBDB (S31) and match every printed age (29 in May and December 2021, 30 in early 2022, 32 in April 2024, 34 in September 2026). He said \"I’m adopted\" in 2017 (S09); Esquire (S06) says he was raised by adoptive parents. His mother appears as Julie in S01, where she speaks; People (S33) and Wikipedia say Julia. The sister is named in S01; in S02 he says \"It’s my sister, my mom and my grandmother, and me.\"",
+      "alternative": "None on the facts. Do not name his birth mother or half-brothers, and do not build a causal childhood story on the adoption; he has never linked it to his personality.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "As a small child he watched old MGM musicals on repeat, above all Singin’ in the Rain, while the family cared for an elderly relative with dementia; Gene Kelly made him want to perform, and he pushed his parents into dance classes.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S01",
+        "S09",
+        "S35",
+        "S18"
+      ],
+      "inference": "Told consistently from 2012 (S35) to 2026 (S03). In S03 he says the films were played to help his great-grandmother cope with dementia; his mother in S01 says it was his grandmother, who lived with them; in 2017 (S09) he called it \"TV-babysitting\" by his parents. The constant is Gene Kelly as the model (\"I want to be exactly like that guy\").",
+      "alternative": "A polished origin story repeated for every press cycle; it shows what he chooses to foreground, not a cause. Attribute the relative to the speaker or say \"an elderly relative\".",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "His mother describes an unusually serious child: \"He was born an adult. At six, he told me he wanted to start saving for college,\" and at nine he typed up a Broadway show’s choreography and taught it to classmates.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Testimony from his mother during a press visit (S01). It suggests early earnestness and self-direction.",
+      "alternative": "Affectionate family lore told to a visiting journalist; one source. Contrasts with the teenager his friend calls \"a loose cannon\" (C05).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "He was unhappy in high school, did not feel he fitted in, and graduated a year early, in 2009, \"just to get out\" and move to New York.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S17",
+        "S25",
+        "S16",
+        "S34"
+      ],
+      "inference": "Three separate 2016-2017 accounts agree: \"I was really unhappy in high school ... if I wasn’t performing, I wasn’t happy\" (S17); \"I didn’t really see myself fitting in anywhere\" (S25); \"I kinda had to get out\" (S16).",
+      "alternative": "Told while promoting a musical about lonely teenagers, which invites the comparison he makes (\"a bit of a Connor Murphy, Evan Hansen type\", S17). Many theatre kids say this.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "As a teenager he went through a rebellious stretch (smoking and, in his own joke, selling \"some pot\"); a theatre teacher barred him from school productions over his behaviour, which the profile says is when he decided to change. A high-school friend calls him \"a loose cannon\"; he corrects it to \"Eccentric. Floaty and an idiot.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Another Man (S01) reports this partly in the writer’s paraphrase, with direct quotes from Faist and his roommate Dan, a friend since 16.",
+      "alternative": "One source, partly paraphrased; light-hearted in tone. Use sparingly and attributed; not a story about drugs.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "At 17 his father drove him to New York, where he lived poor: he dropped out of the American Musical and Dramatic Academy after two semesters, sold off-Broadway tickets in Times Square, was at times on food stamps, and took a first professional job in a Springboro, Ohio dinner-theatre White Christmas at $150 a week, living behind a McDonald’s parking lot.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S09",
+        "S16",
+        "S34",
+        "S03"
+      ],
+      "inference": "Consistent across 2017 (S09, S16, S34), 2024 (S01) and 2026 (S03). On the move: \"I was terrified ... So was my dad. But I knew I wanted to do this more than anything in the world\" (S01).",
+      "alternative": "Struggle stories are standard actor biography; the details are consistent and specific, which makes them credible as facts, not as evidence of type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "After dropping out of drama school he went \"maybe six, eight months without auditioning for anything ’cause I felt too incapable ... I was too scared,\" until a friend \"dragged me kicking and screaming\" to the audition that became his first paid job, which gave him \"enough confidence\".",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S16",
+        "S09"
+      ],
+      "inference": "Two 2017 tellings agree (S16, S09). The earliest documented instance of a pattern: fear of inadequacy freezes him, and an outside push or an outside yes releases it.",
+      "alternative": "Ordinary for an 18-year-old who has just quit school. It fits a Six (paralysis resolved by an ally) at least as well as a Four (shame about not being good enough); it does not discriminate on its own.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "In his poorest years, delivering for Postmates, he ran into his future Dear Evan Hansen co-star Ben Platt and, by the profile’s account, felt \"so ashamed that he pretended he was doing something else.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Writer’s paraphrase in S01, presented as Faist’s memory. A small, concrete instance of shame about being seen in a lowly state.",
+      "alternative": "Paraphrase, not a quote; embarrassment at being caught in a side job is common. Do not put the words in his mouth.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "At 17 he met his birth mother and her family of pilots; after a flight with a half-brother he got his own pilot’s licence, which he called \"really crazy and really impulsive\" and a way to bond, and says flying now mostly bores him.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S06"
+      ],
+      "inference": "S09 (2017): \"That’s how we can bond! ... now we bond as a family in a way, there.\" S06 (2024): \"So I just did it\" and, on flying, \"I think I just get bored.\"",
+      "alternative": "Shows impulsiveness and a bid for connection with a new family rather than a stable trait; one decision. Keep birth-family details minimal.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "He made his Broadway debut in Newsies (2012), understudying the lead, then originated Connor Murphy in Dear Evan Hansen from its 2015 Washington run through Broadway (2016-2018), earning a 2017 Tony nomination and sharing the cast’s Grammy.",
+      "passage": "",
+      "class": "observed",
+      "source_ids": [
+        "S35",
+        "S32",
+        "S05",
+        "S14"
+      ],
+      "inference": "Credits and awards from S32 (citing IBDB and the Dispatch), with the Newsies understudy role in S35 and the Dear Evan Hansen dates in S05. S14 says he ended his run \"after four years of playing Connor\".",
+      "alternative": "None on the facts; the exact end of his run is 2018 (summer per S05).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "He prepares through deep research and says that, since Dear Evan Hansen, \"research has been my way to feel more secure, to feel like I am prepared\"; Tony Kushner says he \"wants to know as much as he can possibly know about his character.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S09",
+        "S16",
+        "S05",
+        "S03"
+      ],
+      "inference": "For Connor he read survivor accounts on livethroughthis.org and contacted its founder (S09, S16); for Riff he built the character from Bruce Davidson’s Brooklyn Gang photographs (S01, S05); for Charles he spent weekends alone on the farm set (S03). The stated purpose is security.",
+      "alternative": "Heavy research is normal for serious actors. The security framing supports Six (or Five); a Four would more often frame preparation as finding a personal way in, which he also does (\"It really grounded me\", S01).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "Dear Evan Hansen took a toll: early in the Broadway run he would collapse in his dressing room after his last scene (\"Realized very quickly that I was a little unhealthy\"), and in 2021 he said he declined the film because eight shows a week had become \"relying on your technique and the job of it\" and \"I didn’t really have it in me anymore.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S12",
+        "S04",
+        "S14"
+      ],
+      "inference": "Contemporaneous (S12, 2017) and retrospective (S04, 2021) accounts. Turning down the film of a hit he originated is a costly refusal explained in terms of depletion and the work becoming a job.",
+      "alternative": "He may also not have been offered or suited to the film (Ben Platt, the lead, was; Faist was then 29 playing a teenager). The reason is his own account only.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "In 2015, between Dear Evan Hansen’s Washington run and its off-Broadway opening, he says he was \"in this dark, depressed place for a little while\" and took a small film role about a bullied teenager because \"it’s almost therapeutic, to liberate myself from those feelings, by lashing out in the film.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S11",
+        "S16"
+      ],
+      "inference": "Hometown interview (S11, 2017). The reporter says he feared his Dear Evan Hansen character \"was going to be radically altered\"; in S16 he calls the rewrite \"daunting. It was scary.\" He describes using a role to process and discharge his own feeling.",
+      "alternative": "Everyday language, not a diagnosis; do not say depression. Calling a role cathartic is a common actor framing. It is one of the few accounts of his inner life outside a promotional cycle for the project in question.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "During Dear Evan Hansen he rarely did the stage-door autograph line and stayed off social media because fans \"feel like they know us\" and he did not want to take that away \"by having them meet who I actually am\"; he \"would hate for that illusion to be broken.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "MTV (S12, 2017). His concern is that his real self would disappoint or dispel what audiences felt; he still signed \"maybe twice a week\" for repeat customers.",
+      "alternative": "Also a practical boundary for an actor playing a suicidal teenager eight times a week. One source, but it matches his 2021-2026 statements on press and being himself in public (C32, C36).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "For a decade he has described himself as not good enough: \"I still don’t think I am\" a great singer (2016); \"I keep fooling everyone\" (2017); \"persuade people that I’m worth it\" (2017); \"I’m not good enough. I had no business being in that room\" (2022); \"Maybe I’ll be good one day\" and \"I’m not good enough is the truth\" (2026); \"I don’t think I ever feel like I can do a good job\" (2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S17",
+        "S16",
+        "S11",
+        "S15",
+        "S03",
+        "S07",
+        "S20"
+      ],
+      "inference": "Repeated across six outlets and ten years, in both promotional and non-promotional settings. His 2016 advice to himself was \"just be okay with yourself ... stop ... self-talk\" (S17).",
+      "alternative": "Self-deprecation is also a charm strategy; the NYT reporter read it as \"protective self-deprecation\" (C43). It fits Four deficiency, Six self-doubt and Nine self-effacement alike.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C16",
+      "claim": "He reports anxiety before every job: \"I tend to get anxious or have a bit of anxiety before every project, no matter what it is ... Why did they hire me?\" (2022); he feared Spielberg would be \"a dictator\" and he \"just a prop\" (2021-2022); \"We’re always nervous\" (2023); he was dreading the Challengers press tour (2024).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S19",
+        "S18",
+        "S06",
+        "S29",
+        "S01"
+      ],
+      "inference": "Consistent from 2021 to 2024 in separate outlets; in 2022 he describes \"this awful, awful thing in my whole body before like starting any sort of project\" (S19). This is the strongest evidence for a fear-centred type.",
+      "alternative": "Performance anxiety is near universal among actors. The content of this fear is adequacy (\"Why did they hire me?\") and losing his voice (\"just be the prop\"), not danger or betrayal (see C49).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "In 2026 he repeatedly described dread and fear as the signal that a role matters and as something he seeks: \"There’s a feeling of dread, a real dread, and I think it is just because you start to feel that you actually care. The other tiny voice ... goes ... Stay up here where it’s safe. But, that’s the thrill\"; fear \"is kind of the only feeling that I’m really searching for\"; \"hell yes and oh shit\".",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S10",
+        "S03",
+        "S08"
+      ],
+      "inference": "Four 2026 outlets (S07, S10, S03, S08). He moves toward what frightens him and treats fear as proof of caring.",
+      "alternative": "A repeated junket answer from one press cycle, so it is a framing, not four observations. It can be read as a counterphobic Six moving against fear or as a Four reading fear as a sign of personal meaning.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "He leans on trusted leaders to steady himself: a showrunner with a clear vision \"helps any sort of anxieties because it’s like, well, someone’s steering the ship\"; on Brokeback Mountain he trusted the director \"had cast them for a reason\"; \"The real hope is that you can surround yourself with people ... who are a lot smarter than you.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S29",
+        "S21",
+        "S19"
+      ],
+      "inference": "Three outlets, 2022-2026. He also praises Spielberg for providing \"a safe enough space\" (S19). Seeking a trustworthy authority to reduce anxiety is a core Six pattern.",
+      "alternative": "Any actor prefers a director with a plan; the Brokeback line is the reporter’s paraphrase around his quote.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "On West Side Story he deliberately built the Jets into a group: \"I have to step in here kind of and do something ... I wanted to actually create a family, a brotherhood, a tribe,\" organising \"Jetivities\" in which each Jet chose an activity the others had to join; he later says \"No one has the answers. It really does require a community of people to build a thing.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S18",
+        "S19",
+        "S15",
+        "S05",
+        "S03"
+      ],
+      "inference": "Told in three 2021-2022 interviews (S18, S19, S15) and echoed by S05 (\"I wanted to create an environment, not just for myself but for other people\"). A reluctant but real leadership role aimed at belonging.",
+      "alternative": "Ensemble bonding is standard on musicals; he was the senior Jet. Fits Six, Two or Nine group orientation at least as well as Four.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "Tony Kushner recalls that after a scene in which the Jets defaced a Puerto Rican flag mural, Faist was among the crew scrubbing it off, \"not in any way done for display ... because he felt terribly about what his character had just done, and he needed to do something to make himself feel okay about it.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Independent named testimony (S05). Shows conscience and an urge to repair.",
+      "alternative": "The motive is Kushner’s reading; one anecdote. It could suggest a strong conscience (One, Two, Six) rather than any single type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "In August 2018 he organised the first Ohio Artists Gathering at Short North Stage in Columbus, a one-week festival bringing New York and Los Angeles artists together with local ones, saying he wanted \"to bring this work to a city I love and call home\" and that reaching diverse voices \"was very important to me.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S14",
+        "S09"
+      ],
+      "inference": "Two Columbus outlets (S13, S14) and his 2017 plan (S09). He describes Columbus as \"this safe, nurturing environment with people who are interested and who care\" (S14).",
+      "alternative": "A career-building and civic project as much as a personal one. No evidence of a second edition was found; do not imply it became annual.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "Steven Spielberg says he \"was actually considering delaying the movie\" to get Faist and calls him \"a deep feeler as a human being and as an actor.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S22",
+        "S21",
+        "S20",
+        "S15"
+      ],
+      "inference": "Spielberg on camera in a studio featurette (S22), with the description independently quoted by BBC Radio 1 (S21) and the delay reported in S20; S15 adds \"Mike Faist is one-of-a-kind.\"",
+      "alternative": "Studio marketing; praise is expected. The middle of the sentence is unclear in both transcriptions, so quote only the words given here.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "He describes West Side Story as transcendental in a way he cannot classify: \"either I didn’t feel like I was myself, or I was the most authentic version of myself. I can’t really tell which one\" (2021); \"I’m not me right now ... It was like being used as a vessel, and that was the best feeling ever\" (2024).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S01"
+      ],
+      "inference": "Two outlets three years apart. His peak experience is losing himself in the work, which he alternately calls self-loss and most-authentic self.",
+      "alternative": "This is the hinge between Four (most authentic self) and Nine (merging, self-forgetting); he himself cannot tell. Flow states are also common to performers.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "He has called his relationship to acting ambivalent for years: \"I can’t tell if I hate acting or if I love it too much\" (2021); \"I really love it, but at the same time I get so exhausted by it. And I fall in and out of love with it on a pretty regular basis\" (2024); \"the older I get, the more embarrassed I get to be an actor\" and \"I don’t know why I keep going, ’cause I’m an addict\" (2026); \"I’m doomed to do this\" (2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S05",
+        "S01",
+        "S28",
+        "S03",
+        "S07"
+      ],
+      "inference": "Across 2021, 2024 and 2026 in six outlets. The ambivalence is about the vocation itself, not individual jobs.",
+      "alternative": "Approach-avoidance ambivalence is classic Six; mood-like oscillation of love for a calling is classic Four. In 2024 it was also the theme of the film he was promoting (Challengers).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "After West Side Story, at the height of demand, he turned down offers, sold his Brooklyn apartment and said \"I don’t want to just be a working actor anymore ... I just don’t want to follow the trajectory of what the industry wants me to do,\" which he defined as \"Put on a cape and wear a mask\"; Kushner confirms he turned down parts that \"didn’t feel right to him ... and it had nothing to do with size of the role\" and speaks of \"what he’s fought hard to get out of.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S02"
+      ],
+      "inference": "His own 2021 account (S04) with independent confirmation five years later (S02). A costly, repeated refusal of security and momentum.",
+      "alternative": "The pandemic and his father’s illness (C29, C30) coincide with 2021; \"fought hard to get out of\" is unexplained and could mean contracts. Suspicion of the industry machine also fits Six.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "He says the work must come \"from a place of passion and love. ... If it’s anything short of that, I don’t know if it’s worth it\" (2021) and that he only wants \"pieces that come from a place of love ... ‘I’m free, I’m liberated, I’m the most authentic I can be’\" (2024); \"I don’t want to do this as a job ... For me, it’s deeper than that\" (2024).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S01",
+        "S18"
+      ],
+      "inference": "Stated in 2021 (S05, S18) and 2024 (S01). Authenticity and personal meaning are his stated criteria for work.",
+      "alternative": "Words, and the familiar vocabulary of prestige-indie actors. The weight comes from the refusals that match them (C12, C25, C35).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C27",
+      "claim": "He says he would \"like to ultimately be of service and of use; that’s when I feel at my best,\" and that \"acting is just constantly giving. You have to be really giving to whatever that person needs.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S03"
+      ],
+      "inference": "Two outlets five years apart (2021, 2026).",
+      "alternative": "A Two-, Six- or Nine-flavoured value that the Four reading does not predict; recorded in \"unexplained\".",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "Florence Pugh says that for a late East of Eden scene of only a few lines, which an assistant director would usually read, Faist \"insisted on coming back early to be in the room and reading with me,\" and that it \"created a whole relationship\" and more scenes for his character.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Co-star testimony about a specific behaviour (S24).",
+      "alternative": "Promotional context and a friendly witness; it shows devotion to the work and to a scene partner, not a type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "He repeatedly retreats into solitude and travel: he left New York at the start of the pandemic and spent much of two years driving the country with his rescue dog, writing a screenplay; on Panic he chose to live in a trailer on a plot of land with the dog; before The Bikeriders he planned to \"take the rest of the year off\" to travel, photograph and write; after Challengers wrapped he planned to drive around the US to \"allow myself to be bored.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S15",
+        "S04",
+        "S23",
+        "S06"
+      ],
+      "inference": "Four independent outlets across 2020-2024; Jessica Sula supplies the trailer detail (S04).",
+      "alternative": "The pandemic forced breaks on everyone; road trips with a dog are not a type. The pattern is the repeated move away from work and people when given a choice.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "When his father, Kurt, fell ill with pulmonary fibrosis he moved back to Ohio (from February 2021), bought a house in Columbus’s German Village and renovated it largely himself with his father’s help; his father died of a blood clot on December 12, 2023, and his grandfather died weeks later, shortly before Challengers was released.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S33"
+      ],
+      "inference": "S01 gives February 2021 and December 12; S33 supplies the year 2023; S02 says he moved \"just after West Side Story\" and that the two deaths came \"within three weeks of each other\" (S01 says the grandfather died \"A month later\"). He still lives in the house when not in Brooklyn (S02).",
+      "alternative": "Many people move home for a sick parent; it shows loyalty and family attachment (compatible with Six, Nine, Two or Four). Use \"weeks later\" for the grandfather.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "Talking about his parents’ lifelong hard work in 2024, his voice cracked and he teared up: \"That’s something that physically hurts me ... my mom and my dad ... They just worked so hard to make sure I was able to do what I do\"; he says of his tennis temperament, \"I’m far too emotional.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S06"
+      ],
+      "inference": "Observed by the Another Man writer (S01), weeks after his father’s death; \"far too emotional\" from S06. Evidence of strong, expressed feeling.",
+      "alternative": "Grief explains tears in early 2024. Against Nine numbing, not decisive between Four and Six.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C32",
+      "claim": "He shields himself from reception and from the business: \"I stay away from it all because ... I just have to protect my head space ... If you say something nice to me, I’m not gonna be able to handle it\" (2021); he calls not reading reviews \"self-preservation\" (2021); \"it’s really hard for me, for my team, to get me to read anything\" (2024); doing press is \"the most embarrassing thing possible\" (2026).",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S18",
+        "S20",
+        "S30",
+        "S21",
+        "S01"
+      ],
+      "inference": "Four outlets, 2021-2026. Notably, it is praise he says he cannot handle.",
+      "alternative": "Many actors avoid reviews. Not reading scripts could be avoidance (Nine, phobic Six) or a joke at a press conference.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C33",
+      "claim": "In a running bar debate with friends in 2024 he insisted he would rather be invisible than fly, for \"random acts of kindness, like watering an old lady’s garden,\" which the writer read as discomfort with the public position his job put him in.",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Writer’s paraphrase and interpretation (S01).",
+      "alternative": "A bar-room hypothetical; the motive is the writer’s guess. Colourful but weak.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "He says fame cost him anonymity he valued because it let him be more honest: \"I really loved operating in the world with anonymity and being able to talk to strangers without them knowing who I was, because for some reason that was an ability for me to be even more honest with them,\" and after Challengers, \"I guess I’ll wear a hat now.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S21"
+      ],
+      "inference": "GQ (S02, 2026). In S21 he says he likes it when people wearing the Challengers T-shirt do not recognise him.",
+      "alternative": "Loss of anonymity bothers most newly famous actors; his stated reason (honesty, being \"whoever you wanted to be\") is identity-centred.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C35",
+      "claim": "After Challengers and The Bikeriders (2024) he made nothing new for about two years: a DC film, Sgt. Rock, fell through; he was announced for Anna Christie opposite Michelle Williams in June 2025 and withdrew by late August with no public reason; he says he needed \"to recalibrate,\" that \"I don’t think that I have that kind of stamina,\" and that \"it’s very easy to get swept up in noise ... difficult for me ... to hear myself think, and feel what is right for me ... Challengers was a lot. It was very overwhelming.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S26",
+        "S27"
+      ],
+      "inference": "GQ (S02) and Cultured (S07), both September 2026, plus the casting reports (S27, S26). GQ: in August 2026 he was about to rehearse \"the first production he’s worked on since East of Eden two years ago.\" East of Eden itself was filmed after Challengers, so the gap is in new work after that shoot.",
+      "alternative": "The Sgt. Rock collapse was outside his control, and the hiatus overlaps grief for his father; Kushner’s \"fought hard to get out of\" hints that some exits were contested. \"Stamina\" and \"noise\" are equally Nine or Five language.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C36",
+      "claim": "He says being himself in public is harder than playing someone: \"it’s a lot easier for me to put on a character and be in front of the world than be me ... I’m just proud that I’m able to go on a walk with you and do this\" (GQ); \"I actually feel a lot more comfortable being a character than I do being myself in the public eye. I feel a lot braver, quite frankly, to be someone else\" and \"I’m embarrassed to do this interview\" (Interview); \"if you want to get to know me, just watch my movies.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S08",
+        "S21"
+      ],
+      "inference": "Two separate long conversations in September 2026 plus BBC Radio 1. Shame and exposure about the self, not fear of harm, is the emotion named.",
+      "alternative": "Introverted actors often say this; it was a theme of one press cycle. Consistent, though, with 2017 (C14) and 2024 (C32).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C37",
+      "claim": "Zoe Kazan describes \"a privacy to Mike that I feel ... I am very careful not to push on, because it feels so important to who he is,\" likens him to \"a hermit crab ... a shell on the outside,\" with \"a softness to him, but ... also this kind of toughness ... Like, steely,\" and says \"Mike is pursuing a life that feels authentic to him.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Independent named testimony from his East of Eden showrunner (S02).",
+      "alternative": "A collaborator promoting the series; \"authentic\" is her word and a GQ theme. Privacy and a hard shell also fit Five and Six.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C38",
+      "claim": "Before East of Eden he met Kazan twice and told her, \"I don’t need you to convince me. I just need to know that this is right for me, because when I jump in, I jump in 100%\"; he says he trusts \"that I will know whether something is actually right for me or not. It’s kind of like dating.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S02",
+        "S07"
+      ],
+      "inference": "Kazan’s recollection of his words (S02) and his own account (S07). The deciding test is an inner sense of rightness, followed by total commitment.",
+      "alternative": "Testing before committing and then committing wholly is also a Six pattern; the difference is that he locates the test in himself rather than in the people or the project’s security.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "He writes: short stories since at least 2017, and a screenplay written around 2020-2021 that Tony Kushner read and called \"a very, very interesting, beautifully written script.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S09",
+        "S04",
+        "S02"
+      ],
+      "inference": "S09 (2017), S04 (2021), S02 (Kushner, 2026). Kushner also calls him \"very, very smart and empathic and insightful and thoughtful and curious.\"",
+      "alternative": "The screenplay is unpublished and unproduced; nothing is known of its content.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "He says he took The Bikeriders because \"all I had to do was just be the observer\" and a \"fly on the wall\" among actors he admired; \"it’s not about me at all. It’s about these people and being able to truly observe them\"; he likes \"the infiltration, the espionage of it all.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S01",
+        "S06",
+        "S23"
+      ],
+      "inference": "Four outlets, 2022-2026; the role was the photographer Danny Lyon, who taught him photography (S01, S06).",
+      "alternative": "The role was literally an observer, so the description fits the part. Supports Five (or Nine self-effacement) more than Four.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41",
+      "claim": "Preparing Charles Trask in New Zealand, he kept boots that hurt because the character would never spend money on himself, spent weekends alone on the farm set without phone or laptop, and told Pugh and Abbott before filming, \"I’m just going to be quiet ... off in a corner. I feel like I need that.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "PBS (S03, 2026). Solitary immersion and a declared need for distance from co-stars.",
+      "alternative": "A craft method; actors who isolate for a role are common. Shows how he manages himself at work.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42",
+      "claim": "He describes his ambition as joining a romantic lineage: he moved to New York \"because I wanted to follow in the lineage of James Dean, Brando, Newman, and De Niro\"; he pictured a bohemian life of coffee and cigarettes on the fire escape; \"Unfortunately, you can’t go back, but you can bring the past into the future.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S03",
+        "S01",
+        "S02"
+      ],
+      "inference": "Repeated in 2024 and 2026 (S01, S02, S03, S08). Nostalgic and romantic self-image as an artist.",
+      "alternative": "Standard actor mythology, and East of Eden press invited the Dean comparison. Leans Four but is weak on its own.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "People who meet him describe warmth and self-effacement: the New York Times reporter saw \"protective self-deprecation\"; Panic co-star Jessica Sula calls him \"fabulously ridiculous and wonderful\"; his cousin recalls \"a quiet young man ... always been very committed to his family\"; Jonathan Anderson calls him \"a modest person\"; MTV found him \"charming, funny, and completely candid.\"",
+      "passage": "",
+      "class": "third_party",
+      "source_ids": [
+        "S04",
+        "S01",
+        "S08",
+        "S12"
+      ],
+      "inference": "Several independent observers, 2017-2026.",
+      "alternative": "Brief encounters; all are friendly witnesses or journalists.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "He is playful in public: he committed so hard to a joke that he and Josh O’Connor \"hate each other\" that O’Connor begged him to say he was kidding; he took the Jets LARPing; he says making a casting room laugh \"made me feel good\"; asked about Oh, Mary!, \"I would rock Mary Todd\"; on the \"Rodent Man\" label, \"One hundo p!\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S30",
+        "S19",
+        "S21",
+        "S02"
+      ],
+      "inference": "Four outlets, 2022-2026.",
+      "alternative": "Junket banter. It complicates a purely melancholic portrait; noted in \"unexplained\".",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "East of Eden, Zoe Kazan’s seven-part Netflix adaptation with Faist as Charles Trask opposite Florence Pugh and Christopher Abbott, premiered on October 1, 2026; Kazan says Netflix paid for an extra episode after seeing his first dailies; in August 2026 he was about to begin rehearsals for an unannounced production; he splits his time between Brooklyn and Ohio.",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S36",
+        "S24",
+        "S06"
+      ],
+      "inference": "Premiere date from S36 (\"Series Premiere, October 1, Netflix\") and S24 (\"Streaming Now\"); seven parts per S36 (Page Six’s \"premieres Friday\" is wrong: October 1, 2026 was a Thursday); Kazan on the extra episode and the unannounced rehearsals in S02; residence from S02 and S06.",
+      "alternative": "Current facts that will change.",
+      "durability": "time_sensitive",
+      "review_trigger": "Review when his next project is announced or opens, if he moves, or by 2027-04-01."
+    },
+    {
+      "id": "C46",
+      "claim": "What he says drew him to Charles Trask is a man \"nurtured into the belief of having this innate badness\" who works to contain it, banished \"in isolation alone with his own shame,\" and the \"desire to see and be seen.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S10",
+        "S36"
+      ],
+      "inference": "Three 2026 sources. His stated attraction is to shame, hidden badness and being seen.",
+      "alternative": "He is describing Steinbeck’s character and Kazan’s script, not himself; do not read it as a confession.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "Building and fixing things is his other trade: as a teenager he spent summers doing construction work for his parents’ real estate business; in 2017 he said \"Once it’s all over, I’ll go back to construction work,\" which he now calls \"the narrative of my life\"; he calls renovation \"very grounding. It’s real. It’s tangible.\"",
+      "passage": "",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S02",
+        "S01"
+      ],
+      "inference": "S09 (2017), S02 (2026) and the German Village renovation in S01. Another Man says his mother practised law for 40 years; both can be true and should be attributed.",
+      "alternative": "A grounding hobby and family trade, not a type marker.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "Interpretation: across 2018-2026 he has repeatedly given up security and momentum when work stopped feeling like his own: leaving Dear Evan Hansen and declining the film, turning down post-West Side Story offers and selling his apartment, and stepping back for two years at the peak of Challengers, including withdrawing from Anna Christie.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S04",
+        "S02",
+        "S01",
+        "S07",
+        "S26",
+        "S11"
+      ],
+      "inference": "Built from C12, C25, C26 and C35, against his own 2017 description of an industry where \"you’re constantly having to prove yourself\" (C15). The repeated, costly direction of these choices is the strongest behavioural evidence in the record.",
+      "alternative": "Circumstance explains part of each: the pandemic, his father’s illness and death, a film collapsing at the studio. A Six might also retreat from overwhelming exposure. No first-person reason exists for Anna Christie.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C49",
+      "claim": "Interpretation: the content of his recurring fear is adequacy and exposure (\"Why did they hire me?\", \"I’m not good enough\", \"I’m embarrassed to do this interview\", being reduced to \"a prop\") rather than safety, betrayal or loss of support; he almost never voices suspicion of particular people.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S19",
+        "S15",
+        "S03",
+        "S08",
+        "S02",
+        "S18"
+      ],
+      "inference": "Drawn from C15, C16 and C36.",
+      "alternative": "His fear that Spielberg would be \"a dictator\" (C16) and his wariness of the industry (C25) are Six-style suspicion of authority; the distinction is one of proportion.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "Interpretation: his response to overload is to move away, usually alone or with his dog (Ohio, the open road, a trailer, a corner of the set, two years out of work), more than to seek allies or structure.",
+      "passage": "",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S07",
+        "S15",
+        "S04",
+        "S03",
+        "S01"
+      ],
+      "inference": "Drawn from C29, C35 and C41. This withdrawn stance is shared by Four, Five and Nine, and is less typical of Six, whose usual move is toward a trusted structure.",
+      "alternative": "He also moves toward people: home to his family, the Jets, the hometown festival (C19, C21, C30); phobic Sixes withdraw too.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 4,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C23",
+      "C24",
+      "C25",
+      "C26",
+      "C31",
+      "C34",
+      "C35",
+      "C36",
+      "C37",
+      "C38",
+      "C42",
+      "C46",
+      "C48",
+      "C49",
+      "C50"
+    ],
+    "against": "(1) Fear, more than any other feeling, is what he reports most consistently. In 2017 he says he went six to eight months without auditioning because he \"felt too incapable ... too scared\" (C07); in 2022 he describes anxiety \"before every project, no matter what it is ... Why did they hire me?\" (C16); in 2023 \"We’re always nervous\" (C16); in 2026 dread before every yes (C17). (2) He names security as the purpose of his preparation (\"research has been my way to feel more secure, to feel like I am prepared\", C11) and says a showrunner with a clear plan \"helps any sort of anxieties because ... someone’s steering the ship\" (C18). (3) He repeatedly builds and tends groups and wants to be useful: the Jets as \"a family, a brotherhood, a tribe\" (C19), a hometown theatre festival (C21), \"be of service and of use; that’s when I feel at my best\" (C27), coming back early to read for a scene partner (C28), moving home to help care for his father (C30). (4) He tests a commitment before giving it and then gives all of it (\"We met twice ... when I jump in, I jump in 100%\", C38) and is wary of the industry’s machine (fear of Spielberg as \"a dictator\", C16; \"Put on a cape and wear a mask\", C25). Points 1-4 are Six patterns that the Four reading does not predict. (5) His peak experience is self-forgetting (\"I’m not me right now ... a vessel\", C23); his stated need after Challengers was less \"noise\" and he says he lacks \"stamina\" (C35); his team struggles to get him to read scripts (C32); he chose a film \"because all I had to do was just be the observer\" (C40). Nine and Five explain these at least as well as Four. (6) \"From love\", \"authentic\" and \"deeper than a job\" are also the house vocabulary of prestige-indie actors and junkets; much of the Four case rests on how he talks, and the 2026 dread answer is a rehearsed line (C17). (7) Circumstance explains part of each withdrawal: the pandemic (2020-2021), his father’s illness and death (2021-2023), a studio film collapsing (Sgt. Rock) (C29, C30, C35). (8) There is little sign of Four envy, drama or self-absorption: observers describe him as modest, warm, funny and playful (C43, C44).",
+    "alternative_type": 6,
+    "alternative_case": "Type 6 is the strongest rival and explains a large share of the record. Anxiety is his most consistent self-report across a decade (C07, C16, C17), and he manages it the way a Six does: by preparing (\"research has been my way to feel more secure\", C11), by leaning on clear leaders (\"someone’s steering the ship\"; trusting a director \"had cast them for a reason\"; \"surround yourself with people ... a lot smarter than you\", C18) and by belonging to close groups he helps build (the Jets, C19; the Ohio Artists Gathering, C21). His career turns early on other people’s push: a friend \"dragged me kicking and screaming\" to the audition that ended a months-long freeze (C07). He tests a commitment before giving it, then gives all of it (C38). He is loyal to home: back to Ohio when his father fell ill, renovating a house with him, still close to his high-school friends (C30, C43, C47). His ambivalence (\"I can’t tell if I hate acting or if I love it too much\", C24; \"hell yes and oh shit\", C17) is the Six’s approach-avoidance, and his habit of seeking out what frightens him (\"that is kind of the only feeling that I’m really searching for\", C17) fits a counterphobic Six. His wariness of the industry and of being made \"a prop\" (C16, C25) fits the Six’s suspicion of power. What strains the Six reading: the content of his fear is whether he is good enough and being seen as himself, not safety, support or other people’s reliability (C49); he has never described weighing security in a career decision and has repeatedly given it up (C48); under overload he moves away, alone, rather than toward allies or structure (C50); and the reasons he gives for taking and refusing work are about authenticity and feeling, located in himself, not about certainty (C26, C38). Type 9 is also live: the \"vessel\" experience (C23), the need for quiet and less \"noise\" (C35), low stamina, avoiding reading scripts (C32), the open road and the dog (C29), easy warmth and humour (C43, C44). Against Nine: he reports strong, specific feeling rather than numbness (\"I’m far too emotional\", tears about his parents, a \"dark, depressed place\", C13, C31) and refuses firmly rather than drifting (C25, C35). Type 5 was considered for the observer stance (C40), privacy (C37), research (C11) and limited stamina (C35) and set aside because he is emotionally expressive, impulsive (C09) and group-minded (C19). Type 1 was considered for the conscience Kushner describes (C20) and set aside for lack of any sign of a correcting inner critic or moral rigidity.",
+    "discriminator": "What he gives up, and what his fear is about, when security and self-definition pull against each other. A Six resolves anxiety by securing support and certainty; a Four protects the authenticity of what he shows, at a cost to security if necessary. Four dated episodes point to the Four. (1) 2018-2021: after about four years as Connor he left Dear Evan Hansen and declined the film because eight shows a week had become \"relying on your technique and the job of it\" and \"I didn’t really have it in me anymore\" (C12). (2) 2021: after West Side Story, at the moment of greatest demand, he turned down offers, sold his Brooklyn apartment and said \"I don’t want to just be a working actor anymore ... I just don’t want to follow the trajectory of what the industry wants me to do\" (C25); Tony Kushner independently confirms he refused parts that \"didn’t feel right to him ... it had nothing to do with size of the role\" (C25). (3) 2024: he said he only wants work that comes \"from a place of love ... ‘I’m free, I’m liberated, I’m the most authentic I can be’\" (C26). (4) 2024-2026: at the peak of Challengers he made nothing new for two years and left Anna Christie, explaining that he needed to \"hear myself think, and feel what is right for me\" and that being himself in public is harder than playing a character (C35, C36). Each time the cost was the security and momentum he had described in 2017 as the industry’s constant demand (\"constantly having to prove yourself ... persuade people that I’m worth it\", C15). And unlike a Six’s, his fear is about adequacy and exposure (\"Why did they hire me?\", \"I’m not good enough\", \"I’m embarrassed to do this interview\", C15, C16, C36), not betrayal or lack of backing (C49). Limits: the Six reading still explains the anxiety, the reliance on trusted leaders and the community-building better than the Four does; the authenticity vocabulary is partly a professional script; circumstance (the pandemic, his father’s illness, a studio collapse) coincides with two of the four episodes; he has given no reason for leaving Anna Christie; and no record shows him under conflict or let down by a collaborator, where the two types would part most clearly. Confidence therefore stays medium.",
+    "unexplained": "(1) His instinct to gather and serve people: \"Jetivities\", a hometown festival, \"be of service and of use; that’s when I feel at my best\" (C19, C21, C27), which sits more naturally with Six, Two or Nine than Four. (2) Kushner’s account of him scrubbing paint off the mural because he \"felt terribly about what his character had just done\" (C20): conscience and repair. (3) The playfulness that observers stress more than any melancholy: running jokes, LARPing, wanting to make casting rooms laugh, \"I would rock Mary Todd\" (C44). (4) Why he left Anna Christie in 2025 and what Kushner means by \"what he’s fought hard to get out of\" (C25, C35). (5) How \"I don’t care enough\" (2021) squares with \"I’m an addict\" and \"doomed to do this\" (2026) (C24). (6) The teenage \"loose cannon\" against the child his mother says was \"born an adult\" (C03, C05). (7) His wish to be invisible in order to do anonymous kindnesses (C33). (8) How he behaves in open conflict or under direct criticism: almost no account exists beyond his avoiding reviews (C32). (9) The adoption and his early tie to his birth family (C01, C09): he has never connected them to his inner life, and this profile should not."
+  },
+  "profile_format": "standard"
+}

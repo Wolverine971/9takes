@@ -1,0 +1,201 @@
+{
+  "target": {
+    "person": "sienna-spiro",
+    "type": "4",
+    "units": 10,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "dakota-johnson",
+      "date": "2026-10-09",
+      "units": 6
+    },
+    {
+      "person": "Andrew-Garfield",
+      "date": "2026-10-05",
+      "units": 12
+    },
+    {
+      "person": "Cara-Delevingne",
+      "date": "2026-09-01",
+      "units": 33
+    },
+    {
+      "person": "Freddie-Mercury",
+      "date": "2026-08-29",
+      "units": 39
+    },
+    {
+      "person": "jeremy-allen-white",
+      "date": "2026-08-26",
+      "units": 50
+    },
+    {
+      "person": "machine-gun-kelly",
+      "date": "2026-08-16",
+      "units": 47
+    },
+    {
+      "person": "Phoebe-Bridgers",
+      "date": "2026-08-15",
+      "units": 36
+    },
+    {
+      "person": "Bryan-Johnson",
+      "date": "2026-08-13",
+      "units": 34
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 2570,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.007,
+    "max": 0.095
+  },
+  "trip_threshold": 0.04,
+  "tripped": false,
+  "trip_pairs": [],
+  "per_draft_max": [
+    {
+      "person": "Freddie-Mercury",
+      "date": "2026-08-29",
+      "units": 39,
+      "maxScore": 0.095
+    },
+    {
+      "person": "Cara-Delevingne",
+      "date": "2026-09-01",
+      "units": 33,
+      "maxScore": 0.053
+    },
+    {
+      "person": "machine-gun-kelly",
+      "date": "2026-08-16",
+      "units": 47,
+      "maxScore": 0.038
+    },
+    {
+      "person": "jeremy-allen-white",
+      "date": "2026-08-26",
+      "units": 50,
+      "maxScore": 0.026
+    },
+    {
+      "person": "Phoebe-Bridgers",
+      "date": "2026-08-15",
+      "units": 36,
+      "maxScore": 0.025
+    },
+    {
+      "person": "Andrew-Garfield",
+      "date": "2026-10-05",
+      "units": 12,
+      "maxScore": 0.011
+    },
+    {
+      "person": "dakota-johnson",
+      "date": "2026-10-09",
+      "units": 6,
+      "maxScore": 0.01
+    },
+    {
+      "person": "Bryan-Johnson",
+      "date": "2026-08-13",
+      "units": 34,
+      "maxScore": 0.007
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.095,
+      "other_person": "Freddie-Mercury",
+      "shared_phrases": [],
+      "target": "[diagnosis] All three sit in the Enneagram's heart triad",
+      "other": "[diagnosis] On the Enneagram's nine-type map of motivation"
+    },
+    {
+      "score": 0.053,
+      "other_person": "Cara-Delevingne",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 feels something essential is missing in her and wants to be seen exactly as she is.",
+      "other": "[diagnosis] Ask a Type 4 what they want and the honest answer is to be seen accurately."
+    },
+    {
+      "score": 0.038,
+      "other_person": "machine-gun-kelly",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 feels something essential is missing in her and wants to be seen exactly as she is.",
+      "other": "[diagnosis] And a man who genuinely wanted to be rid of the old version would have finished the job."
+    },
+    {
+      "score": 0.026,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [
+        "public record"
+      ],
+      "target": "[diagnosis] A public record about a year old can't yet separate them.",
+      "other": "[diagnosis] The public record points toward Enneagram Type 4"
+    },
+    {
+      "score": 0.025,
+      "other_person": "Phoebe-Bridgers",
+      "shared_phrases": [],
+      "target": "[diagnosis] Spiro has put the shared question in her own words.",
+      "other": "[diagnosis] inferred from recurring images in her interviews"
+    },
+    {
+      "score": 0.019,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [
+        "public record"
+      ],
+      "target": "[diagnosis] A public record about a year old can't yet separate them.",
+      "other": "[diagnosis] White's public record offers more support for the Type 1 side"
+    },
+    {
+      "score": 0.019,
+      "other_person": "Phoebe-Bridgers",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 feels something essential is missing in her and wants to be seen exactly as she is.",
+      "other": "[diagnosis] inferred from recurring images in her interviews"
+    },
+    {
+      "score": 0.018,
+      "other_person": "Cara-Delevingne",
+      "shared_phrases": [],
+      "target": "[diagnosis] Spiro has put the shared question in her own words.",
+      "other": "[diagnosis] Her own account of the modelling decade is almost entirely about that."
+    },
+    {
+      "score": 0.017,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [],
+      "target": "[diagnosis] yet calls making herself needed the biggest theme of her life.",
+      "other": "[diagnosis] he said he no longer needed the \"self-serious or troubled attitudes\" ( Vanity Fair"
+    },
+    {
+      "score": 0.016,
+      "other_person": "Cara-Delevingne",
+      "shared_phrases": [],
+      "target": "[diagnosis] She leads with her own sadness and longing for what is missing",
+      "other": "[diagnosis] Her own account of the modelling decade is almost entirely about that."
+    },
+    {
+      "score": 0.015,
+      "other_person": "Cara-Delevingne",
+      "shared_phrases": [],
+      "target": "[diagnosis] Spiro has put the shared question in her own words.",
+      "other": "[counter-typing] sustained on-record framing of her own motive as escape from pain or reality full stop"
+    },
+    {
+      "score": 0.015,
+      "other_person": "Phoebe-Bridgers",
+      "shared_phrases": [],
+      "target": "[diagnosis] yet calls making herself needed the biggest theme of her life.",
+      "other": "[diagnosis] inside a child who expected music to become her life and started building toward it."
+    }
+  ]
+}

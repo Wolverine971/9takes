@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "0751ee70e4adbb996a1cecd857e21f6c938e39b3691a458396341956a5dff384",
+  "evidence_sha256": "424793da85772e3b2c38733fc13fc157dcd9eaa4294f12623ec08538b8c3c898",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "What she describes now runs the other way.",
+      "problem": "The leading read is decided by a then/now split, and 'now' is never dated. The same undated anchor recurs in the Four case ('And when she expects to lose someone now, she withdraws instead of giving more'), the Two strain ('tells the helper story in the past tense') and the verdict ('the pattern she describes in the present tense'). Every quote behind 'now' comes from mid-2026: Zach Sang (June 30), Z100 (July 8) and Lyrical Lemonade (August 12). A reader in 2028 or 2031 will take 'now' as current, so the thesis silently describes a present she may have left. That fails the five-year test on the argument itself, not on furniture.",
+      "acceptance_test": "Every 'now', 'present tense' and 'past tense' in the type argument (the Making herself needed close, the Leading read, Closest rival and verdict paragraphs) is anchored to a dated period, e.g. 'in her mid-2026 album interviews'. No undated 'now' remains in any sentence that carries the Four, Two or Three case."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "Four leads because the pattern she describes in the present tense, withdrawal into longing and then into song, is the Four's.",
+      "problem": "The open-case durability anchor requires that what the page presents as known stays true if a later run settles on the alternative. The tense split this sentence treats as deciding is contradicted by the article's own record. The helper appears in the present tense: 'I sometimes mirror the people around me to be kept around' (Genius, February 2026), 'So if I love somebody I'll do anything' and 'I always feel like I give a lot of myself' (Zach Sang, June 30, 2026, S13). The withdrawal is partly told in the past tense: 'I was completely opposed to being in a relationship' (S13, rendered in the draft as 'She was') and 'I was closed off' (Lyrical Lemonade, August 2026, S16). If a 2027 refresh settles on Two, this sentence and 'in nearly every telling, the helper is who she used to be' become the page's visible errors.",
+      "acceptance_test": "The verdict and the Two 'What strains it' paragraph either name the present-tense helper statements and the past-tense withdrawal statements as counterevidence, or rest the Four lead on a basis the quoted record supports without exception (e.g. what she volunteers first, what she says singing gives her). 'In nearly every telling' survives a count against the quoted sources or is softened. C11, C84 and C86 inferences match the revised wording."
+    },
+    {
+      "id": "future-03",
+      "severity": "major",
+      "passage": "Neither piece shows that money or connections bought her career, and no response from her has been found.",
+      "problem": "Undated absence claims sit beside a sensitive allegation. The body says 'no response from her has been found', 'No sibling, school friend or longtime collaborator has spoken' and 'The people who have described her on record are her manager, critics who saw one show, and her grandmother', all in the present perfect with no date. The parents FAQ dates the nepotism version ('by October 14, 2026'), but the body's only anchor is the 'Research closed' line about 70 lines earlier. Her answering the framing is one of the five settle signals. If she does so before a refresh, the page will tell readers that a real person has not responded to a nepotism charge when she has. C64, C65 and C82 carry triggers, so the record is right and the prose is not.",
+      "acceptance_test": "Each absence claim in the body (the nepotism paragraph and the who-has-described-her paragraph) carries an absolute date ('as of October 14, 2026') or a past tense tied to the research date, matching the parents FAQ. The 'people who have described her on record' sentence is covered by C82 or by a new time-sensitive claim with the same trigger."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "On October 13 she opened the North American leg of her My House [world tour](https://inmusicblog.com/news/sienna-spiro-my-house-world-tour-2026-2027/) at Nashville's Ryman Auditorium.",
+      "problem": "The sentence states a completed event, but its only source is S38, a June 9, 2026 announcement ('will begin on October 13, 2026'; the record's context notes 'Dates can change'). C72 is classed 'observed', yet its own trigger asks to confirm the leg 'took place as announced'. A web search on 2026-10-14 returned only pre-show listings (Ryman event page, ticket resellers) and no post-show report. The date also lacks a year. This is the most perishable detail in the orientation, and it neither deepens nor tests the type argument: the VMA and the UK No. 1 already explain why people are searching.",
+      "acceptance_test": "Either cite a source dated on or after October 13, 2026 that confirms the show, or recast the sentence as scheduled ('was scheduled to open ... on October 13, 2026'), or cut it. Any retained date includes the year. C72's class matches its source: 'observed' only if a post-event source is cited."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "A public record about a year old can't yet separate them.",
+      "problem": "The record's age is given in relative terms in the 60-word type answer. The same sentence is repeated in the type FAQ, and the intro has 'Her public record is about a year old'. This answer is the passage most likely to be lifted into search snippets and FAQ JSON-LD, and it becomes false within months. The 2026-12-01 next_review can slip, as refreshes in this pipeline often do.",
+      "acceptance_test": "The type answer, the type FAQ and the intro state the record's age in absolute terms (e.g. 'Her public record, nearly all from 2025-26 promotion, can't yet separate them'). The answer stays at or under 60 words, the FAQ still mirrors it, and the C74 and C76 passages are updated."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "Does a snub or a loss bring redoubled effort (Three), feeling unseen while staying the course (Four), or concern for her team and fans (Two)?",
+      "problem": "The Grammy settle signal reads only failure outcomes. She is a VMA Best New Artist winner with a UK No. 1, so a nomination or a win is a live outcome, and the signal says nothing about how a win would separate the types. It is also a one-off dated catalyst. After February 7, 2027, the body and the FAQ describe as upcoming an event that has passed. open_case.next_review (2026-12-01) falls before the ceremony, and no review is scheduled for it beyond C88's trigger.",
+      "acceptance_test": "The signal gives a reading for a nomination or win as well as for a snub or loss, e.g. credit to team and fans (Two), proof and the next target (Three), ambivalence or feeling unreal or misread (Four). Alternatively it is generalized to 'the next major award or snub' so it survives 2027. The evidence record schedules a review after February 7, 2027."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "called her October 9 Austin City Limits set",
+      "problem": "Several dates lack a year and several labels describe a present status. Dates without a year: 'her October 9 Austin City Limits set', 'told Euphoria in August', 'To Zach Sang in June'; the AP quote carries no date at all (S14 is July 3, 2026). Present-status labels: 'Variety's chief music critic, Chris Willman' is a job title as of March 2026 (C36 is marked stable with no trigger), and 'who has managed her since she was 16' is in the present perfect. Each reads fine today and degrades as years accumulate.",
+      "acceptance_test": "Every date in the body carries a year, and the AP interview is dated (July 2026). Willman's title is anchored to the review ('wrote in Variety in March 2026', or 'then Variety's chief music critic'). Maslin's tenure is anchored to July 2026 ('who had managed her since she was 16')."
+    },
+    {
+      "id": "future-08",
+      "severity": "minor",
+      "passage": "She has called the visitor feeling the story of her life, and making herself needed its biggest theme.",
+      "problem": "Under the open-case anchor, the closing 'what should stand' paragraph is the page's durable core. Its first sentence is an unquoted paraphrase that does not appear in the claims inventory. The nearest support is Euphoria, August 2026 (S09: 'I've always seen myself as that kind of character or figure in so many different situations throughout my life') and Z100 (S18: 'the biggest theme throughout my whole life'). 'The story of her life' reads like her own label, and no source shows her using it.",
+      "acceptance_test": "The sentence is rephrased to what she said, e.g. that she has seen herself as that visitor 'throughout my life' (Euphoria, August 2026), and a claim citing S09 and S18 covers the passage."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Then she sang it at a school assembly, in front of the children who had bullied her.",
+      "reason": "A durable hook. It opens on a childhood act rather than the VMA or a chart week, so it survives any future news cycle and any settling of the type."
+    },
+    {
+      "passage": "Research closed on October 14, 2026. Two paywalled 2026 interviews, including The Telegraph's of May 2026, were not read.",
+      "reason": "An explicit date stamp and statement of limits, which makes the page honest in five years. Keep the absolute date even if the sentence moves; future-03 asks that this date be carried into the body's absence claims."
+    },
+    {
+      "passage": "Melancholy and candor are her genre's currency. That doesn't make hers false. It makes them weak evidence of motive.",
+      "reason": "A reading of her incentives that stays true whatever she releases next or however the case settles. It is the page's most reusable piece of reasoning."
+    },
+    {
+      "passage": "**A friendship that cools after fame.** Does she describe doing more, initiating and being the therapist friend, and being hurt it wasn't returned (Two)? Or pulling back, grieving privately and writing about being temporary (Four)?",
+      "reason": "A concrete, observable settle signal tied to no date, which stays useful at any future refresh. It is a model for the other signals."
+    },
+    {
+      "passage": "And when Zach Sang asked why she sings, if not for the applause, she didn't reach for a theory. \"I have to do it,\" she said.",
+      "reason": "A sourced ending that makes no claim about her type, so it stays true whichever way the case settles."
+    }
+  ],
+  "assessment": "Five-year test, applied to an open case. Without the latest events the thesis stands. Remove the VMA (September 27, 2026), the Austin City Limits set (October 9), the Ryman opening (October 13) and the October 2 Billboard interview, and the Four/Two/Three case still rests on February to August 2026 interviews and the assembly story from age 10. The hook is durable. Settle signals 1, 2, 4 and 5 are observable and undated, and open_case.next_review is set. Every time-sensitive claim I checked carries a review trigger (C28, C29, C64, C65, C66, C72, C74, C75, C76, C82, C83-C86, C88, C89). The main durability weakness is in the prose. The leading read is decided by a then/now tense split, 'now' is never dated (future-01), and the split is overstated against the article's own quotes (future-02). The one stated discriminator is therefore the sentence most likely to look wrong when the case is reopened. The absence claims on the nepotism framing are undated in the body (future-03), and the Ryman opening is stated as fact from a June announcement (future-04). All of these are cheap to fix and none needs new research. Risks: I retain sensitive_allegations and contested_typing and add no new risk. Similarity advisory: not tripped (max 0.095, against Freddie Mercury, on a generic heart-triad sentence with no shared phrases); the matches are ordinary type vocabulary, and I found no meaningful reuse of argument. Limitation: a web search on 2026-10-14 found only pre-show listings for the Ryman date, no post-show report."
+}

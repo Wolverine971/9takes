@@ -334,9 +334,9 @@ Data pulled October 7, 2026, from the 451 published profiles on 9takes. The busi
 
 **Business-adjacent (19)**
 
-- Type 1: Anna Wintour, Ryan Holiday
+- Type 1: [Anna Wintour](/personality-analysis/anna-wintour), Ryan Holiday
 - Type 2: Simon Sinek
-- Type 3: David Beckham, Jared Kushner, Kris Jenner, Taylor Swift, Tony Robbins, Tyler Perry, Vivek Ramaswamy
+- Type 3: [David Beckham](/personality-analysis/david-beckham), Jared Kushner, Kris Jenner, Taylor Swift, Tony Robbins, Tyler Perry, Vivek Ramaswamy
 - Type 4: [Emma Chamberlain](/personality-analysis/emma-chamberlain)
 - Type 5: Lex Fridman, Tyler Cowen
 - Type 7: Kate Hudson, Kyle Forgeard, Ryan Reynolds

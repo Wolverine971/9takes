@@ -1,0 +1,37 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session d61fd155-2d33-4750-b3ee-f4144a42dd09 to write outputs
+I've written both files for the Sienna Spiro draft stage, `draft.md` and `evidence-draft.json`. Both pass the pipeline's own draft and evidence checks with no blockers. Nothing else in the repo changed and nothing was published.
+
+**What the draft is**
+- **Format:** an open case. The leading read is Type 4 at low confidence, Type 2 is the closest rival and Type 3 is still in play. Types 6 and 9 are covered briefly and set aside.
+- **The tension it's built on:** she calls herself "naturally sad" and says she has always felt like a visitor in people's lives, which reads like a Four. But in March 2026 she said she "had to make myself like needed" and called being the "therapist" friend "the biggest theme throughout my whole life," which reads like a Two.
+- **Opening:** at 10 she sang her song about being bullied, "Lady in the Mirror," at a school assembly in front of the kids who bullied her. She tells that memory both ways: it was "like medicine," and her mum filming while the room turned around "was so validating."
+- **Strongest story:** in 2025, by her account, she imagined a man who had promised to visit standing outside her New York apartment every day. That became "Great Expectation," her UK No. 1.
+- **Required sections:** the "What would settle it" section lists five signals, including the Grammy nominations on November 16, 2026 and the ceremony on February 7, 2027. The type answer is 56 words, and the titles and FAQs use "leading read" language.
+- **Length:** 2,736 words, over the roughly 2,500 target for open cases. I cut it down from 3,611 and left the editor a list of what to cut first.
+
+**Evidence file**
+- 85 claims are tied to exact passages in the article or its FAQs.
+- All 41 sources are kept, and every source a claim cites was actually opened.
+- Six research claims the draft doesn't use were removed. The type reasoning was edited to match, and the type call itself didn't change.
+- Every quotation was matched by script against the saved source texts and video captions.
+- For 11 videos I also ran a machine transcription of the audio (Whisper), and it agreed with every quote I printed from those clips. Where the two versions differed by a word, I paraphrased or printed only the words they shared.
+
+**Things worth knowing before review**
+- **Not checked against audio**, so the verifier should re-listen to these:
+  - "because it's actually exhausting" (Z100, around 11:20)
+  - "my least favorite emotion" (Genius)
+  - the depression and superstition lines (iHeartRadio)
+  - the sister lyric (Cosmopolitan)
+  - the TODAY Australia line about "knowing you're temporary to someone"
+- **Grandmother quote:** her grandmother's line on Capital has no speaker label in either transcription. It is credited to her because it directly answers the host's question to "Grandma Sheila."
+- **One sentence changed to stay honest:** the line about unread paywalled interviews no longer names Music Week's On The Radar profile. No source I had opened backs that mention, so it now just says two 2026 interviews, including The Telegraph's, weren't read.
+- **Sensitive material:**
+  - The older man is quoted only in her own words: "not healthy" and "did not have good intentions with me." Nothing about who he is.
+  - Her mother's illness is left out.
+  - Her health is reported only as she disclosed it, and the article doesn't link it to a type.
+  - "Nepo baby" and "industry plant" are attributed to Moment and the Austin American-Statesman, alongside the point that neither piece shows money bought her career.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/`:
+- `draft.md`
+- `evidence-draft.json`

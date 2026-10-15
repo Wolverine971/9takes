@@ -1,0 +1,1140 @@
+{
+	"schema_version": 3,
+	"content_sha256": "12a6e30a6d2df0131b508df8578f7a0a06128b2a45acf1bb975be6bb5df66731",
+	"evidence_sha256": "2ff878609a8773b7ff6ed6e30137839bf7e641e071b6244cadcffa76e8549d40",
+	"status": "revise",
+	"findings": [
+		{
+			"id": "verify-01",
+			"severity": "blocker",
+			"passage": "Leading read: Enneagram Type 2, held loosely, at low confidence. Type 4 is the closest rival and Type 3 is still live. She calls making herself needed the biggest theme of her life, yet builds her songs on sadness and longing. Her interview record, nearly all from 2025-26 promotion, can't yet separate them.",
+			"problem": "The type thesis changed after the frozen review. All six roles reviewed a draft whose leading read was Type 4 (draft.md enneagram '4'; evidence-draft type_hypothesis.type 4). The edit moved the lead to Type 2 in enneagram, title, meta_title, description, persona_title, the 60-word answer, the FAQs, type_hypothesis and open_case. It also set risks.major_thesis_change, which no reviewer flagged. fan-01, critic-01 and enneagram-02 asked for or allowed this, but their own acceptance tests say a lead change must hold for --refresh --expanded-review, and the resolution says the edit does not absorb it. No independent reviewer has yet challenged the Two-led argument as written: its recurrence count (verify-02), its clinging/helping split (verify-03), or whether the longing pattern is better read as Four. On the opened record the Two lead looks defensible to me (SSENSE November 2025, Z100 March 2026, Capital April 2026, Zach Sang June 2026), but that does not replace the required jury.",
+			"acceptance_test": "The run is resumed with scripts/run-blog-pipeline.sh Sienna-Spiro --refresh --expanded-review. All six roles review the Two-led draft and evidence, their findings are adjudicated, and a fresh verification passes with the leading type unchanged from the reviewed draft. Any further change of lead goes through the same hold."
+		},
+		{
+			"id": "verify-02",
+			"severity": "minor",
+			"passage": "The Two case rests on her most explicit self-description, returned to in at least five interviews between November 2025 and June 2026: she made herself needed because she didn't think people would want her otherwise.",
+			"problem": "The colon makes the five interviews repeat a specific belief. Only SSENSE (November 2025: 'nobody really wanted to be around me ... overcompensating and giving a lot of myself') and Z100 (March 2026: 'I had to make myself like needed ... I never thought people would want me otherwise if they didn't need me') state it. Genius (February 2026: mirroring 'to be kept around'), Capital (April 2026: if she stopped initiating, friendships 'wouldn't happen') and Zach Sang (June 2026: 'I give a lot of myself ... taken advantage of') describe related conditional belonging or giving without that belief. The count overstates the strongest Two evidence.",
+			"acceptance_test": "The sentence separates the two explicit statements from the three related ones (for example 'stated outright in November 2025 and March 2026 and echoed in three more 2026 interviews'), or drops the count. C84's inference says the same."
+		},
+		{
+			"id": "verify-03",
+			"severity": "minor",
+			"passage": "So the change she describes runs from clinging, to closing off, to letting things end. The helping is the one part she never describes dropping.",
+			"problem": "In Z100 (March 2026, ~08:58-11:27) she first describes always calling, texting, 'making the effort' and being the therapist friend. She then says she would 'hold on so tightly or be too much' that people left, and that she 'had to learn how to not be like that because it's actually exhausting.' The referent of 'like that' can include the over-giving, not only clinging. 'What she says she has changed is something else' and 'never describes dropping' therefore read one ambiguous referent one way. The three-stage order is also the article's synthesis across interviews, not her own sequence. The Two lead does not depend on this sentence (it rests on the 2026 present-tense statements), but the hinge claims more than the transcript shows.",
+			"acceptance_test": "The hinge says what the record supports without the absolute, for example that she never clearly describes dropping the helping and still described it in the present tense in June 2026. Or it notes that her March 2026 'not be like that' may cover being 'too much' as well as clinging. The C53 and C11 inferences record the ambiguity."
+		},
+		{
+			"id": "verify-04",
+			"severity": "minor",
+			"passage": "On July 8, 2026, she put the new stance to [Z100](https://www.youtube.com/watch?v=aJRofzOtKmg): \"So be it. Allow it to end. Like if you don't want me, don't have me.\"",
+			"problem": "July 8, 2026 is the video's YouTube upload date (yt-dlp metadata 20260708), not an established recording date. The same applies to 'she told [Billboard](https://www.youtube.com/watch?v=FknTvkR0FmY) on October 2, 2026' (upload 20261002). Stating an upload day as the day she spoke adds precision the source doesn't establish.",
+			"acceptance_test": "Both sentences use the month ('In July 2026', 'in October 2026') or say 'in a video published on ...'. The S19 and S15 locators record that the date is the upload date."
+		},
+		{
+			"id": "verify-05",
+			"severity": "minor",
+			"passage": "\"The Visitor\" is about \"knowing you're temporary to someone,\" she said on [TODAY in Australia](https://www.youtube.com/watch?v=e5I8NTEnrQw) in April 2026, \"and knowing you probably care about that person more than they care about you.\"",
+			"problem": "In the audio (TODAY ~02:24-02:37, confirmed by my Whisper pass) the two fragments are separated by 'And this like fear of impermanence'. The article splits the quotation around the attribution so they read as adjacent, with no marker for the omitted phrase. The meaning is unchanged, but the adjacency is implied rather than true. Separately, in 'I'm a very loyal and I can be very valuable to some people' (Z100, July 2026, ~14:48), the captions have 'can' but my independent Whisper pass hears 'could'. It is one word with the same meaning, but it is unresolved.",
+			"acceptance_test": "The TODAY fragment either includes the omitted phrase or the gap is marked, for example 'and, she added, \"knowing you probably care ...\"'. The Z100 'can'/'could' is settled by a human listen, or only the shared words are printed (for example 'very loyal' ... 'very valuable to some people'). No other split quotation implies adjacency the source lacks."
+		},
+		{
+			"id": "verify-06",
+			"severity": "minor",
+			"passage": "A third thread is drive.",
+			"problem": "checkDraft counts about 3,280 words, roughly 30% over the open-case target of about 1,200-2,500. The standard says not to pad a thin record. The drive section and the limits section carry the most outlet-by-outlet attribution and process detail, and the orientation paragraph stacks chart facts. Pace suffers more than the argument.",
+			"acceptance_test": "At the refresh the body is trimmed toward about 2,500 words, mainly in the drive, limits and orientation passages, without cutting any sourced fact the type argument or the settle signals use."
+		}
+	],
+	"research_tasks": [
+		"Run scripts/run-blog-pipeline.sh Sienna-Spiro --refresh --expanded-review so the six roles review the Two-led draft (verify-01). Ask the jury to test the Two lead against the longing pattern specifically, and to check verify-02 and verify-03.",
+		"Open The Telegraph interview of May 20, 2026 and the Music Week On The Radar profile of January 20, 2026 through subscriptions. Both are disclosed as unread.",
+		"Find and transcribe the original Vevo DSCVR interview; the 'cooler than I was' quotation is still secondhand via Hey Alma.",
+		"Open the ELLE interview of April 2026 about a breakup, which bears on settle signal 1.",
+		"Find an official lyric sheet for 'Pure' before quoting its mother or sister lines (captions and Cosmopolitan audio garble them).",
+		"Look for on-record testimony from Omer Fedi, Sam Smith, her sisters or ELAM contemporaries (settle signal 4).",
+		"After November 16, 2026 (nominations) and February 7, 2027 (ceremony), review her award-cycle statements against settle signal 3.",
+		"Verification method note: on 2026-10-14 YouTube blocked live caption fetches from this IP. Video quotations were checked against the research-stage timestamped caption copies and against my own Whisper medium.en transcription of the audio (large-v3-turbo for the suit passage). A human listen to Zach Sang ~27:15-27:25 would settle the speaker of 'I'm actually so stupid sometimes' beyond doubt."
+	],
+	"claim_checks": [
+		{
+			"claim_id": "C01",
+			"verdict": "supported",
+			"reason": "TikTok oEmbed (live, 2026-10-14) returns her caption 'And it's my birthday so you should definitely make a video #thankyou #20'; video ID decodes to 2025-09-28 19:31 UTC. Wikipedia infobox (raw wikitext, live) gives 2005-09-28, born in London. Statesman (Oct 10, 2026) calls her 21."
+		},
+		{
+			"claim_id": "C107",
+			"verdict": "supported",
+			"reason": "Wikipedia Career section (live): 'In 2021, at age 16, Spiro began posting videos of herself singing on ... TikTok' and 'debut single, \"Need Me\", on 24 May 2024'. Official Charts (live) independently dates 'Need Me' to May 2024."
+		},
+		{
+			"claim_id": "C66",
+			"verdict": "supported",
+			"reason": "Same evidence as C01; 21 in October 2026 agrees with the Statesman's \"21-year-old\" on Oct 9, 2026. Dated and carries a trigger for September 2027."
+		},
+		{
+			"claim_id": "C67",
+			"verdict": "supported",
+			"reason": "Birth date 2005-09-28 fixed by her own #20 post on 2025-09-28 and the Wikipedia infobox, which cites that post."
+		},
+		{
+			"claim_id": "C02",
+			"verdict": "supported",
+			"reason": "Wikipedia Early life (live): 'the daughter of Arabella (née Bodie) and Glenn Spiro'; Statesman (live): 'the daughter of jeweler Glenn Spiro'. Stated as background, not motive."
+		},
+		{
+			"claim_id": "C68",
+			"verdict": "supported",
+			"reason": "Wikipedia names her mother Arabella, Glenn Spiro's second wife. FAQ wording matches."
+		},
+		{
+			"claim_id": "C07",
+			"verdict": "supported",
+			"reason": "NYLON (June 11, 2026, live): first song at 10, 'Lady in the Mirror', both printed quotations exact, performed 'in front of all her bullies at a school assembly'. Jonathan Ross audio (my own Whisper medium.en pass on the audio (2026-10-14)): 'in assembly after they bullied me. I thought I'd sing it in front' of them."
+		},
+		{
+			"claim_id": "C69",
+			"verdict": "supported",
+			"reason": "Notion (published 2025-11-28, live via r.jina.ai): quotation exact, in the bullying paragraph."
+		},
+		{
+			"claim_id": "C37",
+			"verdict": "supported",
+			"reason": "NYLON live text: 'anytime someone was singing on stage, everyone would look behind to see the mum. That was kind of a sign that you're killing it' and 'My mum was there filming ... That was so validating.' Exact and in the assembly paragraph."
+		},
+		{
+			"claim_id": "C04",
+			"verdict": "supported",
+			"reason": "Official Charts (live): 'released Die on This Hill on 10 October'. NYLON: 'TikTok quickly grabbed hold of the song's melodramatic bridge'. Wikipedia singles table (live; columns UK ... US): UK 9, Billboard Hot 100 19."
+		},
+		{
+			"claim_id": "C70",
+			"verdict": "supported",
+			"reason": "Wikipedia: 'Visitor, on 3 July 2026'. Vogue's release-day interview is dated July 3, 2026."
+		},
+		{
+			"claim_id": "C05",
+			"verdict": "supported",
+			"reason": "Billboard (live): VMAs at the Peacock Theater on Sept. 27, 2026; she 'took home' best new artist; 'Great Expectation' 'has just scored its third consecutive week at No. 1 on the U.K.'s Official Singles Chart'."
+		},
+		{
+			"claim_id": "C71",
+			"verdict": "supported",
+			"reason": "Billboard report of Sept. 27, 2026 (third consecutive week at No. 1) places the No. 1 in September 2026; Wikipedia singles table shows UK 1."
+		},
+		{
+			"claim_id": "C108",
+			"verdict": "supported",
+			"reason": "Plain description consistent with Official Charts ('soulful single'/'soulful ballad'), Interview's headline ('Bringing the Sixties Back') and Rolling Stone UK's 60s styling. Description only."
+		},
+		{
+			"claim_id": "C36",
+			"verdict": "supported",
+			"reason": "Variety (live): 'the real point here is that Spiro sounds like a sequel to Adele.' Review of the March 3, 2026 Troubadour show."
+		},
+		{
+			"claim_id": "C73",
+			"verdict": "supported",
+			"reason": "Her visitor definitions check out: Capital, April 2026 ('if you don't show up in that specific way you're expired to them', my own Whisper medium.en pass on the audio (2026-10-14)); Genius, February 2026 ('mirror the people around me to be kept around', my own Whisper medium.en pass on the audio (2026-10-14)); Z100, March 2026 (made herself needed); TODAY (caring more than the other person). Rolling Stone UK ties 'The Visitor' to ADHD. 'Usually' is fair."
+		},
+		{
+			"claim_id": "C74",
+			"verdict": "supported",
+			"reason": "Earliest first-person interview opened is Principle (March 10, 2025, two weeks after the EP); latest is Billboard News (uploaded Oct 2, 2026). The EP (Feb 2025) and album (July 2026) cycles span nearly all of them. Limited to the interview record, which the sentence says."
+		},
+		{
+			"claim_id": "C75",
+			"verdict": "supported",
+			"reason": "S33 (Telegraph, May 20, 2026) is cited by Wikipedia and paywalled per the research log; S34 (Music Week On The Radar, Jan 20, 2026) is subscriber-only. Neither is cited for any printed claim. Dated disclosure."
+		},
+		{
+			"claim_id": "C76",
+			"verdict": "qualified",
+			"reason": "The type answer matches the body and the evidence record (Two leads, Four rival, Three live, low confidence, 53 words, FAQ mirrors it). Its supporting quotations check out. Qualified because this leading read was set by the editor after the frozen review and has not yet faced the six-role jury (verify-01)."
+		},
+		{
+			"claim_id": "C77",
+			"verdict": "supported",
+			"reason": "Standard heart-triad convention (2, 3, 4; shame). Labeled as a model convention and tied to her own words in the next paragraph."
+		},
+		{
+			"claim_id": "C110",
+			"verdict": "supported",
+			"reason": "Genius 'Die On This Hill' (uploaded Feb 13, 2026), my own Whisper medium.en pass on the audio (2026-10-14): 'there's a lot of fear of rejection and fear of embarrassment in this song, and I think it's masked by pride', followed by 'in verse two I am all of those things'. Captions double the 'by'; dropping it is a stutter fix."
+		},
+		{
+			"claim_id": "C39",
+			"verdict": "supported",
+			"reason": "Genius 'You Stole the Show' (uploaded Mar 4, 2026): 'I hate feeling embarrassed. I think it's my least favorite emotion.' My Whisper medium.en pass on the audio (03:40-04:40) confirms both 'I'm kind of jealous of my own imagination' and 'I hate feeling embarrassed. I think it's my least favorite emotion.'"
+		},
+		{
+			"claim_id": "C06",
+			"verdict": "supported",
+			"reason": "Vogue (July 3, 2026, live): exact, answering 'You've said in the past that you have an innate sadness in you.'"
+		},
+		{
+			"claim_id": "C93",
+			"verdict": "supported",
+			"reason": "Vogue live: 'My dad's this way, my grandma's this way, and I don't think it's a bad thing. I think it's a very normal, human way to be.' The printed pieces are exact; the omitted 'My dad's this way, my grandma's this way' sits between them and does not change the sense."
+		},
+		{
+			"claim_id": "C40",
+			"verdict": "supported",
+			"reason": "Zach Sang (uploaded June 30, 2026). ~47:06: 'I'm numb quite a lot, and that is what makes me feel like a human being', where 'that' is singing; ~54:55-55:05: 'singing has really been the way I felt like a real person ... that I'm worth something'. Two moments in the same interview, joined fairly. My Whisper medium.en pass confirms 'I'm numb quite a lot and that is what makes me feel like a human being' (45:35-48:35 segment) and 'singing has really been the way I felt like a real person ... that I'm worth something' (54:15-55:30)."
+		},
+		{
+			"claim_id": "C08",
+			"verdict": "qualified",
+			"reason": "TODAY (uploaded Apr 21, 2026): 'It's a song about that feeling of just like knowing you're temporary to someone. And this like fear of impermanence and knowing you probably care about that person more than they care about you.' My Whisper medium.en pass (02:10-02:50) confirms the words, including the continuation the edit stage flagged as caption-only. Words are hers. Qualified because the article joins the two fragments as if adjacent and drops 'And this like fear of impermanence' without marking the gap (verify-05). Meaning is unchanged."
+		},
+		{
+			"claim_id": "C42",
+			"verdict": "supported",
+			"reason": "Zach Sang ~45:46-46:02: 'I was living in New York a little bit um last year when I was opening for Sam ... I was talking to the older guy at that time ... he promised me he would come.' Recorded June 2026, so 'last year' is 2025; she says 'I was 19'. Wikipedia lists Sam Smith, To Be Free: New York City (2025)."
+		},
+		{
+			"claim_id": "C21",
+			"verdict": "supported",
+			"reason": "Zach Sang ~46:15-47:35: walking down the apartment stairs, imagining 'he was standing outside the door', 'play out what I thought would happen if he was there', pages at a café, 'waiting for this guy to come who never came', crying at Smalls jazz club. Lyrical Lemonade (my own Whisper medium.en pass on the audio (2026-10-14)) independently repeats the stairs and imagining. My Whisper medium.en pass on 45:35-48:35 confirms every printed fragment."
+		},
+		{
+			"claim_id": "C43",
+			"verdict": "supported",
+			"reason": "Zach Sang ~47:36-47:40: 'I was acting like I was a middle-aged woman. I was 19' with a laughter tag. My Whisper medium.en pass on 45:35-48:35 confirms every printed fragment."
+		},
+		{
+			"claim_id": "C78",
+			"verdict": "supported",
+			"reason": "Zach Sang ~47:10-47:51: 'I walked to the studio that day, past the apartment, and I remember I had the title, Great Expectation ... it just like came to me as I walked by it on my way to the studio.'"
+		},
+		{
+			"claim_id": "C24",
+			"verdict": "supported",
+			"reason": "Zach Sang ~43:45-43:56: 'It was not healthy and he did not have good intentions with me.' My Whisper medium.en pass (43:30-44:30) confirms it. Unnamed; the article omits the age-gap detail and does not speculate."
+		},
+		{
+			"claim_id": "C79",
+			"verdict": "supported",
+			"reason": "Labeled interpretation built on C21, C94 and C44, all verified. She frames it herself in Lyrical Lemonade: 'you see in some people what you want to see' and 'I just pretend something's real when it's not'."
+		},
+		{
+			"claim_id": "C94",
+			"verdict": "supported",
+			"reason": "Interview (Mar 17, 2026 conversation, live via r.jina.ai): 'That's what \"You Stole the Show\" is about. It's about living it every night and just imagining what would happen if that person was there.' Context: reliving emotions on stage. Printed fragment exact."
+		},
+		{
+			"claim_id": "C45",
+			"verdict": "supported",
+			"reason": "Genius 'You Stole the Show' ~03:35-04:00: an imagined scene with 'my ex ... outside the venue', then 'I'm kind of jealous of my own imagination'. The article now ties it to that ex, correctly. My Whisper medium.en pass on the audio (03:40-04:40) confirms both 'I'm kind of jealous of my own imagination' and 'I hate feeling embarrassed. I think it's my least favorite emotion.'"
+		},
+		{
+			"claim_id": "C44",
+			"verdict": "supported",
+			"reason": "Lyrical Lemonade (uploaded Aug 12, 2026), my own Whisper medium.en pass on the audio (2026-10-14): 'I think I've been let down a lot by people. And so as like a protective thing, I just, I just pretend something's real when it's not ... I've had that so many different times'. The dropped repeat 'I just' is disclosed."
+		},
+		{
+			"claim_id": "C13",
+			"verdict": "supported",
+			"reason": "Zach Sang ~20:14-21:04: the line 'used to do it pure, for the love of the song ... now I think about applause' is 'where the title came from'; 'is anyone going to clap? ... and they didn't ... This is other people's agenda being pushed into mine.' My Whisper medium.en pass (20:30-21:30) confirms 'and they didn't', 'other people's agenda being pushed into mine' and 'I just have to do it'. Cosmopolitan, per my own Whisper medium.en pass on the audio: 'Probably the whole of the song, Pure. That is definitely my most personal song'."
+		},
+		{
+			"claim_id": "C62",
+			"verdict": "supported",
+			"reason": "iHeartRadio (uploaded July 2, 2026) ~05:59-06:37: 'I wrote that I was very depressed at the time'; her mother was ill at home in London while she wrote in LA, and 'I had a lot of guilt about that'. My Whisper medium.en pass (05:45-07:05), on audio I downloaded, confirms 'I was very depressed at the time', 'my mom had a brain tumor and she was at home in London, Valentine's in LA. And I had a lot of guilt about that'. One clause, in her framing, no medical detail."
+		},
+		{
+			"claim_id": "C47",
+			"verdict": "supported",
+			"reason": "Billboard News (uploaded Oct 2, 2026) ~09:03-09:16: asked about 'I wish I was real' in 'Pure', she says 'I'm a really existential person and sometimes I just don't feel like a real person', then 'you kind of feel depressed, am I even real'. My Whisper medium.en pass (08:55-09:45) confirms it, with no doubled 'sometimes'."
+		},
+		{
+			"claim_id": "C48",
+			"verdict": "supported",
+			"reason": "Z100 (uploaded Mar 17, 2026) ~08:28-08:42: asked why she felt like a visitor, 'I grew up larger than all of my friends in weight and people aren't very nice to be honest, especially when you're young.' My Whisper medium.en pass (08:05-10:00) confirms it word for word."
+		},
+		{
+			"claim_id": "C09",
+			"verdict": "supported",
+			"reason": "Z100 ~08:42-08:53, exact. My Whisper medium.en pass (08:05-10:00) confirms it word for word. It continues with offering to help, 'how do I make myself necessary so they actually want me there?' and 'I've been like that for ages'."
+		},
+		{
+			"claim_id": "C50",
+			"verdict": "supported",
+			"reason": "Z100 ~09:24-09:38, exact apart from the dropped repeat 'would would'. My Whisper medium.en pass (08:05-10:00) confirms it word for word."
+		},
+		{
+			"claim_id": "C80",
+			"verdict": "supported",
+			"reason": "Labeled interpretation. The Z100 answer is an explicit statement of earning a place by being needed, and the SSENSE answer repeats it."
+		},
+		{
+			"claim_id": "C51",
+			"verdict": "supported",
+			"reason": "SSENSE (dated November 12, 2025 in the page footer; live via r.jina.ai): 'nobody really wanted to be around me when I was younger ... I really struggled to keep friends, and my way of dealing with that was overcompensating and giving a lot of myself to people.' Exact."
+		},
+		{
+			"claim_id": "C22",
+			"verdict": "supported",
+			"reason": "Genius, February 2026, my own Whisper medium.en pass on the audio (2026-10-14): 'I sometimes mirror the people around me to be kept around and for people to not just see me as someone just visiting in their life.'"
+		},
+		{
+			"claim_id": "C96",
+			"verdict": "supported",
+			"reason": "Capital (uploaded Apr 13, 2026), my own Whisper medium.en pass on the audio (2026-10-14): 'it's knowing you're temporary to somebody and knowing if you don't show up in that specific way you're expired to them'. The captions repeat 'you're' three times; my independent transcription hears it once. Context: if she stopped initiating, friendships 'wouldn't happen', and 'it happens in your adult life as well'."
+		},
+		{
+			"claim_id": "C52",
+			"verdict": "supported",
+			"reason": "Zach Sang ~49:09-49:30: 'that's how I've lived and I always feel like I give a lot of myself. I'm a very like intense passionate person. So if I love somebody I'll do anything ... But I think that has, you know, been taken advantage of a bit in my life.' My Whisper medium.en pass (48:45-49:45) confirms the words, including 'been taken advantage of a bit in my life'. Present tense. Printed as two separate quoted sentences, which leaves out the middle sentence; that is acceptable."
+		},
+		{
+			"claim_id": "C53",
+			"verdict": "qualified",
+			"reason": "Z100 ~11:00-11:27: 'I was so scared of losing things and people that I would like hold on so tightly or be too much that I would end up just like people leaving ... I had to learn how to not be like that because it's actually exhausting.' My Whisper medium.en pass (10:40-11:30) confirms 'I had to learn how to not be like that because it's actually exhausting' (the draft and edit stages flagged it caption-only). Words are hers. Qualified: 'be too much' follows straight on from her account of always calling, texting and 'making the effort'. So 'like that' may cover the over-giving too, not clinging alone (verify-03)."
+		},
+		{
+			"claim_id": "C10",
+			"verdict": "supported",
+			"reason": "Zach Sang ~04:22-04:51: 'I was completely opposed to being in a relationship ... I became very closed off and I became very sad. And it's really not the way to live.' My Whisper medium.en pass (03:30-05:10) confirms it. Past tense and rejected; Lyrical Lemonade (my own Whisper medium.en pass on the audio (2026-10-14)) and AP tell it the same way."
+		},
+		{
+			"claim_id": "C97",
+			"verdict": "supported",
+			"reason": "AP (uploaded July 3, 2026) ~14:23-14:41: the Mono no aware gloss is exact; before finding it she was 'very close-minded to entering anything that might have an expiry date'. My Whisper medium.en pass (14:20-16:05) confirms the gloss and the 'expiry date' line. Zach Sang ~03:36-05:16 and the ACL TV introduction ('this whole album is about this like massive fear of impermanence I had ... it changed the way I approached things') support 'about getting out of that phase'. My Whisper medium.en pass on the ACL TV audio (32:55-34:00) confirms the 'this whole album is about this like massive fear of impermanence I had' introduction."
+		},
+		{
+			"claim_id": "C54",
+			"verdict": "supported",
+			"reason": "Z100 (uploaded July 8, 2026) ~14:08-14:26: after quoting her old stance ('I'm not getting into another friendship cuz it's going to end'), 'And you know what? So be it. Allow it to end. Like if you don't want me, don't have me.' My Whisper medium.en pass (13:50-14:30) confirms the old stance and the 'so be it' line. Context is faithful. The printed 'On July 8, 2026' is the upload date (verify-04)."
+		},
+		{
+			"claim_id": "C98",
+			"verdict": "qualified",
+			"reason": "Z100 captions ~14:48-14:54: 'I think I'm a very loyal and I can be very valuable to some people and if someone doesn't want me, that is okay.' My check (my own Whisper medium.en pass on the audio (2026-10-14) at 14:25-15:00) confirms the sentence and its place right after 'So be it ... don't have me' and 'I really understand the value of myself', but hears 'could be' where the captions have 'can be'. The context is right. The one-word difference is unresolved (verify-05)."
+		},
+		{
+			"claim_id": "C11",
+			"verdict": "qualified",
+			"reason": "The parts check out: clinging (Z100, March 2026), closing off (Zach Sang, AP, Lyrical Lemonade), letting things end (Z100, July 2026), giving in the present tense (Zach Sang, June 2026). But the three-stage order is the article's synthesis. And 'never describes dropping' the helping relies on reading Z100's 'learn how to not be like that' as clinging only, when it can also cover being 'too much' (verify-03)."
+		},
+		{
+			"claim_id": "C03",
+			"verdict": "supported",
+			"reason": "Rolling Stone UK (May 27, 2026, live): applied only to ELAM, 'I told everyone I did', wait-listed, 'I was sending them videos every day', 'Eventually they let her in'. Music Week ('emailed them as many times as it took') and Interview ('I was writing them every day, and then I got in') corroborate."
+		},
+		{
+			"claim_id": "C55",
+			"verdict": "supported",
+			"reason": "Principle (Mar 10, 2025, live): question 'You left school at 16'; answer 'I actually left for a wrong reason. I was promised by this big producer that something would happen'. Interview (March 2026, live): 'I was dropping out for quite a foolish reason'. The producer is unnamed in both."
+		},
+		{
+			"claim_id": "C56",
+			"verdict": "supported",
+			"reason": "Principle live: 'I think I never really take any time to think about things. I'm like, \"Oh, next thing, next thing, next thing.\"' Exact."
+		},
+		{
+			"claim_id": "C12",
+			"verdict": "supported",
+			"reason": "NYLON live: 'My dad was my biggest critic for the longest time'; 'She chuckles at the memory now'; it closes with 'making a fan out of her once-biggest critic: her dad ... she says, laughing.'"
+		},
+		{
+			"claim_id": "C57",
+			"verdict": "supported",
+			"reason": "Zach Sang ~13:33-13:41: in her first sessions 'people were really complimentary to my voice. And I really loved that validation. And so I would do the most. I would do every riff, every run.' My Whisper medium.en pass (13:10-14:00) confirms it."
+		},
+		{
+			"claim_id": "C17",
+			"verdict": "supported",
+			"reason": "Zach Sang ~26:56-27:23: 'not feeling accomplished. So ... my solution to that was wearing a suit to the studio'; then, after the host's 'dude, you kind of did', 'I'm actually so stupid sometimes ... Kanye used to go [to] Abbey Road and make everyone wear suits. I'm like me too.' The caption speaker mark is unreliable. The content (her suit, 'me too') makes the line hers. A Whisper large-v3-turbo pass on 27:10-27:35 hears 'Dude, you kind of did.' then 'I'm actually so stupid sometimes, honestly. I don't know why ... Kanye used to go to Abbey Road and make everyone wear suits. I'm like, me too.', continuous in her story (my medium.en pass skipped the line under laughter)."
+		},
+		{
+			"claim_id": "C38",
+			"verdict": "supported",
+			"reason": "Hey Alma (Aug 12, 2026, live), item 15, attributed to 'an interview with Vevo DSCVR'. The printed fragments are exact. The article bridges them with 'was that', which drops 'I really was feeling like I had to make up for myself', and attributes the quotation as quoted by Hey Alma. Secondhand, and labeled so."
+		},
+		{
+			"claim_id": "C14",
+			"verdict": "supported",
+			"reason": "Audacy (uploaded July 8, 2026) ~12:49-12:52: 'I hate that song. I put it out for all the wrong reasons. It's not an honest song.' The captions render the host's question as 'Back to Black'; the song is her 2024 single 'Back to Blonde' (Official Charts, Principle). My Whisper medium.en pass (12:30-13:10) hears the host say 'Back to Blonde' and confirms 'It's not an honest song.'"
+		},
+		{
+			"claim_id": "C100",
+			"verdict": "supported",
+			"reason": "Rolling Stone UK live: 'I hated the idea of people being able to see me and perceive me. So I used to wear bigger clothing'; 'My hair felt like armour. It made me feel more myself, even though it looked less like me'. The armour line is exact, and 'hated the idea of being looked at' is a fair paraphrase."
+		},
+		{
+			"claim_id": "C20",
+			"verdict": "supported",
+			"reason": "AP ~05:58-06:30: 'Well, originally it came from me being a bit lazy to be honest ... No, well now maybe now it is ... The music I grew up loving was like jazz and soul records from like the '60s and '70s ... It was to tape. And so you just did a full take.' My Whisper medium.en pass (05:45-06:45) confirms the answer and its correction. The present-day reason is now included."
+		},
+		{
+			"claim_id": "C59",
+			"verdict": "supported",
+			"reason": "Same date range as C74 (Principle, March 2025, to Billboard News, October 2026)."
+		},
+		{
+			"claim_id": "C28",
+			"verdict": "supported",
+			"reason": "Music Week (Ben Homewood, July 3rd 2026, live): 'From the very beginning, me and Sienna have focused on building a world that feels honest and long-term rather than chasing quick moments' and 'I've managed Sienna since she was 16'. Exact."
+		},
+		{
+			"claim_id": "C60",
+			"verdict": "supported",
+			"reason": "Labeled interpretation. The manager's stated strategy and the 'sad girl singer' framing in coverage (Interview headline) support the premise, and the article says it does not make her sadness false."
+		},
+		{
+			"claim_id": "C26",
+			"verdict": "supported",
+			"reason": "Rolling Stone UK live: the writer frames the ADHD diagnosis; her quotation 'That's what a lot of the music is about, like \"The Visitor\" – struggling to keep up with people and being [too] aware of everything, you end up losing people – and you're temporary' is exact, including the bracket."
+		},
+		{
+			"claim_id": "C101",
+			"verdict": "supported",
+			"reason": "Notion live: 'I'm neurodivergent and I wasn't diagnosed when I was young ... everyone would be like, \"You're so dramatic, you're so emotional, you're so sad!\"' Exact."
+		},
+		{
+			"claim_id": "C81",
+			"verdict": "supported",
+			"reason": "An explicit limit on inference. No passage in the article reads type from health."
+		},
+		{
+			"claim_id": "C29",
+			"verdict": "supported",
+			"reason": "Moment (Sam Franzini, Sep 02, 2026, live): 'they were given the typical asterisks that come with sudden fame—nepotism baby, industry plant' and 'both suggest that their success is plastic, purchased either through the industry connections their parents fostered or simply a massive amount of money'. Attributed to Moment, as the source supports."
+		},
+		{
+			"claim_id": "C102",
+			"verdict": "supported",
+			"reason": "Moment live: 'her voice's personality and heft makes Visitor a solid debut, but nothing compares to Winehouse—it feels like Spiro emulates the emotional turbulence without having experienced it herself.' Exact, with the Winehouse comparison kept."
+		},
+		{
+			"claim_id": "C103",
+			"verdict": "supported",
+			"reason": "Labeled interpretation. It attributes the counter-case to the Moment remark only, and her disclosed bullying and depression (NYLON, iHeartRadio) are verified."
+		},
+		{
+			"claim_id": "C63",
+			"verdict": "supported",
+			"reason": "Statesman (Ramon Ramirez, Oct 10, 2026, live): headline 'VMA-winner Sienna Spiro delivered one of ACL Fest's all-time best nepo baby sets'; set on 'Friday, Oct. 9, 2026'; 'Her heart is on her sleeve.' The review is a rave, as the article now says."
+		},
+		{
+			"claim_id": "C64",
+			"verdict": "supported",
+			"reason": "Both pieces, read in full live, report no evidence that money or connections bought her career. A web search on 2026-10-14 for a response from her to the nepotism or industry-plant framing found none. Dated."
+		},
+		{
+			"claim_id": "C104",
+			"verdict": "supported",
+			"reason": "Interview live: 'I ended up finding my management from posting one video.' Exact."
+		},
+		{
+			"claim_id": "C65",
+			"verdict": "supported",
+			"reason": "Same as C29 and C64; the FAQ wording matches the body and is dated October 14, 2026."
+		},
+		{
+			"claim_id": "C118",
+			"verdict": "supported",
+			"reason": "Interview: 'I ended up finding my management from posting one video.' 'Manager' versus 'management' is a fair paraphrase."
+		},
+		{
+			"claim_id": "C31",
+			"verdict": "supported",
+			"reason": "Capital, my own Whisper medium.en pass on the audio (2026-10-14): the host asks 'Grandma Sheila ... what was she like? ... Is she a nightmare?'; the answer is 'Not a nightmare, but she had her own personal opinion on most things.' The speaker is not labeled; attribution by sequence is sound. Dated 'as of that date'."
+		},
+		{
+			"claim_id": "C82",
+			"verdict": "supported",
+			"reason": "Across the opened record, the only people describing her are her manager, critics, interviewers and her grandmother. This is absence in the record, dated, with a trigger."
+		},
+		{
+			"claim_id": "C84",
+			"verdict": "qualified",
+			"reason": "The cited interviews all check out. But only SSENSE (November 2025) and Z100 (March 2026) state the belief the sentence names ('made herself needed because she didn't think people would want her otherwise'). Genius (mirroring 'to be kept around'), Capital (initiating or friendships lapse) and Zach Sang (giving, 'taken advantage of') state related conditional belonging or giving, not that belief. So 'returned to in at least five interviews' overcounts (verify-02). The 2026 present-tense part is supported."
+		},
+		{
+			"claim_id": "C115",
+			"verdict": "supported",
+			"reason": "Labeled interpretation resting on verified C21, C94 and C44 (the New York man, You Stole the Show, and the August 2026 \"so many different times\")."
+		},
+		{
+			"claim_id": "C83",
+			"verdict": "supported",
+			"reason": "Labeled interpretation. Components verified: Vogue (naturally sad), Genius (jealous of own imagination), Zach Sang and Billboard News (real person), Rolling Stone UK (armour, 'more myself')."
+		},
+		{
+			"claim_id": "C111",
+			"verdict": "supported",
+			"reason": "Vogue ('a very normal, human way to be') and Euphoria (Aug 5, 2026, live: 'Do you see yourself as a visitor in life generally?' 'Yeah! We all are visitors in a way, aren't we?') are exact. 'Most of her definitions' of the visitor feeling concern conditional belonging, per C73."
+		},
+		{
+			"claim_id": "C112",
+			"verdict": "supported",
+			"reason": "Labeled interpretation. The Three evidence (ELAM, the suit, the Vevo 'cooler' phase, 'Back to Blonde', the '60s look) is verified. 'Nobody did' clap before the 'other people's agenda' line is verified in Zach Sang ~20:46-21:04."
+		},
+		{
+			"claim_id": "C85",
+			"verdict": "supported",
+			"reason": "Labeled interpretation. The manager's campaign framing (Music Week) is verified, and nothing in the record shows these choices costing her reach."
+		},
+		{
+			"claim_id": "C116",
+			"verdict": "supported",
+			"reason": "Labeled interpretation. Her named fear (Z100: never wanted around) is relational. NYLON: 'If I hyperfixate too much on numbers and people liking me, I would be miserable.'"
+		},
+		{
+			"claim_id": "C33",
+			"verdict": "supported",
+			"reason": "Variety live: 'Spiro's song introductions made it clear that she's motivated to write songs by some deeply held anxieties'. AP ~02:25: 'I analyze everything, I'm quite an over-thinker', confirmed by my Whisper medium.en pass, as is 'I'm a control freak' (~15:41); with Music Week (live) also quoting 'I'm a control freak'. The discriminator rests on the emotions she names, which C110 and C39 verify."
+		},
+		{
+			"claim_id": "C105",
+			"verdict": "supported",
+			"reason": "Genius (mirroring 'to be kept around') is verified. The grandmother's 'her own personal opinion on most things' and Vogue's stubbornness answers support 'rarely mutes her opinions'."
+		},
+		{
+			"claim_id": "C86",
+			"verdict": "qualified",
+			"reason": "The verdict's premises check out: 'theme throughout my whole life' (Z100), present-tense giving (Zach Sang, June 2026), longing and unreality (C21, C44, C47). Qualified because the lead was changed by the editor after the frozen review and has not faced independent challenge (verify-01), and because the five-interview recurrence it leans on is overstated (verify-02)."
+		},
+		{
+			"claim_id": "C114",
+			"verdict": "supported",
+			"reason": "Zach Sang June 2026 ('I give a lot of myself ... taken advantage of') and Capital April 2026 (initiating friendships that would otherwise lapse; TODAY: 'care about that person more than they care about you')."
+		},
+		{
+			"claim_id": "C87",
+			"verdict": "supported",
+			"reason": "Interview live: 'I would love to make some upbeat songs.' Exact."
+		},
+		{
+			"claim_id": "C113",
+			"verdict": "supported",
+			"reason": "Notion live: 'To go through something myself ... and then help other people. It's the biggest gift that I have.' Z100 July 2026 captions: 'I hope there's a song in there for everyone'."
+		},
+		{
+			"claim_id": "C88",
+			"verdict": "supported",
+			"reason": "Recording Academy (May 12, 2026, live): 'Nominations for the 2027 Grammys will be announced Monday, Nov. 16, 2026'; ceremony 'Sunday, Feb. 7, 2027'. Time-sensitive with a post-ceremony trigger."
+		},
+		{
+			"claim_id": "C106",
+			"verdict": "supported",
+			"reason": "Euphoria live: 'I think I've always seen myself as that kind of character or figure in so many different situations throughout my life.' Z100: 'the biggest theme throughout my whole life'."
+		},
+		{
+			"claim_id": "C35",
+			"verdict": "supported",
+			"reason": "Zach Sang ~21:14-21:25: 'So why do you do it? If it's not for the applause, then why?' 'I have to do it ... I have to do music.' My Whisper medium.en pass (20:30-21:30) confirms 'and they didn't', 'other people's agenda being pushed into mine' and 'I just have to do it'."
+		},
+		{
+			"claim_id": "C92",
+			"verdict": "supported",
+			"reason": "Description paraphrases Vogue ('naturally sad') and Z100 ('the biggest theme throughout my whole life'), both verified. Open-case language ('Leading read ... held loosely')."
+		},
+		{
+			"claim_id": "C90",
+			"verdict": "supported",
+			"reason": "FAQ mirrors the verified body evidence (Vogue, Genius, Lyrical Lemonade, Billboard News October 2026)."
+		},
+		{
+			"claim_id": "C117",
+			"verdict": "supported",
+			"reason": "Mirrors C111, verified."
+		},
+		{
+			"claim_id": "C89",
+			"verdict": "supported",
+			"reason": "Matches the five body signals and the open_case settle_signals; Grammy dates verified (S39); dated as of October 14, 2026."
+		},
+		{
+			"claim_id": "C91",
+			"verdict": "supported",
+			"reason": "Same verified evidence as C21, C24 and C78; No. 1 in September 2026 per Billboard (C71)."
+		}
+	],
+	"source_checks": [
+		{
+			"source_id": "S01",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live fetch 2026-10-14 (curl 200 and r.jina.ai), dated 27 May 2026, Hannah Ewens. Checked: ELAM wait-list paragraph ('I told everyone I did', 'sending them videos every day', 'Eventually they let her in'); ADHD paragraph ('That's what a lot of the music is about, like \"The Visitor\" ...'); body-image paragraph ('being able to see me and perceive me ... bigger clothing'); 'My hair felt like armour' paragraph."
+		},
+		{
+			"source_id": "S02",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live via r.jina.ai 2026-10-14 (direct curl 403). Footer 'Date: November 12, 2025' (metadata says 2025-08-12; the November date fits the 'turned 20' answer). Checked the 'heartbroken by friends' answer: 'nobody really wanted to be around me ... overcompensating and giving a lot of myself to people.'"
+		},
+		{
+			"source_id": "S03",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live via r.jina.ai 2026-10-14 (direct 403). Conversation dated 'TUESDAY 6:13 PM MARCH 17, 2026'. Checked: 'I ended up finding my management from posting one video'; 'I was dropping out for quite a foolish reason'; 'That's what \"You Stole the Show\" is about. It's about living it every night ...' (in an answer about reliving emotions on stage); 'I would love to make some upbeat songs.'"
+		},
+		{
+			"source_id": "S04",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live via r.jina.ai 2026-10-14, published 2025-11-28 (text says 'now aged nineteen'). Checked the bullying paragraph ('it was like medicine. I felt so comforted') and the neurodivergence paragraph ('You're so dramatic, you're so emotional, you're so sad!'), plus 'and then help other people'."
+		},
+		{
+			"source_id": "S05",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live fetch 2026-10-14, Jillian Giandurco, June 11, 2026. Checked: 'Lady in the Mirror' at 10 and the assembly; 'no one really believed me'; 'the person in the mirror'; 'look behind to see the mum ... killing it'; 'so validating'; 'My dad was my biggest critic' with 'She chuckles at the memory now' and the closing 'once-biggest critic: her dad'; TikTok and the bridge."
+		},
+		{
+			"source_id": "S06",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live fetch 2026-10-14, Rob LeDonne, July 3, 2026 (Ludlow Hotel, release day). Checked the 'innate sadness' answer, including the continuation 'My dad's this way, my grandma's this way, and I don't think it's a bad thing. I think it's a very normal, human way to be.'"
+		},
+		{
+			"source_id": "S08",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live fetch 2026-10-14, Fabio Magnocavallo, 10th March 2025. Checked the EP reception answer ('next thing, next thing, next thing') and the 'You left school at 16' question and answer ('I was promised by this big producer that something would happen')."
+		},
+		{
+			"source_id": "S09",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live fetch 2026-10-14, Nikos Aggelis Anthis, August 5, 2026. Checked the title answer ('I've always seen myself as that kind of character or figure in so many different situations throughout my life') and 'Do you see yourself as a visitor in life generally?' / 'Yeah! We all are visitors in a way, aren't we?'"
+		},
+		{
+			"source_id": "S10",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live fetch 2026-10-14 (Music Week public write-up). Checked 'will always do my own personal social media just 'cause I'm a control freak' and the ELAM paragraph ('emailed them as many times as it took')."
+		},
+		{
+			"source_id": "S11",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live fetch 2026-10-14, Ben Homewood, July 3rd 2026. Checked Maslin's answers: 'me and Sienna have focused on building a world that feels honest and long-term rather than chasing quick moments' and 'I've managed Sienna since she was 16'."
+		},
+		{
+			"source_id": "S12",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live fetch 2026-10-14 (curl 200; r.jina.ai 403). Troubadour review, March 2026. Checked the 'nothing particularly imperious' paragraph ('motivated to write songs by some deeply held anxieties', which leads straight into her introduction of 'The Visitor', 'due to come out this Friday') and 'the real point here is that Spiro sounds like a sequel to Adele.'"
+		},
+		{
+			"source_id": "S13",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube BOlmpk_iS2k (oEmbed: Zach Sang Show; upload 2026-06-30 per yt-dlp metadata). Live caption fetch was IP-blocked on 2026-10-14. I read the research-stage caption copy with timestamps and ran my own Whisper medium.en on the audio at 03:30-05:10, 13:10-14:00, 20:30-21:30, 26:50-27:40, 43:30-44:30, 45:35-48:35, 48:45-49:45 and 54:15-55:30 (plus a large-v3-turbo pass at 27:10-27:35). All printed quotations matched, with the exceptions noted in the claim checks."
+		},
+		{
+			"source_id": "S14",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube WFpFT3u6seI (oEmbed: Associated Press; upload 2026-07-03). Research caption copy plus my Whisper medium.en at 02:15-02:45, 05:45-06:45 and 14:20-16:05: 'quite an over-thinker' (~02:27), 'a bit lazy' and the tape reason (~05:58-06:30), the Mono no aware gloss and 'very close-minded ... expiry date' (~14:31-14:53), 'I'm a control freak' (~15:41). The 'ADHD and OCD' line is the interviewer's and is not attributed to her."
+		},
+		{
+			"source_id": "S15",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube FknTvkR0FmY (oEmbed: Billboard News; upload 2026-10-02, which is the date the article prints). Research caption copy plus my Whisper medium.en at 08:55-09:45: the host asks about 'I wish I was real' in 'Pure'; her answer 'I'm a really existential person and sometimes I just don't feel like a real person', then 'you kind of feel depressed'."
+		},
+		{
+			"source_id": "S16",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube -vUlYGknBAE (oEmbed: Lyrical Lemonade TV; upload 2026-08-12). My Whisper medium.en at 17:00-18:10 (closed off, past tense, 'awful attitude') and 21:10-22:00 ('as like a protective thing, I just, I just pretend something's real when it's not ... I've had that so many different times'), which is about the New York man and 'Great Expectation'."
+		},
+		{
+			"source_id": "S17",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube z1eJ8qdFBVI (oEmbed: iHeartRadio). Audio downloaded 2026-10-14 for my Whisper medium.en at 05:45-07:05. Her 'Pure' answer: 'I wrote that I was very depressed at the time', her mother ill at home in London while she wrote in LA, 'I had a lot of guilt about that'."
+		},
+		{
+			"source_id": "S18",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube ybJbtoygyaE (oEmbed: Z100 New York; upload 2026-03-17). My Whisper medium.en at 08:05-10:00 (weight, 'never really wanted around ... make myself like needed', therapist role, 'biggest theme throughout my whole life'; the host's 'baby sibling syndrome' remarks follow and are his) and 10:40-11:30 ('hold on so tightly or be too much ... had to learn how to not be like that because it's actually exhausting')."
+		},
+		{
+			"source_id": "S19",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube aJRofzOtKmg (oEmbed: Z100 New York; upload 2026-07-08, which is the date the article prints). My Whisper medium.en at 13:50-14:30 and caption copy to 14:55: the old stance quoted, then 'So be it. Allow it to end. Like if you don't want me, don't have me', then 'I think I'm a very loyal and I can be very valuable to some people'."
+		},
+		{
+			"source_id": "S21",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube 2o4ftjqGfUM (oEmbed: Capital; upload 2026-04-13). My Whisper medium.en at 05:40-07:20 ('advice girl'; initiating; 'it's knowing you're temporary to somebody and knowing if you don't show up in that specific way you're expired to them') and 09:30-10:10 (to 'Grandma Sheila': 'Is she a nightmare?' / 'Not a nightmare, but she had her own personal opinion on most things')."
+		},
+		{
+			"source_id": "S22",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube veNH3JQNKR8 (oEmbed: Audacy Music; upload 2026-07-08). Research caption copy plus my Whisper medium.en at 12:30-13:10: 'I put it out for all the wrong reasons. It's not an honest song.' The captions render the title as 'Back to Black'; the song is 'Back to Blonde'."
+		},
+		{
+			"source_id": "S23",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube 8LUacnWswvs (oEmbed: Genius). My Whisper medium.en at 02:00-02:50: 'fear of rejection and fear of embarrassment in this song, and I think it's masked by pride ... in verse two I am all of those things ... I sometimes mirror the people around me to be kept around'."
+		},
+		{
+			"source_id": "S24",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube UgZu4Ywqvw0 (oEmbed: Genius). Research caption copy plus my Whisper medium.en at 03:40-04:40: an imagined scene with 'my ex ... outside the venue'; 'I'm kind of jealous of my own imagination'; 'I hate feeling embarrassed. I think it's my least favorite emotion.'"
+		},
+		{
+			"source_id": "S25",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube viIhdPUSXlU (oEmbed: Austin City Limits). Section 32:55-34:00 downloaded 2026-10-14 for my Whisper medium.en: 'this whole album is about this like massive fear of impermanence I had', then the Mono no aware introduction ('changed the way I approached things'). The article prints no quotation from it; it supports the C97 arc."
+		},
+		{
+			"source_id": "S26",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live fetch 2026-10-14, Evelyn Frick, August 12, 2026. Item 15, quoting 'an interview with Vevo DSCVR': 'A challenge, I think, for the last year ... a north-west London Jewish girl who sings jazz, you know?' and 'went back to why I started doing music'. The Vevo original was not opened; it is attributed as quoted by Hey Alma."
+		},
+		{
+			"source_id": "S27",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live fetch 2026-10-14, Sam Franzini, Sep 02, 2026. Checked the 'asterisks' paragraph and its 'purchased' definition, and the Spiro paragraph ('a solid debut, but nothing compares to Winehouse—it feels like Spiro emulates ...')."
+		},
+		{
+			"source_id": "S28",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live fetch 2026-10-14, Ramon Ramirez, Oct 10, 2026. Headline 'one of ACL Fest's all-time best nepo baby sets'; set on Friday, Oct. 9, 2026; '21-year-old'; 'the daughter of jeweler Glenn Spiro'; 'Her heart is on her sleeve.' A rave."
+		},
+		{
+			"source_id": "S29",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live fetch 2026-10-14 (curl 200). VMAs on Sunday, Sept. 27, 2026: she 'took home' best new artist; 'Great Expectation' 'has just scored its third consecutive week at No. 1 on the U.K.'s Official Singles Chart'."
+		},
+		{
+			"source_id": "S30",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live fetch 2026-10-14. 'released her debut single Need Me in May 2024'; 'released Die on This Hill on 10 October'; 'soulful single'."
+		},
+		{
+			"source_id": "S31",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Raw wikitext fetched live 2026-10-14. Infobox birth_date 2005-09-28 (cites her TikTok); Early life (born London; parents Arabella née Bodie and Glenn Spiro); Career (TikTok from 2021; 'Need Me' 24 May 2024; Visitor 3 July 2026); Tours (Sam Smith, To Be Free: New York City, 2025); singles table (columns UK ... US): 'Die on This Hill' UK 9, Hot 100 19; 'Great Expectation' UK 1. Used for dated facts only."
+		},
+		{
+			"source_id": "S36",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube E7gMF6h8_9o (oEmbed: Cosmopolitan). Audio downloaded 2026-10-14 for my Whisper medium.en at 00:55-01:35: 'Probably the whole of the song Pure. That is definitely my most personal song and very revealing.' The lyric fragments in this answer are not printed."
+		},
+		{
+			"source_id": "S37",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube 1qo9PK7Mt1Q (oEmbed: The Jonathan Ross Show). Audio downloaded 2026-10-14 for my Whisper medium.en at 00:20-01:05: 'I was bullied actually ... in assembly after they bullied me. I thought I'd sing it in front' of them."
+		},
+		{
+			"source_id": "S39",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live fetch 2026-10-14, Recording Academy release dated May 12, 2026: nominations 'Monday, Nov. 16, 2026'; ceremony 'Sunday, Feb. 7, 2027'."
+		},
+		{
+			"source_id": "S40",
+			"opened": true,
+			"context_matches": true,
+			"locator": "TikTok oEmbed fetched live 2026-10-14: title 'And it's my birthday so you should definitely make a video #thankyou #20', author SIENNA SPIRO (siennaspiro). Video ID 7555224831633984770 decodes to 2025-09-28 19:31 UTC. The video itself was not viewed."
+		},
+		{
+			"source_id": "S41",
+			"opened": true,
+			"context_matches": true,
+			"locator": "YouTube e5I8NTEnrQw (oEmbed: TODAY / Today Show Australia). Audio downloaded 2026-10-14 for my Whisper medium.en at 02:10-02:50: 'knowing you're temporary to someone. And this like fear of impermanence and knowing you probably care about that person more than they care about you.' The article leaves out the middle phrase without marking it (verify-05)."
+		}
+	],
+	"decision_checks": [
+		{
+			"finding_id": "subject-01",
+			"accepted": true,
+			"reason": "Verified in the candidate. The Statesman is described as a rave that uses the label playfully ('heart is on her sleeve', exact in the live text). The nepotism labels carry Moment's own 'purchased' definition and are no longer tied to the 'sadness is style' case, which is now attributed only to the Moment 'emulates' remark. The parents FAQ no longer mentions the Statesman."
+		},
+		{
+			"finding_id": "subject-03",
+			"accepted": true,
+			"reason": "Verified. The intro says she has tied the visitor feeling to her ADHD. The limits section prints the Rolling Stone UK quotation (exact, May 2026) and the Notion neurodivergence quotation (exact), each attributed as her explanation. 'Nothing here reads a type from her health...' is kept verbatim."
+		},
+		{
+			"finding_id": "subject-02",
+			"accepted": true,
+			"reason": "Verified. The 'emulates' clause now sits inside Moment's Winehouse comparison, next to 'a solid debut' (both exact in the live text), and is followed by a note that her disclosed bullying and depression bear on it, without using them as type evidence."
+		},
+		{
+			"finding_id": "subject-04",
+			"accepted": true,
+			"reason": "Verified. 'I'm very competitive' and the 2 a.m. TikTok live are gone. The suit story keeps 'I'm actually so stupid sometimes,' laughing. The Three paragraph rests on the ELAM campaign, the 'cooler' phase, 'Back to Blonde' and the image. The suit is still mentioned, but no longer carries the case alone."
+		},
+		{
+			"finding_id": "subject-05",
+			"accepted": true,
+			"reason": "Verified. 'Deflates the myth' is replaced by 'began unglamorously', and her present-day tape/full-take reason from the same AP answer is added (checked against the AP captions ~06:00-06:30)."
+		},
+		{
+			"finding_id": "subject-06",
+			"accepted": true,
+			"reason": "Verified. 'laughing about it now that he is a fan' matches NYLON's 'chuckles at the memory now' and its closing 'once-biggest critic: her dad'."
+		},
+		{
+			"finding_id": "subject-07",
+			"accepted": true,
+			"reason": "Verified. 'I don't think it's a bad thing ... a very normal, human way to be' is printed after the blockquote, exact in the live Vogue text, and the Four strain uses it."
+		},
+		{
+			"finding_id": "subject-08",
+			"accepted": true,
+			"reason": "Verified. persona_title is now 'The Visitor Who Wants to Be Kept'. It draws on her 2026 'to be kept around' and states a present want that the 2026 record supports, not a past coping strategy."
+		},
+		{
+			"finding_id": "fan-01",
+			"accepted": true,
+			"reason": "Verified against the transcripts. Withdrawal is past tense and rejected (Zach Sang ~04:22-04:51; Lyrical Lemonade ~18:00). 'So be it. Allow it to end. Like if you don't want me, don't have me' follows her quoting the old stance and precedes 'very loyal ... valuable to some people' (Z100 ~14:08-14:54). Giving is present tense (Zach Sang ~49:09-49:30). Every passage that misread these is rewritten, and the line keeps its context. The finding is resolved. Its consequence, a lead change after the frozen review, is the blocker verify-01, which the editor correctly declined to absorb."
+		},
+		{
+			"finding_id": "fan-02",
+			"accepted": true,
+			"reason": "Verified. 'Pure' is no longer called the clearest Four evidence. The sister lyric is dropped because there is no official lyric source. The guilt clause matches iHeartRadio ~06:00-06:37 in her framing, with no medical detail. Option (b) plus the clause satisfies the acceptance test."
+		},
+		{
+			"finding_id": "fan-03",
+			"accepted": true,
+			"reason": "Verified. The intro gives both accounts (made herself needed, Z100 March 2026; ADHD, Rolling Stone UK). The limits section prints both with dates. The resolution explains leaving out the 'regarded as popular' framing (the writer's paraphrase) and the 'Don't know' opener (transcriptions differ; my Z100 check also shows 'Don't know. I just' in the captions). Acceptable."
+		},
+		{
+			"finding_id": "fan-04",
+			"accepted": true,
+			"reason": "Verified. 'About a year old' is gone from the intro, type answer and FAQ. The dated 2021 TikTok start and May 2024 single are added (Wikipedia and Official Charts, live). The nepotism paragraph and parents FAQ include 'from posting one video' (Interview, exact). The school-leaving passage adds 'quite a foolish reason' (Interview, exact). The Melodic lead is correctly not used, since it is unopened in this record."
+		},
+		{
+			"finding_id": "fan-05",
+			"accepted": true,
+			"reason": "Verified. The armour line is exact (Rolling Stone UK, live). The baggy-clothes paraphrase is fair. The Vevo quotation keeps 'for the last year' and its resolution and is attributed as quoted by Hey Alma (exact, live). The 'north-west London Jewish girl who sings jazz' line is used. The Four and Three weighing both use the look."
+		},
+		{
+			"finding_id": "fan-06",
+			"accepted": true,
+			"reason": "Verified. The NYLON 'person in the mirror' sentence is quoted exactly, and the hook stays about the same length."
+		},
+		{
+			"finding_id": "fan-07",
+			"accepted": true,
+			"reason": "Verified. The Genius line is now attributed to the 'You Stole the Show' ex (Genius ~03:35-04:00 describes an ex outside a venue). Interview's 'You Stole the Show' line (exact) and Lyrical Lemonade's 'so many different times' (my Whisper) add repetition across songs and time."
+		},
+		{
+			"finding_id": "fan-08",
+			"accepted": true,
+			"reason": "Verified. The second-album Two branch now requires a costly choice for one person, and routine 'help listeners' talk is explicitly excluded with the reason. The settle FAQ and open_case.settle_signals match."
+		},
+		{
+			"finding_id": "critic-01",
+			"accepted": true,
+			"reason": "Verified on the same transcripts as fan-01. No passage presents withdrawal as her present pattern. The present-tense giving quotation is printed and weighed. The fix is accepted. The resulting lead change is covered by verify-01."
+		},
+		{
+			"finding_id": "critic-02",
+			"accepted": true,
+			"reason": "Verified. 'Predates the album campaign' and the Variety impermanence remark are removed. Variety's live text confirms that remark came while she introduced 'The Visitor', 'due to come out this Friday', on the opening night of that tour."
+		},
+		{
+			"finding_id": "critic-03",
+			"accepted": true,
+			"reason": "Verified. 'Nobody did' is added, matching Zach Sang ~20:46-20:52 ('and they didn't'). The Three paragraph now says the rejection of applause 'could be a save as easily as a principle'."
+		},
+		{
+			"finding_id": "critic-04",
+			"accepted": true,
+			"reason": "Verified. The tellings paragraph and the 'habit of giving way' clause are removed, and the competitiveness line is dropped. Fixing by removal satisfies the acceptance test, and the conflict is logged in type_hypothesis.unexplained."
+		},
+		{
+			"finding_id": "critic-05",
+			"accepted": true,
+			"reason": "Verified. The TODAY continuation is printed where the theme is introduced, and the Capital and Genius definitions appear in the Two section. The splice in the TODAY quotation leaves out 'And this like fear of impermanence' without marking it; that is a minor fidelity point, filed as verify-05, not a failure of this repair."
+		},
+		{
+			"finding_id": "critic-06",
+			"accepted": true,
+			"reason": "Verified. The Six paragraph names Variety's 'deeply held anxieties' (exact), 'quite an over-thinker' (AP) and 'a control freak' (AP; Music Week, exact). Its discriminator is now the emotions she names, sourced to C110, C39 and C09, not the producer's promise."
+		},
+		{
+			"finding_id": "unfamiliar-01",
+			"accepted": true,
+			"reason": "Verified. Before the weighing, the article gives the album's arc in her words (Mono no aware gloss, AP July 2026, exact), and Zach Sang, AP and the ACL TV introduction support 'about getting out of that phase'. The unsourced 'people-pleasing' stage is gone."
+		},
+		{
+			"finding_id": "unfamiliar-02",
+			"accepted": true,
+			"reason": "Verified. The false generalization and the 'habit of giving way' clause are removed."
+		},
+		{
+			"finding_id": "unfamiliar-03",
+			"accepted": true,
+			"reason": "Verified. 'soulful, '60s-style balladry' and a dated through-line (TikTok 2021, first single May 2024, October 2025 breakout via the TikTok bridge) are added from opened sources. The added text runs a little long but stays factual."
+		},
+		{
+			"finding_id": "unfamiliar-04",
+			"accepted": true,
+			"reason": "Verified. The word count is dropped and the full 'So be it ...' line is printed."
+		},
+		{
+			"finding_id": "unfamiliar-05",
+			"accepted": true,
+			"reason": "Verified. 'Album' is used for the music ('A brighter album') and 'record' for evidence. 'The record's clearest Four lines' is gone. The 'Pure' transition now names its contrast ('an audience that was there and silent')."
+		},
+		{
+			"finding_id": "unfamiliar-06",
+			"accepted": true,
+			"reason": "Verified. Her explanation ('anytime someone was singing on stage ... a sign that you're killing it') is quoted exactly from NYLON."
+		},
+		{
+			"finding_id": "unfamiliar-07",
+			"accepted": true,
+			"reason": "Verified. The research-closed disclosure is unchanged and now opens 'What the record can't separate yet', and the intro runs straight to the type answer."
+		},
+		{
+			"finding_id": "unfamiliar-08",
+			"accepted": true,
+			"reason": "Verified. Zach Sang ('a US interview program') and Z100 ('the New York pop station') are identified on first mention. I found no run of three consecutive sentences each turning on 'she told [outlet]'; the drive section's closest run names an outlet in only two of three sentences."
+		},
+		{
+			"finding_id": "enneagram-01",
+			"accepted": true,
+			"reason": "Verified. Neither line is presented as her current stance or as withdrawal. The July 2026 line carries 'So be it. Allow it to end.' and the 'very loyal' follow-on, and no wing or arrow is used. Because no tense-free reason for Four survived, the editor correctly moved on to enneagram-02."
+		},
+		{
+			"finding_id": "enneagram-02",
+			"accepted": true,
+			"reason": "Verified as option (b). enneagram, title, meta_title, description, persona_title, the 60-word answer, the FAQs, type_hypothesis and open_case are all updated together, with confidence kept low. The acceptance test itself requires a hold for --refresh --expanded-review, and the editor recorded that rather than absorbing it. I agree with the decision, and the hold stands as verify-01."
+		},
+		{
+			"finding_id": "enneagram-03",
+			"accepted": true,
+			"reason": "Verified. The hook now says only 'naturally sad' sounds like a Four and that her definitions of the visitor feeling come back to being kept while she keeps showing up. Capital April 2026 and Genius February 2026 are cited, both confirmed by my Whisper."
+		},
+		{
+			"finding_id": "enneagram-04",
+			"accepted": true,
+			"reason": "Verified. The format-driven criterion and the false past-tense claim are gone, and the June 2026 present-tense giving quotation is printed. The shared-not-apart point is cited to Vogue (July 2026) and Euphoria (August 2026), both exact."
+		},
+		{
+			"finding_id": "enneagram-05",
+			"accepted": true,
+			"reason": "Verified. Signal 1 says what is already on record and weights a friend's account. Signal 2 excludes routine help talk. Signal 3 reads a win or a snub and excludes thanking the team. Signal 5 is a costly behavioral choice. Signals 1, 4 and 5 turn on testimony or observed behavior."
+		},
+		{
+			"finding_id": "enneagram-06",
+			"accepted": true,
+			"reason": "Verified. The producer clause is cut, the Six dismissal rests on the named-fear discriminator, and the Nine dismissal acknowledges the mirroring and its 'to be kept around' purpose."
+		},
+		{
+			"finding_id": "enneagram-07",
+			"accepted": true,
+			"reason": "Verified. 'Three ranks third because what she says she fears is being unwanted, not failing.' is present and sourced to Z100."
+		},
+		{
+			"finding_id": "enneagram-08",
+			"accepted": true,
+			"reason": "Verified. The sister lyric is no longer printed or counted. There is still no official lyric source, so softening by removal is right."
+		},
+		{
+			"finding_id": "future-01",
+			"accepted": true,
+			"reason": "Verified. The type argument has no undated 'now', 'present tense' or 'past tense'. The remaining undated 'now' sits in non-argument detail (her father now a fan, her present full-take reason)."
+		},
+		{
+			"finding_id": "future-02",
+			"accepted": true,
+			"reason": "Verified. The tense split is gone, and 'In nearly every telling' is replaced. The replacement 'never describes dropping' slightly overreads one ambiguous Z100 referent; that is filed as verify-03 (minor) and does not undo this repair."
+		},
+		{
+			"finding_id": "future-03",
+			"accepted": true,
+			"reason": "Verified. 'as of October 14, 2026, no response from her has been found', 'As of that date, the people who had described her on record were...' and 'had spoken' are all dated."
+		},
+		{
+			"finding_id": "future-04",
+			"accepted": true,
+			"reason": "Verified. The Ryman sentence and C72 are removed."
+		},
+		{
+			"finding_id": "future-05",
+			"accepted": true,
+			"reason": "Verified. 'nearly all from 2025-26 promotion' appears in the intro, the type answer (53 words) and the type FAQ (identical)."
+		},
+		{
+			"finding_id": "future-06",
+			"accepted": true,
+			"reason": "Verified. The signal now reads a win or a snub for each type and is generalized to 'a major award result'. C88's trigger schedules a post-February 7, 2027 review."
+		},
+		{
+			"finding_id": "future-07",
+			"accepted": true,
+			"reason": "Verified. Body dates carry years (October 9, 2026; August 2026; June 2026; AP July 2026). Willman is anchored to his March 2026 review, and Maslin to 'who had managed her since she was 16' as of July 2026."
+		},
+		{
+			"finding_id": "future-08",
+			"accepted": true,
+			"reason": "Verified. The closing quotes Euphoria's 'throughout my life' (exact, live) and Z100's 'biggest theme', and C106 covers it."
+		}
+	],
+	"prior_blocker_checks": [],
+	"protected_checks": [
+		{
+			"passage": "She has since called the situation \"not healthy\" and said the man, whom she has not named, \"did not have good intentions with me.\" That is her account alone.",
+			"preserved": true,
+			"reason": "Kept verbatim in the candidate. Both quotations are confirmed in the Zach Sang captions (~43:50-43:56). The man stays unnamed and the age gap is left out."
+		},
+		{
+			"passage": "Nothing here reads a type from her health, or her health from a type.",
+			"preserved": true,
+			"reason": "Kept verbatim at the end of the limits paragraph, which now also carries her own ADHD and neurodivergence explanations."
+		},
+		{
+			"passage": "Melancholy and candor are her genre's currency. That doesn't make hers false. It makes them weak evidence of motive.",
+			"preserved": true,
+			"reason": "Kept verbatim. The edit now applies it to the Four evidence as well, which is consistent with its stated purpose."
+		},
+		{
+			"passage": "Neither piece shows that money or connections bought her career, and no response from her has been found.",
+			"preserved": true,
+			"reason": "Changed only by adding the date ('as of October 14, 2026') per future-03. The missing-response disclosure, its distinctive contribution, is intact, and a web search on 2026-10-14 also found no response."
+		},
+		{
+			"passage": "But in nearly every telling, the helper is who she used to be.",
+			"preserved": true,
+			"reason": "Removed because the sources show it is false: Zach Sang ~49:09-49:30 has present-tense giving. Its contribution, respecting her own account of change instead of fixing her in a childhood adaptation, carries over to 'So the change she describes runs from clinging, to closing off, to letting things end.' The replacement 'The helping is the one part she never describes dropping' slightly overreads Z100 (verify-03, minor). Removing a false detail is a permitted change."
+		},
+		{
+			"passage": "Every day, she said, she walked down the stairs and imagined him outside the door, playing out \"what I thought would happen if he was there.\"",
+			"preserved": true,
+			"reason": "Kept verbatim; it matches the Zach Sang captions ~46:15-46:26, and Lyrical Lemonade (my Whisper) repeats it."
+		},
+		{
+			"passage": "And on a day she wasn't \"feeling accomplished,\" she told Zach Sang, her \"solution to that was wearing a suit\" to the studio.",
+			"preserved": true,
+			"reason": "Kept verbatim, now followed by her self-mocking line, which the captions place right after the suit story."
+		},
+		{
+			"passage": "Even her signature method deflates the myth.",
+			"preserved": true,
+			"reason": "The 'deflates the myth' framing referred to a myth the article never set up and undersold her stated present reason. It is replaced by 'Even her signature method began unglamorously' plus that reason. The surprising 'a bit lazy' detail and the refusal to flatter, which were the protected contribution, are kept."
+		},
+		{
+			"passage": "\"I have to do it,\" she said.",
+			"preserved": true,
+			"reason": "Kept verbatim as the ending; matches Zach Sang ~21:17."
+		},
+		{
+			"passage": "\"I performed it in front of the people who had bullied me, and it was like medicine. I felt so comforted,\" she told [Notion](https://notion.online/notion-the-artists-vol-3-sienna-spiro/) in November 2025.",
+			"preserved": true,
+			"reason": "Kept verbatim; exact in the live Notion text."
+		},
+		{
+			"passage": "Those choices have cost her nothing measurable, though, and they fit the brand her manager describes.",
+			"preserved": true,
+			"reason": "Kept verbatim in the Three case."
+		},
+		{
+			"passage": "Even her signature method deflates the myth. She records whole vocal takes rather than stitching lines together, and she told the [Associated Press](https://www.youtube.com/watch?v=WFpFT3u6seI) that \"originally it came from me being a bit lazy to be honest.\"",
+			"preserved": true,
+			"reason": "Same as the shorter version. The verified AP quotation is kept exactly ('originally it came from me being a bit lazy to be honest', AP ~05:58), and only the unsupported 'deflates the myth' framing is replaced."
+		},
+		{
+			"passage": "Then she sang it at a school assembly, in front of the children who had bullied her.",
+			"preserved": true,
+			"reason": "Kept verbatim as the hook's turn; NYLON and Jonathan Ross both support it."
+		},
+		{
+			"passage": "Four leads because the pattern she describes in the present tense, withdrawal into longing and then into song, is the Four's. Two is close because the pattern she calls the theme of her whole life is the Two's.",
+			"preserved": true,
+			"reason": "Its reasoning was false against the sources (fan-01, critic-01, enneagram-01), so changing it was necessary. Its contribution, two parallel sentences that let a newcomer state both reads and why one leads, is kept in the new verdict paragraph."
+		},
+		{
+			"passage": "She gave NYLON one more detail. When a child sang well at those assemblies, the room turned around to look for the mother. \"My mum was there filming, and everyone was looking behind. That was so validating.\"",
+			"preserved": true,
+			"reason": "The scene (being believed and being applauded, unresolved) is kept. The narrated rule is replaced with her own exact NYLON words, and 'so validating' is unchanged."
+		},
+		{
+			"passage": "That is about as plain a description of the Type 2 strategy as anyone gives in an interview, and it wasn't a one-off.",
+			"preserved": true,
+			"reason": "Kept verbatim; it now supports the leading read."
+		},
+		{
+			"passage": "Performing in 2025, she caught herself waiting to see whether anyone would clap, and decided that was \"other people's agenda being pushed into mine.\"",
+			"preserved": true,
+			"reason": "Scene and quotation kept, with 'Nobody did' added to match the source (Zach Sang ~20:46-20:52). The added detail makes it more faithful without losing the concrete scene."
+		},
+		{
+			"passage": "Research closed on October 14, 2026. Two paywalled 2026 interviews, including The Telegraph's of May 2026, were not read.",
+			"preserved": true,
+			"reason": "Kept verbatim and moved to open the limits section."
+		},
+		{
+			"passage": "**A friendship that cools after fame.** Does she describe doing more, initiating and being the therapist friend, and being hurt it wasn't returned (Two)? Or pulling back, grieving privately and writing about being temporary (Four)?",
+			"preserved": true,
+			"reason": "The concrete, undated, observable structure is kept. It now states what the record already shows and weights the friend's account, per enneagram-05."
+		},
+		{
+			"passage": "And when Zach Sang asked why she sings, if not for the applause, she didn't reach for a theory. \"I have to do it,\" she said.",
+			"preserved": true,
+			"reason": "Kept verbatim as the closing."
+		}
+	],
+	"coverage_complete": true,
+	"metadata_consistent": true,
+	"alternative_type_addressed": true,
+	"five_year_test_passed": true,
+	"open_case_eligible": true,
+	"scores": {
+		"evidence": {
+			"score": 8.5,
+			"reason": "I re-fetched every web source live and second-transcribed every video quotation from the audio myself. All printed quotations match in words and context, with the minor exceptions noted. Quotes are attributed and dated at the passage, the Vevo line is labeled secondhand, the nepotism framing is attributed to the outlets that used it, and the absence claims are dated and match a fresh search. Inference limits are stated locally ('That is her account alone'; 'Nothing here reads a type from her health'). Deductions: the five-interview recurrence is overcounted (verify-02), one ambiguous Z100 referent is read one way (verify-03), one quotation split implies adjacency (verify-05), and two upload dates are printed as the day she spoke (verify-04). Independent testimony is thin, but the article says so plainly.",
+			"passage": "She has since called the situation \"not healthy\" and said the man, whom she has not named, \"did not have good intentions with me.\" That is her account alone."
+		},
+		"enneagram": {
+			"score": 8.0,
+			"reason": "Scored against the open-case anchors. The leading read and both live alternatives are argued from repeated first-person evidence, each with evidence against it. Six and Nine are tested with stated discriminators (the emotions she names; the purpose of her mirroring). The article names what cannot yet discriminate (everything comes from promoting an album about these feelings) and gives five concrete settle signals, three of which turn on testimony or costly behavior. Confidence stays low throughout, with no wing or arrow escape hatches. The Two-versus-Four contrast (giving where she can, longing where she can't) is specific to her. Held at 8 rather than higher because the Two lead is slightly overstated (verify-02, verify-03) and, being new, has not yet faced the jury (verify-01).",
+			"passage": "Two leads because the pattern she calls the theme of her whole life, making herself needed so people will keep her, is the Two's, and she still described it that way in 2026. Four is close because the pattern that appears wherever she can't give, longing for someone absent and feeling unreal except when she sings, is the Four's."
+		},
+		"originality": {
+			"score": 8.5,
+			"reason": "The details belong to her alone: the assembly where the room turned to look at her filming mother, imagining the man at the apartment door each morning, the suit worn to feel accomplished, the silent audience behind 'Pure', the full-take method that began as laziness, and her own 'you're expired to them'. The central insight is specific to her rather than reusable type boilerplate: the helping is constant where she can give, and the longing appears where she can't. Only the triad paragraph is generic.",
+			"passage": "What strains it is where giving isn't possible. When the person she wants is out of reach, she doesn't describe doing more for them. She waits, imagines them into the doorway and writes the song, and says it has happened \"so many different times.\""
+		},
+		"writing": {
+			"score": 7.8,
+			"reason": "The progression is clear (scene, open question, three threads, limits, weighing, settle signals), each section moves the case forward, and the sentences are precise, with paired verdict sentences that a newcomer can repeat. It loses points for length and pace: about 3,280 words against an open-case target of about 2,500 (verify-06). The drive section reads as a run of outlet attributions, and the orientation paragraph stacks chart facts before the question lands.",
+			"passage": "As a teenager she applied to one school, East London Arts & Music, and was so sure of a place that \"I told everyone I did,\" she told [Rolling Stone UK](https://www.rollingstone.co.uk/music/sienna-spiro-future-of-music-cover-interview-visitor-61532/) in May 2026. She was wait-listed. \"I was sending them videos every day,\" she said, and eventually the school let her in. She left at 16 because, she told [Principle](https://principlemagazine.com/2025/03/10/sienna-spiro/) in March 2025, \"I was promised by this big producer that something would happen.\""
+		},
+		"durability": {
+			"score": 8.5,
+			"reason": "Scored against the open-case anchor. Changing facts are dated ('as of October 14, 2026'; her age; Grammy nominations November 16, 2026 and the ceremony February 7, 2027). The absence claims are dated. The settle signals are observable and mostly undated, and next_review 2026-12-01 plus a post-ceremony trigger make the page easy to reopen. If the VMA, ACL and October Billboard material were removed, the argument would still stand on the 2025-26 interviews and the childhood scene. The closing says what stays true whichever way the case settles. Small deductions: two upload dates stated as speech days (verify-04), and an age FAQ that needs yearly upkeep (its trigger is present).",
+			"passage": "Whichever way it settles, some of this should stand. She told Euphoria she has seen herself as a visitor \"throughout my life,\" and she has called making herself needed its biggest theme."
+		},
+		"hook": {
+			"score": 8.5,
+			"reason": "A specific, sourced scene (NYLON, Notion, Jonathan Ross) that opens with a person rather than a type. It plants the tension the article pays off: being believed ('like medicine') versus being applauded ('so validating'). It stays durable because it doesn't depend on this year's news. Slightly diluted by running three paragraphs before the reader learns who she is.",
+			"passage": "Then she sang it at a school assembly, in front of the children who had bullied her."
+		},
+		"discoverability": {
+			"score": 7.8,
+			"reason": "The metadata is accurate and uses open-case language. The description says plainly what she claims and the leading read. Six FAQs answer real queries (type, Type 4, what would settle it, 'Great Expectation', age, parents) and match the body; the type FAQ mirrors the 53-word answer. The H2 type answer is easy to find. The body links Adele and the Type 2, 3 and 4 pages, and all six suggestions are published. Deductions: 'Leading Read 2' in the meta_title is cryptic in a search result ('Leading Read Type 2' would be clearer), the title runs long, and the body has only one person-to-person link.",
+			"passage": "Sienna Spiro's Personality Type: Open Case, Leading Read 2"
+		}
+	}
+}

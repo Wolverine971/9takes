@@ -1,0 +1,27 @@
+{
+  "schema_version": 3,
+  "subject": "sienna-spiro",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/candidate-edit.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/evidence-edit.json",
+    "resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/resolution-edit.json",
+    "review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/review-subject.json",
+    "review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/review-fan.json",
+    "review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/review-critic.json",
+    "review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/review-unfamiliar.json",
+    "review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/review-enneagram.json",
+    "review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/review-future.json",
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/baseline-reader.md",
+    "checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/checks-edit.json"
+  },
+  "outputs": {
+    "verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/verification-edit.json"
+  },
+  "content_sha256": "12a6e30a6d2df0131b508df8578f7a0a06128b2a45acf1bb975be6bb5df66731",
+  "evidence_sha256": "2ff878609a8773b7ff6ed6e30137839bf7e641e071b6244cadcffa76e8549d40"
+}

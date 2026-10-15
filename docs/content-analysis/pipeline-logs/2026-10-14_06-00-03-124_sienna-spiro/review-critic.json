@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "0751ee70e4adbb996a1cecd857e21f6c938e39b3691a458396341956a5dff384",
+  "evidence_sha256": "424793da85772e3b2c38733fc13fc157dcd9eaa4294f12623ec08538b8c3c898",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "major",
+      "passage": "Four leads because the pattern she describes in the present tense, withdrawal into longing and then into song, is the Four's.",
+      "problem": "The article's stated reason for leading with Four gets the tense of its own sources backwards, and it applies the tense test to one side only. Every source for withdrawal tells it in the past tense and rejects it as the stance the album taught her to drop. Zach Sang, June 30, 2026, ~04:15 (captions and Whisper agree): \"I really struggled with entering things that I knew were gonna end. So like, I was completely opposed to being in a relationship ... I became very closed off and I became very sad and ... it's really not the way to live.\" AP ~14:50: \"before finding that phrase, was very, very close-minded to entering anything that might have an expiry date.\" Lyrical Lemonade ~18:00: \"I was never really an open person. I was quite, I was closed off ... that's that awful attitude.\" The July Z100 line \"if you don't want me, don't have me\" is not withdrawal. It is the acceptance she says came after the album: \"I'm not getting into another friendship because it's gonna end ... and you know what, so be it, allow it to end, like if you don't want me, don't have me,\" followed by \"I really understand the value of myself ... I'm a very loyal and I can be very valuable to some people.\" Meanwhile, in the same June interview (~49:00), the giving is present tense: \"I always feel like I give a lot of myself ... so if I love somebody I'll do anything ... I am not like afraid of ... being there for the people that I really love.\" The error repeats in \"But in nearly every telling, the helper is who she used to be\" and \"What she describes now runs the other way\" (Making herself needed), in \"when she expects to lose someone now, she withdraws instead of giving more\" (Four case), in \"tells the helper story in the past tense\" (Two case) and in the Type 2 FAQ.",
+      "acceptance_test": "No passage in the body, verdict or FAQs says or implies that withdrawal is her present-tense pattern, or that only the helper pattern is past tense. The 'completely opposed' / 'closed off' quotations are presented as the stance she says the album taught her to drop. 'If you don't want me, don't have me' carries its 'so be it, allow it to end' context and is not used as evidence of withdrawal. The present-tense 'I give a lot of myself ... if I love somebody I'll do anything' (June 2026) is weighed in the Two case. The leading read either rests on a reason that survives these sources (for example, the present-tense fantasy pattern, 'I just pretend something's real when it's not,' August 2026, set honestly against the present-tense giving) or the type answer and FAQ say Four and Two are effectively tied. If the leading type changes, hold for --refresh --expanded-review."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "The theme predates the album campaign. At her first US headline show, in March 2026, Willman heard in her song introductions \"some obsession with impermanence in general,\"",
+      "problem": "The cited evidence can't show that the theme came before the campaign. The March 3, 2026 Troubadour show opened The Visitor Tour. Wikipedia's tours list and a fan-site preview both place the tour's start in Los Angeles in early March. Willman's line comes from her introduction to \"The Visitor\", which he calls \"a new song that is due to come out this Friday\". This is the concept single she told Z100 two weeks later was 'the story of my life'. Hearing the visitor/impermanence theme at the launch of a tour and single named after it is evidence from the campaign, not from before it. This sentence is the article's only rebuttal to the counter-case it raises itself (the sadness is style or campaign framing), so an unsupported rebuttal tilts the case. The same Variety sentence also says she is 'motivated to write songs by some deeply held anxieties' and has 'been affected even more deeply by the ending of friendships'. Both bear on the alternatives and were cut.",
+      "acceptance_test": "Either 'predates the album campaign' is removed, or it is supported by dated first-person material from before the Visitor rollout. Examples: Principle, March 10, 2025: 'when I like somebody, I get really obsessed and I get attached and I feel like they never feel the same way'; SSENSE, November 2025, on struggling to keep friends; TODAY, April 2026, saying it is something she has 'been thinking about for 2 years'. The Variety observation is described as made on the opening night of The Visitor Tour, while she introduced the 'The Visitor' single."
+    },
+    {
+      "id": "critic-03",
+      "severity": "minor",
+      "passage": "Performing in 2025, she caught herself waiting to see whether anyone would clap, and decided that was \"other people's agenda being pushed into mine.\"",
+      "problem": "This leaves out that the audience didn't clap. Captions and the Whisper second transcription agree (Zach Sang ~20:40): 'And I was like, is anyone gonna clap? Like, what's gonna happen here? And they didn't and I was like, this is not what this is about at all.' She rejected applause-seeking at the moment applause was withheld. The Four case leans on this passage ('She calls playing for applause \"other people's agenda\"'), but with the missing detail restored the sequence also reads as reframing a disappointment, which is open to a Three or Two reading. She also says she normally 'black[s] out' on stage, so the self-awareness itself was the unusual part.",
+      "acceptance_test": "The passage says the audience did not clap before she reached the 'other people's agenda' conclusion. The Four case either acknowledges that this example could be face-saving after withheld approval or stops counting it as clean Four evidence."
+    },
+    {
+      "id": "critic-04",
+      "severity": "minor",
+      "passage": "The tellings vary, but each has a strong opinion followed by giving way to someone she trusts.",
+      "problem": "Not every telling fits. In NYLON (June 2026), someone around her favored the acoustic-guitar version ('Someone around me was like, \"This is it.\"'), she 'knew she hadn't cracked it', and the current arrangement came when she sang it her own way on the next tour. In that version she overruled someone else instead of yielding. The evidence record lists this divergence as unexplained (C16). Smoothing it into one pattern then supports the Three case's 'her habit of giving way when a result proves a collaborator right'. In the same section, \"I'm very competitive\" is used as drive evidence without its context: she said it while making friendship bracelets on Z100, right after the host joked 'This is not a competition.'",
+      "acceptance_test": "The sentence acknowledges that at least one telling (NYLON) has her overruling someone rather than yielding. The Three case does not call yielding a 'habit' unless it is supported by more than the 'Die on This Hill' story. The competitiveness quotation either carries its game context or is dropped from the drive evidence."
+    },
+    {
+      "id": "critic-05",
+      "severity": "minor",
+      "passage": "is about \"knowing you're temporary to someone,\" she said on [TODAY in Australia](https://www.youtube.com/watch?v=e5I8NTEnrQw) in April 2026.",
+      "problem": "The visitor/temporary feeling is presented in the Four section ('The album is built on a related feeling'), with quotations cut just before the part that ties it to giving in relationships. TODAY continues: 'and knowing you probably care about that person more than they care about you.' Genius (February 2026) continues past the printed clause: 'I sometimes mirror the people around me to be kept around and for people to ... not just see me as someone just visiting in their life.' Z100 (March 2026) links the visitor feeling directly to 'I had to make myself like needed.' With the cuts, the album's central feeling reads as Four identity-longing only, though in her own explanations it fits Two at least as well.",
+      "acceptance_test": "At least one of these continuations is printed where the visitor theme is introduced. The type section does not count the visitor/temporary feeling as Four evidence without noting that she explains it as caring more than the other person and as earning or keeping a place."
+    },
+    {
+      "id": "critic-06",
+      "severity": "minor",
+      "passage": "She calls herself \"very superstitious\" and trusts her manager, but her named fear is being unwanted, not unsafe, and she left school on a producer's promise.",
+      "problem": "Type 6 is dismissed on its weakest version. The strongest Six material goes unaddressed: Variety's independent observation that she is 'motivated to write songs by some deeply held anxieties' (cut from the quotation the draft uses); 'I analyze everything. I'm quite an over-thinker ... can I fix it or am I just going to feel this way forever' (AP); 'I'm a control freak, and that was something I really had to like grapple with' (AP; also Music Week); 'I've been let down a lot by people, and so as like a protective thing' (Lyrical Lemonade); her stated fear of things ending; and deference to a manager she has trusted since 16 ('I was forced to by my manager, Miriam'). Leaving school at 16 on an older producer's assurance is trust in an authority figure's promise, so it does not count against Six. 'Unwanted, not unsafe' is the only discriminator offered, and the article asserts it without showing it.",
+      "acceptance_test": "The Six sentence names the strongest Six evidence (Variety's 'deeply held anxieties', over-thinking, control) and gives a sourced discriminator other than the producer's promise. Otherwise, Six is listed as a live alternative in the body, the type answer and open_case.live_alternatives."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"I performed it in front of the people who had bullied me, and it was like medicine. I felt so comforted,\" she told [Notion](https://notion.online/notion-the-artists-vol-3-sienna-spiro/) in November 2025.",
+      "reason": "The opening assembly scene holds two readings at once: being understood ('like medicine') and being seen to do well (the room turning to her filming mother, 'so validating'). It doesn't push either one into a childhood-wound thesis. It is a specific, sourced hook the type debate pays off."
+    },
+    {
+      "passage": "Melancholy and candor are her genre's currency. That doesn't make hers false. It makes them weak evidence of motive.",
+      "reason": "A fair, precise statement of what promotional confession can and can't prove. This is the kind of inference limit the standard asks for."
+    },
+    {
+      "passage": "Those choices have cost her nothing measurable, though, and they fit the brand her manager describes.",
+      "reason": "Here the article turns its scepticism on evidence that would favor its own lead. Admitting that her authenticity has not yet cost her anything keeps Three honestly live."
+    },
+    {
+      "passage": "Nothing here reads a type from her health, or her health from a type.",
+      "reason": "A clear, local limit on inference, placed next to sensitive disclosures (ADHD, nodules, depression, body image) where it actually matters."
+    },
+    {
+      "passage": "Even her signature method deflates the myth. She records whole vocal takes rather than stitching lines together, and she told the [Associated Press](https://www.youtube.com/watch?v=WFpFT3u6seI) that \"originally it came from me being a bit lazy to be honest.\"",
+      "reason": "A surprising, verified detail that works against the romantic-authenticity story and shows a person the type doesn't neatly explain. Keep it even if length cuts are needed."
+    }
+  ],
+  "assessment": "Open-case eligibility holds. She is an adult (21), her breakthrough came in October 2025, the first-person record is confined to two promotional cycles, five types were tested, and the unopened Telegraph and Music Week pieces are disclosed. Low confidence is the right register, and much of the adverse evidence is confronted well: genre incentives, health circumstances, the attributed nepotism critique and the costless authenticity that keeps Three live. The weak point is the one attractive causal story the verdict depends on: Four leads because withdrawal is her present-tense pattern while helping is past. The sources say the opposite. Zach Sang, AP and Lyrical Lemonade all tell the closed-off withdrawal as the stance the album taught her to drop. 'If you don't want me, don't have me' is the acceptance line that came after. Present-tense giving ('if I love somebody I'll do anything', June 2026) appears in the same interview. Take that away, and add back that nobody clapped before the 'other people's agenda' realization, and the Four lead rests mainly on the present-tense fantasy/longing pattern and on lyrics. The editor should rebuild the lead on that, or call Four and Two effectively tied. The rebuttal that the impermanence theme 'predates the album campaign' cites the opening night of The Visitor Tour. Six is set aside on a non-discriminating point. These are argument-level fixes, not tone fixes. Similarity advisory: not tripped (max 0.095, Freddie Mercury, with the only shared material being heart-triad vocabulary). The argument is specific to her, and I found no meaningful reuse. Method: I compared every quotation behind these findings against the research-stage caption and text copies (S02, S05, S08, S12, S13, S14, S16, S18, S19, S20, S21, S23, S24, S36, S41, S27, S28, S31) and confirmed each one against the draft-stage Whisper transcriptions where those exist (S13 ~04:15, ~20:35 and ~49:00; S14 ~14:50; S16 ~18:00; S19 ~14:10). A fresh fetch of the YouTube captions was rate-limited (HTTP 429). I did not read the other reviews. Risk flags: sensitive_allegations and contested_typing are kept. major_thesis_change is not set for the draft as reviewed, but critic-01 may legitimately move the leading read. If it does, the type-thesis hold applies."
+}

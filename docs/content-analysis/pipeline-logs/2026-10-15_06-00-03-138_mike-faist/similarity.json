@@ -1,0 +1,224 @@
+{
+  "target": {
+    "person": "mike-faist",
+    "type": "4",
+    "units": 9,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "dakota-johnson",
+      "date": "2026-10-09",
+      "units": 6
+    },
+    {
+      "person": "Andrew-Garfield",
+      "date": "2026-10-05",
+      "units": 12
+    },
+    {
+      "person": "Cara-Delevingne",
+      "date": "2026-09-01",
+      "units": 33
+    },
+    {
+      "person": "Freddie-Mercury",
+      "date": "2026-08-29",
+      "units": 39
+    },
+    {
+      "person": "jeremy-allen-white",
+      "date": "2026-08-26",
+      "units": 50
+    },
+    {
+      "person": "machine-gun-kelly",
+      "date": "2026-08-16",
+      "units": 47
+    },
+    {
+      "person": "Phoebe-Bridgers",
+      "date": "2026-08-15",
+      "units": 36
+    },
+    {
+      "person": "Bryan-Johnson",
+      "date": "2026-08-13",
+      "units": 34
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 2313,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.007,
+    "max": 0.194
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.065,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [
+        "public record",
+        "the public record"
+      ],
+      "target": "[diagnosis] that it has to come from \"a place of passion and love.\" This is a read of the public record at medium confidence.",
+      "other": "[diagnosis] The public record points toward Enneagram Type 4"
+    },
+    {
+      "score": 0.055,
+      "other_person": "dakota-johnson",
+      "shared_phrases": [
+        "medium confidence",
+        "at medium confidence"
+      ],
+      "target": "[diagnosis] that it has to come from \"a place of passion and love.\" This is a read of the public record at medium confidence.",
+      "other": "[diagnosis] Dakota Johnson most likely fits Enneagram Type 4 at medium confidence."
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "Andrew-Garfield",
+      "date": "2026-10-05",
+      "units": 12,
+      "maxScore": 0.194
+    },
+    {
+      "person": "jeremy-allen-white",
+      "date": "2026-08-26",
+      "units": 50,
+      "maxScore": 0.065
+    },
+    {
+      "person": "dakota-johnson",
+      "date": "2026-10-09",
+      "units": 6,
+      "maxScore": 0.055
+    },
+    {
+      "person": "machine-gun-kelly",
+      "date": "2026-08-16",
+      "units": 47,
+      "maxScore": 0.052
+    },
+    {
+      "person": "Cara-Delevingne",
+      "date": "2026-09-01",
+      "units": 33,
+      "maxScore": 0.039
+    },
+    {
+      "person": "Phoebe-Bridgers",
+      "date": "2026-08-15",
+      "units": 36,
+      "maxScore": 0.019
+    },
+    {
+      "person": "Freddie-Mercury",
+      "date": "2026-08-29",
+      "units": 39,
+      "maxScore": 0.011
+    },
+    {
+      "person": "Bryan-Johnson",
+      "date": "2026-08-13",
+      "units": 34,
+      "maxScore": 0.001
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.194,
+      "other_person": "Andrew-Garfield",
+      "shared_phrases": [],
+      "target": "[diagnosis] that it has to come from \"a place of passion and love.\" This is a read of the public record at medium confidence.",
+      "other": "[diagnosis] This is a reading of public interviews"
+    },
+    {
+      "score": 0.065,
+      "other_person": "jeremy-allen-white",
+      "shared_phrases": [
+        "public record",
+        "the public record"
+      ],
+      "target": "[diagnosis] that it has to come from \"a place of passion and love.\" This is a read of the public record at medium confidence.",
+      "other": "[diagnosis] The public record points toward Enneagram Type 4"
+    },
+    {
+      "score": 0.055,
+      "other_person": "dakota-johnson",
+      "shared_phrases": [
+        "medium confidence",
+        "at medium confidence"
+      ],
+      "target": "[diagnosis] that it has to come from \"a place of passion and love.\" This is a read of the public record at medium confidence.",
+      "other": "[diagnosis] Dakota Johnson most likely fits Enneagram Type 4 at medium confidence."
+    },
+    {
+      "score": 0.052,
+      "other_person": "machine-gun-kelly",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 wants to be himself and be seen that way",
+      "other": "[diagnosis] And a man who genuinely wanted to be rid of the old version would have finished the job."
+    },
+    {
+      "score": 0.039,
+      "other_person": "Cara-Delevingne",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 wants to be himself and be seen that way",
+      "other": "[diagnosis] Ask a Type 4 what they want and the honest answer is to be seen accurately."
+    },
+    {
+      "score": 0.025,
+      "other_person": "machine-gun-kelly",
+      "shared_phrases": [],
+      "target": "[diagnosis] He has repeatedly stepped back from work",
+      "other": "[diagnosis] He has changed genre three times in fifteen years"
+    },
+    {
+      "score": 0.023,
+      "other_person": "machine-gun-kelly",
+      "shared_phrases": [],
+      "target": "[diagnosis] He has repeatedly stepped back from work",
+      "other": "[diagnosis] Asked whether he ever lets himself feel like he has won"
+    },
+    {
+      "score": 0.023,
+      "other_person": "machine-gun-kelly",
+      "shared_phrases": [],
+      "target": "[diagnosis] He has repeatedly stepped back from work",
+      "other": "[counter-typing] he used the microphone to say he has to ruin everything."
+    },
+    {
+      "score": 0.022,
+      "other_person": "Cara-Delevingne",
+      "shared_phrases": [],
+      "target": "[diagnosis] and carries a sense that something essential in him is missing or will be found wanting.",
+      "other": "[counter-typing] and Sakinorva carries a dissenting 3w4 vote."
+    },
+    {
+      "score": 0.019,
+      "other_person": "Phoebe-Bridgers",
+      "shared_phrases": [],
+      "target": "[diagnosis] A Type 4 wants to be himself and be seen that way",
+      "other": "[diagnosis] and seeks a form of being seen that leaves room beyond the stage character."
+    },
+    {
+      "score": 0.019,
+      "other_person": "machine-gun-kelly",
+      "shared_phrases": [],
+      "target": "[diagnosis] and carries a sense that something essential in him is missing or will be found wanting.",
+      "other": "[diagnosis] the evidence that something real is happening underneath."
+    },
+    {
+      "score": 0.018,
+      "other_person": "Cara-Delevingne",
+      "shared_phrases": [],
+      "target": "[diagnosis] because the feeling Faist reports most often is anxiety.",
+      "other": "[diagnosis] because the injury she actually had was producing no evidence at all."
+    }
+  ]
+}

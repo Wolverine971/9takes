@@ -625,7 +625,7 @@ Dr. Brené Brown's research identified four steps to building resilience against
 
 ### Protocol 3: Carl Jung's Shadow Integration
 
-Carl Jung's concept of the "shadow" refers to the parts of yourself you've rejected, denied, or hidden, often the very parts that hold your greatest untapped potential.
+[Carl Jung's](/personality-analysis/carl-jung) concept of the "shadow" refers to the parts of yourself you've rejected, denied, or hidden, often the very parts that hold your greatest untapped potential.
 
 **The Practice:**
 

@@ -1,0 +1,19 @@
+I've written the fairness review (`subject` role) for the Sienna Spiro draft to `review-subject.json`. It passes the review schema check, and every quoted passage matches the draft exactly. I changed no other repo files and published nothing; my only other writes were two downloaded web pages in a scratch folder under `/tmp`.
+
+**Verdict:** the open-case framing is fine and nothing claims more confidence than the record allows. She's 21, broke through in October 2025, and the research was thorough (39 sources read), so she qualifies as an open case. The sensitive material is mostly handled well: the older man and the producer aren't named and appear only in her words, and her health is reported only as she disclosed it. The fairness problems all point the same way: quotes are trimmed so she looks less sincere or more nakedly ambitious than the sources show.
+
+**Two major findings** (I re-checked both on the live pages):
+- **The Austin American-Statesman review is mischaracterized.** The draft lists it under "Critics raise a different question," as support for the idea that her sadness is style. It's actually a rave: "nepo babies can be flat-out awesome… Her heart is on her sleeve. Her lyrics sting." The draft also merges the "nepo baby" labels, which are about bought success, with a separate critic's charge that her emotion is put on. The FAQ about her parents repeats that mix-up.
+- **Her own explanation of feeling like a "visitor" is missing.** In Rolling Stone UK she ties the feeling directly to her ADHD diagnosis ("That's what a lot of the music is about, like 'The Visitor'"). In Notion she ties it to being neurodivergent and undiagnosed as a child. The article is built around asking what causes that feeling, yet it presents ADHD only as the author's own alternative theory.
+
+**Six minor findings:**
+- The Moment critic's line loses its Amy Winehouse comparison and the surrounding praise ("a solid debut").
+- "I'm very competitive" was said jokingly while making friendship bracelets on the radio, and the suit story was told laughing at herself. The draft prints both straight as evidence of drive.
+- The "lazy" origin of her one-take vocals drops her correction and her current reason for recording that way.
+- The "biggest critic" line about her dad omits that he's now a fan and that she laughs about it.
+- The Vogue quote stops right before she says her sadness is "not a bad thing" and leaves room for happy moments.
+- The persona title, "The Visitor Who Made Herself Needed," names her by a people-pleasing habit she says she has stopped.
+
+None of these needs a change of type thesis; each is fixable with a clause or one rewritten paragraph. I protected five passages, including the careful handling of the older-man account and the line "Nothing here reads a type from her health." The draft-similarity check didn't flag anything, and the closest match was ordinary Enneagram vocabulary.
+
+I kept both risk flags on (sensitive allegations and contested typing), so the full six-reviewer panel still applies. The review copies the request's content and evidence hashes as instructed, even though they don't match raw hashes of the files on disk. I'm assuming the runner hashes a normalized version.

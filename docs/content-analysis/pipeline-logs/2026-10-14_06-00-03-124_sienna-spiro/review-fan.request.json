@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "sienna-spiro",
+  "mode": "create",
+  "role": "fan",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/similarity.json"
+  },
+  "outputs": {
+    "review-fan.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/review-fan.json"
+  },
+  "content_sha256": "0751ee70e4adbb996a1cecd857e21f6c938e39b3691a458396341956a5dff384",
+  "evidence_sha256": "424793da85772e3b2c38733fc13fc157dcd9eaa4294f12623ec08538b8c3c898"
+}

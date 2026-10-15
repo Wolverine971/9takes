@@ -1,0 +1,22 @@
+I've written the five-year-test ("future") review for the Sienna Spiro open case to `review-future.json` in the run folder. It passes the review schema check, carries the request's two content hashes, and I changed no other files.
+
+**Verdict:** the argument would survive losing its newest events. Take out the VMA win, the Austin City Limits set, the Ryman show and the October 2 Billboard interview, and the Type 4 vs 2 vs 3 case still stands on her February–August 2026 interviews and the school-assembly story from age 10. The weak spots are in how the draft is worded, and all of them are cheap fixes that need no new research.
+
+**Must fix (3):**
+- **Undated "now":** the case for Type 4 rests on what she says "now" versus what she used to do. "Now" is never dated, so in a few years readers will take it as current.
+- **The then/now split doesn't hold:** the draft's own quotes contradict it. She describes the helper behaviour in the present tense ("I sometimes mirror the people around me to be kept around," "if I love somebody I'll do anything"). She describes the withdrawal partly in the past tense ("I was completely opposed…", "I was closed off"). If a later run settles on Type 2, the sentence that explains why 4 leads is the one that will look wrong.
+- **Undated "no response from her has been found"** sits next to the nepo-baby claims. The FAQ dates it to October 14, 2026, but the body doesn't. If she answers before the page is refreshed, it will wrongly say she hasn't.
+
+**Minor (5):**
+- **Ryman show:** the draft says she opened the tour there on October 13, but its only source is the June announcement. A search today found ticket listings and no report from the show.
+- **"About a year old":** the type answer and FAQ give the record's age in relative terms.
+- **Grammy test:** the "what would settle it" signal only covers a snub or loss, not a win, and the next review date (2026-12-01) comes before the February 7, 2027 ceremony.
+- **Missing years:** several dates have no year, and two job and manager descriptions are in the present tense.
+- **Closing paraphrase:** "story of her life" reads like a phrase she used, but no source shows her saying it.
+
+I kept the two existing risk flags (sensitive allegations, contested typing) and added none. The similarity check didn't flag anything: the closest matches are ordinary Enneagram vocabulary, not reused arguments. I also listed five passages for the editor to keep.
+
+Sources:
+- [Ryman event page, 2026-10-13 Sienna Spiro](https://www.ryman.com/event/2026-10-13-sienna-spiro-at-8-pm)
+- [TickPick listing, Ryman Auditorium 10/13/26](https://www.tickpick.com/buy-sienna-spiro-tickets-ryman-auditorium-10-13-26-8pm/8038346/)
+- [Olympia Montréal, My House Tour](https://www.olympiamontreal.com/en/?p=7977)

@@ -56,7 +56,7 @@ Most personality tools put people in static boxes. "You're an introvert. You're 
 
 The Enneagram goes deeper. It reveals not just how people behave, but why they behave that way – their core motivations, fears, and subconscious patterns.
 
-This system has ancient roots but has been modernized through psychological research. Unlike other personality frameworks, the Enneagram:
+This system has ancient roots but has been modernized through psychological research. Unlike [other personality frameworks](/enneagram-corner/enneagram-vs-personality-frameworks-comparison), the Enneagram:
 
 1. **Reveals growth paths** - It doesn't just categorize; it shows how each type evolves under different conditions
 2. **Explains stress behaviors** - It predicts how people react when pressured (crucial for high-stakes work environments)

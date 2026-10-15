@@ -128,7 +128,7 @@ Your brain believes that thinking more will:
 
 The intention is good. The result is paralyzing.
 
-**The paradox:** More thinking doesn't lead to better outcomes. Research shows overthinking actually reduces problem-solving ability, increases anxiety and depression risk, impairs decision-making, and disrupts sleep.
+**The paradox:** More thinking doesn't lead to better outcomes. Research shows overthinking actually reduces problem-solving ability, increases anxiety and [depression risk](/enneagram-corner/depression-patterns-by-enneagram-type), impairs decision-making, and disrupts sleep.
 
 Your Enneagram type determines WHAT triggers your overthinking and WHAT thoughts loop. This is the key to unlocking the pattern.
 

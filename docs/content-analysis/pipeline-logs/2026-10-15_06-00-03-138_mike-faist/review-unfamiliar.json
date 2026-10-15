@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "9edd7257f98ee24cc5af89db885caea2ac059392d31d42316edcb2b70614d346",
+  "evidence_sha256": "b5d6733f12f988e152896a829b71c5bd34a19acd276a3ef2c5a915bd77555546",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "He originated Connor Murphy in _Dear Evan Hansen_ and left the show in 2018. After playing Art Donaldson in _Challengers_ in 2024, opposite [Zendaya](/personality-analysis/zendaya) and Josh O'Connor, and then shooting _East of Eden_, he worked on nothing new for about two years.",
+      "problem": "This is the only orientation paragraph. It names his Dear Evan Hansen and Challengers characters but never tells a newcomer that he played Riff, leader of the Jets gang, in West Side Story, the film the hook, the 'vessel' section and the Six section all lean on. Nor does it say he plays Charles Trask in Netflix's East of Eden, the series that has readers searching for him this month. 'Riff' first appears about 2,000 words in, as a character in a scene, and is never identified as his role. 'The Jets' are never explained, and East of Eden is never described (a Steinbeck adaptation; his part). Other cold references add to the problem: 'His _Panic_ co-star' and 'Opening _Brokeback Mountain_ in London' (a stage production) both arrive without introduction. The keyword 'Mike Faist West Side Story Riff' is promised in frontmatter but never answered in the body.",
+      "acceptance_test": "Before the type H2, a reader who has never heard of Faist can name his West Side Story character (Riff, leader of the Jets) and his East of Eden character (Charles Trask, per Forbes S10), with a few words on what East of Eden is (Netflix's adaptation of the Steinbeck novel, S36). Riff is identified as his role before the gun-barrel scene. Panic and the London Brokeback Mountain are each glossed in a few words at first mention, using only facts already in the evidence record."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "What brought him back was a test he set before taking the job.",
+      "problem": "The timeline of the article's central episode contradicts itself, so a newcomer cannot reconstruct the sequence the Four-versus-Six discriminator depends on. The opening and the break FAQ say he shot East of Eden after Challengers and then made nothing new for about two years. GQ (S02, quoted in C45's inference) places the shoot 'two years ago' as of August 2026. But 'Walking away at the top' runs Challengers' April 2024 release, then 'What stopped was new work', then Sgt. Rock's collapse and the 2025 Anna Christie exit, and only then says East of Eden 'brought him back'. That reads as if the Kazan meetings and the shoot ended the break, when they came before it. The Six section repeats the skip ('after _Challengers_, two years without a new production'). The opener's 'After playing Art Donaldson in _Challengers_ in 2024' blurs the 2022 shoot with the 2024 release. The article never dates the East of Eden shoot.",
+      "acceptance_test": "The article dates the East of Eden shoot (about mid-2024, per GQ's 'two years ago') and places the Kazan meetings before it. The opening, 'What stopped was new work', the East of Eden transition sentence, the Six section's 'after _Challengers_, two years', the closing section's 'after two years out' and the break FAQ all give the same order of events. Challengers' 2022 shoot and April 2024 release are not conflated."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "This is a read of the public record at medium confidence. [Type 6](/enneagram-corner/enneagram-type-6) is a serious rival, because the feeling Faist reports most often is anxiety.",
+      "problem": "Within five sentences a newcomer is told three things: Fours' core emotion is shame; Faist's most-named fears are not being good enough and being seen; and the feeling he reports most is anxiety. Nothing connects them. The question that decides the case (is his anxiety about being found wanting and exposed, or about safety, backing and trust?) does not appear until the Six section, about 2,000 words later. So the reader goes through the biography with no lens, and 'heart triad... shame' stays jargon.",
+      "acceptance_test": "The type section (outside the 60-word plain answer) adds one plain sentence that frames the test: he is anxious, and the case turns on what the anxiety is about. 'Shame' is glossed in plain words (e.g., fear of being found deficient) at its first use or in that sentence. The type section grows by no more than about 40 words."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "The Four reading predicts one thing about Faist that his record keeps confirming. He shows himself most fully as someone else.",
+      "problem": "The closing claim, which is also the persona title, reads as a contradiction of the definition the reader was given earlier ('A Type 4 wants to be himself and be seen that way'). The bridge is implied by the stage-door and 'we lose the game' passages but never stated: being seen directly risks being found wanting, so a character becomes the safest place to be seen. 'Predicts... keeps confirming' also claims more than medium confidence allows, especially since the article itself says the vessel state is where the Four and Nine readings part. A newcomer leaves with a paradox instead of the insight.",
+      "acceptance_test": "The closing section states in one plain sentence why a Four's wish to be seen, combined with the fear of being found wanting, would make a character the safest place to be seen. 'Predicts' and 'keeps confirming' are replaced with wording that fits medium confidence (e.g., 'fits'). No new claims are added."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "After his first dailies came in, Netflix's response, as Kazan tells it, was \"We'll pay for another episode.\"",
+      "problem": "This is the only sign of how his East of Eden work landed, and to a newcomer it reads as an inside reference: 'dailies' is unexplained, the reader can't tell whether the extra episode was for his character, and the fuller GQ line ('We love him so much') that carries the meaning has been cut.",
+      "acceptance_test": "Either the sentence uses Kazan's fuller GQ wording or one sourced clause so the reader understands Netflix added an episode because of his early footage, with 'dailies' glossed or replaced, or the sentence is cut and C45 is updated to match."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "In those years, the magazine reports, he ran into the actor Ben Platt while delivering for Postmates and felt \"so ashamed that he pretended he was doing something else.\"",
+      "problem": "To a reader who doesn't know Dear Evan Hansen, Ben Platt is just a name, so the anecdote loses its sting. The article never says Platt went on to star as Evan Hansen opposite Faist's Connor, and the later line 'he described Evan and Connor to Interview' assumes the reader knows who Evan is.",
+      "acceptance_test": "At the Dear Evan Hansen paragraph, Platt is identified as the actor who played the title role, Evan Hansen (Another Man, S01, calls him Faist's 'Dear Evan Hansen co-star'), so both the Postmates detail and 'Evan and Connor' land. The Postmates sentence still makes no claim about when the encounter happened relative to the show."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "Faist's own explanation pointed inward again. \"I think a lot of people will do one thing and then they double down and they get onto the next thing. They want this momentum,\" he told GQ.",
+      "problem": "'Told' appears 46 times in a roughly 3,770-word body (29 'he/she told'). The 792-word 'Walking away at the top' section alone carries about 14 outlet attributions, most of which the inline links already provide. The longest and most important section reads like a citation list, and momentum stalls just where the argument should build. The body is also above the 2,000-3,500-word target.",
+      "acceptance_test": "Outlet-and-year tags stay wherever the date or speaker changes the meaning, and every quote stays linked to its source. Repeated 'he told [outlet]' tags are carried by the link instead. 'Told' falls to 30 or fewer, 'Walking away at the top' runs about 600 words or fewer, and the body comes in at or under about 3,500 words. No source link, attribution needed for context, or quotation is lost."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "Each time since, the security he gave up was the kind that industry pays out: momentum, a New York apartment, the next big part.",
+      "problem": "This sentence tells the newcomer what the 'trade' is, and one of its three examples weakens it. Two paragraphs earlier the reader learned he sold the Brooklyn apartment and bought and renovated a house in Columbus. That reads as relocating, not giving up security, and an apartment is not something an industry pays out. The reader trips at the thesis sentence.",
+      "acceptance_test": "The list names only forgone things the article has already shown, such as parts declined per Kushner, momentum after West Side Story and Challengers, or the Anna Christie role. If leaving New York is meant as distance from where the work is, the sentence says so. No example can be refuted from earlier in the article."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "He called it \"transcendental: either I didn't feel like I was myself, or I was the most authentic version of myself. I can't really tell which one.\"",
+      "reason": "A sourced hook built on an unresolved contradiction in his own words. It sets the article's question in the first paragraph, and the vessel section pays it off without falsely resolving it."
+    },
+    {
+      "passage": "Fans \"feel like they know us, in a way,\" he said, and \"I don't want to take that away from them, by having them meet who I actually am.\"",
+      "reason": "A specific, surprising behavior (skipping the stage door to protect fans' illusion of him) that shows the thesis better than any summary, in his words, with a date and an outlet."
+    },
+    {
+      "passage": "The motive is Kushner's reading. The scrubbing is something he watched.",
+      "reason": "Two short sentences that separate observation from interpretation and keep one of the most humanizing details in the piece honest."
+    },
+    {
+      "passage": "In 2021 he could not decide whether that state was losing himself or finding himself. That question is where the Four and Nine readings part, and he has never settled it.",
+      "reason": "Ties the opening quote to the type argument in terms a newcomer can follow, and leaves a real contradiction standing instead of explaining it away."
+    },
+    {
+      "passage": "\"There's something about Mike that reads to me like a hermit crab or something. There's this shell on the outside and you can't tell what's inside.\"",
+      "reason": "A collaborator's vivid, memorable image, set up by Kazan's care for his privacy. It lets the ending land on a picture instead of a restated thesis."
+    }
+  ],
+  "assessment": "Read cold, this is a gripping portrait with a real question. The hook is his own 2021 contradiction ('I didn't feel like I was myself, or I was the most authentic version of myself'). Line 158 states the stakes plainly (what he protects when he steps back, and what it costs), and the quote-titled biography sections move forward instead of restating the thesis. A newcomer finishes knowing a stage-to-screen actor from Gahanna, Ohio who has stepped back from momentum several times, says he is braver as a character, and whose anxiety is the crux of a serious Four-versus-Six case. The Six and Nine sections argue their cases fully, and the article names what it cannot explain. Two orientation failures cost the most. First, the article never says he played Riff or Charles Trask, though West Side Story carries the hook and East of Eden is why readers are searching now. Second, the 'Walking away at the top' timeline contradicts the opening and FAQ about whether East of Eden came before or after the two-year break, so a reader can't reconstruct the episode the discriminator rests on. Smaller frictions: the shame/anxiety tension is left unframed until the Six section, the closing 'predicts' line reads as a paradox without its bridge, a few inside references go unexplained (dailies, Ben Platt, Evan, Panic), there is a 46-'told' attribution drumbeat, and the body runs about 3,770 words against a 3,500 target. Similarity: the tripped pairs share only 'the public record' and 'at medium confidence', which are confidence labels, and the generic Type 4 definition sentence is immediately tied to Faist-specific evidence. No meaningful argument reuse with the comparison set was found. Risk: I concur with contested_typing (Type 6 is a live rival the record cannot yet exclude) and found no new sensitive-allegation, historical-source or thesis-change risk."
+}

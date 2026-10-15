@@ -141,7 +141,7 @@ When emotional distress appears, the default cultural response is to reach for a
 
 There is value in conversations about emotions. These conversations are necessary for addressing mental health issues at the root. And historically, the people who understood this best weren't modern psychologists.
 
-Carl Jung understood the importance of emotions.
+[Carl Jung](/personality-analysis/carl-jung) understood the importance of emotions.
 
 ### From Jung to Now: The Shift From Software to Hardware
 

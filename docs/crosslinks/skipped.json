@@ -835,6 +835,166 @@
 			"id": "/personality-analysis/lex-fridman -> /personality-analysis/khabib-nurmagomedov",
 			"reason": "guest-list mention",
 			"date": "2026-10-08"
+		},
+		{
+			"id": "/enneagram-corner/depression-patterns-by-enneagram-type -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"reason": "word match: 'early warning signs' are depression triggers, not relationship red flags",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-types-working-in-teams -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"reason": "word match: 'early warning system' describes the Type 6 team role",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/pop-culture/podcaster-personality-map -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "word match: Stern's 'apologies for past interviews' in a sentence citing his CBS interview",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-type-8 -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "word match: 'not apologizing for it' describes an 8's stance, not apologies",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-crisis-management-guide -> /enneagram-corner/toxic-traits-relationships-warning-signs",
+			"reason": "word match: bold label for crisis warning signs, not relationship red flags",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/toxic-traits-relationships-warning-signs -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "word match: 'John' is psychologist John Holmes (mined GSC token)",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/pop-culture/us-presidents-enneagram-analysis -> /enneagram-corner/depression-patterns-by-enneagram-type",
+			"reason": "narrative about Lincoln's own melancholy during the war, not the topic",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /pop-culture/tech-titans-disruptors",
+			"reason": "Bezos roster name routed to a pop-culture post; his own page exists",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/shadow-work-by-enneagram-type -> /enneagram-corner/enneagram-types-and-career-choices",
+			"reason": "word match: 'wrong career move' in an anxiety anecdote",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/oversharing-psychology-shame-boundaries -> /enneagram-corner/enneagram-vs-personality-frameworks-comparison",
+			"reason": "sentence is about psychoanalyzing people socially, not comparing frameworks",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/how-each-enneagram-type-self-sabotages-success -> /enneagram-corner/how-to-navigate-early-relationship-stages",
+			"reason": "rhetorical Type 6 list ('New relationship?'), not relationship stages",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/first-impression-enneagram-playbook -> /pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic",
+			"reason": "word match: party 'host' (mined GSC token)",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-social-styles -> /enneagram-corner/enneagram-test-comparison-2026",
+			"reason": "word match: 'instinctual variants'",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-and-adhd-which-types-struggle-most -> /enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types",
+			"reason": "word match: organization 'apps'",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-science-mental-health -> /pop-culture/dark-triad-meets-enneagram",
+			"reason": "word match: research 'literature'",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/what-enneagram-type-are-most-ceos -> /pop-culture/google-leadership-evolution",
+			"reason": "'Sergey' Brin routed to a pop-culture post; his own page exists",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/pop-culture/incel-blackpill-radicalization-enneagram -> /enneagram-corner/first-impression-enneagram-playbook",
+			"reason": "'first impressions' inside the blackpill looks claim, not the playbook topic",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-faqs -> /pop-culture/tech-titans-leadership-styles",
+			"reason": "word match: bare benefit bullet 'Improve leadership style'",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/pop-culture/podcaster-personality-map -> /enneagram-corner/enneagram-types-and-career-choices",
+			"reason": "word match: 'careers' in the methodology disclaimer",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /pop-culture/tech-titans-disruptors",
+			"reason": "Musk news mention routed to a pop-culture post; his own page exists",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/relationship-communication-guide -> /pop-culture/dark-triad-meets-enneagram",
+			"reason": "word match: 'literature' as reading",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/pop-culture/google-leadership-evolution -> /enneagram-corner/toxic-traits-of-each-enneagram-type",
+			"reason": "word match: 'Evil' in Google's 'Don't Be Evil' motto",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/how-type-8-challengers-actually-succeed -> /personality-analysis/alex-cooper",
+			"reason": "named as Portnoy's Barstool hire; sentence is about his team",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/bernie-sanders",
+			"reason": "guest mention in a sentence about Rogan's episodes",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /personality-analysis/elon-musk",
+			"reason": "news-event mention (Trump-Musk feud day); sentence is about the show",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/mark-zuckerberg",
+			"reason": "Lex Fridman guest-list mention",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/jocko-willink",
+			"reason": "shared-guest-pool name list",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /personality-analysis/satya-nadella",
+			"reason": "news mention (gong for Nadella's OpenAI news); sentence is about the hosts",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/pop-culture/kardashian-family-enneagram-analysis -> /personality-analysis/travis-scott",
+			"reason": "named as Kylie's partner; sentence is about her pattern",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/enneagram-corner/why-the-next-thing-wont-fix-it-type-7 -> /personality-analysis/paul-rudd",
+			"reason": "co-star credit in a sentence about Jack Black",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/personality-analysis/emma-stone -> /personality-analysis/madonna",
+			"reason": "song credit (Madonna's 'Hollywood') in Stone's childhood presentation",
+			"date": "2026-10-15"
+		},
+		{
+			"id": "/personality-analysis/neil-strauss -> /personality-analysis/madonna",
+			"reason": "named in a list of Strauss's interview subjects",
+			"date": "2026-10-15"
 		}
 	]
 }

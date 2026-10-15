@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "0751ee70e4adbb996a1cecd857e21f6c938e39b3691a458396341956a5dff384",
+  "evidence_sha256": "424793da85772e3b2c38733fc13fc157dcd9eaa4294f12623ec08538b8c3c898",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "Against it, her own summary of her life points to Two, and the arc she tells, from people-pleasing to closing off to self-expression, is also the arc of the album she was promoting.",
+      "problem": "This confound is the main reason the case stays open, and the closing verdict leans on it again (\"the person narrating the change was promoting an album about it\"). But the body never shows a cold reader what Visitor's arc is. All it says about the album is that it is \"built on\" feeling temporary, and that the title track took nine tries. The evidence ties her present-tense withdrawal lines to the album's 'Mono no aware' lesson about accepting impermanence: C54's alternative, C10's alternative, S14 at about 14:20-15:50, and S25's stage introduction \"this whole album is about this like massive fear of impermanence I had\". The draft never names that song or concept. So a reader who doesn't know the record must take on trust the article's most important caveat. As worded, the arc also adds a 'people-pleasing' stage that no cited album framing visibly supports.",
+      "acceptance_test": "Before the weighing section, one or two dated, linked sentences say in her own words what the album's arc or lesson is (e.g. the 'Mono no aware' framing, attributed and dated). The weighing-section and verdict descriptions of that arc match what those sources actually say. If no source places people-pleasing inside the album's arc, the sentence is narrowed to the sourced part. A reader with no prior knowledge can then explain why the Four-ward change 'cannot yet carry the weight'."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "The tellings vary, but each has a strong opinion followed by giving way to someone she trusts.",
+      "problem": "The reader is shown only two tellings, Vogue's \"he was correct\" and Capital's \"Sorry, I was wrong\", and both end the same way. So \"the tellings vary\" is asserted, not shown. Worse, the generalization is false for a telling the draft cites elsewhere. In NYLON (June 11, 2026, opened for this review), someone around her said of an acoustic-guitar version \"'This is it'\". She shook her head at the memory, knew she hadn't cracked it, and changed the arrangement on the next tour herself. That is a strong opinion held against someone else's, not giving way. The evidence record itself says her accounts 'differ about who was right' (C16, S05 context). The Three case then cites \"her habit of giving way when a result proves a collaborator right\", so the misstatement feeds the type argument.",
+      "acceptance_test": "The sentence no longer claims that every telling ends in yielding. Either the NYLON version appears accurately in a clause (attributed and dated) and the summary describes the real difference between the tellings, or the generalization is cut and only Vogue's account stands. The Type 3 paragraph's 'habit of giving way' rests only on sourced instances that actually show yielding."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "minor",
+      "passage": "Variety's chief music critic, Chris Willman, has written that \"Spiro sounds like a sequel to [Adele](/personality-analysis/adele).\"",
+      "problem": "This is the only description of her music a newcomer gets. The page targets 'who is Sienna Spiro' in its keywords, yet it never says in plain terms what she sounds like. Her sources frame it as soulful, '60s-inspired ballads (Official Charts' 'soulful single', Interview's 'bringing the sixties back', Billboard's ''60s glam'). The page also never says how she got from leaving ELAM at 16 to the October 2025 breakout. NYLON, already cited, gives the mechanism: TikTok seized on the song's bridge and it cracked the Hot 100 Top 20 about four months after release. The path facts the draft does include are scattered and out of order: the 2024 'Back to Blonde', Sam Smith support dates in 2025, 'an earlier tour' that 'didn't sell' with no date, and 'an EP' that is never named or dated. The debut single (May 2024, S30) appears only in the evidence. A cold reader cannot build a timeline, which also weakens the later 'industry plant' discussion, since how she rose is the question that label raises.",
+      "acceptance_test": "Within or right after the orientation paragraph, at most about 50 added words give (a) a sourced plain description of her sound and (b) a dated through-line: left school at 16, debut single May 2024, EP, the TikTok-driven 'Die on This Hill' breakout. Every fact comes from already-opened sources. A reader who has never heard her can say what she sounds like and how she broke through after the first screen."
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "minor",
+      "passage": "By July 2026 she put it to [Z100](https://www.youtube.com/watch?v=aJRofzOtKmg) in seven words: \"if you don't want me, don't have me.\"",
+      "problem": "The quotation is eight words (if / you / don't / want / me / don't / have / me), not seven. Readers who count will catch it, and it is a countable error on one of the article's key present-tense lines.",
+      "acceptance_test": "The stated count matches the quotation, or the count is dropped."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "minor",
+      "passage": "The song holds the record's clearest Four lines.",
+      "problem": "This is a musician profile, and 'record' means two things on the page. Mostly it means the public evidence record ('The most distinctive pattern in the record', 'What the record can't separate yet'). But the settle section uses it for an album: 'A brighter record explained as what audiences wanted'. Right after a sentence about a song, 'the record's clearest Four lines' reads naturally as 'the album's'. 'Four lines' can also be parsed as a number, and only two lines are quoted. The sentence before it ('came from the opposite state') doesn't say what state it is the opposite of. Waiting for applause is not obviously the opposite of imagining an absent man in a doorway, so the transition stalls.",
+      "acceptance_test": "'Record' has one meaning throughout: 'public record' or 'interviews' for evidence, 'album' for music. The 'Pure' sentence can't be misread as a count. The 'opposite state' transition names what it contrasts with, or is rewritten so the link to the previous paragraph is clear to a cold reader."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "minor",
+      "passage": "She gave NYLON one more detail. When a child sang well at those assemblies, the room turned around to look for the mother.",
+      "problem": "NYLON's text (opened for this review) is: \"anytime someone was singing on stage, everyone would look behind to see the mum. That was kind of a sign that you're killing it.\" The draft turns her description of a school custom into a narrated rule ('when a child sang well') and drops her own explanation of why the turned heads mattered. Without it, \"everyone was looking behind. That was so validating\" lands obscurely in the third paragraph of the hook, and a cold reader has to work out why looking at her mother counted as praise.",
+      "acceptance_test": "The paragraph either quotes her explanation (\"That was kind of a sign that you're killing it\") or paraphrases it faithfully ('anytime someone was singing'). A reader understands on first pass why the room turning was validating."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "minor",
+      "passage": "Research closed on October 14, 2026. Two paywalled 2026 interviews, including The Telegraph's of May 2026, were not read.",
+      "problem": "This process note sits between the newly stated open question and the type answer, so it interrupts momentum at the moment the stakes are set. A newcomer has no context for why a Telegraph interview matters. The disclosure is honest and should stay, but it belongs where the article discusses the limits of its sources.",
+      "acceptance_test": "The disclosure is kept, with its date and what was not read, but moved into 'What the record can't separate yet' or folded into that section's opening paragraph. The introduction runs from the open question straight to the type answer."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "That week she told the [Zach Sang Show](https://www.youtube.com/watch?v=BOlmpk_iS2k) that she is \"numb quite a lot,\"",
+      "problem": "The two most-cited sources, the Zach Sang Show (7 mentions) and Z100 (6), are never identified: a US interview show and a New York radio station. Across about 2,740 words, 'told' appears 27 times, and 23 of those are 'she told' plus an outlet name. In 'Next thing, next thing, next thing' the outlet changes almost every sentence. For a cold reader the paragraphs read as a parade of venues more than a developing portrait, and the body is above the open-case target of about 1,200-2,500 words. The fix is not to drop attribution, which the standard requires at the passage, but to orient recurring sources once and let the anecdotes carry the rhythm.",
+      "acceptance_test": "Zach Sang and Z100 are each identified in a few words on first mention, with the date where needed. Later uses can be shortened. At least the drive section groups or varies its attributions so that no run of three or more consecutive sentences each turns on 'she told [outlet]'. Every quotation still carries a linked attribution at the passage."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Then she sang it at a school assembly, in front of the children who had bullied her.",
+      "reason": "A specific, sourced, surprising opening act. In one sentence a newcomer meets a person: wounded, defiant, and already turning pain into performance. It sets up the whole Four/Two/Three question without naming a type."
+    },
+    {
+      "passage": "Every day, she said, she walked down the stairs and imagined him outside the door, playing out \"what I thought would happen if he was there.\"",
+      "reason": "The most memorable concrete image in the piece. It makes 'longing for someone who isn't there' visible instead of abstract, and it earns the Four reading through behavior rather than vocabulary."
+    },
+    {
+      "passage": "But in nearly every telling, the helper is who she used to be.",
+      "reason": "The hinge that keeps the open case honest and gives a cold reader the exact tension to hold: her strongest Two evidence is told in the past tense. It moves the argument forward instead of restating it."
+    },
+    {
+      "passage": "Melancholy and candor are her genre's currency. That doesn't make hers false. It makes them weak evidence of motive.",
+      "reason": "Three short sentences explain to a reader with no Enneagram or music-industry background why confessional interviews can't settle the type. It sets the stakes of the open case without cynicism toward her."
+    },
+    {
+      "passage": "Four leads because the pattern she describes in the present tense, withdrawal into longing and then into song, is the Four's. Two is close because the pattern she calls the theme of her whole life is the Two's.",
+      "reason": "The clearest orientation in the article. Two parallel sentences let a newcomer state both reads and the exact reason one leads, without overstating confidence."
+    }
+  ],
+  "assessment": "Orientation to the present is strong. The first screen says who she is, why people are searching (UK No. 1, VMA Best New Artist, a world tour starting October 13, 2026) and the question the page is honest about, all with absolute dates. The hook earns its place: a cold reader meets a person before meeting a type. The 60-word answer and the heart-triad paragraph define 4, 2 and 3 well enough for an Enneagram newcomer. The five settle signals are concrete and readable, and the closing 'I have to do it' lands at a natural stop. The biggest gap for a reader without prior knowledge is the album confound (unfamiliar-01). The article's main reason for withholding a verdict depends on Visitor's arc, and the body never shows that arc. Second, the 'tellings vary / each gives way' line misstates the NYLON account the draft cites elsewhere (unfamiliar-02). Third, a newcomer learns her chart history but not what she sounds like or how she broke through (unfamiliar-03). Momentum sags in the drive section. Besides the outlet parade, 'Even her signature method deflates the myth' refers to a signature and a myth the reader was never told about; that paragraph is already on the editor's cut list. At about 2,740 words the body is over the open-case target, and trimming that section would help both pace and length. Overstatement check: the title, meta title, description and FAQs all use 'leading read'/'open case' language. Types 2 and 3 get real cases with evidence against each, and the settle signals are not generic, so there is no confidence finding. Eligibility holds on my read: she is 21, the breakout was October 10, 2025, about 39 sources were opened, and the record is thin because it is young, not because research skipped a deep one. The unopened ELLE interview of April 2026 about a breakup bears directly on settle signal 1 and is worth opening at refresh. The similarity advisory did not trip (max 0.095, a triad-framing sentence against Freddie Mercury). The matches are ordinary type vocabulary, and there is no meaningful reuse. Risks carried forward: sensitive_allegations (the unnamed older man, the unnamed producer, the nepotism labels, health disclosures, which the draft handles carefully) and contested_typing. To check unfamiliar-02 and unfamiliar-06 I opened NYLON directly via curl; I did not re-check other sources."
+}

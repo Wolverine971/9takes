@@ -1,0 +1,24 @@
+I've written the critic review to `review-critic.json` in the Mike Faist run folder. It passes the pipeline's review format check and carries the hashes from the request. I didn't touch any other file or the draft, and published nothing. I didn't look at the other reviews in this run.
+
+**Verdict:** the draft is well sourced sentence by sentence. But its main argument for Type 4 over Type 6 leans on a story about him that the draft's own sources undercut. That story is that he keeps giving up security when work stops feeling like his own.
+
+**8 findings (1 blocker, 7 major):**
+- **Blocker (critic-01):** the draft says no career decision on record weighs security and that he withdraws alone. His own account of taking *East of Eden* contradicts that:
+  - Cultured: "honestly Zoe and Florence."
+  - PBS: "someone's steering the ship."
+  - GQ: the job "provided a feeling of home."
+  - He also moved home to help care for his father and lives with a friend he's known since 16. The Type 6 FAQ repeats the error.
+- **The four "stepping back" episodes don't hold up as written:**
+  - **2018:** he left *Dear Evan Hansen* and went straight to the West Side Story audition and the *Panic* pilot. The Washington Post piece the draft cites says so.
+  - **2021:** he sold the Brooklyn apartment to move home and care for his father, not as an artistic statement.
+  - **2024–26:** the gap followed his father's and grandfather's deaths. He reportedly was preparing a DC film, *Sgt. Rock*, which sits awkwardly with his 2021 "put on a cape" line. In his own words he also blamed the industry and money, being overwhelmed by *Challengers*, and having "no control." The draft keeps only the inward-looking half of those answers.
+  - **2025 *Anna Christie*:** no reason is known. The draft places Kushner's "fought hard to get out of" line so it reads as the reason, and cuts his caveat about actors who say no too much.
+- **The "fear of not being good enough" evidence is weaker in context.** The four quotes are really a joke, a comparison to elite dancers at a dance call, an excited "That'd be cool," and a string of doubt questions that fit a Six just as well.
+- **Generic actor talk:** the "authenticity" language is common to actors on press tours. The evidence record admits this, but the article never says it. Comparing the actual arguments behind the similarity flags, this Four-vs-Six case largely repeats the Dakota Johnson and Jeremy Allen White pages.
+- **Minor overreading:** the 2017 "drift into the first person" quote is him talking about teenagers and his generation, not confessing.
+
+I also marked five passages for the editor to keep, including the Kushner mural line and the unresolved "losing himself or finding himself" question.
+
+**Your call later:** once this is fixed, Type 4 may still win, but "medium confidence" might not be justified anymore. If the editor changes the type, the pipeline requires a `--refresh --expanded-review` rerun.
+
+I checked context against the research stage's saved source texts and transcripts in `/tmp/mike-faist-research`. I didn't re-fetch the live pages or re-listen to the audio, and the review says so.

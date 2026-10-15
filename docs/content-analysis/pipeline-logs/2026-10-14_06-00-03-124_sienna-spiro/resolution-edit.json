@@ -1,0 +1,338 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Fixed. The Statesman is now described as a rave that uses the label playfully, with its 'heart is on her sleeve' verdict quoted (S28 rechecked in saved text). The nepotism labels are no longer said to name the 'sadness is style' counter-case: Moment's own definition ('purchased' through connections or money) is quoted, and the counter-case is attributed only to the Moment critic's 'emulates' remark (C29, C102, C103, C63). The parents FAQ attributes the labels to Moment as Moment defines them and no longer mentions the Statesman (C65)."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Fixed. The opening notes she has tied the visitor feeling to her ADHD, and the limits section prints her Rolling Stone UK quotation tying ADHD to 'The Visitor' (May 2026) and her Notion account of undiagnosed childhood neurodivergence (November 2025), both attributed as her explanations (C26, C101). 'Nothing here reads a type from her health, or her health from a type.' is kept verbatim (C81)."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Fixed. The 'emulates' remark is now set in Moment's comparison with Amy Winehouse, inside a passage that called Visitor 'a solid debut', marked as one critic's impression, and followed by a note that the bullying and depression she has described bear on it, without using them as type evidence (C102, C103)."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Fixed. 'I'm very competitive' (said during a friendship-bracelet game) and the 2 a.m. TikTok live are cut. The suit story keeps her self-mocking frame ('I'm actually so stupid sometimes,' laughing; S13, C17). The Three case now rests mainly on the ELAM campaign, over-singing for validation, the 'cooler' phase and 'Back to Blonde' (C112)."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Fixed. 'Deflates the myth' is removed. The paragraph now opens 'Even her signature method began unglamorously' and adds her present-day reason from the same AP answer: the '60s and '70s records she grew up on, cut to tape in full takes (S14 ~06:00-06:30; C20)."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Fixed. The father line now carries NYLON's resolution: she laughs about it now that he is a fan (S05 closing paragraph; C12)."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Fixed. Her continuation is printed right after the Vogue blockquote: 'I don't think it's a bad thing. I think it's a very normal, human way to be.' (S06; C93). The weighing section uses it as evidence against the Four marker of feeling apart."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Fixed. persona_title is now 'The Visitor Who Wants to Be Kept'. It uses the visitor motif and her own 'to be kept around' (Genius, February 2026) and names a want, not a past-tense coping strategy. It matches the edited leading read and the body's account of change."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Fixed. Checked against the saved transcripts and Whisper outputs: 'if you don't want me, don't have me' (S19 ~14:10) follows her quoting her old refusal to start relationships and is followed by 'I'm a very loyal and I can be very valuable to some people'. 'Completely opposed' and 'closed off' (S13 ~04:15) are past tense and rejected. 'I always feel like I give a lot of myself ... if I love somebody I'll do anything ... taken advantage of' (S13 ~49:00) is present tense. Every passage that called withdrawal her present stance or the helper only her past is removed or rewritten: the 'Making herself needed' close, the Four case, the Two strain, the verdict and the Type 2 FAQ. The line now carries its 'So be it. Allow it to end.' context (C54, C98, C10, C52, C11). With the tense tie-breaker gone, the editor re-weighed the case and moved the leading read to Type 2, with Type 4 the closest rival (C86). Because the leading type moved from 4 to 2 after the frozen review, risks.major_thesis_change is set and the run must hold for --refresh --expanded-review; the edit does not absorb the change."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Fixed (option b plus the clause). 'Pure' is no longer called the record's clearest Four evidence, and the sister lyric is no longer printed: the caption rendering is unreliable and no official lyric sheet was opened. One clause in her framing, with no medical detail, says she wrote it 'very depressed' and guilty about working in Los Angeles while her mother was ill in London (S17 ~06:00-06:40; C62). The mother lyric is not quoted because the Cosmopolitan captions garble it."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Fixed. The opening now says she has given more than one account of the visitor feeling: being needed (Z100, March 2026) and ADHD ('elsewhere she has tied it to her ADHD'). The limits section prints the Rolling Stone UK ADHD quotation and the Notion neurodivergence account, each attributed as her own explanation (C73, C26, C101). Two details were deliberately left out. The 'regarded as popular' framing is the writer's paraphrase, not her words, and was cut for length. Her 'Don't know' start is left out because Whisper hears 'I don't know, I just' and the captions differ."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Fixed. 'About a year old' is gone from the intro, the type answer and the type FAQ. All three now speak of her interview record, 'nearly all from 2025-26 promotion' (C74, C76). A dated sentence covers the 2021 TikTok start and the May 2024 first single (S31, S30; C107). The nepotism paragraph adds her own account, that she found her management 'from posting one video' (S03; C104), and the parents FAQ mirrors it (C118). The school-leaving passage adds her retrospective verdict, 'quite a foolish reason' (Interview, March 2026; C55). The producer is not linked to anyone. The Melodic Magazine lead was not opened in this pipeline's evidence and is not used."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Fixed. The style passage now says what replaced her early baggy clothes and why (she hated the idea of being looked at), and quotes 'My hair felt like armour. It made me feel more myself, even though it looked less like me.' exactly (S01; C100). The weighing uses it in the Four case (the armour line) and the Three case ('a look that is also an image'). The Vevo quotation keeps 'A challenge, I think, for the last year', is attributed as quoted by Hey Alma, and keeps its resolution ('went back to why I started doing music'). The 'north-west London Jewish girl who sings jazz' self-description is used (S26; C38)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Fixed. The opening quotes NYLON exactly: 'The song was about how the only person who really knows what's going on is me, the person in the mirror.' (S05; C07). The rest of the hook is trimmed to keep its length about the same."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Fixed. The Genius line is attributed to the 'You Stole the Show' commentary about that ex ('of that ex, she said on Genius'; S24; C45). A dated sentence adds the second instance: 'You Stole the Show' (2025) is 'about living it every night and just imagining what would happen if that person was there' (Interview, March 2026; S03; C94). Lyrical Lemonade's 'I've had that so many different times' is added (C44)."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Fixed. The second-album Two branch now requires a costly choice made for one person, such as handing a collaborator the spotlight. The signal says that hoping the songs help listeners won't count because she already says that (Notion, November 2025; Z100, July 2026; C113). The settle FAQ and open_case.settle_signals match."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Fixed. Same transcript check as fan-01. The withdrawal quotations are presented as the stance she says the album taught her to drop (C10, C97). 'If you don't want me, don't have me' carries 'So be it. Allow it to end.' and the 'very loyal' follow-on (C54, C98). The present-tense 'I always feel like I give a lot of myself ... if I love somebody I'll do anything' (June 2026) is printed and weighed in the Two case (C52, C84). No passage says withdrawal is her present pattern. The fantasy/longing pattern survives the check and now carries the rival Four case (C83, C115), but against the explicit, repeated present-tense helper statements it does not outweigh them, so the leading read moves to Two. Because the leading type moved from 4 to 2 after the frozen review, risks.major_thesis_change is set and the run must hold for --refresh --expanded-review; the edit does not absorb the change."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Fixed. 'The theme predates the album campaign' is removed, and the Variety 'impermanence' remark is no longer printed. It came while she introduced 'The Visitor' on the tour's opening night (S12), so it is campaign evidence. Variety is now used only for the Adele line and, in the Six paragraph, its 'motivated to write songs by some deeply held anxieties' observation."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Fixed. The passage now says 'Nobody did' before her 'other people's agenda' conclusion (S13 ~20:40; captions and Whisper agree). The weighing no longer counts it as clean evidence: the Three paragraph says she rejected applause 'on a night it didn't come, which could be a save as easily as a principle' (C13, C112)."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Fixed by removal. The 'tellings vary ... giving way to someone she trusts' paragraph is cut, and the Three case no longer cites a habit of giving way. The conflicting Vogue and NYLON accounts are recorded in type_hypothesis.unexplained. 'I'm very competitive' is dropped from the drive evidence (subject-04)."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Fixed. Where the visitor theme is introduced, the TODAY continuation is printed: 'and knowing you probably care about that person more than they care about you' (S41; C08). The Genius 'to be kept around' line and her Capital definition ('if you don't show up in that specific way, you're expired to them'; C96) appear in the Two section. The intro and the Four strain say most of her definitions are about being kept while useful (C73, C111)."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Fixed. The Six paragraph names the strongest Six evidence: Variety's 'deeply held anxieties', 'quite an over-thinker' and 'a control freak' (S12, S14). Its discriminator no longer relies on the producer's promise: the fears she names are rejection, embarrassment ('my least favorite emotion') and being temporary to people, which is shame rather than fear for safety and support (C33, C110, C39). Her 'really secure' uniform line and her trust in her manager are recorded as Six counterevidence in C33."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Fixed. Before the weighing, the 'Making herself needed' section now gives the album's arc in her words, dated and linked: the closing song named for mono no aware, her gloss on it, and her account of being 'very, very close-minded' before finding it (AP, July 2026; Zach Sang, June 2026; Austin City Limits TV; C97). The weighing's arc description is narrowed to what those sources say ('from clinging, to closing off, to letting things end'). The unsourced 'people-pleasing' stage is gone."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Fixed by removal. The generalization that every telling ends in yielding is cut, along with the whole tellings paragraph and the 'habit of giving way' clause in the Three case. The conflict between the NYLON and Vogue accounts is recorded in type_hypothesis.unexplained."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Fixed. Right after the hook, the orientation adds a plain, sourced description of her sound ('soulful, '60s-style balladry'; C108). It also adds a dated through-line: TikTok videos from 2021, first single May 2024, and the October 2025 breakout once TikTok seized on its bridge (C107, C04). The EP is referenced as part of the promotion cycles, and leaving school at 16 is dated in the drive section. All facts come from already-opened sources."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Fixed. The word count is dropped. The line now reads: 'So be it. Allow it to end. Like if you don't want me, don't have me.'"
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Fixed. 'Album' now always means the music and 'record' the evidence (the settle signal says 'A brighter album'). 'The record's clearest Four lines' is removed. The 'Pure' transition names its contrast: 'came from the reverse, an audience that was there and silent', against the absent person of the previous paragraph."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Fixed. The paragraph quotes her explanation: 'anytime someone was singing on stage, everyone would look behind to see the mum. That was kind of a sign that you're killing it.' (S05; C37)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Fixed. The research-closed disclosure is kept verbatim, with its date, and moved to open 'What the record can't separate yet'. The introduction now runs from the open question straight to the type answer."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Fixed. Zach Sang is identified on first mention ('a US interview program') and Z100 as 'the New York pop station'. A sentence-level scan finds no run of three or more consecutive sentences each turning on 'she told/said on [outlet]'. One run in the 'Pure' paragraph was found and broken. Every quotation keeps a linked attribution at its first use."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Fixed. No passage in the body or FAQs presents 'completely opposed' or 'if you don't want me, don't have me' as her current stance or as withdrawal. The July 2026 line carries its context and the 'very loyal ... valuable to some people' follow-on (C54, C98). No wing or arrow is used. No reason for Four leading survives that does not depend on tense, so enneagram-02 applies; see that decision. The verdict now explains the Two lead without any tense asymmetry (C86)."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Fixed by option (b). The lead moves to Type 2, with Type 4 the closest rival and Type 3 live. The two candidate Four observations (the unreality cluster and the longing pattern) are kept as the rival case (C83, C115). The editor judged that they do not outweigh her core-belief statement, which is repeated in five interviews and still present tense in 2026, especially since the article itself discounts melancholy as genre currency and the unreality has depression and ADHD confounds. enneagram, title, meta_title, description, persona_title, the 60-word answer, the FAQs, type_hypothesis and open_case are all updated together, with confidence kept low. Because the leading type moved from 4 to 2 after the frozen review, risks.major_thesis_change is set and the run must hold for --refresh --expanded-review; the edit does not absorb the change."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Fixed. The hook no longer says the visitor feeling reads like a Four. Only 'naturally sad' is said to sound like a Four, and the hook says that when she defines the visitor feeling, it usually comes back to being kept only while she keeps showing up. The body cites Capital, April 2026 ('you're expired to them'; C96) and Genius, February 2026 ('to be kept around'; C22), and the Four strain counts the theme for Two (C111)."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Fixed. The Two strain no longer uses the format-driven 'leads with her own feelings' criterion or the false past-tense claim. It now rests on behavior Two predicts less well: when someone is out of reach, she waits and imagines rather than giving more (C115). The weighing says she presents her feelings as shared, not as setting her apart ('a very normal, human way to be', Vogue, July 2026; 'We all are visitors in a way, aren't we?', Euphoria, August 2026), and draws the consequence for the Four read (C111). The June 2026 present-tense giving quotation is printed (C52)."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Fixed. Signal 1 states what is already on record ('She already says she gives more than she gets'; C114) and gives most weight to the friend's account. Signal 2's Two branch requires a costly choice for one person and excludes routine 'help listeners' talk (C113). Signal 3 covers a win as well as a snub and excludes thanking her team. Signal 5 (the nepotism answer) is replaced by a costly behavioral choice between her own feeling and the crowd. Signals 4 (testimony from someone who knew her before 2022) and 5 turn on third-party testimony or observed behavior. The settle FAQ and open_case.settle_signals match."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Fixed. The producer clause is cut from the Six dismissal, which now rests on the named-fear discriminator (C33). The Nine dismissal acknowledges the mirroring quotation and says its stated purpose, 'to be kept around', is the Two's bargain rather than a Nine's merging for peace (C105)."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Fixed. The weighing adds: 'Three ranks third because what she says she fears is being unwanted, not failing.' (C116)."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "Fixed by softening. No official lyric source was opened to verify the following line, so the sister lyric is no longer printed or counted as Four evidence. The Four case now cites envy of her own imagination (C45), which is verified. Research task added to find an official lyric sheet."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Fixed. Every undated 'now', 'present tense' and 'past tense' in the type argument is gone. The case is anchored to dated periods: 'In 2026 she still defined...', 'she still described it that way in 2026', 'She tells the giving in the present tense, too ... she told Zach Sang in June 2026' (C84, C86, C52)."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Fixed. The tense split is gone. The Two strain and the verdict now rest on bases the quoted record supports: the explicit self-description and its 2026 restatements, set against the longing pattern where giving isn't possible. 'In nearly every telling' is replaced by a statement that survives a count against the sources: 'The helping is the one part she never describes dropping' (C11). The C11, C84 and C86 inferences match the new wording. Because the leading type moved from 4 to 2 after the frozen review, risks.major_thesis_change is set and the run must hold for --refresh --expanded-review; the edit does not absorb the change."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Fixed. The body's absence claims carry absolute dates: 'as of October 14, 2026, no response from her has been found'; 'As of that date, the people who had described her on record were...'; 'No sibling, school friend or longtime collaborator had spoken.' These match the parents FAQ (C64, C31, C82, C65), and C31 and C82 carry triggers."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Fixed by removal. The Ryman sentence is cut because it was sourced only to a June 2026 announcement and does not test the type argument. Claim C72 is removed."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Fixed. The type answer, the type FAQ and the intro state the record's age in absolute terms: 'Her interview record, nearly all from 2025-26 promotion'. The answer is 53 words, and the FAQ mirrors it exactly. C74 and C76 are updated."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Fixed. The signal is generalized to 'a major award result', starting with the 2027 Grammys, and reads both a win and a snub for each type. C88's review trigger now schedules a review of her Grammy-cycle statements after February 7, 2027, and research_tasks records the follow-up."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "Fixed. Every body date carries a year (October 9, 2026; August 2026; June 2026). The AP interview is dated July 2026 at first mention. Willman is anchored to his March 2026 review rather than to a title. Maslin is 'who had managed her since she was 16' (C28)."
+    },
+    {
+      "finding_id": "future-08",
+      "action": "fixed",
+      "reason": "Fixed. The closing now reads: 'She told Euphoria she has seen herself as a visitor \"throughout my life,\" and she has called making herself needed its biggest theme.' Claim C106 covers it, citing S09 and S18."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "She has since called the situation \"not healthy\" and said the man, whom she has not named, \"did not have good intentions with me.\" That is her account alone.",
+      "action": "kept",
+      "reason": "Kept verbatim. The sensitive account stays in her words, with the man unnamed and the account labeled as hers alone."
+    },
+    {
+      "passage": "Nothing here reads a type from her health, or her health from a type.",
+      "action": "kept",
+      "reason": "Kept verbatim at the end of the paragraph that now also reports her own ADHD and neurodivergence explanations (subject-03)."
+    },
+    {
+      "passage": "Melancholy and candor are her genre's currency. That doesn't make hers false. It makes them weak evidence of motive.",
+      "action": "kept",
+      "reason": "Kept verbatim. The edit applies it consistently: it now also discounts the Four evidence, which is part of why the lead moved to Two."
+    },
+    {
+      "passage": "Neither piece shows that money or connections bought her career, and no response from her has been found.",
+      "action": "changed",
+      "reason": "The missing-response disclosure is kept and dated per future-03: 'Neither piece shows that money or connections bought her career, and as of October 14, 2026, no response from her has been found.' The Statesman is now described accurately (subject-01)."
+    },
+    {
+      "passage": "But in nearly every telling, the helper is who she used to be.",
+      "action": "changed",
+      "reason": "Removed as false against the sources (fan-01, critic-01, enneagram-01, future-02): she tells the helping in the present tense. Its contribution, respecting her own account of change rather than fixing her in a childhood adaptation, is kept in the corrected hinge: 'So the change she describes runs from clinging, to closing off, to letting things end. The helping is the one part she never describes dropping.'"
+    },
+    {
+      "passage": "Every day, she said, she walked down the stairs and imagined him outside the door, playing out \"what I thought would happen if he was there.\"",
+      "action": "kept",
+      "reason": "Kept verbatim. It is still the most vivid scene in the piece and now anchors the rival Four case."
+    },
+    {
+      "passage": "And on a day she wasn't \"feeling accomplished,\" she told Zach Sang, her \"solution to that was wearing a suit\" to the studio.",
+      "action": "kept",
+      "reason": "Kept verbatim, followed by her self-mocking 'I'm actually so stupid sometimes,' laughing (subject-04)."
+    },
+    {
+      "passage": "Even her signature method deflates the myth.",
+      "action": "changed",
+      "reason": "The verified 'a bit lazy' detail and the refusal to flatter are kept. The 'deflates the myth' framing, which referred to a myth the article never set up, is replaced with 'Even her signature method began unglamorously', followed by her present-day reason (subject-05, unfamiliar)."
+    },
+    {
+      "passage": "\"I have to do it,\" she said.",
+      "action": "kept",
+      "reason": "Kept verbatim as the ending."
+    },
+    {
+      "passage": "\"I performed it in front of the people who had bullied me, and it was like medicine. I felt so comforted,\" she told [Notion](https://notion.online/notion-the-artists-vol-3-sienna-spiro/) in November 2025.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "Those choices have cost her nothing measurable, though, and they fit the brand her manager describes.",
+      "action": "kept",
+      "reason": "Kept verbatim in the Three case."
+    },
+    {
+      "passage": "Even her signature method deflates the myth. She records whole vocal takes rather than stitching lines together, and she told the [Associated Press](https://www.youtube.com/watch?v=WFpFT3u6seI) that \"originally it came from me being a bit lazy to be honest.\"",
+      "action": "changed",
+      "reason": "The verified 'a bit lazy' detail and the refusal to flatter are kept. The 'deflates the myth' framing, which referred to a myth the article never set up, is replaced with 'Even her signature method began unglamorously', followed by her present-day reason (subject-05, unfamiliar)."
+    },
+    {
+      "passage": "Then she sang it at a school assembly, in front of the children who had bullied her.",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "Four leads because the pattern she describes in the present tense, withdrawal into longing and then into song, is the Four's. Two is close because the pattern she calls the theme of her whole life is the Two's.",
+      "action": "changed",
+      "reason": "The reasoning was false against the sources, and the lead moved to Two (enneagram-02). Its contribution, two parallel sentences that let a newcomer state both reads and the reason one leads, is kept: 'Two leads because the pattern she calls the theme of her whole life ... is the Two's ... Four is close because the pattern that appears wherever she can't give ... is the Four's.'"
+    },
+    {
+      "passage": "She gave NYLON one more detail. When a child sang well at those assemblies, the room turned around to look for the mother. \"My mum was there filming, and everyone was looking behind. That was so validating.\"",
+      "action": "changed",
+      "reason": "The scene is kept: being believed and being applauded, unresolved. The narrated rule 'When a child sang well...' is replaced with her own words, 'anytime someone was singing on stage, everyone would look behind to see the mum. That was kind of a sign that you're killing it', and the 'so validating' quotation is unchanged (unfamiliar-06)."
+    },
+    {
+      "passage": "That is about as plain a description of the Type 2 strategy as anyone gives in an interview, and it wasn't a one-off.",
+      "action": "kept",
+      "reason": "Kept verbatim. It now supports the leading read."
+    },
+    {
+      "passage": "Performing in 2025, she caught herself waiting to see whether anyone would clap, and decided that was \"other people's agenda being pushed into mine.\"",
+      "action": "changed",
+      "reason": "The scene and her quotation are kept. Per critic-03 it now adds that nobody clapped: 'Performing in 2025, she said on the Zach Sang Show, she caught herself waiting to see whether anyone would clap. Nobody did, and she decided the waiting was \"other people's agenda being pushed into mine.\"'"
+    },
+    {
+      "passage": "Research closed on October 14, 2026. Two paywalled 2026 interviews, including The Telegraph's of May 2026, were not read.",
+      "action": "kept",
+      "reason": "Kept verbatim with its date, moved to open the limits section (unfamiliar-07)."
+    },
+    {
+      "passage": "**A friendship that cools after fame.** Does she describe doing more, initiating and being the therapist friend, and being hurt it wasn't returned (Two)? Or pulling back, grieving privately and writing about being temporary (Four)?",
+      "action": "changed",
+      "reason": "The concrete, undated, observable structure is kept. Per enneagram-05 it now notes what the record already shows and weights the friend's account over hers."
+    },
+    {
+      "passage": "And when Zach Sang asked why she sings, if not for the applause, she didn't reach for a theory. \"I have to do it,\" she said.",
+      "action": "kept",
+      "reason": "Kept verbatim as the ending."
+    }
+  ],
+  "prior_blockers": []
+}

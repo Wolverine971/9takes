@@ -1,0 +1,23 @@
+The fan review is written to `docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/review-fan.json`. It passes the contract's review schema and uses the hashes from the request. No other files were changed and nothing was published.
+
+**The main problem (blocker):** the draft gives "Four" as the leading type because withdrawal is her current pattern and helping others is her past one. The interviews it cites say the reverse:
+- **"If you don't want me, don't have me"** (July 2026) is her rejecting the old shut-down habit. The full answer is "So be it. Allow it to end," and she calls herself "very valuable to some people."
+- **"Completely opposed to being in a relationship"** is told in the past tense, and she follows it with "it's not the way to live."
+- **The helping is present tense.** In the same interview she says "I always feel like I give a lot of myself… if I love somebody I'll do anything."
+
+That misreading shows up in four places, including the Type 2 FAQ. Fixing it may weaken the case for Four or change the leading type. If the type changes, the run has to go through the `--refresh --expanded-review` path.
+
+**Four major findings:**
+- **"Pure":** the draft uses the song's sister line as evidence for Four. In those same two answers she first names a line about her mother's pain, and says she felt guilty for being away while her mother was ill.
+- **The "visitor" feeling:** Rolling Stone UK's cover story has her own ADHD explanation for it. The draft reduces that to "reported an ADHD diagnosis" and treats the Z100 answer (which she began with "Don't know") as her only explanation.
+- **"Public record about a year old":** this is wrong, and it appears three times. She's been on TikTok since 2021, released singles through 2024 and an EP in February 2025. The "nepo baby" paragraph also leaves out her own account of being found through one TikTok video. The dropping-out story leaves out that she now calls it "foolish" and "false promises."
+- **Her '60s look:** it's missing, along with her line "My hair felt like armour. It made me feel more myself, even though it looked less like me." That is the clearest evidence on the Four-versus-Three question.
+
+There are also three minor findings and five passages marked for protection (the New York waiting story, the suit, the "lazy" one-take admission, the "genre's currency" line, and the "I have to do it" close).
+
+**On sources:** I checked quotes against the research stage's saved transcripts and page copies rather than re-fetching them. I opened one new page, a January 2025 Melodic Magazine article, which suggests the "being needed" theme dates from before the album. It's unclear who is speaking in it, so it's in the review as a lead only. The similarity check didn't trip, and comparing the arguments found no meaningful reuse.
+
+Sources:
+- [Melodic Magazine: Sienna Spiro reveals the release date for her debut EP](https://www.melodicmag.com/news/sienna-spiro-reveals-the-release-date-for-her-debut-ep-sink-now-swim-later/)
+- [Sienna Spiro (Wikipedia)](https://en.wikipedia.org/wiki/Sienna_Spiro)
+- [Atwood Magazine interview](https://atwoodmagazine.com/ssdp-sienna-spiro-music-interview-feature-2025/)

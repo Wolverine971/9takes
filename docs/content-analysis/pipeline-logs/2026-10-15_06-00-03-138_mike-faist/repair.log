@@ -1,0 +1,22 @@
+I've finished the repair stage for the Mike Faist profile and written the three outputs. Nothing was published, and no other files were touched; the inputs and the live draft are unchanged.
+
+**What I fixed (all five verifier findings were minor):**
+- **Two separate sets of refusals (verify-01).** The article had merged the offers the Times reported him turning down in May 2021, before *West Side Story* came out, with the parts Kushner says he declined after the release. They are now kept apart everywhere: the narrative section, the summary paragraph, the Type 6 argument and the Type 6 FAQ. Kushner's account is framed as backing up the pattern. Since GQ gives no year for those later calls, the article doesn't give one either, which answers the verifier's open research task. "Peak demand" and the section title "Saying no at the top" are gone; it's now "Saying no on the way up".
+- ***Sgt. Rock* timing (verify-02).** The film is dated 2025 and placed inside his two-year break, not before it.
+- **Uncredited role description (verify-03).** The phrase lifted from Cultured is replaced with "the volatile Charles Trask".
+- **Citations (verify-04).** I dropped the two videos no claim uses. The dead MTV and Columbus Dispatch links now point to Wayback copies; both loaded fine today.
+- **Readability and order (verify-05).** The "Saying no" section now runs in date order. The *East of Eden* paragraph and the break paragraphs read as prose, with no more than two quote fragments per sentence. Every sourced reason and attribution is kept.
+
+**Checks:** the contract's draft check shows no blockers. The evidence file validates against the new draft: 95 claims, all source references resolve, and every claim's passage appears in the article. All 114 quotations match the saved source texts word for word. Every reviewer finding has a decision, and every protected passage is in the same state the verifier accepted.
+
+**Things to know:**
+- **Length:** the body fell from 3,707 to 3,682 words, which meets "don't grow" but is still above the 3,500 target. The verifier's writing score partly reflected this. Cutting about 180 more words would have removed evidence the reviewers asked for, so I kept that one length finding (unfamiliar-07) as rejected with the updated numbers.
+- **New FAQ:** I added "Who does Mike Faist play in *East of Eden*?", because the verifier flagged that gap for people searching around the premiere. It's sourced and has its own claim in the evidence file. Veto it if you don't want it.
+- **One cut:** I removed the sentence "Even the *East of Eden* yes splits…". The paragraph before it and the Type 6 summary already make the same point.
+
+The runner still needs to send this through re-verification. The last score was 8.3 against an 8.5 bar, so whether it clears depends on that pass.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/`:
+- repair.md
+- evidence-repair.json
+- resolution-repair.json

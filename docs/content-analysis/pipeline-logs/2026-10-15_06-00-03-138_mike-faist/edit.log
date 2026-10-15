@@ -1,0 +1,32 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 59dd4950-e7a5-4a54-bf84-2d7e331af8a1 to write outputs
+I've finished the edit stage for Mike Faist. All three output files are written in the run folder and pass the pipeline's own checks: the draft check reports no blockers at 3,707 words, every evidence passage matches the article exactly, and the resolution file fits its required format. Nothing was published, and I didn't change any other repo files; my helper scripts are in `/tmp` only.
+
+**The typing:** Faist stays Type 4 at medium confidence, so this doesn't trigger a re-review. The jury was right that the draft's main argument ("he keeps stepping back when work stops feeling like his own") didn't hold up against the sources. I rebuilt it on two dated points specific to him:
+- **What he guards.** From 2017 to 2026 his fear is about his ordinary self being seen. In 2017 he signed at the stage door only about twice a week so fans wouldn't "meet who I actually am." In 2026 he told GQ the problem with fame was "the public gaze," which took away the freedom to "be whoever you wanted to be." That is about losing self-expression, not safety.
+- **What he gave up.** In 2021 he dropped the goal of being "just a working actor," and Tony Kushner independently confirms Faist turned down parts for reasons that "had nothing to do with size of the role."
+
+Type 6 and Type 9 are now named as close alternatives in the type answer, the FAQs and the description. The Nine section openly says Four and Nine aren't separated yet.
+
+**Fixes to the draft:**
+- **Timeline.** The draft said *East of Eden* ended his two-year break. In fact he shot it around 2024, before the break.
+- **Episodes miscast as stepping back.**
+  - He left *Dear Evan Hansen* in 2018 and went straight into the *West Side Story* audition and an off-Broadway play.
+  - He sold the Brooklyn apartment to move home to his sick father.
+  - His outward reasons for the 2024–26 gap are now quoted: industry financing, Challengers being "very overwhelming," and having no control.
+- **Misplaced quotes.**
+  - Kushner's line about what Faist has "fought hard to get out of" sat right after his unexplained *Anna Christie* exit. It's now framed as a general remark, with Kushner's caution that an actor can become one "who says no to a lot." *Anna Christie* is no longer used as evidence of any trait.
+  - "I don't care enough" now shows he was laughing off being merely a working actor.
+  - His pilot's license keeps the reason he gave: to bond with relatives he had just met.
+- **Counterevidence added.** His 2023 West End *Brokeback Mountain* run, the 2024 Loewe campaign and Met Gala, and his 2026 wish to return to the theater.
+- **Metadata.** The meta title no longer predicts behavior; it's now "Mike Faist Enneagram Type 4: Braver as Someone Else." The age FAQ says he turned 34 in January 2026, so it won't go stale.
+
+**What still needs attention:**
+- **One finding rejected.** The unfamiliar-reader review asked for about 3,500 words. The body is 3,707 (the draft was 3,772), because the major findings required adding sourced context. I cut uses of "told" from 46 to 27 and split the overlong section. The verifier may push back on this.
+- **Loewe campaign year.** Another Man calls it the spring/summer 2024 pre-collection, which may date it to 2023; Cultured says 2024. The article doesn't give a year for the campaign, and I logged this as an open research task.
+- **Open questions that would settle the type.** An account of him in open conflict with a collaborator, and how he explains choosing his August 2026 production. Both are recorded as review triggers.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/`:
+- `edit.md`
+- `evidence-edit.json`
+- `resolution-edit.json`

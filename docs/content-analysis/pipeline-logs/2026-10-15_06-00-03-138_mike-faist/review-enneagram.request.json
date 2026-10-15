@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "mike-faist",
+  "mode": "create",
+  "role": "enneagram",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/similarity.json"
+  },
+  "outputs": {
+    "review-enneagram.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/review-enneagram.json"
+  },
+  "content_sha256": "9edd7257f98ee24cc5af89db885caea2ac059392d31d42316edcb2b70614d346",
+  "evidence_sha256": "b5d6733f12f988e152896a829b71c5bd34a19acd276a3ef2c5a915bd77555546"
+}

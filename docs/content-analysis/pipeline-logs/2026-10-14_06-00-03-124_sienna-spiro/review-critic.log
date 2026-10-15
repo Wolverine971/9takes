@@ -1,0 +1,19 @@
+I've written the critic review to `docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/review-critic.json`. It passes the review schema: 6 findings and 5 passages to protect. I didn't change any other file, read the other reviews, or publish anything.
+
+**The main problem:** the draft's whole reason for putting Four ahead of Two doesn't hold up against its own sources. It says she used to be the helper and now pulls away from people. The interviews say the reverse:
+- **The pulling away is past tense.** In three interviews (Zach Sang, AP, Lyrical Lemonade) she describes being "closed off" as the attitude the album taught her to drop.
+- **"If you don't want me, don't have me" is about letting go, not pulling away.** In the full quote she says "so be it, allow it to end," then talks about knowing her own value.
+- **The giving is present tense.** In the same June interview: "I always feel like I give a lot of myself… if I love somebody I'll do anything."
+
+Both transcriptions of each clip (YouTube captions and a separate machine transcription) agree. I marked this **major**. The editor should either rest the Four lead on something that holds up, such as the present-tense pattern of imagining someone who isn't there, or say Four and Two are effectively tied. If the type changes, the run has to hold for `--refresh --expanded-review`.
+
+**The other findings:**
+- **Major:** the draft says the "temporary" theme came before the album campaign. Its only evidence is a Variety review of the opening night of The Visitor Tour, where she was introducing "The Visitor" single. That's campaign material, and it's the article's only answer to the "the sadness is style" argument.
+- **Minor:** the "Pure" applause story leaves out that the audience didn't clap before she decided applause was "other people's agenda."
+- **Minor:** the article says every telling of the "Die on This Hill" story ends with her giving way. In the NYLON version she overrules someone else. Separately, "I'm very competitive" was said during a friendship-bracelet game, which the draft doesn't mention.
+- **Minor:** the "temporary" quotes are cut just before the parts about relationships, e.g. "you probably care about that person more than they care about you."
+- **Minor:** Type 6 is set aside with a weak argument. The article cuts Variety's "deeply held anxieties" line and skips her over-thinking and "control freak" quotes.
+
+**Protected passages:** the assembly opening, the "weak evidence of motive" paragraph, the line that her authenticity has cost her nothing measurable (which keeps Three live), the line refusing to read a type from her health, and the "bit lazy" vocal-method detail.
+
+**Limits:** a fresh download of the YouTube captions was blocked by rate-limiting. My quote checks rely on the research stage's saved copies, cross-checked against its separate transcriptions. The similarity check didn't flag anything, and I found no meaningful reuse from other profiles.

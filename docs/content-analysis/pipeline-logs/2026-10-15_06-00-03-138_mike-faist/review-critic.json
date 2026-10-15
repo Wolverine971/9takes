@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "9edd7257f98ee24cc5af89db885caea2ac059392d31d42316edcb2b70614d346",
+  "evidence_sha256": "b5d6733f12f988e152896a829b71c5bd34a19acd276a3ef2c5a915bd77555546",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "blocker",
+      "passage": "Then look at what he gives up. In none of the decisions on record does he describe weighing security. He gives it away. Under overload he moves off, usually alone or with the dog, more than toward allies or structure.",
+      "problem": "This is the second leg of the Four-over-Six discriminator, and the article's own opened sources contradict it. The one return-to-work decision he has explained at length was relational and reassurance-seeking. Asked by Cultured (S07) what made him sign on to East of Eden, he said \"honestly Zoe and Florence.\" He told PBS (S03) that Kazan's \"really specific point of view\" was \"really what you want ... That helps any sort of anxieties because it's like, well, someone's steering the ship. Someone knows what they're doing.\" GQ (S02) reports he \"thinks he signed on to East of Eden because the work provided a feeling of home.\" The claim that he \"moves off, usually alone\" also ignores the record. In 2021 he moved home to help care for his ill father (S01, S02) and told the Times he was going \"to hang out with my family in Ohio\" (S04). He lives with a friend he has known since 16 (S01). Two paragraphs earlier the draft counts \"the family he moved home to help\" as Six evidence. The Type 6 FAQ repeats the error (\"because he has repeatedly given up security instead of looking for it\").",
+      "acceptance_test": "The body and the Type 6 FAQ no longer say that no decision on record weighs security, or that he withdraws alone. The East of Eden decision appears with his own stated reasons (Zoe and Florence; a clear leader easing his anxiety) next to the \"right for me\" test. The article then says plainly which observation still separates Four from Six once this leg is corrected. If only the fear-content leg survives (see critic-06), the confidence wording in the body and type FAQ is lowered, or the type hypothesis goes back to the evidence record for re-examination."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "Faist, born in 1992 and raised in Gahanna, Ohio, has made that move more than once. He originated Connor Murphy in _Dear Evan Hansen_ and left the show in 2018.",
+      "problem": "The draft counts the 2018 exit as an instance of \"that move\": turning down offers and stepping off the industry's trajectory. The source it cites for the exit says the opposite. The Washington Post piece (S05) reports: \"Shortly after Faist exited the show in the summer of 2018, he sent his audition tape for another tormented character: the pithy but pitiable Riff. That November, he was performing in Steven Levenson's off-Broadway play 'Days of Rage' when he got the call to audition.\" The Times (S04) adds that \"since the fall of 2018\" he went \"back and forth between 'Panic' and 'West Side Story.'\" He left the role after about three years on stage (\"five or six years\" counting development, he says) and went after a Spielberg film and a TV pilot. That is moving toward momentum. His only stated reason (\"I couldn't do it\" ... \"It really took a lot out of me\") was given in 2021 about the film adaptation, not about the 2018 exit. The same framing feeds the type answer (\"He has repeatedly stepped back from work, and from momentum\") and the Type 4 FAQ.",
+      "acceptance_test": "The 2018 exit is no longer presented as a step back from momentum. Where the exit is narrated, the article says he went straight into the Riff audition, Panic and Days of Rage in 2018. The \"repeatedly stepped back\" sentences in the type answer, the Type 4 FAQ and C48 count only episodes the sources support as chosen withdrawals."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "Each time since, the security he gave up was the kind that industry pays out: momentum, a New York apartment, the next big part.",
+      "problem": "He did not give up the apartment as a trade for authenticity. Another Man (S01): \"he moved back to Ohio when his dad fell ill. He sold his flat in Brooklyn and bought a house.\" GQ (S02): \"In 2021, just after West Side Story, Faist packed up his belongings in New York and moved back to Ohio to help care for his ailing father.\" The hook puts the sale next to \"I don't want to just be a working actor anymore\" and does not mention the father, so a reader first meets a caregiving move as a statement of artistic identity. The thesis paragraph then counts it as proof of the Four's trade. The only concession (\"Circumstance explains part of every episode\") comes after the verdict and does not say the sale itself was for his father.",
+      "acceptance_test": "\"A New York apartment\" either comes off the list of securities traded for authenticity, or the same sentence says he sold it to move home and help care for his father. The hook, or the first paragraph that mentions the sale, names his father's illness or clearly points ahead to it."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "Faist's own explanation pointed inward again.",
+      "problem": "His own explanations of the 2024 to 2026 gap point outward as much as inward. The draft keeps only the inward half. In the same GQ piece (S02) he says: \"There's things that pop up and for whatever reason, they don't happen because of the industry and financing. There's no control in this industry.\" In the same Cultured answer the draft quotes (S07): \"The truth is that Challengers was a lot. It was very overwhelming ... the dust had to settle a little bit ... I don't really know how much control I actually have over any of this.\" The gap also began weeks after his father and grandfather died (S01, S02), which the circumstance sentence leaves out. And in 2025 he was reportedly attached to Sgt. Rock, which its screenwriter says was \"more or less in prep\" and \"very much a superhero movie\" (S02). So in the middle of \"walking away\" he was reportedly preparing a DC studio film, four years after describing the career path he rejected as \"Put on a cape and wear a mask.\" The section title \"Walking away at the top\" and the line \"What stopped was new work\" present as his choice what the record shows was partly grief, overwhelm and a collapse he did not choose.",
+      "acceptance_test": "The section quotes at least one of his outward explanations (industry and financing, \"no control,\" Challengers being overwhelming) next to \"stamina\" and \"noise.\" It names the bereavement as part of the 2024 context. Sgt. Rock appears as a project he was reportedly preparing, and the tension with the 2021 \"cape\" line is acknowledged, either here or under \"What the type doesn't explain,\" not just listed as circumstance. Neither the section title nor \"pointed inward again\" claims a choice the sources do not establish."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "No reason has been made public. Kushner told GQ he was \"intrigued by what he's decided to do and what he has decided not to do and what he's fought hard to get out of.\"",
+      "problem": "Because the line comes straight after the unexplained Anna Christie withdrawal, it reads as Kushner explaining that withdrawal (\"fought hard to get out of\"). That supplies a motive the record does not have. In GQ (S02) the remark comes in a closing passage about whether the industry will wait for him, not in the Anna Christie paragraph, and it names no project. The draft also drops the first, adverse half of the quote: \"That's hard with actors, because you can also become an actor who says no to a lot.\"",
+      "acceptance_test": "Kushner's remark either moves out of the Anna Christie paragraph or is clearly marked as a general comment that names no project. It is quoted with the caveat \"you can also become an actor who says no to a lot,\" or it is not used at all."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "The doubt has a decade of paper trail.",
+      "problem": "The fear-content leg of the discriminator (C15, C49, C87) rests on quotes that are lighter, or different, in context. \"I keep fooling everyone\" is live-interview banter; it goes on: \"I really have no idea, it works out ... They keep hiring me, it's their prerogative\" (S16). \"I'm not good enough\" follows \"I'm not an ensemble dancer\" and comes before \"These were some of the best dancers in the world\" (S15). That is a skill comparison at a dance call, not a verdict on himself. \"Maybe I'll be good one day\" (S03) answers a question about dread by recalling that he was \"really excited to get better,\" and it ends \"That'd be cool.\" That is aspiration, not doubt. \"Why did they hire me?\" (S19) sits in a run of questions: \"what did I sign myself up for? I can't do this. Why did they hire me? What are we thinking? What are we doing here?\" Those read at least as much like a Six's doubt before committing as like a Four's shame. Yet the Type 6 section quotes only the adequacy question and files it under the heart triad.",
+      "acceptance_test": "Each quote in the \"doubt\" paragraph gets enough context to show its register (joke, dance-call skill comparison, aspiration), or it is dropped. Where the BAFTA answer is used as Four evidence, at least one of the surrounding doubt questions is quoted with it. The Type 6 section says that the doubt in that answer also fits a Six before claiming it for the heart triad. The type answer and FAQ claim that \"the fears he names most often are not being good enough\" is kept only if the corrected quotes still support it."
+    },
+    {
+      "id": "critic-07",
+      "severity": "major",
+      "passage": "That is the Four's trade. He protects the authenticity of what he shows the world and pays for it in security.",
+      "problem": "Much of the Four case rests on how he talks: \"from love,\" \"coming from me,\" \"right for me,\" \"braver ... to be someone else.\" The article never tells the reader that this is also the normal language of prestige actors on press tours. The evidence record lists it as a limit of the discriminator (\"the authenticity vocabulary is partly a professional script\"), but the prose leaves it out. In the same exchange in the Interview conversation the article uses as its anchor (S08), Anderson says much the same about himself (\"there is me on and there's me off ... You do become insecure of the idea of yourself as yourself\"). That shows how common the feeling is. The similarity check points the same way once the arguments are compared, not just the flagged phrases. The persona-versus-character thesis echoes the Jeremy Allen White page (\"a public persona that feels unfamiliar, then finds relief in work he can inhabit completely\"). The \"content of the fear\" test for Four over counterphobic Six repeats the Dakota Johnson page from 2026-10-09, which, unlike this draft, does say that \"'authentic' and 'different' are industry vocabulary.\" If the stepping-back leg shrinks (critic-01 to critic-04), this reusable pair is most of what is left.",
+      "acceptance_test": "In its own voice, the type argument says that authenticity language and discomfort at being oneself in public are common among actors. It then names what in Faist's record goes beyond that baseline: for example, the post-West Side Story refusals that Kushner independently confirms had \"nothing to do with size of the role,\" or the 2017 choice to skip the stage door. It also names at least one person-specific discriminator that could not move unchanged to the Jeremy Allen White or Dakota Johnson pages."
+    },
+    {
+      "id": "critic-08",
+      "severity": "major",
+      "passage": "That spring he described Evan and Connor to Interview, and the sentence drifted from the characters into the first person:",
+      "problem": "The shift is a generational \"we,\" not a self-disclosure. In the source (S09) the next sentences are: \"Teens don't want to let people know how they are actually feeling. I think that's where this generation is, and where everyone feels marginalized and displaced a little bit.\" Calling the pronoun shift a drift \"into the first person\" invites the reader to take it as a confession that supports the Four thesis (C71 is listed in for_claim_ids). The context does not support that reading.",
+      "acceptance_test": "The passage either drops the \"drifted ... into the first person\" framing or quotes the next sentence, so the reader can see he was generalizing about teens and his generation. C71 is removed from the Four case's supporting claims, or kept as an interpretation with that limit stated."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The motive is Kushner's reading. The scrubbing is something he watched.",
+      "reason": "This separates observed behavior from a witness's inference in two short sentences. It is exactly the attribution discipline the rest of the type argument needs, and it should survive any compression of the West Side Story section."
+    },
+    {
+      "passage": "In 2021 he could not decide whether that state was losing himself or finding himself. That question is where the Four and Nine readings part, and he has never settled it.",
+      "reason": "It ties the opening's sourced \"transcendental\" quote to the 2024 \"vessel\" quote and leaves a real contradiction open instead of settling it in the thesis's favor. This is the article's most distinctive and honest move."
+    },
+    {
+      "passage": "The record also lacks the scene that would separate them most clearly, Faist in open conflict or let down by a collaborator. A Six would grow wary and look for firmer ground. A Four would withdraw and insist on what feels true.",
+      "reason": "It names a concrete, observable discriminator and admits it is missing. That gives the reader a test and a future refresh a trigger. If critic-01 weakens the other leg, this passage becomes more important, not less."
+    },
+    {
+      "passage": "A counterphobic Six moves toward what frightens him, though he gave versions of that answer all through one press cycle.",
+      "reason": "It weights a rehearsed junket answer as one observation, not several, and says so in the prose. This is source-weighting a skeptical reader can see and trust."
+    },
+    {
+      "passage": "Florence Pugh saw that from across a scene. For a later _East of Eden_ moment with only a few lines, which an assistant director would usually read, \"he insisted on coming back early to be in the room and reading with me,\" she told [TV Insider](https://www.tvinsider.com/1294095/east-of-eden-cathy-charles-florence-pugh-mike-faist-interview/).",
+      "reason": "Specific, verified (TV Insider: \"usually, with things that small, the first AD would read it or the director would read it\"), independent testimony that cuts against the type's self-focused reading. Keeping it is what makes \"What the type doesn't explain\" a real section and not a token one."
+    }
+  ],
+  "assessment": "The draft is well sourced at the sentence level, and it is honest in several places: the Kushner mural line, the unresolved vessel question, the rehearsed-answer caveat and the missing conflict scene. But its central causal story, that Faist repeatedly gives up security when work stops feeling like his own, is weaker than the prose admits, and the sources the draft itself cites are what undercut it. Of the four episodes: the 2018 exit led straight into West Side Story and Panic (critic-02). The 2021 apartment sale was a move home to care for his father (critic-03). The 2024 to 2026 gap followed two family deaths, included a DC film he was reportedly preparing, and is explained in his own words partly by industry and financing, being overwhelmed, and having no control (critic-04). Anna Christie has no known reason, and Kushner's quote is placed so that it seems to supply one (critic-05). Only the 2021 refusals, which Kushner confirms had \"nothing to do with size of the role,\" stand as a well-supported chosen withdrawal. The paragraph that says he never weighs security and withdraws alone is contradicted by his own account of choosing East of Eden and by his move home (critic-01, blocker). The other leg, the content of his fear, depends on quotes whose context is a joke, a dance-call skill comparison, an aspiration, and a run of doubt questions that also fit a Six (critic-06). Neither leg is weighed against the baseline of actor-typical authenticity talk (critic-07). After repair, Type 4 may still lead on the stage-door choice, the Kushner-confirmed refusals and the persistent discomfort at being himself in public. But the editor should state the surviving discriminator explicitly and reconsider whether \"medium confidence\" is earned. A type change would require --refresh --expanded-review. Risk flags: contested_typing stays true. No sensitive allegations; the adoption and bereavement are handled with restraint. Limitation: I checked context in the saved research texts and transcripts in /tmp/mike-faist-research (print captures of S01, S02, S03, S04, S05, S07, S08, S09, S12, S15, S24, and machine transcripts of S16, S18, S19). I did not re-listen to audio, and Sgt. Rock's attachment is reported in GQ only as \"reportedly\" and \"rumors.\""
+}

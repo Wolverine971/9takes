@@ -1,0 +1,16 @@
+I've written the fan review for the Mike Faist draft to `review-fan.json`. It passes the review schema, its hashes match the request, and every passage it quotes appears word for word in the draft. Nothing else in the repo was changed and nothing was published.
+
+**Verdict: 8 findings (6 major, 2 minor) and 5 passages to protect.** The quotes check out against the saved sources and the early-career chapters are strong. The problem is the recent two-year break, which is what people searching after the *East of Eden* premiere care about most. Each of the six major findings tilts the evidence toward the Type 4 reading:
+
+- **Events out of order:** the body presents *East of Eden* as his comeback after 2025. GQ says that shoot came *before* the break, and the draft's own intro and FAQ get the order right.
+- **His explanations of the break are cut down:** the draft says his reasons "pointed inward" but leaves out "there really isn't a lot of thought," "industry and financing," and "Challengers was a lot… overwhelming."
+- **The *East of Eden* decision is split in two:** his reason for taking it ("someone's steering the ship," which is security language) goes in the Type 6 section. The Type 4 section then claims he never weighed security in any decision.
+- **The pilot's licence is called a "whim":** in the source he did it to bond with the birth family he met at 17.
+- **Choices that break the "keeps stepping back" pattern are missing:** his 2023 West End *Brokeback Mountain* run, and the off-Broadway *Days of Rage* job he took after *Dear Evan Hansen*. Both the meta title and the description rely on that pattern.
+- **Kushner is quoted selectively:** his caution about becoming "an actor who says no to a lot" is dropped, and the rest of the quote sits right after the unexplained *Anna Christie* exit, so it reads as if he knows the reason.
+
+The two minor findings are that the article never says he plays Charles Trask, and that it leaves out his BAFTA nomination and Jonathan Anderson's Loewe and *Challengers* role.
+
+The editor should re-test Type 4 at medium confidence once these are fixed. If the "he gives security away" argument stops separating Type 4 from Type 6, the confidence or the claim needs to come down. The similarity check flagged only stock hedging phrases, not reused argument.
+
+Outside the repo, I added a short note to my memory file on quote-fidelity traps: a quote can be word-for-word accurate and still unfair if it keeps only half the answer. Tell me if you'd rather pipeline stages never touch memory.

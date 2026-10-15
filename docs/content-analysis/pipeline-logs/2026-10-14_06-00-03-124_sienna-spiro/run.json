@@ -1,0 +1,257 @@
+{
+  "schema_version": 3,
+  "subject": "sienna-spiro",
+  "mode": "create",
+  "started_at": "2026-10-14T06:00:03.129Z",
+  "stages": {
+    "research": {
+      "status": "complete",
+      "started_at": "2026-10-14T06:00:03.132Z",
+      "cache_key": "0deff992c5c8f6ba7a3ae66807b016c9c7f06ab549a5c0d47ab28ddf13649b6a",
+      "input_hashes": {
+        "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "7f6a174a07d44f7e1e1e60c6380205881f99612d67b46e6302c8715796504d98",
+        "command": "2fb89b06fb7ae4d5f77a7de81fee26e8c8c09a29ab923d201690a22794c29eac",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "1382a08fdb4b968844fe5dc31438808098de259e08f27513c371a52e593ae851"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "evidence.json": "a3da58cd4f24553934e6bd878ca2998807a6657d6d33bc7e0c468ec3cae79c09"
+      },
+      "finished_at": "2026-10-14T06:19:26.314Z",
+      "duration_seconds": 1163
+    },
+    "draft": {
+      "status": "complete",
+      "started_at": "2026-10-14T06:19:26.317Z",
+      "cache_key": "1d9d5a0e0d2617968d35f3ea5207926542caf0d2b47d0281cce2ef902d3eb24f",
+      "input_hashes": {
+        "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "evidence": "a3da58cd4f24553934e6bd878ca2998807a6657d6d33bc7e0c468ec3cae79c09",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "7f6a174a07d44f7e1e1e60c6380205881f99612d67b46e6302c8715796504d98",
+        "command": "bcabfcd306d3a1d5d234ac1e396424b5a6853e3bf831c2d0eebc1e35e49d2e42",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "1382a08fdb4b968844fe5dc31438808098de259e08f27513c371a52e593ae851"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "draft.md": "2919542378202d46054d2d90f8cd444f7c0f9b8035d97b959ce8650af5772b9e",
+        "evidence-draft.json": "75f3c8ed8998a3fddc782088b526e612132e7980c40295942e461ee13b6c3bee"
+      },
+      "finished_at": "2026-10-14T06:37:10.217Z",
+      "duration_seconds": 1064
+    },
+    "review-subject": {
+      "status": "complete",
+      "started_at": "2026-10-14T06:37:10.622Z",
+      "cache_key": "cc079ff38d065d09d170aa5ae1236f3cf100df8c418c11e10c2834fd178d7b6b",
+      "input_hashes": {
+        "draft": "2919542378202d46054d2d90f8cd444f7c0f9b8035d97b959ce8650af5772b9e",
+        "evidence": "75f3c8ed8998a3fddc782088b526e612132e7980c40295942e461ee13b6c3bee",
+        "similarity": "5654c34085b163a56cb3381d118c771e1cad33943600887cbbaa68c74fbff180",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "7f6a174a07d44f7e1e1e60c6380205881f99612d67b46e6302c8715796504d98",
+        "command": "98d051312da4f6efa81754409010cbfa7a519bcfb625b55b39aa5f5836d33219",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "1382a08fdb4b968844fe5dc31438808098de259e08f27513c371a52e593ae851"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "review-subject.json": "9e5c4ac109bfe788f83efbb149e029638b3807caa71688074b05c283c0bdad39"
+      },
+      "finished_at": "2026-10-14T06:42:58.821Z",
+      "duration_seconds": 348
+    },
+    "review-fan": {
+      "status": "complete",
+      "started_at": "2026-10-14T06:42:58.824Z",
+      "cache_key": "56da5895d92e6c827bc41cde51458d44261c393496c18360ad08e016b283e60b",
+      "input_hashes": {
+        "draft": "2919542378202d46054d2d90f8cd444f7c0f9b8035d97b959ce8650af5772b9e",
+        "evidence": "75f3c8ed8998a3fddc782088b526e612132e7980c40295942e461ee13b6c3bee",
+        "similarity": "5654c34085b163a56cb3381d118c771e1cad33943600887cbbaa68c74fbff180",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "7f6a174a07d44f7e1e1e60c6380205881f99612d67b46e6302c8715796504d98",
+        "command": "98d051312da4f6efa81754409010cbfa7a519bcfb625b55b39aa5f5836d33219",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "1382a08fdb4b968844fe5dc31438808098de259e08f27513c371a52e593ae851"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "review-fan.json": "7220d0cad58684af4bbe413792a29e8ecb5ac80e60268d51fe767a4519fbcce5"
+      },
+      "finished_at": "2026-10-14T06:51:58.847Z",
+      "duration_seconds": 540
+    },
+    "review-critic": {
+      "status": "complete",
+      "started_at": "2026-10-14T06:51:58.850Z",
+      "cache_key": "24124cfcfaf3dbbd52b97348c0a3e01c00a68a955b04971437f8a94fdb87cb26",
+      "input_hashes": {
+        "draft": "2919542378202d46054d2d90f8cd444f7c0f9b8035d97b959ce8650af5772b9e",
+        "evidence": "75f3c8ed8998a3fddc782088b526e612132e7980c40295942e461ee13b6c3bee",
+        "similarity": "5654c34085b163a56cb3381d118c771e1cad33943600887cbbaa68c74fbff180",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "7f6a174a07d44f7e1e1e60c6380205881f99612d67b46e6302c8715796504d98",
+        "command": "98d051312da4f6efa81754409010cbfa7a519bcfb625b55b39aa5f5836d33219",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "1382a08fdb4b968844fe5dc31438808098de259e08f27513c371a52e593ae851"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "review-critic.json": "683a19c69e7aaef308c29a7873f9e4edd2f50799e731f07440d0b7d3509829af"
+      },
+      "finished_at": "2026-10-14T06:59:05.016Z",
+      "duration_seconds": 426
+    },
+    "review-unfamiliar": {
+      "status": "complete",
+      "started_at": "2026-10-14T06:59:05.019Z",
+      "cache_key": "f30a5ca42ffec82fa766d01c76213f4d47656ac5418c0d742434250d97ec1aed",
+      "input_hashes": {
+        "draft": "2919542378202d46054d2d90f8cd444f7c0f9b8035d97b959ce8650af5772b9e",
+        "evidence": "75f3c8ed8998a3fddc782088b526e612132e7980c40295942e461ee13b6c3bee",
+        "similarity": "5654c34085b163a56cb3381d118c771e1cad33943600887cbbaa68c74fbff180",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "7f6a174a07d44f7e1e1e60c6380205881f99612d67b46e6302c8715796504d98",
+        "command": "98d051312da4f6efa81754409010cbfa7a519bcfb625b55b39aa5f5836d33219",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "1382a08fdb4b968844fe5dc31438808098de259e08f27513c371a52e593ae851"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "review-unfamiliar.json": "a061a0a1ad7af67f0b97dca8b0b7e538d43039c7076bc8a41032afca37593d48"
+      },
+      "finished_at": "2026-10-14T07:03:55.271Z",
+      "duration_seconds": 290
+    },
+    "review-enneagram": {
+      "status": "complete",
+      "started_at": "2026-10-14T07:03:55.274Z",
+      "cache_key": "94fa9a1dcd3c1df8756e66e8c76d648411375b9c416c0a215ea86e14001021f7",
+      "input_hashes": {
+        "draft": "2919542378202d46054d2d90f8cd444f7c0f9b8035d97b959ce8650af5772b9e",
+        "evidence": "75f3c8ed8998a3fddc782088b526e612132e7980c40295942e461ee13b6c3bee",
+        "similarity": "5654c34085b163a56cb3381d118c771e1cad33943600887cbbaa68c74fbff180",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "7f6a174a07d44f7e1e1e60c6380205881f99612d67b46e6302c8715796504d98",
+        "command": "98d051312da4f6efa81754409010cbfa7a519bcfb625b55b39aa5f5836d33219",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "1382a08fdb4b968844fe5dc31438808098de259e08f27513c371a52e593ae851"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "review-enneagram.json": "ac8962dda0f4610543dd91c5e3f35b3e2c8acb13b0440d1f92038cd8fdb9c4c5"
+      },
+      "finished_at": "2026-10-14T07:12:35.108Z",
+      "duration_seconds": 520
+    },
+    "review-future": {
+      "status": "complete",
+      "started_at": "2026-10-14T07:12:35.110Z",
+      "cache_key": "ed3ec57a465e67b150bb11f3aef10a5589a8661e9615652af6347960b08633b7",
+      "input_hashes": {
+        "draft": "2919542378202d46054d2d90f8cd444f7c0f9b8035d97b959ce8650af5772b9e",
+        "evidence": "75f3c8ed8998a3fddc782088b526e612132e7980c40295942e461ee13b6c3bee",
+        "similarity": "5654c34085b163a56cb3381d118c771e1cad33943600887cbbaa68c74fbff180",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "7f6a174a07d44f7e1e1e60c6380205881f99612d67b46e6302c8715796504d98",
+        "command": "98d051312da4f6efa81754409010cbfa7a519bcfb625b55b39aa5f5836d33219",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "1382a08fdb4b968844fe5dc31438808098de259e08f27513c371a52e593ae851"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "review-future.json": "0c36d5e7fade550f79acfd1abda95f29607880716f56353d2f19434657af6831"
+      },
+      "finished_at": "2026-10-14T07:17:15.126Z",
+      "duration_seconds": 280
+    },
+    "edit": {
+      "status": "complete",
+      "started_at": "2026-10-14T07:17:15.129Z",
+      "cache_key": "6fa9dc3f2dd646cf6b8d8aa0131541901cf93f766ccc4e886482a80d4ced24c5",
+      "input_hashes": {
+        "draft": "2919542378202d46054d2d90f8cd444f7c0f9b8035d97b959ce8650af5772b9e",
+        "evidence": "75f3c8ed8998a3fddc782088b526e612132e7980c40295942e461ee13b6c3bee",
+        "similarity": "5654c34085b163a56cb3381d118c771e1cad33943600887cbbaa68c74fbff180",
+        "review-subject": "9e5c4ac109bfe788f83efbb149e029638b3807caa71688074b05c283c0bdad39",
+        "review-fan": "7220d0cad58684af4bbe413792a29e8ecb5ac80e60268d51fe767a4519fbcce5",
+        "review-critic": "683a19c69e7aaef308c29a7873f9e4edd2f50799e731f07440d0b7d3509829af",
+        "review-unfamiliar": "a061a0a1ad7af67f0b97dca8b0b7e538d43039c7076bc8a41032afca37593d48",
+        "review-enneagram": "ac8962dda0f4610543dd91c5e3f35b3e2c8acb13b0440d1f92038cd8fdb9c4c5",
+        "review-future": "0c36d5e7fade550f79acfd1abda95f29607880716f56353d2f19434657af6831",
+        "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "checks": "de21ddc631addebe8a0731720c24932bf3d63874b22f7b01791d428a73358661",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "7f6a174a07d44f7e1e1e60c6380205881f99612d67b46e6302c8715796504d98",
+        "command": "d79188694640ea53ebd05af70f77392c84181110eb8457c76f338b96cfde492d",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "1382a08fdb4b968844fe5dc31438808098de259e08f27513c371a52e593ae851"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "edit.md": "91c301acc7e9de2a1151d48547b621e2085f95b7b0f506fd7ec00c1b55e6dfc1",
+        "evidence-edit.json": "02d39ae81cb8adfef11bf7aee55b4b4ea9b2cd3d7d59ca7adf6aa9f67f281565",
+        "resolution-edit.json": "db7d50156cee8de8886ce0cb4cfdf1758f4fb44fcba0d50be74442e938034b4e"
+      },
+      "finished_at": "2026-10-14T07:44:53.444Z",
+      "duration_seconds": 1658
+    },
+    "verify-edit": {
+      "status": "complete",
+      "started_at": "2026-10-14T07:44:53.454Z",
+      "cache_key": "3ed973a2d53a557c75e7219cc6577085c81170c4b6e9cd1b9fd01eee285d6f0b",
+      "input_hashes": {
+        "draft": "c272d5b6e8246076d4053be446c1fe5d6501d6b2ba4f03ef5af08beea1140c36",
+        "evidence": "02d39ae81cb8adfef11bf7aee55b4b4ea9b2cd3d7d59ca7adf6aa9f67f281565",
+        "resolution": "db7d50156cee8de8886ce0cb4cfdf1758f4fb44fcba0d50be74442e938034b4e",
+        "review-subject": "9e5c4ac109bfe788f83efbb149e029638b3807caa71688074b05c283c0bdad39",
+        "review-fan": "7220d0cad58684af4bbe413792a29e8ecb5ac80e60268d51fe767a4519fbcce5",
+        "review-critic": "683a19c69e7aaef308c29a7873f9e4edd2f50799e731f07440d0b7d3509829af",
+        "review-unfamiliar": "a061a0a1ad7af67f0b97dca8b0b7e538d43039c7076bc8a41032afca37593d48",
+        "review-enneagram": "ac8962dda0f4610543dd91c5e3f35b3e2c8acb13b0440d1f92038cd8fdb9c4c5",
+        "review-future": "0c36d5e7fade550f79acfd1abda95f29607880716f56353d2f19434657af6831",
+        "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "checks": "6a03f1a753fa2458d30420c523ccc2b1714141f1c9951c27ecef74c6ca5e0022",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "7f6a174a07d44f7e1e1e60c6380205881f99612d67b46e6302c8715796504d98",
+        "command": "82059336198fd6856bdac3829d103156977cacffda34d7a402ab089298e616a1",
+        "standard": "62d29010ef46202cdaf6fd0c74b61649fe58b9e1223ca0fac70f987b52598aac",
+        "contract": "9accd4c6adf48289e0ba4376343ab765e6fa5c4b1314c1ad40d79e3c6d3732d5",
+        "runner": "1382a08fdb4b968844fe5dc31438808098de259e08f27513c371a52e593ae851"
+      },
+      "model": "CLI default",
+      "output_hashes": {
+        "verification-edit.json": "d3fe5044c8b879e4887308c95104d6a998ed3cd3f644ce06809d602cb2b88f49"
+      },
+      "finished_at": "2026-10-14T08:10:39.861Z",
+      "duration_seconds": 1546
+    }
+  },
+  "baseline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "materialized_sha256": "2ef25b477497e3cf0bfe418e06b56235dd3a65fc2aa3aa19ce1a3334611f38eb",
+  "expanded": true,
+  "run_status": "held",
+  "editorial_status": "needs_revision",
+  "current_stage": "verify-edit",
+  "blockers": [
+    "review_scope_changed:type_thesis:run --refresh --expanded-review",
+    "review_scope_changed:major_thesis_change:run --refresh --expanded-review",
+    "verification:revise",
+    "unresolved:verify-01:The type thesis changed after the frozen review. All six roles reviewed a draft whose leading read was Type 4 (draft.md enneagram '4'; evidence-draft type_hypothesis.type 4). The edit moved the lead to Type 2 in enneagram, title, meta_title, description, persona_title, the 60-word answer, the FAQs, type_hypothesis and open_case. It also set risks.major_thesis_change, which no reviewer flagged. fan-01, critic-01 and enneagram-02 asked for or allowed this, but their own acceptance tests say a lead change must hold for --refresh --expanded-review, and the resolution says the edit does not absorb it. No independent reviewer has yet challenged the Two-led argument as written: its recurrence count (verify-02), its clinging/helping split (verify-03), or whether the longing pattern is better read as Four. On the opened record the Two lead looks defensible to me (SSENSE November 2025, Z100 March 2026, Capital April 2026, Zach Sang June 2026), but that does not replace the required jury."
+  ],
+  "finished_at": "2026-10-14T08:10:39.873Z"
+}

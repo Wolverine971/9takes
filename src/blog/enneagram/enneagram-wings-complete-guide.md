@@ -359,7 +359,7 @@ _"Understanding through practical application"_
 
 **Career Patterns:** Science, engineering, IT, consulting, analysis, technical writing
 
-**Famous Examples:** Bill Gates, [Stephen Hawking](/personality-analysis/stephen-hawking), Mark Zuckerberg
+**Famous Examples:** Bill Gates, [Stephen Hawking](/personality-analysis/stephen-hawking), [Mark Zuckerberg](/personality-analysis/mark-zuckerberg)
 
 **Red Flags You're This Type:**
 

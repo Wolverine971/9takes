@@ -1,0 +1,27 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session a781fd99-8d1d-4e18-9a2c-46febe5635e6 to write outputs
+The Mike Faist draft stage is finished. I wrote only `draft.md` and `evidence-draft.json` in the run directory. No other repo file changed and nothing was published.
+
+**The read:** the page commits to Type 4 in the type answer: his heart-triad shame shows up as fear of not being good enough and of being seen as himself. The confidence (medium) is stated right after the answer, and the strongest rival, Type 6, gets its own "Why not Type 6?" section.
+
+**The story:** he feels braver as someone else, and he steps back from momentum when the work stops feeling like his own. The page opens in May 2021: West Side Story is about to make him a star, and he's turning down offers and selling his Brooklyn apartment. The same pattern runs through leaving Dear Evan Hansen and the two quiet years after Challengers. The Six case is argued in his own words, with an embedded BAFTA clip of him saying he gets anxious "before every project." Type 9, Type 5 and the parts the type doesn't explain (his urge to be useful, the mural scrubbing, his humor) each get their own section.
+
+**Checks:**
+- The pipeline's own draft check reports no blockers: 3,772 words, 9 H2s, a 54-word type answer, and meta title and description within length limits.
+- The evidence validator passes, with 88 claims, each tied to an exact passage in the article or its metadata.
+- Every quote was matched word-for-word against the saved source texts. Video quotes were matched against both local transcriptions. One quote differs only because a quote inside it uses single marks, and the late-added Kazan "hermit crab" lines were checked by eye.
+- There are no em dashes in my prose.
+- `published: false` and the draft production state are set, and there were no inherited blockers.
+
+**Things the later stages should know:**
+- **Length:** at 3,772 words it's above the ~3,500 target. Past edit stages have added about 800 words, which would hit the 4,500 ceiling, so the editor should cut before adding.
+- **Correction to research:** I changed one research claim. Research said he declined the Dear Evan Hansen film, but the 2021 source only shows he wasn't in it and said "I feel like I couldn't do it." The draft says that and notes that whether he was offered a part isn't on record.
+- **Claims dropped:** I removed seven claims the draft doesn't use, kept all their sources, and repointed the type argument's references to them. Two were cut for length: the invisibility bar debate and the reception/scripts material. The other five were never in the draft: anonymity, the screenplay praise, the James Dean lineage, the Charles Trask attraction and construction work.
+- **Links:** MTV and Columbus Dispatch link to their Wayback copies, because the live pages redirect or may be gone. Florence Pugh's page is an unpublished draft, so it isn't linked.
+- **Still unverified, kept honest on the page:** why he left Anna Christie, and the project he began rehearsing in August 2026. Both are flagged with review triggers.
+
+The video quotes rest on two machine transcriptions that agree with each other, not on anyone listening to the clips. If you want certainty before publishing, re-listen to the clips at the timestamps in the evidence file.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/`:
+- `draft.md`
+- `evidence-draft.json`

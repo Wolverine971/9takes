@@ -1,0 +1,368 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Fixed. Kushner's remark sits in \"Saying no on the way up\" with his own account of parts Faist declined after the December 2021 release, far from Anna Christie. It is introduced as \"Kushner added a caution about Faist's choices in general, naming no project:\" and quoted with his setup \"That's hard with actors, because you can also become an actor who says no to a lot\" (C103; GQ text rechecked in the saved copy). The Anna Christie paragraph ends \"As of October 2026, no reason had been made public.\" No body sentence, FAQ, title or description implies how or why he left. Repair: the introduction was reworded (verify-05) without changing its general, no-project framing."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Fixed. \"refuses firmly ... as Kushner's calls and _Anna Christie_ show\" is deleted. Anna Christie is cited for no trait anywhere (C35 inference says so), the Nine section no longer claims firm refusal, and the \"reasons he gave sat inside him\" generalization is gone. The only chosen-trade claim is limited to the refusals: the May 2021 offers, where he gave a reason himself, and the post-release parts Kushner describes, kept separate after verify-01 (C25, C60, C63, C111)."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Fixed. The East of Eden shoot is dated \"around 2024\" (GQ: \"since East of Eden two years ago\", August 2026) in the intro and placed before the gap at the end of \"Saying no on the way up\" (\"Then came _East of Eden_\"), after the April 2024 Challengers release. \"What brought him back\" is deleted. The gap section opens \"After the _East of Eden_ shoot he worked on no new production until August 2026\"; the break FAQ uses the same order (C61, C97)."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Fixed. \"Faist's own explanation pointed inward again\" is deleted. \"His own reasons point several ways\" now quotes GQ's \"It's the public gaze\" answer and his financing line, projects \"don't happen because of the industry and financing\" (C108; trimmed to one fragment in repair per verify-05), plus Cultured's \"there really isn't a lot of thought,\" \"The truth is that Challengers was a lot. It was very overwhelming\" and \"I don't really know how much control I actually have over any of this\" (C84). The break FAQ includes overwhelm, noise, lost anonymity and financing. The \"Four's trade\" conclusion is marked \"This suggests\" and limited to the refusals (C63, C111)."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Fixed. The apartment is off every list of things traded for authenticity. The hook now reads \"selling his Brooklyn apartment to head back to Ohio, where his father had fallen ill\" (C59, adding S01/S02), and the synthesis says \"The Brooklyn sale was a move home to a sick father.\" The \"moves off, usually alone or with the dog\" passage and claim C50 are deleted; the Six section lists \"the family he moved home to help\" and a high-school friend he lived with in 2024 (C21, C30)."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Fixed. \"drifted from the characters into the first person\" is replaced by \"the pronoun slid from 'they' to 'we'\", followed by his next sentence, \"Teens don't want to let people know how they are actually feeling,\" and \"It was not a confession\" (C71, S09 rechecked). C71 is removed from the type hypothesis's supporting claims."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Fixed. The line now reads: \"In 2021, laughing off being merely a working actor, he told the Times, 'I don't care enough,' and moments later, 'I can't tell if I hate acting or if I love it too much.'\" That shows what he didn't care enough about (C91; NYT text rechecked)."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Fixed. \"Whim\" is gone. The Six section says he is adopted, met his birth mother's family at 17, \"a family of pilots,\" and after a flight thought \"That's how we can bond!\" (Interview 2017, C09). No birth-family member is named and the adoption is not linked to his inner life. The Five line says he \"learned to fly partly to bond with newfound relatives\" (C104). \"Partly\" reflects that his 2024 Esquire retelling (\"So I just did it\") omits the bonding motive, which C09 records."
+    },
+    {
+      "finding_id": "subject-09",
+      "action": "fixed",
+      "reason": "Fixed. The closing now reads \"During _Dear Evan Hansen_ in 2017 he kept his distance from the stage door\" (C121), sized to MTV's \"distance myself a little bit\" and \"maybe twice a week.\" There is no claim about his Newsies years."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Fixed. Body order now runs: pandemic road trips and the 2021 move home, the December 2021 release and Kushner's account of later offers, Challengers and The Bikeriders made, Brokeback (May 2023), father's death (December 2023), Challengers release (April 2024), East of Eden (\"Then came _East of Eden_\", shot around 2024), then \"Two years out of view\" with Sgt. Rock (2025) and Anna Christie (2025), August 2026 rehearsals and the October 1, 2026 premiere. \"What stopped was new work\" and \"brought him back\" are deleted. Intro, body and break FAQ agree."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Fixed. Same repair as subject-04: the GQ financing line (C108) and Cultured's \"there really isn't a lot of thought,\" overwhelm and \"how much control\" lines (C84) are quoted, and the FAQ lists them. The section says \"His own reasons point several ways,\" and the synthesis says the gap is mixed and only the refusals are a clear trade (C111). The Four argument in the Six section rests on the guarded-self evidence and the refusals (May 2021, and separately after the release by Kushner's account), not on the 2024-26 gap."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Fixed. The East of Eden passage gives both halves of the same decision in one paragraph: Kazan's test of fit (C38), then \"His own accounts credit other people\", \"honestly Zoe and Florence\", and her clear lead easing his anxiety, \"someone's steering the ship\" (C107). The Six section lists that yes among what the Six case explains better (\"the yes to _East of Eden_\"), so the two accounts are weighed together and the decision is not used for the Four. \"In none of the decisions on record does he describe weighing security\" is deleted. The \"off in a corner\" quote is no longer used (C41 removed). Repair: the separate sentence \"Even the _East of Eden_ yes splits ... It does not separate the types\" (C115) was cut to reduce length, because the paragraph and the Six summary already do its work."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Fixed as in subject-08. The body says plainly that he is adopted and met his birth family at 17, with no names and no inner-life link. The pilot licence carries his stated reason, \"That's how we can bond!\", and is weighed in the Six (belonging) and Five sections (C09, C104)."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Fixed. The 2018 exit reads \"and kept moving: an audition tape for Riff, then Steven Levenson's off-Broadway play _Days of Rage_\" (C12, S05 and S32). The May 2023 West End Brokeback Mountain run is a dated choice, \"two years after saying eight shows a week had worn _Dear Evan Hansen_ down to technique\" (C106). His September 2026 \"I would love to go back to the theater at some point\" appears \"a year after leaving _Anna Christie_\" (C110); the second theater quote was trimmed in repair for length. The meta_title is \"Mike Faist Enneagram Type 4: Braver as Someone Else\" and the description drops \"habit of stepping back.\" The type answer and FAQ claim only the guarded self and work that didn't feel like his own."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Fixed as in subject-01. Kushner's caution \"you can also become an actor who says no to a lot\" is quoted, and the remark is framed as general (\"naming no project\") and placed with his account of the parts Faist declined after the release (C60, C103)."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Fixed. The intro names his role, \"the volatile Charles Trask in Netflix's _East of Eden_, from John Steinbeck's novel\" (C61); in repair the Cultured descriptor was replaced with the article's own word (verify-03). The East of Eden passage says \"GQ calls the casting against type\" and explains the dailies in plain terms: \"Once the first footage came in, Kazan says, Netflix offered to 'pay for another episode,' and she wrote him into a later one\" (C105). A new FAQ, \"Who does Mike Faist play in East of Eden?\", names Charles as Adam Trask's brother and gives the same facts (C124)."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Fixed. Anderson is introduced at first mention as \"his friend Jonathan Anderson, the designer who costumed _Challengers_\" (C62). The 2024 Met Gala appearance in Anderson's custom look (C82) and the Loewe campaign, which Another Man says he was reticent about until Anderson \"wasn't going to take no for an answer\" (C117), sit where the article argues he guards his public self. The BAFTA nomination for Riff is in the intro (C61; S10, S32). The Grammy is not added; it is not needed to show demand."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Fixed. The paragraph saying no decision weighs security and that he moves off alone is deleted, and C50 is removed. His own reasons for the East of Eden yes (\"honestly Zoe and Florence\"; a clear leader \"helps any sort of anxieties\") appear next to Kazan's \"right for me\" (C38, C107), and the Six section counts that yes for the Six. The Type 6 FAQ no longer says he \"repeatedly gave up security.\" The Six section then names what still separates the types: (1) what he guards, his plain self from being seen, 2017-2026, including GQ's \"public gaze\" answer naming lost anonymity, not safety (C49, C87, C108); (2) the dated May 2021 choice to set aside the \"working actor\" security goal while turning down offers, with Kushner's separate account of parts declined after the release showing the same pattern from outside (C25, C60, C63; separated in repair per verify-01). Two legs survive, so confidence stays medium. The type answer says \"Type 6 and Type 9 remain close alternatives,\" the Six FAQ says \"leads narrowly,\" and the Nine section concedes Four and Nine are not yet separated. The type is unchanged, so no --refresh is triggered."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Fixed as in fan-05. The 2018 exit is told with the Riff tape and Days of Rage, citing the Washington Post (C12). The type answer, type FAQ and C48 no longer count it as a step back. They now claim only the guarded self and work that didn't feel like his own, which the body grounds in the May 2021 and post-release refusals."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Fixed as in subject-05. The hook names his father's illness at the first mention of the sale (C59). The synthesis says \"The Brooklyn sale was a move home to a sick father,\" and the apartment is on no list of traded security."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Fixed. Outward explanations are quoted next to \"stamina\" and \"noise\" (C83, C108, C84). The bereavement opens the 2024 context (December 2023 death paragraph directly before the April 2024 release) and appears in the synthesis (\"The quiet years followed two deaths and an overwhelming summer, and included a collapsed film\", reworded in repair per verify-02). Sgt. Rock is presented as a film he was reportedly attached to in 2025, with its tension against 2021 acknowledged: \"A DC film sits oddly with 2021's 'cape' line, though Kuritzkes calls it a superhero movie 'about everyday heroes, humans, normal people'\" (C35). \"Walking away at the top\" is split into \"Saying no on the way up\", which covers the refusals, and the neutral \"Two years out of view\", which opens \"some of that was not his call.\""
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Fixed as in subject-01 and fan-06 (C103)."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Fixed. The doubt paragraph now opens \"Self-doubt runs through his interviews, often as a joke\" and gives each quote its register: the BUILD line continues \"I really have no idea, it works out\" (both transcriptions agree); the dance-call line keeps \"I'm not an ensemble dancer\" and \"These were some of the best dancers in the world\"; the PBS line includes \"really excited to get better\" and \"That'd be cool.\" It closes \"A joke, a dancer's comparison and a hope. None is a confession, but each marks him down\" (C15, C122). The BAFTA answer is quoted with \"what did I sign myself up for? I can't do this\" and counted as Six worry (C86, C114). \"Not because of the self-doubt ... a Six voices them as readily as a Four\" (C116). The type answer and FAQ no longer claim his most-named fears are about being good enough."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Fixed. In the article's own voice: \"Not because of his vocabulary either. Actors on press tours talk about authenticity and hiding inside characters all the time; in the same Interview conversation, Anderson said of himself, 'I do feel there is me on and there's me off'\" (C112). The case then rests on Faist-specific, dated behaviour that could not move to the Jeremy Allen White or Dakota Johnson pages: the April 2017 stage-door choice made to protect fans' \"illusion\" of Connor (C14, C70); GQ 2026, where he named the public gaze and lost anonymity as fame's cost (C87, C108); and the May 2021 setting aside of the \"working actor\" goal while turning down offers, with Kushner's separate account of post-release refusals (C25, C60, C63). The similarity-tripping sentence (\"a read of the public record at medium confidence\") is deleted."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Fixed as in subject-06. C71 is removed from for_claim_ids and its limit is stated in the prose."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Fixed. Before the type H2 the intro names Riff, \"leader of the Jets,\" and \"the volatile Charles Trask in Netflix's _East of Eden_, from John Steinbeck's novel\" (C61). Riff is named as his role before the gun gesture (\"As Riff he made the Jets...\"). Panic is glossed as \"the 2021 Amazon series _Panic_\" (C43, S32). The London Brokeback Mountain is glossed as a West End stage production in which he played Jack Twist (C106). The new East of Eden FAQ adds that Charles is Adam Trask's brother (C124)."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Fixed as in fan-01 and future-01. The East of Eden shoot is dated \"around 2024\" and placed after the April 2024 Challengers release. Challengers is told as made after the December 2021 release (\"He kept working...\") and released in April 2024, not conflated. The Six-section and closing \"two years out\" phrases are gone, and the break FAQ matches."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Fixed. The type section adds \"That fear of being found deficient is the shame\" and \"The feeling he reports most often is anxiety ... so the case turns on what the anxiety is about: being found wanting and exposed, or safety and trust.\" The section grew by about 20 words net, within the 40-word allowance."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Fixed. The closing now opens \"One pattern fits the Four reading closely: he shows himself most fully as someone else. For a Four, the wish to be seen and the fear of being found wanting pull against each other, and a character can be the safest place to be seen.\" \"Predicts\" and \"keeps confirming\" are gone (C118)."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Fixed. \"Dailies\" is replaced by \"the first footage,\" and the sentence says Netflix offered to \"pay for another episode\" and she wrote him into a later one (C105; GQ wording rechecked). C45 holds only the August 2026 rehearsals."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Fixed. The Dear Evan Hansen paragraph adds \"Ben Platt played the title character, Evan Hansen\" (C102; MTV and Interview 2017). The Postmates sentence makes no timing claim."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "rejected",
+      "reason": "Partly applied, so recorded as rejected for the length target. \"Told\" is at 28 (from 46). The 792-word \"Walking away at the top\" section is gone; its replacements now run 513 and 407 words by a link-stripped count. Outlet tags are cut where the link carries the attribution, and every quote stays linked or attributed. In repair the body fell from 3,707 to 3,682 words by checkDraft while adding the dates verify-01 and verify-02 required: the redundant East of Eden \"splits\" sentence, a repeated friend's-push line, a second theater quote, a paraphrase lead-in and several attributions were cut. It is still not the requested ~3,500. Five major findings and one blocker required new, sourced context: the outward reasons for the gap, Kushner's caution, the Days of Rage, Brokeback and theater counterevidence, fuller quote contexts, both halves of the East of Eden decision, the vocabulary baseline and two rival cases. Dropping another ~180 words would cut evidence the jury asked for. The standard's target is \"roughly 2,000-3,500 words when the evidence warrants it,\" and 3,682 is well within the mechanical 4,500 limit."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Fixed as in subject-05. The apartment is off the list. The only trade the article names is the refusals: the May 2021 offers with the set-aside \"working actor\" goal, and, separately, the post-release parts Kushner describes (C25, C59, C60, C63, C111)."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Fixed. Skill doubts no longer count for Four over Six: \"'Why did they hire me?' and 'I'm not good enough' are doubts about his craft, and a Six voices them as readily as a Four\" (C116). The BAFTA run is called \"a Six's worst-case worry about a commitment already made\" (C114). The shame argument now rests on exposure and identity: MTV 2017 \"who I actually am,\" the Ben Platt shame report, \"I'm embarrassed to do this interview,\" and GQ 2026's public gaze / \"be whoever you wanted to be\" (C49, C87, C108). Anderson's shared embarrassment is covered by the baseline sentence (C112). The Six described now includes anxiety, worst-case worry, research for security, trusted leaders, groups, belonging and the counterphobic volcano answer. The type answer and Six FAQ no longer use \"good enough.\""
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Fixed. The absolute \"In none of the decisions on record...\" and \"moves off ... alone\" are deleted (C50 removed). The 2021 NYT answer is quoted in context in the hook (\"Having gone from having no money, wanting to just be a working actor — I don't want to just be a working actor anymore\") and used as the one bounded trade (C25, C63). The move home is listed under the Six's group loyalty. The 2024-26 gap is not used as a chosen trade, and Sgt. Rock's collapse is noted where the gap is told (C35, C111). The \"Stay up here where it's safe\" volcano line is in the Six case, followed by why the Four still leads (C17)."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Fixed. \"Feel what is right for me\" is no longer called distinctively Four. It appears in the gap section next to \"trying to tune everything out\" and the overwhelm and control lines (C84). The Nine section uses \"hear myself think\" and says outright \"But a Nine tired of noise could say the same\" (C113), so no quote counts for two types silently. The 2024-26 episode is presented as mixed (C111)."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Fixed. The stereotype (\"A Nine tends to turn strong feeling down\"), the tennis \"far too emotional\" line, the grief tears and the Anna Christie/Kushner firmness claim are all removed (C81, C90 deleted). The Nine section now holds the vessel, noise, stamina, \"allow things to be quiet,\" Esquire's \"allow myself to be bored,\" modesty and the lack of conflict (C89, C43, C88). It names its one Faist-specific lean, that he frames the quiet as protecting a self and says fame took the chance to \"be whoever you wanted to be,\" then concedes \"The Nine is a close alternative, and the two readings are not yet separated\" (C113). The type answer and FAQ say \"Type 6 and Type 9 remain close alternatives.\""
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Fixed. Why-not-6 rests on dated, Faist-specific contrasts, not vocabulary: the April 2017 stage-door choice (C14, C70), the GQ 2026 public-gaze answer naming lost anonymity rather than safety (C87, C108), and the May 2021 setting aside of the \"working actor\" goal while turning down offers, with Kushner's separate account of post-release refusals as outside corroboration of the pattern (C25, C60, C63; separated in repair per verify-01). The vocabulary baseline is stated (C112). The settle signal is rewritten so the types predict different behaviour: \"A Six would look for allies or a trusted authority to settle it, and grow wary of the person who failed him. A Four would hold to his own sense of what is true, even at a cost to his standing\" (C88). A second signal, how he explains choosing the production he began rehearsing in August 2026, is recorded in the discriminator and research tasks."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Fixed as in fan-03 (C38, C107). The Kazan test is not presented as evidence for the Four anywhere; the East of Eden yes is counted among what the Six case explains better."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Fixed as in subject-07. The full \"working actor\" answer also carries the hook and the 2021 trade (C25)."
+    },
+    {
+      "finding_id": "enneagram-08",
+      "action": "fixed",
+      "reason": "Fixed as in unfamiliar-04. \"Predicts\" and \"keeps confirming\" are gone, and the Four mechanism is named: the wish to be seen pulling against the fear of being found wanting, so a character is the safest place to be seen. C118 records that Five, Nine and phobic Six fit the habit too."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Fixed. One order throughout: pandemic years and the 2021 move home; the December 2021 release and Kushner's account of later offers; Challengers made before 2023 and released April 2024; East of Eden shot around 2024 (\"Then came _East of Eden_\"); no new production until the August 2026 rehearsals, with Sgt. Rock (2025) and the 2025 Anna Christie withdrawal inside that gap; premiere October 1, 2026. The intro, both narrative sections and the break FAQ agree. Nothing says new work stopped right after April 2024."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Fixed as in subject-04 and fan-02. GQ's financing line is quoted in the August 2026 context (C108). \"Each time, the reasons he gave pointed inward\" and \"The reasons he gave sat inside him\" are deleted. C63's alternative records the financing remark as counterevidence, and C35 records the collapse."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Fixed. The meta_title no longer forecasts (\"Mike Faist Enneagram Type 4: Braver as Someone Else\"), and the description drops \"habit.\" Both are in the claim inventory (C119, C99, C120). C48 is time_sensitive with a trigger: re-test when the August 2026 production is announced or if he takes back-to-back projects through 2028. C95 and C123 carry the same trigger. C88 is unresolved, with a trigger naming the discriminating evidence: a conflict or let-down account, or his explanation of the next production choice."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Fixed. \"Now his roommate\" is gone; the friend appears only as \"a high-school friend he lived with in 2024.\" The age FAQ now says \"so he turned 34 in January 2026,\" which stays true. The Anna Christie line reads \"As of October 2026, no reason had been made public.\""
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Fixed. \"For most of a decade\" became \"Since at least 2017,\" and \"The doubt has a decade of paper trail\" is deleted. The PBS interview is dated at its first body mention (\"In October 2026 ... on PBS's American Masters\"). The first Cultured quote is dated (\"he told Cultured in September 2026\")."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Fixed. The break FAQ ends \"By August 2026 he was about to start rehearsals for a new production, and East of Eden premiered on Netflix on October 1, 2026,\" in the same order as the body (C97)."
+    },
+    {
+      "finding_id": "future-07",
+      "action": "fixed",
+      "reason": "Fixed as in subject-09 (C121)."
+    },
+    {
+      "finding_id": "verify-01",
+      "action": "fixed",
+      "reason": "Fixed. The two sets of refusals are now separate everywhere. Body: \"Saying no on the way up\" opens with the May 2021 refusals the Times reported (\"The refusals the Times reported came in a hard stretch\", C29), then \"After the film came out in December 2021, Kushner told GQ in 2026, friends making movies called him...\" (C60). Six section: \"In May 2021, months before the film's release, Faist named that goal, 'wanting to just be a working actor,' and set it aside while turning down offers. Kushner's account of parts he declined after the release ... shows the same pattern from outside\" (C63); the prediction now reads \"as his break arrives\", not \"after a hit\". Synthesis: \"only the refusals are a clear trade: the offers he was turning down in May 2021, months before the release, and the parts Kushner says he declined after it\" (C111). Type 6 FAQ: \"in May 2021, months before West Side Story came out, he was turning down offers and said he no longer wanted to be just a working actor; after the release, the film's screenwriter says, he turned down parts...\" (C96). No sentence dates Kushner's account to a year (GQ gives none, which answers the verifier's research task by wording) or calls May 2021 peak demand. type_hypothesis.alternative_case and discriminator were reworded to match."
+    },
+    {
+      "finding_id": "verify-02",
+      "action": "fixed",
+      "reason": "Fixed. The synthesis now reads \"The quiet years followed two deaths and an overwhelming summer, and included a collapsed film; his reasons run from stamina to fame to financing\" (C111). The gap paragraph dates the attachment: \"a DC film he was reportedly attached to with Guadagnino in 2025\" (GQ: \"reportedly attached to last year\", C35). The body's order of events is unchanged."
+    },
+    {
+      "finding_id": "verify-03",
+      "action": "fixed",
+      "reason": "Fixed. Cultured's \"a quiet farmer who's dangerous when provoked\" is no longer echoed. The intro now says \"plays the volatile Charles Trask in Netflix's _East of Eden_\", the article's own word, supported by Cultured's description and GQ's Steinbeck quotation \"a dangerous man, even at fifteen\" (C61 inference records both). The new FAQ describes Charles only as Adam Trask's brother (C124)."
+    },
+    {
+      "finding_id": "verify-04",
+      "action": "fixed",
+      "reason": "Fixed. Citations drop the Spielberg featurette (asZ5_hxcpDA, S22) and the 2016 Broadway.com interview (lFGPADR4r5k, S17), which no claim uses. The dead mtv.com URL is replaced with the Wayback copy the body already links (web.archive.org/web/2017/http://www.mtv.com/news/3002027/...), and the dead Dispatch 2017 URL with its Wayback capture (web.archive.org/web/20210919064821/https://www.dispatch.com/entertainmentlife/20171207/...), which C10 still relies on. Both captures returned HTTP 200 on 2026-10-15. Every remaining citation maps to a source used by at least one claim."
+    },
+    {
+      "finding_id": "verify-05",
+      "action": "fixed",
+      "reason": "Fixed. \"Saying no on the way up\" (renamed; \"at the top\" overstated May 2021) now runs in order: pandemic and 2021 move home, December 2021 release and Kushner's account, 2022 shoots, May 2023, December 2023, April 2024, East of Eden. The East of Eden paragraph was rewritten as prose: \"Kazan\" appears three times instead of five, and no sentence has more than two quote fragments. The GQ and Cultured paragraphs in \"Two years out of view\" keep every sourced reason (recalibrate, stamina, public gaze, financing, \"isn't a lot of thought\", noise, \"hear myself think\", tune everything out, overwhelm, control) and every attribution, with at most two fragments per sentence. Total body words fell from 3,707 to 3,682 by checkDraft."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The motive is Kushner's reading. The scrubbing is something he watched.",
+      "action": "kept",
+      "reason": "Kept verbatim at the end of the mural paragraph."
+    },
+    {
+      "passage": "He did not say whether a film role was offered.",
+      "action": "kept",
+      "reason": "Kept verbatim at the end of the Dear Evan Hansen departure paragraph. The DEH FAQ keeps the same sentence."
+    },
+    {
+      "passage": "The record also lacks the scene that would separate them most clearly, Faist in open conflict or let down by a collaborator. A Six would grow wary and look for firmer ground. A Four would withdraw and insist on what feels true. Until that account exists, the Four reading holds at medium confidence.",
+      "action": "changed",
+      "reason": "Its contribution is kept: the first and last sentences survive verbatim, so the passage still names the missing scene and ties medium confidence to it. The two prediction sentences changed because enneagram-05 showed that \"withdraw\" vs \"grow wary\" do not separate the types (phobic Sixes withdraw too). They now read \"A Six would look for allies or a trusted authority to settle it, and grow wary of the person who failed him. A Four would hold to his own sense of what is true, even at a cost to his standing.\" C88 is unresolved with a trigger, as future-03 asked."
+    },
+    {
+      "passage": "For a later _East of Eden_ moment with only a few lines, which an assistant director would usually read, \"he insisted on coming back early to be in the room and reading with me,\" she told [TV Insider](https://www.tvinsider.com/1294095/east-of-eden-cathy-charles-florence-pugh-mike-faist-interview/). \"And what that created was a whole relationship.\"",
+      "action": "kept",
+      "reason": "Kept verbatim in \"What the type doesn't explain\"."
+    },
+    {
+      "passage": "Circumstance explains part of every episode: the pandemic, his father's illness, a studio film collapsing. And he has never said why he left _Anna Christie_.",
+      "action": "kept",
+      "reason": "Kept verbatim. The sentences before it changed in repair (verify-01, verify-02): the synthesis now names the refusals as two separately sourced sets and says the quiet years included the collapsed film, which keeps this sentence's point that circumstance explains part of every episode."
+    },
+    {
+      "passage": "That spring he described Evan and Connor to Interview, and the sentence drifted from the characters into the first person: \"they don't want people to see them because if we allow ourselves to be seen, actually seen, and allow [ourselves] to be vulnerable, then we lose the game.\"",
+      "action": "changed",
+      "reason": "Its contribution is kept: the checkable they-to-we shift and the full quote stay. The phrase \"drifted from the characters into the first person\" became \"the pronoun slid from 'they' to 'we'\". His next sentence (\"Teens don't want to let people know how they are actually feeling\") and \"It was not a confession\" were added, because subject-06 and critic-08 showed the \"we\" is generational, not a self-disclosure."
+    },
+    {
+      "passage": "In 2021 he could not decide whether that state was losing himself or finding himself. That question is where the Four and Nine readings part, and he has never settled it.",
+      "action": "kept",
+      "reason": "Kept verbatim at the end of the vessel section. The Nine section now builds on it and concedes Four and Nine are not yet separated."
+    },
+    {
+      "passage": "He rarely did the stage-door autograph line, he told [MTV News](https://web.archive.org/web/2017/http://www.mtv.com/news/3002027/mike-faist-dear-evan-hansen-interview/) in April 2017, signing only \"maybe twice a week\" for repeat customers.",
+      "action": "kept",
+      "reason": "Kept verbatim. It is now one of the dated, Faist-specific discriminators in the Six section (C14)."
+    },
+    {
+      "passage": "For a later _East of Eden_ moment with only a few lines, which an assistant director would usually read, \"he insisted on coming back early to be in the room and reading with me,\" she told",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "The record also lacks the scene that would separate them most clearly, Faist in open conflict or let down by a collaborator. A Six would grow wary and look for firmer ground. A Four would withdraw and insist on what feels true.",
+      "action": "changed",
+      "reason": "The first sentence is kept verbatim. The two prediction sentences were rewritten so the types predict visibly different behaviour (enneagram-05): seeking allies or a trusted authority vs holding to his own sense of what is true at a cost. The passage still gives the reader a test and gives a refresh a trigger (C88)."
+    },
+    {
+      "passage": "A counterphobic Six moves toward what frightens him, though he gave versions of that answer all through one press cycle.",
+      "action": "kept",
+      "reason": "Kept verbatim. It now follows the Cultured \"volcano\" version of the rehearsed dread answer, which is presented once, as the do-not-use list asks."
+    },
+    {
+      "passage": "Florence Pugh saw that from across a scene. For a later _East of Eden_ moment with only a few lines, which an assistant director would usually read, \"he insisted on coming back early to be in the room and reading with me,\" she told [TV Insider](https://www.tvinsider.com/1294095/east-of-eden-cathy-charles-florence-pugh-mike-faist-interview/).",
+      "action": "kept",
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "He called it \"transcendental: either I didn't feel like I was myself, or I was the most authentic version of myself. I can't really tell which one.\"",
+      "action": "kept",
+      "reason": "Kept verbatim as the hook."
+    },
+    {
+      "passage": "Fans \"feel like they know us, in a way,\" he said, and \"I don't want to take that away from them, by having them meet who I actually am.\"",
+      "action": "kept",
+      "reason": "Kept verbatim (C14)."
+    },
+    {
+      "passage": "\"There's something about Mike that reads to me like a hermit crab or something. There's this shell on the outside and you can't tell what's inside.\"",
+      "action": "kept",
+      "reason": "Kept verbatim in the closing section."
+    },
+    {
+      "passage": "That spring he described Evan and Connor to Interview, and the sentence drifted from the characters into the first person",
+      "action": "changed",
+      "reason": "Changed for the same reason as the longer version of this passage: the they-to-we observation is kept as \"the pronoun slid from 'they' to 'we'\", and the next sentence shows the \"we\" is generational (subject-06, critic-08)."
+    },
+    {
+      "passage": "The best argument against the Four reading is the feeling Faist reports more than any other.",
+      "action": "kept",
+      "reason": "Kept verbatim. It still opens the Six case, followed by the BAFTA video."
+    },
+    {
+      "passage": "Some of what is on record sits awkwardly with any Four reading, and it belongs in the portrait.",
+      "action": "kept",
+      "reason": "Kept verbatim. The section still holds service, Pugh's account, humour and his shifting account of the job, and Kushner's mural story is still pointed to."
+    },
+    {
+      "passage": "He rarely did the stage-door autograph line, he told [MTV News](https://web.archive.org/web/2017/http://www.mtv.com/news/3002027/mike-faist-dear-evan-hansen-interview/) in April 2017, signing only \"maybe twice a week\" for repeat customers. Fans \"feel like they know us, in a way,\" he said, and \"I don't want to take that away from them, by having them meet who I actually am.\"",
+      "action": "kept",
+      "reason": "Kept verbatim. The 2017 evidence still carries the argument without the 2026 press cycle."
+    }
+  ],
+  "prior_blockers": []
+}

@@ -1,0 +1,18 @@
+The verify stage for Mike Faist is done. I set the status to **revise**, not pass. The facts hold up, but the article scored **8.3 overall**, under the 8.5 release bar. The only file I wrote is `verification-edit.json` in the run folder, and nothing was published.
+
+**What I checked:**
+- **Quotes:** I re-fetched all 33 sources and ran a script that matched every quotation in the article and its FAQs against them. All 115 match word for word. I also read about 40 of them in their surrounding text to confirm the context is fair. For the five videos, I confirmed they're still live but checked the quotes against two separate machine transcripts from the research stage rather than listening to the audio again.
+- **Blocked or dead pages:** where a site blocked scripts or the page had moved, I used a reader proxy or the Wayback Machine (NYT, Interview, Forbes, TV Insider, IBDB, MTV, the Dispatch and Columbus Monthly).
+- **Reviews:** all 48 reviewer findings were properly handled by the editor, including the one blocker (the article had claimed he never weighs security and pulls away from people alone). I also accepted the editor's one rejection: the piece is 3,707 words against a roughly 3,500 target, and the extra material is sourced detail that other reviewers asked for. All 19 passages reviewers asked to keep survive; 4 were reworded and still do their job.
+- **Coverage and metadata:** nothing important is missing from the claims list, and the titles, description and FAQs agree with the body.
+
+**Remaining issues (all minor):**
+1. **Kushner's account is dated wrong.** He describes parts friends offered *after* West Side Story came out (December 2021). The article treats that as confirming the refusals the NYT reported in May 2021, before the film's release, and the Type 6 FAQ says "in 2021." The broader point, that he turned down parts for reasons other than size, still holds. This is the one that matters most, because it's part of the main Type 4 vs. Type 6 argument.
+2. One sentence implies the Sgt. Rock film collapsed before his two quiet years; it collapsed during them, in 2025.
+3. "A quiet farmer who is dangerous when provoked" is Cultured's phrase, used without quotes or credit.
+4. The citation list still includes two videos the article no longer uses, plus two dead links.
+5. Two middle sections string short quote fragments together and read like notes, and one jumps back in time.
+
+**Scores:** Evidence 8.5, Enneagram 8.0, Originality 8.5, Writing 8.0, Durability 8.5, Hook 9.0, Discoverability 8.0. The type call (4 at medium confidence, with 6 and 9 as close alternatives) holds up.
+
+When I ran the release check without changing anything, the only reasons it held the piece were the "revise" status and the 8.3 score. That means the pipeline goes on to its one targeted repair pass.

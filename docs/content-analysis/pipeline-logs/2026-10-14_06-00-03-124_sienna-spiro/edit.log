@@ -1,0 +1,28 @@
+Error: Reached max turns (60)
+[runner] Turn limit reached; resuming session 401baee7-e9a3-4a27-827f-bec0baaa8f1e to write outputs
+The edit stage is done and all three outputs pass the contract's checks, but this run will hold rather than release. I moved Sienna Spiro's leading read from Type 4 to Type 2. That changes the type after the jury reviewed it, so it needs `scripts/run-blog-pipeline.sh Sienna-Spiro --refresh --expanded-review` before it can go out.
+
+**Why the type changed.** Four of the six reviewers (fan, critic, Enneagram and future) found the draft's main reason for leading with Four was backwards. I checked against the saved transcripts and they're right:
+- **The "withdrawal" is in her past.** She describes being closed off to relationships as a phase she has since rejected, in the Zach Sang, AP and Lyrical Lemonade interviews.
+- **"If you don't want me, don't have me" isn't withdrawal.** In context it's her accepting that relationships end ("So be it. Allow it to end."), followed by "I'm a very loyal and I can be very valuable to some people."
+- **The giving is still present tense.** In June 2026 she said "I always feel like I give a lot of myself… if I love somebody I'll do anything."
+
+Without that argument, the Two evidence is the stronger side. She calls making herself needed "the biggest theme throughout my whole life", and she says versions of it in five interviews from November 2025 to June 2026. The Four evidence (sadness as temperament, longing, not feeling real) is the kind the article itself calls weak evidence of motive, and it overlaps with the depression and ADHD she has disclosed. Four is now the closest rival, Three stays live, and confidence stays low.
+
+**What's in the outputs:**
+- **`edit.md`:** I acted on all 46 jury findings and rejected none. The main changes:
+  - The Austin American-Statesman piece is now described as the rave it is, not as a critic.
+  - Her own ADHD explanation of the "visitor" feeling is included.
+  - Her career before the breakthrough (TikTok from 2021, first single in May 2024) is added.
+  - The album's arc is explained in her words.
+  - The settle signals are sharper, the Ryman sentence is cut, and every date has a year.
+  - The title, description, persona title ("The Visitor Who Wants to Be Kept"), FAQs and type answer all say Type 2. It stays unpublished.
+- **`evidence-edit.json`:** 99 claims and 41 sources, all passages matched to the article.
+- **`resolution-edit.json`:** A reason for every finding, all 20 protected passages recorded (12 kept as written, 8 changed with reasons), and no inherited blockers.
+
+**Things to know:**
+- **Length:** the body is about 3,280 words, against roughly 2,500 for open-case profiles and 2,736 in the draft. The increase comes from fixes the jury asked for. Cutting further would have meant dropping some of them.
+- **Quotes for the verifier to re-listen to:** eight printed quotes come only from auto-captions, with no second transcription. The main one is her Capital definition of "visitor" ("you're expired to them"); the rest are listed in `evidence-edit.json` (`research_tasks`).
+- **Cut for lack of verification:** the "Pure" lyric about her sister, because the captions are unreliable and no official lyric sheet was opened.
+
+I didn't touch the live draft or publish anything. The only files written are the three outputs in the run folder.

@@ -77,7 +77,7 @@ Within this sample, five hosts are typed as 7s, three as 8s, three as 5s, one as
 
 ## The Interrogators: Type 8s
 
-**Joe Rogan. Dave Portnoy. [Sam Parr](/personality-analysis/sam-parr).**
+**Joe Rogan. [Dave Portnoy](/personality-analysis/dave-portnoy). [Sam Parr](/personality-analysis/sam-parr).**
 
 All three hosts use friction as a way to test credibility. In Enneagram terms, the Type 8 pattern is sensitive to control and vulnerability, so directness becomes a way to find out who can hold their ground.
 
@@ -125,7 +125,7 @@ Same investigative habit, different domain. The labels describe a recurring publ
 
 ## The Experience Collectors: Type 7s
 
-**Alex Cooper. Theo Von. Dax Shepard. [Brittany Broski](/personality-analysis/brittany-broski). Shaan Puri.**
+**Alex Cooper. [Theo Von](/personality-analysis/theo-von). Dax Shepard. [Brittany Broski](/personality-analysis/brittany-broski). Shaan Puri.**
 
 These five hosts build momentum through new stories, obsessions, and experiences. The Enneagram describes Type 7 as especially alert to limitation and emotional pain, often responding by moving toward more options, stimulation, and possibility.
 

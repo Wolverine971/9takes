@@ -1,0 +1,19 @@
+I wrote the Enneagram review for Mike Faist to `docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/review-enneagram.json`. It passes the review schema, every quoted passage appears word for word in the draft, and the role and both hashes are copied from the request. No other repo files were touched and nothing was published.
+
+**Verdict:** Type 4 at medium confidence holds up, but the case for Four over Six and Nine is weaker than the draft makes it look. There are 8 findings (5 major, 3 minor), no blockers, and the contested-typing flag stays on.
+
+The five major findings:
+- **Skill doubt counted as shame:** lines like "Why did they hire me?" and "I keep fooling everyone" are doubts about his ability. Sixes show that too, so it doesn't favour Four. The full BAFTA quote starts "what did I sign myself up for? I can't do this", which is classic Six worry. The draft also defines the Six too narrowly.
+- **"He never weighs security" is contradicted:**
+  - In Cultured (Sept. 2026), he describes an inner voice before every yes saying "Stay up here where it's safe."
+  - His 2021 step back was a move home to family and high-school friends, not off alone. A Six would retreat there too.
+  - Part of the two-year gap came from Sgt. Rock, a DC Comics film, collapsing in prep, so he didn't choose all of it.
+- **A quote clipped and counted twice:** "feel what is right for me" comes from an answer about being overwhelmed, wanting to "tune everything out", and "I don't really know how much control I actually have." The draft uses it for Four, then again for Nine.
+- **The case against Nine is thin:** it rests on a stereotype plus Kushner (who says he was "very nice about it") and the Anna Christie exit, whose reason the draft itself says is unknown. The draft admits the Four-vs-Nine question is unsettled but calls Nine only "also in play."
+- **A Four-over-Six argument reused from other pages:** the similarity check only flagged a stock disclaimer sentence. Comparing the actual arguments, the "Six explains the anxiety and loyalty; Four wins because he talks about authenticity" move also appears on the Jeremy Allen White and Dakota Johnson pages. Judged that way, almost any anxious prestige actor comes out a Four. The review asks for at least one dated behavioural test specific to Faist.
+
+The three minor findings: the Kazan decision is used as evidence for both Four and Six; "I don't care enough" is misread out of context; and the closing claim that the Four reading "predicts" his habit is too strong.
+
+I protected five passages, including the unresolved "vessel" question, the line separating Kushner's reading from what he actually saw, and the section on what the type doesn't explain.
+
+I checked quote contexts against the research stage's saved source texts and reopened the live Cultured page to confirm the new counter-quotes. I didn't reopen the other live sources.

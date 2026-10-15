@@ -1,0 +1,18 @@
+Error: Reached max turns (120)
+[runner] Turn limit reached; resuming session 3dfceec6-1400-46d7-ab71-0b6fbcaa684a to write outputs
+The research stage for Mike Faist is done. I wrote only `evidence.json` to the run directory, and it passes the pipeline's own evidence validator (`validateEvidence`). Nothing else in the repo changed and nothing was published.
+
+**Outcome: ready, with Type 4 as the leading read at medium confidence.** Type 6 is the strongest rival and Type 9 is still in play. I flagged the typing as contested, so the draft will get the full six-reviewer panel. He doesn't qualify for the "open case" format for new careers: he has been in the public record since 2011.
+
+**The record:** 37 sources opened and 50 claims mapped. These cover his own words from 2012 to 2026 (GQ, NYT 2021, Another Man, PBS, Cultured, Interview, Forbes, Esquire), eight video interviews I transcribed, and named testimony from Tony Kushner, Zoe Kazan, Florence Pugh, Michael Greif, Steven Spielberg and his mother. Every quoted excerpt was checked word-for-word against the saved text before writing. Three sources couldn't be opened and are marked unavailable.
+
+**The type argument:**
+- **For Type 4:** in 2018, 2021 and 2024–26 he repeatedly gave up security and momentum when the work stopped feeling like his own. He declined the Dear Evan Hansen film, turned down offers and sold his Brooklyn apartment after West Side Story, then stepped back for two years after Challengers and withdrew from Anna Christie. His fears are about not being good enough and about being seen as himself.
+- **For Type 6, and still unresolved:** he reports anxiety "before every project, no matter what it is," says research is how he feels secure, leans on directors who are "steering the ship," and builds tight groups around him. The evidence file records these honestly as points against Type 4.
+
+**Things the draft needs to handle:**
+- **Spielberg quote:** YouTube blocked caption downloads, so the video quotes come from local transcription and should be re-checked by ear before printing. Only part of Spielberg's line is reliable: "a deep feeler as a human being and as an actor." The middle of the sentence is garbled in both transcriptions.
+- **Do-not-use list:** no private names, no diagnosis language for the 2015 "dark, depressed place," and no weight figures for Challengers (sources disagree). Family details that conflict between sources should be attributed, not reconciled.
+- **Unknowns:** nobody has said why he left Anna Christie. The project he started rehearsing in August 2026 hasn't been announced, so it's listed as a review trigger.
+
+The file also lists specific things a later refresh could look for to settle Four versus Six.

@@ -1,0 +1,1965 @@
+{
+  "schema_version": 3,
+  "subject": "sienna-spiro",
+  "status": "ready",
+  "research_tasks": [
+    "Research log (2026-10-14, first run, mode create, empty baseline, no prior evidence or research notes). Logged 41 sources: 39 opened, 2 not opened (S33 Telegraph, HTTP 402 paywall; S34 Music Week On The Radar, paywalled after the first sentence). Read in full: Rolling Stone UK, SSENSE, Interview, Notion, NYLON, Vogue, Atwood, Principle, Euphoria and two Music Week pieces (S01-S11), plus caption transcripts of 15 video interviews dated November 2025 to October 2026, about 45,000 words (S13-S25, S36, S37, S41). Evidence was gathered before a type was chosen. Outcome: no defensible discriminator; subject meets open-case eligibility (adult, 21; breakthrough October 2025; entire first-person record is two promotional cycles). Status ready, profile_format open_case, leading read Type 4 at low confidence, Type 2 the strongest alternative, Type 3 live; Types 6 and 9 tested and set aside. Risks set: contested_typing (required for open cases) and sensitive_allegations (C24 her account of a relationship at 19 with an unnamed older man; C03 an unnamed producer's 'false promises'; C29 critics' nepotism and industry-plant framing; also extensive health disclosures, C26, C27), so the six-role jury applies.",
+    "Accuracy check (2026-10-14). Latest developments found: MTV VMA Best New Artist on September 27, 2026 (S29); 'Great Expectation' at No. 1 in the UK in September 2026 (S29); Austin City Limits set on October 9, 2026, reviewed under a 'nepo baby' headline (S28); Austin City Limits TV episode on October 3-4, 2026 (S25); My House tour began October 13, 2026 at the Ryman, North American leg to November 10, 2026 (S38). Grammy nominations are due November 16, 2026 (S39). No statement from her on the nepotism framing was found. open_case.next_review is 2026-12-01, after the nominations and the end of the North American leg.",
+    "Drafting guidance (open case). Follow the standard's 'Open case profiles' section. Open with who she is and why people are searching (the VMA win, 'Die on This Hill', a UK No. 1, a sold-out world tour), then name the open question: is the person who says she is 'naturally sad' and has always felt like a 'visitor' a Four, or is the more revealing line her own 'I had to make myself needed'? Show what the record shows, dated and sourced, with limits. Set Type 4 beside Types 2 and 3 with the best evidence for and against each. Include an H2 beginning '## What would settle it' built from open_case.settle_signals. Keep '## What is Sienna Spiro's personality type?' with an answer of at most 60 words in 'leading read, held loosely' language. Target 1,200 to 2,500 words. Titles, description and FAQs must say 'leading read' or 'open case', never 'is a Type 4'. Set enneagram: 4 and published: false.",
+    "Strongest material for the draft (all verified in sources): the assembly song at 10 sung to the children who bullied her (S04, S05, S37); the ELAM wait-list and daily emails (S01, S10); 'I had to make myself needed ... the biggest theme throughout my whole life' (S18); imagining the man who never came standing outside her New York apartment each morning (S13, S16); the applause moment that became 'Pure' (S13, S15); the suit she wore to the studio when she felt unaccomplished (S13); the full-take method that began as laziness (S13, S14); the conflicting 'Die on This Hill' accounts (S02, S05, S06, S13, S20).",
+    "Sensitivity. (a) The older man (C24): her account only; he is unnamed; describe it in her words and dates, do not speculate about identity or call it abuse or a crime, and do not use it to diagnose her. (b) The producer whose promise led her to leave school (C03): unnamed; her words only. (c) Health (C26): report ADHD, nodules, body image and eating difficulty, and depression only as she disclosed them, with no diagnosis-led personality claims; do not attribute OCD to her (the AP interviewer said it about herself). (d) Her mother's illness (C27): concerns another person; one clause at most, framed as she framed it, no update. (e) Nepotism (C29): state her father's profession plainly, attribute the 'nepo baby' and 'industry plant' labels to the outlets that used them, note that no reporting shows money bought her career, and do not use the labels in the article's own voice or as evidence of motive.",
+    "Quotation cautions. S13-S25, S36, S37 and S41 are YouTube auto-caption transcripts without speaker labels; check every printed quotation against the audio and its timestamp, and remove only clear stutters. Do not quote as hers: the 'Capricorn'/'Libra' exchange or 'good 70%er' in S16; the host's 'baby sibling syndrome' remarks in S18; 'ADHD and OCD' in S14. In S22 the captions render 'Back to Blonde' as 'Back to Black'. The Vevo DSCVR, Rolling Stone (nodules) and Telegraph quotations exist only secondhand via Hey Alma (S26); attribute them as reported or verify the originals. Euphoria's introduction wrongly claims a Hot 100 Top 10 (her peak is No. 19). SSENSE's page metadata date (2025-08-12) is wrong; use November 12, 2025. Notion calls her 'nineteen' in a piece published when she was 20. NYLON's 'innate sadness' is the writer's paraphrase with a two-word quotation. Sung lyrics in S25 captions are unreliable; use the official lyric sheet.",
+    "Follow-up worth doing before or at the next refresh: (1) open the Telegraph interview (May 20, 2026) and the Music Week On The Radar profile (January 20, 2026) through subscriptions; (2) find and transcribe the Vevo DSCVR interview and the original Rolling Stone nodules interview, the ELLE interview of April 2026 about a breakup, Elton John's Rocket Hour conversation and the 15 Questions interview; (3) look for any long-form interview given after October 13, 2026 on the tour; (4) look for testimony from Omer Fedi, Sam Smith, Edie Rose, her sisters or ELAM contemporaries; (5) check whether she has responded anywhere to the nepotism framing.",
+    "Draft log (2026-10-14, mode create, empty baseline). Wrote draft.md as an open case: leading read Type 4 at low confidence, Type 2 the closest rival, Type 3 live, Types 6 and 9 set aside. Mapped the claims below to exact passages in the body or frontmatter. No new source was added; excerpts and locators of already-opened sources were extended to cover what the draft prints. Every quotation in the body and FAQs was matched by script against the saved source texts and caption transcripts in /tmp/sienna-spiro-research (scratch files that may not survive). Quotations drop clear spoken repeats ('would would', 'it's it's', 'I just I just', 'I'll I'll'); each affected source's locator says so.",
+    "Audio second transcription at draft stage (Whisper small.en on segments cut from yt-dlp downloads; a machine transcription, not a human listen): S13, S14, S15, S16, S18, S19, S20, S21, S22, S23 and S24 at the timestamps named in each locator. Every printed quotation from those segments matched. Where captions and Whisper differ by a word ('so so empty'/'so empty', 'gonna'/'going to clap', 'a suit the studio'/'a suit to the studio'), the draft paraphrases or prints only the shared words. NOT second-transcribed, so a verifier should re-listen: S18 at about 11:20 ('because it's actually exhausting', C53); S24 'my least favorite emotion' (C39); S17 'was very depressed at the time' and 'very superstitious' (C62, C33); S36 sister lyric (C46); S41 'knowing you're temporary to someone' (C08). The grandmother line (C31, S21) has no speaker label; it follows the host's question to 'Grandma Sheila' in both transcriptions.",
+    "Claims removed from the draft inventory because the draft does not print them: C19 (control freak / 'people gravitate towards authenticity'), C25 (art as received, no-windows studio), C27 (her mother's illness, left out on sensitivity grounds), C30 (Variety's 'modesty' line), C32 ('terrible talker', least masking on stage) and C34 ('technically a terrible singer', songs mostly bad). Their sources are retained. Hypothesis text revised accordingly: references to C15's 'perceive me' quotation, C19 and C34 and the 'feel really secure' uniform detail were removed from alternative_case; leading type, rival, confidence, discriminator and settle signals are unchanged. for_claim_ids now lists only retained claims.",
+    "Research-stage material deliberately not printed: the explicit age gap with the older man (she is quoted only as calling it 'not healthy' and saying he 'did not have good intentions with me'); the unnamed producer beyond her own sentence; her mother's illness; OCD (the AP interviewer's, not hers); streaming totals. The Vevo DSCVR quotations (C14, C38) are attributed as quoted by Hey Alma because the original video was not opened.",
+    "Length note for the editor: checkDraft counts about 2,750 words, above the open-case target of roughly 1,200 to 2,500 (well inside the 4,500 ceiling). First cuts if the jury wants it shorter: the AP full-take paragraph (C20), the 'Die on This Hill' tellings paragraph (C16, C58), the team-credit paragraph (C23) and the Variety Adele sentence (C36). Budget any additions against cuts; edit stages on this pipeline have tended to add length.",
+    "Edit log (2026-10-14, edit stage). Six-role jury adjudicated (38 findings). Four reviewers (fan-01, critic-01, enneagram-01, future-02) showed from the transcripts that the draft's reason for leading with Four inverted its sources: the closed-off withdrawal is a past phase she rejects (S13 ~04:30, S14 ~14:50, S16 ~18:00), 'if you don't want me, don't have me' is acceptance of endings followed by 'very loyal ... valuable to some people' (S19 ~14:10-14:40), and the giving is present tense (S13 ~49:00; S21 ~07:00). The editor re-weighed the case without the tense test: the Two evidence is explicit, repeated in five interviews from November 2025 to June 2026 and still present tense, while the Four evidence (longing, unreality, sadness as temperament) is the kind the article itself discounts as genre currency and carries depression/ADHD confounds. The leading read therefore moves from Type 4 to Type 2, held loosely at low confidence; Four becomes the closest rival and Three stays live. This is a type-thesis change after the frozen review, so risks.major_thesis_change is set and the run must hold for scripts/run-blog-pipeline.sh Sienna-Spiro --refresh --expanded-review; the edit does not absorb the change.",
+    "Edit stage, verification notes: these printed quotations are caption-only and were not second-transcribed; a verifier should re-listen: S21 visitor definition 'you're expired to them' (~06:50-07:10); S19 'I'm a very loyal and I can be very valuable to some people' (~14:30); S41 continuation 'and knowing you probably care about that person more than they care about you' (~02:20); S18 'because it's actually exhausting' (~11:20); S14 'quite an over-thinker' (~02:00) and 'a control freak' (~15:40); S16 'I've had that so many different times' (~21:00); S13 'I'm actually so stupid sometimes' (~27:20); S17 'very depressed' and the guilt clause (~06:00-06:40). Whisper-confirmed in the draft-check outputs: S13 ~04:15 'closed off', ~20:35 'and they didn't', ~49:00 'give a lot of myself'; S14 ~14:40 mono no aware; S19 ~14:05 'so be it ... don't have me'; S18 ~08:30 Z100 helper answer; S23 ~02:05 'masked by pride' and 'kept around'.",
+    "Edit stage, removed from the article and the claim inventory: C15 (body image, now implicit in C100), C16 and C58 (the conflicting 'Die on This Hill' tellings, kept in type_hypothesis.unexplained), C18 (Euphoria validation line, cut for length), C23 (team credit, stock courtesy), C41 (Variety 'impermanence' remark, which came while she introduced 'The Visitor' on the tour's opening night and so cannot show the theme predates the campaign), C46 (sister lyric, ambiguous without an official lyric sheet), C49 ('make myself necessary', cut for length), C72 (Ryman opening, sourced only to a June announcement). Their sources are retained.",
+    "Follow-ups added at edit: (1) after February 7, 2027, review her Grammy-cycle interviews against settle signal 3 (C88 trigger); (2) open the ELLE interview of April 2026 about a breakup, which bears on settle signal 1; (3) find an official lyric sheet for 'Pure' before quoting the sister line again; (4) the refresh should re-test Two against Four with the corrected tense record and decide whether the Two lead holds under expanded review."
+  ],
+  "accuracy_checked_at": "2026-10-14",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": true
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.rollingstone.co.uk/music/sienna-spiro-future-of-music-cover-interview-visitor-61532/",
+      "title": "Sienna Spiro: 'I'm the most unclassy person ever' (Rolling Stone UK Future of Music cover)",
+      "speaker": "Sienna Spiro, interviewed by Hannah Ewens (Rolling Stone UK)",
+      "date": "2026-05-27",
+      "locator": "Feature body: comparisons paragraph; 'Any love song I write' paragraph; ADHD/'The Visitor' paragraph; ELAM waiting-list anecdote; pandemic and food paragraph; manager Miriam Maslin paragraph; 'My hair felt like armour' paragraph; 'too aware' paragraph near the end. Edit stage (2026-10-14): the ADHD/'The Visitor' quotation, the ELAM anecdote and the 'armour' line were rechecked against the saved page text. The phrase 'honestly quite validating' in the feature attaches to learning how her brain works, so the edit does not print it. 'She hated the idea of being looked at' paraphrases her 'I hated the idea of people being able to see me and perceive me', which she gives as the reason for the baggy clothes she wore early on.",
+      "excerpt": "\"Any love song I write, I've got to flip it – it's always got to have some sadness to it.\" [...] \"That's what a lot of the music is about, like 'The Visitor' – struggling to keep up with people and being [too] aware of everything, you end up losing people – and you're temporary.\" [...] \"I was so sure I was going to get in, I told everyone I did\" [...] \"I was sending them videos every day.\" [...] \"I hated the idea of people being able to see me and perceive me.\" [...] \"My hair felt like armour. It made me feel more myself, even though it looked less like me,\" [...] \"artists are nothing without their teams,\" [...] \"It's something you have to be really conscious about: making sure everything is coming from you.\"",
+      "context": "Cover feature from the June/July 2026 issue: a London shoot plus a later phone interview from Stockholm, during the run-up to the debut album. The writer supplies the context that she 'slipped between friend groups', the ADHD framing ('masking to fit in', 'out of sight, out of mind') and the description of a 'lifelong issue with food and eating' that got 'really bad' in the pandemic; those are partly paraphrase, not her words. Source for her crediting manager Miriam Maslin, met at 16.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.ssense.com/en-gb/editorial/music/sienna-spiro-is-wise-beyond-her-years",
+      "title": "Sienna Spiro Is Wise Beyond Her Years (SSENSE)",
+      "speaker": "Sienna Spiro, interviewed over Zoom by Iana Murray (SSENSE)",
+      "date": "2025-11-12",
+      "locator": "Q&A section: answers to 'Heartbreak feels like the throughline', 'TikTok has played such a major role', 'You played your first live shows this year' and 'In what ways did you have to learn how to be a performer?'",
+      "excerpt": "\"nobody really wanted to be around me when I was younger. I don't know for what reason that was, but I really struggled to keep friends, and my way of dealing with that was overcompensating and giving a lot of myself to people.\" [...] \"I have in the past.\" [...] \"I'm not a natural performer\" [...] \"I'm very stubborn. And I think when you stick to your vision and be a little bit stubborn, it's so worth it in the end.\" [...] \"I'm a terrible talker. I write songs because I can't talk.\"",
+      "context": "Opened via the r.jina.ai reader because the page is script-rendered. The page footer dates the piece November 12, 2025; the page metadata says 2025-08-12, but she answers a question about having 'turned 20', which happened on 2025-09-28, so the November date is used. 'I have in the past' answers whether she has fallen into writing for TikTok's short-form trap. Interview given at home in London after her first UK/EU headline tour.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.interviewmagazine.com/music/introducing-sienna-spiro-the-sad-girl-singer-bringing-the-sixties-back",
+      "title": "Introducing Sienna Spiro, the Sad Girl Singer Bringing the Sixties Back (Interview Magazine)",
+      "speaker": "Sienna Spiro, interviewed by Ary Russell (Interview Magazine)",
+      "date": "2026-03-25",
+      "locator": "Q&A dated 'TUESDAY 6:13 PM MARCH 17, 2026 LOWER EAST SIDE' (dressing-room conversation): early-career answers, the drop-out exchange, the Omer Fedi/over-singing answer, the TikTok answer about 'The Visitor', the 'nine times' answer and the closing survey joke. Also the answer to \"Do you see yourself writing happy songs in the future?\" Edit stage: also the 'I ended up finding my management' answer, the 'dropping out for quite a foolish reason' answer and the 'You Stole the Show' answer (reliving songs on stage).",
+      "excerpt": "\"I was a very emotional child. I'm very overwhelmed by things.\" [...] \"I went behind everyone's back. I found a music college, applied to it, kind of didn't get in.\" [...] \"I'm very stubborn and headstrong. When I want to do something, I would just try everything in my power to do it.\" [...] \"It was like false promises, older producer man.\" [...] \"I was trying to prove myself because I actually didn't think I was a good singer growing up. So every chance I would get to over sing, I would do it.\" [...] \"As cool as that is, it will never dictate what I do.\" [...] \"I believed in it so much and everyone was sick of me.\" [...] \"I hope they like me.\" [...] \"I would love to make some upbeat songs.\" [...] \"I ended up finding my management from posting one video.\" [...] \"I was dropping out for quite a foolish reason that, looking back, probably wasn't the right thing to do.\" [...] \"That's what 'You Stole the Show' is about. It's about living it every night and just imagining what would happen if that person was there.\"",
+      "context": "Opened via r.jina.ai (interviewmagazine.com blocks direct fetches). Recorded backstage on her first US headline tour. The interviewer's own questions are omitted from the page in places, so some answers lack their prompt. 'False promises, older producer man' is her answer about why she left music college at 16; the producer is not named anywhere in the record.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://notion.online/notion-the-artists-vol-3-sienna-spiro/",
+      "title": "NOTION The Artists Vol. 3: Sienna Spiro",
+      "speaker": "Sienna Spiro, interviewed by Ismene Ormonde (Notion)",
+      "date": "2025-11-28",
+      "locator": "Cover feature: opening bullying paragraph; neurodivergence paragraph; 'I'm so fulfilled right now' tour paragraph; 'My belief about art' paragraph; 'MAYBE' paragraph; TikTok caption paragraph. Edit stage: the neurodivergence paragraph supplies the 'You're so dramatic' quotation; the fans paragraph supplies 'and then help other people'.",
+      "excerpt": "\"went through a lot of bullying, and I was just very confused about why I was getting bullied,\" [...] \"I performed it in front of the people who had bullied me, and it was like medicine. I felt so comforted.\" [...] \"everyone would be like, 'You're so dramatic, you're so emotional, you're so sad!'.But I didn't understand what I felt.\" [...] \"I fought so hard to get all the elements of this tour\" [...] \"My belief about art is that it doesn't come from humans, it comes from something else,\" [...] \"and then help other people\" [...] \"I'm neurodivergent and I wasn't diagnosed when I was young, so I was very confused by what I was feeling.\" [...] \"To go through something myself, and to be able to create something that's helped me, and then help other people. It's the biggest gift that I have.\"",
+      "context": "Opened via r.jina.ai. Published November 28, 2025 but the text says she is 'now aged nineteen' and is 'fresh from her UK & EU tour earlier in September', so the interview was probably conducted in September 2025, before her 20th birthday. The page's own punctuation runs words together ('sad!'.But); quotations here keep it.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.nylon.com/entertainment/sienna-spiro-interview-visitor-debut-album-die-on-this-hill-tiktok-new-tour",
+      "title": "Sienna Spiro And The Art Of Intention (NYLON)",
+      "speaker": "Sienna Spiro, interviewed over Zoom by Jillian Giandurco (NYLON)",
+      "date": "2026-06-11",
+      "locator": "Feature body: 'Die on This Hill' versions paragraph ('Someone around me was like'); 'My dad was my biggest critic' paragraph; 'Lady in the Mirror'/bullying paragraph; songwriting 'speed-dating' paragraph; Omer Fedi/'prove myself' paragraph; 'If I hyperfixate too much on numbers' paragraph; closing 'See, I told you!' line. Edit stage: the assembly paragraph ('look behind to see the mum'), the 'Die on This Hill' TikTok-bridge paragraph and the closing 'once-biggest critic: her dad' paragraph.",
+      "excerpt": "\"Someone around me was like, 'This is it.' And I remember singing it…\" [...] \"My dad was my biggest critic for the longest time,\" [...] \"I really grew up thinking I wasn't a singer.\" [...] \"I was getting bullied, and no one really believed me that it was happening,\" [...] \"The song was about how the only person who really knows what's going on is me, the person in the mirror.\" [...] \"I really was trying to prove myself,\" [...] \"If I hyperfixate too much on numbers and people liking me, I would be miserable,\" [...] \"I'm like, 'See, I told you!'\" [...] \"It was just something I always did.\" [...] \"My mum was there filming, and everyone was looking behind. That was so validating.\" [...] \"I always tell him,\" she says, laughing. (Writer: the first song was \"Lady in the Mirror\", written at 10; she performed it at a school assembly in front of the children who had bullied her.) [...] \"anytime someone was singing on stage, everyone would look behind to see the mum. That was kind of a sign that you're killing it,\" [...] TikTok quickly grabbed hold of the song's melodramatic bridge [...] It's even better than making a fan out of her once-biggest critic: her dad.",
+      "context": "Zoom interview from her London bedroom four days after a tour ended, ahead of the album. The writer, not Spiro, supplies 'stubborn, passionate, and bestowed with an \"innate sadness\" from the age of 10' as a paraphrase with one quoted phrase. Her account here of the 'Die on This Hill' arrangement (someone else thought the guitar version was right; she knew it was not) differs from her later Vogue and Zach Sang accounts (S06, S13). The 'person in the mirror' explanation and the 'sign that you're killing it' explanation are her words in the same paragraph as the assembly story. The writer says she 'chuckles at the memory now' of her father's criticism and closes with her father now a fan.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.vogue.com/article/sienna-spiro-visitor-interview",
+      "title": "The Timeless Talent of Sienna Spiro (Vogue)",
+      "speaker": "Sienna Spiro, interviewed in person by Rob LeDonne (Vogue)",
+      "date": "2026-07-03",
+      "locator": "Q&A: answers on how 'Die on This Hill' came to be, 'innate sadness', dropping out of ELAM, vintage shopping, and being secure on stage. Edit stage: the 'innate sadness' answer continues directly into 'and I don't think it's a bad thing. I think it's a very normal, human way to be.'",
+      "excerpt": "\"I am very stubborn, as you can probably tell by listening to the song. So I said, \"No, it's not.\"\" [...] \"he was correct, because it definitely felt right as a ballad.\" [...] \"I was a bit selfish in the way I made music\" [...] \"I don't mean this to sound sad or make me sound like a victim or anything, but I just think some people are naturally sad, and I definitely feel that way about myself. I think it runs in my family.\" [...] \"My friends would be like, \"You're being so dramatic, you're being too much, you're overwhelming us.\" But I was just being how I was naturally.\" [...] \"When I tried out their styles, it made me feel so myself and confident because I'm a very insecure person.\" [...] \"I really struggled with my mental health growing up.\" [...] \"My dad's this way, my grandma's this way, and I don't think it's a bad thing. I think it's a very normal, human way to be. Some people just wake up and they naturally feel quite low, and they are also absolutely able to experience happy moments.\"",
+      "context": "Conducted in the Ludlow Hotel lobby in New York on release day of the debut album; condensed and edited by Vogue. In this account the producer Omer Fedi wanted a ballad, she insisted on an uptempo version, and he was right.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://atwoodmagazine.com/ssdp-sienna-spiro-music-interview-feature-2025/",
+      "title": "Interview: Sienna Spiro on \"Dream Police,\" TikTok Fame, and Making Music That's Unapologetically Hers (Atwood Magazine)",
+      "speaker": "Sienna Spiro, interviewed by Brian Denney (Atwood Magazine)",
+      "date": "2025-06-02",
+      "locator": "'A CONVERSATION WITH SIENNA SPIRO' Q&A: answers on favorite lyrics ('CYANIDE'), 'MAYBE.', social media, and the closing 'next chapter' answer.",
+      "excerpt": "\"I get quite scared about saying the truth and being vulnerable.\" [...] \"I really didn't wanna put it out. I hated the person I wrote it about\" [...] \"Some people close to me convinced me to put it out\" [...] \"I think I had a little hiccup with that – and it taught me a lot. But TikTok doesn't dictate anything I do\" [...] \"I was very young when I started making music with other people and I was trying really hard to be something that I wasn't.\"",
+      "context": "Interview during the EP cycle, after her Hollywood Forever Cemetery show in Los Angeles, when she was 19. The earliest long Q&A in the record about authenticity. 'Some people close to me' is identified elsewhere (S18) as her manager Miriam Maslin.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://principlemagazine.com/2025/03/10/sienna-spiro/",
+      "title": "Sienna Spiro Interview: 'I've always wanted music to be my life' (Principle Magazine)",
+      "speaker": "Sienna Spiro, interviewed by Fabio Magnocavallo (Principle Magazine)",
+      "date": "2025-03-10",
+      "locator": "Q&A: answers on the EP reception, leaving school at 16, the Raise jazz show memory, 'BACK TO BLONDE', 'ORIGAMI', and her two goals.",
+      "excerpt": "\"I never really take any time to think about things. I'm like, 'Oh, next thing, next thing, next thing.'\" [...] \"I actually left for a wrong reason. I was promised by this big producer that something would happen\" [...] \"it went so badly, and I hated it so much that I thought my life was over.\" [...] \"I was embodying a character when writing it.\" [...] \"when I like somebody, I get really obsessed and I get attached and I feel like they never feel the same way.\" [...] \"I have two very clear goals that I wanna hopefully achieve.\"",
+      "context": "The earliest substantial interview in the record (age 19, two weeks after the debut EP, just back from Australia). Her character disclaimer refers to 'BACK TO BLONDE' and 'MAYBE.', which she calls 'confident and fuck you-type songs' she does not personally embody. The two goals are a Royal Albert Hall headline show and an album that 'could change music in a good way'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.euphoriazine.com/blog/2026/08/interviews-sienna-spiro/",
+      "title": "SIENNA SPIRO Interview (Euphoria)",
+      "speaker": "Sienna Spiro, interviewed by Nikos Aggelis Anthis (Euphoria)",
+      "date": "2026-08-05",
+      "locator": "Q&A: answers on the title 'Visitor' and on navigating the pressure of expectations after 'Die On This Hill'. Edit stage: also her answer to 'Do you see yourself as a visitor in life generally?'",
+      "excerpt": "\"I think I've always seen myself as that kind of character or figure in so many different situations throughout my life.\" [...] \"When it comes to making music, my expectations always come from within.\" [...] \"But I've always told myself that I shouldn't rely on outside validation. It's hard to put into practice, and I still struggle with it, but it's essential\" [...] \"Yeah! We all are visitors in a way, aren't we?\"",
+      "context": "Interview from New York during the album promotion. The magazine's introduction wrongly credits her with a 'US Billboard Hot 100 Top 10 milestone'; her highest Hot 100 peak in the record is No. 19 (S31, S38). Use only her answers.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.musicweek.com/talent/read/women-are-absolutely-not-treated-equally-behind-the-scenes-sienna-spiro-on-the-music-industry/094379",
+      "title": "'Women are absolutely not treated equally behind the scenes': Sienna Spiro on the music industry (Music Week)",
+      "speaker": "Sienna Spiro, interviewed by Ben Homewood (Music Week cover feature, with Miriam Maslin, Tom March and Lillia Parsa present)",
+      "date": "2026-06-26",
+      "locator": "News write-up of the July 2026 cover interview: AI paragraph; social-media paragraph ('control freak'); ELAM paragraph; Maslin paragraph; Capitol paragraph.",
+      "excerpt": "\"will always do my own personal social media just 'cause I'm a control freak\" [...] \"Make what you want, what you think will last, what you love, what you feel like you'll never grow out of,\" [...] \"people gravitate towards authenticity – they just do.\" [...] \"I've known this is what I wanted to do my whole life, and that I would do anything to make it work,\" [...] \"emailed them as many times as it took for me to be allowed in.\" [...] \"She's completely my teammate and my equal.\" [...] \"I was very upfront about who I am and what I want to do, and they've allowed me to do what I want, and keep my vision.\"",
+      "context": "Trade-press interview conducted with her manager and her label's chief executive and president in the room, an audience that rewards a disciplined, authentic-artist narrative. The full cover interview is behind a paywall; this public write-up quotes from it.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://www.musicweek.com/management/read/the-biggest-hope-is-longevity-manager-miriam-maslin-on-sienna-spiro-s-visitor-campaign/094416",
+      "title": "'The biggest hope is longevity': Manager Miriam Maslin on Sienna Spiro's Visitor campaign (Music Week)",
+      "speaker": "Miriam Maslin (Method Management), interviewed by Ben Homewood (Music Week)",
+      "date": "2026-07-03",
+      "locator": "Q&A with her manager: answers on growth drivers, the relationship, and hopes.",
+      "excerpt": "\"Consistency in posting, but also releasing great music,\" [...] \"From the very beginning, me and Sienna have focused on building a world that feels honest and long-term rather than chasing quick moments.\" [...] \"I've managed Sienna since she was 16, so there's an enormous amount of trust there.\" [...] \"Sometimes that means pushing them, sometimes protecting them, sometimes helping them navigate pressure or difficult decisions.\" [...] \"Sienna has an ability to articulate very complicated feelings in a way that feels timeless rather than trend-led.\"",
+      "context": "The only named testimony from someone who has worked closely with her since adolescence. Maslin is an interested party (her manager) speaking on album release day; she describes the 'honest' world as a deliberate campaign strategy, which matters for separating temperament from brand.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://variety.com/2026/music/concert-reviews/sienna-spiro-troubadour-debut-british-voice-concert-review-1236679904/",
+      "title": "In a Thrilling U.S. Headlining Debut at the Troubadour, Sienna Spiro Shows Why She's About to Become the World's Next Pop Vocal Superhero (Variety)",
+      "speaker": "Chris Willman (Variety chief music critic)",
+      "date": "2026-03-04",
+      "locator": "Concert review of the March 3, 2026 Troubadour show, West Hollywood: 'She did not come bearing a crown' paragraph. Also the paragraph comparing her Bond-style song to \"Skyfall\". Edit stage: the show was the opening night of her first US headline tour; the 'impermanence' remark came as she introduced 'The Visitor', 'a new song that is due to come out this Friday', so it is campaign-period evidence. The edit uses only the 'deeply held anxieties' clause and the Adele line.",
+      "excerpt": "\"there's nothing particularly imperious about her personality, which borders on something like modesty. Spiro's song introductions made it clear that she's motivated to write songs by some deeply held anxieties, and not just about love.\" [...] \"she's been affected even more deeply by the ending of friendships, and has some obsession with impermanence in general.\" [...] \"the real point here is that Spiro sounds like a sequel to Adele.\"",
+      "context": "An independent critic's direct observation of her stage manner and her own spoken song introductions, recorded before the album campaign. The review is enthusiastic; its observations about modesty and anxiety are impressions from one 45-minute set.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.youtube.com/watch?v=BOlmpk_iS2k",
+      "title": "Sienna Spiro Talks 'Die on this Hill,' Break Ups, Jimmy Fallon and New Album \"Visitor\" (Zach Sang Show)",
+      "speaker": "Sienna Spiro, interviewed in studio by Zach Sang",
+      "date": "2026-06-30",
+      "locator": "YouTube caption transcript, about 64 minutes. Impermanence and closing off (about 03:30-04:50); unwanted and forcing herself into places (about 06:50-07:05); full-take recording and laziness (about 11:10); compliments and showing off (about 13:00-13:50); 'Pure' and applause (about 20:00-21:10); suit to the studio (about 26:50-27:40); 'Die on This Hill' takes and 'you're right' (about 28:20-29:30); older man (about 41:00-44:00); waiting outside the apartment (about 45:50-46:30); giving a lot of herself (about 49:00); naturally sad and singing to feel real (about 54:00-55:10); younger sister (about 55:40). Draft stage (2026-10-14): printed quotations drop spoken repeats and false starts (\"I'll I'll\", \"I I my my um\"). A second transcription of the audio (Whisper small.en; segments 04:15-04:55, 13:20-14:05, 20:35-21:20, 26:45-27:15, 43:35-44:00, 45:45-47:45, 49:00-49:30, 54:25-55:15) matches every printed quotation. Where the two transcriptions differ by a word (\"so so empty\"/\"so empty\", \"gonna clap\"/\"going to clap\", \"a suit the studio\"/\"a suit to the studio\"), the draft paraphrases or prints only the shared words. The Whisper pass also runs the \"I'd imagine he was standing outside the door\" line continuously in her voice, so that caption speaker mark is spurious. Edit stage: 'closed off ... very sad' (about 04:30, Whisper agrees), 'and they didn't' after 'is anyone going to clap?' (about 20:40, Whisper agrees), 'I always feel like I give a lot of myself' through 'taken advantage of' (about 49:00, Whisper agrees; Whisper hears 'taking advantage', captions 'taken'), 'I'm actually so stupid sometimes' after the suit story (about 27:20, captions with laughter marks). The 'closed off' account is told in the past tense and followed by the album's mono no aware lesson (about 05:00-06:00).",
+      "excerpt": "\"really struggled with entering things that I knew were going to end. So, like I was completely opposed to being in a relationship.\" [...] \"people didn't really want me around and stuff. So I I often like would like force myself in places and try really really really hard to be in them\" [...] \"And I really loved that validation. And so I would do the most. I would do every riff, every run. And I would belt, I would scream, I would like do any like anything to show off to like get a compliment.\" [...] \"I was like is anyone going to clap?\" [...] \"This is other people's agenda being pushed into mine\" [...] \"I had this like weird thing at the time of like not feeling accomplished. So I I my my um solution to that was wearing a suit to the studio.\" [...] \"I was like sorry you're right.\" [...] \"I'm a very delusional person and once I get my like sight set on things or once I like lock into something I um I run with it\" [...] \"I always feel like I give a lot of myself. I'm a very like intense passionate person. So if I love somebody I'll I'll do anything.\" [...] \"some people are just naturally sad people who can experience happy moments. And I would say I am one of those people.\" [...] \"numb quite a lot, and that is what makes me feel like a human being\" [...] \"he promised me he would come\" [...] \"play out what I thought would happen if he was there\" [...] \"waiting for this guy to come who never came\" [...] \"I was acting like I was a middle-aged woman. I was 19\" [...] \"It was not healthy and and he did not have good intentions with me\" [...] \"the way I felt like a real person\" [...] \"I'm worth something\" [...] \"So if I love somebody I'll I'll do anything.\" [...] \"I have to do it.\" [...] \"I became very closed off and I became very sad. And it's not it's really not the way to live.\" [...] \"and they didn't and I was like this is not what this is about at all at all.\" [...] \"But I think that has, you know, been taken advantage of a bit in my life.\" [...] \"I'm actually so stupid sometimes.\" [...] \"I'm numb quite a lot\" [...] \"singing has really been been the way I felt like a real person, that I felt tangible, that I I felt present, that I feel like myself, that I feel like I have a purpose, that I'm worth something\"",
+      "context": "The longest first-person source (album week, recorded in Los Angeles; she says she had about three hours' sleep). Auto-captions have no speaker labels and include disfluencies; the excerpts are her side of the exchange as judged from context, with bracketed laughter tags removed. Covers sensitive material: depression while writing 'Pure', her mother's brain tumour in 2025, and a relationship at 19 with an unnamed man 'double my age' who she says 'did not have good intentions with me'. Check any printed quotation against the audio.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.youtube.com/watch?v=WFpFT3u6seI",
+      "title": "Sienna Spiro on debut album, ADHD and fighting ticket scalpers (AP interview)",
+      "speaker": "Sienna Spiro, interviewed by an Associated Press entertainment reporter",
+      "date": "2026-07-03",
+      "locator": "YouTube caption transcript, about 22 minutes, recorded a week before release. Over-thinker answer (about 02:00); manifesting (about 03:10); full takes (about 05:50-06:10); masking on stage (about 10:00-10:30); talking versus writing (about 13:00); 'Mono no aware' and control (about 14:20-15:50); ticket resale (about 17:00-18:30). Draft stage: the \"bit lazy\" answer (about 05:50) matches a Whisper small.en second transcription. Edit stage: 'Mono no aware' gloss and 'close-minded to entering anything that might have an expiry date' (about 14:40-15:10, Whisper agrees; repeated 'to to'/'that that' dropped). Full-take answer continues past 'a bit lazy' with 'No, well now maybe now it is' and the '60s/'70s tape reason (about 06:00-06:30). 'Over-thinker' (about 02:00) and 'control freak' (about 15:40) are caption-only.",
+      "excerpt": "\"I analyze everything. I'm I'm quite an over-thinker\" [...] \"unintentionally I I I seem to manifest things\" [...] \"Well, originally it came from me being a bit lazy to be honest.\" [...] \"when I'm performing, I think that's the the least amount of masking I do.\" [...] \"very very close-minded to to entering anything that that might have an expiry date on it.\" [...] \"And I'm a control freak, and that was something I really had to like grapple with.\" [...] \"It's ridiculous this whole ticket prices reselling.\" [...] \"The last song on the album is is called a song called Mono no aware, which is a Japanese phrase that means the gentle sadness of knowing everything beautiful is temporary and loving it more because it won't last.\" [...] \"There was no The music I grew up loving was like jazz and soul records from like the '60s and '70s and there was no comping or punching in there. It was on It was to tape. And so you just did a full take\"",
+      "context": "Auto-captions without speaker labels. The interviewer, not Spiro, says 'as someone who deals with ADHD and OCD'; do not attribute OCD to Spiro. The ticket-resale exchange concerns her choice of Ticketmaster's face-value exchange for the My House tour.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.youtube.com/watch?v=FknTvkR0FmY",
+      "title": "Sienna Spiro Breaks Down Her '60s Glam Inspiration, Insecurity & Finding Confidence (Billboard News)",
+      "speaker": "Sienna Spiro, interviewed by a Billboard News host",
+      "date": "2026-10-02",
+      "locator": "YouTube caption transcript, about 12 minutes. Insecurity and clothes (about 01:50-02:40); trying to be someone she wasn't (about 03:00-04:05); nodules (about 04:10-04:40); 'Pure' lyric 'I wish I was real' (about 09:00-10:40). Draft stage: the nodules (about 04:20-04:45) and \"existential person\" (about 09:00-09:25) answers match a Whisper small.en second transcription; the caption repeat \"sometimes sometimes\" is dropped.",
+      "excerpt": "\"I used to dress in like big clothes and I wanted to hide myself. And then at one point I was dressing in tiny things that I hated.\" [...] \"this job kind of like pushes you to find how you want to look and how you want to be presented.\" [...] \"but I was trying to be someone I wasn't.\" [...] \"it's not it's not my place\" [...] \"I had like a year of basically being silent.\" [...] \"I'm a really existential person and sometimes sometimes I just don't feel like a real person\" [...] \"I was doing it and waiting for somebody to react\"",
+      "context": "The most recent first-person interview found (uploaded October 2, 2026, after the VMA win and before the North American tour). Auto-captions, no speaker labels. 'It's not my place' is her answer to whether she could experiment with other styles.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://www.youtube.com/watch?v=-vUlYGknBAE",
+      "title": "Sienna Spiro: Making Visitor, Her First Lollapalooza, & Singing With Sam Smith (Lyrical Lemonade TV, Call It a Day)",
+      "speaker": "Sienna Spiro, interviewed by Sarah Kay (Lyrical Lemonade)",
+      "date": "2026-08-12",
+      "locator": "YouTube caption transcript, about 43 minutes, recorded in Chicago the day before Lollapalooza. Cutting her set for The Roots (about 02:30); 'my personality type' and closing off (about 17:00-18:10); building community at shows (about 19:00); 'Great Expectation' and pretending (about 20:30-21:10); age validation (about 26:00-27:10). Draft stage: the \"closed off\" (about 17:45-18:25) and \"protective thing\" (about 21:15-21:45) answers match a Whisper small.en second transcription; the printed quotation drops the repeated \"I just I just\". Edit stage: 'I've had that so many different times' follows the 'pretend something's real' line (about 21:00); caption-only for that sentence.",
+      "excerpt": "\"So, I cut my set short and I ran so quickly to go and watch The Roots.\" [...] \"I guess like my personality type\" [...] \"is very much like I hyperfixate so much and I get so obsessed and if I have I'm so stubborn and if I have an idea like or if I have my mind on something I have I just have to do it. I have to complete it.\" [...] \"never really an open person. I was quite um I was closed off.\" [...] \"the best thing someone could tell me is that they made a friend by coming to one of my shows.\" [...] \"I think I've been let down a lot by people, and so as like a protective thing, I just I just pretend something's real when it's not.\" [...] \"then I guess you get like addicted to this validation.\" [...] \"I've had that so many different times\"",
+      "context": "Auto-captions, no speaker labels. Do not quote the astrology exchange (the 'Capricorn' and 'Libra' lines cannot be assigned to a speaker; Hey Alma, S26, says she is a Libra) or the 'good 70%er' line without checking the audio. 'My personality type' here is a lay phrase, not an Enneagram reference.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.youtube.com/watch?v=z1eJ8qdFBVI",
+      "title": "SIENNA SPIRO Opens Up About Her Debut Album 'Visitor' & Reveals Something She's Never Said Before (iHeartRadio)",
+      "speaker": "Sienna Spiro, interviewed by Tommy DiDario (iHeartRadio)",
+      "date": "2026-07-02",
+      "locator": "YouTube caption transcript, about 15 minutes. Superstitious and set in her ways (about 01:00); feeling like a visitor, weight and bullying (about 03:00-05:10); 'Pure', depression and her mother's illness (about 05:50-07:10); one-take laziness (about 10:50). Also the \"Pure\" answer (about 05:50-06:20), where she says she was very depressed when she wrote it, and the superstition remark (about 01:00). Not second-transcribed at draft stage. Edit stage: in the 'Pure' answer (about 06:00-06:40) she says she wrote it 'very depressed', that her mother was ill at home in London while she was writing in Los Angeles, and that she 'had a lot of guilt about that'. The edit prints one clause in her framing and no medical detail.",
+      "excerpt": "\"I'm very superstitious\" [...] \"when I grew up, I was I was a lot bigger in weight to to most of the people around me um and I think kids are quite mean\" [...] \"I was a very sad very sad kid growing up and I just I just like had a lot to give. I'm a very passionate person and I'm a very stubborn person.\" [...] \"there's a whole kind of movement of being like nonchalant or being like pretending you don't care.\" [...] \"I care so much\" [...] \"I wrote that I was very depressed at the time\" [...] \"because I'm very superstitious\"",
+      "context": "Auto-captions, no speaker labels. Also contains her statement that her mother 'had a brain tumor' in 2025 while she was recording in Los Angeles; that concerns another person's health and should be used only as the setting she gives for writing 'Pure'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://www.youtube.com/watch?v=ybJbtoygyaE",
+      "title": "SIENNA SPIRO Opens Up: Toxic Love, Sold-Out Tours & Feeling Like a Visitor (Z100 New York)",
+      "speaker": "Sienna Spiro, interviewed by Josh Martinez (Z100)",
+      "date": "2026-03-17",
+      "locator": "YouTube caption transcript, about 14 minutes, recorded at the Empire State Building during her first US headline tour. Previous tour not selling (about 00:55); 'Die on This Hill' as delusional (about 02:00-03:00); 'Maybe' and her manager (about 05:40-07:00); 'The Visitor', weight, being needed and the therapist role (about 07:50-09:40); holding on too tightly (about 10:50-11:10). Draft stage: 00:50-01:30 and 08:30-09:40 match a Whisper small.en second transcription; printed quotations drop the repeated \"would would\" and \"it's it's\". The \"exhausting\" line (about 11:20) lies outside the second-transcribed segment.",
+      "excerpt": "\"my last tour didn't sell and so I was like on TikTok live video trying to sell tickets.\" [...] \"I'm very obsessive to be honest. I feel like I I like hyperfixate on people\" [...] \"I'm usually quite sad about things.\" [...] \"I was I was forced to by my manager, Miriam.\" [...] \"I always felt like I was never really wanted around. So, I had to make myself like needed. So, I would always try and like, you know, make myself of service to people.\" [...] \"I've kind of been that like therapist role for my friends where I've always taken on so much of people's problems because I never thought people would would want me otherwise if they didn't need me. So that's genuinely been like the biggest theme throughout my whole life.\" [...] \"I was so scared of losing things and people that I would like hold on so tight tightly or or be too much that I would end up just like people leaving\" [...] \"how do I like, you know, make myself necessary so they actually, you know, want me there?\" [...] \"people aren't very nice to be honest, especially when you're young\" [...] \"It took me nine tries to to write it\" [...] \"I had to learn how to not be like that because it's it's actually exhausting.\"",
+      "context": "Auto-captions, no speaker labels; the host shares his own 'baby sibling syndrome' therapy insight immediately afterwards, which is his, not hers. This is the clearest first-person statement of a helper/needed strategy in the record, given unprompted in answer to 'why do you think you felt that way?'",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.youtube.com/watch?v=aJRofzOtKmg",
+      "title": "SIENNA SPIRO Talks Her Debut Album, New York, and Tour! (Z100 New York Interview Lounge)",
+      "speaker": "Sienna Spiro, interviewed by Crystal Rosas (Z100)",
+      "date": "2026-07-08",
+      "locator": "YouTube caption transcript, about 19 minutes, made while making friendship bracelets. Competitiveness (about 00:10-00:40); 'if you don't want me, don't have me' and 'hold myself hands up' (about 14:00-14:40). Draft stage: \"I'm very competitive\" (about 00:10) and \"if you don't want me, don't have me\" (about 14:10) match a Whisper small.en second transcription. Edit stage: the 'so be it' passage (about 14:00-14:40) follows her quoting her old stance ('I'm not going to start a relationship ... not getting into another friendship cuz it's going to end') and precedes 'very loyal ... valuable to some people'. Whisper covers through 'value of myself'; 'very loyal' is caption-only.",
+      "excerpt": "\"I'm very competitive.\" [...] \"Anything where I could like win.\" [...] \"Like if you don't want me, don't have me.\" [...] \"I hold myself hands up when I'm wrong.\" [...] \"And you know what? So be it. Allow it to end. Like if you don't want me, don't have me.\" [...] \"I think I'm a I think I'm a very loyal and I can be very valuable to some people and if someone doesn't want me, that is okay.\" [...] \"I hope there's a song in there for everyone\"",
+      "context": "Light-format interview built around a craft game, which prompted the competitiveness remark. Auto-captions, no speaker labels. Edit stage: the 'don't want me' line is her new acceptance of endings, not withdrawal. The 'I'm very competitive' remark (bracelet game) is no longer printed.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.youtube.com/watch?v=z9bHGwSTOAY",
+      "title": "Sienna Spiro on Sabrina Carpenter's sweet DM and singing the next James Bond song (Capital)",
+      "speaker": "Sienna Spiro, interviewed by Will Manning (Capital, The Official Big Top 40)",
+      "date": "2025-11-18",
+      "locator": "YouTube caption transcript, about 11 minutes, recorded as 'Die on This Hill' climbed the UK chart. Chart-tracking answer (about 00:20); gratitude 'made me sick' (about 01:40-02:10); 'Die on This Hill' versions and admitting she was wrong (about 08:40-10:30). Draft stage: \"Sorry, I was wrong\" (about 10:15) matches a Whisper small.en second transcription.",
+      "excerpt": "\"I don't, but I have people that do and let me know.\" [...] \"I was like, \"No, not doing it.\"\" [...] \"I was like, \"Sorry, I was wrong.\"\" [...] \"You have to have no ego.\"",
+      "context": "The earliest telling of the 'Die on This Hill' arrangement story (November 2025). Auto-captions, no speaker labels; 'I don't, but I have people that do' answers whether she keeps track of the charts.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S21",
+      "url": "https://www.youtube.com/watch?v=2o4ftjqGfUM",
+      "title": "Sienna Spiro gets emotional over 'Die On This Hill' and reunites with her grandma (Capital)",
+      "speaker": "Sienna Spiro, interviewed by Will Manning (Capital); includes her grandmother Sheila by phone",
+      "date": "2026-04-13",
+      "locator": "YouTube caption transcript, about 11 minutes. 'Grammys' jinx answer (about 03:40-04:10); 'the advice girl' (about 05:50-06:10); stopping trying with people (about 06:10-07:10); grandmother's description of her as a child (about 09:40-10:00). Draft stage: the \"advice girl\" exchange (about 05:50) and the grandmother's answer (about 09:50) match a Whisper small.en second transcription. The grandmother line follows the host's question to \"Grandma Sheila\" about what Sienna was like growing up; there is no speaker label, so the attribution rests on that sequence. Edit stage: the visitor definition (about 06:50-07:10) is caption-only; it continues her own answer about 'The Visitor' and is not second-transcribed, so a verifier should re-listen. Repeated 'you're' dropped.",
+      "excerpt": "\"whenever I've said something's going to happen, it never happens.\" [...] \"I've always kind of been that like friend that that people come to for\" [...] \"if you felt like you stopped trying with people, if you want the person to like initiate a friendship\" [...] \"If you stop doing that, it wouldn't happen.\" [...] \"Not a nightmare, but she had her own personal opinion on most things.\" [...] \"that's kind of to me what being a visitor is. It's knowing you're temporary to somebody and knowing if you don't show up in that specific way, you're you're you're expired to them\" [...] \"If you stop doing that, it wouldn't happen.\" [...] \"it happens in your adult life as well and it keeps happening.\"",
+      "context": "A light radio segment with a surprise call. Auto-captions without speaker labels; the 'own personal opinion on most things' line is the grandmother's answer to 'what was she like?' as judged from context and should be checked against the audio before quoting. The grandmother is family and was speaking warmly on air.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S22",
+      "url": "https://www.youtube.com/watch?v=veNH3JQNKR8",
+      "title": "SIENNA SPIRO | Audacy Check In (video)",
+      "speaker": "Sienna Spiro, interviewed by Bru (Audacy)",
+      "date": "2026-07-08",
+      "locator": "YouTube caption transcript, about 16 minutes, recorded in Los Angeles days before the album. Stubborn and set in her ways (about 05:00); least favorite song (about 12:40-13:10); honesty in the industry (about 15:00). Draft stage: the \"Back to Blonde\" answer (about 12:40) matches a Whisper small.en second transcription; the repeated \"It's not It's not\" is not printed. Edit stage: printed only 'not an honest song' (Whisper agrees).",
+      "excerpt": "\"I'm very stubborn. I'm like, \"Oh, if I get an idea of doing something I have to see it through in that way\" [...] \"I hate that that song. I put it out for all the wrong reasons. It's not It's not an honest song.\" [...] \"I find myself often like begging for honesty.\"",
+      "context": "Auto-captions render the host's question as 'Back to Black'; the host later says 'back to blonde' and the song in question is her 2024 single 'Back to Blonde'. Do not print 'Back to Black'.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S23",
+      "url": "https://www.youtube.com/watch?v=8LUacnWswvs",
+      "title": "Sienna Spiro \"Die On This Hill\" Lyrics & Meaning (Genius Verified)",
+      "speaker": "Sienna Spiro (Genius Verified to-camera explanation)",
+      "date": "2026-02-13",
+      "locator": "YouTube caption transcript, about 6 minutes; verse-two commentary (about 01:50-02:20). Draft stage: the verse-two commentary (about 02:05-02:40) matches a Whisper small.en second transcription; the repeated \"to to\" is dropped. Edit stage: 'fear of rejection and fear of embarrassment ... masked by pride' and 'mirror the people around me to be kept around' are inside the Whisper-checked segment (about 02:05-02:40); the repeated 'by' and 'to' are dropped.",
+      "excerpt": "\"And I think there's a lot of fear of rejection and fear of embarrassment in this song. And I think it's masked by by pride.\" [...] \"I sometimes mirror the people around me to to be kept around\" [...] \"somebody leaving just because they they don't need you anymore is way more painful than them just dying.\"",
+      "context": "Her own line-by-line explanation of her breakthrough song, recorded as it peaked. A self-analysis of the song's speaker that she explicitly applies to herself ('I am all of those things'). Auto-captions interleave her sung lyrics with commentary.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S24",
+      "url": "https://www.youtube.com/watch?v=UgZu4Ywqvw0",
+      "title": "Sienna Spiro \"You Stole the Show\" Lyrics & Meaning (Genius Verified)",
+      "speaker": "Sienna Spiro (Genius Verified to-camera explanation)",
+      "date": "2026-03-04",
+      "locator": "YouTube caption transcript, about 5 minutes; 'my love turns green' and embarrassment commentary (about 03:30-04:20). Draft stage: the \"jealous of my own imagination\" line (about 03:40-04:10) matches a Whisper small.en second transcription; the \"least favorite emotion\" line follows it and rests on the captions. Edit stage: the 'jealous of my own imagination' line is about a near-reunion with an ex outside a venue in 'You Stole the Show', not about the New York man; the edit attributes it to that song.",
+      "excerpt": "\"I felt a lot of jealousy that this isn't real and I'm kind of jealous of my own imagination\" [...] \"I hate feeling embarrassed. I think it's my least favorite emotion.\"",
+      "context": "She explains the song as an imagined scene of an ex at the back of her audience. Auto-captions.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S25",
+      "url": "https://www.youtube.com/watch?v=viIhdPUSXlU",
+      "title": "SIENNA SPIRO - Full Episode | Live on Austin City Limits TV",
+      "speaker": "Sienna Spiro (performance and spoken song introductions)",
+      "date": "2026-10-04",
+      "locator": "YouTube caption transcript of the 53-minute episode (Season 52, Episode 5205): 'Pure' performance (about 18:30-22:30); album introduction before 'Mono no aware' (about 33:00-34:30).",
+      "excerpt": "\"Just want to feel special\" [...] \"this whole album is about this like massive fear of impermanence I had\"",
+      "context": "Captions of sung lyrics are unreliable (bracketed tags removed here); check lyric quotations against the official lyric sheet. The spoken introduction is her own framing of the album to a TV audience.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S26",
+      "url": "https://www.heyalma.com/?p=51390",
+      "title": "18 Things To Know About Jewish Singer-Songwriter Sienna Spiro (Hey Alma)",
+      "speaker": "Evelyn Frick (Hey Alma), quoting Spiro from Vevo DSCVR, Rolling Stone, The Telegraph and Entertainment Tonight",
+      "date": "2026-08-12",
+      "locator": "Numbered list: items 1, 9, 13 and 15. Edit stage: item 15 printed with its 'for the last year' time frame and its resolution.",
+      "excerpt": "\"I really was feeling like I had to make up for myself. I didn't think who I was, you know, what my identity was, was enough. So I kept trying to be cooler than I was.\" [...] \"But I was nearly mute for a year — like, I barely spoke the year before last.\" [...] \"So when I got the email asking if I might like to do it, I spat my water out.\" [...] \"A challenge, I think, for the last year, I really was feeling like I had to make up for myself. I didn't think who I was, you know, what my identity was, was enough. So I kept trying to be cooler than I was. Like, a north-west London Jewish girl who sings jazz, you know?\" [...] \"I sat with myself for awhile and went back to why I started doing music and why I care about it in the first place.\"",
+      "context": "Secondary compilation. The Vevo DSCVR video, the Rolling Stone interview and The Telegraph interview it quotes were not opened (Telegraph: S33). Treat these quotations as secondhand until the originals are checked.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S27",
+      "url": "https://momentmag.com/jewish-nepo-baby-olympics/",
+      "title": "This Summer's Jewish Nepo Baby Olympics (Moment)",
+      "speaker": "Sam Franzini (Moment Magazine)",
+      "date": "2026-09-02",
+      "locator": "Essay: paragraph on the 'nepotism baby, industry plant' asterisks; Sienna Spiro paragraph.",
+      "excerpt": "\"they were given the typical asterisks that come with sudden fame—nepotism baby, industry plant.\" [...] \"Spiro's debut album, Visitor, garnered lukewarm reviews this July but still reached the top ten of the Billboard 200.\" [...] \"it feels like Spiro emulates the emotional turbulence without having experienced it herself.\" [...] \"The terms overlap, but both suggest that their success is plastic, purchased either through the industry connections their parents fostered or simply a massive amount of money spent to ensure their songs are heard.\" [...] \"She plays the imitation game well, and her voice's personality and heft makes Visitor a solid debut, but nothing compares to Winehouse—it feels like Spiro emulates the emotional turbulence without having experienced it herself. But still, she has an aura and classiness, and at 20, there's ample time to figure herself out.\"",
+      "context": "An opinion essay grouping her with other children of wealthy or connected parents. It reports no evidence that family money or connections bought her career; it notes critics' labels and quotes a label owner's general complaint about access. No response from Spiro to this framing was found. Edit stage: Moment defines the two labels as success 'purchased' through connections or money; the 'emulates' remark is a separate comparison with Amy Winehouse by the same writer, inside a passage calling Visitor 'a solid debut'.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S28",
+      "url": "https://www.statesman.com/entertainment/music/article/sienna-spiro-acl-fest-review-22470856.php",
+      "title": "VMA-winner Sienna Spiro delivered one of ACL Fest's all-time best nepo baby sets (Austin American-Statesman)",
+      "speaker": "Ramon Ramirez (Austin American-Statesman contributor)",
+      "date": "2026-10-10",
+      "locator": "Festival review of her October 9, 2026 Austin City Limits Music Festival set: opening four paragraphs and the set-description paragraph.",
+      "excerpt": "\"Friday at Austin City Limits Music Festival, 21-year-old Sienna Spiro, fresh off a Best New Artist Moonman at the MTV VMAs, poured out her soul for 45 minutes.\" [...] \"Thousands of teens cried along to her relatable songwriting.\" [...] \"I'm gonna bring the mood down quite drastically,\" Headline: \"VMA-winner Sienna Spiro delivered one of ACL Fest's all-time best nepo baby sets\". [...] \"From Dakota Johnson to Ben Stiller, nepo babies can be flat-out awesome.\" [...] \"Sienna Spiro, however, is a storyteller. She's more like Adele. Her heart is on her sleeve. Her lyrics sting.\"",
+      "context": "A critic's eyewitness review (positive) framed around the nepotism question. Confirms her age as 21 on October 9, 2026, consistent with a September 28, 2005 birth date. Edit stage: a rave that uses the 'nepo baby' label playfully; it presents her songwriting as heartfelt, so it is not evidence for the 'sadness is style' counter-case.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S29",
+      "url": "https://www.billboard.com/music/awards/sienna-spiro-great-expectation-vmas-performance-1236348758/",
+      "title": "Sienna Spiro Gets Standing Ovation After Performing 'Great Expectation' at VMAs (Billboard)",
+      "speaker": "Angel Diaz (Billboard), quoting her acceptance speech",
+      "date": "2026-09-27",
+      "locator": "Report body: performance paragraph; best new artist paragraph with the acceptance speech; UK chart paragraph.",
+      "excerpt": "\"I didn't think this would happen, so I just have to say thank you so much,\" [...] \"Thank you to the incredible women around me, Miriam, Thalia, my mother, my sister. Thank you.\"",
+      "context": "Same-night report from the MTV Video Music Awards at the Peacock Theater, Los Angeles. Also reports 'Great Expectation' at a third consecutive week at No. 1 in the UK.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S30",
+      "url": "https://www.officialcharts.com/chart-news/who-is-sienna-spiro-as-her-soulful-single-die-on-this-hill-heads-for-first-top-40/",
+      "title": "Who Is Sienna Spiro? As her soulful single Die On This Hill heads for the Top 40 (Official Charts Company)",
+      "speaker": "Nick Levine (Official Charts Company), quoting Spiro",
+      "date": "2025-10-15",
+      "locator": "Article sections 'Who is Sienna Spiro?', 'When did Sienna Spiro release Die On This Hill?' and 'Why is Die On This Hill by Sienna Spiro so popular?'",
+      "excerpt": "\"released her debut single Need Me in May 2024.\" [...] \"Sienna Spiro released Die on This Hill on 10 October. It's the first new song she's put out since turning she turned 20 in September.\" [...] \"This song is about stubborn love – the kind that makes you stay when you know you should leave.\" [...] \"her stunning soulful ballad\"",
+      "context": "Chart-authority explainer written the week the song first approached the UK Top 40; the quotation is from her release statement.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S31",
+      "url": "https://en.wikipedia.org/wiki/Sienna_Spiro",
+      "title": "Sienna Spiro (Wikipedia)",
+      "speaker": "Wikipedia contributors",
+      "date": "unknown",
+      "locator": "Lead, Early life, Career and Discography sections (raw wikitext retrieved 2026-10-14). Also the \"Tours\" (supporting acts) list and the singles chart table (\"Die on This Hill\": UK 9). Edit stage: Career section for the 2021 TikTok start, the May 2024 debut single and the February 2025 EP.",
+      "excerpt": "Her father is a jeweller who has worked with [...] born 28 September 2005) is an English singer-songwriter and record producer. [...] She has been diagnosed with [[attention deficit hyperactivity disorder]] (ADHD). [...] Supporting act listing: \"Sam Smith – To Be Free: New York City (2025)\". [...] In 2021, at age 16, Spiro began posting videos of herself singing on the social media app [[TikTok]]. [...] She released her debut single, \"Need Me\", on 24 May 2024. [...] She released ''[[Sink Now, Swim Later]]'', her debut [[extended play]], in February 2025.",
+      "context": "Used for leads and chart/certification tables only (UK No. 9 and US No. 19 for 'Die on This Hill'; UK No. 1 for 'Great Expectation'; 'Visitor' released 3 July 2026). Birth date sourced there to her own TikTok post (S40). Not independent evidence for personal claims.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S32",
+      "url": "https://www.audacy.com/kluc/news/sienna-spiro-finds-her-home-on-visitor",
+      "title": "SIENNA SPIRO finds her home on 'Visitor': 'I hope I get to sing it for a long time' (Audacy)",
+      "speaker": "Michael Cerio (Audacy), quoting Spiro from the Audacy Check In",
+      "date": "2026-07-08",
+      "locator": "Article body, second and third quotation paragraphs.",
+      "excerpt": "\"I'd be lying if I said I didn't want people to like it. I hope people like it and I hope I get to sing it for a long time.\" [...] \"The way people received those songs gave me the confidence to make it an album\"",
+      "context": "Written summary of the same Audacy session as S22 (not independent of it).",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S33",
+      "url": "https://www.telegraph.co.uk/music/interviews/rising-star-sienna-spiro-interview/",
+      "title": "'Next Adele' Sienna Spiro: When I was asked to sing for Attenborough I spat out my water (The Telegraph)",
+      "speaker": "Sienna Spiro, interviewed by The Telegraph",
+      "date": "2026-05-20",
+      "locator": "Not opened: the page returned HTTP 402 to direct requests, the r.jina.ai reader and a Wayback raw request on 2026-10-14.",
+      "excerpt": "Not opened. Title only: 'Next Adele' Sienna Spiro: When I was asked to sing for Attenborough I spat out my water.",
+      "context": "Known only through the Wikipedia citation (S31) and a quotation reproduced by Hey Alma (S26). Do not quote it as opened.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S34",
+      "url": "https://www.musicweek.com/radar/read/on-the-radar-2026-sienna-spiro/093359",
+      "title": "On The Radar 2026: Sienna Spiro (Music Week)",
+      "speaker": "Sienna Spiro and her team, interviewed by Priya Elan (Music Week)",
+      "date": "2026-01-20",
+      "locator": "Subscriber-only; only the first sentence is visible before the paywall.",
+      "excerpt": "\"I thought I was such a weirdo for most of my life,\" begins Sienna Spiro in that husky tone.",
+      "context": "BRITs Critics' Choice shortlist profile. Everything after the first sentence is paywalled and unread.",
+      "kind": "primary",
+      "access": "unavailable"
+    },
+    {
+      "id": "S35",
+      "url": "https://www.musicradar.com/artists/i-have-vocal-nodes-i-actually-love-the-texture-it-gives-my-voice-but-it-makes-it-incredibly-hard-to-sing-sometimes-before-i-was-diagnosed-i-used-to-lose-my-voice-all-the-time-breakout-star-sienna-spiros-distinctive-singing-voice-comes-at-a-cost",
+      "title": "\"Before I was diagnosed, I used to lose my voice all the time\": Breakout star Sienna Spiro's distinctive singing voice comes at a cost (MusicRadar)",
+      "speaker": "Ben Rogerson (MusicRadar), quoting Spiro from a 15 Questions interview",
+      "date": "unknown (2026, before the July 3 album release)",
+      "locator": "Article body, nodules quotation and vocal-rest quotation.",
+      "excerpt": "\"I have vocal nodes, which are small bumps on the vocal cords that make your voice sound really breathy – or in my case, raspy,\" [...] \"so technically, I'm actually a terrible singer.\" [...] \"Before and after each show, I'd do about two to three days of no talking at all, which was really hard and miserable, but it made such a huge difference,\"",
+      "context": "Secondary report of a 15 Questions interview that was not opened.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S36",
+      "url": "https://www.youtube.com/watch?v=E7gMF6h8_9o",
+      "title": "Sienna Spiro Spills on Adele, Elton John & Her Love of the '60s (Cosmo Goes Deep, Cosmopolitan)",
+      "speaker": "Sienna Spiro (Cosmopolitan video Q&A)",
+      "date": "2026-09-02",
+      "locator": "YouTube caption transcript, about 6.5 minutes: most personal song (about 01:00-01:20); identity and hair (about 02:30-03:10).",
+      "excerpt": "\"There's also a lyric that says, \"I get jealous when I see myself in my sister's eyes.\" Also very personal.\" [...] \"I've always struggled, I guess, with like my identity and the way I looked\"",
+      "context": "She names \"Pure\" as her most personal song. Auto-captions.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S37",
+      "url": "https://www.youtube.com/watch?v=1qo9PK7Mt1Q",
+      "title": "Sienna Spiro Wrote 'Die On This Hill' by Accident (The Jonathan Ross Show)",
+      "speaker": "Sienna Spiro, interviewed by Jonathan Ross",
+      "date": "2026-04-04",
+      "locator": "YouTube caption transcript, about 4 minutes: bullying and the assembly (about 00:20-00:50).",
+      "excerpt": "\"After they bullied me, I I thought I'd sing it in front of them.\" [...] \"I'm really nervous.\"",
+      "context": "Her first UK chat-show appearance by her own account; corroborates the assembly story told in S04, S05 and S08.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S38",
+      "url": "https://inmusicblog.com/news/sienna-spiro-my-house-world-tour-2026-2027/",
+      "title": "Sienna Spiro Announces My House World Tour Across North America, Europe and Asia (inMusic blog)",
+      "speaker": "inMusic blog staff",
+      "date": "2026-06-09",
+      "locator": "Announcement body and the tour-date list.",
+      "excerpt": "\"The newly unveiled trek will begin on October 13, 2026, at Nashville's legendary Ryman Auditorium and continue through March 2027, with a final stop scheduled for June 15, 2027, at Fairview Park in Dublin.\" [...] \"reached No. 19 on the Billboard Hot 100\"",
+      "context": "Tour announcement; North American dates run October 13 to November 10, 2026. Dates can change.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S39",
+      "url": "https://www.grammy.com/news/2027-grammys-show-air-date-nominations-announced/",
+      "title": "The Grammy Awards set to take place Sunday, Feb. 7, 2027 (Recording Academy)",
+      "speaker": "Recording Academy",
+      "date": "2026-05-12",
+      "locator": "Press release, opening paragraphs.",
+      "excerpt": "\"Nominations for the 2027 Grammys will be announced Monday, Nov. 16, 2026.\"",
+      "context": "Official schedule for the next dated catalyst (nominations November 16, 2026; ceremony February 7, 2027). Her eligibility or nomination is not established by this source.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S40",
+      "url": "https://www.tiktok.com/@siennaspiro/video/7555224831633984770",
+      "title": "And it's my birthday so you should definitely make a video #thankyou #20 (TikTok)",
+      "speaker": "Sienna Spiro (@siennaspiro)",
+      "date": "2025-09-28",
+      "locator": "Post caption (retrieved through TikTok's oEmbed endpoint); posting time decoded from the video ID as 2025-09-28 19:31 UTC.",
+      "excerpt": "And it's my birthday so you should definitely make a video #thankyou #20",
+      "context": "Her own post marking her 20th birthday on September 28, 2025, which fixes her birth date as September 28, 2005 (matching S31 and S26). Video content was not viewed; the caption and timestamp establish the date.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S41",
+      "url": "https://www.youtube.com/watch?v=e5I8NTEnrQw",
+      "title": "British performer Sienna Spiro chats new music and rise to fame (Today Show Australia)",
+      "speaker": "Sienna Spiro, interviewed on TODAY (Australia)",
+      "date": "2026-04-21",
+      "locator": "YouTube caption transcript, about 4 minutes: 'The Visitor' answer (about 02:00-02:40); streaming numbers answer (about 03:00). Edit stage: the continuation 'and knowing you probably care about that person more than they care about you' is printed (caption-only, about 02:20).",
+      "excerpt": "\"It's a song about that feeling of just like knowing you're temporary to someone. And this like fear of impermanence and knowing you probably care about that person more than they care about you.\" [...] \"It's hard to like feel things when they're just like numbers.\"",
+      "context": "Short breakfast-TV interview. Auto-captions.",
+      "kind": "primary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Sienna Spiro was born in London on September 28, 2005.",
+      "passage": "Spiro, a Londoner born on September 28, 2005,",
+      "class": "self_report",
+      "source_ids": [
+        "S40",
+        "S31",
+        "S26",
+        "S30"
+      ],
+      "inference": "Her own post ('it's my birthday ... #20', posted 2025-09-28 19:31 UTC per the video ID) fixes day, month and year. Wikipedia and Hey Alma give the same date; the Official Charts Company says she turned 20 in September 2025; the Statesman gives 21 in October 2026. London birthplace is from Wikipedia and her repeated self-description as a Londoner.",
+      "alternative": "A fan-site biography gives September 25, 2005; it is unsourced and outweighed by her own post. Do not print a birth time or anything more precise than the date.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C107",
+      "claim": "She began posting singing videos on TikTok in 2021 and released her first single in May 2024.",
+      "passage": "started posting singing videos on TikTok in 2021 and released her first single in May 2024, [Wikipedia](https://en.wikipedia.org/wiki/Sienna_Spiro) records.",
+      "class": "observed",
+      "source_ids": [
+        "S31",
+        "S30"
+      ],
+      "inference": "Dated career facts from Wikipedia (citing contemporaneous reporting) and Official Charts; they correct the impression that her public life began with the October 2025 breakthrough.",
+      "alternative": "Wikipedia is not independent evidence; Official Charts independently dates the May 2024 debut single (\"Need Me\").",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C66",
+      "claim": "Metadata: her birth date and age as of October 2026.",
+      "passage": "She was born in London on September 28, 2005, which she marked on TikTok when she turned 20, so she is 21 as of October 2026.",
+      "class": "self_report",
+      "source_ids": [
+        "S40",
+        "S31",
+        "S28"
+      ],
+      "inference": "Her own birthday post (#20, 2025-09-28) fixes the date; the Statesman gives her age as 21 on October 9, 2026.",
+      "alternative": "The age statement is dated and will need updating after September 28, 2027.",
+      "durability": "time_sensitive",
+      "review_trigger": "After September 28, 2027, update the age in the FAQ or remove it."
+    },
+    {
+      "id": "C67",
+      "claim": "Metadata: the frontmatter birth_date field.",
+      "passage": "2005-09-28",
+      "class": "self_report",
+      "source_ids": [
+        "S40",
+        "S31"
+      ],
+      "inference": "Same evidence as C01.",
+      "alternative": "A fan-site date of September 25 is unsourced and outweighed by her own post.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "Her father is the jeweller Glenn Spiro.",
+      "passage": "Her father is the jeweller Glenn Spiro.",
+      "class": "third_party",
+      "source_ids": [
+        "S31",
+        "S27",
+        "S28"
+      ],
+      "inference": "Reported by Wikipedia, Moment and the Austin American-Statesman. Stated plainly as background to the nepotism framing, not as evidence of motive.",
+      "alternative": "The father's wealth and clientele are reported; nothing in the record shows they financed her career.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C68",
+      "claim": "Metadata: her parents.",
+      "passage": "She is the daughter of the jeweller Glenn Spiro and his wife, Arabella.",
+      "class": "third_party",
+      "source_ids": [
+        "S31",
+        "S27"
+      ],
+      "inference": "Wikipedia names her parents as Arabella (née Bodie) and Glenn Spiro; Moment names her mother Arabella.",
+      "alternative": "Sibling and half-sibling details are not printed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "At 10 she wrote \"Lady in the Mirror\" about being bullied when no one believed her, about the only person who knew what was going on being herself, and sang it at a school assembly in front of the children who had bullied her.",
+      "passage": "At 10, Sienna Spiro wrote her first song. \"Lady in the Mirror\" was about being bullied at school when, as she told [NYLON](https://www.nylon.com/entertainment/sienna-spiro-interview-visitor-debut-album-die-on-this-hill-tiktok-new-tour) in June 2026, \"no one really believed me that it was happening.\" \"The song was about how the only person who really knows what's going on is me, the person in the mirror.\" Then she sang it at a school assembly, in front of the children who had bullied her.",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S04",
+        "S37"
+      ],
+      "inference": "The assembly story is told consistently in five interviews from March 2025 to June 2026. Choosing to answer bullies by performing her own song about being misunderstood is an early, costly choice; it fits both a need to be seen as she is (Four) and a need to be validated (NYLON: everyone turning to look at her mother filming 'was so validating').",
+      "alternative": "All accounts are hers; no classmate or teacher has spoken. Weight-based bullying is a sufficient circumstantial cause of feeling unwanted. Do not write a causal childhood-wound thesis.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C69",
+      "claim": "She told Notion the assembly performance felt \"like medicine\".",
+      "passage": "\"I performed it in front of the people who had bullied me, and it was like medicine. I felt so comforted,\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "Her own description of what the performance gave her: comfort.",
+      "alternative": "One telling, published November 2025 (interviewed at 19).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C37",
+      "claim": "She told NYLON that at the assemblies the room turned to look at the singer's mother as a sign the singer was doing well, and that her mother filming as the room turned was validating.",
+      "passage": "At those assemblies, \"anytime someone was singing on stage, everyone would look behind to see the mum. That was kind of a sign that you're killing it.\" \"My mum was there filming, and everyone was looking behind. That was so validating.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "The same memory carries a second note, approval from the room. Set beside C69 it shows both being understood and being seen to do well.",
+      "alternative": "A child enjoying applause implies no type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "\"Die on This Hill\" was released on October 10, 2025; TikTok seized on its bridge; it peaked at No. 9 in the UK and No. 19 on the Billboard Hot 100.",
+      "passage": "Her breakthrough, \"Die on This Hill,\" came out on [October 10, 2025](https://www.officialcharts.com/chart-news/who-is-sienna-spiro-as-her-soulful-single-die-on-this-hill-heads-for-first-top-40/) and, once TikTok seized on its bridge, reached No. 9 in the UK and No. 19 on the Billboard Hot 100.",
+      "class": "observed",
+      "source_ids": [
+        "S30",
+        "S31",
+        "S05"
+      ],
+      "inference": "Release dates from the Official Charts Company and Wikipedia; Hot 100 peak also in the tour announcement; UK No. 1 reported by Billboard on VMA night. Her first public breakout is therefore about one year old at the time of research.",
+      "alternative": "Chart positions are fixed history; streaming totals and certifications quoted in coverage vary by date and should be omitted or dated.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C70",
+      "claim": "_Visitor_ was released on July 3, 2026.",
+      "passage": "Her debut album, _Visitor_, followed on July 3, 2026,",
+      "class": "observed",
+      "source_ids": [
+        "S31",
+        "S06"
+      ],
+      "inference": "Release date from Wikipedia; Vogue interviewed her on release day.",
+      "alternative": "Fixed history.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "\"Great Expectation\" was in its third consecutive week at No. 1 in the UK when she won MTV's Best New Artist on September 27, 2026.",
+      "passage": "\"Great Expectation\" had just spent a third week at No. 1 in the UK when she won Best New Artist at the MTV VMAs on September 27, 2026,",
+      "class": "observed",
+      "source_ids": [
+        "S29"
+      ],
+      "inference": "Dated chart and award facts from Billboard's same-night report. They locate the profile in time and do not carry the personality argument.",
+      "alternative": "Chart runs are history; later awards would be additions, not corrections.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C71",
+      "claim": "Metadata: \"Great Expectation\" reached No. 1 in the UK in September 2026.",
+      "passage": "The song reached No. 1 on the UK singles chart in September 2026.",
+      "class": "observed",
+      "source_ids": [
+        "S29",
+        "S31"
+      ],
+      "inference": "Billboard reported a third consecutive week at No. 1 on September 27, 2026.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C108",
+      "claim": "Her sound is soulful, 1960s-styled ballads.",
+      "passage": "Her sound is soulful, '60s-style balladry;",
+      "class": "third_party",
+      "source_ids": [
+        "S30",
+        "S03",
+        "S01"
+      ],
+      "inference": "A plain description assembled from Official Charts (\"soulful ballad\"), Interview (\"Bringing the Sixties Back\") and Rolling Stone UK (\"60s-indebted\").",
+      "alternative": "Genre labels vary by outlet (pop, jazz, soul); this is a description, not a claim about motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C36",
+      "claim": "In March 2026, Variety's Chris Willman wrote that she sounds like a sequel to Adele.",
+      "passage": "[Variety](https://variety.com/2026/music/concert-reviews/sienna-spiro-troubadour-debut-british-voice-concert-review-1236679904/)'s Chris Willman wrote that \"Spiro sounds like a sequel to [Adele](/personality-analysis/adele).\"",
+      "class": "third_party",
+      "source_ids": [
+        "S12"
+      ],
+      "inference": "A critic's comparison, quoted for orientation only.",
+      "alternative": "A comparison of voice and style, not personality.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C73",
+      "claim": "The open question: she calls herself naturally sad (Four-sounding), but she usually defines the visitor feeling as being kept only while she keeps showing up, said in March 2026 that she made herself needed, and has also tied the feeling to her ADHD.",
+      "passage": "She calls herself \"naturally sad,\" which sounds like a Four. But she named her album after feeling like a visitor in other people's lives, and when she defines that feeling, it usually comes back to being kept only while she keeps showing up for people. Asked why in March 2026, she said she made herself needed; elsewhere she has tied it to her ADHD.",
+      "class": "interpretation",
+      "source_ids": [
+        "S06",
+        "S18",
+        "S21",
+        "S23",
+        "S41",
+        "S01"
+      ],
+      "inference": "Her definitions of the visitor feeling: Capital, April 2026 (\"if you don't show up in that specific way, you're expired to them\"); Genius, February 2026 (mirroring \"to be kept around\"); Z100, March 2026 (made herself needed); TODAY, April 2026 (caring more than the other person). \"Usually\" because Rolling Stone UK, May 2026, ties it to ADHD and losing track of people, and Euphoria, August 2026, gives no mechanism.",
+      "alternative": "The visitor concept is also an album brand; her definitions come from its promotion.",
+      "durability": "unresolved",
+      "review_trigger": "Re-assess at the 2026-12-01 review, after the February 7, 2027 Grammy ceremony, or when any settle signal in open_case.settle_signals appears."
+    },
+    {
+      "id": "C74",
+      "claim": "Her interview record is nearly all from promoting an EP and an album in 2025-26.",
+      "passage": "Her interview record, nearly all from promoting an EP and an album in 2025 and 2026, can't yet show which explanation goes deepest, so this is an open case",
+      "class": "interpretation",
+      "source_ids": [
+        "S08",
+        "S15",
+        "S30",
+        "S31"
+      ],
+      "inference": "Every first-person interview opened dates from March 2025 to October 2026. Her public life is older (TikTok videos from 2021, singles from May 2024), so the claim is limited to the interview record.",
+      "alternative": "TikTok videos from 2021-2024 are public record too, but they are mostly covers and do not answer questions about motive.",
+      "durability": "time_sensitive",
+      "review_trigger": "At the 2026-12-01 review, or when a long-form interview or testimony outside a promotional cycle appears, re-assess whether the open case still applies."
+    },
+    {
+      "id": "C75",
+      "claim": "Research closed on October 14, 2026; two paywalled 2026 interviews, including The Telegraph (May 2026), were not read.",
+      "passage": "Research closed on October 14, 2026. Two paywalled 2026 interviews, including The Telegraph's of May 2026, were not read.",
+      "class": "observed",
+      "source_ids": [
+        "S31",
+        "S26"
+      ],
+      "inference": "Wikipedia (S31) cites The Telegraph interview and Hey Alma (S26) quotes it; the page itself returned HTTP 402 on 2026-10-14 (S33). The second is the Music Week On The Radar profile of January 2026 (S34), paywalled after its first sentence. S33 and S34 stay in the source list as unopened and are not cited for any printed claim.",
+      "alternative": "Either interview could hold material that changes the read.",
+      "durability": "time_sensitive",
+      "review_trigger": "If either interview is opened, read it and remove or revise this sentence."
+    },
+    {
+      "id": "C76",
+      "claim": "Type answer: leading read Type 2 at low confidence, Type 4 closest rival, Type 3 live.",
+      "passage": "Leading read: Enneagram Type 2, held loosely, at low confidence. Type 4 is the closest rival and Type 3 is still live. She calls making herself needed the biggest theme of her life, yet builds her songs on sadness and longing. Her interview record, nearly all from 2025-26 promotion, can't yet separate them.",
+      "class": "interpretation",
+      "source_ids": [
+        "S18",
+        "S06",
+        "S13",
+        "S16",
+        "S21"
+      ],
+      "inference": "Summarizes the edited case: the explicit, repeated, present-tense need-to-be-needed self-description leads; the longing and unreality material keeps Four close; drive keeps Three live. Confidence stays low.",
+      "alternative": "Four could lead if longing, not giving, proves to be her response when relationships cool; the record cannot yet show which.",
+      "durability": "unresolved",
+      "review_trigger": "Re-assess at the 2026-12-01 review or when any settle signal in open_case.settle_signals appears."
+    },
+    {
+      "id": "C77",
+      "claim": "Heart-triad framing: Types 2, 3 and 4 share shame as core emotion and answer it differently.",
+      "passage": "All three sit in the Enneagram's heart triad, whose core emotion is shame: the question of whether who you are is enough.",
+      "class": "interpretation",
+      "source_ids": [
+        "S26",
+        "S24"
+      ],
+      "inference": "Standard Enneagram triad framing; tied to her own words in the next paragraph (C38, C39).",
+      "alternative": "Triad framing is a model convention, not evidence about her.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C110",
+      "claim": "Explaining \"Die on This Hill\" on Genius in February 2026, she said the song holds a lot of fear of rejection and embarrassment, masked by pride.",
+      "passage": "Explaining \"Die on This Hill\" for [Genius](https://www.youtube.com/watch?v=8LUacnWswvs) in February 2026, she said the song holds \"a lot of fear of rejection and fear of embarrassment,\" \"masked by pride.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "She names rejection, embarrassment and pride, shame-family emotions, as the song's and her own; she says \"I am all of those things.\"",
+      "alternative": "She is explaining a song's narrator; pride is used in its everyday sense, not as the Enneagram term.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "She calls embarrassment her least favorite emotion.",
+      "passage": "A month later, on [Genius](https://www.youtube.com/watch?v=UgZu4Ywqvw0) again, she called embarrassment \"my least favorite emotion.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Embarrassment is close kin to shame, the heart triad's emotion.",
+      "alternative": "A passing remark while explaining a lyric; caption-only for this line.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C06",
+      "claim": "On release day she told Vogue that some people are naturally sad, that she is one of them, and that it runs in her family.",
+      "passage": "> \"I don't mean this to sound sad or make me sound like a victim or anything, but I just think some people are naturally sad, and I definitely feel that way about myself. I think it runs in my family.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Repeated in at least four 2026 interviews in nearly identical words, and paraphrased by NYLON as an 'innate sadness' from age 10. It is the self-image she leads with, not a mood she reports passing through, which is the closest the record comes to the Four pattern of identifying with melancholy.",
+      "alternative": "She reports depression in 2025 and lifelong mental-health struggles (C26, C62); a clinical explanation and a family temperament are both alternatives to a type account. Her genre and manager's strategy reward this self-presentation (C28). She prefaces it with a disclaimer, so she is managing how it lands.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C93",
+      "claim": "She went on to tell Vogue that natural sadness is not a bad thing but a very normal, human way to be.",
+      "passage": "\"I don't think it's a bad thing,\" she went on. \"I think it's a very normal, human way to be.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "She frames her sadness as ordinary and compatible with happiness, not as a mark of difference.",
+      "alternative": "Promotional framing can normalize feelings for listeners; it may not be how she experiences it privately.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "She told Zach Sang she is often numb and that singing is how she feels real and worth something.",
+      "passage": "That week, on the [Zach Sang Show](https://www.youtube.com/watch?v=BOlmpk_iS2k), a US interview program, she said she is \"numb quite a lot,\" and that singing is \"the way I felt like a real person,\" where she feels \"I'm worth something.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Music as the place she feels real and of worth fits Four's search for identity through self-expression.",
+      "alternative": "Numbness also fits the depression she reports (C62); the interview was recorded on about three hours' sleep.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "She describes \"The Visitor\" as about knowing you are temporary to someone and caring about them more than they care about you.",
+      "passage": "\"The Visitor\" is about \"knowing you're temporary to someone,\" she said on [TODAY in Australia](https://www.youtube.com/watch?v=e5I8NTEnrQw) in April 2026, \"and knowing you probably care about that person more than they care about you.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S41"
+      ],
+      "inference": "The definition pairs impermanence with unequal care, which fits the Two reading (giving more than she gets) as well as the Four reading (longing for what is not returned).",
+      "alternative": "A song description in a promotional segment; the continuation is caption-only.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C42",
+      "claim": "Setting: living in New York in 2025 while opening shows for Sam Smith, involved with an older man who promised he would come.",
+      "passage": "In 2025, at 19, she was living in New York for a stretch while opening shows for Sam Smith, and she was involved with an older man who, she told Zach Sang, \"promised me he would come.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S31"
+      ],
+      "inference": "Her account; Wikipedia lists her as a support act on Sam Smith's To Be Free: New York City run in 2025.",
+      "alternative": "He is unnamed; no one else has spoken about it. Do not speculate about identity.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C21",
+      "claim": "She told Zach Sang that in 2025 she imagined the man standing outside her New York apartment every day and wrote pages while waiting for him to come; he never came.",
+      "passage": "Every day, she said, she walked down the stairs and imagined him outside the door, playing out \"what I thought would happen if he was there.\" She filled pages in a café, \"waiting for this guy to come who never came,\" then went to a jazz club and cried.",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Idealizing the absent and longing for what is missing, then turning it into a song, is the most distinctive Four-like pattern in the record.",
+      "alternative": "Romantic fixation at 17 to 19 is developmentally ordinary; ADHD hyperfocus is her own explanation (S14, S16). Twos also pursue unavailable partners, though usually by giving rather than by fantasy.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C43",
+      "claim": "She laughs at herself about that period.",
+      "passage": "\"I was acting like I was a middle-aged woman. I was 19,\" she said, laughing.",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Self-deprecating distance from the longing she describes.",
+      "alternative": "The laughter tag is from the captions.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C78",
+      "claim": "\"Great Expectation\" began as she walked past that apartment.",
+      "passage": "The song she started walking past that apartment became \"Great Expectation.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Her account of the song's origin.",
+      "alternative": "Her account only.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "She has called the 2025 situation with the older man not healthy and said he did not have good intentions with her; she has not named him.",
+      "passage": "She has since called the situation \"not healthy\" and said the man, whom she has not named, \"did not have good intentions with me.\" That is her account alone.",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "A sensitive personal account she chose to make public and to set to music. Relevant only for what she says she was seeking ('I never did get chosen', a 'craving to ... be held') and how she processes loss through songs.",
+      "alternative": "Her account only; the man is unnamed and no one else has spoken. Do not speculate about his identity, do not present it as an allegation of a crime, and do not use it as evidence of character beyond her own interpretation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C79",
+      "claim": "Interpretation: she handles absence by imagining the person present and making a song of it.",
+      "passage": "What it shows is how she handles absence: she imagines the person into the doorway, then makes a song of it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S13",
+        "S16",
+        "S24"
+      ],
+      "inference": "Built from C21, C44 and C45.",
+      "alternative": "Romantic fixation at 19 is developmentally ordinary; ADHD hyperfocus is her own explanation (S14, S16).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C94",
+      "claim": "\"You Stole the Show\" (released July 2025) is, she told Interview in March 2026, about reliving a song every night and imagining what would happen if that person were there.",
+      "passage": "\"You Stole the Show,\" from 2025, is \"about living it every night and just imagining what would happen if that person was there,\" she told [Interview](https://www.interviewmagazine.com/music/introducing-sienna-spiro-the-sad-girl-singer-bringing-the-sixties-back) in March 2026;",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S31"
+      ],
+      "inference": "A second, earlier instance of imagining an absent person present, about a different relationship from the New York man, so the longing pattern rests on repetition.",
+      "alternative": "Performing a song nightly invites re-imagining its scene; the habit may be craft as much as temperament.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "On Genius, about a near-reunion with the ex in \"You Stole the Show\", she said she is kind of jealous of her own imagination.",
+      "passage": "of that ex, she said on Genius, \"I'm kind of jealous of my own imagination.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S24"
+      ],
+      "inference": "Envy of an imagined scene, explaining \"You Stole the Show\".",
+      "alternative": "Lyric commentary in a promotional video.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "She told Lyrical Lemonade in August 2026 that, having been let down a lot, she pretends things are real as a protection, and that it has happened many times.",
+      "passage": "\"I think I've been let down a lot by people, and so as like a protective thing, I just pretend something's real when it's not,\" she told [Lyrical Lemonade](https://www.youtube.com/watch?v=-vUlYGknBAE) in August 2026. \"I've had that so many different times.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S16"
+      ],
+      "inference": "Fantasy as protection against disappointment.",
+      "alternative": "The printed quotation drops a repeated \"I just\".",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C13",
+      "claim": "She calls \"Pure\" her most personal song; it came from a 2025 performance where she waited for applause, nobody clapped, and she called the waiting other people's agenda.",
+      "passage": "\"Pure,\" the song she calls her most personal, came from the reverse, an audience that was there and silent. Performing in 2025, she said on the Zach Sang Show, she caught herself waiting to see whether anyone would clap. Nobody did, and she decided the waiting was \"other people's agenda being pushed into mine.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S36"
+      ],
+      "inference": "She rejected applause-seeking as foreign to her, but on a night the applause was withheld; the episode is ambiguous between principle and face-saving.",
+      "alternative": "Reframing a disappointment after withheld approval fits Two or Three as well as Four.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C62",
+      "claim": "She says she wrote \"Pure\" while very depressed and guilty about working in Los Angeles while her mother was ill in London.",
+      "passage": "She wrote the song while \"very depressed,\" she told [iHeartRadio](https://www.youtube.com/watch?v=z1eJ8qdFBVI), and guilty about working in Los Angeles while her mother was ill in London.",
+      "class": "self_report",
+      "source_ids": [
+        "S17"
+      ],
+      "inference": "Her own account of the song's circumstances; it includes guilt toward her mother as well as depression, which keeps the song from being read as Four-only material.",
+      "alternative": "One clause about another person's illness, in her framing, with no medical detail (sensitivity note); caption-only, not second-transcribed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C47",
+      "claim": "She explained the \"I wish I was real\" lyric as existential unreality.",
+      "passage": "Of one line, \"I wish I was real,\" she told [Billboard](https://www.youtube.com/watch?v=FknTvkR0FmY) on October 2, 2026, \"I'm a really existential person and sometimes I just don't feel like a real person.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Feeling unreal fits the Four search for a real self.",
+      "alternative": "She ties it in the same answer to feeling depressed; written during the depression she describes (C62).",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C48",
+      "claim": "Context of the Z100 answer: asked why she felt like a visitor; she cited growing up bigger than her friends.",
+      "passage": "In March 2026 she told [Z100](https://www.youtube.com/watch?v=ybJbtoygyaE), the New York pop station, that she grew up bigger than her friends, and people weren't very nice, \"especially when you're young.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "The prompt and her stated cause.",
+      "alternative": "Weight-based unkindness is a sufficient circumstantial cause of feeling unwanted.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "In March 2026 she told Z100 that because she was never really wanted around she had to make herself needed and of service to people.",
+      "passage": "> \"I always felt like I was never really wanted around. So, I had to make myself like needed. So, I would always try and like, you know, make myself of service to people.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "This is a direct, specific, unprompted first-person description of the Two strategy (earning a place by being needed and helpful), given four times across five months. It is the strongest single piece of evidence against the leading read.",
+      "alternative": "She narrates it as the past ('I've been like that for ages') and as the source of the visitor feeling, then says she learned to stop because it was 'exhausting'. A Four under strain can over-give to secure relationships; that arrow explanation must not be used to dismiss it. A bullied child making herself useful is also a common adaptation that implies no type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "She called the therapist role the biggest theme of her life.",
+      "passage": "> \"I've kind of been that like therapist role for my friends where I've always taken on so much of people's problems because I never thought people would want me otherwise if they didn't need me. So that's genuinely been like the biggest theme throughout my whole life.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "The single strongest first-person statement for the Two alternative.",
+      "alternative": "The printed quotation drops a repeated \"would\". The host follows with his own therapy remark, which is not hers.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C80",
+      "claim": "Interpretation: the Z100 answer is a plain description of the Two strategy and recurs.",
+      "passage": "That is about as plain a description of the Type 2 strategy as anyone gives in an interview, and it wasn't a one-off.",
+      "class": "interpretation",
+      "source_ids": [
+        "S18",
+        "S02",
+        "S23",
+        "S13"
+      ],
+      "inference": "Supported by C48 to C51.",
+      "alternative": "A bullied child making herself useful is a common adaptation that implies no type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "She told SSENSE that she dealt with struggling to keep friends by overcompensating and giving a lot of herself.",
+      "passage": "She told [SSENSE](https://www.ssense.com/en-gb/editorial/music/sienna-spiro-is-wise-beyond-her-years) in November 2025 that she struggled to keep friends as a child, and \"my way of dealing with that was overcompensating and giving a lot of myself to people.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Same strategy, told four months earlier.",
+      "alternative": "Past tense; about childhood.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "Explaining \"Die on This Hill\" for Genius in February 2026, she said she sometimes mirrors the people around her to be kept around.",
+      "passage": "On Genius in February 2026 she said, \"I sometimes mirror the people around me to be kept around.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S23"
+      ],
+      "inference": "Shame (embarrassment), pride as a defence, and mirroring to be kept around place her motivation in the heart/image triad (Two, Three or Four) rather than elsewhere. Mirroring to be kept is closest to Two or Three; it is evidence against an independent, unaffected Four.",
+      "alternative": "'Pride' is used in its everyday sense, not as Enneagram vocabulary; the commentary is a promotional video recorded as the song peaked.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C96",
+      "claim": "In April 2026 she defined being a visitor, on Capital, as knowing you are temporary to somebody and expired to them if you do not show up in a specific way.",
+      "passage": "And in April 2026 she gave [Capital](https://www.youtube.com/watch?v=2o4ftjqGfUM) her definition of the album's title word: \"It's knowing you're temporary to somebody and knowing if you don't show up in that specific way, you're expired to them.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S21"
+      ],
+      "inference": "Her own definition of the album concept is conditional belonging: kept while she keeps showing up. That is the Two's bargain stated in the present tense, after her breakthrough.",
+      "alternative": "Caption-only and not second-transcribed; it is a song explanation in a radio segment and could describe a shared adolescent experience rather than a motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C52",
+      "claim": "She told Zach Sang in June 2026 that she always feels she gives a lot of herself, will do anything for someone she loves, and has been taken advantage of.",
+      "passage": "She tells the giving in the present tense, too. \"I always feel like I give a lot of myself,\" she told Zach Sang in June 2026. \"So if I love somebody I'll do anything.\" It has, she added, \"been taken advantage of a bit in my life.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Present-tense, post-breakthrough giving with the Two's typical complaint of being taken advantage of; it refutes the draft's claim that the helper is only her past.",
+      "alternative": "Generosity toward loved ones and feeling used are common; the statement alone does not show that being needed is the motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C53",
+      "claim": "She told Z100 in March 2026 that, afraid of losing people, she held on so tightly that they left, and had to learn not to because it was exhausting.",
+      "passage": "Afraid of losing people, she held on so tightly that they left, she told Z100, and had to learn not to, \"because it's actually exhausting.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S18"
+      ],
+      "inference": "What she says she changed is clinging, not helping.",
+      "alternative": "Clinging fits Two, Four or Six; caption-only, not second-transcribed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "She told Zach Sang she went through a phase of being completely opposed to relationships because they would end, which left her very closed off and very sad.",
+      "passage": "Then came a phase of shutting down: she was \"completely opposed to being in a relationship\" because it would end, she told Zach Sang, until \"I became very closed off and I became very sad.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S14",
+        "S16"
+      ],
+      "inference": "The withdrawal is told in the past tense and rejected (\"it's really not the way to live\"); AP and Lyrical Lemonade tell it the same way. It is not her present stance.",
+      "alternative": "A closed-off phase after hurt fits a Four's withdrawal or a Two's defensive retreat.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C97",
+      "claim": "She says the album is about getting out of the closed-off phase; its closing song is named for mono no aware, which she glossed for the AP in July 2026 as the gentle sadness of knowing everything beautiful is temporary and loving it more because it will not last.",
+      "passage": "The album, as she tells it, is about getting out of that phase. Its closing song is named for the Japanese phrase _mono no aware_, \"the gentle sadness of knowing everything beautiful is temporary and loving it more because it won't last,\" as she glossed it for the [Associated Press](https://www.youtube.com/watch?v=WFpFT3u6seI) in July 2026.",
+      "class": "self_report",
+      "source_ids": [
+        "S14",
+        "S13",
+        "S25"
+      ],
+      "inference": "The album's stated arc runs from fear of endings and closing off to accepting them; she says the same to Zach Sang (June 2026) and from the Austin City Limits stage (\"this whole album is about this like massive fear of impermanence I had\").",
+      "alternative": "The arc is self-narrated inside the campaign for the album that dramatizes it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C54",
+      "claim": "On July 8, 2026, she told Z100 her new stance on endings: so be it, allow it to end, if you don't want me, don't have me.",
+      "passage": "On July 8, 2026, she put the new stance to [Z100](https://www.youtube.com/watch?v=aJRofzOtKmg): \"So be it. Allow it to end. Like if you don't want me, don't have me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S19"
+      ],
+      "inference": "In context the line rejects her old refusal to enter relationships that might end; it is acceptance, not withdrawal.",
+      "alternative": "It can also be read as self-protection; she follows it with a case for her own value.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C98",
+      "claim": "She followed it by saying she is very loyal and can be very valuable to some people.",
+      "passage": "A moment later: \"I'm a very loyal and I can be very valuable to some people.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S19"
+      ],
+      "inference": "Even her acceptance of endings is framed through her value to others, which fits the Two reading.",
+      "alternative": "Caption-only (Whisper segment ends earlier); a self-affirmation in a fan-facing segment.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "Interpretation: the change she describes runs from clinging to closing off to letting things end; she never describes dropping the helping.",
+      "passage": "So the change she describes runs from clinging, to closing off, to letting things end. The helping is the one part she never describes dropping.",
+      "class": "interpretation",
+      "source_ids": [
+        "S18",
+        "S13",
+        "S14",
+        "S16",
+        "S19",
+        "S21"
+      ],
+      "inference": "Across Z100 (March 2026), Capital (April), Zach Sang (June), AP (July), Z100 (July) and Lyrical Lemonade (August), what she says she changed is clinging and closing off; the helper role is told in present perfect (\"I've been like that for ages\") and present tense.",
+      "alternative": "She might have said elsewhere, in unread sources, that she stopped people-pleasing; none of the opened sources says so.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "She applied only to ELAM, told everyone she had got in, was wait-listed, and sent the school videos every day until it let her in.",
+      "passage": "As a teenager she applied to one school, East London Arts & Music, and was so sure of a place that \"I told everyone I did,\" she told [Rolling Stone UK](https://www.rollingstone.co.uk/music/sienna-spiro-future-of-music-cover-interview-visitor-61532/) in May 2026. She was wait-listed. \"I was sending them videos every day,\" she said, and eventually the school let her in.",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S10"
+      ],
+      "inference": "Told consistently in four interviews from March 2025 to July 2026. The ELAM petition is a concrete, costly-in-face episode of single-minded persistence; the drop-out reason she gives (false promises from an unnamed older producer) is a hinge in her story that she declines to elaborate ('I won't get into it now', Vogue).",
+      "alternative": "Ordinary teenage impulsiveness and an industry that courts teenagers explain the drop-out without a personality account; she had already been signed by a manager (Vogue). The producer is unnamed; treat it as her account, make no allegation about any identifiable person.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C55",
+      "claim": "She left school at 16 on a big producer's promise and later called it quite a foolish reason.",
+      "passage": "She left at 16 because, she told [Principle](https://principlemagazine.com/2025/03/10/sienna-spiro/) in March 2025, \"I was promised by this big producer that something would happen.\" She has not named him, and a year later she told Interview it was \"quite a foolish reason.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S08",
+        "S03"
+      ],
+      "inference": "An impulsive, costly choice on a promise.",
+      "alternative": "The producer is unnamed; her account only. The \"16\" comes from the interviewer's question, which she did not dispute.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C56",
+      "claim": "She describes her pace as \"next thing, next thing, next thing\".",
+      "passage": "Her pace, in the Principle interview: \"I'm like, 'Oh, next thing, next thing, next thing.'\"",
+      "class": "self_report",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Forward drive; it fits the Three alternative.",
+      "alternative": "Said about not pausing to reflect on the EP's reception, which she then did.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C12",
+      "claim": "Her father was her biggest critic for a long time; she laughs about it now that he is a fan.",
+      "passage": "Her father was \"my biggest critic for the longest time,\" she told NYLON, laughing about it now that he is a fan.",
+      "class": "self_report",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Approval-seeking through performance is acknowledged in four 2026 interviews, with a clear source (a critical father) and a clear correction (Fedi). Wanting to prove her father wrong ('See, I told you!') is a recurring note.",
+      "alternative": "Reads as Three (performing for recognition) and as Two (seeking approval); a Four reading would say it was compensation for a deficient sense of self. Young singers commonly over-sing; the correction came from a producer, so it is not purely her own choice.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C57",
+      "claim": "She told Zach Sang she loved the validation and over-sang for compliments.",
+      "passage": "> \"And I really loved that validation. And so I would do the most. I would do every riff, every run.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Approval-seeking through performance, early in her career.",
+      "alternative": "Young singers commonly over-sing; she frames it as corrected by Omer Fedi.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "On a day she was not feeling accomplished she wore a suit to the studio, and called herself \"so stupid sometimes\", laughing.",
+      "passage": "And on a day she wasn't \"feeling accomplished,\" she told Zach Sang, her \"solution to that was wearing a suit\" to the studio. \"I'm actually so stupid sometimes,\" she added, laughing.",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "A self-mocking story about dressing to feel accomplished; light Three evidence.",
+      "alternative": "Told as a joke; it shows a mood fix more than a sustained motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C38",
+      "claim": "In a Vevo DSCVR interview quoted by Hey Alma, she said that for the past year she had felt who she was was not enough, kept trying to be cooler, and went back to why she started music.",
+      "passage": "\"A challenge, I think, for the last year,\" she said in a Vevo DSCVR interview quoted by [Hey Alma](https://www.heyalma.com/?p=51390) in August 2026, was that \"I didn't think who I was, you know, what my identity was, was enough. So I kept trying to be cooler than I was. Like, a north-west London Jewish girl who sings jazz, you know?\" Then she \"went back to why I started doing music.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S26"
+      ],
+      "inference": "A time-bound phase of adapting her image, resolved by returning to her reasons for music; fits Three (adapting) and Four (return to authenticity).",
+      "alternative": "Secondhand via Hey Alma; the original video was not opened, and its date is unknown.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C14",
+      "claim": "She told Audacy in July 2026 that her 2024 single \"Back to Blonde\" was not an honest song.",
+      "passage": "She told [Audacy](https://www.youtube.com/watch?v=veNH3JQNKR8) in July 2026 that her 2024 single \"Back to Blonde\" was \"not an honest song.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S22",
+        "S31"
+      ],
+      "inference": "The deficiency language ('was enough') and the return to an 'authentic' self are the Four storyline; the episode itself (adopting a cooler, more produced style that peers were doing) is what a Three does. The correction, not the adaptation, is what she treats as her real self.",
+      "alternative": "Commercially, the jazz-and-soul turn is what worked ('Die on This Hill'); a Three who followed results would tell the same story. The Vevo quotation is secondhand via Hey Alma.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C100",
+      "claim": "Her '60s look replaced baggy clothes she wore because she hated being seen; she says her hair felt like armour and made her feel more herself though it looked less like her.",
+      "passage": "Her '60s look replaced baggy clothes she wore, she told Rolling Stone UK, because she hated the idea of being looked at. \"My hair felt like armour. It made me feel more myself, even though it looked less like me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S15"
+      ],
+      "inference": "Identity constructed through aesthetic: a look that felt more like herself; usable for Four (a self she had to build) and Three (an image).",
+      "alternative": "She also says the uniform \"made me feel really secure\", which a Six reading could use; body image is a circumstance, not a motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "Her full-take vocal method began, she told the AP, from being a bit lazy; she now credits the full-take, tape-recorded jazz and soul records she grew up on.",
+      "passage": "She records whole vocal takes rather than stitching lines together, and she told the AP that \"originally it came from me being a bit lazy to be honest.\" Now she credits the '60s and '70s records she grew up on, cut to tape in full takes.",
+      "class": "self_report",
+      "source_ids": [
+        "S14"
+      ],
+      "inference": "A candid detail that cuts against a purely romantic authenticity story; it shows she is willing to deflate her own myth in interviews.",
+      "alternative": "The method is still presented as artistic principle elsewhere (S03, S01); both can be true.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "Every first-person source dates from March 2025 to October 2026, nearly all from EP and album promotion.",
+      "passage": "Every first-person source here dates from March 2025 to October 2026, nearly all of it from promoting an EP and an album.",
+      "class": "observed",
+      "source_ids": [
+        "S08",
+        "S15"
+      ],
+      "inference": "Dates of the earliest (Principle, 2025-03-10) and latest (Billboard News, 2026-10-02) first-person sources.",
+      "alternative": "New interviews will extend this range.",
+      "durability": "time_sensitive",
+      "review_trigger": "At the next refresh, update the date range of first-person sources."
+    },
+    {
+      "id": "C28",
+      "claim": "Her manager Miriam Maslin, who has managed her since she was 16, told Music Week the campaign focused on building a world that feels honest and long-term.",
+      "passage": "Her manager, Miriam Maslin, who had managed her since she was 16, told [Music Week](https://www.musicweek.com/management/read/the-biggest-hope-is-longevity-manager-miriam-maslin-on-sienna-spiro-s-visitor-campaign/094416) in July 2026 that they had \"focused on building a world that feels honest and long-term rather than chasing quick moments.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "The only sustained named testimony. It confirms a close, trusting relationship (which Spiro calls 'my teammate and my equal') and shows that the authenticity she voices is also an explicit strategy.",
+      "alternative": "Maslin is an interested party speaking on release day; her account is about the career, not Spiro's inner life.",
+      "durability": "time_sensitive",
+      "review_trigger": "If Spiro changes management or Maslin speaks again about her, update this claim."
+    },
+    {
+      "id": "C60",
+      "claim": "Interpretation: melancholy and candor are her genre's currency, which weakens them as evidence of motive.",
+      "passage": "Melancholy and candor are her genre's currency. That doesn't make hers false. It makes them weak evidence of motive.",
+      "class": "interpretation",
+      "source_ids": [
+        "S11",
+        "S03",
+        "S27"
+      ],
+      "inference": "Follows from C28 and the \"sad girl singer\" framing of her coverage (Interview magazine headline).",
+      "alternative": "Incentives can coincide with real temperament.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "Rolling Stone UK reported her ADHD diagnosis, and she tied it to the visitor feeling: struggling to keep up with people, losing people, being temporary.",
+      "passage": "Rolling Stone UK reported her ADHD diagnosis, and she tied it to \"The Visitor\": \"struggling to keep up with people and being [too] aware of everything, you end up losing people – and you're temporary.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Her own non-type explanation of the visitor feeling; it is reported, not used as type evidence.",
+      "alternative": "The writer frames the diagnosis; the quotation is hers.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C101",
+      "claim": "She told Notion that, neurodivergent and undiagnosed as a child, she kept hearing that she was dramatic, emotional and sad.",
+      "passage": "Undiagnosed as a child, she told Notion, she kept hearing, \"You're so dramatic, you're so emotional, you're so sad!\"",
+      "class": "self_report",
+      "source_ids": [
+        "S04"
+      ],
+      "inference": "A second non-type explanation she offers for her childhood feelings.",
+      "alternative": "Self-report about childhood; no third-party account.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C81",
+      "claim": "The article does not infer type from health or health from type.",
+      "passage": "Nothing here reads a type from her health, or her health from a type.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S04",
+        "S17"
+      ],
+      "inference": "An explicit limit on inference.",
+      "alternative": "None.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "Moment (September 2, 2026) wrote that she and other new stars were given the nepotism-baby and industry-plant labels, which it defined as implying success purchased through connections or money.",
+      "passage": "In September 2026, [Moment](https://momentmag.com/jewish-nepo-baby-olympics/) wrote that she and other new stars had been given \"the typical asterisks that come with sudden fame—nepotism baby, industry plant,\" labels implying success \"purchased\" through connections or money.",
+      "class": "disputed",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "Relevant as a public framing the article must handle fairly and as the counter-case to her self-presentation of hard-won authenticity. It is not evidence about her motivation.",
+      "alternative": "Her privilege is real (C02); her own account credits a TikTok-discovered manager and a publishing deal after her breakthrough. Attribute each label to who used it; do not adopt 'industry plant' in the article's voice.",
+      "durability": "unresolved",
+      "review_trigger": "If Spiro addresses the nepotism or industry-plant framing, or if new reporting documents family financing or connections behind her career, update this claim and add her response."
+    },
+    {
+      "id": "C102",
+      "claim": "The Moment writer, comparing her with Amy Winehouse in a passage that called Visitor a solid debut, wrote that she seems to emulate emotional turbulence without having experienced it.",
+      "passage": "Comparing her with Amy Winehouse, in a passage that also called _Visitor_ \"a solid debut,\" the same critic added, \"it feels like Spiro emulates the emotional turbulence without having experienced it herself.\"",
+      "class": "disputed",
+      "source_ids": [
+        "S27"
+      ],
+      "inference": "One critic's impression, set in its comparative and mixed-to-positive context.",
+      "alternative": "Her disclosed experiences (bullying she says no one believed, depression in 2025) bear on \"without having experienced it\".",
+      "durability": "unresolved",
+      "review_trigger": "If she or other critics answer the \"emulates\" remark, or if Moment revises it, update this claim."
+    },
+    {
+      "id": "C103",
+      "claim": "Interpretation: the Moment remark is the sharpest form of the counter-case that her sadness is style, and her disclosed experiences bear on it.",
+      "passage": "That impression is the sharpest form of the counter-case that her sadness is style; the bullying and depression she has described bear on it.",
+      "class": "interpretation",
+      "source_ids": [
+        "S27",
+        "S05",
+        "S17"
+      ],
+      "inference": "Attributes the counter-case to one critic's remark rather than to the nepotism labels.",
+      "alternative": "Her disclosures are self-report and do not settle whether her songs reflect them.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C63",
+      "claim": "The Austin American-Statesman used the nepo-baby label playfully in a rave of her October 9, 2026 Austin City Limits set, finding her heart on her sleeve.",
+      "passage": "The [Austin American-Statesman](https://www.statesman.com/entertainment/music/article/sienna-spiro-acl-fest-review-22470856.php) used the label playfully, headlining a rave of her October 9, 2026 Austin City Limits set \"one of ACL Fest's all-time best nepo baby sets\" and finding her \"heart is on her sleeve.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S28"
+      ],
+      "inference": "A positive eyewitness review that treats her songwriting as heartfelt; it is not a detractor and offers no evidence that family money bought her career.",
+      "alternative": "The headline uses the label for attention; the body is a rave.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C64",
+      "claim": "Neither piece shows money or connections bought her career, and no response from her has been found.",
+      "passage": "Neither piece shows that money or connections bought her career, and as of October 14, 2026, no response from her has been found.",
+      "class": "disputed",
+      "source_ids": [
+        "S27",
+        "S28"
+      ],
+      "inference": "Both pieces were read in full; neither reports evidence of financing. No statement from her was found in the opened sources.",
+      "alternative": "Her privilege is real; absence of a response may simply mean no one has asked.",
+      "durability": "unresolved",
+      "review_trigger": "If she addresses the nepotism or industry-plant framing, or new reporting documents family financing or connections behind her career, update this sentence and the parents FAQ."
+    },
+    {
+      "id": "C104",
+      "claim": "She told Interview that she found her management from posting one video.",
+      "passage": "Her own account of her start is TikTok: she found her management, she told Interview, \"from posting one video.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03",
+        "S31"
+      ],
+      "inference": "Her own on-record account of how she was found, set beside the nepotism framing.",
+      "alternative": "Self-report; family connections could also have helped in ways not on record.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C65",
+      "claim": "Metadata: nepotism framing and absence of evidence or response, dated.",
+      "passage": "In September 2026, Moment wrote that she and other new stars had been given the \"nepotism baby\" and \"industry plant\" labels, which it said imply success purchased through connections or money. No reporting found by October 14, 2026 shows that family money or connections bought her career, and no public response from her was found.",
+      "class": "disputed",
+      "source_ids": [
+        "S27",
+        "S28"
+      ],
+      "inference": "Same as C64, dated for the FAQ.",
+      "alternative": "As C64.",
+      "durability": "unresolved",
+      "review_trigger": "Same trigger as C64."
+    },
+    {
+      "id": "C118",
+      "claim": "Metadata: she has said she found her manager by posting a video.",
+      "passage": "She has said she found her manager by posting a video.",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Parents FAQ: her own account of her start.",
+      "alternative": "Self-report.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C31",
+      "claim": "As of October 14, 2026, the people who had described her on record were her manager, critics and her grandmother Sheila, who said on a Capital segment in April 2026 that she was not a nightmare but had her own opinion on most things.",
+      "passage": "As of that date, the people who had described her on record were her manager, critics who saw single shows, and her grandmother, Sheila, who told a Capital segment in April 2026 that Sienna was \"not a nightmare, but she had her own personal opinion on most things.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S21",
+        "S11",
+        "S12"
+      ],
+      "inference": "The only family testimony in the record; it is light and affectionate and fits her self-description as headstrong.",
+      "alternative": "No speaker labels; the attribution follows the host's question to \"Grandma Sheila\". A playful on-air remark.",
+      "durability": "time_sensitive",
+      "review_trigger": "When testimony from a sibling, classmate or long-time collaborator appears, revise this sentence."
+    },
+    {
+      "id": "C82",
+      "claim": "No sibling, school friend or longtime collaborator has spoken about her.",
+      "passage": "No sibling, school friend or longtime collaborator had spoken.",
+      "class": "observed",
+      "source_ids": [
+        "S11",
+        "S21",
+        "S12"
+      ],
+      "inference": "Across 41 logged sources, the only testimony is her manager, critics and her grandmother.",
+      "alternative": "Absence in the record, not proof of absence.",
+      "durability": "time_sensitive",
+      "review_trigger": "When testimony from a sibling, classmate or long-time collaborator (e.g. Omer Fedi) appears, add it and revise."
+    },
+    {
+      "id": "C84",
+      "claim": "Type 2 case: her most explicit self-description, repeated in at least five interviews from November 2025 to June 2026, is that she made herself needed because people would not want her otherwise; in 2026 she still described conditional belonging and giving.",
+      "passage": "The Two case rests on her most explicit self-description, returned to in at least five interviews between November 2025 and June 2026: she made herself needed because she didn't think people would want her otherwise. It is not only history. In 2026 she still defined the visitor feeling as being \"expired\" unless she keeps showing up, and said she gives \"a lot of myself.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S23",
+        "S18",
+        "S21",
+        "S13"
+      ],
+      "inference": "SSENSE (November 2025), Genius (February 2026), Z100 (March 2026), Capital (April 2026) and Zach Sang (June 2026) each describe earning a place by giving, showing up or mirroring; the core belief (\"never thought people would want me otherwise if they didn't need me\") is the Two's, stated in her words.",
+      "alternative": "A learned response to weight-based exclusion in childhood could produce the same strategy in another type; all five are promotional interviews.",
+      "durability": "unresolved",
+      "review_trigger": "Re-assess at the 2026-12-01 review, after the February 7, 2027 Grammy ceremony, or when any settle signal in open_case.settle_signals appears."
+    },
+    {
+      "id": "C115",
+      "claim": "Type 2 strain: when the person she wants is out of reach, she describes waiting, imagining and writing, not giving more, and says it has happened many times.",
+      "passage": "What strains it is where giving isn't possible. When the person she wants is out of reach, she doesn't describe doing more for them. She waits, imagines them into the doorway and writes the song, and says it has happened \"so many different times.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S13",
+        "S16",
+        "S03",
+        "S24"
+      ],
+      "inference": "The New York man (2025), \"You Stole the Show\" (2025) and \"so many different times\" (August 2026) show a repeated longing response the Two reading predicts less well.",
+      "alternative": "Twos also pine for unavailable people; with no way to give, waiting may be the only option open to any type.",
+      "durability": "unresolved",
+      "review_trigger": "Re-assess at the 2026-12-01 review, after the February 7, 2027 Grammy ceremony, or when any settle signal in open_case.settle_signals appears."
+    },
+    {
+      "id": "C83",
+      "claim": "Type 4 case: the longing pattern, sadness as temperament, envy of her own imagination, feeling unreal except when singing, and a look that made her feel more herself.",
+      "passage": "The Four case rests on that longing and on what singing gives her. She calls sadness her temperament, envies her own imagination and sometimes doesn't feel like a real person except when she sings, a concern the Two reading predicts less well. Even the '60s hair she calls armour made her feel \"more myself, even though it looked less like me.\"",
+      "class": "interpretation",
+      "source_ids": [
+        "S06",
+        "S24",
+        "S13",
+        "S15",
+        "S01"
+      ],
+      "inference": "Identity and reality concerns (\"I just don't feel like a real person\", October 2026; singing as \"the way I felt like a real person\", June 2026) are closer to the Four's core fear than to the Two's.",
+      "alternative": "Numbness and unreality also follow from the depression and ADHD she has disclosed; melancholy is her genre's currency.",
+      "durability": "unresolved",
+      "review_trigger": "Re-assess at the 2026-12-01 review, after the February 7, 2027 Grammy ceremony, or when any settle signal in open_case.settle_signals appears."
+    },
+    {
+      "id": "C111",
+      "claim": "Type 4 strain: she describes her feelings as shared, not as setting her apart; the unreality has health confounds; most definitions of the visitor feeling concern conditional belonging.",
+      "passage": "Against it, she describes her feelings as shared, not as what sets her apart. Sadness is \"a very normal, human way to be,\" and asked by [Euphoria](https://www.euphoriazine.com/blog/2026/08/interviews-sienna-spiro/) in August 2026 whether she sees herself as a visitor in life generally, she said, \"We all are visitors in a way, aren't we?\" The unreality comes with numbness and depression she has disclosed, and most of her definitions of the visitor feeling are about being kept while useful.",
+      "class": "interpretation",
+      "source_ids": [
+        "S06",
+        "S09",
+        "S13",
+        "S17",
+        "S21",
+        "S23",
+        "S18"
+      ],
+      "inference": "The Four's marker of feeling fundamentally apart is missing from her self-description (Vogue, July 2026; Euphoria, August 2026).",
+      "alternative": "Promotional interviews reward relatability, so \"shared\" framing may be format.",
+      "durability": "unresolved",
+      "review_trigger": "Re-assess at the 2026-12-01 review, after the February 7, 2027 Grammy ceremony, or when any settle signal in open_case.settle_signals appears."
+    },
+    {
+      "id": "C112",
+      "claim": "Type 3 case and counter: drive, the cooler phase, a disowned single and an image-conscious look; against it, volunteered sadness and rejecting applause, though on a night it did not come.",
+      "passage": "The Three case is the drive, from the school campaign to the suit, plus the cooler phase, a single she now calls dishonest, and a look that is also an image. Against it, she volunteers sadness and wrote off applause as \"other people's agenda\" on a night it didn't come, which could be a save as easily as a principle.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S13",
+        "S26",
+        "S22",
+        "S06"
+      ],
+      "inference": "Three remains live on behavior; the counter-evidence is costless and ambiguous.",
+      "alternative": "Drive is common to ambitious people of any type.",
+      "durability": "unresolved",
+      "review_trigger": "Re-assess at the 2026-12-01 review, after the February 7, 2027 Grammy ceremony, or when any settle signal in open_case.settle_signals appears."
+    },
+    {
+      "id": "C85",
+      "claim": "Type 3 case and its limit.",
+      "passage": "Those choices have cost her nothing measurable, though, and they fit the brand her manager describes.",
+      "class": "interpretation",
+      "source_ids": [
+        "S11",
+        "S22"
+      ],
+      "inference": "Why Three stays live: her authenticity choices are not yet costly.",
+      "alternative": "A later costly choice for or against reach would discriminate.",
+      "durability": "unresolved",
+      "review_trigger": "Re-assess when she explains her second album."
+    },
+    {
+      "id": "C116",
+      "claim": "Interpretation: Three ranks third because the fear she names is being unwanted, not failing.",
+      "passage": "Three ranks third because what she says she fears is being unwanted, not failing.",
+      "class": "interpretation",
+      "source_ids": [
+        "S18",
+        "S05"
+      ],
+      "inference": "Her named fear (Z100, March 2026) is relational; she told NYLON that fixating on numbers and people liking her would make her miserable.",
+      "alternative": "Self-report of fears can understate achievement anxiety.",
+      "durability": "unresolved",
+      "review_trigger": "Re-assess at the 2026-12-01 review, after the February 7, 2027 Grammy ceremony, or when any settle signal in open_case.settle_signals appears."
+    },
+    {
+      "id": "C33",
+      "claim": "Type 6 set aside: Variety heard deeply held anxieties and she calls herself an over-thinker and a control freak, but the fears she names are shame-family (rejection, embarrassment, being temporary) rather than safety and support.",
+      "passage": "The Six case is real: Willman heard a writer \"motivated to write songs by some deeply held anxieties,\" and she calls herself \"quite an over-thinker\" and \"a control freak.\" But the fears she names (rejection, embarrassment, being temporary to people) are the heart triad's shame more than the Six's fear for safety and support.",
+      "class": "interpretation",
+      "source_ids": [
+        "S12",
+        "S14",
+        "S23",
+        "S24",
+        "S41"
+      ],
+      "inference": "Names the strongest Six evidence and sets it aside on the emotion she names (embarrassment, rejection), not on the producer's promise.",
+      "alternative": "She says her '60s uniform \"made me feel really secure\" and has trusted one manager since 16; a Six reading could use both.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C105",
+      "claim": "Type 9 set aside: she mirrors people to be kept around, which points to attachment and approval rather than merging for peace, and she rarely mutes her opinions.",
+      "passage": "Her numbness and mirroring suggest Nine, but she mirrors people, she said, \"to be kept around,\" the Two's bargain rather than a Nine's merging for peace, and she rarely mutes her opinions.",
+      "class": "interpretation",
+      "source_ids": [
+        "S13",
+        "S23",
+        "S21",
+        "S06"
+      ],
+      "inference": "The stated purpose of the mirroring (Genius, February 2026) discriminates; her grandmother and Vogue describe a strongly opinionated person.",
+      "alternative": "She defers to trusted collaborators (Omer Fedi), which a Nine reading could use.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C86",
+      "claim": "Verdict: Two leads on the pattern she calls the theme of her life and still describes in 2026; Four is close on longing and unreality; both come from album promotion.",
+      "passage": "Two leads because the pattern she calls the theme of her whole life, making herself needed so people will keep her, is the Two's, and she still described it that way in 2026. Four is close because the pattern that appears wherever she can't give, longing for someone absent and feeling unreal except when she sings, is the Four's. Both come from interviews promoting an album about exactly these feelings, so neither can carry the weight yet.",
+      "class": "interpretation",
+      "source_ids": [
+        "S18",
+        "S13",
+        "S21",
+        "S16",
+        "S15"
+      ],
+      "inference": "The lead rests on explicit, repeated, present-tense self-description, not on tense asymmetry; the rival rests on the longing and unreality pattern.",
+      "alternative": "If testimony or behavior shows withdrawal into longing as her response when friendships cool, Four would lead.",
+      "durability": "unresolved",
+      "review_trigger": "Re-assess at the 2026-12-01 review."
+    },
+    {
+      "id": "C114",
+      "claim": "Settle signal 1: she already says she gives more than she gets.",
+      "passage": "She already says she gives more than she gets, so the test is what she does next.",
+      "class": "self_report",
+      "source_ids": [
+        "S13",
+        "S21"
+      ],
+      "inference": "Notes what the record already shows for the friendship signal (June and April 2026).",
+      "alternative": "Her own framing; a friend's account would weigh more.",
+      "durability": "unresolved",
+      "review_trigger": "Re-assess at the 2026-12-01 review, after the February 7, 2027 Grammy ceremony, or when any settle signal in open_case.settle_signals appears."
+    },
+    {
+      "id": "C87",
+      "claim": "Settle signal: second album; she has said she would love to make upbeat songs.",
+      "passage": "She told Interview in March 2026 she \"would love to make some upbeat songs.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S03"
+      ],
+      "inference": "Grounds the second-album signal in her own words.",
+      "alternative": "A passing wish in a dressing-room interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C113",
+      "claim": "Settle signal 2: hoping songs help listeners will not count because she already says it.",
+      "passage": "Hoping songs help listeners won't count; she already says that.",
+      "class": "self_report",
+      "source_ids": [
+        "S04",
+        "S19"
+      ],
+      "inference": "Notion (November 2025: \"and then help other people\") and Z100 (July 2026: \"I hope there's a song in there for everyone\").",
+      "alternative": "Routine promotional language for any artist.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C88",
+      "claim": "Grammy schedule: nominations November 16, 2026; ceremony February 7, 2027.",
+      "passage": "starting with the Grammys: nominations on November 16, 2026, and the ceremony on February 7, 2027, per the [Recording Academy](https://www.grammy.com/news/2027-grammys-show-air-date-nominations-announced/).",
+      "class": "observed",
+      "source_ids": [
+        "S39"
+      ],
+      "inference": "Official schedule for the next dated catalyst.",
+      "alternative": "Her nomination is not established.",
+      "durability": "time_sensitive",
+      "review_trigger": "On or after November 16, 2026, record whether she was nominated; after February 7, 2027, record the outcome, review how she discussed it against settle signal 3, and rewrite the dates in the past tense."
+    },
+    {
+      "id": "C106",
+      "claim": "Closing: she told Euphoria she has seen herself as a visitor throughout her life, and called making herself needed the biggest theme of her life.",
+      "passage": "She told Euphoria she has seen herself as a visitor \"throughout my life,\" and she has called making herself needed its biggest theme.",
+      "class": "self_report",
+      "source_ids": [
+        "S09",
+        "S18"
+      ],
+      "inference": "Two dated self-descriptions that stay true however the case settles.",
+      "alternative": "Both are promotional-cycle statements.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C35",
+      "claim": "Asked by Zach Sang why she does it if not for the applause, she said, \"I have to do it.\"",
+      "passage": "And when Zach Sang asked why she sings, if not for the applause, she didn't reach for a theory. \"I have to do it,\" she said.",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Music as necessity and as the place she feels real and purposeful is consistent with Four's search for significance through self-expression.",
+      "alternative": "A conventional artist's statement; Threes and Twos say the same about vocation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C92",
+      "claim": "Metadata: description.",
+      "passage": "Sienna Spiro calls herself 'naturally sad,' but says making herself needed is the biggest theme of her life.",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S18"
+      ],
+      "inference": "Vogue (naturally sad) and Z100 (biggest theme).",
+      "alternative": "Paraphrase of two quotations.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C90",
+      "claim": "Metadata: Type 4 FAQ (closest rival).",
+      "passage": "Yes. Type 4 is the closest rival to the leading read. She calls sadness her temperament, says she imagines absent people into being and is \"jealous of my own imagination,\" and told Billboard in October 2026 that \"sometimes I just don't feel like a real person.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06",
+        "S24",
+        "S15",
+        "S16",
+        "S13"
+      ],
+      "inference": "Mirrors the body's Four case in self-reported terms.",
+      "alternative": "See C83 and C111.",
+      "durability": "unresolved",
+      "review_trigger": "Re-assess at the 2026-12-01 review, after the February 7, 2027 Grammy ceremony, or when any settle signal in open_case.settle_signals appears."
+    },
+    {
+      "id": "C117",
+      "claim": "Metadata: Type 4 FAQ strain.",
+      "passage": "What strains the reading is that she describes those feelings as shared rather than as what sets her apart, and most of her definitions of feeling like a visitor are about being kept only while she keeps showing up for people.",
+      "class": "interpretation",
+      "source_ids": [
+        "S06",
+        "S09",
+        "S21",
+        "S23",
+        "S18"
+      ],
+      "inference": "Mirrors the body's Four strain.",
+      "alternative": "See C111.",
+      "durability": "unresolved",
+      "review_trigger": "Re-assess at the 2026-12-01 review, after the February 7, 2027 Grammy ceremony, or when any settle signal in open_case.settle_signals appears."
+    },
+    {
+      "id": "C89",
+      "claim": "Metadata: the settle-signal FAQ, dated.",
+      "passage": "As of October 14, 2026, five things: what she does in the next friendship that cools after her fame; how she explains her second album; how she takes a major award result, starting with the 2027 Grammys (nominations November 16, 2026; ceremony February 7, 2027); a first account from someone who knew her before 2022; and a choice where staying true to a feeling costs her reach or approval.",
+      "class": "interpretation",
+      "source_ids": [
+        "S39",
+        "S03",
+        "S13"
+      ],
+      "inference": "Mirrors open_case.settle_signals.",
+      "alternative": "Signals may be overtaken by events.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update at the 2026-12-01 review and after each dated catalyst."
+    },
+    {
+      "id": "C91",
+      "claim": "Metadata: Great Expectation FAQ.",
+      "passage": "She told the Zach Sang Show in June 2026 that she wrote it about waiting, while living in New York in 2025, for a man who had promised to visit and never came. She has called that situation \"not healthy\" and has not named him.",
+      "class": "self_report",
+      "source_ids": [
+        "S13"
+      ],
+      "inference": "Same evidence as C21, C24 and C78.",
+      "alternative": "Her account only.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 2,
+    "confidence": "low",
+    "for_claim_ids": [
+      "C09",
+      "C50",
+      "C48",
+      "C51",
+      "C22",
+      "C96",
+      "C52",
+      "C80",
+      "C84",
+      "C98"
+    ],
+    "against": "(1) The longing pattern, repeated across 2025-26: when the person she wants is out of reach she waits, imagines them present and writes the song (the New York man, C21, C79; 'You Stole the Show', C94, C45; 'so many different times', C44), not the Two's move of giving more (C115). (2) Identity and reality concerns closer to the Four's core fear: singing as 'the way I felt like a real person' and 'I just don't feel like a real person' (C40, C47), and a look that made her feel 'more myself' (C100). (3) She presents sadness as temperament (C06) and leads with her own feelings, though that is partly the format of promotional interviews about confessional songs. (4) Confounds on the Two side: the helper strategy began as a response to weight-based exclusion in childhood (C48), a circumstance that could teach any type to make itself useful; every statement is from album or EP promotion (C59, C60). (5) Drive and image work keep Three live (C03, C17, C38, C14, C57).",
+    "alternative_type": 4,
+    "alternative_case": "Type 4 is the closest rival. It rests on the longing pattern (C21, C44, C94, C45, C115), sadness as temperament (C06), unreality except when singing (C40, C47) and an aesthetic self she had to construct (C100) (C83). What strains it: she describes her feelings as shared, not as setting her apart ('a very normal, human way to be', C93; 'We all are visitors in a way, aren't we?', C111); the unreality comes with disclosed numbness, depression and ADHD (C26, C62); and most of her definitions of the visitor feeling are about being kept while useful (C96, C22, C09). Type 3 is also live: the ELAM campaign, over-singing for validation, the suit, the 'cooler' phase and a single she calls dishonest (C03, C57, C17, C38, C14); against it, she volunteers sadness and rejected applause on a night it did not come, both costless (C112, C85); her named fear is being unwanted, not failing (C116). Types 6 and 9 were tested and set aside. Six: Variety's 'deeply held anxieties', over-thinking and control (C33), but the fears she names are rejection, embarrassment and being temporary, shame rather than safety (C110, C39). Nine: numbness and mirroring, but she mirrors 'to be kept around' and is strongly opinionated (C105).",
+    "discriminator": "None that is defensible yet. Two versus Four turns on what she does when someone she cares about pulls back. In friendships she describes the Two move in the present tense: initiating, showing up, giving more than she gets and feeling taken advantage of (C96, C52, C114). With unavailable romantic interests she describes the Four move: waiting, idealizing and turning the absence into a song (C21, C44, C94). The draft's tense test (helping past, withdrawal present) was wrong: the closed-off withdrawal is told as a past phase she rejected (C10, C97), 'if you don't want me, don't have me' is acceptance of endings followed by a case for her value (C54, C98), and the giving is present tense (C52). All of it is self-narrated in promotion for an album about exactly these feelings. A friend's or sibling's account of her in a cooling friendship would separate the readings. For Four versus Three, the discriminator is a choice where her own feeling costs her reach or approval; the examples so far (disowning 'Back to Blonde', rejecting applause) cost her nothing measurable (C85).",
+    "unexplained": "Her drive and competitiveness (C03, C55, C17) are not well explained by Two or Four. Her accounts of the 'Die on This Hill' arrangement differ about who was right (Vogue says producer Omer Fedi was correct; NYLON has her overruling someone who liked an acoustic version), so the edit no longer prints either as a pattern. She says both that saying things aloud jinxes them and that she manifests things. Her full-take method began as laziness and became principle (C20). The cheerful, joking register of her interviews fits the Two reading better than her self-description as naturally sad and numb (C06, C40)."
+  },
+  "profile_format": "open_case",
+  "open_case": {
+    "reason": "Sienna Spiro turned 21 on September 28, 2026. She has posted singing videos on TikTok since 2021 and released her first single in May 2024, but her breakthrough, 'Die on This Hill', came on October 10, 2025, and her debut album on July 3, 2026. Every first-person interview opened (about 30, March 2025 to October 2026) belongs to the EP and album promotion cycles, in which the same stories recur and confessional authenticity is both her genre's currency and her manager's stated strategy. The only named testimony comes from her manager (an interested party), her grandmother in a radio segment, and critics who saw single shows. No sibling, school friend, classmate or long-time collaborator has spoken about her. Forty-one sources were logged (39 opened), and Types 2, 3, 4, 6 and 9 were tested. The leading read (Two) and the strongest alternative (Four) both have direct, repeated first-person support; the behavior that would separate them, how she acts when a friendship cools, described by someone other than her, is not yet on record.",
+    "live_alternatives": [
+      4,
+      3
+    ],
+    "settle_signals": [
+      "A friendship that cools after her fame. She already says she gives more than she gets (June and April 2026). Does she keep initiating, being the 'therapist' friend and feeling used when it is not returned (Two), or pull back, grieve privately and write about being temporary (Four)? An account from the friend would count for more than hers.",
+      "Her second album. A brighter record she explains as what audiences wanted favors Three; one she calls truer to herself at a cost in reach favors Four; one built around a costly choice for one person, such as handing a collaborator the spotlight, favors Two. Hoping the songs help listeners does not count; she already says that.",
+      "A major award result, starting with the 2027 Grammys (nominations November 16, 2026; ceremony February 7, 2027). Win or snub, does she treat it as proof and name the next target (Three), say it does not feel real or that she has been misread (Four), or talk about who wants her around (Two)? Thanking her team does not count.",
+      "The first on-record account from someone who knew her before 2022 (a sister, an ELAM classmate, a teacher or an early collaborator) describing her in a group: the friend who looks after everyone and makes the plans (Two), the intense one who feels apart (Four), or the driven one working the room (Three).",
+      "A cost she pays for a feeling, such as keeping a sad set when a festival crowd wants the hits or turning down a lucrative feature that is not her: paying it favors Four; dropping it when the numbers dip favors Three; paying it to protect a friend or collaborator favors Two."
+    ],
+    "next_review": "2026-12-01"
+  }
+}

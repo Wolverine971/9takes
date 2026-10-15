@@ -1,0 +1,1121 @@
+{
+	"schema_version": 3,
+	"content_sha256": "5fe01757f3129c3ba0c2380b90ffbb649ddda0f24114425964d512405f85db8e",
+	"evidence_sha256": "7463f6e478187c8a28ba3c01c0511669f4f8d885f4de6ccc7da49335fa6e8481",
+	"status": "revise",
+	"findings": [
+		{
+			"id": "verify2-01",
+			"severity": "minor",
+			"passage": "Since at least 2017 he has said that being himself in public is harder than being someone else.",
+			"problem": "The 2026 half is direct (Interview: \"braver ... to be someone else\"; GQ: \"easier ... than be me\"). But the 2017 MTV source shows him guarding the gap between Connor and himself, which he framed as protecting fans' \"illusion.\" He does not say there that being himself is harder. \"He has said\" turns a 2017 behaviour, and his reason for it, into a statement he first made explicitly in 2026.",
+			"acceptance_test": "The sentence separates the two dates, e.g. \"Since at least 2017 he has kept a distance between his characters and himself, and in 2026 he said outright that being himself in public is harder.\" Alternatively it keeps \"he has said\" only for 2026. C68 matches the new wording."
+		},
+		{
+			"id": "verify2-02",
+			"severity": "minor",
+			"passage": "To Cultured in 2026: \"I think, unfortunately, I'm doomed to do this.\"",
+			"problem": "In the Cultured Q&A the line comes inside a recollection of deciding to move to New York (\"I kind of said, 'I think, unfortunately, I'm doomed to do this.'\"). Cultured's own lede presents it as current, so the use is defensible. But \"his account of the job won't hold still\" reads it as a 2026 stance without the recollection.",
+			"acceptance_test": "The sentence either signals the recollection (e.g. \"To Cultured in 2026, remembering the teenager who left for New York, he said...\") or quotes Cultured's present-tense framing (\"Unfortunately,\" he relents, \"I'm doomed to do this\"). C91 records which."
+		},
+		{
+			"id": "verify2-03",
+			"severity": "minor",
+			"passage": "he \"went maybe six, eight months without auditioning for anything 'cause I felt too incapable.\"",
+			"problem": "Machine transcription of the BUILD audio is split on one word. whisper.cpp medium.en has \"'cause,\" while the researcher's other transcription and my independent whisper.cpp small.en pass both have \"because.\" The meaning is unchanged, but the printed contraction rests on the minority reading, and the evidence says \"both local transcriptions agree.\"",
+			"acceptance_test": "Someone listens at about 10:40 of 1SyXL1F43Qg and prints what he says, or the quote prints \"because\" (two of three transcriptions). C07's note records the variance."
+		},
+		{
+			"id": "verify2-04",
+			"severity": "minor",
+			"passage": "To Cultured, his first answer was, \"You know, there really isn't a lot of thought.\" Pressed, he said it is \"very easy to get swept up in noise,\" which makes it hard to \"hear myself think, and feel what is right for me.\"",
+			"problem": "This is a pacing and redundancy problem, not a factual one. \"Two years out of view\" carries about eleven quote fragments in two paragraphs. The same fragments (\"noise,\" \"stamina,\" \"hear myself think,\" \"public gaze\"/\"whoever you wanted to be\") are quoted again in the Six and Nine sections, so three sections cycle one small set of quotes. \"Of these episodes\" then refers to episodes the section never lists. This keeps the writing from rising above a solid 8.",
+			"acceptance_test": "Each of those fragments is quoted once in the body, and later sections refer back by paraphrase (\"the noise he described,\" \"the public gaze\"). The gap section keeps every reason category (recalibrate/stamina, public gaze, financing, no thought, noise, overwhelm, control) with no more than about six quoted fragments. \"Of these episodes\" names them, e.g. \"Of the 2018 exit, the 2021 refusals and move home, and the 2024-26 quiet\". No source, attribution or date is lost."
+		}
+	],
+	"research_tasks": [],
+	"claim_checks": [
+		{
+			"claim_id": "C01",
+			"verdict": "supported",
+			"reason": "IBDB (S31, reopened via r.jina.ai) gives \"Born Jan 05, 1992 Gahanna, Ohio, USA\"; Another Man (S01) says he was born and raised in Gahanna. Body prints only the year, matching the evidence."
+		},
+		{
+			"claim_id": "C02",
+			"verdict": "supported",
+			"reason": "PBS transcript (S03, reopened) has the family watching \"Singin' in the Rain\" \"on repeat\" for a great-grandmother with dementia; Another Man (S01, reopened) prints \"I'm going to be Gene Kelly one day,\" he told his mum, and names her Julie. The conflicting grandmother/great-grandmother detail is correctly left out."
+		},
+		{
+			"claim_id": "C06",
+			"verdict": "supported",
+			"reason": "Another Man (S01): \"When he was 17 years old, in 2009, Mike graduated from high school early ... His father drove him there.\" Teen Vogue (S34, Wayback): \"I graduated high school a year early and moved to New York when I was 17.\""
+		},
+		{
+			"claim_id": "C07",
+			"verdict": "supported",
+			"reason": "BUILD Series audio (S16) at about 10:40. I re-transcribed the clip with a third model (whisper.cpp small.en): \"I went maybe six, eight months without auditioning for anything, because I felt too incapable.\" The context (after dropping out of the conservatory, followed by \"I was too scared, too whatever\") matches. Two of three transcriptions hear \"because\" where the article prints \"'cause\"; see verify2-03 (minor)."
+		},
+		{
+			"claim_id": "C08",
+			"verdict": "supported",
+			"reason": "Another Man (S01, reopened): \"He remembers bumping into the actor (and Dear Evan Hansen co-star) Ben Platt when he was on a job for Postmates ... and feeling so ashamed that he pretended he was doing something else.\" The article attributes it to the magazine (\"Another Man reports\") and makes no timing claim."
+		},
+		{
+			"claim_id": "C09",
+			"verdict": "supported",
+			"reason": "Interview 2017 (S09, reopened): \"I'm adopted ... I was 17 when I met her and her side of the family. They are a family of pilots ... 'Hey, I can do this! That's how we can bond!'\" The flight came after Newsies, not at 17, and the article does not say otherwise. No birth-family member is named."
+		},
+		{
+			"claim_id": "C10",
+			"verdict": "supported",
+			"reason": "Newsies original Broadway cast in 2012 (S34 \"original Broadway cast\"; S35 Dispatch 2012 on his Broadway debut; born January 1992, so 20). The Washington Post (S05): \"joined the original company ... for a 2015 production at Washington, D.C.'s Arena Stage.\" Wikipedia (S32) gives the 2016-18 Broadway run and the Tony nomination."
+		},
+		{
+			"claim_id": "C12",
+			"verdict": "supported",
+			"reason": "Washington Post (S05, reopened): \"Shortly after Faist exited the show in the summer of 2018, he sent his audition tape ... That November, he was performing in Steven Levenson's off-Broadway play 'Days of Rage'.\" NYT (S04, Wayback raw): \"I feel like I couldn't do it ... it very much turns into relying on your technique and the job of it.\" Nothing says a role was offered, as the article states."
+		},
+		{
+			"claim_id": "C14",
+			"verdict": "supported",
+			"reason": "MTV News 2017-04-26 (S12, Wayback raw and the linked Wayback page both reopened): \"maybe twice a week I'll go out and sign [on the autograph] line because there are [repeat] customers\"; \"feel like they know us, in a way\"; \"by having them meet who I actually am.\" Words, speaker and date match."
+		},
+		{
+			"claim_id": "C15",
+			"verdict": "supported",
+			"reason": "BUILD (S16): \"You know, I keep fooling everyone. I really have no idea, it works out\" (re-transcribed independently; the context is a question about landing musicals without being a strong singer). Screen International (S15): \"I'm not an ensemble dancer ... I'm not good enough. I had no business being in that room, quite frankly. These were some of the best dancers in the world.\" PBS (S03): \"really excited to get better ... I still feel that way. Maybe I'll be good one day. That'd be cool.\" Each register is shown."
+		},
+		{
+			"claim_id": "C16",
+			"verdict": "supported",
+			"reason": "BAFTA, 2022-03-03 (S19; audio duration 10:56 matches the upload). My independent re-transcription of 4:20-5:15: \"I tend to get anxious or have a bit of anxiety before every project, no matter what it is.\" The embed's start/end (267-307s) frames that answer."
+		},
+		{
+			"claim_id": "C17",
+			"verdict": "supported",
+			"reason": "Cultured (S07, reopened): \"The other tiny voice inside of you goes, Oh, don't do that. Don't jump into the volcano. Stay up here where it's safe. But, that's the thrill of what we get to do.\" The answer goes on, \"I can't pass this up. I have to jump in,\" which supports \"something he chases.\" The article notes it was a repeated press-cycle answer."
+		},
+		{
+			"claim_id": "C18",
+			"verdict": "supported",
+			"reason": "Another Man (S01): \"research has been my way to feel more secure, to feel like I am prepared.\" PBS (S03): Kazan's clear view \"helps any sort of anxieties because it's like, well, someone's steering the ship.\" BBC Radio 1 (S21), re-transcribed independently: \"the real hope is that you can surround yourself with people, quite frankly, who are a lot smarter than you.\""
+		},
+		{
+			"claim_id": "C19",
+			"verdict": "supported",
+			"reason": "Gold Derby (S18), re-transcribed independently: \"I have to step in here kind of and do something ... I wanted to actually create a family, a brotherhood, a tribe.\" BAFTA (S19) transcript: \"I wanted everyone to come up with an activity and no matter what it was, we all had to do it. And I called them jetivities.\""
+		},
+		{
+			"claim_id": "C20",
+			"verdict": "supported",
+			"reason": "Washington Post (S05, reopened): crew members \"got to work scrubbing the paint off the mural\"; \"One of the people washing it was Mike ... It was something that he needed to do because he felt terribly about what his character had just done.\" The article labels the motive as Kushner's reading."
+		},
+		{
+			"claim_id": "C21",
+			"verdict": "supported",
+			"reason": "Columbus Underground 2018-08-28 (S13, Wayback): \"Mike Faist's Ohio Artists Gathering, a week-long theatre festival, happens through August 31, 2018.\" Another Man (S01): \"his roommate Dan, who has known Mike since he was 16 - the pair met acting in plays at high school.\" \"The family he moved home to help\" is supported by S01 and S02."
+		},
+		{
+			"claim_id": "C23",
+			"verdict": "supported",
+			"reason": "NYT 2021-05-27 (S04, Wayback raw): \"transcendental: either I didn't feel like I was myself, or I was the most authentic version of myself. I can't really tell which one.\" The piece places the conversation \"on a recent sunny morning in Park Slope.\" May 27 to the December 10 release is about six and a half months, so \"seven months\" is fair rounding."
+		},
+		{
+			"claim_id": "C25",
+			"verdict": "supported",
+			"reason": "NYT (S04): \"Having gone from having no money, wanting to just be a working actor — I don't want to just be a working actor anymore ... I just don't want to follow the trajectory of what the industry wants me to do. Which is what? Put on a cape and wear a mask.\" The quote is exact, and the \"Asked what that trajectory was\" framing matches the Q&A."
+		},
+		{
+			"claim_id": "C26",
+			"verdict": "supported",
+			"reason": "Another Man (S01, reopened): \"Like, it's coming from me. Like not necessarily for love, but from love. It may not be good [laughs] but it's coming from that place of 'I'm free, I'm liberated, I'm the most authentic I can be.'\" The context (\"I only really want to do pieces that come from a place of love\") matches."
+		},
+		{
+			"claim_id": "C27",
+			"verdict": "supported",
+			"reason": "NYT (S04): \"I would like to ultimately be of service and of use; that's when I feel at my best.\" PBS (S03): \"So acting is just constantly giving. You have to be really giving to whatever that person needs.\""
+		},
+		{
+			"claim_id": "C28",
+			"verdict": "supported",
+			"reason": "TV Insider (S24, reopened via r.jina.ai), Pugh: \"he insisted on coming back early to be in the room and reading with me. Because usually, with things that small, the first AD would read it or the director would read it ... And what that created was a whole relationship.\" \"An assistant director would usually read\" is a fair compression."
+		},
+		{
+			"claim_id": "C29",
+			"verdict": "supported",
+			"reason": "Screen International (S15): \"Having left New York at the outset of the pandemic and spent much of the past two years travelling around the US in his car, with his dog.\" NYT (S04): his dog Austin and \"writing a screenplay.\""
+		},
+		{
+			"claim_id": "C30",
+			"verdict": "supported",
+			"reason": "Another Man (S01): returned \"in February 2021 when his father got sick\"; \"sold his flat in Brooklyn and bought a house in Columbus's German Village, which he has since renovated almost entirely by himself.\" GQ (S02): \"moved back to Ohio to help care for his ailing father, who was battling pulmonary fibrosis. During that time, father and son renovated a house together.\" \"Partly with his father's help\" reconciles the two honestly."
+		},
+		{
+			"claim_id": "C35",
+			"verdict": "supported",
+			"reason": "GQ (S02, reopened): \"Sgt. Rock, for example, was a project he was reportedly attached to last year\" (August 2026 interview, so 2025); Kuritzkes: \"very much a superhero movie that was about everyday heroes, humans, normal people\" and \"more or less in prep.\" RUSSH (S27, published 19 June 2025) announces the casting; NYTG (S26, 2025-08-26): \"Faist, who has withdrawn from the production.\" No reason appears in any source, and the article says so with an as-of date."
+		},
+		{
+			"claim_id": "C36",
+			"verdict": "supported",
+			"reason": "Interview 2026 (S08, reopened; published 2026-10-06): \"Part of the reason I don't like doing interviews is that I actually feel a lot more comfortable being a character than I do being myself in the public eye. I feel a lot braver, quite frankly, to be someone else.\" It follows Anderson's remark about protecting \"the person at home,\" so the framing matches."
+		},
+		{
+			"claim_id": "C37",
+			"verdict": "supported",
+			"reason": "GQ (S02): \"There's a privacy to Mike that I feel ... that I am very careful not to push on ... There's something about Mike that reads to me like a hermit crab or something. There's this shell on the outside and you can't tell what's inside.\" The speaker is Kazan."
+		},
+		{
+			"claim_id": "C38",
+			"verdict": "supported",
+			"reason": "GQ (S02), Kazan: \"We met twice before he agreed to do this ... 'I don't need you to convince me. I just need to know that this is right for me, because when I jump in, I jump in 100%.'\" The trimmed quote keeps its meaning."
+		},
+		{
+			"claim_id": "C40",
+			"verdict": "supported",
+			"reason": "PBS (S03): \"we shot The Bikeriders ... I chose that job because all I had to do was just be the observer.\" The article's \"He took that one\" refers to The Bikeriders, which matches."
+		},
+		{
+			"claim_id": "C43",
+			"verdict": "supported",
+			"reason": "NYT (S04): Jessica Sula, \"He's just so fabulously ridiculous and wonderful.\" Interview 2026 (S08): Anderson, \"You're just a modest person, Mike.\" Panic as a 2021 Amazon series is in S04 and S32."
+		},
+		{
+			"claim_id": "C44",
+			"verdict": "supported",
+			"reason": "Showbiz Junkies press-conference transcript (S30): \"Mike Faist: 'Well, we hate each other.'\" O'Connor then explains it is a running joke. GQ (S02): \"I would rock Mary Todd. Why not?\" The article frames both as humour."
+		},
+		{
+			"claim_id": "C45",
+			"verdict": "supported",
+			"reason": "GQ (S02): \"When we meet in August, Faist tells me he's about to enter rehearsals for the first production he's worked on since East of Eden two years ago. True to form, he's tight-lipped about the nature of the production.\" It is correctly time_sensitive with a trigger."
+		},
+		{
+			"claim_id": "C48",
+			"verdict": "supported",
+			"reason": "This is an interpretation, built on MTV 2017 (stage door), Interview and GQ 2026 (interviews and public life), and the separately sourced refusals (NYT May 2021; Kushner in GQ after the release). It is marked time_sensitive with an actionable trigger."
+		},
+		{
+			"claim_id": "C49",
+			"verdict": "supported",
+			"reason": "This interpretation rests on verified quotes: MTV 2017 \"who I actually am\" (S12), Another Man's reported Ben Platt shame (S01, attributed earlier in the body), and Interview 2026 \"I'm embarrassed to do this interview\" (S08; Anderson had just said he too gets embarrassed, which the article covers with its vocabulary-baseline sentence)."
+		},
+		{
+			"claim_id": "C51",
+			"verdict": "supported",
+			"reason": "IBDB (S31) gives Jan 05, 1992, Gahanna, Ohio. \"Turned 34 in January 2026\" is arithmetic that stays true."
+		},
+		{
+			"claim_id": "C52",
+			"verdict": "supported",
+			"reason": "Another Man (S01) names Kurt and quotes his mother as Julie; People/Yahoo (S33) and Wikipedia (S32) say Julia; S01 gives December 12 and \"a three-year battle with pulmonary fibrosis\"; S01 and S02 give the 2021 move home. Adoption: S09 \"I'm adopted\"; S33 \"He was adopted.\""
+		},
+		{
+			"claim_id": "C53",
+			"verdict": "supported",
+			"reason": "IBDB (S31, reopened): \"Born Jan 05, 1992.\" The full date is sourced, not a January-1 default."
+		},
+		{
+			"claim_id": "C55",
+			"verdict": "supported",
+			"reason": "Teen Vogue (S34): \"I dropped out after two semesters.\" Food stamps: Another Man (S01, \"There were times when he was on food stamps\") and Interview 2017 (S09, \"I was collecting food stamps\")."
+		},
+		{
+			"claim_id": "C56",
+			"verdict": "supported",
+			"reason": "Interview 2017 (S09, reopened): \"I was basically too nervous and scared to audition for anything afterwards, so a friend of mine at the time dragged me kicking and screaming to an audition for White Christmas.\" BUILD (S16) tells the same story."
+		},
+		{
+			"claim_id": "C59",
+			"verdict": "supported",
+			"reason": "NYT (S04): \"should put him on Hollywood's speed dial when it debuts in December ... He has been turning down offers and is now selling his Brooklyn apartment and heading back to Ohio.\" The tie to his father's illness comes from S01 (returned February 2021 \"when his father got sick\") and S02."
+		},
+		{
+			"claim_id": "C60",
+			"verdict": "supported",
+			"reason": "GQ (S02, reopened), Kushner: \"Two or three people, friends of mine who were making movies after West Side Story came out, called about ... 'Do you think he would do this part or that part?' ... And I think in both cases he turned them down ... it had nothing to do with size of the role or anything.\" \"After the film came out in December 2021\" is accurate (the release was December 2021), and the account is kept separate from the May 2021 refusals."
+		},
+		{
+			"claim_id": "C61",
+			"verdict": "supported",
+			"reason": "Riff and the BAFTA nomination: S32 (\"nomination for the BAFTA Award for Best Actor in a Supporting Role\"). Challengers 2024: S02, S28. \"Volatile\" Charles: Forbes (S10, Wayback raw) calls Charles \"the story's volatile, wounded equivalent of Cain.\" Shoot about 2024: GQ \"since East of Eden two years ago\" (August 2026). Premiere: TV Insider (S36, reopened) \"East of Eden, Series Premiere, October 1, Netflix.\""
+		},
+		{
+			"claim_id": "C62",
+			"verdict": "supported",
+			"reason": "Interview (S08): the \"braver\" line follows \"Part of the reason I don't like doing interviews\"; the r.jina.ai header gives \"Published Time: 2026-10-06.\" Anderson as the Challengers costumer: Cultured (S07) \"Guadagnino and his right hand costumer, Jonathan Anderson.\""
+		},
+		{
+			"claim_id": "C63",
+			"verdict": "supported",
+			"reason": "This interpretation is labelled \"This suggests.\" Its two legs are separately sourced and verified: the May 2021 refusals and set-aside \"working actor\" goal (S04), and Kushner's undated post-release account (S02). The article no longer dates Kushner's account or merges the two. The father's illness confound is acknowledged nearby (\"came in a hard stretch\")."
+		},
+		{
+			"claim_id": "C67",
+			"verdict": "supported",
+			"reason": "Washington Post, December 2021 (S05): \"For me, it has to come from a place of passion and love.\" Restated in Another Man 2024 (S01): \"pieces that come from a place of love.\""
+		},
+		{
+			"claim_id": "C68",
+			"verdict": "qualified",
+			"reason": "The 2026 half is direct (S08 \"braver ... to be someone else\"; S02 \"easier for me to put on a character ... than be me\"). The 2017 MTV source (S12) shows him guarding the gap between Connor and himself, framed as protecting fans' \"illusion,\" but he does not say being himself in public is harder. \"He has said\" stretches the 2017 statement; see verify2-01 (minor)."
+		},
+		{
+			"claim_id": "C69",
+			"verdict": "supported",
+			"reason": "This interpretation fits the opened record: BUILD 2017 (\"too scared,\" \"felt too incapable\"), BAFTA 2022 (\"anxiety before every project\"), AP 2023 (\"We're always nervous\"), and Cultured and Forbes 2026 (\"dread\"). No other feeling recurs as often."
+		},
+		{
+			"claim_id": "C70",
+			"verdict": "supported",
+			"reason": "MTV 2017 (S12): \"I just would hate for that illusion to be broken by having interaction with me, that, maybe, [fans] were expecting something else, almost in a way.\" The bracket is the outlet's own."
+		},
+		{
+			"claim_id": "C71",
+			"verdict": "supported",
+			"reason": "Interview 2017 (S09): \"they don't want people to see them because if we allow ourselves to be seen, actually seen, and allow [ourselves] to be vulnerable, then we lose the game. Teens don't want to let people know how they are actually feeling.\" The article now shows the generational \"we\" and says \"It was not a confession.\""
+		},
+		{
+			"claim_id": "C73",
+			"verdict": "supported",
+			"reason": "Gold Derby (S18; audio duration 27:57 matches), re-transcribed independently: \"I was in fear that he would be, you know, not a dictator. I thought the whole thing would be ... Hollywood overproduced ... you're just a prop.\" The garbled \"not\" is clearly a disfluency given \"so I was nervous about it.\" Esquire (S06): \"Steven never made me feel I needed to ask permission to do anything.\""
+		},
+		{
+			"claim_id": "C74",
+			"verdict": "supported",
+			"reason": "Washington Post (S05): Riff \"presses his temple to the barrel. It was an unscripted choice, Kushner says ... 'What Mike came up with in that moment ... is the whole character in this one little gesture.'\" Gold Derby (S18): \"I had this idea ... Jamie Harris ... who played the bartender, is ... pointing the gun at Riff.\" \"A bartender's gun\" is accurate."
+		},
+		{
+			"claim_id": "C75",
+			"verdict": "supported",
+			"reason": "Another Man (S01): \"It felt like: I'm not me right now, I'm being used to tell the story in the best way possible.\" It describes West Side Story, which matches."
+		},
+		{
+			"claim_id": "C76",
+			"verdict": "supported",
+			"reason": "Another Man (S01): \"It was like being used as a vessel, and that was the best feeling ever.\" The words and context match."
+		},
+		{
+			"claim_id": "C77",
+			"verdict": "supported",
+			"reason": "This interpretation is grounded in the verified NYT 2021 quote (\"I can't really tell which one\") and the 2024 vessel quote. \"He has never settled it\" fits every opened source."
+		},
+		{
+			"claim_id": "C79",
+			"verdict": "supported",
+			"reason": "Esquire (S06): Nichols called after Challengers wrapped, and \"Faist was to play Lyon.\" The Bikeriders cast with Austin Butler and Tom Hardy is in S01 and S32. Internal links go to published pages (Austin-Butler.md and Tom-Hardy.md have published: true)."
+		},
+		{
+			"claim_id": "C80",
+			"verdict": "supported",
+			"reason": "Another Man (S01): \"on December 12, his father, Kurt, died ... A month later, his grandfather ... died too.\" GQ (S02): \"within three weeks of each other ... 'All the men have passed.'\" \"Weeks later\" covers both accounts."
+		},
+		{
+			"claim_id": "C82",
+			"verdict": "supported",
+			"reason": "Another Man (S01): \"He's dreading the Challengers press tour.\" Cultured (S07): \"In 2024, Anderson put Faist in both a Loewe campaign and on the Met Gala carpet in a custom look.\" The April 2024 press conference (S30) and AP (S28) show the promotion happened."
+		},
+		{
+			"claim_id": "C83",
+			"verdict": "supported",
+			"reason": "GQ (S02): \"needing to recalibrate probably for myself ... They want this momentum ... I don't think that I have that kind of stamina. I'm not necessarily a marathon runner.\""
+		},
+		{
+			"claim_id": "C84",
+			"verdict": "supported",
+			"reason": "Cultured (S07): the first answer is \"You know, there really isn't a lot of thought,\" then the follow-up \"You're just being bandied about by Hollywood?\" and \"very easy to get swept up in noise ... hear myself think, and feel what is right for me ... an aspect of trying to tune everything out ... The truth is that Challengers was a lot. It was very overwhelming ... I don't really know how much control I actually have over any of this.\" \"Pressed\" accurately describes the follow-up."
+		},
+		{
+			"claim_id": "C85",
+			"verdict": "supported",
+			"reason": "This is a sourced caveat: the pandemic (S15), his father's illness (S01, S02), and Sgt. Rock collapsing (S02). No opened source gives a reason for the Anna Christie withdrawal (S26, S02 \"dropped out of the production two months later\")."
+		},
+		{
+			"claim_id": "C86",
+			"verdict": "supported",
+			"reason": "BAFTA (S19), re-transcribed independently: \"I'm always like, oh my God, why, what did I sign myself up for? I can't do this. Why did they hire me? What are we thinking? What are we doing here?\" The printed segment starts after the extra \"why,\" without changing the meaning."
+		},
+		{
+			"claim_id": "C87",
+			"verdict": "supported",
+			"reason": "GQ (S02): \"Was it the grind of promoting a movie all over the world? 'It's the public gaze' ... you could kind of be whoever you wanted to be. I really loved operating in the world with anonymity.\" The interpretive step is labelled as the article's (\"A Six's anxiety more often fixes on...\"). The Spielberg worry is the only voiced suspicion I found in the opened sources."
+		},
+		{
+			"claim_id": "C88",
+			"verdict": "supported",
+			"reason": "I found no account of open conflict or of being let down by a collaborator in any opened source (GQ, PBS, Cultured, Gold Derby, NYT, Another Man). The claim is marked unresolved, and its trigger names the evidence that would settle it."
+		},
+		{
+			"claim_id": "C89",
+			"verdict": "supported",
+			"reason": "Another Man (S01) vessel; GQ (S02) \"noise\", \"stamina\"; Cultured (S07): \"allow things to be quiet\"; Esquire (S06): \"had planned to drive around the US with his dog ... to 'allow myself to be bored' ... But then, director Jeff Nichols called,\" after Challengers wrapped."
+		},
+		{
+			"claim_id": "C91",
+			"verdict": "qualified",
+			"reason": "NYT 2021 (S04): \"what, I just want to be an actor? That's ridiculous. [Laughs.] I don't care enough. It's a weird thing: I can't tell if I hate acting or if I love it too much.\" That context is preserved. Another Man (S01): \"I fall in and out of love with it.\" PBS (S03): \"I don't know why I keep going, 'cause I'm an addict.\" The Cultured line is \"I kind of said, 'I think, unfortunately, I'm doomed to do this,'\" which he says while recalling his decision to move to New York. Cultured's own lede presents it as current, so the use is defensible, but the recollection framing is lost; see verify2-02 (minor)."
+		},
+		{
+			"claim_id": "C92",
+			"verdict": "supported",
+			"reason": "GQ (S02): \"Look, the truth is, it's a lot easier for me to put on a character and be in front of the world than be me ... And I'm just proud that I'm able to go on a walk with you and do this. For me, that's a big step.\" The interview is dated August (\"When we meet in August\")."
+		},
+		{
+			"claim_id": "C93",
+			"verdict": "supported",
+			"reason": "GQ (S02): \"'I'm always saying,' Faist says, 'if you want to get to know me, just watch my movies.'\""
+		},
+		{
+			"claim_id": "C94",
+			"verdict": "supported",
+			"reason": "PBS (S03): it answers \"what keeps me going?\" with \"I love this thing very, very much, but I don't want to hold it so tightly because I think if you hold it too tightly, maybe it'll die.\" The quote is exact (the episode teaser has a disfluent variant; the article uses the full-answer wording)."
+		},
+		{
+			"claim_id": "C95",
+			"verdict": "supported",
+			"reason": "The FAQ mirrors the body type answer and its evidence (S12, S08, S02, S04). \"Read at medium confidence from his interviews and colleagues' accounts\" fits the evidence. Trigger present."
+		},
+		{
+			"claim_id": "C96",
+			"verdict": "supported",
+			"reason": "Each element is verified: BAFTA anxiety (S19), research \"to feel more secure\" (S01), the PBS clear-lead line (S03), family and old friends (S01, S02), and the two separate sets of refusals (S04 May 2021; S02 Kushner after the release). It says \"leads narrowly,\" which matches medium confidence."
+		},
+		{
+			"claim_id": "C97",
+			"verdict": "supported",
+			"reason": "The FAQ order matches the body and the sources: Challengers April 2024 (S02, S28), East of Eden shoot about 2024 (S02), \"very overwhelming\" and noise (S07), lost anonymity and financing (S02), Sgt. Rock \"in prep\" (S02), the 2025 Anna Christie withdrawal with no public reason (S26, S27), August 2026 rehearsals (S02), and the October 1, 2026 premiere (S36). Marked unresolved with a trigger."
+		},
+		{
+			"claim_id": "C98",
+			"verdict": "supported",
+			"reason": "NYT (S04): \"I feel like I couldn't do it ... relying on your technique and the job of it ... It really took a lot out of me, and I didn't really have it in me anymore.\" S05 gives the 2015 Arena Stage start, the summer 2018 exit and the audition tape."
+		},
+		{
+			"claim_id": "C99",
+			"verdict": "supported",
+			"reason": "The description paraphrases S08 (\"I feel a lot braver, quite frankly, to be someone else\") faithfully."
+		},
+		{
+			"claim_id": "C100",
+			"verdict": "supported",
+			"reason": "The persona title paraphrases S08 faithfully."
+		},
+		{
+			"claim_id": "C101",
+			"verdict": "supported",
+			"reason": "IBDB (S31): \"Gahanna, Ohio, USA.\""
+		},
+		{
+			"claim_id": "C102",
+			"verdict": "supported",
+			"reason": "NYT (S04): \"your former co-star Ben Platt\" on Dear Evan Hansen. Another Man (S01): \"Dear Evan Hansen co-star.\" MTV (S12): \"Ben [Platt, who plays Evan]\"; Interview 2017 (S09): \"Evan (Ben Platt).\""
+		},
+		{
+			"claim_id": "C103",
+			"verdict": "supported",
+			"reason": "GQ (S02, reopened): the remark sits in a closing passage about whether \"the world [will] continue to wait for Mike Faist?\": \"That's hard with actors, because you can also become an actor who says no to a lot ... But I'm intrigued by what he's decided to do and what he has decided not to do and what he's fought hard to get out of.\" It names no project, as the article says."
+		},
+		{
+			"claim_id": "C104",
+			"verdict": "supported",
+			"reason": "This interpretation rests on PBS \"just be the observer\" (S03), Hollywood Insider \"it's not about me at all\" (S23, transcript checked), the Jets tribe (S18), and the bonding reason for the licence (S09). \"Partly\" fairly reflects Esquire's simpler 2024 version (S06)."
+		},
+		{
+			"claim_id": "C105",
+			"verdict": "supported",
+			"reason": "GQ (S02): \"Faist is playing against type\"; \"after the first dailies of his Charles Trask came in ... 'Netflix was like, 'We love him so much. We'll pay for another episode,'' says Kazan, who found a way to write Faist into a later episode.\""
+		},
+		{
+			"claim_id": "C106",
+			"verdict": "supported",
+			"reason": "AP via ClickOnDetroit, 2023-05-22 (S29): \"a new stage version at London's Soho Place theater ... Faist as livewire cowboy Jack Twist\"; \"'We're always nervous,' added Faist.\" His father was still ill in May 2023 (he died December 2023 after a three-year illness, S01). \"Two years after\" the May 2021 NYT remark is correct."
+		},
+		{
+			"claim_id": "C107",
+			"verdict": "supported",
+			"reason": "Cultured (S07): \"What made you sign onto this one? Well, It was, honestly Zoe and Florence. Florence was a producer for a few years.\" PBS (S03): \"she had a really specific point of view ... That helps any sort of anxieties because it's like, well, someone's steering the ship.\" The article says he \"praised\" the view and does not claim it was his reason for signing."
+		},
+		{
+			"claim_id": "C108",
+			"verdict": "supported",
+			"reason": "GQ (S02): \"'It's the public gaze' ... you could kind of be whoever you wanted to be\"; \"There's things that pop up and for whatever reason, they don't happen because of the industry and financing ... There's no control in this industry.\""
+		},
+		{
+			"claim_id": "C110",
+			"verdict": "supported",
+			"reason": "Cultured, September 2026 (S07): \"I would love to go back to the theater at some point. Absolutely.\" The withdrawal (S26, August 2025) was about a year earlier. Time_sensitive with a trigger."
+		},
+		{
+			"claim_id": "C111",
+			"verdict": "supported",
+			"reason": "This interpretation is consistent with the verified record: the two refusal sets (S04, S02), the Brooklyn sale tied to his father (S01, S02), two deaths (S01, S02), \"it was an intense summer\" (S07) and the collapsed Sgt. Rock (S02)."
+		},
+		{
+			"claim_id": "C112",
+			"verdict": "supported",
+			"reason": "Interview 2026 (S08), Anderson: \"I do feel there is me on and there's me off.\" Spoken about himself and fashion, as the article says."
+		},
+		{
+			"claim_id": "C113",
+			"verdict": "supported",
+			"reason": "This interpretation uses verified quotes (S07 \"hear myself think\"; S02 \"whoever you wanted to be\") and openly concedes \"a Nine tired of noise could say the same.\""
+		},
+		{
+			"claim_id": "C114",
+			"verdict": "supported",
+			"reason": "This interpretation of the verified BAFTA run (S19) is honestly assigned to the Six case."
+		},
+		{
+			"claim_id": "C116",
+			"verdict": "supported",
+			"reason": "This interpretation correctly withdraws craft doubt (S19, S15) as a Four/Six discriminator."
+		},
+		{
+			"claim_id": "C117",
+			"verdict": "supported",
+			"reason": "Another Man (S01): \"while Mike was initially reticent, it was soon apparent that Jonathan wasn't going to take no for an answer.\" The campaign happened (photographed by Juergen Teller)."
+		},
+		{
+			"claim_id": "C118",
+			"verdict": "supported",
+			"reason": "This interpretation is stated as \"fits ... closely\" with the Four mechanism named. It is not claimed as a prediction that excludes rivals."
+		},
+		{
+			"claim_id": "C119",
+			"verdict": "supported",
+			"reason": "The meta title matches the body type and the S08 hook and does not forecast."
+		},
+		{
+			"claim_id": "C120",
+			"verdict": "supported",
+			"reason": "The description's \"why Types 6 and 9 stay close\" matches the body (type answer; Six and Nine sections)."
+		},
+		{
+			"claim_id": "C121",
+			"verdict": "supported",
+			"reason": "MTV 2017 (S12): \"I don't want to — after the show ... I just would hate for that illusion to be broken\"; \"maybe twice a week.\" \"Kept his distance\" is sized to the source and dated to Dear Evan Hansen."
+		},
+		{
+			"claim_id": "C122",
+			"verdict": "supported",
+			"reason": "This interpretation matches the verified registers of the three quotes (S16 banter, S15 dance-call comparison, S03 aspiration)."
+		},
+		{
+			"claim_id": "C123",
+			"verdict": "supported",
+			"reason": "The 60-word type answer (56 words) states the type, medium confidence, triad and core emotion, the two grounds, and the live alternatives. Each ground is verified above. Trigger present."
+		},
+		{
+			"claim_id": "C124",
+			"verdict": "supported",
+			"reason": "GQ (S02): \"Zoe Kazan's seven-episode series\"; Forbes (S10): \"seven-episode limited series.\" Cultured (S07): \"Charles Trask ... brother of Christopher Abbott's Adam ... Florence Pugh's Cathy Ames.\" TV Insider (S36): \"Series Premiere, October 1, Netflix.\" GQ: \"against type\" and the extra episode."
+		}
+	],
+	"source_checks": [
+		{
+			"source_id": "S01",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live page reopened; paragraphs on Gahanna/February 2021, the father's death (December 12), Singin'/Gene Kelly, food stamps/Postmates/Ben Platt, research \"to feel more secure\", the vessel, roommate Dan, the Loewe campaign, the press-tour dread, and \"from love\"."
+		},
+		{
+			"source_id": "S02",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live page reopened; Kushner on post-release offers, the August rehearsals, financing/\"no control\", Sgt. Rock (Kuritzkes), \"recalibrate\"/\"stamina\"/\"public gaze\", Kazan meetings, hermit crab, against type, the extra episode, \"All the men have passed\", the closing Kushner caution, and \"watch my movies\"."
+		},
+		{
+			"source_id": "S03",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live transcript page reopened; Singin' in the Rain on repeat; \"really excited to get better ... Maybe I'll be good one day\"; the Bikeriders \"observer\"; \"constantly giving\"; Kazan \"steering the ship\"; the closing \"hold it so tightly\" and \"addict\" answers."
+		},
+		{
+			"source_id": "S04",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Wayback raw capture (web.archive.org/web/2021id_/) reopened; intro (Park Slope, speed dial, turning down offers, Brooklyn apartment, Austin, screenplay); Sula quote; the Dear Evan Hansen film answer; the \"working actor\"/\"don't care enough\"/\"cape\" answer; \"service and of use\"."
+		},
+		{
+			"source_id": "S05",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Stars and Stripes syndication reopened; the mural paragraph; Arena Stage 2015; summer 2018 exit, Riff tape, Days of Rage; the gun-barrel paragraph; \"a place of passion and love\"."
+		},
+		{
+			"source_id": "S06",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live page reopened; opening paragraph (break after Challengers, \"allow myself to be bored\", Nichols called); Spielberg \"ask permission\"; pilot-licence paragraph."
+		},
+		{
+			"source_id": "S07",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live page reopened; lede (\"there really isn't a lot of thought\", \"doomed\"); the \"Zoe and Florence\"/producer answer; the dread/volcano answer; the hiatus answer (noise, tune out, quiet, overwhelming, control); the theater answer; the Charles Trask description; the Met Gala/Loewe parenthetical."
+		},
+		{
+			"source_id": "S08",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Reopened via r.jina.ai (Published Time 2026-10-06); Faist's \"Part of the reason I don't like doing interviews\" turn; Anderson's \"me on and ... me off\"; \"I'm embarrassed to do this interview\"; \"You're just a modest person, Mike\"."
+		},
+		{
+			"source_id": "S09",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Reopened via r.jina.ai; THE FIRST JOB (dropped out, friend dragged him, White Christmas, food stamps); THE EVOLUTION OF CONNOR MURPHY (\"we lose the game\", \"Teens don't want...\"); LEARNING TO FLY (adopted, family of pilots, \"That's how we can bond!\")."
+		},
+		{
+			"source_id": "S10",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Wayback raw capture reopened; \"seven-episode limited series\"; Charles as \"the story's volatile, wounded equivalent of Cain\"; dread paragraphs."
+		},
+		{
+			"source_id": "S11",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Wayback raw capture (20210919064821id_) reopened; Dispatch 2017-12-07 article on I Can I Will I Did; \"Earlier this year, he received a Tony nomination for his work\" (2017), supporting C10."
+		},
+		{
+			"source_id": "S12",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Wayback raw capture (2017id_) and the reader-facing Wayback link both reopened; dated 04/26/2017; the social-media/autograph-line answer (\"illusion\", \"who I actually am\", \"maybe twice a week\")."
+		},
+		{
+			"source_id": "S13",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live URL 403; Wayback raw capture (2018id_) reopened; dated August 28, 2018; \"a week-long theatre festival, happens through August 31, 2018\"."
+		},
+		{
+			"source_id": "S14",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Wayback raw capture (2021id_) reopened; Columbus Monthly 2018-08-07 feature on the festival and why Columbus."
+		},
+		{
+			"source_id": "S15",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live page reopened; the dance-call paragraph (\"I'm not an ensemble dancer ... best dancers in the world\"); the closing paragraph on two years travelling with his dog."
+		},
+		{
+			"source_id": "S16",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Not playable here; audio (27:10, duration matches the upload) re-transcribed independently with whisper.cpp small.en at 01:35-02:20 and 09:55-11:10, plus both researcher transcriptions; title and channel confirmed via YouTube oEmbed (BUILD Series)."
+		},
+		{
+			"source_id": "S18",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Audio (27:57, matches) re-transcribed independently at 09:15-10:30 (Jets \"family, a brotherhood, a tribe\") and 21:45-22:30 (dictator/overproduced/prop); gun-barrel answer checked in both researcher transcriptions; oEmbed confirms GoldDerby."
+		},
+		{
+			"source_id": "S19",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Audio (10:56, matches) re-transcribed independently at 04:20-05:15 (anxiety before every project; the run of questions); Jetivities checked in the researcher transcription; oEmbed confirms the BAFTA channel."
+		},
+		{
+			"source_id": "S21",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Audio (17:05, matches) re-transcribed independently at 06:55-07:50 (\"a lot smarter than you\"); oEmbed confirms BBC Radio 1."
+		},
+		{
+			"source_id": "S23",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Hollywood Insider on-set interview (6:22); checked in the whisper.cpp transcript (\"it's not about me at all\") for C104; oEmbed confirms the channel. Nothing from it is quoted in the article."
+		},
+		{
+			"source_id": "S24",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live URL 403; reopened via r.jina.ai; Pugh's paragraph beginning \"Originally in the script\"."
+		},
+		{
+			"source_id": "S25",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live page reopened; final answers (\"So I actually graduated early just to get out and move to New York\")."
+		},
+		{
+			"source_id": "S26",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live page reopened; dated August 26, 2025; \"Sturridge replaces the previously announced Mike Faist, who has withdrawn from the production.\""
+		},
+		{
+			"source_id": "S27",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live page reopened; published Thu, 19 Jun 2025; the Anna Christie casting announcement."
+		},
+		{
+			"source_id": "S28",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live page (News4Jax AP syndication) reopened; the paragraph on the three leads connecting with the material; confirms April 2024 promotion."
+		},
+		{
+			"source_id": "S29",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live page reopened; dated May 22, 2023; Soho Place, Jack Twist, \"We're always nervous,\" and trust in director Jonathan Butterell."
+		},
+		{
+			"source_id": "S30",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live page reopened; press-conference transcript; \"Well, we hate each other\" and O'Connor's \"Mike does this joke sometimes\"."
+		},
+		{
+			"source_id": "S31",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live URL 403; reopened via r.jina.ai; header block \"Born Jan 05, 1992 Gahanna, Ohio, USA\"."
+		},
+		{
+			"source_id": "S32",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live page reopened; lead (BAFTA nomination, Brokeback, East of Eden 2026), early life (adopted by Julia and Kurt), and credit tables (Newsies 2012-13, Dear Evan Hansen 2015-18, Days of Rage 2018)."
+		},
+		{
+			"source_id": "S33",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Yahoo syndication reopened; \"He was adopted\"; Julia and Kurt; birth-mother relationship paragraph."
+		},
+		{
+			"source_id": "S34",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Wayback raw capture reopened; Faist's paragraphs: graduated a year early, moved at 17 for AMDA, dropped out after two semesters, Newsies original Broadway cast."
+		},
+		{
+			"source_id": "S35",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Wayback raw capture reopened; Dispatch 2012 theatre blog on his Broadway debut in Newsies."
+		},
+		{
+			"source_id": "S36",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Live URL 403; reopened via r.jina.ai (twice); \"seven-part Netflix series\"; \"East of Eden, Series Premiere, October 1, Netflix\"."
+		}
+	],
+	"decision_checks": [
+		{
+			"finding_id": "subject-01",
+			"accepted": true,
+			"reason": "Agree. Kushner's remark now sits in \"Saying no on the way up,\" introduced as \"a caution about Faist's choices in general, naming no project,\" with \"says no to a lot\" quoted (verified against the live GQ page). The Anna Christie paragraph ends \"As of October 2026, no reason had been made public.\" No body, FAQ or metadata sentence implies how or why he left."
+		},
+		{
+			"finding_id": "subject-02",
+			"accepted": true,
+			"reason": "Agree. Anna Christie is cited for no trait. \"Refuses firmly\" and \"The reasons he gave sat inside him\" are gone. The only chosen-trade claim is \"only the refusals are a clear trade,\" limited to the May 2021 offers and Kushner's post-release account."
+		},
+		{
+			"finding_id": "subject-03",
+			"accepted": true,
+			"reason": "Agree. The intro dates the shoot \"around 2024\" and puts it before the gap. \"Then came East of Eden\" follows the April 2024 Challengers paragraph. \"Two years out of view\" opens \"After the East of Eden shoot.\" No \"brought him back.\" The FAQ uses the same order."
+		},
+		{
+			"finding_id": "subject-04",
+			"accepted": true,
+			"reason": "Agree. \"His own reasons point several ways\" quotes \"the public gaze,\" the financing line, \"there really isn't a lot of thought,\" \"very overwhelming\" and \"how much control.\" The break FAQ lists overwhelm, noise, lost anonymity and financing. The trade conclusion carries \"This suggests.\""
+		},
+		{
+			"finding_id": "subject-05",
+			"accepted": true,
+			"reason": "Agree. The hook ties the sale to his father (\"to head back to Ohio, where his father had fallen ill\"). The synthesis says \"The Brooklyn sale was a move home to a sick father.\" The \"moves off ... alone\" passage is gone."
+		},
+		{
+			"finding_id": "subject-06",
+			"accepted": true,
+			"reason": "Agree. The passage now reads \"the pronoun slid from 'they' to 'we',\" quotes \"Teens don't want to let people know how they are actually feeling\" (verified in S09), and says \"It was not a confession.\""
+		},
+		{
+			"finding_id": "subject-07",
+			"accepted": true,
+			"reason": "Agree. \"laughing off being merely a working actor, he told the Times, 'I don't care enough,' and moments later, 'I can't tell if I hate acting or if I love it too much.'\" That matches the S04 sequence."
+		},
+		{
+			"finding_id": "subject-08",
+			"accepted": true,
+			"reason": "Agree. \"Whim\" is gone. The body keeps \"That's how we can bond!\" with no birth-family names, and the Five line says \"partly to bond with newfound relatives.\""
+		},
+		{
+			"finding_id": "subject-09",
+			"accepted": true,
+			"reason": "Agree. \"During Dear Evan Hansen in 2017 he kept his distance from the stage door,\" sized to MTV's \"maybe twice a week.\""
+		},
+		{
+			"finding_id": "fan-01",
+			"accepted": true,
+			"reason": "Agree. The body runs: pandemic years, 2021 move home, December 2021 release and Kushner, Challengers and The Bikeriders, May 2023, December 2023, April 2024, East of Eden, then the gap with Sgt. Rock (2025), Anna Christie (2025), August 2026 rehearsals and the October 1 premiere. Intro, body and FAQ agree."
+		},
+		{
+			"finding_id": "fan-02",
+			"accepted": true,
+			"reason": "Agree. The break passage and FAQ include the financing line and \"very overwhelming.\" \"Pointed inward again\" is gone, and the synthesis says the gap is mixed and only the refusals are a clear trade."
+		},
+		{
+			"finding_id": "fan-03",
+			"accepted": true,
+			"reason": "Agree. The East of Eden paragraph gives Kazan's \"right for me\" test and his own credits (\"honestly Zoe and Florence\"; \"someone's steering the ship\") together, and the Six section counts \"the yes to East of Eden\" for the Six. \"In none of the decisions...\" and the \"off in a corner\" quote are gone."
+		},
+		{
+			"finding_id": "fan-04",
+			"accepted": true,
+			"reason": "Agree. The body says plainly \"He is adopted, and at 17 he met his birth mother's family,\" keeps the bonding reason, names no one, and weighs it in the Six and Five passages."
+		},
+		{
+			"finding_id": "fan-05",
+			"accepted": true,
+			"reason": "Agree. The 2018 exit shows the Riff tape and Days of Rage. Brokeback (May 2023) is a dated choice set against the 2021 eight-shows remark. The 2026 theater wish is set against Anna Christie. Meta title and description no longer claim a stepping-back habit."
+		},
+		{
+			"finding_id": "fan-06",
+			"accepted": true,
+			"reason": "Agree, as in subject-01: the caution is quoted, the remark is framed as general, and it sits with Kushner's refusals account."
+		},
+		{
+			"finding_id": "fan-07",
+			"accepted": true,
+			"reason": "Agree. The intro names \"the volatile Charles Trask in Netflix's East of Eden, from John Steinbeck's novel.\" The East of Eden paragraph says \"GQ calls the casting against type\" and explains the extra episode. A new FAQ answers who he plays."
+		},
+		{
+			"finding_id": "fan-08",
+			"accepted": true,
+			"reason": "Agree. Anderson is introduced as \"the designer who costumed Challengers.\" The Met Gala and the Loewe campaign (with Another Man's reticence detail) appear as counterpoints. The BAFTA nomination is in the intro. Omitting the Grammy is reasonable."
+		},
+		{
+			"finding_id": "critic-01",
+			"accepted": true,
+			"reason": "Agree. The absolute \"In none of the decisions...\" and \"moves off ... alone\" are gone, as is the old FAQ wording. The East of Eden yes appears with his own reasons and is counted for the Six. The surviving discriminators are named (\"It leads on what he guards\"; \"It also leads on what he gave up\"), and confidence wording is lowered (\"leads narrowly,\" \"Type 6 and Type 9 remain close alternatives\"). The type is unchanged, so no new review scope is triggered."
+		},
+		{
+			"finding_id": "critic-02",
+			"accepted": true,
+			"reason": "Agree. The 2018 exit reads \"kept moving: an audition tape for Riff, then ... Days of Rage.\" The type answer, FAQ and C48 no longer count it as a step back."
+		},
+		{
+			"finding_id": "critic-03",
+			"accepted": true,
+			"reason": "Agree. The father's illness appears at the first mention of the sale (hook). The apartment is on no list of things traded for authenticity."
+		},
+		{
+			"finding_id": "critic-04",
+			"accepted": true,
+			"reason": "Agree. Outward reasons (financing, overwhelm, control) are quoted next to \"stamina\" and \"noise.\" Two deaths open the 2024 context and appear in the synthesis. Sgt. Rock is dated 2025, with the \"cape\" tension stated. The section titles are neutral."
+		},
+		{
+			"finding_id": "critic-05",
+			"accepted": true,
+			"reason": "Agree, as in subject-01 (C103 verified against the live GQ page)."
+		},
+		{
+			"finding_id": "critic-06",
+			"accepted": true,
+			"reason": "Agree. The doubt paragraph gives each quote its register (verified in context in S16, S15, S03) and closes \"None is a confession.\" The BAFTA run is quoted with \"what did I sign myself up for? I can't do this,\" assigned to the Six, and the type answer no longer leans on \"good enough.\""
+		},
+		{
+			"finding_id": "critic-07",
+			"accepted": true,
+			"reason": "Agree. The article says in its own voice that \"Actors on press tours talk about authenticity and hiding inside characters all the time,\" quotes Anderson's \"me on ... me off,\" and rests the lead on dated, person-specific behaviour (the 2017 stage door; the 2021 refusals and Kushner's account; the GQ public-gaze answer)."
+		},
+		{
+			"finding_id": "critic-08",
+			"accepted": true,
+			"reason": "Agree. C71 is not in type_hypothesis.for_claim_ids (checked), and the prose states the limit."
+		},
+		{
+			"finding_id": "unfamiliar-01",
+			"accepted": true,
+			"reason": "Agree. Before the type H2 the intro names Riff, \"leader of the Jets,\" and Charles Trask in Netflix's Steinbeck adaptation. \"As Riff\" precedes the gun gesture. Panic (\"the 2021 Amazon series\") and Brokeback (\"London's West End as Jack Twist in a stage Brokeback Mountain\") are glossed."
+		},
+		{
+			"finding_id": "unfamiliar-02",
+			"accepted": true,
+			"reason": "Agree. The shoot is dated \"around 2024.\" The Challengers release is dated April 2024, and the making of Challengers and The Bikeriders comes before May 2023. All timeline passages agree."
+		},
+		{
+			"finding_id": "unfamiliar-03",
+			"accepted": true,
+			"reason": "Agree. The type section adds \"That fear of being found deficient is the shame\" and \"the case turns on what the anxiety is about: being found wanting and exposed, or safety and trust.\" The growth is small."
+		},
+		{
+			"finding_id": "unfamiliar-04",
+			"accepted": true,
+			"reason": "Agree. The closing reads \"One pattern fits the Four reading closely ... a character can be the safest place to be seen.\" \"Predicts\" and \"keeps confirming\" are gone."
+		},
+		{
+			"finding_id": "unfamiliar-05",
+			"accepted": true,
+			"reason": "Agree. \"Once the first footage came in, Kazan says, Netflix offered to 'pay for another episode,' and she wrote him into a later one.\" The wording is verified against GQ."
+		},
+		{
+			"finding_id": "unfamiliar-06",
+			"accepted": true,
+			"reason": "Agree. \"Ben Platt played the title character, Evan Hansen.\" The Postmates sentence makes no timing claim."
+		},
+		{
+			"finding_id": "unfamiliar-07",
+			"accepted": true,
+			"reason": "Agree with the rejection. Its targets were partly met (\"told\" is 28 by my count; the old section is split into 513 and 407 words), and the body is 3,682 words, about 5% over a \"roughly\" target the standard qualifies with \"when the evidence warrants it.\" The added words carry facts required by major findings (outward reasons, Days of Rage, Brokeback, Kushner's caution, both halves of the East of Eden decision). The remaining pacing problem is noted as minor finding verify2-04, not a reason to cut sourced counterevidence."
+		},
+		{
+			"finding_id": "unfamiliar-08",
+			"accepted": true,
+			"reason": "Agree. The trade list is gone. The only trade named is the two separately sourced sets of refusals, which earlier passages have shown."
+		},
+		{
+			"finding_id": "enneagram-01",
+			"accepted": true,
+			"reason": "Agree. Skill doubts are withdrawn as a discriminator (\"a Six voices them as readily as a Four\"). The BAFTA run counts for the Six. The shame argument rests on exposure and identity evidence (MTV 2017, the Ben Platt report, \"embarrassed,\" the GQ public gaze). The Six described includes worry, research, leaders, groups and the counterphobic volcano answer."
+		},
+		{
+			"finding_id": "enneagram-02",
+			"accepted": true,
+			"reason": "Agree. The absolutes are cut. The NYT \"working actor\" answer is quoted in context. The move home counts as Six loyalty. Sgt. Rock's collapse is noted where the gap is told, and the volcano line sits in the Six case before \"So why does the Four reading still lead?\""
+		},
+		{
+			"finding_id": "enneagram-03",
+			"accepted": true,
+			"reason": "Agree. \"Feel what is right for me\" now appears only in the gap section, next to \"tune everything out\" and \"overwhelming.\" The Nine section uses \"hear myself think\" and concedes \"a Nine tired of noise could say the same.\""
+		},
+		{
+			"finding_id": "enneagram-04",
+			"accepted": true,
+			"reason": "Agree. The stereotype, the tennis line and the firmness claim are gone. The Nine section gathers its strongest evidence, names one Faist-specific lean and says \"the two readings are not yet separated.\" The type answer and FAQ name the Nine as a close alternative."
+		},
+		{
+			"finding_id": "enneagram-05",
+			"accepted": true,
+			"reason": "Agree. Why-not-6 rests on dated, Faist-specific contrasts that would not transfer word for word to another actor's page (the 2017 stage-door choice; the May 2021 set-aside goal plus Kushner's post-release account; the GQ public-gaze answer). The settle signal now predicts different behaviour (allies or a trusted authority versus holding to his own sense of what is true at a cost)."
+		},
+		{
+			"finding_id": "enneagram-06",
+			"accepted": true,
+			"reason": "Agree. The Kazan test is not used for the Four anywhere; his own credit to her clear lead sits beside it, and the yes counts for the Six."
+		},
+		{
+			"finding_id": "enneagram-07",
+			"accepted": true,
+			"reason": "Agree, as in subject-07. The full \"working actor\" answer also carries the hook."
+		},
+		{
+			"finding_id": "enneagram-08",
+			"accepted": true,
+			"reason": "Agree. The closing names the Four mechanism (the wish to be seen against the fear of being found wanting) and drops \"predicts.\""
+		},
+		{
+			"finding_id": "future-01",
+			"accepted": true,
+			"reason": "Agree. The shoot is dated \"around 2024,\" and one order is used throughout. Nothing says new work stopped right after April 2024."
+		},
+		{
+			"finding_id": "future-02",
+			"accepted": true,
+			"reason": "Agree. The financing remark is quoted, dated by context (GQ, August 2026), and recorded as counterevidence in C63's alternative (checked). The \"pointed inward\" generalizations are gone."
+		},
+		{
+			"finding_id": "future-03",
+			"accepted": true,
+			"reason": "Agree. The meta title no longer forecasts. C119 and C120 inventory the metadata. C48 is time_sensitive, and C88 is unresolved with actionable triggers (checked)."
+		},
+		{
+			"finding_id": "future-04",
+			"accepted": true,
+			"reason": "Agree. \"A high-school friend he lived with in 2024\"; \"so he turned 34 in January 2026\"; \"As of October 2026, no reason had been made public.\""
+		},
+		{
+			"finding_id": "future-05",
+			"accepted": true,
+			"reason": "Agree. \"Since at least 2017\" replaces \"most of a decade.\" PBS is dated at first mention (\"In October 2026 ... PBS's American Masters\"). The first Cultured mention is dated (\"he told Cultured in September 2026\")."
+		},
+		{
+			"finding_id": "future-06",
+			"accepted": true,
+			"reason": "Agree. The break FAQ ends \"By August 2026 he was about to start rehearsals for a new production, and East of Eden premiered on Netflix on October 1, 2026,\" in body order."
+		},
+		{
+			"finding_id": "future-07",
+			"accepted": true,
+			"reason": "Agree, as in subject-09."
+		},
+		{
+			"finding_id": "verify-01",
+			"accepted": true,
+			"reason": "Agree. The May 2021 refusals (NYT) and Kushner's post-release account (GQ, which gives no year) are separate in the hook, \"Saying no on the way up,\" the synthesis, the Six section and the Type 6 FAQ. No sentence dates Kushner's calls or calls May 2021 peak demand. Kushner's \"after West Side Story came out\" is verified on the live page."
+		},
+		{
+			"finding_id": "verify-02",
+			"accepted": true,
+			"reason": "Agree. Sgt. Rock is \"reportedly attached to with Guadagnino in 2025,\" matching GQ's \"last year\" in an August 2026 interview. The synthesis reads \"included a collapsed film.\""
+		},
+		{
+			"finding_id": "verify-03",
+			"accepted": true,
+			"reason": "Agree. Cultured's descriptor is no longer echoed. \"Volatile\" is a common descriptor, and it matches Forbes's \"volatile, wounded equivalent of Cain\" (S10, reopened), which supports it."
+		},
+		{
+			"finding_id": "verify-04",
+			"accepted": true,
+			"reason": "Agree. The citations no longer list lFGPADR4r5k or asZ5_hxcpDA. MTV and the Dispatch 2017 piece use Wayback copies, and both resolved with HTTP 200 when I reopened them. Every citation maps to a source used by a claim."
+		},
+		{
+			"finding_id": "verify-05",
+			"accepted": true,
+			"reason": "Agree. \"Saying no on the way up\" now runs in chronological order. The East of Eden paragraph uses at most two quote fragments per sentence, and the gap section keeps every sourced reason. The quote recycling across the gap, Six and Nine sections is noted as minor finding verify2-04."
+		}
+	],
+	"prior_blocker_checks": [],
+	"protected_checks": [
+		{
+			"passage": "The motive is Kushner's reading. The scrubbing is something he watched.",
+			"preserved": true,
+			"reason": "Present verbatim at the end of the mural paragraph."
+		},
+		{
+			"passage": "He did not say whether a film role was offered.",
+			"preserved": true,
+			"reason": "Present verbatim in the Dear Evan Hansen paragraph and the FAQ."
+		},
+		{
+			"passage": "The record also lacks the scene that would separate them most clearly, Faist in open conflict or let down by a collaborator. A Six would grow wary and look for firmer ground. A Four would withdraw and insist on what feels true. Until that account exists, the Four reading holds at medium confidence.",
+			"preserved": true,
+			"reason": "Changed, with its contribution kept. The first sentence (\"The record also lacks the scene that would separate them most clearly, Faist in open conflict or let down by a collaborator.\") and the closing confidence sentence survive verbatim. Only the prediction sentences changed, because enneagram-05 showed that \"grow wary\" and \"withdraw\" do not separate the types. The new predictions (allies or a trusted authority versus holding to his own sense of what is true at a cost) give a sharper test, so the passage's distinctive job is preserved and improved."
+		},
+		{
+			"passage": "For a later _East of Eden_ moment with only a few lines, which an assistant director would usually read, \"he insisted on coming back early to be in the room and reading with me,\" she told [TV Insider](https://www.tvinsider.com/1294095/east-of-eden-cathy-charles-florence-pugh-mike-faist-interview/). \"And what that created was a whole relationship.\"",
+			"preserved": true,
+			"reason": "Present verbatim in \"What the type doesn't explain\"; quote verified in S24."
+		},
+		{
+			"passage": "Circumstance explains part of every episode: the pandemic, his father's illness, a studio film collapsing. And he has never said why he left _Anna Christie_.",
+			"preserved": true,
+			"reason": "Present verbatim, closing the \"Two years out of view\" synthesis."
+		},
+		{
+			"passage": "That spring he described Evan and Connor to Interview, and the sentence drifted from the characters into the first person: \"they don't want people to see them because if we allow ourselves to be seen, actually seen, and allow [ourselves] to be vulnerable, then we lose the game.\"",
+			"preserved": true,
+			"reason": "Changed for accuracy, with its contribution kept. The checkable they-to-we shift and the full quote remain (\"the pronoun slid from 'they' to 'we'\"). The \"drifted ... into the first person\" framing was removed because the source's next sentence (\"Teens don't want to let people know how they are actually feeling\", verified in S09) shows a generational \"we.\" Removing a misleading implication is a permitted change, and the observation survives."
+		},
+		{
+			"passage": "In 2021 he could not decide whether that state was losing himself or finding himself. That question is where the Four and Nine readings part, and he has never settled it.",
+			"preserved": true,
+			"reason": "Present verbatim at the end of the vessel section; the Nine section builds on it."
+		},
+		{
+			"passage": "He rarely did the stage-door autograph line, he told [MTV News](https://web.archive.org/web/2017/http://www.mtv.com/news/3002027/mike-faist-dear-evan-hansen-interview/) in April 2017, signing only \"maybe twice a week\" for repeat customers.",
+			"preserved": true,
+			"reason": "Present verbatim; the Wayback link resolves."
+		},
+		{
+			"passage": "For a later _East of Eden_ moment with only a few lines, which an assistant director would usually read, \"he insisted on coming back early to be in the room and reading with me,\" she told",
+			"preserved": true,
+			"reason": "Present verbatim."
+		},
+		{
+			"passage": "The record also lacks the scene that would separate them most clearly, Faist in open conflict or let down by a collaborator. A Six would grow wary and look for firmer ground. A Four would withdraw and insist on what feels true.",
+			"preserved": true,
+			"reason": "Changed, with its contribution kept. The first sentence (\"The record also lacks the scene that would separate them most clearly, Faist in open conflict or let down by a collaborator.\") and the closing confidence sentence survive verbatim. Only the prediction sentences changed, because enneagram-05 showed that \"grow wary\" and \"withdraw\" do not separate the types. The new predictions (allies or a trusted authority versus holding to his own sense of what is true at a cost) give a sharper test, so the passage's distinctive job is preserved and improved."
+		},
+		{
+			"passage": "A counterphobic Six moves toward what frightens him, though he gave versions of that answer all through one press cycle.",
+			"preserved": true,
+			"reason": "Present verbatim after the Cultured volcano quote."
+		},
+		{
+			"passage": "Florence Pugh saw that from across a scene. For a later _East of Eden_ moment with only a few lines, which an assistant director would usually read, \"he insisted on coming back early to be in the room and reading with me,\" she told [TV Insider](https://www.tvinsider.com/1294095/east-of-eden-cathy-charles-florence-pugh-mike-faist-interview/).",
+			"preserved": true,
+			"reason": "Present verbatim."
+		},
+		{
+			"passage": "He called it \"transcendental: either I didn't feel like I was myself, or I was the most authentic version of myself. I can't really tell which one.\"",
+			"preserved": true,
+			"reason": "Present verbatim as the hook's second sentence; quote verified in S04."
+		},
+		{
+			"passage": "Fans \"feel like they know us, in a way,\" he said, and \"I don't want to take that away from them, by having them meet who I actually am.\"",
+			"preserved": true,
+			"reason": "Present verbatim; quotes verified in S12."
+		},
+		{
+			"passage": "\"There's something about Mike that reads to me like a hermit crab or something. There's this shell on the outside and you can't tell what's inside.\"",
+			"preserved": true,
+			"reason": "Present verbatim in the closing section; verified in S02."
+		},
+		{
+			"passage": "That spring he described Evan and Connor to Interview, and the sentence drifted from the characters into the first person",
+			"preserved": true,
+			"reason": "Changed for accuracy, with its contribution kept. The checkable they-to-we shift and the full quote remain (\"the pronoun slid from 'they' to 'we'\"). The \"drifted ... into the first person\" framing was removed because the source's next sentence (\"Teens don't want to let people know how they are actually feeling\", verified in S09) shows a generational \"we.\" Removing a misleading implication is a permitted change, and the observation survives."
+		},
+		{
+			"passage": "The best argument against the Four reading is the feeling Faist reports more than any other.",
+			"preserved": true,
+			"reason": "Present verbatim, opening \"Why not Type 6?\""
+		},
+		{
+			"passage": "Some of what is on record sits awkwardly with any Four reading, and it belongs in the portrait.",
+			"preserved": true,
+			"reason": "Present verbatim, opening \"What the type doesn't explain.\""
+		},
+		{
+			"passage": "He rarely did the stage-door autograph line, he told [MTV News](https://web.archive.org/web/2017/http://www.mtv.com/news/3002027/mike-faist-dear-evan-hansen-interview/) in April 2017, signing only \"maybe twice a week\" for repeat customers. Fans \"feel like they know us, in a way,\" he said, and \"I don't want to take that away from them, by having them meet who I actually am.\"",
+			"preserved": true,
+			"reason": "Present verbatim."
+		}
+	],
+	"coverage_complete": true,
+	"metadata_consistent": true,
+	"alternative_type_addressed": true,
+	"five_year_test_passed": true,
+	"open_case_eligible": false,
+	"scores": {
+		"evidence": {
+			"score": 8.5,
+			"passage": "The motive is Kushner's reading. The scrubbing is something he watched.",
+			"reason": "I reopened all 33 cited sources (28 web pages live or via Wayback or reader, plus five videos) and machine-matched 103 quoted fragments against fresh copies: zero mismatches. I independently re-transcribed six video clips with a different model. Context holds throughout: the generational \"we,\" the registers of each self-doubt quote, Kushner's caution kept with his general remark, and the May 2021 and post-release refusals kept as separate accounts. Inference is labelled where it occurs (\"The motive is Kushner's reading,\" \"This suggests,\" \"It was not a confession\"). Five named collaborators give independent testimony, and do-not-use items are respected. It is not higher because most of the record is launch-week self-report, and three small framing stretches remain (verify2-01 to -03)."
+		},
+		"enneagram": {
+			"score": 8,
+			"passage": "It leads on what he guards. From 2017 to 2026 the fear that recurs is of his plain self being seen: fans kept from meeting \"who I actually am,\" a delivery job hidden from Ben Platt out of shame, \"I'm embarrassed to do this interview.\"",
+			"reason": "This matches the Enneagram 8 anchor. The Six alternative gets its full case (anxiety before every project, the worst-case run of questions, research \"to feel more secure,\" trusted leaders, groups, the counterphobic volcano). Non-discriminating evidence is explicitly withdrawn: craft doubt and actor vocabulary, with Anderson as the baseline. The lead rests on two dated, person-specific legs with limits stated, and the settle signal predicts different behaviour. It is not higher because the second leg rests on one dated episode (May 2021) confounded by his father's illness, plus an undated second-hand account. And the article concedes Four and Nine \"are not yet separated,\" so one live alternative remains unresolved at medium confidence."
+		},
+		"originality": {
+			"score": 8.5,
+			"passage": "In 2021 he could not decide whether that state was losing himself or finding himself. That question is where the Four and Nine readings part, and he has never settled it.",
+			"reason": "Many details belong only to Faist and are verified: Kushner watching him scrub the mural, the stage-door choice to protect fans' \"illusion\" of Connor, hiding a Postmates job from Ben Platt, learning to fly \"to bond,\" reading off-camera lines for Pugh, Kazan's hermit crab. The unresolved \"losing himself or finding himself\" fork comes from his own words and survives the type argument. \"What the type doesn't explain\" adds service, humour and ambivalence. It is not 9 because the spine (feeling safer as a character) is, as the article admits, a common actor pattern. And the closing partly re-states the intro's \"braver\" thesis instead of moving it forward."
+		},
+		"writing": {
+			"score": 8,
+			"passage": "A joke, a dancer's comparison and a hope. None is a confession, but each marks him down.",
+			"reason": "The prose is precise, with varied paragraph shapes and well-placed short beats, like the line quoted here. The Six section is well built (\"Not because of the self-doubt ... Not because of his vocabulary either ... It leads on what he guards ... It also leads on what he gave up\"). Against that: \"Two years out of view\" is a quote mosaic, and the same handful of quotes cycles through the gap, Six and Nine sections. \"Of these episodes\" points at an unlisted set. \"Saying no on the way up\" is a dense chronology with 28 \"told\"s across the body. At 3,682 words it runs a little long (verify2-04)."
+		},
+		"durability": {
+			"score": 9,
+			"passage": "As of October 2026, no reason had been made public.",
+			"reason": "This meets the Durability 9 anchor. Every changing fact carries an absolute date (the May 2021 Times interview; the shoot around 2024; Sgt. Rock 2025; Anna Christie announced June 2025 and withdrawn by August 26; GQ August 2026; premiere October 1, 2026; \"turned 34 in January 2026\"). Time-sensitive claims (C35, C45, C48, C88, C95, C97, C110, C123) carry actionable triggers. Removing the 2026 press cycle still leaves the 2017 stage door, the 2021 refusals and Kushner's account, the 2024 vessel and Kazan's testimony, so the argument stands."
+		},
+		"hook": {
+			"score": 9,
+			"passage": "He called it \"transcendental: either I didn't feel like I was myself, or I was the most authentic version of myself. I can't really tell which one.\"",
+			"reason": "The opening is a specific, dated, sourced scene (May 2021, Park Slope, the Times). It poses the question the profile pays off in the vessel section and the Four/Nine fork. The turn to \"He was turning down offers anyway,\" with the father's illness named, sets up the refusals honestly. The orientation paragraph slightly delays the \"braver\" quote."
+		},
+		"discoverability": {
+			"score": 8.5,
+			"passage": "Mike Faist's personality type is Enneagram Type 4, the Individualist, read at medium confidence. Fours sit in the heart triad, whose core emotion is shame.",
+			"reason": "The meta title (51 characters) and description (151) are accurate and do not overstate. The 56-word type answer comes directly under the type H2. Seven FAQs match high-intent searches (type, Type 6, the break, the East of Eden role, the Dear Evan Hansen film, parents, age), and each agrees with the body. Internal links go to the Type 4/5/6/9 pages and three published people pages (Zendaya, Austin Butler, Tom Hardy, all published: true). The keywords are answered in the body."
+		}
+	}
+}

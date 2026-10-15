@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "9edd7257f98ee24cc5af89db885caea2ac059392d31d42316edcb2b70614d346",
+  "evidence_sha256": "b5d6733f12f988e152896a829b71c5bd34a19acd276a3ef2c5a915bd77555546",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "What brought him back was a test he set before taking the job.",
+      "problem": "The 'Walking away at the top' section gets the order of events wrong. It runs: Challengers opens in April 2024, then 'What stopped was new work.', then Sgt. Rock (2025), then Anna Christie (June-August 2025), then 'What brought him back' (the Kazan meetings for East of Eden). But East of Eden came before the break, not after it. In August 2026 GQ (S02) says he was about to rehearse 'the first production he's worked on since East of Eden two years ago'. Cultured (S07) has him say that after the Challengers 'whiplash' he 'was very fortunate Zoe and Florence came to me'. Neither 2024 Challengers profile (S01, S06) mentions East of Eden. So he did take new work after April 2024, and the Kazan test came before the gap, not at its end. The draft's own intro ('and then shooting East of Eden, he worked on nothing new for about two years') and its break FAQ get the order right, so the body contradicts them. The Six section repeats the slip: 'after _Challengers_, two years without a new production.' A reader who followed the casting will see the hiatus story bent to make East of Eden the comeback.",
+      "acceptance_test": "In the body, the Kazan meetings and the East of Eden shoot come before Sgt. Rock and Anna Christie. 'What stopped was new work' moves to after the East of Eden shoot. 'Brought him back' refers only to the October 2026 release or the unnamed August 2026 production. The Six-section line reads 'after the East of Eden shoot' or equivalent. Intro, body and the break FAQ all give the same sequence."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "Faist's own explanation pointed inward again.",
+      "problem": "He did not explain the break in purely inward terms. The two sources this passage relies on also record outward and unreflective answers, and the draft keeps only the inward lines. In GQ (S02), the same conversation as 'stamina': 'There's things that pop up and for whatever reason, they don't happen because of the industry and financing ... There's no control in this industry.' In Cultured (S07), asked directly whether he wanted to take a beat, he first said 'You know, there really isn't a lot of thought.' In the same answer as the quoted 'noise' line he said 'The truth is that Challengers was a lot. It was very overwhelming ... the dust had to settle a little bit.' Elsewhere in that interview he said 'It was very jarring. It was a whiplash situation. It's something that I wasn't very prepared for' and 'I don't really know how much control I actually have over any of this.' The draft takes 'noise', 'hear myself think' and 'allow things to be quiet' from that answer and drops its first sentence and the overwhelm. The break FAQ does the same. This is the newest and most-searched episode in the profile, and the trimmed quotes make it look more deliberate and authenticity-driven than he described it.",
+      "acceptance_test": "The break passage and the 'Why did Mike Faist take a break after Challengers?' FAQ include, attributed, at least the industry/financing line (or an accurate paraphrase) and the overwhelm/whiplash line. 'Pointed inward again' is revised so it no longer says his explanation was only inward. The Four argument is then restated using all the reasons he gave. If this episode no longer separates Four from Six, the article says so."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "Then look at what he gives up. In none of the decisions on record does he describe weighing security. He gives it away.",
+      "problem": "This sentence is false for the very decision the Four section leans on hardest: saying yes to East of Eden. On PBS (S03), describing how he agreed to Kazan's offer, he said 'she had a really specific point of view ... That helps any sort of anxieties because it's like, well, someone's steering the ship. Someone knows what they're doing.' GQ (S02) reports he thinks he signed on because the work 'provided a feeling of home', and quotes him: 'I had to go back a little bit to basics'. The draft uses 'someone's steering the ship' in the Six section without telling the reader it describes the same decision whose 'right for me' test the Four section then counts as self-referential. The 'off in a corner' warning (S03) is used here as solitary withdrawal. In the same answer, though, he presents it as telling his co-stars what he needs because 'you are building an environment of trust and safety'. So the Four case takes from the East of Eden decision only the half that helps it.",
+      "acceptance_test": "The article tells the reader that 'someone's steering the ship' and 'this is right for me' both describe the East of Eden decision, and weighs them together. 'In none of the decisions on record does he describe weighing security' is removed or narrowed to what the record supports (for example, the 2021 refusals). The 'off in a corner' quote either keeps its trust-and-safety framing or is no longer cited as evidence that he moves away from allies."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "And Five detachment fits poorly with a man who got a pilot's license on what he called a \"really crazy and really impulsive\" whim and turned the Jets into a tribe.",
+      "problem": "Calling it a 'whim' strips the reason he gave. In Interview 2017 (S09) he explains that at 17 he met his birth mother's family, 'a family of pilots'. When a half-brother took him up, he thought 'Hey, I can do this! That's how we can bond!' It was really crazy and really impulsive ... So I got my pilot's license ... And now we bond as a family in a way.' Esquire (S06) tells the same origin. The licence was an impulsive attempt to bond with a family he had just found. Cut down to a 'whim', it becomes generic impulsiveness used to dismiss Type 5. The reader also loses a belonging motive that bears directly on the Six case. Fans know this story. The body never mentions that he is adopted; only an FAQ does.",
+      "acceptance_test": "The pilot line either keeps his stated reason ('That's how we can bond!'), attributed to Interview 2017, or is cut. If it stays, the body says plainly that he is adopted and met his birth family at 17. Per the research do-not-use list, no birth-family member is named and no inner-life link is invented. The Five and Six sections then weigh the anecdote with its real motive."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "Faist, born in 1992 and raised in Gahanna, Ohio, has made that move more than once. He originated Connor Murphy in _Dear Evan Hansen_ and left the show in 2018.",
+      "problem": "The 'repeatedly stepped back' pattern leaves out work choices that point the other way, and well-informed fans know them. (1) In May 2023 he made his West End debut as Jack Twist in Brokeback Mountain at @sohoplace, in a run that ended on August 12, 2023 (AP, S29; Wikipedia, S32). That meant eight shows a week, two years after telling the Times that eight shows a week had left him without it 'in me anymore', and it came during his father's illness. The draft mentions the run only to source 'We're always nervous' and never treats it as a choice. (2) Later in 2018, after leaving Dear Evan Hansen, he starred off-Broadway in Days of Rage at Second Stage (S32). The DEH exit ended a long-running role; it was not a step back from work. (3) In September 2026 he told Cultured (S07) 'I would love to go back to the theater ... I remain open and optimistic that I'll be able to find my way back.' He said that a year after leaving Anna Christie. That pull toward the stage and back away from it is the most revealing contradiction in the record, and the draft never examines it. The meta_title ('Why He Keeps Stepping Back') and the description ('his habit of stepping back at the top') both rest on this incomplete list.",
+      "acceptance_test": "The body names the 2023 Brokeback Mountain run as a dated choice and either fits it into the pattern or lists it as counterevidence. The opening no longer counts the 2018 DEH exit as a step back from work without noting that he went on to Days of Rage that year. The meta_title, description and type FAQ describe the pattern no more strongly than the corrected record supports."
+    },
+    {
+      "id": "fan-06",
+      "severity": "major",
+      "passage": "Kushner told GQ he was \"intrigued by what he's decided to do and what he has decided not to do and what he's fought hard to get out of.\"",
+      "problem": "The quote is trimmed and then placed where it implies something Kushner did not say. In GQ (S02) it opens with a caution: 'That's hard with actors, because you can also become an actor who says no to a lot,' Kushner says. 'But I'm intrigued by ...' It also sits in the writer's general question of whether the industry 'will continue to wait for Mike Faist', not in the Anna Christie passage. The draft drops the caution, which is the only skeptical note from a close collaborator. It then puts the rest straight after 'No reason has been made public', so 'what he's fought hard to get out of' reads as Kushner hinting at the Anna Christie withdrawal. The research record says no reason is known and the draft should not guess. Placing the quote there guesses anyway.",
+      "acceptance_test": "Kushner's caution about becoming 'an actor who says no to a lot' is quoted or accurately paraphrased alongside the rest. The quote is moved or framed so it does not read as commentary on Anna Christie, for example by placing it with his earlier account of the parts Faist turned down. Nothing next to the Anna Christie sentence implies a known reason."
+    },
+    {
+      "id": "fan-07",
+      "severity": "minor",
+      "passage": "After his first dailies came in, Netflix's response, as Kazan tells it, was \"We'll pay for another episode.\"",
+      "problem": "The article never says whom he plays in East of Eden, though that is what premiere-window searchers want first. He plays Charles Trask, Adam's brother, 'a quiet farmer who's dangerous when provoked' (Cultured, S07), a part GQ (S02) calls 'playing against type'. The dailies anecdote is also unexplained. GQ says Charles was written for the first two episodes and the top of a third, and after the first dailies Netflix paid for Kazan to write him into a later episode. As printed, the quote means little to a reader who doesn't already know that.",
+      "acceptance_test": "The role, and the fact that it is against type, are named in the intro or the East of Eden passage. The dailies anecdote says in one clause that Netflix expanded his part as a result."
+    },
+    {
+      "id": "fan-08",
+      "severity": "minor",
+      "passage": "He said that to his friend, the designer Jonathan Anderson, in a conversation",
+      "problem": "Two facts fans know, both bearing on the hook, are missing. First, Anderson is more than a designer friend. He did the Challengers costumes for Guadagnino and in 2024 put Faist in a Loewe campaign and on the Met Gala carpet in a custom look (Cultured, S07). So the 'braver as someone else' line came in a commissioned magazine conversation with a professional patron during the East of Eden press week. And the campaign and the Met Gala are public self-presentation, which complicates 'being himself in public is harder'. Second, the article never shows how high 'the top' was. His Riff earned a BAFTA nomination (S32), yet the draft cites 'he told BAFTA' twice without saying so; the DEH cast also won a Grammy (S07, S32). As a result, 'walking away at the top' is asserted rather than shown.",
+      "acceptance_test": "Anderson is identified by his Challengers/Loewe role at first mention. Wherever the article argues he avoids public self-presentation, the 2024 Loewe campaign and Met Gala appearance are included so the reader can weigh them. The BAFTA nomination for Riff is stated where the post-West Side Story demand is described."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "That spring he described Evan and Connor to Interview, and the sentence drifted from the characters into the first person: \"they don't want people to see them because if we allow ourselves to be seen, actually seen, and allow [ourselves] to be vulnerable, then we lose the game.\"",
+      "reason": "This is a distinctive, checkable detail: the slip from 'they' to 'we' is visible in the 2017 source. It shows the article's thesis instead of stating it, and a fan would not have noticed it on their own."
+    },
+    {
+      "passage": "The motive is Kushner's reading. The scrubbing is something he watched.",
+      "reason": "This is a model of separating what a witness saw from what he inferred. It keeps the most humane anecdote in the record while showing exactly where the evidence ends."
+    },
+    {
+      "passage": "In 2021 he could not decide whether that state was losing himself or finding himself. That question is where the Four and Nine readings part, and he has never settled it.",
+      "reason": "It turns his own unresolved 2021 description into the actual Four/Nine discriminator and admits it is still open. The article is better for leaving that question unsettled."
+    },
+    {
+      "passage": "He rarely did the stage-door autograph line, he told [MTV News](https://web.archive.org/web/2017/http://www.mtv.com/news/3002027/mike-faist-dear-evan-hansen-interview/) in April 2017, signing only \"maybe twice a week\" for repeat customers.",
+      "reason": "This is a concrete, dated piece of early evidence from before he was famous, and it anchors the 'braver as someone else' pattern almost a decade before the 2026 quote. Theater fans will recognize it, and it is accurately sourced."
+    },
+    {
+      "passage": "For a later _East of Eden_ moment with only a few lines, which an assistant director would usually read, \"he insisted on coming back early to be in the room and reading with me,\" she told",
+      "reason": "This is specific co-star testimony about a behavior, not praise. It is filed honestly under 'What the type doesn't explain' rather than bent to fit the thesis."
+    }
+  ],
+  "assessment": "Fan-proxy read, with sources reopened from the saved research texts (NYT 2021, GQ 2026, Cultured 2026, PBS 2026, Interview 2017, Esquire 2024, AP 2023, Another Man 2024, Wikipedia). The quotes printed in the draft match their sources, the do-not-use list is respected (no birth-family names, no weight figure, no diagnosis, Anna Christie left unexplained in the text), and the early-career chapters are faithful and well chosen. The weak spot is the recent break, which is also the episode readers searching after the East of Eden premiere care about most. The body puts East of Eden after the 2025 events (fan-01). It drops his outward and overwhelm explanations (fan-02). It splits the East of Eden decision so that only its Four-friendly half counts for the Four reading (fan-03). And it leaves out the 2023 West End run and the 2018 Days of Rage job that complicate 'keeps stepping back' (fan-05). Each slip favors the Four reading, and the pilot-licence 'whim' (fan-04) and the placement of the Kushner quote (fan-06) do the same on a smaller scale. Taken together, they make the 'he gives security away' discriminator look stronger than the record supports. Type 4 at medium confidence may survive the repairs, but the editor should re-test it on the corrected facts and lower the confidence or narrow the claim if the discriminator stops separating Four from Six. Similarity advisory: it tripped only on 'the public record' and 'at medium confidence', which are ordinary hedging. The Type 4 gloss ('wants to be himself and be seen that way') is ordinary type vocabulary, not reused argument. No meaningful reuse found. Not an open case: the record runs from 2012 to 2026 and is deep."
+}

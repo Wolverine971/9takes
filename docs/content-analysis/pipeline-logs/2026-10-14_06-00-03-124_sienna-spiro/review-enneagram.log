@@ -1,0 +1,19 @@
+I wrote the Enneagram review to `docs/content-analysis/pipeline-logs/2026-10-14_06-00-03-124_sienna-spiro/review-enneagram.json`. It passes the contract's review schema and carries the hashes from the request. Every passage it cites matches the draft exactly. I changed no other files, and nothing was published.
+
+**The main problem: the draft's reason for ranking Four above Two doesn't hold up against the interviews.** It says Four leads because she now pulls back from people, while her "making myself needed" story is in the past. The saved interview transcripts don't support that:
+- **Pulling back is also in the past, and she rejects it.** "I was completely opposed to being in a relationship… it's really not the way to live."
+- **The key quote means the opposite of how the draft uses it.** "If you don't want me, don't have me" is her new acceptance that relationships can end. She follows it with "I can be very valuable to some people."
+- **Her present-tense statements lean Two.** In June 2026: "I always feel like I give a lot of myself… been taken advantage of." She also defines the "visitor" feeling as becoming disposable unless she keeps showing up, which is the Two's fear. The draft's opening counts it as Four evidence.
+
+I logged that as a blocker. It also appears in the Type 2 FAQ.
+
+**What you might need to decide:** the editor can either rebuild the Four case on evidence that actually separates it from Two (feeling unreal except when singing, or an envy lyric about her sister) or switch the leading type to Two. A switch changes the title, description and FAQs. Under the standard it also means holding for `--refresh --expanded-review` rather than being fixed in the edit stage.
+
+**Other findings:**
+- **Major:** Several of the "what would settle it" signals are already partly answered by existing interviews, or depend on things any artist says in promo, so they can't tell the types apart.
+- **Major:** The draft counts "she leads with her own feelings" against Two, but that is just what interviews about confessional songs produce. It also never tests the Four's core trait, feeling fundamentally different. She does the opposite and keeps calling her feelings "normal" and shared.
+- **Minor:** The reasons given for setting aside Types 6 and 9 are weak.
+- **Minor:** The final verdict never says why Three ranks third.
+- **Minor:** The sister-envy lyric needs its next lines, checked against the official lyrics, to read clearly as envy.
+
+The open-case format still fits her: she's 21, broke out in October 2025, and the research was thorough. The similarity check didn't flag any reused writing. I marked five passages to keep, including the school-assembly opening and "Melancholy and candor are her genre's currency."

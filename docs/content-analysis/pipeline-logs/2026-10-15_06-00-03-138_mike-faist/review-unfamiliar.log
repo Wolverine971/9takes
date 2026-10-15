@@ -1,0 +1,19 @@
+I wrote the unfamiliar-reader review for the Mike Faist draft to `docs/content-analysis/pipeline-logs/2026-10-15_06-00-03-138_mike-faist/review-unfamiliar.json`. It passes the pipeline's review format check, and its two content fingerprints are copied from the request. I didn't touch any other file in the repo or publish anything.
+
+**Verdict:** a newcomer gets hooked and learns a lot. It opens on his own contradiction ("I didn't feel like I was myself, or I was the most authentic version of myself"), says plainly what's at stake, and makes a real case for Type 6. Two gaps undercut that.
+
+**Major findings (2):**
+- **The article never says who he played in the two works it leans on.** It never says he played Riff, leader of the Jets, in *West Side Story*, which carries the hook. It never says he plays Charles Trask in *East of Eden*, the show that has people searching for him this month. "Riff" first shows up about 2,000 words in, as a name in a scene.
+- **The timeline of his two-year break contradicts itself.** The opening, the FAQ and GQ put the *East of Eden* shoot right *before* the break. The "Walking away at the top" section says *East of Eden* "brought him back," which puts the shoot *after* the break. That's the episode the Type 4 vs. Type 6 argument rests on, so a newcomer can't follow it.
+
+**Minor findings (6):**
+- The type section never explains how "shame" (the Type 4 core emotion) fits with "anxiety" (the feeling he reports most) until about 2,000 words later.
+- The closing line "The Four reading predicts… he shows himself most fully as someone else" reads as a paradox without the step that connects it, and claims more than medium confidence allows.
+- "We'll pay for another episode" is unexplained.
+- The Ben Platt and "Evan" mentions assume the reader knows *Dear Evan Hansen*.
+- "Told" appears 46 times. The body is about 3,770 words against a roughly 3,500 target.
+- The "security he gave up" sentence cites the Brooklyn apartment. Two paragraphs earlier, he swapped it for a house he bought in Columbus.
+
+**Five protected passages:** the opening quote, the stage-door quote, the "The motive is Kushner's reading" line, the Four/Nine callback, and the hermit-crab image.
+
+**Similarity check:** the matches flagged against other profiles are only "the public record" and "at medium confidence," which are stock confidence labels, not reused arguments. I agree with the existing contested-typing flag and found no new risks.

@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "0751ee70e4adbb996a1cecd857e21f6c938e39b3691a458396341956a5dff384",
+  "evidence_sha256": "424793da85772e3b2c38733fc13fc157dcd9eaa4294f12623ec08538b8c3c898",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "blocker",
+      "passage": "Four leads because the pattern she describes in the present tense, withdrawal into longing and then into song, is the Four's.",
+      "problem": "The stated reason Four leads misreads the sources it relies on. (1) The withdrawal is told in the past tense and she rejects it. Zach Sang, S13, about 03:50-04:50: \"I was completely opposed to being in a relationship ... I became very closed off and I and became very sad. And it's not it's really not the way to live.\" Lyrical Lemonade, S16, about 17:45-18:25: \"I was closed off ... No one should be like that cuz you'll never you'll never you'll never like evolve as a person.\" (2) In context, \"if you don't want me, don't have me\" (Z100, S19, about 14:00-14:40) is not withdrawal. She first quotes her old self (\"I'm not going to start a relationship ... not getting into another friendship\"), then gives the new stance: \"So be it. Allow it to end.\" Right after it she adds: \"I think I'm a very loyal and I can be very valuable to some people and if someone doesn't want me, that is okay.\" So she means entering relationships and letting them end. She is not closing herself off. (3) Meanwhile the record has present-tense giving after her breakthrough, which the draft prints only in part. S13, about 49:00, June 2026: \"I always feel like I give a lot of myself ... if I love somebody I'll do anything ... that has, you know, been taken advantage of a bit in my life.\" Both strategies, helping and closing off, are told as earlier phases she outgrew. The tense asymmetry the verdict needs is not in the record. The direction of the arc also can't discriminate under the model's own lines: Two is a Four's stress point and Four is a Two's growth point. The same error recurs in \"What she describes now runs the other way\", in the Four case's \"And when she expects to lose someone now, she withdraws instead of giving more\", and in the Type 2 FAQ (\"by July 2026 her stance on relationships had become 'if you don't want me, don't have me'\").",
+      "acceptance_test": "No passage in the body or FAQs presents \"completely opposed to being in a relationship\" or \"if you don't want me, don't have me\" as her current stance or as withdrawal. The July 2026 quotation is either cut or given its context: allowing relationships to end, plus the \"very loyal and I can be very valuable to some people\" follow-on. The verdict paragraph gives a reason for Four's lead that does not depend on which pattern she tells in the present tense. The article adds no wing or arrow to settle the conflict. If no such reason survives, see enneagram-02."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "The Four case rests on what she does with what's missing. She treats sadness as who she is.",
+      "problem": "Without the tense argument, the Four lead rests mainly on evidence the article itself discounts: \"Melancholy and candor are her genre's currency ... weak evidence of motive.\" That covers sadness as identity, which also has the depression confound she discloses, and longing for an absent man, which she frames as ordinary idealizing (\"you see in some people what you want to see\", S16, about 20:30). \"Other people's agenda\" counts against Three more than against Two. The Two evidence, by contrast, is at the level of core belief and repeats after her breakthrough. \"I never thought people would want me otherwise if they didn't need me\" (S18). \"Somebody leaving just because they they don't need you anymore is way more painful than them just dying\" (Genius, S23, about 03:00, February 2026; not printed). She also defines the visitor feeling in Two terms (see enneagram-03). The article's own persona_title (\"The Visitor Who Made Herself Needed\") and description lead with the Two statement. The open-case anchors allow a loose lead, but the reason for it has to discriminate.",
+      "acceptance_test": "Option (a): the verdict cites at least one dated observation that the Two reading does not predict as well, and says why it outweighs her core-belief statement. Candidates are the derealization cluster (\"the way I felt like a real person ... that I feel like myself\", S13, about 54:30; \"I wish I was real\", S15), labeled with its depression confound, and the sister-envy lyric with its object made clear (see enneagram-08). Option (b): the lead moves to Two, with Four as the closest rival. That changes `enneagram`, title, meta_title, description, the 60-word answer and the FAQs, and under the standard it requires a hold for --refresh --expanded-review. It must not be absorbed in the edit stage."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "She calls herself \"naturally sad,\" someone who has always felt like a visitor in other people's lives. That reads like a Four.",
+      "problem": "The hook places the album's central concept on the Four side, but each time she defines it, it sits on the Two's axis of being wanted only while useful. Capital, S21, about 06:30-07:10, April 2026: if she stopped initiating, \"it wouldn't happen ... it happens in your adult life as well and it keeps happening ... that's kind of to me what being a visitor is. It's knowing you're temporary to somebody and knowing if you don't show up in that specific way, you're you're you're expired to them.\" Genius, S23: she mirrors people \"to be kept around and for people to ... not just see me as someone just visiting in their life.\" Z100, S18: asked why she felt like a visitor, she gave the Two strategy. The evidence record's own C08 calls the theme compatible with both types. The article also shelves the theme under the Four section (\"The album is built on a related feeling\") without saying that it fits Two as well.",
+      "acceptance_test": "The hook no longer says the visitor feeling \"reads like a Four\". Where the theme is discussed, the article says she defines it as becoming disposable unless she keeps showing up, and counts it for both readings or for Two, citing at least one of S21 or S23 with its date."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "What strains it is that she leads with her own feelings, not other people's needs, and tells the helper story in the past tense, as something she learned to stop.",
+      "problem": "The first criterion is an artifact of the format. Every source is a promotional interview for confessional songs, which is the draft's own incentive argument. It is also contradicted: \"I think I'm good at understanding human emotion, I would say. I've always I've always kind of been that like friend that that people come to\" (Capital, S21, about 05:50-06:10, April 2026, where the host calls her \"the advice girl\"). The tense claim fails for the reasons in enneagram-01. The Four side also skips the type's core marker: experiencing herself as fundamentally different or apart. The record leans the other way, because she keeps describing her feelings as shared. On her sadness: \"a very normal, human way to be\" (Vogue, S06). On the visitor feeling: \"a very like specific feeling that I think a lot of people feel\" (S13, about 03:40). To listeners: \"I really hope people understand that that is actually really normal and really okay\" (S19, about 13:00-13:30). Self-presentation in these interviews confounds both readings equally, so it can't count against only one.",
+      "acceptance_test": "The Two strain uses a criterion the interview format does not produce on its own, or it is cut. The weighing section says whether she presents her sadness and visitor feeling as setting her apart or as shared, cites at least one dated example, and draws the consequence for the Four read. The paragraph no longer calls the helper story past tense without the June 2026 present-tense giving quotation."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "major",
+      "passage": "1. **A friendship that cools after fame.** Does she describe doing more, initiating and being the therapist friend, and being hurt it wasn't returned (Two)? Or pulling back, grieving privately and writing about being temporary (Four)?",
+      "problem": "Several settle signals are already partly answered, or have branches that PR produces for any type. Signal 1's Two branch is on record after her breakthrough: \"people will never treat you the way you want them to ... I always feel like I give a lot of myself ... that has, you know, been taken advantage of a bit in my life\" (S13, about 48:50-49:20, June 2026). So is the initiating account: \"it happens in your adult life as well and it keeps happening\" (S21, April 2026). Signal 2's Two branch (\"framed around helping listeners feel less alone\") already describes how she framed Visitor (\"I really hope there's a song in there for everyone\", S19, about 13:00). Signals 3 and 5 assign Two to crediting team and fans, which the article itself calls standard courtesy and which she already does. Signal 5's Three branch (defending her work ethic) is the stock answer to a nepotism question. As written, these can't separate the readings.",
+      "acceptance_test": "Each signal's branches ask for something not yet on record and not routinely produced by promotional framing. The article says what the record already shows for signal 1 (and 2, if kept). At least two signals turn on observed behavior or third-party testimony, for example the pre-2022 witness signal or a dated, corroborated relationship episode, rather than on her framing in a promo interview."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "She calls herself \"very superstitious\" and trusts her manager, but her named fear is being unwanted, not unsafe, and she left school on a producer's promise. She reports numbness, but where a Nine mutes her own opinions, she rarely mutes hers.",
+      "problem": "Each dismissal leans on a weak or contradicted datum. Leaving school on an authority figure's promise is trust in an authority, which fits a Six as easily as it cuts against one. The named fear is the real discriminator. The Nine dismissal ignores the article's own \"I sometimes mirror the people around me to be kept around\" and her repeated deferring to Omer Fedi.",
+      "acceptance_test": "The Six dismissal rests on the named-fear discriminator, and the producer clause is cut or reframed. The Nine dismissal acknowledges the mirroring quotation and says why its stated purpose (\"to be kept around\") points to attachment and approval rather than a Nine's merging to keep the peace."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "The Three case is the drive, from the school campaign to the suit, plus the cooler phase and her habit of giving way when a result proves a collaborator right.",
+      "problem": "Three gets the most behavioral evidence in the record. She told everyone she had a place at ELAM before she had one, sent videos daily, sold tickets on a 2 a.m. TikTok live, wore the suit when she wasn't \"feeling accomplished\", released \"Back to Blonde\" \"for all the wrong reasons\", and says she still struggles with outside validation. Its only counter is conceded in the same paragraph (\"cost her nothing measurable\"). Yet the verdict paragraph never says why Three ranks below Two or Four, so the reader can't see why Three is third rather than second.",
+      "acceptance_test": "The verdict paragraph gives one sentence on Three: either the observation that ranks it below the other two (for example the applause moment behind \"Pure\" and her disowning of \"Back to Blonde\", with the cost caveat), or a plain statement that it ranks third on her self-description alone."
+    },
+    {
+      "id": "enneagram-08",
+      "severity": "minor",
+      "passage": "The song holds the record's clearest Four lines. She quoted one to [Cosmopolitan](https://www.youtube.com/watch?v=E7gMF6h8_9o): \"I get jealous when I see myself in my sister's eyes.\"",
+      "problem": "Out of context, the line could mean jealousy of how her sister sees her, so \"clearest Four lines\" rests on an ambiguous fragment. In the Austin City Limits performance captions (S25, about 19:00), the next lines appear to be \"At least she can have a good time. At least she can calm down.\" That would make it envy of a sibling's ease, a specific Four datum and the strongest Four evidence the draft could use. Captions of sung lyrics are unreliable (research note), so the lines need an official source.",
+      "acceptance_test": "Either the following line is verified against an official lyric source and quoted or paraphrased with attribution, making the object of the envy explicit, or \"clearest Four lines\" is softened to match what the printed fragment shows."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "She gave NYLON one more detail. When a child sang well at those assemblies, the room turned around to look for the mother. \"My mum was there filming, and everyone was looking behind. That was so validating.\"",
+      "reason": "Puts the open question into one sourced childhood memory, being believed and being applauded, without resolving it. That is the right opening for an open case."
+    },
+    {
+      "passage": "That is about as plain a description of the Type 2 strategy as anyone gives in an interview, and it wasn't a one-off.",
+      "reason": "Gives the rival its strongest evidence in her own words, with recurrence, instead of tokenizing it. That is exactly what the open-case anchor rewards."
+    },
+    {
+      "passage": "Performing in 2025, she caught herself waiting to see whether anyone would clap, and decided that was \"other people's agenda being pushed into mine.\"",
+      "reason": "The most discriminating approval datum in the record, in her own words with a concrete scene. It is the best anti-Three evidence and pairs with the closing \"I have to do it.\""
+    },
+    {
+      "passage": "Melancholy and candor are her genre's currency. That doesn't make hers false. It makes them weak evidence of motive.",
+      "reason": "A precise inference limit on the article's own leading evidence. Edits should apply it consistently (enneagram-02), not remove it."
+    },
+    {
+      "passage": "Those choices have cost her nothing measurable, though, and they fit the brand her manager describes.",
+      "reason": "Honestly concedes that her authenticity choices haven't yet been tested by cost. That is the real reason Three stays live, and it keeps the case from flattering the leading read."
+    }
+  ],
+  "assessment": "Open-case eligibility holds: she is 21, her breakthrough was October 10, 2025, the first-person record is two promotional cycles, and research opened 39 of 41 sources, including about 45,000 words of video transcript. The open items (Telegraph, Music Week Radar, the Vevo original) are listed as follow-ups, not a skipped deep record. The article's confidence language is honest throughout. Two gets a real section, wings and arrows are never used to explain contradictions away, and health is kept out of the typing. The problem is the reason Four leads. Reopening the transcripts (S13, S16, S19, S21, S23) shows that she tells both the helper pattern and the closed-off pattern as phases she outgrew. \"If you don't want me, don't have me\" is her new acceptance of endings, followed by \"I think I'm a very loyal and I can be very valuable to some people\", not withdrawal. Her present-tense statements after her breakthrough lean toward Two (\"I always feel like I give a lot of myself ... taken advantage of\"; someone leaving because \"they don't need you anymore\" is worse than death). She also defines the visitor feeling itself as becoming disposable unless she keeps showing up. With the tense argument gone, Four rests on sadness-as-identity and longing, which the article itself discounts as genre currency, plus a few genuine Four data: derealization, singing as the place she feels like herself, and the sister-envy lyric. Two now looks at least as strong. The editor should either rebuild the Four lead on a discriminating observation or move the lead to Two. A changed leading type is a thesis change and must hold for --refresh --expanded-review, not be absorbed in the edit. Several settle signals are already partly answered by the record or turn on stock PR behavior and need sharpening. Similarity advisory: not tripped (max 0.095, against Freddie Mercury's triad sentence, no shared phrases). The matches are ordinary type vocabulary, and the argument is specific to her."
+}

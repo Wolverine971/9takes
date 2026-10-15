@@ -1,0 +1,82 @@
+{
+  "schema_version": 3,
+  "role": "future",
+  "content_sha256": "9edd7257f98ee24cc5af89db885caea2ac059392d31d42316edcb2b70614d346",
+  "evidence_sha256": "b5d6733f12f988e152896a829b71c5bd34a19acd276a3ef2c5a915bd77555546",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "future-01",
+      "severity": "major",
+      "passage": "What brought him back was a test he set before taking the job.",
+      "problem": "The 2024-2026 break is misordered and the East of Eden shoot is never dated. GQ (S02, August 2026) says he was entering rehearsals for \"the first production he's worked on since East of Eden two years ago\", so the shoot was about 2024. Kazan's two meetings came before he agreed to the job, so before the break. Coming after the June-August 2025 Anna Christie withdrawal and the Cultured 'pull back' quote, this sentence tells the reader East of Eden ended the break. That reverses the actual order, and the intro and FAQ contradict it by putting the shoot before the two years. Two more lines leave out the 2024 shoot: 'Challengers opened in April 2024 ... What stopped was new work.' and, in the Type 6 section, 'after _Challengers_, two years without a new production'. The intro's 'After playing Art Donaldson in _Challengers_ in 2024' also puts the role in its release year; Esquire (S06) and S23 place the Challengers shoot before The Bikeriders' late-2022 shoot. This episode is one of the four discriminator episodes, and the most recent. Without absolute dates, a reader or refresher in 2031 cannot reconstruct the sequence.",
+      "acceptance_test": "The body gives the East of Eden shoot a sourced absolute date (at least the year). The intro, 'Walking away at the top', 'Why not Type 6?' and the break FAQ all use one order: Challengers released April 2024 (shot earlier), East of Eden shot in 2024, no new production until rehearsals around August 2026 (Sgt. Rock collapsing and the 2025 Anna Christie withdrawal fall inside that gap), Netflix premiere October 1, 2026. The Kazan 'right for me' test is presented as how he committed to East of Eden before the gap, not as what ended it. No sentence says new work stopped right after the April 2024 release."
+    },
+    {
+      "id": "future-02",
+      "severity": "major",
+      "passage": "Faist's own explanation pointed inward again.",
+      "problem": "In the same August 2026 GQ interview (S02), right after saying he was about to start rehearsals, Faist gave an outside reason for the gap: \"There's things that pop up and for whatever reason, they don't happen because of the industry and financing ... There's no control in this industry,\" with Sgt. Rock as his example. The draft quotes only the inward lines from that cycle ('stamina', Cultured's 'noise'). It then generalizes in the intro ('Each time, the reasons he gave pointed inward') and in 'Walking away at the top' ('The reasons he gave sat inside him'). Circumstance appears only as the author's caveat, never as something Faist said. 'What he gives up and why' is the Four-versus-Six discriminator. Leaving out his own external explanation for the latest episode overstates it, and the frozen record would mislead a future refresh.",
+      "acceptance_test": "The 2024-2026 episode quotes or closely paraphrases his GQ 'industry and financing ... no control in this industry' remark (attributed, dated August 2026) next to the inward reasons. 'Each time, the reasons he gave pointed inward' and 'The reasons he gave sat inside him' are qualified so they no longer say his stated reasons were only internal. The evidence record lists the remark as counterevidence on C35, C63 or C68."
+    },
+    {
+      "id": "future-03",
+      "severity": "minor",
+      "passage": "Mike Faist Enneagram Type 4: Why He Keeps Stepping Back",
+      "problem": "The meta_title and description ('his habit of stepping back at the top') present a dated pattern (2018, 2021, 2024-2026) as a habit that is still going on. Neither is in the claim inventory. The pattern claim behind them (C48) is marked stable with no review trigger, even though his next production (rehearsals around August 2026, C45) is the obvious test of 'keeps'. Likewise, the prose says 'Until that account exists, the Four reading holds at medium confidence', so the type confidence explicitly waits on future evidence. Yet C88 (no account of conflict or of being let down) is stable with an empty trigger. Research tasks (d) and (f) note this, but the claim inventory that drives maintenance does not.",
+      "acceptance_test": "The meta_title and description are in the claim inventory. C48 and those metadata claims are time_sensitive or unresolved, with an actionable trigger (for example: when the production he began rehearsing in August 2026 is announced, or if he takes on back-to-back projects through 2028, re-test 'keeps stepping back' in the title, description and type section). Alternatively, the title is reworded so it doesn't forecast. C88 is unresolved, with a trigger naming the discriminating evidence: a first-person or named third-party account of him in conflict with, or let down by, a collaborator, or a secure prestige offer that also feels 'right'."
+    },
+    {
+      "id": "future-04",
+      "severity": "minor",
+      "passage": "A friend from those years, now his roommate, told Another Man that teenage Faist was \"a loose cannon.\"",
+      "problem": "Three present-tense statements will go stale without anyone noticing. 'now his roommate' was the situation when Another Man reported it in April 2024 (S01). The age FAQ ('which makes him 34 as of October 2026') will soon answer 'How old is Mike Faist?' with an out-of-date number. And 'No reason has been made public' (Anna Christie, body) has no as-of date, although C35 rightly carries a trigger.",
+      "acceptance_test": "'now his roommate' is dated or removed (for example, 'who shared his home when Another Man visited in 2024'). The age FAQ answers with the birth date and either drops the computed age or makes clear it is relative to the birth date. The Anna Christie absence statement in the body carries an as-of date (October 2026)."
+    },
+    {
+      "id": "future-05",
+      "severity": "minor",
+      "passage": "The doubt has a decade of paper trail.",
+      "problem": "These spans are measured from the October 2026 draft date and grow as the page ages: 'for most of a decade he has said' (intro) and 'The doubt has a decade of paper trail'. The endpoint of the span, PBS's 'I still feel that way. Maybe I'll be good one day.', is undated in the body. The American Masters interview (S03, October 2026) is never dated at its first mention, so 'still' has no time attached. Cultured (S07, September 2026) is also undated at its first quote in the body ('He told Cultured:').",
+      "acceptance_test": "The relative spans become absolute anchors (for example, 'since at least 2017' or 'from 2017 to 2026'). The PBS interview is dated (October 2026) at its first body mention, or at least where 'I still feel that way' appears. The first Cultured quote in the body is dated (September 2026)."
+    },
+    {
+      "id": "future-06",
+      "severity": "minor",
+      "passage": "After Challengers and The Bikeriders in 2024, and the East of Eden shoot that followed, he worked on no new production for about two years.",
+      "problem": "The break FAQ ('Why did Mike Faist take a break after Challengers?') never says the break ended. A reader arriving from search in 2028 learns only that he stopped. The body records the end (rehearsals around August 2026, the October 1, 2026 premiere), but the FAQ does not. C97's trigger fires only when a later production is announced.",
+      "acceptance_test": "The FAQ answer ends with a dated close, for example: 'By August 2026, GQ reported, he was about to begin rehearsals for a new production, and East of Eden premiered on Netflix on October 1, 2026.' Its sequence matches the corrected body chronology from future-01."
+    },
+    {
+      "id": "future-07",
+      "severity": "minor",
+      "passage": "He spent his first Broadway years mostly avoiding the stage door.",
+      "problem": "His first Broadway show was Newsies (2012). The only stage-door evidence is the April 2017 MTV interview (S12), during the Broadway run of Dear Evan Hansen, his second Broadway show, and even then he signed 'maybe twice a week'. 'First Broadway years' stretches one dated 2017 self-report over a period it does not cover, in the section that closes the argument.",
+      "acceptance_test": "The sentence is narrowed to what S12 shows (for example, 'During Dear Evan Hansen in 2017 he mostly skipped the stage door'), or a source covering the Newsies years is cited and inventoried."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "He called it \"transcendental: either I didn't feel like I was myself, or I was the most authentic version of myself. I can't really tell which one.\"",
+      "reason": "The hook is a dated 2021 moment, not the latest press cycle. It sets up the lose-or-find-yourself question that the vessel section and the Four/Nine split return to, so it will still work in five years."
+    },
+    {
+      "passage": "He rarely did the stage-door autograph line, he told [MTV News](https://web.archive.org/web/2017/http://www.mtv.com/news/3002027/mike-faist-dear-evan-hansen-interview/) in April 2017, signing only \"maybe twice a week\" for repeat customers. Fans \"feel like they know us, in a way,\" he said, and \"I don't want to take that away from them, by having them meet who I actually am.\"",
+      "reason": "Dated 2017 first-person evidence for the central thesis (he shows himself most fully as someone else) that is independent of the 2026 press cycle. This is what lets the argument survive if the latest event is removed."
+    },
+    {
+      "passage": "The motive is Kushner's reading. The scrubbing is something he watched.",
+      "reason": "In two short sentences it separates observed behavior from a third party's inference. The standard asks for this and it rarely gets done this cleanly. Keep it."
+    },
+    {
+      "passage": "The record also lacks the scene that would separate them most clearly, Faist in open conflict or let down by a collaborator. A Six would grow wary and look for firmer ground. A Four would withdraw and insist on what feels true. Until that account exists, the Four reading holds at medium confidence.",
+      "reason": "It names a concrete, observable future discriminator and ties the confidence to it, which makes the page honest and easy to reopen. It is the most durable sentence in the type argument. Pair it with a claim trigger (future-03) rather than softening it."
+    }
+  ],
+  "assessment": "Five-year test: the thesis passes without the latest event. The hook is May 2021. The evidence that carries the argument (the 2017 MTV stage-door answer, the 2017 Interview 'lose the game' line, the 2018 Dear Evan Hansen exit, the 2021 NYT refusal of the industry trajectory, the 2024 'vessel' and 'from love') all predates the East of Eden cycle. If you remove the September-October 2026 press, the portrait and the Four-over-Six case still stand. Most dates are absolute, and the Type 6 rival gets a real section with an observable future discriminator. Durability weaknesses: (1) the 2024-2026 break, the newest of the four discriminator episodes, is misordered and the East of Eden shoot is never dated (future-01); (2) the same episode leaves out Faist's own industry-and-financing explanation from GQ, which overstates 'the reasons he gave pointed inward' (future-02); (3) the review triggers don't cover the pattern behind the 'Keeps Stepping Back' title or the missing-conflict evidence that the confidence explicitly waits on (future-03); (4) a few present-tense or relative phrasings will go stale (roommate, computed age, 'a decade', undated PBS/Cultured first mentions). About a third of the quotes, the persona_title and the closing lines come from one launch-week press cycle (S02, S03, S07, S08, S10, S21, S24, S36, S37). They are dated self-reports and stay true as statements, and the draft already flags the repeated 'dread' line, so this is noted, not a finding. Existing time-sensitive tracking (C35, C45, C85, C97) is sound. Similarity advisory: the two tripped pairs share only confidence phrasing ('the public record', 'at medium confidence'), and the next-closest unit is a one-line Type 4 definition that the following sentence immediately ties to Faist. That is ordinary type vocabulary, not reused argument. The argument is specific to this subject. Risk flags: contested_typing confirmed (already set by research). No new sensitive-allegation, historical-source or thesis-change risk. This review did not reopen web sources. It checked the dates and context behind future-01, future-02 and future-07 against the saved texts of S02, S06, S07, S09 and S12 from the research scratch directory."
+}

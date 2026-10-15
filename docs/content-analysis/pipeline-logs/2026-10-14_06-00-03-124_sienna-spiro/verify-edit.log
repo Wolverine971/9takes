@@ -1,0 +1,24 @@
+The verify stage is finished and the result is **revise**, not pass. The page itself checks out. It's held for one procedural reason: the editor changed the leading type after the reviewers had already read the draft.
+
+**The blocker.** All six reviewers read a draft that led with Type 4. Responding to their findings, the editor switched the lead to Type 2 everywhere (title, description, the type answer, the FAQs and the evidence record). The standard says a lead change at that point must go back to the reviewers. The editor flagged this too and didn't try to absorb it. The gate detects it independently and blocks on it. Next step: `scripts/run-blog-pipeline.sh Sienna-Spiro --refresh --expanded-review`. On my own read of the sources, the Type 2 lead is defensible, but the reviewers still need to challenge it as written.
+
+**How I checked.**
+- **Web sources:** I re-fetched all of them live. Every printed quotation matches in words and context.
+- **Video sources:** YouTube blocked live caption downloads. I matched each video quote against the earlier stages' saved, timestamped captions and re-transcribed every one from the audio myself with Whisper. That includes every line the edit stage flagged as unconfirmed from audio.
+- **"I'm actually so stupid sometimes":** the captions are ambiguous about who says it. My transcription shows it's hers, continuing her own story.
+- **Nepotism response:** a fresh search found no reply from her to the nepotism framing, so the article's dated "no response found" still holds.
+
+**Five minor findings, for the re-review to pick up:**
+- The Type 2 case says she returned to the same belief "in at least five interviews." Only two state it outright; the other three are related but weaker.
+- "The helping is the one part she never describes dropping" leans on one ambiguous line, where "not be like that" could include her over-giving, not only her clinging.
+- Two exact days ("On July 8, 2026", "on October 2, 2026") are YouTube upload dates, not the days she spoke.
+- The TODAY quote is split as if the two parts were adjacent, but a phrase between them is left out unmarked. In one Z100 line my transcription hears "could" where the captions have "can".
+- At about 3,280 words, the body runs about 30% over the open-case target of roughly 2,500.
+
+**Scores** (open-case rules): evidence 8.5, Enneagram 8.0, originality 8.5, writing 7.8, durability 8.5, hook 8.5, discoverability 7.8. Overall 8.3 (letter B), above every open-case minimum. I also independently confirmed she qualifies as an open case.
+
+The only file I wrote is `verification-edit.json` in the run folder; scratch work stayed in `/tmp`. Nothing was published or committed.
+
+Search sources:
+- [Moment: This Summer's Jewish Nepo Baby Olympics](https://momentmag.com/jewish-nepo-baby-olympics/)
+- [Wikipedia: Sienna Spiro](https://en.wikipedia.org/wiki/Sienna_Spiro)

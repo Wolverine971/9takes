@@ -1,0 +1,23 @@
+I wrote the five-year ("future") review for the Mike Faist draft to `review-future.json` in the run folder. It passes the contract's schema check. I made no other changes to the repo and published nothing.
+
+**Verdict:** the main argument survives the five-year test. The opening is a dated May 2021 moment, and the evidence that carries the Type 4 case comes from 2017–2024, before the *East of Eden* press. Strip out all the September–October 2026 interviews and the argument still holds. It has 7 findings: 2 major, which block release until the editor fixes them, and 5 minor. It also protects 4 passages.
+
+**Major findings:**
+- **The two-year break is told in the wrong order.** GQ (August 2026) dates the *East of Eden* shoot to about 2024, before the break. But the draft places "What brought him back was a test he set before taking the job" after the 2025 *Anna Christie* withdrawal, so it reads as if *East of Eden* ended the break. The intro and FAQ contradict it, and the shoot is never given a year.
+- **One of his own explanations is left out.** In that same GQ interview, Faist blamed part of the gap on outside forces: "things… don't happen because of the industry and financing… There's no control in this industry." The draft quotes only his inward reasons and then says "Each time, the reasons he gave pointed inward." That overstates the evidence for the comparison that separates the Type 4 reading from Type 6.
+
+**Minor findings:**
+- **Missing review triggers.** The meta title says he "Keeps Stepping Back," and the draft says confidence stays medium until there's an account of him in conflict. The evidence record tracks neither, and neither has a trigger telling a future update when to re-check it.
+- **Phrases that will go stale:** "now his roommate" (true in 2024), "34 as of October 2026" in the age FAQ, and "a decade of paper trail." The PBS and Cultured interviews also aren't dated where they're first quoted.
+- **The break FAQ never says the break ended.**
+- **One overstatement:** "His first Broadway years mostly avoiding the stage door" rests on a single 2017 *Dear Evan Hansen* interview. His first Broadway show was *Newsies* in 2012.
+
+**Protected passages:**
+- The 2021 "transcendental" opening.
+- The 2017 stage-door quotes.
+- "The motive is Kushner's reading. The scrubbing is something he watched."
+- The "Until that account exists" passage, which says exactly what evidence would settle Type 4 versus Type 6.
+
+The similarity check's matches were only stock confidence wording ("the public record," "at medium confidence"), not a reused argument. I kept the "contested typing" risk flag that research set and added no new risks.
+
+I didn't reopen web sources. The first two findings and the stage-door one are checked against the GQ, Esquire, Cultured, Interview and MTV texts saved during research.

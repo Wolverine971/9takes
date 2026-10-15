@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "9edd7257f98ee24cc5af89db885caea2ac059392d31d42316edcb2b70614d346",
+  "evidence_sha256": "b5d6733f12f988e152896a829b71c5bd34a19acd276a3ef2c5a915bd77555546",
+  "risks": {
+    "sensitive_allegations": false,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "By August 26 he had [withdrawn](https://www.newyorktheatreguide.com/theatre-news/news/tom-sturridge-brian-darcy-james-join-michelle-williams-in-anna-christie-off-broadway). No reason has been made public. Kushner told GQ he was \"intrigued by what he's decided to do and what he has decided not to do and what he's fought hard to get out of.\"",
+      "problem": "Implied adjacency suggests a motive. In GQ (S02, live page rechecked 2026-10-15) Kushner's line is a general comment near the end of the piece. It follows \"That's hard with actors, because you can also become an actor who says no to a lot\" and is not about Anna Christie or any named project. Putting it right after \"No reason has been made public\" leads readers to think Faist \"fought hard to get out of\" Anna Christie. That gives a manner and motive to a withdrawal the record leaves unexplained. It also drops Kushner's own framing (\"says no to a lot\") and his praise in the next sentence.",
+      "acceptance_test": "The Kushner quote is no longer in the Anna Christie paragraph or directly after it. Wherever it appears, the prose says it is Kushner's general remark about Faist's choices, ideally with his \"says no to a lot\" setup. No sentence in the body, FAQs, description or meta_title implies how or why he left Anna Christie."
+    },
+    {
+      "id": "subject-02",
+      "severity": "major",
+      "passage": "Faist moves toward it, and he refuses firmly instead of drifting, as Kushner's calls and _Anna Christie_ show.",
+      "problem": "The Anna Christie withdrawal is used as evidence of character. Two sources are public: S27 (announced June 2025) and S26 (\"has withdrawn\" by August 26, 2025). No source says it was a refusal at all, let alone a firm one, or that the reason was artistic and not scheduling, health, family or a producer's decision. The draft itself says \"No reason has been made public\" and \"he has never said why he left Anna Christie.\" Citing it as proof that he \"refuses firmly\" invents a motive. The same thing happens more quietly in \"Each time since ... The reasons he gave sat inside him,\" which counts the 2024-26 gap, Anna Christie included, among episodes with inward reasons.",
+      "acceptance_test": "Anna Christie is not cited anywhere as evidence of a trait (firmness, refusal, authenticity, stepping back when work stops feeling like his own). The Nine paragraph's \"refuses firmly\" rests only on documented refusals: Kushner's account of turned-down parts, and the offers the 2021 NYT says he was turning down. Any generalization about \"the reasons he gave\" covers only episodes where he actually gave a reason."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "What brought him back was a test he set before taking the job. Zoe Kazan, who adapted _East of Eden_, told GQ they met twice before he agreed.",
+      "problem": "Chronology error that builds a false story arc. In August 2026 GQ (S02, live page rechecked) calls his upcoming job \"the first production he's worked on since East of Eden two years ago.\" The draft says the same at its opening: \"After playing Art Donaldson in Challengers in 2024 ... and then shooting East of Eden, he worked on nothing new for about two years.\" So the Kazan meetings and the shoot came before the break. Placing this sentence after the 2025 Anna Christie withdrawal and calling East of Eden \"what brought him back\" invents a withdraw-then-return-on-his-own-terms arc and misdates his decision.",
+      "acceptance_test": "The Kazan meetings and East of Eden shoot come before the break, dated to roughly 2024 per GQ's \"two years ago\" and with no unsupported month. No sentence says East of Eden ended the break. Any \"return\" means the October 1, 2026 premiere and press, or the unnamed production he was about to rehearse in August 2026. The body and FAQ timelines agree."
+    },
+    {
+      "id": "subject-04",
+      "severity": "major",
+      "passage": "Faist's own explanation pointed inward again.",
+      "problem": "His own explanations are left out, and they cut against the framing. In the same GQ piece (S02, live page rechecked) he was asked whether it was the grind of promotion. He said \"It's the public gaze\" and described losing the anonymity he had loved. Of the gap itself he said \"There's things that pop up and for whatever reason, they don't happen because of the industry and financing ... There's no control in this industry.\" In the Cultured answer the draft quotes twice (S07, live page rechecked), he goes on: \"The truth is that Challengers was a lot. It was very overwhelming ... things did change for me, and the dust had to settle a little bit.\" So his own account mixes outside forces (industry, financing, sudden fame) with the inward reasons. Leaving these out, saying his explanation \"pointed inward again,\" and then stating flatly \"He protects the authenticity of what he shows the world and pays for it in security\" turns the gap into a chosen trade. He partly describes it as things he could not control. The \"Why did Mike Faist take a break after Challengers?\" FAQ has the same gap. (The \"public gaze\" answer arguably supports the being-seen thesis, so including it need not weaken the argument.)",
+      "acceptance_test": "The section and the break FAQ include, in his words or a close sourced paraphrase, both (a) the industry-and-financing / \"no control\" explanation and (b) the public-gaze / \"Challengers was a lot ... overwhelming\" explanation. The \"pointed inward\" framing no longer contradicts them. The \"Four's trade\" conclusion is marked as interpretation (\"this suggests\") or limited to the episodes where he gave an inward reason."
+    },
+    {
+      "id": "subject-05",
+      "severity": "major",
+      "passage": "Each time since, the security he gave up was the kind that industry pays out: momentum, a New York apartment, the next big part.",
+      "problem": "Assigns a motive his own record explains another way. Another Man (S01) says he returned \"in February 2021 when his father got sick, to be closer to his family\" and that \"he moved back to Ohio when his dad fell ill. He sold his flat in Brooklyn and bought a house in Columbus's German Village.\" GQ (S02) says he moved back \"to help care for his ailing father\" and still lives in Brooklyn part of the time. The 2021 NYT has him saying \"I'm going to hang out with my family in Ohio.\" Counting the Brooklyn sale as security given up for authenticity overrides that explanation, and selling one home to buy another near family is not clearly a loss of security. Relatedly, \"Under overload he moves off, usually alone or with the dog, more than toward allies or structure. After the pandemic shutdown it was the open road\" calls 2020-21 a solitary retreat and leaves out that he moved toward his family that same year.",
+      "acceptance_test": "The New York apartment is dropped from the list of things given up for authenticity. If kept, the sentence says the move coincided with his father's illness, per Another Man and GQ. The \"moves off ... alone\" passage acknowledges the 2021 move home to help care for his father, or is narrowed to the episodes it actually fits. No sentence presents the 2021 move to Ohio as a purely career-driven choice."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "That spring he described Evan and Connor to Interview, and the sentence drifted from the characters into the first person:",
+      "problem": "An interpretation is presented as an observation about the text. In Interview (S09, March 31, 2017) the \"we\" is generic and generational. The passage goes on: \"Teens don't want to let people know how they are actually feeling. I think that's where this generation is, and where everyone feels marginalized and displaced a little bit.\" In a section titled \"Who I actually am,\" saying the sentence \"drifted ... into the first person\" reads as a slip of self-disclosure. The evidence record admits it is first-person plural and \"not confessing.\"",
+      "acceptance_test": "The prose either calls it a general \"we\" about his characters' generation (optionally quoting \"Teens don't want to let people know how they are actually feeling\"), or drops the \"drifted into the first person\" framing. The quote is not presented as a statement about himself."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "In 2021 he told the Times, \"I don't care enough.\"",
+      "problem": "The quote is stripped of its object. In the NYT Q&A (S04) it follows \"The pandemic nearly killed us and — what, I just want to be an actor? That's ridiculous. [Laughs.]\" He is laughing off the ambition to be merely a working actor. Right after, he says \"I can't tell if I hate acting or if I love it too much.\" Quoted alone as his \"account of the job,\" it reads as indifference to acting, which sets up an indifference-versus-\"addict\" contrast the source does not support.",
+      "acceptance_test": "The quote appears with enough context to show what he didn't care enough about (just being a working actor, said laughing). Alternatively, the 2021 side of the contrast uses \"I can't tell if I hate acting or if I love it too much.\""
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "a man who got a pilot's license on what he called a \"really crazy and really impulsive\" whim",
+      "problem": "The reason he gave is dropped. In Interview (S09) he took the flight and got the license because \"That's how we can bond!\" with relatives he had recently met, and he adds \"now we bond as a family in a way.\" Calling it a \"whim\" erases that relational reason. The reason would actually strengthen the draft's point against Type 5.",
+      "acceptance_test": "The sentence says he did it partly to bond with family members, with no birth-family names, per the research do-not-use list. Alternatively, \"whim\" is removed and the quote stays as his description of the decision."
+    },
+    {
+      "id": "subject-09",
+      "severity": "minor",
+      "passage": "He spent his first Broadway years mostly avoiding the stage door.",
+      "problem": "The only source is MTV, April 2017 (S12). That covers Dear Evan Hansen, about five years after his 2012 Newsies debut. He says he would \"distance myself a little bit\" and went out \"maybe twice a week\" to thank repeat customers. Nothing documents his Newsies years, and \"mostly avoiding\" overstates \"a little bit.\" This sentence carries part of the conclusion.",
+      "acceptance_test": "The sentence is dated to Dear Evan Hansen (2017) and sized to his words. For example: during Dear Evan Hansen he kept his distance from the stage door, signing about twice a week for repeat fans."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The motive is Kushner's reading. The scrubbing is something he watched.",
+      "reason": "A model separation of observed behavior from a witness's motive reading. It lets the most generous anecdote in the record stand without overclaiming."
+    },
+    {
+      "passage": "He did not say whether a film role was offered.",
+      "reason": "Keeps the draft from turning his absence from the Dear Evan Hansen film into a refusal he never described. This is the fairness discipline other passages need (see subject-02, subject-05)."
+    },
+    {
+      "passage": "The record also lacks the scene that would separate them most clearly, Faist in open conflict or let down by a collaborator. A Six would grow wary and look for firmer ground. A Four would withdraw and insist on what feels true. Until that account exists, the Four reading holds at medium confidence.",
+      "reason": "States plainly what the public record cannot yet show and ties confidence to it, without guessing at an inner life."
+    },
+    {
+      "passage": "For a later _East of Eden_ moment with only a few lines, which an assistant director would usually read, \"he insisted on coming back early to be in the room and reading with me,\" she told [TV Insider](https://www.tvinsider.com/1294095/east-of-eden-cathy-charles-florence-pugh-mike-faist-interview/). \"And what that created was a whole relationship.\"",
+      "reason": "A specific, sourced behavior from a named colleague that the type doesn't predict. It shows the person rather than flattering him or fitting him to the thesis."
+    },
+    {
+      "passage": "Circumstance explains part of every episode: the pandemic, his father's illness, a studio film collapsing. And he has never said why he left _Anna Christie_.",
+      "reason": "The honest limit the fairness fixes depend on. Keep it, and make the rest of the section consistent with it (subject-01, -02, -04, -05)."
+    }
+  ],
+  "assessment": "Fairness proxy review (role: subject), checked against the research-stage source texts saved in /tmp/mike-faist-research. GQ (S02) and Cultured (S07) were re-opened live on 2026-10-15 for the passages behind subject-01, -03 and -04. Overall the draft handles sensitive personal material carefully. The adoption, his father's illness and death, food stamps and the \"dark, depressed place\" all come from his on-record interviews, are attributed, and are not diagnosed or tied to a causal childhood story. The do-not-use list is respected: no birth-family names, no relationship or sexuality speculation, no weight figure. The Kushner mural story and the Dear Evan Hansen film answer show the right separation of observation from inference. The fairness problems cluster in \"Walking away at the top,\" where the author's authenticity motive gets applied to events his record explains differently or not at all. An Anna Christie withdrawal with no known reason is made to imply a fight to get out (via Kushner's general remark) and is cited as proof of firm refusal. East of Eden is misplaced as the end of a break it actually preceded. His own explanations for the gap (industry and financing, \"no control,\" \"the public gaze,\" \"Challengers was a lot ... overwhelming\") are left out. The 2021 Brooklyn sale, which Another Man and GQ tie to his father's illness, is counted as security given up for authenticity. Fixing these does not require dropping the Type 4 read. Several omitted lines (public gaze, loss of anonymity) arguably support the being-seen thesis. But the \"Four's trade\" conclusion should be stated as interpretation and limited to episodes where he gave an inward reason. Risk flags: contested_typing stays true from research, and no new sensitive-allegation, historical-source or thesis-change risk was found. The similarity advisory tripped only on confidence boilerplate (\"the public record,\" \"at medium confidence\") shared with the Jeremy Allen White and Dakota Johnson pages. That is ordinary hedging vocabulary, not reused argument, and the Faist-specific evidence and structure are distinct."
+}

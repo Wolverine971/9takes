@@ -82,7 +82,7 @@ The grandiosity went on the record too. Neumann told employees, friends, and rep
 
 And then he didn't go to prison. After the IPO collapse and the forced ouster, he took $1.7 billion off the table. Two years later, [Marc Andreessen](/personality-analysis/marc-andreessen) [announced Flow](https://a16z.com/announcement/flow/), a16z's largest single check ever: $350 million for a residential-real-estate company that had not yet started operating. Andreessen described Neumann, in writing, as a _"visionary leader"_ who would _"revolutionize"_ residential housing. The same VC ecosystem that lit $40 billion on fire on Neumann's first company wrote him a fresh check for his second. (Why, in [Frame 5](#frame-5-the-investor-side).)
 
-He is not even the only ousted founder of the era who walked. Travis Kalanick was forced out of Uber in 2017 by Benchmark, the same firm whose Bruce Dunlevie shows up in Frame 5, and was never criminally charged either. He runs CloudKitchens now. The "founder ousted, founder uncharged, founder funded again" loop is the default outcome for a 3 with a substrate the VC class still wants exposure to.
+He is not even the only ousted founder of the era who walked. [Travis Kalanick](/personality-analysis/travis-kalanick) was forced out of Uber in 2017 by Benchmark, the same firm whose Bruce Dunlevie shows up in Frame 5, and was never criminally charged either. He runs CloudKitchens now. The "founder ousted, founder uncharged, founder funded again" loop is the default outcome for a 3 with a substrate the VC class still wants exposure to.
 
 ## Frame 2: Elizabeth Holmes, the 3w2 Who Collected Patrons First
 

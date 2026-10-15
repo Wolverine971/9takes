@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "subject",
+  "content_sha256": "0751ee70e4adbb996a1cecd857e21f6c938e39b3691a458396341956a5dff384",
+  "evidence_sha256": "424793da85772e3b2c38733fc13fc157dcd9eaa4294f12623ec08538b8c3c898",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": false,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "subject-01",
+      "severity": "major",
+      "passage": "The [Austin American-Statesman](https://www.statesman.com/entertainment/music/article/sienna-spiro-acl-fest-review-22470856.php) called her October 9 Austin City Limits set one of the festival's \"all-time best nepo baby sets.\"",
+      "problem": "The Statesman review (Ramon Ramirez, October 10, 2026; re-fetched live) is a rave. Its thesis is \"From Dakota Johnson to Ben Stiller, nepo babies can be flat-out awesome.\" It says \"Sienna Spiro, however, is a storyteller. She's more like Adele. Her heart is on her sleeve. Her lyrics sting,\" and that thousands of teens and the reviewer cried. The draft files it under \"Critics raise a different question\" and follows with \"The labels matter here only because they name the obvious counter-case, that the sadness is style.\" That turns a review that rejects the 'sadness is style' reading into support for it. The same sentence also merges two separate charges. Moment itself defines 'nepotism baby' and 'industry plant' as success \"purchased\" through connections or money, not as faked feeling. The 'emulates the emotional turbulence' charge is a separate remark by one Moment critic. The parents FAQ repeats the merge: \"Critics have attached the labels...\"",
+      "acceptance_test": "The Statesman is either described accurately, as a positive review that uses the label playfully and says her songwriting came across as heartfelt (its 'heart is on her sleeve' verdict or a faithful paraphrase), or it is removed. The article no longer says the nepotism labels name the 'sadness is style' counter-case. That counter-case is attributed only to the Moment critic's remark. The parents FAQ attributes the labels to commenters and outlets as Moment describes them, and does not present the Statesman as a detractor."
+    },
+    {
+      "id": "subject-03",
+      "severity": "major",
+      "passage": "Rolling Stone UK reported an ADHD diagnosis.",
+      "problem": "This leaves out the subject's own published answer to the article's central question. The same Rolling Stone UK piece (May 27, 2026; re-fetched live) has her tie the diagnosis directly to the visitor theme: \"That's what a lot of the music is about, like 'The Visitor' – struggling to keep up with people and being [too] aware of everything, you end up losing people – and you're temporary.\" She calls the diagnosis \"honestly quite validating.\" Notion (November 2025), the source of the opening's 'medicine' quote, has her say in the same passage: \"I'm neurodivergent and I wasn't diagnosed when I was young, so I was very confused by what I was feeling... everyone would be like, 'You're so dramatic, you're so emotional, you're so sad!'\" The draft sets up the visitor feeling as Four versus Two (\"That reads like a Four... an answer that reads like a Two\"). It presents ADHD only as the author's own alternative (\"could produce much of the Four-like material on their own\"). The reader never learns that she herself has explained the feeling, and that her explanation fits neither type.",
+      "acceptance_test": "Near the visitor theme or in the circumstances paragraph, the article states, with attribution and date, that she has linked the visitor/temporary feeling to her ADHD diagnosis (Rolling Stone UK, May 2026) and/or to undiagnosed neurodivergence in childhood (Notion, November 2025). It keeps 'Nothing here reads a type from her health, or her health from a type.' The evidence record adds a self_report claim with the exact passage."
+    },
+    {
+      "id": "subject-02",
+      "severity": "minor",
+      "passage": "and that \"it feels like Spiro emulates the emotional turbulence without having experienced it herself.\"",
+      "problem": "In Moment (September 2, 2026) the clause is a comparison with Amy Winehouse: \"nothing compares to Winehouse—it feels like Spiro emulates...\" It sits in a passage calling Visitor \"a solid debut\" and saying \"she has an aura and classiness, and at 20, there's ample time to figure herself out.\" Cut loose from the comparison, a musical judgment reads as a flat claim that a 21-year-old has not lived through what she sings about. The record's answer is already in the draft (bullying she says no one believed at 10, depression while writing 'Pure'), but the article never sets it against this specific charge.",
+      "acceptance_test": "The Moment remark is presented as the critic's comparison with Winehouse in an otherwise mixed-to-positive review, or clearly marked as one critic's impression. The paragraph notes that her disclosed experiences bear on the 'without having experienced it' claim, without using them as type evidence."
+    },
+    {
+      "id": "subject-04",
+      "severity": "minor",
+      "passage": "\"I'm very competitive,\" she said on another Z100 segment.",
+      "problem": "The line comes 16 seconds into a Z100 segment where she is making friendship bracelets (\"I feel like I'm in a competition... See, I'm already failing\"). The suit anecdote is told laughing and ends \"I'm actually so stupid sometimes.\" The 2 a.m. TikTok live ends with her falling asleep on air. The draft prints all three straight as evidence of \"drive.\" The Three case then rests on them (\"from the school campaign to the suit\"), so playful self-mockery carries more weight than its context allows. The evidence record notes this (C17 alternative), but the prose does not.",
+      "acceptance_test": "The competitive remark either gives its setting (a friendship-bracelet game) or is cut. The suit story keeps her self-mocking frame. The Three case relies mainly on the non-comic evidence (the ELAM campaign, over-singing for compliments, the 'cooler' phase, 'Back to Blonde')."
+    },
+    {
+      "id": "subject-05",
+      "severity": "minor",
+      "passage": "Even her signature method deflates the myth.",
+      "problem": "In the AP clip she says the full-take method \"originally... came from me being a bit lazy,\" then corrects herself: \"No, well now maybe now it is [artistic], but... at first.\" She goes on to give her current reason: 60s and 70s jazz and soul recorded to tape, Roberta Flack, \"The imperfections make it feel intimate.\" The draft prints only the origin and frames it as deflating \"the myth,\" a myth the article never establishes. That turns a candid aside into a debunking of her craft.",
+      "acceptance_test": "Either a clause gives her stated present-day reason, or the 'deflates the myth' framing is removed. Cutting the paragraph, the draft's own suggested first cut, also resolves this."
+    },
+    {
+      "id": "subject-06",
+      "severity": "minor",
+      "passage": "Her father was \"my biggest critic for the longest time,\" she told NYLON.",
+      "problem": "NYLON's own context: she \"chuckles at the memory now.\" Her father turned her on to Sinatra and Simone. The piece ends with her making \"a fan out of her once-biggest critic: her dad\" (\"I'm like, 'See, I told you!'\"). Printed alone, in a paragraph about singing for praise, the line casts him as the critical parent behind her need for validation. He is a named, non-performing third party, and the article names him again in the nepotism paragraph.",
+      "acceptance_test": "A clause adds NYLON's resolution (he is now a fan, and she laughs about it), or the line is rephrased so it does not imply a current or causal relationship that the source does not support."
+    },
+    {
+      "id": "subject-07",
+      "severity": "minor",
+      "passage": "\"I don't mean this to sound sad or make me sound like a victim or anything, but I just think some people are naturally sad, and I definitely feel that way about myself. I think it runs in my family.\"",
+      "problem": "The quotation stops just before her own framing. Vogue continues: \"and I don't think it's a bad thing. I think it's a very normal, human way to be. Some people just wake up and they naturally feel quite low, and they are also absolutely able to experience happy moments.\" The draft then stacks 'numb quite a lot' and 'feel like a real person' on top. That presents as suffering what she explicitly calls ordinary and compatible with happiness. Her framing also explains the cheerful interview register that the evidence record lists as unexplained.",
+      "acceptance_test": "The section includes her 'I don't think it's a bad thing... able to experience happy moments' framing, quoted or faithfully paraphrased with attribution, so the reader sees how she herself characterizes the sadness."
+    },
+    {
+      "id": "subject-08",
+      "severity": "minor",
+      "passage": "The Visitor Who Made Herself Needed",
+      "problem": "The persona title names her by the helper strategy that the body says she describes in the past tense and has stopped because \"it's actually exhausting\" (\"in nearly every telling, the helper is who she used to be\"). It fixes her as the person she says she no longer is. In an open case it also brands her with the rival type's strategy, which the article does not endorse.",
+      "acceptance_test": "The persona_title does not present a past-tense coping strategy as her present identity. For example, it uses the visitor/temporary motif alone, or makes the tension explicit. It matches the body's account of change and the leading-read framing."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "She has since called the situation \"not healthy\" and said the man, whom she has not named, \"did not have good intentions with me.\" That is her account alone.",
+      "reason": "This is a model treatment of a sensitive account. It uses her words with attribution, does not name or speculate about the man, and labels the account as single-sourced. It also leaves out the age-gap detail she volunteered elsewhere, which spares her the spectacle without distorting what she said. Her own interpretation ('I'm a very delusional person', 'as like a protective thing, I just pretend something's real') supports the inference that follows."
+    },
+    {
+      "passage": "Nothing here reads a type from her health, or her health from a type.",
+      "reason": "This states an explicit boundary that keeps disclosed ADHD, depression, nodules and body image from being turned into type evidence or diagnosis. Keep it when subject-03 adds her own ADHD account."
+    },
+    {
+      "passage": "Melancholy and candor are her genre's currency. That doesn't make hers false. It makes them weak evidence of motive.",
+      "reason": "This is fair skepticism. It treats the promotional context as a limit on how much the evidence can show, not as an accusation of insincerity. The manager's 'tried to make content feel authentic' (Music Week) supports the premise."
+    },
+    {
+      "passage": "Neither piece shows that money or connections bought her career, and no response from her has been found.",
+      "reason": "This is the missing-response disclosure the standard asks for on a disputed public framing. Keep it when the paragraph is fixed under subject-01."
+    },
+    {
+      "passage": "But in nearly every telling, the helper is who she used to be.",
+      "reason": "This respects her own account of change instead of fixing her in a childhood adaptation, and it is the fairest sentence in the Two section."
+    }
+  ],
+  "assessment": "Fairness proxy. I checked the sensitive and thesis-bearing passages against the research stage's saved page text and caption transcripts in /tmp/sienna-spiro-research, and re-fetched the Statesman and Rolling Stone UK pages live to confirm the two major findings. Open-case eligibility holds. She is an adult (21). Her breakthrough was October 2025. The record is young, not under-researched: 39 opened sources and about 30 interviews from March 2025 to October 2026, with two paywalled pieces disclosed. The title, meta title, description, type FAQ and body all use 'leading read' and 'held loosely' language, and nothing overstates confidence. The sensitive material is mostly handled with care. The older man and the producer are unnamed and described in her words. Her mother's illness is omitted. OCD is not attributed to her. Health is reported only as she disclosed it, and the article separates its own skepticism from accusation. The fairness problems all run in one direction: context is trimmed in ways that make her look less sincere or more nakedly ambitious than the sources show. The Statesman rave is enlisted as a critic of her authenticity, and the nepotism labels are merged with the 'sadness is style' charge (major). Her own published explanation of the visitor feeling, her ADHD diagnosis and childhood neurodivergence, is missing from an article built around asking what causes that feeling (major). Playful lines (a bracelet-game 'very competitive', the suit, the 'lazy' origin of full takes), a resolved father-critic line, and a truncated Vogue quote each lose framing that would soften them (minor). The persona title fixes her in a role she says she left. None of this needs a thesis change. The fixes are clauses and one paragraph rewrite. The similarity advisory did not trip (max 0.095 against Freddie-Mercury, on ordinary heart-triad vocabulary), and I found no meaningful reuse of argument. I do not speak for the subject; these are checks of the public record against the draft's framing."
+}
